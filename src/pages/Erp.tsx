@@ -120,6 +120,7 @@ export default function Erp() {
             description="Comprehensive ERP platform including inventory, sales, accounting, HR, and project management modules for businesses of all sizes."
             keywords="ERP software, business management, Odoo alternative, inventory, sales, finance, HR, project management"
             structuredData={structuredData}
+            canonical="https://www.atlantisndt.com/erp"
          />
 
          {/* Hero Section */}
@@ -267,7 +268,7 @@ export default function Erp() {
                      your business operations.
                   </p>
                   <div className="flex justify-center gap-3">
-                        <Button
+                     <Button
                         size="lg"
                         variant="outline"
                         className="btn-primary"
@@ -281,9 +282,7 @@ export default function Erp() {
                         variant="outline"
                         className="btn-primary"
                      >
-                        <Link to={"/contact"}>
-                           Get demo Credentials
-                        </Link>
+                        <Link to={"/contact"}>Get demo Credentials</Link>
                      </Button>
                   </div>
                </motion.div>

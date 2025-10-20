@@ -117,6 +117,7 @@ export default function Index() {
             description="Atlantis NDT - Leading provider of Non-Destructive Testing services with 50+ certified professionals. Specializing in ultrasonic, radiographic, magnetic particle, and penetrant testing across oil & gas, marine, aerospace, and nuclear industries."
             keywords="NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, asset integrity, quality assurance"
             structuredData={structuredData}
+            canonical="https://www.atlantisndt.com/"
          />
          <Hero />
          <AnimatedStats />
@@ -319,7 +320,7 @@ export default function Index() {
                </motion.div>
             </div>
          </section>
-         <ContactDetails/>
+         <ContactDetails />
       </div>
    );
 }
