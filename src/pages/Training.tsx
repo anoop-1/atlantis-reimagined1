@@ -110,6 +110,7 @@ export default function Training() {
            description="Professional NDT training and certification programs. Level I, II, III courses in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing. VR/AR enhanced learning."
            keywords="NDT training, NDT certification, ultrasonic training, radiographic training, Level I II III certification, VR AR training, hands-on NDT courses"
            structuredData={structuredData}
+           canonical="https://www.atlantisndt.com/training"
         />
         {/* Hero Section */}
         <motion.section

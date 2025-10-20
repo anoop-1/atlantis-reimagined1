@@ -50,7 +50,7 @@ export default function Contact() {
          url: "https://atlantisndt.com",
          contactPoint: {
             "@type": "ContactPoint",
-            telephone: "+1-555-123-4567",
+            telephone: "+1 (281) 840-8969",
             contactType: "Customer Service",
             email: "info@atlantisndt.com",
          },
@@ -138,6 +138,7 @@ export default function Contact() {
             description="Contact Atlantis NDT for professional Non-Destructive Testing services. Expert team providing 24/7 support across North America."
             keywords="contact NDT services, Atlantis NDT contact, NDT inspection quote, professional NDT consulting"
             structuredData={structuredData}
+            canonical="https://www.atlantisndt.com/contact"
          />
 
          {/* Hero Section */}
@@ -222,7 +223,11 @@ export default function Contact() {
                            </p>
                         </CardHeader>
                         <CardContent>
-                           <form ref={formRef} className="space-y-6" onSubmit={handleSubmit}>
+                           <form
+                              ref={formRef}
+                              className="space-y-6"
+                              onSubmit={handleSubmit}
+                           >
                               <div className="grid md:grid-cols-2 gap-4">
                                  <div>
                                     <Label htmlFor="firstName">
@@ -431,7 +436,7 @@ export default function Contact() {
                      size="lg"
                      variant="outline"
                      className="bg-transparent border-primary text-primary hover:bg-primary hover:text-white"
-                     onClick={() => window.location.href = 'tel:+12818408969'}
+                     onClick={() => (window.location.href = "tel:+12818408969")}
                   >
                      Emergency Hotline: +1 (281) 840-8969
                   </Button>

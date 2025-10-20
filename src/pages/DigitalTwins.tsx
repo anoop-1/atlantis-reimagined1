@@ -5,6 +5,7 @@ import ContactDetails from "@/components/ContactDetails";
 import InteractiveJet from "@/components/InteractiveJet";
 import InteractivePlant from "@/components/InteractivePlant";
 import InteractivePipe from "@/components/InteractivePipe";
+import { SEOHead } from "@/components/SEOHead";
 
 const models = [
    {
@@ -38,6 +39,12 @@ export default function DigitalTwins() {
 
    return (
       <>
+         <SEOHead
+            title="Digital Twins"
+            description="Explore our advanced Digital Twins technology for industrial applications. Interactive 3D models for training, simulation, and analysis of complex mechanical systems including jet engines, industrial plants, and equipment."
+            keywords="digital twins, 3D models, industrial simulation, jet engine simulation, factory simulation, industrial training, mechanical systems, interactive models, virtual training, engineering visualization"
+            ogImage="/atlantis.jpg"
+         />
          <Navigation />
 
          <div className="w-full min-h-screen flex flex-col bg-gray-100">
