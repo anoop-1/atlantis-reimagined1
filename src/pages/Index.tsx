@@ -117,7 +117,7 @@ export default function Index() {
             description="Atlantis NDT - Leading provider of Non-Destructive Testing services with 50+ certified professionals. Specializing in ultrasonic, radiographic, magnetic particle, and penetrant testing across oil & gas, marine, aerospace, and nuclear industries."
             keywords="NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, asset integrity, quality assurance"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/"
+            canonical="https://atlantisndt.com/"
          />
          <Hero />
          <AnimatedStats />
@@ -209,12 +209,24 @@ export default function Index() {
                      We offer VR/AR or web-based Digital Twins used for asset
                      integrity and enhanced learning programs in NDT.
                   </p>
-                  <Button className="btn-primary group">
-                     <Link to="/digital-twins" className="flex items-center">
-                        Explore Digital Twins
-                        <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-                     </Link>
-                  </Button>
+                  <div className="flex items-center justify-center gap-4">
+                     <Button className="btn-primary group">
+                        <Link to="/digital-twins" className="flex items-center">
+                           Explore Digital Twins
+                           <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+                        </Link>
+                     </Button>
+
+                     <Button
+                        variant="outline"
+                        className="group bg-gray-50 border-gray-200 text-gray-700 hover:bg-primary hover:text-white transition-all"
+                     >
+                        <Link to="/training" className="flex items-center">
+                           View Training
+                           <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+                        </Link>
+                     </Button>
+                  </div>
                </motion.div>
             </div>
          </section>

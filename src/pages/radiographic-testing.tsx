@@ -23,7 +23,7 @@ export default function RadiographicTesting() {
       datePublished: "2025-10-07",
       mainEntityOfPage: {
          "@type": "WebPage",
-         "@id": "https://www.atlantisndt.com/blog/radiographic-testing",
+         "@id": "https://atlantisndt.com/blog/radiographic-testing",
       },
    };
 
@@ -105,7 +105,7 @@ export default function RadiographicTesting() {
             description="Explore Radiographic Testing (RT) using X-rays and gamma rays for detecting internal defects, ensuring weld quality, and maintaining industrial safety standards."
             keywords="Radiographic Testing, X-ray testing, gamma ray testing, NDT services, weld inspection, internal defect detection, industrial radiography, non-destructive testing, quality assurance, Atlantis NDT"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/blog/radiographic-testing"
+            canonical="https://atlantisndt.com/blog/radiographic-testing"
          />
 
          {/* Header Section */}

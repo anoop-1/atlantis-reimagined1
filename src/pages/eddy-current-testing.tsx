@@ -6,16 +6,8 @@ import { CheckCircle, Zap, Shield, Clock, Target, Gauge } from "lucide-react";
 export default function EddyCurrentTesting() {
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: "Eddy Current Testing Explained",
-      description:
-         "Learn about Eddy Current Testing (ECT) – a fast and precise Non-Destructive Testing method for detecting surface and near-surface defects in conductive materials.",
-      author: { "@type": "Organization", name: "Atlantis NDT" },
-      datePublished: "2025-10-10",
-      mainEntityOfPage: {
-         "@type": "WebPage",
-         "@id": "https://www.atlantisndt.com/eddy-current-testing",
-      },
+        "@type": "WebPage",
+        "@id": "https://atlantisndt.com/eddy-current-testing",
    };
 
    const advantages = [
@@ -85,7 +77,7 @@ export default function EddyCurrentTesting() {
             description="Discover Eddy Current Testing (ECT), a precise Non-Destructive Testing method for detecting surface and near-surface defects. Learn about its advantages, applications, and best practices."
             keywords="Eddy Current Testing, NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, quality assurance, asset integrity, heat exchanger inspection"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/blog/eddy-current-testing"
+              canonical="https://atlantisndt.com/blog/eddy-current-testing"
          />
 
          {/* Hero Section */}

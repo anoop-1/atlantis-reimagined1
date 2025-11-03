@@ -91,7 +91,7 @@ export default function Services() {
            description="Comprehensive Non-Destructive Testing services including ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing. State-of-the-art equipment and certified methodologies."
            keywords="NDT services, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, non-destructive testing methods"
            structuredData={structuredData}
-           canonical="https://www.atlantisndt.com/services"
+           canonical="https://atlantisndt.com/services"
         />
         {/* Hero Section */}
         <motion.section

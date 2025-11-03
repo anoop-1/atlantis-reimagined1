@@ -77,7 +77,7 @@ export default function ConsultingServices() {
             description="Expert Level III NDT consulting services including training, audits, quality assurance, and compliance for advanced inspection programs."
             keywords="Level III NDT consulting, NDT audit, NDT training, ASNT Level III, ISO 9712 consulting, NDT quality assurance"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/consulting-service"
+            canonical="https://atlantisndt.com/consulting-service"
          />
 
          {/* Hero Section */}

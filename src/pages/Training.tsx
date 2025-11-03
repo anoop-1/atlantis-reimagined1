@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { GraduationCap, Award, BookOpen, Users, Clock, Trophy } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { SEOHead } from '@/components/SEOHead';
@@ -80,37 +81,72 @@ export default function Training() {
     }
   ];
 
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "Atlantis NDT Training",
-    "description": "Professional NDT training and certification programs",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "NDT Training Programs",
-      "itemListElement": courses.map((course, index) => ({
-        "@type": "Offer",
-        "position": index + 1,
-        "itemOffered": {
-          "@type": "Course",
-          "name": course.title,
-          "description": course.description,
-          "timeRequired": course.duration,
-          "courseMode": "blended"
-        }
-      }))
-    }
-  };
+      const eduOrg = {
+         "@type": "EducationalOrganization",
+         "name": "Atlantis NDT Training",
+         "description": "Professional NDT training and certification programs",
+         "areaServed": "India",
+         "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "NDT Training Programs",
+            "itemListElement": courses.map((course, index) => ({
+               "@type": "Offer",
+               "position": index + 1,
+               "itemOffered": {
+                  "@type": "Course",
+                  "name": course.title,
+                  "description": course.description,
+                  "timeRequired": course.duration,
+                  "courseMode": "blended"
+               }
+            }))
+         }
+      };
+
+      const faq = {
+         "@type": "FAQPage",
+         "mainEntity": [
+            {
+               "@type": "Question",
+               "name": "What NDT certification levels do you offer?",
+               "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We offer Level I, II and III certification courses aligned with SNT-TC-1A and NAS 410 standards."
+               }
+            },
+            {
+               "@type": "Question",
+               "name": "Do you provide hands-on practical training?",
+               "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes — our courses include hands-on practice with industry-grade equipment and practical assessments."
+               }
+            },
+            {
+               "@type": "Question",
+               "name": "Are courses available in India?",
+               "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes — we run scheduled training programs in India and can provide on-site corporate training. Contact us for the next schedule."
+               }
+            }
+         ]
+      };
+
+      const structuredData = {
+         "@context": "https://schema.org",
+         "@graph": [eduOrg, faq]
+      };
 
   return (
      <div className="min-h-screen pt-20">
         <Navigation />
         <SEOHead
-           title="Training Programs"
-           description="Professional NDT training and certification programs. Level I, II, III courses in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing. VR/AR enhanced learning."
-           keywords="NDT training, NDT certification, ultrasonic training, radiographic training, Level I II III certification, VR AR training, hands-on NDT courses"
+           title="NDT Training Programs — India"
+           description="Professional NDT training and certification programs in India. Level I, II, III courses in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing. VR/AR enhanced learning."
+           keywords={`NDT training India, NDT certification India, ultrasonic training India, radiographic training India, Level I II III certification, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing`}
            structuredData={structuredData}
-           canonical="https://www.atlantisndt.com/training"
+           canonical="https://atlantisndt.com/training"
         />
         {/* Hero Section */}
         <motion.section
@@ -137,6 +173,28 @@ export default function Training() {
               </motion.div>
            </div>
         </motion.section>
+
+        {/* Keywords / Topics summary for SEO (naturally written) */}
+        <section className="py-6">
+           <div className="container mx-auto px-6 max-w-4xl">
+              <Card className="border-0 shadow-sm">
+                 <CardContent className="p-6">
+                    <p className="text-muted-foreground text-base leading-relaxed">
+                       Our training covers a wide range of inspection methods
+                       and testing topics, including non-destructive testing
+                       (NDT), ultrasonic testing and examination, magnetic
+                       particle testing (MPI), radiography and radiography
+                       testing, eddy current testing, liquid penetrant and
+                       penetrant testing, and both destructive and
+                       non-destructive inspection techniques. We also include
+                       practical courses on test planning, reporting, and
+                       quality assurance to prepare candidates for industry
+                       certification and real-world inspections.
+                    </p>
+                 </CardContent>
+              </Card>
+           </div>
+        </section>
 
         {/* Training Levels */}
         <section className="py-20">
@@ -237,6 +295,55 @@ export default function Training() {
                     </motion.div>
                  ))}
               </div>
+           </div>
+        </section>
+
+        {/* FAQ visible content (using themed Accordion) */}
+        <section className="py-8">
+           <div className="container mx-auto px-6 max-w-4xl">
+              <h3 className="text-2xl font-semibold mb-4">
+                 Frequently asked questions
+              </h3>
+              <Accordion type="single" collapsible>
+                 <AccordionItem value="q1">
+                    <AccordionTrigger>
+                       What NDT certification levels do you offer?
+                    </AccordionTrigger>
+                    <AccordionContent>
+                       <p className="text-muted-foreground">
+                          We offer Level I, II and III certification courses
+                          aligned with SNT-TC-1A and NAS 410 standards.
+                          Practical assessments and exams are included.
+                       </p>
+                    </AccordionContent>
+                 </AccordionItem>
+
+                 <AccordionItem value="q2">
+                    <AccordionTrigger>
+                       Do you provide hands-on practical training?
+                    </AccordionTrigger>
+                    <AccordionContent>
+                       <p className="text-muted-foreground">
+                          Yes — our programs include hands-on practice with
+                          industry-grade equipment and instructor-led labs to
+                          build competency.
+                       </p>
+                    </AccordionContent>
+                 </AccordionItem>
+
+                 <AccordionItem value="q3">
+                    <AccordionTrigger>
+                       Are courses available in India?
+                    </AccordionTrigger>
+                    <AccordionContent>
+                       <p className="text-muted-foreground">
+                          Yes — we schedule training sessions in India and can
+                          provide customized on-site corporate programs. Contact
+                          our team for details and schedules.
+                       </p>
+                    </AccordionContent>
+                 </AccordionItem>
+              </Accordion>
            </div>
         </section>
 
