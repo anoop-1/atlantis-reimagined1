@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+const SITE_URL = 'https://atlantisndt.com';
 
 interface SEOHeadProps {
   title: string;
@@ -18,8 +19,14 @@ export const SEOHead = ({
   structuredData
 }: SEOHeadProps) => {
   useEffect(() => {
-    // Set title
-    document.title = `${title} | Atlantis NDT - Professional NDT Services`;
+    // Set title (avoid duplicate branding if title already contains site name)
+    const brandSuffix = 'Atlantis NDT - Professional NDT Services';
+    const lowerTitle = title.toLowerCase();
+    if (lowerTitle.includes('atlantis ndt')) {
+      document.title = title;
+    } else {
+      document.title = `${title} | ${brandSuffix}`;
+    }
     
     // Set meta tags
     const setMetaTag = (name: string, content: string, property = false) => {
@@ -46,28 +53,45 @@ export const SEOHead = ({
     setMetaTag('robots', 'index, follow');
     setMetaTag('author', 'Atlantis NDT');
     
+    // Normalize canonical (prefer SITE_URL)
+    let finalCanonical = canonical || '';
+    try {
+      if (!finalCanonical) {
+        finalCanonical = `${SITE_URL}${window.location.pathname}`;
+      } else if (finalCanonical.startsWith('/')) {
+        finalCanonical = `${SITE_URL}${finalCanonical}`;
+      }
+    } catch (e) {
+      // fallback when window is not available
+      if (!finalCanonical) finalCanonical = SITE_URL;
+    }
+
     // Open Graph tags
-    setMetaTag('og:title', `${title} | Atlantis NDT`, true);
+    setMetaTag('og:title', title.includes('Atlantis NDT') ? title : `${title} | Atlantis NDT`, true);
     setMetaTag('og:description', description, true);
     setMetaTag('og:type', 'website', true);
-    setMetaTag('og:image', ogImage, true);
+    // Ensure og:image is absolute URL
+    const finalOgImage = ogImage.startsWith('/') ? `${SITE_URL}${ogImage}` : ogImage;
+    setMetaTag('og:image', finalOgImage, true);
     setMetaTag('og:site_name', 'Atlantis NDT', true);
+    // OG url
+    setMetaTag('og:url', finalCanonical, true);
     
     // Twitter Card tags
-    setMetaTag('twitter:card', 'summary_large_image');
-    setMetaTag('twitter:title', `${title} | Atlantis NDT`);
-    setMetaTag('twitter:description', description);
-    setMetaTag('twitter:image', ogImage);
+  setMetaTag('twitter:card', 'summary_large_image');
+  setMetaTag('twitter:title', title.includes('Atlantis NDT') ? title : `${title} | Atlantis NDT`);
+  setMetaTag('twitter:description', description);
+  setMetaTag('twitter:image', finalOgImage);
     
     // Canonical URL
-    if (canonical) {
+    if (finalCanonical) {
       let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
       if (!link) {
         link = document.createElement('link');
         link.rel = 'canonical';
         document.head.appendChild(link);
       }
-      link.href = canonical;
+      link.href = finalCanonical;
     }
     
     // Structured Data

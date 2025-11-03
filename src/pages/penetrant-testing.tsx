@@ -14,7 +14,7 @@ export default function PenetrantTesting() {
       datePublished: "2025-10-12",
       mainEntityOfPage: {
          "@type": "WebPage",
-         "@id": "https://www.atlantisndt.com/blog/penetrant-testing",
+         "@id": "https://atlantisndt.com/blog/penetrant-testing",
       },
    };
 
@@ -86,7 +86,7 @@ export default function PenetrantTesting() {
             description="Explore Liquid Penetrant Testing (PT) for identifying surface-breaking defects in materials. Learn advantages, applications, and best practices."
             keywords="Penetrant Testing, Liquid Penetrant Testing, NDT, Non-Destructive Testing, surface defects, quality assurance, asset integrity"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/blog/penetrant-testing"
+            canonical="https://atlantisndt.com/blog/penetrant-testing"
          />
 
       

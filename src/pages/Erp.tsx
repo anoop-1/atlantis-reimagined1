@@ -120,7 +120,7 @@ export default function Erp() {
             description="Comprehensive ERP platform including inventory, sales, accounting, HR, and project management modules for businesses of all sizes."
             keywords="ERP software, business management, Odoo alternative, inventory, sales, finance, HR, project management"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/erp"
+            canonical="https://atlantisndt.com/erp"
          />
 
          {/* Hero Section */}
