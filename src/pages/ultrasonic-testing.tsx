@@ -14,7 +14,7 @@ export default function UltrasonicTesting() {
       datePublished: "2025-10-01",
       mainEntityOfPage: {
          "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/ultrasonic-testing",
+         "@id": "https://www.atlantisndt.com/blog/ultrasonic-testing",
       },
    };
 
@@ -88,7 +88,7 @@ export default function UltrasonicTesting() {
             description="Explore how Ultrasonic Testing (UT) detects internal flaws using high-frequency sound waves. Learn about its advantages, applications, and best practices."
             keywords="Ultrasonic Testing, UT, NDT, Non-Destructive Testing, flaw detection, weld inspection, thickness measurement"
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/blog/ultrasonic-testing"
+            canonical="https://www.atlantisndt.com/blog/ultrasonic-testing"
          />
 
          {/* Hero Section */}

@@ -112,7 +112,7 @@ export default function About() {
          <SEOHead
             title="About Us"
             description="Learn about Atlantis NDT - Leading provider of Non-Destructive Testing services with 50+ certified professionals and Level III qualifications. Over 50 years of collective experience in oil & gas, marine, aerospace, and nuclear industries."
-            canonical="https://atlantisndt.com/about"
+            canonical="https://www.atlantisndt.com/about"
          />
 
          {/* Hero Section */}

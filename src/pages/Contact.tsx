@@ -138,7 +138,7 @@ export default function Contact() {
             description="Contact Atlantis NDT for professional Non-Destructive Testing services. Expert team providing 24/7 support across North America."
             keywords="contact NDT services, Atlantis NDT contact, NDT inspection quote, professional NDT consulting"
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/contact"
+            canonical="https://www.atlantisndt.com/contact"
          />
 
          {/* Hero Section */}
