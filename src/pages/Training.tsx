@@ -146,7 +146,7 @@ export default function Training() {
            description="Professional NDT training and certification programs in India. Level I, II, III courses in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing. VR/AR enhanced learning."
            keywords={`NDT training India, NDT certification India, ultrasonic training India, radiographic training India, Level I II III certification, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing`}
            structuredData={structuredData}
-           canonical="https://atlantisndt.com/training"
+           canonical="https://www.atlantisndt.com/training"
         />
         {/* Hero Section */}
         <motion.section

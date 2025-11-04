@@ -57,7 +57,7 @@ export default function BlogPage() {
             title="NDT Connect Blog"
             description="Read the latest insights, guides, and tutorials on Non-Destructive Testing techniques, technologies, and industry trends."
             keywords="NDT Connect blog, ultrasonic testing, radiographic testing, magnetic particle testing, visual testing, eddy current, penetrant testing, digital twins"
-            canonical="https://atlantisndt.com/blog"
+            canonical="https://www.atlantisndt.com/blog"
          />
 
          {/* Hero Section */}

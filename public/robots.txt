@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://atlantisndt.com/sitemap.xml
+Sitemap: https://www.atlantisndt.com/sitemap.xml

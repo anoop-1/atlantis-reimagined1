@@ -125,7 +125,7 @@ export default function NDTConnect() {
             description="NDT Connect platform providing advanced inspection services including ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing."
             keywords="NDT Connect, non-destructive testing, ultrasonic testing, radiographic testing, magnetic particle, penetrant, eddy current, visual testing"
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/ndt-connect"
+            canonical="https://www.atlantisndt.com/ndt-connect"
          />
 
          {/* Hero Section */}

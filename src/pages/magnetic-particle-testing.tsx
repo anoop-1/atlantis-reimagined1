@@ -22,7 +22,7 @@ export default function MagneticParticleTesting() {
       datePublished: "2025-10-03",
       mainEntityOfPage: {
          "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/magnetic-particle-testing",
+         "@id": "https://www.atlantisndt.com/blog/magnetic-particle-testing",
       },
    };
 
@@ -95,7 +95,7 @@ export default function MagneticParticleTesting() {
             description="Learn how Magnetic Particle Testing (MPT) identifies surface and near-surface flaws in ferromagnetic materials for welds, castings, and machinery."
             keywords="Magnetic Particle Testing, MPT, NDT, Non-Destructive Testing, weld inspection, magnetic inspection, surface defects"
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/blog/magnetic-particle-testing"
+            canonical="https://www.atlantisndt.com/blog/magnetic-particle-testing"
          />
 
          {/* Hero Section */}

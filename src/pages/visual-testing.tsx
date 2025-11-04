@@ -14,7 +14,7 @@ export default function VisualTesting() {
       datePublished: "2025-10-05",
       mainEntityOfPage: {
          "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/visual-testing",
+         "@id": "https://www.atlantisndt.com/blog/visual-testing",
       },
    };
 
@@ -93,7 +93,7 @@ export default function VisualTesting() {
             description="Learn about Visual Testing (VT), the foundational NDT method using direct observation, cameras, and drones for industrial inspection."
             keywords="Visual Testing, VT, NDT, Non-Destructive Testing, visual inspection, borescope, videoscope, drone inspection"
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/blog/visual-testing"
+            canonical="https://www.atlantisndt.com/blog/visual-testing"
          />
 
          {/* Hero Section */}

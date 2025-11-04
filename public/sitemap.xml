@@ -3,63 +3,63 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://atlantisndt.com/</loc>
+    <loc>https://www.atlantisndt.com/</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/about</loc>
+    <loc>https://www.atlantisndt.com/about</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/services</loc>
+    <loc>https://www.atlantisndt.com/services</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/training</loc>
+    <loc>https://www.atlantisndt.com/training</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/consulting-service</loc>
+    <loc>https://www.atlantisndt.com/consulting-service</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/contact</loc>
+    <loc>https://www.atlantisndt.com/contact</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/digital-twins</loc>
+    <loc>https://www.atlantisndt.com/digital-twins</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/erp</loc>
+    <loc>https://www.atlantisndt.com/erp</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/ndt-connect</loc>
+    <loc>https://www.atlantisndt.com/ndt-connect</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -67,49 +67,49 @@
 
   <!-- Blog index + posts -->
   <url>
-    <loc>https://atlantisndt.com/blog</loc>
+    <loc>https://www.atlantisndt.com/blog</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/blog/ultrasonic-testing</loc>
+    <loc>https://www.atlantisndt.com/blog/ultrasonic-testing</loc>
     <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/blog/magnetic-particle-testing</loc>
+    <loc>https://www.atlantisndt.com/blog/magnetic-particle-testing</loc>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/blog/visual-testing</loc>
+    <loc>https://www.atlantisndt.com/blog/visual-testing</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/blog/radiographic-testing</loc>
+    <loc>https://www.atlantisndt.com/blog/radiographic-testing</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/blog/eddy-current-testing</loc>
+    <loc>https://www.atlantisndt.com/blog/eddy-current-testing</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/blog/penetrant-testing</loc>
+    <loc>https://www.atlantisndt.com/blog/penetrant-testing</loc>
     <lastmod>2025-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
