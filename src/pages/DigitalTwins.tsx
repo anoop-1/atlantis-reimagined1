@@ -44,7 +44,7 @@ export default function DigitalTwins() {
                description="Explore our advanced Digital Twins technology for industrial applications. Interactive 3D models for training, simulation, and analysis of complex mechanical systems including jet engines, industrial plants, and equipment."
                keywords="digital twins, 3D models, industrial simulation, jet engine simulation, factory simulation, industrial training, mechanical systems, interactive models, virtual training, engineering visualization"
                ogImage="/atlantis.jpg"
-               canonical="https://www.atlantisndt.com/digital-twins"
+               canonical="https://atlantisndt.com/digital-twins"
             />
          <Navigation />
 

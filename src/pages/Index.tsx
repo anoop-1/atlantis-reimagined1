@@ -21,7 +21,7 @@ export default function Index() {
       "@type": "Organization",
       name: "Atlantis NDT",
       url: "https://atlantisndt.com",
-      logo: "https://www.atlantisndt.com/logo.png",
+      logo: "https://atlantisndt.com/logo.png",
       description:
          "Leading provider of Non-Destructive Testing services, training, and consultancy with state-of-the-art equipment and certified methodologies.",
       address: {
@@ -117,7 +117,7 @@ export default function Index() {
             description="Atlantis NDT - Leading provider of Non-Destructive Testing services with 50+ certified professionals. Specializing in ultrasonic, radiographic, magnetic particle, and penetrant testing across oil & gas, marine, aerospace, and nuclear industries."
             keywords="NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, asset integrity, quality assurance"
             structuredData={structuredData}
-            canonical="https://www.atlantisndt.com/"
+            canonical="https://atlantisndt.com/"
          />
          <Hero />
          <AnimatedStats />

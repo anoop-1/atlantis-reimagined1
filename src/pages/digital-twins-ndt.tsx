@@ -10,7 +10,7 @@ export default function DigitalTwinsNDT() {
          <SEOHead
             title="Digital Twins in NDT: Transforming Asset Management"
             description="Explore how digital twins and VR/AR technology improve NDT processes and training."
-            canonical="https://www.atlantisndt.com/digital-twins-ndt"
+            canonical="https://atlantisndt.com/digital-twins-ndt"
          />
 
          {/* Hero Section */}
