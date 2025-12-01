@@ -3,52 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { blogService } from "@/services/BlogService";
 
 export default function BlogPage() {
-   const blogs = [
-      {
-         title: "Understanding Ultrasonic Testing in NDT",
-         date: "October 1, 2025",
-         snippet:
-            "Explore how ultrasonic testing helps detect internal flaws in materials without causing damage.",
-         link: "/blog/ultrasonic-testing",
-      },
-      {
-         title: "Magnetic Particle Testing: Best Practices",
-         date: "October 3, 2025",
-         snippet:
-            "Learn how magnetic particle testing detects surface and near-surface defects efficiently.",
-         link: "/blog/magnetic-particle-testing",
-      },
-      {
-         title: "Visual Testing Techniques for Modern NDT",
-         date: "October 5, 2025",
-         snippet:
-            "A guide to direct and remote visual inspection methods for industrial assets.",
-         link: "/blog/visual-testing",
-      },
-      {
-         title: "Radiographic Testing in Industrial Applications",
-         date: "October 7, 2025",
-         snippet:
-            "Understand X-ray and gamma ray techniques for internal flaw detection and weld inspections.",
-         link: "/blog/radiographic-testing",
-      },
-      {
-         title: "Eddy Current Testing Explained",
-         date: "October 10, 2025",
-         snippet:
-            "An introduction to eddy current testing and its applications in quality control.",
-         link: "/blog/eddy-current-testing",
-      },
-      {
-         title: "Penetrant Testing: Detecting Surface Defects",
-         date: "October 12, 2025",
-         snippet:
-            "A deep dive into liquid penetrant testing and its role in non-destructive inspections.",
-         link: "/blog/penetrant-testing",
-      }
-   ];
+   const [blogs, setBlogs] = useState<any[]>([]);
+
+   useEffect(() => {
+      const allBlogs = blogService.getBlogs();
+      setBlogs(allBlogs);
+   }, []);
 
    return (
       <div className="min-h-screen pt-20">
@@ -89,7 +53,7 @@ export default function BlogPage() {
                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {blogs.map((blog, index) => (
                      <motion.div
-                        key={index}
+                        key={blog.id}
                         initial={{ y: 30, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: true }}
@@ -109,7 +73,8 @@ export default function BlogPage() {
                                  {blog.snippet}
                               </p>
                               <Link
-                                 to={blog.link}
+                                 to={`/blog/${blog.slug}`}
+                                 target="_blank"
                                  className="text-primary font-semibold hover:underline"
                               >
                                  Read More →

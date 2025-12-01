@@ -6,6 +6,10 @@ import {
    Shield,
    Target,
    CheckCircle,
+   Zap,
+   Award,
+   TrendingUp,
+   BookOpen,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -18,66 +22,112 @@ export default function ConsultingServices() {
    const expertise = [
       {
          icon: ClipboardCheck,
-         title: "Procedure Development & Review",
+         title: "Procedure Development & Verification",
          description:
-            "Creation and validation of NDT procedures in accordance with ASNT, ISO, ASTM, and client-specific standards.",
+            "Creation, validation, and verification of NDT procedures in accordance with ASNT, ISO, ASTM, and client-specific standards. We ensure procedures meet all regulatory requirements and industry best practices.",
+      },
+      {
+         icon: BookOpen,
+         title: "Written Practice Development",
+         description:
+            "Comprehensive written practice (WP) development and maintenance for NDT companies. Ensures technical adequacy and compliance with applicable codes and standards.",
       },
       {
          icon: Users,
-         title: "Training & Certification",
+         title: "Level III Training & Certification",
          description:
-            "Comprehensive Level I, II, and III training programs designed to enhance competency and meet compliance requirements.",
+            "Comprehensive NDT training programs including Level I, II, and III certification. Our Level III consultants provide expert-level training designed to enhance competency and meet compliance requirements.",
       },
       {
          icon: FileSearch,
-         title: "Audit & Compliance",
+         title: "Audit & Compliance Services",
          description:
-            "Third-party audit services for NDT systems, ensuring alignment with industry codes and regulatory frameworks.",
+            "Third-party audit services for NDT systems, inspection procedures, and quality programs. We ensure alignment with industry codes, regulatory frameworks, and contractual requirements.",
       },
       {
          icon: Shield,
-         title: "Quality Assurance Oversight",
+         title: "Quality Assurance & Program Management",
          description:
-            "Supervision of inspection teams, documentation reviews, and performance monitoring for consistent quality assurance.",
+            "Comprehensive QA oversight including supervision of inspection teams, documentation reviews, performance monitoring, and quality program management for consistent excellence.",
       },
       {
          icon: Target,
-         title: "Failure Analysis & Expert Consultation",
+         title: "Failure Analysis & Root Cause Investigation",
          description:
-            "Expert-level consultation for defect analysis, root cause investigation, and recommendations for process improvement.",
+            "Expert-level consultation for defect analysis, root cause investigation, and recommendations for process improvement and preventive action.",
+      },
+      {
+         icon: Zap,
+         title: "Code & Standards Interpretation",
+         description:
+            "Expert interpretation of codes, standards, and contractual documents that control non-destructive testing methods. Guidance on standards compliance and application.",
+      },
+      {
+         icon: Award,
+         title: "Personnel Qualification & Approval",
+         description:
+            "Training, examination, and certification of NDT personnel. Approval of NDT procedures and work instructions for technical adequacy.",
       },
    ];
 
-   const benefits = [
-      "Improved compliance with ASNT SNT-TC-1A and ISO 9712",
-      "Reduced inspection errors and rework costs",
-      "Standardized NDT documentation and traceability",
-      "Increased asset reliability and uptime",
-      "Expert oversight for high-risk inspections",
+   const methodologies = [
+      "Ultrasonic Testing (UT) Consulting",
+      "Radiographic Testing (RT) Consulting",
+      "Magnetic Particle Testing (MT) Consulting",
+      "Penetrant Testing (PT) Consulting",
+      "Eddy Current Testing (ET) Consulting",
+      "Visual Testing (VT) Consulting",
+      "NDT Program Development",
+      "Level III Consultation Services",
+   ];
+
+   const industries = [
+      "Oil & Gas",
+      "Marine",
+      "Aerospace",
+      "Nuclear",
+      "Energy",
+      "Manufacturing",
+      "Construction",
+      "Power Generation",
+      "Transportation",
+      "Chemical Processing",
    ];
 
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      serviceType: "Level III NDT Consulting",
-      provider: {
+      "@type": "Service",
+      "name": "NDT Level III Consulting Services",
+      "description": "Expert Level III NDT consulting services including procedure development, training, audits, and quality assurance",
+      "provider": {
          "@type": "Organization",
-         name: "Atlantis NDT",
-         url: "https://atlantisndt.com",
+         "name": "Atlantis NDT",
+         "url": "https://atlantisndt.com",
       },
-      description:
-         "Expert Level III NDT consulting, training, audits, and quality assurance oversight to ensure compliance, reliability, and performance excellence.",
+      "areaServed": "United States",
+      "serviceType": ["Level III NDT Consultation", "NDT Training", "Quality Assurance", "Compliance Audits"],
    };
+
+   const benefits = [
+      "Full compliance with ASNT SNT-TC-1A and ISO 9712 standards",
+      "Reduced inspection errors and costly rework",
+      "Standardized NDT documentation and traceability",
+      "Increased asset reliability and operational uptime",
+      "Expert oversight for high-risk and critical inspections",
+      "Certified Level III personnel with decades of combined experience",
+      "Customized training programs for your team",
+      "Ongoing support and continuous improvement",
+   ];
 
    return (
       <div className="min-h-screen pt-20 bg-gray-50">
          <Navigation />
          <SEOHead
-            title="Level III NDT Consulting Services"
-            description="Expert Level III NDT consulting services including training, audits, quality assurance, and compliance for advanced inspection programs."
-            keywords="Level III NDT consulting, NDT audit, NDT training, ASNT Level III, ISO 9712 consulting, NDT quality assurance"
+            title="Best NDT Level III Consultant in the US | Atlantis NDT"
+            description="Expert Level III NDT consulting services in the United States. ASNT certified consultants providing training, audits, quality assurance, and compliance oversight. Contact our Level III consultants today."
+            keywords="best NDT Level III consultant, Level III NDT consulting, ASNT Level III consultant, NDT training, NDT audit services, ISO 9712 consultant, NDT quality assurance, non-destructive testing consultant"
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/consulting-service"
+            canonical="https://atlantisndt.com/consulting"
          />
 
          {/* Hero Section */}
@@ -181,6 +231,142 @@ export default function ConsultingServices() {
                      </li>
                   ))}
                </motion.ul>
+            </div>
+         </section>
+
+         {/* Regional Services Section */}
+         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-slate-900/10">
+            <div className="max-w-6xl mx-auto">
+               <motion.div
+                  className="text-center mb-12"
+                  initial={{ y: 20, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6 }}
+               >
+                  <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                     Regional Expertise, Global Standards
+                  </h2>
+                  <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                     Specialized NDT consulting services tailored to your regional market and industry needs
+                  </p>
+               </motion.div>
+
+               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {/* USA Card */}
+                  <motion.div
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     viewport={{ once: true }}
+                     transition={{ duration: 0.6 }}
+                  >
+                     <Card className="h-full hover:shadow-lg transition-shadow bg-card border-primary/20 hover:border-primary">
+                        <CardHeader>
+                           <CardTitle className="text-primary">USA Consulting</CardTitle>
+                           <p className="text-sm text-muted-foreground mt-2">
+                              Nationwide expertise for aerospace, oil & gas, and industrial sectors
+                           </p>
+                        </CardHeader>
+                        <CardContent>
+                           <ul className="space-y-2 mb-6 text-sm">
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>ASME, API, ASTM Compliant</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>Strategic Nationwide Locations</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>FAA & Defense Contractor Support</span>
+                              </li>
+                           </ul>
+                           <Link to="/consulting-usa">
+                              <Button variant="outline" className="w-full text-primary hover:bg-primary/10">
+                                 Learn More
+                              </Button>
+                           </Link>
+                        </CardContent>
+                     </Card>
+                  </motion.div>
+
+                  {/* Middle East Card */}
+                  <motion.div
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     viewport={{ once: true }}
+                     transition={{ duration: 0.6, delay: 0.1 }}
+                  >
+                     <Card className="h-full hover:shadow-lg transition-shadow bg-card border-primary/20 hover:border-primary">
+                        <CardHeader>
+                           <CardTitle className="text-primary">Middle East Services</CardTitle>
+                           <p className="text-sm text-muted-foreground mt-2">
+                              GCC oil & gas expertise with ARAMCO compliance
+                           </p>
+                        </CardHeader>
+                        <CardContent>
+                           <ul className="space-y-2 mb-6 text-sm">
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>ARAMCO & SABIC Standards</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>Offshore & Onshore Support</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>Risk-Based Inspection Planning</span>
+                              </li>
+                           </ul>
+                           <Link to="/consulting-me">
+                              <Button variant="outline" className="w-full text-primary hover:bg-primary/10">
+                                 Learn More
+                              </Button>
+                           </Link>
+                        </CardContent>
+                     </Card>
+                  </motion.div>
+
+                  {/* India Card */}
+                  <motion.div
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     viewport={{ once: true }}
+                     transition={{ duration: 0.6, delay: 0.2 }}
+                  >
+                     <Card className="h-full hover:shadow-lg transition-shadow bg-card border-primary/20 hover:border-primary">
+                        <CardHeader>
+                           <CardTitle className="text-primary">India Services</CardTitle>
+                           <p className="text-sm text-muted-foreground mt-2">
+                              Manufacturing expertise with Indian Standards compliance
+                           </p>
+                        </CardHeader>
+                        <CardContent>
+                           <ul className="space-y-2 mb-6 text-sm">
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>Indian Standards (IS) Compliant</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>Manufacturing & Aerospace Focus</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                 <CheckCircle className="w-4 h-4 text-primary" />
+                                 <span>Multi-State Coverage</span>
+                              </li>
+                           </ul>
+                           <Link to="/consulting-india">
+                              <Button variant="outline" className="w-full text-primary hover:bg-primary/10">
+                                 Learn More
+                              </Button>
+                           </Link>
+                        </CardContent>
+                     </Card>
+                  </motion.div>
+               </div>
             </div>
          </section>
 

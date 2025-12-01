@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://atlantisndt.com/</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -17,24 +15,59 @@
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/services</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://atlantisndt.com/consulting</loc>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/training</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://atlantisndt.com/consulting-usa</loc>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/consulting-service</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://atlantisndt.com/consulting-me</loc>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/consulting-india</loc>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/training</loc>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/training-usa</loc>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/training-me</loc>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/training-india</loc>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
@@ -65,14 +98,15 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Blog index + posts -->
+  <!-- Blog index -->
   <url>
     <loc>https://atlantisndt.com/blog</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Dynamic blog posts -->
   <url>
     <loc>https://atlantisndt.com/blog/ultrasonic-testing</loc>
     <lastmod>2025-10-01</lastmod>

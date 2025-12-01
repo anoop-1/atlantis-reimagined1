@@ -8,16 +8,14 @@ const navItems = [
    { name: "Home", path: "/" },
    { name: "About", path: "/about" },
 
-   {
-      name: "Services",
-      dropdown: [
-         { name: "Training", path: "/training" },
-         // { name: "NDT Services", path: "/services" },
-         { name: "Consulting Services", path: "/consulting-service" },
-      ],
-   },
-
-   {
+      {
+         name: "Services",
+         dropdown: [
+            { name: "Training", path: "/training" },
+            // { name: "NDT Services", path: "/services" },
+            { name: "Consulting Services", path: "/consulting" },
+         ],
+      },   {
       name: "Products",
       dropdown: [
          { name: "Digital Twins", path: "/digital-twins" },
