@@ -8,10 +8,21 @@ import { blogService } from "@/services/BlogService";
 
 export default function BlogPage() {
    const [blogs, setBlogs] = useState<any[]>([]);
+   const [loading, setLoading] = useState(true);
 
    useEffect(() => {
-      const allBlogs = blogService.getBlogs();
-      setBlogs(allBlogs);
+      const fetchBlogs = async () => {
+         try {
+            setLoading(true);
+            const allBlogs = await blogService.getBlogs();
+            setBlogs(allBlogs);
+         } catch (error) {
+            console.error('Error fetching blogs:', error);
+         } finally {
+            setLoading(false);
+         }
+      };
+      fetchBlogs();
    }, []);
 
    return (
@@ -51,38 +62,48 @@ export default function BlogPage() {
          <section className="py-20">
             <div className="container mx-auto px-6">
                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {blogs.map((blog, index) => (
-                     <motion.div
-                        key={blog.id}
-                        initial={{ y: 30, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: index * 0.1 }}
-                     >
-                        <Card className="h-full hover-scale border-0 shadow-md group">
-                           <CardHeader>
-                              <CardTitle className="text-xl">
-                                 {blog.title}
-                              </CardTitle>
-                              <p className="text-sm text-muted-foreground">
-                                 {blog.date}
-                              </p>
-                           </CardHeader>
-                           <CardContent>
-                              <p className="text-muted-foreground mb-4">
-                                 {blog.snippet}
-                              </p>
-                              <Link
-                                 to={`/blog/${blog.slug}`}
-                                 target="_blank"
-                                 className="text-primary font-semibold hover:underline"
-                              >
-                                 Read More →
-                              </Link>
-                           </CardContent>
-                        </Card>
-                     </motion.div>
-                  ))}
+                  {loading ? (
+                     <div className="text-center py-20">
+                        <p className="text-muted-foreground">Loading blog posts...</p>
+                     </div>
+                  ) : blogs.length === 0 ? (
+                     <div className="text-center py-20">
+                        <p className="text-muted-foreground">No blog posts available yet.</p>
+                     </div>
+                  ) : (
+                     blogs.map((blog, index) => (
+                        <motion.div
+                           key={blog.id}
+                           initial={{ y: 30, opacity: 0 }}
+                           whileInView={{ y: 0, opacity: 1 }}
+                           viewport={{ once: true }}
+                           transition={{ duration: 0.6, delay: index * 0.1 }}
+                        >
+                           <Card className="h-full hover-scale border-0 shadow-md group">
+                              <CardHeader>
+                                 <CardTitle className="text-xl">
+                                    {blog.title}
+                                 </CardTitle>
+                                 <p className="text-sm text-muted-foreground">
+                                    {blog.date}
+                                 </p>
+                              </CardHeader>
+                              <CardContent>
+                                 <p className="text-muted-foreground mb-4">
+                                    {blog.snippet}
+                                 </p>
+                                 <Link
+                                    to={`/blog/${blog.slug}`}
+                                    target="_blank"
+                                    className="text-primary font-semibold hover:underline"
+                                 >
+                                    Read More →
+                                 </Link>
+                              </CardContent>
+                           </Card>
+                        </motion.div>
+                     ))
+                  )}
                </div>
             </div>
          </section>

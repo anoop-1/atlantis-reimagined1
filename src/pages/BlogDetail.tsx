@@ -14,13 +14,16 @@ export default function BlogDetail() {
   const [blog, setBlog] = useState<any>(null);
 
   useEffect(() => {
-    if (slug) {
-      const foundBlog = blogService.getBlogBySlug(slug);
-      setBlog(foundBlog);
-      if (!foundBlog) {
-        navigate('/blog');
+    const fetchBlog = async () => {
+      if (slug) {
+        const foundBlog = await blogService.getBlogBySlug(slug);
+        setBlog(foundBlog);
+        if (!foundBlog) {
+          navigate('/blog');
+        }
       }
-    }
+    };
+    fetchBlog();
   }, [slug, navigate]);
 
   if (!blog) {
@@ -39,7 +42,7 @@ export default function BlogDetail() {
       <Navigation />
       <SEOHead
         title={blog.title}
-        description={blog.snippet}
+        description={blog.metaDescription || blog.snippet}
         keywords={`${blog.title}, NDT, blog, ${blog.slug}`}
         canonical={`https://atlantisndt.com/blog/${blog.slug}`}
       />

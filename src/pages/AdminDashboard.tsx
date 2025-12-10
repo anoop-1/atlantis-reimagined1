@@ -7,7 +7,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useAuth } from '@/context/AuthContext';
 import { blogService, Blog } from '@/services/BlogService';
-import { Plus, Trash2, LogOut, ArrowUp, ArrowDown, Edit2 } from 'lucide-react';
+import { Plus, Trash2, LogOut, ArrowUp, ArrowDown, Edit2, Loader2 } from 'lucide-react';
+import { useToast } from '@/hooks/use-toast';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -21,7 +22,10 @@ import {
 export default function AdminDashboard() {
   const navigate = useNavigate();
   const { isAdmin, logout } = useAuth();
+  const { toast } = useToast();
   const [blogs, setBlogs] = useState<Blog[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [deleteId, setDeleteId] = useState<string | null>(null);
   const [formData, setFormData] = useState({
@@ -30,6 +34,7 @@ export default function AdminDashboard() {
     date: '',
     snippet: '',
     content: '',
+    metaDescription: '',
     author: '',
   });
 
@@ -41,9 +46,21 @@ export default function AdminDashboard() {
     loadBlogs();
   }, [isAdmin, navigate]);
 
-  const loadBlogs = () => {
-    const allBlogs = blogService.getBlogs();
-    setBlogs(allBlogs);
+  const loadBlogs = async () => {
+    try {
+      setLoading(true);
+      const allBlogs = await blogService.getBlogs();
+      setBlogs(allBlogs);
+    } catch (error) {
+      console.error('Error loading blogs:', error);
+      toast({
+        title: 'Error',
+        description: 'Failed to load blog posts',
+        variant: 'destructive',
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   const resetForm = () => {
@@ -53,6 +70,7 @@ export default function AdminDashboard() {
       date: '',
       snippet: '',
       content: '',
+      metaDescription: '',
       author: '',
     });
     setEditingId(null);
@@ -65,44 +83,82 @@ export default function AdminDashboard() {
       date: blog.date,
       snippet: blog.snippet,
       content: blog.content,
+      metaDescription: blog.metaDescription || '',
       author: blog.author || '',
     });
     setEditingId(blog.id);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!formData.title || !formData.slug || !formData.content) {
-      alert('Please fill in all required fields');
+      toast({
+        title: 'Validation Error',
+        description: 'Please fill in all required fields',
+        variant: 'destructive',
+      });
       return;
     }
 
-    if (editingId) {
-      blogService.updateBlog(editingId, {
-        ...formData,
-        order: blogs.find(b => b.id === editingId)?.order || 0,
+    try {
+      setSubmitting(true);
+      if (editingId) {
+        await blogService.updateBlog(editingId, {
+          ...formData,
+          order: blogs.find(b => b.id === editingId)?.order || 0,
+        });
+        toast({
+          title: 'Success',
+          description: 'Blog post updated successfully',
+        });
+      } else {
+        const maxOrder = blogs.length > 0 ? Math.max(...blogs.map(b => b.order)) : 0;
+        await blogService.addBlog({
+          ...formData,
+          order: maxOrder + 1,
+        });
+        toast({
+          title: 'Success',
+          description: 'Blog post created successfully. Sitemap updated automatically!',
+        });
+      }
+
+      await loadBlogs();
+      resetForm();
+    } catch (error: any) {
+      console.error('Error saving blog:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to save blog post',
+        variant: 'destructive',
       });
-    } else {
-      const maxOrder = blogs.length > 0 ? Math.max(...blogs.map(b => b.order)) : 0;
-      blogService.addBlog({
-        ...formData,
-        order: maxOrder + 1,
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleDelete = async (id: string) => {
+    try {
+      await blogService.deleteBlog(id);
+      toast({
+        title: 'Success',
+        description: 'Blog post deleted successfully. Sitemap updated!',
+      });
+      await loadBlogs();
+      setDeleteId(null);
+    } catch (error: any) {
+      console.error('Error deleting blog:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to delete blog post',
+        variant: 'destructive',
       });
     }
-
-    loadBlogs();
-    resetForm();
   };
 
-  const handleDelete = (id: string) => {
-    blogService.deleteBlog(id);
-    loadBlogs();
-    setDeleteId(null);
-  };
-
-  const handleMoveOrder = (id: string, direction: 'up' | 'down') => {
+  const handleMoveOrder = async (id: string, direction: 'up' | 'down') => {
     const currentIndex = blogs.findIndex(b => b.id === id);
     if (
       (direction === 'up' && currentIndex === 0) ||
@@ -111,17 +167,26 @@ export default function AdminDashboard() {
       return;
     }
 
-    const newBlogs = [...blogs];
-    const swapIndex = direction === 'up' ? currentIndex - 1 : currentIndex + 1;
-    [newBlogs[currentIndex].order, newBlogs[swapIndex].order] = [
-      newBlogs[swapIndex].order,
-      newBlogs[currentIndex].order,
-    ];
+    try {
+      const newBlogs = [...blogs];
+      const swapIndex = direction === 'up' ? currentIndex - 1 : currentIndex + 1;
+      [newBlogs[currentIndex].order, newBlogs[swapIndex].order] = [
+        newBlogs[swapIndex].order,
+        newBlogs[currentIndex].order,
+      ];
 
-    blogService.reorderBlogs(
-      newBlogs.map(b => ({ id: b.id, order: b.order }))
-    );
-    loadBlogs();
+      await blogService.reorderBlogs(
+        newBlogs.map(b => ({ id: b.id, order: b.order }))
+      );
+      await loadBlogs();
+    } catch (error) {
+      console.error('Error reordering blogs:', error);
+      toast({
+        title: 'Error',
+        description: 'Failed to reorder blog posts',
+        variant: 'destructive',
+      });
+    }
   };
 
   const handleLogout = () => {
@@ -226,6 +291,22 @@ export default function AdminDashboard() {
                   </div>
 
                   <div>
+                    <label className="text-sm font-medium">Meta Description (SEO)</label>
+                    <Textarea
+                      placeholder="SEO meta description (150-160 characters recommended)"
+                      value={formData.metaDescription}
+                      onChange={(e) =>
+                        setFormData({ ...formData, metaDescription: e.target.value })
+                      }
+                      className="resize-none h-20"
+                      maxLength={160}
+                    />
+                    <p className="text-xs text-muted-foreground mt-1">
+                      {formData.metaDescription.length}/160 characters - Used for search engine results
+                    </p>
+                  </div>
+
+                  <div>
                     <label className="text-sm font-medium">Content (HTML) *</label>
                     <Textarea
                       placeholder="Full blog content (supports HTML)"
@@ -242,7 +323,8 @@ export default function AdminDashboard() {
                   </div>
 
                   <div className="flex gap-2">
-                    <Button type="submit" className="flex-1 btn-primary">
+                    <Button type="submit" className="flex-1 btn-primary" disabled={submitting}>
+                      {submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                       {editingId ? 'Update Post' : 'Create Post'}
                     </Button>
                     {editingId && (
@@ -271,7 +353,14 @@ export default function AdminDashboard() {
                 <h2 className="text-xl font-bold">Blog Posts ({blogs.length})</h2>
               </div>
 
-              {blogs.length === 0 ? (
+              {loading ? (
+                <Card>
+                  <CardContent className="pt-6 text-center text-muted-foreground">
+                    <Loader2 size={40} className="mx-auto mb-2 animate-spin" />
+                    <p>Loading blog posts...</p>
+                  </CardContent>
+                </Card>
+              ) : blogs.length === 0 ? (
                 <Card>
                   <CardContent className="pt-6 text-center text-muted-foreground">
                     <Plus size={40} className="mx-auto mb-2 opacity-50" />
