@@ -1,112 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
   <url>
     <loc>https://atlantisndt.com/</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/about</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/consulting</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/consulting-usa</loc>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/consulting-usa</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
     <loc>https://atlantisndt.com/consulting-me</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/consulting-india</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/training</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/training-usa</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/training-me</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/training-india</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/contact</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/digital-twins</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/erp</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://atlantisndt.com/ndt-connect</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Blog index -->
+  <!-- Blog Index -->
   <url>
     <loc>https://atlantisndt.com/blog</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Dynamic blog posts -->
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://atlantisndt.com/blog/asnt-level-iii-ndt-consulting-guide</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <url>
     <loc>https://atlantisndt.com/blog/ultrasonic-testing</loc>
     <lastmod>2025-10-01</lastmod>
@@ -145,6 +153,111 @@
   <url>
     <loc>https://atlantisndt.com/blog/penetrant-testing</loc>
     <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-level-iii-consulting-services-guide</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-training-complete-guide-courses-certification-global</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-career-top-choice-2025-global-market-trends</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/digital-twins-reduce-refinery-turnaround-time</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-consulting-questions-answered-by-level-iii-expert</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/best-ndt-reporting-software-oil-gas-digital-twin</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/future-of-ndt-oil-gas-digital-twins-ai</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-salary-guide-2025-global-level-1-2-3</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/asset-integrity-management-guide-2025-rbi-digital-twins</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/blog/ndt-training-vs-certification-2025-oil-gas-expectations</loc>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
