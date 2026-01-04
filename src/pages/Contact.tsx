@@ -122,9 +122,10 @@ export default function Contact() {
             service: "",
             message: "",
          });
-      } catch (error) {
-         console.error(error);
-         setSuccess("Failed to send message. Try again later.");
+      } catch (error: any) {
+         console.error("EmailJS Error:", error);
+         const errorMessage = error?.text || error?.message || "Unknown error";
+         setSuccess(`Failed to send message: ${errorMessage}`);
       }
 
       setLoading(false);
@@ -327,11 +328,17 @@ export default function Contact() {
                                     onChange={handleChange}
                                  />
                               </div>
+                              {success && (
+                                 <div className={`p-4 rounded-lg ${success.includes('Failed') ? 'bg-red-100 text-red-700 border border-red-300' : 'bg-green-100 text-green-700 border border-green-300'}`}>
+                                    {success.includes('Failed') ? success : "Thank you for contacting us! Someone from Atlantis NDT will get back to you within 24 hours."}
+                                 </div>
+                              )}
                               <Button
+                                 type="submit"
                                  className="btn-primary w-full group"
-                                 onClick={handleSubmit}
+                                 disabled={loading}
                               >
-                                 Send Message{" "}
+                                 {loading ? "Sending..." : "Send Message"}{" "}
                                  <Send className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                               </Button>
                            </form>
