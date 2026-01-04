@@ -4,18 +4,58 @@ import { SEOHead } from "@/components/SEOHead";
 import { CheckCircle, Eye, Camera, Shield, Clock, Target } from "lucide-react";
 
 export default function VisualTesting() {
+   // BlogPosting + FAQPage schema for rich snippets
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: "Visual Testing Techniques for Modern NDT",
-      description:
-         "Explore Visual Testing (VT), the most fundamental NDT method using direct and remote inspection tools for assessing material integrity.",
-      author: { "@type": "Organization", name: "Atlantis NDT" },
-      datePublished: "2025-10-05",
-      mainEntityOfPage: {
-         "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/visual-testing",
-      },
+      "@graph": [
+         {
+            "@type": "BlogPosting",
+            "headline": "Complete Guide to Visual Testing (VT) | NDT Inspection Methods",
+            "description": "Learn about Visual Testing, the foundational NDT method using direct observation, cameras, and drones for industrial inspection.",
+            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+            "publisher": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
+            },
+            "datePublished": "2025-10-05",
+            "dateModified": "2026-01-04",
+            "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "https://atlantisndt.com/blog/visual-testing",
+            },
+            "keywords": "visual testing, VT, visual inspection, NDT, borescope inspection, drone inspection"
+         },
+         {
+            "@type": "FAQPage",
+            "mainEntity": [
+               {
+                  "@type": "Question",
+                  "name": "What is Visual Testing in NDT?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Visual Testing (VT) is the most basic and widely used non-destructive testing method. It involves examining materials, components, or structures with the naked eye or with optical aids like magnifiers, borescopes, and cameras to detect surface defects and irregularities."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What tools are used in Visual Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Common VT tools include magnifying glasses, borescopes, videoscopes, welding gauges, mirrors, flashlights, digital cameras, and increasingly, drones with cameras for remote or hard-to-access areas."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What defects can Visual Testing detect?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "VT can detect visible surface defects including cracks, corrosion, weld defects (undercut, porosity, spatter), misalignment, surface contamination, and dimensional irregularities."
+                  }
+               }
+            ]
+         }
+      ]
    };
 
    const advantages = [
@@ -89,9 +129,9 @@ export default function VisualTesting() {
          <Navigation />
 
          <SEOHead
-            title="Visual Testing Techniques for Modern NDT | Atlantis NDT"
-            description="Learn about Visual Testing (VT), the foundational NDT method using direct observation, cameras, and drones for industrial inspection."
-            keywords="Visual Testing, VT, NDT, Non-Destructive Testing, visual inspection, borescope, videoscope, drone inspection"
+            title="Visual Testing (VT) Guide | NDT Inspection with Cameras & Drones"
+            description="Complete guide to Visual Testing. Learn VT methods using direct observation, borescopes, and drones for weld inspection, corrosion monitoring, and industrial NDT."
+            keywords="visual testing, VT inspection, visual inspection NDT, borescope inspection, drone inspection, weld visual inspection, remote visual inspection, NDT methods"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/visual-testing"
          />

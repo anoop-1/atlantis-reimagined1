@@ -73,14 +73,49 @@ export default function ConsultingServicesIndia() {
         { state: 'West Bengal', cities: 'Kolkata, Durgapur' }
     ];
 
+    // Service schema for structured data
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LocalBusiness",
+                "name": "Atlantis NDT - India",
+                "description": "ISO 9712 certified NDT Level III consulting services in India",
+                "url": "https://atlantisndt.com/consulting-india",
+                "email": "info@atlantisndt.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "IN"
+                },
+                "areaServed": "India",
+                "priceRange": "$$$"
+            },
+            ...expertise.map(item => ({
+                "@type": "Service",
+                "name": item.title,
+                "description": item.description,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT"
+                },
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "India"
+                },
+                "serviceType": "NDT Consulting"
+            }))
+        ]
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Level III Consulting India | Indian Standards & BIS Certified Expert"
-                description="Professional NDT Level III consulting in India. ISO 9712 & BIS certified. Welding inspection, pressure vessel testing, boiler regulations 2020 compliance. Multi-state coverage."
-                keywords="NDT consulting India, Level III India, ISO 9712 India, welding inspection India, BIS certification, Indian Standards NDT, pressure vessel inspection, boiler regulations 2020, NDT Level III consulting manufacturing"
-                canonical="https://atlantisinspection.com/consulting-india"
+                title="NDT Consulting India | Level III Services Mumbai Chennai Bangalore"
+                description="Professional NDT Level III consulting in India. ISO 9712 & BIS certified. Welding inspection, pressure vessel testing, boiler regulations 2020 compliance. Manufacturing sector NDT services Mumbai, Chennai, Bangalore."
+                keywords="NDT consulting India, NDT consulting Mumbai, NDT services Chennai, NDT inspection Bangalore, ISO 9712 India, welding inspection India, pressure vessel testing, boiler inspection India, manufacturing NDT, BIS certified NDT, quality control India"
+                canonical="https://atlantisndt.com/consulting-india"
+                structuredData={serviceSchema}
             />
 
             {/* Hero Section */}

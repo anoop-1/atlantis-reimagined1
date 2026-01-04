@@ -13,18 +13,58 @@ import {
 } from "lucide-react";
 
 export default function RadiographicTesting() {
+   // BlogPosting + FAQPage schema for rich snippets
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: "Radiographic Testing in Industrial Applications",
-      description:
-         "Explore Radiographic Testing (RT) using X-rays and gamma rays for detecting internal defects and ensuring weld quality in industrial applications.",
-      author: { "@type": "Organization", name: "Atlantis NDT" },
-      datePublished: "2025-10-07",
-      mainEntityOfPage: {
-         "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/radiographic-testing",
-      },
+      "@graph": [
+         {
+            "@type": "BlogPosting",
+            "headline": "Complete Guide to Radiographic Testing (RT) | X-Ray & Gamma Ray Inspection",
+            "description": "Learn how Radiographic Testing uses X-rays and gamma rays to detect internal defects and ensure weld quality in industrial applications.",
+            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+            "publisher": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
+            },
+            "datePublished": "2025-10-07",
+            "dateModified": "2026-01-04",
+            "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "https://atlantisndt.com/blog/radiographic-testing",
+            },
+            "keywords": "radiographic testing, X-ray testing, gamma ray testing, weld inspection, internal defect detection"
+         },
+         {
+            "@type": "FAQPage",
+            "mainEntity": [
+               {
+                  "@type": "Question",
+                  "name": "What is Radiographic Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Radiographic Testing (RT) is a non-destructive testing method that uses X-rays or gamma rays to examine the internal structure of materials and detect hidden defects like cracks, porosity, and inclusions without damaging the component."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What is the difference between X-ray and gamma ray testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "X-rays are produced by electrical equipment and offer adjustable energy levels and better control. Gamma rays come from radioactive isotopes like Iridium-192 or Cobalt-60, are portable, and work without electricity but require stricter radiation safety protocols."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What industries use Radiographic Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "RT is widely used in oil & gas (pipeline welds), aerospace (castings and welds), power generation, petrochemical, shipbuilding, and manufacturing industries for quality control and code compliance."
+                  }
+               }
+            ]
+         }
+      ]
    };
 
    const advantages = [
@@ -101,9 +141,9 @@ export default function RadiographicTesting() {
          <Navigation />
 
          <SEOHead
-            title="Radiographic Testing in Industrial Applications | Atlantis NDT"
-            description="Explore Radiographic Testing (RT) using X-rays and gamma rays for detecting internal defects, ensuring weld quality, and maintaining industrial safety standards."
-            keywords="Radiographic Testing, X-ray testing, gamma ray testing, NDT services, weld inspection, internal defect detection, industrial radiography, non-destructive testing, quality assurance, Atlantis NDT"
+            title="Radiographic Testing (RT) Guide | X-Ray & Gamma Ray Weld Inspection"
+            description="Complete guide to Radiographic Testing. Learn how RT uses X-rays and gamma rays for internal defect detection, weld inspection, and quality control in industrial applications."
+            keywords="radiographic testing, X-ray testing, gamma ray testing, RT inspection, weld radiography, internal defect detection, digital radiography, industrial radiography, NDT methods"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/radiographic-testing"
          />

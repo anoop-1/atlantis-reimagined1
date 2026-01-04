@@ -39,14 +39,49 @@ export default function TrainingUSA() {
     'Liquid Penetrant Testing (PT)'
   ];
 
+  // Course schema for structured data (helps with Google rich results)
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Atlantis NDT Training Center",
+        "description": "Professional ASNT NDT training and certification in USA",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "US"
+        }
+      },
+      ...certificationLevels.map((cert, idx) => ({
+        "@type": "Course",
+        "name": `ASNT ${cert.level} NDT Training`,
+        "description": cert.description,
+        "provider": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "sameAs": "https://atlantisndt.com"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "duration": cert.duration,
+          "inLanguage": "en"
+        },
+        "occupationalCategory": "Non-Destructive Testing Technician",
+        "educationalCredentialAwarded": idx < 2 ? "ASNT SNT-TC-1A Certification" : "Training Certificate"
+      }))
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
       <Navigation />
       <SEOHead
-        title="ASNT NDT Level III Training USA | Phased Array & Aerospace Certification"
-        description="Professional ASNT SNT-TC-1A NDT training in USA. Level I & II training with certification, Level III training only. Phased array (PAUT), TOFD, aerospace focus. NAS410 compliant programs nationwide."
-        keywords="ASNT training, NDT training USA, phased array training, TOFD training USA, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, ASME Section V training, phased array certification courses, SNT-TC-1A training"
-        canonical="https://atlantisinspection.com/training-usa"
+        title="NDT Training USA | ASNT Level I, II, III Certification Courses"
+        description="Professional ASNT SNT-TC-1A NDT training in USA. Level I & II training with certification, Level III training only. Phased array (PAUT), TOFD, ultrasonic, radiographic testing courses. NAS410 compliant programs nationwide."
+        keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
+        canonical="https://atlantisndt.com/training-usa"
+        structuredData={courseSchema}
       />
 
       {/* Hero Section */}
@@ -161,6 +196,80 @@ export default function TrainingUSA() {
                 <p className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                   <span>96% certification pass rate for Level III programs</span>
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-6">
+          <motion.div
+            className="text-center mb-12"
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Common questions about our ASNT NDT training programs in the USA
+            </p>
+          </motion.div>
+
+          <div className="max-w-3xl mx-auto space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">What ASNT certification levels do you offer?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  We offer ASNT SNT-TC-1A compliant training for Level I and Level II with certification included.
+                  For Level III, we provide comprehensive training only - candidates must sit for the ASNT Level III
+                  certification exam separately through ASNT.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">How long does it take to complete NDT training?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Training duration varies by level: Level I typically takes 1-2 weeks, Level II takes 2-3 weeks,
+                  and Level III training requires 3-4 weeks. All programs include both classroom theory and
+                  hands-on practical training with real industrial components.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Is NDT certification required to work in the USA?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Yes, most employers in aerospace, oil & gas, and manufacturing require ASNT SNT-TC-1A or
+                  NAS410 certification for NDT technicians. Our training programs are designed to meet these
+                  industry standards and prepare you for a career in non-destructive testing.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">What NDT methods can I learn?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  We offer training in all major NDT methods including Phased Array Ultrasonic Testing (PAUT),
+                  Time of Flight Diffraction (TOFD), conventional Ultrasonic Testing (UT), Radiographic Testing (RT),
+                  Magnetic Particle Testing (MT), and Liquid Penetrant Testing (PT).
                 </p>
               </CardContent>
             </Card>

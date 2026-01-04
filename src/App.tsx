@@ -28,6 +28,8 @@ import ConsultingServicesIndia from "./pages/ConsultingServices-India";
 import TrainingUSA from "./pages/Training-USA";
 import TrainingMiddleEast from "./pages/Training-ME";
 import TrainingIndia from "./pages/Training-India";
+import FAQPage from "./pages/FAQ";
+import NDTMethodsPage from "./pages/NDTMethods";
 import IndustrialAnimation from "./components/IndustrialAnimation";
 import { AuthProvider } from "./context/AuthContext";
 import { lazy } from "react";
@@ -86,6 +88,8 @@ const App = () => (
                   <Route path="/ndt-connect" element={<NDTConnect />} />
                   <Route path="/admin/login" element={<AdminLogin />} />
                   <Route path="/admin/dashboard" element={<AdminDashboard />} />
+                  <Route path="/faq" element={<FAQPage />} />
+                  <Route path="/ndt-methods" element={<NDTMethodsPage />} />
                   <Route path="/404" element={<NotFound />} />
                   <Route path="*" element={<NotFound />} />
                </Routes>

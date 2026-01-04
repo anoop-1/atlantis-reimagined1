@@ -105,14 +105,57 @@ export default function About() {
       { value: 50, label: "Years Combined Experience" },
    ];
 
+   // Organization schema for Google Knowledge Panel
+   const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Atlantis NDT",
+      "alternateName": "Atlantis Non-Destructive Testing",
+      "url": "https://atlantisndt.com",
+      "logo": "https://atlantisndt.com/favicon-96x96.jpg",
+      "description": "Leading provider of Non-Destructive Testing services, training, and consultancy with over 50 years of collective experience in oil & gas, marine, aerospace, and nuclear industries.",
+      "foundingDate": "2018",
+      "email": "info@atlantisndt.com",
+      "sameAs": [
+         "https://www.linkedin.com/company/atlantis-ndt"
+      ],
+      "address": {
+         "@type": "PostalAddress",
+         "addressCountry": "US"
+      },
+      "areaServed": [
+         { "@type": "Country", "name": "United States" },
+         { "@type": "Country", "name": "United Arab Emirates" },
+         { "@type": "Country", "name": "Saudi Arabia" },
+         { "@type": "Country", "name": "India" }
+      ],
+      "knowsAbout": [
+         "Non-Destructive Testing",
+         "Ultrasonic Testing",
+         "Radiographic Testing",
+         "Magnetic Particle Testing",
+         "Liquid Penetrant Testing",
+         "Eddy Current Testing",
+         "Visual Testing",
+         "NDT Training",
+         "ASNT Certification"
+      ],
+      "numberOfEmployees": {
+         "@type": "QuantitativeValue",
+         "value": 50
+      }
+   };
+
    return (
       <div className="min-h-screen pt-20">
          <Navigation />
 
          <SEOHead
-            title="About Us"
+            title="About Atlantis NDT | Expert NDT Services, Training & Consulting"
             description="Learn about Atlantis NDT - Leading provider of Non-Destructive Testing services with 50+ certified professionals and Level III qualifications. Over 50 years of collective experience in oil & gas, marine, aerospace, and nuclear industries."
+            keywords="about Atlantis NDT, NDT company, non-destructive testing services, NDT experts, Level III consultants, ASNT certified, oil and gas NDT"
             canonical="https://atlantisndt.com/about"
+            structuredData={structuredData}
          />
 
          {/* Hero Section */}

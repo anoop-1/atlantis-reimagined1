@@ -4,10 +4,66 @@ import { SEOHead } from "@/components/SEOHead";
 import { CheckCircle, Zap, Shield, Clock, Target, Gauge } from "lucide-react";
 
 export default function EddyCurrentTesting() {
+   // Article + FAQPage schema for better Google rich results
    const structuredData = {
       "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://atlantisndt.com/eddy-current-testing",
+      "@graph": [
+         {
+            "@type": "Article",
+            "@id": "https://atlantisndt.com/blog/eddy-current-testing",
+            "headline": "Complete Guide to Eddy Current Testing (ECT) | How It Works, Applications & Benefits",
+            "description": "Learn how Eddy Current Testing detects surface and near-surface defects in conductive materials. Comprehensive guide covering aerospace, heat exchanger, and tubing inspection.",
+            "datePublished": "2025-10-10",
+            "dateModified": "2026-01-04",
+            "author": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "url": "https://atlantisndt.com"
+            },
+            "publisher": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://atlantisndt.com/favicon-96x96.jpg"
+               }
+            },
+            "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "https://atlantisndt.com/blog/eddy-current-testing"
+            },
+            "keywords": "eddy current testing, ECT, NDT inspection, heat exchanger inspection, aerospace NDT, tube inspection"
+         },
+         {
+            "@type": "FAQPage",
+            "mainEntity": [
+               {
+                  "@type": "Question",
+                  "name": "What is Eddy Current Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Eddy Current Testing (ECT) is a non-destructive testing method that uses electromagnetic induction to detect surface and near-surface defects in conductive materials like aluminum, copper, and steel."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What are the main applications of Eddy Current Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "ECT is commonly used for heat exchanger tube inspection, aerospace component testing, detecting cracks in turbine blades, railway wheel inspection, and quality control in manufacturing."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What types of defects can Eddy Current Testing detect?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "ECT can detect surface cracks, corrosion, pitting, wall thinning, and conductivity variations. It is particularly effective for finding small surface-breaking defects."
+                  }
+               }
+            ]
+         }
+      ]
    };
 
    const advantages = [
@@ -73,11 +129,11 @@ export default function EddyCurrentTesting() {
          <Navigation />
 
          <SEOHead
-            title="Eddy Current Testing Explained | Atlantis NDT"
-            description="Discover Eddy Current Testing (ECT), a precise Non-Destructive Testing method for detecting surface and near-surface defects. Learn about its advantages, applications, and best practices."
-            keywords="Eddy Current Testing, NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, quality assurance, asset integrity, heat exchanger inspection"
+            title="Eddy Current Testing (ECT) Guide | How It Works, Applications & Benefits"
+            description="Complete guide to Eddy Current Testing. Learn how ECT detects surface defects in heat exchangers, aerospace components, and tubing. Fast, accurate, non-destructive inspection method."
+            keywords="eddy current testing, ECT inspection, heat exchanger testing, aerospace NDT, tube inspection, surface crack detection, non-destructive testing, eddy current probe, ECT equipment"
             structuredData={structuredData}
-              canonical="https://atlantisndt.com/blog/eddy-current-testing"
+            canonical="https://atlantisndt.com/blog/eddy-current-testing"
          />
 
          {/* Hero Section */}

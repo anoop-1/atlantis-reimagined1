@@ -25,14 +25,44 @@ export default function BlogPage() {
       fetchBlogs();
    }, []);
 
+   // CollectionPage schema for blog listing
+   const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "NDT Blog - Non-Destructive Testing Articles & Guides",
+      "description": "Expert articles, guides, and tutorials on NDT methods including ultrasonic testing, radiographic testing, eddy current testing, and more.",
+      "url": "https://atlantisndt.com/blog",
+      "publisher": {
+         "@type": "Organization",
+         "name": "Atlantis NDT",
+         "url": "https://atlantisndt.com",
+         "logo": {
+            "@type": "ImageObject",
+            "url": "https://atlantisndt.com/favicon-96x96.jpg"
+         }
+      },
+      "mainEntity": {
+         "@type": "ItemList",
+         "name": "NDT Articles",
+         "numberOfItems": blogs.length,
+         "itemListElement": blogs.slice(0, 10).map((blog, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "url": `https://atlantisndt.com/blog/${blog.slug}`,
+            "name": blog.title
+         }))
+      }
+   };
+
    return (
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT Connect Blog"
-            description="Read the latest insights, guides, and tutorials on Non-Destructive Testing techniques, technologies, and industry trends."
-            keywords="NDT Connect blog, ultrasonic testing, radiographic testing, magnetic particle testing, visual testing, eddy current, penetrant testing, digital twins"
+            title="NDT Blog | Non-Destructive Testing Articles, Guides & Tutorials"
+            description="Explore expert articles on ultrasonic testing, radiographic testing, eddy current testing, magnetic particle testing, and more. Stay updated with NDT industry trends and techniques."
+            keywords="NDT blog, ultrasonic testing guide, radiographic testing tutorial, magnetic particle testing, eddy current testing, penetrant testing, visual testing, NDT methods, NDT training articles"
             canonical="https://atlantisndt.com/blog"
+            structuredData={structuredData}
          />
 
          {/* Hero Section */}

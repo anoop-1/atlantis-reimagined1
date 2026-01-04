@@ -39,14 +39,50 @@ export default function TrainingMiddleEast() {
         'Liquid Penetrant Testing (PT)'
     ];
 
+    // Course schema for structured data (helps with Google rich results)
+    const courseSchema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Atlantis NDT Training Center - Middle East",
+                "description": "Professional ARAMCO-compliant ASNT NDT training in Middle East",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "AE",
+                    "addressRegion": "Middle East"
+                }
+            },
+            ...certificationLevels.map((cert, idx) => ({
+                "@type": "Course",
+                "name": `ARAMCO ${cert.level} NDT Training`,
+                "description": cert.description,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT",
+                    "sameAs": "https://atlantisndt.com"
+                },
+                "hasCourseInstance": {
+                    "@type": "CourseInstance",
+                    "courseMode": "onsite",
+                    "duration": cert.duration,
+                    "inLanguage": "en"
+                },
+                "occupationalCategory": "Non-Destructive Testing Technician",
+                "educationalCredentialAwarded": idx < 2 ? "ASNT SNT-TC-1A Certification" : "Training Certificate"
+            }))
+        ]
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training Saudi Arabia | ARAMCO Level III Certification & Offshore Courses"
-                description="ASNT SNT-TC-1A NDT training in Middle East. ARAMCO-compliant offshore programs. Level I & II training with certification, Level III training only. RBI methodology. GCC coverage for oil & gas professionals."
-                keywords="NDT training Saudi Arabia, ASNT Level III Middle East, ARAMCO-compliant training, offshore NDT courses, SNT-TC-1A training, NDT Level III training, GCC NDT certification, offshore platform inspection, RBI training, Middle East NDT"
-                canonical="https://atlantisinspection.com/training-me"
+                title="NDT Training Dubai UAE | ARAMCO Level I, II, III Certification Saudi Arabia"
+                description="Professional ARAMCO-compliant ASNT SNT-TC-1A NDT training in Middle East. Level I & II training with certification, Level III training only. Offshore NDT courses Dubai, UAE, Saudi Arabia. RBI methodology for oil & gas professionals."
+                keywords="NDT training Dubai, NDT training UAE, NDT courses Saudi Arabia, ARAMCO NDT certification, offshore NDT training Middle East, ASNT Level III UAE, oil gas NDT training, CSWIP training Dubai, NDT certification Saudi Arabia, ultrasonic testing training UAE, RBI training Middle East"
+                canonical="https://atlantisndt.com/training-me"
+                structuredData={courseSchema}
             />
 
             {/* Hero Section */}
@@ -161,6 +197,80 @@ export default function TrainingMiddleEast() {
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                                     <span>94% job placement rate in GCC oil & gas sector</span>
+                                </p>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="py-20 bg-slate-50">
+                <div className="container mx-auto px-6">
+                    <motion.div
+                        className="text-center mb-12"
+                        initial={{ y: 30, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
+                    >
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                            Frequently Asked Questions
+                        </h2>
+                        <p className="text-muted-foreground max-w-2xl mx-auto">
+                            Common questions about NDT training in Dubai, UAE, and Saudi Arabia
+                        </p>
+                    </motion.div>
+
+                    <div className="max-w-3xl mx-auto space-y-4">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">Is NDT certification from Atlantis recognized in UAE and Saudi Arabia?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Yes, our ASNT SNT-TC-1A compliant training is recognized across the GCC region including
+                                    UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, and Oman. Our training aligns with ARAMCO and
+                                    ADNOC inspection requirements.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">What NDT methods are most in demand in the Middle East oil & gas sector?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Phased Array Ultrasonic Testing (PAUT), TOFD, and conventional UT are highly sought after
+                                    for pipeline and pressure vessel inspections. Magnetic Particle Testing (MT) and Radiographic
+                                    Testing (RT) are also essential for offshore platform inspections.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">Do you offer NDT training in Dubai?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Yes, we provide NDT training programs in Dubai, UAE with flexible scheduling to accommodate
+                                    working professionals. Training can be conducted at our facility or on-site at your location
+                                    across the Middle East region.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">What career opportunities are available after NDT certification in the GCC?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Level II and III certified NDT technicians are in high demand across offshore platforms,
+                                    refineries, petrochemical plants, and construction projects throughout the GCC. Our training
+                                    programs have a 94% job placement rate in the regional oil & gas sector.
                                 </p>
                             </CardContent>
                         </Card>

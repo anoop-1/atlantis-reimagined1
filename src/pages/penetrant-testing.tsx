@@ -4,18 +4,58 @@ import { SEOHead } from "@/components/SEOHead";
 import { CheckCircle, Zap, Shield, Clock, Target, Gauge } from "lucide-react";
 
 export default function PenetrantTesting() {
+   // BlogPosting + FAQPage schema for rich snippets
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: "Penetrant Testing: Detecting Surface Defects",
-      description:
-         "Learn about Liquid Penetrant Testing (PT), a reliable NDT method for identifying surface-breaking defects in materials.",
-      author: { "@type": "Organization", name: "Atlantis NDT" },
-      datePublished: "2025-10-12",
-      mainEntityOfPage: {
-         "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/penetrant-testing",
-      },
+      "@graph": [
+         {
+            "@type": "BlogPosting",
+            "headline": "Complete Guide to Liquid Penetrant Testing (PT) | Surface Defect Detection",
+            "description": "Learn how Liquid Penetrant Testing detects surface-breaking defects in metals, plastics, and ceramics using dye penetrants.",
+            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+            "publisher": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
+            },
+            "datePublished": "2025-10-12",
+            "dateModified": "2026-01-04",
+            "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "https://atlantisndt.com/blog/penetrant-testing",
+            },
+            "keywords": "penetrant testing, liquid penetrant testing, PT, dye penetrant testing, surface defects"
+         },
+         {
+            "@type": "FAQPage",
+            "mainEntity": [
+               {
+                  "@type": "Question",
+                  "name": "What is Liquid Penetrant Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Liquid Penetrant Testing (PT or LPT) is a non-destructive testing method that uses a colored or fluorescent dye to detect surface-breaking defects like cracks, porosity, and laps in non-porous materials."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What materials can be tested with Penetrant Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "PT can be used on any non-porous material including metals (ferrous and non-ferrous), ceramics, plastics, and glass. It works on aluminum, stainless steel, titanium, and other non-magnetic materials where magnetic particle testing cannot be used."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What is the difference between visible and fluorescent penetrant?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Visible (red) penetrants are viewed under white light and are suitable for field inspections. Fluorescent penetrants glow under UV/black light and offer higher sensitivity for detecting smaller defects, commonly used in aerospace applications."
+                  }
+               }
+            ]
+         }
+      ]
    };
 
    const advantages = [
@@ -82,14 +122,14 @@ export default function PenetrantTesting() {
          <Navigation />
 
          <SEOHead
-            title="Penetrant Testing: Detecting Surface Defects | Atlantis NDT"
-            description="Explore Liquid Penetrant Testing (PT) for identifying surface-breaking defects in materials. Learn advantages, applications, and best practices."
-            keywords="Penetrant Testing, Liquid Penetrant Testing, NDT, Non-Destructive Testing, surface defects, quality assurance, asset integrity"
+            title="Liquid Penetrant Testing (PT) Guide | Dye Penetrant Inspection Method"
+            description="Complete guide to Liquid Penetrant Testing. Learn how PT/LPT detects surface cracks and defects in welds, castings, and aerospace components. Best practices included."
+            keywords="penetrant testing, liquid penetrant testing, PT inspection, dye penetrant testing, LPT, fluorescent penetrant, surface crack detection, NDT methods, non-destructive testing"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/penetrant-testing"
          />
 
-      
+
          <section className="relative bg-white shadow-md">
             <div className="container mx-auto max-w-6xl px-6 py-16 text-center">
                <h1

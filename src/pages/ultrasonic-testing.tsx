@@ -4,18 +4,58 @@ import { SEOHead } from "@/components/SEOHead";
 import { CheckCircle, Waves, Gauge, Shield, Target, Clock } from "lucide-react";
 
 export default function UltrasonicTesting() {
+   // BlogPosting + FAQPage schema for better Google rich results
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: "Understanding Ultrasonic Testing in NDT",
-      description:
-         "Learn about Ultrasonic Testing (UT), an advanced non-destructive testing method for detecting internal flaws and measuring thickness in materials.",
-      author: { "@type": "Organization", name: "Atlantis NDT" },
-      datePublished: "2025-10-01",
-      mainEntityOfPage: {
-         "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/ultrasonic-testing",
-      },
+      "@graph": [
+         {
+            "@type": "BlogPosting",
+            "headline": "Complete Guide to Ultrasonic Testing (UT) | Non-Destructive Flaw Detection",
+            "description": "Learn how Ultrasonic Testing uses high-frequency sound waves to detect internal flaws and measure thickness in materials without damaging them.",
+            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+            "publisher": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
+            },
+            "datePublished": "2025-10-01",
+            "dateModified": "2026-01-04",
+            "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "https://atlantisndt.com/blog/ultrasonic-testing",
+            },
+            "keywords": "ultrasonic testing, UT inspection, weld inspection, thickness measurement, phased array, TOFD"
+         },
+         {
+            "@type": "FAQPage",
+            "mainEntity": [
+               {
+                  "@type": "Question",
+                  "name": "What is Ultrasonic Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Ultrasonic Testing (UT) is a non-destructive testing method that uses high-frequency sound waves to detect internal flaws, measure material thickness, and evaluate material properties without damaging the component."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What are the advantages of Ultrasonic Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Key advantages include high sensitivity to small defects, accurate depth measurement, safe operation without radiation, immediate results, and ability to inspect thick materials."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What industries use Ultrasonic Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "UT is widely used in aerospace, oil & gas, power generation, manufacturing, automotive, and construction industries for weld inspection, thickness measurement, and flaw detection."
+                  }
+               }
+            ]
+         }
+      ]
    };
 
    const advantages = [
@@ -84,9 +124,9 @@ export default function UltrasonicTesting() {
          <Navigation />
 
          <SEOHead
-            title="Understanding Ultrasonic Testing in NDT | Atlantis NDT"
-            description="Explore how Ultrasonic Testing (UT) detects internal flaws using high-frequency sound waves. Learn about its advantages, applications, and best practices."
-            keywords="Ultrasonic Testing, UT, NDT, Non-Destructive Testing, flaw detection, weld inspection, thickness measurement"
+            title="Ultrasonic Testing (UT) Guide | Weld Inspection & Thickness Measurement"
+            description="Complete guide to Ultrasonic Testing. Learn how UT detects internal flaws using high-frequency sound waves. Used for weld inspection, thickness measurement, and aerospace NDT."
+            keywords="ultrasonic testing, UT inspection, weld inspection, thickness measurement, flaw detection, phased array ultrasonic testing, TOFD, NDT services, non-destructive testing"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/ultrasonic-testing"
          />

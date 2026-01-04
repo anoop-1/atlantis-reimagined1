@@ -74,14 +74,55 @@ export default function ConsultingServicesMiddleEast() {
         { country: 'Oman', cities: 'Muscat, Sohar' }
     ];
 
+    // Service schema for structured data
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LocalBusiness",
+                "name": "Atlantis NDT - Middle East",
+                "description": "ARAMCO-compliant NDT Level III consulting services in Middle East",
+                "url": "https://atlantisndt.com/consulting-me",
+                "email": "info@atlantisndt.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "AE",
+                    "addressRegion": "Middle East"
+                },
+                "areaServed": ["Saudi Arabia", "UAE", "Qatar", "Kuwait", "Bahrain", "Oman"],
+                "priceRange": "$$$$"
+            },
+            ...expertise.map(item => ({
+                "@type": "Service",
+                "name": item.title,
+                "description": item.description,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT"
+                },
+                "areaServed": {
+                    "@type": "GeoCircle",
+                    "geoMidpoint": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 24.4539,
+                        "longitude": 54.3773
+                    },
+                    "geoRadius": "1500 km"
+                },
+                "serviceType": "NDT Consulting"
+            }))
+        ]
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="ARAMCO NDT Consulting Middle East | Offshore Inspection Saudi Arabia"
-                description="ARAMCO-compliant NDT Level III consulting in Middle East. Offshore platform inspection, RBI methodology, GCC coverage. Saudi Arabia, UAE, Qatar expert services."
-                keywords="ARAMCO NDT consulting, NDT Middle East, offshore inspection Saudi Arabia, NDT consulting UAE, offshore NDT courses, RBI methodology, subsea inspection, ARAMCO-compliant NDT training, GCC NDT certification, offshore platform inspection"
-                canonical="https://atlantisinspection.com/consulting-me"
+                title="NDT Consulting Dubai UAE | ARAMCO Offshore Inspection Saudi Arabia"
+                description="ARAMCO-compliant NDT Level III consulting in Middle East. Offshore platform inspection, RBI methodology, oil gas NDT services. Saudi Arabia, UAE, Qatar, Kuwait expert services."
+                keywords="NDT consulting Dubai, NDT consulting UAE, ARAMCO NDT services, offshore inspection Saudi Arabia, oil gas NDT Middle East, RBI consulting UAE, pipeline inspection Saudi, ADNOC NDT consulting, QatarEnergy inspection, subsea NDT services"
+                canonical="https://atlantisndt.com/consulting-me"
+                structuredData={serviceSchema}
             />
 
             {/* Hero Section */}

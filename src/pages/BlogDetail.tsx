@@ -57,6 +57,37 @@ export default function BlogDetail() {
     return cleanBlogContent(blog.content);
   }, [blog?.content]);
 
+  // Generate Article schema for structured data (helps with Google indexing)
+  const articleSchema = useMemo(() => {
+    if (!blog) return null;
+    return {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": blog.title,
+      "description": blog.metaDescription || blog.snippet,
+      "datePublished": blog.date,
+      "dateModified": blog.date,
+      "author": {
+        "@type": "Person",
+        "name": blog.author || "Atlantis NDT Expert"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Atlantis NDT",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://atlantisndt.com/favicon-96x96.jpg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": `https://atlantisndt.com/blog/${blog.slug}`
+      },
+      "image": blog.image || "https://atlantisndt.com/og-image.jpg",
+      "keywords": `NDT, ${blog.title}, non-destructive testing`
+    };
+  }, [blog]);
+
   if (!blog) {
     return (
       <div className="min-h-screen pt-20">
@@ -74,8 +105,9 @@ export default function BlogDetail() {
       <SEOHead
         title={blog.title}
         description={blog.metaDescription || blog.snippet}
-        keywords={`${blog.title}, NDT, blog, ${blog.slug}`}
+        keywords={`${blog.title}, NDT, non-destructive testing, blog, ${blog.slug}`}
         canonical={`https://atlantisndt.com/blog/${blog.slug}`}
+        structuredData={articleSchema}
       />
 
       <motion.div

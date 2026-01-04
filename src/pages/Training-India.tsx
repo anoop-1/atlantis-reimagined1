@@ -39,14 +39,49 @@ export default function TrainingIndia() {
         'Eddy Current Testing (ET)'
     ];
 
+    // Course schema for structured data (helps with Google rich results)
+    const courseSchema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Atlantis NDT Training Center - India",
+                "description": "Professional ASNT NDT training and certification in India",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "IN"
+                }
+            },
+            ...certificationLevels.map((cert, idx) => ({
+                "@type": "Course",
+                "name": `ASNT ${cert.level} NDT Training India`,
+                "description": cert.description,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT",
+                    "sameAs": "https://atlantisndt.com"
+                },
+                "hasCourseInstance": {
+                    "@type": "CourseInstance",
+                    "courseMode": "onsite",
+                    "duration": cert.duration,
+                    "inLanguage": "en"
+                },
+                "occupationalCategory": "Non-Destructive Testing Technician",
+                "educationalCredentialAwarded": idx < 2 ? "ASNT SNT-TC-1A Certification" : "Training Certificate"
+            }))
+        ]
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training India | ISO 9712 Level III Certification & BIS Certified Courses"
-                description="Professional ASNT SNT-TC-1A NDT training in India. Level I & II training with certification, Level III training only. Manufacturing focus. Fast-track programs across India."
-                keywords="NDT training India, Level I II III India, ASNT SNT-TC-1A India, welding inspection training India, quick NDT certification India, NDT Level III training, pressure vessel certification, manufacturing NDT training"
-                canonical="https://atlantisinspection.com/training-india"
+                title="NDT Training India | Best NDT Institute Mumbai Chennai Bangalore"
+                description="Professional ASNT SNT-TC-1A NDT training in India. Level I & II training with certification, Level III training only. Ultrasonic, radiographic, magnetic particle testing courses. Fast-track certification Mumbai, Chennai, Bangalore, Delhi."
+                keywords="NDT training India, best NDT institute India, NDT courses Mumbai, NDT training Chennai, NDT certification Bangalore, ultrasonic testing training India, ASNT Level II India, radiographic testing course India, NDT technician training, welding inspector certification India, NDT Level III India"
+                canonical="https://atlantisndt.com/training-india"
+                structuredData={courseSchema}
             />
 
             {/* Hero Section */}
@@ -161,6 +196,80 @@ export default function TrainingIndia() {
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                                     <span>92% job placement rate for Level III certified professionals</span>
+                                </p>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="py-20 bg-slate-50">
+                <div className="container mx-auto px-6">
+                    <motion.div
+                        className="text-center mb-12"
+                        initial={{ y: 30, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
+                    >
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                            Frequently Asked Questions
+                        </h2>
+                        <p className="text-muted-foreground max-w-2xl mx-auto">
+                            Common questions about NDT training in Mumbai, Chennai, Bangalore, and across India
+                        </p>
+                    </motion.div>
+
+                    <div className="max-w-3xl mx-auto space-y-4">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">What is the best NDT institute in India?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Atlantis NDT offers world-class ASNT SNT-TC-1A compliant training with experienced
+                                    Level III instructors. Our training programs are recognized by major manufacturing,
+                                    oil & gas, and power sector companies across India and internationally.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">What is the NDT certification cost in India?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    NDT certification costs vary by level and method. Contact us for current pricing in INR.
+                                    Our fees include classroom training, hands-on practical sessions with real components,
+                                    study materials, and certification examination for Level I and II.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">Where can I get NDT training in India?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    We offer NDT training programs in major industrial hubs including Mumbai, Chennai,
+                                    Bangalore, Hyderabad, Pune, and Delhi NCR. We also provide on-site training at your
+                                    facility for corporate groups and manufacturing units.
+                                </p>
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="text-lg">Is ASNT certification valid in India?</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Yes, ASNT SNT-TC-1A certification is widely recognized in India by major companies
+                                    including ONGC, IOCL, BHEL, L&T, Reliance, and Tata. It's also recognized internationally,
+                                    opening doors to opportunities in the Middle East, USA, and Europe.
                                 </p>
                             </CardContent>
                         </Card>

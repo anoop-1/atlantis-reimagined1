@@ -1,4 +1,44 @@
 {
+  "redirects": [
+    {
+      "source": "/2024/:path*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/2023/:path*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/blogs/:path*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/:path*",
+      "statusCode": 410
+    },
+    {
+      "source": "/news-sitemap.xml",
+      "statusCode": 410
+    },
+    {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

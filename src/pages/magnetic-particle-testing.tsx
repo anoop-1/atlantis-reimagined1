@@ -12,18 +12,58 @@ import {
 } from "lucide-react";
 
 export default function MagneticParticleTesting() {
+   // BlogPosting + FAQPage schema for rich snippets
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: "Magnetic Particle Testing: Best Practices",
-      description:
-         "Discover how Magnetic Particle Testing (MPT) detects surface and near-surface defects in ferromagnetic materials effectively and efficiently.",
-      author: { "@type": "Organization", name: "Atlantis NDT" },
-      datePublished: "2025-10-03",
-      mainEntityOfPage: {
-         "@type": "WebPage",
-         "@id": "https://atlantisndt.com/blog/magnetic-particle-testing",
-      },
+      "@graph": [
+         {
+            "@type": "BlogPosting",
+            "headline": "Complete Guide to Magnetic Particle Testing (MT) | Surface Defect Detection",
+            "description": "Learn how Magnetic Particle Testing detects surface and near-surface defects in ferromagnetic materials for welds, castings, and machinery.",
+            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+            "publisher": {
+               "@type": "Organization",
+               "name": "Atlantis NDT",
+               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
+            },
+            "datePublished": "2025-10-03",
+            "dateModified": "2026-01-04",
+            "mainEntityOfPage": {
+               "@type": "WebPage",
+               "@id": "https://atlantisndt.com/blog/magnetic-particle-testing",
+            },
+            "keywords": "magnetic particle testing, MT inspection, MPI, weld inspection, surface defects, ferromagnetic materials"
+         },
+         {
+            "@type": "FAQPage",
+            "mainEntity": [
+               {
+                  "@type": "Question",
+                  "name": "What is Magnetic Particle Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "Magnetic Particle Testing (MT or MPI) is a non-destructive testing method that uses magnetic fields and iron particles to detect surface and near-surface discontinuities in ferromagnetic materials like iron, nickel, and cobalt alloys."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What materials can be tested with Magnetic Particle Testing?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "MT can only be used on ferromagnetic materials including carbon steel, alloy steel, iron, nickel, and some of their alloys. Non-ferromagnetic materials like aluminum, copper, and stainless steel cannot be tested with this method."
+                  }
+               },
+               {
+                  "@type": "Question",
+                  "name": "What defects does Magnetic Particle Testing detect?",
+                  "acceptedAnswer": {
+                     "@type": "Answer",
+                     "text": "MT detects surface-breaking and near-surface defects including cracks, seams, laps, inclusions, and porosity. It is especially effective for weld inspection and quality control in castings and forgings."
+                  }
+               }
+            ]
+         }
+      ]
    };
 
    const advantages = [
@@ -91,9 +131,9 @@ export default function MagneticParticleTesting() {
          <Navigation />
 
          <SEOHead
-            title="Magnetic Particle Testing: Best Practices | Atlantis NDT"
-            description="Learn how Magnetic Particle Testing (MPT) identifies surface and near-surface flaws in ferromagnetic materials for welds, castings, and machinery."
-            keywords="Magnetic Particle Testing, MPT, NDT, Non-Destructive Testing, weld inspection, magnetic inspection, surface defects"
+            title="Magnetic Particle Testing (MT) Guide | Weld & Surface Defect Detection"
+            description="Complete guide to Magnetic Particle Testing. Learn how MT/MPI detects surface cracks and defects in welds, castings, and ferromagnetic components. Best practices included."
+            keywords="magnetic particle testing, MT inspection, MPI, magnetic particle inspection, weld inspection, surface crack detection, ferromagnetic testing, NDT methods, non-destructive testing"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/magnetic-particle-testing"
          />
