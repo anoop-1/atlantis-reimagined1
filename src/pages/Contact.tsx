@@ -24,7 +24,7 @@ export default function Contact() {
       {
          icon: Mail,
          title: "Email",
-         details: "info@atlantisinspection.com",
+         details: "info@atlantisndt.com",
          subtitle: "24/7 Support",
       },
       {
@@ -107,10 +107,10 @@ export default function Contact() {
 
       try {
          await sendForm(
-            "service_ty0nowj",
-            "template_bgstrhq",
+            "service_hrj5lk9",
+            "template_x94fhmp",
             formRef.current,
-            "j82n918eaGnIrxsIW"
+            "mqEdxmDRFVVoxCXrv"
          );
          setSuccess("Message sent successfully!");
          setFormData({
