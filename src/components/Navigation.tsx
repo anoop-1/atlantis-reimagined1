@@ -72,7 +72,7 @@ export const Navigation = () => {
                <motion.div variants={itemVariants}>
                   <Link to="/" className="flex items-center space-x-2 ">
                      <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-                        <img src="/atlantis.png" alt="Logo" />
+                        <img src="/atlantis.png" alt="Atlantis NDT Logo" loading="lazy" />
                      </div>
                      <span className="font-bold text-xl text-primary">
                         Atlantis NDT
@@ -95,8 +95,8 @@ export const Navigation = () => {
                         >
                            <button
                               className={`flex items-center space-x-1 font-medium transition-colors duration-300 hover:text-primary ${activeDropdown === item.name
-                                    ? "text-primary"
-                                    : "text-foreground"
+                                 ? "text-primary"
+                                 : "text-foreground"
                                  }`}
                            >
                               <span>{item.name}</span>
@@ -106,8 +106,8 @@ export const Navigation = () => {
                            {/* Dropdown menu */}
                            <div
                               className={`absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300 ${activeDropdown === item.name
-                                    ? "opacity-100 visible translate-y-0"
-                                    : "opacity-0 invisible -translate-y-2"
+                                 ? "opacity-100 visible translate-y-0"
+                                 : "opacity-0 invisible -translate-y-2"
                                  }`}
                            >
                               {item.dropdown.map((sub) => (
@@ -126,8 +126,8 @@ export const Navigation = () => {
                            key={item.name}
                            to={item.path}
                            className={`relative font-medium transition-colors duration-300 hover:text-primary ${location.pathname === item.path
-                                 ? "text-primary"
-                                 : "text-foreground"
+                              ? "text-primary"
+                              : "text-foreground"
                               }`}
                         >
                            {item.name}
@@ -179,8 +179,8 @@ export const Navigation = () => {
                               <ChevronDown
                                  size={16}
                                  className={`transform transition-transform ${activeDropdown === item.name
-                                       ? "rotate-180"
-                                       : ""
+                                    ? "rotate-180"
+                                    : ""
                                     }`}
                               />
                            </button>

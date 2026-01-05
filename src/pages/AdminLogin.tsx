@@ -44,7 +44,7 @@ export default function AdminLogin() {
           <CardHeader className="space-y-2">
             <div className="flex items-center justify-center mb-4">
               <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-primary/10">
-                <img src="/atlantis.png" alt="Logo" className="w-8 h-8" />
+                <img src="/atlantis.png" alt="Atlantis NDT Logo" loading="lazy" className="w-8 h-8" />
               </div>
             </div>
             <CardTitle className="text-2xl text-center">Admin Portal</CardTitle>

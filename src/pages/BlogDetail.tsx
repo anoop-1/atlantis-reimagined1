@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { blogService } from '@/services/BlogService';
 import { ChevronLeft } from 'lucide-react';
 import { useEffect, useState, useMemo } from 'react';
+import { RelatedArticles } from '@/components/RelatedArticles';
 
 // Function to clean up blog content - removes DOCTYPE, html, head, body wrappers
 function cleanBlogContent(content: string): string {
@@ -171,12 +172,16 @@ export default function BlogDetail() {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.4 }}
-              className="mt-16 pt-16 border-t"
+              className="mt-16"
             >
-              <h3 className="text-2xl font-bold mb-6">Back to Insights</h3>
-              <Button onClick={() => navigate('/blog')} className="btn-primary">
-                View All Articles
-              </Button>
+              <RelatedArticles currentSlug={slug || ''} maxArticles={3} />
+
+              <div className="mt-8 pt-8 border-t text-center">
+                <h3 className="text-xl font-bold mb-4">Explore More Insights</h3>
+                <Button onClick={() => navigate('/blog')} className="btn-primary">
+                  View All Articles
+                </Button>
+              </div>
             </motion.div>
           </div>
         </section>

@@ -112,6 +112,16 @@ export default function Contact() {
             formRef.current,
             "mqEdxmDRFVVoxCXrv"
          );
+
+         // GA4 conversion tracking
+         if (typeof window !== 'undefined' && (window as any).gtag) {
+            (window as any).gtag('event', 'generate_lead', {
+               'event_category': 'Contact Form',
+               'event_label': formData.service || 'General Inquiry',
+               'value': 1
+            });
+         }
+
          setSuccess("Message sent successfully!");
          setFormData({
             firstName: "",
