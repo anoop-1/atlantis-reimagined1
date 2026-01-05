@@ -16,27 +16,86 @@ import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
 
 export default function Index() {
+   // Combined structured data with Organization and LocalBusiness schemas
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      name: "Atlantis NDT",
-      url: "https://atlantisndt.com",
-      logo: "https://atlantisndt.com/logo.png",
-      description:
-         "Leading provider of Non-Destructive Testing services, training, and consultancy with state-of-the-art equipment and certified methodologies.",
-      address: {
-         "@type": "PostalAddress",
-         addressCountry: "North America",
-      },
-      contactPoint: {
-         "@type": "ContactPoint",
-         telephone: "+1-555-123-4567",
-         contactType: "Customer Service",
-      },
-      sameAs: [
-         "https://linkedin.com/company/atlantis-ndt",
-         "https://twitter.com/atlantisndt",
-      ],
+      "@graph": [
+         {
+            "@type": "Organization",
+            "@id": "https://atlantisndt.com/#organization",
+            "name": "Atlantis NDT",
+            "url": "https://atlantisndt.com",
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://atlantisndt.com/atlantis.png"
+            },
+            "description": "Leading provider of Non-Destructive Testing services, training, and Level III consultancy. Serving Oil & Gas, Aerospace, Marine, Nuclear, and Manufacturing industries worldwide.",
+            "foundingDate": "2015",
+            "areaServed": ["United States", "India", "United Arab Emirates", "Saudi Arabia", "Middle East"],
+            "knowsAbout": ["Ultrasonic Testing", "Radiographic Testing", "Magnetic Particle Testing", "Eddy Current Testing", "Visual Testing", "Penetrant Testing", "ASNT Level III Certification", "NDT Training"],
+            "sameAs": [
+               "https://linkedin.com/company/atlantis-ndt"
+            ]
+         },
+         {
+            "@type": "LocalBusiness",
+            "@id": "https://atlantisndt.com/#houston-office",
+            "name": "Atlantis NDT - Houston",
+            "image": "https://atlantisndt.com/atlantis.png",
+            "url": "https://atlantisndt.com/consulting-usa",
+            "telephone": "+1-832-868-6670",
+            "priceRange": "$$",
+            "address": {
+               "@type": "PostalAddress",
+               "streetAddress": "Houston",
+               "addressLocality": "Houston",
+               "addressRegion": "TX",
+               "postalCode": "77001",
+               "addressCountry": "US"
+            },
+            "geo": {
+               "@type": "GeoCoordinates",
+               "latitude": 29.7604,
+               "longitude": -95.3698
+            },
+            "openingHoursSpecification": {
+               "@type": "OpeningHoursSpecification",
+               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+               "opens": "08:00",
+               "closes": "17:00"
+            },
+            "parentOrganization": { "@id": "https://atlantisndt.com/#organization" }
+         },
+         {
+            "@type": "LocalBusiness",
+            "@id": "https://atlantisndt.com/#hyderabad-office",
+            "name": "Atlantis NDT - Hyderabad",
+            "image": "https://atlantisndt.com/atlantis.png",
+            "url": "https://atlantisndt.com/training-india",
+            "telephone": "+91-40-1234-5678",
+            "priceRange": "$$",
+            "address": {
+               "@type": "PostalAddress",
+               "streetAddress": "Hyderabad",
+               "addressLocality": "Hyderabad",
+               "addressRegion": "Telangana",
+               "postalCode": "500001",
+               "addressCountry": "IN"
+            },
+            "geo": {
+               "@type": "GeoCoordinates",
+               "latitude": 17.3850,
+               "longitude": 78.4867
+            },
+            "openingHoursSpecification": {
+               "@type": "OpeningHoursSpecification",
+               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+               "opens": "09:00",
+               "closes": "18:00"
+            },
+            "parentOrganization": { "@id": "https://atlantisndt.com/#organization" }
+         }
+      ]
    };
    const services = [
       {
@@ -278,8 +337,8 @@ export default function Index() {
                                        <Star
                                           key={i}
                                           className={`w-5 h-5 ${i < testimonial.rating
-                                                ? "text-yellow-400 fill-current"
-                                                : "text-gray-300"
+                                             ? "text-yellow-400 fill-current"
+                                             : "text-gray-300"
                                              }`}
                                        />
                                     ))}
