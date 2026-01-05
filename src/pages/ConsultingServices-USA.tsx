@@ -119,6 +119,12 @@ export default function ConsultingServicesUSA() {
                 keywords="NDT consulting USA, ASNT Level III consulting, aerospace NDT services, ASME consulting, API inspection services, Nadcap consulting, NAS410 certification, phased array consulting, ultrasonic testing consulting, NDT Level III services USA"
                 canonical="https://atlantisndt.com/consulting-usa"
                 structuredData={serviceSchema}
+                hreflangLinks={[
+                    { hreflang: 'en-US', href: '/consulting-usa' },
+                    { hreflang: 'en-AE', href: '/consulting-me' },
+                    { hreflang: 'en-IN', href: '/consulting-india' },
+                    { hreflang: 'x-default', href: '/consulting' }
+                ]}
             />
 
             {/* Hero Section */}

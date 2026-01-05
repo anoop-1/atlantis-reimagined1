@@ -123,6 +123,12 @@ export default function ConsultingServicesMiddleEast() {
                 keywords="NDT consulting Dubai, NDT consulting UAE, ARAMCO NDT services, offshore inspection Saudi Arabia, oil gas NDT Middle East, RBI consulting UAE, pipeline inspection Saudi, ADNOC NDT consulting, QatarEnergy inspection, subsea NDT services"
                 canonical="https://atlantisndt.com/consulting-me"
                 structuredData={serviceSchema}
+                hreflangLinks={[
+                    { hreflang: 'en-US', href: '/consulting-usa' },
+                    { hreflang: 'en-AE', href: '/consulting-me' },
+                    { hreflang: 'en-IN', href: '/consulting-india' },
+                    { hreflang: 'x-default', href: '/consulting' }
+                ]}
             />
 
             {/* Hero Section */}

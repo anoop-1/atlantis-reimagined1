@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, Award, Anchor, Users, TrendingUp, Droplets, GraduationCap } from 'lucide-react';
 import { SEOHead } from '@/components/SEOHead';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
 
@@ -83,7 +84,14 @@ export default function TrainingMiddleEast() {
                 keywords="NDT training Dubai, NDT training UAE, NDT courses Saudi Arabia, ARAMCO NDT certification, offshore NDT training Middle East, ASNT Level III UAE, oil gas NDT training, CSWIP training Dubai, NDT certification Saudi Arabia, ultrasonic testing training UAE, RBI training Middle East"
                 canonical="https://atlantisndt.com/training-me"
                 structuredData={courseSchema}
+                hreflangLinks={[
+                    { hreflang: 'en-US', href: '/training-usa' },
+                    { hreflang: 'en-AE', href: '/training-me' },
+                    { hreflang: 'en-IN', href: '/training-india' },
+                    { hreflang: 'x-default', href: '/training' }
+                ]}
             />
+            <Breadcrumbs />
 
             {/* Hero Section */}
             <section className="relative py-20 px-4 sm:px-6 lg:px-8">
@@ -200,6 +208,100 @@ export default function TrainingMiddleEast() {
                                 </p>
                             </CardContent>
                         </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* Testimonials Section */}
+            <section className="py-20">
+                <div className="container mx-auto px-6">
+                    <motion.div
+                        className="text-center mb-12"
+                        initial={{ y: 30, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
+                    >
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                            What Our Middle East Clients Say
+                        </h2>
+                        <p className="text-muted-foreground max-w-2xl mx-auto">
+                            Hear from NDT professionals across the GCC who advanced their careers with Atlantis
+                        </p>
+                    </motion.div>
+
+                    <div className="grid md:grid-cols-3 gap-8">
+                        <motion.div
+                            initial={{ y: 30, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6 }}
+                        >
+                            <Card className="h-full">
+                                <CardContent className="pt-6">
+                                    <div className="flex items-center gap-1 mb-4">
+                                        {[1, 2, 3, 4, 5].map(i => (
+                                            <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
+                                                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                                            </svg>
+                                        ))}
+                                    </div>
+                                    <p className="text-muted-foreground mb-4 italic">
+                                        "The ARAMCO-aligned training at Atlantis was exactly what I needed. Within three months of completing my Level II certification, I secured a position with a major oil company in Abu Dhabi."
+                                    </p>
+                                    <div className="font-semibold">Ahmed S.</div>
+                                    <div className="text-sm text-muted-foreground">NDT Inspector, Dubai, UAE</div>
+                                </CardContent>
+                            </Card>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ y: 30, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.1 }}
+                        >
+                            <Card className="h-full">
+                                <CardContent className="pt-6">
+                                    <div className="flex items-center gap-1 mb-4">
+                                        {[1, 2, 3, 4, 5].map(i => (
+                                            <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
+                                                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                                            </svg>
+                                        ))}
+                                    </div>
+                                    <p className="text-muted-foreground mb-4 italic">
+                                        "Atlantis provided excellent PAUT training with real offshore components. The instructors understand the GCC oil & gas requirements perfectly. Highly recommended for anyone in Saudi Arabia."
+                                    </p>
+                                    <div className="font-semibold">Mohammed A.</div>
+                                    <div className="text-sm text-muted-foreground">Senior QC Engineer, Dammam, Saudi Arabia</div>
+                                </CardContent>
+                            </Card>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ y: 30, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.2 }}
+                        >
+                            <Card className="h-full">
+                                <CardContent className="pt-6">
+                                    <div className="flex items-center gap-1 mb-4">
+                                        {[1, 2, 3, 4, 5].map(i => (
+                                            <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
+                                                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                                            </svg>
+                                        ))}
+                                    </div>
+                                    <p className="text-muted-foreground mb-4 italic">
+                                        "After my Level III training with Atlantis, I was promoted to lead inspector at our Qatar LNG facility. Their training is world-class and recognized throughout the Middle East."
+                                    </p>
+                                    <div className="font-semibold">Khalid M.</div>
+                                    <div className="text-sm text-muted-foreground">Lead NDT Inspector, Doha, Qatar</div>
+                                </CardContent>
+                            </Card>
+                        </motion.div>
                     </div>
                 </div>
             </section>

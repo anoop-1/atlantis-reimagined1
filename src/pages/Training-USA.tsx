@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, Award, Plane, Users, TrendingUp, Rocket, GraduationCap } from 'lucide-react';
 import { SEOHead } from '@/components/SEOHead';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
 
@@ -82,7 +83,14 @@ export default function TrainingUSA() {
         keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
         canonical="https://atlantisndt.com/training-usa"
         structuredData={courseSchema}
+        hreflangLinks={[
+          { hreflang: 'en-US', href: '/training-usa' },
+          { hreflang: 'en-AE', href: '/training-me' },
+          { hreflang: 'en-IN', href: '/training-india' },
+          { hreflang: 'x-default', href: '/training' }
+        ]}
       />
+      <Breadcrumbs />
 
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
@@ -199,6 +207,100 @@ export default function TrainingUSA() {
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <motion.div
+            className="text-center mb-12"
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              What Our USA Clients Say
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Hear from NDT professionals who advanced their careers with Atlantis training
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <motion.div
+              initial={{ y: 30, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <Card className="h-full">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[1, 2, 3, 4, 5].map(i => (
+                      <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground mb-4 italic">
+                    "The PAUT and TOFD training at Atlantis was exceptional. The hands-on practice with real aerospace components prepared me perfectly for my Level III certification exam."
+                  </p>
+                  <div className="font-semibold">Michael R.</div>
+                  <div className="text-sm text-muted-foreground">NDT Level III, Houston, Texas</div>
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ y: 30, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+            >
+              <Card className="h-full">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[1, 2, 3, 4, 5].map(i => (
+                      <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground mb-4 italic">
+                    "After completing my UT Level II certification through Atlantis, I received multiple job offers within two weeks. Their ASNT-aligned curriculum is industry-leading."
+                  </p>
+                  <div className="font-semibold">Sarah K.</div>
+                  <div className="text-sm text-muted-foreground">QC Inspector, Los Angeles, California</div>
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ y: 30, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <Card className="h-full">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[1, 2, 3, 4, 5].map(i => (
+                      <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground mb-4 italic">
+                    "The instructors at Atlantis have real-world NAS410 and aerospace experience. Their Level III training program gave me the confidence to pass my ASNT exam on the first attempt."
+                  </p>
+                  <div className="font-semibold">James T.</div>
+                  <div className="text-sm text-muted-foreground">Senior NDT Technician, Seattle, Washington</div>
+                </CardContent>
+              </Card>
+            </motion.div>
           </div>
         </div>
       </section>
