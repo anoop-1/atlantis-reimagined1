@@ -27,11 +27,13 @@
     },
     {
       "source": "/feed/:path*",
-      "statusCode": 410
+      "destination": "/blog",
+      "statusCode": 301
     },
     {
       "source": "/news-sitemap.xml",
-      "statusCode": 410
+      "destination": "/sitemap.xml",
+      "statusCode": 301
     },
     {
       "source": "/sitemap_index.xml",
