@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, Briefcase, Award, Users, Zap, Globe, TrendingUp, Factory, Shield, FileCheck } from 'lucide-react';
 import { SEOHead } from '@/components/SEOHead';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
 
@@ -123,6 +124,7 @@ export default function ConsultingServicesIndia() {
                     { hreflang: 'x-default', href: '/consulting' }
                 ]}
             />
+            <Breadcrumbs />
 
             {/* Hero Section */}
             <section className="relative py-20 px-4 sm:px-6 lg:px-8">

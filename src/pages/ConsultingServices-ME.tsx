@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, Briefcase, Award, Users, Zap, Anchor, Droplets, Shield, FileSearch } from 'lucide-react';
 import { SEOHead } from '@/components/SEOHead';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
 
@@ -130,6 +131,7 @@ export default function ConsultingServicesMiddleEast() {
                     { hreflang: 'x-default', href: '/consulting' }
                 ]}
             />
+            <Breadcrumbs />
 
             {/* Hero Section */}
             <section className="relative py-20 px-4 sm:px-6 lg:px-8">

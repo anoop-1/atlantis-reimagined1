@@ -1,6 +1,7 @@
 import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CheckCircle, Zap, Shield, Clock, Target, Gauge } from "lucide-react";
 
 export default function EddyCurrentTesting() {
@@ -135,6 +136,7 @@ export default function EddyCurrentTesting() {
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/eddy-current-testing"
          />
+         <Breadcrumbs />
 
          {/* Hero Section */}
          <section className="relative bg-white shadow-md">

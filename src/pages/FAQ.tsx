@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
@@ -121,6 +122,7 @@ export default function FAQPage() {
                 canonical="https://atlantisndt.com/faq"
                 structuredData={structuredData}
             />
+            <Breadcrumbs />
 
             {/* Hero Section */}
             <section className="relative bg-white shadow-md pt-24">

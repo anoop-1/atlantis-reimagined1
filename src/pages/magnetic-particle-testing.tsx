@@ -1,6 +1,7 @@
 import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
    Magnet,
    Shield,
@@ -137,6 +138,7 @@ export default function MagneticParticleTesting() {
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/magnetic-particle-testing"
          />
+         <Breadcrumbs />
 
          {/* Hero Section */}
          <section className="relative bg-white shadow-md">

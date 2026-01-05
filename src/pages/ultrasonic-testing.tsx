@@ -1,6 +1,7 @@
 import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CheckCircle, Waves, Gauge, Shield, Target, Clock } from "lucide-react";
 
 export default function UltrasonicTesting() {
@@ -130,6 +131,7 @@ export default function UltrasonicTesting() {
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/ultrasonic-testing"
          />
+         <Breadcrumbs />
 
          {/* Hero Section */}
          <section className="relative bg-white shadow-md">
@@ -281,6 +283,37 @@ export default function UltrasonicTesting() {
                   >
                      Contact Us
                   </a>
+               </div>
+               <div className="bg-blue-50 p-6 rounded-xl shadow border border-blue-200">
+                  <h3 className="text-xl font-semibold mb-4 text-[#004aad]">
+                     Related Services
+                  </h3>
+                  <ul className="space-y-3 text-slate-700">
+                     <li>
+                        <a
+                           href="/training"
+                           className="hover:text-[#004aad] transition font-medium"
+                        >
+                           → UT Training & Certification
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="/consulting"
+                           className="hover:text-[#004aad] transition font-medium"
+                        >
+                           → Level III UT Consulting
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="/ndt-methods"
+                           className="hover:text-[#004aad] transition font-medium"
+                        >
+                           → All NDT Methods
+                        </a>
+                     </li>
+                  </ul>
                </div>
             </aside>
          </main>

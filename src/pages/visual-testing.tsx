@@ -1,6 +1,7 @@
 import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CheckCircle, Eye, Camera, Shield, Clock, Target } from "lucide-react";
 
 export default function VisualTesting() {
@@ -135,6 +136,7 @@ export default function VisualTesting() {
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/visual-testing"
          />
+         <Breadcrumbs />
 
          {/* Hero Section */}
          <section className="relative bg-white shadow-md">

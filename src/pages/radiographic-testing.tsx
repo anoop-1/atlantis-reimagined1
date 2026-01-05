@@ -1,6 +1,7 @@
 import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
    Shield,
    Camera,
@@ -147,6 +148,7 @@ export default function RadiographicTesting() {
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/radiographic-testing"
          />
+         <Breadcrumbs />
 
          {/* Header Section */}
          <section className="relative bg-white shadow-md">
