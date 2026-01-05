@@ -304,6 +304,28 @@ export default function RadiographicTesting() {
                      Contact Us
                   </a>
                </div>
+               <div className="bg-purple-50 p-6 rounded-xl shadow border border-purple-200">
+                  <h3 className="text-xl font-semibold mb-4 text-purple-700">
+                     Related Services
+                  </h3>
+                  <ul className="space-y-3 text-slate-700">
+                     <li>
+                        <a href="/training" className="hover:text-purple-700 transition font-medium">
+                           → RT Training & Certification
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/consulting" className="hover:text-purple-700 transition font-medium">
+                           → Level III RT Consulting
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/ndt-methods" className="hover:text-purple-700 transition font-medium">
+                           → All NDT Methods
+                        </a>
+                     </li>
+                  </ul>
+               </div>
             </aside>
          </main>
 

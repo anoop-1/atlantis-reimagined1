@@ -293,6 +293,28 @@ export default function MagneticParticleTesting() {
                      Contact Us
                   </a>
                </div>
+               <div className="bg-red-50 p-6 rounded-xl shadow border border-red-200">
+                  <h3 className="text-xl font-semibold mb-4 text-red-700">
+                     Related Services
+                  </h3>
+                  <ul className="space-y-3 text-slate-700">
+                     <li>
+                        <a href="/training" className="hover:text-red-700 transition font-medium">
+                           → MT Training & Certification
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/consulting" className="hover:text-red-700 transition font-medium">
+                           → Level III MT Consulting
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/ndt-methods" className="hover:text-red-700 transition font-medium">
+                           → All NDT Methods
+                        </a>
+                     </li>
+                  </ul>
+               </div>
             </aside>
          </main>
 

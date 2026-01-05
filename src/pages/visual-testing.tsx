@@ -288,6 +288,28 @@ export default function VisualTesting() {
                      Contact Us
                   </a>
                </div>
+               <div className="bg-teal-50 p-6 rounded-xl shadow border border-teal-200">
+                  <h3 className="text-xl font-semibold mb-4 text-teal-700">
+                     Related Services
+                  </h3>
+                  <ul className="space-y-3 text-slate-700">
+                     <li>
+                        <a href="/training" className="hover:text-teal-700 transition font-medium">
+                           → VT Training & Certification
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/consulting" className="hover:text-teal-700 transition font-medium">
+                           → Level III VT Consulting
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/ndt-methods" className="hover:text-teal-700 transition font-medium">
+                           → All NDT Methods
+                        </a>
+                     </li>
+                  </ul>
+               </div>
             </aside>
          </main>
 

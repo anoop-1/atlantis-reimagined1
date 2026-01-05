@@ -386,6 +386,28 @@ export default function EddyCurrentTesting() {
                      Contact Us
                   </a>
                </div>
+               <div className="bg-amber-50 p-6 rounded-xl shadow border border-amber-200">
+                  <h3 className="text-xl font-semibold mb-4 text-amber-700">
+                     Related Services
+                  </h3>
+                  <ul className="space-y-3 text-slate-700">
+                     <li>
+                        <a href="/training" className="hover:text-amber-700 transition font-medium">
+                           → ET Training & Certification
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/consulting" className="hover:text-amber-700 transition font-medium">
+                           → Level III ET Consulting
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/ndt-methods" className="hover:text-amber-700 transition font-medium">
+                           → All NDT Methods
+                        </a>
+                     </li>
+                  </ul>
+               </div>
             </aside>
          </section>
 
