@@ -1,12 +1,52 @@
 {
   "redirects": [
     {
+      "source": "/home",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training/:path*",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-consulting/:path*",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/:path*",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/services",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantis-digital-twins/:path*",
+      "destination": "/digital-twins",
+      "statusCode": 301
+    },
+    {
       "source": "/2024/:path*",
       "destination": "/blog",
       "statusCode": 301
     },
     {
       "source": "/2023/:path*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/2025/:path*",
       "destination": "/blog",
       "statusCode": 301
     },
@@ -38,6 +78,11 @@
     {
       "source": "/sitemap_index.xml",
       "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/footer/:path*",
+      "destination": "/",
       "statusCode": 301
     }
   ],
