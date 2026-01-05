@@ -33,6 +33,7 @@ import NDTMethodsPage from "./pages/NDTMethods";
 import HoustonServices from "./pages/HoustonServices";
 import HyderabadTraining from "./pages/HyderabadTraining";
 import MiddleEastServices from "./pages/MiddleEastServices";
+import CaseStudies from "./pages/CaseStudies";
 import IndustrialAnimation from "./components/IndustrialAnimation";
 import { AuthProvider } from "./context/AuthContext";
 import { lazy } from "react";
@@ -96,6 +97,7 @@ const App = () => (
                   <Route path="/ndt-services-houston" element={<HoustonServices />} />
                   <Route path="/ndt-training-hyderabad" element={<HyderabadTraining />} />
                   <Route path="/ndt-services-middle-east" element={<MiddleEastServices />} />
+                  <Route path="/case-studies" element={<CaseStudies />} />
                   <Route path="/404" element={<NotFound />} />
                   <Route path="*" element={<NotFound />} />
                </Routes>
