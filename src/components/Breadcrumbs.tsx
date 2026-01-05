@@ -91,7 +91,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, className = '' 
             {/* Visual Breadcrumbs */}
             <nav
                 aria-label="Breadcrumb"
-                className={`py-3 px-4 sm:px-6 lg:px-8 bg-slate-50 border-b ${className}`}
+                className={`pt-20 py-3 px-4 sm:px-6 lg:px-8 bg-slate-50 border-b ${className}`}
             >
                 <ol className="flex items-center gap-1 text-sm max-w-6xl mx-auto flex-wrap">
                     {breadcrumbItems.map((item, index) => (
