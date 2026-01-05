@@ -113,6 +113,27 @@
     <priority>0.9</priority>
   </url>
 
+  <url>
+    <loc>https://atlantisndt.com/ndt-services-houston</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/ndt-training-hyderabad</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://atlantisndt.com/ndt-services-middle-east</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Blog Index -->
   <url>
     <loc>https://atlantisndt.com/blog</loc>

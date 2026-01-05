@@ -30,6 +30,9 @@ import TrainingMiddleEast from "./pages/Training-ME";
 import TrainingIndia from "./pages/Training-India";
 import FAQPage from "./pages/FAQ";
 import NDTMethodsPage from "./pages/NDTMethods";
+import HoustonServices from "./pages/HoustonServices";
+import HyderabadTraining from "./pages/HyderabadTraining";
+import MiddleEastServices from "./pages/MiddleEastServices";
 import IndustrialAnimation from "./components/IndustrialAnimation";
 import { AuthProvider } from "./context/AuthContext";
 import { lazy } from "react";
@@ -90,6 +93,9 @@ const App = () => (
                   <Route path="/admin/dashboard" element={<AdminDashboard />} />
                   <Route path="/faq" element={<FAQPage />} />
                   <Route path="/ndt-methods" element={<NDTMethodsPage />} />
+                  <Route path="/ndt-services-houston" element={<HoustonServices />} />
+                  <Route path="/ndt-training-hyderabad" element={<HyderabadTraining />} />
+                  <Route path="/ndt-services-middle-east" element={<MiddleEastServices />} />
                   <Route path="/404" element={<NotFound />} />
                   <Route path="*" element={<NotFound />} />
                </Routes>
