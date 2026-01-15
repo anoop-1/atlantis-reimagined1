@@ -1,0 +1,1 @@
+import{j as t}from"./index-g8IpNRpn.js";import{M as o}from"./MethodLocationPage-CFmzOJPA.js";function r(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"chennai"})}export{r as default};

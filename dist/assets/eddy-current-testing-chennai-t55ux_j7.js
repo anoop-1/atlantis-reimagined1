@@ -1,1 +1,0 @@
-import{j as t}from"./index-CYkRDjI-.js";import{M as o}from"./MethodLocationPage-CUG83QuN.js";function r(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"chennai"})}export{r as default};

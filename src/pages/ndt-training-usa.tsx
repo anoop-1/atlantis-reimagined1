@@ -4,18 +4,20 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { CheckCircle, Award, Clock, DollarSign, GraduationCap, MapPin, Users } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+// Realistic US NDT training prices based on industry standards
 const courses = [
-    { method: "Ultrasonic Testing (UT)", levels: ["Level I", "Level II", "Level III"], duration: "40-80 hrs", price: "$1,500-$2,500" },
-    { method: "Phased Array UT (PAUT)", levels: ["Level I", "Level II"], duration: "40-80 hrs", price: "$2,000-$3,000" },
-    { method: "TOFD", levels: ["Level I", "Level II"], duration: "40 hrs", price: "$1,800-$2,500" },
-    { method: "Radiographic Testing (RT)", levels: ["Level I", "Level II", "Level III"], duration: "40-80 hrs", price: "$1,500-$2,500" },
-    { method: "Magnetic Particle Testing (MT)", levels: ["Level I", "Level II"], duration: "24-40 hrs", price: "$1,200-$1,800" },
-    { method: "Liquid Penetrant Testing (PT)", levels: ["Level I", "Level II"], duration: "16-24 hrs", price: "$1,000-$1,500" },
-    { method: "Eddy Current Testing (ET)", levels: ["Level I", "Level II"], duration: "40-80 hrs", price: "$1,500-$2,500" },
-    { method: "Visual Testing (VT)", levels: ["Level I", "Level II"], duration: "16-24 hrs", price: "$800-$1,200" }
+    { method: "Ultrasonic Testing (UT)", levels: ["Level I", "Level II", "Level III"], duration: "40-80 hrs", price: "$1,695-$2,695" },
+    { method: "Phased Array UT (PAUT)", levels: ["Level I", "Level II"], duration: "40-80 hrs", price: "$2,495-$3,495" },
+    { method: "TOFD", levels: ["Level I", "Level II"], duration: "40 hrs", price: "$2,495" },
+    { method: "Radiographic Testing (RT)", levels: ["Level I", "Level II", "Level III"], duration: "40-80 hrs", price: "$1,695-$2,695" },
+    { method: "Magnetic Particle Testing (MT)", levels: ["Level I", "Level II"], duration: "24-40 hrs", price: "$1,195-$1,595" },
+    { method: "Liquid Penetrant Testing (PT)", levels: ["Level I", "Level II"], duration: "16-24 hrs", price: "$895-$1,295" },
+    { method: "Eddy Current Testing (ET)", levels: ["Level I", "Level II"], duration: "40-80 hrs", price: "$1,695-$2,695" },
+    { method: "Visual Testing (VT)", levels: ["Level I", "Level II"], duration: "16-24 hrs", price: "$795-$1,195" }
 ];
 
 const locations = ["Houston, TX", "Los Angeles, CA", "New Orleans, LA", "Online/Virtual"];
@@ -28,6 +30,8 @@ const faqs = [
 ];
 
 export default function NDTTrainingUSA() {
+    useEffect(() => { window.scrollTo(0, 0); }, []);
+
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [

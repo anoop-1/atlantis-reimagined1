@@ -1,0 +1,1 @@
+import{j as o}from"./index-g8IpNRpn.js";import{M as t}from"./MethodLocationPage-CFmzOJPA.js";function r(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"dubai"})}export{r as default};

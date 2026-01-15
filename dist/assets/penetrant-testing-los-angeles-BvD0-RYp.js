@@ -1,0 +1,1 @@
+import{j as t}from"./index-g8IpNRpn.js";import{M as o}from"./MethodLocationPage-CFmzOJPA.js";function s(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"los-angeles"})}export{s as default};
