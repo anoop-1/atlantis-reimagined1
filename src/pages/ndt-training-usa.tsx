@@ -5,8 +5,9 @@ import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import { CheckCircle, Award, Clock, DollarSign, GraduationCap, MapPin, Users } from "lucide-react";
+import { CheckCircle, Award, Clock, GraduationCap, MapPin } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 // Realistic US NDT training prices based on industry standards
 const courses = [
@@ -20,7 +21,12 @@ const courses = [
     { method: "Visual Testing (VT)", levels: ["Level I", "Level II"], duration: "16-24 hrs", price: "$795-$1,195" }
 ];
 
-const locations = ["Houston, TX", "Los Angeles, CA", "New Orleans, LA", "Online/Virtual"];
+const locations = [
+    { name: "Houston, TX", link: "/ndt-services-texas" },
+    { name: "Los Angeles, CA", link: "/ndt-services-los-angeles" },
+    { name: "New Orleans, LA", link: "/ndt-services-new-orleans" },
+    { name: "Online/Virtual", link: "/ndt-training-online" }
+];
 
 const faqs = [
     { question: "What certifications does Atlantis offer?", answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III." },
@@ -41,7 +47,7 @@ export default function NDTTrainingUSA() {
     };
 
     return (
-        <div className="min-h-screen bg-slate-50">
+        <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
                 title="NDT Training Courses USA | ASNT Certification Training | Houston, LA, Online | Atlantis"
@@ -52,79 +58,139 @@ export default function NDTTrainingUSA() {
             />
             <Breadcrumbs />
 
-            <section className="bg-gradient-to-br from-[#004aad] to-blue-800 text-white pt-24 pb-16">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
-                        <div className="flex items-center gap-2 text-blue-200 mb-4"><GraduationCap className="w-5 h-5" /><span>Training & Certification</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training Courses in USA</h1>
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">ASNT certification training for all major NDT methods. Classroom and online courses with 95% pass rate.</p>
-                        <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll Now</Link>
-                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Courses</Link>
+            {/* Hero Section - Matching main Training page style */}
+            <motion.section
+                className="py-20 bg-gradient-to-r from-primary/10 to-accent/10"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+            >
+                <div className="container mx-auto px-6">
+                    <motion.div
+                        className="max-w-4xl mx-auto text-center"
+                        initial={{ y: 30, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ delay: 0.2, duration: 0.8 }}
+                    >
+                        <div className="flex items-center justify-center gap-2 text-primary mb-4">
+                            <GraduationCap className="w-5 h-5" />
+                            <span className="text-sm font-medium uppercase tracking-wide">Training & Certification</span>
+                        </div>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                            NDT Training Courses in <span className="gradient-text">USA</span>
+                        </h1>
+                        <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+                            ASNT certification training for all major NDT methods. Classroom and online courses with 95% pass rate.
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <Link to="/contact">
+                                <Button size="lg" className="w-full sm:w-auto">Enroll Now</Button>
+                            </Link>
+                            <Link to="/training">
+                                <Button variant="outline" size="lg" className="w-full sm:w-auto">View All Courses</Button>
+                            </Link>
                         </div>
                     </motion.div>
                 </div>
-            </section>
+            </motion.section>
 
-            <section className="py-12 bg-white">
+            {/* Stats Section */}
+            <section className="py-12 bg-secondary/30">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">8+</div><div className="text-slate-600">NDT Methods</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">4</div><div className="text-slate-600">US Locations</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">50+</div><div className="text-slate-600">Expert Instructors</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">95%</div><div className="text-muted-foreground">Pass Rate</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">8+</div><div className="text-muted-foreground">NDT Methods</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">4</div><div className="text-muted-foreground">US Locations</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">50+</div><div className="text-muted-foreground">Expert Instructors</div></div>
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 bg-slate-50">
+            {/* Courses Section */}
+            <section className="py-20">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Available Courses</h2>
-                    <p className="text-slate-600 text-center mb-12">All courses include materials, practical training, and examination</p>
+                    <motion.div
+                        className="text-center mb-12"
+                        initial={{ y: 20, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: true }}
+                    >
+                        <h2 className="text-3xl font-bold mb-4">Available Courses</h2>
+                        <p className="text-muted-foreground">All courses include materials, practical training, and examination</p>
+                    </motion.div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        {courses.map((course) => (
-                            <Card key={course.method} className="hover:shadow-lg transition">
-                                <CardHeader className="pb-2"><CardTitle className="text-lg">{course.method}</CardTitle></CardHeader>
-                                <CardContent>
-                                    <div className="space-y-2 text-sm">
-                                        <div className="flex justify-between"><span className="text-slate-500">Levels:</span><span>{course.levels.join(", ")}</span></div>
-                                        <div className="flex justify-between"><span className="text-slate-500">Duration:</span><span>{course.duration}</span></div>
-                                        <div className="flex justify-between"><span className="text-slate-500">Price:</span><span className="text-green-600 font-medium">{course.price}</span></div>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                        {courses.map((course, index) => (
+                            <motion.div
+                                key={course.method}
+                                initial={{ y: 20, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: index * 0.05 }}
+                            >
+                                <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
+                                    <CardHeader className="pb-2"><CardTitle className="text-base">{course.method}</CardTitle></CardHeader>
+                                    <CardContent>
+                                        <div className="space-y-2 text-sm">
+                                            <div className="flex justify-between"><span className="text-muted-foreground">Levels:</span><span>{course.levels.join(", ")}</span></div>
+                                            <div className="flex justify-between"><span className="text-muted-foreground">Duration:</span><span>{course.duration}</span></div>
+                                            <div className="flex justify-between"><span className="text-muted-foreground">Price:</span><span className="text-primary font-medium">{course.price}</span></div>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </motion.div>
                         ))}
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 bg-white">
+            {/* Locations Section */}
+            <section className="py-16 bg-secondary/30">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">Training Locations</h2>
                     <div className="flex flex-wrap justify-center gap-4">
                         {locations.map((loc) => (
-                            <div key={loc} className="flex items-center gap-2 bg-blue-50 px-6 py-3 rounded-lg">
-                                <MapPin className="w-4 h-4 text-[#004aad]" /><span className="font-medium">{loc}</span>
-                            </div>
+                            <Link
+                                key={loc.name}
+                                to={loc.link}
+                                className="flex items-center gap-2 bg-background px-6 py-3 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition cursor-pointer"
+                            >
+                                <MapPin className="w-4 h-4 text-primary" /><span className="font-medium">{loc.name}</span>
+                            </Link>
                         ))}
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 bg-slate-50">
+            {/* FAQ Section */}
+            <section className="py-20">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
                     <div className="space-y-4">
-                        {faqs.map((faq, index) => (<div key={index} className="bg-white p-6 rounded-lg shadow-sm"><h3 className="font-bold text-lg mb-2">{faq.question}</h3><p className="text-slate-600">{faq.answer}</p></div>))}
+                        {faqs.map((faq, index) => (
+                            <motion.div
+                                key={index}
+                                initial={{ y: 20, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: index * 0.1 }}
+                                className="bg-secondary/30 p-6 rounded-lg"
+                            >
+                                <h3 className="font-bold text-lg mb-2">{faq.question}</h3>
+                                <p className="text-muted-foreground">{faq.answer}</p>
+                            </motion.div>
+                        ))}
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 bg-gradient-to-r from-[#004aad] to-blue-700 text-white text-center">
-                <div className="container mx-auto max-w-4xl px-6">
+            {/* CTA Section */}
+            <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
+                <div className="container mx-auto max-w-4xl px-6 text-center">
                     <h2 className="text-3xl font-bold mb-4">Ready to Start Your NDT Training?</h2>
-                    <p className="text-blue-100 mb-8 text-lg">Enroll in our next class or request a custom corporate training quote.</p>
-                    <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Contact Us</Link>
+                    <p className="text-muted-foreground mb-8 text-lg">Enroll in our next class or request a custom corporate training quote.</p>
+                    <Link to="/contact">
+                        <Button size="lg">Contact Us</Button>
+                    </Link>
                 </div>
             </section>
 

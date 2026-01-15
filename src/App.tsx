@@ -36,7 +36,24 @@ import MiddleEastServices from "./pages/MiddleEastServices";
 import CaseStudies from "./pages/CaseStudies";
 import IndustrialAnimation from "./components/IndustrialAnimation";
 import { AuthProvider } from "./context/AuthContext";
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
+
+// Loading component for lazy-loaded pages - prevents FOUC with solid background
+const PageLoader = () => (
+   <div className="fixed inset-0 z-50 bg-background flex items-center justify-center">
+      <div className="text-center">
+         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+         <p className="text-muted-foreground">Loading...</p>
+      </div>
+   </div>
+);
+
+// Helper to wrap lazy components with Suspense
+const LazyRoute = ({ Component }: { Component: React.LazyExoticComponent<React.ComponentType<any>> }) => (
+   <Suspense fallback={<PageLoader />}>
+      <Component />
+   </Suspense>
+);
 
 const DigitalTwinsNDT = lazy(() => import("./pages/digital-twins-ndt"));
 const DigitalTwinsNDTGuide = lazy(() => import("./pages/digital-twins-ndt-guide"));
@@ -158,66 +175,66 @@ const App = () => (
                   <Route path="/ndt-training-hyderabad" element={<HyderabadTraining />} />
                   <Route path="/ndt-services-middle-east" element={<MiddleEastServices />} />
                   <Route path="/case-studies" element={<CaseStudies />} />
-                  <Route path="/blog/digital-twins-ndt-guide" element={<DigitalTwinsNDTGuide />} />
-                  <Route path="/blog/digital-twins-oil-gas" element={<DigitalTwinsOilGas />} />
+                  <Route path="/blog/digital-twins-ndt-guide" element={<LazyRoute Component={DigitalTwinsNDTGuide} />} />
+                  <Route path="/blog/digital-twins-oil-gas" element={<LazyRoute Component={DigitalTwinsOilGas} />} />
                   {/* Regional Pages - USA */}
-                  <Route path="/ndt-services-los-angeles" element={<NDTServicesLosAngeles />} />
-                  <Route path="/ndt-services-denver" element={<NDTServicesDenver />} />
-                  <Route path="/ndt-services-philadelphia" element={<NDTServicesPhiladelphia />} />
-                  <Route path="/ndt-services-chicago" element={<NDTServicesChicago />} />
-                  <Route path="/ndt-services-texas" element={<NDTServicesTexas />} />
+                  <Route path="/ndt-services-los-angeles" element={<LazyRoute Component={NDTServicesLosAngeles} />} />
+                  <Route path="/ndt-services-denver" element={<LazyRoute Component={NDTServicesDenver} />} />
+                  <Route path="/ndt-services-philadelphia" element={<LazyRoute Component={NDTServicesPhiladelphia} />} />
+                  <Route path="/ndt-services-chicago" element={<LazyRoute Component={NDTServicesChicago} />} />
+                  <Route path="/ndt-services-texas" element={<LazyRoute Component={NDTServicesTexas} />} />
                   {/* Regional Pages - India */}
-                  <Route path="/ndt-services-mumbai" element={<NDTServicesMumbai />} />
-                  <Route path="/ndt-services-chennai" element={<NDTServicesChennai />} />
-                  <Route path="/ndt-services-bangalore" element={<NDTServicesBangalore />} />
-                  <Route path="/ndt-services-delhi" element={<NDTServicesDelhi />} />
+                  <Route path="/ndt-services-mumbai" element={<LazyRoute Component={NDTServicesMumbai} />} />
+                  <Route path="/ndt-services-chennai" element={<LazyRoute Component={NDTServicesChennai} />} />
+                  <Route path="/ndt-services-bangalore" element={<LazyRoute Component={NDTServicesBangalore} />} />
+                  <Route path="/ndt-services-delhi" element={<LazyRoute Component={NDTServicesDelhi} />} />
                   {/* Regional Pages - Middle East & International */}
-                  <Route path="/ndt-services-dubai" element={<NDTServicesDubai />} />
-                  <Route path="/ndt-services-saudi-arabia" element={<NDTServicesSaudiArabia />} />
-                  <Route path="/ndt-services-qatar" element={<NDTServicesQatar />} />
-                  <Route path="/ndt-services-abu-dhabi" element={<NDTServicesAbuDhabi />} />
-                  <Route path="/ndt-services-singapore" element={<NDTServicesSingapore />} />
-                  <Route path="/ndt-services-calgary" element={<NDTServicesCalgary />} />
-                  <Route path="/ndt-services-new-orleans" element={<NDTServicesNewOrleans />} />
-                  <Route path="/ndt-services-kuwait" element={<NDTServicesKuwait />} />
-                  <Route path="/ndt-services-uk" element={<NDTServicesUK />} />
-                  <Route path="/ndt-services-perth" element={<NDTServicesPerth />} />
-                  <Route path="/ndt-services-norway" element={<NDTServicesNorway />} />
+                  <Route path="/ndt-services-dubai" element={<LazyRoute Component={NDTServicesDubai} />} />
+                  <Route path="/ndt-services-saudi-arabia" element={<LazyRoute Component={NDTServicesSaudiArabia} />} />
+                  <Route path="/ndt-services-qatar" element={<LazyRoute Component={NDTServicesQatar} />} />
+                  <Route path="/ndt-services-abu-dhabi" element={<LazyRoute Component={NDTServicesAbuDhabi} />} />
+                  <Route path="/ndt-services-singapore" element={<LazyRoute Component={NDTServicesSingapore} />} />
+                  <Route path="/ndt-services-calgary" element={<LazyRoute Component={NDTServicesCalgary} />} />
+                  <Route path="/ndt-services-new-orleans" element={<LazyRoute Component={NDTServicesNewOrleans} />} />
+                  <Route path="/ndt-services-kuwait" element={<LazyRoute Component={NDTServicesKuwait} />} />
+                  <Route path="/ndt-services-uk" element={<LazyRoute Component={NDTServicesUK} />} />
+                  <Route path="/ndt-services-perth" element={<LazyRoute Component={NDTServicesPerth} />} />
+                  <Route path="/ndt-services-norway" element={<LazyRoute Component={NDTServicesNorway} />} />
                   {/* Industry Landing Pages */}
-                  <Route path="/ndt-for-oil-gas" element={<NDTForOilGas />} />
-                  <Route path="/ndt-for-aerospace" element={<NDTForAerospace />} />
-                  <Route path="/ndt-for-power-generation" element={<NDTForPowerGeneration />} />
+                  <Route path="/ndt-for-oil-gas" element={<LazyRoute Component={NDTForOilGas} />} />
+                  <Route path="/ndt-for-aerospace" element={<LazyRoute Component={NDTForAerospace} />} />
+                  <Route path="/ndt-for-power-generation" element={<LazyRoute Component={NDTForPowerGeneration} />} />
                   {/* Blog Posts */}
-                  <Route path="/blog/api-653-tank-inspection-guide" element={<API653TankInspectionGuide />} />
-                  <Route path="/blog/ndt-career-guide" element={<NDTCareerGuide />} />
-                  <Route path="/blog/ut-vs-rt-comparison" element={<UTvsRTComparison />} />
+                  <Route path="/blog/api-653-tank-inspection-guide" element={<LazyRoute Component={API653TankInspectionGuide} />} />
+                  <Route path="/blog/ndt-career-guide" element={<LazyRoute Component={NDTCareerGuide} />} />
+                  <Route path="/blog/ut-vs-rt-comparison" element={<LazyRoute Component={UTvsRTComparison} />} />
                   {/* Certification Pages */}
-                  <Route path="/api-510-certification" element={<API510Certification />} />
-                  <Route path="/api-570-certification" element={<API570Certification />} />
-                  <Route path="/api-653-certification" element={<API653Certification />} />
-                  <Route path="/asnt-certification" element={<ASNTCertification />} />
+                  <Route path="/api-510-certification" element={<LazyRoute Component={API510Certification} />} />
+                  <Route path="/api-570-certification" element={<LazyRoute Component={API570Certification} />} />
+                  <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
+                  <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
                   {/* Programmatic SEO - Method + Location Pages */}
-                  <Route path="/ultrasonic-testing-houston" element={<UTHouston />} />
-                  <Route path="/radiographic-testing-dubai" element={<RTDubai />} />
-                  <Route path="/magnetic-particle-testing-saudi-arabia" element={<MTSaudiArabia />} />
-                  <Route path="/penetrant-testing-los-angeles" element={<PTLosAngeles />} />
-                  <Route path="/eddy-current-testing-singapore" element={<ETSingapore />} />
-                  <Route path="/visual-testing-uk" element={<VTUK />} />
-                  <Route path="/ultrasonic-testing-mumbai" element={<UTMumbai />} />
-                  <Route path="/radiographic-testing-new-orleans" element={<RTNewOrleans />} />
-                  <Route path="/ultrasonic-testing-qatar" element={<UTQatar />} />
-                  <Route path="/eddy-current-testing-chennai" element={<ETChennai />} />
+                  <Route path="/ultrasonic-testing-houston" element={<LazyRoute Component={UTHouston} />} />
+                  <Route path="/radiographic-testing-dubai" element={<LazyRoute Component={RTDubai} />} />
+                  <Route path="/magnetic-particle-testing-saudi-arabia" element={<LazyRoute Component={MTSaudiArabia} />} />
+                  <Route path="/penetrant-testing-los-angeles" element={<LazyRoute Component={PTLosAngeles} />} />
+                  <Route path="/eddy-current-testing-singapore" element={<LazyRoute Component={ETSingapore} />} />
+                  <Route path="/visual-testing-uk" element={<LazyRoute Component={VTUK} />} />
+                  <Route path="/ultrasonic-testing-mumbai" element={<LazyRoute Component={UTMumbai} />} />
+                  <Route path="/radiographic-testing-new-orleans" element={<LazyRoute Component={RTNewOrleans} />} />
+                  <Route path="/ultrasonic-testing-qatar" element={<LazyRoute Component={UTQatar} />} />
+                  <Route path="/eddy-current-testing-chennai" element={<LazyRoute Component={ETChennai} />} />
                   {/* Training Location Pages */}
-                  <Route path="/ndt-training-usa" element={<NDTTrainingUSA />} />
-                  <Route path="/ndt-training-dubai" element={<NDTTrainingDubai />} />
-                  <Route path="/ndt-training-saudi-arabia" element={<NDTTrainingSaudiArabia />} />
-                  <Route path="/ndt-training-india" element={<NDTTrainingIndia />} />
-                  <Route path="/ndt-training-online" element={<NDTTrainingOnline />} />
+                  <Route path="/ndt-training-usa" element={<LazyRoute Component={NDTTrainingUSA} />} />
+                  <Route path="/ndt-training-dubai" element={<LazyRoute Component={NDTTrainingDubai} />} />
+                  <Route path="/ndt-training-saudi-arabia" element={<LazyRoute Component={NDTTrainingSaudiArabia} />} />
+                  <Route path="/ndt-training-india" element={<LazyRoute Component={NDTTrainingIndia} />} />
+                  <Route path="/ndt-training-online" element={<LazyRoute Component={NDTTrainingOnline} />} />
                   {/* Product/Solution Pages */}
-                  <Route path="/digital-twins-oil-gas-assets" element={<DigitalTwinsOilGasAssets />} />
-                  <Route path="/ndt-consulting-level-iii" element={<NDTConsultingLevelIII />} />
-                  <Route path="/ndt-connect-platform" element={<NDTConnectPlatform />} />
-                  <Route path="/ndt-erp-solution" element={<NDTERPSolution />} />
+                  <Route path="/digital-twins-oil-gas-assets" element={<LazyRoute Component={DigitalTwinsOilGasAssets} />} />
+                  <Route path="/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />
+                  <Route path="/ndt-connect-platform" element={<LazyRoute Component={NDTConnectPlatform} />} />
+                  <Route path="/ndt-erp-solution" element={<LazyRoute Component={NDTERPSolution} />} />
                   <Route path="/404" element={<NotFound />} />
                   <Route path="*" element={<NotFound />} />
                </Routes>

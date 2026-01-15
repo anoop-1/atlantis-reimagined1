@@ -1,1 +1,0 @@
-import{j as a}from"./index-g8IpNRpn.js";import{M as t}from"./MethodLocationPage-CFmzOJPA.js";function r(){return a.jsx(t,{methodSlug:"magnetic-particle-testing",locationSlug:"saudi-arabia"})}export{r as default};

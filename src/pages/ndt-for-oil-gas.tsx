@@ -8,12 +8,12 @@ import { CheckCircle, Droplets, Shield, Award, GraduationCap, Cpu, Globe, Wrench
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ndtMethods = [
-    { name: "Ultrasonic Testing (UT/PAUT/TOFD)", description: "Corrosion mapping, weld inspection, thickness gauging", link: "/blog/ultrasonic-testing" },
-    { name: "Radiographic Testing (RT/DR)", description: "Weld defect detection, piping inspection", link: "/blog/radiographic-testing" },
-    { name: "Magnetic Particle Testing (MT)", description: "Surface crack detection on ferromagnetic materials", link: "/blog/magnetic-particle-testing" },
-    { name: "Liquid Penetrant Testing (PT)", description: "Surface-breaking defect detection", link: "/blog/penetrant-testing" },
-    { name: "Eddy Current Testing (ET)", description: "Heat exchanger tube inspection, conductivity testing", link: "/blog/eddy-current-testing" },
-    { name: "Visual Testing (VT/RVI)", description: "Remote visual inspection of internal components", link: "/blog/visual-testing" }
+    { name: "Ultrasonic Testing (UT/PAUT/TOFD)", description: "Corrosion mapping, weld inspection, thickness gauging", link: "/ultrasonic-testing" },
+    { name: "Radiographic Testing (RT/DR)", description: "Weld defect detection, piping inspection", link: "/radiographic-testing" },
+    { name: "Magnetic Particle Testing (MT)", description: "Surface crack detection on ferromagnetic materials", link: "/magnetic-particle-testing" },
+    { name: "Liquid Penetrant Testing (PT)", description: "Surface-breaking defect detection", link: "/penetrant-testing" },
+    { name: "Eddy Current Testing (ET)", description: "Heat exchanger tube inspection, conductivity testing", link: "/eddy-current-testing" },
+    { name: "Visual Testing (VT/RVI)", description: "Remote visual inspection of internal components", link: "/visual-testing" }
 ];
 
 const applications = [

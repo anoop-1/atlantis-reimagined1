@@ -7,8 +7,22 @@ import { Link } from "react-router-dom";
 import { CheckCircle, MapPin, Award, Shield, Clock, Factory, GraduationCap, Users, Cpu, Wrench, Globe } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const ndtMethods = ["Ultrasonic Testing (UT, PAUT, TOFD)", "Radiographic Testing (RT, DR)", "Magnetic Particle Testing (MT)", "Liquid Penetrant Testing (PT)", "Eddy Current Testing (ET)", "Visual Testing (VT, RVI)"];
-const industries = ["Oil & Gas Refineries", "Petrochemical Plants", "Power Generation", "Manufacturing", "Automotive", "Infrastructure"];
+const ndtMethods = [
+    { name: "Ultrasonic Testing (UT, PAUT, TOFD)", link: "/ultrasonic-testing" },
+    { name: "Radiographic Testing (RT, DR)", link: "/radiographic-testing" },
+    { name: "Magnetic Particle Testing (MT)", link: "/magnetic-particle-testing" },
+    { name: "Liquid Penetrant Testing (PT)", link: "/penetrant-testing" },
+    { name: "Eddy Current Testing (ET)", link: "/eddy-current-testing" },
+    { name: "Visual Testing (VT, RVI)", link: "/visual-testing" }
+];
+const industries = [
+    { name: "Oil & Gas Refineries", link: "/ndt-for-oil-gas" },
+    { name: "Petrochemical Plants", link: "/ndt-for-oil-gas" },
+    { name: "Power Generation", link: "/ndt-for-power-generation" },
+    { name: "Manufacturing", link: null },
+    { name: "Automotive", link: null },
+    { name: "Infrastructure", link: null }
+];
 
 const allServices = [
     { icon: Users, title: "NDT Consulting", description: "ASNT Level III consulting services", link: "/consulting-india" },
@@ -90,8 +104,18 @@ export default function NDTServicesMumbai() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-12">NDT Inspection Services</h2>
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div><h3 className="text-xl font-bold mb-4 flex items-center gap-2"><Award className="w-6 h-6 text-orange-600" />NDT Methods</h3><ul className="space-y-3">{ndtMethods.map((s) => (<li key={s} className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" /><span>{s}</span></li>))}</ul></div>
-                        <div><h3 className="text-xl font-bold mb-4 flex items-center gap-2"><Factory className="w-6 h-6 text-orange-600" />Industries We Serve</h3><ul className="space-y-3">{industries.map((i) => (<li key={i} className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" /><span>{i}</span></li>))}</ul></div>
+                        <div>
+                            <h3 className="text-xl font-bold mb-4 flex items-center gap-2"><Award className="w-6 h-6 text-primary" />NDT Methods</h3>
+                            <ul className="space-y-3">
+                                {ndtMethods.map((m) => (<li key={m.name} className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-primary flex-shrink-0" /><Link to={m.link} className="hover:text-primary hover:underline transition-all duration-200">{m.name}</Link></li>))}
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-bold mb-4 flex items-center gap-2"><Factory className="w-6 h-6 text-primary" />Industries We Serve</h3>
+                            <ul className="space-y-3">
+                                {industries.map((ind) => (<li key={ind.name} className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />{ind.link ? <Link to={ind.link} className="hover:text-primary hover:underline transition-all duration-200">{ind.name}</Link> : <span>{ind.name}</span>}</li>))}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>

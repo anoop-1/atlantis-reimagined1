@@ -8,12 +8,12 @@ import { CheckCircle, Zap, Shield, Award, GraduationCap, Cpu, Globe, Wrench, Fac
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ndtMethods = [
-    { name: "Ultrasonic Testing (UT/PAUT)", description: "Turbine blade inspection, rotor shafts, pressure components", link: "/blog/ultrasonic-testing" },
-    { name: "Magnetic Particle Testing (MT)", description: "Rotor forgings, generator components, valve bodies", link: "/blog/magnetic-particle-testing" },
-    { name: "Liquid Penetrant Testing (PT)", description: "Turbine blades, heat-resistant alloys, steam components", link: "/blog/penetrant-testing" },
-    { name: "Radiographic Testing (RT)", description: "Weld inspection, casting quality, pipe welds", link: "/blog/radiographic-testing" },
-    { name: "Eddy Current Testing (ET)", description: "Heat exchanger tubes, condenser tubing, surface defects", link: "/blog/eddy-current-testing" },
-    { name: "Visual Testing (VT/RVI)", description: "Borescope inspection of turbines, internal components", link: "/blog/visual-testing" }
+    { name: "Ultrasonic Testing (UT/PAUT)", description: "Turbine blade inspection, rotor shafts, pressure components", link: "/ultrasonic-testing" },
+    { name: "Magnetic Particle Testing (MT)", description: "Rotor forgings, generator components, valve bodies", link: "/magnetic-particle-testing" },
+    { name: "Liquid Penetrant Testing (PT)", description: "Turbine blades, heat-resistant alloys, steam components", link: "/penetrant-testing" },
+    { name: "Radiographic Testing (RT)", description: "Weld inspection, casting quality, pipe welds", link: "/radiographic-testing" },
+    { name: "Eddy Current Testing (ET)", description: "Heat exchanger tubes, condenser tubing, surface defects", link: "/eddy-current-testing" },
+    { name: "Visual Testing (VT/RVI)", description: "Borescope inspection of turbines, internal components", link: "/visual-testing" }
 ];
 
 const applications = [

@@ -8,12 +8,12 @@ import { CheckCircle, Plane, Shield, Award, GraduationCap, Cpu, Globe, Wrench, A
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ndtMethods = [
-    { name: "Ultrasonic Testing (UT/PAUT)", description: "Composite inspection, bond line testing, thickness measurement", link: "/blog/ultrasonic-testing" },
-    { name: "Eddy Current Testing (ET)", description: "Surface crack detection, conductivity testing, fastener holes", link: "/blog/eddy-current-testing" },
-    { name: "Radiographic Testing (RT/DR)", description: "Casting inspection, weld examination, composite analysis", link: "/blog/radiographic-testing" },
-    { name: "Liquid Penetrant Testing (PT)", description: "Surface-breaking defects on non-porous materials", link: "/blog/penetrant-testing" },
-    { name: "Magnetic Particle Testing (MT)", description: "Ferromagnetic component crack detection", link: "/blog/magnetic-particle-testing" },
-    { name: "Visual Testing (VT/Borescope)", description: "Engine internals, turbine blades, structural inspection", link: "/blog/visual-testing" }
+    { name: "Ultrasonic Testing (UT/PAUT)", description: "Composite inspection, bond line testing, thickness measurement", link: "/ultrasonic-testing" },
+    { name: "Eddy Current Testing (ET)", description: "Surface crack detection, conductivity testing, fastener holes", link: "/eddy-current-testing" },
+    { name: "Radiographic Testing (RT/DR)", description: "Casting inspection, weld examination, composite analysis", link: "/radiographic-testing" },
+    { name: "Liquid Penetrant Testing (PT)", description: "Surface-breaking defects on non-porous materials", link: "/penetrant-testing" },
+    { name: "Magnetic Particle Testing (MT)", description: "Ferromagnetic component crack detection", link: "/magnetic-particle-testing" },
+    { name: "Visual Testing (VT/Borescope)", description: "Engine internals, turbine blades, structural inspection", link: "/visual-testing" }
 ];
 
 const applications = [

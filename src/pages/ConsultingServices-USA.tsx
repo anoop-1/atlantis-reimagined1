@@ -44,25 +44,25 @@ export default function ConsultingServicesUSA() {
     ];
 
     const ndtMethods = [
-        'Phased Array Ultrasonic (PAUT)',
-        'Time of Flight Diffraction (TOFD)',
-        'Digital Radiography (DR/CR)',
-        'Ultrasonic Testing (UT)',
-        'Radiographic Testing (RT)',
-        'Magnetic Particle Testing (MT)',
-        'Liquid Penetrant Testing (PT)',
-        'Eddy Current Testing (ET)'
+        { name: 'Phased Array Ultrasonic (PAUT)', link: '/ultrasonic-testing' },
+        { name: 'Time of Flight Diffraction (TOFD)', link: '/ultrasonic-testing' },
+        { name: 'Digital Radiography (DR/CR)', link: '/radiographic-testing' },
+        { name: 'Ultrasonic Testing (UT)', link: '/ultrasonic-testing' },
+        { name: 'Radiographic Testing (RT)', link: '/radiographic-testing' },
+        { name: 'Magnetic Particle Testing (MT)', link: '/magnetic-particle-testing' },
+        { name: 'Liquid Penetrant Testing (PT)', link: '/penetrant-testing' },
+        { name: 'Eddy Current Testing (ET)', link: '/eddy-current-testing' }
     ];
 
     const industries = [
-        { name: 'Aerospace & Defense', icon: '✈️' },
-        { name: 'Oil & Gas', icon: '🛢️' },
-        { name: 'Power Generation', icon: '⚡' },
-        { name: 'Automotive', icon: '🚗' },
-        { name: 'Nuclear Energy', icon: '☢️' },
-        { name: 'Manufacturing', icon: '🏭' },
-        { name: 'Chemical Processing', icon: '⚗️' },
-        { name: 'Infrastructure', icon: '🏗️' }
+        { name: 'Aerospace & Defense', icon: '✈️', link: '/ndt-for-aerospace' },
+        { name: 'Oil & Gas', icon: '🛢️', link: '/ndt-for-oil-gas' },
+        { name: 'Power Generation', icon: '⚡', link: '/ndt-for-power-generation' },
+        { name: 'Automotive', icon: '🚗', link: null },
+        { name: 'Nuclear Energy', icon: '☢️', link: null },
+        { name: 'Manufacturing', icon: '🏭', link: null },
+        { name: 'Chemical Processing', icon: '⚗️', link: null },
+        { name: 'Infrastructure', icon: '🏗️', link: null }
     ];
 
     const certifications = [
@@ -203,10 +203,10 @@ export default function ConsultingServicesUSA() {
                             <h3 className="text-2xl font-bold mb-6">Level III NDT Methods</h3>
                             <div className="grid grid-cols-2 gap-3">
                                 {ndtMethods.map((method, idx) => (
-                                    <div key={idx} className="flex items-center gap-2 bg-card p-3 rounded-lg border border-primary/10">
+                                    <Link key={idx} to={method.link} className="flex items-center gap-2 bg-card p-3 rounded-lg border border-primary/10 hover:border-primary/30 hover:shadow-md transition">
                                         <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
-                                        <span className="text-sm">{method}</span>
-                                    </div>
+                                        <span className="text-sm hover:text-primary hover:underline transition-all duration-200">{method.name}</span>
+                                    </Link>
                                 ))}
                             </div>
                         </div>
@@ -214,10 +214,17 @@ export default function ConsultingServicesUSA() {
                             <h3 className="text-2xl font-bold mb-6">Industries Served</h3>
                             <div className="grid grid-cols-2 gap-3">
                                 {industries.map((industry, idx) => (
-                                    <div key={idx} className="flex items-center gap-2 bg-card p-3 rounded-lg border border-primary/10">
-                                        <span className="text-xl">{industry.icon}</span>
-                                        <span className="text-sm">{industry.name}</span>
-                                    </div>
+                                    industry.link ? (
+                                        <Link key={idx} to={industry.link} className="flex items-center gap-2 bg-card p-3 rounded-lg border border-primary/10 hover:border-primary/30 hover:shadow-md transition cursor-pointer">
+                                            <span className="text-xl">{industry.icon}</span>
+                                            <span className="text-sm hover:text-primary">{industry.name}</span>
+                                        </Link>
+                                    ) : (
+                                        <div key={idx} className="flex items-center gap-2 bg-card p-3 rounded-lg border border-primary/10">
+                                            <span className="text-xl">{industry.icon}</span>
+                                            <span className="text-sm">{industry.name}</span>
+                                        </div>
+                                    )
                                 ))}
                             </div>
                         </div>
@@ -231,7 +238,7 @@ export default function ConsultingServicesUSA() {
                     <h2 className="text-3xl font-bold text-center mb-12">Level III Standards & Certifications</h2>
                     <div className="grid md:grid-cols-3 gap-6">
                         {certifications.map((cert, idx) => (
-                            <Card key={idx} className="border-l-4 border-l-blue-600">
+                            <Card key={idx} className="border-l-4 border-l-blue-600 hover:shadow-lg transition cursor-pointer">
                                 <CardContent className="pt-6">
                                     <h3 className="font-bold text-lg mb-2 text-blue-700">{cert.standard}</h3>
                                     <p className="text-sm text-muted-foreground">{cert.description}</p>
