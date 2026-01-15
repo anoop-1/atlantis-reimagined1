@@ -142,9 +142,9 @@ export default function Training() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT Training Programs — India"
-            description="Professional NDT training and certification programs in India. Level I, II, III courses in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing. VR/AR enhanced learning."
-            keywords={`NDT training India, NDT certification India, ultrasonic training India, radiographic training India, Level I II III certification, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing`}
+            title="NDT Training & Certification | Level I, II, III Courses | ASNT SNT-TC-1A | Atlantis NDT"
+            description="Professional NDT certification programs in USA, India & Middle East. Level I, II, III training in UT, MT, PT, RT, ET. ASNT SNT-TC-1A & NAS 410 compliant. 95% pass rate. Enroll today!"
+            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East`}
             structuredData={structuredData}
             canonical="https://atlantisndt.com/training"
          />
@@ -520,6 +520,33 @@ export default function Training() {
                      </Card>
                   </motion.div>
                </div>
+
+               {/* Quick Links to All Training Locations */}
+               <motion.div
+                  className="mt-12 text-center"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+               >
+                  <p className="text-muted-foreground mb-4">Explore training in more locations:</p>
+                  <div className="flex flex-wrap justify-center gap-3">
+                     <Link to="/ndt-training-usa" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
+                        🇺🇸 USA Training
+                     </Link>
+                     <Link to="/ndt-training-dubai" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
+                        🇦🇪 Dubai & UAE
+                     </Link>
+                     <Link to="/ndt-training-saudi-arabia" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
+                        🇸🇦 Saudi Arabia
+                     </Link>
+                     <Link to="/ndt-training-india" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
+                        🇮🇳 India
+                     </Link>
+                     <Link to="/ndt-training-online" className="px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-full text-sm font-medium transition-colors">
+                        💻 Online Training
+                     </Link>
+                  </div>
+               </motion.div>
             </div>
          </section>
          {/* VR/AR Training Section */}

@@ -123,9 +123,9 @@ export default function PenetrantTesting() {
          <Navigation />
 
          <SEOHead
-            title="Liquid Penetrant Testing (PT) Guide | Dye Penetrant Inspection Method"
-            description="Complete guide to Liquid Penetrant Testing. Learn how PT/LPT detects surface cracks and defects in welds, castings, and aerospace components. Best practices included."
-            keywords="penetrant testing, liquid penetrant testing, PT inspection, dye penetrant testing, LPT, fluorescent penetrant, surface crack detection, NDT methods, non-destructive testing"
+            title="Liquid Penetrant Testing (PT) 2026 Guide | Dye Penetrant Inspection | Atlantis NDT"
+            description="Expert Liquid Penetrant Testing services & Level III consulting. Fast surface crack detection for welds, aerospace, aluminum. ASNT certified. Get certified PT training today!"
+            keywords="penetrant testing, liquid penetrant testing, PT inspection, dye penetrant testing, LPT, fluorescent penetrant, surface crack detection, NDT methods, non-destructive testing, PT training, Level II PT, Level III PT"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/penetrant-testing"
          />

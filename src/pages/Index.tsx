@@ -420,6 +420,7 @@ export default function Index() {
                      <a
                         href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u"
                         target="_blank"
+                        rel="noopener noreferrer"
                      >
                         Contact Us Today
                      </a>

@@ -132,9 +132,9 @@ export default function MagneticParticleTesting() {
          <Navigation />
 
          <SEOHead
-            title="Magnetic Particle Testing (MT) Guide | Weld & Surface Defect Detection"
-            description="Complete guide to Magnetic Particle Testing. Learn how MT/MPI detects surface cracks and defects in welds, castings, and ferromagnetic components. Best practices included."
-            keywords="magnetic particle testing, MT inspection, MPI, magnetic particle inspection, weld inspection, surface crack detection, ferromagnetic testing, NDT methods, non-destructive testing"
+            title="Magnetic Particle Testing (MT) 2026 Guide | MPI Weld Inspection | Atlantis NDT"
+            description="Expert Magnetic Particle Inspection (MPI) services & training. Fast surface crack detection for welds, castings, forgings. ASNT Level III certified. Get free inspection quote now!"
+            keywords="magnetic particle testing, MT inspection, MPI, magnetic particle inspection, weld inspection, surface crack detection, ferromagnetic testing, NDT methods, non-destructive testing, MT training, Level II MT, Level III MT, weld MPI"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/magnetic-particle-testing"
          />

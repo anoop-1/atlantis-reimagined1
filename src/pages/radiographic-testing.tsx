@@ -142,9 +142,9 @@ export default function RadiographicTesting() {
          <Navigation />
 
          <SEOHead
-            title="Radiographic Testing (RT) Guide | X-Ray & Gamma Ray Weld Inspection"
-            description="Complete guide to Radiographic Testing. Learn how RT uses X-rays and gamma rays for internal defect detection, weld inspection, and quality control in industrial applications."
-            keywords="radiographic testing, X-ray testing, gamma ray testing, RT inspection, weld radiography, internal defect detection, digital radiography, industrial radiography, NDT methods"
+            title="Radiographic Testing (RT) 2026 Guide | X-Ray & Gamma Ray Inspection | Atlantis NDT"
+            description="Expert Radiographic Testing services & Level III consulting. X-ray, gamma ray, digital radiography for weld inspection. ASME/API compliant. Get certified RT training today!"
+            keywords="radiographic testing, X-ray testing, gamma ray testing, RT inspection, weld radiography, internal defect detection, digital radiography, industrial radiography, NDT methods, RT training, Level II RT, Level III RT, computed radiography"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/radiographic-testing"
          />

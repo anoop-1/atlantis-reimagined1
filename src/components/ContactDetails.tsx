@@ -63,6 +63,7 @@ export default function ContactDetails() {
                         <a
                            href={social.href}
                            target="_blank"
+                           rel="noopener noreferrer"
                            className="text-gray-300 hover:text-accent hover:underline transition"
                         >
                            {social.name}

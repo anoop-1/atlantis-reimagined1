@@ -1,0 +1,109 @@
+import { Navigation } from "@/components/Navigation";
+import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import ContactDetails from "@/components/ContactDetails";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { CheckCircle, MapPin, Award, Shield, Factory, GraduationCap, Users, Cpu, Wrench, Globe, Droplets } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+const ndtMethods = ["Ultrasonic Testing (UT, PAUT, TOFD)", "Radiographic Testing (RT, DR)", "Magnetic Particle Testing (MT)", "Liquid Penetrant Testing (PT)", "Eddy Current Testing (ET)", "Visual Testing (VT, RVI)"];
+const industries = ["Oil & Gas Refineries", "Power Generation", "Metro & Infrastructure", "Manufacturing", "Automotive", "Defense & Aerospace"];
+
+const allServices = [
+    { icon: Users, title: "NDT Consulting", description: "ASNT Level III consulting services", link: "/consulting-india" },
+    { icon: GraduationCap, title: "NDT Training", description: "ASNT/ISNT certification courses", link: "/training-india" },
+    { icon: Cpu, title: "Digital Twins", description: "3D asset visualization technology", link: "/digital-twins" },
+    { icon: Globe, title: "NDT Connect", description: "Cloud inspection management", link: "/ndt-connect" },
+    { icon: Wrench, title: "ERP Solutions", description: "Enterprise planning for NDT", link: "/erp" }
+];
+
+export default function NDTServicesDelhi() {
+    const structuredData = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Atlantis NDT - Delhi NCR",
+        "description": "Complete NDT solutions in Delhi NCR - consulting, training, digital twins for power, infrastructure, and manufacturing industries.",
+        "address": { "@type": "PostalAddress", "addressLocality": "New Delhi", "addressRegion": "Delhi", "addressCountry": "IN" },
+        "areaServed": ["Delhi", "Gurgaon", "Noida", "NCR", "North India"],
+        "telephone": "+91-8688325653"
+    };
+
+    return (
+        <div className="min-h-screen bg-slate-50">
+            <Navigation />
+            <SEOHead
+                title="NDT Services Delhi NCR | Power & Infrastructure NDT | Training & Consulting | Atlantis"
+                description="Complete NDT solutions in Delhi NCR. Power, infrastructure, manufacturing NDT. Training, consulting, digital twins. ASNT/ISNT certified. Free quote!"
+                keywords="NDT services Delhi, NDT training Delhi, NDT consulting NCR, power sector NDT, infrastructure NDT India, ASNT Level III Delhi, Gurgaon NDT, Noida NDT"
+                canonical="https://atlantisndt.com/ndt-services-delhi"
+                structuredData={structuredData}
+            />
+            <Breadcrumbs />
+
+            <section className="bg-gradient-to-br from-sky-600 to-blue-700 text-white pt-24 pb-16">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
+                        <div className="flex items-center gap-2 text-sky-200 mb-4"><MapPin className="w-5 h-5" /><span>Delhi NCR • Serving North India</span></div>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Services in Delhi NCR</h1>
+                        <p className="text-xl text-sky-100 max-w-3xl mb-8">Complete NDT solutions for India's capital region. Power, infrastructure, and manufacturing specialists serving Delhi, Gurgaon, and Noida.</p>
+                        <div className="flex flex-col sm:flex-row gap-4">
+                            <Link to="/contact" className="inline-block bg-white text-sky-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get Free Quote</Link>
+                            <Link to="/training-india" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View Training</Link>
+                        </div>
+                    </motion.div>
+                </div>
+            </section>
+
+            <section className="py-12 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <div className="grid md:grid-cols-4 gap-8 text-center">
+                        <div><div className="text-4xl font-bold text-sky-600 mb-2">50+</div><div className="text-slate-600">Level III Experts</div></div>
+                        <div><div className="text-4xl font-bold text-sky-600 mb-2">NTPC</div><div className="text-slate-600">Approved Vendor</div></div>
+                        <div><div className="text-4xl font-bold text-sky-600 mb-2">DMRC</div><div className="text-slate-600">Project Experience</div></div>
+                        <div><div className="text-4xl font-bold text-sky-600 mb-2">ISO</div><div className="text-slate-600">Certified Services</div></div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="py-16 bg-slate-50">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">Complete NDT Solutions in Delhi NCR</h2>
+                    <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
+                        {allServices.map((service) => (
+                            <Link key={service.title} to={service.link}>
+                                <Card className="h-full hover:shadow-lg transition hover:border-sky-500 cursor-pointer group">
+                                    <CardHeader className="pb-2 text-center">
+                                        <service.icon className="w-10 h-10 text-sky-600 mx-auto mb-2 group-hover:scale-110 transition" />
+                                        <CardTitle className="text-base">{service.title}</CardTitle>
+                                    </CardHeader>
+                                    <CardContent><p className="text-slate-600 text-sm text-center">{service.description}</p></CardContent>
+                                </Card>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-12">NDT Inspection Services</h2>
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div><h3 className="text-xl font-bold mb-4 flex items-center gap-2"><Award className="w-6 h-6 text-sky-600" />NDT Methods</h3><ul className="space-y-3">{ndtMethods.map((s) => (<li key={s} className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" /><span>{s}</span></li>))}</ul></div>
+                        <div><h3 className="text-xl font-bold mb-4 flex items-center gap-2"><Factory className="w-6 h-6 text-sky-600" />Industries We Serve</h3><ul className="space-y-3">{industries.map((i) => (<li key={i} className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" /><span>{i}</span></li>))}</ul></div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="py-16 bg-gradient-to-r from-sky-600 to-blue-700 text-white text-center">
+                <div className="container mx-auto max-w-4xl px-6">
+                    <h2 className="text-3xl font-bold mb-4">Ready to Get Started in Delhi?</h2>
+                    <p className="text-sky-100 mb-8 text-lg">Contact our North India team for power and infrastructure NDT solutions.</p>
+                    <Link to="/contact" className="inline-block bg-white text-sky-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Quote</Link>
+                </div>
+            </section>
+
+            <ContactDetails />
+        </div>
+    );
+}

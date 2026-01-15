@@ -130,9 +130,9 @@ export default function EddyCurrentTesting() {
          <Navigation />
 
          <SEOHead
-            title="Eddy Current Testing (ECT) Guide | How It Works, Applications & Benefits"
-            description="Complete guide to Eddy Current Testing. Learn how ECT detects surface defects in heat exchangers, aerospace components, and tubing. Fast, accurate, non-destructive inspection method."
-            keywords="eddy current testing, ECT inspection, heat exchanger testing, aerospace NDT, tube inspection, surface crack detection, non-destructive testing, eddy current probe, ECT equipment"
+            title="Eddy Current Testing (ECT) | Complete Guide 2026 | Heat Exchanger & Tube Inspection | Atlantis NDT"
+            description="Master Eddy Current Testing: heat exchanger inspection, aerospace, nuclear applications. Learn ECT principles, defect detection & equipment. Get Level II/III ECT training & ASNT consulting from Atlantis NDT."
+            keywords="eddy current testing, ECT inspection, eddy current inspection, eddy current ndt, heat exchanger testing, eddy current tube testing, ECT equipment, surface crack detection, aerospace NDT, electromagnetic testing, tube inspection, ECT training, Level II ECT, Level III ECT, eddy current system, condenser tube inspection"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/eddy-current-testing"
          />

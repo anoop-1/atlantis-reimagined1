@@ -125,9 +125,9 @@ export default function UltrasonicTesting() {
          <Navigation />
 
          <SEOHead
-            title="Ultrasonic Testing (UT) Guide | Weld Inspection & Thickness Measurement"
-            description="Complete guide to Ultrasonic Testing. Learn how UT detects internal flaws using high-frequency sound waves. Used for weld inspection, thickness measurement, and aerospace NDT."
-            keywords="ultrasonic testing, UT inspection, weld inspection, thickness measurement, flaw detection, phased array ultrasonic testing, TOFD, NDT services, non-destructive testing"
+            title="Ultrasonic Testing (UT) 2026 Guide | PAUT & TOFD | Weld Inspection Services | Atlantis NDT"
+            description="Expert Ultrasonic Testing services & training. PAUT, TOFD, thickness measurement, weld inspection. ASNT Level III certified. 95% first-pass accuracy. Get free inspection quote now!"
+            keywords="ultrasonic testing, UT inspection, weld inspection, thickness measurement, flaw detection, phased array ultrasonic testing, PAUT, TOFD, NDT services, non-destructive testing, UT training, Level II UT, Level III UT, ultrasonic thickness gauge"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/ultrasonic-testing"
          />

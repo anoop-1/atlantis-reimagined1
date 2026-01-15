@@ -121,9 +121,9 @@ export default function NDTConnect() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT Connect"
-            description="NDT Connect platform providing advanced inspection services including ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing."
-            keywords="NDT Connect, non-destructive testing, ultrasonic testing, radiographic testing, magnetic particle, penetrant, eddy current, visual testing"
+            title="NDT Connect | Inspection Management Platform | Asset Tracking & Reporting | Atlantis NDT"
+            description="NDT Connect: All-in-one inspection management software. Track assets, manage NDT reports, ensure compliance. Used by 100+ companies. Request free demo today!"
+            keywords="NDT Connect, NDT software, inspection management, NDT reporting software, asset tracking, asset management software, NDT inspection platform, non-destructive testing software, quality management, compliance tracking"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/ndt-connect"
          />
