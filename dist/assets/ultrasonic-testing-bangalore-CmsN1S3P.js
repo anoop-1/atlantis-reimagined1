@@ -1,1 +1,0 @@
-import{j as o}from"./index-pcH1G4ox.js";import{M as t}from"./MethodLocationPage-BoEcs5tc.js";function e(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"bangalore"})}export{e as default};

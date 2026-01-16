@@ -81,10 +81,10 @@ const benefits = [
 ];
 
 const industries = [
-   { icon: Droplets, name: "Oil & Gas", description: "Refineries, pipelines, storage tanks, offshore platforms" },
-   { icon: Factory, name: "Petrochemical", description: "Heat exchangers, pressure vessels, reactors, columns" },
-   { icon: Ship, name: "Marine", description: "Ship hulls, ballast tanks, cargo holds, offshore structures" },
-   { icon: Plane, name: "Aerospace", description: "Aircraft structures, engine components, landing gear" }
+   { icon: Droplets, name: "Oil & Gas", description: "Refineries, pipelines, storage tanks, offshore platforms", href: "/ndt-for-oil-gas" },
+   { icon: Factory, name: "Petrochemical", description: "Heat exchangers, pressure vessels, reactors, columns", href: "/ndt-for-oil-gas" },
+   { icon: Ship, name: "Marine", description: "Ship hulls, ballast tanks, cargo holds, offshore structures", href: "/consulting" },
+   { icon: Plane, name: "Aerospace", description: "Aircraft structures, engine components, landing gear", href: "/ndt-for-aerospace" }
 ];
 
 const useCases = [
@@ -390,13 +390,13 @@ export default function DigitalTwins() {
                   </h2>
                   <div className="grid md:grid-cols-4 gap-6">
                      {industries.map((industry) => (
-                        <div key={industry.name} className="text-center">
-                           <div className="mx-auto bg-white/10 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                        <Link key={industry.name} to={industry.href} className="text-center group hover:scale-105 transition-all duration-200">
+                           <div className="mx-auto bg-white/10 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-4 group-hover:bg-white/20 transition">
                               <industry.icon className="w-8 h-8 text-blue-400" />
                            </div>
-                           <h3 className="font-semibold text-lg mb-2">{industry.name}</h3>
+                           <h3 className="font-semibold text-lg mb-2 group-hover:text-blue-400 transition">{industry.name}</h3>
                            <p className="text-slate-400 text-sm">{industry.description}</p>
-                        </div>
+                        </Link>
                      ))}
                   </div>
                </div>
