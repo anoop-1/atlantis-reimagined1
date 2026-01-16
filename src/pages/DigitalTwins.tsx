@@ -142,7 +142,7 @@ export default function DigitalTwins() {
 
          <div className="w-full min-h-screen flex flex-col bg-gray-100">
             {/* Hero Section */}
-            <section className="py-20 bg-gradient-to-br from-[#004aad] to-[#0066cc] text-white text-center">
+            <section className="pt-24 pb-16 bg-gradient-to-br from-slate-800 to-slate-900 text-white text-center">
                <div className="max-w-4xl mx-auto px-6">
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
@@ -152,20 +152,20 @@ export default function DigitalTwins() {
                      <h1 className="text-4xl md:text-6xl font-bold mb-6">
                         NDT Digital Twins
                      </h1>
-                     <p className="text-xl md:text-2xl text-blue-100 leading-relaxed mb-8">
+                     <p className="text-xl md:text-2xl text-slate-300 leading-relaxed mb-8">
                         Transform inspection data into interactive 3D visualizations.
                         Make faster decisions, reduce costs, and prevent failures.
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                            to="/contact"
-                           className="inline-block px-8 py-4 bg-white text-[#004aad] font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition"
+                           className="inline-block px-8 py-4 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-primary/90 transition"
                         >
                            Request a Demo
                         </Link>
                         <a
                            href="#interactive-demo"
-                           className="inline-block px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition"
+                           className="inline-block px-8 py-4 border-2 border-slate-400 text-white font-semibold rounded-lg hover:bg-white/10 transition"
                         >
                            Try Interactive Demo
                         </a>

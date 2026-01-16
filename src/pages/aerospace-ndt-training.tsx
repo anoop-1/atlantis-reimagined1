@@ -45,21 +45,21 @@ export default function AerospaceNDTTraining() {
             />
             <Breadcrumbs />
 
-            <section className="bg-gradient-to-br from-blue-700 to-indigo-800 text-white pt-24 pb-16">
+            <section className="bg-gradient-to-br from-slate-800 to-slate-900 text-white pt-28 pb-16">
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
-                        <div className="flex items-center gap-2 text-blue-200 mb-4">
+                        <div className="flex items-center gap-2 text-blue-400 mb-4">
                             <Plane className="w-5 h-5" />
                             <span>Industry-Specific Training</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">Aerospace NDT Training</h1>
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">
+                        <p className="text-xl text-slate-300 max-w-3xl mb-8">
                             Specialized NDT certification training designed for aerospace industry professionals.
                             Master inspection techniques for aircraft structures, engine components, and composite materials.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll Now</Link>
-                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
+                            <Link to="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition text-center">Enroll Now</Link>
+                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-slate-400 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -110,11 +110,11 @@ export default function AerospaceNDTTraining() {
                 </div>
             </section>
 
-            <section className="py-16 bg-gradient-to-r from-blue-700 to-indigo-700 text-white text-center">
+            <section className="py-16 bg-gradient-to-r from-slate-700 to-slate-800 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Ready to Advance Your Aerospace NDT Career?</h2>
-                    <p className="text-blue-100 mb-8 text-lg">Join our specialized training program and become certified for aerospace industry inspections.</p>
-                    <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
+                    <p className="text-slate-300 mb-8 text-lg">Join our specialized training program and become certified for aerospace industry inspections.</p>
+                    <Link to="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition">Enroll Now</Link>
                 </div>
             </section>
 
