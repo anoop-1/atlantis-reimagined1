@@ -1,0 +1,1 @@
+import{j as t}from"./index-BaI6rlDU.js";import{M as o}from"./MethodLocationPage-BQmbqci8.js";function s(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"los-angeles"})}export{s as default};

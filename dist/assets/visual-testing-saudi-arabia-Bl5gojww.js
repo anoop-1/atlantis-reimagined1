@@ -1,0 +1,1 @@
+import{j as a}from"./index-BaI6rlDU.js";import{M as t}from"./MethodLocationPage-BQmbqci8.js";function r(){return a.jsx(t,{methodSlug:"visual-testing",locationSlug:"saudi-arabia"})}export{r as default};

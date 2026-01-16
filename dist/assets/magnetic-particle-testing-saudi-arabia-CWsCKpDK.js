@@ -1,1 +1,0 @@
-import{j as a}from"./index-Ec_UByYU.js";import{M as t}from"./MethodLocationPage-CVudC-PE.js";function r(){return a.jsx(t,{methodSlug:"magnetic-particle-testing",locationSlug:"saudi-arabia"})}export{r as default};

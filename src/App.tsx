@@ -96,15 +96,47 @@ const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
 // Programmatic SEO - Method + Location Pages
 const UTHouston = lazy(() => import("./pages/ultrasonic-testing-houston"));
-const RTDubai = lazy(() => import("./pages/radiographic-testing-dubai"));
-const MTSaudiArabia = lazy(() => import("./pages/magnetic-particle-testing-saudi-arabia"));
-const PTLosAngeles = lazy(() => import("./pages/penetrant-testing-los-angeles"));
-const ETSingapore = lazy(() => import("./pages/eddy-current-testing-singapore"));
-const VTUK = lazy(() => import("./pages/visual-testing-uk"));
+const UTDenver = lazy(() => import("./pages/ultrasonic-testing-denver"));
+const UTChicago = lazy(() => import("./pages/ultrasonic-testing-chicago"));
+const UTCalgary = lazy(() => import("./pages/ultrasonic-testing-calgary"));
+const UTNorway = lazy(() => import("./pages/ultrasonic-testing-norway"));
+const UTKuwait = lazy(() => import("./pages/ultrasonic-testing-kuwait"));
+const UTAbuDhabi = lazy(() => import("./pages/ultrasonic-testing-abu-dhabi"));
+const UTBangalore = lazy(() => import("./pages/ultrasonic-testing-bangalore"));
+const UTDelhi = lazy(() => import("./pages/ultrasonic-testing-delhi"));
 const UTMumbai = lazy(() => import("./pages/ultrasonic-testing-mumbai"));
-const RTNewOrleans = lazy(() => import("./pages/radiographic-testing-new-orleans"));
 const UTQatar = lazy(() => import("./pages/ultrasonic-testing-qatar"));
+const RTDubai = lazy(() => import("./pages/radiographic-testing-dubai"));
+const RTHouston = lazy(() => import("./pages/radiographic-testing-houston"));
+const RTLosAngeles = lazy(() => import("./pages/radiographic-testing-los-angeles"));
+const RTSaudiArabia = lazy(() => import("./pages/radiographic-testing-saudi-arabia"));
+const RTQatar = lazy(() => import("./pages/radiographic-testing-qatar"));
+const RTKuwait = lazy(() => import("./pages/radiographic-testing-kuwait"));
+const RTMumbai = lazy(() => import("./pages/radiographic-testing-mumbai"));
+const RTChennai = lazy(() => import("./pages/radiographic-testing-chennai"));
+const RTUK = lazy(() => import("./pages/radiographic-testing-uk"));
+const RTNewOrleans = lazy(() => import("./pages/radiographic-testing-new-orleans"));
+const MTSaudiArabia = lazy(() => import("./pages/magnetic-particle-testing-saudi-arabia"));
+const MTHouston = lazy(() => import("./pages/magnetic-particle-testing-houston"));
+const MTDubai = lazy(() => import("./pages/magnetic-particle-testing-dubai"));
+const MTMumbai = lazy(() => import("./pages/magnetic-particle-testing-mumbai"));
+const MTSingapore = lazy(() => import("./pages/magnetic-particle-testing-singapore"));
+const PTLosAngeles = lazy(() => import("./pages/penetrant-testing-los-angeles"));
+const PTHouston = lazy(() => import("./pages/penetrant-testing-houston"));
+const PTDubai = lazy(() => import("./pages/penetrant-testing-dubai"));
+const PTNewOrleans = lazy(() => import("./pages/penetrant-testing-new-orleans"));
+const PTMumbai = lazy(() => import("./pages/penetrant-testing-mumbai"));
+const ETSingapore = lazy(() => import("./pages/eddy-current-testing-singapore"));
 const ETChennai = lazy(() => import("./pages/eddy-current-testing-chennai"));
+const ETHouston = lazy(() => import("./pages/eddy-current-testing-houston"));
+const ETDubai = lazy(() => import("./pages/eddy-current-testing-dubai"));
+const ETMumbai = lazy(() => import("./pages/eddy-current-testing-mumbai"));
+const ETBangalore = lazy(() => import("./pages/eddy-current-testing-bangalore"));
+const VTUK = lazy(() => import("./pages/visual-testing-uk"));
+const VTHouston = lazy(() => import("./pages/visual-testing-houston"));
+const VTDubai = lazy(() => import("./pages/visual-testing-dubai"));
+const VTSaudiArabia = lazy(() => import("./pages/visual-testing-saudi-arabia"));
+const VTSingapore = lazy(() => import("./pages/visual-testing-singapore"));
 // Training Location Pages
 const NDTTrainingUSA = lazy(() => import("./pages/ndt-training-usa"));
 const NDTTrainingDubai = lazy(() => import("./pages/ndt-training-dubai"));
@@ -116,6 +148,9 @@ const DigitalTwinsOilGasAssets = lazy(() => import("./pages/digital-twins-oil-ga
 const NDTConsultingLevelIII = lazy(() => import("./pages/ndt-consulting-level-iii"));
 const NDTConnectPlatform = lazy(() => import("./pages/ndt-connect-platform"));
 const NDTERPSolution = lazy(() => import("./pages/ndt-erp-solution"));
+// Resource Pages
+const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
+const PressMedia = lazy(() => import("./pages/press-media"));
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -215,15 +250,47 @@ const App = () => (
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
                   {/* Programmatic SEO - Method + Location Pages */}
                   <Route path="/ultrasonic-testing-houston" element={<LazyRoute Component={UTHouston} />} />
-                  <Route path="/radiographic-testing-dubai" element={<LazyRoute Component={RTDubai} />} />
-                  <Route path="/magnetic-particle-testing-saudi-arabia" element={<LazyRoute Component={MTSaudiArabia} />} />
-                  <Route path="/penetrant-testing-los-angeles" element={<LazyRoute Component={PTLosAngeles} />} />
-                  <Route path="/eddy-current-testing-singapore" element={<LazyRoute Component={ETSingapore} />} />
-                  <Route path="/visual-testing-uk" element={<LazyRoute Component={VTUK} />} />
+                  <Route path="/ultrasonic-testing-denver" element={<LazyRoute Component={UTDenver} />} />
+                  <Route path="/ultrasonic-testing-chicago" element={<LazyRoute Component={UTChicago} />} />
+                  <Route path="/ultrasonic-testing-calgary" element={<LazyRoute Component={UTCalgary} />} />
+                  <Route path="/ultrasonic-testing-norway" element={<LazyRoute Component={UTNorway} />} />
+                  <Route path="/ultrasonic-testing-kuwait" element={<LazyRoute Component={UTKuwait} />} />
+                  <Route path="/ultrasonic-testing-abu-dhabi" element={<LazyRoute Component={UTAbuDhabi} />} />
+                  <Route path="/ultrasonic-testing-bangalore" element={<LazyRoute Component={UTBangalore} />} />
+                  <Route path="/ultrasonic-testing-delhi" element={<LazyRoute Component={UTDelhi} />} />
                   <Route path="/ultrasonic-testing-mumbai" element={<LazyRoute Component={UTMumbai} />} />
-                  <Route path="/radiographic-testing-new-orleans" element={<LazyRoute Component={RTNewOrleans} />} />
                   <Route path="/ultrasonic-testing-qatar" element={<LazyRoute Component={UTQatar} />} />
+                  <Route path="/radiographic-testing-dubai" element={<LazyRoute Component={RTDubai} />} />
+                  <Route path="/radiographic-testing-houston" element={<LazyRoute Component={RTHouston} />} />
+                  <Route path="/radiographic-testing-los-angeles" element={<LazyRoute Component={RTLosAngeles} />} />
+                  <Route path="/radiographic-testing-saudi-arabia" element={<LazyRoute Component={RTSaudiArabia} />} />
+                  <Route path="/radiographic-testing-qatar" element={<LazyRoute Component={RTQatar} />} />
+                  <Route path="/radiographic-testing-kuwait" element={<LazyRoute Component={RTKuwait} />} />
+                  <Route path="/radiographic-testing-mumbai" element={<LazyRoute Component={RTMumbai} />} />
+                  <Route path="/radiographic-testing-chennai" element={<LazyRoute Component={RTChennai} />} />
+                  <Route path="/radiographic-testing-uk" element={<LazyRoute Component={RTUK} />} />
+                  <Route path="/radiographic-testing-new-orleans" element={<LazyRoute Component={RTNewOrleans} />} />
+                  <Route path="/magnetic-particle-testing-saudi-arabia" element={<LazyRoute Component={MTSaudiArabia} />} />
+                  <Route path="/magnetic-particle-testing-houston" element={<LazyRoute Component={MTHouston} />} />
+                  <Route path="/magnetic-particle-testing-dubai" element={<LazyRoute Component={MTDubai} />} />
+                  <Route path="/magnetic-particle-testing-mumbai" element={<LazyRoute Component={MTMumbai} />} />
+                  <Route path="/magnetic-particle-testing-singapore" element={<LazyRoute Component={MTSingapore} />} />
+                  <Route path="/penetrant-testing-los-angeles" element={<LazyRoute Component={PTLosAngeles} />} />
+                  <Route path="/penetrant-testing-houston" element={<LazyRoute Component={PTHouston} />} />
+                  <Route path="/penetrant-testing-dubai" element={<LazyRoute Component={PTDubai} />} />
+                  <Route path="/penetrant-testing-new-orleans" element={<LazyRoute Component={PTNewOrleans} />} />
+                  <Route path="/penetrant-testing-mumbai" element={<LazyRoute Component={PTMumbai} />} />
+                  <Route path="/eddy-current-testing-singapore" element={<LazyRoute Component={ETSingapore} />} />
                   <Route path="/eddy-current-testing-chennai" element={<LazyRoute Component={ETChennai} />} />
+                  <Route path="/eddy-current-testing-houston" element={<LazyRoute Component={ETHouston} />} />
+                  <Route path="/eddy-current-testing-dubai" element={<LazyRoute Component={ETDubai} />} />
+                  <Route path="/eddy-current-testing-mumbai" element={<LazyRoute Component={ETMumbai} />} />
+                  <Route path="/eddy-current-testing-bangalore" element={<LazyRoute Component={ETBangalore} />} />
+                  <Route path="/visual-testing-uk" element={<LazyRoute Component={VTUK} />} />
+                  <Route path="/visual-testing-houston" element={<LazyRoute Component={VTHouston} />} />
+                  <Route path="/visual-testing-dubai" element={<LazyRoute Component={VTDubai} />} />
+                  <Route path="/visual-testing-saudi-arabia" element={<LazyRoute Component={VTSaudiArabia} />} />
+                  <Route path="/visual-testing-singapore" element={<LazyRoute Component={VTSingapore} />} />
                   {/* Training Location Pages */}
                   <Route path="/ndt-training-usa" element={<LazyRoute Component={NDTTrainingUSA} />} />
                   <Route path="/ndt-training-dubai" element={<LazyRoute Component={NDTTrainingDubai} />} />
@@ -235,6 +302,9 @@ const App = () => (
                   <Route path="/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />
                   <Route path="/ndt-connect-platform" element={<LazyRoute Component={NDTConnectPlatform} />} />
                   <Route path="/ndt-erp-solution" element={<LazyRoute Component={NDTERPSolution} />} />
+                  {/* Resource Pages */}
+                  <Route path="/resources" element={<LazyRoute Component={ResourcesDownloads} />} />
+                  <Route path="/press" element={<LazyRoute Component={PressMedia} />} />
                   <Route path="/404" element={<NotFound />} />
                   <Route path="*" element={<NotFound />} />
                </Routes>

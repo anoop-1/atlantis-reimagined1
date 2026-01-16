@@ -1,0 +1,1 @@
+import{j as o}from"./index-BaI6rlDU.js";import{M as t}from"./MethodLocationPage-BQmbqci8.js";function r(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"mumbai"})}export{r as default};

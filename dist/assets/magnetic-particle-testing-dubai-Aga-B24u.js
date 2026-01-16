@@ -1,0 +1,1 @@
+import{j as t}from"./index-BaI6rlDU.js";import{M as o}from"./MethodLocationPage-BQmbqci8.js";function e(){return t.jsx(o,{methodSlug:"magnetic-particle-testing",locationSlug:"dubai"})}export{e as default};

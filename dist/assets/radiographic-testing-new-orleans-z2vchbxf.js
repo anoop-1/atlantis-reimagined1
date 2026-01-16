@@ -1,1 +1,0 @@
-import{j as o}from"./index-Ec_UByYU.js";import{M as t}from"./MethodLocationPage-CVudC-PE.js";function a(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"new-orleans"})}export{a as default};
