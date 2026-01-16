@@ -131,7 +131,7 @@ export default function VisualTesting() {
 
          <SEOHead
             title="Visual Testing (VT) 2026 Guide | RVI & Drone Inspection | Borescope Services | Atlantis NDT"
-            description="Expert Visual Testing services with drones, borescopes & RVI cameras. Weld inspection, corrosion monitoring, confined space inspection. ASNT certified. Get free quote now!"
+            description="Expert Visual Testing services with drones, borescopes & RVI cameras. Weld inspection, corrosion monitoring, confined space inspection. Training per SNT-TC-1A. Get free quote now!"
             keywords="visual testing, VT inspection, visual inspection NDT, borescope inspection, drone inspection, weld visual inspection, remote visual inspection, RVI, NDT methods, VT training, Level II VT, Level III VT"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/blog/visual-testing"

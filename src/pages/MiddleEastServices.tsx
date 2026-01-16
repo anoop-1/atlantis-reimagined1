@@ -76,7 +76,7 @@ export default function MiddleEastServices() {
             <Navigation />
 
             <SEOHead
-                title="NDT Services Middle East | UAE, Saudi Arabia, Qatar | ASNT Certified"
+                title="NDT Services Middle East | UAE, Saudi Arabia, Qatar | Per SNT-TC-1A"
                 description="Expert NDT inspection services across the Middle East - UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman. ASNT Level III certified for oil & gas, petrochemical, offshore. Get quote."
                 keywords="NDT services Middle East, NDT inspection UAE, NDT Saudi Arabia, NDT Dubai, oil gas inspection GCC, ASNT Level III Middle East, pipeline inspection UAE, offshore NDT Qatar"
                 canonical="https://atlantisndt.com/ndt-services-middle-east"
@@ -139,7 +139,7 @@ export default function MiddleEastServices() {
                                 <Shield className="w-6 h-6 text-emerald-700" />
                             </div>
                             <div>
-                                <h3 className="font-semibold mb-1">ASNT Certified</h3>
+                                <h3 className="font-semibold mb-1">SNT-TC-1A Compliant</h3>
                                 <p className="text-slate-600 text-sm">Level III technicians</p>
                             </div>
                         </div>

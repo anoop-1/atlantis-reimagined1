@@ -48,7 +48,7 @@ export default function NDTServicesCalgary() {
             <Navigation />
             <SEOHead
                 title="NDT Services Calgary Alberta | Oil Sands & Pipeline NDT | Training & Consulting | Atlantis"
-                description="Complete NDT solutions in Calgary & Alberta. Oil sands, pipeline, natural gas NDT. Training, consulting, digital twins. CGSB/ASNT certified. Free quote!"
+                description="Complete NDT solutions in Calgary & Alberta. Oil sands, pipeline, natural gas NDT. Training, consulting, digital twins. Per SNT-TC-1A/CGSB. Free quote!"
                 keywords="NDT services Calgary, NDT training Alberta, NDT consulting Calgary, oil sands NDT, pipeline NDT Canada, CGSB Level III, ASNT certification Calgary"
                 canonical="https://atlantisndt.com/ndt-services-calgary"
                 structuredData={structuredData}

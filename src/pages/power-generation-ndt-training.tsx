@@ -71,7 +71,7 @@ export default function PowerGenerationNDTTraining() {
                         <div><Zap className="w-10 h-10 text-emerald-600 mx-auto mb-2" /><div className="text-3xl font-bold text-emerald-600 mb-2">15+</div><div className="text-slate-600">Years Power Experience</div></div>
                         <div><Users className="w-10 h-10 text-emerald-600 mx-auto mb-2" /><div className="text-3xl font-bold text-emerald-600 mb-2">2,000+</div><div className="text-slate-600">Power Pros Trained</div></div>
                         <div><Gauge className="w-10 h-10 text-emerald-600 mx-auto mb-2" /><div className="text-3xl font-bold text-emerald-600 mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
-                        <div><Award className="w-10 h-10 text-emerald-600 mx-auto mb-2" /><div className="text-3xl font-bold text-emerald-600 mb-2">ASNT</div><div className="text-slate-600">Certified Program</div></div>
+                        <div><Award className="w-10 h-10 text-emerald-600 mx-auto mb-2" /><div className="text-3xl font-bold text-emerald-600 mb-2">SNT-TC-1A</div><div className="text-slate-600">Compliant Training</div></div>
                     </div>
                 </div>
             </section>

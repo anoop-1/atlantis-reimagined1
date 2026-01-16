@@ -114,7 +114,7 @@ export default function ASNTCertification() {
 
             <section className="py-16 bg-gradient-to-r from-[#004aad] to-blue-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Ready to Get ASNT Certified?</h2>
+                    <h2 className="text-3xl font-bold mb-4">Ready to Get Certified per SNT-TC-1A?</h2>
                     <p className="text-blue-100 mb-8 text-lg">Join our comprehensive training programs and advance your NDT career.</p>
                     <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
                 </div>
