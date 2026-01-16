@@ -61,10 +61,9 @@ export default function API570Certification() {
 
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <div className="grid md:grid-cols-4 gap-8 text-center">
+                    <div className="grid md:grid-cols-3 gap-8 text-center">
                         <div><div className="text-4xl font-bold text-blue-700 mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
                         <div><div className="text-4xl font-bold text-blue-700 mb-2">5 Days</div><div className="text-slate-600">Course Duration</div></div>
-                        <div><div className="text-4xl font-bold text-blue-700 mb-2">$2,500</div><div className="text-slate-600">Course Fee</div></div>
                         <div><div className="text-4xl font-bold text-blue-700 mb-2">3 Yrs</div><div className="text-slate-600">Validity</div></div>
                     </div>
                 </div>

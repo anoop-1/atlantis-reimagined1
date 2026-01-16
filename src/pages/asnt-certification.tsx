@@ -94,7 +94,11 @@ export default function ASNTCertification() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">NDT Methods Available</h2>
                     <div className="flex flex-wrap justify-center gap-4">
-                        {methods.map((method) => (<div key={method} className="bg-slate-100 px-6 py-3 rounded-lg font-medium">{method}</div>))}
+                        {methods.map((method) => (
+                            <Link key={method} to="/training" className="bg-slate-100 px-6 py-3 rounded-lg font-medium hover:bg-[#004aad] hover:text-white transition-all duration-200">
+                                {method}
+                            </Link>
+                        ))}
                     </div>
                 </div>
             </section>

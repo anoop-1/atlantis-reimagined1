@@ -95,10 +95,9 @@ export default function API510Certification() {
             {/* Stats */}
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <div className="grid md:grid-cols-4 gap-8 text-center">
+                    <div className="grid md:grid-cols-3 gap-8 text-center">
                         <div><div className="text-4xl font-bold text-red-700 mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">5 Days</div><div className="text-slate-600">Course Duration</div></div>
-                        <div><div className="text-4xl font-bold text-red-700 mb-2">$2,500</div><div className="text-slate-600">Course Fee</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">3 Yrs</div><div className="text-slate-600">Validity</div></div>
                     </div>
                 </div>
@@ -154,14 +153,10 @@ export default function API510Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-12">Training Course Details</h2>
-                    <div className="grid md:grid-cols-3 gap-6">
+                    <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
                         <Card className="text-center">
                             <CardHeader><Clock className="w-10 h-10 text-red-600 mx-auto" /><CardTitle>Duration</CardTitle></CardHeader>
                             <CardContent><p className="text-2xl font-bold">5 Days</p><p className="text-slate-600">40 hours intensive</p></CardContent>
-                        </Card>
-                        <Card className="text-center">
-                            <CardHeader><DollarSign className="w-10 h-10 text-red-600 mx-auto" /><CardTitle>Investment</CardTitle></CardHeader>
-                            <CardContent><p className="text-2xl font-bold">$2,500</p><p className="text-slate-600">Includes materials</p></CardContent>
                         </Card>
                         <Card className="text-center">
                             <CardHeader><FileText className="w-10 h-10 text-red-600 mx-auto" /><CardTitle>Materials</CardTitle></CardHeader>

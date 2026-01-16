@@ -19,13 +19,14 @@ export default function ContactDetails() {
       { name: "Press & Media", href: "/press" },
    ];
 
+   // Link to training page - methods are covered in training
    const methodLinks = [
-      { name: "Ultrasonic Testing (UT)", href: "/ultrasonic-testing" },
-      { name: "Radiographic Testing (RT)", href: "/radiographic-testing" },
-      { name: "Magnetic Particle (MT)", href: "/magnetic-particle-testing" },
-      { name: "Penetrant Testing (PT)", href: "/penetrant-testing" },
-      { name: "Eddy Current (ET)", href: "/eddy-current-testing" },
-      { name: "Visual Testing (VT)", href: "/visual-testing" },
+      { name: "Ultrasonic Testing (UT)", href: "/training" },
+      { name: "Radiographic Testing (RT)", href: "/training" },
+      { name: "Magnetic Particle (MT)", href: "/training" },
+      { name: "Penetrant Testing (PT)", href: "/training" },
+      { name: "Eddy Current (ET)", href: "/training" },
+      { name: "Visual Testing (VT)", href: "/training" },
    ];
 
    const certificationLinks = [
@@ -36,14 +37,22 @@ export default function ContactDetails() {
    ];
 
    const socialLinks = [
-      { name: "LinkedIn", href: "https://linkedin.com/company/atlantis-ndt", external: true },
-      { name: "Google Maps", href: "https://www.google.com/maps/place/Atlantis+NDT", external: true },
-      { name: "WhatsApp", href: "https://wa.me/+12818408969", external: true },
+      { name: "LinkedIn", href: "https://linkedin.com/company/atlantis-ndt" },
+      { name: "Google Maps", href: "https://maps.app.goo.gl/Lalha-Residence-Houston" },
+      { name: "WhatsApp", href: "https://wa.me/+12818408969" },
    ];
 
    const offices = [
-      { name: "Houston, USA", address: "700 Smith St #61070, SMB#52788" },
-      { name: "Hyderabad, India", address: "5-68/48-132, Hyderabad-500078" },
+      {
+         name: "Houston, USA",
+         address: "700 Smith St #61070, SMB#52788",
+         mapUrl: "https://maps.app.goo.gl/Lalha-Residence-Houston"
+      },
+      {
+         name: "Hyderabad, India",
+         address: "5-68/48-132, Hyderabad-500078",
+         mapUrl: "https://maps.google.com/?q=Atlantis+NDT+Hyderabad+India"
+      },
    ];
 
    return (
@@ -65,7 +74,7 @@ export default function ContactDetails() {
                   </ul>
                </div>
 
-               {/* NDT Methods */}
+               {/* NDT Methods - Link to training page */}
                <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">NDT Methods</h3>
                   <ul className="space-y-2">
@@ -113,15 +122,21 @@ export default function ContactDetails() {
                   <ul className="space-y-3 text-sm">
                      <li className="flex items-start gap-2">
                         <Mail className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-300">info@atlantisndt.com</span>
+                        <a href="mailto:info@atlantisndt.com" className="text-gray-300 hover:text-accent transition">
+                           info@atlantisndt.com
+                        </a>
                      </li>
                      <li className="flex items-start gap-2">
                         <Phone className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-300">+1 (281) 840-8969</span>
+                        <a href="tel:+12818408969" className="text-gray-300 hover:text-accent transition">
+                           +1 (281) 840-8969
+                        </a>
                      </li>
                      <li className="flex items-start gap-2">
                         <Phone className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-300">+91 8688325653</span>
+                        <a href="tel:+918688325653" className="text-gray-300 hover:text-accent transition">
+                           +91 8688325653
+                        </a>
                      </li>
                   </ul>
                </div>
@@ -138,16 +153,22 @@ export default function ContactDetails() {
                         </li>
                      ))}
                   </ul>
-                  {/* Offices */}
+                  {/* Offices with Google Maps links */}
                   <div className="mt-6">
                      <h4 className="text-xs font-semibold uppercase tracking-wider mb-2 text-gray-500">Offices</h4>
                      {offices.map((office) => (
-                        <div key={office.name} className="flex items-start gap-2 mb-2">
+                        <a
+                           key={office.name}
+                           href={office.mapUrl}
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           className="flex items-start gap-2 mb-2 group"
+                        >
                            <MapPin className="w-3 h-3 text-accent flex-shrink-0 mt-1" />
-                           <div className="text-xs text-gray-400">
-                              <strong className="text-gray-300">{office.name}</strong>
-                           </div>
-                        </div>
+                           <span className="text-xs text-gray-400 group-hover:text-accent transition">
+                              <strong className="text-gray-300 group-hover:text-accent">{office.name}</strong>
+                           </span>
+                        </a>
                      ))}
                   </div>
                </div>
