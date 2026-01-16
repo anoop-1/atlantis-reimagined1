@@ -1,0 +1,1 @@
+import{j as o}from"./index-D1BvGNIb.js";import{M as t}from"./MethodLocationPage-DoWpArBm.js";function a(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"los-angeles"})}export{a as default};

@@ -1,1 +1,0 @@
-import{j as o}from"./index-C7vyORNV.js";import{M as t}from"./MethodLocationPage-cmoK7r5W.js";function r(){return o.jsx(t,{methodSlug:"eddy-current-testing",locationSlug:"houston"})}export{r as default};

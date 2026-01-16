@@ -1,0 +1,1 @@
+import{j as o}from"./index-D1BvGNIb.js";import{M as t}from"./MethodLocationPage-DoWpArBm.js";function i(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"houston"})}export{i as default};

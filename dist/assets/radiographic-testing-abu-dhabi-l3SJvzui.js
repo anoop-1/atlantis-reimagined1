@@ -1,0 +1,1 @@
+import{j as o}from"./index-D1BvGNIb.js";import{M as t}from"./MethodLocationPage-DoWpArBm.js";function r(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"abu-dhabi"})}export{r as default};

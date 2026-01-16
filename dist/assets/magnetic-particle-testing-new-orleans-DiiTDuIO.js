@@ -1,0 +1,1 @@
+import{j as t}from"./index-D1BvGNIb.js";import{M as e}from"./MethodLocationPage-DoWpArBm.js";function n(){return t.jsx(e,{methodSlug:"magnetic-particle-testing",locationSlug:"new-orleans"})}export{n as default};
