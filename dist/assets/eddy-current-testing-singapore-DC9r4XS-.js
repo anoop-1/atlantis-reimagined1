@@ -1,0 +1,1 @@
+import{j as o}from"./index-Ec_UByYU.js";import{M as t}from"./MethodLocationPage-CVudC-PE.js";function n(){return o.jsx(t,{methodSlug:"eddy-current-testing",locationSlug:"singapore"})}export{n as default};

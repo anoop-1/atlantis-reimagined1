@@ -33,11 +33,29 @@
   <meta name="twitter:image" content="https://atlantisndt.com/atlantis.jpg" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-96x96.jpg" />
 
-  <script type="module" crossorigin src="/assets/index-D7EJiB48.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Ci-Yosr_.css">
+  <script type="module" crossorigin src="/assets/index-Ec_UByYU.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-xmYbHrk5.css">
 </head>
 
 <body>
+  <!-- Critical CSS to prevent FOUC - hides static content until React loads -->
+  <style>
+    /* Hide static SEO fallback content - these are direct children without classes */
+    #root>header:not([class]),
+    #root>main:not([class]),
+    #root>footer:not([class]) {
+      display: none !important;
+    }
+  </style>
+  <noscript>
+    <style>
+      #root>header,
+      #root>main,
+      #root>footer {
+        display: block !important;
+      }
+    </style>
+  </noscript>
   <div id="root">
     <!-- Static content for SEO crawlers - will be replaced by React -->
     <header>
