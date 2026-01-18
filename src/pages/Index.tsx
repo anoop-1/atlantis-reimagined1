@@ -219,6 +219,58 @@ export default function Index() {
          <AnimatedStats />
          <CursorFollower />
 
+         {/* SEO Content Section - Excellence in NDT Consulting & Training */}
+         <section className="py-16 bg-white">
+            <div className="container mx-auto px-6">
+               <motion.div
+                  className="max-w-4xl mx-auto"
+                  initial={{ y: 30, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8 }}
+               >
+                  <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+                     About <span className="gradient-text">Atlantis NDT</span>
+                  </h2>
+
+                  <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+                     <p>
+                        Atlantis NDT is a global leader in Non-Destructive Testing services. We deliver excellence in NDT consulting and training across the USA, India, and Middle East. Our team includes over 50 ASNT Level III certified professionals. Each expert brings decades of hands-on experience to every project.
+                     </p>
+
+                     <p>
+                        Our NDT consulting services cover all major testing methods. These include ultrasonic testing, radiographic testing, and magnetic particle testing. We also specialize in penetrant testing, eddy current testing, and visual inspection. Our consultants help businesses meet industry codes and safety standards.
+                     </p>
+
+                     <p>
+                        NDT training is at the core of what we do. We offer certification programs per ASNT SNT-TC-1A guidelines. Our courses cover Level I, Level II, and Level III certifications. Students receive hands-on practice with real equipment. We maintain a 95% pass rate across all our training programs.
+                     </p>
+
+                     <p>
+                        We serve industries where quality and safety matter most. Our clients include oil and gas companies, aerospace manufacturers, and marine operators. We also work with power generation plants and nuclear facilities. Each industry has unique requirements. Our experts tailor solutions to meet those specific needs.
+                     </p>
+
+                     <p>
+                        Innovation drives our approach to NDT excellence. We use Digital Twin technology for advanced asset visualization. This helps clients identify defects early and plan maintenance efficiently. Our VR and AR training modules provide immersive learning experiences. These tools set us apart from traditional NDT providers.
+                     </p>
+
+                     <p>
+                        Choosing Atlantis NDT means partnering with trusted professionals. We have completed over 1,000 inspections worldwide. Our consulting and training services meet the highest industry standards. Contact us today to discuss your NDT requirements.
+                     </p>
+                  </div>
+
+                  <div className="mt-8 text-center">
+                     <Link to="/about">
+                        <Button variant="outline" className="group">
+                           Learn More About Us
+                           <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+                        </Button>
+                     </Link>
+                  </div>
+               </motion.div>
+            </div>
+         </section>
+
          {/* Services Preview */}
          <section className="py-20">
             <div className="container mx-auto px-6">
