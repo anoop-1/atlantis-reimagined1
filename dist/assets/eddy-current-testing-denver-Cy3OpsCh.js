@@ -1,0 +1,1 @@
+import{j as t}from"./index-OypQDJYh.js";import{M as e}from"./MethodLocationPage-Hwt2y9Og.js";function n(){return t.jsx(e,{methodSlug:"eddy-current-testing",locationSlug:"denver"})}export{n as default};

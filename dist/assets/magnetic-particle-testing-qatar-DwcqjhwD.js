@@ -1,1 +1,0 @@
-import{j as t}from"./index-D1BvGNIb.js";import{M as a}from"./MethodLocationPage-DoWpArBm.js";function e(){return t.jsx(a,{methodSlug:"magnetic-particle-testing",locationSlug:"qatar"})}export{e as default};

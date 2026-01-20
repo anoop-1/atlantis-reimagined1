@@ -22,9 +22,9 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Houston, TX", link: "/ndt-services-texas" },
-    { name: "Los Angeles, CA", link: "/ndt-services-los-angeles" },
-    { name: "New Orleans, LA", link: "/ndt-services-new-orleans" },
+    { name: "Houston, TX", link: "/training-usa" },
+    { name: "Los Angeles, CA", link: "/training-usa" },
+    { name: "New Orleans, LA", link: "/training-usa" },
     { name: "Online/Virtual", link: "/ndt-training-online" }
 ];
 

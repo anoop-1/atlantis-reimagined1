@@ -92,8 +92,8 @@ const NotFound = () => {
               <Link to="/digital-twins" className="hover:text-[#004aad] hover:underline">
                 Digital Twins
               </Link>
-              <Link to="/ndt-services-houston" className="hover:text-[#004aad] hover:underline">
-                Houston Services
+              <Link to="/consulting-usa" className="hover:text-[#004aad] hover:underline">
+                Houston Consulting
               </Link>
             </div>
           </div>

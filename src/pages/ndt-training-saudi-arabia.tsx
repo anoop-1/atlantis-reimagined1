@@ -19,9 +19,9 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Dammam (Eastern Province)", link: "/ndt-services-saudi-arabia" },
-    { name: "Riyadh", link: "/ndt-services-saudi-arabia" },
-    { name: "Jubail", link: "/ndt-services-saudi-arabia" },
+    { name: "Dammam (Eastern Province)", link: "/training-me" },
+    { name: "Riyadh", link: "/training-me" },
+    { name: "Jubail", link: "/training-me" },
     { name: "On-site at Client Facilities", link: "/contact" }
 ];
 

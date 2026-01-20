@@ -1,0 +1,1 @@
+import{j as o}from"./index-OypQDJYh.js";import{M as t}from"./MethodLocationPage-Hwt2y9Og.js";function a(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"new-orleans"})}export{a as default};

@@ -155,10 +155,10 @@ export default function NDTForOilGas() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">Global Coverage for Oil & Gas</h2>
                     <div className="grid md:grid-cols-4 gap-6">
-                        <div className="text-center"><h3 className="font-bold mb-2">USA</h3><p className="text-slate-600 text-sm">Houston, Texas, Denver, LA</p><Link to="/ndt-services-houston" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
-                        <div className="text-center"><h3 className="font-bold mb-2">Middle East</h3><p className="text-slate-600 text-sm">Dubai, Saudi Arabia, Qatar</p><Link to="/ndt-services-dubai" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
-                        <div className="text-center"><h3 className="font-bold mb-2">India</h3><p className="text-slate-600 text-sm">Mumbai, Chennai, Gujarat</p><Link to="/ndt-services-mumbai" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
-                        <div className="text-center"><h3 className="font-bold mb-2">Canada</h3><p className="text-slate-600 text-sm">Calgary, Alberta Oil Sands</p><Link to="/ndt-services-calgary" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">USA</h3><p className="text-slate-600 text-sm">Houston, Texas, Denver, LA</p><Link to="/consulting-usa" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">Middle East</h3><p className="text-slate-600 text-sm">Dubai, Saudi Arabia, Qatar</p><Link to="/consulting-me" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">India</h3><p className="text-slate-600 text-sm">Mumbai, Chennai, Gujarat</p><Link to="/consulting-india" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">Canada</h3><p className="text-slate-600 text-sm">Calgary, Alberta Oil Sands</p><Link to="/contact" className="text-amber-700 text-sm hover:underline">Learn more →</Link></div>
                     </div>
                 </div>
             </section>

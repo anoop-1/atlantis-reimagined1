@@ -19,11 +19,11 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Mumbai", link: "/ndt-services-mumbai" },
-    { name: "Chennai", link: "/ndt-services-chennai" },
-    { name: "Delhi NCR", link: "/ndt-services-delhi" },
-    { name: "Bangalore", link: "/ndt-services-bangalore" },
-    { name: "Hyderabad", link: "/contact" },
+    { name: "Mumbai", link: "/training-india" },
+    { name: "Chennai", link: "/training-india" },
+    { name: "Delhi NCR", link: "/training-india" },
+    { name: "Bangalore", link: "/training-india" },
+    { name: "Hyderabad", link: "/ndt-training-hyderabad" },
     { name: "Online/Virtual", link: "/ndt-training-online" }
 ];
 

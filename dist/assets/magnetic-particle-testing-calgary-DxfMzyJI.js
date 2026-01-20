@@ -1,0 +1,1 @@
+import{j as t}from"./index-OypQDJYh.js";import{M as a}from"./MethodLocationPage-Hwt2y9Og.js";function e(){return t.jsx(a,{methodSlug:"magnetic-particle-testing",locationSlug:"calgary"})}export{e as default};

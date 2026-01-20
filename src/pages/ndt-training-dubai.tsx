@@ -19,9 +19,9 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Dubai", link: "/ndt-services-dubai" },
-    { name: "Abu Dhabi", link: "/ndt-services-abu-dhabi" },
-    { name: "Sharjah", link: "/ndt-services-dubai" },
+    { name: "Dubai", link: "/training-me" },
+    { name: "Abu Dhabi", link: "/training-me" },
+    { name: "Sharjah", link: "/training-me" },
     { name: "Online/Virtual", link: "/ndt-training-online" }
 ];
 

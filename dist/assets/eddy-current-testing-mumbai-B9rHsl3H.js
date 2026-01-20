@@ -1,1 +1,0 @@
-import{j as t}from"./index-D1BvGNIb.js";import{M as o}from"./MethodLocationPage-DoWpArBm.js";function a(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"mumbai"})}export{a as default};

@@ -155,10 +155,10 @@ export default function NDTForAerospace() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">Aerospace NDT Locations</h2>
                     <div className="grid md:grid-cols-4 gap-6">
-                        <div className="text-center"><h3 className="font-bold mb-2">Los Angeles</h3><p className="text-slate-600 text-sm">Boeing, Northrop Grumman</p><Link to="/ndt-services-los-angeles" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
-                        <div className="text-center"><h3 className="font-bold mb-2">Bangalore</h3><p className="text-slate-600 text-sm">HAL, ISRO, Defense</p><Link to="/ndt-services-bangalore" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
-                        <div className="text-center"><h3 className="font-bold mb-2">Singapore</h3><p className="text-slate-600 text-sm">MRO Hub, Changi</p><Link to="/ndt-services-singapore" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
-                        <div className="text-center"><h3 className="font-bold mb-2">Dubai</h3><p className="text-slate-600 text-sm">Emirates, Etihad MRO</p><Link to="/ndt-services-dubai" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">Los Angeles</h3><p className="text-slate-600 text-sm">Boeing, Northrop Grumman</p><Link to="/consulting-usa" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">Bangalore</h3><p className="text-slate-600 text-sm">HAL, ISRO, Defense</p><Link to="/consulting-india" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">Singapore</h3><p className="text-slate-600 text-sm">MRO Hub, Changi</p><Link to="/contact" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
+                        <div className="text-center"><h3 className="font-bold mb-2">Dubai</h3><p className="text-slate-600 text-sm">Emirates, Etihad MRO</p><Link to="/consulting-me" className="text-blue-700 text-sm hover:underline">Learn more →</Link></div>
                     </div>
                 </div>
             </section>
