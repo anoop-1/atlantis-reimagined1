@@ -1,0 +1,1 @@
+import{j as o}from"./index-CywriUWM.js";import{M as t}from"./MethodLocationPage-gbNp-Zbb.js";function i(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"calgary"})}export{i as default};

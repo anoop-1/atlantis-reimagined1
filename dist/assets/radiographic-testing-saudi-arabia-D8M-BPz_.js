@@ -1,1 +1,0 @@
-import{j as a}from"./index-OypQDJYh.js";import{M as o}from"./MethodLocationPage-Hwt2y9Og.js";function r(){return a.jsx(o,{methodSlug:"radiographic-testing",locationSlug:"saudi-arabia"})}export{r as default};

@@ -1,0 +1,1 @@
+import{j as o}from"./index-CywriUWM.js";import{M as t}from"./MethodLocationPage-gbNp-Zbb.js";function a(){return o.jsx(t,{methodSlug:"eddy-current-testing",locationSlug:"chicago"})}export{a as default};

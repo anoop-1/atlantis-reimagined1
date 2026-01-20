@@ -1,0 +1,1 @@
+import{j as t}from"./index-CywriUWM.js";import{M as a}from"./MethodLocationPage-gbNp-Zbb.js";function r(){return t.jsx(a,{methodSlug:"penetrant-testing",locationSlug:"saudi-arabia"})}export{r as default};

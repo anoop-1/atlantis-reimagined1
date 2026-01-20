@@ -1,0 +1,1 @@
+import{j as t}from"./index-CywriUWM.js";import{M as o}from"./MethodLocationPage-gbNp-Zbb.js";function a(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"dubai"})}export{a as default};

@@ -1,0 +1,1 @@
+import{j as o}from"./index-CywriUWM.js";import{M as t}from"./MethodLocationPage-gbNp-Zbb.js";function r(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"new-orleans"})}export{r as default};

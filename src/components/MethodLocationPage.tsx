@@ -3,31 +3,23 @@ import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
-import { Link, useParams } from "react-router-dom";
-import { CheckCircle, MapPin, Award, GraduationCap, Users, Cpu, Globe, Wrench, Building } from "lucide-react";
+import { Link } from "react-router-dom";
+import { CheckCircle, MapPin, Award, GraduationCap, Users, Cpu, Globe, BookOpen, Lightbulb, Target } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ndtMethods, keyLocations } from "@/data/programmatic-seo";
 
 const colorMap: Record<string, { bg: string; text: string; light: string }> = {
-    amber: { bg: "from-amber-600 to-orange-700", text: "text-amber-600", light: "bg-amber-50" },
-    blue: { bg: "from-blue-600 to-indigo-700", text: "text-blue-600", light: "bg-blue-50" },
-    purple: { bg: "from-purple-600 to-violet-700", text: "text-purple-600", light: "bg-purple-50" },
-    emerald: { bg: "from-emerald-600 to-teal-700", text: "text-emerald-600", light: "bg-emerald-50" },
-    green: { bg: "from-green-600 to-emerald-700", text: "text-green-600", light: "bg-green-50" },
-    indigo: { bg: "from-indigo-600 to-purple-700", text: "text-indigo-600", light: "bg-indigo-50" },
-    orange: { bg: "from-orange-600 to-red-700", text: "text-orange-600", light: "bg-orange-50" },
-    rose: { bg: "from-rose-600 to-pink-700", text: "text-rose-600", light: "bg-rose-50" },
-    red: { bg: "from-red-600 to-rose-700", text: "text-red-600", light: "bg-red-50" },
-    slate: { bg: "from-slate-700 to-gray-800", text: "text-slate-600", light: "bg-slate-50" }
+    amber: { bg: "from-slate-800 to-slate-900", text: "text-amber-600", light: "bg-amber-50" },
+    blue: { bg: "from-slate-800 to-slate-900", text: "text-blue-600", light: "bg-blue-50" },
+    purple: { bg: "from-slate-800 to-slate-900", text: "text-purple-600", light: "bg-purple-50" },
+    emerald: { bg: "from-slate-800 to-slate-900", text: "text-emerald-600", light: "bg-emerald-50" },
+    green: { bg: "from-slate-800 to-slate-900", text: "text-green-600", light: "bg-green-50" },
+    indigo: { bg: "from-slate-800 to-slate-900", text: "text-indigo-600", light: "bg-indigo-50" },
+    orange: { bg: "from-slate-800 to-slate-900", text: "text-orange-600", light: "bg-orange-50" },
+    rose: { bg: "from-slate-800 to-slate-900", text: "text-rose-600", light: "bg-rose-50" },
+    red: { bg: "from-slate-800 to-slate-900", text: "text-red-600", light: "bg-red-50" },
+    slate: { bg: "from-slate-800 to-slate-900", text: "text-slate-600", light: "bg-slate-50" }
 };
-
-const allServices = [
-    { icon: Users, title: "NDT Consulting", description: "Level III consulting services", link: "/consulting" },
-    { icon: GraduationCap, title: "NDT Training", description: "Certification courses", link: "/training" },
-    { icon: Cpu, title: "Digital Twins", description: "3D asset visualization", link: "/digital-twins" },
-    { icon: Globe, title: "NDT Connect", description: "Cloud inspection platform", link: "/ndt-connect" },
-    { icon: Wrench, title: "ERP Solutions", description: "Enterprise planning", link: "/erp" }
-];
 
 interface MethodLocationPageProps {
     methodSlug: string;
@@ -43,19 +35,28 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
     }
 
     const colors = colorMap[location.color] || colorMap.blue;
-    const pageTitle = `${method.name} ${location.name} | ${method.shortName} Services & Training | Atlantis NDT`;
-    const pageDesc = `Expert ${method.name} (${method.shortName}) services in ${location.name}. ${method.applications.slice(0, 3).join(", ")}. Training, consulting, inspection. ${location.industries.join(", ")} specialists. Get free quote!`;
-    const keywords = `${method.name} ${location.name}, ${method.shortName} ${location.name}, ${method.slug} ${location.slug}, NDT ${location.name}, ${method.shortName} training ${location.name}`;
+    const pageTitle = `${method.name} Guide | ${method.shortName} Training & Consulting ${location.name} | Atlantis NDT`;
+    const pageDesc = `Complete guide to ${method.name} (${method.shortName}) for professionals in ${location.name}. Learn about ${method.applications.slice(0, 3).join(", ")}. Training courses and consulting available. ${location.industries.join(", ")} applications.`;
+    const keywords = `${method.name} ${location.name}, ${method.shortName} training ${location.name}, ${method.slug} guide, learn ${method.shortName}, ${method.shortName} consulting ${location.name}`;
     const canonical = `https://atlantisndt.com/${methodSlug}-${locationSlug}`;
 
     const structuredData = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": `${method.name} Services in ${location.name}`,
-        "provider": { "@type": "Organization", "name": "Atlantis NDT" },
-        "description": pageDesc,
-        "areaServed": { "@type": "Place", "name": location.name },
-        "serviceType": method.name
+        "@graph": [
+            {
+                "@type": "Course",
+                "name": `${method.name} Training in ${location.name}`,
+                "provider": { "@type": "Organization", "name": "Atlantis NDT" },
+                "description": `Professional ${method.shortName} certification training per ASNT SNT-TC-1A in ${location.name}.`,
+                "courseCode": `${method.shortName}-${location.slug.toUpperCase()}`
+            },
+            {
+                "@type": "Article",
+                "name": `What is ${method.name}?`,
+                "description": method.description,
+                "author": { "@type": "Organization", "name": "Atlantis NDT" }
+            }
+        ]
     };
 
     return (
@@ -70,54 +71,60 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
             />
             <Breadcrumbs />
 
-            {/* Hero */}
-            <section className={`bg-gradient-to-br ${colors.bg} text-white pt-24 pb-16`}>
+            {/* Hero - Educational Focus */}
+            <section className={`bg-gradient-to-br ${colors.bg} text-white pt-28 pb-16`}>
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="flex items-center gap-2 text-white/80 mb-4">
-                            <MapPin className="w-5 h-5" />
-                            <span>{location.name}, {location.region}</span>
+                            <BookOpen className="w-5 h-5" />
+                            <span>NDT Method Guide</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            {method.name} in {location.name}
+                            {method.name} ({method.shortName})
                         </h1>
-                        <p className="text-xl text-white/90 max-w-3xl mb-8">
-                            Expert {method.shortName} inspection, training, and consulting services in {location.name}.
-                            Specialized in {location.industries.slice(0, 2).join(" and ")} applications.
+                        <p className="text-xl text-white/90 max-w-3xl mb-4">
+                            {method.description}
+                        </p>
+                        <p className="text-lg text-white/70 max-w-3xl mb-8">
+                            Training and consulting available in {location.name} for {location.industries.slice(0, 2).join(" and ")} professionals.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-slate-800 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">
-                                Get Free Quote
+                            <Link to="/training" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition text-center">
+                                View Training Courses
                             </Link>
                             <Link to={`/blog/${method.slug}`} className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">
-                                Learn About {method.shortName}
+                                Detailed {method.shortName} Guide
                             </Link>
                         </div>
                     </motion.div>
                 </div>
             </section>
 
-            {/* Stats */}
+            {/* Training Stats - Not Service Stats */}
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>{method.shortName}</div><div className="text-slate-600">Specialists</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>50+</div><div className="text-slate-600">Level II/III Experts</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>24/7</div><div className="text-slate-600">Emergency Support</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>ISO</div><div className="text-slate-600">Certified Services</div></div>
+                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>95%</div><div className="text-slate-600">Pass Rate</div></div>
+                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>SNT-TC-1A</div><div className="text-slate-600">Compliant Training</div></div>
+                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>50+</div><div className="text-slate-600">Expert Instructors</div></div>
+                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>Level I-III</div><div className="text-slate-600">Certifications</div></div>
                     </div>
                 </div>
             </section>
 
-            {/* What is this method */}
+            {/* What is this method - Educational Content */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold mb-6">What is {method.name}?</h2>
-                    <p className="text-lg text-slate-600 mb-8">{method.description}. In {location.name}, we specialize in {method.shortName} applications for {location.industries.join(", ")} industries.</p>
+                    <p className="text-lg text-slate-600 mb-4">{method.description}</p>
+                    <p className="text-lg text-slate-600 mb-8">
+                        {method.shortName} is widely used in {location.name} across {location.industries.join(", ")} industries.
+                        Our training programs prepare technicians for real-world {method.shortName} applications in these sectors.
+                    </p>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         <Card>
-                            <CardHeader><CardTitle>Applications</CardTitle></CardHeader>
+                            <CardHeader><CardTitle className="flex items-center gap-2"><Target className="w-5 h-5 text-primary" /> Common Applications</CardTitle></CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     {method.applications.map(app => (
@@ -130,7 +137,7 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
                             </CardContent>
                         </Card>
                         <Card>
-                            <CardHeader><CardTitle>Techniques</CardTitle></CardHeader>
+                            <CardHeader><CardTitle className="flex items-center gap-2"><Lightbulb className="w-5 h-5 text-primary" /> Techniques You'll Learn</CardTitle></CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     {method.techniques.map(tech => (
@@ -146,86 +153,120 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
                 </div>
             </section>
 
-            {/* Local Industries */}
+            {/* Industry Applications in Location */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-8">{method.shortName} for {location.name} Industries</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">{method.shortName} Applications in {location.name}</h2>
+                    <p className="text-center text-slate-600 mb-8 max-w-2xl mx-auto">
+                        Learn how {method.name} is applied across different industries in {location.name}.
+                    </p>
                     <div className="grid md:grid-cols-3 gap-6">
                         {location.industries.map(industry => (
-                            <Card key={industry} className="text-center">
+                            <Card key={industry} className="text-center hover:shadow-lg transition">
                                 <CardHeader><CardTitle className="text-lg">{industry}</CardTitle></CardHeader>
-                                <CardContent><p className="text-slate-600 text-sm">{method.shortName} inspection and testing for {industry.toLowerCase()} sector</p></CardContent>
+                                <CardContent><p className="text-slate-600 text-sm">{method.shortName} is essential for quality control and safety compliance in the {industry.toLowerCase()} sector.</p></CardContent>
                             </Card>
                         ))}
                     </div>
                 </div>
             </section>
 
-            {/* Companies We Work With */}
+            {/* Why Learn This Method */}
             <section className={`py-16 ${colors.light}`}>
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-8">Companies We Work With in {location.name}</h2>
-                    <div className="flex flex-wrap justify-center gap-4">
-                        {location.companies.map(company => (
-                            <div key={company} className="bg-white px-6 py-3 rounded-lg shadow-sm font-medium flex items-center gap-2">
-                                <Building className="w-4 h-4 text-slate-400" />
-                                {company}
-                            </div>
-                        ))}
+                    <h2 className="text-3xl font-bold text-center mb-8">Why Learn {method.shortName} in {location.name}?</h2>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <Card>
+                            <CardHeader><CardTitle className="flex items-center gap-2"><GraduationCap className="w-5 h-5 text-primary" /> Career Growth</CardTitle></CardHeader>
+                            <CardContent><p className="text-slate-600">High demand for certified {method.shortName} technicians in {location.name}'s {location.industries[0]} industry.</p></CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader><CardTitle className="flex items-center gap-2"><Award className="w-5 h-5 text-primary" /> Industry Recognition</CardTitle></CardHeader>
+                            <CardContent><p className="text-slate-600">Our {method.shortName} training meets ASNT SNT-TC-1A standards recognized worldwide.</p></CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader><CardTitle className="flex items-center gap-2"><Users className="w-5 h-5 text-primary" /> Expert Instructors</CardTitle></CardHeader>
+                            <CardContent><p className="text-slate-600">Learn from Level III professionals with real-world {method.shortName} experience.</p></CardContent>
+                        </Card>
                     </div>
                 </div>
             </section>
 
-            {/* Complete Solutions */}
+            {/* Training & Consulting CTA */}
             <section className="py-16 bg-slate-900 text-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Complete {method.shortName} Solutions</h2>
-                    <p className="text-center text-slate-400 mb-12">Beyond inspection — training, consulting, and digital transformation</p>
-                    <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
-                        {allServices.map((service) => (
-                            <Link key={service.title} to={service.link}>
-                                <Card className="h-full bg-slate-800 border-slate-700 hover:border-blue-500 transition group">
-                                    <CardHeader className="pb-2 text-center">
-                                        <service.icon className="w-10 h-10 text-blue-400 mx-auto mb-2 group-hover:scale-110 transition" />
-                                        <CardTitle className="text-base text-white">{service.title}</CardTitle>
-                                    </CardHeader>
-                                    <CardContent><p className="text-slate-400 text-sm text-center">{service.description}</p></CardContent>
-                                </Card>
-                            </Link>
-                        ))}
+                    <h2 className="text-3xl font-bold text-center mb-4">Our {method.shortName} Services</h2>
+                    <p className="text-center text-slate-400 mb-12">Training and consulting — we help you master {method.name}</p>
+                    <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                        <Link to="/training">
+                            <Card className="h-full bg-slate-800 border-slate-700 hover:border-primary transition group">
+                                <CardHeader className="pb-2 text-center">
+                                    <GraduationCap className="w-10 h-10 text-primary mx-auto mb-2 group-hover:scale-110 transition" />
+                                    <CardTitle className="text-base text-white">{method.shortName} Training</CardTitle>
+                                </CardHeader>
+                                <CardContent><p className="text-slate-400 text-sm text-center">Level I, II, III certification courses</p></CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/consulting">
+                            <Card className="h-full bg-slate-800 border-slate-700 hover:border-primary transition group">
+                                <CardHeader className="pb-2 text-center">
+                                    <Users className="w-10 h-10 text-primary mx-auto mb-2 group-hover:scale-110 transition" />
+                                    <CardTitle className="text-base text-white">{method.shortName} Consulting</CardTitle>
+                                </CardHeader>
+                                <CardContent><p className="text-slate-400 text-sm text-center">Level III procedure development</p></CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/digital-twins">
+                            <Card className="h-full bg-slate-800 border-slate-700 hover:border-primary transition group">
+                                <CardHeader className="pb-2 text-center">
+                                    <Cpu className="w-10 h-10 text-primary mx-auto mb-2 group-hover:scale-110 transition" />
+                                    <CardTitle className="text-base text-white">Digital Twins</CardTitle>
+                                </CardHeader>
+                                <CardContent><p className="text-slate-400 text-sm text-center">3D visualization for {method.shortName}</p></CardContent>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
             </section>
 
-            {/* FAQ */}
+            {/* FAQ - Educational */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
                     <div className="space-y-4">
                         <div className="bg-slate-50 p-6 rounded-lg">
-                            <h3 className="font-bold mb-2">What is {method.name} used for in {location.name}?</h3>
-                            <p className="text-slate-600">{method.name} ({method.shortName}) is used in {location.name} primarily for {method.applications.slice(0, 3).join(", ")} in the {location.industries[0]} industry.</p>
+                            <h3 className="font-bold mb-2">What is {method.name} used for?</h3>
+                            <p className="text-slate-600">{method.name} ({method.shortName}) is primarily used for {method.applications.slice(0, 3).join(", ")}. It's a critical NDT method in {location.industries[0]} and other industries.</p>
                         </div>
                         <div className="bg-slate-50 p-6 rounded-lg">
                             <h3 className="font-bold mb-2">Do you offer {method.shortName} training in {location.name}?</h3>
-                            <p className="text-slate-600">Yes, we offer comprehensive {method.shortName} training programs in {location.name} including Level I, II, and III certification courses.</p>
+                            <p className="text-slate-600">Yes, we offer {method.shortName} training programs per ASNT SNT-TC-1A in {location.name}. Courses include Level I, II, and Level III certification preparation.</p>
                         </div>
                         <div className="bg-slate-50 p-6 rounded-lg">
-                            <h3 className="font-bold mb-2">What industries use {method.shortName} in {location.name}?</h3>
-                            <p className="text-slate-600">In {location.name}, {method.shortName} is widely used in {location.industries.join(", ")} industries for quality assurance and safety compliance.</p>
+                            <h3 className="font-bold mb-2">What certification will I receive?</h3>
+                            <p className="text-slate-600">Our training follows ASNT SNT-TC-1A guidelines. Upon passing, you'll be qualified for employer-based certification at your Level (I, II, or III).</p>
+                        </div>
+                        <div className="bg-slate-50 p-6 rounded-lg">
+                            <h3 className="font-bold mb-2">How long does {method.shortName} training take?</h3>
+                            <p className="text-slate-600">Training duration varies by level: Level I typically 40 hours, Level II 40-80 hours, Level III requires additional experience and advanced coursework.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* CTA */}
-            <section className={`py-16 bg-gradient-to-r ${colors.bg} text-white text-center`}>
+            {/* CTA - Training Focus */}
+            <section className="py-16 bg-gradient-to-r from-slate-800 to-slate-900 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Need {method.shortName} Services in {location.name}?</h2>
-                    <p className="text-white/90 mb-8 text-lg">Contact our {location.name} team for {method.name} inspection, training, or consulting.</p>
-                    <Link to="/contact" className="inline-block bg-white text-slate-800 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">
-                        Request Free Quote
-                    </Link>
+                    <h2 className="text-3xl font-bold mb-4">Start Your {method.shortName} Training Journey</h2>
+                    <p className="text-white/80 mb-8 text-lg">Get certified in {method.name} with our expert-led training programs.</p>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <Link to="/training" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition">
+                            View Training Courses
+                        </Link>
+                        <Link to="/contact" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">
+                            Ask a Question
+                        </Link>
+                    </div>
                 </div>
             </section>
 
