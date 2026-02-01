@@ -1,1 +1,0 @@
-import{j as o}from"./index-BwyV1THj.js";import{M as t}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function e(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"chicago"})}export{e as default};

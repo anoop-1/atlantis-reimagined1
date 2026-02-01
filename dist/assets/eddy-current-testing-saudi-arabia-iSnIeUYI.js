@@ -1,0 +1,1 @@
+import{j as t}from"./index-CeXd5yqM.js";import{M as a}from"./MethodLocationPage-BRVBPqQT.js";import"./programmatic-seo-COFtofl3.js";function e(){return t.jsx(a,{methodSlug:"eddy-current-testing",locationSlug:"saudi-arabia"})}export{e as default};

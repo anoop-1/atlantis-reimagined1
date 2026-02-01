@@ -1,1 +1,0 @@
-import{j as o}from"./index-BwyV1THj.js";import{M as t}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function r(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"los-angeles"})}export{r as default};

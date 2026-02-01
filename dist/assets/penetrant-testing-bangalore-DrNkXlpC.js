@@ -1,1 +1,0 @@
-import{j as t}from"./index-BwyV1THj.js";import{M as o}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function n(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"bangalore"})}export{n as default};

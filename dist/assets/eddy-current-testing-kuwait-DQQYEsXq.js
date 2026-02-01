@@ -1,1 +1,0 @@
-import{j as t}from"./index-BwyV1THj.js";import{M as o}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function a(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"kuwait"})}export{a as default};

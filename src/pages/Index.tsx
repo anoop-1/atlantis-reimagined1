@@ -465,34 +465,36 @@ export default function Index() {
                      Serving major oil & gas, aerospace, and manufacturing companies worldwide
                   </p>
                </motion.div>
-               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
+               <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 lg:gap-12">
                   {[
-                     { name: "Saudi Aramco", logo: "https://upload.wikimedia.org/wikipedia/en/7/7b/Saudi_Aramco_logo.svg" },
-                     { name: "ADNOC", logo: "https://upload.wikimedia.org/wikipedia/en/3/3c/ADNOC_logo.svg" },
-                     { name: "Qatar Energy", logo: "https://upload.wikimedia.org/wikipedia/en/5/57/QatarEnergy_logo.svg" },
-                     { name: "Chevron", logo: "https://upload.wikimedia.org/wikipedia/commons/b/be/Chevron_Logo.svg" },
-                     { name: "Shell", logo: "https://upload.wikimedia.org/wikipedia/en/e/e8/Shell_logo.svg" },
-                     { name: "ExxonMobil", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/ExxonMobil_2024.svg" },
-                     { name: "TotalEnergies", logo: "https://upload.wikimedia.org/wikipedia/en/9/97/TotalEnergies_logo.svg" },
-                     { name: "TÜV Rheinland", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8c/T%C3%9CV_Rheinland_Logo.svg" },
-                     { name: "Boeing", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Boeing_full_logo.svg" },
-                     { name: "Petronas", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Petronas_Logo.svg" },
+                     { name: "Saudi Aramco", color: "#0066B3" },
+                     { name: "ADNOC", color: "#00A651" },
+                     { name: "Qatar Energy", color: "#8B1538" },
+                     { name: "Chevron", color: "#D9272E" },
+                     { name: "Shell", color: "#DD1D21" },
+                     { name: "ExxonMobil", color: "#ED1C24" },
+                     { name: "TotalEnergies", color: "#FF0000" },
+                     { name: "TÜV Rheinland", color: "#0050AA" },
+                     { name: "Boeing", color: "#0033A0" },
+                     { name: "Petronas", color: "#00A19C" },
                   ].map((client, index) => (
                      <motion.div
                         key={client.name}
-                        className="grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
+                        className="px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-gray-300 transition-all duration-300 group"
                         initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 0.6, scale: 1 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.05 }}
                         title={client.name}
                      >
-                        <img
-                           src={client.logo}
-                           alt={`${client.name} - Atlantis NDT Client`}
-                           className="h-8 md:h-10 lg:h-12 w-auto max-w-[120px] md:max-w-[140px] object-contain"
-                           loading="lazy"
-                        />
+                        <span
+                           className="font-bold text-sm md:text-base text-gray-400 group-hover:text-current transition-colors duration-300"
+                           style={{ '--hover-color': client.color } as React.CSSProperties}
+                           onMouseEnter={(e) => (e.currentTarget.style.color = client.color)}
+                           onMouseLeave={(e) => (e.currentTarget.style.color = '')}
+                        >
+                           {client.name}
+                        </span>
                      </motion.div>
                   ))}
                </div>

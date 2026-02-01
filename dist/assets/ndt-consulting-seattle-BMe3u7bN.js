@@ -1,0 +1,1 @@
+import{j as t}from"./index-CeXd5yqM.js";import{C as o}from"./ConsultingLocationPage-Bm_CwuGq.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-CXfm_hrQ.js";function e(){return t.jsx(o,{locationSlug:"seattle"})}export{e as default};

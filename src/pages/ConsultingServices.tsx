@@ -229,6 +229,55 @@ export default function ConsultingServices() {
             </div>
          </section>
 
+         {/* Trusted Clients Logos */}
+         <section className="py-12 bg-slate-50 border-t border-b">
+            <div className="container mx-auto px-6">
+               <motion.div
+                  className="text-center mb-8"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+               >
+                  <h2 className="text-xl md:text-2xl font-bold mb-2">
+                     Trusted by <span className="gradient-text">Industry Leaders</span>
+                  </h2>
+                  <p className="text-sm text-muted-foreground">
+                     Providing Level III consulting to major oil & gas, aerospace, and manufacturing companies
+                  </p>
+               </motion.div>
+               <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 lg:gap-8">
+                  {[
+                     { name: "Saudi Aramco", color: "#0066B3" },
+                     { name: "ADNOC", color: "#00A651" },
+                     { name: "Qatar Energy", color: "#8B1538" },
+                     { name: "Chevron", color: "#D9272E" },
+                     { name: "Shell", color: "#DD1D21" },
+                     { name: "TÜV Rheinland", color: "#0050AA" },
+                     { name: "Boeing", color: "#0033A0" },
+                     { name: "Petronas", color: "#00A19C" },
+                  ].map((client, index) => (
+                     <motion.div
+                        key={client.name}
+                        className="px-3 py-1.5 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-gray-300 transition-all duration-300 group"
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: index * 0.05 }}
+                        title={client.name}
+                     >
+                        <span
+                           className="font-bold text-xs md:text-sm text-gray-400 group-hover:text-current transition-colors duration-300"
+                           onMouseEnter={(e) => (e.currentTarget.style.color = client.color)}
+                           onMouseLeave={(e) => (e.currentTarget.style.color = '')}
+                        >
+                           {client.name}
+                        </span>
+                     </motion.div>
+                  ))}
+               </div>
+            </div>
+         </section>
+
          {/* What Is Level III Consulting Section */}
          <section className="py-20 bg-secondary/30">
             <div className="container mx-auto px-6">

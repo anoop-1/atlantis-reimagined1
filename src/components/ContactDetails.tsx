@@ -19,22 +19,7 @@ export default function ContactDetails() {
       { name: "Press & Media", href: "/press" },
    ];
 
-   // Link to training page - methods are covered in training
-   const methodLinks = [
-      { name: "Ultrasonic Testing (UT)", href: "/training" },
-      { name: "Radiographic Testing (RT)", href: "/training" },
-      { name: "Magnetic Particle (MT)", href: "/training" },
-      { name: "Penetrant Testing (PT)", href: "/training" },
-      { name: "Eddy Current (ET)", href: "/training" },
-      { name: "Visual Testing (VT)", href: "/training" },
-   ];
 
-   const certificationLinks = [
-      { name: "API 510 Certification", href: "/api-510-certification" },
-      { name: "API 570 Certification", href: "/api-570-certification" },
-      { name: "API 653 Certification", href: "/api-653-certification" },
-      { name: "ASNT Certification", href: "/asnt-certification" },
-   ];
 
    const socialLinks = [
       { name: "LinkedIn", href: "https://linkedin.com/company/atlantis-ndt" },
@@ -59,7 +44,7 @@ export default function ContactDetails() {
       <footer className="bg-gray-900 text-white py-12 px-6">
          <div className="max-w-7xl mx-auto">
             {/* Main Footer Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-10">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
                {/* Services */}
                <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">Services</h3>
@@ -74,33 +59,7 @@ export default function ContactDetails() {
                   </ul>
                </div>
 
-               {/* NDT Methods - Link to training page */}
-               <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">NDT Methods</h3>
-                  <ul className="space-y-2">
-                     {methodLinks.map((link) => (
-                        <li key={link.name}>
-                           <Link to={link.href} className="text-gray-300 hover:text-accent hover:underline transition text-sm">
-                              {link.name}
-                           </Link>
-                        </li>
-                     ))}
-                  </ul>
-               </div>
 
-               {/* Certifications */}
-               <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">Certifications</h3>
-                  <ul className="space-y-2">
-                     {certificationLinks.map((link) => (
-                        <li key={link.name}>
-                           <Link to={link.href} className="text-gray-300 hover:text-accent hover:underline transition text-sm">
-                              {link.name}
-                           </Link>
-                        </li>
-                     ))}
-                  </ul>
-               </div>
 
                {/* Resources */}
                <div>
