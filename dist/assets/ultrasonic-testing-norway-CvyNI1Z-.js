@@ -1,0 +1,1 @@
+import{j as o}from"./index-BwyV1THj.js";import{M as t}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function n(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"norway"})}export{n as default};

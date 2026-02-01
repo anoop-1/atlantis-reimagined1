@@ -1,0 +1,1 @@
+import{j as t}from"./index-BwyV1THj.js";import{C as o}from"./ConsultingLocationPage-BjFVZtpJ.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-BMDU_UIV.js";function u(){return t.jsx(o,{locationSlug:"pittsburgh"})}export{u as default};

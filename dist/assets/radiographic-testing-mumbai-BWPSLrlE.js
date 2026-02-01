@@ -1,1 +1,0 @@
-import{j as o}from"./index-CywriUWM.js";import{M as t}from"./MethodLocationPage-gbNp-Zbb.js";function r(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"mumbai"})}export{r as default};

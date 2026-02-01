@@ -1,1 +1,0 @@
-import{j as o}from"./index-CywriUWM.js";import{M as t}from"./MethodLocationPage-gbNp-Zbb.js";function a(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"los-angeles"})}export{a as default};

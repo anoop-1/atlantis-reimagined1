@@ -449,6 +449,64 @@ export default function Index() {
 
          <FeatureSection />
 
+         {/* Trusted Clients Logos */}
+         <section className="py-16 bg-slate-50 border-t border-b">
+            <div className="container mx-auto px-6">
+               <motion.div
+                  className="text-center mb-10"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+               >
+                  <h2 className="text-2xl md:text-3xl font-bold mb-3">
+                     Trusted by <span className="gradient-text">Industry Leaders</span>
+                  </h2>
+                  <p className="text-muted-foreground">
+                     Serving major oil & gas, aerospace, and manufacturing companies worldwide
+                  </p>
+               </motion.div>
+               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
+                  {[
+                     { name: "Saudi Aramco", logo: "https://upload.wikimedia.org/wikipedia/en/7/7b/Saudi_Aramco_logo.svg" },
+                     { name: "ADNOC", logo: "https://upload.wikimedia.org/wikipedia/en/3/3c/ADNOC_logo.svg" },
+                     { name: "Qatar Energy", logo: "https://upload.wikimedia.org/wikipedia/en/5/57/QatarEnergy_logo.svg" },
+                     { name: "Chevron", logo: "https://upload.wikimedia.org/wikipedia/commons/b/be/Chevron_Logo.svg" },
+                     { name: "Shell", logo: "https://upload.wikimedia.org/wikipedia/en/e/e8/Shell_logo.svg" },
+                     { name: "ExxonMobil", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/ExxonMobil_2024.svg" },
+                     { name: "TotalEnergies", logo: "https://upload.wikimedia.org/wikipedia/en/9/97/TotalEnergies_logo.svg" },
+                     { name: "TÜV Rheinland", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8c/T%C3%9CV_Rheinland_Logo.svg" },
+                     { name: "Boeing", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Boeing_full_logo.svg" },
+                     { name: "Petronas", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Petronas_Logo.svg" },
+                  ].map((client, index) => (
+                     <motion.div
+                        key={client.name}
+                        className="grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 0.6, scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: index * 0.05 }}
+                        title={client.name}
+                     >
+                        <img
+                           src={client.logo}
+                           alt={`${client.name} - Atlantis NDT Client`}
+                           className="h-8 md:h-10 lg:h-12 w-auto max-w-[120px] md:max-w-[140px] object-contain"
+                           loading="lazy"
+                        />
+                     </motion.div>
+                  ))}
+               </div>
+               <motion.p
+                  className="text-center text-sm text-muted-foreground mt-8"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+               >
+                  ...and many more global industry leaders
+               </motion.p>
+            </div>
+         </section>
+
          {/* Final CTA */}
          <section className="py-20 bg-gray-100 text-black">
             <div className="container mx-auto px-6 text-center">

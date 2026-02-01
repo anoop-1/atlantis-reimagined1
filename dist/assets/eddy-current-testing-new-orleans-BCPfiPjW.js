@@ -1,1 +1,0 @@
-import{j as t}from"./index-CywriUWM.js";import{M as e}from"./MethodLocationPage-gbNp-Zbb.js";function n(){return t.jsx(e,{methodSlug:"eddy-current-testing",locationSlug:"new-orleans"})}export{n as default};

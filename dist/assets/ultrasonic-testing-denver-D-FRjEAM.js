@@ -1,0 +1,1 @@
+import{j as t}from"./index-BwyV1THj.js";import{M as o}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function i(){return t.jsx(o,{methodSlug:"ultrasonic-testing",locationSlug:"denver"})}export{i as default};

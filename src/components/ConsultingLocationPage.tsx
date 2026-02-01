@@ -4,9 +4,239 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { CheckCircle, Users, FileText, Shield, Award, Target, MapPin, Building, Globe, AlertTriangle, Briefcase, BookOpen } from "lucide-react";
+import { CheckCircle, Users, FileText, Shield, Award, Target, MapPin, Building, Globe, AlertTriangle, Briefcase, BookOpen, Phone, Clock, Star } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
+
+// Happy client logos - trusted global brands
+const clientLogos = [
+    { name: "Qatar Energy", logoUrl: "https://upload.wikimedia.org/wikipedia/en/5/57/QatarEnergy_logo.svg" },
+    { name: "ADNOC", logoUrl: "https://upload.wikimedia.org/wikipedia/en/3/3c/ADNOC_logo.svg" },
+    { name: "Chevron", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/b/be/Chevron_Logo.svg" },
+    { name: "TÜV Rheinland", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8c/T%C3%9CV_Rheinland_Logo.svg" },
+    { name: "Metrosteel", logoUrl: "/logos/metrosteel-logo.png" }
+];
+
+// Location-specific intros for unique content (ensures 450+ words per page)
+const locationIntros: Record<string, { intro: string; marketInsight: string; regionalChallenge: string }> = {
+    "houston": {
+        intro: "Houston stands as the global epicenter of the oil and gas industry, hosting the headquarters of major energy companies and a vast network of refineries, petrochemical complexes, and midstream operations. The concentration of critical infrastructure demands the highest standards of NDT program quality.",
+        marketInsight: "With over 500 chemical plants and refineries in the greater Houston area, the demand for qualified Level III consulting continues to grow as aging infrastructure requires more sophisticated inspection strategies.",
+        regionalChallenge: "Houston's humid subtropical climate and proximity to the Gulf of Mexico create unique corrosion challenges requiring specialized inspection approaches for atmospheric and under-insulation corrosion."
+    },
+    "dubai": {
+        intro: "Dubai serves as the commercial hub for the Middle East's expansive oil and gas sector, with world-class infrastructure supporting operations across the UAE and broader GCC region. The emirate's position as a logistics and business center makes it ideal for regional NDT consulting support.",
+        marketInsight: "The UAE's Vision 2030 initiatives drive continued investment in downstream and petrochemical capabilities, requiring sophisticated NDT programs to ensure asset integrity across new and existing facilities.",
+        regionalChallenge: "Extreme desert temperatures and coastal humidity create demanding inspection conditions, requiring consultants familiar with thermal cycling effects and specialized techniques for high-temperature applications."
+    },
+    "saudi-arabia": {
+        intro: "Saudi Arabia operates the world's largest integrated oil and gas network, from the massive Ghawar field through extensive refining complexes at Yanbu, Jubail, and Ras Tanura. The Kingdom's Vision 2030 emphasizes local content and operational excellence.",
+        marketInsight: "Saudi Aramco's expansion programs and SABIC's petrochemical investments create sustained demand for Level III expertise in procedure development and program management.",
+        regionalChallenge: "Remote locations, extreme temperatures, and the scale of Saudi operations require consultants experienced in large program management and desert environment inspection considerations."
+    },
+    "singapore": {
+        intro: "Singapore's Jurong Island hosts one of the world's largest integrated petrochemical complexes, serving as a refining and manufacturing hub for the Asia-Pacific region. The city-state's regulatory environment sets high standards for inspection program quality.",
+        marketInsight: "Singapore's position as a bunkering and trading hub ensures continued infrastructure investment, while strict environmental and safety regulations drive demand for best-practice NDT programs.",
+        regionalChallenge: "High humidity, space constraints, and the complexity of integrated facilities require consultants skilled in efficient inspection planning and advanced technique application."
+    },
+    "norway": {
+        intro: "Norway's North Sea operations represent some of the most technically demanding offshore environments globally, with mature platforms requiring sophisticated integrity management and life extension strategies.",
+        marketInsight: "The Norwegian offshore sector's focus on extending field life while maintaining safety standards creates strong demand for specialized integrity assessment and advanced NDT consulting.",
+        regionalChallenge: "Harsh offshore conditions, aging infrastructure, and stringent NORSOK requirements demand consultants experienced in subsea, splash zone, and topside inspection challenges."
+    },
+    "uk": {
+        intro: "The United Kingdom's North Sea sector, nuclear industry, and aerospace manufacturing create diverse demand for NDT consulting expertise across multiple regulatory frameworks and application types.",
+        marketInsight: "Decommissioning activities, offshore wind development, and advanced manufacturing initiatives provide varied consulting opportunities across the UK industrial landscape.",
+        regionalChallenge: "Multi-sector expertise is essential in the UK, requiring consultants fluent in offshore, nuclear, and aerospace standards while navigating evolving post-Brexit regulatory requirements."
+    },
+    "calgary": {
+        intro: "Calgary serves as the administrative hub for Canada's oil sands and conventional petroleum operations, with major operators headquartered in the city and extensive midstream infrastructure connecting production to markets.",
+        marketInsight: "Environmental considerations and competitive pressures drive focus on operational efficiency and safety performance, creating demand for optimized NDT programs that balance rigor with practicality.",
+        regionalChallenge: "Extreme cold weather, remote locations, and the unique characteristics of oil sands processing equipment require specialized inspection approaches and Arctic-capable consulting support."
+    },
+    "mumbai": {
+        intro: "Mumbai anchors India's western industrial corridor, with major refineries, petrochemical complexes, and offshore operations supporting the nation's rapidly growing energy demands.",
+        marketInsight: "India's refining capacity expansion and infrastructure modernization create significant demand for Level III expertise in establishing robust, scalable NDT programs.",
+        regionalChallenge: "Monsoon conditions, high-traffic facilities, and diverse equipment vintages require consultants skilled in adapting international standards to local operational contexts."
+    },
+    "aberdeen": {
+        intro: "Aberdeen remains the undisputed capital of the UK offshore industry, with deep expertise in harsh environment operations cultivated over five decades of North Sea activity.",
+        marketInsight: "The energy transition adds complexity to Aberdeen's traditional oil and gas focus, with offshore wind and hydrogen projects creating new consulting opportunities.",
+        regionalChallenge: "Subsea inspection, floater integrity, and decommissioning challenges require consultants experienced in the full lifecycle of offshore assets."
+    },
+    "qatar": {
+        intro: "Qatar's position as the world's largest LNG exporter creates unique NDT requirements across the entire natural gas value chain, from massive offshore platforms to Ras Laffan's industrial complex and export terminals.",
+        marketInsight: "The North Field expansion, the world's largest LNG project, drives unprecedented demand for Level III consulting in cryogenic piping, pressure vessels, and storage tank inspection programs.",
+        regionalChallenge: "LNG cryogenic service, high-pressure systems, and the critical nature of export infrastructure require consultants with specialized experience in gas processing facilities."
+    },
+    "kuwait": {
+        intro: "Kuwait's refining modernization program and the Kuwait Integrated Petroleum Industries Company (KIPIC) Al-Zour complex represent significant investments requiring world-class NDT program development.",
+        marketInsight: "The clean fuels project and ongoing maintenance of mature oilfields create sustained demand for Level III expertise across refining and upstream operations.",
+        regionalChallenge: "High sulfur crude processing, extreme temperatures, and the integration of new facilities with existing infrastructure require comprehensive inspection strategies."
+    },
+    "abu-dhabi": {
+        intro: "Abu Dhabi holds 94% of the UAE's oil reserves, with ADNOC operating the nation's upstream, midstream, and downstream assets across Ruwais industrial complex and numerous offshore platforms.",
+        marketInsight: "ADNOC's downstream expansion and the Ruwais refinery projects create strong demand for consulting expertise in procedure development and program establishment for new facilities.",
+        regionalChallenge: "Sour gas processing, offshore operations, and the scale of integrated facilities require consultants experienced with both conventional and advanced NDT methods."
+    },
+    "bahrain": {
+        intro: "Bahrain's strategic position in the Gulf and its long history of petroleum refining make it a significant hub for regional oil and gas operations and aluminum manufacturing.",
+        marketInsight: "BAPCO's refinery modernization and the growing aluminum sector drive demand for Level III consulting across multiple industrial applications.",
+        regionalChallenge: "Coastal humidity, aging refinery infrastructure, and the mix of petroleum and metals industries require versatile consulting expertise."
+    },
+    "oman": {
+        intro: "Oman's diverse petroleum sector includes enhanced oil recovery operations, LNG production at Sur, and growing petrochemical investments at Duqm and Sohar industrial cities.",
+        marketInsight: "The Duqm Special Economic Zone and Petroleum Development Oman's mature field operations create varied consulting opportunities across the sultanate.",
+        regionalChallenge: "Remote desert locations, aging wells, and the development of new industrial zones require consultants adaptable to both greenfield and brownfield scenarios."
+    },
+    "chennai": {
+        intro: "Chennai serves as the gateway to South India's industrial sector, with major automotive manufacturing, power generation facilities, and the growing Chennai Petroleum Corporation refinery complex.",
+        marketInsight: "India's manufacturing push and infrastructure development in Tamil Nadu create expanding demand for NDT consulting across automotive, power, and refining sectors.",
+        regionalChallenge: "High humidity, cyclone exposure, and diverse industry requirements demand consultants with broad experience across multiple application types."
+    },
+    "bangalore": {
+        intro: "Bangalore's aerospace corridor hosts India's premier aerospace and defense manufacturing facilities, including HAL, ISRO suppliers, and numerous Tier 1 aerospace component manufacturers.",
+        marketInsight: "India's indigenous aerospace programs and growing defense manufacturing create specialized demand for Level III consulting in aerospace NDT applications.",
+        regionalChallenge: "Stringent aerospace quality requirements, composite materials, and precision manufacturing demand consultants with aerospace-specific certifications and experience."
+    },
+    "delhi": {
+        intro: "The National Capital Region serves as India's administrative center with significant refining capacity at Indian Oil's Mathura and Panipat refineries and extensive pipeline infrastructure.",
+        marketInsight: "Refinery capacity expansion and the development of new pipeline networks across North India drive demand for Level III consulting services.",
+        regionalChallenge: "Diverse industrial applications, extreme temperature variations between seasons, and high-traffic facilities require flexible consulting approaches."
+    },
+    "kolkata": {
+        intro: "Kolkata anchors Eastern India's industrial activity with significant steel production, thermal power generation, and the historic Haldia petrochemical complex serving the region's energy needs.",
+        marketInsight: "Steel sector modernization and power plant life extension programs create sustained demand for Level III consulting in heavy industry applications.",
+        regionalChallenge: "Monsoon humidity, aging heavy industry infrastructure, and the mix of steel and petrochemical operations require consultants with diverse industrial experience."
+    },
+    "los-angeles": {
+        intro: "Los Angeles hosts major refining operations at Torrance, Wilmington, and Carson, processing crude from Alaskan and international sources for the West Coast fuel market.",
+        marketInsight: "California's stringent environmental regulations and the transition to renewable fuels create unique consulting opportunities for compliance-focused NDT programs.",
+        regionalChallenge: "Seismic considerations, strict air quality requirements, and aging infrastructure require consultants familiar with California's regulatory environment."
+    },
+    "new-orleans": {
+        intro: "The New Orleans corridor along the lower Mississippi River hosts major refineries, petrochemical facilities, and LNG export terminals serving the Gulf Coast energy hub.",
+        marketInsight: "LNG export expansion and the concentration of petrochemical investment along the river create growing demand for Level III consulting services.",
+        regionalChallenge: "Hurricane exposure, high humidity, and the critical nature of export infrastructure require consultants experienced in Gulf Coast operations."
+    },
+    "chicago": {
+        intro: "Chicago's refining complex in Whiting and Lemont processes heavy Canadian crude, while the city's manufacturing base includes major steel production and industrial equipment manufacturing.",
+        marketInsight: "The Midwest refining sector's focus on heavy crude processing and manufacturing quality demands create diverse consulting opportunities.",
+        regionalChallenge: "Extreme seasonal temperature variations, heavy crude corrosivity, and aging infrastructure require specialized inspection approaches."
+    },
+    "seattle": {
+        intro: "Seattle and the Pacific Northwest host major aerospace manufacturing including Boeing's facilities, along with significant petroleum refining at Cherry Point and Anacortes.",
+        marketInsight: "Aerospace production volume and refinery operations create sustained demand for Level III consulting across both high-tech and heavy industrial sectors.",
+        regionalChallenge: "Coastal humidity, seismic considerations, and the mix of aerospace precision and refinery applications require versatile consulting expertise."
+    },
+    "dallas": {
+        intro: "The Dallas-Fort Worth metroplex serves as a hub for aerospace manufacturing, with major facilities for Lockheed Martin, Bell Helicopter, and numerous defense contractors.",
+        marketInsight: "Defense manufacturing programs and the region's growing industrial base create expanding demand for Level III consulting services.",
+        regionalChallenge: "Aerospace precision requirements, composite materials, and the integration of advanced manufacturing technologies demand specialized consulting approaches."
+    },
+    "denver": {
+        intro: "Denver serves Colorado's diverse energy sector including oil and gas operations in the DJ Basin, renewable energy manufacturing, and significant aerospace activity.",
+        marketInsight: "The energy transition and aerospace industry growth create varied consulting opportunities across traditional and emerging sectors.",
+        regionalChallenge: "High altitude operations, extreme temperature variations, and the mix of energy and aerospace applications require adaptable consulting expertise."
+    },
+    "germany": {
+        intro: "Germany's industrial heartland hosts major chemical complexes at Ludwigshafen and Leverkusen, automotive manufacturing, and rigorous engineering quality standards recognized globally.",
+        marketInsight: "German engineering excellence and strict quality requirements create demand for Level III consulting aligned with DIN, EN, and international standards.",
+        regionalChallenge: "High regulatory standards, complex chemical processing, and the precision requirements of German industry demand consultants with European certification expertise."
+    },
+    "netherlands": {
+        intro: "Rotterdam's Europoort refining complex is Europe's largest, with Shell, ExxonMobil, and BP operations processing crude for continental markets alongside major chemical production.",
+        marketInsight: "Energy transition investments and Europe's largest refining complex create diverse consulting opportunities for Level III expertise.",
+        regionalChallenge: "North Sea climate, aging infrastructure, and strict environmental regulations require consultants familiar with European operational standards."
+    },
+    "france": {
+        intro: "France's nuclear fleet represents the world's largest nuclear power program, with EDF operating 56 reactors while Total Energies maintains significant refining capacity.",
+        marketInsight: "Nuclear plant life extension programs and refinery maintenance create specialized demand for Level III consulting with nuclear and petroleum expertise.",
+        regionalChallenge: "Nuclear regulatory requirements, aging reactor vessels, and strict safety standards demand consultants with specific nuclear industry qualifications."
+    },
+    "italy": {
+        intro: "Italy's refining sector at Augusta, Gela, and Sarroch serves Mediterranean markets, while ENI's integrated operations span upstream through chemicals.",
+        marketInsight: "Refinery optimization and the growing renewable energy sector create varied consulting opportunities across traditional and emerging energy applications.",
+        regionalChallenge: "Mediterranean climate, aging infrastructure, and the transition toward cleaner operations require adaptable consulting approaches."
+    },
+    "australia": {
+        intro: "Australia's LNG industry at Gladstone, Curtis Island, and the North West Shelf represents massive cryogenic infrastructure requiring specialized NDT program expertise.",
+        marketInsight: "LNG production, mining sector maintenance, and aging infrastructure create sustained demand for Level III consulting across multiple sectors.",
+        regionalChallenge: "Remote operations, tropical and arid conditions, and the scale of LNG and mining operations require consultants with diverse environmental experience."
+    },
+    "japan": {
+        intro: "Japan's industrial base includes major refineries, petrochemical complexes, and world-leading manufacturing quality standards recognized through JIS and proprietary specifications.",
+        marketInsight: "Manufacturing excellence and aging infrastructure create demand for Level III consulting aligned with Japanese quality traditions.",
+        regionalChallenge: "Seismic requirements, aging petrochemical facilities, and exacting quality standards demand consultants familiar with Japanese industrial expectations."
+    },
+    "south-korea": {
+        intro: "South Korea's refining hub at Ulsan includes the world's largest single-location refinery complex, with Samsung, Hyundai, and SK operations serving Asian markets.",
+        marketInsight: "Mega-scale refining operations and shipbuilding industry demand create significant opportunities for Level III consulting services.",
+        regionalChallenge: "Large-scale facilities, high throughput operations, and the integration of refining with petrochemicals require consultants experienced with complex integrated sites."
+    },
+    "malaysia": {
+        intro: "Malaysia's Petronas operates integrated refining and petrochemical complexes at Kerteh and Melaka, alongside significant offshore production in the South China Sea.",
+        marketInsight: "Downstream expansion and ongoing offshore operations create sustained demand for Level III consulting across the petroleum value chain.",
+        regionalChallenge: "Tropical humidity, offshore operations, and the mix of onshore and offshore requirements demand versatile consulting expertise."
+    },
+    "indonesia": {
+        intro: "Indonesia's archipelago hosts major refining at Balikpapan, Cilacap, and Dumai, with extensive offshore operations across multiple basins serving the region's energy needs.",
+        marketInsight: "Refinery modernization and the development of new facilities create growing demand for Level III consulting services.",
+        regionalChallenge: "Maritime logistics, tropical conditions, and aging infrastructure require consultants adaptable to challenging operational environments."
+    },
+    "thailand": {
+        intro: "Thailand's Map Ta Phut industrial complex hosts major petrochemical production, with PTT and Thai Oil operating significant refining capacity serving Southeast Asian markets.",
+        marketInsight: "Petrochemical expansion and refinery maintenance create sustained demand for Level III consulting expertise.",
+        regionalChallenge: "Tropical climate, integrated petrochemical operations, and strict Thai regulatory requirements demand experienced consulting support."
+    },
+    "vietnam": {
+        intro: "Vietnam's developing petroleum sector includes the Dung Quat and Nghi Son refineries, with expanding exploration and production in the South China Sea.",
+        marketInsight: "New facility development and the modernization of existing operations create growing demand for Level III consulting as the sector matures.",
+        regionalChallenge: "Developing regulatory frameworks, new facility commissioning, and tropical conditions require consultants experienced in program establishment."
+    },
+    "brazil": {
+        intro: "Brazil's Petrobras operates major refining capacity at REPLAN, RLAM, and REGAP, while pre-salt deepwater operations represent some of the world's most challenging offshore environments.",
+        marketInsight: "Pre-salt development and refinery maintenance create significant demand for Level III consulting across offshore and onshore operations.",
+        regionalChallenge: "Ultra-deepwater operations, pre-salt well conditions, and the scale of Brazilian operations require consultants with specialized offshore expertise."
+    },
+    "nigeria": {
+        intro: "Nigeria's petroleum sector includes major refining capacity at Port Harcourt and Warri, with extensive onshore and offshore production in the Niger Delta and deepwater blocks.",
+        marketInsight: "Infrastructure renewal and the development of new refining capacity create demand for Level III consulting to establish robust inspection programs.",
+        regionalChallenge: "Challenging operating conditions, security considerations, and aging infrastructure require experienced consultants familiar with African operations."
+    },
+    "south-africa": {
+        intro: "South Africa's Sasol operates the world's largest coal-to-liquids facility at Secunda, while refineries at Durban and Cape Town serve Southern African fuel markets.",
+        marketInsight: "Unique synthetic fuel production and refinery operations create specialized demand for Level III consulting expertise.",
+        regionalChallenge: "High-temperature coal gasification, diverse feedstocks, and aging infrastructure require consultants with specialized synfuels experience."
+    },
+    "egypt": {
+        intro: "Egypt's petroleum sector spans Mediterranean and Red Sea operations, with significant refining capacity at Alexandria and Suez serving regional fuel requirements.",
+        marketInsight: "Gas development and refinery modernization create growing demand for Level III consulting services across the Egyptian petroleum sector.",
+        regionalChallenge: "Desert conditions, aging infrastructure, and the mix of gas and petroleum operations require versatile consulting expertise."
+    },
+    "toronto": {
+        intro: "Toronto and the Golden Horseshoe region host major manufacturing operations including automotive plants, steel production, and significant industrial infrastructure.",
+        marketInsight: "Automotive manufacturing quality requirements and infrastructure maintenance create sustained demand for Level III consulting.",
+        regionalChallenge: "Cold weather operations, automotive precision requirements, and diverse industrial applications demand versatile consulting approaches."
+    },
+    "vancouver": {
+        intro: "Vancouver serves as Canada's Pacific gateway with major port facilities, pipeline terminals, and Trans Mountain expansion infrastructure serving energy exports.",
+        marketInsight: "Pipeline expansion and port infrastructure development create demand for Level III consulting services across diverse applications.",
+        regionalChallenge: "Seismic requirements, coastal environment, and stringent Canadian regulations require experienced consulting support."
+    },
+    "edmonton": {
+        intro: "Edmonton anchors Alberta's oil sands processing sector with major upgraders, refineries, and petrochemical facilities serving North American markets.",
+        marketInsight: "Oil sands processing and petrochemical operations create sustained demand for Level III consulting in heavy crude applications.",
+        regionalChallenge: "Extreme cold, oil sands processing conditions, and hydrogen high-temperature service require specialized consulting expertise."
+    }
+};
+
+// Generic fallback for locations without specific content
+const defaultLocationContent = {
+    intro: "This strategic location serves as a significant hub for industrial operations, with major facilities requiring rigorous NDT programs to ensure operational safety and regulatory compliance.",
+    marketInsight: "Growing infrastructure investment and evolving regulatory requirements create sustained demand for qualified Level III consulting expertise in this region.",
+    regionalChallenge: "Local environmental conditions throughout this region and the complexity of industrial operations require experienced consultants familiar with both international standards and regional practices."
+};
 
 const colorMap: Record<string, { bg: string; text: string; light: string; border: string }> = {
     amber: { bg: "from-amber-700 to-amber-900", text: "text-amber-600", light: "bg-amber-50", border: "border-amber-500" },
@@ -194,10 +424,12 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             Our certified Level III consultants bring 30+ years of combined experience serving {location.industries.join(", ")} industries. We understand the unique inspection challenges and regulatory requirements in {location.name}.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-slate-800 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition text-center shadow-lg">
-                                Request a Consultation
+                            <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-slate-800 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition text-center shadow-lg">
+                                <Phone className="w-5 h-5" />
+                                Get Free Quote (24hr Response)
                             </Link>
                             <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition justify-center">
+                                <Clock className="w-5 h-5" />
                                 View All Consulting Services
                             </Link>
                         </div>
@@ -214,6 +446,85 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                         <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>100%</div><div className="text-slate-600">Audit Success Rate</div></div>
                         <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>All</div><div className="text-slate-600">NDT Methods Covered</div></div>
                     </div>
+                </div>
+            </section>
+
+            {/* Trusted Clients Logos */}
+            <section className="py-10 bg-slate-50 border-b">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <motion.div
+                        className="text-center mb-8"
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                    >
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wide">Trusted by Industry Leaders Worldwide</p>
+                    </motion.div>
+                    <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16">
+                        {clientLogos.map((client, index) => (
+                            <motion.div
+                                key={client.name}
+                                className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                whileInView={{ opacity: 0.7, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: index * 0.1 }}
+                            >
+                                <img
+                                    src={client.logoUrl}
+                                    alt={`${client.name} - NDT Consulting Client`}
+                                    className="h-10 md:h-12 w-auto max-w-[140px] object-contain"
+                                    loading="lazy"
+                                />
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Location-Specific Content - Unique per location */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                    >
+                        <h2 className="text-3xl font-bold mb-6">NDT Consulting Market in {location.name}</h2>
+                        <div className="prose prose-lg max-w-none">
+                            <p className="text-slate-700 leading-relaxed mb-6">
+                                {locationIntros[location.slug]?.intro || defaultLocationContent.intro.replace("This strategic location", location.name)}
+                            </p>
+                            <div className="grid md:grid-cols-2 gap-8 mt-8">
+                                <Card className={`border-l-4 ${colors.border}`}>
+                                    <CardHeader className="pb-2">
+                                        <CardTitle className="text-lg flex items-center gap-2">
+                                            <Target className={`w-5 h-5 ${colors.text}`} />
+                                            Market Insight
+                                        </CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <p className="text-slate-600">
+                                            {locationIntros[location.slug]?.marketInsight || defaultLocationContent.marketInsight}
+                                        </p>
+                                    </CardContent>
+                                </Card>
+                                <Card className={`border-l-4 ${colors.border}`}>
+                                    <CardHeader className="pb-2">
+                                        <CardTitle className="text-lg flex items-center gap-2">
+                                            <AlertTriangle className={`w-5 h-5 ${colors.text}`} />
+                                            Regional Challenges
+                                        </CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <p className="text-slate-600">
+                                            {locationIntros[location.slug]?.regionalChallenge || defaultLocationContent.regionalChallenge}
+                                        </p>
+                                    </CardContent>
+                                </Card>
+                            </div>
+                        </div>
+                    </motion.div>
                 </div>
             </section>
 
@@ -450,10 +761,12 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                         Our Level III consultants are ready to help with procedure development, program audits, and technical challenges. Request a consultation to discuss your specific requirements.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link to="/contact" className="inline-block bg-white text-slate-800 px-10 py-4 rounded-lg font-semibold hover:bg-slate-100 transition shadow-lg">
-                            Request Consultation
+                        <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-slate-800 px-10 py-4 rounded-lg font-semibold hover:bg-slate-100 transition shadow-lg">
+                            <Phone className="w-5 h-5" />
+                            Get Free Quote (24hr Response)
                         </Link>
                         <a href="mailto:info@atlantisndt.com" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-10 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
+                            <Star className="w-5 h-5" />
                             Email Directly
                         </a>
                     </div>

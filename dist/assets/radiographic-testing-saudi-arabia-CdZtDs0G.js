@@ -1,1 +1,0 @@
-import{j as a}from"./index-CywriUWM.js";import{M as o}from"./MethodLocationPage-gbNp-Zbb.js";function r(){return a.jsx(o,{methodSlug:"radiographic-testing",locationSlug:"saudi-arabia"})}export{r as default};

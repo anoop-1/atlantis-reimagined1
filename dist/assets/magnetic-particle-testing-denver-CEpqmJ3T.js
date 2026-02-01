@@ -1,0 +1,1 @@
+import{j as t}from"./index-BwyV1THj.js";import{M as e}from"./MethodLocationPage-EVjc0On_.js";import"./programmatic-seo-COFtofl3.js";function n(){return t.jsx(e,{methodSlug:"magnetic-particle-testing",locationSlug:"denver"})}export{n as default};

@@ -1,1 +1,0 @@
-import{j as o}from"./index-CywriUWM.js";import{M as t}from"./MethodLocationPage-gbNp-Zbb.js";function a(){return o.jsx(t,{methodSlug:"eddy-current-testing",locationSlug:"bangalore"})}export{a as default};

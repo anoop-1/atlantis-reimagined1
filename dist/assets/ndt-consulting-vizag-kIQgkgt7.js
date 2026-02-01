@@ -1,0 +1,1 @@
+import{j as o}from"./index-BwyV1THj.js";import{C as t}from"./ConsultingLocationPage-BjFVZtpJ.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-BMDU_UIV.js";function s(){return o.jsx(t,{locationSlug:"vizag"})}export{s as default};

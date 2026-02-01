@@ -1,1 +1,0 @@
-import{j as t}from"./index-CywriUWM.js";import{M as o}from"./MethodLocationPage-gbNp-Zbb.js";function a(){return t.jsx(o,{methodSlug:"magnetic-particle-testing",locationSlug:"chennai"})}export{a as default};
