@@ -465,36 +465,35 @@ export default function Index() {
                      Serving major oil & gas, aerospace, and manufacturing companies worldwide
                   </p>
                </motion.div>
-               <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 lg:gap-12">
+               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
                   {[
-                     { name: "Saudi Aramco", color: "#0066B3" },
-                     { name: "ADNOC", color: "#00A651" },
-                     { name: "Qatar Energy", color: "#8B1538" },
-                     { name: "Chevron", color: "#D9272E" },
-                     { name: "Shell", color: "#DD1D21" },
-                     { name: "ExxonMobil", color: "#ED1C24" },
-                     { name: "TotalEnergies", color: "#FF0000" },
-                     { name: "TÜV Rheinland", color: "#0050AA" },
-                     { name: "Boeing", color: "#0033A0" },
-                     { name: "Petronas", color: "#00A19C" },
+                     { name: "Saudi Aramco", logo: "/logos/Aramco.png" },
+                     { name: "ADNOC", logo: "/logos/ADNOC.png" },
+                     { name: "Chevron", logo: "/logos/Chevron.jpg" },
+                     { name: "TotalEnergies", logo: "/logos/Total Energies.jpg" },
+                     { name: "Boeing", logo: "/logos/Boeing.png" },
+                     { name: "Petronas", logo: "/logos/Petronas.jpg" },
+                     { name: "TÜV Rheinland", logo: "/logos/TUV rhineland.png" },
+                     { name: "Metro Steel USA", logo: "/logos/Metrosteel.jpg" },
                   ].map((client, index) => (
                      <motion.div
                         key={client.name}
-                        className="px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-gray-300 transition-all duration-300 group"
+                        className="grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
                         initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
+                        whileInView={{ opacity: 0.7, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.05 }}
                         title={client.name}
                      >
-                        <span
-                           className="font-bold text-sm md:text-base text-gray-400 group-hover:text-current transition-colors duration-300"
-                           style={{ '--hover-color': client.color } as React.CSSProperties}
-                           onMouseEnter={(e) => (e.currentTarget.style.color = client.color)}
-                           onMouseLeave={(e) => (e.currentTarget.style.color = '')}
-                        >
-                           {client.name}
-                        </span>
+                        <img
+                           src={client.logo}
+                           alt={`${client.name} logo`}
+                           className="h-10 md:h-12 lg:h-14 w-auto object-contain"
+                           loading="lazy"
+                           onError={(e) => {
+                              e.currentTarget.style.display = 'none';
+                           }}
+                        />
                      </motion.div>
                   ))}
                </div>

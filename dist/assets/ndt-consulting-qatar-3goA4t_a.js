@@ -1,0 +1,1 @@
+import{j as t}from"./index-9ofavgkJ.js";import{C as o}from"./ConsultingLocationPage-CSSMg-aW.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-BqtIP_0E.js";function s(){return t.jsx(o,{locationSlug:"qatar"})}export{s as default};

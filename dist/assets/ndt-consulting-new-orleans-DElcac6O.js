@@ -1,0 +1,1 @@
+import{j as o}from"./index-9ofavgkJ.js";import{C as t}from"./ConsultingLocationPage-CSSMg-aW.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-BqtIP_0E.js";function a(){return o.jsx(t,{locationSlug:"new-orleans"})}export{a as default};

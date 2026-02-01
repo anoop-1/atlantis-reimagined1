@@ -1,1 +1,0 @@
-import{j as t}from"./index-CeXd5yqM.js";import{M as o}from"./MethodLocationPage-BRVBPqQT.js";import"./programmatic-seo-COFtofl3.js";function e(){return t.jsx(o,{methodSlug:"radiographic-testing",locationSlug:"qatar"})}export{e as default};

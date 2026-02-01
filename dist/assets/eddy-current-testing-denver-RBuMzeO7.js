@@ -1,0 +1,1 @@
+import{j as t}from"./index-9ofavgkJ.js";import{M as e}from"./MethodLocationPage-BZtx9Q0X.js";import"./programmatic-seo-COFtofl3.js";function i(){return t.jsx(e,{methodSlug:"eddy-current-testing",locationSlug:"denver"})}export{i as default};
