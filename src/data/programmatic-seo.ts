@@ -67,12 +67,23 @@ export const ndtMethods = [
 ];
 
 export const keyLocations = [
-    // USA
+    // USA - Major Industrial Hubs
     { name: "Houston", slug: "houston", country: "US", region: "Texas", color: "amber", industries: ["Oil & Gas", "Petrochemical", "Refining"], companies: ["ExxonMobil", "Chevron", "Shell", "BP"] },
     { name: "Los Angeles", slug: "los-angeles", country: "US", region: "California", color: "blue", industries: ["Aerospace", "Defense", "Manufacturing"], companies: ["Boeing", "Lockheed Martin", "Northrop Grumman"] },
     { name: "New Orleans", slug: "new-orleans", country: "US", region: "Louisiana", color: "purple", industries: ["Offshore", "Marine", "Petrochemical"], companies: ["Shell", "Chevron", "CF Industries"] },
     { name: "Denver", slug: "denver", country: "US", region: "Colorado", color: "emerald", industries: ["Aerospace", "Mining", "Energy"], companies: ["Lockheed Martin", "Ball Aerospace", "Raytheon"] },
     { name: "Chicago", slug: "chicago", country: "US", region: "Illinois", color: "slate", industries: ["Manufacturing", "Steel", "Rail"], companies: ["Caterpillar", "John Deere", "ArcelorMittal"] },
+    { name: "Seattle", slug: "seattle", country: "US", region: "Washington", color: "blue", industries: ["Aerospace", "Defense", "Technology"], companies: ["Boeing", "Blue Origin", "Amazon"] },
+    { name: "Dallas", slug: "dallas", country: "US", region: "Texas", color: "amber", industries: ["Aerospace", "Defense", "Manufacturing"], companies: ["Lockheed Martin", "Raytheon", "Bell Helicopter"] },
+    { name: "Phoenix", slug: "phoenix", country: "US", region: "Arizona", color: "orange", industries: ["Aerospace", "Semiconductor", "Manufacturing"], companies: ["Honeywell", "Raytheon", "Intel"] },
+    { name: "Philadelphia", slug: "philadelphia", country: "US", region: "Pennsylvania", color: "slate", industries: ["Refining", "Pharmaceutical", "Manufacturing"], companies: ["PBF Energy", "Philadelphia Energy Solutions", "Boeing"] },
+    { name: "San Francisco", slug: "san-francisco", country: "US", region: "California", color: "blue", industries: ["Technology", "Biotech", "Manufacturing"], companies: ["Tesla", "Genentech", "Chevron"] },
+    { name: "Detroit", slug: "detroit", country: "US", region: "Michigan", color: "slate", industries: ["Automotive", "Manufacturing", "Steel"], companies: ["Ford", "GM", "Stellantis"] },
+    { name: "Pittsburgh", slug: "pittsburgh", country: "US", region: "Pennsylvania", color: "amber", industries: ["Steel", "Manufacturing", "Energy"], companies: ["US Steel", "PPG Industries", "Westinghouse"] },
+    { name: "Baton Rouge", slug: "baton-rouge", country: "US", region: "Louisiana", color: "purple", industries: ["Petrochemical", "Refining", "Chemical"], companies: ["ExxonMobil", "Dow Chemical", "BASF"] },
+    { name: "Corpus Christi", slug: "corpus-christi", country: "US", region: "Texas", color: "amber", industries: ["Refining", "Petrochemical", "LNG"], companies: ["Valero", "Cheniere", "Flint Hills"] },
+    { name: "Tulsa", slug: "tulsa", country: "US", region: "Oklahoma", color: "orange", industries: ["Oil & Gas", "Aerospace", "Manufacturing"], companies: ["Williams Companies", "ONEOK", "Spirit AeroSystems"] },
+    { name: "Beaumont", slug: "beaumont", country: "US", region: "Texas", color: "amber", industries: ["Refining", "Petrochemical", "Chemical"], companies: ["ExxonMobil", "Total", "Motiva"] },
 
     // Middle East
     { name: "Dubai", slug: "dubai", country: "AE", region: "UAE", color: "emerald", industries: ["Oil & Gas", "Construction", "Aviation"], companies: ["ADNOC", "Emirates", "DP World"] },
@@ -80,18 +91,65 @@ export const keyLocations = [
     { name: "Qatar", slug: "qatar", country: "QA", region: "GCC", color: "indigo", industries: ["LNG", "Oil & Gas"], companies: ["QatarEnergy", "QatarGas", "RasGas"] },
     { name: "Kuwait", slug: "kuwait", country: "KW", region: "GCC", color: "orange", industries: ["Oil & Gas", "Petrochemical"], companies: ["KOC", "KNPC", "KIPIC"] },
     { name: "Abu Dhabi", slug: "abu-dhabi", country: "AE", region: "UAE", color: "blue", industries: ["Oil & Gas", "Nuclear", "Aerospace"], companies: ["ADNOC", "Mubadala", "Etihad"] },
+    { name: "Bahrain", slug: "bahrain", country: "BH", region: "GCC", color: "indigo", industries: ["Oil & Gas", "Aluminum", "Financial Services"], companies: ["BAPCO", "Alba", "Gulf Air"] },
+    { name: "Oman", slug: "oman", country: "OM", region: "GCC", color: "green", industries: ["Oil & Gas", "LNG", "Petrochemical"], companies: ["Petroleum Development Oman", "Oman LNG", "OQ"] },
+    { name: "Jubail", slug: "jubail", country: "SA", region: "Eastern Province", color: "green", industries: ["Petrochemical", "Steel", "Desalination"], companies: ["SABIC", "HADEED", "Marafiq"] },
+    { name: "Yanbu", slug: "yanbu", country: "SA", region: "Western Province", color: "emerald", industries: ["Refining", "Petrochemical", "LPG"], companies: ["Saudi Aramco", "SAMREF", "Yanbu National Petrochemical"] },
+    { name: "Dammam", slug: "dammam", country: "SA", region: "Eastern Province", color: "amber", industries: ["Oil & Gas", "Manufacturing", "Marine"], companies: ["Saudi Aramco", "SAFCO", "Eastern Petrochemical"] },
 
     // India
     { name: "Mumbai", slug: "mumbai", country: "IN", region: "Maharashtra", color: "orange", industries: ["Oil & Gas", "Manufacturing", "Power"], companies: ["BPCL", "HPCL", "Reliance"] },
     { name: "Chennai", slug: "chennai", country: "IN", region: "Tamil Nadu", color: "rose", industries: ["Automotive", "Manufacturing", "Marine"], companies: ["Hyundai", "Ford", "Ashok Leyland"] },
     { name: "Bangalore", slug: "bangalore", country: "IN", region: "Karnataka", color: "purple", industries: ["Aerospace", "Defense", "Manufacturing"], companies: ["HAL", "ISRO", "Tata Advanced Systems"] },
     { name: "Delhi", slug: "delhi", country: "IN", region: "NCR", color: "amber", industries: ["Power", "Infrastructure", "Manufacturing"], companies: ["NTPC", "BHEL", "Indian Oil"] },
+    { name: "Kolkata", slug: "kolkata", country: "IN", region: "West Bengal", color: "orange", industries: ["Steel", "Manufacturing", "Power"], companies: ["Tata Steel", "CESC", "Indian Oil"] },
+    { name: "Ahmedabad", slug: "ahmedabad", country: "IN", region: "Gujarat", color: "amber", industries: ["Petrochemical", "Pharmaceutical", "Manufacturing"], companies: ["GSPC", "Reliance", "Torrent Power"] },
+    { name: "Jamnagar", slug: "jamnagar", country: "IN", region: "Gujarat", color: "green", industries: ["Refining", "Petrochemical", "Power"], companies: ["Reliance Industries", "Essar", "GSPC"] },
+    { name: "Vizag", slug: "vizag", country: "IN", region: "Andhra Pradesh", color: "blue", industries: ["Steel", "Refining", "Shipbuilding"], companies: ["RINL", "HPCL", "Hindustan Shipyard"] },
+    { name: "Kochi", slug: "kochi", country: "IN", region: "Kerala", color: "emerald", industries: ["Refining", "Shipbuilding", "LNG"], companies: ["BPCL Kochi Refinery", "Cochin Shipyard", "Petronet LNG"] },
 
-    // International
+    // Asia Pacific
     { name: "Singapore", slug: "singapore", country: "SG", region: "SEA", color: "red", industries: ["Marine", "Aerospace", "Petrochemical"], companies: ["Keppel", "Sembcorp", "Shell"] },
+    { name: "Malaysia", slug: "malaysia", country: "MY", region: "SEA", color: "blue", industries: ["Oil & Gas", "LNG", "Petrochemical"], companies: ["Petronas", "MISC", "Dialog Group"] },
+    { name: "Indonesia", slug: "indonesia", country: "ID", region: "SEA", color: "red", industries: ["Oil & Gas", "Mining", "LNG"], companies: ["Pertamina", "PLN", "Freeport"] },
+    { name: "Thailand", slug: "thailand", country: "TH", region: "SEA", color: "blue", industries: ["Petrochemical", "Automotive", "Manufacturing"], companies: ["PTT", "IRPC", "SCG"] },
+    { name: "Vietnam", slug: "vietnam", country: "VN", region: "SEA", color: "red", industries: ["Oil & Gas", "Manufacturing", "Power"], companies: ["PetroVietnam", "Doosan Vina", "Samsung"] },
+    { name: "Philippines", slug: "philippines", country: "PH", region: "SEA", color: "blue", industries: ["Refining", "Power", "Manufacturing"], companies: ["Petron", "Shell Philippines", "SMC"] },
+    { name: "South Korea", slug: "south-korea", country: "KR", region: "East Asia", color: "blue", industries: ["Shipbuilding", "Steel", "Petrochemical"], companies: ["Hyundai Heavy", "Samsung Heavy", "POSCO"] },
+    { name: "Japan", slug: "japan", country: "JP", region: "East Asia", color: "red", industries: ["Manufacturing", "Automotive", "Nuclear"], companies: ["Toyota", "Mitsubishi Heavy", "JFE Steel"] },
+    { name: "Taiwan", slug: "taiwan", country: "TW", region: "East Asia", color: "blue", industries: ["Semiconductor", "Petrochemical", "Manufacturing"], companies: ["TSMC", "Formosa Plastics", "CPC Corporation"] },
+    { name: "Australia", slug: "australia", country: "AU", region: "Oceania", color: "amber", industries: ["Mining", "LNG", "Oil & Gas"], companies: ["BHP", "Rio Tinto", "Woodside"] },
+    { name: "New Zealand", slug: "new-zealand", country: "NZ", region: "Oceania", color: "emerald", industries: ["Oil & Gas", "Manufacturing", "Dairy"], companies: ["OMV", "Genesis Energy", "Fonterra"] },
+
+    // Europe
     { name: "UK", slug: "uk", country: "GB", region: "Europe", color: "slate", industries: ["North Sea Offshore", "Nuclear", "Aerospace"], companies: ["BP", "Shell", "Rolls-Royce"] },
     { name: "Norway", slug: "norway", country: "NO", region: "Europe", color: "blue", industries: ["Offshore Oil & Gas", "Marine", "Subsea"], companies: ["Equinor", "Aker", "DNV"] },
-    { name: "Calgary", slug: "calgary", country: "CA", region: "Alberta", color: "red", industries: ["Oil Sands", "Pipeline", "Energy"], companies: ["Suncor", "Imperial Oil", "TC Energy"] }
+    { name: "Germany", slug: "germany", country: "DE", region: "Europe", color: "amber", industries: ["Automotive", "Manufacturing", "Chemical"], companies: ["BASF", "Siemens", "ThyssenKrupp"] },
+    { name: "Netherlands", slug: "netherlands", country: "NL", region: "Europe", color: "orange", industries: ["Petrochemical", "Offshore", "Manufacturing"], companies: ["Shell", "Gasunie", "SBM Offshore"] },
+    { name: "France", slug: "france", country: "FR", region: "Europe", color: "blue", industries: ["Nuclear", "Aerospace", "Refining"], companies: ["TotalEnergies", "EDF", "Airbus"] },
+    { name: "Italy", slug: "italy", country: "IT", region: "Europe", color: "green", industries: ["Oil & Gas", "Manufacturing", "Aerospace"], companies: ["Eni", "Saipem", "Leonardo"] },
+    { name: "Spain", slug: "spain", country: "ES", region: "Europe", color: "red", industries: ["Refining", "Renewable Energy", "Manufacturing"], companies: ["Repsol", "Cepsa", "Iberdrola"] },
+    { name: "Belgium", slug: "belgium", country: "BE", region: "Europe", color: "amber", industries: ["Petrochemical", "Nuclear", "Manufacturing"], companies: ["BASF Antwerp", "Engie", "ExxonMobil"] },
+    { name: "Scotland", slug: "scotland", country: "GB", region: "UK", color: "blue", industries: ["Offshore Oil & Gas", "Renewable Energy", "Subsea"], companies: ["BP", "Shell", "Wood Group"] },
+    { name: "Aberdeen", slug: "aberdeen", country: "GB", region: "Scotland", color: "slate", industries: ["North Sea Offshore", "Subsea", "Decommissioning"], companies: ["BP", "Shell", "TotalEnergies", "Apache"] },
+
+    // Americas
+    { name: "Calgary", slug: "calgary", country: "CA", region: "Alberta", color: "red", industries: ["Oil Sands", "Pipeline", "Energy"], companies: ["Suncor", "Imperial Oil", "TC Energy"] },
+    { name: "Edmonton", slug: "edmonton", country: "CA", region: "Alberta", color: "amber", industries: ["Oil Sands", "Refining", "Petrochemical"], companies: ["Imperial Oil", "Suncor", "Pembina"] },
+    { name: "Toronto", slug: "toronto", country: "CA", region: "Ontario", color: "red", industries: ["Manufacturing", "Automotive", "Nuclear"], companies: ["Magna", "OPG", "Linamar"] },
+    { name: "Vancouver", slug: "vancouver", country: "CA", region: "British Columbia", color: "blue", industries: ["Mining", "LNG", "Marine"], companies: ["Teck Resources", "LNG Canada", "Seaspan"] },
+    { name: "Mexico City", slug: "mexico-city", country: "MX", region: "Central Mexico", color: "green", industries: ["Oil & Gas", "Automotive", "Manufacturing"], companies: ["Pemex", "GM Mexico", "Volkswagen Mexico"] },
+    { name: "Brazil", slug: "brazil", country: "BR", region: "South America", color: "green", industries: ["Oil & Gas", "Mining", "Steel"], companies: ["Petrobras", "Vale", "CSN"] },
+    { name: "Argentina", slug: "argentina", country: "AR", region: "South America", color: "blue", industries: ["Oil & Gas", "Mining", "Agriculture"], companies: ["YPF", "Pan American Energy", "Techint"] },
+    { name: "Colombia", slug: "colombia", country: "CO", region: "South America", color: "amber", industries: ["Oil & Gas", "Mining", "Manufacturing"], companies: ["Ecopetrol", "Cerrejon", "Argos"] },
+    { name: "Trinidad", slug: "trinidad", country: "TT", region: "Caribbean", color: "red", industries: ["LNG", "Petrochemical", "Oil & Gas"], companies: ["Atlantic LNG", "Point Lisas Industrial", "bpTT"] },
+
+    // Africa
+    { name: "Nigeria", slug: "nigeria", country: "NG", region: "West Africa", color: "green", industries: ["Oil & Gas", "LNG", "Refining"], companies: ["NNPC", "Shell Nigeria", "Chevron Nigeria"] },
+    { name: "South Africa", slug: "south-africa", country: "ZA", region: "Southern Africa", color: "amber", industries: ["Mining", "Manufacturing", "Power"], companies: ["Sasol", "Eskom", "Anglo American"] },
+    { name: "Egypt", slug: "egypt", country: "EG", region: "North Africa", color: "amber", industries: ["Oil & Gas", "LNG", "Petrochemical"], companies: ["EGPC", "Apache Egypt", "Egyptian LNG"] },
+    { name: "Angola", slug: "angola", country: "AO", region: "West Africa", color: "red", industries: ["Offshore Oil & Gas", "LNG"], companies: ["Sonangol", "Chevron Angola", "TotalEnergies Angola"] },
+    { name: "Algeria", slug: "algeria", country: "DZ", region: "North Africa", color: "green", industries: ["Oil & Gas", "LNG", "Petrochemical"], companies: ["Sonatrach", "GDF Suez", "BP Algeria"] }
 ];
 
 // Generate all method-location combinations
