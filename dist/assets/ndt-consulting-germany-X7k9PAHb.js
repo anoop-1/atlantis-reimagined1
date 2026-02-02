@@ -1,1 +1,0 @@
-import{j as o}from"./index-9ofavgkJ.js";import{C as t}from"./ConsultingLocationPage-CSSMg-aW.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-BqtIP_0E.js";function m(){return o.jsx(t,{locationSlug:"germany"})}export{m as default};

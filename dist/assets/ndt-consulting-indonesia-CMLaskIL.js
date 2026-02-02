@@ -1,1 +1,0 @@
-import{j as o}from"./index-9ofavgkJ.js";import{C as n}from"./ConsultingLocationPage-CSSMg-aW.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-BqtIP_0E.js";function a(){return o.jsx(n,{locationSlug:"indonesia"})}export{a as default};

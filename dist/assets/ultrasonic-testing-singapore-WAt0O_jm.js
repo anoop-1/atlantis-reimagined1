@@ -1,0 +1,1 @@
+import{j as o}from"./index-hfqhHqgq.js";import{M as t}from"./MethodLocationPage-CTKSUT9R.js";import"./programmatic-seo-COFtofl3.js";function e(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"singapore"})}export{e as default};

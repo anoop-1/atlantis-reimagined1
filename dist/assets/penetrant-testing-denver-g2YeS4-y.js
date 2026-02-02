@@ -1,0 +1,1 @@
+import{j as t}from"./index-hfqhHqgq.js";import{M as e}from"./MethodLocationPage-CTKSUT9R.js";import"./programmatic-seo-COFtofl3.js";function a(){return t.jsx(e,{methodSlug:"penetrant-testing",locationSlug:"denver"})}export{a as default};

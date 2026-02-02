@@ -1,0 +1,1 @@
+import{j as t}from"./index-hfqhHqgq.js";import{M as a}from"./MethodLocationPage-CTKSUT9R.js";import"./programmatic-seo-COFtofl3.js";function e(){return t.jsx(a,{methodSlug:"magnetic-particle-testing",locationSlug:"saudi-arabia"})}export{e as default};

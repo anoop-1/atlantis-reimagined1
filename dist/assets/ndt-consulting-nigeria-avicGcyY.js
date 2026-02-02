@@ -1,0 +1,1 @@
+import{j as o}from"./index-hfqhHqgq.js";import{C as i}from"./ConsultingLocationPage-gb3UYAJ-.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-DjsUDRxQ.js";function s(){return o.jsx(i,{locationSlug:"nigeria"})}export{s as default};

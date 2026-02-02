@@ -1,0 +1,1 @@
+import{j as o}from"./index-hfqhHqgq.js";import{C as n}from"./ConsultingLocationPage-gb3UYAJ-.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-DjsUDRxQ.js";function s(){return o.jsx(n,{locationSlug:"chennai"})}export{s as default};

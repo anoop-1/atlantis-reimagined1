@@ -450,7 +450,7 @@ export default function Index() {
          <FeatureSection />
 
          {/* Trusted Clients Logos */}
-         <section className="py-16 bg-slate-50 border-t border-b">
+         <section className="py-16 bg-slate-50 border-t border-b overflow-hidden">
             <div className="container mx-auto px-6">
                <motion.div
                   className="text-center mb-10"
@@ -465,38 +465,73 @@ export default function Index() {
                      Serving major oil & gas, aerospace, and manufacturing companies worldwide
                   </p>
                </motion.div>
-               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
-                  {[
-                     { name: "Saudi Aramco", logo: "/logos/Aramco.png" },
-                     { name: "ADNOC", logo: "/logos/ADNOC.png" },
-                     { name: "Chevron", logo: "/logos/Chevron.jpg" },
-                     { name: "TotalEnergies", logo: "/logos/Total Energies.jpg" },
-                     { name: "Boeing", logo: "/logos/Boeing.png" },
-                     { name: "Petronas", logo: "/logos/Petronas.jpg" },
-                     { name: "TÜV Rheinland", logo: "/logos/TUV rhineland.png" },
-                     { name: "Metro Steel USA", logo: "/logos/Metrosteel.jpg" },
-                  ].map((client, index) => (
-                     <motion.div
-                        key={client.name}
-                        className="grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 0.7, scale: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: index * 0.05 }}
-                        title={client.name}
-                     >
-                        <img
-                           src={client.logo}
-                           alt={`${client.name} logo`}
-                           className="h-10 md:h-12 lg:h-14 w-auto object-contain"
-                           loading="lazy"
-                           onError={(e) => {
-                              e.currentTarget.style.display = 'none';
-                           }}
-                        />
-                     </motion.div>
-                  ))}
+
+               {/* Auto-scrolling logo carousel */}
+               <div className="relative">
+                  <div
+                     className="flex items-center gap-16 animate-scroll"
+                     style={{
+                        animation: 'scroll 16s linear infinite',
+                     }}
+                  >
+                     {/* First set of logos */}
+                     {[
+                        { name: "Saudi Aramco", logo: "/logos/Aramco.png" },
+                        { name: "ADNOC", logo: "/logos/ADNOC.png" },
+                        { name: "Chevron", logo: "/logos/Chevron.jpg" },
+                        { name: "TotalEnergies", logo: "/logos/Total Energies.jpg" },
+                        { name: "Boeing", logo: "/logos/Boeing.png" },
+                        { name: "Petronas", logo: "/logos/Petronas.jpg" },
+                        { name: "TÜV Rheinland", logo: "/logos/TUV rhineland.png" },
+                        { name: "Metro Steel USA", logo: "/logos/Metrosteel.jpg" },
+                     ].map((client) => (
+                        <div
+                           key={client.name}
+                           className="flex-shrink-0 grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+                           title={client.name}
+                        >
+                           <img
+                              src={client.logo}
+                              alt={`${client.name} logo`}
+                              className="h-12 md:h-14 lg:h-16 w-auto object-contain min-w-[100px] max-w-[160px]"
+                              loading="lazy"
+                           />
+                        </div>
+                     ))}
+                     {/* Duplicate set for seamless loop */}
+                     {[
+                        { name: "Saudi Aramco", logo: "/logos/Aramco.png" },
+                        { name: "ADNOC", logo: "/logos/ADNOC.png" },
+                        { name: "Chevron", logo: "/logos/Chevron.jpg" },
+                        { name: "TotalEnergies", logo: "/logos/Total Energies.jpg" },
+                        { name: "Boeing", logo: "/logos/Boeing.png" },
+                        { name: "Petronas", logo: "/logos/Petronas.jpg" },
+                        { name: "TÜV Rheinland", logo: "/logos/TUV rhineland.png" },
+                        { name: "Metro Steel USA", logo: "/logos/Metrosteel.jpg" },
+                     ].map((client) => (
+                        <div
+                           key={`${client.name}-dup`}
+                           className="flex-shrink-0 grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+                           title={client.name}
+                        >
+                           <img
+                              src={client.logo}
+                              alt={`${client.name} logo`}
+                              className="h-12 md:h-14 lg:h-16 w-auto object-contain min-w-[100px] max-w-[160px]"
+                              loading="lazy"
+                           />
+                        </div>
+                     ))}
+                  </div>
                </div>
+
+               <style>{`
+                  @keyframes scroll {
+                     0% { transform: translateX(0); }
+                     100% { transform: translateX(-50%); }
+                  }
+               `}</style>
+
                <motion.p
                   className="text-center text-sm text-muted-foreground mt-8"
                   initial={{ opacity: 0 }}

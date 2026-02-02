@@ -1,0 +1,1 @@
+import{j as t}from"./index-hfqhHqgq.js";import{M as o}from"./MethodLocationPage-CTKSUT9R.js";import"./programmatic-seo-COFtofl3.js";function u(){return t.jsx(o,{methodSlug:"visual-testing",locationSlug:"abu-dhabi"})}export{u as default};
