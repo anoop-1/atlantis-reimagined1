@@ -1,0 +1,1 @@
+import{j as o}from"./index-BFpg19ZX.js";import{C as t}from"./ConsultingLocationPage-C3lj0IDD.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-B430-Oeh.js";function s(){return o.jsx(t,{locationSlug:"santiago"})}export{s as default};

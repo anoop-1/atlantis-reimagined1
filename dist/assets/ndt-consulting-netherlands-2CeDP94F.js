@@ -1,1 +1,0 @@
-import{j as t}from"./index-hfqhHqgq.js";import{C as o}from"./ConsultingLocationPage-gb3UYAJ-.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-DjsUDRxQ.js";function a(){return t.jsx(o,{locationSlug:"netherlands"})}export{a as default};

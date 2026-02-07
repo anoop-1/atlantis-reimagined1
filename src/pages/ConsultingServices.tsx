@@ -485,7 +485,7 @@ export default function ConsultingServices() {
                   viewport={{ once: true }}
                >
                   <p className="text-muted-foreground mb-4">Looking for comprehensive Level III consulting services?</p>
-                  <Link to="/ndt-consulting-level-iii" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition">
+                  <Link to="/consulting/ndt-consulting-level-iii" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition">
                      View Level III Consulting Details
                      <ArrowRight className="w-4 h-4" />
                   </Link>

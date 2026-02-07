@@ -1,0 +1,1 @@
+import{j as o}from"./index-BFpg19ZX.js";import{C as i}from"./ConsultingLocationPage-C3lj0IDD.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-B430-Oeh.js";function a(){return o.jsx(i,{locationSlug:"beijing"})}export{a as default};

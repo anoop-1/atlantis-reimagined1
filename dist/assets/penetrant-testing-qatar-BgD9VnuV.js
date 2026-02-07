@@ -1,1 +1,0 @@
-import{j as t}from"./index-hfqhHqgq.js";import{M as o}from"./MethodLocationPage-CTKSUT9R.js";import"./programmatic-seo-COFtofl3.js";function n(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"qatar"})}export{n as default};

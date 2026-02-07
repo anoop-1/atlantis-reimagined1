@@ -272,6 +272,32 @@ const NDTConsultingSouthAfrica = lazy(() => import("./pages/ndt-consulting-south
 const NDTConsultingEgypt = lazy(() => import("./pages/ndt-consulting-egypt"));
 const NDTConsultingAngola = lazy(() => import("./pages/ndt-consulting-angola"));
 const NDTConsultingAlgeria = lazy(() => import("./pages/ndt-consulting-algeria"));
+// New City Consulting Pages
+const NDTConsultingPerth = lazy(() => import("./pages/ndt-consulting-perth"));
+const NDTConsultingMelbourne = lazy(() => import("./pages/ndt-consulting-melbourne"));
+const NDTConsultingSydney = lazy(() => import("./pages/ndt-consulting-sydney"));
+const NDTConsultingBrisbane = lazy(() => import("./pages/ndt-consulting-brisbane"));
+const NDTConsultingBeijing = lazy(() => import("./pages/ndt-consulting-beijing"));
+const NDTConsultingShanghai = lazy(() => import("./pages/ndt-consulting-shanghai"));
+const NDTConsultingShenzhen = lazy(() => import("./pages/ndt-consulting-shenzhen"));
+const NDTConsultingHongKong = lazy(() => import("./pages/ndt-consulting-hong-kong"));
+const NDTConsultingTaipei = lazy(() => import("./pages/ndt-consulting-taipei"));
+const NDTConsultingManila = lazy(() => import("./pages/ndt-consulting-manila"));
+const NDTConsultingJakarta = lazy(() => import("./pages/ndt-consulting-jakarta"));
+const NDTConsultingBangkok = lazy(() => import("./pages/ndt-consulting-bangkok"));
+const NDTConsultingHoChiMinh = lazy(() => import("./pages/ndt-consulting-ho-chi-minh"));
+const NDTConsultingSaoPaulo = lazy(() => import("./pages/ndt-consulting-sao-paulo"));
+const NDTConsultingRioDeJaneiro = lazy(() => import("./pages/ndt-consulting-rio-de-janeiro"));
+const NDTConsultingBuenosAires = lazy(() => import("./pages/ndt-consulting-buenos-aires"));
+const NDTConsultingBogota = lazy(() => import("./pages/ndt-consulting-bogota"));
+const NDTConsultingLima = lazy(() => import("./pages/ndt-consulting-lima"));
+const NDTConsultingSantiago = lazy(() => import("./pages/ndt-consulting-santiago"));
+const NDTConsultingLagos = lazy(() => import("./pages/ndt-consulting-lagos"));
+const NDTConsultingJohannesburg = lazy(() => import("./pages/ndt-consulting-johannesburg"));
+const NDTConsultingCapeTown = lazy(() => import("./pages/ndt-consulting-cape-town"));
+const NDTConsultingNairobi = lazy(() => import("./pages/ndt-consulting-nairobi"));
+const NDTConsultingAccra = lazy(() => import("./pages/ndt-consulting-accra"));
+const NDTConsultingCasablanca = lazy(() => import("./pages/ndt-consulting-casablanca"));
 // Resource Pages
 const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
 const PressMedia = lazy(() => import("./pages/press-media"));
@@ -398,82 +424,108 @@ const App = () => (
                   <Route path="/ndt-training-online" element={<LazyRoute Component={NDTTrainingOnline} />} />
                   {/* Product/Solution Pages */}
                   <Route path="/digital-twins-oil-gas-assets" element={<LazyRoute Component={DigitalTwinsOilGasAssets} />} />
-                  <Route path="/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />
+                  <Route path="/consulting/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />
                   <Route path="/ndt-connect-platform" element={<LazyRoute Component={NDTConnectPlatform} />} />
                   <Route path="/ndt-erp-solution" element={<LazyRoute Component={NDTERPSolution} />} />
                   <Route path="/intelligent-reporting-software" element={<LazyRoute Component={IntelligentReportingSoftware} />} />
                   {/* Location Consulting Pages */}
-                  <Route path="/ndt-consulting-houston" element={<LazyRoute Component={NDTConsultingHouston} />} />
-                  <Route path="/ndt-consulting-los-angeles" element={<LazyRoute Component={NDTConsultingLosAngeles} />} />
-                  <Route path="/ndt-consulting-new-orleans" element={<LazyRoute Component={NDTConsultingNewOrleans} />} />
-                  <Route path="/ndt-consulting-denver" element={<LazyRoute Component={NDTConsultingDenver} />} />
-                  <Route path="/ndt-consulting-chicago" element={<LazyRoute Component={NDTConsultingChicago} />} />
-                  <Route path="/ndt-consulting-dubai" element={<LazyRoute Component={NDTConsultingDubai} />} />
-                  <Route path="/ndt-consulting-saudi-arabia" element={<LazyRoute Component={NDTConsultingSaudiArabia} />} />
-                  <Route path="/ndt-consulting-qatar" element={<LazyRoute Component={NDTConsultingQatar} />} />
-                  <Route path="/ndt-consulting-kuwait" element={<LazyRoute Component={NDTConsultingKuwait} />} />
-                  <Route path="/ndt-consulting-abu-dhabi" element={<LazyRoute Component={NDTConsultingAbuDhabi} />} />
-                  <Route path="/ndt-consulting-mumbai" element={<LazyRoute Component={NDTConsultingMumbai} />} />
-                  <Route path="/ndt-consulting-chennai" element={<LazyRoute Component={NDTConsultingChennai} />} />
-                  <Route path="/ndt-consulting-bangalore" element={<LazyRoute Component={NDTConsultingBangalore} />} />
-                  <Route path="/ndt-consulting-delhi" element={<LazyRoute Component={NDTConsultingDelhi} />} />
-                  <Route path="/ndt-consulting-singapore" element={<LazyRoute Component={NDTConsultingSingapore} />} />
-                  <Route path="/ndt-consulting-uk" element={<LazyRoute Component={NDTConsultingUK} />} />
-                  <Route path="/ndt-consulting-norway" element={<LazyRoute Component={NDTConsultingNorway} />} />
-                  <Route path="/ndt-consulting-calgary" element={<LazyRoute Component={NDTConsultingCalgary} />} />
+                  <Route path="/consulting/ndt-consulting-houston" element={<LazyRoute Component={NDTConsultingHouston} />} />
+                  <Route path="/consulting/ndt-consulting-los-angeles" element={<LazyRoute Component={NDTConsultingLosAngeles} />} />
+                  <Route path="/consulting/ndt-consulting-new-orleans" element={<LazyRoute Component={NDTConsultingNewOrleans} />} />
+                  <Route path="/consulting/ndt-consulting-denver" element={<LazyRoute Component={NDTConsultingDenver} />} />
+                  <Route path="/consulting/ndt-consulting-chicago" element={<LazyRoute Component={NDTConsultingChicago} />} />
+                  <Route path="/consulting/ndt-consulting-dubai" element={<LazyRoute Component={NDTConsultingDubai} />} />
+                  <Route path="/consulting/ndt-consulting-saudi-arabia" element={<LazyRoute Component={NDTConsultingSaudiArabia} />} />
+                  <Route path="/consulting/ndt-consulting-qatar" element={<LazyRoute Component={NDTConsultingQatar} />} />
+                  <Route path="/consulting/ndt-consulting-kuwait" element={<LazyRoute Component={NDTConsultingKuwait} />} />
+                  <Route path="/consulting/ndt-consulting-abu-dhabi" element={<LazyRoute Component={NDTConsultingAbuDhabi} />} />
+                  <Route path="/consulting/ndt-consulting-mumbai" element={<LazyRoute Component={NDTConsultingMumbai} />} />
+                  <Route path="/consulting/ndt-consulting-chennai" element={<LazyRoute Component={NDTConsultingChennai} />} />
+                  <Route path="/consulting/ndt-consulting-bangalore" element={<LazyRoute Component={NDTConsultingBangalore} />} />
+                  <Route path="/consulting/ndt-consulting-delhi" element={<LazyRoute Component={NDTConsultingDelhi} />} />
+                  <Route path="/consulting/ndt-consulting-singapore" element={<LazyRoute Component={NDTConsultingSingapore} />} />
+                  <Route path="/consulting/ndt-consulting-uk" element={<LazyRoute Component={NDTConsultingUK} />} />
+                  <Route path="/consulting/ndt-consulting-norway" element={<LazyRoute Component={NDTConsultingNorway} />} />
+                  <Route path="/consulting/ndt-consulting-calgary" element={<LazyRoute Component={NDTConsultingCalgary} />} />
                   {/* Additional Location Consulting Pages (50 new) */}
-                  <Route path="/ndt-consulting-seattle" element={<LazyRoute Component={NDTConsultingSeattle} />} />
-                  <Route path="/ndt-consulting-dallas" element={<LazyRoute Component={NDTConsultingDallas} />} />
-                  <Route path="/ndt-consulting-phoenix" element={<LazyRoute Component={NDTConsultingPhoenix} />} />
-                  <Route path="/ndt-consulting-philadelphia" element={<LazyRoute Component={NDTConsultingPhiladelphia} />} />
-                  <Route path="/ndt-consulting-san-francisco" element={<LazyRoute Component={NDTConsultingSanFrancisco} />} />
-                  <Route path="/ndt-consulting-detroit" element={<LazyRoute Component={NDTConsultingDetroit} />} />
-                  <Route path="/ndt-consulting-pittsburgh" element={<LazyRoute Component={NDTConsultingPittsburgh} />} />
-                  <Route path="/ndt-consulting-baton-rouge" element={<LazyRoute Component={NDTConsultingBatonRouge} />} />
-                  <Route path="/ndt-consulting-corpus-christi" element={<LazyRoute Component={NDTConsultingCorpusChristi} />} />
-                  <Route path="/ndt-consulting-tulsa" element={<LazyRoute Component={NDTConsultingTulsa} />} />
-                  <Route path="/ndt-consulting-beaumont" element={<LazyRoute Component={NDTConsultingBeaumont} />} />
-                  <Route path="/ndt-consulting-bahrain" element={<LazyRoute Component={NDTConsultingBahrain} />} />
-                  <Route path="/ndt-consulting-oman" element={<LazyRoute Component={NDTConsultingOman} />} />
-                  <Route path="/ndt-consulting-jubail" element={<LazyRoute Component={NDTConsultingJubail} />} />
-                  <Route path="/ndt-consulting-yanbu" element={<LazyRoute Component={NDTConsultingYanbu} />} />
-                  <Route path="/ndt-consulting-dammam" element={<LazyRoute Component={NDTConsultingDammam} />} />
-                  <Route path="/ndt-consulting-kolkata" element={<LazyRoute Component={NDTConsultingKolkata} />} />
-                  <Route path="/ndt-consulting-ahmedabad" element={<LazyRoute Component={NDTConsultingAhmedabad} />} />
-                  <Route path="/ndt-consulting-jamnagar" element={<LazyRoute Component={NDTConsultingJamnagar} />} />
-                  <Route path="/ndt-consulting-vizag" element={<LazyRoute Component={NDTConsultingVizag} />} />
-                  <Route path="/ndt-consulting-kochi" element={<LazyRoute Component={NDTConsultingKochi} />} />
-                  <Route path="/ndt-consulting-malaysia" element={<LazyRoute Component={NDTConsultingMalaysia} />} />
-                  <Route path="/ndt-consulting-indonesia" element={<LazyRoute Component={NDTConsultingIndonesia} />} />
-                  <Route path="/ndt-consulting-thailand" element={<LazyRoute Component={NDTConsultingThailand} />} />
-                  <Route path="/ndt-consulting-vietnam" element={<LazyRoute Component={NDTConsultingVietnam} />} />
-                  <Route path="/ndt-consulting-philippines" element={<LazyRoute Component={NDTConsultingPhilippines} />} />
-                  <Route path="/ndt-consulting-south-korea" element={<LazyRoute Component={NDTConsultingSouthKorea} />} />
-                  <Route path="/ndt-consulting-japan" element={<LazyRoute Component={NDTConsultingJapan} />} />
-                  <Route path="/ndt-consulting-taiwan" element={<LazyRoute Component={NDTConsultingTaiwan} />} />
-                  <Route path="/ndt-consulting-australia" element={<LazyRoute Component={NDTConsultingAustralia} />} />
-                  <Route path="/ndt-consulting-new-zealand" element={<LazyRoute Component={NDTConsultingNewZealand} />} />
-                  <Route path="/ndt-consulting-germany" element={<LazyRoute Component={NDTConsultingGermany} />} />
-                  <Route path="/ndt-consulting-netherlands" element={<LazyRoute Component={NDTConsultingNetherlands} />} />
-                  <Route path="/ndt-consulting-france" element={<LazyRoute Component={NDTConsultingFrance} />} />
-                  <Route path="/ndt-consulting-italy" element={<LazyRoute Component={NDTConsultingItaly} />} />
-                  <Route path="/ndt-consulting-spain" element={<LazyRoute Component={NDTConsultingSpain} />} />
-                  <Route path="/ndt-consulting-belgium" element={<LazyRoute Component={NDTConsultingBelgium} />} />
-                  <Route path="/ndt-consulting-scotland" element={<LazyRoute Component={NDTConsultingScotland} />} />
-                  <Route path="/ndt-consulting-aberdeen" element={<LazyRoute Component={NDTConsultingAberdeen} />} />
-                  <Route path="/ndt-consulting-edmonton" element={<LazyRoute Component={NDTConsultingEdmonton} />} />
-                  <Route path="/ndt-consulting-toronto" element={<LazyRoute Component={NDTConsultingToronto} />} />
-                  <Route path="/ndt-consulting-vancouver" element={<LazyRoute Component={NDTConsultingVancouver} />} />
-                  <Route path="/ndt-consulting-mexico-city" element={<LazyRoute Component={NDTConsultingMexicoCity} />} />
-                  <Route path="/ndt-consulting-brazil" element={<LazyRoute Component={NDTConsultingBrazil} />} />
-                  <Route path="/ndt-consulting-argentina" element={<LazyRoute Component={NDTConsultingArgentina} />} />
-                  <Route path="/ndt-consulting-colombia" element={<LazyRoute Component={NDTConsultingColombia} />} />
-                  <Route path="/ndt-consulting-trinidad" element={<LazyRoute Component={NDTConsultingTrinidad} />} />
-                  <Route path="/ndt-consulting-nigeria" element={<LazyRoute Component={NDTConsultingNigeria} />} />
-                  <Route path="/ndt-consulting-south-africa" element={<LazyRoute Component={NDTConsultingSouthAfrica} />} />
-                  <Route path="/ndt-consulting-egypt" element={<LazyRoute Component={NDTConsultingEgypt} />} />
-                  <Route path="/ndt-consulting-angola" element={<LazyRoute Component={NDTConsultingAngola} />} />
-                  <Route path="/ndt-consulting-algeria" element={<LazyRoute Component={NDTConsultingAlgeria} />} />
+                  <Route path="/consulting/ndt-consulting-seattle" element={<LazyRoute Component={NDTConsultingSeattle} />} />
+                  <Route path="/consulting/ndt-consulting-dallas" element={<LazyRoute Component={NDTConsultingDallas} />} />
+                  <Route path="/consulting/ndt-consulting-phoenix" element={<LazyRoute Component={NDTConsultingPhoenix} />} />
+                  <Route path="/consulting/ndt-consulting-philadelphia" element={<LazyRoute Component={NDTConsultingPhiladelphia} />} />
+                  <Route path="/consulting/ndt-consulting-san-francisco" element={<LazyRoute Component={NDTConsultingSanFrancisco} />} />
+                  <Route path="/consulting/ndt-consulting-detroit" element={<LazyRoute Component={NDTConsultingDetroit} />} />
+                  <Route path="/consulting/ndt-consulting-pittsburgh" element={<LazyRoute Component={NDTConsultingPittsburgh} />} />
+                  <Route path="/consulting/ndt-consulting-baton-rouge" element={<LazyRoute Component={NDTConsultingBatonRouge} />} />
+                  <Route path="/consulting/ndt-consulting-corpus-christi" element={<LazyRoute Component={NDTConsultingCorpusChristi} />} />
+                  <Route path="/consulting/ndt-consulting-tulsa" element={<LazyRoute Component={NDTConsultingTulsa} />} />
+                  <Route path="/consulting/ndt-consulting-beaumont" element={<LazyRoute Component={NDTConsultingBeaumont} />} />
+                  <Route path="/consulting/ndt-consulting-bahrain" element={<LazyRoute Component={NDTConsultingBahrain} />} />
+                  <Route path="/consulting/ndt-consulting-oman" element={<LazyRoute Component={NDTConsultingOman} />} />
+                  <Route path="/consulting/ndt-consulting-jubail" element={<LazyRoute Component={NDTConsultingJubail} />} />
+                  <Route path="/consulting/ndt-consulting-yanbu" element={<LazyRoute Component={NDTConsultingYanbu} />} />
+                  <Route path="/consulting/ndt-consulting-dammam" element={<LazyRoute Component={NDTConsultingDammam} />} />
+                  <Route path="/consulting/ndt-consulting-kolkata" element={<LazyRoute Component={NDTConsultingKolkata} />} />
+                  <Route path="/consulting/ndt-consulting-ahmedabad" element={<LazyRoute Component={NDTConsultingAhmedabad} />} />
+                  <Route path="/consulting/ndt-consulting-jamnagar" element={<LazyRoute Component={NDTConsultingJamnagar} />} />
+                  <Route path="/consulting/ndt-consulting-vizag" element={<LazyRoute Component={NDTConsultingVizag} />} />
+                  <Route path="/consulting/ndt-consulting-kochi" element={<LazyRoute Component={NDTConsultingKochi} />} />
+                  <Route path="/consulting/ndt-consulting-malaysia" element={<LazyRoute Component={NDTConsultingMalaysia} />} />
+                  <Route path="/consulting/ndt-consulting-indonesia" element={<LazyRoute Component={NDTConsultingIndonesia} />} />
+                  <Route path="/consulting/ndt-consulting-thailand" element={<LazyRoute Component={NDTConsultingThailand} />} />
+                  <Route path="/consulting/ndt-consulting-vietnam" element={<LazyRoute Component={NDTConsultingVietnam} />} />
+                  <Route path="/consulting/ndt-consulting-philippines" element={<LazyRoute Component={NDTConsultingPhilippines} />} />
+                  <Route path="/consulting/ndt-consulting-south-korea" element={<LazyRoute Component={NDTConsultingSouthKorea} />} />
+                  <Route path="/consulting/ndt-consulting-japan" element={<LazyRoute Component={NDTConsultingJapan} />} />
+                  <Route path="/consulting/ndt-consulting-taiwan" element={<LazyRoute Component={NDTConsultingTaiwan} />} />
+                  <Route path="/consulting/ndt-consulting-australia" element={<LazyRoute Component={NDTConsultingAustralia} />} />
+                  <Route path="/consulting/ndt-consulting-new-zealand" element={<LazyRoute Component={NDTConsultingNewZealand} />} />
+                  <Route path="/consulting/ndt-consulting-germany" element={<LazyRoute Component={NDTConsultingGermany} />} />
+                  <Route path="/consulting/ndt-consulting-netherlands" element={<LazyRoute Component={NDTConsultingNetherlands} />} />
+                  <Route path="/consulting/ndt-consulting-france" element={<LazyRoute Component={NDTConsultingFrance} />} />
+                  <Route path="/consulting/ndt-consulting-italy" element={<LazyRoute Component={NDTConsultingItaly} />} />
+                  <Route path="/consulting/ndt-consulting-spain" element={<LazyRoute Component={NDTConsultingSpain} />} />
+                  <Route path="/consulting/ndt-consulting-belgium" element={<LazyRoute Component={NDTConsultingBelgium} />} />
+                  <Route path="/consulting/ndt-consulting-scotland" element={<LazyRoute Component={NDTConsultingScotland} />} />
+                  <Route path="/consulting/ndt-consulting-aberdeen" element={<LazyRoute Component={NDTConsultingAberdeen} />} />
+                  <Route path="/consulting/ndt-consulting-edmonton" element={<LazyRoute Component={NDTConsultingEdmonton} />} />
+                  <Route path="/consulting/ndt-consulting-toronto" element={<LazyRoute Component={NDTConsultingToronto} />} />
+                  <Route path="/consulting/ndt-consulting-vancouver" element={<LazyRoute Component={NDTConsultingVancouver} />} />
+                  <Route path="/consulting/ndt-consulting-mexico-city" element={<LazyRoute Component={NDTConsultingMexicoCity} />} />
+                  <Route path="/consulting/ndt-consulting-brazil" element={<LazyRoute Component={NDTConsultingBrazil} />} />
+                  <Route path="/consulting/ndt-consulting-argentina" element={<LazyRoute Component={NDTConsultingArgentina} />} />
+                  <Route path="/consulting/ndt-consulting-colombia" element={<LazyRoute Component={NDTConsultingColombia} />} />
+                  <Route path="/consulting/ndt-consulting-trinidad" element={<LazyRoute Component={NDTConsultingTrinidad} />} />
+                  <Route path="/consulting/ndt-consulting-nigeria" element={<LazyRoute Component={NDTConsultingNigeria} />} />
+                  <Route path="/consulting/ndt-consulting-south-africa" element={<LazyRoute Component={NDTConsultingSouthAfrica} />} />
+                  <Route path="/consulting/ndt-consulting-egypt" element={<LazyRoute Component={NDTConsultingEgypt} />} />
+                  <Route path="/consulting/ndt-consulting-angola" element={<LazyRoute Component={NDTConsultingAngola} />} />
+                  <Route path="/consulting/ndt-consulting-algeria" element={<LazyRoute Component={NDTConsultingAlgeria} />} />
+                  {/* New City Consulting Routes */}
+                  <Route path="/consulting/ndt-consulting-perth" element={<LazyRoute Component={NDTConsultingPerth} />} />
+                  <Route path="/consulting/ndt-consulting-melbourne" element={<LazyRoute Component={NDTConsultingMelbourne} />} />
+                  <Route path="/consulting/ndt-consulting-sydney" element={<LazyRoute Component={NDTConsultingSydney} />} />
+                  <Route path="/consulting/ndt-consulting-brisbane" element={<LazyRoute Component={NDTConsultingBrisbane} />} />
+                  <Route path="/consulting/ndt-consulting-beijing" element={<LazyRoute Component={NDTConsultingBeijing} />} />
+                  <Route path="/consulting/ndt-consulting-shanghai" element={<LazyRoute Component={NDTConsultingShanghai} />} />
+                  <Route path="/consulting/ndt-consulting-shenzhen" element={<LazyRoute Component={NDTConsultingShenzhen} />} />
+                  <Route path="/consulting/ndt-consulting-hong-kong" element={<LazyRoute Component={NDTConsultingHongKong} />} />
+                  <Route path="/consulting/ndt-consulting-taipei" element={<LazyRoute Component={NDTConsultingTaipei} />} />
+                  <Route path="/consulting/ndt-consulting-manila" element={<LazyRoute Component={NDTConsultingManila} />} />
+                  <Route path="/consulting/ndt-consulting-jakarta" element={<LazyRoute Component={NDTConsultingJakarta} />} />
+                  <Route path="/consulting/ndt-consulting-bangkok" element={<LazyRoute Component={NDTConsultingBangkok} />} />
+                  <Route path="/consulting/ndt-consulting-ho-chi-minh" element={<LazyRoute Component={NDTConsultingHoChiMinh} />} />
+                  <Route path="/consulting/ndt-consulting-sao-paulo" element={<LazyRoute Component={NDTConsultingSaoPaulo} />} />
+                  <Route path="/consulting/ndt-consulting-rio-de-janeiro" element={<LazyRoute Component={NDTConsultingRioDeJaneiro} />} />
+                  <Route path="/consulting/ndt-consulting-buenos-aires" element={<LazyRoute Component={NDTConsultingBuenosAires} />} />
+                  <Route path="/consulting/ndt-consulting-bogota" element={<LazyRoute Component={NDTConsultingBogota} />} />
+                  <Route path="/consulting/ndt-consulting-lima" element={<LazyRoute Component={NDTConsultingLima} />} />
+                  <Route path="/consulting/ndt-consulting-santiago" element={<LazyRoute Component={NDTConsultingSantiago} />} />
+                  <Route path="/consulting/ndt-consulting-lagos" element={<LazyRoute Component={NDTConsultingLagos} />} />
+                  <Route path="/consulting/ndt-consulting-johannesburg" element={<LazyRoute Component={NDTConsultingJohannesburg} />} />
+                  <Route path="/consulting/ndt-consulting-cape-town" element={<LazyRoute Component={NDTConsultingCapeTown} />} />
+                  <Route path="/consulting/ndt-consulting-nairobi" element={<LazyRoute Component={NDTConsultingNairobi} />} />
+                  <Route path="/consulting/ndt-consulting-accra" element={<LazyRoute Component={NDTConsultingAccra} />} />
+                  <Route path="/consulting/ndt-consulting-casablanca" element={<LazyRoute Component={NDTConsultingCasablanca} />} />
                   {/* Resource Pages */}
                   <Route path="/resources" element={<LazyRoute Component={ResourcesDownloads} />} />
                   <Route path="/press" element={<LazyRoute Component={PressMedia} />} />

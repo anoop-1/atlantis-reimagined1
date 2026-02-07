@@ -72,6 +72,11 @@
       "statusCode": 301
     },
     {
+      "source": "/ndt-consulting-:city",
+      "destination": "/consulting/ndt-consulting-:city",
+      "statusCode": 301
+    },
+    {
       "source": "/ndt-consulting/:path*",
       "destination": "/consulting",
       "statusCode": 301

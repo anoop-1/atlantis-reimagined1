@@ -228,6 +228,131 @@ const locationIntros: Record<string, { intro: string; marketInsight: string; reg
         intro: "Edmonton anchors Alberta's oil sands processing sector with major upgraders, refineries, and petrochemical facilities serving North American markets.",
         marketInsight: "Oil sands processing and petrochemical operations create sustained demand for Level III consulting in heavy crude applications.",
         regionalChallenge: "Extreme cold, oil sands processing conditions, and hydrogen high-temperature service require specialized consulting expertise."
+    },
+    "perth": {
+        intro: "Perth is the gateway to Western Australia's massive mining and LNG sector, with major projects like Gorgon, Wheatstone, and North West Shelf driving industrial NDT demand across offshore and onshore operations.",
+        marketInsight: "Australia's LNG expansion and ongoing mining operations create strong demand for Level III consulting expertise in remote and offshore environments.",
+        regionalChallenge: "Remote locations, extreme heat, and the scale of LNG and mining operations require consultants experienced in large-scale asset integrity programs."
+    },
+    "melbourne": {
+        intro: "Melbourne serves as Australia's manufacturing and engineering hub, with major automotive, aerospace, and heavy industrial operations concentrated in the greater metropolitan area.",
+        marketInsight: "Advanced manufacturing, defense contracts, and infrastructure development create diverse consulting opportunities across multiple industrial sectors.",
+        regionalChallenge: "Diverse industry requirements, stringent Australian standards, and the transition to advanced manufacturing demand versatile Level III consulting expertise."
+    },
+    "sydney": {
+        intro: "Sydney anchors New South Wales' industrial infrastructure, with major power generation, manufacturing, and port facilities serving Australia's largest economy.",
+        marketInsight: "Infrastructure maintenance and energy sector modernization create sustained demand for Level III consulting services across diverse applications.",
+        regionalChallenge: "Coastal environment, aging infrastructure, and diverse industrial applications require consultants familiar with Australian regulatory frameworks and multiple industry codes."
+    },
+    "brisbane": {
+        intro: "Brisbane serves as the operational hub for Queensland's extensive mining, LNG, and energy sectors, including Curtis Island LNG facilities and major coal and mineral operations.",
+        marketInsight: "Queensland's LNG export facilities and expanding mining operations drive demand for Level III consulting in both onshore and offshore applications.",
+        regionalChallenge: "Tropical climate, remote operational sites, and the unique challenges of LNG and mining operations require specialized consulting approaches."
+    },
+    "beijing": {
+        intro: "Beijing serves as the administrative and strategic center for China's petroleum industry, home to the headquarters of CNPC, Sinopec, and other major state-owned energy enterprises.",
+        marketInsight: "China's massive refining expansion and pipeline infrastructure create significant demand for Level III consulting to ensure compliance with evolving national standards.",
+        regionalChallenge: "Rapidly evolving regulatory frameworks, scale of operations, and the integration of international codes with Chinese national standards require experienced consulting support."
+    },
+    "shanghai": {
+        intro: "Shanghai is China's industrial powerhouse, hosting major petrochemical complexes at Shanghai Chemical Industry Park and significant shipbuilding and manufacturing operations along the Yangtze River.",
+        marketInsight: "Petrochemical expansion, advanced manufacturing, and shipbuilding create diverse Level III consulting demand in China's most commercially active city.",
+        regionalChallenge: "Coastal humidity, high-density industrial zones, and the blend of international and domestic standards require consultants skilled in multi-code compliance."
+    },
+    "shenzhen": {
+        intro: "Shenzhen anchors South China's manufacturing and technology corridor, with electronics manufacturing, energy infrastructure, and advanced materials operations driving industrial growth.",
+        marketInsight: "High-tech manufacturing and energy infrastructure development create growing demand for advanced NDT consulting services in quality-critical applications.",
+        regionalChallenge: "Subtropical climate, rapid industrial expansion, and stringent quality requirements for electronics and precision manufacturing demand specialized consulting expertise."
+    },
+    "hong-kong": {
+        intro: "Hong Kong's strategic position as an international business hub provides access to South China's vast industrial operations and serves as a gateway for regional NDT consulting across Asia-Pacific.",
+        marketInsight: "Infrastructure maintenance, marine operations, and the region's position as a logistics hub create diverse consulting demand leveraging international standards.",
+        regionalChallenge: "Maritime environment, limited industrial space, and the need to comply with both international and mainland Chinese standards require versatile consulting approaches."
+    },
+    "taipei": {
+        intro: "Taipei serves as the hub for Taiwan's semiconductor, petrochemical, and advanced manufacturing sectors, with major industrial operations at Mailiao and Kaohsiung petrochemical complexes.",
+        marketInsight: "Semiconductor fabrication facility maintenance and petrochemical operations create specialized demand for Level III consulting in precision-critical applications.",
+        regionalChallenge: "Seismic considerations, semiconductor clean room requirements, and stringent quality expectations demand consultants experienced in high-precision industrial NDT."
+    },
+    "manila": {
+        intro: "Manila serves as the Philippines' industrial center, with major refining operations, power generation facilities, and growing manufacturing infrastructure across the metropolitan region.",
+        marketInsight: "Infrastructure development, refinery maintenance, and power sector expansion create growing demand for Level III consulting services in the Philippines.",
+        regionalChallenge: "Tropical climate, seismic activity, and developing regulatory frameworks require consultants experienced in establishing robust NDT programs from the ground up."
+    },
+    "jakarta": {
+        intro: "Jakarta anchors Indonesia's industrial and energy sector, coordinating operations for Pertamina's extensive refining network and the country's diverse onshore and offshore petroleum operations.",
+        marketInsight: "Refinery modernization, new facility development, and expanding offshore operations create significant consulting opportunities across Indonesia's archipelago.",
+        regionalChallenge: "Maritime logistics, tropical conditions, and the geographic spread of operations require consultants adaptable to remote and challenging operational environments."
+    },
+    "bangkok": {
+        intro: "Bangkok coordinates Thailand's petrochemical and manufacturing operations, including the massive Map Ta Phut industrial complex and major automotive manufacturing facilities in the Eastern Seaboard.",
+        marketInsight: "Petrochemical expansion, automotive quality requirements, and energy sector investment create sustained demand for Level III consulting expertise.",
+        regionalChallenge: "Tropical climate, integrated petrochemical operations, and Thai regulatory requirements demand experienced consulting support across multiple industrial sectors."
+    },
+    "ho-chi-minh": {
+        intro: "Ho Chi Minh City anchors Vietnam's rapidly developing industrial sector, with growing refining capacity, manufacturing operations, and infrastructure projects across the southern region.",
+        marketInsight: "Industrial expansion, new facility commissioning, and growing foreign investment create demand for Level III consulting as Vietnam's petroleum sector matures.",
+        regionalChallenge: "Developing regulatory frameworks, tropical conditions, and the establishment of new inspection programs require consultants experienced in program development and implementation."
+    },
+    "sao-paulo": {
+        intro: "São Paulo is Brazil's industrial heartbeat, hosting major petrochemical complexes, automotive manufacturing, and serving as the business hub for Petrobras and other energy companies.",
+        marketInsight: "Petrochemical operations, automotive manufacturing quality requirements, and infrastructure maintenance create diverse Level III consulting demand.",
+        regionalChallenge: "Scale of operations, diverse industrial applications, and Brazilian regulatory requirements demand versatile consulting expertise across multiple sectors."
+    },
+    "rio-de-janeiro": {
+        intro: "Rio de Janeiro serves as the operational center for Brazil's offshore petroleum industry, with Petrobras' pre-salt deepwater operations representing some of the world's most technically challenging inspection environments.",
+        marketInsight: "Pre-salt deepwater development and offshore platform maintenance create strong demand for Level III consulting specialized in subsea and FPSO operations.",
+        regionalChallenge: "Ultra-deepwater operations, FPSO integrity, and the technical complexity of pre-salt wells require consultants with specialized offshore expertise."
+    },
+    "buenos-aires": {
+        intro: "Buenos Aires serves as the administrative hub for Argentina's petroleum sector, with YPF's operations spanning conventional production and the rapidly developing Vaca Muerta shale basin.",
+        marketInsight: "Vaca Muerta shale development and refinery maintenance create growing demand for Level III consulting in both conventional and unconventional operations.",
+        regionalChallenge: "Remote shale operations, aging refinery infrastructure, and the development of unconventional resources require consultants experienced in diverse operational environments."
+    },
+    "bogota": {
+        intro: "Bogotá coordinates Colombia's petroleum operations, with Ecopetrol managing significant refining capacity at Barrancabermeja and expanding exploration programs across the country.",
+        marketInsight: "Refinery modernization, pipeline infrastructure, and growing production create sustained demand for Level III consulting across Colombia's petroleum value chain.",
+        regionalChallenge: "Geographical diversity, security considerations, and the mix of aging and new infrastructure require experienced consultants familiar with Latin American operations."
+    },
+    "lima": {
+        intro: "Lima serves as the hub for Peru's mining and energy industries, with major copper and gold mining operations alongside growing petroleum and LNG infrastructure.",
+        marketInsight: "Mining operations, LNG production, and infrastructure development create diverse consulting demand across Peru's industrial sectors.",
+        regionalChallenge: "High-altitude mining operations, seismic activity, and diverse geographical conditions require consultants adaptable to challenging Andean environments."
+    },
+    "santiago": {
+        intro: "Santiago coordinates Chile's significant mining sector, the world's largest copper producer, alongside growing renewable energy infrastructure and petrochemical operations.",
+        marketInsight: "Copper mining operations, lithium extraction, and energy sector investment create specialized demand for Level III consulting expertise.",
+        regionalChallenge: "High-altitude mining, seismic considerations, and extreme desert conditions in northern Chile require consultants experienced in harsh environment operations."
+    },
+    "lagos": {
+        intro: "Lagos serves as the commercial hub for Nigeria's petroleum industry, coordinating onshore and offshore operations across the Niger Delta and deepwater blocks in the Gulf of Guinea.",
+        marketInsight: "Dangote Refinery commissioning, offshore development, and infrastructure renewal create unprecedented demand for Level III consulting in West Africa.",
+        regionalChallenge: "Challenging operating conditions, harsh coastal environment, and the complexity of offshore operations require consultants with specialized African and deepwater expertise."
+    },
+    "johannesburg": {
+        intro: "Johannesburg anchors South Africa's mining and manufacturing sector, with major operations across the Witwatersrand basin and connections to Sasol's coal-to-liquids facilities.",
+        marketInsight: "Mining infrastructure, synthetic fuel production, and industrial manufacturing create diverse consulting demand across Southern Africa's most industrialized region.",
+        regionalChallenge: "Unique synfuels processing, aging mining infrastructure, and diverse industrial applications require versatile Level III consulting expertise."
+    },
+    "cape-town": {
+        intro: "Cape Town serves as South Africa's maritime and energy hub, with port facilities, offshore services, and connections to PetroSA's gas-to-liquids operations at Mossel Bay.",
+        marketInsight: "Maritime operations, offshore exploration, and growing renewable energy infrastructure create diverse consulting opportunities in the Western Cape region.",
+        regionalChallenge: "Marine environment, offshore operations, and the development of new energy infrastructure require consultants experienced in both conventional and emerging sectors."
+    },
+    "nairobi": {
+        intro: "Nairobi serves as East Africa's commercial center, coordinating growing oil and gas exploration, geothermal energy development, and significant infrastructure investment across the region.",
+        marketInsight: "Kenya's geothermal development, oil exploration in Turkana, and regional infrastructure investment create emerging demand for Level III consulting expertise.",
+        regionalChallenge: "Emerging petroleum sector, geothermal operations, and developing regulatory frameworks require consultants experienced in program establishment and capacity building."
+    },
+    "accra": {
+        intro: "Accra coordinates Ghana's growing petroleum sector, including the Jubilee and TEN offshore fields, alongside mining and expanding industrial infrastructure.",
+        marketInsight: "Offshore petroleum development and industrial growth create increasing demand for Level III consulting in West Africa's most stable economy.",
+        regionalChallenge: "Offshore operations, tropical conditions, and developing inspection infrastructure require consultants experienced in establishing NDT programs in emerging markets."
+    },
+    "casablanca": {
+        intro: "Casablanca serves as Morocco's industrial capital, with major phosphate processing, automotive manufacturing, and growing energy infrastructure across the country.",
+        marketInsight: "Industrial diversification, renewable energy investment, and OCP's phosphate operations create diverse consulting demand in North Africa.",
+        regionalChallenge: "Diverse industrial applications, proximity to European standards, and growing manufacturing sectors require consultants familiar with both African and European regulatory frameworks."
     }
 };
 
@@ -318,7 +443,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     const pageTitle = `NDT Level III Consulting ${location.name} | ASNT Procedures & Program Audits | Atlantis NDT`;
     const pageDesc = `ASNT Level III NDT consulting services in ${location.name}. Procedure development, program audits, technique development, and expert witness services for ${location.industries.join(", ")}. 50+ certified experts. Request quote.`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
-    const canonical = `https://atlantisndt.com/ndt-consulting-${location.slug}`;
+    const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 
     const structuredData = {
         "@context": "https://schema.org",
@@ -731,7 +856,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                                 <CardContent><p className="text-slate-600 text-sm">Level I, II, III certification courses per SNT-TC-1A</p></CardContent>
                             </Card>
                         </Link>
-                        <Link to="/ndt-consulting-level-iii">
+                        <Link to="/consulting/ndt-consulting-level-iii">
                             <Card className="h-full hover:shadow-lg transition group text-center">
                                 <CardHeader>
                                     <Users className={`w-10 h-10 ${colors.text} mx-auto mb-2 group-hover:scale-110 transition`} />

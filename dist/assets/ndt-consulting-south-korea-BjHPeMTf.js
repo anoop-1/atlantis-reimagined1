@@ -1,1 +1,0 @@
-import{j as o}from"./index-hfqhHqgq.js";import{C as t}from"./ConsultingLocationPage-gb3UYAJ-.js";import"./programmatic-seo-COFtofl3.js";import"./file-text-DjsUDRxQ.js";function s(){return o.jsx(t,{locationSlug:"south-korea"})}export{s as default};
