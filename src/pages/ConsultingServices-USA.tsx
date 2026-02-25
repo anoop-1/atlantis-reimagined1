@@ -325,6 +325,27 @@ export default function ConsultingServicesUSA() {
                 </div>
             </section>
 
+            {/* Related Resources */}
+            <section className="py-12 bg-slate-50">
+                <div className="container mx-auto max-w-5xl px-6">
+                    <h2 className="text-xl font-bold text-center mb-6 text-slate-800">Related Training & Certification</h2>
+                    <div className="grid md:grid-cols-3 gap-4">
+                        <Link to="/api-570-training" className="block bg-white p-4 rounded-lg shadow-sm border hover:border-blue-400 hover:shadow-md transition group">
+                            <h3 className="font-semibold group-hover:text-blue-700 transition">API 570 Piping Inspector Training</h3>
+                            <p className="text-sm text-slate-500 mt-1">Open-book exam prep, ASME B31.3 & API 570 codes</p>
+                        </Link>
+                        <Link to="/api-510-certification" className="block bg-white p-4 rounded-lg shadow-sm border hover:border-blue-400 hover:shadow-md transition group">
+                            <h3 className="font-semibold group-hover:text-blue-700 transition">API 510 Pressure Vessel Certification</h3>
+                            <p className="text-sm text-slate-500 mt-1">Pressure vessel inspector exam preparation</p>
+                        </Link>
+                        <Link to="/asnt-certification" className="block bg-white p-4 rounded-lg shadow-sm border hover:border-blue-400 hover:shadow-md transition group">
+                            <h3 className="font-semibold group-hover:text-blue-700 transition">ASNT Level III Certification</h3>
+                            <p className="text-sm text-slate-500 mt-1">SNT-TC-1A and ACCP certification training</p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
             <ContactDetails />
         </div>
     );

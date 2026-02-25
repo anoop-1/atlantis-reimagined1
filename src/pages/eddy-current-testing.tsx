@@ -357,6 +357,10 @@ export default function EddyCurrentTesting() {
                 </li>
               ))}
             </ol>
+            <div className="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4 flex items-center justify-between gap-4">
+              <p className="text-blue-800 text-sm font-medium">Need a dedicated tube inspection guide? See our full ECT Tube Inspection reference including method selection by heat exchanger type.</p>
+              <Link to="/eddy-current-tube-inspection" className="flex-shrink-0 bg-[#004aad] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition">ECT Tube Guide →</Link>
+            </div>
           </section>
 
           {/* Equipment */}
@@ -529,6 +533,7 @@ export default function EddyCurrentTesting() {
             <h3 className="text-lg font-bold mb-3 text-amber-800">Related NDT Methods</h3>
             <ul className="space-y-2 text-sm">
               {[
+                ["/eddy-current-tube-inspection", "ECT Tube Inspection (HX)"],
                 ["/ultrasonic-testing", "Ultrasonic Testing (UT)"],
                 ["/radiographic-testing", "Radiographic Testing (RT)"],
                 ["/magnetic-particle-testing", "Magnetic Particle Testing (MT)"],

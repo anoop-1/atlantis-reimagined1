@@ -101,7 +101,10 @@ export default function API570Certification() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Ready to Get API 570 Certified?</h2>
                     <p className="text-blue-100 mb-8 text-lg">Join our next training class and advance your inspection career.</p>
-                    <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
+                    <div className="flex flex-wrap gap-4 justify-center">
+                        <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
+                        <Link to="/api-570-training" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">View Full Training Details</Link>
+                    </div>
                 </div>
             </section>
 
