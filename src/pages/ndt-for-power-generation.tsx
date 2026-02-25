@@ -42,23 +42,38 @@ const services = [
     { icon: Wrench, title: "ERP Solutions", description: "Outage resource planning solutions", link: "/erp" }
 ];
 
+const powerFaqs = [
+    { question: "What NDT methods are used in power generation?", answer: "Power plants rely on: Ultrasonic Testing (UT) and Phased Array UT (PAUT) for turbine blades, rotor shafts, and pressure components; Eddy Current Testing (ECT) for heat exchanger and condenser tube inspection; Magnetic Particle Testing (MT) for rotor forgings and generator components; Radiographic Testing (RT) for weld and casting quality; and Visual Testing (VT/RVI) via borescope for internal turbine and combustion chamber inspection." },
+    { question: "What is power generation NDT?", answer: "Power generation NDT refers to non-destructive testing services performed on power plant equipment — including gas turbines, steam turbines, generators, boilers, HRSGs, and balance-of-plant piping and pressure vessels. NDT ensures equipment integrity, prevents unplanned failures, optimises planned outage efficiency, and maintains compliance with ASME, NBIC, and NRC codes." },
+    { question: "How often should power plant equipment be inspected?", answer: "Inspection frequency depends on equipment type, operating conditions, and applicable codes. Gas turbine blades are typically inspected every 8,000–12,000 operating hours (hot-section inspections). Boiler tubes follow ASME Section I and API 510 intervals. Steam turbine rotors and shafts are inspected during every major overhaul (typically every 4–6 years). Risk-Based Inspection (RBI) per API 580 can optimise intervals for piping and pressure vessels." },
+    { question: "What certifications do power plant NDT inspectors need?", answer: "Power plant NDT inspectors typically require: ASNT SNT-TC-1A or ASNT Level III certification in relevant methods (UT, MT, PT, RT, ET); ASME Section V qualification for code work; for nuclear plants — NRC-qualified inspectors per ASME Section XI and 10 CFR 50. API 510 certification is required for pressure vessel inspection, and API 570 for piping. Atlantis NDT provides all required certifications and training." },
+];
+
 export default function NDTForPowerGeneration() {
     const structuredData = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "NDT Services for Power Generation Industry",
-        "provider": { "@type": "Organization", "name": "Atlantis NDT" },
-        "description": "Power plant NDT inspection, training, and consulting services. Turbine, boiler, and generator inspection. ASME qualified, ASNT Level III experts.",
-        "serviceType": "Non-Destructive Testing for Power Generation"
+        "@graph": [
+            {
+                "@type": "Service",
+                "name": "NDT Services for Power Generation Industry",
+                "provider": { "@type": "Organization", "name": "Atlantis NDT" },
+                "description": "Power plant NDT inspection, training, and consulting services. Turbine, boiler, and generator inspection. ASME qualified, ASNT Level III experts.",
+                "serviceType": "Non-Destructive Testing for Power Generation"
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": powerFaqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } }))
+            }
+        ]
     };
 
     return (
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Services for Power Generation | Turbine Boiler Inspection | ASME Qualified | Atlantis"
-                description="Expert power plant NDT services: turbine inspection, boiler tubes, generator rotors. ASME qualified, NRC compliant. Outage support & training. Get free quote!"
-                keywords="power plant NDT, turbine blade inspection, boiler tube testing, generator NDT, ASME Section V, nuclear NDT, power generation inspection, outage NDT services"
+                title="Power Generation NDT | Turbine, Boiler & Generator Inspection | ASME Qualified | Atlantis"
+                description="Power generation NDT services: gas turbine blade inspection, boiler tube testing, steam turbine rotors, HRSG, condenser tubes. ASME/NRC qualified. Outage planning & Level III consulting. Get a quote."
+                keywords="power generation NDT, power plant NDT, turbine blade inspection, boiler tube testing, generator NDT, ASME Section V power, HRSG inspection, steam turbine NDT, nuclear NDT, power plant outage inspection, condenser tube inspection, ASNT power generation, NRC qualified NDT"
                 canonical="https://atlantisndt.com/ndt-for-power-generation"
                 structuredData={structuredData}
             />
@@ -172,12 +187,34 @@ export default function NDTForPowerGeneration() {
                 </div>
             </section>
 
+            {/* FAQ Section */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-4xl px-6">
+                    <h2 className="text-3xl font-bold mb-8 text-center" style={{ color: "#004aad" }}>Power Generation NDT — Frequently Asked Questions</h2>
+                    <div className="space-y-4">
+                        {powerFaqs.map((faq, i) => (
+                            <details key={i} className="border border-slate-200 rounded-xl overflow-hidden group">
+                                <summary className="p-5 font-semibold text-slate-800 cursor-pointer hover:bg-slate-50 list-none flex items-center justify-between">
+                                    {faq.question}
+                                    <span className="text-[#004aad] text-xl ml-4">+</span>
+                                </summary>
+                                <div className="px-5 pb-5 text-slate-600 leading-relaxed border-t border-slate-100">{faq.answer}</div>
+                            </details>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* CTA */}
             <section className="py-16 bg-gradient-to-r from-emerald-700 to-teal-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Need Power Plant NDT Services?</h2>
                     <p className="text-emerald-100 mb-8 text-lg">Contact our ASME qualified experts for outage support, training, or consulting.</p>
-                    <Link to="/contact" className="inline-block bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Quote</Link>
+                    <div className="flex flex-wrap gap-4 justify-center">
+                        <Link to="/contact" className="inline-block bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Quote</Link>
+                        <Link to="/ndt-for-oil-gas" className="inline-block border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">NDT for Oil &amp; Gas</Link>
+                        <Link to="/blog/eddy-current-testing" className="inline-block border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Eddy Current Testing Guide</Link>
+                    </div>
                 </div>
             </section>
 

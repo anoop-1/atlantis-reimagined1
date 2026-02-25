@@ -48,9 +48,9 @@ export default function NDTTrainingDubai() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training Dubai UAE | ASNT ISO 9712 Certification | Abu Dhabi | Atlantis"
-                description="NDT certification training in Dubai UAE. ASNT, ISO 9712, PCN courses. UT, RT, MT, PT, ET. Abu Dhabi, Sharjah, Online. Enroll now!"
-                keywords="NDT training Dubai, NDT certification UAE, ASNT training Dubai, ISO 9712 UAE, ultrasonic testing training Dubai, NDT courses Abu Dhabi"
+                title="NDT Training Dubai & UAE | ASNT ISO 9712 Certified | Abu Dhabi, Sharjah | Atlantis"
+                description="NDT training in Dubai & UAE: ASNT SNT-TC-1A, ISO 9712 & PCN certification for UT, RT, MT, PT, ET, VT — Level I, II & III. Abu Dhabi, Sharjah, online. Classes start monthly. 95% pass rate. Enrol today."
+                keywords="NDT training Dubai, NDT training UAE, NDT courses Dubai, ASNT training Dubai, ISO 9712 UAE, NDT certification Dubai, ndt training in uae, NDT Level II Dubai, NDT Level III UAE, ultrasonic testing training Dubai, eddy current training Dubai, NDT courses Abu Dhabi, NDT certification UAE, NDT training Sharjah, oil gas NDT training UAE"
                 canonical="https://atlantisndt.com/ndt-training-dubai"
                 structuredData={structuredData}
             />

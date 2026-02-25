@@ -121,9 +121,9 @@ export default function NDTConnect() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT Connect | Inspection Management Platform | Asset Tracking & Reporting | Atlantis NDT"
-            description="NDT Connect: All-in-one inspection management software. Track assets, manage NDT reports, ensure compliance. Used by 100+ companies. Request free demo today!"
-            keywords="NDT Connect, NDT software, inspection management, NDT reporting software, asset tracking, asset management software, NDT inspection platform, non-destructive testing software, quality management, compliance tracking"
+            title="NDT Connect — Inspection Management & NDT Reporting Software | Atlantis NDT"
+            description="NDT Connect: cloud-based NDT inspection management platform. Digital reports, asset tracking, compliance dashboards, digital twin integration. Trusted by oil & gas companies globally. Book a free demo."
+            keywords="NDT Connect, NTD Connect, NDT reporting software, NDT inspection software, NDT management platform, asset tracking NDT, inspection management system, digital NDT reports, oil gas inspection software, NDT Connect platform, non-destructive testing software, NDT data management, mro ndt solution"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/ndt-connect"
          />

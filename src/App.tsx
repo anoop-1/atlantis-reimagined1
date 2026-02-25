@@ -67,8 +67,11 @@ const UTvsRTComparison = lazy(() => import("./pages/ut-vs-rt-comparison"));
 // Certification Pages
 const API510Certification = lazy(() => import("./pages/api-510-certification"));
 const API570Certification = lazy(() => import("./pages/api-570-certification"));
+const API570Training = lazy(() => import("./pages/api-570-training"));
 const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
+// ECT Tube Inspection
+const EddyCurrentTubeInspection = lazy(() => import("./pages/eddy-current-tube-inspection"));
 // Programmatic SEO - Method + Location Pages
 const UTHouston = lazy(() => import("./pages/ultrasonic-testing-houston"));
 const UTDenver = lazy(() => import("./pages/ultrasonic-testing-denver"));
@@ -371,8 +374,11 @@ const App = () => (
                   {/* Certification Pages */}
                   <Route path="/api-510-certification" element={<LazyRoute Component={API510Certification} />} />
                   <Route path="/api-570-certification" element={<LazyRoute Component={API570Certification} />} />
+                  <Route path="/api-570-training" element={<LazyRoute Component={API570Training} />} />
                   <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
+                  {/* ECT Tube Inspection */}
+                  <Route path="/eddy-current-tube-inspection" element={<LazyRoute Component={EddyCurrentTubeInspection} />} />
                   {/* Programmatic SEO - Method + Location Pages */}
                   <Route path="/ultrasonic-testing-houston" element={<LazyRoute Component={UTHouston} />} />
                   <Route path="/ultrasonic-testing-denver" element={<LazyRoute Component={UTDenver} />} />

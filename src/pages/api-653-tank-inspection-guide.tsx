@@ -67,9 +67,9 @@ export default function API653TankInspectionGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Tank Inspection Guide 2026 | Storage Tank NDT | Inspection Intervals | Atlantis"
-                description="Complete API 653 storage tank inspection guide. Inspection intervals, NDT methods, corrosion assessment, repair criteria. Expert consulting available. Download checklist!"
-                keywords="API 653 inspection, tank inspection, storage tank NDT, API 653 certification, tank corrosion, above ground storage tank, API 653 training, tank inspection frequency"
+                title="API 653 Tank Inspection: Complete 2026 Guide | Intervals, NDT Methods & Certification"
+                description="API 653 explained: inspection intervals (5–20 yr RBI), NDT methods for floor/shell/roof, common defects, certified inspector requirements & repair criteria. Free consultation from Atlantis NDT Level III experts."
+                keywords="API 653, API 653 inspection, API 653 certification, API 653 certified tank inspector, above ground storage tank inspection, tank NDT, API 653 2026, storage tank inspection intervals, API 653 training, RBI tank inspection, API 653 standard, tank floor inspection, MFL scanning, API 653 requirements"
                 canonical="https://atlantisndt.com/blog/api-653-tank-inspection-guide"
                 structuredData={structuredData}
             />

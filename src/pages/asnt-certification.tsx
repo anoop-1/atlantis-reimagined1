@@ -35,9 +35,9 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT Certification Training | NDT Level I II III | SNT-TC-1A ACCP | Atlantis NDT"
-                description="ASNT NDT certification training for Level I, II, III. SNT-TC-1A and ACCP programs. UT, RT, MT, PT, ET, VT methods. 95% pass rate. Enroll now!"
-                keywords="ASNT certification, ASNT Level III, ASNT training, SNT-TC-1A, ACCP certification, NDT certification, NDT Level II, NDT Level III"
+                title="ASNT NDT Certification | Level I II III Training | SNT-TC-1A & ACCP | 95% Pass Rate"
+                description="ASNT NDT certification training (Level I, II & III) for UT, RT, MT, PT, ET, VT. SNT-TC-1A employer-based & ACCP portable certification. Globally recognised. 95% first-attempt pass rate. Enrol online or in Dubai, Houston, India."
+                keywords="ASNT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, ACCP certification, ASNT Level II, ASNT training, NDT Level III certification, ASNT consulting, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III, asnt level iii consulting"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}
             />

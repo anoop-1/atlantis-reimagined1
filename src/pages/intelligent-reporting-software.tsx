@@ -166,9 +166,9 @@ export default function IntelligentReportingSoftware() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Intelligent NDT Reporting Software | 3D Asset Visualization | Audit-Ready Compliance | Atlantis"
-                description="Intelligent NDT reporting software for asset integrity. 3D defect visualization, ASME/API compliance, full traceability. Eliminate audit failures. Request demo."
-                keywords="intelligent NDT reporting software, NDT inspection software, asset integrity software, NDT compliance software, inspection management system, 3D defect visualization, ASME Section V software, API inspection software"
+                title="NDT Reporting Software | Digital Inspection Reports, Digital Twins & API Compliance | Atlantis"
+                description="Best NDT reporting software for oil & gas: digital inspection reports with 3D asset visualisation, digital twin integration, ASME/API compliance, full audit trail. Replace PDF reports. Request a free demo."
+                keywords="NDT reporting software, NDT inspection software, best NDT reporting software, digital NDT reports, asset integrity software, NDT compliance software, inspection management system, 3D defect visualization, ASME API inspection software, oil gas NDT software, digital twin NDT, intelligent reporting software, MRO NDT solution, NDT data management"
                 canonical="https://atlantisndt.com/intelligent-reporting-software"
                 structuredData={structuredData}
             />

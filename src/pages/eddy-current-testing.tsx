@@ -2,416 +2,561 @@ import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CheckCircle, Zap, Shield, Clock, Target, Gauge } from "lucide-react";
+import { Link } from "react-router-dom";
+import { CheckCircle, Zap, Shield, Clock, Target, Gauge, ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
+
+const faqs = [
+  {
+    q: "What is Eddy Current Testing (ECT)?",
+    a: "Eddy Current Testing (ECT) is a non-destructive testing method that uses electromagnetic induction to detect surface and near-surface defects in electrically conductive materials. An alternating current passes through a coil, creating a magnetic field. When placed near a conductive material, this field induces 'eddy currents' in the material. Flaws like cracks, corrosion, or wall thinning disrupt these currents in measurable ways — allowing precise defect detection without cutting, drilling, or damaging the part.",
+  },
+  {
+    q: "What defects can Eddy Current Testing detect?",
+    a: "ECT detects: surface cracks and stress corrosion cracking, subsurface cracks (up to 6–8mm depth), pitting and wall thinning, corrosion under paint or coatings, conductivity and permeability variations, weld defects, heat treatment anomalies, and tube wall degradation. It is particularly powerful for detecting small surface-breaking defects that other methods might miss.",
+  },
+  {
+    q: "What materials can be tested with Eddy Current?",
+    a: "ECT works on any electrically conductive material: carbon steel, stainless steel, aluminum, copper, titanium, brass, bronze, nickel alloys, and other non-ferrous metals. It cannot be used on non-conductive materials like plastics, ceramics, or composites. Ferromagnetic materials (carbon steel) require specialized probes because their magnetic properties affect eddy current response.",
+  },
+  {
+    q: "What is Eddy Current Array (ECA)?",
+    a: "Eddy Current Array (ECA) uses multiple coils arranged in a single probe, allowing simultaneous scanning across a wider area. ECA dramatically increases inspection speed — covering a 50–100mm wide swath in one pass versus the 1–2mm of a standard probe. ECA is ideal for weld inspection, surface scanning, and corrosion mapping on large structures. It produces C-scan images similar to UT phased array.",
+  },
+  {
+    q: "What is Remote Field Eddy Current Testing (RFEC)?",
+    a: "Remote Field Eddy Current Testing (RFEC) is specifically designed for inspecting ferromagnetic tubes from the inside. Standard ECT struggles with the high magnetic permeability of steel pipes. RFEC uses a transmitter coil separated from the receiver by approximately two pipe diameters, allowing the field to travel through the tube wall — detecting both ID and OD defects at equal sensitivity. Widely used in carbon steel heat exchangers, boilers, and water/gas pipelines.",
+  },
+  {
+    q: "How is ECT used in heat exchanger inspection?",
+    a: "Heat exchanger tube inspection is one of the most common ECT applications. A probe passes through each tube, scanning the full length in seconds. ECT detects wall thinning, pitting, baffle wear, and cracking — quantifying defect depth as a percentage of wall loss. Copper, brass, titanium, and stainless steel tubes use standard ECT probes. Carbon steel tubes require RFEC or pulsed eddy current. A typical 1,000-tube bundle can be fully inspected in 2–3 days.",
+  },
+  {
+    q: "What is Pulsed Eddy Current (PEC) testing?",
+    a: "Pulsed Eddy Current (PEC) uses a stepped DC pulse rather than a sinusoidal AC signal, allowing detection at greater depths (up to 50mm) and through thick coatings, insulation, or fireproofing without removal. PEC is widely used for corrosion under insulation (CUI) assessment on pipes and vessels, providing wall thickness measurements without stripping insulation — saving significant time and cost in petrochemical plants.",
+  },
+  {
+    q: "How deep can Eddy Current Testing detect defects?",
+    a: "Detection depth depends on material conductivity, frequency, and probe design. As a rule of thumb, effective depth equals approximately 3 skin depths (δ). At typical frequencies: aluminum at 1kHz gives ~4mm depth; steel at 10kHz gives ~0.5mm. Standard ECT is optimized for surface and near-surface (0–6mm). Pulsed ECT extends to 50mm+ through insulation. Selecting the correct frequency is critical — lower frequencies penetrate deeper but have lower sensitivity to small surface defects.",
+  },
+  {
+    q: "What certifications are required for Eddy Current Testing?",
+    a: "ECT technicians are certified to ASNT SNT-TC-1A (USA standard), ASNT CP-189, ISO 9712 (international), or PCN (UK/Europe). Three levels exist: Level I (performs tests under supervision), Level II (interprets results, writes procedures), Level III (highest level — certifies others, approves procedures, manages programs). Atlantis NDT offers Level I, II, and III ECT training and ASNT/ISO 9712 exam preparation.",
+  },
+  {
+    q: "How does ECT compare to Ultrasonic Testing (UT)?",
+    a: "ECT and UT complement each other. ECT advantages: no couplant needed, faster for tube inspection, excellent surface crack detection, can detect through coatings. UT advantages: greater depth penetration, works on non-conductive materials, better for subsurface volumetric defects. Typical practice in refineries and power plants is to use ECT for tube inspection and surface defects, UT for vessel wall measurements and subsurface flaws. Many inspection programs use both methods together.",
+  },
+  {
+    q: "What is eddy current tube inspection in oil & gas?",
+    a: "In oil & gas, ECT tube inspection covers heat exchangers in refineries and petrochemical plants, shell-and-tube coolers, condenser and evaporator tubes, air-cooled heat exchangers (ACHE), and fired heater tubes. Critical applications include crude oil coolers, amine absorbers, overhead condensers, and boiler feedwater heaters. ECT quickly identifies tubes at risk of leaking process fluid into cooling water (or vice versa) — preventing unplanned shutdowns and environmental incidents.",
+  },
+  {
+    q: "What equipment is used in Eddy Current Testing?",
+    a: "ECT equipment includes: an eddy current instrument/flaw detector (portable or rack-mounted), specialized probes (encircling, internal bobbin, surface, array), calibration reference standards, and analysis software. Leading manufacturers include Zetec, Olympus, Eddyfi, and GE Inspection. Modern ECA systems include real-time C-scan imaging. For tube inspection, a semi-automated push-pull drive system feeds probes through tubes at controlled speeds (typically 0.3–1.0 m/s).",
+  },
+];
+
+const ectTypes = [
+  {
+    name: "Conventional ECT",
+    use: "Surface crack detection, tube inspection (non-ferrous)",
+    depth: "0–6mm",
+    speed: "Fast",
+    industries: "Aerospace, manufacturing, non-ferrous heat exchangers",
+  },
+  {
+    name: "Eddy Current Array (ECA)",
+    use: "Wide-area scanning, weld inspection, corrosion mapping",
+    depth: "0–6mm",
+    speed: "Very Fast",
+    industries: "Oil & gas, power, aerospace, shipbuilding",
+  },
+  {
+    name: "Remote Field ECT (RFEC)",
+    use: "Ferromagnetic tube inspection (ID/OD detection)",
+    depth: "Full wall",
+    speed: "Moderate",
+    industries: "Carbon steel heat exchangers, boilers, water pipes",
+  },
+  {
+    name: "Pulsed Eddy Current (PEC)",
+    use: "CUI screening, inspection through insulation",
+    depth: "Up to 50mm",
+    speed: "Fast",
+    industries: "Petrochemical, refinery, LNG, power generation",
+  },
+  {
+    name: "Near-Field ECT (NFET)",
+    use: "Fin-fan tube inspection, small diameter tubes",
+    depth: "Near-surface",
+    speed: "Fast",
+    industries: "Air-cooled heat exchangers, HVAC",
+  },
+];
+
+const applications = [
+  {
+    title: "Heat Exchanger Tube Inspection",
+    detail: "Full-length scanning of copper, brass, titanium, stainless, and carbon steel tubes. Quantifies wall loss %, identifies baffle wear, erosion, and pitting. Essential for API 510 and ASME PCC-2 compliance.",
+    link: "/eddy-current-testing-houston",
+  },
+  {
+    title: "Aerospace Component Inspection",
+    detail: "Detection of fatigue cracks in turbine blades, engine frames, wing spars, fuselage skin, and landing gear. ECT meets FAA/EASA requirements for aircraft MRO. Also used for bolt-hole inspection using rotating probes.",
+    link: "/ndt-for-aerospace",
+  },
+  {
+    title: "Corrosion Under Insulation (CUI)",
+    detail: "Pulsed ECT screens insulated pipework and vessels for external corrosion without removing insulation — reducing inspection cost by 60-80% versus strip-and-inspect. Critical for RBI programs in refineries and chemical plants.",
+    link: "/ndt-for-oil-gas",
+  },
+  {
+    title: "Weld Inspection",
+    detail: "Eddy Current Array maps weld toes, cap, and HAZ for surface-breaking cracks and lack of fusion in one scan pass. Supplements TOFD and phased array UT for comprehensive weld quality assessment.",
+    link: "/ultrasonic-testing",
+  },
+  {
+    title: "Railway & Rail Infrastructure",
+    detail: "High-speed scanning of rail heads, wheels, axles, and brake discs for fatigue cracks. Automated ECT arrays operate at track speed for in-service inspection without rail removal.",
+    link: "/ndt-methods",
+  },
+  {
+    title: "Power Generation",
+    detail: "Boiler tube inspection, steam generator tube testing in nuclear plants, turbine component assessment, and generator end-ring inspection. ECT is a core tool during planned outages and shutdown inspections.",
+    link: "/ndt-for-power-generation",
+  },
+];
+
+function FAQItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border border-slate-200 rounded-xl overflow-hidden">
+      <button
+        className="w-full flex items-center justify-between p-5 text-left font-semibold text-slate-800 bg-white hover:bg-slate-50 transition"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+      >
+        <span>{q}</span>
+        {open ? <ChevronUp className="w-5 h-5 text-[#004aad] flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#004aad] flex-shrink-0" />}
+      </button>
+      {open && (
+        <div className="px-5 pb-5 text-slate-600 leading-relaxed bg-white border-t border-slate-100">
+          {a}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function EddyCurrentTesting() {
-   // Article + FAQPage schema for better Google rich results
-   const structuredData = {
-      "@context": "https://schema.org",
-      "@graph": [
-         {
-            "@type": "Article",
-            "@id": "https://atlantisndt.com/blog/eddy-current-testing",
-            "headline": "Complete Guide to Eddy Current Testing (ECT) | How It Works, Applications & Benefits",
-            "description": "Learn how Eddy Current Testing detects surface and near-surface defects in conductive materials. Comprehensive guide covering aerospace, heat exchanger, and tubing inspection.",
-            "datePublished": "2025-10-10",
-            "dateModified": "2026-01-04",
-            "author": {
-               "@type": "Organization",
-               "name": "Atlantis NDT",
-               "url": "https://atlantisndt.com"
-            },
-            "publisher": {
-               "@type": "Organization",
-               "name": "Atlantis NDT",
-               "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://atlantisndt.com/favicon-96x96.jpg"
-               }
-            },
-            "mainEntityOfPage": {
-               "@type": "WebPage",
-               "@id": "https://atlantisndt.com/blog/eddy-current-testing"
-            },
-            "keywords": "eddy current testing, ECT, NDT inspection, heat exchanger inspection, aerospace NDT, tube inspection"
-         },
-         {
-            "@type": "FAQPage",
-            "mainEntity": [
-               {
-                  "@type": "Question",
-                  "name": "What is Eddy Current Testing?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "Eddy Current Testing (ECT) is a non-destructive testing method that uses electromagnetic induction to detect surface and near-surface defects in conductive materials like aluminum, copper, and steel."
-                  }
-               },
-               {
-                  "@type": "Question",
-                  "name": "What are the main applications of Eddy Current Testing?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "ECT is commonly used for heat exchanger tube inspection, aerospace component testing, detecting cracks in turbine blades, railway wheel inspection, and quality control in manufacturing."
-                  }
-               },
-               {
-                  "@type": "Question",
-                  "name": "What types of defects can Eddy Current Testing detect?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "ECT can detect surface cracks, corrosion, pitting, wall thinning, and conductivity variations. It is particularly effective for finding small surface-breaking defects."
-                  }
-               }
-            ]
-         }
-      ]
-   };
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://atlantisndt.com/blog/eddy-current-testing",
+        "headline": "Eddy Current Testing (ECT): Complete Guide 2026 — How It Works, Types, Applications & Certification",
+        "description": "Comprehensive guide to Eddy Current Testing: principles, ECT types (ECA, RFEC, PEC), heat exchanger inspection, aerospace, oil & gas applications, equipment, and ASNT/ISO 9712 certification.",
+        "datePublished": "2025-10-10",
+        "dateModified": "2026-02-25",
+        "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" },
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://atlantisndt.com/blog/eddy-current-testing" },
+        "keywords": "eddy current testing, ECT, eddy current inspection, eddy current NDT, eddy current array, remote field eddy current, pulsed eddy current, heat exchanger tube inspection, ECT certification, ASNT ECT, eddy current testing procedure",
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((f) => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a },
+        })),
+      },
+    ],
+  };
 
-   const advantages = [
-      {
-         icon: Zap,
-         title: "Rapid Detection",
-         description: "Fast and precise defect identification",
-      },
-      {
-         icon: Target,
-         title: "Non-Contact Method",
-         description: "No direct probe contact required",
-      },
-      {
-         icon: Gauge,
-         title: "High Sensitivity",
-         description: "Detects very small flaws",
-      },
-      {
-         icon: Shield,
-         title: "Versatile Application",
-         description: "Works with complex shapes and tubing",
-      },
-      {
-         icon: Clock,
-         title: "Minimal Downtime",
-         description: "Fast inspections reduce operational interruptions",
-      },
-   ];
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <Navigation />
 
-   const applications = [
-      {
-         title: "Heat Exchanger Inspection",
-         description: "Detects corrosion and cracks in piping systems",
-      },
-      {
-         title: "Aerospace",
-         description: "Evaluates turbine blades, fuselage, and landing gear",
-      },
-      {
-         title: "Railways",
-         description: "Inspects wheels and axles for surface cracks",
-      },
-      {
-         title: "Manufacturing",
-         description: "Ensures quality in conductive materials",
-      },
-      {
-         title: "Nuclear Industry",
-         description: "Checks critical components without halting operations",
-      },
-   ];
+      <SEOHead
+        title="Eddy Current Testing (ECT): Complete Guide 2026 | NDT Inspection, Types & Certification"
+        description="Expert guide to Eddy Current Testing: how ECT works, ECA, RFEC, Pulsed ECT, heat exchanger tube inspection, aerospace & oil gas applications. ASNT/ISO 9712 Level I–III training from Atlantis NDT."
+        keywords="eddy current testing, ECT inspection, eddy current inspection, eddy current NDT, eddy current array ECA, remote field eddy current RFEC, pulsed eddy current PEC, heat exchanger tube inspection, ECT training, ASNT eddy current certification, eddy current testing procedure, eddy current tube testing, eddy current system, ect ndt testing, eddy current non destructive testing, eddy current measurement, eddy current testing method, surface eddy current testing, eddy current examination, eddy current NDE, tube inspection NDT"
+        structuredData={structuredData}
+        canonical="https://atlantisndt.com/blog/eddy-current-testing"
+      />
+      <Breadcrumbs />
 
-   const bestPractices = [
-      "Ensure the surface is clean and free of debris",
-      "Calibrate equipment regularly to maintain accuracy",
-      "Use probes suitable for the material type and geometry",
-      "Combine with other NDT methods for comprehensive inspection",
-   ];
-
-   return (
-      <div className="min-h-screen bg-slate-50">
-         <Navigation />
-
-         <SEOHead
-            title="Eddy Current Testing (ECT) | Complete Guide 2026 | Heat Exchanger & Tube Inspection | Atlantis NDT"
-            description="Master Eddy Current Testing: heat exchanger inspection, aerospace, nuclear applications. Learn ECT principles, defect detection & equipment. Get Level II/III ECT training & ASNT consulting from Atlantis NDT."
-            keywords="eddy current testing, ECT inspection, eddy current inspection, eddy current ndt, heat exchanger testing, eddy current tube testing, ECT equipment, surface crack detection, aerospace NDT, electromagnetic testing, tube inspection, ECT training, Level II ECT, Level III ECT, eddy current system, condenser tube inspection"
-            structuredData={structuredData}
-            canonical="https://atlantisndt.com/blog/eddy-current-testing"
-         />
-         <Breadcrumbs />
-
-         {/* Hero Section */}
-         <section className="relative bg-white shadow-md">
-            <div className="container mx-auto max-w-6xl px-6 py-16 text-center">
-               <h1
-                  className="text-4xl md:text-5xl font-bold mb-4"
-                  style={{ color: "#004aad" }}
-               >
-                  Eddy Current Testing Explained
-               </h1>
-               <p className="text-slate-600 mb-4">October 10, 2025</p>
-               <p className="text-lg md:text-xl text-slate-700">
-                  A fast and precise Non-Destructive Testing method for
-                  detecting surface and near-surface defects in conductive
-                  materials.
-               </p>
+      {/* Hero */}
+      <section className="bg-[#004aad] text-white py-16">
+        <div className="container mx-auto max-w-6xl px-6">
+          <div className="max-w-3xl">
+            <p className="text-blue-200 text-sm font-medium mb-3 uppercase tracking-wider">NDT Method Guide · Updated February 2026</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
+              Eddy Current Testing (ECT): Complete Guide
+            </h1>
+            <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              Everything you need to know about ECT — from electromagnetic principles and probe types to heat exchanger inspection, aerospace NDT, and ASNT Level III certification.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/contact" className="bg-white text-[#004aad] font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                Get ECT Consulting
+              </Link>
+              <Link to="/training" className="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                ECT Training & Certification
+              </Link>
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         {/* Main Content + Sidebar */}
-         <section className="container mx-auto max-w-6xl px-6 py-16 grid md:grid-cols-3 gap-12">
-            {/* Blog Content */}
-            <article className="md:col-span-2 space-y-12">
-               {/* Introduction */}
-               <div className="bg-white rounded-2xl p-8 shadow border border-slate-100">
-                  <p className="text-lg text-slate-700 leading-relaxed">
-                     Eddy Current Testing (ECT) is a{" "}
-                     <span
-                        className="font-semibold"
-                        style={{ color: "#004aad" }}
-                     >
-                        Non-Destructive Testing (NDT)
-                     </span>{" "}
-                     technique that uses electromagnetic induction to identify
-                     surface and near-surface defects in conductive materials.
-                     It is widely used in{" "}
-                     <span className="font-semibold">
-                        aerospace, marine, nuclear, and oil & gas
-                     </span>
-                     , especially for inspecting heat exchangers, tubing, and
-                     critical components.
-                  </p>
-               </div>
-
-               {/* How It Works */}
-               <div className="bg-slate-100 rounded-2xl p-8 shadow border border-slate-200">
-                  <h2
-                     className="text-2xl md:text-3xl font-bold mb-4"
-                     style={{ color: "#004aad" }}
-                  >
-                     How Eddy Current Testing Works
-                  </h2>
-                  <p className="text-lg text-slate-700 leading-relaxed">
-                     ECT operates by inducing an{" "}
-                     <span
-                        className="font-semibold"
-                        style={{ color: "#004aad" }}
-                     >
-                        alternating current
-                     </span>{" "}
-                     in a coil inside a probe. When brought near a conductive
-                     material,{" "}
-                     <span
-                        className="font-semibold"
-                        style={{ color: "#004aad" }}
-                     >
-                        eddy currents
-                     </span>{" "}
-                     are generated. Irregularities like cracks or corrosion
-                     alter these currents, allowing precise detection{" "}
-                     <span className="font-semibold">
-                        without damaging the part
-                     </span>
-                     .
-                  </p>
-               </div>
-
-               {/* Advantages */}
-               <div>
-                  <h2
-                     className="text-2xl md:text-3xl font-bold mb-6"
-                     style={{ color: "#004aad" }}
-                  >
-                     Key Advantages
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-6">
-                     {advantages.map((adv, idx) => {
-                        const Icon = adv.icon;
-                        return (
-                           <div
-                              key={idx}
-                              className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:shadow-lg transition"
-                           >
-                              <div className="w-12 h-12 bg-[#004aad] rounded-lg flex items-center justify-center mb-3">
-                                 <Icon className="w-6 h-6 text-white" />
-                              </div>
-                              <h3
-                                 className="text-lg font-semibold mb-2"
-                                 style={{ color: "#004aad" }}
-                              >
-                                 {adv.title}
-                              </h3>
-                              <p className="text-slate-600">
-                                 {adv.description}
-                              </p>
-                           </div>
-                        );
-                     })}
-                  </div>
-               </div>
-
-               {/* Applications */}
-               <div>
-                  <h2
-                     className="text-2xl md:text-3xl font-bold mb-4"
-                     style={{ color: "#004aad" }}
-                  >
-                     Applications
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-6">
-                     {applications.map((app, idx) => (
-                        <div
-                           key={idx}
-                           className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:border-[#004aad] transition"
-                        >
-                           <h3
-                              className="text-xl font-semibold mb-2"
-                              style={{ color: "#004aad" }}
-                           >
-                              {app.title}
-                           </h3>
-                           <p className="text-slate-600">{app.description}</p>
-                        </div>
-                     ))}
-                  </div>
-               </div>
-
-               {/* Best Practices */}
-               <div className="bg-white rounded-2xl p-8 shadow border border-slate-100">
-                  <h2
-                     className="text-2xl md:text-3xl font-bold mb-4"
-                     style={{ color: "#004aad" }}
-                  >
-                     Best Practices
-                  </h2>
-                  <ul className="space-y-3">
-                     {bestPractices.map((bp, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                           <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
-                           <span className="text-slate-700 text-lg">{bp}</span>
-                        </li>
-                     ))}
-                  </ul>
-               </div>
-
-               {/* Why Atlantis NDT */}
-               <div className="bg-[#004aad] rounded-2xl p-8 shadow text-white">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                     Why Choose Atlantis NDT
-                  </h2>
-                  <p className="text-lg leading-relaxed mb-3">
-                     At <span className="font-semibold">Atlantis NDT</span>, our
-                     certified professionals deliver reliable inspections,
-                     ensuring integrity and longevity of your assets. With over
-                     50 NDT specialists, we provide tailored solutions for oil &
-                     gas, aerospace, marine, and nuclear.
-                  </p>
-                  <p className="text-lg leading-relaxed">
-                     Using state-of-the-art equipment and international
-                     standards, we help you{" "}
-                     <span className="font-semibold">
-                        prevent failures, minimize downtime, and maintain
-                        compliance
-                     </span>
-                     .
-                  </p>
-               </div>
-            </article>
-
-            {/* Sidebar */}
-            <aside className="hidden md:block md:col-span-1 space-y-6">
-               <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
-                  <h3
-                     className="text-xl font-semibold mb-4"
-                     style={{ color: "#004aad" }}
-                  >
-                     Quick Links
-                  </h3>
-                  <ul className="space-y-3 text-slate-700">
-                     <li>
-                        <a
-                           href="#how-it-works"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           How It Works
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#advantages"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Advantages
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#applications"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Applications
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#best-practices"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Best Practices
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#why-atlantis"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Why Atlantis NDT
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-               <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
-                  <h3
-                     className="text-xl font-semibold mb-4"
-                     style={{ color: "#004aad" }}
-                  >
-                     Need Consultation?
-                  </h3>
-                  <p className="text-slate-700 mb-4">
-                     Contact our NDT experts for a free consultation and
-                     inspection quote.
-                  </p>
-                  <a
-                     href="/contact"
-                     className="inline-block bg-[#004aad] hover:bg-[#003580] text-white px-4 py-2 rounded transition"
-                  >
-                     Contact Us
-                  </a>
-               </div>
-               <div className="bg-amber-50 p-6 rounded-xl shadow border border-amber-200">
-                  <h3 className="text-xl font-semibold mb-4 text-amber-700">
-                     Related Services
-                  </h3>
-                  <ul className="space-y-3 text-slate-700">
-                     <li>
-                        <a href="/training" className="hover:text-amber-700 transition font-medium">
-                           → ET Training & Certification
-                        </a>
-                     </li>
-                     <li>
-                        <a href="/consulting" className="hover:text-amber-700 transition font-medium">
-                           → Level III ET Consulting
-                        </a>
-                     </li>
-                     <li>
-                        <a href="/ndt-methods" className="hover:text-amber-700 transition font-medium">
-                           → All NDT Methods
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </aside>
-         </section>
-
-         <ContactDetails />
+      {/* Quick Nav */}
+      <div className="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+        <div className="container mx-auto max-w-6xl px-6 overflow-x-auto">
+          <nav className="flex gap-6 text-sm font-medium text-slate-600 py-3 whitespace-nowrap">
+            {["How It Works", "Types of ECT", "Applications", "Equipment", "Procedures", "Certification", "FAQ"].map((s) => (
+              <a key={s} href={`#${s.toLowerCase().replace(/ /g, "-")}`} className="hover:text-[#004aad] transition py-1">
+                {s}
+              </a>
+            ))}
+          </nav>
+        </div>
       </div>
-   );
+
+      <div className="container mx-auto max-w-6xl px-6 py-12 grid md:grid-cols-3 gap-12">
+        {/* Main Content */}
+        <article className="md:col-span-2 space-y-14">
+
+          {/* Intro */}
+          <section>
+            <h2 id="how-it-works" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              What Is Eddy Current Testing and How Does It Work?
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              <strong>Eddy Current Testing (ECT)</strong> is a non-destructive testing (NDT) method that exploits the principles of electromagnetic induction to detect surface and near-surface defects in electrically conductive materials — without any physical contact with the material and with no need for couplants, chemicals, or radiation.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              The physics is elegant: an alternating current flows through a coil inside the probe, generating an alternating magnetic field. When this field is brought close to a conductive metal, it induces circular "eddy currents" within the material — named for their resemblance to eddies in flowing water. These currents produce their own opposing magnetic field, which the probe's coil detects as a change in impedance.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              When a defect — a crack, pit, area of wall thinning, or conductivity change — lies in the path of the eddy currents, it disrupts the current flow. The probe registers this disruption as a characteristic signal on the eddy current instrument's impedance plane display. A skilled Level II or III technician interprets these signals to identify defect type, location, and severity.
+            </p>
+            <div className="bg-blue-50 border-l-4 border-[#004aad] rounded-r-xl p-6">
+              <h3 className="font-bold text-[#004aad] mb-2">Key ECT Physical Principles</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Skin effect:</strong> Eddy currents are concentrated near the surface. Depth of penetration (skin depth δ) decreases as frequency increases. Higher frequency = better surface sensitivity; lower frequency = deeper penetration.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Frequency selection:</strong> Inspect at 1×, 3×, and 5× skin depths for optimal defect characterization. For aluminium at 1kHz: ~4mm effective depth. For carbon steel at 10kHz: ~0.5mm.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Lift-off effect:</strong> Varying the probe-to-surface distance changes impedance. Modern instruments suppress lift-off signals electronically, isolating defect responses.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Phase analysis:</strong> Each defect type (surface crack, subsurface void, wall thinning) produces a characteristic phase angle and amplitude on the impedance plane, enabling experienced technicians to classify defects reliably.</span></li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Types of ECT */}
+          <section>
+            <h2 id="types-of-ect" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              Types of Eddy Current Testing
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+              Not all eddy current inspection is the same. Different variants have been developed for specific applications, materials, and geometric constraints. Selecting the right ECT method is critical to inspection quality and efficiency.
+            </p>
+
+            <div className="overflow-x-auto rounded-xl border border-slate-200 shadow mb-8">
+              <table className="w-full text-sm">
+                <thead className="bg-[#004aad] text-white">
+                  <tr>
+                    <th className="text-left p-4 font-semibold">ECT Type</th>
+                    <th className="text-left p-4 font-semibold">Primary Use</th>
+                    <th className="text-left p-4 font-semibold">Depth</th>
+                    <th className="text-left p-4 font-semibold">Industries</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ectTypes.map((r, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                      <td className="p-4 font-semibold text-[#004aad]">{r.name}</td>
+                      <td className="p-4 text-slate-700">{r.use}</td>
+                      <td className="p-4 text-slate-700">{r.depth}</td>
+                      <td className="p-4 text-slate-600">{r.industries}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-xl p-6 shadow border border-slate-100">
+                <h3 className="text-xl font-bold mb-3" style={{ color: "#004aad" }}>Eddy Current Array (ECA)</h3>
+                <p className="text-slate-700 leading-relaxed">
+                  Eddy Current Array technology deploys multiple coil pairs in a single multi-channel probe, scanning a wide swath simultaneously. Where a standard bobbin probe scans a 1–2mm path, an ECA probe covers 50–100mm in a single pass. The result is C-scan imaging similar to phased array UT — giving inspectors a plan-view map of the entire inspected surface. ECA is particularly powerful for weld inspection (mapping crack indications along the full weld toe), surface corrosion mapping, and complex geometries like turbine blade roots and bolt holes. Inspection speed improves by 5–10× compared to conventional ECT.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow border border-slate-100">
+                <h3 className="text-xl font-bold mb-3" style={{ color: "#004aad" }}>Remote Field Eddy Current Testing (RFEC)</h3>
+                <p className="text-slate-700 leading-relaxed">
+                  Standard ECT fails on ferromagnetic steel tubes because the high magnetic permeability overwhelms the eddy current signal. RFEC solves this: the transmitter coil is placed at a distance of approximately two tube diameters from the receiver. This forces the excitation field to travel radially outward through the tube wall, propagate along the outside, and re-enter through the wall to reach the receiver. This "remote field" path gives equal sensitivity to internal diameter (ID) and outside diameter (OD) defects — and is immune to permeability variations. RFEC is the preferred method for carbon steel heat exchanger tubes, boiler tubes, and buried water/gas pipelines.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow border border-slate-100">
+                <h3 className="text-xl font-bold mb-3" style={{ color: "#004aad" }}>Pulsed Eddy Current (PEC)</h3>
+                <p className="text-slate-700 leading-relaxed">
+                  Pulsed Eddy Current uses a stepped DC pulse rather than a continuous AC signal. The transient response after each pulse contains information at many frequencies simultaneously — giving multi-depth penetration in one measurement. Most importantly, PEC penetrates through thick insulation (mineral wool, foam, fibreglass), fireproofing, and coatings without removing them. A PEC operator can measure pipe or vessel wall thickness through 150–200mm of insulation, identifying corrosion under insulation (CUI) hotspots that would otherwise require costly strip-out. PEC is now standard practice in petrochemical plants, LNG facilities, and refineries for risk-based CUI assessment programs.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Applications */}
+          <section>
+            <h2 id="applications" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              Eddy Current Testing Applications by Industry
+            </h2>
+            <div className="grid md:grid-cols-2 gap-5">
+              {applications.map((app, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:border-[#004aad] transition">
+                  <h3 className="text-lg font-bold mb-2" style={{ color: "#004aad" }}>{app.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-3">{app.detail}</p>
+                  <Link to={app.link} className="text-[#004aad] text-sm font-medium hover:underline">
+                    Learn more →
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Heat Exchanger Deep Dive */}
+          <section className="bg-slate-100 rounded-2xl p-8 border border-slate-200">
+            <h2 className="text-2xl font-bold mb-4" style={{ color: "#004aad" }}>
+              Deep Dive: Heat Exchanger Tube Inspection with ECT
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-4">
+              Heat exchanger tube inspection is the most high-volume ECT application in the oil & gas and power industries. During planned shutdowns, inspectors use semi-automated probe drive systems to scan hundreds or thousands of tubes — each tube scanned in 10–30 seconds depending on length and drive speed.
+            </p>
+            <h3 className="font-bold text-[#004aad] mb-3">ECT Tube Inspection Workflow</h3>
+            <ol className="space-y-3 text-slate-700">
+              {[
+                "Tube preparation — clean tubes with brush/hydroblast if heavily fouled",
+                "System calibration — pass probe through reference standard with known defects (flat-bottom holes, grooves) at inspection frequency",
+                "Probe selection — bobbin probes for straight tubes; flexible probes for U-bends; RFEC probes for carbon steel",
+                "Data acquisition — probe inserted via pneumatic/electric push-pull drive at 0.3–0.8 m/s, recording impedance plane trace for full tube length",
+                "Data analysis — trained Level II technician reviews traces; flags anomalies for phase angle, amplitude, and location",
+                "Reporting — each tube assigned a condition code (Clean, Significant Indication, Plugging Recommended) with defect depth as % wall loss",
+                "Re-inspection — all flagged tubes verified; tube plugging or retubing recommended where wall loss exceeds typically 40–80% (per owner's fitness-for-service criteria)",
+              ].map((step, i) => (
+                <li key={i} className="flex gap-3">
+                  <span className="w-7 h-7 bg-[#004aad] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">{i + 1}</span>
+                  <span>{step}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+
+          {/* Equipment */}
+          <section>
+            <h2 id="equipment" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              Eddy Current Testing Equipment
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-6">
+              Modern ECT systems range from handheld single-channel flaw detectors to multi-channel ECA systems with real-time C-scan displays. Selecting the right equipment depends on application, throughput requirements, and data management needs.
+            </p>
+            <div className="grid md:grid-cols-2 gap-5">
+              {[
+                { title: "ECT Instruments / Flaw Detectors", detail: "Portable units (e.g., Olympus NORTEC 600, Zetec MIZ-200) for surface crack detection and tube inspection. Bench-top multi-channel systems (Zetec TurboView, Eddyfi Ectane) for high-throughput tube inspection with full waveform recording." },
+                { title: "Probes", detail: "Absolute probes, differential probes, driver-pickup configurations. Surface probes (shielded, unshielded, rotating). Bobbin probes for tube inspection. Encircling probes for bar, wire, and rod inspection. ECA probes with 16–128 channels for wide-area scanning." },
+                { title: "Reference Standards", detail: "Calibration tubes with notches, flat-bottom holes, and through-holes machined to ASME/ASTM specifications. Surface blocks with EDM notches and blind-drilled holes. Used to calibrate instrument sensitivity and establish inspection acceptance criteria." },
+                { title: "Analysis Software", detail: "Eddyfi Magnifi, Zetec RAVEL, Olympus TomoView, Sharpe ECT. Multi-channel displays, impedance plane analysis, strip chart review, tube mapping, and automated defect flagging. ECA software adds C-scan imaging, merged aperture analysis." },
+              ].map((eq, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-100">
+                  <h3 className="font-bold text-[#004aad] mb-2">{eq.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed">{eq.detail}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Procedures */}
+          <section>
+            <h2 id="procedures" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              Eddy Current Testing Procedures & Standards
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              ECT must be performed to a written procedure that specifies instrument settings, probe type, scanning pattern, calibration method, and acceptance criteria. The procedure is prepared and approved by a Level III, then reviewed by the asset owner's engineering team.
+            </p>
+            <div className="grid md:grid-cols-2 gap-5">
+              {[
+                { std: "ASME Sec V Article 8", scope: "ECT general requirements for pressure vessel and piping inspection" },
+                { std: "ASTM E309", scope: "ECT of steel tubular products using magnetic saturation" },
+                { std: "ASTM E426", scope: "ECT of seamless and welded tubular products" },
+                { std: "ASTM E566", scope: "Electromagnetic (eddy-current) examination of ferromagnetic steel cylindrical bar product" },
+                { std: "API RP 2A-WSD", scope: "ECT of offshore structural welds and tubular connections" },
+                { std: "ISO 15549", scope: "ECT of metallic products — general principles" },
+                { std: "ASTM E2096", scope: "ECA for weld and surface inspection" },
+                { std: "EPRI / INPO", scope: "Nuclear steam generator tube inspection guidelines" },
+              ].map((s, i) => (
+                <div key={i} className="flex gap-3 bg-white rounded-xl p-4 shadow border border-slate-100">
+                  <div className="w-2 h-full bg-[#004aad] rounded-full flex-shrink-0 min-h-[40px]" />
+                  <div>
+                    <p className="font-semibold text-[#004aad]">{s.std}</p>
+                    <p className="text-slate-600 text-sm">{s.scope}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Certification */}
+          <section className="bg-white rounded-2xl p-8 shadow border border-slate-100">
+            <h2 id="certification" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              Eddy Current Testing Certification: ASNT & ISO 9712
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              ECT certification verifies that technicians have the theoretical knowledge, practical experience, and examination competency to perform and interpret eddy current inspections correctly. Most industries require certified personnel for code-required inspections.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              {[
+                { level: "Level I", desc: "Performs ECT under supervision. Sets up equipment per procedure. Records data. Cannot independently interpret results.", hours: "40+ training hours, 400+ field hours" },
+                { level: "Level II", desc: "Independently performs and interprets ECT. Writes procedures. Trains Level I personnel. Signs inspection reports.", hours: "80+ training hours, 1,600+ field hours" },
+                { level: "Level III", desc: "Certifies personnel, approves procedures, manages NDT programs. Serves as authority for ECT for the employer.", hours: "Degree or experience + written exams" },
+              ].map((l, i) => (
+                <div key={i} className="bg-blue-50 rounded-xl p-5 border border-blue-100">
+                  <div className="text-[#004aad] font-bold text-lg mb-2">{l.level}</div>
+                  <p className="text-slate-700 text-sm mb-3">{l.desc}</p>
+                  <p className="text-slate-500 text-xs">{l.hours}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-slate-700 mb-4">
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 ECT training at Level I, II, and III globally — including Dubai, Houston, India, Singapore, and online formats. Our 95% first-attempt exam pass rate reflects rigorous classroom and hands-on training using real inspection equipment.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">
+                View ECT Training Courses
+              </Link>
+              <Link to="/consulting" className="border border-[#004aad] text-[#004aad] px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                Level III ECT Consulting
+              </Link>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section>
+            <h2 id="faq" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              Eddy Current Testing — Frequently Asked Questions
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((f, i) => (
+                <FAQItem key={i} q={f.q} a={f.a} />
+              ))}
+            </div>
+          </section>
+
+          {/* CTA */}
+          <section className="bg-[#004aad] rounded-2xl p-8 text-white">
+            <h2 className="text-2xl font-bold mb-3">Ready to Start ECT Inspection or Training?</h2>
+            <p className="text-blue-100 mb-6 leading-relaxed">
+              Atlantis NDT provides ASNT-certified Eddy Current Testing services, Level I–III training, and Level III consulting across the USA, Middle East, India, Asia-Pacific, and Europe. Contact our team for a scope of work and quote.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/contact" className="bg-white text-[#004aad] font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                Get a Quote
+              </Link>
+              <Link to="/ndt-training-dubai" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                ECT Training — Dubai
+              </Link>
+              <Link to="/eddy-current-testing-houston" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                ECT Services — Houston
+              </Link>
+            </div>
+          </section>
+
+        </article>
+
+        {/* Sidebar */}
+        <aside className="hidden md:block md:col-span-1 space-y-6 mt-2">
+          <div className="bg-white p-6 rounded-xl shadow border border-slate-100 sticky top-16">
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#004aad" }}>On This Page</h3>
+            <ul className="space-y-2 text-sm text-slate-600">
+              {[
+                ["#how-it-works", "How ECT Works"],
+                ["#types-of-ect", "Types of ECT"],
+                ["#applications", "Applications"],
+                ["#equipment", "Equipment"],
+                ["#procedures", "Standards & Procedures"],
+                ["#certification", "ASNT / ISO 9712 Certification"],
+                ["#faq", "FAQ (12 questions)"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <a href={href} className="hover:text-[#004aad] transition flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-[#004aad] rounded-full flex-shrink-0" />
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#004aad" }}>ECT Services By Location</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                ["/eddy-current-testing-houston", "Houston, TX"],
+                ["/eddy-current-testing-dubai", "Dubai, UAE"],
+                ["/eddy-current-testing-saudi-arabia", "Saudi Arabia"],
+                ["/eddy-current-testing-singapore", "Singapore"],
+                ["/eddy-current-testing-mumbai", "Mumbai, India"],
+                ["/eddy-current-testing-uk", "United Kingdom"],
+                ["/eddy-current-testing-kuwait", "Kuwait"],
+                ["/eddy-current-testing-norway", "Norway"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} className="text-[#004aad] hover:underline">
+                    → {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-amber-50 p-6 rounded-xl shadow border border-amber-200">
+            <h3 className="text-lg font-bold mb-3 text-amber-800">Related NDT Methods</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                ["/ultrasonic-testing", "Ultrasonic Testing (UT)"],
+                ["/radiographic-testing", "Radiographic Testing (RT)"],
+                ["/magnetic-particle-testing", "Magnetic Particle Testing (MT)"],
+                ["/penetrant-testing", "Liquid Penetrant Testing (PT)"],
+                ["/blog/ut-vs-rt-comparison", "UT vs RT Comparison"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} className="text-amber-800 hover:underline font-medium">
+                    → {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
+            <h3 className="text-lg font-bold mb-3">Need ECT Consultation?</h3>
+            <p className="text-blue-100 text-sm mb-4">
+              Our ASNT Level III engineers provide procedure development, personnel certification, and inspection program management.
+            </p>
+            <Link to="/contact" className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm">
+              Contact Our ECT Experts
+            </Link>
+          </div>
+        </aside>
+      </div>
+
+      <ContactDetails />
+    </div>
+  );
 }

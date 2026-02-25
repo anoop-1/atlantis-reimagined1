@@ -115,9 +115,9 @@ export default function ConsultingServicesUSA() {
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Consulting USA | ASNT Level III Aerospace & ASME Expert Services"
-                description="ASNT-certified NDT Level III consulting USA. Aerospace NDT, ASME/API compliance, phased array expertise. NAS410, Nadcap, FAA certified. Nationwide Level III services for oil gas, manufacturing, nuclear."
-                keywords="NDT consulting USA, ASNT Level III consulting, aerospace NDT services, ASME consulting, API inspection services, Nadcap consulting, NAS410 certification, phased array consulting, ultrasonic testing consulting, NDT Level III services USA"
+                title="NDT Level III Consulting USA | ASNT Certified | Procedure Writing & Program Management"
+                description="ASNT Level III NDT consulting across the USA: procedure writing, program development, personnel qualification, API/ASME/Nadcap compliance. Houston, Chicago, LA, nationwide. Same-week scheduling. Request a quote."
+                keywords="NDT Level III consulting USA, NDT consulting USA, ASNT Level III consulting, ndt level iii consulting, NDT Level III services, NDT procedure writing, ASNT consulting, API inspection consulting USA, ASME NDT consulting, Nadcap consulting, NDT program management, NAS410 consulting, NDT Level III Houston, aerospace NDT consulting, oil gas NDT Level III"
                 canonical="https://atlantisndt.com/consulting-usa"
                 structuredData={serviceSchema}
                 hreflangLinks={[

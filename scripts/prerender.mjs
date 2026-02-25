@@ -260,6 +260,20 @@ const corePages = [
     bodyText: 'API 570 piping inspector certification preparation. Comprehensive training and exam prep covering piping inspection fundamentals.',
   },
   {
+    path: '/api-570-training',
+    title: 'API 570 Training & Certification | Piping Inspector Exam Prep | Atlantis NDT',
+    description: 'API 570 Piping Inspector certification training: exam prep for open-book format, all required codes (ASME B31.3, API 571, 574, 578). Dubai, Houston & online. 95% pass rate.',
+    bodyH1: 'API 570 Piping Inspector Training',
+    bodyText: 'Comprehensive API 570 Piping Inspector certification training. Open-book exam preparation covering ASME B31.3, API 570, 571, 574, 578, and 580. Available in Dubai, Houston, India, and online.',
+  },
+  {
+    path: '/eddy-current-tube-inspection',
+    title: 'Eddy Current Tube Inspection | Heat Exchanger ECT & RFEC | Atlantis NDT',
+    description: 'Expert eddy current tube inspection: ECT for non-ferrous tubes, RFEC for carbon steel. Fast heat exchanger inspection with API 510 compliant reports. Get a quote from Atlantis NDT.',
+    bodyH1: 'Eddy Current Tube Inspection',
+    bodyText: 'Professional eddy current tube inspection services for heat exchangers, boilers, and condensers. ECT and RFEC methods. ASNT Level II certified technicians. API 510 compliant reporting.',
+  },
+  {
     path: '/api-653-certification',
     title: 'API 653 Certification | Above Ground Storage Tank Inspector | Atlantis NDT',
     description: 'API 653 above ground storage tank inspector certification training. Tank inspection techniques, code requirements, and exam preparation from expert NDT consultants.',
