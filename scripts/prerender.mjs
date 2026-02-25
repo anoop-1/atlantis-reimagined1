@@ -254,10 +254,10 @@ const corePages = [
   },
   {
     path: '/api-570-certification',
-    title: 'API 570 Certification | Piping Inspector Training | Atlantis NDT',
-    description: 'API 570 piping inspector certification training. Study preparation, exam practice, and piping inspection fundamentals from experienced NDT consultants.',
-    bodyH1: 'API 570 Certification',
-    bodyText: 'API 570 piping inspector certification preparation. Comprehensive training and exam prep covering piping inspection fundamentals.',
+    title: 'API 570 Certification Training | Piping Inspector Exam Prep 2026 | Atlantis NDT',
+    description: 'API 570 Piping Inspector certification training: open-book exam prep, ASME B31.3, API 571, remaining life calculations, RBI. Dubai, Houston, India & online. 95% pass rate.',
+    bodyH1: 'API 570 Certification Training',
+    bodyText: 'Comprehensive API 570 Piping Inspector certification exam preparation. Open-book format covering ASME B31.3, API 570/571/574/577, remaining life calculations, and RBI. Dubai, Houston, India, and online.',
   },
   {
     path: '/api-570-training',
@@ -275,10 +275,10 @@ const corePages = [
   },
   {
     path: '/api-653-certification',
-    title: 'API 653 Certification | Above Ground Storage Tank Inspector | Atlantis NDT',
-    description: 'API 653 above ground storage tank inspector certification training. Tank inspection techniques, code requirements, and exam preparation from expert NDT consultants.',
-    bodyH1: 'API 653 Certification',
-    bodyText: 'API 653 above ground storage tank inspector certification preparation covering tank inspection techniques and code requirements.',
+    title: 'API 653 Certification Training | Tank Inspector Exam Prep 2026 | Atlantis NDT',
+    description: 'API 653 Tank Inspector certification training: open-book exam prep, all 10 reference codes, inspection intervals, RBI. Dubai, Houston, India & online. 95% pass rate.',
+    bodyH1: 'API 653 Certification Training',
+    bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, RBI, tank inspection intervals, and NDT methods. 95% pass rate.',
   },
   {
     path: '/intelligent-reporting-software',
