@@ -303,38 +303,38 @@ const corePages = [
   },
   {
     path: '/ndt-training-online',
-    title: 'Online NDT Training | ASNT Certification Courses Online | Atlantis NDT',
-    description: 'Online NDT training courses for ASNT Level I, II & III certification. Learn UT, MT, PT, RT, ET, VT from anywhere. Self-paced and instructor-led options. 95% pass rate.',
+    title: 'Online NDT Training | ASNT Level I II III Virtual Courses | Atlantis NDT',
+    description: 'Online NDT training for ASNT SNT-TC-1A Level I, II, III certification. UT, MT, PT, RT, ET, VT theory modules. Flexible schedule, instructor support. Enrol from anywhere.',
     bodyH1: 'Online NDT Training Courses',
-    bodyText: 'Online NDT training for ASNT certification. Level I, II, and III courses for UT, MT, PT, RT, ET, and VT methods. Self-paced and instructor-led options.',
+    bodyText: 'Online NDT training for ASNT SNT-TC-1A certification. Level I and II theory courses for UT, MT, PT, RT, ET, and VT methods. Live virtual and self-paced options. Practical component must be completed in-person.',
   },
   {
     path: '/ndt-training-usa',
-    title: 'NDT Training USA | ASNT Courses Houston & Nationwide | Atlantis NDT',
-    description: 'NDT training courses across the USA. ASNT Level I, II, III certification in Houston and online. UT, MT, PT, RT, ET, VT methods. 95% pass rate guaranteed.',
+    title: 'NDT Training USA | ASNT Certification Houston | SNT-TC-1A & CP-189 | Atlantis NDT',
+    description: 'NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95% pass rate.',
     bodyH1: 'NDT Training USA',
-    bodyText: 'Professional NDT training in the USA. ASNT certification courses in Houston and online, serving inspectors nationwide.',
+    bodyText: 'Professional NDT training in the USA. ASNT SNT-TC-1A and CP-189 certification courses in Houston, TX and online. Level I, II, and III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410 preparation available. 95% pass rate.',
   },
   {
     path: '/ndt-training-india',
-    title: 'NDT Training India | ASNT Courses Hyderabad & Mumbai | Atlantis NDT',
-    description: 'NDT training in India. ASNT Level I, II, III certification courses in Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT, MT, PT, RT, ET, VT. Online and classroom.',
+    title: 'NDT Training India | ASNT & ISNT Certification Hyderabad | Atlantis NDT',
+    description: 'NDT training in India: ASNT SNT-TC-1A and ISNT Level I, II, III courses in Hyderabad, Mumbai, Chennai, Delhi. UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol today.',
     bodyH1: 'NDT Training India',
-    bodyText: 'Professional NDT training across India. ASNT certification courses in Hyderabad, Mumbai, Chennai, Delhi, and Bangalore.',
+    bodyText: 'Professional NDT training across India. ASNT SNT-TC-1A and ISNT Level I, II, and III certification courses in Hyderabad (main center), Mumbai, Chennai, Delhi NCR, and Bangalore. UT, MT, PT, RT, ET, VT. Online options available. 95% pass rate.',
   },
   {
     path: '/ndt-training-dubai',
-    title: 'NDT Training Dubai & UAE | ASNT ISO 9712 Level I II III | Monthly Classes | Atlantis NDT',
-    description: 'NDT training in Dubai, Abu Dhabi & UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification. UT, MT, PT, RT, ET, VT. ndt training in uae — classes start monthly.',
+    title: 'NDT Training Dubai UAE | ASNT & ISO 9712 Certification Courses | Atlantis NDT',
+    description: 'ASNT SNT-TC-1A and ISO 9712 NDT training in Dubai UAE. Level I, II, III for UT, MT, PT, RT, ET, VT. CSWIP preparation. Tax-free career in UAE oil & gas. Enrol with Atlantis NDT.',
     bodyH1: 'NDT Training Dubai & UAE',
-    bodyText: 'Professional NDT training in Dubai, Abu Dhabi, and across UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for oil & gas industry professionals. Monthly class starts.',
+    bodyText: 'Professional NDT training in Dubai, Abu Dhabi, and across UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for oil & gas industry professionals. CSWIP preparation available. ADNOC and Aramco contractor recognised. Tax-free career in UAE. Monthly class starts.',
   },
   {
     path: '/ndt-training-saudi-arabia',
-    title: 'NDT Training Saudi Arabia | ASNT Certification Riyadh Jeddah | Atlantis NDT',
-    description: 'NDT training in Saudi Arabia. ASNT Level I, II, III certification courses for Saudi Aramco, SABIC and petrochem sector. Riyadh, Jeddah, Dammam, Jubail locations.',
+    title: 'NDT Training Saudi Arabia | ARAMCO SAEP-1112 Compliant | Atlantis NDT',
+    description: 'ASNT and ARAMCO-compliant NDT training in Saudi Arabia. SNT-TC-1A Level I, II, III for UT, MT, PT, RT, ET. SAEP-1112 compliant procedures. Vision 2030 project ready.',
     bodyH1: 'NDT Training Saudi Arabia',
-    bodyText: 'Professional NDT training in Saudi Arabia. ASNT certification for oil & gas and petrochemical industry professionals.',
+    bodyText: 'Professional NDT training in Saudi Arabia. ASNT SNT-TC-1A and SAEP-1112 compliant certification for oil & gas and petrochemical industry professionals. Saudi Aramco and SABIC recognised. Dammam, Riyadh, Jubail, and on-site training available.',
   },
   {
     path: '/ndt-training-hyderabad',
@@ -538,6 +538,24 @@ routes.push({
   bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Visual Testing (VT) | Direct &amp; Remote Visual Inspection | ASME V Art 9</h1>\n    <p>Complete guide to visual testing (VT): direct visual examination, remote visual inspection (RVI), rigid borescope inspection, flexible videoscope inspection, and drone/UAV NDT. ASME Section V Article 9, AWS D1.1 weld visual acceptance criteria. ASNT Level I–III VT training, AWS CWI preparation, and Level III VT consulting from Atlantis NDT.</p>\n  </main>`,
 });
 
+// ── Phased Array UT pillar page ──────────────────────────────────────────
+routes.push({
+  path: '/phased-array-ut',
+  title: 'Phased Array UT (PAUT) | S-Scan Weld Inspection | ASME V App IV | Atlantis NDT',
+  description: 'Complete guide to phased array ultrasonic testing (PAUT): S-scan, TFM, ASME V Appendix IV, AWS D1.1 Annex K. PAUT vs conventional UT. Level II PAUT training and Level III consulting.',
+  canonical: `${SITE_URL}/phased-array-ut`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Phased Array Ultrasonic Testing (PAUT) | Advanced Weld &amp; Component Inspection | Atlantis NDT</h1>\n    <p>Complete guide to phased array ultrasonic testing (PAUT): S-scan beam steering, multi-angle weld inspection, TFM (Total Focusing Method), ASME V Appendix IV compliance, PAUT vs conventional UT comparison, and Level I–III PAUT training from Atlantis NDT.</p>\n  </main>`,
+});
+
+// ── TOFD Testing pillar page ─────────────────────────────────────────────
+routes.push({
+  path: '/tofd-testing',
+  title: 'TOFD Testing | Time of Flight Diffraction | ASME V App III | Weld Inspection | Atlantis NDT',
+  description: 'Complete guide to TOFD testing: time of flight diffraction for weld volumetric inspection. ASME V Appendix III, EN ISO 10863. TOFD vs PAUT vs RT comparison. Specialist training available.',
+  canonical: `${SITE_URL}/tofd-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>TOFD Testing | Time of Flight Diffraction | Weld Volumetric Inspection | Atlantis NDT</h1>\n    <p>Complete guide to TOFD testing (time of flight diffraction): diffraction physics, D-scan interpretation, lateral wave and back wall reference signals, dead zone, ASME V Article 4 Mandatory Appendix III, EN ISO 10863, BS 7706. TOFD vs PAUT vs radiographic testing comparison. Specialist TOFD training and ASME Appendix III procedure development from Atlantis NDT.</p>\n  </main>`,
+});
+
 // ── Additional standalone pages ──────────────────────────────────────────
 const extraPages = [
   { path: '/digital-twins-ndt-guide', title: 'Digital Twins for NDT | Complete Guide | Atlantis NDT', description: 'Complete guide to digital twins in NDT. How digital twin technology transforms inspection, asset integrity, and maintenance in oil & gas, aerospace, and power generation.' },
@@ -557,6 +575,39 @@ extraPages.forEach(p => {
     description: p.description,
     canonical: `${SITE_URL}${p.path}`,
   });
+});
+
+// ── Advanced NDT Method Pages ─────────────────────────────────────────────
+routes.push({
+  path: '/guided-wave-testing',
+  title: 'Guided Wave Testing (GWT/LRUT) | Long-Range Pipe Screening | CUI Detection | Atlantis NDT',
+  description: 'Complete guide to guided wave testing: long-range ultrasonic pipe screening, CUI detection, buried pipe inspection. ASTM E2775, API 570. LRUT consulting from Atlantis NDT Level III experts.',
+  canonical: `${SITE_URL}/guided-wave-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/ultrasonic-testing">Ultrasonic Testing</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Guided Wave Testing (GWT/LRUT) | Long-Range Pipe Screening | CUI Detection</h1>\n    <p>Guided Wave Testing (GWT), also known as Long-Range Ultrasonic Testing (LRUT), screens hundreds of metres of pipe from a single test point. Ideal for CUI detection, buried pipeline assessment, and rack piping inspection. ASTM E2775, API 570 Appendix H compliant. ASNT Level III consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/corrosion-mapping',
+  title: 'Corrosion Mapping | UT Thickness Mapping & C-Scan | API 510/570/653 | Atlantis NDT',
+  description: 'Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, fitness for service assessment, remaining life calculations.',
+  canonical: `${SITE_URL}/corrosion-mapping`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/ultrasonic-testing">Ultrasonic Testing</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Corrosion Mapping | Ultrasonic Thickness Mapping &amp; C-Scan Inspection</h1>\n    <p>Quantify metal loss across large areas with PAUT C-scan, automated UT scanning, and manual thickness surveys. API 510/570/653 compliant reporting, fitness for service assessment per API 579, and remaining life calculations for pressure vessels, tanks, and pipelines. Atlantis NDT provides all corrosion mapping methods globally.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/digital-twin-reporting',
+  title: 'Digital Twin Reporting Software | 3D NDT Data Visualization | Atlantis NDT',
+  description: 'Create color-coded 3D digital twins from your NDT inspection data. Visualize corrosion, thickness loss, and defect distribution across vessels, pipelines, and tanks. API 579 fitness-for-service reporting.',
+  canonical: `${SITE_URL}/digital-twin-reporting`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/erp">NDT ERP</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Digital Twin Reporting Software | 3D NDT Data Visualization</h1>\n    <p>Transform raw NDT inspection data into interactive 3D color-coded digital twins. Enter asset dimensions and thickness measurements — the platform generates a live visual model showing green (acceptable), amber (monitor), orange (plan repair), and red (immediate action) zones. API 579, API 510/570/653, and ASME compliant reporting from Atlantis NDT.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/corrosion-under-insulation',
+  title: 'Corrosion Under Insulation (CUI) | Detection Methods & Inspection Programme | Atlantis NDT',
+  description: 'Expert guide to CUI detection: pulsed eddy current, guided wave testing, profile radiography, and infrared thermography. API RP 583 compliant CUI inspection programmes. Atlantis NDT Level III consulting.',
+  canonical: `${SITE_URL}/corrosion-under-insulation`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/guided-wave-testing">Guided Wave Testing</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Corrosion Under Insulation (CUI) | Detection Methods &amp; Inspection Programme</h1>\n    <p>Corrosion under insulation is one of the costliest damage mechanisms in the oil &amp; gas and petrochemical industries. This guide covers CUI risk factors, the five proven detection technologies (GWT, PEC, Profile RT, UT, IRT), governing codes (API RP 583, API 570, API 510), and a 6-step CUI management programme. Atlantis NDT provides CUI inspection consulting and Level III programme design globally.</p>\n  </main>`,
 });
 
 // ─── Generate sitemap ─────────────────────────────────────────────────────

@@ -21,6 +21,8 @@ import VisualTesting from "./pages/visual-testing";
 import RadiographicTesting from "./pages/radiographic-testing";
 import EddyCurrentTesting from "./pages/eddy-current-testing";
 import PenetrantTesting from "./pages/penetrant-testing";
+import PhasedArrayUT from "@/pages/phased-array-ut";
+import TOFDTesting from "@/pages/tofd-testing";
 import ConsultingServices from "./pages/ConsultingServices";
 import ConsultingServicesUSA from "./pages/ConsultingServices-USA";
 import ConsultingServicesMiddleEast from "./pages/ConsultingServices-ME";
@@ -72,6 +74,11 @@ const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
 // ECT Tube Inspection
 const EddyCurrentTubeInspection = lazy(() => import("./pages/eddy-current-tube-inspection"));
+// Advanced NDT Method Pages
+const GuidedWaveTesting = lazy(() => import("./pages/guided-wave-testing"));
+const CorrosionMapping = lazy(() => import("./pages/corrosion-mapping"));
+const DigitalTwinReporting = lazy(() => import("./pages/digital-twin-reporting"));
+const CorrosionUnderInsulation = lazy(() => import("./pages/corrosion-under-insulation"));
 // Programmatic SEO - Method + Location Pages
 const UTHouston = lazy(() => import("./pages/ultrasonic-testing-houston"));
 const UTDenver = lazy(() => import("./pages/ultrasonic-testing-denver"));
@@ -345,6 +352,8 @@ const App = () => (
                      path="/blog/eddy-current-testing"
                      element={<EddyCurrentTesting />}
                   />
+                  <Route path="/phased-array-ut" element={<PhasedArrayUT />} />
+                  <Route path="/tofd-testing" element={<TOFDTesting />} />
                   <Route
                      path="/blog/penetrant-testing"
                      element={<PenetrantTesting />}
@@ -379,6 +388,11 @@ const App = () => (
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
                   {/* ECT Tube Inspection */}
                   <Route path="/eddy-current-tube-inspection" element={<LazyRoute Component={EddyCurrentTubeInspection} />} />
+                  {/* Advanced NDT Method Pages */}
+                  <Route path="/guided-wave-testing" element={<LazyRoute Component={GuidedWaveTesting} />} />
+                  <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />
+                  <Route path="/digital-twin-reporting" element={<LazyRoute Component={DigitalTwinReporting} />} />
+                  <Route path="/corrosion-under-insulation" element={<LazyRoute Component={CorrosionUnderInsulation} />} />
                   {/* Programmatic SEO - Method + Location Pages */}
                   <Route path="/ultrasonic-testing-houston" element={<LazyRoute Component={UTHouston} />} />
                   <Route path="/ultrasonic-testing-denver" element={<LazyRoute Component={UTDenver} />} />
