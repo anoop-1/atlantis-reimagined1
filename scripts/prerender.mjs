@@ -219,17 +219,17 @@ const corePages = [
   },
   {
     path: '/ndt-for-oil-gas',
-    title: 'NDT for Oil & Gas | Pipeline, Refinery & Offshore Inspection | Atlantis NDT',
-    description: 'Expert NDT services for oil & gas industry. Pipeline inspection, refinery maintenance, offshore structures, pressure vessels. ASNT Level III consultants for API 510/570/653 compliance.',
+    title: 'NDT for Oil & Gas | Pipeline, Refinery & Offshore Inspection | API 510/570/653 | Atlantis NDT',
+    description: 'Expert NDT consulting for oil & gas: pressure vessel API 510, piping API 570, storage tank API 653, pipeline inspection, offshore NDT, CUI detection. ASNT Level III consultants. Free consultation.',
     bodyH1: 'NDT for Oil & Gas Industry',
-    bodyText: 'Expert NDT consulting and training for the oil & gas industry. Pipeline inspection, refinery maintenance, and offshore structure assessment by ASNT Level III professionals.',
+    bodyText: 'Expert NDT consulting and training for the oil & gas industry. Pipeline inspection, refinery maintenance, and offshore structure assessment by ASNT Level III professionals. API 510/570/653 compliance, CUI programs, and fitness for service assessment.',
   },
   {
     path: '/ndt-for-aerospace',
-    title: 'NDT for Aerospace | Aircraft & Component Inspection | Atlantis NDT',
-    description: 'Expert NDT services for aerospace industry. Aircraft structural inspection, engine component testing, composite material assessment. ASNT/NAS-410 certified inspectors.',
+    title: 'NDT for Aerospace | Aircraft, Composite & Engine Component Inspection | NAS-410 | Atlantis NDT',
+    description: 'Expert NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, NAS-410 compliant procedures, NADCAP audit prep. ASNT Level III consultants.',
     bodyH1: 'NDT for Aerospace Industry',
-    bodyText: 'Expert NDT consulting and training for aerospace. Aircraft structural inspection, engine component testing, and composite assessment by ASNT certified professionals.',
+    bodyText: 'Expert NDT consulting and training for aerospace. Aircraft structural inspection, composite NDT, engine component testing, NAS-410 written practices, and NADCAP audit preparation by ASNT Level III certified professionals.',
   },
   {
     path: '/ndt-for-power-generation',
