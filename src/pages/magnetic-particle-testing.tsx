@@ -2,323 +2,507 @@ import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import {
-   Magnet,
-   Shield,
-   CheckCircle,
-   Wrench,
-   Zap,
-   Settings,
-   Search,
-} from "lucide-react";
+import { Link } from "react-router-dom";
+import { CheckCircle, Magnet, Shield, Zap, Settings, Search, ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
+
+const faqs = [
+  {
+    q: "What is magnetic particle testing used for?",
+    a: "Magnetic Particle Testing (MT or MPI) is used to detect surface and near-surface discontinuities in ferromagnetic materials. Common applications include weld inspection in oil & gas and structural fabrication, quality control of forgings and castings, in-service inspection of pressure vessels and piping, and inspection of shafts, gears, and rotating equipment. MT is especially valued because it can detect tight, fine cracks that would be missed by visual inspection alone.",
+  },
+  {
+    q: "What materials can be tested with MT?",
+    a: "MT is limited exclusively to ferromagnetic materials — those that can be magnetized. These include carbon steel, alloy steel, cast iron, nickel, cobalt, and most of their alloys. Non-ferromagnetic materials including aluminum, copper, titanium, austenitic stainless steel, and most plastics and composites cannot be tested with MT. For non-ferromagnetic materials, Liquid Penetrant Testing (PT) or Eddy Current Testing (ET) must be used instead.",
+  },
+  {
+    q: "What is the difference between wet and dry magnetic particle testing?",
+    a: "Wet MT uses iron oxide particles suspended in a liquid carrier (water or oil). The liquid medium allows particles to migrate freely to leakage fields, giving significantly higher sensitivity — especially when fluorescent particles are used under UV light. Wet fluorescent MT (WFMT) is the most sensitive MT technique and is required by many aerospace and high-integrity applications. Dry powder MT uses loose, colored iron particles applied directly to the surface. It is better suited for field applications, rough or hot surfaces, and where liquid carriers are impractical. Dry MT is commonly used for structural weld inspection with portable yokes.",
+  },
+  {
+    q: "How deep can MT detect defects?",
+    a: "MT is primarily a surface and near-surface technique. Surface-breaking defects are detected most reliably. Near-surface defects can typically be detected to a depth of approximately 1–6mm (up to about 6mm subsurface) depending on the technique, particle type, field strength, and defect geometry. DC magnetization generally penetrates slightly deeper than AC. MT cannot detect deeply embedded subsurface defects — for those, ultrasonic testing (UT) is required.",
+  },
+  {
+    q: "What ASME code governs magnetic particle testing?",
+    a: "ASME Section V (Non-Destructive Examination), Article 7 is the primary code governing MT of welds and base materials for pressure vessels and piping. Article 25 of ASME Section V contains the supplementary requirements and general standards for MT. For structural steel welds, AWS D1.1 Section 8 applies. API 650 covers MT for storage tank welds, API 570 Appendix B covers piping MT, and ASTM E1444 governs aerospace MT applications.",
+  },
+  {
+    q: "What is demagnetization and why is it required?",
+    a: "Demagnetization is the process of removing residual magnetic fields from a component after MT inspection. Residual magnetism is required to be removed because it can: interfere with machining operations (attract swarf); affect compass readings and sensitive instruments near the component; cause arc blow during welding; and attract ferrous debris in service (a problem for rotating equipment). ASME Section V Article 7 requires demagnetization to a residual field of 3 gauss (0.3 mT) or less unless otherwise specified by the referencing code. Demagnetization is achieved by passing the part through a reversing AC coil or by cycling DC field to zero.",
+  },
+  {
+    q: "What is the difference between MT and PT?",
+    a: "Both MT and PT are surface/near-surface NDT methods, but they differ fundamentally in principle and applicability. MT uses magnetic fields to attract iron particles to flux leakage at defects — it works on ferromagnetic materials only and can detect near-surface (not just surface-breaking) defects. PT uses capillary action to draw liquid penetrant into surface-breaking defects — it works on any non-porous material (including aluminum, titanium, stainless steel, ceramics, plastics) but is limited strictly to surface-breaking defects. In practice, MT is preferred for carbon steel weld and structural inspection, while PT is used for non-ferromagnetic materials and where MT is not applicable.",
+  },
+  {
+    q: "How long does MT Level II certification take?",
+    a: "Per ASNT SNT-TC-1A, MT Level II certification requires a minimum of 80 classroom training hours and 1,600 hours of documented field experience (reduced to 200 hours if the candidate holds an engineering degree). Candidates must pass a written General exam, a written Specific exam on MT methods, and a practical demonstration exam administered by an employer-designated Level III. The total time to achieve Level II from scratch typically ranges from 6 months to 2 years depending on work availability. Atlantis NDT offers accelerated MT Level I/II training programs with Level III exam preparation.",
+  },
+];
+
+const mtTechniques = [
+  {
+    name: "Wet Fluorescent MT (WFMT)",
+    use: "Highest sensitivity surface & near-surface inspection",
+    code: "ASME V Art 7, ASTM E1444, AMS 2640",
+    industries: "Aerospace, pressure vessels, high-integrity welds",
+    detail: "Fluorescent iron oxide particles are suspended in a water or oil carrier and applied while the part is magnetized. Under ultraviolet (UV-A) light at 365nm, fluorescent indications glow bright yellow-green against a dark background, making even the finest cracks immediately visible. WFMT is the most sensitive MT technique and is required by many aerospace and nuclear standards including AMS 2640 and ASME Section V Article 7.",
+  },
+  {
+    name: "Dry Powder MT",
+    use: "Field inspection, rough surfaces, elevated temperatures",
+    code: "ASME V Art 7 T-754, AWS D1.1 Section 8",
+    industries: "Structural steel, pipeline, heavy fabrication",
+    detail: "Dry colored iron powder (gray, red, or black) is applied by hand or mechanical duster while the part is magnetized with a portable yoke or prods. Dry powder is ideal for field conditions, rough or uneven surfaces, and hot parts (up to approximately 300°C) where liquid carriers would evaporate. It is commonly used for structural weld inspection per AWS D1.1 and field inspection of pipeline girth welds.",
+  },
+  {
+    name: "Yoke Method",
+    use: "Portable weld and surface inspection",
+    code: "ASME V Art 7 T-754, API 570 App B",
+    industries: "Piping, pressure vessels, structural welds",
+    detail: "A horseshoe-shaped electromagnetic yoke induces a longitudinal magnetic field between its two poles when placed on the part surface. AC yokes are preferred for surface-breaking defects; DC yokes provide deeper penetration. Yoke method is popular for portability and safety (no direct electrical contact). Lift test with a calibrated weight (4.5 kg for AC, 18 kg for DC) confirms adequate field strength per ASME V Article 7.",
+  },
+  {
+    name: "Prod Method",
+    use: "Heavy castings, large weld areas, high current applications",
+    code: "ASME V Art 7 T-752",
+    industries: "Castings, heavy forgings, large structural welds",
+    detail: "Electrical current is passed directly through the part via hand-held copper prod contacts, creating a circular magnetic field between the prod contact points. The prod method generates very high field strengths and is effective for large, thick sections. Burn hazard requires careful technique — prods must not be struck or dragged while energized. Not permitted on final machined surfaces or where burning would be unacceptable.",
+  },
+  {
+    name: "Coil / Central Conductor Method",
+    use: "Longitudinal magnetization of bars, tubes, rings",
+    code: "ASME V Art 7 T-753",
+    industries: "Manufacturing, aerospace forgings, tubular products",
+    detail: "A current-carrying coil wound around the part (or a conductor threaded through a hollow part) creates a longitudinal magnetic field along the part's axis. This method is ideal for detecting transverse defects in bars, shafts, and tubes. The central conductor technique is used for hollow tubular parts such as rings and cylinders where the conductor passes through the bore.",
+  },
+];
+
+const industries = [
+  {
+    title: "Oil & Gas",
+    detail: "Pressure vessel nozzle welds, pipeline girth welds, flange faces, valve bodies, and structural equipment. MT is extensively used per API 570, API 650, and ASME Section VIII for in-service weld inspection and fabrication quality control across refineries, petrochemical plants, and offshore structures.",
+    link: "/ndt-for-oil-gas",
+  },
+  {
+    title: "Power Generation",
+    detail: "Turbine rotors, boiler headers, generator shafts, steam turbine blades (ferromagnetic grades), and high-pressure piping systems. MT is used during planned outages for crack detection in rotating equipment and pressure-retaining components per ASME and EPRI guidelines.",
+    link: "/ndt-for-power-generation",
+  },
+  {
+    title: "Aerospace",
+    detail: "Landing gear components, engine mounts, fastener holes (with encircling coil), and ferromagnetic structural members. Aerospace MT is governed by AMS 2640, ASTM E1444, and NAS-410 personnel qualification requirements. WFMT with fluorescent particles is typically required for safety-critical aerospace parts.",
+    link: "/ndt-for-aerospace",
+  },
+  {
+    title: "Structural & Manufacturing",
+    detail: "Structural steel fabrication, forgings, castings, and machined components. MT per AWS D1.1 Section 8 is a routine requirement for structural weld inspection. For castings and forgings, MT detects surface-breaking shrinkage cracks, seams, laps, and cold shuts during manufacturing quality control.",
+    link: "/consulting",
+  },
+];
+
+const governingCodes = [
+  { std: "ASME Section V, Article 7", scope: "MT of welds and materials for pressure vessels and boilers" },
+  { std: "ASME Section V, Article 25", scope: "Supplementary requirements and general MT standards/procedures" },
+  { std: "AWS D1.1 Section 8", scope: "Structural weld MT for buildings, bridges, and structural steel" },
+  { std: "API 650", scope: "Storage tank weld inspection — MT for floor welds and shell welds" },
+  { std: "API 570 Appendix B", scope: "MT for in-service piping inspection per piping inspection code" },
+  { std: "ASTM E1444", scope: "MT of aerospace parts — procedure and acceptance criteria" },
+  { std: "AMS 2640", scope: "Aerospace MT specification for fluorescent particle inspection" },
+  { std: "MIL-STD-1949 / NAS-410", scope: "Military and aerospace personnel qualification for MT" },
+];
+
+function FAQItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border border-slate-200 rounded-xl overflow-hidden">
+      <button
+        className="w-full flex items-center justify-between p-5 text-left font-semibold text-slate-800 bg-white hover:bg-slate-50 transition"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+      >
+        <span>{q}</span>
+        {open ? <ChevronUp className="w-5 h-5 text-[#004aad] flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#004aad] flex-shrink-0" />}
+      </button>
+      {open && (
+        <div className="px-5 pb-5 text-slate-600 leading-relaxed bg-white border-t border-slate-100">
+          {a}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function MagneticParticleTesting() {
-   // BlogPosting + FAQPage schema for rich snippets
-   const structuredData = {
-      "@context": "https://schema.org",
-      "@graph": [
-         {
-            "@type": "BlogPosting",
-            "headline": "Complete Guide to Magnetic Particle Testing (MT) | Surface Defect Detection",
-            "description": "Learn how Magnetic Particle Testing detects surface and near-surface defects in ferromagnetic materials for welds, castings, and machinery.",
-            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-            "publisher": {
-               "@type": "Organization",
-               "name": "Atlantis NDT",
-               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
-            },
-            "datePublished": "2025-10-03",
-            "dateModified": "2026-01-04",
-            "mainEntityOfPage": {
-               "@type": "WebPage",
-               "@id": "https://atlantisndt.com/blog/magnetic-particle-testing",
-            },
-            "keywords": "magnetic particle testing, MT inspection, MPI, weld inspection, surface defects, ferromagnetic materials"
-         },
-         {
-            "@type": "FAQPage",
-            "mainEntity": [
-               {
-                  "@type": "Question",
-                  "name": "What is Magnetic Particle Testing?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "Magnetic Particle Testing (MT or MPI) is a non-destructive testing method that uses magnetic fields and iron particles to detect surface and near-surface discontinuities in ferromagnetic materials like iron, nickel, and cobalt alloys."
-                  }
-               },
-               {
-                  "@type": "Question",
-                  "name": "What materials can be tested with Magnetic Particle Testing?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "MT can only be used on ferromagnetic materials including carbon steel, alloy steel, iron, nickel, and some of their alloys. Non-ferromagnetic materials like aluminum, copper, and stainless steel cannot be tested with this method."
-                  }
-               },
-               {
-                  "@type": "Question",
-                  "name": "What defects does Magnetic Particle Testing detect?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "MT detects surface-breaking and near-surface defects including cracks, seams, laps, inclusions, and porosity. It is especially effective for weld inspection and quality control in castings and forgings."
-                  }
-               }
-            ]
-         }
-      ]
-   };
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://atlantisndt.com/magnetic-particle-testing",
+        "headline": "Magnetic Particle Testing (MT/MPI): Complete Guide 2026 — Techniques, Codes, Applications & Certification",
+        "description": "Comprehensive guide to magnetic particle testing: wet fluorescent MT, dry powder, yoke and prod methods. ASME V Article 7, API 650, AWS D1.1. Level I-III MT training and Level III consulting.",
+        "datePublished": "2025-10-03",
+        "dateModified": "2026-02-25",
+        "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" },
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://atlantisndt.com/magnetic-particle-testing" },
+        "keywords": "magnetic particle testing, MT NDT, magnetic particle inspection, MPI testing, wet fluorescent magnetic particle, ASME Section V Article 7, API 650 tank inspection, MT certification, ferromagnetic material testing",
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((f) => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a },
+        })),
+      },
+    ],
+  };
 
-   const advantages = [
-      {
-         icon: Magnet,
-         title: "High Sensitivity",
-         description:
-            "Detects very small surface and near-surface discontinuities.",
-      },
-      {
-         icon: Shield,
-         title: "Reliable Detection",
-         description: "Provides accurate results for ferromagnetic materials.",
-      },
-      {
-         icon: Zap,
-         title: "Quick Results",
-         description: "Offers immediate visual indications of defects.",
-      },
-      {
-         icon: Settings,
-         title: "Simple Operation",
-         description: "Requires minimal setup and straightforward equipment.",
-      },
-   ];
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <Navigation />
 
-   const applications = [
-      {
-         title: "Weld Inspection",
-         description:
-            "Detects surface cracks, undercuts, and porosity in welds.",
-      },
-      {
-         title: "Castings & Forgings",
-         description:
-            "Identifies shrinkage, laps, and surface cracks during quality checks.",
-      },
-      {
-         title: "Aerospace Components",
-         description:
-            "Ensures safety-critical parts are defect-free before deployment.",
-      },
-      {
-         title: "Automotive & Machinery",
-         description:
-            "Used for shafts, gears, and engine components in quality assurance.",
-      },
-      {
-         title: "Structural Steel Fabrication",
-         description:
-            "Verifies weld joints and stress points for surface defects.",
-      },
-   ];
+      <SEOHead
+        title="Magnetic Particle Testing (MT/MPI) | Surface Defect Detection | ASME V Art 7 | Atlantis NDT"
+        description="Complete guide to magnetic particle testing (MT/MPI): wet fluorescent, dry powder, yoke and prod methods. ASME V Article 7, API 650, AWS D1.1. Level I-III MT training and Level III consulting."
+        keywords="magnetic particle testing, MT NDT, magnetic particle inspection, MPI testing, wet fluorescent magnetic particle, ASME Section V Article 7, API 650 tank inspection, MT certification, ferromagnetic material testing, surface crack detection, near-surface defect, yoke method MT, prod method MT, MT Level II, MT Level III"
+        structuredData={structuredData}
+        canonical="https://atlantisndt.com/magnetic-particle-testing"
+      />
+      <Breadcrumbs />
 
-   const bestPractices = [
-      "Ensure the test surface is clean and free from oil, grease, or dirt.",
-      "Choose the correct magnetization technique (circular or longitudinal).",
-      "Apply magnetic particles uniformly for accurate results.",
-      "Use appropriate lighting or UV illumination for fluorescent inspections.",
-      "Demagnetize components after inspection to avoid magnetic retention.",
-   ];
-
-   return (
-      <div className="min-h-screen bg-slate-50">
-         <Navigation />
-
-         <SEOHead
-            title="Magnetic Particle Testing (MT) 2026 Guide | MPI Weld Inspection | Atlantis NDT"
-            description="Expert Magnetic Particle Inspection (MPI) services & training. Fast surface crack detection for welds, castings, forgings. ASNT Level III certified. Get free inspection quote now!"
-            keywords="magnetic particle testing, MT inspection, MPI, magnetic particle inspection, weld inspection, surface crack detection, ferromagnetic testing, NDT methods, non-destructive testing, MT training, Level II MT, Level III MT, weld MPI"
-            structuredData={structuredData}
-            canonical="https://atlantisndt.com/blog/magnetic-particle-testing"
-         />
-         <Breadcrumbs />
-
-         {/* Hero Section */}
-         <section className="relative bg-white shadow-md">
-            <div className="container mx-auto max-w-6xl px-6 py-16 text-center">
-               <h1
-                  className="text-4xl md:text-5xl font-bold mb-4"
-                  style={{ color: "#004aad" }}
-               >
-                  Magnetic Particle Testing: Best Practices
-               </h1>
-               <p className="text-slate-600 mb-4">October 3, 2025</p>
-               <p className="text-lg md:text-xl text-slate-700">
-                  Magnetic Particle Testing (MPT) is a{" "}
-                  <span className="font-semibold text-blue-600">
-                     Non-Destructive Testing (NDT)
-                  </span>{" "}
-                  method used to locate surface and near-surface discontinuities
-                  in ferromagnetic materials quickly and effectively.
-               </p>
+      {/* Hero */}
+      <section className="bg-[#004aad] text-white py-16">
+        <div className="container mx-auto max-w-6xl px-6">
+          <div className="max-w-3xl">
+            <p className="text-blue-200 text-sm font-medium mb-3 uppercase tracking-wider">NDT Method Guide · Updated February 2026</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
+              Magnetic Particle Testing (MT/MPI) | Surface &amp; Near-Surface Defect Detection | Atlantis NDT
+            </h1>
+            <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              Everything you need to know about MT and MPI — from magnetic flux leakage principles and technique selection to ASME V Article 7 compliance, API 650 tank inspection, and ASNT Level I–III certification.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/contact" className="bg-white text-[#004aad] font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                Get MT Consulting
+              </Link>
+              <Link to="/training" className="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                MT Training &amp; Certification
+              </Link>
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         {/* Main Content */}
-         <main className="container mx-auto max-w-6xl px-6 py-16 grid md:grid-cols-3 gap-12">
-            {/* Blog Article */}
-            <article className="md:col-span-2 space-y-12">
-               {/* Introduction */}
-               <div className="bg-white rounded-2xl p-8 shadow border border-slate-100">
-                  <p className="text-lg text-slate-700 leading-relaxed">
-                     Magnetic Particle Testing (MPT) works on the principle that
-                     when a ferromagnetic material is magnetized, any surface or
-                     near-surface flaw interrupts the magnetic field and causes
-                     magnetic flux leakage. Fine magnetic particles applied over
-                     the surface gather at these leakage points, making defects
-                     visible for inspection.
-                  </p>
-               </div>
-
-               {/* Advantages */}
-               <div id="advantages">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-                     Key Advantages
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-6">
-                     {advantages.map((adv, idx) => {
-                        const Icon = adv.icon;
-                        return (
-                           <div
-                              key={idx}
-                              className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:shadow-lg transition"
-                           >
-                              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-[#004aad] rounded-lg flex items-center justify-center mb-3">
-                                 <Icon className="w-6 h-6 text-white" />
-                              </div>
-                              <h3 className="text-lg font-semibold mb-2 text-slate-900">
-                                 {adv.title}
-                              </h3>
-                              <p className="text-slate-600">
-                                 {adv.description}
-                              </p>
-                           </div>
-                        );
-                     })}
-                  </div>
-               </div>
-
-               {/* Applications */}
-               <div id="applications">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900">
-                     Applications
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-6">
-                     {applications.map((app, idx) => (
-                        <div
-                           key={idx}
-                           className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:border-blue-300 transition"
-                        >
-                           <h3 className="text-xl font-semibold mb-2 text-blue-600">
-                              {app.title}
-                           </h3>
-                           <p className="text-slate-600">{app.description}</p>
-                        </div>
-                     ))}
-                  </div>
-               </div>
-
-               {/* Best Practices */}
-               <div
-                  id="best-practices"
-                  className="bg-white rounded-2xl p-8 shadow border border-slate-100"
-               >
-                  <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900">
-                     Best Practices
-                  </h2>
-                  <ul className="space-y-3">
-                     {bestPractices.map((bp, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                           <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
-                           <span className="text-slate-700 text-lg">{bp}</span>
-                        </li>
-                     ))}
-                  </ul>
-               </div>
-            </article>
-
-            {/* Sidebar */}
-            <aside className="hidden md:block md:col-span-1 space-y-6">
-               <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
-                  <h3 className="text-xl font-semibold mb-4 text-slate-900">
-                     Quick Links
-                  </h3>
-                  <ul className="space-y-3 text-slate-700">
-                     <li>
-                        <a
-                           href="#advantages"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Advantages
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#applications"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Applications
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#best-practices"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Best Practices
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-
-               <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
-                  <h3 className="text-xl font-semibold mb-4 text-slate-900">
-                     Need MPT Assistance?
-                  </h3>
-                  <p className="text-slate-700 mb-4">
-                     Contact our certified NDT professionals for expert Magnetic
-                     Particle Testing services and technical consultation.
-                  </p>
-                  <a
-                     href="/contact"
-                     className="inline-block bg-[#004aad] hover:bg-blue-700 text-white px-4 py-2 rounded transition"
-                  >
-                     Contact Us
-                  </a>
-               </div>
-               <div className="bg-red-50 p-6 rounded-xl shadow border border-red-200">
-                  <h3 className="text-xl font-semibold mb-4 text-red-700">
-                     Related Services
-                  </h3>
-                  <ul className="space-y-3 text-slate-700">
-                     <li>
-                        <a href="/training" className="hover:text-red-700 transition font-medium">
-                           → MT Training & Certification
-                        </a>
-                     </li>
-                     <li>
-                        <a href="/consulting" className="hover:text-red-700 transition font-medium">
-                           → Level III MT Consulting
-                        </a>
-                     </li>
-                     <li>
-                        <a href="/ndt-methods" className="hover:text-red-700 transition font-medium">
-                           → All NDT Methods
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </aside>
-         </main>
-
-         <ContactDetails />
+      {/* Stats Bar */}
+      <div className="bg-white border-b border-slate-200">
+        <div className="container mx-auto max-w-6xl px-6 py-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            {[
+              { label: "Material Scope", value: "Ferromagnetic Only" },
+              { label: "Code Compliance", value: "ASME V Art 7" },
+              { label: "Detection Depth", value: "Surface & ~6mm Sub" },
+              { label: "Certification", value: "Level I–III Training" },
+            ].map((s, i) => (
+              <div key={i} className="py-2">
+                <div className="text-[#004aad] font-bold text-lg">{s.value}</div>
+                <div className="text-slate-500 text-sm">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-   );
+
+      {/* Quick Nav */}
+      <div className="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+        <div className="container mx-auto max-w-6xl px-6 overflow-x-auto">
+          <nav className="flex gap-6 text-sm font-medium text-slate-600 py-3 whitespace-nowrap">
+            {["How MT Works", "MT Techniques", "Governing Codes", "Applications", "Limitations", "Certification", "FAQ"].map((s) => (
+              <a key={s} href={`#${s.toLowerCase().replace(/ /g, "-")}`} className="hover:text-[#004aad] transition py-1">
+                {s}
+              </a>
+            ))}
+          </nav>
+        </div>
+      </div>
+
+      <div className="container mx-auto max-w-6xl px-6 py-12 grid md:grid-cols-3 gap-12">
+        {/* Main Content */}
+        <article className="md:col-span-2 space-y-14">
+
+          {/* Introduction */}
+          <section>
+            <h2 id="how-mt-works" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              What Is Magnetic Particle Testing and How Does It Work?
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              <strong>Magnetic Particle Testing (MT)</strong>, also called Magnetic Particle Inspection (MPI), is a non-destructive testing method used to detect surface and near-surface discontinuities in ferromagnetic materials — carbon steel, alloy steel, cast iron, nickel, and their alloys. MT is one of the oldest and most widely used NDT methods in the oil &amp; gas, structural, and manufacturing industries, valued for its speed, sensitivity, and straightforward interpretation.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              The physical principle behind MT is <strong>magnetic flux leakage</strong>. When a ferromagnetic part is magnetized, the magnetic field travels through the material as magnetic flux. Where the material is continuous and sound, the flux flows uninterrupted. But where a discontinuity exists — a crack, seam, lap, or inclusion — the flux is forced out of the material and leaks into the air above the surface. This leakage field is strongest at the opening of the defect and decreases with distance from it.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              When fine iron oxide particles (either wet in a carrier liquid or dry powder) are applied to the magnetized surface, they are attracted to and held by these leakage fields. The particles accumulate at the defect location, forming a visible indication that reveals the defect's position and general shape. With visible particles, indications are viewed under white light. With fluorescent particles, a UV-A (365nm) black light causes bright yellow-green glowing indications that are dramatically easier to see in a darkened environment.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              A critical advantage of MT over Liquid Penetrant Testing (PT) is its ability to detect <strong>near-surface defects</strong> — not just defects open to the surface. Tight, partially closed surface cracks, subsurface inclusions, and laminations can produce leakage fields that attract particles even when the defect is not fully open at the surface. This makes MT the preferred method for weld inspection in oil &amp; gas pressure vessels, pipeline girth welds, and structural steel fabrication where both surface and shallow subsurface integrity must be verified. Industries routinely applying MT include oil &amp; gas production and refining, power generation, aerospace (for ferromagnetic components), shipbuilding, and heavy manufacturing of forgings and castings.
+            </p>
+            <div className="bg-blue-50 border-l-4 border-[#004aad] rounded-r-xl p-6">
+              <h3 className="font-bold text-[#004aad] mb-2">Key MT Physical Principles</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Magnetic flux leakage:</strong> Discontinuities force flux out of the material; leakage fields attract iron particles to the defect location.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Field orientation:</strong> Maximum sensitivity when the magnetic field is perpendicular to the defect. Inspections must cover at least two perpendicular field orientations to find all defect orientations.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>AC vs DC magnetization:</strong> AC (alternating current) concentrates flux at the surface — ideal for surface crack detection. DC (direct or half-wave rectified current) penetrates deeper — better for near-surface defects.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Demagnetization:</strong> After inspection, residual magnetism must be removed to prevent interference with machining, welding, or sensitive instruments in service.</span></li>
+              </ul>
+            </div>
+          </section>
+
+          {/* MT Techniques */}
+          <section>
+            <h2 id="mt-techniques" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              MT Techniques: Choosing the Right Method
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+              Magnetic particle testing encompasses several distinct techniques, each suited to different applications, surface conditions, and sensitivity requirements. Selecting the correct technique is critical to inspection quality and code compliance.
+            </p>
+            <div className="space-y-6">
+              {mtTechniques.map((tech, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-100">
+                  <h3 className="text-xl font-bold mb-1" style={{ color: "#004aad" }}>{tech.name}</h3>
+                  <div className="flex flex-wrap gap-3 mb-3">
+                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">{tech.code}</span>
+                    <span className="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded">{tech.industries}</span>
+                  </div>
+                  <p className="text-slate-700 leading-relaxed">{tech.detail}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Governing Codes */}
+          <section>
+            <h2 id="governing-codes" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              MT Governing Codes &amp; Standards
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              MT must be performed to a written procedure that references the applicable industry standard. The procedure defines magnetization technique, equipment, particle type, examination coverage, acceptance criteria, and reporting requirements — and must be approved by an ASNT Level III.
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              {governingCodes.map((s, i) => (
+                <div key={i} className="flex gap-3 bg-white rounded-xl p-4 shadow border border-slate-100">
+                  <div className="w-2 bg-[#004aad] rounded-full flex-shrink-0 min-h-[40px]" />
+                  <div>
+                    <p className="font-semibold text-[#004aad]">{s.std}</p>
+                    <p className="text-slate-600 text-sm">{s.scope}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Applications by Industry */}
+          <section>
+            <h2 id="applications" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              MT Applications by Industry
+            </h2>
+            <div className="grid md:grid-cols-2 gap-5">
+              {industries.map((app, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:border-[#004aad] transition">
+                  <h3 className="text-lg font-bold mb-2" style={{ color: "#004aad" }}>{app.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-3">{app.detail}</p>
+                  <Link to={app.link} className="text-[#004aad] text-sm font-medium hover:underline">
+                    Learn more →
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Limitations */}
+          <section className="bg-slate-100 rounded-2xl p-8 border border-slate-200">
+            <h2 id="limitations" className="text-2xl font-bold mb-4" style={{ color: "#004aad" }}>
+              MT Limitations
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              Understanding the limitations of MT is just as important as knowing its capabilities. A competent inspector selects MT only when these constraints are satisfied — and uses complementary methods when they are not.
+            </p>
+            <ul className="space-y-3">
+              {[
+                "Ferromagnetic materials only — MT cannot be used on aluminum, titanium, austenitic stainless steel, copper, brass, composites, or plastics.",
+                "Surface and near-surface only — MT cannot detect deeply embedded volumetric defects. For subsurface defects, ultrasonic testing (UT) is required.",
+                "Surface must be accessible — the probe (yoke or prods) and particles must reach the inspection surface. Enclosed spaces and inaccessible geometry limit MT.",
+                "Demagnetization required after inspection — residual fields can affect subsequent machining, welding, or instrument readings.",
+                "Surface condition affects sensitivity — heavy scale, rust, paint (>25 microns), or coatings may need to be removed to achieve adequate sensitivity, though thin non-conductive coatings are often acceptable.",
+                "Two-direction magnetization required — a single field orientation may miss defects oriented parallel to the field. At least two perpendicular passes are required for complete coverage.",
+              ].map((lim, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <Shield className="w-5 h-5 text-amber-500 mt-1 flex-shrink-0" />
+                  <span className="text-slate-700">{lim}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          {/* Certification */}
+          <section className="bg-white rounded-2xl p-8 shadow border border-slate-100">
+            <h2 id="certification" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              MT Certification: ASNT, ISO 9712 &amp; NAS-410
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              MT technicians must be certified to perform and interpret inspections on code work. The most widely recognised certification schemes are ASNT SNT-TC-1A (USA industrial), ASNT CP-189 (central certification), ISO 9712 (international), and NAS-410 (aerospace). Three certification levels apply to MT:
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              {[
+                {
+                  level: "Level I",
+                  desc: "Performs MT under supervision. Sets up equipment and applies particles per written procedure. Records indications. Cannot independently interpret or accept/reject.",
+                  hours: "16+ training hours (SNT-TC-1A minimum); 40+ recommended | 200+ field hours",
+                },
+                {
+                  level: "Level II",
+                  desc: "Independently performs and interprets MT. Writes examination procedures. Trains and supervises Level I. Signs and certifies inspection reports.",
+                  hours: "80+ training hours | 1,600+ field hours (or 200 with engineering degree)",
+                },
+                {
+                  level: "Level III",
+                  desc: "Highest authority for MT. Certifies Level I and II personnel, approves procedures and written practices, manages NDT programs, and provides employer-level qualification.",
+                  hours: "Degree + experience + ASNT Basic + Method written exams",
+                },
+              ].map((l, i) => (
+                <div key={i} className="bg-blue-50 rounded-xl p-5 border border-blue-100">
+                  <div className="text-[#004aad] font-bold text-lg mb-2">{l.level}</div>
+                  <p className="text-slate-700 text-sm mb-3">{l.desc}</p>
+                  <p className="text-slate-500 text-xs">{l.hours}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-slate-700 mb-4">
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 MT training at Level I, II, and III globally — including Dubai, Houston, India, Singapore, and online formats. Our instructors are active ASNT Level III MT professionals with field experience in oil &amp; gas, power generation, and aerospace.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">
+                View MT Training Courses
+              </Link>
+              <Link to="/asnt-certification" className="border border-[#004aad] text-[#004aad] px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                ASNT Certification Guide
+              </Link>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section>
+            <h2 id="faq" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              Magnetic Particle Testing — Frequently Asked Questions
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((f, i) => (
+                <FAQItem key={i} q={f.q} a={f.a} />
+              ))}
+            </div>
+          </section>
+
+          {/* CTA */}
+          <section className="bg-[#004aad] rounded-2xl p-8 text-white">
+            <h2 className="text-2xl font-bold mb-3">Ready to Start MT Inspection Training or Consulting?</h2>
+            <p className="text-blue-100 mb-6 leading-relaxed">
+              Atlantis NDT provides ASNT-certified Magnetic Particle Testing training (Level I–III), written procedure development, and Level III MT consulting across the USA, Middle East, India, Asia-Pacific, and Europe. Contact our team for a scope of work and quote.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/contact" className="bg-white text-[#004aad] font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                Get a Quote
+              </Link>
+              <Link to="/training" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                MT Training Courses
+              </Link>
+              <Link to="/consulting" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                Level III MT Consulting
+              </Link>
+            </div>
+          </section>
+
+        </article>
+
+        {/* Sidebar */}
+        <aside className="hidden md:block md:col-span-1 space-y-6 mt-2">
+          <div className="bg-white p-6 rounded-xl shadow border border-slate-100 sticky top-16">
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#004aad" }}>On This Page</h3>
+            <ul className="space-y-2 text-sm text-slate-600">
+              {[
+                ["#how-mt-works", "How MT Works"],
+                ["#mt-techniques", "MT Techniques (5)"],
+                ["#governing-codes", "Governing Codes"],
+                ["#applications", "Applications by Industry"],
+                ["#limitations", "MT Limitations"],
+                ["#certification", "ASNT / ISO 9712 Certification"],
+                ["#faq", "FAQ (8 questions)"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <a href={href} className="hover:text-[#004aad] transition flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-[#004aad] rounded-full flex-shrink-0" />
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#004aad" }}>Related NDT Methods</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                ["/penetrant-testing", "Liquid Penetrant Testing (PT)"],
+                ["/ultrasonic-testing", "Ultrasonic Testing (UT)"],
+                ["/eddy-current-testing", "Eddy Current Testing (ET)"],
+                ["/radiographic-testing", "Radiographic Testing (RT)"],
+                ["/visual-testing", "Visual Testing (VT)"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} className="text-[#004aad] hover:underline">
+                    → {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-red-50 p-6 rounded-xl shadow border border-red-200">
+            <h3 className="text-lg font-bold mb-3 text-red-800">MT Services &amp; Training</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                ["/training", "MT Level I/II Training"],
+                ["/asnt-certification", "ASNT MT Certification"],
+                ["/consulting", "Level III MT Consulting"],
+                ["/ndt-for-oil-gas", "MT for Oil &amp; Gas"],
+                ["/ndt-for-aerospace", "MT for Aerospace"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} className="text-red-800 hover:underline font-medium" dangerouslySetInnerHTML={{ __html: `→ ${label}` }} />
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
+            <h3 className="text-lg font-bold mb-3">Need MT Consultation?</h3>
+            <p className="text-blue-100 text-sm mb-4">
+              Our ASNT Level III MT engineers provide procedure development, personnel certification, and written practice management for ASME V, API, and AWS codes.
+            </p>
+            <Link to="/contact" className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm">
+              Contact Our MT Experts
+            </Link>
+          </div>
+        </aside>
+      </div>
+
+      <ContactDetails />
+    </div>
+  );
 }

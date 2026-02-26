@@ -493,6 +493,51 @@ methodPages.forEach(m => {
   });
 });
 
+// ── Ultrasonic Testing pillar page override (replaces generic methodPages entry) ──
+routes.push({
+  path: '/ultrasonic-testing',
+  title: 'Ultrasonic Testing (UT) | PAUT, TOFD, AUT Guide | ASME V Art 4 | Atlantis NDT',
+  description: 'Complete guide to ultrasonic testing: conventional UT, phased array (PAUT), TOFD, AUT, guided wave. ASME V Article 4, API 5L, AWS D1.1. Level I-III UT training and Level III consulting.',
+  canonical: `${SITE_URL}/ultrasonic-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Ultrasonic Testing (UT) | Complete Guide to UT NDT Methods</h1>\n    <p>Complete guide to ultrasonic testing (UT): conventional pulse-echo, phased array UT (PAUT), TOFD, automated UT, guided wave testing, and immersion UT. ASME Section V Article 4, API 5L, API 1104, AWS D1.1 compliant. ASNT Level I–III UT training and Level III consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
+// ── Magnetic Particle Testing pillar page override ──────────────────────────
+routes.push({
+  path: '/magnetic-particle-testing',
+  title: 'Magnetic Particle Testing (MT/MPI) | Surface Defect Detection | ASME V Art 7 | Atlantis NDT',
+  description: 'Complete guide to magnetic particle testing (MT/MPI): wet fluorescent, dry powder, yoke and prod methods. ASME V Article 7, API 650, AWS D1.1. Level I-III MT training and Level III consulting.',
+  canonical: `${SITE_URL}/magnetic-particle-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Magnetic Particle Testing (MT/MPI) | Surface &amp; Near-Surface Defect Detection</h1>\n    <p>Complete guide to magnetic particle testing (MT/MPI): wet fluorescent MT (WFMT), dry powder MT, yoke method, prod method, and coil/central conductor technique. ASME Section V Article 7, API 650, API 570, AWS D1.1 compliant. ASNT Level I–III MT training and Level III consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
+// ── Liquid Penetrant Testing pillar page override ───────────────────────────
+routes.push({
+  path: '/penetrant-testing',
+  title: 'Liquid Penetrant Testing (PT/FPI) | Surface Crack Detection | ASME V Art 6 | Atlantis NDT',
+  description: 'Complete guide to liquid penetrant testing: visible dye, fluorescent FPI, water washable, post-emulsifiable. ASME V Article 6, AMS 2644, ASTM E1417. Level I-III PT training and consulting.',
+  canonical: `${SITE_URL}/penetrant-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Liquid Penetrant Testing (PT/FPI) | Surface Defect Detection | Any Material</h1>\n    <p>Complete guide to liquid penetrant testing (PT/FPI): visible dye penetrant, fluorescent penetrant inspection (FPI), water washable PT, and post-emulsifiable PT. AMS 2644 sensitivity levels 1/2 through 4. ASME Section V Article 6, AMS 2644, ASTM E1417, API 570 compliant. ASNT Level I–III PT training and Level III consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
+// ── Radiographic Testing pillar page override ────────────────────────────
+routes.push({
+  path: '/radiographic-testing',
+  title: 'Radiographic Testing (RT) | X-Ray, Gamma & Digital Radiography | ASME V Art 2 | Atlantis NDT',
+  description: 'Complete guide to radiographic testing: film RT, digital radiography, gamma (Ir-192, Co-60), computed radiography. ASME V Article 2, API 1104, AWS D1.1. Level I-III RT training and consulting.',
+  canonical: `${SITE_URL}/radiographic-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Radiographic Testing (RT) | X-Ray, Gamma &amp; Digital Radiography | ASME V Art 2</h1>\n    <p>Complete guide to radiographic testing (RT): film radiography, digital radiography (DR), computed radiography (CR), and gamma radiography with Ir-192, Co-60, Se-75. ASME Section V Article 2, API 1104 pipeline radiography, AWS D1.1. ASNT Level I–III RT training, radiation safety consulting, and Level III RT consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
+// ── Visual Testing pillar page override ──────────────────────────────────
+routes.push({
+  path: '/visual-testing',
+  title: 'Visual Testing (VT) | Direct & Remote Visual Inspection | ASME V Art 9 | Atlantis NDT',
+  description: 'Complete guide to visual testing: direct VT, borescope inspection, remote visual (RVI), drone NDT. ASME V Article 9, AWS D1.1. Level I-III VT training and certification. Atlantis NDT.',
+  canonical: `${SITE_URL}/visual-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Visual Testing (VT) | Direct &amp; Remote Visual Inspection | ASME V Art 9</h1>\n    <p>Complete guide to visual testing (VT): direct visual examination, remote visual inspection (RVI), rigid borescope inspection, flexible videoscope inspection, and drone/UAV NDT. ASME Section V Article 9, AWS D1.1 weld visual acceptance criteria. ASNT Level I–III VT training, AWS CWI preparation, and Level III VT consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
 // ── Additional standalone pages ──────────────────────────────────────────
 const extraPages = [
   { path: '/digital-twins-ndt-guide', title: 'Digital Twins for NDT | Complete Guide | Atlantis NDT', description: 'Complete guide to digital twins in NDT. How digital twin technology transforms inspection, asset integrity, and maintenance in oil & gas, aerospace, and power generation.' },

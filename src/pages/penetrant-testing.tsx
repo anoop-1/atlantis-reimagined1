@@ -2,311 +2,559 @@ import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CheckCircle, Zap, Shield, Clock, Target, Gauge } from "lucide-react";
+import { Link } from "react-router-dom";
+import { CheckCircle, Shield, Zap, Search, Target, ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
+
+const faqs = [
+  {
+    q: "What is liquid penetrant testing used for?",
+    a: "Liquid Penetrant Testing (PT or LPT) is used to detect surface-breaking defects in any non-porous material. Common applications include weld inspection in oil & gas and structural fabrication, aerospace turbine blade and engine case inspection (FPI), casting and forging quality control, pressure vessel and piping inspection, and inspection of machined components for fine fatigue cracks. PT is particularly valued in aerospace as Fluorescent Penetrant Inspection (FPI) because it can reveal very fine surface cracks in complex geometries including turbine blades, compressor discs, and landing gear.",
+  },
+  {
+    q: "Can PT detect subsurface defects?",
+    a: "No. Liquid Penetrant Testing is limited strictly to surface-breaking defects — those that are open to the surface. The mechanism depends on capillary action drawing penetrant into a surface-open discontinuity. Defects buried beneath the surface with no opening at the surface (subsurface inclusions, laminations, delaminations) cannot be detected by PT. For subsurface defects, ultrasonic testing (UT) or radiographic testing (RT) is required. This is the single most important limitation of PT and must be clearly communicated to inspection clients and code users.",
+  },
+  {
+    q: "What materials can be tested with PT?",
+    a: "PT can be used on any non-porous material where penetrant can enter and be removed from defect openings. This includes: carbon steel, alloy steel, stainless steel, aluminum, titanium, nickel alloys, copper, brass, bronze, cast iron, ceramics, glass, and many plastics and composites (provided the surface is non-porous and compatible with the penetrant chemistry). PT is especially important for non-ferromagnetic materials like aluminum, titanium, and austenitic stainless steel where Magnetic Particle Testing (MT) cannot be applied. Porous materials such as rough castings may produce excessive background penetrant and false indications.",
+  },
+  {
+    q: "What is fluorescent penetrant inspection (FPI)?",
+    a: "Fluorescent Penetrant Inspection (FPI) uses penetrants containing fluorescent dyes that glow bright yellow-green under ultraviolet light (UV-A, 365nm) in a darkened inspection environment. FPI provides significantly higher sensitivity than visible dye PT because the high contrast between the glowing indication and dark background makes even tiny defect indications visible. FPI is the standard method for aerospace components per AMS 2644 and ASTM E1417, and is available in sensitivity Levels 1 through 4 — Level 4 being the highest sensitivity, used for critical aerospace parts like turbine blades and landing gear.",
+  },
+  {
+    q: "What is the difference between PT and MT?",
+    a: "Both PT and MT are surface-sensitive NDT methods, but they differ in principle and applicability. PT uses capillary action and works on any non-porous material (ferrous and non-ferrous) but detects only surface-breaking defects. MT uses magnetic flux leakage and can detect both surface and near-surface defects, but works only on ferromagnetic materials (carbon steel, alloy steel, iron, nickel). In practice: use PT for aluminum, titanium, stainless steel, and non-ferrous materials; use MT for carbon steel welds, forgings, and castings where near-surface detection is also required. Both methods share similar sensitivity for pure surface-breaking defects on ferromagnetic materials, though wet fluorescent MT often achieves higher sensitivity than visible PT.",
+  },
+  {
+    q: "What ASME code covers penetrant testing?",
+    a: "ASME Section V (Non-Destructive Examination), Article 6 is the primary code governing PT of welds and pressure-containing materials. Article 24 of ASME Section V provides supplementary requirements and general PT standards. For aerospace, ASTM E1417 and AMS 2644 govern fluorescent penetrant inspection procedures and qualification. AWS D1.1 covers PT of structural welds. API 570 Appendix B covers PT for in-service piping inspection.",
+  },
+  {
+    q: "How long does PT Level II certification take?",
+    a: "Per ASNT SNT-TC-1A, PT Level II requires a minimum of 80 classroom training hours and 1,600 hours of documented field experience (reduced to 200 hours with an engineering degree). Candidates must pass General and Specific written exams and a practical demonstration exam administered by an employer-qualified Level III. Total time to achieve Level II from no prior experience typically ranges from 6 months to 2 years. For aerospace FPI, NAS-410 qualification has additional requirements including UV light intensity verification and reference standard usage. Atlantis NDT offers PT Level I/II training and Level III exam preparation.",
+  },
+  {
+    q: "What sensitivity levels are used in fluorescent penetrant testing?",
+    a: "AMS 2644 and ASTM E1417 define four fluorescent penetrant sensitivity levels: Level 1/2 (low sensitivity — used for coarse defects, castings with rough surfaces); Level 2 (medium sensitivity — general industrial use); Level 3 (high sensitivity — precision machined parts, aerospace); Level 4 (ultra-high sensitivity — the most sensitive available, required for critical aerospace components like turbine blades, compressor discs, and landing gear). Sensitivity level is selected based on the criticality of the component and the minimum defect size that must be detected. Higher sensitivity penetrants require more rigorous processing, controlled environments, and certified operators.",
+  },
+];
+
+const ptMethods = [
+  {
+    name: "Visible Dye Penetrant (Solvent Removable)",
+    code: "ASME V Art 6, ASTM E165",
+    industries: "General industrial, structural welds, field inspection",
+    detail: "Red-colored dye penetrant is applied to the surface and allowed to dwell (typically 5–30 minutes), then removed with a solvent-dampened cloth, and white developer is applied. Red indications on the white developer background are viewed under white light. This is the most portable and field-friendly PT method — kits fit in a briefcase, require no electricity, and can be used in remote locations. Sensitivity is lower than fluorescent PT but adequate for most structural and piping weld inspections per ASME V Article 6 and AWS D1.1.",
+  },
+  {
+    name: "Fluorescent Penetrant Inspection (FPI)",
+    code: "AMS 2644, ASTM E1417, ASME V Art 6",
+    industries: "Aerospace, power generation, critical components",
+    detail: "Fluorescent penetrant (containing UV-reactive dye) is applied, allowed to dwell, removed by solvent or water wash, then developer is applied. Inspection is performed under UV-A black light (minimum 1,000 microwatts/cm² at 365nm) in a darkened environment. Bright yellow-green indications glow against a dark background, providing superior sensitivity. FPI is available in AMS 2644 sensitivity Levels 1/2, 2, 3, and 4. It is the mandatory method for aerospace safety-critical parts including turbine blades, compressor discs, engine cases, and landing gear.",
+  },
+  {
+    name: "Water Washable PT",
+    code: "ASME V Art 6, ASTM E1417 Type I/Method A",
+    industries: "High-volume production, casting lines, large parts",
+    detail: "Water washable penetrants contain built-in emulsifiers allowing direct water rinse to remove excess penetrant without a separate solvent step. This makes the process faster and suitable for high-volume production environments — large batches of castings or machined parts can be processed efficiently. Available in both visible and fluorescent formulations. Main limitation: over-washing with high pressure or excessive water can wash penetrant out of fine defects, reducing sensitivity. Requires controlled water pressure and temperature.",
+  },
+  {
+    name: "Post-Emulsifiable PT",
+    code: "AMS 2644, ASTM E1417 Type I/Method B or D",
+    industries: "Aerospace, nuclear, highest-sensitivity applications",
+    detail: "Post-emulsifiable penetrants cannot be removed by water alone — a separate emulsifier application step is required after dwell time to make surface penetrant water-washable, while penetrant trapped in defects remains. This two-stage removal gives greater control and higher sensitivity for tight, fine defects. Lipophilic (oil-based) and hydrophilic (water-based) emulsifiers give different process characteristics. PE PT achieves the highest sensitivity levels (Level 3 and 4 per AMS 2644) and is required for the most critical aerospace and nuclear applications.",
+  },
+];
+
+const sensitivityLevels = [
+  { level: "Level 1/2", sensitivity: "Low", use: "Coarse, wide defects in rough-surface castings", typical: "General castings, weldments" },
+  { level: "Level 2", sensitivity: "Medium", use: "General industrial inspection, standard aerospace", typical: "Most structural and piping welds" },
+  { level: "Level 3", sensitivity: "High", use: "Precision machined parts, fatigue cracks", typical: "Engine components, aerospace structures" },
+  { level: "Level 4", sensitivity: "Ultra-High", use: "Most critical aerospace and nuclear parts", typical: "Turbine blades, landing gear, compressor discs" },
+];
+
+const industries = [
+  {
+    title: "Aerospace",
+    detail: "Turbine blades, compressor discs, engine cases, landing gear, and fastener holes. FPI (fluorescent penetrant inspection) is mandatory for most aerospace safety-critical parts per AMS 2644 and NAS-410 personnel qualification requirements. NADCAP audits cover PT process control, UV light intensity, and reference standard usage.",
+    link: "/ndt-for-aerospace",
+  },
+  {
+    title: "Oil & Gas",
+    detail: "Weld inspection of non-ferromagnetic alloys (austenitic stainless steel, duplex SS, nickel alloys), valve bodies, pump impellers, and flange faces. PT is used when MT cannot be applied and for verification of weld root passes before back-gouging in critical pressure vessel and piping fabrication per ASME Section V Article 6 and API 570.",
+    link: "/ndt-for-oil-gas",
+  },
+  {
+    title: "Power Generation",
+    detail: "Turbine components (nickel superalloy blades and vanes), heat exchanger tube sheets, steam line welds, and precision machined components. PT detects fatigue cracks and stress corrosion cracking in non-ferromagnetic high-temperature alloys used in gas turbine hot sections and nuclear plant components.",
+    link: "/ndt-for-power-generation",
+  },
+  {
+    title: "Manufacturing",
+    detail: "Casting inspection for shrinkage porosity, cold shuts, and laps; forging quality control; precision machined part inspection; and welding QC for non-ferromagnetic materials. PT is the standard surface inspection method for aluminum aircraft structures, titanium aerospace hardware, and stainless steel process equipment.",
+    link: "/consulting",
+  },
+];
+
+const governingCodes = [
+  { std: "ASME Section V, Article 6", scope: "PT of welds and base material for pressure vessels and boilers" },
+  { std: "ASME Section V, Article 24", scope: "Supplementary requirements and general PT standards/procedures" },
+  { std: "ASTM E165", scope: "PT general industrial practice — procedure and acceptance" },
+  { std: "ASTM E1417", scope: "Fluorescent PT for aerospace — process controls and qualification" },
+  { std: "AMS 2644", scope: "FPI qualification specification — sensitivity levels 1/2 through 4" },
+  { std: "API 570 Appendix B", scope: "PT for in-service piping inspection under piping inspection code" },
+  { std: "AWS D1.1", scope: "PT for structural steel welds — buildings, bridges, and structures" },
+  { std: "NAS-410 / AMS 2644", scope: "Aerospace personnel qualification for PT/FPI inspection" },
+];
+
+const comparisonRows = [
+  { feature: "Works on non-ferromagnetic materials", pt: "Yes", mt: "No", et: "Yes (conductive only)" },
+  { feature: "Detects surface-breaking defects", pt: "Yes", mt: "Yes", et: "Yes" },
+  { feature: "Detects near-surface subsurface defects", pt: "No", mt: "Yes (~6mm)", et: "Yes (~6mm)" },
+  { feature: "Works on composites / ceramics", pt: "Yes (non-porous)", mt: "No", et: "No" },
+  { feature: "Requires couplant or carrier", pt: "Yes (penetrant)", mt: "Yes (particles)", et: "No" },
+  { feature: "Works through coatings", pt: "No (usually)", mt: "Thin only", et: "Yes (PEC)" },
+  { feature: "Aerospace standard method", pt: "FPI (AMS 2644)", mt: "AMS 2640", et: "Yes" },
+  { feature: "Common oil & gas standard", pt: "ASME V Art 6", mt: "ASME V Art 7", et: "ASME V Art 8" },
+];
+
+function FAQItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border border-slate-200 rounded-xl overflow-hidden">
+      <button
+        className="w-full flex items-center justify-between p-5 text-left font-semibold text-slate-800 bg-white hover:bg-slate-50 transition"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+      >
+        <span>{q}</span>
+        {open ? <ChevronUp className="w-5 h-5 text-[#004aad] flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#004aad] flex-shrink-0" />}
+      </button>
+      {open && (
+        <div className="px-5 pb-5 text-slate-600 leading-relaxed bg-white border-t border-slate-100">
+          {a}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function PenetrantTesting() {
-   // BlogPosting + FAQPage schema for rich snippets
-   const structuredData = {
-      "@context": "https://schema.org",
-      "@graph": [
-         {
-            "@type": "BlogPosting",
-            "headline": "Complete Guide to Liquid Penetrant Testing (PT) | Surface Defect Detection",
-            "description": "Learn how Liquid Penetrant Testing detects surface-breaking defects in metals, plastics, and ceramics using dye penetrants.",
-            "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-            "publisher": {
-               "@type": "Organization",
-               "name": "Atlantis NDT",
-               "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" }
-            },
-            "datePublished": "2025-10-12",
-            "dateModified": "2026-01-04",
-            "mainEntityOfPage": {
-               "@type": "WebPage",
-               "@id": "https://atlantisndt.com/blog/penetrant-testing",
-            },
-            "keywords": "penetrant testing, liquid penetrant testing, PT, dye penetrant testing, surface defects"
-         },
-         {
-            "@type": "FAQPage",
-            "mainEntity": [
-               {
-                  "@type": "Question",
-                  "name": "What is Liquid Penetrant Testing?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "Liquid Penetrant Testing (PT or LPT) is a non-destructive testing method that uses a colored or fluorescent dye to detect surface-breaking defects like cracks, porosity, and laps in non-porous materials."
-                  }
-               },
-               {
-                  "@type": "Question",
-                  "name": "What materials can be tested with Penetrant Testing?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "PT can be used on any non-porous material including metals (ferrous and non-ferrous), ceramics, plastics, and glass. It works on aluminum, stainless steel, titanium, and other non-magnetic materials where magnetic particle testing cannot be used."
-                  }
-               },
-               {
-                  "@type": "Question",
-                  "name": "What is the difference between visible and fluorescent penetrant?",
-                  "acceptedAnswer": {
-                     "@type": "Answer",
-                     "text": "Visible (red) penetrants are viewed under white light and are suitable for field inspections. Fluorescent penetrants glow under UV/black light and offer higher sensitivity for detecting smaller defects, commonly used in aerospace applications."
-                  }
-               }
-            ]
-         }
-      ]
-   };
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://atlantisndt.com/penetrant-testing",
+        "headline": "Liquid Penetrant Testing (PT/FPI): Complete Guide 2026 — Methods, Codes, Applications & Certification",
+        "description": "Comprehensive guide to liquid penetrant testing: visible dye, fluorescent FPI, water washable, post-emulsifiable. ASME V Article 6, AMS 2644, ASTM E1417. Level I-III PT training and consulting.",
+        "datePublished": "2025-10-12",
+        "dateModified": "2026-02-25",
+        "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/favicon-96x96.jpg" },
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://atlantisndt.com/penetrant-testing" },
+        "keywords": "liquid penetrant testing, PT NDT, dye penetrant testing, fluorescent penetrant inspection, FPI aerospace, ASME Section V Article 6, PT certification, surface crack detection NDT",
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((f) => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a },
+        })),
+      },
+    ],
+  };
 
-   const advantages = [
-      {
-         icon: Zap,
-         title: "Fast Detection",
-         description: "Quickly identifies surface defects.",
-      },
-      {
-         icon: Target,
-         title: "High Accuracy",
-         description: "Reveals cracks, porosity, and seams clearly.",
-      },
-      {
-         icon: Gauge,
-         title: "Cost-Effective",
-         description: "Simple method requiring minimal equipment.",
-      },
-      {
-         icon: Shield,
-         title: "Versatile",
-         description: "Suitable for metals, ceramics, and plastics.",
-      },
-      {
-         icon: Clock,
-         title: "Minimal Downtime",
-         description: "Rapid inspections reduce operational delays.",
-      },
-   ];
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <Navigation />
 
-   const applications = [
-      {
-         title: "Weld Inspection",
-         description: "Detects cracks and discontinuities in welds.",
-      },
-      {
-         title: "Casting and Forging",
-         description: "Reveals surface defects in manufactured components.",
-      },
-      {
-         title: "Aerospace Components",
-         description: "Ensures safety and reliability of critical parts.",
-      },
-      {
-         title: "Automotive Industry",
-         description: "Checks engine parts and critical structures.",
-      },
-      {
-         title: "Pipeline & Pressure Vessels",
-         description: "Maintains integrity of pressure-containing components.",
-      },
-   ];
+      <SEOHead
+        title="Liquid Penetrant Testing (PT/FPI) | Surface Crack Detection | ASME V Art 6 | Atlantis NDT"
+        description="Complete guide to liquid penetrant testing: visible dye, fluorescent FPI, water washable, post-emulsifiable. ASME V Article 6, AMS 2644, ASTM E1417. Level I-III PT training and consulting."
+        keywords="liquid penetrant testing, PT NDT, dye penetrant testing, fluorescent penetrant inspection, FPI aerospace, ASME Section V Article 6, PT certification, surface crack detection NDT, penetrant testing procedure, AMS 2644, ASTM E1417, PT Level II, Level III PT"
+        structuredData={structuredData}
+        canonical="https://atlantisndt.com/penetrant-testing"
+      />
+      <Breadcrumbs />
 
-   const bestPractices = [
-      "Clean surface thoroughly before testing",
-      "Apply the correct type of penetrant for the material",
-      "Use proper dwell time for accurate defect revelation",
-      "Remove excess penetrant carefully to avoid false indications",
-      "Use appropriate developer and inspection lighting",
-   ];
-
-   return (
-      <div className="min-h-screen bg-slate-50">
-         <Navigation />
-
-         <SEOHead
-            title="Liquid Penetrant Testing (PT) 2026 Guide | Dye Penetrant Inspection | Atlantis NDT"
-            description="Expert Liquid Penetrant Testing services & Level III consulting. Fast surface crack detection for welds, aerospace, aluminum. Training per SNT-TC-1A. Get certified PT training today!"
-            keywords="penetrant testing, liquid penetrant testing, PT inspection, dye penetrant testing, LPT, fluorescent penetrant, surface crack detection, NDT methods, non-destructive testing, PT training, Level II PT, Level III PT"
-            structuredData={structuredData}
-            canonical="https://atlantisndt.com/blog/penetrant-testing"
-         />
-         <Breadcrumbs />
-
-
-         <section className="relative bg-white shadow-md">
-            <div className="container mx-auto max-w-6xl px-6 py-16 text-center">
-               <h1
-                  className="text-4xl md:text-5xl font-bold mb-4"
-                  style={{ color: "#004aad" }}
-               >
-                  Penetrant Testing: Detecting Surface Defects
-               </h1>
-               <p className="text-slate-600 mb-4">October 10, 2025</p>
-               <p className="text-lg md:text-xl text-slate-700">
-                  Liquid Penetrant Testing (PT) is a reliable NDT method for
-                  identifying surface-breaking defects by applying a visible or
-                  fluorescent dye.
-               </p>
+      {/* Hero */}
+      <section className="bg-[#004aad] text-white py-16">
+        <div className="container mx-auto max-w-6xl px-6">
+          <div className="max-w-3xl">
+            <p className="text-blue-200 text-sm font-medium mb-3 uppercase tracking-wider">NDT Method Guide · Updated February 2026</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
+              Liquid Penetrant Testing (PT/FPI) | Surface Defect Detection | Any Material | Atlantis NDT
+            </h1>
+            <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              Everything you need to know about PT and FPI — from capillary action principles and sensitivity levels to ASME V Article 6 compliance, AMS 2644 aerospace requirements, and ASNT Level I–III certification.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/contact" className="bg-white text-[#004aad] font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                Get PT Consulting
+              </Link>
+              <Link to="/training" className="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                PT Training &amp; Certification
+              </Link>
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         <main className="container mx-auto max-w-6xl px-6 py-16 grid md:grid-cols-3 gap-12">
-            {/* Blog Content */}
-            <article className="md:col-span-2 space-y-12">
-               {/* Introduction */}
-               <div className="bg-white rounded-2xl p-8 shadow border border-slate-100">
-                  <p className="text-lg text-slate-700 leading-relaxed">
-                     Penetrant Testing (PT) is a widely used{" "}
-                     <span className="font-semibold text-blue-600">
-                        Non-Destructive Testing (NDT)
-                     </span>{" "}
-                     technique to detect surface-breaking defects in ferrous and
-                     non-ferrous materials. It works by applying a liquid
-                     penetrant, allowing it to seep into cracks or pores, then
-                     removing excess liquid and applying a developer to reveal
-                     indications.
-                  </p>
-               </div>
-
-               {/* Advantages */}
-               <div id="advantages">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-                     Key Advantages
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-6">
-                     {advantages.map((adv, idx) => {
-                        const Icon = adv.icon;
-                        return (
-                           <div
-                              key={idx}
-                              className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:shadow-lg transition"
-                           >
-                              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-[#004aad] rounded-lg flex items-center justify-center mb-3">
-                                 <Icon className="w-6 h-6 text-white" />
-                              </div>
-                              <h3 className="text-lg font-semibold mb-2 text-slate-900">
-                                 {adv.title}
-                              </h3>
-                              <p className="text-slate-600">
-                                 {adv.description}
-                              </p>
-                           </div>
-                        );
-                     })}
-                  </div>
-               </div>
-
-               {/* Applications */}
-               <div id="applications">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900">
-                     Applications
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-6">
-                     {applications.map((app, idx) => (
-                        <div
-                           key={idx}
-                           className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:border-blue-300 transition"
-                        >
-                           <h3 className="text-xl font-semibold mb-2 text-blue-600">
-                              {app.title}
-                           </h3>
-                           <p className="text-slate-600">{app.description}</p>
-                        </div>
-                     ))}
-                  </div>
-               </div>
-
-               {/* Best Practices */}
-               <div
-                  id="best-practices"
-                  className="bg-white rounded-2xl p-8 shadow border border-slate-100"
-               >
-                  <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900">
-                     Best Practices
-                  </h2>
-                  <ul className="space-y-3">
-                     {bestPractices.map((bp, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                           <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
-                           <span className="text-slate-700 text-lg">{bp}</span>
-                        </li>
-                     ))}
-                  </ul>
-               </div>
-            </article>
-
-            {/* Sidebar */}
-            <aside className="hidden md:block md:col-span-1 space-y-6">
-               <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
-                  <h3 className="text-xl font-semibold mb-4 text-slate-900">
-                     Quick Links
-                  </h3>
-                  <ul className="space-y-3 text-slate-700">
-                     <li>
-                        <a
-                           href="#advantages"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Advantages
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#applications"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Applications
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="#best-practices"
-                           className="hover:text-[#004aad] transition"
-                        >
-                           Best Practices
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-               <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
-                  <h3 className="text-xl font-semibold mb-4 text-slate-900">
-                     Need Consultation?
-                  </h3>
-                  <p className="text-slate-700 mb-4">
-                     Contact our NDT experts for a free consultation and
-                     inspection quote.
-                  </p>
-                  <a
-                     href="/contact"
-                     className="inline-block bg-[#004aad] hover:bg-blue-700 text-white px-4 py-2 rounded transition"
-                  >
-                     Contact Us
-                  </a>
-               </div>
-               <div className="bg-green-50 p-6 rounded-xl shadow border border-green-200">
-                  <h3 className="text-xl font-semibold mb-4 text-green-700">
-                     Related Services
-                  </h3>
-                  <ul className="space-y-3 text-slate-700">
-                     <li>
-                        <a href="/training" className="hover:text-green-700 transition font-medium">
-                           → PT Training & Certification
-                        </a>
-                     </li>
-                     <li>
-                        <a href="/consulting" className="hover:text-green-700 transition font-medium">
-                           → Level III PT Consulting
-                        </a>
-                     </li>
-                     <li>
-                        <a href="/ndt-methods" className="hover:text-green-700 transition font-medium">
-                           → All NDT Methods
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </aside>
-         </main>
-         <ContactDetails />
+      {/* Stats Bar */}
+      <div className="bg-white border-b border-slate-200">
+        <div className="container mx-auto max-w-6xl px-6 py-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            {[
+              { label: "Material Scope", value: "All Non-Porous" },
+              { label: "Code Compliance", value: "ASME V Art 6" },
+              { label: "Detection Scope", value: "Surface Defects Only" },
+              { label: "Certification", value: "Level I–III Training" },
+            ].map((s, i) => (
+              <div key={i} className="py-2">
+                <div className="text-[#004aad] font-bold text-lg">{s.value}</div>
+                <div className="text-slate-500 text-sm">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-   );
+
+      {/* Quick Nav */}
+      <div className="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+        <div className="container mx-auto max-w-6xl px-6 overflow-x-auto">
+          <nav className="flex gap-6 text-sm font-medium text-slate-600 py-3 whitespace-nowrap">
+            {["How PT Works", "PT Methods", "Sensitivity Levels", "Governing Codes", "Applications", "PT vs MT vs ET", "Certification", "FAQ"].map((s) => (
+              <a key={s} href={`#${s.toLowerCase().replace(/ /g, "-")}`} className="hover:text-[#004aad] transition py-1">
+                {s}
+              </a>
+            ))}
+          </nav>
+        </div>
+      </div>
+
+      <div className="container mx-auto max-w-6xl px-6 py-12 grid md:grid-cols-3 gap-12">
+        {/* Main Content */}
+        <article className="md:col-span-2 space-y-14">
+
+          {/* Introduction */}
+          <section>
+            <h2 id="how-pt-works" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              What Is Liquid Penetrant Testing and How Does It Work?
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              <strong>Liquid Penetrant Testing (PT)</strong>, also called Dye Penetrant Testing or Liquid Penetrant Inspection (LPI), is a non-destructive testing method used to detect surface-breaking discontinuities in any non-porous material. It is one of the most universally applicable NDT methods — working on carbon steel, stainless steel, aluminum, titanium, nickel alloys, ceramics, glass, and many plastics and composites. In aerospace, the fluorescent variant is known as <strong>Fluorescent Penetrant Inspection (FPI)</strong> and is the industry standard for safety-critical part inspection.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              The physical mechanism of PT relies on <strong>capillary action</strong>. When a liquid penetrant with low surface tension and high wetting ability is applied to a clean, dry surface and allowed to dwell, capillary forces draw the penetrant into any surface-breaking discontinuity — cracks, pores, seams, laps, and cold shuts. After the appropriate dwell time (typically 5–60 minutes depending on material, temperature, and defect type), excess penetrant is removed from the surface. A developer is then applied, which acts as a blotter: it draws trapped penetrant back out of the defect by reverse capillary action, creating a visible indication on the developer background.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              With <strong>visible (red) dye penetrant</strong>, indications appear as red marks on a white developer background, viewed under white light. With <strong>fluorescent penetrant</strong>, indications glow bright yellow-green under UV-A (365nm) black light in a darkened environment, providing dramatically higher contrast and sensitivity. Fluorescent PT is required for most aerospace applications per AMS 2644 and ASTM E1417.
+            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-5">
+              The key advantage of PT over Magnetic Particle Testing (MT) is its <strong>universal material applicability</strong>. MT is limited to ferromagnetic materials only. PT works on all non-porous materials — making it the only practical surface crack detection method for aluminum aircraft structures, titanium aerospace hardware, austenitic stainless steel pressure equipment, nickel superalloy turbine blades, and ceramic or glass components. Industries routinely applying PT include aerospace (FPI for turbine blades and landing gear), oil &amp; gas (austenitic and duplex stainless weld inspection), power generation, and precision manufacturing of castings and machined parts.
+            </p>
+            <div className="bg-blue-50 border-l-4 border-[#004aad] rounded-r-xl p-6">
+              <h3 className="font-bold text-[#004aad] mb-2">Key PT Physical Principles</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Capillary action:</strong> Low surface-tension penetrant wicks into surface-open defects during dwell time. Longer dwell = deeper penetration into tight cracks.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Developer blotting:</strong> Developer draws trapped penetrant back to the surface, creating a magnified indication wider than the actual defect opening.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Surface preparation critical:</strong> Oil, grease, paint, or scale must be removed before penetrant application — contaminants in the defect block penetrant entry.</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span><strong>Surface-only limitation:</strong> PT cannot detect subsurface defects with no surface opening. For embedded defects, UT or RT is required.</span></li>
+              </ul>
+            </div>
+          </section>
+
+          {/* PT Methods */}
+          <section>
+            <h2 id="pt-methods" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              PT Methods: Choosing the Right Penetrant System
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+              Four primary PT method families are defined by ASME Section V Article 6, ASTM E1417, and AMS 2644. Selection depends on the required sensitivity level, material compatibility, production volume, and whether the inspection is in the field or a controlled laboratory environment.
+            </p>
+            <div className="space-y-6">
+              {ptMethods.map((method, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-100">
+                  <h3 className="text-xl font-bold mb-1" style={{ color: "#004aad" }}>{method.name}</h3>
+                  <div className="flex flex-wrap gap-3 mb-3">
+                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">{method.code}</span>
+                    <span className="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded">{method.industries}</span>
+                  </div>
+                  <p className="text-slate-700 leading-relaxed">{method.detail}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Sensitivity Levels */}
+          <section>
+            <h2 id="sensitivity-levels" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              Fluorescent PT Sensitivity Levels (AMS 2644 / ASTM E1417)
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              AMS 2644 and ASTM E1417 define fluorescent penetrant sensitivity levels for aerospace and industrial applications. Higher sensitivity levels detect smaller defects but require more rigorous process control, qualified operators, and controlled inspection environments.
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-slate-200 shadow mb-6">
+              <table className="w-full text-sm">
+                <thead className="bg-[#004aad] text-white">
+                  <tr>
+                    <th className="text-left p-4 font-semibold">Sensitivity Level</th>
+                    <th className="text-left p-4 font-semibold">Sensitivity</th>
+                    <th className="text-left p-4 font-semibold">Application</th>
+                    <th className="text-left p-4 font-semibold">Typical Parts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {sensitivityLevels.map((row, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                      <td className="p-4 font-semibold text-[#004aad]">{row.level}</td>
+                      <td className="p-4 text-slate-700">{row.sensitivity}</td>
+                      <td className="p-4 text-slate-700">{row.use}</td>
+                      <td className="p-4 text-slate-600">{row.typical}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-slate-600 text-sm">
+              Note: Sensitivity level selection is specified by the engineering drawing, acceptance standard, or quality plan. Inspectors must use the specified level — substituting a lower sensitivity level for convenience is a non-conformance under AMS 2644 and ASTM E1417.
+            </p>
+          </section>
+
+          {/* Governing Codes */}
+          <section>
+            <h2 id="governing-codes" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              PT Governing Codes &amp; Standards
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              PT must be performed to a written procedure approved by an ASNT Level III, referencing the applicable standard. The procedure specifies penetrant type and sensitivity level, dwell time, removal method, developer type, inspection lighting, and acceptance criteria.
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              {governingCodes.map((s, i) => (
+                <div key={i} className="flex gap-3 bg-white rounded-xl p-4 shadow border border-slate-100">
+                  <div className="w-2 bg-[#004aad] rounded-full flex-shrink-0 min-h-[40px]" />
+                  <div>
+                    <p className="font-semibold text-[#004aad]">{s.std}</p>
+                    <p className="text-slate-600 text-sm">{s.scope}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Applications by Industry */}
+          <section>
+            <h2 id="applications" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              PT Applications by Industry
+            </h2>
+            <div className="grid md:grid-cols-2 gap-5">
+              {industries.map((app, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-100 hover:border-[#004aad] transition">
+                  <h3 className="text-lg font-bold mb-2" style={{ color: "#004aad" }}>{app.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-3">{app.detail}</p>
+                  <Link to={app.link} className="text-[#004aad] text-sm font-medium hover:underline">
+                    Learn more →
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* PT vs MT vs ET comparison table */}
+          <section>
+            <h2 id="pt-vs-mt-vs-et" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              Comparison: PT vs MT vs ET
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              Choosing the right surface NDT method depends on the material, defect type, geometry, and applicable code. This comparison covers the three primary surface and near-surface NDT methods.
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-slate-200 shadow">
+              <table className="w-full text-sm">
+                <thead className="bg-[#004aad] text-white">
+                  <tr>
+                    <th className="text-left p-4 font-semibold">Feature</th>
+                    <th className="text-left p-4 font-semibold">PT</th>
+                    <th className="text-left p-4 font-semibold">MT</th>
+                    <th className="text-left p-4 font-semibold">ET</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {comparisonRows.map((row, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                      <td className="p-4 font-semibold text-slate-700">{row.feature}</td>
+                      <td className="p-4 text-slate-600">{row.pt}</td>
+                      <td className="p-4 text-slate-600">{row.mt}</td>
+                      <td className="p-4 text-slate-600">{row.et}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          {/* Certification */}
+          <section className="bg-white rounded-2xl p-8 shadow border border-slate-100">
+            <h2 id="certification" className="text-3xl font-bold mb-5" style={{ color: "#004aad" }}>
+              PT Certification: ASNT, ISO 9712 &amp; NAS-410
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-5">
+              PT technicians must be certified to perform and interpret inspections on code-required work. The most widely recognised certification schemes are ASNT SNT-TC-1A (USA industrial), ISO 9712 (international/Europe), and NAS-410 (aerospace). For aerospace FPI work, many customers also require AMS 2644 process qualification in addition to personnel certification.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              {[
+                {
+                  level: "Level I",
+                  desc: "Performs PT under supervision per written procedure. Applies penetrant, removes excess, applies developer. Records indications. Cannot independently accept or reject.",
+                  hours: "16+ training hours (SNT-TC-1A minimum) | 200+ field hours",
+                },
+                {
+                  level: "Level II",
+                  desc: "Independently performs, interprets, and accepts/rejects PT results. Writes examination procedures. Trains and supervises Level I. Certifies inspection reports.",
+                  hours: "80+ training hours | 1,600+ field hours (200 with engineering degree)",
+                },
+                {
+                  level: "Level III",
+                  desc: "Highest authority for PT. Certifies Level I and II personnel, approves procedures and written practices, manages PT programs, and provides employer-level qualification sign-off.",
+                  hours: "Degree + experience + ASNT Basic + Method written exams",
+                },
+              ].map((l, i) => (
+                <div key={i} className="bg-blue-50 rounded-xl p-5 border border-blue-100">
+                  <div className="text-[#004aad] font-bold text-lg mb-2">{l.level}</div>
+                  <p className="text-slate-700 text-sm mb-3">{l.desc}</p>
+                  <p className="text-slate-500 text-xs">{l.hours}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-slate-700 mb-4">
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 PT training at Level I, II, and III globally — including Dubai, Houston, India, Singapore, and online formats. For aerospace clients, our instructors cover NAS-410 and AMS 2644 requirements including UV light verification, reference standard usage, and process control documentation.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">
+                View PT Training Courses
+              </Link>
+              <Link to="/asnt-certification" className="border border-[#004aad] text-[#004aad] px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                ASNT Certification Guide
+              </Link>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section>
+            <h2 id="faq" className="text-3xl font-bold mb-6" style={{ color: "#004aad" }}>
+              Liquid Penetrant Testing — Frequently Asked Questions
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((f, i) => (
+                <FAQItem key={i} q={f.q} a={f.a} />
+              ))}
+            </div>
+          </section>
+
+          {/* CTA */}
+          <section className="bg-[#004aad] rounded-2xl p-8 text-white">
+            <h2 className="text-2xl font-bold mb-3">Ready to Start PT Inspection Training or Consulting?</h2>
+            <p className="text-blue-100 mb-6 leading-relaxed">
+              Atlantis NDT provides ASNT-certified Liquid Penetrant Testing training (Level I–III), FPI procedure development per AMS 2644 and ASTM E1417, and Level III PT consulting across the USA, Middle East, India, Asia-Pacific, and Europe. Contact our team for a scope of work and quote.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link to="/contact" className="bg-white text-[#004aad] font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                Get a Quote
+              </Link>
+              <Link to="/training" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                PT Training Courses
+              </Link>
+              <Link to="/consulting" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition">
+                Level III PT Consulting
+              </Link>
+            </div>
+          </section>
+
+        </article>
+
+        {/* Sidebar */}
+        <aside className="hidden md:block md:col-span-1 space-y-6 mt-2">
+          <div className="bg-white p-6 rounded-xl shadow border border-slate-100 sticky top-16">
+            <h3 className="text-lg font-bold mb-4" style={{ color: "#004aad" }}>On This Page</h3>
+            <ul className="space-y-2 text-sm text-slate-600">
+              {[
+                ["#how-pt-works", "How PT Works"],
+                ["#pt-methods", "PT Methods (4)"],
+                ["#sensitivity-levels", "Sensitivity Levels"],
+                ["#governing-codes", "Governing Codes"],
+                ["#applications", "Applications by Industry"],
+                ["#pt-vs-mt-vs-et", "PT vs MT vs ET"],
+                ["#certification", "ASNT / ISO 9712 Certification"],
+                ["#faq", "FAQ (8 questions)"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <a href={href} className="hover:text-[#004aad] transition flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-[#004aad] rounded-full flex-shrink-0" />
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow border border-slate-100">
+            <h3 className="text-lg font-bold mb-3" style={{ color: "#004aad" }}>Related NDT Methods</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                ["/magnetic-particle-testing", "Magnetic Particle Testing (MT)"],
+                ["/ultrasonic-testing", "Ultrasonic Testing (UT)"],
+                ["/eddy-current-testing", "Eddy Current Testing (ET)"],
+                ["/radiographic-testing", "Radiographic Testing (RT)"],
+                ["/visual-testing", "Visual Testing (VT)"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} className="text-[#004aad] hover:underline">
+                    → {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-green-50 p-6 rounded-xl shadow border border-green-200">
+            <h3 className="text-lg font-bold mb-3 text-green-800">PT Services &amp; Training</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                ["/training", "PT Level I/II Training"],
+                ["/asnt-certification", "ASNT PT Certification"],
+                ["/consulting", "Level III PT Consulting"],
+                ["/ndt-for-aerospace", "PT/FPI for Aerospace"],
+                ["/ndt-for-oil-gas", "PT for Oil & Gas"],
+              ].map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} className="text-green-800 hover:underline font-medium">
+                    → {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
+            <h3 className="text-lg font-bold mb-3">Need PT Consultation?</h3>
+            <p className="text-blue-100 text-sm mb-4">
+              Our ASNT Level III PT engineers provide procedure development, AMS 2644 FPI qualification, and written practice management for ASME V, API, AWS, and NAS-410 codes.
+            </p>
+            <Link to="/contact" className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm">
+              Contact Our PT Experts
+            </Link>
+          </div>
+        </aside>
+      </div>
+
+      <ContactDetails />
+    </div>
+  );
 }
