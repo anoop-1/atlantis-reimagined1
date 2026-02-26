@@ -1,0 +1,1 @@
+import{j as o}from"./index-BVWl4bNX.js";import{C as t}from"./ConsultingLocationPage-DHBzBk3V.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CP5L6aIz.js";function a(){return o.jsx(t,{locationSlug:"tulsa"})}export{a as default};

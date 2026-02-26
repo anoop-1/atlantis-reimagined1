@@ -1,0 +1,1 @@
+import{j as t}from"./index-BVWl4bNX.js";import{E as r}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function u(){return t.jsx(r,{city:"Muscat",country:"Oman",slug:"ndt-erp-muscat"})}export{u as default};

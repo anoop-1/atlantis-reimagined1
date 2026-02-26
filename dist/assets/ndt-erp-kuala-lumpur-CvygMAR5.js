@@ -1,0 +1,1 @@
+import{j as r}from"./index-BVWl4bNX.js";import{E as a}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function p(){return r.jsx(a,{city:"Kuala Lumpur",country:"Malaysia",slug:"ndt-erp-kuala-lumpur"})}export{p as default};

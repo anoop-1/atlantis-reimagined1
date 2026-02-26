@@ -1,0 +1,1 @@
+import{j as i}from"./index-BVWl4bNX.js";import{D as a}from"./DigitalTwinLocationPage-DElp-uaD.js";import"./monitor-C1uSM988.js";import"./chart-no-axes-column-CIvZvf8r.js";import"./file-text-CP5L6aIz.js";function l(){return i.jsx(a,{city:"Kuala Lumpur",country:"Malaysia",slug:"digital-twin-kuala-lumpur"})}export{l as default};

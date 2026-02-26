@@ -23,3 +23,7 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# GSC credentials (never commit)
+scripts/gsc-service-account.json
+scripts/indexing-progress.json

@@ -1,0 +1,1 @@
+import{j as r}from"./index-BVWl4bNX.js";import{E as t}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function m(){return r.jsx(t,{city:"Mumbai",country:"India",slug:"ndt-erp-mumbai"})}export{m as default};

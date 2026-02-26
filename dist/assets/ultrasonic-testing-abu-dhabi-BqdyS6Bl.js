@@ -1,1 +1,0 @@
-import{j as t}from"./index-BFpg19ZX.js";import{M as o}from"./MethodLocationPage-D6eP3cOy.js";import"./programmatic-seo-BNa9jy8q.js";function u(){return t.jsx(o,{methodSlug:"ultrasonic-testing",locationSlug:"abu-dhabi"})}export{u as default};

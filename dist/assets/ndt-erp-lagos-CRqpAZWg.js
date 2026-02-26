@@ -1,0 +1,1 @@
+import{j as o}from"./index-BVWl4bNX.js";import{E as r}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function i(){return o.jsx(r,{city:"Lagos",country:"Nigeria",slug:"ndt-erp-lagos"})}export{i as default};

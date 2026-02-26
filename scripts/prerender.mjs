@@ -610,6 +610,109 @@ routes.push({
   bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/guided-wave-testing">Guided Wave Testing</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Corrosion Under Insulation (CUI) | Detection Methods &amp; Inspection Programme</h1>\n    <p>Corrosion under insulation is one of the costliest damage mechanisms in the oil &amp; gas and petrochemical industries. This guide covers CUI risk factors, the five proven detection technologies (GWT, PEC, Profile RT, UT, IRT), governing codes (API RP 583, API 570, API 510), and a 6-step CUI management programme. Atlantis NDT provides CUI inspection consulting and Level III programme design globally.</p>\n  </main>`,
 });
 
+// ── High-Priority Keyword Pages (2026) ───────────────────────────────────
+routes.push({
+  path: '/weld-inspection',
+  title: 'Weld Inspection Services | AWS D1.1, ASME IX, API 1104 | Atlantis NDT',
+  description: 'Expert weld inspection guide: NDT methods for weld quality control (RT, UT, PAUT, MT, PT, VT), weld defect types, governing codes AWS D1.1, ASME Section IX, API 1104. PAUT replacing RT for most weld applications. ASNT Level III consulting.',
+  canonical: `${SITE_URL}/weld-inspection`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/phased-array-ut">PAUT</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Weld Inspection Services | NDT Methods for Weld Quality Control</h1>\n    <p>Weld inspection is the single largest application of NDT — approximately 15% of all industrial NDT globally. This guide covers all major weld inspection methods (RT, PAUT, UT, MT, PT, VT), weld defect types and best NDT method for each, governing codes (AWS D1.1, ASME Section IX, API 1104, EN ISO 17638), PAUT vs RT comparison, and inspection procedure requirements. ASNT Level III weld inspection consulting from Atlantis NDT.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/acoustic-emission-testing',
+  title: 'Acoustic Emission Testing (AET) | Pressure Vessel & Pipeline Monitoring | Atlantis NDT',
+  description: 'Complete guide to acoustic emission testing: passive stress wave monitoring for pressure vessels, storage tank floors, pipeline leak detection. ASME Section V Article 12, ASTM E569. Whole-structure monitoring without internal access.',
+  canonical: `${SITE_URL}/acoustic-emission-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/ultrasonic-testing">Ultrasonic Testing</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Acoustic Emission Testing (AET) | In-Service Pressure Vessel &amp; Pipeline Monitoring</h1>\n    <p>Acoustic Emission Testing (AET) is a passive NDT technique that monitors entire structures simultaneously by detecting stress waves from active defects, corrosion, and leaks. Unlike RT or UT which inspect one location at a time, AET uses a fixed sensor array to screen complete vessels, tank floors, or pipeline sections while equipment remains in service. ASME Section V Article 12/13, ASTM E569. Atlantis NDT provides AET program design and Level III consulting globally.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/magnetic-flux-leakage-testing',
+  title: 'Magnetic Flux Leakage Testing (MFL) | Tank Floor & Pipeline Inspection | Atlantis NDT',
+  description: 'Complete guide to Magnetic Flux Leakage (MFL) testing: tank floor inspection per API 653 Appendix C, in-line pipeline inspection (ILI pigging), well casing, wire rope. Hall effect sensors, MFL vs UT, API 653/1163/NACE SP0102 standards.',
+  canonical: `${SITE_URL}/magnetic-flux-leakage-testing`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/corrosion-mapping">Corrosion Mapping</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Magnetic Flux Leakage Testing (MFL) | Tank Floor &amp; Pipeline Inspection</h1>\n    <p>Magnetic Flux Leakage (MFL) testing uses magnetic saturation and Hall effect sensors to detect metal loss in ferromagnetic materials. MFL is the standard method for API 653 storage tank floor inspection (Appendix C) and the backbone of pipeline integrity management through in-line inspection (ILI) pigging per API 1163 and NACE SP0102. 95-100% scan coverage. Atlantis NDT provides MFL program consulting globally.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/ndt-technician-salary',
+  title: 'NDT Technician Salary 2026 | By Method, Level & Location | Atlantis NDT',
+  description: 'Complete NDT technician salary guide 2026: salary ranges by ASNT Level I/II/III, by NDT method (PAUT earns $80K-$110K, AUT $85K-$115K), by location (Houston, Dubai, Calgary, UK). Median $55,000-$95,000 USA. Updated February 2026.',
+  canonical: `${SITE_URL}/ndt-technician-salary`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">NDT Training</a><a href="/asnt-certification">ASNT Certification</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Technician Salary Guide 2026: By Method, Level &amp; Location</h1>\n    <p>NDT technicians earn $28-$85/hour depending on method, level, location, and industry. USA median salary: $55,000-$95,000/year. PAUT and AUT specialists command 40-80% premium over MT/PT baseline. Level III commands 30-60% premium over Level II. Top locations: Houston (oil &amp; gas), Dubai (tax-free), offshore North Sea/Gulf of Mexico. Complete salary tables by ASNT level, NDT method, and location. Atlantis NDT training helps you reach the next level.</p>\n  </main>`,
+});
+
+// ─── Digital Twin Location Pages ──────────────────────────────────────────
+
+const digitalTwinCities = [
+  { slug: 'houston',      city: 'Houston',      country: 'USA',         assets: 'refinery pressure vessels, offshore FPSO hulls, and pipeline networks' },
+  { slug: 'dubai',        city: 'Dubai',        country: 'UAE',         assets: 'ENOC refinery vessels, offshore platform topsides, and product storage tanks' },
+  { slug: 'abu-dhabi',    city: 'Abu Dhabi',    country: 'UAE',         assets: 'ADNOC offshore platforms, LNG cryogenic storage, and sour-gas pipelines' },
+  { slug: 'saudi-arabia', city: 'Saudi Arabia', country: 'Saudi Arabia',assets: 'Saudi Aramco crude separators, refinery columns, and cross-country pipelines' },
+  { slug: 'calgary',      city: 'Calgary',      country: 'Canada',      assets: 'oil sands coking units, bitumen upgrader vessels, and cold-service pipelines' },
+  { slug: 'singapore',    city: 'Singapore',    country: 'Singapore',   assets: 'Jurong Island cracker units, naphtha storage tanks, and heat exchanger bundles' },
+  { slug: 'mumbai',       city: 'Mumbai',       country: 'India',       assets: 'BPCL refinery columns, ONGC offshore wellheads, and coastal storage tanks' },
+  { slug: 'london',       city: 'London',       country: 'UK',          assets: 'North Sea FPSO hulls, downstream refinery vessels, and pipeline risers' },
+  { slug: 'perth',        city: 'Perth',        country: 'Australia',   assets: 'Gorgon and Wheatstone LNG cryogenic storage, FLNG vessel structures' },
+  { slug: 'doha',         city: 'Doha',         country: 'Qatar',       assets: 'QatarEnergy LNG cryogenic spheres, North Field platform structures' },
+  { slug: 'kuwait',       city: 'Kuwait City',  country: 'Kuwait',      assets: 'Al-Zour refinery vessels, KNPC process equipment, and crude pipeline networks' },
+  { slug: 'aberdeen',     city: 'Aberdeen',     country: 'UK',          assets: 'North Sea fixed platform members, FPSO hull plating, and subsea risers' },
+  { slug: 'oslo',         city: 'Oslo',         country: 'Norway',      assets: 'Equinor platform topsides, subsea manifolds, and NORSOK mooring chains' },
+  { slug: 'rotterdam',    city: 'Rotterdam',    country: 'Netherlands', assets: 'Europoort cracking columns, crude storage tanks, and chemical reactors' },
+  { slug: 'hyderabad',    city: 'Hyderabad',    country: 'India',       assets: 'HPCL refinery monitoring systems, BHEL power boilers, and gas separators' },
+  { slug: 'muscat',       city: 'Muscat',       country: 'Oman',        assets: 'PDO oil production separators, OQ Sohar refinery vessels, and Sur LNG tanks' },
+  { slug: 'kuala-lumpur', city: 'Kuala Lumpur', country: 'Malaysia',    assets: 'Pengerang Integrated Complex reactors, Petronas FPSO structures, and LNG storage' },
+  { slug: 'lagos',        city: 'Lagos',        country: 'Nigeria',     assets: 'Dangote Refinery distillation units, NNPC vessels, and deepwater FPSO hulls' },
+  { slug: 'new-orleans',  city: 'New Orleans',  country: 'USA',         assets: 'refinery pressure vessels, LNG export terminal cryogenic tanks, and petrochemical reactors' },
+  { slug: 'denver',       city: 'Denver',       country: 'USA',         assets: 'DJ Basin separator vessels, Rocky Mountain pipelines, and midstream compression vessels' },
+];
+
+digitalTwinCities.forEach(({ slug, city, country, assets }) => {
+  routes.push({
+    path: `/digital-twin-${slug}`,
+    title: `Digital Twin NDT ${city} | 3D Inspection Visualization | Atlantis NDT`,
+    description: `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets}. API 510/570/653 compliant reporting, corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`,
+    canonical: `${SITE_URL}/digital-twin-${slug}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/digital-twin-reporting">Reporting Platform</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Digital Twin Solutions ${city} | 3D Asset Inspection Visualisation</h1>\n    <p>Atlantis NDT delivers digital twin inspection solutions in ${city}, ${country}. Our platform transforms NDT data from ultrasonic testing, TOFD, and phased array into a live colour-coded 3D model of your assets — including ${assets}. Real-time corrosion monitoring, API 579 fitness-for-service calculations, and automated API 510/570/653 regulatory reporting. Book a demonstration today.</p>\n  </main>`,
+  });
+});
+
+// ── NDT ERP Location Pages ───────────────────────────────────────────────
+
+const erpCities = [
+  { city: 'Houston',      country: 'USA',          slug: 'houston',      industries: 'refineries, petrochemical plants, and midstream operators' },
+  { city: 'Dubai',        country: 'UAE',          slug: 'dubai',        industries: 'oil & gas operators, EPC contractors, and offshore facilities' },
+  { city: 'Abu Dhabi',    country: 'UAE',          slug: 'abu-dhabi',    industries: 'ADNOC facilities, downstream refining, and offshore platforms' },
+  { city: 'Saudi Arabia', country: 'Saudi Arabia', slug: 'saudi-arabia', industries: 'Saudi Aramco, SABIC, and major petrochemical complexes' },
+  { city: 'Calgary',      country: 'Canada',       slug: 'calgary',      industries: 'oil sands operations, midstream pipelines, and conventional petroleum' },
+  { city: 'Singapore',    country: 'Singapore',    slug: 'singapore',    industries: 'Jurong Island petrochemicals, LNG terminals, and marine inspection' },
+  { city: 'Mumbai',       country: 'India',        slug: 'mumbai',       industries: 'BPCL and HPCL refineries, ONGC offshore assets, and petrochemicals' },
+  { city: 'London',       country: 'UK',           slug: 'london',       industries: 'North Sea support, nuclear, aerospace, and manufacturing sectors' },
+  { city: 'Perth',        country: 'Australia',    slug: 'perth',        industries: 'LNG plants, iron ore processing, and offshore Carnarvon Basin operations' },
+  { city: 'Doha',         country: 'Qatar',        slug: 'doha',         industries: 'QatarEnergy LNG, North Field expansion, and petrochemical complexes' },
+  { city: 'Kuwait City',  country: 'Kuwait',       slug: 'kuwait',       industries: 'KNPC clean fuels, KOC upstream operations, and Al-Zour refinery' },
+  { city: 'Muscat',       country: 'Oman',         slug: 'muscat',       industries: 'PDO oilfields, OQ refinery, and Duqm Special Economic Zone' },
+  { city: 'Hyderabad',    country: 'India',        slug: 'hyderabad',    industries: 'HPCL refinery, BHEL manufacturing, and pharmaceutical sector' },
+  { city: 'Chennai',      country: 'India',        slug: 'chennai',      industries: 'CPCL refinery, automotive manufacturing, and aerospace' },
+  { city: 'Kuala Lumpur', country: 'Malaysia',     slug: 'kuala-lumpur', industries: 'PETRONAS upstream and downstream, and ASEAN energy infrastructure' },
+  { city: 'Lagos',        country: 'Nigeria',      slug: 'lagos',        industries: 'NNPCL refineries, Shell SPDC network, and IOC upstream operations' },
+  { city: 'New Orleans',  country: 'USA',          slug: 'new-orleans',  industries: 'Gulf Coast refineries, petrochemical corridor, and PSM-covered facilities' },
+  { city: 'Denver',       country: 'USA',          slug: 'denver',       industries: 'DJ Basin shale, Rocky Mountain midstream pipelines, and refineries' },
+  { city: 'Aberdeen',     country: 'UK',           slug: 'aberdeen',     industries: 'UKCS offshore platforms, FPSOs, and onshore terminal facilities' },
+  { city: 'Oslo',         country: 'Norway',       slug: 'oslo',         industries: 'NCS offshore, Equinor, Aker BP, and NORSOK-governed operations' },
+];
+
+erpCities.forEach(({ city, country, slug, industries }) => {
+  routes.push({
+    path: `/ndt-erp-${slug}`,
+    title: `NDT ERP Software ${city} | Inspection Management System | Atlantis NDT`,
+    description: `NDT ERP software for inspection companies in ${city}, ${country}. Automate ASNT certification tracking, API 510/570/653 scheduling, and PDF report generation for ${industries}.`,
+    canonical: `${SITE_URL}/ndt-erp-${slug}`,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT ERP Software in ${city} | Inspection Management System</h1>\n    <p>Purpose-built NDT ERP software for inspection companies in ${city}, ${country}. Manage ASNT, ISO 9712, and PCN certification tracking with automated expiry alerts, API 510/570/653 inspection scheduling, corrosion data trending, and professional PDF report generation — all in one cloud platform. Serving ${industries}. Request a demo from Atlantis NDT.</p>\n  </main>`,
+  });
+});
+
 // ─── Generate sitemap ─────────────────────────────────────────────────────
 
 function buildSitemap(routeList) {
@@ -636,6 +739,8 @@ function buildSitemap(routeList) {
     if (path.startsWith('/consulting/')) return '0.75';
     if (path.startsWith('/blog/')) return '0.80';
     if (path.includes('-training')) return '0.85';
+    if (path.startsWith('/digital-twin-')) return '0.80';
+    if (path.startsWith('/ndt-erp-')) return '0.75';
     if (path.includes('-testing')) return '0.75';
     return '0.70';
   };

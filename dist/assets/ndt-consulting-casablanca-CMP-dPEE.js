@@ -1,1 +1,0 @@
-import{j as a}from"./index-BFpg19ZX.js";import{C as o}from"./ConsultingLocationPage-C3lj0IDD.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-B430-Oeh.js";function s(){return a.jsx(o,{locationSlug:"casablanca"})}export{s as default};

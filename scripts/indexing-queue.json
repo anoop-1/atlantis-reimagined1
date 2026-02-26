@@ -1,0 +1,425 @@
+{
+  "generated": "2026-02-26",
+  "note": "12 URLs per day max. Only NEW pages not yet indexed in GSC.",
+  "already_indexed_count": 86,
+  "new_pages_count": 262,
+  "total_days_needed": 22,
+  "batches": [
+    {
+      "day": 1,
+      "date": "2026-02-26",
+      "priority": "P1-KeyConsultingHubs",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-abu-dhabi",
+        "https://atlantisndt.com/consulting/ndt-consulting-calgary",
+        "https://atlantisndt.com/consulting/ndt-consulting-denver",
+        "https://atlantisndt.com/consulting/ndt-consulting-dubai",
+        "https://atlantisndt.com/consulting/ndt-consulting-houston",
+        "https://atlantisndt.com/consulting/ndt-consulting-hyderabad",
+        "https://atlantisndt.com/consulting/ndt-consulting-los-angeles",
+        "https://atlantisndt.com/consulting/ndt-consulting-mumbai",
+        "https://atlantisndt.com/consulting/ndt-consulting-new-orleans",
+        "https://atlantisndt.com/consulting/ndt-consulting-saudi-arabia",
+        "https://atlantisndt.com/consulting/ndt-consulting-singapore",
+        "https://atlantisndt.com/digital-twin-aberdeen"
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-02-27",
+      "priority": "P2-DigitalTwinCities",
+      "urls": [
+        "https://atlantisndt.com/digital-twin-abu-dhabi",
+        "https://atlantisndt.com/digital-twin-calgary",
+        "https://atlantisndt.com/digital-twin-denver",
+        "https://atlantisndt.com/digital-twin-doha",
+        "https://atlantisndt.com/digital-twin-dubai",
+        "https://atlantisndt.com/digital-twin-houston",
+        "https://atlantisndt.com/digital-twin-hyderabad",
+        "https://atlantisndt.com/digital-twin-kuala-lumpur",
+        "https://atlantisndt.com/digital-twin-kuwait",
+        "https://atlantisndt.com/digital-twin-lagos",
+        "https://atlantisndt.com/digital-twin-london",
+        "https://atlantisndt.com/digital-twin-mumbai"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-02-28",
+      "priority": "P2-DigitalTwinCities",
+      "urls": [
+        "https://atlantisndt.com/digital-twin-muscat",
+        "https://atlantisndt.com/digital-twin-new-orleans",
+        "https://atlantisndt.com/digital-twin-oslo",
+        "https://atlantisndt.com/digital-twin-perth",
+        "https://atlantisndt.com/digital-twin-rotterdam",
+        "https://atlantisndt.com/digital-twin-saudi-arabia",
+        "https://atlantisndt.com/digital-twin-singapore",
+        "https://atlantisndt.com/acoustic-emission-testing",
+        "https://atlantisndt.com/api-570-training",
+        "https://atlantisndt.com/corrosion-mapping",
+        "https://atlantisndt.com/corrosion-under-insulation",
+        "https://atlantisndt.com/digital-twin-reporting"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-03-01",
+      "priority": "P3-AdvancedNDT+Pillars",
+      "urls": [
+        "https://atlantisndt.com/eddy-current-testing",
+        "https://atlantisndt.com/eddy-current-tube-inspection",
+        "https://atlantisndt.com/guided-wave-testing",
+        "https://atlantisndt.com/magnetic-flux-leakage-testing",
+        "https://atlantisndt.com/magnetic-particle-testing",
+        "https://atlantisndt.com/magnetic-particle-testing",
+        "https://atlantisndt.com/ndt-technician-salary",
+        "https://atlantisndt.com/penetrant-testing",
+        "https://atlantisndt.com/penetrant-testing",
+        "https://atlantisndt.com/phased-array-ut",
+        "https://atlantisndt.com/radiographic-testing",
+        "https://atlantisndt.com/radiographic-testing"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-03-02",
+      "priority": "P3-AdvancedNDT+Pillars",
+      "urls": [
+        "https://atlantisndt.com/tofd-testing",
+        "https://atlantisndt.com/ultrasonic-testing",
+        "https://atlantisndt.com/ultrasonic-testing",
+        "https://atlantisndt.com/visual-testing",
+        "https://atlantisndt.com/visual-testing",
+        "https://atlantisndt.com/weld-inspection",
+        "https://atlantisndt.com/ndt-erp-aberdeen",
+        "https://atlantisndt.com/ndt-erp-abu-dhabi",
+        "https://atlantisndt.com/ndt-erp-calgary",
+        "https://atlantisndt.com/ndt-erp-chennai",
+        "https://atlantisndt.com/ndt-erp-denver",
+        "https://atlantisndt.com/ndt-erp-doha"
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-03-03",
+      "priority": "P4-ERPCityPages",
+      "urls": [
+        "https://atlantisndt.com/ndt-erp-dubai",
+        "https://atlantisndt.com/ndt-erp-houston",
+        "https://atlantisndt.com/ndt-erp-hyderabad",
+        "https://atlantisndt.com/ndt-erp-kuala-lumpur",
+        "https://atlantisndt.com/ndt-erp-kuwait",
+        "https://atlantisndt.com/ndt-erp-lagos",
+        "https://atlantisndt.com/ndt-erp-london",
+        "https://atlantisndt.com/ndt-erp-mumbai",
+        "https://atlantisndt.com/ndt-erp-muscat",
+        "https://atlantisndt.com/ndt-erp-new-orleans",
+        "https://atlantisndt.com/ndt-erp-oslo",
+        "https://atlantisndt.com/ndt-erp-perth"
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-03-04",
+      "priority": "P4-ERPCityPages",
+      "urls": [
+        "https://atlantisndt.com/ndt-erp-saudi-arabia",
+        "https://atlantisndt.com/ndt-erp-singapore",
+        "https://atlantisndt.com/consulting/ndt-consulting-aberdeen",
+        "https://atlantisndt.com/consulting/ndt-consulting-accra",
+        "https://atlantisndt.com/consulting/ndt-consulting-ahmedabad",
+        "https://atlantisndt.com/consulting/ndt-consulting-algeria",
+        "https://atlantisndt.com/consulting/ndt-consulting-angola",
+        "https://atlantisndt.com/consulting/ndt-consulting-argentina",
+        "https://atlantisndt.com/consulting/ndt-consulting-australia",
+        "https://atlantisndt.com/consulting/ndt-consulting-bahrain",
+        "https://atlantisndt.com/consulting/ndt-consulting-bangalore",
+        "https://atlantisndt.com/consulting/ndt-consulting-bangkok"
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-03-05",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-baton-rouge",
+        "https://atlantisndt.com/consulting/ndt-consulting-beaumont",
+        "https://atlantisndt.com/consulting/ndt-consulting-beijing",
+        "https://atlantisndt.com/consulting/ndt-consulting-belgium",
+        "https://atlantisndt.com/consulting/ndt-consulting-bogota",
+        "https://atlantisndt.com/consulting/ndt-consulting-brazil",
+        "https://atlantisndt.com/consulting/ndt-consulting-brisbane",
+        "https://atlantisndt.com/consulting/ndt-consulting-buenos-aires",
+        "https://atlantisndt.com/consulting/ndt-consulting-cape-town",
+        "https://atlantisndt.com/consulting/ndt-consulting-casablanca",
+        "https://atlantisndt.com/consulting/ndt-consulting-chennai",
+        "https://atlantisndt.com/consulting/ndt-consulting-chicago"
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-03-06",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-chile",
+        "https://atlantisndt.com/consulting/ndt-consulting-china",
+        "https://atlantisndt.com/consulting/ndt-consulting-colombia",
+        "https://atlantisndt.com/consulting/ndt-consulting-corpus-christi",
+        "https://atlantisndt.com/consulting/ndt-consulting-dallas",
+        "https://atlantisndt.com/consulting/ndt-consulting-dammam",
+        "https://atlantisndt.com/consulting/ndt-consulting-delhi",
+        "https://atlantisndt.com/consulting/ndt-consulting-detroit",
+        "https://atlantisndt.com/consulting/ndt-consulting-edmonton",
+        "https://atlantisndt.com/consulting/ndt-consulting-egypt",
+        "https://atlantisndt.com/consulting/ndt-consulting-france",
+        "https://atlantisndt.com/consulting/ndt-consulting-germany"
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-03-07",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-ghana",
+        "https://atlantisndt.com/consulting/ndt-consulting-ho-chi-minh",
+        "https://atlantisndt.com/consulting/ndt-consulting-hong-kong",
+        "https://atlantisndt.com/consulting/ndt-consulting-indonesia",
+        "https://atlantisndt.com/consulting/ndt-consulting-italy",
+        "https://atlantisndt.com/consulting/ndt-consulting-jakarta",
+        "https://atlantisndt.com/consulting/ndt-consulting-jamnagar",
+        "https://atlantisndt.com/consulting/ndt-consulting-japan",
+        "https://atlantisndt.com/consulting/ndt-consulting-johannesburg",
+        "https://atlantisndt.com/consulting/ndt-consulting-jubail",
+        "https://atlantisndt.com/consulting/ndt-consulting-kenya",
+        "https://atlantisndt.com/consulting/ndt-consulting-kochi"
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-03-08",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-kolkata",
+        "https://atlantisndt.com/consulting/ndt-consulting-kuwait",
+        "https://atlantisndt.com/consulting/ndt-consulting-lagos",
+        "https://atlantisndt.com/consulting/ndt-consulting-lima",
+        "https://atlantisndt.com/consulting/ndt-consulting-malaysia",
+        "https://atlantisndt.com/consulting/ndt-consulting-manila",
+        "https://atlantisndt.com/consulting/ndt-consulting-melbourne",
+        "https://atlantisndt.com/consulting/ndt-consulting-mexico-city",
+        "https://atlantisndt.com/consulting/ndt-consulting-nairobi",
+        "https://atlantisndt.com/consulting/ndt-consulting-netherlands",
+        "https://atlantisndt.com/consulting/ndt-consulting-new-zealand",
+        "https://atlantisndt.com/consulting/ndt-consulting-nigeria"
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-03-09",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-norway",
+        "https://atlantisndt.com/consulting/ndt-consulting-oman",
+        "https://atlantisndt.com/consulting/ndt-consulting-perth",
+        "https://atlantisndt.com/consulting/ndt-consulting-peru",
+        "https://atlantisndt.com/consulting/ndt-consulting-philadelphia",
+        "https://atlantisndt.com/consulting/ndt-consulting-philippines",
+        "https://atlantisndt.com/consulting/ndt-consulting-phoenix",
+        "https://atlantisndt.com/consulting/ndt-consulting-pittsburgh",
+        "https://atlantisndt.com/consulting/ndt-consulting-pune",
+        "https://atlantisndt.com/consulting/ndt-consulting-qatar",
+        "https://atlantisndt.com/consulting/ndt-consulting-rio-de-janeiro",
+        "https://atlantisndt.com/consulting/ndt-consulting-san-francisco"
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-03-10",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-santiago",
+        "https://atlantisndt.com/consulting/ndt-consulting-sao-paulo",
+        "https://atlantisndt.com/consulting/ndt-consulting-scotland",
+        "https://atlantisndt.com/consulting/ndt-consulting-seattle",
+        "https://atlantisndt.com/consulting/ndt-consulting-shanghai",
+        "https://atlantisndt.com/consulting/ndt-consulting-shenzhen",
+        "https://atlantisndt.com/consulting/ndt-consulting-south-africa",
+        "https://atlantisndt.com/consulting/ndt-consulting-south-korea",
+        "https://atlantisndt.com/consulting/ndt-consulting-spain",
+        "https://atlantisndt.com/consulting/ndt-consulting-sydney",
+        "https://atlantisndt.com/consulting/ndt-consulting-taiwan",
+        "https://atlantisndt.com/consulting/ndt-consulting-thailand"
+      ]
+    },
+    {
+      "day": 14,
+      "date": "2026-03-11",
+      "priority": "P5-ConsultingCities",
+      "urls": [
+        "https://atlantisndt.com/consulting/ndt-consulting-toronto",
+        "https://atlantisndt.com/consulting/ndt-consulting-trinidad",
+        "https://atlantisndt.com/consulting/ndt-consulting-tulsa",
+        "https://atlantisndt.com/consulting/ndt-consulting-uk",
+        "https://atlantisndt.com/consulting/ndt-consulting-vancouver",
+        "https://atlantisndt.com/consulting/ndt-consulting-vietnam",
+        "https://atlantisndt.com/consulting/ndt-consulting-vizag",
+        "https://atlantisndt.com/consulting/ndt-consulting-yanbu",
+        "https://atlantisndt.com/eddy-current-testing-abu-dhabi",
+        "https://atlantisndt.com/eddy-current-testing-bangalore",
+        "https://atlantisndt.com/eddy-current-testing-calgary",
+        "https://atlantisndt.com/eddy-current-testing-chicago"
+      ]
+    },
+    {
+      "day": 15,
+      "date": "2026-03-12",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/eddy-current-testing-delhi",
+        "https://atlantisndt.com/eddy-current-testing-denver",
+        "https://atlantisndt.com/eddy-current-testing-dubai",
+        "https://atlantisndt.com/eddy-current-testing-kuwait",
+        "https://atlantisndt.com/eddy-current-testing-los-angeles",
+        "https://atlantisndt.com/eddy-current-testing-mumbai",
+        "https://atlantisndt.com/eddy-current-testing-new-orleans",
+        "https://atlantisndt.com/eddy-current-testing-norway",
+        "https://atlantisndt.com/eddy-current-testing-qatar",
+        "https://atlantisndt.com/eddy-current-testing-saudi-arabia",
+        "https://atlantisndt.com/eddy-current-testing-uk",
+        "https://atlantisndt.com/magnetic-particle-testing-abu-dhabi"
+      ]
+    },
+    {
+      "day": 16,
+      "date": "2026-03-13",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/magnetic-particle-testing-bangalore",
+        "https://atlantisndt.com/magnetic-particle-testing-calgary",
+        "https://atlantisndt.com/magnetic-particle-testing-chennai",
+        "https://atlantisndt.com/magnetic-particle-testing-chicago",
+        "https://atlantisndt.com/magnetic-particle-testing-delhi",
+        "https://atlantisndt.com/magnetic-particle-testing-denver",
+        "https://atlantisndt.com/magnetic-particle-testing-dubai",
+        "https://atlantisndt.com/magnetic-particle-testing-houston",
+        "https://atlantisndt.com/magnetic-particle-testing-kuwait",
+        "https://atlantisndt.com/magnetic-particle-testing-los-angeles",
+        "https://atlantisndt.com/magnetic-particle-testing-mumbai",
+        "https://atlantisndt.com/magnetic-particle-testing-new-orleans"
+      ]
+    },
+    {
+      "day": 17,
+      "date": "2026-03-14",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/magnetic-particle-testing-norway",
+        "https://atlantisndt.com/magnetic-particle-testing-qatar",
+        "https://atlantisndt.com/magnetic-particle-testing-singapore",
+        "https://atlantisndt.com/magnetic-particle-testing-uk",
+        "https://atlantisndt.com/penetrant-testing-abu-dhabi",
+        "https://atlantisndt.com/penetrant-testing-bangalore",
+        "https://atlantisndt.com/penetrant-testing-calgary",
+        "https://atlantisndt.com/penetrant-testing-chennai",
+        "https://atlantisndt.com/penetrant-testing-chicago",
+        "https://atlantisndt.com/penetrant-testing-delhi",
+        "https://atlantisndt.com/penetrant-testing-denver",
+        "https://atlantisndt.com/penetrant-testing-dubai"
+      ]
+    },
+    {
+      "day": 18,
+      "date": "2026-03-15",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/penetrant-testing-houston",
+        "https://atlantisndt.com/penetrant-testing-kuwait",
+        "https://atlantisndt.com/penetrant-testing-los-angeles",
+        "https://atlantisndt.com/penetrant-testing-mumbai",
+        "https://atlantisndt.com/penetrant-testing-new-orleans",
+        "https://atlantisndt.com/penetrant-testing-norway",
+        "https://atlantisndt.com/penetrant-testing-qatar",
+        "https://atlantisndt.com/penetrant-testing-saudi-arabia",
+        "https://atlantisndt.com/penetrant-testing-singapore",
+        "https://atlantisndt.com/penetrant-testing-uk",
+        "https://atlantisndt.com/radiographic-testing-abu-dhabi",
+        "https://atlantisndt.com/radiographic-testing-bangalore"
+      ]
+    },
+    {
+      "day": 19,
+      "date": "2026-03-16",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/radiographic-testing-calgary",
+        "https://atlantisndt.com/radiographic-testing-chennai",
+        "https://atlantisndt.com/radiographic-testing-chicago",
+        "https://atlantisndt.com/radiographic-testing-delhi",
+        "https://atlantisndt.com/radiographic-testing-denver",
+        "https://atlantisndt.com/radiographic-testing-houston",
+        "https://atlantisndt.com/radiographic-testing-kuwait",
+        "https://atlantisndt.com/radiographic-testing-los-angeles",
+        "https://atlantisndt.com/radiographic-testing-mumbai",
+        "https://atlantisndt.com/radiographic-testing-new-orleans",
+        "https://atlantisndt.com/radiographic-testing-norway",
+        "https://atlantisndt.com/radiographic-testing-qatar"
+      ]
+    },
+    {
+      "day": 20,
+      "date": "2026-03-17",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/radiographic-testing-saudi-arabia",
+        "https://atlantisndt.com/radiographic-testing-singapore",
+        "https://atlantisndt.com/radiographic-testing-uk",
+        "https://atlantisndt.com/ultrasonic-testing-bangalore",
+        "https://atlantisndt.com/ultrasonic-testing-calgary",
+        "https://atlantisndt.com/ultrasonic-testing-chennai",
+        "https://atlantisndt.com/ultrasonic-testing-delhi",
+        "https://atlantisndt.com/ultrasonic-testing-dubai",
+        "https://atlantisndt.com/ultrasonic-testing-houston",
+        "https://atlantisndt.com/ultrasonic-testing-los-angeles",
+        "https://atlantisndt.com/ultrasonic-testing-mumbai",
+        "https://atlantisndt.com/ultrasonic-testing-new-orleans"
+      ]
+    },
+    {
+      "day": 21,
+      "date": "2026-03-18",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/ultrasonic-testing-norway",
+        "https://atlantisndt.com/ultrasonic-testing-qatar",
+        "https://atlantisndt.com/ultrasonic-testing-saudi-arabia",
+        "https://atlantisndt.com/ultrasonic-testing-singapore",
+        "https://atlantisndt.com/ultrasonic-testing-uk",
+        "https://atlantisndt.com/visual-testing-abu-dhabi",
+        "https://atlantisndt.com/visual-testing-bangalore",
+        "https://atlantisndt.com/visual-testing-calgary",
+        "https://atlantisndt.com/visual-testing-chennai",
+        "https://atlantisndt.com/visual-testing-chicago",
+        "https://atlantisndt.com/visual-testing-delhi",
+        "https://atlantisndt.com/visual-testing-denver"
+      ]
+    },
+    {
+      "day": 22,
+      "date": "2026-03-19",
+      "priority": "P6-MethodLocationPages",
+      "urls": [
+        "https://atlantisndt.com/visual-testing-dubai",
+        "https://atlantisndt.com/visual-testing-houston",
+        "https://atlantisndt.com/visual-testing-kuwait",
+        "https://atlantisndt.com/visual-testing-los-angeles",
+        "https://atlantisndt.com/visual-testing-mumbai",
+        "https://atlantisndt.com/visual-testing-new-orleans",
+        "https://atlantisndt.com/visual-testing-norway",
+        "https://atlantisndt.com/visual-testing-qatar",
+        "https://atlantisndt.com/visual-testing-saudi-arabia",
+        "https://atlantisndt.com/visual-testing-singapore"
+      ]
+    }
+  ]
+}

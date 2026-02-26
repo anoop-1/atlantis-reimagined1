@@ -1,1 +1,0 @@
-import{j as t}from"./index-BFpg19ZX.js";import{C as o}from"./ConsultingLocationPage-C3lj0IDD.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-B430-Oeh.js";function s(){return t.jsx(o,{locationSlug:"jakarta"})}export{s as default};

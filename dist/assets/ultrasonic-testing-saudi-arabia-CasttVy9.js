@@ -1,1 +1,0 @@
-import{j as t}from"./index-BFpg19ZX.js";import{M as a}from"./MethodLocationPage-D6eP3cOy.js";import"./programmatic-seo-BNa9jy8q.js";function s(){return t.jsx(a,{methodSlug:"ultrasonic-testing",locationSlug:"saudi-arabia"})}export{s as default};

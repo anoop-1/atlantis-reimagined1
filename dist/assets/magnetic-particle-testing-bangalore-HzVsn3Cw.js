@@ -1,1 +1,0 @@
-import{j as t}from"./index-BFpg19ZX.js";import{M as o}from"./MethodLocationPage-D6eP3cOy.js";import"./programmatic-seo-BNa9jy8q.js";function i(){return t.jsx(o,{methodSlug:"magnetic-particle-testing",locationSlug:"bangalore"})}export{i as default};
