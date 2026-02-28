@@ -76,6 +76,33 @@ const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
 const EddyCurrentTubeInspection = lazy(() => import("./pages/eddy-current-tube-inspection"));
 // Advanced NDT Method Pages
 const GuidedWaveTesting = lazy(() => import("./pages/guided-wave-testing"));
+const WeldInspection = lazy(() => import("./pages/weld-inspection"));
+const AcousticEmissionTesting = lazy(() => import("./pages/acoustic-emission-testing"));
+const MagneticFluxLeakageTesting = lazy(() => import("./pages/magnetic-flux-leakage-testing"));
+const NDTTechnicianSalary = lazy(() => import("./pages/ndt-technician-salary"));
+const NDTMethodsComparison = lazy(() => import("./pages/ndt-methods-comparison"));
+const NDTCertificationGuide = lazy(() => import("./pages/ndt-certification-guide"));
+// Tools
+const ToolsHub = lazy(() => import("./pages/tools/index"));
+const NDTMethodSelector = lazy(() => import("./pages/tools/ndt-method-selector"));
+const CertificationCostCalculator = lazy(() => import("./pages/tools/ndt-certification-cost-calculator"));
+const ROICalculator = lazy(() => import("./pages/tools/ndt-roi-calculator"));
+const NDTQuickReference = lazy(() => import("./pages/tools/ndt-quick-reference"));
+const EmbedNDTReference = lazy(() => import("./pages/embed/ndt-reference"));
+// Resource Pages
+const NDTInspectionChecklist = lazy(() => import("./pages/resources/ndt-inspection-checklist"));
+const API653InspectionTemplate = lazy(() => import("./pages/resources/api-653-inspection-template"));
+const ASNTLevelIIIStudyGuide = lazy(() => import("./pages/resources/asnt-level-iii-study-guide"));
+const NDTProcedureTemplate = lazy(() => import("./pages/resources/ndt-procedure-template"));
+const NDTSafetyChecklist = lazy(() => import("./pages/resources/ndt-safety-checklist"));
+const TrainingRequirementsMatrix = lazy(() => import("./pages/resources/training-requirements-matrix"));
+// Content Pages
+const NDTIndustryStatistics = lazy(() => import("./pages/ndt-industry-statistics"));
+const UltimateGuideNDT = lazy(() => import("./pages/ultimate-guide-ndt"));
+const UltimateGuideAPIInspection = lazy(() => import("./pages/ultimate-guide-api-inspection"));
+const NDTStandardsComparison = lazy(() => import("./pages/ndt-standards-comparison"));
+const NDTEquipmentGuide = lazy(() => import("./pages/ndt-equipment-guide"));
+const NDTLearningPath = lazy(() => import("./pages/ndt-learning-path"));
 const CorrosionMapping = lazy(() => import("./pages/corrosion-mapping"));
 const DigitalTwinReporting = lazy(() => import("./pages/digital-twin-reporting"));
 const CorrosionUnderInsulation = lazy(() => import("./pages/corrosion-under-insulation"));
@@ -308,9 +335,51 @@ const NDTConsultingCapeTown = lazy(() => import("./pages/ndt-consulting-cape-tow
 const NDTConsultingNairobi = lazy(() => import("./pages/ndt-consulting-nairobi"));
 const NDTConsultingAccra = lazy(() => import("./pages/ndt-consulting-accra"));
 const NDTConsultingCasablanca = lazy(() => import("./pages/ndt-consulting-casablanca"));
+// Digital Twin Location Pages
+const DigitalTwinHouston = lazy(() => import("./pages/digital-twin-houston"));
+const DigitalTwinDubai = lazy(() => import("./pages/digital-twin-dubai"));
+const DigitalTwinAbuDhabi = lazy(() => import("./pages/digital-twin-abu-dhabi"));
+const DigitalTwinSaudiArabia = lazy(() => import("./pages/digital-twin-saudi-arabia"));
+const DigitalTwinCalgary = lazy(() => import("./pages/digital-twin-calgary"));
+const DigitalTwinSingapore = lazy(() => import("./pages/digital-twin-singapore"));
+const DigitalTwinMumbai = lazy(() => import("./pages/digital-twin-mumbai"));
+const DigitalTwinLondon = lazy(() => import("./pages/digital-twin-london"));
+const DigitalTwinPerth = lazy(() => import("./pages/digital-twin-perth"));
+const DigitalTwinDoha = lazy(() => import("./pages/digital-twin-doha"));
+const DigitalTwinKuwait = lazy(() => import("./pages/digital-twin-kuwait"));
+const DigitalTwinAberdeen = lazy(() => import("./pages/digital-twin-aberdeen"));
+const DigitalTwinOslo = lazy(() => import("./pages/digital-twin-oslo"));
+const DigitalTwinRotterdam = lazy(() => import("./pages/digital-twin-rotterdam"));
+const DigitalTwinHyderabad = lazy(() => import("./pages/digital-twin-hyderabad"));
+const DigitalTwinMuscat = lazy(() => import("./pages/digital-twin-muscat"));
+const DigitalTwinKualaLumpur = lazy(() => import("./pages/digital-twin-kuala-lumpur"));
+const DigitalTwinLagos = lazy(() => import("./pages/digital-twin-lagos"));
+const DigitalTwinNewOrleans = lazy(() => import("./pages/digital-twin-new-orleans"));
+const DigitalTwinDenver = lazy(() => import("./pages/digital-twin-denver"));
 // Resource Pages
 const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
 const PressMedia = lazy(() => import("./pages/press-media"));
+// ERP Location Pages
+const NDTErpHouston = lazy(() => import("./pages/ndt-erp-houston"));
+const NDTErpDubai = lazy(() => import("./pages/ndt-erp-dubai"));
+const NDTErpAbuDhabi = lazy(() => import("./pages/ndt-erp-abu-dhabi"));
+const NDTErpSaudiArabia = lazy(() => import("./pages/ndt-erp-saudi-arabia"));
+const NDTErpCalgary = lazy(() => import("./pages/ndt-erp-calgary"));
+const NDTErpSingapore = lazy(() => import("./pages/ndt-erp-singapore"));
+const NDTErpMumbai = lazy(() => import("./pages/ndt-erp-mumbai"));
+const NDTErpLondon = lazy(() => import("./pages/ndt-erp-london"));
+const NDTErpPerth = lazy(() => import("./pages/ndt-erp-perth"));
+const NDTErpDoha = lazy(() => import("./pages/ndt-erp-doha"));
+const NDTErpKuwait = lazy(() => import("./pages/ndt-erp-kuwait"));
+const NDTErpMuscat = lazy(() => import("./pages/ndt-erp-muscat"));
+const NDTErpHyderabad = lazy(() => import("./pages/ndt-erp-hyderabad"));
+const NDTErpChennai = lazy(() => import("./pages/ndt-erp-chennai"));
+const NDTErpKualaLumpur = lazy(() => import("./pages/ndt-erp-kuala-lumpur"));
+const NDTErpLagos = lazy(() => import("./pages/ndt-erp-lagos"));
+const NDTErpNewOrleans = lazy(() => import("./pages/ndt-erp-new-orleans"));
+const NDTErpDenver = lazy(() => import("./pages/ndt-erp-denver"));
+const NDTErpAberdeen = lazy(() => import("./pages/ndt-erp-aberdeen"));
+const NDTErpOslo = lazy(() => import("./pages/ndt-erp-oslo"));
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -390,6 +459,12 @@ const App = () => (
                   <Route path="/eddy-current-tube-inspection" element={<LazyRoute Component={EddyCurrentTubeInspection} />} />
                   {/* Advanced NDT Method Pages */}
                   <Route path="/guided-wave-testing" element={<LazyRoute Component={GuidedWaveTesting} />} />
+                  <Route path="/weld-inspection" element={<LazyRoute Component={WeldInspection} />} />
+                  <Route path="/acoustic-emission-testing" element={<LazyRoute Component={AcousticEmissionTesting} />} />
+                  <Route path="/magnetic-flux-leakage-testing" element={<LazyRoute Component={MagneticFluxLeakageTesting} />} />
+                  <Route path="/ndt-technician-salary" element={<LazyRoute Component={NDTTechnicianSalary} />} />
+                  <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
+                  <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />
                   <Route path="/digital-twin-reporting" element={<LazyRoute Component={DigitalTwinReporting} />} />
                   <Route path="/corrosion-under-insulation" element={<LazyRoute Component={CorrosionUnderInsulation} />} />
@@ -625,6 +700,69 @@ const App = () => (
                   <Route path="/oil-gas-ndt-training" element={<LazyRoute Component={OilGasNDTTraining} />} />
                   <Route path="/aerospace-ndt-training" element={<LazyRoute Component={AerospaceNDTTraining} />} />
                   <Route path="/power-generation-ndt-training" element={<LazyRoute Component={PowerGenerationNDTTraining} />} />
+                  {/* Digital Twin Location Pages */}
+                  <Route path="/digital-twin-houston" element={<LazyRoute Component={DigitalTwinHouston} />} />
+                  <Route path="/digital-twin-dubai" element={<LazyRoute Component={DigitalTwinDubai} />} />
+                  <Route path="/digital-twin-abu-dhabi" element={<LazyRoute Component={DigitalTwinAbuDhabi} />} />
+                  <Route path="/digital-twin-saudi-arabia" element={<LazyRoute Component={DigitalTwinSaudiArabia} />} />
+                  <Route path="/digital-twin-calgary" element={<LazyRoute Component={DigitalTwinCalgary} />} />
+                  <Route path="/digital-twin-singapore" element={<LazyRoute Component={DigitalTwinSingapore} />} />
+                  <Route path="/digital-twin-mumbai" element={<LazyRoute Component={DigitalTwinMumbai} />} />
+                  <Route path="/digital-twin-london" element={<LazyRoute Component={DigitalTwinLondon} />} />
+                  <Route path="/digital-twin-perth" element={<LazyRoute Component={DigitalTwinPerth} />} />
+                  <Route path="/digital-twin-doha" element={<LazyRoute Component={DigitalTwinDoha} />} />
+                  <Route path="/digital-twin-kuwait" element={<LazyRoute Component={DigitalTwinKuwait} />} />
+                  <Route path="/digital-twin-aberdeen" element={<LazyRoute Component={DigitalTwinAberdeen} />} />
+                  <Route path="/digital-twin-oslo" element={<LazyRoute Component={DigitalTwinOslo} />} />
+                  <Route path="/digital-twin-rotterdam" element={<LazyRoute Component={DigitalTwinRotterdam} />} />
+                  <Route path="/digital-twin-hyderabad" element={<LazyRoute Component={DigitalTwinHyderabad} />} />
+                  <Route path="/digital-twin-muscat" element={<LazyRoute Component={DigitalTwinMuscat} />} />
+                  <Route path="/digital-twin-kuala-lumpur" element={<LazyRoute Component={DigitalTwinKualaLumpur} />} />
+                  <Route path="/digital-twin-lagos" element={<LazyRoute Component={DigitalTwinLagos} />} />
+                  <Route path="/digital-twin-new-orleans" element={<LazyRoute Component={DigitalTwinNewOrleans} />} />
+                  <Route path="/digital-twin-denver" element={<LazyRoute Component={DigitalTwinDenver} />} />
+                  {/* ERP Location Pages */}
+                  <Route path="/ndt-erp-houston" element={<LazyRoute Component={NDTErpHouston} />} />
+                  <Route path="/ndt-erp-dubai" element={<LazyRoute Component={NDTErpDubai} />} />
+                  <Route path="/ndt-erp-abu-dhabi" element={<LazyRoute Component={NDTErpAbuDhabi} />} />
+                  <Route path="/ndt-erp-saudi-arabia" element={<LazyRoute Component={NDTErpSaudiArabia} />} />
+                  <Route path="/ndt-erp-calgary" element={<LazyRoute Component={NDTErpCalgary} />} />
+                  <Route path="/ndt-erp-singapore" element={<LazyRoute Component={NDTErpSingapore} />} />
+                  <Route path="/ndt-erp-mumbai" element={<LazyRoute Component={NDTErpMumbai} />} />
+                  <Route path="/ndt-erp-london" element={<LazyRoute Component={NDTErpLondon} />} />
+                  <Route path="/ndt-erp-perth" element={<LazyRoute Component={NDTErpPerth} />} />
+                  <Route path="/ndt-erp-doha" element={<LazyRoute Component={NDTErpDoha} />} />
+                  <Route path="/ndt-erp-kuwait" element={<LazyRoute Component={NDTErpKuwait} />} />
+                  <Route path="/ndt-erp-muscat" element={<LazyRoute Component={NDTErpMuscat} />} />
+                  <Route path="/ndt-erp-hyderabad" element={<LazyRoute Component={NDTErpHyderabad} />} />
+                  <Route path="/ndt-erp-chennai" element={<LazyRoute Component={NDTErpChennai} />} />
+                  <Route path="/ndt-erp-kuala-lumpur" element={<LazyRoute Component={NDTErpKualaLumpur} />} />
+                  <Route path="/ndt-erp-lagos" element={<LazyRoute Component={NDTErpLagos} />} />
+                  <Route path="/ndt-erp-new-orleans" element={<LazyRoute Component={NDTErpNewOrleans} />} />
+                  <Route path="/ndt-erp-denver" element={<LazyRoute Component={NDTErpDenver} />} />
+                  <Route path="/ndt-erp-aberdeen" element={<LazyRoute Component={NDTErpAberdeen} />} />
+                  <Route path="/ndt-erp-oslo" element={<LazyRoute Component={NDTErpOslo} />} />
+                  {/* Tools */}
+                  <Route path="/tools" element={<LazyRoute Component={ToolsHub} />} />
+                  <Route path="/tools/ndt-method-selector" element={<LazyRoute Component={NDTMethodSelector} />} />
+                  <Route path="/tools/ndt-certification-cost-calculator" element={<LazyRoute Component={CertificationCostCalculator} />} />
+                  <Route path="/tools/ndt-roi-calculator" element={<LazyRoute Component={ROICalculator} />} />
+                  <Route path="/tools/ndt-quick-reference" element={<LazyRoute Component={NDTQuickReference} />} />
+                  <Route path="/embed/ndt-reference" element={<LazyRoute Component={EmbedNDTReference} />} />
+                  {/* Resource Pages */}
+                  <Route path="/resources/ndt-inspection-checklist" element={<LazyRoute Component={NDTInspectionChecklist} />} />
+                  <Route path="/resources/api-653-inspection-template" element={<LazyRoute Component={API653InspectionTemplate} />} />
+                  <Route path="/resources/asnt-level-iii-study-guide" element={<LazyRoute Component={ASNTLevelIIIStudyGuide} />} />
+                  <Route path="/resources/ndt-procedure-template" element={<LazyRoute Component={NDTProcedureTemplate} />} />
+                  <Route path="/resources/ndt-safety-checklist" element={<LazyRoute Component={NDTSafetyChecklist} />} />
+                  <Route path="/resources/training-requirements-matrix" element={<LazyRoute Component={TrainingRequirementsMatrix} />} />
+                  {/* Content Pages */}
+                  <Route path="/ndt-industry-statistics" element={<LazyRoute Component={NDTIndustryStatistics} />} />
+                  <Route path="/ndt-complete-guide" element={<LazyRoute Component={UltimateGuideNDT} />} />
+                  <Route path="/api-inspector-guide" element={<LazyRoute Component={UltimateGuideAPIInspection} />} />
+                  <Route path="/ndt-standards-comparison" element={<LazyRoute Component={NDTStandardsComparison} />} />
+                  <Route path="/ndt-equipment-guide" element={<LazyRoute Component={NDTEquipmentGuide} />} />
+                  <Route path="/ndt-learning-path" element={<LazyRoute Component={NDTLearningPath} />} />
                   <Route path="/404" element={<NotFound />} />
                   <Route path="*" element={<NotFound />} />
                </Routes>

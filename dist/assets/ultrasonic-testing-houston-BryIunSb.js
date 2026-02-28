@@ -1,0 +1,1 @@
+import{j as o}from"./index-UBqSqRC9.js";import{M as t}from"./MethodLocationPage-DWusmYlE.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function u(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"houston"})}export{u as default};

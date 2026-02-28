@@ -8,18 +8,46 @@ import { CheckCircle, Award, Clock, DollarSign, Users, FileText } from "lucide-r
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const levels = [
-    { level: "Level I", duration: "40 hours", description: "Perform tests under Level II/III supervision", prerequisites: "None", salary: "$45,000 - $60,000" },
-    { level: "Level II", duration: "80 hours", description: "Set up, calibrate, interpret, document, and supervise Level I", prerequisites: "Level I + experience", salary: "$60,000 - $85,000" },
-    { level: "Level III", duration: "Professional exam", description: "Develop procedures, train personnel, manage programs", prerequisites: "Multiple Level II + experience", salary: "$85,000 - $150,000+" }
+    { level: "Level I", duration: "40 hours min", description: "Perform NDT tests under Level II/III supervision. Follow written instructions, record data.", prerequisites: "Vision acuity test, employer training", salary: "$45,000 - $60,000", experience: "Varies by method (210–1,200 hrs per SNT-TC-1A)" },
+    { level: "Level II", duration: "40+ additional hrs", description: "Set up, calibrate, interpret results, evaluate acceptance criteria, and supervise Level I technicians.", prerequisites: "Level I certification + documented experience", salary: "$60,000 - $85,000", experience: "Varies by method (630–3,600 hrs per SNT-TC-1A)" },
+    { level: "Level III", duration: "Professional exam", description: "Develop procedures, interpret codes and standards, train and certify Level I/II personnel, manage NDT programs.", prerequisites: "Level II in one method + 4 years experience (or degree + 1 year)", salary: "$85,000 - $150,000+", experience: "4,200 hrs minimum (with degree) or 12,600 hrs (HS diploma)" }
 ];
 
-const methods = ["Ultrasonic Testing (UT)", "Radiographic Testing (RT)", "Magnetic Particle Testing (MT)", "Liquid Penetrant Testing (PT)", "Eddy Current Testing (ET)", "Visual Testing (VT)"];
+const methods = [
+    { name: "Ultrasonic Testing (UT)", slug: "ultrasonic-testing", trainHrs: "40/40", expHrs: "210/630" },
+    { name: "Radiographic Testing (RT)", slug: "radiographic-testing", trainHrs: "40/40", expHrs: "210/630" },
+    { name: "Magnetic Particle Testing (MT)", slug: "magnetic-particle-testing", trainHrs: "12/24", expHrs: "130/390" },
+    { name: "Liquid Penetrant Testing (PT)", slug: "penetrant-testing", trainHrs: "8/16", expHrs: "130/390" },
+    { name: "Eddy Current Testing (ET)", slug: "eddy-current-testing", trainHrs: "40/40", expHrs: "210/630" },
+    { name: "Visual Testing (VT)", slug: "visual-testing", trainHrs: "8/16", expHrs: "130/390" },
+];
+
+const accpCosts = [
+    { level: "ACCP Level II", examFee: "$420", renewal: "$140/5yr", scope: "Single method" },
+    { level: "ACCP Level II (each add'l method)", examFee: "$280", renewal: "Included", scope: "Additional method" },
+    { level: "ASNT NDT Level III (Basic)", examFee: "$540", renewal: "$200/5yr", scope: "General + 1 method" },
+    { level: "ASNT NDT Level III (each add'l method)", examFee: "$310", renewal: "Included", scope: "Additional method" },
+];
+
+const sntVsAccp = [
+    { feature: "Certification Body", snt: "Employer (company)", accp: "ASNT (third-party)" },
+    { feature: "Portability", snt: "Not portable — re-certify at new employer", accp: "Fully portable between employers" },
+    { feature: "Written Practice Needed", snt: "Yes — employer must maintain one", accp: "No — ASNT manages the program" },
+    { feature: "Exam Development", snt: "Employer creates/selects exams", accp: "ASNT standardized exams" },
+    { feature: "Typical Use", snt: "Oil & gas, petrochemical, power gen", accp: "Aerospace, government, multi-site" },
+    { feature: "Industry Preference", snt: "Most common in Americas & Middle East", accp: "Growing globally, preferred for independence" },
+    { feature: "Levels Available", snt: "Level I, II, III", accp: "Level II and III only" },
+];
 
 const faqs = [
-    { question: "What is ASNT certification?", answer: "ASNT (American Society for Nondestructive Testing) provides certification programs including SNT-TC-1A employer-based certification, ASNT NDT Level III professional certification, and ACCP (ASNT Central Certification Program)." },
-    { question: "What's the difference between SNT-TC-1A and ACCP?", answer: "SNT-TC-1A is employer-based (company certifies you). ACCP is third-party certification by ASNT that's portable between employers." },
-    { question: "How long does ASNT certification take?", answer: "Level I: 40-80 hours training + experience. Level II: Additional 80-160 hours. Level III: Professional exam after years of experience." },
-    { question: "Is ASNT certification recognized internationally?", answer: "Yes, ASNT certification is recognized worldwide and is the most common standard in the Americas, Middle East, and Asia." }
+    { question: "What is ASNT certification?", answer: "ASNT (American Society for Nondestructive Testing) provides certification programs including SNT-TC-1A (employer-based), ACCP (ASNT Central Certification Program — third-party portable), and ASNT NDT Level III professional certification. It is the most widely recognized NDT certification standard in the Americas, Middle East, and parts of Asia." },
+    { question: "What's the difference between SNT-TC-1A and ACCP?", answer: "SNT-TC-1A is employer-based — your company certifies you based on their Written Practice, and the certification stays with that employer. ACCP is third-party certification administered directly by ASNT — it's portable between employers and does not require an employer Written Practice. ACCP is available for Level II and III only." },
+    { question: "How much does ASNT certification cost?", answer: "ACCP Level II exam: $420 per method. ASNT NDT Level III exam: $540 (Basic) + $310 per additional method. Renewal: $140–$200 every 5 years. Training costs range from $800–$3,000 per course depending on method and location." },
+    { question: "How long does ASNT certification take?", answer: "Level I: 8–40 hours training (varies by method) + 130–210 hours on-the-job experience. Level II: Additional 16–40 hours training + 390–630 hours experience. Level III: Professional exam requiring 4+ years of experience." },
+    { question: "Is ASNT certification recognized internationally?", answer: "Yes. ASNT certification (both SNT-TC-1A and ACCP) is recognized in 100+ countries. It is the dominant standard in the USA, Canada, Middle East, India, Southeast Asia, and Latin America. In Europe, ISO 9712 and PCN are more common." },
+    { question: "What is ACCP NDT certification?", answer: "ACCP (ASNT Central Certification Program) is ASNT's third-party, portable certification. Unlike SNT-TC-1A where your employer certifies you, ACCP certification is issued by ASNT and follows you between jobs. Available for Level II (all methods) and Level III. Increasingly preferred by multinational companies." },
+    { question: "Can I get ASNT certified online?", answer: "ASNT offers some online training courses, but the certification exams (both SNT-TC-1A practical and ACCP) require in-person proctored testing. Many training providers, including Atlantis NDT, offer online theory courses followed by in-person practical exams in Dubai, Houston, India, and other locations." },
+    { question: "What is the ASNT Level III exam format?", answer: "The ASNT NDT Level III exam consists of: (1) Basic exam — 135 questions on materials science, NDT processes, and quality management; (2) Method exam — 66 questions on a specific NDT method; (3) Specific exam (optional, employer-based) — questions on codes, standards, and specifications relevant to your industry." },
 ];
 
 export default function ASNTCertification() {
@@ -47,8 +75,8 @@ export default function ASNTCertification() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification Training</h1>
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Comprehensive training for ASNT NDT certification at all levels. Level I, II, and III programs for all major NDT methods.</p>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification & ACCP Guide 2026</h1>
+                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Complete guide to ASNT certification: SNT-TC-1A employer-based vs ACCP portable certification. Level I, II, and III programs for all 6 NDT methods. Exam costs, experience requirements, and training locations.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll Now</Link>
                             <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
@@ -60,17 +88,46 @@ export default function ASNTCertification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
+                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">95%</div><div className="text-slate-600">First-Attempt Pass Rate</div></div>
                         <div><div className="text-4xl font-bold text-[#004aad] mb-2">6</div><div className="text-slate-600">NDT Methods</div></div>
                         <div><div className="text-4xl font-bold text-[#004aad] mb-2">3</div><div className="text-slate-600">Certification Levels</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">50+</div><div className="text-slate-600">Instructors</div></div>
+                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">100+</div><div className="text-slate-600">Countries Recognized</div></div>
                     </div>
                 </div>
             </section>
 
+            {/* SNT-TC-1A vs ACCP Comparison */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-12">Certification Levels</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">SNT-TC-1A vs ACCP: Which Certification Path?</h2>
+                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">ASNT offers two main certification pathways. Understanding the difference is critical for choosing the right path for your career and employer requirements.</p>
+                    <div className="overflow-x-auto">
+                        <table className="w-full bg-white rounded-lg shadow-sm text-sm">
+                            <thead>
+                                <tr className="bg-[#004aad] text-white">
+                                    <th className="px-4 py-3 text-left font-semibold">Feature</th>
+                                    <th className="px-4 py-3 text-left font-semibold">SNT-TC-1A (Employer-Based)</th>
+                                    <th className="px-4 py-3 text-left font-semibold">ACCP (ASNT Central Certification)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {sntVsAccp.map((row, i) => (
+                                    <tr key={row.feature} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                        <td className="px-4 py-3 font-medium text-slate-900">{row.feature}</td>
+                                        <td className="px-4 py-3 text-slate-700">{row.snt}</td>
+                                        <td className="px-4 py-3 text-slate-700">{row.accp}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            {/* Certification Levels */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-12">ASNT Certification Levels</h2>
                     <div className="grid md:grid-cols-3 gap-6">
                         {levels.map((level) => (
                             <Card key={level.level} className="relative overflow-hidden">
@@ -79,7 +136,8 @@ export default function ASNTCertification() {
                                 <CardContent>
                                     <p className="text-slate-600 mb-4">{level.description}</p>
                                     <div className="space-y-2 text-sm">
-                                        <div className="flex justify-between"><span className="text-slate-500">Duration:</span><span className="font-medium">{level.duration}</span></div>
+                                        <div className="flex justify-between"><span className="text-slate-500">Training:</span><span className="font-medium">{level.duration}</span></div>
+                                        <div className="flex justify-between"><span className="text-slate-500">Experience:</span><span className="font-medium">{level.experience}</span></div>
                                         <div className="flex justify-between"><span className="text-slate-500">Prerequisites:</span><span className="font-medium">{level.prerequisites}</span></div>
                                         <div className="flex justify-between"><span className="text-slate-500">Salary Range:</span><span className="font-medium text-green-600">{level.salary}</span></div>
                                     </div>
@@ -90,19 +148,65 @@ export default function ASNTCertification() {
                 </div>
             </section>
 
-            <section className="py-16 bg-white">
+            {/* ACCP Exam Costs */}
+            <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-8">NDT Methods Available</h2>
-                    <div className="flex flex-wrap justify-center gap-4">
-                        {methods.map((method) => (
-                            <Link key={method} to="/training" className="bg-slate-100 px-6 py-3 rounded-lg font-medium hover:bg-[#004aad] hover:text-white transition-all duration-200">
-                                {method}
-                            </Link>
-                        ))}
+                    <h2 className="text-3xl font-bold text-center mb-4">ACCP & ASNT Level III Exam Costs (2026)</h2>
+                    <p className="text-slate-600 text-center max-w-2xl mx-auto mb-10">Current ASNT exam fees. Training course costs ($800–$3,000) are additional and vary by provider and location.</p>
+                    <div className="overflow-x-auto">
+                        <table className="w-full bg-white rounded-lg shadow-sm text-sm">
+                            <thead>
+                                <tr className="bg-[#004aad] text-white">
+                                    <th className="px-4 py-3 text-left font-semibold">Certification</th>
+                                    <th className="px-4 py-3 text-left font-semibold">Exam Fee</th>
+                                    <th className="px-4 py-3 text-left font-semibold">Renewal</th>
+                                    <th className="px-4 py-3 text-left font-semibold">Scope</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {accpCosts.map((row, i) => (
+                                    <tr key={row.level} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                        <td className="px-4 py-3 font-medium text-slate-900">{row.level}</td>
+                                        <td className="px-4 py-3 text-slate-700 font-semibold">{row.examFee}</td>
+                                        <td className="px-4 py-3 text-slate-700">{row.renewal}</td>
+                                        <td className="px-4 py-3 text-slate-700">{row.scope}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
 
+            {/* Training Hours by Method */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">Training Hours & Experience by NDT Method</h2>
+                    <p className="text-slate-600 text-center max-w-2xl mx-auto mb-10">Minimum training and on-the-job experience hours per SNT-TC-1A Recommended Practice. Format: Level I / Level II.</p>
+                    <div className="overflow-x-auto">
+                        <table className="w-full bg-white rounded-lg shadow-sm text-sm">
+                            <thead>
+                                <tr className="bg-[#004aad] text-white">
+                                    <th className="px-4 py-3 text-left font-semibold">NDT Method</th>
+                                    <th className="px-4 py-3 text-center font-semibold">Training Hours (L1/L2)</th>
+                                    <th className="px-4 py-3 text-center font-semibold">Experience Hours (L1/L2)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {methods.map((m, i) => (
+                                    <tr key={m.slug} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                        <td className="px-4 py-3"><Link to={`/${m.slug}`} className="font-medium text-[#004aad] hover:underline">{m.name}</Link></td>
+                                        <td className="px-4 py-3 text-center text-slate-700">{m.trainHrs}</td>
+                                        <td className="px-4 py-3 text-center text-slate-700">{m.expHrs}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
@@ -112,11 +216,37 @@ export default function ASNTCertification() {
                 </div>
             </section>
 
+            {/* Related Pages */}
+            <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-8">Related Certification & Training Pages</h2>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {[
+                            { name: "API 510 Certification", path: "/api-510-certification" },
+                            { name: "API 570 Certification", path: "/api-570-certification" },
+                            { name: "API 653 Certification", path: "/api-653-certification" },
+                            { name: "NDT Certification Guide", path: "/ndt-certification-guide" },
+                            { name: "NDT Career Guide", path: "/ndt-career-guide" },
+                            { name: "NDT Salary Guide", path: "/ndt-technician-salary" },
+                            { name: "NDT Training USA", path: "/ndt-training-usa" },
+                            { name: "NDT Training Dubai", path: "/ndt-training-dubai" },
+                        ].map(link => (
+                            <Link key={link.path} to={link.path} className="block p-4 bg-slate-50 rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
+                                <span className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors text-sm">{link.name}</span>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             <section className="py-16 bg-gradient-to-r from-[#004aad] to-blue-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Ready to Get Certified per SNT-TC-1A?</h2>
-                    <p className="text-blue-100 mb-8 text-lg">Join our comprehensive training programs and advance your NDT career.</p>
-                    <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
+                    <h2 className="text-3xl font-bold mb-4">Ready to Get ASNT Certified?</h2>
+                    <p className="text-blue-100 mb-8 text-lg">Join our SNT-TC-1A and ACCP training programs. 95% first-attempt pass rate. Available in Dubai, Houston, India, and online.</p>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
+                        <Link to="/consulting/ndt-consulting-level-iii" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Level III Consulting</Link>
+                    </div>
                 </div>
             </section>
 

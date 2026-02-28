@@ -1,0 +1,1 @@
+import{j as r}from"./index-UBqSqRC9.js";import{E as t}from"./ErpLocationPage-DOkJm5PR.js";import"./file-text-C-rUbu-f.js";function s(){return r.jsx(t,{city:"New Orleans",country:"USA",slug:"ndt-erp-new-orleans"})}export{s as default};

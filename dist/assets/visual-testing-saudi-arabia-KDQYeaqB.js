@@ -1,0 +1,1 @@
+import{j as t}from"./index-UBqSqRC9.js";import{M as a}from"./MethodLocationPage-DWusmYlE.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function u(){return t.jsx(a,{methodSlug:"visual-testing",locationSlug:"saudi-arabia"})}export{u as default};

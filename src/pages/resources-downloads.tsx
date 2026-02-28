@@ -15,7 +15,8 @@ const resources = [
         description: "Comprehensive checklist for planning and executing NDT inspections. Covers pre-inspection, during inspection, and post-inspection requirements.",
         type: "PDF Checklist",
         pages: "4 pages",
-        format: "PDF"
+        format: "PDF",
+        href: "/resources/ndt-inspection-checklist"
     },
     {
         icon: FileCheck,
@@ -23,7 +24,8 @@ const resources = [
         description: "Template for documenting above-ground storage tank inspections per API 653 requirements. Includes shell, floor, and roof inspection forms.",
         type: "Excel Template",
         pages: "Multi-sheet",
-        format: "XLSX"
+        format: "XLSX",
+        href: "/resources/api-653-inspection-template"
     },
     {
         icon: BookOpen,
@@ -31,7 +33,8 @@ const resources = [
         description: "Study guide overview for ASNT Level III certification preparation. Covers exam format, topics, and preparation strategies.",
         type: "PDF Guide",
         pages: "12 pages",
-        format: "PDF"
+        format: "PDF",
+        href: "/resources/asnt-level-iii-study-guide"
     },
     {
         icon: FileText,
@@ -39,7 +42,8 @@ const resources = [
         description: "General NDT procedure template aligned with ASNT SNT-TC-1A and ISO 9712 requirements. Customize for your specific method and application.",
         type: "Word Template",
         pages: "6 pages",
-        format: "DOCX"
+        format: "DOCX",
+        href: "/resources/ndt-procedure-template"
     },
     {
         icon: Shield,
@@ -47,7 +51,8 @@ const resources = [
         description: "Safety checklist for NDT operations including radiation safety, electrical safety, and general worksite safety requirements.",
         type: "PDF Checklist",
         pages: "3 pages",
-        format: "PDF"
+        format: "PDF",
+        href: "/resources/ndt-safety-checklist"
     },
     {
         icon: Award,
@@ -55,7 +60,8 @@ const resources = [
         description: "Matrix showing training hour requirements for various NDT certifications including ASNT SNT-TC-1A, ISO 9712, and PCN schemes.",
         type: "PDF Reference",
         pages: "2 pages",
-        format: "PDF"
+        format: "PDF",
+        href: "/resources/training-requirements-matrix"
     }
 ];
 
@@ -120,10 +126,10 @@ export default function ResourcesDownloads() {
                                             <span>{resource.type}</span>
                                             <span>{resource.pages}</span>
                                         </div>
-                                        <Link to="/contact">
+                                        <Link to={resource.href}>
                                             <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition">
                                                 <Download className="w-4 h-4 mr-2" />
-                                                Request Download
+                                                View & Download
                                             </Button>
                                         </Link>
                                     </CardContent>

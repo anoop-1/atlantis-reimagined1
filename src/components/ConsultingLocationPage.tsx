@@ -447,30 +447,57 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
 
     const structuredData = {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": `NDT Level III Consulting in ${location.name}`,
-        "provider": {
-            "@type": "Organization",
-            "name": "Atlantis NDT",
-            "url": "https://atlantisndt.com"
-        },
-        "description": pageDesc,
-        "areaServed": {
-            "@type": "Place",
-            "name": location.name
-        },
-        "serviceType": "NDT Level III Consulting",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "NDT Consulting Services",
-            "itemListElement": consultingServices.map(service => ({
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": service.title
+        "@graph": [
+            {
+                "@type": "ProfessionalService",
+                "name": `NDT Level III Consulting in ${location.name}`,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT",
+                    "url": "https://atlantisndt.com"
+                },
+                "description": pageDesc,
+                "areaServed": {
+                    "@type": "Place",
+                    "name": location.name
+                },
+                "serviceType": "NDT Level III Consulting",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "NDT Consulting Services",
+                    "itemListElement": consultingServices.map(service => ({
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": service.title
+                        }
+                    }))
                 }
-            }))
-        }
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}#business`,
+                "name": `Atlantis NDT - ${location.name}`,
+                "description": `Professional NDT consulting, training, and digital twin solutions in ${location.name}, ${location.country}`,
+                "url": `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`,
+                "telephone": "+1-281-840-8969",
+                "email": "info@atlantisndt.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": location.name,
+                    "addressCountry": location.country
+                },
+                "areaServed": {
+                    "@type": "City",
+                    "name": location.name
+                },
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT",
+                    "url": "https://atlantisndt.com"
+                }
+            }
+        ]
     };
 
     const faqs = [

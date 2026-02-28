@@ -1,1 +1,0 @@
-import{j as o}from"./index-BVWl4bNX.js";import{C as n}from"./ConsultingLocationPage-DHBzBk3V.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CP5L6aIz.js";function s(){return o.jsx(n,{locationSlug:"hong-kong"})}export{s as default};

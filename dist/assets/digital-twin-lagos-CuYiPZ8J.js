@@ -1,1 +1,0 @@
-import{j as i}from"./index-BVWl4bNX.js";import{D as t}from"./DigitalTwinLocationPage-DElp-uaD.js";import"./monitor-C1uSM988.js";import"./chart-no-axes-column-CIvZvf8r.js";import"./file-text-CP5L6aIz.js";function n(){return i.jsx(t,{city:"Lagos",country:"Nigeria",slug:"digital-twin-lagos"})}export{n as default};

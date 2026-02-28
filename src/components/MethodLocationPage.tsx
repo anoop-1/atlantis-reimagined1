@@ -584,6 +584,63 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
                 </div>
             </section>
 
+            {/* Cross-Linking: Related Methods + Other Locations */}
+            <section className="py-16 bg-slate-100">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold mb-8" style={{ color: "#004aad" }}>Explore More NDT Services</h2>
+
+                    {/* Related NDT Methods in this City */}
+                    <h3 className="text-lg font-semibold text-slate-700 mb-4">Other NDT Methods in {location.name}</h3>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-10">
+                        {ndtMethods
+                            .filter(m => m.slug !== method.slug)
+                            .map(m => (
+                                <Link
+                                    key={m.slug}
+                                    to={`/${m.slug}-${location.slug}`}
+                                    className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group"
+                                >
+                                    <h4 className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors text-sm">{m.shortName}</h4>
+                                    <p className="text-xs text-slate-500 mt-1">{m.name} in {location.name}</p>
+                                </Link>
+                            ))}
+                    </div>
+
+                    {/* Same Method in Other Locations */}
+                    <h3 className="text-lg font-semibold text-slate-700 mb-3">{method.shortName} in Other Locations</h3>
+                    <div className="flex flex-wrap gap-2 mb-8">
+                        {["houston", "dubai", "abu-dhabi", "saudi-arabia", "calgary", "singapore", "mumbai", "london", "chennai", "bangalore", "delhi", "los-angeles", "chicago", "denver", "new-orleans", "qatar", "kuwait", "norway", "uk"]
+                            .filter(c => c !== location.slug)
+                            .slice(0, 12)
+                            .map(c => (
+                                <Link
+                                    key={c}
+                                    to={`/${method.slug}-${c}`}
+                                    className="text-sm px-3 py-1.5 bg-white border border-slate-200 rounded-full hover:border-[#004aad] hover:text-[#004aad] transition-colors"
+                                >
+                                    {c.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                                </Link>
+                            ))}
+                    </div>
+
+                    {/* Cross-Service Links */}
+                    <h3 className="text-lg font-semibold text-slate-700 mb-4">Related Services in {location.name}</h3>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {[
+                            { title: "NDT Consulting", desc: "ASNT Level III consulting", link: `/consulting/ndt-consulting-${location.slug}` },
+                            { title: "Digital Twins", desc: "3D inspection visualization", link: `/digital-twin-${location.slug}` },
+                            { title: "NDT ERP Software", desc: "Inspection management", link: `/ndt-erp-${location.slug}` },
+                            { title: "NDT Training", desc: "Certification courses", link: "/training" },
+                        ].map(s => (
+                            <Link key={s.title} to={s.link} className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
+                                <h4 className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors">{s.title}</h4>
+                                <p className="text-sm text-slate-500 mt-1">{s.desc}</p>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* FAQ - Expanded to 8 questions */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-4xl px-6">

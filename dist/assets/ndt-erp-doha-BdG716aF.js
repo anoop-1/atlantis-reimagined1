@@ -1,0 +1,1 @@
+import{j as o}from"./index-UBqSqRC9.js";import{E as r}from"./ErpLocationPage-DOkJm5PR.js";import"./file-text-C-rUbu-f.js";function i(){return o.jsx(r,{city:"Doha",country:"Qatar",slug:"ndt-erp-doha"})}export{i as default};

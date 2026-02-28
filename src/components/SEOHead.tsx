@@ -116,16 +116,102 @@ export const SEOHead = ({
       });
     }
 
-    // Structured Data
+    // Structured Data (page-specific)
     if (structuredData) {
-      let script = document.querySelector('script[type="application/ld+json"]') as HTMLScriptElement;
+      let script = document.querySelector('script[data-sd="page"]') as HTMLScriptElement;
       if (!script) {
         script = document.createElement('script');
         script.type = 'application/ld+json';
+        script.setAttribute('data-sd', 'page');
         document.head.appendChild(script);
       }
       script.textContent = JSON.stringify(structuredData);
     }
+
+    // Organization schema (global - runs once)
+    if (!document.querySelector('script[data-sd="org"]')) {
+      const orgScript = document.createElement('script');
+      orgScript.type = 'application/ld+json';
+      orgScript.setAttribute('data-sd', 'org');
+      orgScript.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Atlantis NDT",
+        "url": "https://atlantisndt.com",
+        "logo": "https://atlantisndt.com/og-image.jpg",
+        "description": "Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals serving oil & gas, aerospace, and power generation industries.",
+        "foundingDate": "2018",
+        "sameAs": [
+          "https://www.linkedin.com/company/atlantis-ndt"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-281-840-8969",
+            "contactType": "sales",
+            "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "QA", "KW", "OM"],
+            "availableLanguage": "English"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Houston",
+          "addressLocality": "Houston",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        },
+        "knowsAbout": [
+          "Non-Destructive Testing",
+          "Ultrasonic Testing",
+          "Radiographic Testing",
+          "Magnetic Particle Testing",
+          "Liquid Penetrant Testing",
+          "Eddy Current Testing",
+          "Visual Testing",
+          "ASNT Certification",
+          "API 510 Certification",
+          "API 570 Certification",
+          "API 653 Certification",
+          "Digital Twin Technology",
+          "Asset Integrity Management"
+        ]
+      });
+      document.head.appendChild(orgScript);
+    }
+
+    // BreadcrumbList schema
+    try {
+      const path = window.location.pathname;
+      if (path !== '/') {
+        const segments = path.split('/').filter(Boolean);
+        const breadcrumbItems = [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL }
+        ];
+        let currentPath = '';
+        segments.forEach((seg, i) => {
+          currentPath += `/${seg}`;
+          breadcrumbItems.push({
+            "@type": "ListItem",
+            "position": i + 2,
+            "name": seg.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+            "item": `${SITE_URL}${currentPath}`
+          });
+        });
+
+        let bcScript = document.querySelector('script[data-sd="breadcrumb"]') as HTMLScriptElement;
+        if (!bcScript) {
+          bcScript = document.createElement('script');
+          bcScript.type = 'application/ld+json';
+          bcScript.setAttribute('data-sd', 'breadcrumb');
+          document.head.appendChild(bcScript);
+        }
+        bcScript.textContent = JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": breadcrumbItems
+        });
+      }
+    } catch {}
   }, [title, description, keywords, ogImage, canonical, structuredData, hreflangLinks]);
 
   return null;

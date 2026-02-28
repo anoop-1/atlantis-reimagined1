@@ -1,1 +1,0 @@
-import{j as o}from"./index-BVWl4bNX.js";import{E as r}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function a(){return o.jsx(r,{city:"Oslo",country:"Norway",slug:"ndt-erp-oslo"})}export{a as default};

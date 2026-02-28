@@ -1,0 +1,5995 @@
+{
+  "generated": "2026-02-28T07:04:01.978Z",
+  "dateRange": {
+    "startDate": "2026-01-28",
+    "endDate": "2026-02-25",
+    "days": 28
+  },
+  "summary": {
+    "totalClicks": 88,
+    "totalImpressions": 8927,
+    "avgCTR": 0.99,
+    "avgPosition": 14.9,
+    "dailyAvgClicks": 3,
+    "pagesWithTraffic": 259,
+    "uniqueQueries": 525
+  },
+  "pages": [
+    {
+      "page": "/",
+      "clicks": 19,
+      "impressions": 200,
+      "ctr": "9.5%",
+      "position": "6.6"
+    },
+    {
+      "page": "/ndt-training-dubai",
+      "clicks": 5,
+      "impressions": 200,
+      "ctr": "2.5%",
+      "position": "8.2"
+    },
+    {
+      "page": "/training-india",
+      "clicks": 4,
+      "impressions": 61,
+      "ctr": "6.6%",
+      "position": "32.3"
+    },
+    {
+      "page": "/radiographic-testing-chennai",
+      "clicks": 3,
+      "impressions": 16,
+      "ctr": "18.8%",
+      "position": "5.3"
+    },
+    {
+      "page": "/resources",
+      "clicks": 3,
+      "impressions": 45,
+      "ctr": "6.7%",
+      "position": "5.5"
+    },
+    {
+      "page": "/about",
+      "clicks": 2,
+      "impressions": 86,
+      "ctr": "2.3%",
+      "position": "3.7"
+    },
+    {
+      "page": "/blog/ut-vs-rt-comparison",
+      "clicks": 2,
+      "impressions": 421,
+      "ctr": "0.5%",
+      "position": "6.5"
+    },
+    {
+      "page": "/consulting/ndt-consulting-france",
+      "clicks": 2,
+      "impressions": 19,
+      "ctr": "10.5%",
+      "position": "6.5"
+    },
+    {
+      "page": "/eddy-current-testing-singapore",
+      "clicks": 2,
+      "impressions": 35,
+      "ctr": "5.7%",
+      "position": "10.7"
+    },
+    {
+      "page": "/ndt-erp-solution",
+      "clicks": 2,
+      "impressions": 66,
+      "ctr": "3.0%",
+      "position": "9.7"
+    },
+    {
+      "page": "/ndt-training-hyderabad",
+      "clicks": 2,
+      "impressions": 35,
+      "ctr": "5.7%",
+      "position": "8.0"
+    },
+    {
+      "page": "/ndt-training-saudi-arabia",
+      "clicks": 2,
+      "impressions": 56,
+      "ctr": "3.6%",
+      "position": "6.8"
+    },
+    {
+      "page": "/ultrasonic-testing-chicago",
+      "clicks": 2,
+      "impressions": 34,
+      "ctr": "5.9%",
+      "position": "17.2"
+    },
+    {
+      "page": "/api-570-certification",
+      "clicks": 1,
+      "impressions": 213,
+      "ctr": "0.5%",
+      "position": "40.5"
+    },
+    {
+      "page": "/blog",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": "5.9%",
+      "position": "5.8"
+    },
+    {
+      "page": "/blog/api-653-tank-inspection-guide",
+      "clicks": 1,
+      "impressions": 1271,
+      "ctr": "0.1%",
+      "position": "13.1"
+    },
+    {
+      "page": "/blog/future-of-ndt-oil-gas-digital-twins-ai",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": "16.7%",
+      "position": "6.5"
+    },
+    {
+      "page": "/blog/magnetic-particle-testing",
+      "clicks": 1,
+      "impressions": 212,
+      "ctr": "0.5%",
+      "position": "20.1"
+    },
+    {
+      "page": "/blog/radiographic-testing",
+      "clicks": 1,
+      "impressions": 30,
+      "ctr": "3.3%",
+      "position": "39.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-algeria",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": "6.3%",
+      "position": "4.9"
+    },
+    {
+      "page": "/consulting/ndt-consulting-bangalore",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": "33.3%",
+      "position": "5.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-calgary",
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": "20.0%",
+      "position": "11.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-chicago",
+      "clicks": 1,
+      "impressions": 30,
+      "ctr": "3.3%",
+      "position": "6.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-detroit",
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": "7.1%",
+      "position": "27.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-edmonton",
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": "25.0%",
+      "position": "15.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-japan",
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": "3.6%",
+      "position": "6.5"
+    },
+    {
+      "page": "/consulting/ndt-consulting-kochi",
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": "20.0%",
+      "position": "8.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-mexico-city",
+      "clicks": 1,
+      "impressions": 13,
+      "ctr": "7.7%",
+      "position": "7.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-nairobi",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": "16.7%",
+      "position": "3.5"
+    },
+    {
+      "page": "/consulting/ndt-consulting-uk",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": "33.3%",
+      "position": "12.3"
+    },
+    {
+      "page": "/digital-twins",
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": "7.1%",
+      "position": "5.6"
+    },
+    {
+      "page": "/eddy-current-testing-mumbai",
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": "20.0%",
+      "position": "5.6"
+    },
+    {
+      "page": "/eddy-current-testing-norway",
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": "8.3%",
+      "position": "32.6"
+    },
+    {
+      "page": "/eddy-current-testing-qatar",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": "5.9%",
+      "position": "4.6"
+    },
+    {
+      "page": "/ndt-consulting-belgium",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": "16.7%",
+      "position": "3.2"
+    },
+    {
+      "page": "/ndt-consulting-norway",
+      "clicks": 1,
+      "impressions": 11,
+      "ctr": "9.1%",
+      "position": "7.5"
+    },
+    {
+      "page": "/ndt-services-houston",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": "50.0%",
+      "position": "4.0"
+    },
+    {
+      "page": "/penetrant-testing-chicago",
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": "14.3%",
+      "position": "5.1"
+    },
+    {
+      "page": "/penetrant-testing-dubai",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": "16.7%",
+      "position": "4.5"
+    },
+    {
+      "page": "/radiographic-testing-abu-dhabi",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": "16.7%",
+      "position": "6.0"
+    },
+    {
+      "page": "/radiographic-testing-bangalore",
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": "20.0%",
+      "position": "6.8"
+    },
+    {
+      "page": "/radiographic-testing-calgary",
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": "14.3%",
+      "position": "12.9"
+    },
+    {
+      "page": "/radiographic-testing-dubai",
+      "clicks": 1,
+      "impressions": 29,
+      "ctr": "3.4%",
+      "position": "6.2"
+    },
+    {
+      "page": "/radiographic-testing-qatar",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": "6.3%",
+      "position": "6.2"
+    },
+    {
+      "page": "/radiographic-testing-saudi-arabia",
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": "6.7%",
+      "position": "9.3"
+    },
+    {
+      "page": "/ultrasonic-testing-calgary",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": "50.0%",
+      "position": "6.5"
+    },
+    {
+      "page": "/ultrasonic-testing-kuwait",
+      "clicks": 1,
+      "impressions": 40,
+      "ctr": "2.5%",
+      "position": "19.9"
+    },
+    {
+      "page": "/ultrasonic-testing-new-orleans",
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": "11.1%",
+      "position": "5.3"
+    },
+    {
+      "page": "/ultrasonic-testing-qatar",
+      "clicks": 1,
+      "impressions": 25,
+      "ctr": "4.0%",
+      "position": "16.9"
+    },
+    {
+      "page": "/ultrasonic-testing-saudi-arabia",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": "5.9%",
+      "position": "24.4"
+    },
+    {
+      "page": "/visual-testing-bangalore",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": "33.3%",
+      "position": "3.0"
+    },
+    {
+      "page": "/api-510-certification",
+      "clicks": 0,
+      "impressions": 131,
+      "ctr": "0.0%",
+      "position": "29.4"
+    },
+    {
+      "page": "/api-653-certification",
+      "clicks": 0,
+      "impressions": 254,
+      "ctr": "0.0%",
+      "position": "42.3"
+    },
+    {
+      "page": "/asnt-certification",
+      "clicks": 0,
+      "impressions": 337,
+      "ctr": "0.0%",
+      "position": "10.7"
+    },
+    {
+      "page": "/blog/100-questions-answers-ndt-atlantis-global-guide",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "7.5"
+    },
+    {
+      "page": "/blog/asset-integrity-management-guide-2025-rbi-digital-twins",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "8.9"
+    },
+    {
+      "page": "/blog/best-ndt-reporting-software-oil-gas-digital-twin",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0.0%",
+      "position": "6.2"
+    },
+    {
+      "page": "/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity",
+      "clicks": 0,
+      "impressions": 74,
+      "ctr": "0.0%",
+      "position": "4.5"
+    },
+    {
+      "page": "/blog/digital-twins-ndt-guide",
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "page": "/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "5.6"
+    },
+    {
+      "page": "/blog/digital-twins-oil-gas",
+      "clicks": 0,
+      "impressions": 132,
+      "ctr": "0.0%",
+      "position": "7.7"
+    },
+    {
+      "page": "/blog/digital-twins-reduce-refinery-turnaround-time",
+      "clicks": 0,
+      "impressions": 75,
+      "ctr": "0.0%",
+      "position": "5.9"
+    },
+    {
+      "page": "/blog/eddy-current-testing",
+      "clicks": 0,
+      "impressions": 843,
+      "ctr": "0.0%",
+      "position": "45.7"
+    },
+    {
+      "page": "/blog/ndt-career-guide",
+      "clicks": 0,
+      "impressions": 161,
+      "ctr": "0.0%",
+      "position": "8.3"
+    },
+    {
+      "page": "/blog/ndt-career-top-choice-2025-global-market-trends",
+      "clicks": 0,
+      "impressions": 165,
+      "ctr": "0.0%",
+      "position": "6.3"
+    },
+    {
+      "page": "/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "2.0"
+    },
+    {
+      "page": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "10.5"
+    },
+    {
+      "page": "/blog/ndt-level-iii-consulting-services-guide",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0.0%",
+      "position": "30.8"
+    },
+    {
+      "page": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": "0.0%",
+      "position": "8.8"
+    },
+    {
+      "page": "/blog/ndt-training-complete-guide-courses-certification-global",
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": "0.0%",
+      "position": "15.8"
+    },
+    {
+      "page": "/blog/ndt-training-vs-certification-2025-oil-gas-expectations",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "page": "/blog/penetrant-testing",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "16.1"
+    },
+    {
+      "page": "/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "5.6"
+    },
+    {
+      "page": "/blog/ultrasonic-testing",
+      "clicks": 0,
+      "impressions": 405,
+      "ctr": "0.0%",
+      "position": "62.4"
+    },
+    {
+      "page": "/blog/visual-testing",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": "0.0%",
+      "position": "20.3"
+    },
+    {
+      "page": "/case-studies",
+      "clicks": 0,
+      "impressions": 38,
+      "ctr": "0.0%",
+      "position": "9.5"
+    },
+    {
+      "page": "/consulting",
+      "clicks": 0,
+      "impressions": 83,
+      "ctr": "0.0%",
+      "position": "22.0"
+    },
+    {
+      "page": "/consulting-india",
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": "0.0%",
+      "position": "3.4"
+    },
+    {
+      "page": "/consulting-me",
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": "0.0%",
+      "position": "11.9"
+    },
+    {
+      "page": "/consulting-service",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "9.3"
+    },
+    {
+      "page": "/consulting-usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "7.5"
+    },
+    {
+      "page": "/consulting/ndt-consulting-abu-dhabi",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0.0%",
+      "position": "5.7"
+    },
+    {
+      "page": "/consulting/ndt-consulting-accra",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "3.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-ahmedabad",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "14.5"
+    },
+    {
+      "page": "/consulting/ndt-consulting-angola",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": "0.0%",
+      "position": "8.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-argentina",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "5.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-australia",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-bahrain",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-bangkok",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "16.4"
+    },
+    {
+      "page": "/consulting/ndt-consulting-baton-rouge",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "57.2"
+    },
+    {
+      "page": "/consulting/ndt-consulting-beaumont",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "25.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-beijing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-bogota",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-brazil",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "5.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-brisbane",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "7.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-buenos-aires",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "3.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-cape-town",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "8.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-chennai",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "8.7"
+    },
+    {
+      "page": "/consulting/ndt-consulting-colombia",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "5.9"
+    },
+    {
+      "page": "/consulting/ndt-consulting-corpus-christi",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "34.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-dallas",
+      "clicks": 0,
+      "impressions": 112,
+      "ctr": "0.0%",
+      "position": "12.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-dammam",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-delhi",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "2.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-denver",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-dubai",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "4.7"
+    },
+    {
+      "page": "/consulting/ndt-consulting-egypt",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-germany",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "8.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-ho-chi-minh",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "3.5"
+    },
+    {
+      "page": "/consulting/ndt-consulting-houston",
+      "clicks": 0,
+      "impressions": 34,
+      "ctr": "0.0%",
+      "position": "17.4"
+    },
+    {
+      "page": "/consulting/ndt-consulting-italy",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "14.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-jakarta",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-johannesburg",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "3.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-kolkata",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-lagos",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "8.7"
+    },
+    {
+      "page": "/consulting/ndt-consulting-level-iii",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "27.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-lima",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-los-angeles",
+      "clicks": 0,
+      "impressions": 82,
+      "ctr": "0.0%",
+      "position": "72.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-manila",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "13.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-melbourne",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "39.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-mumbai",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "7.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-new-orleans",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "33.9"
+    },
+    {
+      "page": "/consulting/ndt-consulting-new-zealand",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "5.4"
+    },
+    {
+      "page": "/consulting/ndt-consulting-norway",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-oman",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "14.9"
+    },
+    {
+      "page": "/consulting/ndt-consulting-perth",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "6.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-philadelphia",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "30.9"
+    },
+    {
+      "page": "/consulting/ndt-consulting-phoenix",
+      "clicks": 0,
+      "impressions": 85,
+      "ctr": "0.0%",
+      "position": "65.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-qatar",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": "0.0%",
+      "position": "9.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-rio-de-janeiro",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "4.4"
+    },
+    {
+      "page": "/consulting/ndt-consulting-san-francisco",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "23.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-santiago",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-sao-paulo",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "3.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-saudi-arabia",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "3.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-scotland",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-shanghai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-shenzhen",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-south-africa",
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": "0.0%",
+      "position": "16.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-south-korea",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "2.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-spain",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "5.3"
+    },
+    {
+      "page": "/consulting/ndt-consulting-sydney",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-taipei",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "5.8"
+    },
+    {
+      "page": "/consulting/ndt-consulting-taiwan",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "29.1"
+    },
+    {
+      "page": "/consulting/ndt-consulting-trinidad",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-tulsa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-vancouver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/consulting/ndt-consulting-vietnam",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0.0%",
+      "position": "9.4"
+    },
+    {
+      "page": "/consulting/ndt-consulting-vizag",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "page": "/consulting/ndt-consulting-yanbu",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "5.1"
+    },
+    {
+      "page": "/contact",
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": "0.0%",
+      "position": "4.5"
+    },
+    {
+      "page": "/eddy-current-testing-abu-dhabi",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "9.6"
+    },
+    {
+      "page": "/eddy-current-testing-bangalore",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "page": "/eddy-current-testing-calgary",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "8.3"
+    },
+    {
+      "page": "/eddy-current-testing-chennai",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "20.6"
+    },
+    {
+      "page": "/eddy-current-testing-delhi",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "12.0"
+    },
+    {
+      "page": "/eddy-current-testing-denver",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0.0%",
+      "position": "54.5"
+    },
+    {
+      "page": "/eddy-current-testing-dubai",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "7.8"
+    },
+    {
+      "page": "/eddy-current-testing-houston",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0.0%",
+      "position": "56.8"
+    },
+    {
+      "page": "/eddy-current-testing-kuwait",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0.0%",
+      "position": "9.0"
+    },
+    {
+      "page": "/eddy-current-testing-los-angeles",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "36.7"
+    },
+    {
+      "page": "/eddy-current-testing-new-orleans",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "17.8"
+    },
+    {
+      "page": "/eddy-current-testing-saudi-arabia",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "15.4"
+    },
+    {
+      "page": "/eddy-current-testing-uk",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "55.2"
+    },
+    {
+      "page": "/erp",
+      "clicks": 0,
+      "impressions": 35,
+      "ctr": "0.0%",
+      "position": "4.7"
+    },
+    {
+      "page": "/faq",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "3.3"
+    },
+    {
+      "page": "/intelligent-reporting-software",
+      "clicks": 0,
+      "impressions": 66,
+      "ctr": "0.0%",
+      "position": "17.7"
+    },
+    {
+      "page": "/magnetic-particle-testing-abu-dhabi",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "5.5"
+    },
+    {
+      "page": "/magnetic-particle-testing-bangalore",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "4.3"
+    },
+    {
+      "page": "/magnetic-particle-testing-calgary",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/magnetic-particle-testing-chennai",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "7.3"
+    },
+    {
+      "page": "/magnetic-particle-testing-chicago",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "20.6"
+    },
+    {
+      "page": "/magnetic-particle-testing-delhi",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "9.0"
+    },
+    {
+      "page": "/magnetic-particle-testing-denver",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "20.1"
+    },
+    {
+      "page": "/magnetic-particle-testing-dubai",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "6.3"
+    },
+    {
+      "page": "/magnetic-particle-testing-houston",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "15.5"
+    },
+    {
+      "page": "/magnetic-particle-testing-kuwait",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "37.0"
+    },
+    {
+      "page": "/magnetic-particle-testing-los-angeles",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "51.7"
+    },
+    {
+      "page": "/magnetic-particle-testing-mumbai",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "6.5"
+    },
+    {
+      "page": "/magnetic-particle-testing-norway",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "13.9"
+    },
+    {
+      "page": "/magnetic-particle-testing-qatar",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "9.7"
+    },
+    {
+      "page": "/magnetic-particle-testing-saudi-arabia",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "8.2"
+    },
+    {
+      "page": "/magnetic-particle-testing-singapore",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": "0.0%",
+      "position": "11.3"
+    },
+    {
+      "page": "/magnetic-particle-testing-uk",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "3.0"
+    },
+    {
+      "page": "/ndt-connect",
+      "clicks": 0,
+      "impressions": 107,
+      "ctr": "0.0%",
+      "position": "9.3"
+    },
+    {
+      "page": "/ndt-connect-platform",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": "0.0%",
+      "position": "18.8"
+    },
+    {
+      "page": "/ndt-consulting-indonesia",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "10.8"
+    },
+    {
+      "page": "/ndt-consulting-jamnagar",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "7.2"
+    },
+    {
+      "page": "/ndt-consulting-level-iii",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "24.3"
+    },
+    {
+      "page": "/ndt-consulting-netherlands",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "10.6"
+    },
+    {
+      "page": "/ndt-consulting-nigeria",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0.0%",
+      "position": "7.5"
+    },
+    {
+      "page": "/ndt-consulting-philippines",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "16.6"
+    },
+    {
+      "page": "/ndt-consulting-pittsburgh",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "62.0"
+    },
+    {
+      "page": "/ndt-consulting-seattle",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "35.0"
+    },
+    {
+      "page": "/ndt-consulting-singapore",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "page": "/ndt-for-aerospace",
+      "clicks": 0,
+      "impressions": 38,
+      "ctr": "0.0%",
+      "position": "45.6"
+    },
+    {
+      "page": "/ndt-for-oil-gas",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0.0%",
+      "position": "60.1"
+    },
+    {
+      "page": "/ndt-for-power-generation",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": "0.0%",
+      "position": "37.4"
+    },
+    {
+      "page": "/ndt-services-los-angeles",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "11.8"
+    },
+    {
+      "page": "/ndt-services-middle-east",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "6.7"
+    },
+    {
+      "page": "/ndt-services-norway",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "5.3"
+    },
+    {
+      "page": "/ndt-services-saudi-arabia",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "13.3"
+    },
+    {
+      "page": "/ndt-training-usa",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": "0.0%",
+      "position": "35.9"
+    },
+    {
+      "page": "/oil-gas-ndt-training",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "10.7"
+    },
+    {
+      "page": "/penetrant-testing-abu-dhabi",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/penetrant-testing-bangalore",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/penetrant-testing-calgary",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/penetrant-testing-chennai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "page": "/penetrant-testing-delhi",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/penetrant-testing-denver",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "14.1"
+    },
+    {
+      "page": "/penetrant-testing-houston",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "10.3"
+    },
+    {
+      "page": "/penetrant-testing-kuwait",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "133.0"
+    },
+    {
+      "page": "/penetrant-testing-los-angeles",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "22.0"
+    },
+    {
+      "page": "/penetrant-testing-new-orleans",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "82.0"
+    },
+    {
+      "page": "/penetrant-testing-qatar",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "6.5"
+    },
+    {
+      "page": "/penetrant-testing-saudi-arabia",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "page": "/penetrant-testing-singapore",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "16.5"
+    },
+    {
+      "page": "/penetrant-testing-uk",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "88.0"
+    },
+    {
+      "page": "/power-generation-ndt-training",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0.0%",
+      "position": "55.0"
+    },
+    {
+      "page": "/press",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "6.9"
+    },
+    {
+      "page": "/radiographic-testing-chicago",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "8.5"
+    },
+    {
+      "page": "/radiographic-testing-delhi",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "8.1"
+    },
+    {
+      "page": "/radiographic-testing-denver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "26.5"
+    },
+    {
+      "page": "/radiographic-testing-houston",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "31.2"
+    },
+    {
+      "page": "/radiographic-testing-kuwait",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "2.0"
+    },
+    {
+      "page": "/radiographic-testing-los-angeles",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "9.0"
+    },
+    {
+      "page": "/radiographic-testing-mumbai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "page": "/radiographic-testing-new-orleans",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "3.0"
+    },
+    {
+      "page": "/radiographic-testing-norway",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "4.3"
+    },
+    {
+      "page": "/radiographic-testing-singapore",
+      "clicks": 0,
+      "impressions": 45,
+      "ctr": "0.0%",
+      "position": "10.3"
+    },
+    {
+      "page": "/radiographic-testing-uk",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "page": "/training",
+      "clicks": 0,
+      "impressions": 66,
+      "ctr": "0.0%",
+      "position": "9.9"
+    },
+    {
+      "page": "/training-me",
+      "clicks": 0,
+      "impressions": 210,
+      "ctr": "0.0%",
+      "position": "12.4"
+    },
+    {
+      "page": "/training-usa",
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": "0.0%",
+      "position": "14.1"
+    },
+    {
+      "page": "/ultrasonic-testing-abu-dhabi",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "11.4"
+    },
+    {
+      "page": "/ultrasonic-testing-bangalore",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "10.5"
+    },
+    {
+      "page": "/ultrasonic-testing-chennai",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "9.3"
+    },
+    {
+      "page": "/ultrasonic-testing-delhi",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "8.5"
+    },
+    {
+      "page": "/ultrasonic-testing-denver",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "50.5"
+    },
+    {
+      "page": "/ultrasonic-testing-dubai",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0.0%",
+      "position": "24.0"
+    },
+    {
+      "page": "/ultrasonic-testing-houston",
+      "clicks": 0,
+      "impressions": 29,
+      "ctr": "0.0%",
+      "position": "33.6"
+    },
+    {
+      "page": "/ultrasonic-testing-los-angeles",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": "0.0%",
+      "position": "27.2"
+    },
+    {
+      "page": "/ultrasonic-testing-mumbai",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "5.4"
+    },
+    {
+      "page": "/ultrasonic-testing-norway",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "12.1"
+    },
+    {
+      "page": "/ultrasonic-testing-singapore",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": "0.0%",
+      "position": "24.8"
+    },
+    {
+      "page": "/ultrasonic-testing-uk",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": "0.0%",
+      "position": "30.8"
+    },
+    {
+      "page": "/visual-testing-abu-dhabi",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "4.1"
+    },
+    {
+      "page": "/visual-testing-calgary",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "1.3"
+    },
+    {
+      "page": "/visual-testing-chennai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/visual-testing-chicago",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "6.8"
+    },
+    {
+      "page": "/visual-testing-denver",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "52.5"
+    },
+    {
+      "page": "/visual-testing-dubai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/visual-testing-houston",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "9.5"
+    },
+    {
+      "page": "/visual-testing-kuwait",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "4.8"
+    },
+    {
+      "page": "/visual-testing-los-angeles",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "11.8"
+    },
+    {
+      "page": "/visual-testing-new-orleans",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "page": "/visual-testing-norway",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "11.7"
+    },
+    {
+      "page": "/visual-testing-qatar",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "9.3"
+    },
+    {
+      "page": "/visual-testing-saudi-arabia",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "3.8"
+    },
+    {
+      "page": "/visual-testing-singapore",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "page": "/visual-testing-uk",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0.0%",
+      "position": "28.9"
+    }
+  ],
+  "queries": [
+    {
+      "query": "api 570 certification",
+      "clicks": 1,
+      "impressions": 22,
+      "ctr": "4.5%",
+      "position": "11.5"
+    },
+    {
+      "query": "atlantis ndt",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": "50.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ut training",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": "33.3%",
+      "position": "6.3"
+    },
+    {
+      "query": "\"atlantis investigations\"",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "query": "\"subsea inspection\" saudi arabia",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "5.7"
+    },
+    {
+      "query": "653 api",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "65.1"
+    },
+    {
+      "query": "accp level 2",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "accp ndt",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "8.7"
+    },
+    {
+      "query": "acoustic testing in kuwait",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "8.5"
+    },
+    {
+      "query": "acoustic testing services kuwait",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "9.5"
+    },
+    {
+      "query": "advanced eddy current testing",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "65.0"
+    },
+    {
+      "query": "advanced ndt services bahrain",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "44.2"
+    },
+    {
+      "query": "advanced ndt services singapore",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "22.0"
+    },
+    {
+      "query": "advantages and disadvantages of radiographic testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "29.0"
+    },
+    {
+      "query": "advantages of eddy current testing",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "68.6"
+    },
+    {
+      "query": "aerospace ndt inspection services",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "aerospace ndt services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "69.0"
+    },
+    {
+      "query": "aerospace ndt solutions",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "67.8"
+    },
+    {
+      "query": "aircraft and aerospace ndt",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "84.8"
+    },
+    {
+      "query": "aircraft ndt inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "88.0"
+    },
+    {
+      "query": "american petroleum institute standard 653",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "86.0"
+    },
+    {
+      "query": "api 510",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "67.4"
+    },
+    {
+      "query": "api 510 certification",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "50.0"
+    },
+    {
+      "query": "api 510 classes",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "api 510 course",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "40.0"
+    },
+    {
+      "query": "api 510 exam",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "34.0"
+    },
+    {
+      "query": "api 510 pressure vessel inspector",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "60.4"
+    },
+    {
+      "query": "api 510 pressure vessel inspector certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "58.0"
+    },
+    {
+      "query": "api 510 training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "91.0"
+    },
+    {
+      "query": "api 510 training course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "82.0"
+    },
+    {
+      "query": "api 510 training online",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "96.0"
+    },
+    {
+      "query": "api 570",
+      "clicks": 0,
+      "impressions": 57,
+      "ctr": "0.0%",
+      "position": "57.9"
+    },
+    {
+      "query": "api 570 course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "api 570 courses",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "39.0"
+    },
+    {
+      "query": "api 570 exam",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "53.0"
+    },
+    {
+      "query": "api 570 exam pass rate",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "17.3"
+    },
+    {
+      "query": "api 570 inspection",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": "0.0%",
+      "position": "65.9"
+    },
+    {
+      "query": "api 570 inspector",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "58.0"
+    },
+    {
+      "query": "api 570 online training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "83.0"
+    },
+    {
+      "query": "api 570 piping inspector certification",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "37.3"
+    },
+    {
+      "query": "api 570 piping inspector certification requirements",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "15.0"
+    },
+    {
+      "query": "api 570 training",
+      "clicks": 0,
+      "impressions": 32,
+      "ctr": "0.0%",
+      "position": "76.1"
+    },
+    {
+      "query": "api 570 training course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "81.0"
+    },
+    {
+      "query": "api 653",
+      "clicks": 0,
+      "impressions": 48,
+      "ctr": "0.0%",
+      "position": "66.9"
+    },
+    {
+      "query": "api 653 12.2.2 acceptance criteria",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "api 653 authorized inspector approval",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "query": "api 653 certification",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0.0%",
+      "position": "26.9"
+    },
+    {
+      "query": "api 653 certification requirements",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "api 653 certification training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "api 653 certified tank inspector",
+      "clicks": 0,
+      "impressions": 30,
+      "ctr": "0.0%",
+      "position": "63.1"
+    },
+    {
+      "query": "api 653 compliant tank repair",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "52.0"
+    },
+    {
+      "query": "api 653 course",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "60.5"
+    },
+    {
+      "query": "api 653 current edition 2026",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "api 653 exam",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "9.0"
+    },
+    {
+      "query": "api 653 for atmospheric tanks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "60.5"
+    },
+    {
+      "query": "api 653 inspection",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "44.0"
+    },
+    {
+      "query": "api 653 inspection frequency",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "40.3"
+    },
+    {
+      "query": "api 653 inspection requirements",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "12.0"
+    },
+    {
+      "query": "api 653 inspection support",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "57.5"
+    },
+    {
+      "query": "api 653 inspections",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "73.7"
+    },
+    {
+      "query": "api 653 inspector",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "63.0"
+    },
+    {
+      "query": "api 653 inspector certification",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "48.0"
+    },
+    {
+      "query": "api 653 latest edition 2026",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0.0%",
+      "position": "9.4"
+    },
+    {
+      "query": "api 653 radiographic acceptance criteria",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "10.2"
+    },
+    {
+      "query": "api 653 radiography acceptance criteria",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "api 653 recertification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "88.0"
+    },
+    {
+      "query": "api 653 repairs",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "52.0"
+    },
+    {
+      "query": "api 653 rt acceptance criteria",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "9.8"
+    },
+    {
+      "query": "api 653 section 12.2 radiographic examination requirements",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "19.0"
+    },
+    {
+      "query": "api 653 section 12.2.1.6 radiography requirements",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "19.0"
+    },
+    {
+      "query": "api 653 standard",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "86.5"
+    },
+    {
+      "query": "api 653 storage tank inspection",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "59.3"
+    },
+    {
+      "query": "api 653 tank",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "32.0"
+    },
+    {
+      "query": "api 653 tank inspection",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0.0%",
+      "position": "41.8"
+    },
+    {
+      "query": "api 653 tank inspection frequency",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "41.3"
+    },
+    {
+      "query": "api 653 tank inspection requirements",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "api 653 tank inspection standards",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "13.0"
+    },
+    {
+      "query": "api 653 tank inspections",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "71.0"
+    },
+    {
+      "query": "api 653 tank repair",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "65.5"
+    },
+    {
+      "query": "api 653 tanks",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "93.3"
+    },
+    {
+      "query": "api 653 training",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "78.7"
+    },
+    {
+      "query": "api 653 training course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "86.0"
+    },
+    {
+      "query": "api houston",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "17.7"
+    },
+    {
+      "query": "api pressure vessel",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "85.7"
+    },
+    {
+      "query": "api standard 653",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "64.0"
+    },
+    {
+      "query": "api tank inspection",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "72.0"
+    },
+    {
+      "query": "api tank inspection companies",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "68.7"
+    },
+    {
+      "query": "api tank inspections",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "40.0"
+    },
+    {
+      "query": "api tank inspector",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "28.5"
+    },
+    {
+      "query": "api vessel inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "99.0"
+    },
+    {
+      "query": "api-510",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "57.0"
+    },
+    {
+      "query": "api-653 tank inspection",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "70.0"
+    },
+    {
+      "query": "api510",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "api570",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "53.0"
+    },
+    {
+      "query": "api653",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "94.5"
+    },
+    {
+      "query": "as9100 consultant phoenix",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "51.0"
+    },
+    {
+      "query": "as9100 consulting phoenix",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "65.5"
+    },
+    {
+      "query": "as9110 consultant la ca",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "80.8"
+    },
+    {
+      "query": "as9110 consultant la california",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "49.0"
+    },
+    {
+      "query": "as9110 consultant los angeles",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "68.8"
+    },
+    {
+      "query": "as9110 consultant los angeles ca",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "65.2"
+    },
+    {
+      "query": "as9110 consultant los angeles california",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "68.3"
+    },
+    {
+      "query": "as9110 consultant phoenix",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "53.0"
+    },
+    {
+      "query": "as9110 consultant phoenix arizona",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "49.0"
+    },
+    {
+      "query": "as9110 consultant phoenix az",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "57.8"
+    },
+    {
+      "query": "as9110 consulting phoenix",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "79.2"
+    },
+    {
+      "query": "as9110 consulting phoenix arizona",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "72.8"
+    },
+    {
+      "query": "as9110 consulting phoenix az",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "73.8"
+    },
+    {
+      "query": "as9120 consultant los angeles california",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "73.0"
+    },
+    {
+      "query": "as9120 consultant phoenix",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "67.0"
+    },
+    {
+      "query": "as9120 consultant phoenix arizona",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "67.0"
+    },
+    {
+      "query": "as9120 consultant phoenix az",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "65.9"
+    },
+    {
+      "query": "as9120 consulting la",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "92.3"
+    },
+    {
+      "query": "as9120 consulting la ca",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "82.8"
+    },
+    {
+      "query": "as9120 consulting la california",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "78.7"
+    },
+    {
+      "query": "as9120 consulting los angeles",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "68.5"
+    },
+    {
+      "query": "as9120 consulting los angeles ca",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "73.4"
+    },
+    {
+      "query": "as9120 consulting los angeles california",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "79.7"
+    },
+    {
+      "query": "as9120 consulting phoenix",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "66.2"
+    },
+    {
+      "query": "as9120 consulting phoenix arizona",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "70.5"
+    },
+    {
+      "query": "as9120 consulting phoenix az",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "74.2"
+    },
+    {
+      "query": "asnt accp",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "17.0"
+    },
+    {
+      "query": "asnt accp level 2",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "asnt central certification program",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "asnt certification",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "26.8"
+    },
+    {
+      "query": "asnt certification nationwide contracts",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "asnt courses",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "57.0"
+    },
+    {
+      "query": "asnt level 1 certification",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "query": "asnt level iii consulting",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "17.3"
+    },
+    {
+      "query": "asnt ndt certification",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "asnt snt tc 1a",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "52.0"
+    },
+    {
+      "query": "asnt tc 1a",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "49.5"
+    },
+    {
+      "query": "asnt visual testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "71.0"
+    },
+    {
+      "query": "atlantic ndt training",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "atlantis ar",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "atlantis erp",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "atlantis jamnagar",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "atlantis pvt ltd",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "bac 5423 liquid penetrant testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "52.0"
+    },
+    {
+      "query": "boiler ndt preparation",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": "0.0%",
+      "position": "56.5"
+    },
+    {
+      "query": "certification asnt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "query": "certified tank inspector",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "72.0"
+    },
+    {
+      "query": "connect ndt",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "query": "cui inspection services kuwait",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "current edition of api 653 as of 2026",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "3.0"
+    },
+    {
+      "query": "difference between ultrasonic testing and radiographic testing",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "11.5"
+    },
+    {
+      "query": "digital radiography course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "16.0"
+    },
+    {
+      "query": "digital radiography training",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "digital twin adoption in oil & gas industries",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "13.0"
+    },
+    {
+      "query": "digital twin hydraulic oil pipeline",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "94.0"
+    },
+    {
+      "query": "digital twin technology",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "digital twin technology in the oil & gas industry 2026",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "digital twins for turnarounds",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "13.0"
+    },
+    {
+      "query": "digital twins in oil and gas",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "92.0"
+    },
+    {
+      "query": "direct visual testing dvt",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "19.0"
+    },
+    {
+      "query": "dye penetrant test training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "16.0"
+    },
+    {
+      "query": "dye penetrant testing services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "38.0"
+    },
+    {
+      "query": "ect eddy current testing",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "19.6"
+    },
+    {
+      "query": "ect inspection",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "2.0"
+    },
+    {
+      "query": "ect ndt",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "4.1"
+    },
+    {
+      "query": "ect ndt testing",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "6.0"
+    },
+    {
+      "query": "ect testing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "42.3"
+    },
+    {
+      "query": "ect tube inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "15.0"
+    },
+    {
+      "query": "eddie current testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "eddy current certification",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0.0%",
+      "position": "66.8"
+    },
+    {
+      "query": "eddy current course",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "eddy current examination",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "52.8"
+    },
+    {
+      "query": "eddy current heat exchanger inspection",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "50.5"
+    },
+    {
+      "query": "eddy current inspection",
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": "0.0%",
+      "position": "60.1"
+    },
+    {
+      "query": "eddy current inspection method",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "87.0"
+    },
+    {
+      "query": "eddy current inspections",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "24.0"
+    },
+    {
+      "query": "eddy current measurement",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "80.5"
+    },
+    {
+      "query": "eddy current method",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "58.0"
+    },
+    {
+      "query": "eddy current nde",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "66.0"
+    },
+    {
+      "query": "eddy current ndt",
+      "clicks": 0,
+      "impressions": 45,
+      "ctr": "0.0%",
+      "position": "66.5"
+    },
+    {
+      "query": "eddy current ndt method",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "eddy current ndt testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "eddy current non destructive testing",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "81.8"
+    },
+    {
+      "query": "eddy current nondestructive testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "43.0"
+    },
+    {
+      "query": "eddy current surface inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "11.0"
+    },
+    {
+      "query": "eddy current system",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "92.5"
+    },
+    {
+      "query": "eddy current technician",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "73.3"
+    },
+    {
+      "query": "eddy current technology",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "74.5"
+    },
+    {
+      "query": "eddy current test",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "73.1"
+    },
+    {
+      "query": "eddy current test is used to detect",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "90.0"
+    },
+    {
+      "query": "eddy current testing",
+      "clicks": 0,
+      "impressions": 202,
+      "ctr": "0.0%",
+      "position": "66.2"
+    },
+    {
+      "query": "eddy current testing (ect)",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "4.8"
+    },
+    {
+      "query": "eddy current testing advantages and disadvantages",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "84.7"
+    },
+    {
+      "query": "eddy current testing applications",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "eddy current testing ect",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "47.5"
+    },
+    {
+      "query": "eddy current testing et",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "19.0"
+    },
+    {
+      "query": "eddy current testing explained",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "37.5"
+    },
+    {
+      "query": "eddy current testing in ndt",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "23.1"
+    },
+    {
+      "query": "eddy current testing instrumentation",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "46.3"
+    },
+    {
+      "query": "eddy current testing method",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": "0.0%",
+      "position": "50.8"
+    },
+    {
+      "query": "eddy current testing ndt",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "61.3"
+    },
+    {
+      "query": "eddy current testing of tubes",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "24.8"
+    },
+    {
+      "query": "eddy current testing procedure",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": "0.0%",
+      "position": "40.0"
+    },
+    {
+      "query": "eddy current testing services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "87.5"
+    },
+    {
+      "query": "eddy current testing standards",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "96.0"
+    },
+    {
+      "query": "eddy current testing training",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "54.3"
+    },
+    {
+      "query": "eddy current training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "43.0"
+    },
+    {
+      "query": "eddy current training near me",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "4.5"
+    },
+    {
+      "query": "eddy current tube",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "74.0"
+    },
+    {
+      "query": "eddy current tube inspection",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "16.6"
+    },
+    {
+      "query": "eddy current tube inspection in india",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "86.0"
+    },
+    {
+      "query": "eddy current tube inspection in kuwait",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "12.9"
+    },
+    {
+      "query": "eddy current tube inspection in saudi arabia",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "15.6"
+    },
+    {
+      "query": "eddy current tube inspection in singapore",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "15.3"
+    },
+    {
+      "query": "eddy current tube testing",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": "0.0%",
+      "position": "35.8"
+    },
+    {
+      "query": "eddy current uk",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "63.3"
+    },
+    {
+      "query": "eddy testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "50.0"
+    },
+    {
+      "query": "eddy-current testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "38.0"
+    },
+    {
+      "query": "electromagnetic testing et",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "69.0"
+    },
+    {
+      "query": "erp atlantis",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "et (eddy current testing)",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "66.4"
+    },
+    {
+      "query": "et testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "64.0"
+    },
+    {
+      "query": "et testing ndt",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "70.3"
+    },
+    {
+      "query": "gamma ray inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "gamma ray testing",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "52.2"
+    },
+    {
+      "query": "heat exchanger eddy current testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "38.5"
+    },
+    {
+      "query": "highest paying ndt method",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "16.5"
+    },
+    {
+      "query": "houston ndt training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "25.0"
+    },
+    {
+      "query": "how do inspection and testing companies like atlantis ensure quality and safety?. my location is united kingdom.",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "1.1"
+    },
+    {
+      "query": "how does eddy current inspection work",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "40.0"
+    },
+    {
+      "query": "how does eddy current testing work",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "83.5"
+    },
+    {
+      "query": "how eddy current testing works",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "29.5"
+    },
+    {
+      "query": "industrial radiographic testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "79.0"
+    },
+    {
+      "query": "industrial ultrasonic testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "78.0"
+    },
+    {
+      "query": "inspection intervals for storage tanks",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "query": "iris vs eddy current",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "89.0"
+    },
+    {
+      "query": "iso 9001 consultant detroit",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "82.0"
+    },
+    {
+      "query": "iso 9001 consultant philadelphia",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "87.0"
+    },
+    {
+      "query": "latest edition api 653 2026",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "8.6"
+    },
+    {
+      "query": "latest edition api 653 as of 2026",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "query": "latest edition of api 653 as of 2026",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "7.4"
+    },
+    {
+      "query": "leak detection atlantis",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "79.3"
+    },
+    {
+      "query": "level 1 ndt technician salary",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "64.0"
+    },
+    {
+      "query": "level 3 ndt services",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "65.6"
+    },
+    {
+      "query": "level iii",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "query": "level iii services",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "41.0"
+    },
+    {
+      "query": "link up registered ndt services",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "33.3"
+    },
+    {
+      "query": "liquid penetrant testing instruction preparation level ii",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "lycoming engine ndt services",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "85.7"
+    },
+    {
+      "query": "magnetic field inspection services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "19.5"
+    },
+    {
+      "query": "magnetic particle inspection certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "79.0"
+    },
+    {
+      "query": "magnetic particle inspection illinois",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "83.0"
+    },
+    {
+      "query": "magnetic particle inspection ndt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "77.0"
+    },
+    {
+      "query": "magnetic particle testing (mt)",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "12.0"
+    },
+    {
+      "query": "magnetic particle testing in welding",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "76.0"
+    },
+    {
+      "query": "magnetic particle testing mt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "17.0"
+    },
+    {
+      "query": "magnetic particle testing ndt",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "68.3"
+    },
+    {
+      "query": "magnetic particle testing weld inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "20.0"
+    },
+    {
+      "query": "magnetic particle weld inspection",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "23.0"
+    },
+    {
+      "query": "magnetic particle weld testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "65.0"
+    },
+    {
+      "query": "magnetic particles testing course",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "15.5"
+    },
+    {
+      "query": "magnetic particles testing training",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "9.3"
+    },
+    {
+      "query": "mpi ndt",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "56.5"
+    },
+    {
+      "query": "mpi ndt test",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "40.0"
+    },
+    {
+      "query": "mpi test for welding",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "mpi weld",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "mpi weld testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "68.0"
+    },
+    {
+      "query": "mpt in ndt",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "3.5"
+    },
+    {
+      "query": "mpt inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "mpt ndt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "mpt principle",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "mpt principle in ndt",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "7.7"
+    },
+    {
+      "query": "mpt test for welding",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "6.7"
+    },
+    {
+      "query": "mpt test in welding",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "4.3"
+    },
+    {
+      "query": "mpt testing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "64.3"
+    },
+    {
+      "query": "mpt welding test",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "mro ndt solution",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "26.5"
+    },
+    {
+      "query": "mt inspection",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "79.4"
+    },
+    {
+      "query": "mt inspection of welds",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "23.0"
+    },
+    {
+      "query": "mt magnetic particle testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "87.3"
+    },
+    {
+      "query": "mt ndt",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "19.7"
+    },
+    {
+      "query": "mt ndt test",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "15.4"
+    },
+    {
+      "query": "mt ndt testing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "17.0"
+    },
+    {
+      "query": "mt test for welding",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "87.0"
+    },
+    {
+      "query": "mt test ndt",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "14.4"
+    },
+    {
+      "query": "mt test welding",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "16.0"
+    },
+    {
+      "query": "mt testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "56.0"
+    },
+    {
+      "query": "mt weld inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "mt weld test",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "15.0"
+    },
+    {
+      "query": "mt welding inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "mt welding test",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "12.0"
+    },
+    {
+      "query": "nadcap accredited non destructive testing",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "56.0"
+    },
+    {
+      "query": "nadcap liquid penetrant inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "98.0"
+    },
+    {
+      "query": "nadcap non destructive testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "95.0"
+    },
+    {
+      "query": "ndt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "3.0"
+    },
+    {
+      "query": "ndt & qa consulting",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "21.9"
+    },
+    {
+      "query": "ndt audit oversight",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "39.0"
+    },
+    {
+      "query": "ndt bangkok",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "32.3"
+    },
+    {
+      "query": "ndt career path",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "ndt certification courses",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "95.0"
+    },
+    {
+      "query": "ndt certification nationwide contracts",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "36.7"
+    },
+    {
+      "query": "ndt consultancy",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "8.5"
+    },
+    {
+      "query": "ndt consultant",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "7.0"
+    },
+    {
+      "query": "ndt consultants",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "9.0"
+    },
+    {
+      "query": "ndt consulting",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "ndt consulting services",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "ndt course in dubai",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "26.5"
+    },
+    {
+      "query": "ndt course in saudi arabia",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "38.0"
+    },
+    {
+      "query": "ndt course in singapore",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "60.0"
+    },
+    {
+      "query": "ndt course in uae",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ndt course singapore",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "43.0"
+    },
+    {
+      "query": "ndt courses",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "100.0"
+    },
+    {
+      "query": "ndt eddy current",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": "0.0%",
+      "position": "57.1"
+    },
+    {
+      "query": "ndt eddy current testing",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "29.5"
+    },
+    {
+      "query": "ndt expert",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ndt for power generation industry",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "ndt france",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "28.0"
+    },
+    {
+      "query": "ndt holland",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "29.0"
+    },
+    {
+      "query": "ndt inspection oil and gas",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "80.4"
+    },
+    {
+      "query": "ndt inspection services",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "68.0"
+    },
+    {
+      "query": "ndt inspections in phoenix az",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "39.5"
+    },
+    {
+      "query": "ndt institute in india",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "29.0"
+    },
+    {
+      "query": "ndt level iii consulting",
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": "0.0%",
+      "position": "21.9"
+    },
+    {
+      "query": "ndt level iii services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "34.5"
+    },
+    {
+      "query": "ndt magnetic particle testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "84.0"
+    },
+    {
+      "query": "ndt magnetic particles course",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "9.6"
+    },
+    {
+      "query": "ndt measurement",
+      "clicks": 0,
+      "impressions": 38,
+      "ctr": "0.0%",
+      "position": "59.2"
+    },
+    {
+      "query": "ndt melbourne",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "51.0"
+    },
+    {
+      "query": "ndt mt testing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "14.0"
+    },
+    {
+      "query": "ndt oil and gas",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "85.0"
+    },
+    {
+      "query": "ndt penetrant test course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "18.0"
+    },
+    {
+      "query": "ndt radiographic testing course",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "13.5"
+    },
+    {
+      "query": "ndt radiographic testing training",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "11.6"
+    },
+    {
+      "query": "ndt reporting",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "18.8"
+    },
+    {
+      "query": "ndt reporting software",
+      "clicks": 0,
+      "impressions": 36,
+      "ctr": "0.0%",
+      "position": "22.0"
+    },
+    {
+      "query": "ndt salary foreign countries 2026",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0.0%",
+      "position": "21.9"
+    },
+    {
+      "query": "ndt services angola",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "14.0"
+    },
+    {
+      "query": "ndt services for oil and gas",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "41.0"
+    },
+    {
+      "query": "ndt services in hyderabad",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "15.0"
+    },
+    {
+      "query": "ndt services near me",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ndt services oman",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "93.0"
+    },
+    {
+      "query": "ndt taiwan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ndt thickness measurement",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "68.0"
+    },
+    {
+      "query": "ndt training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ndt training and certification program",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "33.0"
+    },
+    {
+      "query": "ndt training center in houston tx",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "ndt training center near me",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "ndt training houston",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "47.0"
+    },
+    {
+      "query": "ndt training in dubai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "20.0"
+    },
+    {
+      "query": "ndt training in uae",
+      "clicks": 0,
+      "impressions": 39,
+      "ctr": "0.0%",
+      "position": "17.8"
+    },
+    {
+      "query": "ndt training india",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "63.9"
+    },
+    {
+      "query": "ndt training institute in india",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "29.7"
+    },
+    {
+      "query": "ndt training near me",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "query": "ndt training program",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "100.0"
+    },
+    {
+      "query": "ndt training singapore",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "23.0"
+    },
+    {
+      "query": "ndt ultrasonic testing",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "78.7"
+    },
+    {
+      "query": "ndt ultrasonic testing course",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "15.3"
+    },
+    {
+      "query": "ndt ultrasonic testing procedure",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "74.4"
+    },
+    {
+      "query": "ndt ultrasonic testing training",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "19.3"
+    },
+    {
+      "query": "ndt ut",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "68.0"
+    },
+    {
+      "query": "ndt ut inspection",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "63.9"
+    },
+    {
+      "query": "ndt ut procedure",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "68.0"
+    },
+    {
+      "query": "ndt ut testing",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "66.8"
+    },
+    {
+      "query": "ndt ut training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "63.0"
+    },
+    {
+      "query": "ndt x ray certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "12.0"
+    },
+    {
+      "query": "ndtis",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "37.0"
+    },
+    {
+      "query": "ndts india pvt ltd",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "63.0"
+    },
+    {
+      "query": "near field testing services in kuwait",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0.0%",
+      "position": "61.2"
+    },
+    {
+      "query": "non destructive eddy current testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "43.7"
+    },
+    {
+      "query": "non destructive testing in power generation market",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "82.3"
+    },
+    {
+      "query": "non destructive testing level 3 consulting services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "15.5"
+    },
+    {
+      "query": "non destructive testing liquid penetrant",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "73.0"
+    },
+    {
+      "query": "non destructive testing rt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "57.0"
+    },
+    {
+      "query": "non destructive testing training near me",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "non destructive testing ultrasonic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "77.0"
+    },
+    {
+      "query": "non destructive testing ultrasonic testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "71.3"
+    },
+    {
+      "query": "non-destructive testing by ultrasonic course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "45.0"
+    },
+    {
+      "query": "nondestructive testing eddy current",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "76.0"
+    },
+    {
+      "query": "nondestructive testing ultrasonic thickness measurement procedure",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "24.0"
+    },
+    {
+      "query": "ntd connect",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": "0.0%",
+      "position": "5.4"
+    },
+    {
+      "query": "ntd course details",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "17.5"
+    },
+    {
+      "query": "oil & gas ndt inspections",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "78.0"
+    },
+    {
+      "query": "oil & gas ndt solutions",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "63.8"
+    },
+    {
+      "query": "oil and gas ndt",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "88.0"
+    },
+    {
+      "query": "paut and tofd inspection in saudi arabia",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "85.5"
+    },
+    {
+      "query": "paut and tofd inspection kuwait",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "15.0"
+    },
+    {
+      "query": "paut and tofd inspection singapore",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "58.0"
+    },
+    {
+      "query": "paut vs rt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "pcn qualified ndt operators",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "61.0"
+    },
+    {
+      "query": "penetrant testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "98.0"
+    },
+    {
+      "query": "penetrant testing course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "18.0"
+    },
+    {
+      "query": "penetrant testing services",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "18.0"
+    },
+    {
+      "query": "penetrant testing training",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "18.5"
+    },
+    {
+      "query": "petrochemical sector",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "42.5"
+    },
+    {
+      "query": "philippines steel consulting",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "42.0"
+    },
+    {
+      "query": "pipe ndt testing visual inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "44.0"
+    },
+    {
+      "query": "point cloud inspection 653",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "69.0"
+    },
+    {
+      "query": "power generation ndt",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": "0.0%",
+      "position": "30.9"
+    },
+    {
+      "query": "power station ndt",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "55.2"
+    },
+    {
+      "query": "powergen ndt solutions",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "10.0"
+    },
+    {
+      "query": "pressure vessel inspection training courses",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "93.0"
+    },
+    {
+      "query": "principle of mpt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "professional ndt services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "16.0"
+    },
+    {
+      "query": "professional ndt training",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "25.0"
+    },
+    {
+      "query": "prueba eddy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "4.0"
+    },
+    {
+      "query": "radiographic testing course",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "8.8"
+    },
+    {
+      "query": "radiographic testing houston",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "20.0"
+    },
+    {
+      "query": "radiographic testing instruction preparation level ii",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "2.3"
+    },
+    {
+      "query": "radiographic testing techniques",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "89.0"
+    },
+    {
+      "query": "radiographic testing training",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "8.3"
+    },
+    {
+      "query": "radiography vs ultrasonic testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "13.0"
+    },
+    {
+      "query": "remote field electromagnetic inspection in kuwait",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "8.4"
+    },
+    {
+      "query": "remote field electromagnetic inspection in saudi arabia",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "15.3"
+    },
+    {
+      "query": "remote field electromagnetic inspection in singapore",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "16.0"
+    },
+    {
+      "query": "remote visual inspection in kuwait",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "4.3"
+    },
+    {
+      "query": "rfet inspection qatar",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "54.4"
+    },
+    {
+      "query": "rt and ut difference",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "7.9"
+    },
+    {
+      "query": "rt and ut test",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "7.5"
+    },
+    {
+      "query": "rt houston",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "25.0"
+    },
+    {
+      "query": "rt technician",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "4.5"
+    },
+    {
+      "query": "rt training",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "3.0"
+    },
+    {
+      "query": "rt ut",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "rt ut welding",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "12.0"
+    },
+    {
+      "query": "rt vs ut",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": "0.0%",
+      "position": "9.3"
+    },
+    {
+      "query": "rt vs ut testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "query": "rt vs ut weld inspection",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "7.9"
+    },
+    {
+      "query": "rt weld inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "48.0"
+    },
+    {
+      "query": "rt weld testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "51.5"
+    },
+    {
+      "query": "rt/ut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "2.0"
+    },
+    {
+      "query": "saas or asnt certification requirements for ndt level iii in south africa",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "7.1"
+    },
+    {
+      "query": "snt energy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "52.0"
+    },
+    {
+      "query": "snt tc 1a training and certification",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "17.3"
+    },
+    {
+      "query": "snt training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "snt-tc-1a certification",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "13.5"
+    },
+    {
+      "query": "surface eddy current testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "78.5"
+    },
+    {
+      "query": "tank inspection certification",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "14.8"
+    },
+    {
+      "query": "tank inspector",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0.0%",
+      "position": "76.7"
+    },
+    {
+      "query": "tank inspector certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "thickness gauging services in kuwait",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "13.8"
+    },
+    {
+      "query": "third party inspection angola",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "13.3"
+    },
+    {
+      "query": "training api 570",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "61.0"
+    },
+    {
+      "query": "tube eddy current testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "28.0"
+    },
+    {
+      "query": "tube inspection eddy current",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "29.0"
+    },
+    {
+      "query": "ultra sonic inspection houston texas",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "33.7"
+    },
+    {
+      "query": "ultrasonic (ut)",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "68.7"
+    },
+    {
+      "query": "ultrasonic analysis",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "82.0"
+    },
+    {
+      "query": "ultrasonic inspection",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0.0%",
+      "position": "70.2"
+    },
+    {
+      "query": "ultrasonic inspection ndt",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "73.8"
+    },
+    {
+      "query": "ultrasonic inspection procedure",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "92.0"
+    },
+    {
+      "query": "ultrasonic inspection services",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "62.5"
+    },
+    {
+      "query": "ultrasonic inspection techniques",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "57.0"
+    },
+    {
+      "query": "ultrasonic material testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "40.0"
+    },
+    {
+      "query": "ultrasonic metal testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "ultrasonic ndt",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "66.4"
+    },
+    {
+      "query": "ultrasonic ndt testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "69.7"
+    },
+    {
+      "query": "ultrasonic non-destructive testing course",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "46.0"
+    },
+    {
+      "query": "ultrasonic pipe testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "70.0"
+    },
+    {
+      "query": "ultrasonic testing",
+      "clicks": 0,
+      "impressions": 128,
+      "ctr": "0.0%",
+      "position": "71.5"
+    },
+    {
+      "query": "ultrasonic testing companies",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "59.6"
+    },
+    {
+      "query": "ultrasonic testing course",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "13.5"
+    },
+    {
+      "query": "ultrasonic testing for ndt",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "72.7"
+    },
+    {
+      "query": "ultrasonic testing inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "80.0"
+    },
+    {
+      "query": "ultrasonic testing instruction preparation level ii",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "ultrasonic testing level 1",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "96.0"
+    },
+    {
+      "query": "ultrasonic testing level 1 training",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "74.6"
+    },
+    {
+      "query": "ultrasonic testing methods",
+      "clicks": 0,
+      "impressions": 30,
+      "ctr": "0.0%",
+      "position": "65.2"
+    },
+    {
+      "query": "ultrasonic testing ndt",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "73.4"
+    },
+    {
+      "query": "ultrasonic testing ndt procedure",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "79.0"
+    },
+    {
+      "query": "ultrasonic testing non destructive",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "50.0"
+    },
+    {
+      "query": "ultrasonic testing of castings",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "79.0"
+    },
+    {
+      "query": "ultrasonic testing of metals",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "35.0"
+    },
+    {
+      "query": "ultrasonic testing of steel",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "64.0"
+    },
+    {
+      "query": "ultrasonic testing of weld",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "52.5"
+    },
+    {
+      "query": "ultrasonic testing procedure",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "74.0"
+    },
+    {
+      "query": "ultrasonic testing process",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "74.3"
+    },
+    {
+      "query": "ultrasonic testing services",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "66.6"
+    },
+    {
+      "query": "ultrasonic testing thickness measurement",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "76.0"
+    },
+    {
+      "query": "ultrasonic testing training",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "48.3"
+    },
+    {
+      "query": "ultrasonic thickness testing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "53.7"
+    },
+    {
+      "query": "ultrasonic training",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "69.0"
+    },
+    {
+      "query": "ultrasonic ut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "62.0"
+    },
+    {
+      "query": "ultrasonic weld inspection london",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "91.0"
+    },
+    {
+      "query": "ultrasonic weld testing",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0.0%",
+      "position": "60.1"
+    },
+    {
+      "query": "ultrasound ndt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "62.0"
+    },
+    {
+      "query": "ut and rt testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "5.0"
+    },
+    {
+      "query": "ut for welding",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "68.0"
+    },
+    {
+      "query": "ut in ndt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "69.0"
+    },
+    {
+      "query": "ut inspection",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "69.3"
+    },
+    {
+      "query": "ut inspection houston texas",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0.0%",
+      "position": "38.9"
+    },
+    {
+      "query": "ut inspection services",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "19.0"
+    },
+    {
+      "query": "ut measurement",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "45.7"
+    },
+    {
+      "query": "ut ndt inspection",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "79.5"
+    },
+    {
+      "query": "ut ndt testing",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "62.6"
+    },
+    {
+      "query": "ut rt",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0.0%",
+      "position": "5.4"
+    },
+    {
+      "query": "ut rt testing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "6.3"
+    },
+    {
+      "query": "ut test procedure",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "62.0"
+    },
+    {
+      "query": "ut testing welds",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "59.5"
+    },
+    {
+      "query": "ut thickness",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "66.0"
+    },
+    {
+      "query": "ut thickness testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "69.0"
+    },
+    {
+      "query": "ut training courses",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "57.0"
+    },
+    {
+      "query": "ut ultrasonic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "74.0"
+    },
+    {
+      "query": "ut ultrasonic inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "76.0"
+    },
+    {
+      "query": "ut ultrasonic testing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "75.0"
+    },
+    {
+      "query": "ut vs rt",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0.0%",
+      "position": "9.9"
+    },
+    {
+      "query": "ut vs rt testing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "8.0"
+    },
+    {
+      "query": "ut wall thickness inspection",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "19.0"
+    },
+    {
+      "query": "ut weld testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "67.0"
+    },
+    {
+      "query": "ut welding inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "76.0"
+    },
+    {
+      "query": "visual inspection certification",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0.0%",
+      "position": "92.0"
+    },
+    {
+      "query": "visual testing instruction preparation level ii",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "1.5"
+    },
+    {
+      "query": "vt inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "2.0"
+    },
+    {
+      "query": "vt ksa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "vt welding",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "88.0"
+    },
+    {
+      "query": "welding ut",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0.0%",
+      "position": "55.5"
+    },
+    {
+      "query": "wfmt inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "74.0"
+    },
+    {
+      "query": "what are the advantages of using atlantis for inspection and testing over other providers?. my location is united kingdom.",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": "0.0%",
+      "position": "2.0"
+    },
+    {
+      "query": "what are the key differences between inspection services offered by atlantis and other competitors?. my location is united kingdom.",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0.0%",
+      "position": "3.5"
+    },
+    {
+      "query": "what are the latest trends in the inspection and testing industry that atlantis adopts?. my location is united kingdom.",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "1.8"
+    },
+    {
+      "query": "what is api 653",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0.0%",
+      "position": "77.4"
+    },
+    {
+      "query": "what is asnt certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "20.0"
+    },
+    {
+      "query": "what is eddy current inspection",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "70.0"
+    },
+    {
+      "query": "what is eddy current testing",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0.0%",
+      "position": "77.8"
+    },
+    {
+      "query": "what is eddy current testing used on",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0.0%",
+      "position": "64.9"
+    },
+    {
+      "query": "what is radiographic inspection",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "50.0"
+    },
+    {
+      "query": "what is the main advantage of ultrasonic testing over radiographic testing?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "1.0"
+    },
+    {
+      "query": "what is ultrasonic inspection",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "87.0"
+    },
+    {
+      "query": "what is ultrasonic testing in ndt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "59.0"
+    },
+    {
+      "query": "what role does technology play in the inspection and testing processes of brands like atlantis?. my location is united kingdom.",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0.0%",
+      "position": "2.7"
+    },
+    {
+      "query": "yes",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0.0%",
+      "position": "2.7"
+    },
+    {
+      "query": "使い分けは？",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0.0%",
+      "position": "2.0"
+    }
+  ],
+  "opportunities": [
+    {
+      "page": "/blog/api-653-tank-inspection-guide",
+      "impressions": 1271,
+      "clicks": 1,
+      "ctr": "0.1%",
+      "position": "13.1",
+      "potential": "64 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/eddy-current-testing",
+      "impressions": 843,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "45.7",
+      "potential": "42 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/ut-vs-rt-comparison",
+      "impressions": 421,
+      "clicks": 2,
+      "ctr": "0.5%",
+      "position": "6.5",
+      "potential": "21 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/ultrasonic-testing",
+      "impressions": 405,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "62.4",
+      "potential": "20 clicks if CTR=5%"
+    },
+    {
+      "page": "/asnt-certification",
+      "impressions": 337,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "10.7",
+      "potential": "17 clicks if CTR=5%"
+    },
+    {
+      "page": "/api-653-certification",
+      "impressions": 254,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "42.3",
+      "potential": "13 clicks if CTR=5%"
+    },
+    {
+      "page": "/api-570-certification",
+      "impressions": 213,
+      "clicks": 1,
+      "ctr": "0.5%",
+      "position": "40.5",
+      "potential": "11 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/magnetic-particle-testing",
+      "impressions": 212,
+      "clicks": 1,
+      "ctr": "0.5%",
+      "position": "20.1",
+      "potential": "11 clicks if CTR=5%"
+    },
+    {
+      "page": "/training-me",
+      "impressions": 210,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "12.4",
+      "potential": "11 clicks if CTR=5%"
+    },
+    {
+      "page": "/ndt-training-dubai",
+      "impressions": 200,
+      "clicks": 5,
+      "ctr": "2.5%",
+      "position": "8.2",
+      "potential": "10 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/ndt-career-top-choice-2025-global-market-trends",
+      "impressions": 165,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "6.3",
+      "potential": "8 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/ndt-career-guide",
+      "impressions": 161,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "8.3",
+      "potential": "8 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/digital-twins-oil-gas",
+      "impressions": 132,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "7.7",
+      "potential": "7 clicks if CTR=5%"
+    },
+    {
+      "page": "/api-510-certification",
+      "impressions": 131,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "29.4",
+      "potential": "7 clicks if CTR=5%"
+    },
+    {
+      "page": "/consulting/ndt-consulting-dallas",
+      "impressions": 112,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "12.1",
+      "potential": "6 clicks if CTR=5%"
+    },
+    {
+      "page": "/ndt-connect",
+      "impressions": 107,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "9.3",
+      "potential": "5 clicks if CTR=5%"
+    },
+    {
+      "page": "/about",
+      "impressions": 86,
+      "clicks": 2,
+      "ctr": "2.3%",
+      "position": "3.7",
+      "potential": "4 clicks if CTR=5%"
+    },
+    {
+      "page": "/consulting/ndt-consulting-phoenix",
+      "impressions": 85,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "65.1",
+      "potential": "4 clicks if CTR=5%"
+    },
+    {
+      "page": "/consulting",
+      "impressions": 83,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "22.0",
+      "potential": "4 clicks if CTR=5%"
+    },
+    {
+      "page": "/consulting/ndt-consulting-los-angeles",
+      "impressions": 82,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "72.0",
+      "potential": "4 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/digital-twins-reduce-refinery-turnaround-time",
+      "impressions": 75,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "5.9",
+      "potential": "4 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity",
+      "impressions": 74,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "4.5",
+      "potential": "4 clicks if CTR=5%"
+    },
+    {
+      "page": "/intelligent-reporting-software",
+      "impressions": 66,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "17.7",
+      "potential": "3 clicks if CTR=5%"
+    },
+    {
+      "page": "/training",
+      "impressions": 66,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "9.9",
+      "potential": "3 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/digital-twins-ndt-guide",
+      "impressions": 55,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "8.6",
+      "potential": "3 clicks if CTR=5%"
+    },
+    {
+      "page": "/consulting-me",
+      "impressions": 54,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "11.9",
+      "potential": "3 clicks if CTR=5%"
+    },
+    {
+      "page": "/consulting/ndt-consulting-south-africa",
+      "impressions": 54,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "16.8",
+      "potential": "3 clicks if CTR=5%"
+    },
+    {
+      "page": "/training-usa",
+      "impressions": 54,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "14.1",
+      "potential": "3 clicks if CTR=5%"
+    },
+    {
+      "page": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "impressions": 52,
+      "clicks": 0,
+      "ctr": "0.0%",
+      "position": "8.8",
+      "potential": "3 clicks if CTR=5%"
+    }
+  ],
+  "zeroTrafficPages": [
+    "/ndt-methods",
+    "/api-570-training",
+    "/eddy-current-tube-inspection",
+    "/digital-twins-oil-gas-assets",
+    "/ndt-training-online",
+    "/ndt-training-india",
+    "/aerospace-ndt-training",
+    "/ndt-career-guide",
+    "/resources-downloads",
+    "/press-media",
+    "/blog/ndt-consulting-costs-pricing-guide-2025",
+    "/blog/asnt-level-iii-ndt-consulting-guide",
+    "/blog/asme-section-v-ndt-procedure-rejection-causes",
+    "/blog/pdf-ndt-reports-vs-digital-twin-asset-integrity",
+    "/consulting/ndt-consulting-seattle",
+    "/consulting/ndt-consulting-pittsburgh",
+    "/consulting/ndt-consulting-kuwait",
+    "/consulting/ndt-consulting-jubail",
+    "/consulting/ndt-consulting-hyderabad",
+    "/consulting/ndt-consulting-pune",
+    "/consulting/ndt-consulting-jamnagar",
+    "/consulting/ndt-consulting-singapore",
+    "/consulting/ndt-consulting-malaysia",
+    "/consulting/ndt-consulting-indonesia",
+    "/consulting/ndt-consulting-thailand",
+    "/consulting/ndt-consulting-philippines",
+    "/consulting/ndt-consulting-hong-kong",
+    "/consulting/ndt-consulting-china",
+    "/consulting/ndt-consulting-netherlands",
+    "/consulting/ndt-consulting-belgium",
+    "/consulting/ndt-consulting-aberdeen",
+    "/consulting/ndt-consulting-toronto",
+    "/consulting/ndt-consulting-nigeria",
+    "/consulting/ndt-consulting-ghana",
+    "/consulting/ndt-consulting-kenya",
+    "/consulting/ndt-consulting-chile",
+    "/consulting/ndt-consulting-peru",
+    "/consulting/ndt-consulting-casablanca",
+    "/ultrasonic-testing",
+    "/radiographic-testing",
+    "/magnetic-particle-testing",
+    "/magnetic-particle-testing-new-orleans",
+    "/penetrant-testing",
+    "/penetrant-testing-norway",
+    "/penetrant-testing-mumbai",
+    "/eddy-current-testing",
+    "/eddy-current-testing-chicago",
+    "/visual-testing",
+    "/visual-testing-mumbai",
+    "/visual-testing-delhi",
+    "/phased-array-ut",
+    "/tofd-testing",
+    "/digital-twins-ndt-guide",
+    "/digital-twins-oil-gas",
+    "/ut-vs-rt-comparison",
+    "/guided-wave-testing",
+    "/corrosion-mapping",
+    "/digital-twin-reporting",
+    "/corrosion-under-insulation",
+    "/weld-inspection",
+    "/acoustic-emission-testing",
+    "/magnetic-flux-leakage-testing",
+    "/ndt-technician-salary",
+    "/digital-twin-houston",
+    "/digital-twin-dubai",
+    "/digital-twin-abu-dhabi",
+    "/digital-twin-saudi-arabia",
+    "/digital-twin-calgary",
+    "/digital-twin-singapore",
+    "/digital-twin-mumbai",
+    "/digital-twin-london",
+    "/digital-twin-perth",
+    "/digital-twin-doha",
+    "/digital-twin-kuwait",
+    "/digital-twin-aberdeen",
+    "/digital-twin-oslo",
+    "/digital-twin-rotterdam",
+    "/digital-twin-hyderabad",
+    "/digital-twin-muscat",
+    "/digital-twin-kuala-lumpur",
+    "/digital-twin-lagos",
+    "/digital-twin-new-orleans",
+    "/digital-twin-denver",
+    "/ndt-erp-houston",
+    "/ndt-erp-dubai",
+    "/ndt-erp-abu-dhabi",
+    "/ndt-erp-saudi-arabia",
+    "/ndt-erp-calgary",
+    "/ndt-erp-singapore",
+    "/ndt-erp-mumbai",
+    "/ndt-erp-london",
+    "/ndt-erp-perth",
+    "/ndt-erp-doha",
+    "/ndt-erp-kuwait",
+    "/ndt-erp-muscat",
+    "/ndt-erp-hyderabad",
+    "/ndt-erp-chennai",
+    "/ndt-erp-kuala-lumpur",
+    "/ndt-erp-lagos",
+    "/ndt-erp-new-orleans",
+    "/ndt-erp-denver",
+    "/ndt-erp-aberdeen",
+    "/ndt-erp-oslo"
+  ],
+  "dailyTrend": [
+    {
+      "date": "2026-01-28",
+      "clicks": 3,
+      "impressions": 373
+    },
+    {
+      "date": "2026-01-29",
+      "clicks": 4,
+      "impressions": 500
+    },
+    {
+      "date": "2026-01-30",
+      "clicks": 3,
+      "impressions": 447
+    },
+    {
+      "date": "2026-01-31",
+      "clicks": 1,
+      "impressions": 264
+    },
+    {
+      "date": "2026-02-01",
+      "clicks": 0,
+      "impressions": 263
+    },
+    {
+      "date": "2026-02-02",
+      "clicks": 2,
+      "impressions": 326
+    },
+    {
+      "date": "2026-02-03",
+      "clicks": 7,
+      "impressions": 396
+    },
+    {
+      "date": "2026-02-04",
+      "clicks": 5,
+      "impressions": 436
+    },
+    {
+      "date": "2026-02-05",
+      "clicks": 0,
+      "impressions": 309
+    },
+    {
+      "date": "2026-02-06",
+      "clicks": 3,
+      "impressions": 223
+    },
+    {
+      "date": "2026-02-07",
+      "clicks": 4,
+      "impressions": 156
+    },
+    {
+      "date": "2026-02-08",
+      "clicks": 0,
+      "impressions": 164
+    },
+    {
+      "date": "2026-02-09",
+      "clicks": 4,
+      "impressions": 183
+    },
+    {
+      "date": "2026-02-10",
+      "clicks": 5,
+      "impressions": 237
+    },
+    {
+      "date": "2026-02-11",
+      "clicks": 5,
+      "impressions": 274
+    },
+    {
+      "date": "2026-02-12",
+      "clicks": 1,
+      "impressions": 317
+    },
+    {
+      "date": "2026-02-13",
+      "clicks": 2,
+      "impressions": 256
+    },
+    {
+      "date": "2026-02-14",
+      "clicks": 1,
+      "impressions": 225
+    },
+    {
+      "date": "2026-02-15",
+      "clicks": 1,
+      "impressions": 203
+    },
+    {
+      "date": "2026-02-16",
+      "clicks": 2,
+      "impressions": 236
+    },
+    {
+      "date": "2026-02-17",
+      "clicks": 0,
+      "impressions": 305
+    },
+    {
+      "date": "2026-02-18",
+      "clicks": 4,
+      "impressions": 298
+    },
+    {
+      "date": "2026-02-19",
+      "clicks": 2,
+      "impressions": 299
+    },
+    {
+      "date": "2026-02-20",
+      "clicks": 1,
+      "impressions": 285
+    },
+    {
+      "date": "2026-02-21",
+      "clicks": 3,
+      "impressions": 267
+    },
+    {
+      "date": "2026-02-22",
+      "clicks": 7,
+      "impressions": 232
+    },
+    {
+      "date": "2026-02-23",
+      "clicks": 4,
+      "impressions": 297
+    },
+    {
+      "date": "2026-02-24",
+      "clicks": 4,
+      "impressions": 379
+    },
+    {
+      "date": "2026-02-25",
+      "clicks": 4,
+      "impressions": 274
+    }
+  ]
+}

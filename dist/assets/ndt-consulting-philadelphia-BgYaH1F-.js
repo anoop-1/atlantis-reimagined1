@@ -1,0 +1,1 @@
+import{j as o}from"./index-UBqSqRC9.js";import{C as i}from"./ConsultingLocationPage-07WPh4t5.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function l(){return o.jsx(i,{locationSlug:"philadelphia"})}export{l as default};

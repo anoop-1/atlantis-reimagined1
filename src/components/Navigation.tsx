@@ -23,6 +23,16 @@ const navItems = [
       ],
    },
 
+   {
+      name: "Resources",
+      dropdown: [
+         { name: "Free Tools", path: "/tools" },
+         { name: "Downloads", path: "/resources" },
+         { name: "Blog", path: "/blog" },
+         { name: "Case Studies", path: "/case-studies" },
+         { name: "Industry Statistics", path: "/ndt-industry-statistics" },
+      ],
+   },
    { name: "Contact", path: "/contact" },
 ];
 

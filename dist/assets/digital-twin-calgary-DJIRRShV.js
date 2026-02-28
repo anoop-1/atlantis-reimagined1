@@ -1,1 +1,0 @@
-import{j as a}from"./index-BVWl4bNX.js";import{D as i}from"./DigitalTwinLocationPage-DElp-uaD.js";import"./monitor-C1uSM988.js";import"./chart-no-axes-column-CIvZvf8r.js";import"./file-text-CP5L6aIz.js";function l(){return a.jsx(i,{city:"Calgary",country:"Canada",slug:"digital-twin-calgary"})}export{l as default};

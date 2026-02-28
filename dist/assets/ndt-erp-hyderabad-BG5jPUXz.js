@@ -1,1 +1,0 @@
-import{j as r}from"./index-BVWl4bNX.js";import{E as a}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function e(){return r.jsx(a,{city:"Hyderabad",country:"India",slug:"ndt-erp-hyderabad"})}export{e as default};

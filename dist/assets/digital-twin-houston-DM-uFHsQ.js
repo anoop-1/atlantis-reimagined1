@@ -1,1 +1,0 @@
-import{j as t}from"./index-BVWl4bNX.js";import{D as o}from"./DigitalTwinLocationPage-DElp-uaD.js";import"./monitor-C1uSM988.js";import"./chart-no-axes-column-CIvZvf8r.js";import"./file-text-CP5L6aIz.js";function u(){return t.jsx(o,{city:"Houston",country:"USA",slug:"digital-twin-houston"})}export{u as default};

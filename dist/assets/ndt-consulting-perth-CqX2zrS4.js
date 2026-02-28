@@ -1,0 +1,1 @@
+import{j as t}from"./index-UBqSqRC9.js";import{C as o}from"./ConsultingLocationPage-07WPh4t5.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function a(){return t.jsx(o,{locationSlug:"perth"})}export{a as default};

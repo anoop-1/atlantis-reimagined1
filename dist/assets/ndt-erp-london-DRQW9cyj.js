@@ -1,1 +1,0 @@
-import{j as o}from"./index-BVWl4bNX.js";import{E as n}from"./ErpLocationPage-EQCRHOJ1.js";import"./file-text-CP5L6aIz.js";function i(){return o.jsx(n,{city:"London",country:"UK",slug:"ndt-erp-london"})}export{i as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./index-BVWl4bNX.js";import{M as o}from"./MethodLocationPage-CJlKf0pw.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CP5L6aIz.js";function a(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"uk"})}export{a as default};
