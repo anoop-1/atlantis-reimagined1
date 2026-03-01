@@ -1,1 +1,0 @@
-import{j as i}from"./index-UBqSqRC9.js";import{D as t}from"./DigitalTwinLocationPage-Bt4_GZtg.js";import"./monitor-B8iwwcap.js";import"./chart-no-axes-column-DoWM_pCo.js";import"./file-text-C-rUbu-f.js";function u(){return i.jsx(t,{city:"Mumbai",country:"India",slug:"digital-twin-mumbai"})}export{u as default};

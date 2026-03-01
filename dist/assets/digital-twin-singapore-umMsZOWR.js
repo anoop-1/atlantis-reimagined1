@@ -1,1 +1,0 @@
-import{j as i}from"./index-UBqSqRC9.js";import{D as t}from"./DigitalTwinLocationPage-Bt4_GZtg.js";import"./monitor-B8iwwcap.js";import"./chart-no-axes-column-DoWM_pCo.js";import"./file-text-C-rUbu-f.js";function e(){return i.jsx(t,{city:"Singapore",country:"Singapore",slug:"digital-twin-singapore"})}export{e as default};

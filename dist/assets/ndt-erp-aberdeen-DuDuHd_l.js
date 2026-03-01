@@ -1,1 +1,0 @@
-import{j as r}from"./index-UBqSqRC9.js";import{E as e}from"./ErpLocationPage-DOkJm5PR.js";import"./file-text-C-rUbu-f.js";function p(){return r.jsx(e,{city:"Aberdeen",country:"UK",slug:"ndt-erp-aberdeen"})}export{p as default};

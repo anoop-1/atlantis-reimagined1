@@ -1,1 +1,0 @@
-import{j as r}from"./index-UBqSqRC9.js";import{E as o}from"./ErpLocationPage-DOkJm5PR.js";import"./file-text-C-rUbu-f.js";function n(){return r.jsx(o,{city:"Singapore",country:"Singapore",slug:"ndt-erp-singapore"})}export{n as default};

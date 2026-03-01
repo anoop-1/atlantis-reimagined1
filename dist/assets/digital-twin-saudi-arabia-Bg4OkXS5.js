@@ -1,1 +1,0 @@
-import{j as i}from"./index-UBqSqRC9.js";import{D as a}from"./DigitalTwinLocationPage-Bt4_GZtg.js";import"./monitor-B8iwwcap.js";import"./chart-no-axes-column-DoWM_pCo.js";import"./file-text-C-rUbu-f.js";function m(){return i.jsx(a,{city:"Saudi Arabia",country:"Saudi Arabia",slug:"digital-twin-saudi-arabia"})}export{m as default};

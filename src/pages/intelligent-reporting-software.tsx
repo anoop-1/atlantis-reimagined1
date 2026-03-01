@@ -128,37 +128,57 @@ const faqs = [
     {
         question: "Can we run this on-premise?",
         answer: "Both cloud and on-premise deployments are available. Many clients in regulated industries choose on-premise for data sovereignty requirements."
+    },
+    {
+        question: "What is the best NDT reporting software?",
+        answer: "The best NDT reporting software combines digital twin integration, code compliance automation, full inspection traceability, and 3D defect visualization in a single platform. Look for solutions that eliminate manual PDF workflows while supporting ASME Section V, API 510/570/653, and client-specific requirements out of the box. Atlantis intelligent reporting software checks all of these boxes with enterprise-grade security, CMMS/ERP integration, and predictive analytics built in."
+    },
+    {
+        question: "How does NDT reporting software improve compliance?",
+        answer: "NDT reporting software improves compliance by automating traceability between inspections, technician certifications, calibration records, and specific asset components. Built-in code templates ensure every report meets ASME, API, and client-specific requirements without manual formatting. A complete digital audit trail tracks every data entry, revision, and approval, so you can demonstrate full compliance history to auditors in seconds rather than hours of cross-referencing paper files and spreadsheets."
     }
 ];
 
 export default function IntelligentReportingSoftware() {
     const structuredData = {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Intelligent NDT Reporting Software",
-        "applicationCategory": "BusinessApplication",
-        "description": "Enterprise NDT reporting software with intelligent visualization. Map inspection data to asset geometry for full lifecycle traceability and audit-ready compliance documentation.",
-        "operatingSystem": "Web-based, Cloud or On-Premise",
-        "provider": {
-            "@type": "Organization",
-            "name": "Atlantis NDT",
-            "url": "https://atlantisndt.com"
-        },
-        "offers": {
-            "@type": "Offer",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-                "@type": "PriceSpecification",
-                "priceCurrency": "USD"
+        "@graph": [
+            {
+                "@type": "SoftwareApplication",
+                "name": "Intelligent NDT Reporting Software",
+                "applicationCategory": "BusinessApplication",
+                "description": "Enterprise NDT reporting software with intelligent visualization. Map inspection data to asset geometry for full lifecycle traceability and audit-ready compliance documentation.",
+                "operatingSystem": "Web-based, Cloud or On-Premise",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT",
+                    "url": "https://atlantisndt.com"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "availability": "https://schema.org/InStock",
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "featureList": [
+                    "3D Digital Twin Visualization",
+                    "ASME Section V Compliance",
+                    "API 510/570/653 Reporting",
+                    "Full Inspection Traceability",
+                    "CMMS/ERP Integration",
+                    "Predictive Analytics"
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": faqs.map(faq => ({
+                    "@type": "Question",
+                    "name": faq.question,
+                    "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+                }))
             }
-        },
-        "featureList": [
-            "3D Digital Twin Visualization",
-            "ASME Section V Compliance",
-            "API 510/570/653 Reporting",
-            "Full Inspection Traceability",
-            "CMMS/ERP Integration",
-            "Predictive Analytics"
         ]
     };
 

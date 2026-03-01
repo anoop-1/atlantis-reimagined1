@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { CheckCircle, Award, BookOpen, Clock, FileText, Users, AlertCircle } from "lucide-react";
+import { CheckCircle, Award, BookOpen, Clock, FileText, Users, AlertCircle, DollarSign, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
 
@@ -182,8 +182,83 @@ export default function API653Certification() {
                 </div>
             </section>
 
-            {/* Open Reference Codes */}
+            {/* Exam Cost & Recertification */}
             <section className="py-16 bg-white">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">API 653 Exam Cost & Recertification</h2>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Budget for the full cost of certification — exam fees, training, and code books. Plan ahead for recertification every 3 years.</p>
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <Card className="border-t-4 border-t-amber-500">
+                            <CardHeader className="pb-2">
+                                <DollarSign className="w-8 h-8 text-amber-600 mb-2" />
+                                <CardTitle className="text-xl">Exam & Training Costs</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <div className="space-y-4">
+                                    <div className="flex justify-between items-start border-b border-slate-100 pb-3">
+                                        <div>
+                                            <div className="font-medium text-slate-800">API 653 Exam Fee</div>
+                                            <div className="text-xs text-slate-500">Paid directly to API</div>
+                                        </div>
+                                        <div className="text-right">
+                                            <div className="font-bold text-amber-700">~$525 <span className="font-normal text-slate-500">/ ~$700</span></div>
+                                            <div className="text-xs text-slate-500">API member / non-member</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-between items-start border-b border-slate-100 pb-3">
+                                        <div>
+                                            <div className="font-medium text-slate-800">Training Course</div>
+                                            <div className="text-xs text-slate-500">Classroom, online, or blended</div>
+                                        </div>
+                                        <div className="text-right">
+                                            <div className="font-bold text-amber-700">$1,500 – $3,500</div>
+                                            <div className="text-xs text-slate-500">Varies by format & provider</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-between items-start">
+                                        <div>
+                                            <div className="font-medium text-slate-800">Code Books (10 codes)</div>
+                                            <div className="text-xs text-slate-500">Must be printed copies for exam</div>
+                                        </div>
+                                        <div className="text-right">
+                                            <div className="font-bold text-amber-700">$500 – $1,500</div>
+                                            <div className="text-xs text-slate-500">Can be shared / reused</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="mt-4 text-center">
+                                    <Link to="/tools/ndt-certification-cost-calculator" className="text-sm text-amber-700 font-semibold hover:underline">Estimate your total cost with our calculator →</Link>
+                                </div>
+                            </CardContent>
+                        </Card>
+                        <Card className="border-t-4 border-t-amber-500">
+                            <CardHeader className="pb-2">
+                                <Clock className="w-8 h-8 text-amber-600 mb-2" />
+                                <CardTitle className="text-xl">Recertification (Every 3 Years)</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-slate-600 text-sm mb-4">API 653 certification is valid for 3 years. To recertify, you must meet <strong>one</strong> of the following paths:</p>
+                                <div className="space-y-3">
+                                    <div className="bg-amber-50 p-4 rounded-lg">
+                                        <div className="font-semibold text-amber-800 mb-1">Option A — Re-Examination</div>
+                                        <p className="text-sm text-slate-600">Retake the API 653 exam before your certification expires. Same format: 170 questions, 7.5 hours, open-book.</p>
+                                    </div>
+                                    <div className="bg-amber-50 p-4 rounded-lg">
+                                        <div className="font-semibold text-amber-800 mb-1">Option B — Experience + Training</div>
+                                        <p className="text-sm text-slate-600">Demonstrate <strong>180 inspection days</strong> of tank inspection work <strong>plus 80 hours</strong> of relevant professional development/training within the 3-year certification period.</p>
+                                    </div>
+                                </div>
+                                <div className="mt-4 bg-slate-50 border border-slate-200 rounded-lg p-3">
+                                    <p className="text-xs text-slate-500"><strong>Tip:</strong> Start tracking your inspection days and training hours from day one. API requires documentation for the experience-based recertification path.</p>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </section>
+
+            {/* Open Reference Codes */}
+            <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 653 Open-Book Reference Codes</h2>
                     <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam is open-book. You may bring printed copies of all 10 approved codes. Our training covers code navigation strategies so you can find answers quickly within the 7.5-hour time limit.</p>
@@ -209,7 +284,7 @@ export default function API653Certification() {
             </section>
 
             {/* Inspection Intervals */}
-            <section className="py-16 bg-slate-50">
+            <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 653 Tank Inspection Intervals</h2>
                     <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">A critical exam topic — and real-world requirement. Know these intervals and the conditions under which RBI can extend them.</p>
@@ -237,7 +312,7 @@ export default function API653Certification() {
             </section>
 
             {/* Exam Topics */}
-            <section className="py-16 bg-white">
+            <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-12">Exam Topics Covered</h2>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -252,7 +327,7 @@ export default function API653Certification() {
             </section>
 
             {/* Training Formats */}
-            <section className="py-16 bg-slate-50">
+            <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">Training Formats</h2>
                     <p className="text-center text-slate-600 mb-12">Choose the format that fits your schedule and learning style.</p>
@@ -271,7 +346,7 @@ export default function API653Certification() {
             </section>
 
             {/* NDT Methods */}
-            <section className="py-16 bg-white">
+            <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">NDT Methods in API 653 Tank Inspection</h2>
                     <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">API 653 inspectors must understand when and how to apply each NDT method for tank components.</p>
@@ -297,13 +372,89 @@ export default function API653Certification() {
             </section>
 
             {/* FAQ */}
-            <section className="py-16 bg-slate-50">
+            <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-8 text-center" style={{ color: "#004aad" }}>API 653 Certification — Frequently Asked Questions</h2>
                     <div className="space-y-4">
                         {faqs.map((faq, i) => (
                             <FAQItem key={i} q={faq.question} a={faq.answer} />
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Related Certifications */}
+            <section className="py-16 bg-slate-50">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">Related Certifications & Resources</h2>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Expand your qualifications with complementary API and ASNT certifications, or explore our free tools and guides.</p>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <Link to="/api-510-certification" className="group">
+                            <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">API 510 Certification</h3>
+                                        <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
+                                    </div>
+                                    <p className="text-sm text-slate-600">Pressure Vessel Inspector certification. Covers ASME Section VIII, in-service inspection, and repair of pressure vessels.</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/api-570-certification" className="group">
+                            <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">API 570 Certification</h3>
+                                        <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
+                                    </div>
+                                    <p className="text-sm text-slate-600">Piping Inspector certification. Covers in-service inspection, repair, and alteration of piping systems per ASME B31.3.</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/asnt-certification" className="group">
+                            <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">ASNT NDT Certification</h3>
+                                        <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
+                                    </div>
+                                    <p className="text-sm text-slate-600">Level I, II, and III NDT certifications for UT, RT, MT, PT, VT, and ET methods per SNT-TC-1A and ASNT CP-189.</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/ndt-certification-guide" className="group">
+                            <Card className="h-full hover:shadow-lg transition border-l-4 border-l-orange-400">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">Complete Certification Guide</h3>
+                                        <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
+                                    </div>
+                                    <p className="text-sm text-slate-600">Compare all NDT and API certifications side by side. Requirements, costs, career paths, and study tips.</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/tools/ndt-certification-cost-calculator" className="group">
+                            <Card className="h-full hover:shadow-lg transition border-l-4 border-l-orange-400">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">Certification Cost Calculator</h3>
+                                        <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
+                                    </div>
+                                    <p className="text-sm text-slate-600">Estimate the total investment for API 653 and other certifications. Includes exam fees, training, and code books.</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                        <Link to="/blog/api-653-tank-inspection-guide" className="group">
+                            <Card className="h-full hover:shadow-lg transition border-l-4 border-l-orange-400">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">API 653 Tank Inspection Guide</h3>
+                                        <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
+                                    </div>
+                                    <p className="text-sm text-slate-600">In-depth blog guide covering API 653 inspection procedures, corrosion assessment, and remaining life calculations.</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
             </section>

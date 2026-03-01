@@ -1,1 +1,0 @@
-import{j as t}from"./index-UBqSqRC9.js";import{D as i}from"./DigitalTwinLocationPage-Bt4_GZtg.js";import"./monitor-B8iwwcap.js";import"./chart-no-axes-column-DoWM_pCo.js";import"./file-text-C-rUbu-f.js";function p(){return t.jsx(i,{city:"Doha",country:"Qatar",slug:"digital-twin-doha"})}export{p as default};

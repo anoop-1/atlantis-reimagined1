@@ -1,1 +1,0 @@
-import{j as t}from"./index-UBqSqRC9.js";import{M as o}from"./MethodLocationPage-DWusmYlE.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function u(){return t.jsx(o,{methodSlug:"visual-testing",locationSlug:"mumbai"})}export{u as default};

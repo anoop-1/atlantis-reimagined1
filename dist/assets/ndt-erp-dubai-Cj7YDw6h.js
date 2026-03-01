@@ -1,1 +1,0 @@
-import{j as r}from"./index-UBqSqRC9.js";import{E as t}from"./ErpLocationPage-DOkJm5PR.js";import"./file-text-C-rUbu-f.js";function u(){return r.jsx(t,{city:"Dubai",country:"UAE",slug:"ndt-erp-dubai"})}export{u as default};

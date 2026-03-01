@@ -1,1 +1,0 @@
-import{j as n}from"./index-UBqSqRC9.js";import{E as r}from"./ErpLocationPage-DOkJm5PR.js";import"./file-text-C-rUbu-f.js";function a(){return n.jsx(r,{city:"Chennai",country:"India",slug:"ndt-erp-chennai"})}export{a as default};

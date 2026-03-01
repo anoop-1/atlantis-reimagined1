@@ -1,1 +1,0 @@
-import{j as o}from"./index-UBqSqRC9.js";import{M as t}from"./MethodLocationPage-DWusmYlE.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function e(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"chennai"})}export{e as default};

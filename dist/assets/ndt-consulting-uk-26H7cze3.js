@@ -1,1 +1,0 @@
-import{j as o}from"./index-UBqSqRC9.js";import{C as t}from"./ConsultingLocationPage-07WPh4t5.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-C-rUbu-f.js";function u(){return o.jsx(t,{locationSlug:"uk"})}export{u as default};

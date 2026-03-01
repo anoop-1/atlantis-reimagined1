@@ -1,0 +1,1 @@
+import{j as t}from"./index-DPOIg50j.js";import{E as r}from"./ErpLocationPage-Ti-_fVvD.js";import"./file-text-CV4Dgu4d.js";function u(){return t.jsx(r,{city:"Kuwait City",country:"Kuwait",slug:"ndt-erp-kuwait"})}export{u as default};
