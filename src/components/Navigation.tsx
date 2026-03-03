@@ -18,6 +18,7 @@ const navItems = [
       name: "Products",
       dropdown: [
          { name: "Digital Twins", path: "/digital-twins" },
+         { name: "Digital Twin Reporting", path: "/digital-twin-reporting" },
          { name: "ERP", path: "/erp" },
          { name: "NDT Connect", path: "/ndt-connect" },
       ],

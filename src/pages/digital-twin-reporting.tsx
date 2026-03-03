@@ -334,6 +334,10 @@ export default function DigitalTwinReporting() {
                                 Corrosion rates, remaining life, and API 510/570/653 retirement criteria calculated automatically. Save, share, and analyze across inspection campaigns.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
+                                <a href="https://dt.atlantisndt.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white px-8 py-4 rounded-lg font-semibold transition shadow-lg">
+                                    <Zap className="w-5 h-5" />
+                                    Try Now
+                                </a>
                                 <Link to="/contact" className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg font-semibold transition shadow-lg">
                                     <Play className="w-5 h-5" />
                                     Request Live Demo
@@ -754,6 +758,10 @@ export default function DigitalTwinReporting() {
                             Bring your asset type, dimensions, and a sample inspection dataset. Our team will build a live 3D model during the demo so you can see exactly how the tool works for your specific application.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="https://dt.atlantisndt.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white px-10 py-4 rounded-lg font-semibold transition shadow-lg">
+                                <Zap className="w-5 h-5" />
+                                Try Now
+                            </a>
                             <Link to="/contact" className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-10 py-4 rounded-lg font-semibold transition shadow-lg">
                                 <Play className="w-5 h-5" />
                                 Request Live Demo

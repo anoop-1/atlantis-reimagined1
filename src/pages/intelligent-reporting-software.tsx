@@ -212,6 +212,15 @@ export default function IntelligentReportingSoftware() {
                             Built for QA/QC managers, integrity engineers, and asset owners who need defensible records—not scattered PDFs.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
+                            <a
+                                href="https://dt.atlantisndt.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center justify-center gap-2 bg-yellow-400 text-emerald-900 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition text-center shadow-lg"
+                            >
+                                <Zap className="w-5 h-5" />
+                                Try Now
+                            </a>
                             <Link
                                 to="/contact"
                                 className="inline-block bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition text-center shadow-lg"
@@ -522,12 +531,23 @@ export default function IntelligentReportingSoftware() {
                     <p className="text-emerald-100 mb-8 text-lg max-w-2xl mx-auto">
                         Schedule a demonstration to see how intelligent reporting transforms inspection data into actionable asset intelligence.
                     </p>
-                    <Link
-                        to="/contact"
-                        className="inline-block bg-white text-emerald-700 px-10 py-4 rounded-lg font-semibold hover:bg-slate-100 transition shadow-lg text-lg"
-                    >
-                        Request a Demo
-                    </Link>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a
+                            href="https://dt.atlantisndt.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-2 bg-yellow-400 text-emerald-900 px-10 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition shadow-lg text-lg"
+                        >
+                            <Zap className="w-5 h-5" />
+                            Try Now
+                        </a>
+                        <Link
+                            to="/contact"
+                            className="inline-block bg-white text-emerald-700 px-10 py-4 rounded-lg font-semibold hover:bg-slate-100 transition shadow-lg text-lg"
+                        >
+                            Request a Demo
+                        </Link>
+                    </div>
                     <p className="mt-6 text-emerald-200 text-sm">
                         Or call directly: <a href="tel:+1-XXX-XXX-XXXX" className="underline hover:text-white">Contact our team</a>
                     </p>
