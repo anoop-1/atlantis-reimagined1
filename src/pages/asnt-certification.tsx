@@ -84,8 +84,8 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT NDT Certification | Level I II III Training | SNT-TC-1A & ACCP | 95% Pass Rate"
-                description="Everything you need for ASNT certification: Level I, II & III requirements side-by-side, exam costs ($200-$750), training hours, and employer-based vs ACCP portable comparison. 95% first-attempt pass rate. Enrol in Dubai, Houston, or India."
+                title="[Complete Guide] ASNT NDT Certification 2026 - Pass First Try"
+                description="Master ASNT certification in 2026: SNT-TC-1A vs ACCP, Level I/II/III requirements, exam costs, training hours, and salary ($45K-$150K+). 95% first-attempt pass rate. Dubai, Houston, India."
                 keywords="ASNT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, ACCP certification, ASNT Level II, ASNT training, NDT Level III certification, ASNT consulting, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III, asnt level iii consulting"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}

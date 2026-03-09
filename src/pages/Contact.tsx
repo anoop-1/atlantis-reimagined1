@@ -145,8 +145,8 @@ export default function Contact() {
       <div className="min-h-screen pt-20 bg-background">
          <Navigation />
          <SEOHead
-            title="Contact Us"
-            description="Contact Atlantis NDT for professional Non-Destructive Testing services. Expert team providing 24/7 support across North America."
+            title="Contact Atlantis NDT - 24H Response [Expert Support]"
+            description="Get expert NDT support in 24 hours. Contact Atlantis NDT for training, inspection, consulting. Call +1 (281) 840-8969. Free quote, multiple locations."
             keywords="contact NDT services, Atlantis NDT contact, NDT inspection quote, professional NDT consulting"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/contact"

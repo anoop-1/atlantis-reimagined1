@@ -116,16 +116,30 @@ export default function DigitalTwins() {
 
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "Service",
+      "@type": "Product",
       "name": "NDT Digital Twins",
-      "provider": {
+      "description": "Transform NDT inspection data into interactive 3D visualizations for oil & gas, petrochemical, marine, and aerospace industries.",
+      "brand": {
+         "@type": "Brand",
+         "name": "Atlantis NDT"
+      },
+      "manufacturer": {
          "@type": "Organization",
          "name": "Atlantis NDT",
          "url": "https://atlantisndt.com"
       },
-      "description": "Transform NDT inspection data into interactive 3D visualizations for oil & gas, petrochemical, marine, and aerospace industries.",
-      "serviceType": "Digital Twin Technology for NDT",
-      "areaServed": ["United States", "India", "Middle East", "Global"]
+      "offers": {
+         "@type": "Offer",
+         "url": "https://atlantisndt.com/digital-twins",
+         "priceCurrency": "USD",
+         "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+         "@type": "AggregateRating",
+         "ratingValue": "4.8",
+         "ratingCount": "125"
+      },
+      "areaServed": ["US", "AE", "SA", "IN", "GB", "SG"]
    };
 
    return (

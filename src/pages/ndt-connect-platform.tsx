@@ -45,8 +45,8 @@ export default function NDTConnectPlatform() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Connect | Cloud NDT Inspection Management Platform | Atlantis NDT"
-                description="NDT Connect cloud platform for inspection data management. Real-time collaboration, analytics, compliance tracking. Reduce report time 70%. Request demo!"
+                title="NDT Connect [Complete Platform] - 70% Faster Reports"
+                description="NDT Connect cuts reporting time 70% with cloud-based inspection management. Real-time collaboration, SOC 2 compliance, analytics. Request demo today!"
                 keywords="NDT Connect, NDT software, inspection management software, cloud NDT platform, NDT data management, inspection reporting software"
                 canonical="https://atlantisndt.com/ndt-connect-platform"
                 structuredData={structuredData}

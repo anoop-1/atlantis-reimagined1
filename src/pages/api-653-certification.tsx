@@ -127,8 +127,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Certification 2026: Tank Inspector Exam — Pass First Try [95% Rate]"
-                description="API 653 Tank Inspector exam prep: all 10 reference codes covered, open-book strategies, practice questions. RBI methodology, inspection intervals. Dubai, Houston, India & online. 95% first-attempt pass rate."
+                title="[Expert Guide] API 653 Tank Inspection - Storage Tank Specialist"
+                description="API 653 tank inspector certification: storage tank inspection, repairs, alterations. Open-book exam, 6 codes, 95% pass rate. 2026 guide."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}

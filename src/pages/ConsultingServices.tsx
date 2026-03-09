@@ -146,14 +146,12 @@ export default function ConsultingServices() {
          "name": "Atlantis NDT",
          "url": "https://atlantisndt.com",
       },
-      "areaServed": ["United States", "Middle East", "India"],
-      "serviceType": [
-         "ASNT Level III Consulting",
-         "NDT Procedure Development",
-         "Technical Opinion Services",
-         "Audit Compliance Support",
-         "Inspection Failure Analysis"
-      ],
+      "serviceType": "ASNT Level III NDT Consulting",
+      "areaServed": ["US", "AE", "SA", "IN", "GB", "SG"],
+      "offers": {
+         "@type": "Offer",
+         "url": "https://atlantisndt.com/consulting"
+      }
    };
 
    return (

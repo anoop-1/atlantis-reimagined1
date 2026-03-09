@@ -66,6 +66,12 @@ const NDTForPowerGeneration = lazy(() => import("./pages/ndt-for-power-generatio
 const API653TankInspectionGuide = lazy(() => import("./pages/api-653-tank-inspection-guide"));
 const NDTCareerGuide = lazy(() => import("./pages/ndt-career-guide"));
 const UTvsRTComparison = lazy(() => import("./pages/ut-vs-rt-comparison"));
+// New Blog Posts - High-Volume SEO Targets
+const EddyCurrentTestingGuide = lazy(() => import("./pages/blog/eddy-current-testing-complete-guide"));
+const UltrasonicTestingGuide = lazy(() => import("./pages/blog/ultrasonic-testing-ultimate-guide"));
+const API653CertificationGuide = lazy(() => import("./pages/blog/api-653-certification-complete-guide"));
+const NDTSalaryGuide2026 = lazy(() => import("./pages/blog/ndt-salary-guide-2026-global"));
+const RTvsUTComparison = lazy(() => import("./pages/blog/rt-vs-ut-complete-comparison"));
 // Certification Pages
 const API510Certification = lazy(() => import("./pages/api-510-certification"));
 const API570Certification = lazy(() => import("./pages/api-570-certification"));
@@ -449,6 +455,12 @@ const App = () => (
                   <Route path="/blog/api-653-tank-inspection-guide" element={<LazyRoute Component={API653TankInspectionGuide} />} />
                   <Route path="/blog/ndt-career-guide" element={<LazyRoute Component={NDTCareerGuide} />} />
                   <Route path="/blog/ut-vs-rt-comparison" element={<LazyRoute Component={UTvsRTComparison} />} />
+                  {/* New Blog Posts - High-Volume SEO Targets */}
+                  <Route path="/blog/eddy-current-testing-complete-guide" element={<LazyRoute Component={EddyCurrentTestingGuide} />} />
+                  <Route path="/blog/ultrasonic-testing-ultimate-guide" element={<LazyRoute Component={UltrasonicTestingGuide} />} />
+                  <Route path="/blog/api-653-certification-complete-guide" element={<LazyRoute Component={API653CertificationGuide} />} />
+                  <Route path="/blog/ndt-salary-guide-2026-global" element={<LazyRoute Component={NDTSalaryGuide2026} />} />
+                  <Route path="/blog/rt-vs-ut-complete-comparison" element={<LazyRoute Component={RTvsUTComparison} />} />
                   {/* Certification Pages */}
                   <Route path="/api-510-certification" element={<LazyRoute Component={API510Certification} />} />
                   <Route path="/api-570-certification" element={<LazyRoute Component={API570Certification} />} />

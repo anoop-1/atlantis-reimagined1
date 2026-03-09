@@ -164,8 +164,8 @@ export default function CaseStudies() {
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-primary/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Case Studies | Oil Gas Aerospace Success Stories"
-                description="Real NDT inspection success stories from oil & gas, aerospace, and marine industries. See how Atlantis NDT solved complex inspection challenges worldwide."
+                title="[Proven Results] NDT Case Studies - Oil & Gas | Aerospace"
+                description="4 real NDT case studies: $2.5M savings, 45 certified technicians, 10-year license extension. Oil & gas, aerospace, pipeline, turnaround. Digital Twin proven."
                 keywords="NDT case studies, inspection success stories, oil gas NDT projects, aerospace NDT examples, pipeline inspection case study, PAUT inspection results, Digital Twin NDT"
                 canonical="https://atlantisndt.com/case-studies"
                 structuredData={structuredData}

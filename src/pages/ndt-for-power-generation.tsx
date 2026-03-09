@@ -71,8 +71,8 @@ export default function NDTForPowerGeneration() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Power Generation NDT | Turbine, Boiler & Generator Inspection | ASME Qualified | Atlantis"
-                description="Power generation NDT services: gas turbine blade inspection, boiler tube testing, steam turbine rotors, HRSG, condenser tubes. ASME/NRC qualified. Outage planning & Level III consulting. Get a quote."
+                title="[Critical Infrastructure] NDT Power Generation - Asset Integrity"
+                description="NDT for power generation: boiler, turbine, pipeline inspection. Prevent downtime, extend asset life. ASNT certified, 24/7 response."
                 keywords="power generation NDT, power plant NDT, turbine blade inspection, boiler tube testing, generator NDT, ASME Section V power, HRSG inspection, steam turbine NDT, nuclear NDT, power plant outage inspection, condenser tube inspection, ASNT power generation, NRC qualified NDT"
                 canonical="https://atlantisndt.com/ndt-for-power-generation"
                 structuredData={structuredData}

@@ -47,7 +47,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 py-12 mt-16">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-white font-bold mb-3">Corrosion Management & NDT</h3>
             <p className="text-sm leading-relaxed">Comprehensive resource for corrosion management & ndt — NDT methods, standards, career guides, and industry best practices.</p>
@@ -71,6 +71,14 @@ function Footer() {
               <li><a href="/ndt-methods" className="hover:text-white transition-colors">NDT for Corrosion De</a></li>
               <li><a href="/management" className="hover:text-white transition-colors">Corrosion Management</a></li>
               <li><a href="/industry" className="hover:text-white transition-colors">Corrosion by Industr</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-white font-semibold mb-3">Related Resources</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="https://asset-integrity-hub.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Asset Integrity Hub</a></li>
+              <li><a href="https://power-generation-ndt.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Power Generation NDT</a></li>
+              <li><a href="https://marine-offshore-ndt.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Marine & Offshore NDT</a></li>
             </ul>
           </div>
         </div>

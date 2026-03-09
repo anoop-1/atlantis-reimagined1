@@ -71,7 +71,7 @@ function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-100 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
           <div>
             <h4 className="font-bold text-lg text-amber-400 mb-4">Training Programs</h4>
             <ul className="space-y-2 text-sm">
@@ -107,6 +107,15 @@ function Footer() {
               <li><a href="/regional/usa" className="hover:text-amber-400 transition">USA</a></li>
               <li><a href="/regional/india" className="hover:text-amber-400 transition">India</a></li>
               <li><a href="/regional/middle-east" className="hover:text-amber-400 transition">Middle East</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-bold text-lg text-amber-400 mb-4">Related Resources</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="https://ndt-knowledge-hub.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">NDT Knowledge Hub</a></li>
+              <li><a href="https://ndt-careers-portal.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">NDT Careers Portal</a></li>
+              <li><a href="https://aerospace-ndt-standards.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">Aerospace NDT Standards</a></li>
             </ul>
           </div>
         </div>

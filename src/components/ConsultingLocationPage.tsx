@@ -440,8 +440,24 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     }
 
     const colors = colorMap[location.color] || colorMap.slate;
-    const pageTitle = `NDT Level III Consulting ${location.name} | ASNT Procedures & Program Audits | Atlantis NDT`;
-    const pageDesc = `ASNT Level III NDT consulting services in ${location.name}. Procedure development, program audits, technique development, and expert witness services for ${location.industries.join(", ")}. 50+ certified experts. Request quote.`;
+
+    // Location-specific optimized titles and descriptions for better CTR
+    const titleMap: Record<string, string> = {
+        "dallas": "[Expert Consulting] NDT Dallas - Level III Technical Support",
+        "houston": "[Expert Consulting] NDT Houston - Level III Support",
+        "nigeria": "[Expert Support] NDT Consulting Nigeria - Offshore/Onshore",
+        "singapore": "[Expert Consulting] NDT Singapore - Level III Support"
+    };
+
+    const descMap: Record<string, string> = {
+        "dallas": "NDT Level III consulting in Dallas: procedures, audits, compliance. 25+ years expertise. Oil & gas, petrochemical refinery support.",
+        "houston": "NDT Level III consulting Houston: procedures, audits, training. Oil & gas, refinery, petrochemical. 25+ years proven expertise.",
+        "nigeria": "NDT consulting Nigeria: training, procedures, inspections. Offshore, onshore expertise. ASNT Level III, API certified. Same-day support.",
+        "singapore": "NDT Level III consulting Singapore: procedures, audits, training. Marine, offshore expertise. ASNT certified. Same-day quotes."
+    };
+
+    const pageTitle = titleMap[location.slug] || `[Expert Consulting] NDT Level III ${location.name} - Technical Support & Procedures`;
+    const pageDesc = descMap[location.slug] || `ASNT Level III NDT consulting services in ${location.name}. Procedure development, program audits, technique development, and expert witness services for ${location.industries.join(", ")}. 50+ certified experts. Request quote.`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 

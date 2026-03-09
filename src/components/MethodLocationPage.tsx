@@ -185,8 +185,43 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
     }
 
     const colors = colorMap[location.color] || colorMap.blue;
-    const pageTitle = `${method.name} Guide | ${method.shortName} Training & Consulting ${location.name} | Atlantis NDT`;
-    const pageDesc = `Complete guide to ${method.name} (${method.shortName}) for professionals in ${location.name}. Learn about ${method.applications.slice(0, 3).join(", ")}. Training courses and consulting available. ${location.industries.join(", ")} applications.`;
+
+    // Location-specific optimized titles and descriptions for better CTR
+    const titleMap: Record<string, Record<string, string>> = {
+        "ultrasonic-testing": {
+            "singapore": "[Ultimate Method] Ultrasonic Testing Singapore - UT Inspection",
+            "default": `[Complete Guide] ${method.name} 2026 - ${method.shortName} Training`
+        },
+        "radiographic-testing": {
+            "singapore": "[Complete Guide] Radiographic Testing Singapore - RT Inspection",
+            "default": `[Complete Guide] ${method.name} 2026 - RT Inspection Methods`
+        },
+        "magnetic-particle-testing": {
+            "singapore": "[Surface Defects] Magnetic Particle Testing Singapore - MT Expert",
+            "default": `[Expert Method] ${method.name} 2026 - Surface Crack Detection`
+        }
+    };
+
+    const descMap: Record<string, Record<string, string>> = {
+        "ultrasonic-testing": {
+            "singapore": "Ultrasonic testing (UT) Singapore: thickness, weld, PAUT inspection. ASNT Level II/III. Oil & gas, marine, aerospace projects.",
+            "default": `Master ${method.name}: thickness measurement, weld inspection, PAUT. ASNT certified training & consulting. All levels.`
+        },
+        "radiographic-testing": {
+            "singapore": "Radiographic testing (RT) in Singapore: X-ray, gamma ray inspection. ASNT Level II/III certified. Weld, casting, corrosion inspection.",
+            "default": `${method.name} training & consulting: weld inspection, casting defect detection. ASNT Level I/II/III certification.`
+        },
+        "magnetic-particle-testing": {
+            "singapore": "Magnetic particle testing (MT) Singapore: surface crack detection. ASNT certified. Weld inspection, quality control, aerospace.",
+            "default": `Master ${method.name}: surface crack detection, ferromagnetic inspection. ASNT certified training & consulting.`
+        }
+    };
+
+    const methodTitleMap = titleMap[methodSlug] || {};
+    const methodDescMap = descMap[methodSlug] || {};
+
+    const pageTitle = methodTitleMap[locationSlug] || methodTitleMap["default"] || `${method.name} Guide | ${method.shortName} Training & Consulting ${location.name} | Atlantis NDT`;
+    const pageDesc = methodDescMap[locationSlug] || methodDescMap["default"] || `Complete guide to ${method.name} (${method.shortName}) for professionals in ${location.name}. Learn about ${method.applications.slice(0, 3).join(", ")}. Training courses and consulting available. ${location.industries.join(", ")} applications.`;
     const keywords = `${method.name} ${location.name}, ${method.shortName} training ${location.name}, ${method.slug} guide, learn ${method.shortName}, ${method.shortName} consulting ${location.name}, ${method.shortName} certification ${location.name}`;
     const canonical = `https://atlantisndt.com/${methodSlug}-${locationSlug}`;
 

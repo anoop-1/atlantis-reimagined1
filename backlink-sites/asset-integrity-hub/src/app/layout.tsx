@@ -57,7 +57,7 @@ function Footer() {
   return (
     <footer className="bg-gray-50 border-t border-gray-200 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
           <div>
             <h3 className="text-lg font-bold mb-4">Asset Integrity Hub</h3>
             <p className="text-gray-600 text-sm">Digital transformation resource for NDT and inspection companies.</p>
@@ -86,6 +86,14 @@ function Footer() {
               <li><a href="https://atlantisndt.com/digital-twin-reporting">DT Reporting</a></li>
               <li><a href="https://atlantisndt.com/blog">AtlantisNDT Blog</a></li>
               <li><a href="https://atlantisndt.com">AtlantisNDT</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-4">Related Resources</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="https://power-generation-ndt.com" target="_blank" rel="noopener">Power Generation NDT</a></li>
+              <li><a href="https://corrosion-management-ndt.com" target="_blank" rel="noopener">Corrosion Management NDT</a></li>
+              <li><a href="https://industrial-inspection-resources.com" target="_blank" rel="noopener">Industrial Inspection Resources</a></li>
             </ul>
           </div>
         </div>

@@ -138,8 +138,8 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Certification 2026: Exam Prep, Study Guide & Pass Tips [95% Rate]"
-                description="Pass API 510 Pressure Vessel Inspector exam on your first try. Open-book exam prep with all required codes, practice questions, study timeline. Dubai, Houston, India & online. 95% pass rate. Enrol today."
+                title="[Complete Guide] API 510 Exam - 95% Pass Rate in 2026"
+                description="Master API 510 pressure vessel certification: open-book exam, 9 required codes, practice tests. 95% first-attempt pass rate. Dubai, Houston, India, online."
                 keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}

@@ -23,6 +23,15 @@ export default function AdminDashboard() {
   const navigate = useNavigate();
   const { isAdmin, logout } = useAuth();
   const { toast } = useToast();
+
+  // Set noindex meta tag for this admin page
+  useEffect(() => {
+    const meta = document.querySelector('meta[name="robots"]') || document.createElement('meta');
+    meta.setAttribute('name', 'robots');
+    meta.setAttribute('content', 'noindex, nofollow');
+    if (!meta.parentElement) document.head.appendChild(meta);
+    return () => { meta.setAttribute('content', 'index, follow'); };
+  }, []);
   const [blogs, setBlogs] = useState<Blog[]>([]);
   const [loading, setLoading] = useState(false);
   const [submitting, setSubmitting] = useState(false);

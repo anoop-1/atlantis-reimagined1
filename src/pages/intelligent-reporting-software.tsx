@@ -186,8 +186,8 @@ export default function IntelligentReportingSoftware() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Reporting Software: Replace PDF Reports with 3D Digital Twins [Free Demo]"
-                description="Best NDT reporting software for oil & gas: auto-generate digital inspection reports with 3D visualization, API 510/570/653 compliance built-in, full audit trail. Replace paper-based reports. See ROI in 30 days — request free demo."
+                title="[Smart Solution] NDT Reporting Software - 70% Faster Reports"
+                description="NDT Connect reporting software reduces documentation time 70%. Cloud-based, SOC 2 compliant, real-time collaboration. 6 methods, all industries."
                 keywords="NDT reporting software, NDT inspection software, best NDT reporting software, digital NDT reports, asset integrity software, NDT compliance software, inspection management system, 3D defect visualization, ASME API inspection software, oil gas NDT software, digital twin NDT, intelligent reporting software, MRO NDT solution, NDT data management"
                 canonical="https://atlantisndt.com/intelligent-reporting-software"
                 structuredData={structuredData}

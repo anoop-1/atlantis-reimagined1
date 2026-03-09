@@ -63,7 +63,7 @@ export default function RootLayout({
 
         <footer className="bg-teal-900 text-white mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
               <div>
                 <h3 className="text-lg font-bold mb-4">Industries</h3>
                 <ul className="space-y-2 text-teal-100">
@@ -96,6 +96,14 @@ export default function RootLayout({
                   <li><a href="https://atlantisndt.com/consulting" className="hover:text-white">NDT Consulting</a></li>
                   <li><a href="https://atlantisndt.com/training" className="hover:text-white">Training Programs</a></li>
                   <li><a href="https://atlantisndt.com/ndt-erp-solution" className="hover:text-white">ERP Solutions</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold mb-4">Related Resources</h3>
+                <ul className="space-y-2 text-teal-100">
+                  <li><a href="https://asset-integrity-hub.com" target="_blank" rel="noopener" className="hover:text-white">Asset Integrity Hub</a></li>
+                  <li><a href="https://power-generation-ndt.com" target="_blank" rel="noopener" className="hover:text-white">Power Generation NDT</a></li>
+                  <li><a href="https://construction-ndt-guide.com" target="_blank" rel="noopener" className="hover:text-white">Construction NDT Guide</a></li>
                 </ul>
               </div>
             </div>

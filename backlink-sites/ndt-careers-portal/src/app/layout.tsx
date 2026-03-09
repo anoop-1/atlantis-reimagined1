@@ -50,7 +50,7 @@ export default function RootLayout({
 
         <footer className="bg-sky-900 text-white mt-12">
           <div className="max-w-6xl mx-auto px-4 py-12">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
               <div>
                 <h3 className="font-bold mb-4 text-sky-100">Career Paths</h3>
                 <ul className="space-y-2 text-sm">
@@ -80,6 +80,14 @@ export default function RootLayout({
                 <ul className="space-y-2 text-sm">
                   <li><a href="/resources" className="text-sky-200 hover:text-white">Career Resources</a></li>
                   <li><a href="https://atlantisndt.com/training" className="text-sky-200 hover:text-white">Training Programs</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-bold mb-4 text-sky-100">Related Resources</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://ndt-training-academy.com" target="_blank" rel="noopener" className="text-sky-200 hover:text-white">NDT Training Academy</a></li>
+                  <li><a href="https://ndt-knowledge-hub.com" target="_blank" rel="noopener" className="text-sky-200 hover:text-white">NDT Knowledge Hub</a></li>
+                  <li><a href="https://middle-east-ndt-resource.com" target="_blank" rel="noopener" className="text-sky-200 hover:text-white">Middle East NDT Resource</a></li>
                 </ul>
               </div>
             </div>

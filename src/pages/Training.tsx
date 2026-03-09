@@ -161,9 +161,27 @@ export default function Training() {
       ]
    };
 
+   const serviceSchema = {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "NDT Training & Certification Programs",
+      "provider": {
+         "@type": "Organization",
+         "name": "Atlantis NDT",
+         "url": "https://atlantisndt.com"
+      },
+      "serviceType": "NDT Training and Certification",
+      "areaServed": ["US", "AE", "SA", "IN", "GB", "SG"],
+      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A and NAS 410 standards. Hands-on training across UT, MT, PT, VT, RT, and ET methods.",
+      "offers": {
+         "@type": "Offer",
+         "url": "https://atlantisndt.com/training"
+      }
+   };
+
    const structuredData = {
       "@context": "https://schema.org",
-      "@graph": [eduOrg, faq]
+      "@graph": [eduOrg, faq, serviceSchema]
    };
 
    return (

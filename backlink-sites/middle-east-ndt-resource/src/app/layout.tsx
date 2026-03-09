@@ -47,7 +47,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 py-12 mt-16">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-white font-bold mb-3">Middle East NDT Resource Center</h3>
             <p className="text-sm leading-relaxed">Comprehensive resource for middle east ndt resource center — NDT methods, standards, career guides, and industry best practices.</p>
@@ -71,6 +71,14 @@ function Footer() {
               <li><a href="/cities" className="hover:text-white transition-colors">NDT by City</a></li>
               <li><a href="/industry" className="hover:text-white transition-colors">Middle East NDT Indu</a></li>
               <li><a href="/certification" className="hover:text-white transition-colors">NDT Certification in</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-white font-semibold mb-3">Related Resources</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="https://oil-gas-inspection-guide.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Oil & Gas Inspection Guide</a></li>
+              <li><a href="https://ndt-training-academy.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT Training Academy</a></li>
+              <li><a href="https://ndt-careers-portal.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT Careers Portal</a></li>
             </ul>
           </div>
         </div>

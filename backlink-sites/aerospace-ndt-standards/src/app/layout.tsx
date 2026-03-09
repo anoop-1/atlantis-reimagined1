@@ -46,7 +46,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 py-12 mt-16">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-white font-bold mb-3">Aerospace NDT Standards</h3>
             <p className="text-sm leading-relaxed">Definitive resource for aerospace non-destructive testing standards, NAS 410 certification, NADCAP accreditation, and aircraft inspection methods.</p>
@@ -69,6 +69,14 @@ function Footer() {
               <li><a href="/applications" className="hover:text-white transition-colors">Applications</a></li>
               <li><a href="/methods" className="hover:text-white transition-colors">Methods</a></li>
               <li><a href="/career" className="hover:text-white transition-colors">Career</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-white font-semibold mb-3">Related Resources</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="https://manufacturing-ndt-quality.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Manufacturing NDT & Quality</a></li>
+              <li><a href="https://ndt-software-solutions.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT Software Solutions</a></li>
+              <li><a href="https://ndt-training-academy.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT Training Academy</a></li>
             </ul>
           </div>
         </div>

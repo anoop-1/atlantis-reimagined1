@@ -193,8 +193,8 @@ export default function NDTTechnicianSalary() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Salary Guide 2026: $45K–$180K+ by Level, Method & Country [Updated]"
-        description="Real NDT salary data for 2026: Level I ($45K-$65K), Level II ($55K-$95K), Level III ($80K-$180K+). Compare pay by method (PAUT highest), city (Houston, Dubai, Calgary), and industry. Negotiation tips included."
+        title="[2026 Guide] NDT Salary: Level I/II/III - $45K to $180K"
+        description="Real NDT salary data 2026: Level I ($45K-$65K), Level II ($55K-$95K), Level III ($80K-$180K+). PAUT pays highest. USA, Dubai, India. Proven tips."
         keywords="NDT technician salary, NDT salary 2026, PAUT technician salary, NDT Level II salary, NDT Level III salary, NDT salary USA, NDT salary Dubai, NDT engineer salary, ASNT certification salary, phased array technician salary, NDT salary guide, how much do NDT technicians make, NDT Level III salary, RT technician salary, UT technician salary, NDT career salary"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-technician-salary"
