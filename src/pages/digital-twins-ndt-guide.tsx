@@ -79,8 +79,8 @@ export default function DigitalTwinsNDTGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Complete Guide to Digital Twins in NDT 2026 | 3D Visualization for Asset Integrity | Atlantis NDT"
-                description="Learn how digital twin technology transforms NDT inspection. 3D visualization, predictive maintenance, real-time data. Implementation guide for oil & gas, aerospace, marine."
+                title="Digital Twins in NDT: How 3D Models Cut Inspection Costs 40% [2026 Guide]"
+                description="See how digital twins transform NDT inspection: 3D visualization of corrosion data, predictive maintenance scheduling, real-time asset monitoring. Implementation roadmap for oil & gas, aerospace, marine. ROI calculator included."
                 keywords="digital twins NDT, digital twin guide, NDT 3D visualization, asset integrity digital twin, inspection data visualization, predictive maintenance NDT"
                 canonical="https://atlantisndt.com/blog/digital-twins-ndt-guide"
                 structuredData={structuredData}

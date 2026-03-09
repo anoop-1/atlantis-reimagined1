@@ -165,6 +165,24 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 }
 
 export default function UltrasonicTesting() {
+  const faqSchemaData = [
+    {
+      "@type": "Question",
+      "name": "What is the difference between UT and PAUT?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Conventional UT uses a single element transducer with fixed beam angle, while phased array UT (PAUT) uses multiple elements that can be electronically steered, focused, and scanned — providing faster inspection and better defect characterization." },
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness can ultrasonic testing measure?",
+      "acceptedAnswer": { "@type": "Answer", "text": "UT can measure thickness from 0.5mm to over 500mm depending on frequency and material. High-frequency probes (10-20MHz) measure thin materials; low-frequency (0.5-2MHz) penetrate thick sections." },
+    },
+    {
+      "@type": "Question",
+      "name": "Is ultrasonic testing safe?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, UT is completely safe — it uses sound waves, not radiation. Unlike radiographic testing, no evacuation zones or radiation safety protocols are needed." },
+    },
+  ];
+
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -186,11 +204,14 @@ export default function UltrasonicTesting() {
       },
       {
         "@type": "FAQPage",
-        "mainEntity": faqs.map((f) => ({
-          "@type": "Question",
-          "name": f.q,
-          "acceptedAnswer": { "@type": "Answer", "text": f.a },
-        })),
+        "mainEntity": [
+          ...faqSchemaData,
+          ...faqs.map((f) => ({
+            "@type": "Question",
+            "name": f.q,
+            "acceptedAnswer": { "@type": "Answer", "text": f.a },
+          })),
+        ],
       },
     ],
   };
@@ -200,8 +221,8 @@ export default function UltrasonicTesting() {
       <Navigation />
 
       <SEOHead
-        title="Ultrasonic Testing (UT) | PAUT, TOFD, AUT Guide | ASME V Art 4 | Atlantis NDT"
-        description="Complete guide to ultrasonic testing: conventional UT, phased array (PAUT), TOFD, AUT, guided wave. ASME V Article 4, API 5L, AWS D1.1. Level I-III UT training and Level III consulting."
+        title="Ultrasonic Testing (UT): PAUT vs TOFD vs Conventional — Which Method Wins? [2026]"
+        description="Compare ultrasonic testing methods head-to-head: conventional UT vs phased array (PAUT) vs TOFD vs automated UT. Thickness measurement, weld inspection, corrosion mapping. Equipment costs, training requirements & ASME V compliance."
         keywords="ultrasonic testing, UT inspection, phased array ultrasonic testing PAUT, TOFD, time of flight diffraction, automated ultrasonic testing AUT, guided wave testing GWT, UT thickness measurement, weld inspection ultrasonic testing, ASME Section V Article 4, API 5L pipeline inspection, corrosion mapping UT, ultrasonic testing certification, ASNT UT, NDT UT services, UT NDT method"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ultrasonic-testing"

@@ -103,9 +103,37 @@ export default function Training() {
       }
    };
 
+   const faqSchemaData = [
+      {
+         "@type": "Question",
+         "name": "What NDT training levels are available?",
+         "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NDT training follows three levels: Level I (basic application), Level II (independent testing and reporting), and Level III (program management, procedure development, and technical authority)."
+         }
+      },
+      {
+         "@type": "Question",
+         "name": "How long is NDT training?",
+         "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NDT training duration varies by method and level. Level I typically requires 40-80 classroom hours plus OJT. Level II requires 40-80 additional hours. Training can be completed in 1-4 weeks per method."
+         }
+      },
+      {
+         "@type": "Question",
+         "name": "Do you offer online NDT training?",
+         "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Atlantis NDT offers online theory courses for all major NDT methods. Online training covers theoretical knowledge, while practical hands-on training is available at our centers in Houston, Dubai, and Hyderabad."
+         }
+      }
+   ];
+
    const faq = {
       "@type": "FAQPage",
       "mainEntity": [
+         ...faqSchemaData,
          {
             "@type": "Question",
             "name": "What NDT certification levels do you offer?",

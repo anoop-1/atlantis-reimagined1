@@ -150,6 +150,24 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 }
 
 export default function EddyCurrentTesting() {
+  const faqSchemaData = [
+    {
+      "@type": "Question",
+      "name": "What is eddy current testing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Eddy current testing (ECT) is an electromagnetic NDT method that detects surface and near-surface defects in conductive materials by inducing electrical currents and measuring impedance changes." },
+    },
+    {
+      "@type": "Question",
+      "name": "What materials can be tested with eddy current?",
+      "acceptedAnswer": { "@type": "Answer", "text": "ECT works on any electrically conductive material including aluminum, copper, titanium, stainless steel, and carbon steel. It cannot test non-conductive materials like plastics or ceramics." },
+    },
+    {
+      "@type": "Question",
+      "name": "How deep can eddy current testing detect defects?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Standard ECT detects defects to about 5mm depth. Low-frequency ECT can reach 10-15mm. Remote field ECT (RFEC) can inspect through full wall thickness of ferrous tubes." },
+    },
+  ];
+
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -171,11 +189,14 @@ export default function EddyCurrentTesting() {
       },
       {
         "@type": "FAQPage",
-        "mainEntity": faqs.map((f) => ({
-          "@type": "Question",
-          "name": f.q,
-          "acceptedAnswer": { "@type": "Answer", "text": f.a },
-        })),
+        "mainEntity": [
+          ...faqSchemaData,
+          ...faqs.map((f) => ({
+            "@type": "Question",
+            "name": f.q,
+            "acceptedAnswer": { "@type": "Answer", "text": f.a },
+          })),
+        ],
       },
     ],
   };
@@ -185,8 +206,8 @@ export default function EddyCurrentTesting() {
       <Navigation />
 
       <SEOHead
-        title="Eddy Current Testing (ECT): Complete Guide 2026 | NDT Inspection, Types & Certification"
-        description="Expert guide to Eddy Current Testing: how ECT works, ECA, RFEC, Pulsed ECT, heat exchanger tube inspection, aerospace & oil gas applications. ASNT/ISO 9712 Level I–III training from Atlantis NDT."
+        title="Eddy Current Testing (ECT): How It Works, 7 Types & When to Use It [2026 Guide]"
+        description="Master eddy current testing: ECT, ECA, RFEC, pulsed ECT explained with diagrams. Heat exchanger tube inspection, aerospace crack detection. Free equipment comparison chart. ASNT Level I–III training available."
         keywords="eddy current testing, ECT inspection, eddy current inspection, eddy current NDT, eddy current array ECA, remote field eddy current RFEC, pulsed eddy current PEC, heat exchanger tube inspection, ECT training, ASNT eddy current certification, eddy current testing procedure, eddy current tube testing, eddy current system, ect ndt testing, eddy current non destructive testing, eddy current measurement, eddy current testing method, surface eddy current testing, eddy current examination, eddy current NDE, tube inspection NDT"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/blog/eddy-current-testing"

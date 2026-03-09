@@ -51,11 +51,32 @@ const faqs = [
 ];
 
 export default function ASNTCertification() {
+    const faqSchemaData = [
+        {
+            "@type": "Question",
+            "name": "How long does ASNT certification take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ASNT Level I typically takes 2-4 weeks of training plus supervised OJT hours. Level II requires additional experience. Level III requires years of experience plus passing Basic and Method exams." },
+        },
+        {
+            "@type": "Question",
+            "name": "What is the cost of ASNT certification?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ASNT certification costs vary: Level I/II training is $1,000-$3,000 per method. Level III exam fees are $200-$750. Total investment including materials and OJT is typically $3,000-$10,000." },
+        },
+        {
+            "@type": "Question",
+            "name": "Is ASNT certification recognized internationally?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ASNT SNT-TC-1A is the most widely recognized NDT certification scheme globally, accepted in over 100 countries. However, some regions also require ISO 9712 or PCN certification." },
+        },
+    ];
+
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
             { "@type": "Course", "name": "ASNT NDT Certification Training", "description": "Training for ASNT NDT Level I, II, III certification.", "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
-            { "@type": "FAQPage", "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } })) }
+            { "@type": "FAQPage", "mainEntity": [
+                ...faqSchemaData,
+                ...faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
+            ] }
         ]
     };
 
@@ -64,7 +85,7 @@ export default function ASNTCertification() {
             <Navigation />
             <SEOHead
                 title="ASNT NDT Certification | Level I II III Training | SNT-TC-1A & ACCP | 95% Pass Rate"
-                description="ASNT NDT certification training (Level I, II & III) for UT, RT, MT, PT, ET, VT. SNT-TC-1A employer-based & ACCP portable certification. Globally recognised. 95% first-attempt pass rate. Enrol online or in Dubai, Houston, India."
+                description="Everything you need for ASNT certification: Level I, II & III requirements side-by-side, exam costs ($200-$750), training hours, and employer-based vs ACCP portable comparison. 95% first-attempt pass rate. Enrol in Dubai, Houston, or India."
                 keywords="ASNT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, ACCP certification, ASNT Level II, ASNT training, NDT Level III certification, ASNT consulting, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III, asnt level iii consulting"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}

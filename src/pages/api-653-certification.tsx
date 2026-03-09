@@ -79,6 +79,24 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 }
 
 export default function API653Certification() {
+    const faqSchemaData = [
+        {
+            "@type": "Question",
+            "name": "How hard is the API 653 exam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "API 653 is an open-book exam with 170 questions in 7.75 hours. It requires knowledge of 10+ reference codes. With proper preparation, the pass rate is around 60-70% industry-wide, but structured training programs achieve 90%+ pass rates." },
+        },
+        {
+            "@type": "Question",
+            "name": "What codes are referenced in API 653?",
+            "acceptedAnswer": { "@type": "Answer", "text": "API 653 references: API 650, API 653, API 651, API 652, API 575, API 577, API 571, ASME Section V, ASME Section IX, and NDE methods standards." },
+        },
+        {
+            "@type": "Question",
+            "name": "What salary can an API 653 certified inspector expect?",
+            "acceptedAnswer": { "@type": "Answer", "text": "API 653 certified tank inspectors earn $75,000-$130,000 in the USA, $80,000-$150,000 tax-free in the Middle East, and comparable rates in other oil-producing regions." },
+        },
+    ];
+
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
@@ -93,11 +111,14 @@ export default function API653Certification() {
             },
             {
                 "@type": "FAQPage",
-                "mainEntity": faqs.map(faq => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
-                }))
+                "mainEntity": [
+                    ...faqSchemaData,
+                    ...faqs.map(faq => ({
+                        "@type": "Question",
+                        "name": faq.question,
+                        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+                    }))
+                ]
             }
         ]
     };
@@ -106,8 +127,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Certification Training | Tank Inspector Exam Prep 2026 | Atlantis NDT"
-                description="API 653 Tank Inspector certification training: open-book exam prep, all 10 reference codes, inspection intervals, RBI. Dubai, Houston, India & online. 95% pass rate."
+                title="API 653 Certification 2026: Tank Inspector Exam — Pass First Try [95% Rate]"
+                description="API 653 Tank Inspector exam prep: all 10 reference codes covered, open-book strategies, practice questions. RBI methodology, inspection intervals. Dubai, Houston, India & online. 95% first-attempt pass rate."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}

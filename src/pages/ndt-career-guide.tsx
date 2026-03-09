@@ -70,8 +70,8 @@ export default function ASNTCareerGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Career Guide 2026 | ASNT Certification | NDT Salaries & Job Outlook | Atlantis"
-                description="Complete NDT career guide. ASNT Level I II III certification, salary ranges $45K-$150K+, job outlook, best industries. Start your NDT career today!"
+                title="NDT Career Guide 2026: Entry to Expert — Level I/II/III & Salary Growth [Updated]"
+                description="Complete NDT career roadmap: ASNT certification levels, salary progression ($45K-$150K+), job growth (+15% in oil & gas), best industries, and how to advance. Global opportunities included."
                 keywords="NDT career, ASNT certification, NDT salary, NDT jobs, NDT technician career, Level III NDT, non-destructive testing career, NDT training"
                 canonical="https://atlantisndt.com/blog/ndt-career-guide"
                 structuredData={structuredData}

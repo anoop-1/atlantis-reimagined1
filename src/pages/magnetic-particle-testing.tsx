@@ -135,6 +135,19 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 }
 
 export default function MagneticParticleTesting() {
+  const faqSchemaData = [
+    {
+      "@type": "Question",
+      "name": "What is the difference between wet and dry magnetic particle testing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Wet MT uses fluorescent particles suspended in liquid (viewed under UV-A light) for higher sensitivity on smooth surfaces. Dry MT uses colored powder applied directly, better for rough surfaces, field conditions, and high-temperature testing." },
+    },
+    {
+      "@type": "Question",
+      "name": "Can magnetic particle testing detect subsurface defects?",
+      "acceptedAnswer": { "@type": "Answer", "text": "MT primarily detects surface-breaking defects. It can detect near-surface defects up to about 3mm depth, but sensitivity decreases rapidly with depth. For subsurface detection, ultrasonic or radiographic testing is recommended." },
+    },
+  ];
+
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -156,11 +169,14 @@ export default function MagneticParticleTesting() {
       },
       {
         "@type": "FAQPage",
-        "mainEntity": faqs.map((f) => ({
-          "@type": "Question",
-          "name": f.q,
-          "acceptedAnswer": { "@type": "Answer", "text": f.a },
-        })),
+        "mainEntity": [
+          ...faqSchemaData,
+          ...faqs.map((f) => ({
+            "@type": "Question",
+            "name": f.q,
+            "acceptedAnswer": { "@type": "Answer", "text": f.a },
+          })),
+        ],
       },
     ],
   };
@@ -170,8 +186,8 @@ export default function MagneticParticleTesting() {
       <Navigation />
 
       <SEOHead
-        title="Magnetic Particle Testing (MT/MPI) | Surface Defect Detection | ASME V Art 7 | Atlantis NDT"
-        description="Complete guide to magnetic particle testing (MT/MPI): wet fluorescent, dry powder, yoke and prod methods. ASME V Article 7, API 650, AWS D1.1. Level I-III MT training and Level III consulting."
+        title="Magnetic Particle Testing (MT): Wet vs Dry, Yoke vs Prod — Complete Guide [2026]"
+        description="Master magnetic particle inspection: wet fluorescent vs dry powder, yoke vs prod vs coil techniques, demagnetization. ASME V Article 7, AWS D1.1 acceptance criteria. Step-by-step procedure with photos. Free checklist download."
         keywords="magnetic particle testing, MT NDT, magnetic particle inspection, MPI testing, wet fluorescent magnetic particle, ASME Section V Article 7, API 650 tank inspection, MT certification, ferromagnetic material testing, surface crack detection, near-surface defect, yoke method MT, prod method MT, MT Level II, MT Level III"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/magnetic-particle-testing"

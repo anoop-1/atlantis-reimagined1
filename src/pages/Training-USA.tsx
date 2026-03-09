@@ -78,8 +78,8 @@ export default function TrainingUSA() {
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Training USA | ASNT Level I, II, III Certification Courses"
-        description="Professional ASNT SNT-TC-1A NDT training in USA. Level I & II training with certification, Level III training only. Phased array (PAUT), TOFD, ultrasonic, radiographic testing courses. NAS410 compliant programs nationwide."
+        title="NDT Training USA: ASNT Level I, II, III Courses — 95% Pass Rate [2026]"
+        description="Professional ASNT NDT certification across the USA. Level I-III in UT, RT, MT, PT, ET, VT. Phased array & TOFD courses. NAS-410 aerospace. Same-week scheduling. Houston center + nationwide. Enrol now — next batch starting soon."
         keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
         canonical="https://atlantisndt.com/training-usa"
         structuredData={courseSchema}
