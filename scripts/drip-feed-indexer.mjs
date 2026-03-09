@@ -61,7 +61,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function main() {
   const allUrls = readFileSync(QUEUE_FILE, 'utf-8').trim().split('\n')
-    .filter(u => u.startsWith('https://atlantisndt.com/'));
+    .filter(u => u.startsWith('https://'));
   
   const remaining = allUrls.filter(u => !progress.submitted.includes(u));
   

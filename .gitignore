@@ -31,3 +31,4 @@ dist-ssr
 scripts/gsc-service-account.json
 scripts/.env.gsc
 scripts/indexing-progress.json
+.credentials/

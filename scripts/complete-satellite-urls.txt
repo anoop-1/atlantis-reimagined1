@@ -1,155 +1,14 @@
-# ALL URLs for Google Indexing API — Master Queue
+# Complete Satellite Site URL Index — All 35 Sites
 # Generated: 2026-03-09
-# Priority 1: 132 atlantisndt.com method+location pages
-# Priority 2: 127 ndtconnect.com pages (in scheduled task)
-# Priority 3: 334 satellite site pages (ALL subpages)
-# TOTAL: 593 URLs (excluding ndtconnect.com which is in the task)
+# For Google Indexing API submission via daily-gsc-indexing task
 
-# ==========================================
-# PRIORITY 1: atlantisndt.com (132 URLs)
-# ==========================================
-
-https://atlantisndt.com/ultrasonic-testing-perth
-https://atlantisndt.com/radiographic-testing-perth
-https://atlantisndt.com/magnetic-particle-testing-perth
-https://atlantisndt.com/penetrant-testing-perth
-https://atlantisndt.com/eddy-current-testing-perth
-https://atlantisndt.com/visual-testing-perth
-https://atlantisndt.com/ultrasonic-testing-melbourne
-https://atlantisndt.com/radiographic-testing-melbourne
-https://atlantisndt.com/magnetic-particle-testing-melbourne
-https://atlantisndt.com/penetrant-testing-melbourne
-https://atlantisndt.com/eddy-current-testing-melbourne
-https://atlantisndt.com/visual-testing-melbourne
-https://atlantisndt.com/ultrasonic-testing-sydney
-https://atlantisndt.com/radiographic-testing-sydney
-https://atlantisndt.com/magnetic-particle-testing-sydney
-https://atlantisndt.com/penetrant-testing-sydney
-https://atlantisndt.com/eddy-current-testing-sydney
-https://atlantisndt.com/visual-testing-sydney
-https://atlantisndt.com/ultrasonic-testing-brisbane
-https://atlantisndt.com/radiographic-testing-brisbane
-https://atlantisndt.com/magnetic-particle-testing-brisbane
-https://atlantisndt.com/penetrant-testing-brisbane
-https://atlantisndt.com/eddy-current-testing-brisbane
-https://atlantisndt.com/visual-testing-brisbane
-https://atlantisndt.com/ultrasonic-testing-toronto
-https://atlantisndt.com/radiographic-testing-toronto
-https://atlantisndt.com/magnetic-particle-testing-toronto
-https://atlantisndt.com/penetrant-testing-toronto
-https://atlantisndt.com/eddy-current-testing-toronto
-https://atlantisndt.com/visual-testing-toronto
-https://atlantisndt.com/ultrasonic-testing-edmonton
-https://atlantisndt.com/radiographic-testing-edmonton
-https://atlantisndt.com/magnetic-particle-testing-edmonton
-https://atlantisndt.com/penetrant-testing-edmonton
-https://atlantisndt.com/eddy-current-testing-edmonton
-https://atlantisndt.com/visual-testing-edmonton
-https://atlantisndt.com/ultrasonic-testing-vancouver
-https://atlantisndt.com/radiographic-testing-vancouver
-https://atlantisndt.com/magnetic-particle-testing-vancouver
-https://atlantisndt.com/penetrant-testing-vancouver
-https://atlantisndt.com/eddy-current-testing-vancouver
-https://atlantisndt.com/visual-testing-vancouver
-https://atlantisndt.com/ultrasonic-testing-london
-https://atlantisndt.com/radiographic-testing-london
-https://atlantisndt.com/magnetic-particle-testing-london
-https://atlantisndt.com/penetrant-testing-london
-https://atlantisndt.com/eddy-current-testing-london
-https://atlantisndt.com/visual-testing-london
-https://atlantisndt.com/ultrasonic-testing-bahrain
-https://atlantisndt.com/radiographic-testing-bahrain
-https://atlantisndt.com/magnetic-particle-testing-bahrain
-https://atlantisndt.com/penetrant-testing-bahrain
-https://atlantisndt.com/eddy-current-testing-bahrain
-https://atlantisndt.com/visual-testing-bahrain
-https://atlantisndt.com/ultrasonic-testing-oman
-https://atlantisndt.com/radiographic-testing-oman
-https://atlantisndt.com/magnetic-particle-testing-oman
-https://atlantisndt.com/penetrant-testing-oman
-https://atlantisndt.com/eddy-current-testing-oman
-https://atlantisndt.com/visual-testing-oman
-https://atlantisndt.com/ultrasonic-testing-dammam
-https://atlantisndt.com/radiographic-testing-dammam
-https://atlantisndt.com/magnetic-particle-testing-dammam
-https://atlantisndt.com/penetrant-testing-dammam
-https://atlantisndt.com/eddy-current-testing-dammam
-https://atlantisndt.com/visual-testing-dammam
-https://atlantisndt.com/ultrasonic-testing-jubail
-https://atlantisndt.com/radiographic-testing-jubail
-https://atlantisndt.com/magnetic-particle-testing-jubail
-https://atlantisndt.com/penetrant-testing-jubail
-https://atlantisndt.com/eddy-current-testing-jubail
-https://atlantisndt.com/visual-testing-jubail
-https://atlantisndt.com/ultrasonic-testing-yanbu
-https://atlantisndt.com/radiographic-testing-yanbu
-https://atlantisndt.com/magnetic-particle-testing-yanbu
-https://atlantisndt.com/penetrant-testing-yanbu
-https://atlantisndt.com/eddy-current-testing-yanbu
-https://atlantisndt.com/visual-testing-yanbu
-https://atlantisndt.com/ultrasonic-testing-lagos
-https://atlantisndt.com/radiographic-testing-lagos
-https://atlantisndt.com/magnetic-particle-testing-lagos
-https://atlantisndt.com/penetrant-testing-lagos
-https://atlantisndt.com/eddy-current-testing-lagos
-https://atlantisndt.com/visual-testing-lagos
-https://atlantisndt.com/ultrasonic-testing-johannesburg
-https://atlantisndt.com/radiographic-testing-johannesburg
-https://atlantisndt.com/magnetic-particle-testing-johannesburg
-https://atlantisndt.com/penetrant-testing-johannesburg
-https://atlantisndt.com/eddy-current-testing-johannesburg
-https://atlantisndt.com/visual-testing-johannesburg
-https://atlantisndt.com/ultrasonic-testing-brazil
-https://atlantisndt.com/radiographic-testing-brazil
-https://atlantisndt.com/magnetic-particle-testing-brazil
-https://atlantisndt.com/penetrant-testing-brazil
-https://atlantisndt.com/eddy-current-testing-brazil
-https://atlantisndt.com/visual-testing-brazil
-https://atlantisndt.com/ultrasonic-testing-colombia
-https://atlantisndt.com/radiographic-testing-colombia
-https://atlantisndt.com/magnetic-particle-testing-colombia
-https://atlantisndt.com/penetrant-testing-colombia
-https://atlantisndt.com/eddy-current-testing-colombia
-https://atlantisndt.com/visual-testing-colombia
-https://atlantisndt.com/ultrasonic-testing-mexico-city
-https://atlantisndt.com/radiographic-testing-mexico-city
-https://atlantisndt.com/magnetic-particle-testing-mexico-city
-https://atlantisndt.com/penetrant-testing-mexico-city
-https://atlantisndt.com/eddy-current-testing-mexico-city
-https://atlantisndt.com/visual-testing-mexico-city
-https://atlantisndt.com/ultrasonic-testing-japan
-https://atlantisndt.com/radiographic-testing-japan
-https://atlantisndt.com/magnetic-particle-testing-japan
-https://atlantisndt.com/penetrant-testing-japan
-https://atlantisndt.com/eddy-current-testing-japan
-https://atlantisndt.com/visual-testing-japan
-https://atlantisndt.com/ultrasonic-testing-south-korea
-https://atlantisndt.com/radiographic-testing-south-korea
-https://atlantisndt.com/magnetic-particle-testing-south-korea
-https://atlantisndt.com/penetrant-testing-south-korea
-https://atlantisndt.com/eddy-current-testing-south-korea
-https://atlantisndt.com/visual-testing-south-korea
-https://atlantisndt.com/ultrasonic-testing-malaysia
-https://atlantisndt.com/radiographic-testing-malaysia
-https://atlantisndt.com/magnetic-particle-testing-malaysia
-https://atlantisndt.com/penetrant-testing-malaysia
-https://atlantisndt.com/eddy-current-testing-malaysia
-https://atlantisndt.com/visual-testing-malaysia
-https://atlantisndt.com/ultrasonic-testing-indonesia
-https://atlantisndt.com/radiographic-testing-indonesia
-https://atlantisndt.com/magnetic-particle-testing-indonesia
-https://atlantisndt.com/penetrant-testing-indonesia
-https://atlantisndt.com/eddy-current-testing-indonesia
-https://atlantisndt.com/visual-testing-indonesia
-
-# ==========================================
-# PRIORITY 3: 334 Satellite Site URLs
-# ==========================================
-
+# --- advanced-ndt-techniques ---
 https://advanced-ndt-techniques.vercel.app/automation
 https://advanced-ndt-techniques.vercel.app/
 https://advanced-ndt-techniques.vercel.app/phased-array
 https://advanced-ndt-techniques.vercel.app/software
+
+# --- aerospace-ndt-standards ---
 https://aerospace-ndt-standards.vercel.app/applications/composite-inspection
 https://aerospace-ndt-standards.vercel.app/applications/engine-overhaul
 https://aerospace-ndt-standards.vercel.app/applications/fuselage-fatigue
@@ -168,8 +27,12 @@ https://aerospace-ndt-standards.vercel.app/
 https://aerospace-ndt-standards.vercel.app/standards/nadcap
 https://aerospace-ndt-standards.vercel.app/standards/nas-410
 https://aerospace-ndt-standards.vercel.app/standards
+
+# --- api-certification-guide ---
 https://api-certification-guide.vercel.app/api-510
 https://api-certification-guide.vercel.app/
+
+# --- asset-integrity-hub ---
 https://asset-integrity-hub.vercel.app/blog/digital-twin-roi-calculator
 https://asset-integrity-hub.vercel.app/blog/erp-vs-spreadsheets-ndt
 https://asset-integrity-hub.vercel.app/blog
@@ -182,13 +45,19 @@ https://asset-integrity-hub.vercel.app/ndt-software/ndtconnect-review
 https://asset-integrity-hub.vercel.app/ndt-software
 https://asset-integrity-hub.vercel.app/ndt-software/reporting-tools
 https://asset-integrity-hub.vercel.app/
+
+# --- coating-inspection-guide ---
 https://coating-inspection-guide.vercel.app/defects
 https://coating-inspection-guide.vercel.app/methods
 https://coating-inspection-guide.vercel.app/
 https://coating-inspection-guide.vercel.app/standards
+
+# --- composite-testing-hub ---
 https://composite-testing-hub.vercel.app/defects
 https://composite-testing-hub.vercel.app/methods
 https://composite-testing-hub.vercel.app/
+
+# --- construction-ndt-guide ---
 https://construction-ndt-guide.vercel.app/applications/dams
 https://construction-ndt-guide.vercel.app/applications/high-rise
 https://construction-ndt-guide.vercel.app/applications
@@ -205,6 +74,8 @@ https://construction-ndt-guide.vercel.app/structural/concrete
 https://construction-ndt-guide.vercel.app/structural
 https://construction-ndt-guide.vercel.app/structural/rebar
 https://construction-ndt-guide.vercel.app/structural/steel-structures
+
+# --- corrosion-management-ndt ---
 https://corrosion-management-ndt.vercel.app/industry
 https://corrosion-management-ndt.vercel.app/industry/pipeline
 https://corrosion-management-ndt.vercel.app/industry/refinery
@@ -225,8 +96,12 @@ https://corrosion-management-ndt.vercel.app/types/mic
 https://corrosion-management-ndt.vercel.app/types
 https://corrosion-management-ndt.vercel.app/types/pitting
 https://corrosion-management-ndt.vercel.app/types/scc
+
+# --- heat-exchanger-ndt ---
 https://heat-exchanger-ndt.vercel.app/
 https://heat-exchanger-ndt.vercel.app/tube-inspection
+
+# --- industrial-inspection-resources ---
 https://industrial-inspection-resources.vercel.app/case-studies
 https://industrial-inspection-resources.vercel.app/industries/aerospace-inspection
 https://industrial-inspection-resources.vercel.app/industries/oil-gas-inspection
@@ -240,10 +115,14 @@ https://industrial-inspection-resources.vercel.app/technology/digital-twins-asse
 https://industrial-inspection-resources.vercel.app/technology/erp-for-inspection-companies
 https://industrial-inspection-resources.vercel.app/technology/ndt-reporting-software
 https://industrial-inspection-resources.vercel.app/technology
+
+# --- lng-inspection-hub ---
 https://lng-inspection-hub.vercel.app/equipment
 https://lng-inspection-hub.vercel.app/
 https://lng-inspection-hub.vercel.app/safety
 https://lng-inspection-hub.vercel.app/terminals
+
+# --- manufacturing-ndt-quality ---
 https://manufacturing-ndt-quality.vercel.app/automation/ai-defect-detection
 https://manufacturing-ndt-quality.vercel.app/automation/inline-testing
 https://manufacturing-ndt-quality.vercel.app/automation
@@ -261,6 +140,8 @@ https://manufacturing-ndt-quality.vercel.app/processes/casting-inspection
 https://manufacturing-ndt-quality.vercel.app/processes/forging-ndt
 https://manufacturing-ndt-quality.vercel.app/processes
 https://manufacturing-ndt-quality.vercel.app/standards
+
+# --- marine-offshore-ndt ---
 https://marine-offshore-ndt.vercel.app/career/offshore-salary
 https://marine-offshore-ndt.vercel.app/career
 https://marine-offshore-ndt.vercel.app/components/ballast-tank
@@ -281,6 +162,8 @@ https://marine-offshore-ndt.vercel.app/vessels/container-ship
 https://marine-offshore-ndt.vercel.app/vessels/lng-carrier
 https://marine-offshore-ndt.vercel.app/vessels
 https://marine-offshore-ndt.vercel.app/vessels/tanker-hull
+
+# --- middle-east-ndt-resource ---
 https://middle-east-ndt-resource.vercel.app/career
 https://middle-east-ndt-resource.vercel.app/career/salary-guide
 https://middle-east-ndt-resource.vercel.app/career/work-visa
@@ -302,13 +185,19 @@ https://middle-east-ndt-resource.vercel.app/industry/adnoc
 https://middle-east-ndt-resource.vercel.app/industry/aramco
 https://middle-east-ndt-resource.vercel.app/industry
 https://middle-east-ndt-resource.vercel.app/
+
+# --- mining-ndt-hub ---
 https://mining-ndt-hub.vercel.app/equipment
 https://mining-ndt-hub.vercel.app/
 https://mining-ndt-hub.vercel.app/safety
+
+# --- ndt-automation-future ---
 https://ndt-automation-future.vercel.app/implementation
 https://ndt-automation-future.vercel.app/
 https://ndt-automation-future.vercel.app/technologies
 https://ndt-automation-future.vercel.app/trends
+
+# --- ndt-careers-portal ---
 https://ndt-careers-portal.vercel.app/careers/level-iii-consultant
 https://ndt-careers-portal.vercel.app/careers/ndt-inspector
 https://ndt-careers-portal.vercel.app/careers
@@ -322,8 +211,12 @@ https://ndt-careers-portal.vercel.app/resources
 https://ndt-careers-portal.vercel.app/salary/by-location
 https://ndt-careers-portal.vercel.app/salary/by-method
 https://ndt-careers-portal.vercel.app/salary
+
+# --- ndt-equipment-reviews ---
 https://ndt-equipment-reviews.vercel.app/
 https://ndt-equipment-reviews.vercel.app/ultrasonic
+
+# --- ndt-knowledge-hub ---
 https://ndt-knowledge-hub.vercel.app/certifications/api-510
 https://ndt-knowledge-hub.vercel.app/certifications/api-570
 https://ndt-knowledge-hub.vercel.app/certifications/api-653
@@ -345,9 +238,13 @@ https://ndt-knowledge-hub.vercel.app/resources
 https://ndt-knowledge-hub.vercel.app/software-reviews/digital-twin-technology
 https://ndt-knowledge-hub.vercel.app/software-reviews/ndt-erp-systems
 https://ndt-knowledge-hub.vercel.app/software-reviews
+
+# --- ndt-safety-compliance ---
 https://ndt-safety-compliance.vercel.app/certifications
 https://ndt-safety-compliance.vercel.app/
 https://ndt-safety-compliance.vercel.app/regulations
+
+# --- ndt-software-solutions ---
 https://ndt-software-solutions.vercel.app/buyer-guide/implementation
 https://ndt-software-solutions.vercel.app/buyer-guide
 https://ndt-software-solutions.vercel.app/buyer-guide/roi-calculator
@@ -366,10 +263,14 @@ https://ndt-software-solutions.vercel.app/industry
 https://ndt-software-solutions.vercel.app/
 https://ndt-software-solutions.vercel.app/resources
 https://ndt-software-solutions.vercel.app/resources/paper-to-digital
+
+# --- ndt-standards-library ---
 https://ndt-standards-library.vercel.app/api
 https://ndt-standards-library.vercel.app/asme
 https://ndt-standards-library.vercel.app/international
 https://ndt-standards-library.vercel.app/
+
+# --- ndt-training-academy ---
 https://ndt-training-academy.vercel.app/career
 https://ndt-training-academy.vercel.app/certifications/api-exam-prep
 https://ndt-training-academy.vercel.app/certifications/asnt-study-guide
@@ -383,10 +284,14 @@ https://ndt-training-academy.vercel.app/training/mt-pt-training
 https://ndt-training-academy.vercel.app/training
 https://ndt-training-academy.vercel.app/training/rt-training
 https://ndt-training-academy.vercel.app/training/ut-training
+
+# --- nuclear-ndt-resource ---
 https://nuclear-ndt-resource.vercel.app/
 https://nuclear-ndt-resource.vercel.app/reactor-systems
 https://nuclear-ndt-resource.vercel.app/regulatory
 https://nuclear-ndt-resource.vercel.app/techniques
+
+# --- oil-gas-inspection-guide ---
 https://oil-gas-inspection-guide.vercel.app/api-codes/api-510-pressure-vessels
 https://oil-gas-inspection-guide.vercel.app/api-codes/api-570-piping
 https://oil-gas-inspection-guide.vercel.app/api-codes/api-571-damage-mechanisms
@@ -413,14 +318,20 @@ https://oil-gas-inspection-guide.vercel.app/upstream/fpso-inspection
 https://oil-gas-inspection-guide.vercel.app/upstream/offshore-platform-ndt
 https://oil-gas-inspection-guide.vercel.app/upstream
 https://oil-gas-inspection-guide.vercel.app/upstream/subsea-pipeline
+
+# --- petrochemical-ndt-hub ---
 https://petrochemical-ndt-hub.vercel.app/equipment
 https://petrochemical-ndt-hub.vercel.app/
 https://petrochemical-ndt-hub.vercel.app/processes
 https://petrochemical-ndt-hub.vercel.app/safety
+
+# --- pipeline-integrity-guide ---
 https://pipeline-integrity-guide.vercel.app/case-studies
 https://pipeline-integrity-guide.vercel.app/methods
 https://pipeline-integrity-guide.vercel.app/
 https://pipeline-integrity-guide.vercel.app/standards
+
+# --- power-generation-ndt ---
 https://power-generation-ndt.vercel.app/career/salary-guide
 https://power-generation-ndt.vercel.app/components/boiler-tubes
 https://power-generation-ndt.vercel.app/components/condenser-tubes
@@ -437,29 +348,43 @@ https://power-generation-ndt.vercel.app/standards
 https://power-generation-ndt.vercel.app/technology/digital-twins-power
 https://power-generation-ndt.vercel.app/technology
 https://power-generation-ndt.vercel.app/technology/rbi-power-plants
+
+# --- pressure-vessel-ndt ---
 https://pressure-vessel-ndt.vercel.app/design
 https://pressure-vessel-ndt.vercel.app/fabrication
 https://pressure-vessel-ndt.vercel.app/operation
 https://pressure-vessel-ndt.vercel.app/
+
+# --- rail-ndt-resource ---
 https://rail-ndt-resource.vercel.app/methods
 https://rail-ndt-resource.vercel.app/
 https://rail-ndt-resource.vercel.app/track-assessment
 https://rail-ndt-resource.vercel.app/wheel-inspection
+
+# --- renewable-energy-ndt ---
 https://renewable-energy-ndt.vercel.app/geothermal
 https://renewable-energy-ndt.vercel.app/
 https://renewable-energy-ndt.vercel.app/solar
 https://renewable-energy-ndt.vercel.app/wind
+
+# --- subsea-inspection-guide ---
 https://subsea-inspection-guide.vercel.app/certification
 https://subsea-inspection-guide.vercel.app/deepwater
 https://subsea-inspection-guide.vercel.app/materials
 https://subsea-inspection-guide.vercel.app/
+
+# --- tank-inspection-resource ---
 https://tank-inspection-resource.vercel.app/above-ground
 https://tank-inspection-resource.vercel.app/maintenance
 https://tank-inspection-resource.vercel.app/
 https://tank-inspection-resource.vercel.app/underground
+
+# --- weld-quality-resource ---
 https://weld-quality-resource.vercel.app/defects
 https://weld-quality-resource.vercel.app/methods
 https://weld-quality-resource.vercel.app/
+
+# --- welding-inspection-hub ---
 https://welding-inspection-hub.vercel.app/career/cwi
 https://welding-inspection-hub.vercel.app/career
 https://welding-inspection-hub.vercel.app/career/salary
@@ -481,6 +406,5 @@ https://welding-inspection-hub.vercel.app/standards/asme-ix
 https://welding-inspection-hub.vercel.app/standards/aws-d1-1
 https://welding-inspection-hub.vercel.app/standards
 
-# TOTAL atlantisndt.com: 132
-# TOTAL satellite: 334
-# GRAND TOTAL: 466
+
+# TOTAL URLs: 334
