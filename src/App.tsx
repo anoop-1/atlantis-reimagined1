@@ -388,6 +388,217 @@ const NDTErpNewOrleans = lazy(() => import("./pages/ndt-erp-new-orleans"));
 const NDTErpDenver = lazy(() => import("./pages/ndt-erp-denver"));
 const NDTErpAberdeen = lazy(() => import("./pages/ndt-erp-aberdeen"));
 const NDTErpOslo = lazy(() => import("./pages/ndt-erp-oslo"));
+// PART A: 120 US Method+Location Pages (20 cities × 6 methods)
+const UltrasonicTestingNewYork = lazy(() => import("./pages/ultrasonic-testing-new-york"));
+const RadiographicTestingNewYork = lazy(() => import("./pages/radiographic-testing-new-york"));
+const MagneticParticleTestingNewYork = lazy(() => import("./pages/magnetic-particle-testing-new-york"));
+const PenetrantTestingNewYork = lazy(() => import("./pages/penetrant-testing-new-york"));
+const EddyCurrentTestingNewYork = lazy(() => import("./pages/eddy-current-testing-new-york"));
+const VisualTestingNewYork = lazy(() => import("./pages/visual-testing-new-york"));
+const UltrasonicTestingBoston = lazy(() => import("./pages/ultrasonic-testing-boston"));
+const RadiographicTestingBoston = lazy(() => import("./pages/radiographic-testing-boston"));
+const MagneticParticleTestingBoston = lazy(() => import("./pages/magnetic-particle-testing-boston"));
+const PenetrantTestingBoston = lazy(() => import("./pages/penetrant-testing-boston"));
+const EddyCurrentTestingBoston = lazy(() => import("./pages/eddy-current-testing-boston"));
+const VisualTestingBoston = lazy(() => import("./pages/visual-testing-boston"));
+const UltrasonicTestingAtlanta = lazy(() => import("./pages/ultrasonic-testing-atlanta"));
+const RadiographicTestingAtlanta = lazy(() => import("./pages/radiographic-testing-atlanta"));
+const MagneticParticleTestingAtlanta = lazy(() => import("./pages/magnetic-particle-testing-atlanta"));
+const PenetrantTestingAtlanta = lazy(() => import("./pages/penetrant-testing-atlanta"));
+const EddyCurrentTestingAtlanta = lazy(() => import("./pages/eddy-current-testing-atlanta"));
+const VisualTestingAtlanta = lazy(() => import("./pages/visual-testing-atlanta"));
+const UltrasonicTestingMiami = lazy(() => import("./pages/ultrasonic-testing-miami"));
+const RadiographicTestingMiami = lazy(() => import("./pages/radiographic-testing-miami"));
+const MagneticParticleTestingMiami = lazy(() => import("./pages/magnetic-particle-testing-miami"));
+const PenetrantTestingMiami = lazy(() => import("./pages/penetrant-testing-miami"));
+const EddyCurrentTestingMiami = lazy(() => import("./pages/eddy-current-testing-miami"));
+const VisualTestingMiami = lazy(() => import("./pages/visual-testing-miami"));
+const UltrasonicTestingWashingtonDc = lazy(() => import("./pages/ultrasonic-testing-washington-dc"));
+const RadiographicTestingWashingtonDc = lazy(() => import("./pages/radiographic-testing-washington-dc"));
+const MagneticParticleTestingWashingtonDc = lazy(() => import("./pages/magnetic-particle-testing-washington-dc"));
+const PenetrantTestingWashingtonDc = lazy(() => import("./pages/penetrant-testing-washington-dc"));
+const EddyCurrentTestingWashingtonDc = lazy(() => import("./pages/eddy-current-testing-washington-dc"));
+const VisualTestingWashingtonDc = lazy(() => import("./pages/visual-testing-washington-dc"));
+const UltrasonicTestingNashville = lazy(() => import("./pages/ultrasonic-testing-nashville"));
+const RadiographicTestingNashville = lazy(() => import("./pages/radiographic-testing-nashville"));
+const MagneticParticleTestingNashville = lazy(() => import("./pages/magnetic-particle-testing-nashville"));
+const PenetrantTestingNashville = lazy(() => import("./pages/penetrant-testing-nashville"));
+const EddyCurrentTestingNashville = lazy(() => import("./pages/eddy-current-testing-nashville"));
+const VisualTestingNashville = lazy(() => import("./pages/visual-testing-nashville"));
+const UltrasonicTestingMinneapolis = lazy(() => import("./pages/ultrasonic-testing-minneapolis"));
+const RadiographicTestingMinneapolis = lazy(() => import("./pages/radiographic-testing-minneapolis"));
+const MagneticParticleTestingMinneapolis = lazy(() => import("./pages/magnetic-particle-testing-minneapolis"));
+const PenetrantTestingMinneapolis = lazy(() => import("./pages/penetrant-testing-minneapolis"));
+const EddyCurrentTestingMinneapolis = lazy(() => import("./pages/eddy-current-testing-minneapolis"));
+const VisualTestingMinneapolis = lazy(() => import("./pages/visual-testing-minneapolis"));
+const UltrasonicTestingCleveland = lazy(() => import("./pages/ultrasonic-testing-cleveland"));
+const RadiographicTestingCleveland = lazy(() => import("./pages/radiographic-testing-cleveland"));
+const MagneticParticleTestingCleveland = lazy(() => import("./pages/magnetic-particle-testing-cleveland"));
+const PenetrantTestingCleveland = lazy(() => import("./pages/penetrant-testing-cleveland"));
+const EddyCurrentTestingCleveland = lazy(() => import("./pages/eddy-current-testing-cleveland"));
+const VisualTestingCleveland = lazy(() => import("./pages/visual-testing-cleveland"));
+const UltrasonicTestingBaltimore = lazy(() => import("./pages/ultrasonic-testing-baltimore"));
+const RadiographicTestingBaltimore = lazy(() => import("./pages/radiographic-testing-baltimore"));
+const MagneticParticleTestingBaltimore = lazy(() => import("./pages/magnetic-particle-testing-baltimore"));
+const PenetrantTestingBaltimore = lazy(() => import("./pages/penetrant-testing-baltimore"));
+const EddyCurrentTestingBaltimore = lazy(() => import("./pages/eddy-current-testing-baltimore"));
+const VisualTestingBaltimore = lazy(() => import("./pages/visual-testing-baltimore"));
+const UltrasonicTestingTampa = lazy(() => import("./pages/ultrasonic-testing-tampa"));
+const RadiographicTestingTampa = lazy(() => import("./pages/radiographic-testing-tampa"));
+const MagneticParticleTestingTampa = lazy(() => import("./pages/magnetic-particle-testing-tampa"));
+const PenetrantTestingTampa = lazy(() => import("./pages/penetrant-testing-tampa"));
+const EddyCurrentTestingTampa = lazy(() => import("./pages/eddy-current-testing-tampa"));
+const VisualTestingTampa = lazy(() => import("./pages/visual-testing-tampa"));
+const UltrasonicTestingCharlotte = lazy(() => import("./pages/ultrasonic-testing-charlotte"));
+const RadiographicTestingCharlotte = lazy(() => import("./pages/radiographic-testing-charlotte"));
+const MagneticParticleTestingCharlotte = lazy(() => import("./pages/magnetic-particle-testing-charlotte"));
+const PenetrantTestingCharlotte = lazy(() => import("./pages/penetrant-testing-charlotte"));
+const EddyCurrentTestingCharlotte = lazy(() => import("./pages/eddy-current-testing-charlotte"));
+const VisualTestingCharlotte = lazy(() => import("./pages/visual-testing-charlotte"));
+const UltrasonicTestingIndianapolis = lazy(() => import("./pages/ultrasonic-testing-indianapolis"));
+const RadiographicTestingIndianapolis = lazy(() => import("./pages/radiographic-testing-indianapolis"));
+const MagneticParticleTestingIndianapolis = lazy(() => import("./pages/magnetic-particle-testing-indianapolis"));
+const PenetrantTestingIndianapolis = lazy(() => import("./pages/penetrant-testing-indianapolis"));
+const EddyCurrentTestingIndianapolis = lazy(() => import("./pages/eddy-current-testing-indianapolis"));
+const VisualTestingIndianapolis = lazy(() => import("./pages/visual-testing-indianapolis"));
+const UltrasonicTestingSanDiego = lazy(() => import("./pages/ultrasonic-testing-san-diego"));
+const RadiographicTestingSanDiego = lazy(() => import("./pages/radiographic-testing-san-diego"));
+const MagneticParticleTestingSanDiego = lazy(() => import("./pages/magnetic-particle-testing-san-diego"));
+const PenetrantTestingSanDiego = lazy(() => import("./pages/penetrant-testing-san-diego"));
+const EddyCurrentTestingSanDiego = lazy(() => import("./pages/eddy-current-testing-san-diego"));
+const VisualTestingSanDiego = lazy(() => import("./pages/visual-testing-san-diego"));
+const UltrasonicTestingPortland = lazy(() => import("./pages/ultrasonic-testing-portland"));
+const RadiographicTestingPortland = lazy(() => import("./pages/radiographic-testing-portland"));
+const MagneticParticleTestingPortland = lazy(() => import("./pages/magnetic-particle-testing-portland"));
+const PenetrantTestingPortland = lazy(() => import("./pages/penetrant-testing-portland"));
+const EddyCurrentTestingPortland = lazy(() => import("./pages/eddy-current-testing-portland"));
+const VisualTestingPortland = lazy(() => import("./pages/visual-testing-portland"));
+const UltrasonicTestingSaltLakeCity = lazy(() => import("./pages/ultrasonic-testing-salt-lake-city"));
+const RadiographicTestingSaltLakeCity = lazy(() => import("./pages/radiographic-testing-salt-lake-city"));
+const MagneticParticleTestingSaltLakeCity = lazy(() => import("./pages/magnetic-particle-testing-salt-lake-city"));
+const PenetrantTestingSaltLakeCity = lazy(() => import("./pages/penetrant-testing-salt-lake-city"));
+const EddyCurrentTestingSaltLakeCity = lazy(() => import("./pages/eddy-current-testing-salt-lake-city"));
+const VisualTestingSaltLakeCity = lazy(() => import("./pages/visual-testing-salt-lake-city"));
+const UltrasonicTestingKansasCity = lazy(() => import("./pages/ultrasonic-testing-kansas-city"));
+const RadiographicTestingKansasCity = lazy(() => import("./pages/radiographic-testing-kansas-city"));
+const MagneticParticleTestingKansasCity = lazy(() => import("./pages/magnetic-particle-testing-kansas-city"));
+const PenetrantTestingKansasCity = lazy(() => import("./pages/penetrant-testing-kansas-city"));
+const EddyCurrentTestingKansasCity = lazy(() => import("./pages/eddy-current-testing-kansas-city"));
+const VisualTestingKansasCity = lazy(() => import("./pages/visual-testing-kansas-city"));
+const UltrasonicTestingStLouis = lazy(() => import("./pages/ultrasonic-testing-st-louis"));
+const RadiographicTestingStLouis = lazy(() => import("./pages/radiographic-testing-st-louis"));
+const MagneticParticleTestingStLouis = lazy(() => import("./pages/magnetic-particle-testing-st-louis"));
+const PenetrantTestingStLouis = lazy(() => import("./pages/penetrant-testing-st-louis"));
+const EddyCurrentTestingStLouis = lazy(() => import("./pages/eddy-current-testing-st-louis"));
+const VisualTestingStLouis = lazy(() => import("./pages/visual-testing-st-louis"));
+const UltrasonicTestingMilwaukee = lazy(() => import("./pages/ultrasonic-testing-milwaukee"));
+const RadiographicTestingMilwaukee = lazy(() => import("./pages/radiographic-testing-milwaukee"));
+const MagneticParticleTestingMilwaukee = lazy(() => import("./pages/magnetic-particle-testing-milwaukee"));
+const PenetrantTestingMilwaukee = lazy(() => import("./pages/penetrant-testing-milwaukee"));
+const EddyCurrentTestingMilwaukee = lazy(() => import("./pages/eddy-current-testing-milwaukee"));
+const VisualTestingMilwaukee = lazy(() => import("./pages/visual-testing-milwaukee"));
+const UltrasonicTestingCincinnati = lazy(() => import("./pages/ultrasonic-testing-cincinnati"));
+const RadiographicTestingCincinnati = lazy(() => import("./pages/radiographic-testing-cincinnati"));
+const MagneticParticleTestingCincinnati = lazy(() => import("./pages/magnetic-particle-testing-cincinnati"));
+const PenetrantTestingCincinnati = lazy(() => import("./pages/penetrant-testing-cincinnati"));
+const EddyCurrentTestingCincinnati = lazy(() => import("./pages/eddy-current-testing-cincinnati"));
+const VisualTestingCincinnati = lazy(() => import("./pages/visual-testing-cincinnati"));
+const UltrasonicTestingJacksonville = lazy(() => import("./pages/ultrasonic-testing-jacksonville"));
+const RadiographicTestingJacksonville = lazy(() => import("./pages/radiographic-testing-jacksonville"));
+const MagneticParticleTestingJacksonville = lazy(() => import("./pages/magnetic-particle-testing-jacksonville"));
+const PenetrantTestingJacksonville = lazy(() => import("./pages/penetrant-testing-jacksonville"));
+const EddyCurrentTestingJacksonville = lazy(() => import("./pages/eddy-current-testing-jacksonville"));
+const VisualTestingJacksonville = lazy(() => import("./pages/visual-testing-jacksonville"));
+// PART B: 60 EU Method+Location Pages (10 cities × 6 methods)
+const UltrasonicTestingAberdeen = lazy(() => import("./pages/ultrasonic-testing-aberdeen"));
+const RadiographicTestingAberdeen = lazy(() => import("./pages/radiographic-testing-aberdeen"));
+const MagneticParticleTestingAberdeen = lazy(() => import("./pages/magnetic-particle-testing-aberdeen"));
+const PenetrantTestingAberdeen = lazy(() => import("./pages/penetrant-testing-aberdeen"));
+const EddyCurrentTestingAberdeen = lazy(() => import("./pages/eddy-current-testing-aberdeen"));
+const VisualTestingAberdeen = lazy(() => import("./pages/visual-testing-aberdeen"));
+const UltrasonicTestingHamburg = lazy(() => import("./pages/ultrasonic-testing-hamburg"));
+const RadiographicTestingHamburg = lazy(() => import("./pages/radiographic-testing-hamburg"));
+const MagneticParticleTestingHamburg = lazy(() => import("./pages/magnetic-particle-testing-hamburg"));
+const PenetrantTestingHamburg = lazy(() => import("./pages/penetrant-testing-hamburg"));
+const EddyCurrentTestingHamburg = lazy(() => import("./pages/eddy-current-testing-hamburg"));
+const VisualTestingHamburg = lazy(() => import("./pages/visual-testing-hamburg"));
+const UltrasonicTestingRotterdam = lazy(() => import("./pages/ultrasonic-testing-rotterdam"));
+const RadiographicTestingRotterdam = lazy(() => import("./pages/radiographic-testing-rotterdam"));
+const MagneticParticleTestingRotterdam = lazy(() => import("./pages/magnetic-particle-testing-rotterdam"));
+const PenetrantTestingRotterdam = lazy(() => import("./pages/penetrant-testing-rotterdam"));
+const EddyCurrentTestingRotterdam = lazy(() => import("./pages/eddy-current-testing-rotterdam"));
+const VisualTestingRotterdam = lazy(() => import("./pages/visual-testing-rotterdam"));
+const UltrasonicTestingStavanger = lazy(() => import("./pages/ultrasonic-testing-stavanger"));
+const RadiographicTestingStavanger = lazy(() => import("./pages/radiographic-testing-stavanger"));
+const MagneticParticleTestingStavanger = lazy(() => import("./pages/magnetic-particle-testing-stavanger"));
+const PenetrantTestingStavanger = lazy(() => import("./pages/penetrant-testing-stavanger"));
+const EddyCurrentTestingStavanger = lazy(() => import("./pages/eddy-current-testing-stavanger"));
+const VisualTestingStavanger = lazy(() => import("./pages/visual-testing-stavanger"));
+const UltrasonicTestingAntwerp = lazy(() => import("./pages/ultrasonic-testing-antwerp"));
+const RadiographicTestingAntwerp = lazy(() => import("./pages/radiographic-testing-antwerp"));
+const MagneticParticleTestingAntwerp = lazy(() => import("./pages/magnetic-particle-testing-antwerp"));
+const PenetrantTestingAntwerp = lazy(() => import("./pages/penetrant-testing-antwerp"));
+const EddyCurrentTestingAntwerp = lazy(() => import("./pages/eddy-current-testing-antwerp"));
+const VisualTestingAntwerp = lazy(() => import("./pages/visual-testing-antwerp"));
+const UltrasonicTestingMarseille = lazy(() => import("./pages/ultrasonic-testing-marseille"));
+const RadiographicTestingMarseille = lazy(() => import("./pages/radiographic-testing-marseille"));
+const MagneticParticleTestingMarseille = lazy(() => import("./pages/magnetic-particle-testing-marseille"));
+const PenetrantTestingMarseille = lazy(() => import("./pages/penetrant-testing-marseille"));
+const EddyCurrentTestingMarseille = lazy(() => import("./pages/eddy-current-testing-marseille"));
+const VisualTestingMarseille = lazy(() => import("./pages/visual-testing-marseille"));
+const UltrasonicTestingMilan = lazy(() => import("./pages/ultrasonic-testing-milan"));
+const RadiographicTestingMilan = lazy(() => import("./pages/radiographic-testing-milan"));
+const MagneticParticleTestingMilan = lazy(() => import("./pages/magnetic-particle-testing-milan"));
+const PenetrantTestingMilan = lazy(() => import("./pages/penetrant-testing-milan"));
+const EddyCurrentTestingMilan = lazy(() => import("./pages/eddy-current-testing-milan"));
+const VisualTestingMilan = lazy(() => import("./pages/visual-testing-milan"));
+const UltrasonicTestingBarcelona = lazy(() => import("./pages/ultrasonic-testing-barcelona"));
+const RadiographicTestingBarcelona = lazy(() => import("./pages/radiographic-testing-barcelona"));
+const MagneticParticleTestingBarcelona = lazy(() => import("./pages/magnetic-particle-testing-barcelona"));
+const PenetrantTestingBarcelona = lazy(() => import("./pages/penetrant-testing-barcelona"));
+const EddyCurrentTestingBarcelona = lazy(() => import("./pages/eddy-current-testing-barcelona"));
+const VisualTestingBarcelona = lazy(() => import("./pages/visual-testing-barcelona"));
+const UltrasonicTestingGdansk = lazy(() => import("./pages/ultrasonic-testing-gdansk"));
+const RadiographicTestingGdansk = lazy(() => import("./pages/radiographic-testing-gdansk"));
+const MagneticParticleTestingGdansk = lazy(() => import("./pages/magnetic-particle-testing-gdansk"));
+const PenetrantTestingGdansk = lazy(() => import("./pages/penetrant-testing-gdansk"));
+const EddyCurrentTestingGdansk = lazy(() => import("./pages/eddy-current-testing-gdansk"));
+const VisualTestingGdansk = lazy(() => import("./pages/visual-testing-gdansk"));
+const UltrasonicTestingEdinburgh = lazy(() => import("./pages/ultrasonic-testing-edinburgh"));
+const RadiographicTestingEdinburgh = lazy(() => import("./pages/radiographic-testing-edinburgh"));
+const MagneticParticleTestingEdinburgh = lazy(() => import("./pages/magnetic-particle-testing-edinburgh"));
+const PenetrantTestingEdinburgh = lazy(() => import("./pages/penetrant-testing-edinburgh"));
+const EddyCurrentTestingEdinburgh = lazy(() => import("./pages/eddy-current-testing-edinburgh"));
+const VisualTestingEdinburgh = lazy(() => import("./pages/visual-testing-edinburgh"));
+// PART C: 33 High-Value Pages
+const NdtTrainingHouston = lazy(() => import("./pages/ndt-training-houston"));
+const NdtTrainingNewYork = lazy(() => import("./pages/ndt-training-new-york"));
+const NdtTrainingLosAngeles = lazy(() => import("./pages/ndt-training-los-angeles"));
+const NdtTrainingChicago = lazy(() => import("./pages/ndt-training-chicago"));
+const NdtTrainingDenver = lazy(() => import("./pages/ndt-training-denver"));
+const NdtTrainingNewOrleans = lazy(() => import("./pages/ndt-training-new-orleans"));
+const NdtTrainingDallas = lazy(() => import("./pages/ndt-training-dallas"));
+const NdtTrainingPhiladelphia = lazy(() => import("./pages/ndt-training-philadelphia"));
+const NdtTrainingPittsburgh = lazy(() => import("./pages/ndt-training-pittsburgh"));
+const NdtTrainingAtlanta = lazy(() => import("./pages/ndt-training-atlanta"));
+const Api510Training = lazy(() => import("./pages/api-510-training"));
+const Api570Training = lazy(() => import("./pages/api-570-training"));
+const Api653Training = lazy(() => import("./pages/api-653-training"));
+const AsntLevelIiiTraining = lazy(() => import("./pages/asnt-level-iii-training"));
+const PhasedArrayTraining = lazy(() => import("./pages/phased-array-training"));
+const OilGasNdtServices = lazy(() => import("./pages/oil-gas-ndt-services"));
+const AerospaceNdtServices = lazy(() => import("./pages/aerospace-ndt-services"));
+const PowerGenerationNdtServices = lazy(() => import("./pages/power-generation-ndt-services"));
+const PetrochemicalNdtServices = lazy(() => import("./pages/petrochemical-ndt-services"));
+const PipelineInspectionServices = lazy(() => import("./pages/pipeline-inspection-services"));
+const MarineOffshoreNdtServices = lazy(() => import("./pages/marine-offshore-ndt-services"));
+const NuclearNdtServices = lazy(() => import("./pages/nuclear-ndt-services"));
+const ConstructionNdtServices = lazy(() => import("./pages/construction-ndt-services"));
+const NdtErpSoftwareComparison = lazy(() => import("./pages/ndt-erp-software-comparison"));
+const NdtReportingSoftwareComparison = lazy(() => import("./pages/ndt-reporting-software-comparison"));
+const DigitalTwinNdtSoftware = lazy(() => import("./pages/digital-twin-ndt-software"));
+const NdtSoftwareFeatures = lazy(() => import("./pages/ndt-software-features"));
+const NdtDataManagement = lazy(() => import("./pages/ndt-data-management"));
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -778,6 +989,217 @@ const App = () => (
                   <Route path="/ndt-standards-comparison" element={<LazyRoute Component={NDTStandardsComparison} />} />
                   <Route path="/ndt-equipment-guide" element={<LazyRoute Component={NDTEquipmentGuide} />} />
                   <Route path="/ndt-learning-path" element={<LazyRoute Component={NDTLearningPath} />} />
+                  {/* PART A: 120 US Method+Location Pages (20 cities × 6 methods) */}
+                  <Route path="/ultrasonic-testing-new-york" element={<LazyRoute Component={UltrasonicTestingNewYork} />} />
+                  <Route path="/radiographic-testing-new-york" element={<LazyRoute Component={RadiographicTestingNewYork} />} />
+                  <Route path="/magnetic-particle-testing-new-york" element={<LazyRoute Component={MagneticParticleTestingNewYork} />} />
+                  <Route path="/penetrant-testing-new-york" element={<LazyRoute Component={PenetrantTestingNewYork} />} />
+                  <Route path="/eddy-current-testing-new-york" element={<LazyRoute Component={EddyCurrentTestingNewYork} />} />
+                  <Route path="/visual-testing-new-york" element={<LazyRoute Component={VisualTestingNewYork} />} />
+                  <Route path="/ultrasonic-testing-boston" element={<LazyRoute Component={UltrasonicTestingBoston} />} />
+                  <Route path="/radiographic-testing-boston" element={<LazyRoute Component={RadiographicTestingBoston} />} />
+                  <Route path="/magnetic-particle-testing-boston" element={<LazyRoute Component={MagneticParticleTestingBoston} />} />
+                  <Route path="/penetrant-testing-boston" element={<LazyRoute Component={PenetrantTestingBoston} />} />
+                  <Route path="/eddy-current-testing-boston" element={<LazyRoute Component={EddyCurrentTestingBoston} />} />
+                  <Route path="/visual-testing-boston" element={<LazyRoute Component={VisualTestingBoston} />} />
+                  <Route path="/ultrasonic-testing-atlanta" element={<LazyRoute Component={UltrasonicTestingAtlanta} />} />
+                  <Route path="/radiographic-testing-atlanta" element={<LazyRoute Component={RadiographicTestingAtlanta} />} />
+                  <Route path="/magnetic-particle-testing-atlanta" element={<LazyRoute Component={MagneticParticleTestingAtlanta} />} />
+                  <Route path="/penetrant-testing-atlanta" element={<LazyRoute Component={PenetrantTestingAtlanta} />} />
+                  <Route path="/eddy-current-testing-atlanta" element={<LazyRoute Component={EddyCurrentTestingAtlanta} />} />
+                  <Route path="/visual-testing-atlanta" element={<LazyRoute Component={VisualTestingAtlanta} />} />
+                  <Route path="/ultrasonic-testing-miami" element={<LazyRoute Component={UltrasonicTestingMiami} />} />
+                  <Route path="/radiographic-testing-miami" element={<LazyRoute Component={RadiographicTestingMiami} />} />
+                  <Route path="/magnetic-particle-testing-miami" element={<LazyRoute Component={MagneticParticleTestingMiami} />} />
+                  <Route path="/penetrant-testing-miami" element={<LazyRoute Component={PenetrantTestingMiami} />} />
+                  <Route path="/eddy-current-testing-miami" element={<LazyRoute Component={EddyCurrentTestingMiami} />} />
+                  <Route path="/visual-testing-miami" element={<LazyRoute Component={VisualTestingMiami} />} />
+                  <Route path="/ultrasonic-testing-washington-dc" element={<LazyRoute Component={UltrasonicTestingWashingtonDc} />} />
+                  <Route path="/radiographic-testing-washington-dc" element={<LazyRoute Component={RadiographicTestingWashingtonDc} />} />
+                  <Route path="/magnetic-particle-testing-washington-dc" element={<LazyRoute Component={MagneticParticleTestingWashingtonDc} />} />
+                  <Route path="/penetrant-testing-washington-dc" element={<LazyRoute Component={PenetrantTestingWashingtonDc} />} />
+                  <Route path="/eddy-current-testing-washington-dc" element={<LazyRoute Component={EddyCurrentTestingWashingtonDc} />} />
+                  <Route path="/visual-testing-washington-dc" element={<LazyRoute Component={VisualTestingWashingtonDc} />} />
+                  <Route path="/ultrasonic-testing-nashville" element={<LazyRoute Component={UltrasonicTestingNashville} />} />
+                  <Route path="/radiographic-testing-nashville" element={<LazyRoute Component={RadiographicTestingNashville} />} />
+                  <Route path="/magnetic-particle-testing-nashville" element={<LazyRoute Component={MagneticParticleTestingNashville} />} />
+                  <Route path="/penetrant-testing-nashville" element={<LazyRoute Component={PenetrantTestingNashville} />} />
+                  <Route path="/eddy-current-testing-nashville" element={<LazyRoute Component={EddyCurrentTestingNashville} />} />
+                  <Route path="/visual-testing-nashville" element={<LazyRoute Component={VisualTestingNashville} />} />
+                  <Route path="/ultrasonic-testing-minneapolis" element={<LazyRoute Component={UltrasonicTestingMinneapolis} />} />
+                  <Route path="/radiographic-testing-minneapolis" element={<LazyRoute Component={RadiographicTestingMinneapolis} />} />
+                  <Route path="/magnetic-particle-testing-minneapolis" element={<LazyRoute Component={MagneticParticleTestingMinneapolis} />} />
+                  <Route path="/penetrant-testing-minneapolis" element={<LazyRoute Component={PenetrantTestingMinneapolis} />} />
+                  <Route path="/eddy-current-testing-minneapolis" element={<LazyRoute Component={EddyCurrentTestingMinneapolis} />} />
+                  <Route path="/visual-testing-minneapolis" element={<LazyRoute Component={VisualTestingMinneapolis} />} />
+                  <Route path="/ultrasonic-testing-cleveland" element={<LazyRoute Component={UltrasonicTestingCleveland} />} />
+                  <Route path="/radiographic-testing-cleveland" element={<LazyRoute Component={RadiographicTestingCleveland} />} />
+                  <Route path="/magnetic-particle-testing-cleveland" element={<LazyRoute Component={MagneticParticleTestingCleveland} />} />
+                  <Route path="/penetrant-testing-cleveland" element={<LazyRoute Component={PenetrantTestingCleveland} />} />
+                  <Route path="/eddy-current-testing-cleveland" element={<LazyRoute Component={EddyCurrentTestingCleveland} />} />
+                  <Route path="/visual-testing-cleveland" element={<LazyRoute Component={VisualTestingCleveland} />} />
+                  <Route path="/ultrasonic-testing-baltimore" element={<LazyRoute Component={UltrasonicTestingBaltimore} />} />
+                  <Route path="/radiographic-testing-baltimore" element={<LazyRoute Component={RadiographicTestingBaltimore} />} />
+                  <Route path="/magnetic-particle-testing-baltimore" element={<LazyRoute Component={MagneticParticleTestingBaltimore} />} />
+                  <Route path="/penetrant-testing-baltimore" element={<LazyRoute Component={PenetrantTestingBaltimore} />} />
+                  <Route path="/eddy-current-testing-baltimore" element={<LazyRoute Component={EddyCurrentTestingBaltimore} />} />
+                  <Route path="/visual-testing-baltimore" element={<LazyRoute Component={VisualTestingBaltimore} />} />
+                  <Route path="/ultrasonic-testing-tampa" element={<LazyRoute Component={UltrasonicTestingTampa} />} />
+                  <Route path="/radiographic-testing-tampa" element={<LazyRoute Component={RadiographicTestingTampa} />} />
+                  <Route path="/magnetic-particle-testing-tampa" element={<LazyRoute Component={MagneticParticleTestingTampa} />} />
+                  <Route path="/penetrant-testing-tampa" element={<LazyRoute Component={PenetrantTestingTampa} />} />
+                  <Route path="/eddy-current-testing-tampa" element={<LazyRoute Component={EddyCurrentTestingTampa} />} />
+                  <Route path="/visual-testing-tampa" element={<LazyRoute Component={VisualTestingTampa} />} />
+                  <Route path="/ultrasonic-testing-charlotte" element={<LazyRoute Component={UltrasonicTestingCharlotte} />} />
+                  <Route path="/radiographic-testing-charlotte" element={<LazyRoute Component={RadiographicTestingCharlotte} />} />
+                  <Route path="/magnetic-particle-testing-charlotte" element={<LazyRoute Component={MagneticParticleTestingCharlotte} />} />
+                  <Route path="/penetrant-testing-charlotte" element={<LazyRoute Component={PenetrantTestingCharlotte} />} />
+                  <Route path="/eddy-current-testing-charlotte" element={<LazyRoute Component={EddyCurrentTestingCharlotte} />} />
+                  <Route path="/visual-testing-charlotte" element={<LazyRoute Component={VisualTestingCharlotte} />} />
+                  <Route path="/ultrasonic-testing-indianapolis" element={<LazyRoute Component={UltrasonicTestingIndianapolis} />} />
+                  <Route path="/radiographic-testing-indianapolis" element={<LazyRoute Component={RadiographicTestingIndianapolis} />} />
+                  <Route path="/magnetic-particle-testing-indianapolis" element={<LazyRoute Component={MagneticParticleTestingIndianapolis} />} />
+                  <Route path="/penetrant-testing-indianapolis" element={<LazyRoute Component={PenetrantTestingIndianapolis} />} />
+                  <Route path="/eddy-current-testing-indianapolis" element={<LazyRoute Component={EddyCurrentTestingIndianapolis} />} />
+                  <Route path="/visual-testing-indianapolis" element={<LazyRoute Component={VisualTestingIndianapolis} />} />
+                  <Route path="/ultrasonic-testing-san-diego" element={<LazyRoute Component={UltrasonicTestingSanDiego} />} />
+                  <Route path="/radiographic-testing-san-diego" element={<LazyRoute Component={RadiographicTestingSanDiego} />} />
+                  <Route path="/magnetic-particle-testing-san-diego" element={<LazyRoute Component={MagneticParticleTestingSanDiego} />} />
+                  <Route path="/penetrant-testing-san-diego" element={<LazyRoute Component={PenetrantTestingSanDiego} />} />
+                  <Route path="/eddy-current-testing-san-diego" element={<LazyRoute Component={EddyCurrentTestingSanDiego} />} />
+                  <Route path="/visual-testing-san-diego" element={<LazyRoute Component={VisualTestingSanDiego} />} />
+                  <Route path="/ultrasonic-testing-portland" element={<LazyRoute Component={UltrasonicTestingPortland} />} />
+                  <Route path="/radiographic-testing-portland" element={<LazyRoute Component={RadiographicTestingPortland} />} />
+                  <Route path="/magnetic-particle-testing-portland" element={<LazyRoute Component={MagneticParticleTestingPortland} />} />
+                  <Route path="/penetrant-testing-portland" element={<LazyRoute Component={PenetrantTestingPortland} />} />
+                  <Route path="/eddy-current-testing-portland" element={<LazyRoute Component={EddyCurrentTestingPortland} />} />
+                  <Route path="/visual-testing-portland" element={<LazyRoute Component={VisualTestingPortland} />} />
+                  <Route path="/ultrasonic-testing-salt-lake-city" element={<LazyRoute Component={UltrasonicTestingSaltLakeCity} />} />
+                  <Route path="/radiographic-testing-salt-lake-city" element={<LazyRoute Component={RadiographicTestingSaltLakeCity} />} />
+                  <Route path="/magnetic-particle-testing-salt-lake-city" element={<LazyRoute Component={MagneticParticleTestingSaltLakeCity} />} />
+                  <Route path="/penetrant-testing-salt-lake-city" element={<LazyRoute Component={PenetrantTestingSaltLakeCity} />} />
+                  <Route path="/eddy-current-testing-salt-lake-city" element={<LazyRoute Component={EddyCurrentTestingSaltLakeCity} />} />
+                  <Route path="/visual-testing-salt-lake-city" element={<LazyRoute Component={VisualTestingSaltLakeCity} />} />
+                  <Route path="/ultrasonic-testing-kansas-city" element={<LazyRoute Component={UltrasonicTestingKansasCity} />} />
+                  <Route path="/radiographic-testing-kansas-city" element={<LazyRoute Component={RadiographicTestingKansasCity} />} />
+                  <Route path="/magnetic-particle-testing-kansas-city" element={<LazyRoute Component={MagneticParticleTestingKansasCity} />} />
+                  <Route path="/penetrant-testing-kansas-city" element={<LazyRoute Component={PenetrantTestingKansasCity} />} />
+                  <Route path="/eddy-current-testing-kansas-city" element={<LazyRoute Component={EddyCurrentTestingKansasCity} />} />
+                  <Route path="/visual-testing-kansas-city" element={<LazyRoute Component={VisualTestingKansasCity} />} />
+                  <Route path="/ultrasonic-testing-st-louis" element={<LazyRoute Component={UltrasonicTestingStLouis} />} />
+                  <Route path="/radiographic-testing-st-louis" element={<LazyRoute Component={RadiographicTestingStLouis} />} />
+                  <Route path="/magnetic-particle-testing-st-louis" element={<LazyRoute Component={MagneticParticleTestingStLouis} />} />
+                  <Route path="/penetrant-testing-st-louis" element={<LazyRoute Component={PenetrantTestingStLouis} />} />
+                  <Route path="/eddy-current-testing-st-louis" element={<LazyRoute Component={EddyCurrentTestingStLouis} />} />
+                  <Route path="/visual-testing-st-louis" element={<LazyRoute Component={VisualTestingStLouis} />} />
+                  <Route path="/ultrasonic-testing-milwaukee" element={<LazyRoute Component={UltrasonicTestingMilwaukee} />} />
+                  <Route path="/radiographic-testing-milwaukee" element={<LazyRoute Component={RadiographicTestingMilwaukee} />} />
+                  <Route path="/magnetic-particle-testing-milwaukee" element={<LazyRoute Component={MagneticParticleTestingMilwaukee} />} />
+                  <Route path="/penetrant-testing-milwaukee" element={<LazyRoute Component={PenetrantTestingMilwaukee} />} />
+                  <Route path="/eddy-current-testing-milwaukee" element={<LazyRoute Component={EddyCurrentTestingMilwaukee} />} />
+                  <Route path="/visual-testing-milwaukee" element={<LazyRoute Component={VisualTestingMilwaukee} />} />
+                  <Route path="/ultrasonic-testing-cincinnati" element={<LazyRoute Component={UltrasonicTestingCincinnati} />} />
+                  <Route path="/radiographic-testing-cincinnati" element={<LazyRoute Component={RadiographicTestingCincinnati} />} />
+                  <Route path="/magnetic-particle-testing-cincinnati" element={<LazyRoute Component={MagneticParticleTestingCincinnati} />} />
+                  <Route path="/penetrant-testing-cincinnati" element={<LazyRoute Component={PenetrantTestingCincinnati} />} />
+                  <Route path="/eddy-current-testing-cincinnati" element={<LazyRoute Component={EddyCurrentTestingCincinnati} />} />
+                  <Route path="/visual-testing-cincinnati" element={<LazyRoute Component={VisualTestingCincinnati} />} />
+                  <Route path="/ultrasonic-testing-jacksonville" element={<LazyRoute Component={UltrasonicTestingJacksonville} />} />
+                  <Route path="/radiographic-testing-jacksonville" element={<LazyRoute Component={RadiographicTestingJacksonville} />} />
+                  <Route path="/magnetic-particle-testing-jacksonville" element={<LazyRoute Component={MagneticParticleTestingJacksonville} />} />
+                  <Route path="/penetrant-testing-jacksonville" element={<LazyRoute Component={PenetrantTestingJacksonville} />} />
+                  <Route path="/eddy-current-testing-jacksonville" element={<LazyRoute Component={EddyCurrentTestingJacksonville} />} />
+                  <Route path="/visual-testing-jacksonville" element={<LazyRoute Component={VisualTestingJacksonville} />} />
+                  {/* PART B: 60 EU Method+Location Pages (10 cities × 6 methods) */}
+                  <Route path="/ultrasonic-testing-aberdeen" element={<LazyRoute Component={UltrasonicTestingAberdeen} />} />
+                  <Route path="/radiographic-testing-aberdeen" element={<LazyRoute Component={RadiographicTestingAberdeen} />} />
+                  <Route path="/magnetic-particle-testing-aberdeen" element={<LazyRoute Component={MagneticParticleTestingAberdeen} />} />
+                  <Route path="/penetrant-testing-aberdeen" element={<LazyRoute Component={PenetrantTestingAberdeen} />} />
+                  <Route path="/eddy-current-testing-aberdeen" element={<LazyRoute Component={EddyCurrentTestingAberdeen} />} />
+                  <Route path="/visual-testing-aberdeen" element={<LazyRoute Component={VisualTestingAberdeen} />} />
+                  <Route path="/ultrasonic-testing-hamburg" element={<LazyRoute Component={UltrasonicTestingHamburg} />} />
+                  <Route path="/radiographic-testing-hamburg" element={<LazyRoute Component={RadiographicTestingHamburg} />} />
+                  <Route path="/magnetic-particle-testing-hamburg" element={<LazyRoute Component={MagneticParticleTestingHamburg} />} />
+                  <Route path="/penetrant-testing-hamburg" element={<LazyRoute Component={PenetrantTestingHamburg} />} />
+                  <Route path="/eddy-current-testing-hamburg" element={<LazyRoute Component={EddyCurrentTestingHamburg} />} />
+                  <Route path="/visual-testing-hamburg" element={<LazyRoute Component={VisualTestingHamburg} />} />
+                  <Route path="/ultrasonic-testing-rotterdam" element={<LazyRoute Component={UltrasonicTestingRotterdam} />} />
+                  <Route path="/radiographic-testing-rotterdam" element={<LazyRoute Component={RadiographicTestingRotterdam} />} />
+                  <Route path="/magnetic-particle-testing-rotterdam" element={<LazyRoute Component={MagneticParticleTestingRotterdam} />} />
+                  <Route path="/penetrant-testing-rotterdam" element={<LazyRoute Component={PenetrantTestingRotterdam} />} />
+                  <Route path="/eddy-current-testing-rotterdam" element={<LazyRoute Component={EddyCurrentTestingRotterdam} />} />
+                  <Route path="/visual-testing-rotterdam" element={<LazyRoute Component={VisualTestingRotterdam} />} />
+                  <Route path="/ultrasonic-testing-stavanger" element={<LazyRoute Component={UltrasonicTestingStavanger} />} />
+                  <Route path="/radiographic-testing-stavanger" element={<LazyRoute Component={RadiographicTestingStavanger} />} />
+                  <Route path="/magnetic-particle-testing-stavanger" element={<LazyRoute Component={MagneticParticleTestingStavanger} />} />
+                  <Route path="/penetrant-testing-stavanger" element={<LazyRoute Component={PenetrantTestingStavanger} />} />
+                  <Route path="/eddy-current-testing-stavanger" element={<LazyRoute Component={EddyCurrentTestingStavanger} />} />
+                  <Route path="/visual-testing-stavanger" element={<LazyRoute Component={VisualTestingStavanger} />} />
+                  <Route path="/ultrasonic-testing-antwerp" element={<LazyRoute Component={UltrasonicTestingAntwerp} />} />
+                  <Route path="/radiographic-testing-antwerp" element={<LazyRoute Component={RadiographicTestingAntwerp} />} />
+                  <Route path="/magnetic-particle-testing-antwerp" element={<LazyRoute Component={MagneticParticleTestingAntwerp} />} />
+                  <Route path="/penetrant-testing-antwerp" element={<LazyRoute Component={PenetrantTestingAntwerp} />} />
+                  <Route path="/eddy-current-testing-antwerp" element={<LazyRoute Component={EddyCurrentTestingAntwerp} />} />
+                  <Route path="/visual-testing-antwerp" element={<LazyRoute Component={VisualTestingAntwerp} />} />
+                  <Route path="/ultrasonic-testing-marseille" element={<LazyRoute Component={UltrasonicTestingMarseille} />} />
+                  <Route path="/radiographic-testing-marseille" element={<LazyRoute Component={RadiographicTestingMarseille} />} />
+                  <Route path="/magnetic-particle-testing-marseille" element={<LazyRoute Component={MagneticParticleTestingMarseille} />} />
+                  <Route path="/penetrant-testing-marseille" element={<LazyRoute Component={PenetrantTestingMarseille} />} />
+                  <Route path="/eddy-current-testing-marseille" element={<LazyRoute Component={EddyCurrentTestingMarseille} />} />
+                  <Route path="/visual-testing-marseille" element={<LazyRoute Component={VisualTestingMarseille} />} />
+                  <Route path="/ultrasonic-testing-milan" element={<LazyRoute Component={UltrasonicTestingMilan} />} />
+                  <Route path="/radiographic-testing-milan" element={<LazyRoute Component={RadiographicTestingMilan} />} />
+                  <Route path="/magnetic-particle-testing-milan" element={<LazyRoute Component={MagneticParticleTestingMilan} />} />
+                  <Route path="/penetrant-testing-milan" element={<LazyRoute Component={PenetrantTestingMilan} />} />
+                  <Route path="/eddy-current-testing-milan" element={<LazyRoute Component={EddyCurrentTestingMilan} />} />
+                  <Route path="/visual-testing-milan" element={<LazyRoute Component={VisualTestingMilan} />} />
+                  <Route path="/ultrasonic-testing-barcelona" element={<LazyRoute Component={UltrasonicTestingBarcelona} />} />
+                  <Route path="/radiographic-testing-barcelona" element={<LazyRoute Component={RadiographicTestingBarcelona} />} />
+                  <Route path="/magnetic-particle-testing-barcelona" element={<LazyRoute Component={MagneticParticleTestingBarcelona} />} />
+                  <Route path="/penetrant-testing-barcelona" element={<LazyRoute Component={PenetrantTestingBarcelona} />} />
+                  <Route path="/eddy-current-testing-barcelona" element={<LazyRoute Component={EddyCurrentTestingBarcelona} />} />
+                  <Route path="/visual-testing-barcelona" element={<LazyRoute Component={VisualTestingBarcelona} />} />
+                  <Route path="/ultrasonic-testing-gdansk" element={<LazyRoute Component={UltrasonicTestingGdansk} />} />
+                  <Route path="/radiographic-testing-gdansk" element={<LazyRoute Component={RadiographicTestingGdansk} />} />
+                  <Route path="/magnetic-particle-testing-gdansk" element={<LazyRoute Component={MagneticParticleTestingGdansk} />} />
+                  <Route path="/penetrant-testing-gdansk" element={<LazyRoute Component={PenetrantTestingGdansk} />} />
+                  <Route path="/eddy-current-testing-gdansk" element={<LazyRoute Component={EddyCurrentTestingGdansk} />} />
+                  <Route path="/visual-testing-gdansk" element={<LazyRoute Component={VisualTestingGdansk} />} />
+                  <Route path="/ultrasonic-testing-edinburgh" element={<LazyRoute Component={UltrasonicTestingEdinburgh} />} />
+                  <Route path="/radiographic-testing-edinburgh" element={<LazyRoute Component={RadiographicTestingEdinburgh} />} />
+                  <Route path="/magnetic-particle-testing-edinburgh" element={<LazyRoute Component={MagneticParticleTestingEdinburgh} />} />
+                  <Route path="/penetrant-testing-edinburgh" element={<LazyRoute Component={PenetrantTestingEdinburgh} />} />
+                  <Route path="/eddy-current-testing-edinburgh" element={<LazyRoute Component={EddyCurrentTestingEdinburgh} />} />
+                  <Route path="/visual-testing-edinburgh" element={<LazyRoute Component={VisualTestingEdinburgh} />} />
+                  {/* PART C: 33 High-Value Pages */}
+                  <Route path="/ndt-training-houston" element={<LazyRoute Component={NdtTrainingHouston} />} />
+                  <Route path="/ndt-training-new-york" element={<LazyRoute Component={NdtTrainingNewYork} />} />
+                  <Route path="/ndt-training-los-angeles" element={<LazyRoute Component={NdtTrainingLosAngeles} />} />
+                  <Route path="/ndt-training-chicago" element={<LazyRoute Component={NdtTrainingChicago} />} />
+                  <Route path="/ndt-training-denver" element={<LazyRoute Component={NdtTrainingDenver} />} />
+                  <Route path="/ndt-training-new-orleans" element={<LazyRoute Component={NdtTrainingNewOrleans} />} />
+                  <Route path="/ndt-training-dallas" element={<LazyRoute Component={NdtTrainingDallas} />} />
+                  <Route path="/ndt-training-philadelphia" element={<LazyRoute Component={NdtTrainingPhiladelphia} />} />
+                  <Route path="/ndt-training-pittsburgh" element={<LazyRoute Component={NdtTrainingPittsburgh} />} />
+                  <Route path="/ndt-training-atlanta" element={<LazyRoute Component={NdtTrainingAtlanta} />} />
+                  <Route path="/api-510-training" element={<LazyRoute Component={Api510Training} />} />
+                  <Route path="/api-570-training" element={<LazyRoute Component={Api570Training} />} />
+                  <Route path="/api-653-training" element={<LazyRoute Component={Api653Training} />} />
+                  <Route path="/asnt-level-iii-training" element={<LazyRoute Component={AsntLevelIiiTraining} />} />
+                  <Route path="/phased-array-training" element={<LazyRoute Component={PhasedArrayTraining} />} />
+                  <Route path="/oil-gas-ndt-services" element={<LazyRoute Component={OilGasNdtServices} />} />
+                  <Route path="/aerospace-ndt-services" element={<LazyRoute Component={AerospaceNdtServices} />} />
+                  <Route path="/power-generation-ndt-services" element={<LazyRoute Component={PowerGenerationNdtServices} />} />
+                  <Route path="/petrochemical-ndt-services" element={<LazyRoute Component={PetrochemicalNdtServices} />} />
+                  <Route path="/pipeline-inspection-services" element={<LazyRoute Component={PipelineInspectionServices} />} />
+                  <Route path="/marine-offshore-ndt-services" element={<LazyRoute Component={MarineOffshoreNdtServices} />} />
+                  <Route path="/nuclear-ndt-services" element={<LazyRoute Component={NuclearNdtServices} />} />
+                  <Route path="/construction-ndt-services" element={<LazyRoute Component={ConstructionNdtServices} />} />
+                  <Route path="/ndt-erp-software-comparison" element={<LazyRoute Component={NdtErpSoftwareComparison} />} />
+                  <Route path="/ndt-reporting-software-comparison" element={<LazyRoute Component={NdtReportingSoftwareComparison} />} />
+                  <Route path="/digital-twin-ndt-software" element={<LazyRoute Component={DigitalTwinNdtSoftware} />} />
+                  <Route path="/ndt-software-features" element={<LazyRoute Component={NdtSoftwareFeatures} />} />
+                  <Route path="/ndt-data-management" element={<LazyRoute Component={NdtDataManagement} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={NotFound} />} />
                   </Routes>
