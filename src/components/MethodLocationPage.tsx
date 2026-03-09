@@ -225,6 +225,13 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
     const keywords = `${method.name} ${location.name}, ${method.shortName} training ${location.name}, ${method.slug} guide, learn ${method.shortName}, ${method.shortName} consulting ${location.name}, ${method.shortName} certification ${location.name}`;
     const canonical = `https://atlantisndt.com/${methodSlug}-${locationSlug}`;
 
+    // Generate hreflang links for multi-regional SEO
+    const hreflangLinks = [
+        { hreflang: `en-${location.country}`, href: canonical },
+        { hreflang: 'x-default', href: canonical },
+        { hreflang: 'en', href: canonical }
+    ];
+
     const locationContext = methodLocationContext[locationSlug] || methodLocationContext["default"];
     const certReqs = localCertRequirements[locationSlug] || localCertRequirements["default"];
     const mDetails = methodDetails[methodSlug];
@@ -303,6 +310,7 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
                 keywords={keywords}
                 canonical={canonical}
                 structuredData={structuredData}
+                hreflangLinks={hreflangLinks}
             />
             <Breadcrumbs />
 
@@ -659,7 +667,25 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
                     </div>
 
                     {/* Cross-Service Links */}
-                    <h3 className="text-lg font-semibold text-slate-700 mb-4">Related Services in {location.name}</h3>
+                    <h3 className="text-lg font-semibold text-slate-700 mb-4">Related NDT Methods in {location.name}</h3>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+                        {[
+                            { title: "Ultrasonic Testing", desc: "UT services", link: `/ultrasonic-testing-${location.slug}` },
+                            { title: "Radiographic Testing", desc: "RT for inspection", link: `/radiographic-testing-${location.slug}` },
+                            { title: "Magnetic Particle Testing", desc: "MT for defects", link: `/magnetic-particle-testing-${location.slug}` },
+                            { title: "Liquid Penetrant Testing", desc: "PT for flaws", link: `/penetrant-testing-${location.slug}` },
+                            { title: "Eddy Current Testing", desc: "ET for tubes", link: `/eddy-current-testing-${location.slug}` },
+                            { title: "Visual Testing", desc: "VT assessment", link: `/visual-testing-${location.slug}` },
+                        ].map(s => (
+                            <Link key={s.title} to={s.link} className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
+                                <h4 className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors">{s.title}</h4>
+                                <p className="text-sm text-slate-500 mt-1">{s.desc}</p>
+                            </Link>
+                        ))}
+                    </div>
+
+                    {/* Consulting & Software Links */}
+                    <h3 className="text-lg font-semibold text-slate-700 mb-4">Consulting & Software Solutions</h3>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
                             { title: "NDT Consulting", desc: "ASNT Level III consulting", link: `/consulting/ndt-consulting-${location.slug}` },

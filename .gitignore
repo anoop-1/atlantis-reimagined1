@@ -24,6 +24,10 @@ dist-ssr
 
 .vercel
 
-# GSC credentials (never commit)
+# Environment variables and credentials (never commit)
+.env.local
+.env.production
+.env*.local
 scripts/gsc-service-account.json
+scripts/.env.gsc
 scripts/indexing-progress.json

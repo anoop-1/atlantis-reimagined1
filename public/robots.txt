@@ -13,4 +13,7 @@ Allow: /
 User-agent: *
 Allow: /
 
+Disallow: /admin/
+Disallow: /embed/
+
 Sitemap: https://atlantisndt.com/sitemap.xml

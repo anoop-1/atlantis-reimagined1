@@ -3,40 +3,42 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import About from "./pages/About";
-import Training from "./pages/Training";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
-import DigitalTwins from "./pages/DigitalTwins";
-import Erp from "./pages/Erp";
-import NDTConnect from "./pages/NDTConnect";
-import BlogPage from "./pages/Blog";
-import BlogDetail from "./pages/BlogDetail";
-import AdminLogin from "./pages/AdminLogin";
-import AdminDashboard from "./pages/AdminDashboard";
-import UltrasonicTesting from "./pages/ultrasonic-testing";
-import MagneticParticleTesting from "./pages/magnetic-particle-testing";
-import VisualTesting from "./pages/visual-testing";
-import RadiographicTesting from "./pages/radiographic-testing";
-import EddyCurrentTesting from "./pages/eddy-current-testing";
-import PenetrantTesting from "./pages/penetrant-testing";
-import PhasedArrayUT from "@/pages/phased-array-ut";
-import TOFDTesting from "@/pages/tofd-testing";
-import ConsultingServices from "./pages/ConsultingServices";
-import ConsultingServicesUSA from "./pages/ConsultingServices-USA";
-import ConsultingServicesMiddleEast from "./pages/ConsultingServices-ME";
-import ConsultingServicesIndia from "./pages/ConsultingServices-India";
-import TrainingUSA from "./pages/Training-USA";
-import TrainingMiddleEast from "./pages/Training-ME";
-import TrainingIndia from "./pages/Training-India";
-import FAQPage from "./pages/FAQ";
-import NDTMethodsPage from "./pages/NDTMethods";
-import HyderabadTraining from "./pages/HyderabadTraining";
-import CaseStudies from "./pages/CaseStudies";
-import IndustrialAnimation from "./components/IndustrialAnimation";
-import { AuthProvider } from "./context/AuthContext";
 import { lazy, Suspense } from "react";
+import { AuthProvider } from "./context/AuthContext";
+import IndustrialAnimation from "./components/IndustrialAnimation";
+
+// Lazy-load all page components for code splitting
+const Index = lazy(() => import("./pages/Index"));
+const About = lazy(() => import("./pages/About"));
+const Training = lazy(() => import("./pages/Training"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
+const Erp = lazy(() => import("./pages/Erp"));
+const NDTConnect = lazy(() => import("./pages/NDTConnect"));
+const BlogPage = lazy(() => import("./pages/Blog"));
+const BlogDetail = lazy(() => import("./pages/BlogDetail"));
+const AdminLogin = lazy(() => import("./pages/AdminLogin"));
+const AdminDashboard = lazy(() => import("./pages/AdminDashboard"));
+const UltrasonicTesting = lazy(() => import("./pages/ultrasonic-testing"));
+const MagneticParticleTesting = lazy(() => import("./pages/magnetic-particle-testing"));
+const VisualTesting = lazy(() => import("./pages/visual-testing"));
+const RadiographicTesting = lazy(() => import("./pages/radiographic-testing"));
+const EddyCurrentTesting = lazy(() => import("./pages/eddy-current-testing"));
+const PenetrantTesting = lazy(() => import("./pages/penetrant-testing"));
+const PhasedArrayUT = lazy(() => import("@/pages/phased-array-ut"));
+const TOFDTesting = lazy(() => import("@/pages/tofd-testing"));
+const ConsultingServices = lazy(() => import("./pages/ConsultingServices"));
+const ConsultingServicesUSA = lazy(() => import("./pages/ConsultingServices-USA"));
+const ConsultingServicesMiddleEast = lazy(() => import("./pages/ConsultingServices-ME"));
+const ConsultingServicesIndia = lazy(() => import("./pages/ConsultingServices-India"));
+const TrainingUSA = lazy(() => import("./pages/Training-USA"));
+const TrainingMiddleEast = lazy(() => import("./pages/Training-ME"));
+const TrainingIndia = lazy(() => import("./pages/Training-India"));
+const FAQPage = lazy(() => import("./pages/FAQ"));
+const NDTMethodsPage = lazy(() => import("./pages/NDTMethods"));
+const HyderabadTraining = lazy(() => import("./pages/HyderabadTraining"));
+const CaseStudies = lazy(() => import("./pages/CaseStudies"));
 
 // Loading component for lazy-loaded pages - prevents FOUC with solid background
 const PageLoader = () => (
@@ -395,8 +397,9 @@ const App = () => (
             <Toaster />
             <Sonner />
             <BrowserRouter>
-               <Routes>
-                  <Route path="/" element={<Index />} />
+               <Suspense fallback={<PageLoader />}>
+                  <Routes>
+                     <Route path="/" element={<LazyRoute Component={Index} />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/industry" element={<IndustrialAnimation />} />
                   <Route path="/training" element={<Training />} />
@@ -775,9 +778,10 @@ const App = () => (
                   <Route path="/ndt-standards-comparison" element={<LazyRoute Component={NDTStandardsComparison} />} />
                   <Route path="/ndt-equipment-guide" element={<LazyRoute Component={NDTEquipmentGuide} />} />
                   <Route path="/ndt-learning-path" element={<LazyRoute Component={NDTLearningPath} />} />
-                  <Route path="/404" element={<NotFound />} />
-                  <Route path="*" element={<NotFound />} />
-               </Routes>
+                     <Route path="/404" element={<LazyRoute Component={NotFound} />} />
+                     <Route path="*" element={<LazyRoute Component={NotFound} />} />
+                  </Routes>
+               </Suspense>
             </BrowserRouter>
          </TooltipProvider>
       </QueryClientProvider>

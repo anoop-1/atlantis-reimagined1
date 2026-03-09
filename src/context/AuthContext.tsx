@@ -24,8 +24,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const login = (email: string, password: string): boolean => {
-    const validEmail = 'anoop@atlantisinspection.com';
-    const validPassword = 'Atlantis9$';
+    const validEmail = import.meta.env.VITE_ADMIN_EMAIL || '';
+    const validPassword = import.meta.env.VITE_ADMIN_PASSWORD || '';
 
     if (email === validEmail && password === validPassword) {
       setIsAdmin(true);

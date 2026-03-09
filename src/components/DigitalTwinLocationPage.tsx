@@ -228,6 +228,13 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
     const pageDesc = `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets.slice(0, 2).join(", ")} and more. API 510/570/653 compliant reporting. Corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`;
     const canonical = `https://atlantisndt.com/${slug}`;
 
+    // Generate hreflang links for multi-regional SEO
+    const hreflangLinks = [
+        { hreflang: `en-${country}`, href: canonical },
+        { hreflang: 'x-default', href: canonical },
+        { hreflang: 'en', href: canonical }
+    ];
+
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
@@ -352,6 +359,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                 title={pageTitle}
                 description={pageDesc}
                 canonical={canonical}
+                hreflangLinks={hreflangLinks}
             />
 
             {/* Structured data scripts */}

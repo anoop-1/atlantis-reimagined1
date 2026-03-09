@@ -1,0 +1,67 @@
+import type { Metadata } from 'next';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: 'Mining NDT Hub | Equipment Inspection Guide',
+  description: 'Expert resources for NDT inspection in mining operations, equipment integrity, and safety assurance.',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="bg-white text-gray-900">
+        <header className="bg-yellow-600 text-white">
+          <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 className="text-2xl font-bold">Mining NDT Hub</h1>
+            <div className="space-x-6">
+              <a href="/" className="hover:text-yellow-200">Home</a>
+              <a href="/equipment" className="hover:text-yellow-200">Equipment</a>
+              <a href="/safety" className="hover:text-yellow-200">Safety</a>
+              <a href="/maintenance" className="hover:text-yellow-200">Maintenance</a>
+            </div>
+          </nav>
+        </header>
+
+        <main className="max-w-6xl mx-auto px-6 py-12">
+          {children}
+        </main>
+
+        <footer className="bg-gray-100 text-gray-800 mt-16 py-12">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="grid grid-cols-3 gap-8 mb-8">
+              <div>
+                <h3 className="font-bold text-lg mb-4">Industry Partners</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">Atlantis NDT</a></li>
+                  <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="text-yellow-700 hover:underline">NDT Consulting</a></li>
+                  <li><a href="https://atlantisndt.com/training" rel="noopener" className="text-yellow-700 hover:underline">Training Programs</a></li>
+                  <li><a href="https://atlantisndt.com/digital-twins" rel="noopener" className="text-yellow-700 hover:underline">Digital Twins</a></li>
+                  <li><a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-yellow-700 hover:underline">Fleet Management</a></li>
+                  <li><a href="https://atlantisndt.com/erp" rel="noopener" className="text-yellow-700 hover:underline">Data Systems</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg mb-4">Related Resources</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://ndt-safety-compliance.local" rel="noopener" className="text-yellow-700 hover:underline">Safety Compliance</a></li>
+                  <li><a href="https://ndt-equipment-reviews.local" rel="noopener" className="text-yellow-700 hover:underline">Equipment Reviews</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg mb-4">About</h3>
+                <p className="text-sm text-gray-600">NDT expertise for mining operations and equipment integrity.</p>
+              </div>
+            </div>
+            <div className="border-t pt-8 text-center text-sm text-gray-600">
+              <p>&copy; 2026 Mining NDT Hub. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </html>
+  );
+}

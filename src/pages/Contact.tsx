@@ -107,10 +107,10 @@ export default function Contact() {
 
       try {
          await sendForm(
-            "service_hrj5lk9",
-            "template_x94fhmp",
+            import.meta.env.VITE_EMAILJS_SERVICE_ID || '',
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID || '',
             formRef.current,
-            "mqEdxmDRFVVoxCXrv"
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY || ''
          );
 
          // GA4 conversion tracking

@@ -266,6 +266,13 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   const pageTitle = `NDT ERP Software ${city} | Inspection Management System | Atlantis NDT`;
   const pageDescription = `NDT ERP software for inspection companies in ${city}, ${country}. Automate ASNT certification tracking, API 510/570/653 scheduling, and PDF report generation. Purpose-built for NDT — not a generic ERP.`;
 
+  // Generate hreflang links for multi-regional SEO
+  const hreflangLinks = [
+    { hreflang: `en-${country}`, href: canonicalUrl },
+    { hreflang: 'x-default', href: canonicalUrl },
+    { hreflang: 'en', href: canonicalUrl }
+  ];
+
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -363,6 +370,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         keywords={`NDT ERP software ${city}, inspection management system ${city}, ASNT certification tracking ${city}, NDT scheduling software, API 510 inspection software, API 570 management, NDT report generation, corrosion data management, NDT personnel tracking`}
         canonical={canonicalUrl}
         structuredData={structuredData}
+        hreflangLinks={hreflangLinks}
       />
 
       {/* FAQPage JSON-LD (separate script block) */}

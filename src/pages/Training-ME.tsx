@@ -40,10 +40,26 @@ export default function TrainingMiddleEast() {
         'Liquid Penetrant Testing (PT)'
     ];
 
+    // Main Course schema for structured data
+    const mainCourseSchema = {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "NDT Training - Middle East",
+        "description": "Professional ASNT SNT-TC-1A NDT training and certification in Middle East. ARAMCO-compliant procedures. Level I & II: Training + Certification. Level III: Training Only. Specialized offshore training with RBI methodology.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Atlantis NDT",
+            "url": "https://atlantisndt.com"
+        },
+        "courseMode": ["onsite"],
+        "occupationalCategory": "Non-Destructive Testing Technician"
+    };
+
     // Course schema for structured data (helps with Google rich results)
     const courseSchema = {
         "@context": "https://schema.org",
         "@graph": [
+            mainCourseSchema,
             {
                 "@type": "EducationalOrganization",
                 "name": "Atlantis NDT Training Center - Middle East",

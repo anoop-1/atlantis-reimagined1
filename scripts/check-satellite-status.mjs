@@ -38,11 +38,45 @@ async function getAccessToken() {
 }
 
 const satellites = [
+  // Original 5 (verified & deployed)
   'https://ndt-knowledge-hub.vercel.app/',
   'https://industrial-inspection-resources.vercel.app/',
   'https://asset-integrity-hub.vercel.app/',
   'https://ndt-training-academy.vercel.app/',
   'https://ndt-careers-portal.vercel.app/',
+  // Batch 2 (10 sites - existing but unverified)
+  'https://aerospace-ndt-standards.vercel.app/',
+  'https://construction-ndt-guide.vercel.app/',
+  'https://corrosion-management-ndt.vercel.app/',
+  'https://manufacturing-ndt-quality.vercel.app/',
+  'https://marine-offshore-ndt.vercel.app/',
+  'https://middle-east-ndt-resource.vercel.app/',
+  'https://ndt-software-solutions.vercel.app/',
+  'https://oil-gas-inspection-guide.vercel.app/',
+  'https://power-generation-ndt.vercel.app/',
+  'https://welding-inspection-hub.vercel.app/',
+  // Batch 3 (10 NEW sites - March 2026)
+  'https://pipeline-integrity-guide.vercel.app/',
+  'https://petrochemical-ndt-hub.vercel.app/',
+  'https://nuclear-ndt-resource.vercel.app/',
+  'https://subsea-inspection-guide.vercel.app/',
+  'https://ndt-standards-library.vercel.app/',
+  'https://advanced-ndt-techniques.vercel.app/',
+  'https://tank-inspection-resource.vercel.app/',
+  'https://pressure-vessel-ndt.vercel.app/',
+  'https://lng-inspection-hub.vercel.app/',
+  'https://renewable-energy-ndt.vercel.app/',
+  // Batch 4 (10 NEW sites - March 2026)
+  'https://ndt-automation-future.vercel.app/',
+  'https://coating-inspection-guide.vercel.app/',
+  'https://rail-ndt-resource.vercel.app/',
+  'https://mining-ndt-hub.vercel.app/',
+  'https://ndt-safety-compliance.vercel.app/',
+  'https://weld-quality-resource.vercel.app/',
+  'https://composite-testing-hub.vercel.app/',
+  'https://heat-exchanger-ndt.vercel.app/',
+  'https://api-certification-guide.vercel.app/',
+  'https://ndt-equipment-reviews.vercel.app/',
 ];
 
 async function main() {

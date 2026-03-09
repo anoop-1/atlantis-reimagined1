@@ -1,3 +1,4 @@
+import React from "react";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Link } from "react-router-dom";
@@ -11,6 +12,17 @@ const NotFound = () => {
     { name: "Consulting", href: "/consulting", icon: Users, description: "ASNT Level III services" },
     { name: "Contact Us", href: "/contact", icon: Phone, description: "Get in touch with our team" },
   ];
+
+  // Set noindex robots meta tag for 404 pages
+  React.useEffect(() => {
+    let meta = document.querySelector('meta[name="robots"]') as HTMLMetaElement;
+    if (!meta) {
+      meta = document.createElement('meta');
+      meta.name = 'robots';
+      document.head.appendChild(meta);
+    }
+    meta.content = 'noindex';
+  }, []);
 
   return (
     <div className="min-h-screen bg-slate-50">

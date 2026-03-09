@@ -67,9 +67,9 @@ const floatIcon = {
 const FeatureSection = () => {
    return (
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
-         <h1 className="text-4xl font-bold text-center mb-12 text-gray-900">
+         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
             Our Features
-         </h1>
+         </h2>
 
          <motion.div
             className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4"

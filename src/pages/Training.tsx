@@ -179,9 +179,23 @@ export default function Training() {
       }
    };
 
+   const courseSchema = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training - Professional Certification",
+      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A and NAS 410 standards. Hands-on training across UT, MT, PT, VT, RT, and ET methods in USA, India, and Middle East.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Atlantis NDT",
+        "url": "https://atlantisndt.com"
+      },
+      "courseMode": ["onsite", "blended"],
+      "occupationalCategory": "Non-Destructive Testing Inspector"
+   };
+
    const structuredData = {
       "@context": "https://schema.org",
-      "@graph": [eduOrg, faq, serviceSchema]
+      "@graph": [eduOrg, faq, serviceSchema, courseSchema]
    };
 
    return (

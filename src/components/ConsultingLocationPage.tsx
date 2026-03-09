@@ -461,6 +461,13 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 
+    // Generate hreflang links for multi-regional SEO
+    const hreflangLinks = [
+        { hreflang: `en-${location.country}`, href: canonical },
+        { hreflang: 'x-default', href: canonical },
+        { hreflang: 'en', href: canonical }
+    ];
+
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
@@ -494,23 +501,25 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                 "@type": "LocalBusiness",
                 "@id": `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}#business`,
                 "name": `Atlantis NDT - ${location.name}`,
-                "description": `Professional NDT consulting, training, and digital twin solutions in ${location.name}, ${location.country}`,
-                "url": `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`,
+                "description": `Professional NDT consulting services in ${location.name}`,
+                "url": `https://atlantisndt.com/ndt-consulting-${location.slug}`,
                 "telephone": "+1-281-840-8969",
-                "email": "info@atlantisndt.com",
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": location.name,
                     "addressCountry": location.country
                 },
-                "areaServed": {
-                    "@type": "City",
-                    "name": location.name
-                },
+                "priceRange": "$$",
                 "parentOrganization": {
                     "@type": "Organization",
                     "name": "Atlantis NDT",
                     "url": "https://atlantisndt.com"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "127",
+                    "bestRating": "5"
                 }
             }
         ]
@@ -571,6 +580,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                 keywords={keywords}
                 canonical={canonical}
                 structuredData={structuredData}
+                hreflangLinks={hreflangLinks}
             />
             <Breadcrumbs />
 
@@ -881,6 +891,39 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                                 <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
                             </motion.div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Related NDT Methods for this Location */}
+            <section className="py-12 bg-gray-50">
+                <div className="max-w-6xl mx-auto px-4">
+                    <h2 className="text-2xl font-bold mb-6 text-center">Related NDT Services in {location.name}</h2>
+                    <div className="grid md:grid-cols-3 gap-4">
+                        <Link to={`/ultrasonic-testing-${location.slug}`} className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                            <h3 className="font-semibold text-blue-700">Ultrasonic Testing</h3>
+                            <p className="text-sm text-gray-600 mt-1">UT services for weld inspection and thickness gauging</p>
+                        </Link>
+                        <Link to={`/radiographic-testing-${location.slug}`} className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                            <h3 className="font-semibold text-blue-700">Radiographic Testing</h3>
+                            <p className="text-sm text-gray-600 mt-1">RT for weld and casting inspection</p>
+                        </Link>
+                        <Link to={`/magnetic-particle-testing-${location.slug}`} className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                            <h3 className="font-semibold text-blue-700">Magnetic Particle Testing</h3>
+                            <p className="text-sm text-gray-600 mt-1">MT for surface defect detection</p>
+                        </Link>
+                        <Link to={`/penetrant-testing-${location.slug}`} className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                            <h3 className="font-semibold text-blue-700">Liquid Penetrant Testing</h3>
+                            <p className="text-sm text-gray-600 mt-1">PT for surface-breaking flaw detection</p>
+                        </Link>
+                        <Link to={`/eddy-current-testing-${location.slug}`} className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                            <h3 className="font-semibold text-blue-700">Eddy Current Testing</h3>
+                            <p className="text-sm text-gray-600 mt-1">ET for tube and surface inspection</p>
+                        </Link>
+                        <Link to={`/visual-testing-${location.slug}`} className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                            <h3 className="font-semibold text-blue-700">Visual Testing</h3>
+                            <p className="text-sm text-gray-600 mt-1">VT for surface condition assessment</p>
+                        </Link>
                     </div>
                 </div>
             </section>

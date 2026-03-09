@@ -40,10 +40,26 @@ export default function TrainingIndia() {
         'Eddy Current Testing (ET)'
     ];
 
+    // Main Course schema for structured data
+    const mainCourseSchema = {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "NDT Training - India",
+        "description": "Professional ASNT SNT-TC-1A NDT training and certification in India. Level I & II: Training + Certification. Level III: Training Only. Fast-track programs for manufacturing and industrial sectors.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Atlantis NDT",
+            "url": "https://atlantisndt.com"
+        },
+        "courseMode": ["onsite"],
+        "occupationalCategory": "Non-Destructive Testing Technician"
+    };
+
     // Course schema for structured data (helps with Google rich results)
     const courseSchema = {
         "@context": "https://schema.org",
         "@graph": [
+            mainCourseSchema,
             {
                 "@type": "EducationalOrganization",
                 "name": "Atlantis NDT Training Center - India",
