@@ -139,7 +139,7 @@ export const SEOHead = ({
         "@type": "Organization",
         "name": "Atlantis NDT",
         "url": "https://atlantisndt.com",
-        "logo": "https://atlantisndt.com/logo.png",
+        "logo": "https://atlantisndt.com/atlantis.png",
         "description": "Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals serving oil & gas, aerospace, and power generation industries.",
         "foundingDate": "2018",
         "sameAs": [
