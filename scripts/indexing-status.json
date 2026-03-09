@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-03-09T04:58:34.958Z",
+  "atlantis": {
+    "total": 366,
+    "indexed": 268,
+    "notIndexed": 124
+  },
+  "satellite": {
+    "total": 264,
+    "indexed": 2,
+    "notIndexed": 262
+  },
+  "totalToIndex": 386,
+  "daysNeeded": 2
+}
