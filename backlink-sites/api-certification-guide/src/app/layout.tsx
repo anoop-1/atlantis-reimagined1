@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'API Certification Guide | NDT Inspector Training',
   description: 'Complete guide to API 510, 570, 653 certifications for pressure equipment inspectors.',
 };

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'Pipeline Integrity Guide | NDT Solutions',
   description: 'Comprehensive guide to pipeline NDT inspection methods, standards, and best practices for maintaining pipeline integrity.',
   keywords: 'pipeline inspection, pipeline NDT, integrity monitoring, pigging, ultrasonic testing',

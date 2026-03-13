@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'Weld Quality Testing | NDT Methods & Standards',
   description: 'Comprehensive guide to weld inspection, defect detection, and quality assurance in welding.',
 };

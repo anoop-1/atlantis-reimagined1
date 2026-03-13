@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'Coating Inspection Guide | NDT Methods & Standards',
   description: 'Comprehensive guide to coating inspection techniques, standards, and best practices for protective systems.',
 };

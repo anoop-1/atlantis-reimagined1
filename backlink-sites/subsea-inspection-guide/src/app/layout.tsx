@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'Subsea Inspection Guide | Deepwater NDT',
   description: 'Comprehensive NDT solutions for subsea pipelines, equipment, and deepwater infrastructure.',
   keywords: 'subsea inspection, deepwater NDT, offshore pipelines, ROV inspection',

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'NDT Equipment Reviews | Technology Comparison',
   description: 'Independent reviews and comparisons of NDT equipment, instruments, and inspection systems.',
 };

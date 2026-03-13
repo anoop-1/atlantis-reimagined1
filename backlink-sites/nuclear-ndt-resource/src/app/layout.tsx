@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'Nuclear NDT Resource | Reactor Safety',
   description: 'Specialized NDT solutions for nuclear power plants, research reactors, and nuclear fuel cycle facilities.',
   keywords: 'nuclear NDT, reactor inspection, ASME section XI, pressure vessel testing',

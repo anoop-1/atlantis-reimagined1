@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
   title: 'NDT Automation Future | Advanced Inspection Technology',
   description: 'Explore the future of NDT automation, robotics integration, and AI-powered inspection systems in non-destructive testing.',
 };
