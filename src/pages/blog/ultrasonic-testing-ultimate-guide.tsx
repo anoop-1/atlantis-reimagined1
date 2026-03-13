@@ -263,7 +263,7 @@ export default function UltrasonicTestingUltimateGuide() {
                         <h3 className="text-2xl font-bold mb-4">Time-of-Flight Diffraction (TOFD)</h3>
                         <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
                             <p className="text-slate-700 mb-3">Advanced technique using diffraction physics. Two angled transducers bracket a weld (one sends, one receives). Sound diffracts off defect edges rather than reflects from faces. The diffraction arrival time indicates defect depth with exceptional accuracy (±0.5mm on 25mm thickness).</p>
-                            <p className="text-slate-700 mb-3">Advantages: Superior depth accuracy, detects very tight cracks (<0.1mm), provides quantitative defect sizing, less affected by defect orientation. Disadvantages: slower (requires careful transducer positioning), complex interpretation, limited to weld inspection.</p>
+                            <p className="text-slate-700 mb-3">Advantages: Superior depth accuracy, detects very tight cracks ({'<'}0.1mm), provides quantitative defect sizing, less affected by defect orientation. Disadvantages: slower (requires careful transducer positioning), complex interpretation, limited to weld inspection.</p>
                             <p className="text-slate-700">Applications: Critical welds where high-accuracy defect sizing is mandatory (aerospace, pressure vessels, nuclear). Cost: $25,000-$50,000 equipment + specialized operator training (6-12 months).</p>
                         </div>
 
@@ -449,7 +449,7 @@ export default function UltrasonicTestingUltimateGuide() {
                                     <li>Permanent radiographic record required</li>
                                     <li>Confirming UT findings on critical welds</li>
                                     <li>Thick planar defects (LOF parallel to beam)</li>
-                                    <li>Inspecting material <1.5mm or very thick (>75mm)</li>
+                                    <li>Inspecting material {'<'}1.5mm or very thick ({'>'}75mm)</li>
                                     <li>Legal/contractual requirement for film record</li>
                                 </ul>
                             </div>

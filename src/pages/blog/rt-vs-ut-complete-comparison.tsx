@@ -268,7 +268,7 @@ export default function RTvsUTCompleteComparison() {
                         <div className="grid md:grid-cols-2 gap-4 mb-8">
                             <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
                                 <h4 className="font-bold text-blue-900 mb-2">Superior Crack Detection</h4>
-                                <p className="text-blue-800 text-sm">Detects tight cracks <0.5mm - far superior to RT. Essential for fatigue-critical applications.</p>
+                                <p className="text-blue-800 text-sm">Detects tight cracks {'<'}0.5mm - far superior to RT. Essential for fatigue-critical applications.</p>
                             </div>
                             <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
                                 <h4 className="font-bold text-blue-900 mb-2">Thickness Measurement</h4>

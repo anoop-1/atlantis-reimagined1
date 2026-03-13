@@ -153,7 +153,7 @@ export default function EddyCurrentTestingCompleteGuide() {
                         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
                             <p className="text-blue-900 font-semibold mb-2">Key Advantages:</p>
                             <ul className="text-blue-800 space-y-1">
-                                <li>Extreme sensitivity to surface and near-surface cracks (can detect <0.5mm cracks)</li>
+                                <li>Extreme sensitivity to surface and near-surface cracks (can detect {'<'}0.5mm cracks)</li>
                                 <li>Fast scanning speeds (500-1000 mm/s) - inspects large areas quickly</li>
                                 <li>No surface preparation needed - inspects through paint, oxidation</li>
                                 <li>Works on all conductive materials (aluminum, steel, titanium, stainless steel)</li>
@@ -347,7 +347,7 @@ export default function EddyCurrentTestingCompleteGuide() {
                             <ul className="space-y-3">
                                 <li className="flex gap-3">
                                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
-                                    <span><strong>vs Magnetic Particle (MT):</strong> Choose ECT when inspecting non-ferrous materials (aluminum, titanium), need faster scanning, or require sensitivity to very small (<0.5mm) surface cracks</span>
+                                    <span><strong>vs Magnetic Particle (MT):</strong> Choose ECT when inspecting non-ferrous materials (aluminum, titanium), need faster scanning, or require sensitivity to very small ({'<'}0.5mm) surface cracks</span>
                                 </li>
                                 <li className="flex gap-3">
                                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
@@ -501,7 +501,7 @@ export default function EddyCurrentTestingCompleteGuide() {
                                     Advantages
                                 </h3>
                                 <ul className="space-y-2 text-green-800 text-sm">
-                                    <li>Extreme surface crack sensitivity (detects <0.5mm cracks)</li>
+                                    <li>Extreme surface crack sensitivity (detects {'<'}0.5mm cracks)</li>
                                     <li>Fast scanning speeds enable rapid area coverage</li>
                                     <li>No surface prep needed; inspects through paint/oxidation</li>
                                     <li>Works on all conductive materials (Al, Ti, stainless, carbon steel)</li>
