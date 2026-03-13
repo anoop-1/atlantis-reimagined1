@@ -201,30 +201,12 @@
   ],
   "rewrites": [
     {
-      "source": "/google2a766f8451a530d0.html",
-      "destination": "/google2a766f8451a530d0.html"
-    },
-    {
-      "source": "/0e99d20f90e74bcf8fa8e8d4e1207cc0.txt",
-      "destination": "/0e99d20f90e74bcf8fa8e8d4e1207cc0.txt"
-    },
-    {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "source": "/api/(.*)",
+      "destination": "/404"
     },
     {
       "source": "/(.*)",
       "destination": "/"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "status": 404
     }
   ]
 }
