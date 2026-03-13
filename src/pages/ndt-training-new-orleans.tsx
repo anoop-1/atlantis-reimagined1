@@ -7,7 +7,7 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 
-export default function NDTTrainingNew Orleans() {
+export default function NDTTrainingNewOrleans() {
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
