@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Software, CheckCircle, TrendingUp, Users, Database, Award } from 'lucide-react';
+import { Monitor, CheckCircle, TrendingUp, Users, Database, Award } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -201,7 +201,7 @@ export default function NDTERPSoftwareComparison() {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             <div className="flex items-center justify-center gap-2 text-primary mb-4">
-              <Software className="w-5 h-5" />
+              <Monitor className="w-5 h-5" />
               <span className="text-sm font-medium uppercase tracking-wide">Software Comparison</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">

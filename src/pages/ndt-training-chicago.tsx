@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MapPin, Card, CardContent, CardHeader, CardTitle } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import { Card as UICard, CardContent as UICardContent, CardHeader as UICardHeader, CardTitle as UICardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
