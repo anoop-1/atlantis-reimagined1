@@ -201,12 +201,14 @@
   ],
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/404"
-    },
-    {
       "source": "/(.*)",
       "destination": "/"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "status": 404
     }
   ]
 }
