@@ -8,7 +8,7 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 
-export default function aerospace-ndt-services() {
+export default function AerospaceNdtServices() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
