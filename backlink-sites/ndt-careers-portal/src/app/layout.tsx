@@ -23,6 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+      {/* Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1EF92RXSVR');
+      `}} />
         <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
         <link rel="canonical" href="https://ndtcareersportal.com" />
       </head>

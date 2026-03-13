@@ -12,6 +12,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="bg-gradient-to-b from-orange-50 to-white">
         <header className="border-b border-orange-200 bg-white shadow-sm">
+      {/* Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1EF92RXSVR');
+      `}} />
           <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <h1 className="text-2xl font-bold text-orange-700">Petrochemical NDT Hub</h1>
             <div className="flex gap-6 text-sm">

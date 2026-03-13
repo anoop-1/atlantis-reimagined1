@@ -16,6 +16,14 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white text-gray-900">
         <header className="bg-indigo-600 text-white">
+      {/* Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1EF92RXSVR');
+      `}} />
           <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <h1 className="text-2xl font-bold">NDT Automation Future</h1>
             <div className="space-x-6">
