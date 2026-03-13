@@ -44,7 +44,7 @@ export default function Home() {
           Acoustic emission (AE) testing monitors stress-related sounds released during composite loading. As cracks propagate or fibers fracture, acoustic energy releases, detected by sensitive microphones. AE testing monitors in-service composites during operational loading, detecting developing damage in real-time. Portable systems enable field monitoring of critical structures without stopping operations.
         </p>
         <p className="mb-4">
-          AE monitoring enables condition-based maintenance—performing inspections when monitoring indicates developing problems rather than on predetermined schedules. Integration with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-purple-600 hover:underline">monitoring platforms</a> enables automated alerts when damage indicators exceed thresholds.
+          AE monitoring enables condition-based maintenance—performing inspections when monitoring indicates developing problems rather than on predetermined schedules. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-purple-600 hover:underline">monitoring platforms</a> enables automated alerts when damage indicators exceed thresholds.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Manufacturing Quality Assurance</h2>

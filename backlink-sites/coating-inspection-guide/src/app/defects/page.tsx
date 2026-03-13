@@ -36,7 +36,7 @@ export default function DefectsPage() {
           Peeling—coating separation from substrate or lower coat layers—indicates adhesion failure. Causes include inadequate substrate preparation, incompatible coating combinations, or adhesion loss from environmental degradation. Peeling often follows other defects: moisture beneath blisters initiates adhesion loss, leading to progressive peeling. Substrate corrosion generates scale that undermines coating adhesion.
         </p>
         <p className="mb-4">
-          Peeling necessitates corrective action because exposed substrate immediately begins corroding. Scale formation accelerates, further undermining remaining coating. Remediation requires removing failed coating, addressing substrate condition, and reapplication per specification. Organizations implementing <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-emerald-600 hover:underline">NDTConnect platform</a> integration track peeling progression and prioritize maintenance activities.
+          Peeling necessitates corrective action because exposed substrate immediately begins corroding. Scale formation accelerates, further undermining remaining coating. Remediation requires removing failed coating, addressing substrate condition, and reapplication per specification. Organizations implementing <a href="https://ndt-connect.com" rel="noopener" className="text-emerald-600 hover:underline">NDTConnect platform</a> integration track peeling progression and prioritize maintenance activities.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Corrosion Under Coating</h2>

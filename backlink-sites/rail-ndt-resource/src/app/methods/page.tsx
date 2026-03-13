@@ -33,7 +33,7 @@ export default function MethodsPage() {
           Acoustic resonance methods detect wheel cracks by analyzing vibration signatures. Cracked wheels exhibit distinctive resonance frequencies; algorithms differentiate cracked wheels from normal wheels with high accuracy. Vibration analysis systems mounted trackside capture acoustic signatures from passing wheels, automatically alerting maintenance when defects are detected.
         </p>
         <p className="mb-4">
-          These methods complement ultrasonic inspection, providing redundant detection and offering advantages in certain scenarios. Integration of multiple detection modalities through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-gray-700 hover:underline">NDTConnect platform</a> ensures comprehensive defect detection.</p>
+          These methods complement ultrasonic inspection, providing redundant detection and offering advantages in certain scenarios. Integration of multiple detection modalities through <a href="https://ndt-connect.com" rel="noopener" className="text-gray-700 hover:underline">NDTConnect platform</a> ensures comprehensive defect detection.</p>
       </section>
     </div>
   );

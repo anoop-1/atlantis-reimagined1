@@ -26,7 +26,7 @@ export default function TrackAssessmentPage() {
           Inspection results drive corrective maintenance planning. Identified defects initiate work orders specifying repair requirements and timelines. Rail grinding removes minor surface defects before they propagate. Severe cracks require rail replacement or advanced techniques like thermite welding. Maintenance scheduling considers track importance, traffic patterns, and safety criticality.
         </p>
         <p className="mb-4">
-          Integration of inspection findings with maintenance systems through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-gray-700 hover:underline">NDTConnect platform</a> ensures timely maintenance execution and comprehensive tracking of corrective actions.</p>
+          Integration of inspection findings with maintenance systems through <a href="https://ndt-connect.com" rel="noopener" className="text-gray-700 hover:underline">NDTConnect platform</a> ensures timely maintenance execution and comprehensive tracking of corrective actions.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Industry Standards and Compliance</h2>
         <p className="mb-4">

@@ -59,7 +59,7 @@ function Footer() {
               <li><a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="hover:text-white transition-colors">ASNT Level III Consulting</a></li>
               <li><a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" className="hover:text-white transition-colors">Digital Twin Solutions</a></li>
               <li><a href="https://atlantisndt.com/ndt-erp-solution" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT ERP Software</a></li>
-              <li><a href="https://atlantisndt.com/ndt-connect" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDTConnect Platform</a></li>
+              <li><a href="https://ndt-connect.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDTConnect Platform</a></li>
             </ul>
           </div>
           <div>

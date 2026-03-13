@@ -168,7 +168,7 @@ Primary atlantisndt.com pages receiving backlinks:
 
 - https://atlantisndt.com/digital-twins
 - https://atlantisndt.com/ndt-erp-solution
-- https://atlantisndt.com/ndt-connect-platform
+- https://ndt-connect.com
 - https://atlantisndt.com/intelligent-reporting-software
 - https://atlantisndt.com/digital-twin-reporting
 - https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity

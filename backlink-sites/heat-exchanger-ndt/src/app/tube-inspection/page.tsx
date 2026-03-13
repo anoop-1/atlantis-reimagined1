@@ -26,7 +26,7 @@ export default function TubeInspectionPage() {
           Eddy current data interpretation requires understanding material responses and defect signatures. Corrosion creates characteristic patterns. Cracks produce different signatures. Fouling affects signal amplitude. Experienced inspectors distinguish defects from artifacts, accurately sizing indications. Automated analysis software assists interpretation, but experienced judgment remains critical for complex cases.
         </p>
         <p className="mb-4">
-          Organizations implementing standardized interpretation protocols through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-rose-600 hover:underline">consistent procedures</a> ensure reliable decisions across inspection teams.</p>
+          Organizations implementing standardized interpretation protocols through <a href="https://ndt-connect.com" rel="noopener" className="text-rose-600 hover:underline">consistent procedures</a> ensure reliable decisions across inspection teams.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Record Keeping and Trending</h2>
         <p className="mb-4">

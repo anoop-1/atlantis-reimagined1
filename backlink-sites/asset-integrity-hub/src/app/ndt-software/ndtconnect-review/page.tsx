@@ -21,7 +21,7 @@ export default function NDTConnectReviewPage() {
 
         <h1 className="mb-6">NDTConnect Platform: Review, Features & Benefits for NDT Companies</h1>
         <p className="text-lg text-gray-600 mb-8">
-          Finding qualified NDT professionals for projects is one of the biggest challenges inspection companies face. <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect</a> is transforming how companies connect with talent and how inspectors find opportunities. Here's a comprehensive review of how it works and how it benefits your business.
+          Finding qualified NDT professionals for projects is one of the biggest challenges inspection companies face. <a href="https://ndt-connect.com">NDTConnect</a> is transforming how companies connect with talent and how inspectors find opportunities. Here's a comprehensive review of how it works and how it benefits your business.
         </p>
 
         <div className="bg-primary-50 border-l-4 border-primary-600 p-6 rounded mb-12">
@@ -62,7 +62,7 @@ export default function NDTConnectReviewPage() {
 
         <h2>How NDTConnect Works</h2>
         <p>
-          <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect</a> is a professional platform that connects inspection professionals with companies in the NDT industry. Here's how it works:
+          <a href="https://ndt-connect.com">NDTConnect</a> is a professional platform that connects inspection professionals with companies in the NDT industry. Here's how it works:
         </p>
 
         <h3>For Inspection Professionals</h3>
@@ -295,7 +295,7 @@ export default function NDTConnectReviewPage() {
 
         <h2>Conclusion</h2>
         <p>
-          <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect</a> is transforming how inspection companies access talent. By providing a verified network of NDT professionals, centralized communication and coordination, and compliance documentation, NDTConnect enables companies to scale service delivery efficiently while accessing specialized expertise and managing geographic variability.
+          <a href="https://ndt-connect.com">NDTConnect</a> is transforming how inspection companies access talent. By providing a verified network of NDT professionals, centralized communication and coordination, and compliance documentation, NDTConnect enables companies to scale service delivery efficiently while accessing specialized expertise and managing geographic variability.
         </p>
         <p>
           Whether you're a large company looking to supplement staff, a specialist firm looking to scale, or a startup building operations, NDTConnect provides an efficient, scalable approach to accessing the talent you need when you need it.

@@ -304,7 +304,7 @@ Primary Target: atlantisndt.com
 - Location pages: Houston, Dubai, Singapore, Saudi Arabia, Calgary, Aberdeen
 - Career pages: Salary, blog articles, career guide
 - Training: https://atlantisndt.com/training
-- Platform: https://atlantisndt.com/ndt-connect-platform
+- Platform: https://ndt-connect.com
 
 Backlink Quality:
 - All links naturally integrated into context

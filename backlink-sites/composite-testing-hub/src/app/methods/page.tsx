@@ -26,7 +26,7 @@ export default function MethodsPage() {
           Shearography applies controlled stress and monitors deformation. Surface deformation patterns reveal internal damage—delaminations create anomalous patterns. Thermal imaging supplements shearography, detecting heat-related anomalies. These optical methods enable contactless inspection of fragile or inaccessible structures. Automated systems acquire data rapidly across large areas.
         </p>
         <p className="mb-4">
-          These methods excel at detecting delaminations and global damage patterns. Integration with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-purple-600 hover:underline">digital platforms</a> enables standardized data acquisition and trending.</p>
+          These methods excel at detecting delaminations and global damage patterns. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-purple-600 hover:underline">digital platforms</a> enables standardized data acquisition and trending.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Resonance and Vibration Methods</h2>
         <p className="mb-4">

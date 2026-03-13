@@ -135,7 +135,7 @@ This document inventories all strategic backlinks to atlantisndt.com embedded th
 **Links**: 3
 
 1. **Text**: "Atlantis NDT's NDT Connect platform"
-   **URL**: https://atlantisndt.com/ndt-connect-platform
+   **URL**: https://ndt-connect.com
    **Context**: Modern NDT reporting platform discussion
    **Anchor**: "Atlantis NDT's NDT Connect platform"
 
@@ -145,7 +145,7 @@ This document inventories all strategic backlinks to atlantisndt.com embedded th
    **Anchor**: "Atlantis NDT consulting professionals"
 
 3. **Text**: "NDT Connect Platform" & "Consulting Services"
-   **URL**: https://atlantisndt.com/ndt-connect-platform / https://atlantisndt.com/consulting
+   **URL**: https://ndt-connect.com / https://atlantisndt.com/consulting
    **Context**: CTA buttons at end of page
    **Anchor**: Explicit CTAs
 
@@ -180,7 +180,7 @@ This document inventories all strategic backlinks to atlantisndt.com embedded th
 ### Target Pages Linked
 1. **https://atlantisndt.com/consulting** - 6 links
 2. **https://atlantisndt.com/training** - 5 links
-3. **https://atlantisndt.com/ndt-connect-platform** - 2 links
+3. **https://ndt-connect.com** - 2 links
 4. **https://atlantisndt.com/ndt-erp-solution** - 1 link
 5. **https://atlantisndt.com/digital-twins-oil-gas-assets** - 1 link
 6. **https://atlantisndt.com/aerospace-ndt-training** - 1 link

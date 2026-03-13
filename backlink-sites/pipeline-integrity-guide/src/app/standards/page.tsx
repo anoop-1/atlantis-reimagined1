@@ -13,7 +13,7 @@ export default function Standards() {
             ASME B31.4 addresses liquid transportation pipelines, including crude oil, refined products, and other liquids. This standard requires inspections at defined intervals with methodologies dependent on pipeline category and established risk factors. Both standards now incorporate risk-based inspection frameworks that allow operators to demonstrate equivalent safety through analytical approaches rather than rigid inspection calendars.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Section VIII, Division 1 of the ASME Boiler and Pressure Vessel Code addresses pressure vessel design and construction, with applicability to pipeline components including separators, dehydrators, and storage tanks. In-service inspection programs for these components typically align with API standards and CDP (Compliance Data Program) requirements. <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-teal-600 hover:text-teal-800 font-semibold">NDTConnect platform</a> centralizes documentation of compliance with these complex regulatory frameworks.
+            Section VIII, Division 1 of the ASME Boiler and Pressure Vessel Code addresses pressure vessel design and construction, with applicability to pipeline components including separators, dehydrators, and storage tanks. In-service inspection programs for these components typically align with API standards and CDP (Compliance Data Program) requirements. <a href="https://ndt-connect.com" rel="noopener" className="text-teal-600 hover:text-teal-800 font-semibold">NDTConnect platform</a> centralizes documentation of compliance with these complex regulatory frameworks.
           </p>
         </section>
 

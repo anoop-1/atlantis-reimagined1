@@ -36,7 +36,7 @@ export default function Home() {
           Radiographic testing produces film images of weld internal structure. X-rays or gamma rays penetrate welds; denser material (sound metal) attenuates radiation more than voids and inclusions. The resulting radiographic image reveals internal defects—porosity appears as dark spots, inclusions as irregular shadows, cracks as dark lines. Experienced inspectors interpret radiographs, identifying defects and determining acceptability.
         </p>
         <p className="mb-4">
-          Radiography excels at detecting volumetric defects (porosity, inclusions) but struggles with tight cracks. ASME, API, and AWS standards establish radiographic acceptance criteria. Many structural and pressure codes require 100% radiography of critical welds. Though expensive, radiography provides permanent records enabling future review. Integration of radiographic data with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-orange-600 hover:underline">NDTConnect platform</a> enables efficient radiograph management and archival.
+          Radiography excels at detecting volumetric defects (porosity, inclusions) but struggles with tight cracks. ASME, API, and AWS standards establish radiographic acceptance criteria. Many structural and pressure codes require 100% radiography of critical welds. Though expensive, radiography provides permanent records enabling future review. Integration of radiographic data with <a href="https://ndt-connect.com" rel="noopener" className="text-orange-600 hover:underline">NDTConnect platform</a> enables efficient radiograph management and archival.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Ultrasonic Testing</h2>

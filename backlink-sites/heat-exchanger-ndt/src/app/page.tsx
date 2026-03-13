@@ -44,7 +44,7 @@ export default function Home() {
           Fouling—accumulation of deposits on heat transfer surfaces—reduces heat transfer efficiency and traps corrosive fluids against tube walls. Progressive fouling increases corrosion rates and operating costs. Eddy current probes sometimes cannot penetrate heavily fouled tubes, indicating critical fouling. Other methods including mechanical cleaning verification and ultrasonic wall thickness assessment complement eddy current testing.
         </p>
         <p className="mb-4">
-          Fouling management combines inspection with mechanical cleaning. Systematic monitoring through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-rose-600 hover:underline">condition management systems</a> optimizes cleaning timing, balancing fouling risks with cleaning costs and potential damage.
+          Fouling management combines inspection with mechanical cleaning. Systematic monitoring through <a href="https://ndt-connect.com" rel="noopener" className="text-rose-600 hover:underline">condition management systems</a> optimizes cleaning timing, balancing fouling risks with cleaning costs and potential damage.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Ultrasonic Thickness Measurement</h2>

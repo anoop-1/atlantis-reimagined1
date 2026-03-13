@@ -52,7 +52,7 @@ export default function Home() {
             Machine learning algorithms trained on extensive image libraries continue improving NDT data interpretation quality and consistency. Deep learning approaches enable automated defect detection and classification with accuracy approaching or exceeding skilled human interpreters. Pattern recognition algorithms identify subtle signatures indicating emerging problems before they become visually obvious.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-violet-600 hover:text-violet-800 font-semibold">NDTConnect platform</a> integrates AI-enabled analysis supporting continuous optimization of NDT procedures and real-time decision support for field inspectors. These technologies represent the frontier of modern inspection, enabling superior defect detection, faster interpretation, and more confident operational decisions based on technical evidence.
+            <a href="https://ndt-connect.com" rel="noopener" className="text-violet-600 hover:text-violet-800 font-semibold">NDTConnect platform</a> integrates AI-enabled analysis supporting continuous optimization of NDT procedures and real-time decision support for field inspectors. These technologies represent the frontier of modern inspection, enabling superior defect detection, faster interpretation, and more confident operational decisions based on technical evidence.
           </p>
         </section>
       </article>

@@ -36,7 +36,7 @@ export default function TechnologiesPage() {
           3D laser scanning and structured light systems generate precise geometric data. While not strictly NDT in the traditional sense, these technologies complement inspection programs by correlating defect locations with precise geometry. Automated laser scanning systems create point clouds, measure thickness variations, and detect surface deformations.
         </p>
         <p className="mb-4">
-          Integration with NDT results provides context—understanding whether a detected defect falls in a stress concentration or a low-risk zone. This intersection of dimensional metrology and material characterization represents the future of comprehensive asset assessment. Platforms like <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect</a> now integrate laser metrology data alongside traditional inspection results.
+          Integration with NDT results provides context—understanding whether a detected defect falls in a stress concentration or a low-risk zone. This intersection of dimensional metrology and material characterization represents the future of comprehensive asset assessment. Platforms like <a href="https://ndt-connect.com" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect</a> now integrate laser metrology data alongside traditional inspection results.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Automated Guided Vehicles</h2>

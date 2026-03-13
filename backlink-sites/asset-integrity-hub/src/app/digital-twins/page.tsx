@@ -223,7 +223,7 @@ export default function DigitalTwinsPage() {
           <li><strong>Reporting Software:</strong> <a href="https://atlantisndt.com/intelligent-reporting-software">Intelligent reporting tools</a> automate report generation and ensure data quality</li>
           <li><strong>Sensor Technology:</strong> IoT sensors provide real-time condition data that feeds digital twins</li>
           <li><strong>AI/ML Tools:</strong> Machine learning algorithms identify patterns and enable predictive analytics</li>
-          <li><strong>Professional Networks:</strong> <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect and similar platforms</a> connect you with experts who can support implementation</li>
+          <li><strong>Professional Networks:</strong> <a href="https://ndt-connect.com">NDTConnect and similar platforms</a> connect you with experts who can support implementation</li>
         </ul>
 
         <h2>Conclusion</h2>

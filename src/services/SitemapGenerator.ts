@@ -93,7 +93,7 @@ export function generateSitemap(): string {
   </url>
 
   <url>
-    <loc>https://atlantisndt.com/ndt-connect</loc>
+    <loc>https://ndt-connect.com</loc>
     <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

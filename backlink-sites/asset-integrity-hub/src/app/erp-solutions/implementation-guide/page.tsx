@@ -375,7 +375,7 @@ export default function ERPImplementationGuidePage() {
           <li><strong>Digital twins:</strong> Once you have high-quality inspection data in your ERP, you can begin building <a href="https://atlantisndt.com/digital-twins">digital twin models</a></li>
           <li><strong>Automated reporting:</strong> With inspection data properly structured in ERP, you can implement <a href="https://atlantisndt.com/intelligent-reporting-software">intelligent reporting software</a> to automate report generation</li>
           <li><strong>Advanced analytics:</strong> Build dashboards and analytics on top of clean, integrated data from your ERP</li>
-          <li><strong>Talent management:</strong> Integrate with <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect and similar platforms</a> for better resource planning</li>
+          <li><strong>Talent management:</strong> Integrate with <a href="https://ndt-connect.com">NDTConnect and similar platforms</a> for better resource planning</li>
         </ul>
 
         <h2>Conclusion</h2>

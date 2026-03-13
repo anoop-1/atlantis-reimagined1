@@ -28,7 +28,7 @@ export default function Home() {
           Rail heads experience surface fatigue and subsurface cracking from repetitive wheel loading. Shelling—near-surface fatigue failure—creates safety hazards and accelerates deeper cracking. Eddy current arrays scan rail heads, detecting subsurface fatigue cracks invisible to visual inspection. Phased array ultrasonic testing measures rail wear and identifies internal defects. These automated systems inspect thousands of kilometers of track, enabling preventive maintenance before derailments occur.
         </p>
         <p className="mb-4">
-          Track inspection integrates thermal imaging for bearing temperature monitoring, visual assessment for visible defects, and ultrasonic testing for internal conditions. Systematic inspection creates comprehensive asset health pictures, informing maintenance planning. Integration with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-gray-700 hover:underline">NDTConnect platform</a> enables centralized tracking of thousands of inspection points across rail networks.
+          Track inspection integrates thermal imaging for bearing temperature monitoring, visual assessment for visible defects, and ultrasonic testing for internal conditions. Systematic inspection creates comprehensive asset health pictures, informing maintenance planning. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-gray-700 hover:underline">NDTConnect platform</a> enables centralized tracking of thousands of inspection points across rail networks.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Bearing and Component Inspection</h2>

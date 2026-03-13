@@ -36,7 +36,7 @@ export default function Home() {
           Crushers, mills, conveyors, and processing equipment endure continuous high-stress operation. Liners wear and require replacement; monitoring detects wear enabling planned replacement. Bearing condition monitoring prevents catastrophic bearing failures. Thermography identifies electrical heating problems before equipment burnout.
         </p>
         <p className="mb-4">
-          Real-time condition monitoring systems embedded in processing equipment continuously assess machine health. Vibration analysis detects developing bearing and seal problems. Acoustic emission detects stress events suggesting crack initiation. Integration with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect platform</a> provides centralized monitoring across processing facilities.
+          Real-time condition monitoring systems embedded in processing equipment continuously assess machine health. Vibration analysis detects developing bearing and seal problems. Acoustic emission detects stress events suggesting crack initiation. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect platform</a> provides centralized monitoring across processing facilities.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Wear and Corrosion Management</h2>

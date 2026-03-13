@@ -28,7 +28,7 @@ export default function TrendsPage() {
           The future includes coordinated inspection by multiple robots operating simultaneously. Swarm robotics—inspired by animal behavior—enables distributed teams to perform complex inspections more efficiently than individual systems. Multiple drones might coordinate to inspect a large structure, each covering defined zones while sharing findings and adapting to detected anomalies.
         </p>
         <p className="mb-4">
-          Multi-agent systems excel in large-area coverage, redundancy, and fault tolerance. If one robot fails, others continue operations. Swarms efficiently explore complex geometries—refinery piping networks, offshore structures, underground utilities—that challenge single-robot approaches. Integration of swarm data through centralized platforms like <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect</a> transforms findings from diverse sources into comprehensive asset health assessments.
+          Multi-agent systems excel in large-area coverage, redundancy, and fault tolerance. If one robot fails, others continue operations. Swarms efficiently explore complex geometries—refinery piping networks, offshore structures, underground utilities—that challenge single-robot approaches. Integration of swarm data through centralized platforms like <a href="https://ndt-connect.com" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect</a> transforms findings from diverse sources into comprehensive asset health assessments.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Augmented Reality for Technician Support</h2>

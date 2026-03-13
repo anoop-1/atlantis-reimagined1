@@ -41,7 +41,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Topics Covered</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p>
-              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/blog/ut-vs-rt-comparison" target="_blank" class="text-blue-600 hover:underline">UT vs RT comparison</a>,  <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" target="_blank" rel="ugc" class="text-blue-600 hover:underline">tank inspection intervals</a>,  <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>,  <a href="https://atlantisndt.com/" target="_blank" class="text-blue-600 hover:underline">visit Atlantis NDT</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="nofollow" class="text-blue-600 hover:underline">piping inspector certification</a>.
+              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/blog/ut-vs-rt-comparison" target="_blank" class="text-blue-600 hover:underline">UT vs RT comparison</a>,  <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" target="_blank" rel="ugc" class="text-blue-600 hover:underline">tank inspection intervals</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>,  <a href="https://atlantisndt.com/" target="_blank" class="text-blue-600 hover:underline">visit Atlantis NDT</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="nofollow" class="text-blue-600 hover:underline">piping inspector certification</a>.
             </p>
           </div>
         </section>
@@ -50,7 +50,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Industry Standards & Compliance</h2>
           <p>
             Compliance with international standards is essential. Organizations working with
-             <a href="https://atlantisndt.com/digital-twins" target="_blank" class="text-blue-600 hover:underline">digital twin technology</a>,  <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" class="text-blue-600 hover:underline">NDT reporting software</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" class="text-blue-600 hover:underline">API 570 courses</a> ensure their programs meet all applicable code requirements.
+             <a href="https://atlantisndt.com/digital-twins" target="_blank" class="text-blue-600 hover:underline">digital twin technology</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" class="text-blue-600 hover:underline">NDT reporting software</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" class="text-blue-600 hover:underline">API 570 courses</a> ensure their programs meet all applicable code requirements.
           </p>
         </section>
 

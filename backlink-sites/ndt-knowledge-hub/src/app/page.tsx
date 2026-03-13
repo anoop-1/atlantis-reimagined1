@@ -561,7 +561,7 @@ export default function Home() {
                 </p>
               </div>
               <a
-                href="https://atlantisndt.com/ndt-connect-platform"
+                href="https://ndt-connect.com"
                 className="inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-800 transition-colors"
               >
                 Explore NDTConnect <span className="ml-2 w-4 h-4" />

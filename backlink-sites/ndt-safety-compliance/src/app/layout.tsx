@@ -40,7 +40,7 @@ export default function RootLayout({
                   <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="text-red-600 hover:underline">Compliance Consulting</a></li>
                   <li><a href="https://atlantisndt.com/training" rel="noopener" className="text-red-600 hover:underline">Certified Training</a></li>
                   <li><a href="https://atlantisndt.com/digital-twins" rel="noopener" className="text-red-600 hover:underline">Digital Systems</a></li>
-                  <li><a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-red-600 hover:underline">Management Platform</a></li>
+                  <li><a href="https://ndt-connect.com" rel="noopener" className="text-red-600 hover:underline">Management Platform</a></li>
                   <li><a href="https://atlantisndt.com/erp" rel="noopener" className="text-red-600 hover:underline">Documentation Systems</a></li>
                 </ul>
               </div>

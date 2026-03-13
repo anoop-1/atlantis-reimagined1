@@ -52,7 +52,7 @@ export default function Home() {
           Moisture behind coatings initiates failures. Rapid, non-destructive moisture detection enables early identification of problems before visible symptoms emerge. Calcium chloride test kits and electronic moisture meters detect moisture at coating-substrate interfaces. Systematic mapping across large surfaces identifies moisture-prone zones—low points, inadequate ventilation areas, or locations subject to cyclical wetting.
         </p>
         <p className="mb-4">
-          Modern infrared thermography identifies moisture and delaminations by detecting thermal signatures. Wet regions conduct heat differently than sound areas, creating visible patterns during controlled heating cycles. This non-contact method enables rapid assessment of large areas. Organizations deploying thermographic assessment through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-emerald-600 hover:underline">NDTConnect platform</a> integration can track coating condition across entire asset portfolios efficiently.
+          Modern infrared thermography identifies moisture and delaminations by detecting thermal signatures. Wet regions conduct heat differently than sound areas, creating visible patterns during controlled heating cycles. This non-contact method enables rapid assessment of large areas. Organizations deploying thermographic assessment through <a href="https://ndt-connect.com" rel="noopener" className="text-emerald-600 hover:underline">NDTConnect platform</a> integration can track coating condition across entire asset portfolios efficiently.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Specification Compliance and Remediation</h2>

@@ -94,7 +94,7 @@ function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a href="https://atlantisndt.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Atlantis NDT &mdash; Global NDT Consulting &amp; Training</a></li>
               <li><a href="https://atlantisndt.com/ndt-erp-solution" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT ERP Software Solutions</a></li>
-              <li><a href="https://atlantisndt.com/ndt-connect-platform" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDTConnect Platform</a></li>
+              <li><a href="https://ndt-connect.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDTConnect Platform</a></li>
             </ul>
           </div>
           <div>

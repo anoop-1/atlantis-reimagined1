@@ -41,7 +41,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Topics Covered</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p>
-              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/digital-twins" target="_blank" class="text-blue-600 hover:underline">request a digital twin demo</a>,  <a href="https://atlantisndt.com/training" target="_blank" class="text-blue-600 hover:underline">NDT training courses</a>,  <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" class="text-blue-600 hover:underline">replace PDF reports</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="nofollow" class="text-blue-600 hover:underline">piping inspector certification</a>.
+              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/digital-twins" target="_blank" class="text-blue-600 hover:underline">request a digital twin demo</a>,  <a href="https://atlantisndt.com/training" target="_blank" class="text-blue-600 hover:underline">NDT training courses</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" class="text-blue-600 hover:underline">replace PDF reports</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="nofollow" class="text-blue-600 hover:underline">piping inspector certification</a>.
             </p>
           </div>
         </section>
@@ -57,7 +57,7 @@ export default function Page() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
           <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/ndt-erp-solution" target="_blank" class="text-blue-600 hover:underline">NDT ERP software</a>,  <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" class="text-blue-600 hover:underline">NDT reporting software</a>.
+            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/ndt-erp-solution" target="_blank" class="text-blue-600 hover:underline">NDT ERP software</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" class="text-blue-600 hover:underline">NDT reporting software</a>.
           </p>
         </section>
 

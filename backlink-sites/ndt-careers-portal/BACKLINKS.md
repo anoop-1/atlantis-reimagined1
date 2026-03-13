@@ -107,7 +107,7 @@ This satellite site drives qualified traffic to Atlantis NDT's consulting, train
 - Total: 8+ backlinks
 
 #### NDT Connect Platform
-**URL:** https://atlantisndt.com/ndt-connect-platform  
+**URL:** https://ndt-connect.com  
 **Mentions:**
 - Resources page (main section, 2+)
 - Homepage (1)

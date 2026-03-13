@@ -316,8 +316,8 @@ export default function ERPSolutionsPage() {
         <ul className="list-disc pl-6 space-y-3 mb-6">
           <li><strong>Data foundation:</strong> ERP collects and manages inspection data that feeds into <a href="https://atlantisndt.com/digital-twins">digital twins</a> and advanced analytics</li>
           <li><strong>Reporting integration:</strong> ERP works with <a href="https://atlantisndt.com/intelligent-reporting-software">intelligent reporting software</a> to automate report generation</li>
-          <li><strong>Talent management:</strong> Integration with <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect and similar talent platforms</a> streamlines resource planning</li>
-          <li><strong>Client communication:</strong> Integration with <a href="https://atlantisndt.com/ndt-connect-platform">professional networks</a> improves client engagement</li>
+          <li><strong>Talent management:</strong> Integration with <a href="https://ndt-connect.com">NDTConnect and similar talent platforms</a> streamlines resource planning</li>
+          <li><strong>Client communication:</strong> Integration with <a href="https://ndt-connect.com">professional networks</a> improves client engagement</li>
         </ul>
 
         <h2>Conclusion</h2>

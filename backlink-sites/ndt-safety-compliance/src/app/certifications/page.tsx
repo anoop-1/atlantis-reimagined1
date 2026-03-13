@@ -33,7 +33,7 @@ export default function CertificationsPage() {
           Most certifications require continuing education maintaining currency. Standards evolve, technologies advance, and methodologies improve. Continuing education ensures certified professionals remain current with industry developments. Requirements typically mandate specific hours annually or biannually, often including specified percentages in classroom versus online formats.
         </p>
         <p className="mb-4">
-          Systematic tracking of continuing education through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-red-600 hover:underline">certification management systems</a> simplifies compliance and ensures organizational credentials remain valid.</p>
+          Systematic tracking of continuing education through <a href="https://ndt-connect.com" rel="noopener" className="text-red-600 hover:underline">certification management systems</a> simplifies compliance and ensures organizational credentials remain valid.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Exam Preparation Strategies</h2>
         <p className="mb-4">

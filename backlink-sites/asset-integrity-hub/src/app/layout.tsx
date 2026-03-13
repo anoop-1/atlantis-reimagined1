@@ -76,7 +76,7 @@ function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a href="https://atlantisndt.com/digital-twins">Digital Twin Platform</a></li>
               <li><a href="https://atlantisndt.com/ndt-erp-solution">NDT ERP Solution</a></li>
-              <li><a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect Platform</a></li>
+              <li><a href="https://ndt-connect.com">NDTConnect Platform</a></li>
               <li><a href="https://atlantisndt.com/intelligent-reporting-software">Reporting Software</a></li>
             </ul>
           </div>

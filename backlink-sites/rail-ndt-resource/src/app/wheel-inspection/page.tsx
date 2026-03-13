@@ -26,7 +26,7 @@ export default function WheelInspectionPage() {
           Wheel inspection results drive maintenance decisions affecting safety. Wheels exceeding established defect limits must be removed and either repaired or scrapped. Maintenance procedures ensure proper installation and verification of repaired wheels. Operating procedures address special handling of trains with marginal wheels until permanent repairs are completed.
         </p>
         <p className="mb-4">
-          Integration of inspection results with maintenance management systems through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-gray-700 hover:underline">NDTConnect</a> ensures seamless communication between inspection and maintenance functions.</p>
+          Integration of inspection results with maintenance management systems through <a href="https://ndt-connect.com" rel="noopener" className="text-gray-700 hover:underline">NDTConnect</a> ensures seamless communication between inspection and maintenance functions.</p>
       </section>
     </div>
   );

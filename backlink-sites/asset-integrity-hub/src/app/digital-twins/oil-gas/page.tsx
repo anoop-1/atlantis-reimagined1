@@ -221,7 +221,7 @@ export default function OilGasDigitalTwinsPage() {
         </p>
 
         <p>
-          Platforms like <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect</a> can help facilitate communication between corporate engineering teams and field operations teams, supporting adoption of digital twin insights.
+          Platforms like <a href="https://ndt-connect.com">NDTConnect</a> can help facilitate communication between corporate engineering teams and field operations teams, supporting adoption of digital twin insights.
         </p>
 
         <h2>The Future of Digital Twins in Oil & Gas</h2>

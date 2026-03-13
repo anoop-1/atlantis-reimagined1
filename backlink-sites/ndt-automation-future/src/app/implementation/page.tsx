@@ -20,7 +20,7 @@ export default function ImplementationPage() {
           Choosing appropriate technologies requires matching capabilities to requirements. Phased array ultrasonic systems excel at weld inspection but may not suit small-diameter piping. Eddy current arrays detect surface defects brilliantly but cannot penetrate coatings or corrosion product. Thermography provides rapid screening but sometimes requires confirmatory conventional testing.
         </p>
         <p className="mb-4">
-          Optimal automation often combines multiple complementary methods. A comprehensive pipeline inspection program might use magnetic wheel crawlers carrying multi-sensor payloads—ultrasonic for wall thickness measurement, eddy current for external surface crack detection, and thermography for corrosion pattern analysis. Integrated data management through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect platform</a> simplifies handling findings from diverse sensors.
+          Optimal automation often combines multiple complementary methods. A comprehensive pipeline inspection program might use magnetic wheel crawlers carrying multi-sensor payloads—ultrasonic for wall thickness measurement, eddy current for external surface crack detection, and thermography for corrosion pattern analysis. Integrated data management through <a href="https://ndt-connect.com" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect platform</a> simplifies handling findings from diverse sensors.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Personnel Training and Development</h2>

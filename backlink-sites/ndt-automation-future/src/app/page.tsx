@@ -48,7 +48,7 @@ export default function Home() {
           Smart factories and connected industrial systems demand inspection data in real-time. NDT automation integrates seamlessly with Industry 4.0 ecosystems through cloud connectivity and standard data formats. Inspection results flow automatically to enterprise systems, triggering alerts, generating work orders, and updating asset registries.
         </p>
         <p className="mb-4">
-          The <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect platform</a> exemplifies this integration, providing centralized inspection management, real-time dashboards, and automated reporting. Organizations gain end-to-end visibility—equipment condition, inspection history, maintenance schedules, and compliance status—through unified interfaces.
+          The <a href="https://ndt-connect.com" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect platform</a> exemplifies this integration, providing centralized inspection management, real-time dashboards, and automated reporting. Organizations gain end-to-end visibility—equipment condition, inspection history, maintenance schedules, and compliance status—through unified interfaces.
         </p>
         <p className="mb-4">
           This digital integration creates feedback loops. Production systems adjust parameters based on inspection findings. Maintenance schedules adapt to equipment health. Supply chains optimize component sourcing based on defect patterns. The result: dramatically improved operational efficiency and asset reliability across enterprises.

@@ -56,7 +56,7 @@ export default function Page() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
           <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/blog/ut-vs-rt-comparison" target="_blank" class="text-blue-600 hover:underline">ultrasonic vs radiographic testing</a>,  <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" target="_blank" class="text-blue-600 hover:underline">API 653 explained</a>,  <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>.
+            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/blog/ut-vs-rt-comparison" target="_blank" class="text-blue-600 hover:underline">ultrasonic vs radiographic testing</a>,  <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" target="_blank" class="text-blue-600 hover:underline">API 653 explained</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>.
           </p>
         </section>
 

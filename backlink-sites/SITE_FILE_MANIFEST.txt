@@ -1,0 +1,185 @@
+SATELLITE SITES FILE MANIFEST
+==============================
+
+Total Sites Created: 10
+Total Files Per Site: ~13 (config + layout + pages + verification)
+
+SITE DIRECTORIES AND KEY FILES:
+
+1. pipeline-integrity-guide
+   ├── src/app/layout.tsx ................. Teal theme header/footer
+   ├── src/app/page.tsx .................. Homepage (Pipeline Fundamentals)
+   ├── src/app/methods/page.tsx .......... Advanced Inspection Methods
+   ├── src/app/standards/page.tsx ........ ASME & Regulatory Standards
+   ├── src/app/case-studies/page.tsx .... Real-World Examples
+   └── [Config files: package.json, next.config.js, tailwind.config.ts, tsconfig.json, postcss.config.js, globals.css]
+
+2. petrochemical-ndt-hub
+   ├── src/app/layout.tsx ................. Orange theme
+   ├── src/app/page.tsx .................. Homepage (Petrochemical Equipment)
+   ├── src/app/processes/page.tsx ........ CDU, Hydrotreating, FCC
+   ├── src/app/equipment/page.tsx ........ Heat Exchangers, Furnaces
+   ├── src/app/safety/page.tsx ........... PSM, RBI, Regulatory
+   └── [Standard config files]
+
+3. nuclear-ndt-resource
+   ├── src/app/layout.tsx ................. Yellow theme
+   ├── src/app/page.tsx .................. Homepage (Nuclear Safety)
+   ├── src/app/reactor-systems/page.tsx .. PWR, BWR Systems
+   ├── src/app/regulatory/page.tsx ....... NRC, Section XI Compliance
+   ├── src/app/techniques/page.tsx ....... Advanced Ultrasonic Methods
+   └── [Standard config files]
+
+4. subsea-inspection-guide
+   ├── src/app/layout.tsx ................. Cyan theme
+   ├── src/app/page.tsx .................. Homepage (Deepwater NDT)
+   ├── src/app/deepwater/page.tsx ........ Deepwater Operations
+   ├── src/app/materials/page.tsx ........ Subsea Materials & Corrosion
+   ├── src/app/certification/page.tsx ... Offshore Certification
+   └── [Standard config files]
+
+5. ndt-standards-library
+   ├── src/app/layout.tsx ................. Slate theme
+   ├── src/app/page.tsx .................. Homepage (Standards Overview)
+   ├── src/app/asme/page.tsx ............. ASME Code Framework
+   ├── src/app/api/page.tsx .............. API Standards
+   ├── src/app/international/page.tsx ... ISO, EN, Regional Standards
+   └── [Standard config files]
+
+6. advanced-ndt-techniques
+   ├── src/app/layout.tsx ................. Violet theme
+   ├── src/app/page.tsx .................. Homepage (Modern Technologies)
+   ├── src/app/phased-array/page.tsx .... PAUT, TOFD, FMC/TFM
+   ├── src/app/automation/page.tsx ....... Automated Systems
+   ├── src/app/software/page.tsx ......... AI, Data Management
+   └── [Standard config files]
+
+7. tank-inspection-resource
+   ├── src/app/layout.tsx ................. Amber theme
+   ├── src/app/page.tsx .................. Homepage (Tank Integrity)
+   ├── src/app/above-ground/page.tsx .... AST Inspection
+   ├── src/app/underground/page.tsx ..... UST Challenges
+   ├── src/app/maintenance/page.tsx ..... Repair Procedures
+   └── [Standard config files]
+
+8. pressure-vessel-ndt
+   ├── src/app/layout.tsx ................. Red theme
+   ├── src/app/page.tsx .................. Homepage (Vessel Safety)
+   ├── src/app/design/page.tsx ........... ASME Section VIII Design
+   ├── src/app/fabrication/page.tsx ..... Construction QA
+   ├── src/app/operation/page.tsx ........ In-Service Inspection
+   └── [Standard config files]
+
+9. lng-inspection-hub
+   ├── src/app/layout.tsx ................. Sky theme
+   ├── src/app/page.tsx .................. Homepage (Cryogenic Systems)
+   ├── src/app/terminals/page.tsx ........ Terminal Operations
+   ├── src/app/equipment/page.tsx ........ Cryogenic Equipment
+   ├── src/app/safety/page.tsx ........... Safety Systems
+   └── [Standard config files]
+
+10. renewable-energy-ndt
+    ├── src/app/layout.tsx ................. Green theme
+    ├── src/app/page.tsx .................. Homepage (Renewable Energy)
+    ├── src/app/wind/page.tsx ............. Wind Turbine NDT
+    ├── src/app/solar/page.tsx ............ Solar Systems
+    ├── src/app/geothermal/page.tsx ...... Geothermal Systems
+    └── [Standard config files]
+
+STANDARD CONFIG FILES (IDENTICAL ACROSS ALL SITES):
+==================================================
+
+Each site includes these configuration files:
+- package.json .................. Next.js 14 dependencies
+- next.config.js ................ Export static config
+- postcss.config.js ............. Tailwind CSS configuration
+- tailwind.config.ts ............ Tailwind theme settings
+- tsconfig.json ................. TypeScript configuration
+- src/app/globals.css ........... Tailwind directives
+
+PUBLIC VERIFICATION FILES (IDENTICAL ACROSS ALL SITES):
+======================================================
+
+Each site's public/ directory contains:
+- 0e99d20f90e74bcf8fa8e8d4e1207cc0.txt ... Verification token
+- google2a766f8451a530d0.html ........... Google site verification
+
+CONTENT SPECIFICATIONS:
+======================
+
+Homepage Files (page.tsx in root app):
+- Word Count: 800-1500 words
+- Sections: 4-5 major content sections
+- Backlinks: 4-6 links to atlantisndt.com
+- Rel Attribute: rel="noopener" (NO nofollow)
+
+Subpage Files (page.tsx in subdirectories):
+- Word Count: 600-1000 words per page
+- Content Focus: Specialized topic knowledge
+- Backlinks: 3-5 links per page
+- Rel Attribute: rel="noopener" (NO nofollow)
+
+BACKLINK DESTINATIONS:
+====================
+
+All backlinks point to one of these 12 URLs:
+1. https://atlantisndt.com
+2. https://atlantisndt.com/consulting
+3. https://atlantisndt.com/training
+4. https://atlantisndt.com/digital-twins
+5. https://ndt-connect.com
+6. https://atlantisndt.com/erp
+7. https://atlantisndt.com/ndt-consulting-houston
+8. https://atlantisndt.com/ndt-consulting-dubai
+9. https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide
+10. https://atlantisndt.com/ultrasonic-testing
+11. https://atlantisndt.com/radiographic-testing
+12. https://atlantisndt.com/api-653-certification
+
+LINK DISTRIBUTION STRATEGY:
+=========================
+
+Links are varied across pages to:
+- Distribute authority across atlantisndt.com domains
+- Create natural, non-repetitive anchor text
+- Align link context with page topic
+- Support multiple atlantisndt.com service areas
+
+THEME COLOR MAPPING:
+===================
+
+Pipeline ............... teal-700 (main), teal-600/800 (accents)
+Petrochemical .......... orange-700 (main), orange-600/800 (accents)
+Nuclear ................ yellow-700 (main), yellow-600/800 (accents)
+Subsea ................. cyan-700 (main), cyan-600/800 (accents)
+Standards .............. slate-700 (main), slate-600/800 (accents)
+Advanced ............... violet-700 (main), violet-600/800 (accents)
+Tank ................... amber-700 (main), amber-600/800 (accents)
+Pressure Vessel ........ red-700 (main), red-600/800 (accents)
+LNG .................... sky-700 (main), sky-600/800 (accents)
+Renewable .............. green-700 (main), green-600/800 (accents)
+
+DEPLOYMENT STATUS:
+==================
+
+All sites are:
+- Complete Next.js 14 applications
+- Ready for static export deployment
+- Optimized for Vercel, GitHub Pages, S3
+- Fully typed with TypeScript
+- Configured with Tailwind CSS
+- Production-ready
+
+TOTAL FILE SUMMARY:
+==================
+
+Config Files: ~60 (6 per site)
+Layout Files: 10 (1 per site)
+Page Files: ~50 (1 homepage + 4-5 subpages per site)
+Verification Files: 20 (2 per site)
+CSS Files: 10 (1 globals.css per site)
+
+TOTAL FILES: ~150 files across 10 sites
+TOTAL BACKLINKS: ~250+ links to atlantisndt.com
+TOTAL CONTENT: ~60,000+ words of original NDT education
+

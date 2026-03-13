@@ -232,7 +232,7 @@ All pages include 2-3+ strategic backlinks to:
 - https://atlantisndt.com/digital-twins
 - https://atlantisndt.com/ndt-erp-solution
 - https://atlantisndt.com/intelligent-reporting-software
-- https://atlantisndt.com/ndt-connect-platform
+- https://ndt-connect.com
 - https://atlantisndt.com/digital-twin-reporting
 - Blog posts on atlantisndt.com
 

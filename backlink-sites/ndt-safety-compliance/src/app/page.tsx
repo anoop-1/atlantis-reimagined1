@@ -44,7 +44,7 @@ export default function Home() {
           Quality assurance programs ensure consistent, reliable inspection results. Calibration procedures maintain equipment accuracy. Personnel qualification verifies competency. Procedure documentation standardizes methods. Regular audits verify program effectiveness. Quality programs satisfy regulatory requirements and support organizational confidence in inspection findings.
         </p>
         <p className="mb-4">
-          Systematic quality approaches through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-red-600 hover:underline">NDTConnect platform</a> integration enable comprehensive program management and continuous improvement.
+          Systematic quality approaches through <a href="https://ndt-connect.com" rel="noopener" className="text-red-600 hover:underline">NDTConnect platform</a> integration enable comprehensive program management and continuous improvement.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">International Perspectives</h2>

@@ -26,7 +26,7 @@ export default function EquipmentPage() {
           Conveyor systems transport extracted ore continuously. Bearing failures, idler degradation, and belt wear reduce efficiency and cause downtime. Thermography detects bearing overheating before failure. Ultrasonic testing assesses bearing condition. Belt inspection systems identify wear requiring replacement.
         </p>
         <p className="mb-4">
-          Automated monitoring systems continuously assess conveyor condition, alerting maintenance to developing problems. Integration with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect platform</a> enables proactive maintenance scheduling minimizing production disruption.</p>
+          Automated monitoring systems continuously assess conveyor condition, alerting maintenance to developing problems. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect platform</a> enables proactive maintenance scheduling minimizing production disruption.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Crusher and Mill Inspection</h2>
         <p className="mb-4">

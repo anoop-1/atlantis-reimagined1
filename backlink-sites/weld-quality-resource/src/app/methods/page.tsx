@@ -33,7 +33,7 @@ export default function MethodsPage() {
           Automated ultrasonic scanning systems mounted on weld tracks perform rapid, consistent inspection with minimal operator variability. Computer control ensures consistent beam angles, scan patterns, and focal depths. Data records provide permanent inspection records. Integration with defect detection algorithms automatically identifies flaws, eliminating human interpretation inconsistencies.
         </p>
         <p className="mb-4">
-          Automated systems excel in high-volume production environments. Consistent results enable trending and statistical analysis. Systems integrated with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-orange-600 hover:underline">NDTConnect</a> automation enable real-time defect notifications and seamless quality management.</p>
+          Automated systems excel in high-volume production environments. Consistent results enable trending and statistical analysis. Systems integrated with <a href="https://ndt-connect.com" rel="noopener" className="text-orange-600 hover:underline">NDTConnect</a> automation enable real-time defect notifications and seamless quality management.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Eddy Current Testing</h2>
         <p className="mb-4">

@@ -155,7 +155,7 @@ All backlinks point to existing atlantisndt.com pages to drive authority and tra
 
 - **Training & Platform:**
   - https://atlantisndt.com/training
-  - https://atlantisndt.com/ndt-connect-platform
+  - https://ndt-connect.com
 
 ### Backlink Distribution
 - **Average per page:** 2-3 natural, contextual backlinks

@@ -268,7 +268,7 @@ export default function ResourcesPage() {
       <h2>NDT Connect Platform</h2>
 
       <p>
-        <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect Platform</a> is a professional networking and resource platform for NDT professionals, offering:
+        <a href="https://ndt-connect.com">NDTConnect Platform</a> is a professional networking and resource platform for NDT professionals, offering:
       </p>
 
       <ul>
@@ -301,7 +301,7 @@ export default function ResourcesPage() {
         <li>Register for appropriate training program</li>
         <li>Explore <a href="https://atlantisndt.com/training">Atlantis NDT training and consulting</a> options</li>
         <li>Review <a href="/careers">complete career path guidance</a></li>
-        <li><a href="https://atlantisndt.com/ndt-connect-platform">Connect through NDTConnect Platform</a></li>
+        <li><a href="https://ndt-connect.com">Connect through NDTConnect Platform</a></li>
       </ul>
 
       <script

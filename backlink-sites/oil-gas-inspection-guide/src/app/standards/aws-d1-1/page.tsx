@@ -50,7 +50,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Industry Standards & Compliance</h2>
           <p>
             Compliance with international standards is essential. Organizations working with
-             <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>,  <a href="https://atlantisndt.com/" target="_blank" class="text-blue-600 hover:underline">visit Atlantis NDT</a>,  <a href="https://atlantisndt.com/api-653-certification" target="_blank" class="text-blue-600 hover:underline">API 653 study materials</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="nofollow" class="text-blue-600 hover:underline">piping inspector certification</a> ensure their programs meet all applicable code requirements.
+             <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>,  <a href="https://atlantisndt.com/" target="_blank" class="text-blue-600 hover:underline">visit Atlantis NDT</a>,  <a href="https://atlantisndt.com/api-653-certification" target="_blank" class="text-blue-600 hover:underline">API 653 study materials</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="nofollow" class="text-blue-600 hover:underline">piping inspector certification</a> ensure their programs meet all applicable code requirements.
           </p>
         </section>
 

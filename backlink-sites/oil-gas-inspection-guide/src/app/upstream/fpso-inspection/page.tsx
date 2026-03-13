@@ -57,7 +57,7 @@ export default function Page() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
           <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/ndt-for-oil-gas" target="_blank" class="text-blue-600 hover:underline">offshore NDT services</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" class="text-blue-600 hover:underline">digital twin technology</a>,  <a href="https://atlantisndt.com/ndt-connect" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>.
+            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/ndt-for-oil-gas" target="_blank" class="text-blue-600 hover:underline">offshore NDT services</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" class="text-blue-600 hover:underline">digital twin technology</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>.
           </p>
         </section>
 

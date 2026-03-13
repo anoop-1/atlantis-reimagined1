@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <li><a href="https://atlantisndt.com/training" rel="noopener" className="hover:text-violet-200">Training</a></li>
                   <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="hover:text-violet-200">Consulting</a></li>
                   <li><a href="https://atlantisndt.com/digital-twins" rel="noopener" className="hover:text-violet-200">Digital Twins</a></li>
-                  <li><a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="hover:text-violet-200">NDTConnect</a></li>
+                  <li><a href="https://ndt-connect.com" rel="noopener" className="hover:text-violet-200">NDTConnect</a></li>
                   <li><a href="https://atlantisndt.com/ultrasonic-testing" rel="noopener" className="hover:text-violet-200">Ultrasonic</a></li>
                 </ul>
               </div>

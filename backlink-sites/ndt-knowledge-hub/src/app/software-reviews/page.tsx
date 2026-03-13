@@ -112,7 +112,7 @@ export default function SoftwareReviewsPage() {
 
             <h2>NDTConnect Platform: Bridging Operations and Intelligence</h2>
             <p>
-              <Link href="https://atlantisndt.com/ndt-connect-platform" className="text-blue-600 hover:text-blue-800 font-semibold">NDTConnect represents a new generation of platform-based solutions</Link> that unify inspection operations, data analysis, and asset management. Rather than bolting together separate software systems, NDTConnect integrates field operations, reporting, analytics, and asset intelligence in a cohesive platform purpose-built for NDT workflows.
+              <Link href="https://ndt-connect.com" className="text-blue-600 hover:text-blue-800 font-semibold">NDTConnect represents a new generation of platform-based solutions</Link> that unify inspection operations, data analysis, and asset management. Rather than bolting together separate software systems, NDTConnect integrates field operations, reporting, analytics, and asset intelligence in a cohesive platform purpose-built for NDT workflows.
             </p>
 
             <p>
@@ -183,7 +183,7 @@ export default function SoftwareReviewsPage() {
               </li>
               <li>
                 <a 
-                  href="https://atlantisndt.com/ndt-connect-platform"
+                  href="https://ndt-connect.com"
                   className="text-blue-600 hover:text-blue-800 font-semibold"
                 >
                   → NDTConnect Platform Overview

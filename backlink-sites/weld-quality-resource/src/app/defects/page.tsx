@@ -26,7 +26,7 @@ export default function DefectsPage() {
           Lack of fusion occurs when adjacent weld metal or base metal fails to melt and bond. Results are unbonded surfaces that act as stress concentrations, initiating cracks under loading. Incomplete penetration occurs when weld fails to penetrate through the joint thickness, leaving unbonded root areas. Both defects dramatically reduce effective section properties and stress-carrying capacity.
         </p>
         <p className="mb-4">
-          Ultrasonic testing readily detects lack of fusion and incomplete penetration through characteristic reflections. These defects appear obviously on radiographs. Prevention focuses on process parameter control—adequate heat input, proper root gap, and correct technique. Organizations implementing <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-orange-600 hover:underline">systematic process control</a> prevent these defects.</p>
+          Ultrasonic testing readily detects lack of fusion and incomplete penetration through characteristic reflections. These defects appear obviously on radiographs. Prevention focuses on process parameter control—adequate heat input, proper root gap, and correct technique. Organizations implementing <a href="https://ndt-connect.com" rel="noopener" className="text-orange-600 hover:underline">systematic process control</a> prevent these defects.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Inclusions and Contamination</h2>
         <p className="mb-4">

@@ -125,7 +125,7 @@ export default function NDTSoftwarePage() {
           <li>Payment and invoicing</li>
         </ul>
         <p>
-          Example: <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect platform</a> for professional networking and service coordination
+          Example: <a href="https://ndt-connect.com">NDTConnect platform</a> for professional networking and service coordination
         </p>
 
         <h3>6. Document Management and Compliance</h3>
@@ -154,7 +154,7 @@ export default function NDTSoftwarePage() {
             <strong>Project Initiation (ERP):</strong> Project enters system through <a href="https://atlantisndt.com/ndt-erp-solution">ERP</a>, which tracks scope, client, timeline, and required resources
           </li>
           <li>
-            <strong>Resource Planning (ERP + Talent Network):</strong> ERP identifies required inspector certifications; <a href="https://atlantisndt.com/ndt-connect-platform">NDTConnect or similar platform</a> helps match available resources
+            <strong>Resource Planning (ERP + Talent Network):</strong> ERP identifies required inspector certifications; <a href="https://ndt-connect.com">NDTConnect or similar platform</a> helps match available resources
           </li>
           <li>
             <strong>Field Work (Mobile App):</strong> Inspectors use mobile app to collect data, attach photos, and validate data quality in real-time
@@ -286,7 +286,7 @@ export default function NDTSoftwarePage() {
           The NDT software landscape in 2026 is rich with options. Rather than viewed as a burden, this choice is an opportunity to build a technology ecosystem perfectly suited to your business. By thoughtfully selecting and integrating solutions-starting with a solid ERP foundation and adding specialized tools for reporting, analytics, and resource management-you can transform your inspection business into a modern, data-driven operation.
         </p>
         <p>
-          The most successful implementation strategy is usually: strong ERP foundation first, then layer on specialized solutions like <a href="https://atlantisndt.com/intelligent-reporting-software">automated reporting</a>, <a href="https://atlantisndt.com/ndt-connect-platform">talent networks</a>, and eventually <a href="https://atlantisndt.com/digital-twins">digital twin capabilities</a> as your data maturity improves.
+          The most successful implementation strategy is usually: strong ERP foundation first, then layer on specialized solutions like <a href="https://atlantisndt.com/intelligent-reporting-software">automated reporting</a>, <a href="https://ndt-connect.com">talent networks</a>, and eventually <a href="https://atlantisndt.com/digital-twins">digital twin capabilities</a> as your data maturity improves.
         </p>
       </div>
 

@@ -44,7 +44,7 @@ export default function MethodsPage() {
           Calcium chloride testing quantifies moisture at coating-substrate interfaces through chemical reaction. A weighing compound containing anhydrous calcium chloride is sealed to the coated surface; moisture absorption causes color change and weight gain, indicating moisture presence and approximate concentration. Results guide decisions about coating removal and substrate drying requirements.
         </p>
         <p className="mb-4">
-          Electronic moisture meters provide faster, less destructive assessment. Probes placed against coated surfaces detect moisture through electrical conductivity changes. Systematic grid measurement maps moisture distribution, identifying problem areas. When combined with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-emerald-600 hover:underline">NDTConnect platform</a> data management, moisture mapping becomes integral to predictive maintenance programs.
+          Electronic moisture meters provide faster, less destructive assessment. Probes placed against coated surfaces detect moisture through electrical conductivity changes. Systematic grid measurement maps moisture distribution, identifying problem areas. When combined with <a href="https://ndt-connect.com" rel="noopener" className="text-emerald-600 hover:underline">NDTConnect platform</a> data management, moisture mapping becomes integral to predictive maintenance programs.
         </p>
       </section>
     </div>

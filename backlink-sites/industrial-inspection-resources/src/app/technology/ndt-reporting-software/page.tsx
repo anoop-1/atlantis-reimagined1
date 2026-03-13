@@ -121,7 +121,7 @@ export default function NdtReportingSoftwarePage() {
 
             <h2>NDT Connect Platform & Intelligent Reporting</h2>
             <p>
-              <a href="https://atlantisndt.com/ndt-connect-platform">Atlantis NDT's NDT Connect platform</a> represents a modern approach to 
+              <a href="https://ndt-connect.com">Atlantis NDT's NDT Connect platform</a> represents a modern approach to 
               inspection data management. The system integrates mobile field inspection, cloud-based data storage, automated analysis, and 
               enterprise reporting capabilities.
             </p>
@@ -316,7 +316,7 @@ export default function NdtReportingSoftwarePage() {
             Atlantis NDT offers intelligent reporting platforms and consulting to optimize your inspection data management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://atlantisndt.com/ndt-connect-platform" className="btn-primary">
+            <a href="https://ndt-connect.com" className="btn-primary">
               NDT Connect Platform
             </a>
             <a href="https://atlantisndt.com/consulting" className="btn-secondary">

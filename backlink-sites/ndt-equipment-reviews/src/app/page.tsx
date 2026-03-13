@@ -52,7 +52,7 @@ export default function Home() {
           Modern NDT instruments generate substantial data volumes. Software platforms managing data collection, storage, analysis, and reporting provide critical value. Integration with enterprise systems enables seamless workflow—inspection results trigger maintenance work orders, update asset registries, and feed predictive models. Equipment selection should consider software integration capabilities.
         </p>
         <p className="mb-4">
-          Organizations implementing comprehensive data systems through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-teal-600 hover:underline">integrated platforms</a> multiply equipment value through efficient data utilization and seamless workflow automation.
+          Organizations implementing comprehensive data systems through <a href="https://ndt-connect.com" rel="noopener" className="text-teal-600 hover:underline">integrated platforms</a> multiply equipment value through efficient data utilization and seamless workflow automation.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Cost of Ownership Analysis</h2>

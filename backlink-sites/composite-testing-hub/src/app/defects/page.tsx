@@ -19,7 +19,7 @@ export default function DefectsPage() {
           Delamination—separation between composite plies—reduces through-thickness strength and stiffness. Loading induces local buckling and propagating cracks. Causes include manufacturing defects, impact, environmental degradation, or stress concentration. Even small delaminations can propagate under fatigue loading, leading to progressive failure.
         </p>
         <p className="mb-4">
-          Ultrasonic testing detects delaminations through reflections from ply interfaces. Thermography reveals delamination thermal signatures. C-scan imaging quantifies damage extent. Organizations detecting delamination through systematic inspection can schedule repairs before failure. Integration with <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-purple-600 hover:underline">condition monitoring systems</a> enables proactive maintenance.</p>
+          Ultrasonic testing detects delaminations through reflections from ply interfaces. Thermography reveals delamination thermal signatures. C-scan imaging quantifies damage extent. Organizations detecting delamination through systematic inspection can schedule repairs before failure. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-purple-600 hover:underline">condition monitoring systems</a> enables proactive maintenance.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Fiber Breakage and Matrix Cracks</h2>
         <p className="mb-4">

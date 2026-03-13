@@ -19,7 +19,7 @@ export default function SafetyPage() {
           Systematic NDT enables predictive maintenance—scheduling equipment removal during planned downtime before failures occur. This contrasts with reactive maintenance responding to unexpected failures that may cause injuries or production disruptions. Predictive approaches prevent emergency repairs in hazardous conditions, reduce worker exposure to risk, and minimize disruption.
         </p>
         <p className="mb-4">
-          Integration of inspection results with maintenance planning through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect</a> ensures timely maintenance execution and comprehensive tracking of preventive actions.</p>
+          Integration of inspection results with maintenance planning through <a href="https://ndt-connect.com" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect</a> ensures timely maintenance execution and comprehensive tracking of preventive actions.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Worker Training and Competency</h2>
         <p className="mb-4">

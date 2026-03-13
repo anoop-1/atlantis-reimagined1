@@ -27,7 +27,7 @@ export default function UltrasonicPage() {
           Automated systems—scanning rails, gantries, or robotic platforms with integrated transducers—eliminate operator variability and enable rapid data collection. Systems scan consistently at optimized speeds and parameters. Automated data acquisition and analysis reduces human interpretation inconsistencies. Capital costs span $50,000-$500,000+ depending on complexity, but per-inspection costs drop substantially in high-volume applications.
         </p>
         <p className="mb-4">
-          ROI analysis should compare automated system costs against manual inspection labor, determining payback periods and lifetime value. Organizations implementing automation through <a href="https://atlantisndt.com/ndt-connect" rel="noopener" className="text-teal-600 hover:underline">systematic analysis</a> optimize capital investment returns.</p>
+          ROI analysis should compare automated system costs against manual inspection labor, determining payback periods and lifetime value. Organizations implementing automation through <a href="https://ndt-connect.com" rel="noopener" className="text-teal-600 hover:underline">systematic analysis</a> optimize capital investment returns.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Transducer Selection and Probe Types</h2>
         <p className="mb-4">
