@@ -3,9 +3,9 @@
 # Priority 1A: 28 HIGH-VALUE pages (training, industry, software) — SUBMIT FIRST
 # Priority 1B: 208 US & EU market expansion pages
 # Priority 1C: 132 atlantisndt.com method+location pages (existing markets)
-# Priority 2: 127 ndtconnect.com pages (in scheduled task)
+# Priority 2: 127 ndtconnect.com pages
 # Priority 3: 334 satellite site pages
-# TOTAL: 702 URLs (excluding ndtconnect.com)
+# TOTAL: 829 URLs (including ndtconnect.com)
 
 # ==========================================
 # PRIORITY 1A: HIGH-VALUE MONEY PAGES (28 URLs)
@@ -380,6 +380,7 @@ https://atlantisndt.com/visual-testing-indonesia
 # PRIORITY 3: SATELLITE SITE URLs (334 URLs)
 # ==========================================
 
+# --- ndtconnect.com Priority 2 URLs (127) ---
 https://advanced-ndt-techniques.vercel.app/automation
 https://advanced-ndt-techniques.vercel.app/
 https://advanced-ndt-techniques.vercel.app/phased-array

@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ndt-careers-portal.vercel.app/sitemap.xml
+
+# Updated 2026-03-13 - redeploy for GSC verification

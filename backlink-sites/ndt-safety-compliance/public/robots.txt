@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://ndt-knowledge-hub.vercel.app/sitemap.xml
-
+Sitemap: https://ndt-safety-compliance.vercel.app/sitemap.xml
 # Updated 2026-03-13 - redeploy for GSC verification

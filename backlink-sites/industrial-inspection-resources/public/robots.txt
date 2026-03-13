@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://industrial-inspection-resources.vercel.app/sitemap.xml
+
+# Updated 2026-03-13 - redeploy for GSC verification
