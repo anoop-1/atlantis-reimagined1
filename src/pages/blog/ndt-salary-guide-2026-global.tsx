@@ -338,7 +338,7 @@ export default function NDTSalaryGuide2026() {
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="text-slate-600 text-sm space-y-2">
-                                        <li><strong>Overtime:</strong> 10-20% annual bonus for hours >40/week</li>
+                                        <li><strong>Overtime:</strong> 10-20% annual bonus for hours {'>'}40/week</li>
                                         <li><strong>Per diem:</strong> $75-$150/day when traveling (not home)</li>
                                         <li><strong>Shift premium:</strong> 15-20% for evening/night shifts</li>
                                         <li><strong>Safety bonus:</strong> $500-$2,000 annually for zero lost-time incidents</li>

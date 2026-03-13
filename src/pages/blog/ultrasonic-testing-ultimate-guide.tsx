@@ -436,7 +436,7 @@ export default function UltrasonicTestingUltimateGuide() {
                                 <ul className="space-y-2 text-green-800 text-sm">
                                     <li>Detecting tight cracks is critical (UT superior)</li>
                                     <li>Measuring defect depth is needed (UT provides exact depth)</li>
-                                    <li>Material thickness >3mm (UT penetrates easily)</li>
+                                    <li>Material thickness {'>'}3mm (UT penetrates easily)</li>
                                     <li>Speed is important (UT 5-10x faster)</li>
                                     <li>Safety is critical (no radiation hazard)</li>
                                     <li>Accessibility is limited (only one side needed)</li>
