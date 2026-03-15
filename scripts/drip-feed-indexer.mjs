@@ -15,7 +15,7 @@ import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CREDENTIALS_PATH = join(__dirname, 'gsc-service-account.json');
-const QUEUE_FILE = join(__dirname, 'all-new-urls-march-2026.txt');
+const QUEUE_FILE = join(__dirname, 'indexing-queue-smart.txt');
 const PROGRESS_FILE = join(__dirname, 'drip-feed-progress.json');
 
 const credentials = JSON.parse(readFileSync(CREDENTIALS_PATH, 'utf-8'));

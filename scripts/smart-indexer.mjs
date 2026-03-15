@@ -8,10 +8,14 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { createSign } from 'crypto';
 
-const CREDENTIALS_PATH = '/sessions/clever-magical-clarke/mnt/atlantis-reimagined1/scripts/gsc-service-account.json';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const CREDENTIALS_PATH = join(__dirname, 'gsc-service-account.json');
 const credentials = JSON.parse(readFileSync(CREDENTIALS_PATH, 'utf-8'));
-const QUEUE_FILE = '/sessions/clever-magical-clarke/indexing-queue-smart.txt';
-const PROGRESS_FILE = '/sessions/clever-magical-clarke/indexing-progress-smart.json';
+const QUEUE_FILE = join(__dirname, 'indexing-queue-smart.txt');
+const PROGRESS_FILE = join(__dirname, 'indexing-progress-smart.json');
 
 const batchSize = parseInt(process.argv[2] || '200');
 
