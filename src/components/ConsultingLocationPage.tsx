@@ -543,6 +543,33 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
         { hreflang: 'en', href: canonical }
     ];
 
+    const faqs = [
+        {
+            question: `What NDT consulting services do you offer in ${location.name}?`,
+            answer: `We provide comprehensive NDT Level III consulting services in ${location.name} including written practice and procedure development per SNT-TC-1A and CP-189, third-party NDT program audits, technique development and qualification, personnel certification program management, expert witness services, and regulatory compliance guidance for API, ASME, and AWS codes. Our consultants have extensive experience with ${location.industries.join(", ")} applications specific to the ${location.region} region.`
+        },
+        {
+            question: `Do you provide on-site NDT consulting in ${location.name}?`,
+            answer: `Yes, our Level III consultants are available for on-site engagements throughout ${location.name} and the broader ${location.region} region. We offer both short-term project support and long-term embedded consulting arrangements. Remote consulting services are also available for documentation review, procedure development, and technical guidance when on-site presence is not required.`
+        },
+        {
+            question: `Which industries do you serve in ${location.name}?`,
+            answer: `We serve ${location.industries.join(", ")} and related sectors requiring NDT expertise in ${location.name}. Our consultants have direct experience with major operators in the region including ${location.companies.slice(0, 2).join(" and ")}, understanding local regulatory requirements and industry-specific inspection challenges.`
+        },
+        {
+            question: "Can you develop employer-based NDT certification programs?",
+            answer: "Absolutely. We specialize in designing and implementing employer-based NDT certification programs compliant with ASNT SNT-TC-1A, CP-189, ISO 9712, or NAS-410 requirements. This includes developing training curricula, written and practical examinations, qualification records, and ongoing recertification procedures tailored to your organization's specific needs and inspection scope."
+        },
+        {
+            question: "How quickly can you respond to urgent consulting needs?",
+            answer: "We maintain rapid response capability for urgent situations including pre-audit preparation, regulatory compliance issues, and incident investigations. For emergency consulting needs, we can typically deploy a qualified Level III consultant within 24-72 hours depending on location and availability. Contact us directly for time-sensitive requirements."
+        },
+        {
+            question: "What certifications do your consultants hold?",
+            answer: "Our consultants hold ASNT Level III certifications in multiple NDT methods including UT, RT, MT, PT, ET, and VT. Many also hold additional credentials including API 510/570/653 certifications, AWS CWI, CSWIP, and PCN qualifications. All consultants meet or exceed the experience requirements specified in SNT-TC-1A for their respective certification levels."
+        }
+    ];
+
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
@@ -596,36 +623,20 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                     "reviewCount": "127",
                     "bestRating": "5"
                 }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": faqs.map(faq => ({
+                    "@type": "Question",
+                    "name": faq.question,
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": faq.answer
+                    }
+                }))
             }
         ]
     };
-
-    const faqs = [
-        {
-            question: `What NDT consulting services do you offer in ${location.name}?`,
-            answer: `We provide comprehensive NDT Level III consulting services in ${location.name} including written practice and procedure development per SNT-TC-1A and CP-189, third-party NDT program audits, technique development and qualification, personnel certification program management, expert witness services, and regulatory compliance guidance for API, ASME, and AWS codes. Our consultants have extensive experience with ${location.industries.join(", ")} applications specific to the ${location.region} region.`
-        },
-        {
-            question: `Do you provide on-site NDT consulting in ${location.name}?`,
-            answer: `Yes, our Level III consultants are available for on-site engagements throughout ${location.name} and the broader ${location.region} region. We offer both short-term project support and long-term embedded consulting arrangements. Remote consulting services are also available for documentation review, procedure development, and technical guidance when on-site presence is not required.`
-        },
-        {
-            question: `Which industries do you serve in ${location.name}?`,
-            answer: `We serve ${location.industries.join(", ")} and related sectors requiring NDT expertise in ${location.name}. Our consultants have direct experience with major operators in the region including ${location.companies.slice(0, 2).join(" and ")}, understanding local regulatory requirements and industry-specific inspection challenges.`
-        },
-        {
-            question: "Can you develop employer-based NDT certification programs?",
-            answer: "Absolutely. We specialize in designing and implementing employer-based NDT certification programs compliant with ASNT SNT-TC-1A, CP-189, ISO 9712, or NAS-410 requirements. This includes developing training curricula, written and practical examinations, qualification records, and ongoing recertification procedures tailored to your organization's specific needs and inspection scope."
-        },
-        {
-            question: "How quickly can you respond to urgent consulting needs?",
-            answer: "We maintain rapid response capability for urgent situations including pre-audit preparation, regulatory compliance issues, and incident investigations. For emergency consulting needs, we can typically deploy a qualified Level III consultant within 24-72 hours depending on location and availability. Contact us directly for time-sensitive requirements."
-        },
-        {
-            question: "What certifications do your consultants hold?",
-            answer: "Our consultants hold ASNT Level III certifications in multiple NDT methods including UT, RT, MT, PT, ET, and VT. Many also hold additional credentials including API 510/570/653 certifications, AWS CWI, CSWIP, and PCN qualifications. All consultants meet or exceed the experience requirements specified in SNT-TC-1A for their respective certification levels."
-        }
-    ];
 
     const problemsWeSolve = [
         {
@@ -999,6 +1010,77 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             <h3 className="font-semibold text-blue-700">Visual Testing</h3>
                             <p className="text-sm text-gray-600 mt-1">VT for surface condition assessment</p>
                         </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* Internal Linking: Locations Network */}
+            <section className="py-12 bg-white border-t">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-2xl font-bold text-center mb-6">NDT Consulting Across the United States</h2>
+                    <p className="text-slate-600 text-center mb-8 max-w-3xl mx-auto">Atlantis NDT provides Level III consulting services nationwide. Explore our state and city-specific consulting pages for localized expertise.</p>
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 className="font-semibold text-lg mb-3 flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-600" /> State Consulting Pages</h3>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    { name: 'Texas', slug: 'texas' }, { name: 'California', slug: 'california' },
+                                    { name: 'Louisiana', slug: 'louisiana' }, { name: 'Ohio', slug: 'ohio' },
+                                    { name: 'Pennsylvania', slug: 'pennsylvania' }, { name: 'Florida', slug: 'florida' },
+                                    { name: 'New York', slug: 'new-york-state' }, { name: 'Illinois', slug: 'illinois' },
+                                    { name: 'Michigan', slug: 'michigan' }, { name: 'Colorado', slug: 'colorado' },
+                                    { name: 'Georgia', slug: 'georgia' }, { name: 'Virginia', slug: 'virginia' },
+                                    { name: 'Alabama', slug: 'alabama' }, { name: 'Tennessee', slug: 'tennessee' },
+                                    { name: 'Oklahoma', slug: 'oklahoma' }, { name: 'Washington', slug: 'washington' },
+                                    { name: 'New Jersey', slug: 'new-jersey' }, { name: 'North Carolina', slug: 'north-carolina' },
+                                    { name: 'Minnesota', slug: 'minnesota' }, { name: 'Wisconsin', slug: 'wisconsin' },
+                                ].map(s => (
+                                    <Link key={s.slug} to={`/ndt-consulting-${s.slug}`} className="text-sm px-3 py-1.5 bg-blue-50 text-blue-700 rounded-full hover:bg-blue-100 transition">
+                                        {s.name}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                        <div>
+                            <h3 className="font-semibold text-lg mb-3 flex items-center gap-2"><Globe className="w-4 h-4 text-blue-600" /> Popular Consulting Cities</h3>
+                            <div className="flex flex-wrap gap-2">
+                                {[
+                                    'Houston', 'Dallas', 'Los Angeles', 'Chicago', 'Denver', 'Seattle',
+                                    'New Orleans', 'Dubai', 'Singapore', 'Mumbai', 'Aberdeen', 'Calgary',
+                                    'Austin', 'Midland', 'Orlando', 'Nashville', 'Huntsville', 'Norfolk',
+                                ].map(city => {
+                                    const citySlug = city.toLowerCase().replace(/\s+/g, '-');
+                                    return (
+                                        <Link key={citySlug} to={`/consulting/ndt-consulting-${citySlug}`} className="text-sm px-3 py-1.5 bg-slate-100 text-slate-700 rounded-full hover:bg-slate-200 transition">
+                                            {city}
+                                        </Link>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-8">
+                        <h3 className="font-semibold text-lg mb-3 flex items-center gap-2"><BookOpen className="w-4 h-4 text-blue-600" /> NDT Knowledge Resources</h3>
+                        <div className="grid md:grid-cols-3 gap-3">
+                            <Link to="/blog/ultrasonic-testing-ultimate-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                                Ultrasonic Testing Complete Guide
+                            </Link>
+                            <Link to="/blog/eddy-current-testing-complete-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                                Eddy Current Testing Guide
+                            </Link>
+                            <Link to="/blog/api-653-certification-complete-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                                API 653 Certification Guide
+                            </Link>
+                            <Link to="/ndt-certification-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                                NDT Certification Requirements
+                            </Link>
+                            <Link to="/ndt-complete-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                                Complete NDT Methods Guide
+                            </Link>
+                            <Link to="/ndt-standards-comparison" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                                NDT Standards Comparison
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>

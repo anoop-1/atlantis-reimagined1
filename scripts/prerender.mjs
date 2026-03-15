@@ -1260,6 +1260,7 @@ function buildSitemap(routeList) {
     if (path === '/tools') return '0.85';
     if (path.startsWith('/tools/')) return '0.80';
     if (path.startsWith('/resources/')) return '0.75';
+    if (path.startsWith('/ndt-consulting-')) return '0.85'; // US state pages
     if (path.startsWith('/consulting/')) return '0.75';
     if (path.startsWith('/blog/')) return '0.80';
     if (path.includes('-training')) return '0.85';

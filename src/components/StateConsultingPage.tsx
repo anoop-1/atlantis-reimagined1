@@ -773,6 +773,33 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
         </div>
       </section>
 
+      {/* Internal Linking: Other US States */}
+      <section className="py-12 bg-white border-t">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-2xl font-bold text-center mb-6">NDT Consulting in Other US States</h2>
+          <div className="flex flex-wrap justify-center gap-2">
+            {Object.entries(stateData)
+              .filter(([slug]) => slug !== stateSlug)
+              .map(([slug, s]) => (
+                <Link key={slug} to={`/ndt-consulting-${slug}`} className="text-sm px-3 py-1.5 bg-amber-50 text-amber-800 rounded-full hover:bg-amber-100 transition">
+                  {s.name}
+                </Link>
+              ))
+            }
+          </div>
+          <div className="mt-8 text-center">
+            <h3 className="font-semibold text-lg mb-3">Popular Consulting Resources</h3>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link to="/consulting/ndt-consulting-level-iii" className="text-sm px-4 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">Global Level III Consulting</Link>
+              <Link to="/training" className="text-sm px-4 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">NDT Training Programs</Link>
+              <Link to="/blog/ultrasonic-testing-ultimate-guide" className="text-sm px-4 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">UT Testing Guide</Link>
+              <Link to="/ndt-certification-guide" className="text-sm px-4 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">Certification Guide</Link>
+              <Link to="/ndt-complete-guide" className="text-sm px-4 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">Complete NDT Guide</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-gradient-to-r from-amber-500 to-amber-600 text-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
