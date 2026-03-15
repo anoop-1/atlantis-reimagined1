@@ -450,14 +450,138 @@ const consultingCities = [
   'lagos', 'ho-chi-minh',
 ];
 
+// Region-specific differentiators to beat local competitors
+const regionDifferentiators = {
+  // Middle East
+  'dubai': { industries: 'oil & gas, petrochemical, and downstream', certs: 'ASNT Level III & API certified', usp: 'Serving UAE, GCC & Middle East' },
+  'saudi-arabia': { industries: 'upstream, downstream & petrochemical', certs: 'Saudi Aramco approved, ASNT Level III', usp: 'Kingdom-wide coverage from Jubail to Yanbu' },
+  'qatar': { industries: 'LNG, gas processing & offshore', certs: 'QatarEnergy approved, ASNT certified', usp: 'North Field expansion & Ras Laffan expertise' },
+  'kuwait': { industries: 'refining, upstream & petrochemical', certs: 'ASNT Level III & API certified', usp: 'Clean fuels project & KIPIC support' },
+  'abu-dhabi': { industries: 'offshore, downstream & sour gas', certs: 'ADNOC approved, ASNT Level III', usp: 'Ruwais & offshore platform specialists' },
+  'bahrain': { industries: 'refining, aluminum & petrochemical', certs: 'ASNT Level III certified', usp: 'BAPCO modernization expertise' },
+  'oman': { industries: 'EOR, LNG & petrochemical', certs: 'ASNT Level III & API certified', usp: 'PDO & Duqm SEZ specialists' },
+  // India
+  'mumbai': { industries: 'refining, offshore & petrochemical', certs: 'ASNT Level III, ISNT affiliated', usp: 'Western India corridor specialists' },
+  'chennai': { industries: 'automotive, power & refining', certs: 'ASNT Level III certified', usp: 'South India industrial hub experts' },
+  'bangalore': { industries: 'aerospace, defense & manufacturing', certs: 'ASNT Level III, NAS 410', usp: 'HAL corridor & aerospace NDT specialists' },
+  'delhi': { industries: 'refining, pipeline & power generation', certs: 'ASNT Level III certified', usp: 'North India refinery specialists' },
+  'kolkata': { industries: 'steel, thermal power & petrochemical', certs: 'ASNT Level III certified', usp: 'Eastern India heavy industry experts' },
+  // Europe
+  'uk': { industries: 'offshore, nuclear & aerospace', certs: 'PCN, ASNT Level III certified', usp: 'North Sea & decommissioning experts' },
+  'aberdeen': { industries: 'offshore oil & gas, subsea & wind', certs: 'PCN Level III, ASNT certified', usp: 'North Sea integrity management specialists' },
+  'norway': { industries: 'offshore, subsea & energy', certs: 'NORSOK compliant, ASNT Level III', usp: 'Norwegian shelf & platform life extension' },
+  'germany': { industries: 'chemical, automotive & manufacturing', certs: 'DIN EN ISO, ASNT Level III', usp: 'Ludwigshafen & Leverkusen corridor' },
+  'netherlands': { industries: 'refining, offshore & petrochemical', certs: 'ASNT Level III, EN certified', usp: 'Europoort & Rotterdam complex specialists' },
+  'france': { industries: 'nuclear, refining & aerospace', certs: 'COFREND, ASNT Level III', usp: 'Nuclear fleet & Total Energies support' },
+  'italy': { industries: 'refining, petrochemical & manufacturing', certs: 'ASNT Level III, EN certified', usp: 'ENI operations & Mediterranean refining' },
+  // Asia-Pacific
+  'singapore': { industries: 'petrochemical, marine & aerospace', certs: 'ASNT Level III certified', usp: 'Jurong Island & regional APAC hub' },
+  'australia': { industries: 'LNG, mining & infrastructure', certs: 'ISO 9712, ASNT Level III', usp: 'Gorgon, Wheatstone & NW Shelf experts' },
+  'japan': { industries: 'refining, manufacturing & nuclear', certs: 'JIS compliant, ASNT Level III', usp: 'Japanese quality standards specialists' },
+  'south-korea': { industries: 'refining, shipbuilding & petrochemical', certs: 'ASNT Level III certified', usp: 'Ulsan mega-refinery specialists' },
+  'malaysia': { industries: 'offshore, refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Petronas operations & South China Sea' },
+  // Africa
+  'nigeria': { industries: 'offshore, onshore & refining', certs: 'ASNT Level III certified', usp: 'Niger Delta & deepwater specialists' },
+  'south-africa': { industries: 'synfuels, refining & mining', certs: 'ASNT Level III certified', usp: 'Sasol & SAPREF operations experts' },
+  'egypt': { industries: 'gas, refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Mediterranean & Red Sea operations' },
+  // Asia-Pacific continued
+  'indonesia': { industries: 'offshore, refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Balikpapan, Cilacap & Dumai refinery experts' },
+  'thailand': { industries: 'petrochemical, refining & manufacturing', certs: 'ASNT Level III certified', usp: 'Map Ta Phut & PTT operations specialists' },
+  'vietnam': { industries: 'offshore, refining & gas processing', certs: 'ASNT Level III certified', usp: 'Dung Quat & Nghi Son refinery experts' },
+  'philippines': { industries: 'refining, power & manufacturing', certs: 'ASNT Level III certified', usp: 'Bataan refinery & industrial zone specialists' },
+  'hong-kong': { industries: 'marine, construction & infrastructure', certs: 'ASNT Level III certified', usp: 'Asia-Pacific financial hub NDT support' },
+  'taiwan': { industries: 'semiconductor, petrochemical & manufacturing', certs: 'ASNT Level III certified', usp: 'Formosa Plastics & CPC refinery specialists' },
+  'china': { industries: 'refining, petrochemical & manufacturing', certs: 'ASNT Level III certified', usp: 'Sinopec & PetroChina operations support' },
+  'beijing': { industries: 'refining, power & pipeline', certs: 'ASNT Level III certified', usp: 'North China refinery & pipeline specialists' },
+  'shanghai': { industries: 'petrochemical, shipbuilding & manufacturing', certs: 'ASNT Level III certified', usp: 'Yangtze Delta industrial corridor experts' },
+  'shenzhen': { industries: 'electronics, manufacturing & construction', certs: 'ASNT Level III certified', usp: 'Pearl River Delta industrial hub specialists' },
+  'sydney': { industries: 'power, manufacturing & infrastructure', certs: 'ISO 9712, ASNT Level III', usp: 'NSW industrial infrastructure specialists' },
+  'melbourne': { industries: 'aerospace, manufacturing & defense', certs: 'ISO 9712, ASNT Level III', usp: 'Victoria advanced manufacturing hub experts' },
+  'brisbane': { industries: 'LNG, mining & energy', certs: 'ISO 9712, ASNT Level III', usp: 'Curtis Island LNG & Queensland mining experts' },
+  'perth': { industries: 'LNG, mining & offshore', certs: 'ISO 9712, ASNT Level III', usp: 'Gorgon, Wheatstone & Pilbara mining specialists' },
+  'new-zealand': { industries: 'energy, manufacturing & infrastructure', certs: 'ASNT Level III certified', usp: 'Taranaki energy & infrastructure experts' },
+  'bangkok': { industries: 'petrochemical, automotive & power', certs: 'ASNT Level III certified', usp: 'Eastern Seaboard & Map Ta Phut specialists' },
+  'jakarta': { industries: 'refining, offshore & manufacturing', certs: 'ASNT Level III certified', usp: 'Pertamina operations & Java industrial hub' },
+  'manila': { industries: 'power, shipbuilding & manufacturing', certs: 'ASNT Level III certified', usp: 'Bataan & Subic Bay industrial corridor' },
+  'ho-chi-minh': { industries: 'refining, gas & manufacturing', certs: 'ASNT Level III certified', usp: 'Southern Vietnam industrial hub experts' },
+  // Europe continued
+  'belgium': { industries: 'petrochemical, refining & nuclear', certs: 'ASNT Level III, EN certified', usp: 'Antwerp port & chemical corridor specialists' },
+  'spain': { industries: 'refining, petrochemical & energy', certs: 'ASNT Level III, EN certified', usp: 'Repsol operations & Mediterranean corridor' },
+  'scotland': { industries: 'offshore, whisky & energy', certs: 'PCN, ASNT Level III certified', usp: 'North Sea & renewable energy specialists' },
+  // Canada
+  'calgary': { industries: 'oil sands, midstream & pipeline', certs: 'ASNT Level III, CWB certified', usp: 'Canadian energy sector specialists' },
+  'edmonton': { industries: 'oil sands upgrading & petrochemical', certs: 'ASNT Level III, CWB certified', usp: 'Alberta upgrader & refinery specialists' },
+  'toronto': { industries: 'automotive, steel & manufacturing', certs: 'ASNT Level III, CGSB certified', usp: 'Golden Horseshoe industrial corridor experts' },
+  'vancouver': { industries: 'pipeline, marine & LNG', certs: 'ASNT Level III, CWB certified', usp: 'Trans Mountain & Pacific gateway specialists' },
+  // Africa continued
+  'ghana': { industries: 'offshore petroleum & mining', certs: 'ASNT Level III certified', usp: 'Jubilee field & West Africa specialists' },
+  'accra': { industries: 'offshore oil & gas, mining & industrial', certs: 'ASNT Level III certified', usp: 'Ghana petroleum & mining hub experts' },
+  'cape-town': { industries: 'refining, maritime & manufacturing', certs: 'ASNT Level III certified', usp: 'Western Cape industrial corridor specialists' },
+  'johannesburg': { industries: 'mining, steel & manufacturing', certs: 'ASNT Level III certified', usp: 'Gauteng mining & industrial hub experts' },
+  'nairobi': { industries: 'energy, geothermal & infrastructure', certs: 'ASNT Level III certified', usp: 'East Africa energy & infrastructure specialists' },
+  'kenya': { industries: 'geothermal, pipeline & manufacturing', certs: 'ASNT Level III certified', usp: 'Turkana pipeline & geothermal experts' },
+  'algeria': { industries: 'gas, refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Sonatrach operations & Saharan pipeline specialists' },
+  'angola': { industries: 'offshore deepwater & LNG', certs: 'ASNT Level III certified', usp: 'Sonangol & Angola LNG specialists' },
+  'casablanca': { industries: 'phosphate, automotive & manufacturing', certs: 'ASNT Level III certified', usp: 'OCP phosphate & Moroccan industrial hub experts' },
+  'lagos': { industries: 'offshore, refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Lagos industrial corridor & West Africa hub' },
+  // Americas
+  'houston': { industries: 'oil & gas, petrochemical & refining', certs: 'ASNT Level III, API 510/570/653', usp: 'Gulf Coast headquarters, 50+ consultants' },
+  'los-angeles': { industries: 'refining, aerospace & manufacturing', certs: 'ASNT Level III, NAS 410', usp: 'West Coast refining & aerospace specialists' },
+  'new-orleans': { industries: 'LNG, petrochemical & refining', certs: 'ASNT Level III, API certified', usp: 'Mississippi River corridor & LNG export experts' },
+  'denver': { industries: 'oil & gas, aerospace & renewable energy', certs: 'ASNT Level III certified', usp: 'DJ Basin & Rocky Mountain energy specialists' },
+  'chicago': { industries: 'refining, steel & manufacturing', certs: 'ASNT Level III, API certified', usp: 'Midwest heavy crude refining & manufacturing experts' },
+  'seattle': { industries: 'aerospace, refining & maritime', certs: 'ASNT Level III, NAS 410', usp: 'Boeing corridor & Pacific Northwest specialists' },
+  'dallas': { industries: 'aerospace, defense & manufacturing', certs: 'ASNT Level III, NAS 410', usp: 'DFW defense manufacturing corridor experts' },
+  'phoenix': { industries: 'semiconductor, aerospace & solar', certs: 'ASNT Level III certified', usp: 'Arizona semiconductor & aerospace specialists' },
+  'philadelphia': { industries: 'refining, pharmaceutical & manufacturing', certs: 'ASNT Level III, API certified', usp: 'East Coast refining & industrial corridor experts' },
+  'san-francisco': { industries: 'tech manufacturing, refining & marine', certs: 'ASNT Level III certified', usp: 'Bay Area industrial & energy specialists' },
+  'detroit': { industries: 'automotive, steel & manufacturing', certs: 'ASNT Level III certified', usp: 'Michigan automotive & heavy industry experts' },
+  'pittsburgh': { industries: 'steel, nuclear & manufacturing', certs: 'ASNT Level III certified', usp: 'Steel City industrial heritage specialists' },
+  'baton-rouge': { industries: 'refining, petrochemical & chemical', certs: 'ASNT Level III, API certified', usp: 'Louisiana refinery corridor specialists' },
+  'corpus-christi': { industries: 'refining, petrochemical & LNG', certs: 'ASNT Level III, API certified', usp: 'South Texas refining & export terminal experts' },
+  'tulsa': { industries: 'pipeline, midstream & refining', certs: 'ASNT Level III, API certified', usp: 'Oklahoma pipeline & midstream hub specialists' },
+  'beaumont': { industries: 'refining, petrochemical & LNG', certs: 'ASNT Level III, API certified', usp: 'Golden Triangle refinery corridor experts' },
+  'brazil': { industries: 'pre-salt deepwater, refining & offshore', certs: 'ASNT Level III certified', usp: 'Petrobras & pre-salt expertise' },
+  'sao-paulo': { industries: 'refining, petrochemical & manufacturing', certs: 'ASNT Level III certified', usp: 'REPLAN refinery & Paulinia industrial hub' },
+  'rio-de-janeiro': { industries: 'offshore deepwater, refining & subsea', certs: 'ASNT Level III certified', usp: 'Pre-salt FPSO & Comperj specialists' },
+  'argentina': { industries: 'oil & gas, mining & power', certs: 'ASNT Level III certified', usp: 'Vaca Muerta shale & Patagonia operations' },
+  'buenos-aires': { industries: 'refining, petrochemical & power', certs: 'ASNT Level III certified', usp: 'Argentine industrial corridor specialists' },
+  'chile': { industries: 'mining, energy & LNG', certs: 'ASNT Level III certified', usp: 'Copper mining & LNG terminal specialists' },
+  'santiago': { industries: 'mining, manufacturing & energy', certs: 'ASNT Level III certified', usp: 'Chilean mining & energy corridor experts' },
+  'colombia': { industries: 'oil & gas, refining & pipeline', certs: 'ASNT Level III certified', usp: 'Ecopetrol operations & Andean specialists' },
+  'bogota': { industries: 'refining, pipeline & manufacturing', certs: 'ASNT Level III certified', usp: 'Barrancabermeja refinery corridor experts' },
+  'peru': { industries: 'mining, gas & refining', certs: 'ASNT Level III certified', usp: 'Camisea gas & Peruvian mining specialists' },
+  'lima': { industries: 'refining, mining & manufacturing', certs: 'ASNT Level III certified', usp: 'Talara refinery & Peruvian industrial hub' },
+  'mexico-city': { industries: 'refining, automotive & petrochemical', certs: 'ASNT Level III certified', usp: 'PEMEX operations & Mexican manufacturing experts' },
+  'trinidad': { industries: 'LNG, gas processing & petrochemical', certs: 'ASNT Level III certified', usp: 'Atlantic LNG & Point Lisas specialists' },
+  // Middle East continued
+  'jubail': { industries: 'petrochemical, desalination & steel', certs: 'Saudi Aramco approved, ASNT Level III', usp: 'Royal Commission industrial city specialists' },
+  'yanbu': { industries: 'refining, petrochemical & utilities', certs: 'Saudi Aramco approved, ASNT Level III', usp: 'Red Sea industrial corridor experts' },
+  'dammam': { industries: 'oil & gas, marine & manufacturing', certs: 'Saudi Aramco approved, ASNT Level III', usp: 'Eastern Province petroleum hub specialists' },
+  // India continued
+  'hyderabad': { industries: 'pharmaceutical, aerospace & defense', certs: 'ASNT Level III certified', usp: 'DRDO corridor & pharma manufacturing experts' },
+  'pune': { industries: 'automotive, defense & manufacturing', certs: 'ASNT Level III certified', usp: 'Western India automotive & defense hub' },
+  'ahmedabad': { industries: 'refining, textile & petrochemical', certs: 'ASNT Level III certified', usp: 'Gujarat refinery & industrial corridor specialists' },
+  'kochi': { industries: 'refining, shipbuilding & petrochemical', certs: 'ASNT Level III certified', usp: 'BPCL Kochi refinery & Cochin Shipyard experts' },
+  'vizag': { industries: 'refining, steel & shipbuilding', certs: 'ASNT Level III certified', usp: 'HPCL Vizag refinery & Rashtriya Ispat specialists' },
+  'jamnagar': { industries: 'refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Reliance Jamnagar mega-refinery specialists' },
+};
+
 consultingCities.forEach(citySlug => {
   const cityName = toTitleCase(citySlug);
+  const diff = regionDifferentiators[citySlug];
+  const title = diff
+    ? `NDT Consulting ${cityName} | ${diff.certs} | ${diff.usp} | Atlantis NDT`
+    : `NDT Consulting ${cityName} | ASNT Level III Experts | Free Quote | Atlantis NDT`;
+  const desc = diff
+    ? `Expert NDT consulting in ${cityName} for ${diff.industries}. ${diff.certs} professionals. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. ${diff.usp}. Get a free quote.`
+    : `Top-rated NDT consulting in ${cityName}: ASNT Level III procedure writing, program audits, SNT-TC-1A compliance, and expert witness. 50+ certified consultants. Get a free quote today.`;
   routes.push({
     path: `/consulting/ndt-consulting-${citySlug}`,
-    title: `NDT Consulting ${cityName} | Level III Experts | Free Quote`,
-    description: `Top-rated NDT consulting in ${cityName}: ASNT Level III procedure writing, program audits, SNT-TC-1A compliance, and expert witness. 50+ certified consultants. Get a free quote today.`,
+    title,
+    description: desc,
     canonical: `${SITE_URL}/consulting/ndt-consulting-${citySlug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting ${cityName}</h1>\n    <p>ASNT Level III NDT consulting services in ${cityName}. Expert procedure development, program audits, SNT-TC-1A compliance, and written practice development for oil & gas, petrochemical, and industrial facilities.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting ${cityName}</h1>\n    <p>ASNT Level III NDT consulting services in ${cityName}${diff ? ` for ${diff.industries}` : ''}. Expert procedure development, program audits, SNT-TC-1A compliance, and written practice development${diff ? `. ${diff.usp}` : ' for oil & gas, petrochemical, and industrial facilities'}.</p>\n  </main>`,
   });
 });
 
@@ -575,10 +699,10 @@ routes.push({
 const extraPages = [
   { path: '/digital-twins-ndt-guide', title: 'Digital Twins for NDT | Complete Implementation Guide [2026]', description: 'Complete guide to digital twins in NDT. How digital twin technology transforms inspection, asset integrity, and maintenance in oil & gas, aerospace, and power generation.' },
   { path: '/digital-twins-oil-gas', title: 'Digital Twins for Oil & Gas [2026] | Pipeline & Asset Integrity', description: 'Digital twin solutions for oil & gas in 2026. Real-time pipeline monitoring, corrosion tracking, and predictive maintenance. Reduce inspection costs by 40%.' },
-  { path: '/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Use? [Side-by-Side]', description: 'UT vs RT comparison: cost, speed, defect detection accuracy, radiation safety, and code requirements (ASME, AWS, API). Decision matrix to choose the right weld inspection method.' },
+  { path: '/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Choose? [2026 Side-by-Side Guide]', description: 'UT vs RT comparison: cost, speed, defect detection accuracy, radiation safety, and code requirements (ASME, AWS, API). Decision matrix to choose the right weld inspection method.' },
   { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection Guide [2026] | Intervals, Floor Scanning & Checklist', description: 'API 653 tank inspection explained: external (every 5 yr), internal (every 10 yr, RBI-adjustable), floor UT/MFL scanning, shell thickness evaluation, and hot-tap repair criteria. Free downloadable checklist.' },
   { path: '/blog/ndt-career-guide', title: 'NDT Career Guide 2026 | Salary, Certifications & Career Path', description: 'How to become an NDT inspector in 2026: certification requirements (ASNT, ISO 9712), salary ranges ($45K-$120K+), highest-paying methods, and career advancement from Level I to Level III.' },
-  { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Use? [Comparison Table]', description: 'Side-by-side comparison of ultrasonic testing vs radiographic testing: cost ($800 vs $1,500/weld), speed, accuracy, safety, code requirements. Decision matrix included.' },
+  { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Choose? [2026 Comparison Table]', description: 'Side-by-side comparison of ultrasonic testing vs radiographic testing: cost ($800 vs $1,500/weld), speed, accuracy, radiation safety, ASME/AWS code requirements. Decision matrix included.' },
   { path: '/blog/digital-twins-ndt-guide', title: 'Digital Twins in NDT: How They Transform Inspection & Asset Integrity', description: 'How digital twin technology is transforming NDT inspections. Implementation guide with real ROI data, case studies from oil & gas, and step-by-step adoption roadmap.' },
   { path: '/blog/digital-twins-oil-gas', title: 'Digital Twins in Oil & Gas [2026]: Implementation Guide & ROI Data', description: 'How oil & gas companies implement digital twins for asset integrity in 2026. Pipeline monitoring, corrosion prediction, 40% cost reduction case studies, and vendor comparison.' },
 ];
@@ -893,6 +1017,220 @@ erpCities.forEach(({ city, country, slug, industries }) => {
     description: `NDT ERP software for inspection companies in ${city}, ${country}. Automate ASNT certification tracking, API 510/570/653 scheduling, and PDF report generation for ${industries}.`,
     canonical: `${SITE_URL}/ndt-erp-${slug}`,
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT ERP Software in ${city} | Inspection Management System</h1>\n    <p>Purpose-built NDT ERP software for inspection companies in ${city}, ${country}. Manage ASNT, ISO 9712, and PCN certification tracking with automated expiry alerts, API 510/570/653 inspection scheduling, corrosion data trending, and professional PDF report generation — all in one cloud platform. Serving ${industries}. Request a demo from Atlantis NDT.</p>\n  </main>`,
+  });
+});
+
+// ─── 20 US State Pages (NDT Level III Consulting & Training) ─────────────
+
+const usStatePages = [
+  { slug: 'texas', name: 'Texas', abbr: 'TX', focus: 'oil & gas, petrochemical, aerospace, wind energy', cities: 'Houston, Dallas, San Antonio, Austin, Midland, Beaumont, Corpus Christi' },
+  { slug: 'california', name: 'California', abbr: 'CA', focus: 'aerospace (Boeing, Northrop Grumman, SpaceX), refining, infrastructure', cities: 'Los Angeles, San Francisco, San Diego, Sacramento' },
+  { slug: 'louisiana', name: 'Louisiana', abbr: 'LA', focus: 'petrochemical corridor, LNG export terminals, offshore oil & gas', cities: 'New Orleans, Baton Rouge, Lake Charles' },
+  { slug: 'ohio', name: 'Ohio', abbr: 'OH', focus: 'manufacturing, nuclear power, refining, pipeline integrity', cities: 'Cleveland, Cincinnati, Columbus, Toledo' },
+  { slug: 'pennsylvania', name: 'Pennsylvania', abbr: 'PA', focus: 'nuclear power, refining, steel manufacturing, Marcellus Shale', cities: 'Philadelphia, Pittsburgh' },
+  { slug: 'colorado', name: 'Colorado', abbr: 'CO', focus: 'DJ Basin oil & gas, aerospace (Lockheed Martin), mining, wind energy', cities: 'Denver, Colorado Springs' },
+  { slug: 'michigan', name: 'Michigan', abbr: 'MI', focus: 'automotive (GM, Ford, Stellantis), nuclear power, pipeline integrity', cities: 'Detroit, Grand Rapids' },
+  { slug: 'illinois', name: 'Illinois', abbr: 'IL', focus: 'nuclear power (6 plants, most in US), refining, manufacturing', cities: 'Chicago, Joliet' },
+  { slug: 'new-york', name: 'New York', abbr: 'NY', focus: 'infrastructure, nuclear decommissioning, aerospace, utilities', cities: 'New York City, Buffalo' },
+  { slug: 'florida', name: 'Florida', abbr: 'FL', focus: 'aerospace (NASA, SpaceX), nuclear power, marine, phosphate mining', cities: 'Jacksonville, Tampa, Orlando, Miami' },
+  { slug: 'washington', name: 'Washington', abbr: 'WA', focus: 'Boeing aerospace, Hanford nuclear cleanup, refining, naval shipyard', cities: 'Seattle, Tacoma, Richland' },
+  { slug: 'georgia', name: 'Georgia', abbr: 'GA', focus: 'Vogtle nuclear, manufacturing, Port of Savannah, military', cities: 'Atlanta, Savannah, Augusta' },
+  { slug: 'new-jersey', name: 'New Jersey', abbr: 'NJ', focus: 'refining, nuclear power, pharmaceutical manufacturing, infrastructure', cities: 'Newark, Elizabeth, Paulsboro' },
+  { slug: 'north-carolina', name: 'North Carolina', abbr: 'NC', focus: 'nuclear power (Duke Energy), GE Aviation aerospace, manufacturing', cities: 'Charlotte, Raleigh, Wilmington' },
+  { slug: 'virginia', name: 'Virginia', abbr: 'VA', focus: 'Newport News Shipbuilding (carriers & subs), nuclear power, defense', cities: 'Norfolk, Hampton Roads, Richmond' },
+  { slug: 'tennessee', name: 'Tennessee', abbr: 'TN', focus: 'TVA nuclear fleet, Oak Ridge National Lab, automotive, chemical', cities: 'Nashville, Knoxville, Memphis' },
+  { slug: 'alabama', name: 'Alabama', abbr: 'AL', focus: 'NASA Marshall (Huntsville), Airbus Mobile, nuclear power, shipbuilding', cities: 'Huntsville, Mobile, Birmingham' },
+  { slug: 'oklahoma', name: 'Oklahoma', abbr: 'OK', focus: 'SCOOP/STACK oil plays, Cushing pipeline hub, Tinker AFB aerospace, wind energy', cities: 'Tulsa, Oklahoma City' },
+  { slug: 'minnesota', name: 'Minnesota', abbr: 'MN', focus: '3M/Honeywell manufacturing, Enbridge pipelines, nuclear power, medical devices', cities: 'Minneapolis, St. Paul' },
+  { slug: 'wisconsin', name: 'Wisconsin', abbr: 'WI', focus: 'manufacturing (Caterpillar, Oshkosh), Marinette Marine frigates, nuclear, paper/pulp', cities: 'Milwaukee, Green Bay' },
+];
+
+usStatePages.forEach(({ slug, name, abbr, focus, cities }) => {
+  routes.push({
+    path: `/ndt-consulting-${slug}`,
+    title: `NDT Level III Consulting ${name} (${abbr}) | ASNT Certified | Training & Inspection | Atlantis NDT`,
+    description: `NDT Level III consulting & ASNT certification training in ${name}. Expert procedure development, program audits, SNT-TC-1A compliance for ${focus}. Serving ${cities}. Houston-headquartered, 50+ Level III consultants.`,
+    canonical: `${SITE_URL}/ndt-consulting-${slug}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting & Training in ${name}</h1>\n    <p>Atlantis NDT provides ASNT Level III consulting and NDT training across ${name}. Our Houston-headquartered team of 50+ certified consultants specializes in ${focus}. Serving ${cities} and all ${name} locations.</p>\n    <h2>Industries in ${name}</h2>\n    <p>Our Level III consultants have direct experience in ${focus}. We deploy ASNT-certified experts to any ${name} location within 24-48 hours.</p>\n    <h2>NDT Training in ${name}</h2>\n    <p>ASNT Level I, II, and III certification for all 6 major NDT methods. 95% first-time pass rate. Virtual and on-site options.</p>\n  </main>`,
+  });
+});
+
+// ─── 15 New US City Consulting Pages ─────────────────────────────────────
+
+const newUSCityPages = [
+  { slug: 'austin', city: 'Austin', state: 'TX', focus: 'semiconductor manufacturing, tech sector, renewable energy, Samsung fab, Tesla Gigafactory' },
+  { slug: 'san-antonio', city: 'San Antonio', state: 'TX', focus: 'military installations (JBSA), Eagle Ford Shale, CPS Energy, aerospace MRO' },
+  { slug: 'fort-worth', city: 'Fort Worth', state: 'TX', focus: 'Lockheed Martin F-35 production, Bell helicopter, defense manufacturing, refining' },
+  { slug: 'midland', city: 'Midland-Odessa', state: 'TX', focus: 'Permian Basin oil & gas, drilling, pipeline infrastructure, compression stations' },
+  { slug: 'sacramento', city: 'Sacramento', state: 'CA', focus: 'Aerojet Rocketdyne aerospace, SMUD power generation, infrastructure' },
+  { slug: 'orlando', city: 'Orlando', state: 'FL', focus: 'Lockheed Martin, Northrop Grumman, L3Harris defense, NASA KSC support' },
+  { slug: 'norfolk', city: 'Norfolk', state: 'VA', focus: 'Naval Station Norfolk, Newport News Shipbuilding, carrier and submarine maintenance' },
+  { slug: 'huntsville', city: 'Huntsville', state: 'AL', focus: 'NASA Marshall SFC, Boeing SLS, Blue Origin, ULA, Redstone Arsenal defense' },
+  { slug: 'mobile', city: 'Mobile', state: 'AL', focus: 'Airbus A320 assembly, Austal USA Navy ships, chemical manufacturing, offshore support' },
+  { slug: 'oklahoma-city', city: 'Oklahoma City', state: 'OK', focus: 'Tinker AFB MRO, American Airlines maintenance, midstream oil & gas' },
+  { slug: 'colorado-springs', city: 'Colorado Springs', state: 'CO', focus: 'aerospace defense (Northrop Grumman, L3Harris), US Space Command' },
+  { slug: 'savannah', city: 'Savannah', state: 'GA', focus: 'Port of Savannah, Gulfstream Aerospace, manufacturing, military' },
+  { slug: 'raleigh', city: 'Raleigh', state: 'NC', focus: 'semiconductor manufacturing, pharmaceutical, GE Aviation, Research Triangle' },
+  { slug: 'nashville', city: 'Nashville', state: 'TN', focus: 'automotive (Nissan, GM Spring Hill), TVA power generation, manufacturing' },
+  { slug: 'lake-charles', city: 'Lake Charles', state: 'LA', focus: 'LNG terminals (Cameron, Driftwood), petrochemical plants, refining' },
+];
+
+newUSCityPages.forEach(({ slug, city, state, focus }) => {
+  routes.push({
+    path: `/consulting/ndt-consulting-${slug}`,
+    title: `NDT Consulting ${city}, ${state} | ASNT Level III Experts | Free Quote | Atlantis NDT`,
+    description: `Top-rated NDT Level III consulting in ${city}, ${state}. ASNT certified procedure writing, program audits, SNT-TC-1A compliance for ${focus}. 50+ certified consultants. Free consultation.`,
+    canonical: `${SITE_URL}/consulting/ndt-consulting-${slug}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting in ${city}, ${state}</h1>\n    <p>ASNT Level III NDT consulting in ${city}, ${state}. Procedure development, program audits, SNT-TC-1A compliance for ${focus}. Houston-headquartered team deploys within 24-48 hours.</p>\n  </main>`,
+  });
+});
+
+// ─── Extended Method × City pages (30 additional cities beyond methodCities) ──
+
+const extendedMethodCities = [
+  'new-york', 'boston', 'atlanta', 'miami', 'washington-dc', 'nashville',
+  'minneapolis', 'cleveland', 'baltimore', 'tampa', 'charlotte', 'indianapolis',
+  'san-diego', 'portland', 'salt-lake-city', 'kansas-city', 'st-louis',
+  'milwaukee', 'cincinnati', 'jacksonville',
+  'aberdeen', 'hamburg', 'rotterdam', 'stavanger', 'antwerp', 'marseille',
+  'milan', 'barcelona', 'gdansk', 'edinburgh',
+];
+
+methodPages.forEach(m => {
+  extendedMethodCities.forEach(citySlug => {
+    const cityName = toTitleCase(citySlug);
+    routes.push({
+      path: `/${m.slug}-${citySlug}`,
+      title: `${m.method} ${cityName} | ${m.short} Inspection Services | Atlantis NDT`,
+      description: `Professional ${m.method} (${m.short}) services in ${cityName}. ASNT Level II & III certified inspectors for ${m.detail}. Serving oil & gas, aerospace & industrial clients in ${cityName}.`,
+      canonical: `${SITE_URL}/${m.slug}-${citySlug}`,
+      bodyContent: `  <header><nav><a href="/">Home</a><a href="/${m.slug}">${m.method}</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${m.method} Services in ${cityName}</h1>\n    <p>Professional ${m.method} (${m.short}) inspection services in ${cityName}. ASNT Level II & III certified inspectors specializing in ${m.detail} for oil & gas, aerospace, power generation, and manufacturing industries.</p>\n    <h2>Why Choose Atlantis NDT for ${m.short} in ${cityName}?</h2>\n    <p>Atlantis NDT provides certified ${m.method} inspectors in ${cityName} with expertise in API 510/570/653 compliance, ASME Section V procedures, and AWS D1.1 weld inspection. Contact us for a free quote.</p>\n  </main>`,
+    });
+  });
+});
+
+// ─── Training City Pages ─────────────────────────────────────────────────
+
+const trainingCityPages = [
+  { slug: 'houston', city: 'Houston', region: 'USA', detail: 'Houston, TX training center with hands-on labs and API exam preparation. Serving the Gulf Coast oil & gas corridor.' },
+  { slug: 'new-york', city: 'New York', region: 'USA', detail: 'New York City NDT training for aerospace, manufacturing, and construction industries. Manhattan and tri-state area.' },
+  { slug: 'los-angeles', city: 'Los Angeles', region: 'USA', detail: 'LA-based NDT training for aerospace (Boeing, Northrop Grumman), oil refining, and manufacturing sectors.' },
+  { slug: 'chicago', city: 'Chicago', region: 'USA', detail: 'Chicago NDT training for manufacturing, power generation, and pipeline industries across the Midwest.' },
+  { slug: 'denver', city: 'Denver', region: 'USA', detail: 'Denver NDT training for oil & gas (DJ Basin), mining, and power generation industries in the Rocky Mountain region.' },
+  { slug: 'new-orleans', city: 'New Orleans', region: 'USA', detail: 'New Orleans NDT training for Gulf Coast refineries, petrochemical plants, and offshore operations.' },
+  { slug: 'dallas', city: 'Dallas', region: 'USA', detail: 'Dallas-Fort Worth NDT training for aerospace (Lockheed Martin), oil & gas, and manufacturing sectors.' },
+  { slug: 'philadelphia', city: 'Philadelphia', region: 'USA', detail: 'Philadelphia NDT training for refining, nuclear power, and heavy manufacturing industries in the Northeast.' },
+  { slug: 'pittsburgh', city: 'Pittsburgh', region: 'USA', detail: 'Pittsburgh NDT training for steel manufacturing, power generation, and petrochemical industries.' },
+  { slug: 'atlanta', city: 'Atlanta', region: 'USA', detail: 'Atlanta NDT training for aerospace, automotive, and construction industries across the Southeast.' },
+];
+
+trainingCityPages.forEach(({ slug, city, region, detail }) => {
+  routes.push({
+    path: `/ndt-training-${slug}`,
+    title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
+    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} 95% pass rate. Enrol today.`,
+    canonical: `${SITE_URL}/ndt-training-${slug}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}. ${detail} Level I, II, and III certification for all major NDT methods with 95% pass rate.</p>\n  </main>`,
+  });
+});
+
+// ─── Additional Training Pages ───────────────────────────────────────────
+
+const additionalTrainingPages = [
+  { path: '/api-510-training', title: 'API 510 Training | Pressure Vessel Inspector Exam Prep | Atlantis NDT', description: 'API 510 Pressure Vessel Inspector certification training. Open-book exam preparation covering ASME Section VIII, API 510/572/576/579. Houston, Dubai, India & online. 95% pass rate.', h1: 'API 510 Pressure Vessel Inspector Training' },
+  { path: '/api-653-training', title: 'API 653 Training | Tank Inspector Certification Exam Prep | Atlantis NDT', description: 'API 653 Aboveground Storage Tank Inspector certification training. Exam prep for API 650/651/653, RBI, and floor inspection. Houston, Dubai, India & online. 95% pass rate.', h1: 'API 653 Tank Inspector Training' },
+  { path: '/asnt-level-iii-training', title: 'ASNT Level III Training | NDT Manager Certification Prep | Atlantis NDT', description: 'ASNT Level III certification training: Basic, Method, and Specific exam preparation. Written practice development, program management, and procedure review. 95% pass rate.', h1: 'ASNT Level III Certification Training' },
+  { path: '/phased-array-training', title: 'Phased Array UT Training | PAUT Certification Course | Atlantis NDT', description: 'Phased Array UT (PAUT) training and certification. S-scan, TFM, sector scans, ASME V Appendix IV. Hands-on lab with Olympus OmniScan. Houston, Dubai, India & online.', h1: 'Phased Array UT (PAUT) Training' },
+];
+
+additionalTrainingPages.forEach(p => {
+  routes.push({
+    path: p.path,
+    title: p.title,
+    description: p.description,
+    canonical: `${SITE_URL}${p.path}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.h1}</h1>\n    <p>${p.description}</p>\n  </main>`,
+  });
+});
+
+// ─── Industry Service Pages ──────────────────────────────────────────────
+
+const industryServicePages = [
+  { path: '/oil-gas-ndt-services', title: 'Oil & Gas NDT Services | Pipeline, Refinery & Offshore Inspection | Atlantis NDT', description: 'Comprehensive NDT services for oil & gas: pipeline integrity, refinery inspection, offshore platforms, pressure vessel testing. API 510/570/653 certified inspectors.', h1: 'Oil & Gas NDT Services' },
+  { path: '/aerospace-ndt-services', title: 'Aerospace NDT Services | Aircraft, Engine & Composite Inspection | Atlantis NDT', description: 'Specialized NDT services for aerospace: aircraft structural inspection, engine component testing, composite NDT. NAS-410 certified, NADCAP compliant.', h1: 'Aerospace NDT Services' },
+  { path: '/power-generation-ndt-services', title: 'Power Generation NDT Services | Turbine, Boiler & Nuclear Inspection | Atlantis NDT', description: 'NDT services for power generation: gas turbine, boiler tube, steam generator, and nuclear component inspection. ASME qualified outage support teams.', h1: 'Power Generation NDT Services' },
+  { path: '/petrochemical-ndt-services', title: 'Petrochemical NDT Services | Reactor, Column & Heat Exchanger Inspection | Atlantis NDT', description: 'NDT services for petrochemical plants: reactor vessels, distillation columns, heat exchangers, piping systems. API 510/570 compliant, turnaround support.', h1: 'Petrochemical NDT Services' },
+  { path: '/pipeline-inspection-services', title: 'Pipeline Inspection Services | ILI, GWT & Corrosion Assessment | Atlantis NDT', description: 'Pipeline inspection services: in-line inspection (ILI), guided wave testing, corrosion mapping, CUI detection. API 570, ASME B31.3/B31.4 compliant.', h1: 'Pipeline Inspection Services' },
+  { path: '/marine-offshore-ndt-services', title: 'Marine & Offshore NDT Services | FPSO, Platform & Subsea Inspection | Atlantis NDT', description: 'NDT services for marine & offshore: FPSO hull inspection, platform structural assessment, subsea pipeline integrity. DNV, Lloyd\'s, ABS certified.', h1: 'Marine & Offshore NDT Services' },
+  { path: '/nuclear-ndt-services', title: 'Nuclear NDT Services | Reactor, Steam Generator & Containment Inspection | Atlantis NDT', description: 'Nuclear NDT services: reactor vessel inspection, steam generator tube testing, containment structure assessment. NRC qualified, ASME Section XI compliant.', h1: 'Nuclear NDT Services' },
+  { path: '/construction-ndt-services', title: 'Construction NDT Services | Structural Steel & Weld Inspection | Atlantis NDT', description: 'NDT services for construction: structural steel weld inspection, concrete assessment, rebar scanning. AWS D1.1, AISC certified inspectors.', h1: 'Construction NDT Services' },
+];
+
+industryServicePages.forEach(p => {
+  routes.push({
+    path: p.path,
+    title: p.title,
+    description: p.description,
+    canonical: `${SITE_URL}${p.path}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.h1}</h1>\n    <p>${p.description}</p>\n  </main>`,
+  });
+});
+
+// ─── Software Comparison & Feature Pages ─────────────────────────────────
+
+const softwarePages = [
+  { path: '/ndt-erp-software-comparison', title: 'NDT ERP Software Comparison 2026 | Top Solutions Compared | Atlantis NDT', description: 'Compare top NDT ERP software solutions: features, pricing, integrations. Atlantis NDT ERP vs competitors for inspection management, cert tracking, and reporting.' },
+  { path: '/ndt-reporting-software-comparison', title: 'NDT Reporting Software Comparison 2026 | Digital Reports | Atlantis NDT', description: 'Compare NDT reporting software: digital reports, API compliance, digital twin integration. Side-by-side feature comparison of top solutions for inspection companies.' },
+  { path: '/digital-twin-ndt-software', title: 'Digital Twin NDT Software | 3D Asset Visualization | Atlantis NDT', description: 'Digital twin software for NDT inspection data visualization. Convert thickness readings into 3D color-coded asset models. API 579 fitness-for-service integration.' },
+  { path: '/ndt-software-features', title: 'NDT Software Features | Inspection Management Platform | Atlantis NDT', description: 'Complete feature overview of Atlantis NDT software platform: job management, certification tracking, digital twin reporting, API compliance, and mobile inspection.' },
+  { path: '/ndt-data-management', title: 'NDT Data Management | Inspection Data Organization & Analysis | Atlantis NDT', description: 'NDT data management solutions: organize inspection data, track corrosion trends, automate reporting, and integrate with digital twin platforms. Cloud-based and secure.' },
+];
+
+softwarePages.forEach(p => {
+  routes.push({
+    path: p.path,
+    title: p.title,
+    description: p.description,
+    canonical: `${SITE_URL}${p.path}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.title.split('|')[0].trim()}</h1>\n    <p>${p.description}</p>\n  </main>`,
+  });
+});
+
+// ─── New Blog Posts (not in blogs.json) ──────────────────────────────────
+
+const newBlogPosts = [
+  { path: '/blog/eddy-current-testing-complete-guide', title: 'Eddy Current Testing: Complete Guide to ECT Methods, Equipment & Standards', description: 'Comprehensive eddy current testing guide: conventional ECT, pulsed EC, bobbin coil, RFEC. Equipment selection, ASTM E309, and aerospace/oil & gas applications.', h1: 'Eddy Current Testing: Complete Guide' },
+  { path: '/blog/ultrasonic-testing-ultimate-guide', title: 'Ultrasonic Testing: Ultimate Guide to UT NDT Methods & Techniques', description: 'The ultimate guide to ultrasonic testing: pulse-echo, TOFD, phased array, automated UT. ASME Section V, calibration, probe selection, and scan plans.', h1: 'Ultrasonic Testing: Ultimate Guide' },
+  { path: '/blog/api-653-certification-complete-guide', title: 'API 653 Certification: Complete Guide to Tank Inspector Exam 2026', description: 'Everything about API 653 certification: exam format, required codes, study plan, calculation formulas, and tips from experienced API tank inspectors.', h1: 'API 653 Certification: Complete Guide' },
+  { path: '/blog/ndt-salary-guide-2026-global', title: 'NDT Salary Guide 2026: Global Pay by Method, Level & Location', description: 'Global NDT salary guide for 2026: pay ranges by ASNT level, NDT method, and location. USA, Middle East, India, Europe, and Australia data.', h1: 'NDT Salary Guide 2026' },
+  { path: '/blog/rt-vs-ut-complete-comparison', title: 'RT vs UT: Complete Comparison for Weld Inspection [Decision Guide]', description: 'RT vs UT detailed comparison: cost, speed, safety, defect detection, code requirements. When to use radiographic testing vs ultrasonic testing for welds.', h1: 'RT vs UT: Complete Weld Inspection Comparison' },
+];
+
+newBlogPosts.forEach(p => {
+  routes.push({
+    path: p.path,
+    title: `${p.title} | Atlantis NDT`,
+    description: p.description,
+    canonical: `${SITE_URL}${p.path}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <article>\n      <h1>${p.h1}</h1>\n      <p>${p.description}</p>\n    </article>\n  </main>`,
+  });
+});
+
+// ─── Misc pages (resources landing, press, industry) ─────────────────────
+
+const miscPages = [
+  { path: '/resources', title: 'NDT Resources | Guides, Templates & Checklists | Atlantis NDT', description: 'Free NDT resources: inspection checklists, procedure templates, study guides, and training requirement matrices. Built by ASNT Level III experts.' },
+  { path: '/press', title: 'Press & Media | Atlantis NDT News', description: 'Latest news and press releases from Atlantis NDT. Industry announcements, partnership news, and company updates.' },
+  { path: '/industry', title: 'Industries We Serve | NDT for Oil & Gas, Aerospace, Power & More | Atlantis NDT', description: 'NDT services across industries: oil & gas, aerospace, power generation, petrochemical, marine, nuclear, and construction. ASNT Level III certified consultants.' },
+];
+
+miscPages.forEach(p => {
+  routes.push({
+    path: p.path,
+    title: p.title,
+    description: p.description,
+    canonical: `${SITE_URL}${p.path}`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.title.split('|')[0].trim()}</h1>\n    <p>${p.description}</p>\n  </main>`,
   });
 });
 

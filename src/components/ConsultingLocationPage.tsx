@@ -353,6 +353,81 @@ const locationIntros: Record<string, { intro: string; marketInsight: string; reg
         intro: "Casablanca serves as Morocco's industrial capital, with major phosphate processing, automotive manufacturing, and growing energy infrastructure across the country.",
         marketInsight: "Industrial diversification, renewable energy investment, and OCP's phosphate operations create diverse consulting demand in North Africa.",
         regionalChallenge: "Diverse industrial applications, proximity to European standards, and growing manufacturing sectors require consultants familiar with both African and European regulatory frameworks."
+    },
+    "austin": {
+        intro: "Austin's rapidly expanding semiconductor fabrication, data center construction, and advanced manufacturing sector make it one of the fastest-growing NDT markets in the southern United States. Samsung's $17 billion fab and Tesla's Gigafactory drive demand for precision inspection programs.",
+        marketInsight: "The semiconductor boom and defense manufacturing growth in Central Texas create specialized consulting needs for cleanroom-compatible NDT, thin-wall tubing inspection, and advanced composite evaluation.",
+        regionalChallenge: "Rapid growth strains the available pool of qualified inspectors, while diverse industry requirements—from chip fabs to oil field equipment—demand consultants skilled in multiple codes and standards."
+    },
+    "san-antonio": {
+        intro: "San Antonio anchors a major defense and aerospace corridor, with Joint Base San Antonio, Boeing, and Lockheed Martin operations driving demand for ASNT Level III consulting in military and aviation applications.",
+        marketInsight: "Sustained defense spending and the Eagle Ford Shale's midstream infrastructure create dual-track consulting opportunities across aerospace and petroleum sectors.",
+        regionalChallenge: "Meeting both DoD and commercial aerospace quality requirements alongside oil and gas codes demands consultants fluent in NAS 410, SNT-TC-1A, and API standards simultaneously."
+    },
+    "fort-worth": {
+        intro: "Fort Worth's industrial landscape combines Lockheed Martin's F-35 production line, Bell's tiltrotor manufacturing, and a robust refining corridor that collectively sustain year-round NDT consulting demand.",
+        marketInsight: "The F-35 full-rate production ramp and expanding LNG export infrastructure create premium opportunities for Level III consultants with aerospace and energy sector dual expertise.",
+        regionalChallenge: "Advanced composite inspection for aerospace platforms alongside traditional weld inspection for petrochemical facilities requires consultants with breadth across multiple NDT methods."
+    },
+    "midland": {
+        intro: "Midland sits at the heart of the Permian Basin, the most productive oil field in the United States, where thousands of miles of pipeline, tank batteries, and processing facilities require continuous NDT oversight.",
+        marketInsight: "Record Permian production volumes and new pipeline construction projects drive relentless demand for Level III consulting in welding procedure qualification and in-service inspection programs.",
+        regionalChallenge: "Remote desert operations, extreme summer heat, and a highly competitive labor market for certified inspectors require consultants experienced in efficient program management under challenging conditions."
+    },
+    "sacramento": {
+        intro: "Sacramento and California's Central Valley host significant power generation infrastructure, water treatment facilities, and growing clean energy manufacturing that require ASNT Level III program oversight.",
+        marketInsight: "California's aggressive decarbonization mandates drive investment in hydrogen pipelines, battery storage, and renewable energy infrastructure—all requiring specialized NDT consulting.",
+        regionalChallenge: "Seismic design requirements, stringent CalOSHA regulations, and the state's unique environmental compliance framework demand consultants well-versed in California-specific codes."
+    },
+    "orlando": {
+        intro: "Orlando and Central Florida support a thriving aerospace and defense sector anchored by Lockheed Martin, Northrop Grumman, and the Kennedy Space Center supply chain, alongside growing power generation infrastructure.",
+        marketInsight: "Commercial space launch vehicle production and defense electronics manufacturing create niche consulting opportunities for advanced NDT methods including phased array and digital radiography.",
+        regionalChallenge: "High humidity, hurricane preparedness, and the precision demands of space hardware inspection require consultants experienced in controlled-environment NDT applications."
+    },
+    "norfolk": {
+        intro: "Norfolk and the Hampton Roads region host the world's largest naval base and a major shipbuilding corridor led by Huntington Ingalls Industries, driving specialized NDT requirements for nuclear and conventional naval vessels.",
+        marketInsight: "Navy shipbuilding programs, submarine construction, and fleet maintenance contracts create sustained demand for Level III consultants with NAVSEA and nuclear quality program experience.",
+        regionalChallenge: "Nuclear-grade inspection requirements, classified program restrictions, and the unique demands of shipyard environments require consultants with active security clearances and maritime experience."
+    },
+    "huntsville": {
+        intro: "Huntsville, Alabama—'Rocket City'—is home to NASA's Marshall Space Flight Center, Redstone Arsenal, and a growing constellation of aerospace and defense manufacturers requiring precision NDT programs.",
+        marketInsight: "The Space Launch System, hypersonic weapons programs, and the influx of defense contractors to Cummings Research Park create premium consulting opportunities in aerospace NDT.",
+        regionalChallenge: "Exotic alloy welding, additive manufacturing qualification, and the exacting standards of space-rated hardware demand consultants with advanced aerospace materials expertise."
+    },
+    "mobile": {
+        intro: "Mobile's Gulf Coast industrial corridor combines Airbus A320 final assembly, major shipbuilding operations at Austal USA, and petrochemical facilities along the Mobile River.",
+        marketInsight: "Airbus production ramp-up and naval shipbuilding contracts create growing demand for Level III consulting bridging aerospace and marine inspection disciplines.",
+        regionalChallenge: "Coastal humidity, hurricane exposure, and the need to bridge aerospace precision with heavy industrial inspection require versatile consultants with multi-code expertise."
+    },
+    "oklahoma-city": {
+        intro: "Oklahoma City anchors the state's petroleum midstream hub and hosts Tinker Air Force Base, the world's largest military aircraft maintenance depot, creating dual-sector NDT demand.",
+        marketInsight: "Air Force sustainment programs and the Oklahoma pipeline network drive sustained consulting opportunities across both defense and oil and gas sectors.",
+        regionalChallenge: "Tornado-zone resilience requirements, aging military aircraft inspection, and midstream pipeline integrity programs demand consultants with both military and commercial experience."
+    },
+    "colorado-springs": {
+        intro: "Colorado Springs hosts significant aerospace and defense operations including the Air Force Academy, Space Command, and numerous satellite and missile defense contractors requiring specialized NDT programs.",
+        marketInsight: "Space systems manufacturing and defense electronics create specialized consulting needs for advanced NDT methods on precision components and exotic materials.",
+        regionalChallenge: "High-altitude environmental effects on materials, classified program requirements, and the precision demands of space hardware require consultants with defense-sector clearances and expertise."
+    },
+    "savannah": {
+        intro: "Savannah combines Gulfstream Aerospace's business jet manufacturing with one of the busiest container ports on the U.S. East Coast and a growing industrial corridor along the Georgia coast.",
+        marketInsight: "Gulfstream production expansion and port infrastructure development create consulting opportunities spanning aerospace NDT and heavy structural inspection.",
+        regionalChallenge: "Coastal corrosion, aerospace precision requirements, and the seasonal demands of port infrastructure maintenance require consultants with diverse inspection capabilities."
+    },
+    "raleigh": {
+        intro: "The Raleigh-Durham Research Triangle hosts advanced pharmaceutical manufacturing, semiconductor fabrication, and growing energy infrastructure supporting North Carolina's industrial expansion.",
+        marketInsight: "Pharmaceutical process piping, semiconductor cleanroom systems, and nuclear power operations at nearby Harris plant create diverse Level III consulting opportunities.",
+        regionalChallenge: "Cleanroom-compatible inspection methods, pharmaceutical validation requirements, and nuclear regulatory compliance demand consultants with specialized industry credentials."
+    },
+    "nashville": {
+        intro: "Nashville and Middle Tennessee host a growing automotive manufacturing corridor led by Nissan and GM, alongside significant healthcare infrastructure and expanding industrial operations.",
+        marketInsight: "Automotive stamping and assembly quality requirements and healthcare facility infrastructure create consulting demand across manufacturing and construction sectors.",
+        regionalChallenge: "Automotive production quality demands, diverse manufacturing applications, and the region's rapid industrial growth require consultants adaptable to multiple industry sectors."
+    },
+    "lake-charles": {
+        intro: "Lake Charles sits at the nexus of Louisiana's LNG export boom and legacy petrochemical corridor, with massive capital projects at Cameron LNG, Driftwood LNG, and numerous chemical facilities.",
+        marketInsight: "Multi-billion-dollar LNG terminal construction and ongoing refinery turnarounds create intense, sustained demand for Level III consulting in both greenfield and brownfield environments.",
+        regionalChallenge: "Hurricane exposure, extreme humidity, and the simultaneous demands of construction and maintenance inspection require consultants experienced in large-project mobilization and Gulf Coast conditions."
     }
 };
 
