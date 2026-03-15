@@ -9,6 +9,42 @@
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
       ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.css",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(?:png|jpg|jpeg|gif|svg|webp|ico)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(?:woff|woff2|ttf|otf|eot)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=600" }
+      ]
     }
   ],
   "redirects": [
@@ -84,7 +120,7 @@
       "statusCode": 301
     },
     {
-      "source": "/ndt-consulting-:city",
+      "source": "/ndt-consulting-:city(houston|los-angeles|new-orleans|denver|chicago|seattle|dallas|phoenix|philadelphia|san-francisco|detroit|pittsburgh|baton-rouge|corpus-christi|tulsa|beaumont|dubai|saudi-arabia|qatar|kuwait|abu-dhabi|bahrain|oman|jubail|yanbu|dammam|mumbai|hyderabad|bangalore|chennai|delhi|kolkata|pune|ahmedabad|kochi|vizag|jamnagar|singapore|malaysia|indonesia|thailand|vietnam|philippines|hong-kong|taiwan|south-korea|japan|china|beijing|shanghai|shenzhen|australia|sydney|melbourne|brisbane|perth|new-zealand|uk|norway|netherlands|belgium|germany|france|spain|italy|scotland|aberdeen|calgary|edmonton|toronto|vancouver|nigeria|ghana|accra|south-africa|cape-town|johannesburg|nairobi|kenya|egypt|algeria|angola|brazil|sao-paulo|rio-de-janeiro|argentina|buenos-aires|chile|santiago|colombia|bogota|peru|lima|mexico-city|trinidad|bangkok|jakarta|manila|casablanca|lagos|ho-chi-minh|austin|san-antonio|fort-worth|midland|sacramento|orlando|norfolk|huntsville|mobile|oklahoma-city|colorado-springs|savannah|raleigh|nashville|lake-charles|level-iii)",
       "destination": "/consulting/ndt-consulting-:city",
       "statusCode": 301
     },
