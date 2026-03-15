@@ -58,36 +58,99 @@ export default function BlogDetail() {
     return cleanBlogContent(blog.content);
   }, [blog?.content]);
 
-  // Generate Article schema for structured data (helps with Google indexing)
+  // Helper: convert human date to ISO format
+  const toISODate = (dateStr: string): string => {
+    try {
+      const d = new Date(dateStr);
+      return isNaN(d.getTime()) ? dateStr : d.toISOString().split('T')[0];
+    } catch { return dateStr; }
+  };
+
+  // Detect if blog is a "guide" or "how-to" type post
+  const isGuidePost = useMemo(() => {
+    if (!blog) return false;
+    const title = (blog.title || '').toLowerCase();
+    return title.includes('guide') || title.includes('how to') || title.includes('implementation') || title.includes('step') || title.includes('requirements');
+  }, [blog]);
+
+  // Extract H2 headings from content for HowTo steps
+  const howToSteps = useMemo(() => {
+    if (!blog?.content || !isGuidePost) return [];
+    const h2Regex = /<h2[^>]*>(.*?)<\/h2>/gi;
+    const steps: { name: string; text: string }[] = [];
+    let match;
+    while ((match = h2Regex.exec(blog.content)) !== null) {
+      const name = match[1].replace(/<[^>]+>/g, '').trim();
+      if (name && !name.toLowerCase().includes('conclusion') && !name.toLowerCase().includes('contact') && !name.toLowerCase().includes('request') && !name.toLowerCase().includes('atlantis')) {
+        steps.push({ name, text: `Learn about ${name} in this comprehensive guide.` });
+      }
+    }
+    return steps;
+  }, [blog?.content, isGuidePost]);
+
+  // Generate rich structured data with Article + optional HowTo
   const articleSchema = useMemo(() => {
     if (!blog) return null;
+    const isoPublished = blog.createdAt || toISODate(blog.date);
+    const isoModified = blog.updatedAt || isoPublished;
+    const graph: any[] = [
+      {
+        "@type": "TechArticle",
+        "headline": blog.title,
+        "description": blog.metaDescription || blog.snippet,
+        "datePublished": isoPublished,
+        "dateModified": isoModified,
+        "author": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "url": "https://atlantisndt.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://atlantisndt.com/favicon-96x96.jpg",
+            "width": 96,
+            "height": 96
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://atlantisndt.com/blog/${blog.slug}`
+        },
+        "image": blog.image || "https://atlantisndt.com/og-image.jpg",
+        "keywords": `NDT, ${blog.title}, non-destructive testing`,
+        "about": {
+          "@type": "Thing",
+          "name": "Non-Destructive Testing"
+        },
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true
+      }
+    ];
+
+    // Add HowTo schema for guide-type posts
+    if (isGuidePost && howToSteps.length >= 3) {
+      graph.push({
+        "@type": "HowTo",
+        "name": blog.title,
+        "description": blog.metaDescription || blog.snippet,
+        "step": howToSteps.map((step, i) => ({
+          "@type": "HowToStep",
+          "position": i + 1,
+          "name": step.name,
+          "text": step.text
+        })),
+        "totalTime": `PT${Math.max(10, howToSteps.length * 3)}M`
+      });
+    }
+
     return {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": blog.title,
-      "description": blog.metaDescription || blog.snippet,
-      "datePublished": blog.date,
-      "dateModified": blog.date,
-      "author": {
-        "@type": "Person",
-        "name": blog.author || "Atlantis NDT Expert"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Atlantis NDT",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://atlantisndt.com/favicon-96x96.jpg"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": `https://atlantisndt.com/blog/${blog.slug}`
-      },
-      "image": blog.image || "https://atlantisndt.com/og-image.jpg",
-      "keywords": `NDT, ${blog.title}, non-destructive testing`
+      "@graph": graph
     };
-  }, [blog]);
+  }, [blog, isGuidePost, howToSteps]);
 
   if (!blog) {
     return (

@@ -83,7 +83,7 @@ export const Navigation = () => {
                <motion.div variants={itemVariants}>
                   <Link to="/" className="flex items-center space-x-2 ">
                      <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-                        <img src="/atlantis.png" alt="Atlantis NDT Logo" />
+                        <img src="/atlantis.png" alt="Atlantis NDT Logo - Global NDT Consulting and Training" width="40" height="40" />
                      </div>
                      <span className="font-bold text-xl text-primary">
                         Atlantis NDT

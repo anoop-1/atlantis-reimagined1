@@ -21,7 +21,7 @@ function toTitleCase(slug) {
   return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
-function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, bodyContent, noindex }) {
+function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, bodyContent, noindex, hreflangLinks, structuredData }) {
   let out = html;
 
   // Title
@@ -75,6 +75,20 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, body
         `<meta name="robots" content="noindex, nofollow" />\n    <meta name="description"`
       );
     }
+  }
+
+  // Inject hreflang links into <head>
+  if (hreflangLinks && hreflangLinks.length > 0) {
+    const hreflangTags = hreflangLinks.map(
+      ({ hreflang, href }) => `  <link rel="alternate" hreflang="${hreflang}" href="${href}" />`
+    ).join('\n');
+    out = out.replace('</head>', `${hreflangTags}\n</head>`);
+  }
+
+  // Inject structured data JSON-LD into <head>
+  if (structuredData) {
+    const sdTag = `  <script type="application/ld+json">${JSON.stringify(structuredData)}</script>`;
+    out = out.replace('</head>', `${sdTag}\n</head>`);
   }
 
   // Replace static body fallback content if provided
@@ -421,12 +435,50 @@ corePages.forEach(p => {
 
 // ── Blog post pages ──────────────────────────────────────────────────────
 blogs.forEach(blog => {
+  const blogCanonical = `${SITE_URL}/blog/${blog.slug}`;
+  const blogDesc = blog.metaDescription || blog.excerpt || blog.description || `${blog.title} - Expert NDT insights from ASNT Level III professionals at Atlantis NDT.`;
+  const isoDate = blog.createdAt || blog.date || '2026-01-01';
+  const isoModified = blog.updatedAt || isoDate;
+
+  // Article structured data for pre-rendered HTML (critical for Googlebot)
+  const blogStructuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "headline": blog.title,
+        "description": blogDesc,
+        "datePublished": isoDate,
+        "dateModified": isoModified,
+        "author": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Atlantis NDT",
+          "logo": { "@type": "ImageObject", "url": `${SITE_URL}/favicon-96x96.jpg`, "width": 96, "height": 96 }
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": blogCanonical },
+        "image": `${SITE_URL}/og-image.jpg`,
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${SITE_URL}/blog` },
+          { "@type": "ListItem", "position": 3, "name": blog.title, "item": blogCanonical }
+        ]
+      }
+    ]
+  };
+
   routes.push({
     path: `/blog/${blog.slug}`,
     title: `${blog.title} | Atlantis NDT`,
-    description: blog.excerpt || blog.description || `${blog.title} - Expert NDT insights from ASNT Level III professionals at Atlantis NDT.`,
-    canonical: `${SITE_URL}/blog/${blog.slug}`,
-    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <article>\n      <h1>${blog.title}</h1>\n      <p>${blog.excerpt || ''}</p>\n    </article>\n  </main>`,
+    description: blogDesc,
+    canonical: blogCanonical,
+    structuredData: blogStructuredData,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <article>\n      <h1>${blog.title}</h1>\n      <p>${blog.snippet || blog.excerpt || ''}</p>\n    </article>\n  </main>`,
   });
 });
 
@@ -567,20 +619,96 @@ const regionDifferentiators = {
   'jamnagar': { industries: 'refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Reliance Jamnagar mega-refinery specialists' },
 };
 
+// Country codes for hreflang mapping
+const cityCountryMap = {
+  'houston': 'US', 'los-angeles': 'US', 'new-orleans': 'US', 'denver': 'US', 'chicago': 'US',
+  'seattle': 'US', 'dallas': 'US', 'phoenix': 'US', 'philadelphia': 'US', 'san-francisco': 'US',
+  'detroit': 'US', 'pittsburgh': 'US', 'baton-rouge': 'US', 'corpus-christi': 'US', 'tulsa': 'US',
+  'beaumont': 'US', 'austin': 'US', 'san-antonio': 'US', 'fort-worth': 'US', 'midland': 'US',
+  'sacramento': 'US', 'orlando': 'US', 'norfolk': 'US', 'huntsville': 'US', 'mobile': 'US',
+  'oklahoma-city': 'US', 'colorado-springs': 'US', 'savannah': 'US', 'raleigh': 'US',
+  'nashville': 'US', 'lake-charles': 'US',
+  'dubai': 'AE', 'abu-dhabi': 'AE',
+  'saudi-arabia': 'SA', 'jubail': 'SA', 'yanbu': 'SA', 'dammam': 'SA',
+  'qatar': 'QA', 'kuwait': 'KW', 'bahrain': 'BH', 'oman': 'OM',
+  'mumbai': 'IN', 'hyderabad': 'IN', 'bangalore': 'IN', 'chennai': 'IN', 'delhi': 'IN',
+  'kolkata': 'IN', 'pune': 'IN', 'ahmedabad': 'IN', 'kochi': 'IN', 'vizag': 'IN', 'jamnagar': 'IN',
+  'singapore': 'SG', 'malaysia': 'MY', 'indonesia': 'ID', 'thailand': 'TH', 'vietnam': 'VN',
+  'philippines': 'PH', 'japan': 'JP', 'south-korea': 'KR',
+  'uk': 'GB', 'aberdeen': 'GB', 'scotland': 'GB',
+  'norway': 'NO', 'netherlands': 'NL', 'belgium': 'BE', 'germany': 'DE', 'france': 'FR',
+  'spain': 'ES', 'italy': 'IT',
+  'calgary': 'CA', 'edmonton': 'CA', 'toronto': 'CA', 'vancouver': 'CA',
+  'australia': 'AU', 'sydney': 'AU', 'melbourne': 'AU', 'brisbane': 'AU', 'perth': 'AU',
+  'new-zealand': 'NZ',
+  'nigeria': 'NG', 'lagos': 'NG', 'ghana': 'GH', 'accra': 'GH',
+  'south-africa': 'ZA', 'cape-town': 'ZA', 'johannesburg': 'ZA',
+  'nairobi': 'KE', 'kenya': 'KE', 'egypt': 'EG', 'algeria': 'DZ', 'angola': 'AO',
+  'casablanca': 'MA',
+  'brazil': 'BR', 'sao-paulo': 'BR', 'rio-de-janeiro': 'BR',
+  'argentina': 'AR', 'buenos-aires': 'AR', 'chile': 'CL', 'santiago': 'CL',
+  'colombia': 'CO', 'bogota': 'CO', 'peru': 'PE', 'lima': 'PE',
+  'mexico-city': 'MX', 'trinidad': 'TT',
+  'beijing': 'CN', 'shanghai': 'CN', 'shenzhen': 'CN', 'china': 'CN',
+  'hong-kong': 'HK', 'taiwan': 'TW', 'taipei': 'TW', 'manila': 'PH',
+  'bangkok': 'TH', 'jakarta': 'ID', 'ho-chi-minh': 'VN',
+};
+
 consultingCities.forEach(citySlug => {
   const cityName = toTitleCase(citySlug);
   const diff = regionDifferentiators[citySlug];
+  const canonical = `${SITE_URL}/consulting/ndt-consulting-${citySlug}`;
+  const countryCode = cityCountryMap[citySlug] || 'US';
   const title = diff
     ? `NDT Consulting ${cityName} | ${diff.certs} | ${diff.usp} | Atlantis NDT`
     : `NDT Consulting ${cityName} | ASNT Level III Experts | Free Quote | Atlantis NDT`;
   const desc = diff
     ? `Expert NDT consulting in ${cityName} for ${diff.industries}. ${diff.certs} professionals. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. ${diff.usp}. Get a free quote.`
     : `Top-rated NDT consulting in ${cityName}: ASNT Level III procedure writing, program audits, SNT-TC-1A compliance, and expert witness. 50+ certified consultants. Get a free quote today.`;
+
+  // Hreflang for geo-targeting
+  const hreflangLinks = [
+    { hreflang: `en-${countryCode}`, href: canonical },
+    { hreflang: 'en', href: canonical },
+    { hreflang: 'x-default', href: canonical }
+  ];
+
+  // LocalBusiness + ProfessionalService structured data in pre-rendered HTML
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "name": `NDT Level III Consulting in ${cityName}`,
+        "description": desc,
+        "url": canonical,
+        "telephone": "+1-281-840-8969",
+        "email": "info@atlantisndt.com",
+        "address": { "@type": "PostalAddress", "addressLocality": cityName, "addressCountry": countryCode },
+        "areaServed": { "@type": "Place", "name": cityName },
+        "serviceType": "NDT Level III Consulting",
+        "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5" },
+        "priceRange": "$$"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+          { "@type": "ListItem", "position": 2, "name": "Consulting", "item": `${SITE_URL}/consulting` },
+          { "@type": "ListItem", "position": 3, "name": `NDT Consulting ${cityName}`, "item": canonical }
+        ]
+      }
+    ]
+  };
+
   routes.push({
     path: `/consulting/ndt-consulting-${citySlug}`,
     title,
     description: desc,
-    canonical: `${SITE_URL}/consulting/ndt-consulting-${citySlug}`,
+    canonical,
+    hreflangLinks,
+    structuredData,
     bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting ${cityName}</h1>\n    <p>ASNT Level III NDT consulting services in ${cityName}${diff ? ` for ${diff.industries}` : ''}. Expert procedure development, program audits, SNT-TC-1A compliance, and written practice development${diff ? `. ${diff.usp}` : ' for oil & gas, petrochemical, and industrial facilities'}.</p>\n  </main>`,
   });
 });

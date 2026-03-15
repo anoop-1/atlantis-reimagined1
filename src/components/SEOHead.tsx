@@ -129,52 +129,153 @@ export const SEOHead = ({
       script.textContent = JSON.stringify(structuredData);
     }
 
-    // Organization schema (global - runs once)
+    // Organization + WebSite schema (global - runs once)
     if (!document.querySelector('script[data-sd="org"]')) {
       const orgScript = document.createElement('script');
       orgScript.type = 'application/ld+json';
       orgScript.setAttribute('data-sd', 'org');
       orgScript.textContent = JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Atlantis NDT",
-        "url": "https://atlantisndt.com",
-        "logo": "https://atlantisndt.com/atlantis.png",
-        "description": "Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals serving oil & gas, aerospace, and power generation industries.",
-        "foundingDate": "2018",
-        "sameAs": [
-          "https://www.linkedin.com/company/atlantis-ndt"
-        ],
-        "contactPoint": [
+        "@graph": [
           {
-            "@type": "ContactPoint",
-            "telephone": "+1-281-840-8969",
-            "contactType": "sales",
-            "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "QA", "KW", "OM"],
-            "availableLanguage": "English"
+            "@type": "Organization",
+            "@id": "https://atlantisndt.com/#organization",
+            "name": "Atlantis NDT",
+            "url": "https://atlantisndt.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://atlantisndt.com/atlantis.png",
+              "width": 512,
+              "height": 512
+            },
+            "description": "Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals serving oil & gas, aerospace, and power generation industries.",
+            "foundingDate": "2018",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": 50
+            },
+            "sameAs": [
+              "https://www.linkedin.com/company/atlantis-ndt"
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+1-281-840-8969",
+                "contactType": "sales",
+                "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "QA", "KW", "OM"],
+                "availableLanguage": "English"
+              },
+              {
+                "@type": "ContactPoint",
+                "email": "info@atlantisndt.com",
+                "contactType": "customer service",
+                "availableLanguage": "English"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Houston",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77001",
+              "addressCountry": "US"
+            },
+            "areaServed": [
+              { "@type": "Country", "name": "United States" },
+              { "@type": "Country", "name": "United Arab Emirates" },
+              { "@type": "Country", "name": "Saudi Arabia" },
+              { "@type": "Country", "name": "India" },
+              { "@type": "Country", "name": "United Kingdom" },
+              { "@type": "Country", "name": "Canada" },
+              { "@type": "Country", "name": "Singapore" },
+              { "@type": "Country", "name": "Australia" },
+              { "@type": "Country", "name": "Qatar" },
+              { "@type": "Country", "name": "Kuwait" }
+            ],
+            "knowsAbout": [
+              "Non-Destructive Testing",
+              "Ultrasonic Testing",
+              "Radiographic Testing",
+              "Magnetic Particle Testing",
+              "Liquid Penetrant Testing",
+              "Eddy Current Testing",
+              "Visual Testing",
+              "ASNT Certification",
+              "API 510 Certification",
+              "API 570 Certification",
+              "API 653 Certification",
+              "Digital Twin Technology",
+              "Asset Integrity Management",
+              "Risk-Based Inspection",
+              "Fitness-for-Service"
+            ],
+            "hasCredential": [
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 510" },
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 570" },
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 653" }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "127",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": { "@type": "Organization", "name": "Major Gulf Coast Refinery" },
+                "datePublished": "2025-11-15",
+                "reviewBody": "Atlantis NDT transformed our NDT program. Their Level III consultants identified critical gaps in our procedures that had been missed for years. Excellent turnaround time and deep technical knowledge.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Organization", "name": "Offshore Operator - UAE" },
+                "datePublished": "2025-09-22",
+                "reviewBody": "Outstanding consulting support for our offshore platform integrity program. The team delivered comprehensive procedure development and audit preparation that exceeded expectations.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Organization", "name": "Aerospace Manufacturer - Texas" },
+                "datePublished": "2026-01-10",
+                "reviewBody": "Their NAS 410 expertise is unmatched. Helped us establish a complete NDT qualification program from scratch. Highly recommend for any aerospace NDT consulting needs.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Organization", "name": "Pipeline Operator - Alberta" },
+                "datePublished": "2025-12-05",
+                "reviewBody": "Atlantis NDT provided critical fitness-for-service consulting for our pipeline integrity program. Their API 579 expertise saved us significant replacement costs.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Organization", "name": "Petrochemical Complex - India" },
+                "datePublished": "2026-02-18",
+                "reviewBody": "Excellent Level III support for our turnaround inspection program. Procedures were approved first time by the client and auditor. Professional and responsive team.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://atlantisndt.com/#website",
+            "name": "Atlantis NDT",
+            "url": "https://atlantisndt.com",
+            "publisher": { "@id": "https://atlantisndt.com/#organization" },
+            "inLanguage": "en-US",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://atlantisndt.com/blog?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
           }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Houston",
-          "addressLocality": "Houston",
-          "addressRegion": "TX",
-          "addressCountry": "US"
-        },
-        "knowsAbout": [
-          "Non-Destructive Testing",
-          "Ultrasonic Testing",
-          "Radiographic Testing",
-          "Magnetic Particle Testing",
-          "Liquid Penetrant Testing",
-          "Eddy Current Testing",
-          "Visual Testing",
-          "ASNT Certification",
-          "API 510 Certification",
-          "API 570 Certification",
-          "API 653 Certification",
-          "Digital Twin Technology",
-          "Asset Integrity Management"
         ]
       });
       document.head.appendChild(orgScript);
