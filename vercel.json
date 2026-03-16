@@ -17,25 +17,25 @@
       ]
     },
     {
-      "source": "/(.*)\\.js",
+      "source": "/(.+\\.js)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.css",
+      "source": "/(.+\\.css)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.(?:png|jpg|jpeg|gif|svg|webp|ico)",
+      "source": "/(.+\\.(?:png|jpg|jpeg|gif|svg|webp|ico))",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
       ]
     },
     {
-      "source": "/(.*)\\.(?:woff|woff2|ttf|otf|eot)",
+      "source": "/(.+\\.(?:woff|woff2|ttf|otf|eot))",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
@@ -126,11 +126,6 @@
     },
     {
       "source": "/ndt-consulting/:path*",
-      "destination": "/consulting",
-      "statusCode": 301
-    },
-    {
-      "source": "/services/:path*",
       "destination": "/consulting",
       "statusCode": 301
     },
