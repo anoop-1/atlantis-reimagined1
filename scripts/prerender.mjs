@@ -1362,6 +1362,212 @@ miscPages.forEach(p => {
   });
 });
 
+// ─── Programmatic SEO: Advanced Methods + Location (~500 pages) ──────────
+
+const advancedMethodSlugs = [
+  { slug: 'paut-inspection', name: 'Phased Array UT (PAUT) Inspection', shortName: 'PAUT' },
+  { slug: 'tofd-inspection', name: 'TOFD Inspection', shortName: 'TOFD' },
+  { slug: 'guided-wave-inspection', name: 'Guided Wave Testing', shortName: 'GWT' },
+  { slug: 'acoustic-emission-inspection', name: 'Acoustic Emission Testing', shortName: 'AET' },
+  { slug: 'mfl-inspection', name: 'Magnetic Flux Leakage Testing', shortName: 'MFL' },
+];
+
+const allCitySlugs = [
+  { slug: 'new-york', name: 'New York', country: 'US' }, { slug: 'boston', name: 'Boston', country: 'US' },
+  { slug: 'atlanta', name: 'Atlanta', country: 'US' }, { slug: 'miami', name: 'Miami', country: 'US' },
+  { slug: 'washington-dc', name: 'Washington DC', country: 'US' }, { slug: 'nashville', name: 'Nashville', country: 'US' },
+  { slug: 'minneapolis', name: 'Minneapolis', country: 'US' }, { slug: 'cleveland', name: 'Cleveland', country: 'US' },
+  { slug: 'baltimore', name: 'Baltimore', country: 'US' }, { slug: 'tampa', name: 'Tampa', country: 'US' },
+  { slug: 'charlotte', name: 'Charlotte', country: 'US' }, { slug: 'indianapolis', name: 'Indianapolis', country: 'US' },
+  { slug: 'san-diego', name: 'San Diego', country: 'US' }, { slug: 'portland', name: 'Portland', country: 'US' },
+  { slug: 'salt-lake-city', name: 'Salt Lake City', country: 'US' }, { slug: 'kansas-city', name: 'Kansas City', country: 'US' },
+  { slug: 'st-louis', name: 'St. Louis', country: 'US' }, { slug: 'milwaukee', name: 'Milwaukee', country: 'US' },
+  { slug: 'cincinnati', name: 'Cincinnati', country: 'US' }, { slug: 'jacksonville', name: 'Jacksonville', country: 'US' },
+  { slug: 'houston', name: 'Houston', country: 'US' }, { slug: 'los-angeles', name: 'Los Angeles', country: 'US' },
+  { slug: 'new-orleans', name: 'New Orleans', country: 'US' }, { slug: 'denver', name: 'Denver', country: 'US' },
+  { slug: 'chicago', name: 'Chicago', country: 'US' }, { slug: 'seattle', name: 'Seattle', country: 'US' },
+  { slug: 'dallas', name: 'Dallas', country: 'US' }, { slug: 'phoenix', name: 'Phoenix', country: 'US' },
+  { slug: 'philadelphia', name: 'Philadelphia', country: 'US' }, { slug: 'san-francisco', name: 'San Francisco', country: 'US' },
+  { slug: 'detroit', name: 'Detroit', country: 'US' }, { slug: 'pittsburgh', name: 'Pittsburgh', country: 'US' },
+  { slug: 'baton-rouge', name: 'Baton Rouge', country: 'US' }, { slug: 'corpus-christi', name: 'Corpus Christi', country: 'US' },
+  { slug: 'tulsa', name: 'Tulsa', country: 'US' }, { slug: 'beaumont', name: 'Beaumont', country: 'US' },
+  { slug: 'dubai', name: 'Dubai', country: 'AE' }, { slug: 'saudi-arabia', name: 'Saudi Arabia', country: 'SA' },
+  { slug: 'qatar', name: 'Qatar', country: 'QA' }, { slug: 'kuwait', name: 'Kuwait', country: 'KW' },
+  { slug: 'abu-dhabi', name: 'Abu Dhabi', country: 'AE' }, { slug: 'bahrain', name: 'Bahrain', country: 'BH' },
+  { slug: 'oman', name: 'Oman', country: 'OM' }, { slug: 'jubail', name: 'Jubail', country: 'SA' },
+  { slug: 'yanbu', name: 'Yanbu', country: 'SA' }, { slug: 'dammam', name: 'Dammam', country: 'SA' },
+  { slug: 'mumbai', name: 'Mumbai', country: 'IN' }, { slug: 'chennai', name: 'Chennai', country: 'IN' },
+  { slug: 'bangalore', name: 'Bangalore', country: 'IN' }, { slug: 'delhi', name: 'Delhi', country: 'IN' },
+  { slug: 'kolkata', name: 'Kolkata', country: 'IN' }, { slug: 'ahmedabad', name: 'Ahmedabad', country: 'IN' },
+  { slug: 'jamnagar', name: 'Jamnagar', country: 'IN' }, { slug: 'vizag', name: 'Vizag', country: 'IN' },
+  { slug: 'kochi', name: 'Kochi', country: 'IN' },
+  { slug: 'singapore', name: 'Singapore', country: 'SG' }, { slug: 'malaysia', name: 'Malaysia', country: 'MY' },
+  { slug: 'indonesia', name: 'Indonesia', country: 'ID' }, { slug: 'thailand', name: 'Thailand', country: 'TH' },
+  { slug: 'vietnam', name: 'Vietnam', country: 'VN' }, { slug: 'south-korea', name: 'South Korea', country: 'KR' },
+  { slug: 'japan', name: 'Japan', country: 'JP' }, { slug: 'taiwan', name: 'Taiwan', country: 'TW' },
+  { slug: 'australia', name: 'Australia', country: 'AU' }, { slug: 'perth', name: 'Perth', country: 'AU' },
+  { slug: 'melbourne', name: 'Melbourne', country: 'AU' }, { slug: 'sydney', name: 'Sydney', country: 'AU' },
+  { slug: 'uk', name: 'UK', country: 'GB' }, { slug: 'norway', name: 'Norway', country: 'NO' },
+  { slug: 'germany', name: 'Germany', country: 'DE' }, { slug: 'netherlands', name: 'Netherlands', country: 'NL' },
+  { slug: 'france', name: 'France', country: 'FR' }, { slug: 'italy', name: 'Italy', country: 'IT' },
+  { slug: 'spain', name: 'Spain', country: 'ES' }, { slug: 'aberdeen', name: 'Aberdeen', country: 'GB' },
+  { slug: 'rotterdam', name: 'Rotterdam', country: 'NL' }, { slug: 'stavanger', name: 'Stavanger', country: 'NO' },
+  { slug: 'calgary', name: 'Calgary', country: 'CA' }, { slug: 'edmonton', name: 'Edmonton', country: 'CA' },
+  { slug: 'toronto', name: 'Toronto', country: 'CA' }, { slug: 'vancouver', name: 'Vancouver', country: 'CA' },
+  { slug: 'brazil', name: 'Brazil', country: 'BR' }, { slug: 'sao-paulo', name: 'São Paulo', country: 'BR' },
+  { slug: 'rio-de-janeiro', name: 'Rio de Janeiro', country: 'BR' },
+  { slug: 'trinidad', name: 'Trinidad', country: 'TT' },
+  { slug: 'nigeria', name: 'Nigeria', country: 'NG' }, { slug: 'lagos', name: 'Lagos', country: 'NG' },
+  { slug: 'south-africa', name: 'South Africa', country: 'ZA' }, { slug: 'johannesburg', name: 'Johannesburg', country: 'ZA' },
+  { slug: 'egypt', name: 'Egypt', country: 'EG' }, { slug: 'angola', name: 'Angola', country: 'AO' },
+  { slug: 'colombia', name: 'Colombia', country: 'CO' }, { slug: 'bogota', name: 'Bogotá', country: 'CO' },
+  { slug: 'lima', name: 'Lima', country: 'PE' }, { slug: 'santiago', name: 'Santiago', country: 'CL' },
+  { slug: 'mexico-city', name: 'Mexico City', country: 'MX' }, { slug: 'argentina', name: 'Argentina', country: 'AR' },
+  { slug: 'buenos-aires', name: 'Buenos Aires', country: 'AR' },
+  { slug: 'beijing', name: 'Beijing', country: 'CN' }, { slug: 'shanghai', name: 'Shanghai', country: 'CN' },
+  { slug: 'hong-kong', name: 'Hong Kong', country: 'HK' }, { slug: 'manila', name: 'Manila', country: 'PH' },
+  { slug: 'jakarta', name: 'Jakarta', country: 'ID' }, { slug: 'bangkok', name: 'Bangkok', country: 'TH' },
+];
+
+// Top 100 cities for advanced methods (all of them)
+const top100 = allCitySlugs.slice(0, 100);
+// Top 40 for industry pages
+const top40 = allCitySlugs.slice(0, 40);
+// Top 50 for inspection pages
+const top50 = allCitySlugs.slice(0, 50);
+// Top 20 for cert training
+const top20 = allCitySlugs.slice(0, 20);
+
+let programmaticCount = 0;
+
+// Advanced Method + Location pages
+advancedMethodSlugs.forEach(method => {
+  top100.forEach(city => {
+    const path = `/services/${method.slug}-${city.slug}`;
+    routes.push({
+      path,
+      title: `${method.name} in ${city.name} | ${method.shortName} Services | Atlantis NDT`,
+      description: `Professional ${method.name} services in ${city.name}. ASNT Level III certified ${method.shortName} inspectors for ${city.name} industries. Advanced NDT inspection, code-compliant reporting.`,
+      canonical: `${SITE_URL}${path}`,
+      structuredData: {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "ProfessionalService", "name": `Atlantis NDT ${method.shortName} ${city.name}`, "url": `${SITE_URL}${path}`, "serviceType": method.name, "areaServed": { "@type": "City", "name": city.name }, "provider": { "@id": `${SITE_URL}/#organization` } },
+          { "@type": "BreadcrumbList", "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+            { "@type": "ListItem", "position": 2, "name": "Services", "item": `${SITE_URL}/ndt-methods` },
+            { "@type": "ListItem", "position": 3, "name": `${method.shortName} in ${city.name}`, "item": `${SITE_URL}${path}` }
+          ]}
+        ]
+      }
+    });
+    programmaticCount++;
+  });
+});
+
+// Industry + Location pages
+const industrySlugs = [
+  { slug: 'oil-gas-ndt', name: 'Oil & Gas NDT Services' },
+  { slug: 'aerospace-ndt', name: 'Aerospace NDT Services' },
+  { slug: 'power-generation-ndt', name: 'Power Generation NDT Services' },
+  { slug: 'pipeline-ndt', name: 'Pipeline NDT Inspection' },
+  { slug: 'marine-ndt', name: 'Marine & Offshore NDT Services' },
+  { slug: 'petrochemical-ndt', name: 'Petrochemical NDT Services' },
+  { slug: 'construction-ndt', name: 'Construction NDT Services' },
+  { slug: 'manufacturing-ndt', name: 'Manufacturing NDT Services' },
+];
+
+industrySlugs.forEach(industry => {
+  top40.forEach(city => {
+    const path = `/industry/${industry.slug}-${city.slug}`;
+    routes.push({
+      path,
+      title: `${industry.name} in ${city.name} | NDT Inspection | Atlantis NDT`,
+      description: `${industry.name} in ${city.name}. Comprehensive NDT inspection for ${industry.name.replace(' NDT Services', '').replace(' NDT Inspection', '')} facilities. ASNT Level III certified inspectors.`,
+      canonical: `${SITE_URL}${path}`,
+      structuredData: {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "ProfessionalService", "name": `Atlantis NDT ${industry.name} ${city.name}`, "url": `${SITE_URL}${path}`, "serviceType": industry.name, "areaServed": { "@type": "City", "name": city.name }, "provider": { "@id": `${SITE_URL}/#organization` } },
+          { "@type": "BreadcrumbList", "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+            { "@type": "ListItem", "position": 2, "name": "Industries", "item": `${SITE_URL}/industry` },
+            { "@type": "ListItem", "position": 3, "name": `${industry.name} in ${city.name}`, "item": `${SITE_URL}${path}` }
+          ]}
+        ]
+      }
+    });
+    programmaticCount++;
+  });
+});
+
+// Inspection Service + Location pages
+const inspectionSlugs = [
+  { slug: 'weld-inspection-services', name: 'Weld Inspection Services' },
+  { slug: 'tank-inspection-services', name: 'Tank Inspection Services' },
+  { slug: 'pipeline-inspection-services', name: 'Pipeline Inspection Services' },
+  { slug: 'corrosion-inspection-services', name: 'Corrosion Inspection Services' },
+];
+
+inspectionSlugs.forEach(service => {
+  top50.forEach(city => {
+    const path = `/inspection/${service.slug}-${city.slug}`;
+    routes.push({
+      path,
+      title: `${service.name} in ${city.name} | NDT Inspection | Atlantis NDT`,
+      description: `Professional ${service.name.toLowerCase()} in ${city.name}. Expert NDT inspectors using advanced methods for comprehensive inspection coverage. Code-compliant results.`,
+      canonical: `${SITE_URL}${path}`,
+      structuredData: {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "ProfessionalService", "name": `Atlantis NDT ${service.name} ${city.name}`, "url": `${SITE_URL}${path}`, "serviceType": service.name, "areaServed": { "@type": "City", "name": city.name }, "provider": { "@id": `${SITE_URL}/#organization` } },
+          { "@type": "BreadcrumbList", "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+            { "@type": "ListItem", "position": 2, "name": "Inspection", "item": `${SITE_URL}/ndt-methods` },
+            { "@type": "ListItem", "position": 3, "name": `${service.name} in ${city.name}`, "item": `${SITE_URL}${path}` }
+          ]}
+        ]
+      }
+    });
+    programmaticCount++;
+  });
+});
+
+// Certification Training + Location pages
+const certSlugs = [
+  { slug: 'api-510-training', name: 'API 510 Certification Training' },
+  { slug: 'api-570-training', name: 'API 570 Certification Training' },
+  { slug: 'api-653-training', name: 'API 653 Certification Training' },
+  { slug: 'asnt-level-iii-training', name: 'ASNT Level III Training' },
+  { slug: 'cwi-training', name: 'CWI Certification Training' },
+];
+
+certSlugs.forEach(cert => {
+  top20.forEach(city => {
+    const path = `/training/${cert.slug}-${city.slug}`;
+    routes.push({
+      path,
+      title: `${cert.name} in ${city.name} | Atlantis NDT`,
+      description: `${cert.name} courses in ${city.name}. Expert-led preparation with 95% pass rate. Classroom and online options available. Enrol today.`,
+      canonical: `${SITE_URL}${path}`,
+      structuredData: {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "Course", "name": `${cert.name} - ${city.name}`, "url": `${SITE_URL}${path}`, "provider": { "@type": "Organization", "name": "Atlantis NDT", "@id": `${SITE_URL}/#organization` }, "locationCreated": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": city.name } } },
+          { "@type": "BreadcrumbList", "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+            { "@type": "ListItem", "position": 2, "name": "Training", "item": `${SITE_URL}/training` },
+            { "@type": "ListItem", "position": 3, "name": `${cert.name} in ${city.name}`, "item": `${SITE_URL}${path}` }
+          ]}
+        ]
+      }
+    });
+    programmaticCount++;
+  });
+});
+
+console.log(`📄 Programmatic SEO routes added: ${programmaticCount}`);
+
 // ─── Generate sitemap ─────────────────────────────────────────────────────
 
 function buildSitemap(routeList) {
@@ -1397,6 +1603,11 @@ function buildSitemap(routeList) {
     if (path.includes('-testing')) return '0.75';
     if (path === '/embed/ndt-reference') return '0.30';
     if (path.includes('guide') || path.includes('statistics') || path.includes('comparison')) return '0.80';
+    // New programmatic SEO pages
+    if (path.startsWith('/services/')) return '0.70';
+    if (path.startsWith('/industry/')) return '0.70';
+    if (path.startsWith('/inspection/')) return '0.70';
+    if (path.startsWith('/training/') && path.split('/').length > 2) return '0.70';
     return '0.70';
   };
 

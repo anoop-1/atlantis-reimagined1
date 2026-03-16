@@ -8,6 +8,12 @@ import { AuthProvider } from "./context/AuthContext";
 import IndustrialAnimation from "./components/IndustrialAnimation";
 
 // Lazy-load all page components for code splitting
+// Dynamic Route Components for Programmatic SEO Scale
+const AdvancedMethodLocationPage = lazy(() => import("./components/AdvancedMethodLocationPage"));
+const IndustryLocationPage = lazy(() => import("./components/IndustryLocationPage"));
+const InspectionServiceLocationPage = lazy(() => import("./components/InspectionServiceLocationPage"));
+const CertTrainingLocationPage = lazy(() => import("./components/CertTrainingLocationPage"));
+
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const Training = lazy(() => import("./pages/Training"));
@@ -1276,6 +1282,15 @@ const App = () => (
                   <Route path="/digital-twin-ndt-software" element={<LazyRoute Component={DigitalTwinNdtSoftware} />} />
                   <Route path="/ndt-software-features" element={<LazyRoute Component={NdtSoftwareFeatures} />} />
                   <Route path="/ndt-data-management" element={<LazyRoute Component={NdtDataManagement} />} />
+                  {/* === DYNAMIC PROGRAMMATIC SEO ROUTES (1,120+ pages) === */}
+                  {/* Advanced NDT Methods + Location: PAUT, TOFD, Guided Wave, AE, MFL × 100 cities */}
+                  <Route path="/services/:slug" element={<LazyRoute Component={AdvancedMethodLocationPage} />} />
+                  {/* Industry-Specific NDT + Location: Oil&Gas, Aerospace, etc. × 40 cities */}
+                  <Route path="/industry/:slug" element={<LazyRoute Component={IndustryLocationPage} />} />
+                  {/* Inspection Services + Location: Weld, Tank, Pipeline, Corrosion × 50 cities */}
+                  <Route path="/inspection/:slug" element={<LazyRoute Component={InspectionServiceLocationPage} />} />
+                  {/* Certification Training + Location: API 510/570/653, ASNT, CWI × 20 cities */}
+                  <Route path="/training/:slug" element={<LazyRoute Component={CertTrainingLocationPage} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={NotFound} />} />
                   </Routes>

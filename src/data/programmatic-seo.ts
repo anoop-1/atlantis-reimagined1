@@ -247,3 +247,309 @@ export const methodLocationRoutes = generateMethodLocationPages().map(page => ({
     method: page.method,
     location: page.location
 }));
+
+// Advanced NDT Methods for scaling to 2000+ pages
+export const advancedNdtMethods = [
+  {
+    name: "Phased Array Ultrasonic Testing",
+    slug: "paut-inspection",
+    shortName: "PAUT",
+    description: "Advanced ultrasonic technique using multiple elements to steer and focus sound beams for superior defect detection",
+    applications: ["Weld inspection", "Corrosion mapping", "Composite inspection", "Turbine blade inspection", "Pressure vessel examination"],
+    techniques: ["Sectorial scanning", "Linear scanning", "Compound scanning", "Full Matrix Capture (FMC)", "Total Focusing Method (TFM)"],
+    standards: ["ASME Section V Article 4", "ISO 13588", "AWS D1.1", "API 620/650", "EN 16018"]
+  },
+  {
+    name: "Time-of-Flight Diffraction",
+    slug: "tofd-inspection",
+    shortName: "TOFD",
+    description: "Ultrasonic technique using diffracted signals for accurate crack sizing and detection in welds",
+    applications: ["Weld inspection", "Crack sizing", "Hydrogen cracking detection", "Pre-service inspection", "In-service monitoring"],
+    techniques: ["Parallel scanning", "Non-parallel scanning", "D-scan", "B-scan analysis", "Combined TOFD/Pulse-Echo"],
+    standards: ["BS EN ISO 10863", "ASME Section V Article 4", "AWS D1.1", "API 577", "DNVGL-ST-0126"]
+  },
+  {
+    name: "Guided Wave Testing",
+    slug: "guided-wave-inspection",
+    shortName: "GWT",
+    description: "Long-range ultrasonic technique for screening pipelines and structures from a single location",
+    applications: ["Pipeline screening", "Road crossing inspection", "Insulated pipe inspection", "Offshore riser inspection", "Storage tank floor scanning"],
+    techniques: ["Torsional wave", "Longitudinal wave", "Flexural wave", "Magnetostrictive sensors", "Piezoelectric transducer rings"],
+    standards: ["ASTM E2775", "BS 9690", "DNV-RP-G103", "API 570", "ASME B31.3"]
+  },
+  {
+    name: "Acoustic Emission Testing",
+    slug: "acoustic-emission-inspection",
+    shortName: "AET",
+    description: "Passive technique that detects stress waves from active defects in pressurized components",
+    applications: ["Pressure vessel monitoring", "Storage tank testing", "Bridge monitoring", "Composite testing", "Leak detection"],
+    techniques: ["Source location", "Pattern recognition", "Frequency analysis", "Felicity ratio", "Kaiser effect monitoring"],
+    standards: ["ASTM E569", "ASTM E1067", "EN 14584", "API 510/570", "ASME Section V Article 12"]
+  },
+  {
+    name: "Magnetic Flux Leakage Testing",
+    slug: "mfl-inspection",
+    shortName: "MFL",
+    description: "Electromagnetic technique for detecting corrosion and metal loss in ferromagnetic structures",
+    applications: ["Storage tank floor inspection", "Pipeline pigging", "Wire rope inspection", "Tube inspection", "Above-ground storage tank inspection"],
+    techniques: ["Tank floor scanner", "Pipeline intelligent pigging", "Wire rope MFL", "Circumferential MFL", "Axial MFL"],
+    standards: ["API 653", "API 650", "ASTM E2905", "ASME Section V", "EEMUA 159"]
+  }
+];
+
+// NDT Industries for scaling to 2000+ pages
+export const ndtIndustries = [
+  {
+    name: "Oil & Gas NDT Services",
+    slug: "oil-gas-ndt",
+    shortName: "Oil & Gas",
+    description: "Comprehensive NDT inspection services for upstream, midstream, and downstream oil and gas operations",
+    applications: ["Pipeline integrity", "Refinery turnaround inspections", "Offshore platform inspection", "Pressure vessel examination", "Storage tank inspection"],
+    standards: ["API 510", "API 570", "API 653", "ASME B31.3", "ASME Section VIII"],
+    keyServices: ["Corrosion mapping", "Weld inspection", "Thickness surveys", "RBI programs", "Fitness-for-service assessments"]
+  },
+  {
+    name: "Aerospace NDT Services",
+    slug: "aerospace-ndt",
+    shortName: "Aerospace",
+    description: "High-precision NDT solutions for aircraft, engines, and aerospace component manufacturing",
+    applications: ["Composite structure inspection", "Engine component testing", "Fatigue crack detection", "Bonded joint inspection", "Landing gear examination"],
+    standards: ["NAS 410", "EN 4179", "ASTM E2580", "SAE AMS 2632", "Nadcap AC7114"],
+    keyServices: ["Automated UT scanning", "Eddy current surface inspection", "Fluorescent penetrant testing", "X-ray computed tomography", "Thermography"]
+  },
+  {
+    name: "Power Generation NDT Services",
+    slug: "power-generation-ndt",
+    shortName: "Power Generation",
+    description: "NDT inspection services for power plants including nuclear, thermal, and renewable energy facilities",
+    applications: ["Boiler tube inspection", "Turbine blade testing", "Heat exchanger examination", "Condenser tube inspection", "Steam pipe assessment"],
+    standards: ["ASME Section I", "ASME Section XI", "EPRI guidelines", "NBIC", "EN 12952"],
+    keyServices: ["In-service inspection", "Remaining life assessment", "Creep damage evaluation", "High-temperature inspection", "Outage support"]
+  },
+  {
+    name: "Pipeline NDT Inspection",
+    slug: "pipeline-ndt",
+    shortName: "Pipeline",
+    description: "Advanced NDT solutions for transmission and distribution pipeline integrity management",
+    applications: ["Girth weld inspection", "Corrosion assessment", "Dent sizing", "Crack detection", "Coating condition evaluation"],
+    standards: ["API 1104", "API 1163", "CSA Z662", "ASME B31.4", "ASME B31.8"],
+    keyServices: ["Inline inspection", "Direct assessment", "Hydrostatic testing support", "Anomaly verification", "Repair weld inspection"]
+  },
+  {
+    name: "Marine & Offshore NDT Services",
+    slug: "marine-ndt",
+    shortName: "Marine & Offshore",
+    description: "NDT inspection services for vessels, offshore platforms, and marine structures",
+    applications: ["Hull plate inspection", "Splash zone examination", "Mooring chain testing", "Subsea structure inspection", "Ballast tank assessment"],
+    standards: ["IACS Rules", "DNV Rules", "Lloyd's Register", "ABS Rules", "NORSOK M-101"],
+    keyServices: ["Underwater inspection", "ROV-based NDT", "Flooded member detection", "Cathodic protection survey", "Dry dock inspection"]
+  },
+  {
+    name: "Petrochemical NDT Services",
+    slug: "petrochemical-ndt",
+    shortName: "Petrochemical",
+    description: "Specialized NDT solutions for petrochemical plants, refineries, and chemical processing facilities",
+    applications: ["Reactor vessel inspection", "Heat exchanger tube testing", "Piping circuit inspection", "Column and tower examination", "High-temperature hydrogen attack detection"],
+    standards: ["API 510", "API 570", "API 571", "ASME PCC-2", "API RP 584"],
+    keyServices: ["Turnaround inspection", "On-stream inspection", "Corrosion monitoring", "HTHA assessment", "CUI inspection"]
+  },
+  {
+    name: "Construction NDT Services",
+    slug: "construction-ndt",
+    shortName: "Construction",
+    description: "NDT services for structural steel, concrete, and building construction projects",
+    applications: ["Structural weld inspection", "Concrete testing", "Rebar detection", "Bolt tension verification", "Coating thickness measurement"],
+    standards: ["AWS D1.1", "AWS D1.5", "ACI 228", "ASTM A325", "ICC IBC"],
+    keyServices: ["Shop fabrication inspection", "Field weld inspection", "Third-party inspection", "Quality assurance programs", "Structural integrity assessment"]
+  },
+  {
+    name: "Manufacturing NDT Services",
+    slug: "manufacturing-ndt",
+    shortName: "Manufacturing",
+    description: "Quality control NDT services for manufacturing processes and finished product inspection",
+    applications: ["Casting inspection", "Forging examination", "Weld quality control", "Material verification", "Dimensional inspection"],
+    standards: ["ASTM E186", "ASTM A388", "ISO 5817", "EN 12680", "SAE J2477"],
+    keyServices: ["Production line inspection", "First article inspection", "Supplier quality audit", "Process qualification", "Automated inspection systems"]
+  }
+];
+
+// Inspection Services for scaling to 2000+ pages
+export const inspectionServices = [
+  {
+    name: "Weld Inspection Services",
+    slug: "weld-inspection-services",
+    shortName: "Weld Inspection",
+    description: "Comprehensive weld inspection and testing services for all welding processes and joint configurations",
+    methods: ["Radiographic Testing", "Ultrasonic Testing", "Magnetic Particle Testing", "Liquid Penetrant Testing", "Visual Inspection", "PAUT", "TOFD"],
+    applications: ["Structural welds", "Pipe welds", "Pressure vessel welds", "Storage tank welds", "Overlay/cladding inspection"],
+    standards: ["AWS D1.1", "ASME Section IX", "API 1104", "EN ISO 5817", "ASME Section VIII"]
+  },
+  {
+    name: "Tank Inspection Services",
+    slug: "tank-inspection-services",
+    shortName: "Tank Inspection",
+    description: "Above-ground and underground storage tank inspection services per API 653 and related standards",
+    methods: ["MFL Floor Scanning", "UT Thickness Measurement", "Vacuum Box Testing", "Acoustic Emission", "Visual Inspection"],
+    applications: ["API 653 compliance", "Tank floor scanning", "Shell thickness surveys", "Roof inspection", "Foundation settlement assessment"],
+    standards: ["API 653", "API 650", "EEMUA 159", "STI SP001", "NFPA 30"]
+  },
+  {
+    name: "Pipeline Inspection Services",
+    slug: "pipeline-inspection-services",
+    shortName: "Pipeline Inspection",
+    description: "Pipeline integrity inspection services for transmission, distribution, and gathering pipelines",
+    methods: ["Guided Wave Testing", "PAUT", "Radiography", "MFL Pigging", "DCVG/CIPS"],
+    applications: ["Girth weld inspection", "Corrosion assessment", "SCC detection", "Dent evaluation", "Coating assessment"],
+    standards: ["API 1104", "API 1163", "ASME B31.4", "ASME B31.8", "49 CFR 192/195"]
+  },
+  {
+    name: "Corrosion Inspection Services",
+    slug: "corrosion-inspection-services",
+    shortName: "Corrosion Inspection",
+    description: "Corrosion detection, monitoring, and assessment services for industrial assets",
+    methods: ["UT Thickness Gauging", "Corrosion Mapping", "MFL Scanning", "Eddy Current Testing", "Thermography"],
+    applications: ["CUI detection", "Under-deposit corrosion", "Erosion monitoring", "Microbiologically influenced corrosion", "High-temperature corrosion"],
+    standards: ["API 571", "API 580/581", "NACE SP0169", "ASTM G4", "DNV-RP-G101"]
+  }
+];
+
+// Certification Training Types for scaling to 2000+ pages
+export const certTrainingTypes = [
+  {
+    name: "API 510 Certification Training",
+    slug: "api-510-training",
+    shortName: "API 510",
+    description: "Pressure Vessel Inspector certification training per API 510 standard",
+    topics: ["ASME Section VIII", "API 510 Code", "Welding metallurgy", "NDE methods", "Repair/alteration procedures"],
+    duration: "5-day intensive course",
+    certification: "API 510 Certified Pressure Vessel Inspector"
+  },
+  {
+    name: "API 570 Certification Training",
+    slug: "api-570-training",
+    shortName: "API 570",
+    description: "Piping Inspector certification training per API 570 standard",
+    topics: ["ASME B31.3", "API 570 Code", "Piping materials", "Corrosion mechanisms", "Inspection planning"],
+    duration: "5-day intensive course",
+    certification: "API 570 Certified Piping Inspector"
+  },
+  {
+    name: "API 653 Certification Training",
+    slug: "api-653-training",
+    shortName: "API 653",
+    description: "Tank Inspector certification training per API 653 standard",
+    topics: ["API 650", "API 653 Code", "Tank design", "Corrosion assessment", "Settlement evaluation"],
+    duration: "5-day intensive course",
+    certification: "API 653 Certified Tank Inspector"
+  },
+  {
+    name: "ASNT Level III Certification Training",
+    slug: "asnt-level-iii-training",
+    shortName: "ASNT Level III",
+    description: "NDT Level III certification preparation covering all major NDT methods",
+    topics: ["NDT methods theory", "Materials science", "Code application", "Procedure development", "Written practice management"],
+    duration: "10-day comprehensive program",
+    certification: "ASNT NDT Level III"
+  },
+  {
+    name: "CWI Certification Training",
+    slug: "cwi-training",
+    shortName: "CWI",
+    description: "Certified Welding Inspector training per AWS QC1 standard",
+    topics: ["AWS D1.1", "Welding processes", "Metallurgy", "Visual inspection", "Documentation"],
+    duration: "2-week intensive program",
+    certification: "AWS Certified Welding Inspector"
+  }
+];
+
+// Get top N cities for a specific purpose (prioritizes US cities, then major global hubs)
+export function getTopCities(count: number) {
+  // Priority order: US cities first, then ME, India, Europe, Asia, Americas, Africa
+  const priorityOrder = ['US', 'AE', 'SA', 'QA', 'KW', 'IN', 'SG', 'GB', 'NO', 'DE', 'AU', 'CA', 'BR', 'NG', 'ZA'];
+  return [...keyLocations].sort((a, b) => {
+    const aIdx = priorityOrder.indexOf(a.country);
+    const bIdx = priorityOrder.indexOf(b.country);
+    return (aIdx === -1 ? 999 : aIdx) - (bIdx === -1 ? 999 : bIdx);
+  }).slice(0, count);
+}
+
+// Generate all advanced method + location combinations
+export function generateAdvancedMethodPages() {
+  const cities = getTopCities(100);
+  const pages: { methodSlug: string; methodName: string; shortName: string; citySlug: string; cityName: string; country: string; region: string; industries: string[] }[] = [];
+  for (const method of advancedNdtMethods) {
+    for (const city of cities) {
+      pages.push({
+        methodSlug: method.slug,
+        methodName: method.name,
+        shortName: method.shortName,
+        citySlug: city.slug,
+        cityName: city.name,
+        country: city.country,
+        region: city.region,
+        industries: city.industries
+      });
+    }
+  }
+  return pages;
+}
+
+// Generate all industry + location combinations
+export function generateIndustryPages() {
+  const cities = getTopCities(40);
+  const pages: { industrySlug: string; industryName: string; citySlug: string; cityName: string; country: string; region: string; industries: string[] }[] = [];
+  for (const industry of ndtIndustries) {
+    for (const city of cities) {
+      // Only generate if the city's industries overlap with this NDT industry
+      pages.push({
+        industrySlug: industry.slug,
+        industryName: industry.name,
+        citySlug: city.slug,
+        cityName: city.name,
+        country: city.country,
+        region: city.region,
+        industries: city.industries
+      });
+    }
+  }
+  return pages;
+}
+
+// Generate all inspection service + location combinations
+export function generateInspectionPages() {
+  const cities = getTopCities(50);
+  const pages: { serviceSlug: string; serviceName: string; citySlug: string; cityName: string; country: string; region: string; industries: string[] }[] = [];
+  for (const service of inspectionServices) {
+    for (const city of cities) {
+      pages.push({
+        serviceSlug: service.slug,
+        serviceName: service.name,
+        citySlug: city.slug,
+        cityName: city.name,
+        country: city.country,
+        region: city.region,
+        industries: city.industries
+      });
+    }
+  }
+  return pages;
+}
+
+// Generate all cert training + location combinations
+export function generateCertTrainingPages() {
+  const cities = getTopCities(20);
+  const pages: { certSlug: string; certName: string; citySlug: string; cityName: string; country: string; region: string }[] = [];
+  for (const cert of certTrainingTypes) {
+    for (const city of cities) {
+      pages.push({
+        certSlug: cert.slug,
+        certName: cert.name,
+        citySlug: city.slug,
+        cityName: city.name,
+        country: city.country,
+        region: city.region
+      });
+    }
+  }
+  return pages;
+}
