@@ -20,7 +20,7 @@ export default function Home() {
           Mine structures—shafts, haulage tunnels, pillar systems, and processing facilities—require continuous monitoring for stability and safety. Ground stress changes from extraction alter load distribution; monitoring detects movement indicating instability. Ultrasonic testing of concrete and rock assesses material integrity. Magnetic particle inspection of steel support structures identifies fatigue cracks. These methods enable safe operation of complex underground systems.
         </p>
         <p className="mb-4">
-          Systematic structural monitoring integrates with safety management systems. When monitoring detects concerning changes, engineers evaluate stability and implement support measures. This proactive approach prevents catastrophic failures endangering personnel. Professional <a href="https://atlantisndt.com/training" rel="noopener" className="text-yellow-700 hover:underline">NDT training programs</a> prepare personnel for mining-specific inspection challenges.
+          Systematic structural monitoring integrates with safety management systems. When monitoring detects concerning changes, engineers evaluate stability and implement support measures. This proactive approach prevents catastrophic failures endangering personnel. Professional <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT training programs</a> prepare personnel for mining-specific inspection challenges.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Equipment Fleet Management</h2>
@@ -28,7 +28,7 @@ export default function Home() {
           Large mining operations manage hundreds of vehicles and equipment items. Systematic inspection programs track condition across entire fleets. Eddy current testing detects fatigue cracks in critical components. Ultrasonic testing assesses wear and material loss. Thermographic surveys identify bearing and electrical problems developing within machinery.
         </p>
         <p className="mb-4">
-          Integration of fleet inspection data with maintenance planning optimizes availability and safety. When inspection detects developing problems, maintenance schedules equipment removal during planned downtime, preventing failures affecting production. Organizations implementing <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-yellow-700 hover:underline">NDT consulting services</a> develop effective fleet management programs achieving high reliability.
+          Integration of fleet inspection data with maintenance planning optimizes availability and safety. When inspection detects developing problems, maintenance schedules equipment removal during planned downtime, preventing failures affecting production. Organizations implementing <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT consulting services</a> develop effective fleet management programs achieving high reliability.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Processing Equipment Assessment</h2>
@@ -44,7 +44,7 @@ export default function Home() {
           Mining environments accelerate material degradation. Abrasive ore causes mechanical wear on equipment surfaces. Chemical-rich environments cause corrosion. Systematic ultrasonic thickness measurement tracks wear and corrosion rates. When rates exceed tolerance limits, equipment removal and replacement prevent failures. This data-driven approach optimizes replacement timing, balancing equipment life maximization with safety.
         </p>
         <p className="mb-4">
-          Organizations leveraging <a href="https://atlantisndt.com/erp" rel="noopener" className="text-yellow-700 hover:underline">NDT ERP software</a> integration track equipment condition trends, predicting replacement needs years in advance and enabling optimized equipment procurement.
+          Organizations leveraging <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT ERP software</a> integration track equipment condition trends, predicting replacement needs years in advance and enabling optimized equipment procurement.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Safety and Compliance</h2>

@@ -300,10 +300,10 @@ export default function OilGasInspectionPage() {
             Atlantis NDT provides specialized consulting, training, and digital solutions for oil and gas inspection and asset integrity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://atlantisndt.com/consulting" className="btn-primary">
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
               Get Consulting Support
             </a>
-            <a href="https://atlantisndt.com/training" className="btn-secondary">
+            <a href="https://atlantisndt.com/training" rel="noopener" className="btn-secondary">
               View Training Programs
             </a>
           </div>

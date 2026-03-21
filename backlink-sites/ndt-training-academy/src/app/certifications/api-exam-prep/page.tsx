@@ -237,10 +237,10 @@ export default function APIExamPrepPage() {
 
           <h2>Prepare with Professional Guidance</h2>
           <p>
-            While self-study and reference materials are important, professional exam preparation significantly improves success rates. <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive API certification exam preparation</a> including:
+            While self-study and reference materials are important, professional exam preparation significantly improves success rates. <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive API certification exam preparation</a> including:
           </p>
           <ul>
-            <li>In-depth review of <a href="https://atlantisndt.com/api-510-certification" target="_blank" rel="noopener noreferrer" className="text-link">API 510</a>, <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener noreferrer" className="text-link">API 570</a>, and <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener noreferrer" className="text-link">API 653</a> standards</li>
+            <li>In-depth review of <a href="https://atlantisndt.com/api-510-certification" target="_blank" rel="noopener" className="text-link">API 510</a>, <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-link">API 570</a>, and <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener" className="text-link">API 653</a> standards</li>
             <li>Experienced instructors with practical API inspection experience</li>
             <li>Multiple practice exams with detailed review</li>
             <li>Real-world case studies and applications</li>
@@ -248,7 +248,7 @@ export default function APIExamPrepPage() {
           </ul>
 
           <p>
-            Get certified in the codes that matter in your industry. Start with <a href="https://atlantisndt.com/api-570-training" target="_blank" rel="noopener noreferrer" className="text-link">API 570 training</a> or whichever certification aligns with your career goals, and launch your career as an API-certified inspector.
+            Get certified in the codes that matter in your industry. Start with <a href="https://atlantisndt.com/api-570-training" target="_blank" rel="noopener" className="text-link">API 570 training</a> or whichever certification aligns with your career goals, and launch your career as an API-certified inspector.
           </p>
         </div>
       </section>

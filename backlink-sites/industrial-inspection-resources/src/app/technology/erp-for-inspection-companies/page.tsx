@@ -354,7 +354,7 @@ export default function ErpInspectionPage() {
           <p className="text-lg text-gray-700 mb-8">
             Atlantis NDT offers ERP platforms and consulting services optimized for inspection and NDT operations.
           </p>
-          <a href="https://atlantisndt.com/ndt-erp-solution" className="btn-primary">
+          <a href="https://atlantisndt.com/ndt-erp-solution" rel="noopener" className="btn-primary">
             Explore ERP Solutions
           </a>
         </div>

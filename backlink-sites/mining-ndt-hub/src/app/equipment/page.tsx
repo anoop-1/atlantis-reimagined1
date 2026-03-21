@@ -12,14 +12,14 @@ export default function EquipmentPage() {
           Excavators and shovels endure extreme cyclic loading from digging operations. Fatigue cracks develop in bucket teeth, boom structures, and hydraulic systems. Ultrasonic testing detects fatigue cracks in welded joints. Eddy current testing identifies surface cracks in structural members. Thermographic inspection monitors hydraulic system temperatures.
         </p>
         <p className="mb-4">
-          Systematic monitoring prevents catastrophic failures that could strand equipment or injure operators. Professional inspection through <a href="https://atlantisndt.com/training" rel="noopener" className="text-yellow-700 hover:underline">NDT training programs</a> ensures effective defect detection and safe operation decisions.</p>
+          Systematic monitoring prevents catastrophic failures that could strand equipment or injure operators. Professional inspection through <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT training programs</a> ensures effective defect detection and safe operation decisions.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Haul Truck Assessment</h2>
         <p className="mb-4">
           Mining haul trucks operate continuously in harsh conditions, carrying heavy loads over rough terrain. Structural fatigue, suspension wear, and tire degradation require monitoring. Ultrasonic testing assesses frame and attachment weld integrity. Thickness measurement tracks wear of brake components and hydraulic systems. Bearing condition monitoring predicts maintenance needs.
         </p>
         <p className="mb-4">
-          Integration with <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-yellow-700 hover:underline">NDT consulting services</a> supports development of effective haul truck inspection programs maximizing fleet reliability.</p>
+          Integration with <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT consulting services</a> supports development of effective haul truck inspection programs maximizing fleet reliability.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Conveyor System Monitoring</h2>
         <p className="mb-4">
@@ -33,7 +33,7 @@ export default function EquipmentPage() {
           Crushing and milling equipment operates at extremely high loads. Bearing failures, liner wear, and structural fatigue threaten equipment life and safety. Vibration analysis detects bearing degradation. Thermography identifies overheating. Ultrasonic assessment of welds ensures structural integrity. Regular inspection enables planned maintenance minimizing unexpected downtime.
         </p>
         <p className="mb-4">
-          Organizations implementing comprehensive crusher monitoring through <a href="https://atlantisndt.com/erp" rel="noopener" className="text-yellow-700 hover:underline">NDT ERP software</a> achieve exceptional equipment reliability and productivity.</p>
+          Organizations implementing comprehensive crusher monitoring through <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT ERP software</a> achieve exceptional equipment reliability and productivity.</p>
       </section>
     </div>
   );

@@ -117,7 +117,7 @@ export default function GuidesPage() {
               <div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Training and Education</h3>
                 <p className="text-gray-700 mb-3">
-                  Formal training programs prepare you for NDT certification. Discover <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">comprehensive training programs</a> that build the knowledge and skills required for each certification level. Most organizations offer classroom instruction combined with hands-on practical experience.
+                  Formal training programs prepare you for NDT certification. Discover <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">comprehensive training programs</a> that build the knowledge and skills required for each certification level. Most organizations offer classroom instruction combined with hands-on practical experience.
                 </p>
               </div>
 
@@ -218,11 +218,9 @@ export default function GuidesPage() {
           <div className="mt-16 p-8 bg-blue-50 border-l-4 border-blue-600 rounded-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Ready to Advance Your NDT Career?</h3>
             <p className="text-gray-700 mb-6">
-              Explore comprehensive training programs designed to prepare you for certification and career advancement. <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT training programs</a> combine classroom instruction with hands-on practical experience to ensure your success.
+              Explore comprehensive training programs designed to prepare you for certification and career advancement. <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT training programs</a> combine classroom instruction with hands-on practical experience to ensure your success.
             </p>
-            <a 
-              href="https://atlantisndt.com/training"
-              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+            <a href="https://atlantisndt.com/training" rel="noopener" className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
             >
               Explore Training Programs
             </a>

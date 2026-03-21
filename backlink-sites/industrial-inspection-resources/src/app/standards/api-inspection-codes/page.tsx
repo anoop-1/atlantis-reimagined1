@@ -320,7 +320,7 @@ export default function ApiInspectionCodesPage() {
           <p className="text-lg text-gray-700 mb-8">
             Achieve API 510, 570, and 653 certification through comprehensive training from Atlantis NDT experts.
           </p>
-          <a href="https://atlantisndt.com/training" className="btn-primary">
+          <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary">
             Explore Training Programs
           </a>
         </div>

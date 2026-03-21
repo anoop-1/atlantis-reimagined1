@@ -12,7 +12,7 @@ export default function StandardsPage() {
           ASTM International develops consensus standards addressing all aspects of protective coatings. ASTM D3359 standardizes adhesion testing through cross-hatch methods. ASTM D4541 covers pull-off adhesion testing. ASTM D7091 addresses visual assessment procedures. These standards provide methodological consistency, enabling reliable comparison of results across organizations and projects.
         </p>
         <p className="mb-4">
-          ASTM standards also address substrate preparation—ASTM D3276 for blast cleaning, ASTM D3174 for solvent cleaning. Specification compliance begins with proper substrate preparation; coatings applied to inadequate surfaces inevitably fail. Training programs accredited through <a href="https://atlantisndt.com/training" rel="noopener" className="text-emerald-600 hover:underline">NDT training programs</a> emphasize these foundational standards.
+          ASTM standards also address substrate preparation—ASTM D3276 for blast cleaning, ASTM D3174 for solvent cleaning. Specification compliance begins with proper substrate preparation; coatings applied to inadequate surfaces inevitably fail. Training programs accredited through <a href="https://atlantisndt.com" rel="noopener" className="text-emerald-600 hover:underline">NDT training programs</a> emphasize these foundational standards.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">ISO Standards</h2>
@@ -20,7 +20,7 @@ export default function StandardsPage() {
           ISO 12944 establishes international standards for protective coatings of steel structures. This comprehensive standard addresses environmental severity, coating system selection, surface preparation, application procedures, and inspection criteria. ISO 12944 enables consistent coating specifications globally, supporting multinational organizations.
         </p>
         <p className="mb-4">
-          ISO 19840 covers offshore and onshore structures in marine environments with extreme coating durability requirements. ISO standards align with ASTM methods, allowing organizations to reference both standards in comprehensive specifications. Global organizations implementing <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-emerald-600 hover:underline">NDT consulting services</a> benefit from expertise in both standards frameworks.
+          ISO 19840 covers offshore and onshore structures in marine environments with extreme coating durability requirements. ISO standards align with ASTM methods, allowing organizations to reference both standards in comprehensive specifications. Global organizations implementing <a href="https://atlantisndt.com" rel="noopener" className="text-emerald-600 hover:underline">NDT consulting services</a> benefit from expertise in both standards frameworks.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">NACE International Standards</h2>
@@ -36,7 +36,7 @@ export default function StandardsPage() {
           Effective coating specifications combine standard methods with project-specific requirements. Specifications address substrate material and condition, environmental exposure classifications, coating system selection, surface preparation procedures, application methods and conditions, inspection and acceptance criteria, and remediation procedures for non-conforming work.
         </p>
         <p className="mb-4">
-          Well-developed specifications prevent disputes and ensure quality. Inspection conducted per specification provides objective acceptance criteria. When disagreements arise over coating adequacy, specification-based inspection prevents subjective conflicts. Integration of inspection results with <a href="https://atlantisndt.com/erp" rel="noopener" className="text-emerald-600 hover:underline">NDT ERP software</a> systems facilitates documentation and compliance verification.
+          Well-developed specifications prevent disputes and ensure quality. Inspection conducted per specification provides objective acceptance criteria. When disagreements arise over coating adequacy, specification-based inspection prevents subjective conflicts. Integration of inspection results with <a href="https://atlantisndt.com" rel="noopener" className="text-emerald-600 hover:underline">NDT ERP software</a> systems facilitates documentation and compliance verification.
         </p>
       </section>
     </div>

@@ -16,7 +16,7 @@ export default function Home() {
             Understanding applicable standards forms the foundation for effective NDT program development. Operators must identify all relevant standards and regulatory requirements applicable to their specific equipment and operations. In complex environments, multiple overlapping standards may apply simultaneously, requiring reconciliation and identification of most stringent requirements governing inspection execution.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDT consulting services</a> guide clients through standards interpretation and regulatory compliance strategy. <a href="https://atlantisndt.com/training" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDT training programs</a> ensure personnel maintain current knowledge of evolving standards and regulatory developments.
+            <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDT consulting services</a> guide clients through standards interpretation and regulatory compliance strategy. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDT training programs</a> ensure personnel maintain current knowledge of evolving standards and regulatory developments.
           </p>
         </section>
 
@@ -39,7 +39,7 @@ export default function Home() {
             American Petroleum Institute (API) standards establish requirements specific to oil and natural gas industry operations. API 653 addresses tank inspection, maintenance, and repair for storage tanks. API 579 provides fitness-for-service framework for equipment with detected defects. API 510 addresses pressure vessel inspection, API 570 addresses piping, and API 580 provides risk-based inspection guidelines enabling sophisticated asset management.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Integration of API risk-based inspection methodology with ASME code requirements enables optimized inspection scheduling balancing safety, regulatory compliance, and operational efficiency. <a href="https://atlantisndt.com/api-653-certification" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">API 653 certification</a> establishes baseline competency for professionals conducting tank inspection. <a href="https://ndt-connect.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDTConnect platform</a> supports comprehensive API standards compliance documentation.
+            Integration of API risk-based inspection methodology with ASME code requirements enables optimized inspection scheduling balancing safety, regulatory compliance, and operational efficiency. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">API 653 certification</a> establishes baseline competency for professionals conducting tank inspection. <a href="https://ndt-connect.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDTConnect platform</a> supports comprehensive API standards compliance documentation.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             API standards recognize risk-based approaches that allocate inspection resources proportional to consequence severity and failure probability. This framework enables refineries and processing plants to maintain regulatory compliance while optimizing capital and personnel resource allocation.
@@ -55,7 +55,7 @@ export default function Home() {
             EN standards (European Norms) establish requirements for facilities operating in European Union jurisdictions, often exceeding ASME requirements in specific areas. Regional standards in Asia, Middle East, and other regions establish locally-mandated requirements. International facilities operating across multiple jurisdictions must identify and implement most stringent applicable standards.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Harmonization of international standards continues advancing toward consistent global approaches. <a href="https://atlantisndt.com/digital-twins" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">Digital twin solutions</a> enable management of complex multi-jurisdictional compliance obligations through centralized documentation and systematic tracking of standards requirements and implementation status.
+            Harmonization of international standards continues advancing toward consistent global approaches. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">Digital twin solutions</a> enable management of complex multi-jurisdictional compliance obligations through centralized documentation and systematic tracking of standards requirements and implementation status.
           </p>
         </section>
       </article>

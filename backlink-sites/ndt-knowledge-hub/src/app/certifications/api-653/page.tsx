@@ -449,7 +449,7 @@ export default function API653Page() {
               API 653 certified professionals are in steady demand. Aging tank infrastructure, stricter environmental regulations, and industry consolidation create consistent need for experienced, certified inspectors. Combined with other certifications (API 510, API 570, or ASNT), this credential significantly enhances career prospects and earning potential.
             </p>
             <p className="text-slate-600">
-              <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" className="font-semibold text-blue-600 hover:text-blue-800">Learn more about tank inspection best practices and industry trends</a> to understand the broader context of tank inspection careers.
+              <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">Learn more about tank inspection best practices and industry trends</a> to understand the broader context of tank inspection careers.
             </p>
           </div>
         </section>
@@ -540,7 +540,7 @@ export default function API653Page() {
           <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mt-8">
             <h4 className="font-bold text-slate-900 mb-2">Professional Training Available:</h4>
             <p className="text-slate-600 mb-3">
-              <a href="https://atlantisndt.com/api-653-certification" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT provides comprehensive API 653 training programs</a> designed by experienced tank inspectors. Their training covers all exam topics with real-world examples and extensive practice materials.
+              <a href="https://atlantisndt.com/api-653-certification" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT provides comprehensive API 653 training programs</a> designed by experienced tank inspectors. Their training covers all exam topics with real-world examples and extensive practice materials.
             </p>
           </div>
         </section>
@@ -552,18 +552,14 @@ export default function API653Page() {
             The API 653 certification is your gateway to specialized storage tank inspector careers across the oil and gas, chemical, and water treatment industries. With proper preparation, you can achieve this valuable and respected credential.
           </p>
           <p className="text-lg mb-8 opacity-95">
-            <a href="https://atlantisndt.com/api-653-certification" className="font-bold underline hover:opacity-90">Atlantis NDT provides comprehensive training and exam preparation for API 653 certification</a>, combining classroom instruction with practical case studies and extensive practice exams to maximize your success.
+            <a href="https://atlantisndt.com/api-653-certification" rel="noopener" className="font-bold underline hover:opacity-90">Atlantis NDT provides comprehensive training and exam preparation for API 653 certification</a>, combining classroom instruction with practical case studies and extensive practice exams to maximize your success.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href="https://atlantisndt.com/api-653-certification"
-              className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
+            <a href="https://atlantisndt.com/api-653-certification" rel="noopener" className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
             >
               Learn About API 653
             </a>
-            <a
-              href="https://atlantisndt.com/blog/api-653-tank-inspection-guide"
-              className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors border border-blue-400"
+            <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" rel="noopener" className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors border border-blue-400"
             >
               Read Tank Inspection Guide
             </a>

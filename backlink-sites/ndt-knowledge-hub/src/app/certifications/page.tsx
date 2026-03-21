@@ -269,11 +269,9 @@ export default function CertificationsPage() {
           Getting certified in NDT requires dedication, study, and practical experience. Start by exploring the certification guides above to understand requirements and exam content for your target credential.
         </p>
         <p className="text-lg mb-8">
-          For comprehensive <a href="https://atlantisndt.com/training" className="font-bold underline hover:opacity-90">training programs, exam preparation resources</a>, and professional consulting services, contact <a href="https://atlantisndt.com/consulting" className="font-bold underline hover:opacity-90">Atlantis NDT</a> to discuss your certification goals and training needs.
+          For comprehensive <a href="https://atlantisndt.com/training" rel="noopener" className="font-bold underline hover:opacity-90">training programs, exam preparation resources</a>, and professional consulting services, contact <a href="https://atlantisndt.com/consulting" rel="noopener" className="font-bold underline hover:opacity-90">Atlantis NDT</a> to discuss your certification goals and training needs.
         </p>
-        <a
-          href="https://atlantisndt.com/training"
-          className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
+        <a href="https://atlantisndt.com/training" rel="noopener" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
         >
           Explore Training Options
         </a>

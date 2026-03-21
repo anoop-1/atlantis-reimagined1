@@ -1,8 +1,10 @@
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 2
 
 User-agent: Twitterbot
 Allow: /
@@ -15,5 +17,6 @@ Allow: /
 
 Disallow: /admin/
 Disallow: /embed/
+Disallow: /api/
 
-Sitemap: https://atlantisndt.com/sitemap.xml
+Sitemap: https://atlantisndt.com/sitemap-index.xml

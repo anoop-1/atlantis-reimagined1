@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
+  verification: { google: 'pending-reverification' },
   title: 'Weld Quality Testing | NDT Methods & Standards',
   description: 'Comprehensive guide to weld inspection, defect detection, and quality assurance in welding.',
 };
@@ -15,15 +15,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-gray-900">
-        <header className="bg-orange-600 text-white">
-      {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+              <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
       <script dangerouslySetInnerHTML={{__html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-1EF92RXSVR');
       `}} />
+          <header className="bg-orange-600 text-white">
           <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <h1 className="text-2xl font-bold">Weld Quality Resource</h1>
             <div className="space-x-6">
@@ -46,11 +45,11 @@ export default function RootLayout({
                 <h3 className="font-bold text-lg mb-4">Industry Partners</h3>
                 <ul className="space-y-2 text-sm">
                   <li><a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">Atlantis NDT</a></li>
-                  <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="text-orange-600 hover:underline">Weld Consulting</a></li>
-                  <li><a href="https://atlantisndt.com/training" rel="noopener" className="text-orange-600 hover:underline">Weld Training</a></li>
-                  <li><a href="https://atlantisndt.com/digital-twins" rel="noopener" className="text-orange-600 hover:underline">Asset Monitoring</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">Weld Consulting</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">Weld Training</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">Asset Monitoring</a></li>
                   <li><a href="https://ndt-connect.com" rel="noopener" className="text-orange-600 hover:underline">Data Management</a></li>
-                  <li><a href="https://atlantisndt.com/erp" rel="noopener" className="text-orange-600 hover:underline">Integration Systems</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">Integration Systems</a></li>
                 </ul>
               </div>
               <div>

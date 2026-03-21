@@ -441,7 +441,7 @@ export default function API510Page() {
               API 510 certification significantly enhances career prospects. Combined with other certifications (API 570, API 653, or ASNT Level III), you become a highly sought-after specialist capable of managing complex inspection programs across multiple equipment types.
             </p>
             <p className="text-slate-600">
-              <a href="https://atlantisndt.com/consulting" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT connects professionals with consulting opportunities</a> where API 510 certified inspectors can command premium rates for specialized expertise.
+              <a href="https://atlantisndt.com/consulting" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT connects professionals with consulting opportunities</a> where API 510 certified inspectors can command premium rates for specialized expertise.
             </p>
           </div>
         </section>
@@ -528,7 +528,7 @@ export default function API510Page() {
           <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mt-8">
             <h4 className="font-bold text-slate-900 mb-2">Professional Training Support:</h4>
             <p className="text-slate-600 mb-3">
-              <a href="https://atlantisndt.com/api-510-certification" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT offers specialized API 510 training programs</a> with instructors who have extensive pressure vessel inspection experience. Their comprehensive curriculum covers all exam topics with real-world examples and extensive practice materials.
+              <a href="https://atlantisndt.com/api-510-certification" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT offers specialized API 510 training programs</a> with instructors who have extensive pressure vessel inspection experience. Their comprehensive curriculum covers all exam topics with real-world examples and extensive practice materials.
             </p>
           </div>
         </section>
@@ -540,18 +540,14 @@ export default function API510Page() {
             The API 510 certification is the gateway to advanced pressure vessel inspection careers with excellent compensation and career progression opportunities. With dedicated preparation and proper training, you can achieve this prestigious credential.
           </p>
           <p className="text-lg mb-8 opacity-95">
-            <a href="https://atlantisndt.com/api-510-certification" className="font-bold underline hover:opacity-90">Atlantis NDT provides comprehensive API 510 training and certification preparation</a> combining classroom instruction with practical examples and extensive practice exams. Our training maximizes your chances of passing on your first attempt.
+            <a href="https://atlantisndt.com/api-510-certification" rel="noopener" className="font-bold underline hover:opacity-90">Atlantis NDT provides comprehensive API 510 training and certification preparation</a> combining classroom instruction with practical examples and extensive practice exams. Our training maximizes your chances of passing on your first attempt.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href="https://atlantisndt.com/api-510-certification"
-              className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
+            <a href="https://atlantisndt.com/api-510-certification" rel="noopener" className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
             >
               Learn About API 510
             </a>
-            <a
-              href="https://atlantisndt.com/consulting"
-              className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors border border-blue-400"
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors border border-blue-400"
             >
               Explore Consulting Services
             </a>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'pending-reverification' },
   title: {
     default: 'Construction & Infrastructure NDT | NDT Industry Resource',
     template: '%s | Construction & Infrastructure NDT',
@@ -15,14 +16,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-      {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
-      <script dangerouslySetInnerHTML={{__html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-1EF92RXSVR');
-      `}} />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="bg-white text-gray-900">
@@ -36,7 +29,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 function Header() {
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1EF92RXSVR');
+      `}} />
+          <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" className="text-xl font-bold text-blue-700">Construction & Infrastructure NDT</a>
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">

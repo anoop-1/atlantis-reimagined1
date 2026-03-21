@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  verification: { google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' },
+  verification: { google: 'pending-reverification' },
   title: 'Subsea Inspection Guide | Deepwater NDT',
   description: 'Comprehensive NDT solutions for subsea pipelines, equipment, and deepwater infrastructure.',
   keywords: 'subsea inspection, deepwater NDT, offshore pipelines, ROV inspection',
@@ -12,15 +12,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-gradient-to-b from-cyan-50 to-white">
-        <header className="border-b border-cyan-200 bg-white shadow-sm">
-      {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+              <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
       <script dangerouslySetInnerHTML={{__html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-1EF92RXSVR');
       `}} />
+          <header className="border-b border-cyan-200 bg-white shadow-sm">
           <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <h1 className="text-2xl font-bold text-cyan-700">Subsea Inspection Guide</h1>
             <div className="flex gap-6 text-sm">
@@ -39,11 +38,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <h3 className="font-bold text-lg mb-4 text-cyan-200">Industry Partners</h3>
                 <ul className="space-y-2 text-sm">
                   <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">Atlantis NDT</a></li>
-                  <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="hover:text-cyan-200">NDT Consulting</a></li>
-                  <li><a href="https://atlantisndt.com/training" rel="noopener" className="hover:text-cyan-200">NDT Training</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">NDT Consulting</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">NDT Training</a></li>
                   <li><a href="https://ndt-connect.com" rel="noopener" className="hover:text-cyan-200">NDTConnect</a></li>
-                  <li><a href="https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide" rel="noopener" className="hover:text-cyan-200">Ultrasonic Guide</a></li>
-                  <li><a href="https://atlantisndt.com/ndt-consulting-dubai" rel="noopener" className="hover:text-cyan-200">Dubai Services</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">Ultrasonic Guide</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">Dubai Services</a></li>
                 </ul>
               </div>
               <div>

@@ -255,9 +255,9 @@ export default function TechnologyPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Technology Consulting & Implementation</h2>
           <p className="text-lg text-teal-50 mb-8">
-            <a href="https://atlantisndt.com/consulting" className="text-white font-semibold hover:text-teal-100">Atlantis NDT provides strategic guidance</a> on technology selection, implementation planning, and change management to optimize your inspection and asset management programs. Our consultants have experience implementing digital twins, ERP systems, and advanced NDT technologies across multiple industries.
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">Atlantis NDT provides strategic guidance</a> on technology selection, implementation planning, and change management to optimize your inspection and asset management programs. Our consultants have experience implementing digital twins, ERP systems, and advanced NDT technologies across multiple industries.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
             Schedule Technology Consultation
           </a>
         </div>

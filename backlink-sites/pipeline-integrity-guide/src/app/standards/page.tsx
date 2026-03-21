@@ -26,7 +26,7 @@ export default function Standards() {
             PHMSA regulations establish specific requirements for inspections in high-consequence areas, with mandatory periodic assessment using in-line inspection or hydrostatic testing. The integrity management framework recognizes pigging, direct examination via excavation, and pressure testing as acceptable methodologies, with specific performance standards for each approach. Recent amendments have incorporated risk-based decision-making frameworks that allow sophisticated operators to optimize inspection strategies while maintaining equivalent or superior safety.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Canadian interprovincial pipelines operate under CSA Z662 Standard, establishing comparable requirements with Canadian-specific risk assessment and inspection protocols. Provincial regulations in Alberta, British Columbia, and other jurisdictions often exceed federal minimums, requiring operators to implement the most stringent applicable standards across regulated segments. <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-800 font-semibold">NDT consulting services</a> guide operators through multi-jurisdictional compliance complexity.
+            Canadian interprovincial pipelines operate under CSA Z662 Standard, establishing comparable requirements with Canadian-specific risk assessment and inspection protocols. Provincial regulations in Alberta, British Columbia, and other jurisdictions often exceed federal minimums, requiring operators to implement the most stringent applicable standards across regulated segments. <a href="https://atlantisndt.com" rel="noopener" className="text-teal-600 hover:text-teal-800 font-semibold">NDT consulting services</a> guide operators through multi-jurisdictional compliance complexity.
           </p>
         </section>
 
@@ -52,7 +52,7 @@ export default function Standards() {
             Inspection procedures must address specific pipeline characteristics including diameter, material grade, operating pressure, and environmental conditions. Approved procedures must demonstrate adequate sensitivity through development of artificial defects or reference samples simulating realistic defect conditions. Equipment calibration, performed at defined intervals, ensures that detection and measurement systems remain within specified performance parameters.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Third-party audits and witnessed inspections validate that operators maintain compliance with established procedures and quality standards. <a href="https://atlantisndt.com/training" rel="noopener" className="text-teal-600 hover:text-teal-800 font-semibold">NDT training programs</a> maintain certification accuracy and ensure inspectors understand current standards and best practices applicable to their specific responsibilities.
+            Third-party audits and witnessed inspections validate that operators maintain compliance with established procedures and quality standards. <a href="https://atlantisndt.com" rel="noopener" className="text-teal-600 hover:text-teal-800 font-semibold">NDT training programs</a> maintain certification accuracy and ensure inspectors understand current standards and best practices applicable to their specific responsibilities.
           </p>
         </section>
       </article>

@@ -12,14 +12,14 @@ export default function TubeInspectionPage() {
           Effective inspection programs prioritize resources based on risk. Tubes exposed to corrosive environments receive most frequent inspection. Critical tubes affecting process safety receive priority. High-material-velocity regions experience accelerated degradation requiring attention. Risk-based inspection allocates resources efficiently, ensuring comprehensive assessment of highest-risk areas.
         </p>
         <p className="mb-4">
-          Organizations implementing systematic risk assessment through <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-rose-600 hover:underline">expert programs</a> optimize inspection scheduling and maintenance investment.</p>
+          Organizations implementing systematic risk assessment through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">expert programs</a> optimize inspection scheduling and maintenance investment.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Eddy Current Probe Selection and Operation</h2>
         <p className="mb-4">
           Probe selection depends on tube material, diameter, and wall thickness. Different frequencies optimize sensitivity to various defect types. Bobbin probes perform rapid scanning detecting wall loss. Rotating coil probes achieve better resolution of cracks. Probe speed optimization balances rapid testing with defect detection sensitivity. Proper equipment maintenance and calibration ensure consistent results.
         </p>
         <p className="mb-4">
-          Professional training through <a href="https://atlantisndt.com/training" rel="noopener" className="text-rose-600 hover:underline">specialized programs</a> develops expertise in probe selection and operation.</p>
+          Professional training through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">specialized programs</a> develops expertise in probe selection and operation.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Data Interpretation and Sizing</h2>
         <p className="mb-4">
@@ -33,14 +33,14 @@ export default function TubeInspectionPage() {
           Comprehensive records of all inspections enable trend analysis. Tubes showing corrosion rates exceeding tolerance limits can be plugged before failure. Comparison of current results with historical data reveals accelerating degradation. Statistical analysis guides maintenance scheduling. Long-term records prove invaluable during troubleshooting of performance issues.
         </p>
         <p className="mb-4">
-          Digital record systems through <a href="https://atlantisndt.com/erp" rel="noopener" className="text-rose-600 hover:underline">NDT ERP systems</a> enable efficient trending and predictive maintenance.</p>
+          Digital record systems through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">NDT ERP systems</a> enable efficient trending and predictive maintenance.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Quality Assurance and Calibration</h2>
         <p className="mb-4">
           Equipment calibration ensures consistent, reliable results. Reference standards simulating various defect types verify probe performance. Periodic recalibration catches equipment drift affecting accuracy. Personnel qualification through testing and demonstrated competency ensures interpretation reliability. Documentation of all quality measures supports regulatory compliance.
         </p>
         <p className="mb-4">
-          Organizations implementing rigorous quality programs through <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-rose-600 hover:underline">professional oversight</a> achieve superior reliability and confidence in results.</p>
+          Organizations implementing rigorous quality programs through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">professional oversight</a> achieve superior reliability and confidence in results.</p>
       </section>
     </div>
   );

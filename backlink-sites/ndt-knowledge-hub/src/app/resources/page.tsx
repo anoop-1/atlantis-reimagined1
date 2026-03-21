@@ -121,7 +121,7 @@ export default function ResourcesPage() {
 
             <h3>Manufacturer Training</h3>
             <p>
-              Equipment manufacturers frequently offer training on their specific equipment. This training is valuable for developing equipment expertise and troubleshooting capabilities. <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">Comprehensive training programs</a> provide foundational education for NDT professionals entering the field or advancing to higher levels.
+              Equipment manufacturers frequently offer training on their specific equipment. This training is valuable for developing equipment expertise and troubleshooting capabilities. <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Comprehensive training programs</a> provide foundational education for NDT professionals entering the field or advancing to higher levels.
             </p>
 
             <h2>Industry Conferences and Professional Meetings</h2>
@@ -186,7 +186,7 @@ export default function ResourcesPage() {
 
             <h3>Atlantis NDT Professional Services</h3>
             <p>
-              <a href="https://atlantisndt.com" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT</a> provides comprehensive NDT services including inspection operations, <a href="https://atlantisndt.com/consulting" className="text-blue-600 hover:text-blue-800 font-semibold">technical consulting</a>, and <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>. With expertise across all major NDT methods and industries, Atlantis NDT supports organizations in achieving inspection excellence.
+              <a href="https://atlantisndt.com" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT</a> provides comprehensive NDT services including inspection operations, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">technical consulting</a>, and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>. With expertise across all major NDT methods and industries, Atlantis NDT supports organizations in achieving inspection excellence.
             </p>
 
             <h4>Key Service Offerings:</h4>
@@ -287,22 +287,16 @@ export default function ResourcesPage() {
               Whether you need expert consulting, specialized training, or professional NDT services, we're here to support your success.
             </p>
             <div className="space-y-3">
-              <a 
-                href="https://atlantisndt.com"
-                className="block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition text-center"
+              <a href="https://atlantisndt.com" rel="noopener" className="block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition text-center"
               >
                 Explore Atlantis NDT Services
               </a>
               <div className="grid grid-cols-2 gap-3">
-                <a 
-                  href="https://atlantisndt.com/training"
-                  className="px-4 py-2 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition text-center text-sm"
+                <a href="https://atlantisndt.com/training" rel="noopener" className="px-4 py-2 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition text-center text-sm"
                 >
                   Training Programs
                 </a>
-                <a 
-                  href="https://atlantisndt.com/consulting"
-                  className="px-4 py-2 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition text-center text-sm"
+                <a href="https://atlantisndt.com/consulting" rel="noopener" className="px-4 py-2 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition text-center text-sm"
                 >
                   Consulting Services
                 </a>

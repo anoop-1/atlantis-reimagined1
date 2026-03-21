@@ -137,7 +137,7 @@ const corePages = [
   {
     path: '/consulting',
     title: 'NDT Consulting Services | ASNT Level III Experts | Atlantis NDT',
-    description: 'Expert NDT consulting services from 50+ ASNT Level III professionals. Procedure development, program audits, ASNT SNT-TC-1A compliance, written practices & expert witness services. USA, India, Middle East.',
+    description: 'NDT consulting from 50+ ASNT Level III experts. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. USA, India, Middle East.',
     bodyH1: 'NDT Consulting Services',
     bodyText: 'Atlantis NDT provides expert NDT consulting services including procedure development, program audits, ASNT SNT-TC-1A compliance, and written practice development.',
   },
@@ -185,15 +185,15 @@ const corePages = [
   },
   {
     path: '/training-me',
-    title: 'NDT Training UAE & Middle East 2026 | Dubai, Saudi Arabia, Qatar',
-    description: 'NDT training in UAE, Dubai, Saudi Arabia, Qatar, Kuwait & Oman. ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, 95% pass rate. Enrol today.',
+    title: 'NDT Training Dubai & Middle East 2026 | ASNT + ISO 9712 Certification',
+    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III. UT RT MT PT ET VT. Monthly batches, 95% pass rate.',
     bodyH1: 'NDT Training Middle East',
     bodyText: 'Professional NDT training across Middle East: UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for all major NDT methods.',
   },
   {
     path: '/digital-twins',
-    title: 'NDT Digital Twins | 3D Asset Inspection & Visualization | Atlantis NDT',
-    description: 'Advanced NDT digital twin technology for oil & gas, aerospace & power generation. Real-time 3D asset visualization, defect mapping, and inspection data integration. Request demo.',
+    title: 'Digital Twins in NDT: Complete Guide to 3D Asset Inspection [2026]',
+    description: 'How digital twins transform NDT inspection with real-time 3D visualization, defect mapping & predictive maintenance. ROI data, case studies & implementation roadmap for oil & gas.',
     bodyH1: 'NDT Digital Twins Technology',
     bodyText: 'Advanced digital twin technology for NDT inspection. Real-time 3D asset visualization and defect mapping for oil & gas, aerospace, and power generation industries.',
   },
@@ -269,8 +269,8 @@ const corePages = [
   },
   {
     path: '/asnt-certification',
-    title: 'ASNT Certification & ACCP Guide 2026 | NDT Level I–III Exam & Costs',
-    description: 'Complete ASNT certification guide: SNT-TC-1A vs ACCP differences, Level I/II/III exam requirements, costs ($200-$750), ACCP NDT certification pathway, study tips, and 95% pass rate training.',
+    title: 'ASNT Certification Guide 2026 | NDT Level I–III Exam Costs & Requirements',
+    description: 'Complete ASNT certification guide: SNT-TC-1A vs ACCP, Level I/II/III exam requirements, costs ($200-$750), study tips. 95% pass rate training available.',
     bodyH1: 'ASNT NDT Certification Guide 2026',
     bodyText: 'Complete ASNT certification guide: SNT-TC-1A and ACCP programs for Level I, II, and III across all NDT methods. 95% first-time pass rate with ASNT Level III consulting available.',
   },
@@ -424,13 +424,216 @@ const corePages = [
 ];
 
 corePages.forEach(p => {
-  routes.push({
+  const routeObj = {
     path: p.path,
     title: p.title,
     description: p.description,
     canonical: `${SITE_URL}${p.path}`,
     bodyContent: p.bodyH1 ? `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">NDT Consulting</a><a href="/training">NDT Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.bodyH1}</h1>\n    <p>${p.bodyText}</p>\n  </main>` : null,
-  });
+  };
+
+  // Add structured data for FAQ page
+  if (p.path === '/faq') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Non-Destructive Testing (NDT)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non-Destructive Testing (NDT) is a group of analysis techniques used to evaluate the properties of materials, components, or assemblies without causing damage. NDT methods are essential for quality control, safety inspections, and maintenance in industries like oil & gas, aerospace, power generation, and manufacturing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the main types of NDT methods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The main NDT methods include Ultrasonic Testing (UT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Eddy Current Testing (ET), and Visual Testing (VT). Each method has specific applications depending on the material type, defect orientation, and accessibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is NDT important for industrial safety?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NDT is critical for detecting defects before they lead to equipment failure, environmental damage, or safety incidents. Regular NDT inspections ensure structural integrity, extend asset life, reduce downtime, and comply with regulatory requirements in industries like oil & gas, nuclear, and aerospace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I choose the right NDT method for my application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The choice depends on several factors: material type (ferrous vs non-ferrous), defect type (surface vs subsurface), accessibility, and required sensitivity. For surface cracks on ferromagnetic materials, use MT. For subsurface defects, UT or RT is preferred. PT works on non-porous materials for surface defects. Our consultants can help you select the optimal method."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What NDT certifications does Atlantis offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Atlantis NDT offers training and certification for ASNT (American Society for Nondestructive Testing) Level I, II, and III across all major NDT methods including UT, RT, MT, PT, ET, and VT. We also provide preparation for CSWIP and PCN certifications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between NDT Level I, II, and III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Level I technicians perform specific calibrations and tests under supervision. Level II technicians can set up equipment, interpret results, and prepare reports. Level III professionals can design test procedures, train others, and interpret codes and specifications. Each level requires more experience and knowledge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does NDT training take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Training duration varies by method and level. Level I typically requires 40 hours of classroom training, Level II requires 40-80 hours depending on the method. Certification also requires documented experience hours and passing written and practical exams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer online NDT training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we offer blended learning options combining online theoretical training with hands-on practical sessions. This allows flexibility for working professionals while ensuring practical competency through in-person labs."
+          }
+        }
+      ]
+    };
+  }
+
+  // Add Course schema for training pages
+  if (p.path === '/training') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training - ASNT Level I, II, III Certification",
+      "description": "Professional NDT training courses for ASNT Level I, II, and III certification. Covering UT, MT, PT, RT, ET, and VT methods with flexible scheduling and 95% pass rate.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-CERT",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  if (p.path === '/training-usa') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training USA - ASNT Level I, II, III Certification",
+      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with 95% pass rate. UT, MT, PT, RT, ET, VT methods.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-USA",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  if (p.path === '/training-india') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training India - ASNT Level I, II, III Certification",
+      "description": "Professional NDT training in India. ASNT certification courses in Hyderabad for Level I, II, and III with classroom and online options. UT, MT, PT, RT, ET, VT methods.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-IND",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  if (p.path === '/training-me') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training Middle East - ASNT Level I, II, III Certification",
+      "description": "Professional NDT training across Middle East: UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-ME",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  if (p.path === '/ndt-training-online') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Online NDT Training - ASNT Level I, II, III Certification",
+      "description": "Online NDT training for ASNT SNT-TC-1A certification. Level I and II theory courses for UT, MT, PT, RT, ET, and VT methods. Live virtual and self-paced options.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-ONLINE",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  if (p.path === '/ndt-training-usa') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training USA - ASNT Level I, II, III Certification",
+      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with 95% pass rate. UT, MT, PT, RT, ET, VT methods.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-USA",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  if (p.path === '/ndt-training-india') {
+    routeObj.structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "NDT Training India - ASNT Level I, II, III Certification",
+      "description": "Professional NDT training in India. ASNT certification courses in Hyderabad for Level I, II, and III with classroom and online options. UT, MT, PT, RT, ET, VT methods.",
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseCode": "NDT-IND",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "courseWorkload": "PT40H",
+        "instructor": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
+      }
+    };
+  }
+
+  routes.push(routeObj);
 });
 
 // ── Blog post pages ──────────────────────────────────────────────────────
@@ -827,7 +1030,7 @@ routes.push({
 const extraPages = [
   { path: '/digital-twins-ndt-guide', title: 'Digital Twins for NDT | Complete Implementation Guide [2026]', description: 'Complete guide to digital twins in NDT. How digital twin technology transforms inspection, asset integrity, and maintenance in oil & gas, aerospace, and power generation.' },
   { path: '/digital-twins-oil-gas', title: 'Digital Twins for Oil & Gas [2026] | Pipeline & Asset Integrity', description: 'Digital twin solutions for oil & gas in 2026. Real-time pipeline monitoring, corrosion tracking, and predictive maintenance. Reduce inspection costs by 40%.' },
-  { path: '/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Choose? [2026 Side-by-Side Guide]', description: 'UT vs RT comparison: cost, speed, defect detection accuracy, radiation safety, and code requirements (ASME, AWS, API). Decision matrix to choose the right weld inspection method.' },
+  { path: '/ut-vs-rt-comparison', title: 'UT vs RT Comparison: Which NDT Method to Choose? [Expert Guide]', description: 'Ultrasonic vs radiographic testing compared: cost, speed, sensitivity, safety & applications. When to use UT vs RT for welds, castings & in-service inspection.' },
   { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection Guide [2026] | Intervals, Floor Scanning & Checklist', description: 'API 653 tank inspection explained: external (every 5 yr), internal (every 10 yr, RBI-adjustable), floor UT/MFL scanning, shell thickness evaluation, and hot-tap repair criteria. Free downloadable checklist.' },
   { path: '/blog/ndt-career-guide', title: 'NDT Career Guide 2026 | Salary, Certifications & Career Path', description: 'How to become an NDT inspector in 2026: certification requirements (ASNT, ISO 9712), salary ranges ($45K-$120K+), highest-paying methods, and career advancement from Level I to Level III.' },
   { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Choose? [2026 Comparison Table]', description: 'Side-by-side comparison of ultrasonic testing vs radiographic testing: cost ($800 vs $1,500/weld), speed, accuracy, radiation safety, ASME/AWS code requirements. Decision matrix included.' },
@@ -1330,7 +1533,7 @@ const newBlogPosts = [
   { path: '/blog/eddy-current-testing-complete-guide', title: 'Eddy Current Testing: Complete Guide to ECT Methods, Equipment & Standards', description: 'Comprehensive eddy current testing guide: conventional ECT, pulsed EC, bobbin coil, RFEC. Equipment selection, ASTM E309, and aerospace/oil & gas applications.', h1: 'Eddy Current Testing: Complete Guide' },
   { path: '/blog/ultrasonic-testing-ultimate-guide', title: 'Ultrasonic Testing: Ultimate Guide to UT NDT Methods & Techniques', description: 'The ultimate guide to ultrasonic testing: pulse-echo, TOFD, phased array, automated UT. ASME Section V, calibration, probe selection, and scan plans.', h1: 'Ultrasonic Testing: Ultimate Guide' },
   { path: '/blog/api-653-certification-complete-guide', title: 'API 653 Certification: Complete Guide to Tank Inspector Exam 2026', description: 'Everything about API 653 certification: exam format, required codes, study plan, calculation formulas, and tips from experienced API tank inspectors.', h1: 'API 653 Certification: Complete Guide' },
-  { path: '/blog/ndt-salary-guide-2026-global', title: 'NDT Salary Guide 2026: Global Pay by Method, Level & Location', description: 'Global NDT salary guide for 2026: pay ranges by ASNT level, NDT method, and location. USA, Middle East, India, Europe, and Australia data.', h1: 'NDT Salary Guide 2026' },
+  { path: '/blog/ndt-salary-guide-2026-global', title: 'NDT Salary Guide 2026 | Technician & Level III Pay by Region', description: 'NDT salary data for 2026: Level I ($45-65K), Level II ($55-85K), Level III ($80-140K+). Compare pay by method, industry, location & certification. Career advancement tips.', h1: 'NDT Salary Guide 2026' },
   { path: '/blog/rt-vs-ut-complete-comparison', title: 'RT vs UT: Complete Comparison for Weld Inspection [Decision Guide]', description: 'RT vs UT detailed comparison: cost, speed, safety, defect detection, code requirements. When to use radiographic testing vs ultrasonic testing for welds.', h1: 'RT vs UT: Complete Weld Inspection Comparison' },
 ];
 
@@ -1566,11 +1769,354 @@ certSlugs.forEach(cert => {
   });
 });
 
+// ─── Case Study Pages (E-E-A-T Authority Building) ────────────────────────
+const caseStudies = [
+  { slug: 'gulf-coast-refinery-ndt-program', title: 'Gulf Coast Refinery NDT Program Overhaul | Procedure Development & Audit', desc: 'How Atlantis NDT helped a major Gulf Coast refinery develop 25+ ASNT compliant procedures, train 40+ technicians, and pass API audit first time. 35% reduction in inspection rework.', industry: 'Oil & Gas' },
+  { slug: 'adnoc-offshore-pipeline-inspection', title: 'ADNOC Offshore Pipeline Inspection | 500+ Hours Subsea NDT', desc: 'Comprehensive pipeline inspection for ADNOC offshore platform in Persian Gulf. Phased array UT, eddy current ROV scanning, 50km of subsea piping assessed. 3 critical defects found before failure.', industry: 'Offshore' },
+  { slug: 'aerospace-ndt-qualification-program', title: 'Aerospace NDT Qualification Program | NAS-410 Compliance', desc: 'Complete NAS-410 NDT qualification program built from scratch for Tier 1 aerospace manufacturer. 12 methods qualified, NADCAP audit readiness achieved in 6 months.', industry: 'Aerospace' },
+  { slug: 'pipeline-fitness-for-service', title: 'Pipeline Fitness-for-Service Assessment | API 579 FFS', desc: 'Fitness-for-service assessment per API 579 for aging gas pipeline. UT corrosion mapping of 200+ CMLs, remaining life calculations, and repair/replace prioritization. $4.2M in deferred replacement costs.', industry: 'Pipeline' },
+  { slug: 'digital-twin-refinery-implementation', title: 'Digital Twin Implementation for Refinery Assets | 40% Turnaround Reduction', desc: 'Digital twin deployment for 150+ pressure vessels and piping circuits at major refinery. Integrated 10 years of UT thickness data into 3D models. 40% reduction in turnaround inspection time.', industry: 'Digital Twins' },
+  { slug: 'storage-tank-api-653-program', title: 'Storage Tank API 653 Inspection Program | 75 Tanks', desc: 'API 653 inspection program for 75 aboveground storage tanks. MFL floor scanning, UT shell surveys, and risk-based inspection scheduling. Identified 12 tanks requiring immediate repair.', industry: 'Tank Inspection' },
+  { slug: 'petrochemical-turnaround-ndt', title: 'Petrochemical Plant Turnaround NDT | 15-Day Shutdown Support', desc: 'Full-scope turnaround NDT support for SABIC petrochemical complex. 30+ inspectors, 1,200 inspection points, zero schedule delays. All procedures approved first submission.', industry: 'Petrochemical' },
+  { slug: 'power-plant-boiler-inspection', title: 'Power Plant Boiler Tube Inspection | HRSG Assessment', desc: 'HRSG and boiler tube inspection program for 500MW combined cycle plant. ECT, IRIS, and pulsed eddy current on 4,000+ tubes. Identified 200+ tubes requiring plugging before failure.', industry: 'Power Generation' },
+  { slug: 'lng-terminal-cryogenic-inspection', title: 'LNG Terminal Cryogenic Piping Inspection | -162°C Service', desc: 'Specialized NDT for LNG terminal cryogenic piping and storage tanks. AUT, PAUT, and specialized low-temperature techniques. 100% weld inspection per ASME B31.3 Chapter IX.', industry: 'LNG' },
+  { slug: 'india-refinery-training-program', title: 'India Refinery NDT Training Program | 200+ Technicians Certified', desc: 'Comprehensive NDT training program for major Indian refinery. 200+ technicians certified across UT, MT, PT, RT Level I and II. Custom training materials in Hindi and English.', industry: 'Training' },
+];
+
+caseStudies.forEach(cs => {
+  const path = `/case-studies/${cs.slug}`;
+  routes.push({
+    path,
+    title: `${cs.title} | Atlantis NDT`,
+    description: cs.desc,
+    canonical: `${SITE_URL}${path}`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": cs.title,
+      "author": { "@type": "Organization", "name": "Atlantis NDT" },
+      "publisher": { "@id": `${SITE_URL}/#organization` },
+      "datePublished": "2026-03-15",
+      "dateModified": "2026-03-21",
+      "articleSection": cs.industry,
+      "description": cs.desc
+    },
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/case-studies">Case Studies</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <article>\n      <span class="badge">${cs.industry}</span>\n      <h1>${cs.title}</h1>\n      <p>${cs.desc}</p>\n    </article>\n  </main>`,
+  });
+  programmaticCount++;
+});
+
+console.log(`📋 Case study pages added: ${caseStudies.length}`);
+
+// ─── Global Training City Pages (beyond USA) ──────────────────────────────
+const globalTrainingCities = [
+  { slug: 'dubai', city: 'Dubai', region: 'UAE', detail: 'Dubai training center for ASNT and ISO 9712 certification. Serving UAE, Saudi Arabia, Qatar, and GCC region. ADNOC and Aramco approved programs.' },
+  { slug: 'abu-dhabi', city: 'Abu Dhabi', region: 'UAE', detail: 'Abu Dhabi NDT training for ADNOC contractors and oil & gas professionals across the UAE. ISO 9712 and ASNT SNT-TC-1A certification.' },
+  { slug: 'mumbai', city: 'Mumbai', region: 'India', detail: 'Mumbai NDT training for offshore, refining, and petrochemical industries. ASNT and ISNT certification programs.' },
+  { slug: 'hyderabad', city: 'Hyderabad', region: 'India', detail: 'Hyderabad headquarters training center. Full Level I-III certification for all NDT methods. Hands-on labs with latest equipment.' },
+  { slug: 'bangalore', city: 'Bangalore', region: 'India', detail: 'Bangalore NDT training for aerospace (HAL, ISRO suppliers), defense, and manufacturing. ASNT, ISNT, and NAS-410 programs.' },
+  { slug: 'chennai', city: 'Chennai', region: 'India', detail: 'Chennai NDT training for automotive, power generation, and heavy manufacturing industries. ASNT Level I-III certification.' },
+  { slug: 'singapore', city: 'Singapore', region: 'APAC', detail: 'Singapore training hub for Asia-Pacific. Petrochemical, marine, and offshore industry certifications. ASNT and ISO 9712.' },
+  { slug: 'perth', city: 'Perth', region: 'Australia', detail: 'Perth NDT training for mining, LNG, and oil & gas industries. ISO 9712 and ASNT certification for Australian operators.' },
+  { slug: 'calgary', city: 'Calgary', region: 'Canada', detail: 'Calgary NDT training for oil sands, pipeline, and midstream industries. ASNT and CGSB certification programs.' },
+  { slug: 'aberdeen', city: 'Aberdeen', region: 'UK', detail: 'Aberdeen NDT training for North Sea oil & gas, offshore wind, and decommissioning. PCN and ASNT certification.' },
+  { slug: 'london', city: 'London', region: 'UK', detail: 'London NDT training for construction, aerospace, and rail industries. PCN, ASNT, and EN ISO 9712 certification.' },
+  { slug: 'riyadh', city: 'Riyadh', region: 'Saudi Arabia', detail: 'Riyadh NDT training for Saudi Aramco, SABIC, and Vision 2030 industrial projects. Saudi TVTC recognized programs.' },
+  { slug: 'doha', city: 'Doha', region: 'Qatar', detail: 'Doha NDT training for QatarEnergy, RasGas, and Qatargas operations. ASNT and ISO 9712 Level I-III certification.' },
+  { slug: 'kuala-lumpur', city: 'Kuala Lumpur', region: 'Malaysia', detail: 'KL NDT training for Petronas contractors, palm oil refining, and Southeast Asian industrial operators.' },
+  { slug: 'jakarta', city: 'Jakarta', region: 'Indonesia', detail: 'Jakarta NDT training for Pertamina, Indonesian mining, and oil & gas industries. ASNT and ISO 9712 certification.' },
+  { slug: 'lagos', city: 'Lagos', region: 'Nigeria', detail: 'Lagos NDT training for Nigerian oil & gas, offshore, and industrial sectors. ASNT and ISO 9712 certification programs.' },
+  { slug: 'johannesburg', city: 'Johannesburg', region: 'South Africa', detail: 'Johannesburg NDT training for mining, Sasol operations, and South African manufacturing. ASNT and SANAS accredited.' },
+  { slug: 'sao-paulo', city: 'São Paulo', region: 'Brazil', detail: 'São Paulo NDT training for Petrobras, pre-salt deepwater, and Brazilian industrial sectors. ABENDI and ASNT certification.' },
+  { slug: 'mexico-city', city: 'Mexico City', region: 'Mexico', detail: 'Mexico City NDT training for PEMEX, automotive manufacturing, and Mexican industrial sectors. ASNT certification in Spanish and English.' },
+  { slug: 'rotterdam', city: 'Rotterdam', region: 'Netherlands', detail: 'Rotterdam NDT training for Europoort refineries, petrochemical, and offshore wind industries. EN ISO 9712 and ASNT certification.' },
+];
+
+globalTrainingCities.forEach(({ slug, city, region, detail }) => {
+  // Don't duplicate if already exists in trainingCityPages
+  const existingSlugs = ['houston', 'new-york', 'los-angeles', 'chicago', 'denver', 'new-orleans', 'dallas', 'philadelphia', 'pittsburgh', 'atlanta'];
+  if (existingSlugs.includes(slug)) return;
+
+  routes.push({
+    path: `/ndt-training-${slug}`,
+    title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
+    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} 95% pass rate.`,
+    canonical: `${SITE_URL}/ndt-training-${slug}`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": `NDT Certification Training - ${city}`,
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "@id": `${SITE_URL}/#organization` },
+      "courseMode": ["onsite", "blended"],
+      "locationCreated": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": city } },
+      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "onsite", "courseWorkload": "PT40H" }
+    },
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}, ${region}. ${detail} Level I, II, and III certification for all major NDT methods with 95% pass rate.</p>\n  </main>`,
+  });
+  programmaticCount++;
+});
+
 console.log(`📄 Programmatic SEO routes added: ${programmaticCount}`);
 
-// ─── Generate sitemap ─────────────────────────────────────────────────────
+// ─── Inject FAQ schema into high-value pages for People Also Ask boxes ───
 
-function buildSitemap(routeList) {
+const faqSchemas = {
+  '/consulting': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What does an NDT Level III consultant do?", "acceptedAnswer": { "@type": "Answer", "text": "An ASNT NDT Level III consultant develops and approves NDT procedures, qualifies personnel, interprets codes and standards (ASME, API, AWS), performs technical audits, and serves as the technical authority for NDT programs. They can also provide expert witness services." }},
+      { "@type": "Question", "name": "How much does NDT consulting cost?", "acceptedAnswer": { "@type": "Answer", "text": "NDT consulting rates vary by project scope. Level III day rates typically range from $1,200-$2,500/day depending on method, industry (aerospace vs oil & gas), and location. Procedure development packages start from $3,000. Contact Atlantis NDT for a free quote." }},
+      { "@type": "Question", "name": "What industries need NDT consulting?", "acceptedAnswer": { "@type": "Answer", "text": "Oil & gas (refineries, pipelines, offshore), aerospace (aircraft, engines, composites), power generation (turbines, boilers), nuclear, marine, manufacturing, and infrastructure all require NDT consulting for code compliance and asset integrity." }},
+      { "@type": "Question", "name": "What is SNT-TC-1A compliance?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT SNT-TC-1A is the recommended practice for qualifying and certifying NDT personnel. Compliance means your written practice, training hours, examination requirements, and personnel records meet ASNT guidelines — which most industry codes require." }}
+    ]
+  },
+  '/training': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How long does NDT training take?", "acceptedAnswer": { "@type": "Answer", "text": "NDT Level I training typically takes 40 hours (1 week) per method. Level II requires an additional 40-80 hours plus experience. Level III preparation is 80+ hours. Atlantis NDT offers intensive classroom and online formats with 95% pass rate." }},
+      { "@type": "Question", "name": "What NDT certification should I get first?", "acceptedAnswer": { "@type": "Answer", "text": "Most people start with Ultrasonic Testing (UT) Level I/II or Magnetic Particle Testing (MT) Level I/II as these have the highest demand. For oil & gas, UT is recommended. For aerospace, both UT and penetrant testing (PT) are essential." }},
+      { "@type": "Question", "name": "How much do NDT technicians earn?", "acceptedAnswer": { "@type": "Answer", "text": "NDT Level I technicians earn $45,000-$60,000/year, Level II earn $60,000-$85,000/year, and Level III professionals earn $85,000-$150,000+/year. Specialized methods like PAUT and TOFD command premium rates." }},
+      { "@type": "Question", "name": "Is NDT training available online?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Atlantis NDT offers online NDT training for Level I and II theory modules. However, practical hands-on training must be completed in-person at our Houston, Dubai, or Hyderabad training centers." }}
+    ]
+  },
+  '/asnt-certification': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is the difference between ASNT SNT-TC-1A and ACCP?", "acceptedAnswer": { "@type": "Answer", "text": "SNT-TC-1A is employer-based certification — your employer certifies you based on ASNT guidelines. ACCP (ASNT Central Certification Program) is a third-party, portable certification that stays with you regardless of employer. ACCP is increasingly preferred by major operators." }},
+      { "@type": "Question", "name": "How much does ASNT Level III certification cost?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT NDT Level III exam fees are $450-$750 per method. Preparation courses range from $1,500-$3,500. Total investment including study materials is typically $2,500-$5,000 per method." }},
+      { "@type": "Question", "name": "What are ASNT Level III exam requirements?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT Level III requires passing the Basic exam plus one or more Method exams. Prerequisites include documented experience and training hours per SNT-TC-1A or CP-189. The 2024 editions of SNT-TC-1A and CP-189 apply for exams after January 2026." }},
+      { "@type": "Question", "name": "How hard is the ASNT Level III exam?", "acceptedAnswer": { "@type": "Answer", "text": "The ASNT Level III exam is challenging — industry pass rates average 60-70%. The Basic exam covers NDT fundamentals, materials science, and quality concepts. Method exams test deep technical knowledge. Atlantis NDT training achieves a 95% pass rate through expert-led preparation." }}
+    ]
+  },
+  '/api-653-certification': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is API 653 certification?", "acceptedAnswer": { "@type": "Answer", "text": "API 653 certifies inspectors for aboveground storage tank inspection and repair. The open-book exam covers API 653, API 650, API 651, welding codes, and NDE methods. It's required for tank inspection in refineries and tank farms." }},
+      { "@type": "Question", "name": "How many questions are on the API 653 exam?", "acceptedAnswer": { "@type": "Answer", "text": "The API 653 exam has 170 questions in a 7.5-hour open-book format. Questions cover inspection procedures, damage mechanisms, repair methods, alteration requirements, and reconstruction per API 653, API 650, and related codes." }},
+      { "@type": "Question", "name": "What codes do I need for API 653 exam?", "acceptedAnswer": { "@type": "Answer", "text": "API 653 exam requires 10 reference codes: API 653, API 650, API 651, API 570 (select sections), API 571, API 575, API 577, ASME Section V, ASME Section IX, and AWS D1.1. All must be the editions specified in the current API exam bulletin." }}
+    ]
+  },
+  '/digital-twins': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is a digital twin in NDT?", "acceptedAnswer": { "@type": "Answer", "text": "A digital twin in NDT is a virtual 3D replica of a physical asset (pipe, vessel, structure) that integrates real inspection data — thickness readings, defect maps, corrosion rates — for visualization, trending, and predictive maintenance planning." }},
+      { "@type": "Question", "name": "How do digital twins reduce inspection costs?", "acceptedAnswer": { "@type": "Answer", "text": "Digital twins reduce costs by enabling risk-based inspection planning, eliminating redundant inspections, reducing turnaround time by up to 40%, and extending asset life through predictive corrosion monitoring. Typical ROI is realized within 12-18 months." }},
+      { "@type": "Question", "name": "Which industries use NDT digital twins?", "acceptedAnswer": { "@type": "Answer", "text": "Oil & gas (refineries, pipelines, offshore platforms), power generation (boilers, turbines), aerospace (engine components), and marine (hull integrity) are the primary adopters of NDT digital twin technology." }}
+    ]
+  },
+  '/api-510-certification': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How many questions on the API 510 exam?", "acceptedAnswer": { "@type": "Answer", "text": "The API 510 Pressure Vessel Inspector exam has 170 questions in a 7.5-hour open-book format. Questions cover ASME Section VIII Division 1, API 510, API 572, API 576, API 579, and NDE methods." }},
+      { "@type": "Question", "name": "What codes are needed for API 510?", "acceptedAnswer": { "@type": "Answer", "text": "API 510 exam requires: API 510, ASME Section VIII Div 1, ASME Section V (NDE), ASME Section IX (Welding), API 572, API 576, API 577, API 579 (FFS). Editions specified in the current API bulletin." }},
+      { "@type": "Question", "name": "How hard is API 510?", "acceptedAnswer": { "@type": "Answer", "text": "API 510 has approximately a 50-60% industry pass rate. The open-book format helps, but candidates need strong code navigation skills and understanding of pressure vessel inspection principles. Atlantis NDT prep achieves 95% pass rate." }}
+    ]
+  },
+  '/api-570-certification': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is API 570 certification?", "acceptedAnswer": { "@type": "Answer", "text": "API 570 certifies piping inspectors for in-service inspection of metallic and fiberglass piping systems. Required by many refineries and petrochemical plants for piping integrity management." }},
+      { "@type": "Question", "name": "How much does API 570 certification cost?", "acceptedAnswer": { "@type": "Answer", "text": "API 570 exam fee is approximately $495-$595. Training courses range from $2,000-$4,000. Total investment is typically $3,000-$5,000 including study materials and code books." }},
+      { "@type": "Question", "name": "What experience is needed for API 570?", "acceptedAnswer": { "@type": "Answer", "text": "API 570 requires documented piping inspection experience: 5 years with high school diploma, 3 years with engineering degree. Alternative paths available through API's education equivalency." }}
+    ]
+  },
+  '/ndt-methods': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What are the 6 main NDT methods?", "acceptedAnswer": { "@type": "Answer", "text": "The six main NDT methods are: Ultrasonic Testing (UT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Eddy Current Testing (ET), and Visual Testing (VT). Each detects different defect types in different materials." }},
+      { "@type": "Question", "name": "Which NDT method is best?", "acceptedAnswer": { "@type": "Answer", "text": "No single NDT method is 'best' — each has strengths. UT excels at finding internal flaws in thick sections, RT provides permanent film records, MT detects surface cracks in ferromagnetic materials, PT finds surface cracks in any material, ET detects surface defects without contact, and VT is the first line of inspection." }},
+      { "@type": "Question", "name": "What is the most common NDT method?", "acceptedAnswer": { "@type": "Answer", "text": "Ultrasonic testing (UT) is the most widely used NDT method globally, followed by radiographic testing (RT). UT is preferred for its portability, no radiation hazard, and ability to measure thickness and detect both surface and subsurface defects." }}
+    ]
+  },
+  '/weld-inspection': {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What NDT methods are used for weld inspection?", "acceptedAnswer": { "@type": "Answer", "text": "The main NDT methods for weld inspection are: Visual Testing (VT), Ultrasonic Testing (UT/PAUT), Radiographic Testing (RT), Magnetic Particle Testing (MT), and Liquid Penetrant Testing (PT). Most codes require VT plus one volumetric method (UT or RT) plus one surface method (MT or PT)." }},
+      { "@type": "Question", "name": "Is PAUT replacing radiography for weld inspection?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, PAUT is increasingly replacing RT for weld inspection due to faster results, no radiation safety concerns, better sizing accuracy, and electronic records. ASME and AWS now accept PAUT as equivalent to RT for most applications." }}
+    ]
+  },
+};
+
+// Inject FAQ schema into matching routes
+routes.forEach(route => {
+  const faq = faqSchemas[route.path];
+  if (faq) {
+    if (route.structuredData) {
+      // Merge FAQ into existing @graph
+      if (route.structuredData['@graph']) {
+        route.structuredData['@graph'].push(faq);
+      } else {
+        route.structuredData = { "@context": "https://schema.org", "@graph": [route.structuredData, faq] };
+      }
+    } else {
+      route.structuredData = faq;
+    }
+  }
+});
+
+console.log(`❓ FAQ schema injected into ${Object.keys(faqSchemas).length} high-value pages`);
+
+// ─── Generate sitemaps with index ─────────────────────────────────────────
+
+function getLastmodForPath(path, index = 0) {
+  const today = new Date();
+  const baseDate = new Date('2026-03-15');
+
+  // Homepage, consulting, training main pages: today
+  if (path === '/' || path === '/consulting' || path === '/training') {
+    return today.toISOString().split('T')[0];
+  }
+
+  // Core pages and high-value pages: today
+  if (['/digital-twins', '/contact', '/about', '/asnt-certification', '/api-653-certification',
+       '/api-510-certification', '/api-570-certification', '/ndt-connect', '/ndt-erp-solution',
+       '/faq', '/services'].includes(path)) {
+    return today.toISOString().split('T')[0];
+  }
+
+  // Training regional pages: today
+  if (path.startsWith('/training-') || path.startsWith('/ndt-training-')) {
+    return today.toISOString().split('T')[0];
+  }
+
+  // Blog posts: use published/modified date if available, else stagger across last 30 days
+  if (path.startsWith('/blog/')) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - (5 + (index % 25)));
+    return d.toISOString().split('T')[0];
+  }
+
+  // Location pages (consulting-* / ndt-consulting-*): stagger 1-3 days from base date
+  if (path.startsWith('/ndt-consulting-') || (path.startsWith('/consulting/') && !path.endsWith('/consulting/'))) {
+    const d = new Date(baseDate);
+    d.setDate(d.getDate() + (1 + (index % 3)));
+    return d.toISOString().split('T')[0];
+  }
+
+  // Digital twins and ERP pages: 2026-03-10
+  if (path.startsWith('/digital-twin-') || path.startsWith('/ndt-erp-')) {
+    return '2026-03-10';
+  }
+
+  // Method + location pages: stagger across last 30 days
+  if (path.includes('-testing-') || path.includes('-inspection-')) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - (2 + (index % 28)));
+    return d.toISOString().split('T')[0];
+  }
+
+  // Static pages (about, FAQ, contact): 2026-02-15
+  if (['/about', '/faq', '/contact', '/privacy', '/terms'].includes(path)) {
+    return '2026-02-15';
+  }
+
+  // Default: 3 weeks ago
+  const d = new Date(today);
+  d.setDate(d.getDate() - 21);
+  return d.toISOString().split('T')[0];
+}
+
+function categorizeRoute(path) {
+  // Categorize routes for sitemap distribution
+  if (path === '/' || path === '/about' || path === '/faq' || path === '/contact' ||
+      path === '/privacy' || path === '/terms' || path === '/services') {
+    return 'core';
+  }
+  if (path.startsWith('/blog/')) return 'blog';
+  if (path.startsWith('/ndt-consulting-') || (path.startsWith('/consulting/') && path !== '/consulting')) {
+    return 'consulting-locations';
+  }
+  if (path.includes('-testing-') || path.includes('-inspection-')) return 'methods';
+  if (path.startsWith('/digital-twin-')) return 'digital-twins';
+  if (path.startsWith('/training') || path.includes('-training')) return 'training';
+  return 'other';
+}
+
+function buildSitemapIndex(sitemapUrls) {
+  const today = new Date().toISOString().split('T')[0];
+  const sitemaps = sitemapUrls
+    .map(url => `  <sitemap>
+    <loc>${SITE_URL}${url}</loc>
+    <lastmod>${today}</lastmod>
+  </sitemap>`)
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemaps}
+</sitemapindex>`;
+}
+
+function buildSitemapByCategory(routeList, category) {
+  const today = new Date().toISOString().split('T')[0];
+
+  const priorityMap = {
+    '/': '1.0',
+    '/consulting': '0.95',
+    '/training': '0.95',
+    '/digital-twins': '0.90',
+    '/contact': '0.80',
+    '/blog': '0.85',
+  };
+
+  const changefreqMap = (path) => {
+    if (path === '/' || path === '/consulting' || path === '/training') return 'weekly';
+    if (path.startsWith('/blog/')) return 'monthly';
+    if (path.startsWith('/consulting/')) return 'monthly';
+    return 'monthly';
+  };
+
+  const getPriority = (path) => {
+    if (priorityMap[path]) return priorityMap[path];
+    if (path === '/tools') return '0.85';
+    if (path.startsWith('/tools/')) return '0.80';
+    if (path.startsWith('/resources/')) return '0.75';
+    if (path.startsWith('/ndt-consulting-')) return '0.85';
+    if (path.startsWith('/consulting/')) return '0.75';
+    if (path.startsWith('/blog/')) return '0.80';
+    if (path.includes('-training')) return '0.85';
+    if (path.startsWith('/digital-twin-')) return '0.80';
+    if (path.startsWith('/ndt-erp-')) return '0.75';
+    if (path.includes('-testing')) return '0.75';
+    if (path === '/embed/ndt-reference') return '0.30';
+    if (path.includes('guide') || path.includes('statistics') || path.includes('comparison')) return '0.80';
+    if (path.startsWith('/services/')) return '0.70';
+    if (path.startsWith('/industry/')) return '0.70';
+    if (path.startsWith('/inspection/')) return '0.70';
+    if (path.startsWith('/training/') && path.split('/').length > 2) return '0.70';
+    return '0.70';
+  };
+
+  const filtered = routeList
+    .filter(r => !r.path.includes(':') && !r.noindex && categorizeRoute(r.path) === category);
+
+  const urls = filtered
+    .map((r, idx) => `  <url>
+    <loc>${SITE_URL}${r.path}</loc>
+    <lastmod>${getLastmodForPath(r.path, idx)}</lastmod>
+    <changefreq>${changefreqMap(r.path)}</changefreq>
+    <priority>${getPriority(r.path)}</priority>
+  </url>`)
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Generated by prerender.mjs — ${filtered.length} pages — ${today} -->
+${urls}
+</urlset>`;
+}
+
+function buildLegacySitemap(routeList) {
+  // For backward compatibility with previously-submitted GSC sitemaps
   const today = new Date().toISOString().split('T')[0];
 
   const priorityMap = {
@@ -1584,6 +2130,7 @@ function buildSitemap(routeList) {
 
   const changefreqMap = (path) => {
     if (path === '/') return 'weekly';
+    if (path === '/consulting' || path === '/training') return 'weekly';
     if (path.startsWith('/blog/')) return 'monthly';
     if (path.startsWith('/consulting/')) return 'monthly';
     return 'monthly';
@@ -1594,7 +2141,7 @@ function buildSitemap(routeList) {
     if (path === '/tools') return '0.85';
     if (path.startsWith('/tools/')) return '0.80';
     if (path.startsWith('/resources/')) return '0.75';
-    if (path.startsWith('/ndt-consulting-')) return '0.85'; // US state pages
+    if (path.startsWith('/ndt-consulting-')) return '0.85';
     if (path.startsWith('/consulting/')) return '0.75';
     if (path.startsWith('/blog/')) return '0.80';
     if (path.includes('-training')) return '0.85';
@@ -1603,7 +2150,6 @@ function buildSitemap(routeList) {
     if (path.includes('-testing')) return '0.75';
     if (path === '/embed/ndt-reference') return '0.30';
     if (path.includes('guide') || path.includes('statistics') || path.includes('comparison')) return '0.80';
-    // New programmatic SEO pages
     if (path.startsWith('/services/')) return '0.70';
     if (path.startsWith('/industry/')) return '0.70';
     if (path.startsWith('/inspection/')) return '0.70';
@@ -1613,9 +2159,9 @@ function buildSitemap(routeList) {
 
   const urls = routeList
     .filter(r => !r.path.includes(':') && !r.noindex)
-    .map(r => `  <url>
+    .map((r, idx) => `  <url>
     <loc>${SITE_URL}${r.path}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${getLastmodForPath(r.path, idx)}</lastmod>
     <changefreq>${changefreqMap(r.path)}</changefreq>
     <priority>${getPriority(r.path)}</priority>
   </url>`)
@@ -1624,13 +2170,6 @@ function buildSitemap(routeList) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Generated by prerender.mjs — ${routeList.filter(r => !r.path.includes(':')).length} pages — ${today} -->
-  <!-- Homepage -->
-  <url>
-    <loc>${SITE_URL}/</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
 ${urls}
 </urlset>`;
 }
@@ -1655,12 +2194,34 @@ routes.forEach(route => {
   }
 });
 
-// Write updated sitemap
-const sitemapXml = buildSitemap(routes);
-writeFileSync(join(DIST, 'sitemap.xml'), sitemapXml, 'utf-8');
-// Also update public/ so it persists across builds
-writeFileSync(join(ROOT, 'public', 'sitemap.xml'), sitemapXml, 'utf-8');
+// ─── Write all sitemaps ────────────────────────────────────────────────────
+
+const categories = ['core', 'blog', 'consulting-locations', 'methods', 'digital-twins', 'training', 'other'];
+const sitemapUrls = [];
+
+// Generate each category sitemap
+categories.forEach(category => {
+  const categoryRoutes = routes.filter(r => categorizeRoute(r.path) === category);
+  if (categoryRoutes.length > 0) {
+    const filename = `sitemap-${category}.xml`;
+    const xml = buildSitemapByCategory(routes, category);
+    writeFileSync(join(DIST, filename), xml, 'utf-8');
+    writeFileSync(join(ROOT, 'public', filename), xml, 'utf-8');
+    sitemapUrls.push(`/${filename}`);
+  }
+});
+
+// Generate sitemap index
+const indexXml = buildSitemapIndex(sitemapUrls);
+writeFileSync(join(DIST, 'sitemap-index.xml'), indexXml, 'utf-8');
+writeFileSync(join(ROOT, 'public', 'sitemap-index.xml'), indexXml, 'utf-8');
+
+// Also generate legacy sitemap.xml for backward compatibility
+const legacySitemapXml = buildLegacySitemap(routes);
+writeFileSync(join(DIST, 'sitemap.xml'), legacySitemapXml, 'utf-8');
+writeFileSync(join(ROOT, 'public', 'sitemap.xml'), legacySitemapXml, 'utf-8');
 
 console.log(`\n✅ Pre-render complete: ${generated} pages generated, ${skipped} skipped`);
-console.log(`🗺️  Sitemap updated: ${routes.filter(r => !r.path.includes(':') && !r.noindex).length + 1} URLs`);
+console.log(`🗺️  Sitemap index generated: ${sitemapUrls.length} sub-sitemaps`);
+console.log(`🗺️  Total URLs: ${routes.filter(r => !r.path.includes(':') && !r.noindex).length + 1}`);
 console.log(`📁 Output: ${DIST}/[route]/index.html`);

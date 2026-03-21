@@ -197,11 +197,11 @@ export default function RTTrainingPage() {
 
           <h2>Start Your RT Training Today</h2>
           <p>
-            Ready to enter the specialized field of Radiographic Testing? <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive RT training programs</a> from Level I through Level III. Their facilities include both traditional film radiography and state-of-the-art digital radiography systems.
+            Ready to enter the specialized field of Radiographic Testing? <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive RT training programs</a> from Level I through Level III. Their facilities include both traditional film radiography and state-of-the-art digital radiography systems.
           </p>
 
           <p>
-            With ASNT Level III certified instructors and rigorous safety training, <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">RT training programs prepare you for certification exams</a> and successful careers in aerospace, nuclear power, oil & gas, and manufacturing sectors.
+            With ASNT Level III certified instructors and rigorous safety training, <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">RT training programs prepare you for certification exams</a> and successful careers in aerospace, nuclear power, oil & gas, and manufacturing sectors.
           </p>
         </div>
       </section>

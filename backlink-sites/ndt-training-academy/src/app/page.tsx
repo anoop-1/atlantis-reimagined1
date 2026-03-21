@@ -30,7 +30,7 @@ export default function Home() {
           <p className="text-xl mb-8 text-amber-50 max-w-3xl mx-auto">
             Your Complete Guide to Non-Destructive Testing Training, Certifications, and Professional Development. Build a rewarding career in industrial inspection with comprehensive education and internationally recognized credentials.
           </p>
-          <a href="https://atlantisndt.com/training" className="btn-primary text-lg">
+          <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary text-lg">
             Explore Training Programs
           </a>
         </div>
@@ -99,42 +99,42 @@ export default function Home() {
               <p className="text-slate-700 mb-4">
                 Use high-frequency sound waves to detect internal defects in materials. UT training covers conventional contact testing, angle-beam inspections, and advanced phased array techniques. Ideal for thickness measurements, flaw detection, and bond line inspection across all material types.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Radiographic Testing (RT)</h3>
               <p className="text-slate-700 mb-4">
                 Employ X-rays and gamma rays to create internal images of components. RT training includes radiation safety protocols, film interpretation, digital radiography techniques, and exposure control. Essential for weld inspection and casting evaluation.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Magnetic Particle Testing (MT)</h3>
               <p className="text-slate-700 mb-4">
                 Detect surface and near-surface defects using magnetic fields and iron particles. MT is fast, reliable, and widely used in manufacturing and maintenance applications. Training covers wet method, dry method, and continuous magnetization techniques.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Penetrant Testing (PT)</h3>
               <p className="text-slate-700 mb-4">
                 Use liquid penetrants to find surface-breaking defects on non-porous materials. PT training covers fluorescent and non-fluorescent methods essential for aerospace and automotive industries. Covers removal, developer application, and interpretation.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Eddy Current Testing (ET)</h3>
               <p className="text-slate-700 mb-4">
                 Electromagnetic induction techniques for surface and near-surface defect detection. ET training covers probe selection, frequency selection, and phase analysis. Useful for material characterization and hardness verification.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Visual Inspection (VT)</h3>
               <p className="text-slate-700 mb-4">
                 Direct observation and aided visual examination to identify surface anomalies and defects. VT is often the first inspection method and works in combination with advanced NDT techniques. Essential foundational skill for all inspectors.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Learn More →</a>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function Home() {
               <p className="text-sm text-slate-600 mb-4">
                 American Society for Nondestructive Testing. Covers all NDT methods with Level I, II, and III progression.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
             </div>
             <div className="card text-center hover:scale-105 transition-transform">
               <span className="badge-alt">Pressure Equipment</span>
@@ -165,7 +165,7 @@ export default function Home() {
               <p className="text-sm text-slate-600 mb-4">
                 Piping Inspection Code. Essential for oil & gas and petrochemical professionals.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
             </div>
             <div className="card text-center hover:scale-105 transition-transform">
               <span className="badge-alt">Pressure Equipment</span>
@@ -173,7 +173,7 @@ export default function Home() {
               <p className="text-sm text-slate-600 mb-4">
                 Pressure Vessel Inspection. Critical for manufacturing and petrochemical sectors.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
             </div>
             <div className="card text-center hover:scale-105 transition-transform">
               <span className="badge-alt">Pressure Equipment</span>
@@ -181,11 +181,11 @@ export default function Home() {
               <p className="text-sm text-slate-600 mb-4">
                 Tank Inspection Code. For storage tank and vessel professionals.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training Info</a>
             </div>
           </div>
           <div className="text-center">
-            <a href="https://atlantisndt.com/training" className="btn-primary">
+            <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary">
               View Full Training Roadmap
             </a>
           </div>
@@ -208,21 +208,21 @@ export default function Home() {
               <p className="text-slate-700 mb-4">
                 Comprehensive NDT training programs across major US cities with ASNT-certified instructors and state-of-the-art facilities. Programs available in Houston, Dallas, Los Angeles, New York, and other major markets.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Explore →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Explore →</a>
             </div>
             <div className="card">
               <h3 className="text-xl font-bold mb-4 text-slate-900">India</h3>
               <p className="text-slate-700 mb-4">
                 Growing training centers in Hyderabad and other major cities offering internationally recognized NDT certification programs. Cost-effective training with experienced instructors and modern equipment.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Explore →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Explore →</a>
             </div>
             <div className="card">
               <h3 className="text-xl font-bold mb-4 text-slate-900">Middle East</h3>
               <p className="text-slate-700 mb-4">
                 Professional NDT training in Dubai, Saudi Arabia, Qatar, and across the GCC region serving the booming oil & gas sector with state-of-the-art facilities and experienced instructors.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Explore →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Explore →</a>
             </div>
           </div>
         </div>
@@ -261,9 +261,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Your NDT Journey?</h2>
           <p className="text-xl mb-8 text-amber-50">
-            Professional NDT training from <a href="https://atlantisndt.com/training" className="font-semibold underline">Atlantis NDT</a> combines comprehensive classroom instruction with hands-on practical experience. Start building your career in non-destructive testing today with world-class training and certification.
+            Professional NDT training from <a href="https://atlantisndt.com/training" rel="noopener" className="font-semibold underline">Atlantis NDT</a> combines comprehensive classroom instruction with hands-on practical experience. Start building your career in non-destructive testing today with world-class training and certification.
           </p>
-          <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="bg-white text-amber-600 px-8 py-4 rounded-lg font-bold hover:bg-amber-50 transition inline-block">
+          <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="bg-white text-amber-600 px-8 py-4 rounded-lg font-bold hover:bg-amber-50 transition inline-block">
             Enroll in Training Programs
           </a>
         </div>

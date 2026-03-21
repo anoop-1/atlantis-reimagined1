@@ -206,11 +206,11 @@ export default function IndiaTrainingPage() {
           <h2>Getting Started with NDT Training in India</h2>
 
           <p>
-            <a href="https://atlantisndt.com/training-india" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive training programs in India</a>, particularly in Hyderabad. Their facilities combine world-class equipment with experienced instructors and affordable pricing.
+            <a href="https://atlantisndt.com/training-india" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive training programs in India</a>, particularly in Hyderabad. Their facilities combine world-class equipment with experienced instructors and affordable pricing.
           </p>
 
           <p>
-            Whether you're looking to <a href="https://atlantisndt.com/ndt-training-hyderabad" target="_blank" rel="noopener noreferrer" className="text-link">pursue NDT training in Hyderabad</a> or other Indian cities, international certifications are available with study flexible scheduling options and competitive costs. Start your NDT career with training that meets global standards at a fraction of Western prices.
+            Whether you're looking to <a href="https://atlantisndt.com/ndt-training-hyderabad" target="_blank" rel="noopener" className="text-link">pursue NDT training in Hyderabad</a> or other Indian cities, international certifications are available with study flexible scheduling options and competitive costs. Start your NDT career with training that meets global standards at a fraction of Western prices.
           </p>
         </div>
       </section>

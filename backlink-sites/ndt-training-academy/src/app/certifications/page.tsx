@@ -111,7 +111,7 @@ export default function CertificationsPage() {
               <p className="text-slate-700 mb-4">
                 ASNT (American Society for Nondestructive Testing) provides the most recognized and widely-used certification standard in the NDT industry. ASNT certifications are accepted globally and required by most major employers. Certifications validate expertise across all major NDT methods with three distinct levels reflecting increasing proficiency.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">ASNT Training Program →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">ASNT Training Program →</a>
             </div>
             <div className="card">
               <h3 className="text-xl font-bold mb-4 text-slate-900">ASNT Methods Covered</h3>
@@ -141,7 +141,7 @@ export default function CertificationsPage() {
                 For inspection of in-service pressure vessels. Required for professionals working on boilers, tanks, and pressure equipment. Specialization in high-paying sectors.
               </p>
               <p className="text-sm text-slate-600 mb-4"><strong>Experience Required: </strong>5-7 years relevant experience</p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">API 570</h3>
@@ -152,7 +152,7 @@ export default function CertificationsPage() {
                 For in-service piping inspections. Essential for professionals managing pipeline integrity and maintenance across the industry.
               </p>
               <p className="text-sm text-slate-600 mb-4"><strong>Experience Required: </strong>3-5 years relevant experience</p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training →</a>
             </div>
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">API 653</h3>
@@ -163,7 +163,7 @@ export default function CertificationsPage() {
                 For storage tank and vessel inspection. Critical for energy, petrochemical, and water treatment facilities globally.
               </p>
               <p className="text-sm text-slate-600 mb-4"><strong>Experience Required: </strong>3-5 years relevant experience</p>
-              <a href="https://atlantisndt.com/training" className="text-amber-600 font-semibold hover:text-amber-700">Training →</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-amber-600 font-semibold hover:text-amber-700">Training →</a>
             </div>
           </div>
 
@@ -225,10 +225,10 @@ export default function CertificationsPage() {
           <div className="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg border border-amber-200">
             <h3 className="text-2xl font-bold mb-4 text-slate-900">Ready to Get Certified?</h3>
             <p className="text-slate-700 mb-6">
-              <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive ASNT and API certification training</a> for all methods and levels. Their programs prepare you for certification exams with experienced instructors and modern equipment.
+              <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive ASNT and API certification training</a> for all methods and levels. Their programs prepare you for certification exams with experienced instructors and modern equipment.
             </p>
             <p className="text-slate-700">
-              Whether pursuing ASNT certifications in all methods or specialized API credentials like <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">API 570, API 510, or API 653</a>, start your certification journey today with world-class training and expert guidance.
+              Whether pursuing ASNT certifications in all methods or specialized API credentials like <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">API 570, API 510, or API 653</a>, start your certification journey today with world-class training and expert guidance.
             </p>
           </div>
         </div>

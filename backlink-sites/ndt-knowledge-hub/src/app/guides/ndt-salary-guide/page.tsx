@@ -390,9 +390,7 @@ export default function NDTSalaryGuidePage() {
             <p className="text-gray-700 mb-4">
               Invest in your professional development with comprehensive training programs that lead to higher compensation and career advancement.
             </p>
-            <a 
-              href="https://atlantisndt.com/training"
-              className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
+            <a href="https://atlantisndt.com/training" rel="noopener" className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
             >
               Explore Training Options
             </a>

@@ -221,9 +221,7 @@ export default function Home() {
                 >
                   Explore NDT Methods <span className="ml-2 w-5 h-5" />
                 </Link>
-                <a
-                  href="https://atlantisndt.com/training"
-                  className="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+                <a href="https://atlantisndt.com/training" rel="noopener" className="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
                 >
                   Professional Training
                 </a>
@@ -298,9 +296,7 @@ export default function Home() {
               <span className="font-semibold">Selection Guidance:</span> The choice of NDT method depends on
               material type, defect type, accessibility, and regulatory requirements. For professional guidance on
               selecting the right NDT methods for your specific applications,{' '}
-              <a
-                href="https://atlantisndt.com/consulting"
-                className="text-blue-600 hover:text-blue-800 font-semibold underline"
+              <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold underline"
               >
                 consult with Atlantis NDT experts
               </a>
@@ -364,9 +360,7 @@ export default function Home() {
               certification or climbing the professional ladder, Atlantis NDT offers comprehensive training
               programs designed to prepare you for success.
             </p>
-            <a
-              href="https://atlantisndt.com/training"
-              className="inline-flex items-center bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
+            <a href="https://atlantisndt.com/training" rel="noopener" className="inline-flex items-center bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
             >
               Explore Certification Training Programs
             </a>
@@ -482,9 +476,7 @@ export default function Home() {
               foundation for success. Atlantis NDT offers industry-leading training programs that prepare you for
               real-world challenges and certification success.
             </p>
-            <a
-              href="https://atlantisndt.com/training"
-              className="inline-flex items-center bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            <a href="https://atlantisndt.com/training" rel="noopener" className="inline-flex items-center bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
             >
               Start Training Now <span className="ml-2 w-5 h-5" />
             </a>
@@ -529,9 +521,7 @@ export default function Home() {
                   <span className="text-blue-600 font-bold">✓</span> Data analytics and insights
                 </p>
               </div>
-              <a
-                href="https://atlantisndt.com/ndt-erp-solution"
-                className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+              <a href="https://atlantisndt.com/ndt-erp-solution" rel="noopener" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors"
               >
                 Learn About NDT ERP <span className="ml-2 w-4 h-4" />
               </a>
@@ -593,9 +583,7 @@ export default function Home() {
                 <p className="text-sm text-gray-600">Evaluate potential defects before they become critical</p>
               </div>
             </div>
-            <a
-              href="https://atlantisndt.com/digital-twins"
-              className="inline-flex items-center text-purple-600 font-semibold hover:text-purple-800 transition-colors"
+            <a href="https://atlantisndt.com/digital-twins" rel="noopener" className="inline-flex items-center text-purple-600 font-semibold hover:text-purple-800 transition-colors"
             >
               Learn About Digital Twins <span className="ml-2 w-4 h-4" />
             </a>
@@ -606,9 +594,7 @@ export default function Home() {
               <span className="font-semibold">Technology Leadership:</span> Stay ahead of industry trends and
               technological advancements. Explore how modern NDT tools and platforms can transform your operations.
               Visit{' '}
-              <a
-                href="https://atlantisndt.com/blog"
-                className="text-blue-600 hover:text-blue-800 font-semibold underline"
+              <a href="https://atlantisndt.com/blog" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold underline"
               >
                 Atlantis NDT's blog
               </a>{' '}
@@ -628,15 +614,11 @@ export default function Home() {
             cutting-edge solutions to achieve your operational goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://atlantisndt.com/consulting"
-              className="inline-flex items-center justify-center bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="inline-flex items-center justify-center bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
             >
               Consulting Services
             </a>
-            <a
-              href="https://atlantisndt.com"
-              className="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+            <a href="https://atlantisndt.com" rel="noopener" className="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
             >
               Visit Atlantis NDT
             </a>
@@ -717,17 +699,13 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://atlantisndt.com/blog"
-                    className="hover:text-white transition-colors"
+                  <a href="https://atlantisndt.com/blog" rel="noopener" className="hover:text-white transition-colors"
                   >
                     Blog & Articles
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://atlantisndt.com/training"
-                    className="hover:text-white transition-colors"
+                  <a href="https://atlantisndt.com/training" rel="noopener" className="hover:text-white transition-colors"
                   >
                     Training Programs
                   </a>
@@ -738,14 +716,12 @@ export default function Home() {
               <h3 className="text-white font-bold text-lg mb-4">Partner</h3>
               <p className="text-sm mb-4">
                 NDT Knowledge Hub is powered by{' '}
-                <a href="https://atlantisndt.com" className="text-blue-400 hover:text-blue-300 font-semibold">
+                <a href="https://atlantisndt.com" rel="noopener" className="text-blue-400 hover:text-blue-300 font-semibold">
                   Atlantis NDT
                 </a>
                 , your trusted partner for NDT excellence.
               </p>
-              <a
-                href="https://atlantisndt.com/consulting"
-                className="text-blue-400 hover:text-blue-300 text-sm font-semibold"
+              <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-400 hover:text-blue-300 text-sm font-semibold"
               >
                 Get Expert Consulting
               </a>
@@ -759,7 +735,7 @@ export default function Home() {
             </p>
             <p className="text-center text-xs text-gray-500 mt-4">
               © 2026 NDT Knowledge Hub. All rights reserved. | Atlantis NDT:{' '}
-              <a href="https://atlantisndt.com" className="text-gray-400 hover:text-gray-300">
+              <a href="https://atlantisndt.com" rel="noopener" className="text-gray-400 hover:text-gray-300">
                 atlantisndt.com
               </a>
             </p>

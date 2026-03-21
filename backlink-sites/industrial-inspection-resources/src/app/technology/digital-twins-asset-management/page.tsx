@@ -309,7 +309,7 @@ export default function DigitalTwinsPage() {
           <p className="text-lg text-gray-700 mb-8">
             Atlantis NDT helps organizations develop and implement digital twin strategies for asset integrity and predictive maintenance.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Schedule Consultation
           </a>
         </div>

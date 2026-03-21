@@ -20,7 +20,7 @@ export default function Home() {
           Weld defects originate from process variations—inadequate heat input, excessive cooling rates, contamination, or welder technique deficiencies. Common defects include porosity (gas pockets reducing strength), cracks (stress concentration points enabling failure), inclusions (entrapped non-metallic material weakening welds), and lack of fusion (incomplete bonding between weld and base metal). Each defect type affects weld integrity differently; understanding defect implications guides inspection and acceptance decisions.
         </p>
         <p className="mb-4">
-          Defect detection requires appropriate methods. Radiography detects internal porosity and inclusions. Ultrasonic testing identifies cracks and lack of fusion. Magnetic particle testing reveals surface-breaking flaws. Visual inspection catches obvious defects and inconsistent bead geometry. Comprehensive inspection employs multiple complementary methods, maximizing defect detection. Professional <a href="https://atlantisndt.com/training" rel="noopener" className="text-orange-600 hover:underline">NDT training programs</a> develop expertise in weld-specific inspection methods.
+          Defect detection requires appropriate methods. Radiography detects internal porosity and inclusions. Ultrasonic testing identifies cracks and lack of fusion. Magnetic particle testing reveals surface-breaking flaws. Visual inspection catches obvious defects and inconsistent bead geometry. Comprehensive inspection employs multiple complementary methods, maximizing defect detection. Professional <a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">NDT training programs</a> develop expertise in weld-specific inspection methods.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Visual Inspection Fundamentals</h2>
@@ -28,7 +28,7 @@ export default function Home() {
           Visual weld inspection represents the first quality gate. Trained inspectors examine weld appearance, checking for undercut, overlap, spatter, cracks, and dimension conformance. Visual inspection guides decisions about which welds require further NDT. Obvious defects detected visually require rejection or repair. Welds passing visual inspection proceed to NDT. Though simple, visual inspection requires developed skills and systematic approach.
         </p>
         <p className="mb-4">
-          Standard-based visual procedures ensure consistency. ASTM D7091 provides visual assessment guidance. AWS D1.1 incorporates visual acceptance criteria in welding specifications. Systematic visual inspection prevents obvious defects from proceeding to fabrication completion, reducing rework costs. Organizations implementing <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-orange-600 hover:underline">structured visual inspection programs</a> achieve high first-pass quality rates.
+          Standard-based visual procedures ensure consistency. ASTM D7091 provides visual assessment guidance. AWS D1.1 incorporates visual acceptance criteria in welding specifications. Systematic visual inspection prevents obvious defects from proceeding to fabrication completion, reducing rework costs. Organizations implementing <a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">structured visual inspection programs</a> achieve high first-pass quality rates.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Radiographic Inspection</h2>
@@ -44,7 +44,7 @@ export default function Home() {
           Ultrasonic weld testing employs sound waves to detect internal flaws. Transducers introduce ultrasonic energy into welds; internal reflections reveal defects. A-scan displays show raw waveforms; experienced interpreters identify defect echoes. B-scan presents cross-sectional images; C-scan maps defects spatially. Phased array ultrasonic testing enables electronic beam steering, improving coverage and sensitivity.
         </p>
         <p className="mb-4">
-          Ultrasonic testing detects both volumetric defects and cracks. Modern phased array systems provide excellent resolution and detection sensitivity. Portable equipment enables field inspection of in-service equipment. Systematic ultrasonic inspection programs through <a href="https://atlantisndt.com/training" rel="noopener" className="text-orange-600 hover:underline">professional training</a> develop reliable interpretation skills.
+          Ultrasonic testing detects both volumetric defects and cracks. Modern phased array systems provide excellent resolution and detection sensitivity. Portable equipment enables field inspection of in-service equipment. Systematic ultrasonic inspection programs through <a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">professional training</a> develop reliable interpretation skills.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Acceptance Criteria and Disposition</h2>
@@ -52,7 +52,7 @@ export default function Home() {
           Acceptance criteria define which defects are tolerable and which require rejection or repair. Standards establish acceptance limits based on defect type, size, and location. A small porosity in non-critical location might be acceptable; the same defect at a stress concentration could be unacceptable. Documented procedures ensure consistent decision-making and prevent subjective disputes.
         </p>
         <p className="mb-4">
-          Defects exceeding acceptance limits require action—repair through re-welding, removal through cutting and replacement, or in some cases weld modification. Repair welds require re-inspection to same standards as original welds. Organizations implementing systematic acceptance programs through <a href="https://atlantisndt.com/erp" rel="noopener" className="text-orange-600 hover:underline">NDT ERP software</a> manage large weld programs efficiently, ensuring consistent quality across all welds.
+          Defects exceeding acceptance limits require action—repair through re-welding, removal through cutting and replacement, or in some cases weld modification. Repair welds require re-inspection to same standards as original welds. Organizations implementing systematic acceptance programs through <a href="https://atlantisndt.com" rel="noopener" className="text-orange-600 hover:underline">NDT ERP software</a> manage large weld programs efficiently, ensuring consistent quality across all welds.
         </p>
       </section>
     </div>

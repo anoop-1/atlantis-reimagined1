@@ -264,9 +264,7 @@ export default function NDTERPSystemsPage() {
             <p className="text-gray-700 mb-4">
               Discover how a purpose-built ERP solution can transform your NDT service operations.
             </p>
-            <a 
-              href="https://atlantisndt.com/ndt-erp-solution"
-              className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
+            <a href="https://atlantisndt.com/ndt-erp-solution" rel="noopener" className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
             >
               Explore Our NDT ERP Solution
             </a>

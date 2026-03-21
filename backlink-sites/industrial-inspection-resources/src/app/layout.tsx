@@ -38,7 +38,14 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+              <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1EF92RXSVR');
+      `}} />
+          <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
@@ -92,10 +99,10 @@ export default function RootLayout({
               <div>
                 <h3 className="text-lg font-bold mb-4">Partner Services</h3>
                 <ul className="space-y-2 text-teal-100">
-                  <li><a href="https://atlantisndt.com" className="hover:text-white">Atlantis NDT</a></li>
-                  <li><a href="https://atlantisndt.com/consulting" className="hover:text-white">NDT Consulting</a></li>
-                  <li><a href="https://atlantisndt.com/training" className="hover:text-white">Training Programs</a></li>
-                  <li><a href="https://atlantisndt.com/ndt-erp-solution" className="hover:text-white">ERP Solutions</a></li>
+                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-white">Atlantis NDT</a></li>
+                  <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="hover:text-white">NDT Consulting</a></li>
+                  <li><a href="https://atlantisndt.com/training" rel="noopener" className="hover:text-white">Training Programs</a></li>
+                  <li><a href="https://atlantisndt.com/ndt-erp-solution" rel="noopener" className="hover:text-white">ERP Solutions</a></li>
                 </ul>
               </div>
               <div>
@@ -110,7 +117,7 @@ export default function RootLayout({
             <div className="border-t border-teal-800 pt-8">
               <p className="text-teal-100 text-center">
                 &copy; 2026 Industrial Inspection Resources. All rights reserved. | 
-                <a href="https://atlantisndt.com" className="text-white hover:underline ml-2">Learn more at Atlantis NDT</a>
+                <a href="https://atlantisndt.com" rel="noopener" className="text-white hover:underline ml-2">Learn more at Atlantis NDT</a>
               </p>
             </div>
           </div>

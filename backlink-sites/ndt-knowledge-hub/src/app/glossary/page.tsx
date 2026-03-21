@@ -113,11 +113,11 @@ export default function GlossaryPage() {
           {/* Introduction */}
           <div className="prose prose-custom max-w-none mb-8">
             <p>
-              Nondestructive testing employs specialized terminology that can be challenging for those new to the field. This comprehensive glossary defines over 100 essential NDT terms, from foundational concepts to method-specific vocabulary. Whether you're preparing for <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">ASNT certification</a>, learning NDT technology, or simply need quick reference to technical terminology, this glossary provides clear definitions of key concepts.
+              Nondestructive testing employs specialized terminology that can be challenging for those new to the field. This comprehensive glossary defines over 100 essential NDT terms, from foundational concepts to method-specific vocabulary. Whether you're preparing for <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">ASNT certification</a>, learning NDT technology, or simply need quick reference to technical terminology, this glossary provides clear definitions of key concepts.
             </p>
 
             <p>
-              The terms are arranged alphabetically and cover all major NDT methods including ultrasonic testing, radiography, magnetic particle testing, liquid penetrant testing, and eddy current testing. Additional terms address API standards, ASME codes, and industry-specific applications. Understanding this terminology is essential for NDT professionals seeking certification, for engineers specifying NDT inspections, and for anyone involved in asset integrity management. Use this glossary alongside formal <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">training programs</a> and standards study to build comprehensive knowledge of NDT concepts and terminology.
+              The terms are arranged alphabetically and cover all major NDT methods including ultrasonic testing, radiography, magnetic particle testing, liquid penetrant testing, and eddy current testing. Additional terms address API standards, ASME codes, and industry-specific applications. Understanding this terminology is essential for NDT professionals seeking certification, for engineers specifying NDT inspections, and for anyone involved in asset integrity management. Use this glossary alongside formal <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">training programs</a> and standards study to build comprehensive knowledge of NDT concepts and terminology.
             </p>
           </div>
 
@@ -143,7 +143,7 @@ export default function GlossaryPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Expand Your NDT Knowledge</h2>
             
             <p className="text-gray-700 mb-6">
-              This glossary provides quick reference to essential NDT terminology. For deeper understanding of specific methods and applications, explore our comprehensive resource guides and <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>.
+              This glossary provides quick reference to essential NDT terminology. For deeper understanding of specific methods and applications, explore our comprehensive resource guides and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>.
             </p>
 
             <div className="space-y-3">
@@ -151,7 +151,7 @@ export default function GlossaryPage() {
                 <strong className="text-gray-900">Industry Standards References:</strong> Terms in this glossary are drawn from ASNT standards, ASTM International standards, and API Recommended Practices that govern NDT practice.
               </p>
               <p>
-                <strong className="text-gray-900">Certification Preparation:</strong> Understanding these terms is essential for ASNT certification exam success. Review this glossary while studying standards and attending <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">certification preparation courses</a>.
+                <strong className="text-gray-900">Certification Preparation:</strong> Understanding these terms is essential for ASNT certification exam success. Review this glossary while studying standards and attending <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">certification preparation courses</a>.
               </p>
               <p>
                 <strong className="text-gray-900">Method-Specific Learning:</strong> Each NDT method (ultrasonic, radiography, penetrant, magnetic particle, eddy current) has specialized terminology. This glossary covers cross-method terms relevant to all methods.
@@ -177,9 +177,9 @@ export default function GlossaryPage() {
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">Professional Services</h4>
                 <p className="text-gray-700 text-sm mb-3">
-                  Need expert NDT services or training? <a href="https://atlantisndt.com/consulting" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT provides professional services</a> including consultation, training, and certification.
+                  Need expert NDT services or training? <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT provides professional services</a> including consultation, training, and certification.
                 </p>
-                <a href="https://atlantisndt.com/consulting" className="text-blue-600 hover:text-blue-800 font-semibold text-sm">
+                <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold text-sm">
                   Learn About Services →
                 </a>
               </div>
@@ -189,7 +189,7 @@ export default function GlossaryPage() {
           {/* Footer Note */}
           <div className="mt-12 text-center text-gray-600 text-sm">
             <p>
-              This glossary is designed as a quick reference guide. For comprehensive training on NDT concepts and methods, <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">formal training programs</a> from Atlantis NDT provide in-depth education and preparation for professional certification.
+              This glossary is designed as a quick reference guide. For comprehensive training on NDT concepts and methods, <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">formal training programs</a> from Atlantis NDT provide in-depth education and preparation for professional certification.
             </p>
           </div>
         </article>

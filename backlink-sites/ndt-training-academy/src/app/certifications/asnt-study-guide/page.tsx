@@ -215,7 +215,7 @@ export default function ASNTStudyGuidePage() {
 
           <h2>Get Professional Exam Prep Training</h2>
           <p>
-            While self-study is valuable, professional exam preparation significantly increases your success rate. <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers dedicated ASNT exam preparation courses</a> that include:
+            While self-study is valuable, professional exam preparation significantly increases your success rate. <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers dedicated ASNT exam preparation courses</a> that include:
           </p>
           <ul>
             <li>Structured curriculum covering all exam topics</li>
@@ -227,7 +227,7 @@ export default function ASNTStudyGuidePage() {
           </ul>
 
           <p>
-            Whether pursuing your first certification or advancing to Level III, <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener noreferrer" className="text-link">professional ASNT preparation training</a> accelerates your path to certification and career success.
+            Whether pursuing your first certification or advancing to Level III, <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener" className="text-link">professional ASNT preparation training</a> accelerates your path to certification and career success.
           </p>
         </div>
       </section>

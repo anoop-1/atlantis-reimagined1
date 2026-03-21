@@ -85,7 +85,7 @@ export default function NDTCareerPathPage() {
             </p>
 
             <p>
-              <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-800 font-semibold">Comprehensive training programs</a> provide the classroom education required. Some NDT companies operate their own training programs, while others partner with independent training providers or online education platforms. The training should be ASNT-approved (American Society for Nondestructive Testing), the industry's primary certification body. Upon completing classroom training and accumulating on-the-job hours, you're eligible to sit for ASNT Level I certification exams.
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Comprehensive training programs</a> provide the classroom education required. Some NDT companies operate their own training programs, while others partner with independent training providers or online education platforms. The training should be ASNT-approved (American Society for Nondestructive Testing), the industry's primary certification body. Upon completing classroom training and accumulating on-the-job hours, you're eligible to sit for ASNT Level I certification exams.
             </p>
 
             <h3>Methods Specialization</h3>
@@ -179,7 +179,7 @@ export default function NDTCareerPathPage() {
 
             <h3>Level II Compensation</h3>
             <p>
-              <a href="https://atlantisndt.com/ndt-technician-salary" className="text-blue-600 hover:text-blue-800 font-semibold">Level II technician compensation</a> typically ranges from $50,000 to $75,000 annually, with significant variation by region, employer, and industry. Oil and gas industry positions and direct employment with large companies tend to be on the higher end. This represents approximately a 40-50% increase over Level I compensation, reflecting greater responsibility and technical expertise.
+              <a href="https://atlantisndt.com/ndt-technician-salary" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Level II technician compensation</a> typically ranges from $50,000 to $75,000 annually, with significant variation by region, employer, and industry. Oil and gas industry positions and direct employment with large companies tend to be on the higher end. This represents approximately a 40-50% increase over Level I compensation, reflecting greater responsibility and technical expertise.
             </p>
 
             <h2>Expert Level: Reaching Level III Certification</h2>
@@ -324,9 +324,7 @@ export default function NDTCareerPathPage() {
             <p className="text-gray-700 mb-4">
               Ready to begin your NDT career journey? Explore comprehensive training programs to start your path to certification.
             </p>
-            <a 
-              href="https://atlantisndt.com/training"
-              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+            <a href="https://atlantisndt.com/training" rel="noopener" className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
             >
               View Training Programs
             </a>

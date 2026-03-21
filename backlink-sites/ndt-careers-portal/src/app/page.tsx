@@ -168,7 +168,7 @@ export default function HomePage() {
       <div className="cta-section">
         <h3 className="mt-0 text-white">Ready to explore your NDT career options?</h3>
         <p>
-          Browse our comprehensive guides on career paths, certification requirements, salary expectations, and global job opportunities. Connect with industry partners at <a href="https://atlantisndt.com/consulting" className="text-sky-100 hover:text-white underline">Atlantis NDT Consulting</a> for professional guidance and training opportunities.
+          Browse our comprehensive guides on career paths, certification requirements, salary expectations, and global job opportunities. Connect with industry partners at <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-sky-100 hover:text-white underline">Atlantis NDT Consulting</a> for professional guidance and training opportunities.
         </p>
         <a href="/careers" className="cta-button">Explore Career Paths</a>
         <a href="/salary" className="cta-button ml-4">View Salary Data</a>

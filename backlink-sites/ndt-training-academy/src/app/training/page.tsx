@@ -151,7 +151,7 @@ export default function TrainingPage() {
 
           <h2>Next Steps</h2>
           <p>
-            Ready to start your NDT training? Our partner <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive training programs</a> across multiple locations with experienced instructors and state-of-the-art facilities. Whether you're pursuing <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener noreferrer" className="text-link">ASNT certification</a> or API pressure equipment codes, they provide the training you need to succeed.
+            Ready to start your NDT training? Our partner <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive training programs</a> across multiple locations with experienced instructors and state-of-the-art facilities. Whether you're pursuing <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener" className="text-link">ASNT certification</a> or API pressure equipment codes, they provide the training you need to succeed.
           </p>
         </div>
       </section>
