@@ -7,7 +7,8 @@
         { "key": "X-Frame-Options", "value": "DENY" },
         { "key": "X-XSS-Protection", "value": "1; mode=block" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
       ]
     },
     {
@@ -17,25 +18,25 @@
       ]
     },
     {
-      "source": "/(.*)\\.js",
+      "source": "/(.+\\.js)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.css",
+      "source": "/(.+\\.css)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.(?:png|jpg|jpeg|gif|svg|webp|ico)",
+      "source": "/(.+\\.(?:png|jpg|jpeg|gif|svg|webp|ico))",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
       ]
     },
     {
-      "source": "/(.*)\\.(?:woff|woff2|ttf|otf|eot)",
+      "source": "/(.+\\.(?:woff|woff2|ttf|otf|eot))",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
@@ -126,11 +127,6 @@
     },
     {
       "source": "/ndt-consulting/:path*",
-      "destination": "/consulting",
-      "statusCode": 301
-    },
-    {
-      "source": "/services/:path*",
       "destination": "/consulting",
       "statusCode": 301
     },
@@ -232,6 +228,41 @@
     {
       "source": "/xmlrpc.php",
       "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/digital-twins-ndt-guide",
+      "destination": "/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity",
+      "destination": "/blog/digital-twins-oil-gas",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-career-top-choice-2025-global-market-trends",
+      "destination": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-career-guide",
+      "destination": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/digital-twins-oil-gas",
+      "destination": "/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-twins-ndt-guide",
+      "destination": "/digital-twins",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-career-top-choice-2025",
+      "destination": "/blog/ndt-salary-guide-2026-global",
       "statusCode": 301
     }
   ],

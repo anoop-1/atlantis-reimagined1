@@ -20,7 +20,7 @@ export default function Home() {
           Train wheels endure cyclic stresses producing fatigue cracks, flat spots, and manufacturing defects. A single defective wheel can derail entire trains. Automated ultrasonic inspection systems mounted trackside scan wheels as trains pass, detecting internal flaws within milliseconds. Acoustic resonance testing identifies cracks by analyzing vibration patterns—cracked wheels produce distinctive signatures. These technologies enable comprehensive wheel inspection without removing wheels from service.
         </p>
         <p className="mb-4">
-          Wheel defect classification systems differentiate minor issues requiring monitoring from critical problems demanding immediate replacement. Shelling—surficial material separation—might be monitored; deep cracks require urgent removal. Spalling and flat spots indicate wear requiring grinding or replacement. Professional <a href="https://atlantisndt.com/training" rel="noopener" className="text-gray-700 hover:underline">NDT training programs</a> prepare inspectors to interpret wheel condition and make safe disposition decisions.
+          Wheel defect classification systems differentiate minor issues requiring monitoring from critical problems demanding immediate replacement. Shelling—surficial material separation—might be monitored; deep cracks require urgent removal. Spalling and flat spots indicate wear requiring grinding or replacement. Professional <a href="https://atlantisndt.com" rel="noopener" className="text-gray-700 hover:underline">NDT training programs</a> prepare inspectors to interpret wheel condition and make safe disposition decisions.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Rail Head and Track Inspection</h2>
@@ -36,7 +36,7 @@ export default function Home() {
           Rolling element bearings supporting wheel assemblies require rigorous inspection. Magnetic particle testing reveals internal cracks and inclusions in bearing races and rolling elements. Ultrasonic inspection detects subsurface fatigue. Vibration analysis identifies developing bearing degradation through acoustic signatures. Thermal imaging identifies bearing failures through elevated temperatures preceding mechanical failure.
         </p>
         <p className="mb-4">
-          Systematic bearing inspection prevents catastrophic failures that could damage track infrastructure or derail trains. Modern inspection systems combine multiple methods, assessing bearing condition comprehensively. Organizations deploying <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-gray-700 hover:underline">NDT consulting services</a> establish effective bearing management programs ensuring fleet reliability.
+          Systematic bearing inspection prevents catastrophic failures that could damage track infrastructure or derail trains. Modern inspection systems combine multiple methods, assessing bearing condition comprehensively. Organizations deploying <a href="https://atlantisndt.com" rel="noopener" className="text-gray-700 hover:underline">NDT consulting services</a> establish effective bearing management programs ensuring fleet reliability.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Automation and Continuous Monitoring</h2>
@@ -44,7 +44,7 @@ export default function Home() {
           Modern railways deploy automated inspection systems providing continuous monitoring without removing rolling stock from service. Stationary ultrasonic wheels scanners, mounted trackside, inspect every wheel passing through their zone. Continuous rail monitoring systems travel rail networks continuously, scanning for developing defects. These systems integrate with digital infrastructure, automatically alerting maintenance personnel when defects exceed tolerance limits.
         </p>
         <p className="mb-4">
-          The result is unprecedented safety and reliability. Rather than periodic inspections finding problems after damage is extensive, continuous monitoring catches issues in early stages when maintenance costs little. This proactive approach, enabled by technology implemented through <a href="https://atlantisndt.com/erp" rel="noopener" className="text-gray-700 hover:underline">NDT ERP software</a> systems, transforms railway maintenance from reactive to predictive.
+          The result is unprecedented safety and reliability. Rather than periodic inspections finding problems after damage is extensive, continuous monitoring catches issues in early stages when maintenance costs little. This proactive approach, enabled by technology implemented through <a href="https://atlantisndt.com" rel="noopener" className="text-gray-700 hover:underline">NDT ERP software</a> systems, transforms railway maintenance from reactive to predictive.
         </p>
       </section>
     </div>

@@ -247,7 +247,7 @@ export default function Home() {
           </div>
 
           <p className="text-gray-700">
-            For comprehensive guidance on implementing RBI programs, consult with <a href="https://atlantisndt.com/consulting" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting professionals</a> who have helped hundreds of organizations optimize their inspection strategies.
+            For comprehensive guidance on implementing RBI programs, consult with <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting professionals</a> who have helped hundreds of organizations optimize their inspection strategies.
           </p>
         </div>
       </section>
@@ -257,7 +257,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Trusted by Industry Leaders</h2>
           <p className="text-lg text-gray-700 mb-8">
-            This resource hub is powered by expertise from <a href="https://atlantisndt.com" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT</a>, 
+            This resource hub is powered by expertise from <a href="https://atlantisndt.com" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT</a>, 
             a leader in non-destructive testing consulting, training, and digital solutions for industrial inspection across all major industries.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -275,10 +275,10 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://atlantisndt.com/consulting" className="btn-primary">
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
               Schedule Consultation
             </a>
-            <a href="https://atlantisndt.com/training" className="btn-secondary">
+            <a href="https://atlantisndt.com/training" rel="noopener" className="btn-secondary">
               View Training Programs
             </a>
           </div>

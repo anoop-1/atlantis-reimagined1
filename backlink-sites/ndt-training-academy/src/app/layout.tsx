@@ -25,7 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      {/* Google Analytics */}
+        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#f59e0b" />
+      </head>
+      <body>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
       <script dangerouslySetInnerHTML={{__html: `
         window.dataLayer = window.dataLayer || [];
@@ -33,12 +38,7 @@ export default function RootLayout({
         gtag('js', new Date());
         gtag('config', 'G-1EF92RXSVR');
       `}} />
-        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#f59e0b" />
-      </head>
-      <body>
+
         <Navigation />
         <main className="min-h-screen">
           {children}
@@ -102,10 +102,10 @@ function Footer() {
           <div>
             <h4 className="font-bold text-lg text-amber-400 mb-4">Training Partners</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">Atlantis NDT Training</a></li>
-              <li><a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">ASNT Certification</a></li>
-              <li><a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">API Certification</a></li>
-              <li><a href="https://atlantisndt.com/blog/ndt-career-guide" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition">Career Guide</a></li>
+              <li><a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="hover:text-amber-400 transition">Atlantis NDT Training</a></li>
+              <li><a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener" className="hover:text-amber-400 transition">ASNT Certification</a></li>
+              <li><a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="hover:text-amber-400 transition">API Certification</a></li>
+              <li><a href="https://atlantisndt.com/blog/ndt-career-guide" target="_blank" rel="noopener" className="hover:text-amber-400 transition">Career Guide</a></li>
             </ul>
           </div>
           

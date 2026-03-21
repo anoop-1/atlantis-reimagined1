@@ -264,10 +264,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Inspection Program?</h2>
           <p className="text-lg text-teal-50 mb-8">
-            <a href="https://atlantisndt.com/consulting" className="text-white font-semibold hover:text-teal-100">Atlantis NDT helps organizations</a> develop and implement inspection programs 
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">Atlantis NDT helps organizations</a> develop and implement inspection programs 
             delivering measurable improvements in safety, efficiency, and cost. Our consultants have experience with the types of programs and challenges featured in these case studies.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
             Schedule Consultation
           </a>
         </div>
@@ -293,7 +293,7 @@ export default function CaseStudiesPage() {
               <h3 className="font-bold text-teal-700 group-hover:text-teal-900">Technology</h3>
               <p className="text-sm text-gray-600">Digital transformation tools</p>
             </a>
-            <a href="https://atlantisndt.com/consulting" className="card group">
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="card group">
               <div className="text-3xl mb-3">👥</div>
               <h3 className="font-bold text-teal-700 group-hover:text-teal-900">Consulting</h3>
               <p className="text-sm text-gray-600">Expert advisory services</p>

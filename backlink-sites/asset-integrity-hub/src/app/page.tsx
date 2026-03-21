@@ -103,7 +103,7 @@ export default function Home() {
           Start by understanding your current technology landscape. Are you still relying on spreadsheets? Do you have fragmented systems that don't communicate? What are your biggest pain points-inefficient workflows, inconsistent reporting, difficulty tracking compliance, or inability to provide clients with real-time data?
         </p>
         <p className="text-gray-700 mb-8">
-          Read our guide on <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">why NDT companies need specialized ERP solutions</a> to understand how enterprise systems address these challenges and deliver measurable ROI.
+          Read our guide on <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">why NDT companies need specialized ERP solutions</a> to understand how enterprise systems address these challenges and deliver measurable ROI.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mb-4">Phase 2: Technology Implementation</h3>
@@ -111,15 +111,15 @@ export default function Home() {
           Based on your assessment, you'll typically implement solutions in this order:
         </p>
         <ul className="list-disc pl-6 space-y-3 text-gray-700 mb-8">
-          <li>Start with a <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">robust ERP system</a> to consolidate operations and establish data governance</li>
-          <li>Implement <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">intelligent reporting software</a> to automate report generation and improve consistency</li>
-          <li>Deploy <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">NDTConnect platform</a> to improve talent management and service delivery</li>
-          <li>Develop <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">digital twins</a> to enable predictive maintenance and asset optimization</li>
+          <li>Start with a <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">robust ERP system</a> to consolidate operations and establish data governance</li>
+          <li>Implement <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">intelligent reporting software</a> to automate report generation and improve consistency</li>
+          <li>Deploy <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">NDTConnect platform</a> to improve talent management and service delivery</li>
+          <li>Develop <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">digital twins</a> to enable predictive maintenance and asset optimization</li>
         </ul>
 
         <h3 className="text-2xl font-bold text-gray-900 mb-4">Phase 3: Optimization and Analytics</h3>
         <p className="text-gray-700">
-          Once your foundational systems are in place, you can build advanced capabilities including predictive analytics, real-time monitoring dashboards, and integration with IoT sensors. Learn more about <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">digital twin reporting capabilities</a> in the context of a complete technology strategy.
+          Once your foundational systems are in place, you can build advanced capabilities including predictive analytics, real-time monitoring dashboards, and integration with IoT sensors. Learn more about <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">digital twin reporting capabilities</a> in the context of a complete technology strategy.
         </p>
       </div>
 
@@ -128,7 +128,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-white text-3xl font-bold mb-6">Ready to Transform Your Asset Integrity Operations?</h2>
           <p className="text-lg mb-8 text-primary-100">
-            Explore our comprehensive guides, case studies, and resources to understand how digital technology can improve your inspection business. <a href="https://atlantisndt.com/consulting" className="text-white font-semibold underline hover:opacity-90">Atlantis NDT consulting</a> helps organizations implement digital transformation strategies.
+            Explore our comprehensive guides, case studies, and resources to understand how digital technology can improve your inspection business. <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold underline hover:opacity-90">Atlantis NDT consulting</a> helps organizations implement digital transformation strategies.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="/digital-twins" className="bg-white text-primary-600 hover:bg-primary-50 px-6 py-3 rounded-lg font-semibold transition-colors inline-block no-underline">
@@ -137,7 +137,7 @@ export default function Home() {
             <a href="/erp-solutions" className="border-2 border-white text-white hover:bg-primary-700 px-6 py-3 rounded-lg font-semibold transition-colors inline-block no-underline">
               ERP Implementation
             </a>
-            <a href="https://atlantisndt.com/consulting" className="border-2 border-white text-white hover:bg-primary-700 px-6 py-3 rounded-lg font-semibold transition-colors inline-block no-underline">
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="border-2 border-white text-white hover:bg-primary-700 px-6 py-3 rounded-lg font-semibold transition-colors inline-block no-underline">
               Get Expert Guidance
             </a>
           </div>

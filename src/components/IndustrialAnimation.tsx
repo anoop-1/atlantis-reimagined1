@@ -30,20 +30,30 @@ export default function IndustrialAnimation() {
          onMouseLeave={handleMouseLeave}
          className="relative w-1/2 h-[600px] overflow-hidden perspective-1000 rounded-2xl shadow-xl bg-black/5 m-10"
       >
-         {/* Background Layer */}
-         <motion.img
-            src="/background.png"
-            alt="Industrial Background"
-            className="absolute inset-0 w-full h-full object-cover"
-            style={{ rotateX, rotateY, scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 50, damping: 15 }}
-         />
+         {/* Background Layer — WebP with PNG fallback */}
+         <picture>
+            <source srcSet="/background-mobile.webp" type="image/webp" media="(max-width: 768px)" />
+            <source srcSet="/background.webp" type="image/webp" />
+            <motion.img
+               src="/background.png"
+               alt="Industrial plant background with smoke towers and processing units"
+               className="absolute inset-0 w-full h-full object-cover"
+               style={{ rotateX, rotateY, scale: 1.05 }}
+               transition={{ type: "spring", stiffness: 50, damping: 15 }}
+               loading="lazy"
+               width={1920}
+               height={1280}
+            />
+         </picture>
 
-         {/* Factory Layer */}
-         <motion.img
-            src="/factory.png"
-            alt="Factory"
-            className="absolute inset-0 w-full h-full object-cover"
+         {/* Factory Layer — WebP with PNG fallback */}
+         <picture>
+            <source srcSet="/factory-mobile.webp" type="image/webp" media="(max-width: 768px)" />
+            <source srcSet="/factory.webp" type="image/webp" />
+            <motion.img
+               src="/factory-opt.jpg"
+               alt="Industrial factory with NDT inspection equipment for non-destructive testing"
+               className="absolute inset-0 w-full h-full object-cover"
             style={{
                rotateX,
                rotateY,
@@ -51,12 +61,16 @@ export default function IndustrialAnimation() {
                scale: 1.1,
             }}
             transition={{ type: "spring", stiffness: 50, damping: 15 }}
-         />
+               loading="lazy"
+               width={1920}
+               height={1920}
+            />
+         </picture>
 
          {/* Welder Layer (optional) */}
          <motion.img
             src="/welder.png"
-            alt="Welder"
+            alt="NDT welder performing non-destructive testing inspection"
             className="absolute bottom-0 right-0 w-1/3 h-auto object-contain"
             style={{
                rotateX,

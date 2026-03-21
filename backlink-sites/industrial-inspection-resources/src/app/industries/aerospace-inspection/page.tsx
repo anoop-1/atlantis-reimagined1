@@ -278,10 +278,10 @@ export default function AerospaceInspectionPage() {
             Achieve NADCAP-compliant NDT certification with Atlantis NDT aerospace training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://atlantisndt.com/aerospace-ndt-training" className="btn-primary">
+            <a href="https://atlantisndt.com/aerospace-ndt-training" rel="noopener" className="btn-primary">
               Explore Training Programs
             </a>
-            <a href="https://atlantisndt.com/training" className="btn-secondary">
+            <a href="https://atlantisndt.com/training" rel="noopener" className="btn-secondary">
               View All Training
             </a>
           </div>

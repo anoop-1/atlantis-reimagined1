@@ -319,7 +319,7 @@ export default function NdtReportingSoftwarePage() {
             <a href="https://ndt-connect.com" className="btn-primary">
               NDT Connect Platform
             </a>
-            <a href="https://atlantisndt.com/consulting" className="btn-secondary">
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-secondary">
               Consulting Services
             </a>
           </div>

@@ -247,7 +247,7 @@ export default function AsmeCodesNdtPage() {
           <p className="text-lg text-gray-700 mb-8">
             Master ASME code requirements through expert training and consulting from Atlantis NDT.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Get Expert Consultation
           </a>
         </div>

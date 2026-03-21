@@ -23,19 +23,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
+        <link rel="canonical" href="https://ndtcareersportal.com" />
+      </head>
+      <body>
+              <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
       <script dangerouslySetInnerHTML={{__html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-1EF92RXSVR');
       `}} />
-        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
-        <link rel="canonical" href="https://ndtcareersportal.com" />
-      </head>
-      <body>
-        <header className="bg-gradient-to-r from-sky-600 to-cyan-600 text-white">
+          <header className="bg-gradient-to-r from-sky-600 to-cyan-600 text-white">
           <nav className="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
             <div>
               <h1 className="text-2xl font-bold">NDT Careers Portal</h1>
@@ -80,14 +79,14 @@ export default function RootLayout({
                 <h3 className="font-bold mb-4 text-sky-100">Consulting</h3>
                 <ul className="space-y-2 text-sm">
                   <li><a href="/consulting-guide" className="text-sky-200 hover:text-white">Consulting Guide</a></li>
-                  <li><a href="https://atlantisndt.com/consulting" className="text-sky-200 hover:text-white">Career Partners</a></li>
+                  <li><a href="https://atlantisndt.com/consulting" rel="noopener" className="text-sky-200 hover:text-white">Career Partners</a></li>
                 </ul>
               </div>
               <div>
                 <h3 className="font-bold mb-4 text-sky-100">Resources</h3>
                 <ul className="space-y-2 text-sm">
                   <li><a href="/resources" className="text-sky-200 hover:text-white">Career Resources</a></li>
-                  <li><a href="https://atlantisndt.com/training" className="text-sky-200 hover:text-white">Training Programs</a></li>
+                  <li><a href="https://atlantisndt.com/training" rel="noopener" className="text-sky-200 hover:text-white">Training Programs</a></li>
                 </ul>
               </div>
               <div>
@@ -101,7 +100,7 @@ export default function RootLayout({
             </div>
             <div className="border-t border-sky-800 pt-8">
               <p className="text-center text-sky-200 text-sm">
-                Part of the Atlantis NDT ecosystem. <a href="https://atlantisndt.com" className="text-white hover:text-sky-100">Career Partners</a>
+                Part of the Atlantis NDT ecosystem. <a href="https://atlantisndt.com" rel="noopener" className="text-white hover:text-sky-100">Career Partners</a>
               </p>
             </div>
           </div>

@@ -40,7 +40,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 function Header() {
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1EF92RXSVR');
+      `}} />
+          <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" className="text-xl font-bold text-primary-700">
           NDT Knowledge Hub

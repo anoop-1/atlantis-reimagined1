@@ -298,11 +298,11 @@ export default function CareerPage() {
 
           <h2>Start Your NDT Career</h2>
           <p>
-            Ready to launch a rewarding NDT career? The first step is getting the right training and certifications. <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive training programs</a> that prepare you for ASNT certification and career success.
+            Ready to launch a rewarding NDT career? The first step is getting the right training and certifications. <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive training programs</a> that prepare you for ASNT certification and career success.
           </p>
 
           <p>
-            Whether you're just starting your career or looking to advance to higher positions, quality training is the foundation. For career guidance and insights, read <a href="https://atlantisndt.com/blog/ndt-career-guide" target="_blank" rel="noopener noreferrer" className="text-link">the complete NDT career guide</a> for detailed advice on building and advancing your NDT career.
+            Whether you're just starting your career or looking to advance to higher positions, quality training is the foundation. For career guidance and insights, read <a href="https://atlantisndt.com/blog/ndt-career-guide" target="_blank" rel="noopener" className="text-link">the complete NDT career guide</a> for detailed advice on building and advancing your NDT career.
           </p>
         </div>
       </section>

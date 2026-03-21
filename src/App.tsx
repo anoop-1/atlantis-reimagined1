@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import { AuthProvider } from "./context/AuthContext";
-import IndustrialAnimation from "./components/IndustrialAnimation";
+const IndustrialAnimation = lazy(() => import("./components/IndustrialAnimation"));
 
 // Lazy-load all page components for code splitting
 // Dynamic Route Components for Programmatic SEO Scale
@@ -656,7 +656,7 @@ const App = () => (
                   <Routes>
                      <Route path="/" element={<LazyRoute Component={Index} />} />
                   <Route path="/about" element={<About />} />
-                  <Route path="/industry" element={<IndustrialAnimation />} />
+                  <Route path="/industry" element={<LazyRoute Component={IndustrialAnimation} />} />
                   <Route path="/training" element={<Training />} />
                   <Route path="/training-usa" element={<TrainingUSA />} />
                   <Route path="/training-me" element={<TrainingMiddleEast />} />

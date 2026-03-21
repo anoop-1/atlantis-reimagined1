@@ -250,7 +250,7 @@ export default function PowerGenerationInspectionPage() {
           <p className="text-lg text-gray-700 mb-8">
             Atlantis NDT provides specialized consulting for boiler, turbine, and nuclear facility inspection programs.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Schedule Expert Consultation
           </a>
         </div>

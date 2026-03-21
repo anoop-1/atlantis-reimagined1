@@ -94,7 +94,7 @@ export default function StandardsPage() {
                   </div>
                 </li>
               </ul>
-              <a href="https://atlantisndt.com/consulting" className="text-teal-600 font-semibold hover:text-teal-700">
+              <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 font-semibold hover:text-teal-700">
                 Get API Standards Consultation →
               </a>
             </div>
@@ -135,7 +135,7 @@ export default function StandardsPage() {
                   </div>
                 </li>
               </ul>
-              <a href="https://atlantisndt.com/consulting" className="text-emerald-600 font-semibold hover:text-emerald-700">
+              <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-emerald-600 font-semibold hover:text-emerald-700">
                 ASME Standards Expertise →
               </a>
             </div>
@@ -296,9 +296,9 @@ export default function StandardsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Expert Guidance on Standards Compliance</h2>
           <p className="text-lg text-teal-50 mb-8">
-            <a href="https://atlantisndt.com/consulting" className="text-white font-semibold hover:text-teal-100">Atlantis NDT provides comprehensive consulting services</a> to help organizations implement industry standards through consulting, training, and certification programs. Our expertise spans all major standards and industry applications. Whether you're implementing a new inspection program, updating procedures to reflect standard changes, or preparing for regulatory audits, our specialists can provide guidance tailored to your operations.
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">Atlantis NDT provides comprehensive consulting services</a> to help organizations implement industry standards through consulting, training, and certification programs. Our expertise spans all major standards and industry applications. Whether you're implementing a new inspection program, updating procedures to reflect standard changes, or preparing for regulatory audits, our specialists can provide guidance tailored to your operations.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
             Schedule Consultation
           </a>
         </div>

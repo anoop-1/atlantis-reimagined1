@@ -257,9 +257,7 @@ export default function DigitalTwinTechnologyPage() {
             <p className="text-gray-700 mb-4">
               Discover how digital twin technology can optimize your inspection programs and improve asset integrity management.
             </p>
-            <a 
-              href="https://atlantisndt.com/digital-twins"
-              className="inline-block px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition"
+            <a href="https://atlantisndt.com/digital-twins" rel="noopener" className="inline-block px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition"
             >
               Explore Digital Twin Solutions
             </a>

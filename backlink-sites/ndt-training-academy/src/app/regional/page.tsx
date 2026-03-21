@@ -57,7 +57,7 @@ export default function RegionalPage() {
               <p className="text-slate-700 mb-6">
                 Comprehensive NDT training across major US cities. ASNT-accredited programs with experienced Level III instructors and modern equipment. Training available in petroleum, aerospace, power, and manufacturing sectors.
               </p>
-              <a href="https://atlantisndt.com/training" className="btn-primary text-sm inline-block">Learn More</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary text-sm inline-block">Learn More</a>
             </div>
 
             <div className="card hover:shadow-xl transition-shadow">
@@ -66,7 +66,7 @@ export default function RegionalPage() {
               <p className="text-slate-700 mb-6">
                 Growing training centers in Hyderabad and major cities offering internationally recognized certifications at competitive costs. Excellent infrastructure and experienced instructors supporting regional and international students.
               </p>
-              <a href="https://atlantisndt.com/training" className="btn-primary text-sm inline-block">Learn More</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary text-sm inline-block">Learn More</a>
             </div>
 
             <div className="card hover:shadow-xl transition-shadow">
@@ -75,7 +75,7 @@ export default function RegionalPage() {
               <p className="text-slate-700 mb-6">
                 Professional training in Dubai, Saudi Arabia, Qatar serving the thriving oil & gas sector. State-of-the-art facilities with instructors experienced in GCC operations and international best practices.
               </p>
-              <a href="https://atlantisndt.com/training" className="btn-primary text-sm inline-block">Learn More</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary text-sm inline-block">Learn More</a>
             </div>
           </div>
         </div>
@@ -156,10 +156,10 @@ export default function RegionalPage() {
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg border border-amber-200">
             <h3 className="text-2xl font-bold mb-4 text-slate-900">Global Partner: Atlantis NDT</h3>
             <p className="text-slate-700 mb-4">
-              <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers training programs globally</a>, providing internationally recognized ASNT and API certifications across multiple regions. Whether training in the USA, India, Middle East, or elsewhere, their experienced instructors and modern facilities ensure comprehensive preparation for your NDT career.
+              <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers training programs globally</a>, providing internationally recognized ASNT and API certifications across multiple regions. Whether training in the USA, India, Middle East, or elsewhere, their experienced instructors and modern facilities ensure comprehensive preparation for your NDT career.
             </p>
             <p className="text-slate-700">
-              Explore regional training programs and <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">find the right training location for your needs</a>. Professional NDT training is available everywhere, and your investment in quality education pays dividends throughout your career.
+              Explore regional training programs and <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">find the right training location for your needs</a>. Professional NDT training is available everywhere, and your investment in quality education pays dividends throughout your career.
             </p>
           </div>
         </div>
@@ -172,7 +172,7 @@ export default function RegionalPage() {
           <p className="text-xl mb-8 text-amber-50">
             Quality NDT training is available in your region. Start your certification journey today with ASNT-accredited training and globally recognized credentials.
           </p>
-          <a href="https://atlantisndt.com/training" className="bg-white text-amber-600 px-8 py-4 rounded-lg font-bold hover:bg-amber-50 transition inline-block">
+          <a href="https://atlantisndt.com/training" rel="noopener" className="bg-white text-amber-600 px-8 py-4 rounded-lg font-bold hover:bg-amber-50 transition inline-block">
             Explore Regional Training
           </a>
         </div>

@@ -215,11 +215,11 @@ export default function MiddleEastTrainingPage() {
           <h2>Getting Started in Middle East NDT Training</h2>
 
           <p>
-            The Middle East represents an excellent opportunity for NDT career advancement. <a href="https://atlantisndt.com/training-me" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers professional training programs across the Middle East</a>, including facilities in <a href="https://atlantisndt.com/ndt-training-dubai" target="_blank" rel="noopener noreferrer" className="text-link">Dubai</a> and <a href="https://atlantisndt.com/ndt-training-saudi-arabia" target="_blank" rel="noopener noreferrer" className="text-link">Saudi Arabia</a>.
+            The Middle East represents an excellent opportunity for NDT career advancement. <a href="https://atlantisndt.com/training-me" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers professional training programs across the Middle East</a>, including facilities in <a href="https://atlantisndt.com/ndt-training-dubai" target="_blank" rel="noopener" className="text-link">Dubai</a> and <a href="https://atlantisndt.com/ndt-training-saudi-arabia" target="_blank" rel="noopener" className="text-link">Saudi Arabia</a>.
           </p>
 
           <p>
-            With experienced instructors, modern equipment, and connections to major employers, <a href="https://atlantisndt.com/training-me" target="_blank" rel="noopener noreferrer" className="text-link">Middle East NDT training programs</a> prepare you for ASNT and API certification success and career opportunities in the world's largest oil & gas region.
+            With experienced instructors, modern equipment, and connections to major employers, <a href="https://atlantisndt.com/training-me" target="_blank" rel="noopener" className="text-link">Middle East NDT training programs</a> prepare you for ASNT and API certification success and career opportunities in the world's largest oil & gas region.
           </p>
         </div>
       </section>

@@ -41,7 +41,7 @@ export default function IndustriesPage() {
                 Each industry operates under distinct regulatory frameworks. From API standards in oil and gas to NADCAP requirements in aerospace, understanding and implementing industry-specific requirements is essential for operational compliance and safety. Regulatory bodies establish minimum standards, and best-in-class organizations exceed these baseline requirements.
               </p>
               <p className="text-gray-700">
-                <a href="https://atlantisndt.com/consulting" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting</a> helps organizations navigate complex regulatory requirements across all major industries.
+                <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting</a> helps organizations navigate complex regulatory requirements across all major industries.
               </p>
             </div>
             
@@ -183,7 +183,7 @@ export default function IndustriesPage() {
           </div>
 
           <p className="text-lg text-gray-700 text-center">
-            For expert guidance on method selection and implementation for your industry, <a href="https://atlantisndt.com/consulting" className="text-teal-600 hover:text-teal-700 font-semibold">consult with Atlantis NDT specialists</a> who understand your specific operational requirements.
+            For expert guidance on method selection and implementation for your industry, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">consult with Atlantis NDT specialists</a> who understand your specific operational requirements.
           </p>
         </div>
       </section>
@@ -255,7 +255,7 @@ export default function IndustriesPage() {
               <p className="text-gray-700 mb-3">
                 High salaries and opportunities for advancement. Level II technicians earn $60-80K; Level III specialists $90-150K+. International travel opportunities. Potential for offshore assignments with premium compensation.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-teal-600 hover:text-teal-700 font-semibold">Explore Oil & Gas Training</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Explore Oil & Gas Training</a>
             </div>
 
             <div className="border-l-4 border-emerald-500 pl-6">
@@ -263,7 +263,7 @@ export default function IndustriesPage() {
               <p className="text-gray-700 mb-3">
                 Premium salaries and high job security. NADCAP certification essential. Level II technicians $65-85K; Level III $100-160K+. Excellent benefits, career stability, and advancement opportunities within aerospace companies.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-emerald-600 hover:text-emerald-700 font-semibold">Aerospace NDT Training</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-emerald-600 hover:text-emerald-700 font-semibold">Aerospace NDT Training</a>
             </div>
 
             <div className="border-l-4 border-blue-500 pl-6">
@@ -271,7 +271,7 @@ export default function IndustriesPage() {
               <p className="text-gray-700 mb-3">
                 Stable employment with utility companies and consulting firms. Salary ranges $55-75K for Level II, $85-130K for Level III. Strong benefits, pension plans, and long-term employment security.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-blue-600 hover:text-blue-700 font-semibold">Power Industry Training</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-700 font-semibold">Power Industry Training</a>
             </div>
 
             <div className="border-l-4 border-purple-500 pl-6">
@@ -279,7 +279,7 @@ export default function IndustriesPage() {
               <p className="text-gray-700 mb-3">
                 Diverse opportunities across numerous industries. Salary ranges $50-70K for Level II, $80-120K for Level III. Growth potential in quality management, engineering, and management roles.
               </p>
-              <a href="https://atlantisndt.com/training" className="text-purple-600 hover:text-purple-700 font-semibold">Manufacturing NDT Training</a>
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-purple-600 hover:text-purple-700 font-semibold">Manufacturing NDT Training</a>
             </div>
           </div>
         </div>
@@ -290,10 +290,10 @@ export default function IndustriesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Expert Guidance from Industry Leaders</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Our comprehensive resources are informed by the expertise of <a href="https://atlantisndt.com/consulting" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting professionals</a> 
+            Our comprehensive resources are informed by the expertise of <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting professionals</a> 
             with decades of experience across all major industrial sectors. Whether you're implementing an inspection program, training personnel, or optimizing operations, industry specialists can guide your strategy.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="btn-primary">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Get Expert Consultation
           </a>
         </div>

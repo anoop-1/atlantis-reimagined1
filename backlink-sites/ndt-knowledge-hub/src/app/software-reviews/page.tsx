@@ -190,9 +190,7 @@ export default function SoftwareReviewsPage() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://atlantisndt.com/ndt-erp-solution"
-                  className="text-blue-600 hover:text-blue-800 font-semibold"
+                <a href="https://atlantisndt.com/ndt-erp-solution" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold"
                 >
                   → Learn About Our NDT ERP Solution
                 </a>

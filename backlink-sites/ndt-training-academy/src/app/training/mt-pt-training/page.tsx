@@ -230,11 +230,11 @@ export default function MTPTTrainingPage() {
 
           <h2>Get Certified in MT and PT</h2>
           <p>
-            Ready to master surface defect detection? <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Atlantis NDT offers comprehensive MT and PT training programs</a> from Level I through Level III. Whether you want to combine MT and PT certifications or specialize in one method, experienced instructors and quality equipment ensure effective learning.
+            Ready to master surface defect detection? <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive MT and PT training programs</a> from Level I through Level III. Whether you want to combine MT and PT certifications or specialize in one method, experienced instructors and quality equipment ensure effective learning.
           </p>
 
           <p>
-            <a href="https://atlantisndt.com/training" target="_blank" rel="noopener noreferrer" className="text-link">Professional MT and PT training programs</a> prepare you for ASNT certification exams and successful careers in aerospace, manufacturing, automotive, and power generation industries where surface inspection expertise is critical.
+            <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Professional MT and PT training programs</a> prepare you for ASNT certification exams and successful careers in aerospace, manufacturing, automotive, and power generation industries where surface inspection expertise is critical.
           </p>
         </div>
       </section>

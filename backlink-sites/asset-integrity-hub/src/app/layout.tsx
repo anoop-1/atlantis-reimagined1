@@ -100,7 +100,7 @@ function Footer() {
         <div className="border-t border-gray-200 pt-8">
           <p className="text-center text-gray-600 text-sm">
             &copy; 2026 Asset Integrity Digital Hub. All rights reserved. | 
-            <a href="https://atlantisndt.com" className="ml-2">atlantisndt.com</a>
+            <a href="https://atlantisndt.com" rel="noopener" className="ml-2">atlantisndt.com</a>
           </p>
         </div>
       </div>
@@ -116,7 +116,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      {/* Google Analytics */}
+        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
+      </head>
+      <body>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
       <script dangerouslySetInnerHTML={{__html: `
         window.dataLayer = window.dataLayer || [];
@@ -124,9 +126,7 @@ export default function RootLayout({
         gtag('js', new Date());
         gtag('config', 'G-1EF92RXSVR');
       `}} />
-        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
-      </head>
-      <body>
+
         <Navigation />
         <main className="min-h-screen">
           {children}

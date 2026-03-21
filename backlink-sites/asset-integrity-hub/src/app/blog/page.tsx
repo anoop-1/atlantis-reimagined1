@@ -123,9 +123,9 @@ export default function BlogPage() {
         <div className="mt-12 bg-white rounded-lg border border-gray-200 p-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Featured Resource</h3>
           <p className="text-gray-700 mb-6">
-            For comprehensive consulting on digital transformation strategies, <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">Atlantis NDT provides expert guidance</a> on ERP implementation, digital twin development, and technology strategy for inspection companies. Our consultants have experience implementing solutions across multiple industries and can help your organization navigate digital transformation successfully.
+            For comprehensive consulting on digital transformation strategies, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">Atlantis NDT provides expert guidance</a> on ERP implementation, digital twin development, and technology strategy for inspection companies. Our consultants have experience implementing solutions across multiple industries and can help your organization navigate digital transformation successfully.
           </p>
-          <a href="https://atlantisndt.com/consulting" className="text-primary-600 hover:text-primary-700 font-semibold">
+          <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-primary-600 hover:text-primary-700 font-semibold">
             Schedule a Digital Transformation Consultation →
           </a>
         </div>

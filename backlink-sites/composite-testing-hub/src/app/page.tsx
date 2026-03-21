@@ -20,7 +20,7 @@ export default function Home() {
           Composite damage takes forms vastly different from metallic failure. Impact creates matrix cracking and fiber breakage while appearing as minor surface damage. Delamination—separation between layers—weakens structures while remaining invisible from external view. Fiber waviness, resin-rich zones, and fiber misalignment from manufacturing reduce properties. Environmental exposure causes resin degradation, moisture absorption, and matrix weakening.
         </p>
         <p className="mb-4">
-          Understanding damage mechanisms informs inspection strategy. Impact damage assessment requires through-thickness examination. Delamination detection requires methods sensitive to bond-line condition. Manufacturing defect detection requires volumetric imaging. Professional training through <a href="https://atlantisndt.com/training" rel="noopener" className="text-purple-600 hover:underline">advanced training programs</a> develops expertise in composite-specific challenges.
+          Understanding damage mechanisms informs inspection strategy. Impact damage assessment requires through-thickness examination. Delamination detection requires methods sensitive to bond-line condition. Manufacturing defect detection requires volumetric imaging. Professional training through <a href="https://atlantisndt.com" rel="noopener" className="text-purple-600 hover:underline">advanced training programs</a> develops expertise in composite-specific challenges.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Ultrasonic Inspection Excellence</h2>
@@ -28,7 +28,7 @@ export default function Home() {
           Ultrasonic testing represents the primary NDT method for composite inspection. Sound waves propagate through composites; reflections from layer interfaces and defects create detectable echoes. C-scan imaging—cross-sectional maps of ultrasonic responses—visually displays damage location and extent. Through-transmission ultrasonic testing detects material loss and damage reducing acoustic transmission.
         </p>
         <p className="mb-4">
-          Phased array ultrasonic systems enable advanced composite inspection. Electronic beam steering enables rapid scanning and flexible inspection angles. Automated systems scan entire composite structures, producing comprehensive damage maps. Integration with <a href="https://atlantisndt.com/digital-twins" rel="noopener" className="text-purple-600 hover:underline">digital solutions</a> enables trend monitoring and predictive maintenance.
+          Phased array ultrasonic systems enable advanced composite inspection. Electronic beam steering enables rapid scanning and flexible inspection angles. Automated systems scan entire composite structures, producing comprehensive damage maps. Integration with <a href="https://atlantisndt.com" rel="noopener" className="text-purple-600 hover:underline">digital solutions</a> enables trend monitoring and predictive maintenance.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Thermography and Thermal Methods</h2>
@@ -36,7 +36,7 @@ export default function Home() {
           Infrared thermography detects subsurface composite damage through thermal signatures. Delaminations and voids conduct heat differently than solid material, creating temperature variations visible on thermal images. Active thermography—applying controlled heating and monitoring thermal response—enables systematic defect detection across large areas rapidly. The non-contact method works in environments where contact-based testing proves impractical.
         </p>
         <p className="mb-4">
-          Thermography excels at rapid screening, identifying problem areas requiring detailed investigation. Integration with automated data analysis enables consistent interpretation. Organizations deploying thermographic composite inspection through <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-purple-600 hover:underline">expert consultation</a> achieve efficient defect detection.
+          Thermography excels at rapid screening, identifying problem areas requiring detailed investigation. Integration with automated data analysis enables consistent interpretation. Organizations deploying thermographic composite inspection through <a href="https://atlantisndt.com" rel="noopener" className="text-purple-600 hover:underline">expert consultation</a> achieve efficient defect detection.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Acoustic Emission Monitoring</h2>
@@ -52,7 +52,7 @@ export default function Home() {
           Composite manufacturing quality directly affects final product properties. Voids, fiber misalignment, and resin-rich regions reduce properties. Systematic in-process inspection prevents defects from propagating through production. Ultrasonic scanning of manufacturing stages detects problems early when correction costs least. Statistical process control based on inspection results guides parameter optimization.
         </p>
         <p className="mb-4">
-          Organizations implementing comprehensive manufacturing inspection through <a href="https://atlantisndt.com/erp" rel="noopener" className="text-purple-600 hover:underline">quality systems</a> achieve superior final product quality and consistent performance.
+          Organizations implementing comprehensive manufacturing inspection through <a href="https://atlantisndt.com" rel="noopener" className="text-purple-600 hover:underline">quality systems</a> achieve superior final product quality and consistent performance.
         </p>
       </section>
     </div>
