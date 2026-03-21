@@ -102,6 +102,10 @@ const NDTMethodSelector = lazy(() => import("./pages/tools/ndt-method-selector")
 const CertificationCostCalculator = lazy(() => import("./pages/tools/ndt-certification-cost-calculator"));
 const ROICalculator = lazy(() => import("./pages/tools/ndt-roi-calculator"));
 const NDTQuickReference = lazy(() => import("./pages/tools/ndt-quick-reference"));
+const UltrasonicThicknessCalculator = lazy(() => import("./pages/tools/UltrasonicThicknessCalculator"));
+const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
+const SoundVelocityReference = lazy(() => import("./pages/tools/SoundVelocityReference"));
+const NDTMethodSelectorNew = lazy(() => import("./pages/tools/NDTMethodSelector"));
 const EmbedNDTReference = lazy(() => import("./pages/embed/ndt-reference"));
 // Resource Pages
 const NDTInspectionChecklist = lazy(() => import("./pages/resources/ndt-inspection-checklist"));
@@ -1056,6 +1060,10 @@ const App = () => (
                   <Route path="/tools/ndt-certification-cost-calculator" element={<LazyRoute Component={CertificationCostCalculator} />} />
                   <Route path="/tools/ndt-roi-calculator" element={<LazyRoute Component={ROICalculator} />} />
                   <Route path="/tools/ndt-quick-reference" element={<LazyRoute Component={NDTQuickReference} />} />
+                  <Route path="/tools/ultrasonic-thickness-calculator" element={<LazyRoute Component={UltrasonicThicknessCalculator} />} />
+                  <Route path="/tools/corrosion-rate-calculator" element={<LazyRoute Component={CorrosionRateCalculator} />} />
+                  <Route path="/tools/sound-velocity-reference" element={<LazyRoute Component={SoundVelocityReference} />} />
+                  <Route path="/tools/ndt-method-selector-wizard" element={<LazyRoute Component={NDTMethodSelectorNew} />} />
                   <Route path="/embed/ndt-reference" element={<LazyRoute Component={EmbedNDTReference} />} />
                   {/* Resource Pages */}
                   <Route path="/resources/ndt-inspection-checklist" element={<LazyRoute Component={NDTInspectionChecklist} />} />
