@@ -121,6 +121,16 @@ const baseTemplate = readFileSync(join(DIST, 'index.html'), 'utf-8');
 const blogsRaw = readFileSync(join(ROOT, 'src/data/blogs.json'), 'utf-8');
 const blogs = JSON.parse(blogsRaw);
 
+// Load certification practice questions and merge with blogs
+const certificationPracticeRaw = readFileSync(join(ROOT, 'src/data/certification-practice.json'), 'utf-8');
+const certificationPractice = JSON.parse(certificationPracticeRaw);
+blogs.push(...certificationPractice);
+
+// Load comparison pages and merge with blogs
+const comparisonPagesRaw = readFileSync(join(ROOT, 'src/data/comparison-pages.json'), 'utf-8');
+const comparisonPages = JSON.parse(comparisonPagesRaw);
+blogs.push(...comparisonPages);
+
 // ─── Route Definitions ────────────────────────────────────────────────────
 
 const routes = [];
@@ -185,8 +195,8 @@ const corePages = [
   },
   {
     path: '/training-me',
-    title: 'NDT Training Dubai & Middle East 2026 | ASNT + ISO 9712 Certification',
-    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III. UT RT MT PT ET VT. Monthly batches, 95% pass rate.',
+    title: 'NDT Training Dubai & Middle East [2026]: ASNT + ISO 9712, Level I-III (Monthly Batches)',
+    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, 95% pass rate, ADNOC & Aramco recognized. Cost: $2K-$6K per level. Enrol for March/April 2026 batches.',
     bodyH1: 'NDT Training Middle East',
     bodyText: 'Professional NDT training across Middle East: UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for all major NDT methods.',
   },
@@ -269,22 +279,22 @@ const corePages = [
   },
   {
     path: '/asnt-certification',
-    title: 'ASNT Certification Guide 2026 | NDT Level I–III Exam Costs & Requirements',
-    description: 'Complete ASNT certification guide: SNT-TC-1A vs ACCP, Level I/II/III exam requirements, costs ($200-$750), study tips. 95% pass rate training available.',
+    title: 'ASNT Certification [2026]: SNT-TC-1A Levels, Exam Costs ($200-$750) & $35K-$150K+ Career',
+    description: 'ASNT SNT-TC-1A certification guide: Level I/II/III exam requirements, costs ($200-$750 per exam), prerequisites, 95% pass rate. Career earnings: Level I ($35K-$60K), Level II ($60K-$85K), Level III ($85K-$150K+). Free study tips and training options.',
     bodyH1: 'ASNT NDT Certification Guide 2026',
     bodyText: 'Complete ASNT certification guide: SNT-TC-1A and ACCP programs for Level I, II, and III across all NDT methods. 95% first-time pass rate with ASNT Level III consulting available.',
   },
   {
     path: '/api-510-certification',
-    title: 'API 510 Certification 2026 | Exam Guide, Study Tips & Pass Rates',
-    description: 'API 510 Pressure Vessel Inspector certification guide: exam format (150 questions, open-book), required codes, study plan, pass rates, and prep courses. Dubai, Houston & online training with 95% pass rate.',
+    title: 'API 510 Certification [2026]: Exam Guide, Cost ($3K-$6K), Pass Rate (68%) & $75K-$150K Salary',
+    description: 'API 510 Pressure Vessel Inspector certification [2026]: exam format (170 questions, 7.5 hrs open-book), cost ($3K-$6K training + $495-$595 exam), 68% pass rate, 95% with our prep. Career earnings: $75K-$150K+. Required codes (API 510, ASME VIII, API 572/576/579). Free exam strategy guide.',
     bodyH1: 'API 510 Pressure Vessel Inspector Certification',
     bodyText: 'API 510 pressure vessel inspector certification preparation. Comprehensive training and exam prep from experienced ASNT Level III instructors.',
   },
   {
     path: '/api-570-certification',
-    title: 'API 570 Certification 2026 | Piping Inspector Exam Guide & Study Plan',
-    description: 'API 570 Piping Inspector certification: open-book exam format, 8 required reference codes (ASME B31.3, API 571/574/577), study plan, remaining life formulas, and pass rates. Training in Dubai, Houston & online.',
+    title: 'API 570 Certification [2026]: Piping Inspector Exam, Cost ($3K-$5K), Salary ($80K-$120K+)',
+    description: 'API 570 Piping Inspector certification [2026]: exam format (170 questions, 7.5 hrs open-book), cost ($3K-$5K training), required 8 codes (ASME B31.3, API 571/574/577/580), exam fee ($495-$595), 95% pass rate. Salary: $80K-$120K+. Exam strategy, formula sheets, and code navigation tips included.',
     bodyH1: 'API 570 Piping Inspector Certification',
     bodyText: 'Comprehensive API 570 Piping Inspector certification exam preparation. Open-book format covering ASME B31.3, API 570/571/574/577, remaining life calculations, and RBI. Dubai, Houston, India, and online.',
   },
@@ -304,8 +314,8 @@ const corePages = [
   },
   {
     path: '/api-653-certification',
-    title: 'API 653 Certification 2026 | Tank Inspector Exam, Codes & Study Guide',
-    description: 'API 653 Tank Inspector certification: open-book exam with 10 reference codes (API 650/651/653), inspection interval calculations, RBI, NDT requirements. 95% pass rate training in Dubai, Houston & online.',
+    title: 'API 653 Certification [2026]: Tank Inspector Exam, Cost ($3K-$6K), Salary ($80K-$130K+)',
+    description: 'API 653 Tank Inspector certification [2026]: open-book exam (170 questions, 7.5 hrs), 10 required reference codes (API 650/651/653, ASME V/IX), exam cost ($495-$595), training ($3K-$6K), 95% pass rate. Career salary: $80K-$130K+. RBI calculations, shell/floor inspection, and corrosion assessment included. Free practice exam.',
     bodyH1: 'API 653 Aboveground Storage Tank Inspector Certification',
     bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, RBI, tank inspection intervals, and NDT methods. 95% pass rate.',
   },
@@ -353,8 +363,8 @@ const corePages = [
   },
   {
     path: '/ndt-training-dubai',
-    title: 'NDT Training Dubai 2026 | ASNT & ISO 9712 Courses [Monthly Batches]',
-    description: 'NDT training in Dubai, UAE: ASNT SNT-TC-1A + ISO 9712 Level I/II/III. UT, RT, MT, PT, ET, VT. Monthly class starts, ADNOC & Aramco recognized. 95% pass rate. Tax-free NDT career in UAE.',
+    title: 'NDT Training Dubai [2026]: ASNT & ISO 9712 Level I-III, $2K-$6K, 95% Pass Rate [Monthly]',
+    description: 'NDT training in Dubai, UAE [2026]: ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Cost: $2K-$6K per level, monthly batches, 95% pass rate, ADNOC & Aramco recognized. Tax-free NDT career in UAE earning $45K-$120K+. Next batch: March 2026. Enrol now.',
     bodyH1: 'NDT Training Dubai & UAE',
     bodyText: 'Professional NDT training in Dubai, Abu Dhabi, and across UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for oil & gas industry professionals. CSWIP preparation available. ADNOC and Aramco contractor recognised. Tax-free career in UAE. Monthly class starts.',
   },
@@ -1031,12 +1041,34 @@ routes.push({
 const extraPages = [
   // REMOVED: /digital-twins-ndt-guide → redirects to /digital-twins
   // REMOVED: /digital-twins-oil-gas → content consolidated into /digital-twins
-  { path: '/ut-vs-rt-comparison', title: 'UT vs RT Comparison: Which NDT Method to Choose? [Expert Guide]', description: 'Ultrasonic vs radiographic testing compared: cost, speed, sensitivity, safety & applications. When to use UT vs RT for welds, castings & in-service inspection.' },
+  { path: '/ut-vs-rt-comparison', title: 'UT vs RT Comparison [2026]: Cost ($800 vs $1,500/weld), Speed & Safety Guide', description: 'Ultrasonic vs radiographic testing [2026]: cost ($800 UT vs $1,500 RT per weld), speed comparison, radiation safety, sensitivity, ASME/AWS requirements. Decision matrix: when to use UT vs RT for welds, castings, and in-service inspection. Expert comparison table included.' },
   { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection Guide [2026] | Intervals, Floor Scanning & Checklist', description: 'API 653 tank inspection explained: external (every 5 yr), internal (every 10 yr, RBI-adjustable), floor UT/MFL scanning, shell thickness evaluation, and hot-tap repair criteria. Free downloadable checklist.' },
   // REMOVED: /blog/ndt-career-guide → redirects to /blog/ndt-salary-guide-2025-global-level-1-2-3
-  { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Choose? [2026 Comparison Table]', description: 'Side-by-side comparison of ultrasonic testing vs radiographic testing: cost ($800 vs $1,500/weld), speed, accuracy, radiation safety, ASME/AWS code requirements. Decision matrix included.' },
+  { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Weld Inspection [2026] - Cost ($800-$1,500), Safety & Accuracy Comparison', description: 'UT vs RT for weld inspection [2026]: cost comparison ($800 UT vs $1,500+ RT per weld), speed, accuracy, radiation safety, ASME/AWS code requirements, defect detection sensitivity. Complete decision matrix for welds, castings, and in-service piping. Free comparison table and expert recommendations.' },
   // REMOVED: /blog/digital-twins-ndt-guide → redirects to /blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025
   // REMOVED: /blog/digital-twins-oil-gas → redirects to /blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025
+
+  // Tools - New Pages
+  { path: '/tools', title: 'NDT Tools Hub | Calculators & Reference Guides [2026]', description: 'Free online NDT tools: ultrasonic thickness calculator, corrosion rate calculator, sound velocity reference, certification cost calculator, ROI calculator, and NDT method selector.' },
+  { path: '/tools/ndt-method-selector', title: 'NDT Method Selector | Choose the Right Testing Technique [2026]', description: 'Interactive NDT method selector: find the best inspection technique for your application. Compare ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing.' },
+  { path: '/tools/ndt-certification-cost-calculator', title: 'NDT Certification Cost Calculator [2026] | Training Budget Estimator', description: 'Calculate NDT certification costs: ASNT Level I, II, III, API, CSWIP training & exam fees by location. Plan your NDT training budget.' },
+  { path: '/tools/ndt-roi-calculator', title: 'NDT ROI Calculator [2026] | Return on NDT Investment | Atlantis NDT', description: 'Calculate ROI from NDT inspections: compare cost vs defects caught, downtime prevented, and safety improvements. Business case for NDT investment.' },
+  { path: '/tools/ndt-quick-reference', title: 'NDT Quick Reference Guide [2026] | Methods, Codes & Standards', description: 'Fast-access NDT reference: methods comparison, ASME/API code requirements, sound velocity values, typical defect depths, certification costs, and procedure requirements.' },
+  { path: '/tools/ultrasonic-thickness-calculator', title: 'Ultrasonic Thickness Calculator | Free Online UT Tool [2026]', description: 'Free ultrasonic thickness calculator: measure corrosion rates, predict remaining asset life, calculate metal loss from UT readings. API 510/570/653 compliant.' },
+  { path: '/tools/corrosion-rate-calculator', title: 'Corrosion Rate Calculator [2026] | Remaining Life & Fitness Assessment', description: 'Calculate corrosion rates from thickness measurements: linear regression, exponential loss, remaining service life, API 579 fitness for service assessment.' },
+  { path: '/tools/sound-velocity-reference', title: 'Sound Velocity Reference Table [2026] | UT Propagation Speeds', description: 'Ultrasonic sound velocity reference table: carbon steel, stainless steel, austenitic, ferritic, aluminum, copper, and composite material speeds.' },
+  { path: '/tools/ndt-method-selector-wizard', title: 'NDT Method Selector Wizard [2026] | Find Your Best Inspection Method', description: 'Interactive NDT method selector wizard: answer questions about your inspection needs to find the optimal NDT technique with pro/con analysis.' },
+
+  // Resources - New Pages
+  { path: '/resources/ndt-inspection-checklist', title: 'NDT Inspection Checklist [2026] | Equipment & Procedure Template', description: 'Free NDT inspection checklist: equipment requirements, calibration verification, procedure documentation, defect recording, and compliance confirmation.' },
+  { path: '/resources/api-653-inspection-template', title: 'API 653 Inspection Template [2026] | Tank Inspector Checklist', description: 'API 653 tank inspection template: external inspection, internal inspection, floor UT/MFL scanning, thickness evaluation, repair assessment, and compliance form.' },
+  { path: '/resources/asnt-level-iii-study-guide', title: 'ASNT Level III Study Guide [2026] | Exam Prep & Practice Questions', description: 'ASNT Level III study guide: vision standards, practical demonstrations, code knowledge, qualification requirements, and expert exam preparation tips.' },
+  { path: '/resources/ndt-procedure-template', title: 'NDT Procedure Template [2026] | ASME/ISO Compliant Format', description: 'Download NDT procedure template: scope, technique selection, equipment requirements, acceptance criteria, personnel qualifications, and documentation.' },
+  { path: '/resources/ndt-safety-checklist', title: 'NDT Safety Checklist [2026] | Radiation & Equipment Protection', description: 'NDT safety checklist: radiographic safety, personnel dosimetry, equipment grounding, chemical handling, incident reporting, and regulatory compliance.' },
+  { path: '/resources/training-requirements-matrix', title: 'Training Requirements Matrix [2026] | ASNT, API, ISO Comparison', description: 'NDT training requirements comparison: ASNT Level I/II/III, API 510/570/653, ISO 11699, CSWIP, PCN certifications with hours and exam details.' },
+
+  // NOTE: Certification practice questions are now loaded from src/data/certification-practice.json
+  // and rendered via the blog pipeline alongside regular blogs (see line ~127)
 ];
 
 extraPages.forEach(p => {
