@@ -1027,15 +1027,16 @@ routes.push({
 });
 
 // ── Additional standalone pages ──────────────────────────────────────────
+// NOTE: Paths with 301 redirects in vercel.json are excluded to avoid static files overriding redirects
 const extraPages = [
-  { path: '/digital-twins-ndt-guide', title: 'Digital Twins for NDT | Complete Implementation Guide [2026]', description: 'Complete guide to digital twins in NDT. How digital twin technology transforms inspection, asset integrity, and maintenance in oil & gas, aerospace, and power generation.' },
-  { path: '/digital-twins-oil-gas', title: 'Digital Twins for Oil & Gas [2026] | Pipeline & Asset Integrity', description: 'Digital twin solutions for oil & gas in 2026. Real-time pipeline monitoring, corrosion tracking, and predictive maintenance. Reduce inspection costs by 40%.' },
+  // REMOVED: /digital-twins-ndt-guide → redirects to /digital-twins
+  // REMOVED: /digital-twins-oil-gas → content consolidated into /digital-twins
   { path: '/ut-vs-rt-comparison', title: 'UT vs RT Comparison: Which NDT Method to Choose? [Expert Guide]', description: 'Ultrasonic vs radiographic testing compared: cost, speed, sensitivity, safety & applications. When to use UT vs RT for welds, castings & in-service inspection.' },
   { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection Guide [2026] | Intervals, Floor Scanning & Checklist', description: 'API 653 tank inspection explained: external (every 5 yr), internal (every 10 yr, RBI-adjustable), floor UT/MFL scanning, shell thickness evaluation, and hot-tap repair criteria. Free downloadable checklist.' },
-  { path: '/blog/ndt-career-guide', title: 'NDT Career Guide 2026 | Salary, Certifications & Career Path', description: 'How to become an NDT inspector in 2026: certification requirements (ASNT, ISO 9712), salary ranges ($45K-$120K+), highest-paying methods, and career advancement from Level I to Level III.' },
+  // REMOVED: /blog/ndt-career-guide → redirects to /blog/ndt-salary-guide-2025-global-level-1-2-3
   { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Which NDT Method Should You Choose? [2026 Comparison Table]', description: 'Side-by-side comparison of ultrasonic testing vs radiographic testing: cost ($800 vs $1,500/weld), speed, accuracy, radiation safety, ASME/AWS code requirements. Decision matrix included.' },
-  { path: '/blog/digital-twins-ndt-guide', title: 'Digital Twins in NDT: How They Transform Inspection & Asset Integrity', description: 'How digital twin technology is transforming NDT inspections. Implementation guide with real ROI data, case studies from oil & gas, and step-by-step adoption roadmap.' },
-  { path: '/blog/digital-twins-oil-gas', title: 'Digital Twins in Oil & Gas [2026]: Implementation Guide & ROI Data', description: 'How oil & gas companies implement digital twins for asset integrity in 2026. Pipeline monitoring, corrosion prediction, 40% cost reduction case studies, and vendor comparison.' },
+  // REMOVED: /blog/digital-twins-ndt-guide → redirects to /blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025
+  // REMOVED: /blog/digital-twins-oil-gas → redirects to /blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025
 ];
 
 extraPages.forEach(p => {
