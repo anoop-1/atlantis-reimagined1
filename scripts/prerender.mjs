@@ -922,7 +922,7 @@ consultingCities.forEach(citySlug => {
     canonical,
     hreflangLinks,
     structuredData,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting ${cityName}</h1>\n    <p>ASNT Level III NDT consulting services in ${cityName}${diff ? ` for ${diff.industries}` : ''}. Expert procedure development, program audits, SNT-TC-1A compliance, and written practice development${diff ? `. ${diff.usp}` : ' for oil & gas, petrochemical, and industrial facilities'}.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting ${cityName}</h1>\n    <p>ASNT Level III NDT consulting services in ${cityName}${diff ? ` for ${diff.industries}` : ''}. Expert procedure development, program audits, SNT-TC-1A compliance, and written practice development${diff ? `. ${diff.usp}` : ' for oil & gas, petrochemical, and industrial facilities'}.</p>\n    ${diff ? `<p>Our ${cityName} consulting team holds ${diff.certs} qualifications. We provide on-site Level III support, procedure writing, and personnel certification programs tailored to ${cityName}'s ${diff.industries} industry requirements.</p>` : `<p>Our consulting team provides on-site Level III support, procedure writing, and personnel certification programs for industrial facilities in ${cityName}.</p>`}\n  </main>`,
   });
 });
 
@@ -988,12 +988,15 @@ methodPages.forEach(m => {
   // City-specific method pages
   methodCities.forEach(citySlug => {
     const cityName = toTitleCase(citySlug);
+    const diff = regionDifferentiators[citySlug] || {};
+    const localIndustries = diff.industries ? `<p>Serving ${cityName}'s ${diff.industries} sectors with certified ${m.short} inspection teams. ${diff.usp || ''}.</p>` : '';
+    const localCerts = diff.certs ? `<p>Our ${cityName} inspectors hold ${diff.certs} qualifications, ensuring full compliance with local and international standards.</p>` : '';
     routes.push({
       path: `/${m.slug}-${citySlug}`,
       title: `${m.method} ${cityName} | ${m.short} Inspection Services | Atlantis NDT`,
       description: `Professional ${m.method} (${m.short}) services in ${cityName}. ASNT Level II & III certified inspectors for ${m.detail}. Serving oil & gas, aerospace & industrial clients.`,
       canonical: `${SITE_URL}/${m.slug}-${citySlug}`,
-      bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${m.method} Services ${cityName}</h1>\n    <p>Professional ${m.method} (${m.short}) inspection services in ${cityName} from ASNT Level II & III certified inspectors. Specializing in ${m.detail}.</p>\n  </main>`,
+      bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${m.method} Services ${cityName}</h1>\n    <p>Professional ${m.method} (${m.short}) inspection services in ${cityName} from ASNT Level II & III certified inspectors. Specializing in ${m.detail}.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
     });
   });
 });
@@ -1705,6 +1708,9 @@ let programmaticCount = 0;
 advancedMethodSlugs.forEach(method => {
   top100.forEach(city => {
     const path = `/services/${method.slug}-${city.slug}`;
+    const diff = regionDifferentiators[city.slug] || {};
+    const localIndustries = diff.industries ? `<p>Serving ${city.name}'s ${diff.industries} sectors with certified ${method.shortName} inspection teams. ${diff.usp || ''}.</p>` : '';
+    const localCerts = diff.certs ? `<p>Our ${city.name} ${method.shortName} inspectors hold ${diff.certs} qualifications for full regulatory compliance.</p>` : '';
     routes.push({
       path,
       title: `${method.name} in ${city.name} | ${method.shortName} Services | Atlantis NDT`,
@@ -1720,7 +1726,8 @@ advancedMethodSlugs.forEach(method => {
             { "@type": "ListItem", "position": 3, "name": `${method.shortName} in ${city.name}`, "item": `${SITE_URL}${path}` }
           ]}
         ]
-      }
+      },
+      bodyContent: `  <header><nav><a href="/">Home</a><a href="/ndt-methods">Services</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${method.name} in ${city.name}</h1>\n    <p>Professional ${method.name} services in ${city.name}. ASNT Level III certified ${method.shortName} inspectors delivering advanced NDT inspection with code-compliant reporting.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
     });
     programmaticCount++;
   });
@@ -1741,10 +1748,14 @@ const industrySlugs = [
 industrySlugs.forEach(industry => {
   top40.forEach(city => {
     const path = `/industry/${industry.slug}-${city.slug}`;
+    const diff = regionDifferentiators[city.slug] || {};
+    const industryShort = industry.name.replace(' NDT Services', '').replace(' NDT Inspection', '');
+    const localIndustries = diff.industries ? `<p>${city.name} is a key hub for ${diff.industries} operations. ${diff.usp || ''}.</p>` : '';
+    const localCerts = diff.certs ? `<p>Our ${city.name} inspectors hold ${diff.certs} qualifications for ${industryShort} facility inspections.</p>` : '';
     routes.push({
       path,
       title: `${industry.name} in ${city.name} | NDT Inspection | Atlantis NDT`,
-      description: `${industry.name} in ${city.name}. Comprehensive NDT inspection for ${industry.name.replace(' NDT Services', '').replace(' NDT Inspection', '')} facilities. ASNT Level III certified inspectors.`,
+      description: `${industry.name} in ${city.name}. Comprehensive NDT inspection for ${industryShort} facilities. ASNT Level III certified inspectors.`,
       canonical: `${SITE_URL}${path}`,
       structuredData: {
         "@context": "https://schema.org",
@@ -1756,7 +1767,8 @@ industrySlugs.forEach(industry => {
             { "@type": "ListItem", "position": 3, "name": `${industry.name} in ${city.name}`, "item": `${SITE_URL}${path}` }
           ]}
         ]
-      }
+      },
+      bodyContent: `  <header><nav><a href="/">Home</a><a href="/industry">Industries</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${industry.name} in ${city.name}</h1>\n    <p>Comprehensive NDT inspection services for ${industryShort} facilities in ${city.name}. ASNT Level III certified inspectors delivering UT, RT, MT, PT, VT, and advanced methods.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
     });
     programmaticCount++;
   });
@@ -1773,6 +1785,9 @@ const inspectionSlugs = [
 inspectionSlugs.forEach(service => {
   top50.forEach(city => {
     const path = `/inspection/${service.slug}-${city.slug}`;
+    const diff = regionDifferentiators[city.slug] || {};
+    const localIndustries = diff.industries ? `<p>${city.name} facilities in the ${diff.industries} sectors require rigorous ${service.name.toLowerCase()}. ${diff.usp || ''}.</p>` : '';
+    const localCerts = diff.certs ? `<p>Our ${city.name} inspection team holds ${diff.certs} qualifications.</p>` : '';
     routes.push({
       path,
       title: `${service.name} in ${city.name} | NDT Inspection | Atlantis NDT`,
@@ -1788,7 +1803,8 @@ inspectionSlugs.forEach(service => {
             { "@type": "ListItem", "position": 3, "name": `${service.name} in ${city.name}`, "item": `${SITE_URL}${path}` }
           ]}
         ]
-      }
+      },
+      bodyContent: `  <header><nav><a href="/">Home</a><a href="/ndt-methods">Services</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${service.name} in ${city.name}</h1>\n    <p>Professional ${service.name.toLowerCase()} in ${city.name}. Expert NDT inspectors using UT, RT, MT, PT, and advanced methods for comprehensive inspection coverage with code-compliant reporting.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
     });
     programmaticCount++;
   });
@@ -1806,6 +1822,8 @@ const certSlugs = [
 certSlugs.forEach(cert => {
   top20.forEach(city => {
     const path = `/training/${cert.slug}-${city.slug}`;
+    const diff = regionDifferentiators[city.slug] || {};
+    const localInfo = diff.industries ? `<p>Professionals in ${city.name}'s ${diff.industries} sectors benefit from ${cert.name} to advance their NDT careers. ${diff.usp || ''}.</p>` : '';
     routes.push({
       path,
       title: `${cert.name} in ${city.name} | Atlantis NDT`,
@@ -1821,7 +1839,8 @@ certSlugs.forEach(cert => {
             { "@type": "ListItem", "position": 3, "name": `${cert.name} in ${city.name}`, "item": `${SITE_URL}${path}` }
           ]}
         ]
-      }
+      },
+      bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${cert.name} in ${city.name}</h1>\n    <p>${cert.name} courses in ${city.name}. Expert-led preparation with 95% first-time pass rate. Classroom and online options available from ASNT Level III instructors.</p>\n    ${localInfo}\n  </main>`,
     });
     programmaticCount++;
   });
@@ -2234,6 +2253,17 @@ function buildLegacySitemap(routeList) {
 ${urls}
 </urlset>`;
 }
+
+// ─── Deduplicate routes (later entries override earlier for same path) ─────
+const routeMap = new Map();
+routes.forEach(route => routeMap.set(route.path, route));
+const dedupedRoutes = [...routeMap.values()];
+const dupesRemoved = routes.length - dedupedRoutes.length;
+if (dupesRemoved > 0) console.log(`🔄 Deduplicated: removed ${dupesRemoved} duplicate routes (${routes.length} → ${dedupedRoutes.length})`);
+
+// Replace routes array reference for sitemap generation
+routes.length = 0;
+routes.push(...dedupedRoutes);
 
 // ─── Generate files ────────────────────────────────────────────────────────
 
