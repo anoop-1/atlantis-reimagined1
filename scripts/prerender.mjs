@@ -944,10 +944,35 @@ const methodPages = [
   { method: 'Visual Testing', slug: 'visual-testing', short: 'VT', detail: 'direct and remote visual inspection of welds, structures and components' },
 ];
 
+// Use all cities from allCitySlugs (defined later) + additional EU/city expansion
+// This ensures pre-rendered HTML exists for every method+city URL submitted to GSC
 const methodCities = [
-  'houston', 'los-angeles', 'new-orleans', 'denver', 'chicago', 'calgary',
-  'norway', 'kuwait', 'abu-dhabi', 'bangalore', 'mumbai', 'delhi', 'chennai',
-  'singapore', 'dubai', 'saudi-arabia', 'qatar', 'uk',
+  // US — major metros & industrial hubs
+  'houston', 'los-angeles', 'new-orleans', 'denver', 'chicago', 'seattle',
+  'dallas', 'phoenix', 'philadelphia', 'san-francisco', 'detroit', 'pittsburgh',
+  'new-york', 'boston', 'atlanta', 'miami', 'washington-dc', 'nashville',
+  'minneapolis', 'cleveland', 'baltimore', 'tampa', 'charlotte', 'indianapolis',
+  'san-diego', 'portland', 'salt-lake-city', 'kansas-city', 'st-louis', 'milwaukee',
+  'cincinnati', 'jacksonville', 'baton-rouge', 'corpus-christi', 'tulsa', 'beaumont',
+  // Middle East
+  'dubai', 'saudi-arabia', 'qatar', 'kuwait', 'abu-dhabi', 'bahrain', 'oman',
+  'jubail', 'yanbu', 'dammam',
+  // India
+  'mumbai', 'chennai', 'bangalore', 'delhi', 'kolkata', 'ahmedabad', 'jamnagar',
+  'vizag', 'kochi',
+  // Asia-Pacific
+  'singapore', 'malaysia', 'indonesia', 'thailand', 'vietnam', 'south-korea',
+  'japan', 'taiwan', 'australia', 'perth', 'melbourne', 'sydney', 'brisbane',
+  // Europe
+  'uk', 'norway', 'germany', 'netherlands', 'france', 'italy', 'spain',
+  'aberdeen', 'rotterdam', 'stavanger', 'london', 'hamburg', 'antwerp',
+  'marseille', 'milan', 'barcelona', 'gdansk', 'edinburgh',
+  // Canada
+  'calgary', 'edmonton', 'toronto', 'vancouver',
+  // Africa
+  'nigeria', 'lagos', 'south-africa', 'johannesburg',
+  // Latin America
+  'brazil', 'colombia', 'mexico-city',
 ];
 
 methodPages.forEach(m => {
@@ -2069,6 +2094,9 @@ function categorizeRoute(path) {
     return 'consulting-locations';
   }
   if (path.includes('-testing-') || path.includes('-inspection-')) return 'methods';
+  if (path.startsWith('/services/')) return 'methods';
+  if (path.startsWith('/industry/')) return 'methods';
+  if (path.startsWith('/inspection/')) return 'methods';
   if (path.startsWith('/digital-twin-')) return 'digital-twins';
   if (path.startsWith('/training') || path.includes('-training')) return 'training';
   return 'other';
