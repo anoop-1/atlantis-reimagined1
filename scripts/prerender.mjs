@@ -279,22 +279,22 @@ const corePages = [
   },
   {
     path: '/asnt-certification',
-    title: 'ASNT Certification [2026]: SNT-TC-1A Levels, Exam Costs ($200-$750) & $35K-$150K+ Career',
-    description: 'ASNT SNT-TC-1A certification guide: Level I/II/III exam requirements, costs ($200-$750 per exam), prerequisites, 95% pass rate. Career earnings: Level I ($35K-$60K), Level II ($60K-$85K), Level III ($85K-$150K+). Free study tips and training options.',
+    title: 'ASNT Certification [2026]: Level I/II/III Exam Cost, Requirements & Salary',
+    description: 'Pass your ASNT exam first try: SNT-TC-1A vs ACCP differences, exam costs ($200-$750), Level I/II/III requirements, and salary expectations ($35K-$150K+). Step-by-step study plan included.',
     bodyH1: 'ASNT NDT Certification Guide 2026',
     bodyText: 'Complete ASNT certification guide: SNT-TC-1A and ACCP programs for Level I, II, and III across all NDT methods. 95% first-time pass rate with ASNT Level III consulting available.',
   },
   {
     path: '/api-510-certification',
-    title: 'API 510 Certification [2026]: Exam Guide, Cost ($3K-$6K), Pass Rate (68%) & $75K-$150K Salary',
-    description: 'API 510 Pressure Vessel Inspector certification [2026]: exam format (170 questions, 7.5 hrs open-book), cost ($3K-$6K training + $495-$595 exam), 68% pass rate, 95% with our prep. Career earnings: $75K-$150K+. Required codes (API 510, ASME VIII, API 572/576/579). Free exam strategy guide.',
+    title: 'API 510 Certification [2026]: Pass the Exam (68% Fail) — Cost & Study Plan',
+    description: 'API 510 exam has a 68% fail rate. Beat it with our guide: 170 questions, 7.5 hrs open-book format, required codes (ASME VIII, API 572/576/579), cost ($3K-$6K). Salary: $75K-$150K+.',
     bodyH1: 'API 510 Pressure Vessel Inspector Certification',
     bodyText: 'API 510 pressure vessel inspector certification preparation. Comprehensive training and exam prep from experienced ASNT Level III instructors.',
   },
   {
     path: '/api-570-certification',
-    title: 'API 570 Certification [2026]: Piping Inspector Exam, Cost ($3K-$5K), Salary ($80K-$120K+)',
-    description: 'API 570 Piping Inspector certification [2026]: exam format (170 questions, 7.5 hrs open-book), cost ($3K-$5K training), required 8 codes (ASME B31.3, API 571/574/577/580), exam fee ($495-$595), 95% pass rate. Salary: $80K-$120K+. Exam strategy, formula sheets, and code navigation tips included.',
+    title: 'API 570 Certification [2026]: Piping Inspector Exam Guide & $80K-$120K Salary',
+    description: 'API 570 piping inspector exam: 170 questions, 8 required codes, $3K-$5K total cost. Get our code navigation tips, formula sheets, and study plan. Salary: $80K-$120K+.',
     bodyH1: 'API 570 Piping Inspector Certification',
     bodyText: 'Comprehensive API 570 Piping Inspector certification exam preparation. Open-book format covering ASME B31.3, API 570/571/574/577, remaining life calculations, and RBI. Dubai, Houston, India, and online.',
   },
@@ -314,8 +314,8 @@ const corePages = [
   },
   {
     path: '/api-653-certification',
-    title: 'API 653 Certification [2026]: Tank Inspector Exam, Cost ($3K-$6K), Salary ($80K-$130K+)',
-    description: 'API 653 Tank Inspector certification [2026]: open-book exam (170 questions, 7.5 hrs), 10 required reference codes (API 650/651/653, ASME V/IX), exam cost ($495-$595), training ($3K-$6K), 95% pass rate. Career salary: $80K-$130K+. RBI calculations, shell/floor inspection, and corrosion assessment included. Free practice exam.',
+    title: 'API 653 Certification [2026]: Tank Inspector Exam — 10 Codes You Must Know',
+    description: 'API 653 tank inspector exam requires 10 reference codes (API 650/651/653, ASME V/IX). Our guide covers exam format, cost ($3K-$6K), RBI formulas, and $80K-$130K+ salary path.',
     bodyH1: 'API 653 Aboveground Storage Tank Inspector Certification',
     bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, RBI, tank inspection intervals, and NDT methods. 95% pass rate.',
   },
@@ -1066,10 +1066,10 @@ routes.push({
 const extraPages = [
   // REMOVED: /digital-twins-ndt-guide → redirects to /digital-twins
   // REMOVED: /digital-twins-oil-gas → content consolidated into /digital-twins
-  { path: '/ut-vs-rt-comparison', title: 'UT vs RT Comparison [2026]: Cost ($800 vs $1,500/weld), Speed & Safety Guide', description: 'Ultrasonic vs radiographic testing [2026]: cost ($800 UT vs $1,500 RT per weld), speed comparison, radiation safety, sensitivity, ASME/AWS requirements. Decision matrix: when to use UT vs RT for welds, castings, and in-service inspection. Expert comparison table included.' },
-  { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection Guide [2026] | Intervals, Floor Scanning & Checklist', description: 'API 653 tank inspection explained: external (every 5 yr), internal (every 10 yr, RBI-adjustable), floor UT/MFL scanning, shell thickness evaluation, and hot-tap repair criteria. Free downloadable checklist.' },
+  { path: '/ut-vs-rt-comparison', title: 'UT vs RT: Which Weld Inspection Method Wins? [2026 Comparison]', description: 'UT costs $800/weld vs RT at $1,500 — but RT catches defects UT misses. Side-by-side comparison: cost, speed, safety, accuracy, and ASME/AWS code requirements. Free decision matrix.' },
+  { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection [2026]: Intervals, Floor Scan & Free Checklist', description: 'API 653 inspection intervals: external every 5 yr, internal every 10 yr (RBI-adjustable). Covers floor UT/MFL scanning, shell thickness, hot-tap repair criteria. Download free checklist.' },
   // REMOVED: /blog/ndt-career-guide → redirects to /blog/ndt-salary-guide-2025-global-level-1-2-3
-  { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT: Weld Inspection [2026] - Cost ($800-$1,500), Safety & Accuracy Comparison', description: 'UT vs RT for weld inspection [2026]: cost comparison ($800 UT vs $1,500+ RT per weld), speed, accuracy, radiation safety, ASME/AWS code requirements, defect detection sensitivity. Complete decision matrix for welds, castings, and in-service piping. Free comparison table and expert recommendations.' },
+  { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT for Welds [2026]: Cost, Safety & Accuracy — Which to Choose?', description: 'Choosing UT or RT for weld inspection? Compare cost ($800 vs $1,500+/weld), radiation safety, defect sensitivity, and ASME/AWS requirements. Includes decision matrix and expert picks.' },
   // REMOVED: /blog/digital-twins-ndt-guide → redirects to /blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025
   // REMOVED: /blog/digital-twins-oil-gas → redirects to /blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025
 
