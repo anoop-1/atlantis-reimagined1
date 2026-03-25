@@ -25,12 +25,15 @@ URLs are submitted strictly in tier order — a tier must complete before the ne
 ### Current Status (updated 2026-03-24)
 - **Submitted:** 610 URLs (atlantisndt.com Tier 1)
 - **GSC confirmed indexed:** 469 pages (GSC dashboard, authoritative)
-- **GSC not indexed:** 1,581 pages (mostly Soft 404s — fixed 2026-03-24)
-- **Pre-rendered pages:** 2,442 (was ~1,700 — expanded methodCities from 18→97)
+- **GSC not indexed:** 1,581 pages (Soft 404s — meta fix deployed 2026-03-24)
+- **Pre-rendered pages:** 2,244 unique (was ~1,700 — expanded cities, removed 198 dupes)
 - **Remaining to submit:** ~5,753 URLs (~29 days at 200/day)
-- **Soft 404 fix deployed:** 2026-03-24 (commit 0bd5b58, expanded prerender.mjs)
-- **GSC verified properties:** 51 of 58
-- **Unverified (5):** go-visa.vercel.app (no meta tag), passport-power-index.vercel.app (no meta tag), travel-docs-checklist.vercel.app (no meta tag), ut-testing-academy.vercel.app (not deployed), weld-inspection-pro.vercel.app (not deployed)
+- **Soft 404 fix deployed:** 2026-03-24 (prerender.mjs: methodCities 18→97, dedup, enhanced bodyContent)
+- **Meta optimization:** Top 10 high-impression pages titles/descriptions rewritten for CTR
+- **GA4 active:** atlantisndt.com (G-1EF92RXSVR), ndt-connect.com (deployed), visapath (deployed)
+- **GSC verified properties:** 58 of 58 (all verified)
+- **Core Web Vitals:** No CrUX data yet (insufficient traffic — needs ~1,000+ visits/28 days)
+- **Known issue:** React SPA client-side rendering overrides pre-rendered H1/body with homepage. Meta tags, title, description, structured data ARE correct in pre-rendered HTML. Full fix requires React Router component changes to render city-specific content.
 
 ### How It Works
 1. Script loads URLs from multiple source files + generates ndt-connect.com URLs programmatically
