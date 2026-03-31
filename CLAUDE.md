@@ -22,18 +22,22 @@ URLs are submitted strictly in tier order — a tier must complete before the ne
 | 5 | GoVisa primary | go-visa.vercel.app (~395 URLs) |
 | 6 | GoVisa satellites | 5 travel vercel.app sites (~10 URLs) |
 
-### Current Status (updated 2026-03-24)
-- **Submitted:** 610 URLs (atlantisndt.com Tier 1)
-- **GSC confirmed indexed:** 469 pages (GSC dashboard, authoritative)
-- **GSC not indexed:** 1,581 pages (Soft 404s — meta fix deployed 2026-03-24)
+### Current Status (updated 2026-03-31)
+- **Submitted:** 1,530 URLs (Tier 1 + Tier 2 complete, Tier 3 in progress)
+- **GSC confirmed indexed:** 1,519 pages
+- **GSC not indexed:** 1,598 pages (mostly "Discovered - currently not indexed" + "URL unknown" — NO more Soft 404s)
 - **Pre-rendered pages:** 2,244 unique (was ~1,700 — expanded cities, removed 198 dupes)
-- **Remaining to submit:** ~5,753 URLs (~29 days at 200/day)
-- **Soft 404 fix deployed:** 2026-03-24 (prerender.mjs: methodCities 18→97, dedup, enhanced bodyContent)
+- **Remaining to submit:** ~4,301 URLs (~22 days at 200/day)
+- **Soft 404 fix:** Deployed 2026-03-24 — confirmed resolved via URL Inspection API spot-check (0 Soft 404s)
+- **Noindex fix:** Deployed 2026-03-31 — DynamicCityRoute replaces NotFound catch-all, prevents 342 city pages from getting noindex on React hydration
+- **Auto-reschedule:** GSC script now auto-reschedules Windows task to 24h+1min after each run (rolling quota)
 - **Meta optimization:** Top 10 high-impression pages titles/descriptions rewritten for CTR
 - **GA4 active:** atlantisndt.com (G-1EF92RXSVR), ndt-connect.com (deployed), visapath (deployed)
+- **GA4 API:** NOT yet enabled — needs Analytics Data API + Admin API enabled in GCP project 139446864572, plus service account viewer access
 - **GSC verified properties:** 58 of 58 (all verified)
 - **Core Web Vitals:** No CrUX data yet (insufficient traffic — needs ~1,000+ visits/28 days)
-- **Known issue:** React SPA client-side rendering overrides pre-rendered H1/body with homepage. Meta tags, title, description, structured data ARE correct in pre-rendered HTML. Full fix requires React Router component changes to render city-specific content.
+- **Search performance (28-day):** 185 clicks, 19,522 impressions, 0.95% CTR, avg position 16.9 — week-over-week: clicks +22%, impressions +44%
+- **Known issue (RESOLVED):** React SPA catch-all was rendering NotFound with noindex for 342 pre-rendered city pages. Fixed with DynamicCityRoute + DynamicTrainingPage components.
 
 ### How It Works
 1. Script loads URLs from multiple source files + generates ndt-connect.com URLs programmatically
