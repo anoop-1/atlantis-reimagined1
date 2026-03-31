@@ -165,6 +165,7 @@ export const keyLocations = [
     { name: "Belgium", slug: "belgium", country: "BE", region: "Europe", color: "amber", industries: ["Petrochemical", "Nuclear", "Manufacturing"], companies: ["BASF Antwerp", "Engie", "ExxonMobil"] },
     { name: "Scotland", slug: "scotland", country: "GB", region: "UK", color: "blue", industries: ["Offshore Oil & Gas", "Renewable Energy", "Subsea"], companies: ["BP", "Shell", "Wood Group"] },
     { name: "Aberdeen", slug: "aberdeen", country: "GB", region: "Scotland", color: "slate", industries: ["North Sea Offshore", "Subsea", "Decommissioning"], companies: ["BP", "Shell", "TotalEnergies", "Apache"] },
+    { name: "London", slug: "london", country: "GB", region: "England", color: "slate", industries: ["Aerospace", "Construction", "Nuclear", "Rail"], companies: ["BAE Systems", "Rolls-Royce", "Network Rail", "EDF Energy"] },
     { name: "Hamburg", slug: "hamburg", country: "DE", region: "Europe", color: "amber", industries: ["Maritime", "Shipbuilding", "Manufacturing"], companies: ["Meyer Werft", "Blohm+Voss", "Siemens"] },
     { name: "Rotterdam", slug: "rotterdam", country: "NL", region: "Europe", color: "orange", industries: ["Petrochemical", "Marine", "Pipeline"], companies: ["Shell", "Vopak", "Boskalis"] },
     { name: "Stavanger", slug: "stavanger", country: "NO", region: "Europe", color: "blue", industries: ["Oil & Gas", "Offshore", "Subsea"], companies: ["Equinor", "Aker", "Stena Line"] },

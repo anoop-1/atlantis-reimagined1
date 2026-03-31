@@ -13,6 +13,7 @@ const AdvancedMethodLocationPage = lazy(() => import("./components/AdvancedMetho
 const IndustryLocationPage = lazy(() => import("./components/IndustryLocationPage"));
 const InspectionServiceLocationPage = lazy(() => import("./components/InspectionServiceLocationPage"));
 const CertTrainingLocationPage = lazy(() => import("./components/CertTrainingLocationPage"));
+const DynamicCityRoute = lazy(() => import("./components/DynamicCityRoute"));
 
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
@@ -1300,7 +1301,7 @@ const App = () => (
                   {/* Certification Training + Location: API 510/570/653, ASNT, CWI × 20 cities */}
                   <Route path="/training/:slug" element={<LazyRoute Component={CertTrainingLocationPage} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
-                     <Route path="*" element={<LazyRoute Component={NotFound} />} />
+                     <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>
                </Suspense>
             </BrowserRouter>
