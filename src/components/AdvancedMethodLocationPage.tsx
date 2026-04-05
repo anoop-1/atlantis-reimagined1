@@ -3,6 +3,7 @@ import { useMemo, useEffect } from "react";
 import { Navigation } from "./Navigation";
 import { SEOHead } from "./SEOHead";
 import { keyLocations } from "@/data/programmatic-seo";
+import { isCuratedCity } from '@/data/curated-cities';
 
 // Advanced method data
 const advancedMethods: Record<string, {
@@ -203,6 +204,7 @@ export default function AdvancedMethodLocationPage() {
   }
 
   const { method, methodSlug, city } = parsed;
+  const citySlug = city.slug;
   const cityContext = getCityContext(city.name, city.country, city.region, city.industries);
   const pageTitle = `${method.name} in ${city.name} | ${method.shortName} Inspection Services`;
   const pageDescription = `Professional ${method.name} (${method.shortName}) inspection services in ${city.name}, ${city.region}. ${method.fullDescription.slice(0, 120)}...`;
@@ -244,6 +246,7 @@ export default function AdvancedMethodLocationPage() {
       <SEOHead
         title={pageTitle}
         description={pageDescription}
+        noindex={!isCuratedCity(citySlug)}
         canonical={`https://atlantisndt.com/services/${slug}`}
       />
       <Navigation />

@@ -8,6 +8,7 @@ import { CheckCircle, MapPin, Award, GraduationCap, Users, BookOpen, Briefcase, 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { useMemo, useEffect } from "react";
+import { isCuratedCity } from '@/data/curated-cities';
 
 // Color map for certification types
 const colorMap: Record<string, { bg: string; text: string; light: string; badge: string }> = {
@@ -315,6 +316,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
             <SEOHead
                 title={pageTitle}
                 description={pageDescription}
+                noindex={!isCuratedCity(parsedData.citySlug)}
                 keywords={keywords}
                 structuredData={[courseSchema, breadcrumbSchema]}
             />

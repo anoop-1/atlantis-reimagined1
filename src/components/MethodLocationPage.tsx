@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, MapPin, Award, GraduationCap, Users, Cpu, Globe, BookOpen, Lightbulb, Target, Briefcase, FileText, TrendingUp } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ndtMethods, keyLocations } from "@/data/programmatic-seo";
+import { isCuratedCity } from '@/data/curated-cities';
 
 const colorMap: Record<string, { bg: string; text: string; light: string }> = {
     amber: { bg: "from-slate-800 to-slate-900", text: "text-amber-600", light: "bg-amber-50" },
@@ -19,6 +20,19 @@ const colorMap: Record<string, { bg: string; text: string; light: string }> = {
     rose: { bg: "from-slate-800 to-slate-900", text: "text-rose-600", light: "bg-rose-50" },
     red: { bg: "from-slate-800 to-slate-900", text: "text-red-600", light: "bg-red-50" },
     slate: { bg: "from-slate-800 to-slate-900", text: "text-slate-600", light: "bg-slate-50" }
+};
+
+// Helper function to generate dynamic location context from city data
+const generateDynamicContext = (location: any, method: any): string => {
+    const { name, industries, companies, region } = location;
+    const { name: methodName, shortName, applications } = method;
+
+    const firstIndustry = industries[0] || 'industrial';
+    const secondIndustry = industries[1] || 'manufacturing';
+    const mainCompanies = companies.slice(0, 2).join(' and ');
+    const mainApplications = applications.slice(0, 2).join(' and ');
+
+    return `${name}'s ${industries.join(', ')} sectors create sustained demand for ${methodName} professionals. Major employers including ${mainCompanies} rely on certified ${shortName} technicians for ongoing asset integrity programs. The ${region} industrial environment requires technicians familiar with both ${mainApplications}, making ${shortName} certification a valuable credential for professionals building careers in ${name}. Regular ${shortName} inspections are critical for maintaining compliance with API, ASME, and industry-specific codes while ensuring operational safety and equipment longevity.`;
 };
 
 // Location-specific context explaining why each NDT method matters in that location's industrial environment
@@ -232,7 +246,8 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
         { hreflang: 'en', href: canonical }
     ];
 
-    const locationContext = methodLocationContext[locationSlug] || methodLocationContext["default"];
+    // Use hardcoded context if available, otherwise generate dynamically from location data
+    const locationContext = methodLocationContext[locationSlug] || generateDynamicContext(location, method);
     const certReqs = localCertRequirements[locationSlug] || localCertRequirements["default"];
     const mDetails = methodDetails[methodSlug];
 
@@ -311,6 +326,7 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
                 canonical={canonical}
                 structuredData={structuredData}
                 hreflangLinks={hreflangLinks}
+                noindex={!isCuratedCity(locationSlug)}
             />
             <Breadcrumbs />
 

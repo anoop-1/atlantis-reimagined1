@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, MapPin, Award, GraduationCap, Users, Briefcase, Building2, Factory, Shield, TrendingUp, Phone, ChevronRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { isCuratedCity } from '@/data/curated-cities';
 
 // ── State Data ───────────────────────────────────────────────────────────────
 
@@ -633,6 +634,7 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
       <SEOHead
         title={state.metaTitle}
         description={state.metaDescription}
+        noindex={true}
         canonical={`https://atlantisndt.com/ndt-consulting-${state.slug}`}
         structuredData={structuredData}
       />

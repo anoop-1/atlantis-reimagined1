@@ -14,6 +14,8 @@ interface SEOHeadProps {
   canonical?: string;
   structuredData?: object;
   hreflangLinks?: HreflangLink[];
+  /** Set to true for low-value city-template pages to prevent doorway page penalties */
+  noindex?: boolean;
 }
 
 export const SEOHead = ({
@@ -23,7 +25,8 @@ export const SEOHead = ({
   ogImage = "/og-image.jpg",
   canonical,
   structuredData,
-  hreflangLinks
+  hreflangLinks,
+  noindex = false,
 }: SEOHeadProps) => {
   useEffect(() => {
     // Set title (avoid duplicate branding if title already contains site name)
@@ -57,7 +60,7 @@ export const SEOHead = ({
     setMetaTag('description', description);
     setMetaTag('keywords', keywords);
     setMetaTag('viewport', 'width=device-width, initial-scale=1.0');
-    setMetaTag('robots', 'index, follow');
+    setMetaTag('robots', noindex ? 'noindex, follow' : 'index, follow');
     setMetaTag('author', 'Atlantis NDT');
 
     // Normalize canonical (prefer SITE_URL)

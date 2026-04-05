@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { GraduationCap, MapPin, Award, CheckCircle, TrendingUp, Users, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { isCuratedCity } from '@/data/curated-cities';
 
 interface TrainingCity {
   name: string;
@@ -64,6 +65,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
           description={`Professional NDT training in ${cityName}. ASNT Level I, II & III certification for UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol today.`}
           keywords={`NDT training ${cityName}, ASNT certification ${cityName}, ultrasonic testing training, NDT courses`}
           canonical={`https://atlantisndt.com/ndt-training-${citySlug}`}
+          noindex={!isCuratedCity(citySlug)}
         />
         <main className="pt-24 pb-16">
           <div className="container mx-auto max-w-5xl px-6">
@@ -91,6 +93,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
         description={pageDesc}
         keywords={`NDT training ${name}, ASNT certification ${name}, ultrasonic testing training ${name}, NDT courses ${region}`}
         canonical={`https://atlantisndt.com/ndt-training-${citySlug}`}
+        noindex={!isCuratedCity(citySlug)}
       />
       <Breadcrumbs items={[
         { label: "Home", href: "/" },

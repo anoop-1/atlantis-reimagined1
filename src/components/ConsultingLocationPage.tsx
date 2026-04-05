@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Users, FileText, Shield, Award, Target, MapPin, Building, Globe, AlertTriangle, Briefcase, BookOpen, Phone, Clock, Star } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
+import { isCuratedCity } from '@/data/curated-cities';
 
 // Happy client logos - trusted global brands
 const clientLogos = [
@@ -432,6 +433,20 @@ const locationIntros: Record<string, { intro: string; marketInsight: string; reg
 };
 
 // Generic fallback for locations without specific content
+// Helper function to generate dynamic location content for unmapped locations
+const generateDynamicConsultingContent = (location: any): { intro: string; marketInsight: string; regionalChallenge: string } => {
+    const { name, industries, region, companies } = location;
+    const primaryIndustry = industries[0] || 'industrial';
+    const secondaryIndustry = industries[1] || 'manufacturing';
+    const mainCompanies = companies.slice(0, 2).join(' and ');
+
+    return {
+        intro: `${name} serves as a significant hub for the ${primaryIndustry.toLowerCase()} and ${secondaryIndustry.toLowerCase()} sectors, with major facilities requiring rigorous NDT programs to ensure operational safety, regulatory compliance, and asset integrity management. The ${region} region's industrial landscape demands comprehensive Level III consulting expertise.`,
+        marketInsight: `Investment in ${primaryIndustry.toLowerCase()} operations and ongoing modernization across ${secondaryIndustry.toLowerCase()} facilities in the ${region} region create sustained demand for qualified Level III consulting expertise. Major operators including ${mainCompanies} require specialized NDT program development and compliance support.`,
+        regionalChallenge: `The ${region} industrial environment presents unique inspection challenges including climate-specific corrosion factors, regulatory requirements aligned with international and regional standards, and the complexity of diverse equipment and applications. Experienced consultants familiar with both ${industries.join(' and ')} sector requirements are essential for effective NDT program management in ${name}.`
+    };
+};
+
 const defaultLocationContent = {
     intro: "This strategic location serves as a significant hub for industrial operations, with major facilities requiring rigorous NDT programs to ensure operational safety and regulatory compliance.",
     marketInsight: "Growing infrastructure investment and evolving regulatory requirements create sustained demand for qualified Level III consulting expertise in this region.",
@@ -667,6 +682,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                 canonical={canonical}
                 structuredData={structuredData}
                 hreflangLinks={hreflangLinks}
+                noindex={!isCuratedCity(locationSlug)}
             />
             <Breadcrumbs />
 
@@ -757,7 +773,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                         <h2 className="text-3xl font-bold mb-6">NDT Consulting Market in {location.name}</h2>
                         <div className="prose prose-lg max-w-none">
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                {locationIntros[location.slug]?.intro || defaultLocationContent.intro.replace("This strategic location", location.name)}
+                                {locationIntros[location.slug]?.intro || generateDynamicConsultingContent(location).intro}
                             </p>
                             <div className="grid md:grid-cols-2 gap-8 mt-8">
                                 <Card className={`border-l-4 ${colors.border}`}>
@@ -769,7 +785,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                                     </CardHeader>
                                     <CardContent>
                                         <p className="text-slate-600">
-                                            {locationIntros[location.slug]?.marketInsight || defaultLocationContent.marketInsight}
+                                            {locationIntros[location.slug]?.marketInsight || generateDynamicConsultingContent(location).marketInsight}
                                         </p>
                                     </CardContent>
                                 </Card>
@@ -782,7 +798,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                                     </CardHeader>
                                     <CardContent>
                                         <p className="text-slate-600">
-                                            {locationIntros[location.slug]?.regionalChallenge || defaultLocationContent.regionalChallenge}
+                                            {locationIntros[location.slug]?.regionalChallenge || generateDynamicConsultingContent(location).regionalChallenge}
                                         </p>
                                     </CardContent>
                                 </Card>

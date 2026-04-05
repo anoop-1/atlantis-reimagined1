@@ -8,6 +8,7 @@ import { useMemo, useEffect } from "react";
 import { CheckCircle, MapPin, Award, Zap, Shield, TrendingUp, Microscope, AlertCircle, Users, Settings, FileText, Briefcase } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
+import { isCuratedCity } from '@/data/curated-cities';
 
 const colorMap: Record<string, { bg: string; text: string; light: string }> = {
   amber: { bg: "from-amber-600 to-amber-700", text: "text-amber-600", light: "bg-amber-50" },
@@ -331,7 +332,7 @@ export const InspectionServiceLocationPage = () => {
     );
   }
 
-  const { service, city, serviceSlug } = pageData;
+  const { service, city, serviceSlug, citySlug } = pageData;
   const colorScheme = colorMap[city.color];
   const cityName = city.name;
 
@@ -379,6 +380,7 @@ export const InspectionServiceLocationPage = () => {
         keywords={`${service.title}, ${cityName}, ${service.methods.map(m => m.code).join(", ")}, NDT inspection, certified inspectors, ${city.industries.join(", ")}`}
         canonical={`/inspection/${slug}`}
         structuredData={[structuredData, breadcrumbData]}
+        noindex={!isCuratedCity(citySlug)}
       />
       <Navigation />
 

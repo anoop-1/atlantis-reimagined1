@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
+import { isCuratedCity } from '@/data/curated-cities';
 
 interface NDTMethod {
   name: string;
@@ -633,6 +634,7 @@ export const IndustryLocationPage: React.FC = () => {
         description={pageDescription}
         keywords={`${parsed.industry}, ${parsed.city} NDT, non-destructive testing, inspection services, Level III consulting`}
         structuredData={structuredData}
+        noindex={!isCuratedCity(parsed.citySlug)}
       />
       <Navigation />
 
