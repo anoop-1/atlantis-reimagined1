@@ -1,0 +1,27 @@
+{
+  "name": "industrial-inspection-resources",
+  "version": "1.0.0",
+  "description": "Industrial Inspection Resources - Comprehensive guide to NDT and asset integrity in oil & gas, aerospace, power generation, and manufacturing",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.18",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}

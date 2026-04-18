@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, XCircle, ArrowRight, Scale } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { buildTechArticleSchema } from "@/data/author-schema";
 
 const comparisonTable = [
     { feature: "Detection Type", ut: "Volumetric (internal)", rt: "Volumetric (internal)" },
@@ -77,13 +78,16 @@ export default function UTvsRTComparison() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            {
-                "@type": "Article",
-                "headline": "Ultrasonic Testing vs Radiographic Testing: Complete Comparison",
-                "description": "Comprehensive comparison of UT and RT methods. Advantages, disadvantages, when to use each, and which is better for your application.",
-                "author": { "@type": "Organization", "name": "Atlantis NDT" },
-                "datePublished": "2026-01-15"
-            },
+            buildTechArticleSchema({
+                url: "https://atlantisndt.com/blog/ut-vs-rt-comparison",
+                headline: "UT vs RT 2026: 14-Point Comparison (Weld Inspection, Thickness, POD, Cost, Codes)",
+                description: "Ultrasonic Testing vs Radiographic Testing — 14 criteria compared: probability of detection (UT 80-95%, RT 70-90%), sensitivity to crack orientation, weld inspection (AWS D1.1 vs ASME V), thickness range, cost per linear foot, safety (no radiation), speed, training (ASNT UT Level II vs RT Level II). When to choose PAUT over RT. By ASNT Level III Anoop Rayavarapu.",
+                datePublished: "2026-01-15",
+                dateModified: "2026-04-18",
+                section: "NDT Method Comparison",
+                keywords: "UT vs RT, ultrasonic vs radiographic, PAUT vs RT, weld inspection NDT, AWS D1.1",
+                dependencies: "ASME BPVC Section V, ASTM E164, ASTM E213, API 1104, AWS D1.1, ISO 17640, ISO 17636",
+            }),
             {
                 "@type": "FAQPage",
                 "mainEntity": faqs.map(faq => ({
@@ -99,8 +103,8 @@ export default function UTvsRTComparison() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="UT vs RT: Ultrasonic Testing vs Radiographic Testing Comparison 2026 | Atlantis NDT"
-                description="Complete comparison of Ultrasonic Testing (UT) vs Radiographic Testing (RT). Advantages, disadvantages, when to use each method. Expert guide for NDT selection."
+                title="UT vs RT 2026: 14-Point Comparison — POD, Speed, Cost, Codes, When to Use Each"
+                description="Ultrasonic Testing vs Radiographic Testing — POD 80-95% vs 70-90%, sensitivity by crack orientation, weld inspection per AWS D1.1 & ASME V, cost/ft, safety (no radiation), training hours. PAUT replacing RT — when. By ASNT Level III."
                 keywords="UT vs RT, ultrasonic vs radiographic, NDT comparison, UT advantages, RT disadvantages, PAUT vs film, weld inspection methods"
                 canonical="https://atlantisndt.com/blog/ut-vs-rt-comparison"
                 structuredData={structuredData}

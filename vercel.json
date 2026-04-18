@@ -242,12 +242,42 @@
     },
     {
       "source": "/blog/ndt-career-top-choice-2025-global-market-trends",
-      "destination": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "destination": "/blog/ndt-salary-guide-2026-global",
       "statusCode": 301
     },
     {
       "source": "/blog/ndt-career-guide",
-      "destination": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-technician-salary-guide-2026-industry-report",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/eddy-current-testing",
+      "destination": "/blog/eddy-current-testing-complete-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/eddy-current-testing-complete-beginner-guide",
+      "destination": "/blog/eddy-current-testing-complete-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/magnetic-particle-testing",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ultrasonic-testing",
+      "destination": "/blog/ultrasonic-testing-ultimate-guide",
       "statusCode": 301
     },
     {

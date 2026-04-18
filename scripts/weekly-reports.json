@@ -1,0 +1,95 @@
+[
+  {
+    "date": "2026-03-31T09:02:00.238Z",
+    "period": {
+      "startDate": "2026-03-21",
+      "endDate": "2026-03-28"
+    },
+    "metrics": {
+      "clicks": 72,
+      "impressions": 7792,
+      "ctr": 0.009169937980895543,
+      "position": 15.074520549322306
+    },
+    "previousMetrics": {
+      "clicks": 59,
+      "impressions": 5394,
+      "ctr": 0.010914206680698167,
+      "position": 19.06079807420935
+    },
+    "topGainers": [
+      {
+        "page": "/",
+        "clickDelta": 4,
+        "impDelta": 1,
+        "twClicks": 10,
+        "lwClicks": 6
+      },
+      {
+        "page": "/blog/ndt-salary-guide-2026-global",
+        "clickDelta": 4,
+        "impDelta": 1872,
+        "twClicks": 7,
+        "lwClicks": 3
+      },
+      {
+        "page": "/blog/ut-vs-rt-comparison",
+        "clickDelta": 3,
+        "impDelta": 18,
+        "twClicks": 3,
+        "lwClicks": 0
+      },
+      {
+        "page": "/api-570-certification",
+        "clickDelta": 2,
+        "impDelta": 33,
+        "twClicks": 4,
+        "lwClicks": 2
+      },
+      {
+        "page": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+        "clickDelta": 2,
+        "impDelta": 445,
+        "twClicks": 2,
+        "lwClicks": 0
+      }
+    ],
+    "topDecliners": [
+      {
+        "page": "/training-india",
+        "clickDelta": -1,
+        "impDelta": -20,
+        "twClicks": 0,
+        "lwClicks": 1
+      },
+      {
+        "page": "/ultrasonic-testing-singapore",
+        "clickDelta": -1,
+        "impDelta": 0,
+        "twClicks": 0,
+        "lwClicks": 1
+      },
+      {
+        "page": "/api-510-certification",
+        "clickDelta": -2,
+        "impDelta": -81,
+        "twClicks": 1,
+        "lwClicks": 3
+      },
+      {
+        "page": "/training/cwi-training-nashville",
+        "clickDelta": -2,
+        "impDelta": 14,
+        "twClicks": 0,
+        "lwClicks": 2
+      },
+      {
+        "page": "/asnt-certification",
+        "clickDelta": -4,
+        "impDelta": -194,
+        "twClicks": 3,
+        "lwClicks": 7
+      }
+    ]
+  }
+]

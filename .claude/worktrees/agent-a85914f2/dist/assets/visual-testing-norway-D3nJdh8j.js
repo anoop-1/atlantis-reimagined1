@@ -1,0 +1,1 @@
+import{j as o}from"./index-DPOIg50j.js";import{M as t}from"./MethodLocationPage-DCSBcGty.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function m(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"norway"})}export{m as default};

@@ -1,0 +1,1096 @@
+{
+  "auditDate": "2026-03-22T11:01:16.754Z",
+  "properties": {
+    "travel-docs-checklist.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "industrial-coating-inspection.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "ndt-equipment-reviews.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "middle-east-ndt-resource.vercel.app": {
+      "status": "ok",
+      "indexed": 2,
+      "totalClicks": 0,
+      "totalImpressions": 6,
+      "topPages": [
+        {
+          "url": "https://middle-east-ndt-resource.vercel.app/",
+          "clicks": 0,
+          "impressions": 4
+        },
+        {
+          "url": "https://middle-east-ndt-resource.vercel.app/career",
+          "clicks": 0,
+          "impressions": 2
+        }
+      ]
+    },
+    "sc-domain:ndtconnect.com": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "sc-domain:atlantisndt.com": {
+      "status": "ok",
+      "indexed": 390,
+      "totalClicks": 257,
+      "totalImpressions": 30661,
+      "topPages": [
+        {
+          "url": "https://atlantisndt.com/blog/eddy-current-testing",
+          "clicks": 6,
+          "impressions": 3789
+        },
+        {
+          "url": "https://atlantisndt.com/blog/api-653-tank-inspection-guide",
+          "clicks": 8,
+          "impressions": 2082
+        },
+        {
+          "url": "https://atlantisndt.com/asnt-certification",
+          "clicks": 10,
+          "impressions": 1720
+        },
+        {
+          "url": "https://atlantisndt.com/blog/ut-vs-rt-comparison",
+          "clicks": 5,
+          "impressions": 1584
+        },
+        {
+          "url": "https://atlantisndt.com/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+          "clicks": 0,
+          "impressions": 1385
+        }
+      ]
+    },
+    "subsea-inspection-guide.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 92,
+      "topPages": [
+        {
+          "url": "https://subsea-inspection-guide.vercel.app/",
+          "clicks": 0,
+          "impressions": 92
+        }
+      ]
+    },
+    "corrosion-engineering-guide.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "welding-inspection-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "pressure-vessel-inspection.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "lng-inspection-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 4,
+      "topPages": [
+        {
+          "url": "https://lng-inspection-hub.vercel.app/",
+          "clicks": 0,
+          "impressions": 4
+        }
+      ]
+    },
+    "marine-offshore-ndt.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "petrochemical-ndt-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "nuclear-ndt-resource.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 5,
+      "topPages": [
+        {
+          "url": "https://nuclear-ndt-resource.vercel.app/",
+          "clicks": 0,
+          "impressions": 5
+        }
+      ]
+    },
+    "ut-testing-academy.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "dt.atlantisndt.com": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 1,
+      "topPages": [
+        {
+          "url": "https://dt.atlantisndt.com/",
+          "clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    "ndt-career-portal.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "weld-inspection-pro.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "oil-gas-inspection-guide.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 3,
+      "topPages": [
+        {
+          "url": "https://oil-gas-inspection-guide.vercel.app/",
+          "clicks": 0,
+          "impressions": 3
+        }
+      ]
+    },
+    "ndt-automation-future.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 3,
+      "topPages": [
+        {
+          "url": "https://ndt-automation-future.vercel.app/",
+          "clicks": 0,
+          "impressions": 3
+        }
+      ]
+    },
+    "coating-inspection-guide.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 11,
+      "topPages": [
+        {
+          "url": "https://coating-inspection-guide.vercel.app/",
+          "clicks": 0,
+          "impressions": 11
+        }
+      ]
+    },
+    "aerospace-ndt-standards.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "ndt-digital-technology.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "construction-ndt-guide.vercel.app": {
+      "status": "ok",
+      "indexed": 2,
+      "totalClicks": 0,
+      "totalImpressions": 11,
+      "topPages": [
+        {
+          "url": "https://construction-ndt-guide.vercel.app/structural/steel-structures",
+          "clicks": 0,
+          "impressions": 10
+        },
+        {
+          "url": "https://construction-ndt-guide.vercel.app/",
+          "clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    "renewable-energy-ndt.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 35,
+      "topPages": [
+        {
+          "url": "https://renewable-energy-ndt.vercel.app/",
+          "clicks": 0,
+          "impressions": 35
+        }
+      ]
+    },
+    "mining-ndt-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 2,
+      "topPages": [
+        {
+          "url": "https://mining-ndt-hub.vercel.app/",
+          "clicks": 0,
+          "impressions": 2
+        }
+      ]
+    },
+    "tank-inspection-guide.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "ndt-knowledge-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 13,
+      "topPages": [
+        {
+          "url": "https://ndt-knowledge-hub.vercel.app/",
+          "clicks": 0,
+          "impressions": 13
+        }
+      ]
+    },
+    "ndt-standards-library.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "weld-quality-resource.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 2,
+      "topPages": [
+        {
+          "url": "https://weld-quality-resource.vercel.app/",
+          "clicks": 0,
+          "impressions": 2
+        }
+      ]
+    },
+    "passport-power-index.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "sc-domain:ndt-connect.com": {
+      "status": "ok",
+      "indexed": 2,
+      "totalClicks": 14,
+      "totalImpressions": 879,
+      "topPages": [
+        {
+          "url": "https://ndt-connect.com/",
+          "clicks": 13,
+          "impressions": 619
+        },
+        {
+          "url": "https://ndt-connect.com/login",
+          "clicks": 1,
+          "impressions": 260
+        }
+      ]
+    },
+    "atlantisndt.com": {
+      "status": "ok",
+      "indexed": 389,
+      "totalClicks": 257,
+      "totalImpressions": 30660,
+      "topPages": [
+        {
+          "url": "https://atlantisndt.com/blog/eddy-current-testing",
+          "clicks": 6,
+          "impressions": 3789
+        },
+        {
+          "url": "https://atlantisndt.com/blog/api-653-tank-inspection-guide",
+          "clicks": 8,
+          "impressions": 2082
+        },
+        {
+          "url": "https://atlantisndt.com/asnt-certification",
+          "clicks": 10,
+          "impressions": 1720
+        },
+        {
+          "url": "https://atlantisndt.com/blog/ut-vs-rt-comparison",
+          "clicks": 5,
+          "impressions": 1584
+        },
+        {
+          "url": "https://atlantisndt.com/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+          "clicks": 0,
+          "impressions": 1385
+        }
+      ]
+    },
+    "rail-ndt-resource.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 14,
+      "topPages": [
+        {
+          "url": "https://rail-ndt-resource.vercel.app/",
+          "clicks": 0,
+          "impressions": 14
+        }
+      ]
+    },
+    "api-certification-guide.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 97,
+      "topPages": [
+        {
+          "url": "https://api-certification-guide.vercel.app/",
+          "clicks": 0,
+          "impressions": 97
+        }
+      ]
+    },
+    "ndt-connect.com": {
+      "status": "ok",
+      "indexed": 2,
+      "totalClicks": 1,
+      "totalImpressions": 79,
+      "topPages": [
+        {
+          "url": "https://ndt-connect.com/",
+          "clicks": 1,
+          "impressions": 64
+        },
+        {
+          "url": "https://ndt-connect.com/login",
+          "clicks": 0,
+          "impressions": 15
+        }
+      ]
+    },
+    "pipeline-integrity-guide.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 22,
+      "topPages": [
+        {
+          "url": "https://pipeline-integrity-guide.vercel.app/",
+          "clicks": 0,
+          "impressions": 22
+        }
+      ]
+    },
+    "rt-testing-hub.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "asset-integrity-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 107,
+      "topPages": [
+        {
+          "url": "https://asset-integrity-hub.vercel.app/",
+          "clicks": 0,
+          "impressions": 107
+        }
+      ]
+    },
+    "ndt-standards-reference.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "ndt-safety-compliance.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "ndt-software-solutions.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "manufacturing-ndt-quality.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "corrosion-management-ndt.vercel.app": {
+      "status": "ok",
+      "indexed": 0,
+      "totalClicks": 0,
+      "totalImpressions": 0,
+      "topPages": []
+    },
+    "heat-exchanger-ndt.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 15,
+      "topPages": [
+        {
+          "url": "https://heat-exchanger-ndt.vercel.app/",
+          "clicks": 0,
+          "impressions": 15
+        }
+      ]
+    },
+    "go-visa.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "advanced-ndt-techniques.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 55,
+      "topPages": [
+        {
+          "url": "https://advanced-ndt-techniques.vercel.app/",
+          "clicks": 0,
+          "impressions": 55
+        }
+      ]
+    },
+    "pipeline-integrity-hub.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "ndt-training-academy.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 15,
+      "topPages": [
+        {
+          "url": "https://ndt-training-academy.vercel.app/",
+          "clicks": 0,
+          "impressions": 15
+        }
+      ]
+    },
+    "offshore-ndt-guide.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "ndt-careers-portal.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 26,
+      "topPages": [
+        {
+          "url": "https://ndt-careers-portal.vercel.app/",
+          "clicks": 0,
+          "impressions": 26
+        }
+      ]
+    },
+    "power-generation-ndt.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 26,
+      "topPages": [
+        {
+          "url": "https://power-generation-ndt.vercel.app/",
+          "clicks": 0,
+          "impressions": 26
+        }
+      ]
+    },
+    "aerospace-ndt-center.vercel.app": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "pressure-vessel-ndt.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 3,
+      "topPages": [
+        {
+          "url": "https://pressure-vessel-ndt.vercel.app/",
+          "clicks": 0,
+          "impressions": 3
+        }
+      ]
+    },
+    "tank-inspection-resource.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 36,
+      "topPages": [
+        {
+          "url": "https://tank-inspection-resource.vercel.app/",
+          "clicks": 0,
+          "impressions": 36
+        }
+      ]
+    },
+    "ndtconnect.com": {
+      "status": "no_access",
+      "indexed": 0,
+      "pages": []
+    },
+    "composite-testing-hub.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 49,
+      "topPages": [
+        {
+          "url": "https://composite-testing-hub.vercel.app/",
+          "clicks": 0,
+          "impressions": 49
+        }
+      ]
+    },
+    "industrial-inspection-resources.vercel.app": {
+      "status": "ok",
+      "indexed": 1,
+      "totalClicks": 0,
+      "totalImpressions": 2,
+      "topPages": [
+        {
+          "url": "https://industrial-inspection-resources.vercel.app/",
+          "clicks": 0,
+          "impressions": 2
+        }
+      ]
+    }
+  },
+  "tierSummary": {
+    "Tier 1: atlantisndt.com": {
+      "total": 2067,
+      "indexed": 344,
+      "notIndexed": 1723,
+      "urls": []
+    },
+    "Tier 2: atlantisndt.com satellites": {
+      "total": 329,
+      "indexed": 27,
+      "notIndexed": 302,
+      "urls": []
+    },
+    "Tier 3: ndt-connect.com": {
+      "total": 3691,
+      "indexed": 4,
+      "notIndexed": 3687,
+      "urls": []
+    },
+    "Tier 4: ndt-connect.com satellites": {
+      "total": 560,
+      "indexed": 2,
+      "notIndexed": 558,
+      "urls": []
+    },
+    "Tier 5: GoVisa primary": {
+      "total": 395,
+      "indexed": 0,
+      "notIndexed": 395,
+      "urls": []
+    },
+    "Tier 6: GoVisa satellites": {
+      "total": 10,
+      "indexed": 0,
+      "notIndexed": 10,
+      "urls": []
+    }
+  },
+  "grandTotal": {
+    "total": 7052,
+    "indexed": 377,
+    "notIndexed": 6675
+  },
+  "indexedUrlsList": [
+    "https://advanced-ndt-techniques.vercel.app/",
+    "https://api-certification-guide.vercel.app/",
+    "https://asset-integrity-hub.vercel.app/",
+    "https://atlantisndt.com/",
+    "https://atlantisndt.com/about",
+    "https://atlantisndt.com/api-510-certification",
+    "https://atlantisndt.com/api-570-certification",
+    "https://atlantisndt.com/api-653-certification",
+    "https://atlantisndt.com/asnt-certification",
+    "https://atlantisndt.com/atlantis-ndt-contact-us/",
+    "https://atlantisndt.com/blog",
+    "https://atlantisndt.com/blog/",
+    "https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide",
+    "https://atlantisndt.com/blog/acoustic-emission-testing-principles-industrial-applications",
+    "https://atlantisndt.com/blog/api-510-exam-prep-study-guide-tips",
+    "https://atlantisndt.com/blog/api-579-fitness-for-service-guide",
+    "https://atlantisndt.com/blog/api-653-tank-inspection-guide",
+    "https://atlantisndt.com/blog/asme-b31-3-process-piping-requirements",
+    "https://atlantisndt.com/blog/asset-integrity-management-guide-2025-rbi-digital-twins",
+    "https://atlantisndt.com/blog/best-ndt-reporting-software-oil-gas-digital-twin",
+    "https://atlantisndt.com/blog/compression-wave-vs-shear-wave-technical-differences",
+    "https://atlantisndt.com/blog/corrosion-under-insulation-cui-detection-guide",
+    "https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity",
+    "https://atlantisndt.com/blog/digital-twins-ndt-guide",
+    "https://atlantisndt.com/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity",
+    "https://atlantisndt.com/blog/digital-twins-oil-gas",
+    "https://atlantisndt.com/blog/digital-twins-reduce-refinery-turnaround-time",
+    "https://atlantisndt.com/blog/eddy-current-testing",
+    "https://atlantisndt.com/blog/eddy-current-testing-complete-beginner-guide",
+    "https://atlantisndt.com/blog/future-of-ndt-oil-gas-digital-twins-ai",
+    "https://atlantisndt.com/blog/in-service-inspection-isi-certification-guide",
+    "https://atlantisndt.com/blog/liquid-penetrant-inspection-surface-crack-detection-methods",
+    "https://atlantisndt.com/blog/lng-plant-inspection-ndt-requirements-and-procedures",
+    "https://atlantisndt.com/blog/magnetic-particle-testing",
+    "https://atlantisndt.com/blog/nace-corrosion-management-standards",
+    "https://atlantisndt.com/blog/ndt-career-guide",
+    "https://atlantisndt.com/blog/ndt-career-top-choice-2025-global-market-trends",
+    "https://atlantisndt.com/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+    "https://atlantisndt.com/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+    "https://atlantisndt.com/blog/ndt-level-iii-consulting-services-guide",
+    "https://atlantisndt.com/blog/ndt-salary-guide-2025-global-level-1-2-3",
+    "https://atlantisndt.com/blog/ndt-salary-guide-2026-global",
+    "https://atlantisndt.com/blog/ndt-training-complete-guide-courses-certification-global",
+    "https://atlantisndt.com/blog/ndt-training-vs-certification-2025-oil-gas-expectations",
+    "https://atlantisndt.com/blog/nozzle-inspection-and-stress-concentration-evaluation",
+    "https://atlantisndt.com/blog/osha-requirements-for-ndt-technicians",
+    "https://atlantisndt.com/blog/penetrant-testing",
+    "https://atlantisndt.com/blog/probe-selection-and-frequency-optimization",
+    "https://atlantisndt.com/blog/radiographic-testing",
+    "https://atlantisndt.com/blog/ship-hull-and-propulsion-system-inspection",
+    "https://atlantisndt.com/blog/storage-tank-floor-scanning-mfl-vs-ut-comparison",
+    "https://atlantisndt.com/blog/tofd-inspection-time-of-flight-diffraction-explained",
+    "https://atlantisndt.com/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+    "https://atlantisndt.com/blog/ultrasonic-testing",
+    "https://atlantisndt.com/blog/ut-vs-rt-comparison",
+    "https://atlantisndt.com/blog/visual-testing",
+    "https://atlantisndt.com/case-studies",
+    "https://atlantisndt.com/construction-ndt-services",
+    "https://atlantisndt.com/consulting",
+    "https://atlantisndt.com/consulting-india",
+    "https://atlantisndt.com/consulting-me",
+    "https://atlantisndt.com/consulting-service",
+    "https://atlantisndt.com/consulting-usa",
+    "https://atlantisndt.com/consulting/ndt-consulting-abu-dhabi",
+    "https://atlantisndt.com/consulting/ndt-consulting-accra",
+    "https://atlantisndt.com/consulting/ndt-consulting-ahmedabad",
+    "https://atlantisndt.com/consulting/ndt-consulting-algeria",
+    "https://atlantisndt.com/consulting/ndt-consulting-angola",
+    "https://atlantisndt.com/consulting/ndt-consulting-argentina",
+    "https://atlantisndt.com/consulting/ndt-consulting-australia",
+    "https://atlantisndt.com/consulting/ndt-consulting-bahrain",
+    "https://atlantisndt.com/consulting/ndt-consulting-bangalore",
+    "https://atlantisndt.com/consulting/ndt-consulting-bangkok",
+    "https://atlantisndt.com/consulting/ndt-consulting-baton-rouge",
+    "https://atlantisndt.com/consulting/ndt-consulting-beaumont",
+    "https://atlantisndt.com/consulting/ndt-consulting-beijing",
+    "https://atlantisndt.com/consulting/ndt-consulting-bogota",
+    "https://atlantisndt.com/consulting/ndt-consulting-brazil",
+    "https://atlantisndt.com/consulting/ndt-consulting-brisbane",
+    "https://atlantisndt.com/consulting/ndt-consulting-buenos-aires",
+    "https://atlantisndt.com/consulting/ndt-consulting-calgary",
+    "https://atlantisndt.com/consulting/ndt-consulting-cape-town",
+    "https://atlantisndt.com/consulting/ndt-consulting-chennai",
+    "https://atlantisndt.com/consulting/ndt-consulting-chicago",
+    "https://atlantisndt.com/consulting/ndt-consulting-colombia",
+    "https://atlantisndt.com/consulting/ndt-consulting-corpus-christi",
+    "https://atlantisndt.com/consulting/ndt-consulting-dallas",
+    "https://atlantisndt.com/consulting/ndt-consulting-dammam",
+    "https://atlantisndt.com/consulting/ndt-consulting-delhi",
+    "https://atlantisndt.com/consulting/ndt-consulting-denver",
+    "https://atlantisndt.com/consulting/ndt-consulting-detroit",
+    "https://atlantisndt.com/consulting/ndt-consulting-dubai",
+    "https://atlantisndt.com/consulting/ndt-consulting-edmonton",
+    "https://atlantisndt.com/consulting/ndt-consulting-egypt",
+    "https://atlantisndt.com/consulting/ndt-consulting-france",
+    "https://atlantisndt.com/consulting/ndt-consulting-germany",
+    "https://atlantisndt.com/consulting/ndt-consulting-ho-chi-minh",
+    "https://atlantisndt.com/consulting/ndt-consulting-hong-kong",
+    "https://atlantisndt.com/consulting/ndt-consulting-houston",
+    "https://atlantisndt.com/consulting/ndt-consulting-italy",
+    "https://atlantisndt.com/consulting/ndt-consulting-jakarta",
+    "https://atlantisndt.com/consulting/ndt-consulting-japan",
+    "https://atlantisndt.com/consulting/ndt-consulting-johannesburg",
+    "https://atlantisndt.com/consulting/ndt-consulting-kochi",
+    "https://atlantisndt.com/consulting/ndt-consulting-kolkata",
+    "https://atlantisndt.com/consulting/ndt-consulting-lagos",
+    "https://atlantisndt.com/consulting/ndt-consulting-lake-charles",
+    "https://atlantisndt.com/consulting/ndt-consulting-level-iii",
+    "https://atlantisndt.com/consulting/ndt-consulting-lima",
+    "https://atlantisndt.com/consulting/ndt-consulting-los-angeles",
+    "https://atlantisndt.com/consulting/ndt-consulting-manila",
+    "https://atlantisndt.com/consulting/ndt-consulting-melbourne",
+    "https://atlantisndt.com/consulting/ndt-consulting-mexico-city",
+    "https://atlantisndt.com/consulting/ndt-consulting-mumbai",
+    "https://atlantisndt.com/consulting/ndt-consulting-nairobi",
+    "https://atlantisndt.com/consulting/ndt-consulting-new-orleans",
+    "https://atlantisndt.com/consulting/ndt-consulting-new-zealand",
+    "https://atlantisndt.com/consulting/ndt-consulting-nigeria",
+    "https://atlantisndt.com/consulting/ndt-consulting-norfolk",
+    "https://atlantisndt.com/consulting/ndt-consulting-norway",
+    "https://atlantisndt.com/consulting/ndt-consulting-oman",
+    "https://atlantisndt.com/consulting/ndt-consulting-perth",
+    "https://atlantisndt.com/consulting/ndt-consulting-philadelphia",
+    "https://atlantisndt.com/consulting/ndt-consulting-phoenix",
+    "https://atlantisndt.com/consulting/ndt-consulting-qatar",
+    "https://atlantisndt.com/consulting/ndt-consulting-rio-de-janeiro",
+    "https://atlantisndt.com/consulting/ndt-consulting-san-francisco",
+    "https://atlantisndt.com/consulting/ndt-consulting-santiago",
+    "https://atlantisndt.com/consulting/ndt-consulting-sao-paulo",
+    "https://atlantisndt.com/consulting/ndt-consulting-saudi-arabia",
+    "https://atlantisndt.com/consulting/ndt-consulting-scotland",
+    "https://atlantisndt.com/consulting/ndt-consulting-shanghai",
+    "https://atlantisndt.com/consulting/ndt-consulting-shenzhen",
+    "https://atlantisndt.com/consulting/ndt-consulting-south-africa",
+    "https://atlantisndt.com/consulting/ndt-consulting-south-korea",
+    "https://atlantisndt.com/consulting/ndt-consulting-spain",
+    "https://atlantisndt.com/consulting/ndt-consulting-sydney",
+    "https://atlantisndt.com/consulting/ndt-consulting-taipei",
+    "https://atlantisndt.com/consulting/ndt-consulting-taiwan",
+    "https://atlantisndt.com/consulting/ndt-consulting-thailand",
+    "https://atlantisndt.com/consulting/ndt-consulting-trinidad",
+    "https://atlantisndt.com/consulting/ndt-consulting-tulsa",
+    "https://atlantisndt.com/consulting/ndt-consulting-uk",
+    "https://atlantisndt.com/consulting/ndt-consulting-vancouver",
+    "https://atlantisndt.com/consulting/ndt-consulting-vietnam",
+    "https://atlantisndt.com/consulting/ndt-consulting-vizag",
+    "https://atlantisndt.com/consulting/ndt-consulting-yanbu",
+    "https://atlantisndt.com/contact",
+    "https://atlantisndt.com/digital-twins",
+    "https://atlantisndt.com/eddy-current-testing-abu-dhabi",
+    "https://atlantisndt.com/eddy-current-testing-bangalore",
+    "https://atlantisndt.com/eddy-current-testing-calgary",
+    "https://atlantisndt.com/eddy-current-testing-chennai",
+    "https://atlantisndt.com/eddy-current-testing-cincinnati",
+    "https://atlantisndt.com/eddy-current-testing-delhi",
+    "https://atlantisndt.com/eddy-current-testing-denver",
+    "https://atlantisndt.com/eddy-current-testing-dubai",
+    "https://atlantisndt.com/eddy-current-testing-houston",
+    "https://atlantisndt.com/eddy-current-testing-kuwait",
+    "https://atlantisndt.com/eddy-current-testing-los-angeles",
+    "https://atlantisndt.com/eddy-current-testing-minneapolis",
+    "https://atlantisndt.com/eddy-current-testing-mumbai",
+    "https://atlantisndt.com/eddy-current-testing-new-orleans",
+    "https://atlantisndt.com/eddy-current-testing-norway",
+    "https://atlantisndt.com/eddy-current-testing-portland",
+    "https://atlantisndt.com/eddy-current-testing-qatar",
+    "https://atlantisndt.com/eddy-current-testing-saudi-arabia",
+    "https://atlantisndt.com/eddy-current-testing-singapore",
+    "https://atlantisndt.com/eddy-current-testing-uk",
+    "https://atlantisndt.com/erp",
+    "https://atlantisndt.com/faq",
+    "https://atlantisndt.com/industry",
+    "https://atlantisndt.com/industry/aerospace-ndt-charlotte",
+    "https://atlantisndt.com/industry/aerospace-ndt-chicago",
+    "https://atlantisndt.com/industry/marine-ndt-charlotte",
+    "https://atlantisndt.com/industry/marine-ndt-nashville",
+    "https://atlantisndt.com/industry/marine-ndt-portland",
+    "https://atlantisndt.com/industry/marine-ndt-seattle",
+    "https://atlantisndt.com/industry/marine-ndt-tampa",
+    "https://atlantisndt.com/industry/oil-gas-ndt-cleveland",
+    "https://atlantisndt.com/industry/oil-gas-ndt-indianapolis",
+    "https://atlantisndt.com/industry/oil-gas-ndt-los-angeles",
+    "https://atlantisndt.com/industry/oil-gas-ndt-washington-dc",
+    "https://atlantisndt.com/industry/petrochemical-ndt-seattle",
+    "https://atlantisndt.com/industry/petrochemical-ndt-tampa",
+    "https://atlantisndt.com/industry/pipeline-ndt-new-york",
+    "https://atlantisndt.com/industry/power-generation-ndt-pittsburgh",
+    "https://atlantisndt.com/industry/power-generation-ndt-salt-lake-city",
+    "https://atlantisndt.com/industry/power-generation-ndt-st-louis",
+    "https://atlantisndt.com/inspection/corrosion-inspection-services-cleveland",
+    "https://atlantisndt.com/inspection/corrosion-inspection-services-qatar",
+    "https://atlantisndt.com/inspection/pipeline-inspection-services-chicago",
+    "https://atlantisndt.com/inspection/pipeline-inspection-services-detroit",
+    "https://atlantisndt.com/inspection/pipeline-inspection-services-jacksonville",
+    "https://atlantisndt.com/inspection/pipeline-inspection-services-kuwait",
+    "https://atlantisndt.com/inspection/tank-inspection-services-chicago",
+    "https://atlantisndt.com/inspection/tank-inspection-services-seattle",
+    "https://atlantisndt.com/inspection/weld-inspection-services-detroit",
+    "https://atlantisndt.com/inspection/weld-inspection-services-houston",
+    "https://atlantisndt.com/inspection/weld-inspection-services-los-angeles",
+    "https://atlantisndt.com/intelligent-reporting-software",
+    "https://atlantisndt.com/magnetic-particle-testing-abu-dhabi",
+    "https://atlantisndt.com/magnetic-particle-testing-bangalore",
+    "https://atlantisndt.com/magnetic-particle-testing-calgary",
+    "https://atlantisndt.com/magnetic-particle-testing-charlotte",
+    "https://atlantisndt.com/magnetic-particle-testing-chennai",
+    "https://atlantisndt.com/magnetic-particle-testing-chicago",
+    "https://atlantisndt.com/magnetic-particle-testing-cincinnati",
+    "https://atlantisndt.com/magnetic-particle-testing-delhi",
+    "https://atlantisndt.com/magnetic-particle-testing-denver",
+    "https://atlantisndt.com/magnetic-particle-testing-dubai",
+    "https://atlantisndt.com/magnetic-particle-testing-houston",
+    "https://atlantisndt.com/magnetic-particle-testing-kuwait",
+    "https://atlantisndt.com/magnetic-particle-testing-los-angeles",
+    "https://atlantisndt.com/magnetic-particle-testing-mumbai",
+    "https://atlantisndt.com/magnetic-particle-testing-norway",
+    "https://atlantisndt.com/magnetic-particle-testing-qatar",
+    "https://atlantisndt.com/magnetic-particle-testing-saudi-arabia",
+    "https://atlantisndt.com/magnetic-particle-testing-singapore",
+    "https://atlantisndt.com/magnetic-particle-testing-uk",
+    "https://atlantisndt.com/marine-offshore-ndt-services",
+    "https://atlantisndt.com/ndt-connect",
+    "https://atlantisndt.com/ndt-connect-platform",
+    "https://atlantisndt.com/ndt-consulting-belgium",
+    "https://atlantisndt.com/ndt-consulting-indonesia",
+    "https://atlantisndt.com/ndt-consulting-jamnagar",
+    "https://atlantisndt.com/ndt-consulting-level-iii",
+    "https://atlantisndt.com/ndt-consulting-louisiana",
+    "https://atlantisndt.com/ndt-consulting-minnesota",
+    "https://atlantisndt.com/ndt-consulting-netherlands",
+    "https://atlantisndt.com/ndt-consulting-new-jersey",
+    "https://atlantisndt.com/ndt-consulting-nigeria",
+    "https://atlantisndt.com/ndt-consulting-norway",
+    "https://atlantisndt.com/ndt-consulting-philippines",
+    "https://atlantisndt.com/ndt-consulting-pittsburgh",
+    "https://atlantisndt.com/ndt-consulting-seattle",
+    "https://atlantisndt.com/ndt-consulting-singapore",
+    "https://atlantisndt.com/ndt-consulting-toronto",
+    "https://atlantisndt.com/ndt-data-management",
+    "https://atlantisndt.com/ndt-erp-muscat",
+    "https://atlantisndt.com/ndt-erp-solution",
+    "https://atlantisndt.com/ndt-for-aerospace",
+    "https://atlantisndt.com/ndt-for-oil-gas",
+    "https://atlantisndt.com/ndt-for-power-generation",
+    "https://atlantisndt.com/ndt-methods",
+    "https://atlantisndt.com/ndt-services-houston",
+    "https://atlantisndt.com/ndt-services-los-angeles",
+    "https://atlantisndt.com/ndt-services-middle-east",
+    "https://atlantisndt.com/ndt-services-norway",
+    "https://atlantisndt.com/ndt-services-saudi-arabia",
+    "https://atlantisndt.com/ndt-training-dallas",
+    "https://atlantisndt.com/ndt-training-dubai",
+    "https://atlantisndt.com/ndt-training-houston",
+    "https://atlantisndt.com/ndt-training-hyderabad",
+    "https://atlantisndt.com/ndt-training-los-angeles",
+    "https://atlantisndt.com/ndt-training-new-orleans",
+    "https://atlantisndt.com/ndt-training-new-york",
+    "https://atlantisndt.com/ndt-training-online",
+    "https://atlantisndt.com/ndt-training-philadelphia",
+    "https://atlantisndt.com/ndt-training-pittsburgh",
+    "https://atlantisndt.com/ndt-training-saudi-arabia",
+    "https://atlantisndt.com/ndt-training-usa",
+    "https://atlantisndt.com/nuclear-ndt-services",
+    "https://atlantisndt.com/oil-gas-ndt-services",
+    "https://atlantisndt.com/oil-gas-ndt-training",
+    "https://atlantisndt.com/penetrant-testing-abu-dhabi",
+    "https://atlantisndt.com/penetrant-testing-antwerp",
+    "https://atlantisndt.com/penetrant-testing-bangalore",
+    "https://atlantisndt.com/penetrant-testing-calgary",
+    "https://atlantisndt.com/penetrant-testing-charlotte",
+    "https://atlantisndt.com/penetrant-testing-chennai",
+    "https://atlantisndt.com/penetrant-testing-chicago",
+    "https://atlantisndt.com/penetrant-testing-delhi",
+    "https://atlantisndt.com/penetrant-testing-denver",
+    "https://atlantisndt.com/penetrant-testing-dubai",
+    "https://atlantisndt.com/penetrant-testing-houston",
+    "https://atlantisndt.com/penetrant-testing-kuwait",
+    "https://atlantisndt.com/penetrant-testing-los-angeles",
+    "https://atlantisndt.com/penetrant-testing-minneapolis",
+    "https://atlantisndt.com/penetrant-testing-mumbai",
+    "https://atlantisndt.com/penetrant-testing-new-orleans",
+    "https://atlantisndt.com/penetrant-testing-qatar",
+    "https://atlantisndt.com/penetrant-testing-saudi-arabia",
+    "https://atlantisndt.com/penetrant-testing-singapore",
+    "https://atlantisndt.com/penetrant-testing-uk",
+    "https://atlantisndt.com/petrochemical-ndt-services",
+    "https://atlantisndt.com/pipeline-inspection-services",
+    "https://atlantisndt.com/power-generation-ndt-services",
+    "https://atlantisndt.com/power-generation-ndt-training",
+    "https://atlantisndt.com/press",
+    "https://atlantisndt.com/radiographic-testing-abu-dhabi",
+    "https://atlantisndt.com/radiographic-testing-antwerp",
+    "https://atlantisndt.com/radiographic-testing-bangalore",
+    "https://atlantisndt.com/radiographic-testing-boston",
+    "https://atlantisndt.com/radiographic-testing-calgary",
+    "https://atlantisndt.com/radiographic-testing-chennai",
+    "https://atlantisndt.com/radiographic-testing-chicago",
+    "https://atlantisndt.com/radiographic-testing-delhi",
+    "https://atlantisndt.com/radiographic-testing-denver",
+    "https://atlantisndt.com/radiographic-testing-dubai",
+    "https://atlantisndt.com/radiographic-testing-houston",
+    "https://atlantisndt.com/radiographic-testing-indianapolis",
+    "https://atlantisndt.com/radiographic-testing-jacksonville",
+    "https://atlantisndt.com/radiographic-testing-kuwait",
+    "https://atlantisndt.com/radiographic-testing-los-angeles",
+    "https://atlantisndt.com/radiographic-testing-mumbai",
+    "https://atlantisndt.com/radiographic-testing-new-orleans",
+    "https://atlantisndt.com/radiographic-testing-norway",
+    "https://atlantisndt.com/radiographic-testing-qatar",
+    "https://atlantisndt.com/radiographic-testing-saudi-arabia",
+    "https://atlantisndt.com/radiographic-testing-singapore",
+    "https://atlantisndt.com/radiographic-testing-tampa",
+    "https://atlantisndt.com/radiographic-testing-uk",
+    "https://atlantisndt.com/resources",
+    "https://atlantisndt.com/robots.txt",
+    "https://atlantisndt.com/services/acoustic-emission-inspection-cincinnati",
+    "https://atlantisndt.com/services/acoustic-emission-inspection-los-angeles",
+    "https://atlantisndt.com/services/acoustic-emission-inspection-miami",
+    "https://atlantisndt.com/services/acoustic-emission-inspection-nigeria",
+    "https://atlantisndt.com/services/acoustic-emission-inspection-thailand",
+    "https://atlantisndt.com/services/guided-wave-inspection-australia",
+    "https://atlantisndt.com/services/guided-wave-inspection-dubai",
+    "https://atlantisndt.com/services/guided-wave-inspection-oman",
+    "https://atlantisndt.com/services/mfl-inspection-baton-rouge",
+    "https://atlantisndt.com/services/mfl-inspection-colombia",
+    "https://atlantisndt.com/services/mfl-inspection-italy",
+    "https://atlantisndt.com/services/mfl-inspection-japan",
+    "https://atlantisndt.com/services/mfl-inspection-melbourne",
+    "https://atlantisndt.com/services/mfl-inspection-saudi-arabia",
+    "https://atlantisndt.com/services/mfl-inspection-st-louis",
+    "https://atlantisndt.com/services/mfl-inspection-sydney",
+    "https://atlantisndt.com/services/mfl-inspection-tulsa",
+    "https://atlantisndt.com/services/mfl-inspection-vietnam",
+    "https://atlantisndt.com/services/mfl-inspection-yanbu",
+    "https://atlantisndt.com/services/paut-inspection-boston",
+    "https://atlantisndt.com/services/paut-inspection-dammam",
+    "https://atlantisndt.com/services/paut-inspection-edmonton",
+    "https://atlantisndt.com/services/paut-inspection-france",
+    "https://atlantisndt.com/services/paut-inspection-houston",
+    "https://atlantisndt.com/services/paut-inspection-mexico-city",
+    "https://atlantisndt.com/services/paut-inspection-oman",
+    "https://atlantisndt.com/services/paut-inspection-philadelphia",
+    "https://atlantisndt.com/services/paut-inspection-pittsburgh",
+    "https://atlantisndt.com/services/paut-inspection-rotterdam",
+    "https://atlantisndt.com/services/paut-inspection-south-korea",
+    "https://atlantisndt.com/services/paut-inspection-spain",
+    "https://atlantisndt.com/services/tofd-inspection-oman",
+    "https://atlantisndt.com/services/tofd-inspection-taiwan",
+    "https://atlantisndt.com/services/tofd-inspection-vietnam",
+    "https://atlantisndt.com/tools",
+    "https://atlantisndt.com/training",
+    "https://atlantisndt.com/training-india",
+    "https://atlantisndt.com/training-me",
+    "https://atlantisndt.com/training-usa",
+    "https://atlantisndt.com/training/api-510-training-cleveland",
+    "https://atlantisndt.com/training/api-510-training-salt-lake-city",
+    "https://atlantisndt.com/training/api-653-training-salt-lake-city",
+    "https://atlantisndt.com/training/asnt-level-iii-training-atlanta",
+    "https://atlantisndt.com/training/asnt-level-iii-training-cincinnati",
+    "https://atlantisndt.com/training/asnt-level-iii-training-portland",
+    "https://atlantisndt.com/training/asnt-level-iii-training-san-diego",
+    "https://atlantisndt.com/training/asnt-level-iii-training-washington-dc",
+    "https://atlantisndt.com/training/cwi-training-milwaukee",
+    "https://atlantisndt.com/training/cwi-training-nashville",
+    "https://atlantisndt.com/training/cwi-training-san-diego",
+    "https://atlantisndt.com/training/cwi-training-washington-dc",
+    "https://atlantisndt.com/ultrasonic-testing-abu-dhabi",
+    "https://atlantisndt.com/ultrasonic-testing-antwerp",
+    "https://atlantisndt.com/ultrasonic-testing-bangalore",
+    "https://atlantisndt.com/ultrasonic-testing-calgary",
+    "https://atlantisndt.com/ultrasonic-testing-chennai",
+    "https://atlantisndt.com/ultrasonic-testing-chicago",
+    "https://atlantisndt.com/ultrasonic-testing-cincinnati",
+    "https://atlantisndt.com/ultrasonic-testing-delhi",
+    "https://atlantisndt.com/ultrasonic-testing-denver",
+    "https://atlantisndt.com/ultrasonic-testing-dubai",
+    "https://atlantisndt.com/ultrasonic-testing-houston",
+    "https://atlantisndt.com/ultrasonic-testing-kuwait",
+    "https://atlantisndt.com/ultrasonic-testing-los-angeles",
+    "https://atlantisndt.com/ultrasonic-testing-mumbai",
+    "https://atlantisndt.com/ultrasonic-testing-new-orleans",
+    "https://atlantisndt.com/ultrasonic-testing-norway",
+    "https://atlantisndt.com/ultrasonic-testing-qatar",
+    "https://atlantisndt.com/ultrasonic-testing-saudi-arabia",
+    "https://atlantisndt.com/ultrasonic-testing-singapore",
+    "https://atlantisndt.com/ultrasonic-testing-uk",
+    "https://atlantisndt.com/visual-testing-abu-dhabi",
+    "https://atlantisndt.com/visual-testing-bangalore",
+    "https://atlantisndt.com/visual-testing-calgary",
+    "https://atlantisndt.com/visual-testing-chennai",
+    "https://atlantisndt.com/visual-testing-chicago",
+    "https://atlantisndt.com/visual-testing-denver",
+    "https://atlantisndt.com/visual-testing-dubai",
+    "https://atlantisndt.com/visual-testing-houston",
+    "https://atlantisndt.com/visual-testing-kuwait",
+    "https://atlantisndt.com/visual-testing-los-angeles",
+    "https://atlantisndt.com/visual-testing-minneapolis",
+    "https://atlantisndt.com/visual-testing-new-orleans",
+    "https://atlantisndt.com/visual-testing-norway",
+    "https://atlantisndt.com/visual-testing-qatar",
+    "https://atlantisndt.com/visual-testing-saudi-arabia",
+    "https://atlantisndt.com/visual-testing-singapore",
+    "https://atlantisndt.com/visual-testing-uk",
+    "https://coating-inspection-guide.vercel.app/",
+    "https://composite-testing-hub.vercel.app/",
+    "https://construction-ndt-guide.vercel.app/",
+    "https://construction-ndt-guide.vercel.app/structural/steel-structures",
+    "https://dt.atlantisndt.com/",
+    "https://heat-exchanger-ndt.vercel.app/",
+    "https://industrial-inspection-resources.vercel.app/",
+    "https://lng-inspection-hub.vercel.app/",
+    "https://middle-east-ndt-resource.vercel.app/",
+    "https://middle-east-ndt-resource.vercel.app/career",
+    "https://mining-ndt-hub.vercel.app/",
+    "https://ndt-automation-future.vercel.app/",
+    "https://ndt-careers-portal.vercel.app/",
+    "https://ndt-connect.com",
+    "https://ndt-connect.com/",
+    "https://ndt-connect.com/about",
+    "https://ndt-connect.com/login",
+    "https://ndt-equipment-reviews.vercel.app/",
+    "https://ndt-knowledge-hub.vercel.app/",
+    "https://ndt-safety-compliance.vercel.app/",
+    "https://ndt-training-academy.vercel.app/",
+    "https://nuclear-ndt-resource.vercel.app/",
+    "https://oil-gas-inspection-guide.vercel.app/",
+    "https://pipeline-integrity-guide.vercel.app/",
+    "https://power-generation-ndt.vercel.app/",
+    "https://pressure-vessel-ndt.vercel.app/",
+    "https://rail-ndt-resource.vercel.app/",
+    "https://renewable-energy-ndt.vercel.app/",
+    "https://subsea-inspection-guide.vercel.app/",
+    "https://tank-inspection-resource.vercel.app/",
+    "https://weld-quality-resource.vercel.app/"
+  ],
+  "willSubmitCount": 6507,
+  "estimatedDaysRemaining": 33
+}

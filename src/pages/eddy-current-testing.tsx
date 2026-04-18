@@ -210,7 +210,7 @@ export default function EddyCurrentTesting() {
         description="Master eddy current testing: ECT, ECA, RFEC, pulsed ECT explained with diagrams. Heat exchanger tube inspection, aerospace crack detection. Free equipment comparison chart. ASNT Level I–III training available."
         keywords="eddy current testing, ECT inspection, eddy current inspection, eddy current NDT, eddy current array ECA, remote field eddy current RFEC, pulsed eddy current PEC, heat exchanger tube inspection, ECT training, ASNT eddy current certification, eddy current testing procedure, eddy current tube testing, eddy current system, ect ndt testing, eddy current non destructive testing, eddy current measurement, eddy current testing method, surface eddy current testing, eddy current examination, eddy current NDE, tube inspection NDT"
         structuredData={structuredData}
-        canonical="https://atlantisndt.com/blog/eddy-current-testing"
+        canonical="https://atlantisndt.com/eddy-current-testing"
       />
       <Breadcrumbs />
 

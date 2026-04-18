@@ -1,0 +1,1 @@
+import{j as t}from"./index-DPOIg50j.js";import{C as o}from"./ConsultingLocationPage-7t7YMvOu.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function m(){return t.jsx(o,{locationSlug:"vietnam"})}export{m as default};

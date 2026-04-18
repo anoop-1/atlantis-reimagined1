@@ -1,0 +1,1 @@
+import{j as o}from"./index-DPOIg50j.js";import{D as i}from"./DigitalTwinLocationPage-D79q0iCD.js";import"./monitor-BTW9eSAn.js";import"./chart-no-axes-column-DW9rW0MY.js";import"./file-text-CV4Dgu4d.js";function p(){return o.jsx(i,{city:"London",country:"UK",slug:"digital-twin-london"})}export{p as default};

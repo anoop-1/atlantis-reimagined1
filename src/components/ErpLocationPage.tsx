@@ -23,7 +23,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
-import { isCuratedCity } from '@/data/curated-cities';
+import { isCuratedCity, cityFromProductSlug } from '@/data/curated-cities';
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -372,7 +372,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         canonical={canonicalUrl}
         structuredData={structuredData}
         hreflangLinks={hreflangLinks}
-        noindex={!isCuratedCity(slug)}
+        noindex={!isCuratedCity(cityFromProductSlug(slug))}
       />
 
       {/* FAQPage JSON-LD (separate script block) */}

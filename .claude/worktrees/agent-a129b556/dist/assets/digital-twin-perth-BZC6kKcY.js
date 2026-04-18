@@ -1,0 +1,1 @@
+import{j as t}from"./index-DPOIg50j.js";import{D as i}from"./DigitalTwinLocationPage-D79q0iCD.js";import"./monitor-BTW9eSAn.js";import"./chart-no-axes-column-DW9rW0MY.js";import"./file-text-CV4Dgu4d.js";function m(){return t.jsx(i,{city:"Perth",country:"Australia",slug:"digital-twin-perth"})}export{m as default};

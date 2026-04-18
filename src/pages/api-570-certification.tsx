@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Award, BookOpen, Clock, Users } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
+import { buildTechArticleSchema } from "@/data/author-schema";
 
 const examTopics = [
     "Piping system design (ASME B31.3, B31.1, B31.4, B31.8)",
@@ -81,6 +82,16 @@ export default function API570Certification() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
+            buildTechArticleSchema({
+                url: "https://atlantisndt.com/api-570-certification",
+                headline: "API 570 Certification 2026: Piping Inspector Exam, 11 Codes, Cost & Salary",
+                description: "API 570 piping inspector deep-dive: 170-question open-book exam (7.5 hrs), 11 reference codes (API 570/571/574/577/578, ASME B31.3, API 579-1), RBI per API 580, inspection intervals, 2026 fee $945, salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                datePublished: "2025-08-15",
+                dateModified: "2026-04-18",
+                section: "Piping Inspection",
+                keywords: "API 570, piping inspector, ASME B31.3, API 579, API 571 damage mechanisms",
+                dependencies: "API 570, API 571, API 574, API 577, API 578, API 579-1/ASME FFS-1, ASME B31.3, ASME Section V, Section IX",
+            }),
             {
                 "@type": "Course",
                 "name": "API 570 Piping Inspector Certification Training",
@@ -97,6 +108,28 @@ export default function API570Certification() {
                     "name": faq.question,
                     "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
                 }))
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "API 570 Piping Inspector Certification",
+                "credentialCategory": "Professional Certification",
+                "educationalLevel": "Professional",
+                "recognizedBy": { "@type": "Organization", "name": "American Petroleum Institute", "url": "https://www.api.org" },
+                "validFor": "P3Y",
+                "competencyRequired": "Piping inspection experience (1-3 years depending on education level)"
+            },
+            {
+                "@type": "HowTo",
+                "name": "How to Get API 570 Piping Inspector Certification",
+                "description": "Step-by-step guide to earning API 570 certification for piping inspectors.",
+                "totalTime": "PT720H",
+                "step": [
+                    { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-3 years of piping inspection experience depending on education level (degree, diploma, or high school)." },
+                    { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study 11 open-book reference codes including API 570, API 571, ASME B31.3, and API 579-1/ASME FFS-1." },
+                    { "@type": "HowToStep", "name": "Complete Training", "text": "Enroll in classroom, online, or blended API 570 exam preparation training." },
+                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question, 7.5-hour open-book exam (95% first-attempt pass rate with training)." },
+                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years through continuing education or re-examination." }
+                ]
             }
         ]
     };
@@ -105,8 +138,8 @@ export default function API570Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="[Complete Guide] API 570 Piping Certification - Pass First Try"
-                description="Master API 570 piping inspector cert: open-book exam, 8 codes, practice tests. 95% pass rate. B31.3, ASME, risk-based inspection (RBI)."
+                title="API 570 Certification 2026: Piping Inspector Exam, 11 Codes & Salary ($85-130K)"
+                description="API 570 exam 2026: 170 Qs / 7.5 hrs open-book, 11 codes (B31.3, API 571/574/577/578, API 579 FFS), RBI per API 580, eligibility, $945 fee, 95% pass rate. ASNT Level III-authored guide."
                 keywords="API 570 certification, API 570 training, piping inspector certification, API 570 exam prep, API 570 study guide, piping inspection, ASME B31.3, API 570 recertification, piping inspector exam, CML inspection"
                 canonical="https://atlantisndt.com/api-570-certification"
                 structuredData={structuredData}

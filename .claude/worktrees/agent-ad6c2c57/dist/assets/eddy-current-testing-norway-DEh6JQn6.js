@@ -1,0 +1,1 @@
+import{j as o}from"./index-DPOIg50j.js";import{M as t}from"./MethodLocationPage-DCSBcGty.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function n(){return o.jsx(t,{methodSlug:"eddy-current-testing",locationSlug:"norway"})}export{n as default};

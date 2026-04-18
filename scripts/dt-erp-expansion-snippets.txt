@@ -1,0 +1,110 @@
+=== DT LAZY IMPORTS ===
+
+const DigitalTwinManama = lazy(() => import("./pages/digital-twin-manama"));
+const DigitalTwinOdessa = lazy(() => import("./pages/digital-twin-odessa"));
+const DigitalTwinBergen = lazy(() => import("./pages/digital-twin-bergen"));
+const DigitalTwinRasAlKhaimah = lazy(() => import("./pages/digital-twin-ras-al-khaimah"));
+const DigitalTwinSohar = lazy(() => import("./pages/digital-twin-sohar"));
+const DigitalTwinBasrah = lazy(() => import("./pages/digital-twin-basrah"));
+const DigitalTwinPortHarcourt = lazy(() => import("./pages/digital-twin-port-harcourt"));
+const DigitalTwinMidland = lazy(() => import("./pages/digital-twin-midland"));
+const DigitalTwinAnchorage = lazy(() => import("./pages/digital-twin-anchorage"));
+const DigitalTwinBakersfield = lazy(() => import("./pages/digital-twin-bakersfield"));
+const DigitalTwinSharjah = lazy(() => import("./pages/digital-twin-sharjah"));
+const DigitalTwinMelbourne = lazy(() => import("./pages/digital-twin-melbourne"));
+const DigitalTwinJubail = lazy(() => import("./pages/digital-twin-jubail"));
+const DigitalTwinYanbu = lazy(() => import("./pages/digital-twin-yanbu"));
+const DigitalTwinEdmonton = lazy(() => import("./pages/digital-twin-edmonton"));
+const DigitalTwinChennai = lazy(() => import("./pages/digital-twin-chennai"));
+
+=== ERP LAZY IMPORTS ===
+
+const NDTErpManama = lazy(() => import("./pages/ndt-erp-manama"));
+const NDTErpOdessa = lazy(() => import("./pages/ndt-erp-odessa"));
+const NDTErpBergen = lazy(() => import("./pages/ndt-erp-bergen"));
+const NDTErpRasAlKhaimah = lazy(() => import("./pages/ndt-erp-ras-al-khaimah"));
+const NDTErpSohar = lazy(() => import("./pages/ndt-erp-sohar"));
+const NDTErpBasrah = lazy(() => import("./pages/ndt-erp-basrah"));
+const NDTErpPortHarcourt = lazy(() => import("./pages/ndt-erp-port-harcourt"));
+const NDTErpMidland = lazy(() => import("./pages/ndt-erp-midland"));
+const NDTErpAnchorage = lazy(() => import("./pages/ndt-erp-anchorage"));
+const NDTErpBakersfield = lazy(() => import("./pages/ndt-erp-bakersfield"));
+const NDTErpSharjah = lazy(() => import("./pages/ndt-erp-sharjah"));
+const NDTErpMelbourne = lazy(() => import("./pages/ndt-erp-melbourne"));
+const NDTErpJubail = lazy(() => import("./pages/ndt-erp-jubail"));
+const NDTErpYanbu = lazy(() => import("./pages/ndt-erp-yanbu"));
+const NDTErpEdmonton = lazy(() => import("./pages/ndt-erp-edmonton"));
+const NDTErpRotterdam = lazy(() => import("./pages/ndt-erp-rotterdam"));
+
+=== DT ROUTES ===
+
+                  <Route path="/digital-twin-manama" element={<LazyRoute Component={DigitalTwinManama} />} />
+                  <Route path="/digital-twin-odessa" element={<LazyRoute Component={DigitalTwinOdessa} />} />
+                  <Route path="/digital-twin-bergen" element={<LazyRoute Component={DigitalTwinBergen} />} />
+                  <Route path="/digital-twin-ras-al-khaimah" element={<LazyRoute Component={DigitalTwinRasAlKhaimah} />} />
+                  <Route path="/digital-twin-sohar" element={<LazyRoute Component={DigitalTwinSohar} />} />
+                  <Route path="/digital-twin-basrah" element={<LazyRoute Component={DigitalTwinBasrah} />} />
+                  <Route path="/digital-twin-port-harcourt" element={<LazyRoute Component={DigitalTwinPortHarcourt} />} />
+                  <Route path="/digital-twin-midland" element={<LazyRoute Component={DigitalTwinMidland} />} />
+                  <Route path="/digital-twin-anchorage" element={<LazyRoute Component={DigitalTwinAnchorage} />} />
+                  <Route path="/digital-twin-bakersfield" element={<LazyRoute Component={DigitalTwinBakersfield} />} />
+                  <Route path="/digital-twin-sharjah" element={<LazyRoute Component={DigitalTwinSharjah} />} />
+                  <Route path="/digital-twin-melbourne" element={<LazyRoute Component={DigitalTwinMelbourne} />} />
+                  <Route path="/digital-twin-jubail" element={<LazyRoute Component={DigitalTwinJubail} />} />
+                  <Route path="/digital-twin-yanbu" element={<LazyRoute Component={DigitalTwinYanbu} />} />
+                  <Route path="/digital-twin-edmonton" element={<LazyRoute Component={DigitalTwinEdmonton} />} />
+                  <Route path="/digital-twin-chennai" element={<LazyRoute Component={DigitalTwinChennai} />} />
+
+=== ERP ROUTES ===
+
+                  <Route path="/ndt-erp-manama" element={<LazyRoute Component={NDTErpManama} />} />
+                  <Route path="/ndt-erp-odessa" element={<LazyRoute Component={NDTErpOdessa} />} />
+                  <Route path="/ndt-erp-bergen" element={<LazyRoute Component={NDTErpBergen} />} />
+                  <Route path="/ndt-erp-ras-al-khaimah" element={<LazyRoute Component={NDTErpRasAlKhaimah} />} />
+                  <Route path="/ndt-erp-sohar" element={<LazyRoute Component={NDTErpSohar} />} />
+                  <Route path="/ndt-erp-basrah" element={<LazyRoute Component={NDTErpBasrah} />} />
+                  <Route path="/ndt-erp-port-harcourt" element={<LazyRoute Component={NDTErpPortHarcourt} />} />
+                  <Route path="/ndt-erp-midland" element={<LazyRoute Component={NDTErpMidland} />} />
+                  <Route path="/ndt-erp-anchorage" element={<LazyRoute Component={NDTErpAnchorage} />} />
+                  <Route path="/ndt-erp-bakersfield" element={<LazyRoute Component={NDTErpBakersfield} />} />
+                  <Route path="/ndt-erp-sharjah" element={<LazyRoute Component={NDTErpSharjah} />} />
+                  <Route path="/ndt-erp-melbourne" element={<LazyRoute Component={NDTErpMelbourne} />} />
+                  <Route path="/ndt-erp-jubail" element={<LazyRoute Component={NDTErpJubail} />} />
+                  <Route path="/ndt-erp-yanbu" element={<LazyRoute Component={NDTErpYanbu} />} />
+                  <Route path="/ndt-erp-edmonton" element={<LazyRoute Component={NDTErpEdmonton} />} />
+                  <Route path="/ndt-erp-rotterdam" element={<LazyRoute Component={NDTErpRotterdam} />} />
+
+=== SITEMAP ===
+
+  <url><loc>https://atlantisndt.com/digital-twin-manama</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-manama</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-odessa</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-odessa</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-bergen</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-bergen</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-ras-al-khaimah</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-ras-al-khaimah</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-sohar</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-sohar</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-basrah</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-basrah</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-port-harcourt</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-port-harcourt</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-midland</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-midland</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-anchorage</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-anchorage</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-bakersfield</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-bakersfield</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-sharjah</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-sharjah</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-melbourne</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-melbourne</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-jubail</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-jubail</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-yanbu</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-yanbu</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-edmonton</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-edmonton</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/digital-twin-chennai</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://atlantisndt.com/ndt-erp-rotterdam</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>

@@ -1,0 +1,1 @@
+import{j as t}from"./index-DPOIg50j.js";import{M as o}from"./MethodLocationPage-DCSBcGty.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function n(){return t.jsx(o,{methodSlug:"magnetic-particle-testing",locationSlug:"singapore"})}export{n as default};

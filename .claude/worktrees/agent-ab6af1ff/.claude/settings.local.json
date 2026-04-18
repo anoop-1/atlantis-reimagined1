@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(node:*)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(comm:*)",
+      "Bash(npm run:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "WebFetch(domain:ndt-careers-portal.vercel.app)",
+      "Bash(vercel --version:*)",
+      "Bash(npx vercel:*)",
+      "WebFetch(domain:industrial-inspection-resources.vercel.app)",
+      "WebFetch(domain:ndt-knowledge-hub.vercel.app)",
+      "WebFetch(domain:asset-integrity-hub.vercel.app)",
+      "WebFetch(domain:ndt-training-academy.vercel.app)"
+    ]
+  }
+}

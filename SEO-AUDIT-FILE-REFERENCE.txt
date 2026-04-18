@@ -1,0 +1,394 @@
+================================================================================
+SEO AUDIT - DETAILED FILE REFERENCE & LINE NUMBERS
+================================================================================
+Date: March 9, 2026
+Purpose: Quick lookup guide for all audit findings with exact file locations
+
+================================================================================
+1. META TAGS & SEO COMPONENTS
+================================================================================
+
+File: /src/components/SEOHead.tsx
+─────────────────────────────────
+Purpose: Central SEO meta tag management component
+Key Lines:
+  - Line 1-27: Interface definitions and imports
+  - Line 28: useEffect() hook - runs on every page
+  - Line 30-36: Title tag handling with branding logic
+  - Line 57-58: Meta description & keywords tags
+  - Line 59-61: Viewport, robots, author meta tags
+  - Line 77-85: Open Graph tags (og:title, og:description, og:image, og:type, og:url, og:site_name)
+  - Line 88-92: Twitter Card tags (twitter:card, twitter:site, twitter:title, twitter:description, twitter:image)
+  - Line 94-103: Canonical link tag implementation
+  - Line 105-118: ★ HREFLANG TAGS STRUCTURE (NOT BEING USED - GAP FOUND)
+  - Line 137-181: Organization schema (GOOD - implemented globally)
+  - Line 184-214: BreadcrumbList schema (GOOD - implemented)
+
+Issues Found:
+  ✗ Line 105-118: Hreflang parameter exists but no pages use hreflangLinks
+  ✗ Client-side rendering (line 28) sets tags after prerender (timing issue, mitigated)
+
+================================================================================
+2. PRERENDER SCRIPT & BUILD-TIME SEO
+================================================================================
+
+File: /scripts/prerender.mjs
+───────────────────────────
+Purpose: Build-time meta tag injection for crawlers
+Key Lines:
+  - Line 1-6: Header comments and documentation
+  - Line 9-16: File system setup, DIST folder paths
+  - Line 20: toTitleCase() helper function
+  - Line 24-89: injectMeta() function - CORE META TAG INJECTION
+    * Line 28-31: Title tag injection
+    * Line 34-37: Meta description injection
+    * Line 40-45: Canonical tag injection
+    * Line 48-51: OG:title injection
+    * Line 54-57: OG:description injection
+    * Line 60-63: OG:url injection
+    * Line 66-78: robots meta tag injection
+    * Line 83-85: Body content injection (marked as having bodyContent option)
+  - Line 91-99: writeRoute() function
+  - Line 102-104: Load base template
+  - Line 107-108: Load blogs from JSON
+  - Line 116-150: CORE PAGES DEFINITIONS
+    * Line 116-120: /about page (title, description, H1, text)
+    * Line 124-128: /consulting page (title: 213 chars - TOO LONG)
+    * Line 131-135: /consulting-usa page (title: acceptable length)
+    * Line 138-142: /consulting-india page
+    * Line 145-149: /consulting-me page
+    * Line 152-156: /training page
+    * Line 159-163: /training-usa page
+    * Line 166-170: /training-india page
+    * Line 173-177: /training-me page
+
+Issues Found:
+  ✗ Line 127: /consulting description = 213 chars (EXCEEDS 160-char limit)
+  ✗ Missing hreflang tag injection in injectMeta() function
+  ✗ No image sitemap generation script
+
+File: /package.json
+───────────────────
+Key Line:
+  - Line 11: "build": "vite build && node scripts/prerender.mjs"
+    This shows prerender runs automatically after vite build
+
+================================================================================
+3. BREADCRUMB NAVIGATION
+================================================================================
+
+File: /src/components/Breadcrumbs.tsx
+──────────────────────────────────────
+Purpose: Breadcrumb navigation + BreadcrumbList schema
+Key Lines:
+  - Line 1-8: Imports and interface definitions
+  - Line 15-38: routeLabels mapping (route → readable label)
+  - Line 40-62: Auto-generate breadcrumbs from URL path
+  - Line 64-76: BreadcrumbList schema generation
+  - Line 79-81: Don't show on homepage
+  - Line 92-122: Visual breadcrumb HTML rendering
+    * Line 99-100: Icons and separators
+    * Line 107-113: Links to parent pages
+    * Line 115-117: Current page (no link)
+
+Status: ✓ GOOD - properly implemented
+
+================================================================================
+4. RELATED ARTICLES COMPONENT
+================================================================================
+
+File: /src/components/RelatedArticles.tsx
+──────────────────────────────────────────
+Purpose: Internal cross-linking for blog/articles
+Key Lines:
+  - Line 19-45: articlesByCategory definition
+    * Line 20-26: ndt-methods category (UT, RT, MT, PT, ET, VT guides)
+    * Line 28-32: training category (salary, career, certification)
+    * Line 34-37: consulting category (Level III, Q&A)
+    * Line 39-43: digital-twins category (digital twin guides)
+  - Line 48-55: getCategoryFromSlug() function
+  - Line 57-70: Component logic (filters current article, returns max 3)
+  - Line 73-95: HTML rendering of related articles
+
+Status: ✓ GOOD - smart categorization, proper implementation
+
+================================================================================
+5. MAIN PAGES - CONSULTING
+================================================================================
+
+File: /src/pages/ConsultingServices.tsx
+─────────────────────────────────────────
+Purpose: Main consulting services page (/consulting)
+Key Lines:
+  - Line 160-166: SEOHead component with meta tags
+    * Title: "ASNT Level III NDT Consulting Services | Independent Technical Authority | Atlantis NDT"
+    * Description: 213 chars (TOO LONG - exceeds 160)
+    * Keywords: well-written, comprehensive
+    * structuredData: Service schema included
+  - Line 139-155: Service schema definition
+  - Line 176-183: Main H1 tag
+    * <h1>ASNT Level III <span>NDT Consulting Services</span></h1>
+  - Line 273: Image alt text
+    * alt={`${client.name} logo`} (GOOD - descriptive)
+  - Multiple sections with H2 headings (good structure)
+
+Issues Found:
+  ✗ Line 162: Description too long (213 chars vs. 160 limit)
+
+================================================================================
+6. LOCATION PAGES
+================================================================================
+
+File: /src/components/ConsultingLocationPage.tsx
+──────────────────────────────────────────────────
+Purpose: Reusable location page component for 50+ cities
+Size: 7,406 words
+Key Lines:
+  - Line 1-8: Imports
+  - Line 12-17: clientLogos array
+  - Line 21-356: locationIntros - UNIQUE content per location
+    * Line 22-25: Houston intro (5-6 paragraphs)
+    * Line 27-30: Dubai intro
+    * Line 32-35: Saudi Arabia intro
+    * Line 37-40: Singapore intro
+    * Line 42-45: Norway intro
+    * Line 77-80: Abu Dhabi intro
+    * [+ 60+ more locations with unique market insights and regional challenges]
+  - Line 360-364: defaultLocationContent fallback
+  - Line 379-410: consultingServices array (6 services - SAME on all pages)
+  - Line 412-429: whyChoosePoints array (SAME on all pages)
+  - Line 435-440: Component function with location slug parameter
+  - Line 568: SEOHead component call
+    * structuredData: Dynamic service schema per location
+    * Missing: LocalBusiness schema (THIS IS THE GAP)
+
+Issues Found:
+  ✗ Line 379-410: Service descriptions identical across all 50+ location pages
+  ✗ Line 412-429: Why choose points same for all locations
+  ✗ Missing: LocalBusiness schema with address/phone per location
+  ✓ Line 21-356: Unique intros, market insights, regional challenges per location
+
+Location Pages Examples:
+  /ndt-consulting-abu-dhabi → maps to ConsultingLocationPage with slug="abu-dhabi"
+  /ndt-consulting-houston → maps to ConsultingLocationPage with slug="houston"
+  /ndt-consulting-dubai → maps to ConsultingLocationPage with slug="dubai"
+  [50+ location pages total]
+
+================================================================================
+7. TRAINING PAGES
+================================================================================
+
+Files: /src/pages/Training-USA.tsx
+         /src/pages/Training-India.tsx
+         /src/pages/Training-ME.tsx
+─────────────────────────────────
+Purpose: Regional training pages
+Key Content:
+  - Each has SEOHead component with region-specific title/description
+  - Each lists courses specific to region
+  - Missing: Course schema (THIS IS THE GAP)
+
+Issues Found:
+  ✗ NO Course schema on any training page
+  ✓ Good regional-specific content
+
+================================================================================
+8. BLOG PAGES
+================================================================================
+
+File: /src/pages/BlogDetail.tsx
+───────────────────────────────
+Purpose: Individual blog post pages
+Pages:
+  - /blog/ultrasonic-testing-ultimate-guide
+  - /blog/eddy-current-testing-complete-guide
+  - /blog/rt-vs-ut-complete-comparison
+  - /blog/ndt-salary-guide-2026-global
+  - /blog/api-653-certification-complete-guide
+  [5+ blog posts]
+
+Issues Found:
+  ✗ NO Article schema on any blog page
+  ✗ Missing: datePublished, author, headline schema properties
+
+================================================================================
+9. FAQ PAGE
+================================================================================
+
+File: /src/pages/FAQ.tsx
+────────────────────────
+Purpose: Frequently Asked Questions page
+Location: /faq
+
+Issues Found:
+  ✗ NO FAQPage schema
+  ✗ Missing: mainEntity schema with Question/Answer structure
+
+================================================================================
+10. SITEMAP & ROBOTS
+================================================================================
+
+File: /public/sitemap.xml
+──────────────────────────
+Format: XML 1.0 encoding UTF-8
+Generated: March 1, 2026
+Total URLs: 371 (verified with grep -c "<loc>")
+Key Lines:
+  - Line 1-2: XML header and namespace
+  - Line 3: Comment: "Generated by prerender.mjs — 366 pages — 2026-03-01"
+  - Line 4: Comment: "Homepage"
+  - Line 5-12: Homepage entry (priority 1.0, weekly, lastmod 2026-03-01)
+  - Lines follow with pattern:
+    * <url><loc>URL</loc><lastmod>DATE</lastmod><changefreq>FREQ</changefreq><priority>PRIORITY</priority></url>
+  - Last 50 lines: Blog posts and recent content
+    * /blog/eddy-current-testing-complete-guide (lastmod 2026-03-09)
+    * /blog/ultrasonic-testing-ultimate-guide (lastmod 2026-03-09)
+    * /blog/api-653-certification-complete-guide (lastmod 2026-03-09)
+
+Issues Found:
+  ✓ Sitemap is excellent
+  ✗ Missing: Image sitemap (separate file)
+
+File: /public/robots.txt
+────────────────────────
+Key Lines:
+  - Line 1-2: Googlebot allow all
+  - Line 3-5: Bingbot allow all
+  - Line 6-8: Twitterbot allow all
+  - Line 9-11: facebookexternalhit allow all
+  - Line 12-14: Catch-all allow all
+  - Line 16: Sitemap reference: "Sitemap: https://atlantisndt.com/sitemap.xml"
+
+Status: ✓ GOOD
+
+================================================================================
+11. PUBLIC ASSETS
+================================================================================
+
+Directory: /public/
+──────────────────
+Key Files for SEO:
+  - /public/og-image.jpg (used in all OG tags)
+    * Size: 48,419 bytes (~48KB)
+    * Referenced: Line 23 in SEOHead.tsx, Line 82
+  - /public/atlantis.png (logo)
+    * Size: 7,717 bytes
+    * Referenced: Line 142 in SEOHead.tsx (Organization schema)
+  - /public/atlantis1.png (logo variant)
+  - /logos/*.png (client logos)
+    * Aramco.png, ADNOC.png, Chevron.jpg, Total Energies.jpg, Boeing.png, Petronas.jpg, TUV rhineland.png, Metrosteel.jpg
+    * All referenced in ConsultingServices.tsx with alt text
+  - /public/background.png (7.7MB - large hero image)
+  - /public/factory.png (7.7MB - 3D render)
+  - /public/welder.png (429KB - hero image)
+  - 3D model files (.glb):
+    * danube_power-plant.glb (8.9MB)
+    * generic_factory_with_smoke_towers.glb (6.4MB)
+    * jet_engine.glb (26MB - very large)
+    * old_rusted_modular_pipes.glb (5.9MB)
+    * propane_tank.glb (1.6MB)
+
+Issues Found:
+  ✓ All images have alt text
+  ✗ No image sitemap
+  ✗ 3D models not crawlable (acceptable for decorative content)
+
+================================================================================
+12. DATA FILES
+================================================================================
+
+File: /src/data/programmatic-seo.ts (inferred from ConsultingLocationPage usage)
+────────────────────────────────────
+Purpose: Contains keyLocations array with 50+ cities
+Content:
+  - slug: "abu-dhabi", "houston", "dubai", etc.
+  - name: Location name
+  - color: For UI styling
+
+File: /src/data/blogs.json
+──────────────────────────
+Referenced in: /scripts/prerender.mjs line 107-108
+Purpose: Blog post metadata for sitemap generation
+
+================================================================================
+13. INDEX.HTML TEMPLATE
+================================================================================
+
+File: /index.html
+──────────────────
+Purpose: Main HTML template (source for prerender)
+Key Sections:
+  - Meta tags for default values
+  - Links for canonical, favicon, etc.
+  - Root div for React
+  - Script tags for gtag (Google Analytics)
+
+Used as base for: All prerendered pages
+
+================================================================================
+14. CONFIGURATION FILES
+================================================================================
+
+File: package.json
+───────────────────
+Key Lines:
+  - Line 6-11: Scripts section
+    * Line 11: Build script: "vite build && node scripts/prerender.mjs"
+  - Line 13-45: reactSnap section (legacy config, not used but documented)
+
+File: vite.config.ts
+────────────────────
+Build configuration (not critical for SEO)
+
+File: tsconfig.json
+───────────────────
+TypeScript configuration (not critical for SEO)
+
+================================================================================
+QUICK REFERENCE - FILES TO MODIFY BY PRIORITY
+================================================================================
+
+PRIORITY 1 - CRITICAL FIXES (This Week):
+  □ /src/components/SEOHead.tsx
+    - Lines 105-118: Add hreflang implementation
+    - How: Update pages to pass hreflangLinks parameter
+
+  □ /scripts/prerender.mjs
+    - Lines 24-89: Add hreflang tag injection to injectMeta()
+    - Lines 116-150: Reduce meta description lengths (line 127 especially)
+
+  □ /src/components/ConsultingLocationPage.tsx
+    - Add LocalBusiness schema to structuredData parameter
+    - Use location data to populate address, phone
+
+PRIORITY 2 - MEDIUM FIXES (Week 2):
+  □ /src/pages/Training-USA.tsx
+    - Add Course schema
+
+  □ /src/pages/Training-India.tsx
+    - Add Course schema
+
+  □ /src/pages/Training-ME.tsx
+    - Add Course schema
+
+  □ /src/pages/FAQ.tsx
+    - Add FAQPage schema
+
+  □ /src/pages/BlogDetail.tsx (all blog posts)
+    - Add Article schema
+
+  □ Create /scripts/image-sitemap.mjs (new file)
+    - Generate image sitemap
+
+PRIORITY 3 - NICE-TO-HAVE (Month 2):
+  □ /src/components/ConsultingLocationPage.tsx
+    - Expand location-specific content
+    - Add case studies per location
+    - Add local data/statistics
+
+  □ /src/pages/Index.tsx
+    - Add location pages discovery section
+
+================================================================================
+END OF FILE REFERENCE
+================================================================================

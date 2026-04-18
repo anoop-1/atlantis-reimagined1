@@ -56,26 +56,41 @@ const INCLUDE_TEMPLATES = process.argv.includes('--include-templates');
 // pages get noindex in the React app and are excluded from API submission.
 // Use --include-templates to override (not recommended — doorway page risk).
 const CURATED_CITY_SLUGS = new Set([
-  // USA
+  // USA — Tier 1 + 2 + 3 (April 2026)
   'houston', 'new-orleans', 'dallas', 'los-angeles', 'chicago', 'philadelphia',
   'pittsburgh', 'detroit', 'seattle', 'denver', 'new-york', 'atlanta',
   'san-francisco', 'boston', 'phoenix', 'port-arthur-texas', 'lake-charles-louisiana',
   'baton-rouge', 'corpus-christi', 'tampa', 'miami',
+  'odessa-texas', 'odessa', 'midland-texas', 'midland', 'anchorage-alaska', 'anchorage',
+  'bakersfield-california', 'bakersfield', 'tulsa', 'beaumont', 'mobile',
+  'st-louis', 'cleveland', 'cincinnati', 'nashville', 'louisville',
+  'kansas-city', 'minneapolis', 'milwaukee', 'charlotte', 'wilmington-delaware',
   // Middle East
-  'abu-dhabi', 'dubai', 'jubail-saudi-arabia', 'doha-qatar', 'dammam-saudi-arabia',
-  'ras-laffan-qatar', 'yanbu-saudi-arabia', 'al-khobar-saudi-arabia',
+  'abu-dhabi', 'dubai', 'saudi-arabia', 'kuwait', 'muscat', 'doha',
+  'jubail-saudi-arabia', 'jubail', 'doha-qatar', 'dammam-saudi-arabia',
+  'ras-laffan-qatar', 'yanbu-saudi-arabia', 'yanbu', 'al-khobar-saudi-arabia',
+  'ras-al-khaimah', 'sohar-oman', 'sohar', 'manama-bahrain', 'manama',
+  'basrah-iraq', 'basrah', 'sharjah',
   // Europe
-  'aberdeen-united-kingdom', 'rotterdam-netherlands', 'hamburg-germany',
-  'stavanger-norway', 'london-united-kingdom', 'munich-germany', 'toulouse-france',
-  'milan-italy', 'antwerp-belgium', 'gdansk-poland',
+  'aberdeen', 'aberdeen-united-kingdom', 'rotterdam', 'rotterdam-netherlands',
+  'hamburg-germany', 'stavanger-norway', 'oslo', 'london', 'london-united-kingdom',
+  'munich-germany', 'toulouse-france', 'milan-italy', 'antwerp-belgium',
+  'gdansk-poland', 'bergen-norway', 'bergen', 'glasgow', 'genoa',
+  'paris', 'madrid', 'piraeus', 'plymouth', 'newcastle', 'cardiff',
+  'sunderland-uk',
   // Asia-Pacific
-  'singapore', 'mumbai-india', 'chennai', 'perth-australia', 'tokyo-japan',
-  'seoul-south-korea', 'shanghai-china', 'kuala-lumpur-malaysia', 'bangkok-thailand',
-  'hyderabad-india', 'ulsan-south-korea', 'geoje-south-korea', 'jamnagar-india',
-  'yokohama-japan', 'brisbane-australia',
+  'singapore', 'mumbai', 'mumbai-india', 'chennai', 'perth', 'perth-australia',
+  'tokyo-japan', 'seoul-south-korea', 'shanghai-china', 'kuala-lumpur',
+  'kuala-lumpur-malaysia', 'bangkok-thailand', 'hyderabad', 'hyderabad-india',
+  'ulsan-south-korea', 'geoje-south-korea', 'jamnagar-india', 'yokohama-japan',
+  'brisbane-australia', 'melbourne-australia', 'melbourne', 'busan-south-korea',
+  'tianjin-china', 'sydney', 'karratha', 'gladstone', 'darwin',
+  'auckland', 'wellington', 'christchurch',
   // Americas & Africa
-  'lagos-nigeria', 'luanda-angola', 'rio-de-janeiro-brazil',
-  'johannesburg-south-africa', 'calgary-canada', 'edmonton-canada',
+  'lagos', 'lagos-nigeria', 'luanda-angola', 'port-harcourt-nigeria', 'port-harcourt',
+  'rio-de-janeiro-brazil', 'johannesburg-south-africa', 'calgary', 'calgary-canada',
+  'edmonton-canada', 'edmonton', 'toronto', 'vancouver', 'montreal',
+  'fort-mcmurray', 'halifax', 'mexico-city', 'buenos-aires-argentina',
 ]);
 
 const TEMPLATE_PREFIXES = [

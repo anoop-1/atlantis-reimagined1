@@ -1,0 +1,391 @@
+=== DT LAZY IMPORTS ===
+const DigitalTwinTulsa = lazy(() => import("./pages/digital-twin-tulsa"));
+const DigitalTwinBeaumont = lazy(() => import("./pages/digital-twin-beaumont"));
+const DigitalTwinMobile = lazy(() => import("./pages/digital-twin-mobile"));
+const DigitalTwinStLouis = lazy(() => import("./pages/digital-twin-st-louis"));
+const DigitalTwinCleveland = lazy(() => import("./pages/digital-twin-cleveland"));
+const DigitalTwinCincinnati = lazy(() => import("./pages/digital-twin-cincinnati"));
+const DigitalTwinNashville = lazy(() => import("./pages/digital-twin-nashville"));
+const DigitalTwinLouisville = lazy(() => import("./pages/digital-twin-louisville"));
+const DigitalTwinKansasCity = lazy(() => import("./pages/digital-twin-kansas-city"));
+const DigitalTwinMinneapolis = lazy(() => import("./pages/digital-twin-minneapolis"));
+const DigitalTwinMilwaukee = lazy(() => import("./pages/digital-twin-milwaukee"));
+const DigitalTwinCharlotte = lazy(() => import("./pages/digital-twin-charlotte"));
+const DigitalTwinToronto = lazy(() => import("./pages/digital-twin-toronto"));
+const DigitalTwinVancouver = lazy(() => import("./pages/digital-twin-vancouver"));
+const DigitalTwinMontreal = lazy(() => import("./pages/digital-twin-montreal"));
+const DigitalTwinFortMcMurray = lazy(() => import("./pages/digital-twin-fort-mcmurray"));
+const DigitalTwinHalifax = lazy(() => import("./pages/digital-twin-halifax"));
+const DigitalTwinGlasgow = lazy(() => import("./pages/digital-twin-glasgow"));
+const DigitalTwinParis = lazy(() => import("./pages/digital-twin-paris"));
+const DigitalTwinMadrid = lazy(() => import("./pages/digital-twin-madrid"));
+const DigitalTwinGenoa = lazy(() => import("./pages/digital-twin-genoa"));
+const DigitalTwinPiraeus = lazy(() => import("./pages/digital-twin-piraeus"));
+const DigitalTwinPlymouth = lazy(() => import("./pages/digital-twin-plymouth"));
+const DigitalTwinNewcastle = lazy(() => import("./pages/digital-twin-newcastle"));
+const DigitalTwinSydney = lazy(() => import("./pages/digital-twin-sydney"));
+const DigitalTwinKarratha = lazy(() => import("./pages/digital-twin-karratha"));
+const DigitalTwinGladstone = lazy(() => import("./pages/digital-twin-gladstone"));
+const DigitalTwinDarwin = lazy(() => import("./pages/digital-twin-darwin"));
+const DigitalTwinAuckland = lazy(() => import("./pages/digital-twin-auckland"));
+const DigitalTwinWellington = lazy(() => import("./pages/digital-twin-wellington"));
+const DigitalTwinChristchurch = lazy(() => import("./pages/digital-twin-christchurch"));
+
+=== ERP LAZY IMPORTS ===
+const NDTErpTulsa = lazy(() => import("./pages/ndt-erp-tulsa"));
+const NDTErpBeaumont = lazy(() => import("./pages/ndt-erp-beaumont"));
+const NDTErpMobile = lazy(() => import("./pages/ndt-erp-mobile"));
+const NDTErpStLouis = lazy(() => import("./pages/ndt-erp-st-louis"));
+const NDTErpCleveland = lazy(() => import("./pages/ndt-erp-cleveland"));
+const NDTErpCincinnati = lazy(() => import("./pages/ndt-erp-cincinnati"));
+const NDTErpNashville = lazy(() => import("./pages/ndt-erp-nashville"));
+const NDTErpLouisville = lazy(() => import("./pages/ndt-erp-louisville"));
+const NDTErpKansasCity = lazy(() => import("./pages/ndt-erp-kansas-city"));
+const NDTErpMinneapolis = lazy(() => import("./pages/ndt-erp-minneapolis"));
+const NDTErpMilwaukee = lazy(() => import("./pages/ndt-erp-milwaukee"));
+const NDTErpCharlotte = lazy(() => import("./pages/ndt-erp-charlotte"));
+const NDTErpToronto = lazy(() => import("./pages/ndt-erp-toronto"));
+const NDTErpVancouver = lazy(() => import("./pages/ndt-erp-vancouver"));
+const NDTErpMontreal = lazy(() => import("./pages/ndt-erp-montreal"));
+const NDTErpFortMcMurray = lazy(() => import("./pages/ndt-erp-fort-mcmurray"));
+const NDTErpHalifax = lazy(() => import("./pages/ndt-erp-halifax"));
+const NDTErpGlasgow = lazy(() => import("./pages/ndt-erp-glasgow"));
+const NDTErpParis = lazy(() => import("./pages/ndt-erp-paris"));
+const NDTErpMadrid = lazy(() => import("./pages/ndt-erp-madrid"));
+const NDTErpGenoa = lazy(() => import("./pages/ndt-erp-genoa"));
+const NDTErpPiraeus = lazy(() => import("./pages/ndt-erp-piraeus"));
+const NDTErpPlymouth = lazy(() => import("./pages/ndt-erp-plymouth"));
+const NDTErpNewcastle = lazy(() => import("./pages/ndt-erp-newcastle"));
+const NDTErpSydney = lazy(() => import("./pages/ndt-erp-sydney"));
+const NDTErpKarratha = lazy(() => import("./pages/ndt-erp-karratha"));
+const NDTErpGladstone = lazy(() => import("./pages/ndt-erp-gladstone"));
+const NDTErpDarwin = lazy(() => import("./pages/ndt-erp-darwin"));
+const NDTErpAuckland = lazy(() => import("./pages/ndt-erp-auckland"));
+const NDTErpWellington = lazy(() => import("./pages/ndt-erp-wellington"));
+const NDTErpChristchurch = lazy(() => import("./pages/ndt-erp-christchurch"));
+
+=== REPORTING LAZY IMPORTS ===
+const NDTReportingTulsa = lazy(() => import("./pages/ndt-reporting-tulsa"));
+const NDTReportingBeaumont = lazy(() => import("./pages/ndt-reporting-beaumont"));
+const NDTReportingMobile = lazy(() => import("./pages/ndt-reporting-mobile"));
+const NDTReportingStLouis = lazy(() => import("./pages/ndt-reporting-st-louis"));
+const NDTReportingCleveland = lazy(() => import("./pages/ndt-reporting-cleveland"));
+const NDTReportingCincinnati = lazy(() => import("./pages/ndt-reporting-cincinnati"));
+const NDTReportingNashville = lazy(() => import("./pages/ndt-reporting-nashville"));
+const NDTReportingLouisville = lazy(() => import("./pages/ndt-reporting-louisville"));
+const NDTReportingKansasCity = lazy(() => import("./pages/ndt-reporting-kansas-city"));
+const NDTReportingMinneapolis = lazy(() => import("./pages/ndt-reporting-minneapolis"));
+const NDTReportingMilwaukee = lazy(() => import("./pages/ndt-reporting-milwaukee"));
+const NDTReportingCharlotte = lazy(() => import("./pages/ndt-reporting-charlotte"));
+const NDTReportingToronto = lazy(() => import("./pages/ndt-reporting-toronto"));
+const NDTReportingVancouver = lazy(() => import("./pages/ndt-reporting-vancouver"));
+const NDTReportingMontreal = lazy(() => import("./pages/ndt-reporting-montreal"));
+const NDTReportingFortMcMurray = lazy(() => import("./pages/ndt-reporting-fort-mcmurray"));
+const NDTReportingHalifax = lazy(() => import("./pages/ndt-reporting-halifax"));
+const NDTReportingGlasgow = lazy(() => import("./pages/ndt-reporting-glasgow"));
+const NDTReportingParis = lazy(() => import("./pages/ndt-reporting-paris"));
+const NDTReportingMadrid = lazy(() => import("./pages/ndt-reporting-madrid"));
+const NDTReportingGenoa = lazy(() => import("./pages/ndt-reporting-genoa"));
+const NDTReportingPiraeus = lazy(() => import("./pages/ndt-reporting-piraeus"));
+const NDTReportingPlymouth = lazy(() => import("./pages/ndt-reporting-plymouth"));
+const NDTReportingNewcastle = lazy(() => import("./pages/ndt-reporting-newcastle"));
+const NDTReportingSydney = lazy(() => import("./pages/ndt-reporting-sydney"));
+const NDTReportingKarratha = lazy(() => import("./pages/ndt-reporting-karratha"));
+const NDTReportingGladstone = lazy(() => import("./pages/ndt-reporting-gladstone"));
+const NDTReportingDarwin = lazy(() => import("./pages/ndt-reporting-darwin"));
+const NDTReportingAuckland = lazy(() => import("./pages/ndt-reporting-auckland"));
+const NDTReportingWellington = lazy(() => import("./pages/ndt-reporting-wellington"));
+const NDTReportingChristchurch = lazy(() => import("./pages/ndt-reporting-christchurch"));
+
+=== DT ROUTES ===
+                  <Route path="/digital-twin-tulsa" element={<LazyRoute Component={DigitalTwinTulsa} />} />
+                  <Route path="/digital-twin-beaumont" element={<LazyRoute Component={DigitalTwinBeaumont} />} />
+                  <Route path="/digital-twin-mobile" element={<LazyRoute Component={DigitalTwinMobile} />} />
+                  <Route path="/digital-twin-st-louis" element={<LazyRoute Component={DigitalTwinStLouis} />} />
+                  <Route path="/digital-twin-cleveland" element={<LazyRoute Component={DigitalTwinCleveland} />} />
+                  <Route path="/digital-twin-cincinnati" element={<LazyRoute Component={DigitalTwinCincinnati} />} />
+                  <Route path="/digital-twin-nashville" element={<LazyRoute Component={DigitalTwinNashville} />} />
+                  <Route path="/digital-twin-louisville" element={<LazyRoute Component={DigitalTwinLouisville} />} />
+                  <Route path="/digital-twin-kansas-city" element={<LazyRoute Component={DigitalTwinKansasCity} />} />
+                  <Route path="/digital-twin-minneapolis" element={<LazyRoute Component={DigitalTwinMinneapolis} />} />
+                  <Route path="/digital-twin-milwaukee" element={<LazyRoute Component={DigitalTwinMilwaukee} />} />
+                  <Route path="/digital-twin-charlotte" element={<LazyRoute Component={DigitalTwinCharlotte} />} />
+                  <Route path="/digital-twin-toronto" element={<LazyRoute Component={DigitalTwinToronto} />} />
+                  <Route path="/digital-twin-vancouver" element={<LazyRoute Component={DigitalTwinVancouver} />} />
+                  <Route path="/digital-twin-montreal" element={<LazyRoute Component={DigitalTwinMontreal} />} />
+                  <Route path="/digital-twin-fort-mcmurray" element={<LazyRoute Component={DigitalTwinFortMcMurray} />} />
+                  <Route path="/digital-twin-halifax" element={<LazyRoute Component={DigitalTwinHalifax} />} />
+                  <Route path="/digital-twin-glasgow" element={<LazyRoute Component={DigitalTwinGlasgow} />} />
+                  <Route path="/digital-twin-paris" element={<LazyRoute Component={DigitalTwinParis} />} />
+                  <Route path="/digital-twin-madrid" element={<LazyRoute Component={DigitalTwinMadrid} />} />
+                  <Route path="/digital-twin-genoa" element={<LazyRoute Component={DigitalTwinGenoa} />} />
+                  <Route path="/digital-twin-piraeus" element={<LazyRoute Component={DigitalTwinPiraeus} />} />
+                  <Route path="/digital-twin-plymouth" element={<LazyRoute Component={DigitalTwinPlymouth} />} />
+                  <Route path="/digital-twin-newcastle" element={<LazyRoute Component={DigitalTwinNewcastle} />} />
+                  <Route path="/digital-twin-sydney" element={<LazyRoute Component={DigitalTwinSydney} />} />
+                  <Route path="/digital-twin-karratha" element={<LazyRoute Component={DigitalTwinKarratha} />} />
+                  <Route path="/digital-twin-gladstone" element={<LazyRoute Component={DigitalTwinGladstone} />} />
+                  <Route path="/digital-twin-darwin" element={<LazyRoute Component={DigitalTwinDarwin} />} />
+                  <Route path="/digital-twin-auckland" element={<LazyRoute Component={DigitalTwinAuckland} />} />
+                  <Route path="/digital-twin-wellington" element={<LazyRoute Component={DigitalTwinWellington} />} />
+                  <Route path="/digital-twin-christchurch" element={<LazyRoute Component={DigitalTwinChristchurch} />} />
+
+=== ERP ROUTES ===
+                  <Route path="/ndt-erp-tulsa" element={<LazyRoute Component={NDTErpTulsa} />} />
+                  <Route path="/ndt-erp-beaumont" element={<LazyRoute Component={NDTErpBeaumont} />} />
+                  <Route path="/ndt-erp-mobile" element={<LazyRoute Component={NDTErpMobile} />} />
+                  <Route path="/ndt-erp-st-louis" element={<LazyRoute Component={NDTErpStLouis} />} />
+                  <Route path="/ndt-erp-cleveland" element={<LazyRoute Component={NDTErpCleveland} />} />
+                  <Route path="/ndt-erp-cincinnati" element={<LazyRoute Component={NDTErpCincinnati} />} />
+                  <Route path="/ndt-erp-nashville" element={<LazyRoute Component={NDTErpNashville} />} />
+                  <Route path="/ndt-erp-louisville" element={<LazyRoute Component={NDTErpLouisville} />} />
+                  <Route path="/ndt-erp-kansas-city" element={<LazyRoute Component={NDTErpKansasCity} />} />
+                  <Route path="/ndt-erp-minneapolis" element={<LazyRoute Component={NDTErpMinneapolis} />} />
+                  <Route path="/ndt-erp-milwaukee" element={<LazyRoute Component={NDTErpMilwaukee} />} />
+                  <Route path="/ndt-erp-charlotte" element={<LazyRoute Component={NDTErpCharlotte} />} />
+                  <Route path="/ndt-erp-toronto" element={<LazyRoute Component={NDTErpToronto} />} />
+                  <Route path="/ndt-erp-vancouver" element={<LazyRoute Component={NDTErpVancouver} />} />
+                  <Route path="/ndt-erp-montreal" element={<LazyRoute Component={NDTErpMontreal} />} />
+                  <Route path="/ndt-erp-fort-mcmurray" element={<LazyRoute Component={NDTErpFortMcMurray} />} />
+                  <Route path="/ndt-erp-halifax" element={<LazyRoute Component={NDTErpHalifax} />} />
+                  <Route path="/ndt-erp-glasgow" element={<LazyRoute Component={NDTErpGlasgow} />} />
+                  <Route path="/ndt-erp-paris" element={<LazyRoute Component={NDTErpParis} />} />
+                  <Route path="/ndt-erp-madrid" element={<LazyRoute Component={NDTErpMadrid} />} />
+                  <Route path="/ndt-erp-genoa" element={<LazyRoute Component={NDTErpGenoa} />} />
+                  <Route path="/ndt-erp-piraeus" element={<LazyRoute Component={NDTErpPiraeus} />} />
+                  <Route path="/ndt-erp-plymouth" element={<LazyRoute Component={NDTErpPlymouth} />} />
+                  <Route path="/ndt-erp-newcastle" element={<LazyRoute Component={NDTErpNewcastle} />} />
+                  <Route path="/ndt-erp-sydney" element={<LazyRoute Component={NDTErpSydney} />} />
+                  <Route path="/ndt-erp-karratha" element={<LazyRoute Component={NDTErpKarratha} />} />
+                  <Route path="/ndt-erp-gladstone" element={<LazyRoute Component={NDTErpGladstone} />} />
+                  <Route path="/ndt-erp-darwin" element={<LazyRoute Component={NDTErpDarwin} />} />
+                  <Route path="/ndt-erp-auckland" element={<LazyRoute Component={NDTErpAuckland} />} />
+                  <Route path="/ndt-erp-wellington" element={<LazyRoute Component={NDTErpWellington} />} />
+                  <Route path="/ndt-erp-christchurch" element={<LazyRoute Component={NDTErpChristchurch} />} />
+
+=== REPORTING ROUTES ===
+                  <Route path="/ndt-reporting-tulsa" element={<LazyRoute Component={NDTReportingTulsa} />} />
+                  <Route path="/ndt-reporting-beaumont" element={<LazyRoute Component={NDTReportingBeaumont} />} />
+                  <Route path="/ndt-reporting-mobile" element={<LazyRoute Component={NDTReportingMobile} />} />
+                  <Route path="/ndt-reporting-st-louis" element={<LazyRoute Component={NDTReportingStLouis} />} />
+                  <Route path="/ndt-reporting-cleveland" element={<LazyRoute Component={NDTReportingCleveland} />} />
+                  <Route path="/ndt-reporting-cincinnati" element={<LazyRoute Component={NDTReportingCincinnati} />} />
+                  <Route path="/ndt-reporting-nashville" element={<LazyRoute Component={NDTReportingNashville} />} />
+                  <Route path="/ndt-reporting-louisville" element={<LazyRoute Component={NDTReportingLouisville} />} />
+                  <Route path="/ndt-reporting-kansas-city" element={<LazyRoute Component={NDTReportingKansasCity} />} />
+                  <Route path="/ndt-reporting-minneapolis" element={<LazyRoute Component={NDTReportingMinneapolis} />} />
+                  <Route path="/ndt-reporting-milwaukee" element={<LazyRoute Component={NDTReportingMilwaukee} />} />
+                  <Route path="/ndt-reporting-charlotte" element={<LazyRoute Component={NDTReportingCharlotte} />} />
+                  <Route path="/ndt-reporting-toronto" element={<LazyRoute Component={NDTReportingToronto} />} />
+                  <Route path="/ndt-reporting-vancouver" element={<LazyRoute Component={NDTReportingVancouver} />} />
+                  <Route path="/ndt-reporting-montreal" element={<LazyRoute Component={NDTReportingMontreal} />} />
+                  <Route path="/ndt-reporting-fort-mcmurray" element={<LazyRoute Component={NDTReportingFortMcMurray} />} />
+                  <Route path="/ndt-reporting-halifax" element={<LazyRoute Component={NDTReportingHalifax} />} />
+                  <Route path="/ndt-reporting-glasgow" element={<LazyRoute Component={NDTReportingGlasgow} />} />
+                  <Route path="/ndt-reporting-paris" element={<LazyRoute Component={NDTReportingParis} />} />
+                  <Route path="/ndt-reporting-madrid" element={<LazyRoute Component={NDTReportingMadrid} />} />
+                  <Route path="/ndt-reporting-genoa" element={<LazyRoute Component={NDTReportingGenoa} />} />
+                  <Route path="/ndt-reporting-piraeus" element={<LazyRoute Component={NDTReportingPiraeus} />} />
+                  <Route path="/ndt-reporting-plymouth" element={<LazyRoute Component={NDTReportingPlymouth} />} />
+                  <Route path="/ndt-reporting-newcastle" element={<LazyRoute Component={NDTReportingNewcastle} />} />
+                  <Route path="/ndt-reporting-sydney" element={<LazyRoute Component={NDTReportingSydney} />} />
+                  <Route path="/ndt-reporting-karratha" element={<LazyRoute Component={NDTReportingKarratha} />} />
+                  <Route path="/ndt-reporting-gladstone" element={<LazyRoute Component={NDTReportingGladstone} />} />
+                  <Route path="/ndt-reporting-darwin" element={<LazyRoute Component={NDTReportingDarwin} />} />
+                  <Route path="/ndt-reporting-auckland" element={<LazyRoute Component={NDTReportingAuckland} />} />
+                  <Route path="/ndt-reporting-wellington" element={<LazyRoute Component={NDTReportingWellington} />} />
+                  <Route path="/ndt-reporting-christchurch" element={<LazyRoute Component={NDTReportingChristchurch} />} />
+
+=== PRERENDER DT ===
+  { slug: 'tulsa', city: 'Tulsa', country: 'USA', assets: 'industrial inspection assets in Tulsa, USA' },
+  { slug: 'beaumont', city: 'Beaumont', country: 'USA', assets: 'industrial inspection assets in Beaumont, USA' },
+  { slug: 'mobile', city: 'Mobile', country: 'USA', assets: 'industrial inspection assets in Mobile, USA' },
+  { slug: 'st-louis', city: 'St. Louis', country: 'USA', assets: 'industrial inspection assets in St. Louis, USA' },
+  { slug: 'cleveland', city: 'Cleveland', country: 'USA', assets: 'industrial inspection assets in Cleveland, USA' },
+  { slug: 'cincinnati', city: 'Cincinnati', country: 'USA', assets: 'industrial inspection assets in Cincinnati, USA' },
+  { slug: 'nashville', city: 'Nashville', country: 'USA', assets: 'industrial inspection assets in Nashville, USA' },
+  { slug: 'louisville', city: 'Louisville', country: 'USA', assets: 'industrial inspection assets in Louisville, USA' },
+  { slug: 'kansas-city', city: 'Kansas City', country: 'USA', assets: 'industrial inspection assets in Kansas City, USA' },
+  { slug: 'minneapolis', city: 'Minneapolis', country: 'USA', assets: 'industrial inspection assets in Minneapolis, USA' },
+  { slug: 'milwaukee', city: 'Milwaukee', country: 'USA', assets: 'industrial inspection assets in Milwaukee, USA' },
+  { slug: 'charlotte', city: 'Charlotte', country: 'USA', assets: 'industrial inspection assets in Charlotte, USA' },
+  { slug: 'toronto', city: 'Toronto', country: 'Canada', assets: 'industrial inspection assets in Toronto, Canada' },
+  { slug: 'vancouver', city: 'Vancouver', country: 'Canada', assets: 'industrial inspection assets in Vancouver, Canada' },
+  { slug: 'montreal', city: 'Montreal', country: 'Canada', assets: 'industrial inspection assets in Montreal, Canada' },
+  { slug: 'fort-mcmurray', city: 'Fort McMurray', country: 'Canada', assets: 'industrial inspection assets in Fort McMurray, Canada' },
+  { slug: 'halifax', city: 'Halifax', country: 'Canada', assets: 'industrial inspection assets in Halifax, Canada' },
+  { slug: 'glasgow', city: 'Glasgow', country: 'UK', assets: 'industrial inspection assets in Glasgow, UK' },
+  { slug: 'paris', city: 'Paris', country: 'France', assets: 'industrial inspection assets in Paris, France' },
+  { slug: 'madrid', city: 'Madrid', country: 'Spain', assets: 'industrial inspection assets in Madrid, Spain' },
+  { slug: 'genoa', city: 'Genoa', country: 'Italy', assets: 'industrial inspection assets in Genoa, Italy' },
+  { slug: 'piraeus', city: 'Piraeus', country: 'Greece', assets: 'industrial inspection assets in Piraeus, Greece' },
+  { slug: 'plymouth', city: 'Plymouth', country: 'UK', assets: 'industrial inspection assets in Plymouth, UK' },
+  { slug: 'newcastle', city: 'Newcastle', country: 'UK', assets: 'industrial inspection assets in Newcastle, UK' },
+  { slug: 'sydney', city: 'Sydney', country: 'Australia', assets: 'industrial inspection assets in Sydney, Australia' },
+  { slug: 'karratha', city: 'Karratha', country: 'Australia', assets: 'industrial inspection assets in Karratha, Australia' },
+  { slug: 'gladstone', city: 'Gladstone', country: 'Australia', assets: 'industrial inspection assets in Gladstone, Australia' },
+  { slug: 'darwin', city: 'Darwin', country: 'Australia', assets: 'industrial inspection assets in Darwin, Australia' },
+  { slug: 'auckland', city: 'Auckland', country: 'New Zealand', assets: 'industrial inspection assets in Auckland, New Zealand' },
+  { slug: 'wellington', city: 'Wellington', country: 'New Zealand', assets: 'industrial inspection assets in Wellington, New Zealand' },
+  { slug: 'christchurch', city: 'Christchurch', country: 'New Zealand', assets: 'industrial inspection assets in Christchurch, New Zealand' },
+
+=== PRERENDER ERP ===
+  { city: 'Tulsa', country: 'USA', slug: 'tulsa', industries: 'inspection operations in Tulsa, USA' },
+  { city: 'Beaumont', country: 'USA', slug: 'beaumont', industries: 'inspection operations in Beaumont, USA' },
+  { city: 'Mobile', country: 'USA', slug: 'mobile', industries: 'inspection operations in Mobile, USA' },
+  { city: 'St. Louis', country: 'USA', slug: 'st-louis', industries: 'inspection operations in St. Louis, USA' },
+  { city: 'Cleveland', country: 'USA', slug: 'cleveland', industries: 'inspection operations in Cleveland, USA' },
+  { city: 'Cincinnati', country: 'USA', slug: 'cincinnati', industries: 'inspection operations in Cincinnati, USA' },
+  { city: 'Nashville', country: 'USA', slug: 'nashville', industries: 'inspection operations in Nashville, USA' },
+  { city: 'Louisville', country: 'USA', slug: 'louisville', industries: 'inspection operations in Louisville, USA' },
+  { city: 'Kansas City', country: 'USA', slug: 'kansas-city', industries: 'inspection operations in Kansas City, USA' },
+  { city: 'Minneapolis', country: 'USA', slug: 'minneapolis', industries: 'inspection operations in Minneapolis, USA' },
+  { city: 'Milwaukee', country: 'USA', slug: 'milwaukee', industries: 'inspection operations in Milwaukee, USA' },
+  { city: 'Charlotte', country: 'USA', slug: 'charlotte', industries: 'inspection operations in Charlotte, USA' },
+  { city: 'Toronto', country: 'Canada', slug: 'toronto', industries: 'inspection operations in Toronto, Canada' },
+  { city: 'Vancouver', country: 'Canada', slug: 'vancouver', industries: 'inspection operations in Vancouver, Canada' },
+  { city: 'Montreal', country: 'Canada', slug: 'montreal', industries: 'inspection operations in Montreal, Canada' },
+  { city: 'Fort McMurray', country: 'Canada', slug: 'fort-mcmurray', industries: 'inspection operations in Fort McMurray, Canada' },
+  { city: 'Halifax', country: 'Canada', slug: 'halifax', industries: 'inspection operations in Halifax, Canada' },
+  { city: 'Glasgow', country: 'UK', slug: 'glasgow', industries: 'inspection operations in Glasgow, UK' },
+  { city: 'Paris', country: 'France', slug: 'paris', industries: 'inspection operations in Paris, France' },
+  { city: 'Madrid', country: 'Spain', slug: 'madrid', industries: 'inspection operations in Madrid, Spain' },
+  { city: 'Genoa', country: 'Italy', slug: 'genoa', industries: 'inspection operations in Genoa, Italy' },
+  { city: 'Piraeus', country: 'Greece', slug: 'piraeus', industries: 'inspection operations in Piraeus, Greece' },
+  { city: 'Plymouth', country: 'UK', slug: 'plymouth', industries: 'inspection operations in Plymouth, UK' },
+  { city: 'Newcastle', country: 'UK', slug: 'newcastle', industries: 'inspection operations in Newcastle, UK' },
+  { city: 'Sydney', country: 'Australia', slug: 'sydney', industries: 'inspection operations in Sydney, Australia' },
+  { city: 'Karratha', country: 'Australia', slug: 'karratha', industries: 'inspection operations in Karratha, Australia' },
+  { city: 'Gladstone', country: 'Australia', slug: 'gladstone', industries: 'inspection operations in Gladstone, Australia' },
+  { city: 'Darwin', country: 'Australia', slug: 'darwin', industries: 'inspection operations in Darwin, Australia' },
+  { city: 'Auckland', country: 'New Zealand', slug: 'auckland', industries: 'inspection operations in Auckland, New Zealand' },
+  { city: 'Wellington', country: 'New Zealand', slug: 'wellington', industries: 'inspection operations in Wellington, New Zealand' },
+  { city: 'Christchurch', country: 'New Zealand', slug: 'christchurch', industries: 'inspection operations in Christchurch, New Zealand' },
+
+=== PRERENDER REPORTING ===
+  { city: 'Tulsa', country: 'USA', slug: 'tulsa' },
+  { city: 'Beaumont', country: 'USA', slug: 'beaumont' },
+  { city: 'Mobile', country: 'USA', slug: 'mobile' },
+  { city: 'St. Louis', country: 'USA', slug: 'st-louis' },
+  { city: 'Cleveland', country: 'USA', slug: 'cleveland' },
+  { city: 'Cincinnati', country: 'USA', slug: 'cincinnati' },
+  { city: 'Nashville', country: 'USA', slug: 'nashville' },
+  { city: 'Louisville', country: 'USA', slug: 'louisville' },
+  { city: 'Kansas City', country: 'USA', slug: 'kansas-city' },
+  { city: 'Minneapolis', country: 'USA', slug: 'minneapolis' },
+  { city: 'Milwaukee', country: 'USA', slug: 'milwaukee' },
+  { city: 'Charlotte', country: 'USA', slug: 'charlotte' },
+  { city: 'Toronto', country: 'Canada', slug: 'toronto' },
+  { city: 'Vancouver', country: 'Canada', slug: 'vancouver' },
+  { city: 'Montreal', country: 'Canada', slug: 'montreal' },
+  { city: 'Fort McMurray', country: 'Canada', slug: 'fort-mcmurray' },
+  { city: 'Halifax', country: 'Canada', slug: 'halifax' },
+  { city: 'Glasgow', country: 'UK', slug: 'glasgow' },
+  { city: 'Paris', country: 'France', slug: 'paris' },
+  { city: 'Madrid', country: 'Spain', slug: 'madrid' },
+  { city: 'Genoa', country: 'Italy', slug: 'genoa' },
+  { city: 'Piraeus', country: 'Greece', slug: 'piraeus' },
+  { city: 'Plymouth', country: 'UK', slug: 'plymouth' },
+  { city: 'Newcastle', country: 'UK', slug: 'newcastle' },
+  { city: 'Sydney', country: 'Australia', slug: 'sydney' },
+  { city: 'Karratha', country: 'Australia', slug: 'karratha' },
+  { city: 'Gladstone', country: 'Australia', slug: 'gladstone' },
+  { city: 'Darwin', country: 'Australia', slug: 'darwin' },
+  { city: 'Auckland', country: 'New Zealand', slug: 'auckland' },
+  { city: 'Wellington', country: 'New Zealand', slug: 'wellington' },
+  { city: 'Christchurch', country: 'New Zealand', slug: 'christchurch' },
+
+=== GSC URL LIST ===
+https://atlantisndt.com/digital-twin-tulsa
+https://atlantisndt.com/ndt-erp-tulsa
+https://atlantisndt.com/ndt-reporting-tulsa
+https://atlantisndt.com/digital-twin-beaumont
+https://atlantisndt.com/ndt-erp-beaumont
+https://atlantisndt.com/ndt-reporting-beaumont
+https://atlantisndt.com/digital-twin-mobile
+https://atlantisndt.com/ndt-erp-mobile
+https://atlantisndt.com/ndt-reporting-mobile
+https://atlantisndt.com/digital-twin-st-louis
+https://atlantisndt.com/ndt-erp-st-louis
+https://atlantisndt.com/ndt-reporting-st-louis
+https://atlantisndt.com/digital-twin-cleveland
+https://atlantisndt.com/ndt-erp-cleveland
+https://atlantisndt.com/ndt-reporting-cleveland
+https://atlantisndt.com/digital-twin-cincinnati
+https://atlantisndt.com/ndt-erp-cincinnati
+https://atlantisndt.com/ndt-reporting-cincinnati
+https://atlantisndt.com/digital-twin-nashville
+https://atlantisndt.com/ndt-erp-nashville
+https://atlantisndt.com/ndt-reporting-nashville
+https://atlantisndt.com/digital-twin-louisville
+https://atlantisndt.com/ndt-erp-louisville
+https://atlantisndt.com/ndt-reporting-louisville
+https://atlantisndt.com/digital-twin-kansas-city
+https://atlantisndt.com/ndt-erp-kansas-city
+https://atlantisndt.com/ndt-reporting-kansas-city
+https://atlantisndt.com/digital-twin-minneapolis
+https://atlantisndt.com/ndt-erp-minneapolis
+https://atlantisndt.com/ndt-reporting-minneapolis
+https://atlantisndt.com/digital-twin-milwaukee
+https://atlantisndt.com/ndt-erp-milwaukee
+https://atlantisndt.com/ndt-reporting-milwaukee
+https://atlantisndt.com/digital-twin-charlotte
+https://atlantisndt.com/ndt-erp-charlotte
+https://atlantisndt.com/ndt-reporting-charlotte
+https://atlantisndt.com/digital-twin-toronto
+https://atlantisndt.com/ndt-erp-toronto
+https://atlantisndt.com/ndt-reporting-toronto
+https://atlantisndt.com/digital-twin-vancouver
+https://atlantisndt.com/ndt-erp-vancouver
+https://atlantisndt.com/ndt-reporting-vancouver
+https://atlantisndt.com/digital-twin-montreal
+https://atlantisndt.com/ndt-erp-montreal
+https://atlantisndt.com/ndt-reporting-montreal
+https://atlantisndt.com/digital-twin-fort-mcmurray
+https://atlantisndt.com/ndt-erp-fort-mcmurray
+https://atlantisndt.com/ndt-reporting-fort-mcmurray
+https://atlantisndt.com/digital-twin-halifax
+https://atlantisndt.com/ndt-erp-halifax
+https://atlantisndt.com/ndt-reporting-halifax
+https://atlantisndt.com/digital-twin-glasgow
+https://atlantisndt.com/ndt-erp-glasgow
+https://atlantisndt.com/ndt-reporting-glasgow
+https://atlantisndt.com/digital-twin-paris
+https://atlantisndt.com/ndt-erp-paris
+https://atlantisndt.com/ndt-reporting-paris
+https://atlantisndt.com/digital-twin-madrid
+https://atlantisndt.com/ndt-erp-madrid
+https://atlantisndt.com/ndt-reporting-madrid
+https://atlantisndt.com/digital-twin-genoa
+https://atlantisndt.com/ndt-erp-genoa
+https://atlantisndt.com/ndt-reporting-genoa
+https://atlantisndt.com/digital-twin-piraeus
+https://atlantisndt.com/ndt-erp-piraeus
+https://atlantisndt.com/ndt-reporting-piraeus
+https://atlantisndt.com/digital-twin-plymouth
+https://atlantisndt.com/ndt-erp-plymouth
+https://atlantisndt.com/ndt-reporting-plymouth
+https://atlantisndt.com/digital-twin-newcastle
+https://atlantisndt.com/ndt-erp-newcastle
+https://atlantisndt.com/ndt-reporting-newcastle
+https://atlantisndt.com/digital-twin-sydney
+https://atlantisndt.com/ndt-erp-sydney
+https://atlantisndt.com/ndt-reporting-sydney
+https://atlantisndt.com/digital-twin-karratha
+https://atlantisndt.com/ndt-erp-karratha
+https://atlantisndt.com/ndt-reporting-karratha
+https://atlantisndt.com/digital-twin-gladstone
+https://atlantisndt.com/ndt-erp-gladstone
+https://atlantisndt.com/ndt-reporting-gladstone
+https://atlantisndt.com/digital-twin-darwin
+https://atlantisndt.com/ndt-erp-darwin
+https://atlantisndt.com/ndt-reporting-darwin
+https://atlantisndt.com/digital-twin-auckland
+https://atlantisndt.com/ndt-erp-auckland
+https://atlantisndt.com/ndt-reporting-auckland
+https://atlantisndt.com/digital-twin-wellington
+https://atlantisndt.com/ndt-erp-wellington
+https://atlantisndt.com/ndt-reporting-wellington
+https://atlantisndt.com/digital-twin-christchurch
+https://atlantisndt.com/ndt-erp-christchurch
+https://atlantisndt.com/ndt-reporting-christchurch

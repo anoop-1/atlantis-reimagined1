@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle, TrendingUp, Zap } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { buildTechArticleSchema } from "@/data/author-schema";
 
 const faqs = [
     { question: "What is eddy current testing (ECT)?", answer: "Eddy Current Testing (ECT) is an electromagnetic NDT method that detects surface and near-surface defects in electrically conductive materials. An alternating current through a probe coil creates an electromagnetic field that induces eddy currents in the test material. Cracks, corrosion, and material variations disrupt these currents, producing measurable signals in the probe impedance. ECT is ideal for detecting fatigue cracks in aircraft components, corrosion under insulation, and tubing inspection." },
@@ -71,15 +72,16 @@ export default function EddyCurrentTestingCompleteGuide() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            {
-                "@type": "Article",
-                "headline": "Eddy Current Testing: Complete Guide 2026",
-                "description": "Comprehensive guide to Eddy Current Testing (ECT). Types of ECT, how it works, applications by industry, equipment, standards (ASTM E309, E426), comparison with other NDT methods, cost analysis, and certification requirements.",
-                "author": { "@type": "Organization", "name": "Atlantis NDT" },
-                "publisher": { "@type": "Organization", "name": "Atlantis NDT" },
-                "datePublished": "2026-03-09",
-                "dateModified": "2026-03-09"
-            },
+            buildTechArticleSchema({
+                url: "https://atlantisndt.com/blog/eddy-current-testing-complete-guide",
+                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment $15K-$200K, Applications",
+                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment $15K-$200K, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
+                datePublished: "2026-03-09",
+                dateModified: "2026-04-18",
+                section: "NDT Methods — Electromagnetic",
+                keywords: "eddy current testing, ECT, ECA, RFEC, pulsed eddy current, aerospace NDT, tubing inspection",
+                dependencies: "ASTM E309, ASTM E426, ASTM E2338, ASTM E2884, ISO 15548-1/2/3, ASNT SNT-TC-1A",
+            }),
             {
                 "@type": "FAQPage",
                 "mainEntity": faqs.map(faq => ({
@@ -95,8 +97,8 @@ export default function EddyCurrentTestingCompleteGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Eddy Current Testing: Complete Guide [ECT, Types, Standards 2026]"
-                description="Master eddy current testing (ECT/ECL). Learn 7 types, how it works, applications in aerospace/oil & gas, standards (ASTM E309, E426), equipment, costs, vs MT/PT/UT comparison, and ASNT certification requirements."
+                title="Eddy Current Testing 2026: 7 ECT Types, Skin-Depth Physics, $15K–$200K Equipment"
+                description="ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, IRIS), skin-depth formula δ=√(2/ωμσ), ASTM E309/E426/E2338, aerospace fatigue POD, tubing inspection, Level II path. By ASNT Level III."
                 keywords="eddy current testing, ECT, eddy current inspection, ECL, pulsed eddy current, PEC, ASTM E309, E426, bobbin coil, pancake coil, aerospace NDT, pipeline inspection, corrosion under insulation, CUI detection, eddy current probe, ECT equipment"
                 canonical="https://atlantisndt.com/blog/eddy-current-testing-complete-guide"
                 structuredData={structuredData}

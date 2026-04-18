@@ -1,0 +1,1 @@
+import{j as r}from"./index-DPOIg50j.js";import{E as t}from"./ErpLocationPage-Ti-_fVvD.js";import"./file-text-CV4Dgu4d.js";function u(){return r.jsx(t,{city:"Abu Dhabi",country:"UAE",slug:"ndt-erp-abu-dhabi"})}export{u as default};

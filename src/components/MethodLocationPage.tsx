@@ -213,6 +213,9 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
         "magnetic-particle-testing": {
             "singapore": "[Surface Defects] Magnetic Particle Testing Singapore - MT Expert",
             "default": `[Expert Method] ${method.name} 2026 - Surface Crack Detection`
+        },
+        "eddy-current-testing": {
+            "default": `Eddy Current Testing ${location.name} - ECT Inspection & Certification 2026`
         }
     };
 
@@ -228,6 +231,9 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
         "magnetic-particle-testing": {
             "singapore": "Magnetic particle testing (MT) Singapore: surface crack detection. ASNT certified. Weld inspection, quality control, aerospace.",
             "default": `Master ${method.name}: surface crack detection, ferromagnetic inspection. ASNT certified training & consulting.`
+        },
+        "eddy-current-testing": {
+            "default": `Eddy current testing (ECT) in ${location.name}: tube inspection, surface crack detection, coating thickness. ASNT Level II/III certified. ${location.industries.slice(0, 2).join(", ")} applications.`
         }
     };
 

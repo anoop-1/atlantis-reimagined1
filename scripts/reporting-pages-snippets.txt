@@ -1,0 +1,208 @@
+=== LAZY IMPORTS (paste into App.tsx with other lazy imports) ===
+
+const NDTReportingHouston = lazy(() => import("./pages/ndt-reporting-houston"));
+const NDTReportingDubai = lazy(() => import("./pages/ndt-reporting-dubai"));
+const NDTReportingAbuDhabi = lazy(() => import("./pages/ndt-reporting-abu-dhabi"));
+const NDTReportingSaudiArabia = lazy(() => import("./pages/ndt-reporting-saudi-arabia"));
+const NDTReportingCalgary = lazy(() => import("./pages/ndt-reporting-calgary"));
+const NDTReportingSingapore = lazy(() => import("./pages/ndt-reporting-singapore"));
+const NDTReportingMumbai = lazy(() => import("./pages/ndt-reporting-mumbai"));
+const NDTReportingLondon = lazy(() => import("./pages/ndt-reporting-london"));
+const NDTReportingPerth = lazy(() => import("./pages/ndt-reporting-perth"));
+const NDTReportingDoha = lazy(() => import("./pages/ndt-reporting-doha"));
+const NDTReportingKuwait = lazy(() => import("./pages/ndt-reporting-kuwait"));
+const NDTReportingMuscat = lazy(() => import("./pages/ndt-reporting-muscat"));
+const NDTReportingHyderabad = lazy(() => import("./pages/ndt-reporting-hyderabad"));
+const NDTReportingChennai = lazy(() => import("./pages/ndt-reporting-chennai"));
+const NDTReportingKualaLumpur = lazy(() => import("./pages/ndt-reporting-kuala-lumpur"));
+const NDTReportingLagos = lazy(() => import("./pages/ndt-reporting-lagos"));
+const NDTReportingNewOrleans = lazy(() => import("./pages/ndt-reporting-new-orleans"));
+const NDTReportingDenver = lazy(() => import("./pages/ndt-reporting-denver"));
+const NDTReportingAberdeen = lazy(() => import("./pages/ndt-reporting-aberdeen"));
+const NDTReportingOslo = lazy(() => import("./pages/ndt-reporting-oslo"));
+const NDTReportingRotterdam = lazy(() => import("./pages/ndt-reporting-rotterdam"));
+const NDTReportingManama = lazy(() => import("./pages/ndt-reporting-manama"));
+const NDTReportingOdessa = lazy(() => import("./pages/ndt-reporting-odessa"));
+const NDTReportingBergen = lazy(() => import("./pages/ndt-reporting-bergen"));
+const NDTReportingRasAlKhaimah = lazy(() => import("./pages/ndt-reporting-ras-al-khaimah"));
+
+=== ROUTES (paste into App.tsx inside <Routes>) ===
+
+                  <Route path="/ndt-reporting-houston" element={<LazyRoute Component={NDTReportingHouston} />} />
+                  <Route path="/ndt-reporting-dubai" element={<LazyRoute Component={NDTReportingDubai} />} />
+                  <Route path="/ndt-reporting-abu-dhabi" element={<LazyRoute Component={NDTReportingAbuDhabi} />} />
+                  <Route path="/ndt-reporting-saudi-arabia" element={<LazyRoute Component={NDTReportingSaudiArabia} />} />
+                  <Route path="/ndt-reporting-calgary" element={<LazyRoute Component={NDTReportingCalgary} />} />
+                  <Route path="/ndt-reporting-singapore" element={<LazyRoute Component={NDTReportingSingapore} />} />
+                  <Route path="/ndt-reporting-mumbai" element={<LazyRoute Component={NDTReportingMumbai} />} />
+                  <Route path="/ndt-reporting-london" element={<LazyRoute Component={NDTReportingLondon} />} />
+                  <Route path="/ndt-reporting-perth" element={<LazyRoute Component={NDTReportingPerth} />} />
+                  <Route path="/ndt-reporting-doha" element={<LazyRoute Component={NDTReportingDoha} />} />
+                  <Route path="/ndt-reporting-kuwait" element={<LazyRoute Component={NDTReportingKuwait} />} />
+                  <Route path="/ndt-reporting-muscat" element={<LazyRoute Component={NDTReportingMuscat} />} />
+                  <Route path="/ndt-reporting-hyderabad" element={<LazyRoute Component={NDTReportingHyderabad} />} />
+                  <Route path="/ndt-reporting-chennai" element={<LazyRoute Component={NDTReportingChennai} />} />
+                  <Route path="/ndt-reporting-kuala-lumpur" element={<LazyRoute Component={NDTReportingKualaLumpur} />} />
+                  <Route path="/ndt-reporting-lagos" element={<LazyRoute Component={NDTReportingLagos} />} />
+                  <Route path="/ndt-reporting-new-orleans" element={<LazyRoute Component={NDTReportingNewOrleans} />} />
+                  <Route path="/ndt-reporting-denver" element={<LazyRoute Component={NDTReportingDenver} />} />
+                  <Route path="/ndt-reporting-aberdeen" element={<LazyRoute Component={NDTReportingAberdeen} />} />
+                  <Route path="/ndt-reporting-oslo" element={<LazyRoute Component={NDTReportingOslo} />} />
+                  <Route path="/ndt-reporting-rotterdam" element={<LazyRoute Component={NDTReportingRotterdam} />} />
+                  <Route path="/ndt-reporting-manama" element={<LazyRoute Component={NDTReportingManama} />} />
+                  <Route path="/ndt-reporting-odessa" element={<LazyRoute Component={NDTReportingOdessa} />} />
+                  <Route path="/ndt-reporting-bergen" element={<LazyRoute Component={NDTReportingBergen} />} />
+                  <Route path="/ndt-reporting-ras-al-khaimah" element={<LazyRoute Component={NDTReportingRasAlKhaimah} />} />
+
+=== SITEMAP ENTRIES (paste into sitemap XML) ===
+
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-houston</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-dubai</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-abu-dhabi</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-saudi-arabia</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-calgary</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-singapore</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-mumbai</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-london</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-perth</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-doha</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-kuwait</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-muscat</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-hyderabad</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-chennai</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-kuala-lumpur</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-lagos</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-new-orleans</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-denver</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-aberdeen</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-oslo</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-rotterdam</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-manama</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-odessa</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-bergen</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atlantisndt.com/ndt-reporting-ras-al-khaimah</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>

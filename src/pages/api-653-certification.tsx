@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Award, BookOpen, Clock, FileText, Users, AlertCircle, DollarSign, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
+import { buildTechArticleSchema } from "@/data/author-schema";
 
 const examTopics = [
     "Tank design and construction (API 650, API 12C)",
@@ -100,6 +101,16 @@ export default function API653Certification() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
+            buildTechArticleSchema({
+                url: "https://atlantisndt.com/api-653-certification",
+                headline: "API 653 Certification 2026: Tank Inspector Exam, 10 Codes, Cost, Salary Guide",
+                description: "API 653 aboveground storage tank inspector deep-dive: 170-question open-book exam (7.5 hrs), 10 reference codes (API 650/651/652/653/571/575/577, ASME V/IX), internal/external/UT inspection intervals, 2026 fee $945, salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                datePublished: "2025-08-15",
+                dateModified: "2026-04-18",
+                section: "Storage Tank Inspection",
+                keywords: "API 653, API 650, tank inspector, aboveground storage tank, AST inspection",
+                dependencies: "API 653, API 650, API 651, API 652, API 571, API 575, API 577, ASME Section V, Section IX",
+            }),
             {
                 "@type": "Course",
                 "name": "API 653 Aboveground Storage Tank Inspector Certification Training",
@@ -119,6 +130,28 @@ export default function API653Certification() {
                         "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
                     }))
                 ]
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "API 653 Aboveground Storage Tank Inspector Certification",
+                "credentialCategory": "Professional Certification",
+                "educationalLevel": "Professional",
+                "recognizedBy": { "@type": "Organization", "name": "American Petroleum Institute", "url": "https://www.api.org" },
+                "validFor": "P3Y",
+                "competencyRequired": "Tank inspection experience (1-3 years depending on education level)"
+            },
+            {
+                "@type": "HowTo",
+                "name": "How to Get API 653 Tank Inspector Certification",
+                "description": "Step-by-step guide to earning API 653 certification for storage tank inspectors.",
+                "totalTime": "PT720H",
+                "step": [
+                    { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-3 years of tank inspection experience depending on education level (degree, diploma, or high school)." },
+                    { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study 10 open-book reference codes including API 653, API 650, API 651, API 652, and ASME Section V/IX." },
+                    { "@type": "HowToStep", "name": "Complete Training", "text": "Enroll in classroom, online, or blended API 653 exam preparation training." },
+                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question, 7.5-hour open-book exam (95% first-attempt pass rate with training)." },
+                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years through continuing education or re-examination." }
+                ]
             }
         ]
     };
@@ -127,8 +160,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="[Expert Guide] API 653 Tank Inspection - Storage Tank Specialist"
-                description="API 653 tank inspector certification: storage tank inspection, repairs, alterations. Open-book exam, 6 codes, 95% pass rate. 2026 guide."
+                title="API 653 Certification 2026: Tank Inspector Exam, 10 Codes, Intervals & $85-130K Salary"
+                description="API 653 exam deep-dive 2026: 170 Qs / 7.5 hrs open-book, 10 codes (API 650/651/652/653/571/575/577, ASME V/IX), inspection intervals (internal 10-yr, external 5-yr, UT), cathodic protection, $945 fee. ASNT Level III-authored."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}

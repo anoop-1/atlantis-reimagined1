@@ -1,0 +1,33 @@
+{
+  "totalUrls": 16082,
+  "submissionSystem": "multi-account-parallel",
+  "accounts": {
+    "current": 1,
+    "recommended": 5,
+    "accountFiles": ["gsc-service-account.json"],
+    "accountsDir": "scripts/gsc-accounts/"
+  },
+  "projections": {
+    "1_account": { "dailyRate": 200, "daysToComplete": 81, "eta": "2026-06-22" },
+    "3_accounts": { "dailyRate": 600, "daysToComplete": 27, "eta": "2026-04-29" },
+    "5_accounts": { "dailyRate": 1000, "daysToComplete": 17, "eta": "2026-04-19" },
+    "8_accounts": { "dailyRate": 1600, "daysToComplete": 11, "eta": "2026-04-13" },
+    "10_accounts": { "dailyRate": 2000, "daysToComplete": 9, "eta": "2026-04-11" }
+  },
+  "urlBreakdown": {
+    "training": 4680,
+    "erpSoftware": 5045,
+    "digitalTwin": 537,
+    "methodCity": 4183,
+    "consulting": 639,
+    "satellites": 461,
+    "other": 537
+  },
+  "lastUpdated": "2026-04-02",
+  "scripts": {
+    "multiAccount": "scripts/gsc-multi-account-submit.mjs",
+    "legacyDripFeed": "scripts/drip-feed-indexer.mjs",
+    "legacyPriority": "scripts/gsc-submit-priority.mjs",
+    "dailyBatch": "scripts/gsc-daily-submit.bat"
+  }
+}

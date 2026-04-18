@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Award, Clock, DollarSign, Users, FileText } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { buildTechArticleSchema } from "@/data/author-schema";
 
 const levels = [
     { level: "Level I", duration: "40 hours min", description: "Perform NDT tests under Level II/III supervision. Follow written instructions, record data.", prerequisites: "Vision acuity test, employer training", salary: "$45,000 - $60,000", experience: "Varies by method (210–1,200 hrs per SNT-TC-1A)" },
@@ -72,11 +73,41 @@ export default function ASNTCertification() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "Course", "name": "ASNT NDT Certification Training", "description": "Training for ASNT NDT Level I, II, III certification.", "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            buildTechArticleSchema({
+                url: "https://atlantisndt.com/asnt-certification",
+                headline: "ASNT NDT Certification 2026: Complete Level I/II/III Guide (Requirements, Cost, Exam, Salary)",
+                description: "ASNT NDT certification deep-dive: SNT-TC-1A vs ACCP, Level I/II/III training hours per method (UT 40h, RT 40h, MT 16h, PT 16h, ET 40h, VT 8h), exam structure (general+specific+practical), 2026 fees ($280-$540), expected salaries ($45K-$150K+). Written by ASNT Level III Anoop Rayavarapu.",
+                datePublished: "2025-09-01",
+                dateModified: "2026-04-18",
+                section: "NDT Certifications",
+                keywords: "ASNT certification, ASNT Level III, SNT-TC-1A, ACCP, ASNT exam, NDT certification cost",
+                dependencies: "ANSI/ASNT CP-189, ASNT SNT-TC-1A, ASNT ACCP, ISO 9712",
+            }),
+            { "@type": "Course", "name": "ASNT NDT Certification Training", "description": "Training for ASNT NDT Level I, II, III certification across 6 methods (UT, RT, MT, PT, ET, VT).", "provider": { "@id": "https://atlantisndt.com/#organization" }, "courseMode": ["online", "onsite", "blended"], "educationalLevel": "Professional" },
             { "@type": "FAQPage", "mainEntity": [
                 ...faqSchemaData,
                 ...faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
-            ] }
+            ] },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "ASNT NDT Certification (Level I/II/III)",
+                "credentialCategory": "Professional Certification",
+                "educationalLevel": "Professional",
+                "recognizedBy": { "@type": "Organization", "name": "American Society for Nondestructive Testing", "url": "https://www.asnt.org" },
+                "competencyRequired": "Training hours and experience per SNT-TC-1A or ACCP requirements"
+            },
+            {
+                "@type": "HowTo",
+                "name": "How to Get ASNT NDT Certification",
+                "description": "Step-by-step guide to earning ASNT NDT certification at Level I, II, or III.",
+                "step": [
+                    { "@type": "HowToStep", "name": "Choose Certification Path", "text": "Decide between SNT-TC-1A (employer-based) or ACCP (third-party portable) certification." },
+                    { "@type": "HowToStep", "name": "Complete Training Hours", "text": "Complete required classroom training hours for your method and level (8–40 hours depending on method)." },
+                    { "@type": "HowToStep", "name": "Accumulate Experience", "text": "Log supervised on-the-job experience hours (130–12,600 hours depending on method and level)." },
+                    { "@type": "HowToStep", "name": "Pass Examinations", "text": "Pass general, specific, and practical exams. Level III requires Basic + Method exams from ASNT." },
+                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew per employer written practice (SNT-TC-1A) or ASNT renewal schedule (ACCP, every 5 years)." }
+                ]
+            }
         ]
     };
 
@@ -84,8 +115,8 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="[Complete Guide] ASNT NDT Certification 2026 - Pass First Try"
-                description="Master ASNT certification in 2026: SNT-TC-1A vs ACCP, Level I/II/III requirements, exam costs, training hours, and salary ($45K-$150K+). 95% first-attempt pass rate. Dubai, Houston, India."
+                title="ASNT NDT Certification 2026: Level I/II/III Cost, Hours, Exam & Salary"
+                description="Complete ASNT certification roadmap 2026: SNT-TC-1A vs ACCP, method hours (UT 40h, RT 40h, MT 16h), exam fees $280–$540, Level III path, salary $45K–$150K+. By ASNT Level III Anoop Rayavarapu."
                 keywords="ASNT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, ACCP certification, ASNT Level II, ASNT training, NDT Level III certification, ASNT consulting, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III, asnt level iii consulting"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}

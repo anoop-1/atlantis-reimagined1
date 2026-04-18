@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ndt-training-academy.vercel.app/sitemap.xml

@@ -70,13 +70,48 @@ export default function NDTSalaryGuide2026() {
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "Article",
-                "headline": "NDT Salary Guide 2026: Global Compensation by Level & Method",
-                "description": "Comprehensive NDT salary data 2026: salary by level (I/II/III), by method (UT/RT/ECT/MT/PT), by country (USA/UAE/UK/India), by industry (oil & gas/aerospace/power generation), overtime/per diem, career progression, and salary negotiation tips.",
-                "author": { "@type": "Organization", "name": "Atlantis NDT" },
-                "publisher": { "@type": "Organization", "name": "Atlantis NDT" },
+                "@type": "TechArticle",
+                "@id": "https://atlantisndt.com/blog/ndt-salary-guide-2026-global#article",
+                "headline": "NDT Salary Guide 2026: Level I $45K → Level III $180K+ by Method & Country",
+                "description": "NDT technician salary data 2026: Level I $40-55K, Level II $55-110K, Level III $80-180K. PAUT/TOFD premiums +40-80%. USA, UAE, India, UK, Canada, Saudi, offshore. Based on ASNT 2025 survey + 50+ industry sources.",
+                "mainEntityOfPage": "https://atlantisndt.com/blog/ndt-salary-guide-2026-global",
+                "image": "https://atlantisndt.com/og-salary-guide-2026.png",
+                "author": {
+                    "@type": "Person",
+                    "name": "Anoop Rayavarapu",
+                    "jobTitle": "Founder & CEO, Atlantis NDT",
+                    "url": "https://atlantisndt.com/about",
+                    "sameAs": [
+                        "https://www.linkedin.com/in/anoop-rayavarapu"
+                    ],
+                    "hasCredential": [
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "certification",
+                            "name": "ASNT NDT Level III (multi-method)",
+                            "recognizedBy": { "@type": "Organization", "name": "American Society for Nondestructive Testing" }
+                        },
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "credentialCategory": "certification",
+                            "name": "API 653 Aboveground Storage Tank Inspector",
+                            "recognizedBy": { "@type": "Organization", "name": "American Petroleum Institute" }
+                        }
+                    ]
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Atlantis NDT",
+                    "url": "https://atlantisndt.com",
+                    "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/logo.png" }
+                },
                 "datePublished": "2026-03-09",
-                "dateModified": "2026-03-09"
+                "dateModified": "2026-04-18",
+                "inLanguage": "en-US",
+                "articleSection": "NDT Careers",
+                "keywords": "NDT salary, PAUT salary, NDT Level III salary, offshore NDT pay, NDT technician compensation",
+                "proficiencyLevel": "Expert",
+                "dependencies": "ASNT SNT-TC-1A, ISO 9712, ANSI/ASNT CP-189"
             },
             {
                 "@type": "FAQPage",
@@ -93,8 +128,8 @@ export default function NDTSalaryGuide2026() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Salary Guide 2026: Global Compensation by Level, Method & Location"
-                description="Complete 2026 NDT salary data: Level I/II/III salaries, PAUT vs UT vs RT compensation, oil & gas vs aerospace salaries, USA/UAE/UK/India/Canada salary comparison, overtime, per diem, career progression, and salary negotiation strategies."
+                title="NDT Salary 2026: Real Numbers — L1 $45K → L3 $180K+ (Method & Country)"
+                description="NDT salary 2026 (verified data): Level I $40-55K, Level II $55-110K, Level III $80-180K. PAUT +70%, offshore +50%. USA, UAE, India, UK, Canada compared. Written by ASNT Level III Anoop Rayavarapu."
                 keywords="ndt salary, ndt technician salary, ndt level 2 salary, ndt level 3 salary, PAUT salary, UT salary, RT salary, ndt inspector salary, ndt engineer salary, ndt salary by country, ndt salary 2026, ndt career salary"
                 canonical="https://atlantisndt.com/blog/ndt-salary-guide-2026-global"
                 structuredData={structuredData}

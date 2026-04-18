@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
-import { isCuratedCity } from '@/data/curated-cities';
+import { isCuratedCity, cityFromProductSlug } from '@/data/curated-cities';
 
 // ─── Location context data ────────────────────────────────────────────────────
 
@@ -359,7 +359,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
             <SEOHead
                 title={pageTitle}
                 description={pageDesc}
-                noindex={!isCuratedCity(slug)}
+                noindex={!isCuratedCity(cityFromProductSlug(slug))}
                 canonical={canonical}
                 hreflangLinks={hreflangLinks}
             />

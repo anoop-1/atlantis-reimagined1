@@ -1,0 +1,341 @@
+NDT TRAINING ACADEMY - NEXT.JS 14 SATELLITE SITE
+Project Root: /sessions/modest-cool-bohr/mnt/atlantis-reimagined1/backlink-sites/ndt-training-academy/
+
+═══════════════════════════════════════════════════════════════════════════════
+CONFIGURATION & SETUP FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+package.json
+  - Dependencies: react, react-dom, next
+  - Dev Dependencies: typescript, tailwindcss, postcss, autoprefixer
+  - Scripts: dev, build, start, lint
+
+tsconfig.json
+  - Target: ES2020
+  - Module: ESNext
+  - Strict mode enabled
+  - Path alias: @/* → ./src/*
+
+next.config.js
+  - React Strict Mode enabled
+  - SWC minification
+  - Image optimization (AVIF, WebP formats)
+  - Security headers configured
+
+tailwind.config.ts
+  - Primary Colors: Amber/Orange (amber-50 to amber-900)
+  - Responsive design enabled
+  - Custom button and card utilities
+
+postcss.config.js
+  - Tailwind CSS integration
+  - Autoprefixer enabled
+
+.gitignore
+  - Excludes node_modules, .next, .env files
+  - IDE and OS-specific ignores
+
+═══════════════════════════════════════════════════════════════════════════════
+CORE APPLICATION FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+src/app/layout.tsx (ROOT LAYOUT)
+  ├─ Metadata: Title, description, OG tags
+  ├─ Navigation Component
+  │  └─ Logo, main nav (Training, Certifications, Regional, Career)
+  ├─ Main Content Area
+  └─ Footer Component
+     └─ Training links, partner links, regional links
+
+src/app/globals.css (GLOBAL STYLES)
+  ├─ Tailwind directives
+  ├─ Custom button styles (.btn-primary, .btn-secondary, .btn-outline)
+  ├─ Card components (.card, .card-alt)
+  ├─ Badge styles (.badge, .badge-alt)
+  ├─ Breadcrumb navigation styles
+  ├─ Prose content styles (headings, lists, links)
+  └─ Animations and transitions
+
+═══════════════════════════════════════════════════════════════════════════════
+MAIN PAGES (13 PAGES TOTAL)
+═══════════════════════════════════════════════════════════════════════════════
+
+1. HOMEPAGE
+   src/app/page.tsx
+   ├─ Hero section with training overview
+   ├─ Why NDT career section (3 cards)
+   ├─ Training methods (UT, RT, MT, PT cards)
+   ├─ Certification quick links (ASNT, API 510/570/653)
+   ├─ Regional training overview
+   └─ CTA to Atlantis NDT
+   Backlinks: 3 to atlantisndt.com/training
+   Words: 1200+
+
+2. TRAINING PROGRAMS OVERVIEW
+   src/app/training/page.tsx
+   ├─ Training structure & levels
+   ├─ Duration by level (I: 40-80h, II: 280-350h, III: 1000+h)
+   ├─ Cost breakdown
+   ├─ Choosing the right provider
+   ├─ Certification exam requirements
+   └─ Related training methods
+   Backlinks: 3 to atlantisndt.com/training
+   Words: 1500+
+
+3. ULTRASONIC TESTING (UT) TRAINING
+   src/app/training/ut-training/page.tsx
+   ├─ UT introduction & applications
+   ├─ Level I: 40-60 hours curriculum
+   ├─ Level II: 280-350 hours curriculum
+   ├─ Level III: 1000+ hours requirements
+   ├─ Phased Array UT technology
+   ├─ Industry applications
+   └─ Career opportunities
+   Backlinks: 2 to atlantisndt.com/training
+   Words: 1400+
+
+4. RADIOGRAPHIC TESTING (RT) TRAINING
+   src/app/training/rt-training/page.tsx
+   ├─ RT overview & importance
+   ├─ Radiation safety fundamentals
+   ├─ Level I curriculum & practical exams
+   ├─ Level II curriculum & practice exams
+   ├─ Level III advanced topics
+   ├─ Digital radiography systems
+   └─ Industry applications & career
+   Backlinks: 2 to atlantisndt.com/training
+   Words: 1400+
+
+5. MAGNETIC PARTICLE & PENETRANT TESTING (MT/PT)
+   src/app/training/mt-pt-training/page.tsx
+   ├─ Surface defect detection intro
+   ├─ MT training (principles, levels, applications)
+   ├─ PT training (principles, levels, applications)
+   ├─ MT advantages and practical use
+   ├─ PT method comparison
+   ├─ Real-world applications (aerospace, automotive, power)
+   └─ Career opportunities
+   Backlinks: 2 to atlantisndt.com/training
+   Words: 1300+
+
+6. CERTIFICATION ROADMAP
+   src/app/certifications/page.tsx
+   ├─ Visual progression: Level I → II → III
+   ├─ ASNT certification overview (6 methods)
+   ├─ API certifications (API 510, 570, 653)
+   ├─ Exam format explanation
+   ├─ Multi-method certification strategy
+   └─ Getting started CTA
+   Backlinks: 4 (ASNT, API 510, 570, 653)
+   Words: 1200+
+
+7. ASNT CERTIFICATION STUDY GUIDE
+   src/app/certifications/asnt-study-guide/page.tsx
+   ├─ Exam structure (written, method-specific, practical)
+   ├─ Effective study strategies
+   ├─ Recommended books & resources
+   ├─ Study timeline planning (Level I, II, III)
+   ├─ Practice questions strategy
+   ├─ Common pitfalls
+   ├─ Exam day tips
+   └─ Professional exam prep training recommendation
+   Backlinks: 2 to atlantisndt.com/asnt-certification
+   Words: 1500+
+
+8. API EXAM PREPARATION GUIDE
+   src/app/certifications/api-exam-prep/page.tsx
+   ├─ API 510: Pressure Vessel Inspector
+   │  └─ Exam scope, content, format, prerequisites
+   ├─ API 570: Piping Inspector
+   │  └─ Exam scope, content, format, prerequisites
+   ├─ API 653: Tank Inspector
+   │  └─ Exam scope, content, format, prerequisites
+   ├─ Exam preparation strategy
+   ├─ Organizing references
+   ├─ Practice exams importance
+   ├─ Common challenges
+   ├─ Multi-certification strategy
+   └─ Professional training recommendation
+   Backlinks: 5 (API 510, 570, 653, training links)
+   Words: 1600+
+
+9. REGIONAL TRAINING INDEX
+   src/app/regional/page.tsx
+   ├─ Why choose regional training
+   ├─ Three regions: USA, India, Middle East
+   ├─ Cost efficiency & networking benefits
+   ├─ Global training standards
+   └─ Atlantis NDT global partnership
+   Backlinks: 2 to atlantisndt.com/training
+   Words: 1000+
+
+10. USA REGIONAL TRAINING
+    src/app/regional/usa/page.tsx
+    ├─ NDT training landscape in USA
+    ├─ Major training centers by region
+    │  └─ Northeast, Southeast/Gulf, Midwest, Southwest, West Coast
+    ├─ Training program characteristics
+    ├─ Flexible scheduling options
+    ├─ Career opportunities & salary
+    ├─ Industry specializations
+    ├─ US training standards
+    └─ Getting started in USA
+    Backlinks: 1 to atlantisndt.com/training-usa
+    Words: 1500+
+
+11. INDIA REGIONAL TRAINING
+    src/app/regional/india/page.tsx
+    ├─ India's growing NDT infrastructure
+    ├─ Major training centers (Hyderabad emphasis)
+    ├─ Quality & accreditation standards
+    ├─ Cost advantages (40-60% lower)
+    ├─ International certification value
+    ├─ Specializations (IT, automation, API)
+    ├─ Flexible learning options
+    ├─ Real-world application environment
+    └─ Getting started
+    Backlinks: 2 (training-india, ndt-training-hyderabad)
+    Words: 1400+
+
+12. MIDDLE EAST REGIONAL TRAINING
+    src/app/regional/middle-east/page.tsx
+    ├─ NDT industry growth in Middle East
+    ├─ Major training centers (Dubai, Saudi, Qatar)
+    ├─ Oil & gas industry focus
+    ├─ API certification emphasis
+    ├─ Training quality & standards
+    ├─ Career opportunities
+    ├─ Visa & employment considerations
+    ├─ Training programs available
+    └─ Getting started
+    Backlinks: 3 (training-me, Dubai, Saudi Arabia)
+    Words: 1500+
+
+13. CAREER GUIDE
+    src/app/career/page.tsx
+    ├─ Why choose NDT career
+    ├─ Job opportunities by industry
+    │  └─ Aerospace, Oil & Gas, Power, Manufacturing, Third-Party
+    ├─ Salary & compensation
+    │  └─ Level I, II, III salary ranges
+    ├─ Career progression paths
+    │  └─ Specialist, Management, Training, Consulting
+    ├─ Skills development
+    ├─ Industries with growth
+    ├─ Geographic opportunities
+    ├─ Building successful NDT career
+    └─ Getting started recommendation
+    Backlinks: 2 (training, career-guide blog)
+    Words: 1600+
+
+═══════════════════════════════════════════════════════════════════════════════
+TECHNICAL FEATURES (ALL PAGES)
+═══════════════════════════════════════════════════════════════════════════════
+
+Metadata
+  ├─ Page title (unique, descriptive)
+  ├─ Meta description (compelling, keyword-focused)
+  ├─ Keywords (relevant to page topic)
+  └─ Open Graph tags (OG:title, description, type)
+
+SEO Enhancement
+  ├─ JSON-LD schema markup (Organization, Article)
+  ├─ Breadcrumb navigation
+  ├─ Semantic HTML5 structure
+  ├─ Proper heading hierarchy (h1 → h2 → h3)
+  └─ Internal linking to related pages
+
+Performance
+  ├─ Responsive design (mobile-first)
+  ├─ Optimized images (AVIF, WebP formats)
+  ├─ Tailwind CSS (minimal CSS footprint)
+  ├─ No external dependencies in critical path
+  └─ Fast page load times
+
+═══════════════════════════════════════════════════════════════════════════════
+DESIGN SYSTEM
+═══════════════════════════════════════════════════════════════════════════════
+
+Color Palette
+  Primary:   Amber/Orange (amber-500 to amber-600)
+  Secondary: Slate gray (slate-50 to slate-900)
+  Accents:   Blue, Purple, Red, Green (section-specific)
+
+Components
+  Buttons:   .btn-primary, .btn-secondary, .btn-outline
+  Cards:     .card, .card-alt (with left border)
+  Badges:    .badge, .badge-alt (colored labels)
+  Links:     .text-link (underlined, colored)
+  Prose:     .prose-content (headings, lists, links)
+
+Spacing & Typography
+  Tailwind spacing scale (4px increments)
+  Font sizes: xs to 4xl
+  Line heights: optimized for readability
+  Font weights: regular, semibold, bold
+
+═══════════════════════════════════════════════════════════════════════════════
+BACKLINK STRATEGY SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+Total Backlinks: 30+ strategic links across 13 pages
+
+Primary Target: https://atlantisndt.com/training (10+ pages)
+
+Secondary Targets:
+  - ASNT Certification (asnt-certification)
+  - API 510 Certification (api-510-certification)
+  - API 570 Certification (api-570-certification)
+  - API 653 Certification (api-653-certification)
+  - USA Training (training-usa)
+  - India Training (training-india)
+  - Hyderabad Training (ndt-training-hyderabad)
+  - Middle East Training (training-me)
+  - Dubai Training (ndt-training-dubai)
+  - Saudi Arabia Training (ndt-training-saudi-arabia)
+  - API 570 Training (api-570-training)
+  - Career Guide Blog (blog/ndt-career-guide)
+
+═══════════════════════════════════════════════════════════════════════════════
+DEPLOYMENT & RUNNING
+═══════════════════════════════════════════════════════════════════════════════
+
+Install Dependencies:
+  npm install
+
+Development Server:
+  npm run dev
+  Access at: http://localhost:3000
+
+Production Build:
+  npm run build
+  npm start
+
+═══════════════════════════════════════════════════════════════════════════════
+DOCUMENTATION FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+README.md
+  - Project overview
+  - Architecture description
+  - Content structure
+  - Feature highlights
+
+BACKLINKS_STRATEGY.md
+  - Detailed backlink distribution
+  - Page-by-page link targets
+  - SEO optimization strategy
+  - Monitoring recommendations
+
+PROJECT_STRUCTURE.txt (this file)
+  - Complete file organization
+  - Page descriptions
+  - Technical specifications
+  - Deployment information
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Site Purpose: Drive high-quality traffic to atlantisndt.com training and certification pages
+Target Keywords: NDT training, NDT certification, ASNT, API, Ultrasonic Testing, Radiographic Testing
+Primary Audience: NDT students, career changers, professionals seeking certifications
+Content Focus: Educational, comprehensive, practical, searchable NDT training information

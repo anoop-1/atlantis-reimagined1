@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, AlertTriangle, Zap, BarChart3 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { buildTechArticleSchema } from "@/data/author-schema";
 
 const faqs = [
     { question: "What is Ultrasonic Testing (UT)?", answer: "Ultrasonic Testing (UT) is an NDT method that uses high-frequency sound waves (typically 1-5 MHz) to detect internal and subsurface defects in materials. A transducer sends ultrasonic pulses through the material; defects (cracks, voids, laminations) reflect sound waves back to the transducer as echoes. Transit time between sending and receiving the echo indicates defect depth. UT detects internal defects up to 300mm+ deep, making it essential for weld inspection, thickness measurement, and fatigue crack detection in thick sections." },
@@ -78,15 +79,16 @@ export default function UltrasonicTestingUltimateGuide() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            {
-                "@type": "Article",
-                "headline": "Ultrasonic Testing: Ultimate Guide 2026",
-                "description": "Comprehensive guide to Ultrasonic Testing (UT). UT principles, conventional vs PAUT vs TOFD, equipment types, calibration, wall thickness measurement, weld inspection, standards (ASME V, ASTM E164), certification, and industry applications.",
-                "author": { "@type": "Organization", "name": "Atlantis NDT" },
-                "publisher": { "@type": "Organization", "name": "Atlantis NDT" },
-                "datePublished": "2026-03-09",
-                "dateModified": "2026-03-09"
-            },
+            buildTechArticleSchema({
+                url: "https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide",
+                headline: "Ultrasonic Testing 2026: Conventional vs PAUT vs TOFD — Physics, Codes, Equipment",
+                description: "UT deep-dive: wave physics (c = fλ, acoustic impedance Z = ρc), conventional vs PAUT vs TOFD, pulse-echo + through-transmission, DAC/DGS calibration per ASME V Art 4/5, AWS D1.1 weld inspection, API 1104 pipe, wall thickness accuracy ±0.1mm, Level II path. By ASNT Level III Anoop Rayavarapu.",
+                datePublished: "2026-03-09",
+                dateModified: "2026-04-18",
+                section: "NDT Methods — Ultrasonic",
+                keywords: "ultrasonic testing, UT, PAUT, TOFD, weld inspection, wall thickness",
+                dependencies: "ASME BPVC Section V, ASTM E164, ASTM E213, ASTM E317, API 1104, AWS D1.1, ISO 17640, ISO 16810, ISO 10863",
+            }),
             {
                 "@type": "FAQPage",
                 "mainEntity": faqs.map(faq => ({
@@ -102,8 +104,8 @@ export default function UltrasonicTestingUltimateGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Ultrasonic Testing: Ultimate Guide [UT, PAUT, TOFD, Weld Inspection 2026]"
-                description="Master ultrasonic testing (UT). Learn conventional vs PAUT vs TOFD techniques, weld inspection, wall thickness measurement, calibration, standards (ASME V, ASTM E164, API 1104), comparison with RT, and ASNT Level II certification."
+                title="Ultrasonic Testing 2026: Conventional vs PAUT vs TOFD — Physics, Codes, Calibration"
+                description="UT deep-dive: wave physics, conventional vs PAUT vs TOFD, DAC/DGS calibration per ASME V, AWS D1.1 weld inspection, API 1104 pipe, ±0.1mm thickness, Level II path. By ASNT Level III."
                 keywords="ultrasonic testing, UT, PAUT, phased array, TOFD, time-of-flight diffraction, A-scan, B-scan, C-scan, weld inspection, thickness measurement, ASME V, ASTM E164, API 1104, UT training, ultrasonic probe, transducer, couplant"
                 canonical="https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide"
                 structuredData={structuredData}

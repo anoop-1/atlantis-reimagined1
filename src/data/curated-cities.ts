@@ -19,76 +19,134 @@
  */
 
 export const CURATED_CITY_SLUGS: Set<string> = new Set([
-  // ── USA — Top 20 Industrial/Energy Hubs ──────────────────────────
-  'houston',              // World oil/gas capital, largest refining corridor
-  'new-orleans',          // Gulf Coast petrochemical hub, offshore operations
-  'dallas',               // Major energy corporate HQ center
-  'los-angeles',          // Aerospace hub, port infrastructure
-  'chicago',              // Heavy manufacturing, nuclear facilities
-  'philadelphia',         // Refining corridor, defense manufacturing
-  'pittsburgh',           // Steel industry, power generation
-  'detroit',              // Automotive manufacturing hub
-  'seattle',              // Boeing/aerospace manufacturing
-  'denver',               // Oil/gas operations, mining
-  'new-york',             // Construction, infrastructure inspection
-  'atlanta',              // Aerospace, Lockheed Martin operations
-  'san-francisco',        // Tech manufacturing, bridge/infrastructure
-  'boston',                // Defense, GE Aviation, academia
-  'phoenix',              // Semiconductor manufacturing
-  'port-arthur-texas',    // Largest US refinery (Motiva)
-  'lake-charles-louisiana', // LNG export, petrochemical corridor
-  'baton-rouge',          // ExxonMobil refinery, chemical plants
-  'corpus-christi',       // Port, refining, LNG export
-  'tampa',                // Power generation, marine inspection
-  'miami',                // Marine, cruise ship inspections
+  // ── USA — Top 25 Industrial/Energy Hubs ──────────────────────────
+  'houston',
+  'new-orleans',
+  'dallas',
+  'los-angeles',
+  'chicago',
+  'philadelphia',
+  'pittsburgh',
+  'detroit',
+  'seattle',
+  'denver',
+  'new-york',
+  'atlanta',
+  'san-francisco',
+  'boston',
+  'phoenix',
+  'port-arthur-texas',
+  'lake-charles-louisiana',
+  'baton-rouge',
+  'corpus-christi',
+  'tampa',
+  'miami',
+  'odessa-texas',
+  'midland-texas',
+  'anchorage-alaska',
+  'bakersfield-california',
 
   // ── Middle East — Oil/Gas Powerhouses ────────────────────────────
-  'abu-dhabi',            // ADNOC operations, offshore oil/gas
-  'dubai',                // Construction boom, infrastructure
-  'jubail-saudi-arabia',  // Largest industrial city, SABIC/Aramco
-  'doha-qatar',           // LNG capital of the world
-  'dammam-saudi-arabia',  // Saudi Aramco HQ region
-  'ras-laffan-qatar',     // World's largest LNG processing
-  'yanbu-saudi-arabia',   // Saudi Aramco refining hub
-  'al-khobar-saudi-arabia', // Saudi industrial eastern province
+  'abu-dhabi',
+  'dubai',
+  'saudi-arabia',
+  'kuwait',
+  'muscat',
+  'doha',
+  'jubail-saudi-arabia',
+  'doha-qatar',
+  'dammam-saudi-arabia',
+  'ras-laffan-qatar',
+  'yanbu-saudi-arabia',
+  'al-khobar-saudi-arabia',
+  'ras-al-khaimah',
+  'sohar-oman',
+  'manama-bahrain',
+  'basrah-iraq',
+  'sharjah',
 
   // ── Europe — Industrial Powerhouses ──────────────────────────────
-  'aberdeen-united-kingdom', // North Sea oil/gas capital
-  'rotterdam-netherlands',   // Europe's largest port, petrochemicals
-  'hamburg-germany',         // Shipbuilding, aerospace (Airbus)
-  'stavanger-norway',        // Norwegian oil/gas capital
-  'london-united-kingdom',   // Engineering HQs, nuclear/rail
-  'munich-germany',          // Aerospace, automotive (BMW)
-  'toulouse-france',         // Airbus HQ, aerospace manufacturing
-  'milan-italy',             // Heavy manufacturing, ENI operations
-  'antwerp-belgium',         // Second-largest petrochemical cluster globally
-  'gdansk-poland',           // Shipbuilding, offshore wind
+  'aberdeen',
+  'aberdeen-united-kingdom',
+  'rotterdam',
+  'rotterdam-netherlands',
+  'hamburg-germany',
+  'stavanger-norway',
+  'oslo',
+  'london',
+  'london-united-kingdom',
+  'munich-germany',
+  'toulouse-france',
+  'milan-italy',
+  'antwerp-belgium',
+  'gdansk-poland',
+  'bergen-norway',
+  'sunderland-uk',
 
   // ── Asia-Pacific — Major Industrial Centers ──────────────────────
-  'singapore',            // Jurong Island petrochemical hub
-  'mumbai-india',         // ONGC operations, offshore oil/gas
-  'chennai',              // Major refining hub, automotive
-  'perth-australia',      // Western Australia LNG/mining capital
-  'tokyo-japan',          // Nuclear industry, heavy engineering
-  'seoul-south-korea',    // Shipbuilding, nuclear, Samsung Heavy
-  'shanghai-china',       // Largest manufacturing base globally
-  'kuala-lumpur-malaysia', // Petronas operations, oil/gas
-  'bangkok-thailand',     // Petrochemical corridor, automotive
-  'hyderabad-india',      // Aerospace/defense manufacturing
-  'ulsan-south-korea',    // Hyundai Heavy Industries, world's largest shipyard
-  'geoje-south-korea',    // Samsung Heavy Industries shipyard
-  'jamnagar-india',       // World's largest refinery (Reliance)
-  'yokohama-japan',       // Major shipbuilding, JFE Steel
-  'brisbane-australia',   // LNG projects, mining hub
+  'singapore',
+  'mumbai',
+  'mumbai-india',
+  'chennai',
+  'perth',
+  'perth-australia',
+  'tokyo-japan',
+  'seoul-south-korea',
+  'shanghai-china',
+  'kuala-lumpur',
+  'kuala-lumpur-malaysia',
+  'bangkok-thailand',
+  'hyderabad',
+  'hyderabad-india',
+  'ulsan-south-korea',
+  'geoje-south-korea',
+  'jamnagar-india',
+  'yokohama-japan',
+  'brisbane-australia',
+  'melbourne-australia',
+  'busan-south-korea',
+  'tianjin-china',
 
   // ── Americas (non-US) & Africa ───────────────────────────────────
-  'lagos-nigeria',              // West Africa oil/gas operations
-  'luanda-angola',              // Offshore oil production hub
-  'rio-de-janeiro-brazil',      // Petrobras operations, pre-salt oil
-  'johannesburg-south-africa',  // Mining, power generation
-  'calgary-canada',             // Canadian oil sands capital
-  'edmonton-canada',            // Oil sands operations hub
+  'lagos',
+  'lagos-nigeria',
+  'luanda-angola',
+  'port-harcourt-nigeria',
+  'rio-de-janeiro-brazil',
+  'johannesburg-south-africa',
+  'calgary',
+  'calgary-canada',
+  'edmonton-canada',
+  'mexico-city',
+  'buenos-aires-argentina',
 ]);
+
+/**
+ * Product-page prefix list. Used to normalize slugs like
+ *   digital-twin-houston  →  houston
+ *   ndt-erp-abu-dhabi     →  abu-dhabi
+ *   ndt-reporting-dubai   →  dubai
+ * so product-templated city pages can be gated against CURATED_CITY_SLUGS.
+ */
+const PRODUCT_PREFIXES = [
+  'digital-twin-',
+  'ndt-erp-',
+  'ndt-reporting-',
+  'ndt-reporting-software-',
+  'inspection-reporting-software-',
+  'ndt-consulting-',
+];
+
+/**
+ * Normalize a full page slug to its bare city slug for curation check.
+ * Returns the input unchanged if no product prefix is found.
+ */
+export function cityFromProductSlug(slug: string): string {
+  for (const p of PRODUCT_PREFIXES) {
+    if (slug.startsWith(p)) return slug.slice(p.length);
+  }
+  return slug;
+}
 
 /**
  * Check if a city slug is in the curated high-value list.

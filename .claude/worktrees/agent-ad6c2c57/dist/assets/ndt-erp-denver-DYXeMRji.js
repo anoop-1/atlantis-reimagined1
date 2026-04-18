@@ -1,0 +1,1 @@
+import{j as r}from"./index-DPOIg50j.js";import{E as t}from"./ErpLocationPage-Ti-_fVvD.js";import"./file-text-CV4Dgu4d.js";function p(){return r.jsx(t,{city:"Denver",country:"USA",slug:"ndt-erp-denver"})}export{p as default};
