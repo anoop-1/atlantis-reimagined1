@@ -122,7 +122,15 @@ async function main() {
     ],
   });
   const row = summary.rows?.[0]?.metricValues || [];
-  const [sessions, users, pv, engRate, avgDur, bounce, newU] = row.map(r => parseFloat(r.value));
+  if (row.length === 0) {
+    console.log('═══ TRAFFIC SUMMARY ═══');
+    console.log('  NO DATA for this period. Either (a) property has no events captured,');
+    console.log('  (b) the gtag Measurement ID on the live site points to a different');
+    console.log('  property, or (c) a cookie-consent banner is blocking analytics.');
+    console.log('  Tip: try a wider --days range or check the GA4 real-time view.\n');
+    return;
+  }
+  const [sessions = 0, users = 0, pv = 0, engRate = 0, avgDur = 0, bounce = 0, newU = 0] = row.map(r => parseFloat(r.value) || 0);
   console.log('═══ TRAFFIC SUMMARY ═══');
   console.log(`  Sessions:          ${Math.round(sessions).toLocaleString()}`);
   console.log(`  Active users:      ${Math.round(users).toLocaleString()}`);

@@ -32,3 +32,9 @@ scripts/gsc-service-account.json
 scripts/.env.gsc
 scripts/indexing-progress.json
 .credentials/
+# Service-account private keys — never commit
+scripts/gsc-accounts/*.json
+!scripts/gsc-accounts/*.example.json
+!scripts/gsc-accounts/README.md
+/atlantis-gsc-*.json
+/*gsc*.json
