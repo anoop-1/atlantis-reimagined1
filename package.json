@@ -8,7 +8,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build && node scripts/prerender.mjs"
+    "build": "vite build && node scripts/prerender.mjs",
+    "sitemaps": "node scripts/generate-sitemaps.mjs",
+    "build:full": "vite build && node scripts/prerender.mjs && npm run sitemaps"
   },
   "reactSnap": {
     "inlineCss": false,
@@ -89,6 +91,7 @@
     "lenis": "^1.3.11",
     "lucide-react": "^0.462.0",
     "next-themes": "^0.3.0",
+    "nodemailer": "^8.0.5",
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",

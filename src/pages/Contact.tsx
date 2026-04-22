@@ -11,7 +11,6 @@ import { Navigation } from "@/components/Navigation";
 import { Users, CheckCircle2, Cpu, Award } from "lucide-react";
 import ContactDetails from "@/components/ContactDetails";
 import { useRef, useState } from "react";
-import { send, sendForm } from "@emailjs/browser";
 
 export default function Contact() {
    const contactInfo = [
@@ -106,14 +105,16 @@ export default function Contact() {
       setSuccess("");
 
       try {
-         await sendForm(
-            import.meta.env.VITE_EMAILJS_SERVICE_ID || '',
-            import.meta.env.VITE_EMAILJS_TEMPLATE_ID || '',
-            formRef.current,
-            import.meta.env.VITE_EMAILJS_PUBLIC_KEY || ''
-         );
+         const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+         });
+         if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            throw new Error(data?.error || `HTTP ${res.status}`);
+         }
 
-         // GA4 conversion tracking
          if (typeof window !== 'undefined' && (window as any).gtag) {
             (window as any).gtag('event', 'generate_lead', {
                'event_category': 'Contact Form',
@@ -133,8 +134,8 @@ export default function Contact() {
             message: "",
          });
       } catch (error: any) {
-         console.error("EmailJS Error:", error);
-         const errorMessage = error?.text || error?.message || "Unknown error";
+         console.error("Contact form error:", error);
+         const errorMessage = error?.message || "Unknown error";
          setSuccess(`Failed to send message: ${errorMessage}`);
       }
 
@@ -239,6 +240,14 @@ export default function Contact() {
                               className="space-y-6"
                               onSubmit={handleSubmit}
                            >
+                              <input
+                                 type="text"
+                                 name="website"
+                                 tabIndex={-1}
+                                 autoComplete="off"
+                                 style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
+                                 aria-hidden="true"
+                              />
                               <div className="grid md:grid-cols-2 gap-4">
                                  <div>
                                     <Label htmlFor="firstName">
