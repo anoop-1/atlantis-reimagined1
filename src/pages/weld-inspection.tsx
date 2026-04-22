@@ -253,7 +253,7 @@ export default function WeldInspection() {
       <Navigation />
       <SEOHead
         title="Weld Inspection Services | AWS D1.1, ASME IX, API 1104 | Atlantis NDT"
-        description="Expert weld inspection guide: NDT methods for weld quality control, defect types, governing codes (AWS D1.1, ASME Section IX, API 1104, EN ISO 17638). PAUT replacing RT for most weld applications. ASNT Level III consulting."
+        description="Expert weld inspection guide: NDT methods for weld quality control, defect types, governing codes (AWS D1.1, ASME Section IX, API 1104, EN ISO 17638). PAUT."
         keywords="weld inspection, weld NDT, AWS D1.1 weld inspection, ASME Section IX weld testing, API 1104 pipeline weld inspection, PAUT weld inspection, RT weld inspection, UT weld inspection, MT weld inspection, weld defects NDT, weld quality control, phased array weld inspection, weld examination services"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/weld-inspection"

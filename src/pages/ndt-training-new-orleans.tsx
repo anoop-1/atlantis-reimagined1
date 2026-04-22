@@ -23,7 +23,7 @@ export default function NDTTrainingNewOrleans() {
       <Navigation />
       <SEOHead
         title="NDT Training in New Orleans, LA | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in New Orleans. ASNT SNT-TC-1A Level I, II, III. Petrochemical and maritime focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in New Orleans. ASNT SNT-TC-1A Level I, II, III. Petrochemical and maritime focus. Enroll today!"
         keywords="NDT training new-orleans, ASNT certification new-orleans, NDT courses new-orleans, NDT consulting new-orleans"
         canonical="https://atlantisndt.com/ndt-training-new-orleans"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

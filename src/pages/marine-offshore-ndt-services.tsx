@@ -23,7 +23,7 @@ export default function MarineOffshoreNdtServices() {
       <Navigation />
       <SEOHead
         title="Marine & Offshore NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Marine & Offshore NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Hull and subsea component inspection"
+        description="Professional Marine & Offshore NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Hull and subsea."
         keywords="Marine & Offshore NDT Services NDT services, Marine & Offshore NDT Services inspection, NDT testing Marine & Offshore NDT Services"
         canonical="https://atlantisndt.com/marine-offshore-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}

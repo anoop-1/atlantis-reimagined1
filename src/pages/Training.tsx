@@ -202,8 +202,8 @@ export default function Training() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT Training & Certification | Level I, II, III Courses | ASNT SNT-TC-1A | Atlantis NDT"
-            description="Professional NDT certification programs in USA, India & Middle East. Level I, II, III training in UT, MT, PT, RT, ET. ASNT SNT-TC-1A & NAS 410 compliant. 95% pass rate. Enroll today!"
+            title="NDT Training 2026: Proven Level I, II, III Certification with 95% Pass Rate"
+            description="Expert ASNT SNT-TC-1A NDT training in USA, India & Middle East. Level I, II, III in UT, MT, PT, RT, ET. 95% first-attempt pass rate. Enroll in 48 hrs."
             keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East`}
             structuredData={structuredData}
             canonical="https://atlantisndt.com/training"

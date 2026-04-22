@@ -38,7 +38,7 @@ export default function AerospaceNDTTraining() {
             <Navigation />
             <SEOHead
                 title="Aerospace NDT Training | NAS 410 Certification | Aircraft Inspection | Atlantis NDT"
-                description="Specialized NDT training for aerospace professionals. NAS 410 / EN 4179 certification. UT, ET, PT courses for aircraft, engine, and composite inspection. Enroll now!"
+                description="Specialized NDT training for aerospace professionals. NAS 410 / EN 4179 certification. UT, ET, PT courses for aircraft, engine, and composite. Enroll now!"
                 keywords="aerospace NDT training, NAS 410 certification, aircraft NDT, composite inspection training, aerospace UT training, aviation NDT courses"
                 canonical="https://atlantisndt.com/aerospace-ndt-training"
                 structuredData={structuredData}

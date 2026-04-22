@@ -165,7 +165,7 @@ export default function AcousticEmissionTesting() {
       <Navigation />
       <SEOHead
         title="Acoustic Emission Testing (AET) | Pressure Vessel & Pipeline Monitoring | Atlantis NDT"
-        description="Complete guide to acoustic emission testing (AET): passive stress wave monitoring for pressure vessels, storage tank floors, pipeline leak detection. ASME Section V Article 12, ASTM E569. Whole-structure monitoring without internal access."
+        description="Complete guide to acoustic emission testing (AET): passive stress wave monitoring for pressure vessels, storage tank floors, pipeline leak detection. ASME."
         keywords="acoustic emission testing, AET NDT, acoustic emission, AE testing NDT, pressure vessel acoustic emission, tank floor AET, ASME Section V Article 12, ASTM E569, acoustic emission monitoring, pipeline leak detection, AET vs UT, acoustic emission sensors, AE signal parameters, ASNT AET certification"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/acoustic-emission-testing"

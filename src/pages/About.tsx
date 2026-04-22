@@ -152,7 +152,7 @@ export default function About() {
 
          <SEOHead
             title="About Atlantis NDT | 50+ ASNT Level III Experts | Global NDT Services Since 2018"
-            description="Atlantis NDT: 50+ certified Level III specialists, 1000+ inspections completed. NDT consulting per SNT-TC-1A, training & inspection across USA, India & Middle East. Oil & gas, aerospace, marine, nuclear expertise."
+            description="Atlantis NDT: 50+ certified Level III specialists, 1000+ inspections completed. NDT consulting per SNT-TC-1A across USA, India & Middle East."
             keywords="about Atlantis NDT, NDT company, ASNT Level III experts, non-destructive testing services, NDT experts USA, NDT experts India, Level III consultants, SNT-TC-1A, oil and gas NDT, aerospace NDT, marine inspection"
             canonical="https://atlantisndt.com/about"
             structuredData={structuredData}

@@ -230,7 +230,7 @@ export default function NDTTrainingUSA() {
             <Navigation />
             <SEOHead
                 title="NDT Training USA | ASNT Certification Houston | SNT-TC-1A & CP-189 | Atlantis NDT"
-                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95% pass rate."
+                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95%."
                 keywords="NDT training USA, ASNT certification, NDT courses USA, ultrasonic testing training, NDT certification Houston, NDT training online, ASNT CP-189, NDT training Texas, NAS-410 training, aerospace NDT training USA, NDT Level II Houston, NDT Level III USA"
                 canonical="https://atlantisndt.com/ndt-training-usa"
                 structuredData={structuredData}

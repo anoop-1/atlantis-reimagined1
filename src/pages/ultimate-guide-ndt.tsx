@@ -263,7 +263,7 @@ export default function UltimateGuideNDT() {
       <Navigation />
       <SEOHead
         title="What is Non-Destructive Testing? Complete NDT Guide 2026 | Atlantis NDT"
-        description="Complete guide to Non-Destructive Testing (NDT): learn about 6 major methods (UT, RT, MT, PT, ET, VT), advanced techniques (PAUT, TOFD, GWT), applications by industry, codes & standards, certification paths, and NDT career opportunities."
+        description="Complete NDT guide: 6 major methods (UT, RT, MT, PT, ET, VT), advanced PAUT/TOFD/GWT, codes, certification paths, and NDT careers. Read now."
         keywords="what is ndt, non destructive testing, ndt methods, ndt guide, ndt testing types, ndt explained, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, PAUT, TOFD, ndt applications, ndt standards"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-complete-guide"

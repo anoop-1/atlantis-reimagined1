@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { motion } from "framer-motion";
@@ -594,8 +595,17 @@ export const IndustryLocationPage: React.FC = () => {
   }
 
   const industry = industries[parsed.industrySlug];
-  const pageTitle = `${parsed.industry} in ${parsed.city}`;
-  const pageDescription = `Professional NDT services for ${parsed.industry} in ${parsed.city}. Comprehensive inspection, testing, and consulting by certified Level III experts.`;
+  // Override map for specific industry+city slugs that rank for niche long-tail queries.
+  // Keeping this inline (rather than a separate data file) because the list is intentionally short.
+  const META_OVERRIDES: Record<string, { title: string; description: string }> = {
+    "oil-gas-ndt-miami": {
+      title: "Miami Oil & Gas + Hazardous Waste NDT 2026 | Atlantis",
+      description: "Miami oil & gas NDT + hazardous waste inspection 2026: tank/pipeline integrity, API 653 / 570, RCRA + EPA compliance, ASNT Level III. 48h report turnaround.",
+    },
+  };
+  const override = META_OVERRIDES[slug];
+  const pageTitle = override?.title || `${parsed.industry} in ${parsed.city}`;
+  const pageDescription = override?.description || `Professional NDT services for ${parsed.industry} in ${parsed.city}. Comprehensive inspection, testing, and consulting by certified Level III experts.`;
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -637,6 +647,7 @@ export const IndustryLocationPage: React.FC = () => {
         noindex={!isCuratedCity(parsed.citySlug)}
       />
       <Navigation />
+      <PillarHubNav />
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-white pt-32 pb-20">
         <div className="container mx-auto px-6">

@@ -23,7 +23,7 @@ export default function NDTTrainingPhiladelphia() {
       <Navigation />
       <SEOHead
         title="NDT Training in Philadelphia, PA | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Philadelphia. ASNT SNT-TC-1A Level I, II, III. Manufacturing and refining focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Philadelphia. ASNT SNT-TC-1A Level I, II, III. Manufacturing and refining focus. Enroll today!"
         keywords="NDT training philadelphia, ASNT certification philadelphia, NDT courses philadelphia, NDT consulting philadelphia"
         canonical="https://atlantisndt.com/ndt-training-philadelphia"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

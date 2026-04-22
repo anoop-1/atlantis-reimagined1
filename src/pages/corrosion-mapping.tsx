@@ -169,7 +169,7 @@ export default function CorrosionMapping() {
       <Navigation />
       <SEOHead
         title="Corrosion Mapping | UT Thickness Mapping & C-Scan | API 510/570/653 | Atlantis NDT"
-        description="Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, fitness for service assessment, remaining life calculations."
+        description="Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, fitness for service assessment."
         keywords="corrosion mapping, UT corrosion mapping, ultrasonic thickness mapping, C-scan corrosion mapping, PAUT corrosion mapping, tank floor inspection corrosion, pipeline wall thickness mapping, API 510 corrosion mapping, API 570 thickness survey, API 653 tank inspection, fitness for service metal loss, remaining life calculation, corrosion mapping NDT, automated UT scanning, encoded UT scan"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/corrosion-mapping"

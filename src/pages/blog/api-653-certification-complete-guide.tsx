@@ -96,8 +96,8 @@ export default function API653CertificationCompleteGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Certification: Complete Guide [Exam, Study, Prerequisites, Salary 2026]"
-                description="Master API 653 certification for tank inspectors. Learn exam structure, prerequisites, study materials, pass rates (40%), salary increase, renewal requirements, API 510/570 comparison, expert exam tips, and 6-month study timeline."
+                title="API 653 Certification 2026: Complete Guide to Pass Rate, Salary & Study Plan"
+                description="API 653 certification 2026: exam structure, 40% pass rate, 6-month plan, $945 fee, salary jump to $130K+. Proven tips from ASNT Level III. Start today."
                 keywords="API 653, API 653 certification, API 653 exam, tank inspector, tank inspection, API 650, API 579 fitness-for-service, above-ground storage tank, AST inspector, API 653 study guide, API 653 salary"
                 canonical="https://atlantisndt.com/blog/api-653-certification-complete-guide"
                 structuredData={structuredData}

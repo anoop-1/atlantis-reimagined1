@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
@@ -393,6 +394,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
+      <PillarHubNav active="ndt-reporting" />
 
       <SEOHead
         title={pageTitle}

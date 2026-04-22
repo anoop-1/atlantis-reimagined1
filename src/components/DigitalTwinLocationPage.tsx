@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -10,8 +11,15 @@ import {
     Clock, TrendingUp, Shield, Zap, ChevronDown, ChevronUp
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { isCuratedCity, cityFromProductSlug } from '@/data/curated-cities';
+import {
+  buildLocalBusiness,
+  getDtProfile,
+  consultingPathForCity,
+  trainingPathForCity,
+} from '@/data/city-profiles';
 
 // ─── Location context data ────────────────────────────────────────────────────
 
@@ -207,6 +215,12 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
     // Derive city key from slug (remove "digital-twin-" prefix)
     const cityKey = slug.replace("digital-twin-", "");
 
+    // ── Per-city rich profile + internal link targets ─────────────────────
+    const profile = getDtProfile(cityKey);
+    const localBusiness = buildLocalBusiness(cityKey, city, country, 'NDT Digital Twin');
+    const consultingHref = consultingPathForCity(cityKey);
+    const trainingHref = trainingPathForCity(cityKey);
+
     const locationContext = digitalTwinLocationContext[cityKey] ||
         `${city} is a significant industrial hub with major oil and gas, petrochemical, and power generation assets requiring systematic inspection data management. Digital twin technology provides integrity managers in ${city} with real-time 3D condition monitoring, corrosion trend analysis, and automated regulatory reporting across their critical pressure equipment portfolio. The growing focus on asset reliability and regulatory compliance in ${country} makes digital twin NDT integration a strategic priority for operators across all sectors.`;
 
@@ -271,29 +285,6 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         "description": "Contact for pricing"
                     }
                 }
-            },
-            {
-                "@type": "LocalBusiness",
-                "@id": `https://atlantisndt.com/${slug}#business`,
-                "name": `Atlantis NDT - ${city}`,
-                "description": `Professional NDT consulting, training, and digital twin solutions in ${city}, ${country}`,
-                "url": `https://atlantisndt.com/${slug}`,
-                "telephone": "+1-281-840-8969",
-                "email": "info@atlantisndt.com",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": city,
-                    "addressCountry": country
-                },
-                "areaServed": {
-                    "@type": "City",
-                    "name": city
-                },
-                "parentOrganization": {
-                    "@type": "Organization",
-                    "name": "Atlantis NDT",
-                    "url": "https://atlantisndt.com"
-                }
             }
         ]
     };
@@ -333,18 +324,8 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         }
     ];
 
-    const faqStructuredData = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faqs.map(faq => ({
-            "@type": "Question",
-            "name": faq.question,
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-            }
-        }))
-    };
+    const cityFaqs = profile?.faqs ?? [];
+    const mergedFaqs = [...cityFaqs, ...faqs];
 
     const breadcrumbs = [
         { label: "Home", href: "/" },
@@ -355,6 +336,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
     return (
         <div className="min-h-screen bg-slate-50">
             <Navigation />
+      <PillarHubNav active="digital-twins" />
 
             <SEOHead
                 title={pageTitle}
@@ -362,16 +344,9 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                 noindex={!isCuratedCity(cityFromProductSlug(slug))}
                 canonical={canonical}
                 hreflangLinks={hreflangLinks}
-            />
-
-            {/* Structured data scripts */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-            />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+                structuredData={structuredData}
+                localBusiness={localBusiness}
+                faq={mergedFaqs}
             />
 
             {/* ── Hero ─────────────────────────────────────────────────────── */}
@@ -752,6 +727,132 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                 </div>
             </section>
 
+            {/* ── City-specific ROI / Use Cases / Compliance / Case Study ────── */}
+            {profile && (
+                <section className="bg-white py-16 border-t border-slate-200">
+                    <div className="container mx-auto max-w-5xl px-6">
+                        {/* ROI snapshot */}
+                        {profile.uniqueLocalROI && (
+                            <motion.div
+                                className="mb-12"
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6 }}
+                            >
+                                <div className="text-center mb-6">
+                                    <Badge className="mb-3 bg-[#004aad]/10 text-[#004aad] border-[#004aad]/20">
+                                        ROI Snapshot — {city}
+                                    </Badge>
+                                    <h2 className="text-3xl font-bold text-slate-900">
+                                        What {city} integrity teams recover with an NDT Digital Twin
+                                    </h2>
+                                </div>
+                                <Card className="border-slate-200 shadow-sm">
+                                    <CardContent className="p-8">
+                                        <p className="text-lg text-slate-700 leading-relaxed">
+                                            {profile.uniqueLocalROI}
+                                        </p>
+                                    </CardContent>
+                                </Card>
+                            </motion.div>
+                        )}
+
+                        {/* Use Cases + Compliance */}
+                        <div className="grid md:grid-cols-2 gap-8 mb-12">
+                            {profile.localIndustryUseCases?.length > 0 && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ duration: 0.5 }}
+                                >
+                                    <Card className="h-full border-slate-200 shadow-sm">
+                                        <CardHeader>
+                                            <CardTitle className="text-xl text-slate-900">
+                                                Digital Twin use cases in {city}
+                                            </CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <ul className="space-y-3">
+                                                {profile.localIndustryUseCases.map((usecase) => (
+                                                    <li key={usecase} className="flex items-start gap-2 text-sm">
+                                                        <CheckCircle className="h-4 w-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                                                        <span className="text-slate-700 leading-relaxed">{usecase}</span>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </CardContent>
+                                    </Card>
+                                </motion.div>
+                            )}
+
+                            {profile.localCompliance?.length > 0 && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ duration: 0.5, delay: 0.1 }}
+                                >
+                                    <Card className="h-full border-slate-200 shadow-sm">
+                                        <CardHeader>
+                                            <CardTitle className="text-xl text-slate-900 flex items-center gap-2">
+                                                <Shield className="h-5 w-5 text-[#004aad]" />
+                                                Compliance & standards we align with in {city}
+                                            </CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <div className="flex flex-wrap gap-2">
+                                                {profile.localCompliance.map((item) => (
+                                                    <span
+                                                        key={item}
+                                                        className="px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-700 border border-slate-200"
+                                                    >
+                                                        {item}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                            <p className="text-xs text-slate-500 mt-4 leading-relaxed">
+                                                The Atlantis NDT Digital Twin ships with damage-mechanism libraries,
+                                                report templates and data-residency options aligned to these frameworks
+                                                for {city} operators.
+                                            </p>
+                                        </CardContent>
+                                    </Card>
+                                </motion.div>
+                            )}
+                        </div>
+
+                        {/* Case snippet */}
+                        {profile.localCaseStudy && (
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6 }}
+                            >
+                                <Card className="border-slate-200 shadow-sm bg-gradient-to-br from-[#004aad]/5 to-blue-100/40">
+                                    <CardHeader>
+                                        <CardTitle className="text-lg text-slate-900">
+                                            {city} case snippet
+                                        </CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <p className="text-slate-700 italic leading-relaxed">
+                                            &ldquo;{profile.localCaseStudy}&rdquo;
+                                        </p>
+                                        <p className="text-xs text-slate-500 mt-3">
+                                            Outcomes reported by Atlantis NDT Digital Twin customers — specific figures
+                                            vary by asset portfolio and baseline inspection maturity.
+                                        </p>
+                                    </CardContent>
+                                </Card>
+                            </motion.div>
+                        )}
+                    </div>
+                </section>
+            )}
+
             {/* ── ROI Stats ─────────────────────────────────────────────────── */}
             <section className="bg-[#004aad] py-16">
                 <div className="container mx-auto max-w-6xl px-6">
@@ -811,6 +912,25 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                             Common questions from integrity engineers and inspection managers in {city}.
                         </p>
                     </div>
+
+                    {cityFaqs.length > 0 && (
+                        <div className="mb-6">
+                            <h3 className="text-sm font-semibold uppercase tracking-wide text-[#004aad] mb-3">
+                                {city}-specific questions
+                            </h3>
+                            <div className="space-y-3">
+                                {cityFaqs.map((faq) => (
+                                    <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {cityFaqs.length > 0 && (
+                        <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500 mt-8 mb-3">
+                            General Digital Twin questions
+                        </h3>
+                    )}
                     <div className="space-y-3">
                         {faqs.map((faq) => (
                             <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
@@ -823,15 +943,19 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
             <section className="bg-slate-50 py-12 border-t border-slate-200">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-                        Related NDT Services in {city}
+                        Also serving {city}
                     </h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                        {[
-                            { title: "NDT Consulting", desc: "ASNT Level III consulting", link: `/consulting/ndt-consulting-${slug.replace('digital-twin-', '')}` },
-                            { title: "NDT ERP Software", desc: "Inspection management", link: `/ndt-erp-${slug.replace('digital-twin-', '')}` },
-                            { title: "NDT Training", desc: "ASNT certification courses", link: "/training" },
+                        {([
+                            { title: `NDT ERP ${city}`, desc: "Inspection management software", link: `/ndt-erp-${cityKey}` },
+                            consultingHref
+                                ? { title: `NDT Consulting ${city}`, desc: "ASNT Level III consulting", link: consultingHref }
+                                : null,
+                            trainingHref
+                                ? { title: `NDT Training ${city}`, desc: "ASNT certification courses", link: trainingHref }
+                                : null,
                             { title: "Corrosion Mapping", desc: "UT thickness surveys", link: "/corrosion-mapping" },
-                        ].map(s => (
+                        ].filter(Boolean) as { title: string; desc: string; link: string }[]).map(s => (
                             <Link key={s.title} to={s.link} className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
                                 <h3 className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors">{s.title}</h3>
                                 <p className="text-sm text-slate-500 mt-1">{s.desc}</p>
@@ -842,7 +966,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         <h3 className="text-lg font-semibold text-slate-700 mb-3">Digital Twins in Other Locations</h3>
                         <div className="flex flex-wrap gap-2">
                             {["houston", "dubai", "abu-dhabi", "saudi-arabia", "calgary", "singapore", "mumbai", "london", "perth", "aberdeen", "oslo", "doha", "kuwait", "lagos"]
-                                .filter(c => c !== slug.replace('digital-twin-', ''))
+                                .filter(c => c !== cityKey)
                                 .slice(0, 8)
                                 .map(c => (
                                     <Link key={c} to={`/digital-twin-${c}`} className="text-sm px-3 py-1.5 bg-white border border-slate-200 rounded-full hover:border-[#004aad] hover:text-[#004aad] transition-colors">

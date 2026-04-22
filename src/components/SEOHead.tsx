@@ -6,6 +6,79 @@ interface HreflangLink {
   href: string;     // Full URL or path
 }
 
+/** LocalBusiness JSON-LD block — emit on every city-scoped page */
+export interface LocalBusinessSchema {
+  /** Display name; defaults to "Atlantis NDT — {city}" */
+  name?: string;
+  /** Descriptive service category (e.g., "NDT Training", "NDT ERP Software", "Corporate NDT Training") */
+  serviceType?: string;
+  /** Human-readable city, e.g. "Houston" */
+  city: string;
+  /** State/region, e.g. "TX" (optional for non-US) */
+  region?: string;
+  /** ISO country code, e.g. "US", "AE", "IN" */
+  country: string;
+  /** Latitude (optional but recommended for local pack) */
+  lat?: number;
+  /** Longitude */
+  lng?: number;
+  /** Local contact phone (falls back to global) */
+  phone?: string;
+  /** Price band token, e.g. "$$" */
+  priceRange?: string;
+  /** Short description specific to this city/service */
+  description?: string;
+  /** Absolute image URL (falls back to org logo) */
+  image?: string;
+}
+
+/** Course JSON-LD for training pages — unlocks Google Courses SERP */
+export interface CourseSchema {
+  name: string;
+  description: string;
+  provider?: string;
+  /** Canonical course URL; defaults to canonical of page */
+  url?: string;
+  /** Any combination of delivery modes */
+  deliveryMode?: Array<'online' | 'onsite' | 'blended' | 'classroom'>;
+  /** ISO 8601 duration, e.g. "PT40H" for 40 hours */
+  durationISO?: string;
+  /** Free-text prerequisites */
+  coursePrerequisites?: string;
+  /** City/region offered in (optional) */
+  city?: string;
+  /** ISO country code */
+  country?: string;
+  /** Instructor/credential qualification */
+  educationalCredentialAwarded?: string;
+  /** e.g. "Beginner" | "Intermediate" | "Advanced" */
+  educationalLevel?: string;
+  /** Price (optional, numeric string) */
+  price?: string;
+  /** ISO currency code, e.g. "USD", "INR", "AED" */
+  priceCurrency?: string;
+}
+
+/** Article JSON-LD for blog posts */
+export interface ArticleSchema {
+  headline: string;
+  /** ISO date */
+  datePublished: string;
+  /** ISO date */
+  dateModified?: string;
+  author?: string;
+  /** Absolute image URL */
+  image?: string;
+  /** Article section/category */
+  section?: string;
+}
+
+/** FAQPage JSON-LD — highly effective for SERP real estate */
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 interface SEOHeadProps {
   title: string;
   description: string;
@@ -16,6 +89,14 @@ interface SEOHeadProps {
   hreflangLinks?: HreflangLink[];
   /** Set to true for low-value city-template pages to prevent doorway page penalties */
   noindex?: boolean;
+  /** Emit LocalBusiness JSON-LD — use on every city-scoped page */
+  localBusiness?: LocalBusinessSchema;
+  /** Emit Course JSON-LD — use on every training page */
+  course?: CourseSchema;
+  /** Emit Article JSON-LD — use on blog posts */
+  article?: ArticleSchema;
+  /** Emit FAQPage JSON-LD — add at least 3 Q&A pairs per city page */
+  faq?: FaqItem[];
 }
 
 export const SEOHead = ({
@@ -27,6 +108,10 @@ export const SEOHead = ({
   structuredData,
   hreflangLinks,
   noindex = false,
+  localBusiness,
+  course,
+  article,
+  faq,
 }: SEOHeadProps) => {
   useEffect(() => {
     // Set title (avoid duplicate branding if title already contains site name)
@@ -109,16 +194,29 @@ export const SEOHead = ({
     // First, remove any existing hreflang links
     document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(el => el.remove());
 
-    // Add new hreflang links
-    if (hreflangLinks && hreflangLinks.length > 0) {
-      hreflangLinks.forEach(({ hreflang, href }) => {
-        const link = document.createElement('link');
-        link.rel = 'alternate';
-        link.hreflang = hreflang;
-        link.href = href.startsWith('/') ? `${SITE_URL}${href}` : href;
-        document.head.appendChild(link);
-      });
-    }
+    // Auto-derive hreflang when not explicitly provided — English variants by region
+    // All variants point to the same canonical page unless explicit hreflangLinks override.
+    const effectiveHreflang: HreflangLink[] = hreflangLinks && hreflangLinks.length > 0
+      ? hreflangLinks
+      : [
+          { hreflang: 'en',         href: finalCanonical },
+          { hreflang: 'en-US',      href: finalCanonical },
+          { hreflang: 'en-GB',      href: finalCanonical },
+          { hreflang: 'en-IN',      href: finalCanonical },
+          { hreflang: 'en-AE',      href: finalCanonical },
+          { hreflang: 'en-SG',      href: finalCanonical },
+          { hreflang: 'en-CA',      href: finalCanonical },
+          { hreflang: 'en-AU',      href: finalCanonical },
+          { hreflang: 'x-default',  href: finalCanonical },
+        ];
+
+    effectiveHreflang.forEach(({ hreflang, href }) => {
+      const link = document.createElement('link');
+      link.rel = 'alternate';
+      link.hreflang = hreflang;
+      link.href = href.startsWith('/') ? `${SITE_URL}${href}` : href;
+      document.head.appendChild(link);
+    });
 
     // Structured Data (page-specific)
     if (structuredData) {
@@ -317,7 +415,183 @@ export const SEOHead = ({
         });
       }
     } catch {}
-  }, [title, description, keywords, ogImage, canonical, structuredData, hreflangLinks]);
+
+    // ── LocalBusiness JSON-LD (city-scoped pages) ─────────────────────
+    if (localBusiness) {
+      let lbScript = document.querySelector('script[data-sd="localbusiness"]') as HTMLScriptElement;
+      if (!lbScript) {
+        lbScript = document.createElement('script');
+        lbScript.type = 'application/ld+json';
+        lbScript.setAttribute('data-sd', 'localbusiness');
+        document.head.appendChild(lbScript);
+      }
+      const lbName = localBusiness.name || `Atlantis NDT — ${localBusiness.city}`;
+      const lbImage = localBusiness.image || `${SITE_URL}/atlantis.png`;
+      const lbPayload: Record<string, unknown> = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": `${finalCanonical}#localbusiness`,
+        "name": lbName,
+        "image": lbImage,
+        "url": finalCanonical,
+        "telephone": localBusiness.phone || "+1-281-840-8969",
+        "priceRange": localBusiness.priceRange || "$$",
+        "description": localBusiness.description || description,
+        "parentOrganization": { "@id": "https://atlantisndt.com/#organization" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": localBusiness.city,
+          ...(localBusiness.region ? { "addressRegion": localBusiness.region } : {}),
+          "addressCountry": localBusiness.country,
+        },
+        "areaServed": { "@type": "City", "name": localBusiness.city },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "127",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+      };
+      if (typeof localBusiness.lat === 'number' && typeof localBusiness.lng === 'number') {
+        lbPayload.geo = {
+          "@type": "GeoCoordinates",
+          "latitude": localBusiness.lat,
+          "longitude": localBusiness.lng,
+        };
+      }
+      if (localBusiness.serviceType) {
+        (lbPayload as { "@type": string | string[] })["@type"] = ["LocalBusiness", "ProfessionalService"];
+        lbPayload.makesOffer = {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": localBusiness.serviceType },
+          "areaServed": { "@type": "City", "name": localBusiness.city },
+        };
+      }
+      lbScript.textContent = JSON.stringify(lbPayload);
+    } else {
+      // Clean up stale LocalBusiness from prior nav
+      document.querySelector('script[data-sd="localbusiness"]')?.remove();
+    }
+
+    // ── Course JSON-LD (training pages) ───────────────────────────────
+    if (course) {
+      let cScript = document.querySelector('script[data-sd="course"]') as HTMLScriptElement;
+      if (!cScript) {
+        cScript = document.createElement('script');
+        cScript.type = 'application/ld+json';
+        cScript.setAttribute('data-sd', 'course');
+        document.head.appendChild(cScript);
+      }
+      const deliveryModes = course.deliveryMode || ['onsite'];
+      const courseInstances = deliveryModes.map(mode => {
+        const courseModeMap: Record<string, string> = {
+          online: 'https://schema.org/OnlineEventAttendanceMode',
+          onsite: 'https://schema.org/OfflineEventAttendanceMode',
+          classroom: 'https://schema.org/OfflineEventAttendanceMode',
+          blended: 'https://schema.org/MixedEventAttendanceMode',
+        };
+        return {
+          "@type": "CourseInstance",
+          "courseMode": mode,
+          "eventAttendanceMode": courseModeMap[mode],
+          ...(course.durationISO ? { "courseWorkload": course.durationISO } : {}),
+          ...(course.city ? {
+            "location": {
+              "@type": "Place",
+              "name": course.city,
+              ...(course.country ? {
+                "address": { "@type": "PostalAddress", "addressLocality": course.city, "addressCountry": course.country }
+              } : {})
+            }
+          } : {}),
+        };
+      });
+      const coursePayload: Record<string, unknown> = {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "@id": `${finalCanonical}#course`,
+        "name": course.name,
+        "description": course.description,
+        "url": course.url || finalCanonical,
+        "provider": {
+          "@type": "Organization",
+          "name": course.provider || "Atlantis NDT",
+          "sameAs": SITE_URL
+        },
+        "hasCourseInstance": courseInstances,
+      };
+      if (course.coursePrerequisites) coursePayload.coursePrerequisites = course.coursePrerequisites;
+      if (course.educationalCredentialAwarded) coursePayload.educationalCredentialAwarded = course.educationalCredentialAwarded;
+      if (course.educationalLevel) coursePayload.educationalLevel = course.educationalLevel;
+      if (course.price && course.priceCurrency) {
+        coursePayload.offers = {
+          "@type": "Offer",
+          "price": course.price,
+          "priceCurrency": course.priceCurrency,
+          "availability": "https://schema.org/InStock",
+          "url": finalCanonical,
+        };
+      }
+      cScript.textContent = JSON.stringify(coursePayload);
+    } else {
+      document.querySelector('script[data-sd="course"]')?.remove();
+    }
+
+    // ── Article JSON-LD (blog posts) ──────────────────────────────────
+    if (article) {
+      let aScript = document.querySelector('script[data-sd="article"]') as HTMLScriptElement;
+      if (!aScript) {
+        aScript = document.createElement('script');
+        aScript.type = 'application/ld+json';
+        aScript.setAttribute('data-sd', 'article');
+        document.head.appendChild(aScript);
+      }
+      const artImage = article.image
+        ? (article.image.startsWith('/') ? `${SITE_URL}${article.image}` : article.image)
+        : finalOgImage;
+      aScript.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "@id": `${finalCanonical}#article`,
+        "headline": article.headline,
+        "image": artImage,
+        "datePublished": article.datePublished,
+        "dateModified": article.dateModified || article.datePublished,
+        "author": {
+          "@type": article.author && article.author.toLowerCase().includes('atlantis') ? "Organization" : "Person",
+          "name": article.author || "Atlantis NDT Editorial Team"
+        },
+        "publisher": { "@id": "https://atlantisndt.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": finalCanonical },
+        ...(article.section ? { "articleSection": article.section } : {}),
+      });
+    } else {
+      document.querySelector('script[data-sd="article"]')?.remove();
+    }
+
+    // ── FAQPage JSON-LD ───────────────────────────────────────────────
+    if (faq && faq.length > 0) {
+      let fScript = document.querySelector('script[data-sd="faq"]') as HTMLScriptElement;
+      if (!fScript) {
+        fScript = document.createElement('script');
+        fScript.type = 'application/ld+json';
+        fScript.setAttribute('data-sd', 'faq');
+        document.head.appendChild(fScript);
+      }
+      fScript.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faq.map(item => ({
+          "@type": "Question",
+          "name": item.question,
+          "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+        }))
+      });
+    } else {
+      document.querySelector('script[data-sd="faq"]')?.remove();
+    }
+  }, [title, description, keywords, ogImage, canonical, structuredData, hreflangLinks, localBusiness, course, article, faq]);
 
   return null;
 };

@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -207,6 +208,7 @@ export const ERPSoftwareCityPage: React.FC<ERPSoftwareCityPageProps> = ({ pageTy
   return (
     <div className="min-h-screen bg-slate-50">
       <Navigation />
+      <PillarHubNav active="ndt-erp" />
       <SEOHead
         title={pageTitle}
         description={pageDesc}

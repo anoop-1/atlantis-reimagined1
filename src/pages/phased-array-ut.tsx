@@ -179,7 +179,7 @@ export default function PhasedArrayUT() {
 
       <SEOHead
         title="Phased Array UT (PAUT) | S-Scan Weld Inspection | ASME V App IV | Atlantis NDT"
-        description="Complete guide to phased array ultrasonic testing (PAUT): S-scan, TFM, ASME V Appendix IV, AWS D1.1 Annex K. PAUT vs conventional UT. Level II PAUT training and Level III consulting."
+        description="Complete guide to phased array ultrasonic testing (PAUT): S-scan, TFM, ASME V Appendix IV, AWS D1.1 Annex K. PAUT vs conventional UT. Level II PAUT training."
         keywords="phased array ultrasonic testing, PAUT, phased array UT, PAUT weld inspection, S-scan PAUT, sectorial scan, total focusing method TFM, ASME V Article 4 Mandatory Appendix IV, AWS D1.1 Annex K, API 1104 Appendix A, PAUT certification, phased array NDT, PAUT vs conventional UT, PAUT training, phased array inspection, PAUT Level II, ASNT PAUT, ISO 9712 PAUT, phased array weld inspection, PAUT B-scan, PAUT C-scan"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/phased-array-ut"

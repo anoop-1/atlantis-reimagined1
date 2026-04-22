@@ -41,7 +41,7 @@ export default function API653InspectionTemplate() {
       <Navigation />
       <SEOHead
         title="API 653 Tank Inspection Template | AST Inspection Forms | Free Download"
-        description="Free API 653 above-ground storage tank inspection template. Includes tank identification, external/internal inspection forms, shell thickness data sheets, corrosion rate calculations, and re-inspection interval determination."
+        description="Free API 653 above-ground storage tank inspection template. Includes tank identification, external/internal inspection forms, shell thickness data sheets."
         keywords="API 653 inspection template, tank inspection form, AST inspection checklist, API 653 shell thickness, tank corrosion rate, API 653 remaining life, storage tank inspection form"
         canonical="https://atlantisndt.com/resources/api-653-inspection-template"
         structuredData={structuredData}

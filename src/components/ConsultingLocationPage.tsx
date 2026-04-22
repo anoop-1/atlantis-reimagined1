@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -675,6 +676,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     return (
         <div className="min-h-screen bg-slate-50">
             <Navigation />
+      <PillarHubNav active="consulting" />
             <SEOHead
                 title={pageTitle}
                 description={pageDesc}

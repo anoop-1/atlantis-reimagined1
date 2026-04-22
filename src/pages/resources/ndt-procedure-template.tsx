@@ -41,7 +41,7 @@ export default function NDTProcedureTemplate() {
       <Navigation />
       <SEOHead
         title="NDT Procedure Template | SNT-TC-1A & ISO 9712 Compliant | Free Download"
-        description="Free NDT written procedure template aligned with ASME Section V, SNT-TC-1A, and ISO 9712. Complete 13-section template covering scope, personnel, equipment, calibration, technique, evaluation, reporting, and records."
+        description="Free NDT written procedure template aligned with ASME Section V, SNT-TC-1A, and ISO 9712. Complete 13-section template covering scope, personnel, equipment."
         keywords="NDT procedure template, NDT written procedure, ASME Section V procedure, NDT procedure writing, NDE procedure template, UT procedure template, RT procedure template, inspection procedure"
         canonical="https://atlantisndt.com/resources/ndt-procedure-template"
         structuredData={structuredData}

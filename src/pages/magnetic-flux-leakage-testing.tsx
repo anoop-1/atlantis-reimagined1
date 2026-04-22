@@ -159,7 +159,7 @@ export default function MagneticFluxLeakageTesting() {
       <Navigation />
       <SEOHead
         title="Magnetic Flux Leakage Testing (MFL) | Tank Floor & Pipeline Inspection | Atlantis NDT"
-        description="Complete guide to Magnetic Flux Leakage (MFL) testing: tank floor inspection per API 653, in-line pipeline inspection (ILI pigging), well casing, wire rope. Hall effect sensors, MFL vs UT, API 653/1163/NACE SP0102 standards."
+        description="Complete guide to Magnetic Flux Leakage (MFL) testing: tank floor inspection per API 653, in-line pipeline inspection (ILI pigging), well casing, wire rope."
         keywords="magnetic flux leakage testing, MFL NDT, MFL tank floor inspection, API 653 MFL, MFL pipeline inspection, ILI in-line inspection, intelligent pigging MFL, MFL pig pipeline, hall effect sensor NDT, tank floor MFL API 653, wire rope MFL testing, MFL vs UT, pipeline integrity MFL, NACE SP0102"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/magnetic-flux-leakage-testing"

@@ -23,7 +23,7 @@ export default function NDTTrainingChicago() {
       <Navigation />
       <SEOHead
         title="NDT Training in Chicago, IL | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Chicago. ASNT SNT-TC-1A Level I, II, III. Manufacturing and fabrication focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Chicago. ASNT SNT-TC-1A Level I, II, III. Manufacturing and fabrication focus. Enroll today!"
         keywords="NDT training Chicago, ASNT certification Chicago, NDT courses Chicago IL, ultrasonic testing Chicago, radiographic testing Chicago, NDT consulting Chicago"
         canonical="https://atlantisndt.com/ndt-training-chicago"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

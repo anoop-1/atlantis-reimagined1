@@ -222,7 +222,7 @@ export default function UltrasonicTesting() {
 
       <SEOHead
         title="Ultrasonic Testing (UT): PAUT vs TOFD vs Conventional — Which Method Wins? [2026]"
-        description="Compare ultrasonic testing methods head-to-head: conventional UT vs phased array (PAUT) vs TOFD vs automated UT. Thickness measurement, weld inspection, corrosion mapping. Equipment costs, training requirements & ASME V compliance."
+        description="Compare ultrasonic testing methods head-to-head: conventional UT vs phased array (PAUT) vs TOFD vs automated UT. Thickness measurement, weld inspection."
         keywords="ultrasonic testing, UT inspection, phased array ultrasonic testing PAUT, TOFD, time of flight diffraction, automated ultrasonic testing AUT, guided wave testing GWT, UT thickness measurement, weld inspection ultrasonic testing, ASME Section V Article 4, API 5L pipeline inspection, corrosion mapping UT, ultrasonic testing certification, ASNT UT, NDT UT services, UT NDT method"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ultrasonic-testing"

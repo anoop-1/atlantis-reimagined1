@@ -296,7 +296,7 @@ export default function NDTForAerospace() {
             <Navigation />
             <SEOHead
                 title="NDT for Aerospace | Aircraft, Composite & Engine Component Inspection | NAS-410 | Atlantis NDT"
-                description="Expert NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, NAS-410 compliant procedures, NADCAP audit prep. ASNT Level III consultants."
+                description="Expert NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, NAS-410 compliant procedures, NADCAP audit prep."
                 keywords="NDT for aerospace industry, aircraft NDT inspection, aerospace non-destructive testing, composite material NDT, NAS-410 certification, NADCAP NDT qualification, aircraft structural inspection, engine component NDT, MIL-STD-1949 NDT, aerospace eddy current testing, aircraft ultrasonic inspection, fluorescent penetrant inspection aerospace, EN 4179 aerospace NDT, NADCAP audit preparation, AMS 2644 penetrant"
                 canonical="https://atlantisndt.com/ndt-for-aerospace"
                 structuredData={structuredData}

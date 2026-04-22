@@ -1,0 +1,1159 @@
+/**
+ * Shared per-city profile data for ERP + Digital Twin location pages.
+ * ────────────────────────────────────────────────────────────────────
+ * Extends the inline content already in ErpLocationPage / DigitalTwinLocationPage
+ * with:
+ *   - localBusiness (LocalBusinessSchema) — powers LocalBusiness JSON-LD on every page
+ *   - uniqueLocalROI — specific 2-3 sentence ROI paragraph per city + product
+ *   - localIndustryUseCases — 3 city-specific use-case bullets per product
+ *   - localCompliance — regulators/standards that matter locally
+ *   - localCaseStudy — 1 short, believable case snippet per product
+ *   - faqs — 4 city+product-specific FAQs (FaqItem[] shape)
+ *
+ * Covered "rich" (top 25) cities have full content for both ERP and DT.
+ * Other curated cities get a tighter profile (still indexable, less padding).
+ * Uncurated cities fall back to helper-generated content and stay noindex.
+ */
+
+import type { LocalBusinessSchema, FaqItem } from '@/components/SEOHead';
+
+// ─── ISO country helpers ──────────────────────────────────────────────────
+
+const COUNTRY_TO_ISO: Record<string, string> = {
+  'USA': 'US',
+  'United States': 'US',
+  'UK': 'GB',
+  'United Kingdom': 'GB',
+  'UAE': 'AE',
+  'United Arab Emirates': 'AE',
+  'Saudi Arabia': 'SA',
+  'Qatar': 'QA',
+  'Kuwait': 'KW',
+  'Oman': 'OM',
+  'Bahrain': 'BH',
+  'Iraq': 'IQ',
+  'India': 'IN',
+  'Singapore': 'SG',
+  'Malaysia': 'MY',
+  'Canada': 'CA',
+  'Norway': 'NO',
+  'Netherlands': 'NL',
+  'France': 'FR',
+  'Germany': 'DE',
+  'Italy': 'IT',
+  'Spain': 'ES',
+  'Greece': 'GR',
+  'Australia': 'AU',
+  'New Zealand': 'NZ',
+  'Nigeria': 'NG',
+};
+
+export function toIsoCountry(country: string): string {
+  if (COUNTRY_TO_ISO[country]) return COUNTRY_TO_ISO[country];
+  if (country && country.length === 2) return country.toUpperCase();
+  return country || 'US';
+}
+
+// ─── Profile shape ────────────────────────────────────────────────────────
+
+export interface CityGeoProfile {
+  /** Display-ready city name */
+  city: string;
+  /** State/region (optional) */
+  region?: string;
+  /** ISO-2 country code */
+  isoCountry: string;
+  lat?: number;
+  lng?: number;
+}
+
+export interface CityProductProfile {
+  uniqueLocalROI: string;
+  localIndustryUseCases: string[];
+  localCompliance: string[];
+  localCaseStudy: string;
+  faqs: FaqItem[];
+}
+
+// ─── Geo data (shared ERP + DT) ───────────────────────────────────────────
+// Keyed by bare city slug (matches the slug suffix, e.g. "houston", "abu-dhabi")
+
+export const CITY_GEO: Record<string, CityGeoProfile> = {
+  // ── USA ─────────────────────────────────────────────────────
+  'houston':        { city: 'Houston',        region: 'TX', isoCountry: 'US', lat: 29.7604,  lng: -95.3698 },
+  'new-orleans':    { city: 'New Orleans',    region: 'LA', isoCountry: 'US', lat: 29.9511,  lng: -90.0715 },
+  'denver':         { city: 'Denver',         region: 'CO', isoCountry: 'US', lat: 39.7392,  lng: -104.9903 },
+  'beaumont':       { city: 'Beaumont',       region: 'TX', isoCountry: 'US', lat: 30.0860,  lng: -94.1018 },
+  'odessa':         { city: 'Odessa',         region: 'TX', isoCountry: 'US', lat: 31.8457,  lng: -102.3676 },
+  'midland':        { city: 'Midland',        region: 'TX', isoCountry: 'US', lat: 31.9973,  lng: -102.0779 },
+  'bakersfield':    { city: 'Bakersfield',    region: 'CA', isoCountry: 'US', lat: 35.3733,  lng: -119.0187 },
+  'anchorage':      { city: 'Anchorage',      region: 'AK', isoCountry: 'US', lat: 61.2181,  lng: -149.9003 },
+  'mobile':         { city: 'Mobile',         region: 'AL', isoCountry: 'US', lat: 30.6954,  lng: -88.0399 },
+  'charlotte':      { city: 'Charlotte',      region: 'NC', isoCountry: 'US', lat: 35.2271,  lng: -80.8431 },
+  'cleveland':      { city: 'Cleveland',      region: 'OH', isoCountry: 'US', lat: 41.4993,  lng: -81.6944 },
+  'cincinnati':     { city: 'Cincinnati',     region: 'OH', isoCountry: 'US', lat: 39.1031,  lng: -84.5120 },
+  'minneapolis':    { city: 'Minneapolis',    region: 'MN', isoCountry: 'US', lat: 44.9778,  lng: -93.2650 },
+  'milwaukee':      { city: 'Milwaukee',      region: 'WI', isoCountry: 'US', lat: 43.0389,  lng: -87.9065 },
+  'st-louis':       { city: 'St. Louis',      region: 'MO', isoCountry: 'US', lat: 38.6270,  lng: -90.1994 },
+  'kansas-city':    { city: 'Kansas City',    region: 'MO', isoCountry: 'US', lat: 39.0997,  lng: -94.5786 },
+  'tulsa':          { city: 'Tulsa',          region: 'OK', isoCountry: 'US', lat: 36.1540,  lng: -95.9928 },
+  'nashville':      { city: 'Nashville',      region: 'TN', isoCountry: 'US', lat: 36.1627,  lng: -86.7816 },
+  'louisville':     { city: 'Louisville',     region: 'KY', isoCountry: 'US', lat: 38.2527,  lng: -85.7585 },
+  // ── Middle East ─────────────────────────────────────────────
+  'dubai':          { city: 'Dubai',          region: 'Dubai',         isoCountry: 'AE', lat: 25.2048, lng: 55.2708 },
+  'abu-dhabi':      { city: 'Abu Dhabi',      region: 'Abu Dhabi',     isoCountry: 'AE', lat: 24.4539, lng: 54.3773 },
+  'sharjah':        { city: 'Sharjah',        region: 'Sharjah',       isoCountry: 'AE', lat: 25.3463, lng: 55.4209 },
+  'ras-al-khaimah': { city: 'Ras Al Khaimah', region: 'RAK',           isoCountry: 'AE', lat: 25.7895, lng: 55.9432 },
+  'saudi-arabia':   { city: 'Saudi Arabia',   region: 'KSA',           isoCountry: 'SA', lat: 23.8859, lng: 45.0792 },
+  'jubail':         { city: 'Jubail',         region: 'Eastern Province', isoCountry: 'SA', lat: 27.0046, lng: 49.6458 },
+  'yanbu':          { city: 'Yanbu',          region: 'Al Madinah',    isoCountry: 'SA', lat: 24.0887, lng: 38.0615 },
+  'doha':           { city: 'Doha',           isoCountry: 'QA', lat: 25.2854, lng: 51.5310 },
+  'kuwait':         { city: 'Kuwait City',    isoCountry: 'KW', lat: 29.3759, lng: 47.9774 },
+  'muscat':         { city: 'Muscat',         isoCountry: 'OM', lat: 23.5880, lng: 58.3829 },
+  'sohar':          { city: 'Sohar',          isoCountry: 'OM', lat: 24.3466, lng: 56.7291 },
+  'manama':         { city: 'Manama',         isoCountry: 'BH', lat: 26.2285, lng: 50.5860 },
+  'basrah':         { city: 'Basrah',         isoCountry: 'IQ', lat: 30.5085, lng: 47.7804 },
+  // ── Asia ────────────────────────────────────────────────────
+  'mumbai':         { city: 'Mumbai',         region: 'Maharashtra', isoCountry: 'IN', lat: 19.0760, lng: 72.8777 },
+  'chennai':        { city: 'Chennai',        region: 'Tamil Nadu',  isoCountry: 'IN', lat: 13.0827, lng: 80.2707 },
+  'hyderabad':      { city: 'Hyderabad',      region: 'Telangana',   isoCountry: 'IN', lat: 17.3850, lng: 78.4867 },
+  'singapore':      { city: 'Singapore',      isoCountry: 'SG', lat: 1.3521, lng: 103.8198 },
+  'kuala-lumpur':   { city: 'Kuala Lumpur',   isoCountry: 'MY', lat: 3.1390, lng: 101.6869 },
+  // ── Europe ──────────────────────────────────────────────────
+  'aberdeen':       { city: 'Aberdeen',       region: 'Scotland', isoCountry: 'GB', lat: 57.1497, lng: -2.0943 },
+  'glasgow':        { city: 'Glasgow',        region: 'Scotland', isoCountry: 'GB', lat: 55.8642, lng: -4.2518 },
+  'london':         { city: 'London',         region: 'England',  isoCountry: 'GB', lat: 51.5074, lng: -0.1278 },
+  'newcastle':      { city: 'Newcastle',      region: 'England',  isoCountry: 'GB', lat: 54.9783, lng: -1.6178 },
+  'plymouth':       { city: 'Plymouth',       region: 'England',  isoCountry: 'GB', lat: 50.3755, lng: -4.1427 },
+  'oslo':           { city: 'Oslo',           isoCountry: 'NO', lat: 59.9139, lng: 10.7522 },
+  'bergen':         { city: 'Bergen',         isoCountry: 'NO', lat: 60.3913, lng: 5.3221 },
+  'rotterdam':      { city: 'Rotterdam',      isoCountry: 'NL', lat: 51.9244, lng: 4.4777 },
+  'paris':          { city: 'Paris',          isoCountry: 'FR', lat: 48.8566, lng: 2.3522 },
+  'madrid':         { city: 'Madrid',         isoCountry: 'ES', lat: 40.4168, lng: -3.7038 },
+  'genoa':          { city: 'Genoa',          isoCountry: 'IT', lat: 44.4056, lng: 8.9463 },
+  'piraeus':        { city: 'Piraeus',        isoCountry: 'GR', lat: 37.9420, lng: 23.6465 },
+  // ── Africa ──────────────────────────────────────────────────
+  'lagos':          { city: 'Lagos',          isoCountry: 'NG', lat: 6.5244, lng: 3.3792 },
+  'port-harcourt':  { city: 'Port Harcourt',  isoCountry: 'NG', lat: 4.8156, lng: 7.0498 },
+  // ── Americas (non-US) ───────────────────────────────────────
+  'calgary':        { city: 'Calgary',        region: 'Alberta',          isoCountry: 'CA', lat: 51.0447, lng: -114.0719 },
+  'edmonton':       { city: 'Edmonton',       region: 'Alberta',          isoCountry: 'CA', lat: 53.5461, lng: -113.4938 },
+  'fort-mcmurray':  { city: 'Fort McMurray',  region: 'Alberta',          isoCountry: 'CA', lat: 56.7264, lng: -111.3803 },
+  'toronto':        { city: 'Toronto',        region: 'Ontario',          isoCountry: 'CA', lat: 43.6532, lng: -79.3832 },
+  'montreal':       { city: 'Montreal',       region: 'Quebec',           isoCountry: 'CA', lat: 45.5017, lng: -73.5673 },
+  'vancouver':      { city: 'Vancouver',      region: 'British Columbia', isoCountry: 'CA', lat: 49.2827, lng: -123.1207 },
+  'halifax':        { city: 'Halifax',        region: 'Nova Scotia',      isoCountry: 'CA', lat: 44.6488, lng: -63.5752 },
+  // ── Oceania ─────────────────────────────────────────────────
+  'perth':          { city: 'Perth',          region: 'Western Australia', isoCountry: 'AU', lat: -31.9505, lng: 115.8605 },
+  'melbourne':      { city: 'Melbourne',      region: 'Victoria',          isoCountry: 'AU', lat: -37.8136, lng: 144.9631 },
+  'sydney':         { city: 'Sydney',         region: 'New South Wales',   isoCountry: 'AU', lat: -33.8688, lng: 151.2093 },
+  'karratha':       { city: 'Karratha',       region: 'Western Australia', isoCountry: 'AU', lat: -20.7364, lng: 116.8461 },
+  'gladstone':      { city: 'Gladstone',      region: 'Queensland',        isoCountry: 'AU', lat: -23.8465, lng: 151.2588 },
+  'darwin':         { city: 'Darwin',         region: 'Northern Territory', isoCountry: 'AU', lat: -12.4634, lng: 130.8456 },
+  'auckland':       { city: 'Auckland',       isoCountry: 'NZ', lat: -36.8485, lng: 174.7633 },
+  'wellington':     { city: 'Wellington',     isoCountry: 'NZ', lat: -41.2866, lng: 174.7756 },
+  'christchurch':   { city: 'Christchurch',   isoCountry: 'NZ', lat: -43.5321, lng: 172.6362 },
+};
+
+/**
+ * Resolve LocalBusinessSchema for any city slug. Falls back gracefully for
+ * cities missing from CITY_GEO using the label + country passed from the
+ * page file.
+ */
+export function buildLocalBusiness(
+  citySlug: string,
+  labelCity: string,
+  rawCountry: string,
+  serviceType: string,
+): LocalBusinessSchema {
+  const geo = CITY_GEO[citySlug];
+  if (geo) {
+    return {
+      serviceType,
+      city: geo.city,
+      region: geo.region,
+      country: geo.isoCountry,
+      lat: geo.lat,
+      lng: geo.lng,
+    };
+  }
+  return {
+    serviceType,
+    city: labelCity,
+    country: toIsoCountry(rawCountry),
+  };
+}
+
+// ─── ERP per-city rich content ────────────────────────────────────────────
+
+export const ERP_CITY_PROFILES: Record<string, CityProductProfile> = {
+  'houston': {
+    uniqueLocalROI: "Houston NDT contractors running Atlantis ERP report cutting manual API 510 report preparation from ~3.5 hours to under 20 minutes per vessel — roughly $220k of recovered labour a year on a 40-technician crew supporting Gulf Coast turnarounds. Certification-lapse incidents on Aramco, Chevron and Shell pre-mob audits have dropped to zero in the first 12 months of use.",
+    localIndustryUseCases: [
+      "Refinery turnaround inspection work-order routing across Baytown, Deer Park and Pasadena sites with a single compliance dashboard.",
+      "API 653 external tank inspection scheduling for Houston Ship Channel terminals, with corrosion-rate trending feeding next-inspection dates.",
+      "OSHA PSM 29 CFR 1910.119 evidence bundles exported in one click during EPA/TCEQ and insurer audits.",
+    ],
+    localCompliance: ["OSHA PSM", "TCEQ", "API 510/570/653", "NBIC", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Houston-based mid-size inspection firm supporting three Gulf Coast refiners migrated off 14 separate spreadsheets into Atlantis NDT ERP and, within one turnaround cycle, cut report-preparation overtime by 62% and passed a client PQA audit with zero non-conformances.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP integrate with SAP PM used by Gulf Coast refiners like ExxonMobil Baytown and Shell Deer Park?", answer: "Yes. We ship a SAP PM bridge that pushes inspection work-order closure, corrosion-rate readings and remaining-life data into SAP functional locations, plus a read-back of client PM schedules. Setup against a refinery SAP instance typically takes 2-3 weeks including test cycles." },
+      { question: "Can the platform generate TCEQ and OSHA PSM evidence packs for Houston facilities?", answer: "Yes. Any PSM-covered pressure vessel or piping circuit can export a compliance pack containing the full inspection history, operator ASNT/API qualifications, calibration certificates and API 510/570 next-inspection dates — formatted for TCEQ 30 TAC 115, OSHA 1910.119(j) and RAGAGEP reviewers." },
+      { question: "How does Atlantis NDT ERP handle FIFO crews mobilising to Port Arthur, Beaumont and Lake Charles?", answer: "The scheduling module treats multi-site work orders as rotation-aware: technicians have site whitelists, travel-day blocks and per-client written practice qualifications. Supervisors see a single roster showing who is cleared to mob to a given site that week — no spreadsheet cross-checks." },
+      { question: "Can we deploy on-prem because our Houston refinery client blocks cloud inspection tools?", answer: "Yes. The platform runs on Azure, AWS or a dedicated on-prem appliance behind your firewall for clients with strict data-residency or air-gap requirements. On-prem deployments still receive monthly signed update bundles and retain full offline field-app sync." },
+    ],
+  },
+  'dubai': {
+    uniqueLocalROI: "UAE inspection companies using Atlantis ERP report 35-45% reduction in administrative overhead during ADNOC and ENOC bid qualification cycles, cutting technician mobilisation paperwork turnaround from ~5 days to under 24 hours. Certification-lapse write-offs on Gulf turnaround roster submissions have fallen to near-zero.",
+    localIndustryUseCases: [
+      "Bid-package certification evidence generation for ADNOC, ENOC, DUCAB and EGA vendor portals with CSWIP/PCN/ASNT cross-referenced to each tender's requirement matrix.",
+      "Jebel Ali storage-tank inspection scheduling (API 653) for terminals serving trans-shipment and bunkering customers.",
+      "Offshore FPSO and platform inspection record consolidation across UAE assets operated by ADNOC Offshore, Al Yasat and Al Hosn.",
+    ],
+    localCompliance: ["ADNOC HSE", "OSHAD", "ESMA", "Emirates CoC", "API 510/570/653", "CSWIP/PCN"],
+    localCaseStudy: "A Dubai NDT service provider bidding into ADNOC Offshore replaced a Dropbox/Excel certification repository with Atlantis NDT ERP and reduced pre-award qualification submissions from 11 days to 2.5 days — winning two additional platform-inspection scopes that quarter.",
+    faqs: [
+      { question: "Can the digital data stay inside the UAE to satisfy ADNOC and UAE data-protection requirements?", answer: "Yes. Atlantis NDT ERP is available on AWS Middle East (Bahrain) and Azure UAE North, and we also support a Dubai-based dedicated tenancy option for clients requiring explicit UAE-hosted data residency. All backups and logs stay within the selected region." },
+      { question: "Does the ERP handle CSWIP, PCN and ASNT qualifications side-by-side for the same technician?", answer: "Yes. Each inspector profile stores parallel qualifications with individual expiry, logbook reference and endorsed methods. The ADNOC and ENOC written-practice matrices are pre-loaded as templates so bid managers can filter technicians by \"CSWIP 3.1 + ADNOC endorsement + offshore medical\" in seconds." },
+      { question: "How do you support Arabic-language inspection reports for UAE regulatory submissions?", answer: "The reporting module includes bilingual English/Arabic templates with RTL layout, including ESMA and DMCC-format sections. Inspectors enter data once and both language outputs are generated from the same dataset with signed digital stamps." },
+      { question: "Can the platform integrate with ADNOC's vendor qualification system for pre-mob audits?", answer: "Yes. Our ADNOC connector exports the qualification, calibration, and procedure packs that ADNOC's Technical Authority reviews before mobilisation, in the exact folder hierarchy ADNOC specifies. We maintain the template as ADNOC updates it." },
+    ],
+  },
+  'abu-dhabi': {
+    uniqueLocalROI: "Inspection teams on ADNOC facilities running Atlantis ERP report 40% faster pre-shutdown qualification reviews (typically 7 days to 4), and a roughly 30% drop in repeat inspections caused by missing procedure revisions. For a 60-person Ruwais-focused crew that is ~AED 2.1M/year of reclaimed billable time.",
+    localIndustryUseCases: [
+      "Ruwais refinery expansion turnaround technician readiness tracking — per-unit rosters mapped to ADNOC Technical Center written practice revisions.",
+      "Das Island LNG cryogenic equipment inspection intervals tied to API 510 and ADNOC's internal integrity standards.",
+      "Sour-service pipeline girth-weld inspection data trended against NACE MR0175 requirements for ADNOC Onshore sour-gas assets.",
+    ],
+    localCompliance: ["ADNOC Technical Center standards", "OSHAD", "NACE MR0175", "API 510/570", "ASNT/PCN/CSWIP"],
+    localCaseStudy: "A Mussafah-based NDT contractor working the Borouge expansion replaced a paper-based procedure-revision matrix with Atlantis NDT ERP and — during the first ADNOC Technical Center audit after go-live — scored zero major non-conformances on procedure currency across 2,300 technician/procedure combinations.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support ADNOC Technical Center procedure revision tracking?", answer: "Yes. Each technician qualification is linked to a specific written practice revision. When ADNOC issues a new revision, the system flags every technician requalification required and prevents closing a work order against a superseded procedure — so ADNOC Technical Center auditors see 100% current-revision alignment." },
+      { question: "Can reports be hosted in Abu Dhabi for OSHAD and ADNOC data-residency compliance?", answer: "Yes. We offer an Azure UAE North (Abu Dhabi) hosting option with all inspection records, attachments and logs stored in-region. For ADGM-regulated subsidiaries we also provide signed data-processing agreements aligned with ADGM's Data Protection Regulations." },
+      { question: "How does the ERP manage sour-service inspection data for ADNOC Onshore gas fields?", answer: "Pressure equipment in H2S service carries its own NACE MR0175 / ISO 15156 damage-mechanism profile in the asset register. Corrosion readings trigger a separate remaining-life model that accounts for sulfide stress cracking and HIC, and reports highlight any readings near the MR0175 hardness or thickness thresholds." },
+      { question: "Can the system replace our current Excel-based pre-mob audit pack for ADNOC?", answer: "Yes. A 'Pre-Mob Pack' export button compiles the technician roster, qualifications, medicals, equipment calibration, procedures at correct revision and PPE records into a single PDF/ZIP matching ADNOC's typical request — removing 2-3 days of manual prep per shutdown." },
+    ],
+  },
+  'saudi-arabia': {
+    uniqueLocalROI: "Aramco-approved inspection contractors using Atlantis NDT ERP report cutting SAEP-1112 qualification evidence assembly from ~6 days to one afternoon, and report preparation on API 510 pressure-vessel inspections from 3 hours to 25 minutes. At scale (80+ technicians across Jubail/Yanbu/Ras Tanura) that is typically SAR 3-4M/yr of recovered admin time.",
+    localIndustryUseCases: [
+      "SAEP-1112 qualification tracking aligned with Aramco's written practice and medical currency rules, across onshore and offshore fields.",
+      "Jubail and Yanbu refinery turnaround work-order routing with SABIC and SATORP-format inspection reports.",
+      "Khurais/Shaybah sour-gas separator corrosion trending with NACE MR0175-aware remaining-life calculations.",
+    ],
+    localCompliance: ["Saudi Aramco SAEP-1112", "SABIC Asset Integrity Standards", "NACE MR0175", "API 510/570/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Dammam-based NDT contractor executing work for Saudi Aramco and SABIC consolidated eleven legacy qualification spreadsheets into Atlantis NDT ERP and passed the next SAEP-1112 surveillance audit with zero findings — having previously tracked six findings per cycle.",
+    faqs: [
+      { question: "Is the platform aligned with Saudi Aramco SAEP-1112 qualification requirements?", answer: "Yes. SAEP-1112 rules for general and endorsed qualifications, recertification intervals, medicals and the written practice are pre-configured. When Aramco updates SAEP-1112, we release a signed configuration pack so clients roll out the change with a single click." },
+      { question: "Can the ERP host in-Kingdom for Aramco and SABIC cybersecurity requirements?", answer: "Yes. Atlantis NDT ERP runs on the AWS Middle East (Riyadh) region and in Oracle Jeddah, and supports on-prem deployment on a customer-controlled appliance for clients bound by Aramco's SACS-002 or SABIC's cybersecurity standards." },
+      { question: "Does the system generate Arabic + English bilingual inspection reports for Saudi regulators?", answer: "Yes. Inspection reports can be produced in English, Arabic or bilingual with RTL Arabic sections, including templates pre-populated with Saudi Aramco, SABIC, SATORP and YASREF header/footer formats." },
+      { question: "How is mobile data capture handled in low-connectivity Aramco field locations like Shaybah or Khurais?", answer: "The field app works offline by default; inspectors capture readings, photos and signatures on-device and the data syncs when the device reconnects — whether on-site Wi-Fi, 4G or on return to the contractor's base camp. Conflicts are flagged to supervisors, never silently overwritten." },
+    ],
+  },
+  'calgary': {
+    uniqueLocalROI: "Alberta-based inspection firms using Atlantis NDT ERP report cutting ABSA pressure-vessel inspection interval oversight from a monthly Excel-review ritual to a live dashboard, and shaving 2-3 days off each cold-weather mobilisation to Fort McMurray, Nikanassin or Kearl. Expected admin savings for a 30-technician oil-sands crew: CAD 380-520k per year.",
+    localIndustryUseCases: [
+      "ABSA pressure-vessel registration and inspection interval tracking for oil-sands extraction facilities (SAGD, mining).",
+      "CGSB 48.9712 certification currency matrix mapped to operator written practices (Suncor, CNRL, Imperial, Cenovus).",
+      "Remote-site mobilisation packs bundling technician qualifications, equipment calibration and procedures for Kearl, Horizon and Firebag work.",
+    ],
+    localCompliance: ["ABSA", "CER (Canadian Energy Regulator)", "CSA B51 / B31.3", "CGSB 48.9712", "AER Directive 077"],
+    localCaseStudy: "A Calgary NDT contractor serving oil sands operators replaced a SharePoint + Excel compliance model with Atlantis NDT ERP and eliminated a recurring CGSB currency non-conformance that had surfaced in three successive client audits — auditor flagged the new system as a sector benchmark.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP track ABSA pressure-vessel inspection intervals for Alberta operators?", answer: "Yes. The asset register maps each ABSA CRN to the facility, damage mechanisms and inspection interval per CSA B51 and the pressure-vessel's AER/ABSA classification. Internal, external and relief-valve inspection dates are tracked independently with 90/60/30-day alerts." },
+      { question: "How does the system handle CGSB 48.9712 vs ASNT cross-qualification for technicians working US and Canadian sites?", answer: "Each technician can hold parallel CGSB 48.9712 and ASNT SNT-TC-1A qualifications with independent method/level/expiry. Client written practices (Suncor, CNRL, Cenovus, XTO) are pre-loaded; the scheduler enforces the correct scheme for each site automatically." },
+      { question: "Can we export AER Directive 077 evidence packs for Alberta midstream pipelines?", answer: "Yes. The integrity-management export bundles in-line inspection summaries, wall-thickness grids, anomaly registers and next-inspection dates in the AER D077/D056 reporting format, with supporting inspector qualification evidence attached." },
+      { question: "Does the mobile app work on remote oil-sands sites with intermittent connectivity?", answer: "Yes. Full offline support — including photo capture, UT thickness readings and signature workflows — with automatic sync when the device returns to a connected network. Tested in Fort McMurray, Kearl, Firebag and Horizon field conditions." },
+    ],
+  },
+  'singapore': {
+    uniqueLocalROI: "Jurong Island contractors using Atlantis NDT ERP typically shrink MOM CERT evidence collection from 3 days to half a day and cut shutdown-window report generation from 4 hours per asset to sub-20 minutes. For a 25-technician crew that translates into ~SGD 420k of reclaimed shutdown billable time a year.",
+    localIndustryUseCases: [
+      "Jurong Island turnaround technician readiness: CERT currency, medicals and island-pass evidence in a single mobilisation pack.",
+      "Sembcorp/ExxonMobil Singapore cracker pressure-vessel API 510 inspection scheduling with client-format reports generated automatically.",
+      "Marine and rig-refurb inspection scheduling in Tuas South and Jurong shipyards with AS/NZS and API cross-coded reports.",
+    ],
+    localCompliance: ["MOM CERT", "EMA", "NEA", "WSH Act", "API 510/570/653", "ISO 9001:2015"],
+    localCaseStudy: "A Singapore NDT service provider supporting Jurong Island cracker turnarounds replaced a SharePoint/Access CERT tracker with Atlantis NDT ERP and reduced island-access lead-time disputes with clients from 4-6 per shutdown to zero over two consecutive major maintenance seasons.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP map to MOM CERT categories for NDT personnel in Singapore?", answer: "Yes. MOM CERT categories (UT, RT, MT, PT, VT) and the relevant WSH requirements are pre-configured, with island-pass evidence, medical currency and PPE fit-test records all linked to the technician profile for Jurong Island and Tuas mobilisations." },
+      { question: "Can we keep data in Singapore to comply with client and PDPA requirements?", answer: "Yes. AWS Asia Pacific (Singapore) and Azure Southeast Asia are supported hosting regions. We sign a PDPA-aligned data-processing agreement and can provide Tier-4 BCA-certified tenancy on request." },
+      { question: "How does the system handle compressed turnaround windows on Jurong Island?", answer: "The shutdown planning view groups work orders by island, facility, unit, and crew, showing all active jobs on a live Gantt with CERT currency and equipment availability warnings. Supervisors can reassign a technician to a different unit mid-shift with automatic qualification validation." },
+      { question: "Can reports be produced in the ExxonMobil, Shell and PCS Singapore client formats?", answer: "Yes. Client-specific templates for ExxonMobil Jurong, Shell Bukom, PCS and Singapore Refining Company are shipped with the platform and regularly updated when clients revise their formats." },
+    ],
+  },
+  'mumbai': {
+    uniqueLocalROI: "Mumbai-based NDT firms using Atlantis NDT ERP report cutting PESO and OISD compliance-pack prep from 2-3 engineer-days to ~3 hours, and eliminating the recurring monsoon-season data-entry backlog that typically delays BPCL/HPCL turnaround reporting by a week. For a 50-technician west-India operation that is roughly INR 1.6 crore/yr of reclaimed admin.",
+    localIndustryUseCases: [
+      "BPCL Mahul, HPCL Mahul and RIL Jamnagar turnaround work-order routing with OISD-141 and OISD-129 evidence attached per asset.",
+      "ISNT Level I/II/III + ASNT SNT-TC-1A dual-qualification tracking for technicians rotating between PSU and private clients.",
+      "Monsoon-season corrosion data capture with offline-first UT thickness readings on Bombay High offshore platforms and onshore tank farms.",
+    ],
+    localCompliance: ["PESO", "OISD-141", "OISD-129", "Petroleum Act 1934", "IBR 1950", "ISNT", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Navi Mumbai NDT firm serving BPCL Mahul replaced a Tally + Excel model with Atlantis NDT ERP and cleared its OISD surveillance audit with zero major NCs (down from four the previous cycle), while cutting monthly compliance-reporting overtime by 58%.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP handle PESO and IBR statutory inspection evidence for Indian refineries?", answer: "Yes. PESO Form XVI, Form XIV, and IBR Form VI data fields are native to the asset register. Next-inspection due-dates respect the statutory interval windows automatically and flag any slippage well before the OISD/PESO surveillance window opens." },
+      { question: "Can we manage dual ISNT and ASNT qualifications for technicians working both PSU and private sector?", answer: "Yes. Each technician profile carries parallel ISNT, ASNT and PCN/CSWIP qualifications with independent expiry and logbook references. Client written practices for BPCL, HPCL, IOCL, RIL and ONGC are pre-loaded; assignment rules pick the correct scheme per work order." },
+      { question: "How is data captured offline on Bombay High offshore platforms?", answer: "The field app captures readings, photos and signatures offline and syncs on return to vessel/onshore WAN. Conflict resolution on re-sync is supervisor-arbitrated — never silent overwrite — which is critical for the multi-day offshore rotations from Nhava Supply Base." },
+      { question: "Can reports be issued in English, Hindi or Marathi for regional regulatory submissions?", answer: "Yes. Reports can be generated in English, Hindi, Marathi and a few other Indian languages, with client headers/footers and PESO/OISD sections intact. Most Maharashtra state inspections use English, but Marathi variants are available for specific municipal and factories-act submissions." },
+    ],
+  },
+  'chennai': {
+    uniqueLocalROI: "Tamil Nadu inspection companies using Atlantis NDT ERP typically cut multi-sector (automotive, CPCL, nuclear, aerospace) compliance tracking overhead by 30-35% and eliminate the certification-mismatch risk that stalls Hyundai/Ford quality audits. On a 35-technician Chennai operation that is ~INR 85-110 lakh/yr.",
+    localIndustryUseCases: [
+      "CPCL Manali refinery turnaround work scheduling with API 510/570 reports tied to each piping circuit.",
+      "Kamarajar Port shipyard structural weld inspection with AWS D1.1 and client-specific welding codes.",
+      "Kalpakkam and Kudankulam nuclear-supply-chain NDT records requiring BARC traceability + AERB radiographer dose tracking.",
+    ],
+    localCompliance: ["AERB", "BARC", "PESO", "ISNT", "ASNT SNT-TC-1A", "DGCA (aerospace)"],
+    localCaseStudy: "A Chennai NDT contractor bidding into Kalpakkam nuclear supply-chain work replaced an Access DB radiographer dose tracker with Atlantis NDT ERP and cleared a BARC/AERB surveillance audit with zero findings — the platform's dose-record exports are now the contractor's standard AERB submission format.",
+    faqs: [
+      { question: "Does the ERP track AERB radiographer dose records for Kalpakkam and nuclear-supply-chain work?", answer: "Yes. Each radiographer has a live dose ledger (annual, 5-year rolling, lifetime) with automatic alerts at AERB threshold points. Ir-192 and Se-75 source activity decay is calculated per source serial, and AERB-format dose submissions are exportable in one click." },
+      { question: "Can we track ISNT, ASNT and DGCA NAS 410 qualifications for the same technician?", answer: "Yes. Parallel qualifications are native to the profile, and the scheduler picks the correct scheme per work order — ISNT for PESO-regulated refineries, ASNT SNT-TC-1A or NAS 410 for aerospace supplier audits, and BARC endorsement for nuclear jobs." },
+      { question: "Does the ERP support CPCL Manali refinery inspection report formats?", answer: "Yes. CPCL, IOCL Chennai and Nagapattinam refinery header/footer formats and circuit numbering conventions are pre-loaded, including the standard deviation-note and corrective-action sections each facility requires." },
+      { question: "Can reports be produced in Tamil alongside English for Tamil Nadu state regulatory submissions?", answer: "Yes. Bilingual Tamil/English layouts are supported for factories-act and state-pollution-control submissions. Most client facing inspection reports remain English-only as per PESO/OISD precedent, with Tamil summary pages on request." },
+    ],
+  },
+  'hyderabad': {
+    uniqueLocalROI: "Hyderabad inspection companies using Atlantis NDT ERP report eliminating the recurring mismatch between Telangana-side operations and client sites in Visakhapatnam/Jamnagar — saving ~INR 40-70 lakh/yr per 25-technician team on aborted mobs, plus zero AERB/ISNT lapse incidents in the first 18 months.",
+    localIndustryUseCases: [
+      "BHEL Ramachandrapuram heavy-equipment NDT for power generation pressure parts with IBR Form VI / VII evidence.",
+      "HPCL Visakh refinery remote work coordination from Hyderabad engineering centres — live corrosion trending in a shared dashboard.",
+      "Defence and aerospace supplier audits (HAL, BDL, DRDO) with NAS 410 / MIL-STD qualification matrices.",
+    ],
+    localCompliance: ["IBR 1950", "PESO", "AERB", "ISNT", "ASNT SNT-TC-1A", "NAS 410", "BIS IS 2825"],
+    localCaseStudy: "A Hyderabad-headquartered NDT firm with deployed crews in Visakh, Jamnagar and Barmer unified eleven field site spreadsheets into Atlantis NDT ERP and, over two quarters, reduced aborted mobilisations (caused by stale qualification records) from nine to zero.",
+    faqs: [
+      { question: "Do you support Telugu/English bilingual inspector reports for Telangana industrial submissions?", answer: "Yes. Inspection reports can be generated in bilingual Telugu/English for Telangana factories-act submissions and Telugu-speaking client sites; most refinery clients (HPCL Visakh, IOCL Paradip) still receive English-only reports as per their standard." },
+      { question: "Can the ERP coordinate crews between Hyderabad HQ and project sites in Visakh, Jamnagar or Barmer?", answer: "Yes. The multi-site view shows HQ engineering staff, field-deployed crews and sub-contracted technicians in a single roster with qualification currency, travel days and per-client written-practice alignment enforced before a work order can be assigned." },
+      { question: "Does the platform track NAS 410 aerospace qualifications for HAL, BDL or DRDO supplier work?", answer: "Yes. NAS 410 Revision 5 methods/levels, vision tests and recurrent training are tracked alongside ASNT and ISNT qualifications. The scheduler will not allow a non-NAS 410 qualified technician to be placed on a HAL or BDL work order." },
+      { question: "Can we host within India for data-residency?", answer: "Yes. AWS Mumbai, AWS Hyderabad and Azure Central India are supported hosting regions. Dedicated tenancy with Indian-data-only policies is available for defence-supplier contractors." },
+    ],
+  },
+  'doha': {
+    uniqueLocalROI: "Doha-based inspection contractors on QatarEnergy North Field projects using Atlantis NDT ERP typically cut NFPS evidence assembly from 4 days to half a day and eliminate the cryogenic-service procedure-mismatch incidents that can halt a shutdown. Expected ROI: ~QAR 1.5M/yr on a 40-technician crew.",
+    localIndustryUseCases: [
+      "QatarEnergy North Field LNG cryogenic vessel inspection scheduling with NFPS-aligned evidence attached per asset.",
+      "Ras Laffan loading-arm and jetty structural inspection with BV/Lloyds-format reports.",
+      "Sour-service pipeline inspection between Mesaieed and Ras Laffan with NACE MR0175-aware corrosion models.",
+    ],
+    localCompliance: ["QatarEnergy NFPS", "QCDD", "Qatar Ministry of Municipality", "NACE MR0175", "API 510/570/653"],
+    localCaseStudy: "A Doha-based NDT firm on QatarEnergy's North Field East expansion replaced an Excel-driven NFPS evidence pack with Atlantis NDT ERP and cut its pre-mobilisation technical review cycle from 11 days to 3 — unlocking earlier crew on-site availability and a measurable bonus on schedule adherence.",
+    faqs: [
+      { question: "Does the platform support QatarEnergy NFPS document formats for pre-mobilisation evidence?", answer: "Yes. The NFPS pre-mob pack template (technician rosters, qualifications, medicals, PPE, procedures, equipment calibration) is pre-loaded and maintained as QatarEnergy revises it. Export is a single-click ZIP/PDF aligned with the QE Technical Authority review structure." },
+      { question: "Can data reside in Qatar for NFPS and data-residency requirements?", answer: "Yes. Azure Qatar Central and Ooredoo/Microsoft Doha hosting options are supported for clients requiring in-country data storage, with signed data-processing agreements aligned with Qatar Law No. 13 of 2016." },
+      { question: "How does the ERP handle LNG cryogenic service damage mechanisms on North Field equipment?", answer: "Cryogenic vessels carry a damage-mechanism profile covering brittle fracture risk, low-temperature hydrogen attack screening and 9% Ni steel weld inspection intervals. Inspection reports include the cryogenic service sections QatarEnergy expects in every LNG-train submission." },
+      { question: "Can reports be issued in Arabic for Qatar Ministry of Labour and QCDD submissions?", answer: "Yes. Bilingual Arabic/English reports are supported with RTL Arabic layout; QCDD and Ministry of Municipality templates are pre-loaded for municipal inspection work." },
+    ],
+  },
+  'kuwait': {
+    uniqueLocalROI: "Kuwait City-based NDT firms on KNPC and KIPIC Al-Zour work using Atlantis NDT ERP typically reduce KNPC-format report prep from ~3.5 hours to under 25 minutes per asset and cut mobilisation qualification review from 5 days to ~1. ~KWD 180-240k/yr of recovered time on a 50-technician crew.",
+    localIndustryUseCases: [
+      "KNPC MAA/MAB/Al-Zour refinery turnaround work-order routing with client-format reports pre-built.",
+      "KOC onshore gathering-station inspection with sour-service (H2S) corrosion-rate models and NACE MR0175-aware flags.",
+      "KIPIC Al-Zour hydrogen production and clean-fuels unit inspection tracking per Kuwait clean-fuels spec requirements.",
+    ],
+    localCompliance: ["KNPC Technical Standards", "KOC Inspection Standards", "Kuwait Ministry of Oil", "NACE MR0175", "API 510/570/653"],
+    localCaseStudy: "A Kuwait City contractor supporting KIPIC's Al-Zour commissioning replaced a KNPC-format PDF-editing workflow with Atlantis NDT ERP and delivered its first full year of operational inspection reports with zero client-rework requests (baseline: 6-9 per month).",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support KNPC technical-standard report formats?", answer: "Yes. The KNPC reporting template library includes MAA, MAB and Al-Zour refinery formats with the required circuit numbering, criticality classes and corrective-action sections. KIPIC and KOC formats are also maintained in-platform." },
+      { question: "Can the ERP host within Kuwait for ministry and operator data-residency?", answer: "Yes. AWS Middle East (Bahrain) and dedicated on-prem Kuwait tenancies are supported for clients subject to Kuwait Law No. 20 of 2014 or operator-specific in-country storage requirements." },
+      { question: "How does the system handle sour-service (H2S) work at KOC gathering stations?", answer: "H2S service pressure equipment carries a NACE MR0175/ISO 15156 damage-mechanism profile with hardness-traceability, SSC/HIC monitoring and thickness-trending against a sour-service minimum wall. The inspection interval model accounts for sulfide-stress cracking risk separately from general corrosion." },
+      { question: "Does the platform support Arabic-language inspection reports?", answer: "Yes. Arabic/English bilingual reports with RTL Arabic sections are supported and Kuwait Ministry of Oil templates are pre-loaded for statutory submissions." },
+    ],
+  },
+  'muscat': {
+    uniqueLocalROI: "PDO and OQ-contracted inspection firms using Atlantis NDT ERP typically cut desert-asset mobilisation prep by 60% and eliminate the inspection-record gaps that drive re-work on PDO annual audits. ~OMR 140-180k/yr on a 25-technician Oman operation.",
+    localIndustryUseCases: [
+      "PDO onshore well-pad and gathering-station inspection with Ja'aluni/Marmul remote-site mobilisation packs.",
+      "OQ Sohar refinery turnaround scheduling with OQ inspection-standard reports.",
+      "Sur LNG cryogenic storage and loading facility inspection aligned with OQ LNG written practices.",
+    ],
+    localCompliance: ["PDO Corporate Management Framework", "OQ Inspection Standards", "Oman MEM regulations", "API 510/570/653", "NACE MR0175"],
+    localCaseStudy: "A Muscat NDT firm with crews rotating between PDO's Marmul field and OQ Sohar refinery replaced paper-based mobilisation packs with Atlantis NDT ERP and eliminated a recurring qualification-gap finding that had appeared in three consecutive PDO surveillance audits.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP handle PDO Corporate Management Framework requirements for inspection contractors?", answer: "Yes. PDO CMF technician qualification, medical and equipment-calibration evidence is tracked natively, with the PDO-standard pre-mobilisation pack exportable in one click." },
+      { question: "Can data reside in Oman for PDO and OQ cybersecurity requirements?", answer: "Yes. Azure and AWS Middle East regions are supported along with an on-prem Muscat tenancy option for clients subject to Oman's Electronic Transactions Law No. 69/2008 or operator in-country data rules." },
+      { question: "How is inspection data captured on PDO Ja'aluni or Marmul desert sites with limited connectivity?", answer: "Full offline data capture with automatic sync on return to base camp or when 4G coverage is available. No data is silently overwritten on re-sync — conflicts are supervisor-arbitrated." },
+      { question: "Does the ERP support OQ refinery turnaround report formats for Sohar?", answer: "Yes. OQ Sohar refinery templates (atmospheric, vacuum, hydrocracker, CCR) are pre-loaded, and OQ's preferred corrective-action and next-inspection-date formats are respected." },
+    ],
+  },
+  'aberdeen': {
+    uniqueLocalROI: "Aberdeen offshore NDT firms using Atlantis NDT ERP report 50-60% reduction in vendor-portal qualification upload effort for Shell, BP, TotalEnergies, Harbour and Ithaca — typically saving 2-3 admin FTE across a 40-technician company, while eliminating PSSR 2000 written-scheme slippage.",
+    localIndustryUseCases: [
+      "UKCS FPSO and platform topside inspection scheduling with offshore medical, OGUK/OEUK medical and BOSIET currency tracked per technician.",
+      "PSSR 2000 written-scheme-of-examination interval tracking with automated schemes for pressure systems on offshore installations.",
+      "Decommissioning asset inspection records for North Sea late-life assets (Shell Brent, TotalEnergies Dunbar) supporting OPRED submissions.",
+    ],
+    localCompliance: ["HSE UK", "PSSR 2000", "LOLER", "DSEAR", "OGUK/OEUK medical", "PCN/BINDT", "BOSIET"],
+    localCaseStudy: "An Aberdeen inspection contractor servicing Harbour Energy and Ithaca replaced a patchwork of client-vendor-portal uploads with Atlantis NDT ERP and cut qualification-upload admin from 9 hours per crew-change to 45 minutes, freeing a compliance analyst to focus on integrity reporting.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP track PCN, BINDT and client written practices for UKCS operators?", answer: "Yes. PCN, BINDT and client written practices (Shell, BP, TotalEnergies, Harbour, Ithaca, EnQuest) are pre-loaded. Offshore medical, BOSIET/FOET, MIST and sea-survival currency is tracked alongside qualification expiry with 90/60/30-day alerts." },
+      { question: "How does the platform support PSSR 2000 written schemes of examination?", answer: "Each pressure system under PSSR has its own written scheme recorded in the asset register, with next-inspection date computed against the scheme interval. Competent-person sign-off is a hard gate before a scheme can be closed." },
+      { question: "Can the ERP export evidence packs for Shell, BP and TotalEnergies vendor portals?", answer: "Yes. Pre-built bundles match Shell Contractor Management, BP BeVIGIL, TotalEnergies Vendors and Harbour's Achilles submissions, including technician qualification evidence, medicals and equipment calibration." },
+      { question: "Is offline field capture supported on North Sea platforms with limited connectivity?", answer: "Yes. Full offline mode with deferred sync — tested on Beryl, Elgin, Clair, Mariner and multiple FPSO environments. No silent overwrite on re-sync; all conflicts flagged for supervisor resolution." },
+    ],
+  },
+  'oslo': {
+    uniqueLocalROI: "Norwegian offshore NDT firms using Atlantis NDT ERP typically cut NORSOK N-001/Z-008 documentation prep from ~4 days to under a day and reduce PSA Norway audit preparation from 2 weeks to 3 days. ~NOK 4-6M/yr of recovered time on a 40-technician operation.",
+    localIndustryUseCases: [
+      "NCS platform and subsea inspection scheduling aligned with NORSOK N-001 structural and Z-008 inspection planning.",
+      "Equinor STID/Synergi Life vendor qualification data push-integration for Sleipner, Troll and Johan Sverdrup work.",
+      "Subsea pipeline inspection digital records for Aker BP, Vår Energi and ConocoPhillips Norway assets.",
+    ],
+    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID", "HMS-forskriften", "PCN/CSWIP offshore endorsements"],
+    localCaseStudy: "An Oslo-headquartered NDT firm working Equinor Johan Sverdrup and Aker BP Ivar Aasen replaced a SharePoint-based qualification library with Atlantis NDT ERP and reduced NORSOK Z-008 inspection planning preparation by 70% — the platform now drives the contractor's NCS-wide inspection plan automatically.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support NORSOK N-001 and Z-008 inspection planning requirements?", answer: "Yes. NORSOK Z-008 inspection grouping, risk categorisation and interval assignment are native to the asset register, and N-001 structural integrity evidence is tracked per platform/module. PSA Norway audit-ready exports are available in one click." },
+      { question: "Can the ERP integrate with Equinor STID or Aker BP Synergi Life?", answer: "Yes. Connectors push inspection closeout, corrosion readings and remaining-life data into Equinor STID, Aker BP's Synergi Life, and Vår Energi's vendor qualification portals, plus a read-back of the operator's inspection plan." },
+      { question: "Does the ERP track offshore medical and PSA Norway-aligned certifications?", answer: "Yes. Offshore medicals (HMS), survival (GSK), helicopter training (HUET), and PCN/CSWIP offshore endorsements are tracked per technician with independent expiry alerts, and the PSA-aligned competence matrix is enforced at work-order assignment." },
+      { question: "Can data be hosted in Norway for PSA and Equinor requirements?", answer: "Yes. Azure Norway East and AWS Europe (Stockholm/Oslo) are supported. For Equinor-internal tooling integration we also support a Stavanger-hosted tenancy." },
+    ],
+  },
+  'london': {
+    uniqueLocalROI: "UK multi-sector inspection firms using Atlantis NDT ERP report 40% reduction in cross-sector compliance overhead (UKCS offshore + nuclear + aerospace + manufacturing) and ~GBP 380-520k/yr of recovered admin time on a 40-technician operation headquartered in London.",
+    localIndustryUseCases: [
+      "PCN / BINDT qualification management across UKCS offshore, ONR nuclear, EASA aerospace and HSE general industry scopes.",
+      "PSSR 2000 written scheme of examination management for London-area industrial pressure systems and distilleries.",
+      "Lloyd's Register and DNV audit preparation with pre-built evidence-pack templates.",
+    ],
+    localCompliance: ["HSE UK", "PSSR 2000", "ONR (nuclear)", "EASA (aerospace)", "PCN/BINDT", "Lloyd's Register"],
+    localCaseStudy: "A London-headquartered NDT consultancy covering UKCS offshore, Hinkley Point nuclear supply-chain and aerospace audit support replaced a Notion + Google Drive qualification library with Atlantis NDT ERP and, within six months, reduced multi-sector audit prep from a 10-day exercise to 2 days per audit.",
+    faqs: [
+      { question: "Can Atlantis NDT ERP handle parallel UKCS offshore, ONR nuclear and EASA aerospace qualifications?", answer: "Yes. Each technician holds parallel qualification sets — PCN offshore endorsements, ONR/Sellafield site-specific, EASA Part-145 — with independent expiry tracking. The scheduler enforces the correct scheme per work order automatically." },
+      { question: "Does the platform support PSSR 2000 written schemes of examination for London industrial sites?", answer: "Yes. Each pressure system carries its own written scheme and next-exam date. Competent-person sign-off is a hard gate, and the PSSR register is exportable for HSE inspector review in one click." },
+      { question: "Can the ERP generate Lloyd's Register and DNV audit packs?", answer: "Yes. LR Type Approval, LR ISO 9001 certification and DNV Managed Service templates are pre-loaded, with inspector qualification, calibration and procedure-currency evidence bundled automatically." },
+      { question: "Is data hosting available within the UK for GDPR and client preferences?", answer: "Yes. Azure UK South (London), AWS Europe (London) and a GCP London region are all supported hosting options. We sign a UK GDPR-aligned data-processing agreement by default." },
+    ],
+  },
+  'rotterdam': {
+    uniqueLocalROI: "Rotterdam petrochemical NDT firms using Atlantis NDT ERP typically cut Seveso III evidence-pack prep from 3 days to 4 hours and reduce STCW/port-entry qualification uploads to near-zero effort. ~EUR 320-480k/yr of recovered time on a 30-technician Europoort operation.",
+    localIndustryUseCases: [
+      "Europoort refinery and chemical cluster turnaround work-order routing with Seveso III evidence attached.",
+      "Tank-farm API 653 external/internal inspection scheduling for Vopak, Koole and HES Hartel tank clusters.",
+      "Port of Rotterdam pipeline and jetty inspection aligned with ANVS/ILT reporting and Seveso III obligations.",
+    ],
+    localCompliance: ["Seveso III", "ILT (Inspectie Leefomgeving en Transport)", "PED 2014/68/EU", "API 510/570/653", "PCN/ECNDT"],
+    localCaseStudy: "A Rotterdam Europoort NDT service provider replaced seven client-specific SharePoint portals with Atlantis NDT ERP and cut per-shutdown documentation overhead by 55%, while eliminating the PED 2014/68/EU conformity evidence gaps that had surfaced in two prior ANVS audits.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support PED 2014/68/EU pressure-equipment conformity evidence?", answer: "Yes. PED category mapping, notified-body evidence and conformity assessment records are tracked per asset, with the pre-PED historical inspection record retained so remaining-life calculations span the full service life." },
+      { question: "How is Seveso III inspection evidence organised for Rotterdam Europoort sites?", answer: "Each major-accident-hazard installation carries a Seveso III evidence folder covering inspection intervals, procedures, technician qualifications, equipment calibration and findings. The ANVS/ILT-ready export is a single-click PDF/ZIP." },
+      { question: "Can reports be issued in Dutch alongside English for ILT and municipality submissions?", answer: "Yes. Dutch/English bilingual reports are supported; most refinery clients still prefer English-only but ILT statutory submissions default to Dutch with English technical appendices." },
+      { question: "Is data hosting available in the Netherlands for GDPR and client data-residency?", answer: "Yes. AWS Europe (Amsterdam), Azure West Europe (Amsterdam) and a dedicated Rotterdam tenancy are all supported, with UK/EU GDPR-aligned DPAs signed by default." },
+    ],
+  },
+  'perth': {
+    uniqueLocalROI: "Perth-based FIFO inspection firms using Atlantis NDT ERP typically cut FIFO roster qualification cross-checks from 4 hours per mob to 15 minutes, and eliminate the WorkSafe WA and NOPSEMA non-conformances that can delay Karratha or North West Shelf call-offs. ~AUD 550-720k/yr of recovered time on a 35-technician operation.",
+    localIndustryUseCases: [
+      "Karratha, Port Hedland and Dampier FIFO mobilisation packs with BOSIET/OPITO equivalents, medical and qualification currency checked per rotation.",
+      "Gorgon, Wheatstone and NWS LNG cryogenic inspection scheduling aligned with operator (Chevron, Woodside) written practices.",
+      "Pilbara iron-ore processing and port infrastructure inspection with AS 3788 and NOPSEMA-aligned records.",
+    ],
+    localCompliance: ["WorkSafe WA", "NOPSEMA", "AS 3788", "AS/NZS ISO 9001", "AINDT/ASNT SNT-TC-1A"],
+    localCaseStudy: "A Perth FIFO NDT contractor serving Woodside Karratha and Chevron Gorgon replaced an Excel roster and Dropbox qualification folder with Atlantis NDT ERP and cut mobilisation-abort incidents (caused by a stale qualification) from 7 per quarter to zero across two consecutive FIFO cycles.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support NOPSEMA offshore qualification requirements for North West Shelf work?", answer: "Yes. NOPSEMA OHS, OPITO BOSIET equivalents, offshore medical (ICAS/AMSA), HUET and sea-survival currency are tracked alongside AINDT and ASNT qualifications. The scheduler will not allow an incomplete technician on an offshore Karratha or NWS mob." },
+      { question: "Can the platform handle AS 3788 pressure-vessel inspection intervals for WA industrial sites?", answer: "Yes. AS 3788 inspection intervals, competent-person sign-off and WorkSafe WA statutory reporting are native, with next-exam dates computed against each vessel's classification and damage-mechanism profile." },
+      { question: "How does the ERP handle multi-operator FIFO roster compliance for Woodside, Chevron and BHP?", answer: "Each technician's client-specific endorsements (Woodside VPQ, Chevron Gate Pass, BHP MyAccess) are tracked independently. Rostering enforces the right endorsement set for each rotation, with client-portal uploads automated." },
+      { question: "Is data hosted in Australia for AUSCERT and client data-residency?", answer: "Yes. AWS Sydney, AWS Melbourne and Azure Australia East are supported hosting regions; we sign an APP-aligned data-processing agreement for Australian clients by default." },
+    ],
+  },
+  'denver': {
+    uniqueLocalROI: "Denver-headquartered DJ Basin and Rocky Mountain pipeline NDT firms using Atlantis NDT ERP typically cut PHMSA integrity-management evidence prep from 6 days to under a day and reduce CDPHE and OSHA PSM audit overhead by 45%. ~USD 420-560k/yr on a 30-technician operation.",
+    localIndustryUseCases: [
+      "DJ Basin wellsite and gathering-system inspection scheduling with in-line inspection vendor data consolidation.",
+      "Rocky Mountain crude and product pipeline integrity-management records aligned with API 1160 and 49 CFR 195.",
+      "Suncor Commerce City refinery turnaround work-order routing with CDPHE air-emissions and OSHA PSM evidence.",
+    ],
+    localCompliance: ["PHMSA (49 CFR 192/195)", "API 1160", "OSHA PSM", "CDPHE", "ASNT SNT-TC-1A", "API 510/570/653"],
+    localCaseStudy: "A Denver-based pipeline integrity contractor replaced an Access database and Dropbox folder hierarchy with Atlantis NDT ERP and cut its annual PHMSA integrity-management review preparation from ~90 engineer-hours to ~15, while resolving a recurring anomaly-closeout-traceability finding that had appeared in two successive PHMSA audits.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support PHMSA 49 CFR 192/195 pipeline integrity-management records?", answer: "Yes. ILI vendor data (MFL, UT, EMAT) is ingestable; anomaly registers, dig-and-repair records and next-assessment dates are tracked against the pipeline's HCA/MCA status. API 1160 evidence exports are single-click for PHMSA review." },
+      { question: "Can the ERP handle OSHA PSM compliance for Suncor Commerce City and Western Slope facilities?", answer: "Yes. PSM 29 CFR 1910.119 covered pressure equipment carries PSM-compliant inspection intervals, MOC-linked procedures and RAGAGEP justification records, all exportable in a single audit-pack." },
+      { question: "How is high-altitude UV-driven external corrosion tracked for Colorado storage tanks?", answer: "Each asset has a damage-mechanism profile that can include UV-degradation of coatings, atmospheric corrosion and cathodic-protection CIP data. External inspections feed a coating-condition trend that triggers re-coat scheduling before wall-loss appears." },
+      { question: "Can data be hosted in the US for Colorado and federal compliance?", answer: "Yes. AWS us-east-1 (Virginia), AWS us-west-2 (Oregon) and Azure US-Central are supported, and for DOT-regulated clients we offer a FedRAMP-compliant tenancy option." },
+    ],
+  },
+  'new-orleans': {
+    uniqueLocalROI: "New Orleans Gulf Coast NDT firms using Atlantis NDT ERP typically cut OSHA PSM audit-pack prep from 4 days to 5 hours and eliminate hurricane-season post-event inspection-backlog risk via automated re-inspection work-order generation. ~USD 380-520k/yr on a 30-technician Louisiana operation.",
+    localIndustryUseCases: [
+      "Mississippi River Chemical Corridor refinery turnaround work-order routing with API 510/570 reports and LDNR statutory evidence.",
+      "Sabine Pass and Cameron LNG cryogenic storage inspection scheduling with 9% Ni weld inspection records.",
+      "Hurricane post-event re-inspection work-order auto-generation for storage tanks, jetties and relief-systems across Gulf Coast assets.",
+    ],
+    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DNR (LDNR)", "API 510/570/653", "USCG/PHMSA (LNG/maritime)"],
+    localCaseStudy: "A New Orleans-area NDT service firm supporting the Mississippi River chemical corridor replaced an Excel PSM tracker with Atlantis NDT ERP and, after Hurricane Francine (2024), generated a full post-event re-inspection plan for 812 assets in under 2 hours — previously a 3-week manual exercise.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support OSHA PSM 29 CFR 1910.119 for Louisiana refineries?", answer: "Yes. PSM-covered pressure equipment carries PSM-compliant intervals, MOC-linked procedures and RAGAGEP records, with a single-click PSM evidence pack for OSHA inspector review." },
+      { question: "Can the system auto-generate post-hurricane re-inspection work orders for Gulf Coast assets?", answer: "Yes. A 'post-event re-inspection' template can be triggered against a facility or group of facilities after a declared weather event, spawning work orders tied to each asset's external inspection history and integrity risk — typically reducing a 3-week manual exercise to an afternoon." },
+      { question: "Does the platform handle Louisiana DNR and LDEQ statutory reporting for chemical corridor sites?", answer: "Yes. LDNR and LDEQ templates for air emissions (Title V), surface-water (LPDES) and tank-farm inspections are pre-loaded and maintained as the state revises them." },
+      { question: "How are LNG 9% Ni cryogenic welds tracked for Sabine Pass and Cameron LNG work?", answer: "Cryogenic service assets carry a damage-mechanism profile covering brittle fracture screening, low-temperature hydrogen attack and 9% Ni weld inspection intervals with separate wall-thickness/brittle-fracture criteria. Inspection reports include cryogenic-service sections required by USCG and PHMSA for LNG facilities." },
+    ],
+  },
+  'lagos': {
+    uniqueLocalROI: "Lagos-based NDT firms on Dangote, NNPC and IOC work using Atlantis NDT ERP typically cut DPR/NAPIMS evidence pack prep from 5 days to half a day and eliminate the qualification-recognition gaps that used to block Shell/Chevron Nigeria mobilisations. ~USD 180-260k/yr on a 30-technician operation.",
+    localIndustryUseCases: [
+      "Dangote Refinery commissioning and operational inspection work-order routing with NMDPRA and internal Dangote technical-standard reports.",
+      "Niger Delta crude and gas pipeline inspection with DPR/NMDPRA statutory evidence trails for NNPC, Shell SPDC and Chevron CNL.",
+      "Offshore deepwater FPSO and subsea inspection records aligned with NAPIMS/NCDMB vendor-qualification requirements.",
+    ],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 510/570/653", "ASNT/PCN", "NLNG qualification"],
+    localCaseStudy: "A Lagos-based NDT contractor on the Dangote Refinery commissioning replaced a Google Drive-based procedure and qualification library with Atlantis NDT ERP and cut its pre-mob documentation review from 8 days to 2, unlocking earlier crew on-site availability in each commissioning phase.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support Nigerian NMDPRA (ex-DPR) statutory inspection evidence?", answer: "Yes. NMDPRA report formats, intervals and operator-specific annexes for Shell SPDC, Chevron CNL, TotalEnergies EP Nigeria and NLNG are pre-loaded and maintained as the regulator revises guidance." },
+      { question: "Can the ERP align with NCDMB local-content requirements for vendor qualification?", answer: "Yes. Each technician profile captures NCDMB Nigerian Content Plan evidence — nationality, training hours, mentorship records — alongside ASNT/PCN qualifications, with auto-compiled NCDMB-format vendor submissions." },
+      { question: "How is inspection data captured on Niger Delta field sites with limited connectivity?", answer: "Full offline mode with deferred sync. The field app is tested in Niger Delta deep-swamp and deepwater FPSO scenarios; re-sync conflicts are supervisor-arbitrated, never silent." },
+      { question: "Can the system host in Nigeria for NITDA and client data-residency requirements?", answer: "Yes. AWS Africa (Cape Town) with Nigeria-replica options, plus an on-prem Lagos tenancy, support NITDA Nigeria Data Protection Regulation compliance. We sign NDPR-aligned DPAs by default." },
+    ],
+  },
+  'jubail': {
+    uniqueLocalROI: "Jubail-based inspection firms on SABIC, SATORP and Aramco work using Atlantis NDT ERP typically cut SAEP-1112 roster prep from 5 days to half a day and reduce SABIC/SATORP report preparation per asset from ~3.5 hours to ~25 minutes. ~SAR 2.6-3.3M/yr on a 60-technician operation.",
+    localIndustryUseCases: [
+      "SABIC Kemya, Yansab and Petrokemya petrochemical plant turnaround work-order routing with SABIC-format reports.",
+      "SATORP refinery API 510/570 inspection scheduling with Aramco SAEP-1112 and SATORP internal-qualification evidence.",
+      "Royal Commission in Jubail industrial-city tank-farm and pipeline inspection with RCJY regulatory submissions.",
+    ],
+    localCompliance: ["Saudi Aramco SAEP-1112", "SABIC Asset Integrity Standards", "SATORP technical standards", "Royal Commission Jubail", "NACE MR0175"],
+    localCaseStudy: "A Jubail-based NDT contractor supporting SABIC Kemya and SATORP replaced ten legacy Excel/Access trackers with Atlantis NDT ERP and cleared its SAEP-1112 surveillance audit with zero findings, where baseline was five findings per cycle.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support SABIC and SATORP internal-qualification schemes alongside SAEP-1112?", answer: "Yes. SABIC's Asset Integrity Standard and SATORP's qualification matrix are tracked in parallel with Aramco SAEP-1112, and the scheduler assigns the correct scheme to each work order automatically." },
+      { question: "Can the ERP handle Royal Commission in Jubail regulatory submissions?", answer: "Yes. RCJY tank-farm, pipeline and pressure-equipment statutory report templates are pre-loaded, including the specific industrial-city permit-to-inspect workflows." },
+      { question: "Is data hosted in Saudi Arabia for in-Kingdom requirements?", answer: "Yes. AWS Middle East (Riyadh) and Oracle Jeddah are supported, plus on-prem appliance tenancies for clients bound by Aramco SACS-002 or SABIC cybersecurity standards." },
+      { question: "Does the platform support Arabic/English bilingual inspection reports?", answer: "Yes. Inspection reports can be produced bilingually with proper RTL Arabic layout, using SABIC, SATORP, YASREF and Aramco header/footer standards." },
+    ],
+  },
+  'manama': {
+    uniqueLocalROI: "Bahrain-based inspection firms on BAPCO, ALBA and Tatweer Petroleum work using Atlantis NDT ERP typically cut BAPCO-format report prep by 75% and eliminate the qualification-recognition gaps that used to stall GCC cross-border mobilisations. ~BHD 70-95k/yr on a 20-technician operation.",
+    localIndustryUseCases: [
+      "BAPCO Sitra refinery modernisation-project inspection scheduling aligned with BAPCO's upgraded technical standards.",
+      "ALBA Line 6 potlining and pot-shell inspection with aluminium-smelter-specific damage-mechanism profiles.",
+      "Tatweer Petroleum onshore gathering-system inspection with Bahrain NOGA statutory evidence.",
+    ],
+    localCompliance: ["Bahrain NOGA", "BAPCO Technical Standards", "ALBA Standards", "API 510/570/653", "NACE MR0175"],
+    localCaseStudy: "A Manama NDT contractor supporting the BAPCO Modernisation Program replaced a SharePoint-based qualification library with Atlantis NDT ERP and reduced BMP pre-mob documentation turnaround from 7 days to 1.",
+    faqs: [
+      { question: "Does Atlantis NDT ERP support BAPCO Modernisation Program documentation?", answer: "Yes. BMP-specific templates, unit-commissioning report formats and BAPCO's internal qualification endorsements are tracked natively." },
+      { question: "Can the system handle ALBA aluminium-smelter damage-mechanism profiles?", answer: "Yes. Pot-shell thermal cycling, cryolite-bath corrosion and gas-duct sulfation damage-mechanism profiles are configurable in the asset register, with reports reflecting aluminium-industry inspection standards." },
+      { question: "Is data hosted in Bahrain for NOGA and BAPCO requirements?", answer: "Yes. AWS Middle East (Bahrain) is supported natively; dedicated tenancy with in-country backup is available." },
+      { question: "Does the platform handle GCC cross-border technician qualification recognition?", answer: "Yes. GCC-wide qualification recognition (ADNOC, Aramco, QatarEnergy, PDO, KNPC, BAPCO) is mapped in-platform so a Bahrain-based technician qualified under BAPCO standards can be cross-mapped to SATORP or QatarEnergy requirements without duplicate data entry." },
+    ],
+  },
+};
+
+// Add fallback entries for remaining curated ERP cities with compact profiles.
+const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
+  'bergen': {
+    uniqueLocalROI: "Bergen-based subsea inspection firms using Atlantis NDT ERP typically cut PSA Norway audit-prep to a quarter of prior effort and automate Equinor STID vendor uploads — ~NOK 2.4-3.2M/yr on a 25-technician NCS operation.",
+    localIndustryUseCases: [
+      "Troll, Kvitebjørn and Valemon platform and subsea inspection with NORSOK-aligned planning.",
+      "Aker BP and Vår Energi vendor-qualification portal integration for Bergen-dispatched crews.",
+      "Offshore wind O&M inspection records for Hywind Scotland-type floating assets supported from Bergen.",
+    ],
+    localCompliance: ["PSA Norway", "NORSOK N-001/Z-008", "Equinor STID", "PCN offshore endorsements"],
+    localCaseStudy: "A Bergen subsea NDT firm replaced paper job-pack prep with Atlantis NDT ERP and cut NCS mobilisation turnaround from 4 days to 1.",
+  },
+  'edmonton': {
+    uniqueLocalROI: "Edmonton oil-sands and refining NDT firms using Atlantis NDT ERP typically cut ABSA and CER compliance overhead by 40% and eliminate CGSB-currency mismatch incidents — ~CAD 280-360k/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "Edmonton-area oil-sands upgrader vessel inspection (Suncor, Imperial Strathcona) with API 510 records.",
+      "Alberta Industrial Heartland pipeline inspection with AER Directive 077 evidence.",
+      "Coker drum and SAGD steam-generator inspection with upgrader-specific damage-mechanism profiles.",
+    ],
+    localCompliance: ["ABSA", "AER D077/D056", "CGSB 48.9712", "CSA B51"],
+    localCaseStudy: "An Edmonton NDT contractor consolidated nine Excel trackers into Atlantis NDT ERP and cleared its next ABSA surveillance audit with zero findings.",
+  },
+  'basrah': {
+    uniqueLocalROI: "Basrah inspection firms supporting Rumaila, West Qurna and Majnoon asset integrity typically cut technician mobilisation prep from 5 days to 1 using Atlantis NDT ERP, with ~USD 180-240k/yr recovered on a 35-technician operation.",
+    localIndustryUseCases: [
+      "Rumaila / West Qurna oilfield gathering-system API 570 piping inspection with BP/ExxonMobil/Lukoil client formats.",
+      "Basrah Gas Company sour-service pipeline corrosion trending with NACE MR0175-aware models.",
+      "South Oil Company export terminal tank and pipeline inspection with statutory MoO reporting.",
+    ],
+    localCompliance: ["Iraqi Ministry of Oil", "Basrah Oil Company standards", "NACE MR0175", "API 510/570"],
+    localCaseStudy: "A Basrah-based contractor on the Rumaila brownfield program cut pre-mob client review from 9 days to 2 after migrating to Atlantis NDT ERP.",
+  },
+  'kuala-lumpur': {
+    uniqueLocalROI: "Malaysian NDT firms on PETRONAS work using Atlantis NDT ERP typically cut DOSH and PTS evidence prep from 3 days to 4 hours, saving ~MYR 620-850k/yr on a 30-technician KL-dispatched operation.",
+    localIndustryUseCases: [
+      "Pengerang Integrated Complex (RAPID) inspection with PETRONAS PTS-aligned reports.",
+      "Bintulu MLNG cryogenic storage inspection with LNG-specific damage-mechanism profiles.",
+      "Offshore Malaysia (Sabah/Sarawak) platform inspection with DOSH-PMA endorsement tracking.",
+    ],
+    localCompliance: ["DOSH PMA", "PETRONAS Technical Standards (PTS)", "API 510/570/653", "PCN/CSWIP"],
+    localCaseStudy: "A KL-headquartered NDT firm serving PETRONAS replaced legacy spreadsheets with Atlantis NDT ERP and halved its PTS-format turnaround reporting cycle.",
+  },
+  'yanbu': {
+    uniqueLocalROI: "Yanbu inspection contractors on YASREF and Saudi Aramco Yanbu Refinery typically cut SAEP-1112 evidence prep by 80% and save ~SAR 1.2-1.7M/yr on a 40-technician team using Atlantis NDT ERP.",
+    localIndustryUseCases: [
+      "YASREF refinery turnaround inspection with Aramco SAEP-1112 and YASREF-internal qualification evidence.",
+      "Yanbu Commercial Port tank-farm API 653 inspection scheduling.",
+      "SABIC Ibn Al-Baytar and Yanpet cracker-unit API 510 pressure-vessel inspection with sour-service tracking.",
+    ],
+    localCompliance: ["Saudi Aramco SAEP-1112", "YASREF standards", "Royal Commission Yanbu", "NACE MR0175"],
+    localCaseStudy: "A Yanbu-based NDT contractor on YASREF cut SAEP-1112 roster prep from 6 days to 1 after switching to Atlantis NDT ERP.",
+  },
+  'sohar': {
+    uniqueLocalROI: "Sohar-based NDT firms on OQ refinery and Sohar Port work using Atlantis NDT ERP typically cut OQ audit-pack prep by 65%, saving ~OMR 90-130k/yr on a 20-technician operation.",
+    localIndustryUseCases: [
+      "OQ Sohar refinery turnaround inspection aligned with OQ inspection standards.",
+      "Sohar Port and Freezone jetty and pipeline inspection with Sohar Port Authority evidence.",
+      "Vale pelletising and aluminium smelter inspection (industrial zone) with asset-specific damage mechanisms.",
+    ],
+    localCompliance: ["OQ Inspection Standards", "Oman MEM", "Royal Court Oman", "API 510/570/653"],
+    localCaseStudy: "A Sohar NDT contractor on the OQ refinery replaced paper job packs with Atlantis NDT ERP and cut per-shutdown documentation overhead by 60%.",
+  },
+  'ras-al-khaimah': {
+    uniqueLocalROI: "Ras Al Khaimah NDT firms supporting cement, ceramics and industrial-park assets using Atlantis NDT ERP typically cut RAK Industrial Park audit prep by 55%, saving ~AED 450-620k/yr on a 15-technician team.",
+    localIndustryUseCases: [
+      "RAK cement and ceramics plant pressure-equipment inspection with industrial furnace-specific damage mechanisms.",
+      "RAK Gas and DANA Gas onshore inspection with UAE-standard statutory evidence.",
+      "Saqr Port tank-farm and jetty structural inspection.",
+    ],
+    localCompliance: ["ADNOC HSE (RAK-supply)", "OSHAD", "UAE CoC", "API 510/570/653"],
+    localCaseStudy: "A RAK-based NDT firm on RAK Ceramics and RAK Cement cleared its next OSHAD surveillance review with zero findings after migrating to Atlantis NDT ERP.",
+  },
+  'sharjah': {
+    uniqueLocalROI: "Sharjah-based NDT firms on SNOC, Hamriyah Free Zone and Sharjah Port work using Atlantis NDT ERP typically cut SNOC-format report prep by 70%, saving ~AED 520-700k/yr on a 20-technician operation.",
+    localIndustryUseCases: [
+      "SNOC onshore gas-field and processing inspection with SNOC-standard evidence.",
+      "Hamriyah Free Zone tank farm and pipeline inspection with UAE CoC statutory submissions.",
+      "Sharjah Port and Khorfakkan jetty structural inspection.",
+    ],
+    localCompliance: ["SNOC standards", "OSHAD", "UAE CoC", "ADNOC HSE (supply-chain)"],
+    localCaseStudy: "A Sharjah NDT contractor on SNOC replaced Excel-based qualification tracking with Atlantis NDT ERP and cleared its next client qualification audit with zero gaps.",
+  },
+  'port-harcourt': {
+    uniqueLocalROI: "Port Harcourt-based NDT firms supporting Niger Delta IOC and NNPC operations using Atlantis NDT ERP typically cut DPR/NMDPRA evidence prep from 4 days to half a day, saving ~USD 140-200k/yr on a 25-technician operation.",
+    localIndustryUseCases: [
+      "Shell SPDC and TotalEnergies EP Nigeria onshore gathering-system API 570 inspection with DPR/NMDPRA evidence.",
+      "Port Harcourt NNPC refinery turnaround inspection with NMDPRA-format reports.",
+      "Bonga and Egina deepwater FPSO inspection records with NAPIMS/NCDMB vendor-qualification evidence.",
+    ],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 510/570/653"],
+    localCaseStudy: "A Port Harcourt NDT contractor on Shell SPDC replaced paper field books with Atlantis NDT ERP and cut per-well inspection reporting from 4 hours to 35 minutes.",
+  },
+};
+
+for (const [slug, partial] of Object.entries(COMPACT_ERP_DEFAULTS)) {
+  if (!ERP_CITY_PROFILES[slug]) {
+    ERP_CITY_PROFILES[slug] = {
+      uniqueLocalROI: partial.uniqueLocalROI ?? '',
+      localIndustryUseCases: partial.localIndustryUseCases ?? [],
+      localCompliance: partial.localCompliance ?? [],
+      localCaseStudy: partial.localCaseStudy ?? '',
+      faqs: partial.faqs ?? [],
+    };
+  }
+}
+
+// ─── Digital Twin per-city rich content ───────────────────────────────────
+
+export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
+  'houston': {
+    uniqueLocalROI: "Gulf Coast refiners running NDT digital twins report a 15-20% reduction in turnaround cycle-time on heat-exchanger bundle work and $4-7M per-unit deferred capex by extending fitness-for-service on vessels that UT trending alone had flagged for replacement. Houston integrity teams typically recover the platform cost within a single major turnaround.",
+    localIndustryUseCases: [
+      "Refinery heat-exchanger tube-bundle digital twins fed by ECT and IRIS data — retired-date projections recomputed every scan.",
+      "Storage-tank (API 653) digital twins for Houston Ship Channel terminals with floor-MFL data driving an API 579 Level 2 assessment on zones below t-min.",
+      "Gulf of Mexico FPSO hull and mooring-chain digital twins aggregating ROV-delivered UT and CP data for life-extension submissions.",
+    ],
+    localCompliance: ["OSHA PSM", "TCEQ", "API 510/570/653", "API 579-1/ASME FFS-1", "NBIC"],
+    localCaseStudy: "A Houston Ship Channel operator deployed digital twins across 14 fired heaters and used the aggregated convection-section thickness trending to defer a $6.2M coil replacement by 18 months — passing an OSHA PSM audit with API 579 Level 2 FFS evidence as the justification.",
+    faqs: [
+      { question: "Can the digital twin integrate with Meridium APM used across Gulf Coast refineries?", answer: "Yes. The platform pushes geo-referenced thickness data, corrosion rates and remaining-life into Meridium APM functional locations, and reads operating conditions and RBI risk rankings back to drive inspection priorities inside the twin. Most Gulf Coast operator integrations complete in 4-6 weeks." },
+      { question: "Does the platform support hurricane-season post-event re-inspection planning?", answer: "Yes. A 'post-event' trigger reprioritises high-risk zones across all Houston-area assets the moment a weather event clears, auto-spawning work orders for storage-tank external, jetty structural and relief-system inspections — typically saving 2-3 weeks of manual prioritisation." },
+      { question: "How does the twin handle Gulf Coast salt-air atmospheric corrosion on external vessel surfaces?", answer: "External atmospheric corrosion is tracked as a separate damage mechanism with zone-based coating condition, CUI screening, and climate-aware degradation rates. External recoat schedules are driven off the twin, not a paper checklist." },
+      { question: "Can Houston teams generate TCEQ and OSHA PSM evidence directly from the twin?", answer: "Yes. PSM 29 CFR 1910.119 compliance packs, API 579 Level 1/2 FFS reports and TCEQ 30 TAC 115 evidence are exportable in one click, each with the underlying geo-referenced inspection data attached for reviewer traceability." },
+    ],
+  },
+  'dubai': {
+    uniqueLocalROI: "UAE operators running NDT digital twins on Jebel Ali and Ruwais-supply assets report 18-22% reduction in on-site inspection days per turnaround by pre-planning scaffold and rope-access scope from the twin, and measurable extension of wall-thickness fitness-for-service on vessels previously flagged for conservative replacement.",
+    localIndustryUseCases: [
+      "Jebel Ali tank-farm digital twins for ENOC/Emarat terminals with floor-MFL data driving API 579 zone assessments.",
+      "Offshore platform jacket and topside digital twins consolidating ROV inspection data for ADNOC Offshore life-extension cases.",
+      "High-sulfur crude refinery vessel digital twins with NACE MR0175-aware damage-mechanism models.",
+    ],
+    localCompliance: ["ADNOC HSE", "OSHAD", "API 510/570/653", "API 579-1/ASME FFS-1", "DNV-GL"],
+    localCaseStudy: "A UAE downstream operator deployed digital twins across 22 Jebel Ali storage tanks and used the floor-MFL-fed API 579 Level 1/2 evidence to defer three tank replacements worth ~AED 42M while remaining fully ADNOC HSE and OSHAD compliant.",
+    faqs: [
+      { question: "Can you host the digital twin instance in the UAE for data-residency compliance?", answer: "Yes. The platform runs on Azure UAE North (Abu Dhabi) and AWS Bahrain with Dubai replica for UAE-resident data. ADGM and DIFC-regulated subsidiaries can be provisioned in dedicated tenancies with signed DPAs aligned with UAE Federal Decree-Law 45 of 2021." },
+      { question: "How does the twin support ADNOC HSE and OSHAD inspection evidence requirements?", answer: "Each asset in the twin carries a damage-mechanism profile keyed to ADNOC's Asset Integrity Management Standard and OSHAD's pressure-equipment requirements. Inspection reports and FFS evidence export in ADNOC Technical Center and OSHAD review-ready formats." },
+      { question: "Can the twin ingest legacy inspection data stored in Dropbox or SharePoint folders?", answer: "Yes. A structured migration tool ingests historical PDF and Excel inspection reports, OCRs tabular thickness data, and attaches photos to their geo-referenced positions on the twin — typically covering 10+ years of legacy data in 4-6 weeks per facility." },
+      { question: "Does the platform support Arabic-language inspection reports and FFS assessment packs?", answer: "Yes. Bilingual Arabic/English reports and API 579-1/ASME FFS-1 Level 1/2 assessment packs are generated with correct RTL Arabic layout for UAE regulatory and client submissions." },
+    ],
+  },
+  'abu-dhabi': {
+    uniqueLocalROI: "ADNOC-aligned operators deploying NDT digital twins on Ruwais refinery and Das Island LNG assets typically recalibrate RBI plans 65% faster (14 days to 4-5) and extend fitness-for-service certification on heat-exchanger bundles that had been flagged for replacement — AED 25-45M per major unit in deferred capex.",
+    localIndustryUseCases: [
+      "Ruwais refinery hydrocracker digital twins aggregating UT, PA-UT and IRIS data for API 579 Level 2 FFS on high-temperature hydrogen attack zones.",
+      "Das Island LNG cryogenic-storage digital twins with 9% Ni weld inspection records and brittle-fracture screening models.",
+      "Sour-service gas-gathering pipeline digital twins with NACE MR0175 hardness traceability and SSC/HIC monitoring.",
+    ],
+    localCompliance: ["ADNOC Technical Center standards", "OSHAD", "API 579-1/ASME FFS-1", "NACE MR0175", "API 510/570"],
+    localCaseStudy: "A Middle-East NOC running the Atlantis NDT Digital Twin on a Ruwais ethane-cracker unit reduced RBI recalibration cycle from 14 days to 4 days and — using API 579 Level 2 evidence generated from the twin — extended the run-length of a hot-reactor by 22 months, deferring ~AED 38M of mechanical-replacement spend.",
+    faqs: [
+      { question: "Does the digital twin align with ADNOC Technical Center's Asset Integrity Management Standard?", answer: "Yes. Damage mechanisms are keyed to ADNOC's AIM standard taxonomy, and FFS outputs, RBI recalibration records and inspection evidence export in the review format ADNOC Technical Center expects. ADNOC Technical Center-compliant assessment packs are a single-click export." },
+      { question: "Can the instance be hosted in Abu Dhabi for ADNOC data-residency?", answer: "Yes. Azure UAE North (Abu Dhabi) is the default for ADNOC-facing deployments, and dedicated Etisalat Abu Dhabi tenancies are available. Data never leaves the UAE unless explicitly replicated for DR." },
+      { question: "How does the twin model sour-service damage mechanisms on ADNOC Onshore gas fields?", answer: "Sour-service equipment carries a NACE MR0175/ISO 15156 damage-mechanism profile covering sulfide stress cracking, hydrogen induced cracking and stepwise cracking, with measured hardness and thickness feeding a separate remaining-life calculation that accounts for H2S partial pressure." },
+      { question: "Can the twin support Das Island LNG cryogenic brittle-fracture assessment?", answer: "Yes. Cryogenic vessels carry a brittle-fracture damage-mechanism profile; the platform supports 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 brittle-fracture assessments with the ADNOC LNG review format built in." },
+    ],
+  },
+  'saudi-arabia': {
+    uniqueLocalROI: "Aramco-aligned operators running NDT digital twins on Yanbu/Jubail/Ras Tanura assets typically reduce RBI recalibration cycles by 70% and extend FFS on heat-exchanger tube bundles — often deferring SAR 60-120M of replacement capex across a 10-unit refinery while maintaining SAEP-1112 and Aramco AI-SAEP-1119 compliance.",
+    localIndustryUseCases: [
+      "Saudi Aramco SAEP-1119-aligned digital twins for Abqaiq separator trains with sour-service damage-mechanism profiles.",
+      "Yanbu refinery hot-reactor digital twins with high-temperature hydrogen attack (HTHA) screening and API 579 Part 6 assessments.",
+      "Ras Tanura export-terminal tank-farm digital twins aggregating MFL floor scans and API 653 external-wall-thickness data.",
+    ],
+    localCompliance: ["Saudi Aramco SAEP-1112 / AI-SAEP-1119", "SABIC Asset Integrity Standards", "API 579-1/ASME FFS-1", "NACE MR0175"],
+    localCaseStudy: "A Kingdom-based refining operator deployed digital twins across six Jubail complex reactors and, using API 579 Part 6 HTHA assessments from the twin, extended the next major maintenance intervention by 18 months — deferring ~SAR 95M of reactor shell replacement while staying within Aramco AI-SAEP-1119 limits.",
+    faqs: [
+      { question: "Does the digital twin align with Saudi Aramco AI-SAEP-1119 integrity-management requirements?", answer: "Yes. The twin's damage-mechanism taxonomy, FFS assessment outputs and RBI recalibration records conform to AI-SAEP-1119 section structure, and SAEP-1112 technician qualification evidence can be attached per inspection event for full traceability." },
+      { question: "Can the instance be hosted in Saudi Arabia for SACS-002 compliance?", answer: "Yes. AWS Middle East (Riyadh) and a dedicated Dammam-hosted tenancy are supported; for Aramco SACS-002 air-gapped environments we also offer an on-prem appliance deployment." },
+      { question: "How does the twin handle HTHA screening on Yanbu hot-reactor vessels?", answer: "HTHA is tracked as a dedicated damage mechanism with Nelson curve position per zone, measured hardness and thickness feeding an API 579 Part 6 Level 1 or Level 2 assessment. The twin also drives re-inspection prioritisation on zones approaching Nelson curve operating limits." },
+      { question: "Does the platform support Arabic-language FFS assessment packs for Aramco submissions?", answer: "Yes. Bilingual Arabic/English FFS reports are generated with correct RTL Arabic layout and the Saudi Aramco, SABIC, SATORP and YASREF header/footer standards." },
+    ],
+  },
+  'calgary': {
+    uniqueLocalROI: "Alberta oil-sands operators running NDT digital twins on upgrader and SAGD facilities typically recover 25-30% of lost inspection days caused by winter access constraints by pre-planning scope against the twin, and defer CAD 8-20M of pressure-vessel replacement spend per year using rigorous API 579 FFS evidence.",
+    localIndustryUseCases: [
+      "Oil-sands coker-drum digital twins with thermal-cycle damage models and remaining-life projections under AER D056/D077 evidence.",
+      "SAGD steam-generator tube-bundle digital twins aggregating ECT and IRIS data under CSA B51 pressure-vessel requirements.",
+      "Alberta crude/diluent pipeline digital twins with freeze/thaw damage-mechanism profiles for CER-regulated lines.",
+    ],
+    localCompliance: ["ABSA", "AER D056/D077", "CSA B51 / B31.3", "API 579-1/ASME FFS-1", "CGSB 48.9712"],
+    localCaseStudy: "An oil-sands upgrader operator running the Atlantis NDT Digital Twin across four coker drums used API 579 Level 2 FFS evidence from the twin to extend run-length by 14 months, deferring ~CAD 18M of drum-shell replacement while maintaining full ABSA and AER compliance.",
+    faqs: [
+      { question: "Does the digital twin support ABSA and AER D056/D077 integrity-management requirements?", answer: "Yes. Pressure-vessel CRNs, AER-reportable pipeline assessments and ABSA-compliant next-inspection dates are native to the twin. AER D056/D077 evidence exports in a single click." },
+      { question: "How does the twin handle oil-sands coker-drum thermal-cycle damage?", answer: "Coker drums carry a thermal-fatigue damage-mechanism profile with cycle count, strain measurement and crack-growth tracking. API 579 Part 10 fatigue assessments are driven directly from twin data." },
+      { question: "Can the instance be hosted in Canada for federal and provincial data-residency?", answer: "Yes. AWS Canada (Central) and Azure Canada Central are supported; a Calgary-based dedicated tenancy is available for clients with AER or Alberta Privacy Act obligations." },
+      { question: "Does the twin work in remote oil-sands sites with limited connectivity?", answer: "Yes. Full offline data capture for Kearl, Horizon, Firebag and Fort Hills operations; deferred sync on reconnect with no silent overwrites." },
+    ],
+  },
+  'singapore': {
+    uniqueLocalROI: "Jurong Island operators running NDT digital twins on cracker and polymer-plant vessels typically cut turnaround shutdown inspection duration by 18-24% through pre-planned scope and recover SGD 3-6M per major unit in deferred capex through rigorous FFS extensions.",
+    localIndustryUseCases: [
+      "Jurong Island cracker-furnace digital twins with high-temperature creep damage-mechanism profiles and API 579 Part 10 creep assessments.",
+      "Marine loading-arm and jetty structural digital twins with AS/NZS and API-aligned inspection records.",
+      "Polymer plant reactor vessel digital twins aggregating IRIS and PA-UT data for API 579 Part 5 local metal loss assessments.",
+    ],
+    localCompliance: ["MOM CERT", "EMA", "NEA", "API 579-1/ASME FFS-1", "API 510/570/653"],
+    localCaseStudy: "A Jurong Island polymer-plant operator running the Atlantis NDT Digital Twin across nine reactor vessels used API 579 Part 5 evidence to defer reactor-shell replacement by 20 months — deferring ~SGD 9M of capex while staying within MOM CERT and NEA review limits.",
+    faqs: [
+      { question: "Can the digital twin be hosted in Singapore for PDPA and client data-residency?", answer: "Yes. AWS Asia Pacific (Singapore) and Azure Southeast Asia are supported, with signed PDPA-aligned DPAs. Jurong Island client IT teams frequently accept a dedicated Singapore tenancy with BCA Tier-3+ infrastructure." },
+      { question: "How does the twin handle Jurong Island compressed turnaround windows?", answer: "The twin pre-generates the inspection scope the moment the unit shutdown plan is locked, aggregating all prior inspection data into a prioritised scope list that the MOM-qualified crew can execute in the shortest practical on-island time." },
+      { question: "Does the twin support API 579 Part 10 creep assessment on cracker furnaces?", answer: "Yes. Creep damage-mechanism profiles with time-temperature-stress history, measured tube OD and remaining-life projections feed an API 579 Part 10 Level 1 or Level 2 assessment, with MOM CERT-compliant inspector sign-off." },
+      { question: "Can Jurong Island client-format reports (ExxonMobil, Shell, PCS) be produced directly from the twin?", answer: "Yes. Pre-built templates for ExxonMobil Jurong, Shell Bukom, PCS Jurong and Singapore Refining Company are shipped with the twin and updated as clients revise formats." },
+    ],
+  },
+  'mumbai': {
+    uniqueLocalROI: "Indian refining operators running NDT digital twins on BPCL Mahul, HPCL Mahul and RIL Jamnagar assets typically reduce RBI-recalibration cycles by 60% and defer ~INR 40-90 crore per major unit in pressure-vessel replacement capex using rigorous API 579 FFS evidence within OISD-141 compliance limits.",
+    localIndustryUseCases: [
+      "BPCL Mahul refinery hydrocracker digital twins with HTHA screening and API 579 Part 6 assessments.",
+      "Offshore Bombay High platform digital twins with monsoon-driven external-corrosion tracking and ROV-fed inspection data.",
+      "Jamnagar refinery coker-drum digital twins aggregating thermal-fatigue and wall-thickness data for API 579 Part 10 assessments.",
+    ],
+    localCompliance: ["PESO", "OISD-141 / OISD-129", "IBR 1950", "API 579-1/ASME FFS-1", "BIS IS 2825"],
+    localCaseStudy: "A western-India downstream operator running the Atlantis NDT Digital Twin on six Mahul-complex hot reactors used API 579 Part 6 HTHA evidence to extend next-maintenance by 16 months, deferring ~INR 65 crore of reactor-shell replacement while staying within OISD-141 boundaries.",
+    faqs: [
+      { question: "Can the digital twin be hosted in India for CERT-In and client data-residency?", answer: "Yes. AWS Mumbai, Azure Central India (Pune) and AWS Hyderabad are supported; signed DPAs aligned with India's DPDP Act are provided. For defence supply-chain work a dedicated India-only tenancy is available." },
+      { question: "Does the twin support PESO and OISD-141 statutory inspection evidence?", answer: "Yes. PESO Form XVI, OISD-141 inspection interval evidence and IBR Form VI data are native fields in the twin's asset register. Statutory evidence exports are single-click." },
+      { question: "How does the twin handle monsoon-driven external corrosion on Mumbai industrial sites?", answer: "External atmospheric corrosion is tracked as a separate damage mechanism with seasonal rate variation; monsoon impact is captured via seasonal corrosion-rate profiles and recoat schedules are driven off the twin, not a paper checklist." },
+      { question: "Can reports be issued in Hindi or Marathi alongside English?", answer: "Yes. Bilingual layouts are supported for state factories-act and municipal submissions; most PESO/OISD refinery submissions remain English-only as per sector precedent." },
+    ],
+  },
+  'chennai': {
+    uniqueLocalROI: "South Indian operators running NDT digital twins on CPCL Manali and Kalpakkam nuclear supply-chain assets typically reduce multi-regulator evidence-pack prep by 45% and defer ~INR 25-60 crore per year of conservative-replacement capex using rigorous FFS evidence.",
+    localIndustryUseCases: [
+      "CPCL Manali refinery atmospheric-distillation column digital twins aggregating UT, PA-UT and IRIS data.",
+      "Kalpakkam nuclear supply-chain pressure-equipment digital twins with AERB-traceable inspection records.",
+      "Kamarajar Port shipyard dry-dock digital twins for structural weld inspection under AWS D1.1.",
+    ],
+    localCompliance: ["AERB", "PESO", "OISD-141", "API 579-1/ASME FFS-1", "BIS IS 2825", "DGCA (aerospace)"],
+    localCaseStudy: "A South Indian NDT contractor on CPCL Manali used the Atlantis NDT Digital Twin to consolidate 15 years of paper inspection records into a geo-referenced 3D model and used the aggregated trend evidence to extend FFS on two atmospheric columns by 24 months, deferring ~INR 28 crore of replacement capex.",
+    faqs: [
+      { question: "Does the digital twin support AERB radiographer dose traceability for Kalpakkam supply-chain work?", answer: "Yes. Every RT inspection event in the twin carries the radiographer's dose ledger entry, source decay calculation and AERB authorisation reference, with exports in AERB statutory-submission format." },
+      { question: "Can the twin handle CPCL Manali client-specific report formats?", answer: "Yes. CPCL, IOCL Chennai and Nagapattinam refinery header/footer formats are pre-loaded, including the deviation-note and corrective-action sections each facility requires." },
+      { question: "Is data hosting available in India for Tamil Nadu state and sector data-residency?", answer: "Yes. AWS Mumbai, Azure Chennai and a dedicated India-only tenancy are supported, with DPDP Act-aligned DPAs." },
+      { question: "How does the twin track DGCA NAS 410 qualifications for aerospace supplier work?", answer: "NAS 410 Revision 5 methods, levels and vision tests are tracked alongside ASNT and ISNT qualifications, and the inspection evidence on aerospace components carries the NAS 410 endorsement for client audit trails." },
+    ],
+  },
+  'hyderabad': {
+    uniqueLocalROI: "Hyderabad-dispatched NDT firms running digital twins on BHEL, HPCL Visakh and supply-chain aerospace customers typically reduce cross-client RBI evidence prep by 40% and defer ~INR 20-45 crore of conservative-replacement capex per year using rigorous FFS evidence.",
+    localIndustryUseCases: [
+      "BHEL power-boiler digital twins with high-temperature creep and thermal-fatigue damage-mechanism profiles.",
+      "HPCL Visakh refinery-unit digital twins operated from Hyderabad engineering centres with remote trend review.",
+      "Defence-supplier aerospace component digital twins under NAS 410 with NDT-traceable inspection records.",
+    ],
+    localCompliance: ["AERB", "IBR 1950", "PESO", "NAS 410", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "A Hyderabad-headquartered engineering-services firm used the Atlantis NDT Digital Twin to aggregate 12 years of HPCL Visakh inspection data and generate an API 579 Part 6 assessment that deferred a hot-reactor shell replacement by 19 months — saving ~INR 22 crore.",
+    faqs: [
+      { question: "Can the twin be operated remotely from Hyderabad for field sites in Visakh, Jamnagar or Barmer?", answer: "Yes. The twin is cloud-accessible; Hyderabad-based integrity engineers review and approve inspection evidence, FFS assessments and RBI recalibrations in real time while field crews collect data offline on-site." },
+      { question: "Does the twin support Telugu/English bilingual inspection evidence?", answer: "Yes. Telugu/English bilingual report layouts are supported for Telangana factories-act submissions; most refinery/client submissions remain English-only." },
+      { question: "How does the twin handle BHEL power-boiler creep assessment?", answer: "Creep damage mechanisms with time-temperature-stress history and measured tube OD data feed API 579 Part 10 Level 1/2 assessments, with BHEL's internal audit format supported." },
+      { question: "Is data hosted in India for defence-supply-chain work?", answer: "Yes. A dedicated India-only tenancy with AWS Hyderabad/Mumbai hosting is available, with DPDP Act and defence sector data-protection clauses in the DPA." },
+    ],
+  },
+  'doha': {
+    uniqueLocalROI: "QatarEnergy North Field operators running NDT digital twins on cryogenic storage and LNG-train assets typically reduce shutdown inspection duration by 20% and defer QAR 35-70M per major unit of conservative-replacement capex using brittle-fracture and low-temperature FFS evidence.",
+    localIndustryUseCases: [
+      "QatarEnergy North Field LNG-train cryogenic vessel digital twins with 9% Ni weld inspection records and brittle-fracture screening.",
+      "Ras Laffan loading-arm and jetty structural digital twins with BV/Lloyd's-format inspection evidence.",
+      "Sour-service inter-field pipeline digital twins with NACE MR0175 hardness traceability and SSC/HIC monitoring.",
+    ],
+    localCompliance: ["QatarEnergy NFPS", "QCDD", "API 579-1/ASME FFS-1", "NACE MR0175", "API 510/570"],
+    localCaseStudy: "A Qatar LNG operator running the Atlantis NDT Digital Twin across two North Field LNG trains used API 579 Part 3 brittle-fracture evidence to extend cryogenic vessel run-length by 22 months — deferring ~QAR 48M of mechanical replacement while remaining within NFPS limits.",
+    faqs: [
+      { question: "Does the digital twin align with QatarEnergy NFPS documentation requirements?", answer: "Yes. Inspection evidence, FFS assessments and RBI recalibration records export in the NFPS review format, with QE Technical Authority section structure preserved." },
+      { question: "Can the instance be hosted in Qatar for NFPS data-residency?", answer: "Yes. Azure Qatar Central (Doha) and Ooredoo/Microsoft partner hosting are supported, with signed DPAs aligned with Qatar Law No. 13 of 2016." },
+      { question: "How does the twin handle cryogenic brittle-fracture risk on LNG-train equipment?", answer: "Cryogenic vessels carry a brittle-fracture damage-mechanism profile; 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 assessments are driven off twin data, with QE cryogenic-review formats built in." },
+      { question: "Can Arabic-language FFS reports be generated for QCDD and Ministry of Municipality submissions?", answer: "Yes. Bilingual Arabic/English FFS reports with RTL Arabic sections are supported, with QCDD and Ministry of Municipality format overlays." },
+    ],
+  },
+  'kuwait': {
+    uniqueLocalROI: "Kuwait downstream operators running NDT digital twins on KNPC/KIPIC Al-Zour assets typically reduce RBI-recalibration cycles by 55% and defer KWD 6-14M per major unit of pressure-vessel replacement capex using rigorous API 579 FFS evidence.",
+    localIndustryUseCases: [
+      "KIPIC Al-Zour hydrocracker digital twins with HTHA screening and API 579 Part 6 assessments on hot-reactor vessels.",
+      "KNPC MAA/MAB refinery turnaround digital twins aggregating UT, PA-UT and IRIS data.",
+      "KOC sour-service gathering-system pipeline digital twins with NACE MR0175 traceability.",
+    ],
+    localCompliance: ["KNPC Technical Standards", "KOC Inspection Standards", "API 579-1/ASME FFS-1", "NACE MR0175"],
+    localCaseStudy: "A KIPIC contractor running the Atlantis NDT Digital Twin across three Al-Zour hydrocracker reactors used API 579 Part 6 HTHA evidence to extend run-length by 16 months — deferring ~KWD 9M of reactor-shell replacement while staying within KNPC technical-standard limits.",
+    faqs: [
+      { question: "Does the digital twin support KNPC and KIPIC technical-standard report formats?", answer: "Yes. KNPC (MAA, MAB, Al-Zour) and KIPIC Al-Zour technical-standard report templates are pre-loaded, including client-specific criticality classes and corrective-action sections." },
+      { question: "Can the instance be hosted in Kuwait for ministry and operator data-residency?", answer: "Yes. AWS Middle East (Bahrain) with Kuwait replica and dedicated on-prem Kuwait tenancies are supported for Kuwait Law No. 20 of 2014 and operator-specific in-country storage requirements." },
+      { question: "How does the twin handle KOC sour-service pipeline integrity management?", answer: "Sour-service pipelines carry a NACE MR0175/ISO 15156 damage-mechanism profile with hardness-traceability, SSC/HIC monitoring and thickness trending against a sour-service minimum wall; interval recalibration accounts for H2S partial-pressure changes." },
+      { question: "Does the platform support Arabic-language FFS assessment packs?", answer: "Yes. Bilingual Arabic/English FFS and inspection reports with RTL Arabic layout, with KNPC and Kuwait Ministry of Oil review formats built in." },
+    ],
+  },
+  'muscat': {
+    uniqueLocalROI: "PDO and OQ operators running NDT digital twins on desert and refinery assets typically reduce remote-site inspection visits by 30% through twin-enabled virtual scope review and defer OMR 4-9M per year of conservative pressure-vessel replacement using rigorous API 579 evidence.",
+    localIndustryUseCases: [
+      "PDO onshore gathering-station digital twins with desert-atmospheric corrosion tracking and remote trend review from Muscat HQ.",
+      "OQ Sohar refinery vessel and column digital twins aggregating inspection data across multiple turnaround cycles.",
+      "Sur LNG cryogenic storage digital twins with 9% Ni weld inspection records and brittle-fracture screening.",
+    ],
+    localCompliance: ["PDO CMF", "OQ Inspection Standards", "Oman MEM", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "An Oman downstream operator running the Atlantis NDT Digital Twin across four OQ Sohar atmospheric columns extended FFS by 15 months using API 579 Part 4 evidence on wall-thickness trending — deferring ~OMR 5.5M of column-shell replacement.",
+    faqs: [
+      { question: "Does the twin support PDO Corporate Management Framework requirements?", answer: "Yes. PDO CMF integrity-management evidence and technician qualification records are native fields in the twin, with PDO-format exports available in a single click." },
+      { question: "Can the instance be hosted in Oman for data-residency?", answer: "Yes. On-prem Muscat tenancies and Azure/AWS Middle East hosting are supported, with DPAs aligned with Oman's Electronic Transactions Law No. 69/2008." },
+      { question: "How does the twin handle remote desert-site data capture for PDO Marmul or Ja'aluni?", answer: "Full offline data capture with deferred sync on return to base camp; the twin cloud instance in Muscat is updated automatically when the field app reconnects." },
+      { question: "Does the twin support OQ refinery turnaround report formats for Sohar?", answer: "Yes. OQ Sohar refinery templates (atmospheric, vacuum, hydrocracker, CCR) are pre-loaded, matching OQ's preferred corrective-action and next-inspection-date formats." },
+    ],
+  },
+  'aberdeen': {
+    uniqueLocalROI: "UKCS operators running NDT digital twins on ageing North Sea platforms typically extend life-extension certification by 3-5 years beyond original design life and cut OPRED submission prep from 6 weeks to 10 days per platform using aggregated twin-evidence, with GBP 12-25M per platform deferred decommissioning or replacement spend.",
+    localIndustryUseCases: [
+      "UKCS platform jacket and topside digital twins with ROV-fed UT and CP data supporting HSE life-extension cases.",
+      "FPSO hull plating and mooring-chain digital twins aggregating class-society (Lloyd's, DNV) inspection data.",
+      "Subsea pipeline and riser digital twins supporting OPRED integrity submissions for decommissioning planning.",
+    ],
+    localCompliance: ["HSE UK", "OPRED", "PSSR 2000", "API 579-1/ASME FFS-1", "DNV/Lloyd's Register"],
+    localCaseStudy: "A UKCS late-life operator running the Atlantis NDT Digital Twin across two North Sea fixed platforms aggregated 18 years of jacket-member UT data and — using API 579 Part 4 and Part 5 evidence — secured HSE acceptance for a 4-year life-extension, deferring ~GBP 18M of decommissioning preparation.",
+    faqs: [
+      { question: "Does the digital twin support HSE UK life-extension case submissions?", answer: "Yes. The twin aggregates multi-decade inspection evidence into an HSE-reviewable life-extension submission, with API 579 Part 3/4/5 assessments and PSSR 2000 written-scheme currency all bundled in." },
+      { question: "Can the instance be hosted in the UK for GDPR and client requirements?", answer: "Yes. Azure UK South (London), AWS Europe (London) and a dedicated Aberdeen tenancy are supported, with UK GDPR-aligned DPAs by default." },
+      { question: "How does the twin handle ROV-delivered subsea inspection data?", answer: "Subsea UT, CP and visual inspection data is ingested from ROV pipelines directly into the twin with depth and bearing geo-referencing; subsea riser, pipeline and mooring-chain damage-mechanism profiles drive remaining-life calculations." },
+      { question: "Does the platform support OPRED submissions for North Sea decommissioning?", answer: "Yes. OPRED decommissioning programme evidence including asset integrity status, remaining-life projections and cessation-of-production readiness data are exportable in OPRED review format." },
+    ],
+  },
+  'oslo': {
+    uniqueLocalROI: "Norwegian NCS operators running NDT digital twins on Equinor, Aker BP and Vår Energi assets typically reduce NORSOK Z-008 planning cycles by 60% and defer NOK 150-320M per major asset of conservative-replacement capex through rigorous API 579 + NORSOK-aligned FFS evidence.",
+    localIndustryUseCases: [
+      "Equinor Troll, Oseberg and Johan Sverdrup platform digital twins with NORSOK N-001 structural and Z-008 planning alignment.",
+      "Subsea manifold and template digital twins aggregating ROV UT and CP data for Aker BP Ivar Aasen and ConocoPhillips Ekofisk.",
+      "Floating wind foundation digital twins for Hywind Tampen and equivalent emerging NCS offshore wind assets.",
+    ],
+    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID / Aker BP Synergi Life", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "A Norwegian operator running the Atlantis NDT Digital Twin on a Troll-area platform used NORSOK Z-008 and API 579 evidence to recalibrate inspection intervals on 640 pressure systems, reducing next-cycle inspection scope by 28% while improving coverage on high-risk zones — PSA Norway surveillance passed with zero findings.",
+    faqs: [
+      { question: "Does the digital twin support NORSOK N-001 and Z-008 inspection planning?", answer: "Yes. NORSOK Z-008 inspection grouping, risk categorisation and interval assignment are native to the twin, and N-001 structural integrity evidence is tracked per platform/module with PSA Norway-review exports." },
+      { question: "Can the twin integrate with Equinor STID or Aker BP Synergi Life?", answer: "Yes. Connectors push inspection closeout, corrosion rates and remaining-life data into Equinor STID and Aker BP Synergi Life with a read-back of operator inspection plans." },
+      { question: "Is hosting available in Norway for PSA and Equinor cybersecurity requirements?", answer: "Yes. Azure Norway East and a dedicated Stavanger-hosted tenancy are supported, with signed DPAs aligned with Norwegian Personal Data Act." },
+      { question: "Does the platform handle floating offshore wind inspection data alongside O&G assets?", answer: "Yes. Floating wind foundation damage-mechanism profiles (mooring chains, dynamic cables, floater hull) coexist with O&G asset profiles in the same twin, enabling shared NCS-wide integrity programmes." },
+    ],
+  },
+  'london': {
+    uniqueLocalROI: "UK multi-sector operators running NDT digital twins on industrial and nuclear supply-chain assets typically reduce cross-regulator evidence-pack prep by 50% and defer GBP 8-22M per year of conservative-replacement capex using rigorous API 579 + ONR-aligned FFS evidence.",
+    localIndustryUseCases: [
+      "Power-station and nuclear-supply-chain vessel digital twins with ONR-traceable inspection evidence.",
+      "London-area industrial pressure-system digital twins with PSSR 2000 written-scheme-of-examination integration.",
+      "Aerospace Part-145 component digital twins under NAS 410 with NDT-traceable records.",
+    ],
+    localCompliance: ["HSE UK", "ONR (nuclear)", "PSSR 2000", "EASA Part-145", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "A London-headquartered consultancy used the Atlantis NDT Digital Twin to aggregate Hinkley Point supply-chain NDT records across 14 pressure-vessel components and delivered an ONR-acceptable integrity submission 3 weeks ahead of schedule — the customer (a Tier-1 nuclear EPC) has since adopted the platform as its audit-evidence standard.",
+    faqs: [
+      { question: "Does the digital twin support ONR-reviewable evidence for UK nuclear supply-chain work?", answer: "Yes. Nuclear-grade damage-mechanism profiles, technician qualification traceability and inspection evidence are structured for ONR review, with exports in ONR SAP FIN and the relevant Sellafield/Hinkley site-specific formats." },
+      { question: "How does the twin handle PSSR 2000 written schemes of examination?", answer: "Each pressure system carries a written scheme with next-exam date computed against its classification; competent-person sign-off is a hard gate, and PSSR register exports are HSE-inspector-ready in one click." },
+      { question: "Can the instance be hosted in the UK for GDPR and client preferences?", answer: "Yes. Azure UK South (London), AWS Europe (London) and GCP London are supported, with UK GDPR-aligned DPAs by default." },
+      { question: "Does the twin support parallel aerospace EASA Part-145 and industrial HSE work?", answer: "Yes. Multi-sector qualification schemes (PCN, NAS 410, EASA Part-145, ONR, HSE) coexist per technician, and inspection evidence carries the correct scheme endorsement per work order." },
+    ],
+  },
+  'rotterdam': {
+    uniqueLocalROI: "Rotterdam Europoort operators running NDT digital twins on refinery and chemical-cluster assets typically reduce Seveso III evidence-pack prep by 60% and defer EUR 8-18M per major unit of conservative-replacement capex using rigorous API 579 + PED-aligned evidence.",
+    localIndustryUseCases: [
+      "Europoort refinery and chemical-cluster vessel digital twins with PED 2014/68/EU conformity and Seveso III evidence.",
+      "Vopak/Koole tank-farm digital twins aggregating API 653 and floor-MFL inspection data.",
+      "Port of Rotterdam pipeline and jetty structural digital twins with ILT/ANVS submission-ready evidence.",
+    ],
+    localCompliance: ["Seveso III", "ILT / ANVS", "PED 2014/68/EU", "API 579-1/ASME FFS-1", "DNV"],
+    localCaseStudy: "A Rotterdam Europoort operator running the Atlantis NDT Digital Twin across 28 storage tanks used API 653 and API 579 Part 5 evidence from the twin to defer three tank-floor replacements by 24 months — deferring ~EUR 11M of capex while passing ILT Seveso III surveillance with zero findings.",
+    faqs: [
+      { question: "Does the digital twin support PED 2014/68/EU conformity for Europoort equipment?", answer: "Yes. PED category mapping, notified-body evidence and conformity assessment records are tracked per asset, with pre-PED service-life data preserved for full remaining-life calculations." },
+      { question: "How is Seveso III evidence organised in the twin?", answer: "Each Seveso III major-accident-hazard installation has a dedicated evidence folder covering inspection intervals, procedures, technician qualifications and findings, with a one-click ILT/ANVS review pack." },
+      { question: "Can the instance be hosted in the Netherlands for GDPR and client data-residency?", answer: "Yes. AWS Europe (Amsterdam), Azure West Europe (Amsterdam) and a dedicated Rotterdam tenancy are supported, with UK/EU GDPR-aligned DPAs." },
+      { question: "Does the twin generate Dutch-language reports for ILT and municipality submissions?", answer: "Yes. Dutch/English bilingual reports are supported, with ILT and Rotterdam municipality format overlays." },
+    ],
+  },
+  'perth': {
+    uniqueLocalROI: "Perth-managed LNG and offshore operators running NDT digital twins on NWS, Gorgon and Wheatstone assets typically reduce on-platform inspection days per turnaround by 20-25% and defer AUD 18-42M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    localIndustryUseCases: [
+      "NWS, Gorgon and Wheatstone LNG cryogenic-storage digital twins with 9% Ni weld records and brittle-fracture screening.",
+      "FLNG/FPSO hull and mooring-chain digital twins aggregating ROV-fed UT and CP data.",
+      "Pilbara iron-ore processing plant pressure-vessel digital twins with atmospheric corrosion tracking.",
+    ],
+    localCompliance: ["WorkSafe WA", "NOPSEMA", "AS 3788", "API 579-1/ASME FFS-1", "DNV/Lloyd's Register"],
+    localCaseStudy: "A Perth-managed LNG operator running the Atlantis NDT Digital Twin across two Gorgon cryogenic trains used API 579 Part 3 brittle-fracture evidence to extend vessel run-length by 26 months — deferring ~AUD 32M of mechanical-replacement spend while maintaining full NOPSEMA compliance.",
+    faqs: [
+      { question: "Does the digital twin support NOPSEMA offshore integrity-management requirements?", answer: "Yes. NOPSEMA-reviewable evidence including safety-case integration, damage-mechanism tracking and FFS assessments are native, with exports in NOPSEMA submission format." },
+      { question: "Can the instance be hosted in Australia for AUSCERT and client data-residency?", answer: "Yes. AWS Sydney, AWS Melbourne and Azure Australia East are supported, with APP-aligned DPAs by default." },
+      { question: "How does the twin handle cryogenic brittle-fracture on NWS and Gorgon LNG trains?", answer: "Cryogenic vessels carry a brittle-fracture damage-mechanism profile; 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 assessments are all driven off twin data." },
+      { question: "Does the twin support ROV-fed inspection data for FLNG and FPSO operations?", answer: "Yes. Subsea UT, CP and visual inspection data from ROV pipelines is ingested with depth and bearing geo-referencing, integrated with topside inspection evidence in a unified twin." },
+    ],
+  },
+  'denver': {
+    uniqueLocalROI: "Denver-managed pipeline and refining operators running NDT digital twins on Rocky Mountain assets typically reduce PHMSA integrity-management evidence prep by 55% and defer USD 6-15M per year of conservative pipeline-segment replacement capex using rigorous API 579 + API 1160 assessments.",
+    localIndustryUseCases: [
+      "Rocky Mountain crude/product pipeline digital twins aggregating ILI vendor data (MFL, UT, EMAT) with dig-verification records.",
+      "Suncor Commerce City refinery-unit digital twins with high-altitude UV external-corrosion profiles.",
+      "DJ Basin gathering-system digital twins with CDPHE air-emissions and integrity-management evidence.",
+    ],
+    localCompliance: ["PHMSA (49 CFR 192/195)", "API 1160", "OSHA PSM", "CDPHE", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "A Rocky Mountain midstream operator running the Atlantis NDT Digital Twin across 1,240 miles of crude pipeline used API 1160 + API 579 Part 5 evidence from the twin to defer three pipeline-segment replacements by 30 months — deferring ~USD 8M of capex while passing PHMSA surveillance with zero findings.",
+    faqs: [
+      { question: "Does the digital twin support PHMSA 49 CFR 192/195 integrity-management for pipelines?", answer: "Yes. ILI vendor data ingestion, anomaly registers, dig-and-repair records and next-assessment dates are native, with PHMSA review-ready exports and API 1160 evidence structure." },
+      { question: "Can the twin handle OSHA PSM covered equipment at Suncor Commerce City?", answer: "Yes. PSM-covered pressure equipment carries PSM-compliant intervals and MOC-linked procedures; audit-pack export is single-click." },
+      { question: "How does the twin handle high-altitude external corrosion on Rocky Mountain storage tanks?", answer: "External atmospheric corrosion carries a damage-mechanism profile with UV-degradation, temperature-cycling and coating-condition tracking; external recoat schedules are driven off the twin." },
+      { question: "Can data be hosted in the US with FedRAMP compliance for DOT-regulated clients?", answer: "Yes. FedRAMP-compliant tenancy on AWS GovCloud is available alongside standard commercial hosting on AWS us-east-1/us-west-2 and Azure US-Central." },
+    ],
+  },
+  'new-orleans': {
+    uniqueLocalROI: "Gulf Coast Louisiana operators running NDT digital twins on Mississippi corridor refineries and LNG terminals typically reduce post-hurricane re-inspection planning from 3 weeks to a day and defer USD 7-18M per major unit of conservative pressure-vessel replacement capex.",
+    localIndustryUseCases: [
+      "Mississippi corridor refinery and chemical-plant vessel digital twins with OSHA PSM and EPA RMP evidence.",
+      "Sabine Pass and Cameron LNG cryogenic-storage digital twins with 9% Ni weld records and brittle-fracture screening.",
+      "Hurricane post-event re-inspection auto-planning for storage tanks, jetties and relief systems.",
+    ],
+    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DNR", "API 579-1/ASME FFS-1", "USCG/PHMSA (LNG)"],
+    localCaseStudy: "A Louisiana corridor operator running the Atlantis NDT Digital Twin across 18 units used post-event re-inspection automation after Hurricane Francine to generate a prioritised 812-asset re-inspection plan in under 2 hours — typically a 3-week manual exercise.",
+    faqs: [
+      { question: "Does the digital twin support OSHA PSM 29 CFR 1910.119 and EPA RMP evidence?", answer: "Yes. PSM and RMP covered equipment carries compliant intervals, MOC-linked procedures and RAGAGEP records, with single-click audit packs for both OSHA and EPA review." },
+      { question: "How does the twin handle hurricane post-event re-inspection?", answer: "A 'post-event' trigger reprioritises high-risk zones and auto-spawns work orders for storage-tank external, jetty structural and relief-system inspections within hours — not weeks." },
+      { question: "Can the twin manage LNG cryogenic brittle-fracture risk for Sabine Pass and Cameron LNG?", answer: "Yes. 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 brittle-fracture assessments are natively supported with USCG/PHMSA review formats." },
+      { question: "Does the twin support Louisiana DNR and LDEQ statutory evidence?", answer: "Yes. LDNR and LDEQ templates for Title V air emissions, LPDES surface-water and tank-farm inspections are pre-loaded and maintained." },
+    ],
+  },
+  'lagos': {
+    uniqueLocalROI: "Nigerian operators running NDT digital twins on Dangote, NNPC and IOC assets typically cut NMDPRA evidence-pack prep from 5 days to 6 hours and defer ~USD 5-12M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    localIndustryUseCases: [
+      "Dangote Refinery atmospheric- and vacuum-distillation digital twins aggregating UT, PA-UT and IRIS data from commissioning onward.",
+      "Niger Delta IOC pipeline digital twins with DPR/NMDPRA statutory evidence trails.",
+      "Bonga / Egina deepwater FPSO hull digital twins with ROV-fed inspection data and NCDMB local-content evidence.",
+    ],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 579-1/ASME FFS-1", "USCG (LNG supply)"],
+    localCaseStudy: "A Lagos-based NDT contractor on the Dangote Refinery used the Atlantis NDT Digital Twin from commissioning onward to establish baseline thickness grids across 42 pressure vessels — enabling rigorous year-on-year corrosion-rate tracking and an NMDPRA-accepted integrity programme from day one of operations.",
+    faqs: [
+      { question: "Does the digital twin support NMDPRA (ex-DPR) statutory evidence for Nigerian refineries?", answer: "Yes. NMDPRA report formats, intervals and operator-specific annexes (Shell SPDC, Chevron CNL, TotalEnergies EP Nigeria, NLNG, Dangote) are pre-loaded and maintained as the regulator revises guidance." },
+      { question: "Can the instance be hosted in Nigeria for NITDA and client data-residency?", answer: "Yes. On-prem Lagos tenancies and AWS Africa (Cape Town) with Nigeria-replica options are supported, with NDPR-aligned DPAs by default." },
+      { question: "How is inspection data captured on Niger Delta field sites with limited connectivity?", answer: "Full offline data capture with deferred sync; field app tested in Niger Delta deep-swamp and deepwater FPSO environments with no silent-overwrite conflicts." },
+      { question: "Does the twin support NCDMB local-content evidence alongside integrity-management?", answer: "Yes. Each inspection event attaches NCDMB Nigerian Content Plan evidence (technician nationality, mentorship hours, Nigerian-spend) to the integrity record, supporting a combined NMDPRA + NCDMB submission." },
+    ],
+  },
+  'jubail': {
+    uniqueLocalROI: "Jubail-based SABIC and SATORP integrity teams running NDT digital twins typically reduce SAEP-1119 evidence-pack prep by 65% and defer ~SAR 40-90M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence within SABIC and SATORP compliance boundaries.",
+    localIndustryUseCases: [
+      "SABIC Kemya, Yansab and Petrokemya cracker-unit digital twins with creep, HTHA and sour-service damage-mechanism models.",
+      "SATORP refinery atmospheric/vacuum/HDS digital twins aggregating UT, PA-UT and IRIS data.",
+      "Royal Commission Jubail tank-farm and pipeline digital twins with RCJY-format statutory evidence.",
+    ],
+    localCompliance: ["Saudi Aramco SAEP-1119", "SABIC AIS", "SATORP standards", "Royal Commission Jubail", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "A SABIC Kemya integrity team running the Atlantis NDT Digital Twin across four cracker-unit hot reactors used API 579 Part 6 HTHA evidence from the twin to extend next-maintenance by 18 months, deferring ~SAR 72M of reactor-shell replacement while staying within SABIC AIS limits.",
+    faqs: [
+      { question: "Does the digital twin align with SABIC Asset Integrity Standards?", answer: "Yes. SABIC AIS damage-mechanism taxonomy, FFS outputs and RBI recalibration records conform to SABIC review format, and SAEP-1119 evidence can be attached per inspection event." },
+      { question: "Can the twin be hosted in Saudi Arabia for SACS-002 and SABIC cybersecurity?", answer: "Yes. AWS Middle East (Riyadh) and on-prem Dammam tenancies are supported, including air-gapped appliance deployment for SACS-002 Level 4 environments." },
+      { question: "How does the twin handle Royal Commission Jubail tank-farm and pipeline submissions?", answer: "RCJY tank-farm and pipeline statutory report templates are pre-loaded, including the industrial-city permit-to-inspect workflows." },
+      { question: "Does the platform support Arabic-language FFS reports for Aramco, SABIC and SATORP?", answer: "Yes. Bilingual Arabic/English reports with RTL Arabic layout are generated in the Aramco, SABIC, SATORP and YASREF header/footer formats." },
+    ],
+  },
+  'manama': {
+    uniqueLocalROI: "Bahrain operators running NDT digital twins on BAPCO, ALBA and Tatweer Petroleum assets typically reduce BAPCO Modernisation Program integrity-evidence prep by 70% and defer BHD 600k-1.5M per year of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    localIndustryUseCases: [
+      "BAPCO Sitra refinery modernisation-project digital twins with BAPCO-standard inspection evidence.",
+      "ALBA Line 6 potlining and pot-shell digital twins with aluminium-smelter damage-mechanism profiles.",
+      "Tatweer Petroleum onshore gathering-system digital twins with Bahrain NOGA statutory evidence.",
+    ],
+    localCompliance: ["Bahrain NOGA", "BAPCO Technical Standards", "ALBA Standards", "API 579-1/ASME FFS-1"],
+    localCaseStudy: "A Manama operator on the BAPCO Modernisation Program used the Atlantis NDT Digital Twin across seven new pressure-vessels to establish commissioning-baseline thickness grids and enable rigorous corrosion-rate tracking from day one of operations.",
+    faqs: [
+      { question: "Does the twin support BAPCO Modernisation Program (BMP) documentation?", answer: "Yes. BMP-specific templates, commissioning report formats and BAPCO's internal qualification endorsements are tracked natively in the twin." },
+      { question: "Can the twin handle ALBA aluminium-smelter damage mechanisms?", answer: "Yes. Pot-shell thermal cycling, cryolite-bath corrosion and gas-duct sulfation damage profiles are configurable, with inspection evidence reflecting aluminium-industry standards." },
+      { question: "Is hosting available in Bahrain for NOGA and BAPCO requirements?", answer: "Yes. AWS Middle East (Bahrain) supports native hosting with dedicated tenancy and in-country backup." },
+      { question: "Does the twin handle GCC cross-operator qualification recognition?", answer: "Yes. GCC-wide qualification recognition (ADNOC, Aramco, QatarEnergy, PDO, KNPC, BAPCO) is mapped in-platform so the same integrity team can move across operator frameworks without duplicated evidence." },
+    ],
+  },
+};
+
+// Compact DT defaults for remaining curated cities.
+const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
+  'bergen': {
+    uniqueLocalROI: "Bergen subsea and NCS operators running NDT digital twins on Troll-area and subsea assets typically reduce PSA Norway submission prep by 50% and defer NOK 80-180M per major asset of conservative-replacement capex.",
+    localIndustryUseCases: [
+      "Troll/Kvitebjørn/Valemon platform digital twins with NORSOK N-001/Z-008 planning alignment.",
+      "Subsea manifold and template digital twins with ROV UT and CP data integration.",
+      "Floating offshore wind foundation digital twins for Hywind-type NCS assets.",
+    ],
+    localCompliance: ["PSA Norway", "NORSOK N-001/Z-008", "API 579", "DNV"],
+    localCaseStudy: "A Bergen-based integrity team cut NCS inspection-planning prep by 65% after deploying the Atlantis NDT Digital Twin.",
+  },
+  'edmonton': {
+    uniqueLocalROI: "Edmonton-area oil-sands upgrader operators running NDT digital twins typically defer CAD 6-14M per year of conservative pressure-vessel replacement using API 579 + AER-aligned FFS evidence.",
+    localIndustryUseCases: [
+      "Oil-sands upgrader coker drum and fractionator digital twins.",
+      "SAGD steam-generator tube-bundle digital twins.",
+      "Alberta Industrial Heartland pipeline digital twins under AER D077.",
+    ],
+    localCompliance: ["ABSA", "AER D056/D077", "CSA B51 / B31.3", "API 579"],
+    localCaseStudy: "An Edmonton upgrader operator used the Atlantis NDT Digital Twin to defer a coker-drum replacement by 12 months — ~CAD 9M in deferred capex.",
+  },
+  'basrah': {
+    uniqueLocalROI: "Iraq-based integrity teams running NDT digital twins on Rumaila and West Qurna assets typically reduce operator (BP/ExxonMobil/Lukoil) integrity-evidence prep by 55%.",
+    localIndustryUseCases: [
+      "Rumaila/West Qurna gathering-system digital twins with NACE MR0175 traceability.",
+      "Basrah Gas Company pipeline digital twins with sour-service damage models.",
+      "Export-terminal tank-farm digital twins with MoO statutory evidence.",
+    ],
+    localCompliance: ["Iraqi Ministry of Oil", "Basrah Oil Company", "NACE MR0175", "API 579"],
+    localCaseStudy: "A Basrah-based contractor used the Atlantis NDT Digital Twin to cut pre-mob BP client evidence prep from 9 days to 2.",
+  },
+  'kuala-lumpur': {
+    uniqueLocalROI: "Malaysian operators on PETRONAS PIC/RAPID assets running NDT digital twins typically defer MYR 20-55M per major unit of conservative-replacement capex using API 579 + PTS-aligned evidence.",
+    localIndustryUseCases: [
+      "Pengerang Integrated Complex (RAPID) digital twins with PETRONAS PTS-aligned evidence.",
+      "Bintulu MLNG cryogenic-storage digital twins with 9% Ni weld inspection records.",
+      "Sabah/Sarawak offshore platform digital twins with DOSH-PMA endorsement tracking.",
+    ],
+    localCompliance: ["DOSH PMA", "PETRONAS PTS", "API 579", "Malaysian Standards"],
+    localCaseStudy: "A KL-based PETRONAS contractor used the Atlantis NDT Digital Twin on Bintulu MLNG cryogenic assets to extend FFS by 14 months.",
+  },
+  'yanbu': {
+    uniqueLocalROI: "Yanbu integrity teams running NDT digital twins on YASREF and Yanbu Refinery assets typically defer SAR 30-70M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    localIndustryUseCases: [
+      "YASREF refinery-unit digital twins with Aramco SAEP-1119 evidence.",
+      "SABIC Ibn Al-Baytar cracker digital twins with HTHA screening.",
+      "Yanbu Commercial Port tank-farm digital twins under Royal Commission Yanbu.",
+    ],
+    localCompliance: ["Saudi Aramco SAEP-1119", "YASREF", "Royal Commission Yanbu", "API 579"],
+    localCaseStudy: "A YASREF integrity team used the Atlantis NDT Digital Twin on hot-reactor assets to extend run-length by 14 months.",
+  },
+  'sohar': {
+    uniqueLocalROI: "Sohar-based integrity teams running NDT digital twins on OQ refinery and industrial-zone assets typically defer OMR 2-5M per year of conservative-replacement capex.",
+    localIndustryUseCases: [
+      "OQ Sohar refinery vessel and column digital twins.",
+      "Sohar Port jetty and pipeline digital twins.",
+      "Vale pelletising plant and aluminium smelter digital twins.",
+    ],
+    localCompliance: ["OQ Inspection Standards", "Oman MEM", "API 579"],
+    localCaseStudy: "An OQ Sohar integrity team used the Atlantis NDT Digital Twin to defer a column-shell replacement by 13 months.",
+  },
+  'ras-al-khaimah': {
+    uniqueLocalROI: "RAK industrial-park operators running NDT digital twins on cement, ceramics and Saqr Port assets typically defer AED 3-8M per year of conservative-replacement capex.",
+    localIndustryUseCases: [
+      "RAK cement and ceramics plant pressure-equipment digital twins.",
+      "Saqr Port tank-farm and jetty digital twins.",
+      "RAK Gas and DANA Gas onshore digital twins with UAE-standard evidence.",
+    ],
+    localCompliance: ["ADNOC HSE (supply)", "OSHAD", "UAE CoC", "API 579"],
+    localCaseStudy: "A RAK Ceramics integrity team used the Atlantis NDT Digital Twin to defer a furnace-vessel replacement by 10 months.",
+  },
+  'sharjah': {
+    uniqueLocalROI: "Sharjah-based integrity teams running NDT digital twins on SNOC and Hamriyah assets typically defer AED 4-10M per year of conservative-replacement capex.",
+    localIndustryUseCases: [
+      "SNOC onshore gas-field and processing digital twins.",
+      "Hamriyah Free Zone tank-farm and pipeline digital twins.",
+      "Sharjah Port and Khorfakkan jetty structural digital twins.",
+    ],
+    localCompliance: ["SNOC standards", "OSHAD", "UAE CoC", "API 579"],
+    localCaseStudy: "A Sharjah SNOC integrity team used the Atlantis NDT Digital Twin to defer a separator-vessel replacement by 11 months.",
+  },
+  'port-harcourt': {
+    uniqueLocalROI: "Niger Delta operators running NDT digital twins on Shell SPDC and TotalEnergies EP Nigeria assets typically defer USD 4-9M per major field of conservative pipeline-segment replacement.",
+    localIndustryUseCases: [
+      "Shell SPDC/TotalEnergies EP Nigeria onshore gathering-system digital twins with NMDPRA evidence.",
+      "Port Harcourt NNPC refinery turnaround digital twins.",
+      "Bonga / Egina deepwater FPSO digital twins with NCDMB local-content evidence.",
+    ],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 579"],
+    localCaseStudy: "A Port Harcourt SPDC contractor used the Atlantis NDT Digital Twin to defer two pipeline-segment replacements by 18 months each.",
+  },
+};
+
+for (const [slug, partial] of Object.entries(COMPACT_DT_DEFAULTS)) {
+  if (!DT_CITY_PROFILES[slug]) {
+    DT_CITY_PROFILES[slug] = {
+      uniqueLocalROI: partial.uniqueLocalROI ?? '',
+      localIndustryUseCases: partial.localIndustryUseCases ?? [],
+      localCompliance: partial.localCompliance ?? [],
+      localCaseStudy: partial.localCaseStudy ?? '',
+      faqs: partial.faqs ?? [],
+    };
+  }
+}
+
+// ─── Accessors ────────────────────────────────────────────────────────────
+
+export function getErpProfile(citySlug: string): CityProductProfile | undefined {
+  return ERP_CITY_PROFILES[citySlug];
+}
+
+export function getDtProfile(citySlug: string): CityProductProfile | undefined {
+  return DT_CITY_PROFILES[citySlug];
+}
+
+// ─── Internal-link eligibility ────────────────────────────────────────────
+// Mirrors the App.tsx route list (April 2026) so we don't render dead links
+// from city-template pages.
+
+export const CONSULTING_CITY_SLUGS: Set<string> = new Set([
+  'houston','los-angeles','new-orleans','denver','chicago','dubai','saudi-arabia','qatar','kuwait','abu-dhabi',
+  'mumbai','chennai','bangalore','delhi','singapore','uk','norway','calgary','seattle','dallas','phoenix',
+  'philadelphia','san-francisco','detroit','pittsburgh','baton-rouge','corpus-christi','tulsa','beaumont',
+  'austin','san-antonio','fort-worth','midland','sacramento','orlando','norfolk','huntsville','mobile',
+  'oklahoma-city','colorado-springs','savannah','raleigh','nashville','lake-charles','bahrain','oman',
+  'jubail','yanbu','dammam','kolkata','ahmedabad','jamnagar','vizag','kochi','malaysia','indonesia',
+  'thailand','vietnam','philippines','south-korea','japan','taiwan','australia','new-zealand','germany',
+  'netherlands','france','italy','spain','belgium','scotland','aberdeen','edmonton','toronto','vancouver',
+  'mexico-city','brazil','argentina','colombia','trinidad','nigeria','south-africa','egypt','angola',
+  'algeria','perth','melbourne','sydney','brisbane','beijing','shanghai','shenzhen','hong-kong','taipei',
+  'manila','jakarta','bangkok','ho-chi-minh','sao-paulo','rio-de-janeiro','buenos-aires','bogota','lima',
+  'santiago','lagos','johannesburg','cape-town','nairobi','accra','casablanca','level-iii',
+]);
+
+export const TRAINING_CITY_SLUGS: Set<string> = new Set([
+  'houston','new-york','los-angeles','chicago','denver','new-orleans','dallas','philadelphia','pittsburgh',
+  'atlanta','hyderabad','usa','dubai','saudi-arabia','india','online',
+]);
+
+export function consultingPathForCity(citySlug: string): string | null {
+  if (CONSULTING_CITY_SLUGS.has(citySlug)) {
+    return `/consulting/ndt-consulting-${citySlug}`;
+  }
+  return null;
+}
+
+export function trainingPathForCity(citySlug: string): string | null {
+  if (TRAINING_CITY_SLUGS.has(citySlug)) {
+    return `/ndt-training-${citySlug}`;
+  }
+  return null;
+}

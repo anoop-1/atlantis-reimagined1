@@ -185,7 +185,7 @@ export default function NDTQuickReference() {
     <div className="min-h-screen bg-slate-50">
       <SEOHead
         title="NDT Quick Reference Chart | All 6 Methods Compared | Atlantis NDT"
-        description="Compare all 6 NDT methods at a glance: UT, RT, MT, PT, ET, VT. Detection capabilities, materials, cost, speed, and skill level in one reference chart. Free to embed."
+        description="Compare all 6 NDT methods: UT, RT, MT, PT, ET, VT. Detection, materials, cost, speed, skill level in one reference chart. Free to embed."
         canonical="https://atlantisndt.com/tools/ndt-quick-reference"
         structuredData={{
           "@context": "https://schema.org",

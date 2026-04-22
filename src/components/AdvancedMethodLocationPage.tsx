@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useMemo, useEffect } from "react";
 import { Navigation } from "./Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "./SEOHead";
 import { keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
@@ -194,6 +195,7 @@ export default function AdvancedMethodLocationPage() {
     return (
       <div className="min-h-screen bg-background">
         <Navigation />
+      <PillarHubNav />
         <div className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-3xl font-bold">Page Not Found</h1>
           <p className="mt-4 text-muted-foreground">The requested inspection service page could not be found.</p>
@@ -250,6 +252,7 @@ export default function AdvancedMethodLocationPage() {
         canonical={`https://atlantisndt.com/services/${slug}`}
       />
       <Navigation />
+      <PillarHubNav />
 
       {/* Breadcrumbs */}
       <div className="bg-muted/30 border-b">

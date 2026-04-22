@@ -41,7 +41,7 @@ export default function TrainingRequirementsMatrix() {
       <Navigation />
       <SEOHead
         title="NDT Training Requirements Matrix | Hours by Method & Level | Free Download"
-        description="Free NDT training requirements matrix showing minimum classroom and OJT hours for ASNT SNT-TC-1A, ISO 9712, and PCN. Compare requirements across methods (UT, RT, MT, PT, VT, ET) and certification levels (I, II, III)."
+        description="Free NDT training requirements matrix showing minimum classroom and OJT hours for ASNT SNT-TC-1A, ISO 9712, and PCN. Compare requirements across methods (UT."
         keywords="NDT training hours, ASNT training requirements, ISO 9712 training hours, PCN training requirements, NDT certification hours, UT training hours, RT training hours, NDT OJT requirements"
         canonical="https://atlantisndt.com/resources/training-requirements-matrix"
         structuredData={structuredData}

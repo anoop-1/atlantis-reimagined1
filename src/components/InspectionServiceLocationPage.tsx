@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -323,6 +324,7 @@ export const InspectionServiceLocationPage = () => {
     return (
       <div className="min-h-screen bg-slate-950 flex items-center justify-center">
         <Navigation />
+      <PillarHubNav />
         <div className="text-center text-white">
           <h1 className="text-4xl font-bold mb-4">Page Not Found</h1>
           <p className="text-xl mb-8">This inspection service page could not be found.</p>
@@ -383,6 +385,7 @@ export const InspectionServiceLocationPage = () => {
         noindex={!isCuratedCity(citySlug)}
       />
       <Navigation />
+      <PillarHubNav />
 
       <div className="pt-20">
         <Breadcrumbs

@@ -218,7 +218,7 @@ export default function NDTROICalculator() {
     <div className="min-h-screen bg-slate-50">
       <SEOHead
         title="NDT Inspection ROI Calculator | Time-Based vs Risk-Based Savings | Atlantis NDT"
-        description="Calculate the ROI of switching from time-based to risk-based inspection. Input your asset counts and see annual savings, failure prevention, and 5-year cumulative cost comparison for refineries, pipelines, and offshore platforms."
+        description="Calculate the ROI of switching from time-based to risk-based inspection. Input your asset counts and see annual savings, failure prevention, and 5-year."
         keywords="NDT ROI calculator, risk based inspection savings, RBI vs TBI, inspection cost reduction, asset integrity ROI, plant inspection optimization"
         canonical="https://atlantisndt.com/tools/ndt-roi-calculator"
         structuredData={structuredData}

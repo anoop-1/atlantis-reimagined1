@@ -14,6 +14,8 @@ const IndustryLocationPage = lazy(() => import("./components/IndustryLocationPag
 const InspectionServiceLocationPage = lazy(() => import("./components/InspectionServiceLocationPage"));
 const CertTrainingLocationPage = lazy(() => import("./components/CertTrainingLocationPage"));
 const DynamicCityRoute = lazy(() => import("./components/DynamicCityRoute"));
+const DynamicCorporateTrainingRoute = lazy(() => import("./components/DynamicCorporateTrainingRoute"));
+const CorporateNDTTraining = lazy(() => import("./pages/CorporateNDTTraining"));
 
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
@@ -46,6 +48,12 @@ const FAQPage = lazy(() => import("./pages/FAQ"));
 const NDTMethodsPage = lazy(() => import("./pages/NDTMethods"));
 const HyderabadTraining = lazy(() => import("./pages/HyderabadTraining"));
 const CaseStudies = lazy(() => import("./pages/CaseStudies"));
+// Method + Training pillar hubs (clean-slug pillar pages for head-term SEO)
+const NDTTrainingHub = lazy(() => import("./pages/NDTTrainingHub"));
+const UltrasonicTestingHub = lazy(() => import("./pages/UltrasonicTestingHub"));
+const MagneticParticleTestingHub = lazy(() => import("./pages/MagneticParticleTestingHub"));
+const RadiographicTestingHub = lazy(() => import("./pages/RadiographicTestingHub"));
+const EddyCurrentTestingHub = lazy(() => import("./pages/EddyCurrentTestingHub"));
 
 // Loading component for lazy-loaded pages - prevents FOUC with solid background
 const PageLoader = () => (
@@ -809,6 +817,16 @@ const NdtReportingSoftwareComparison = lazy(() => import("./pages/ndt-reporting-
 const DigitalTwinNdtSoftware = lazy(() => import("./pages/digital-twin-ndt-software"));
 const NdtSoftwareFeatures = lazy(() => import("./pages/ndt-software-features"));
 const NdtDataManagement = lazy(() => import("./pages/ndt-data-management"));
+const DigitalTwinsNdtGuide2026 = lazy(() => import("./pages/DigitalTwinsNdtGuide2026"));
+const DigitalTwinVs3dModel = lazy(() => import("./pages/DigitalTwinVs3dModel"));
+const DigitalTwinRoiCalculator = lazy(() => import("./pages/DigitalTwinRoiCalculator"));
+const DigitalTwinReadinessQuiz = lazy(() => import("./pages/DigitalTwinReadinessQuiz"));
+const DigitalTwinVendorComparison = lazy(() => import("./pages/DigitalTwinVendorComparison"));
+const DigitalTwinApiMapping = lazy(() => import("./pages/DigitalTwinApiMapping"));
+const NdtErpVsGenericErp = lazy(() => import("./pages/NdtErpVsGenericErp"));
+const NdtErpIntegrationMatrix = lazy(() => import("./pages/NdtErpIntegrationMatrix"));
+const NdtErpRoiCalculator = lazy(() => import("./pages/NdtErpRoiCalculator"));
+const NdtErpImplementationTimeline = lazy(() => import("./pages/NdtErpImplementationTimeline"));
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -1612,6 +1630,17 @@ const App = () => (
                   <Route path="/digital-twin-ndt-software" element={<LazyRoute Component={DigitalTwinNdtSoftware} />} />
                   <Route path="/ndt-software-features" element={<LazyRoute Component={NdtSoftwareFeatures} />} />
                   <Route path="/ndt-data-management" element={<LazyRoute Component={NdtDataManagement} />} />
+                  <Route path="/ndt-erp-vs-generic-erp" element={<LazyRoute Component={NdtErpVsGenericErp} />} />
+                  <Route path="/ndt-erp-integration-matrix" element={<LazyRoute Component={NdtErpIntegrationMatrix} />} />
+                  <Route path="/ndt-erp-roi-calculator" element={<LazyRoute Component={NdtErpRoiCalculator} />} />
+                  <Route path="/ndt-erp-implementation-timeline" element={<LazyRoute Component={NdtErpImplementationTimeline} />} />
+                  {/* === Digital Twin NDT content cluster (2026) === */}
+                  <Route path="/digital-twins-ndt-guide-2026" element={<LazyRoute Component={DigitalTwinsNdtGuide2026} />} />
+                  <Route path="/digital-twin-vs-3d-model-ndt" element={<LazyRoute Component={DigitalTwinVs3dModel} />} />
+                  <Route path="/digital-twin-roi-calculator" element={<LazyRoute Component={DigitalTwinRoiCalculator} />} />
+                  <Route path="/digital-twin-readiness-quiz" element={<LazyRoute Component={DigitalTwinReadinessQuiz} />} />
+                  <Route path="/digital-twin-vendor-comparison" element={<LazyRoute Component={DigitalTwinVendorComparison} />} />
+                  <Route path="/digital-twin-api-510-570-580-mapping" element={<LazyRoute Component={DigitalTwinApiMapping} />} />
                   {/* === DYNAMIC PROGRAMMATIC SEO ROUTES (1,120+ pages) === */}
                   {/* Advanced NDT Methods + Location: PAUT, TOFD, Guided Wave, AE, MFL × 100 cities */}
                   <Route path="/services/:slug" element={<LazyRoute Component={AdvancedMethodLocationPage} />} />
@@ -1621,6 +1650,15 @@ const App = () => (
                   <Route path="/inspection/:slug" element={<LazyRoute Component={InspectionServiceLocationPage} />} />
                   {/* Certification Training + Location: API 510/570/653, ASNT, CWI × 20 cities */}
                   <Route path="/training/:slug" element={<LazyRoute Component={CertTrainingLocationPage} />} />
+                  {/* Corporate NDT Training hub + per-city subpages (60+ cities) */}
+                  <Route path="/corporate-ndt-training" element={<LazyRoute Component={CorporateNDTTraining} />} />
+                  <Route path="/corporate-ndt-training/:slug" element={<LazyRoute Component={DynamicCorporateTrainingRoute} />} />
+                  {/* Method + Training Pillar Hubs — head-term pillar pages */}
+                  <Route path="/ndt-training" element={<LazyRoute Component={NDTTrainingHub} />} />
+                  <Route path="/ultrasonic-testing" element={<LazyRoute Component={UltrasonicTestingHub} />} />
+                  <Route path="/magnetic-particle-testing" element={<LazyRoute Component={MagneticParticleTestingHub} />} />
+                  <Route path="/radiographic-testing" element={<LazyRoute Component={RadiographicTestingHub} />} />
+                  <Route path="/eddy-current-testing" element={<LazyRoute Component={EddyCurrentTestingHub} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>

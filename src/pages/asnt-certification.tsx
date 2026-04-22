@@ -115,11 +115,12 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT NDT Certification 2026: Level I/II/III Cost, Hours, Exam & Salary"
-                description="Complete ASNT certification roadmap 2026: SNT-TC-1A vs ACCP, method hours (UT 40h, RT 40h, MT 16h), exam fees $280–$540, Level III path, salary $45K–$150K+. By ASNT Level III Anoop Rayavarapu."
+                title="ASNT Level I/II/III 2026: Fees $280–$540, Pass 91%"
+                description="ASNT certification roadmap 2026: SNT-TC-1A vs ACCP, UT/RT 40h + MT 16h hours, exam fees $280–$540, 91% first-attempt pass rate, Level III path, salary to $150K+."
                 keywords="ASNT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, ACCP certification, ASNT Level II, ASNT training, NDT Level III certification, ASNT consulting, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III, asnt level iii consulting"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}
+                faq={faqs}
             />
             <Breadcrumbs />
 

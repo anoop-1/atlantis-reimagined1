@@ -158,8 +158,8 @@ export default function ConsultingServices() {
       <div className="min-h-screen pt-20 bg-gray-50">
          <Navigation />
          <SEOHead
-            title="ASNT Level III NDT Consulting Services | Independent Technical Authority | Atlantis NDT"
-            description="Independent ASNT Level III NDT consulting services for compliance, quality & risk reduction. Remote technical authority for NDT companies, fabricators, EPCs, shipyards worldwide. US, Middle East, India coverage."
+            title="NDT Consulting 2026: Expert ASNT Level III Authority in 48 Hours"
+            description="Proven ASNT Level III NDT consulting: procedures, audits, compliance, risk cuts. Remote technical authority worldwide. Same-week start. Request a quote."
             keywords="ASNT Level III consultant, NDT consulting services, Level III NDT consulting, independent NDT technical authority, NDT procedure development, NDT audit support, ASNT SNT-TC-1A consultant, ISO 9712 consultant, outsourced Level III, NDT compliance consulting, remote NDT consulting, third-party NDT opinion"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/consulting"

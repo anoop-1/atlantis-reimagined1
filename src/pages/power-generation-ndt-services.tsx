@@ -23,7 +23,7 @@ export default function PowerGenerationNdtServices() {
       <Navigation />
       <SEOHead
         title="Power Generation NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Power Generation NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Turbine, boiler, and power plant inspection"
+        description="Professional Power Generation NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Turbine, boiler."
         keywords="Power Generation NDT Services NDT services, Power Generation NDT Services inspection, NDT testing Power Generation NDT Services"
         canonical="https://atlantisndt.com/power-generation-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}

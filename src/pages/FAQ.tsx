@@ -117,7 +117,7 @@ export default function FAQPage() {
 
             <SEOHead
                 title="NDT FAQ | Common Questions About Non-Destructive Testing"
-                description="Get answers to frequently asked questions about Non-Destructive Testing, NDT training & certification, and our consulting services. Learn about UT, RT, MT, PT, ET, and VT methods."
+                description="Get answers to frequently asked questions about Non-Destructive Testing, NDT training & certification, and our consulting services. Learn about UT, RT, MT."
                 keywords="NDT FAQ, what is NDT, NDT testing questions, NDT certification FAQ, ASNT certification questions, ultrasonic testing questions, radiographic testing FAQ, NDT training FAQ"
                 canonical="https://atlantisndt.com/faq"
                 structuredData={structuredData}

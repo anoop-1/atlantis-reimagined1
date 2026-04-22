@@ -95,7 +95,7 @@ export default function TrainingIndia() {
             <Navigation />
             <SEOHead
                 title="NDT Training India | Best NDT Institute Mumbai Chennai Bangalore"
-                description="Professional ASNT SNT-TC-1A NDT training in India. Level I & II training with certification, Level III training only. Ultrasonic, radiographic, magnetic particle testing courses. Fast-track certification Mumbai, Chennai, Bangalore, Delhi."
+                description="Professional ASNT SNT-TC-1A NDT training in India. Level I & II training with certification, Level III training only. Ultrasonic, radiographic, magnetic."
                 keywords="NDT training India, best NDT institute India, NDT courses Mumbai, NDT training Chennai, NDT certification Bangalore, ultrasonic testing training India, ASNT Level II India, radiographic testing course India, NDT technician training, welding inspector certification India, NDT Level III India"
                 canonical="https://atlantisndt.com/training-india"
                 structuredData={courseSchema}

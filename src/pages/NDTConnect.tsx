@@ -122,7 +122,7 @@ export default function NDTConnect() {
          <Navigation />
          <SEOHead
             title="NDTConnect: Cloud Inspection Management Software — Reduce Report Time 70%"
-            description="NDTConnect cloud platform: digital inspection reports, real-time collaboration, compliance dashboards, digital twin integration. Trusted by 50+ oil & gas companies. Book a free demo — see results in 2 weeks."
+            description="NDTConnect cloud platform: digital inspection reports, real-time collaboration, compliance dashboards, digital twin. Book a free demo — see results in 2."
             keywords="NDT Connect, NTD Connect, NDT reporting software, NDT inspection software, NDT management platform, asset tracking NDT, inspection management system, digital NDT reports, oil gas inspection software, NDT Connect platform, non-destructive testing software, NDT data management, mro ndt solution"
             structuredData={structuredData}
             canonical="https://ndt-connect.com"

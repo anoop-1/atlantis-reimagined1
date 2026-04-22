@@ -100,7 +100,7 @@ export default function EddyCurrentTubeInspection() {
       <Navigation />
       <SEOHead
         title="Eddy Current Tube Inspection | Heat Exchanger ECT, RFEC & Tube Testing | Atlantis NDT"
-        description="Expert eddy current tube inspection services: ECT for non-ferrous tubes, RFEC for carbon steel, full heat exchanger inspection. API 510 compliant reports. Fast turnaround. Get a quote from Atlantis NDT."
+        description="Expert eddy current tube inspection services: ECT for non-ferrous tubes, RFEC for carbon steel, full heat exchanger inspection. Get a quote from Atlantis NDT."
         keywords="eddy current tube inspection, heat exchanger tube inspection, ECT tube testing, eddy current tube testing, RFEC tube inspection, remote field eddy current, heat exchanger NDT, tube inspection NDT, eddy current testing of tubes, eddy current tube inspection heat exchanger, boiler tube inspection ECT, condenser tube inspection, tube inspection oil gas, baffle wear inspection, API 510 tube inspection"
         canonical="https://atlantisndt.com/eddy-current-tube-inspection"
         structuredData={structuredData}

@@ -113,7 +113,7 @@ export default function ConsultingServicesIndia() {
             <Navigation />
             <SEOHead
                 title="NDT Consulting India | Level III Services Mumbai Chennai Bangalore"
-                description="Professional NDT Level III consulting in India. ISO 9712 & BIS certified. Welding inspection, pressure vessel testing, boiler regulations 2020 compliance. Manufacturing sector NDT services Mumbai, Chennai, Bangalore."
+                description="Professional NDT Level III consulting in India. ISO 9712 & BIS certified. Welding inspection, pressure vessel testing, boiler regulations 2020 compliance."
                 keywords="NDT consulting India, NDT consulting Mumbai, NDT services Chennai, NDT inspection Bangalore, ISO 9712 India, welding inspection India, pressure vessel testing, boiler inspection India, manufacturing NDT, BIS certified NDT, quality control India"
                 canonical="https://atlantisndt.com/consulting-india"
                 structuredData={serviceSchema}

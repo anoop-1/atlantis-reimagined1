@@ -71,7 +71,7 @@ export default function ASNTCareerGuide() {
             <Navigation />
             <SEOHead
                 title="NDT Career Guide 2026: Entry to Expert — Level I/II/III & Salary Growth [Updated]"
-                description="Complete NDT career roadmap: ASNT certification levels, salary progression ($45K-$150K+), job growth (+15% in oil & gas), best industries, and how to advance. Global opportunities included."
+                description="Complete NDT career roadmap: ASNT certification levels, salary progression ($45K-$150K+), job growth (+15% in oil & gas), best industries, and how to advance."
                 keywords="NDT career, ASNT certification, NDT salary, NDT jobs, NDT technician career, Level III NDT, non-destructive testing career, NDT training"
                 canonical="https://atlantisndt.com/blog/ndt-career-guide"
                 structuredData={structuredData}

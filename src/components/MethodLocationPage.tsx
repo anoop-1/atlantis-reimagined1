@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -325,6 +326,7 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
     return (
         <div className="min-h-screen bg-slate-50">
             <Navigation />
+      <PillarHubNav />
             <SEOHead
                 title={pageTitle}
                 description={pageDesc}

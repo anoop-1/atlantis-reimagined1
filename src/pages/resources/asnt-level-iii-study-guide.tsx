@@ -41,7 +41,7 @@ export default function ASNTLevelIIIStudyGuide() {
       <Navigation />
       <SEOHead
         title="ASNT Level III Study Guide | Exam Prep Overview | Free Download"
-        description="Free ASNT Level III exam study guide. Covers Basic and Specific exam formats, topic areas by method (UT, RT, MT, PT, VT, ET), key standards, study strategies, common failure areas, and exam-day tips."
+        description="Free ASNT Level III exam study guide. Covers Basic and Specific exam formats, topic areas by method (UT, RT, MT, PT, VT, ET), key standards, study strategies."
         keywords="ASNT Level III study guide, ASNT Level 3 exam prep, ASNT Level III topics, NDT Level III certification, ASNT Basic exam, ASNT Specific exam, SNT-TC-1A Level III"
         canonical="https://atlantisndt.com/resources/asnt-level-iii-study-guide"
         structuredData={structuredData}

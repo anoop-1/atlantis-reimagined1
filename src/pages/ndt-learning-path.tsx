@@ -269,7 +269,7 @@ export default function NDTLearningPath() {
       <Navigation />
       <SEOHead
         title="NDT Learning Path | From Beginner to Level III Expert | Free Guide | Atlantis NDT"
-        description="Structured NDT learning roadmap: 5 stages from complete beginner to Level III expert. Timeline, learning objectives, recommended resources, and salary progression ($48K to $180K+) at each stage."
+        description="Structured NDT learning roadmap: 5 stages from complete beginner to Level III expert. Timeline, learning objectives, recommended resources, and salary."
         keywords="ndt learning path, how to learn ndt, ndt career roadmap, ndt beginner guide, ndt certification path, ndt level 1 to level 3, ndt training plan, ndt career progression, become ndt technician, ndt study guide"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-learning-path"

@@ -23,7 +23,7 @@ export default function ConstructionNdtServices() {
       <Navigation />
       <SEOHead
         title="Construction NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Construction NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Structural and weld inspection services"
+        description="Professional Construction NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Structural and weld."
         keywords="Construction NDT Services NDT services, Construction NDT Services inspection, NDT testing Construction NDT Services"
         canonical="https://atlantisndt.com/construction-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}

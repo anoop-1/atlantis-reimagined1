@@ -41,7 +41,7 @@ export default function NDTInspectionChecklist() {
       <Navigation />
       <SEOHead
         title="NDT Inspection Checklist | Pre-Inspection to Reporting | Free Download"
-        description="Free NDT inspection checklist PDF covering pre-inspection planning, equipment calibration, during-inspection procedures, post-inspection reporting, and code-specific reminders for ASME, API 510/570/653."
+        description="Free NDT inspection checklist PDF: pre-inspection planning, calibration, during-inspection procedures, reporting, and ASME/API code reminders."
         keywords="NDT inspection checklist, NDT checklist PDF, pre-inspection checklist, NDT reporting checklist, ASME Section V checklist, API inspection checklist, free NDT download"
         canonical="https://atlantisndt.com/resources/ndt-inspection-checklist"
         structuredData={structuredData}

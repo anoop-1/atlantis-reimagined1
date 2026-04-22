@@ -103,11 +103,12 @@ export default function UTvsRTComparison() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="UT vs RT 2026: 14-Point Comparison — POD, Speed, Cost, Codes, When to Use Each"
-                description="Ultrasonic Testing vs Radiographic Testing — POD 80-95% vs 70-90%, sensitivity by crack orientation, weld inspection per AWS D1.1 & ASME V, cost/ft, safety (no radiation), training hours. PAUT replacing RT — when. By ASNT Level III."
-                keywords="UT vs RT, ultrasonic vs radiographic, NDT comparison, UT advantages, RT disadvantages, PAUT vs film, weld inspection methods"
+                title="RT vs UT Weld Inspection 2026: Cost, Accuracy & Speed"
+                description="RT vs UT weld inspection 2026: UT POD 80-95% vs RT 70-90%, UT $2-4/ft vs RT $8-15/ft, UT 10x faster, AWS D1.1 & ASME V coverage, side-by-side numbers."
+                keywords="UT vs RT, RT vs UT, ultrasonic vs radiographic, NDT comparison, UT advantages, RT disadvantages, PAUT vs film, weld inspection methods, rt vs ut weld inspection"
                 canonical="https://atlantisndt.com/blog/ut-vs-rt-comparison"
                 structuredData={structuredData}
+                faq={faqs}
             />
             <Breadcrumbs />
 

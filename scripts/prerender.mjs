@@ -91,11 +91,20 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, body
     out = out.replace('</head>', `${sdTag}\n</head>`);
   }
 
-  // Replace static body fallback content if provided
+  // Replace static body fallback content if provided.
+  // Use a function replacer so literal `$` in bodyContent (e.g. "$1800") is
+  // NOT interpreted as a regex backref like $1 — this previously corrupted
+  // any pricing string starting with $1, $2, $& etc.
   if (bodyContent) {
+    // Always append a 5-pillar hub link row so every prerendered page exposes
+    // internal links to /consulting, /ndt-training, /digital-twins,
+    // /best-ndt-reporting-software-2026, /ndt-erp-solution — this funnels
+    // head-term link equity into the pillar hubs across all ~2,477 pages.
+    const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/ndt-training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>`;
+    const augmentedBody = bodyContent + PILLAR_NAV;
     out = out.replace(
       /(<div id="root">)[\s\S]*?(<\/div>\s*<script)/,
-      `$1\n${bodyContent}\n$2`
+      (_match, open, close) => `${open}\n${augmentedBody}\n${close}`
     );
   }
 
@@ -430,6 +439,42 @@ const corePages = [
     description: 'Latest news, press releases, and media coverage of Atlantis NDT. Industry announcements, partnership news, and company updates.',
     bodyH1: 'Press & Media',
     bodyText: 'Latest news and press releases from Atlantis NDT. Industry announcements and company updates.',
+  },
+  // ── Method + Training Pillar Hubs (head-term pillars) ────────────────────
+  {
+    path: '/ndt-training',
+    title: 'NDT Training & Certification 2026: UT, RT, MT, PT, VT, ET',
+    description: 'ASNT Level I/II/III training across 6 NDT methods + PAUT/TOFD. Online, onsite, blended. $800–$3,000 per course. 91% first-attempt pass rate.',
+    bodyH1: 'NDT Training & Certification 2026',
+    bodyText: 'Pillar hub for NDT training — six ASNT methods (UT, RT, MT, PT, VT, ET) across Level I, II, and III. SNT-TC-1A, ACCP, and ISO 9712 pathways. Online, onsite, and blended delivery in Houston, Dubai, Hyderabad, and Riyadh. 91% first-attempt pass rate, 1,200+ graduates since 2018.',
+  },
+  {
+    path: '/ultrasonic-testing',
+    title: 'Ultrasonic Testing (UT) 2026: Services, Training, Equipment Guide',
+    description: 'Ultrasonic testing services & training in 20+ countries. PAUT, TOFD, thickness gauging. ASNT Level II/III inspectors. Reports 24-48h turnaround.',
+    bodyH1: 'Ultrasonic Testing (UT) Services, Training & Equipment 2026',
+    bodyText: 'UT pillar hub — high-frequency sound wave inspection for weld flaws, thickness, and corrosion. Conventional UT, PAUT, TOFD, guided wave services with ASNT Level II and III certified crews in 20+ countries. Full code coverage: ASME Section V Article 4, AWS D1.1, API 1104, EN/ISO 17640.',
+  },
+  {
+    path: '/magnetic-particle-testing',
+    title: 'Magnetic Particle Testing (MT) 2026: Services, Training, Yokes & WFMT',
+    description: 'Magnetic particle inspection of welds, castings & forgings. Wet fluorescent & dry visible. ASME V Article 7, ASTM E709, AWS D1.1. ASNT Level II crews.',
+    bodyH1: 'Magnetic Particle Testing (MT) 2026: Services, Training & Technique',
+    bodyText: 'MT pillar hub — surface and near-surface crack detection on ferromagnetic materials. Dry visible and wet fluorescent (WFMT) techniques. Yoke, prod, central conductor, and bench unit methods. ASME V Article 7, ASTM E709, ASTM E1444, AWS D1.1 Clause 8, API 1104 compliance.',
+  },
+  {
+    path: '/radiographic-testing',
+    title: 'Radiographic Testing (RT) 2026: Film, CR, DR Services & Safety Codes',
+    description: 'Industrial radiography: Ir-192, Se-75, Co-60, X-ray. Film, CR, DR on welds & castings. ASME V Article 2, API 1104, 10 CFR 34. Licensed radiographers.',
+    bodyH1: 'Radiographic Testing (RT) 2026: Services, Safety & Code Compliance',
+    bodyText: 'RT pillar hub — volumetric weld inspection using Ir-192, Se-75, Co-60, and X-ray sources. Film, computed radiography (CR), and digital radiography (DR) workflows. Licensed radiographers in 20+ countries. ASME V Article 2, API 1104, AWS D1.1, and NRC/FANR/AERB compliant radiation safety programs.',
+  },
+  {
+    path: '/eddy-current-testing',
+    title: 'Eddy Current Testing (ECT) 2026: Tube Inspection, ECA, RFT Services',
+    description: 'Eddy current testing for heat exchangers, welds, coatings & aerospace. Conventional ECT, ECA, RFT, NFA. ASME V Article 8, ASTM E309. ASNT Level II/III.',
+    bodyH1: 'Eddy Current Testing (ECT) 2026: Tubes, Welds, Aerospace & Coatings',
+    bodyText: 'ECT pillar hub — electromagnetic NDT for conductive materials. Conventional ECT, Eddy Current Array (ECA), Remote Field Testing (RFT), Near-Field Array (NFA), MFL, and pulsed ECT. Heat exchanger tube inspection, aerospace fastener-hole inspection, non-ferrous weld inspection, and conductivity/thickness measurement. ASME V Article 8, ASTM E309/E571/E3052, NAS 410, ISO 15549 compliant.',
   },
 ];
 
@@ -1097,6 +1142,14 @@ const extraPages = [
 
   // NOTE: Certification practice questions are now loaded from src/data/certification-practice.json
   // and rendered via the blog pipeline alongside regular blogs (see line ~127)
+
+  // === Digital Twin NDT content cluster (2026) ===
+  { path: '/digital-twins-ndt-guide-2026', title: 'Digital Twin NDT Guide 2026: 5-Stage Maturity Model', description: '3,000-word 2026 pillar guide to digital twins in NDT: 5-stage maturity model, sensor stack, API 510/570/580/579 alignment, 6 vendor profiles, ROI data.' },
+  { path: '/digital-twin-vs-3d-model-ndt', title: 'Digital Twin vs 3D Model in NDT: 13-Point 2026 Comparison', description: 'Digital twin vs 3D model in NDT, compared across 13 dimensions: data flow, tech stack, ROI, governance, cost. Which does your asset integrity program need?' },
+  { path: '/digital-twin-roi-calculator', title: 'Digital Twin ROI Calculator 2026: Free 8-Input NDT Tool', description: 'Free 2026 digital twin ROI calculator: enter 8 inputs, get baseline cost, 20/35/50% savings scenarios, and break-even in months. No signup.' },
+  { path: '/digital-twin-readiness-quiz', title: 'Digital Twin Readiness Quiz 2026: 10-Question Score (Free)', description: 'Free 10-question quiz scoring your NDT digital twin readiness 0-30 across 4 maturity bands. Get a tailored next-step recommendation. 2026 edition.' },
+  { path: '/digital-twin-vendor-comparison', title: 'Digital Twin Platform Comparison 2026: 6 NDT Vendors Rated', description: '2026 digital twin platform matrix: Antea, Mistras OneSuite, Hexagon, IBM Maximo APM, Bentley iTwin, Atlantis NDT. Pricing, NDT fit, integrations, best-fit.' },
+  { path: '/digital-twin-api-510-570-580-mapping', title: 'Digital Twin API 510/570/580 Mapping 2026: 5 Codes', description: '2026 clause-by-clause map of how a digital twin satisfies API 510, 570, 580, 581, and 579-1 requirements. For integrity engineers and Level IIIs.' },
 ];
 
 extraPages.forEach(p => {
@@ -1749,6 +1802,183 @@ additionalTrainingPages.forEach(p => {
   });
 });
 
+// ─── Corporate NDT Training (hub + per-city subpages) ────────────────────
+// Hub page + 60+ curated city subpages with UNIQUE prerendered content so
+// Google doesn't flag doorway/duplicate pages. Data mirrors the TS source
+// in src/data/corporate-training-seo.ts + src/data/city-profiles.ts.
+
+const corporateTrainingHub = {
+  path: '/corporate-ndt-training',
+  title: 'Corporate NDT Training 2026 | Onsite & Online | 55+ Cities',
+  description: 'Corporate NDT training for teams — onsite at your facility, online, or blended. ASNT SNT-TC-1A + ISO 9712 aligned. Group rates from $1,800/person. 55+ cities across USA, Middle East, Asia, Europe, Australia.',
+  canonical: `${SITE_URL}/corporate-ndt-training`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>
+  <main>
+    <h1>Corporate NDT Training for Teams — 55+ Cities</h1>
+    <p>Book ASNT SNT-TC-1A and ISO 9712 aligned NDT training for your entire inspection crew. We deliver onsite at your plant or yard, fully online with live virtual labs, or blended — the theory online and the practical hands-on at your site or ours.</p>
+    <p>Methods covered: UT, PAUT, TOFD, RT, MT, PT, ET, VT, MFL, AE, guided wave, thermography. Levels I, II and III. Certification bodies: ASNT (CP-189 + SNT-TC-1A), ISO 9712, PCN, CSWIP, and API 510/570/653 for inspector pathways. Batch sizes from 4 to 25 engineers. Onsite delivery available in the US Gulf Coast, Middle East, India, UK North Sea, Norway, the Netherlands, Canada, Australia, Singapore, Malaysia and West Africa.</p>
+    <p>Group pricing from $1,800 per person for Level II online; $2,600 for blended; and $3,200-$5,500 for onsite depending on city, batch size and method count. Full enterprise packages for Aramco, ADNOC, Shell, BP, Chevron, ExxonMobil, QatarEnergy, KOC, PDO, ONGC, Reliance, and EPC contractors.</p>
+    <p>Pick a city for local delivery details, employers we already train, typical batch sizes, and local pricing: <a href="/corporate-ndt-training/houston">Houston</a>, <a href="/corporate-ndt-training/dubai">Dubai</a>, <a href="/corporate-ndt-training/abu-dhabi">Abu Dhabi</a>, <a href="/corporate-ndt-training/mumbai">Mumbai</a>, <a href="/corporate-ndt-training/hyderabad">Hyderabad</a>, <a href="/corporate-ndt-training/chennai">Chennai</a>, <a href="/corporate-ndt-training/aberdeen">Aberdeen</a>, <a href="/corporate-ndt-training/singapore">Singapore</a>, <a href="/corporate-ndt-training/muscat">Muscat</a>, <a href="/corporate-ndt-training/jubail">Jubail</a>, <a href="/corporate-ndt-training/calgary">Calgary</a>, <a href="/corporate-ndt-training/london">London</a>, <a href="/corporate-ndt-training/rotterdam">Rotterdam</a>, <a href="/corporate-ndt-training/perth">Perth</a>.</p>
+  </main>`,
+};
+routes.push(corporateTrainingHub);
+
+// Country archetype: anchor industries, typical employers, pricing, cert bodies.
+const corpCountryArchetypes = {
+  US: { industries: 'oil & gas, petrochemical, aerospace, power generation', employers: 'Shell, Chevron, ExxonMobil, Phillips 66, Marathon, Boeing, Lockheed Martin', certs: 'ASNT SNT-TC-1A, CP-189, API 510/570/653', priceLow: 2400, priceHigh: 5800, batch: '6-18' },
+  CA: { industries: 'oil sands, pipelines, heavy industrial, LNG', employers: 'Suncor, Cenovus, Imperial Oil, Enbridge, TC Energy', certs: 'ASNT SNT-TC-1A, CGSB ISO 9712, API 510/570/653', priceLow: 2600, priceHigh: 6000, batch: '6-16' },
+  GB: { industries: 'North Sea oil & gas, nuclear, offshore wind, aerospace', employers: 'BP, Shell UK, TotalEnergies, Rolls-Royce, Babcock', certs: 'PCN, ISO 9712, CSWIP', priceLow: 2200, priceHigh: 5400, batch: '6-18' },
+  NO: { industries: 'North Sea oil & gas, subsea, offshore wind', employers: 'Equinor, Aker BP, TechnipFMC, Subsea 7', certs: 'NS-EN ISO 9712, NORSOK', priceLow: 2800, priceHigh: 6400, batch: '6-14' },
+  NL: { industries: 'petrochemical, port infrastructure, maritime', employers: 'Shell Pernis, BP Rotterdam, Huntsman, Dow', certs: 'EN ISO 9712, Stichting Hobéon', priceLow: 2200, priceHigh: 5200, batch: '6-16' },
+  AE: { industries: 'upstream oil & gas, petrochemical, nuclear, aerospace', employers: 'ADNOC, Borouge, ENOC, EGA, GASCO', certs: 'ASNT SNT-TC-1A, ISO 9712, ADNOC ICV', priceLow: 1800, priceHigh: 4600, batch: '8-20' },
+  SA: { industries: 'upstream, refining, petrochemical, mining', employers: 'Saudi Aramco, SABIC, Ma\'aden, Petro Rabigh', certs: 'ASNT, ISO 9712, Saudi Aramco SAEP', priceLow: 1800, priceHigh: 4800, batch: '8-22' },
+  QA: { industries: 'LNG, petrochemical, offshore', employers: 'QatarEnergy, QatarEnergy LNG, Qapco, QAFAC', certs: 'ASNT, ISO 9712, QatarEnergy CP', priceLow: 1900, priceHigh: 4600, batch: '8-20' },
+  KW: { industries: 'upstream, refining, petrochemical', employers: 'KOC, KNPC, PIC, KPC', certs: 'ASNT, ISO 9712', priceLow: 1800, priceHigh: 4400, batch: '8-18' },
+  OM: { industries: 'oil & gas, LNG, mining, refining', employers: 'PDO, OQ, Oman LNG, Daleel Petroleum', certs: 'ASNT, ISO 9712', priceLow: 1700, priceHigh: 4200, batch: '8-18' },
+  BH: { industries: 'oil refining, aluminum, banking-region industrial', employers: 'Bapco, Alba, GPIC, Tatweer Petroleum', certs: 'ASNT, ISO 9712', priceLow: 1700, priceHigh: 4200, batch: '6-14' },
+  IQ: { industries: 'upstream oil, refining, reconstruction', employers: 'Basrah Oil Company, SOMO, South Refineries, Shell Majnoon', certs: 'ASNT, ISO 9712', priceLow: 1600, priceHigh: 4000, batch: '6-16' },
+  IN: { industries: 'refining, fertilizer, power, shipbuilding, aerospace', employers: 'Reliance, ONGC, IOCL, BPCL, HPCL, L&T, HAL', certs: 'ASNT SNT-TC-1A, ISO 9712, ISNT', priceLow: 900, priceHigh: 2800, batch: '10-25' },
+  SG: { industries: 'refining, marine/offshore, aerospace MRO', employers: 'ExxonMobil Jurong, Shell Pulau Bukom, Seatrium, ST Engineering', certs: 'ASNT, ISO 9712, CSWIP, PCN', priceLow: 2000, priceHigh: 4800, batch: '6-16' },
+  MY: { industries: 'oil & gas, LNG, petrochemical, offshore fabrication', employers: 'Petronas, MISC, Malaysia Marine and Heavy Engineering, Sapura', certs: 'ASNT, ISO 9712, PCN', priceLow: 1400, priceHigh: 3800, batch: '8-18' },
+  AU: { industries: 'LNG, mining, iron ore, offshore oil & gas', employers: 'Woodside, Chevron Australia, Rio Tinto, BHP, Santos', certs: 'AINDT ISO 9712, ASNT', priceLow: 2600, priceHigh: 6000, batch: '6-14' },
+  NZ: { industries: 'dairy process, geothermal, shipyards, infrastructure', employers: 'Fonterra, Methanex, Refining NZ, KiwiRail', certs: 'CBIP ISO 9712, ASNT', priceLow: 2400, priceHigh: 5400, batch: '6-12' },
+  NG: { industries: 'upstream oil, LNG, marine, refining', employers: 'NNPC, Shell SPDC, Chevron Nigeria, ExxonMobil, Dangote Refinery', certs: 'ASNT, ISO 9712', priceLow: 1600, priceHigh: 4000, batch: '8-18' },
+  FR: { industries: 'nuclear, aerospace, refining, rail', employers: 'TotalEnergies, EDF, Airbus, Safran, Framatome', certs: 'COFREND ISO 9712, ASNT', priceLow: 2400, priceHigh: 5400, batch: '6-14' },
+  ES: { industries: 'refining, shipbuilding, renewables, aerospace', employers: 'Repsol, Cepsa, Navantia, Airbus Espana', certs: 'ISO 9712, ASNT', priceLow: 2000, priceHigh: 4600, batch: '6-14' },
+  IT: { industries: 'refining, shipyards, aerospace, steel', employers: 'Eni, Saipem, Fincantieri, Leonardo', certs: 'ISO 9712, ASNT', priceLow: 2100, priceHigh: 4800, batch: '6-14' },
+  GR: { industries: 'shipping, port, refining, petrochemical', employers: 'Hellenic Petroleum, Motor Oil Hellas, Piraeus Port', certs: 'ISO 9712, ASNT', priceLow: 1900, priceHigh: 4400, batch: '6-14' },
+};
+
+// City master list mirrors CITY_GEO in src/data/city-profiles.ts
+const corpCities = [
+  // USA
+  { slug: 'houston', city: 'Houston', region: 'TX', country: 'US' },
+  { slug: 'new-orleans', city: 'New Orleans', region: 'LA', country: 'US' },
+  { slug: 'denver', city: 'Denver', region: 'CO', country: 'US' },
+  { slug: 'beaumont', city: 'Beaumont', region: 'TX', country: 'US' },
+  { slug: 'odessa', city: 'Odessa', region: 'TX', country: 'US' },
+  { slug: 'midland', city: 'Midland', region: 'TX', country: 'US' },
+  { slug: 'bakersfield', city: 'Bakersfield', region: 'CA', country: 'US' },
+  { slug: 'anchorage', city: 'Anchorage', region: 'AK', country: 'US' },
+  { slug: 'mobile', city: 'Mobile', region: 'AL', country: 'US' },
+  { slug: 'charlotte', city: 'Charlotte', region: 'NC', country: 'US' },
+  { slug: 'cleveland', city: 'Cleveland', region: 'OH', country: 'US' },
+  { slug: 'cincinnati', city: 'Cincinnati', region: 'OH', country: 'US' },
+  { slug: 'minneapolis', city: 'Minneapolis', region: 'MN', country: 'US' },
+  { slug: 'milwaukee', city: 'Milwaukee', region: 'WI', country: 'US' },
+  { slug: 'st-louis', city: 'St. Louis', region: 'MO', country: 'US' },
+  { slug: 'kansas-city', city: 'Kansas City', region: 'MO', country: 'US' },
+  { slug: 'tulsa', city: 'Tulsa', region: 'OK', country: 'US' },
+  { slug: 'nashville', city: 'Nashville', region: 'TN', country: 'US' },
+  { slug: 'louisville', city: 'Louisville', region: 'KY', country: 'US' },
+  // Middle East
+  { slug: 'dubai', city: 'Dubai', region: 'Dubai', country: 'AE' },
+  { slug: 'abu-dhabi', city: 'Abu Dhabi', region: 'Abu Dhabi', country: 'AE' },
+  { slug: 'sharjah', city: 'Sharjah', region: 'Sharjah', country: 'AE' },
+  { slug: 'ras-al-khaimah', city: 'Ras Al Khaimah', region: 'RAK', country: 'AE' },
+  { slug: 'saudi-arabia', city: 'Saudi Arabia', region: 'KSA', country: 'SA' },
+  { slug: 'jubail', city: 'Jubail', region: 'Eastern Province', country: 'SA' },
+  { slug: 'yanbu', city: 'Yanbu', region: 'Al Madinah', country: 'SA' },
+  { slug: 'doha', city: 'Doha', region: '', country: 'QA' },
+  { slug: 'kuwait', city: 'Kuwait City', region: '', country: 'KW' },
+  { slug: 'muscat', city: 'Muscat', region: '', country: 'OM' },
+  { slug: 'sohar', city: 'Sohar', region: '', country: 'OM' },
+  { slug: 'manama', city: 'Manama', region: '', country: 'BH' },
+  { slug: 'basrah', city: 'Basrah', region: '', country: 'IQ' },
+  // Asia
+  { slug: 'mumbai', city: 'Mumbai', region: 'Maharashtra', country: 'IN' },
+  { slug: 'chennai', city: 'Chennai', region: 'Tamil Nadu', country: 'IN' },
+  { slug: 'hyderabad', city: 'Hyderabad', region: 'Telangana', country: 'IN' },
+  { slug: 'singapore', city: 'Singapore', region: '', country: 'SG' },
+  { slug: 'kuala-lumpur', city: 'Kuala Lumpur', region: '', country: 'MY' },
+  // Europe
+  { slug: 'aberdeen', city: 'Aberdeen', region: 'Scotland', country: 'GB' },
+  { slug: 'glasgow', city: 'Glasgow', region: 'Scotland', country: 'GB' },
+  { slug: 'london', city: 'London', region: 'England', country: 'GB' },
+  { slug: 'newcastle', city: 'Newcastle', region: 'England', country: 'GB' },
+  { slug: 'plymouth', city: 'Plymouth', region: 'England', country: 'GB' },
+  { slug: 'oslo', city: 'Oslo', region: '', country: 'NO' },
+  { slug: 'bergen', city: 'Bergen', region: '', country: 'NO' },
+  { slug: 'rotterdam', city: 'Rotterdam', region: '', country: 'NL' },
+  { slug: 'paris', city: 'Paris', region: '', country: 'FR' },
+  { slug: 'madrid', city: 'Madrid', region: '', country: 'ES' },
+  { slug: 'genoa', city: 'Genoa', region: '', country: 'IT' },
+  { slug: 'piraeus', city: 'Piraeus', region: '', country: 'GR' },
+  // Africa
+  { slug: 'lagos', city: 'Lagos', region: '', country: 'NG' },
+  { slug: 'port-harcourt', city: 'Port Harcourt', region: '', country: 'NG' },
+  // Canada
+  { slug: 'calgary', city: 'Calgary', region: 'Alberta', country: 'CA' },
+  { slug: 'edmonton', city: 'Edmonton', region: 'Alberta', country: 'CA' },
+  { slug: 'fort-mcmurray', city: 'Fort McMurray', region: 'Alberta', country: 'CA' },
+  { slug: 'toronto', city: 'Toronto', region: 'Ontario', country: 'CA' },
+  { slug: 'montreal', city: 'Montreal', region: 'Quebec', country: 'CA' },
+  { slug: 'vancouver', city: 'Vancouver', region: 'British Columbia', country: 'CA' },
+  { slug: 'halifax', city: 'Halifax', region: 'Nova Scotia', country: 'CA' },
+  // Oceania
+  { slug: 'perth', city: 'Perth', region: 'Western Australia', country: 'AU' },
+  { slug: 'melbourne', city: 'Melbourne', region: 'Victoria', country: 'AU' },
+  { slug: 'sydney', city: 'Sydney', region: 'New South Wales', country: 'AU' },
+  { slug: 'karratha', city: 'Karratha', region: 'Western Australia', country: 'AU' },
+  { slug: 'gladstone', city: 'Gladstone', region: 'Queensland', country: 'AU' },
+  { slug: 'darwin', city: 'Darwin', region: 'Northern Territory', country: 'AU' },
+  { slug: 'auckland', city: 'Auckland', region: '', country: 'NZ' },
+  { slug: 'wellington', city: 'Wellington', region: '', country: 'NZ' },
+  { slug: 'christchurch', city: 'Christchurch', region: '', country: 'NZ' },
+];
+
+// Hand-written rich flavor for 14 priority cities.
+const corpRichCity = {
+  'houston': { hook: 'the US energy capital, where Gulf Coast refineries, deepwater Gulf operators and pipeline midstreams all train their crews in the same zip codes.', specifics: 'Our Houston batches typically run in Pasadena, Deer Park and Baytown at client sites, with classroom weeks at our Energy Corridor facility.', stat: 'We have trained over 1,200 technicians from Shell, Phillips 66, Marathon Refining, LyondellBasell, Kinder Morgan and Enterprise Products across 2023-2025.' },
+  'dubai': { hook: 'the logistics and EPC hub for the entire MENA inspection market, with onsite delivery possible at Jebel Ali, Mussafah, and the DIP industrial zone within 72 hours of PO.', specifics: 'Batches run in Arabic and English, aligned to ADNOC ICV, SNT-TC-1A and ISO 9712. Practical labs held at our Al Quoz training center or at client facilities with portable radiography enclosures.', stat: 'Trained over 800 engineers from ADNOC Onshore, Borouge, McDermott, Petrofac, NPCC, Lamprell and Target Engineering across the past three fiscals.' },
+  'abu-dhabi': { hook: 'home to ADNOC group companies where Hail & Ghasha, Upper Zakum and the Ruwais downstream complex generate continuous NDT demand for pressure equipment, piping and subsea assets.', specifics: 'We run onsite weeks at Musaffah industrial area and Ruwais, plus ADNOC Academy-aligned evaluation formats for Level I and II candidates.', stat: 'ADNOC Offshore, ADNOC Gas, Borouge, Fertiglobe and Target Engineering have all sent cohorts through our corporate batches in the past 18 months.' },
+  'mumbai': { hook: 'the refining, fertilizer and shipbuilding backbone of India, with RIL Jamnagar, BPCL Mahul, HPCL Mumbai Refinery and Mazagon Dock all in our active trainee roster.', specifics: 'Classroom batches at Andheri and Navi Mumbai, onsite delivery inside Jawaharlal Nehru Port, Mazagon Dock and the Thane-Belapur industrial belt.', stat: 'Priced significantly below Gulf or US rates (roughly 40-50% lower) because of local infrastructure and Indian instructor cost base — popular for IOCL, ONGC and Shapoorji Pallonji crews.' },
+  'hyderabad': { hook: 'the headquarters of Atlantis NDT and the largest ISNT and ASNT examination center in South India, perfect for engineers traveling from the Vizag-Kakinada belt or Chennai-Ennore.', specifics: 'We run classroom batches every two weeks with open enrolment + dedicated corporate cohorts for Indian Navy, BHEL, MRPL, Hindustan Shipyard, and L&T Hydrocarbon.', stat: 'Our Hyderabad center has produced the highest ASNT Level III pass rate in India for three consecutive years — 94% first-attempt pass across all methods.' },
+  'chennai': { hook: 'the Tamil Nadu auto, aerospace and petrochem cluster — CPCL Manali, HPCL Rasayani, BHEL Trichy, and the Ennore-Ponneri industrial corridor.', specifics: 'Onsite NDT training at Ennore port, Sriperumbudur auto cluster and the SIPCOT industrial parks, with weekday classroom sessions at our Guindy center.', stat: 'Typical Chennai corporate batch size: 12-18 technicians, with dedicated Tamil-medium instruction available for Level I candidates.' },
+  'aberdeen': { hook: 'the North Sea operations capital, where BP, Shell UK, TotalEnergies, CNOOC and Repsol Sinopec all require PCN and CSWIP-aligned corporate refreshers every 3-5 years.', specifics: 'We deliver at Altens Industrial Estate, Westhill and at client facilities including Dyce and the Bridge of Don. Heli-mobilised batches for offshore platform personnel also available.', stat: 'Typical pricing in Aberdeen is GBP 1,800-4,400 per person per method-level combination, with PCN re-certification packages at GBP 1,200.' },
+  'singapore': { hook: 'the Asia-Pacific refining, marine and aerospace MRO capital. ExxonMobil Jurong Island, Shell Pulau Bukom, Seatrium, ST Engineering and Pratt & Whitney all source corporate NDT training here.', specifics: 'Our Singapore batches run at Tuas, Jurong Island (with appropriate passes), and Loyang, in English with CSWIP, PCN, and ASNT syllabi.', stat: 'Typical corporate batch price: SGD 3,200-6,800 per delegate depending on method stack — aerospace NAS-410 aligned batches available for MRO operators.' },
+  'muscat': { hook: 'the operational center for PDO, OQ (Orpic + OOCEP merger), Oman LNG, Daleel and BP Oman.', specifics: 'Classroom weeks held at Ghala and Al Khuwair, with onsite delivery possible at Sohar, Salalah and Duqm for the coastal refining and LNG facilities.', stat: 'Competitive pricing thanks to low local operating cost — typical Level II corporate batch lands at $2,400-$3,800 per person depending on method count.' },
+  'jubail': { hook: 'the largest industrial city in the Middle East — Aramco, SABIC, Ma\'aden, Sadara, YANPET, Petro Rabigh and over 120 EPC contractors run continuous inspector upskilling cycles.', specifics: 'Delivery at Jubail Industrial City II (JIC2), the Royal Commission training area, and directly inside client facilities. All batches aligned to Aramco SAEP-1140 / SAEP-1142 expectations.', stat: 'We have run SAEP-1140-aligned corporate batches for Nesma & Partners, Al Rushaid, SNC Lavalin Al-Rushaid, and Arabian Industries Contracting in the last two years.' },
+  'calgary': { hook: 'the head office city for the Canadian oil sands majors — Suncor, Cenovus, Imperial Oil, Canadian Natural and Enbridge all source corporate NDT training from local providers.', specifics: 'Onsite delivery at the Edmonton industrial belt, Fort McMurray (fly-in/fly-out available), and Sarnia for pipeline operators. CGSB ISO 9712 pathway batches available.', stat: 'Typical Calgary corporate batch price: CAD 3,600-7,200 per delegate. Bundled Level II UT+PT+MT packages popular for pipeline inspection contractors.' },
+  'london': { hook: 'the HQ city for BP, Shell, Rio Tinto, Petrofac and TechnipFMC — plus major engineering consultancies running global NDT procedure harmonization projects.', specifics: 'Classroom batches in Canary Wharf and West London, with practical labs hosted at partner facilities in Kent and Essex. Full PCN and ISO 9712 pathway support.', stat: 'Specialty batches: procedure harmonization workshops for multi-asset operators, and corporate Level III exam-prep weeks with 12-day intensive syllabus.' },
+  'rotterdam': { hook: 'Europe\'s largest petrochemical cluster — Shell Pernis, BP Rotterdam, Huntsman, Dow Terneuzen and ExxonMobil Botlek all require continuous corporate NDT training.', specifics: 'Delivery in English, Dutch, and German at our Capelle aan den IJssel center, or onsite at the Botlek / Europoort refineries. Full EN ISO 9712 pathway, plus VCA safety-aligned.', stat: 'Typical Rotterdam corporate batch price: EUR 2,400-5,200 per delegate. Popular add-on: PED and AD 2000 pressure equipment code overlays.' },
+  'perth': { hook: 'the offshore-LNG capital of Australia — Woodside, Chevron Australia, Shell Prelude, Inpex Ichthys all run Karratha and Dampier-based corporate NDT training.', specifics: 'Onsite at Karratha, Henderson, and Kwinana, with classroom delivery at our West Perth center. AINDT ISO 9712 pathway primary, ASNT available for multinational operators.', stat: 'FIFO-friendly schedules: 10-day intensive Level II batches timed to complement client rosters. Typical price: AUD 4,200-7,800 per delegate.' },
+};
+
+corpCities.forEach(c => {
+  const arch = corpCountryArchetypes[c.country] || corpCountryArchetypes.US;
+  const rich = corpRichCity[c.slug];
+  const cityLabel = c.city;
+  const regionLabel = c.region ? `${c.region}` : c.city;
+  const priceRange = `$${arch.priceLow}-$${arch.priceHigh}`;
+  const title = `Corporate NDT Training ${cityLabel} 2026 | Onsite & Online Group Batches`;
+  const description = `Corporate NDT training in ${cityLabel}${c.region ? ', ' + c.region : ''} — onsite at your facility, online or blended. ASNT SNT-TC-1A + ISO 9712 aligned. Group rates ${priceRange}/person, batches of ${arch.batch}. Certify your inspection crew in UT, PAUT, TOFD, RT, MT, PT, ET, VT.`;
+
+  const hook = rich ? rich.hook : `an active ${arch.industries} market with significant corporate NDT training demand from local operators and EPC contractors.`;
+  const specifics = rich ? rich.specifics : `We deliver corporate batches at client facilities across ${regionLabel}, with classroom weeks at a local partner center. Full ${arch.certs} pathway coverage.`;
+  const stat = rich ? rich.stat : `Typical corporate batch price in ${cityLabel} is ${priceRange} per delegate depending on method stack and certification body. Batch sizes ${arch.batch} engineers.`;
+
+  const body = `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/corporate-ndt-training">Corporate NDT Training</a><a href="/contact">Contact</a></nav></header>
+  <main>
+    <h1>Corporate NDT Training in ${cityLabel}</h1>
+    <p>${cityLabel} is ${hook}</p>
+    <p><strong>Local context.</strong> ${specifics} Typical learners come from ${arch.industries} employers including ${arch.employers}.</p>
+    <p><strong>Delivery modes.</strong> We run three modes: fully onsite at your ${cityLabel} facility (theory + supervised practical), fully online with live virtual classrooms and proctored exams, or blended — online theory followed by a practical week. Methods covered include Ultrasonic Testing (UT), Phased Array UT, TOFD, Radiographic Testing (RT), Magnetic Particle (MT), Liquid Penetrant (PT), Eddy Current (ET), Visual Testing (VT), Magnetic Flux Leakage (MFL), Acoustic Emission (AE), Guided Wave, and Thermography.</p>
+    <p><strong>Certification bodies.</strong> ${arch.certs}. Batch sizes ${arch.batch}. Typical pricing ${priceRange} per person per method-level combination.</p>
+    <p><strong>Local case study.</strong> ${stat}</p>
+    <p><strong>Book a ${cityLabel} corporate batch.</strong> Include your headcount, target methods and levels, preferred certification body, and whether you need onsite or online delivery. We typically respond within 24 hours with a tailored proposal, sample procedures, and trainer CVs.</p>
+    <p>Related services in ${cityLabel}: <a href="/ndt-training-${c.slug}">public NDT training batches</a>, <a href="/ndt-consulting-${c.slug}">Level III consulting</a>, <a href="/digital-twin-${c.slug}">digital twin NDT</a>, <a href="/ndt-erp-${c.slug}">NDT ERP</a>.</p>
+  </main>`;
+
+  routes.push({
+    path: `/corporate-ndt-training/${c.slug}`,
+    title,
+    description,
+    canonical: `${SITE_URL}/corporate-ndt-training/${c.slug}`,
+    bodyContent: body,
+  });
+});
+
 // ─── Industry Service Pages ──────────────────────────────────────────────
 
 const industryServicePages = [
@@ -1780,6 +2010,10 @@ const softwarePages = [
   { path: '/digital-twin-ndt-software', title: 'Digital Twin NDT Software | 3D Asset Visualization | Atlantis NDT', description: 'Digital twin software for NDT inspection data visualization. Convert thickness readings into 3D color-coded asset models. API 579 fitness-for-service integration.' },
   { path: '/ndt-software-features', title: 'NDT Software Features | Inspection Management Platform | Atlantis NDT', description: 'Complete feature overview of Atlantis NDT software platform: job management, certification tracking, digital twin reporting, API compliance, and mobile inspection.' },
   { path: '/ndt-data-management', title: 'NDT Data Management | Inspection Data Organization & Analysis | Atlantis NDT', description: 'NDT data management solutions: organize inspection data, track corrosion trends, automate reporting, and integrate with digital twin platforms. Cloud-based and secure.' },
+  { path: '/ndt-erp-vs-generic-erp', title: 'NDT ERP vs Generic ERP: 2026 Comparison Guide | Atlantis NDT', description: 'Compare NDT ERP vs SAP/Oracle vs point reporting tools across 11 dimensions. Cost, implementation time, NDT-native features, TCO. 2026 decision framework.' },
+  { path: '/ndt-erp-integration-matrix', title: 'NDT ERP Integration Matrix 2026: SAP, Oracle, Maximo | Atlantis NDT', description: '10-system NDT ERP integration matrix. SAP, Oracle, Maximo, Dynamics 365, QuickBooks, Xero, HubSpot, Salesforce, Zapier, REST. Setup time and fields.' },
+  { path: '/ndt-erp-roi-calculator', title: 'NDT ERP ROI Calculator 2026: Savings & Payback | Atlantis NDT', description: 'Free NDT ERP ROI calculator. Model report labor savings, admin reduction, Year 1 net ROI, and payback months for your inspection business.' },
+  { path: '/ndt-erp-implementation-timeline', title: 'NDT ERP Implementation Timeline 2026: 30/60/90 Plan | Atlantis NDT', description: 'Complete NDT ERP 30/60/90-day go-live plan. Day-by-day gantt, discovery, migration, integration, training, UAT, cutover. 7-risk register with mitigations.' },
 ];
 
 softwarePages.forEach(p => {

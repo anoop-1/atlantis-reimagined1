@@ -23,7 +23,7 @@ export default function NDTTrainingPittsburgh() {
       <Navigation />
       <SEOHead
         title="NDT Training in Pittsburgh, PA | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Pittsburgh. ASNT SNT-TC-1A Level I, II, III. Steel and manufacturing focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Pittsburgh. ASNT SNT-TC-1A Level I, II, III. Steel and manufacturing focus. Expert. Enroll today!"
         keywords="NDT training pittsburgh, ASNT certification pittsburgh, NDT courses pittsburgh, NDT consulting pittsburgh"
         canonical="https://atlantisndt.com/ndt-training-pittsburgh"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

@@ -266,7 +266,7 @@ export default function NDTStandardsComparison() {
       <Navigation />
       <SEOHead
         title="NDT Standards Comparison | ASME Section V vs ASTM vs ISO vs EN | Atlantis NDT"
-        description="Complete NDT standards comparison guide: ASME Section V articles, ASTM standards by method, ISO and EN standards, AWS D1.1, API codes. Comparison tables by application, country, and acceptance criteria."
+        description="Complete NDT standards guide: ASME Section V, ASTM, ISO, EN, AWS D1.1, API codes compared by application, country, and acceptance criteria."
         keywords="ndt standards comparison, asme section v, astm ndt standards, iso ndt standards, en ndt standards, aws d1.1, api ndt codes, ndt acceptance criteria, ndt code comparison, welding inspection codes"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-standards-comparison"

@@ -215,7 +215,7 @@ export default function NDTTrainingOnline() {
             <Navigation />
             <SEOHead
                 title="Online NDT Training | ASNT Level I II III Virtual Courses | Atlantis NDT"
-                description="Online NDT training for ASNT SNT-TC-1A Level I, II, III certification. UT, MT, PT, RT, ET, VT theory modules. Flexible schedule, instructor support. Enrol from anywhere."
+                description="Online NDT training for ASNT SNT-TC-1A Level I, II, III certification. UT, MT, PT, RT, ET, VT theory modules. Flexible schedule. Enrol from anywhere."
                 keywords="online NDT training, virtual NDT courses, NDT training online, ASNT online certification, NDT e-learning, remote NDT training, online UT training, online MT training, NDT Level II online, virtual NDT certification"
                 canonical="https://atlantisndt.com/ndt-training-online"
                 structuredData={structuredData}

@@ -224,7 +224,7 @@ export default function NDTTrainingIndia() {
             <Navigation />
             <SEOHead
                 title="NDT Training India | ASNT & ISNT Certification Hyderabad | Atlantis NDT"
-                description="NDT training in India: ASNT SNT-TC-1A and ISNT Level I, II, III courses in Hyderabad, Mumbai, Chennai, Delhi. UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol today."
+                description="NDT training in India: ASNT SNT-TC-1A and ISNT Level I, II, III courses in Hyderabad, Mumbai, Chennai, Delhi. UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol."
                 keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, ISNT certification, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
                 canonical="https://atlantisndt.com/ndt-training-india"
                 structuredData={structuredData}

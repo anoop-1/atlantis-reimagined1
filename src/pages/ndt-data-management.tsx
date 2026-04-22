@@ -21,7 +21,7 @@ export default function NDTDataManagement() {
       <Navigation />
       <SEOHead
         title="NDT Data Management Solutions | Centralized Inspection Records | Atlantis NDT"
-        description="Centralized NDT data management system. Store, retrieve, and analyze inspection records. Secure cloud or on-premise solutions. Enterprise-grade data management."
+        description="Centralized NDT data management system. Store, retrieve, and analyze inspection records. Secure cloud or on-premise solutions. Enterprise-grade data."
         keywords="NDT data management, inspection data management, NDT records management, inspection data storage, NDT database"
         canonical="https://atlantisndt.com/ndt-data-management"
         structuredData={{ "@context": "https://schema.org", "@graph": [softwareSchema] }}

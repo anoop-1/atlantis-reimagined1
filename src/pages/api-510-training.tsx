@@ -141,7 +141,7 @@ export default function API510Training() {
       <Navigation />
       <SEOHead
         title="API 510 Pressure Vessel Inspector Training & Certification | Atlantis NDT"
-        description="Professional API 510 Pressure Vessel Inspector training. ASME Code compliance. Risk-based inspection (RBI). Hands-on labs. Certification pathways. Enroll today!"
+        description="Professional API 510 Pressure Vessel Inspector training. ASME Code compliance. Risk-based inspection (RBI). Hands-on labs. Certification. Enroll today!"
         keywords="API 510 training, API 510 certification, pressure vessel inspector training, ASME pressure vessel inspection, RBI training, API 510 course, vessel inspection certification"
         canonical="https://atlantisndt.com/api-510-training"
         structuredData={structuredData}

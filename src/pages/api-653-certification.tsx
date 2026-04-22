@@ -160,11 +160,12 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Certification 2026: Tank Inspector Exam, 10 Codes, Intervals & $85-130K Salary"
-                description="API 653 exam deep-dive 2026: 170 Qs / 7.5 hrs open-book, 10 codes (API 650/651/652/653/571/575/577, ASME V/IX), inspection intervals (internal 10-yr, external 5-yr, UT), cathodic protection, $945 fee. ASNT Level III-authored."
+                title="API 653 Certification 2026: Exam $730 Tank Inspector Cost"
+                description="API 653 Tank Inspector 2026 cost breakdown: $730 exam fee, 170 Qs / 7.5 hrs open-book, 5-day prep course, 85% pass rate, 10 codes (API 650/651/652/571/575/577)."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}
+                faq={faqs}
             />
             <Breadcrumbs />
 

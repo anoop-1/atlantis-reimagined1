@@ -96,7 +96,7 @@ export default function TrainingMiddleEast() {
             <Navigation />
             <SEOHead
                 title="NDT Training Middle East | Dubai, Saudi Arabia, Qatar | ASNT ISO 9712 Level I II III"
-                description="NDT certification training across the Middle East: Dubai, Abu Dhabi, Saudi Arabia, Qatar, Kuwait, Oman. ASNT SNT-TC-1A, ISO 9712, ARAMCO-compliant. UT, RT, MT, PT, ET Level I, II & III. 95% first-attempt pass rate. Enrol in days."
+                description="NDT certification training across the Middle East: Dubai, Abu Dhabi, Saudi Arabia, Qatar, Kuwait, Oman. ASNT SNT-TC-1A, ISO 9712. Enrol in days."
                 keywords="NDT training Dubai, NDT training UAE, NDT training Middle East, NDT courses Saudi Arabia, ARAMCO NDT certification, NDT training Qatar, NDT training Kuwait, offshore NDT training, ASNT Level II UAE, ASNT Level III UAE, oil gas NDT training, ISO 9712 training Middle East, ndt training in uae, NDT certification Saudi Arabia, NDT training Abu Dhabi"
                 canonical="https://atlantisndt.com/training-me"
                 structuredData={courseSchema}

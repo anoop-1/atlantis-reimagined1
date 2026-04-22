@@ -116,7 +116,7 @@ export default function ConsultingServicesUSA() {
             <Navigation />
             <SEOHead
                 title="NDT Level III Consulting USA | ASNT Certified | Procedure Writing & Program Management"
-                description="ASNT Level III NDT consulting across the USA: procedure writing, program development, personnel qualification, API/ASME/Nadcap compliance. Houston, Chicago, LA, nationwide. Same-week scheduling. Request a quote."
+                description="ASNT Level III NDT consulting across the USA: procedure writing, program development, personnel qualification, API/ASME/Nadcap compliance. Request a quote."
                 keywords="NDT Level III consulting USA, NDT consulting USA, ASNT Level III consulting, ndt level iii consulting, NDT Level III services, NDT procedure writing, ASNT consulting, API inspection consulting USA, ASME NDT consulting, Nadcap consulting, NDT program management, NAS410 consulting, NDT Level III Houston, aerospace NDT consulting, oil gas NDT Level III"
                 canonical="https://atlantisndt.com/consulting-usa"
                 structuredData={serviceSchema}

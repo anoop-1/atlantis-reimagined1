@@ -79,7 +79,7 @@ export default function ResourcesDownloads() {
             <Navigation />
             <SEOHead
                 title="Free NDT Resources & Downloads | Checklists, Templates, Study Guides | Atlantis NDT"
-                description="Download free NDT resources: inspection checklists, API 653 templates, ASNT Level III study guides, procedure templates, and safety checklists. Professional NDT tools."
+                description="Download free NDT resources: inspection checklists, API 653 templates, ASNT Level III study guides, procedure templates, and safety checklists. Professional."
                 keywords="NDT resources, NDT checklist, API 653 template, ASNT study guide, NDT procedure template, free NDT downloads, inspection checklist"
                 canonical="https://atlantisndt.com/resources"
                 structuredData={structuredData}

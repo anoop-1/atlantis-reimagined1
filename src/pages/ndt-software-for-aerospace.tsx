@@ -58,7 +58,7 @@ export default function NDTSoftwareForAerospace() {
       <Navigation />
       <SEOHead
         title="NDT Software for Aerospace 2026: Digital Twin + ERP + Reporting (NAS 410)"
-        description="Integrated NDT software for aerospace MRO, OEM, defense: NAS 410 / EN 4179 personnel tracking, ECT fatigue crack inspection, composite UT C-scan, PT per ASTM E1417, EASA Part 145 docs, FAA AC 43.13. ASNT Level III authored."
+        description="Integrated NDT software for aerospace MRO, OEM, defense: NAS 410 / EN 4179 personnel tracking, ECT fatigue crack inspection, composite UT C-scan, PT per ASTM."
         keywords="aerospace NDT software, NAS 410 software, EN 4179 tracking, composite NDT, fatigue crack ECT, EASA Part 145, MRO software"
         canonical={URL}
         structuredData={structuredData}

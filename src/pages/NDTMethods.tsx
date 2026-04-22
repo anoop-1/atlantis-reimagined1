@@ -93,8 +93,8 @@ export default function NDTMethodsPage() {
             <Navigation />
 
             <SEOHead
-                title="NDT Methods | Complete Guide to Non-Destructive Testing Techniques"
-                description="Explore all types of NDT testing methods: Ultrasonic (UT), Radiographic (RT), Magnetic Particle (MT), Penetrant (PT), Eddy Current (ET), and Visual Testing (VT). Learn applications and benefits."
+                title="NDT Methods 2026: Complete Guide to 6 Core Non-Destructive Testing Techniques"
+                description="Expert 2026 guide to 6 NDT methods: UT, RT, MT, PT, ET, VT. Applications, costs, standards, when to use each. Free method-selector quiz inside."
                 keywords="NDT methods, types of NDT testing, non-destructive testing techniques, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing"
                 canonical="https://atlantisndt.com/ndt-methods"
                 structuredData={structuredData}

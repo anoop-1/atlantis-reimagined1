@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
@@ -24,6 +25,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { isCuratedCity, cityFromProductSlug } from '@/data/curated-cities';
+import {
+  buildLocalBusiness,
+  getErpProfile,
+  consultingPathForCity,
+  trainingPathForCity,
+} from '@/data/city-profiles';
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -263,6 +270,17 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   const locationContext = erpLocationContext[city] ?? `${city} is an important hub for industrial NDT inspection activity. Inspection companies in ${city} manage complex compliance requirements across multiple client sites, making robust inspection management software essential for operational efficiency and regulatory compliance.`;
   const integrations = localIntegrations[city] ?? ["SAP PM integration", "ISO 9001:2015 QMS alignment", "Client-specific report formats", "CMMS export compatibility", "Regulatory authority documentation"];
 
+  // ── Per-city rich profile (ROI, use cases, compliance, case study, FAQs) ─
+  const cityKey = slug.replace(/^ndt-erp-/, '');
+  const profile = getErpProfile(cityKey);
+  const localBusiness = buildLocalBusiness(cityKey, city, country, 'NDT ERP Software');
+  const consultingHref = consultingPathForCity(cityKey);
+  const trainingHref = trainingPathForCity(cityKey);
+  // Merge city-specific FAQs (top of accordion) with the generic product FAQs so every
+  // page has ≥4 unique Q&A blocks on top of the shared 8.
+  const cityFaqs = profile?.faqs ?? [];
+  const mergedFaqs = [...cityFaqs, ...faqs];
+
   const canonicalUrl = `https://atlantisndt.com/${slug}`;
   const pageTitle = `NDT ERP Software ${city} | Inspection Management System | Atlantis NDT`;
   const pageDescription = `NDT ERP software for inspection companies in ${city}, ${country}. Automate ASNT certification tracking, API 510/570/653 scheduling, and PDF report generation. Purpose-built for NDT — not a generic ERP.`;
@@ -322,48 +340,13 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
           },
         },
       },
-      {
-        "@type": "LocalBusiness",
-        "@id": `https://atlantisndt.com/${slug}#business`,
-        "name": `Atlantis NDT - ${city}`,
-        "description": `Professional NDT consulting, training, and digital twin solutions in ${city}, ${country}`,
-        "url": `https://atlantisndt.com/${slug}`,
-        "telephone": "+1-281-840-8969",
-        "email": "info@atlantisndt.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": city,
-          "addressCountry": country,
-        },
-        "areaServed": {
-          "@type": "City",
-          "name": city,
-        },
-        "parentOrganization": {
-          "@type": "Organization",
-          "name": "Atlantis NDT",
-          "url": "https://atlantisndt.com",
-        },
-      },
     ],
-  };
-
-  const faqStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer,
-      },
-    })),
   };
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
+      <PillarHubNav active="ndt-erp" />
 
       <SEOHead
         title={pageTitle}
@@ -373,12 +356,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         structuredData={structuredData}
         hreflangLinks={hreflangLinks}
         noindex={!isCuratedCity(cityFromProductSlug(slug))}
-      />
-
-      {/* FAQPage JSON-LD (separate script block) */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        localBusiness={localBusiness}
+        faq={mergedFaqs}
       />
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
@@ -656,6 +635,129 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         </div>
       </section>
 
+      {/* ── City-specific ROI / Use Cases / Compliance / Case Study ───────── */}
+      {profile && (
+        <section className="py-20 bg-background">
+          <div className="container mx-auto px-6 max-w-5xl">
+            {/* ROI snapshot */}
+            {profile.uniqueLocalROI && (
+              <motion.div
+                className="mb-14"
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+              >
+                <div className="text-center mb-6">
+                  <Badge className="mb-3 bg-primary/10 text-primary border-primary/20">
+                    ROI Snapshot — {city}
+                  </Badge>
+                  <h2 className="text-3xl md:text-4xl font-bold">
+                    What {city} teams recover after moving to Atlantis NDT ERP
+                  </h2>
+                </div>
+                <Card className="border-0 shadow-md">
+                  <CardContent className="p-8">
+                    <p className="text-lg text-foreground leading-relaxed">
+                      {profile.uniqueLocalROI}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            )}
+
+            {/* Use cases + Compliance */}
+            <div className="grid md:grid-cols-2 gap-8 mb-14">
+              {profile.localIndustryUseCases?.length > 0 && (
+                <motion.div
+                  initial={{ y: 30, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6 }}
+                >
+                  <Card className="h-full border-0 shadow-md">
+                    <CardHeader>
+                      <CardTitle className="text-xl">
+                        Industry use cases in {city}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <ul className="space-y-3">
+                        {profile.localIndustryUseCases.map((usecase) => (
+                          <li key={usecase} className="flex items-start gap-2 text-sm">
+                            <CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                            <span className="text-muted-foreground leading-relaxed">{usecase}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              )}
+
+              {profile.localCompliance?.length > 0 && (
+                <motion.div
+                  initial={{ y: 30, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.1 }}
+                >
+                  <Card className="h-full border-0 shadow-md">
+                    <CardHeader>
+                      <CardTitle className="text-xl flex items-center gap-2">
+                        <Shield className="w-5 h-5 text-primary" />
+                        Compliance & standards we align with in {city}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="flex flex-wrap gap-2">
+                        {profile.localCompliance.map((item) => (
+                          <Badge key={item} variant="secondary" className="text-xs">
+                            {item}
+                          </Badge>
+                        ))}
+                      </div>
+                      <p className="text-xs text-muted-foreground mt-4 leading-relaxed">
+                        Atlantis NDT ERP ships with report templates, qualification mappings and
+                        data-residency options aligned to these frameworks for {city} inspection
+                        teams.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              )}
+            </div>
+
+            {/* Case snippet */}
+            {profile.localCaseStudy && (
+              <motion.div
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+              >
+                <Card className="border-0 shadow-md bg-gradient-to-br from-primary/5 to-accent/5">
+                  <CardHeader>
+                    <CardTitle className="text-lg">
+                      {city} case snippet
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-foreground italic leading-relaxed">
+                      &ldquo;{profile.localCaseStudy}&rdquo;
+                    </p>
+                    <p className="text-xs text-muted-foreground mt-3">
+                      Outcomes reported by Atlantis NDT ERP customers &mdash; specific figures
+                      vary by organisation size and baseline process maturity.
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* ── Comparison table ──────────────────────────────────────────────── */}
       <section className="py-20 bg-secondary/20">
         <div className="container mx-auto px-6">
@@ -797,7 +899,9 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
           >
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Frequently Asked Questions
+                {cityFaqs.length > 0
+                  ? `Frequently Asked Questions — Atlantis NDT ERP in ${city}`
+                  : `Frequently Asked Questions`}
               </h2>
               <p className="text-xl text-muted-foreground">
                 Common questions from NDT inspection companies in {city} evaluating
@@ -805,6 +909,24 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
               </p>
             </div>
 
+            {cityFaqs.length > 0 && (
+              <div className="mb-6">
+                <h3 className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">
+                  {city}-specific questions
+                </h3>
+                <div className="space-y-3">
+                  {cityFaqs.map((faq) => (
+                    <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {cityFaqs.length > 0 && (
+              <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground mt-8 mb-3">
+                General product questions
+              </h3>
+            )}
             <div className="space-y-3">
               {faqs.map((faq) => (
                 <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
@@ -817,14 +939,18 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
       {/* ── Related Services ───────────────────────────────────────────────── */}
       <section className="py-12 bg-muted/30">
         <div className="container mx-auto px-6 max-w-5xl">
-          <h2 className="text-2xl font-bold mb-6 text-center">Related NDT Services in {city}</h2>
+          <h2 className="text-2xl font-bold mb-6 text-center">Also serving {city}</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[
-              { title: "Digital Twins", desc: "3D asset visualisation", link: `/digital-twin-${slug.replace('ndt-erp-', '')}` },
-              { title: "NDT Consulting", desc: "Level III experts", link: `/consulting/ndt-consulting-${slug.replace('ndt-erp-', '')}` },
-              { title: "NDT Training", desc: "ASNT certification", link: "/training" },
+            {([
+              { title: `Digital Twin ${city}`, desc: "3D asset visualisation for integrity", link: `/digital-twin-${cityKey}` },
+              consultingHref
+                ? { title: `NDT Consulting ${city}`, desc: "Level III experts, RBI & FFS", link: consultingHref }
+                : null,
+              trainingHref
+                ? { title: `NDT Training ${city}`, desc: "ASNT certification & refreshers", link: trainingHref }
+                : null,
               { title: "Reporting Software", desc: "Digital inspection reports", link: "/intelligent-reporting-software" },
-            ].map(s => (
+            ].filter(Boolean) as { title: string; desc: string; link: string }[]).map(s => (
               <Link key={s.title} to={s.link} className="block p-4 bg-background rounded-lg border hover:border-primary hover:shadow-md transition-all group">
                 <h3 className="font-semibold group-hover:text-primary transition-colors">{s.title}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{s.desc}</p>
@@ -835,7 +961,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
             <h3 className="text-base font-semibold mb-3">NDT ERP in Other Locations</h3>
             <div className="flex flex-wrap gap-2">
               {["houston", "dubai", "abu-dhabi", "saudi-arabia", "calgary", "singapore", "mumbai", "london", "perth", "doha", "kuwait", "aberdeen", "oslo", "lagos"]
-                .filter(c => c !== slug.replace('ndt-erp-', ''))
+                .filter(c => c !== cityKey)
                 .slice(0, 8)
                 .map(c => (
                   <Link key={c} to={`/ndt-erp-${c}`} className="text-sm px-3 py-1.5 bg-background border rounded-full hover:border-primary hover:text-primary transition-colors">

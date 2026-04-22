@@ -159,7 +159,7 @@ export default function GuidedWaveTesting() {
       <Navigation />
       <SEOHead
         title="Guided Wave Testing (GWT/LRUT) | Long-Range Pipe Screening | CUI Detection | Atlantis NDT"
-        description="Complete guide to guided wave testing: long-range ultrasonic pipe screening, CUI detection, buried pipe inspection. ASTM E2775, API 570. LRUT consulting from Atlantis NDT Level III experts."
+        description="Complete guide to guided wave testing: long-range ultrasonic pipe screening, CUI detection, buried pipe inspection. ASTM E2775, API 570. LRUT consulting from."
         keywords="guided wave testing, GWT NDT, long range ultrasonic testing, LRUT, guided wave pipe screening, CUI screening, corrosion under insulation, ASTM E2775, API 570 guided wave, long range UT pipe inspection, guided wave NDT, LRUT pipe, GWT LRUT, guided wave testing pipe, long range ultrasonic, buried pipe inspection NDT, insulated pipe inspection"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/guided-wave-testing"

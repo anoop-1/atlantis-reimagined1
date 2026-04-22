@@ -187,7 +187,7 @@ export default function NDTEquipmentGuide() {
       <Navigation />
       <SEOHead
         title="NDT Equipment Guide 2026 | Top Brands & Instrument Comparison | Atlantis NDT"
-        description="Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes UT comparison, PAUT costs ($30K-$80K), film vs CR vs DR radiography, MT/PT/ET equipment, selection by application, and budget guide."
+        description="Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes UT comparison, PAUT costs ($30K-$80K), film vs CR vs DR radiography, MT/PT/ET equipment."
         keywords="ndt equipment guide, paut equipment, olympus omniscan, eddyfi gekko, ut flaw detector, ndt instrument comparison, ndt equipment cost, radiography equipment, mt equipment, pt equipment, eddy current instrument, ndt calibration equipment"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-equipment-guide"

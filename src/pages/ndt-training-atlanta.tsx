@@ -23,7 +23,7 @@ export default function NDTTrainingAtlanta() {
       <Navigation />
       <SEOHead
         title="NDT Training in Atlanta, GA | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Atlanta. ASNT SNT-TC-1A Level I, II, III. Industrial and aerospace focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Atlanta. ASNT SNT-TC-1A Level I, II, III. Industrial and aerospace focus. Expert. Enroll today!"
         keywords="NDT training atlanta, ASNT certification atlanta, NDT courses atlanta, NDT consulting atlanta"
         canonical="https://atlantisndt.com/ndt-training-atlanta"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

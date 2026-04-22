@@ -24,7 +24,7 @@ export default function ASNTLevelIIITraining() {
       <Navigation />
       <SEOHead
         title="ASNT Level III Certification Training | Senior NDT Inspector Program | Atlantis NDT"
-        description="Professional ASNT Level III training for NDT supervisors and managers. Procedure development, program management, defect evaluation. 95% pass rate. Expert instructors."
+        description="Professional ASNT Level III training for NDT supervisors and managers. Procedure development, program management, defect evaluation. 95% pass rate. Expert."
         keywords="ASNT Level III training, Level III NDT certification, NDT supervisor training, ASNT Level III exam preparation, NDT management training"
         canonical="https://atlantisndt.com/asnt-level-iii-training"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

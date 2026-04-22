@@ -127,7 +127,7 @@ export default function NDTTrainingNewYork() {
       <Navigation />
       <SEOHead
         title="NDT Training in New York | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in New York. ASNT SNT-TC-1A Level I, II, III courses. All methods. Expert consulting services. Infrastructure and construction focus. Enroll today!"
+        description="Professional NDT training, consulting, and certification in New York. ASNT SNT-TC-1A Level I, II, III courses. All methods. Expert consulting. Enroll today!"
         keywords="NDT training New York, ASNT certification New York, NDT courses New York, ultrasonic testing New York, radiographic testing New York, level II certification New York, level III NDT New York, ndt technician training New York, NDT consulting New York"
         canonical="https://atlantisndt.com/ndt-training-new-york"
         structuredData={structuredData}

@@ -104,8 +104,8 @@ export default function UltrasonicTestingUltimateGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Ultrasonic Testing 2026: Conventional vs PAUT vs TOFD — Physics, Codes, Calibration"
-                description="UT deep-dive: wave physics, conventional vs PAUT vs TOFD, DAC/DGS calibration per ASME V, AWS D1.1 weld inspection, API 1104 pipe, ±0.1mm thickness, Level II path. By ASNT Level III."
+                title="Ultrasonic Testing 2026: Ultimate Guide to PAUT, TOFD & Conventional UT"
+                description="UT 2026 deep-dive by ASNT Level III: wave physics, PAUT vs TOFD vs conventional, ASME V calibration, AWS D1.1 welds, ±0.1mm thickness. Free guide inside."
                 keywords="ultrasonic testing, UT, PAUT, phased array, TOFD, time-of-flight diffraction, A-scan, B-scan, C-scan, weld inspection, thickness measurement, ASME V, ASTM E164, API 1104, UT training, ultrasonic probe, transducer, couplant"
                 canonical="https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide"
                 structuredData={structuredData}

@@ -292,7 +292,7 @@ export default function VisualTesting() {
 
       <SEOHead
         title="Visual Testing (VT) | Direct & Remote Visual Inspection | ASME V Art 9 | Atlantis NDT"
-        description="Complete guide to visual testing: direct VT, borescope inspection, remote visual (RVI), drone NDT. ASME V Article 9, AWS D1.1. Level I-III VT training and certification. Atlantis NDT."
+        description="Complete guide to visual testing: direct VT, borescope, remote visual (RVI), drone NDT. ASME V Article 9, AWS D1.1. Level I-III VT training + consulting."
         keywords="visual testing NDT, VT inspection, remote visual inspection RVI, borescope inspection, drone NDT inspection, ASME Section V Article 9, weld visual inspection, AWS D1.1 visual, visual testing certification, ASNT VT Level II, flexible videoscope inspection, UAV inspection, drone VT, AWS CWI visual weld inspector"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/visual-testing"

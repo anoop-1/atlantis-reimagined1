@@ -128,8 +128,8 @@ export default function NDTSalaryGuide2026() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Salary 2026: Real Numbers — L1 $45K → L3 $180K+ (Method & Country)"
-                description="NDT salary 2026 (verified data): Level I $40-55K, Level II $55-110K, Level III $80-180K. PAUT +70%, offshore +50%. USA, UAE, India, UK, Canada compared. Written by ASNT Level III Anoop Rayavarapu."
+                title="NDT Salary Guide 2026: Proven Pay Data from $45K to $180K+ Worldwide"
+                description="NDT salary 2026: Level I $45K, L2 $110K, L3 $180K+. PAUT +70%, offshore +50%. USA, UAE, India, UK, Canada. Verified data from an ASNT Level III."
                 keywords="ndt salary, ndt technician salary, ndt level 2 salary, ndt level 3 salary, PAUT salary, UT salary, RT salary, ndt inspector salary, ndt engineer salary, ndt salary by country, ndt salary 2026, ndt career salary"
                 canonical="https://atlantisndt.com/blog/ndt-salary-guide-2026-global"
                 structuredData={structuredData}

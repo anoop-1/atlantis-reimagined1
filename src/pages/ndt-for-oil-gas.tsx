@@ -337,7 +337,7 @@ export default function NDTForOilGas() {
             <Navigation />
             <SEOHead
                 title="NDT for Oil & Gas | Pipeline, Refinery & Offshore Inspection | API 510/570/653 | Atlantis NDT"
-                description="Expert NDT consulting for oil & gas: pressure vessel API 510, piping API 570, storage tank API 653, pipeline inspection, offshore NDT, CUI detection. ASNT Level III consultants. Free consultation."
+                description="Expert NDT consulting for oil & gas: pressure vessel API 510, piping API 570, storage tank API 653, pipeline inspection, offshore NDT, CUI. Free consultation."
                 keywords="NDT oil gas, pipeline inspection NDT, refinery NDT consulting, API 510 pressure vessel inspection, API 570 piping inspection, API 653 storage tank inspection, offshore NDT inspection, corrosion under insulation CUI, fitness for service assessment, risk-based inspection RBI, ASME Section VIII inspection, petrochemical plant NDT"
                 canonical="https://atlantisndt.com/ndt-for-oil-gas"
                 structuredData={structuredData}

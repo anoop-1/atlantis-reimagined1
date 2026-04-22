@@ -238,7 +238,7 @@ export default function NDTMethodsComparison() {
       <Navigation />
       <SEOHead
         title="NDT Methods Comparison 2026 | UT vs RT vs MT vs PT vs ET vs VT [Guide]"
-        description="Complete NDT methods comparison: side-by-side table of UT, RT, MT, PT, ET, VT by cost, speed, accuracy, and application. Includes decision flowchart and industry selection matrix."
+        description="Complete NDT methods comparison: side-by-side table of UT, RT, MT, PT, ET, VT by cost, speed, accuracy, and application. Decision flowchart inside."
         keywords="NDT methods comparison, UT vs RT vs MT, which NDT method to use, ndt method selection, ultrasonic testing vs radiographic testing, MT vs PT, eddy current vs magnetic particle, NDT selection guide, NDT cost comparison"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-methods-comparison"

@@ -178,7 +178,7 @@ export default function PenetrantTesting() {
 
       <SEOHead
         title="Liquid Penetrant Testing (PT/FPI) | Surface Crack Detection | ASME V Art 6 | Atlantis NDT"
-        description="Complete guide to liquid penetrant testing: visible dye, fluorescent FPI, water washable, post-emulsifiable. ASME V Article 6, AMS 2644, ASTM E1417. Level I-III PT training and consulting."
+        description="Complete guide to liquid penetrant testing: visible dye, fluorescent FPI, water washable, post-emulsifiable. ASME V Article 6, AMS 2644, ASTM E1417. Level."
         keywords="liquid penetrant testing, PT NDT, dye penetrant testing, fluorescent penetrant inspection, FPI aerospace, ASME Section V Article 6, PT certification, surface crack detection NDT, penetrant testing procedure, AMS 2644, ASTM E1417, PT Level II, Level III PT"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/penetrant-testing"

@@ -31,7 +31,7 @@ export default function NDTTrainingLosAngeles() {
       <Navigation />
       <SEOHead
         title="NDT Training in Los Angeles, CA | ASNT Level I-III Certification | Aerospace Focus | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Los Angeles. ASNT SNT-TC-1A Level I, II, III. Aerospace focus. Expert consulting services. NAS410 compliance. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Los Angeles. ASNT SNT-TC-1A Level I, II, III. Aerospace focus. Expert consulting. Enroll today!"
         keywords="NDT training Los Angeles, ASNT certification Los Angeles, NDT courses Los Angeles CA, aerospace NDT training, NAS410 certification, ultrasonic testing Los Angeles, radiographic testing Los Angeles, NDT consulting Los Angeles"
         canonical="https://atlantisndt.com/ndt-training-los-angeles"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

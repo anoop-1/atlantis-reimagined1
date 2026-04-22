@@ -23,7 +23,7 @@ export default function NDTTrainingDenver() {
       <Navigation />
       <SEOHead
         title="NDT Training in Denver, CO | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Denver. ASNT SNT-TC-1A Level I, II, III. Oil & gas and infrastructure focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Denver. ASNT SNT-TC-1A Level I, II, III. Oil & gas and infrastructure focus. Expert. Enroll today!"
         keywords="NDT training denver, ASNT certification denver, NDT courses denver, NDT consulting denver"
         canonical="https://atlantisndt.com/ndt-training-denver"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

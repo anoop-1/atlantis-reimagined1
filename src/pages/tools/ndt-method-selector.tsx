@@ -204,7 +204,7 @@ export default function NDTMethodSelector() {
     <div className="min-h-screen bg-slate-50">
       <SEOHead
         title="NDT Method Selector Tool | Find the Right Testing Method | Atlantis NDT"
-        description="Interactive 6-step quiz to find the best NDT method for your inspection. Answer questions about material, defect type, access, code requirements, and priorities to get a ranked recommendation with radar chart visualization."
+        description="Interactive 6-step quiz to find the best NDT method: material, defect type, access, code, priority. Get a ranked recommendation in 60 seconds."
         keywords="NDT method selector, NDT method comparison, choose NDT method, ultrasonic testing vs radiographic testing, NDT decision tool, inspection method selection"
         canonical="https://atlantisndt.com/tools/ndt-method-selector"
         structuredData={structuredData}

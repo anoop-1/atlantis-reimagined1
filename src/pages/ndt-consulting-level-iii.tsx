@@ -335,11 +335,12 @@ export default function NDTConsultingLevelIII() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Level III Consulting | ASNT Procedures & Program Audits | Atlantis NDT"
-                description="ASNT Level III NDT consulting services. Procedure development, program audits, technique development, expert witness. Global availability. Request quote!"
+                title="ASNT Level III NDT Consulting 2026: From $180/hr, Audits"
+                description="ASNT Level III NDT consulting 2026 from $180/hr: written practice per SNT-TC-1A, CP-189 audits, UT/PAUT/RT/MT/PT/ET procedures, expert witness, NAS 410 programs."
                 keywords="NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT expert witness, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
                 canonical="https://atlantisndt.com/consulting/ndt-consulting-level-iii"
                 structuredData={structuredData}
+                faq={faqs}
             />
             <Breadcrumbs />
 

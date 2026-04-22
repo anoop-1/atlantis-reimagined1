@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -240,6 +241,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
         return (
             <div className="min-h-screen bg-slate-50">
                 <Navigation />
+      <PillarHubNav active="training" />
                 <div className="container mx-auto px-4 py-20 text-center">
                     <h1 className="text-3xl font-bold text-slate-800 mb-4">Certification page not found</h1>
                     <p className="text-slate-600 mb-8">The certification and location combination you requested could not be found.</p>
@@ -321,6 +323,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                 structuredData={[courseSchema, breadcrumbSchema]}
             />
             <Navigation />
+      <PillarHubNav active="training" />
 
             {/* Breadcrumbs */}
             <Breadcrumbs items={breadcrumbItems} />

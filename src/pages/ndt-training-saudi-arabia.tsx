@@ -224,7 +224,7 @@ export default function NDTTrainingSaudiArabia() {
             <Navigation />
             <SEOHead
                 title="NDT Training Saudi Arabia | ARAMCO SAEP-1112 Compliant | Atlantis NDT"
-                description="ASNT and ARAMCO-compliant NDT training in Saudi Arabia. SNT-TC-1A Level I, II, III for UT, MT, PT, RT, ET. SAEP-1112 compliant procedures. Vision 2030 project ready."
+                description="ASNT and ARAMCO-compliant NDT training in Saudi Arabia. SNT-TC-1A Level I, II, III for UT, MT, PT, RT, ET. SAEP-1112 compliant procedures. Vision 2030."
                 keywords="NDT training Saudi Arabia, NDT certification KSA, ASNT training Dammam, NDT courses Riyadh, Saudi Aramco NDT training, SAEP-1112 NDT, NDT Jubail, NDT training Yanbu, SABIC NDT certification, NDT training Saudi Arabia, CSWIP Saudi Arabia"
                 canonical="https://atlantisndt.com/ndt-training-saudi-arabia"
                 structuredData={structuredData}

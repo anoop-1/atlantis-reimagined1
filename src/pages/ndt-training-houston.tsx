@@ -177,7 +177,7 @@ export default function NDTTrainingHouston() {
       <Navigation />
       <SEOHead
         title="NDT Training in Houston, TX | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training and certification in Houston, Texas. ASNT SNT-TC-1A Level I, II, III courses in UT, RT, MT, PT, ET, VT, PAUT, TOFD. Hands-on labs. API training. Enroll today!"
+        description="Professional NDT training and certification in Houston, Texas. ASNT SNT-TC-1A Level I, II, III courses in UT, RT, MT, PT, ET, VT, PAUT, TOFD. Enroll today!"
         keywords="NDT training Houston, ASNT certification Houston, NDT courses Houston TX, ultrasonic testing training Houston, radiographic testing Houston, pipeline inspection training, oil gas NDT Houston, Level II certification Houston, Level III NDT Houston, ndt technician training Houston"
         canonical="https://atlantisndt.com/ndt-training-houston"
         structuredData={structuredData}

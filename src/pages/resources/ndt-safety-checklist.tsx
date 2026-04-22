@@ -123,7 +123,7 @@ export default function NDTSafetyChecklist() {
       <Navigation />
       <SEOHead
         title="NDT Safety Checklist | Radiation, Electrical & Worksite Safety | Free Download"
-        description="Free NDT safety checklist covering general worksite safety, radiation safety for RT, electrical safety, chemical safety for PT/MT, confined space entry, and working at heights. Essential for every NDT operation."
+        description="Free NDT safety checklist: worksite safety, RT radiation, electrical, PT/MT chemical, confined space, and working-at-heights. Download today."
         keywords="NDT safety checklist, NDT safety, radiation safety checklist, RT safety, NDT PPE, confined space NDT, working at heights NDT, electrical safety NDT, chemical safety PT"
         canonical="https://atlantisndt.com/resources/ndt-safety-checklist"
         structuredData={structuredData}

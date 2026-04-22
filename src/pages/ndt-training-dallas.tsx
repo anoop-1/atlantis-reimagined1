@@ -23,7 +23,7 @@ export default function NDTTrainingDallas() {
       <Navigation />
       <SEOHead
         title="NDT Training in Dallas, TX | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Dallas. ASNT SNT-TC-1A Level I, II, III. Oil & gas and energy focus. Expert consulting services. All methods. Enroll today!"
+        description="Professional NDT training, consulting, and certification in Dallas. ASNT SNT-TC-1A Level I, II, III. Oil & gas and energy focus. Expert. Enroll today!"
         keywords="NDT training dallas, ASNT certification dallas, NDT courses dallas, NDT consulting dallas"
         canonical="https://atlantisndt.com/ndt-training-dallas"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

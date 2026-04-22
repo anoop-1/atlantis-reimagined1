@@ -168,7 +168,7 @@ export default function NDTCertificationCostCalculator() {
     <div className="min-h-screen bg-slate-50">
       <SEOHead
         title="NDT Certification Cost Calculator 2026 | Training Investment & ROI | Atlantis NDT"
-        description="Calculate the true cost of NDT certification in 2026: ASNT Level I/II/III, ISO 9712, API 510/570/653. Compare exam fees, training costs, and materials by region with 5-year salary ROI projection."
+        description="Calculate true NDT certification cost 2026: ASNT Level I/II/III, ISO 9712, API 510/570/653 exam fees, training, materials + 5-yr salary ROI."
         keywords="NDT certification cost, ASNT certification cost, API 510 exam cost, NDT training cost, NDT certification ROI, ISO 9712 cost, NDT salary increase"
         canonical="https://atlantisndt.com/tools/ndt-certification-cost-calculator"
         structuredData={structuredData}

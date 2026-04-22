@@ -120,7 +120,7 @@ export default function ConsultingServicesMiddleEast() {
             <Navigation />
             <SEOHead
                 title="NDT Consulting Dubai UAE | ARAMCO Offshore Inspection Saudi Arabia"
-                description="ARAMCO-compliant NDT Level III consulting in Middle East. Offshore platform inspection, RBI methodology, oil gas NDT services. Saudi Arabia, UAE, Qatar, Kuwait expert services."
+                description="ARAMCO-compliant NDT Level III consulting in Middle East. Offshore platform inspection, RBI methodology, oil gas NDT services. Saudi Arabia, UAE, Qatar."
                 keywords="NDT consulting Dubai, NDT consulting UAE, ARAMCO NDT services, offshore inspection Saudi Arabia, oil gas NDT Middle East, RBI consulting UAE, pipeline inspection Saudi, ADNOC NDT consulting, QatarEnergy inspection, subsea NDT services"
                 canonical="https://atlantisndt.com/consulting-me"
                 structuredData={serviceSchema}

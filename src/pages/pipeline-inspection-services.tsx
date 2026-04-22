@@ -23,7 +23,7 @@ export default function PipelineInspectionServices() {
       <Navigation />
       <SEOHead
         title="Pipeline Inspection Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Pipeline Inspection Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. In-line and external pipeline testing"
+        description="Professional Pipeline Inspection Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. In-line and external."
         keywords="Pipeline Inspection Services NDT services, Pipeline Inspection Services inspection, NDT testing Pipeline Inspection Services"
         canonical="https://atlantisndt.com/pipeline-inspection-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}

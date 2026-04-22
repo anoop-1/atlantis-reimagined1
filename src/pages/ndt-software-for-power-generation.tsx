@@ -58,7 +58,7 @@ export default function NDTSoftwareForPowerGeneration() {
       <Navigation />
       <SEOHead
         title="NDT Software for Power Generation 2026: Nuclear ISI, ECT, FAC — ASME XI, NEI 03-08"
-        description="NDT software for power generation — nuclear, combined-cycle, coal: ASME Section XI in-service inspection, ECT steam generator bobbin/array per NEI 03-08, FAC per EPRI TR-106971, creep fatigue per B31.1, NRC-grade QA. ASNT Level III authored."
+        description="NDT software for power generation — nuclear, combined-cycle, coal: ASME Section XI in-service inspection, ECT steam generator bobbin/array per NEI 03-08, FAC."
         keywords="nuclear NDT software, ASME Section XI software, ECT steam generator, FAC monitoring, power plant inspection software, EPRI NDE, NEI 03-08"
         canonical={URL}
         structuredData={structuredData}

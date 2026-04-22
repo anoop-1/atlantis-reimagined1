@@ -23,7 +23,7 @@ export default function PetrochemicalNdtServices() {
       <Navigation />
       <SEOHead
         title="Petrochemical NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Petrochemical NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Refinery and plant inspection services"
+        description="Professional Petrochemical NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Refinery and plant."
         keywords="Petrochemical NDT Services NDT services, Petrochemical NDT Services inspection, NDT testing Petrochemical NDT Services"
         canonical="https://atlantisndt.com/petrochemical-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}

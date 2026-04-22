@@ -59,7 +59,7 @@ export default function BlogPage() {
          <Navigation />
          <SEOHead
             title="NDT Blog | Non-Destructive Testing Articles, Guides & Tutorials"
-            description="Explore expert articles on ultrasonic testing, radiographic testing, eddy current testing, magnetic particle testing, and more. Stay updated with NDT industry trends and techniques."
+            description="Explore expert articles on ultrasonic testing, radiographic testing, eddy current testing, magnetic particle testing, and more. Stay updated with NDT."
             keywords="NDT blog, ultrasonic testing guide, radiographic testing tutorial, magnetic particle testing, eddy current testing, penetrant testing, visual testing, NDT methods, NDT training articles"
             canonical="https://atlantisndt.com/blog"
             structuredData={structuredData}

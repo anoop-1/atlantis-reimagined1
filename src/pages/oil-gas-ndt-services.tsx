@@ -125,7 +125,7 @@ export default function OilGasNDTServices() {
       <Navigation />
       <SEOHead
         title="Oil & Gas NDT Services | Pipeline & Offshore Inspection | Atlantis NDT"
-        description="Professional NDT services for oil & gas industry. Pipeline, pressure vessel, weld, and offshore inspection. API 510/570/653 compliant. Certified inspectors. Risk-based inspection."
+        description="Professional NDT services for oil & gas industry. Pipeline, pressure vessel, weld, and offshore inspection. API 510/570/653 compliant. Certified inspectors."
         keywords="oil and gas NDT services, pipeline inspection NDT, offshore NDT inspection, pressure vessel inspection oil gas, API 510 inspection, API 570 piping inspection, weld inspection oil gas"
         canonical="https://atlantisndt.com/oil-gas-ndt-services"
         structuredData={structuredData}

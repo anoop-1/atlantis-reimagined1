@@ -23,7 +23,7 @@ export default function PhasedArrayTraining() {
       <Navigation />
       <SEOHead
         title="Phased Array Ultrasonic Testing (PAUT) Training | Advanced NDT Certification | Atlantis NDT"
-        description="Professional PAUT training for advanced ultrasonic inspection. Electronic beam steering, complex weld inspection, defect detection and sizing. High-demand specialty. Enroll today!"
+        description="Professional PAUT training for advanced ultrasonic inspection. Electronic beam steering, complex weld inspection, defect detection and sizing. Enroll today!"
         keywords="PAUT training, phased array ultrasonic training, PAUT certification, advanced UT training, phased array testing"
         canonical="https://atlantisndt.com/phased-array-training"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}

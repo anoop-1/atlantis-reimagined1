@@ -78,7 +78,7 @@ export default function NDTSoftwareForOilGas() {
       <Navigation />
       <SEOHead
         title="NDT Software for Oil & Gas 2026: Digital Twin + ERP + Reporting (API 510/570/653)"
-        description="Integrated NDT software stack for oil & gas operators & contractors: Digital Twin visualisation, ERP inspection management, and reporting software aligned to API 510/570/653, API 571 damage mechanisms, API 580/581 RBI, NACE MR0175, NORSOK Z-008. By ASNT Level III Anoop Rayavarapu."
+        description="Integrated NDT software for oil & gas: Digital Twin, ERP inspection, reporting aligned to API 510/570/653, API 580/581 RBI, NORSOK. ASNT Level III."
         keywords="NDT software oil gas, API 510 software, API 570 software, API 653 software, RBI software, oil gas inspection management, API 571 damage mechanisms"
         canonical={URL}
         structuredData={structuredData}

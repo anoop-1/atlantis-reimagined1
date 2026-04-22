@@ -248,7 +248,7 @@ export default function RadiographicTesting() {
 
       <SEOHead
         title="Radiographic Testing (RT) | X-Ray, Gamma & Digital Radiography | ASME V Art 2 | Atlantis NDT"
-        description="Complete guide to radiographic testing: film RT, digital radiography, gamma (Ir-192, Co-60), computed radiography. ASME V Article 2, API 1104, AWS D1.1. Level I-III RT training and consulting."
+        description="Complete guide to radiographic testing: film RT, digital radiography, gamma (Ir-192, Co-60), computed radiography. ASME V Article 2, API 1104, AWS D1.1."
         keywords="radiographic testing, RT NDT, X-ray weld inspection, gamma radiography, digital radiography DR, computed radiography CR, ASME Section V Article 2, API 1104 pipeline radiography, RT certification NDT, industrial radiography, film radiography, Iridium-192, Cobalt-60, Selenium-75, IQI penetrameter, ASNT RT Level II, Level III RT consulting"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/radiographic-testing"

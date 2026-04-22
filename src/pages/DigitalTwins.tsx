@@ -146,7 +146,7 @@ export default function DigitalTwins() {
       <>
          <SEOHead
             title="NDT Digital Twins | 3D Asset Integrity Visualization | Oil & Gas Solutions | Atlantis NDT"
-            description="Transform NDT reporting with Digital Twin technology. Real-time 3D visualization for refineries, storage tanks & pipelines. Reduce inspection costs 30-40%. Request a demo."
+            description="Transform NDT reporting with Digital Twin technology. Real-time 3D visualization for refineries, storage tanks & pipelines. Reduce inspection. Request a demo."
             keywords="NDT digital twins, digital twin technology, 3D asset visualization, oil gas digital twin, refinery digital twin, industrial simulation, asset integrity, NDT reporting software, pipeline visualization, storage tank inspection, predictive maintenance"
             ogImage="/atlantis.jpg"
             canonical="https://atlantisndt.com/digital-twins"

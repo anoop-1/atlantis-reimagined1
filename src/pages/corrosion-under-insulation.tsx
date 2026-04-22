@@ -209,7 +209,7 @@ export default function CorrosionUnderInsulation() {
             <Navigation />
             <SEOHead
                 title="Corrosion Under Insulation (CUI) | NDT Inspection Methods | API RP 583 | Atlantis NDT"
-                description="Complete guide to corrosion under insulation (CUI): risk factors, detection methods (GWT, PEC, UT, RT), API 570 & API RP 583 requirements, and CUI inspection programme design. ASNT Level III consulting."
+                description="Complete guide to corrosion under insulation (CUI): risk factors, detection methods (GWT, PEC, UT, RT), API 570 & API RP 583 requirements, and CUI inspection."
                 keywords="corrosion under insulation, CUI inspection, CUI NDT, guided wave CUI, pulsed eddy current CUI, API RP 583, API 570 CUI, CUI detection methods, external corrosion under insulation, CUI risk management"
                 canonical="https://atlantisndt.com/corrosion-under-insulation"
                 structuredData={structuredData}

@@ -366,7 +366,7 @@ export default function NDTCertificationGuide() {
       <Navigation />
       <SEOHead
         title="NDT Certification Guide 2026 | Requirements, Costs & Career Path [Complete]"
-        description="Complete NDT certification guide: ASNT SNT-TC-1A vs ISO 9712 vs PCN comparison, Level I/II/III requirements, exam costs ($200-$750), training hours, and career salary progression. Start your NDT career today."
+        description="Complete NDT certification guide: ASNT SNT-TC-1A vs ISO 9712 vs PCN comparison, Level I/II/III requirements, exam costs. Start your NDT career today."
         keywords="ndt certification requirements, asnt certification levels, how to get ndt certified, ndt certification pathway, ndt certification cost, NDT Level II certification, NDT Level III requirements, ISO 9712 certification, PCN certification, CSWIP certification, ASNT SNT-TC-1A, ndt training hours, ndt experience hours, ndt exam cost, ndt career path"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-certification-guide"

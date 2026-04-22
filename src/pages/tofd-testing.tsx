@@ -147,7 +147,7 @@ export default function TOFDTesting() {
 
       <SEOHead
         title="TOFD Testing | Time of Flight Diffraction | ASME V App III | Weld Inspection | Atlantis NDT"
-        description="Complete guide to TOFD testing: time of flight diffraction for weld volumetric inspection. ASME V Appendix III, EN ISO 10863. TOFD vs PAUT vs RT comparison. Specialist training available."
+        description="Complete guide to TOFD testing: time of flight diffraction for weld volumetric inspection. ASME V Appendix III, EN ISO 10863. TOFD vs PAUT vs RT comparison."
         keywords="TOFD testing, time of flight diffraction, TOFD weld inspection, TOFD NDT, ASME V Article 4 Mandatory Appendix III, EN ISO 10863, BS 7706, TOFD vs PAUT, TOFD vs RT, TOFD certification, D-scan TOFD, TOFD dead zone, TOFD lateral wave, weld volumetric inspection, TOFD ultrasonic testing, TOFD technique, TOFD flaw sizing, TOFD training"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/tofd-testing"

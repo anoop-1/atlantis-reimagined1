@@ -23,7 +23,7 @@ export default function AerospaceNdtServices() {
       <Navigation />
       <SEOHead
         title="Aerospace NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Aerospace NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Aircraft and engine inspection"
+        description="Professional Aerospace NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Aircraft and engine."
         keywords="Aerospace NDT Services NDT services, Aerospace NDT Services inspection, NDT testing Aerospace NDT Services"
         canonical="https://atlantisndt.com/aerospace-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}

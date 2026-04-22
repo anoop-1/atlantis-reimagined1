@@ -72,7 +72,7 @@ export default function ToolsHub() {
     <div className="min-h-screen bg-slate-50">
       <SEOHead
         title="Free NDT Tools & Calculators | Method Selector, Cost Calculator, ROI | Atlantis NDT"
-        description="Free interactive NDT tools: Method Selector, Certification Cost Calculator, Inspection ROI Calculator, and Quick Reference Chart. Built for NDT professionals by Level III experts."
+        description="Free interactive NDT tools: Method Selector, Certification Cost Calculator, Inspection ROI Calculator, and Quick Reference Chart. Built for NDT professionals."
         canonical="https://atlantisndt.com/tools"
         structuredData={{
           "@context": "https://schema.org",

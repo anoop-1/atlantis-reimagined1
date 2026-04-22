@@ -270,7 +270,7 @@ export default function BestNDTReportingSoftware2026() {
       <Navigation />
       <SEOHead
         title="Best NDT Reporting Software 2026: Top 10 Compared (Atlantis, Hexagon, Bentley, Maximo)"
-        description="Top 10 NDT reporting software 2026 compared — code support, mobile UX, AI drafting, pricing, pros/cons. Atlantis, Hexagon, Bentley, Maximo, AspenTech, SAP PM, GE Vernova. ASNT Level III authored."
+        description="Top 10 NDT reporting software 2026 compared — code support, mobile UX, AI drafting, pricing, pros/cons. Atlantis, Hexagon, Bentley, Maximo, AspenTech, SAP PM."
         keywords="best NDT reporting software 2026, NDT software comparison, API 510 software, inspection reporting platforms, Hexagon Meridium APM alternatives, SAP PM NDT alternative"
         canonical={URL}
         structuredData={structuredData}

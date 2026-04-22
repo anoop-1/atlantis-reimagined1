@@ -209,8 +209,8 @@ export default function Index() {
       <div className="min-h-screen">
          <Navigation />
          <SEOHead
-            title="Home"
-            description="Atlantis NDT - Leading provider of Non-Destructive Testing services with 50+ certified professionals. Specializing in ultrasonic, radiographic, magnetic particle, and penetrant testing across oil & gas, marine, aerospace, and nuclear industries."
+            title="Atlantis NDT 2026: Expert Non-Destructive Testing, Training & Consulting"
+            description="50+ certified ASNT Level III specialists. UT, RT, MT, PT, ET across oil & gas, aerospace, marine, nuclear. Same-week scheduling. Get a free quote."
             keywords="NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, asset integrity, quality assurance"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/"

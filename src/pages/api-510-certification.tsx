@@ -149,11 +149,12 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Certification 2026: Exam, 9 Codes & 95% Pass Rate — Houston, Dubai, Online"
-                description="API 510 pressure vessel inspector exam 2026: 7.5-hour open-book, 9 reference codes (API 571/572/576/579-1, ASME VIII/V/IX), 150 questions, $945 ICP fee, salary $85-130K. 95% pass rate with ASNT Level III-led prep."
+                title="API 510 Certification 2026: 84% Pass, Exam $730, 5-Day Prep"
+                description="API 510 Pressure Vessel Inspector 2026: 84% first-attempt pass rate, $730 exam fee, 7.5-hr open-book, 9 codes (API 571/572/576/579-1, ASME VIII/V/IX), 5-day prep."
                 keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}
+                faq={faqs}
             />
             <Breadcrumbs />
 

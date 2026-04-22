@@ -23,7 +23,7 @@ export default function NuclearNdtServices() {
       <Navigation />
       <SEOHead
         title="Nuclear NDT Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Nuclear NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Reactor and safety component inspection"
+        description="Professional Nuclear NDT Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. Reactor and safety component."
         keywords="Nuclear NDT Services NDT services, Nuclear NDT Services inspection, NDT testing Nuclear NDT Services"
         canonical="https://atlantisndt.com/nuclear-ndt-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}
