@@ -1,0 +1,228 @@
+{
+  "generated": "2026-05-03T05:32:33.154Z",
+  "site": "https://atlantisndt.com",
+  "ga4PropertyId": "517088706",
+  "ranges": {
+    "gsc": {
+      "startDate": "2026-04-02",
+      "endDate": "2026-04-30"
+    },
+    "ga4": {
+      "startDate": "2026-04-04",
+      "endDate": "2026-05-02"
+    }
+  },
+  "methodology": {
+    "join": "inner join on normalized pagePath (strip query/fragment, drop trailing slash)",
+    "bad_intent": "GSC impressions >= 200 AND GA engagement_rate < 0.30",
+    "hidden_gems": "GSC impressions < 50 AND GA engagement_rate > 0.70 AND sessions >= 5",
+    "engagement_rate": "engagedSessions / sessions",
+    "gsc_to_ga_ratio": "GA sessions / GSC clicks"
+  },
+  "counts": {
+    "gscPages": 1039,
+    "ga4Pages": 329,
+    "joined": 238,
+    "badIntent": 13,
+    "hiddenGems": 2
+  },
+  "badIntent": [
+    {
+      "page": "/blog/rt-vs-ut-complete-comparison",
+      "impressions": 1453,
+      "clicks": 13,
+      "position": 6.21,
+      "gsc_ctr": 0.00895,
+      "sessions": 36,
+      "engagedSessions": 7,
+      "pageViews": 31,
+      "avg_session_sec": 55.5,
+      "engagement_rate": 0.194,
+      "gsc_to_ga_ratio": 2.77
+    },
+    {
+      "page": "/api-510-certification",
+      "impressions": 1176,
+      "clicks": 6,
+      "position": 21.71,
+      "gsc_ctr": 0.0051,
+      "sessions": 5,
+      "engagedSessions": 1,
+      "pageViews": 5,
+      "avg_session_sec": 4.7,
+      "engagement_rate": 0.2,
+      "gsc_to_ga_ratio": 0.83
+    },
+    {
+      "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+      "impressions": 595,
+      "clicks": 2,
+      "position": 18.53,
+      "gsc_ctr": 0.00336,
+      "sessions": 2,
+      "engagedSessions": 0,
+      "pageViews": 2,
+      "avg_session_sec": 5.4,
+      "engagement_rate": 0,
+      "gsc_to_ga_ratio": 1
+    },
+    {
+      "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+      "impressions": 486,
+      "clicks": 0,
+      "position": 28.78,
+      "gsc_ctr": 0,
+      "sessions": 5,
+      "engagedSessions": 1,
+      "pageViews": 5,
+      "avg_session_sec": 34.1,
+      "engagement_rate": 0.2,
+      "gsc_to_ga_ratio": null
+    },
+    {
+      "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+      "impressions": 350,
+      "clicks": 0,
+      "position": 34.87,
+      "gsc_ctr": 0,
+      "sessions": 7,
+      "engagedSessions": 1,
+      "pageViews": 7,
+      "avg_session_sec": 8,
+      "engagement_rate": 0.143,
+      "gsc_to_ga_ratio": null
+    },
+    {
+      "page": "/blog/visual-testing",
+      "impressions": 333,
+      "clicks": 3,
+      "position": 12.06,
+      "gsc_ctr": 0.00901,
+      "sessions": 10,
+      "engagedSessions": 2,
+      "pageViews": 9,
+      "avg_session_sec": 158.1,
+      "engagement_rate": 0.2,
+      "gsc_to_ga_ratio": 3.33
+    },
+    {
+      "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+      "impressions": 275,
+      "clicks": 2,
+      "position": 6.85,
+      "gsc_ctr": 0.00727,
+      "sessions": 6,
+      "engagedSessions": 1,
+      "pageViews": 5,
+      "avg_session_sec": 34.4,
+      "engagement_rate": 0.167,
+      "gsc_to_ga_ratio": 3
+    },
+    {
+      "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+      "impressions": 262,
+      "clicks": 2,
+      "position": 13.46,
+      "gsc_ctr": 0.00763,
+      "sessions": 2,
+      "engagedSessions": 0,
+      "pageViews": 2,
+      "avg_session_sec": 4.8,
+      "engagement_rate": 0,
+      "gsc_to_ga_ratio": 1
+    },
+    {
+      "page": "/blog/risk-based-inspection-rbi-implementation-guide",
+      "impressions": 232,
+      "clicks": 0,
+      "position": 6.98,
+      "gsc_ctr": 0,
+      "sessions": 4,
+      "engagedSessions": 0,
+      "pageViews": 4,
+      "avg_session_sec": 19880.4,
+      "engagement_rate": 0,
+      "gsc_to_ga_ratio": null
+    },
+    {
+      "page": "/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide",
+      "impressions": 220,
+      "clicks": 1,
+      "position": 24.99,
+      "gsc_ctr": 0.00455,
+      "sessions": 2,
+      "engagedSessions": 0,
+      "pageViews": 1,
+      "avg_session_sec": 2.4,
+      "engagement_rate": 0,
+      "gsc_to_ga_ratio": 2
+    },
+    {
+      "page": "/blog/phased-array-ultrasonic-testing-complete-technical-guide",
+      "impressions": 213,
+      "clicks": 0,
+      "position": 32.54,
+      "gsc_ctr": 0,
+      "sessions": 4,
+      "engagedSessions": 0,
+      "pageViews": 4,
+      "avg_session_sec": 1.3,
+      "engagement_rate": 0,
+      "gsc_to_ga_ratio": null
+    },
+    {
+      "page": "/blog/ndt-procedure-writing-guide-asme-section-v",
+      "impressions": 212,
+      "clicks": 2,
+      "position": 6.14,
+      "gsc_ctr": 0.00943,
+      "sessions": 2,
+      "engagedSessions": 0,
+      "pageViews": 2,
+      "avg_session_sec": 5.2,
+      "engagement_rate": 0,
+      "gsc_to_ga_ratio": 1
+    },
+    {
+      "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+      "impressions": 209,
+      "clicks": 1,
+      "position": 6.13,
+      "gsc_ctr": 0.00478,
+      "sessions": 5,
+      "engagedSessions": 1,
+      "pageViews": 5,
+      "avg_session_sec": 13.8,
+      "engagement_rate": 0.2,
+      "gsc_to_ga_ratio": 5
+    }
+  ],
+  "hiddenGems": [
+    {
+      "page": "/case-studies",
+      "impressions": 36,
+      "clicks": 0,
+      "position": 5.64,
+      "gsc_ctr": 0,
+      "sessions": 5,
+      "engagedSessions": 4,
+      "pageViews": 4,
+      "avg_session_sec": 38.3,
+      "engagement_rate": 0.8,
+      "gsc_to_ga_ratio": null
+    },
+    {
+      "page": "/training-usa",
+      "impressions": 23,
+      "clicks": 0,
+      "position": 11.04,
+      "gsc_ctr": 0,
+      "sessions": 7,
+      "engagedSessions": 5,
+      "pageViews": 7,
+      "avg_session_sec": 59,
+      "engagement_rate": 0.714,
+      "gsc_to_ga_ratio": null
+    }
+  ]
+}

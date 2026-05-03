@@ -8,6 +8,17 @@ import { CheckCircle, Award, BookOpen, Clock, FileText, Users, AlertCircle, Zap,
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
 import { buildTechArticleSchema } from "@/data/author-schema";
+import ClusterNav from "@/components/ClusterNav";
+
+const breadcrumbSchema510Cert = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Certification Guides", "item": "https://atlantisndt.com/asnt-certification" },
+        { "@type": "ListItem", "position": 3, "name": "API 510 Certification", "item": "https://atlantisndt.com/api-510-certification" }
+    ]
+};
 
 const examTopics = [
     "Pressure vessel design and construction (ASME Section VIII Div. 1)",
@@ -385,6 +396,12 @@ export default function API510Certification() {
                     </div>
                 </div>
             </section>
+
+            <ClusterNav cluster="api-510" />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema510Cert) }}
+            />
 
             <ContactDetails />
         </div>

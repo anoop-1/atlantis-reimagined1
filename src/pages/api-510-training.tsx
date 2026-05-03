@@ -7,6 +7,18 @@ import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
+import ClusterNav from '@/components/ClusterNav';
+
+const breadcrumbSchema510Training = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Certification Guides", "item": "https://atlantisndt.com/asnt-certification" },
+    { "@type": "ListItem", "position": 3, "name": "API 510 Certification", "item": "https://atlantisndt.com/api-510-certification" },
+    { "@type": "ListItem", "position": 4, "name": "API 510 Training", "item": "https://atlantisndt.com/api-510-training" }
+  ]
+};
 
 export default function API510Training() {
   const courseOutline = [
@@ -399,6 +411,12 @@ export default function API510Training() {
           </div>
         </div>
       </section>
+
+      <ClusterNav cluster="api-510" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema510Training) }}
+      />
 
       <ContactDetails />
     </div>

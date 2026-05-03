@@ -7,6 +7,18 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, AlertTriangle, Clock, Award, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import ClusterNav from "@/components/ClusterNav";
+
+const breadcrumbSchema653TankGuide = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Certification Guides", "item": "https://atlantisndt.com/asnt-certification" },
+        { "@type": "ListItem", "position": 3, "name": "API 653 Certification", "item": "https://atlantisndt.com/api-653-certification" },
+        { "@type": "ListItem", "position": 4, "name": "API 653 Tank Inspection Guide", "item": "https://atlantisndt.com/api-653-tank-inspection-guide" }
+    ]
+};
 
 const inspectionFrequency = [
     { riskLevel: "High Risk", interval: "5 years or less", criteria: "Corrosion rate > 10 mpy, critical service, previous failures" },
@@ -226,6 +238,12 @@ export default function API653TankInspectionGuide() {
                     </section>
                 </div>
             </article>
+
+            <ClusterNav cluster="api-653" />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema653TankGuide) }}
+            />
 
             <ContactDetails />
         </div>

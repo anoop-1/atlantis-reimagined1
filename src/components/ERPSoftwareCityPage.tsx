@@ -3,6 +3,7 @@ import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import NdtConnectCrosslink from "@/components/NdtConnectCrosslink";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Settings, BarChart3, Users, Lightbulb, Target, Briefcase, HelpCircle, Zap, TrendingUp, Shield } from "lucide-react";
@@ -474,6 +475,14 @@ export const ERPSoftwareCityPage: React.FC<ERPSoftwareCityPageProps> = ({ pageTy
           </div>
         </div>
       </section>
+
+      {/* NDT Connect cross-link (free-tools) */}
+      <NdtConnectCrosslink
+        citySlug={citySlug}
+        cityName={location.name}
+        state={location.region}
+        country={location.country}
+      />
 
       {/* CTA Section */}
       <section id="contact" className="py-16 bg-gradient-to-br from-slate-800 to-slate-900 text-white">

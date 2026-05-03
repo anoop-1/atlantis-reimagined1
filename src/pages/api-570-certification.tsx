@@ -8,6 +8,17 @@ import { CheckCircle, Award, BookOpen, Clock, Users } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
 import { buildTechArticleSchema } from "@/data/author-schema";
+import ClusterNav from "@/components/ClusterNav";
+
+const breadcrumbSchema570Cert = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Certification Guides", "item": "https://atlantisndt.com/asnt-certification" },
+        { "@type": "ListItem", "position": 3, "name": "API 570 Certification", "item": "https://atlantisndt.com/api-570-certification" }
+    ]
+};
 
 const examTopics = [
     "Piping system design (ASME B31.3, B31.1, B31.4, B31.8)",
@@ -331,6 +342,12 @@ export default function API570Certification() {
                     </div>
                 </div>
             </section>
+
+            <ClusterNav cluster="api-570" />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema570Cert) }}
+            />
 
             <ContactDetails />
         </div>

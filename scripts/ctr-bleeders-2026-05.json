@@ -1,0 +1,492 @@
+{
+  "generated": "2026-05-03T05:32:16.876Z",
+  "methodology": {
+    "window": "last 28 days, ending 3 days ago (GSC freshness lag)",
+    "threshold": "actual_ctr / expected_ctr < 0.4 AND impressions >= 100",
+    "lost_clicks_formula": "(expected_ctr - actual_ctr) * impressions * (30/28)"
+  },
+  "sites": {
+    "https://atlantisndt.com": {
+      "site": "https://atlantisndt.com",
+      "range": {
+        "startDate": "2026-04-02",
+        "endDate": "2026-04-30"
+      },
+      "pageCount": 1039,
+      "bleeders": [
+        {
+          "page": "/blog/ndt-salary-guide-2026-global",
+          "impressions": 4181,
+          "clicks": 28,
+          "position": 5.03,
+          "actual_ctr": 0.0067,
+          "expected_ctr": 0.06,
+          "ratio": 0.112,
+          "lost_clicks_per_month": 239,
+          "severity": "critical"
+        },
+        {
+          "page": "/asnt-certification",
+          "impressions": 2682,
+          "clicks": 15,
+          "position": 7.44,
+          "actual_ctr": 0.00559,
+          "expected_ctr": 0.035,
+          "ratio": 0.16,
+          "lost_clicks_per_month": 85,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/ndt-salary-guide-2025-global-level-1-2-3",
+          "impressions": 1059,
+          "clicks": 3,
+          "position": 5.48,
+          "actual_ctr": 0.00283,
+          "expected_ctr": 0.06,
+          "ratio": 0.047,
+          "lost_clicks_per_month": 65,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/rt-vs-ut-complete-comparison",
+          "impressions": 1453,
+          "clicks": 13,
+          "position": 6.21,
+          "actual_ctr": 0.00895,
+          "expected_ctr": 0.045,
+          "ratio": 0.199,
+          "lost_clicks_per_month": 56,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/ndt-technician-salary-guide-2026-industry-report",
+          "impressions": 763,
+          "clicks": 3,
+          "position": 5.43,
+          "actual_ctr": 0.00393,
+          "expected_ctr": 0.06,
+          "ratio": 0.066,
+          "lost_clicks_per_month": 46,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/cwi-certification-requirements-cost-career-impact",
+          "impressions": 1220,
+          "clicks": 0,
+          "position": 6.8,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 46,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+          "impressions": 635,
+          "clicks": 10,
+          "position": 4.5,
+          "actual_ctr": 0.01575,
+          "expected_ctr": 0.06,
+          "ratio": 0.262,
+          "lost_clicks_per_month": 30,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/ut-vs-rt-comparison",
+          "impressions": 596,
+          "clicks": 2,
+          "position": 6.36,
+          "actual_ctr": 0.00336,
+          "expected_ctr": 0.045,
+          "ratio": 0.075,
+          "lost_clicks_per_month": 27,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/aerospace-composite-inspection-ndt-methods-guide",
+          "impressions": 705,
+          "clicks": 0,
+          "position": 8.3,
+          "actual_ctr": 0,
+          "expected_ctr": 0.028,
+          "ratio": 0,
+          "lost_clicks_per_month": 21,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+          "impressions": 559,
+          "clicks": 9,
+          "position": 5.61,
+          "actual_ctr": 0.0161,
+          "expected_ctr": 0.045,
+          "ratio": 0.358,
+          "lost_clicks_per_month": 17,
+          "severity": "medium"
+        },
+        {
+          "page": "/ndt-technician-salary",
+          "impressions": 244,
+          "clicks": 0,
+          "position": 5.35,
+          "actual_ctr": 0,
+          "expected_ctr": 0.06,
+          "ratio": 0,
+          "lost_clicks_per_month": 16,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+          "impressions": 209,
+          "clicks": 1,
+          "position": 6.13,
+          "actual_ctr": 0.00478,
+          "expected_ctr": 0.045,
+          "ratio": 0.106,
+          "lost_clicks_per_month": 9,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/risk-based-inspection-rbi-implementation-guide",
+          "impressions": 232,
+          "clicks": 0,
+          "position": 6.98,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 9,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+          "impressions": 275,
+          "clicks": 2,
+          "position": 6.85,
+          "actual_ctr": 0.00727,
+          "expected_ctr": 0.035,
+          "ratio": 0.208,
+          "lost_clicks_per_month": 8,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/ndt-procedure-writing-guide-asme-section-v",
+          "impressions": 212,
+          "clicks": 2,
+          "position": 6.14,
+          "actual_ctr": 0.00943,
+          "expected_ctr": 0.045,
+          "ratio": 0.21,
+          "lost_clicks_per_month": 8,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/api-579-fitness-for-service-guide",
+          "impressions": 201,
+          "clicks": 0,
+          "position": 7.16,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 8,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/magnetic-particle-testing",
+          "impressions": 1494,
+          "clicks": 2,
+          "position": 16.98,
+          "actual_ctr": 0.00134,
+          "expected_ctr": 0.006,
+          "ratio": 0.223,
+          "lost_clicks_per_month": 7,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/ndt-career-progression-from-technician-to-manager",
+          "impressions": 102,
+          "clicks": 0,
+          "position": 5.32,
+          "actual_ctr": 0,
+          "expected_ctr": 0.06,
+          "ratio": 0,
+          "lost_clicks_per_month": 7,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/weld-inspection-acceptance-criteria-aws-vs-asme",
+          "impressions": 191,
+          "clicks": 0,
+          "position": 6.91,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 7,
+          "severity": "critical"
+        },
+        {
+          "page": "/digital-twins",
+          "impressions": 174,
+          "clicks": 0,
+          "position": 6.88,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 7,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/api-617-centrifugal-compressor-inspection",
+          "impressions": 273,
+          "clicks": 2,
+          "position": 7.69,
+          "actual_ctr": 0.00733,
+          "expected_ctr": 0.028,
+          "ratio": 0.262,
+          "lost_clicks_per_month": 6,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/asme-b31-3-process-piping-requirements",
+          "impressions": 226,
+          "clicks": 2,
+          "position": 8.46,
+          "actual_ctr": 0.00885,
+          "expected_ctr": 0.028,
+          "ratio": 0.316,
+          "lost_clicks_per_month": 5,
+          "severity": "medium"
+        },
+        {
+          "page": "/blog/ai-in-ndt-machine-learning-for-defect-detection",
+          "impressions": 136,
+          "clicks": 0,
+          "position": 7.16,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 5,
+          "severity": "critical"
+        },
+        {
+          "page": "/consulting/ndt-consulting-level-iii",
+          "impressions": 113,
+          "clicks": 0,
+          "position": 5.79,
+          "actual_ctr": 0,
+          "expected_ctr": 0.045,
+          "ratio": 0,
+          "lost_clicks_per_month": 5,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/forging-defect-detection-and-assessment",
+          "impressions": 190,
+          "clicks": 2,
+          "position": 7.96,
+          "actual_ctr": 0.01053,
+          "expected_ctr": 0.028,
+          "ratio": 0.376,
+          "lost_clicks_per_month": 4,
+          "severity": "medium"
+        },
+        {
+          "page": "/blog/conventional-ut-vs-phased-array-which-method-to-choose",
+          "impressions": 106,
+          "clicks": 0,
+          "position": 6.8,
+          "actual_ctr": 0,
+          "expected_ctr": 0.035,
+          "ratio": 0,
+          "lost_clicks_per_month": 4,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/eddy-current-testing",
+          "impressions": 1244,
+          "clicks": 0,
+          "position": 25.79,
+          "actual_ctr": 0,
+          "expected_ctr": 0.0031,
+          "ratio": 0,
+          "lost_clicks_per_month": 4,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/ultrasonic-testing",
+          "impressions": 142,
+          "clicks": 0,
+          "position": 7.89,
+          "actual_ctr": 0,
+          "expected_ctr": 0.028,
+          "ratio": 0,
+          "lost_clicks_per_month": 4,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/ndt-level-iii-certification-requirements-guide",
+          "impressions": 135,
+          "clicks": 1,
+          "position": 8.06,
+          "actual_ctr": 0.00741,
+          "expected_ctr": 0.028,
+          "ratio": 0.265,
+          "lost_clicks_per_month": 3,
+          "severity": "high"
+        },
+        {
+          "page": "/blog/magnetic-particle-level-ii-certification-guide",
+          "impressions": 138,
+          "clicks": 0,
+          "position": 9.37,
+          "actual_ctr": 0,
+          "expected_ctr": 0.022,
+          "ratio": 0,
+          "lost_clicks_per_month": 3,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/api-653-certification-complete-guide",
+          "impressions": 122,
+          "clicks": 0,
+          "position": 10.07,
+          "actual_ctr": 0,
+          "expected_ctr": 0.018,
+          "ratio": 0,
+          "lost_clicks_per_month": 2,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/ndt-equipment-calibration-and-maintenance-best-practices",
+          "impressions": 220,
+          "clicks": 0,
+          "position": 12.57,
+          "actual_ctr": 0,
+          "expected_ctr": 0.01,
+          "ratio": 0,
+          "lost_clicks_per_month": 2,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/ndt-safety-requirements-radiation-safety-guide",
+          "impressions": 130,
+          "clicks": 0,
+          "position": 11.12,
+          "actual_ctr": 0,
+          "expected_ctr": 0.015,
+          "ratio": 0,
+          "lost_clicks_per_month": 2,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/stress-corrosion-cracking-scc-detection-methods",
+          "impressions": 119,
+          "clicks": 0,
+          "position": 11.03,
+          "actual_ctr": 0,
+          "expected_ctr": 0.015,
+          "ratio": 0,
+          "lost_clicks_per_month": 2,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/phased-array-ultrasonic-testing-complete-technical-guide",
+          "impressions": 213,
+          "clicks": 0,
+          "position": 32.54,
+          "actual_ctr": 0,
+          "expected_ctr": 0.00246,
+          "ratio": 0,
+          "lost_clicks_per_month": 1,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+          "impressions": 350,
+          "clicks": 0,
+          "position": 34.87,
+          "actual_ctr": 0,
+          "expected_ctr": 0.00229,
+          "ratio": 0,
+          "lost_clicks_per_month": 1,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/total-focusing-method-tfm-in-ut",
+          "impressions": 118,
+          "clicks": 0,
+          "position": 13.6,
+          "actual_ctr": 0,
+          "expected_ctr": 0.009,
+          "ratio": 0,
+          "lost_clicks_per_month": 1,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+          "impressions": 486,
+          "clicks": 0,
+          "position": 28.78,
+          "actual_ctr": 0,
+          "expected_ctr": 0.00278,
+          "ratio": 0,
+          "lost_clicks_per_month": 1,
+          "severity": "critical"
+        }
+      ]
+    },
+    "https://ndt-connect.com": {
+      "site": "https://ndt-connect.com",
+      "range": {
+        "startDate": "2026-04-02",
+        "endDate": "2026-04-30"
+      },
+      "pageCount": 64,
+      "bleeders": [
+        {
+          "page": "/cost-guide/dubai/radiographic-testing",
+          "impressions": 188,
+          "clicks": 1,
+          "position": 3.51,
+          "actual_ctr": 0.00532,
+          "expected_ctr": 0.08,
+          "ratio": 0.066,
+          "lost_clicks_per_month": 15,
+          "severity": "critical"
+        },
+        {
+          "page": "/cost-guide/houston/ultrasonic-testing",
+          "impressions": 519,
+          "clicks": 2,
+          "position": 7.77,
+          "actual_ctr": 0.00385,
+          "expected_ctr": 0.028,
+          "ratio": 0.138,
+          "lost_clicks_per_month": 13,
+          "severity": "critical"
+        },
+        {
+          "page": "/compare/radiographic-testing-vs-phased-array-ut",
+          "impressions": 151,
+          "clicks": 0,
+          "position": 10.48,
+          "actual_ctr": 0,
+          "expected_ctr": 0.018,
+          "ratio": 0,
+          "lost_clicks_per_month": 3,
+          "severity": "critical"
+        },
+        {
+          "page": "/blog/phased-array-ultrasonic-testing-guide",
+          "impressions": 217,
+          "clicks": 0,
+          "position": 52.35,
+          "actual_ctr": 0,
+          "expected_ctr": 0.00153,
+          "ratio": 0,
+          "lost_clicks_per_month": 0,
+          "severity": "critical"
+        }
+      ]
+    }
+  }
+}

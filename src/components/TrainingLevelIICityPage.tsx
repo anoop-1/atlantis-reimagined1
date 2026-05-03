@@ -3,6 +3,7 @@ import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import NdtConnectCrosslink from "@/components/NdtConnectCrosslink";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Award, BookOpen, Clock, Users, TrendingUp, DollarSign, Target, HelpCircle, GraduationCap, AlertCircle, FileText } from "lucide-react";
@@ -571,6 +572,14 @@ export const TrainingLevelIICityPage: React.FC<TrainingLevelIICityPageProps> = (
           </div>
         </div>
       </section>
+
+      {/* NDT Connect cross-link (free-tools) */}
+      <NdtConnectCrosslink
+        citySlug={location.slug}
+        cityName={location.name}
+        state={location.region}
+        country={location.country}
+      />
 
       {/* Enrollment CTA */}
       <section id="enroll" className="py-16 bg-gradient-to-br from-slate-800 to-slate-900 text-white">

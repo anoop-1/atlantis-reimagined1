@@ -6,6 +6,18 @@ import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
+import ClusterNav from '@/components/ClusterNav';
+
+const breadcrumbSchema570Training = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Certification Guides", "item": "https://atlantisndt.com/asnt-certification" },
+    { "@type": "ListItem", "position": 3, "name": "API 570 Certification", "item": "https://atlantisndt.com/api-570-certification" },
+    { "@type": "ListItem", "position": 4, "name": "API 570 Training", "item": "https://atlantisndt.com/api-570-training" }
+  ]
+};
 
 export default function API570Training() {
   const courseSchema = {
@@ -130,6 +142,12 @@ export default function API570Training() {
           </div>
         </div>
       </section>
+
+      <ClusterNav cluster="api-570" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema570Training) }}
+      />
 
       <ContactDetails />
     </div>

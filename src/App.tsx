@@ -100,6 +100,14 @@ const API570Certification = lazy(() => import("./pages/api-570-certification"));
 const API570Training = lazy(() => import("./pages/api-570-training"));
 const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
+// New 2026-05 SEO pages: service / comparison / regional
+const MflPipelineInspection = lazy(() => import("./pages/services/MflPipelineInspection"));
+const CompareAsntVsPcn = lazy(() => import("./pages/compare/AsntVsPcn"));
+const CompareApi510VsApi570 = lazy(() => import("./pages/compare/Api510VsApi570"));
+const CompareConsultingVsInHouse = lazy(() => import("./pages/compare/ConsultingVsInHouse"));
+const Api510India = lazy(() => import("./pages/regional/Api510India"));
+const Api570India = lazy(() => import("./pages/regional/Api570India"));
+const Api653India = lazy(() => import("./pages/regional/Api653India"));
 // ECT Tube Inspection
 const EddyCurrentTubeInspection = lazy(() => import("./pages/eddy-current-tube-inspection"));
 // Advanced NDT Method Pages
@@ -913,6 +921,14 @@ const App = () => (
                   <Route path="/api-570-training" element={<LazyRoute Component={API570Training} />} />
                   <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
+                  {/* 2026-05 SEO additions — service, comparison, regional India */}
+                  <Route path="/services/mfl-pipeline-inspection" element={<LazyRoute Component={MflPipelineInspection} />} />
+                  <Route path="/compare/asnt-vs-pcn" element={<LazyRoute Component={CompareAsntVsPcn} />} />
+                  <Route path="/compare/api-510-vs-api-570" element={<LazyRoute Component={CompareApi510VsApi570} />} />
+                  <Route path="/compare/ndt-consulting-vs-in-house" element={<LazyRoute Component={CompareConsultingVsInHouse} />} />
+                  <Route path="/api-510-india" element={<LazyRoute Component={Api510India} />} />
+                  <Route path="/api-570-india" element={<LazyRoute Component={Api570India} />} />
+                  <Route path="/api-653-india" element={<LazyRoute Component={Api653India} />} />
                   {/* ECT Tube Inspection */}
                   <Route path="/eddy-current-tube-inspection" element={<LazyRoute Component={EddyCurrentTubeInspection} />} />
                   {/* Advanced NDT Method Pages */}

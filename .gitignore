@@ -29,8 +29,11 @@ dist-ssr
 .env.production
 .env*.local
 scripts/gsc-service-account.json
+scripts/gsc-service-account-*.json
+scripts/indexnow-key.json
 scripts/.env.gsc
 scripts/indexing-progress.json
+scripts/bing-api-key.json
 .credentials/
 # Service-account private keys — never commit
 scripts/gsc-accounts/*.json

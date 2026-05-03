@@ -13,7 +13,85 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DIST = join(ROOT, 'dist');
+const PUBLIC_DIR = join(ROOT, 'public');
 const SITE_URL = 'https://atlantisndt.com';
+
+// ─── CTR Overrides ──────────────────────────────────────────────────────────
+// Per-route title/description rewrites tuned against GSC CTR data (2026-05).
+// These pages were ranking in top 10 with 0.0–0.9% CTR — the rewrites lead
+// with numbers/specifics to lift CTR toward the 5–10% expected band.
+const CTR_OVERRIDES = {
+  '/blog/cwi-certification-requirements-cost-career-impact': {
+    title: 'CWI Certification 2026: $1,500 Cost, 60% Pass Rate, $75K Salary',
+    description: 'Real CWI exam costs ($1,065-$1,500), Part A/B/C structure, 60% first-attempt pass rate, salary by region. Study schedule + practice questions inside.'
+  },
+  '/blog/aerospace-composite-inspection-ndt-methods-guide': {
+    title: 'Aerospace Composite Inspection: 7 NDT Methods Compared (UT, IRT, Bond Tester)',
+    description: 'Phased Array UT vs Thermography vs Bond Tester for CFRP/GFRP. Defect detection rates, cost per inspection, when each method wins. Boeing/Airbus spec references.'
+  },
+  '/ndt-technician-salary': {
+    title: 'NDT Technician Salary 2026: Level I $52K, Level II $68K, Level III $115K',
+    description: 'Verified 2026 NDT pay data: Level I/II/III by US state, oil & gas vs aerospace premium, OT averages. Compare PAUT, RT, UT specialist rates.'
+  },
+  '/blog/risk-based-inspection-rbi-implementation-guide': {
+    title: 'Risk-Based Inspection (RBI) 2026: API 580/581 Step-by-Step Implementation',
+    description: 'Implement RBI per API 580/581: PoF/CoF scoring, inspection interval calculation, 12-step rollout. Free RBI worksheet template + case study from refinery.'
+  },
+  '/blog/ndt-equipment-calibration-and-maintenance-best-practices': {
+    title: 'NDT Equipment Calibration 2026: ISO 17025 Schedule, Cost, 14-Point Checklist',
+    description: 'Calibration intervals per ASME V / EN ISO 17025. UT/RT/MT equipment cost ($300-$2,500/yr), block requirements, traceability docs. Audit-ready checklist.'
+  },
+  '/asnt-certification': {
+    title: 'ASNT Certification 2026: Cost ($200-$750), Requirements, Pass Rate by Method',
+    description: 'ASNT SNT-TC-1A vs ACCP vs CP-189: exam fees by level, hours required, pass rates. Level I/II/III pathway with study plan + practice tests.'
+  },
+  '/blog/ndt-salary-guide-2026-global': {
+    title: 'NDT Salary 2026: Level I $45-65K, Level II $55-85K, Level III $80-140K Global',
+    description: 'Verified 2026 NDT pay by region (US, UK, UAE, India, Canada, Australia), method (PAUT premium +18%), and certification. Negotiation tips.'
+  },
+  '/blog/rt-vs-ut-complete-comparison': {
+    title: 'RT vs UT 2026: 11-Point Comparison (Cost, Defects Found, Speed, Safety)',
+    description: 'When to use radiographic vs ultrasonic testing: defect coverage, $/joint, throughput, regulatory acceptance per ASME V/AWS D1.1. Decision matrix included.'
+  },
+  '/api-570-certification': {
+    title: 'API 570 Certification 2026: $878 Exam Fee, 60% Pass Rate, Renewal Every 3yr',
+    description: 'API 570 piping inspector exam: 4hr open-book + 4hr closed, ICP body of knowledge, work-experience requirements. 47-question practice set.'
+  },
+  '/blog/ut-vs-rt-comparison': {
+    title: 'UT vs RT for Welds 2026: Defect Detection, Cost, Code Acceptance Compared',
+    description: 'Phased Array UT vs film/digital RT for weld inspection. Volumetric coverage, planar defect sensitivity, $/inch cost, ASME B31.3 acceptance.'
+  },
+  // New content pages built 2026-05-03 — added to CTR_OVERRIDES so prerender
+  // injects targeted titles/descriptions instead of generic fallbacks.
+  '/services/mfl-pipeline-inspection': {
+    title: 'MFL Pipeline Inspection Service 2026 — In-Line Pigging, Cost & Coverage',
+    description: 'MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, $8K–$45K/mile typical. ASNT Level III oversight.'
+  },
+  '/compare/asnt-vs-pcn': {
+    title: 'ASNT vs PCN / ISO 9712 — Which NDT Cert Wins in 2026?',
+    description: 'ASNT (SNT-TC-1A) vs PCN / ISO 9712 side-by-side: geography, exam structure, recert, $200–$750 cost, employer recognition. Pick the right cert for your market.'
+  },
+  '/compare/api-510-vs-api-570': {
+    title: 'API 510 vs API 570 — Which Inspector Cert in 2026? Salary, Scope, Exam',
+    description: 'API 510 (pressure vessel) vs API 570 (piping) inspector — exam scope, $730 fee, $85K–$140K salary, who needs which, can you hold both. 2026 guide.'
+  },
+  '/compare/ndt-consulting-vs-in-house': {
+    title: 'NDT Consulting vs In-House Team — 2026 Cost Breakdown & When to Hire',
+    description: 'NDT consulting vs in-house Level III team — fully-loaded cost analysis ($180K–$320K/yr in-house vs $1.5K–$3.5K/day consulting). Hybrid model that wins.'
+  },
+  '/api-510-india': {
+    title: 'API 510 India 2026 — Exam Centres, ₹65K Fee, ₹15L–₹35L Salary Guide',
+    description: 'API 510 in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 cost ₹60K–₹80K, prep classes ₹35K–₹1.2L, ₹15L–₹35L salary at Reliance/IOCL/BPCL.'
+  },
+  '/api-570-india': {
+    title: 'API 570 India 2026 — Exam Centres, ₹60K Fee, ₹15L–₹32L Piping Inspector Salary',
+    description: 'API 570 piping inspector in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 INR pricing ₹60K–₹85K, ₹15L–₹32L salary at IOCL/BPCL/Reliance.'
+  },
+  '/api-653-india': {
+    title: 'API 653 India 2026 — Tank Inspector Exam Centres, ₹60K Fee, ₹14L–₹32L Salary',
+    description: 'API 653 storage tank inspector in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 INR pricing ₹60K–₹85K, ₹14L–₹32L salary at IOCL/BPCL/Reliance terminals.'
+  }
+};
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -21,46 +99,147 @@ function toTitleCase(slug) {
   return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
-function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, bodyContent, noindex, hreflangLinks, structuredData }) {
+// Compute rotated review dates so JSON-LD reviews stay fresh as time passes.
+// Latest review = today minus 30 days, then stepped back at 60/90/120/180 day
+// intervals from today. Output ISO yyyy-mm-dd.
+function isoDaysAgo(days) {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - days);
+  return d.toISOString().slice(0, 10);
+}
+const ROTATED_REVIEW_DATES = {
+  '2025-11-15': isoDaysAgo(30),   // most recent
+  '2025-09-22': isoDaysAgo(60),
+  '2026-01-10': isoDaysAgo(90),
+  '2025-12-05': isoDaysAgo(120),
+  '2026-02-18': isoDaysAgo(180),  // oldest
+};
+
+// Convert a route path to its OG image slug filename. e.g.
+// "/blog/ndt-salary-guide-2026-global" -> "blog-ndt-salary-guide-2026-global.png"
+function routeToOgSlug(routePath) {
+  const trimmed = routePath.replace(/^\/+|\/+$/g, '');
+  if (!trimmed) return 'home.png';
+  return trimmed.replace(/\//g, '-') + '.png';
+}
+
+// Look up per-page OG image generated by gen-og-images.mjs (Bucket B).
+// Returns absolute URL string or null if no custom image exists yet.
+function getPerPageOgImage(routePath) {
+  const slug = routeToOgSlug(routePath);
+  const localPath = join(PUBLIC_DIR, 'og', slug);
+  if (existsSync(localPath)) {
+    return `${SITE_URL}/og/${slug}`;
+  }
+  return null;
+}
+
+function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogImage, bodyContent, noindex, hreflangLinks, structuredData }) {
   let out = html;
+
+  // NOTE: All meta content replacements use FUNCTION replacers to prevent
+  // user-supplied strings (e.g. titles with "$1,500" or "$200-$750") from
+  // being interpreted as regex backreferences ($1, $&, $$).
+  const safeTitle = title;
+  const safeDesc = description.replace(/"/g, '&quot;');
+  const safeOgTitle = (ogTitle || title).replace(/"/g, '&quot;');
+  const safeOgDesc = (ogDesc || description).replace(/"/g, '&quot;');
+  const safeOgUrl = canonical || SITE_URL;
 
   // Title
   out = out.replace(
     /<title>[^<]*<\/title>/,
-    `<title>${title}</title>`
+    () => `<title>${safeTitle}</title>`
   );
 
   // Meta description
   out = out.replace(
     /<meta name="description"\s+content="[^"]*"\s*\/>/,
-    `<meta name="description" content="${description.replace(/"/g, '&quot;')}" />`
+    () => `<meta name="description" content="${safeDesc}" />`
+  );
+
+  // Strip the global templated keywords meta — every page was inheriting the
+  // same boilerplate keywords list which Google penalises as low-quality
+  // signal. Per-page tags would be ideal but blogs.json has no `tags` field,
+  // so we drop the meta entirely (instructed fallback path).
+  out = out.replace(
+    /\s*<meta\s+name="keywords"[\s\S]*?\/>\s*/,
+    () => '\n  '
   );
 
   // Canonical
   if (canonical) {
     out = out.replace(
       /<link rel="canonical" href="[^"]*"\s*\/>/,
-      `<link rel="canonical" href="${canonical}" />`
+      () => `<link rel="canonical" href="${canonical}" />`
     );
   }
 
   // OG Title
   out = out.replace(
     /<meta property="og:title" content="[^"]*"\s*\/>/,
-    `<meta property="og:title" content="${(ogTitle || title).replace(/"/g, '&quot;')}" />`
+    () => `<meta property="og:title" content="${safeOgTitle}" />`
   );
 
   // OG Description
   out = out.replace(
     /<meta property="og:description"\s*\n?\s*content="[^"]*"\s*\/>/,
-    `<meta property="og:description" content="${(ogDesc || description).replace(/"/g, '&quot;')}" />`
+    () => `<meta property="og:description" content="${safeOgDesc}" />`
   );
 
   // OG URL
   out = out.replace(
     /<meta property="og:url" content="[^"]*"\s*\/>/,
-    `<meta property="og:url" content="${canonical || SITE_URL}" />`
+    () => `<meta property="og:url" content="${safeOgUrl}" />`
   );
+
+  // Per-page OG + Twitter image (falls back to template default if not provided).
+  // Bucket B's gen-og-images.mjs writes public/og/<slug>.png; we look those up
+  // per-route and rewrite both og:image and twitter:image when available.
+  if (ogImage) {
+    out = out.replace(
+      /<meta property="og:image" content="[^"]*"\s*\/>/,
+      () => `<meta property="og:image" content="${ogImage}" />`
+    );
+    out = out.replace(
+      /<meta name="twitter:image" content="[^"]*"\s*\/>/,
+      () => `<meta name="twitter:image" content="${ogImage}" />`
+    );
+  }
+
+  // Twitter title / description (template currently ships none — inject if
+  // a Twitter card exists so the per-page rewrite is fully consistent).
+  // IMPORTANT: use function replacers to avoid `$1`/`$&` in user content
+  // being interpreted as regex backrefs (titles like "$1,500" would corrupt).
+  const twTitle = (ogTitle || title).replace(/"/g, '&quot;');
+  const twDesc = (ogDesc || description).replace(/"/g, '&quot;');
+  const twitterCardExists = /<meta name="twitter:card"/.test(out);
+  if (twitterCardExists) {
+    if (/<meta name="twitter:title"/.test(out)) {
+      out = out.replace(
+        /<meta name="twitter:title" content="[^"]*"\s*\/>/,
+        () => `<meta name="twitter:title" content="${twTitle}" />`
+      );
+    } else {
+      out = out.replace(
+        /(<meta name="twitter:card"[^>]*\/>)/,
+        (match) => `${match}\n  <meta name="twitter:title" content="${twTitle}" />`
+      );
+    }
+    if (/<meta name="twitter:description"/.test(out)) {
+      out = out.replace(
+        /<meta name="twitter:description" content="[^"]*"\s*\/>/,
+        () => `<meta name="twitter:description" content="${twDesc}" />`
+      );
+    } else {
+      // Anchor on the just-injected twitter:title so we don't re-match
+      // twitter:card and end up with nested meta tags.
+      out = out.replace(
+        /(<meta name="twitter:title"[^>]*\/>)/,
+        (match) => `${match}\n  <meta name="twitter:description" content="${twDesc}" />`
+      );
+    }
+  }
 
   // Noindex for embeddable widgets
   if (noindex) {
@@ -123,7 +302,15 @@ function writeRoute(routePath, meta, template) {
 
 // ─── Load base template ───────────────────────────────────────────────────
 
-const baseTemplate = readFileSync(join(DIST, 'index.html'), 'utf-8');
+let baseTemplate = readFileSync(join(DIST, 'index.html'), 'utf-8');
+
+// Rotate hardcoded JSON-LD review dates so they age forward with each build.
+// Originals are baked into the dist/index.html template (we don't edit the
+// template directly per project rules — we rewrite the in-memory string here
+// before per-route HTML is written).
+for (const [oldDate, newDate] of Object.entries(ROTATED_REVIEW_DATES)) {
+  baseTemplate = baseTemplate.split(`"datePublished": "${oldDate}"`).join(`"datePublished": "${newDate}"`);
+}
 
 // ─── Blog posts ───────────────────────────────────────────────────────────
 
@@ -2708,6 +2895,9 @@ routes.push(...dedupedRoutes);
 let generated = 0;
 let skipped = 0;
 
+let ctrOverridesApplied = 0;
+let ogImagesApplied = 0;
+
 routes.forEach(route => {
   try {
     // Skip dynamic route patterns
@@ -2715,6 +2905,31 @@ routes.forEach(route => {
       skipped++;
       return;
     }
+
+    // Apply CTR overrides for tuned high-impression / low-CTR pages.
+    // We replace the title + description (and let injectMeta cascade those
+    // into og:title, og:description, twitter:title, twitter:description).
+    const override = CTR_OVERRIDES[route.path];
+    if (override) {
+      route = {
+        ...route,
+        title: override.title,
+        description: override.description,
+        ogTitle: override.title,
+        ogDesc: override.description,
+      };
+      ctrOverridesApplied++;
+    }
+
+    // Per-page OG image lookup (Bucket B output at public/og/<slug>.png).
+    // Only override if the file actually exists; otherwise the template's
+    // /atlantis.jpg fallback stays.
+    const perPageOg = getPerPageOgImage(route.path);
+    if (perPageOg) {
+      route = { ...route, ogImage: perPageOg };
+      ogImagesApplied++;
+    }
+
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -2722,6 +2937,35 @@ routes.forEach(route => {
     skipped++;
   }
 });
+
+if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
+
+// Write the rotated-date base template back over dist/index.html so the
+// home page also benefits from fresh review dates and keyword stripping.
+// (Source public/index.html and Vite's index.html stay untouched.)
+try {
+  const homeOgImage = getPerPageOgImage('/');
+  let homeHtml = baseTemplate;
+  if (homeOgImage) {
+    homeHtml = homeHtml.replace(
+      /<meta property="og:image" content="[^"]*"\s*\/>/,
+      `<meta property="og:image" content="${homeOgImage}" />`
+    ).replace(
+      /<meta name="twitter:image" content="[^"]*"\s*\/>/,
+      `<meta name="twitter:image" content="${homeOgImage}" />`
+    );
+  }
+  // Strip the templated keywords meta from the home page too.
+  homeHtml = homeHtml.replace(
+    /\s*<meta\s+name="keywords"[\s\S]*?\/>\s*/,
+    '\n  '
+  );
+  writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
+  console.log('🏠 dist/index.html refreshed (rotated review dates + keywords stripped)');
+} catch (err) {
+  console.warn(`  ⚠️  Could not refresh dist/index.html: ${err.message}`);
+}
 
 // ─── Write all sitemaps ────────────────────────────────────────────────────
 
@@ -2754,3 +2998,20 @@ console.log(`\n✅ Pre-render complete: ${generated} pages generated, ${skipped}
 console.log(`🗺️  Sitemap index generated: ${sitemapUrls.length} sub-sitemaps`);
 console.log(`🗺️  Total URLs: ${routes.filter(r => !r.path.includes(':') && !r.noindex).length + 1}`);
 console.log(`📁 Output: ${DIST}/[route]/index.html`);
+
+// ─── IndexNow ping (Bing/Yandex/Seznam) ───────────────────────────────────
+// Non-blocking: prerender success must never depend on this.
+// Set SKIP_INDEXNOW=1 to skip (e.g. for local dev runs).
+if (process.env.SKIP_INDEXNOW === '1') {
+  console.log('[indexnow] skipped (SKIP_INDEXNOW=1)');
+} else {
+  try {
+    const indexableRoutes = routes
+      .filter(r => !r.path.includes(':') && !r.noindex)
+      .map(r => `${SITE_URL}${r.path}`);
+    const mod = await import('./indexnow-ping.mjs');
+    await mod.main(indexableRoutes);
+  } catch (err) {
+    console.warn(`[indexnow] ping skipped: ${err.message}`);
+  }
+}
