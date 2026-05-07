@@ -8,6 +8,7 @@ import { blogService } from '@/services/BlogService';
 import { ChevronLeft } from 'lucide-react';
 import { useEffect, useState, useMemo } from 'react';
 import { RelatedArticles } from '@/components/RelatedArticles';
+import { RelatedProducts } from '@/components/RelatedProducts';
 
 // Function to clean up blog content - removes DOCTYPE, html, head, body wrappers
 function cleanBlogContent(content: string): string {
@@ -237,6 +238,8 @@ export default function BlogDetail() {
               transition={{ delay: 0.4 }}
               className="mt-16"
             >
+              <RelatedProducts tags={[blog?.title, blog?.category, ...(blog?.tags || [])].filter(Boolean)} count={3} />
+
               <RelatedArticles currentSlug={slug || ''} maxArticles={3} />
 
               <div className="mt-8 pt-8 border-t text-center">

@@ -1,0 +1,110 @@
+# Atlantis NDT
+
+> Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals serving oil & gas, aerospace, marine, nuclear, and power generation industries from Houston, Hyderabad, and the Middle East. ISO 9001:2015 and ASNT SNT-TC-1A compliant.
+
+## About
+Atlantis NDT is a non-destructive testing (NDT) company combining traditional inspection services (UT, RT, MT, PT, ET, VT, PAUT, TOFD) with modern technology — AI-powered NDT reporting software, 3D digital twin platforms, and an Odoo-based ERP tailored for inspection companies. Founded by ASNT Level III certified Anoop Rayavarapu, headquartered in Houston, Texas with operations in Hyderabad, India and the Middle East.
+
+## Core Services
+- [NDT Consulting](https://atlantisndt.com/consulting): Expert ASNT Level III consulting across all major NDT methods. Procedure development, code interpretation, third-party inspection.
+- [NDT Consulting USA](https://atlantisndt.com/consulting-usa): Houston, Los Angeles, New Orleans, Denver, Chicago, and 20+ US cities.
+- [NDT Consulting Middle East](https://atlantisndt.com/consulting-me): Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman.
+- [NDT Consulting India](https://atlantisndt.com/consulting-india): Mumbai, Hyderabad, Bangalore, Chennai, Delhi.
+- [NDT Training](https://atlantisndt.com/training): ASNT SNT-TC-1A Level I, II, III certification programs across all NDT methods.
+- [NDT Training USA](https://atlantisndt.com/training-usa): In-person and hybrid training programs in the United States.
+- [NDT Training Middle East](https://atlantisndt.com/training-me): Training centers serving GCC countries.
+- [NDT Training India](https://atlantisndt.com/training-india): Hyderabad-based training with global certification.
+- [Digital Twins](https://atlantisndt.com/digital-twins): Real-time 3D asset visualization with integrated NDT inspection data and AI-powered predictive maintenance.
+- [Digital Twins for Oil & Gas Assets](https://atlantisndt.com/digital-twins-oil-gas-assets): Refinery, pipeline, pressure vessel, and storage tank digital twin solutions.
+- [NDT Connect Marketplace](https://atlantisndt.com/ndt-connect): Marketplace connecting NDT service providers with clients across 15+ industries.
+- [NDT Connect Platform](https://atlantisndt.com/ndt-connect-platform): Platform overview for service providers and inspection companies.
+- [Best NDT Reporting Software 2026](https://atlantisndt.com/best-ndt-reporting-software-2026): AI-powered inspection report generation with mobile data capture.
+
+## Certification Guides
+- [ASNT Certification 2026](https://atlantisndt.com/asnt-certification): Cost, requirements, pass rates, Level I/II/III pathways.
+- [ASNT Level III Training](https://atlantisndt.com/asnt-level-iii-training): Advanced NDT certification preparation.
+- [API 510 Certification](https://atlantisndt.com/api-510-certification): Pressure vessel inspector certification.
+- [API 510 Training](https://atlantisndt.com/api-510-training): Exam preparation course.
+- [API 570 Certification](https://atlantisndt.com/api-570-certification): Piping inspector certification.
+- [API 570 Training](https://atlantisndt.com/api-570-training): Exam preparation course.
+- [API 653 Certification](https://atlantisndt.com/api-653-certification): Aboveground storage tank inspector certification.
+- [API 653 Training](https://atlantisndt.com/api-653-training): Exam preparation course.
+- [API Inspector Guide](https://atlantisndt.com/api-inspector-guide): Pathway comparison for API 510, 570, 653.
+- [NDT Certification Guide](https://atlantisndt.com/ndt-certification-guide): Overview of all major NDT certification standards.
+
+## NDT Methods
+- [NDT Methods Overview](https://atlantisndt.com/ndt-methods): All major non-destructive testing techniques compared.
+- [NDT Methods Comparison](https://atlantisndt.com/ndt-methods-comparison): Side-by-side comparison of UT, RT, MT, PT, ET, VT.
+- [Phased Array UT (PAUT)](https://atlantisndt.com/phased-array-ut): Advanced ultrasonic testing for welds, corrosion mapping, and complex geometries.
+- [TOFD Testing](https://atlantisndt.com/tofd-testing): Time-of-Flight Diffraction for accurate flaw sizing.
+- [Acoustic Emission Testing](https://atlantisndt.com/acoustic-emission-testing): Real-time monitoring of active flaws and structural integrity.
+- [Eddy Current Tube Inspection](https://atlantisndt.com/eddy-current-tube-inspection): Heat exchanger and condenser tube examination.
+- [Guided Wave Testing](https://atlantisndt.com/guided-wave-testing): Long-range UT for buried, insulated, and inaccessible piping.
+- [Magnetic Flux Leakage Testing](https://atlantisndt.com/magnetic-flux-leakage-testing): Tank floor and pipeline corrosion screening.
+- [Weld Inspection](https://atlantisndt.com/weld-inspection): Multi-method weld quality assurance.
+- [Corrosion Mapping](https://atlantisndt.com/corrosion-mapping): Automated UT corrosion scanning and asset integrity.
+- [Corrosion Under Insulation](https://atlantisndt.com/corrosion-under-insulation): CUI detection methods, prevention, and inspection planning.
+
+## Industry Solutions
+- [NDT for Oil & Gas](https://atlantisndt.com/ndt-for-oil-gas): Refinery, pipeline, offshore platform inspection.
+- [NDT for Aerospace](https://atlantisndt.com/ndt-for-aerospace): Composite, engine component, and airframe inspection.
+- [NDT for Power Generation](https://atlantisndt.com/ndt-for-power-generation): Boiler tubes, turbines, nuclear plant inspection.
+- [Aerospace NDT Services](https://atlantisndt.com/aerospace-ndt-services): On-site aerospace inspection.
+- [Aerospace NDT Training](https://atlantisndt.com/aerospace-ndt-training): NAS 410 / EN 4179 certification programs.
+- [NDT Software for Oil & Gas](https://atlantisndt.com/ndt-software-for-oil-gas): Reporting and asset integrity software.
+- [NDT Software for Aerospace](https://atlantisndt.com/ndt-software-for-aerospace): NAS 410 compliant inspection software.
+- [NDT Software for Power Generation](https://atlantisndt.com/ndt-software-for-power-generation): Boiler tube inspection and integrity software.
+
+## Top Educational Content
+- [Magnetic Particle Testing (WFMT) 2026](https://atlantisndt.com/blog/magnetic-particle-testing): Wet vs Dry MT, crack detection, ASTM E1444.
+- [Eddy Current Testing — 7 ECT Methods Compared](https://atlantisndt.com/blog/eddy-current-testing): Cost, accuracy, and method selection guide.
+- [CWI Certification 2026](https://atlantisndt.com/blog/cwi-certification-requirements-cost-career-impact): $2,500 cost, $75K–$130K salary, 62% pass rate.
+- [NDT Salary Guide 2026 — Level I/II/III by Country](https://atlantisndt.com/blog/ndt-salary-guide-2026-global): Global pay benchmarks.
+- [NDT Technician Salary Guide 2026](https://atlantisndt.com/blog/ndt-technician-salary-guide-2026-industry-report): Regional data and certification impact.
+- [Aerospace Composite NDT 2026](https://atlantisndt.com/blog/aerospace-composite-inspection-ndt-methods-guide): PAUT, thermography, NAS 410.
+- [ISO 9712 vs ASNT SNT-TC-1A](https://atlantisndt.com/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison): Certification standards compared.
+- [Heat Exchanger Tube Inspection](https://atlantisndt.com/blog/heat-exchanger-tube-inspection-methods-procedures): ECT, IRIS, RFT methods.
+- [ASNT SNT-TC-1A vs CP-189](https://atlantisndt.com/blog/asnt-snt-tc-1a-vs-cp-189-comparison): Personnel qualification standards.
+- [Wind Turbine Blade Inspection](https://atlantisndt.com/blog/wind-turbine-blade-inspection-and-monitoring): Renewable energy NDT.
+- [ASNT SNT-TC-1A Certification Requirements](https://atlantisndt.com/blog/asnt-snt-tc-1a-certification-requirements): Level I/II/III pathway.
+- [Phased Array Ultrasonic Testing (PAUT) Guide](https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide): Technology, applications, advantages.
+- [Visual Testing (VT) Complete Guide](https://atlantisndt.com/blog/visual-testing): Direct and remote visual inspection.
+- [Pipe Wall Thickness Inspection — UT Procedures](https://atlantisndt.com/blog/pipe-wall-thickness-inspection-ut-procedures): Corrosion monitoring.
+- [Automated UT (AUT) Systems Overview](https://atlantisndt.com/blog/automated-ut-aut-systems-complete-overview): Mechanized UT scanning.
+- [Underwater Infrastructure Inspection](https://atlantisndt.com/blog/underwater-infrastructure-inspection-techniques): Subsea and offshore NDT.
+- [AWS D1.1 Weld Acceptance Criteria](https://atlantisndt.com/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide): Structural welding code.
+- [API 617 Centrifugal Compressor Inspection](https://atlantisndt.com/blog/api-617-centrifugal-compressor-inspection): Rotating equipment NDT.
+- [Shear Wave UT for Thick Section Inspection](https://atlantisndt.com/blog/shear-wave-ut-for-thick-section-inspection): Heavy-wall component testing.
+- [Risk-Based Inspection (RBI) Implementation](https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide): API 580/581 for oil & gas.
+
+## Industries Served
+Oil & Gas (refineries, pipelines, offshore platforms), Aerospace & Aviation (commercial, defense, MRO), Marine & Maritime (shipyards, subsea), Nuclear (reactor inspection, balance of plant), Power Generation (fossil, renewable, transmission), Petrochemical (chemical processing, fertilizer plants), Manufacturing (fabrication shops, EPCs), Mining & Heavy Equipment, Construction & Infrastructure.
+
+## Resources & Tools
+- [NDT Inspection Checklist](https://atlantisndt.com/resources/ndt-inspection-checklist)
+- [API 653 Inspection Template](https://atlantisndt.com/resources/api-653-inspection-template)
+- [ASNT Level III Study Guide](https://atlantisndt.com/resources/asnt-level-iii-study-guide)
+- [NDT Procedure Template](https://atlantisndt.com/resources/ndt-procedure-template)
+- [NDT Method Selector Tool](https://atlantisndt.com/tools/ndt-method-selector)
+- [Certification Cost Calculator](https://atlantisndt.com/tools/ndt-certification-cost-calculator)
+- [ROI Calculator](https://atlantisndt.com/tools/ndt-roi-calculator)
+- [Ultrasonic Thickness Calculator](https://atlantisndt.com/tools/UltrasonicThicknessCalculator)
+- [Corrosion Rate Calculator](https://atlantisndt.com/tools/CorrosionRateCalculator)
+
+## Company
+- [About Atlantis NDT](https://atlantisndt.com/about)
+- [Contact](https://atlantisndt.com/contact)
+- [FAQ](https://atlantisndt.com/faq)
+- [Case Studies](https://atlantisndt.com/case-studies)
+- [Blog](https://atlantisndt.com/blog)
+
+## Contact
+- Email: info@atlantisndt.com
+- Sales: sales@atlantisndt.com
+- Phone: +1 (281) 840-8969 (Houston, TX)
+- Locations: Houston (HQ), Hyderabad (India), Middle East
+- Website: https://atlantisndt.com
+
+## Related Properties
+- [NDT Connect Marketplace](https://ndt-connect.com): Sister marketplace site connecting NDT companies and clients globally.
+- [Atlantis Digital Twins Platform](https://dt.atlantisndt.com): Live demo of the digital twin product.

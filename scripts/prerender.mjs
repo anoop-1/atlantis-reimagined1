@@ -90,6 +90,93 @@ const CTR_OVERRIDES = {
   '/api-653-india': {
     title: 'API 653 India 2026 — Tank Inspector Exam Centres, ₹60K Fee, ₹14L–₹32L Salary',
     description: 'API 653 storage tank inspector in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 INR pricing ₹60K–₹85K, ₹14L–₹32L salary at IOCL/BPCL/Reliance terminals.'
+  },
+  // 2026-05-07 striking-distance batch — pages ranking pos 5-15 with low CTR
+  // Goal: shift CTR from 0.5-1.5% baseline into 5-10% achievable band by leading
+  // titles with year/number/specific outcome and metas with searcher value.
+  '/blog/api-570-piping-inspection-code-requirements': {
+    title: 'API 570 Piping Inspection 2026: Intervals, Thickness, CML Spacing — Full Code Guide',
+    description: 'API 570 inspection intervals (5/10 yr), CML grid spacing, t-min calculation, repair criteria. ASME B31.3 + B31.4 cross-references. Inspector checklist + 12-question test.'
+  },
+  '/blog/api-579-fitness-for-service-guide': {
+    title: 'API 579-1 Fitness-for-Service 2026: Level 1/2/3 Assessment in 8 Steps',
+    description: 'API 579-1 / ASME FFS-1 step-by-step: general metal loss, local thin areas, pitting, blisters, crack-like flaws. Level 1/2/3 decision tree + free worksheet.'
+  },
+  '/blog/api-617-centrifugal-compressor-inspection': {
+    title: 'API 617 Compressor Inspection 2026: Rotor, Bearings, Casing — 32-Point Checklist',
+    description: 'API 617 9th edition inspection: rotor balance, journal/thrust bearings, dry-gas seals, casing alignment. Pre-test, mechanical run, performance test acceptance criteria.'
+  },
+  '/blog/asme-section-v-article-4-ut-requirements-explained': {
+    title: 'ASME V Article 4 UT 2026: Calibration, Scanning, Acceptance — Plain English',
+    description: 'ASME BPVC Section V Article 4 ultrasonic — DAC vs DGS calibration, scanning patterns (raster, parallel, perpendicular), acceptance criteria per ASME VIII Div 1 Mandatory Appendix 12. Free SOP template.'
+  },
+  '/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide': {
+    title: 'AWS D1.1 Weld Acceptance 2026: UT, RT, MT, VT Criteria + 41-Defect Decision Matrix',
+    description: 'AWS D1.1:2025 acceptance criteria for UT (Annex K), RT, MT, VT. 41 weld defects with cause + repair guidance. Statically vs cyclically loaded thresholds. Free decision matrix.'
+  },
+  '/blog/automated-ut-aut-systems-complete-overview': {
+    title: 'Automated UT (AUT) 2026: TKY Welds, Pipeline Girth, $50K–$500K System Cost',
+    description: 'AUT for pipeline girth welds (RMS, Olympus, Eddyfi, Sonatest), TKY structural, mill seam weld inspection. ISO 13588, ASME V Article 4 Mandatory Appendix VII compliance. Cost breakdown.'
+  },
+  '/blog/forging-defect-detection-and-assessment': {
+    title: 'Forging Defects 2026: 14 Common Defects, NDT Methods, Acceptance Criteria',
+    description: 'Forging defects (laps, bursts, flakes, cold shuts, segregation, decarb). UT (ASME SA-388), MT, ET detection methods. ASTM A388, A604 acceptance criteria. Aerospace AMS 2154 cross-ref.'
+  },
+  '/blog/ndt-procedure-writing-guide-asme-section-v': {
+    title: 'NDT Procedure Writing 2026: ASME V-Compliant Template (UT/RT/MT/PT/ET/VT)',
+    description: 'Write code-compliant NDT procedures per ASME Section V Article 1. 14 mandatory elements, T-150 essential variables, qualification record, free Word template per method.'
+  },
+  '/blog/pipe-wall-thickness-inspection-ut-procedures': {
+    title: 'Pipe Wall Thickness UT 2026: A-Scan, B-Scan, AUT — When Each Wins',
+    description: 'Manual UT vs automated UT (AUT) vs guided wave (LRUT) for pipe thickness. CML grid spacing, frequency selection (2.25–10 MHz), couplant choice. API 570 / 574 / 579 alignment.'
+  },
+  '/blog/shear-wave-ut-for-thick-section-inspection': {
+    title: 'Shear Wave UT 2026: 45°/60°/70° Probe Selection for Thick-Section Welds',
+    description: 'Shear wave UT angle selection (45°, 60°, 70°), DAC + DGS sizing, mode-converted echoes, ASME V Article 4 calibration. Free probe-selection decision matrix.'
+  },
+  '/blog/visual-testing': {
+    title: 'Visual Testing (VT) 2026: Direct, Remote, Translucent — ASNT/ISO Procedures',
+    description: 'Visual testing per ASNT SNT-TC-1A, ASME V Article 9, ISO 17637. Direct VT, remote VT (boroscope/RVI), translucent VT. Lighting (>1000 lux), magnification, vision acuity (Jaeger #2).'
+  },
+  '/blog/weld-inspection-acceptance-criteria-aws-vs-asme': {
+    title: 'Weld Acceptance: AWS D1.1 vs ASME B31.3 vs API 1104 — Side-by-Side 2026',
+    description: 'AWS D1.1 vs ASME BPVC Section IX vs API 1104 weld acceptance — porosity limits, slag, undercut, crack tolerance. Static vs cyclic loading thresholds. Free decision matrix.'
+  },
+  '/blog/ndt-career-guide': {
+    title: 'NDT Career Guide 2026: Salary Path Level I→III, $45K → $140K, 8-Year Roadmap',
+    description: 'NDT career path Level I→II→III: hours, exams ($200-$750), salary by region, method premiums (PAUT +18%, PA UT +12%). Junior→Senior→Lead→Manager→Director timeline.'
+  },
+  '/blog/ndt-career-top-choice-2025-global-market-trends': {
+    title: 'NDT Career 2026: 4.2% Growth, $65K Avg, Top 10 Methods + Geographic Demand',
+    description: 'NDT job market 2026: 4.2% growth, ASNT vs PCN vs CGSB demand by region, oil & gas vs aerospace vs power-gen pay premiums. Top 10 NDT methods by hire volume.'
+  },
+  '/blog/ndt-level-iii-certification-requirements-guide': {
+    title: 'ASNT Level III 2026: 4-Year Path, 1200 Hours Required, $750 Exam — Complete Guide',
+    description: 'ASNT Level III requirements: experience hours (1200 by NAS 410, 800 by SNT-TC-1A), basic + method exam, vision acuity, 5-year recertification. Pass rate 60%, study schedule + practice tests.'
+  },
+  '/blog/ndt-technician-salary-guide-2026-industry-report': {
+    title: 'NDT Technician Salary 2026: Level I $52K, Level II $68K, Level III $115K — by State + Method',
+    description: 'NDT salaries 2026 verified by state (US), method premium (PAUT +18%, RT +8%), industry (aerospace +22%, oil & gas +14%). OT averages, sign-on bonuses, contractor day-rates.'
+  },
+  '/consulting/ndt-consulting-level-iii': {
+    title: 'ASNT Level III Consulting 2026: $1,500–$3,500/day Independent Approval',
+    description: 'Independent ASNT Level III consulting: written-practice authoring, procedure approval, audit support (ADNOC, Aramco, QatarEnergy, NRC). $1,500-$3,500/day depending on method + travel. Free 30-min discovery call.'
+  },
+  '/magnetic-particle-testing-singapore': {
+    title: 'Magnetic Particle Testing Singapore 2026: ISO 9712 + ASNT, $400/day, Same-Week Mobilisation',
+    description: 'MT inspection services in Singapore — ASNT Level II + ISO 9712 certified, AC/DC yokes, fluorescent + visible particles. Same-week mobilisation across Jurong, Tuas, Sembawang. ISO 9934 compliant.'
+  },
+  '/penetrant-testing-singapore': {
+    title: 'Penetrant Testing Singapore 2026: ASTM E1417 + ISO 3452, $350/day, ASNT Level II',
+    description: 'PT (dye penetrant) inspection in Singapore: solvent-removable, water-washable, post-emulsifiable. ASTM E1417 / ISO 3452-1 compliant. Same-week deployment Jurong/Tuas/Sembawang.'
+  },
+  '/radiographic-testing-singapore': {
+    title: 'Radiographic Testing Singapore 2026: Ir-192/Se-75/X-Ray, NEA-Licensed, $600–$1500/day',
+    description: 'RT inspection Singapore — Ir-192, Se-75, X-ray. NEA radiation license, ASME V/AWS D1.1/ISO 17636 compliant. Pipeline, pressure vessel, structural welds across Jurong/Tuas/Sembawang.'
+  },
+  '/ndt-training-usa': {
+    title: 'NDT Training USA 2026: ASNT Level I/II/III, 40-80 hr Courses, $1,200–$3,500',
+    description: 'NDT training across USA — ASNT SNT-TC-1A + ACCP Level I/II/III. UT, RT, MT, PT, ET, VT. Online + onsite (Houston, Dallas, Pittsburgh, Anchorage). 95% pass rate, OJT logs included.'
   }
 };
 
@@ -398,10 +485,10 @@ const corePages = [
   },
   {
     path: '/digital-twins',
-    title: 'Digital Twins in NDT: Complete Guide to 3D Asset Inspection [2026]',
-    description: 'How digital twins transform NDT inspection with real-time 3D visualization, defect mapping & predictive maintenance. ROI data, case studies & implementation roadmap for oil & gas.',
-    bodyH1: 'NDT Digital Twins Technology',
-    bodyText: 'Advanced digital twin technology for NDT inspection. Real-time 3D asset visualization and defect mapping for oil & gas, aerospace, and power generation industries.',
+    title: 'NDT Digital Twins 2026 — 3D Asset Visualization, API 579 FFS, API 581 RBI | Atlantis NDT',
+    description: 'NDT Digital Twins 2026: live 3D asset visualization with UT thickness heat-maps, RT defect overlay, API 579-1 FFS, API 581 RBI, predictive maintenance. WebGL browser-first, native EAM integrations. ASNT Level III authored. Updated May 2026.',
+    bodyH1: 'NDT Digital Twins — 3D Asset Integrity Visualization (2026)',
+    bodyText: 'Real-time 3D asset visualization with NDT inspection data overlay for oil & gas, petrochemical, aerospace, power, and marine industries. UT thickness heat-maps, RT defect localization, MT/PT indication tagging, API 579-1 FFS calculations, API 581 RBI, predictive maintenance. Native CMMS / EAM integrations (SAP PM, Maximo, Meridium APM, AspenTech Mtell, GE Vernova APM). IEC 62443 OT cybersecurity. ASNT Level III authored by Anoop Rayavarapu.',
   },
   {
     path: '/erp',
@@ -524,10 +611,10 @@ const corePages = [
   },
   {
     path: '/ndt-erp-solution',
-    title: 'NDT ERP Solution | Complete Inspection Business Software | Atlantis NDT',
-    description: 'Complete ERP solution for NDT inspection companies. Job management, personnel certifications, equipment calibration tracking, invoicing, and reporting. Built for NDT.',
-    bodyH1: 'NDT ERP Solution',
-    bodyText: 'Comprehensive ERP solution built for NDT inspection companies. Manage your entire business from job creation to invoicing.',
+    title: 'NDT ERP Software 2026 — Atlantis vs SAP, Maximo, Dynamics, NetSuite | Atlantis NDT',
+    description: 'Compare top NDT ERP platforms 2026 — Atlantis (Odoo-based), SAP S/4HANA, Maximo, Dynamics 365, NetSuite, Zoho. Pre-configured ASNT SNT-TC-1A, ISO 9712, ASTM E797 calibration. $18,000/yr full suite. ASNT Level III authored. Updated May 2026.',
+    bodyH1: 'NDT ERP Software 2026 — Compared, Costed, Audited',
+    bodyText: 'Independent ASNT Level III authored comparison of NDT ERP solutions across personnel certification tracking (ASNT SNT-TC-1A, ISO 9712, NAS 410), equipment calibration (ASTM E797 + ISO 17025), project + financial control, and audit readiness for ISO 9001 / 17020 / API Q1. Six core modules: Personnel Management, Equipment Calibration Tracking, Project + Work Order Management, Procedure + Document Control, Financial Management + Invoicing, Client + Subcontractor Portal. Eight platforms compared: Atlantis NDT ERP, SAP S/4HANA, IBM Maximo, Microsoft Dynamics 365, NetSuite, Salesforce Field Service, Zoho One, and the QuickBooks + Excel status quo. Twelve buyer FAQs. By Anoop Rayavarapu, ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001:2015 Lead Auditor.',
   },
   {
     path: '/digital-twins-oil-gas-assets',
@@ -2882,9 +2969,28 @@ ${urls}
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
 const routeMap = new Map();
 routes.forEach(route => routeMap.set(route.path, route));
-const dedupedRoutes = [...routeMap.values()];
+let dedupedRoutes = [...routeMap.values()];
 const dupesRemoved = routes.length - dedupedRoutes.length;
 if (dupesRemoved > 0) console.log(`🔄 Deduplicated: removed ${dupesRemoved} duplicate routes (${routes.length} → ${dedupedRoutes.length})`);
+
+// 2026-05-07: drop URLs that 301-redirect at the edge so they don't pollute
+// the sitemap (Google flags "Page with redirect" against the source URL).
+// Audit confirms these are stable redirect destinations.
+const REDIRECT_SOURCE_PATHS = new Set([
+  '/ndt-training',
+  '/blog/ultrasonic-testing',
+  '/blog/magnetic-particle-testing',
+  '/blog/eddy-current-testing',
+  '/blog/ndt-career-top-choice-2025-global-market-trends',
+  '/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity',
+  '/blog/ndt-salary-guide-2025-global-level-1-2-3',
+  '/blog/eddy-current-testing-complete-beginner-guide',
+  '/blog/ndt-technician-salary-guide-2026-industry-report',
+]);
+const beforeRedirectFilter = dedupedRoutes.length;
+dedupedRoutes = dedupedRoutes.filter(r => !REDIRECT_SOURCE_PATHS.has(r.path));
+const redirectsRemoved = beforeRedirectFilter - dedupedRoutes.length;
+if (redirectsRemoved > 0) console.log(`🔁 Dropped ${redirectsRemoved} URLs that 301-redirect (no longer in sitemap)`);
 
 // Replace routes array reference for sitemap generation
 routes.length = 0;

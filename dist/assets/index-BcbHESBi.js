@@ -1,1 +1,0 @@
-import{r as u,h as e,x as a}from"./index-1JLrJvmn.js";var i=a[" useId ".trim().toString()]||(()=>{}),n=0;function x(o){const[s,r]=u.useState(i());return e(()=>{r(t=>t!=null?t:String(n++))},[o]),s?`radix-${s}`:""}export{x as u};

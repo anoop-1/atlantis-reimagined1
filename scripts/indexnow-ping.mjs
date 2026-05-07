@@ -36,7 +36,7 @@ function loadOrCreateKey() {
   if (existsSync(KEY_FILE)) {
     try {
       const data = JSON.parse(readFileSync(KEY_FILE, 'utf-8'));
-      if (data && typeof data.key === 'string' && /^[a-f0-9]{8}$/.test(data.key)) {
+      if (data && typeof data.key === 'string' && /^[a-f0-9]{8,128}$/.test(data.key)) {
         return data.key;
       }
     } catch (err) {

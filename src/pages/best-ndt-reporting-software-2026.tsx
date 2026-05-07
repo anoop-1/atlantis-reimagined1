@@ -4,11 +4,62 @@ import ContactDetails from "@/components/ContactDetails";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { CheckCircle, FileText, Star, AlertCircle, ArrowRight } from "lucide-react";
+import { CheckCircle, FileText, Star, AlertCircle, ArrowRight, Database, Cog, Shield } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 
 const URL = "https://atlantisndt.com/best-ndt-reporting-software-2026";
+
+const faqs = [
+  {
+    q: "What is NDT reporting software?",
+    a: "NDT reporting software is a specialized application used by ASNT-certified inspectors and Level III approvers to generate audit-grade inspection reports aligned to industry codes (API 510 / 570 / 653, ASME BPVC Section V, AWS D1.1, ISO 17635). Unlike generic word processors, NDT reporting software ships with code templates, captures field data offline (UT thickness, RT density, MT/PT indications), tracks Level II / III approver chains with qualified digital signatures, and pushes findings into CMMS / EAM systems (SAP PM, Maximo, Meridium APM)."
+  },
+  {
+    q: "How much does NDT reporting software cost?",
+    a: "Atlantis NDT Reporting Software is $50,000 / year for the full inspection organization (typical 25-100 technicians) — that includes mobile capture, code template library, Level III approval workflow, eIDAS / Adobe CDS qualified signatures, CMMS integrations, and 24x7 support. Enterprise tiers are quoted separately for 100+ technician shops. Comparable platforms: Hexagon Meridium APM lands in $200K-$1M/yr enterprise range; IBM Maximo with NDT customization typically $250K-$1M/yr; SAP PM custom NDT layer frequently exceeds $1M year-one."
+  },
+  {
+    q: "Which inspection codes are supported out of the box?",
+    a: "API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), API 1104 (pipeline welding), ASME BPVC Section V (full Article 4 UT, Article 7 MT, Article 6 PT, Article 9 VT, Article 8 ET, Article 2 RT), ASME B31.3 (process piping), AWS D1.1 (structural steel welding), ISO 17635, ASTM E164. Aerospace add-on covers NAS 410 / EN 4179, Boeing GP-150, Airbus AIPS-01, GE / Rolls-Royce / Pratt-Whitney house specs. We add new codes quarterly based on customer demand."
+  },
+  {
+    q: "Does it work offline at offshore platforms / tank interiors?",
+    a: "Yes. Native iOS and Android apps capture data fully offline. Inspectors record UT thickness readings, MT/PT findings, RT density logs, and photos with timestamps and GPS-or-tag references. Data syncs back to the cloud when the device returns to coverage. SHA-256 hash chain is computed offline and verified server-side at sync — the field record cannot be tampered with after capture. Voice-to-text works without connectivity using on-device speech recognition."
+  },
+  {
+    q: "How are Level II and Level III approver signatures handled?",
+    a: "Each inspection finding flows through a defined approval chain — Level II inspector creates, Level III reviewer approves. Both sign with eIDAS-qualified or Adobe CDS-qualified certificates tied to their ASNT / ISO 9712 personnel record. The signed PDF embeds the certificate, the signing time (RFC 3161 timestamp), and a SHA-256 hash of the report contents. Signatures are verifiable decades later without dependency on Atlantis remaining in business — the certificate authority chain is independent."
+  },
+  {
+    q: "Can it integrate with our existing EAM / CMMS?",
+    a: "Yes. Native two-way connectors for SAP Plant Maintenance, IBM Maximo Asset Suite, Hexagon Meridium APM, AspenTech Mtell, GE Vernova APM, Bentley AssetWise, Microsoft Dynamics 365 Field Service, and Salesforce Field Service. For systems without a native connector we provide a documented REST API. Inspection findings push as work orders, notifications, or APM events with full traceability back to the report."
+  },
+  {
+    q: "Is the AI-drafting feature safe for code-aligned reporting?",
+    a: "AI drafting is human-supervised, not autopilot. The model proposes finding narratives based on the field data, calls out API 571 damage mechanisms (e.g. CO2 corrosion, MIC, sulfidation, naphthenic-acid), and suggests API 579-1 fitness-for-service flags. A Level III approver must explicitly accept, edit, or reject each AI-drafted paragraph before it enters the report. The audit log records who reviewed what, when, and what they changed. We do not allow AI signatures or AI-only release of reports."
+  },
+  {
+    q: "How does it pass ADNOC, Aramco, QatarEnergy audits?",
+    a: "We map our audit pack to the specific clauses each operator demands — ADNOC PQQ, Aramco SAEP-1131 / SAEP-322, QatarEnergy QPP, KOC HSE, ONGC HVT-INSP, NADCAP MAUP. The pack includes personnel certification matrix as-of-date, calibration register with NIST traceability, procedure register with effective dates and Level III approval, internal audit history, management review minutes, customer complaints, root-cause-corrective-action records. Auditors can query any historical report by hash and verify integrity."
+  },
+  {
+    q: "What about FDA / nuclear ASME Section XI environments?",
+    a: "Nuclear/Section-XI deployment uses a hardened tenant: on-premise Docker option, air-gap support, 10 CFR 50 Appendix B records retention, NRC-aligned QA program references, and SQA-grade change-control. We have inspection-of-the-inspector audit support and have served clients qualified by INPO / WANO. This tier is quoted separately and includes dedicated compliance liaison."
+  },
+  {
+    q: "Can we white-label it for our service brand?",
+    a: "Yes. The white-label tier replaces report headers, footers, cover pages, and PDF metadata with your brand. Your customers see your name on every report; the underlying engine remains Atlantis. White-label is included for inspection service providers at the enterprise tier, $25K incremental on base licence."
+  },
+  {
+    q: "How fast is implementation?",
+    a: "30 days for a 25-100 technician shop. Week 1: kickoff, written-practice import, certification-matrix migration, calibration-log migration. Week 2: code-template selection, custom branding, integrations setup. Week 3: parallel-run with 2-3 technician pilot crews. Week 4: full cutover, training (online + on-site option), first month of intensive support. Clients running parallel-run typically halt their old workflow by day 21."
+  },
+  {
+    q: "What if Atlantis stops operations?",
+    a: "Customer contracts include an escrow provision with a documented data export path. Your reports, configurations, and templates remain yours and exportable in standard formats (PDF/A for reports, JSON for metadata, XLSX for tables). The mobile app can run in read-only mode against archived data. We carry $5M in professional indemnity insurance and have a structured succession plan documented with our Houston legal counsel."
+  },
+];
 
 type Vendor = {
   rank: number;
@@ -242,13 +293,53 @@ const structuredData = {
       headline: "Best NDT Reporting Software 2026: Top 10 Compared (Atlantis, Hexagon, Bentley, Maximo, Aspen, SAP)",
       description: "Deep comparison of top 10 NDT reporting software platforms 2026: Atlantis NDT, Hexagon ALI/Meridium APM, Bentley AssetWise, IBM Maximo, AspenTech Mtell, SAP PM, GE Vernova APM. Code support, mobile UX, AI features, pricing, pros/cons. By ASNT Level III Anoop Rayavarapu.",
       datePublished: "2026-04-18",
-      dateModified: "2026-04-18",
+      dateModified: "2026-05-07",
       section: "NDT Software — Buyer's Guide",
       keywords: "best NDT reporting software 2026, NDT software comparison, API 510 software, inspection reporting platforms, Hexagon Meridium APM alternatives, SAP PM NDT alternative, NDT reporting software buyer guide",
       dependencies: "API 510, API 570, API 653, API 571, API 580, API 581, ASME BPVC Section V, AWS D1.1, API 1104, ISO 17635",
     }),
     { "@type": "Organization", "@id": "https://atlantisndt.com/#organization", ...ATLANTIS_PUBLISHER },
     { "@type": "Person", "@id": "https://atlantisndt.com/#anoop-rayavarapu", ...ATLANTIS_AUTHOR_ANOOP },
+    {
+      "@type": "SoftwareApplication",
+      "@id": `${URL}#software`,
+      "name": "Atlantis NDT Reporting Software",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Cloud (browser); iOS; Android; on-premise Docker",
+      "softwareVersion": "2026.5",
+      "description":
+        "Code-aligned NDT inspection reporting software with mobile offline capture, AI-assisted drafting (Level III approval gate), eIDAS / Adobe CDS qualified digital signatures, and native CMMS / EAM integrations. Out-of-box templates for API 510 / 570 / 653, ASME BPVC Section V, AWS D1.1, ISO 17635.",
+      "url": URL,
+      "publisher": { "@id": "https://atlantisndt.com/#organization" },
+      "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
+      "offers": {
+        "@type": "Offer",
+        "url": URL,
+        "price": "50000",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
+        "category": "subscription",
+      },
+      "featureList":
+        "Mobile offline field capture • API 510 / 570 / 653 templates • ASME BPVC Section V templates • AWS D1.1 templates • AI-drafted finding narratives • API 571 damage mechanism tagging • API 579-1 FFS flags • eIDAS qualified signatures • SHA-256 hash chain • Level III approval chain • CMMS / EAM integration (SAP PM, Maximo, Meridium APM, AspenTech Mtell)",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "63",
+        "bestRating": "5",
+        "worstRating": "1",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${URL}#faq`,
+      "mainEntity": faqs.map(f => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a },
+      })),
+    },
     {
       "@type": "ItemList",
       "name": "Best NDT Reporting Software 2026 — Top 10",
@@ -455,6 +546,42 @@ export default function BestNDTReportingSoftware2026() {
                   </div>
                 </CardContent>
               </Card>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-3">
+              {faqs.map((f, i) => (
+                <details key={i} className="bg-white rounded-lg shadow-sm border border-slate-200 group">
+                  <summary className="cursor-pointer font-semibold text-slate-900 px-6 py-4 flex justify-between items-center">
+                    <span className="pr-4">{f.q}</span>
+                    <span className="text-primary text-2xl group-open:rotate-45 transition-transform">+</span>
+                  </summary>
+                  <div className="px-6 pb-5 text-slate-700 text-sm leading-relaxed">{f.a}</div>
+                </details>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold mb-6">Related Atlantis platforms</h2>
+            <div className="grid md:grid-cols-3 gap-5">
+              <Link to="/ndt-erp-solution" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
+                <Database className="w-8 h-8 text-primary mb-3" />
+                <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition">NDT ERP Software</h3>
+                <p className="text-sm text-slate-600">Personnel certifications, equipment calibration, project P&amp;L, financials — pre-configured Odoo-based ERP for NDT.</p>
+              </Link>
+              <Link to="/digital-twins" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
+                <Cog className="w-8 h-8 text-primary mb-3" />
+                <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition">NDT Digital Twins</h3>
+                <p className="text-sm text-slate-600">3D asset visualization with live inspection data overlay. RBI integration, predictive maintenance.</p>
+              </Link>
+              <Link to="/consulting" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
+                <Shield className="w-8 h-8 text-primary mb-3" />
+                <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition">ASNT Level III Consulting</h3>
+                <p className="text-sm text-slate-600">Independent Level III procedure approval, written-practice authoring, audit support.</p>
+              </Link>
             </div>
           </section>
 
