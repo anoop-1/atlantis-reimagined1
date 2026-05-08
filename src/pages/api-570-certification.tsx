@@ -149,8 +149,8 @@ export default function API570Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 570 Certification 2026: Exam $730, 82% Pass, 5-Day Prep"
-                description="API 570 Piping Inspector 2026: $730 exam fee, 82% pass rate, 170 Qs / 7.5 hrs open-book, 11 codes (B31.3, API 571/574/577/579), 5-day prep, 3-yr recertification."
+                title="API 570 Certification 2026 — Requirements, Cost, Pass Rate"
+                description="API 570 Piping Inspector certification 2026: experience requirements, $730 exam fee, 82% first-attempt pass rate, 11 codes, 5-day prep course, recertification. Atlantis NDT — ASNT Level III instructors."
                 keywords="API 570 certification, API 570 training, piping inspector certification, API 570 exam prep, API 570 study guide, piping inspection, ASME B31.3, API 570 recertification, piping inspector exam, CML inspection"
                 canonical="https://atlantisndt.com/api-570-certification"
                 structuredData={structuredData}
@@ -343,6 +343,22 @@ export default function API570Certification() {
                 </div>
             </section>
 
+            <section className="py-12 bg-slate-100">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h3 className="text-xl font-semibold mb-4">API 570 Training by Location</h3>
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">API 570 Houston, TX →</Link>
+                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">API 570 Dubai, UAE →</Link>
+                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">API 570 Saudi Arabia →</Link>
+                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">API 570 Singapore →</Link>
+                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">API 570 India (Hyderabad / Mumbai) →</Link>
+                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">API 570 Online / Virtual →</Link>
+                        <Link to="/api-510-certification" className="text-blue-600 hover:underline">Compare: API 510 Pressure Vessel Inspector →</Link>
+                        <Link to="/api-653-certification" className="text-blue-600 hover:underline">Compare: API 653 Tank Inspector →</Link>
+                        <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification (SNT-TC-1A vs ACCP) →</Link>
+                    </div>
+                </div>
+            </section>
             <ClusterNav cluster="api-570" />
             <script
                 type="application/ld+json"

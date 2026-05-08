@@ -160,8 +160,8 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Certification 2026: 84% Pass, Exam $730, 5-Day Prep"
-                description="API 510 Pressure Vessel Inspector 2026: 84% first-attempt pass rate, $730 exam fee, 7.5-hr open-book, 9 codes (API 571/572/576/579-1, ASME VIII/V/IX), 5-day prep."
+                title="API 510 Certification 2026 — Requirements, Cost, Pass Rate"
+                description="API 510 Pressure Vessel Inspector certification 2026: experience requirements, $730 exam fee, 84% first-attempt pass rate, 9 reference codes (API 571/572/576/579-1, ASME VIII/V/IX), 5-day exam prep. Atlantis NDT Houston, Dubai, Hyderabad."
                 keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}
@@ -397,6 +397,22 @@ export default function API510Certification() {
                 </div>
             </section>
 
+            <section className="py-12 bg-slate-100">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h3 className="text-xl font-semibold mb-4">API 510 Training by Location</h3>
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">API 510 Houston, TX →</Link>
+                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">API 510 Dubai, UAE →</Link>
+                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">API 510 Saudi Arabia →</Link>
+                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">API 510 Singapore →</Link>
+                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">API 510 India (Hyderabad / Mumbai) →</Link>
+                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">API 510 Online / Virtual →</Link>
+                        <Link to="/api-570-certification" className="text-blue-600 hover:underline">Compare: API 570 Piping Inspector →</Link>
+                        <Link to="/api-653-certification" className="text-blue-600 hover:underline">Compare: API 653 Tank Inspector →</Link>
+                        <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification (SNT-TC-1A vs ACCP) →</Link>
+                    </div>
+                </div>
+            </section>
             <ClusterNav cluster="api-510" />
             <script
                 type="application/ld+json"

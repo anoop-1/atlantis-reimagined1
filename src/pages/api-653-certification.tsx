@@ -171,8 +171,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Certification 2026: Exam $730 Tank Inspector Cost"
-                description="API 653 Tank Inspector 2026 cost breakdown: $730 exam fee, 170 Qs / 7.5 hrs open-book, 5-day prep course, 85% pass rate, 10 codes (API 650/651/652/571/575/577)."
+                title="API 653 Tank Inspector Certification 2026 — Cost, Pass Rate"
+                description="API 653 Aboveground Storage Tank Inspector 2026: experience requirements, $730 exam fee, 85% first-attempt pass rate, 10 reference codes (API 650/651/652/571/575/577), 5-day prep, recertification. Atlantis NDT — ASNT Level III instructors."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}
@@ -538,6 +538,22 @@ export default function API653Certification() {
                 </div>
             </section>
 
+            <section className="py-12 bg-slate-100">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h3 className="text-xl font-semibold mb-4">API 653 Training by Location</h3>
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">API 653 Houston, TX →</Link>
+                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">API 653 Dubai, UAE →</Link>
+                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">API 653 Saudi Arabia (Jubail / Yanbu) →</Link>
+                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">API 653 Singapore →</Link>
+                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">API 653 India (Hyderabad / Mumbai) →</Link>
+                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">API 653 Online / Virtual →</Link>
+                        <Link to="/api-510-certification" className="text-blue-600 hover:underline">Compare: API 510 Pressure Vessel Inspector →</Link>
+                        <Link to="/api-570-certification" className="text-blue-600 hover:underline">Compare: API 570 Piping Inspector →</Link>
+                        <Link to="/blog/api-653-tank-inspection-guide" className="text-blue-600 hover:underline">Read: API 653 Tank Inspection Guide →</Link>
+                    </div>
+                </div>
+            </section>
             <ClusterNav cluster="api-653" />
             <script
                 type="application/ld+json"

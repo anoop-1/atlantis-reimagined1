@@ -54,8 +54,8 @@ const CTR_OVERRIDES = {
     description: 'When to use radiographic vs ultrasonic testing: defect coverage, $/joint, throughput, regulatory acceptance per ASME V/AWS D1.1. Decision matrix included.'
   },
   '/api-570-certification': {
-    title: 'API 570 Certification 2026: $878 Exam Fee, 60% Pass Rate, Renewal Every 3yr',
-    description: 'API 570 piping inspector exam: 4hr open-book + 4hr closed, ICP body of knowledge, work-experience requirements. 47-question practice set.'
+    title: 'API 570 Certification 2026 — Requirements, $730 Fee, 82% Pass Rate',
+    description: 'API 570 piping inspector certification 2026: experience requirements, $730 exam fee, 82% first-attempt pass rate, 11 codes (B31.3, API 571/574/577/579), 5-day Atlantis prep, 3-yr recertification cycle.'
   },
   '/blog/ut-vs-rt-comparison': {
     title: 'UT vs RT for Welds 2026: Defect Detection, Cost, Code Acceptance Compared',
@@ -650,6 +650,13 @@ const corePages = [
     description: 'NDT training in Dubai, UAE [2026]: ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Cost: $2K-$6K per level, monthly batches, 95% pass rate, ADNOC & Aramco recognized. Tax-free NDT career in UAE earning $45K-$120K+. Next batch: March 2026. Enrol now.',
     bodyH1: 'NDT Training Dubai & UAE',
     bodyText: 'Professional NDT training in Dubai, Abu Dhabi, and across UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for oil & gas industry professionals. CSWIP preparation available. ADNOC and Aramco contractor recognised. Tax-free career in UAE. Monthly class starts.',
+  },
+  {
+    path: '/ndt-training-singapore',
+    title: 'NDT Training Singapore 2026 — ASNT, ISO 9712, PCN, API 510/570/653',
+    description: 'NDT and API inspector training in Singapore: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, PCN. API 510/570/653 5-day exam prep. Jurong Island petrochem + FPSO marine focus. ASNT Level III instructors. 95% first-attempt pass rate.',
+    bodyH1: 'NDT Training in Singapore',
+    bodyText: 'Multi-standard NDT and API inspector certification for Singapore. ASNT SNT-TC-1A, ISO 9712, and PCN. API 510 / 570 / 653 5-day exam prep. UT, RT, MT, PT, ET, PAUT, TOFD. Jurong Island petrochemical and FPSO marine sector focus.',
   },
   {
     path: '/ndt-training-saudi-arabia',
@@ -2605,7 +2612,7 @@ const globalTrainingCities = [
   { slug: 'hyderabad', city: 'Hyderabad', region: 'India', detail: 'Hyderabad headquarters training center. Full Level I-III certification for all NDT methods. Hands-on labs with latest equipment.' },
   { slug: 'bangalore', city: 'Bangalore', region: 'India', detail: 'Bangalore NDT training for aerospace (HAL, ISRO suppliers), defense, and manufacturing. ASNT, ISNT, and NAS-410 programs.' },
   { slug: 'chennai', city: 'Chennai', region: 'India', detail: 'Chennai NDT training for automotive, power generation, and heavy manufacturing industries. ASNT Level I-III certification.' },
-  { slug: 'singapore', city: 'Singapore', region: 'APAC', detail: 'Singapore training hub for Asia-Pacific. Petrochemical, marine, and offshore industry certifications. ASNT and ISO 9712.' },
+  // 'singapore' — explicit entry above with API 510/570/653 + Jurong/FPSO focus
   { slug: 'perth', city: 'Perth', region: 'Australia', detail: 'Perth NDT training for mining, LNG, and oil & gas industries. ISO 9712 and ASNT certification for Australian operators.' },
   { slug: 'calgary', city: 'Calgary', region: 'Canada', detail: 'Calgary NDT training for oil sands, pipeline, and midstream industries. ASNT and CGSB certification programs.' },
   { slug: 'aberdeen', city: 'Aberdeen', region: 'UK', detail: 'Aberdeen NDT training for North Sea oil & gas, offshore wind, and decommissioning. PCN and ASNT certification.' },

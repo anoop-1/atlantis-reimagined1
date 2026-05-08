@@ -268,6 +268,7 @@ const PowerGenerationNDTTraining = lazy(() => import("./pages/power-generation-n
 // Training Location Pages
 const NDTTrainingUSA = lazy(() => import("./pages/ndt-training-usa"));
 const NDTTrainingDubai = lazy(() => import("./pages/ndt-training-dubai"));
+const NDTTrainingSingapore = lazy(() => import("./pages/ndt-training-singapore"));
 const NDTTrainingSaudiArabia = lazy(() => import("./pages/ndt-training-saudi-arabia"));
 const NDTTrainingIndia = lazy(() => import("./pages/ndt-training-india"));
 const NDTTrainingOnline = lazy(() => import("./pages/ndt-training-online"));
@@ -988,6 +989,7 @@ const App = () => (
                   {/* Training Location Pages */}
                   <Route path="/ndt-training-usa" element={<LazyRoute Component={NDTTrainingUSA} />} />
                   <Route path="/ndt-training-dubai" element={<LazyRoute Component={NDTTrainingDubai} />} />
+                  <Route path="/ndt-training-singapore" element={<LazyRoute Component={NDTTrainingSingapore} />} />
                   <Route path="/ndt-training-saudi-arabia" element={<LazyRoute Component={NDTTrainingSaudiArabia} />} />
                   <Route path="/ndt-training-india" element={<LazyRoute Component={NDTTrainingIndia} />} />
                   <Route path="/ndt-training-online" element={<LazyRoute Component={NDTTrainingOnline} />} />
