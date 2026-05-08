@@ -35,9 +35,9 @@ export default function API570Training() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="API 570 Piping Inspector Training & Certification | Atlantis NDT"
-        description="Professional API 570 Piping Inspector training. ASME B31 code compliance. In-service inspection. Risk-based inspection (RBI). Hands-on labs. Enroll today!"
-        keywords="API 570 training, API 570 certification, piping inspector training, ASME B31 certification, API 570 course"
+        title="API 570 Training 2026 — Houston, Dubai, Saudi, Singapore, India"
+        description="API 570 Piping Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME B31.3 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Aramco / Petronas approved instructors."
+        keywords="API 570 training, API 570 training Dubai, API 570 training UAE, API 570 training Saudi Arabia, API 570 training Singapore, API 570 training India, API 570 certification, piping inspector training, ASME B31.3, API 580 RBI, API 570 course, API 570 exam prep"
         canonical="https://atlantisndt.com/api-570-training"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}
       />
@@ -143,6 +143,23 @@ export default function API570Training() {
         </div>
       </section>
 
+      <section className="py-12 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl px-6">
+          <h3 className="text-xl font-semibold mb-4">API 570 Training by Location</h3>
+          <p className="text-sm text-muted-foreground mb-4">Atlantis NDT runs API 570 Piping Inspector exam prep across all major energy hubs. ADNOC, Saudi Aramco, Petronas, Reliance, and Shell-approved instructors.</p>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+            <Link to="/ndt-training-houston" className="text-primary hover:underline">API 570 Houston, TX (HQ) →</Link>
+            <Link to="/ndt-training-dubai" className="text-primary hover:underline">API 570 Dubai / Abu Dhabi (UAE) →</Link>
+            <Link to="/ndt-training-saudi-arabia" className="text-primary hover:underline">API 570 Riyadh / Jubail (Saudi) →</Link>
+            <Link to="/ndt-training-singapore" className="text-primary hover:underline">API 570 Singapore (Jurong) →</Link>
+            <Link to="/ndt-training-india" className="text-primary hover:underline">API 570 Hyderabad / Mumbai (India) →</Link>
+            <Link to="/ndt-training-online" className="text-primary hover:underline">API 570 Online / Virtual →</Link>
+            <Link to="/api-570-certification" className="text-primary hover:underline">Full API 570 Certification Guide →</Link>
+            <Link to="/api-510-training" className="text-primary hover:underline">API 510 Pressure Vessel Training →</Link>
+            <Link to="/api-653-training" className="text-primary hover:underline">API 653 Tank Inspector Training →</Link>
+          </div>
+        </div>
+      </section>
       <ClusterNav cluster="api-570" />
       <script
         type="application/ld+json"

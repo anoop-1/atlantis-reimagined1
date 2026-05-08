@@ -35,9 +35,9 @@ export default function API653Training() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="API 653 Tank Inspector Training & Certification | Atlantis NDT"
-        description="Professional API 653 Tank Inspector training. ASME tank inspection code. In-service inspection. Hands-on labs. Critical career advancement. Enroll today!"
-        keywords="API 653 training, API 653 certification, tank inspector training, API 653 course, storage tank inspection"
+        title="API 653 Training 2026 — Houston, Dubai, Saudi (Jubail/Yanbu), Singapore"
+        description="API 653 Aboveground Storage Tank Inspector training in Houston, Dubai, Saudi Arabia (Jubail / Yanbu / Ras Tanura), Singapore, Hyderabad, and online. API 650/651/652 + 571/575/577 + ASME V/IX, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors."
+        keywords="API 653 training, API 653 training Saudi Arabia, API 653 training Jubail, API 653 training Yanbu, API 653 training Dubai, API 653 training Singapore, API 653 training India, tank inspector training, aboveground storage tank inspection, API 653 course, API 650, API 651, API 653 exam prep"
         canonical="https://atlantisndt.com/api-653-training"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}
       />
@@ -113,6 +113,23 @@ export default function API653Training() {
         </div>
       </section>
 
+      <section className="py-12 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl px-6">
+          <h3 className="text-xl font-semibold mb-4">API 653 Training by Location</h3>
+          <p className="text-sm text-muted-foreground mb-4">Atlantis NDT runs API 653 Tank Inspector exam prep across all major energy hubs. Saudi Aramco's Jubail and Yanbu refining cities, ADNOC Ruwais terminals, Petronas Pengerang, and Reliance Jamnagar tank farm experience.</p>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+            <Link to="/ndt-training-houston" className="text-primary hover:underline">API 653 Houston, TX (HQ) →</Link>
+            <Link to="/ndt-training-dubai" className="text-primary hover:underline">API 653 Dubai / Abu Dhabi (UAE) →</Link>
+            <Link to="/ndt-training-saudi-arabia" className="text-primary hover:underline">API 653 Saudi Arabia (Jubail / Yanbu) →</Link>
+            <Link to="/ndt-training-singapore" className="text-primary hover:underline">API 653 Singapore (Jurong) →</Link>
+            <Link to="/ndt-training-india" className="text-primary hover:underline">API 653 Hyderabad / Mumbai (India) →</Link>
+            <Link to="/ndt-training-online" className="text-primary hover:underline">API 653 Online / Virtual →</Link>
+            <Link to="/api-653-certification" className="text-primary hover:underline">Full API 653 Certification Guide →</Link>
+            <Link to="/blog/api-653-tank-inspection-guide" className="text-primary hover:underline">API 653 Tank Inspection Guide →</Link>
+            <Link to="/api-510-training" className="text-primary hover:underline">API 510 Pressure Vessel Training →</Link>
+          </div>
+        </div>
+      </section>
       <ClusterNav cluster="api-653" />
       <script
         type="application/ld+json"

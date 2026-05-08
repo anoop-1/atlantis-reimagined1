@@ -152,9 +152,9 @@ export default function API510Training() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="API 510 Pressure Vessel Inspector Training & Certification | Atlantis NDT"
-        description="Professional API 510 Pressure Vessel Inspector training. ASME Code compliance. Risk-based inspection (RBI). Hands-on labs. Certification. Enroll today!"
-        keywords="API 510 training, API 510 certification, pressure vessel inspector training, ASME pressure vessel inspection, RBI training, API 510 course, vessel inspection certification"
+        title="API 510 Training 2026 — Houston, Dubai, Saudi, Singapore, India"
+        description="API 510 Pressure Vessel Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME VIII Div 1 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Aramco / Petronas approved instructors."
+        keywords="API 510 training, API 510 training Dubai, API 510 training UAE, API 510 training Saudi Arabia, API 510 training Singapore, API 510 training India, API 510 certification, pressure vessel inspector training, ASME VIII, RBI training, API 510 course, vessel inspection certification"
         canonical="https://atlantisndt.com/api-510-training"
         structuredData={structuredData}
       />
@@ -412,6 +412,23 @@ export default function API510Training() {
         </div>
       </section>
 
+      <section className="py-12 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl px-6">
+          <h3 className="text-xl font-semibold mb-4">API 510 Training by Location</h3>
+          <p className="text-sm text-muted-foreground mb-4">Atlantis NDT runs API 510 Pressure Vessel Inspector exam prep across all major energy hubs. ADNOC, Saudi Aramco, Petronas, Reliance, and Shell-approved instructors.</p>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+            <Link to="/ndt-training-houston" className="text-primary hover:underline">API 510 Houston, TX (HQ) →</Link>
+            <Link to="/ndt-training-dubai" className="text-primary hover:underline">API 510 Dubai / Abu Dhabi (UAE) →</Link>
+            <Link to="/ndt-training-saudi-arabia" className="text-primary hover:underline">API 510 Riyadh / Jubail (Saudi) →</Link>
+            <Link to="/ndt-training-singapore" className="text-primary hover:underline">API 510 Singapore (Jurong) →</Link>
+            <Link to="/ndt-training-india" className="text-primary hover:underline">API 510 Hyderabad / Mumbai (India) →</Link>
+            <Link to="/ndt-training-online" className="text-primary hover:underline">API 510 Online / Virtual →</Link>
+            <Link to="/api-510-certification" className="text-primary hover:underline">Full API 510 Certification Guide →</Link>
+            <Link to="/api-570-training" className="text-primary hover:underline">API 570 Piping Inspector Training →</Link>
+            <Link to="/api-653-training" className="text-primary hover:underline">API 653 Tank Inspector Training →</Link>
+          </div>
+        </div>
+      </section>
       <ClusterNav cluster="api-510" />
       <script
         type="application/ld+json"

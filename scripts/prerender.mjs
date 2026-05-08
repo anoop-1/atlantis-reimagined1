@@ -583,8 +583,8 @@ const corePages = [
   },
   {
     path: '/api-570-training',
-    title: 'API 570 Training & Certification | Piping Inspector Exam Prep | Atlantis NDT',
-    description: 'API 570 Piping Inspector certification training: exam prep for open-book format, all required codes (ASME B31.3, API 571, 574, 578). Dubai, Houston & online. 95% pass rate.',
+    title: 'API 570 Training 2026 — Houston, Dubai, Saudi, Singapore, India',
+    description: 'API 570 Piping Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME B31.3 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors.',
     bodyH1: 'API 570 Piping Inspector Training',
     bodyText: 'Comprehensive API 570 Piping Inspector certification training. Open-book exam preparation covering ASME B31.3, API 570, 571, 574, 578, and 580. Available in Dubai, Houston, India, and online.',
   },
@@ -657,6 +657,20 @@ const corePages = [
     description: 'NDT and API inspector training in Singapore: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, PCN. API 510/570/653 5-day exam prep. Jurong Island petrochem + FPSO marine focus. ASNT Level III instructors. 95% first-attempt pass rate.',
     bodyH1: 'NDT Training in Singapore',
     bodyText: 'Multi-standard NDT and API inspector certification for Singapore. ASNT SNT-TC-1A, ISO 9712, and PCN. API 510 / 570 / 653 5-day exam prep. UT, RT, MT, PT, ET, PAUT, TOFD. Jurong Island petrochemical and FPSO marine sector focus.',
+  },
+  {
+    path: '/ndt-training-jakarta',
+    title: 'NDT Training Jakarta 2026 — ASNT, ISO 9712, API 510/570/653 Indonesia',
+    description: 'NDT and API inspector training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. API 510/570/653 5-day prep. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors. 95% first-attempt pass rate.',
+    bodyH1: 'NDT Training in Jakarta',
+    bodyText: 'NDT and API inspector certification for Indonesia. ASNT SNT-TC-1A and ISO 9712. API 510 / 570 / 653 5-day exam prep. Pertamina refineries (Cilacap, Balikpapan, Dumai), Petrokimia complexes, Bontang LNG, Tangguh LNG sector focus.',
+  },
+  {
+    path: '/api-653-training-saudi-arabia',
+    title: 'API 653 Training Saudi Arabia 2026 — Jubail, Yanbu, Riyadh',
+    description: 'API 653 Aboveground Storage Tank Inspector training in Saudi Arabia: Jubail, Yanbu, Riyadh, Ras Tanura. 5-day exam prep, 10 reference codes (API 650/651/652/571/575/577 + ASME V/IX + AWS D1.1). 95% first-attempt pass rate. Saudi Aramco SAEP-1142 + SABIC SAFCS recognized.',
+    bodyH1: 'API 653 Training in Saudi Arabia',
+    bodyText: '5-day API 653 Aboveground Storage Tank Inspector exam prep delivered in Saudi Arabia — Jubail (SADAF / KEMYA / Yanpet), Yanbu (Saudi Aramco / SAMREF / YASREF / PetroRabigh), Riyadh, Ras Tanura. 10 reference codes covered: API 650 / 651 / 652 / 653 / 571 / 575 / 577 + ASME V / IX + AWS D1.1. 95% first-attempt pass rate.',
   },
   {
     path: '/ndt-training-saudi-arabia',
@@ -2067,8 +2081,8 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
 // ─── Additional Training Pages ───────────────────────────────────────────
 
 const additionalTrainingPages = [
-  { path: '/api-510-training', title: 'API 510 Training | Pressure Vessel Inspector Exam Prep | Atlantis NDT', description: 'API 510 Pressure Vessel Inspector certification training. Open-book exam preparation covering ASME Section VIII, API 510/572/576/579. Houston, Dubai, India & online. 95% pass rate.', h1: 'API 510 Pressure Vessel Inspector Training' },
-  { path: '/api-653-training', title: 'API 653 Training | Tank Inspector Certification Exam Prep | Atlantis NDT', description: 'API 653 Aboveground Storage Tank Inspector certification training. Exam prep for API 650/651/653, RBI, and floor inspection. Houston, Dubai, India & online. 95% pass rate.', h1: 'API 653 Tank Inspector Training' },
+  { path: '/api-510-training', title: 'API 510 Training 2026 — Houston, Dubai, Saudi, Singapore, India', description: 'API 510 Pressure Vessel Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME VIII Div 1 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors.', h1: 'API 510 Pressure Vessel Inspector Training' },
+  { path: '/api-653-training', title: 'API 653 Training 2026 — Houston, Dubai, Saudi (Jubail/Yanbu), Singapore', description: 'API 653 Aboveground Storage Tank Inspector training in Houston, Dubai, Saudi Arabia (Jubail / Yanbu / Ras Tanura), Singapore, Hyderabad, and online. API 650/651/652 + 571/575/577 + ASME V/IX, 5-day prep, 95% first-attempt pass rate.', h1: 'API 653 Tank Inspector Training' },
   { path: '/asnt-level-iii-training', title: 'ASNT Level III Training | NDT Manager Certification Prep | Atlantis NDT', description: 'ASNT Level III certification training: Basic, Method, and Specific exam preparation. Written practice development, program management, and procedure review. 95% pass rate.', h1: 'ASNT Level III Certification Training' },
   { path: '/phased-array-training', title: 'Phased Array UT Training | PAUT Certification Course | Atlantis NDT', description: 'Phased Array UT (PAUT) training and certification. S-scan, TFM, sector scans, ASME V Appendix IV. Hands-on lab with Olympus OmniScan. Houston, Dubai, India & online.', h1: 'Phased Array UT (PAUT) Training' },
 ];
@@ -2620,7 +2634,7 @@ const globalTrainingCities = [
   { slug: 'riyadh', city: 'Riyadh', region: 'Saudi Arabia', detail: 'Riyadh NDT training for Saudi Aramco, SABIC, and Vision 2030 industrial projects. Saudi TVTC recognized programs.' },
   { slug: 'doha', city: 'Doha', region: 'Qatar', detail: 'Doha NDT training for QatarEnergy, RasGas, and Qatargas operations. ASNT and ISO 9712 Level I-III certification.' },
   { slug: 'kuala-lumpur', city: 'Kuala Lumpur', region: 'Malaysia', detail: 'KL NDT training for Petronas contractors, palm oil refining, and Southeast Asian industrial operators.' },
-  { slug: 'jakarta', city: 'Jakarta', region: 'Indonesia', detail: 'Jakarta NDT training for Pertamina, Indonesian mining, and oil & gas industries. ASNT and ISO 9712 certification.' },
+  // 'jakarta' — explicit entry above with Pertamina + Petrokimia + LNG focus
   { slug: 'lagos', city: 'Lagos', region: 'Nigeria', detail: 'Lagos NDT training for Nigerian oil & gas, offshore, and industrial sectors. ASNT and ISO 9712 certification programs.' },
   { slug: 'johannesburg', city: 'Johannesburg', region: 'South Africa', detail: 'Johannesburg NDT training for mining, Sasol operations, and South African manufacturing. ASNT and SANAS accredited.' },
   { slug: 'sao-paulo', city: 'São Paulo', region: 'Brazil', detail: 'São Paulo NDT training for Petrobras, pre-salt deepwater, and Brazilian industrial sectors. ABENDI and ASNT certification.' },
