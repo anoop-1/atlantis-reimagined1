@@ -2660,62 +2660,12 @@ const faqSchemas = {
       { "@type": "Question", "name": "What is SNT-TC-1A compliance?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT SNT-TC-1A is the recommended practice for qualifying and certifying NDT personnel. Compliance means your written practice, training hours, examination requirements, and personnel records meet ASNT guidelines — which most industry codes require." }}
     ]
   },
-  '/training': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "How long does NDT training take?", "acceptedAnswer": { "@type": "Answer", "text": "NDT Level I training typically takes 40 hours (1 week) per method. Level II requires an additional 40-80 hours plus experience. Level III preparation is 80+ hours. Atlantis NDT offers intensive classroom and online formats with 95% pass rate." }},
-      { "@type": "Question", "name": "What NDT certification should I get first?", "acceptedAnswer": { "@type": "Answer", "text": "Most people start with Ultrasonic Testing (UT) Level I/II or Magnetic Particle Testing (MT) Level I/II as these have the highest demand. For oil & gas, UT is recommended. For aerospace, both UT and penetrant testing (PT) are essential." }},
-      { "@type": "Question", "name": "How much do NDT technicians earn?", "acceptedAnswer": { "@type": "Answer", "text": "NDT Level I technicians earn $45,000-$60,000/year, Level II earn $60,000-$85,000/year, and Level III professionals earn $85,000-$150,000+/year. Specialized methods like PAUT and TOFD command premium rates." }},
-      { "@type": "Question", "name": "Is NDT training available online?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Atlantis NDT offers online NDT training for Level I and II theory modules. However, practical hands-on training must be completed in-person at our Houston, Dubai, or Hyderabad training centers." }}
-    ]
-  },
-  '/asnt-certification': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "What is the difference between ASNT SNT-TC-1A and ACCP?", "acceptedAnswer": { "@type": "Answer", "text": "SNT-TC-1A is employer-based certification — your employer certifies you based on ASNT guidelines. ACCP (ASNT Central Certification Program) is a third-party, portable certification that stays with you regardless of employer. ACCP is increasingly preferred by major operators." }},
-      { "@type": "Question", "name": "How much does ASNT Level III certification cost?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT NDT Level III exam fees are $450-$750 per method. Preparation courses range from $1,500-$3,500. Total investment including study materials is typically $2,500-$5,000 per method." }},
-      { "@type": "Question", "name": "What are ASNT Level III exam requirements?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT Level III requires passing the Basic exam plus one or more Method exams. Prerequisites include documented experience and training hours per SNT-TC-1A or CP-189. The 2024 editions of SNT-TC-1A and CP-189 apply for exams after January 2026." }},
-      { "@type": "Question", "name": "How hard is the ASNT Level III exam?", "acceptedAnswer": { "@type": "Answer", "text": "The ASNT Level III exam is challenging — industry pass rates average 60-70%. The Basic exam covers NDT fundamentals, materials science, and quality concepts. Method exams test deep technical knowledge. Atlantis NDT training achieves a 95% pass rate through expert-led preparation." }}
-    ]
-  },
-  '/api-653-certification': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "What is API 653 certification?", "acceptedAnswer": { "@type": "Answer", "text": "API 653 certifies inspectors for aboveground storage tank inspection and repair. The open-book exam covers API 653, API 650, API 651, welding codes, and NDE methods. It's required for tank inspection in refineries and tank farms." }},
-      { "@type": "Question", "name": "How many questions are on the API 653 exam?", "acceptedAnswer": { "@type": "Answer", "text": "The API 653 exam has 170 questions in a 7.5-hour open-book format. Questions cover inspection procedures, damage mechanisms, repair methods, alteration requirements, and reconstruction per API 653, API 650, and related codes." }},
-      { "@type": "Question", "name": "What codes do I need for API 653 exam?", "acceptedAnswer": { "@type": "Answer", "text": "API 653 exam requires 10 reference codes: API 653, API 650, API 651, API 570 (select sections), API 571, API 575, API 577, ASME Section V, ASME Section IX, and AWS D1.1. All must be the editions specified in the current API exam bulletin." }}
-    ]
-  },
-  '/digital-twins': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "What is a digital twin in NDT?", "acceptedAnswer": { "@type": "Answer", "text": "A digital twin in NDT is a virtual 3D replica of a physical asset (pipe, vessel, structure) that integrates real inspection data — thickness readings, defect maps, corrosion rates — for visualization, trending, and predictive maintenance planning." }},
-      { "@type": "Question", "name": "How do digital twins reduce inspection costs?", "acceptedAnswer": { "@type": "Answer", "text": "Digital twins reduce costs by enabling risk-based inspection planning, eliminating redundant inspections, reducing turnaround time by up to 40%, and extending asset life through predictive corrosion monitoring. Typical ROI is realized within 12-18 months." }},
-      { "@type": "Question", "name": "Which industries use NDT digital twins?", "acceptedAnswer": { "@type": "Answer", "text": "Oil & gas (refineries, pipelines, offshore platforms), power generation (boilers, turbines), aerospace (engine components), and marine (hull integrity) are the primary adopters of NDT digital twin technology." }}
-    ]
-  },
-  '/api-510-certification': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "How many questions on the API 510 exam?", "acceptedAnswer": { "@type": "Answer", "text": "The API 510 Pressure Vessel Inspector exam has 170 questions in a 7.5-hour open-book format. Questions cover ASME Section VIII Division 1, API 510, API 572, API 576, API 579, and NDE methods." }},
-      { "@type": "Question", "name": "What codes are needed for API 510?", "acceptedAnswer": { "@type": "Answer", "text": "API 510 exam requires: API 510, ASME Section VIII Div 1, ASME Section V (NDE), ASME Section IX (Welding), API 572, API 576, API 577, API 579 (FFS). Editions specified in the current API bulletin." }},
-      { "@type": "Question", "name": "How hard is API 510?", "acceptedAnswer": { "@type": "Answer", "text": "API 510 has approximately a 50-60% industry pass rate. The open-book format helps, but candidates need strong code navigation skills and understanding of pressure vessel inspection principles. Atlantis NDT prep achieves 95% pass rate." }}
-    ]
-  },
-  '/api-570-certification': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "What is API 570 certification?", "acceptedAnswer": { "@type": "Answer", "text": "API 570 certifies piping inspectors for in-service inspection of metallic and fiberglass piping systems. Required by many refineries and petrochemical plants for piping integrity management." }},
-      { "@type": "Question", "name": "How much does API 570 certification cost?", "acceptedAnswer": { "@type": "Answer", "text": "API 570 exam fee is approximately $495-$595. Training courses range from $2,000-$4,000. Total investment is typically $3,000-$5,000 including study materials and code books." }},
-      { "@type": "Question", "name": "What experience is needed for API 570?", "acceptedAnswer": { "@type": "Answer", "text": "API 570 requires documented piping inspection experience: 5 years with high school diploma, 3 years with engineering degree. Alternative paths available through API's education equivalency." }}
-    ]
-  },
+  // '/training' — handled by page-level @graph in Training.tsx
+  // '/asnt-certification' — handled by page-level @graph in asnt-certification.tsx
+  // '/api-653-certification' — handled by page-level @graph in api-653-certification.tsx
+  // '/digital-twins' — handled by page-level @graph in DigitalTwins.tsx
+  // '/api-510-certification' — handled by page-level @graph in api-510-certification.tsx
+  // '/api-570-certification' — handled by page-level @graph in api-570-certification.tsx
   '/ndt-methods': {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2725,30 +2675,29 @@ const faqSchemas = {
       { "@type": "Question", "name": "What is the most common NDT method?", "acceptedAnswer": { "@type": "Answer", "text": "Ultrasonic testing (UT) is the most widely used NDT method globally, followed by radiographic testing (RT). UT is preferred for its portability, no radiation hazard, and ability to measure thickness and detect both surface and subsurface defects." }}
     ]
   },
-  '/weld-inspection': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "What NDT methods are used for weld inspection?", "acceptedAnswer": { "@type": "Answer", "text": "The main NDT methods for weld inspection are: Visual Testing (VT), Ultrasonic Testing (UT/PAUT), Radiographic Testing (RT), Magnetic Particle Testing (MT), and Liquid Penetrant Testing (PT). Most codes require VT plus one volumetric method (UT or RT) plus one surface method (MT or PT)." }},
-      { "@type": "Question", "name": "Is PAUT replacing radiography for weld inspection?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, PAUT is increasingly replacing RT for weld inspection due to faster results, no radiation safety concerns, better sizing accuracy, and electronic records. ASME and AWS now accept PAUT as equivalent to RT for most applications." }}
-    ]
-  },
+  // '/weld-inspection' — handled by page-level @graph in weld-inspection.tsx
 };
 
-// Inject FAQ schema into matching routes
+// Inject FAQ schema into matching routes — but skip if route already has FAQPage
+// (page-level @graph may already include one; duplicate FAQPage triggers GSC errors)
+const hasFaqPage = (sd) => {
+  if (!sd) return false;
+  if (sd['@type'] === 'FAQPage') return true;
+  if (Array.isArray(sd['@graph'])) return sd['@graph'].some(n => n && n['@type'] === 'FAQPage');
+  return false;
+};
 routes.forEach(route => {
   const faq = faqSchemas[route.path];
-  if (faq) {
-    if (route.structuredData) {
-      // Merge FAQ into existing @graph
-      if (route.structuredData['@graph']) {
-        route.structuredData['@graph'].push(faq);
-      } else {
-        route.structuredData = { "@context": "https://schema.org", "@graph": [route.structuredData, faq] };
-      }
+  if (!faq) return;
+  if (hasFaqPage(route.structuredData)) return;
+  if (route.structuredData) {
+    if (route.structuredData['@graph']) {
+      route.structuredData['@graph'].push(faq);
     } else {
-      route.structuredData = faq;
+      route.structuredData = { "@context": "https://schema.org", "@graph": [route.structuredData, faq] };
     }
+  } else {
+    route.structuredData = faq;
   }
 });
 

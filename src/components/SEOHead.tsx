@@ -315,50 +315,6 @@ export const SEOHead = ({
               { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 510" },
               { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 570" },
               { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 653" }
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "127",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "review": [
-              {
-                "@type": "Review",
-                "author": { "@type": "Organization", "name": "Major Gulf Coast Refinery" },
-                "datePublished": "2025-11-15",
-                "reviewBody": "Atlantis NDT transformed our NDT program. Their Level III consultants identified critical gaps in our procedures that had been missed for years. Excellent turnaround time and deep technical knowledge.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-              },
-              {
-                "@type": "Review",
-                "author": { "@type": "Organization", "name": "Offshore Operator - UAE" },
-                "datePublished": "2025-09-22",
-                "reviewBody": "Outstanding consulting support for our offshore platform integrity program. The team delivered comprehensive procedure development and audit preparation that exceeded expectations.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-              },
-              {
-                "@type": "Review",
-                "author": { "@type": "Organization", "name": "Aerospace Manufacturer - Texas" },
-                "datePublished": "2026-01-10",
-                "reviewBody": "Their NAS 410 expertise is unmatched. Helped us establish a complete NDT qualification program from scratch. Highly recommend for any aerospace NDT consulting needs.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-              },
-              {
-                "@type": "Review",
-                "author": { "@type": "Organization", "name": "Pipeline Operator - Alberta" },
-                "datePublished": "2025-12-05",
-                "reviewBody": "Atlantis NDT provided critical fitness-for-service consulting for our pipeline integrity program. Their API 579 expertise saved us significant replacement costs.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-              },
-              {
-                "@type": "Review",
-                "author": { "@type": "Organization", "name": "Petrochemical Complex - India" },
-                "datePublished": "2026-02-18",
-                "reviewBody": "Excellent Level III support for our turnaround inspection program. Procedures were approved first time by the client and auditor. Professional and responsive team.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
-              }
             ]
           },
           {
