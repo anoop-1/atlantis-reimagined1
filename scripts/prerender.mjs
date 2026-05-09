@@ -177,6 +177,28 @@ const CTR_OVERRIDES = {
   '/ndt-training-usa': {
     title: 'NDT Training USA 2026: ASNT Level I/II/III, 40-80 hr Courses, $1,200–$3,500',
     description: 'NDT training across USA — ASNT SNT-TC-1A + ACCP Level I/II/III. UT, RT, MT, PT, ET, VT. Online + onsite (Houston, Dallas, Pittsburgh, Anchorage). 95% pass rate, OJT logs included.'
+  },
+  // OFI 2026-05-09 — top remaining CTR bleeders not yet covered.
+  // /blog/magnetic-particle-testing alone losing ~70 cl/mo at pos 15 with 1342 impr.
+  '/blog/magnetic-particle-testing': {
+    title: 'Magnetic Particle Testing (MT) 2026: Wet vs Dry, $0.30–$1.20/inch, ASTM E709',
+    description: 'MT for ferromagnetic surface defects: wet fluorescent vs dry visible, AC vs DC vs HWDC, yokes vs benches. ASTM E709, ASME V Article 7 acceptance. $0.30–$1.20 per linear inch.'
+  },
+  '/blog/eddy-current-testing-complete-guide': {
+    title: 'Eddy Current Testing 2026: ECT, ECA, RFT for Tubes, Welds, Coatings',
+    description: 'Complete ECT guide — conventional, Eddy Current Array, Remote Field for tubes/welds/coatings. ASTM E309/E571, ASME V Article 8 acceptance. Frequency selection + lift-off compensation.'
+  },
+  '/blog/asnt-snt-tc-1a-certification-requirements': {
+    title: 'ASNT SNT-TC-1A 2026: Hours, Vision, Exam, Recert Requirements per Method',
+    description: 'SNT-TC-1A 2024 edition by method (UT/RT/MT/PT/ET/VT): training hours, OJT minimums, vision tests (Jaeger 2 + color), exam structure, recertification cycle. Employer-based scheme.'
+  },
+  '/blog/asme-b31-3-process-piping-requirements': {
+    title: 'ASME B31.3 Process Piping NDT 2026: Examination % by Service Class, Acceptance Criteria',
+    description: 'ASME B31.3 NDT extent by fluid service: Normal 5% RT, Severe Cyclic 100% RT/UT, Category D visual only. Weld defect acceptance per Table 341.3.2 + welder qualification per Section IX.'
+  },
+  '/blog/ai-in-ndt-machine-learning-for-defect-detection': {
+    title: 'AI in NDT 2026: Machine Learning Defect Detection, Accuracy, Adoption Timeline',
+    description: 'Machine learning for UT/RT defect detection — CNN architectures, training data sizes, 92–98% accuracy benchmarks, regulatory acceptance status. Integration with PAUT/AUT systems.'
   }
 };
 
@@ -770,6 +792,57 @@ const corePages = [
     description: 'Eddy current testing for heat exchangers, welds, coatings & aerospace. Conventional ECT, ECA, RFT, NFA. ASME V Article 8, ASTM E309. ASNT Level II/III.',
     bodyH1: 'Eddy Current Testing (ECT) 2026: Tubes, Welds, Aerospace & Coatings',
     bodyText: 'ECT pillar hub — electromagnetic NDT for conductive materials. Conventional ECT, Eddy Current Array (ECA), Remote Field Testing (RFT), Near-Field Array (NFA), MFL, and pulsed ECT. Heat exchanger tube inspection, aerospace fastener-hole inspection, non-ferrous weld inspection, and conductivity/thickness measurement. ASME V Article 8, ASTM E309/E571/E3052, NAS 410, ISO 15549 compliant.',
+  },
+  // ── 7 new pages added 2026-05-03. CTR_OVERRIDES at top of file rewrites
+  // these titles/descriptions during render — bodyText here is fallback only.
+  {
+    path: '/services/mfl-pipeline-inspection',
+    title: 'MFL Pipeline Inspection Service 2026 — In-Line Pigging, Cost & Coverage',
+    description: 'MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, $8K–$45K/mile typical. ASNT Level III oversight.',
+    bodyH1: 'MFL Pipeline Inspection Services 2026',
+    bodyText: 'Magnetic Flux Leakage (MFL) in-line inspection for transmission and gathering pipelines 4-inch through 56-inch diameter. Detects ID/OD wall loss, pitting, gouges, and dent-with-metal-loss. 100% bore coverage with axial and circumferential MFL tools. ASNT Level III oversight on every project. Typical cost $8K–$45K per mile inspected.',
+  },
+  {
+    path: '/compare/asnt-vs-pcn',
+    title: 'ASNT vs PCN / ISO 9712 — Which NDT Cert Wins in 2026?',
+    description: 'ASNT (SNT-TC-1A) vs PCN / ISO 9712 side-by-side: geography, exam structure, recert, $200–$750 cost, employer recognition. Pick the right cert for your market.',
+    bodyH1: 'ASNT vs PCN / ISO 9712 — Side-by-Side NDT Certification Comparison',
+    bodyText: 'ASNT SNT-TC-1A is the dominant NDT certification scheme in the United States and Canada, while PCN (Personnel Certification in Non-destructive testing) operating to ISO 9712 dominates the United Kingdom, Europe, Middle East, and many Asian markets. This guide compares geography acceptance, exam structure, recertification cycles, cost ($200-$750 range), and employer recognition across both schemes.',
+  },
+  {
+    path: '/compare/api-510-vs-api-570',
+    title: 'API 510 vs API 570 — Which Inspector Cert in 2026? Salary, Scope, Exam',
+    description: 'API 510 (pressure vessel) vs API 570 (piping) inspector — exam scope, $730 fee, $85K–$140K salary, who needs which, can you hold both. 2026 guide.',
+    bodyH1: 'API 510 vs API 570 — Pressure Vessel vs Piping Inspector Certification',
+    bodyText: 'API 510 certifies authorised pressure vessel inspectors; API 570 certifies authorised piping inspectors. Both are issued by the American Petroleum Institute Individual Certification Program (ICP). This comparison covers scope of work, exam structure, $730 examination fee, work-experience prerequisites, $85K-$140K salary range, and whether holding both certifications is worth the time.',
+  },
+  {
+    path: '/compare/ndt-consulting-vs-in-house',
+    title: 'NDT Consulting vs In-House Team — 2026 Cost Breakdown & When to Hire',
+    description: 'NDT consulting vs in-house Level III team — fully-loaded cost analysis ($180K–$320K/yr in-house vs $1.5K–$3.5K/day consulting). Hybrid model that wins.',
+    bodyH1: 'NDT Consulting vs In-House Team — When Each Model Wins',
+    bodyText: 'Should you hire ASNT Level III consultants or build an in-house NDT team? This decision guide compares fully-loaded cost ($180K-$320K/year for an in-house Level III with benefits and overhead vs $1,500-$3,500 per day for consulting engagements), procedure quality, regulatory exposure, and which hybrid models work for small, mid-sized, and enterprise inspection programs.',
+  },
+  {
+    path: '/api-510-india',
+    title: 'API 510 India 2026 — Exam Centres, ₹65K Fee, ₹15L–₹35L Salary Guide',
+    description: 'API 510 in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 cost ₹60K–₹80K, prep classes ₹35K–₹1.2L, ₹15L–₹35L salary at Reliance/IOCL/BPCL.',
+    bodyH1: 'API 510 Pressure Vessel Inspector Certification — India 2026',
+    bodyText: 'API 510 certification path in India for authorised pressure vessel inspectors. Examination centres in Mumbai, Hyderabad, Delhi, and Chennai. 2026 fee structure ₹60K-₹80K for the API exam plus ₹35K-₹1.2L for accredited prep classes. Salary ranges ₹15L-₹35L at Reliance Industries, IOCL, BPCL, ONGC, and EIL inspection programs.',
+  },
+  {
+    path: '/api-570-india',
+    title: 'API 570 India 2026 — Exam Centres, ₹60K Fee, ₹15L–₹32L Piping Inspector Salary',
+    description: 'API 570 piping inspector in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 INR pricing ₹60K–₹85K, ₹15L–₹32L salary at IOCL/BPCL/Reliance.',
+    bodyH1: 'API 570 Piping Inspector Certification — India 2026',
+    bodyText: 'API 570 piping inspector certification in India. Examination centres in Mumbai, Hyderabad, Delhi, and Chennai. 2026 INR pricing ₹60K-₹85K for examination plus ₹35K-₹1.2L for prep classes. Salary range ₹15L-₹32L at IOCL, BPCL, HPCL, Reliance Industries, and ONGC piping integrity programs.',
+  },
+  {
+    path: '/api-653-india',
+    title: 'API 653 India 2026 — Tank Inspector Exam Centres, ₹60K Fee, ₹14L–₹32L Salary',
+    description: 'API 653 storage tank inspector in India: Mumbai/Hyderabad/Delhi/Chennai exam centres, 2026 INR pricing ₹60K–₹85K, ₹14L–₹32L salary at IOCL/BPCL/Reliance terminals.',
+    bodyH1: 'API 653 Storage Tank Inspector Certification — India 2026',
+    bodyText: 'API 653 above-ground storage tank inspector certification in India. Examination centres in Mumbai, Hyderabad, Delhi, and Chennai. 2026 INR pricing ₹60K-₹85K for examination, ₹35K-₹1.2L for prep classes. Salary ₹14L-₹32L at IOCL, BPCL, HPCL terminals, Reliance Jamnagar, and ONGC storage facilities.',
   },
 ];
 

@@ -1,6 +1,6 @@
 # GA4 Audit Status
 
-**Date:** 2026-05-03T04:57:46.276Z
+**Date:** 2026-05-09T12:56:57.016Z
 **Service account:** atlantismarketing@x-jigsaw-293515.iam.gserviceaccount.com
 **Accessible properties:** 2
 
@@ -15,10 +15,10 @@
 
 | Property | Window | Sessions | Users | Views | Engaged sessions | Avg session sec |
 |---|---|---:|---:|---:|---:|---:|
-| atlantisndt.com | last28d | 1348 | 1176 | 1433 | 745 | 155.4 |
-| atlantisndt.com | last90d | 1348 | 1176 | 1433 | 745 | 155.4 |
-| NDTConnect | last28d | 124 | 75 | 243 | 99 | 49.1 |
-| NDTConnect | last90d | 124 | 75 | 243 | 99 | 49.1 |
+| atlantisndt.com | last28d | 1833 | 1582 | 1968 | 1010 | 147.4 |
+| atlantisndt.com | last90d | 1833 | 1582 | 1968 | 1010 | 147.4 |
+| NDTConnect | last28d | 140 | 83 | 264 | 109 | 45.0 |
+| NDTConnect | last90d | 140 | 83 | 264 | 109 | 45.0 |
 
 ## Output files
 
