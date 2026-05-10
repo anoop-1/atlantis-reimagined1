@@ -1,81 +1,22 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://asset-integrity-hub.vercel.app'
-  const today = new Date().toISOString().split('T')[0]
-
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://asset-integrity-hub.vercel.app';
   return [
-    {
-      url: `${baseUrl}`,
-      lastModified: today,
-      changeFrequency: 'monthly' as const,
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/digital-twin-roi-calculator`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/blog/erp-vs-spreadsheets-ndt`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/digital-twins`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/digital-twins/oil-gas`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/digital-twins/predictive-maintenance`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/erp-solutions`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/erp-solutions/implementation-guide`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/ndt-software`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ndt-software/ndtconnect-review`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/ndt-software/reporting-tools`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-  ]
+    { url: `${baseUrl}`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 1 },
+    { url: `${baseUrl}/digital-twins`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/digital-twins/oil-gas`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/digital-twins/predictive-maintenance`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/erp-solutions`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/erp-solutions/implementation-guide`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-software`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-software/ndtconnect-review`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-software/reporting-tools`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/risk-based-inspection-vs-time-based-which-cuts-cost-more`, lastModified: '2024-09-30', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/building-an-asset-integrity-management-system-12-month-roadmap`, lastModified: '2025-01-15', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/fitness-for-service-api-579-when-to-use-which-level`, lastModified: '2025-05-22', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/measuring-asset-integrity-kpis-that-actually-matter`, lastModified: '2025-10-04', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/integrity-operating-windows-ow-best-practices-refineries`, lastModified: '2026-02-11', changeFrequency: 'monthly' as const, priority: 0.7 }
+  ];
 }

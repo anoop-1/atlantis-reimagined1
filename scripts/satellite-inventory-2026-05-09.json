@@ -1,0 +1,728 @@
+{
+  "generatedAt": "2026-05-09T13:28:32.206Z",
+  "satelliteCount": 35,
+  "satellites": [
+    {
+      "name": "advanced-ndt-techniques",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\advanced-ndt-techniques",
+      "targetDomain": "https://advanced-ndt-techniques.vercel.app",
+      "verifiedInTokens": true,
+      "title": "advanced-ndt-techniques",
+      "pageCount": 4,
+      "homeWordCount": 581,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "subsea",
+        "welding",
+        "ndt_general",
+        "heat_exchanger"
+      ],
+      "samplePagePath": "\\backlink-sites\\advanced-ndt-techniques\\src\\app\\automation\\page.tsx"
+    },
+    {
+      "name": "aerospace-ndt-standards",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\aerospace-ndt-standards",
+      "targetDomain": "https://aerospace-ndt-standards.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Aerospace NDT Standards | NDT Industry Resource",
+      "pageCount": 18,
+      "homeWordCount": 305,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "aerospace",
+        "subsea",
+        "ndt_general",
+        "composite"
+      ],
+      "samplePagePath": "\\backlink-sites\\aerospace-ndt-standards\\src\\app\\applications\\composite-inspection\\page.tsx"
+    },
+    {
+      "name": "api-certification-guide",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\api-certification-guide",
+      "targetDomain": "https://api-certification-guide.vercel.app",
+      "verifiedInTokens": true,
+      "title": "api-certification-guide",
+      "pageCount": 2,
+      "homeWordCount": 602,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pressure vessel",
+        "corrosion",
+        "ndt_general",
+        "tank",
+        "mining",
+        "api_certification"
+      ],
+      "samplePagePath": "\\backlink-sites\\api-certification-guide\\src\\app\\api-510\\page.tsx"
+    },
+    {
+      "name": "asset-integrity-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\asset-integrity-hub",
+      "targetDomain": "https://asset-integrity-hub.vercel.app",
+      "verifiedInTokens": true,
+      "title": "asset-integrity-hub",
+      "pageCount": 12,
+      "homeWordCount": 749,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": "blog",
+      "inferredTopics": [
+        "subsea",
+        "asset_integrity",
+        "ndt_general",
+        "rail"
+      ],
+      "samplePagePath": "\\backlink-sites\\asset-integrity-hub\\src\\app\\blog\\digital-twin-roi-calculator\\page.tsx"
+    },
+    {
+      "name": "coating-inspection-guide",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\coating-inspection-guide",
+      "targetDomain": "https://coating-inspection-guide.vercel.app",
+      "verifiedInTokens": true,
+      "title": "coating-inspection-guide",
+      "pageCount": 4,
+      "homeWordCount": 813,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "subsea",
+        "ndt_general",
+        "coating",
+        "composite"
+      ],
+      "samplePagePath": "\\backlink-sites\\coating-inspection-guide\\src\\app\\defects\\page.tsx"
+    },
+    {
+      "name": "composite-testing-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\composite-testing-hub",
+      "targetDomain": "https://composite-testing-hub.vercel.app",
+      "verifiedInTokens": true,
+      "title": "composite-testing-hub",
+      "pageCount": 3,
+      "homeWordCount": 533,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "aerospace",
+        "asset_integrity",
+        "ndt_general",
+        "composite",
+        "renewable"
+      ],
+      "samplePagePath": "\\backlink-sites\\composite-testing-hub\\src\\app\\defects\\page.tsx"
+    },
+    {
+      "name": "construction-ndt-guide",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\construction-ndt-guide",
+      "targetDomain": "https://construction-ndt-guide.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Construction & Infrastructure NDT | NDT Industry Resource",
+      "pageCount": 16,
+      "homeWordCount": 288,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\construction-ndt-guide\\src\\app\\applications\\dams\\page.tsx"
+    },
+    {
+      "name": "corrosion-management-ndt",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\corrosion-management-ndt",
+      "targetDomain": "https://corrosion-management-ndt.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Corrosion Management & NDT | NDT Industry Resource",
+      "pageCount": 20,
+      "homeWordCount": 280,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\corrosion-management-ndt\\src\\app\\industry\\page.tsx"
+    },
+    {
+      "name": "heat-exchanger-ndt",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\heat-exchanger-ndt",
+      "targetDomain": "https://heat-exchanger-ndt.vercel.app",
+      "verifiedInTokens": true,
+      "title": "heat-exchanger-ndt",
+      "pageCount": 2,
+      "homeWordCount": 535,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "petrochemical",
+        "ndt_general",
+        "heat_exchanger"
+      ],
+      "samplePagePath": "\\backlink-sites\\heat-exchanger-ndt\\src\\app\\page.tsx"
+    },
+    {
+      "name": "industrial-inspection-resources",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\industrial-inspection-resources",
+      "targetDomain": "https://industrial-inspection-resources.vercel.app",
+      "verifiedInTokens": true,
+      "title": "industrial-inspection-resources",
+      "pageCount": 13,
+      "homeWordCount": 1090,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "aerospace",
+        "nuclear",
+        "subsea",
+        "asset_integrity",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\industrial-inspection-resources\\src\\app\\case-studies\\page.tsx"
+    },
+    {
+      "name": "lng-inspection-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\lng-inspection-hub",
+      "targetDomain": "https://lng-inspection-hub.vercel.app",
+      "verifiedInTokens": true,
+      "title": "lng-inspection-hub",
+      "pageCount": 4,
+      "homeWordCount": 486,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pressure vessel",
+        "corrosion",
+        "subsea",
+        "ndt_general",
+        "tank",
+        "lng"
+      ],
+      "samplePagePath": "\\backlink-sites\\lng-inspection-hub\\src\\app\\equipment\\page.tsx"
+    },
+    {
+      "name": "manufacturing-ndt-quality",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\manufacturing-ndt-quality",
+      "targetDomain": "https://manufacturing-ndt-quality.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Manufacturing Quality & NDT | NDT Industry Resource",
+      "pageCount": 17,
+      "homeWordCount": 278,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "aerospace",
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\manufacturing-ndt-quality\\src\\app\\automation\\ai-defect-detection\\page.tsx"
+    },
+    {
+      "name": "marine-offshore-ndt",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\marine-offshore-ndt",
+      "targetDomain": "https://marine-offshore-ndt.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Marine & Offshore NDT Resource | NDT Industry Resource",
+      "pageCount": 20,
+      "homeWordCount": 290,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\marine-offshore-ndt\\src\\app\\career\\offshore-salary\\page.tsx"
+    },
+    {
+      "name": "middle-east-ndt-resource",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\middle-east-ndt-resource",
+      "targetDomain": "https://middle-east-ndt-resource.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Middle East NDT Resource Center | NDT Industry Resource",
+      "pageCount": 21,
+      "homeWordCount": 297,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\middle-east-ndt-resource\\src\\app\\career\\page.tsx"
+    },
+    {
+      "name": "mining-ndt-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\mining-ndt-hub",
+      "targetDomain": "https://mining-ndt-hub.vercel.app",
+      "verifiedInTokens": true,
+      "title": "mining-ndt-hub",
+      "pageCount": 3,
+      "homeWordCount": 505,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "ndt_general",
+        "rail",
+        "mining"
+      ],
+      "samplePagePath": "\\backlink-sites\\mining-ndt-hub\\src\\app\\equipment\\page.tsx"
+    },
+    {
+      "name": "ndt-automation-future",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-automation-future",
+      "targetDomain": "https://ndt-automation-future.vercel.app",
+      "verifiedInTokens": true,
+      "title": "ndt-automation-future",
+      "pageCount": 4,
+      "homeWordCount": 695,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pressure vessel",
+        "aerospace",
+        "subsea",
+        "asset_integrity",
+        "ndt_general",
+        "rail",
+        "renewable"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-automation-future\\src\\app\\implementation\\page.tsx"
+    },
+    {
+      "name": "ndt-careers-portal",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-careers-portal",
+      "targetDomain": "https://ndt-careers-portal.vercel.app",
+      "verifiedInTokens": true,
+      "title": "ndt-careers-portal",
+      "pageCount": 13,
+      "homeWordCount": 853,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "aerospace",
+        "subsea",
+        "welding",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-careers-portal\\src\\app\\careers\\level-iii-consultant\\page.tsx"
+    },
+    {
+      "name": "ndt-equipment-reviews",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-equipment-reviews",
+      "targetDomain": "https://ndt-equipment-reviews.vercel.app",
+      "verifiedInTokens": true,
+      "title": "ndt-equipment-reviews",
+      "pageCount": 2,
+      "homeWordCount": 598,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-equipment-reviews\\src\\app\\page.tsx"
+    },
+    {
+      "name": "ndt-knowledge-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-knowledge-hub",
+      "targetDomain": "https://ndt-knowledge-hub.vercel.app",
+      "verifiedInTokens": true,
+      "title": "NDT Knowledge Hub | Non-Destructive Testing Encyclopedia",
+      "pageCount": 21,
+      "homeWordCount": 1573,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": "guides",
+      "inferredTopics": [
+        "pipeline",
+        "pressure vessel",
+        "aerospace",
+        "subsea",
+        "welding",
+        "ndt_general",
+        "composite"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-knowledge-hub\\src\\app\\certifications\\api-510\\page.tsx"
+    },
+    {
+      "name": "ndt-safety-compliance",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-safety-compliance",
+      "targetDomain": "https://ndt-safety-compliance.vercel.app",
+      "verifiedInTokens": true,
+      "title": "ndt-safety-compliance",
+      "pageCount": 3,
+      "homeWordCount": 445,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pressure vessel",
+        "subsea",
+        "petrochemical",
+        "ndt_general",
+        "api_certification"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-safety-compliance\\src\\app\\certifications\\page.tsx"
+    },
+    {
+      "name": "ndt-software-solutions",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-software-solutions",
+      "targetDomain": "https://ndt-software-solutions.vercel.app",
+      "verifiedInTokens": false,
+      "title": "NDT Software & Digital Solutions | NDT Industry Resource",
+      "pageCount": 18,
+      "homeWordCount": 292,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "subsea",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-software-solutions\\src\\app\\buyer-guide\\implementation\\page.tsx"
+    },
+    {
+      "name": "ndt-standards-library",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-standards-library",
+      "targetDomain": "https://ndt-standards-library.vercel.app",
+      "verifiedInTokens": true,
+      "title": "ndt-standards-library",
+      "pageCount": 4,
+      "homeWordCount": 560,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "pressure vessel",
+        "nuclear",
+        "subsea",
+        "petrochemical",
+        "asset_integrity",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-standards-library\\src\\app\\api\\page.tsx"
+    },
+    {
+      "name": "ndt-training-academy",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\ndt-training-academy",
+      "targetDomain": "https://ndt-training-academy.vercel.app",
+      "verifiedInTokens": true,
+      "title": "ndt-training-academy",
+      "pageCount": 13,
+      "homeWordCount": 973,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "aerospace",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\ndt-training-academy\\src\\app\\career\\page.tsx"
+    },
+    {
+      "name": "nuclear-ndt-resource",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\nuclear-ndt-resource",
+      "targetDomain": "https://nuclear-ndt-resource.vercel.app",
+      "verifiedInTokens": true,
+      "title": "nuclear-ndt-resource",
+      "pageCount": 4,
+      "homeWordCount": 718,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pressure vessel",
+        "corrosion",
+        "nuclear",
+        "subsea",
+        "welding",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\nuclear-ndt-resource\\src\\app\\page.tsx"
+    },
+    {
+      "name": "oil-gas-inspection-guide",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\oil-gas-inspection-guide",
+      "targetDomain": "https://oil-gas-inspection-guide.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Oil & Gas Inspection Guide | NDT Industry Resource",
+      "pageCount": 26,
+      "homeWordCount": 326,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "pressure vessel",
+        "subsea",
+        "petrochemical",
+        "ndt_general",
+        "tank",
+        "api_certification"
+      ],
+      "samplePagePath": "\\backlink-sites\\oil-gas-inspection-guide\\src\\app\\api-codes\\api-510-pressure-vessels\\page.tsx"
+    },
+    {
+      "name": "petrochemical-ndt-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\petrochemical-ndt-hub",
+      "targetDomain": "https://petrochemical-ndt-hub.vercel.app",
+      "verifiedInTokens": true,
+      "title": "petrochemical-ndt-hub",
+      "pageCount": 4,
+      "homeWordCount": 724,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "nuclear",
+        "subsea",
+        "petrochemical",
+        "ndt_general",
+        "heat_exchanger"
+      ],
+      "samplePagePath": "\\backlink-sites\\petrochemical-ndt-hub\\src\\app\\equipment\\page.tsx"
+    },
+    {
+      "name": "pipeline-integrity-guide",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\pipeline-integrity-guide",
+      "targetDomain": "https://pipeline-integrity-guide.vercel.app",
+      "verifiedInTokens": true,
+      "title": "pipeline-integrity-guide",
+      "pageCount": 4,
+      "homeWordCount": 837,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "corrosion",
+        "subsea",
+        "welding",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\pipeline-integrity-guide\\src\\app\\case-studies\\page.tsx"
+    },
+    {
+      "name": "power-generation-ndt",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\power-generation-ndt",
+      "targetDomain": "https://power-generation-ndt.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Power Generation NDT Hub | NDT Industry Resource",
+      "pageCount": 16,
+      "homeWordCount": 304,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "nuclear",
+        "subsea",
+        "asset_integrity",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\power-generation-ndt\\src\\app\\career\\salary-guide\\page.tsx"
+    },
+    {
+      "name": "pressure-vessel-ndt",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\pressure-vessel-ndt",
+      "targetDomain": "https://pressure-vessel-ndt.vercel.app",
+      "verifiedInTokens": true,
+      "title": "pressure-vessel-ndt",
+      "pageCount": 4,
+      "homeWordCount": 427,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pressure vessel",
+        "corrosion",
+        "subsea",
+        "welding",
+        "petrochemical",
+        "asset_integrity",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\pressure-vessel-ndt\\src\\app\\design\\page.tsx"
+    },
+    {
+      "name": "rail-ndt-resource",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\rail-ndt-resource",
+      "targetDomain": "https://rail-ndt-resource.vercel.app",
+      "verifiedInTokens": true,
+      "title": "rail-ndt-resource",
+      "pageCount": 4,
+      "homeWordCount": 566,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "subsea",
+        "ndt_general",
+        "heat_exchanger",
+        "rail"
+      ],
+      "samplePagePath": "\\backlink-sites\\rail-ndt-resource\\src\\app\\methods\\page.tsx"
+    },
+    {
+      "name": "renewable-energy-ndt",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\renewable-energy-ndt",
+      "targetDomain": "https://renewable-energy-ndt.vercel.app",
+      "verifiedInTokens": true,
+      "title": "renewable-energy-ndt",
+      "pageCount": 4,
+      "homeWordCount": 456,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "welding",
+        "asset_integrity",
+        "ndt_general",
+        "composite",
+        "renewable"
+      ],
+      "samplePagePath": "\\backlink-sites\\renewable-energy-ndt\\src\\app\\geothermal\\page.tsx"
+    },
+    {
+      "name": "subsea-inspection-guide",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\subsea-inspection-guide",
+      "targetDomain": "https://subsea-inspection-guide.vercel.app",
+      "verifiedInTokens": true,
+      "title": "subsea-inspection-guide",
+      "pageCount": 4,
+      "homeWordCount": 509,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "corrosion",
+        "subsea",
+        "ndt_general",
+        "composite"
+      ],
+      "samplePagePath": "\\backlink-sites\\subsea-inspection-guide\\src\\app\\certification\\page.tsx"
+    },
+    {
+      "name": "tank-inspection-resource",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\tank-inspection-resource",
+      "targetDomain": "https://tank-inspection-resource.vercel.app",
+      "verifiedInTokens": true,
+      "title": "tank-inspection-resource",
+      "pageCount": 4,
+      "homeWordCount": 440,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "corrosion",
+        "subsea",
+        "welding",
+        "asset_integrity",
+        "ndt_general",
+        "tank",
+        "api_certification"
+      ],
+      "samplePagePath": "\\backlink-sites\\tank-inspection-resource\\src\\app\\above-ground\\page.tsx"
+    },
+    {
+      "name": "weld-quality-resource",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\weld-quality-resource",
+      "targetDomain": "https://weld-quality-resource.vercel.app",
+      "verifiedInTokens": true,
+      "title": "weld-quality-resource",
+      "pageCount": 3,
+      "homeWordCount": 651,
+      "hasSitemap": false,
+      "hasRobots": false,
+      "hasVercelJson": false,
+      "blogContainer": null,
+      "inferredTopics": [
+        "pipeline",
+        "pressure vessel",
+        "subsea",
+        "welding",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\weld-quality-resource\\src\\app\\defects\\page.tsx"
+    },
+    {
+      "name": "welding-inspection-hub",
+      "path": "E:\\software\\Atlantis\\atlantis-reimagined1\\backlink-sites\\welding-inspection-hub",
+      "targetDomain": "https://welding-inspection-hub.vercel.app",
+      "verifiedInTokens": false,
+      "title": "Welding Inspection & QA/QC Hub | NDT Industry Resource",
+      "pageCount": 20,
+      "homeWordCount": 284,
+      "hasSitemap": true,
+      "hasRobots": true,
+      "hasVercelJson": true,
+      "blogContainer": null,
+      "inferredTopics": [
+        "subsea",
+        "welding",
+        "ndt_general"
+      ],
+      "samplePagePath": "\\backlink-sites\\welding-inspection-hub\\src\\app\\career\\cwi\\page.tsx"
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+// satellite-enrich (2026-05-09): FeaturedArticles component generated at
+// ./_featured-articles.tsx. Import and place inside this file's JSX to
+// surface the new long-form articles on the home page.
+
 export default function Home() {
   return (
     <div>

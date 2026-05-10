@@ -1,27 +1,29 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://corrosion-management-ndt.vercel.app';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://corrosion-management-ndt.vercel.app';
   return [
-    { url: `${baseUrl}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${baseUrl}/types`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/types/pitting`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/types/cui`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/types/scc`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/types/erosion`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/types/mic`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/ndt-methods`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/ndt-methods/ut-thickness`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/ndt-methods/guided-wave`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/ndt-methods/mfl`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/management`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/management/rbi`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/management/remaining-life`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/management/cui-strategy`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/industry`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/industry/refinery`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/industry/pipeline`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/standards`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/standards/nace`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${baseUrl}`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 1 },
+    { url: `${baseUrl}/industry`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/industry/pipeline`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/industry/refinery`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-methods`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-methods/guided-wave`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-methods/mfl`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/ndt-methods/ut-thickness`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/standards`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/standards/nace`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/types`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/types/cui`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/types/erosion`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/types/mic`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/types/pitting`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/types/scc`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/management`, lastModified: '2026-05-09', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/management/cui-inspection-strategy-when-to-strip-insulation`, lastModified: '2024-08-28', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/management/ph-monitoring-vs-corrosion-coupons-which-data-trust`, lastModified: '2025-03-04', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/management/msl-stress-corrosion-cracking-austenitic-stainless`, lastModified: '2025-08-19', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/management/inhibitor-injection-program-effectiveness-monitoring`, lastModified: '2025-12-22', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/management/building-corrosion-management-program-iso-55000`, lastModified: '2026-04-30', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

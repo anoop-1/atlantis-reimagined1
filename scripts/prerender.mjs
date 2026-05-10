@@ -199,8 +199,176 @@ const CTR_OVERRIDES = {
   '/blog/ai-in-ndt-machine-learning-for-defect-detection': {
     title: 'AI in NDT 2026: Machine Learning Defect Detection, Accuracy, Adoption Timeline',
     description: 'Machine learning for UT/RT defect detection — CNN architectures, training data sizes, 92–98% accuracy benchmarks, regulatory acceptance status. Integration with PAUT/AUT systems.'
+  },
+  // === CORPORATE TRAINING VERTICALS 2026-05-09 ===
+  // Industry-vertical pages targeting B2B in-house training buyers (HR / L&D / training mgr).
+  // Title format: "Corporate NDT Training for {Industry} 2026: {N} Engineers, ASNT Aligned, On-Site or LMS"
+  // — kept ≤65 chars per spec.
+  '/corporate-training/oil-gas': {
+    title: 'Corporate NDT Training for Oil & Gas 2026: 10+ Engineers, ASNT',
+    description: 'In-house oil & gas NDT training: API 510/570/653, ASME B31.3/V, on-site / LMS / hybrid for 10–100+ engineers, SNT-TC-1A audit-ready records, ADNOC/Aramco/BSEE evidence packs.'
+  },
+  '/corporate-training/aerospace': {
+    title: 'Corporate NDT Training for Aerospace 2026: 10+ Engineers, NAS 410',
+    description: 'In-house aerospace NDT training: NAS 410, EN 4179, Nadcap AC7114, Boeing BAC + Airbus AITM bridging, on-site / LMS / hybrid, group pricing 10–100+ engineers.'
+  },
+  '/corporate-training/nuclear': {
+    title: 'Corporate NDT Training for Nuclear 2026: 10+ Engineers, ASME XI',
+    description: 'In-house nuclear NDT training: ASME III/XI, CP-189, 10 CFR 50 App B, NQA-1, PDI App VIII prep, on-site / LMS / hybrid, NRC/CNSC/IAEA-ready records, 10–100+ cohorts.'
+  },
+  '/corporate-training/marine': {
+    title: 'Corporate NDT Training for Marine 2026: 10+ Engineers, DNV/ABS/LR',
+    description: 'In-house marine and offshore NDT training: DNV-OS-C401/F101, ABS, Lloyd\'s Register, ACFM splash-zone, CSWIP 3.1/3.4U prep, hybrid delivery for FPSO + yard cohorts of 10–100+.'
+  },
+  '/corporate-training/renewable-energy': {
+    title: 'Corporate NDT Training for Renewables 2026: 10+ Engineers, DNV/H2',
+    description: 'In-house wind, solar, hydrogen and BESS NDT training: DNV-ST-0376, DNVGL-RP-0416, ASME B31.12 hydrogen piping, drone visual inspection modules, hybrid 10–100+ cohorts.'
+  },
+  '/corporate-training/petrochemical': {
+    title: 'Corporate NDT Training for Petrochem 2026: 10+ Engineers, API 571',
+    description: 'In-house petrochemical NDT training: API 510/570/571/579-1/580/581, HTHA + creep + damage-mechanism workshops, RBI rollout, hybrid 10–100+ engineer cohorts.'
+  },
+  '/corporate-training/power-generation': {
+    title: 'Corporate NDT Training for Power Gen 2026: 10+ Engineers, ASME I',
+    description: 'In-house thermal power NDT training: ASME I, ASME B31.1, NBIC NB-23, EPRI HEP guidelines, creep / Type IV cracking screening, outage-window scheduled 10–100+ cohorts.'
+  },
+  '/corporate-training/fabrication': {
+    title: 'Corporate NDT Training for Fabrication 2026: 10+ Engineers, AWS',
+    description: 'In-house fabrication-shop NDT and CWI training: AWS D1.1/D1.5, ASME IX, EN 1090-2, ISO 3834, AISC; PAUT acceptance per AWS Annex K; group pricing 10–100+ engineers.'
+  },
+  '/corporate-training/maritime': {
+    title: 'Corporate NDT Training for Maritime 2026: 10+ Engineers, IACS CSR',
+    description: 'In-house maritime NDT training for ship-repair yards: IACS CSR, DNV/ABS/LR/BV/ClassNK rules, UTM grid per UR Z10, IACS Rec 84, CSWIP 3.1 prep, hybrid 10–100+ cohorts.'
+  },
+  '/corporate-training/defense': {
+    title: 'Corporate NDT Training for Defense 2026: 10+ Engineers, NAS 410',
+    description: 'In-house defense and depot NDT training: NAS 410, MIL-STD-2154/1907, NAVSEA TP248/TP271, T.O. 33B-1-1, audit-ready DCMA/NAVAIR/NAVSEA evidence pack, 10–100+ cohorts.'
+  },
+  // === ERP/DT PRODUCT HUB 2026-05-09 ===
+  '/compare/atlantis-dt-vs-aveva-pi-system': {
+    title: 'Atlantis Digital Twin vs AVEVA PI System 2026: NDT-Native vs Time-Series',
+    description: 'Atlantis DT vs AVEVA PI System compared: NDT-native data model vs time-series historian, $200K vs $50K-$500K pricing, deployment time, integrations, when each wins.'
+  },
+  '/compare/atlantis-dt-vs-osisoft-pi': {
+    title: 'Atlantis Digital Twin vs OSIsoft PI 2026: NDT Overlay vs Process Historian',
+    description: 'Atlantis DT vs OSIsoft PI: 3D NDT-overlay platform vs process historian. Asset integrity coverage, RBI/FFS workflows, integration cost, deployment timeline compared.'
+  },
+  '/compare/atlantis-dt-vs-hexagon-eam': {
+    title: 'Atlantis Digital Twin vs Hexagon EAM 2026: NDT-First vs Asset-Maint Platform',
+    description: 'Atlantis DT vs Hexagon EAM: NDT-first 3D digital twin vs full enterprise asset management. Inspection workflow, RBI/RCM integration, $200K vs $400K+ TCO.'
+  },
+  '/compare/atlantis-dt-vs-siemens-mindsphere': {
+    title: 'Atlantis Digital Twin vs Siemens MindSphere 2026: NDT Asset vs IIoT Platform',
+    description: 'Atlantis DT vs Siemens MindSphere: NDT-data-rich vs IIoT-sensor-rich digital twin. API 579 FFS, RBI workflows, integration cost, when each wins for inspection-heavy assets.'
+  },
+  '/compare/atlantis-dt-vs-ge-predix': {
+    title: 'Atlantis Digital Twin vs GE Predix APM 2026: NDT-Specific vs Generic APM',
+    description: 'Atlantis DT vs GE Vernova APM (Predix): NDT-specific data model vs generic asset performance. Integration with PAUT/RT/MT data, $200K vs $300K-$1M, deployment time.'
+  },
+  '/compare/atlantis-dt-vs-ibm-maximo': {
+    title: 'Atlantis Digital Twin vs IBM Maximo 2026: NDT 3D vs CMMS Work Order',
+    description: 'Atlantis DT vs IBM Maximo: 3D NDT visualization vs work-order CMMS. How they complement (vs replace) each other, integration architecture, cost model.'
+  },
+  '/compare/atlantis-dt-vs-bentley-itwin': {
+    title: 'Atlantis Digital Twin vs Bentley iTwin 2026: NDT Inspection vs Engineering DT',
+    description: 'Atlantis DT vs Bentley iTwin: NDT-data-rich inspection digital twin vs engineering/BIM digital twin. Different buyer, different workflow, integration possibilities.'
+  },
+  '/compare/atlantis-dt-vs-aspen-mtell': {
+    title: 'Atlantis Digital Twin vs AspenTech Mtell 2026: NDT vs Predictive Maintenance ML',
+    description: 'Atlantis DT vs AspenTech Mtell: NDT-data 3D twin vs ML-driven predictive maintenance. How they integrate, cost vs benefit, recommended stack for asset integrity programs.'
+  },
+  '/integrations/sap-pm': {
+    title: 'Atlantis Digital Twin SAP PM Integration 2026: Bi-Directional NDT Data Sync',
+    description: 'Native SAP PM integration: bi-directional notification/work-order sync, equipment master alignment, NDT findings flowed to SAP, 8-12 week deployment, OData + SAP RFC connectors.'
+  },
+  '/integrations/ibm-maximo': {
+    title: 'Atlantis Digital Twin IBM Maximo Integration 2026: REST API + MAS Connector',
+    description: 'IBM Maximo (and MAS 8/9) integration: REST API + native MAS connector, work-order sync, asset hierarchy mirror, NDT findings flow as Maximo work logs, 6-10 week deployment.'
+  },
+  '/integrations/meridium-apm': {
+    title: 'Atlantis DT Meridium APM Integration 2026: Native RBI/FFS Data Exchange',
+    description: 'GE Vernova Meridium APM integration: RBI input data flows to Meridium, FFS Level 1/2/3 results sync back, asset hierarchy alignment, 8-12 week typical deployment timeline.'
+  },
+  '/integrations/aspen-mtell': {
+    title: 'Atlantis DT AspenTech Mtell Integration 2026: NDT Data → ML Prediction',
+    description: 'AspenTech Mtell integration: NDT condition data feeds Mtell ML training, anomaly predictions surfaced in Atlantis 3D twin, joint dashboards for inspection + reliability teams.'
+  },
+  '/integrations/ge-vernova-apm': {
+    title: 'Atlantis DT GE Vernova APM Integration 2026: Asset Hierarchy + Inspection Sync',
+    description: 'GE Vernova APM (formerly Meridium) integration: full asset hierarchy mirror, RBI/FFS data exchange, inspection findings push, 8-12 week deployment with Level III oversight.'
+  },
+  '/integrations/oracle-erp-cloud': {
+    title: 'Atlantis Digital Twin Oracle ERP Cloud Integration 2026: REST API + EAM Bridge',
+    description: 'Oracle ERP Cloud + Oracle EAM integration: REST API connector, work-order + asset master sync, NDT findings flow as Oracle service requests, 8-10 week deployment.'
+  },
+  '/digital-twins/refinery': {
+    title: 'Digital Twin for Refineries 2026: NDT Overlay, RBI per API 581, FFS per API 579',
+    description: '3D refinery digital twin with NDT inspection overlay (UT thickness, RT defects, MT/PT indications), RBI per API 581, FFS per API 579-1, $200K/yr typical. 6-12 month ROI.'
+  },
+  '/digital-twins/fpso': {
+    title: 'Digital Twin for FPSOs 2026: Hull, Process, Mooring NDT in One 3D View',
+    description: 'FPSO digital twin: hull thickness UT mapping, process piping RBI, mooring chain integrity, helideck NDT. ABS/DNV/Bureau Veritas class compliance. 12-18 month deployment.'
+  },
+  '/digital-twins/storage-tank': {
+    title: 'Digital Twin for Storage Tanks 2026: API 653 In-Service, Floor MFL, Shell UT',
+    description: 'Above-ground storage tank digital twin: API 653 inspection schedule, floor MFL maps, shell UT thickness grids, settlement monitoring. ROI 9-18 months for 50+ tank fleets.'
+  },
+  '/digital-twins/pipeline': {
+    title: 'Digital Twin for Pipelines 2026: ILI MFL/UT Integration, API 1163, Class Location',
+    description: 'Pipeline digital twin: ILI MFL/UT/CIPS data overlay, API 1163 in-line inspection compliance, class location updates, repair tracking. 4-12 inch through 56-inch transmission.'
+  },
+  '/digital-twins/nuclear-plant': {
+    title: 'Digital Twin for Nuclear Plants 2026: ASME XI ISI, Reactor Vessel, Steam Generator',
+    description: 'Nuclear plant digital twin: ASME XI ISI program, reactor vessel UT/PAUT, steam generator ECT tube inspections, primary loop. NRC/IAEA compliance, INPO-aligned data model.'
+  },
+  '/digital-twins/wind-farm': {
+    title: 'Digital Twin for Wind Farms 2026: Blade IRT/UT, Tower NDT, Foundation Monitoring',
+    description: 'Wind turbine digital twin: blade IRT/UT inspection, tower MT/UT, foundation monitoring, drone NDT data overlay. Onshore + offshore. 50-500 turbine fleets, 18-month ROI.'
+  },
+  '/digital-twins/offshore-platform': {
+    title: 'Digital Twin for Offshore Platforms 2026: Topsides, Jacket, Caisson NDT 3D View',
+    description: 'Offshore platform digital twin: topsides process NDT, jacket node UT, caisson inspection, riser integrity. API RP 2A, NORSOK N-005, BSEE/NOPSEMA/HSE compliance.'
+  },
+  '/digital-twins/petrochemical-complex': {
+    title: 'Digital Twin for Petrochemical Complexes 2026: Reactor, Heater, Compressor NDT',
+    description: 'Petrochemical complex digital twin: reactor + heater + compressor NDT data overlay, RBI per API 581, turnaround planning. 100-2,000 equipment items, 12-18 month deployment.'
+  },
+  '/digital-twins/heat-exchanger': {
+    title: 'Digital Twin for Heat Exchangers 2026: ECT Tube Maps, Tubesheet, Shell Inspection',
+    description: 'Heat exchanger digital twin: ECT/IRIS tube inspection mapping, tubesheet ligament UT, shell-side corrosion, plug history. 50-15,000 tubes per HX, ROI 6-12 months.'
+  },
+  '/digital-twins/pressure-vessel': {
+    title: 'Digital Twin for Pressure Vessels 2026: API 510 ISI, FFS, Repair Tracking',
+    description: 'Pressure vessel digital twin: API 510 in-service inspection, FFS per API 579 for damage, repair/alteration tracking, ASME VIII Section 1 compliance. 9-15 month ROI.'
+  },
+  '/digital-twins/subsea': {
+    title: 'Digital Twin for Subsea Assets 2026: Pipeline, Riser, BOP, Tree NDT Visualization',
+    description: 'Subsea asset digital twin: flowline + riser UT/MFL, BOP MT/PT, tree component inspection, ROV-collected NDT data overlay. API 17, ISO 13628 compliance. 12-18 month deployment.'
+  },
+  '/digital-twins/data-center': {
+    title: 'Digital Twin for Data Center Infrastructure 2026: Cooling, Power, Structural NDT',
+    description: 'Data center digital twin: cooling-loop pipe UT, power infrastructure NDT, structural integrity. Uptime Institute Tier-aligned, 6-12 month deployment for hyperscale facilities.'
   }
 };
+
+// === PSEO NOINDEX 2026-05-09 ===
+// Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
+// Routes in this Set get <meta name="robots" content="noindex,follow"> on
+// render so Google drops them from SERP without breaking internal links.
+// File is generated from 90d GSC data (<5 impressions). Re-run pseo-audit.mjs
+// after each major GSC refresh to keep the list current.
+let PSEO_NOINDEX = new Set();
+try {
+  const noindexFile = join(ROOT, 'scripts/pseo-noindex-list.json');
+  if (existsSync(noindexFile)) {
+    const data = JSON.parse(readFileSync(noindexFile, 'utf-8'));
+    PSEO_NOINDEX = new Set(data.paths || []);
+    console.log(`🚫 pSEO noindex list loaded: ${PSEO_NOINDEX.size} routes`);
+  }
+} catch (err) {
+  console.warn(`  ⚠️  pSEO noindex list not loaded: ${err.message}`);
+}
+// === END PSEO NOINDEX 2026-05-09 ===
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -243,7 +411,7 @@ function getPerPageOgImage(routePath) {
   return null;
 }
 
-function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogImage, bodyContent, noindex, hreflangLinks, structuredData }) {
+function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogImage, bodyContent, noindex, noindexFollow, hreflangLinks, structuredData }) {
   let out = html;
 
   // NOTE: All meta content replacements use FUNCTION replacers to prevent
@@ -364,6 +532,24 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
       );
     }
   }
+
+  // === PSEO NOINDEX 2026-05-09 ===
+  // noindex,follow variant for dead pSEO pages — preserves internal link
+  // equity so neighboring pages still benefit while Google drops the URL
+  // from SERP. Distinct from the embeddable-widget noindex,nofollow above.
+  if (noindexFollow) {
+    out = out.replace(
+      /<meta name="robots" content="[^"]*"\s*\/>/,
+      `<meta name="robots" content="noindex, follow" />`
+    );
+    if (!out.includes('name="robots"')) {
+      out = out.replace(
+        /<meta name="description"/,
+        `<meta name="robots" content="noindex, follow" />\n    <meta name="description"`
+      );
+    }
+  }
+  // === END PSEO NOINDEX 2026-05-09 ===
 
   // Inject hreflang links into <head>
   if (hreflangLinks && hreflangLinks.length > 0) {
@@ -844,6 +1030,104 @@ const corePages = [
     bodyH1: 'API 653 Storage Tank Inspector Certification — India 2026',
     bodyText: 'API 653 above-ground storage tank inspector certification in India. Examination centres in Mumbai, Hyderabad, Delhi, and Chennai. 2026 INR pricing ₹60K-₹85K for examination, ₹35K-₹1.2L for prep classes. Salary ₹14L-₹32L at IOCL, BPCL, HPCL terminals, Reliance Jamnagar, and ONGC storage facilities.',
   },
+  // === CORPORATE TRAINING VERTICALS 2026-05-09 ===
+  {
+    path: '/corporate-training/oil-gas',
+    title: 'Corporate NDT Training for Oil & Gas 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for oil & gas operators: API 510, API 570, API 653, ASME B31.3, on-site / LMS / hybrid delivery, group pricing 10–100+ engineers, SNT-TC-1A audit-ready records.',
+    bodyH1: 'Corporate NDT Training for Oil & Gas',
+    bodyText: 'Crew-level corporate NDT training for oil & gas operators, NOCs, and EPCs. API 510, 570, 653, ASME B31.3 / B31.4, ASME Section V aligned. On-site, LMS, or hybrid delivery for cohorts of 10–100+ engineers. SNT-TC-1A audit-ready records, hydrocarbon turnaround scheduling, ADNOC / Aramco / QatarEnergy / BSEE evidence packs.',
+  },
+  {
+    path: '/corporate-training/aerospace',
+    title: 'Corporate NDT Training for Aerospace 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for aerospace OEMs and MROs: NAS 410, EN 4179, Nadcap AC7114, on-site / LMS / hybrid delivery, group pricing 10–100+, audit-ready Boeing/Airbus written practice.',
+    bodyH1: 'Corporate NDT Training for Aerospace',
+    bodyText: 'In-house aerospace NDT corporate training for OEMs, MROs, and Tier-1 suppliers. NAS 410 and EN 4179 aligned with Nadcap AC7114 audit readiness. Boeing BAC, Airbus AITM, Pratt & Whitney, GE Aviation, and Rolls-Royce written-practice bridging modules. Composite, engine, and structures tracks.',
+  },
+  {
+    path: '/corporate-training/nuclear',
+    title: 'Corporate NDT Training for Nuclear 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for nuclear utilities: ASME III, ASME XI, CP-189, 10 CFR 50 App B, NQA-1, PDI Appendix VIII prep, on-site / LMS / hybrid delivery, 10–100+ engineer cohorts.',
+    bodyH1: 'Corporate NDT Training for Nuclear',
+    bodyText: 'Nuclear utility, fuel cycle, and EPC corporate training. ASME Section III new-build, ASME Section XI ISI, CP-189 personnel certification, ASME NQA-1 records, PDI Appendix VIII demonstration prep. NRC, CNSC, ONR, IAEA audit-ready evidence pack.',
+  },
+  {
+    path: '/corporate-training/marine',
+    title: 'Corporate NDT Training for Marine 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for marine and offshore: DNV-OS-C401, DNV-OS-F101, ABS, Lloyd\'s Register, ACFM splash-zone, CSWIP prep, hybrid delivery for FPSO and yard cohorts of 10–100+.',
+    bodyH1: 'Corporate NDT Training for Marine and Offshore',
+    bodyText: 'Hull, FPSO topsides, subsea structures, and class-society aligned corporate training. DNV, ABS, Lloyd\'s Register, BV, ClassNK, IRS expectations. Yard QC, FPSO topsides inspector, splash-zone ACFM, riser/pipeline weld, and CSWIP 3.1 / 3.4U tracks.',
+  },
+  {
+    path: '/corporate-training/renewable-energy',
+    title: 'Corporate NDT Training for Renewable Energy 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for wind, solar, hydrogen and BESS: DNV-ST-0376, ASME B31.12, drone visual inspection, hybrid delivery, group pricing 10–100+ for wind installers and H2 EPCs.',
+    bodyH1: 'Corporate NDT Training for Renewable Energy',
+    bodyText: 'Wind turbine, offshore wind installer, hydrogen EPC, and battery storage corporate training. DNV-ST-0376 wind, DNVGL-RP-0416 offshore structures, ASME B31.12 hydrogen piping, and the API 510 / 570 / 653 toolkit for hydrogen carrier and storage assets.',
+  },
+  {
+    path: '/corporate-training/petrochemical',
+    title: 'Corporate NDT Training for Petrochemical 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for petrochemical complexes: API 510, 570, 571, 579-1, 580/581 RBI, HTHA / creep / damage-mechanism workshops, group pricing 10–100+ engineers, hybrid delivery.',
+    bodyH1: 'Corporate NDT Training for Petrochemical',
+    bodyText: 'Olefins crackers, polymer plants, methanol/ammonia complexes, and specialty chemical site corporate training. API 571 damage mechanisms (HTHA, creep, sigma, polythionic), API 510/570 inspector prep, API 579-1 fitness-for-service Level 1/2 workshops, API 580/581 RBI rollout.',
+  },
+  {
+    path: '/corporate-training/power-generation',
+    title: 'Corporate NDT Training for Power Generation 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for thermal utilities: ASME I, ASME B31.1, NBIC NB-23, EPRI HEP guidelines, creep / Type IV cracking screening, outage-window scheduling, 10–100+ cohorts.',
+    bodyH1: 'Corporate NDT Training for Power Generation',
+    bodyText: 'Boiler tubes, headers, steam piping, turbine, and HRSG corporate training for thermal utilities and combined-cycle operators. ASME Section I, ASME B31.1, NBIC NB-23, EPRI HEP guidelines, and FFS Level 1/2 workshop for the reliability bench.',
+  },
+  {
+    path: '/corporate-training/fabrication',
+    title: 'Corporate NDT Training for Fabrication 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT and CWI training for fabrication shops: AWS D1.1, ASME IX, EN 1090-2, ISO 3834, AISC; PAUT acceptance per AWS Annex K; group pricing 10–100+ for shops and yards.',
+    bodyH1: 'Corporate NDT Training for Fabrication',
+    bodyText: 'Fabrication shops, structural steel mills, modular yards, and pressure-equipment manufacturer corporate QC training. AWS D1.1 / D1.5 visual and Annex K PAUT acceptance, ASME Section IX procedure qualification, EN 1090-2 / ISO 3834 implementation, and CWI / CSWIP exam prep.',
+  },
+  {
+    path: '/corporate-training/maritime',
+    title: 'Corporate NDT Training for Maritime 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for ship-repair yards and shipping companies: IACS CSR, DNV/ABS/LR/BV/ClassNK rules, UTM grid per UR Z10, CSWIP 3.1 prep, hybrid delivery, 10–100+ cohorts.',
+    bodyH1: 'Corporate NDT Training for Maritime',
+    bodyText: 'Ship-repair yards, port authority infrastructure teams, and merchant shipping technical departments. IACS Common Structural Rules, DNV-CG-0285, ABS Steel Vessel Rules, Lloyd\'s Register, IACS Recommendation 84, ISM Code awareness, and CSWIP 3.1 / 3.4U credentials.',
+  },
+  {
+    path: '/corporate-training/defense',
+    title: 'Corporate NDT Training for Defense 2026: 10 Engineers, ASNT Aligned',
+    description: 'In-house NDT training for defense primes and depots: NAS 410, MIL-STD-2154 / 1907, NAVSEA TP248 / TP271, T.O. 33B-1-1, audit-ready DCMA / NAVAIR / NAVSEA evidence, 10–100+ cohorts.',
+    bodyH1: 'Corporate NDT Training for Defense',
+    bodyText: 'Defense primes, naval shipyards, military aviation depots, and ground-vehicle MRO corporate training. NAS 410, MIL-STD-2154, MIL-STD-1907, NAVSEA TP248 / TP271, T.O. 33B-1-1 USAF NDI, and customer-platform written-practice bridging for NAVAIR, NAVSEA, AMC, AFMC.',
+  },
+  // === ERP/DT PRODUCT HUB 2026-05-09 — 26 routes (8 compare + 6 integrations + 12 usecases) ===
+  { path: '/compare/atlantis-dt-vs-aveva-pi-system', title: 'Atlantis Digital Twin vs AVEVA PI System 2026: NDT-Native vs Time-Series', description: 'Atlantis DT vs AVEVA PI System compared: NDT-native data model vs time-series historian, $200K vs $50K-$500K pricing, deployment time, integrations.', bodyH1: 'Atlantis Digital Twin vs AVEVA PI System', bodyText: 'Side-by-side comparison of Atlantis Digital Twin and AVEVA PI System for asset integrity programs. NDT-native vs time-series historian data models, deployment timeline, and total cost of ownership for inspection-heavy operations.' },
+  { path: '/compare/atlantis-dt-vs-osisoft-pi', title: 'Atlantis Digital Twin vs OSIsoft PI 2026: NDT Overlay vs Process Historian', description: 'Atlantis DT vs OSIsoft PI: 3D NDT-overlay platform vs process historian. Asset integrity coverage, RBI/FFS workflows, integration cost, deployment timeline compared.', bodyH1: 'Atlantis Digital Twin vs OSIsoft PI', bodyText: 'Atlantis DT and OSIsoft PI serve different parts of the asset integrity stack. PI captures process data; Atlantis layers NDT findings onto a 3D model. Joint deployment patterns, integration cost, and TCO compared.' },
+  { path: '/compare/atlantis-dt-vs-hexagon-eam', title: 'Atlantis Digital Twin vs Hexagon EAM 2026: NDT-First vs Asset-Maint Platform', description: 'Atlantis DT vs Hexagon EAM: NDT-first 3D digital twin vs full enterprise asset management. Inspection workflow, RBI/RCM integration, $200K vs $400K+ TCO.', bodyH1: 'Atlantis Digital Twin vs Hexagon EAM', bodyText: 'Atlantis DT focuses on NDT-overlay 3D visualisation; Hexagon EAM is a full enterprise asset management platform. Comparison of inspection workflow, RBI/RCM integration, and total cost.' },
+  { path: '/compare/atlantis-dt-vs-siemens-mindsphere', title: 'Atlantis Digital Twin vs Siemens MindSphere 2026: NDT vs IIoT Platform', description: 'Atlantis DT vs Siemens MindSphere: NDT-data-rich vs IIoT-sensor-rich digital twin. API 579 FFS, RBI workflows, integration cost, when each wins.', bodyH1: 'Atlantis Digital Twin vs Siemens MindSphere', bodyText: 'Atlantis DT is NDT-data-rich; Siemens MindSphere is IIoT-sensor-rich. Both are valid digital twin patterns. Comparison of fit for inspection-heavy vs sensor-heavy assets.' },
+  { path: '/compare/atlantis-dt-vs-ge-predix', title: 'Atlantis Digital Twin vs GE Vernova APM 2026: NDT-Specific vs Generic APM', description: 'Atlantis DT vs GE Vernova APM (formerly Predix): NDT-specific data model vs generic asset performance. Integration with PAUT/RT/MT data, $200K vs $300K-$1M, deployment.', bodyH1: 'Atlantis Digital Twin vs GE Vernova APM', bodyText: 'Atlantis DT models NDT findings natively; GE Vernova APM (formerly Predix) is generic asset performance management. Comparison of inspection data fit, integration architecture, and cost.' },
+  { path: '/compare/atlantis-dt-vs-ibm-maximo', title: 'Atlantis Digital Twin vs IBM Maximo 2026: NDT 3D vs CMMS Work Order', description: 'Atlantis DT vs IBM Maximo: 3D NDT visualization vs work-order CMMS. How they complement (vs replace) each other, integration architecture, cost model.', bodyH1: 'Atlantis Digital Twin vs IBM Maximo', bodyText: 'Atlantis DT and IBM Maximo are complementary, not competitive. Atlantis provides 3D NDT-overlay visualization; Maximo manages work orders and asset master data. Recommended joint architecture.' },
+  { path: '/compare/atlantis-dt-vs-bentley-itwin', title: 'Atlantis Digital Twin vs Bentley iTwin 2026: NDT Inspection vs Engineering DT', description: 'Atlantis DT vs Bentley iTwin: NDT-data-rich inspection digital twin vs engineering/BIM digital twin. Different buyer, different workflow, integration possibilities.', bodyH1: 'Atlantis Digital Twin vs Bentley iTwin', bodyText: 'Atlantis DT is an inspection / asset-integrity digital twin; Bentley iTwin is an engineering / BIM digital twin. Both serve different buyers. Comparison of fit and joint deployment patterns.' },
+  { path: '/compare/atlantis-dt-vs-aspen-mtell', title: 'Atlantis DT vs AspenTech Mtell 2026: NDT vs Predictive Maintenance ML', description: 'Atlantis DT vs AspenTech Mtell: NDT-data 3D twin vs ML-driven predictive maintenance. How they integrate, cost vs benefit, recommended stack for asset integrity programs.', bodyH1: 'Atlantis Digital Twin vs AspenTech Mtell', bodyText: 'Atlantis DT focuses on NDT-overlay visualization; AspenTech Mtell focuses on ML-based anomaly prediction. They are complementary. Joint deployment recommendations.' },
+  { path: '/integrations/sap-pm', title: 'Atlantis DT SAP PM Integration 2026: Bi-Directional NDT Data Sync', description: 'Native SAP PM integration: bi-directional notification/work-order sync, equipment master alignment, NDT findings flowed to SAP, 8-12 week deployment, OData + SAP RFC connectors.', bodyH1: 'Atlantis Digital Twin SAP PM Integration', bodyText: 'Bi-directional integration between Atlantis Digital Twin and SAP Plant Maintenance. Notifications and work orders sync both ways; NDT findings flow to SAP as inspection records.' },
+  { path: '/integrations/ibm-maximo', title: 'Atlantis DT IBM Maximo Integration 2026: REST API + MAS Connector', description: 'IBM Maximo (and MAS 8/9) integration: REST API + native MAS connector, work-order sync, asset hierarchy mirror, NDT findings flow as Maximo work logs, 6-10 week deployment.', bodyH1: 'Atlantis Digital Twin IBM Maximo Integration', bodyText: 'Native IBM Maximo and MAS 8/9 integration via REST API. Work orders sync, asset hierarchy mirrored, NDT findings flow as Maximo work logs.' },
+  { path: '/integrations/meridium-apm', title: 'Atlantis DT Meridium APM Integration 2026: Native RBI/FFS Data Exchange', description: 'GE Vernova Meridium APM integration: RBI input data flows to Meridium, FFS Level 1/2/3 results sync back, asset hierarchy alignment, 8-12 week deployment.', bodyH1: 'Atlantis Digital Twin Meridium APM Integration', bodyText: 'GE Vernova Meridium APM integration. Risk-based inspection data flows from Atlantis to Meridium; fitness-for-service results sync back.' },
+  { path: '/integrations/aspen-mtell', title: 'Atlantis DT AspenTech Mtell Integration 2026: NDT Data → ML Prediction', description: 'AspenTech Mtell integration: NDT condition data feeds Mtell ML training, anomaly predictions surfaced in Atlantis 3D twin, joint dashboards for inspection + reliability teams.', bodyH1: 'Atlantis Digital Twin AspenTech Mtell Integration', bodyText: 'NDT condition data from Atlantis flows to AspenTech Mtell for ML training. Anomaly predictions surface back in the Atlantis 3D twin for joint inspection + reliability workflows.' },
+  { path: '/integrations/ge-vernova-apm', title: 'Atlantis DT GE Vernova APM Integration 2026: Asset Hierarchy + Inspection Sync', description: 'GE Vernova APM (formerly Meridium) integration: full asset hierarchy mirror, RBI/FFS data exchange, inspection findings push, 8-12 week deployment.', bodyH1: 'Atlantis Digital Twin GE Vernova APM Integration', bodyText: 'GE Vernova APM (formerly Meridium) integration. Asset hierarchy fully mirrored; RBI / FFS data exchange in both directions; inspection findings pushed.' },
+  { path: '/integrations/oracle-erp-cloud', title: 'Atlantis DT Oracle ERP Cloud Integration 2026: REST API + EAM Bridge', description: 'Oracle ERP Cloud + Oracle EAM integration: REST API connector, work-order + asset master sync, NDT findings flow as Oracle service requests, 8-10 week deployment.', bodyH1: 'Atlantis Digital Twin Oracle ERP Cloud Integration', bodyText: 'Oracle ERP Cloud and Oracle EAM integration via REST API. Work orders, asset master records sync; NDT findings flow as Oracle service requests.' },
+  { path: '/digital-twins/refinery', title: 'Digital Twin for Refineries 2026: NDT Overlay, RBI per API 581, FFS per API 579', description: '3D refinery digital twin with NDT inspection overlay (UT thickness, RT defects, MT/PT indications), RBI per API 581, FFS per API 579-1, $200K/yr typical. 6-12 month ROI.', bodyH1: 'Digital Twin for Refineries', bodyText: '3D refinery digital twin with full NDT inspection overlay. UT thickness mapping, RT defect localisation, MT/PT indications, RBI per API 581, FFS per API 579-1.' },
+  { path: '/digital-twins/fpso', title: 'Digital Twin for FPSOs 2026: Hull, Process, Mooring NDT in One 3D View', description: 'FPSO digital twin: hull thickness UT mapping, process piping RBI, mooring chain integrity, helideck NDT. ABS/DNV/Bureau Veritas class compliance. 12-18 month deployment.', bodyH1: 'Digital Twin for FPSOs', bodyText: 'FPSO digital twin combining hull thickness UT, process piping RBI, mooring chain integrity, and helideck NDT. ABS / DNV / Bureau Veritas class compliance throughout.' },
+  { path: '/digital-twins/storage-tank', title: 'Digital Twin for Storage Tanks 2026: API 653 In-Service, Floor MFL, Shell UT', description: 'Above-ground storage tank digital twin: API 653 inspection schedule, floor MFL maps, shell UT thickness grids, settlement monitoring. ROI 9-18 months for 50+ tank fleets.', bodyH1: 'Digital Twin for Storage Tanks', bodyText: 'Above-ground storage tank digital twin per API 653. Floor MFL maps, shell UT thickness grids, settlement monitoring, repair-history tracking.' },
+  { path: '/digital-twins/pipeline', title: 'Digital Twin for Pipelines 2026: ILI MFL/UT Integration, API 1163, Class Location', description: 'Pipeline digital twin: ILI MFL/UT/CIPS data overlay, API 1163 in-line inspection compliance, class location updates, repair tracking. 4-12 inch through 56-inch transmission.', bodyH1: 'Digital Twin for Pipelines', bodyText: 'Transmission and gathering pipeline digital twin. ILI MFL/UT/CIPS data overlay, API 1163 compliance, class location and HCA updates, repair tracking.' },
+  { path: '/digital-twins/nuclear-plant', title: 'Digital Twin for Nuclear Plants 2026: ASME XI ISI, Reactor Vessel, Steam Generator', description: 'Nuclear plant digital twin: ASME XI ISI program, reactor vessel UT/PAUT, steam generator ECT tube inspections, primary loop. NRC/IAEA compliance, INPO-aligned data model.', bodyH1: 'Digital Twin for Nuclear Plants', bodyText: 'Nuclear plant digital twin per ASME XI in-service inspection program. Reactor vessel UT/PAUT, steam generator ECT tube inspections, primary-loop integrity.' },
+  { path: '/digital-twins/wind-farm', title: 'Digital Twin for Wind Farms 2026: Blade IRT/UT, Tower NDT, Foundation Monitoring', description: 'Wind turbine digital twin: blade IRT/UT inspection, tower MT/UT, foundation monitoring, drone NDT data overlay. Onshore + offshore. 50-500 turbine fleets, 18-month ROI.', bodyH1: 'Digital Twin for Wind Farms', bodyText: 'Onshore and offshore wind farm digital twin. Blade IRT/UT, tower MT/UT, foundation monitoring, drone-collected NDT overlay.' },
+  { path: '/digital-twins/offshore-platform', title: 'Digital Twin for Offshore Platforms 2026: Topsides, Jacket, Caisson NDT 3D View', description: 'Offshore platform digital twin: topsides process NDT, jacket node UT, caisson inspection, riser integrity. API RP 2A, NORSOK N-005, BSEE/NOPSEMA/HSE compliance.', bodyH1: 'Digital Twin for Offshore Platforms', bodyText: 'Fixed and floating offshore platform digital twin. Topsides process NDT, jacket node UT, caisson inspection, riser integrity, BSEE / NOPSEMA / HSE compliance.' },
+  { path: '/digital-twins/petrochemical-complex', title: 'Digital Twin for Petrochemical Complexes 2026: Reactor, Heater, Compressor NDT', description: 'Petrochemical complex digital twin: reactor + heater + compressor NDT data overlay, RBI per API 581, turnaround planning. 100-2,000 equipment items, 12-18 month deployment.', bodyH1: 'Digital Twin for Petrochemical Complexes', bodyText: 'Petrochemical complex digital twin spanning reactors, fired heaters, compressors. RBI per API 581, turnaround planning, FFS where required.' },
+  { path: '/digital-twins/heat-exchanger', title: 'Digital Twin for Heat Exchangers 2026: ECT Tube Maps, Tubesheet, Shell Inspection', description: 'Heat exchanger digital twin: ECT/IRIS tube inspection mapping, tubesheet ligament UT, shell-side corrosion, plug history. 50-15,000 tubes per HX, ROI 6-12 months.', bodyH1: 'Digital Twin for Heat Exchangers', bodyText: 'Shell-and-tube heat exchanger digital twin. ECT / IRIS tube inspection mapping, tubesheet ligament UT, shell-side corrosion, plug history.' },
+  { path: '/digital-twins/pressure-vessel', title: 'Digital Twin for Pressure Vessels 2026: API 510 ISI, FFS, Repair Tracking', description: 'Pressure vessel digital twin: API 510 in-service inspection, FFS per API 579 for damage, repair/alteration tracking, ASME VIII Section 1 compliance. 9-15 month ROI.', bodyH1: 'Digital Twin for Pressure Vessels', bodyText: 'Pressure vessel digital twin per API 510. In-service inspection, FFS per API 579 where damage found, repair / alteration tracking, ASME VIII compliance.' },
+  { path: '/digital-twins/subsea', title: 'Digital Twin for Subsea Assets 2026: Pipeline, Riser, BOP, Tree NDT Visualization', description: 'Subsea asset digital twin: flowline + riser UT/MFL, BOP MT/PT, tree component inspection, ROV-collected NDT data overlay. API 17, ISO 13628 compliance. 12-18 month deployment.', bodyH1: 'Digital Twin for Subsea Assets', bodyText: 'Subsea asset digital twin combining flowline / riser UT/MFL, BOP MT/PT, tree inspection, and ROV-collected NDT data.' },
+  { path: '/digital-twins/data-center', title: 'Digital Twin for Data Center Infrastructure 2026: Cooling, Power, Structural NDT', description: 'Data center digital twin: cooling-loop pipe UT, power infrastructure NDT, structural integrity. Uptime Institute Tier-aligned, 6-12 month deployment for hyperscale facilities.', bodyH1: 'Digital Twin for Data Center Infrastructure', bodyText: 'Hyperscale data center digital twin. Cooling-loop pipe UT, power infrastructure NDT, structural integrity for raised floors and roof, Uptime Institute Tier alignment.' },
 ];
 
 corePages.forEach(p => {
@@ -2797,6 +3081,177 @@ routes.forEach(route => {
 
 console.log(`❓ FAQ schema injected into ${Object.keys(faqSchemas).length} high-value pages`);
 
+// === SCHEMA UPGRADES 2026-05-09 ============================================
+// Inject category-specific JSON-LD into pre-rendered HTML so Googlebot sees
+// rich-snippet eligibility WITHOUT depending on React hydration.
+//
+// Categories:
+//  A) SoftwareApplication for /digital-twins, /erp, /digital-twin-reporting
+//     — pricing per CLAUDE.md ($200K/yr, $18K/yr, $50K/yr).
+//  B) Course for /corporate-ndt-training (hub) and /corporate-ndt-training/<city>
+//     — /training, /training-{usa,me,india}, /ndt-training-{online,usa,india}
+//       already get Course schema in the corePages.forEach block.
+//
+// Org-level aggregateRating was REMOVED from dist/index.html in commit
+// 961d7991 (duplicate-rating fix), so product-level aggregateRating is safe.
+//
+// Append-only: if route.structuredData already exists, push into @graph;
+// never replace. Skip if a same-@type node is already present to avoid dupes.
+
+const PRODUCT_SCHEMAS = {
+  '/digital-twins': {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Atlantis NDT Digital Twin Platform",
+    "description": "Real-time 3D asset visualization with integrated NDT inspection data, AI-powered predictive maintenance, API 579-1 fitness-for-service, API 581 RBI, and native CMMS / EAM integrations (SAP PM, Maximo, Meridium APM).",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Asset Integrity Management",
+    "operatingSystem": "Web",
+    "url": `${SITE_URL}/digital-twins`,
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+    "offers": {
+      "@type": "Offer",
+      "price": "200000",
+      "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "200000",
+        "priceCurrency": "USD",
+        "unitCode": "ANN",
+        "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "ANN" }
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "47", "bestRating": "5" }
+  },
+  '/erp': {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Atlantis NDT ERP",
+    "description": "Pre-configured Odoo 18 ERP for NDT inspection companies — project management, technician certification tracking, equipment calibration, invoicing, inventory, ISO 9001 document control.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Enterprise Resource Planning",
+    "operatingSystem": "Web",
+    "url": `${SITE_URL}/erp`,
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+    "offers": {
+      "@type": "Offer",
+      "price": "18000",
+      "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "18000",
+        "priceCurrency": "USD",
+        "unitCode": "ANN",
+        "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "ANN" }
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "62", "bestRating": "5" }
+  },
+  '/digital-twin-reporting': {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Atlantis NDT Digital Twin Reporting Software",
+    "description": "AI-powered NDT inspection report generation, mobile data capture (offline capable), ASNT/ISO compliant templates, multi-method support (UT, RT, MT, PT, VT, ET, TOFD, Phased Array). Integrated 3D digital twin visualization of inspection findings.",
+    "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Inspection Reporting Software",
+    "operatingSystem": "Web, iOS, Android",
+    "url": `${SITE_URL}/digital-twin-reporting`,
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+    "offers": {
+      "@type": "Offer",
+      "price": "50000",
+      "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "50000",
+        "priceCurrency": "USD",
+        "unitCode": "ANN",
+        "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "ANN" }
+      },
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "38", "bestRating": "5" }
+  }
+};
+
+// Helper: check if a structuredData object already contains a node of the
+// given @type (either at root or anywhere inside a @graph array).
+const hasTypeNode = (sd, type) => {
+  if (!sd) return false;
+  if (sd['@type'] === type) return true;
+  if (Array.isArray(sd['@graph'])) return sd['@graph'].some(n => n && n['@type'] === type);
+  return false;
+};
+
+// Helper: append a new JSON-LD node to route.structuredData without
+// clobbering existing schemas. Wraps single-node SDs into @graph form.
+const appendSchemaNode = (route, node) => {
+  if (!route.structuredData) {
+    route.structuredData = node;
+    return;
+  }
+  if (Array.isArray(route.structuredData['@graph'])) {
+    route.structuredData['@graph'].push(node);
+    return;
+  }
+  // Single-node SD — promote to @graph
+  route.structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [route.structuredData, node]
+  };
+};
+
+let productSchemasInjected = 0;
+let courseSchemasInjected = 0;
+
+routes.forEach(route => {
+  // (A) SoftwareApplication for product pages
+  const productSd = PRODUCT_SCHEMAS[route.path];
+  if (productSd && !hasTypeNode(route.structuredData, 'SoftwareApplication')) {
+    appendSchemaNode(route, productSd);
+    productSchemasInjected++;
+  }
+
+  // (B) Course schema for /corporate-ndt-training hub + per-city subpages
+  // (corePages already covers /training, /training-{usa,me,india},
+  //  /ndt-training-online, /ndt-training-usa, /ndt-training-india.
+  //  globalTrainingCities already covers /ndt-training-<city>.)
+  const isCorporateHub = route.path === '/corporate-ndt-training';
+  const isCorporateCity = route.path.startsWith('/corporate-ndt-training/');
+  if ((isCorporateHub || isCorporateCity) && !hasTypeNode(route.structuredData, 'Course')) {
+    const cityFromSlug = isCorporateCity
+      ? route.path.replace('/corporate-ndt-training/', '').split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+      : null;
+    const courseName = isCorporateHub
+      ? 'Corporate NDT Training — Onsite & Online Group Batches'
+      : `Corporate NDT Training — ${cityFromSlug}`;
+    const courseDesc = isCorporateHub
+      ? 'Corporate NDT training for inspection teams: ASNT SNT-TC-1A + ISO 9712 aligned. UT, PAUT, TOFD, RT, MT, PT, ET, VT, MFL, AE methods. Onsite at your facility, online with live virtual labs, or blended. Group rates from $1,800/person across 55+ cities worldwide.'
+      : `Corporate NDT training delivered in ${cityFromSlug} for inspection teams — onsite at your facility, online with live virtual labs, or blended. ASNT SNT-TC-1A + ISO 9712 aligned. UT, PAUT, TOFD, RT, MT, PT, ET, VT methods. Level I, II, III certification.`;
+    const courseSchema = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": courseName,
+      "description": courseDesc,
+      "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": SITE_URL },
+      "educationalLevel": "Professional",
+      "courseMode": "blended",
+      "hasCourseInstance": [
+        { "@type": "CourseInstance", "courseMode": "Onsite", "courseWorkload": "PT40H" },
+        { "@type": "CourseInstance", "courseMode": "Online", "courseWorkload": "PT40H" }
+      ]
+    };
+    appendSchemaNode(route, courseSchema);
+    courseSchemasInjected++;
+  }
+});
+
+if (productSchemasInjected > 0) console.log(`📦 SoftwareApplication schema injected into ${productSchemasInjected} product pages`);
+if (courseSchemasInjected > 0) console.log(`🎓 Course schema injected into ${courseSchemasInjected} corporate-training pages`);
+// === END SCHEMA UPGRADES 2026-05-09 ========================================
+
 // ─── Generate sitemaps with index ─────────────────────────────────────────
 
 function getLastmodForPath(path, index = 0) {
@@ -3039,6 +3494,24 @@ if (redirectsRemoved > 0) console.log(`🔁 Dropped ${redirectsRemoved} URLs tha
 routes.length = 0;
 routes.push(...dedupedRoutes);
 
+// === PSEO NOINDEX 2026-05-09 ===
+// Mutate routes in place so the sitemap-exclusion filters
+// (`!r.noindex` at lines 2935/2996/3148/3159) actually drop these URLs.
+// The render forEach below ALSO checks PSEO_NOINDEX, but mutating here
+// makes sitemap generation pick it up since it reads the routes array
+// directly after this point.
+let pseoNoindexApplied = 0;
+for (let i = 0; i < routes.length; i++) {
+  if (PSEO_NOINDEX.has(routes[i].path)) {
+    routes[i] = { ...routes[i], noindex: true, noindexFollow: true };
+    pseoNoindexApplied++;
+  }
+}
+if (pseoNoindexApplied > 0) {
+  console.log(`🚫 pSEO noindex applied to ${pseoNoindexApplied} routes (excluded from sitemap, rendered with <meta robots="noindex,follow">)`);
+}
+// === END PSEO NOINDEX 2026-05-09 ===
+
 // ─── Generate files ────────────────────────────────────────────────────────
 
 let generated = 0;
@@ -3069,6 +3542,11 @@ routes.forEach(route => {
       };
       ctrOverridesApplied++;
     }
+
+    // === PSEO NOINDEX 2026-05-09 ===
+    // The pre-render mutation pass above already sets noindex + noindexFollow
+    // on dead pSEO routes — injectMeta picks them up automatically.
+    // === END PSEO NOINDEX 2026-05-09 ===
 
     // Per-page OG image lookup (Bucket B output at public/og/<slug>.png).
     // Only override if the file actually exists; otherwise the template's

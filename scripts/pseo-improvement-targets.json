@@ -1,0 +1,2783 @@
+{
+  "generated": "2026-05-09T13:28:13.082Z",
+  "description": "pSEO routes with impressions > 0 but clicks = 0 over 90d. CTR rewrites needed.",
+  "count": 347,
+  "targets": [
+    {
+      "path": "/services/mfl-inspection-italy",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 88,
+      "position": 40.81818181818182,
+      "currentTitle": "Magnetic Flux Leakage Testing in Italy | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-saudi-arabia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 83,
+      "position": 62.7710843373494,
+      "currentTitle": "Magnetic Flux Leakage Testing in Saudi Arabia | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-abu-dhabi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 56,
+      "position": 5.982142857142857,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Abu Dhabi | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-miami",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 55,
+      "position": 4.818181818181818,
+      "currentTitle": "Oil & Gas NDT Services in Miami | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-abu-dhabi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 53,
+      "position": 70.52830188679245,
+      "currentTitle": "Magnetic Flux Leakage Testing in Abu Dhabi | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-philadelphia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 51,
+      "position": 16.098039215686274,
+      "currentTitle": "Acoustic Emission Testing in Philadelphia | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/cwi-training-washington-dc",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 48,
+      "position": 42.958333333333336,
+      "currentTitle": "CWI Certification Training in Washington DC | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-oman",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 45,
+      "position": 17.288888888888888,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Oman | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-colombia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 44,
+      "position": 34.65909090909091,
+      "currentTitle": "Magnetic Flux Leakage Testing in Colombia | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-sydney",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 42,
+      "position": 76.30952380952381,
+      "currentTitle": "Magnetic Flux Leakage Testing in Sydney | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-melbourne",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 41,
+      "position": 57.048780487804876,
+      "currentTitle": "Magnetic Flux Leakage Testing in Melbourne | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-phoenix",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 40,
+      "position": 45.875,
+      "currentTitle": "Magnetic Flux Leakage Testing in Phoenix | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-abu-dhabi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 40,
+      "position": 31.7,
+      "currentTitle": "Corrosion Inspection Services in Abu Dhabi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-cincinnati",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 36,
+      "position": 57.5,
+      "currentTitle": "Marine & Offshore NDT Services in Cincinnati | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-washington-dc",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 30,
+      "position": 46.8,
+      "currentTitle": "Oil & Gas NDT Services in Washington DC | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-oman",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 29,
+      "position": 10.482758620689655,
+      "currentTitle": "TOFD Inspection in Oman | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-abu-dhabi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 29,
+      "position": 33.41379310344828,
+      "currentTitle": "Pipeline Inspection Services in Abu Dhabi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/asnt-level-iii-training-atlanta",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 27,
+      "position": 7.888888888888889,
+      "currentTitle": "ASNT Level III Training in Atlanta | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-dallas",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 26,
+      "position": 38.73076923076923,
+      "currentTitle": "Magnetic Flux Leakage Testing in Dallas | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-st-louis",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 25,
+      "position": 56.2,
+      "currentTitle": "Magnetic Flux Leakage Testing in St. Louis | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/cwi-training-san-diego",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 25,
+      "position": 26.04,
+      "currentTitle": "CWI Certification Training in San Diego | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-pittsburgh",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 24,
+      "position": 12.5,
+      "currentTitle": "Acoustic Emission Testing in Pittsburgh | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-denver",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 24,
+      "position": 53.5,
+      "currentTitle": "Magnetic Flux Leakage Testing in Denver | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-seattle",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 24,
+      "position": 22.75,
+      "currentTitle": "Magnetic Flux Leakage Testing in Seattle | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-tampa",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 24,
+      "position": 8.708333333333332,
+      "currentTitle": "Weld Inspection Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-dubai",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 24,
+      "position": 37.416666666666664,
+      "currentTitle": "Pipeline Inspection Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-oman",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 23,
+      "position": 17.217391304347824,
+      "currentTitle": "Guided Wave Testing in Oman | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-japan",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 23,
+      "position": 21.17391304347826,
+      "currentTitle": "Magnetic Flux Leakage Testing in Japan | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-boston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 22,
+      "position": 34.54545454545455,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Boston | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-los-angeles",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 22,
+      "position": 38.13636363636363,
+      "currentTitle": "Guided Wave Testing in Los Angeles | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-los-angeles",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 21,
+      "position": 14.761904761904763,
+      "currentTitle": "Pipeline Inspection Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-houston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 20,
+      "position": 22.15,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Houston | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-san-francisco",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 20,
+      "position": 51.5,
+      "currentTitle": "Magnetic Flux Leakage Testing in San Francisco | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-baton-rouge",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 20,
+      "position": 70.35,
+      "currentTitle": "Magnetic Flux Leakage Testing in Baton Rouge | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-philadelphia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 19,
+      "position": 45.05263157894737,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Philadelphia | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-rotterdam",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 19,
+      "position": 15.263157894736842,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Rotterdam | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-los-angeles",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 19,
+      "position": 61,
+      "currentTitle": "Oil & Gas NDT Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-new-york",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 19,
+      "position": 13.368421052631579,
+      "currentTitle": "Weld Inspection Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-phoenix",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 19,
+      "position": 8.105263157894736,
+      "currentTitle": "Tank Inspection Services in Phoenix | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-denver",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 18,
+      "position": 4.888888888888889,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Denver | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-qatar",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 18,
+      "position": 20.5,
+      "currentTitle": "TOFD Inspection in Qatar | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/cwi-training-atlanta",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 18,
+      "position": 47.27777777777778,
+      "currentTitle": "CWI Certification Training in Atlanta | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-south-korea",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 17,
+      "position": 14.941176470588236,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in South Korea | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-denver",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 16,
+      "position": 13.75,
+      "currentTitle": "Tank Inspection Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-510-training-san-diego",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 16,
+      "position": 11.625,
+      "currentTitle": "API 510 Certification Training in San Diego | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-dammam",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 15,
+      "position": 29.733333333333334,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Dammam | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-qatar",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 15,
+      "position": 17.733333333333334,
+      "currentTitle": "Corrosion Inspection Services in Qatar | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/asnt-level-iii-training-portland",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 15,
+      "position": 8.733333333333334,
+      "currentTitle": "ASNT Level III Training in Portland | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-phoenix",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 14,
+      "position": 15.714285714285714,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Phoenix | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-tampa",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 14,
+      "position": 19.142857142857142,
+      "currentTitle": "Guided Wave Testing in Tampa | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-los-angeles",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 14,
+      "position": 52.357142857142854,
+      "currentTitle": "Magnetic Flux Leakage Testing in Los Angeles | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-indianapolis",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 14,
+      "position": 52.142857142857146,
+      "currentTitle": "Oil & Gas NDT Services in Indianapolis | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-new-york",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 14,
+      "position": 21.214285714285715,
+      "currentTitle": "Aerospace NDT Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/power-generation-ndt-houston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 14,
+      "position": 22.142857142857142,
+      "currentTitle": "Power Generation NDT Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-philadelphia",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 14,
+      "position": 49.285714285714285,
+      "currentTitle": "Corrosion Inspection Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-delhi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 12,
+      "position": 17.25,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Delhi | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-singapore",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 12,
+      "position": 14.333333333333334,
+      "currentTitle": "Guided Wave Testing in Singapore | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-new-orleans",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 12,
+      "position": 49.833333333333336,
+      "currentTitle": "Magnetic Flux Leakage Testing in New Orleans | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-new-york",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 12,
+      "position": 9,
+      "currentTitle": "Oil & Gas NDT Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-chicago",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 12,
+      "position": 35.083333333333336,
+      "currentTitle": "Aerospace NDT Services in Chicago | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-atlanta",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 12,
+      "position": 12.583333333333334,
+      "currentTitle": "Tank Inspection Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-houston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 12,
+      "position": 7.75,
+      "currentTitle": "Tank Inspection Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-spain",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 11,
+      "position": 27.545454545454547,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Spain | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-singapore",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 11,
+      "position": 21.545454545454547,
+      "currentTitle": "TOFD Inspection in Singapore | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-detroit",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 11,
+      "position": 42.36363636363637,
+      "currentTitle": "Acoustic Emission Testing in Detroit | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-thailand",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 11,
+      "position": 6.363636363636363,
+      "currentTitle": "Acoustic Emission Testing in Thailand | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-dubai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 11,
+      "position": 26.545454545454547,
+      "currentTitle": "Magnetic Flux Leakage Testing in Dubai | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/pipeline-ndt-dubai",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 11,
+      "position": 9.818181818181818,
+      "currentTitle": "Pipeline NDT Inspection in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-boston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 11,
+      "position": 38.45454545454545,
+      "currentTitle": "Marine & Offshore NDT Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-houston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 11,
+      "position": 13.454545454545455,
+      "currentTitle": "Weld Inspection Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-baton-rouge",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 11,
+      "position": 51.90909090909091,
+      "currentTitle": "Weld Inspection Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-abu-dhabi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 11,
+      "position": 11.363636363636363,
+      "currentTitle": "Weld Inspection Services in Abu Dhabi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-new-york",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 11,
+      "position": 62.18181818181818,
+      "currentTitle": "Pipeline Inspection Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-los-angeles",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 11,
+      "position": 66.72727272727273,
+      "currentTitle": "Corrosion Inspection Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/asnt-level-iii-training-boston",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 11,
+      "position": 15.454545454545455,
+      "currentTitle": "ASNT Level III Training in Boston | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-pittsburgh",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 10,
+      "position": 20.5,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Pittsburgh | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-houston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 10,
+      "position": 46.3,
+      "currentTitle": "Acoustic Emission Testing in Houston | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-tampa",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 10,
+      "position": 55.3,
+      "currentTitle": "Magnetic Flux Leakage Testing in Tampa | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-tulsa",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 10,
+      "position": 46.1,
+      "currentTitle": "Magnetic Flux Leakage Testing in Tulsa | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-cleveland",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 10,
+      "position": 12.8,
+      "currentTitle": "Oil & Gas NDT Services in Cleveland | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-detroit",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 10,
+      "position": 12.8,
+      "currentTitle": "Tank Inspection Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-baton-rouge",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 10,
+      "position": 6.6,
+      "currentTitle": "Tank Inspection Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-new-york",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 10,
+      "position": 24.4,
+      "currentTitle": "Corrosion Inspection Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/asnt-level-iii-training-washington-dc",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 10,
+      "position": 18.6,
+      "currentTitle": "ASNT Level III Training in Washington DC | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-miami",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 9,
+      "position": 13.333333333333334,
+      "currentTitle": "Acoustic Emission Testing in Miami | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-chennai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 9,
+      "position": 6.444444444444445,
+      "currentTitle": "Magnetic Flux Leakage Testing in Chennai | MFL Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-dubai",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 9,
+      "position": 8.555555555555555,
+      "currentTitle": "Aerospace NDT Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-chicago",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 9,
+      "position": 22.77777777777778,
+      "currentTitle": "Weld Inspection Services in Chicago | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-phoenix",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 9,
+      "position": 11.333333333333334,
+      "currentTitle": "Weld Inspection Services in Phoenix | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-corpus-christi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 9,
+      "position": 17.444444444444443,
+      "currentTitle": "Weld Inspection Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-tampa",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 9,
+      "position": 12,
+      "currentTitle": "Tank Inspection Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-chicago",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 9,
+      "position": 50.77777777777778,
+      "currentTitle": "Pipeline Inspection Services in Chicago | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-dallas",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 9,
+      "position": 3.2222222222222223,
+      "currentTitle": "Pipeline Inspection Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-510-training-new-york",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 9,
+      "position": 27.11111111111111,
+      "currentTitle": "API 510 Certification Training in New York | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/asnt-level-iii-training-miami",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 9,
+      "position": 5.333333333333333,
+      "currentTitle": "ASNT Level III Training in Miami | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-melbourne",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 8,
+      "position": 7,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Melbourne | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-abu-dhabi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 8,
+      "position": 5.875,
+      "currentTitle": "TOFD Inspection in Abu Dhabi | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-phoenix",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 8,
+      "position": 32,
+      "currentTitle": "Guided Wave Testing in Phoenix | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-dubai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 8,
+      "position": 19.75,
+      "currentTitle": "Acoustic Emission Testing in Dubai | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-tampa",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 8,
+      "position": 18.75,
+      "currentTitle": "Aerospace NDT Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-houston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 8,
+      "position": 4.375,
+      "currentTitle": "Aerospace NDT Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-philadelphia",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 8,
+      "position": 51.75,
+      "currentTitle": "Aerospace NDT Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-miami",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 6,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Miami | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-corpus-christi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 30.857142857142858,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Corpus Christi | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-atlanta",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 20.285714285714285,
+      "currentTitle": "TOFD Inspection in Atlanta | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-denver",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 63.857142857142854,
+      "currentTitle": "TOFD Inspection in Denver | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-st-louis",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 17.571428571428573,
+      "currentTitle": "Guided Wave Testing in St. Louis | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-cincinnati",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 9.857142857142858,
+      "currentTitle": "Acoustic Emission Testing in Cincinnati | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-detroit",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 7,
+      "position": 62.285714285714285,
+      "currentTitle": "Magnetic Flux Leakage Testing in Detroit | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-san-francisco",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 7,
+      "position": 36,
+      "currentTitle": "Aerospace NDT Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-tampa",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 7,
+      "position": 15,
+      "currentTitle": "Petrochemical NDT Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-denver",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 7,
+      "position": 32.85714285714286,
+      "currentTitle": "Petrochemical NDT Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-chicago",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 7,
+      "position": 7.714285714285714,
+      "currentTitle": "Tank Inspection Services in Chicago | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-seattle",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 7,
+      "position": 37.857142857142854,
+      "currentTitle": "Tank Inspection Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-denver",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 7,
+      "position": 38,
+      "currentTitle": "Corrosion Inspection Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/cwi-training-baltimore",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 7,
+      "position": 5.142857142857143,
+      "currentTitle": "CWI Certification Training in Baltimore | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-chicago",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 6,
+      "position": 3.8333333333333335,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Chicago | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-dallas",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 6,
+      "position": 18,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Dallas | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-japan",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 6,
+      "position": 12.166666666666666,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Japan | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-italy",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 6,
+      "position": 15.333333333333334,
+      "currentTitle": "Guided Wave Testing in Italy | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-atlanta",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 6,
+      "position": 47.5,
+      "currentTitle": "Magnetic Flux Leakage Testing in Atlanta | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-miami",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 6,
+      "position": 31.333333333333332,
+      "currentTitle": "Magnetic Flux Leakage Testing in Miami | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-charlotte",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 6,
+      "position": 39,
+      "currentTitle": "Aerospace NDT Services in Charlotte | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/power-generation-ndt-salt-lake-city",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 6,
+      "position": 10.333333333333334,
+      "currentTitle": "Power Generation NDT Services in Salt Lake City | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-houston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 6,
+      "position": 39.166666666666664,
+      "currentTitle": "Marine & Offshore NDT Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-seattle",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 6,
+      "position": 4.333333333333334,
+      "currentTitle": "Petrochemical NDT Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-detroit",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 6,
+      "position": 30,
+      "currentTitle": "Corrosion Inspection Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/api-510-training-boston",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 6,
+      "position": 33.5,
+      "currentTitle": "API 510 Certification Training in Boston | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/api-570-training-new-york",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 6,
+      "position": 22.166666666666668,
+      "currentTitle": "API 570 Certification Training in New York | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/cwi-training-tampa",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 6,
+      "position": 10.666666666666666,
+      "currentTitle": "CWI Certification Training in Tampa | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-baton-rouge",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 1.8,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Baton Rouge | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-ahmedabad",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 7.2,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Ahmedabad | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-trinidad",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 4.4,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Trinidad | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-new-york",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 75.6,
+      "currentTitle": "TOFD Inspection in New York | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-minneapolis",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 35.2,
+      "currentTitle": "TOFD Inspection in Minneapolis | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-phoenix",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 33.8,
+      "currentTitle": "TOFD Inspection in Phoenix | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-new-york",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 22.6,
+      "currentTitle": "Guided Wave Testing in New York | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-cincinnati",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 13.8,
+      "currentTitle": "Guided Wave Testing in Cincinnati | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-dubai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 4.8,
+      "currentTitle": "Guided Wave Testing in Dubai | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-argentina",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 4.2,
+      "currentTitle": "Acoustic Emission Testing in Argentina | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-new-york",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 5,
+      "position": 47.2,
+      "currentTitle": "Magnetic Flux Leakage Testing in New York | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-dubai",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 5,
+      "position": 8.4,
+      "currentTitle": "Oil & Gas NDT Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-atlanta",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 5,
+      "position": 29.8,
+      "currentTitle": "Aerospace NDT Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-detroit",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 5,
+      "position": 27.8,
+      "currentTitle": "Aerospace NDT Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/pipeline-ndt-corpus-christi",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 5,
+      "position": 7.2,
+      "currentTitle": "Pipeline NDT Inspection in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-atlanta",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 5,
+      "position": 34,
+      "currentTitle": "Marine & Offshore NDT Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-corpus-christi",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 5,
+      "position": 6.6,
+      "currentTitle": "Petrochemical NDT Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-yanbu",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 5,
+      "position": 2.2,
+      "currentTitle": "Weld Inspection Services in Yanbu | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-tampa",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 5,
+      "position": 4,
+      "currentTitle": "Pipeline Inspection Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-510-training-miami",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 5,
+      "position": 7.2,
+      "currentTitle": "API 510 Certification Training in Miami | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-510-training-cleveland",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 5,
+      "position": 28.6,
+      "currentTitle": "API 510 Certification Training in Cleveland | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/asnt-level-iii-training-new-york",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 5,
+      "position": 60.8,
+      "currentTitle": "ASNT Level III Training in New York | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-detroit",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 9,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Detroit | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-miami",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 48,
+      "currentTitle": "TOFD Inspection in Miami | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-los-angeles",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 50.75,
+      "currentTitle": "TOFD Inspection in Los Angeles | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-seattle",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 53.25,
+      "currentTitle": "TOFD Inspection in Seattle | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-edmonton",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 33.5,
+      "currentTitle": "TOFD Inspection in Edmonton | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-beijing",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 28.5,
+      "currentTitle": "TOFD Inspection in Beijing | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-houston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 26.5,
+      "currentTitle": "Guided Wave Testing in Houston | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-abu-dhabi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 5,
+      "currentTitle": "Guided Wave Testing in Abu Dhabi | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-colombia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 1.75,
+      "currentTitle": "Guided Wave Testing in Colombia | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-los-angeles",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 36,
+      "currentTitle": "Acoustic Emission Testing in Los Angeles | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-new-orleans",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 4,
+      "currentTitle": "Acoustic Emission Testing in New Orleans | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-abu-dhabi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 12.5,
+      "currentTitle": "Acoustic Emission Testing in Abu Dhabi | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-pittsburgh",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 4,
+      "position": 28.75,
+      "currentTitle": "Magnetic Flux Leakage Testing in Pittsburgh | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-denver",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 4,
+      "position": 7.5,
+      "currentTitle": "Oil & Gas NDT Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-baton-rouge",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 4,
+      "position": 21.75,
+      "currentTitle": "Oil & Gas NDT Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-miami",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 4,
+      "position": 19.25,
+      "currentTitle": "Aerospace NDT Services in Miami | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-dubai",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 4,
+      "position": 28,
+      "currentTitle": "Marine & Offshore NDT Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-atlanta",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 75.5,
+      "currentTitle": "Weld Inspection Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-san-francisco",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 20,
+      "currentTitle": "Weld Inspection Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-miami",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 8.25,
+      "currentTitle": "Tank Inspection Services in Miami | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-new-orleans",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 6.25,
+      "currentTitle": "Tank Inspection Services in New Orleans | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-corpus-christi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 5.5,
+      "currentTitle": "Tank Inspection Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-dubai",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 4.25,
+      "currentTitle": "Tank Inspection Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-atlanta",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 81.75,
+      "currentTitle": "Pipeline Inspection Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-atlanta",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 26.75,
+      "currentTitle": "Corrosion Inspection Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-houston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 31.75,
+      "currentTitle": "Corrosion Inspection Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-baton-rouge",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 51.75,
+      "currentTitle": "Corrosion Inspection Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-chennai",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 4,
+      "position": 69,
+      "currentTitle": "Corrosion Inspection Services in Chennai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/api-510-training-tampa",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 4,
+      "position": 10.25,
+      "currentTitle": "API 510 Certification Training in Tampa | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-510-training-salt-lake-city",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 4,
+      "position": 10,
+      "currentTitle": "API 510 Certification Training in Salt Lake City | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-653-training-atlanta",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 4,
+      "position": 25.25,
+      "currentTitle": "API 653 Certification Training in Atlanta | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/api-653-training-tampa",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 4,
+      "position": 22.75,
+      "currentTitle": "API 653 Certification Training in Tampa | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-perth",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 4.666666666666666,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Perth | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-dallas",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 79.33333333333333,
+      "currentTitle": "TOFD Inspection in Dallas | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-detroit",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 48,
+      "currentTitle": "TOFD Inspection in Detroit | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-dubai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 8.666666666666668,
+      "currentTitle": "TOFD Inspection in Dubai | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-chennai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 12.333333333333334,
+      "currentTitle": "TOFD Inspection in Chennai | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-lima",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 29.666666666666668,
+      "currentTitle": "TOFD Inspection in Lima | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-denver",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 8.333333333333332,
+      "currentTitle": "Guided Wave Testing in Denver | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-philadelphia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 11.333333333333334,
+      "currentTitle": "Guided Wave Testing in Philadelphia | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-atlanta",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 32.66666666666667,
+      "currentTitle": "Acoustic Emission Testing in Atlanta | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-denver",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 19,
+      "currentTitle": "Acoustic Emission Testing in Denver | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-chicago",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 28.333333333333332,
+      "currentTitle": "Acoustic Emission Testing in Chicago | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-dallas",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 2,
+      "currentTitle": "Acoustic Emission Testing in Dallas | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-san-francisco",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 25.666666666666668,
+      "currentTitle": "Acoustic Emission Testing in San Francisco | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-spain",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 5.333333333333333,
+      "currentTitle": "Acoustic Emission Testing in Spain | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-nigeria",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 3,
+      "position": 6.666666666666667,
+      "currentTitle": "Acoustic Emission Testing in Nigeria | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-atlanta",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 19.666666666666668,
+      "currentTitle": "Oil & Gas NDT Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-tampa",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 10.333333333333334,
+      "currentTitle": "Oil & Gas NDT Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-seattle",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 4.333333333333334,
+      "currentTitle": "Oil & Gas NDT Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-san-francisco",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 4.333333333333334,
+      "currentTitle": "Oil & Gas NDT Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-corpus-christi",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 3.3333333333333335,
+      "currentTitle": "Oil & Gas NDT Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-indianapolis",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 81,
+      "currentTitle": "Aerospace NDT Services in Indianapolis | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-denver",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 33.333333333333336,
+      "currentTitle": "Aerospace NDT Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/aerospace-ndt-seattle",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 5,
+      "currentTitle": "Aerospace NDT Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-phoenix",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 6,
+      "currentTitle": "Aerospace NDT Services in Phoenix | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-cincinnati",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 14.666666666666666,
+      "currentTitle": "Power Generation NDT Services in Cincinnati | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-pittsburgh",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 14,
+      "currentTitle": "Power Generation NDT Services in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-baton-rouge",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 54,
+      "currentTitle": "Power Generation NDT Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/power-generation-ndt-corpus-christi",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 7.333333333333333,
+      "currentTitle": "Power Generation NDT Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-tampa",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 10.666666666666666,
+      "currentTitle": "Pipeline NDT Inspection in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-houston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 6.333333333333333,
+      "currentTitle": "Pipeline NDT Inspection in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-phoenix",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 17.666666666666668,
+      "currentTitle": "Pipeline NDT Inspection in Phoenix | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-tampa",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 11.333333333333334,
+      "currentTitle": "Marine & Offshore NDT Services in Tampa | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-portland",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 31,
+      "currentTitle": "Marine & Offshore NDT Services in Portland | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-seattle",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 24.666666666666668,
+      "currentTitle": "Marine & Offshore NDT Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-phoenix",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 33.666666666666664,
+      "currentTitle": "Marine & Offshore NDT Services in Phoenix | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-san-francisco",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 12.333333333333334,
+      "currentTitle": "Petrochemical NDT Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/construction-ndt-san-francisco",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 3,
+      "position": 4,
+      "currentTitle": "Construction NDT Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-indianapolis",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 60.666666666666664,
+      "currentTitle": "Weld Inspection Services in Indianapolis | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-denver",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 8,
+      "currentTitle": "Weld Inspection Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-seattle",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 3.6666666666666665,
+      "currentTitle": "Weld Inspection Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-dallas",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 4.333333333333334,
+      "currentTitle": "Weld Inspection Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-detroit",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 73,
+      "currentTitle": "Weld Inspection Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-new-york",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 8.666666666666668,
+      "currentTitle": "Tank Inspection Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-jacksonville",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 5.333333333333333,
+      "currentTitle": "Pipeline Inspection Services in Jacksonville | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-denver",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 3.6666666666666665,
+      "currentTitle": "Pipeline Inspection Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-detroit",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 9.666666666666666,
+      "currentTitle": "Pipeline Inspection Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-baton-rouge",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 27.333333333333332,
+      "currentTitle": "Pipeline Inspection Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-corpus-christi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 22.666666666666668,
+      "currentTitle": "Pipeline Inspection Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-st-louis",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 29,
+      "currentTitle": "Corrosion Inspection Services in St. Louis | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-new-orleans",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 23.666666666666668,
+      "currentTitle": "Corrosion Inspection Services in New Orleans | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-dallas",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 4.666666666666666,
+      "currentTitle": "Corrosion Inspection Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-corpus-christi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 28.333333333333332,
+      "currentTitle": "Corrosion Inspection Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-dubai",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 3,
+      "position": 12.333333333333334,
+      "currentTitle": "Corrosion Inspection Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-570-training-atlanta",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 3,
+      "position": 7,
+      "currentTitle": "API 570 Certification Training in Atlanta | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/cwi-training-miami",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 3,
+      "position": 35.666666666666664,
+      "currentTitle": "CWI Certification Training in Miami | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/paut-inspection-new-orleans",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 12.5,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in New Orleans | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-seattle",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 8,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Seattle | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/paut-inspection-brazil",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 51.5,
+      "currentTitle": "Phased Array UT (PAUT) Inspection in Brazil | PAUT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-new-orleans",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 19,
+      "currentTitle": "TOFD Inspection in New Orleans | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-baton-rouge",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 48.5,
+      "currentTitle": "TOFD Inspection in Baton Rouge | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-trinidad",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 11.5,
+      "currentTitle": "TOFD Inspection in Trinidad | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-boston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 7,
+      "currentTitle": "Guided Wave Testing in Boston | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-atlanta",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 26,
+      "currentTitle": "Guided Wave Testing in Atlanta | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-new-orleans",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 9,
+      "currentTitle": "Guided Wave Testing in New Orleans | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-baton-rouge",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 72.5,
+      "currentTitle": "Guided Wave Testing in Baton Rouge | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-sydney",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 8.5,
+      "currentTitle": "Guided Wave Testing in Sydney | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-new-york",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 5,
+      "currentTitle": "Acoustic Emission Testing in New York | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-phoenix",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 9,
+      "currentTitle": "Acoustic Emission Testing in Phoenix | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-chennai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 4.5,
+      "currentTitle": "Acoustic Emission Testing in Chennai | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-jamnagar",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 1,
+      "currentTitle": "Acoustic Emission Testing in Jamnagar | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/mfl-inspection-philadelphia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 79.5,
+      "currentTitle": "Magnetic Flux Leakage Testing in Philadelphia | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/mfl-inspection-corpus-christi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 2,
+      "position": 21,
+      "currentTitle": "Magnetic Flux Leakage Testing in Corpus Christi | MFL Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-detroit",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 3,
+      "currentTitle": "Oil & Gas NDT Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-los-angeles",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 3.5,
+      "currentTitle": "Aerospace NDT Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-boston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 19,
+      "currentTitle": "Power Generation NDT Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-nashville",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 6.5,
+      "currentTitle": "Power Generation NDT Services in Nashville | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-st-louis",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 35,
+      "currentTitle": "Power Generation NDT Services in St. Louis | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/pipeline-ndt-jacksonville",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 16.5,
+      "currentTitle": "Pipeline NDT Inspection in Jacksonville | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-pittsburgh",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 27,
+      "currentTitle": "Pipeline NDT Inspection in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-charlotte",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 47,
+      "currentTitle": "Marine & Offshore NDT Services in Charlotte | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-los-angeles",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 30.5,
+      "currentTitle": "Marine & Offshore NDT Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-philadelphia",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 27,
+      "currentTitle": "Marine & Offshore NDT Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-san-francisco",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 9.5,
+      "currentTitle": "Marine & Offshore NDT Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-detroit",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 31,
+      "currentTitle": "Marine & Offshore NDT Services in Detroit | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-baton-rouge",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 30.5,
+      "currentTitle": "Marine & Offshore NDT Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-dallas",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 1.5,
+      "currentTitle": "Petrochemical NDT Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/construction-ndt-salt-lake-city",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 5.5,
+      "currentTitle": "Construction NDT Services in Salt Lake City | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/manufacturing-ndt-houston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 2,
+      "position": 4,
+      "currentTitle": "Manufacturing NDT Services in Houston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-boston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 31.5,
+      "currentTitle": "Weld Inspection Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-philadelphia",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 81,
+      "currentTitle": "Weld Inspection Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-pittsburgh",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 9,
+      "currentTitle": "Weld Inspection Services in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-chennai",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 3.5,
+      "currentTitle": "Weld Inspection Services in Chennai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-los-angeles",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 6,
+      "currentTitle": "Tank Inspection Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-dallas",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 47,
+      "currentTitle": "Tank Inspection Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-chennai",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 4,
+      "currentTitle": "Tank Inspection Services in Chennai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-philadelphia",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 2,
+      "currentTitle": "Pipeline Inspection Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-boston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 4,
+      "currentTitle": "Corrosion Inspection Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-nashville",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 11,
+      "currentTitle": "Corrosion Inspection Services in Nashville | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-portland",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 2.5,
+      "currentTitle": "Corrosion Inspection Services in Portland | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-seattle",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 2,
+      "position": 4.5,
+      "currentTitle": "Corrosion Inspection Services in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-653-training-boston",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 2,
+      "position": 24.5,
+      "currentTitle": "API 653 Certification Training in Boston | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/api-653-training-baltimore",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 2,
+      "position": 11,
+      "currentTitle": "API 653 Certification Training in Baltimore | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-653-training-salt-lake-city",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 2,
+      "position": 49.5,
+      "currentTitle": "API 653 Certification Training in Salt Lake City | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-boston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "TOFD Inspection in Boston | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-tampa",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 11,
+      "currentTitle": "TOFD Inspection in Tampa | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-houston",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "TOFD Inspection in Houston | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-chicago",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 90,
+      "currentTitle": "TOFD Inspection in Chicago | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-philadelphia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 5,
+      "currentTitle": "TOFD Inspection in Philadelphia | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-pittsburgh",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "TOFD Inspection in Pittsburgh | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-mumbai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 77,
+      "currentTitle": "TOFD Inspection in Mumbai | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/tofd-inspection-south-korea",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 5,
+      "currentTitle": "TOFD Inspection in South Korea | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/tofd-inspection-taiwan",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 2,
+      "currentTitle": "TOFD Inspection in Taiwan | TOFD Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-nashville",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 5,
+      "currentTitle": "Guided Wave Testing in Nashville | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-milwaukee",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 2,
+      "currentTitle": "Guided Wave Testing in Milwaukee | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-chicago",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 6,
+      "currentTitle": "Guided Wave Testing in Chicago | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-dallas",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "Guided Wave Testing in Dallas | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-san-francisco",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 58,
+      "currentTitle": "Guided Wave Testing in San Francisco | GWT Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/guided-wave-inspection-pittsburgh",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "Guided Wave Testing in Pittsburgh | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-corpus-christi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 2,
+      "currentTitle": "Guided Wave Testing in Corpus Christi | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-chennai",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "Guided Wave Testing in Chennai | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/guided-wave-inspection-indonesia",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 7,
+      "currentTitle": "Guided Wave Testing in Indonesia | GWT Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-baton-rouge",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 80,
+      "currentTitle": "Acoustic Emission Testing in Baton Rouge | AET Services | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/services/acoustic-emission-inspection-corpus-christi",
+      "pattern": "services/<advanced-method>-<city>",
+      "impressions": 1,
+      "position": 10,
+      "currentTitle": "Acoustic Emission Testing in Corpus Christi | AET Services | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-dallas",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 10,
+      "currentTitle": "Oil & Gas NDT Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-philadelphia",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "Oil & Gas NDT Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-pittsburgh",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 7,
+      "currentTitle": "Oil & Gas NDT Services in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/oil-gas-ndt-beaumont",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 8,
+      "currentTitle": "Oil & Gas NDT Services in Beaumont | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-boston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 12,
+      "currentTitle": "Aerospace NDT Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-dallas",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "Aerospace NDT Services in Dallas | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/aerospace-ndt-pittsburgh",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 9,
+      "currentTitle": "Aerospace NDT Services in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-new-york",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 8,
+      "currentTitle": "Power Generation NDT Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-atlanta",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 5,
+      "currentTitle": "Power Generation NDT Services in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-minneapolis",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "Power Generation NDT Services in Minneapolis | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-denver",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "Power Generation NDT Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/power-generation-ndt-san-francisco",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "Power Generation NDT Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-new-york",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 84,
+      "currentTitle": "Pipeline NDT Inspection in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/pipeline-ndt-boston",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 8,
+      "currentTitle": "Pipeline NDT Inspection in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-atlanta",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 8,
+      "currentTitle": "Pipeline NDT Inspection in Atlanta | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-seattle",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 12,
+      "currentTitle": "Pipeline NDT Inspection in Seattle | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/pipeline-ndt-baton-rouge",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "Pipeline NDT Inspection in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-new-york",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 9,
+      "currentTitle": "Marine & Offshore NDT Services in New York | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-nashville",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 41,
+      "currentTitle": "Marine & Offshore NDT Services in Nashville | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-denver",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 27,
+      "currentTitle": "Marine & Offshore NDT Services in Denver | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/marine-ndt-pittsburgh",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 9,
+      "currentTitle": "Marine & Offshore NDT Services in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-corpus-christi",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 11,
+      "currentTitle": "Marine & Offshore NDT Services in Corpus Christi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/marine-ndt-kuwait",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "Marine & Offshore NDT Services in Kuwait | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-miami",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 26,
+      "currentTitle": "Petrochemical NDT Services in Miami | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-new-orleans",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 2,
+      "currentTitle": "Petrochemical NDT Services in New Orleans | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-philadelphia",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "Petrochemical NDT Services in Philadelphia | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-pittsburgh",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 49,
+      "currentTitle": "Petrochemical NDT Services in Pittsburgh | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-baton-rouge",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 21,
+      "currentTitle": "Petrochemical NDT Services in Baton Rouge | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/industry/petrochemical-ndt-dubai",
+      "pattern": "industry/<industry>-<city>",
+      "impressions": 1,
+      "position": 10,
+      "currentTitle": "Petrochemical NDT Services in Dubai | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/weld-inspection-services-los-angeles",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 12,
+      "currentTitle": "Weld Inspection Services in Los Angeles | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-boston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 15,
+      "currentTitle": "Tank Inspection Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/tank-inspection-services-san-francisco",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 48,
+      "currentTitle": "Tank Inspection Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-boston",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 2,
+      "currentTitle": "Pipeline Inspection Services in Boston | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-san-francisco",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 5,
+      "currentTitle": "Pipeline Inspection Services in San Francisco | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/pipeline-inspection-services-delhi",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 3,
+      "currentTitle": "Pipeline Inspection Services in Delhi | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/inspection/corrosion-inspection-services-cleveland",
+      "pattern": "inspection/<service>-<city>",
+      "impressions": 1,
+      "position": 2,
+      "currentTitle": "Corrosion Inspection Services in Cleveland | NDT Inspection | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-570-training-tampa",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 1,
+      "position": 1,
+      "currentTitle": "API 570 Certification Training in Tampa | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-570-training-milwaukee",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 1,
+      "position": 4,
+      "currentTitle": "API 570 Certification Training in Milwaukee | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    },
+    {
+      "path": "/training/api-653-training-miami",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 1,
+      "position": 41,
+      "currentTitle": "API 653 Certification Training in Miami | Atlantis NDT",
+      "suggestedAction": "Boost on-page content depth + internal links — page is too deep to convert without rank improvement"
+    },
+    {
+      "path": "/training/cwi-training-new-york",
+      "pattern": "training/<cert>-<city>",
+      "impressions": 1,
+      "position": 9,
+      "currentTitle": "CWI Certification Training in New York | Atlantis NDT",
+      "suggestedAction": "Rewrite title + meta description for higher CTR (page is on page 1-2)"
+    }
+  ]
+}

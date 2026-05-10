@@ -1,0 +1,1529 @@
+{
+  "inspection": {
+    "inspectionResult": {
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:atlantisndt.com&id=ZZrg5n9mv-LuSfcwegLS-A&utm_medium=link&utm_source=api",
+      "indexStatusResult": {
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-05-07T11:51:31Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://atlantisndt.com/digital-twins",
+        "userCanonical": "https://atlantisndt.com/digital-twins",
+        "sitemap": [
+          "https://atlantisndt.com/sitemap-index.xml",
+          "https://atlantisndt.com/sitemap.xml",
+          "https://atlantisndt.com/sitemap_index.xml"
+        ],
+        "referringUrls": [
+          "https://aerospace-ndt-standards.vercel.app/",
+          "https://atlantisndt.com/"
+        ],
+        "crawledAs": "MOBILE"
+      },
+      "mobileUsabilityResult": {
+        "verdict": "VERDICT_UNSPECIFIED"
+      },
+      "richResultsResult": {
+        "verdict": "FAIL",
+        "detectedItems": [
+          {
+            "richResultType": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item"
+              }
+            ]
+          },
+          {
+            "richResultType": "FAQ",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": [
+                  {
+                    "issueMessage": "Duplicate field \"FAQPage\"",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Unnamed item",
+                "issues": [
+                  {
+                    "issueMessage": "Duplicate field \"FAQPage\"",
+                    "severity": "ERROR"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "richResultType": "Review snippets",
+            "items": [
+              {
+                "name": "Atlantis NDT Digital Twins Platform"
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              },
+              {
+                "name": "Atlantis NDT",
+                "issues": [
+                  {
+                    "issueMessage": "Review has multiple aggregate ratings",
+                    "severity": "ERROR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "pages": [
+    {
+      "keys": [
+        "https://atlantisndt.com/"
+      ],
+      "clicks": 41,
+      "impressions": 241,
+      "ctr": 0.17012448132780084,
+      "position": 5.838174273858921
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ndt-salary-guide-2026-global"
+      ],
+      "clicks": 28,
+      "impressions": 4014,
+      "ctr": 0.006975585450921774,
+      "position": 5.264324862979572
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison"
+      ],
+      "clicks": 17,
+      "impressions": 779,
+      "ctr": 0.021822849807445442,
+      "position": 4.599486521181001
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/rt-vs-ut-complete-comparison"
+      ],
+      "clicks": 15,
+      "impressions": 1898,
+      "ctr": 0.007903055848261328,
+      "position": 6.7349841938883035
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/asnt-certification"
+      ],
+      "clicks": 14,
+      "impressions": 2510,
+      "ctr": 0.005577689243027889,
+      "position": 7.522709163346613
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/asnt-snt-tc-1a-vs-cp-189-comparison"
+      ],
+      "clicks": 12,
+      "impressions": 745,
+      "ctr": 0.016107382550335572,
+      "position": 5.586577181208054
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/api-570-certification"
+      ],
+      "clicks": 11,
+      "impressions": 1382,
+      "ctr": 0.007959479015918957,
+      "position": 10.011577424023155
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-653-tank-inspection-guide"
+      ],
+      "clicks": 9,
+      "impressions": 2185,
+      "ctr": 0.004118993135011442,
+      "position": 16.18901601830664
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/api-653-certification"
+      ],
+      "clicks": 8,
+      "impressions": 1495,
+      "ctr": 0.005351170568561873,
+      "position": 20.705016722408025
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-training-dubai"
+      ],
+      "clicks": 8,
+      "impressions": 377,
+      "ctr": 0.021220159151193633,
+      "position": 8.859416445623342
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/asnt-snt-tc-1a-certification-requirements"
+      ],
+      "clicks": 7,
+      "impressions": 563,
+      "ctr": 0.012433392539964476,
+      "position": 7.4920071047957375
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/resources"
+      ],
+      "clicks": 7,
+      "impressions": 241,
+      "ctr": 0.029045643153526972,
+      "position": 5.062240663900415
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/api-510-certification"
+      ],
+      "clicks": 6,
+      "impressions": 1303,
+      "ctr": 0.004604758250191865,
+      "position": 21.709132770529546
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/eddy-current-testing-complete-guide"
+      ],
+      "clicks": 6,
+      "impressions": 845,
+      "ctr": 0.007100591715976331,
+      "position": 12.55266272189349
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance"
+      ],
+      "clicks": 5,
+      "impressions": 98,
+      "ctr": 0.05102040816326531,
+      "position": 12.357142857142858
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ped-directive-for-european-pressure-equipment"
+      ],
+      "clicks": 5,
+      "impressions": 205,
+      "ctr": 0.024390243902439025,
+      "position": 18.565853658536586
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/pipe-wall-thickness-inspection-ut-procedures"
+      ],
+      "clicks": 4,
+      "impressions": 354,
+      "ctr": 0.011299435028248588,
+      "position": 11.392655367231638
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/visual-testing"
+      ],
+      "clicks": 4,
+      "impressions": 589,
+      "ctr": 0.006791171477079796,
+      "position": 12.195246179966045
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/automated-ut-aut-systems-complete-overview"
+      ],
+      "clicks": 3,
+      "impressions": 335,
+      "ctr": 0.008955223880597015,
+      "position": 12.417910447761194
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ndt-technician-salary-guide-2026-industry-report"
+      ],
+      "clicks": 3,
+      "impressions": 919,
+      "ctr": 0.003264417845484222,
+      "position": 5.431991294885745
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-reporting-dubai"
+      ],
+      "clicks": 3,
+      "impressions": 22,
+      "ctr": 0.13636363636363635,
+      "position": 5.590909090909091
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/training-me"
+      ],
+      "clicks": 3,
+      "impressions": 188,
+      "ctr": 0.015957446808510637,
+      "position": 11.308510638297872
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/training/asnt-level-iii-training-san-diego"
+      ],
+      "clicks": 3,
+      "impressions": 31,
+      "ctr": 0.0967741935483871,
+      "position": 4.516129032258064
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/training/asnt-level-iii-training-tampa"
+      ],
+      "clicks": 3,
+      "impressions": 11,
+      "ctr": 0.2727272727272727,
+      "position": 11.454545454545455
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-570-piping-inspection-code-requirements"
+      ],
+      "clicks": 2,
+      "impressions": 225,
+      "ctr": 0.008888888888888889,
+      "position": 8.995555555555555
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-579-fitness-for-service-assessment-procedures"
+      ],
+      "clicks": 2,
+      "impressions": 97,
+      "ctr": 0.020618556701030927,
+      "position": 7.061855670103093
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-617-centrifugal-compressor-inspection"
+      ],
+      "clicks": 2,
+      "impressions": 294,
+      "ctr": 0.006802721088435374,
+      "position": 7.704081632653061
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/asme-b31-3-process-piping-requirements"
+      ],
+      "clicks": 2,
+      "impressions": 272,
+      "ctr": 0.007352941176470588,
+      "position": 8.334558823529413
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/asme-section-v-article-4-ut-requirements-explained"
+      ],
+      "clicks": 2,
+      "impressions": 375,
+      "ctr": 0.005333333333333333,
+      "position": 6.1626666666666665
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt"
+      ],
+      "clicks": 2,
+      "impressions": 149,
+      "ctr": 0.013422818791946308,
+      "position": 6.6644295302013425
+    }
+  ],
+  "queries": [
+    {
+      "keys": [
+        "atlantis ndt"
+      ],
+      "clicks": 29,
+      "impressions": 39,
+      "ctr": 0.7435897435897436,
+      "position": 1
+    },
+    {
+      "keys": [
+        "api 510 exam pass rate"
+      ],
+      "clicks": 2,
+      "impressions": 38,
+      "ctr": 0.05263157894736842,
+      "position": 5.394736842105263
+    },
+    {
+      "keys": [
+        "api 653 exam pass rate"
+      ],
+      "clicks": 2,
+      "impressions": 10,
+      "ctr": 0.2,
+      "position": 3.5
+    },
+    {
+      "keys": [
+        "asnt certification"
+      ],
+      "clicks": 2,
+      "impressions": 170,
+      "ctr": 0.011764705882352941,
+      "position": 7.641176470588236
+    },
+    {
+      "keys": [
+        "api 653"
+      ],
+      "clicks": 1,
+      "impressions": 182,
+      "ctr": 0.005494505494505495,
+      "position": 30.63186813186813
+    },
+    {
+      "keys": [
+        "api 653 certification cost"
+      ],
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.03571428571428571,
+      "position": 5.928571428571429
+    },
+    {
+      "keys": [
+        "api 653 exam"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 8.444444444444445
+    },
+    {
+      "keys": [
+        "api exam schedule 2026"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 8
+    },
+    {
+      "keys": [
+        "asnt level 3 basic exam questions"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 11
+    },
+    {
+      "keys": [
+        "asnt snt-tc-1a 2024"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 65
+    },
+    {
+      "keys": [
+        "astm e309"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 16
+    },
+    {
+      "keys": [
+        "aut machine"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 7.666666666666667
+    },
+    {
+      "keys": [
+        "both"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 2.5
+    },
+    {
+      "keys": [
+        "difference between ut and rt testing"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 6.266666666666667
+    },
+    {
+      "keys": [
+        "gaji ndt level 2"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 1
+    },
+    {
+      "keys": [
+        "iso 9712 vs asnt"
+      ],
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 3.1578947368421053
+    },
+    {
+      "keys": [
+        "ndt consultants"
+      ],
+      "clicks": 1,
+      "impressions": 10,
+      "ctr": 0.1,
+      "position": 19.2
+    },
+    {
+      "keys": [
+        "paut technician salary"
+      ],
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "\"magnetic permeability\" testing standards astm iso material qualification -site:youtube.com -site:vimeo.com"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 77
+    },
+    {
+      "keys": [
+        "\"tank inspection, repair, alteration, and reconstruction\""
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 27.666666666666668
+    },
+    {
+      "keys": [
+        "24/7 helpdesk support atlantis"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 16.875
+    },
+    {
+      "keys": [
+        "24/7 it support atlantis"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 16.5
+    },
+    {
+      "keys": [
+        "30000 ndt"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "300000 ndt"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "510"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "653 api"
+      ],
+      "clicks": 0,
+      "impressions": 43,
+      "ctr": 0,
+      "position": 31.069767441860463
+    },
+    {
+      "keys": [
+        "653 inspection"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
+        "653 tank inspection"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 20.047619047619047
+    },
+    {
+      "keys": [
+        "?"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "a.ut"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "aboveground storage tank inspection training"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 43.333333333333336
+    },
+    {
+      "keys": [
+        "accp level 2"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "accp ndt"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 7.583333333333333
+    },
+    {
+      "keys": [
+        "acoustic emission testing equipment cleveland"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 43.25
+    },
+    {
+      "keys": [
+        "acoustic emission testing equipment near me"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 26.333333333333332
+    },
+    {
+      "keys": [
+        "acoustic emission testing equipment pennsylvania"
+      ],
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 8.09090909090909
+    },
+    {
+      "keys": [
+        "acoustic emission testing equipment philadelphia"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 4.142857142857142
+    },
+    {
+      "keys": [
+        "acoustic emission testing equipment pittsburgh"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "acoustic emission testing ndt"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
+    },
+    {
+      "keys": [
+        "acoustic emission testing services"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "keys": [
+        "acoustic testing in bahrain"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
+        "acoustic testing in kuwait"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 18.666666666666668
+    },
+    {
+      "keys": [
+        "acoustic testing in oman"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "acoustic testing services singapore"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "acoustical testing"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 80
+    },
+    {
+      "keys": [
+        "acoustical testing new orleans"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "acoustical testing services in bahrain"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "keys": [
+        "acoustical testing services in oman"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "keys": [
+        "advanced eddy current testing"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 59.5
+    },
+    {
+      "keys": [
+        "advanced ndt services bahrain"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12.5
+    }
+  ],
+  "bleeders": [
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/cwi-certification-requirements-cost-career-impact"
+      ],
+      "clicks": 0,
+      "impressions": 1427,
+      "ctr": 0,
+      "position": 6.920112123335669
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/eddy-current-testing"
+      ],
+      "clicks": 0,
+      "impressions": 1229,
+      "ctr": 0,
+      "position": 25.667209113100082
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/aerospace-composite-inspection-ndt-methods-guide"
+      ],
+      "clicks": 0,
+      "impressions": 888,
+      "ctr": 0,
+      "position": 8.234234234234235
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/wind-turbine-blade-inspection-and-monitoring"
+      ],
+      "clicks": 0,
+      "impressions": 534,
+      "ctr": 0,
+      "position": 26.818352059925093
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ut-vs-rt-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 378,
+      "ctr": 0,
+      "position": 6.791005291005291
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-technician-salary"
+      ],
+      "clicks": 0,
+      "impressions": 378,
+      "ctr": 0,
+      "position": 5.309523809523809
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide"
+      ],
+      "clicks": 0,
+      "impressions": 357,
+      "ctr": 0,
+      "position": 35.53781512605042
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/weld-inspection-acceptance-criteria-aws-vs-asme"
+      ],
+      "clicks": 0,
+      "impressions": 284,
+      "ctr": 0,
+      "position": 6.52112676056338
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide"
+      ],
+      "clicks": 0,
+      "impressions": 263,
+      "ctr": 0,
+      "position": 7.11787072243346
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide"
+      ],
+      "clicks": 0,
+      "impressions": 246,
+      "ctr": 0,
+      "position": 29.235772357723576
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ndt-equipment-calibration-and-maintenance-best-practices"
+      ],
+      "clicks": 0,
+      "impressions": 228,
+      "ctr": 0,
+      "position": 12.399122807017545
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ai-in-ndt-machine-learning-for-defect-detection"
+      ],
+      "clicks": 0,
+      "impressions": 191,
+      "ctr": 0,
+      "position": 7.183246073298429
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-579-fitness-for-service-guide"
+      ],
+      "clicks": 0,
+      "impressions": 178,
+      "ctr": 0,
+      "position": 7.168539325842697
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/magnetic-particle-level-ii-certification-guide"
+      ],
+      "clicks": 0,
+      "impressions": 172,
+      "ctr": 0,
+      "position": 9.238372093023257
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-653-certification-complete-guide"
+      ],
+      "clicks": 0,
+      "impressions": 157,
+      "ctr": 0,
+      "position": 9.97452229299363
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/digital-twins"
+      ],
+      "clicks": 0,
+      "impressions": 150,
+      "ctr": 0,
+      "position": 7.193333333333333
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose"
+      ],
+      "clicks": 0,
+      "impressions": 147,
+      "ctr": 0,
+      "position": 7.3061224489795915
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ndt-safety-requirements-radiation-safety-guide"
+      ],
+      "clicks": 0,
+      "impressions": 141,
+      "ctr": 0,
+      "position": 10.893617021276595
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide"
+      ],
+      "clicks": 0,
+      "impressions": 136,
+      "ctr": 0,
+      "position": 10.139705882352942
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ndt-career-progression-from-technician-to-manager"
+      ],
+      "clicks": 0,
+      "impressions": 135,
+      "ctr": 0,
+      "position": 5.62962962962963
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/best-ndt-training-providers-and-programs"
+      ],
+      "clicks": 0,
+      "impressions": 128,
+      "ctr": 0,
+      "position": 10.7265625
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/stress-corrosion-cracking-scc-detection-methods"
+      ],
+      "clicks": 0,
+      "impressions": 126,
+      "ctr": 0,
+      "position": 11.404761904761905
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/iso-3452-penetrant-testing-specification"
+      ],
+      "clicks": 0,
+      "impressions": 125,
+      "ctr": 0,
+      "position": 7.656
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/iso-9934-magnetic-particle-testing-standards"
+      ],
+      "clicks": 0,
+      "impressions": 121,
+      "ctr": 0,
+      "position": 7.256198347107438
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/total-focusing-method-tfm-in-ut"
+      ],
+      "clicks": 0,
+      "impressions": 120,
+      "ctr": 0,
+      "position": 13.508333333333333
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/magnetic-particle-testing"
+      ],
+      "clicks": 0,
+      "impressions": 117,
+      "ctr": 0,
+      "position": 11.76923076923077
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ultrasonic-testing"
+      ],
+      "clicks": 0,
+      "impressions": 114,
+      "ctr": 0,
+      "position": 7.991228070175438
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-571-damage-mechanisms-complete-industry-guide"
+      ],
+      "clicks": 0,
+      "impressions": 109,
+      "ctr": 0,
+      "position": 6.541284403669724
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/casting-internal-porosity-detection"
+      ],
+      "clicks": 0,
+      "impressions": 95,
+      "ctr": 0,
+      "position": 11.305263157894737
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/boiler-tube-and-heat-exchanger-inspection-methods"
+      ],
+      "clicks": 0,
+      "impressions": 94,
+      "ctr": 0,
+      "position": 35.87234042553192
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/consulting/ndt-consulting-level-iii"
+      ],
+      "clicks": 0,
+      "impressions": 93,
+      "ctr": 0,
+      "position": 5.849462365591398
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/lamellar-tearing-inspection-in-heavy-forgings"
+      ],
+      "clicks": 0,
+      "impressions": 92,
+      "ctr": 0,
+      "position": 8.641304347826086
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/adhesive-bond-line-inspection-techniques"
+      ],
+      "clicks": 0,
+      "impressions": 84,
+      "ctr": 0,
+      "position": 5.2976190476190474
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/hydrogen-assisted-cracking-in-welds-detection"
+      ],
+      "clicks": 0,
+      "impressions": 83,
+      "ctr": 0,
+      "position": 5.662650602409639
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/asme-section-v-ndt-requirements-guide"
+      ],
+      "clicks": 0,
+      "impressions": 80,
+      "ctr": 0,
+      "position": 4.975
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-methods-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 80,
+      "ctr": 0,
+      "position": 6.875
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/remote-ndt-inspector-emerging-career-path"
+      ],
+      "clicks": 0,
+      "impressions": 79,
+      "ctr": 0,
+      "position": 6.1645569620253164
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/weld-inspection-ndt-methods-guide"
+      ],
+      "clicks": 0,
+      "impressions": 75,
+      "ctr": 0,
+      "position": 6.8533333333333335
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/training"
+      ],
+      "clicks": 0,
+      "impressions": 75,
+      "ctr": 0,
+      "position": 6.1466666666666665
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/gear-tooth-inspection-and-wear-assessment"
+      ],
+      "clicks": 0,
+      "impressions": 74,
+      "ctr": 0,
+      "position": 15.716216216216216
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/visual-inspection-and-borescopy-best-practices"
+      ],
+      "clicks": 0,
+      "impressions": 74,
+      "ctr": 0,
+      "position": 25.60810810810811
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/drone-based-ndt-for-infrastructure-inspection"
+      ],
+      "clicks": 0,
+      "impressions": 72,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/marine-offshore-ndt-services"
+      ],
+      "clicks": 0,
+      "impressions": 72,
+      "ctr": 0,
+      "position": 28.555555555555557
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog"
+      ],
+      "clicks": 0,
+      "impressions": 70,
+      "ctr": 0,
+      "position": 16.3
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/defect-sizing-techniques-in-ultrasonic-inspection"
+      ],
+      "clicks": 0,
+      "impressions": 70,
+      "ctr": 0,
+      "position": 9.642857142857142
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/guided-wave-testing-for-pipeline-inspection"
+      ],
+      "clicks": 0,
+      "impressions": 70,
+      "ctr": 0,
+      "position": 6.671428571428572
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-training-houston"
+      ],
+      "clicks": 0,
+      "impressions": 70,
+      "ctr": 0,
+      "position": 37.44285714285714
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/rail-and-locomotive-inspection-procedures"
+      ],
+      "clicks": 0,
+      "impressions": 69,
+      "ctr": 0,
+      "position": 12.376811594202898
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/radiography-technician-certification-requirements"
+      ],
+      "clicks": 0,
+      "impressions": 68,
+      "ctr": 0,
+      "position": 7.764705882352941
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/digital-radiography-vs-film-complete-migration-guide"
+      ],
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": 0,
+      "position": 13.402985074626866
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/ndt-career-guide"
+      ],
+      "clicks": 0,
+      "impressions": 65,
+      "ctr": 0,
+      "position": 7.338461538461538
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/immersion-ultrasonic-testing-for-complex-components"
+      ],
+      "clicks": 0,
+      "impressions": 61,
+      "ctr": 0,
+      "position": 13.901639344262295
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-equipment-guide"
+      ],
+      "clicks": 0,
+      "impressions": 58,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/api-653-storage-tank-inspector-certification"
+      ],
+      "clicks": 0,
+      "impressions": 57,
+      "ctr": 0,
+      "position": 10.824561403508772
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/real-time-3d-imaging-in-ndt-inspection"
+      ],
+      "clicks": 0,
+      "impressions": 57,
+      "ctr": 0,
+      "position": 9.12280701754386
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/south-korea-semiconductor-ndt-requirements"
+      ],
+      "clicks": 0,
+      "impressions": 57,
+      "ctr": 0,
+      "position": 7.526315789473684
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/magnetic-particle-testing-oman"
+      ],
+      "clicks": 0,
+      "impressions": 57,
+      "ctr": 0,
+      "position": 18.614035087719298
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-training-saudi-arabia"
+      ],
+      "clicks": 0,
+      "impressions": 57,
+      "ctr": 0,
+      "position": 7.912280701754386
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/services/paut-inspection-abu-dhabi"
+      ],
+      "clicks": 0,
+      "impressions": 56,
+      "ctr": 0,
+      "position": 5.982142857142857
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/industry/oil-gas-ndt-miami"
+      ],
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": 0,
+      "position": 4.818181818181818
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/magnetic-particle-testing-singapore"
+      ],
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": 0,
+      "position": 11.4
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/compression-wave-vs-shear-wave-technical-differences"
+      ],
+      "clicks": 0,
+      "impressions": 53,
+      "ctr": 0,
+      "position": 7.490566037735849
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/services/mfl-inspection-abu-dhabi"
+      ],
+      "clicks": 0,
+      "impressions": 53,
+      "ctr": 0,
+      "position": 70.52830188679245
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/flat-bottom-hole-sensitivity-in-ut-inspection"
+      ],
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": 0,
+      "position": 7.653846153846154
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-for-power-generation"
+      ],
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": 0,
+      "position": 29.03846153846154
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/penetrant-testing"
+      ],
+      "clicks": 0,
+      "impressions": 51,
+      "ctr": 0,
+      "position": 10.490196078431373
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/blog/thermography-and-infrared-inspection-techniques"
+      ],
+      "clicks": 0,
+      "impressions": 51,
+      "ctr": 0,
+      "position": 12.901960784313726
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/ndt-erp-solution"
+      ],
+      "clicks": 0,
+      "impressions": 51,
+      "ctr": 0,
+      "position": 3.8823529411764706
+    },
+    {
+      "keys": [
+        "https://atlantisndt.com/services/acoustic-emission-inspection-philadelphia"
+      ],
+      "clicks": 0,
+      "impressions": 51,
+      "ctr": 0,
+      "position": 16.098039215686274
+    }
+  ]
+}

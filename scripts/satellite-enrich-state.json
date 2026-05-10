@@ -1,0 +1,294 @@
+{
+  "usedSlugs": {
+    "ndt-method-selection-decision-framework-2026": [
+      "ndt-knowledge-hub"
+    ],
+    "how-to-pass-asnt-level-iii-basic-exam-study-plan": [
+      "ndt-knowledge-hub"
+    ],
+    "reading-ndt-procedures-asme-section-v-walkthrough": [
+      "ndt-knowledge-hub"
+    ],
+    "common-ndt-acronyms-explained-glossary-2026": [
+      "ndt-knowledge-hub"
+    ],
+    "ndt-career-paths-from-level-i-to-level-iii-engineer": [
+      "ndt-knowledge-hub"
+    ],
+    "risk-based-inspection-vs-time-based-which-cuts-cost-more": [
+      "asset-integrity-hub"
+    ],
+    "building-an-asset-integrity-management-system-12-month-roadmap": [
+      "asset-integrity-hub"
+    ],
+    "fitness-for-service-api-579-when-to-use-which-level": [
+      "asset-integrity-hub"
+    ],
+    "measuring-asset-integrity-kpis-that-actually-matter": [
+      "asset-integrity-hub"
+    ],
+    "integrity-operating-windows-ow-best-practices-refineries": [
+      "asset-integrity-hub"
+    ],
+    "in-line-inspection-tool-selection-mfl-vs-ut-vs-emat": [
+      "pipeline-integrity-guide"
+    ],
+    "direct-assessment-eca-dca-ica-which-when": [
+      "pipeline-integrity-guide"
+    ],
+    "crack-management-program-pipeline-asme-b31-8s": [
+      "pipeline-integrity-guide"
+    ],
+    "pipeline-coating-disbondment-detection-tools": [
+      "pipeline-integrity-guide"
+    ],
+    "pipeline-rehabilitation-options-composite-vs-steel-sleeve": [
+      "pipeline-integrity-guide"
+    ],
+    "high-temperature-hydrogen-attack-htha-inspection-strategy": [
+      "petrochemical-ndt-hub"
+    ],
+    "fcc-unit-inspection-priority-equipment-and-damage-mechanisms": [
+      "petrochemical-ndt-hub"
+    ],
+    "amine-unit-corrosion-monitoring-and-ut-strategies": [
+      "petrochemical-ndt-hub"
+    ],
+    "sulfidation-corrosion-crude-units-monitoring-program": [
+      "petrochemical-ndt-hub"
+    ],
+    "turnaround-inspection-planning-petrochemical-shutdown": [
+      "petrochemical-ndt-hub"
+    ],
+    "asme-section-xi-isi-program-essentials": [
+      "nuclear-ndt-resource"
+    ],
+    "reactor-vessel-head-penetration-inspection-pdi-qualification": [
+      "nuclear-ndt-resource"
+    ],
+    "piping-weld-inspection-class-1-vs-class-2-rules": [
+      "nuclear-ndt-resource"
+    ],
+    "small-modular-reactor-smr-ndt-emerging-considerations": [
+      "nuclear-ndt-resource"
+    ],
+    "phased-array-qualification-for-nuclear-applications": [
+      "nuclear-ndt-resource"
+    ],
+    "rov-inspection-class-iii-vs-class-iv-which-tooling": [
+      "subsea-inspection-guide"
+    ],
+    "subsea-pipeline-fjellsiganger-inspection-flooded-member": [
+      "subsea-inspection-guide"
+    ],
+    "cathodic-protection-survey-deepwater-cp-monitoring": [
+      "subsea-inspection-guide"
+    ],
+    "subsea-weld-flaw-sizing-with-paut-and-tofd": [
+      "subsea-inspection-guide"
+    ],
+    "fpso-hull-inspection-program-class-survey-coordination": [
+      "subsea-inspection-guide"
+    ],
+    "nas-410-vs-en-4179-aerospace-certification-paths": [
+      "aerospace-ndt-standards"
+    ],
+    "composite-aircraft-structure-ndt-cfrp-inspection": [
+      "aerospace-ndt-standards"
+    ],
+    "engine-disk-bore-inspection-eddy-current-array": [
+      "aerospace-ndt-standards"
+    ],
+    "nadcap-audit-readiness-aerospace-ndt-shop": [
+      "aerospace-ndt-standards"
+    ],
+    "fluorescent-penetrant-inspection-fpi-aerospace-process-control": [
+      "aerospace-ndt-standards"
+    ],
+    "api-510-internal-vs-external-inspection-decision": [
+      "pressure-vessel-ndt"
+    ],
+    "asme-section-viii-fabrication-ndt-requirements-walkthrough": [
+      "pressure-vessel-ndt"
+    ],
+    "reformer-tubes-creep-damage-monitoring-strategies": [
+      "pressure-vessel-ndt"
+    ],
+    "corrosion-monitoring-locations-cml-selection-guide": [
+      "pressure-vessel-ndt"
+    ],
+    "long-range-ut-screening-pressure-vessels": [
+      "pressure-vessel-ndt"
+    ],
+    "aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion": [
+      "weld-quality-resource"
+    ],
+    "phased-array-vs-radiography-girth-welds-which-finds-more": [
+      "weld-quality-resource"
+    ],
+    "visual-weld-inspection-vt-pitfalls-cwi-experience": [
+      "weld-quality-resource"
+    ],
+    "welder-qualification-vs-procedure-qualification-records": [
+      "weld-quality-resource"
+    ],
+    "orbital-welding-inspection-semiconductor-pharma-piping": [
+      "weld-quality-resource"
+    ],
+    "cui-inspection-strategy-when-to-strip-insulation": [
+      "corrosion-management-ndt"
+    ],
+    "ph-monitoring-vs-corrosion-coupons-which-data-trust": [
+      "corrosion-management-ndt"
+    ],
+    "msl-stress-corrosion-cracking-austenitic-stainless": [
+      "corrosion-management-ndt"
+    ],
+    "inhibitor-injection-program-effectiveness-monitoring": [
+      "corrosion-management-ndt"
+    ],
+    "building-corrosion-management-program-iso-55000": [
+      "corrosion-management-ndt"
+    ]
+  },
+  "anchorCounts": {
+    "the ultrasonic testing methods most often shortlisted": 1,
+    "ISO 55000 asset management family": 9,
+    "requirements published in the Level III certification guide": 1,
+    "the NRC operating experience archive": 8,
+    "the ASNT body of knowledge resources": 2,
+    "the ASME Section V requirements summary": 1,
+    "a worked example of an ASME Section V procedure": 1,
+    "100 frequently asked NDT questions answered": 1,
+    "the IMCA technical resources for offshore work": 6,
+    "the AWS standards catalog": 9,
+    "the 2025 NDT career and salary outlook": 1,
+    "Level III certification requirements": 1,
+    "the API 580/581 implementation walkthrough": 1,
+    "the RBI rollout playbook": 1,
+    "the API individual certification program overview": 1,
+    "the API 579 fitness-for-service primer": 1,
+    "the AMPP standards portal": 3,
+    "integrity KPI dashboards built on NDT reporting data": 1,
+    "IOWs as the trigger layer for RBI": 1,
+    "integrating IOWs into a digital twin program": 1,
+    "DNV asset integrity services portfolio": 9,
+    "the pipeline integrity primer used as a reference": 1,
+    "NRC operating experience reports": 3,
+    "the NACE corrosion management standards summary": 1,
+    "the IAEA non-destructive testing programme": 4,
+    "the pipeline integrity overview that introduces crack management": 1,
+    "AMPP (Association for Materials Protection and Performance)": 2,
+    "the NACE/AMPP standards reference": 2,
+    "the corresponding mechanical damage assessment notes": 1,
+    "the PAUT technology guide used for HTHA scanning": 1,
+    "the ASME Section VIII Division 1 NDT rules": 1,
+    "the NADCAP audit programme overview": 3,
+    "the ASME VIII Division 1 NDT companion": 1,
+    "the UT thickness monitoring reference": 1,
+    "the corrosion thickness measurement guide": 1,
+    "ASNT (American Society for Nondestructive Testing)": 4,
+    "why digital twins shorten refinery turnaround time": 1,
+    "the inspection reporting software used in modern turnarounds": 1,
+    "the nuclear NDT compliance reference": 1,
+    "the ASME Section V requirements digest": 1,
+    "the PAUT technology overview for nuclear scope": 1,
+    "the ASME Section V procedure-writing reference": 1,
+    "the wider nuclear NDT compliance article": 1,
+    "the complete PAUT technical guide": 1,
+    "the conventional UT vs PAUT decision guide": 1,
+    "the deeper subsea NDT challenges article": 1,
+    "offshore platform inspection challenges": 1,
+    "the NACE corrosion management overview": 1,
+    "the technical PAUT guide": 1,
+    "the DNV rules summary for offshore structures": 1,
+    "the aerospace NDT services overview": 1,
+    "the methods overview for composite inspection": 1,
+    "the broader aerospace NDT methods reference": 1,
+    "the aerospace NDT services capabilities page": 1,
+    "the penetrant testing technique reference": 1,
+    "the pressure vessel inspection and compliance overview": 1,
+    "the ASME Section VIII Division 1 NDT requirements": 1,
+    "the PAUT technology overview": 1,
+    "the ultrasonic thickness measurement guide": 1,
+    "the guided wave testing primer": 1,
+    "the weld defect classification reference": 1,
+    "the comprehensive AWS D1.1 acceptance criteria guide": 1,
+    "the digital radiography vs film comparison": 1,
+    "the dedicated visual testing reference": 1,
+    "the weld inspection methods overview": 1,
+    "the welded components inspection reference": 1,
+    "the UT corrosion monitoring guide": 1,
+    "the dedicated CUI detection guide": 1,
+    "the NACE/AMPP standards summary": 1,
+    "the corrosion mapping methodology": 1,
+    "the NACE corrosion management standards": 1,
+    "inspection reporting software used in CMP execution": 1
+  },
+  "targetUrlCounts": {
+    "https://atlantisndt.com/blog/ultrasonic-testing": 1,
+    "https://www.iso.org/standard/55000": 9,
+    "https://atlantisndt.com/blog/ndt-level-iii-certification-requirements-guide": 2,
+    "https://www.nrc.gov/reactors/operating/ops-experience.html": 11,
+    "https://www.asnt.org/": 6,
+    "https://atlantisndt.com/blog/asme-section-v-ndt-requirements-guide": 2,
+    "https://atlantisndt.com/blog/ndt-procedure-writing-guide-asme-section-v": 2,
+    "https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide": 1,
+    "https://www.imca-int.com/": 6,
+    "https://www.aws.org/standards": 9,
+    "https://atlantisndt.com/blog/ndt-career-top-choice-2025-global-market-trends": 1,
+    "https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide": 3,
+    "https://www.api.org/products-and-services/individual-certification-programs": 1,
+    "https://atlantisndt.com/blog/api-579-fitness-for-service-guide": 1,
+    "https://www.ampp.org/": 5,
+    "https://atlantisndt.com/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity": 1,
+    "https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity": 1,
+    "https://www.dnv.com/services/structural-and-asset-integrity-services-2293": 9,
+    "https://atlantisndt.com/blog/ndt-pipeline-integrity-inspection-guide": 2,
+    "https://atlantisndt.com/blog/nace-corrosion-management-standards": 6,
+    "https://www.iaea.org/topics/non-destructive-testing": 4,
+    "https://atlantisndt.com/blog/pipeline-corrosion-and-mechanical-damage-assessment": 1,
+    "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide": 4,
+    "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt": 3,
+    "https://www.nadcap.com/": 3,
+    "https://atlantisndt.com/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide": 4,
+    "https://atlantisndt.com/blog/digital-twins-reduce-refinery-turnaround-time": 1,
+    "https://atlantisndt.com/ndt-reporting-software": 2,
+    "https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance": 2,
+    "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide": 1,
+    "https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose": 1,
+    "https://atlantisndt.com/blog/offshore-platform-inspection-subsea-ndt-challenges": 2,
+    "https://atlantisndt.com/blog/dnvgl-rules-for-offshore-structures": 1,
+    "https://atlantisndt.com/aerospace-ndt-services": 2,
+    "https://atlantisndt.com/blog/aerospace-composite-inspection-ndt-methods-guide": 2,
+    "https://atlantisndt.com/blog/penetrant-testing": 1,
+    "https://atlantisndt.com/blog/pressure-vessel-inspection-and-compliance": 1,
+    "https://atlantisndt.com/blog/guided-wave-testing-for-pipeline-inspection": 1,
+    "https://atlantisndt.com/blog/weld-defect-classification-and-detection-methods": 1,
+    "https://atlantisndt.com/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide": 1,
+    "https://atlantisndt.com/blog/radiography-vs-digital-radiography-complete-comparison": 1,
+    "https://atlantisndt.com/blog/visual-testing": 1,
+    "https://atlantisndt.com/blog/weld-inspection-ndt-methods-guide": 1,
+    "https://atlantisndt.com/blog/automotive-welded-components-inspection": 1,
+    "https://atlantisndt.com/blog/corrosion-under-insulation-cui-detection-guide": 1,
+    "https://atlantisndt.com/blog/corrosion-mapping-with-multiple-ndt-methods": 1
+  },
+  "runs": [
+    {
+      "at": "2026-05-09T13:46:02.021Z",
+      "targets": [
+        "ndt-knowledge-hub",
+        "asset-integrity-hub",
+        "pipeline-integrity-guide",
+        "petrochemical-ndt-hub",
+        "nuclear-ndt-resource",
+        "subsea-inspection-guide",
+        "aerospace-ndt-standards",
+        "pressure-vessel-ndt",
+        "weld-quality-resource",
+        "corrosion-management-ndt"
+      ],
+      "count": 10
+    }
+  ]
+}

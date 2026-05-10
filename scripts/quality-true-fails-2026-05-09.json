@@ -1,0 +1,28 @@
+[
+  {
+    "path": "dist/blog/best-ndt-reporting-software-oil-gas-digital-twin/index.html",
+    "reasons": [
+      "title>90 (103)",
+      "description<60 (13)"
+    ]
+  },
+  {
+    "path": "dist/blog/ndt-consulting-questions-answered-by-level-iii-expert/index.html",
+    "reasons": [
+      "title>90 (103)",
+      "description<60 (42)"
+    ]
+  },
+  {
+    "path": "dist/blog/visual-testing/index.html",
+    "reasons": [
+      "description_missing"
+    ]
+  },
+  {
+    "path": "dist/embed/ndt-reference/index.html",
+    "reasons": [
+      "description<60 (57)"
+    ]
+  }
+]

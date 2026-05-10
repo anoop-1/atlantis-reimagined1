@@ -1,0 +1,42 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Petrochemical NDT Hub — In-Depth Articles',
+  description: 'Long-form practical articles on petrochemical & refinery NDT for refinery / petrochemical inspection teams, fixed-equipment engineers.',
+};
+
+export default function ContainerIndex() {
+  return (
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1 className="text-3xl font-bold text-gray-900">Petrochemical NDT Hub — In-Depth Articles</h1>
+      <p className="text-gray-600 mt-3">Practical long-form guides on petrochemical & refinery NDT, written for refinery / petrochemical inspection teams, fixed-equipment engineers.</p>
+      <ul className="mt-8">
+        <li className="border-b border-gray-200 py-6">
+          <a href="/processes/high-temperature-hydrogen-attack-htha-inspection-strategy" className="text-xl font-semibold text-gray-900 hover:text-green-600">High Temperature Hydrogen Attack (HTHA): Inspection Strategy for Refineries</a>
+          <p className="text-sm text-gray-500 mt-2">By Dr. Karim Idrissi, Materials Engineer &middot; 2024-10-22</p>
+          <p className="text-gray-700 mt-3">High Temperature Hydrogen Attack (HTHA): Inspection Strategy for Refineries</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/processes/fcc-unit-inspection-priority-equipment-and-damage-mechanisms" className="text-xl font-semibold text-gray-900 hover:text-green-600">FCC Unit Inspection: Priority Equipment and Damage Mechanisms</a>
+          <p className="text-sm text-gray-500 mt-2">By Dr. Karim Idrissi, Materials Engineer &middot; 2025-03-11</p>
+          <p className="text-gray-700 mt-3">FCC Unit Inspection: Priority Equipment and Damage Mechanisms</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/processes/amine-unit-corrosion-monitoring-and-ut-strategies" className="text-xl font-semibold text-gray-900 hover:text-green-600">Amine Unit Corrosion Monitoring: UT Strategies and CML Selection</a>
+          <p className="text-sm text-gray-500 mt-2">By Pia Lindqvist, AMPP-certified Coatings Inspector &middot; 2025-07-29</p>
+          <p className="text-gray-700 mt-3">Amine Unit Corrosion Monitoring: UT Strategies and CML Selection</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/processes/sulfidation-corrosion-crude-units-monitoring-program" className="text-xl font-semibold text-gray-900 hover:text-green-600">Sulfidation Corrosion in Crude Units: Building a Monitoring Program</a>
+          <p className="text-sm text-gray-500 mt-2">By Dr. Karim Idrissi, Materials Engineer &middot; 2026-01-23</p>
+          <p className="text-gray-700 mt-3">Sulfidation Corrosion in Crude Units: Building a Monitoring Program</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/processes/turnaround-inspection-planning-petrochemical-shutdown" className="text-xl font-semibold text-gray-900 hover:text-green-600">Turnaround Inspection Planning: A Field Guide for Petrochemical Shutdowns</a>
+          <p className="text-sm text-gray-500 mt-2">By Pia Lindqvist, AMPP-certified Coatings Inspector &middot; 2026-04-12</p>
+          <p className="text-gray-700 mt-3">Turnaround Inspection Planning: A Field Guide for Petrochemical Shutdowns</p>
+        </li>
+      </ul>
+    </div>
+  );
+}

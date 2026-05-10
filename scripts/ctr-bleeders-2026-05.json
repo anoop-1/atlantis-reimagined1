@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T12:57:45.480Z",
+  "generated": "2026-05-09T13:36:45.249Z",
   "methodology": {
     "window": "last 28 days, ending 3 days ago (GSC freshness lag)",
     "threshold": "actual_ctr / expected_ctr < 0.4 AND impressions >= 100",

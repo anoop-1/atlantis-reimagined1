@@ -17,6 +17,46 @@ const DynamicCityRoute = lazy(() => import("./components/DynamicCityRoute"));
 const DynamicCorporateTrainingRoute = lazy(() => import("./components/DynamicCorporateTrainingRoute"));
 const CorporateNDTTraining = lazy(() => import("./pages/CorporateNDTTraining"));
 
+// === CORPORATE TRAINING VERTICALS 2026-05-09 ===
+const CorporateTrainingOilGas = lazy(() => import("./pages/corporate-training/OilGas"));
+const CorporateTrainingAerospace = lazy(() => import("./pages/corporate-training/Aerospace"));
+const CorporateTrainingNuclear = lazy(() => import("./pages/corporate-training/Nuclear"));
+const CorporateTrainingMarine = lazy(() => import("./pages/corporate-training/Marine"));
+const CorporateTrainingRenewableEnergy = lazy(() => import("./pages/corporate-training/RenewableEnergy"));
+const CorporateTrainingPetrochemical = lazy(() => import("./pages/corporate-training/Petrochemical"));
+const CorporateTrainingPowerGeneration = lazy(() => import("./pages/corporate-training/PowerGeneration"));
+const CorporateTrainingFabrication = lazy(() => import("./pages/corporate-training/Fabrication"));
+const CorporateTrainingMaritime = lazy(() => import("./pages/corporate-training/Maritime"));
+const CorporateTrainingDefense = lazy(() => import("./pages/corporate-training/Defense"));
+
+// === ERP/DT PRODUCT HUB 2026-05-09 ===
+const CompareAtlantisDtVsAvevaPiSystem = lazy(() => import("./pages/compare/AtlantisDtVsAvevaPiSystem"));
+const CompareAtlantisDtVsOsisoftPi = lazy(() => import("./pages/compare/AtlantisDtVsOsisoftPi"));
+const CompareAtlantisDtVsHexagonEam = lazy(() => import("./pages/compare/AtlantisDtVsHexagonEam"));
+const CompareAtlantisDtVsSiemensMindsphere = lazy(() => import("./pages/compare/AtlantisDtVsSiemensMindsphere"));
+const CompareAtlantisDtVsGePredix = lazy(() => import("./pages/compare/AtlantisDtVsGePredix"));
+const CompareAtlantisDtVsIbmMaximo = lazy(() => import("./pages/compare/AtlantisDtVsIbmMaximo"));
+const CompareAtlantisDtVsBentleyItwin = lazy(() => import("./pages/compare/AtlantisDtVsBentleyItwin"));
+const CompareAtlantisDtVsAspenMtell = lazy(() => import("./pages/compare/AtlantisDtVsAspenMtell"));
+const IntegrationSapPm = lazy(() => import("./pages/integrations/SapPm"));
+const IntegrationIbmMaximo = lazy(() => import("./pages/integrations/IbmMaximo"));
+const IntegrationMeridiumApm = lazy(() => import("./pages/integrations/MeridiumApm"));
+const IntegrationAspenMtell = lazy(() => import("./pages/integrations/AspenMtell"));
+const IntegrationGeVernovaApm = lazy(() => import("./pages/integrations/GeVernovaApm"));
+const IntegrationOracleErpCloud = lazy(() => import("./pages/integrations/OracleErpCloud"));
+const DtUseCaseRefinery = lazy(() => import("./pages/digital-twins-usecases/Refinery"));
+const DtUseCaseFpso = lazy(() => import("./pages/digital-twins-usecases/Fpso"));
+const DtUseCaseStorageTank = lazy(() => import("./pages/digital-twins-usecases/StorageTank"));
+const DtUseCasePipeline = lazy(() => import("./pages/digital-twins-usecases/Pipeline"));
+const DtUseCaseNuclearPlant = lazy(() => import("./pages/digital-twins-usecases/NuclearPlant"));
+const DtUseCaseWindFarm = lazy(() => import("./pages/digital-twins-usecases/WindFarm"));
+const DtUseCaseOffshorePlatform = lazy(() => import("./pages/digital-twins-usecases/OffshorePlatform"));
+const DtUseCasePetrochemicalComplex = lazy(() => import("./pages/digital-twins-usecases/PetrochemicalComplex"));
+const DtUseCaseHeatExchanger = lazy(() => import("./pages/digital-twins-usecases/HeatExchanger"));
+const DtUseCasePressureVessel = lazy(() => import("./pages/digital-twins-usecases/PressureVessel"));
+const DtUseCaseSubsea = lazy(() => import("./pages/digital-twins-usecases/Subsea"));
+const DtUseCaseDataCenter = lazy(() => import("./pages/digital-twins-usecases/DataCenter"));
+
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const Training = lazy(() => import("./pages/Training"));
@@ -1681,6 +1721,44 @@ const App = () => (
                   <Route path="/magnetic-particle-testing" element={<LazyRoute Component={MagneticParticleTestingHub} />} />
                   <Route path="/radiographic-testing" element={<LazyRoute Component={RadiographicTestingHub} />} />
                   <Route path="/eddy-current-testing" element={<LazyRoute Component={EddyCurrentTestingHub} />} />
+                  {/* === CORPORATE TRAINING VERTICALS 2026-05-09 === */}
+                  <Route path="/corporate-training/oil-gas" element={<LazyRoute Component={CorporateTrainingOilGas} />} />
+                  <Route path="/corporate-training/aerospace" element={<LazyRoute Component={CorporateTrainingAerospace} />} />
+                  <Route path="/corporate-training/nuclear" element={<LazyRoute Component={CorporateTrainingNuclear} />} />
+                  <Route path="/corporate-training/marine" element={<LazyRoute Component={CorporateTrainingMarine} />} />
+                  <Route path="/corporate-training/renewable-energy" element={<LazyRoute Component={CorporateTrainingRenewableEnergy} />} />
+                  <Route path="/corporate-training/petrochemical" element={<LazyRoute Component={CorporateTrainingPetrochemical} />} />
+                  <Route path="/corporate-training/power-generation" element={<LazyRoute Component={CorporateTrainingPowerGeneration} />} />
+                  <Route path="/corporate-training/fabrication" element={<LazyRoute Component={CorporateTrainingFabrication} />} />
+                  <Route path="/corporate-training/maritime" element={<LazyRoute Component={CorporateTrainingMaritime} />} />
+                  <Route path="/corporate-training/defense" element={<LazyRoute Component={CorporateTrainingDefense} />} />
+                  {/* === ERP/DT PRODUCT HUB 2026-05-09 === */}
+                  <Route path="/compare/atlantis-dt-vs-aveva-pi-system" element={<LazyRoute Component={CompareAtlantisDtVsAvevaPiSystem} />} />
+                  <Route path="/compare/atlantis-dt-vs-osisoft-pi" element={<LazyRoute Component={CompareAtlantisDtVsOsisoftPi} />} />
+                  <Route path="/compare/atlantis-dt-vs-hexagon-eam" element={<LazyRoute Component={CompareAtlantisDtVsHexagonEam} />} />
+                  <Route path="/compare/atlantis-dt-vs-siemens-mindsphere" element={<LazyRoute Component={CompareAtlantisDtVsSiemensMindsphere} />} />
+                  <Route path="/compare/atlantis-dt-vs-ge-predix" element={<LazyRoute Component={CompareAtlantisDtVsGePredix} />} />
+                  <Route path="/compare/atlantis-dt-vs-ibm-maximo" element={<LazyRoute Component={CompareAtlantisDtVsIbmMaximo} />} />
+                  <Route path="/compare/atlantis-dt-vs-bentley-itwin" element={<LazyRoute Component={CompareAtlantisDtVsBentleyItwin} />} />
+                  <Route path="/compare/atlantis-dt-vs-aspen-mtell" element={<LazyRoute Component={CompareAtlantisDtVsAspenMtell} />} />
+                  <Route path="/integrations/sap-pm" element={<LazyRoute Component={IntegrationSapPm} />} />
+                  <Route path="/integrations/ibm-maximo" element={<LazyRoute Component={IntegrationIbmMaximo} />} />
+                  <Route path="/integrations/meridium-apm" element={<LazyRoute Component={IntegrationMeridiumApm} />} />
+                  <Route path="/integrations/aspen-mtell" element={<LazyRoute Component={IntegrationAspenMtell} />} />
+                  <Route path="/integrations/ge-vernova-apm" element={<LazyRoute Component={IntegrationGeVernovaApm} />} />
+                  <Route path="/integrations/oracle-erp-cloud" element={<LazyRoute Component={IntegrationOracleErpCloud} />} />
+                  <Route path="/digital-twins/refinery" element={<LazyRoute Component={DtUseCaseRefinery} />} />
+                  <Route path="/digital-twins/fpso" element={<LazyRoute Component={DtUseCaseFpso} />} />
+                  <Route path="/digital-twins/storage-tank" element={<LazyRoute Component={DtUseCaseStorageTank} />} />
+                  <Route path="/digital-twins/pipeline" element={<LazyRoute Component={DtUseCasePipeline} />} />
+                  <Route path="/digital-twins/nuclear-plant" element={<LazyRoute Component={DtUseCaseNuclearPlant} />} />
+                  <Route path="/digital-twins/wind-farm" element={<LazyRoute Component={DtUseCaseWindFarm} />} />
+                  <Route path="/digital-twins/offshore-platform" element={<LazyRoute Component={DtUseCaseOffshorePlatform} />} />
+                  <Route path="/digital-twins/petrochemical-complex" element={<LazyRoute Component={DtUseCasePetrochemicalComplex} />} />
+                  <Route path="/digital-twins/heat-exchanger" element={<LazyRoute Component={DtUseCaseHeatExchanger} />} />
+                  <Route path="/digital-twins/pressure-vessel" element={<LazyRoute Component={DtUseCasePressureVessel} />} />
+                  <Route path="/digital-twins/subsea" element={<LazyRoute Component={DtUseCaseSubsea} />} />
+                  <Route path="/digital-twins/data-center" element={<LazyRoute Component={DtUseCaseDataCenter} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>
