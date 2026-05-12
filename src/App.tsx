@@ -313,6 +313,102 @@ const NDTTrainingJakarta = lazy(() => import("./pages/ndt-training-jakarta"));
 const API653TrainingSaudiArabia = lazy(() => import("./pages/api-653-training-saudi-arabia"));
 const ErpModulesHub = lazy(() => import("./pages/ErpModulesHub"));
 const ErpIndustriesHub = lazy(() => import("./pages/ErpIndustriesHub"));
+const ErpCross_certification_tracking_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/certification-tracking-for-ndt-inspection-companies"));
+const ErpCross_work_order_management_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/work-order-management-for-ndt-inspection-companies"));
+const ErpCross_inspection_scheduling_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/inspection-scheduling-for-ndt-inspection-companies"));
+const ErpCross_asset_management_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/asset-management-for-ndt-inspection-companies"));
+const ErpCross_corrosion_tracking_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/corrosion-tracking-for-ndt-inspection-companies"));
+const ErpCross_quality_management_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/quality-management-for-ndt-inspection-companies"));
+const ErpCross_document_control_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/document-control-for-ndt-inspection-companies"));
+const ErpCross_inventory_management_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/inventory-management-for-ndt-inspection-companies"));
+const ErpCross_calibration_management_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/calibration-management-for-calibration-laboratories"));
+const ErpCross_work_order_management_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/work-order-management-for-calibration-laboratories"));
+const ErpCross_certification_tracking_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/certification-tracking-for-calibration-laboratories"));
+const ErpCross_audit_management_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/audit-management-for-calibration-laboratories"));
+const ErpCross_document_control_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/document-control-for-calibration-laboratories"));
+const ErpCross_quality_management_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/quality-management-for-calibration-laboratories"));
+const ErpCross_inventory_management_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/inventory-management-for-calibration-laboratories"));
+const ErpCross_asset_management_for_calibration_laboratories = lazy(() => import("./pages/erp-modules/asset-management-for-calibration-laboratories"));
+const ErpCross_certification_tracking_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/certification-tracking-for-welding-fabrication-shops"));
+const ErpCross_work_order_management_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/work-order-management-for-welding-fabrication-shops"));
+const ErpCross_document_control_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/document-control-for-welding-fabrication-shops"));
+const ErpCross_quality_management_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/quality-management-for-welding-fabrication-shops"));
+const ErpCross_audit_management_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/audit-management-for-welding-fabrication-shops"));
+const ErpCross_asset_management_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/asset-management-for-welding-fabrication-shops"));
+const ErpCross_inventory_management_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/inventory-management-for-welding-fabrication-shops"));
+const ErpCross_project_management_for_welding_fabrication_shops = lazy(() => import("./pages/erp-modules/project-management-for-welding-fabrication-shops"));
+const ErpCross_work_order_management_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/work-order-management-for-marine-survey-companies"));
+const ErpCross_certification_tracking_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/certification-tracking-for-marine-survey-companies"));
+const ErpCross_asset_management_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/asset-management-for-marine-survey-companies"));
+const ErpCross_project_management_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/project-management-for-marine-survey-companies"));
+const ErpCross_document_control_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/document-control-for-marine-survey-companies"));
+const ErpCross_quality_management_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/quality-management-for-marine-survey-companies"));
+const ErpCross_audit_management_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/audit-management-for-marine-survey-companies"));
+const ErpCross_inventory_management_for_marine_survey_companies = lazy(() => import("./pages/erp-modules/inventory-management-for-marine-survey-companies"));
+const ErpCross_asset_management_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/asset-management-for-pipeline-integrity-services"));
+const ErpCross_corrosion_tracking_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/corrosion-tracking-for-pipeline-integrity-services"));
+const ErpCross_work_order_management_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/work-order-management-for-pipeline-integrity-services"));
+const ErpCross_inspection_scheduling_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/inspection-scheduling-for-pipeline-integrity-services"));
+const ErpCross_document_control_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/document-control-for-pipeline-integrity-services"));
+const ErpCross_quality_management_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/quality-management-for-pipeline-integrity-services"));
+const ErpCross_audit_management_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/audit-management-for-pipeline-integrity-services"));
+const ErpCross_project_management_for_pipeline_integrity_services = lazy(() => import("./pages/erp-modules/project-management-for-pipeline-integrity-services"));
+const ErpCross_certification_tracking_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/certification-tracking-for-aerospace-quality-control"));
+const ErpCross_document_control_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/document-control-for-aerospace-quality-control"));
+const ErpCross_quality_management_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/quality-management-for-aerospace-quality-control"));
+const ErpCross_work_order_management_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/work-order-management-for-aerospace-quality-control"));
+const ErpCross_audit_management_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/audit-management-for-aerospace-quality-control"));
+const ErpCross_asset_management_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/asset-management-for-aerospace-quality-control"));
+const ErpCross_inventory_management_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/inventory-management-for-aerospace-quality-control"));
+const ErpCross_calibration_management_for_aerospace_quality_control = lazy(() => import("./pages/erp-modules/calibration-management-for-aerospace-quality-control"));
+const ErpCross_calibration_management_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/calibration-management-for-metrology-laboratories"));
+const ErpCross_work_order_management_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/work-order-management-for-metrology-laboratories"));
+const ErpCross_certification_tracking_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/certification-tracking-for-metrology-laboratories"));
+const ErpCross_document_control_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/document-control-for-metrology-laboratories"));
+const ErpCross_audit_management_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/audit-management-for-metrology-laboratories"));
+const ErpCross_quality_management_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/quality-management-for-metrology-laboratories"));
+const ErpCross_inventory_management_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/inventory-management-for-metrology-laboratories"));
+const ErpCross_asset_management_for_metrology_laboratories = lazy(() => import("./pages/erp-modules/asset-management-for-metrology-laboratories"));
+const ErpCross_work_order_management_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/work-order-management-for-industrial-coatings-inspection"));
+const ErpCross_certification_tracking_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/certification-tracking-for-industrial-coatings-inspection"));
+const ErpCross_quality_management_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/quality-management-for-industrial-coatings-inspection"));
+const ErpCross_document_control_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/document-control-for-industrial-coatings-inspection"));
+const ErpCross_audit_management_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/audit-management-for-industrial-coatings-inspection"));
+const ErpCross_asset_management_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/asset-management-for-industrial-coatings-inspection"));
+const ErpCross_inventory_management_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/inventory-management-for-industrial-coatings-inspection"));
+const ErpCross_project_management_for_industrial_coatings_inspection = lazy(() => import("./pages/erp-modules/project-management-for-industrial-coatings-inspection"));
+const ErpCross_work_order_management_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/work-order-management-for-construction-quality-assurance"));
+const ErpCross_project_management_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/project-management-for-construction-quality-assurance"));
+const ErpCross_document_control_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/document-control-for-construction-quality-assurance"));
+const ErpCross_quality_management_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/quality-management-for-construction-quality-assurance"));
+const ErpCross_audit_management_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/audit-management-for-construction-quality-assurance"));
+const ErpCross_asset_management_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/asset-management-for-construction-quality-assurance"));
+const ErpCross_certification_tracking_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/certification-tracking-for-construction-quality-assurance"));
+const ErpCross_inventory_management_for_construction_quality_assurance = lazy(() => import("./pages/erp-modules/inventory-management-for-construction-quality-assurance"));
+const ErpCross_work_order_management_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/work-order-management-for-geotechnical-engineering"));
+const ErpCross_project_management_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/project-management-for-geotechnical-engineering"));
+const ErpCross_document_control_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/document-control-for-geotechnical-engineering"));
+const ErpCross_quality_management_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/quality-management-for-geotechnical-engineering"));
+const ErpCross_asset_management_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/asset-management-for-geotechnical-engineering"));
+const ErpCross_certification_tracking_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/certification-tracking-for-geotechnical-engineering"));
+const ErpCross_calibration_management_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/calibration-management-for-geotechnical-engineering"));
+const ErpCross_inventory_management_for_geotechnical_engineering = lazy(() => import("./pages/erp-modules/inventory-management-for-geotechnical-engineering"));
+const ErpCross_work_order_management_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/work-order-management-for-environmental-testing-labs"));
+const ErpCross_document_control_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/document-control-for-environmental-testing-labs"));
+const ErpCross_quality_management_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/quality-management-for-environmental-testing-labs"));
+const ErpCross_audit_management_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/audit-management-for-environmental-testing-labs"));
+const ErpCross_calibration_management_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/calibration-management-for-environmental-testing-labs"));
+const ErpCross_certification_tracking_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/certification-tracking-for-environmental-testing-labs"));
+const ErpCross_asset_management_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/asset-management-for-environmental-testing-labs"));
+const ErpCross_inventory_management_for_environmental_testing_labs = lazy(() => import("./pages/erp-modules/inventory-management-for-environmental-testing-labs"));
+const ErpCross_work_order_management_for_oilfield_services = lazy(() => import("./pages/erp-modules/work-order-management-for-oilfield-services"));
+const ErpCross_certification_tracking_for_oilfield_services = lazy(() => import("./pages/erp-modules/certification-tracking-for-oilfield-services"));
+const ErpCross_project_management_for_oilfield_services = lazy(() => import("./pages/erp-modules/project-management-for-oilfield-services"));
+const ErpCross_asset_management_for_oilfield_services = lazy(() => import("./pages/erp-modules/asset-management-for-oilfield-services"));
+const ErpCross_quality_management_for_oilfield_services = lazy(() => import("./pages/erp-modules/quality-management-for-oilfield-services"));
+const ErpCross_document_control_for_oilfield_services = lazy(() => import("./pages/erp-modules/document-control-for-oilfield-services"));
+const ErpCross_inventory_management_for_oilfield_services = lazy(() => import("./pages/erp-modules/inventory-management-for-oilfield-services"));
+const ErpCross_calibration_management_for_oilfield_services = lazy(() => import("./pages/erp-modules/calibration-management-for-oilfield-services"));
 const ErpMod_inventory_management = lazy(() => import("./pages/erp-modules/inventory-management"));
 const ErpMod_certification_tracking = lazy(() => import("./pages/erp-modules/certification-tracking"));
 const ErpMod_calibration_management = lazy(() => import("./pages/erp-modules/calibration-management"));
@@ -1150,6 +1246,102 @@ const App = () => (
                   <Route path="/api-653-training-saudi-arabia" element={<LazyRoute Component={API653TrainingSaudiArabia} />} />
                   <Route path="/erp-modules" element={<LazyRoute Component={ErpModulesHub} />} />
                   <Route path="/erp-industries" element={<LazyRoute Component={ErpIndustriesHub} />} />
+                  <Route path="/erp-modules/certification-tracking-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_certification_tracking_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/work-order-management-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_work_order_management_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/inspection-scheduling-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_inspection_scheduling_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/asset-management-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_asset_management_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/corrosion-tracking-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_corrosion_tracking_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/quality-management-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_quality_management_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/document-control-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_document_control_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/inventory-management-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_inventory_management_for_ndt_inspection_companies} />} />
+                  <Route path="/erp-modules/calibration-management-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_calibration_management_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/work-order-management-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_work_order_management_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/certification-tracking-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_certification_tracking_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/audit-management-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_audit_management_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/document-control-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_document_control_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/quality-management-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_quality_management_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/inventory-management-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_inventory_management_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/asset-management-for-calibration-laboratories" element={<LazyRoute Component={ErpCross_asset_management_for_calibration_laboratories} />} />
+                  <Route path="/erp-modules/certification-tracking-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_certification_tracking_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/work-order-management-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_work_order_management_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/document-control-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_document_control_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/quality-management-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_quality_management_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/audit-management-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_audit_management_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/asset-management-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_asset_management_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/inventory-management-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_inventory_management_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/project-management-for-welding-fabrication-shops" element={<LazyRoute Component={ErpCross_project_management_for_welding_fabrication_shops} />} />
+                  <Route path="/erp-modules/work-order-management-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_work_order_management_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/certification-tracking-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_certification_tracking_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/asset-management-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_asset_management_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/project-management-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_project_management_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/document-control-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_document_control_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/quality-management-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_quality_management_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/audit-management-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_audit_management_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/inventory-management-for-marine-survey-companies" element={<LazyRoute Component={ErpCross_inventory_management_for_marine_survey_companies} />} />
+                  <Route path="/erp-modules/asset-management-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_asset_management_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/corrosion-tracking-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_corrosion_tracking_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/work-order-management-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_work_order_management_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/inspection-scheduling-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_inspection_scheduling_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/document-control-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_document_control_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/quality-management-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_quality_management_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/audit-management-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_audit_management_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/project-management-for-pipeline-integrity-services" element={<LazyRoute Component={ErpCross_project_management_for_pipeline_integrity_services} />} />
+                  <Route path="/erp-modules/certification-tracking-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_certification_tracking_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/document-control-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_document_control_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/quality-management-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_quality_management_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/work-order-management-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_work_order_management_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/audit-management-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_audit_management_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/asset-management-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_asset_management_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/inventory-management-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_inventory_management_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/calibration-management-for-aerospace-quality-control" element={<LazyRoute Component={ErpCross_calibration_management_for_aerospace_quality_control} />} />
+                  <Route path="/erp-modules/calibration-management-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_calibration_management_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/work-order-management-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_work_order_management_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/certification-tracking-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_certification_tracking_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/document-control-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_document_control_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/audit-management-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_audit_management_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/quality-management-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_quality_management_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/inventory-management-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_inventory_management_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/asset-management-for-metrology-laboratories" element={<LazyRoute Component={ErpCross_asset_management_for_metrology_laboratories} />} />
+                  <Route path="/erp-modules/work-order-management-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_work_order_management_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/certification-tracking-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_certification_tracking_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/quality-management-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_quality_management_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/document-control-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_document_control_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/audit-management-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_audit_management_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/asset-management-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_asset_management_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/inventory-management-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_inventory_management_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/project-management-for-industrial-coatings-inspection" element={<LazyRoute Component={ErpCross_project_management_for_industrial_coatings_inspection} />} />
+                  <Route path="/erp-modules/work-order-management-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_work_order_management_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/project-management-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_project_management_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/document-control-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_document_control_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/quality-management-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_quality_management_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/audit-management-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_audit_management_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/asset-management-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_asset_management_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/certification-tracking-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_certification_tracking_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/inventory-management-for-construction-quality-assurance" element={<LazyRoute Component={ErpCross_inventory_management_for_construction_quality_assurance} />} />
+                  <Route path="/erp-modules/work-order-management-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_work_order_management_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/project-management-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_project_management_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/document-control-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_document_control_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/quality-management-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_quality_management_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/asset-management-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_asset_management_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/certification-tracking-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_certification_tracking_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/calibration-management-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_calibration_management_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/inventory-management-for-geotechnical-engineering" element={<LazyRoute Component={ErpCross_inventory_management_for_geotechnical_engineering} />} />
+                  <Route path="/erp-modules/work-order-management-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_work_order_management_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/document-control-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_document_control_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/quality-management-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_quality_management_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/audit-management-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_audit_management_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/calibration-management-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_calibration_management_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/certification-tracking-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_certification_tracking_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/asset-management-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_asset_management_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/inventory-management-for-environmental-testing-labs" element={<LazyRoute Component={ErpCross_inventory_management_for_environmental_testing_labs} />} />
+                  <Route path="/erp-modules/work-order-management-for-oilfield-services" element={<LazyRoute Component={ErpCross_work_order_management_for_oilfield_services} />} />
+                  <Route path="/erp-modules/certification-tracking-for-oilfield-services" element={<LazyRoute Component={ErpCross_certification_tracking_for_oilfield_services} />} />
+                  <Route path="/erp-modules/project-management-for-oilfield-services" element={<LazyRoute Component={ErpCross_project_management_for_oilfield_services} />} />
+                  <Route path="/erp-modules/asset-management-for-oilfield-services" element={<LazyRoute Component={ErpCross_asset_management_for_oilfield_services} />} />
+                  <Route path="/erp-modules/quality-management-for-oilfield-services" element={<LazyRoute Component={ErpCross_quality_management_for_oilfield_services} />} />
+                  <Route path="/erp-modules/document-control-for-oilfield-services" element={<LazyRoute Component={ErpCross_document_control_for_oilfield_services} />} />
+                  <Route path="/erp-modules/inventory-management-for-oilfield-services" element={<LazyRoute Component={ErpCross_inventory_management_for_oilfield_services} />} />
+                  <Route path="/erp-modules/calibration-management-for-oilfield-services" element={<LazyRoute Component={ErpCross_calibration_management_for_oilfield_services} />} />
                   <Route path="/erp-modules/inventory-management" element={<LazyRoute Component={ErpMod_inventory_management} />} />
                   <Route path="/erp-modules/certification-tracking" element={<LazyRoute Component={ErpMod_certification_tracking} />} />
                   <Route path="/erp-modules/calibration-management" element={<LazyRoute Component={ErpMod_calibration_management} />} />
