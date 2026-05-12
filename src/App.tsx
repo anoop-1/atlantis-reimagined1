@@ -324,6 +324,96 @@ const NDTTrainingJakarta = lazy(() => import("./pages/ndt-training-jakarta"));
 const API653TrainingSaudiArabia = lazy(() => import("./pages/api-653-training-saudi-arabia"));
 const ErpModulesHub = lazy(() => import("./pages/ErpModulesHub"));
 const ErpIndustriesHub = lazy(() => import("./pages/ErpIndustriesHub"));
+const ErpMC_inventory_management_houston = lazy(() => import("./pages/erp-modules/inventory-management-houston"));
+const ErpMC_inventory_management_dubai = lazy(() => import("./pages/erp-modules/inventory-management-dubai"));
+const ErpMC_inventory_management_abu_dhabi = lazy(() => import("./pages/erp-modules/inventory-management-abu-dhabi"));
+const ErpMC_inventory_management_saudi_arabia = lazy(() => import("./pages/erp-modules/inventory-management-saudi-arabia"));
+const ErpMC_inventory_management_singapore = lazy(() => import("./pages/erp-modules/inventory-management-singapore"));
+const ErpMC_inventory_management_mumbai = lazy(() => import("./pages/erp-modules/inventory-management-mumbai"));
+const ErpMC_inventory_management_hyderabad = lazy(() => import("./pages/erp-modules/inventory-management-hyderabad"));
+const ErpMC_inventory_management_london = lazy(() => import("./pages/erp-modules/inventory-management-london"));
+const ErpMC_inventory_management_aberdeen = lazy(() => import("./pages/erp-modules/inventory-management-aberdeen"));
+const ErpMC_inventory_management_calgary = lazy(() => import("./pages/erp-modules/inventory-management-calgary"));
+const ErpMC_inventory_management_perth = lazy(() => import("./pages/erp-modules/inventory-management-perth"));
+const ErpMC_inventory_management_doha = lazy(() => import("./pages/erp-modules/inventory-management-doha"));
+const ErpMC_inventory_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/inventory-management-kuala-lumpur"));
+const ErpMC_inventory_management_jakarta = lazy(() => import("./pages/erp-modules/inventory-management-jakarta"));
+const ErpMC_inventory_management_lagos = lazy(() => import("./pages/erp-modules/inventory-management-lagos"));
+const ErpMC_audit_management_houston = lazy(() => import("./pages/erp-modules/audit-management-houston"));
+const ErpMC_audit_management_dubai = lazy(() => import("./pages/erp-modules/audit-management-dubai"));
+const ErpMC_audit_management_abu_dhabi = lazy(() => import("./pages/erp-modules/audit-management-abu-dhabi"));
+const ErpMC_audit_management_saudi_arabia = lazy(() => import("./pages/erp-modules/audit-management-saudi-arabia"));
+const ErpMC_audit_management_singapore = lazy(() => import("./pages/erp-modules/audit-management-singapore"));
+const ErpMC_audit_management_mumbai = lazy(() => import("./pages/erp-modules/audit-management-mumbai"));
+const ErpMC_audit_management_hyderabad = lazy(() => import("./pages/erp-modules/audit-management-hyderabad"));
+const ErpMC_audit_management_london = lazy(() => import("./pages/erp-modules/audit-management-london"));
+const ErpMC_audit_management_aberdeen = lazy(() => import("./pages/erp-modules/audit-management-aberdeen"));
+const ErpMC_audit_management_calgary = lazy(() => import("./pages/erp-modules/audit-management-calgary"));
+const ErpMC_audit_management_perth = lazy(() => import("./pages/erp-modules/audit-management-perth"));
+const ErpMC_audit_management_doha = lazy(() => import("./pages/erp-modules/audit-management-doha"));
+const ErpMC_audit_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/audit-management-kuala-lumpur"));
+const ErpMC_audit_management_jakarta = lazy(() => import("./pages/erp-modules/audit-management-jakarta"));
+const ErpMC_audit_management_lagos = lazy(() => import("./pages/erp-modules/audit-management-lagos"));
+const ErpMC_document_control_houston = lazy(() => import("./pages/erp-modules/document-control-houston"));
+const ErpMC_document_control_dubai = lazy(() => import("./pages/erp-modules/document-control-dubai"));
+const ErpMC_document_control_abu_dhabi = lazy(() => import("./pages/erp-modules/document-control-abu-dhabi"));
+const ErpMC_document_control_saudi_arabia = lazy(() => import("./pages/erp-modules/document-control-saudi-arabia"));
+const ErpMC_document_control_singapore = lazy(() => import("./pages/erp-modules/document-control-singapore"));
+const ErpMC_document_control_mumbai = lazy(() => import("./pages/erp-modules/document-control-mumbai"));
+const ErpMC_document_control_hyderabad = lazy(() => import("./pages/erp-modules/document-control-hyderabad"));
+const ErpMC_document_control_london = lazy(() => import("./pages/erp-modules/document-control-london"));
+const ErpMC_document_control_aberdeen = lazy(() => import("./pages/erp-modules/document-control-aberdeen"));
+const ErpMC_document_control_calgary = lazy(() => import("./pages/erp-modules/document-control-calgary"));
+const ErpMC_document_control_perth = lazy(() => import("./pages/erp-modules/document-control-perth"));
+const ErpMC_document_control_doha = lazy(() => import("./pages/erp-modules/document-control-doha"));
+const ErpMC_document_control_kuala_lumpur = lazy(() => import("./pages/erp-modules/document-control-kuala-lumpur"));
+const ErpMC_document_control_jakarta = lazy(() => import("./pages/erp-modules/document-control-jakarta"));
+const ErpMC_document_control_lagos = lazy(() => import("./pages/erp-modules/document-control-lagos"));
+const ErpMC_asset_management_houston = lazy(() => import("./pages/erp-modules/asset-management-houston"));
+const ErpMC_asset_management_dubai = lazy(() => import("./pages/erp-modules/asset-management-dubai"));
+const ErpMC_asset_management_abu_dhabi = lazy(() => import("./pages/erp-modules/asset-management-abu-dhabi"));
+const ErpMC_asset_management_saudi_arabia = lazy(() => import("./pages/erp-modules/asset-management-saudi-arabia"));
+const ErpMC_asset_management_singapore = lazy(() => import("./pages/erp-modules/asset-management-singapore"));
+const ErpMC_asset_management_mumbai = lazy(() => import("./pages/erp-modules/asset-management-mumbai"));
+const ErpMC_asset_management_hyderabad = lazy(() => import("./pages/erp-modules/asset-management-hyderabad"));
+const ErpMC_asset_management_london = lazy(() => import("./pages/erp-modules/asset-management-london"));
+const ErpMC_asset_management_aberdeen = lazy(() => import("./pages/erp-modules/asset-management-aberdeen"));
+const ErpMC_asset_management_calgary = lazy(() => import("./pages/erp-modules/asset-management-calgary"));
+const ErpMC_asset_management_perth = lazy(() => import("./pages/erp-modules/asset-management-perth"));
+const ErpMC_asset_management_doha = lazy(() => import("./pages/erp-modules/asset-management-doha"));
+const ErpMC_asset_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/asset-management-kuala-lumpur"));
+const ErpMC_asset_management_jakarta = lazy(() => import("./pages/erp-modules/asset-management-jakarta"));
+const ErpMC_asset_management_lagos = lazy(() => import("./pages/erp-modules/asset-management-lagos"));
+const ErpMC_quality_management_houston = lazy(() => import("./pages/erp-modules/quality-management-houston"));
+const ErpMC_quality_management_dubai = lazy(() => import("./pages/erp-modules/quality-management-dubai"));
+const ErpMC_quality_management_abu_dhabi = lazy(() => import("./pages/erp-modules/quality-management-abu-dhabi"));
+const ErpMC_quality_management_saudi_arabia = lazy(() => import("./pages/erp-modules/quality-management-saudi-arabia"));
+const ErpMC_quality_management_singapore = lazy(() => import("./pages/erp-modules/quality-management-singapore"));
+const ErpMC_quality_management_mumbai = lazy(() => import("./pages/erp-modules/quality-management-mumbai"));
+const ErpMC_quality_management_hyderabad = lazy(() => import("./pages/erp-modules/quality-management-hyderabad"));
+const ErpMC_quality_management_london = lazy(() => import("./pages/erp-modules/quality-management-london"));
+const ErpMC_quality_management_aberdeen = lazy(() => import("./pages/erp-modules/quality-management-aberdeen"));
+const ErpMC_quality_management_calgary = lazy(() => import("./pages/erp-modules/quality-management-calgary"));
+const ErpMC_quality_management_perth = lazy(() => import("./pages/erp-modules/quality-management-perth"));
+const ErpMC_quality_management_doha = lazy(() => import("./pages/erp-modules/quality-management-doha"));
+const ErpMC_quality_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/quality-management-kuala-lumpur"));
+const ErpMC_quality_management_jakarta = lazy(() => import("./pages/erp-modules/quality-management-jakarta"));
+const ErpMC_quality_management_lagos = lazy(() => import("./pages/erp-modules/quality-management-lagos"));
+const ErpMC_project_management_houston = lazy(() => import("./pages/erp-modules/project-management-houston"));
+const ErpMC_project_management_dubai = lazy(() => import("./pages/erp-modules/project-management-dubai"));
+const ErpMC_project_management_abu_dhabi = lazy(() => import("./pages/erp-modules/project-management-abu-dhabi"));
+const ErpMC_project_management_saudi_arabia = lazy(() => import("./pages/erp-modules/project-management-saudi-arabia"));
+const ErpMC_project_management_singapore = lazy(() => import("./pages/erp-modules/project-management-singapore"));
+const ErpMC_project_management_mumbai = lazy(() => import("./pages/erp-modules/project-management-mumbai"));
+const ErpMC_project_management_hyderabad = lazy(() => import("./pages/erp-modules/project-management-hyderabad"));
+const ErpMC_project_management_london = lazy(() => import("./pages/erp-modules/project-management-london"));
+const ErpMC_project_management_aberdeen = lazy(() => import("./pages/erp-modules/project-management-aberdeen"));
+const ErpMC_project_management_calgary = lazy(() => import("./pages/erp-modules/project-management-calgary"));
+const ErpMC_project_management_perth = lazy(() => import("./pages/erp-modules/project-management-perth"));
+const ErpMC_project_management_doha = lazy(() => import("./pages/erp-modules/project-management-doha"));
+const ErpMC_project_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/project-management-kuala-lumpur"));
+const ErpMC_project_management_jakarta = lazy(() => import("./pages/erp-modules/project-management-jakarta"));
+const ErpMC_project_management_lagos = lazy(() => import("./pages/erp-modules/project-management-lagos"));
 const ErpMC_certification_tracking_houston = lazy(() => import("./pages/erp-modules/certification-tracking-houston"));
 const ErpMC_certification_tracking_dubai = lazy(() => import("./pages/erp-modules/certification-tracking-dubai"));
 const ErpMC_certification_tracking_abu_dhabi = lazy(() => import("./pages/erp-modules/certification-tracking-abu-dhabi"));
@@ -1512,6 +1602,96 @@ const App = () => (
                   <Route path="/api-653-training-saudi-arabia" element={<LazyRoute Component={API653TrainingSaudiArabia} />} />
                   <Route path="/erp-modules" element={<LazyRoute Component={ErpModulesHub} />} />
                   <Route path="/erp-industries" element={<LazyRoute Component={ErpIndustriesHub} />} />
+                  <Route path="/erp-modules/inventory-management-houston" element={<LazyRoute Component={ErpMC_inventory_management_houston} />} />
+                  <Route path="/erp-modules/inventory-management-dubai" element={<LazyRoute Component={ErpMC_inventory_management_dubai} />} />
+                  <Route path="/erp-modules/inventory-management-abu-dhabi" element={<LazyRoute Component={ErpMC_inventory_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/inventory-management-saudi-arabia" element={<LazyRoute Component={ErpMC_inventory_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/inventory-management-singapore" element={<LazyRoute Component={ErpMC_inventory_management_singapore} />} />
+                  <Route path="/erp-modules/inventory-management-mumbai" element={<LazyRoute Component={ErpMC_inventory_management_mumbai} />} />
+                  <Route path="/erp-modules/inventory-management-hyderabad" element={<LazyRoute Component={ErpMC_inventory_management_hyderabad} />} />
+                  <Route path="/erp-modules/inventory-management-london" element={<LazyRoute Component={ErpMC_inventory_management_london} />} />
+                  <Route path="/erp-modules/inventory-management-aberdeen" element={<LazyRoute Component={ErpMC_inventory_management_aberdeen} />} />
+                  <Route path="/erp-modules/inventory-management-calgary" element={<LazyRoute Component={ErpMC_inventory_management_calgary} />} />
+                  <Route path="/erp-modules/inventory-management-perth" element={<LazyRoute Component={ErpMC_inventory_management_perth} />} />
+                  <Route path="/erp-modules/inventory-management-doha" element={<LazyRoute Component={ErpMC_inventory_management_doha} />} />
+                  <Route path="/erp-modules/inventory-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_inventory_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/inventory-management-jakarta" element={<LazyRoute Component={ErpMC_inventory_management_jakarta} />} />
+                  <Route path="/erp-modules/inventory-management-lagos" element={<LazyRoute Component={ErpMC_inventory_management_lagos} />} />
+                  <Route path="/erp-modules/audit-management-houston" element={<LazyRoute Component={ErpMC_audit_management_houston} />} />
+                  <Route path="/erp-modules/audit-management-dubai" element={<LazyRoute Component={ErpMC_audit_management_dubai} />} />
+                  <Route path="/erp-modules/audit-management-abu-dhabi" element={<LazyRoute Component={ErpMC_audit_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/audit-management-saudi-arabia" element={<LazyRoute Component={ErpMC_audit_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/audit-management-singapore" element={<LazyRoute Component={ErpMC_audit_management_singapore} />} />
+                  <Route path="/erp-modules/audit-management-mumbai" element={<LazyRoute Component={ErpMC_audit_management_mumbai} />} />
+                  <Route path="/erp-modules/audit-management-hyderabad" element={<LazyRoute Component={ErpMC_audit_management_hyderabad} />} />
+                  <Route path="/erp-modules/audit-management-london" element={<LazyRoute Component={ErpMC_audit_management_london} />} />
+                  <Route path="/erp-modules/audit-management-aberdeen" element={<LazyRoute Component={ErpMC_audit_management_aberdeen} />} />
+                  <Route path="/erp-modules/audit-management-calgary" element={<LazyRoute Component={ErpMC_audit_management_calgary} />} />
+                  <Route path="/erp-modules/audit-management-perth" element={<LazyRoute Component={ErpMC_audit_management_perth} />} />
+                  <Route path="/erp-modules/audit-management-doha" element={<LazyRoute Component={ErpMC_audit_management_doha} />} />
+                  <Route path="/erp-modules/audit-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_audit_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/audit-management-jakarta" element={<LazyRoute Component={ErpMC_audit_management_jakarta} />} />
+                  <Route path="/erp-modules/audit-management-lagos" element={<LazyRoute Component={ErpMC_audit_management_lagos} />} />
+                  <Route path="/erp-modules/document-control-houston" element={<LazyRoute Component={ErpMC_document_control_houston} />} />
+                  <Route path="/erp-modules/document-control-dubai" element={<LazyRoute Component={ErpMC_document_control_dubai} />} />
+                  <Route path="/erp-modules/document-control-abu-dhabi" element={<LazyRoute Component={ErpMC_document_control_abu_dhabi} />} />
+                  <Route path="/erp-modules/document-control-saudi-arabia" element={<LazyRoute Component={ErpMC_document_control_saudi_arabia} />} />
+                  <Route path="/erp-modules/document-control-singapore" element={<LazyRoute Component={ErpMC_document_control_singapore} />} />
+                  <Route path="/erp-modules/document-control-mumbai" element={<LazyRoute Component={ErpMC_document_control_mumbai} />} />
+                  <Route path="/erp-modules/document-control-hyderabad" element={<LazyRoute Component={ErpMC_document_control_hyderabad} />} />
+                  <Route path="/erp-modules/document-control-london" element={<LazyRoute Component={ErpMC_document_control_london} />} />
+                  <Route path="/erp-modules/document-control-aberdeen" element={<LazyRoute Component={ErpMC_document_control_aberdeen} />} />
+                  <Route path="/erp-modules/document-control-calgary" element={<LazyRoute Component={ErpMC_document_control_calgary} />} />
+                  <Route path="/erp-modules/document-control-perth" element={<LazyRoute Component={ErpMC_document_control_perth} />} />
+                  <Route path="/erp-modules/document-control-doha" element={<LazyRoute Component={ErpMC_document_control_doha} />} />
+                  <Route path="/erp-modules/document-control-kuala-lumpur" element={<LazyRoute Component={ErpMC_document_control_kuala_lumpur} />} />
+                  <Route path="/erp-modules/document-control-jakarta" element={<LazyRoute Component={ErpMC_document_control_jakarta} />} />
+                  <Route path="/erp-modules/document-control-lagos" element={<LazyRoute Component={ErpMC_document_control_lagos} />} />
+                  <Route path="/erp-modules/asset-management-houston" element={<LazyRoute Component={ErpMC_asset_management_houston} />} />
+                  <Route path="/erp-modules/asset-management-dubai" element={<LazyRoute Component={ErpMC_asset_management_dubai} />} />
+                  <Route path="/erp-modules/asset-management-abu-dhabi" element={<LazyRoute Component={ErpMC_asset_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/asset-management-saudi-arabia" element={<LazyRoute Component={ErpMC_asset_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/asset-management-singapore" element={<LazyRoute Component={ErpMC_asset_management_singapore} />} />
+                  <Route path="/erp-modules/asset-management-mumbai" element={<LazyRoute Component={ErpMC_asset_management_mumbai} />} />
+                  <Route path="/erp-modules/asset-management-hyderabad" element={<LazyRoute Component={ErpMC_asset_management_hyderabad} />} />
+                  <Route path="/erp-modules/asset-management-london" element={<LazyRoute Component={ErpMC_asset_management_london} />} />
+                  <Route path="/erp-modules/asset-management-aberdeen" element={<LazyRoute Component={ErpMC_asset_management_aberdeen} />} />
+                  <Route path="/erp-modules/asset-management-calgary" element={<LazyRoute Component={ErpMC_asset_management_calgary} />} />
+                  <Route path="/erp-modules/asset-management-perth" element={<LazyRoute Component={ErpMC_asset_management_perth} />} />
+                  <Route path="/erp-modules/asset-management-doha" element={<LazyRoute Component={ErpMC_asset_management_doha} />} />
+                  <Route path="/erp-modules/asset-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_asset_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/asset-management-jakarta" element={<LazyRoute Component={ErpMC_asset_management_jakarta} />} />
+                  <Route path="/erp-modules/asset-management-lagos" element={<LazyRoute Component={ErpMC_asset_management_lagos} />} />
+                  <Route path="/erp-modules/quality-management-houston" element={<LazyRoute Component={ErpMC_quality_management_houston} />} />
+                  <Route path="/erp-modules/quality-management-dubai" element={<LazyRoute Component={ErpMC_quality_management_dubai} />} />
+                  <Route path="/erp-modules/quality-management-abu-dhabi" element={<LazyRoute Component={ErpMC_quality_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/quality-management-saudi-arabia" element={<LazyRoute Component={ErpMC_quality_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/quality-management-singapore" element={<LazyRoute Component={ErpMC_quality_management_singapore} />} />
+                  <Route path="/erp-modules/quality-management-mumbai" element={<LazyRoute Component={ErpMC_quality_management_mumbai} />} />
+                  <Route path="/erp-modules/quality-management-hyderabad" element={<LazyRoute Component={ErpMC_quality_management_hyderabad} />} />
+                  <Route path="/erp-modules/quality-management-london" element={<LazyRoute Component={ErpMC_quality_management_london} />} />
+                  <Route path="/erp-modules/quality-management-aberdeen" element={<LazyRoute Component={ErpMC_quality_management_aberdeen} />} />
+                  <Route path="/erp-modules/quality-management-calgary" element={<LazyRoute Component={ErpMC_quality_management_calgary} />} />
+                  <Route path="/erp-modules/quality-management-perth" element={<LazyRoute Component={ErpMC_quality_management_perth} />} />
+                  <Route path="/erp-modules/quality-management-doha" element={<LazyRoute Component={ErpMC_quality_management_doha} />} />
+                  <Route path="/erp-modules/quality-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_quality_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/quality-management-jakarta" element={<LazyRoute Component={ErpMC_quality_management_jakarta} />} />
+                  <Route path="/erp-modules/quality-management-lagos" element={<LazyRoute Component={ErpMC_quality_management_lagos} />} />
+                  <Route path="/erp-modules/project-management-houston" element={<LazyRoute Component={ErpMC_project_management_houston} />} />
+                  <Route path="/erp-modules/project-management-dubai" element={<LazyRoute Component={ErpMC_project_management_dubai} />} />
+                  <Route path="/erp-modules/project-management-abu-dhabi" element={<LazyRoute Component={ErpMC_project_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/project-management-saudi-arabia" element={<LazyRoute Component={ErpMC_project_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/project-management-singapore" element={<LazyRoute Component={ErpMC_project_management_singapore} />} />
+                  <Route path="/erp-modules/project-management-mumbai" element={<LazyRoute Component={ErpMC_project_management_mumbai} />} />
+                  <Route path="/erp-modules/project-management-hyderabad" element={<LazyRoute Component={ErpMC_project_management_hyderabad} />} />
+                  <Route path="/erp-modules/project-management-london" element={<LazyRoute Component={ErpMC_project_management_london} />} />
+                  <Route path="/erp-modules/project-management-aberdeen" element={<LazyRoute Component={ErpMC_project_management_aberdeen} />} />
+                  <Route path="/erp-modules/project-management-calgary" element={<LazyRoute Component={ErpMC_project_management_calgary} />} />
+                  <Route path="/erp-modules/project-management-perth" element={<LazyRoute Component={ErpMC_project_management_perth} />} />
+                  <Route path="/erp-modules/project-management-doha" element={<LazyRoute Component={ErpMC_project_management_doha} />} />
+                  <Route path="/erp-modules/project-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_project_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/project-management-jakarta" element={<LazyRoute Component={ErpMC_project_management_jakarta} />} />
+                  <Route path="/erp-modules/project-management-lagos" element={<LazyRoute Component={ErpMC_project_management_lagos} />} />
                   <Route path="/erp-modules/certification-tracking-houston" element={<LazyRoute Component={ErpMC_certification_tracking_houston} />} />
                   <Route path="/erp-modules/certification-tracking-dubai" element={<LazyRoute Component={ErpMC_certification_tracking_dubai} />} />
                   <Route path="/erp-modules/certification-tracking-abu-dhabi" element={<LazyRoute Component={ErpMC_certification_tracking_abu_dhabi} />} />

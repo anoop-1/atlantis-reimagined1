@@ -7526,7 +7526,17 @@
     "https://atlantisndt.com/ndt-erp-vizag",
     "https://atlantisndt.com/ndt-erp-trinidad",
     "https://atlantisndt.com/ndt-erp-uk",
-    "https://atlantisndt.com/ndt-erp-usa"
+    "https://atlantisndt.com/ndt-erp-usa",
+    "https://atlantisndt.com/resources/api-510-inspection-report",
+    "https://atlantisndt.com/resources/inspection-test-plan-itp",
+    "https://atlantisndt.com/resources/welder-qualification-test-wpqr",
+    "https://atlantisndt.com/resources/calibration-certificate-template",
+    "https://atlantisndt.com/resources/pwht-record",
+    "https://atlantisndt.com/resources/rbi-worksheet",
+    "https://atlantisndt.com/resources/daily-progress-report-dpr",
+    "https://atlantisndt.com/resources/audit-finding-tracker",
+    "https://atlantisndt.com/resources/api-570-piping-inspection-record",
+    "https://atlantisndt.com/resources/ndt-written-practice-template"
   ],
   "failed": [],
   "runs": [
@@ -8828,7 +8838,88 @@
           "rateLimited": false
         }
       ]
+    },
+    {
+      "date": "2026-05-12",
+      "time": "2026-05-12T16:51:09.831Z",
+      "accounts": 10,
+      "submitted": 10,
+      "failed": 0,
+      "skipped": 0,
+      "elapsed": "2.5s",
+      "perAccount": [
+        {
+          "account": "account-0-legacy",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-10",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-2",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-3",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-4",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-5",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-6",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-7",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-8",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-9",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        }
+      ]
     }
   ],
-  "totalSubmitted": 7527
+  "totalSubmitted": 7537
 }

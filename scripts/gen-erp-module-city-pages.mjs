@@ -11,8 +11,15 @@ const DATA = JSON.parse(readFileSync(join(__dirname, 'gen-erp-data.json'), 'utf-
 
 const MODULE_BY_SLUG = Object.fromEntries(DATA.modules.map(m => [m.slug, m]));
 
-// Top 5 modules with strongest broad-search demand
-const TOP_MODULES = ['certification-tracking', 'work-order-management', 'inspection-scheduling', 'calibration-management', 'corrosion-tracking'];
+// Modules for module × city expansion.
+// Sprint 6 covered: certification-tracking, work-order-management, inspection-scheduling, calibration-management, corrosion-tracking
+// Sprint 7 adds: inventory-management, audit-management, document-control, asset-management, quality-management, project-management
+const TOP_MODULES = [
+  'certification-tracking', 'work-order-management', 'inspection-scheduling',
+  'calibration-management', 'corrosion-tracking',
+  'inventory-management', 'audit-management', 'document-control',
+  'asset-management', 'quality-management', 'project-management',
+];
 
 // Top 15 cities (matches Sprint 5 city list)
 const CITIES = [
