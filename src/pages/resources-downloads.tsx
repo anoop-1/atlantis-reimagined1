@@ -13,55 +13,61 @@ const resources = [
         icon: ClipboardList,
         title: "NDT Inspection Checklist",
         description: "Comprehensive checklist for planning and executing NDT inspections. Covers pre-inspection, during inspection, and post-inspection requirements.",
-        type: "PDF Checklist",
-        pages: "4 pages",
-        format: "PDF",
-        href: "/resources/ndt-inspection-checklist"
+        type: "Editable Excel Checklist",
+        pages: "Multi-section",
+        format: "XLSX",
+        href: "/resources/ndt-inspection-checklist",
+        download: "/templates/ndt-inspection-checklist.xlsx",
     },
     {
         icon: FileCheck,
         title: "API 653 Tank Inspection Template",
-        description: "Template for documenting above-ground storage tank inspections per API 653 requirements. Includes shell, floor, and roof inspection forms.",
-        type: "Excel Template",
-        pages: "Multi-sheet",
+        description: "Template for documenting above-ground storage tank inspections per API 653 requirements. Includes shell, floor, roof, settlement, and sign-off sheets.",
+        type: "Editable Excel Template",
+        pages: "6 sheets",
         format: "XLSX",
-        href: "/resources/api-653-inspection-template"
+        href: "/resources/api-653-inspection-template",
+        download: "/templates/api-653-tank-inspection-template.xlsx",
     },
     {
         icon: BookOpen,
         title: "ASNT Level III Exam Study Guide",
-        description: "Study guide overview for ASNT Level III certification preparation. Covers exam format, topics, and preparation strategies.",
-        type: "PDF Guide",
-        pages: "12 pages",
-        format: "PDF",
-        href: "/resources/asnt-level-iii-study-guide"
+        description: "Study guide for ASNT Level III certification preparation. Covers exam format, topic coverage, study timeline, references, and test-day strategy.",
+        type: "Editable Word Guide",
+        pages: "Multi-section",
+        format: "DOCX",
+        href: "/resources/asnt-level-iii-study-guide",
+        download: "/templates/asnt-level-iii-study-guide.docx",
     },
     {
         icon: FileText,
         title: "NDT Procedure Template",
         description: "General NDT procedure template aligned with ASNT SNT-TC-1A and ISO 9712 requirements. Customize for your specific method and application.",
-        type: "Word Template",
-        pages: "6 pages",
+        type: "Editable Word Template",
+        pages: "11 sections",
         format: "DOCX",
-        href: "/resources/ndt-procedure-template"
+        href: "/resources/ndt-procedure-template",
+        download: "/templates/ndt-procedure-template.docx",
     },
     {
         icon: Shield,
         title: "NDT Safety Checklist",
-        description: "Safety checklist for NDT operations including radiation safety, electrical safety, and general worksite safety requirements.",
-        type: "PDF Checklist",
-        pages: "3 pages",
-        format: "PDF",
-        href: "/resources/ndt-safety-checklist"
+        description: "Safety checklist for NDT operations: general worksite, radiation safety (RT), electrical, chemical (PT/MT/coatings), confined space, and offshore.",
+        type: "Editable Excel Checklist",
+        pages: "5 sections",
+        format: "XLSX",
+        href: "/resources/ndt-safety-checklist",
+        download: "/templates/ndt-safety-checklist.xlsx",
     },
     {
         icon: Award,
         title: "Training Requirements Matrix",
-        description: "Matrix showing training hour requirements for various NDT certifications including ASNT SNT-TC-1A, ISO 9712, and PCN schemes.",
-        type: "PDF Reference",
-        pages: "2 pages",
-        format: "PDF",
-        href: "/resources/training-requirements-matrix"
+        description: "Training hour requirements for NDT certification schemes — ASNT SNT-TC-1A, ISO 9712, and PCN. All methods + advanced (PAUT, TOFD, LRUT).",
+        type: "Editable Excel Matrix",
+        pages: "Single sheet",
+        format: "XLSX",
+        href: "/resources/training-requirements-matrix",
+        download: "/templates/training-requirements-matrix.xlsx",
     }
 ];
 
@@ -126,12 +132,19 @@ export default function ResourcesDownloads() {
                                             <span>{resource.type}</span>
                                             <span>{resource.pages}</span>
                                         </div>
-                                        <Link to={resource.href}>
-                                            <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition">
-                                                <Download className="w-4 h-4 mr-2" />
-                                                View & Download
-                                            </Button>
-                                        </Link>
+                                        <div className="space-y-2">
+                                            <a href={resource.download} download>
+                                                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                                                    <Download className="w-4 h-4 mr-2" />
+                                                    Download {resource.format}
+                                                </Button>
+                                            </a>
+                                            <Link to={resource.href}>
+                                                <Button variant="outline" className="w-full">
+                                                    Preview Content
+                                                </Button>
+                                            </Link>
+                                        </div>
                                     </CardContent>
                                 </Card>
                             </motion.div>

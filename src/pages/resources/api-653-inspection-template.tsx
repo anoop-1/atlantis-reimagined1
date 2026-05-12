@@ -72,20 +72,28 @@ export default function API653InspectionTemplate() {
               A structured inspection form template for above-ground storage tank (AST) inspections per API 653. Covers tank identification, external visual inspection, internal inspection with thickness readings, fitness-for-service calculations, and recommendations.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button
-                onClick={() => window.print()}
+              <a
+                href="/templates/api-653-tank-inspection-template.xlsx"
+                download
                 className="inline-flex items-center gap-2 bg-white text-[#004aad] px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
               >
-                <Printer className="w-5 h-5" />
-                Download PDF
-              </button>
-              <Link
-                to="/contact"
+                <Download className="w-5 h-5" />
+                Download Editable XLSX
+              </a>
+              <button
+                onClick={() => window.print()}
                 className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
               >
-                <Download className="w-5 h-5" />
-                Get Editable Version
-              </Link>
+                <Printer className="w-5 h-5" />
+                Print / Save as PDF
+              </button>
+              <a
+                href="mailto:info@atlantisndt.com?subject=API 653 Tank Inspection Template — Custom Request"
+                className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
+              >
+                <FileText className="w-5 h-5" />
+                Request Custom Build
+              </a>
             </div>
           </motion.div>
         </div>

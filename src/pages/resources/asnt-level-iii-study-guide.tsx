@@ -72,20 +72,28 @@ export default function ASNTLevelIIIStudyGuide() {
               A comprehensive exam preparation overview for the ASNT Level III certification. Covers exam format, topic areas for all six major NDT methods, key standards to study, preparation strategies, common failure areas, and exam-day tips.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button
-                onClick={() => window.print()}
+              <a
+                href="/templates/asnt-level-iii-study-guide.docx"
+                download
                 className="inline-flex items-center gap-2 bg-white text-[#004aad] px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
               >
-                <Printer className="w-5 h-5" />
-                Download PDF
-              </button>
-              <Link
-                to="/contact"
+                <Download className="w-5 h-5" />
+                Download Editable DOCX
+              </a>
+              <button
+                onClick={() => window.print()}
                 className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
               >
-                <Download className="w-5 h-5" />
-                Get Editable Version
-              </Link>
+                <Printer className="w-5 h-5" />
+                Print / Save as PDF
+              </button>
+              <a
+                href="mailto:info@atlantisndt.com?subject=ASNT Level III Study Guide — Demo / Enrollment"
+                className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
+              >
+                <FileText className="w-5 h-5" />
+                Enroll in Prep Course
+              </a>
             </div>
           </motion.div>
         </div>
