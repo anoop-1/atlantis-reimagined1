@@ -324,6 +324,16 @@ const NDTTrainingJakarta = lazy(() => import("./pages/ndt-training-jakarta"));
 const API653TrainingSaudiArabia = lazy(() => import("./pages/api-653-training-saudi-arabia"));
 const ErpModulesHub = lazy(() => import("./pages/ErpModulesHub"));
 const ErpIndustriesHub = lazy(() => import("./pages/ErpIndustriesHub"));
+const ErpCompareHub = lazy(() => import("./pages/ErpCompareHub"));
+const VsSapPm = lazy(() => import("./pages/compare/vs-sap-pm"));
+const VsMeridium = lazy(() => import("./pages/compare/vs-meridium"));
+const VsAspentechMtell = lazy(() => import("./pages/compare/vs-aspentech-mtell"));
+const VsGeVernovaApm = lazy(() => import("./pages/compare/vs-ge-vernova-apm"));
+const VsBentleyAssetwise = lazy(() => import("./pages/compare/vs-bentley-assetwise"));
+const VsNetsuite = lazy(() => import("./pages/compare/vs-netsuite"));
+const VsQuickbooks = lazy(() => import("./pages/compare/vs-quickbooks"));
+const VsProcore = lazy(() => import("./pages/compare/vs-procore"));
+const VsEtqReliance = lazy(() => import("./pages/compare/vs-etq-reliance"));
 const ErpMC_inventory_management_houston = lazy(() => import("./pages/erp-modules/inventory-management-houston"));
 const ErpMC_inventory_management_dubai = lazy(() => import("./pages/erp-modules/inventory-management-dubai"));
 const ErpMC_inventory_management_abu_dhabi = lazy(() => import("./pages/erp-modules/inventory-management-abu-dhabi"));
@@ -1602,6 +1612,16 @@ const App = () => (
                   <Route path="/api-653-training-saudi-arabia" element={<LazyRoute Component={API653TrainingSaudiArabia} />} />
                   <Route path="/erp-modules" element={<LazyRoute Component={ErpModulesHub} />} />
                   <Route path="/erp-industries" element={<LazyRoute Component={ErpIndustriesHub} />} />
+                  <Route path="/compare" element={<LazyRoute Component={ErpCompareHub} />} />
+                  <Route path="/compare/vs-sap-pm" element={<LazyRoute Component={VsSapPm} />} />
+                  <Route path="/compare/vs-meridium" element={<LazyRoute Component={VsMeridium} />} />
+                  <Route path="/compare/vs-aspentech-mtell" element={<LazyRoute Component={VsAspentechMtell} />} />
+                  <Route path="/compare/vs-ge-vernova-apm" element={<LazyRoute Component={VsGeVernovaApm} />} />
+                  <Route path="/compare/vs-bentley-assetwise" element={<LazyRoute Component={VsBentleyAssetwise} />} />
+                  <Route path="/compare/vs-netsuite" element={<LazyRoute Component={VsNetsuite} />} />
+                  <Route path="/compare/vs-quickbooks" element={<LazyRoute Component={VsQuickbooks} />} />
+                  <Route path="/compare/vs-procore" element={<LazyRoute Component={VsProcore} />} />
+                  <Route path="/compare/vs-etq-reliance" element={<LazyRoute Component={VsEtqReliance} />} />
                   <Route path="/erp-modules/inventory-management-houston" element={<LazyRoute Component={ErpMC_inventory_management_houston} />} />
                   <Route path="/erp-modules/inventory-management-dubai" element={<LazyRoute Component={ErpMC_inventory_management_dubai} />} />
                   <Route path="/erp-modules/inventory-management-abu-dhabi" element={<LazyRoute Component={ErpMC_inventory_management_abu_dhabi} />} />

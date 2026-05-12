@@ -1,0 +1,9 @@
+const VsSapPm = lazy(() => import("./pages/compare/vs-sap-pm"));
+const VsMeridium = lazy(() => import("./pages/compare/vs-meridium"));
+const VsAspentechMtell = lazy(() => import("./pages/compare/vs-aspentech-mtell"));
+const VsGeVernovaApm = lazy(() => import("./pages/compare/vs-ge-vernova-apm"));
+const VsBentleyAssetwise = lazy(() => import("./pages/compare/vs-bentley-assetwise"));
+const VsNetsuite = lazy(() => import("./pages/compare/vs-netsuite"));
+const VsQuickbooks = lazy(() => import("./pages/compare/vs-quickbooks"));
+const VsProcore = lazy(() => import("./pages/compare/vs-procore"));
+const VsEtqReliance = lazy(() => import("./pages/compare/vs-etq-reliance"));

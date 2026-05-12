@@ -1,0 +1,9 @@
+                  <Route path="/compare/vs-sap-pm" element={<LazyRoute Component={VsSapPm} />} />
+                  <Route path="/compare/vs-meridium" element={<LazyRoute Component={VsMeridium} />} />
+                  <Route path="/compare/vs-aspentech-mtell" element={<LazyRoute Component={VsAspentechMtell} />} />
+                  <Route path="/compare/vs-ge-vernova-apm" element={<LazyRoute Component={VsGeVernovaApm} />} />
+                  <Route path="/compare/vs-bentley-assetwise" element={<LazyRoute Component={VsBentleyAssetwise} />} />
+                  <Route path="/compare/vs-netsuite" element={<LazyRoute Component={VsNetsuite} />} />
+                  <Route path="/compare/vs-quickbooks" element={<LazyRoute Component={VsQuickbooks} />} />
+                  <Route path="/compare/vs-procore" element={<LazyRoute Component={VsProcore} />} />
+                  <Route path="/compare/vs-etq-reliance" element={<LazyRoute Component={VsEtqReliance} />} />
