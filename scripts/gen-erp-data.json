@@ -1,0 +1,652 @@
+{
+  "modules": [
+    {
+      "slug": "inventory-management",
+      "name": "Inventory Management",
+      "title": "Inventory Management Software for Inspection Companies",
+      "h1": "Inventory & Equipment Management Module",
+      "desc": "Track NDT equipment, probes, calibration blocks, consumables, and spare parts. Barcode/QR check-in/check-out, location tracking, usage logs, automated low-stock alerts. Built for inspection service providers across NDT, calibration, marine survey, and welding inspection.",
+      "intro": "Inspection equipment is expensive, mobile, and tightly regulated. A UT thickness gauge, an Olympus OmniScan, a radiography crawler, or a digital pressure calibrator can each cost $10,000–$80,000. Multiply that across a 20-technician inspection company and you have $500K–$3M of mobile assets that need to be tracked, calibrated, and accounted for on every job. Atlantis NDT ERP's inventory management module replaces the spreadsheet, the lost asset tag, and the equipment-room sign-out clipboard with a single barcode-driven system that knows where every probe, cable, calibration block, and consumable is — at all times.",
+      "features": [
+        "Asset register with serial numbers, purchase dates, warranty, and depreciation schedule",
+        "Barcode / QR code generation and label printing for fast physical tagging",
+        "Mobile check-out / check-in with technician + job + project assignment",
+        "Geofenced 'asset at site X' status with last-seen GPS coordinate",
+        "Calibration certificate attachment per asset with auto-expiry alerts (90/60/30 day)",
+        "Consumables tracking: couplant, penetrant, developer, radiography film, magnetic ink",
+        "Reorder-point automation with preferred-supplier purchase order generation",
+        "Probe library: PA wedges, UT angle beams, ET probes, eddy probes — with frequency, element count, scan pattern, life-cycle hours",
+        "Calibration block / reference standard tracking with traceable NIST / ISO 17025 chain",
+        "Radioactive source tracking with activity decay, expiry, transport documentation per IAEA TS-R-1",
+        "Tool damage & repair workflow with photo evidence and out-of-service flagging",
+        "Cost-recovery reporting per client / project for equipment usage chargeback"
+      ],
+      "useCases": [
+        "Multi-site NDT contractor managing 800+ probes across Houston, Dubai, and Mumbai offices",
+        "Calibration lab managing 5,000+ customer reference standards under ISO 17025",
+        "Marine survey company tracking ROV, dive computer, and gas analyzer fleets across vessels",
+        "Welding inspection firm managing CWI portable gauges and macro-etch kits across job sites",
+        "Radiography crew tracking Ir-192 / Se-75 source activity, decay, and shipment manifests"
+      ],
+      "industries": ["NDT inspection", "Calibration laboratories", "Marine survey", "Welding inspection", "Pipeline integrity", "Metrology labs"],
+      "integrations": ["SAP MM (Materials Management)", "Oracle Fusion Inventory", "QuickBooks Inventory", "Maximo Asset Mgmt", "Barcode scanners (Zebra, Honeywell, Datalogic)", "ISO 17025 calibration laboratories"],
+      "faqs": [
+        ["How does the system track NDT probe usage and life cycles?", "Each probe gets a barcode/QR tag. When a technician scans a probe on check-out the system logs technician, project, asset under test, and start time. On check-in it logs end time + auto-increments scan hours. PAUT wedges and PA probes have manufacturer-recommended life (typically 1,000–3,000 hours); when a probe approaches its limit the system flags it for inspection and the supervisor receives a dashboard alert."],
+        ["Can it manage radioactive sources for industrial radiography?", "Yes — the radioactive source module is built for IAEA TS-R-1 and US NRC 10 CFR 71 compliance. It tracks Ir-192 / Se-75 / Co-60 source serial numbers, current activity (auto-decayed from last measurement), expiry, shipment documentation, daily survey records, and technician dose exposure. Source-handling permits and route plans are stored against the asset with audit-ready PDF export."],
+        ["Does it integrate with existing CMMS systems like Maximo or SAP PM?", "Yes. Two-way integration with IBM Maximo, SAP PM, AspenTech Mtell, Bentley AssetWise, and Hexagon Meridium APM via REST API. Inventory transactions sync as movements; calibration records attach as asset documents; out-of-service flags raise notifications in the parent CMMS."],
+        ["How are consumables like couplant, penetrant, and film tracked?", "Consumables are managed by lot/batch number with quantity-on-hand decremented as technicians log usage on work orders. Reorder points trigger automated purchase requisitions to preferred suppliers. Expiry dates on penetrant fluids, developer, magnetic ink, and radiographic film are tracked and out-of-spec batches are auto-flagged for disposal documentation."],
+        ["Is the inventory module suitable for ISO 17025 calibration labs?", "Yes. The module supports the full traceability chain required by ISO/IEC 17025:2017 §6.4.6 — measurement equipment, reference standards, intermediate checks, environmental conditions, and uncertainty budgets. Customer-owned instruments can be tracked separately from in-house standards with full chain-of-custody from receipt through dispatch."]
+      ]
+    },
+    {
+      "slug": "certification-tracking",
+      "name": "Certification & Personnel Qualification",
+      "title": "NDT Certification & Personnel Qualification Tracking Software",
+      "h1": "Certification & Personnel Qualification Module",
+      "desc": "Track every ASNT, ISO 9712, PCN, CSWIP, AWS CWI, NACE, BGAS, API ICP, ASNT Level III, and client-specific qualification across your workforce. Automated 90/60/30-day expiry alerts. Audit-ready compliance dashboard.",
+      "intro": "An NDT, welding, or inspection service company lives or dies by the currency of its technicians' certifications. A single expired ASNT Level II certificate on the wrong job can cost the contract, fail an audit, and damage the relationship with a major operator. Most companies manage this in a spreadsheet that nobody updates. Atlantis NDT ERP's personnel qualification module is the single source of truth for every technician credential — automatically tracked, monitored, and surfaced before it lapses.",
+      "features": [
+        "Per-person credential register with scan + OCR of physical certificates",
+        "Multi-scheme support: ASNT SNT-TC-1A, CP-189, ACCP, ISO 9712, PCN, CSWIP, AWS CWI / SCWI / CAWI, AWS CWE / CWS, NACE CIP, BGAS-CSWIP, API 510 / 570 / 653 / 580, NACE / AMPP corrosion, NAS-410, ASNT Level III",
+        "Expiry-alert engine: dashboard + email + SMS at 180 / 90 / 60 / 30 / 7 day windows",
+        "Vision acuity testing tracker (Jaeger near vision + color discrimination) per ASNT requirements",
+        "Annual proficiency / retraining tracking with score and instructor signature",
+        "Method-specific scope (UT, RT, MT, PT, ET, VT, PAUT, TOFD, LRUT, ECA) per technician",
+        "Client-specific written practice + qualification scheme mapping (e.g., Saudi Aramco SAEP-1142, ADNOC ACS-01, Shell DEP, BP ETP, Petronas PTS)",
+        "Continuing education credit (CEC) and PDU tracking for ASNT, AWS, NACE renewals",
+        "Background-check, drug-test, OSHA / HAZWOPER, H2S Alive, BOSIET / HUET / FOET / TBOSIET expiry tracking",
+        "Per-job qualification matching: 'Find me 3 UT Level IIs available next week who hold valid CSWIP 3.1 and BOSIET'",
+        "Audit-ready PDF compliance package: any client, any auditor, any date — in 30 seconds",
+        "Multi-language certificate handling (Arabic, Mandarin, Spanish, Portuguese, French)"
+      ],
+      "useCases": [
+        "Inspection company on the Aramco approved-vendor list managing 60 SAEP-1142 qualified technicians",
+        "Aerospace NDT shop tracking NAS-410 qualifications + customer specifications (Boeing, Airbus, Bombardier)",
+        "Welding contractor maintaining 150 AWS CWIs across 12 states with state-specific licensing",
+        "Marine survey firm tracking IIMS, IMCA, CSWIP 3.1U / 3.2U underwater inspector qualifications",
+        "Pipeline integrity company managing API 1169, API 653, NACE CIP, and client-specific RBI team certifications"
+      ],
+      "industries": ["NDT inspection", "Welding & fabrication", "Aerospace QA", "Marine survey", "Pipeline integrity", "Coatings inspection"],
+      "integrations": ["Workday HCM", "BambooHR", "SAP SuccessFactors", "ADP Workforce", "SharePoint document libraries", "DocuSign / Adobe Sign for certificate signature"],
+      "faqs": [
+        ["Does it work with both SNT-TC-1A and ISO 9712 schemes simultaneously?", "Yes. Many inspection companies operate in markets requiring both — for example, a UAE company serving ADNOC (which accepts ASNT SNT-TC-1A) and operating in the EU (which requires ISO 9712). The system stores both qualification chains per technician with separate expiry, scope, and renewal workflows. Audit reports can be generated against either scheme or both."],
+        ["Can it match technician qualifications to job requirements automatically?", "Yes. When a project manager creates a job they specify required qualifications (e.g., 'UT Level II per SNT-TC-1A, valid BOSIET, ADNOC ACS-01 approved, English C1'). The system returns a ranked list of available technicians who match all criteria. Optional shadow-mode warns the project manager if any non-matching technicians are assigned."],
+        ["How are vision acuity and color discrimination test results tracked?", "Vision tests are required annually under SNT-TC-1A §8.4. The system stores Jaeger near-vision results (J1, J2, etc.), Ishihara color discrimination scores, and any corrective lens prescription on file. Tests expire 12 months after issue and 90-day reminders trigger automatically. Test result PDFs are attached to each technician profile for audit retrieval."],
+        ["Can clients verify technician qualifications through a secure portal?", "Yes. The client portal provides read-only verification — a client auditor can verify that 'Technician X holds valid UT Level II per SNT-TC-1A as of 2026-05-08' without seeing your full workforce. Access can be granted by job, project, or contract. All verification queries are logged for your records."],
+        ["How does it handle radiographer dosimetry and radiation badge records?", "Quarterly dosimetry results from your TLD/OSL badge service (Mirion, Landauer, etc.) are imported via CSV or API. The system tracks cumulative dose against the regulatory limit (50 mSv/year ICRP, 20 mSv/year EU, lower limits per region), flags any badge with elevated reading for investigation, and generates monthly and annual dose reports for regulatory submission."]
+      ]
+    },
+    {
+      "slug": "calibration-management",
+      "name": "Calibration Management",
+      "title": "Calibration Management Software — ISO 17025 / ANSI Z540 Compliant",
+      "h1": "Calibration Management Module",
+      "desc": "Manage calibration intervals, certificates, traceability chains, and uncertainty budgets for measurement equipment. ISO/IEC 17025:2017 + ANSI/NCSL Z540 compliant. Built for calibration laboratories AND inspection companies running in-house calibration programs.",
+      "intro": "Every gauge, meter, probe, and instrument used to make a measurement-of-record must be calibrated against traceable standards on a defined interval. For a calibration laboratory under ISO/IEC 17025 accreditation this is the entire business. For an inspection company it is a critical compliance function: an audit finding of 'instrument used past calibration due date' can void thousands of inspection reports retroactively. The calibration management module is the system of record for both.",
+      "features": [
+        "Per-asset calibration interval per ISO 17025 §6.4.7 with manufacturer-recommended overrides",
+        "Reference-standard traceability chain: NIST / NPL / PTB / NIM / NMIA-traceable to your customer's instrument",
+        "Uncertainty budget builder per JCGM 100:2008 (GUM) with Type A + Type B contributions",
+        "ISO 17025 §7.8 compliant calibration certificate generation with measurement results table, environmental conditions, uncertainty, decision rule",
+        "Customer asset register with separate ownership flag (in-house vs. customer-owned vs. loaner)",
+        "Calibration order workflow: receipt → environmental conditioning → calibration → review → dispatch",
+        "Out-of-tolerance handling per ISO 17025 §7.10: customer notification, retroactive measurement risk, recall workflow",
+        "Method validation register per ISO 17025 §7.2.2 with revalidation triggers",
+        "Inter-laboratory comparison and proficiency testing program tracker",
+        "Environmental condition logging (temperature, humidity, pressure) with stability tolerances per method",
+        "Decision rule library: ILAC G8, ASME B89.7.3.1, customer-specific risk-of-false-accept",
+        "Mass, dimensional, pressure, electrical, thermal, force, flow, optical disciplines — single platform"
+      ],
+      "useCases": [
+        "ISO 17025-accredited calibration laboratory with 5,000+ customer instruments under management",
+        "Aerospace MRO managing dimensional, pressure, and electrical calibration for AS9100 quality system",
+        "Pharmaceutical / biotech facility requiring 21 CFR Part 11 electronic-signature on every cal record",
+        "Inspection company running in-house calibration of UT thickness gauges, pressure test gauges, holiday detectors",
+        "Manufacturing quality department managing CMM and gauge calibration on production line"
+      ],
+      "industries": ["Calibration laboratories", "Metrology labs", "Aerospace & defense", "Pharmaceutical & biotech", "Power generation", "Oil & gas inspection"],
+      "integrations": ["Mitutoyo MeasurLink", "Fluke MET/CAL", "Beamex CMX", "ISO 17025 quality management systems", "ERP integration to SAP, Oracle, NetSuite", "LIMS systems (LabWare, STARLIMS, LabVantage)"],
+      "faqs": [
+        ["Is the platform ISO/IEC 17025:2017 accredited or audited?", "The platform is designed to be compliant with ISO/IEC 17025:2017 documentation requirements, but accreditation is granted to the laboratory, not the software. Atlantis NDT supports laboratories through ANAB, A2LA, UKAS, DAkkS, and NABL accreditation cycles with audit-ready document packages, change control records, and personnel competency files."],
+        ["Does it handle uncertainty budgets per the GUM (JCGM 100:2008)?", "Yes. The uncertainty builder supports Type A (statistical, from repeated measurements) and Type B (other, from calibration certificates and manufacturer specifications) contributions. Combined standard uncertainty and expanded uncertainty (k=2 typical) are calculated automatically. Sensitivity coefficients can be entered for non-trivial measurement models."],
+        ["Can it manage multi-discipline calibration — dimensional, electrical, pressure, mass?", "Yes. Method templates are provided for ~80 calibration disciplines including dimensional (gauge blocks, micrometers, CMMs), electrical (DMMs, oscilloscopes, calibrators), pressure (digital indicators, dead-weight testers, deadweight gauges), mass (analytical balances), thermal (RTDs, thermocouples, thermistors), and flow (gas meters, liquid flow rigs). Custom method templates can be added."],
+        ["How does it handle out-of-tolerance findings per ISO 17025 §7.10?", "When a measurement falls outside the assigned tolerance the system flags the certificate for review, records the as-found / as-left values, calculates the customer-impact window (instruments measured by this gauge since the last successful calibration), and generates a customer notification with retroactive measurement-risk statement. Recall and re-calibration workflow is automatic."],
+        ["Does it support 21 CFR Part 11 for pharmaceutical / biotech customers?", "Yes. Electronic-signature workflow, audit trail (who-did-what-when), data integrity attributes (ALCOA+), and validated electronic record retention are supported. The platform IQ/OQ/PQ validation package is available for customers operating under FDA, EMA, or ANVISA jurisdiction."]
+      ]
+    },
+    {
+      "slug": "work-order-management",
+      "name": "Work Order & Job Management",
+      "title": "Inspection Work Order & Job Management Software",
+      "h1": "Work Order & Job Management Module",
+      "desc": "End-to-end job lifecycle: quote → work order → resource assignment → field execution → report → invoice. Built for service inspection companies juggling 30–300 concurrent jobs across multiple clients and geographies.",
+      "intro": "An inspection company is a project-based business. Each job has a unique scope, a unique customer specification, a unique team, a unique timeline, and a unique compliance footprint. Managing 30–300 concurrent jobs in Excel and email destroys margin: missed billing, lost reports, double-booked technicians, and the silent killer — work scope creep that nobody captures or charges for. The work order module is the operational backbone of the platform.",
+      "features": [
+        "Quote → Work Order → Project hierarchy with parent-child relationships",
+        "Customer / contract / project / job / work order / line item — fully drilled-down billing structure",
+        "Resource assignment: technicians, equipment, vehicles, sub-contractors, accommodation",
+        "Per-line scope capture: method, asset, code, acceptance criteria, sample size, deliverable",
+        "Field-app job execution: clock-in, GPS check-in, photo capture, data entry, supervisor sign-off",
+        "Time, mileage, expense, per-diem capture with client billable / internal cost flags",
+        "Variation order workflow with customer e-signature for scope changes mid-job",
+        "Daily report (DPR) auto-generation: technicians worked, work completed, holds, photo summary",
+        "Job profitability dashboard: budgeted hrs vs. actual hrs, scope variation revenue, gross margin",
+        "Automated invoicing with line-item rates, day-rates, mileage, equipment usage chargeback",
+        "Customer portal: live job status, daily reports, draft / final reports, invoice copies",
+        "Sub-contractor and vendor management with PO, sub-cert tracking, payment status"
+      ],
+      "useCases": [
+        "NDT contractor running 80 concurrent jobs across 4 refinery turnarounds",
+        "Pipeline integrity company executing 250 IMP work orders against a 5-year MSA",
+        "Calibration lab managing 1,500 monthly customer work orders with 5-day turnaround SLA",
+        "Welding inspection company supporting 12 active EPC projects with daily reporting requirement",
+        "Marine survey firm dispatching 6 surveyors across Mediterranean ports on a rolling basis"
+      ],
+      "industries": ["NDT inspection", "Pipeline integrity", "Marine survey", "Welding inspection", "Calibration laboratories", "Industrial coatings", "Geotechnical engineering"],
+      "integrations": ["QuickBooks Online", "Xero", "SAP S/4HANA", "Oracle NetSuite", "Microsoft Dynamics 365 Finance", "Sage Intacct"],
+      "faqs": [
+        ["How does the system handle scope creep and variation orders mid-job?", "When a technician encounters out-of-scope work in the field they create a variation request from the mobile app — describing scope, estimated hours, and rate. The project manager reviews and forwards to the customer; the customer e-signs in the portal; only then is the work logged as billable. This eliminates the after-the-fact 'we forgot to charge for this' loss."],
+        ["Can the field app work offline at remote / offshore worksites?", "Yes. Field data entry, photo capture, signature collection, and supervisor sign-off all work offline. The app caches up to 30 days of work-order data locally. When connectivity is restored data syncs automatically with conflict detection and resolution. Suitable for offshore platforms, desert sites, remote pipelines, marine vessels."],
+        ["How are sub-contractor hours and invoices managed?", "Sub-contractor work orders mirror your internal work order structure with cost rates instead of bill rates. Sub-contractors enter their own time / mileage / expenses via a limited portal; you review and approve; the sub-contractor invoice is matched against the approved time and any variances flagged. Payment workflow integrates with your AP system."],
+        ["Does the customer portal show live job progress?", "Yes. The customer portal shows live job status per asset, work order, and project. Customers can view daily reports, photos, draft inspection reports, and project-level dashboards. Access can be restricted per user — a senior inspector might see all reports while a buyer sees only invoices and high-level status."],
+        ["Can it integrate with our existing accounting software for invoicing?", "Yes. Standard integrations with QuickBooks, Xero, NetSuite, Sage Intacct, SAP S/4HANA, and Microsoft Dynamics 365 push approved invoices to your AR ledger with proper customer, project, GL-code, and tax mapping. Sub-contractor bills flow to AP. Time-and-material work orders, fixed-price contracts, and milestone billing are all supported."]
+      ]
+    },
+    {
+      "slug": "inspection-scheduling",
+      "name": "Inspection Scheduling & Interval Management",
+      "title": "Inspection Scheduling Software — API 510/570/653 Interval Manager",
+      "h1": "Inspection Scheduling & Interval Management Module",
+      "desc": "Automate next-inspection-due calculations per API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), API 580 RBI, NB-23 NBIC, and client-specific intervals. Never miss an inspection due date again.",
+      "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability. The inspection scheduling module replaces the Excel tickler file with a code-aware interval engine that knows API 510, API 570, API 653, ASME B31.1, NB-23 NBIC, and dozens of client-specific written practices natively.",
+      "features": [
+        "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",
+        "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per RBI",
+        "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per RBI",
+        "ASME B31.3 process piping inspection intervals with severe cyclic service adjustments",
+        "Risk-based inspection (RBI) per API 581 — import RBI assessment, use computed inspection plan",
+        "Inspection due forecast: 30 / 60 / 90 / 180 / 365 day windows with criticality ranking",
+        "Per-circuit / per-TML scheduling with corrosion-rate based wall-thickness projection",
+        "Multi-method scheduling: same asset, different methods (UT, RT, MT, PT, VT) at different intervals",
+        "Shutdown / turnaround planning with resource leveling across simultaneous work fronts",
+        "Inspection result feedback loop: as-found wall thickness updates corrosion rate updates next due date",
+        "Regulatory deadline tracker: PSSR, OSHA PSM, EPA RMP, NRC, state boiler authority",
+        "Mobile field deferral workflow with engineering rationale + approval chain"
+      ],
+      "useCases": [
+        "Refinery integrity team scheduling 12,000 piping circuits with API 570 + API 581 RBI",
+        "Tank farm operator managing 600 ASTs across 14 terminals with API 653 schedules",
+        "Pressure-vessel inspector running an annual external inspection schedule for 1,200 vessels",
+        "Pipeline operator with 8,000 miles of regulated pipeline under DOT PHMSA / API 1160",
+        "Inspection contractor running multi-client interval-management on behalf of small operators"
+      ],
+      "industries": ["Oil & gas refining", "Petrochemical", "Pipeline operators", "Power generation", "Pharmaceutical / chemical plants", "Storage terminals"],
+      "integrations": ["IBM Maximo", "SAP PM", "Bentley AssetWise", "Hexagon Meridium APM", "AspenTech Mtell", "GE Vernova APM"],
+      "faqs": [
+        ["How does the scheduler handle deferrals or extensions to inspection due dates?", "The deferral workflow requires engineering justification — corrosion-rate analysis, RBI re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."],
+        ["Does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech)?", "Yes. Bi-directional integration with the major CMMS / EAM platforms. Inspection scheduling can be the master and push work orders into the CMMS, or the CMMS can be master and Atlantis ERP acts as the inspection-specific layer with code-aware scheduling logic. Asset hierarchies, equipment classes, and functional locations sync."],
+        ["Can it handle API 581 risk-based inspection (RBI) workflows?", "Yes. The system imports RBI assessments (POF/COF/risk matrix per API 581 §4 / §5), uses the resulting risk score to drive inspection plan (method, extent, interval), and tracks RBI revalidation triggers (operating condition change, NDE result change, time-since-last-RBI). The RBI dashboard shows risk trend per circuit / equipment."],
+        ["How are inspection results fed back to update corrosion rates and next-due dates?", "When a UT thickness reading is entered on a TML the system retrieves all prior readings on that TML, computes short-term and long-term corrosion rates per API 570 / API 653 methodology, calculates remaining life and remaining strength, and either confirms or shortens the next inspection interval. The new interval is recalculated on every measurement event."],
+        ["Does it cover non-API codes like ASME B31.3 or NB-23?", "Yes. The interval engine includes ASME B31.1 power piping, ASME B31.3 process piping, ASME B31.4 / B31.8 pipelines, NB-23 National Board Inspection Code, EN 13445 European pressure vessel inspection, AS/NZS 3788 Australian standards, and CSA B51 Canadian boiler & pressure vessel code. Client-specific written-practice intervals can override standards-derived defaults."]
+      ]
+    },
+    {
+      "slug": "audit-management",
+      "name": "Audit & Compliance Management",
+      "title": "Audit Management Software for Inspection & Service Companies",
+      "h1": "Audit & Compliance Management Module",
+      "desc": "Plan, execute, document, and close out internal audits, client audits, regulatory audits, and accreditation audits. ISO 9001, ISO 17025, ISO 45001, AS9100, ISO 14001, and client-specific audit schemes — single platform.",
+      "intro": "An inspection company faces audits from three directions: internal (your own QMS), external (client and regulator), and accreditation (ISO 17025, AS9100, ISO 9001). Failing any audit can mean lost contracts, suspended accreditations, regulatory penalties, and damaged reputation. The audit management module is the central nervous system for audit planning, execution, finding management, and closeout.",
+      "features": [
+        "Multi-standard audit checklist library: ISO 9001:2015, ISO/IEC 17025:2017, ISO 45001:2018, ISO 14001:2015, AS9100D, IATF 16949, API Q1/Q2, OSHA PSM, ISA-95",
+        "Annual audit schedule with risk-weighted frequency per area / process / supplier",
+        "Audit plan generator with scope, criteria, auditor assignment, opening / closing meeting agendas",
+        "Mobile audit execution: evidence capture (photo, document, witness statement), real-time finding entry",
+        "Finding classification: major NCR, minor NCR, observation, opportunity-for-improvement (OFI)",
+        "Root cause analysis (RCA) workflow: 5-Why, fishbone, fault tree, FMEA — with corrective action linkage",
+        "CAPA (corrective and preventive action) lifecycle: containment → root cause → corrective action → preventive action → effectiveness review",
+        "Supplier / sub-contractor audit module with approved-supplier register",
+        "Regulatory finding tracker (OSHA, EPA, state authority, federal authority) with response deadlines",
+        "Client audit response: standard responses, evidence packages, customer-specific quality clauses",
+        "Audit history dashboard: finding trends, repeat findings, area / process risk scoring",
+        "Document control integration: all audited documents and revisions cross-linked"
+      ],
+      "useCases": [
+        "ISO 17025 calibration lab maintaining accreditation across A2LA, UKAS, and DAkkS schemes",
+        "AS9100D-certified aerospace NDT shop responding to Boeing, Airbus, and Pratt & Whitney audits",
+        "Inspection contractor on Saudi Aramco, ADNOC, Shell, and Petronas approved-vendor lists",
+        "Pipeline integrity company subject to annual DOT PHMSA inspection authority audit",
+        "Welding fabrication shop with ASME 'U' / 'S' / 'PP' stamp requiring annual joint review"
+      ],
+      "industries": ["NDT inspection", "Calibration laboratories", "Welding & fabrication", "Aerospace QA", "Pipeline integrity", "Industrial coatings"],
+      "integrations": ["SharePoint", "ETQ Reliance", "MasterControl", "iManage", "BSI eQMS", "EtQ Verse"],
+      "faqs": [
+        ["Does it support multi-standard audits — ISO 9001 + ISO 17025 + ISO 45001 — in one walk-through?", "Yes. Integrated management system (IMS) audits are supported: a single audit can map findings to multiple standard clauses simultaneously. The checklist library lets you compose an audit from clauses across standards. Findings are tagged with all applicable clauses for proper containment and reporting."],
+        ["How is corrective action effectiveness verified after closure?", "Each corrective action has a follow-up review scheduled 60–180 days after closure (configurable per finding type). The reviewer assesses whether the same issue has recurred, samples performance data, and signs off effectiveness. Failed effectiveness reviews automatically reopen the finding for further root cause analysis."],
+        ["Can it generate evidence packages for client / regulator audits?", "Yes. The evidence package builder lets you select the scope (date range, audit type, asset / area, finding type) and assembles a PDF / ZIP with all relevant records: certificates, calibration records, inspection reports, personnel qualifications, training records, document revisions, and CAPA closures. Customer-specific filtering ensures clients see only their own data."],
+        ["How are repeat findings tracked and escalated?", "Each finding carries a category tag (e.g., 'inadequate personnel qualification', 'calibration program weakness'). When the same category appears in a subsequent audit the system flags it as a repeat finding and automatically escalates the corrective action to a higher review level with senior management notification. Repeat-finding trends are visible on the management review dashboard."],
+        ["Does it satisfy ISO 19011 internal audit competency requirements?", "ISO 19011:2018 requires auditors to demonstrate competence in audit principles, the management system being audited, and audit methods. The system tracks each auditor's competency profile, training history, audit experience hours, and peer review observations. Auditor qualification approval workflow ensures only qualified personnel are assigned to audits."]
+      ]
+    },
+    {
+      "slug": "document-control",
+      "name": "Document Control & QMS",
+      "title": "Document Control Software — ISO 9001 / ISO 17025 / AS9100 QMS",
+      "h1": "Document Control & QMS Module",
+      "desc": "Controlled-document lifecycle, revision history, distribution control, training acknowledgment, retention schedule, and obsolete-document withdrawal. Built for QMS compliance under ISO 9001, ISO 17025, AS9100, IATF 16949, and API Q1/Q2.",
+      "intro": "An inspection company's quality management system runs on documents: procedures, work instructions, calibration methods, inspection reports, certificates, training records, customer specifications. Lose control of those documents and the QMS audit fails. Atlantis NDT ERP's document control module is purpose-built for controlled documents — not a generic SharePoint folder dressed up with permissions.",
+      "features": [
+        "Controlled-document register with unique ID, title, owner, classification, retention schedule",
+        "Revision-controlled storage: every change creates a new revision with redline + author + reason",
+        "Author / reviewer / approver workflow with e-signature per 21 CFR Part 11 (optional)",
+        "Distribution list per document: who must read, who must train, who must acknowledge",
+        "Training acknowledgment tracking with read-and-understood signature per revision",
+        "Obsolete-document withdrawal with watermark + read-only flag (no silent deletion)",
+        "External / customer document import with controlled mark-up and cross-reference",
+        "Document search with full-text indexing across PDF, Word, Excel, and image attachments",
+        "Procedure deviation request workflow with engineering justification + approval chain",
+        "Document review scheduling per document classification (annual, biennial, on-change)",
+        "Audit-trail per document: every view, download, edit, approval — tamper-evident log",
+        "Multi-language document handling (Arabic, Chinese, Spanish, Portuguese, French, German)"
+      ],
+      "useCases": [
+        "ISO 17025 lab maintaining 350 controlled methods, procedures, and work instructions",
+        "Aerospace NDT shop under AS9100D managing customer-specific process specifications",
+        "Pharmaceutical / biotech facility requiring 21 CFR Part 11 electronic-record compliance",
+        "Inspection contractor maintaining client-specific written practices for ASNT SNT-TC-1A",
+        "Welding fabrication shop with ASME WPS / PQR library + customer-specific code variations"
+      ],
+      "industries": ["NDT inspection", "Calibration laboratories", "Aerospace QA", "Pharmaceutical / biotech", "Welding & fabrication", "Industrial coatings"],
+      "integrations": ["SharePoint Online", "Microsoft 365", "iManage", "MasterControl", "ETQ", "DocuSign / Adobe Sign"],
+      "faqs": [
+        ["How is revision control handled — can people accidentally use an obsolete document?", "Each document has only one current revision visible by default. Obsolete revisions are retained in the audit history but marked clearly with an obsolete watermark. Users cannot download or print obsolete revisions without explicit override (logged). The system enforces 'current revision only' on all distribution and training workflows."],
+        ["Does it support 21 CFR Part 11 electronic signatures for FDA / EMA regulated industries?", "Yes. Optional 21 CFR Part 11 mode enforces user authentication for every electronic signature event, captures meaning-of-signature, prevents repudiation, and produces a tamper-evident audit trail with secure time-stamping. The validation package includes IQ / OQ / PQ documentation for FDA, EMA, and ANVISA inspection."],
+        ["How does training acknowledgment work for new document revisions?", "When a controlled document is approved at a new revision, the distribution list is automatically generated based on document classification and assigned roles. Each person on the list receives an in-app + email notification with a read-and-acknowledge button. Training compliance is tracked at the role level (e.g., 'all UT Level II inspectors have read Procedure ABC-123 Rev 4')."],
+        ["Can we control customer-specific specifications and reference documents?", "Yes. Customer-supplied specifications (Boeing D-590, Airbus AITM, ADNOC ACS, Saudi Aramco SAEP, Shell DEP) can be imported as controlled external documents. Cross-references from your internal procedures to specific customer-spec sections are maintained — when the customer spec is updated, all internal procedures that reference it are flagged for review."],
+        ["What about retention schedules and document destruction?", "Each document classification has a retention schedule (e.g., 'inspection reports — 7 years post-project closeout', 'calibration certificates — 5 years from issue', 'controlled procedures — current revision plus 5 years'). When retention expires the document is auto-archived to a tamper-evident long-term store; destruction requires sign-off by the QMS manager with reason logged."]
+      ]
+    },
+    {
+      "slug": "asset-management",
+      "name": "Asset Integrity & Equipment Register",
+      "title": "Asset Integrity Management Software for Inspection Companies",
+      "h1": "Asset Integrity & Equipment Register Module",
+      "desc": "Pressure vessel, piping circuit, storage tank, heat exchanger, pipeline, and rotating equipment registers with hierarchical asset structure, damage mechanism tracking, and full inspection history.",
+      "intro": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, RBI assessments, fitness-for-service calculations, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs.",
+      "features": [
+        "Hierarchical asset structure: site → unit → system → equipment → component → TML",
+        "Equipment types: pressure vessel, piping circuit, storage tank, heat exchanger, fired heater, pump, compressor, exchanger tube bundle, valve, pipeline segment, structural member",
+        "Damage mechanism library per API 571 (172 mechanisms): identification, screening, susceptibility scoring",
+        "Integrity Operating Window (IOW) tracking with alarm levels (information / standard / critical)",
+        "TML (thickness measurement location) database with sketch, photograph, GPS, and historical readings",
+        "Corrosion rate computation (short / long term) per API 570 / API 653 methodology",
+        "Remaining-life calculation with t-min, t-required, design margin, and decision rule",
+        "Fitness-for-service screening per API 579-1 / ASME FFS-1 Level 1 calculations",
+        "Drawing / P&ID / isometric attachment per equipment with markup overlay",
+        "RBI risk score per circuit / equipment with POF + COF + risk matrix per API 581",
+        "Inspection plan per equipment: method, extent, interval, acceptance criteria, hold points",
+        "Historical inspection report archive linked to each TML and equipment"
+      ],
+      "useCases": [
+        "Refinery integrity team managing 12,000 piping circuits + 1,800 pressure vessels + 200 fired heaters",
+        "Pipeline operator with 8,000 miles of regulated pipeline under DOT PHMSA",
+        "Tank farm operator managing 600 ASTs across 14 terminals under API 653 program",
+        "Petrochemical company tracking damage mechanisms across cracker furnaces and reactors",
+        "Asset integrity consultant building out new integrity program from scratch for client"
+      ],
+      "industries": ["Oil & gas refining", "Petrochemical", "Pipeline operators", "Power generation", "Storage terminals", "LNG / cryogenic"],
+      "integrations": ["AspenTech Mtell", "Hexagon Meridium APM", "Bentley AssetWise", "GE Vernova APM", "IBM Maximo Asset Suite", "SAP S/4HANA Asset Management"],
+      "faqs": [
+        ["Can it import asset hierarchies from existing CMMS / APM systems?", "Yes. Bulk-import templates accept asset, equipment, functional location, and tag hierarchies from Maximo, SAP PM, AspenTech APM, Bentley AssetWise, and Hexagon Meridium. Equipment numbering schemes, parent-child relationships, and equipment-class attribute sets are preserved. Ongoing sync via REST API keeps systems aligned."],
+        ["Does it cover API 571 damage mechanisms with screening?", "Yes. The damage mechanism module includes all 172 mechanisms from API 571 (3rd edition) with material, environment, temperature, and operating-condition screening criteria. The DM screening report identifies which mechanisms apply to each equipment item with severity ranking and recommended inspection methods."],
+        ["Can it perform API 579-1 fitness-for-service screening?", "Yes — Level 1 FFS assessments for general metal loss (Part 4), local metal loss (Part 5), pitting (Part 6), HIC and blister (Part 7), weld misalignment (Part 8), and crack-like flaws (Part 9). Level 2 and Level 3 assessments are supported via integration with specialist FEA tools (Abaqus, ANSYS, COMSOL)."],
+        ["How are integrity operating windows (IOWs) tracked and alarmed?", "IOWs are defined per equipment with up to 3 alarm levels (information, standard, critical) for each operating parameter (temperature, pressure, fluid composition, flow rate). Real-time or daily-average data from plant historians (PI, Honeywell PHD, Aspen IP.21) feeds the IOW engine; exceedance triggers immediate alerts to the integrity engineer and routes to the deviation management workflow."],
+        ["Is the system used by owner-operators directly, or only inspection contractors?", "Both. Owner-operators use it to manage their integrity programs directly. Inspection contractors use it on behalf of clients (multi-client architecture isolates each client's data). The same data model and engine support both deployment patterns — the difference is access control, branding, and billing structure."]
+      ]
+    },
+    {
+      "slug": "corrosion-tracking",
+      "name": "Corrosion Tracking & RBI",
+      "title": "Corrosion Tracking & Risk-Based Inspection Software (API 581)",
+      "h1": "Corrosion Tracking & RBI Module",
+      "desc": "Corrosion rate trending, remaining-life calculation, damage mechanism screening, and risk-based inspection (RBI) per API 581. Native support for piping circuits, pressure vessels, storage tanks, heat exchangers, and pipelines.",
+      "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program. Atlantis NDT ERP's corrosion module is built around the API 510 / 570 / 653 / 571 / 580 / 581 framework that the inspection community uses every day.",
+      "features": [
+        "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",
+        "Wall-thickness projection with t-min, t-required, retirement-date forecasting",
+        "Damage mechanism screening per API 571 with susceptibility scoring",
+        "Risk-based inspection (RBI) per API 581: POF (damage factor) + COF (financial / safety / environmental)",
+        "RBI risk-matrix dashboard (5x5 typical) with equipment ranking by risk score",
+        "Inspection effectiveness scoring per API 581 Annex 2.C (highly effective / fairly effective / poorly effective)",
+        "RBI revalidation triggers: operating-condition change, NDE result change, time-since-last-RBI",
+        "Corrosion-circuit grouping by material + process service + temperature for efficient inspection coverage",
+        "Online corrosion monitoring data import from probes (Permasense, Cosasco, ROXAR, Honeywell Smart Pulse)",
+        "Damage-mechanism trending: same DM observed across multiple equipment / units / sites?",
+        "Process-data correlation: corrosion rate vs. sour-water concentration, NaOH dosing, sulfur loading",
+        "Engineering deliverable generation: API 510 / 570 / 653 inspection reports, RBI assessments, FFS screening"
+      ],
+      "useCases": [
+        "Refinery integrity engineer managing API 581 RBI program for 12,000 piping circuits",
+        "Petrochemical Level III consultant performing baseline RBI for new operator",
+        "Storage tank operator tracking floor-corrosion rates across 600 tanks (API 653)",
+        "Heat exchanger inspector evaluating tube-bundle corrosion patterns and retubing decisions",
+        "Pipeline operator using API 1160 + API 581 risk-based pipeline integrity management"
+      ],
+      "industries": ["Oil & gas refining", "Petrochemical", "Storage terminals", "Pipeline operators", "Power generation", "LNG / cryogenic"],
+      "integrations": ["Permasense corrosion probes", "Cosasco / Roxar / Honeywell Smart Pulse", "Plant historians (PI, Honeywell PHD, Aspen IP.21)", "Hexagon Meridium APM", "AspenTech Mtell", "GE Vernova APM"],
+      "faqs": [
+        ["Does it implement the full API 581 RBI methodology?", "Yes. Both Part 2 (qualitative) and Part 3 (quantitative) workflows are supported. The damage-factor calculation engine implements all DMs in API 581 Annex 2 — thinning, SCC, HTHA, brittle fracture, external corrosion, mechanical fatigue, etc. The COF engine implements both financial-consequence (modified Part 5) and safety / environmental consequence models. Risk = POF × COF per Part 3 §5."],
+        ["Can corrosion rates be computed automatically from UT thickness data?", "Yes. When UT thickness readings are entered against a TML the system recomputes short-term corrosion rate (most recent inspection vs. previous) and long-term corrosion rate (most recent vs. baseline). Both rates are stored and the larger absolute value is used for projection per API 570 §7.1.1 / API 653 §6.4. Outlier readings are auto-flagged for inspector review."],
+        ["Does it import data from online corrosion-monitoring probes?", "Yes. Real-time or daily-average data from Permasense WT, Cosasco galvanic probes, Roxar pipe-clamp probes, Honeywell Smart Pulse, and Emerson Plantweb is supported via REST / OPC UA / MQTT. Probe data feeds the same corrosion rate engine as off-line UT readings. Correlation analysis tools identify probe vs. UT discrepancies."],
+        ["How are damage mechanisms screened against equipment?", "API 571 DM screening logic uses material (Cr-Mo, austenitic, duplex, etc.), service environment (sour, caustic, amine, hydrofluoric, etc.), temperature window, and operating conditions to identify which of the 172 DMs apply to each equipment item. The output is a DM susceptibility report with recommended inspection methods, locations, and intervals."],
+        ["Can we run RBI assessments offline / in a desktop environment for confidential data?", "Yes. An on-premise deployment option runs the full RBI engine inside the customer's network with no external connectivity required. Air-gap deployment is supported for nuclear, defense, and security-sensitive customers. Read-only audit access can be granted via VPN or jump-host without exposing the data layer."]
+      ]
+    },
+    {
+      "slug": "quality-management",
+      "name": "Quality Management & NCR",
+      "title": "Quality Management Software for Inspection & Service Companies",
+      "h1": "Quality Management & NCR Module",
+      "desc": "Non-conformance reports (NCR), corrective and preventive action (CAPA), supplier quality, customer complaint management, management review — full ISO 9001:2015 / ISO 17025:2017 / AS9100D / IATF 16949 QMS support.",
+      "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper. Atlantis NDT ERP's QMS module provides the operational machinery: nonconformance logging, root-cause analysis, corrective and preventive action lifecycle, supplier quality scoring, customer-complaint handling, and management-review dashboards.",
+      "features": [
+        "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",
+        "Root cause analysis tools: 5-Why, fishbone (Ishikawa), fault tree, FMEA",
+        "CAPA lifecycle: corrective action → preventive action → effectiveness review",
+        "Customer complaint intake and tracking with response-time SLA",
+        "Supplier quality scorecard: on-time delivery, defect rate, audit performance, recall history",
+        "Internal audit + external audit + accreditation audit integration (links to Audit Management module)",
+        "Management review dashboard: KPI trending, finding trends, customer satisfaction, complaint trends",
+        "ISO 9001:2015 Clause 9 (performance evaluation) data capture",
+        "Quality cost tracking: prevention, appraisal, internal failure, external failure",
+        "Customer satisfaction survey workflow with auto-distribution and response capture",
+        "Quality objectives + targets tracker per ISO 9001 §6.2",
+        "Risk register per ISO 9001 §6.1 with mitigation tracking"
+      ],
+      "useCases": [
+        "ISO 9001 / ISO 17025 / ISO 45001 integrated management system",
+        "AS9100D aerospace QMS with customer-specific quality clauses (Boeing, Airbus, Pratt & Whitney)",
+        "IATF 16949 automotive supply chain quality system",
+        "API Q1 / Q2 oilfield equipment / service quality management",
+        "Inspection contractor with multi-client quality requirements"
+      ],
+      "industries": ["NDT inspection", "Aerospace QA", "Automotive QA", "Welding & fabrication", "Calibration laboratories", "Industrial coatings"],
+      "integrations": ["MasterControl", "ETQ Reliance", "Sparta TrackWise", "Pilgrim SmartSolve", "Veeva QualityOne", "iso quality systems"],
+      "faqs": [
+        ["How is the NCR → CAPA workflow structured?", "An NCR is opened on discovery (audit finding, customer complaint, internal observation, recurring issue). The workflow forces containment first (stop the bleeding), then investigation (root cause), then corrective action (fix this occurrence), then preventive action (stop it happening elsewhere). Effectiveness review 60–180 days later verifies the fix held. Each stage has a responsible owner, target date, and approval signature."],
+        ["Does it support AS9100D customer-specific quality clauses?", "Yes. AS9100D §4.4 requires that customer-specific quality clauses (e.g., Boeing D6-82479, Airbus PSPs, Pratt & Whitney ASQR-01) are flow-down to internal processes. The system maintains a customer-clause register with cross-reference to internal procedures, training records, and audit evidence."],
+        ["How is supplier quality scored and monitored?", "Each supplier (sub-contractor, material supplier, calibration service) has a quality scorecard tracking on-time delivery %, defect rate (PPM), audit performance, recall history, and response-time SLA. Scorecards auto-update from work order, NCR, and audit data. Suppliers below threshold are flagged for re-evaluation or removal from the approved-supplier list."],
+        ["Does it generate management review packages per ISO 9001 §9.3?", "Yes. The management review pack auto-assembles the inputs required by ISO 9001 §9.3.2: customer satisfaction, audit results, supplier performance, NCR / CAPA trends, KPI achievement, risk register status, opportunities for improvement, and process performance data. Outputs (decisions, actions, resources) are captured in the same record."],
+        ["How are quality objectives + KPIs tracked over time?", "Quality objectives are defined per ISO 9001 §6.2 with measurable target, owner, reporting frequency, and data source. KPIs update automatically from underlying transactional data (work orders, NCRs, customer satisfaction surveys). Trend charts, target-vs-actual gauges, and exception alerts surface on the management dashboard."]
+      ]
+    },
+    {
+      "slug": "project-management",
+      "name": "Project Management & Turnaround Support",
+      "title": "Project Management Software for Inspection Projects & Turnarounds",
+      "h1": "Project Management & Turnaround Support Module",
+      "desc": "Multi-discipline project planning, resource leveling, daily reporting, hold-point management, and budget tracking for inspection projects ranging from single-shift jobs to 90-day refinery turnarounds.",
+      "intro": "Inspection on a major project is project management at industrial scale: 200 inspectors across 5 work fronts, 24-hour operation, holds at 12 critical inspection points, daily delivery of inspection reports to the EPC contractor, and a 90-day window before commissioning. Spreadsheets and email simply cannot manage this. The project management module is built for the largest turnaround / shutdown / new-build inspection campaigns.",
+      "features": [
+        "Project / sub-project hierarchy with parent project for major turnaround campaigns",
+        "WBS (work breakdown structure) per project with budget, schedule, resource forecast",
+        "Resource leveling across simultaneous work fronts (UT crew, RT crew, PT crew, supervision)",
+        "Shift scheduling for 24/7 operations with handover documentation",
+        "Hold-point management: customer / regulatory / engineering hold definitions and notification workflow",
+        "Daily progress report (DPR) with inspection counts, holds, photo summary, blockers, manpower",
+        "Earned value management (EVM): planned value, earned value, actual cost, CPI, SPI",
+        "Sub-contractor coordination with PO, sub-cert tracking, and payment milestones",
+        "Mobilization / demobilization checklists per project",
+        "Project-specific document control: customer specifications, procedures, QPs, ITPs",
+        "Risk register per project with mitigation tracking",
+        "Lessons-learned capture and roll-forward to next project"
+      ],
+      "useCases": [
+        "90-day refinery turnaround with 250 inspectors across 8 process units",
+        "Greenfield petrochemical plant commissioning with 18-month inspection campaign",
+        "Pipeline construction project with 800 km of new-build inspection per API 1104",
+        "LNG terminal hydrotest and pre-commissioning inspection program",
+        "FPSO conversion project at shipyard with multi-discipline inspection scope"
+      ],
+      "industries": ["Oil & gas refining", "Petrochemical turnarounds", "Pipeline construction", "LNG construction", "FPSO conversion", "Shipyard new-build"],
+      "integrations": ["Primavera P6", "Microsoft Project", "Procore", "Bentley SYNCHRO", "Aconex / Oracle CCMP", "InEight"],
+      "faqs": [
+        ["How does the system handle hold points and notification of customer / engineer?", "Hold points are defined per work order with hold type (W = witness, H = hold, R = review). When the work approaches a hold point the field app prompts the technician to issue a notification 24–48 hours in advance per the project's notification matrix. The customer / engineer confirms attendance; if waived, the witness/hold is automatically released with rationale logged."],
+        ["Can it integrate with Primavera P6 or Microsoft Project for schedule?", "Yes. The project schedule can be authored in Primavera P6 or MS Project and imported via XML / XER. Inspection activities are mapped to schedule activities; progress flows back from inspection completion data to the schedule. Bi-directional integration keeps the inspection plan and the project schedule aligned at all times."],
+        ["How are daily progress reports (DPRs) generated?", "DPRs are auto-assembled from field-app data at end-of-shift: inspections completed (count by method), holds active, blockers reported, photo gallery, manpower count, equipment status, and HSE incidents. The supervisor reviews, adds narrative, and submits. Customer-format templates ensure the DPR matches the EPC contractor's requirements."],
+        ["Does it support 24-hour shift operations with handover?", "Yes. Shift handover at change-of-watch is supported with a formal handover document covering work-in-progress, holds, customer concerns, and HSE notes. The incoming supervisor signs receipt; the outgoing supervisor signs off. The handover document becomes part of the project record."],
+        ["How is earned value (EV) calculated for inspection campaigns?", "Per work-package planned hours and budgeted cost. As inspections are completed against the WBS, earned value accrues at the budgeted rate for completed work. Cost performance index (CPI = EV/AC) and schedule performance index (SPI = EV/PV) update in real time, with forecast at completion (FAC) and estimate to complete (ETC) projected from current trends."]
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "slug": "ndt-inspection-companies",
+      "name": "NDT Inspection Companies",
+      "title": "ERP Software for NDT Inspection Companies",
+      "h1": "ERP for NDT Inspection Service Companies",
+      "desc": "Purpose-built ERP for non-destructive testing (NDT) inspection service providers. ASNT, ISO 9712, PCN, API 510/570/653 certification tracking, work-order management, corrosion data trending, inspection report generation, and multi-client compliance dashboards.",
+      "intro": "An NDT inspection service company is a unique kind of business. You ship intellectual property (a signed inspection report) generated by certified personnel using calibrated equipment, executed against codes that change every two years, billed to dozens of clients with overlapping but contradictory quality requirements. Generic ERP software (SAP Business One, NetSuite, Microsoft Dynamics) does not understand any of this. Atlantis NDT ERP was built specifically for NDT inspection companies — by an ASNT Level III who has run an NDT business and felt every pain point.",
+      "modules": ["certification-tracking", "work-order-management", "inspection-scheduling", "asset-management", "corrosion-tracking", "quality-management", "document-control", "inventory-management"],
+      "regs": ["ASNT SNT-TC-1A / CP-189 / ACCP", "ISO 9712:2021", "PCN GEN", "CSWIP 3.1 / 3.2 / 3.3", "AWS QC1", "NAS-410 Rev 5", "API ICP — 510 / 570 / 580 / 653", "ASME Section V", "ASME Section VIII Division 1", "ASME B31.3", "ISO 9001:2015", "ISO/IEC 17025:2017", "AS9100D"],
+      "operators": ["Saudi Aramco — SAEP-1142", "ADNOC — ACS-01", "QatarEnergy — NFPS", "Shell — DEP", "BP — ETP / GIS", "ExxonMobil — GP", "Chevron — CC-CHV", "TotalEnergies — TGS / GS-PVV", "Petronas — PTS", "Reliance — RIL Quality"],
+      "pain": ["Spreadsheets tracking 50+ technician certifications across multiple schemes — always 2 months behind reality", "Manual API 510 / 570 / 653 inspection interval tracking — frequent missed due dates", "Word / Excel report templates per client — hours wasted on formatting", "No corrosion-rate trending — engineers re-calculate from scratch each inspection", "Multi-client compliance dashboards built ad-hoc by office admin — not auditable"],
+      "faqs": [
+        ["What makes a 'purpose-built NDT ERP' different from generic ERP like NetSuite or SAP?", "Generic ERPs are designed for accounting, inventory, and order processing — none of which require knowledge of API 510, ASNT, or radiography. Atlantis NDT ERP includes the inspection-specific functions: certification expiry tracking against ASNT / ISO 9712 / PCN / CSWIP schemes natively, inspection scheduling per API 510/570/653 code intervals, corrosion-rate calculation per API methodology, RBI per API 581, and report templates that match the dozen API formats your customers expect. A generic ERP would require 6–18 months of custom development to achieve a fraction of this."],
+        ["Does it work for a 5-person NDT shop or only large multinationals?", "Both. Atlantis NDT ERP is delivered as a multi-tenant SaaS — a 5-person NDT contractor pays a small monthly subscription and uses the same platform as a 500-person inspection multinational. The data model and feature set scale with the customer; you only pay for the seats and modules you need. Typical NDT-shop pricing starts at $300/month for a 3-user package."],
+        ["Can it manage Saudi Aramco SAEP-1142 / ADNOC ACS-01 / Petronas PTS qualification schemes?", "Yes. Major-operator qualification schemes are configured natively: Saudi Aramco SAEP-1112 / SAEP-1142, ADNOC Company Standards (ACS), QatarEnergy NFPS, Shell DEP, BP ETP, Petronas PTS, and others are pre-loaded with their scope-of-work, qualification-prerequisite, and renewal-cycle definitions. Each technician carries a qualification matrix showing all current operator-approved scopes."],
+        ["How does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech APM)?", "Bi-directional REST API integration. The CMMS owns the equipment register and work-order origination; Atlantis NDT ERP receives the work orders and adds the inspection-specific layer (method, technician qualification matching, inspection plan, code-specific report). Inspection completion data + as-found wall thickness flow back to the CMMS to update equipment condition."],
+        ["What about deployment in confidential / air-gapped environments — defense, nuclear, refining?", "On-premise deployment is supported for customers requiring air-gap separation from public networks. The same product runs inside the customer's data center with no outbound dependencies. Customer-managed encryption keys, customer-managed identity (LDAP / Active Directory / SAML), and customer-managed backup are standard."]
+      ]
+    },
+    {
+      "slug": "calibration-laboratories",
+      "name": "Calibration Laboratories",
+      "title": "ERP & LIMS Software for Calibration Laboratories (ISO 17025)",
+      "h1": "ERP for ISO/IEC 17025 Calibration Laboratories",
+      "desc": "End-to-end calibration laboratory management: customer instrument receipt, environmental conditioning, calibration execution, uncertainty budgeting, ISO 17025 §7.8 compliant certificate generation, customer dispatch, and accreditation audit support.",
+      "intro": "A calibration laboratory is a high-throughput, high-precision, audit-intensive business. Hundreds of customer instruments arrive each week. Each must be received, conditioned, calibrated by a competent technician on traceable standards, documented per ISO/IEC 17025:2017 §7.8, certified, and dispatched on a tight SLA. The accreditation body (A2LA, UKAS, DAkkS, NABL, ANAB, NATA) audits annually. Atlantis ERP's calibration-lab configuration is built for ISO 17025 from day one.",
+      "modules": ["calibration-management", "work-order-management", "certification-tracking", "audit-management", "document-control", "quality-management", "inventory-management", "asset-management"],
+      "regs": ["ISO/IEC 17025:2017", "ANSI/NCSL Z540.1 / Z540.3", "ISO 10012:2003", "ILAC P14 (uncertainty)", "JCGM 100:2008 (GUM)", "JCGM 200:2012 (VIM)", "EA-4/02 (uncertainty)", "ASTM E2935 (decision rules)", "ANAB / A2LA / UKAS / DAkkS / NABL accreditation"],
+      "operators": ["Mitutoyo (instrument supplier)", "Fluke Calibration (instrument supplier)", "Beamex (instrument supplier)", "NIST (national standards — US)", "NPL (national standards — UK)", "PTB (national standards — DE)", "BIPM (international)", "Major aerospace primes (Boeing, Airbus, RTX)", "Pharmaceutical OEMs (Pfizer, GSK, J&J, Novartis)"],
+      "pain": ["Excel-based uncertainty budgets — error-prone, no version control, audit nightmare", "Word / PDF certificate generation — slow, no validation, inconsistent format", "Customer-asset tracking in disparate folders — instruments lost on-site, repeat customer enquiries", "Manual ISO 17025 §7.10 out-of-tolerance handling — customer-impact analysis missed", "No reliable proficiency-testing / interlab-comparison tracker — accreditation finding"],
+      "faqs": [
+        ["Is the system ISO 17025:2017 accredited or merely 'compliant'?", "Software cannot be accredited — only the laboratory is. The system is designed to support ISO/IEC 17025:2017 §7.8 (reporting), §7.10 (nonconforming work), §6.4 (equipment), §6.6 (externally provided products and services), §7.2 (selection / verification of methods), and §7.6 (uncertainty). Laboratories using the system have been audited successfully by ANAB, A2LA, UKAS, DAkkS, and NABL with zero software-related findings."],
+        ["Does it handle uncertainty budgets per the GUM (JCGM 100:2008)?", "Yes. Type A (statistical, from repeated measurements) and Type B (other, from cert / spec / experience) contributions, sensitivity coefficients (∂y/∂xi), combined standard uncertainty, expanded uncertainty (k=2 typical for 95.45% coverage), and effective degrees of freedom (Welch-Satterthwaite). The uncertainty budget is reproducible, auditable, and exportable."],
+        ["Can the laboratory operate multi-discipline — dimensional, pressure, mass, electrical, thermal — on one platform?", "Yes. Method templates exist for ~80 calibration disciplines and custom templates can be added. Cross-discipline reporting is unified — a customer dispatch can contain instruments calibrated by 3 different disciplines on a single certificate package, with discipline-specific uncertainty and traceability chain."],
+        ["How is the ISO 17025 §7.10 out-of-tolerance workflow handled?", "When an as-found measurement falls outside tolerance the system flags the certificate, records as-found / as-left values, identifies the affected customer instruments and their use history, and generates a customer notification with retroactive-measurement-risk statement. The customer can request recall and re-calibration of any instruments measured by the suspect gauge during the at-risk period."],
+        ["Does it support 21 CFR Part 11 for pharmaceutical / biotech customer instruments?", "Yes. Optional 21 CFR Part 11 mode enforces electronic-signature with meaning-of-signature, complete audit trail, and tamper-evident time-stamping. The IQ / OQ / PQ validation package is available for FDA / EMA / ANVISA-regulated customers requiring vendor-validated electronic record systems."]
+      ]
+    },
+    {
+      "slug": "welding-fabrication-shops",
+      "name": "Welding & Fabrication Shops",
+      "title": "ERP for Welding & Fabrication Shops (AWS, ASME, EN ISO)",
+      "h1": "ERP for Welding & Fabrication Shops",
+      "desc": "WPS / PQR / WPQ library, welder qualification tracking, ASME 'U' / 'S' / 'PP' stamp compliance, AWS D1.1 / D1.5 / D14 work order management, weld map traceability, NDE coordination, and customer-specific quality flow-down.",
+      "intro": "A welding fabrication shop runs on certified procedures and qualified welders. AWS D1.1 structural steel, ASME Section IX boiler & pressure vessel code, EN ISO 15614 European pipeline welding, API 1104 pipeline construction — each governs how welding is done, how welders are qualified, and how each weld is documented. Add ASME 'U' stamp, 'S' stamp, 'PP' stamp, 'R' stamp — the joint review and quality system are formal contracts. The welding fabrication ERP is the operational system that keeps the shop compliant and profitable.",
+      "modules": ["certification-tracking", "work-order-management", "document-control", "quality-management", "audit-management", "asset-management", "inventory-management", "project-management"],
+      "regs": ["AWS D1.1 / D1.5 / D1.6 / D14", "ASME Section IX", "ASME Section VIII Division 1", "ASME B31.1 / B31.3", "API 1104", "EN ISO 15614 / 9606 / 14732", "AS/NZS 3992", "ASME 'U' / 'S' / 'PP' / 'R' / 'NR' stamps", "ISO 3834-2 / ISO 9001"],
+      "operators": ["Bechtel — civil / structural", "Fluor — EPC", "TechnipFMC — subsea", "McDermott — offshore", "Saipem — offshore / pipeline", "MMR Group — power generation", "Wood / Worley — refinery", "AECOM — defense / civil", "Black & Veatch — power / water"],
+      "pain": ["WPS / PQR library in shared drive — outdated revisions used in field", "Welder continuity logged on paper — qualification expires mid-job, work rejected", "Weld map maintained in CAD — not linked to inspection or NDE results", "ASME 'U' stamp joint-review evidence assembled manually before each audit — 80 hours of work", "Customer quality clauses flow-down is informal — internal procedures lag customer revisions"],
+      "faqs": [
+        ["How are WPS / PQR / WPQ records managed?", "The welding-procedure library stores each WPS with linked PQR(s) and supports change-control workflow. WPS revisions are linked to applicable joint design, base materials, filler metals, position, and qualification ranges per ASME Section IX QW-200. Welder qualification (WPQ) is tracked per ASME QW-300 with continuity log (3-month rolling) and renewal triggers."],
+        ["Does it support ASME 'U' / 'S' / 'PP' joint review preparation?", "Yes. The joint-review evidence package builder assembles WPS, PQR, WPQ continuity, calibration certificates, material certs, NDE records, hydrotest records, and personnel qualifications for each pressure-retaining item. The package is presented in the ASME-required structure with reviewer cross-reference. Typical preparation time drops from 80 hours to under 4 hours per pressure vessel."],
+        ["Can welder continuity be tracked across multiple shops / sites?", "Yes. A welder's continuity log is maintained centrally regardless of which fabrication facility they are working at. ASME Section IX QW-322 requires that a welder demonstrate use of the qualified process within 6 months; the system tracks every weld performed by the welder and flags continuity-loss risk 60 days in advance."],
+        ["How is weld-map linked to NDE / inspection / hydrotest records?", "Each weld in the weld map carries a unique weld ID. NDE results (RT, UT, MT, PT), PWHT records, hydrotest records, and final acceptance are linked to the weld ID. A weld card can be retrieved for any weld showing the full life cycle from procedure qualification to final acceptance — supporting the ASME, AWS, and customer-specific traceability requirements."],
+        ["Does it manage customer-specific quality clauses (Boeing D-590, AITM, ADNOC ACS-01)?", "Yes. Customer-specific quality requirements are imported as controlled documents with revision tracking. Internal procedures that flow-down a specific customer clause are cross-referenced; when the customer revises the clause, all affected internal procedures are flagged for review per ISO 9001 / AS9100D §4.4 flow-down requirements."]
+      ]
+    },
+    {
+      "slug": "marine-survey-companies",
+      "name": "Marine Survey & Offshore Inspection",
+      "title": "ERP for Marine Survey & Offshore Inspection Companies",
+      "h1": "ERP for Marine Survey & Offshore Inspection",
+      "desc": "Hull condition surveys, class-society alignment (DNV, ABS, LR, BV, ClassNK, RINA, KR), IMCA D-018 IRM, offshore inspection campaign management, ROV operations, and FPSO life-extension assessment workflows.",
+      "intro": "Marine survey and offshore inspection sit at the intersection of class-society rules, flag-state requirements, IMO regulations, and operator-specific integrity programs. A surveyor in Singapore today might inspect a Panama-flagged tanker classed by DNV, en route to Houston where USCG will inspect on arrival, with cargo destined for an EU port. Atlantis ERP's marine-survey configuration manages this complexity natively.",
+      "modules": ["work-order-management", "certification-tracking", "asset-management", "project-management", "document-control", "quality-management", "audit-management", "inventory-management"],
+      "regs": ["IMO MARPOL / SOLAS / STCW", "IACS UR / common rules", "DNV / ABS / LR / BV / ClassNK / RINA / KR class rules", "IMCA D-018 IRM (offshore IRM)", "IMCA C-002 (diving inspection)", "API RP 2A (offshore platforms)", "API RP 17B (subsea)", "ISO 19901-9 (offshore reliability)", "STCW certification"],
+      "operators": ["Shell — upstream / marine", "BP — marine", "TotalEnergies — FPSO operations", "Equinor — Norwegian shelf", "MODEC — FPSO operator", "SBM Offshore — FPSO", "Yinson — FPSO", "Bumi Armada — FPSO", "Lloyd's Register (class)", "DNV (class)"],
+      "pain": ["IACS class-society reporting in Word / Excel — manual reformatting per society", "ROV inspection footage management — terabytes of video without indexing", "IMCA D-018 inspection-record format compliance — paper records in field", "FPSO surveyor team rotation — qualifications expire mid-tour", "Hull life-extension assessment — corrosion / cracking data scattered across legacy surveys"],
+      "faqs": [
+        ["Does it support IMCA D-018 inspection record formats?", "Yes. IMCA D-018 Inspection, Repair and Maintenance (IRM) record formats are native. Inspection findings with type, location (member ID + coordinate), severity, and recommendation are captured per IMCA template. Photo / video evidence attaches per finding. ROV inspection runs link to subsea inspection record. Output PDF matches the IMCA standard format expected by class and operator."],
+        ["How are class-society survey records organized?", "Each vessel has a survey schedule per class (DNV / ABS / LR / BV / ClassNK / RINA / KR) covering annual, intermediate, renewal, dry-dock, in-water, and continuous machinery survey cycles. Each survey item has its scope, methodology, surveyor, and result. Class society reporting formats (PDF and class-society electronic submission) are generated from the underlying records."],
+        ["Can it manage ROV inspection footage and findings?", "Yes. ROV video files (typically MP4 / MOV) are attached per inspection run with timestamp and bottom-time metadata. Findings are indexed at video timecode — a click jumps to the relevant footage. Video is stored in cloud object storage with bandwidth-friendly streaming and high-resolution download for review. Class-society submission packages include indexed video clips and still frames."],
+        ["How is FPSO life-extension assessment supported?", "FPSO life-extension under DNV-OS-C401 / API RP 2FPS requires aggregation of decades of hull, mooring, riser, topside, and process-equipment inspection data. The system maintains a unified asset register with all inspection history, fatigue analysis data, corrosion mapping, and remaining-life forecast per structural element. Life-extension assessment reports are assembled from the underlying data."],
+        ["Does it handle STCW + IMCA + class-society qualification for surveyors?", "Yes. Surveyor qualifications under STCW (Standards of Training, Certification and Watchkeeping), IMCA Diver Medical Examiner / IRM Inspector, class-society Senior Surveyor accreditation, CSWIP 3.1U / 3.2U / 3.3U underwater inspector, and IIMS marine surveyor certificates are tracked with expiry alerts. Mobilization checklists ensure no surveyor sails without all required qualifications current."]
+      ]
+    },
+    {
+      "slug": "pipeline-integrity-services",
+      "name": "Pipeline Integrity & ILI Services",
+      "title": "ERP for Pipeline Integrity & ILI Inspection Companies",
+      "h1": "ERP for Pipeline Integrity & ILI Service Companies",
+      "desc": "In-line inspection (ILI) tool deployments, MFL / UT / EMAT / caliper data management, API 1163 inspection plans, API 1160 IMP support, DOT PHMSA reporting, threat-assessment per ASME B31.8S, and dig verification workflows.",
+      "intro": "Pipeline integrity is a globally regulated, data-intensive discipline. An ILI vendor running a smart pig through 800 km of refined-products pipeline generates terabytes of MFL / UT / EMAT / caliper data, hundreds of anomaly call-outs, dozens of dig verifications, and a regulatory deliverable to DOT PHMSA / Canada Energy Regulator / EU pipeline authority. The pipeline-integrity ERP is built for this end-to-end workflow.",
+      "modules": ["asset-management", "corrosion-tracking", "work-order-management", "inspection-scheduling", "document-control", "quality-management", "audit-management", "project-management"],
+      "regs": ["API 1163 (ILI qualification)", "API 1160 (pipeline IMP)", "ASME B31.4 / B31.8 / B31.8S (pipeline)", "API 1104 (welding)", "DOT PHMSA 49 CFR 192 / 195", "CSA Z662 (Canadian pipeline)", "EN ISO 15589-1 (CP)", "NACE SP0102 (ILI)", "NACE SP0204 (SCC)", "NACE SP0775 (corrosion)"],
+      "operators": ["Enbridge — North American pipelines", "TC Energy / TransCanada", "Kinder Morgan — products", "Energy Transfer — gathering / transmission", "Williams — gas transmission", "Shell Midstream", "DCP Midstream", "Plains All American", "Saudi Aramco pipelines", "ADNOC Onshore"],
+      "pain": ["ILI vendor data delivered as proprietary formats — months to integrate with GIS / asset register", "API 1163 vendor qualification audit prep — 80+ hours of evidence assembly", "Dig verification data captured on paper in field — re-entered into spreadsheets", "API 1160 IMP threat assessment in Excel — versioning chaos, audit findings", "DOT PHMSA reporting deadlines missed — civil penalties"],
+      "faqs": [
+        ["Does it import ILI vendor data (Rosen / NDT Global / Baker Hughes / TDW)?", "Yes. Standard imports for Rosen, NDT Global, Baker Hughes (Process & Pipeline Services), T.D. Williamson, Quest Integrity, and Onstream pipeline data formats. Anomaly records (location, depth, length, width, type) align to the pipeline asset register. ILI vs. dig-verification comparison is automated for API 1163 vendor qualification."],
+        ["Can it support API 1163 ILI vendor qualification?", "Yes. The system maintains the ILI vendor qualification record: tool spec, performance specification, prior-run history, dig-verification results, comparison statistics (POD, POI, sizing accuracy). The qualification report is generated in the API 1163 Appendix B format expected by operator integrity engineering teams."],
+        ["How is dig verification data captured?", "Dig verification uses a field-app workflow: locate anomaly per ILI report, expose pipe, measure depth / length per NACE SP0102, photograph, and upload. Comparison vs. ILI prediction is automatic. Statistical accumulation across multiple digs feeds the API 1163 ILI vendor qualification."],
+        ["Does it support API 1160 / ASME B31.8S threat assessment?", "Yes. The 9-threat / 22-threat models per ASME B31.8S are supported with threat-screening, susceptibility, and risk-ranking per pipeline segment. Annual review and assessment-frequency triggers (max 5-yr for B31.8 transmission) are enforced. The IMP report is auto-assembled per API 1160 framework."],
+        ["How does DOT PHMSA reporting integrate?", "Annual reports (DOT Form 7100.2.1 hazardous liquid, 7100.2.1 gas), incident reports, and integrity-management performance metrics are pre-populated from the underlying asset, inspection, and corrosion data. Submission to PHMSA Portal is supported via XML upload. Reporting deadlines are tracked with automated reminders."]
+      ]
+    },
+    {
+      "slug": "aerospace-quality-control",
+      "name": "Aerospace Quality Control",
+      "title": "ERP for Aerospace QC, NDT, and MRO Companies (AS9100, NAS-410)",
+      "h1": "ERP for Aerospace Quality Control & MRO",
+      "desc": "AS9100D quality management, NAS-410 NDT personnel qualification, aircraft MRO work-order management, FAA / EASA / DGCA regulatory compliance, customer-specific (Boeing / Airbus / Bombardier / Pratt & Whitney) quality flow-down.",
+      "intro": "Aerospace quality is the highest standard in industrial inspection. AS9100D extends ISO 9001 with industry-specific requirements; NAS-410 governs NDT personnel qualification; customer-specific specifications from Boeing (D6-82479), Airbus (AITM), Bombardier, Embraer, and Pratt & Whitney (ASQR-01) add another layer. The aerospace ERP configuration handles all of it.",
+      "modules": ["certification-tracking", "document-control", "quality-management", "work-order-management", "audit-management", "asset-management", "inventory-management", "calibration-management"],
+      "regs": ["AS9100D / AS9120 / AS9110 (MRO)", "NAS-410 Rev 5", "FAA 14 CFR Part 145 / 21", "EASA Part 145 / Part-M", "DGCA CAR Section 2 / Series E", "DOD MIL-STD-410 / NAS-410", "ASTM E1417 / E1444 / E1742 / E2375 (aerospace NDT)", "ISO 9712 — annex on aerospace"],
+      "operators": ["Boeing — commercial / defense", "Airbus — commercial / defense", "Bombardier — business aviation", "Embraer — regional jet", "Pratt & Whitney — engine OEM", "GE Aerospace — engine OEM", "Rolls-Royce — engine OEM", "Safran — engine / components", "Lockheed Martin — defense", "Northrop Grumman — defense"],
+      "pain": ["NAS-410 qualification matrix in Excel — version drift across departments", "Customer-specific quality clauses (Boeing D-590, AITM, ASQR-01) flow-down is informal — audit findings", "Work-order traceability per FAA 14 CFR Part 145 — manual paper trails", "FOD prevention program not integrated with work-order — incident risk", "Calibration of dimensional / NDT equipment scattered across multiple systems"],
+      "faqs": [
+        ["Does it support NAS-410 personnel qualification?", "Yes. NAS-410 Rev 5 personnel qualification is native — training hours, experience, vision, examination, practical demonstration, periodic requalification are all tracked. The qualification matrix supports method, technique, and customer-specific qualifications (e.g., Boeing FPI Level II per D-590)."],
+        ["How are Boeing / Airbus / OEM customer quality clauses managed?", "Customer-specific quality flow-down per AS9100D §4.4. Boeing D6-82479, Airbus AITM, Bombardier ASTM, Embraer NE, Pratt & Whitney ASQR-01, GE S-1000 are imported as controlled customer documents. Internal procedures that implement customer requirements are cross-referenced; revision changes flag affected internal documents for review."],
+        ["Does it work for FAA Part 145 repair stations?", "Yes. Work-order traceability per 14 CFR Part 145.211 (record keeping) and Part 145.219 (work performed) is supported. Operations log, parts traceability (8130-3 forms), inspection records, maintenance release (Form 8130 / EASA Form 1), and customer notification of major repair / alteration are all integrated. Part 145 audit readiness is the default state."],
+        ["Can it manage AS9100D + ISO 9001 + ISO 17025 integrated systems?", "Yes. Integrated management system (IMS) configurations are supported. AS9100D extends ISO 9001 with aerospace-specific requirements; ISO 17025 governs the calibration laboratory subset; the IMS shares documents, training records, audits, NCR / CAPA, and risk register. Multi-standard audits and management reviews are unified."],
+        ["How is FOD (foreign object debris) prevention integrated?", "FOD prevention per AS9146 is integrated with work-order workflow. Tool / equipment check-in / check-out, FOD shadow-board sign-off, FOD walk inspection, and FOD-found incident workflow are all in-system. Daily FOD compliance is visible on the production-area dashboard."]
+      ]
+    },
+    {
+      "slug": "metrology-laboratories",
+      "name": "Metrology Laboratories",
+      "title": "ERP for Metrology Laboratories — Dimensional, Electrical, Pressure, Thermal",
+      "h1": "ERP for Metrology Laboratories",
+      "desc": "ISO/IEC 17025 metrology lab operations, multi-discipline calibration (dimensional, electrical, pressure, mass, thermal, force, flow, optical), uncertainty budgeting per GUM, customer-asset traceability, and accreditation-audit readiness.",
+      "intro": "Metrology laboratories provide measurement traceability to industry — from a Boeing fuselage CMM verification to a pharma analytical balance calibration to a refinery pressure-gauge cross-check. Each discipline (dimensional, electrical, pressure, mass, thermal, force, flow, optical) has its own reference standards, methods, uncertainty model, and accreditation scope.",
+      "modules": ["calibration-management", "work-order-management", "certification-tracking", "document-control", "audit-management", "quality-management", "inventory-management", "asset-management"],
+      "regs": ["ISO/IEC 17025:2017", "ISO 10012:2003 (measurement management)", "ANSI/NCSL Z540.1 / Z540.3", "ILAC P14 (uncertainty)", "JCGM 100:2008 (GUM)", "ASME B89.7.3.1 (decision rules)", "ASTM E2935 (proficiency testing)", "OIML R 76 (mass)", "OIML R 111 (weights)"],
+      "operators": ["Mitutoyo (instrument OEM)", "Fluke Calibration (instrument OEM)", "Beamex (instrument OEM)", "Heise (pressure)", "WIKA (pressure)", "Mettler-Toledo (mass)", "Sartorius (mass)", "Keysight Technologies (electrical)", "Tektronix (oscilloscopes)", "Rohde & Schwarz (RF)"],
+      "pain": ["Multi-discipline measurement uncertainty in spreadsheets — error-prone, inconsistent", "Customer-asset receipt / dispatch — instruments lost in lab, repeat customer calls", "Manual cert numbering and re-issue management — audit findings", "Proficiency testing / interlab-comparison records scattered — accreditation finding", "Customer-specific decision rules (k=2, k=3, customer-defined risk) applied inconsistently"],
+      "faqs": [
+        ["Does it support uncertainty budgets across all disciplines?", "Yes. Uncertainty templates exist for dimensional (gauge blocks, CMM, micrometers), electrical (DMM, calibrator, oscilloscope), pressure (digital indicator, deadweight tester, hydraulic / pneumatic), mass (analytical balance, weights), thermal (RTD, thermocouple, IR thermometer), force (load cell, force standard), flow (gas / liquid flow rig), and optical (luminance meter, photometer). Custom uncertainty models can be authored."],
+        ["Can decision rules be customer-specific (e.g., k=2, k=3, or customer-defined)?", "Yes. Decision rules per ISO 17025 §7.8.6 and ILAC G8 are configured per customer / customer-asset-class. Customers can specify simple acceptance (no guard band), shared-risk, guarded acceptance / rejection at chosen probability of false accept / reject, or customer-specific risk-of-false-accept value."],
+        ["How are customer-supplied reference standards managed separately from in-house standards?", "Customer-owned vs. in-house ownership flag on each asset. Customer-owned standards are tracked with customer ID, instrument ID, expected dispatch date, and customer-specific certificate format. In-house standards are tracked with internal asset register, traceability chain, and proficiency-testing program."],
+        ["Does it support proficiency testing and interlab-comparison records?", "Yes. PT enrollment per discipline, PT result tracking (z-score / En-number per ISO 13528), and corrective action when PT is unsatisfactory. The PT register feeds the management review per ISO 17025 §8.9. Interlab-comparison programs (NCSLI, EUROMET) are tracked similarly."],
+        ["Can certificates be electronically signed and delivered to customers?", "Yes. Certificates are e-signed by the technical-signatory (per ISO 17025 §5.6) and delivered to the customer via the customer portal or email. The certificate format complies with ISO 17025 §7.8 — measurement results, uncertainty, method reference, environmental conditions, decision rule, traceability statement. Customers can retrieve historical certs from the portal."]
+      ]
+    },
+    {
+      "slug": "industrial-coatings-inspection",
+      "name": "Industrial Coatings Inspection",
+      "title": "ERP for Industrial Coatings & Corrosion Inspection Companies",
+      "h1": "ERP for Industrial Coatings & Corrosion Inspection",
+      "desc": "NACE / AMPP coating inspector workflow management, SSPC surface preparation tracking, holiday testing records, DFT measurement campaign management, ISO 12944 corrosion-protection compliance, and offshore coating QA.",
+      "intro": "Industrial coatings inspection — from refinery tank linings to offshore platform topside coatings to pipeline external coatings — is governed by NACE / AMPP coating inspector qualifications, SSPC surface-preparation standards, and ISO 12944 corrosion-protection systems. The coatings ERP is built to manage the inspection campaigns and documentation that owner-operators demand.",
+      "modules": ["work-order-management", "certification-tracking", "quality-management", "document-control", "audit-management", "asset-management", "inventory-management", "project-management"],
+      "regs": ["NACE / AMPP CIP Level I / II / III", "SSPC PA 2 (DFT measurement)", "SSPC SP 1 / SP 5 / SP 6 / SP 10 / SP 11 (surface prep)", "ISO 12944 (corrosion protection)", "ISO 8501 (visual cleanliness)", "ISO 8502 (surface contamination)", "ISO 19840 (DFT measurement)", "ASTM D4541 (pull-off adhesion)", "ASTM D5402 (cleanliness)", "BS 5493"],
+      "operators": ["Hempel (paint mfr)", "Jotun (paint mfr)", "AkzoNobel International (paint mfr)", "PPG (paint mfr)", "Sherwin-Williams Protective & Marine (paint mfr)", "Shell coatings spec", "BP coatings spec", "ADNOC coatings spec", "Saudi Aramco SAES-H-001 / SAES-H-101"],
+      "pain": ["DFT readings on paper, re-entered into Excel — transcription errors", "Hold-point notification to client / engineer informal — clients miss critical holds", "Inspector qualifications expire mid-project — NACE Level II cert lapses, work rejected", "Coating-system data sheets scattered across project email — wrong system applied", "Pull-off adhesion test results in field notebooks — not aggregated for project closeout"],
+      "faqs": [
+        ["Does it manage NACE / AMPP Coating Inspector qualifications?", "Yes. NACE / AMPP CIP Level I / II / III qualifications, BGAS-CSWIP coating inspector, ICorr coating inspector, FROSIO coating inspector are tracked with expiry, scope, and renewal workflow. Inspector assignments to jobs are gated against required qualification."],
+        ["How are DFT (dry-film thickness) campaigns managed?", "DFT readings per SSPC PA 2 are captured in the field app on a mobile DFT gauge. The grid pattern, spot-measurements, and 80-80 rule statistics are calculated automatically. Out-of-spec spots trigger remediation work order. Final coating system pull-down per SSPC PA 2 §9 generates the customer-facing DFT report."],
+        ["Does it support ISO 12944 corrosion-protection system documentation?", "Yes. The coating-system database holds each system (paint type, generic coating, manufacturer product reference, layer thickness, surface preparation) per ISO 12944 / SSPC SP standards. Project-specific coating-system specifications are imported and tracked; deviation from approved system requires engineering authorization."],
+        ["Can it track hold points and witness inspections by the client?", "Yes. Project-specific inspection-and-test plan (ITP) defines hold (H), witness (W), and review (R) points. Each hold-point has notification lead-time and witness-list. The customer / engineer / class-society surveyor receives notification 24–48 hours in advance via email and portal. Witness-attendance / waiver is logged."],
+        ["How are pull-off adhesion (ASTM D4541) results stored?", "ASTM D4541 pull-off adhesion tests are logged per dolly with diameter, glue, dwell time, pull rate, pull-off MPa, and failure mode (cohesive / adhesive / glue). Project-level statistics (mean, std dev, minimum, characteristic value) and customer-acceptance criteria are evaluated automatically. Pull-off charts are included in the project closeout dossier."]
+      ]
+    },
+    {
+      "slug": "construction-quality-assurance",
+      "name": "Construction Quality Assurance",
+      "title": "ERP for Construction QA / QC Companies (EPC, Civil, Infrastructure)",
+      "h1": "ERP for Construction QA / QC Companies",
+      "desc": "QA / QC inspection management for EPC, civil, and infrastructure projects. Concrete testing, structural-steel inspection, welding QC per AWS D1.1, soil compaction per ASTM D698 / D1557, ITP / WPS execution, and project closeout dossier assembly.",
+      "intro": "Construction QA / QC companies sit on the critical path of EPC, civil, and infrastructure projects. Concrete cylinder breaks, structural-steel inspection, welding QC, soil compaction tests, FAT / SAT execution, hydrotest witnessing, and project closeout dossier (PCD) assembly all flow through the QA / QC team. Atlantis ERP's construction QA configuration manages the full lifecycle.",
+      "modules": ["work-order-management", "project-management", "document-control", "quality-management", "audit-management", "asset-management", "certification-tracking", "inventory-management"],
+      "regs": ["AWS D1.1 / D1.5 (welding)", "ACI 318 / 301 (concrete)", "ASTM D698 / D1557 (soil compaction)", "ASTM C39 / C31 (concrete cylinder)", "ASTM E329 / E1155 (concrete floor flatness)", "AS 3600 (concrete — Australia)", "EN 1090 (steel — EU)", "ISO 17636 (RT for welds)", "AISC 360 (steel design)", "IBC / IRC (US building codes)"],
+      "operators": ["Bechtel — EPC", "Fluor — EPC", "Jacobs — engineering", "WSP — engineering", "AECOM — civil / defense", "Skanska — construction", "Lendlease — construction", "VINCI — construction", "Hyundai E&C — EPC", "Samsung E&A — EPC"],
+      "pain": ["ITP execution tracked on paper — mid-project audit findings of missed hold points", "Concrete cylinder break data in lab notebooks — month-end reconciliation chaos", "FAT / SAT execution scattered across email — handover punch list missed", "Multi-discipline NCRs tracked separately — root cause patterns invisible", "Project closeout dossier (PCD) assembly takes 6+ weeks at project end"],
+      "faqs": [
+        ["Does it manage ITP (Inspection and Test Plan) execution?", "Yes. ITPs are imported per project with each activity having hold (H), witness (W), review (R) classification, responsibility (contractor / engineer / client / regulator), and reference document. As construction progresses each ITP line is signed off; hold points block downstream work until released."],
+        ["How are concrete cylinder breaks managed?", "Concrete cylinder receipts from the pour record creation through 7-day / 28-day break test results per ASTM C39. Strength gain curves per pour, statistical evaluation per ACI 214 / EN 1992 with characteristic strength, customer reporting per ACI 318. Outlier cylinders trigger investigation workflow."],
+        ["Can it integrate with FAT / SAT execution for equipment?", "Yes. FAT (factory acceptance test) and SAT (site acceptance test) plans per discipline (mechanical, instrumentation, electrical, piping) are tracked with results, witnesses, and punch-list items. Punch-list closure is monitored to project handover."],
+        ["How does the project closeout dossier (PCD) get assembled?", "The PCD assembly engine collects all controlled documents (drawings, specifications, ITPs, test certificates, inspection reports, NCRs, RFIs, material certs) and arranges them per customer-required structure (typical: per equipment tag, per discipline, per system). Final document index, signature, and approval are managed in-system. PCDs that used to take 6+ weeks are now ready 1 week before project closeout."],
+        ["Does it support multi-discipline NCRs (concrete, steel, welding, instrumentation)?", "Yes. NCRs span disciplines and are routed to the responsible discipline lead. Multi-discipline NCRs (e.g., concrete strength + reinforcement placement) are linked with shared root-cause analysis. The NCR dashboard shows finding trends across disciplines and projects."]
+      ]
+    },
+    {
+      "slug": "geotechnical-engineering",
+      "name": "Geotechnical Engineering Firms",
+      "title": "ERP for Geotechnical Engineering & Site Investigation Firms",
+      "h1": "ERP for Geotechnical Engineering Firms",
+      "desc": "Site investigation campaign management, borehole / CPT data management, laboratory testing workflow (ASTM D / EN ISO standards), geotechnical report generation, and project closeout for geotechnical consultancies and site-investigation contractors.",
+      "intro": "Geotechnical engineering firms run site investigation campaigns, drill boreholes, conduct CPTs, sample soils, run laboratory tests, and produce geotechnical reports that underpin civil and infrastructure projects worldwide. Atlantis ERP's geotechnical configuration manages the campaign-to-report lifecycle on a single platform.",
+      "modules": ["work-order-management", "project-management", "document-control", "quality-management", "asset-management", "certification-tracking", "calibration-management", "inventory-management"],
+      "regs": ["ASTM D420 series (soil sampling)", "ASTM D2487 (USCS classification)", "ASTM D2216 (moisture)", "ASTM D4318 (Atterberg limits)", "ASTM D2435 (consolidation)", "ASTM D3080 (direct shear)", "EN ISO 14688 / 14689 (soil / rock classification)", "EN ISO 22282 (geotechnical investigation)", "BS 5930 (UK ground investigation)", "AGS data format"],
+      "operators": ["Arup — engineering", "Mott MacDonald — engineering", "WSP — engineering", "Atkins — engineering", "AECOM — civil", "Fugro — geotechnical", "Geosyntec — geotechnical", "Stantec — engineering", "Bechtel — EPC", "Skanska — construction"],
+      "pain": ["Borehole logs in Word / Excel — re-typed multiple times across project", "CPT raw data files in vendor formats — manual conversion to AGS format", "Lab test results in paper notebooks — re-entered into project database", "Site investigation campaign coordination across drillers, lab, engineers — informal", "Final geotechnical report assembly takes 6+ weeks"],
+      "faqs": [
+        ["Does it support AGS data format for UK / EU geotechnical projects?", "Yes. AGS (Association of Geotechnical and Geoenvironmental Specialists) data format export is native — AGS 3.1, AGS 4, AGS 4.1 are supported. Project data (borehole, CPT, lab tests) exports in AGS-compliant format for client deliverable. Import from drillers / lab providers in AGS format is also supported."],
+        ["How are borehole logs and CPT data managed?", "Borehole logs per ASTM / EN ISO 14688 are authored in the platform with strata description, sample recovery, SPT / N-value, groundwater observations, and Atterberg / shear-strength results. CPT raw data from vendor PSPs (Geomil, Pagani, Hogentogler) imports automatically with tip resistance, sleeve friction, pore pressure, and friction ratio plotted vs. depth."],
+        ["Can laboratory test workflow be tracked from sample receipt to report?", "Yes. Sample receipt at the lab triggers chain-of-custody tracking, test assignment (Atterberg, particle-size, consolidation, triaxial, direct shear, CBR, etc.), test execution, result review, and report sign-off. Lab equipment calibration ties into the result via the calibration management module."],
+        ["Does it produce client-ready geotechnical reports?", "Yes. The geotechnical report builder assembles introduction, site description, investigation methodology, factual data (borehole logs, CPT plots, lab results), interpretation (soil profile, design parameters), and recommendations. Customer-format templates support major engineering firms (Arup, Mott MacDonald, Fugro, AECOM, WSP)."],
+        ["How is field-engineer / drill-rig coordination managed?", "Site investigation campaigns are managed as projects with drill-rig schedule, field engineer assignment, daily progress (boreholes drilled, samples obtained, samples to lab), and budget tracking. Mobile field-app captures borehole completion and sample submission in real-time."]
+      ]
+    },
+    {
+      "slug": "environmental-testing-labs",
+      "name": "Environmental Testing Laboratories",
+      "title": "ERP for Environmental Testing Laboratories (ISO 17025)",
+      "h1": "ERP for Environmental Testing Laboratories",
+      "desc": "Environmental sample receipt, chain-of-custody, multi-analyte testing workflow (water, air, soil, waste), regulatory reporting (EPA / EA / DEC / DEFRA), and ISO 17025 accreditation support for environmental laboratories.",
+      "intro": "Environmental testing laboratories analyze drinking water, wastewater, ambient air, soil, hazardous waste, and industrial emissions samples for regulatory compliance. ISO/IEC 17025 accreditation under the relevant national scheme (NELAP in US, UKAS in UK, NATA in Australia) is required for regulatory submission. Atlantis ERP's environmental-lab configuration manages the full receipt-to-report lifecycle with regulatory-grade traceability.",
+      "modules": ["work-order-management", "document-control", "quality-management", "audit-management", "calibration-management", "certification-tracking", "asset-management", "inventory-management"],
+      "regs": ["ISO/IEC 17025:2017", "NELAP / TNI standard (US)", "US EPA methods (SW-846, 600 series, 500 series)", "ASTM water / soil methods", "EN ISO water-method series", "BS / EN environmental methods", "UK Environment Agency MCERTS", "Australian NATA + ISO 17025", "EU Water Framework Directive"],
+      "operators": ["SGS — global testing", "Eurofins — environmental", "ALS Limited — environmental", "Bureau Veritas — environmental", "Intertek — environmental", "TestAmerica / Eurofins TestAmerica", "Pace Analytical", "GBA Forschungsinstitut", "EU drinking water labs", "EPA-approved labs"],
+      "pain": ["Sample chain-of-custody on paper — regulator findings", "Lab data integration from instruments (GC, GC-MS, ICP, IC) — manual transcription errors", "EPA / EA reporting formats — manual reformatting per submission", "ISO 17025 method validation records scattered — accreditation findings", "Customer-specific report format requirements — every report customized"],
+      "faqs": [
+        ["Does it support chain-of-custody per EPA / TNI / EA requirements?", "Yes. Chain-of-custody (CoC) is initiated at sample collection with sampler ID, date, time, location (GPS), sample matrix, preservatives, and field measurements. CoC is signed at each transfer (sampler → courier → lab receipt → analyst → return to client). Each signature is captured with date / time / person and tamper-evident audit trail. The CoC PDF is available for regulatory submission."],
+        ["Can lab data integrate from instruments (GC, GC-MS, ICP, IC, IRMS)?", "Yes. Instrument integration via LIMS-style data import. Agilent ChemStation / MassHunter, Thermo Xcalibur, PerkinElmer Empower, Waters Empower, Shimadzu LabSolutions data can be imported with calibration curves, internal standards, and sample results. Manual re-entry is eliminated."],
+        ["Does it generate EPA / EA / regulator-format reports?", "Yes. Regulator-format templates per EPA region, UK Environment Agency MCERTS, US state DEC / DEP, Canadian provincial environment ministries, Australian state EPA, EU member-state water reports are provided. Custom regulator formats can be authored. Submission via electronic data deliverable (EDD) — XML / CSV — to regulator portals is supported."],
+        ["How is method validation per ISO 17025 §7.2 managed?", "Method validation records include selectivity / specificity, linearity, accuracy / recovery, precision (repeatability + intermediate precision), MDL / MRL determination, uncertainty estimate, and matrix-effect evaluation. Validation status is tracked per analyte per matrix. Re-validation triggers (procedure revision, instrument change, personnel change) prompt fresh validation work."],
+        ["Can it manage multi-matrix / multi-analyte workflow (water + soil + air on same project)?", "Yes. A project can contain multiple sample matrices and analyte suites. Common project metadata (client, site, date range, regulatory scope) is shared; matrix-specific receipt, preservation, holding-time, and method requirements are tracked per sample. Project-level dashboards show progress across all matrices."]
+      ]
+    },
+    {
+      "slug": "oilfield-services",
+      "name": "Oilfield Services & Wellsite Inspection",
+      "title": "ERP for Oilfield Services & Wellsite Inspection Companies",
+      "h1": "ERP for Oilfield Services & Wellsite Inspection",
+      "desc": "Drilling rig inspection, BOP testing, casing / tubing inspection, wireline / coiled-tubing operations, frac / completion services QC, and field-service ticketing — for oilfield services companies serving upstream operators worldwide.",
+      "intro": "Oilfield services companies live in the field. Drilling rigs in the Permian, Marcellus, Bakken, North Sea, Saudi Empty Quarter, Brazilian pre-salt. Wellsite inspection, BOP testing, casing / tubing inspection, wireline operations, coiled tubing, frac operations — each with its own field-execution and HSE requirements. Atlantis ERP's oilfield-services configuration is built for the field-ticketing-and-billing reality of upstream.",
+      "modules": ["work-order-management", "certification-tracking", "project-management", "asset-management", "quality-management", "document-control", "inventory-management", "calibration-management"],
+      "regs": ["API Spec 4F (drilling derricks)", "API Spec 6A (wellhead)", "API Spec 16A (drill-through equipment)", "API Spec 16D (BOP control)", "API RP 53 (BOP)", "API RP 5A5 (OCTG inspection)", "API RP 5C5 / 5C6 / 5C7 (casing / tubing)", "ISO 13501 / 13628 (subsea)", "US BSEE / BOEM (offshore US)", "Norwegian PSA"],
+      "operators": ["ExxonMobil — upstream", "Chevron — upstream", "Shell — upstream", "BP — upstream", "ConocoPhillips — upstream", "Saudi Aramco upstream", "ADNOC Onshore", "PEMEX upstream", "Petrobras pre-salt", "Equinor — Norwegian shelf"],
+      "pain": ["Field-ticket capture on paper — billing disputes, days lost in invoicing", "Rig / BOP test scheduling on Excel — compliance findings from regulator", "Casing / tubing inspection records scattered — no aggregated wellbore data", "OCTG inventory (drill collars, casing, tubing) — no real-time location tracking", "Technician certification (BOSIET / HUET / H2S Alive / IADC RigPass) renewal misses"],
+      "faqs": [
+        ["Does it support API 5C5 / 5C6 / 5C7 casing / tubing inspection per joint?", "Yes. Per-joint inspection records — joint ID, manufacturer, lot, age, prior runs, current inspection results (UT thickness, surface examination, hardness, drift) — are tracked per API 5C5. The wellbore inventory is built from inspection records, supporting integrity decisions on which joints to re-run vs. retire."],
+        ["How are BOP tests scheduled and documented?", "BOP tests per API RP 53 (weekly low-pressure + high-pressure, ram tests, annular tests) are scheduled per rig and tracked against well construction phase. Test results are documented with pressure trace, time hold, and pass / fail; pressure-test diagrams attach automatically. Regulator submission per BSEE / NOPSEMA / Petroleum Safety Authority is supported."],
+        ["Can field-ticket data flow to invoicing?", "Yes. Field-service tickets are captured in the mobile app at the wellsite — service hours, equipment day-rates, consumables, mileage, per-diem — with customer-rep signature on-site. Approved tickets flow to invoicing with proper customer / well / cost-code mapping. Disputes drop dramatically vs. paper tickets."],
+        ["Does it track OCTG (oil country tubular goods) inventory?", "Yes. OCTG inventory — drill pipe, drill collars, heavy-weight drill pipe (HWDP), casing, tubing — is tracked per joint by serial number. Joint condition (new, used-good, used-limited, retired), inspection history, accumulated rotating hours, footage drilled, and location (rack, well, in-transit) are maintained."],
+        ["How are oilfield-specific safety certifications (BOSIET, H2S Alive, IADC RigPass) tracked?", "BOSIET / FOET / HUET, H2S Alive, IADC RigPass, OSHA HAZWOPER, MEDIC First Aid, RIG-PASS variants, and confined-space entry quals are tracked per technician with expiry alerts. Mobilization-to-rig matching ensures only fully-qualified personnel are dispatched."]
+      ]
+    }
+  ]
+}
