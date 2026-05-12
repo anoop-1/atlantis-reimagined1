@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Download, FileCheck, CheckCircle, ClipboardList, Shield, Award, BookOpen, FileText } from "lucide-react";
+import { Download, FileCheck, CheckCircle, ClipboardList, Shield, Award, BookOpen, FileText, Gauge, Wrench, Activity, Thermometer, AlertTriangle, Stamp, Hammer, FileSearch, ListChecks, Bug } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -68,6 +68,106 @@ const resources = [
         format: "XLSX",
         href: "/resources/training-requirements-matrix",
         download: "/templates/training-requirements-matrix.xlsx",
+    },
+    {
+        icon: Gauge,
+        title: "API 510 Pressure Vessel Inspection Report",
+        description: "Multi-sheet API 510 vessel inspection report with cover data, shell UT CMLs, nozzle inspection, weld inspection, FFS screening (API 579), recommendations, sign-off.",
+        type: "Editable Excel Report",
+        pages: "7 sheets",
+        format: "XLSX",
+        href: "/resources/api-510-inspection-report",
+        download: "/templates/api-510-inspection-report.xlsx",
+    },
+    {
+        icon: Wrench,
+        title: "API 570 Piping Inspection Record",
+        description: "API 570 piping circuit inspection record with CML thickness readings, corrosion rates, remaining life, RBI risk scoring, and recommendations.",
+        type: "Editable Excel Record",
+        pages: "6 sheets",
+        format: "XLSX",
+        href: "/resources/api-570-piping-inspection-record",
+        download: "/templates/api-570-piping-inspection-record.xlsx",
+    },
+    {
+        icon: Activity,
+        title: "Daily Progress Report (DPR)",
+        description: "Daily inspection project DPR — manpower, inspections by method, holds & rejects, HSE incidents, 24h look-ahead, and crew sign-off.",
+        type: "Editable Excel DPR",
+        pages: "Multi-section",
+        format: "XLSX",
+        href: "/resources/daily-progress-report-dpr",
+        download: "/templates/daily-progress-report-dpr.xlsx",
+    },
+    {
+        icon: Thermometer,
+        title: "PWHT Record",
+        description: "Post-weld heat treatment record per ASME B31.3 / Section VIII — soak temp, hold time, ramp rate, thermocouples, cycle data, acceptance checks, attachments.",
+        type: "Editable Excel Record",
+        pages: "Multi-section",
+        format: "XLSX",
+        href: "/resources/pwht-record",
+        download: "/templates/pwht-record.xlsx",
+    },
+    {
+        icon: AlertTriangle,
+        title: "RBI Worksheet (API 581)",
+        description: "Risk-Based Inspection worksheet with asset register, damage mechanism scoring, POF / COF, 5x5 risk matrix, inspection plan, sign-off.",
+        type: "Editable Excel Worksheet",
+        pages: "6 sheets",
+        format: "XLSX",
+        href: "/resources/rbi-worksheet",
+        download: "/templates/rbi-worksheet.xlsx",
+    },
+    {
+        icon: Stamp,
+        title: "Calibration Certificate Template (ISO/IEC 17025)",
+        description: "ISO/IEC 17025 §7.8 calibration certificate — lab and customer info, instrument, environmental, references, as-found / as-left, uncertainty, decision rule, traceability.",
+        type: "Editable Word Certificate",
+        pages: "12 sections",
+        format: "DOCX",
+        href: "/resources/calibration-certificate-template",
+        download: "/templates/calibration-certificate-template.docx",
+    },
+    {
+        icon: Hammer,
+        title: "Welder Qualification Record (WPQR)",
+        description: "ASME Section IX Welder Performance Qualification Record — WPS reference, essential variables, coupon, parameters, test results, range qualified, continuity log.",
+        type: "Editable Word Record",
+        pages: "10 sections",
+        format: "DOCX",
+        href: "/resources/welder-qualification-test-wpqr",
+        download: "/templates/welder-qualification-test-wpqr.docx",
+    },
+    {
+        icon: FileSearch,
+        title: "NDT Written Practice (SNT-TC-1A)",
+        description: "ASNT SNT-TC-1A Written Practice template for employer NDT certification program — scope, methods, levels, training, examinations, vision, certification, audit.",
+        type: "Editable Word Program",
+        pages: "14 sections",
+        format: "DOCX",
+        href: "/resources/ndt-written-practice-template",
+        download: "/templates/ndt-written-practice-template.docx",
+    },
+    {
+        icon: ListChecks,
+        title: "Inspection & Test Plan (ITP)",
+        description: "Construction QA/QC ITP — 17 standard activities (materials, welding, NDT, PWHT, pressure test, dossier), H/W/R codes, acceptance criteria, responsibility matrix.",
+        type: "Editable Excel Plan",
+        pages: "Single sheet",
+        format: "XLSX",
+        href: "/resources/inspection-test-plan-itp",
+        download: "/templates/inspection-test-plan-itp.xlsx",
+    },
+    {
+        icon: Bug,
+        title: "Audit / NCR / CAPA Tracker",
+        description: "ISO 9001 / 17025 / 45001 NCR & CAPA tracker — severity, root cause, corrective action, effectiveness review, status dashboard, sign-off.",
+        type: "Editable Excel Tracker",
+        pages: "Multi-section",
+        format: "XLSX",
+        href: "/resources/audit-finding-tracker",
+        download: "/templates/audit-finding-tracker.xlsx",
     }
 ];
 

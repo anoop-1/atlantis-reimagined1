@@ -176,6 +176,17 @@ const ASNTLevelIIIStudyGuide = lazy(() => import("./pages/resources/asnt-level-i
 const NDTProcedureTemplate = lazy(() => import("./pages/resources/ndt-procedure-template"));
 const NDTSafetyChecklist = lazy(() => import("./pages/resources/ndt-safety-checklist"));
 const TrainingRequirementsMatrix = lazy(() => import("./pages/resources/training-requirements-matrix"));
+// Resource Pages — Sprint 2 (May 2026)
+const API510InspectionReport = lazy(() => import("./pages/resources/api-510-inspection-report"));
+const API570PipingInspectionRecord = lazy(() => import("./pages/resources/api-570-piping-inspection-record"));
+const DailyProgressReportDPR = lazy(() => import("./pages/resources/daily-progress-report-dpr"));
+const PWHTRecord = lazy(() => import("./pages/resources/pwht-record"));
+const RBIWorksheet = lazy(() => import("./pages/resources/rbi-worksheet"));
+const CalibrationCertificateTemplate = lazy(() => import("./pages/resources/calibration-certificate-template"));
+const WelderQualificationTestWPQR = lazy(() => import("./pages/resources/welder-qualification-test-wpqr"));
+const NDTWrittenPracticeTemplate = lazy(() => import("./pages/resources/ndt-written-practice-template"));
+const InspectionTestPlanITP = lazy(() => import("./pages/resources/inspection-test-plan-itp"));
+const AuditFindingTracker = lazy(() => import("./pages/resources/audit-finding-tracker"));
 // Content Pages
 const NDTIndustryStatistics = lazy(() => import("./pages/ndt-industry-statistics"));
 const UltimateGuideNDT = lazy(() => import("./pages/ultimate-guide-ndt"));
@@ -313,6 +324,261 @@ const NDTTrainingJakarta = lazy(() => import("./pages/ndt-training-jakarta"));
 const API653TrainingSaudiArabia = lazy(() => import("./pages/api-653-training-saudi-arabia"));
 const ErpModulesHub = lazy(() => import("./pages/ErpModulesHub"));
 const ErpIndustriesHub = lazy(() => import("./pages/ErpIndustriesHub"));
+const ErpMC_certification_tracking_houston = lazy(() => import("./pages/erp-modules/certification-tracking-houston"));
+const ErpMC_certification_tracking_dubai = lazy(() => import("./pages/erp-modules/certification-tracking-dubai"));
+const ErpMC_certification_tracking_abu_dhabi = lazy(() => import("./pages/erp-modules/certification-tracking-abu-dhabi"));
+const ErpMC_certification_tracking_saudi_arabia = lazy(() => import("./pages/erp-modules/certification-tracking-saudi-arabia"));
+const ErpMC_certification_tracking_singapore = lazy(() => import("./pages/erp-modules/certification-tracking-singapore"));
+const ErpMC_certification_tracking_mumbai = lazy(() => import("./pages/erp-modules/certification-tracking-mumbai"));
+const ErpMC_certification_tracking_hyderabad = lazy(() => import("./pages/erp-modules/certification-tracking-hyderabad"));
+const ErpMC_certification_tracking_london = lazy(() => import("./pages/erp-modules/certification-tracking-london"));
+const ErpMC_certification_tracking_aberdeen = lazy(() => import("./pages/erp-modules/certification-tracking-aberdeen"));
+const ErpMC_certification_tracking_calgary = lazy(() => import("./pages/erp-modules/certification-tracking-calgary"));
+const ErpMC_certification_tracking_perth = lazy(() => import("./pages/erp-modules/certification-tracking-perth"));
+const ErpMC_certification_tracking_doha = lazy(() => import("./pages/erp-modules/certification-tracking-doha"));
+const ErpMC_certification_tracking_kuala_lumpur = lazy(() => import("./pages/erp-modules/certification-tracking-kuala-lumpur"));
+const ErpMC_certification_tracking_jakarta = lazy(() => import("./pages/erp-modules/certification-tracking-jakarta"));
+const ErpMC_certification_tracking_lagos = lazy(() => import("./pages/erp-modules/certification-tracking-lagos"));
+const ErpMC_work_order_management_houston = lazy(() => import("./pages/erp-modules/work-order-management-houston"));
+const ErpMC_work_order_management_dubai = lazy(() => import("./pages/erp-modules/work-order-management-dubai"));
+const ErpMC_work_order_management_abu_dhabi = lazy(() => import("./pages/erp-modules/work-order-management-abu-dhabi"));
+const ErpMC_work_order_management_saudi_arabia = lazy(() => import("./pages/erp-modules/work-order-management-saudi-arabia"));
+const ErpMC_work_order_management_singapore = lazy(() => import("./pages/erp-modules/work-order-management-singapore"));
+const ErpMC_work_order_management_mumbai = lazy(() => import("./pages/erp-modules/work-order-management-mumbai"));
+const ErpMC_work_order_management_hyderabad = lazy(() => import("./pages/erp-modules/work-order-management-hyderabad"));
+const ErpMC_work_order_management_london = lazy(() => import("./pages/erp-modules/work-order-management-london"));
+const ErpMC_work_order_management_aberdeen = lazy(() => import("./pages/erp-modules/work-order-management-aberdeen"));
+const ErpMC_work_order_management_calgary = lazy(() => import("./pages/erp-modules/work-order-management-calgary"));
+const ErpMC_work_order_management_perth = lazy(() => import("./pages/erp-modules/work-order-management-perth"));
+const ErpMC_work_order_management_doha = lazy(() => import("./pages/erp-modules/work-order-management-doha"));
+const ErpMC_work_order_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/work-order-management-kuala-lumpur"));
+const ErpMC_work_order_management_jakarta = lazy(() => import("./pages/erp-modules/work-order-management-jakarta"));
+const ErpMC_work_order_management_lagos = lazy(() => import("./pages/erp-modules/work-order-management-lagos"));
+const ErpMC_inspection_scheduling_houston = lazy(() => import("./pages/erp-modules/inspection-scheduling-houston"));
+const ErpMC_inspection_scheduling_dubai = lazy(() => import("./pages/erp-modules/inspection-scheduling-dubai"));
+const ErpMC_inspection_scheduling_abu_dhabi = lazy(() => import("./pages/erp-modules/inspection-scheduling-abu-dhabi"));
+const ErpMC_inspection_scheduling_saudi_arabia = lazy(() => import("./pages/erp-modules/inspection-scheduling-saudi-arabia"));
+const ErpMC_inspection_scheduling_singapore = lazy(() => import("./pages/erp-modules/inspection-scheduling-singapore"));
+const ErpMC_inspection_scheduling_mumbai = lazy(() => import("./pages/erp-modules/inspection-scheduling-mumbai"));
+const ErpMC_inspection_scheduling_hyderabad = lazy(() => import("./pages/erp-modules/inspection-scheduling-hyderabad"));
+const ErpMC_inspection_scheduling_london = lazy(() => import("./pages/erp-modules/inspection-scheduling-london"));
+const ErpMC_inspection_scheduling_aberdeen = lazy(() => import("./pages/erp-modules/inspection-scheduling-aberdeen"));
+const ErpMC_inspection_scheduling_calgary = lazy(() => import("./pages/erp-modules/inspection-scheduling-calgary"));
+const ErpMC_inspection_scheduling_perth = lazy(() => import("./pages/erp-modules/inspection-scheduling-perth"));
+const ErpMC_inspection_scheduling_doha = lazy(() => import("./pages/erp-modules/inspection-scheduling-doha"));
+const ErpMC_inspection_scheduling_kuala_lumpur = lazy(() => import("./pages/erp-modules/inspection-scheduling-kuala-lumpur"));
+const ErpMC_inspection_scheduling_jakarta = lazy(() => import("./pages/erp-modules/inspection-scheduling-jakarta"));
+const ErpMC_inspection_scheduling_lagos = lazy(() => import("./pages/erp-modules/inspection-scheduling-lagos"));
+const ErpMC_calibration_management_houston = lazy(() => import("./pages/erp-modules/calibration-management-houston"));
+const ErpMC_calibration_management_dubai = lazy(() => import("./pages/erp-modules/calibration-management-dubai"));
+const ErpMC_calibration_management_abu_dhabi = lazy(() => import("./pages/erp-modules/calibration-management-abu-dhabi"));
+const ErpMC_calibration_management_saudi_arabia = lazy(() => import("./pages/erp-modules/calibration-management-saudi-arabia"));
+const ErpMC_calibration_management_singapore = lazy(() => import("./pages/erp-modules/calibration-management-singapore"));
+const ErpMC_calibration_management_mumbai = lazy(() => import("./pages/erp-modules/calibration-management-mumbai"));
+const ErpMC_calibration_management_hyderabad = lazy(() => import("./pages/erp-modules/calibration-management-hyderabad"));
+const ErpMC_calibration_management_london = lazy(() => import("./pages/erp-modules/calibration-management-london"));
+const ErpMC_calibration_management_aberdeen = lazy(() => import("./pages/erp-modules/calibration-management-aberdeen"));
+const ErpMC_calibration_management_calgary = lazy(() => import("./pages/erp-modules/calibration-management-calgary"));
+const ErpMC_calibration_management_perth = lazy(() => import("./pages/erp-modules/calibration-management-perth"));
+const ErpMC_calibration_management_doha = lazy(() => import("./pages/erp-modules/calibration-management-doha"));
+const ErpMC_calibration_management_kuala_lumpur = lazy(() => import("./pages/erp-modules/calibration-management-kuala-lumpur"));
+const ErpMC_calibration_management_jakarta = lazy(() => import("./pages/erp-modules/calibration-management-jakarta"));
+const ErpMC_calibration_management_lagos = lazy(() => import("./pages/erp-modules/calibration-management-lagos"));
+const ErpMC_corrosion_tracking_houston = lazy(() => import("./pages/erp-modules/corrosion-tracking-houston"));
+const ErpMC_corrosion_tracking_dubai = lazy(() => import("./pages/erp-modules/corrosion-tracking-dubai"));
+const ErpMC_corrosion_tracking_abu_dhabi = lazy(() => import("./pages/erp-modules/corrosion-tracking-abu-dhabi"));
+const ErpMC_corrosion_tracking_saudi_arabia = lazy(() => import("./pages/erp-modules/corrosion-tracking-saudi-arabia"));
+const ErpMC_corrosion_tracking_singapore = lazy(() => import("./pages/erp-modules/corrosion-tracking-singapore"));
+const ErpMC_corrosion_tracking_mumbai = lazy(() => import("./pages/erp-modules/corrosion-tracking-mumbai"));
+const ErpMC_corrosion_tracking_hyderabad = lazy(() => import("./pages/erp-modules/corrosion-tracking-hyderabad"));
+const ErpMC_corrosion_tracking_london = lazy(() => import("./pages/erp-modules/corrosion-tracking-london"));
+const ErpMC_corrosion_tracking_aberdeen = lazy(() => import("./pages/erp-modules/corrosion-tracking-aberdeen"));
+const ErpMC_corrosion_tracking_calgary = lazy(() => import("./pages/erp-modules/corrosion-tracking-calgary"));
+const ErpMC_corrosion_tracking_perth = lazy(() => import("./pages/erp-modules/corrosion-tracking-perth"));
+const ErpMC_corrosion_tracking_doha = lazy(() => import("./pages/erp-modules/corrosion-tracking-doha"));
+const ErpMC_corrosion_tracking_kuala_lumpur = lazy(() => import("./pages/erp-modules/corrosion-tracking-kuala-lumpur"));
+const ErpMC_corrosion_tracking_jakarta = lazy(() => import("./pages/erp-modules/corrosion-tracking-jakarta"));
+const ErpMC_corrosion_tracking_lagos = lazy(() => import("./pages/erp-modules/corrosion-tracking-lagos"));
+const ErpIndCity_ndt_inspection_companies_houston = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-houston"));
+const ErpIndCity_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-dubai"));
+const ErpIndCity_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-abu-dhabi"));
+const ErpIndCity_ndt_inspection_companies_saudi_arabia = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-saudi-arabia"));
+const ErpIndCity_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-singapore"));
+const ErpIndCity_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-mumbai"));
+const ErpIndCity_ndt_inspection_companies_hyderabad = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-hyderabad"));
+const ErpIndCity_ndt_inspection_companies_london = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-london"));
+const ErpIndCity_ndt_inspection_companies_aberdeen = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-aberdeen"));
+const ErpIndCity_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-calgary"));
+const ErpIndCity_ndt_inspection_companies_perth = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-perth"));
+const ErpIndCity_ndt_inspection_companies_doha = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-doha"));
+const ErpIndCity_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-kuala-lumpur"));
+const ErpIndCity_ndt_inspection_companies_jakarta = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-jakarta"));
+const ErpIndCity_ndt_inspection_companies_lagos = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-lagos"));
+const ErpIndCity_calibration_laboratories_houston = lazy(() => import("./pages/erp-industries/calibration-laboratories-houston"));
+const ErpIndCity_calibration_laboratories_dubai = lazy(() => import("./pages/erp-industries/calibration-laboratories-dubai"));
+const ErpIndCity_calibration_laboratories_abu_dhabi = lazy(() => import("./pages/erp-industries/calibration-laboratories-abu-dhabi"));
+const ErpIndCity_calibration_laboratories_saudi_arabia = lazy(() => import("./pages/erp-industries/calibration-laboratories-saudi-arabia"));
+const ErpIndCity_calibration_laboratories_singapore = lazy(() => import("./pages/erp-industries/calibration-laboratories-singapore"));
+const ErpIndCity_calibration_laboratories_mumbai = lazy(() => import("./pages/erp-industries/calibration-laboratories-mumbai"));
+const ErpIndCity_calibration_laboratories_hyderabad = lazy(() => import("./pages/erp-industries/calibration-laboratories-hyderabad"));
+const ErpIndCity_calibration_laboratories_london = lazy(() => import("./pages/erp-industries/calibration-laboratories-london"));
+const ErpIndCity_calibration_laboratories_aberdeen = lazy(() => import("./pages/erp-industries/calibration-laboratories-aberdeen"));
+const ErpIndCity_calibration_laboratories_calgary = lazy(() => import("./pages/erp-industries/calibration-laboratories-calgary"));
+const ErpIndCity_calibration_laboratories_perth = lazy(() => import("./pages/erp-industries/calibration-laboratories-perth"));
+const ErpIndCity_calibration_laboratories_doha = lazy(() => import("./pages/erp-industries/calibration-laboratories-doha"));
+const ErpIndCity_calibration_laboratories_kuala_lumpur = lazy(() => import("./pages/erp-industries/calibration-laboratories-kuala-lumpur"));
+const ErpIndCity_calibration_laboratories_jakarta = lazy(() => import("./pages/erp-industries/calibration-laboratories-jakarta"));
+const ErpIndCity_calibration_laboratories_lagos = lazy(() => import("./pages/erp-industries/calibration-laboratories-lagos"));
+const ErpIndCity_welding_fabrication_shops_houston = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-houston"));
+const ErpIndCity_welding_fabrication_shops_dubai = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-dubai"));
+const ErpIndCity_welding_fabrication_shops_abu_dhabi = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-abu-dhabi"));
+const ErpIndCity_welding_fabrication_shops_saudi_arabia = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-saudi-arabia"));
+const ErpIndCity_welding_fabrication_shops_singapore = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-singapore"));
+const ErpIndCity_welding_fabrication_shops_mumbai = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-mumbai"));
+const ErpIndCity_welding_fabrication_shops_hyderabad = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-hyderabad"));
+const ErpIndCity_welding_fabrication_shops_london = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-london"));
+const ErpIndCity_welding_fabrication_shops_aberdeen = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-aberdeen"));
+const ErpIndCity_welding_fabrication_shops_calgary = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-calgary"));
+const ErpIndCity_welding_fabrication_shops_perth = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-perth"));
+const ErpIndCity_welding_fabrication_shops_doha = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-doha"));
+const ErpIndCity_welding_fabrication_shops_kuala_lumpur = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-kuala-lumpur"));
+const ErpIndCity_welding_fabrication_shops_jakarta = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-jakarta"));
+const ErpIndCity_welding_fabrication_shops_lagos = lazy(() => import("./pages/erp-industries/welding-fabrication-shops-lagos"));
+const ErpIndCity_marine_survey_companies_houston = lazy(() => import("./pages/erp-industries/marine-survey-companies-houston"));
+const ErpIndCity_marine_survey_companies_dubai = lazy(() => import("./pages/erp-industries/marine-survey-companies-dubai"));
+const ErpIndCity_marine_survey_companies_abu_dhabi = lazy(() => import("./pages/erp-industries/marine-survey-companies-abu-dhabi"));
+const ErpIndCity_marine_survey_companies_saudi_arabia = lazy(() => import("./pages/erp-industries/marine-survey-companies-saudi-arabia"));
+const ErpIndCity_marine_survey_companies_singapore = lazy(() => import("./pages/erp-industries/marine-survey-companies-singapore"));
+const ErpIndCity_marine_survey_companies_mumbai = lazy(() => import("./pages/erp-industries/marine-survey-companies-mumbai"));
+const ErpIndCity_marine_survey_companies_hyderabad = lazy(() => import("./pages/erp-industries/marine-survey-companies-hyderabad"));
+const ErpIndCity_marine_survey_companies_london = lazy(() => import("./pages/erp-industries/marine-survey-companies-london"));
+const ErpIndCity_marine_survey_companies_aberdeen = lazy(() => import("./pages/erp-industries/marine-survey-companies-aberdeen"));
+const ErpIndCity_marine_survey_companies_calgary = lazy(() => import("./pages/erp-industries/marine-survey-companies-calgary"));
+const ErpIndCity_marine_survey_companies_perth = lazy(() => import("./pages/erp-industries/marine-survey-companies-perth"));
+const ErpIndCity_marine_survey_companies_doha = lazy(() => import("./pages/erp-industries/marine-survey-companies-doha"));
+const ErpIndCity_marine_survey_companies_kuala_lumpur = lazy(() => import("./pages/erp-industries/marine-survey-companies-kuala-lumpur"));
+const ErpIndCity_marine_survey_companies_jakarta = lazy(() => import("./pages/erp-industries/marine-survey-companies-jakarta"));
+const ErpIndCity_marine_survey_companies_lagos = lazy(() => import("./pages/erp-industries/marine-survey-companies-lagos"));
+const ErpIndCity_pipeline_integrity_services_houston = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-houston"));
+const ErpIndCity_pipeline_integrity_services_dubai = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-dubai"));
+const ErpIndCity_pipeline_integrity_services_abu_dhabi = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-abu-dhabi"));
+const ErpIndCity_pipeline_integrity_services_saudi_arabia = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-saudi-arabia"));
+const ErpIndCity_pipeline_integrity_services_singapore = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-singapore"));
+const ErpIndCity_pipeline_integrity_services_mumbai = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-mumbai"));
+const ErpIndCity_pipeline_integrity_services_hyderabad = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-hyderabad"));
+const ErpIndCity_pipeline_integrity_services_london = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-london"));
+const ErpIndCity_pipeline_integrity_services_aberdeen = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-aberdeen"));
+const ErpIndCity_pipeline_integrity_services_calgary = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-calgary"));
+const ErpIndCity_pipeline_integrity_services_perth = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-perth"));
+const ErpIndCity_pipeline_integrity_services_doha = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-doha"));
+const ErpIndCity_pipeline_integrity_services_kuala_lumpur = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-kuala-lumpur"));
+const ErpIndCity_pipeline_integrity_services_jakarta = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-jakarta"));
+const ErpIndCity_pipeline_integrity_services_lagos = lazy(() => import("./pages/erp-industries/pipeline-integrity-services-lagos"));
+const ErpIndCity_aerospace_quality_control_houston = lazy(() => import("./pages/erp-industries/aerospace-quality-control-houston"));
+const ErpIndCity_aerospace_quality_control_dubai = lazy(() => import("./pages/erp-industries/aerospace-quality-control-dubai"));
+const ErpIndCity_aerospace_quality_control_abu_dhabi = lazy(() => import("./pages/erp-industries/aerospace-quality-control-abu-dhabi"));
+const ErpIndCity_aerospace_quality_control_saudi_arabia = lazy(() => import("./pages/erp-industries/aerospace-quality-control-saudi-arabia"));
+const ErpIndCity_aerospace_quality_control_singapore = lazy(() => import("./pages/erp-industries/aerospace-quality-control-singapore"));
+const ErpIndCity_aerospace_quality_control_mumbai = lazy(() => import("./pages/erp-industries/aerospace-quality-control-mumbai"));
+const ErpIndCity_aerospace_quality_control_hyderabad = lazy(() => import("./pages/erp-industries/aerospace-quality-control-hyderabad"));
+const ErpIndCity_aerospace_quality_control_london = lazy(() => import("./pages/erp-industries/aerospace-quality-control-london"));
+const ErpIndCity_aerospace_quality_control_aberdeen = lazy(() => import("./pages/erp-industries/aerospace-quality-control-aberdeen"));
+const ErpIndCity_aerospace_quality_control_calgary = lazy(() => import("./pages/erp-industries/aerospace-quality-control-calgary"));
+const ErpIndCity_aerospace_quality_control_perth = lazy(() => import("./pages/erp-industries/aerospace-quality-control-perth"));
+const ErpIndCity_aerospace_quality_control_doha = lazy(() => import("./pages/erp-industries/aerospace-quality-control-doha"));
+const ErpIndCity_aerospace_quality_control_kuala_lumpur = lazy(() => import("./pages/erp-industries/aerospace-quality-control-kuala-lumpur"));
+const ErpIndCity_aerospace_quality_control_jakarta = lazy(() => import("./pages/erp-industries/aerospace-quality-control-jakarta"));
+const ErpIndCity_aerospace_quality_control_lagos = lazy(() => import("./pages/erp-industries/aerospace-quality-control-lagos"));
+const ErpIndCity_metrology_laboratories_houston = lazy(() => import("./pages/erp-industries/metrology-laboratories-houston"));
+const ErpIndCity_metrology_laboratories_dubai = lazy(() => import("./pages/erp-industries/metrology-laboratories-dubai"));
+const ErpIndCity_metrology_laboratories_abu_dhabi = lazy(() => import("./pages/erp-industries/metrology-laboratories-abu-dhabi"));
+const ErpIndCity_metrology_laboratories_saudi_arabia = lazy(() => import("./pages/erp-industries/metrology-laboratories-saudi-arabia"));
+const ErpIndCity_metrology_laboratories_singapore = lazy(() => import("./pages/erp-industries/metrology-laboratories-singapore"));
+const ErpIndCity_metrology_laboratories_mumbai = lazy(() => import("./pages/erp-industries/metrology-laboratories-mumbai"));
+const ErpIndCity_metrology_laboratories_hyderabad = lazy(() => import("./pages/erp-industries/metrology-laboratories-hyderabad"));
+const ErpIndCity_metrology_laboratories_london = lazy(() => import("./pages/erp-industries/metrology-laboratories-london"));
+const ErpIndCity_metrology_laboratories_aberdeen = lazy(() => import("./pages/erp-industries/metrology-laboratories-aberdeen"));
+const ErpIndCity_metrology_laboratories_calgary = lazy(() => import("./pages/erp-industries/metrology-laboratories-calgary"));
+const ErpIndCity_metrology_laboratories_perth = lazy(() => import("./pages/erp-industries/metrology-laboratories-perth"));
+const ErpIndCity_metrology_laboratories_doha = lazy(() => import("./pages/erp-industries/metrology-laboratories-doha"));
+const ErpIndCity_metrology_laboratories_kuala_lumpur = lazy(() => import("./pages/erp-industries/metrology-laboratories-kuala-lumpur"));
+const ErpIndCity_metrology_laboratories_jakarta = lazy(() => import("./pages/erp-industries/metrology-laboratories-jakarta"));
+const ErpIndCity_metrology_laboratories_lagos = lazy(() => import("./pages/erp-industries/metrology-laboratories-lagos"));
+const ErpIndCity_industrial_coatings_inspection_houston = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-houston"));
+const ErpIndCity_industrial_coatings_inspection_dubai = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-dubai"));
+const ErpIndCity_industrial_coatings_inspection_abu_dhabi = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-abu-dhabi"));
+const ErpIndCity_industrial_coatings_inspection_saudi_arabia = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-saudi-arabia"));
+const ErpIndCity_industrial_coatings_inspection_singapore = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-singapore"));
+const ErpIndCity_industrial_coatings_inspection_mumbai = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-mumbai"));
+const ErpIndCity_industrial_coatings_inspection_hyderabad = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-hyderabad"));
+const ErpIndCity_industrial_coatings_inspection_london = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-london"));
+const ErpIndCity_industrial_coatings_inspection_aberdeen = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-aberdeen"));
+const ErpIndCity_industrial_coatings_inspection_calgary = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-calgary"));
+const ErpIndCity_industrial_coatings_inspection_perth = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-perth"));
+const ErpIndCity_industrial_coatings_inspection_doha = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-doha"));
+const ErpIndCity_industrial_coatings_inspection_kuala_lumpur = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-kuala-lumpur"));
+const ErpIndCity_industrial_coatings_inspection_jakarta = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-jakarta"));
+const ErpIndCity_industrial_coatings_inspection_lagos = lazy(() => import("./pages/erp-industries/industrial-coatings-inspection-lagos"));
+const ErpIndCity_construction_quality_assurance_houston = lazy(() => import("./pages/erp-industries/construction-quality-assurance-houston"));
+const ErpIndCity_construction_quality_assurance_dubai = lazy(() => import("./pages/erp-industries/construction-quality-assurance-dubai"));
+const ErpIndCity_construction_quality_assurance_abu_dhabi = lazy(() => import("./pages/erp-industries/construction-quality-assurance-abu-dhabi"));
+const ErpIndCity_construction_quality_assurance_saudi_arabia = lazy(() => import("./pages/erp-industries/construction-quality-assurance-saudi-arabia"));
+const ErpIndCity_construction_quality_assurance_singapore = lazy(() => import("./pages/erp-industries/construction-quality-assurance-singapore"));
+const ErpIndCity_construction_quality_assurance_mumbai = lazy(() => import("./pages/erp-industries/construction-quality-assurance-mumbai"));
+const ErpIndCity_construction_quality_assurance_hyderabad = lazy(() => import("./pages/erp-industries/construction-quality-assurance-hyderabad"));
+const ErpIndCity_construction_quality_assurance_london = lazy(() => import("./pages/erp-industries/construction-quality-assurance-london"));
+const ErpIndCity_construction_quality_assurance_aberdeen = lazy(() => import("./pages/erp-industries/construction-quality-assurance-aberdeen"));
+const ErpIndCity_construction_quality_assurance_calgary = lazy(() => import("./pages/erp-industries/construction-quality-assurance-calgary"));
+const ErpIndCity_construction_quality_assurance_perth = lazy(() => import("./pages/erp-industries/construction-quality-assurance-perth"));
+const ErpIndCity_construction_quality_assurance_doha = lazy(() => import("./pages/erp-industries/construction-quality-assurance-doha"));
+const ErpIndCity_construction_quality_assurance_kuala_lumpur = lazy(() => import("./pages/erp-industries/construction-quality-assurance-kuala-lumpur"));
+const ErpIndCity_construction_quality_assurance_jakarta = lazy(() => import("./pages/erp-industries/construction-quality-assurance-jakarta"));
+const ErpIndCity_construction_quality_assurance_lagos = lazy(() => import("./pages/erp-industries/construction-quality-assurance-lagos"));
+const ErpIndCity_geotechnical_engineering_houston = lazy(() => import("./pages/erp-industries/geotechnical-engineering-houston"));
+const ErpIndCity_geotechnical_engineering_dubai = lazy(() => import("./pages/erp-industries/geotechnical-engineering-dubai"));
+const ErpIndCity_geotechnical_engineering_abu_dhabi = lazy(() => import("./pages/erp-industries/geotechnical-engineering-abu-dhabi"));
+const ErpIndCity_geotechnical_engineering_saudi_arabia = lazy(() => import("./pages/erp-industries/geotechnical-engineering-saudi-arabia"));
+const ErpIndCity_geotechnical_engineering_singapore = lazy(() => import("./pages/erp-industries/geotechnical-engineering-singapore"));
+const ErpIndCity_geotechnical_engineering_mumbai = lazy(() => import("./pages/erp-industries/geotechnical-engineering-mumbai"));
+const ErpIndCity_geotechnical_engineering_hyderabad = lazy(() => import("./pages/erp-industries/geotechnical-engineering-hyderabad"));
+const ErpIndCity_geotechnical_engineering_london = lazy(() => import("./pages/erp-industries/geotechnical-engineering-london"));
+const ErpIndCity_geotechnical_engineering_aberdeen = lazy(() => import("./pages/erp-industries/geotechnical-engineering-aberdeen"));
+const ErpIndCity_geotechnical_engineering_calgary = lazy(() => import("./pages/erp-industries/geotechnical-engineering-calgary"));
+const ErpIndCity_geotechnical_engineering_perth = lazy(() => import("./pages/erp-industries/geotechnical-engineering-perth"));
+const ErpIndCity_geotechnical_engineering_doha = lazy(() => import("./pages/erp-industries/geotechnical-engineering-doha"));
+const ErpIndCity_geotechnical_engineering_kuala_lumpur = lazy(() => import("./pages/erp-industries/geotechnical-engineering-kuala-lumpur"));
+const ErpIndCity_geotechnical_engineering_jakarta = lazy(() => import("./pages/erp-industries/geotechnical-engineering-jakarta"));
+const ErpIndCity_geotechnical_engineering_lagos = lazy(() => import("./pages/erp-industries/geotechnical-engineering-lagos"));
+const ErpIndCity_environmental_testing_labs_houston = lazy(() => import("./pages/erp-industries/environmental-testing-labs-houston"));
+const ErpIndCity_environmental_testing_labs_dubai = lazy(() => import("./pages/erp-industries/environmental-testing-labs-dubai"));
+const ErpIndCity_environmental_testing_labs_abu_dhabi = lazy(() => import("./pages/erp-industries/environmental-testing-labs-abu-dhabi"));
+const ErpIndCity_environmental_testing_labs_saudi_arabia = lazy(() => import("./pages/erp-industries/environmental-testing-labs-saudi-arabia"));
+const ErpIndCity_environmental_testing_labs_singapore = lazy(() => import("./pages/erp-industries/environmental-testing-labs-singapore"));
+const ErpIndCity_environmental_testing_labs_mumbai = lazy(() => import("./pages/erp-industries/environmental-testing-labs-mumbai"));
+const ErpIndCity_environmental_testing_labs_hyderabad = lazy(() => import("./pages/erp-industries/environmental-testing-labs-hyderabad"));
+const ErpIndCity_environmental_testing_labs_london = lazy(() => import("./pages/erp-industries/environmental-testing-labs-london"));
+const ErpIndCity_environmental_testing_labs_aberdeen = lazy(() => import("./pages/erp-industries/environmental-testing-labs-aberdeen"));
+const ErpIndCity_environmental_testing_labs_calgary = lazy(() => import("./pages/erp-industries/environmental-testing-labs-calgary"));
+const ErpIndCity_environmental_testing_labs_perth = lazy(() => import("./pages/erp-industries/environmental-testing-labs-perth"));
+const ErpIndCity_environmental_testing_labs_doha = lazy(() => import("./pages/erp-industries/environmental-testing-labs-doha"));
+const ErpIndCity_environmental_testing_labs_kuala_lumpur = lazy(() => import("./pages/erp-industries/environmental-testing-labs-kuala-lumpur"));
+const ErpIndCity_environmental_testing_labs_jakarta = lazy(() => import("./pages/erp-industries/environmental-testing-labs-jakarta"));
+const ErpIndCity_environmental_testing_labs_lagos = lazy(() => import("./pages/erp-industries/environmental-testing-labs-lagos"));
+const ErpIndCity_oilfield_services_houston = lazy(() => import("./pages/erp-industries/oilfield-services-houston"));
+const ErpIndCity_oilfield_services_dubai = lazy(() => import("./pages/erp-industries/oilfield-services-dubai"));
+const ErpIndCity_oilfield_services_abu_dhabi = lazy(() => import("./pages/erp-industries/oilfield-services-abu-dhabi"));
+const ErpIndCity_oilfield_services_saudi_arabia = lazy(() => import("./pages/erp-industries/oilfield-services-saudi-arabia"));
+const ErpIndCity_oilfield_services_singapore = lazy(() => import("./pages/erp-industries/oilfield-services-singapore"));
+const ErpIndCity_oilfield_services_mumbai = lazy(() => import("./pages/erp-industries/oilfield-services-mumbai"));
+const ErpIndCity_oilfield_services_hyderabad = lazy(() => import("./pages/erp-industries/oilfield-services-hyderabad"));
+const ErpIndCity_oilfield_services_london = lazy(() => import("./pages/erp-industries/oilfield-services-london"));
+const ErpIndCity_oilfield_services_aberdeen = lazy(() => import("./pages/erp-industries/oilfield-services-aberdeen"));
+const ErpIndCity_oilfield_services_calgary = lazy(() => import("./pages/erp-industries/oilfield-services-calgary"));
+const ErpIndCity_oilfield_services_perth = lazy(() => import("./pages/erp-industries/oilfield-services-perth"));
+const ErpIndCity_oilfield_services_doha = lazy(() => import("./pages/erp-industries/oilfield-services-doha"));
+const ErpIndCity_oilfield_services_kuala_lumpur = lazy(() => import("./pages/erp-industries/oilfield-services-kuala-lumpur"));
+const ErpIndCity_oilfield_services_jakarta = lazy(() => import("./pages/erp-industries/oilfield-services-jakarta"));
+const ErpIndCity_oilfield_services_lagos = lazy(() => import("./pages/erp-industries/oilfield-services-lagos"));
 const ErpCross_certification_tracking_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/certification-tracking-for-ndt-inspection-companies"));
 const ErpCross_work_order_management_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/work-order-management-for-ndt-inspection-companies"));
 const ErpCross_inspection_scheduling_for_ndt_inspection_companies = lazy(() => import("./pages/erp-modules/inspection-scheduling-for-ndt-inspection-companies"));
@@ -1246,6 +1512,261 @@ const App = () => (
                   <Route path="/api-653-training-saudi-arabia" element={<LazyRoute Component={API653TrainingSaudiArabia} />} />
                   <Route path="/erp-modules" element={<LazyRoute Component={ErpModulesHub} />} />
                   <Route path="/erp-industries" element={<LazyRoute Component={ErpIndustriesHub} />} />
+                  <Route path="/erp-modules/certification-tracking-houston" element={<LazyRoute Component={ErpMC_certification_tracking_houston} />} />
+                  <Route path="/erp-modules/certification-tracking-dubai" element={<LazyRoute Component={ErpMC_certification_tracking_dubai} />} />
+                  <Route path="/erp-modules/certification-tracking-abu-dhabi" element={<LazyRoute Component={ErpMC_certification_tracking_abu_dhabi} />} />
+                  <Route path="/erp-modules/certification-tracking-saudi-arabia" element={<LazyRoute Component={ErpMC_certification_tracking_saudi_arabia} />} />
+                  <Route path="/erp-modules/certification-tracking-singapore" element={<LazyRoute Component={ErpMC_certification_tracking_singapore} />} />
+                  <Route path="/erp-modules/certification-tracking-mumbai" element={<LazyRoute Component={ErpMC_certification_tracking_mumbai} />} />
+                  <Route path="/erp-modules/certification-tracking-hyderabad" element={<LazyRoute Component={ErpMC_certification_tracking_hyderabad} />} />
+                  <Route path="/erp-modules/certification-tracking-london" element={<LazyRoute Component={ErpMC_certification_tracking_london} />} />
+                  <Route path="/erp-modules/certification-tracking-aberdeen" element={<LazyRoute Component={ErpMC_certification_tracking_aberdeen} />} />
+                  <Route path="/erp-modules/certification-tracking-calgary" element={<LazyRoute Component={ErpMC_certification_tracking_calgary} />} />
+                  <Route path="/erp-modules/certification-tracking-perth" element={<LazyRoute Component={ErpMC_certification_tracking_perth} />} />
+                  <Route path="/erp-modules/certification-tracking-doha" element={<LazyRoute Component={ErpMC_certification_tracking_doha} />} />
+                  <Route path="/erp-modules/certification-tracking-kuala-lumpur" element={<LazyRoute Component={ErpMC_certification_tracking_kuala_lumpur} />} />
+                  <Route path="/erp-modules/certification-tracking-jakarta" element={<LazyRoute Component={ErpMC_certification_tracking_jakarta} />} />
+                  <Route path="/erp-modules/certification-tracking-lagos" element={<LazyRoute Component={ErpMC_certification_tracking_lagos} />} />
+                  <Route path="/erp-modules/work-order-management-houston" element={<LazyRoute Component={ErpMC_work_order_management_houston} />} />
+                  <Route path="/erp-modules/work-order-management-dubai" element={<LazyRoute Component={ErpMC_work_order_management_dubai} />} />
+                  <Route path="/erp-modules/work-order-management-abu-dhabi" element={<LazyRoute Component={ErpMC_work_order_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/work-order-management-saudi-arabia" element={<LazyRoute Component={ErpMC_work_order_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/work-order-management-singapore" element={<LazyRoute Component={ErpMC_work_order_management_singapore} />} />
+                  <Route path="/erp-modules/work-order-management-mumbai" element={<LazyRoute Component={ErpMC_work_order_management_mumbai} />} />
+                  <Route path="/erp-modules/work-order-management-hyderabad" element={<LazyRoute Component={ErpMC_work_order_management_hyderabad} />} />
+                  <Route path="/erp-modules/work-order-management-london" element={<LazyRoute Component={ErpMC_work_order_management_london} />} />
+                  <Route path="/erp-modules/work-order-management-aberdeen" element={<LazyRoute Component={ErpMC_work_order_management_aberdeen} />} />
+                  <Route path="/erp-modules/work-order-management-calgary" element={<LazyRoute Component={ErpMC_work_order_management_calgary} />} />
+                  <Route path="/erp-modules/work-order-management-perth" element={<LazyRoute Component={ErpMC_work_order_management_perth} />} />
+                  <Route path="/erp-modules/work-order-management-doha" element={<LazyRoute Component={ErpMC_work_order_management_doha} />} />
+                  <Route path="/erp-modules/work-order-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_work_order_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/work-order-management-jakarta" element={<LazyRoute Component={ErpMC_work_order_management_jakarta} />} />
+                  <Route path="/erp-modules/work-order-management-lagos" element={<LazyRoute Component={ErpMC_work_order_management_lagos} />} />
+                  <Route path="/erp-modules/inspection-scheduling-houston" element={<LazyRoute Component={ErpMC_inspection_scheduling_houston} />} />
+                  <Route path="/erp-modules/inspection-scheduling-dubai" element={<LazyRoute Component={ErpMC_inspection_scheduling_dubai} />} />
+                  <Route path="/erp-modules/inspection-scheduling-abu-dhabi" element={<LazyRoute Component={ErpMC_inspection_scheduling_abu_dhabi} />} />
+                  <Route path="/erp-modules/inspection-scheduling-saudi-arabia" element={<LazyRoute Component={ErpMC_inspection_scheduling_saudi_arabia} />} />
+                  <Route path="/erp-modules/inspection-scheduling-singapore" element={<LazyRoute Component={ErpMC_inspection_scheduling_singapore} />} />
+                  <Route path="/erp-modules/inspection-scheduling-mumbai" element={<LazyRoute Component={ErpMC_inspection_scheduling_mumbai} />} />
+                  <Route path="/erp-modules/inspection-scheduling-hyderabad" element={<LazyRoute Component={ErpMC_inspection_scheduling_hyderabad} />} />
+                  <Route path="/erp-modules/inspection-scheduling-london" element={<LazyRoute Component={ErpMC_inspection_scheduling_london} />} />
+                  <Route path="/erp-modules/inspection-scheduling-aberdeen" element={<LazyRoute Component={ErpMC_inspection_scheduling_aberdeen} />} />
+                  <Route path="/erp-modules/inspection-scheduling-calgary" element={<LazyRoute Component={ErpMC_inspection_scheduling_calgary} />} />
+                  <Route path="/erp-modules/inspection-scheduling-perth" element={<LazyRoute Component={ErpMC_inspection_scheduling_perth} />} />
+                  <Route path="/erp-modules/inspection-scheduling-doha" element={<LazyRoute Component={ErpMC_inspection_scheduling_doha} />} />
+                  <Route path="/erp-modules/inspection-scheduling-kuala-lumpur" element={<LazyRoute Component={ErpMC_inspection_scheduling_kuala_lumpur} />} />
+                  <Route path="/erp-modules/inspection-scheduling-jakarta" element={<LazyRoute Component={ErpMC_inspection_scheduling_jakarta} />} />
+                  <Route path="/erp-modules/inspection-scheduling-lagos" element={<LazyRoute Component={ErpMC_inspection_scheduling_lagos} />} />
+                  <Route path="/erp-modules/calibration-management-houston" element={<LazyRoute Component={ErpMC_calibration_management_houston} />} />
+                  <Route path="/erp-modules/calibration-management-dubai" element={<LazyRoute Component={ErpMC_calibration_management_dubai} />} />
+                  <Route path="/erp-modules/calibration-management-abu-dhabi" element={<LazyRoute Component={ErpMC_calibration_management_abu_dhabi} />} />
+                  <Route path="/erp-modules/calibration-management-saudi-arabia" element={<LazyRoute Component={ErpMC_calibration_management_saudi_arabia} />} />
+                  <Route path="/erp-modules/calibration-management-singapore" element={<LazyRoute Component={ErpMC_calibration_management_singapore} />} />
+                  <Route path="/erp-modules/calibration-management-mumbai" element={<LazyRoute Component={ErpMC_calibration_management_mumbai} />} />
+                  <Route path="/erp-modules/calibration-management-hyderabad" element={<LazyRoute Component={ErpMC_calibration_management_hyderabad} />} />
+                  <Route path="/erp-modules/calibration-management-london" element={<LazyRoute Component={ErpMC_calibration_management_london} />} />
+                  <Route path="/erp-modules/calibration-management-aberdeen" element={<LazyRoute Component={ErpMC_calibration_management_aberdeen} />} />
+                  <Route path="/erp-modules/calibration-management-calgary" element={<LazyRoute Component={ErpMC_calibration_management_calgary} />} />
+                  <Route path="/erp-modules/calibration-management-perth" element={<LazyRoute Component={ErpMC_calibration_management_perth} />} />
+                  <Route path="/erp-modules/calibration-management-doha" element={<LazyRoute Component={ErpMC_calibration_management_doha} />} />
+                  <Route path="/erp-modules/calibration-management-kuala-lumpur" element={<LazyRoute Component={ErpMC_calibration_management_kuala_lumpur} />} />
+                  <Route path="/erp-modules/calibration-management-jakarta" element={<LazyRoute Component={ErpMC_calibration_management_jakarta} />} />
+                  <Route path="/erp-modules/calibration-management-lagos" element={<LazyRoute Component={ErpMC_calibration_management_lagos} />} />
+                  <Route path="/erp-modules/corrosion-tracking-houston" element={<LazyRoute Component={ErpMC_corrosion_tracking_houston} />} />
+                  <Route path="/erp-modules/corrosion-tracking-dubai" element={<LazyRoute Component={ErpMC_corrosion_tracking_dubai} />} />
+                  <Route path="/erp-modules/corrosion-tracking-abu-dhabi" element={<LazyRoute Component={ErpMC_corrosion_tracking_abu_dhabi} />} />
+                  <Route path="/erp-modules/corrosion-tracking-saudi-arabia" element={<LazyRoute Component={ErpMC_corrosion_tracking_saudi_arabia} />} />
+                  <Route path="/erp-modules/corrosion-tracking-singapore" element={<LazyRoute Component={ErpMC_corrosion_tracking_singapore} />} />
+                  <Route path="/erp-modules/corrosion-tracking-mumbai" element={<LazyRoute Component={ErpMC_corrosion_tracking_mumbai} />} />
+                  <Route path="/erp-modules/corrosion-tracking-hyderabad" element={<LazyRoute Component={ErpMC_corrosion_tracking_hyderabad} />} />
+                  <Route path="/erp-modules/corrosion-tracking-london" element={<LazyRoute Component={ErpMC_corrosion_tracking_london} />} />
+                  <Route path="/erp-modules/corrosion-tracking-aberdeen" element={<LazyRoute Component={ErpMC_corrosion_tracking_aberdeen} />} />
+                  <Route path="/erp-modules/corrosion-tracking-calgary" element={<LazyRoute Component={ErpMC_corrosion_tracking_calgary} />} />
+                  <Route path="/erp-modules/corrosion-tracking-perth" element={<LazyRoute Component={ErpMC_corrosion_tracking_perth} />} />
+                  <Route path="/erp-modules/corrosion-tracking-doha" element={<LazyRoute Component={ErpMC_corrosion_tracking_doha} />} />
+                  <Route path="/erp-modules/corrosion-tracking-kuala-lumpur" element={<LazyRoute Component={ErpMC_corrosion_tracking_kuala_lumpur} />} />
+                  <Route path="/erp-modules/corrosion-tracking-jakarta" element={<LazyRoute Component={ErpMC_corrosion_tracking_jakarta} />} />
+                  <Route path="/erp-modules/corrosion-tracking-lagos" element={<LazyRoute Component={ErpMC_corrosion_tracking_lagos} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-houston" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-saudi-arabia" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_saudi_arabia} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-hyderabad" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_hyderabad} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-london" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_london} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-aberdeen" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_aberdeen} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-perth" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-doha" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-jakarta" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_jakarta} />} />
+                  <Route path="/erp-industries/ndt-inspection-companies-lagos" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_lagos} />} />
+                  <Route path="/erp-industries/calibration-laboratories-houston" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_houston} />} />
+                  <Route path="/erp-industries/calibration-laboratories-dubai" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_dubai} />} />
+                  <Route path="/erp-industries/calibration-laboratories-abu-dhabi" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_abu_dhabi} />} />
+                  <Route path="/erp-industries/calibration-laboratories-saudi-arabia" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_saudi_arabia} />} />
+                  <Route path="/erp-industries/calibration-laboratories-singapore" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_singapore} />} />
+                  <Route path="/erp-industries/calibration-laboratories-mumbai" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_mumbai} />} />
+                  <Route path="/erp-industries/calibration-laboratories-hyderabad" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_hyderabad} />} />
+                  <Route path="/erp-industries/calibration-laboratories-london" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_london} />} />
+                  <Route path="/erp-industries/calibration-laboratories-aberdeen" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_aberdeen} />} />
+                  <Route path="/erp-industries/calibration-laboratories-calgary" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_calgary} />} />
+                  <Route path="/erp-industries/calibration-laboratories-perth" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_perth} />} />
+                  <Route path="/erp-industries/calibration-laboratories-doha" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_doha} />} />
+                  <Route path="/erp-industries/calibration-laboratories-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_kuala_lumpur} />} />
+                  <Route path="/erp-industries/calibration-laboratories-jakarta" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_jakarta} />} />
+                  <Route path="/erp-industries/calibration-laboratories-lagos" element={<LazyRoute Component={ErpIndCity_calibration_laboratories_lagos} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-houston" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_houston} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-dubai" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_dubai} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-abu-dhabi" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_abu_dhabi} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-saudi-arabia" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_saudi_arabia} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-singapore" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_singapore} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-mumbai" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_mumbai} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-hyderabad" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_hyderabad} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-london" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_london} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-aberdeen" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_aberdeen} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-calgary" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_calgary} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-perth" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_perth} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-doha" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_doha} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_kuala_lumpur} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-jakarta" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_jakarta} />} />
+                  <Route path="/erp-industries/welding-fabrication-shops-lagos" element={<LazyRoute Component={ErpIndCity_welding_fabrication_shops_lagos} />} />
+                  <Route path="/erp-industries/marine-survey-companies-houston" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_houston} />} />
+                  <Route path="/erp-industries/marine-survey-companies-dubai" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_dubai} />} />
+                  <Route path="/erp-industries/marine-survey-companies-abu-dhabi" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_abu_dhabi} />} />
+                  <Route path="/erp-industries/marine-survey-companies-saudi-arabia" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_saudi_arabia} />} />
+                  <Route path="/erp-industries/marine-survey-companies-singapore" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_singapore} />} />
+                  <Route path="/erp-industries/marine-survey-companies-mumbai" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_mumbai} />} />
+                  <Route path="/erp-industries/marine-survey-companies-hyderabad" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_hyderabad} />} />
+                  <Route path="/erp-industries/marine-survey-companies-london" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_london} />} />
+                  <Route path="/erp-industries/marine-survey-companies-aberdeen" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_aberdeen} />} />
+                  <Route path="/erp-industries/marine-survey-companies-calgary" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_calgary} />} />
+                  <Route path="/erp-industries/marine-survey-companies-perth" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_perth} />} />
+                  <Route path="/erp-industries/marine-survey-companies-doha" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_doha} />} />
+                  <Route path="/erp-industries/marine-survey-companies-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_kuala_lumpur} />} />
+                  <Route path="/erp-industries/marine-survey-companies-jakarta" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_jakarta} />} />
+                  <Route path="/erp-industries/marine-survey-companies-lagos" element={<LazyRoute Component={ErpIndCity_marine_survey_companies_lagos} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-houston" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_houston} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-dubai" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_dubai} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-abu-dhabi" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_abu_dhabi} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-saudi-arabia" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_saudi_arabia} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-singapore" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_singapore} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-mumbai" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_mumbai} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-hyderabad" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_hyderabad} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-london" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_london} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-aberdeen" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_aberdeen} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-calgary" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_calgary} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-perth" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_perth} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-doha" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_doha} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_kuala_lumpur} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-jakarta" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_jakarta} />} />
+                  <Route path="/erp-industries/pipeline-integrity-services-lagos" element={<LazyRoute Component={ErpIndCity_pipeline_integrity_services_lagos} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-houston" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_houston} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-dubai" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_dubai} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-abu-dhabi" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_abu_dhabi} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-saudi-arabia" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_saudi_arabia} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-singapore" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_singapore} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-mumbai" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_mumbai} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-hyderabad" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_hyderabad} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-london" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_london} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-aberdeen" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_aberdeen} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-calgary" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_calgary} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-perth" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_perth} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-doha" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_doha} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_kuala_lumpur} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-jakarta" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_jakarta} />} />
+                  <Route path="/erp-industries/aerospace-quality-control-lagos" element={<LazyRoute Component={ErpIndCity_aerospace_quality_control_lagos} />} />
+                  <Route path="/erp-industries/metrology-laboratories-houston" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_houston} />} />
+                  <Route path="/erp-industries/metrology-laboratories-dubai" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_dubai} />} />
+                  <Route path="/erp-industries/metrology-laboratories-abu-dhabi" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_abu_dhabi} />} />
+                  <Route path="/erp-industries/metrology-laboratories-saudi-arabia" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_saudi_arabia} />} />
+                  <Route path="/erp-industries/metrology-laboratories-singapore" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_singapore} />} />
+                  <Route path="/erp-industries/metrology-laboratories-mumbai" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_mumbai} />} />
+                  <Route path="/erp-industries/metrology-laboratories-hyderabad" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_hyderabad} />} />
+                  <Route path="/erp-industries/metrology-laboratories-london" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_london} />} />
+                  <Route path="/erp-industries/metrology-laboratories-aberdeen" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_aberdeen} />} />
+                  <Route path="/erp-industries/metrology-laboratories-calgary" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_calgary} />} />
+                  <Route path="/erp-industries/metrology-laboratories-perth" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_perth} />} />
+                  <Route path="/erp-industries/metrology-laboratories-doha" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_doha} />} />
+                  <Route path="/erp-industries/metrology-laboratories-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_kuala_lumpur} />} />
+                  <Route path="/erp-industries/metrology-laboratories-jakarta" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_jakarta} />} />
+                  <Route path="/erp-industries/metrology-laboratories-lagos" element={<LazyRoute Component={ErpIndCity_metrology_laboratories_lagos} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-houston" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_houston} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-dubai" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_dubai} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-abu-dhabi" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_abu_dhabi} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-saudi-arabia" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_saudi_arabia} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-singapore" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_singapore} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-mumbai" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_mumbai} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-hyderabad" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_hyderabad} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-london" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_london} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-aberdeen" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_aberdeen} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-calgary" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_calgary} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-perth" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_perth} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-doha" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_doha} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_kuala_lumpur} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-jakarta" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_jakarta} />} />
+                  <Route path="/erp-industries/industrial-coatings-inspection-lagos" element={<LazyRoute Component={ErpIndCity_industrial_coatings_inspection_lagos} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-houston" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_houston} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-dubai" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_dubai} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-abu-dhabi" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_abu_dhabi} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-saudi-arabia" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_saudi_arabia} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-singapore" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_singapore} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-mumbai" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_mumbai} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-hyderabad" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_hyderabad} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-london" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_london} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-aberdeen" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_aberdeen} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-calgary" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_calgary} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-perth" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_perth} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-doha" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_doha} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_kuala_lumpur} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-jakarta" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_jakarta} />} />
+                  <Route path="/erp-industries/construction-quality-assurance-lagos" element={<LazyRoute Component={ErpIndCity_construction_quality_assurance_lagos} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-houston" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_houston} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-dubai" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_dubai} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-abu-dhabi" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_abu_dhabi} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-saudi-arabia" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_saudi_arabia} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-singapore" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_singapore} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-mumbai" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_mumbai} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-hyderabad" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_hyderabad} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-london" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_london} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-aberdeen" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_aberdeen} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-calgary" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_calgary} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-perth" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_perth} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-doha" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_doha} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_kuala_lumpur} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-jakarta" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_jakarta} />} />
+                  <Route path="/erp-industries/geotechnical-engineering-lagos" element={<LazyRoute Component={ErpIndCity_geotechnical_engineering_lagos} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-houston" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_houston} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-dubai" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_dubai} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-abu-dhabi" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_abu_dhabi} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-saudi-arabia" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_saudi_arabia} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-singapore" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_singapore} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-mumbai" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_mumbai} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-hyderabad" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_hyderabad} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-london" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_london} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-aberdeen" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_aberdeen} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-calgary" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_calgary} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-perth" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_perth} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-doha" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_doha} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_kuala_lumpur} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-jakarta" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_jakarta} />} />
+                  <Route path="/erp-industries/environmental-testing-labs-lagos" element={<LazyRoute Component={ErpIndCity_environmental_testing_labs_lagos} />} />
+                  <Route path="/erp-industries/oilfield-services-houston" element={<LazyRoute Component={ErpIndCity_oilfield_services_houston} />} />
+                  <Route path="/erp-industries/oilfield-services-dubai" element={<LazyRoute Component={ErpIndCity_oilfield_services_dubai} />} />
+                  <Route path="/erp-industries/oilfield-services-abu-dhabi" element={<LazyRoute Component={ErpIndCity_oilfield_services_abu_dhabi} />} />
+                  <Route path="/erp-industries/oilfield-services-saudi-arabia" element={<LazyRoute Component={ErpIndCity_oilfield_services_saudi_arabia} />} />
+                  <Route path="/erp-industries/oilfield-services-singapore" element={<LazyRoute Component={ErpIndCity_oilfield_services_singapore} />} />
+                  <Route path="/erp-industries/oilfield-services-mumbai" element={<LazyRoute Component={ErpIndCity_oilfield_services_mumbai} />} />
+                  <Route path="/erp-industries/oilfield-services-hyderabad" element={<LazyRoute Component={ErpIndCity_oilfield_services_hyderabad} />} />
+                  <Route path="/erp-industries/oilfield-services-london" element={<LazyRoute Component={ErpIndCity_oilfield_services_london} />} />
+                  <Route path="/erp-industries/oilfield-services-aberdeen" element={<LazyRoute Component={ErpIndCity_oilfield_services_aberdeen} />} />
+                  <Route path="/erp-industries/oilfield-services-calgary" element={<LazyRoute Component={ErpIndCity_oilfield_services_calgary} />} />
+                  <Route path="/erp-industries/oilfield-services-perth" element={<LazyRoute Component={ErpIndCity_oilfield_services_perth} />} />
+                  <Route path="/erp-industries/oilfield-services-doha" element={<LazyRoute Component={ErpIndCity_oilfield_services_doha} />} />
+                  <Route path="/erp-industries/oilfield-services-kuala-lumpur" element={<LazyRoute Component={ErpIndCity_oilfield_services_kuala_lumpur} />} />
+                  <Route path="/erp-industries/oilfield-services-jakarta" element={<LazyRoute Component={ErpIndCity_oilfield_services_jakarta} />} />
+                  <Route path="/erp-industries/oilfield-services-lagos" element={<LazyRoute Component={ErpIndCity_oilfield_services_lagos} />} />
                   <Route path="/erp-modules/certification-tracking-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_certification_tracking_for_ndt_inspection_companies} />} />
                   <Route path="/erp-modules/work-order-management-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_work_order_management_for_ndt_inspection_companies} />} />
                   <Route path="/erp-modules/inspection-scheduling-for-ndt-inspection-companies" element={<LazyRoute Component={ErpCross_inspection_scheduling_for_ndt_inspection_companies} />} />
@@ -1894,6 +2415,16 @@ const App = () => (
                   <Route path="/resources/ndt-procedure-template" element={<LazyRoute Component={NDTProcedureTemplate} />} />
                   <Route path="/resources/ndt-safety-checklist" element={<LazyRoute Component={NDTSafetyChecklist} />} />
                   <Route path="/resources/training-requirements-matrix" element={<LazyRoute Component={TrainingRequirementsMatrix} />} />
+                  <Route path="/resources/api-510-inspection-report" element={<LazyRoute Component={API510InspectionReport} />} />
+                  <Route path="/resources/api-570-piping-inspection-record" element={<LazyRoute Component={API570PipingInspectionRecord} />} />
+                  <Route path="/resources/daily-progress-report-dpr" element={<LazyRoute Component={DailyProgressReportDPR} />} />
+                  <Route path="/resources/pwht-record" element={<LazyRoute Component={PWHTRecord} />} />
+                  <Route path="/resources/rbi-worksheet" element={<LazyRoute Component={RBIWorksheet} />} />
+                  <Route path="/resources/calibration-certificate-template" element={<LazyRoute Component={CalibrationCertificateTemplate} />} />
+                  <Route path="/resources/welder-qualification-test-wpqr" element={<LazyRoute Component={WelderQualificationTestWPQR} />} />
+                  <Route path="/resources/ndt-written-practice-template" element={<LazyRoute Component={NDTWrittenPracticeTemplate} />} />
+                  <Route path="/resources/inspection-test-plan-itp" element={<LazyRoute Component={InspectionTestPlanITP} />} />
+                  <Route path="/resources/audit-finding-tracker" element={<LazyRoute Component={AuditFindingTracker} />} />
                   {/* Content Pages */}
                   <Route path="/ndt-industry-statistics" element={<LazyRoute Component={NDTIndustryStatistics} />} />
                   <Route path="/ndt-complete-guide" element={<LazyRoute Component={UltimateGuideNDT} />} />

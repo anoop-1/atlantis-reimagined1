@@ -43,13 +43,30 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // ── Config ──────────────────────────────────────────────────────────────────
 const ACCOUNTS_DIR = join(__dirname, 'gsc-accounts');
 const LEGACY_CRED = join(__dirname, 'gsc-service-account.json');
-const QUEUE_FILE = join(__dirname, 'indexing-queue-smart.txt');
+const DEFAULT_QUEUE_FILE = join(__dirname, 'indexing-queue-smart.txt');
 const PROGRESS_FILE = join(__dirname, 'gsc-multi-progress.json');
-const LOG_FILE = join(__dirname, 'gsc-multi-submit.log');
+const DEFAULT_LOG_FILE = join(__dirname, 'gsc-multi-submit.log');
 const PER_ACCOUNT_LIMIT = parseInt(process.argv.find(a => /^\d+$/.test(a)) || '200');
 const DRY_RUN = process.argv.includes('--dry-run');
 const STATUS_ONLY = process.argv.includes('--status');
 const INCLUDE_TEMPLATES = process.argv.includes('--include-templates');
+
+// --source <filename> — use a custom URL source file (resolved relative to scripts/).
+// Use this for one-off targeted submissions (e.g. new URLs from a recent sprint)
+// without polluting the main indexing-queue-smart.txt or breaking the daily pipeline.
+function getCliArg(name) {
+  const idx = process.argv.indexOf(name);
+  if (idx === -1 || idx === process.argv.length - 1) return null;
+  return process.argv[idx + 1];
+}
+const SOURCE_ARG = getCliArg('--source');
+const QUEUE_FILE = SOURCE_ARG
+  ? (SOURCE_ARG.includes('/') || SOURCE_ARG.includes('\\') ? SOURCE_ARG : join(__dirname, SOURCE_ARG))
+  : DEFAULT_QUEUE_FILE;
+const LOG_ARG = getCliArg('--log');
+const LOG_FILE = LOG_ARG
+  ? (LOG_ARG.includes('/') || LOG_ARG.includes('\\') ? LOG_ARG : join(__dirname, LOG_ARG))
+  : DEFAULT_LOG_FILE;
 
 // ── SEO Safety: Curated City Whitelist ─────────────────────────────────────
 // Only 60 high-value industrial cities are indexed. All other city-template
@@ -91,6 +108,20 @@ const CURATED_CITY_SLUGS = new Set([
   'rio-de-janeiro-brazil', 'johannesburg-south-africa', 'calgary', 'calgary-canada',
   'edmonton-canada', 'edmonton', 'toronto', 'vancouver', 'montreal',
   'fort-mcmurray', 'halifax', 'mexico-city', 'buenos-aires-argentina',
+  // ── ERP expansion 2026-05 — Sprint 4 city additions ───────────────
+  'accra', 'ahmedabad', 'algeria', 'angola', 'argentina', 'austin',
+  'australia', 'bahrain', 'bangalore', 'bangkok', 'beijing', 'belgium',
+  'bogota', 'brazil', 'brisbane', 'buenos-aires', 'cape-town', 'casablanca',
+  'colombia', 'colorado-springs', 'dammam', 'delhi', 'egypt', 'fort-worth',
+  'france', 'germany', 'ho-chi-minh', 'hong-kong', 'huntsville', 'india',
+  'indonesia', 'italy', 'jakarta', 'jamnagar', 'japan', 'johannesburg',
+  'kochi', 'kolkata', 'lake-charles', 'lima', 'malaysia', 'manila',
+  'nairobi', 'netherlands', 'new-zealand', 'nigeria', 'norfolk', 'norway',
+  'oklahoma-city', 'oman', 'online', 'orlando', 'philippines', 'qatar',
+  'raleigh', 'rio-de-janeiro', 'sacramento', 'san-antonio', 'santiago',
+  'sao-paulo', 'savannah', 'scotland', 'shanghai', 'shenzhen',
+  'south-africa', 'south-korea', 'spain', 'taipei', 'taiwan', 'thailand',
+  'trinidad', 'uk', 'usa', 'vietnam', 'vizag',
 ]);
 
 const TEMPLATE_PREFIXES = [
@@ -452,7 +483,9 @@ async function main() {
   }
 
   // Load queue
+  console.log(`\n📄 Source file: ${QUEUE_FILE}`);
   const rawUrls = readFileSync(QUEUE_FILE, 'utf-8').trim().split('\n')
+    .map(u => u.trim())
     .filter(u => u.startsWith('https://'));
 
   // SEO Safety: Only submit unique content + curated city pages
