@@ -1,0 +1,22 @@
+// Tier 2 ERP improvement plan — E-E-A-T and buyer trust
+// 13 routes: 12 case studies + 1 hub.
+//
+// IMPORTANT: The existing `<Route path="/case-studies" element={<CaseStudies />} />`
+// in src/App.tsx at line ~1516 must be REPLACED with the new
+// `<LazyRoute Component={CaseStudiesHub} />` below. The legacy CaseStudies.tsx
+// file is preserved on disk so it can be remapped to e.g. `/case-studies/services`
+// if those service-style case studies should remain reachable.
+
+                  <Route path="/case-studies" element={<LazyRoute Component={CaseStudiesHub} />} />
+                  <Route path="/case-studies/ndt-inspection-companies-erp-implementation" element={<LazyRoute Component={CsNdtInspectionCompaniesErp} />} />
+                  <Route path="/case-studies/calibration-laboratories-erp-implementation" element={<LazyRoute Component={CsCalibrationLaboratoriesErp} />} />
+                  <Route path="/case-studies/welding-fabrication-shops-erp-implementation" element={<LazyRoute Component={CsWeldingFabricationShopsErp} />} />
+                  <Route path="/case-studies/marine-survey-companies-erp-implementation" element={<LazyRoute Component={CsMarineSurveyCompaniesErp} />} />
+                  <Route path="/case-studies/pipeline-integrity-services-erp-implementation" element={<LazyRoute Component={CsPipelineIntegrityServicesErp} />} />
+                  <Route path="/case-studies/aerospace-quality-control-erp-implementation" element={<LazyRoute Component={CsAerospaceQualityControlErp} />} />
+                  <Route path="/case-studies/metrology-laboratories-erp-implementation" element={<LazyRoute Component={CsMetrologyLaboratoriesErp} />} />
+                  <Route path="/case-studies/industrial-coatings-inspection-erp-implementation" element={<LazyRoute Component={CsIndustrialCoatingsInspectionErp} />} />
+                  <Route path="/case-studies/construction-quality-assurance-erp-implementation" element={<LazyRoute Component={CsConstructionQualityAssuranceErp} />} />
+                  <Route path="/case-studies/geotechnical-engineering-erp-implementation" element={<LazyRoute Component={CsGeotechnicalEngineeringErp} />} />
+                  <Route path="/case-studies/environmental-testing-labs-erp-implementation" element={<LazyRoute Component={CsEnvironmentalTestingLabsErp} />} />
+                  <Route path="/case-studies/oilfield-services-erp-implementation" element={<LazyRoute Component={CsOilfieldServicesErp} />} />

@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import CustomerLogosBlock from "@/components/CustomerLogosBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -108,6 +109,8 @@ export default function ErpModulesHub() {
           </div>
         </div>
       </section>
+
+      <CustomerLogosBlock />
 
       <ContactDetails />
     </div>

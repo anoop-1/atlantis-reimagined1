@@ -1,0 +1,5 @@
+const PressSaep1142Acs01PtsTemplates = lazy(() => import("./pages/press/saep-1142-acs-01-pts-templates"));
+const PressIso17025CalibrationLaboratoryErp = lazy(() => import("./pages/press/iso-17025-calibration-laboratory-erp"));
+const PressFreeTemplates2026Launch = lazy(() => import("./pages/press/free-templates-2026-launch"));
+const PressHub = lazy(() => import("./pages/PressHub"));
+const PressLaunch2026 = lazy(() => import("./pages/press/atlantis-ndt-erp-launch-2026"));

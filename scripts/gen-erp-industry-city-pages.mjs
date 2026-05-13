@@ -12,8 +12,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DATA = JSON.parse(readFileSync(join(__dirname, 'gen-erp-data.json'), 'utf-8'));
 
-// ─── Top 15 cities (Sprint 5 scope) ──────────────────────────────────────────
-const CITIES = [
+// ─── Top 15 cities (Sprint 5 scope) + Tier 1 next-15 (this sprint) ──────────
+const CITIES_ORIGINAL = [
   { slug: 'houston',       name: 'Houston',       country: 'USA',          iso: 'US', lat: 29.7604,  lng: -95.3698  },
   { slug: 'dubai',         name: 'Dubai',         country: 'UAE',          iso: 'AE', lat: 25.2048,  lng: 55.2708   },
   { slug: 'abu-dhabi',     name: 'Abu Dhabi',     country: 'UAE',          iso: 'AE', lat: 24.4539,  lng: 54.3773   },
@@ -30,6 +30,32 @@ const CITIES = [
   { slug: 'jakarta',       name: 'Jakarta',       country: 'Indonesia',    iso: 'ID', lat: -6.2088,  lng: 106.8456  },
   { slug: 'lagos',         name: 'Lagos',         country: 'Nigeria',      iso: 'NG', lat: 6.5244,   lng: 3.3792    },
 ];
+
+// Tier 1 expansion — next 15 high-value cities.
+const CITIES_TIER1 = [
+  { slug: 'riyadh',          name: 'Riyadh',          country: 'Saudi Arabia', iso: 'SA', lat: 24.7136,  lng: 46.6753  },
+  { slug: 'jubail',          name: 'Jubail',          country: 'Saudi Arabia', iso: 'SA', lat: 27.0046,  lng: 49.6469  },
+  { slug: 'yanbu',           name: 'Yanbu',           country: 'Saudi Arabia', iso: 'SA', lat: 24.0890,  lng: 38.0618  },
+  { slug: 'kuwait',          name: 'Kuwait City',     country: 'Kuwait',       iso: 'KW', lat: 29.3759,  lng: 47.9774  },
+  { slug: 'muscat',          name: 'Muscat',          country: 'Oman',         iso: 'OM', lat: 23.5859,  lng: 58.4059  },
+  { slug: 'sharjah',         name: 'Sharjah',         country: 'UAE',          iso: 'AE', lat: 25.3463,  lng: 55.4209  },
+  { slug: 'port-harcourt',   name: 'Port Harcourt',   country: 'Nigeria',      iso: 'NG', lat: 4.8156,   lng: 7.0498   },
+  { slug: 'edmonton',        name: 'Edmonton',        country: 'Canada',       iso: 'CA', lat: 53.5461,  lng: -113.4938 },
+  { slug: 'toronto',         name: 'Toronto',         country: 'Canada',       iso: 'CA', lat: 43.6532,  lng: -79.3832 },
+  { slug: 'vancouver',       name: 'Vancouver',       country: 'Canada',       iso: 'CA', lat: 49.2827,  lng: -123.1207 },
+  { slug: 'sao-paulo',       name: 'Sao Paulo',       country: 'Brazil',       iso: 'BR', lat: -23.5505, lng: -46.6333 },
+  { slug: 'rio-de-janeiro',  name: 'Rio de Janeiro',  country: 'Brazil',       iso: 'BR', lat: -22.9068, lng: -43.1729 },
+  { slug: 'mexico-city',     name: 'Mexico City',     country: 'Mexico',       iso: 'MX', lat: 19.4326,  lng: -99.1332 },
+  { slug: 'bangkok',         name: 'Bangkok',         country: 'Thailand',     iso: 'TH', lat: 13.7563,  lng: 100.5018 },
+  { slug: 'ho-chi-minh',     name: 'Ho Chi Minh City',country: 'Vietnam',      iso: 'VN', lat: 10.8231,  lng: 106.6297 },
+];
+
+// When run with TIER1_ONLY=1 environment variable the generator only emits
+// the Tier 1 expansion pages (180 new files) and writes patch files keyed
+// to the Tier 1 sprint. This avoids regenerating the 180 already-shipped
+// Sprint 5 pages.
+const TIER1_ONLY = process.env.TIER1_ONLY === '1';
+const CITIES = TIER1_ONLY ? CITIES_TIER1 : [...CITIES_ORIGINAL, ...CITIES_TIER1];
 
 // ─── City local-context lookup tables ───────────────────────────────────────
 // Used to assemble unique intro paragraphs, operator lists, regulators, and
@@ -216,6 +242,187 @@ const CITY_CTX = {
     seasonality: 'rainy season (Apr–Oct) constrains Niger Delta access; offshore deepwater is year-round subject to swell windows',
     keyClient: 'NLNG Bonny Island',
     keyCode: 'NUPRC',
+  },
+  // ── Tier 1 expansion (next 15 cities) ────────────────────────────────────
+  'riyadh': {
+    region: 'central Saudi Arabia and the Riyadh province corridor',
+    market: 'the political, financial, and Vision-2030 megaproject capital of the Kingdom — host to Saudi Aramco corporate HQ, SABIC HQ, Ma\'aden HQ, and the headquarters of every major EPC operating in KSA',
+    cluster: 'a corporate-and-HQ industrial belt anchored by the King Abdullah Financial District, Riyadh tech valley, Diriyah Gate megaproject, plus Aramco / SABIC / Ma\'aden corporate complexes and the NEOM / Qiddiya / Red Sea project offices coordinating works in the western regions',
+    bodies: 'HRSD (labor), GAMI (defense / industries), SASO (standards), Saudi Aramco SAEP-1112 / SAEP-1142 vendor qualification, MODON (industrial cities), RCJY (Royal Commission), Council of Engineers (SCE)',
+    operators: ['Saudi Aramco (corporate HQ, Project Management Team)', 'SABIC (HQ)', 'Ma\'aden (HQ, gold & phosphate)', 'NEOM, Qiddiya, Red Sea Global megaprojects (PMO)', 'Saudi Electricity Company (SEC)', 'Riyadh Refinery (Aramco)', 'King Abdullah Petroleum Studies and Research Center', 'Royal Commission for Riyadh City'],
+    codes: ['Saudi Aramco SAEP-1112 (NDT personnel)', 'Saudi Aramco SAEP-1142 (NDT qualification)', 'Saudi Aramco SAES-H / SAES-W / SAES-L (engineering)', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'SASO QM 31 (quality)', 'NEOM project specifications'],
+    flavor: 'Riyadh inspection businesses live at the intersection of Aramco HQ procurement, Vision-2030 megaproject mobilisations, and Saudization (Nitaqat) workforce planning — vendor qualification flows from corporate Riyadh down to every project site',
+    seasonality: 'extreme summer heat (50°C May–Sep) drives field-work limitations; megaproject mobilisations peak Oct–April',
+    keyClient: 'Saudi Aramco PMT',
+    keyCode: 'SAEP-1142',
+  },
+  'jubail': {
+    region: 'the Saudi Arabian eastern Gulf coast and Royal Commission industrial city',
+    market: 'the largest industrial city in the world by master-planned land area, hosting Saudi Aramco refineries, SABIC affiliates, the Jubail petrochemical complex, and one of the deepest densities of NDT inspection demand anywhere on earth',
+    cluster: 'Jubail Industrial City I & II, Jubail Commercial Port, Aramco Jubail Refinery (SASREF / SADAF), SABIC affiliates including Kemya, Petrokemya, Sharq, Yanpet (mirror site), and the Jubail-2 expansion megaproject',
+    bodies: 'Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO, Saudi Aramco SAEP-1142, SABIC vendor approval, MODON, Ministry of Energy',
+    operators: ['SASREF (Saudi Aramco / Shell JV refining)', 'SADAF (SABIC / Dow petrochemicals)', 'Kemya (SABIC / ExxonMobil)', 'Petrokemya (SABIC)', 'Sharq (SABIC / Mitsubishi)', 'Saudi Kayan', 'SATORP (Aramco / Total Jubail)', 'Royal Commission Jubail Project Management'],
+    codes: ['RCJY engineering and construction standards', 'Saudi Aramco SAEP-1112 / 1142 (NDT)', 'SABIC ESS / SES (engineering)', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'NACE TM0177 / TM0284 (sour service)', 'SASO QM 31'],
+    flavor: 'Jubail inspection contractors deal with the heaviest concentration of sour-gas-rated equipment, ammonia and ethylene crackers, and SABIC / Aramco shutdowns in the Kingdom — RCJY work permits and SAEP-1142 currency are non-negotiable',
+    seasonality: 'continuous turnaround cycles year-round; humidity peaks Jun–Sep affect mobilisation and Hajj-period planning',
+    keyClient: 'SASREF',
+    keyCode: 'SAEP-1142',
+  },
+  'yanbu': {
+    region: 'the Red Sea industrial corridor of western Saudi Arabia',
+    market: 'the Kingdom\'s western refining and petrochemical hub, processing East-West pipeline crude into Saudi Aramco / Sinopec / ExxonMobil products and serving as the western anchor of the Vision-2030 corridor toward NEOM',
+    cluster: 'Yanbu Industrial City (Royal Commission Yanbu), Aramco Yanbu Refinery, YASREF (Aramco / Sinopec), Yanpet, Yansab, and the Yanbu Export Refinery alongside Petro Rabigh further south',
+    bodies: 'Royal Commission for Jubail and Yanbu (RCJY-Yanbu), HRSD, SASO, Saudi Aramco SAEP-1142, SABIC vendor approval, Saudi Ports Authority',
+    operators: ['YASREF (Aramco / Sinopec refining)', 'Aramco Yanbu Refinery', 'Yanpet (SABIC / ExxonMobil)', 'Yansab (SABIC)', 'Petro Rabigh (Aramco / Sumitomo, adjacent)', 'Royal Commission Yanbu PMT', 'Saudi Electricity Company Yanbu', 'Yanbu Cement Company'],
+    codes: ['RCJY Yanbu engineering standards', 'Saudi Aramco SAEP-1112 / 1142 (NDT)', 'SABIC ESS / SES', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'NACE TM0177 / TM0284 (sour service)', 'Saudi Aramco SAES-W (welding)'],
+    flavor: 'Yanbu inspection firms run mirror-site campaigns to Jubail with the added complexity of East-West pipeline integrity, Red Sea marine inspections, and the project mobilisations supporting NEOM and Red Sea Global to the north',
+    seasonality: 'continuous refinery turnaround cycles, marine-survey weather windows narrower in summer due to Red Sea heat',
+    keyClient: 'YASREF',
+    keyCode: 'SAEP-1142',
+  },
+  'kuwait': {
+    region: 'the State of Kuwait and the Northern Gulf',
+    market: 'a 4 million bbl/day producer concentrated in KOC upstream and KNPC / KIPIC downstream, with the Al-Zour refinery now the largest in the Middle East and the Mina Al-Ahmadi complex anchoring Gulf inspection demand',
+    cluster: 'Mina Al-Ahmadi and Mina Abdullah refineries (KNPC), Al-Zour refinery and LNG terminal (KIPIC), Greater Burgan field (KOC), Shuaiba Industrial Area, plus offshore platforms in the northern Gulf',
+    bodies: 'Kuwait Public Authority for Industry (PAI), Environmental Public Authority (EPA), Kuwait Fire Force, Kuwait Petroleum Corporation (KPC) vendor approval, Ministry of Oil',
+    operators: ['Kuwait Oil Company (KOC) upstream', 'Kuwait National Petroleum Company (KNPC) refining', 'KIPIC (Al-Zour refinery + LNG)', 'PIC (Petrochemical Industries Company)', 'Equate Petrochemical', 'Kuwait Aviation Fuelling Company (KAFCO)', 'GPCA member firms', 'Kuwait Gulf Oil Company (KGOC, partitioned zone)'],
+    codes: ['KPC Vendor Quality Requirements (KPC-VQR)', 'KOC standards (KOC-G-007, KOC-MP-024 etc.)', 'KNPC Standard Engineering Specifications (SES)', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'NACE TM0177 / TM0284 (sour service)', 'ISO 9712 (NDT certification)'],
+    flavor: 'Kuwait inspection firms work under one of the most prescriptive vendor-quality regimes in the Gulf — KPC, KOC, KNPC and KIPIC each maintain separate but overlapping vendor lists, and visa / labour-law constraints make workforce planning a strategic function',
+    seasonality: 'summer 50°C+ heat advisory May–Sep limits field hours; turnaround peak Oct–April plus continuous Al-Zour reliability work',
+    keyClient: 'KNPC',
+    keyCode: 'KPC-VQR',
+  },
+  'muscat': {
+    region: 'the Sultanate of Oman, including the Sohar industrial port and Duqm SEZ',
+    market: 'a mid-scale but highly diversified oil and gas market anchored by PDO upstream, OQ (formerly Oman Oil + Orpic) refining and petrochemicals, plus growing LNG (Qalhat) and a fast-developing Duqm refinery / SEZAD megaproject',
+    cluster: 'PDO concessions in the interior (Marmul, Fahud, Yibal, Lekhwair), Sohar port industrial estate (refinery, petrochemicals, methanol, aluminum), Duqm Special Economic Zone, Oman LNG Qalhat, and Muscat-based corporate HQs',
+    bodies: 'Ministry of Energy and Minerals (MEM), Ministry of Labour, Public Authority for Special Economic Zones and Free Zones (OPAZ), Royal Oman Police Civil Defence, Ministry of Environment, Omani Standards (DGSM)',
+    operators: ['Petroleum Development Oman (PDO)', 'OQ Refineries (Sohar + Muscat)', 'OQ Petrochemicals', 'Oman LNG (Qalhat)', 'Duqm Refinery (OQ / Kuwait Petroleum JV)', 'Sohar Aluminium', 'Vale Oman (Sohar pellet plant)', 'Oman Cement'],
+    codes: ['PDO Specifications (SP-series and ERD)', 'OQ Engineering Standards', 'Omani Standards (DGSM)', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'NACE TM0177 / TM0284 (sour service)', 'ISO 9712 (NDT certification)'],
+    flavor: 'Muscat inspection firms balance PDO\'s long-established SP-series engineering standards in the interior against OQ\'s industrial port at Sohar and the Duqm megaproject mobilisations — Omanisation (workforce-localisation) targets are a contract-eligibility filter',
+    seasonality: 'Khareef monsoon affects Dhofar in summer; rest of Oman year-round operations with 45°C+ heat constraint May–Sep',
+    keyClient: 'PDO',
+    keyCode: 'PDO SP-Specs',
+  },
+  'sharjah': {
+    region: 'the northern emirate of Sharjah and the wider northern UAE',
+    market: 'the UAE\'s industrial-and-fabrication hub, home to Hamriyah Free Zone and SAIF Zone industrial parks, Sharjah National Oil Corporation (SNOC), Crescent Petroleum and BUTINAH dry-dock, with strong demand for fabrication, marine, and onshore inspection',
+    cluster: 'Hamriyah Free Zone (oil & gas fabrication, food processing, plastics), SAIF Zone (Sharjah International Airport Free Zone), Port Khalid + Hamriyah Port, plus SNOC gas processing at Sajaa and Crescent Petroleum operations',
+    bodies: 'Sharjah Economic Development Department, Sharjah Chamber of Commerce, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence, MOIAT, UAE FANR (radiation)',
+    operators: ['Sharjah National Oil Corporation (SNOC)', 'Crescent Petroleum', 'BUTINAH AL KHAIR Marine', 'Sharjah Cement', 'Sharjah Aluminium (SHARC)', 'Hamriyah Free Zone tenants', 'Air Arabia (MRO)', 'Etihad Rail Sharjah segment'],
+    codes: ['UAE Federal Boiler Inspection Regulations', 'MOIAT industrial-licence requirements', 'ADQCC inspection schemes (referenced in northern emirates)', 'ADNOC ACS-01 (for vendors crossing into ADNOC scope)', 'API 510 / 570 / 653', 'ASME Section V / VIII', 'ISO 9712 (NDT certification)'],
+    flavor: 'Sharjah inspection businesses serve the northern-emirate fabrication ecosystem at Hamriyah and SAIF Zone alongside SNOC onshore gas — many firms staff project mobilisations into ADNOC, Iraq, and Saudi Arabia from Sharjah-based facilities',
+    seasonality: 'winter project peak (Oct–Apr); summer (45°C+) shifts work to shaded shop floors and night shifts',
+    keyClient: 'SNOC',
+    keyCode: 'HFZA',
+  },
+  'port-harcourt': {
+    region: 'the Niger Delta and the Rivers / Bayelsa oilfield corridor',
+    market: 'Nigeria\'s upstream-and-refining capital, anchored by the NNPCL Port Harcourt refinery, Shell SPDC, Eni AGIP, and a dense ecosystem of indigenous E&Ps now operating divested IOC assets',
+    cluster: 'Port Harcourt Refining Company (PHRC, NNPCL), Eleme Petrochemical, Onne Oil & Gas Free Zone (OGFZ), Bonny LNG (NLNG) to the south, plus Shell SPDC onshore concessions and indigenous-operated swamp / shallow-water assets',
+    bodies: 'NUPRC (upstream regulator), NMDPRA (midstream/downstream), NAPIMS (NNPC asset management), NIMASA (maritime), NNRA (radiation), DPR legacy reference, Rivers State Ministry of Environment',
+    operators: ['NNPCL (PHRC Port Harcourt refinery)', 'Shell SPDC (onshore Niger Delta)', 'Eni AGIP', 'TotalEnergies E&P Nigeria (onshore JV)', 'Indigenous E&Ps (Seplat, Aiteo, Heritage, Conoil)', 'NLNG Bonny Island', 'Eleme Petrochemical (Indorama)', 'Notore Chemical Industries'],
+    codes: ['NUPRC Procedure Guidelines (upstream)', 'NMDPRA Petroleum Industry Act regulations', 'NIMASA Marine Notices', 'NCDMB Nigerian Content (NOGICD Act)', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'ISO 9712 + ASNT SNT-TC-1A (NDT)'],
+    flavor: 'Port Harcourt inspection firms deal with extreme onshore-logistics complexity (swamp, creek, security), Nigerian Content Act local-content thresholds, and the operational handover of legacy IOC assets to indigenous operators that demand backlogged integrity workouts',
+    seasonality: 'rainy season (Apr–Oct) constrains Niger Delta access; planned PHRC rehabilitation campaigns set turnaround windows',
+    keyClient: 'PHRC',
+    keyCode: 'NCDMB NOGICD',
+  },
+  'edmonton': {
+    region: 'Alberta\'s industrial heartland and the Industrial Heartland Association zone',
+    market: 'Canada\'s largest single-site refining and upgrading cluster — Alberta Industrial Heartland — refining synbit and dilbit from the Fort McMurray oil sands plus petrochemical, pipeline-terminal and rail-terminal hubs supporting the entire Western Canadian basin',
+    cluster: 'Alberta Industrial Heartland (Strathcona, Sturgeon, Lamont counties), Imperial Oil Strathcona refinery, Suncor Edmonton refinery, Shell Scotford complex, North West Redwater Sturgeon Refinery, plus Inter Pipeline / Pembina petrochemical complexes',
+    bodies: 'ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator), CER (Canada Energy Regulator), CSA Group, Transport Canada (radiation), CNSC, Alberta OHS',
+    operators: ['Imperial Oil Strathcona refinery', 'Suncor Edmonton refinery', 'Shell Scotford (refinery + upgrader + chemicals)', 'North West Redwater Sturgeon Refinery', 'Inter Pipeline Heartland Petrochemical Complex (IPL HPC)', 'Pembina Pipeline / Empress', 'Dow Fort Saskatchewan', 'Nutrien Redwater (fertilizer)'],
+    codes: ['ABSA AB-506 / AB-512 (pressure equipment)', 'CSA Z662 (oil & gas pipelines)', 'CSA B51 (pressure vessels & piping)', 'AER Directive 056 / 077 (well & facility)', 'CER OPR regulations', 'API 510 / 570 / 653', 'CGSB 48.9712 (NDT certification)'],
+    flavor: 'Edmonton inspection firms manage Industrial Heartland turnarounds in extreme cold (-30°C), ABSA pressure-equipment registration for every CRN-stamped vessel, and rotating crews running between Heartland sites and Fort McMurray oil sands',
+    seasonality: 'spring turnaround peak Mar–Jun; winter cold (-30°C) compresses outdoor inspection windows but indoor / vessel-internal work continues year-round',
+    keyClient: 'Imperial Oil Strathcona',
+    keyCode: 'ABSA AB-506',
+  },
+  'toronto': {
+    region: 'the Greater Toronto Area and the Ontario industrial / nuclear corridor',
+    market: 'the corporate-and-nuclear capital of Canada, hosting Bruce Power, Ontario Power Generation HQ, the Hamilton steel cluster, a deep automotive supply chain, and one of the world\'s largest nuclear inspection workforces',
+    cluster: 'Bruce Power and Pickering / Darlington nuclear stations (within driving distance), Hamilton steel (ArcelorMittal Dofasco, Stelco), Sarnia Chemical Valley (upstream of Toronto), plus the Toronto-corporate base for mining majors and EPC consultants',
+    bodies: 'CNSC (Canadian Nuclear Safety Commission), TSSA (Technical Standards and Safety Authority Ontario), CSA Group, ESA (Electrical Safety Authority), Ontario Ministry of Labour, Health Canada (radiation)',
+    operators: ['Bruce Power (8-unit CANDU)', 'Ontario Power Generation (Pickering, Darlington)', 'ArcelorMittal Dofasco', 'Stelco Hamilton', 'Suncor Sarnia refinery', 'Imperial Oil Sarnia', 'Nova Chemicals Corunna', 'Toronto Pearson Airport (aerospace MRO)'],
+    codes: ['CNSC REGDOC-2.5.x (nuclear inspection)', 'CSA N285.0 / N285.4 / N285.5 (CANDU)', 'TSSA Boilers and Pressure Vessels Regulations', 'CSA B51 (pressure vessels & piping)', 'CSA W178 (welding inspection bodies)', 'API 510 / 570 / 653', 'CGSB 48.9712 (NDT certification)'],
+    flavor: 'Toronto inspection firms balance CANDU nuclear in-service inspection campaigns, Ontario TSSA pressure-equipment compliance, and Hamilton steel-mill maintenance — Bruce Power and OPG vendor qualification governs nuclear-eligible workforce planning',
+    seasonality: 'nuclear outage windows in spring and fall set the rhythm; steel-mill turnarounds layered around Ontario winter peak power',
+    keyClient: 'Bruce Power',
+    keyCode: 'CSA N285',
+  },
+  'vancouver': {
+    region: 'British Columbia, Pacific Northwest Canada, and the LNG Canada export corridor',
+    market: 'Canada\'s Pacific gateway — anchored by Trans Mountain expansion, LNG Canada (Kitimat), Coastal GasLink pipeline, Port of Vancouver marine, plus Burnaby / Cherry Point refining and a growing mining-services HQ cluster',
+    cluster: 'Trans Mountain Pipeline Westridge terminal (Burnaby), Parkland Burnaby refinery, LNG Canada Kitimat (north BC) and Coastal GasLink, Seaspan Vancouver shipyards, plus Pacific shipping and BC mining HQs',
+    bodies: 'Technical Safety BC (TSBC), BC Oil and Gas Commission (BCOGC, now BCER), Transport Canada (marine + radiation), CER (Canada Energy Regulator), WorkSafeBC, CSA Group',
+    operators: ['Trans Mountain Corporation (TMX pipeline + Westridge)', 'Parkland Burnaby refinery', 'LNG Canada (Shell-led JV, Kitimat)', 'Coastal GasLink (TC Energy)', 'Seaspan Shipyards', 'BC Ferries (marine inspection)', 'Teck Resources (mining HQ)', 'Methanex (Kitimat / global HQ)'],
+    codes: ['Technical Safety BC pressure-equipment regulations', 'CSA Z662 (oil & gas pipelines)', 'CSA B51 (pressure vessels & piping)', 'CER OPR regulations', 'API 510 / 570 / 653', 'Lloyd\'s Register / DNV class rules (Seaspan ship inspection)', 'CGSB 48.9712 (NDT certification)'],
+    flavor: 'Vancouver inspection firms manage cross-mode workload — marine survey at Port of Vancouver, pipeline integrity on TMX and Coastal GasLink, LNG Canada construction QA in Kitimat, and BC mining-equipment inspection',
+    seasonality: 'temperate year-round operations; LNG Canada construction window peaks May–Oct',
+    keyClient: 'Trans Mountain',
+    keyCode: 'CSA Z662',
+  },
+  'sao-paulo': {
+    region: 'the Sao Paulo state industrial belt and the wider Brazilian Southeast',
+    market: 'Brazil\'s industrial powerhouse — Petrobras administrative south, Replan / Revap refineries, Vale and CSN steel, EMBRAER aerospace at Sao Jose dos Campos, and the densest automotive supply chain in South America',
+    cluster: 'Replan (Paulinia, largest Petrobras refinery), Revap (Sao Jose dos Campos), Cubatao industrial belt (USIMINAS steel, Petrobras), EMBRAER (Sao Jose dos Campos aerospace), ABC automotive cluster, plus Santos port',
+    bodies: 'ANP (Agencia Nacional do Petroleo), Ibama (environment), ANVISA (pharma / metrology cross-reference), CNEN (nuclear / radiation), INMETRO (metrology / accreditation), Ministerio do Trabalho (NR-13 pressure vessels)',
+    operators: ['Petrobras (Replan, Revap, Cubatao RPBC)', 'USIMINAS (Cubatao steel)', 'CSN (Volta Redonda + Sao Paulo HQ)', 'EMBRAER (aerospace)', 'Braskem (petrochemicals)', 'Vale (mining HQ, Tubarao port)', 'Cosan / Raizen (ethanol + downstream)', 'Volkswagen do Brasil (ABC plants)'],
+    codes: ['NR-13 (pressure-vessel and boiler regulation)', 'NR-33 (confined-space)', 'NR-35 (working at height)', 'INMETRO accreditation requirements', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'ABENDI N-1594 / N-2055 (Brazilian NDT qualification)'],
+    flavor: 'Sao Paulo inspection businesses navigate NR-13 statutory pressure-vessel re-inspection cycles (an audit-finding-of-record in Brazil), Petrobras vendor qualification, and ABENDI N-1594 personnel certification governing the entire NDT workforce',
+    seasonality: 'tropical year-round operations; Petrobras refinery turnaround cycles peak Apr–Jun and Sep–Nov',
+    keyClient: 'Petrobras Replan',
+    keyCode: 'NR-13',
+  },
+  'rio-de-janeiro': {
+    region: 'Rio state and the Campos / Santos pre-salt offshore basin',
+    market: 'Petrobras\' upstream offshore capital — host to the Campos and Santos basin operations, FPSO contracting, the Petrobras headquarters, and a deepwater inspection ecosystem unmatched in the Americas',
+    cluster: 'Petrobras HQ (Rio Centro), Campos Basin FPSOs (Marlim, Albacora, Roncador), Santos Basin pre-salt FPSOs (Buzios, Lula, Tupi), REDUC refinery (Duque de Caxias), plus Acu industrial port (Sao Joao da Barra) and the Sergipe offshore expansion',
+    bodies: 'ANP (Agencia Nacional do Petroleo), Ibama (environment), Marinha do Brasil (maritime authority), CNEN (radiation), INMETRO (accreditation), Ministerio do Trabalho (NR-13)',
+    operators: ['Petrobras (Campos / Santos basins, HQ)', 'TotalEnergies E&P Brazil (Mero, Lapa)', 'Equinor Brazil (Roncador, Peregrino)', 'Shell Brazil (Mero, Libra)', 'PetroRio (mature offshore)', 'Modec do Brasil (FPSO operator)', 'SBM Offshore Brazil', 'REDUC refinery (Petrobras)'],
+    codes: ['ANP Resolucao 41/2015 (well integrity)', 'NR-13 (pressure-vessel and boiler regulation)', 'NR-37 (offshore-platform safety)', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'DNV / ABS / BV class rules for FPSOs', 'ABENDI N-1594 (NDT qualification)'],
+    flavor: 'Rio de Janeiro inspection firms specialise in deepwater FPSO life-extension, pre-salt asset integrity, and Petrobras vendor qualification — local-content (Conteudo Local) thresholds gate eligibility on every offshore contract',
+    seasonality: 'offshore campaigns subject to South Atlantic swell windows; tropical year-round shore operations',
+    keyClient: 'Petrobras',
+    keyCode: 'NR-37',
+  },
+  'mexico-city': {
+    region: 'central Mexico and the wider Mexican oil-and-gas corporate market',
+    market: 'host to Pemex\'s corporate headquarters and the National Hydrocarbons Commission (CNH), governing six refineries (Salina Cruz, Tula, Cadereyta, Salamanca, Madero, Minatitlan), the Dos Bocas Olmeca new refinery, and Pemex upstream offshore (Cantarell, Ku-Maloob-Zaap)',
+    cluster: 'Pemex corporate (Marina Nacional HQ), Tula refinery (Hidalgo), Salamanca refinery (Guanajuato) and the petrochemical / fertilizer corridor servicing central Mexico, plus auto-supply chain Bajio region',
+    bodies: 'CNH (Comision Nacional de Hidrocarburos), ASEA (Agencia de Seguridad, Energia y Ambiente), STPS (Secretaria del Trabajo - NOM regulations), CRE (Comision Reguladora de Energia), CENACE (electricity), EMA (accreditation)',
+    operators: ['Pemex (corporate HQ + 6 refineries)', 'Pemex Exploracion y Produccion (PEP)', 'CFE (Comision Federal de Electricidad)', 'Cementos Mexicanos (Cemex HQ Monterrey-region)', 'Grupo BAL (industrial)', 'Mexicana de Cobre / Grupo Mexico', 'Iberdrola Mexico', 'Energia Costa Azul (Sempra LNG Pacific)'],
+    codes: ['ASEA Reglamento SASISOPA (Pemex safety management)', 'NOM-027-STPS (welding safety)', 'NOM-020-STPS (pressure-vessel)', 'CNH well-integrity regulations', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'NMX-B-486 (Mexican NDT qualification, ISO 9712 aligned)'],
+    flavor: 'Mexico City inspection firms route Pemex vendor qualification, ASEA SASISOPA documentation, and NOM-STPS workplace compliance through a single corporate channel — Spanish-language regulator submissions and dual ASNT / NMX qualifications are baseline',
+    seasonality: 'central altiplano year-round operations; Pemex refinery turnaround windows clustered Q1 and Q3',
+    keyClient: 'Pemex',
+    keyCode: 'ASEA SASISOPA',
+  },
+  'bangkok': {
+    region: 'central Thailand and the Eastern Economic Corridor (EEC)',
+    market: 'PTT Group\'s corporate base and the EEC industrial corridor — Map Ta Phut refining / petrochemical complex, Rayong refining (TOP, IRPC), automotive manufacturing, and a fast-growing electronics / EV supply chain',
+    cluster: 'Map Ta Phut Industrial Estate (PTT GC, Star Petroleum, Glow), Rayong refining cluster (Thai Oil, IRPC, PTT GC), Laem Chabang Port + automotive belt, plus PTT, PTTEP, Bangchak corporate HQs in Bangkok',
+    bodies: 'DOEB (Department of Energy Business), DIW (Department of Industrial Works), DEDE (Energy Efficiency), TISI (Thai Industrial Standards Institute), OAP (Office of Atoms for Peace - radiation), Ministry of Labour',
+    operators: ['PTT Public Company Limited', 'Thai Oil (TOP, Sriracha refinery)', 'IRPC (Rayong refining + petrochemicals)', 'PTT Global Chemical (PTT GC, Map Ta Phut)', 'Bangchak Corporation', 'Star Petroleum Refining (Chevron / PTT)', 'SCG Chemicals', 'PTTEP (upstream)'],
+    codes: ['DIW Factory Act regulations (Pressure-Vessel B.E. 2549)', 'TIS standards (Thai Industrial Standards)', 'OAP radiation-safety licensing', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'ISO 9712 (NDT certification)', 'PTT GC engineering specifications'],
+    flavor: 'Bangkok inspection firms juggle Map Ta Phut and Sriracha turnarounds, PTT-group vendor qualification, Thai labour-law / work-permit constraints, and a regional service-export footprint into Myanmar, Laos, and Cambodia',
+    seasonality: 'tropical year-round; refinery turnaround peaks Feb–May and Oct–Dec around monsoon',
+    keyClient: 'PTT GC',
+    keyCode: 'DIW Pressure-Vessel B.E. 2549',
+  },
+  'ho-chi-minh': {
+    region: 'southern Vietnam and the Ba Ria - Vung Tau oil and gas corridor',
+    market: 'Vietnam\'s upstream-and-downstream commercial hub — PetroVietnam (PVN) corporate, Long Son Petrochemicals (Ba Ria - Vung Tau), Dung Quat refinery (BSR), the planned Nghi Son JV, and a growing offshore upstream basin',
+    cluster: 'Long Son Petrochemicals Complex (SCG-led, Ba Ria - Vung Tau), Vung Tau offshore-support base for Cuu Long / Nam Con Son basins, Dung Quat refinery (Quang Ngai, BSR), Phu My power and industrial estates, plus PetroVietnam corporate HQ in HCMC',
+    bodies: 'PetroVietnam (PVN) vendor approval, Ministry of Industry and Trade (MOIT), Vietnam Petroleum Institute (VPI), VARANS (radiation), Vietnam Maritime Administration (VINAMARINE), Department of Occupational Safety',
+    operators: ['PetroVietnam (PVN, corporate)', 'Vietsovpetro (PVN / Zarubezhneft offshore JV)', 'Long Son Petrochemicals (SCG)', 'Binh Son Refining (BSR, Dung Quat)', 'Nghi Son Refinery and Petrochemical (Idemitsu / Kuwait Petroleum JV)', 'PV Gas', 'PV Drilling (PVD)', 'Phu My Industrial Park operators'],
+    codes: ['Vietnamese Technical Regulations (QCVN) for pressure equipment', 'TCVN national standards (boilers, vessels, piping)', 'PetroVietnam Engineering Specifications', 'API 510 / 570 / 653', 'ASME Section V / VIII / IX', 'ISO 9712 (NDT certification)', 'IMCA D-018 (offshore inspection)'],
+    flavor: 'Ho Chi Minh City inspection firms serve PVN vendor qualification, the Vung Tau offshore-support base, and the Long Son / Nghi Son mega-petrochemical complexes — Vietnamese-language QCVN documentation and bilingual reporting are operational baseline',
+    seasonality: 'tropical wet/dry cycle; offshore Cuu Long / Nam Con Son weather windows narrower May–Oct (SW monsoon)',
+    keyClient: 'PetroVietnam',
+    keyCode: 'QCVN',
   },
 };
 
@@ -525,8 +732,14 @@ const routes = allCombos
   .map(c => `                  <Route path="/erp-industries/${c.slug}" element={<LazyRoute Component={ErpIndCity_${c.slug.replace(/-/g, '_')}} />} />`)
   .join('\n');
 
-writeFileSync(join(__dirname, '_sprint5-lazy.txt'), lazy + '\n');
-writeFileSync(join(__dirname, '_sprint5-routes.txt'), routes + '\n');
+// Write to sprint-specific patch files. In TIER1 mode the patch file basename
+// changes so the existing Sprint 5 patches stay untouched.
+const lazyOut = TIER1_ONLY ? '_tier1-industries-lazy.txt' : '_sprint5-lazy.txt';
+const routesOut = TIER1_ONLY ? '_tier1-industries-routes.txt' : '_sprint5-routes.txt';
+const prerenderOut = TIER1_ONLY ? '_tier1-industries-prerender.json' : '_sprint5-prerender.json';
+
+writeFileSync(join(__dirname, lazyOut), lazy + '\n');
+writeFileSync(join(__dirname, routesOut), routes + '\n');
 
 const prerenderEntries = allCombos.map(c => ({
   path: `/erp-industries/${c.slug}`,
@@ -535,12 +748,12 @@ const prerenderEntries = allCombos.map(c => ({
   bodyH1: c.bodyH1,
   bodyText: c.bodyText,
 }));
-writeFileSync(join(__dirname, '_sprint5-prerender.json'), JSON.stringify(prerenderEntries, null, 2));
+writeFileSync(join(__dirname, prerenderOut), JSON.stringify(prerenderEntries, null, 2));
 
-console.log(`✓ Sprint 5 patch files written:`);
-console.log(`  scripts/_sprint5-lazy.txt (${allCombos.length} lazy imports)`);
-console.log(`  scripts/_sprint5-routes.txt (${allCombos.length} routes)`);
-console.log(`  scripts/_sprint5-prerender.json (${allCombos.length} entries)`);
+console.log(`✓ ${TIER1_ONLY ? 'Tier 1' : 'Sprint 5'} patch files written:`);
+console.log(`  scripts/${lazyOut} (${allCombos.length} lazy imports)`);
+console.log(`  scripts/${routesOut} (${allCombos.length} routes)`);
+console.log(`  scripts/${prerenderOut} (${allCombos.length} entries)`);
 console.log(`\nSummary:`);
 console.log(`  Industries: ${DATA.industries.length}`);
 console.log(`  Cities: ${CITIES.length}`);

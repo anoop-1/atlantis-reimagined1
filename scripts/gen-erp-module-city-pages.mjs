@@ -14,15 +14,24 @@ const MODULE_BY_SLUG = Object.fromEntries(DATA.modules.map(m => [m.slug, m]));
 // Modules for module × city expansion.
 // Sprint 6 covered: certification-tracking, work-order-management, inspection-scheduling, calibration-management, corrosion-tracking
 // Sprint 7 adds: inventory-management, audit-management, document-control, asset-management, quality-management, project-management
-const TOP_MODULES = [
+const TOP_MODULES_FULL = [
   'certification-tracking', 'work-order-management', 'inspection-scheduling',
   'calibration-management', 'corrosion-tracking',
   'inventory-management', 'audit-management', 'document-control',
   'asset-management', 'quality-management', 'project-management',
 ];
 
+// Tier 1 (this sprint) — only the top 5 module slugs × 15 new cities.
+const TOP_MODULES_TIER1 = [
+  'certification-tracking', 'work-order-management', 'inspection-scheduling',
+  'calibration-management', 'corrosion-tracking',
+];
+
+const TIER1_ONLY = process.env.TIER1_ONLY === '1';
+const TOP_MODULES = TIER1_ONLY ? TOP_MODULES_TIER1 : TOP_MODULES_FULL;
+
 // Top 15 cities (matches Sprint 5 city list)
-const CITIES = [
+const CITIES_ORIGINAL = [
   { slug: 'houston', name: 'Houston', country: 'USA', lat: 29.7604, lng: -95.3698,
     market: "Energy capital of the world. 4,600+ oil & gas firms. Continuous turnaround demand.",
     operators: ["ExxonMobil Baytown refinery", "Marathon Galveston Bay", "LyondellBasell Channelview", "Valero Houston", "Phillips 66 Sweeny", "Shell Deer Park", "Pemex Deer Park", "INEOS Battleground"],
@@ -99,6 +108,87 @@ const CITIES = [
     regulators: ["NUPRC (Nigerian Upstream Petroleum Regulatory)", "NMDPRA (downstream)", "NAPIMS", "NIMASA", "Federal Ministry of Environment"],
     industries: "oil & gas upstream onshore + deepwater offshore, LNG, refining" },
 ];
+
+// Tier 1 expansion — next 15 cities (this sprint).
+const CITIES_TIER1 = [
+  { slug: 'riyadh', name: 'Riyadh', country: 'Saudi Arabia', lat: 24.7136, lng: 46.6753,
+    market: "Saudi corporate capital. Aramco / SABIC / Ma'aden HQs. Vision 2030 megaproject PMOs.",
+    operators: ["Saudi Aramco (corporate HQ)", "SABIC HQ", "Ma'aden (mining HQ)", "NEOM PMO", "Qiddiya / Red Sea Global", "Saudi Electricity Company", "Royal Commission Riyadh City", "Riyadh Refinery (Aramco)"],
+    regulators: ["HRSD labor", "GAMI", "SASO standards", "Aramco SAEP-1112 / 1142", "MODON industrial cities", "RCJY"],
+    industries: "oil & gas corporate, Vision 2030 megaprojects, power, mining HQs" },
+  { slug: 'jubail', name: 'Jubail', country: 'Saudi Arabia', lat: 27.0046, lng: 49.6469,
+    market: "World's largest industrial city by master-planned area. Aramco + SABIC dense petrochemical / refining cluster.",
+    operators: ["SASREF (Aramco / Shell)", "SADAF (SABIC / Dow)", "Kemya (SABIC / ExxonMobil)", "Petrokemya (SABIC)", "Sharq (SABIC / Mitsubishi)", "Saudi Kayan", "SATORP (Aramco / Total)", "RC Jubail PMT"],
+    regulators: ["Royal Commission Jubail and Yanbu (RCJY)", "HRSD labor", "SASO standards", "Aramco SAEP-1142", "SABIC vendor approval"],
+    industries: "refining, sour-gas petrochemicals, ethylene cracking, fertilizer" },
+  { slug: 'yanbu', name: 'Yanbu', country: 'Saudi Arabia', lat: 24.0890, lng: 38.0618,
+    market: "KSA western refining/petrochem hub. East-West pipeline terminus. Gateway to NEOM and Red Sea megaprojects.",
+    operators: ["YASREF (Aramco / Sinopec)", "Aramco Yanbu Refinery", "Yanpet (SABIC / ExxonMobil)", "Yansab (SABIC)", "Petro Rabigh (Aramco / Sumitomo)", "RC Yanbu PMT", "Saudi Electricity Yanbu", "Yanbu Cement"],
+    regulators: ["Royal Commission Yanbu (RCJY)", "HRSD labor", "SASO standards", "Aramco SAEP-1142", "Saudi Ports Authority"],
+    industries: "refining, petrochemicals, marine inspection, East-West pipeline integrity" },
+  { slug: 'kuwait', name: 'Kuwait City', country: 'Kuwait', lat: 29.3759, lng: 47.9774,
+    market: "KPC group corporate capital. Mina Al-Ahmadi, Mina Abdullah, Al-Zour refineries. KOC upstream.",
+    operators: ["KOC (Kuwait Oil Company)", "KNPC refineries (Mina Al-Ahmadi, Mina Abdullah)", "KIPIC (Al-Zour refinery + LNG)", "PIC Petrochemical", "Equate", "KAFCO", "KGOC (partitioned zone)", "Kuwait Ports Authority"],
+    regulators: ["PAI (Public Authority for Industry)", "EPA Kuwait environment", "Kuwait Fire Force", "KPC vendor approval", "Ministry of Oil"],
+    industries: "upstream oil & gas, integrated refining, petrochemicals, LNG import" },
+  { slug: 'muscat', name: 'Muscat', country: 'Oman', lat: 23.5859, lng: 58.4059,
+    market: "Oman corporate base. PDO upstream + OQ refining/petrochem at Sohar + Duqm SEZ megaproject.",
+    operators: ["Petroleum Development Oman (PDO)", "OQ Refineries (Sohar, Muscat)", "OQ Petrochemicals", "Oman LNG (Qalhat)", "Duqm Refinery (OQ / Kuwait JV)", "Sohar Aluminium", "Vale Oman (Sohar pellet)", "Oman Cement"],
+    regulators: ["MEM Ministry of Energy and Minerals", "Ministry of Labour", "OPAZ (free zones)", "DGSM Omani Standards", "Ministry of Environment"],
+    industries: "upstream oil & gas, refining, petrochemicals, aluminium, mining, LNG" },
+  { slug: 'sharjah', name: 'Sharjah', country: 'UAE', lat: 25.3463, lng: 55.4209,
+    market: "Northern emirate industrial / fabrication hub. Hamriyah Free Zone, SAIF Zone, SNOC gas processing.",
+    operators: ["Sharjah National Oil Corporation (SNOC)", "Crescent Petroleum", "BUTINAH Marine", "Sharjah Cement", "Sharjah Aluminium (SHARC)", "Hamriyah Free Zone tenants", "Air Arabia MRO", "Etihad Rail Sharjah"],
+    regulators: ["Sharjah Economic Development", "Hamriyah Free Zone Authority (HFZA)", "Sharjah Civil Defence", "MOIAT", "UAE FANR radiation"],
+    industries: "fabrication, gas processing, aluminium, cement, marine, aerospace MRO" },
+  { slug: 'port-harcourt', name: 'Port Harcourt', country: 'Nigeria', lat: 4.8156, lng: 7.0498,
+    market: "Niger Delta upstream / refining capital. NNPCL PHRC. Shell SPDC onshore. NLNG Bonny adjacent.",
+    operators: ["NNPCL Port Harcourt Refining Company (PHRC)", "Shell SPDC", "Eni AGIP", "TotalEnergies E&P Nigeria onshore", "Indigenous E&Ps (Seplat, Aiteo, Heritage)", "NLNG Bonny Island", "Eleme Petrochemical (Indorama)", "Notore Chemical"],
+    regulators: ["NUPRC upstream", "NMDPRA downstream", "NAPIMS", "NIMASA", "NCDMB Nigerian Content", "Rivers State Environment"],
+    industries: "onshore oil & gas, refining, petrochemicals, LNG, marine, swamp / shallow-water" },
+  { slug: 'edmonton', name: 'Edmonton', country: 'Canada', lat: 53.5461, lng: -113.4938,
+    market: "Alberta Industrial Heartland. Imperial Strathcona, Suncor Edmonton, Shell Scotford, NWR Sturgeon refineries.",
+    operators: ["Imperial Oil Strathcona refinery", "Suncor Edmonton refinery", "Shell Scotford (refinery + upgrader)", "NWR Sturgeon Refinery", "Inter Pipeline HPC", "Pembina Pipeline", "Dow Fort Saskatchewan", "Nutrien Redwater"],
+    regulators: ["ABSA pressure equipment", "AER Alberta Energy Regulator", "CER pipelines", "CSA Group", "Transport Canada radiation", "Alberta OHS"],
+    industries: "refining, upgrading, petrochemicals, pipeline midstream, fertilizer" },
+  { slug: 'toronto', name: 'Toronto', country: 'Canada', lat: 43.6532, lng: -79.3832,
+    market: "Ontario nuclear + steel + mining corporate hub. Bruce, Darlington, Pickering CANDU stations.",
+    operators: ["Bruce Power (8-unit CANDU)", "Ontario Power Generation (Darlington, Pickering)", "ArcelorMittal Dofasco (Hamilton)", "Stelco (Hamilton)", "Suncor Sarnia refinery", "Imperial Oil Sarnia", "Nova Chemicals Corunna", "Toronto Pearson MRO"],
+    regulators: ["CNSC Canadian Nuclear Safety Commission", "TSSA Ontario", "CSA Group", "ESA Ontario", "Health Canada radiation"],
+    industries: "nuclear power, steel, refining (Sarnia), aerospace MRO, mining corporate" },
+  { slug: 'vancouver', name: 'Vancouver', country: 'Canada', lat: 49.2827, lng: -123.1207,
+    market: "BC Pacific gateway. TMX pipeline + Westridge terminal, Parkland Burnaby refinery, LNG Canada Kitimat upstream.",
+    operators: ["Trans Mountain (TMX pipeline)", "Parkland Burnaby refinery", "LNG Canada (Shell-led JV)", "Coastal GasLink (TC Energy)", "Seaspan Shipyards", "BC Ferries", "Teck Resources", "Methanex"],
+    regulators: ["Technical Safety BC (TSBC)", "BC Energy Regulator (BCER)", "Transport Canada", "CER Canada Energy Regulator", "WorkSafeBC"],
+    industries: "pipeline integrity, LNG construction, marine survey, mining, refining" },
+  { slug: 'sao-paulo', name: 'Sao Paulo', country: 'Brazil', lat: -23.5505, lng: -46.6333,
+    market: "Brazil industrial powerhouse. Petrobras Replan / Revap refineries. EMBRAER aerospace. Cubatao steel.",
+    operators: ["Petrobras (Replan Paulinia, Revap, Cubatao RPBC)", "USIMINAS (Cubatao steel)", "CSN (Volta Redonda)", "EMBRAER (Sao Jose dos Campos)", "Braskem petrochemicals", "Vale mining HQ", "Cosan / Raizen", "Volkswagen do Brasil"],
+    regulators: ["ANP", "Ibama environment", "CNEN radiation", "INMETRO accreditation", "Ministerio do Trabalho (NR-13)"],
+    industries: "refining, steel, aerospace, petrochemicals, automotive, mining" },
+  { slug: 'rio-de-janeiro', name: 'Rio de Janeiro', country: 'Brazil', lat: -22.9068, lng: -43.1729,
+    market: "Petrobras upstream offshore capital. Campos / Santos pre-salt FPSOs. REDUC refinery. Acu port.",
+    operators: ["Petrobras (Campos / Santos basins, HQ)", "TotalEnergies E&P Brazil", "Equinor Brazil", "Shell Brazil (Mero, Libra)", "PetroRio", "Modec do Brasil FPSO", "SBM Offshore Brazil", "REDUC refinery"],
+    regulators: ["ANP", "Ibama", "Marinha do Brasil", "CNEN radiation", "INMETRO", "NR-13 / NR-37"],
+    industries: "offshore upstream pre-salt, FPSO life-extension, refining, deepwater" },
+  { slug: 'mexico-city', name: 'Mexico City', country: 'Mexico', lat: 19.4326, lng: -99.1332,
+    market: "Pemex corporate HQ. CNH regulator. 6 Pemex refineries + Dos Bocas Olmeca new refinery.",
+    operators: ["Pemex (corporate + 6 refineries)", "Pemex Exploracion y Produccion", "CFE electricity", "Cemex (cement HQ)", "Grupo BAL", "Grupo Mexico (mining)", "Iberdrola Mexico", "Sempra Energia Costa Azul"],
+    regulators: ["CNH Hydrocarbons Commission", "ASEA (SASISOPA)", "STPS (NOM regulations)", "CRE", "EMA accreditation"],
+    industries: "refining, upstream, fertilizer / petrochem, electricity, mining, cement" },
+  { slug: 'bangkok', name: 'Bangkok', country: 'Thailand', lat: 13.7563, lng: 100.5018,
+    market: "PTT Group corporate base. EEC corridor: Map Ta Phut, Rayong refining & petrochemicals.",
+    operators: ["PTT Public Company", "Thai Oil (TOP, Sriracha refinery)", "IRPC Rayong refining + petrochemicals", "PTT Global Chemical (Map Ta Phut)", "Bangchak Corporation", "Star Petroleum Refining", "SCG Chemicals", "PTTEP"],
+    regulators: ["DOEB Department of Energy Business", "DIW Department of Industrial Works", "TISI Thai Industrial Standards", "OAP Office of Atoms for Peace", "Ministry of Labour"],
+    industries: "refining, petrochemicals, EV / electronics supply, gas processing" },
+  { slug: 'ho-chi-minh', name: 'Ho Chi Minh City', country: 'Vietnam', lat: 10.8231, lng: 106.6297,
+    market: "Vietnam upstream / petrochemical hub. PetroVietnam corporate. Long Son Petrochemicals. Dung Quat / Nghi Son refining.",
+    operators: ["PetroVietnam (PVN)", "Vietsovpetro offshore JV", "Long Son Petrochemicals (SCG)", "Binh Son Refining (BSR, Dung Quat)", "Nghi Son Refinery (Idemitsu / Kuwait JV)", "PV Gas", "PV Drilling (PVD)", "Phu My Industrial Park"],
+    regulators: ["PetroVietnam vendor approval", "MOIT Ministry of Industry and Trade", "VPI Vietnam Petroleum Institute", "VARANS radiation", "VINAMARINE maritime"],
+    industries: "offshore upstream, refining, petrochemicals, LNG import, fabrication" },
+];
+
+const CITIES = TIER1_ONLY ? CITIES_TIER1 : [...CITIES_ORIGINAL, ...CITIES_TIER1];
 
 // Per-module x city content builder
 function buildContent(module, city) {
@@ -194,8 +284,12 @@ console.log(`✓ ${written} module × city pages written`);
 // Emit App.tsx patch files
 const lazy = allCombos.map(c => `const ErpMC_${c.slug.replace(/-/g, '_')} = lazy(() => import("./pages/erp-modules/${c.slug}"));`).join('\n');
 const routes = allCombos.map(c => `                  <Route path="/erp-modules/${c.slug}" element={<LazyRoute Component={ErpMC_${c.slug.replace(/-/g, '_')}} />} />`).join('\n');
-writeFileSync(join(__dirname, '_sprint6-lazy.txt'), lazy + '\n');
-writeFileSync(join(__dirname, '_sprint6-routes.txt'), routes + '\n');
+const lazyOut = TIER1_ONLY ? '_tier1-modules-lazy.txt' : '_sprint6-lazy.txt';
+const routesOut = TIER1_ONLY ? '_tier1-modules-routes.txt' : '_sprint6-routes.txt';
+const prerenderOut = TIER1_ONLY ? '_tier1-modules-prerender.json' : '_sprint6-prerender.json';
+
+writeFileSync(join(__dirname, lazyOut), lazy + '\n');
+writeFileSync(join(__dirname, routesOut), routes + '\n');
 
 const prerenderEntries = allCombos.map(c => ({
   path: `/erp-modules/${c.slug}`,
@@ -204,5 +298,5 @@ const prerenderEntries = allCombos.map(c => ({
   bodyH1: c.title,
   bodyText: c.desc,
 }));
-writeFileSync(join(__dirname, '_sprint6-prerender.json'), JSON.stringify(prerenderEntries, null, 2));
-console.log(`✓ Patch files written: _sprint6-lazy.txt, _sprint6-routes.txt, _sprint6-prerender.json`);
+writeFileSync(join(__dirname, prerenderOut), JSON.stringify(prerenderEntries, null, 2));
+console.log(`✓ Patch files written: ${lazyOut}, ${routesOut}, ${prerenderOut}`);

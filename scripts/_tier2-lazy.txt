@@ -1,0 +1,22 @@
+// Tier 2 ERP improvement plan — E-E-A-T and buyer trust
+// 12 case studies + 1 hub page (CaseStudiesHub).
+//
+// NOTE: A `CaseStudies` component already exists in src/pages/CaseStudies.tsx
+// registered at `/case-studies`. The new `CaseStudiesHub` is the ERP-focused
+// Tier-2 hub. The accompanying _tier2-routes.txt replaces the existing
+// `/case-studies` route (the legacy CaseStudies.tsx page is preserved on disk
+// and can be reinstated at a different path if required, e.g. `/case-studies/services`).
+
+const CaseStudiesHub = lazy(() => import("./pages/CaseStudiesHub"));
+const CsNdtInspectionCompaniesErp = lazy(() => import("./pages/case-studies/ndt-inspection-companies-erp-implementation"));
+const CsCalibrationLaboratoriesErp = lazy(() => import("./pages/case-studies/calibration-laboratories-erp-implementation"));
+const CsWeldingFabricationShopsErp = lazy(() => import("./pages/case-studies/welding-fabrication-shops-erp-implementation"));
+const CsMarineSurveyCompaniesErp = lazy(() => import("./pages/case-studies/marine-survey-companies-erp-implementation"));
+const CsPipelineIntegrityServicesErp = lazy(() => import("./pages/case-studies/pipeline-integrity-services-erp-implementation"));
+const CsAerospaceQualityControlErp = lazy(() => import("./pages/case-studies/aerospace-quality-control-erp-implementation"));
+const CsMetrologyLaboratoriesErp = lazy(() => import("./pages/case-studies/metrology-laboratories-erp-implementation"));
+const CsIndustrialCoatingsInspectionErp = lazy(() => import("./pages/case-studies/industrial-coatings-inspection-erp-implementation"));
+const CsConstructionQualityAssuranceErp = lazy(() => import("./pages/case-studies/construction-quality-assurance-erp-implementation"));
+const CsGeotechnicalEngineeringErp = lazy(() => import("./pages/case-studies/geotechnical-engineering-erp-implementation"));
+const CsEnvironmentalTestingLabsErp = lazy(() => import("./pages/case-studies/environmental-testing-labs-erp-implementation"));
+const CsOilfieldServicesErp = lazy(() => import("./pages/case-studies/oilfield-services-erp-implementation"));

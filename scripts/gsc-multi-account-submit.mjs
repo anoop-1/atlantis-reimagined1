@@ -122,6 +122,8 @@ const CURATED_CITY_SLUGS = new Set([
   'sao-paulo', 'savannah', 'scotland', 'shanghai', 'shenzhen',
   'south-africa', 'south-korea', 'spain', 'taipei', 'taiwan', 'thailand',
   'trinidad', 'uk', 'usa', 'vietnam', 'vizag',
+  // Tier 1 expansion 2026-05-13
+  'riyadh',
 ]);
 
 const TEMPLATE_PREFIXES = [

@@ -66,7 +66,54 @@ for (const f of erpCityFiles) {
 // 4. Sprint 6 — module × city combos already in src/pages/erp-modules/*-{city}.tsx
 //    (already captured by step 2 since they're in the same dir)
 
-// 5. New resource pages from Agent B (templates expansion)
+// 5a. Comparison pages (Sprint 8) at /compare/vs-*
+const compareDir = join(ROOT, 'src/pages/compare');
+if (existsSync(compareDir)) {
+  newPages.push(`${SITE}/compare`);
+  for (const f of readdirSync(compareDir)) {
+    if (f.endsWith('.tsx') && f.startsWith('vs-')) {
+      const slug = f.replace(/\.tsx$/, '');
+      newPages.push(`${SITE}/compare/${slug}`);
+    }
+  }
+}
+
+// 5b. Triple cross-pages (Tier 1) at /erp/{module}-{industry}-{city}
+const tripleDir = join(ROOT, 'src/pages/erp');
+if (existsSync(tripleDir)) {
+  for (const f of readdirSync(tripleDir)) {
+    if (f.endsWith('.tsx')) {
+      const slug = f.replace(/\.tsx$/, '');
+      newPages.push(`${SITE}/erp/${slug}`);
+    }
+  }
+}
+
+// 5c. Case studies (Tier 2) at /case-studies/*
+const caseDir = join(ROOT, 'src/pages/case-studies');
+if (existsSync(caseDir)) {
+  newPages.push(`${SITE}/case-studies`);
+  for (const f of readdirSync(caseDir)) {
+    if (f.endsWith('.tsx')) {
+      const slug = f.replace(/\.tsx$/, '');
+      newPages.push(`${SITE}/case-studies/${slug}`);
+    }
+  }
+}
+
+// 5d. Press posts (Tier 4) at /press/*
+const pressDir = join(ROOT, 'src/pages/press');
+if (existsSync(pressDir)) {
+  newPages.push(`${SITE}/press`);
+  for (const f of readdirSync(pressDir)) {
+    if (f.endsWith('.tsx')) {
+      const slug = f.replace(/\.tsx$/, '');
+      newPages.push(`${SITE}/press/${slug}`);
+    }
+  }
+}
+
+// 6. New resource pages from Agent B (templates expansion)
 const resDir = join(ROOT, 'src/pages/resources');
 if (existsSync(resDir)) {
   const existingRes = new Set([

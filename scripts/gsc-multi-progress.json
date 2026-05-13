@@ -7626,7 +7626,18 @@
     "https://atlantisndt.com/erp-modules/quality-management-saudi-arabia",
     "https://atlantisndt.com/erp-modules/quality-management-hyderabad",
     "https://atlantisndt.com/erp-modules/quality-management-jakarta",
-    "https://atlantisndt.com/erp-modules/quality-management-perth"
+    "https://atlantisndt.com/erp-modules/quality-management-perth",
+    "https://atlantisndt.com/compare/vs-procore",
+    "https://atlantisndt.com/compare/vs-ge-vernova-apm",
+    "https://atlantisndt.com/compare/vs-bentley-assetwise",
+    "https://atlantisndt.com/compare/vs-meridium",
+    "https://atlantisndt.com/compare/vs-aspentech-mtell",
+    "https://atlantisndt.com/compare/vs-netsuite",
+    "https://atlantisndt.com/compare/vs-maximo",
+    "https://atlantisndt.com/compare/vs-sap-pm",
+    "https://atlantisndt.com/compare",
+    "https://atlantisndt.com/compare/vs-quickbooks",
+    "https://atlantisndt.com/compare/vs-etq-reliance"
   ],
   "failed": [],
   "runs": [
@@ -9090,7 +9101,88 @@
           "rateLimited": false
         }
       ]
+    },
+    {
+      "date": "2026-05-12",
+      "time": "2026-05-12T20:57:21.536Z",
+      "accounts": 10,
+      "submitted": 11,
+      "failed": 0,
+      "skipped": 0,
+      "elapsed": "3.1s",
+      "perAccount": [
+        {
+          "account": "account-0-legacy",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-10",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-2",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-3",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-4",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-5",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-6",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-7",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-8",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-9",
+          "ok": 1,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        }
+      ]
     }
   ],
-  "totalSubmitted": 7627
+  "totalSubmitted": 7638
 }

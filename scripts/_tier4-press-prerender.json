@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/press",
+    "title": "Press & News | Atlantis NDT",
+    "description": "Press releases, product launches, and industry insights from Atlantis NDT.",
+    "bodyH1": "Press & News | Atlantis NDT",
+    "bodyText": "Press releases, product launches, and industry insights from Atlantis NDT."
+  },
+  {
+    "path": "/press/atlantis-ndt-erp-launch-2026",
+    "title": "Atlantis NDT Launches Industry-First NDT ERP — 11 Modules, 12 Industries",
+    "description": "Atlantis NDT today announced GA of its purpose-built NDT ERP platform.",
+    "bodyH1": "Atlantis NDT Launches Industry-First NDT ERP — 11 Modules, 12 Industries",
+    "bodyText": "Atlantis NDT today announced GA of its purpose-built NDT ERP platform."
+  },
+  {
+    "path": "/press/saep-1142-acs-01-pts-templates",
+    "title": "Pre-Built Operator Quality Templates: SAEP-1142, ADNOC ACS-01, Petronas PTS — Atlantis NDT",
+    "description": "Atlantis NDT ERP ships with pre-configured operator quality clause libraries for the top 30 oil & gas operators globally. Inspection contractors pass approved-vendor audits in days, not months.",
+    "bodyH1": "Pre-Built Operator Quality Templates: SAEP-1142, ADNOC ACS-01, Petronas PTS — Atlantis NDT",
+    "bodyText": "Atlantis NDT ERP ships with pre-configured operator quality clause libraries for the top 30 oil & gas operators globally. Inspection contractors pass approved-vendor audits in days, not months."
+  },
+  {
+    "path": "/press/iso-17025-calibration-laboratory-erp",
+    "title": "ISO/IEC 17025 Calibration Laboratory ERP — Native §7.8 Reporting, GUM Uncertainty",
+    "description": "Atlantis NDT ERP calibration-laboratory configuration covers ISO/IEC 17025:2017 §7.8 natively, with JCGM 100:2008 GUM uncertainty budgets, customer-asset traceability, and ANAB / UKAS / NABL accreditation support.",
+    "bodyH1": "ISO/IEC 17025 Calibration Laboratory ERP — Native §7.8 Reporting, GUM Uncertainty",
+    "bodyText": "Atlantis NDT ERP calibration-laboratory configuration covers ISO/IEC 17025:2017 §7.8 natively, with JCGM 100:2008 GUM uncertainty budgets, customer-asset traceability, and ANAB / UKAS / NABL accreditation support."
+  },
+  {
+    "path": "/press/free-templates-2026-launch",
+    "title": "16 Free Editable NDT Templates — Procedure, Inspection, Safety, RBI, WPQR — Atlantis NDT",
+    "description": "Atlantis NDT releases 16 free editable templates — NDT procedure (SNT-TC-1A), API 510/570/653 reports, PWHT records, RBI worksheet (API 581), calibration certificates (ISO 17025), welder qualification (WPQR), ITP, and more.",
+    "bodyH1": "16 Free Editable NDT Templates — Procedure, Inspection, Safety, RBI, WPQR — Atlantis NDT",
+    "bodyText": "Atlantis NDT releases 16 free editable templates — NDT procedure (SNT-TC-1A), API 510/570/653 reports, PWHT records, RBI worksheet (API 581), calibration certificates (ISO 17025), welder qualification (WPQR), ITP, and more."
+  }
+]

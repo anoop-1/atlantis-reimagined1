@@ -1,0 +1,93 @@
+[
+  {
+    "path": "/case-studies",
+    "title": "ERP Implementation Case Studies — Inspection, Calibration, Welding, Aerospace | Atlantis NDT",
+    "description": "12 anonymized customer case studies covering Atlantis NDT ERP implementations across NDT inspection, calibration labs, welding fabrication, marine survey, pipeline integrity, aerospace, metrology, coatings, construction QA, geotechnical, environmental, and oilfield service companies.",
+    "bodyH1": "How inspection and service companies actually deploy Atlantis NDT ERP",
+    "bodyText": "Twelve customer case studies — one per industry — covering the specific pain points, configuration decisions, parallel-run discoveries, quantified outcomes, and lessons learned (including what did not go perfectly) from real Atlantis NDT ERP implementations. All anonymized under MNDA; metrics presented as ranges; individual results vary by site, scope, and data quality. The 12 industries are: NDT inspection companies, calibration laboratories, welding & fabrication shops, marine survey & offshore inspection, pipeline integrity services, aerospace quality control & MRO, metrology laboratories, industrial coatings inspection, construction quality assurance, geotechnical engineering, environmental testing laboratories, and oilfield services & wellsite inspection."
+  },
+  {
+    "path": "/case-studies/ndt-inspection-companies-erp-implementation",
+    "title": "Gulf-Coast NDT Contractor — Atlantis NDT ERP Implementation Case Study",
+    "description": "Mid-size Gulf-Coast NDT inspection contractor, 45 technicians, refinery turnaround work. How Atlantis NDT ERP cut report production by 70%, eliminated cert-expiry incidents, and survived first-time API 510 client audit.",
+    "bodyH1": "Gulf-Coast NDT Contractor — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Mid-size Gulf-Coast NDT inspection contractor — 45 technicians, refinery turnaround support across the Houston Ship Channel, Beaumont, and Lake Charles. The proximate trigger for the implementation was a near-miss during a 2025 Q4 catalytic reformer turnaround when a Level II UT technician's expired Jaeger J1 vision test was caught by a client auditor before any inspections were performed. Phase one scope: certification tracking, work-order management, inspection scheduling, and calibration management. Operator-specific report templates were configured as variants of a base SNT-TC-1A structure. Outcomes: report production 48-72h to 8-18h, cert-expiry incidents 3-5/quarter to 0, audit-pack 80 hours to under 30 seconds, repeat-business win-rate 63% to 78%."
+  },
+  {
+    "path": "/case-studies/calibration-laboratories-erp-implementation",
+    "title": "ISO 17025 Calibration Lab — Atlantis NDT ERP Implementation Case Study",
+    "description": "ISO/IEC 17025-accredited calibration lab, ~8,000 customer instruments per year, multi-discipline scope. How Atlantis NDT ERP cut certificate cycle time, eliminated out-of-tolerance recall confusion, and survived ANAB surveillance with zero non-conformities.",
+    "bodyH1": "ISO 17025 Calibration Lab — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Independent ISO/IEC 17025-accredited calibration laboratory handling ~8,000 customer instruments per year across dimensional, electrical, pressure, mass, and temperature disciplines. Phase one scope: calibration management, work-order management, document control, and the customer portal. The CMC migration of 320 in-scope CMC entries took six weeks. Decision rules per ILAC G8, ASME B89.7.3.1, and customer-specific risk-of-false-accept were configured per customer per scope. Outcomes: certificate cycle 9-12 days to 3-5 days, OOT register real-time, zero ANAB findings, unified certificate template across 5 disciplines, customer-portal 91% positive feedback."
+  },
+  {
+    "path": "/case-studies/welding-fabrication-shops-erp-implementation",
+    "title": "ASME 'U' Stamp Fabrication Shop — Atlantis NDT ERP Implementation Case Study",
+    "description": "ASME 'U' stamp pressure-vessel fabrication shop, 60-welder fleet, AWS D1.1 + ASME Section IX scope. How Atlantis NDT ERP tied WPS/PQR/WPQ control to live work orders and survived National Board re-audit.",
+    "bodyH1": "ASME 'U' Stamp Fabrication Shop — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Mid-size pressure-vessel fabrication shop with ASME 'U' stamp authorization and AWS D1.1 structural scope. Phase one scope: work-order / traveler management with NDE coordination, the WPS / PQR / WPQ document control library, welder qualification and continuity tracking per Section IX QW-322, and the quality / NCR module. The essential-variable matrix for the WPS library replaced manual CWI search. Outcomes: WPS search under 5 seconds, welder continuity reconciliation real-time, 0 silent continuity lapses, AI data-package assembly under 60 seconds, 0 QA gate review failures."
+  },
+  {
+    "path": "/case-studies/marine-survey-companies-erp-implementation",
+    "title": "FPSO Conversion Marine Survey Specialist — Atlantis NDT ERP Implementation Case Study",
+    "description": "FPSO conversion and life-extension marine survey company, IMCA D-018, class-society alignment with DNV / ABS / LR. How Atlantis NDT ERP unified hull surveys, class records, and offshore mobilisation logistics.",
+    "bodyH1": "FPSO Conversion Marine Survey Specialist — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Specialist marine survey and offshore inspection company focused on FPSO conversion and hull life-extension surveys with multi-class exposure (DNV, ABS, LR, BV) and IMCA D-018 audited contractor status. Phase one scope: certification and personnel qualification with full IMCA + class + BOSIET / HUET / medical tracking, work-order / campaign management with mobilisation workflow, inspection scheduling, and document control. The mobilisation prerequisite model captured the retiring logistics coordinator's mental model. Outcomes: mobilisation eligibility real-time, class-society report production same-day, IMCA evidence retrieval under 30 seconds, FPSO bid baseline 2 weeks to 1 day."
+  },
+  {
+    "path": "/case-studies/pipeline-integrity-services-erp-implementation",
+    "title": "Midstream Pipeline Operator IMP — Atlantis NDT ERP Implementation Case Study",
+    "description": "Midstream pipeline operator with ~8,000 km of transmission, full API 1160 integrity management programme. How Atlantis NDT ERP unified ILI data, dig verification, and DOT PHMSA reporting under a single integrity workflow.",
+    "bodyH1": "Midstream Pipeline Operator IMP — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Mid-size midstream pipeline operator running ~8,000 km of NGL and crude transmission with a mature API 1160 integrity management programme. Phase one scope: corrosion-tracking / RBI integration with the ILI data pipeline, work-order management with the dig-crew mobile client, document control for the IMP programme document set, and audit / compliance management. ILI vendor normalisation built for Rosen, Baker Hughes (PII), TDW, ENTEGRA, NDT Global, A.Hak. Outcomes: ILI normalisation same-day, dig data latency 5-7 days to 30 minutes, 0 wrong-dig-location incidents, DOT PHMSA assembly 3-4 weeks to 2-3 days."
+  },
+  {
+    "path": "/case-studies/aerospace-quality-control-erp-implementation",
+    "title": "AS9100D / NAS-410 Aerospace NDT Shop — Atlantis NDT ERP Implementation Case Study",
+    "description": "AS9100D-certified aerospace NDT shop, NAS-410 qualified workforce, Boeing + Airbus + Pratt & Whitney customer mix. How Atlantis NDT ERP linked NAS-410 qualification, customer-specific flow-down, and Nadcap audit prep.",
+    "bodyH1": "AS9100D / NAS-410 Aerospace NDT Shop — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Aerospace NDT shop with AS9100D certification, NAS-410 qualified workforce, Nadcap NDT accreditation, and an active mix of Boeing, Airbus, Pratt & Whitney, Bombardier, and GE Aerospace customers. Phase one scope: certification and personnel qualification, document control with customer flow-down mapping, work-order management with traveler-level technique-sheet linkage, calibration management, audit management, and the quality / NCR module. Outcomes: customer flow-down compliance automated, NAS-410 record retrieval under 10 seconds, Nadcap audit prep 4 weeks to 1 week, 0 records-related findings."
+  },
+  {
+    "path": "/case-studies/metrology-laboratories-erp-implementation",
+    "title": "ANAB-Accredited Multi-Discipline Metrology Lab — Atlantis NDT ERP Case Study",
+    "description": "ANAB-accredited metrology laboratory, ~12,000 customer instruments per year, full dimensional / electrical / pressure / mass / temperature / RF / optical scope. How Atlantis NDT ERP unified the scope and standardised the customer experience.",
+    "bodyH1": "ANAB-Accredited Multi-Discipline Metrology Lab — Atlantis NDT ERP Case Study",
+    "bodyText": "Independent ANAB-accredited metrology laboratory with a full nine-discipline scope handling ~12,000 customer instruments per year. Phase one scope: calibration management for all nine disciplines simultaneously, work-order management, document control, customer portal, and audit management for ANAB scope change-control. The unified certificate template with discipline-specific result-table layouts replaced 9 distinct templates. Uncertainty model consistency programme aligned contributions across disciplines. Outcomes: unified customer experience, 0 ANAB findings, customer-portal 88% positive feedback, multi-discipline order cycle parity."
+  },
+  {
+    "path": "/case-studies/industrial-coatings-inspection-erp-implementation",
+    "title": "Refinery Coatings Inspection Contractor — Atlantis NDT ERP Implementation Case Study",
+    "description": "Refinery coatings inspection contractor with NACE/AMPP CIP Level III team, SSPC PA 2 DFT campaigns. How Atlantis NDT ERP unified DFT capture, inspector qualifications, and operator-specific coatings reporting.",
+    "bodyH1": "Refinery Coatings Inspection Contractor — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Refinery and petrochemical coatings inspection contractor running SSPC PA 2 DFT campaigns, ISO 12944 corrosion-protection systems audits, and shop-floor coatings inspection with a NACE/AMPP-qualified inspector team. Phase one scope: work-order management with the field-data-capture mobile client, certification tracking, document control with operator-specific report templates, and customer portal. DFT gauge CSV import (PosiTector, Elcometer) was the highest-value technical task. Outcomes: DFT capture direct from gauge, SSPC PA 2 non-conformance at point of measurement, daily reports 2-4 hours, 0 inspector qualification-lapse incidents."
+  },
+  {
+    "path": "/case-studies/construction-quality-assurance-erp-implementation",
+    "title": "EPC QA/QC Contractor — Atlantis NDT ERP Implementation Case Study",
+    "description": "EPC quality-assurance contractor supporting a large refinery construction project. How Atlantis NDT ERP unified ITP execution, ASME / AWS / ASTM hold-points, and pre-commissioning data-pack assembly.",
+    "bodyH1": "EPC QA/QC Contractor — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "EPC quality assurance and quality control contractor supporting a $1B-class refinery expansion project. Phase one scope: project management, work-order management with ITP-row support, document control, the audit / NCR module for vendor surveillance, and certification tracking. Each ITP row became a discrete work order with code reference, hold-point or witness-point level, evidence-required list, and live status. Outcomes: ITP status real-time, vendor surveillance dashboard, MC data-pack assembly weeks to days, hold-point clearance same-shift, code-compliance evidence pack one-click."
+  },
+  {
+    "path": "/case-studies/geotechnical-engineering-erp-implementation",
+    "title": "Site Investigation Geotechnical Firm — Atlantis NDT ERP Implementation Case Study",
+    "description": "Site investigation geotechnical engineering firm on a major infrastructure project. AGS data format, multi-rig borehole + CPT operations, full ASTM / EN ISO lab scope. How Atlantis NDT ERP linked field, lab, and reporting in a unified workflow.",
+    "bodyH1": "Site Investigation Geotechnical Firm — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Mid-size geotechnical engineering and site investigation firm engaged on a regional infrastructure project with 6 rigs (drilling + CPT), an in-house geotechnical laboratory with full ASTM and EN ISO scope, and senior engineering producing factual + interpretive reports per UK / US / AGS data standards. Phase one scope: project management, work-order management for field and lab activities, document control, calibration management, and audit / NCR module. AGS4 / AGS4.1 export configured. Outcomes: AGS submission 3-5 days to 1-2 hours, single canonical sample identifier, project budget vs technical progress real-time."
+  },
+  {
+    "path": "/case-studies/environmental-testing-labs-erp-implementation",
+    "title": "ISO 17025 Environmental Testing Lab — Atlantis NDT ERP Implementation Case Study",
+    "description": "ISO/IEC 17025-accredited environmental testing laboratory, EPA SW-846 methods, multi-matrix sample handling. How Atlantis NDT ERP unified COC, batch QC, and EDD delivery.",
+    "bodyH1": "ISO 17025 Environmental Testing Lab — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "ISO/IEC 17025-accredited environmental testing laboratory with NELAP, multi-state, and EPA programme accreditations covering water, soil, sediment, air, and waste matrices with full EPA SW-846 plus drinking water, wastewater, and air method capability. Phase one scope: replacing the legacy LIMS for sample tracking, COC, test execution, batch QC review, and EDD production. EDD template library covering top 25 formats (EQuIS, ERPIMS, EDF, SEDD, EarthSoft). Outcomes: EDD first-submission rejection 8% to under 1%, batch QC exception-based, accreditation prep 3 weeks to 5 days, 0 air-testing media-tracking incidents."
+  },
+  {
+    "path": "/case-studies/oilfield-services-erp-implementation",
+    "title": "Drilling & Wellsite Inspection Services — Atlantis NDT ERP Implementation Case Study",
+    "description": "Oilfield services company providing API 5C5 OCTG inspection, BOP testing per API RP 53, and wellsite NDT support across Permian and Eagle Ford basins. How Atlantis NDT ERP unified field tickets, certifications, and operator-specific reporting.",
+    "bodyH1": "Drilling & Wellsite Inspection Services — Atlantis NDT ERP Implementation Case Study",
+    "bodyText": "Mid-size oilfield services company providing API 5C5 OCTG inspection, BOP testing per API RP 53, and wellsite NDT support across the Permian and Eagle Ford basins. Phase one scope: work-order / field-ticket management replacing paper triplicate and a legacy iPad app, OCTG inspection module with operator-specific report templates, BOP test record assembly per API RP 53, certification tracking, and customer portal. Outcomes: field-ticket-to-invoice 14-21 days to 2-4 days, native electronic OCTG delivery, 0 BOP test operator pushback events, 94% basin-tested field-client daily usage at 90 days."
+  }
+]

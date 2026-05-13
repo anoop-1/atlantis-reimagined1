@@ -242,6 +242,9 @@ export const CURATED_CITY_SLUGS: Set<string> = new Set([
   'vizag',
   'wellington',
   'yanbu',
+
+  // ── ERP Tier 1 expansion 2026-05 ─────────────────────────────────
+  'riyadh',
 ]);
 
 /**

@@ -1,0 +1,5 @@
+                  <Route path="/press/saep-1142-acs-01-pts-templates" element={<LazyRoute Component={PressSaep1142Acs01PtsTemplates} />} />
+                  <Route path="/press/iso-17025-calibration-laboratory-erp" element={<LazyRoute Component={PressIso17025CalibrationLaboratoryErp} />} />
+                  <Route path="/press/free-templates-2026-launch" element={<LazyRoute Component={PressFreeTemplates2026Launch} />} />
+                  <Route path="/press" element={<LazyRoute Component={PressHub} />} />
+                  <Route path="/press/atlantis-ndt-erp-launch-2026" element={<LazyRoute Component={PressLaunch2026} />} />

@@ -1,0 +1,527 @@
+[
+  {
+    "path": "/erp-modules/certification-tracking-riyadh",
+    "title": "Certification & Personnel Qualification in Riyadh | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Riyadh | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-jubail",
+    "title": "Certification & Personnel Qualification in Jubail | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Jubail | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-yanbu",
+    "title": "Certification & Personnel Qualification in Yanbu | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Yanbu | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-kuwait",
+    "title": "Certification & Personnel Qualification in Kuwait City | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Kuwait City | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-muscat",
+    "title": "Certification & Personnel Qualification in Muscat | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Muscat | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-sharjah",
+    "title": "Certification & Personnel Qualification in Sharjah | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Sharjah | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-port-harcourt",
+    "title": "Certification & Personnel Qualification in Port Harcourt | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Port Harcourt | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-edmonton",
+    "title": "Certification & Personnel Qualification in Edmonton | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Edmonton | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-toronto",
+    "title": "Certification & Personnel Qualification in Toronto | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Toronto | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-vancouver",
+    "title": "Certification & Personnel Qualification in Vancouver | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Vancouver | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-sao-paulo",
+    "title": "Certification & Personnel Qualification in Sao Paulo | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Sao Paulo | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-rio-de-janeiro",
+    "title": "Certification & Personnel Qualification in Rio de Janeiro | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Rio de Janeiro | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-mexico-city",
+    "title": "Certification & Personnel Qualification in Mexico City | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Mexico City | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-bangkok",
+    "title": "Certification & Personnel Qualification in Bangkok | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Bangkok | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/certification-tracking-ho-chi-minh",
+    "title": "Certification & Personnel Qualification in Ho Chi Minh City | Atlantis NDT ERP",
+    "description": "Certification & Personnel Qualification ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com.",
+    "bodyH1": "Certification & Personnel Qualification in Ho Chi Minh City | Atlantis NDT ERP",
+    "bodyText": "Certification & Personnel Qualification ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-riyadh",
+    "title": "Work Order & Job Management in Riyadh | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Riyadh | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-jubail",
+    "title": "Work Order & Job Management in Jubail | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Jubail | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-yanbu",
+    "title": "Work Order & Job Management in Yanbu | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Yanbu | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-kuwait",
+    "title": "Work Order & Job Management in Kuwait City | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Kuwait City | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-muscat",
+    "title": "Work Order & Job Management in Muscat | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Muscat | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-sharjah",
+    "title": "Work Order & Job Management in Sharjah | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Sharjah | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-port-harcourt",
+    "title": "Work Order & Job Management in Port Harcourt | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Port Harcourt | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-edmonton",
+    "title": "Work Order & Job Management in Edmonton | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Edmonton | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-toronto",
+    "title": "Work Order & Job Management in Toronto | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Toronto | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-vancouver",
+    "title": "Work Order & Job Management in Vancouver | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Vancouver | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-sao-paulo",
+    "title": "Work Order & Job Management in Sao Paulo | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Sao Paulo | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-rio-de-janeiro",
+    "title": "Work Order & Job Management in Rio de Janeiro | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Rio de Janeiro | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-mexico-city",
+    "title": "Work Order & Job Management in Mexico City | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Mexico City | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-bangkok",
+    "title": "Work Order & Job Management in Bangkok | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Bangkok | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/work-order-management-ho-chi-minh",
+    "title": "Work Order & Job Management in Ho Chi Minh City | Atlantis NDT ERP",
+    "description": "Work Order & Job Management ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com.",
+    "bodyH1": "Work Order & Job Management in Ho Chi Minh City | Atlantis NDT ERP",
+    "bodyText": "Work Order & Job Management ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-riyadh",
+    "title": "Inspection Scheduling & Interval Management in Riyadh | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Riyadh | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-jubail",
+    "title": "Inspection Scheduling & Interval Management in Jubail | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Jubail | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-yanbu",
+    "title": "Inspection Scheduling & Interval Management in Yanbu | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Yanbu | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-kuwait",
+    "title": "Inspection Scheduling & Interval Management in Kuwait City | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Kuwait City | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-muscat",
+    "title": "Inspection Scheduling & Interval Management in Muscat | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Muscat | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-sharjah",
+    "title": "Inspection Scheduling & Interval Management in Sharjah | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Sharjah | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-port-harcourt",
+    "title": "Inspection Scheduling & Interval Management in Port Harcourt | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Port Harcourt | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-edmonton",
+    "title": "Inspection Scheduling & Interval Management in Edmonton | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Edmonton | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-toronto",
+    "title": "Inspection Scheduling & Interval Management in Toronto | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Toronto | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-vancouver",
+    "title": "Inspection Scheduling & Interval Management in Vancouver | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Vancouver | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-sao-paulo",
+    "title": "Inspection Scheduling & Interval Management in Sao Paulo | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Sao Paulo | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-rio-de-janeiro",
+    "title": "Inspection Scheduling & Interval Management in Rio de Janeiro | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Rio de Janeiro | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-mexico-city",
+    "title": "Inspection Scheduling & Interval Management in Mexico City | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Mexico City | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-bangkok",
+    "title": "Inspection Scheduling & Interval Management in Bangkok | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Bangkok | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-ho-chi-minh",
+    "title": "Inspection Scheduling & Interval Management in Ho Chi Minh City | Atlantis NDT ERP",
+    "description": "Inspection Scheduling & Interval Management ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com.",
+    "bodyH1": "Inspection Scheduling & Interval Management in Ho Chi Minh City | Atlantis NDT ERP",
+    "bodyText": "Inspection Scheduling & Interval Management ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-riyadh",
+    "title": "Calibration Management in Riyadh | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Riyadh | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-jubail",
+    "title": "Calibration Management in Jubail | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Jubail | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-yanbu",
+    "title": "Calibration Management in Yanbu | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Yanbu | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-kuwait",
+    "title": "Calibration Management in Kuwait City | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Kuwait City | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-muscat",
+    "title": "Calibration Management in Muscat | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Muscat | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-sharjah",
+    "title": "Calibration Management in Sharjah | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Sharjah | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-port-harcourt",
+    "title": "Calibration Management in Port Harcourt | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Port Harcourt | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-edmonton",
+    "title": "Calibration Management in Edmonton | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Edmonton | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-toronto",
+    "title": "Calibration Management in Toronto | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Toronto | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-vancouver",
+    "title": "Calibration Management in Vancouver | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Vancouver | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-sao-paulo",
+    "title": "Calibration Management in Sao Paulo | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Sao Paulo | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-rio-de-janeiro",
+    "title": "Calibration Management in Rio de Janeiro | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Rio de Janeiro | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-mexico-city",
+    "title": "Calibration Management in Mexico City | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Mexico City | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-bangkok",
+    "title": "Calibration Management in Bangkok | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Bangkok | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/calibration-management-ho-chi-minh",
+    "title": "Calibration Management in Ho Chi Minh City | Atlantis NDT ERP",
+    "description": "Calibration Management ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com.",
+    "bodyH1": "Calibration Management in Ho Chi Minh City | Atlantis NDT ERP",
+    "bodyText": "Calibration Management ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-riyadh",
+    "title": "Corrosion Tracking & RBI in Riyadh | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Riyadh | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Riyadh, Saudi Arabia. Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-jubail",
+    "title": "Corrosion Tracking & RBI in Jubail | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Jubail | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-yanbu",
+    "title": "Corrosion Tracking & RBI in Yanbu | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Yanbu | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Yanbu, Saudi Arabia. Pre-configured for YASREF (Aramco / Sinopec), Aramco Yanbu Refinery and aligned with Royal Commission Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-kuwait",
+    "title": "Corrosion Tracking & RBI in Kuwait City | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Kuwait City | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Kuwait City, Kuwait. Pre-configured for KOC (Kuwait Oil Company), KNPC refineries (Mina Al-Ahmadi, Mina Abdullah) and aligned with PAI (Public Authority for Industry), EPA Kuwait environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-muscat",
+    "title": "Corrosion Tracking & RBI in Muscat | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Muscat | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Muscat, Oman. Pre-configured for Petroleum Development Oman (PDO), OQ Refineries (Sohar, Muscat) and aligned with MEM Ministry of Energy and Minerals, Ministry of Labour. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-sharjah",
+    "title": "Corrosion Tracking & RBI in Sharjah | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Sharjah | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-port-harcourt",
+    "title": "Corrosion Tracking & RBI in Port Harcourt | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Port Harcourt | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-edmonton",
+    "title": "Corrosion Tracking & RBI in Edmonton | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Edmonton | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Edmonton, Canada. Pre-configured for Imperial Oil Strathcona refinery, Suncor Edmonton refinery and aligned with ABSA pressure equipment, AER Alberta Energy Regulator. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-toronto",
+    "title": "Corrosion Tracking & RBI in Toronto | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Toronto | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Toronto, Canada. Pre-configured for Bruce Power (8-unit CANDU), Ontario Power Generation (Darlington, Pickering) and aligned with CNSC Canadian Nuclear Safety Commission, TSSA Ontario. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-vancouver",
+    "title": "Corrosion Tracking & RBI in Vancouver | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Vancouver | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Vancouver, Canada. Pre-configured for Trans Mountain (TMX pipeline), Parkland Burnaby refinery and aligned with Technical Safety BC (TSBC), BC Energy Regulator (BCER). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-sao-paulo",
+    "title": "Corrosion Tracking & RBI in Sao Paulo | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Sao Paulo | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Sao Paulo, Brazil. Pre-configured for Petrobras (Replan Paulinia, Revap, Cubatao RPBC), USIMINAS (Cubatao steel) and aligned with ANP, Ibama environment. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-rio-de-janeiro",
+    "title": "Corrosion Tracking & RBI in Rio de Janeiro | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Rio de Janeiro | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Rio de Janeiro, Brazil. Pre-configured for Petrobras (Campos / Santos basins, HQ), TotalEnergies E&P Brazil and aligned with ANP, Ibama. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-mexico-city",
+    "title": "Corrosion Tracking & RBI in Mexico City | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Mexico City | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Mexico City, Mexico. Pre-configured for Pemex (corporate + 6 refineries), Pemex Exploracion y Produccion and aligned with CNH Hydrocarbons Commission, ASEA (SASISOPA). Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-bangkok",
+    "title": "Corrosion Tracking & RBI in Bangkok | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Bangkok | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Bangkok, Thailand. Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com."
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-ho-chi-minh",
+    "title": "Corrosion Tracking & RBI in Ho Chi Minh City | Atlantis NDT ERP",
+    "description": "Corrosion Tracking & RBI ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com.",
+    "bodyH1": "Corrosion Tracking & RBI in Ho Chi Minh City | Atlantis NDT ERP",
+    "bodyText": "Corrosion Tracking & RBI ERP module for inspection companies in Ho Chi Minh City, Vietnam. Pre-configured for PetroVietnam (PVN), Vietsovpetro offshore JV and aligned with PetroVietnam vendor approval, MOIT Ministry of Industry and Trade. Demo: info@atlantisndt.com."
+  }
+]
