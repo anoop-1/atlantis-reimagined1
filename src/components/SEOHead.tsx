@@ -97,6 +97,10 @@ interface SEOHeadProps {
   article?: ArticleSchema;
   /** Emit FAQPage JSON-LD — add at least 3 Q&A pairs per city page */
   faq?: FaqItem[];
+  /** Document language code, e.g. "en", "ar", "es". Applied to <html lang>. */
+  lang?: string;
+  /** Document text direction. Applied to <html dir>. Use "rtl" for Arabic, Hebrew. */
+  dir?: 'ltr' | 'rtl';
 }
 
 export const SEOHead = ({
@@ -112,8 +116,20 @@ export const SEOHead = ({
   course,
   article,
   faq,
+  lang,
+  dir,
 }: SEOHeadProps) => {
   useEffect(() => {
+    // Apply <html lang> + <html dir> for accessibility, search engines and RTL layouts
+    try {
+      if (lang) document.documentElement.lang = lang;
+      if (dir) document.documentElement.dir = dir;
+      else if (lang && lang !== 'ar' && lang !== 'he' && lang !== 'fa' && lang !== 'ur') {
+        // Reset to LTR when navigating from an RTL page back to an LTR-language page
+        document.documentElement.dir = 'ltr';
+      }
+    } catch {}
+
     // Set title (avoid duplicate branding if title already contains site name)
     const brandSuffix = 'Atlantis NDT - Professional NDT Services';
     const lowerTitle = title.toLowerCase();
@@ -547,7 +563,7 @@ export const SEOHead = ({
     } else {
       document.querySelector('script[data-sd="faq"]')?.remove();
     }
-  }, [title, description, keywords, ogImage, canonical, structuredData, hreflangLinks, localBusiness, course, article, faq]);
+  }, [title, description, keywords, ogImage, canonical, structuredData, hreflangLinks, localBusiness, course, article, faq, lang, dir]);
 
   return null;
 };

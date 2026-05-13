@@ -1,0 +1,10 @@
+const ArNdtErpSaudiArabia = lazy(() => import("./pages/i18n/ar-ndt-erp-saudi-arabia"));
+const ArNdtErpDubai = lazy(() => import("./pages/i18n/ar-ndt-erp-dubai"));
+const ArNdtErpRiyadh = lazy(() => import("./pages/i18n/ar-ndt-erp-riyadh"));
+const ArNdtErpAbuDhabi = lazy(() => import("./pages/i18n/ar-ndt-erp-abu-dhabi"));
+const ArNdtErpSolution = lazy(() => import("./pages/i18n/ar-ndt-erp-solution"));
+const EsNdtErpMexicoCity = lazy(() => import("./pages/i18n/es-ndt-erp-mexico-city"));
+const EsNdtErpSaoPaulo = lazy(() => import("./pages/i18n/es-ndt-erp-sao-paulo"));
+const EsNdtErpBuenosAires = lazy(() => import("./pages/i18n/es-ndt-erp-buenos-aires"));
+const EsNdtErpBogota = lazy(() => import("./pages/i18n/es-ndt-erp-bogota"));
+const EsNdtErpSolution = lazy(() => import("./pages/i18n/es-ndt-erp-solution"));

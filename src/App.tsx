@@ -325,6 +325,17 @@ const NDTTrainingJakarta = lazy(() => import("./pages/ndt-training-jakarta"));
 const API653TrainingSaudiArabia = lazy(() => import("./pages/api-653-training-saudi-arabia"));
 const ErpModulesHub = lazy(() => import("./pages/ErpModulesHub"));
 const ErpIndustriesHub = lazy(() => import("./pages/ErpIndustriesHub"));
+const FreeTrial = lazy(() => import("./pages/FreeTrial"));
+const ArNdtErpSaudiArabia = lazy(() => import("./pages/i18n/ar-ndt-erp-saudi-arabia"));
+const ArNdtErpDubai = lazy(() => import("./pages/i18n/ar-ndt-erp-dubai"));
+const ArNdtErpRiyadh = lazy(() => import("./pages/i18n/ar-ndt-erp-riyadh"));
+const ArNdtErpAbuDhabi = lazy(() => import("./pages/i18n/ar-ndt-erp-abu-dhabi"));
+const ArNdtErpSolution = lazy(() => import("./pages/i18n/ar-ndt-erp-solution"));
+const EsNdtErpMexicoCity = lazy(() => import("./pages/i18n/es-ndt-erp-mexico-city"));
+const EsNdtErpSaoPaulo = lazy(() => import("./pages/i18n/es-ndt-erp-sao-paulo"));
+const EsNdtErpBuenosAires = lazy(() => import("./pages/i18n/es-ndt-erp-buenos-aires"));
+const EsNdtErpBogota = lazy(() => import("./pages/i18n/es-ndt-erp-bogota"));
+const EsNdtErpSolution = lazy(() => import("./pages/i18n/es-ndt-erp-solution"));
 const CaseStudiesHub = lazy(() => import("./pages/CaseStudiesHub"));
 const CsNdtInspectionCompaniesErp = lazy(() => import("./pages/case-studies/ndt-inspection-companies-erp-implementation"));
 const CsCalibrationLaboratoriesErp = lazy(() => import("./pages/case-studies/calibration-laboratories-erp-implementation"));
@@ -1939,6 +1950,17 @@ const App = () => (
                   <Route path="/api-653-training-saudi-arabia" element={<LazyRoute Component={API653TrainingSaudiArabia} />} />
                   <Route path="/erp-modules" element={<LazyRoute Component={ErpModulesHub} />} />
                   <Route path="/erp-industries" element={<LazyRoute Component={ErpIndustriesHub} />} />
+                  <Route path="/free-trial" element={<LazyRoute Component={FreeTrial} />} />
+                  <Route path="/ar/ndt-erp-saudi-arabia" element={<LazyRoute Component={ArNdtErpSaudiArabia} />} />
+                  <Route path="/ar/ndt-erp-dubai" element={<LazyRoute Component={ArNdtErpDubai} />} />
+                  <Route path="/ar/ndt-erp-riyadh" element={<LazyRoute Component={ArNdtErpRiyadh} />} />
+                  <Route path="/ar/ndt-erp-abu-dhabi" element={<LazyRoute Component={ArNdtErpAbuDhabi} />} />
+                  <Route path="/ar/ndt-erp-solution" element={<LazyRoute Component={ArNdtErpSolution} />} />
+                  <Route path="/es/ndt-erp-mexico-city" element={<LazyRoute Component={EsNdtErpMexicoCity} />} />
+                  <Route path="/es/ndt-erp-sao-paulo" element={<LazyRoute Component={EsNdtErpSaoPaulo} />} />
+                  <Route path="/es/ndt-erp-buenos-aires" element={<LazyRoute Component={EsNdtErpBuenosAires} />} />
+                  <Route path="/es/ndt-erp-bogota" element={<LazyRoute Component={EsNdtErpBogota} />} />
+                  <Route path="/es/ndt-erp-solution" element={<LazyRoute Component={EsNdtErpSolution} />} />
                   <Route path="/case-studies" element={<LazyRoute Component={CaseStudiesHub} />} />
                   <Route path="/case-studies/ndt-inspection-companies-erp-implementation" element={<LazyRoute Component={CsNdtInspectionCompaniesErp} />} />
                   <Route path="/case-studies/calibration-laboratories-erp-implementation" element={<LazyRoute Component={CsCalibrationLaboratoriesErp} />} />
