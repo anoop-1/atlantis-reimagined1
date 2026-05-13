@@ -20,20 +20,16 @@ export default defineConfig(({ mode }) => ({
    build: {
       target: "es2015", // <-- transpile modern JS down for Puppeteer
       chunkSizeWarningLimit: 600,
+      // NOTE: do NOT split react / react-dom into separate manual chunks.
+      // react-dom relies on react's internal `__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED`
+      // and a split breaks module init order at runtime. Vite/Rollup's default
+      // chunking already groups them correctly. Manual splits are only safe
+      // for libraries that don't share runtime state with React.
+      // Sprint 15 perf — content-cluster splits only (no React vendor split).
       rollupOptions: {
          output: {
             manualChunks: (id) => {
-               // Sprint 15 perf — split heavy vendor + per-route chunks.
-               if (id.includes("node_modules")) {
-                  if (id.includes("react-dom") || id.includes("scheduler")) return "vendor-react";
-                  if (id.includes("@radix-ui") || id.includes("lucide-react")) return "vendor-ui";
-                  if (id.includes("framer-motion")) return "vendor-motion";
-                  if (id.includes("recharts") || id.includes("d3")) return "vendor-charts";
-                  if (id.includes("@tanstack")) return "vendor-tanstack";
-                  if (id.includes("three") || id.includes("@react-three")) return "vendor-three";
-                  return "vendor-misc";
-               }
-               // Digital twin 3D models — heaviest content, split off
+               // Heavy 3D content — split off
                if (id.includes("/components/InteractiveJet") || id.includes("/components/InteractivePlant") || id.includes("/components/InteractivePipe")) {
                   return "dt-3d-models";
                }
