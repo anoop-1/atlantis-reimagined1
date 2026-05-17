@@ -551,7 +551,7 @@ Severity: ${severityData.label}`;
                   <strong>Minimum Thickness Standards:</strong> Industry practice typically establishes minimum acceptable thickness as 50% of the nominal design thickness, with allowance for the amount of corrosion expected during one inspection interval. Some standards allow higher corrosion allowances (up to 3 mm or 1/8 inch) for aggressive service conditions. Risk-based inspection approaches may permit lower minimum thresholds if supported by quantitative risk assessment.
                 </p>
                 <p>
-                  <strong>Inspection Intervals:</strong> API 510 and 570 establish baseline inspection intervals (typically 5 to 10 years) based on equipment class and service. When corrosion rates are measured, intervals are adjusted: High corrosion rates (&gt; 1.0 mm/year) require intervals of 1 to 2 years; moderate rates (0.3–1.0 mm/year) require 2 to 5 year intervals; low rates (&lt; 0.3 mm/year) may allow standard or extended intervals.
+                  <strong>Inspection Intervals:</strong> API 510 and 570 establish baseline inspection intervals (typically 5 to 10 years) based on equipment class and service. When corrosion rates are measured, intervals are adjusted: High corrosion rates ({'>'} 1.0 mm/year) require intervals of 1 to 2 years; moderate rates (0.3–1.0 mm/year) require 2 to 5 year intervals; low rates ({'<'} 0.3 mm/year) may allow standard or extended intervals.
                 </p>
               </div>
             </div>
