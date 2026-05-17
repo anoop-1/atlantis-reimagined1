@@ -560,6 +560,26 @@ export default function API653Certification() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema653Cert) }}
             />
 
+            {/* 2026-05-17 additive: Related API 653 guides */}
+            <section className="bg-slate-50 py-12">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-2xl font-bold mb-6 text-slate-900">More API 653 Resources (2026)</h2>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <Link to="/blog/api-icp-pass-rates-510-vs-570-vs-653-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 653 Pass Rate 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">510 vs 570 vs 653 pass rates with study-hour benchmarks</p>
+                        </Link>
+                        <Link to="/blog/api-653-current-edition-2026-vs-bok-window-explained" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 653 Current Edition 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">5th Edition + addenda timeline, BoK window mapping</p>
+                        </Link>
+                        <Link to="/blog/api-510-570-653-exam-schedule-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 653 Exam Schedule 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">Application deadlines + exam windows for tank inspectors</p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
             <ContactDetails />
         </div>
     );

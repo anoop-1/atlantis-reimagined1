@@ -9,6 +9,20 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import {
+  digitalTwinLocationContext,
+  digitalTwinAssets,
+  digitalTwinIndustries,
+  getFaqsForCity,
+} from '../src/data/dt-city-data.mjs';
+import {
+  DT_CITY_PAGE_SLUGS,
+  ERP_CITY_PAGE_SLUGS,
+  REPORTING_CITY_PAGE_SLUGS,
+  TRAINING_CITY_PAGE_SLUGS,
+  CONSULTING_CITY_PAGE_SLUGS,
+} from './prerender-city-slug-sets.mjs';
+import { CITY_GEO_MIN } from './prerender-city-geo.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -357,6 +371,21 @@ const CTR_OVERRIDES = {
 // render so Google drops them from SERP without breaking internal links.
 // File is generated from 90d GSC data (<5 impressions). Re-run pseo-audit.mjs
 // after each major GSC refresh to keep the list current.
+//
+// === 2026-05-16 ERP city bottom-80 noindex sweep ===
+// Added 80 ERP city slugs (/ndt-erp-*) with 0 impressions over 90d (GSC).
+// Source script: scripts/gsc-erp-impressions-pull.mjs → erp-90d-impressions.json
+// Protected (kept indexable) the 48 oil/gas hubs: houston, dubai, abu-dhabi,
+// saudi-arabia, calgary, singapore, mumbai, london, perth, doha, kuwait,
+// muscat, hyderabad, chennai, kuala-lumpur, lagos, new-orleans, denver,
+// aberdeen, oslo, jubail, yanbu, edmonton, rotterdam, jakarta, dammam, manama,
+// sharjah, bahrain, qatar, ras-al-khaimah, sohar, basrah, port-harcourt,
+// midland, anchorage, bakersfield, melbourne, vancouver, toronto, lake-charles,
+// beaumont, baton-rouge, hong-kong, shanghai, ho-chi-minh, johannesburg,
+// cape-town. Pillars (/ndt-erp-solution, /ndt-erp-software-comparison,
+// /ndt-erp-vs-generic-erp, /ndt-erp-integration-matrix, /ndt-erp-roi-calculator,
+// /ndt-erp-implementation-timeline) also remain indexable.
+// Total PSEO_NOINDEX after sweep: 195 + 80 = 275.
 let PSEO_NOINDEX = new Set();
 try {
   const noindexFile = join(ROOT, 'scripts/pseo-noindex-list.json');
@@ -562,7 +591,10 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
   // Inject structured data JSON-LD into <head>
   if (structuredData) {
     const sdTag = `  <script type="application/ld+json">${JSON.stringify(structuredData)}</script>`;
-    out = out.replace('</head>', `${sdTag}\n</head>`);
+    // Use a function replacer so literal `$` in JSON (e.g. priceRange "$$$$")
+    // isn't interpreted as a regex replacement back-ref like $&. Without this,
+    // `$$$$` collapses to `$$` in the emitted HTML.
+    out = out.replace('</head>', () => `${sdTag}\n</head>`);
   }
 
   // Replace static body fallback content if provided.
@@ -576,10 +608,21 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
     // head-term link equity into the pillar hubs across all ~2,477 pages.
     const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/ndt-training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>`;
     const augmentedBody = bodyContent + PILLAR_NAV;
-    out = out.replace(
-      /(<div id="root">)[\s\S]*?(<\/div>\s*<script)/,
+    // Match `<div id="root">…</div>` followed by either `<script>` (dev) or
+    // `</body>` (Vite production build moves the module script into <head>).
+    // Previous regex required `<script>` and silently failed on prod builds,
+    // leaving the homepage static fallback on every prerendered route.
+    const replaced = out.replace(
+      /(<div id="root">)[\s\S]*?(<\/div>\s*(?:<script|<\/body))/,
       (_match, open, close) => `${open}\n${augmentedBody}\n${close}`
     );
+    if (replaced === out) {
+      throw new Error(
+        'prerender bodyContent injection failed: <div id="root">…</div> pattern not found in template. ' +
+        'Check dist/index.html structure before deploying.'
+      );
+    }
+    out = replaced;
   }
 
   return out;
@@ -628,6 +671,13 @@ const routes = [];
 
 // ── Static core pages ────────────────────────────────────────────────────
 const corePages = [
+  {
+    path: '/',
+    title: 'Atlantis NDT — ASNT Level III Training, Consulting & Digital Twins',
+    description: 'ASNT Level III NDT training, consulting, digital twins and reporting software for oil & gas, aerospace, marine and nuclear assets. ISO 9712 + SNT-TC-1A aligned. Serving USA, Saudi Arabia, India, UAE, Singapore.',
+    bodyH1: 'NDT Training, Consulting & Digital Twins | Atlantis NDT',
+    bodyText: 'Atlantis NDT delivers ASNT Level III NDT consulting, training, digital twin asset visualisation, and inspection reporting software for the oil & gas, aerospace, marine, nuclear and power industries. Operating from Houston, Hyderabad and Riyadh, our 50+ Level III certified engineers serve clients across the USA, Middle East, India, Singapore, Canada and the UK. Browse our pillar solutions: NDT Consulting, NDT Training, Digital Twin NDT, NDT Reporting Software, and NDT ERP Software.',
+  },
   {
     path: '/about',
     title: 'About Atlantis NDT | Global NDT Consulting & Training Leaders',
@@ -7083,6 +7133,86 @@ blogs.forEach(blog => {
   });
 });
 
+// ── NDT Glossary index + per-term pages ──────────────────────────────────
+const glossaryRaw = readFileSync(join(ROOT, 'src/data/glossary.json'), 'utf-8');
+const glossary = JSON.parse(glossaryRaw);
+
+const glossaryIndexCanonical = `${SITE_URL}/glossary`;
+const glossaryIndexStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTermSet",
+      "@id": glossaryIndexCanonical,
+      "name": "Atlantis NDT Glossary",
+      "description": "Comprehensive glossary of non-destructive testing (NDT) terminology covering methods, equipment, defects, standards, certifications, and asset types.",
+      "url": glossaryIndexCanonical,
+      "inLanguage": "en-US",
+      "hasDefinedTerm": glossary.slice(0, 50).map(g => ({
+        "@type": "DefinedTerm",
+        "name": g.term,
+        "url": `${SITE_URL}/glossary/${g.slug}`,
+        "description": g.shortDefinition,
+        "termCode": g.slug
+      }))
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Glossary", "item": glossaryIndexCanonical }
+      ]
+    }
+  ]
+};
+
+routes.push({
+  path: '/glossary',
+  title: `NDT Glossary - ${glossary.length}+ Non-Destructive Testing Terms Defined | Atlantis NDT`,
+  description: `Comprehensive NDT glossary with ${glossary.length}+ terms covering ultrasonic, radiographic, magnetic particle, penetrant, and eddy current testing methods, equipment, defects, standards, and certifications.`,
+  canonical: glossaryIndexCanonical,
+  structuredData: glossaryIndexStructuredData,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/glossary">Glossary</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Glossary - ${glossary.length}+ Non-Destructive Testing Terms</h1>\n    <p>${glossary.length}+ NDT terms defined by ASNT Level III professionals.</p>\n    <ul>\n${glossary.slice(0, 100).map(g => `      <li><a href="/glossary/${g.slug}">${g.term}</a> - ${g.shortDefinition.slice(0, 140)}</li>`).join('\n')}\n    </ul>\n  </main>`,
+});
+
+glossary.forEach(term => {
+  const termCanonical = `${SITE_URL}/glossary/${term.slug}`;
+  const termStructuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        "@id": termCanonical,
+        "name": term.term,
+        "url": termCanonical,
+        "description": term.shortDefinition,
+        "termCode": term.slug,
+        "inDefinedTermSet": glossaryIndexCanonical
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+          { "@type": "ListItem", "position": 2, "name": "Glossary", "item": glossaryIndexCanonical },
+          { "@type": "ListItem", "position": 3, "name": term.term, "item": termCanonical }
+        ]
+      }
+    ]
+  };
+
+  const plainDefinition = (term.definition || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+  routes.push({
+    path: `/glossary/${term.slug}`,
+    title: `${term.term} - Definition & Meaning | Atlantis NDT Glossary`,
+    description: `${term.shortDefinition} | Atlantis NDT Glossary`,
+    canonical: termCanonical,
+    structuredData: termStructuredData,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/glossary">Glossary</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <article>\n      <nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/glossary">Glossary</a> / <span>${term.term}</span></nav>\n      <h1>${term.term}</h1>\n      <p><strong>${term.shortDefinition}</strong></p>\n      <div>${plainDefinition.slice(0, 1500)}</div>\n    </article>\n  </main>`,
+  });
+});
+console.log(`📖 Glossary: ${glossary.length} terms + 1 index page added to prerender queue`);
+
 // ── Consulting city pages ────────────────────────────────────────────────
 const consultingCities = [
   'houston', 'los-angeles', 'new-orleans', 'denver', 'chicago', 'seattle',
@@ -7495,6 +7625,8 @@ const extraPages = [
   { path: '/resources/inspection-test-plan-itp', title: 'Inspection & Test Plan (ITP) Template [2026]', description: 'Free construction QA/QC Inspection & Test Plan template. 17 activities, H/W/R codes, acceptance criteria, responsibility matrix, sign-off.' },
   { path: '/resources/audit-finding-tracker', title: 'Audit Finding / NCR / CAPA Tracker Template [2026]', description: 'Free audit-finding / NCR / CAPA tracker for ISO 9001 / 17025 / 45001. Severity, root cause, corrective action, effectiveness review, dashboard.' },
 
+  // Note: /resources/state-of-ndt-2026 registered below via routes.push() with bodyContent.
+
   // NOTE: Certification practice questions are now loaded from src/data/certification-practice.json
   // and rendered via the blog pipeline alongside regular blogs (see line ~127)
 
@@ -7782,6 +7914,15 @@ routes.push({
   bodyContent: `  <header><nav><a href="/">Home</a><a href="/resources">Resources</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Audit Finding / NCR / CAPA Tracker</h1>\n    <p>Audit-finding / NCR / CAPA tracker template for ISO 9001 / 17025 / 45001 — severity classification, root cause, corrective action, effectiveness review, and status dashboard.</p>\n  </main>`,
 });
 
+// === Lead-magnet: State of NDT Industry 2026 Annual Report ===
+routes.push({
+  path: '/resources/state-of-ndt-2026',
+  title: 'State of NDT Industry 2026: Annual Report (Free 30-Page PDF) | Atlantis NDT',
+  description: 'Free 30-page annual NDT industry report — $4.8B global market 2026, PAUT +18% fastest-growing method, salary by region ($72K USA / $52K ME / ₹6.8L India), 23% digital twin adoption, projected 32% Level III shortage by 2028.',
+  canonical: `${SITE_URL}/resources/state-of-ndt-2026`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/resources">Resources</a><a href="/digital-twins">Digital Twins</a><a href="/ndt-industry-statistics">Industry Stats</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>The State of NDT Industry 2026: Annual Report</h1>\n    <p>Free 30-page annual industry report from Atlantis NDT — $4.80B global NDT market in 2026 (+6.2% YoY), with regional breakdown across North America ($1.40B), Asia-Pacific ($1.10B), Middle East ($0.92B), Europe ($0.85B), Latin America ($0.31B), and Africa ($0.18B). Method-level growth covers Phased Array UT (+18%, fastest-growing), Digital Radiography (+14%), Magnetic Flux Leakage (+11%), TOFD (+9%), and the structural decline of film RT (-2% for four straight years). Salary benchmarks by ASNT Level (Level III $135K USA median, $96K Middle East tax-free, ₹18L India), method premium (PAUT/AUT +18–25% over baseline), and certification scheme distribution (SNT-TC-1A 60%, ISO 9712 25%, PCN 10%). Technology adoption sections cover digital twin (23% of mid-large operators, +9pts in 24 months), AI-assisted defect recognition (31% of providers piloting), NDT-specific ERP (18%), drones (67%), and AUT (41% of PAUT-capable shops). Authored by Anoop Rayavarapu, ASNT NDT Level III certified founder of Atlantis NDT. Email-gated download; free to cite with attribution under CC BY 4.0.</p>\n    <p>Related resources: <a href="/digital-twins">Digital Twins for NDT</a>, <a href="/best-ndt-reporting-software-2026">Best NDT Reporting Software 2026</a>, <a href="/ndt-industry-statistics">NDT Industry Statistics</a>, <a href="/blog/ndt-salary-guide-2026-global">NDT Salary Guide 2026 Global</a>, <a href="/asnt-certification">ASNT Certification</a>, <a href="/ultrasonic-testing">Ultrasonic Testing pillar</a>, <a href="/radiographic-testing">Radiographic Testing pillar</a>, <a href="/magnetic-particle-testing">Magnetic Particle Testing pillar</a>.</p>\n  </main>`,
+});
+
 // ─── Content & Guide Pages ──────────────────────────────────────────────
 
 routes.push({
@@ -7904,15 +8045,305 @@ const digitalTwinCities = [
   { slug: 'auckland',        city: 'Auckland',        country: 'New Zealand',  assets: 'Ports of Auckland heavy infrastructure, Methanex petrochemical adjacent, and regional power generation' },
   { slug: 'wellington',      city: 'Wellington',      country: 'New Zealand',  assets: 'Meridian Energy hydro assets, Transpower transmission infrastructure, and Centreport industrial inspection' },
   { slug: 'christchurch',    city: 'Christchurch',    country: 'New Zealand',  assets: 'Lyttelton Port heavy lift, Canterbury industrial manufacturing, and South Island infrastructure integrity' },
+  // ── Tier A expansion (May 2026) — ~50 high oil/gas/refining/petrochem asset density ──
+  { slug: 'atlanta',         city: 'Atlanta',         country: 'USA',          assets: 'Colonial Pipeline mainline integrity, Plant Vogtle nuclear AP1000 pressure equipment, and Georgia-Pacific paper-mill recovery boilers' },
+  { slug: 'austin',          city: 'Austin',          country: 'USA',          assets: 'Tesla Gigafactory high-purity gas systems, Samsung Austin Semiconductor fab utilities, and South Texas Project nuclear in-service inspection assets' },
+  { slug: 'bahrain',         city: 'Bahrain',         country: 'Bahrain',      assets: 'BAPCO Sitra Modernisation Programme refinery columns, ALBA Line 6 aluminium pot-line gas ducts, and Tatweer Petroleum onshore gathering separators' },
+  { slug: 'baton-rouge',     city: 'Baton Rouge',     country: 'USA',          assets: 'ExxonMobil Baton Rouge refinery FCC and hydrocracker, Dow Plaquemine cracker furnaces, and Shintech PVC reactor vessels' },
+  { slug: 'brazil',          city: 'Brazil',          country: 'Brazil',       assets: 'Petrobras pre-salt FPSO topsides (Búzios, Tupi, Mero), Replan and RNEST refinery hot-reactor vessels, and Braskem petrochemical reactors' },
+  { slug: 'corpus-christi',  city: 'Corpus Christi',  country: 'USA',          assets: 'Cheniere Corpus Christi LNG cryogenic storage, Citgo and Flint Hills refinery columns, and Port of Corpus Christi crude loading-arm structures' },
+  { slug: 'dallas',          city: 'Dallas',          country: 'USA',          assets: 'Energy Transfer midstream compression vessels, DFW aerospace MRO components, and Permian-to-Gulf pipeline coordination assets' },
+  { slug: 'dammam',          city: 'Dammam',          country: 'Saudi Arabia', assets: 'Saudi Aramco East-West pipeline pressure equipment, Khurais central processing facility separators, and Abqaiq gas-oil separation trains' },
+  { slug: 'delhi',           city: 'Delhi',           country: 'India',        assets: 'IOCL Mathura refinery vessels, NTPC coal/gas power-plant boiler pressure parts, and BHEL Hardwar fabricated pressure equipment' },
+  { slug: 'fort-worth',      city: 'Fort Worth',      country: 'USA',          assets: 'Lockheed F-35 aerospace composite and metallic assemblies, Bell V-22 and V-280 rotorcraft components, and Barnett Shale wellhead equipment' },
+  { slug: 'india',           city: 'India',           country: 'India',        assets: 'Reliance Jamnagar FCC and coker units, IOCL refinery distillation columns, and ONGC Bombay High offshore wellheads' },
+  { slug: 'indonesia',       city: 'Indonesia',       country: 'Indonesia',    assets: 'Pertamina Cilacap and Balikpapan refinery columns, Tangguh and Bontang LNG cryogenic storage, and Cilegon petrochemical cracker vessels' },
+  { slug: 'jakarta',         city: 'Jakarta',         country: 'Indonesia',    assets: 'Pertamina Balongan and Cilacap refinery vessels, Cepu Banyu Urip FPSO topside structures, and Banten Bay LNG cryogenic equipment' },
+  { slug: 'jamnagar',        city: 'Jamnagar',        country: 'India',        assets: 'Reliance Jamnagar FCC and hydrocracker units, Sikka Port export jetty structures, and Nayara Vadinar refinery hot-reactor vessels' },
+  { slug: 'kochi',           city: 'Kochi',           country: 'India',        assets: 'BPCL Kochi refinery FCC and hydrocracker reactors, Cochin Shipyard submarine and carrier hull blocks, and Puthuvypeen LNG cryogenic storage' },
+  { slug: 'kolkata',         city: 'Kolkata',         country: 'India',        assets: 'IOCL Haldia refinery distillation columns, Tata Steel Jamshedpur blast-furnace pressure parts, and Haldia Petrochemicals cracker furnaces' },
+  { slug: 'lake-charles',    city: 'Lake Charles',    country: 'USA',          assets: 'Cheniere Sabine Pass LNG 9% Ni weld inspection assets, Sasol Lake Charles ethane cracker furnaces, and Phillips 66 Lake Charles refinery columns' },
+  { slug: 'los-angeles',     city: 'Los Angeles',     country: 'USA',          assets: 'Marathon Carson FCC vessels, Chevron El Segundo refinery columns, and SoCalGas Aliso Canyon underground-storage wellheads' },
+  { slug: 'malaysia',        city: 'Malaysia',        country: 'Malaysia',     assets: 'Petronas RAPID Pengerang refinery vessels, MLNG Bintulu cryogenic storage (9 trains), and Sabah/Sarawak offshore platform topsides' },
+  { slug: 'manila',          city: 'Manila',          country: 'Philippines',  assets: 'Petron Bataan Refinery FCC and hydrocracker units, Malampaya offshore gas-processing platform, and FGEN Batangas LNG cryogenic storage' },
+  { slug: 'mexico-city',     city: 'Mexico City',     country: 'Mexico',       assets: 'Pemex Cadereyta and Tula refinery columns, Olmeca Dos Bocas commissioning-baseline pressure vessels, and CFE Laguna Verde nuclear ASME components' },
+  { slug: 'new-york',        city: 'New York',        country: 'USA',          assets: 'Phillips 66 Bayway (Linden NJ) refinery columns, Indian Point decommissioning inspection records, and New York Harbor petroleum jetty structures' },
+  { slug: 'norway',          city: 'Norway',          country: 'Norway',       assets: 'Equinor Johan Sverdrup, Troll and Oseberg topsides, Mongstad refinery columns, and Hammerfest LNG (Snøhvit) cryogenic storage' },
+  { slug: 'oklahoma-city',   city: 'Oklahoma City',   country: 'USA',          assets: 'Williams Cushing crude oil storage tank farm (API 653), Devon and Continental SCOOP/STACK wellheads, and ONEOK gas-processing separators' },
+  { slug: 'oman',            city: 'Oman',            country: 'Oman',         assets: 'PDO Marmul, Mukhaizna and Yibal field gathering systems, OQ Sohar refinery vessels, and Oman LNG Qalhat cryogenic storage' },
+  { slug: 'philadelphia',    city: 'Philadelphia',    country: 'USA',          assets: 'Monroe Energy Trainer refinery columns, PBF Paulsboro refinery FCC units, and Marcus Hook NGL export jetty and storage' },
+  { slug: 'pittsburgh',      city: 'Pittsburgh',      country: 'USA',          assets: 'Shell Pennsylvania Petrochemicals ethane cracker, EQT and Range Resources Marcellus wellheads, and US Steel Mon Valley blast furnaces' },
+  { slug: 'port-arthur',     city: 'Port Arthur',     country: 'USA',          assets: 'Motiva Port Arthur refinery FCC and hydrocracker, Sempra Port Arthur LNG cryogenic storage, and BASF-Total Sabine River petrochemical reactors' },
+  { slug: 'qatar',           city: 'Qatar',           country: 'Qatar',        assets: 'QatarEnergy Ras Laffan LNG cryogenic spheres (14 trains), North Field East/South cryogenic equipment, and Pearl GTL and Oryx GTL reactor units' },
+  { slug: 'sao-paulo',       city: 'São Paulo',       country: 'Brazil',       assets: 'Petrobras REPLAN and REVAP refinery columns, Embraer aerospace airframe components, and Cubatão petrochemical reactors' },
+  { slug: 'san-antonio',     city: 'San Antonio',     country: 'USA',          assets: 'Valero corporate refinery integrity programmes, EOG Eagle Ford gathering-system pressure equipment, and Calumet San Antonio refinery columns' },
+  { slug: 'san-francisco',   city: 'San Francisco',   country: 'USA',          assets: 'Chevron Richmond refinery FCC and hydrocracker, Marathon Martinez renewable-diesel conversion vessels, and Phillips 66 Rodeo reactors' },
+  { slug: 'seattle',         city: 'Seattle',         country: 'USA',          assets: 'BP Cherry Point refinery columns, Boeing 737/787 composite and metallic airframe components, and Trans Mountain Westridge marine terminal jetty' },
+  { slug: 'shanghai',        city: 'Shanghai',        country: 'China',        assets: 'Sinopec Shanghai Petrochemical Company cracker, Baowu Steel Baoshan blast-furnace pressure parts, and COSCO Shipping Heavy Industry FPSO blocks' },
+  { slug: 'south-korea',     city: 'South Korea',     country: 'South Korea',  assets: 'SK Energy Ulsan FCC and hydrocracker units, GS Caltex Yeosu petrochemical reactors, and Hyundai Heavy Industries Ulsan FPSO hulls' },
+  { slug: 'stavanger',       city: 'Stavanger',       country: 'Norway',       assets: 'Equinor Ekofisk, Sleipner and Statfjord platform topsides, ConocoPhillips Norway subsea manifolds, and NCS offshore jacket structures' },
+  { slug: 'taipei',          city: 'Taipei',          country: 'Taiwan',       assets: 'CPC Corporation Kaohsiung and Talin refinery vessels, Formosa Plastics Mailiao cracker columns, and Taipower Maanshan nuclear pressure equipment' },
+  { slug: 'thailand',        city: 'Thailand',        country: 'Thailand',     assets: 'PTT Map Ta Phut ethylene cracker, Thai Oil Sriracha refinery columns, and IRPC Rayong petrochemical reactor vessels' },
+  { slug: 'trinidad',        city: 'Trinidad',        country: 'Trinidad and Tobago', assets: 'Atlantic LNG Point Fortin cryogenic storage (4 trains), Petrotrin Pointe-à-Pierre refinery columns, and Point Lisas methanol synthesis reactors' },
+  { slug: 'uk',              city: 'United Kingdom',  country: 'UK',           assets: 'UKCS FPSO hulls and offshore platform topsides, Stanlow and Pembroke refinery columns, and Dogger Bank offshore wind monopiles' },
+  { slug: 'usa',             city: 'United States',   country: 'USA',          assets: 'ExxonMobil, Chevron, Marathon refinery columns and reactors, US LNG export terminal cryogenic storage, and PHMSA-regulated pipeline integrity assets' },
+  { slug: 'vizag',           city: 'Visakhapatnam',   country: 'India',        assets: 'HPCL Visakh refinery FCC and hydrocracker units, Eastern Naval Command shipyard structures, and Visakhapatnam Steel Plant blast-furnace pressure parts' },
+  { slug: 'japan',           city: 'Japan',           country: 'Japan',        assets: 'ENEOS Negishi and Mizushima refinery columns, Idemitsu Chiba refinery vessels, and Kashiwazaki-Kariwa nuclear ASME Section XI components' },
+  { slug: 'italy',           city: 'Italy',           country: 'Italy',        assets: 'Eni Sannazzaro and Taranto refinery columns, Saras Sarroch refinery FCC, and Versalis Brindisi cracker vessels' },
+  { slug: 'spain',           city: 'Spain',           country: 'Spain',        assets: 'Repsol Cartagena and Petronor refinery columns, Cepsa San Roque refinery vessels, and Iberdrola Cofrentes nuclear ASME components' },
+  { slug: 'germany',         city: 'Germany',         country: 'Germany',      assets: 'BASF Ludwigshafen cracker and reactor vessels, Shell Rheinland refinery columns, and offshore wind monopile and jacket foundations' },
+  { slug: 'france',          city: 'France',          country: 'France',       assets: 'TotalEnergies Donges and Gonfreville refinery vessels, EDF 56-reactor nuclear fleet ASME-equivalent components, and Orano La Hague reprocessing equipment' },
+  { slug: 'netherlands',     city: 'Netherlands',     country: 'Netherlands',  assets: 'Shell Pernis refinery columns (largest in Europe), BP Rotterdam and ExxonMobil Botlek crackers, and Vopak tank-farm storage' },
+  { slug: 'egypt',           city: 'Egypt',           country: 'Egypt',        assets: 'Eni Zohr offshore gas-processing platforms, Idku and SEGAS LNG cryogenic storage, and EGPC Mostorod and Suez refinery columns' },
+  { slug: 'nigeria',         city: 'Nigeria',         country: 'Nigeria',      assets: 'Dangote Refinery atmospheric/vacuum/hydrocracker vessels, NNPCL Port Harcourt and Warri refinery columns, and Bonga and Egina deepwater FPSO topsides' },
+  // ── Tier B expansion (May 2026) — ~32 secondary industrial ──
+  { slug: 'ahmedabad',       city: 'Ahmedabad',       country: 'India',        assets: 'IOCL Koyali Vadodara refinery columns, ONGC Hazira gas processing complex, and Dahej LNG cryogenic regasification equipment' },
+  { slug: 'algeria',         city: 'Algeria',         country: 'Algeria',      assets: 'Sonatrach Hassi R’Mel gas-processing trains, Skikda and Arzew LNG cryogenic storage tanks, and Hassi Messaoud onshore production separators' },
+  { slug: 'angola',          city: 'Angola',          country: 'Angola',       assets: 'TotalEnergies Girassol, Dalia and Pazflor FPSO topsides, Angola LNG Soyo cryogenic storage, and Sonangol Luanda refinery columns' },
+  { slug: 'argentina',       city: 'Argentina',       country: 'Argentina',    assets: 'YPF La Plata refinery columns, Vaca Muerta wellhead and gathering pressure equipment, and Bahía Blanca future-LNG export infrastructure' },
+  { slug: 'australia',       city: 'Australia',       country: 'Australia',    assets: 'Woodside Pluto, Scarborough and NWS LNG cryogenic storage, Chevron Gorgon and Wheatstone LNG trains, and BHP/Rio Tinto Pilbara iron-ore beneficiation' },
+  { slug: 'bangalore',       city: 'Bangalore',       country: 'India',        assets: 'HAL Tejas and LCH airframe component inspection, BEL radar and defence electronics enclosures, and ISRO PSLV/GSLV propulsion tank pressure equipment' },
+  { slug: 'bangkok',         city: 'Bangkok',         country: 'Thailand',     assets: 'Bangchak Bangkok refinery distillation columns, EGAT gas-fired power-plant boilers, and Bangkok-area industrial pressure systems' },
+  { slug: 'beijing',         city: 'Beijing',         country: 'China',        assets: 'Sinopec Yanshan (BPCC) refinery columns, CNOOC Bohai Bay offshore platform topsides, and Beijing-Hebei petrochemical reactor vessels' },
+  { slug: 'belgium',         city: 'Belgium',         country: 'Belgium',      assets: 'ExxonMobil Antwerp refinery columns, BASF Antwerp cracker and reactor vessels, and Doel and Tihange nuclear pressure equipment' },
+  { slug: 'bogota',          city: 'Bogotá',          country: 'Colombia',     assets: 'Ecopetrol Barrancabermeja refinery hot-reactor vessels, Ecopetrol Cartagena refinery FCC, and OCENSA crude pipeline integrity' },
+  { slug: 'brisbane',        city: 'Brisbane',        country: 'Australia',    assets: 'QGC, APLNG and GLNG Curtis Island LNG trains, coal-seam-gas wellhead and gathering systems, and Rio Tinto Aluminium refining assets' },
+  { slug: 'buenos-aires',    city: 'Buenos Aires',    country: 'Argentina',    assets: 'YPF La Plata refinery columns, Tecpetrol Vaca Muerta shale gathering systems, and Pampa Energía gas-fired power boilers' },
+  { slug: 'cape-town',       city: 'Cape Town',       country: 'South Africa', assets: 'Astron Energy (Glencore) Cape Town refinery columns, TotalEnergies Brulpadda subsea systems, and PetroSA Mossel Bay GTL reactors' },
+  { slug: 'casablanca',      city: 'Casablanca',      country: 'Morocco',      assets: 'OCP Jorf Lasfar and Safi phosphate-processing reactors, Mohammedia Refinery legacy pressure equipment, and Stellantis Tangier manufacturing utilities' },
+  { slug: 'chicago',         city: 'Chicago',         country: 'USA',          assets: 'BP Whiting refinery FCC and hydrocracker, ExxonMobil Joliet refinery vessels, and US Steel Gary Works blast furnaces' },
+  { slug: 'colombia',        city: 'Colombia',        country: 'Colombia',     assets: 'Ecopetrol Barrancabermeja and Cartagena refinery vessels, Cenit pipeline integrity records, and Llanos basin upstream wellheads' },
+  { slug: 'ho-chi-minh',     city: 'Ho Chi Minh City', country: 'Vietnam',     assets: 'BSR Bình Sơn Dung Quat refinery FCC and reactors, Nghi Sơn refinery hydrocracker vessels, and Long Son Petrochemicals (SCG) cracker furnaces' },
+  { slug: 'hong-kong',       city: 'Hong Kong',       country: 'Hong Kong',    assets: 'CLP Black Point gas-fired power-plant boilers, Hongkong Electric Lamma Power Station pressure parts, and South of Lamma offshore LNG receiving terminal' },
+  { slug: 'johannesburg',    city: 'Johannesburg',    country: 'South Africa', assets: 'Sasol Secunda CTL gasifier and Fischer-Tropsch reactors, Sasolburg petrochemical reactor vessels, and Eskom Mpumalanga coal-fired power-plant boilers' },
+  { slug: 'lima',            city: 'Lima',            country: 'Peru',         assets: 'Petroperú Talara refinery FCC and hydrocracker, Repsol La Pampilla refinery columns, and Peru LNG Pisco cryogenic storage' },
+  { slug: 'new-zealand',     city: 'New Zealand',     country: 'New Zealand',  assets: 'OMV Maui and Pohokura offshore platform topsides, Methanex Motunui and Waitara Valley methanol reactors, and Channel Infrastructure Marsden Point tank farm' },
+  { slug: 'philippines',     city: 'Philippines',     country: 'Philippines',  assets: 'Petron Bataan refinery FCC and hydrocracker units, Pilipinas Shell Tabangao refinery vessels, and FGEN Batangas LNG cryogenic storage' },
+  { slug: 'raleigh',         city: 'Raleigh',         country: 'USA',          assets: 'Duke Energy Brunswick, Harris and Catawba nuclear ASME components, GE Aviation Wilmington aerospace assemblies, and North Carolina industrial pressure vessels' },
+  { slug: 'rio-de-janeiro',  city: 'Rio de Janeiro',  country: 'Brazil',       assets: 'Petrobras Búzios, Tupi, Mero pre-salt FPSO topsides, REDUC refinery columns and reactor vessels, and Brasfels and Mauá shipyard FPSO construction' },
+  { slug: 'sacramento',      city: 'Sacramento',      country: 'USA',          assets: 'Marathon Martinez renewable-diesel regional coordination, SMUD gas-fired power-plant boilers, and California Central Valley pipeline integrity assets' },
+  { slug: 'santiago',        city: 'Santiago',        country: 'Chile',        assets: 'ENAP Aconcagua and Bío Bío refinery columns, Codelco Chuquicamata and El Teniente copper beneficiation reactors, and Magallanes green hydrogen electrolyser systems' },
+  { slug: 'savannah',        city: 'Savannah',        country: 'USA',          assets: 'Gulfstream G650/G700 airframe and engine inspection components, Hyundai Metaplant America EV battery and assembly utilities, and Port of Savannah container-crane structures' },
+  { slug: 'scotland',        city: 'Scotland',        country: 'UK',           assets: 'Petroineos Grangemouth refinery columns and FCC, St Fergus, Mossmorran and Sullom Voe gas-processing trains, and East Anglia offshore wind monopile foundations' },
+  { slug: 'shenzhen',        city: 'Shenzhen',        country: 'China',        assets: 'CNOOC Huizhou refinery and petrochemical cracker vessels, Liwan deepwater subsea gas-processing manifolds, and Daya Bay nuclear primary-loop ASME components' },
+  { slug: 'south-africa',    city: 'South Africa',    country: 'South Africa', assets: 'Sasol Secunda CTL gasifier and Fischer-Tropsch reactor trains, Astron Energy Cape Town refinery columns, and Koeberg nuclear ASME Section XI components' },
+  { slug: 'vietnam',         city: 'Vietnam',         country: 'Vietnam',      assets: 'BSR Bình Sơn Dung Quat refinery FCC units, Nghi Sơn refinery hydrocracker and reactor vessels, and Long Son Petrochemicals cracker furnaces' },
+  { slug: 'taiwan',          city: 'Taiwan',          country: 'Taiwan',       assets: 'CPC Corporation Kaohsiung and Talin refinery columns, Formosa Plastics Mailiao cracker and refinery vessels, and Taipower Maanshan and Kuosheng nuclear pressure equipment' },
+];
+
+// ─── Helpers for the Digital Twin city forEach below ──────────────────────────
+
+function escapeHtml(input) {
+  if (input == null) return '';
+  return String(input)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function buildDtBodyContent({ slug, city, country, contextParagraph, assetList, industryList, faqList, siblingLinks }) {
+  const cityEsc = escapeHtml(city);
+  const countryEsc = escapeHtml(country);
+  const ctxEsc = escapeHtml(contextParagraph);
+
+  const assetsHtml = assetList.map(a => `      <li>${escapeHtml(a)}</li>`).join('\n');
+  const industriesHtml = industryList.map(i => `      <li>${escapeHtml(i)}</li>`).join('\n');
+  const faqsHtml = faqList.map(({ q, a }) =>
+    `    <h3>${escapeHtml(q)}</h3>\n    <p>${escapeHtml(a)}</p>`
+  ).join('\n');
+  const siblingHtml = siblingLinks.map(({ href, label }) =>
+    `      <li><a href="${escapeHtml(href)}">${escapeHtml(label)}</a></li>`
+  ).join('\n');
+
+  const lines = [
+    `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/digital-twin-reporting">Reporting Platform</a><a href="/contact">Contact</a></nav></header>`,
+    `  <main>`,
+    `    <nav aria-label="Breadcrumb"><a href="/">Home</a> &raquo; <a href="/digital-twins">Digital Twins</a> &raquo; <span>${cityEsc}</span></nav>`,
+    ``,
+    `    <h1>Digital Twin Solutions ${cityEsc} | 3D NDT Asset Visualisation</h1>`,
+    ``,
+    `    <p>${ctxEsc}</p>`,
+    ``,
+    `    <h2>NDT Digital Twin for ${cityEsc} &mdash; Local Assets We Support</h2>`,
+    `    <ul>`,
+    assetsHtml,
+    `    </ul>`,
+    ``,
+    `    <h2>Industries Served in ${cityEsc}</h2>`,
+    `    <ul>`,
+    industriesHtml,
+    `    </ul>`,
+    ``,
+    `    <h2>What You Get</h2>`,
+    `    <ul>`,
+    `      <li>3D asset model overlay of UT, TOFD, PAUT, MFL, RT, MT, PT inspection data</li>`,
+    `      <li>Live colour-coded corrosion mapping with rate-of-change trending</li>`,
+    `      <li>API 579 Fitness-for-Service (FFS) calculations integrated</li>`,
+    `      <li>API 581 Risk-Based Inspection (RBI) workflow alignment</li>`,
+    `      <li>Automated API 510/570/653 regulatory reporting</li>`,
+    `      <li>Cloud or on-prem deployment options</li>`,
+    `      <li>API hooks for CMMS (Maximo, SAP PM, IFS, Oracle EAM) integration</li>`,
+    `      <li>ASNT Level III consultancy bundled with platform license</li>`,
+    `    </ul>`,
+    ``,
+    `    <h2>Pricing</h2>`,
+    `    <p>Atlantis Digital Twin platform starts at USD 200,000/year for up to 500 assets, ASNT Level III consulting bundled, cloud or on-prem deployment, NDT data ingest unlimited. Enterprise tiers available for fleets above 500 assets or multi-site rollouts. Request a demo for a ${cityEsc}-specific quote covering asset count, deployment mode, and CMMS integration scope.</p>`,
+    ``,
+    `    <h2>Frequently Asked Questions &mdash; Digital Twin NDT in ${cityEsc}</h2>`,
+    faqsHtml,
+    ``,
+  ];
+
+  if (siblingHtml) {
+    lines.push(`    <h2>Related Atlantis Solutions in ${cityEsc}</h2>`);
+    lines.push(`    <ul>`);
+    lines.push(siblingHtml);
+    lines.push(`    </ul>`);
+    lines.push(``);
+  }
+
+  lines.push(`    <p>Call <a href="tel:+12818408969">+1 (281) 840-8969</a> or visit <a href="/contact?subject=Digital%20Twin%20Demo%20${encodeURIComponent(city)}">Contact Atlantis NDT</a> to schedule a demo of the Digital Twin platform configured for ${cityEsc}, ${countryEsc}.</p>`);
+  lines.push(`  </main>`);
+
+  return lines.join('\n');
+}
+
+function buildDtSiblingLinks(slug, city) {
+  const links = [];
+  if (ERP_CITY_PAGE_SLUGS.has(slug)) {
+    links.push({ href: `/ndt-erp-${slug}`, label: `NDT ERP Software in ${city}` });
+  }
+  if (REPORTING_CITY_PAGE_SLUGS.has(slug)) {
+    links.push({ href: `/ndt-reporting-${slug}`, label: `NDT Reporting Software in ${city}` });
+  }
+  if (TRAINING_CITY_PAGE_SLUGS.has(slug)) {
+    links.push({ href: `/ndt-training-${slug}`, label: `NDT Training in ${city}` });
+  }
+  if (CONSULTING_CITY_PAGE_SLUGS.has(slug)) {
+    links.push({ href: `/consulting/ndt-consulting-${slug}`, label: `ASNT Level III Consulting in ${city}` });
+  }
+  return links;
+}
+
+function buildDtStructuredData({ slug, city, country, faqList }) {
+  const geo = CITY_GEO_MIN[slug];
+  const localBusiness = {
+    "@type": "LocalBusiness",
+    "name": `Atlantis NDT — Digital Twin Services ${city}`,
+    "image": `${SITE_URL}/logo.png`,
+    "url": `${SITE_URL}/digital-twin-${slug}`,
+    "telephone": "+1-281-840-8969",
+    "priceRange": "$$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": geo?.city || city,
+      "addressRegion": geo?.region || undefined,
+      "addressCountry": geo?.isoCountry || (country || 'US'),
+    },
+    "areaServed": { "@type": "City", "name": city },
+  };
+  if (geo && typeof geo.lat === 'number' && typeof geo.lng === 'number') {
+    localBusiness.geo = {
+      "@type": "GeoCoordinates",
+      "latitude": geo.lat,
+      "longitude": geo.lng,
+    };
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "name": `NDT Digital Twin ${city}`,
+        "serviceType": "Digital Twin NDT Software",
+        "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
+        "areaServed": { "@type": "City", "name": city },
+        "offers": {
+          "@type": "Offer",
+          "price": "200000",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31",
+        },
+      },
+      {
+        "@type": "Product",
+        "name": `Atlantis Digital Twin ${city}`,
+        "brand": { "@type": "Brand", "name": "Atlantis NDT" },
+        "description": `Cloud or on-prem 3D digital twin platform for NDT inspection data — corrosion mapping, FFS, RBI, and automated API 510/570/653 reporting — configured for ${city}, ${country} operators.`,
+        "offers": {
+          "@type": "Offer",
+          "price": "200000",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31",
+          "url": `${SITE_URL}/digital-twin-${slug}`,
+        },
+      },
+      localBusiness,
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqList.map(({ q, a }) => ({
+          "@type": "Question",
+          "name": q,
+          "acceptedAnswer": { "@type": "Answer", "text": a },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+          { "@type": "ListItem", "position": 2, "name": "Digital Twins", "item": `${SITE_URL}/digital-twins` },
+          { "@type": "ListItem", "position": 3, "name": city, "item": `${SITE_URL}/digital-twin-${slug}` },
+        ],
+      },
+    ],
+  };
+}
+
+// ─── Default content (per-slug fallback) ──────────────────────────────────────
+
+const DEFAULT_DT_ASSETS = [
+  "Refinery pressure vessels and reactors",
+  "Storage tanks and spheres (API 653)",
+  "Pipeline networks and risers",
+  "Offshore platform structural members",
+  "Heat exchangers and fired heaters",
+];
+const DEFAULT_DT_INDUSTRIES = [
+  "Oil & Gas",
+  "Petrochemicals",
+  "Power Generation",
+  "Marine & Offshore",
 ];
 
 digitalTwinCities.forEach(({ slug, city, country, assets }) => {
+  const contextParagraph =
+    digitalTwinLocationContext[slug] ||
+    `${city} is a significant industrial hub with major oil and gas, petrochemical, and power generation assets requiring systematic inspection data management. Digital twin technology gives integrity managers in ${city} real-time 3D condition monitoring, corrosion trend analysis, and automated API 510/570/653 regulatory reporting across their critical pressure-equipment portfolio. Atlantis NDT delivers a CAD-fidelity 3D twin that overlays UT, TOFD, PAUT, MT, PT, and RT inspection data on every asset — including ${assets} — and colour-codes condition zones for engineering review. Real-time corrosion monitoring, API 579 fitness-for-service calculations, API 581 RBI workflow alignment, and automated regulatory reporting transform inspection programmes in ${city} from paper-and-PDF compliance exercises into a live engineering decision-support tool. The growing focus on asset reliability and regulatory compliance in ${country} makes digital twin NDT integration a strategic priority for operators across all sectors.`;
+
+  const assetList = digitalTwinAssets[slug] || DEFAULT_DT_ASSETS;
+  const industryList = digitalTwinIndustries[slug] || DEFAULT_DT_INDUSTRIES;
+  const faqList = getFaqsForCity(slug, city);
+  const siblingLinks = buildDtSiblingLinks(slug, city);
+
+  const bodyContent = buildDtBodyContent({
+    slug, city, country,
+    contextParagraph, assetList, industryList, faqList, siblingLinks,
+  });
+
+  const structuredData = buildDtStructuredData({ slug, city, country, faqList });
+
   routes.push({
     path: `/digital-twin-${slug}`,
     title: `Digital Twin NDT ${city} | 3D Inspection Visualization | Atlantis NDT`,
     description: `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets}. API 510/570/653 compliant reporting, corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`,
     canonical: `${SITE_URL}/digital-twin-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/digital-twin-reporting">Reporting Platform</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Digital Twin Solutions ${city} | 3D Asset Inspection Visualisation</h1>\n    <p>Atlantis NDT delivers digital twin inspection solutions in ${city}, ${country}. Our platform transforms NDT data from ultrasonic testing, TOFD, and phased array into a live colour-coded 3D model of your assets — including ${assets}. Real-time corrosion monitoring, API 579 fitness-for-service calculations, and automated API 510/570/653 regulatory reporting. Book a demonstration today.</p>\n  </main>`,
+    bodyContent,
+    structuredData,
   });
 });
 
@@ -8560,6 +8991,19 @@ const newBlogPosts = [
   { path: '/blog/api-653-certification-complete-guide', title: 'API 653 Certification: Complete Guide to Tank Inspector Exam 2026', description: 'Everything about API 653 certification: exam format, required codes, study plan, calculation formulas, and tips from experienced API tank inspectors.', h1: 'API 653 Certification: Complete Guide' },
   { path: '/blog/ndt-salary-guide-2026-global', title: 'NDT Salary Guide 2026 | Technician & Level III Pay by Region', description: 'NDT salary data for 2026: Level I ($45-65K), Level II ($55-85K), Level III ($80-140K+). Compare pay by method, industry, location & certification. Career advancement tips.', h1: 'NDT Salary Guide 2026' },
   { path: '/blog/rt-vs-ut-complete-comparison', title: 'RT vs UT: Complete Comparison for Weld Inspection [Decision Guide]', description: 'RT vs UT detailed comparison: cost, speed, safety, defect detection, code requirements. When to use radiographic testing vs ultrasonic testing for welds.', h1: 'RT vs UT: Complete Weld Inspection Comparison' },
+  // 2026-05-17 GSC-driven additive batch — answering high-impression queries currently bleeding CTR
+  { path: '/blog/api-icp-pass-rates-510-vs-570-vs-653-2026', title: 'API 510 vs 570 vs 653 Exam Pass Rate 2026: Data Table + First-Time vs Overall', description: 'API 510 pass rate 47%, API 570 56%, API 653 38% first-time. Full ICP data table, retake stats, study-hour benchmarks. Updated May 2026.', h1: 'API ICP Pass Rates 2026: 510 vs 570 vs 653' },
+  { path: '/blog/asnt-level-3-fees-2026-complete-pricing-table', title: 'ASNT Level 3 Fees 2026: Full Pricing Table (Exam + Renewal + by Method)', description: 'ASNT Level III 2026 fees: $570 method exam, $390 Basic, $475 5-yr recert. Member vs non-member prices for all NDT methods. Updated May 2026.', h1: 'ASNT Level 3 Fees 2026: Complete Pricing Table' },
+  { path: '/blog/api-510-570-653-exam-schedule-2026', title: 'API 510, 570, 653 Exam Schedule 2026: Application Deadlines + Exam Windows', description: 'Full 2026 API ICP exam schedule for 510, 570, 653 inspectors. Application deadlines, exam windows, result dates. Plan your prep with our timeline. Updated May 2026.', h1: 'API 510, 570, 653 Exam Schedule 2026' },
+  { path: '/blog/api-510-body-of-knowledge-2026-changes-explained', title: 'API 510 Body of Knowledge 2026: Topic Weights + What Changed (Sept 2025 Edition)', description: 'API 510 BoK 2026 explained: 70 closed-book + 80 open-book questions, exact topic weights, reference editions, what changed from prior BoK. Updated May 2026.', h1: 'API 510 Body of Knowledge 2026: Changes Explained' },
+  { path: '/blog/cwi-exam-cost-2026-total-investment-calculator', title: 'CWI Exam Cost 2026: Total Investment Calculator (Exam + Seminar + Renewal)', description: 'AWS CWI 2026 cost: $1,150 exam, $1,725 seminar, full TCO over 9-year career. Member vs non-member pricing, endorsement fees, retake costs. Updated May 2026.', h1: 'CWI Exam Cost 2026: Total Investment Calculator' },
+  { path: '/blog/cwi-pass-rate-by-part-a-b-c-breakdown', title: 'CWI Pass Rate 2026: Part A vs B vs C Breakdown (with Retake Stats)', description: 'AWS CWI pass rate by part: Part A ~70%, Part B ~52%, Part C ~63%. Why Part B fails most candidates. Retake strategy + seminar uplift data. Updated May 2026.', h1: 'CWI Pass Rate 2026: Part A vs B vs C' },
+  { path: '/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut', title: 'MFL Pipeline Inspection 2026: Cost per km, Top Vendors, MFL vs UT Decision Matrix', description: 'MFL pipeline inspection cost $2-5/m, vendor comparison (Rosen, BHGE, NDT Global, TDW), MFL vs UT ILI decision matrix. Pick the right ILI tool. Updated May 2026.', h1: 'MFL Pipeline Inspection 2026: Cost, Vendors, Decision Matrix' },
+  { path: '/blog/paut-technician-salary-2026-region-cert-industry', title: 'PAUT Technician Salary 2026: By Region, ASNT Level, Industry (Heat Map)', description: 'PAUT salary 2026: USA $75-110K, Gulf $90-160K, India ₹6-18 LPA. Full heat map by region × ASNT L2/L3 × industry. Per-diem offshore rates. Updated May 2026.', h1: 'PAUT Technician Salary 2026' },
+  { path: '/blog/api-570-inspector-salary-2026-by-region-experience', title: 'API 570 Inspector Salary 2026: USA, Gulf, India + Triple Crown Premium', description: 'API 570 piping inspector salary 2026: USA $95K median ($75-140K), Gulf $110-180K, India ₹15-28 LPA. Day rates, consulting premiums, Triple Crown uplift. Updated May 2026.', h1: 'API 570 Inspector Salary 2026' },
+  { path: '/blog/ndt-inspection-cost-2026-by-method-pricing-matrix', title: 'NDT Inspection Cost 2026: Method × Region Pricing Matrix (UT, RT, PAUT, MT, PT)', description: 'NDT inspection cost 2026: UT $0.50/m², RT $35-55/film, PAUT $250-450/hr. Full method × region matrix. Day rates, mobilization, hidden fees. Updated May 2026.', h1: 'NDT Inspection Cost 2026: Pricing Matrix' },
+  { path: '/blog/api-653-current-edition-2026-vs-bok-window-explained', title: 'API 653 Current Edition 2026: Standard vs BoK Explained (5th Edition + Addenda)', description: 'API 653 is still 5th Edition (Nov 2014) + addenda — the 2026 refers to the BoK exam window. Edition timeline, BoK changes, exam implications. Updated May 2026.', h1: 'API 653 Current Edition 2026: Standard vs BoK Window' },
+  { path: '/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country', title: 'ISO 9712 vs ASNT: Decision Flowchart by Country + Employer (2026 Guide)', description: 'Choose ISO 9712 vs ASNT SNT-TC-1A in 2 minutes. Country × employer decision flowchart, 12-row comparison, hybrid path, NAS 410 override. Updated May 2026.', h1: 'ISO 9712 vs ASNT: Decision Flowchart by Country' },
 ];
 
 newBlogPosts.forEach(p => {
@@ -8897,6 +9341,154 @@ globalTrainingCities.forEach(({ slug, city, region, detail }) => {
   programmaticCount++;
 });
 
+// ─── Training expansion 2026-05-16 — 88 new city + country training pages ──
+// Mirrors src/data/training-cities.ts TRAINING_CITY_PROFILES. Each page is
+// hand-built via <TrainingLocationPage> + per-city profile (~1,500 words,
+// real local employers, salary band, cert pathway, exam centres, geo).
+// We pre-render rich HTML bodies so Googlebot can index the page WITHOUT
+// React hydration. Duplicates skipped against trainingCityPages +
+// globalTrainingCities entries above.
+const trainingExpansionCities = [
+  // GCC + ME
+  { slug: 'abu-dhabi', city: 'Abu Dhabi', region: 'UAE', cert: 'ASNT + ISO 9712', employers: 'ADNOC Onshore, ADNOC Offshore, ADNOC Refining (Ruwais), Borouge, Petrofac' },
+  { slug: 'dammam', city: 'Dammam', region: 'Saudi Arabia', cert: 'ASNT + SAEP-1112', employers: 'Saudi Aramco, SABIC, Schlumberger, Halliburton, Baker Hughes' },
+  { slug: 'jubail', city: 'Jubail', region: 'Saudi Arabia', cert: 'ASNT + SAEP-1112', employers: 'SABIC, Sadara, SATORP, Petrofac, Tecnimont, L&T' },
+  { slug: 'yanbu', city: 'Yanbu', region: 'Saudi Arabia', cert: 'ASNT + SAEP-1112', employers: 'Saudi Aramco Yanbu Refinery, YASREF, Petro Rabigh, SABIC Yanpet' },
+  { slug: 'sharjah', city: 'Sharjah', region: 'UAE', cert: 'ASNT + ISO 9712', employers: 'Lamprell, Petrofac fabrication, Drydocks contractors, Hamriyah Free Zone yards' },
+  { slug: 'ras-al-khaimah', city: 'Ras Al Khaimah', region: 'UAE', cert: 'ASNT + ISO 9712', employers: 'RAK Gas, Stevin Rock, Julphar, DEWA / ADNOC fabrication base' },
+  { slug: 'manama', city: 'Manama', region: 'Bahrain', cert: 'ASNT + ISO 9712', employers: 'Bapco (Sitra), GPIC, Alba aluminium, Tatweer Petroleum' },
+  { slug: 'muscat', city: 'Muscat', region: 'Oman', cert: 'ASNT + ISO 9712', employers: 'PDO, OQ, Oman LNG (Qalhat), Daleel Petroleum, BP Khazzan' },
+  { slug: 'sohar', city: 'Sohar', region: 'Oman', cert: 'ASNT + ISO 9712', employers: 'OQ Sohar Refinery, Vale, Jindal Shadeed steel, Liwa Plastics' },
+  { slug: 'kuwait', city: 'Kuwait City', region: 'Kuwait', cert: 'ASNT + ISO 9712', employers: 'KOC, KNPC (Mina Abdullah / Mina Al-Ahmadi / Shuaiba), Al-Zour Refinery, PIC' },
+  { slug: 'qatar', city: 'Doha', region: 'Qatar', cert: 'ASNT + ISO 9712', employers: 'QatarEnergy, QatarEnergy LNG, Qapco, QAFAC, McDermott, Chiyoda' },
+  // USA
+  { slug: 'anchorage', city: 'Anchorage', region: 'Alaska, USA', cert: 'ASNT + API 570/653', employers: 'ConocoPhillips Alaska (Kuparuk, Willow), Hilcorp Alaska, Alyeska Pipeline' },
+  { slug: 'austin', city: 'Austin', region: 'Texas, USA', cert: 'ASNT + NAS-410', employers: 'Samsung Austin Semiconductor, Tesla Gigafactory Texas, NXP, Lockheed Martin' },
+  { slug: 'baton-rouge', city: 'Baton Rouge', region: 'Louisiana, USA', cert: 'ASNT + API 510/570/653', employers: 'ExxonMobil Baton Rouge Refinery + Chemical, Shell Geismar, BASF, Dow Plaquemine' },
+  { slug: 'beaumont', city: 'Beaumont', region: 'Texas, USA', cert: 'ASNT + API 510/570/653', employers: 'ExxonMobil Beaumont, Motiva Port Arthur, TotalEnergies Port Arthur, Valero' },
+  { slug: 'cincinnati', city: 'Cincinnati', region: 'Ohio, USA', cert: 'ASNT + NAS-410', employers: 'GE Aviation (Evendale), Procter & Gamble, Cincinnati Milacron, AK Steel' },
+  { slug: 'cleveland', city: 'Cleveland', region: 'Ohio, USA', cert: 'ASNT + AWS CWI', employers: 'Cleveland-Cliffs, Sherwin-Williams, Eaton Corporation, NASA Glenn, Lincoln Electric' },
+  { slug: 'corpus-christi', city: 'Corpus Christi', region: 'Texas, USA', cert: 'ASNT + API 510/570/653', employers: 'Citgo, Flint Hills Resources, Valero, Cheniere Energy Corpus Christi LNG, ExxonMobil GCGV' },
+  { slug: 'detroit', city: 'Detroit', region: 'Michigan, USA', cert: 'ASNT + AWS CWI + NAS-410', employers: 'Ford, GM, Stellantis, Williams International turbines, BAE Land Systems' },
+  { slug: 'fort-worth', city: 'Fort Worth', region: 'Texas, USA', cert: 'ASNT + NAS-410 + Nadcap AC7114', employers: 'Lockheed Martin Aeronautics, Bell Textron, Bombardier, L3Harris' },
+  { slug: 'kansas-city', city: 'Kansas City', region: 'Missouri, USA', cert: 'ASNT + NAS-410', employers: 'NNSA Honeywell, Ford Kansas City Assembly, GM Fairfax, Hallmark Cards' },
+  { slug: 'lake-charles', city: 'Lake Charles', region: 'Louisiana, USA', cert: 'ASNT + API 510/570/653', employers: 'Sasol, Cheniere Sabine Pass LNG, Cameron LNG, Venture Global, Phillips 66, Citgo' },
+  { slug: 'midland', city: 'Midland', region: 'Texas, USA', cert: 'ASNT + API 1104', employers: 'Pioneer / ExxonMobil, Diamondback Energy, Occidental, ConocoPhillips, Chevron Permian' },
+  { slug: 'milwaukee', city: 'Milwaukee', region: 'Wisconsin, USA', cert: 'ASNT + AWS CWI', employers: 'Harley-Davidson, Rockwell Automation, Johnson Controls, Joy Global, Generac' },
+  { slug: 'minneapolis', city: 'Minneapolis', region: 'Minnesota, USA', cert: 'ASNT + NAS-410', employers: '3M, Honeywell Aerospace, Cargill, Polaris, Flint Hills Resources Pine Bend Refinery' },
+  { slug: 'mobile', city: 'Mobile', region: 'Alabama, USA', cert: 'ASNT + MIL-STD-2154', employers: 'Austal USA, Ingalls Shipbuilding, Airbus Mobile, ThyssenKrupp Steel USA' },
+  { slug: 'nashville', city: 'Nashville', region: 'Tennessee, USA', cert: 'ASNT + AWS CWI', employers: 'Nissan, Bridgestone Americas, GM Spring Hill, TVA' },
+  { slug: 'oklahoma-city', city: 'Oklahoma City', region: 'Oklahoma, USA', cert: 'ASNT + API 1104', employers: 'Devon Energy, Continental Resources, Chesapeake, OGE, ONEOK, Tinker AFB' },
+  { slug: 'st-louis', city: 'St. Louis', region: 'Missouri, USA', cert: 'ASNT + NAS-410', employers: 'Boeing Defense (F/A-18, F-15, MQ-25), Emerson, Anheuser-Busch, Phillips 66 Wood River' },
+  { slug: 'tulsa', city: 'Tulsa', region: 'Oklahoma, USA', cert: 'ASNT + API 510/570/653', employers: 'Williams Companies, HF Sinclair, ONEOK, American Airlines Tulsa MRO' },
+  { slug: 'jacksonville', city: 'Jacksonville', region: 'Florida, USA', cert: 'ASNT + MIL-STD-2154', employers: 'NAS Jacksonville, Naval Station Mayport, BAE Systems Ship Repair, JAXPORT, CSX' },
+  { slug: 'miami', city: 'Miami', region: 'Florida, USA', cert: 'ASNT + CSWIP', employers: 'PortMiami (Royal Caribbean, Carnival), LATAM Cargo MRO, Miami Intl Airport' },
+  { slug: 'portland', city: 'Portland', region: 'Oregon, USA', cert: 'ASNT + NAS-410', employers: 'Vigor Industrial, Daimler Trucks, Boeing Portland, Intel Hillsboro, Precision Castparts' },
+  { slug: 'salt-lake-city', city: 'Salt Lake City', region: 'Utah, USA', cert: 'ASNT + NAS-410 + MIL-STD-2154', employers: 'Northrop Grumman Promontory, Hill AFB OO-ALC, L3Harris, Boeing SLC, HF Sinclair Woods Cross' },
+  { slug: 'san-diego', city: 'San Diego', region: 'California, USA', cert: 'ASNT + MIL-STD-2154', employers: 'Naval Base San Diego, BAE San Diego Ship Repair, General Dynamics NASSCO, General Atomics' },
+  { slug: 'tampa', city: 'Tampa', region: 'Florida, USA', cert: 'ASNT + NAS-410', employers: 'Mosaic Company, TECO Energy, Port Tampa Bay, Honeywell Aerospace Pinellas' },
+  { slug: 'washington-dc', city: 'Washington DC', region: 'USA', cert: 'ASNT + NAS-410 + MIL-STD-2154', employers: 'NAVAIR Patuxent River, Northrop Grumman, Lockheed Martin Bethesda, NASA Goddard' },
+  { slug: 'baltimore', city: 'Baltimore', region: 'Maryland, USA', cert: 'ASNT + NAS-410', employers: 'Port of Baltimore, Northrop Grumman Baltimore, Lockheed Martin Middle River, Constellation Energy' },
+  { slug: 'indianapolis', city: 'Indianapolis', region: 'Indiana, USA', cert: 'ASNT + NAS-410 + Nadcap AC7114', employers: 'Rolls-Royce North America, Allison Transmission, Eli Lilly biopharma, Cummins' },
+  { slug: 'boston', city: 'Boston', region: 'Massachusetts, USA', cert: 'ASNT + NAS-410 + MIL-STD-2154', employers: 'GE, Raytheon Technologies, Pratt & Whitney, General Dynamics Electric Boat' },
+  { slug: 'seattle', city: 'Seattle', region: 'Washington, USA', cert: 'ASNT + EN 4179 / NAS-410 + Nadcap AC7114', employers: 'Boeing Commercial Airplanes (Everett, Renton), Boeing Defense, Tesoro / Marathon Anacortes' },
+  // Canada
+  { slug: 'calgary', city: 'Calgary', region: 'Alberta, Canada', cert: 'CGSB + ASNT', employers: 'Suncor, Cenovus, CNRL, Imperial Oil, Enbridge, TC Energy, Pembina' },
+  { slug: 'edmonton', city: 'Edmonton', region: 'Alberta, Canada', cert: 'CGSB + ASNT', employers: 'Suncor Edmonton Refinery, Imperial Strathcona, North West Redwater Partnership, Dow Fort Saskatchewan, Shell Scotford' },
+  { slug: 'fort-mcmurray', city: 'Fort McMurray', region: 'Alberta, Canada', cert: 'CGSB + ASNT + CSA Z662', employers: 'Suncor Base / Millennium / Firebag, Syncrude, CNRL Horizon, Imperial Kearl, MEG Energy' },
+  { slug: 'halifax', city: 'Halifax', region: 'Nova Scotia, Canada', cert: 'CGSB + AWS D1.1 + CSWIP', employers: 'Irving Shipbuilding (NSS — frigates, AOPS), Imperial Oil Dartmouth Refinery, CFB Halifax RCN' },
+  { slug: 'montreal', city: 'Montreal', region: 'Quebec, Canada', cert: 'CGSB + NAS-410 / EN 4179 + Nadcap AC7114', employers: 'Bombardier Aerospace, Pratt & Whitney Canada, Bell Textron Canada, CAE, Suncor Montreal Refinery' },
+  { slug: 'vancouver', city: 'Vancouver', region: 'British Columbia, Canada', cert: 'CGSB + ASNT + CSA Z662', employers: 'LNG Canada / Kitimat supply chain, Seaspan Shipyards, Trans Mountain, Parkland Burnaby Refinery' },
+  // India + Asia
+  { slug: 'bangalore', city: 'Bangalore', region: 'India', cert: 'ASNT + ISNT + NAS-410', employers: 'Hindustan Aeronautics (HAL), ISRO, Bharat Earth Movers, Boeing India, Airbus India, Collins Aerospace' },
+  { slug: 'chennai', city: 'Chennai', region: 'India', cert: 'ASNT + ISNT', employers: 'CPCL Manali Refinery, Hyundai Motor India, BMW Plant, Renault-Nissan, Ashok Leyland, L&T Manapakkam' },
+  { slug: 'delhi', city: 'Delhi', region: 'India', cert: 'ASNT + ISNT + API 510/570/653', employers: 'IOCL R&D Faridabad, BHEL Haridwar, Maruti Suzuki Manesar, ONGC HQ, GAIL HQ, BPCL HQ' },
+  { slug: 'kochi', city: 'Kochi', region: 'India', cert: 'ASNT + ISNT', employers: 'BPCL Kochi Refinery, Cochin Shipyard (INS Vikrant), FACT' },
+  { slug: 'kolkata', city: 'Kolkata', region: 'India', cert: 'ASNT + ISNT', employers: 'Garden Reach Shipbuilders, IOCL Haldia Refinery, IOC-HPL petrochemicals, Tata Steel Jamshedpur, Coal India' },
+  { slug: 'mumbai', city: 'Mumbai', region: 'India', cert: 'ASNT + ISNT + API 1104', employers: 'ONGC Mumbai High, BPCL Mumbai, HPCL Mahul, Reliance HQ, L&T HQ, Mazagon Dock Shipbuilders' },
+  { slug: 'ho-chi-minh', city: 'Ho Chi Minh City', region: 'Vietnam', cert: 'ASNT + ISO 9712', employers: 'PetroVietnam (PVN), PV Drilling, Vietsovpetro, Long Son Petrochemicals (SCG), PTSC Vung Tau' },
+  { slug: 'kuala-lumpur', city: 'Kuala Lumpur', region: 'Malaysia', cert: 'ASNT + ISO 9712 + PCN', employers: 'Petronas HQ, MISC, Petronas Carigali, MMHE Pasir Gudang, Sapura Energy, Dialog Group' },
+  { slug: 'shanghai', city: 'Shanghai', region: 'China', cert: 'ASNT + ISO 9712', employers: 'Hudong-Zhonghua Shipbuilding (CSSC), Jiangnan Shipyard, Waigaoqiao Shipbuilding, COMAC, Sinopec Shanghai Petrochemical' },
+  // Australia
+  { slug: 'brisbane', city: 'Brisbane', region: 'Queensland, Australia', cert: 'AINDT (ISO 9712) + ASNT', employers: 'Santos GLNG, Origin APLNG, Shell QGC, BHP Mitsubishi Alliance, Curtis Island LNG' },
+  { slug: 'melbourne', city: 'Melbourne', region: 'Victoria, Australia', cert: 'AINDT (ISO 9712) + ASNT + NAS-410', employers: 'Boeing Aerostructures Australia, BAE Systems Australia, Viva Energy Geelong Refinery, Pacific Aluminium' },
+  { slug: 'perth', city: 'Perth', region: 'Western Australia', cert: 'AINDT (ISO 9712) + ASNT', employers: 'Woodside Energy (NWS, Pluto, Scarborough), Chevron Australia (Gorgon, Wheatstone), Inpex Ichthys, BHP iron ore, Rio Tinto iron ore' },
+  { slug: 'sydney', city: 'Sydney', region: 'NSW, Australia', cert: 'AINDT (ISO 9712) + ASNT + MIL-STD-2154', employers: 'BAE Systems Australia (Garden Island), Thales Australia, Boeing Defence Australia, Cobham Aviation, Sydney Trains' },
+  // Europe + UK
+  { slug: 'london', city: 'London', region: 'UK', cert: 'PCN + CSWIP', employers: 'BP HQ, Shell UK HQ, Rolls-Royce London, Babcock International, Crossrail / Elizabeth Line, HS2' },
+  { slug: 'glasgow', city: 'Glasgow', region: 'UK', cert: 'PCN + CSWIP', employers: 'BAE Systems Govan & Scotstoun (T26 frigates), Babcock Rosyth, Doosan Babcock, EnQuest / Repsol Sinopec' },
+  { slug: 'edinburgh', city: 'Edinburgh', region: 'UK', cert: 'PCN + CSWIP', employers: 'Babcock Rosyth, ExxonMobil Mossmorran, Ineos Grangemouth, Forth offshore engineering' },
+  { slug: 'oslo', city: 'Oslo', region: 'Norway', cert: 'ISO 9712 (NS-EN) + PCN', employers: 'Equinor HQ, Aker Solutions, Subsea 7, DNV, Kvaerner' },
+  { slug: 'stavanger', city: 'Stavanger', region: 'Norway', cert: 'ISO 9712 (NS-EN) + PCN + CSWIP', employers: 'Equinor (Forus), Aker BP, Apply Sørco, Aibel, Subsea 7 Stavanger, Halliburton Stavanger' },
+  { slug: 'rotterdam', city: 'Rotterdam', region: 'Netherlands', cert: 'ISO 9712 (Stichting Hobéon) + PCN', employers: 'Shell Pernis (Europe largest refinery), BP Rotterdam, ExxonMobil Rotterdam, Huntsman, Dow Terneuzen' },
+  { slug: 'antwerp', city: 'Antwerp', region: 'Belgium', cert: 'ISO 9712 + PCN', employers: 'ExxonMobil Antwerp, Total Antwerp, Borealis Kallo, BASF Antwerpen, INEOS Antwerp Olefins, Air Liquide' },
+  { slug: 'barcelona', city: 'Barcelona', region: 'Spain', cert: 'ISO 9712 (CERTIAEND) + PCN', employers: 'Repsol Tarragona, Cepsa Tarragona, SEAT, Nissan Iberica, Port of Barcelona' },
+  { slug: 'hamburg', city: 'Hamburg', region: 'Germany', cert: 'ISO 9712 (DGZfP) + EN 4179 + Nadcap AC7114', employers: 'Airbus Hamburg Finkenwerder (A320/A350/A380), Lufthansa Technik, Shell Hamburg Refinery, Holborn, Blohm+Voss' },
+  { slug: 'marseille', city: 'Marseille', region: 'France', cert: 'ISO 9712 (COFREND) + PCN', employers: 'TotalEnergies La Mède, ExxonMobil Fos-sur-Mer, Esso Raffinage, ArcelorMittal Fos, Marseille-Fos Port' },
+  { slug: 'paris', city: 'Paris', region: 'France', cert: 'ISO 9712 (COFREND COSAC) + EN 4179 + Nadcap AC7114', employers: 'TotalEnergies HQ, EDF, Framatome, Airbus, Safran, Naval Group, Vinci, SNCF' },
+  { slug: 'milan', city: 'Milan', region: 'Italy', cert: 'ISO 9712 (AIPnD) + ASNT', employers: 'Eni HQ (San Donato Milanese), Saipem HQ, Tenaris (Dalmine), Pirelli, Stellantis, Ferrari, Maserati' },
+  { slug: 'gdansk', city: 'Gdansk', region: 'Poland', cert: 'ISO 9712 (UDT) + PCN + CSWIP', employers: 'Remontowa Shiprepair Yard, Gdansk Shipyard, Stocznia Gdansk, PKN Orlen Lotos Gdansk Refinery, Baltic offshore wind fabrication' },
+  // Africa + LatAm
+  { slug: 'lagos', city: 'Lagos', region: 'Nigeria', cert: 'ASNT + ISO 9712 + PCN', employers: 'NNPC, Shell Nigeria (SPDC), Chevron Nigeria, ExxonMobil Nigeria, Dangote Refinery (Lekki, 650 kbpd)' },
+  { slug: 'port-harcourt', city: 'Port Harcourt', region: 'Nigeria', cert: 'ASNT + ISO 9712 + CSWIP', employers: 'Shell SPDC (EA fields), Eni Nigeria (Agip), TotalEnergies Nigeria, Aiteo Eastern E&P, Indorama Eleme, Port Harcourt Refining Company' },
+  { slug: 'sao-paulo', city: 'São Paulo', region: 'Brazil', cert: 'ABENDI + SNQC + ISO 9712', employers: 'Petrobras (Cubatão refinery, São Paulo offices), Embraer (São José dos Campos), Volkswagen do Brasil' },
+  { slug: 'mexico-city', city: 'Mexico City', region: 'Mexico', cert: 'ASNT + CONOCER', employers: 'PEMEX HQ (Salina Cruz, Cadereyta, Tula, Salamanca, Madero), Nissan, GM, FCA Mexico, Bombardier Querétaro' },
+  // Country / regional pages
+  { slug: 'australia', city: 'Australia', region: 'Australia', cert: 'AINDT (ISO 9712) + ASNT', employers: 'Woodside, Chevron, Inpex, BHP, Rio Tinto, Santos, Origin Energy, Shell QGC' },
+  { slug: 'brazil', city: 'Brazil', region: 'Brazil', cert: 'ABENDI + SNQC + ISO 9712', employers: 'Petrobras pre-salt deepwater, Embraer aerospace cluster' },
+  { slug: 'canada', city: 'Canada', region: 'Canada', cert: 'CGSB + ASNT + CSA Z662', employers: 'Suncor, Cenovus, Imperial Oil, CNRL, Enbridge, TC Energy, LNG Canada' },
+  { slug: 'malaysia', city: 'Malaysia', region: 'Malaysia', cert: 'ASNT + ISO 9712 + PCN', employers: 'Petronas, MISC, MMHE Pasir Gudang, Sapura Energy, Dialog Group, RAPID Pengerang' },
+  { slug: 'norway', city: 'Norway', region: 'Norway', cert: 'ISO 9712 (NS-EN) + NORSOK M-501/CR-04', employers: 'Equinor, Aker BP, Aker Solutions, TechnipFMC, Subsea 7, Apply Sørco' },
+  { slug: 'philippines', city: 'Philippines', region: 'Philippines', cert: 'ASNT + ISO 9712', employers: 'Petron Bataan Refinery, Pilipinas Shell, Aboitiz Power, semiconductor manufacturers' },
+  { slug: 'south-korea', city: 'South Korea', region: 'South Korea', cert: 'ASNT + ISO 9712', employers: 'HD Hyundai Heavy Industries, Samsung Heavy Industries, Hanwha Ocean (DSME), SK Energy, S-Oil, GS Caltex, KEPCO/KHNP nuclear' },
+  { slug: 'uae', city: 'UAE', region: 'UAE', cert: 'ASNT + ISO 9712 + PCN', employers: 'ADNOC Group, DEWA, UAE Barakah Nuclear Power Plant (ENEC), Petrofac, NPCC, Lamprell' },
+  { slug: 'oman', city: 'Oman', region: 'Oman', cert: 'ASNT + ISO 9712', employers: 'PDO (Shell-operated), OQ, Oman LNG, Daleel Petroleum, BP Khazzan' },
+  { slug: 'nigeria', city: 'Nigeria', region: 'Nigeria', cert: 'ASNT + ISO 9712', employers: 'NNPC, Shell SPDC, Chevron Nigeria, ExxonMobil Nigeria, TotalEnergies Nigeria, Eni / Agip, Dangote Refinery' },
+  { slug: 'mexico', city: 'Mexico', region: 'Mexico', cert: 'ASNT + CONOCER', employers: 'PEMEX (Salina Cruz, Cadereyta, Tula, Salamanca, Madero, Dos Bocas), Nissan, GM, FCA Mexico, Bombardier Querétaro, Safran Querétaro' },
+];
+
+// Track slugs already registered to avoid duplicates with earlier blocks
+const alreadyRegisteredTrainingSlugs = new Set();
+trainingCityPages.forEach(p => alreadyRegisteredTrainingSlugs.add(p.slug));
+globalTrainingCities.forEach(p => alreadyRegisteredTrainingSlugs.add(p.slug));
+
+trainingExpansionCities.forEach(({ slug, city, region, cert, employers }) => {
+  if (alreadyRegisteredTrainingSlugs.has(slug)) return;
+  alreadyRegisteredTrainingSlugs.add(slug);
+
+  const path = `/ndt-training-${slug}`;
+  const canonical = `${SITE_URL}${path}`;
+  routes.push({
+    path,
+    title: `NDT Training in ${city} — ASNT Level I/II/III Courses 2026 | Atlantis NDT`,
+    description: `${cert} NDT certification training in ${city}, ${region}. UT, RT, MT, PT, ET, VT, PAUT, TOFD Level I/II/III. Local employers include ${employers.split(',').slice(0, 3).join(',')}. 95% pass rate.`,
+    canonical,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Course",
+          "name": `NDT Training in ${city} — ASNT Level I/II/III Courses`,
+          "description": `${cert} aligned NDT training in ${city}, ${region} for UT, RT, MT, PT, ET, VT, PAUT, TOFD. Local employers include ${employers}.`,
+          "provider": { "@type": "Organization", "name": "Atlantis NDT", "@id": `${SITE_URL}/#organization` },
+          "educationalCredentialAwarded": `${cert} certification`,
+          "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "blended", "inLanguage": "en", "location": { "@type": "Place", "name": `${city}, ${region}` } }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+            { "@type": "ListItem", "position": 2, "name": "Training", "item": `${SITE_URL}/training` },
+            { "@type": "ListItem", "position": 3, "name": `NDT Training ${city}`, "item": canonical }
+          ]
+        }
+      ]
+    },
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city} — ASNT Level I/II/III Courses 2026</h1>\n    <p><strong>${cert}</strong> NDT certification training in ${city}, ${region}. Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 aligned Level I, II and III training in UT, RT, MT, PT, ET, VT, Phased Array UT and TOFD with a 95% first-attempt pass rate.</p>\n    <h2>Local NDT employers in ${city}</h2>\n    <p>Certified NDT technicians trained in ${city} go on to work for major regional employers including <strong>${employers}</strong>. Our curriculum is tuned to the codes and acceptance criteria these operators apply day-to-day, so graduates pass employer-side technical interviews and on-the-job qualification tests without rework.</p>\n    <h2>Certification pathway</h2>\n    <p>Primary certification body for ${region}: ${cert}. We prepare candidates for written (general + specific), practical (hands-on test specimens) and Jaeger J-2 vision examinations per ASNT SNT-TC-1A Section 8.</p>\n    <h2>Course catalogue</h2>\n    <ul><li>Ultrasonic Testing (UT) Level I/II/III — 40 / 80 hours classroom</li><li>Radiographic Testing (RT) Level I/II/III — 40 / 80 hours plus RSO module</li><li>Magnetic Particle (MT) and Liquid Penetrant (PT) — 16 / 24 hours each</li><li>Visual (VT), Eddy Current (ET), Phased Array UT (PAUT) and TOFD</li></ul>\n    <h2>Upcoming cohorts and enrolment</h2>\n    <p>Next three classroom-led cohorts run at our ${city} centre or a partner facility. Contact us on <a href="tel:+12818408969">+1 (281) 840-8969</a> or via <a href="/contact">our contact page</a> to reserve a seat, request a custom date, or book an in-house corporate cohort for 4–25 engineers.</p>\n    <h2>Related links</h2>\n    <p>Inspector pathways: <a href="/asnt-certification">ASNT Certification Guide</a> · <a href="/api-510-certification">API 510 Pressure Vessel Inspector</a> · <a href="/api-570-certification">API 570 Piping Inspector</a> · <a href="/api-653-certification">API 653 Tank Inspector</a>.</p>\n  </main>`,
+  });
+  programmaticCount++;
+});
+
 console.log(`📄 Programmatic SEO routes added: ${programmaticCount}`);
 
 // ─── Inject FAQ schema into high-value pages for People Also Ask boxes ───
@@ -9187,6 +9779,14 @@ function getLastmodForPath(path, index = 0) {
     return d.toISOString().split('T')[0];
   }
 
+  // Glossary: index = today, terms staggered across last 14 days
+  if (path === '/glossary') return today.toISOString().split('T')[0];
+  if (path.startsWith('/glossary/')) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - (index % 14));
+    return d.toISOString().split('T')[0];
+  }
+
   // Location pages (consulting-* / ndt-consulting-*): stagger 1-3 days from base date
   if (path.startsWith('/ndt-consulting-') || (path.startsWith('/consulting/') && !path.endsWith('/consulting/'))) {
     const d = new Date(baseDate);
@@ -9224,6 +9824,7 @@ function categorizeRoute(path) {
     return 'core';
   }
   if (path.startsWith('/blog/')) return 'blog';
+  if (path === '/glossary' || path.startsWith('/glossary/')) return 'glossary';
   if (path.startsWith('/ndt-consulting-') || (path.startsWith('/consulting/') && path !== '/consulting')) {
     return 'consulting-locations';
   }
@@ -9369,6 +9970,47 @@ ${urls}
 </urlset>`;
 }
 
+// ─── Standards Reference Hub (2026-05) ───────────────────────────────────
+// Hub page + per-standard detail pages emitted from src/data/standards.json.
+// Routes wired into App.tsx at /standards and /standards/:slug.
+try {
+  const standardsJsonPath = join(ROOT, 'src', 'data', 'standards.json');
+  if (existsSync(standardsJsonPath)) {
+    const standardsList = JSON.parse(readFileSync(standardsJsonPath, 'utf-8'));
+
+    routes.push({
+      path: '/standards',
+      title: `NDT Standards Reference — ASME, API, ASTM, ISO, AWS, NACE | Atlantis NDT`,
+      description: `Reference summaries of ${standardsList.length}+ NDT and inspection codes and standards: ASME Section V articles and B31.3; API 510/570/571/579/580/581/653/1104; ASTM E94/E165/E709/E1417/E1444; ISO 3452/9712/17636/17640/9934; AWS D1.1/D1.5; EN 12668; NACE MR0175/SP0490.`,
+      canonical: `${SITE_URL}/standards`,
+      bodyH1: `NDT codes & standards reference — ${standardsList.length} standards across six issuing bodies`,
+      bodyText: `Plain-language summaries of the inspection codes and NDE standards Atlantis NDT uses on a daily basis: ASME Section V articles and B31.3 process piping; API in-service inspection codes (510, 570, 653) and supporting recommended practices (571 damage mechanisms, 579 fitness-for-service, 580/581 risk-based inspection, 1104 pipeline welding); ASTM PT/MT/RT general practices (E94, E165, E709, E1417, E1444); ISO equivalents (3452 PT, 9712 personnel, 9934 MT, 17636 RT of welds, 17640 UT of welds); AWS D1.1 and D1.5 welding codes; EN 12668 UT equipment characterization; and the NACE MR0175 sour-service and SP0490 pipeline-coating standards. Each entry summarises scope, key requirements with clause references, revisions history, and the certifications and methods to which it applies.`,
+    });
+
+    for (const s of standardsList) {
+      // Strip HTML tags from scope and keyRequirements for the prerender bodyText
+      const stripHtml = (h) => (h || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      const scopePlain = stripHtml(s.scope);
+      const reqPlain = stripHtml(s.keyRequirements);
+      const bodyTextFull = `${scopePlain} ${reqPlain}`.substring(0, 3500);
+      routes.push({
+        path: `/standards/${s.slug}`,
+        title: `${s.code} — ${s.displayTitle} | Atlantis NDT Standards Reference`,
+        description: (s.shortDescription || '').substring(0, 300),
+        canonical: `${SITE_URL}/standards/${s.slug}`,
+        bodyH1: s.displayTitle,
+        bodyText: bodyTextFull,
+      });
+    }
+
+    console.log(`📚 Standards hub: emitted /standards + ${standardsList.length} standards detail routes`);
+  } else {
+    console.warn(`⚠️  ${standardsJsonPath} not found — skipping standards routes`);
+  }
+} catch (err) {
+  console.warn(`⚠️  Failed to emit standards routes: ${err.message}`);
+}
+
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
 const routeMap = new Map();
 routes.forEach(route => routeMap.set(route.path, route));
@@ -9473,35 +10115,14 @@ routes.forEach(route => {
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 
-// Write the rotated-date base template back over dist/index.html so the
-// home page also benefits from fresh review dates and keyword stripping.
-// (Source public/index.html and Vite's index.html stay untouched.)
-try {
-  const homeOgImage = getPerPageOgImage('/');
-  let homeHtml = baseTemplate;
-  if (homeOgImage) {
-    homeHtml = homeHtml.replace(
-      /<meta property="og:image" content="[^"]*"\s*\/>/,
-      `<meta property="og:image" content="${homeOgImage}" />`
-    ).replace(
-      /<meta name="twitter:image" content="[^"]*"\s*\/>/,
-      `<meta name="twitter:image" content="${homeOgImage}" />`
-    );
-  }
-  // Strip the templated keywords meta from the home page too.
-  homeHtml = homeHtml.replace(
-    /\s*<meta\s+name="keywords"[\s\S]*?\/>\s*/,
-    '\n  '
-  );
-  writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
-  console.log('🏠 dist/index.html refreshed (rotated review dates + keywords stripped)');
-} catch (err) {
-  console.warn(`  ⚠️  Could not refresh dist/index.html: ${err.message}`);
-}
+// Home page (`/`) is now handled as a regular corePages route — its
+// bodyContent, title, description, OG image and keyword-stripping all run
+// through injectMeta() exactly like every other route, so no separate
+// dist/index.html refresh is required here.
 
 // ─── Write all sitemaps ────────────────────────────────────────────────────
 
-const categories = ['core', 'blog', 'consulting-locations', 'methods', 'digital-twins', 'training', 'other'];
+const categories = ['core', 'blog', 'glossary', 'consulting-locations', 'methods', 'digital-twins', 'training', 'other'];
 const sitemapUrls = [];
 
 // Generate each category sitemap

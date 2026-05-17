@@ -68,6 +68,8 @@ const Erp = lazy(() => import("./pages/Erp"));
 const NDTConnect = lazy(() => import("./pages/NDTConnect"));
 const BlogPage = lazy(() => import("./pages/Blog"));
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
+const Glossary = lazy(() => import("./pages/Glossary"));
+const GlossaryTerm = lazy(() => import("./pages/GlossaryTerm"));
 const AdminLogin = lazy(() => import("./pages/AdminLogin"));
 const AdminDashboard = lazy(() => import("./pages/AdminDashboard"));
 const UltrasonicTesting = lazy(() => import("./pages/ultrasonic-testing"));
@@ -135,6 +137,19 @@ const UltrasonicTestingGuide = lazy(() => import("./pages/blog/ultrasonic-testin
 const API653CertificationGuide = lazy(() => import("./pages/blog/api-653-certification-complete-guide"));
 const NDTSalaryGuide2026 = lazy(() => import("./pages/blog/ndt-salary-guide-2026-global"));
 const RTvsUTComparison = lazy(() => import("./pages/blog/rt-vs-ut-complete-comparison"));
+// 2026-05-17 GSC-driven additive batch — 12 new blog posts answering high-impression queries
+const APIICPPassRates = lazy(() => import("./pages/blog/api-icp-pass-rates-510-vs-570-vs-653-2026"));
+const ASNTLevel3Fees = lazy(() => import("./pages/blog/asnt-level-3-fees-2026-complete-pricing-table"));
+const API5xxExamSchedule = lazy(() => import("./pages/blog/api-510-570-653-exam-schedule-2026"));
+const API510BoK2026 = lazy(() => import("./pages/blog/api-510-body-of-knowledge-2026-changes-explained"));
+const CWICostCalculator = lazy(() => import("./pages/blog/cwi-exam-cost-2026-total-investment-calculator"));
+const CWIPassRateBreakdown = lazy(() => import("./pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown"));
+const MFLPipelineGuide = lazy(() => import("./pages/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut"));
+const PAUTTechnicianSalary = lazy(() => import("./pages/blog/paut-technician-salary-2026-region-cert-industry"));
+const API570InspectorSalary = lazy(() => import("./pages/blog/api-570-inspector-salary-2026-by-region-experience"));
+const NDTInspectionCostMatrix = lazy(() => import("./pages/blog/ndt-inspection-cost-2026-by-method-pricing-matrix"));
+const API653EditionExplained = lazy(() => import("./pages/blog/api-653-current-edition-2026-vs-bok-window-explained"));
+const ISO9712VsASNTDecision = lazy(() => import("./pages/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country"));
 // Certification Pages
 const API510Certification = lazy(() => import("./pages/api-510-certification"));
 const API570Certification = lazy(() => import("./pages/api-570-certification"));
@@ -349,6 +364,9 @@ const CsConstructionQualityAssuranceErp = lazy(() => import("./pages/case-studie
 const CsGeotechnicalEngineeringErp = lazy(() => import("./pages/case-studies/geotechnical-engineering-erp-implementation"));
 const CsEnvironmentalTestingLabsErp = lazy(() => import("./pages/case-studies/environmental-testing-labs-erp-implementation"));
 const CsOilfieldServicesErp = lazy(() => import("./pages/case-studies/oilfield-services-erp-implementation"));
+// === STANDARDS REFERENCE HUB (2026-05) ===
+const StandardsHub = lazy(() => import("./pages/StandardsHub"));
+const StandardDetail = lazy(() => import("./pages/StandardDetail"));
 const ErpIndCity_ndt_inspection_companies_riyadh = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-riyadh"));
 const ErpIndCity_ndt_inspection_companies_jubail = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-jubail"));
 const ErpIndCity_ndt_inspection_companies_yanbu = lazy(() => import("./pages/erp-industries/ndt-inspection-companies-yanbu"));
@@ -1465,8 +1483,93 @@ const DigitalTwinDarwin = lazy(() => import("./pages/digital-twin-darwin"));
 const DigitalTwinAuckland = lazy(() => import("./pages/digital-twin-auckland"));
 const DigitalTwinWellington = lazy(() => import("./pages/digital-twin-wellington"));
 const DigitalTwinChristchurch = lazy(() => import("./pages/digital-twin-christchurch"));
+// Digital Twins — Tier A expansion (May 2026)
+const DigitalTwinAtlanta = lazy(() => import("./pages/digital-twin-atlanta"));
+const DigitalTwinAustin = lazy(() => import("./pages/digital-twin-austin"));
+const DigitalTwinBahrainCountry = lazy(() => import("./pages/digital-twin-bahrain"));
+const DigitalTwinBatonRouge = lazy(() => import("./pages/digital-twin-baton-rouge"));
+const DigitalTwinBrazilCountry = lazy(() => import("./pages/digital-twin-brazil"));
+const DigitalTwinCorpusChristi = lazy(() => import("./pages/digital-twin-corpus-christi"));
+const DigitalTwinDallas = lazy(() => import("./pages/digital-twin-dallas"));
+const DigitalTwinDammam = lazy(() => import("./pages/digital-twin-dammam"));
+const DigitalTwinDelhi = lazy(() => import("./pages/digital-twin-delhi"));
+const DigitalTwinFortWorth = lazy(() => import("./pages/digital-twin-fort-worth"));
+const DigitalTwinIndiaCountry = lazy(() => import("./pages/digital-twin-india"));
+const DigitalTwinIndonesiaCountry = lazy(() => import("./pages/digital-twin-indonesia"));
+const DigitalTwinJakarta = lazy(() => import("./pages/digital-twin-jakarta"));
+const DigitalTwinJamnagar = lazy(() => import("./pages/digital-twin-jamnagar"));
+const DigitalTwinKochi = lazy(() => import("./pages/digital-twin-kochi"));
+const DigitalTwinKolkata = lazy(() => import("./pages/digital-twin-kolkata"));
+const DigitalTwinLakeCharles = lazy(() => import("./pages/digital-twin-lake-charles"));
+const DigitalTwinLosAngeles = lazy(() => import("./pages/digital-twin-los-angeles"));
+const DigitalTwinMalaysiaCountry = lazy(() => import("./pages/digital-twin-malaysia"));
+const DigitalTwinManila = lazy(() => import("./pages/digital-twin-manila"));
+const DigitalTwinMexicoCity = lazy(() => import("./pages/digital-twin-mexico-city"));
+const DigitalTwinNewYork = lazy(() => import("./pages/digital-twin-new-york"));
+const DigitalTwinNorwayCountry = lazy(() => import("./pages/digital-twin-norway"));
+const DigitalTwinOklahomaCity = lazy(() => import("./pages/digital-twin-oklahoma-city"));
+const DigitalTwinOmanCountry = lazy(() => import("./pages/digital-twin-oman"));
+const DigitalTwinPhiladelphia = lazy(() => import("./pages/digital-twin-philadelphia"));
+const DigitalTwinPittsburgh = lazy(() => import("./pages/digital-twin-pittsburgh"));
+const DigitalTwinPortArthur = lazy(() => import("./pages/digital-twin-port-arthur"));
+const DigitalTwinQatarCountry = lazy(() => import("./pages/digital-twin-qatar"));
+const DigitalTwinSaoPaulo = lazy(() => import("./pages/digital-twin-sao-paulo"));
+const DigitalTwinSanAntonio = lazy(() => import("./pages/digital-twin-san-antonio"));
+const DigitalTwinSanFrancisco = lazy(() => import("./pages/digital-twin-san-francisco"));
+const DigitalTwinSeattle = lazy(() => import("./pages/digital-twin-seattle"));
+const DigitalTwinShanghai = lazy(() => import("./pages/digital-twin-shanghai"));
+const DigitalTwinSouthKoreaCountry = lazy(() => import("./pages/digital-twin-south-korea"));
+const DigitalTwinStavanger = lazy(() => import("./pages/digital-twin-stavanger"));
+const DigitalTwinTaipei = lazy(() => import("./pages/digital-twin-taipei"));
+const DigitalTwinThailandCountry = lazy(() => import("./pages/digital-twin-thailand"));
+const DigitalTwinTrinidadCountry = lazy(() => import("./pages/digital-twin-trinidad"));
+const DigitalTwinUkCountry = lazy(() => import("./pages/digital-twin-uk"));
+const DigitalTwinUsaCountry = lazy(() => import("./pages/digital-twin-usa"));
+const DigitalTwinVizag = lazy(() => import("./pages/digital-twin-vizag"));
+const DigitalTwinJapanCountry = lazy(() => import("./pages/digital-twin-japan"));
+const DigitalTwinItalyCountry = lazy(() => import("./pages/digital-twin-italy"));
+const DigitalTwinSpainCountry = lazy(() => import("./pages/digital-twin-spain"));
+const DigitalTwinGermanyCountry = lazy(() => import("./pages/digital-twin-germany"));
+const DigitalTwinFranceCountry = lazy(() => import("./pages/digital-twin-france"));
+const DigitalTwinNetherlandsCountry = lazy(() => import("./pages/digital-twin-netherlands"));
+const DigitalTwinEgyptCountry = lazy(() => import("./pages/digital-twin-egypt"));
+const DigitalTwinNigeriaCountry = lazy(() => import("./pages/digital-twin-nigeria"));
+// Digital Twins — Tier B expansion (May 2026)
+const DigitalTwinAhmedabad = lazy(() => import("./pages/digital-twin-ahmedabad"));
+const DigitalTwinAlgeriaCountry = lazy(() => import("./pages/digital-twin-algeria"));
+const DigitalTwinAngolaCountry = lazy(() => import("./pages/digital-twin-angola"));
+const DigitalTwinArgentinaCountry = lazy(() => import("./pages/digital-twin-argentina"));
+const DigitalTwinAustraliaCountry = lazy(() => import("./pages/digital-twin-australia"));
+const DigitalTwinBangalore = lazy(() => import("./pages/digital-twin-bangalore"));
+const DigitalTwinBangkok = lazy(() => import("./pages/digital-twin-bangkok"));
+const DigitalTwinBeijing = lazy(() => import("./pages/digital-twin-beijing"));
+const DigitalTwinBelgiumCountry = lazy(() => import("./pages/digital-twin-belgium"));
+const DigitalTwinBogota = lazy(() => import("./pages/digital-twin-bogota"));
+const DigitalTwinBrisbane = lazy(() => import("./pages/digital-twin-brisbane"));
+const DigitalTwinBuenosAires = lazy(() => import("./pages/digital-twin-buenos-aires"));
+const DigitalTwinCapeTown = lazy(() => import("./pages/digital-twin-cape-town"));
+const DigitalTwinCasablanca = lazy(() => import("./pages/digital-twin-casablanca"));
+const DigitalTwinChicago = lazy(() => import("./pages/digital-twin-chicago"));
+const DigitalTwinColombiaCountry = lazy(() => import("./pages/digital-twin-colombia"));
+const DigitalTwinHoChiMinh = lazy(() => import("./pages/digital-twin-ho-chi-minh"));
+const DigitalTwinHongKongCountry = lazy(() => import("./pages/digital-twin-hong-kong"));
+const DigitalTwinJohannesburg = lazy(() => import("./pages/digital-twin-johannesburg"));
+const DigitalTwinLima = lazy(() => import("./pages/digital-twin-lima"));
+const DigitalTwinNewZealandCountry = lazy(() => import("./pages/digital-twin-new-zealand"));
+const DigitalTwinPhilippinesCountry = lazy(() => import("./pages/digital-twin-philippines"));
+const DigitalTwinRaleigh = lazy(() => import("./pages/digital-twin-raleigh"));
+const DigitalTwinRioDeJaneiro = lazy(() => import("./pages/digital-twin-rio-de-janeiro"));
+const DigitalTwinSacramento = lazy(() => import("./pages/digital-twin-sacramento"));
+const DigitalTwinSantiago = lazy(() => import("./pages/digital-twin-santiago"));
+const DigitalTwinSavannah = lazy(() => import("./pages/digital-twin-savannah"));
+const DigitalTwinScotlandCountry = lazy(() => import("./pages/digital-twin-scotland"));
+const DigitalTwinShenzhen = lazy(() => import("./pages/digital-twin-shenzhen"));
+const DigitalTwinSouthAfricaCountry = lazy(() => import("./pages/digital-twin-south-africa"));
+const DigitalTwinVietnamCountry = lazy(() => import("./pages/digital-twin-vietnam"));
+const DigitalTwinTaiwanCountry = lazy(() => import("./pages/digital-twin-taiwan"));
 // Resource Pages
 const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
+const StateOfNdt2026 = lazy(() => import("./pages/StateOfNdt2026"));
 const PressMedia = lazy(() => import("./pages/press-media"));
 // ERP Location Pages
 const NDTErpHouston = lazy(() => import("./pages/ndt-erp-houston"));
@@ -1791,6 +1894,100 @@ const NdtErpVsGenericErp = lazy(() => import("./pages/NdtErpVsGenericErp"));
 const NdtErpIntegrationMatrix = lazy(() => import("./pages/NdtErpIntegrationMatrix"));
 const NdtErpRoiCalculator = lazy(() => import("./pages/NdtErpRoiCalculator"));
 const NdtErpImplementationTimeline = lazy(() => import("./pages/NdtErpImplementationTimeline"));
+
+// === Training expansion 2026-05-16 — 88 new city + country training pages ===
+// All rendered via shared TrainingLocationPage with per-city profile data from
+// src/data/training-cities.ts. Adds Training coverage from 17 → 100+ cities,
+// closing the biggest product-line SEO coverage gap.
+const NDTTrainingAbuDhabi = lazy(() => import("./pages/ndt-training-abu-dhabi"));
+const NDTTrainingDammam = lazy(() => import("./pages/ndt-training-dammam"));
+const NDTTrainingJubail = lazy(() => import("./pages/ndt-training-jubail"));
+const NDTTrainingYanbu = lazy(() => import("./pages/ndt-training-yanbu"));
+const NDTTrainingSharjah = lazy(() => import("./pages/ndt-training-sharjah"));
+const NDTTrainingRasAlKhaimah = lazy(() => import("./pages/ndt-training-ras-al-khaimah"));
+const NDTTrainingManama = lazy(() => import("./pages/ndt-training-manama"));
+const NDTTrainingMuscat = lazy(() => import("./pages/ndt-training-muscat"));
+const NDTTrainingSohar = lazy(() => import("./pages/ndt-training-sohar"));
+const NDTTrainingKuwait = lazy(() => import("./pages/ndt-training-kuwait"));
+const NDTTrainingQatar = lazy(() => import("./pages/ndt-training-qatar"));
+const NDTTrainingAnchorage = lazy(() => import("./pages/ndt-training-anchorage"));
+const NDTTrainingAustin = lazy(() => import("./pages/ndt-training-austin"));
+const NDTTrainingBatonRouge = lazy(() => import("./pages/ndt-training-baton-rouge"));
+const NDTTrainingBeaumont = lazy(() => import("./pages/ndt-training-beaumont"));
+const NDTTrainingCincinnati = lazy(() => import("./pages/ndt-training-cincinnati"));
+const NDTTrainingCleveland = lazy(() => import("./pages/ndt-training-cleveland"));
+const NDTTrainingCorpusChristi = lazy(() => import("./pages/ndt-training-corpus-christi"));
+const NDTTrainingDetroit = lazy(() => import("./pages/ndt-training-detroit"));
+const NDTTrainingFortWorth = lazy(() => import("./pages/ndt-training-fort-worth"));
+const NDTTrainingKansasCity = lazy(() => import("./pages/ndt-training-kansas-city"));
+const NDTTrainingLakeCharles = lazy(() => import("./pages/ndt-training-lake-charles"));
+const NDTTrainingMidland = lazy(() => import("./pages/ndt-training-midland"));
+const NDTTrainingMilwaukee = lazy(() => import("./pages/ndt-training-milwaukee"));
+const NDTTrainingMinneapolis = lazy(() => import("./pages/ndt-training-minneapolis"));
+const NDTTrainingMobile = lazy(() => import("./pages/ndt-training-mobile"));
+const NDTTrainingNashville = lazy(() => import("./pages/ndt-training-nashville"));
+const NDTTrainingOklahomaCity = lazy(() => import("./pages/ndt-training-oklahoma-city"));
+const NDTTrainingStLouis = lazy(() => import("./pages/ndt-training-st-louis"));
+const NDTTrainingTulsa = lazy(() => import("./pages/ndt-training-tulsa"));
+const NDTTrainingJacksonville = lazy(() => import("./pages/ndt-training-jacksonville"));
+const NDTTrainingMiami = lazy(() => import("./pages/ndt-training-miami"));
+const NDTTrainingPortland = lazy(() => import("./pages/ndt-training-portland"));
+const NDTTrainingSaltLakeCity = lazy(() => import("./pages/ndt-training-salt-lake-city"));
+const NDTTrainingSanDiego = lazy(() => import("./pages/ndt-training-san-diego"));
+const NDTTrainingTampa = lazy(() => import("./pages/ndt-training-tampa"));
+const NDTTrainingWashingtonDc = lazy(() => import("./pages/ndt-training-washington-dc"));
+const NDTTrainingBaltimore = lazy(() => import("./pages/ndt-training-baltimore"));
+const NDTTrainingIndianapolis = lazy(() => import("./pages/ndt-training-indianapolis"));
+const NDTTrainingBoston = lazy(() => import("./pages/ndt-training-boston"));
+const NDTTrainingSeattle = lazy(() => import("./pages/ndt-training-seattle"));
+const NDTTrainingCalgary = lazy(() => import("./pages/ndt-training-calgary"));
+const NDTTrainingEdmonton = lazy(() => import("./pages/ndt-training-edmonton"));
+const NDTTrainingFortMcmurray = lazy(() => import("./pages/ndt-training-fort-mcmurray"));
+const NDTTrainingHalifax = lazy(() => import("./pages/ndt-training-halifax"));
+const NDTTrainingMontreal = lazy(() => import("./pages/ndt-training-montreal"));
+const NDTTrainingVancouver = lazy(() => import("./pages/ndt-training-vancouver"));
+const NDTTrainingBangalore = lazy(() => import("./pages/ndt-training-bangalore"));
+const NDTTrainingChennai = lazy(() => import("./pages/ndt-training-chennai"));
+const NDTTrainingDelhi = lazy(() => import("./pages/ndt-training-delhi"));
+const NDTTrainingKochi = lazy(() => import("./pages/ndt-training-kochi"));
+const NDTTrainingKolkata = lazy(() => import("./pages/ndt-training-kolkata"));
+const NDTTrainingMumbai = lazy(() => import("./pages/ndt-training-mumbai"));
+const NDTTrainingHoChiMinh = lazy(() => import("./pages/ndt-training-ho-chi-minh"));
+const NDTTrainingKualaLumpur = lazy(() => import("./pages/ndt-training-kuala-lumpur"));
+const NDTTrainingShanghai = lazy(() => import("./pages/ndt-training-shanghai"));
+const NDTTrainingBrisbane = lazy(() => import("./pages/ndt-training-brisbane"));
+const NDTTrainingMelbourne = lazy(() => import("./pages/ndt-training-melbourne"));
+const NDTTrainingPerth = lazy(() => import("./pages/ndt-training-perth"));
+const NDTTrainingSydney = lazy(() => import("./pages/ndt-training-sydney"));
+const NDTTrainingLondon = lazy(() => import("./pages/ndt-training-london"));
+const NDTTrainingGlasgow = lazy(() => import("./pages/ndt-training-glasgow"));
+const NDTTrainingEdinburgh = lazy(() => import("./pages/ndt-training-edinburgh"));
+const NDTTrainingOslo = lazy(() => import("./pages/ndt-training-oslo"));
+const NDTTrainingStavanger = lazy(() => import("./pages/ndt-training-stavanger"));
+const NDTTrainingRotterdam = lazy(() => import("./pages/ndt-training-rotterdam"));
+const NDTTrainingAntwerp = lazy(() => import("./pages/ndt-training-antwerp"));
+const NDTTrainingBarcelona = lazy(() => import("./pages/ndt-training-barcelona"));
+const NDTTrainingHamburg = lazy(() => import("./pages/ndt-training-hamburg"));
+const NDTTrainingMarseille = lazy(() => import("./pages/ndt-training-marseille"));
+const NDTTrainingParis = lazy(() => import("./pages/ndt-training-paris"));
+const NDTTrainingMilan = lazy(() => import("./pages/ndt-training-milan"));
+const NDTTrainingGdansk = lazy(() => import("./pages/ndt-training-gdansk"));
+const NDTTrainingLagos = lazy(() => import("./pages/ndt-training-lagos"));
+const NDTTrainingPortHarcourt = lazy(() => import("./pages/ndt-training-port-harcourt"));
+const NDTTrainingSaoPaulo = lazy(() => import("./pages/ndt-training-sao-paulo"));
+const NDTTrainingMexicoCity = lazy(() => import("./pages/ndt-training-mexico-city"));
+const NDTTrainingAustralia = lazy(() => import("./pages/ndt-training-australia"));
+const NDTTrainingBrazil = lazy(() => import("./pages/ndt-training-brazil"));
+const NDTTrainingCanada = lazy(() => import("./pages/ndt-training-canada"));
+const NDTTrainingMalaysia = lazy(() => import("./pages/ndt-training-malaysia"));
+const NDTTrainingNorway = lazy(() => import("./pages/ndt-training-norway"));
+const NDTTrainingPhilippines = lazy(() => import("./pages/ndt-training-philippines"));
+const NDTTrainingSouthKorea = lazy(() => import("./pages/ndt-training-south-korea"));
+const NDTTrainingUae = lazy(() => import("./pages/ndt-training-uae"));
+const NDTTrainingOman = lazy(() => import("./pages/ndt-training-oman"));
+const NDTTrainingNigeria = lazy(() => import("./pages/ndt-training-nigeria"));
+const NDTTrainingMexico = lazy(() => import("./pages/ndt-training-mexico"));
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -1817,6 +2014,8 @@ const App = () => (
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/blog" element={<BlogPage />} />
                   <Route path="/blog/:slug" element={<BlogDetail />} />
+                  <Route path="/glossary" element={<LazyRoute Component={Glossary} />} />
+                  <Route path="/glossary/:slug" element={<LazyRoute Component={GlossaryTerm} />} />
                   <Route
                      path="/blog/ultrasonic-testing"
                      element={<UltrasonicTesting />}
@@ -1872,12 +2071,28 @@ const App = () => (
                   <Route path="/blog/api-653-certification-complete-guide" element={<LazyRoute Component={API653CertificationGuide} />} />
                   <Route path="/blog/ndt-salary-guide-2026-global" element={<LazyRoute Component={NDTSalaryGuide2026} />} />
                   <Route path="/blog/rt-vs-ut-complete-comparison" element={<LazyRoute Component={RTvsUTComparison} />} />
+                  {/* 2026-05-17 GSC-driven additive batch */}
+                  <Route path="/blog/api-icp-pass-rates-510-vs-570-vs-653-2026" element={<LazyRoute Component={APIICPPassRates} />} />
+                  <Route path="/blog/asnt-level-3-fees-2026-complete-pricing-table" element={<LazyRoute Component={ASNTLevel3Fees} />} />
+                  <Route path="/blog/api-510-570-653-exam-schedule-2026" element={<LazyRoute Component={API5xxExamSchedule} />} />
+                  <Route path="/blog/api-510-body-of-knowledge-2026-changes-explained" element={<LazyRoute Component={API510BoK2026} />} />
+                  <Route path="/blog/cwi-exam-cost-2026-total-investment-calculator" element={<LazyRoute Component={CWICostCalculator} />} />
+                  <Route path="/blog/cwi-pass-rate-by-part-a-b-c-breakdown" element={<LazyRoute Component={CWIPassRateBreakdown} />} />
+                  <Route path="/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut" element={<LazyRoute Component={MFLPipelineGuide} />} />
+                  <Route path="/blog/paut-technician-salary-2026-region-cert-industry" element={<LazyRoute Component={PAUTTechnicianSalary} />} />
+                  <Route path="/blog/api-570-inspector-salary-2026-by-region-experience" element={<LazyRoute Component={API570InspectorSalary} />} />
+                  <Route path="/blog/ndt-inspection-cost-2026-by-method-pricing-matrix" element={<LazyRoute Component={NDTInspectionCostMatrix} />} />
+                  <Route path="/blog/api-653-current-edition-2026-vs-bok-window-explained" element={<LazyRoute Component={API653EditionExplained} />} />
+                  <Route path="/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country" element={<LazyRoute Component={ISO9712VsASNTDecision} />} />
                   {/* Certification Pages */}
                   <Route path="/api-510-certification" element={<LazyRoute Component={API510Certification} />} />
                   <Route path="/api-570-certification" element={<LazyRoute Component={API570Certification} />} />
                   <Route path="/api-570-training" element={<LazyRoute Component={API570Training} />} />
                   <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
+                  {/* Standards Reference Hub (2026-05) */}
+                  <Route path="/standards" element={<LazyRoute Component={StandardsHub} />} />
+                  <Route path="/standards/:slug" element={<LazyRoute Component={StandardDetail} />} />
                   {/* 2026-05 SEO additions — service, comparison, regional India */}
                   <Route path="/services/mfl-pipeline-inspection" element={<LazyRoute Component={MflPipelineInspection} />} />
                   <Route path="/compare/asnt-vs-pcn" element={<LazyRoute Component={CompareAsntVsPcn} />} />
@@ -3169,6 +3384,90 @@ const App = () => (
                   <Route path="/digital-twin-auckland" element={<LazyRoute Component={DigitalTwinAuckland} />} />
                   <Route path="/digital-twin-wellington" element={<LazyRoute Component={DigitalTwinWellington} />} />
                   <Route path="/digital-twin-christchurch" element={<LazyRoute Component={DigitalTwinChristchurch} />} />
+                  {/* Digital Twin — Tier A expansion */}
+                  <Route path="/digital-twin-atlanta" element={<LazyRoute Component={DigitalTwinAtlanta} />} />
+                  <Route path="/digital-twin-austin" element={<LazyRoute Component={DigitalTwinAustin} />} />
+                  <Route path="/digital-twin-bahrain" element={<LazyRoute Component={DigitalTwinBahrainCountry} />} />
+                  <Route path="/digital-twin-baton-rouge" element={<LazyRoute Component={DigitalTwinBatonRouge} />} />
+                  <Route path="/digital-twin-brazil" element={<LazyRoute Component={DigitalTwinBrazilCountry} />} />
+                  <Route path="/digital-twin-corpus-christi" element={<LazyRoute Component={DigitalTwinCorpusChristi} />} />
+                  <Route path="/digital-twin-dallas" element={<LazyRoute Component={DigitalTwinDallas} />} />
+                  <Route path="/digital-twin-dammam" element={<LazyRoute Component={DigitalTwinDammam} />} />
+                  <Route path="/digital-twin-delhi" element={<LazyRoute Component={DigitalTwinDelhi} />} />
+                  <Route path="/digital-twin-fort-worth" element={<LazyRoute Component={DigitalTwinFortWorth} />} />
+                  <Route path="/digital-twin-india" element={<LazyRoute Component={DigitalTwinIndiaCountry} />} />
+                  <Route path="/digital-twin-indonesia" element={<LazyRoute Component={DigitalTwinIndonesiaCountry} />} />
+                  <Route path="/digital-twin-jakarta" element={<LazyRoute Component={DigitalTwinJakarta} />} />
+                  <Route path="/digital-twin-jamnagar" element={<LazyRoute Component={DigitalTwinJamnagar} />} />
+                  <Route path="/digital-twin-kochi" element={<LazyRoute Component={DigitalTwinKochi} />} />
+                  <Route path="/digital-twin-kolkata" element={<LazyRoute Component={DigitalTwinKolkata} />} />
+                  <Route path="/digital-twin-lake-charles" element={<LazyRoute Component={DigitalTwinLakeCharles} />} />
+                  <Route path="/digital-twin-los-angeles" element={<LazyRoute Component={DigitalTwinLosAngeles} />} />
+                  <Route path="/digital-twin-malaysia" element={<LazyRoute Component={DigitalTwinMalaysiaCountry} />} />
+                  <Route path="/digital-twin-manila" element={<LazyRoute Component={DigitalTwinManila} />} />
+                  <Route path="/digital-twin-mexico-city" element={<LazyRoute Component={DigitalTwinMexicoCity} />} />
+                  <Route path="/digital-twin-new-york" element={<LazyRoute Component={DigitalTwinNewYork} />} />
+                  <Route path="/digital-twin-norway" element={<LazyRoute Component={DigitalTwinNorwayCountry} />} />
+                  <Route path="/digital-twin-oklahoma-city" element={<LazyRoute Component={DigitalTwinOklahomaCity} />} />
+                  <Route path="/digital-twin-oman" element={<LazyRoute Component={DigitalTwinOmanCountry} />} />
+                  <Route path="/digital-twin-philadelphia" element={<LazyRoute Component={DigitalTwinPhiladelphia} />} />
+                  <Route path="/digital-twin-pittsburgh" element={<LazyRoute Component={DigitalTwinPittsburgh} />} />
+                  <Route path="/digital-twin-port-arthur" element={<LazyRoute Component={DigitalTwinPortArthur} />} />
+                  <Route path="/digital-twin-qatar" element={<LazyRoute Component={DigitalTwinQatarCountry} />} />
+                  <Route path="/digital-twin-sao-paulo" element={<LazyRoute Component={DigitalTwinSaoPaulo} />} />
+                  <Route path="/digital-twin-san-antonio" element={<LazyRoute Component={DigitalTwinSanAntonio} />} />
+                  <Route path="/digital-twin-san-francisco" element={<LazyRoute Component={DigitalTwinSanFrancisco} />} />
+                  <Route path="/digital-twin-seattle" element={<LazyRoute Component={DigitalTwinSeattle} />} />
+                  <Route path="/digital-twin-shanghai" element={<LazyRoute Component={DigitalTwinShanghai} />} />
+                  <Route path="/digital-twin-south-korea" element={<LazyRoute Component={DigitalTwinSouthKoreaCountry} />} />
+                  <Route path="/digital-twin-stavanger" element={<LazyRoute Component={DigitalTwinStavanger} />} />
+                  <Route path="/digital-twin-taipei" element={<LazyRoute Component={DigitalTwinTaipei} />} />
+                  <Route path="/digital-twin-thailand" element={<LazyRoute Component={DigitalTwinThailandCountry} />} />
+                  <Route path="/digital-twin-trinidad" element={<LazyRoute Component={DigitalTwinTrinidadCountry} />} />
+                  <Route path="/digital-twin-uk" element={<LazyRoute Component={DigitalTwinUkCountry} />} />
+                  <Route path="/digital-twin-usa" element={<LazyRoute Component={DigitalTwinUsaCountry} />} />
+                  <Route path="/digital-twin-vizag" element={<LazyRoute Component={DigitalTwinVizag} />} />
+                  <Route path="/digital-twin-japan" element={<LazyRoute Component={DigitalTwinJapanCountry} />} />
+                  <Route path="/digital-twin-italy" element={<LazyRoute Component={DigitalTwinItalyCountry} />} />
+                  <Route path="/digital-twin-spain" element={<LazyRoute Component={DigitalTwinSpainCountry} />} />
+                  <Route path="/digital-twin-germany" element={<LazyRoute Component={DigitalTwinGermanyCountry} />} />
+                  <Route path="/digital-twin-france" element={<LazyRoute Component={DigitalTwinFranceCountry} />} />
+                  <Route path="/digital-twin-netherlands" element={<LazyRoute Component={DigitalTwinNetherlandsCountry} />} />
+                  <Route path="/digital-twin-egypt" element={<LazyRoute Component={DigitalTwinEgyptCountry} />} />
+                  <Route path="/digital-twin-nigeria" element={<LazyRoute Component={DigitalTwinNigeriaCountry} />} />
+                  {/* Digital Twin — Tier B expansion */}
+                  <Route path="/digital-twin-ahmedabad" element={<LazyRoute Component={DigitalTwinAhmedabad} />} />
+                  <Route path="/digital-twin-algeria" element={<LazyRoute Component={DigitalTwinAlgeriaCountry} />} />
+                  <Route path="/digital-twin-angola" element={<LazyRoute Component={DigitalTwinAngolaCountry} />} />
+                  <Route path="/digital-twin-argentina" element={<LazyRoute Component={DigitalTwinArgentinaCountry} />} />
+                  <Route path="/digital-twin-australia" element={<LazyRoute Component={DigitalTwinAustraliaCountry} />} />
+                  <Route path="/digital-twin-bangalore" element={<LazyRoute Component={DigitalTwinBangalore} />} />
+                  <Route path="/digital-twin-bangkok" element={<LazyRoute Component={DigitalTwinBangkok} />} />
+                  <Route path="/digital-twin-beijing" element={<LazyRoute Component={DigitalTwinBeijing} />} />
+                  <Route path="/digital-twin-belgium" element={<LazyRoute Component={DigitalTwinBelgiumCountry} />} />
+                  <Route path="/digital-twin-bogota" element={<LazyRoute Component={DigitalTwinBogota} />} />
+                  <Route path="/digital-twin-brisbane" element={<LazyRoute Component={DigitalTwinBrisbane} />} />
+                  <Route path="/digital-twin-buenos-aires" element={<LazyRoute Component={DigitalTwinBuenosAires} />} />
+                  <Route path="/digital-twin-cape-town" element={<LazyRoute Component={DigitalTwinCapeTown} />} />
+                  <Route path="/digital-twin-casablanca" element={<LazyRoute Component={DigitalTwinCasablanca} />} />
+                  <Route path="/digital-twin-chicago" element={<LazyRoute Component={DigitalTwinChicago} />} />
+                  <Route path="/digital-twin-colombia" element={<LazyRoute Component={DigitalTwinColombiaCountry} />} />
+                  <Route path="/digital-twin-ho-chi-minh" element={<LazyRoute Component={DigitalTwinHoChiMinh} />} />
+                  <Route path="/digital-twin-hong-kong" element={<LazyRoute Component={DigitalTwinHongKongCountry} />} />
+                  <Route path="/digital-twin-johannesburg" element={<LazyRoute Component={DigitalTwinJohannesburg} />} />
+                  <Route path="/digital-twin-lima" element={<LazyRoute Component={DigitalTwinLima} />} />
+                  <Route path="/digital-twin-new-zealand" element={<LazyRoute Component={DigitalTwinNewZealandCountry} />} />
+                  <Route path="/digital-twin-philippines" element={<LazyRoute Component={DigitalTwinPhilippinesCountry} />} />
+                  <Route path="/digital-twin-raleigh" element={<LazyRoute Component={DigitalTwinRaleigh} />} />
+                  <Route path="/digital-twin-rio-de-janeiro" element={<LazyRoute Component={DigitalTwinRioDeJaneiro} />} />
+                  <Route path="/digital-twin-sacramento" element={<LazyRoute Component={DigitalTwinSacramento} />} />
+                  <Route path="/digital-twin-santiago" element={<LazyRoute Component={DigitalTwinSantiago} />} />
+                  <Route path="/digital-twin-savannah" element={<LazyRoute Component={DigitalTwinSavannah} />} />
+                  <Route path="/digital-twin-scotland" element={<LazyRoute Component={DigitalTwinScotlandCountry} />} />
+                  <Route path="/digital-twin-shenzhen" element={<LazyRoute Component={DigitalTwinShenzhen} />} />
+                  <Route path="/digital-twin-south-africa" element={<LazyRoute Component={DigitalTwinSouthAfricaCountry} />} />
+                  <Route path="/digital-twin-vietnam" element={<LazyRoute Component={DigitalTwinVietnamCountry} />} />
+                  <Route path="/digital-twin-taiwan" element={<LazyRoute Component={DigitalTwinTaiwanCountry} />} />
                   {/* ERP Location Pages */}
                   <Route path="/ndt-erp-houston" element={<LazyRoute Component={NDTErpHouston} />} />
                   <Route path="/ndt-erp-dubai" element={<LazyRoute Component={NDTErpDubai} />} />
@@ -3299,6 +3598,7 @@ const App = () => (
                   <Route path="/resources/ndt-written-practice-template" element={<LazyRoute Component={NDTWrittenPracticeTemplate} />} />
                   <Route path="/resources/inspection-test-plan-itp" element={<LazyRoute Component={InspectionTestPlanITP} />} />
                   <Route path="/resources/audit-finding-tracker" element={<LazyRoute Component={AuditFindingTracker} />} />
+                  <Route path="/resources/state-of-ndt-2026" element={<LazyRoute Component={StateOfNdt2026} />} />
                   {/* Content Pages */}
                   <Route path="/ndt-industry-statistics" element={<LazyRoute Component={NDTIndustryStatistics} />} />
                   <Route path="/ndt-complete-guide" element={<LazyRoute Component={UltimateGuideNDT} />} />
@@ -3499,6 +3799,95 @@ const App = () => (
                   <Route path="/ndt-training-philadelphia" element={<LazyRoute Component={NdtTrainingPhiladelphia} />} />
                   <Route path="/ndt-training-pittsburgh" element={<LazyRoute Component={NdtTrainingPittsburgh} />} />
                   <Route path="/ndt-training-atlanta" element={<LazyRoute Component={NdtTrainingAtlanta} />} />
+                  {/* === Training expansion 2026-05-16 — 88 new city + country training pages === */}
+                  <Route path="/ndt-training-abu-dhabi" element={<LazyRoute Component={NDTTrainingAbuDhabi} />} />
+                  <Route path="/ndt-training-dammam" element={<LazyRoute Component={NDTTrainingDammam} />} />
+                  <Route path="/ndt-training-jubail" element={<LazyRoute Component={NDTTrainingJubail} />} />
+                  <Route path="/ndt-training-yanbu" element={<LazyRoute Component={NDTTrainingYanbu} />} />
+                  <Route path="/ndt-training-sharjah" element={<LazyRoute Component={NDTTrainingSharjah} />} />
+                  <Route path="/ndt-training-ras-al-khaimah" element={<LazyRoute Component={NDTTrainingRasAlKhaimah} />} />
+                  <Route path="/ndt-training-manama" element={<LazyRoute Component={NDTTrainingManama} />} />
+                  <Route path="/ndt-training-muscat" element={<LazyRoute Component={NDTTrainingMuscat} />} />
+                  <Route path="/ndt-training-sohar" element={<LazyRoute Component={NDTTrainingSohar} />} />
+                  <Route path="/ndt-training-kuwait" element={<LazyRoute Component={NDTTrainingKuwait} />} />
+                  <Route path="/ndt-training-qatar" element={<LazyRoute Component={NDTTrainingQatar} />} />
+                  <Route path="/ndt-training-anchorage" element={<LazyRoute Component={NDTTrainingAnchorage} />} />
+                  <Route path="/ndt-training-austin" element={<LazyRoute Component={NDTTrainingAustin} />} />
+                  <Route path="/ndt-training-baton-rouge" element={<LazyRoute Component={NDTTrainingBatonRouge} />} />
+                  <Route path="/ndt-training-beaumont" element={<LazyRoute Component={NDTTrainingBeaumont} />} />
+                  <Route path="/ndt-training-cincinnati" element={<LazyRoute Component={NDTTrainingCincinnati} />} />
+                  <Route path="/ndt-training-cleveland" element={<LazyRoute Component={NDTTrainingCleveland} />} />
+                  <Route path="/ndt-training-corpus-christi" element={<LazyRoute Component={NDTTrainingCorpusChristi} />} />
+                  <Route path="/ndt-training-detroit" element={<LazyRoute Component={NDTTrainingDetroit} />} />
+                  <Route path="/ndt-training-fort-worth" element={<LazyRoute Component={NDTTrainingFortWorth} />} />
+                  <Route path="/ndt-training-kansas-city" element={<LazyRoute Component={NDTTrainingKansasCity} />} />
+                  <Route path="/ndt-training-lake-charles" element={<LazyRoute Component={NDTTrainingLakeCharles} />} />
+                  <Route path="/ndt-training-midland" element={<LazyRoute Component={NDTTrainingMidland} />} />
+                  <Route path="/ndt-training-milwaukee" element={<LazyRoute Component={NDTTrainingMilwaukee} />} />
+                  <Route path="/ndt-training-minneapolis" element={<LazyRoute Component={NDTTrainingMinneapolis} />} />
+                  <Route path="/ndt-training-mobile" element={<LazyRoute Component={NDTTrainingMobile} />} />
+                  <Route path="/ndt-training-nashville" element={<LazyRoute Component={NDTTrainingNashville} />} />
+                  <Route path="/ndt-training-oklahoma-city" element={<LazyRoute Component={NDTTrainingOklahomaCity} />} />
+                  <Route path="/ndt-training-st-louis" element={<LazyRoute Component={NDTTrainingStLouis} />} />
+                  <Route path="/ndt-training-tulsa" element={<LazyRoute Component={NDTTrainingTulsa} />} />
+                  <Route path="/ndt-training-jacksonville" element={<LazyRoute Component={NDTTrainingJacksonville} />} />
+                  <Route path="/ndt-training-miami" element={<LazyRoute Component={NDTTrainingMiami} />} />
+                  <Route path="/ndt-training-portland" element={<LazyRoute Component={NDTTrainingPortland} />} />
+                  <Route path="/ndt-training-salt-lake-city" element={<LazyRoute Component={NDTTrainingSaltLakeCity} />} />
+                  <Route path="/ndt-training-san-diego" element={<LazyRoute Component={NDTTrainingSanDiego} />} />
+                  <Route path="/ndt-training-tampa" element={<LazyRoute Component={NDTTrainingTampa} />} />
+                  <Route path="/ndt-training-washington-dc" element={<LazyRoute Component={NDTTrainingWashingtonDc} />} />
+                  <Route path="/ndt-training-baltimore" element={<LazyRoute Component={NDTTrainingBaltimore} />} />
+                  <Route path="/ndt-training-indianapolis" element={<LazyRoute Component={NDTTrainingIndianapolis} />} />
+                  <Route path="/ndt-training-boston" element={<LazyRoute Component={NDTTrainingBoston} />} />
+                  <Route path="/ndt-training-seattle" element={<LazyRoute Component={NDTTrainingSeattle} />} />
+                  <Route path="/ndt-training-calgary" element={<LazyRoute Component={NDTTrainingCalgary} />} />
+                  <Route path="/ndt-training-edmonton" element={<LazyRoute Component={NDTTrainingEdmonton} />} />
+                  <Route path="/ndt-training-fort-mcmurray" element={<LazyRoute Component={NDTTrainingFortMcmurray} />} />
+                  <Route path="/ndt-training-halifax" element={<LazyRoute Component={NDTTrainingHalifax} />} />
+                  <Route path="/ndt-training-montreal" element={<LazyRoute Component={NDTTrainingMontreal} />} />
+                  <Route path="/ndt-training-vancouver" element={<LazyRoute Component={NDTTrainingVancouver} />} />
+                  <Route path="/ndt-training-bangalore" element={<LazyRoute Component={NDTTrainingBangalore} />} />
+                  <Route path="/ndt-training-chennai" element={<LazyRoute Component={NDTTrainingChennai} />} />
+                  <Route path="/ndt-training-delhi" element={<LazyRoute Component={NDTTrainingDelhi} />} />
+                  <Route path="/ndt-training-kochi" element={<LazyRoute Component={NDTTrainingKochi} />} />
+                  <Route path="/ndt-training-kolkata" element={<LazyRoute Component={NDTTrainingKolkata} />} />
+                  <Route path="/ndt-training-mumbai" element={<LazyRoute Component={NDTTrainingMumbai} />} />
+                  <Route path="/ndt-training-ho-chi-minh" element={<LazyRoute Component={NDTTrainingHoChiMinh} />} />
+                  <Route path="/ndt-training-kuala-lumpur" element={<LazyRoute Component={NDTTrainingKualaLumpur} />} />
+                  <Route path="/ndt-training-shanghai" element={<LazyRoute Component={NDTTrainingShanghai} />} />
+                  <Route path="/ndt-training-brisbane" element={<LazyRoute Component={NDTTrainingBrisbane} />} />
+                  <Route path="/ndt-training-melbourne" element={<LazyRoute Component={NDTTrainingMelbourne} />} />
+                  <Route path="/ndt-training-perth" element={<LazyRoute Component={NDTTrainingPerth} />} />
+                  <Route path="/ndt-training-sydney" element={<LazyRoute Component={NDTTrainingSydney} />} />
+                  <Route path="/ndt-training-london" element={<LazyRoute Component={NDTTrainingLondon} />} />
+                  <Route path="/ndt-training-glasgow" element={<LazyRoute Component={NDTTrainingGlasgow} />} />
+                  <Route path="/ndt-training-edinburgh" element={<LazyRoute Component={NDTTrainingEdinburgh} />} />
+                  <Route path="/ndt-training-oslo" element={<LazyRoute Component={NDTTrainingOslo} />} />
+                  <Route path="/ndt-training-stavanger" element={<LazyRoute Component={NDTTrainingStavanger} />} />
+                  <Route path="/ndt-training-rotterdam" element={<LazyRoute Component={NDTTrainingRotterdam} />} />
+                  <Route path="/ndt-training-antwerp" element={<LazyRoute Component={NDTTrainingAntwerp} />} />
+                  <Route path="/ndt-training-barcelona" element={<LazyRoute Component={NDTTrainingBarcelona} />} />
+                  <Route path="/ndt-training-hamburg" element={<LazyRoute Component={NDTTrainingHamburg} />} />
+                  <Route path="/ndt-training-marseille" element={<LazyRoute Component={NDTTrainingMarseille} />} />
+                  <Route path="/ndt-training-paris" element={<LazyRoute Component={NDTTrainingParis} />} />
+                  <Route path="/ndt-training-milan" element={<LazyRoute Component={NDTTrainingMilan} />} />
+                  <Route path="/ndt-training-gdansk" element={<LazyRoute Component={NDTTrainingGdansk} />} />
+                  <Route path="/ndt-training-lagos" element={<LazyRoute Component={NDTTrainingLagos} />} />
+                  <Route path="/ndt-training-port-harcourt" element={<LazyRoute Component={NDTTrainingPortHarcourt} />} />
+                  <Route path="/ndt-training-sao-paulo" element={<LazyRoute Component={NDTTrainingSaoPaulo} />} />
+                  <Route path="/ndt-training-mexico-city" element={<LazyRoute Component={NDTTrainingMexicoCity} />} />
+                  <Route path="/ndt-training-australia" element={<LazyRoute Component={NDTTrainingAustralia} />} />
+                  <Route path="/ndt-training-brazil" element={<LazyRoute Component={NDTTrainingBrazil} />} />
+                  <Route path="/ndt-training-canada" element={<LazyRoute Component={NDTTrainingCanada} />} />
+                  <Route path="/ndt-training-malaysia" element={<LazyRoute Component={NDTTrainingMalaysia} />} />
+                  <Route path="/ndt-training-norway" element={<LazyRoute Component={NDTTrainingNorway} />} />
+                  <Route path="/ndt-training-philippines" element={<LazyRoute Component={NDTTrainingPhilippines} />} />
+                  <Route path="/ndt-training-south-korea" element={<LazyRoute Component={NDTTrainingSouthKorea} />} />
+                  <Route path="/ndt-training-uae" element={<LazyRoute Component={NDTTrainingUae} />} />
+                  <Route path="/ndt-training-oman" element={<LazyRoute Component={NDTTrainingOman} />} />
+                  <Route path="/ndt-training-nigeria" element={<LazyRoute Component={NDTTrainingNigeria} />} />
+                  <Route path="/ndt-training-mexico" element={<LazyRoute Component={NDTTrainingMexico} />} />
                   <Route path="/api-510-training" element={<LazyRoute Component={Api510Training} />} />
                   <Route path="/api-570-training" element={<LazyRoute Component={Api570Training} />} />
                   <Route path="/api-653-training" element={<LazyRoute Component={Api653Training} />} />

@@ -735,6 +735,26 @@ export default function NDTTechnicianSalary() {
         </aside>
       </div>
 
+      {/* 2026-05-17 additive: Related salary + cost guides */}
+      <section className="bg-slate-50 py-12">
+        <div className="container mx-auto max-w-6xl px-6">
+          <h2 className="text-2xl font-bold mb-6 text-slate-900">More 2026 Salary & Cost Guides</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link to="/blog/paut-technician-salary-2026-region-cert-industry" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+              <h3 className="font-bold group-hover:text-blue-600 transition">PAUT Technician Salary 2026</h3>
+              <p className="text-slate-600 text-sm mt-2">Heat map by region × ASNT L2/L3 × industry + per-diem rates</p>
+            </Link>
+            <Link to="/blog/api-570-inspector-salary-2026-by-region-experience" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+              <h3 className="font-bold group-hover:text-blue-600 transition">API 570 Inspector Salary 2026</h3>
+              <p className="text-slate-600 text-sm mt-2">USA, Gulf, India + Triple Crown premium + consulting day rates</p>
+            </Link>
+            <Link to="/blog/ndt-inspection-cost-2026-by-method-pricing-matrix" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+              <h3 className="font-bold group-hover:text-blue-600 transition">NDT Inspection Cost 2026</h3>
+              <p className="text-slate-600 text-sm mt-2">Method × region pricing matrix — what NDT services actually cost</p>
+            </Link>
+          </div>
+        </div>
+      </section>
       <ContactDetails />
     </div>
   );

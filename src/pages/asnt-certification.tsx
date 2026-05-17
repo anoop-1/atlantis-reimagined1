@@ -303,6 +303,26 @@ export default function ASNTCertification() {
                 </div>
             </section>
 
+            {/* 2026-05-17 additive: Related ASNT guides — links into new GSC-driven posts */}
+            <section className="bg-slate-50 py-12">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-2xl font-bold mb-6 text-slate-900">More ASNT & NDT Certification Guides (2026)</h2>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <Link to="/blog/asnt-level-3-fees-2026-complete-pricing-table" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">ASNT Level 3 Fees 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">Complete pricing table — exam, renewal, by method (member vs non-member)</p>
+                        </Link>
+                        <Link to="/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">ISO 9712 vs ASNT Decision Flowchart</h3>
+                            <p className="text-slate-600 text-sm mt-2">Pick the right NDT cert by country and employer in 2 minutes</p>
+                        </Link>
+                        <Link to="/blog/api-icp-pass-rates-510-vs-570-vs-653-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API ICP Pass Rates 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">510 vs 570 vs 653 pass rates, retake stats, study-hour benchmarks</p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
             <ContactDetails />
         </div>
     );

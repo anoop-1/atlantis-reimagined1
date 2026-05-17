@@ -1,0 +1,706 @@
+==========================================================================================
+EXISTING BLOG POSTS
+==========================================================================================
+  api-653-certification-complete-guide
+  eddy-current-testing-complete-guide
+  ndt-salary-guide-2026-global
+  rt-vs-ut-complete-comparison
+  ultrasonic-testing-ultimate-guide
+
+==========================================================================================
+https://atlantisndt.com � 90d (2026-02-05 to 2026-05-06)
+  totals: {'clicks': 705, 'impressions': 85809}
+==========================================================================================
+
+-- TOP 60 by IMPRESSIONS --
+query                                                          clk   impr   ctr%    pos
+eddy current testing                                             0    779   0.0%   52.4 [COVERED?]
+ultrasonic testing                                               0    366   0.0%   67.8 [COVERED?]
+asnt certification                                               2    325   0.6%    8.6
+eddy current inspection                                          0    316   0.0%   51.4 [COVERED?]
+mfl pipeline inspection service                                  0    315   0.0%   41.2
+api 653                                                          1    306   0.3%   37.5 [COVERED?]
+api 570                                                          0    268   0.0%   32.6
+api 570 certification                                            2    210   1.0%    4.3 [COVERED?]
+rt vs ut                                                         0    193   0.0%    8.8 [COVERED?]
+api 653 certification                                            0    168   0.0%   14.4 [COVERED?]
+ultrasonic testing level 1 training                              0    138   0.0%   56.8 [COVERED?]
+api 653 tank inspection                                          0    137   0.0%   21.4 [COVERED?]
+api 510 pressure vessel inspector                                0    121   0.0%   42.4
+api 570 training                                                 0    121   0.0%   57.3
+ndt training in uae                                              0    121   0.0%   17.0
+api pressure vessel                                              0    120   0.0%   56.2
+ndt level iii consulting                                         0    119   0.0%   31.7
+api 653 repairs                                                  0    112   0.0%   40.0 [COVERED?]
+api vessel inspection                                            0    107   0.0%   51.5
+653 api                                                          0    104   0.0%   36.1 [COVERED?]
+asnt                                                             0    102   0.0%   21.3
+api 653 course                                                   0     97   0.0%   46.5 [COVERED?]
+eddy current ndt                                                 0     97   0.0%   54.6 [COVERED?]
+power generation ndt                                             0     97   0.0%   23.0
+magnetic particle testing                                        0     92   0.0%   69.5
+radiographic testing                                             0     89   0.0%   63.7
+api 510                                                          0     88   0.0%   35.1
+ndt consulting                                                   0     87   0.0%   62.9
+boiler ndt preparation                                           0     85   0.0%   45.3
+ntd connect                                                      0     80   0.0%    4.6
+offshore visual inspection                                       0     80   0.0%   18.3
+api 653 inspection                                               0     77   0.0%   25.6 [COVERED?]
+ultrasonic corrosion                                             0     77   0.0%   55.4
+api pressure vessel code                                         0     75   0.0%   41.8
+api 570 exam schedule 2026                                       0     72   0.0%    7.4
+ndt software                                                     0     71   0.0%   48.9
+underwater inspection                                            0     70   0.0%   76.6
+api 653 exam fees                                                0     69   0.0%    3.8 [COVERED?]
+eddy current tube testing                                        0     69   0.0%   26.5 [COVERED?]
+atlantis ndt                                                    50     67  74.6%    1.0
+api 653 certification cost                                       1     67   1.5%    3.2 [COVERED?]
+api 570 inspection                                               0     67   0.0%   46.8
+rt vs ut weld inspection                                         0     67   0.0%    5.9 [COVERED?]
+eddy current testing of tubes                                    0     66   0.0%   32.6 [COVERED?]
+what are the advantages of using atlantis for inspection and     0     66   0.0%    1.7
+api 510 certification                                            0     64   0.0%   11.3 [COVERED?]
+api 653 tank                                                     0     62   0.0%   29.3 [COVERED?]
+pressure vessel inspection course                                0     62   0.0%   57.1
+api 510 exam pass rate                                           2     60   3.3%    4.7
+maritime ndt services                                            0     60   0.0%   33.2
+api 510 pressure vessel inspection code                          0     59   0.0%   40.5
+ndt reporting software                                           0     59   0.0%   29.8
+paut                                                             0     59   0.0%   56.0
+blade inspection                                                 0     58   0.0%   83.1
+ndt eddy current                                                 0     58   0.0%   48.9 [COVERED?]
+ut vs rt                                                         0     58   0.0%    6.5 [COVERED?]
+ndt offshore salary                                              1     56   1.8%    5.2 [COVERED?]
+phased array ultrasonic testing                                  0     56   0.0%   70.6 [COVERED?]
+rt and ut difference                                             0     56   0.0%    6.6 [COVERED?]
+heat exchanger testing                                           0     55   0.0%   66.0
+
+-- QUESTION QUERIES (what/how/why/which/can/is/does/pass rate/exam/pattern) --
+rt vs ut                                                         0    193   0.0%    8.8 [COVERED?]
+boiler ndt preparation                                           0     85   0.0%   45.3
+api 570 exam schedule 2026                                       0     72   0.0%    7.4
+api 653 exam fees                                                0     69   0.0%    3.8 [COVERED?]
+api 653 certification cost                                       1     67   1.5%    3.2 [COVERED?]
+rt vs ut weld inspection                                         0     67   0.0%    5.9 [COVERED?]
+what are the advantages of using atlantis for inspection and     0     66   0.0%    1.7
+api 510 exam pass rate                                           2     60   3.3%    4.7
+ut vs rt                                                         0     58   0.0%    6.5 [COVERED?]
+ndt offshore salary                                              1     56   1.8%    5.2 [COVERED?]
+rt and ut difference                                             0     56   0.0%    6.6 [COVERED?]
+asnt level 3 exam fees                                           0     51   0.0%    5.0
+what is api 653                                                  0     48   0.0%   44.1 [COVERED?]
+radiography vs ultrasonic testing                                0     46   0.0%   28.9 [COVERED?]
+rt vs ut testing                                                 0     42   0.0%    8.0 [COVERED?]
+cwi certification cost                                           0     40   0.0%    8.2
+how do inspection and testing companies like atlantis ensure     0     37   0.0%    1.4
+what are the latest trends in the inspection and testing ind     0     36   0.0%    1.6
+difference between ultrasonic testing and radiographic testi     0     33   0.0%   16.8 [COVERED?]
+what are the key differences between inspection services off     0     33   0.0%    3.0
+what is eddy current testing                                     0     32   0.0%   57.9 [COVERED?]
+api 653 exam                                                     2     27   7.4%    9.6 [COVERED?]
+api 570 inspector salary                                         0     24   0.0%   17.4
+pipeline audit preparation services                              0     24   0.0%   82.3
+api 570 certification requirements                               0     22   0.0%    6.9 [COVERED?]
+api 510 certification cost                                       0     21   0.0%    8.3 [COVERED?]
+what role does technology play in the inspection and testing     0     21   0.0%    2.9
+what is api 570 certification                                    0     20   0.0%    5.2 [COVERED?]
+iso 9712 vs asnt                                                 1     19   5.3%    3.2
+ndt technician asnt level ii salary eastern province saudi a     0     19   0.0%   11.7 [COVERED?]
+api 653 requirements                                             0     18   0.0%   20.6 [COVERED?]
+difference between ut and rt testing                             1     17   5.9%    6.1 [COVERED?]
+api 653 certification requirements                               0     17   0.0%    8.8 [COVERED?]
+saas or asnt certification requirements for ndt level iii in     0     16   0.0%    7.1
+what is asnt                                                     0     16   0.0%    5.8
+paut technician salary                                           1     15   6.7%    5.0
+cwi test cost                                                    0     15   0.0%   16.5
+ndt oil and gas salary                                           0     15   0.0%    5.6 [COVERED?]
+what case studies demonstrate successful fault identificatio     0     15   0.0%    2.3
+api 570 exam pass rate                                           1     14   7.1%    8.6
+digital vs film radiography                                      0     14   0.0%   42.1
+iris vs eddy current                                             0     14   0.0%   64.1 [COVERED?]
+what is eddy current testing used on                             0     14   0.0%   54.4 [COVERED?]
+what materials can be tested with an eddy current tester         0     14   0.0%   57.1 [COVERED?]
+ndt level 3 salary in gulf                                       0     13   0.0%    2.7 [COVERED?]
+which platforms detect bond-line failures caused by uneven a     0     13   0.0%    6.5
+asnt level 3 renewal fees                                        0     12   0.0%    4.2
+how to choose a bond-line inspection system that improves lo     0     12   0.0%    3.2
+is radiographic testing slower than other ndt methods            0     12   0.0%    6.2
+ndt specialist salary                                            0     12   0.0%    7.1 [COVERED?]
+paut technician salary in india                                  0     12   0.0%    9.0
+asnt certification requirements                                  0     11   0.0%    6.5
+api 653 exam pass rate                                           2     10  20.0%    3.5 [COVERED?]
+how deep can eddy current detect porosity?                       0     10   0.0%   11.3 [COVERED?]
+what is asnt certification                                       0     10   0.0%    3.7
+which quality assurance services provide code acceptance cri     0     10   0.0%    1.8
+ndt degree vs certification                                      0      9   0.0%   16.4
+offshore ndt technician salary                                   0      9   0.0%    5.2 [COVERED?]
+paut vs rt                                                       0      9   0.0%    6.4 [COVERED?]
+api 570 piping inspector certification requirements              0      8   0.0%   11.6 [COVERED?]
+api 653 tank inspection requirements                             0      8   0.0%    5.9 [COVERED?]
+cwi exam cost                                                    0      8   0.0%   26.6
+how does eddy current testing work                               0      8   0.0%   52.6 [COVERED?]
+ndt level 1 salary                                               0      8   0.0%    4.2 [COVERED?]
+ndt radiation shielding requirements                             0      8   0.0%   12.6
+salary                                                           0      8   0.0%    2.5
+asnt certification cost                                          1      7  14.3%    1.0
+aws cwis nationwide contracts requirements                       0      7   0.0%    7.6
+ndt technician salary                                            0      7   0.0%    2.4 [COVERED?]
+what is api 653 certification                                    0      7   0.0%    8.1 [COVERED?]
+what is ultrasonic inspection                                    0      7   0.0%   76.4
+api 510 exam                                                     1      6  16.7%   19.8
+api 510 pressure vessel inspection certification requirement     0      6   0.0%   16.0 [COVERED?]
+api 570 exam                                                     0      6   0.0%   21.3
+asnt level 3 exam schedule 2026                                  0      6   0.0%    5.0
+cwi pass rate                                                    0      6   0.0%    5.8
+what is ndt certification                                        0      6   0.0%   47.7
+api 510 exam fees                                                0      5   0.0%    4.6
+api 570 piping system inspection requirements                    0      5   0.0%   20.0
+api 653 exam schedule 2026                                       0      5   0.0%   10.8 [COVERED?]
+asnt level 3 fees                                                0      5   0.0%    4.0
+ndt level 3 salary                                               0      5   0.0%    3.8 [COVERED?]
+ndt salary                                                       0      5   0.0%    3.8 [COVERED?]
+what is paut                                                     0      5   0.0%   48.8
+
+-- CERTIFICATION QUERIES (api 510/653, asnt, iso 9712, cswip, etc.) --
+asnt certification                                               2    325   0.6%    8.6
+api 653                                                          1    306   0.3%   37.5 [COVERED?]
+api 570                                                          0    268   0.0%   32.6
+api 570 certification                                            2    210   1.0%    4.3 [COVERED?]
+api 653 certification                                            0    168   0.0%   14.4 [COVERED?]
+ultrasonic testing level 1 training                              0    138   0.0%   56.8 [COVERED?]
+api 653 tank inspection                                          0    137   0.0%   21.4 [COVERED?]
+api 510 pressure vessel inspector                                0    121   0.0%   42.4
+api 570 training                                                 0    121   0.0%   57.3
+ndt level iii consulting                                         0    119   0.0%   31.7
+api 653 repairs                                                  0    112   0.0%   40.0 [COVERED?]
+asnt                                                             0    102   0.0%   21.3
+api 653 course                                                   0     97   0.0%   46.5 [COVERED?]
+api 510                                                          0     88   0.0%   35.1
+api 653 inspection                                               0     77   0.0%   25.6 [COVERED?]
+api 570 exam schedule 2026                                       0     72   0.0%    7.4
+api 653 exam fees                                                0     69   0.0%    3.8 [COVERED?]
+api 653 certification cost                                       1     67   1.5%    3.2 [COVERED?]
+api 570 inspection                                               0     67   0.0%   46.8
+api 510 certification                                            0     64   0.0%   11.3 [COVERED?]
+api 653 tank                                                     0     62   0.0%   29.3 [COVERED?]
+api 510 exam pass rate                                           2     60   3.3%    4.7
+api 510 pressure vessel inspection code                          0     59   0.0%   40.5
+asnt snt-tc-1a                                                   1     52   1.9%    1.2
+api653                                                           0     52   0.0%   24.3
+asnt level 3 exam fees                                           0     51   0.0%    5.0
+what is api 653                                                  0     48   0.0%   44.1 [COVERED?]
+api 653 inspection frequency                                     0     41   0.0%   15.6 [COVERED?]
+asnt level iii consulting                                        0     41   0.0%   18.2
+cwi certification cost                                           0     40   0.0%    8.2
+api 653 inspection support                                       0     36   0.0%   39.9 [COVERED?]
+asnt ndt                                                         0     36   0.0%   15.8
+ndt certification                                                0     35   0.0%   37.9
+api 653 certified tank inspector                                 0     34   0.0%   58.9 [COVERED?]
+api 653 training                                                 0     33   0.0%   51.7 [COVERED?]
+iso 9712                                                         0     33   0.0%   38.7
+asnt certification nationwide contracts                          0     31   0.0%   21.7
+api 653 tank inspection companies                                0     30   0.0%   40.0 [COVERED?]
+asnt ndt certification                                           0     30   0.0%   26.9
+api 653 standard                                                 0     28   0.0%   33.7 [COVERED?]
+asnt accp                                                        0     28   0.0%    8.5
+api 653 exam                                                     2     27   7.4%    9.6 [COVERED?]
+asnt sertifiointi                                                0     27   0.0%    5.8
+en iso 9712                                                      0     26   0.0%   48.9
+api 570 inspector salary                                         0     24   0.0%   17.4
+asnt level 1                                                     0     23   0.0%   15.5
+non destructive testing level 3 consulting services              0     23   0.0%   16.5
+api 570 certification requirements                               0     22   0.0%    6.9 [COVERED?]
+api 570 schedule 2026                                            0     22   0.0%    8.5
+api 510 certification cost                                       0     21   0.0%    8.3 [COVERED?]
+api 653 tank inspection frequency                                0     20   0.0%   14.4 [COVERED?]
+what is api 570 certification                                    0     20   0.0%    5.2 [COVERED?]
+iso 9712 vs asnt                                                 1     19   5.3%    3.2
+ndt technician asnt level ii salary eastern province saudi a     0     19   0.0%   11.7 [COVERED?]
+tank inspection api 653                                          0     19   0.0%   33.6 [COVERED?]
+api 653 requirements                                             0     18   0.0%   20.6 [COVERED?]
+snt-tc-1a                                                        0     18   0.0%    3.1
+tank inspection certification                                    0     18   0.0%   16.7
+api 653 certification requirements                               0     17   0.0%    8.8 [COVERED?]
+eddy current certification                                       1     16   6.2%   58.9 [COVERED?]
+accp level 2                                                     0     16   0.0%    6.6
+ndt certification nationwide contracts                           0     16   0.0%   40.4
+pressure vessel certification training                           0     16   0.0%   39.8
+saas or asnt certification requirements for ndt level iii in     0     16   0.0%    7.1
+what is asnt                                                     0     16   0.0%    5.8
+api 570 piping inspection code                                   0     15   0.0%   32.3
+api 653 inspection services                                      0     15   0.0%   11.9 [COVERED?]
+api 653 inspections                                              0     15   0.0%   42.1 [COVERED?]
+ultrasonic testing certification online                          0     15   0.0%   55.7 [COVERED?]
+api 570 exam pass rate                                           1     14   7.1%    8.6
+api 510 inspection                                               0     14   0.0%   49.1
+api 653 compliant tank repair                                    0     14   0.0%   19.2 [COVERED?]
+api 653 latest edition                                           0     14   0.0%   55.1 [COVERED?]
+api 653 tank inspections                                         0     14   0.0%   38.1 [COVERED?]
+api 510 pressure vessel inspector certification                  0     13   0.0%   23.9 [COVERED?]
+api 570 piping inspection specialist certification               0     13   0.0%   11.4 [COVERED?]
+api 653 certified inspector                                      0     13   0.0%   31.1 [COVERED?]
+api 653 for atmospheric tanks                                    0     13   0.0%   53.0 [COVERED?]
+api 653 inspection standards                                     0     13   0.0%   37.8 [COVERED?]
+ndt level 3 salary in gulf                                       0     13   0.0%    2.7 [COVERED?]
+api 510 bok 2026                                                 0     12   0.0%    6.9
+asnt level 3 renewal fees                                        0     12   0.0%    4.2
+api 510 course                                                   0     11   0.0%   32.7
+api 653 tank repair                                              0     11   0.0%   38.7 [COVERED?]
+asnt certification requirements                                  0     11   0.0%    6.5
+asnt tc 1a                                                       0     11   0.0%    7.1
+api 653 exam pass rate                                           2     10  20.0%    3.5 [COVERED?]
+api 653 latest edition 2026                                      0     10   0.0%    7.5 [COVERED?]
+certified tank inspector                                         0     10   0.0%   36.9
+ndt level 3 training                                             0     10   0.0%   60.7
+what is asnt certification                                       0     10   0.0%    3.7
+api 653 current edition 2026                                     0      9   0.0%    7.4 [COVERED?]
+api 653 tank inspection services                                 0      9   0.0%   57.2 [COVERED?]
+asnt full form                                                   0      9   0.0%   28.0
+asnt level 1 certification                                       0      9   0.0%    3.4
+cwi certification                                                0      9   0.0%   13.7
+din en iso 9712                                                  0      9   0.0%   49.2
+level 3 ndt services                                             0      9   0.0%   66.9
+ndt degree vs certification                                      0      9   0.0%   16.4
+api 570 piping inspector certification requirements              0      8   0.0%   11.6 [COVERED?]
+api 653 inspector                                                0      8   0.0%   43.4 [COVERED?]
+api 653 tank inspection requirements                             0      8   0.0%    5.9 [COVERED?]
+cp 189 latest edition                                            0      8   0.0%    9.0
+level 1 ndt certification                                        0      8   0.0%   68.2
+ndt level 1 salary                                               0      8   0.0%    4.2 [COVERED?]
+snt tc 1a                                                        0      8   0.0%   10.0
+snt tc 1a training and certification                             0      8   0.0%   21.5
+snt-tc-1a 2024 pdf                                               0      8   0.0%    2.0
+asnt certification cost                                          1      7  14.3%    1.0
+tank inspector certification                                     1      7  14.3%    1.0
+api 570 certificate                                              0      7   0.0%    2.6
+api 570 course                                                   0      7   0.0%   47.9
+api 653 standards                                                0      7   0.0%   30.1 [COVERED?]
+api 653 tank inspection checklist                                0      7   0.0%   45.6 [COVERED?]
+asnt certificate                                                 0      7   0.0%   16.7
+aws cwi pricing                                                  0      7   0.0%    3.1
+aws cwis nationwide contracts requirements                       0      7   0.0%    7.6
+inspector api 653                                                0      7   0.0%   33.3 [COVERED?]
+iso 9712 sertifiointi                                            0      7   0.0%   12.6
+latest edition of api 653 as of 2026                             0      7   0.0%    7.4 [COVERED?]
+what is api 653 certification                                    0      7   0.0%    8.1 [COVERED?]
+api 510 exam                                                     1      6  16.7%   19.8
+api 510 pressure vessel inspection certification requirement     0      6   0.0%   16.0 [COVERED?]
+api 570 exam                                                     0      6   0.0%   21.3
+api 570 piping inspector certification                           0      6   0.0%   11.0 [COVERED?]
+api 653 aboveground storage tank inspector certification         0      6   0.0%   15.2 [COVERED?]
+api 653 fertilizer tank inspection                               0      6   0.0%   39.0 [COVERED?]
+api 653 inspection checklist                                     0      6   0.0%   44.8 [COVERED?]
+api 653 inspection procedures                                    0      6   0.0%   28.7 [COVERED?]
+asnt level 3 exam schedule 2026                                  0      6   0.0%    5.0
+asnt training                                                    0      6   0.0%   12.0
+ndt training and certification program                           0      6   0.0%   23.7
+snc tc 1a training and certification                             0      6   0.0%   18.2
+vt certification                                                 0      6   0.0%   11.8
+what is ndt certification                                        0      6   0.0%   47.7
+asnt certification online                                        1      5  20.0%    1.0
+api 510 exam fees                                                0      5   0.0%    4.6
+api 570 piping system inspection requirements                    0      5   0.0%   20.0
+api 653 certification training                                   0      5   0.0%    7.6 [COVERED?]
+api 653 exam schedule 2026                                       0      5   0.0%   10.8 [COVERED?]
+api 653 personnel qualification asnt snt-tc-1a                   0      5   0.0%    3.0 [COVERED?]
+api 653 storage tank inspection certification                    0      5   0.0%   12.2 [COVERED?]
+api570                                                           0      5   0.0%    2.0
+asnt level 3 fees                                                0      5   0.0%    4.0
+asnt level 3 online training                                     0      5   0.0%   52.0
+asnt ndt level 1                                                 0      5   0.0%    2.2
+asnt testing                                                     0      5   0.0%   17.4
+asnt-tc-1a                                                       0      5   0.0%   12.2
+certified welding inspector course                               0      5   0.0%   63.0
+level 3 ndt                                                      0      5   0.0%   51.8
+ndt level 3 consulting                                           0      5   0.0%   31.0
+ndt level 3 salary                                               0      5   0.0%    3.8 [COVERED?]
+pressure vessel inspection certification                         0      5   0.0%   24.4
+professional ndt training and certification programs near me     0      5   0.0%    6.8
+
+==========================================================================================
+https://atlantisndt.com � 28d (2026-04-08 to 2026-05-06)
+  totals: {'clicks': 385, 'impressions': 49734}
+==========================================================================================
+
+-- TOP 60 by IMPRESSIONS --
+query                                                          clk   impr   ctr%    pos
+eddy current testing                                             0    211   0.0%   42.6 [COVERED?]
+api 653                                                          1    205   0.5%   30.6 [COVERED?]
+asnt certification                                               2    195   1.0%    7.6
+mfl pipeline inspection service                                  0    163   0.0%   43.1
+api 653 tank inspection                                          0    127   0.0%   21.0 [COVERED?]
+eddy current inspection                                          0    119   0.0%   42.9 [COVERED?]
+api 653 repairs                                                  0     95   0.0%   38.5 [COVERED?]
+rt vs ut                                                         0     92   0.0%    9.7 [COVERED?]
+api 570                                                          0     78   0.0%   34.8
+ultrasonic corrosion                                             0     77   0.0%   55.4
+api 570 certification                                            0     76   0.0%    2.8 [COVERED?]
+api pressure vessel                                              0     76   0.0%   62.8
+ultrasonic testing level 1 training                              0     70   0.0%   61.6 [COVERED?]
+underwater inspection                                            0     70   0.0%   76.6
+api 570 exam schedule 2026                                       0     66   0.0%    7.6
+api pressure vessel code                                         0     66   0.0%   40.1
+asnt                                                             0     66   0.0%   18.6
+api 653 inspection                                               0     65   0.0%   22.6 [COVERED?]
+blade inspection                                                 0     58   0.0%   83.1
+api 510 pressure vessel inspector                                0     57   0.0%   49.4
+api 510 pressure vessel inspection code                          0     56   0.0%   40.8
+phased array ultrasonic testing                                  0     56   0.0%   70.6 [COVERED?]
+heat exchanger testing                                           0     55   0.0%   66.0
+paut                                                             0     55   0.0%   56.3
+api 653 tank                                                     0     54   0.0%   29.8 [COVERED?]
+radiographic testing                                             0     53   0.0%   69.1
+api 653 course                                                   0     50   0.0%   53.5 [COVERED?]
+api vessel inspection                                            0     49   0.0%   61.0
+ndt software                                                     0     47   0.0%   39.9
+wind turbine blade inspection                                    0     46   0.0%   74.6
+653 api                                                          0     45   0.0%   30.6 [COVERED?]
+api653                                                           0     45   0.0%   24.1
+ndt equipment repair & calibration                               0     43   0.0%   29.3
+miami ndt hazardous waste                                        0     42   0.0%    2.4
+visual inspection ndt                                            0     42   0.0%   36.7
+atlantis ndt                                                    30     41  73.2%    1.0
+api 653 certification                                            0     41   0.0%   13.1 [COVERED?]
+ndt training                                                     0     41   0.0%   63.9
+api 510 exam pass rate                                           2     40   5.0%    5.5
+maritime ndt services                                            0     40   0.0%   29.2
+api 570 training                                                 0     39   0.0%   52.7
+heat exchanger inspection                                        0     39   0.0%   33.6
+ndt consulting                                                   0     39   0.0%   66.9
+underwater inspections                                           0     39   0.0%   72.0
+cwi certification cost                                           0     38   0.0%    5.4
+asnt snt-tc-1a                                                   0     37   0.0%    1.3
+phased array ndt                                                 0     37   0.0%   66.3
+api 653 exam fees                                                0     35   0.0%    5.6 [COVERED?]
+underwater ndt inspections                                       0     35   0.0%   29.5
+api 653 inspection frequency                                     0     34   0.0%   12.8 [COVERED?]
+ndt training in uae                                              0     34   0.0%   16.9
+offshore visual inspection                                       0     34   0.0%   22.7
+api tank inspection                                              0     33   0.0%   25.7
+total focusing method                                            0     33   0.0%   20.3
+api 653 inspection support                                       0     31   0.0%   37.5 [COVERED?]
+api 653 certification cost                                       1     30   3.3%    5.6 [COVERED?]
+api standard 653                                                 0     30   0.0%   33.1 [COVERED?]
+radiography vs ultrasonic testing                                0     30   0.0%   12.5 [COVERED?]
+rt vs ut weld inspection                                         0     30   0.0%    6.4 [COVERED?]
+ut pipeline inspection service                                   0     30   0.0%   48.5
+
+-- QUESTION QUERIES (what/how/why/which/can/is/does/pass rate/exam/pattern) --
+rt vs ut                                                         0     92   0.0%    9.7 [COVERED?]
+api 570 exam schedule 2026                                       0     66   0.0%    7.6
+api 510 exam pass rate                                           2     40   5.0%    5.5
+cwi certification cost                                           0     38   0.0%    5.4
+api 653 exam fees                                                0     35   0.0%    5.6 [COVERED?]
+api 653 certification cost                                       1     30   3.3%    5.6 [COVERED?]
+radiography vs ultrasonic testing                                0     30   0.0%   12.5 [COVERED?]
+rt vs ut weld inspection                                         0     30   0.0%    6.4 [COVERED?]
+what is api 653                                                  0     30   0.0%   31.2 [COVERED?]
+ndt offshore salary                                              0     25   0.0%    5.4 [COVERED?]
+api 570 inspector salary                                         0     24   0.0%   17.4
+asnt level 3 exam fees                                           0     24   0.0%    5.0
+pipeline audit preparation services                              0     24   0.0%   82.3
+boiler ndt preparation                                           0     23   0.0%   40.5
+what are the advantages of using atlantis for inspection and     0     21   0.0%    1.6
+what are the latest trends in the inspection and testing ind     0     20   0.0%    1.6
+iso 9712 vs asnt                                                 1     19   5.3%    3.2
+ndt technician asnt level ii salary eastern province saudi a     0     19   0.0%   11.7 [COVERED?]
+api 653 requirements                                             0     18   0.0%   20.6 [COVERED?]
+ut vs rt                                                         0     18   0.0%    6.2 [COVERED?]
+api 510 certification cost                                       0     17   0.0%    9.1 [COVERED?]
+difference between ultrasonic testing and radiographic testi     0     17   0.0%   13.7 [COVERED?]
+api 570 certification requirements                               0     16   0.0%    7.6 [COVERED?]
+difference between ut and rt testing                             1     15   6.7%    6.3 [COVERED?]
+digital vs film radiography                                      0     14   0.0%   42.1
+rt and ut difference                                             0     14   0.0%    4.2 [COVERED?]
+which platforms detect bond-line failures caused by uneven a     0     13   0.0%    6.5
+cwi test cost                                                    0     12   0.0%    6.6
+how do inspection and testing companies like atlantis ensure     0     12   0.0%    1.8
+how to choose a bond-line inspection system that improves lo     0     12   0.0%    3.2
+what is api 570 certification                                    0     12   0.0%    6.3 [COVERED?]
+api 653 exam                                                     1     11   9.1%    8.9 [COVERED?]
+paut technician salary                                           1     11   9.1%    4.8
+ndt oil and gas salary                                           0     11   0.0%    5.5 [COVERED?]
+api 653 exam pass rate                                           2     10  20.0%    3.5 [COVERED?]
+how deep can eddy current detect porosity?                       0     10   0.0%   11.3 [COVERED?]
+which quality assurance services provide code acceptance cri     0     10   0.0%    1.8
+ndt specialist salary                                            0      9   0.0%    7.1 [COVERED?]
+what role does technology play in the inspection and testing     0      9   0.0%    2.6
+api 653 tank inspection requirements                             0      8   0.0%    5.9 [COVERED?]
+asnt level 3 renewal fees                                        0      8   0.0%    4.1
+ndt degree vs certification                                      0      8   0.0%   16.2
+ndt radiation shielding requirements                             0      8   0.0%   12.6
+paut technician salary in india                                  0      8   0.0%   10.1
+rt vs ut testing                                                 0      8   0.0%    7.6 [COVERED?]
+what are the key differences between inspection services off     0      8   0.0%    3.2
+what is eddy current testing                                     0      8   0.0%   45.1 [COVERED?]
+aws cwis nationwide contracts requirements                       0      7   0.0%    7.6
+what case studies demonstrate successful fault identificatio     0      7   0.0%    3.0
+api 510 pressure vessel inspection certification requirement     0      6   0.0%   16.0 [COVERED?]
+api 570 exam pass rate                                           0      6   0.0%    7.0
+api 570 piping inspector certification requirements              0      6   0.0%   10.5 [COVERED?]
+cwi pass rate                                                    0      6   0.0%    5.8
+ndt level 1 salary                                               0      6   0.0%    5.3 [COVERED?]
+ndt technician salary                                            0      6   0.0%    2.7 [COVERED?]
+what is asnt                                                     0      6   0.0%    2.2
+api 570 piping system inspection requirements                    0      5   0.0%   20.0
+asnt certification requirements                                  0      5   0.0%    7.0
+cwi exam cost                                                    0      5   0.0%    6.6
+is radiographic testing slower than other ndt methods            0      5   0.0%    6.4
+offshore ndt technician salary                                   0      5   0.0%    7.8 [COVERED?]
+what is paut                                                     0      5   0.0%   48.8
+
+-- CERTIFICATION QUERIES (api 510/653, asnt, iso 9712, cswip, etc.) --
+api 653                                                          1    205   0.5%   30.6 [COVERED?]
+asnt certification                                               2    195   1.0%    7.6
+api 653 tank inspection                                          0    127   0.0%   21.0 [COVERED?]
+api 653 repairs                                                  0     95   0.0%   38.5 [COVERED?]
+api 570                                                          0     78   0.0%   34.8
+api 570 certification                                            0     76   0.0%    2.8 [COVERED?]
+ultrasonic testing level 1 training                              0     70   0.0%   61.6 [COVERED?]
+api 570 exam schedule 2026                                       0     66   0.0%    7.6
+asnt                                                             0     66   0.0%   18.6
+api 653 inspection                                               0     65   0.0%   22.6 [COVERED?]
+api 510 pressure vessel inspector                                0     57   0.0%   49.4
+api 510 pressure vessel inspection code                          0     56   0.0%   40.8
+api 653 tank                                                     0     54   0.0%   29.8 [COVERED?]
+api 653 course                                                   0     50   0.0%   53.5 [COVERED?]
+api653                                                           0     45   0.0%   24.1
+api 653 certification                                            0     41   0.0%   13.1 [COVERED?]
+api 510 exam pass rate                                           2     40   5.0%    5.5
+api 570 training                                                 0     39   0.0%   52.7
+cwi certification cost                                           0     38   0.0%    5.4
+asnt snt-tc-1a                                                   0     37   0.0%    1.3
+api 653 exam fees                                                0     35   0.0%    5.6 [COVERED?]
+api 653 inspection frequency                                     0     34   0.0%   12.8 [COVERED?]
+api 653 inspection support                                       0     31   0.0%   37.5 [COVERED?]
+api 653 certification cost                                       1     30   3.3%    5.6 [COVERED?]
+what is api 653                                                  0     30   0.0%   31.2 [COVERED?]
+api 653 standard                                                 0     28   0.0%   33.7 [COVERED?]
+api 653 tank inspection companies                                0     28   0.0%   38.6 [COVERED?]
+asnt ndt                                                         0     27   0.0%   12.8
+asnt sertifiointi                                                0     27   0.0%    5.8
+ndt level iii consulting                                         0     27   0.0%   35.6
+api 570 inspector salary                                         0     24   0.0%   17.4
+asnt level 3 exam fees                                           0     24   0.0%    5.0
+api 510                                                          0     23   0.0%   51.8
+api 570 inspection                                               0     21   0.0%   43.7
+api 570 schedule 2026                                            0     20   0.0%    8.0
+asnt certification nationwide contracts                          0     20   0.0%   23.9
+iso 9712 vs asnt                                                 1     19   5.3%    3.2
+ndt technician asnt level ii salary eastern province saudi a     0     19   0.0%   11.7 [COVERED?]
+api 653 requirements                                             0     18   0.0%   20.6 [COVERED?]
+non destructive testing level 3 consulting services              0     18   0.0%   14.7
+api 510 certification cost                                       0     17   0.0%    9.1 [COVERED?]
+snt-tc-1a                                                        0     17   0.0%    3.2
+api 570 certification requirements                               0     16   0.0%    7.6 [COVERED?]
+api 653 inspection services                                      0     15   0.0%   11.9 [COVERED?]
+api 653 tank inspection frequency                                0     15   0.0%   10.7 [COVERED?]
+tank inspection api 653                                          0     15   0.0%   28.3 [COVERED?]
+api 653 latest edition                                           0     14   0.0%   55.1 [COVERED?]
+asnt ndt certification                                           0     14   0.0%   21.1
+pressure vessel certification training                           0     14   0.0%   38.4
+api 570 piping inspection specialist certification               0     13   0.0%   11.4 [COVERED?]
+api 510 bok 2026                                                 0     12   0.0%    6.9
+api 653 compliant tank repair                                    0     12   0.0%   18.7 [COVERED?]
+api 653 tank inspections                                         0     12   0.0%   37.7 [COVERED?]
+api 653 training                                                 0     12   0.0%   34.0 [COVERED?]
+what is api 570 certification                                    0     12   0.0%    6.3 [COVERED?]
+api 653 exam                                                     1     11   9.1%    8.9 [COVERED?]
+api 653 exam pass rate                                           2     10  20.0%    3.5 [COVERED?]
+api 653 inspections                                              0     10   0.0%   34.1 [COVERED?]
+api 653 tank repair                                              0     10   0.0%   39.9 [COVERED?]
+asnt accp                                                        0     10   0.0%    7.2
+asnt level iii consulting                                        0     10   0.0%   22.8
+asnt tc 1a                                                       0      9   0.0%    1.0
+api 510 inspection                                               0      8   0.0%   59.8
+api 653 tank inspection requirements                             0      8   0.0%    5.9 [COVERED?]
+asnt level 1                                                     0      8   0.0%   24.6
+asnt level 3 renewal fees                                        0      8   0.0%    4.1
+cp 189 latest edition                                            0      8   0.0%    9.0
+cwi certification                                                0      8   0.0%   13.9
+ndt degree vs certification                                      0      8   0.0%   16.2
+snt tc 1a                                                        0      8   0.0%   10.0
+snt-tc-1a 2024 pdf                                               0      8   0.0%    2.0
+accp level 2                                                     0      7   0.0%    7.0
+aws cwi pricing                                                  0      7   0.0%    3.1
+aws cwis nationwide contracts requirements                       0      7   0.0%    7.6
+ultrasonic testing certification online                          0      7   0.0%   56.7 [COVERED?]
+api 510 certification                                            0      6   0.0%   37.5 [COVERED?]
+api 510 pressure vessel inspection certification requirement     0      6   0.0%   16.0 [COVERED?]
+api 570 exam pass rate                                           0      6   0.0%    7.0
+api 570 piping inspection code                                   0      6   0.0%   31.3
+api 570 piping inspector certification requirements              0      6   0.0%   10.5 [COVERED?]
+api 653 inspection standards                                     0      6   0.0%   37.3 [COVERED?]
+api 653 standards                                                0      6   0.0%   27.7 [COVERED?]
+api 653 tank inspection checklist                                0      6   0.0%   46.0 [COVERED?]
+asnt certificate                                                 0      6   0.0%   15.0
+ndt certification nationwide contracts                           0      6   0.0%   46.8
+ndt level 1 salary                                               0      6   0.0%    5.3 [COVERED?]
+what is asnt                                                     0      6   0.0%    2.2
+api 570 piping system inspection requirements                    0      5   0.0%   20.0
+api 653 certified inspector                                      0      5   0.0%   24.6 [COVERED?]
+api 653 inspection checklist                                     0      5   0.0%   44.4 [COVERED?]
+api 653 storage tank inspection certification                    0      5   0.0%   12.2 [COVERED?]
+asnt certification requirements                                  0      5   0.0%    7.0
+professional ndt training and certification programs near me     0      5   0.0%    6.8
+
+==========================================================================================
+https://ndt-connect.com � 90d (2026-02-05 to 2026-05-06)
+  totals: {'clicks': 35, 'impressions': 3563}
+==========================================================================================
+
+-- TOP 60 by IMPRESSIONS --
+query                                                          clk   impr   ctr%    pos
+phased array ndt                                                 0     76   0.0%   56.5
+phased array ultrasonic testing                                  0     66   0.0%   60.0 [COVERED?]
+ntd connect                                                      0     47   0.0%    3.1
+ultrasonic testing services                                      0     28   0.0%   56.0 [COVERED?]
+link up registered ndt services                                  0     27   0.0%   15.1
+ndt inspection cost                                              0     25   0.0%   13.4
+ndt stutensee                                                    0     25   0.0%   63.9
+radiographic testing houston                                     0     24   0.0%   12.0
+paut ndt                                                         0     23   0.0%   27.1
+ndt ports                                                        0     22   0.0%   70.5
+connect ndt                                                      0     20   0.0%    6.5
+paut                                                             0     20   0.0%   66.9
+phased array ut                                                  0     17   0.0%   69.5
+mfl pipeline inspection services indonesia                       0     16   0.0%    4.2
+paut ndt testing                                                 0     15   0.0%   50.8
+mfl pipeline inspection service                                  0     14   0.0%   66.6
+ndt net                                                          0     14   0.0%   29.4
+magnetic testing                                                 0     13   0.0%   61.0
+ndt services london                                              0     13   0.0%   32.5
+paut inspection                                                  0     13   0.0%   48.8
+paut inspection services qatar                                   0     13   0.0%    7.8
+paut equipment                                                   0     12   0.0%   45.0
+paut testing                                                     0     12   0.0%   44.7
+phased array ultrasonic testing procedure                        0     12   0.0%   45.1 [COVERED?]
+ultrasonic thickness inspection services                         0     12   0.0%   80.8
+ndt for power generation industry                                0     11   0.0%   19.2
+ndt login                                                        0     11   0.0%   11.5
+paut phased array ultrasonic testing                             0     11   0.0%   47.0 [COVERED?]
+paut vs rt                                                       0     11   0.0%    9.1 [COVERED?]
+phased array ultrasonic inspection                               0     11   0.0%   53.2
+phased array ultrasonic testing equipment                        0     11   0.0%   64.7 [COVERED?]
+ut inspection services                                           0     11   0.0%   41.9
+particle testing                                                 0     10   0.0%   77.0
+paut-scanner                                                     0     10   0.0%   47.6
+radiographic testing                                             0     10   0.0%   81.3
+cost of ultrasonic testing equipment                             0      9   0.0%   35.3 [COVERED?]
+phased array testing                                             0      9   0.0%   65.9
+phased array ultrasonic testing machine                          0      9   0.0%   63.3 [COVERED?]
+phased array ultrasonics                                         0      9   0.0%   73.2
+ultrasonic testing cost                                          0      9   0.0%   23.3 [COVERED?]
+phase to ray ultrasonic testing                                  0      8   0.0%   79.9 [COVERED?]
+rt vs ut                                                         0      8   0.0%   17.2 [COVERED?]
+ultrasonic testing companies                                     0      8   0.0%   74.9 [COVERED?]
+ndt phased array                                                 0      7   0.0%   56.6
+nondestructive testing phased array                              0      7   0.0%   68.0
+paut scanner                                                     0      7   0.0%   56.9
+phase array ultrasonic testing                                   0      7   0.0%   60.1 [COVERED?]
+phased array ultrasonic testing vs radiography                   0      7   0.0%   11.0 [COVERED?]
+ultrasonic inspection services                                   0      7   0.0%   44.0
+ut phased array                                                  0      7   0.0%   58.3
+disadvantages of phased array ultrasonic testing                 0      6   0.0%   33.0 [COVERED?]
+guided wave ut system cost                                       0      6   0.0%   16.2
+magnetic particle inspection services                            0      6   0.0%   22.0
+ndt metrics                                                      0      6   0.0%   20.3
+ndt power monitoring                                             0      6   0.0%   16.2
+ndt price list                                                   0      6   0.0%   15.8
+ndt sales                                                        0      6   0.0%   67.3
+ndt technologies                                                 0      6   0.0%   91.7
+phased array ultrasound technique                                0      6   0.0%   46.0
+power station ndt                                                0      6   0.0%   32.2
+
+-- QUESTION QUERIES (what/how/why/which/can/is/does/pass rate/exam/pattern) --
+ndt inspection cost                                              0     25   0.0%   13.4
+paut vs rt                                                       0     11   0.0%    9.1 [COVERED?]
+cost of ultrasonic testing equipment                             0      9   0.0%   35.3 [COVERED?]
+ultrasonic testing cost                                          0      9   0.0%   23.3 [COVERED?]
+rt vs ut                                                         0      8   0.0%   17.2 [COVERED?]
+phased array ultrasonic testing vs radiography                   0      7   0.0%   11.0 [COVERED?]
+guided wave ut system cost                                       0      6   0.0%   16.2
+what is phased array ultrasonic testing                          0      6   0.0%   63.2 [COVERED?]
+what is paut                                                     0      5   0.0%   54.8
+
+-- CERTIFICATION QUERIES (api 510/653, asnt, iso 9712, cswip, etc.) --
+
+==========================================================================================
+https://ndt-connect.com � 28d (2026-04-08 to 2026-05-06)
+  totals: {'clicks': 22, 'impressions': 2180}
+==========================================================================================
+
+-- TOP 60 by IMPRESSIONS --
+query                                                          clk   impr   ctr%    pos
+ndt inspection cost                                              0     25   0.0%   13.4
+ndt stutensee                                                    0     25   0.0%   63.9
+ultrasonic testing services                                      0     21   0.0%   53.1 [COVERED?]
+link up registered ndt services                                  0     17   0.0%   15.5
+radiographic testing houston                                     0     17   0.0%   11.6
+mfl pipeline inspection services indonesia                       0     12   0.0%    4.1
+ndt net                                                          0     12   0.0%   29.8
+ndt login                                                        0     11   0.0%   11.5
+paut inspection services qatar                                   0     11   0.0%    8.0
+paut vs rt                                                       0     11   0.0%    9.1 [COVERED?]
+ndt for power generation industry                                0     10   0.0%   19.1
+ndt ports                                                        0      9   0.0%   74.2
+ut inspection services                                           0      9   0.0%   40.2
+connect ndt                                                      0      8   0.0%    5.8
+phased array ndt                                                 0      8   0.0%   53.8
+rt vs ut                                                         0      8   0.0%   17.2 [COVERED?]
+phased array ultrasonic testing vs radiography                   0      7   0.0%   11.0 [COVERED?]
+disadvantages of phased array ultrasonic testing                 0      6   0.0%   33.0 [COVERED?]
+ndt sales                                                        0      6   0.0%   67.3
+phased array ultrasonic testing                                  0      6   0.0%   69.7 [COVERED?]
+powergen ndt solutions                                           0      6   0.0%   13.8
+ultrasonic testing companies                                     0      6   0.0%   76.3 [COVERED?]
+ultrasonic testing cost                                          0      6   0.0%   11.8 [COVERED?]
+cost of ultrasonic testing equipment                             0      5   0.0%   35.6 [COVERED?]
+guided wave ut system cost                                       0      5   0.0%   17.0
+ndt for power generation                                         0      5   0.0%   19.0
+ndt metrics                                                      0      5   0.0%    8.8
+ndt power monitoring                                             0      5   0.0%   16.6
+ndt price list                                                   0      5   0.0%   16.0
+ntd connect                                                      0      5   0.0%    1.8
+power station ndt                                                0      5   0.0%   30.0
+ultrasonic inspection services                                   0      5   0.0%   51.2
+ultrasonic thickness inspection services                         0      5   0.0%   80.4
+low cost ultra sonic testing                                     0      4   0.0%   14.0
+paut ndt                                                         0      4   0.0%   17.8
+radiography vs ultrasonic testing                                0      4   0.0%   21.0 [COVERED?]
+magnetic flux leakage inspection in saudi arabia                 0      3   0.0%   37.0
+ndt network                                                      0      3   0.0%   20.7
+paut                                                             0      3   0.0%   79.0
+paut testing                                                     0      3   0.0%   55.3
+phase ray ndt                                                    0      3   0.0%   25.7
+phased array ultrasound technique                                0      3   0.0%   29.7
+visual inspection ndt                                            0      3   0.0%   63.3
+weld inclusion                                                   0      3   0.0%   59.7
+difference between ultrasonic testing and radiographic testi     0      2   0.0%   21.0 [COVERED?]
+magnetic testing                                                 0      2   0.0%   59.0
+ndt networking organizations for inspection and testing prof     0      2   0.0%    9.0
+ndt price                                                        0      2   0.0%   64.5
+ndt technologies                                                 0      2   0.0%   93.5
+ndt website                                                      0      2   0.0%   85.0
+non destructive inspection brisbane                              0      2   0.0%   45.0
+particle testing                                                 0      2   0.0%   76.0
+phased array ut                                                  0      2   0.0%   64.5
+rt inspector                                                     0      2   0.0%    8.0
+tofd ultrasonic testing                                          0      2   0.0%   67.0 [COVERED?]
+advanced phased array ut                                         0      1   0.0%   15.0
+apin ndt inspections                                             0      1   0.0%   25.0
+average cost per hour                                            0      1   0.0%    7.0
+can ndt                                                          0      1   0.0%   82.0
+casting inclusion                                                0      1   0.0%   65.0
+
+-- QUESTION QUERIES (what/how/why/which/can/is/does/pass rate/exam/pattern) --
+ndt inspection cost                                              0     25   0.0%   13.4
+paut vs rt                                                       0     11   0.0%    9.1 [COVERED?]
+rt vs ut                                                         0      8   0.0%   17.2 [COVERED?]
+phased array ultrasonic testing vs radiography                   0      7   0.0%   11.0 [COVERED?]
+ultrasonic testing cost                                          0      6   0.0%   11.8 [COVERED?]
+cost of ultrasonic testing equipment                             0      5   0.0%   35.6 [COVERED?]
+guided wave ut system cost                                       0      5   0.0%   17.0
+
+-- CERTIFICATION QUERIES (api 510/653, asnt, iso 9712, cswip, etc.) --
+

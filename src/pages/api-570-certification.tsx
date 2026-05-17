@@ -365,6 +365,26 @@ export default function API570Certification() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema570Cert) }}
             />
 
+            {/* 2026-05-17 additive: Related API 570 guides */}
+            <section className="bg-slate-50 py-12">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-2xl font-bold mb-6 text-slate-900">More API 570 Resources (2026)</h2>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <Link to="/blog/api-icp-pass-rates-510-vs-570-vs-653-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 570 Pass Rate 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">510 vs 570 vs 653 pass rates compared with retake stats</p>
+                        </Link>
+                        <Link to="/blog/api-510-570-653-exam-schedule-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 570 Exam Schedule 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">Application deadlines, exam windows, result dates</p>
+                        </Link>
+                        <Link to="/blog/api-570-inspector-salary-2026-by-region-experience" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 570 Inspector Salary 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">USA, Gulf, India salary by experience + Triple Crown premium</p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
             <ContactDetails />
         </div>
     );

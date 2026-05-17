@@ -419,6 +419,26 @@ export default function API510Certification() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema510Cert) }}
             />
 
+            {/* 2026-05-17 additive: Related API 510 guides */}
+            <section className="bg-slate-50 py-12">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-2xl font-bold mb-6 text-slate-900">More API 510 Resources (2026)</h2>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <Link to="/blog/api-icp-pass-rates-510-vs-570-vs-653-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 510 Pass Rate 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">510 vs 570 vs 653 first-time vs overall pass rates, retake data</p>
+                        </Link>
+                        <Link to="/blog/api-510-570-653-exam-schedule-2026" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 510 Exam Schedule 2026</h3>
+                            <p className="text-slate-600 text-sm mt-2">Application deadlines, exam windows, result dates — 2026 timeline</p>
+                        </Link>
+                        <Link to="/blog/api-510-body-of-knowledge-2026-changes-explained" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <h3 className="font-bold group-hover:text-blue-600 transition">API 510 BoK 2026 Changes</h3>
+                            <p className="text-slate-600 text-sm mt-2">Topic weights, what changed in Sept 2025 BoK edition</p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
             <ContactDetails />
         </div>
     );
