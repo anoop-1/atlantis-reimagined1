@@ -4,40 +4,45 @@
 - Topic: pressure vessel inspection
 - Audience: API 510 inspectors, fixed-equipment engineers, OEM QA leads
 - Container: `/operation`
-- Generated at: 2026-05-09T13:46:01.952Z
+- Generated at: 2026-05-23T04:02:46.118Z
 
 ## New articles written (5)
 
-- **API 510 Internal vs External Inspection: Choosing the Right Approach** — 2042 words — `/operation/api-510-internal-vs-external-inspection-decision` — by Inga Sørensen, API 510 Inspector (2024-09-25)
-- **ASME Section VIII Fabrication NDT Requirements: A Walkthrough** — 2041 words — `/operation/asme-section-viii-fabrication-ndt-requirements-walkthrough` — by Vikram Sahota, Welding Engineer (2025-02-19)
-- **Reformer Tubes Creep Damage Monitoring: Strategies That Work** — 2456 words — `/operation/reformer-tubes-creep-damage-monitoring-strategies` — by Inga Sørensen, API 510 Inspector (2025-07-15)
-- **Corrosion Monitoring Locations (CMLs): A Selection Guide for Pressure Vessels** — 2269 words — `/operation/corrosion-monitoring-locations-cml-selection-guide` — by Vikram Sahota, Welding Engineer (2025-12-03)
-- **Long-Range UT Screening for Pressure Vessels: When It Adds Real Value** — 1540 words — `/operation/long-range-ut-screening-pressure-vessels` — by Inga Sørensen, API 510 Inspector (2026-04-22)
+- **API 510 Internal vs External Inspection: Choosing the Right Approach** — 2043 words — `/operation/api-510-internal-vs-external-inspection-decision` — by Inga Sørensen, API 510 Inspector (2024-09-25)
+- **ASME Section VIII Fabrication NDT Requirements: A Walkthrough** — 2042 words — `/operation/asme-section-viii-fabrication-ndt-requirements-walkthrough` — by Vikram Sahota, Welding Engineer (2025-02-19)
+- **Reformer Tubes Creep Damage Monitoring: Strategies That Work** — 2463 words — `/operation/reformer-tubes-creep-damage-monitoring-strategies` — by Inga Sørensen, API 510 Inspector (2025-07-15)
+- **Corrosion Monitoring Locations (CMLs): A Selection Guide for Pressure Vessels** — 2296 words — `/operation/corrosion-monitoring-locations-cml-selection-guide` — by Vikram Sahota, Welding Engineer (2025-12-03)
+- **Long-Range UT Screening for Pressure Vessels: When It Adds Real Value** — 1545 words — `/operation/long-range-ut-screening-pressure-vessels` — by Inga Sørensen, API 510 Inspector (2026-04-22)
 
 ## Backlink summary
 
-- Internal (atlantisndt / ndt-connect) backlinks: **5**
+- Internal (atlantisndt / ndt-connect) backlinks: **10**
 - External authority (ASNT / API / AMPP / etc) backlinks: **6**
-- Average article length: **2070 words**
+- Average article length: **2078 words**
 
 ## Backlink detail
 
 ### API 510 Internal vs External Inspection: Choosing the Right Approach
 - [internal] `the pressure vessel inspection and compliance overview` → https://atlantisndt.com/blog/pressure-vessel-inspection-and-compliance
 - [external authority] `the NADCAP audit programme overview` → https://www.nadcap.com/
+- [internal] `the affordable NDT ERP option for east chicago` → https://atlantisndt.com/ndt-erp-east-chicago
 ### ASME Section VIII Fabrication NDT Requirements: A Walkthrough
 - [internal] `the ASME Section VIII Division 1 NDT requirements` → https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt
 - [external authority] `DNV asset integrity services portfolio` → https://www.dnv.com/services/structural-and-asset-integrity-services-2293
+- [internal] `the pos for ndt companies resource on Atlantis NDT` → https://atlantisndt.com/erp/pos-for-ndt-companies
 ### Reformer Tubes Creep Damage Monitoring: Strategies That Work
 - [internal] `the PAUT technology overview` → https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide
 - [external authority] `the ASNT body of knowledge resources` → https://www.asnt.org/
+- [internal] `the long-form article on ai predictive maintenance digital twins aviation ndt` → https://atlantisndt.com/blog/ai-predictive-maintenance-digital-twins-aviation-ndt
 ### Corrosion Monitoring Locations (CMLs): A Selection Guide for Pressure Vessels
 - [internal] `the ultrasonic thickness measurement guide` → https://atlantisndt.com/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide
 - [external authority] `the IMCA technical resources for offshore work` → https://www.imca-int.com/
 - [external authority] `the NRC operating experience archive` → https://www.nrc.gov/reactors/operating/ops-experience.html
+- [internal] `the odoo vs sap vs netsuite erp comparison 2026 reference` → https://atlantisndt.com/blog/odoo-vs-sap-vs-netsuite-erp-comparison-2026
 ### Long-Range UT Screening for Pressure Vessels: When It Adds Real Value
 - [internal] `the guided wave testing primer` → https://atlantisndt.com/blog/guided-wave-testing-for-pipeline-inspection
 - [external authority] `NRC operating experience reports` → https://www.nrc.gov/reactors/operating/ops-experience.html
+- [internal] `the accounting ndt inspection companies perth resource on Atlantis NDT` → https://atlantisndt.com/erp/accounting-ndt-inspection-companies-perth
 
 ## Files touched
 

@@ -106,7 +106,8 @@ export default function ArticlePage() {
 <p>Best practice is a Level III for the NDT decision and a fixed-equipment or integrity engineer (PE/CEng) for the fitness decision. The two are different decisions even when they share the same data.</p>
 <h3>What changes when the asset is in a regulated environment?</h3>
 <p>The data you keep, how long you keep it, and who can review it. The technical work usually does not change much — the documentation effort goes up significantly.</p><h2>Closing thoughts</h2>
-<p>If we had to summarize asme section v in one line it would be this: <strong>the technique matters less than the decision discipline around it.</strong> Teams that consistently choose the right technique are usually teams that have invested in writing down their decision rationale, qualifying their procedures with care, and keeping their inspectors current. Equipment and software change every few years; that discipline does not.</p><h3>How ASME Section V fits into the bigger picture</h3>
+<p>If we had to summarize asme section v in one line it would be this: <strong>the technique matters less than the decision discipline around it.</strong> Teams that consistently choose the right technique are usually teams that have invested in writing down their decision rationale, qualifying their procedures with care, and keeping their inspectors current. Equipment and software change every few years; that discipline does not.</p>
+<p>Practical teams often cross-reference <a href="https://atlantisndt.com/digital-twins" rel="noopener">the digital twin platform overview</a> to align their practice with what is already published in the wider community.</p><h3>How ASME Section V fits into the bigger picture</h3>
 <p>It is easy to study ASME Section V as an isolated subject — most courses do exactly that — but the engineering value only appears when you place ASME Section V alongside the other levers your program already uses. Practical teams often cross-reference <a href="https://atlantisndt.com/blog/ndt-procedure-writing-guide-asme-section-v" rel="noopener">a worked example of an ASME Section V procedure</a> to align their practice with what is already published in the wider community. For most NDT technicians the question is not "what is ASME Section V?" but "where does ASME Section V sit in our existing program, and what does it replace or complement?". That framing usually changes the procurement conversation, the training conversation, and the audit conversation in the same direction.</p>
 <p>If your team is being asked to justify investment in ASME Section V, the easiest place to start is a one-page side-by-side: current state, gap, expected uplift, and the specific risk ranking that improves. The numbers do not have to be precise; they have to be defensible.</p>
 <h3>Operator behaviours that actually move the needle on NDT procedure</h3>
@@ -131,14 +132,6 @@ export default function ArticlePage() {
 <h3>Operator behaviours that actually move the needle on examination procedure</h3>
 <p>Three behaviours we see at high-performing operators consistently show up in examination procedure programs that are working: written rationale for every off-procedure decision; a standing peer-review for indications that drive a fitness call; and a quarterly close-out review where the integrity engineer and the inspection lead sit down with the raw data, not just the summary. None of these behaviours require new hardware. All three improve outcomes more than another tool purchase usually does.</p>
 <p>What we do not see at high-performing operators is over-reliance on a single inspector or a single contractor. Cross-checking — even informally — is the cheapest insurance you can buy on a examination procedure program.</p>
-<h3>Documentation patterns worth borrowing</h3>
-<p>The best WPS NDT documentation packages we have seen share three patterns:</p>
-<ul>
-<li>A short narrative section at the front of every report explaining the inspection objective in plain English. Auditors, regulators, and new hires all read the narrative first.</li>
-<li>A consistent indication-numbering scheme that survives across multiple inspection campaigns, so an indication found in 2024 can be tracked through 2026 and 2028 without renaming.</li>
-<li>An attached "open items" list with target dates, ownership, and the trigger that closes each item. This is the single most useful artifact for a turnaround manager.</li>
-</ul>
-<p>If your current report template is missing one of those, that is the easiest documentation improvement you can make this quarter, and it costs nothing beyond a template update.</p>
 
 <h2>Related on NDT Knowledge Hub</h2>
 <ul>

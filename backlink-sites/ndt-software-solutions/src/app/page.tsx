@@ -1,3 +1,7 @@
+// satellite-enrich: FeaturedArticles component generated at
+// ./_featured-articles.tsx. Import and place inside this file's JSX to
+// surface the new long-form articles on the home page.
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

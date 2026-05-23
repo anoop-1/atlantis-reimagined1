@@ -271,6 +271,9 @@ export const CURATED_CITY_SLUGS: Set<string> = new Set([
   // === ERP Expansion 2026-05-23 (curated) ===
   'baytown', 'pasadena-texas', 'texas-city', 'deer-park', 'la-porte', 'channelview', 'sugar-land', 'pearland', 'conroe', 'galveston', 'port-arthur', 'freeport-texas', 'orange-texas', 'long-beach', 'carson', 'wilmington-california', 'torrance', 'el-segundo', 'vernon', 'richmond-california', 'martinez', 'benicia', 'joliet', 'hammond', 'east-chicago', 'trainer', 'marcus-hook', 'paulsboro', 'linden-nj', 'dearborn', 'monaca', 'clairton', 'jebel-ali', 'mussafah', 'ruwais', 'fujairah', 'khobar', 'ras-tanura', 'khurais', 'shaybah', 'abqaiq', 'riyadh', 'duqm', 'salalah', 'ras-laffan', 'mesaieed', 'al-zour', 'pune', 'vadodara', 'surat', 'visakhapatnam', 'balikpapan', 'cilacap', 'bontang', 'pengerang', 'bintulu', 'kerteh', 'kemaman', 'miri', 'jurong-island', 'port-hedland', 'port-kembla', 'whyalla', 'grangemouth', 'stanlow', 'fawley', 'immingham', 'teesside', 'mongstad', 'karsto', 'trondheim', 'sarnia', 'hamilton-ontario', 'fort-saskatchewan', 'lloydminster', 'texas', 'louisiana', 'california', 'alaska', 'north-dakota', 'ohio', 'pennsylvania', 'alberta', 'ontario', 'iraq', 'kazakhstan', 'azerbaijan', 'turkey', 'greece', 'cyprus', 'israel', 'tunisia', 'mozambique', 'tanzania', 'ghana', 'gabon', 'senegal', 'ivory-coast', 'suriname', 'guyana', 'panama', 'ecuador', 'bangladesh', 'sri-lanka', 'pakistan', 'myanmar', 'mongolia',
 
+  // === Comparison + Industry + State expansion 2026-05-23 ===
+  'maharashtra', 'gujarat', 'tamil-nadu', 'karnataka', 'telangana', 'andhra-pradesh', 'kerala', 'west-bengal',
+  'new-york-state', 'florida', 'illinois', 'michigan', 'colorado',
 ]);
 
 /**
@@ -364,6 +367,9 @@ export const ERP_CITY_PAGE_SLUGS: Set<string> = new Set([
   'uk','usa','vancouver','vietnam','vizag','wellington','yanbu',
   // === ERP Expansion 2026-05-23 ===
   'baytown','pasadena-texas','texas-city','deer-park','la-porte','channelview','sugar-land','pearland','conroe','galveston','port-arthur','freeport-texas','orange-texas','long-beach','carson','wilmington-california','torrance','el-segundo','vernon','richmond-california','martinez','benicia','joliet','hammond','east-chicago','trainer','marcus-hook','paulsboro','linden-nj','dearborn','monaca','clairton','jebel-ali','mussafah','ruwais','fujairah','khobar','ras-tanura','khurais','shaybah','abqaiq','riyadh','duqm','salalah','ras-laffan','mesaieed','al-zour','pune','vadodara','surat','visakhapatnam','balikpapan','cilacap','bontang','pengerang','bintulu','kerteh','kemaman','miri','jurong-island','port-hedland','port-kembla','whyalla','grangemouth','stanlow','fawley','immingham','teesside','mongstad','karsto','trondheim','sarnia','hamilton-ontario','fort-saskatchewan','lloydminster','texas','louisiana','california','alaska','north-dakota','ohio','pennsylvania','alberta','ontario','iraq','kazakhstan','azerbaijan','turkey','greece','cyprus','israel','tunisia','mozambique','tanzania','ghana','gabon','senegal','ivory-coast','suriname','guyana','panama','ecuador','bangladesh','sri-lanka','pakistan','myanmar','mongolia',
+  // === Comparison + Industry + State expansion 2026-05-23 ===
+  'maharashtra','gujarat','tamil-nadu','karnataka','telangana','andhra-pradesh','kerala','west-bengal',
+  'new-york-state','florida','illinois','michigan','colorado',
 ]);
 
 /** Cities that have an /ndt-reporting-{slug} page. */

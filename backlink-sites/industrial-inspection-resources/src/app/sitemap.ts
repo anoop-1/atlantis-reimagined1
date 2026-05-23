@@ -1,87 +1,26 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://industrial-inspection-resources.vercel.app'
-  const today = new Date().toISOString().split('T')[0]
-
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://industrial-inspection-resources.vercel.app';
   return [
-    {
-      url: `${baseUrl}`,
-      lastModified: today,
-      changeFrequency: 'monthly' as const,
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/case-studies`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/industries`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/industries/aerospace-inspection`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/industries/oil-gas-inspection`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/industries/power-generation-inspection`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/standards`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/standards/api-inspection-codes`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/standards/asme-codes-ndt`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/technology`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/technology/digital-twins-asset-management`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/technology/erp-for-inspection-companies`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/technology/ndt-reporting-software`,
-      lastModified: today,
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    },
-  ]
+    { url: `${baseUrl}`, lastModified: '2026-05-23', changeFrequency: 'monthly' as const, priority: 1 },
+    { url: `${baseUrl}/case-studies`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/industries`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/industries/aerospace-inspection`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/industries/oil-gas-inspection`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/industries/power-generation-inspection`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/standards`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/standards/api-inspection-codes`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/standards/asme-codes-ndt`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/technology`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/technology/digital-twins-asset-management`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/technology/erp-for-inspection-companies`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/technology/ndt-reporting-software`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/topics`, lastModified: '2026-05-23', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/topics/cross-sector-ndt-program-benchmarks-2026`, lastModified: '2024-09-04', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/topics/building-an-in-house-vs-outsourced-ndt-program`, lastModified: '2025-02-05', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/topics/integrity-data-management-platforms-buyer-guide`, lastModified: '2025-06-25', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/topics/training-budget-allocation-ndt-team`, lastModified: '2025-10-08', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/topics/iso-9712-vs-asnt-snt-tc-1a-multi-region-teams`, lastModified: '2026-03-12', changeFrequency: 'monthly' as const, priority: 0.7 }
+  ];
 }

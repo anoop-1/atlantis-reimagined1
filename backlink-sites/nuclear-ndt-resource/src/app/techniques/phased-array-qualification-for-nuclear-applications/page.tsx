@@ -106,7 +106,8 @@ export default function ArticlePage() {
 <p>Best practice is a Level III for the NDT decision and a fixed-equipment or integrity engineer (PE/CEng) for the fitness decision. The two are different decisions even when they share the same data.</p>
 <h3>What changes when the asset is in a regulated environment?</h3>
 <p>The data you keep, how long you keep it, and who can review it. The technical work usually does not change much — the documentation effort goes up significantly.</p><h2>Closing thoughts</h2>
-<p>If we had to summarize paut nuclear in one line it would be this: <strong>the technique matters less than the decision discipline around it.</strong> Teams that consistently choose the right technique are usually teams that have invested in writing down their decision rationale, qualifying their procedures with care, and keeping their inspectors current. Equipment and software change every few years; that discipline does not.</p><h3>How PAUT nuclear fits into the bigger picture</h3>
+<p>If we had to summarize paut nuclear in one line it would be this: <strong>the technique matters less than the decision discipline around it.</strong> Teams that consistently choose the right technique are usually teams that have invested in writing down their decision rationale, qualifying their procedures with care, and keeping their inspectors current. Equipment and software change every few years; that discipline does not.</p>
+<p>Practical teams often cross-reference <a href="https://atlantisndt.com/erp" rel="noopener">the Atlantis NDT ERP overview (Odoo apps, $18,000/yr all-in)</a> to align their practice with what is already published in the wider community.</p><h3>How PAUT nuclear fits into the bigger picture</h3>
 <p>It is easy to study PAUT nuclear as an isolated subject — most courses do exactly that — but the engineering value only appears when you place PAUT nuclear alongside the other levers your program already uses. Practical teams often cross-reference <a href="https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose" rel="noopener">the conventional UT vs PAUT decision guide</a> to align their practice with what is already published in the wider community. For most nuclear ISI engineers the question is not "what is PAUT nuclear?" but "where does PAUT nuclear sit in our existing program, and what does it replace or complement?". That framing usually changes the procurement conversation, the training conversation, and the audit conversation in the same direction.</p>
 <p>If your team is being asked to justify investment in PAUT nuclear, the easiest place to start is a one-page side-by-side: current state, gap, expected uplift, and the specific risk ranking that improves. The numbers do not have to be precise; they have to be defensible.</p>
 <h3>Operator behaviours that actually move the needle on phased array qualification</h3>
@@ -131,14 +132,6 @@ export default function ArticlePage() {
 <h3>Operator behaviours that actually move the needle on demonstration block</h3>
 <p>Three behaviours we see at high-performing operators consistently show up in demonstration block programs that are working: written rationale for every off-procedure decision; a standing peer-review for indications that drive a fitness call; and a quarterly close-out review where the integrity engineer and the inspection lead sit down with the raw data, not just the summary. None of these behaviours require new hardware. All three improve outcomes more than another tool purchase usually does.</p>
 <p>What we do not see at high-performing operators is over-reliance on a single inspector or a single contractor. Cross-checking — even informally — is the cheapest insurance you can buy on a demonstration block program.</p>
-<h3>Documentation patterns worth borrowing</h3>
-<p>The best PDI PAUT documentation packages we have seen share three patterns:</p>
-<ul>
-<li>A short narrative section at the front of every report explaining the inspection objective in plain English. Auditors, regulators, and new hires all read the narrative first.</li>
-<li>A consistent indication-numbering scheme that survives across multiple inspection campaigns, so an indication found in 2024 can be tracked through 2026 and 2028 without renaming.</li>
-<li>An attached "open items" list with target dates, ownership, and the trigger that closes each item. This is the single most useful artifact for a turnaround manager.</li>
-</ul>
-<p>If your current report template is missing one of those, that is the easiest documentation improvement you can make this quarter, and it costs nothing beyond a template update.</p>
 
 <h2>Related on Nuclear NDT Resource</h2>
 <ul>

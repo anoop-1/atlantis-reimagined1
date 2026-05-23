@@ -4,21 +4,21 @@
 - Topic: nuclear NDT and ASME Section XI
 - Audience: nuclear ISI engineers, ASME XI inspectors, regulatory specialists
 - Container: `/techniques`
-- Generated at: 2026-05-09T13:46:01.863Z
+- Generated at: 2026-05-23T04:02:46.029Z
 
 ## New articles written (5)
 
-- **ASME Section XI ISI Program Essentials for Class 1 Components** — 2277 words — `/techniques/asme-section-xi-isi-program-essentials` — by Dr. Eve Lindberg, ASNT NDT Level III (2024-07-17)
-- **Reactor Vessel Head Penetration Inspection: PDI Qualification Explained** — 2473 words — `/techniques/reactor-vessel-head-penetration-inspection-pdi-qualification` — by Toshio Hamada, ASNT NDT Level III (2025-02-12)
-- **Piping Weld Inspection: ASME XI Class 1 vs Class 2 Rules** — 2038 words — `/techniques/piping-weld-inspection-class-1-vs-class-2-rules` — by Dr. Eve Lindberg, ASNT NDT Level III (2025-08-04)
-- **Small Modular Reactor (SMR) NDT: Emerging Considerations** — 2463 words — `/techniques/small-modular-reactor-smr-ndt-emerging-considerations` — by Toshio Hamada, ASNT NDT Level III (2026-02-26)
-- **Phased Array Qualification for Nuclear Applications: Building a Demonstration Block** — 2267 words — `/techniques/phased-array-qualification-for-nuclear-applications` — by Dr. Eve Lindberg, ASNT NDT Level III (2026-04-15)
+- **ASME Section XI ISI Program Essentials for Class 1 Components** — 2306 words — `/techniques/asme-section-xi-isi-program-essentials` — by Dr. Eve Lindberg, ASNT NDT Level III (2024-07-17)
+- **Reactor Vessel Head Penetration Inspection: PDI Qualification Explained** — 2495 words — `/techniques/reactor-vessel-head-penetration-inspection-pdi-qualification` — by Toshio Hamada, ASNT NDT Level III (2025-02-12)
+- **Piping Weld Inspection: ASME XI Class 1 vs Class 2 Rules** — 2037 words — `/techniques/piping-weld-inspection-class-1-vs-class-2-rules` — by Dr. Eve Lindberg, ASNT NDT Level III (2025-08-04)
+- **Small Modular Reactor (SMR) NDT: Emerging Considerations** — 2485 words — `/techniques/small-modular-reactor-smr-ndt-emerging-considerations` — by Toshio Hamada, ASNT NDT Level III (2026-02-26)
+- **Phased Array Qualification for Nuclear Applications: Building a Demonstration Block** — 2169 words — `/techniques/phased-array-qualification-for-nuclear-applications` — by Dr. Eve Lindberg, ASNT NDT Level III (2026-04-15)
 
 ## Backlink summary
 
-- Internal (atlantisndt / ndt-connect) backlinks: **7**
+- Internal (atlantisndt / ndt-connect) backlinks: **12**
 - External authority (ASNT / API / AMPP / etc) backlinks: **7**
-- Average article length: **2304 words**
+- Average article length: **2298 words**
 
 ## Backlink detail
 
@@ -26,21 +26,26 @@
 - [internal] `the nuclear NDT compliance reference` → https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance
 - [internal] `the ASME Section V requirements digest` → https://atlantisndt.com/blog/asme-section-v-ndt-requirements-guide
 - [external authority] `the NRC operating experience archive` → https://www.nrc.gov/reactors/operating/ops-experience.html
+- [internal] `Atlantis NDT's working notes on affordable erp alternative sap oracle netsuite comparison` → https://atlantisndt.com/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison
 ### Reactor Vessel Head Penetration Inspection: PDI Qualification Explained
 - [internal] `the PAUT technology overview for nuclear scope` → https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide
 - [external authority] `the NRC operating experience archive` → https://www.nrc.gov/reactors/operating/ops-experience.html
 - [external authority] `AMPP (Association for Materials Protection and Performance)` → https://www.ampp.org/
+- [internal] `the digital twin platform overview` → https://atlantisndt.com/digital-twins
 ### Piping Weld Inspection: ASME XI Class 1 vs Class 2 Rules
 - [internal] `the ASME Section V procedure-writing reference` → https://atlantisndt.com/blog/ndt-procedure-writing-guide-asme-section-v
 - [external authority] `the NRC operating experience archive` → https://www.nrc.gov/reactors/operating/ops-experience.html
+- [internal] `the NDT ERP solution overview` → https://atlantisndt.com/ndt-erp-solution
 ### Small Modular Reactor (SMR) NDT: Emerging Considerations
 - [internal] `the wider nuclear NDT compliance article` → https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance
 - [external authority] `the AWS standards catalog` → https://www.aws.org/standards
 - [external authority] `the NADCAP audit programme overview` → https://www.nadcap.com/
+- [internal] `the digital twin platform overview` → https://atlantisndt.com/digital-twins
 ### Phased Array Qualification for Nuclear Applications: Building a Demonstration Block
 - [internal] `the complete PAUT technical guide` → https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide
 - [internal] `the conventional UT vs PAUT decision guide` → https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose
 - [external authority] `the AWS standards catalog` → https://www.aws.org/standards
+- [internal] `the Atlantis NDT ERP overview (Odoo apps, $18,000/yr all-in)` → https://atlantisndt.com/erp
 
 ## Files touched
 

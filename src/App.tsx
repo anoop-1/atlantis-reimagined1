@@ -1367,6 +1367,34 @@ const NDTErp_sri_lanka = lazy(() => import("./pages/ndt-erp-sri-lanka"));
 const NDTErp_pakistan = lazy(() => import("./pages/ndt-erp-pakistan"));
 const NDTErp_myanmar = lazy(() => import("./pages/ndt-erp-myanmar"));
 const NDTErp_mongolia = lazy(() => import("./pages/ndt-erp-mongolia"));
+// === Comparison + Industry + State expansion 2026-05-23 ===
+const OdooVsSAPNdtCompanies = lazy(() => import("./pages/erp/odoo-vs-sap-ndt-companies"));
+const OdooVsNetSuiteNdtCompanies = lazy(() => import("./pages/erp/odoo-vs-netsuite-ndt-companies"));
+const OdooVsOracleNdtCompanies = lazy(() => import("./pages/erp/odoo-vs-oracle-ndt-companies"));
+const CrmForPipelineIntegrityServices = lazy(() => import("./pages/erp/crm-for-pipeline-integrity-services"));
+const CmmsForAerospaceQualityControl = lazy(() => import("./pages/erp/cmms-for-aerospace-quality-control"));
+const QualityManagementForWeldingFabricationShops = lazy(() => import("./pages/erp/quality-management-for-welding-fabrication-shops"));
+const ProjectManagementForOilfieldServices = lazy(() => import("./pages/erp/project-management-for-oilfield-services"));
+const CertificationTrackingForCalibrationLaboratories = lazy(() => import("./pages/erp/certification-tracking-for-calibration-laboratories"));
+const InventoryManagementForMarineSurveyCompanies = lazy(() => import("./pages/erp/inventory-management-for-marine-survey-companies"));
+const FieldServiceForConstructionQualityAssurance = lazy(() => import("./pages/erp/field-service-for-construction-quality-assurance"));
+const AuditManagementForMetrologyLaboratories = lazy(() => import("./pages/erp/audit-management-for-metrology-laboratories"));
+const DocumentControlForEnvironmentalTestingLabs = lazy(() => import("./pages/erp/document-control-for-environmental-testing-labs"));
+const HrPayrollForGeotechnicalEngineering = lazy(() => import("./pages/erp/hr-payroll-for-geotechnical-engineering"));
+const NDTErp_maharashtra = lazy(() => import("./pages/ndt-erp-maharashtra"));
+const NDTErp_gujarat = lazy(() => import("./pages/ndt-erp-gujarat"));
+const NDTErp_tamil_nadu = lazy(() => import("./pages/ndt-erp-tamil-nadu"));
+const NDTErp_karnataka = lazy(() => import("./pages/ndt-erp-karnataka"));
+const NDTErp_telangana = lazy(() => import("./pages/ndt-erp-telangana"));
+const NDTErp_andhra_pradesh = lazy(() => import("./pages/ndt-erp-andhra-pradesh"));
+const NDTErp_kerala = lazy(() => import("./pages/ndt-erp-kerala"));
+const NDTErp_west_bengal = lazy(() => import("./pages/ndt-erp-west-bengal"));
+const NDTErp_new_york_state = lazy(() => import("./pages/ndt-erp-new-york-state"));
+const NDTErp_florida = lazy(() => import("./pages/ndt-erp-florida"));
+const NDTErp_illinois = lazy(() => import("./pages/ndt-erp-illinois"));
+const NDTErp_michigan = lazy(() => import("./pages/ndt-erp-michigan"));
+const NDTErp_colorado = lazy(() => import("./pages/ndt-erp-colorado"));
+// === END Comparison + Industry + State expansion 2026-05-23 ===
 const CrmForNdtCompanies = lazy(() => import("./pages/erp/crm-for-ndt-companies"));
 const EmailMarketingSoftwareForNdt = lazy(() => import("./pages/erp/email-marketing-software-for-ndt"));
 const MarketingAutomationForNdtCompanies = lazy(() => import("./pages/erp/marketing-automation-for-ndt-companies"));
@@ -3915,6 +3943,34 @@ const App = () => (
                   <Route path="/ndt-erp-pakistan" element={<LazyRoute Component={NDTErp_pakistan} />} />
                   <Route path="/ndt-erp-myanmar" element={<LazyRoute Component={NDTErp_myanmar} />} />
                   <Route path="/ndt-erp-mongolia" element={<LazyRoute Component={NDTErp_mongolia} />} />
+                  {/* === Comparison + Industry + State expansion 2026-05-23 === */}
+                  <Route path="/erp/odoo-vs-sap-ndt-companies" element={<LazyRoute Component={OdooVsSAPNdtCompanies} />} />
+                  <Route path="/erp/odoo-vs-netsuite-ndt-companies" element={<LazyRoute Component={OdooVsNetSuiteNdtCompanies} />} />
+                  <Route path="/erp/odoo-vs-oracle-ndt-companies" element={<LazyRoute Component={OdooVsOracleNdtCompanies} />} />
+                  <Route path="/erp/crm-for-pipeline-integrity-services" element={<LazyRoute Component={CrmForPipelineIntegrityServices} />} />
+                  <Route path="/erp/cmms-for-aerospace-quality-control" element={<LazyRoute Component={CmmsForAerospaceQualityControl} />} />
+                  <Route path="/erp/quality-management-for-welding-fabrication-shops" element={<LazyRoute Component={QualityManagementForWeldingFabricationShops} />} />
+                  <Route path="/erp/project-management-for-oilfield-services" element={<LazyRoute Component={ProjectManagementForOilfieldServices} />} />
+                  <Route path="/erp/certification-tracking-for-calibration-laboratories" element={<LazyRoute Component={CertificationTrackingForCalibrationLaboratories} />} />
+                  <Route path="/erp/inventory-management-for-marine-survey-companies" element={<LazyRoute Component={InventoryManagementForMarineSurveyCompanies} />} />
+                  <Route path="/erp/field-service-for-construction-quality-assurance" element={<LazyRoute Component={FieldServiceForConstructionQualityAssurance} />} />
+                  <Route path="/erp/audit-management-for-metrology-laboratories" element={<LazyRoute Component={AuditManagementForMetrologyLaboratories} />} />
+                  <Route path="/erp/document-control-for-environmental-testing-labs" element={<LazyRoute Component={DocumentControlForEnvironmentalTestingLabs} />} />
+                  <Route path="/erp/hr-payroll-for-geotechnical-engineering" element={<LazyRoute Component={HrPayrollForGeotechnicalEngineering} />} />
+                  <Route path="/ndt-erp-maharashtra" element={<LazyRoute Component={NDTErp_maharashtra} />} />
+                  <Route path="/ndt-erp-gujarat" element={<LazyRoute Component={NDTErp_gujarat} />} />
+                  <Route path="/ndt-erp-tamil-nadu" element={<LazyRoute Component={NDTErp_tamil_nadu} />} />
+                  <Route path="/ndt-erp-karnataka" element={<LazyRoute Component={NDTErp_karnataka} />} />
+                  <Route path="/ndt-erp-telangana" element={<LazyRoute Component={NDTErp_telangana} />} />
+                  <Route path="/ndt-erp-andhra-pradesh" element={<LazyRoute Component={NDTErp_andhra_pradesh} />} />
+                  <Route path="/ndt-erp-kerala" element={<LazyRoute Component={NDTErp_kerala} />} />
+                  <Route path="/ndt-erp-west-bengal" element={<LazyRoute Component={NDTErp_west_bengal} />} />
+                  <Route path="/ndt-erp-new-york-state" element={<LazyRoute Component={NDTErp_new_york_state} />} />
+                  <Route path="/ndt-erp-florida" element={<LazyRoute Component={NDTErp_florida} />} />
+                  <Route path="/ndt-erp-illinois" element={<LazyRoute Component={NDTErp_illinois} />} />
+                  <Route path="/ndt-erp-michigan" element={<LazyRoute Component={NDTErp_michigan} />} />
+                  <Route path="/ndt-erp-colorado" element={<LazyRoute Component={NDTErp_colorado} />} />
+                  {/* === END Comparison + Industry + State expansion 2026-05-23 === */}
                   <Route path="/erp/crm-for-ndt-companies" element={<LazyRoute Component={CrmForNdtCompanies} />} />
                   <Route path="/erp/email-marketing-software-for-ndt" element={<LazyRoute Component={EmailMarketingSoftwareForNdt} />} />
                   <Route path="/erp/marketing-automation-for-ndt-companies" element={<LazyRoute Component={MarketingAutomationForNdtCompanies} />} />

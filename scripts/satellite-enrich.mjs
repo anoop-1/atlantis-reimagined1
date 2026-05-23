@@ -50,6 +50,39 @@ const SATELLITE_INVENTORY = JSON.parse(
   readFileSync(join(__dirname, 'satellite-inventory-2026-05-09.json'), 'utf-8')
 );
 
+// 2026-05-23: load NEW PAGES universe (ERP city/pillar pages + 15 new blog posts)
+// so freshly-published Atlantis pages get backlink love from satellites.
+let NEW_ERP_PAGES = [];
+let NEW_BLOG_POSTS = [];
+try {
+  const erpState = JSON.parse(
+    readFileSync(join(__dirname, 'erp-pages-2026-05-23-state.json'), 'utf-8')
+  );
+  for (const g of ['group1', 'group2', 'group3', 'group4']) {
+    if (Array.isArray(erpState[g])) {
+      for (const p of erpState[g]) {
+        // group1/2 are /ndt-erp-{slug}, group3/4 are /erp/{slug}
+        const url = (g === 'group1' || g === 'group2')
+          ? `${'https://atlantisndt.com'}/${p.slug}`
+          : `${'https://atlantisndt.com'}/erp/${p.slug}`;
+        NEW_ERP_PAGES.push({ url, slug: p.slug, group: g });
+      }
+    }
+  }
+} catch (e) {
+  console.warn('erp-pages-2026-05-23-state.json not loadable - skipping ERP pool');
+}
+try {
+  const blogList = JSON.parse(
+    readFileSync(join(__dirname, 'indexing-url-list-blogs.json'), 'utf-8')
+  );
+  if (blogList && Array.isArray(blogList.urls)) {
+    NEW_BLOG_POSTS = blogList.urls.map((u) => ({ url: u.url, tier: u.tier }));
+  }
+} catch (e) {
+  console.warn('indexing-url-list-blogs.json not loadable - skipping new-blog pool');
+}
+
 // ---------------------------------------------------------------------------
 // State (anti-footprint cross-satellite memory)
 // ---------------------------------------------------------------------------
@@ -633,6 +666,389 @@ const TOPIC_PROFILES = {
 };
 
 // ---------------------------------------------------------------------------
+// 2026-05-23: Topic profiles for remaining 25 satellites (Phase 2 expansion).
+// Each profile yields 5 long-form articles. Containers chosen to avoid
+// clashing with existing top-level routes (verified per inventory).
+// ---------------------------------------------------------------------------
+Object.assign(TOPIC_PROFILES, {
+  'advanced-ndt-techniques': {
+    siteName: 'Advanced NDT Techniques',
+    publisher: 'Advanced NDT Techniques Editorial',
+    homeColor: 'violet',
+    container: 'deepdives',
+    audience: 'NDT Level III engineers, advanced technique specialists',
+    primary: 'advanced NDT techniques',
+    angles: [
+      { slug: 'paut-vs-tofd-when-to-combine', title: 'PAUT vs TOFD: When to Combine vs When to Pick One', h1: 'PAUT vs TOFD: When to Combine vs When to Pick One', keywords: ['PAUT TOFD combined', 'TOFD vs PAUT', 'phased array TOFD', 'weld sizing'], focus: 'paut', date: '2024-10-14', author: 'Diego Costa, ASNT NDT Level III' },
+      { slug: 'guided-wave-screening-program-design', title: 'Guided Wave Screening Program Design for Long Pipelines', h1: 'Guided Wave Screening Program Design for Long Pipelines', keywords: ['guided wave screening', 'LRUT', 'long pipeline inspection', 'screening NDT'], focus: 'lrut', date: '2025-02-22', author: 'Astrid Vinge, MSc NDT' },
+      { slug: 'eddy-current-array-for-heat-exchanger-tubes', title: 'Eddy Current Array for Heat Exchanger Tubes: A Field Workflow', h1: 'Eddy Current Array for Heat Exchanger Tubes: A Field Workflow', keywords: ['ECA heat exchanger', 'eddy current array tubes', 'IRIS', 'tube inspection'], focus: 'method-selection', date: '2025-08-09', author: 'Diego Costa, ASNT NDT Level III' },
+      { slug: 'digital-radiography-cr-vs-dr-which-system', title: 'Digital Radiography: CR vs DR — Which System Fits Which Site?', h1: 'Digital Radiography: CR vs DR — Which System Fits Which Site?', keywords: ['digital radiography', 'CR vs DR', 'computed radiography', 'direct digital RT'], focus: 'paut-rt', date: '2025-11-26', author: 'Astrid Vinge, MSc NDT' },
+      { slug: 'automated-ut-scanner-deployment-2026', title: 'Automated UT Scanner Deployment: A 2026 Playbook', h1: 'Automated UT Scanner Deployment: A 2026 Playbook', keywords: ['automated UT', 'AUT scanner', 'pipeline AUT', 'mechanized UT'], focus: 'paut', date: '2026-04-08', author: 'Diego Costa, ASNT NDT Level III' },
+    ],
+  },
+  'api-certification-guide': {
+    siteName: 'API Certification Guide',
+    publisher: 'API Certification Guide Editorial',
+    homeColor: 'orange',
+    container: 'study',
+    audience: 'API 510/570/653 candidates, fixed-equipment inspectors',
+    primary: 'API ICP certification preparation',
+    angles: [
+      { slug: 'api-570-piping-inspector-study-plan-2026', title: 'API 570 Piping Inspector Study Plan (2026)', h1: 'API 570 Piping Inspector Study Plan (2026)', keywords: ['API 570', 'API 570 study guide', 'piping inspector exam', 'API ICP'], focus: 'api-510', date: '2024-09-12', author: 'Reza Karimi, API 570' },
+      { slug: 'api-653-aboveground-tank-inspector-prep', title: 'API 653 Aboveground Tank Inspector Prep: What the Exam Actually Tests', h1: 'API 653 Aboveground Tank Inspector Prep: What the Exam Actually Tests', keywords: ['API 653', 'tank inspector exam', 'aboveground tank inspection', 'API 653 prep'], focus: 'api-510', date: '2025-01-22', author: 'Reza Karimi, API 653' },
+      { slug: 'api-510-vs-api-570-which-cert-first', title: 'API 510 vs API 570: Which Certification Should You Take First?', h1: 'API 510 vs API 570: Which Certification Should You Take First?', keywords: ['API 510 vs API 570', 'API certification path', 'fixed equipment inspector', 'API ICP'], focus: 'api-510', date: '2025-05-14', author: 'Eve Mitchell, API ICP Coach' },
+      { slug: 'api-icp-recertification-2-cycle-cycle', title: 'API ICP Recertification: Surviving the 3-Year Cycle', h1: 'API ICP Recertification: Surviving the 3-Year Cycle', keywords: ['API ICP recertification', 'API renewal', 'CEU API', 'API ICP'], focus: 'asnt-cert', date: '2025-10-30', author: 'Reza Karimi, API 510/570/653' },
+      { slug: 'open-book-questions-api-510-test-strategy', title: 'Open-Book Questions in API 510: A Test-Day Strategy', h1: 'Open-Book Questions in API 510: A Test-Day Strategy', keywords: ['API 510 open book', 'API exam strategy', 'API 510 test', 'API ICP open book'], focus: 'api-510', date: '2026-03-25', author: 'Eve Mitchell, API ICP Coach' },
+    ],
+  },
+  'coating-inspection-guide': {
+    siteName: 'Coating Inspection Guide',
+    publisher: 'Coating Inspection Guide Editorial',
+    homeColor: 'teal',
+    container: 'inspections',
+    audience: 'AMPP coatings inspectors, blast/paint QC managers',
+    primary: 'coating and corrosion inspection',
+    angles: [
+      { slug: 'ssp-sp10-vs-sp5-blast-profile-decisions', title: 'SSPC-SP10 vs SP5 Blast Profile Decisions on Carbon Steel', h1: 'SSPC-SP10 vs SP5 Blast Profile Decisions on Carbon Steel', keywords: ['SSPC SP10', 'NACE 2', 'blast profile', 'surface preparation'], focus: 'coating', date: '2024-08-30', author: 'Renée Bouchard, AMPP CIP Level 3' },
+      { slug: 'wet-film-thickness-vs-dry-film-thickness-when-each-fails', title: 'Wet Film Thickness vs Dry Film Thickness: When Each Fails You', h1: 'Wet Film Thickness vs Dry Film Thickness: When Each Fails You', keywords: ['WFT DFT', 'coating thickness', 'paint inspection', 'ASTM D4414'], focus: 'coating', date: '2025-02-10', author: 'Renée Bouchard, AMPP CIP Level 3' },
+      { slug: 'holiday-detection-low-voltage-vs-high-voltage', title: 'Holiday Detection: Low Voltage vs High Voltage Methods Compared', h1: 'Holiday Detection: Low Voltage vs High Voltage Methods Compared', keywords: ['holiday detection', 'pinhole detection', 'NACE SP0188', 'coating holiday'], focus: 'coating', date: '2025-07-03', author: 'Pavlov Vance, NACE CIP' },
+      { slug: 'tsa-thermal-spray-aluminum-inspection-cui', title: 'TSA (Thermal Spray Aluminum) Inspection for CUI-Critical Service', h1: 'TSA (Thermal Spray Aluminum) Inspection for CUI-Critical Service', keywords: ['TSA coating', 'thermal spray aluminum', 'CUI prevention', 'TSA inspection'], focus: 'cui', date: '2025-12-09', author: 'Renée Bouchard, AMPP CIP Level 3' },
+      { slug: 'coating-failure-modes-osmotic-blistering-cathodic-disbondment', title: 'Coating Failure Modes: Osmotic Blistering, Disbondment, and What Each Tells You', h1: 'Coating Failure Modes: Osmotic Blistering, Disbondment, and What Each Tells You', keywords: ['coating failure', 'osmotic blistering', 'cathodic disbondment', 'paint failure analysis'], focus: 'coating', date: '2026-04-19', author: 'Pavlov Vance, NACE CIP' },
+    ],
+  },
+  'composite-testing-hub': {
+    siteName: 'Composite Testing Hub',
+    publisher: 'Composite Testing Hub Editorial',
+    homeColor: 'fuchsia',
+    container: 'techniques',
+    audience: 'aerospace composite QA, wind blade inspectors, motorsports QA',
+    primary: 'composite NDT and testing',
+    angles: [
+      { slug: 'cfrp-phased-array-vs-thermography-which-finds-disbonds', title: 'CFRP Phased Array vs Thermography: Which Finds Disbonds Faster?', h1: 'CFRP Phased Array vs Thermography: Which Finds Disbonds Faster?', keywords: ['CFRP PAUT', 'thermography composite', 'disbond detection', 'aerospace composite'], focus: 'cfrp', date: '2024-09-18', author: 'Mira Ostlund, NDT Engineer' },
+      { slug: 'wind-blade-inspection-from-rope-access-to-drones', title: 'Wind Blade Inspection: From Rope Access to Drones', h1: 'Wind Blade Inspection: From Rope Access to Drones', keywords: ['wind turbine blade', 'rope access inspection', 'drone blade inspection', 'composite blade NDT'], focus: 'cfrp', date: '2025-03-25', author: 'Jonas Aaltonen, GWO trained' },
+      { slug: 'sandwich-panel-honeycomb-core-defects-and-detection', title: 'Sandwich Panel Honeycomb Core Defects and How to Detect Them', h1: 'Sandwich Panel Honeycomb Core Defects and How to Detect Them', keywords: ['honeycomb core', 'sandwich panel NDT', 'aerospace composite inspection', 'core crush'], focus: 'cfrp', date: '2025-08-20', author: 'Mira Ostlund, NDT Engineer' },
+      { slug: 'shearography-on-composite-pressure-vessels', title: 'Shearography on Composite Pressure Vessels: When It Earns Its Keep', h1: 'Shearography on Composite Pressure Vessels: When It Earns Its Keep', keywords: ['shearography', 'composite pressure vessel', 'COPV inspection', 'laser shearography'], focus: 'cfrp', date: '2025-12-15', author: 'Jonas Aaltonen, GWO trained' },
+      { slug: 'pulse-thermography-vs-lock-in-thermography-quick-decision-guide', title: 'Pulse Thermography vs Lock-In Thermography: A Quick Decision Guide', h1: 'Pulse Thermography vs Lock-In Thermography: A Quick Decision Guide', keywords: ['pulse thermography', 'lock-in thermography', 'thermal NDT', 'composite thermography'], focus: 'cfrp', date: '2026-04-26', author: 'Mira Ostlund, NDT Engineer' },
+    ],
+  },
+  'construction-ndt-guide': {
+    siteName: 'Construction NDT Guide',
+    publisher: 'Construction NDT Guide Editorial',
+    homeColor: 'lime',
+    container: 'practice',
+    audience: 'structural inspectors, concrete QC engineers, infrastructure QA',
+    primary: 'construction & infrastructure NDT',
+    angles: [
+      { slug: 'gpr-vs-rebar-locator-when-which', title: 'GPR vs Rebar Locator: When Each One Earns the Hourly Rate', h1: 'GPR vs Rebar Locator: When Each One Earns the Hourly Rate', keywords: ['GPR rebar', 'rebar locator', 'concrete NDT', 'ground penetrating radar'], focus: 'method-selection', date: '2024-08-22', author: 'Lars Hagen, ACI' },
+      { slug: 'concrete-strength-with-rebound-hammer-vs-ut-velocity', title: 'Concrete Strength: Rebound Hammer vs Ultrasonic Pulse Velocity', h1: 'Concrete Strength: Rebound Hammer vs Ultrasonic Pulse Velocity', keywords: ['rebound hammer', 'UPV concrete', 'concrete strength NDT', 'Schmidt hammer'], focus: 'method-selection', date: '2025-01-30', author: 'Lars Hagen, ACI' },
+      { slug: 'bridge-deck-deterioration-mapping-methods', title: 'Bridge Deck Deterioration Mapping: Methods That Actually Work', h1: 'Bridge Deck Deterioration Mapping: Methods That Actually Work', keywords: ['bridge deck NDT', 'half cell potential', 'IR thermography bridge', 'FHWA inspection'], focus: 'method-selection', date: '2025-07-08', author: 'Salma Vega, PE Civil' },
+      { slug: 'post-tensioned-cable-inspection-impact-echo-and-ut', title: 'Post-Tensioned Cable Inspection: Impact-Echo and UT Strategies', h1: 'Post-Tensioned Cable Inspection: Impact-Echo and UT Strategies', keywords: ['post tensioned cable', 'impact echo', 'PT tendon NDT', 'bridge cable inspection'], focus: 'lrut', date: '2025-11-12', author: 'Lars Hagen, ACI' },
+      { slug: 'steel-structure-weld-inspection-aws-d1-5', title: 'Steel Structure Weld Inspection Under AWS D1.5 (Bridge Welding Code)', h1: 'Steel Structure Weld Inspection Under AWS D1.5 (Bridge Welding Code)', keywords: ['AWS D1.5', 'bridge weld inspection', 'structural weld NDT', 'AWS bridge code'], focus: 'aws-d1-1', date: '2026-04-02', author: 'Salma Vega, PE Civil' },
+    ],
+  },
+  'heat-exchanger-ndt': {
+    siteName: 'Heat Exchanger NDT',
+    publisher: 'Heat Exchanger NDT Editorial',
+    homeColor: 'red',
+    container: 'tubes',
+    audience: 'heat exchanger inspectors, refinery turnaround engineers',
+    primary: 'heat exchanger NDT and tube inspection',
+    angles: [
+      { slug: 'iris-vs-ecit-vs-rfet-tube-inspection-decision', title: 'IRIS vs ECT vs RFET: Tube Inspection Method Decision Matrix', h1: 'IRIS vs ECT vs RFET: Tube Inspection Method Decision Matrix', keywords: ['IRIS tubes', 'ECT tubes', 'RFET', 'heat exchanger tube inspection'], focus: 'method-selection', date: '2024-10-04', author: 'Petros Vasilakos, ASNT Level III' },
+      { slug: 'cleaning-tubes-before-ndt-why-it-decides-everything', title: 'Cleaning Tubes Before NDT: Why It Decides Everything', h1: 'Cleaning Tubes Before NDT: Why It Decides Everything', keywords: ['tube cleaning', 'hydroblasting', 'tube preparation NDT', 'heat exchanger cleaning'], focus: 'turnaround', date: '2025-02-26', author: 'Petros Vasilakos, ASNT Level III' },
+      { slug: 'air-cooler-tube-bundle-inspection-program', title: 'Air Cooler Tube Bundle Inspection Program: Building One That Works', h1: 'Air Cooler Tube Bundle Inspection Program: Building One That Works', keywords: ['air cooler inspection', 'fin fan tube', 'air cooled exchanger', 'API 661'], focus: 'method-selection', date: '2025-07-21', author: 'Aiko Nakashima, Reliability Engineer' },
+      { slug: 'fouling-vs-corrosion-tube-signal-interpretation', title: 'Fouling vs Corrosion in Tube Signals: How to Tell Them Apart', h1: 'Fouling vs Corrosion in Tube Signals: How to Tell Them Apart', keywords: ['tube fouling', 'tube corrosion signal', 'ECT interpretation', 'tube wall loss'], focus: 'sulfidation', date: '2025-11-30', author: 'Petros Vasilakos, ASNT Level III' },
+      { slug: 'plugging-vs-retubing-heat-exchanger-economics', title: 'Plugging vs Retubing: The Economics of Tube Failure Response', h1: 'Plugging vs Retubing: The Economics of Tube Failure Response', keywords: ['tube plugging', 'retubing exchanger', 'TEMA RCB', 'tube replacement'], focus: 'turnaround', date: '2026-04-14', author: 'Aiko Nakashima, Reliability Engineer' },
+    ],
+  },
+  'industrial-inspection-resources': {
+    siteName: 'Industrial Inspection Resources',
+    publisher: 'Industrial Inspection Resources Editorial',
+    homeColor: 'slate',
+    container: 'topics',
+    audience: 'multi-industry NDT managers, integrity consultants',
+    primary: 'industrial inspection across sectors',
+    angles: [
+      { slug: 'cross-sector-ndt-program-benchmarks-2026', title: 'Cross-Sector NDT Program Benchmarks (2026)', h1: 'Cross-Sector NDT Program Benchmarks (2026)', keywords: ['NDT benchmarks', 'inspection KPI', 'program maturity', 'NDT industry benchmark'], focus: 'kpi', date: '2024-09-04', author: 'Caleb Yates, Integrity Consultant' },
+      { slug: 'building-an-in-house-vs-outsourced-ndt-program', title: 'In-House vs Outsourced NDT Program: A Total-Cost View', h1: 'In-House vs Outsourced NDT Program: A Total-Cost View', keywords: ['in house NDT', 'outsourced NDT', 'NDT service provider', 'inspection contracting'], focus: 'method-selection', date: '2025-02-05', author: 'Caleb Yates, Integrity Consultant' },
+      { slug: 'integrity-data-management-platforms-buyer-guide', title: 'Integrity Data Management Platforms: A Buyer Guide for 2026', h1: 'Integrity Data Management Platforms: A Buyer Guide for 2026', keywords: ['integrity software', 'IDMS platform', 'NDT data management', 'integrity platform comparison'], focus: 'kpi', date: '2025-06-25', author: 'Nadine El-Sayed, Digital Twin Engineer' },
+      { slug: 'training-budget-allocation-ndt-team', title: 'Training Budget Allocation for a Multi-Method NDT Team', h1: 'Training Budget Allocation for a Multi-Method NDT Team', keywords: ['NDT training budget', 'inspector training', 'multi method team', 'NDT competency'], focus: 'asnt-cert', date: '2025-10-08', author: 'Caleb Yates, Integrity Consultant' },
+      { slug: 'iso-9712-vs-asnt-snt-tc-1a-multi-region-teams', title: 'ISO 9712 vs ASNT SNT-TC-1A for Multi-Region Teams', h1: 'ISO 9712 vs ASNT SNT-TC-1A for Multi-Region Teams', keywords: ['ISO 9712', 'SNT-TC-1A', 'NDT certification scheme', 'multi region NDT'], focus: 'asnt-cert', date: '2026-03-12', author: 'Nadine El-Sayed, Digital Twin Engineer' },
+    ],
+  },
+  'lng-inspection-hub': {
+    siteName: 'LNG Inspection Hub',
+    publisher: 'LNG Inspection Hub Editorial',
+    homeColor: 'sky',
+    container: 'guides',
+    audience: 'LNG terminal engineers, cryogenic tank inspectors, midstream LNG QA',
+    primary: 'LNG inspection and cryogenic NDT',
+    angles: [
+      { slug: 'cryogenic-tank-inspection-9-percent-nickel-steel', title: 'Cryogenic Tank Inspection: 9% Nickel Steel and Its Inspection Quirks', h1: 'Cryogenic Tank Inspection: 9% Nickel Steel and Its Inspection Quirks', keywords: ['cryogenic tank', '9 nickel steel', 'LNG tank inspection', 'API 625'], focus: 'fab', date: '2024-08-16', author: 'Magnus Tørrissen, IWE' },
+      { slug: 'lng-loading-arm-inspection-program', title: 'LNG Loading Arm Inspection Program: From Pin to Swivel', h1: 'LNG Loading Arm Inspection Program: From Pin to Swivel', keywords: ['LNG loading arm', 'cryogenic loading arm', 'OCIMF inspection', 'LNG marine loading'], focus: 'fpso', date: '2025-01-14', author: 'Magnus Tørrissen, IWE' },
+      { slug: 'lng-piping-weld-acceptance-criteria', title: 'LNG Piping Weld Acceptance Criteria: ASME B31.3 in Cold Service', h1: 'LNG Piping Weld Acceptance Criteria: ASME B31.3 in Cold Service', keywords: ['LNG piping', 'ASME B31.3 cold service', 'cryogenic welding', 'low temperature service'], focus: 'aws-d1-1', date: '2025-06-30', author: 'Marisol Toro, PE' },
+      { slug: 'small-scale-lng-asset-integrity-program', title: 'Small-Scale LNG Asset Integrity: Building a Program Without Refinery Resources', h1: 'Small-Scale LNG Asset Integrity: Building a Program Without Refinery Resources', keywords: ['small scale LNG', 'mini LNG integrity', 'micro LNG inspection', 'LNG bunkering'], focus: 'aim-program', date: '2025-11-21', author: 'Magnus Tørrissen, IWE' },
+      { slug: 'bog-compressor-inspection-and-monitoring', title: 'BOG Compressor Inspection and Vibration Monitoring on LNG Trains', h1: 'BOG Compressor Inspection and Vibration Monitoring on LNG Trains', keywords: ['BOG compressor', 'LNG compressor inspection', 'cryogenic compressor', 'rotating equipment LNG'], focus: 'kpi', date: '2026-04-09', author: 'Marisol Toro, PE' },
+    ],
+  },
+  'manufacturing-ndt-quality': {
+    siteName: 'Manufacturing NDT Quality',
+    publisher: 'Manufacturing NDT Quality Editorial',
+    homeColor: 'zinc',
+    container: 'practices',
+    audience: 'manufacturing QA, OEM quality engineers, supplier auditors',
+    primary: 'manufacturing & supplier-quality NDT',
+    angles: [
+      { slug: 'inline-ut-on-tube-mills-defect-detection', title: 'Inline UT on Tube Mills: What Production Defect Detection Actually Catches', h1: 'Inline UT on Tube Mills: What Production Defect Detection Actually Catches', keywords: ['inline UT', 'tube mill NDT', 'production NDT', 'seam weld UT'], focus: 'paut', date: '2024-09-23', author: 'Florian Mautner, IWE' },
+      { slug: 'casting-radiography-acceptance-by-grade', title: 'Casting Radiography Acceptance by Grade: ASTM E446 vs E186 vs E280', h1: 'Casting Radiography Acceptance by Grade: ASTM E446 vs E186 vs E280', keywords: ['ASTM E446', 'casting radiography', 'casting acceptance', 'reference radiograph'], focus: 'fab', date: '2025-02-15', author: 'Florian Mautner, IWE' },
+      { slug: 'supplier-quality-audit-ndt-shop', title: 'Supplier Quality Audit of an NDT Shop: A 50-Item Checklist', h1: 'Supplier Quality Audit of an NDT Shop: A 50-Item Checklist', keywords: ['supplier quality audit', 'NDT shop audit', 'AS9100 NDT', 'NADCAP supplier'], focus: 'nadcap', date: '2025-07-26', author: 'Hannelore Veit, AS9100 LA' },
+      { slug: 'additive-manufactured-parts-ndt-cap-cct-vs-ut', title: 'Additive Manufactured Parts NDT: CT vs UT vs PAUT for AM Inspection', h1: 'Additive Manufactured Parts NDT: CT vs UT vs PAUT for AM Inspection', keywords: ['AM NDT', 'additive manufacturing inspection', 'industrial CT', 'metal AM NDT'], focus: 'paut', date: '2025-12-12', author: 'Florian Mautner, IWE' },
+      { slug: 'in-process-quality-control-vs-final-ndt-trade-offs', title: 'In-Process Quality Control vs Final NDT: Where to Spend the Budget', h1: 'In-Process Quality Control vs Final NDT: Where to Spend the Budget', keywords: ['in process QC', 'final inspection NDT', 'manufacturing QA', 'process control vs NDT'], focus: 'kpi', date: '2026-04-23', author: 'Hannelore Veit, AS9100 LA' },
+    ],
+  },
+  'marine-offshore-ndt': {
+    siteName: 'Marine & Offshore NDT',
+    publisher: 'Marine & Offshore NDT Editorial',
+    homeColor: 'blue',
+    container: 'offshore',
+    audience: 'marine surveyors, FPSO inspection leads, offshore integrity engineers',
+    primary: 'marine and offshore NDT',
+    angles: [
+      { slug: 'class-survey-ndt-scope-abs-dnv-lloyd', title: 'Class Survey NDT Scope: ABS vs DNV vs Lloyd\'s Register Side-by-Side', h1: 'Class Survey NDT Scope: ABS vs DNV vs Lloyd\'s Register Compared', keywords: ['class survey', 'ABS DNV LR', 'class society NDT', 'classification rules'], focus: 'fpso', date: '2024-10-10', author: 'Erik Halvorsen, IIMS' },
+      { slug: 'tanker-ballast-tank-inspection-coating-and-thickness', title: 'Tanker Ballast Tank Inspection: Coating, Thickness, and Step-Wash', h1: 'Tanker Ballast Tank Inspection: Coating, Thickness, and Step-Wash', keywords: ['ballast tank', 'IACS UR', 'CSR ballast tank', 'tanker inspection'], focus: 'coating', date: '2025-03-01', author: 'Erik Halvorsen, IIMS' },
+      { slug: 'jacket-platform-girth-weld-inspection-from-rope-access', title: 'Jacket Platform Girth Weld Inspection from Rope Access', h1: 'Jacket Platform Girth Weld Inspection from Rope Access', keywords: ['jacket platform NDT', 'rope access inspection', 'offshore weld inspection', 'platform girth weld'], focus: 'fmd', date: '2025-08-14', author: 'Marina Lopes, NDT Engineer' },
+      { slug: 'flexible-riser-inspection-techniques-emerging', title: 'Flexible Riser Inspection Techniques: Where the Industry Is Heading', h1: 'Flexible Riser Inspection Techniques: Where the Industry Is Heading', keywords: ['flexible riser', 'unbonded flexible pipe', 'riser inspection', 'API 17B'], focus: 'rov', date: '2025-12-19', author: 'Marina Lopes, NDT Engineer' },
+      { slug: 'in-water-survey-vs-drydock-survey-ndt-coverage', title: 'In-Water Survey vs Drydock Survey: NDT Coverage Differences', h1: 'In-Water Survey vs Drydock Survey: NDT Coverage Differences', keywords: ['in water survey', 'IWS NDT', 'drydock survey', 'underwater inspection'], focus: 'fpso', date: '2026-04-30', author: 'Erik Halvorsen, IIMS' },
+    ],
+  },
+  'middle-east-ndt-resource': {
+    siteName: 'Middle East NDT Resource',
+    publisher: 'Middle East NDT Resource Editorial',
+    homeColor: 'amber',
+    container: 'region',
+    audience: 'GCC inspection contractors, NOC integrity teams, regional auditors',
+    primary: 'Middle East NDT practice and certification',
+    angles: [
+      { slug: 'aramco-cssp-vs-adnoc-mp-getting-approved-vendor', title: 'Aramco CSSP vs ADNOC MP: Getting on the Approved-Vendor List', h1: 'Aramco CSSP vs ADNOC MP: Getting on the Approved-Vendor List', keywords: ['Aramco CSSP', 'ADNOC MP', 'GCC approved vendor', 'NOC vendor list'], focus: 'method-selection', date: '2024-08-12', author: 'Yousef Al-Otaibi, ASNT Level III' },
+      { slug: 'desert-pipeline-cui-aramco-saes-l', title: 'Desert Pipeline CUI: Aramco SAES-L Practical Inspection Guide', h1: 'Desert Pipeline CUI: Aramco SAES-L Practical Inspection Guide', keywords: ['desert pipeline CUI', 'Aramco SAES-L', 'Saudi pipeline inspection', 'GCC CUI'], focus: 'cui', date: '2025-01-25', author: 'Yousef Al-Otaibi, ASNT Level III' },
+      { slug: 'gcc-welder-qualification-recognition-across-borders', title: 'GCC Welder Qualification Recognition Across Borders', h1: 'GCC Welder Qualification Recognition Across Borders', keywords: ['GCC welder qualification', 'GCC cross border', 'Aramco welder', 'KOC welder'], focus: 'wpq', date: '2025-06-19', author: 'Reema Al-Qahtani, IWE' },
+      { slug: 'sour-service-h2s-inspection-program-gcc', title: 'Sour Service H2S Inspection Program: A GCC Operator Perspective', h1: 'Sour Service H2S Inspection Program: A GCC Operator Perspective', keywords: ['sour service', 'H2S inspection', 'NACE MR0175', 'GCC sour pipeline'], focus: 'scc', date: '2025-11-04', author: 'Yousef Al-Otaibi, ASNT Level III' },
+      { slug: 'inspection-procurement-the-gcc-way', title: 'Inspection Procurement the GCC Way: What Western Vendors Get Wrong', h1: 'Inspection Procurement the GCC Way: What Western Vendors Get Wrong', keywords: ['GCC inspection procurement', 'GCC NDT contracting', 'GCC vendor onboarding', 'tendering NDT'], focus: 'method-selection', date: '2026-04-16', author: 'Reema Al-Qahtani, IWE' },
+    ],
+  },
+  'mining-ndt-hub': {
+    siteName: 'Mining NDT Hub',
+    publisher: 'Mining NDT Hub Editorial',
+    homeColor: 'stone',
+    container: 'mining',
+    audience: 'mining mechanical engineers, haul-truck and mill reliability leads',
+    primary: 'mining equipment NDT',
+    angles: [
+      { slug: 'haul-truck-frame-crack-inspection-program', title: 'Haul Truck Frame Crack Inspection Program: MT + UT Workflow', h1: 'Haul Truck Frame Crack Inspection Program: MT + UT Workflow', keywords: ['haul truck inspection', 'mining truck frame', 'truck frame crack', 'mining UT'], focus: 'aws-d1-1', date: '2024-09-26', author: 'Brendan O\'Leary, ICorr' },
+      { slug: 'mill-shell-girth-weld-inspection-sag-ball', title: 'Mill Shell Girth Weld Inspection on SAG and Ball Mills', h1: 'Mill Shell Girth Weld Inspection on SAG and Ball Mills', keywords: ['SAG mill', 'ball mill shell', 'mill girth weld', 'mining mill NDT'], focus: 'paut', date: '2025-02-28', author: 'Brendan O\'Leary, ICorr' },
+      { slug: 'conveyor-pulley-inspection-mt-ut-vt', title: 'Conveyor Pulley Inspection: MT, UT, and VT in Sequence', h1: 'Conveyor Pulley Inspection: MT, UT, and VT in Sequence', keywords: ['conveyor pulley', 'mining conveyor', 'pulley inspection', 'belt conveyor NDT'], focus: 'vt', date: '2025-07-31', author: 'Nadya Sharma, Mining Reliability Eng' },
+      { slug: 'tailings-dam-instrumentation-and-ndt-overlap', title: 'Tailings Dam Instrumentation and Where NDT Fits In', h1: 'Tailings Dam Instrumentation and Where NDT Fits In', keywords: ['tailings dam', 'TSF monitoring', 'mining dam inspection', 'GISTM compliance'], focus: 'kpi', date: '2025-12-05', author: 'Brendan O\'Leary, ICorr' },
+      { slug: 'underground-mining-shaft-rope-inspection', title: 'Underground Mining Shaft Rope Inspection: MFL and Beyond', h1: 'Underground Mining Shaft Rope Inspection: MFL and Beyond', keywords: ['mining shaft rope', 'wire rope MFL', 'mine hoist rope', 'wire rope NDT'], focus: 'ili', date: '2026-04-20', author: 'Nadya Sharma, Mining Reliability Eng' },
+    ],
+  },
+  'ndt-automation-future': {
+    siteName: 'NDT Automation Future',
+    publisher: 'NDT Automation Future Editorial',
+    homeColor: 'purple',
+    container: 'future',
+    audience: 'NDT software architects, automation engineers, integrity digital leads',
+    primary: 'NDT automation and AI-assisted inspection',
+    angles: [
+      { slug: 'ai-defect-detection-on-rt-films-state-of-art', title: 'AI Defect Detection on RT Films: State of the Art in 2026', h1: 'AI Defect Detection on RT Films: State of the Art in 2026', keywords: ['AI defect detection', 'radiography AI', 'deep learning NDT', 'auto interpretation RT'], focus: 'paut-rt', date: '2024-10-18', author: 'Dr. Aaron Pak, AI Engineer' },
+      { slug: 'robotic-crawler-pipeline-inspection-trends', title: 'Robotic Crawler Pipeline Inspection: Where the Industry Is Trending', h1: 'Robotic Crawler Pipeline Inspection: Where the Industry Is Trending', keywords: ['pipeline crawler', 'robotic NDT', 'UT crawler', 'pipeline robot'], focus: 'ili', date: '2025-03-19', author: 'Dr. Aaron Pak, AI Engineer' },
+      { slug: 'digital-twin-for-ndt-data-architecture-2026', title: 'Digital Twin for NDT Data: Architecture Choices for 2026', h1: 'Digital Twin for NDT Data: Architecture Choices for 2026', keywords: ['digital twin NDT', 'NDT data architecture', 'integrity digital twin', 'twin data model'], focus: 'aim-program', date: '2025-08-26', author: 'Tessa Bjorklund, Software Architect' },
+      { slug: 'auto-paut-data-interpretation-where-its-reliable', title: 'Auto-PAUT Data Interpretation: Where It Is Already Reliable', h1: 'Auto-PAUT Data Interpretation: Where It Is Already Reliable', keywords: ['auto PAUT', 'automated PAUT interpretation', 'AUT analysis', 'machine learning PAUT'], focus: 'paut', date: '2025-12-26', author: 'Dr. Aaron Pak, AI Engineer' },
+      { slug: 'cloud-vs-on-prem-ndt-data-the-2026-decision', title: 'Cloud vs On-Prem NDT Data: The 2026 Decision Most Operators Are Making', h1: 'Cloud vs On-Prem NDT Data: The 2026 Decision Most Operators Are Making', keywords: ['cloud NDT data', 'on prem NDT', 'NDT cloud storage', 'integrity cloud'], focus: 'kpi', date: '2026-04-28', author: 'Tessa Bjorklund, Software Architect' },
+    ],
+  },
+  'ndt-careers-portal': {
+    siteName: 'NDT Careers Portal',
+    publisher: 'NDT Careers Portal Editorial',
+    homeColor: 'rose',
+    container: 'paths',
+    audience: 'NDT job seekers, career changers, hiring managers',
+    primary: 'NDT careers and hiring',
+    angles: [
+      { slug: 'ndt-salary-by-method-and-region-2026', title: 'NDT Salary by Method and Region (2026 Snapshot)', h1: 'NDT Salary by Method and Region: A 2026 Snapshot', keywords: ['NDT salary', 'NDT pay 2026', 'inspector salary', 'global NDT pay'], focus: 'careers', date: '2024-08-09', author: 'Diana Marsh, NDT Recruiter' },
+      { slug: 'transitioning-from-welder-to-ndt-inspector', title: 'Transitioning From Welder to NDT Inspector: A Practical Roadmap', h1: 'Transitioning From Welder to NDT Inspector: A Practical Roadmap', keywords: ['welder to inspector', 'NDT career change', 'CWI to NDT', 'becoming NDT inspector'], focus: 'careers', date: '2025-01-08', author: 'Diana Marsh, NDT Recruiter' },
+      { slug: 'remote-ndt-jobs-are-they-real', title: 'Remote NDT Jobs: Are They Real?', h1: 'Remote NDT Jobs: Are They Real?', keywords: ['remote NDT', 'remote inspection job', 'work from home NDT', 'NDT consultant remote'], focus: 'careers', date: '2025-05-29', author: 'Sebastián Núñez, NDT Career Coach' },
+      { slug: 'offshore-vs-onshore-ndt-careers-financial-and-lifestyle', title: 'Offshore vs Onshore NDT Careers: Financial and Lifestyle Trade-Offs', h1: 'Offshore vs Onshore NDT Careers: Financial and Lifestyle Trade-Offs', keywords: ['offshore NDT job', 'onshore NDT job', 'offshore rotation', 'NDT lifestyle'], focus: 'careers', date: '2025-10-15', author: 'Diana Marsh, NDT Recruiter' },
+      { slug: 'building-a-level-iii-consulting-practice', title: 'Building a Level III Consulting Practice: From Salaried to Self-Employed', h1: 'Building a Level III Consulting Practice: From Salaried to Self-Employed', keywords: ['Level III consulting', 'NDT consultant', 'independent Level III', 'NDT business'], focus: 'careers', date: '2026-03-30', author: 'Sebastián Núñez, NDT Career Coach' },
+    ],
+  },
+  'ndt-equipment-reviews': {
+    siteName: 'NDT Equipment Reviews',
+    publisher: 'NDT Equipment Reviews Editorial',
+    homeColor: 'emerald',
+    container: 'reviews',
+    audience: 'inspection contractors, NDT equipment buyers, QA leads',
+    primary: 'NDT equipment selection and reviews',
+    angles: [
+      { slug: 'epoch-6lt-vs-epoch-650-real-world-comparison', title: 'Epoch 6LT vs Epoch 650: A Real-World Comparison for Field UT', h1: 'Epoch 6LT vs Epoch 650: A Real-World Comparison for Field UT', keywords: ['Epoch 650', 'Epoch 6LT', 'UT flaw detector', 'Olympus EPOCH'], focus: 'paut', date: '2024-10-26', author: 'Lukas Holt, NDT Equipment Reviewer' },
+      { slug: 'omniscan-x3-vs-x3-64-which-channel-count-fits', title: 'OmniScan X3 vs X3 64: Which Channel Count Actually Fits Your Work?', h1: 'OmniScan X3 vs X3 64: Which Channel Count Actually Fits Your Work?', keywords: ['OmniScan X3', 'OmniScan X3 64', 'PAUT flaw detector', 'Evident OmniScan'], focus: 'paut', date: '2025-03-08', author: 'Lukas Holt, NDT Equipment Reviewer' },
+      { slug: 'crawler-vs-handheld-aut-for-pipeline-girths', title: 'Crawler vs Handheld AUT for Pipeline Girth Welds', h1: 'Crawler vs Handheld AUT for Pipeline Girth Welds', keywords: ['AUT crawler', 'handheld PAUT', 'pipeline girth weld', 'mechanized UT'], focus: 'paut', date: '2025-08-12', author: 'Yara Ahmadi, Pipeline AUT' },
+      { slug: 'calibration-blocks-buying-guide-2026', title: 'Calibration Blocks Buying Guide (2026): Don\'t Buy the Cheapest', h1: 'Calibration Blocks Buying Guide (2026)', keywords: ['calibration block', 'NDT calibration', 'IIW block', 'PAUT calibration block'], focus: 'method-selection', date: '2025-11-29', author: 'Lukas Holt, NDT Equipment Reviewer' },
+      { slug: 'digital-rt-detectors-flat-panel-vs-line-scan', title: 'Digital RT Detectors: Flat Panel vs Line Scan in 2026', h1: 'Digital RT Detectors: Flat Panel vs Line Scan in 2026', keywords: ['digital RT detector', 'flat panel DR', 'line scan radiography', 'DDA RT'], focus: 'paut-rt', date: '2026-04-13', author: 'Yara Ahmadi, Pipeline AUT' },
+    ],
+  },
+  'ndt-safety-compliance': {
+    siteName: 'NDT Safety & Compliance',
+    publisher: 'NDT Safety & Compliance Editorial',
+    homeColor: 'red',
+    container: 'compliance',
+    audience: 'NDT safety officers, RSOs, EHS managers, regulatory leads',
+    primary: 'NDT safety and regulatory compliance',
+    angles: [
+      { slug: 'industrial-radiography-safety-program-essentials', title: 'Industrial Radiography Safety Program Essentials', h1: 'Industrial Radiography Safety Program Essentials', keywords: ['radiography safety', 'RSO program', 'industrial radiography', '10 CFR 34'], focus: 'isi', date: '2024-09-15', author: 'Dr. Imogen West, RSO' },
+      { slug: 'transport-of-ndt-sources-iata-imdg', title: 'Transport of NDT Radioactive Sources: IATA and IMDG Practical Notes', h1: 'Transport of NDT Radioactive Sources: IATA and IMDG Practical Notes', keywords: ['source transport', 'IATA Class 7', 'IMDG radioactive', 'NDT source shipping'], focus: 'isi', date: '2025-02-08', author: 'Dr. Imogen West, RSO' },
+      { slug: 'incident-investigation-after-ndt-source-loss', title: 'Incident Investigation After an NDT Source Loss: A Field Manager Guide', h1: 'Incident Investigation After an NDT Source Loss: A Field Manager Guide', keywords: ['source loss', 'NRC reporting', 'NDT incident', 'radioactive source incident'], focus: 'isi', date: '2025-07-18', author: 'Aleksey Sevcik, ASNT Level III' },
+      { slug: 'lockout-tagout-for-ut-and-mt-on-rotating-equipment', title: 'Lockout-Tagout for UT and MT on Rotating Equipment', h1: 'Lockout-Tagout for UT and MT on Rotating Equipment', keywords: ['lockout tagout', 'LOTO NDT', 'NDT safety rotating', 'EHS NDT'], focus: 'vt', date: '2025-12-01', author: 'Dr. Imogen West, RSO' },
+      { slug: 'inspector-fatigue-and-pod-the-data-no-one-shares', title: 'Inspector Fatigue and Probability of Detection: The Data No One Shares', h1: 'Inspector Fatigue and Probability of Detection: The Data No One Shares', keywords: ['inspector fatigue', 'POD NDT', 'human factors NDT', 'inspection POD'], focus: 'kpi', date: '2026-04-25', author: 'Aleksey Sevcik, ASNT Level III' },
+    ],
+  },
+  'ndt-software-solutions': {
+    siteName: 'NDT Software Solutions',
+    publisher: 'NDT Software Solutions Editorial',
+    homeColor: 'blue',
+    container: 'solutions',
+    audience: 'NDT software buyers, integrity IT leads, digital QA managers',
+    primary: 'NDT software and digital inspection platforms',
+    angles: [
+      { slug: 'ndt-reporting-software-buyer-checklist-2026', title: 'NDT Reporting Software Buyer Checklist (2026)', h1: 'NDT Reporting Software Buyer Checklist (2026)', keywords: ['NDT reporting software', 'inspection report software', 'NDT software buyer', 'NDT digital reporting'], focus: 'kpi', date: '2024-10-31', author: 'Carlos Rabago, Solution Architect' },
+      { slug: 'on-prem-vs-saas-ndt-platforms-trade-offs', title: 'On-Prem vs SaaS NDT Platforms: Real Trade-Offs', h1: 'On-Prem vs SaaS NDT Platforms: Real Trade-Offs', keywords: ['SaaS NDT', 'on prem inspection software', 'NDT platform deployment', 'cloud NDT'], focus: 'kpi', date: '2025-03-22', author: 'Carlos Rabago, Solution Architect' },
+      { slug: 'integrating-ndt-data-with-cmms-sap-pm-maximo', title: 'Integrating NDT Data With CMMS: SAP PM and Maximo Side-by-Side', h1: 'Integrating NDT Data With CMMS: SAP PM and Maximo Side-by-Side', keywords: ['NDT CMMS integration', 'SAP PM NDT', 'Maximo NDT', 'inspection CMMS'], focus: 'aim-program', date: '2025-08-29', author: 'Mireille Dubois, IT Architect' },
+      { slug: 'mobile-data-capture-offline-inspection-apps', title: 'Mobile Data Capture: Offline-Capable Inspection Apps in 2026', h1: 'Mobile Data Capture: Offline-Capable Inspection Apps in 2026', keywords: ['mobile NDT app', 'offline inspection', 'tablet inspection', 'field data capture'], focus: 'kpi', date: '2025-12-30', author: 'Carlos Rabago, Solution Architect' },
+      { slug: 'data-retention-policy-for-ndt-files-7-years-or-life-of-asset', title: 'Data Retention Policy for NDT Files: 7 Years or Life of Asset?', h1: 'Data Retention Policy for NDT Files: 7 Years or Life of Asset?', keywords: ['NDT data retention', 'inspection data archive', 'integrity data policy', 'NDT records'], focus: 'kpi', date: '2026-04-27', author: 'Mireille Dubois, IT Architect' },
+    ],
+  },
+  'ndt-standards-library': {
+    siteName: 'NDT Standards Library',
+    publisher: 'NDT Standards Library Editorial',
+    homeColor: 'gray',
+    container: 'library',
+    audience: 'NDT procedure writers, code/standard specialists, integrity engineers',
+    primary: 'NDT standards and codes reference',
+    angles: [
+      { slug: 'asme-section-v-2025-edition-changes', title: 'ASME Section V 2025 Edition: What Changed and What It Means', h1: 'ASME Section V 2025 Edition: What Changed and What It Means', keywords: ['ASME Section V 2025', 'ASME V changes', 'Section V edition', 'BPVC Section V'], focus: 'procedures', date: '2024-08-26', author: 'Rabia Yousef, ASNT Level III' },
+      { slug: 'iso-9712-vs-en-iso-vs-asnt-cross-recognition', title: 'ISO 9712 vs EN-ISO vs ASNT: Cross-Recognition Realities', h1: 'ISO 9712 vs EN-ISO vs ASNT: Cross-Recognition Realities', keywords: ['ISO 9712', 'EN ISO NDT', 'ASNT recognition', 'NDT certification cross border'], focus: 'asnt-cert', date: '2025-01-31', author: 'Rabia Yousef, ASNT Level III' },
+      { slug: 'choosing-the-right-pipe-code-asme-b31-1-vs-b31-3-vs-b31-8', title: 'Choosing the Right Pipe Code: ASME B31.1 vs B31.3 vs B31.8', h1: 'Choosing the Right Pipe Code: ASME B31.1 vs B31.3 vs B31.8', keywords: ['ASME B31', 'pipe code selection', 'B31.1 vs B31.3', 'ASME piping'], focus: 'fab', date: '2025-06-12', author: 'Otavio Sá, PE' },
+      { slug: 'aws-d1-1-vs-aws-d1-5-vs-aws-d1-6-pick-the-correct-code', title: 'AWS D1.1 vs D1.5 vs D1.6: Pick the Correct Welding Code', h1: 'AWS D1.1 vs D1.5 vs D1.6: Pick the Correct Welding Code', keywords: ['AWS D1.1', 'AWS D1.5', 'AWS D1.6', 'welding code selection'], focus: 'aws-d1-1', date: '2025-10-22', author: 'Rabia Yousef, ASNT Level III' },
+      { slug: 'api-vs-asme-vs-iso-pressure-equipment-rules-quick-map', title: 'API vs ASME vs ISO Pressure-Equipment Rules: A Quick Map', h1: 'API vs ASME vs ISO Pressure-Equipment Rules: A Quick Map', keywords: ['API ASME ISO', 'pressure equipment rules', 'PED', 'pressure code comparison'], focus: 'api-510', date: '2026-03-22', author: 'Otavio Sá, PE' },
+    ],
+  },
+  'ndt-training-academy': {
+    siteName: 'NDT Training Academy',
+    publisher: 'NDT Training Academy Editorial',
+    homeColor: 'indigo',
+    container: 'curriculum',
+    audience: 'NDT students, trainees, training providers',
+    primary: 'NDT training and curriculum design',
+    angles: [
+      { slug: 'designing-a-level-ii-ut-course-syllabus', title: 'Designing a Level II UT Course Syllabus That Actually Prepares Students', h1: 'Designing a Level II UT Course Syllabus That Actually Prepares Students', keywords: ['Level II UT course', 'UT syllabus', 'NDT training program', 'Level II syllabus'], focus: 'asnt-cert', date: '2024-09-09', author: 'Dr. Helena Vretska, NDT Instructor' },
+      { slug: 'practical-vs-theory-hours-snt-tc-1a-vs-cp-189', title: 'Practical vs Theory Hours: SNT-TC-1A vs CP-189', h1: 'Practical vs Theory Hours: SNT-TC-1A vs CP-189', keywords: ['SNT-TC-1A hours', 'CP-189 hours', 'NDT training hours', 'practical NDT training'], focus: 'asnt-cert', date: '2025-02-18', author: 'Dr. Helena Vretska, NDT Instructor' },
+      { slug: 'building-an-ndt-school-business-model', title: 'Building an NDT School: Business Model and Curriculum Choices', h1: 'Building an NDT School: Business Model and Curriculum Choices', keywords: ['NDT school', 'NDT training business', 'NDT institute', 'NDT academy'], focus: 'careers', date: '2025-07-12', author: 'Theo Bergman, ASNT Level III' },
+      { slug: 'online-vs-in-person-ndt-courses-where-each-wins', title: 'Online vs In-Person NDT Courses: Where Each Format Wins', h1: 'Online vs In-Person NDT Courses: Where Each Format Wins', keywords: ['online NDT course', 'in person NDT', 'NDT distance learning', 'hybrid NDT training'], focus: 'asnt-cert', date: '2025-11-25', author: 'Dr. Helena Vretska, NDT Instructor' },
+      { slug: 'eye-exam-jaeger-near-vision-ndt-acceptance', title: 'Eye Exam and Jaeger Near Vision: What the NDT Standards Require', h1: 'Eye Exam and Jaeger Near Vision: What the NDT Standards Require', keywords: ['NDT eye exam', 'Jaeger 2', 'visual acuity NDT', 'inspector eye test'], focus: 'asnt-cert', date: '2026-04-06', author: 'Theo Bergman, ASNT Level III' },
+    ],
+  },
+  'oil-gas-inspection-guide': {
+    siteName: 'Oil & Gas Inspection Guide',
+    publisher: 'Oil & Gas Inspection Guide Editorial',
+    homeColor: 'amber',
+    container: 'sectors',
+    audience: 'upstream/midstream/downstream inspection leads',
+    primary: 'oil & gas inspection',
+    angles: [
+      { slug: 'upstream-midstream-downstream-inspection-budget-allocation', title: 'Upstream vs Midstream vs Downstream: Where Inspection Budget Actually Goes', h1: 'Upstream vs Midstream vs Downstream: Where Inspection Budget Actually Goes', keywords: ['upstream inspection', 'midstream inspection', 'downstream inspection', 'oil gas inspection budget'], focus: 'kpi', date: '2024-10-02', author: 'Ricardo Sosa, PE' },
+      { slug: 'crude-oil-storage-tank-inspection-api-653-walkthrough', title: 'Crude Oil Storage Tank Inspection: API 653 Walkthrough', h1: 'Crude Oil Storage Tank Inspection: API 653 Walkthrough', keywords: ['API 653', 'crude tank inspection', 'aboveground storage tank', 'tank floor inspection'], focus: 'api-510', date: '2025-02-25', author: 'Ricardo Sosa, PE' },
+      { slug: 'gathering-system-pipeline-inspection-cost-effective', title: 'Gathering-System Pipeline Inspection: Cost-Effective Methods', h1: 'Gathering-System Pipeline Inspection: Cost-Effective Methods', keywords: ['gathering pipeline', 'shale pipeline inspection', 'gathering system', 'oilfield pipeline NDT'], focus: 'ili', date: '2025-07-09', author: 'Marisa Quintero, Pipeline Eng' },
+      { slug: 'wellhead-inspection-and-pressure-testing', title: 'Wellhead Inspection and Pressure Testing: Field Practice', h1: 'Wellhead Inspection and Pressure Testing: Field Practice', keywords: ['wellhead inspection', 'tree pressure test', 'API 6A', 'frac tree'], focus: 'fab', date: '2025-12-08', author: 'Ricardo Sosa, PE' },
+      { slug: 'lact-skid-and-meter-prover-inspection', title: 'LACT Skid and Meter Prover Inspection: What QA Should Look For', h1: 'LACT Skid and Meter Prover Inspection: What QA Should Look For', keywords: ['LACT skid', 'meter prover', 'custody transfer', 'API MPMS'], focus: 'kpi', date: '2026-04-11', author: 'Marisa Quintero, Pipeline Eng' },
+    ],
+  },
+  'power-generation-ndt': {
+    siteName: 'Power Generation NDT',
+    publisher: 'Power Generation NDT Editorial',
+    homeColor: 'yellow',
+    container: 'plant',
+    audience: 'power station inspection engineers, boiler/turbine NDT specialists',
+    primary: 'power generation NDT (fossil, gas, nuclear, renewable)',
+    angles: [
+      { slug: 'boiler-tube-inspection-program-for-fossil-plants', title: 'Boiler Tube Inspection Program for Fossil Plants', h1: 'Boiler Tube Inspection Program for Fossil Plants', keywords: ['boiler tube', 'EPRI boiler', 'fossil plant NDT', 'waterwall tube'], focus: 'method-selection', date: '2024-09-30', author: 'Halvar Strøm, EPRI-certified' },
+      { slug: 'turbine-blade-root-inspection-eddy-current-and-paut', title: 'Turbine Blade Root Inspection: Eddy Current and PAUT in Practice', h1: 'Turbine Blade Root Inspection: Eddy Current and PAUT in Practice', keywords: ['turbine blade root', 'fir tree root', 'steam turbine NDT', 'blade root ECT'], focus: 'paut', date: '2025-03-04', author: 'Halvar Strøm, EPRI-certified' },
+      { slug: 'gas-turbine-hot-section-inspection-borescope-and-fpi', title: 'Gas Turbine Hot Section Inspection: Borescope and FPI in Practice', h1: 'Gas Turbine Hot Section Inspection: Borescope and FPI in Practice', keywords: ['gas turbine hot section', 'borescope inspection', 'GT inspection', 'frame 5 frame 7'], focus: 'fpi', date: '2025-08-18', author: 'Yvonne Daw, NDT Engineer' },
+      { slug: 'condenser-tube-inspection-for-power-plants', title: 'Condenser Tube Inspection for Power Plants: A Practical Workflow', h1: 'Condenser Tube Inspection for Power Plants: A Practical Workflow', keywords: ['condenser tube', 'power plant ECT', 'condenser inspection', 'titanium tube inspection'], focus: 'method-selection', date: '2025-12-21', author: 'Halvar Strøm, EPRI-certified' },
+      { slug: 'inspection-of-wind-turbine-tower-flange-bolts', title: 'Inspection of Wind Turbine Tower Flange Bolts: Why It Keeps Surprising People', h1: 'Inspection of Wind Turbine Tower Flange Bolts: Why It Keeps Surprising People', keywords: ['wind turbine bolt', 'tower flange bolt', 'wind turbine NDT', 'bolt inspection'], focus: 'cfrp', date: '2026-04-17', author: 'Yvonne Daw, NDT Engineer' },
+    ],
+  },
+  'rail-ndt-resource': {
+    siteName: 'Rail NDT Resource',
+    publisher: 'Rail NDT Resource Editorial',
+    homeColor: 'orange',
+    container: 'rail',
+    audience: 'rail track engineers, rolling-stock NDT, rail mechanical leads',
+    primary: 'rail NDT (track and rolling stock)',
+    angles: [
+      { slug: 'rail-flaw-detection-vehicle-types-and-tradeoffs', title: 'Rail Flaw Detection Vehicles: Types, Speeds, and Trade-Offs', h1: 'Rail Flaw Detection Vehicles: Types, Speeds, and Trade-Offs', keywords: ['rail flaw detection', 'rail UT car', 'broken rail', 'AAR rail inspection'], focus: 'ili', date: '2024-09-20', author: 'Kelvin Owen, AREMA' },
+      { slug: 'rolling-stock-wheel-set-ndt-paut-and-mt', title: 'Rolling Stock Wheel Set NDT: PAUT and MT in Practice', h1: 'Rolling Stock Wheel Set NDT: PAUT and MT in Practice', keywords: ['wheel set NDT', 'rolling stock', 'axle NDT', 'rail wheel inspection'], focus: 'paut', date: '2025-02-21', author: 'Kelvin Owen, AREMA' },
+      { slug: 'thermite-weld-inspection-on-continuous-welded-rail', title: 'Thermite Weld Inspection on Continuous Welded Rail', h1: 'Thermite Weld Inspection on Continuous Welded Rail', keywords: ['thermite weld', 'CWR rail', 'aluminothermic weld', 'rail weld NDT'], focus: 'aws-d1-1', date: '2025-07-25', author: 'Saskia Vandenburg, IWE' },
+      { slug: 'rail-corrosion-fatigue-detection-rcf-cracking', title: 'Rail Rolling Contact Fatigue (RCF): Detection and Mitigation', h1: 'Rail Rolling Contact Fatigue (RCF): Detection and Mitigation', keywords: ['RCF cracking', 'rail rolling contact fatigue', 'head check', 'rail squat'], focus: 'cracking', date: '2025-12-04', author: 'Kelvin Owen, AREMA' },
+      { slug: 'rail-bridge-truss-inspection-aar-mra', title: 'Rail Bridge Truss Inspection: AAR and Operator Practice', h1: 'Rail Bridge Truss Inspection: AAR and Operator Practice', keywords: ['rail bridge', 'truss bridge', 'rail bridge inspection', 'AAR MRA'], focus: 'aws-d1-1', date: '2026-04-18', author: 'Saskia Vandenburg, IWE' },
+    ],
+  },
+  'renewable-energy-ndt': {
+    siteName: 'Renewable Energy NDT',
+    publisher: 'Renewable Energy NDT Editorial',
+    homeColor: 'green',
+    container: 'renewables',
+    audience: 'wind, solar, hydrogen, and geothermal NDT engineers',
+    primary: 'renewable energy NDT',
+    angles: [
+      { slug: 'wind-turbine-foundation-grout-inspection-offshore', title: 'Wind Turbine Foundation Grout Inspection (Offshore Monopiles)', h1: 'Wind Turbine Foundation Grout Inspection (Offshore Monopiles)', keywords: ['monopile grout', 'wind foundation NDT', 'offshore wind monopile', 'transition piece grout'], focus: 'fpso', date: '2024-10-12', author: 'Sven Mortensen, IIMS' },
+      { slug: 'green-hydrogen-pipeline-inspection-considerations', title: 'Green Hydrogen Pipeline Inspection: New Considerations', h1: 'Green Hydrogen Pipeline Inspection: New Considerations', keywords: ['hydrogen pipeline', 'green hydrogen', 'hydrogen embrittlement', 'H2 pipeline NDT'], focus: 'cracking', date: '2025-03-12', author: 'Sven Mortensen, IIMS' },
+      { slug: 'csp-receiver-tube-inspection-concentrated-solar', title: 'CSP Receiver Tube Inspection for Concentrated Solar Plants', h1: 'CSP Receiver Tube Inspection for Concentrated Solar Plants', keywords: ['CSP receiver', 'concentrated solar', 'solar tower inspection', 'receiver tube NDT'], focus: 'method-selection', date: '2025-08-23', author: 'Lior Adani, Solar Eng' },
+      { slug: 'geothermal-well-casing-corrosion-and-inspection', title: 'Geothermal Well Casing Corrosion and Inspection Strategy', h1: 'Geothermal Well Casing Corrosion and Inspection Strategy', keywords: ['geothermal well', 'casing inspection', 'geothermal corrosion', 'CO2 H2S well'], focus: 'sulfidation', date: '2025-12-17', author: 'Lior Adani, Geothermal Eng' },
+      { slug: 'wind-blade-leading-edge-erosion-detection-and-repair', title: 'Wind Blade Leading Edge Erosion: Detection and Repair', h1: 'Wind Blade Leading Edge Erosion: Detection and Repair', keywords: ['leading edge erosion', 'wind blade LEE', 'blade repair', 'leading edge protection'], focus: 'coating', date: '2026-04-21', author: 'Sven Mortensen, IIMS' },
+    ],
+  },
+  'tank-inspection-resource': {
+    siteName: 'Tank Inspection Resource',
+    publisher: 'Tank Inspection Resource Editorial',
+    homeColor: 'cyan',
+    container: 'tanks',
+    audience: 'API 653 inspectors, terminal operators, tank field engineers',
+    primary: 'aboveground storage tank inspection',
+    angles: [
+      { slug: 'api-653-out-of-service-internal-inspection-checklist', title: 'API 653 Out-of-Service Internal Inspection Checklist', h1: 'API 653 Out-of-Service Internal Inspection Checklist', keywords: ['API 653 internal', 'tank internal inspection', 'out of service inspection', 'tank floor'], focus: 'api-510', date: '2024-09-06', author: 'Heidi Knaack, API 653' },
+      { slug: 'tank-floor-mfl-vs-paut-which-fits-the-job', title: 'Tank Floor MFL vs PAUT: Which Method Fits the Job?', h1: 'Tank Floor MFL vs PAUT: Which Method Fits the Job?', keywords: ['tank floor MFL', 'tank floor inspection', 'floor scanner', 'PAUT tank floor'], focus: 'paut', date: '2025-01-28', author: 'Heidi Knaack, API 653' },
+      { slug: 'tank-shell-thickness-program-with-out-of-service-inspection', title: 'Tank Shell Thickness Program With and Without Out-of-Service Inspection', h1: 'Tank Shell Thickness Program With and Without Out-of-Service Inspection', keywords: ['tank shell thickness', 'CML tank', 'in service tank', 'API 653 thickness'], focus: 'cml', date: '2025-06-26', author: 'Tomás Reinoso, API 510/653' },
+      { slug: 'floating-roof-seal-inspection-and-leak-detection', title: 'Floating Roof Seal Inspection and Leak Detection', h1: 'Floating Roof Seal Inspection and Leak Detection', keywords: ['floating roof seal', 'EFR seal', 'tank seal inspection', 'EPA QQQ'], focus: 'coating', date: '2025-11-15', author: 'Heidi Knaack, API 653' },
+      { slug: 'soil-side-corrosion-on-tank-floors-and-detection', title: 'Soil-Side Corrosion on Tank Floors and How to Detect It', h1: 'Soil-Side Corrosion on Tank Floors and How to Detect It', keywords: ['soil side corrosion', 'tank floor underside', 'API 653 soil side', 'tank floor MFL'], focus: 'cui', date: '2026-04-05', author: 'Tomás Reinoso, API 510/653' },
+    ],
+  },
+  'welding-inspection-hub': {
+    siteName: 'Welding Inspection Hub',
+    publisher: 'Welding Inspection Hub Editorial',
+    homeColor: 'amber',
+    container: 'inspect',
+    audience: 'CWIs, CSWIPs, IWIs, welding QA managers',
+    primary: 'welding inspection and QA/QC',
+    angles: [
+      { slug: 'cwi-vs-cswip-vs-iwi-which-cert-for-which-market', title: 'CWI vs CSWIP vs IWI: Which Cert Fits Which Market?', h1: 'CWI vs CSWIP vs IWI: Which Cert Fits Which Market?', keywords: ['CWI CSWIP IWI', 'welding inspector certification', 'AWS CWI', 'TWI CSWIP'], focus: 'asnt-cert', date: '2024-08-18', author: 'Magda Krasinski, AWS CWI' },
+      { slug: 'visual-weld-acceptance-by-code-asme-vs-aws', title: 'Visual Weld Acceptance by Code: ASME Section IX vs AWS D1.1', h1: 'Visual Weld Acceptance by Code: ASME Section IX vs AWS D1.1', keywords: ['visual weld acceptance', 'ASME IX visual', 'AWS D1.1 VT', 'weld VT'], focus: 'vt', date: '2025-02-01', author: 'Magda Krasinski, AWS CWI' },
+      { slug: 'weld-procedure-qualification-record-pqr-from-zero', title: 'Weld Procedure Qualification Record (PQR) From Zero', h1: 'Weld Procedure Qualification Record (PQR) From Zero', keywords: ['PQR welding', 'WPS PQR', 'ASME IX', 'welding qualification'], focus: 'wpq', date: '2025-06-08', author: 'Carlos Andrade, IWE' },
+      { slug: 'welding-distortion-control-on-thin-plate-fabrication', title: 'Welding Distortion Control on Thin-Plate Fabrication', h1: 'Welding Distortion Control on Thin-Plate Fabrication', keywords: ['welding distortion', 'thin plate welding', 'distortion control', 'tack welding strategy'], focus: 'wpq', date: '2025-10-26', author: 'Magda Krasinski, AWS CWI' },
+      { slug: 'macro-etch-test-on-welds-what-it-actually-shows', title: 'Macro-Etch Test on Welds: What It Actually Shows You', h1: 'Macro-Etch Test on Welds: What It Actually Shows You', keywords: ['macro etch', 'macro test weld', 'AWS D1.1 macro', 'weld cross section'], focus: 'aws-d1-1', date: '2026-03-28', author: 'Carlos Andrade, IWE' },
+    ],
+  },
+});
+
+// ---------------------------------------------------------------------------
 // Backlink target catalog - resolved against blogs.json + main domain pages
 // ---------------------------------------------------------------------------
 const ATLANTIS_DOMAIN = 'https://atlantisndt.com';
@@ -842,6 +1258,81 @@ const EXTERNAL_AUTHORITY_LINKS = [
 ];
 
 // ---------------------------------------------------------------------------
+// FRESH PAGES POOL (2026-05-23): new ERP pages + new blog posts + curated
+// high-value existing pillars. Used to spread backlink love across the
+// 232 new URLs we created on 2026-05-23 (final report).
+// Distribution target across the engine:
+//   40% from new ERP pages, 30% from new blog posts, 30% from high-value pillars
+// (these are added on top of the existing per-focus TARGET_CATALOG; about half
+//  of each article's "internal" links now come from the fresh pool.)
+// ---------------------------------------------------------------------------
+function anchorForErpPage(slug) {
+  // derive natural anchor text from slug pattern
+  if (slug.startsWith('ndt-erp-')) {
+    const loc = slug.replace('ndt-erp-', '').replace(/-/g, ' ');
+    return [
+      `the affordable NDT ERP option for ${loc}`,
+      `NDT ERP pricing & app coverage for ${loc}`,
+      `the ${loc} NDT ERP page`,
+    ];
+  }
+  if (slug.startsWith('crm-ndt-inspection-companies-')) {
+    const loc = slug.replace('crm-ndt-inspection-companies-', '').replace(/-/g, ' ');
+    return [
+      `the CRM-for-NDT-inspection-companies guide for ${loc}`,
+      `${loc} NDT inspection CRM overview`,
+    ];
+  }
+  if (slug.startsWith('crm-for-') || slug.startsWith('email-marketing-') || slug.startsWith('marketing-automation-')) {
+    const what = slug.replace(/-/g, ' ');
+    return [`the ${what} overview maintained by Atlantis NDT`];
+  }
+  return [`the ${slug.replace(/-/g, ' ')} resource on Atlantis NDT`];
+}
+function blogAnchorFromUrl(url) {
+  const slug = url.split('/').pop() || '';
+  const friendly = slug.replace(/-/g, ' ');
+  return [
+    `the long-form article on ${friendly}`,
+    `Atlantis NDT's working notes on ${friendly}`,
+    `the ${friendly} reference`,
+  ];
+}
+
+const FRESH_ERP_POOL = NEW_ERP_PAGES.map((p) => ({
+  url: p.url,
+  anchors: anchorForErpPage(p.slug),
+  source: 'erp',
+}));
+const FRESH_BLOG_POOL = NEW_BLOG_POSTS.map((p) => ({
+  url: p.url,
+  anchors: blogAnchorFromUrl(p.url),
+  source: 'blog',
+}));
+// Curated high-value pillars
+const HIGH_VALUE_PILLARS = [
+  { url: `${ATLANTIS_DOMAIN}/erp`, anchors: ['the Atlantis NDT ERP overview (Odoo apps, $18,000/yr all-in)', 'the affordable NDT ERP positioning page'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/digital-twins`, anchors: ['the digital twin platform overview', 'the Digital Twin software for NDT 2026 page'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/digital-twin-roi-calculator`, anchors: ['the digital twin ROI calculator', 'the digital twin ROI calculator with worked examples'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/digital-twin-vendor-comparison`, anchors: ['the digital twin vendor comparison', 'an independent digital twin vendor comparison'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/ndt-erp-solution`, anchors: ['the NDT ERP solution overview', 'the Odoo-for-NDT solution page'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/ndt-reporting-software`, anchors: ['the NDT reporting software product page', 'the digital-twin-aware reporting platform'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/asnt-certification`, anchors: ['the ASNT certification overview'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/blog/digital-twins-oil-gas`, anchors: ['digital twins in oil & gas - the longer reference'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025`, anchors: ['the ultimate guide to NDT digital twins'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity`, anchors: ['the digital twin roadmap for oil & gas asset integrity'], source: 'pillar' },
+];
+
+// Deterministic pick from a pool keyed by (slug, articleIndex)
+function pickFromPool(pool, seed, rng) {
+  if (!pool.length) return null;
+  const idx = Math.floor(rng() * pool.length);
+  const p = pool[idx];
+  const anchor = p.anchors[Math.floor(rng() * p.anchors.length)];
+  return { url: p.url, anchor, internal: true, source: p.source };
+}
+
+// ---------------------------------------------------------------------------
 // Article composition primitives
 // ---------------------------------------------------------------------------
 
@@ -924,7 +1415,7 @@ const SECTION_TEMPLATES = {
 <p>The data you keep, how long you keep it, and who can review it. The technical work usually does not change much — the documentation effort goes up significantly.</p>`,
   closing: (a) =>
     `<h2>Closing thoughts</h2>
-<p>If we had to summarize ${a.f(0)} in one line it would be this: <strong>the technique matters less than the decision discipline around it.</strong> Teams that consistently choose the right technique are usually teams that have invested in writing down their decision rationale, qualifying their procedures with care, and keeping their inspectors current. Equipment and software change every few years; that discipline does not.</p>`,
+<p>If we had to summarize ${a.f(0)} in one line it would be this: <strong>the technique matters less than the decision discipline around it.</strong> Teams that consistently choose the right technique are usually teams that have invested in writing down their decision rationale, qualifying their procedures with care, and keeping their inspectors current. Equipment and software change every few years; that discipline does not.</p>${a.posbExtra ? `\n<p>${a.posbExtra}</p>` : ''}`,
 };
 
 function pickBacklink(focus, rng, useInternal) {
@@ -932,12 +1423,20 @@ function pickBacklink(focus, rng, useInternal) {
     const list = TARGET_CATALOG[focus] || TARGET_CATALOG['method-selection'];
     const choice = list[Math.floor(rng() * list.length)];
     const anchor = choice.anchors[Math.floor(rng() * choice.anchors.length)];
-    return { url: choice.url, anchor, internal: true };
+    return { url: choice.url, anchor, internal: true, source: 'catalog' };
   } else {
     const choice = EXTERNAL_AUTHORITY_LINKS[Math.floor(rng() * EXTERNAL_AUTHORITY_LINKS.length)];
     const anchor = choice.anchors[Math.floor(rng() * choice.anchors.length)];
-    return { url: choice.url, anchor, internal: false };
+    return { url: choice.url, anchor, internal: false, source: 'external' };
   }
+}
+
+// Pick a fresh (2026-05-23 universe) backlink: 40% ERP, 30% blog, 30% pillar
+function pickFreshBacklink(rng) {
+  const r = rng();
+  if (r < 0.4 && FRESH_ERP_POOL.length) return pickFromPool(FRESH_ERP_POOL, 0, rng);
+  if (r < 0.7 && FRESH_BLOG_POOL.length) return pickFromPool(FRESH_BLOG_POOL, 0, rng);
+  return pickFromPool(HIGH_VALUE_PILLARS, 0, rng);
 }
 
 function targetWordCount(slug) {
@@ -993,6 +1492,22 @@ function buildArticleHtml(satTopic, angle, internalArticles, articleIndex) {
   for (let i = 0; i < internalQuota; i++) tryAdd(true);
   for (let i = 0; i < externalQuota; i++) tryAdd(false);
 
+  // 2026-05-23 addition: every article gets ONE extra fresh backlink drawn from
+  // the new ERP-pages / new-blogs / high-value-pillars pool. This ensures the
+  // 232 new pages and 15 new blog posts receive backlink love from satellites.
+  let safety = 0;
+  while (safety < 20) {
+    const fb = pickFreshBacklink(rng);
+    if (!fb) break;
+    const key = fb.url + '||' + fb.anchor;
+    if (!seenKeys.has(key)) {
+      seenKeys.add(key);
+      backlinks.push(fb);
+      break;
+    }
+    safety++;
+  }
+
   // Pre-build "para sub-blocks" with backlinks injected
   const posb = backlinks.map((bl) => {
     const rel = bl.internal ? 'noopener' : 'noopener nofollow';
@@ -1007,6 +1522,7 @@ function buildArticleHtml(satTopic, angle, internalArticles, articleIndex) {
     posb1: posb[0] || '',
     posb2: posb[1] || posb[0] || '',
     posb3: posb[2] || posb[0] || '',
+    posbExtra: posb.slice(3).join(' ') || '',
   };
 
   // Cross-link to 2 other internal articles in this satellite
@@ -1530,12 +2046,16 @@ function main() {
   let targets;
   if (args[0] === '--all-priority') {
     targets = PRIORITY_SATELLITES;
+  } else if (args[0] === '--all') {
+    // Run every satellite that has a topic profile.
+    targets = Object.keys(TOPIC_PROFILES);
   } else if (args.length) {
     targets = args;
   } else {
     console.log(
       'Usage: node scripts/satellite-enrich.mjs <satellite-name> [<more>]\n' +
-        '       node scripts/satellite-enrich.mjs --all-priority'
+        '       node scripts/satellite-enrich.mjs --all-priority\n' +
+        '       node scripts/satellite-enrich.mjs --all'
     );
     process.exit(2);
   }
