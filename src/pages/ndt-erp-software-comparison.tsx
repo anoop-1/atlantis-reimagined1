@@ -180,8 +180,8 @@ export default function NDTERPSoftwareComparison() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP Software Comparison 2026 | Best Solutions Reviewed | Atlantis NDT"
-        description="Compare NDT ERP software solutions. Enterprise systems vs specialized NDT platforms vs cloud SaaS. Features, costs, implementation timelines. Expert recommendations."
+        title="Best NDT ERP Software 2026 — 8 Vendors Compared, $18K vs $2M+"
+        description="2026 NDT ERP comparison: 8 vendors rated on cost, deploy time, ASNT tracking, API reporting. Atlantis $18K/yr vs enterprise $250K-$2M+. Free pricing matrix — see it free."
         keywords="NDT ERP software, NDT software comparison, inspection management software, NDT data management, NDT reporting software, asset integrity software"
         canonical="https://atlantisndt.com/ndt-erp-software-comparison"
         structuredData={structuredData}

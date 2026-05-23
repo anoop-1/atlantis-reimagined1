@@ -39,8 +39,8 @@ export default function ErpIndustriesHub() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="ERP Software for Inspection & Service Companies — by Industry | Atlantis NDT"
-        description="Tailored ERP for NDT inspection, calibration laboratories, welding fabrication shops, marine survey, pipeline integrity, aerospace QC, metrology, industrial coatings, construction QA, geotechnical, environmental testing, oilfield services."
+        title="ERP for Inspection Companies — 12 Industries, $18K/yr"
+        description="Atlantis ERP $18,000/yr flat, tailored for 12 industries: NDT, calibration labs, welding shops, marine survey, pipeline integrity, aerospace QC, oilfield services. Demo free."
         keywords="industry-specific ERP, ERP for inspection companies, ERP for NDT, ERP for calibration lab, ERP for welding shop, ERP for marine survey, ERP for pipeline integrity, ERP for aerospace QC, ERP for metrology lab, ERP for coatings inspection, ERP for construction QA, ERP for geotechnical, ERP for environmental testing, ERP for oilfield services, Atlantis NDT"
         canonical={url}
         structuredData={structuredData}

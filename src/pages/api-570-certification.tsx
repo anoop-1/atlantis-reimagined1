@@ -149,8 +149,8 @@ export default function API570Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 570 Certification 2026 — Requirements, Cost, Pass Rate"
-                description="API 570 Piping Inspector certification 2026: experience requirements, $730 exam fee, 82% first-attempt pass rate, 11 codes, 5-day prep course, recertification. Atlantis NDT — ASNT Level III instructors."
+                title="API 570 Certification 2026 — $730 Exam, 82% Pass, 5-Day Prep"
+                description="API 570 Piping Inspector 2026: $730 exam, 82% pass rate, 11 reference codes, 5-day prep, recert every 3 yrs. ASNT Level III instructors, Houston & online. Enroll now."
                 keywords="API 570 certification, API 570 training, piping inspector certification, API 570 exam prep, API 570 study guide, piping inspection, ASME B31.3, API 570 recertification, piping inspector exam, CML inspection"
                 canonical="https://atlantisndt.com/api-570-certification"
                 structuredData={structuredData}

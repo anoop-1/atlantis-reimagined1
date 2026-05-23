@@ -171,8 +171,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Tank Inspector Certification 2026 — Cost, Pass Rate"
-                description="API 653 Aboveground Storage Tank Inspector 2026: experience requirements, $730 exam fee, 85% first-attempt pass rate, 10 reference codes (API 650/651/652/571/575/577), 5-day prep, recertification. Atlantis NDT — ASNT Level III instructors."
+                title="API 653 Tank Inspector 2026 — $730 Exam, 85% Pass, 5-Day Prep"
+                description="API 653 Storage Tank Inspector 2026: $730 exam, 85% pass rate, 10 reference codes (API 650/651/652/575/577), 5-day prep, recert every 3 yrs. ASNT Level III instructors. Enroll."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}

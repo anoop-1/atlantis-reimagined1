@@ -79,8 +79,8 @@ export default function ErpImplementationCostCalculator() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT ERP Implementation Cost Calculator [2026]: Atlantis, SAP, Oracle, Maximo TCO"
-                description="Free interactive calculator: Year-1 and 5-year TCO for NDT ERP implementation across Atlantis, SAP S/4HANA, Oracle Fusion, IBM Maximo. License + implementation + integration + migration + training."
+                title="NDT ERP Cost Calculator 2026 — Atlantis $18K vs SAP $2M+"
+                description="Free 2026 NDT ERP TCO calculator: Atlantis $18K/yr vs SAP S/4HANA, Oracle Fusion, IBM Maximo Year-1 & 5-year totals. License, implementation, integration, training. Try free."
                 canonical="https://atlantisndt.com/erp-implementation-cost-calculator"
                 structuredData={structuredData}
             />

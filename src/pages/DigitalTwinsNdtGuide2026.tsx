@@ -103,8 +103,8 @@ export default function DigitalTwinsNdtGuide2026() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin NDT Guide 2026: 5-Stage Maturity Model"
-                description="Complete 2026 pillar guide to digital twins in NDT: 5-stage maturity model, sensor stack, API 510/570/580/579 alignment, 6 vendor profiles, ROI data."
+                title="Digital Twin NDT Guide 2026 — 5-Stage Model, 6 Vendors"
+                description="Complete 2026 pillar guide to digital twins in NDT: 5-stage maturity model, sensor stack, API 510/570/580/579 alignment, 6 vendor profiles, ROI data. Read free."
                 canonical="https://atlantisndt.com/digital-twins-ndt-guide-2026"
                 structuredData={structuredData}
                 faq={faqs}

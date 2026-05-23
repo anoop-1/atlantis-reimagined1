@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
+import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { Link } from 'react-router-dom';
 
 export default function NDTTrainingNewYork() {
@@ -383,6 +384,12 @@ export default function NDTTrainingNewYork() {
               <Link to="/contact">Request Information</Link>
             </Button>
           </div>
+        </div>
+      </section>
+
+      <section className="py-8 bg-white border-t border-slate-200">
+        <div className="container mx-auto max-w-6xl px-6">
+          <RelatedCityProducts currentProduct="training" citySlug="new-york" city="New York" />
         </div>
       </section>
 

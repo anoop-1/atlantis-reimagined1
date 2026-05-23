@@ -20,81 +20,23 @@ import {
   consultingPathForCity,
   trainingPathForCity,
 } from '@/data/city-profiles';
+import { RelatedCityProducts } from '@/components/RelatedProducts';
+import {
+  digitalTwinLocationContext,
+  digitalTwinAssets,
+  digitalTwinIndustries,
+} from '@/data/dt-city-data';
 
 // ─── Location context data ────────────────────────────────────────────────────
-
-const digitalTwinLocationContext: Record<string, string> = {
-    "houston": "Houston is the global capital of the oil and gas industry, hosting more than 500 refineries, petrochemical complexes, and midstream facilities across the Greater Houston area. The sheer density of pressure vessels, heat exchangers, storage tanks, and pipeline networks makes digital twin technology an operational necessity for integrity managers working across Shell, ExxonMobil, Chevron, and Lyondell Basell assets. The humid subtropical climate and proximity to the Gulf of Mexico create persistent corrosion challenges, making real-time thickness trending within a 3D digital twin a critical risk-management tool.",
-    "dubai": "Dubai serves as the commercial nerve centre for Middle East energy operations, with ENOC, DEWA, and Emarat facilities concentrated across Jebel Ali and the broader UAE industrial corridor. The emirate's position as a logistics and engineering hub makes it ideal for managing digital twin data across offshore platforms, onshore storage tanks, and the complex pipeline infrastructure connecting Gulf production to export terminals. Extreme desert temperatures and coastal humidity create demanding corrosion environments where predictive maintenance planning through digital twin analytics delivers measurable ROI.",
-    "abu-dhabi": "Abu Dhabi holds 94% of the UAE's proven oil reserves and hosts ADNOC's sprawling network of offshore platforms, the Ruwais refinery complex, LNG storage at Das Island, and hundreds of kilometres of sour-gas pipelines. The scale and criticality of these assets make digital twin integration with NDT inspection data a regulatory and commercial imperative. ADNOC's internal integrity management initiatives align directly with the colour-coded fitness-for-service outputs that digital twin platforms provide to inspection engineers.",
-    "saudi-arabia": "Saudi Arabia operates the world's largest integrated oil and gas network, spanning the Ghawar field, the Abqaiq processing facility, and refining complexes at Yanbu, Jubail, and Ras Tanura that together process millions of barrels per day. Saudi Aramco's digital transformation programme has established 3D asset visualisation and real-time inspection data integration as standard requirements for new major projects. Digital twins of pressure vessels, reactors, and cryogenic storage tanks reduce shutdown durations and enable continuous fitness-for-service monitoring between turnarounds.",
-    "calgary": "Calgary is the administrative headquarters of Canada's oil sands sector, with Suncor, Canadian Natural Resources, and Imperial Oil operating massive upgrader vessels, bitumen processing units, and an extensive pipeline network connecting production to North American markets. The extreme cold-weather operational environment accelerates certain damage mechanisms and requires inspection programmes that feed directly into a 3D digital twin for trend analysis and remaining-life calculations. Oil sands processing equipment — cokers, fractionators, and hot-bitumen piping — benefit enormously from digital twin corrosion mapping.",
-    "singapore": "Singapore's Jurong Island hosts one of the world's most highly integrated petrochemical complexes, with ExxonMobil, Shell, and Sembcorp operating cracker units, reformers, and polymer plants within a few square kilometres. Space constraints and continuous operation schedules make risk-based inspection planning through digital twins essential for managing inspection windows without compromising production. The island's maritime environment creates localised corrosion hotspots on external surfaces that are most efficiently tracked through colour-coded 3D models.",
-    "mumbai": "Mumbai anchors India's western industrial corridor, with BPCL's Mahul refinery, HPCL's Chembur plant, and the offshore production infrastructure of ONGC all within the region. Rapid growth in India's refining capacity and an ageing installed base of pressure equipment make digital twin inspection data integration a high-priority initiative for integrity managers seeking to optimise turnaround scope and demonstrate regulatory compliance under PESO and Petroleum Act requirements. The monsoon-driven corrosion season makes seasonal wall-thickness trending in a live 3D model especially valuable.",
-    "london": "London serves as the corporate headquarters for BP, Shell, and numerous EPCI contractors managing inspection programmes across the North Sea, downstream Europe, and global asset portfolios. Digital twin platforms adopted at the London corporate level drive standardised inspection data workflows across operating sites worldwide. The UK's mature regulatory framework under the Pressure Systems Safety Regulations and PSSR 2000, combined with the HSE's focus on major hazard risk reduction, creates a strong compliance driver for fitness-for-service digital twin outputs.",
-    "perth": "Perth is the operational gateway to Western Australia's LNG mega-projects — Gorgon, Wheatstone, and North West Shelf — as well as major iron ore and mineral processing facilities operated by BHP, Rio Tinto, and Woodside. The combination of offshore FLNG vessels, onshore LNG trains, cryogenic storage, and high-pressure separator vessels creates one of the most technically demanding digital twin environments globally. Remote site locations and expensive logistics make virtual inspection planning through 3D digital twins a critical cost-reduction tool.",
-    "doha": "Doha sits at the heart of Qatar's LNG export industry, which is the world's largest, with RasGas and Qatargas operating cryogenic storage spheres, regasification facilities, and loading arms at the Ras Laffan Industrial City complex. The North Field expansion represents the world's largest single LNG development, and QatarEnergy's engineering standards mandate digital twin data integration for all new pressure vessels and storage tanks. Cryogenic service conditions, high-pressure gas streams, and the critical nature of export infrastructure make digital twin fitness-for-service reporting essential.",
-    "kuwait": "Kuwait City coordinates KNPC's Clean Fuels Project at Al-Zour — the world's largest refinery project — alongside the existing Mina Abdullah and Mina Al-Ahmadi refineries and KOC's extensive upstream pipeline network. The commissioning of new high-capacity refinery units creates an immediate requirement for baseline digital twin models that can absorb all NDT inspection data throughout the asset lifecycle. High-sulphur crude processing and sour-water corrosion make localised thickness trending within a 3D model a key risk-management deliverable.",
-    "aberdeen": "Aberdeen is the established capital of the UK offshore oil and gas industry, with operators including BP, TotalEnergies, Harbour Energy, and EnQuest managing ageing North Sea platforms, FPSOs, and subsea systems from local offices. Life extension programmes for platforms beyond their original design life rely heavily on fitness-for-service assessments, and digital twins that aggregate decades of inspection data provide the evidentiary basis for continued operation approvals from the HSE. The energy transition is also driving offshore wind digital twin adoption from Aberdeen.",
-    "oslo": "Oslo coordinates Norway's offshore petroleum sector under the world's most stringent regulatory regime, with Equinor, Aker BP, and ConocoPhillips operating platforms subject to NORSOK N-005 and PSA Norway requirements for systematic condition monitoring. Norwegian operators have been early adopters of digital twin technology as a component of their Computerised Maintenance Management Systems, integrating TOFD, phased array, and AUT scan data directly into 3D asset models. The subsea inspection environment and the prevalence of ageing North Sea platforms make digital twin life-extension analysis a core deliverable.",
-    "rotterdam": "Rotterdam's Europoort is Europe's largest refining and petrochemical hub, with Shell, ExxonMobil, BP, and Koch Industries operating major cracking and distillation units that process crude from global sources for continental European markets. The Netherlands Authority for Nuclear Safety and Radiation Protection (ANVS) and the Seveso III Directive create a compliance framework that rewards systematic inspection data management, which digital twin platforms deliver through automated regulatory reporting. Tidal waterways and North Sea wind exposure create specific external corrosion patterns trackable in 3D models.",
-    "hyderabad": "Hyderabad is India's emerging technology and industrial hub, hosting HPCL's Visakh refinery operations' decision-making teams, BHEL's power plant manufacturing, and a growing cluster of inspection technology companies that are early adopters of digital twin platforms. The city's role as a centre for India's NDT software development means digital twin customisation for Indian regulatory requirements — including PESO and IBR compliance reporting — is actively developed here. ONGC's KG basin offshore operations are also monitored from Hyderabad engineering centres.",
-    "muscat": "Muscat serves as the operational hub for Petroleum Development Oman's extensive onshore oil production network, the OQ (Orpic) Sohar refinery, and LNG trains at Sur that export to global markets. PDO's ongoing digitisation programme and Vision Oman 2040 both emphasise technology adoption in asset management, making digital twin inspection data integration an aligned strategic priority. Remote desert locations and aging oil production wells mean that virtual asset condition monitoring reduces costly site visits while maintaining regulatory compliance.",
-    "kuala-lumpur": "Kuala Lumpur is the corporate headquarters of Petronas, which operates Pengerang Integrated Complex — one of Asia's largest downstream facilities — alongside significant deepwater offshore production in the South China Sea. Petronas's internal technical standards mandate systematic inspection data management for all pressure equipment, and digital twin platforms are increasingly specified in project engineering packages for new downstream facilities. Malaysia's diverse mix of onshore refineries, offshore platforms, and LNG terminals creates a broad digital twin application landscape.",
-    "lagos": "Lagos serves as the commercial hub for Nigeria's petroleum industry, with the Dangote Refinery — Africa's largest at 650,000 bpd capacity — recently commissioned alongside existing NNPC-operated refineries and the growing deepwater offshore sector. The scale of new refinery assets and the need to establish world-class inspection data management from commissioning create an ideal environment for digital twin implementation. External corrosion from the hot, humid coastal environment and the critical nature of new export infrastructure make real-time 3D condition monitoring essential.",
-    "new-orleans": "New Orleans anchors the Lower Mississippi River chemical corridor, with major refineries operated by Phillips 66, Valero, and Marathon alongside LNG export terminals and a dense network of petrochemical facilities. The strategic importance of Gulf Coast energy infrastructure and its exposure to hurricane-related damage drives risk-based inspection planning, where digital twin platforms provide the geographic and condition data needed to prioritise inspection scopes after weather events. High humidity, temperature cycling, and external corrosion from the Mississippi River industrial environment are monitored in real time through 3D asset models.",
-    "denver": "Denver serves Colorado's diverse energy sector, including extensive DJ Basin oil and gas production, Rocky Mountain pipeline infrastructure, and significant downstream processing facilities operated by Suncor and Valero. The high-altitude UV environment and extreme seasonal temperature swings from -30°C to +40°C create unique external corrosion and inspection challenges that benefit from digital twin seasonal trending. Denver also hosts engineering decision-making centres for midstream operators managing thousands of kilometres of pipeline under PHMSA DOT regulations, where digital twin data integration supports integrity management plans."
-};
-
-// ─── Asset type data per city ─────────────────────────────────────────────────
-
-const digitalTwinAssets: Record<string, string[]> = {
-    "houston": ["Refinery pressure vessels and reactors", "Offshore FPSO hulls and mooring systems", "Petrochemical pipeline networks", "Crude oil and product storage tanks (API 653)", "Fired heaters and heat exchangers"],
-    "dubai": ["ENOC and ADNOC refinery vessels", "Offshore platform topsides and jackets", "Product storage tanks at Jebel Ali", "Export pipeline networks", "LPG spheres and pressure vessels"],
-    "abu-dhabi": ["ADNOC offshore platform structural members", "Ruwais refinery reactors and fractionators", "LNG cryogenic storage at Das Island", "Sour gas pipeline networks", "Produced water injection systems"],
-    "saudi-arabia": ["Saudi Aramco crude processing separators", "Yanbu and Jubail refinery columns", "Abqaiq gas processing trains", "Cross-country crude oil pipelines", "SABIC petrochemical reactor vessels"],
-    "calgary": ["Oil sands coking and fractionation units", "Bitumen upgrader pressure vessels", "Cold-service pipeline systems", "Storage tanks at Hardisty terminal", "Steam-assisted gravity drainage (SAGD) vessels"],
-    "singapore": ["Jurong Island cracker units", "Naphtha and aromatics storage tanks", "Heat exchanger bundles (ECT tube inspection)", "Polymer plant pressure vessels", "Marine loading arms and jetty structures"],
-    "mumbai": ["BPCL Mahul refinery columns and vessels", "HPCL atmospheric distillation units", "ONGC offshore platform wellheads", "Refinery fired heaters and waste heat boilers", "Coastal crude oil storage tanks"],
-    "london": ["North Sea FPSO hull structures", "Downstream refinery pressure vessels", "Gas processing separators and scrubbers", "Pipeline risers and subsea infrastructure", "Tank farm storage vessels"],
-    "perth": ["Gorgon and Wheatstone LNG cryogenic storage", "FLNG vessel hull and topside structures", "Iron ore processing plant vessels", "High-pressure separator vessels (offshore)", "Woodside offshore platform topsides"],
-    "doha": ["QatarEnergy LNG cryogenic spheres and tanks", "Ras Laffan refinery pressure vessels", "Natural gas processing trains", "Offshore North Field platform structures", "LNG loading arm systems"],
-    "kuwait": ["Al-Zour refinery atmospheric and vacuum distillation", "KNPC process vessels and reactors", "KOC crude oil gathering pipeline networks", "Storage tanks at Mina Al-Ahmadi", "Hydrogen production unit vessels"],
-    "aberdeen": ["North Sea fixed platform structural members", "FPSO hull plating and framing", "Subsea pipeline risers and J-tubes", "Topside process vessels and separators", "Offshore wind monopile foundations"],
-    "oslo": ["Equinor Troll and Oseberg platform topsides", "Subsea manifold and template structures", "North Sea cryogenic process vessels", "NORSOK-compliant mooring chains", "Offshore wind jacket foundations"],
-    "rotterdam": ["Europoort cracking and distillation columns", "Crude oil and product storage tanks", "Chemical plant reactor vessels", "Cross-dock pipeline manifolds", "Jetty loading arm structures"],
-    "hyderabad": ["HPCL Vizag refinery monitoring systems", "BHEL power boiler pressure parts", "ONGC offshore platform data integration", "Gas processing plant separators", "Fertiliser plant pressure vessels"],
-    "muscat": ["PDO oil production separator trains", "OQ Sohar refinery vessels and columns", "Sur LNG storage tanks", "Desert pipeline corrosion monitoring", "Produced water re-injection vessels"],
-    "kuala-lumpur": ["Pengerang Integrated Complex reactors", "Petronas deepwater FPSO structures", "RAPID refinery pressure vessels", "Malaysia LNG Bintulu storage tanks", "South China Sea offshore platform topsides"],
-    "lagos": ["Dangote Refinery atmospheric distillation units", "NNPC refinery pressure vessels", "Niger Delta pipeline networks", "Offshore deepwater FPSO hulls", "LNG export terminal cryogenic storage"],
-    "new-orleans": ["Mississippi River refinery pressure vessels", "LNG export terminal cryogenic tanks", "Petrochemical plant reactors and columns", "Pipeline network corrosion monitoring", "Storage tank farm integrity tracking"],
-    "denver": ["DJ Basin oil and gas separator vessels", "Rocky Mountain pipeline integrity systems", "Suncor Commerce City refinery units", "Midstream compression station vessels", "High-altitude UV-exposed storage tanks"]
-};
-
-// ─── Industry pairs per city ──────────────────────────────────────────────────
-
-const digitalTwinIndustries: Record<string, string[]> = {
-    "houston": ["Oil & Gas Refining", "Petrochemicals", "Midstream Pipeline Operations", "Offshore Production"],
-    "dubai": ["Downstream Petroleum", "Gas Processing", "Maritime & Shipping", "Power Generation"],
-    "abu-dhabi": ["Upstream Oil Production", "LNG Processing", "Downstream Refining", "Sour Gas Treatment"],
-    "saudi-arabia": ["Crude Oil Processing", "Petrochemicals", "Gas Processing", "Refining & Petrochemicals"],
-    "calgary": ["Oil Sands Processing", "Heavy Oil Upgrading", "Midstream Transport", "Conventional Upstream"],
-    "singapore": ["Petrochemicals", "Refining", "Marine & Shipping", "Electronics Manufacturing"],
-    "mumbai": ["Petroleum Refining", "Offshore Production", "Power Generation", "Fertiliser & Chemicals"],
-    "london": ["Upstream Oil & Gas", "Downstream Refining", "Nuclear Power", "Aerospace"],
-    "perth": ["LNG Production", "Mining & Mineral Processing", "Offshore Oil & Gas", "Marine Infrastructure"],
-    "doha": ["LNG Export", "Gas Processing", "Downstream Refining", "Offshore Production"],
-    "kuwait": ["Refining", "Crude Oil Production", "Petrochemicals", "Power & Water"],
-    "aberdeen": ["Offshore Oil & Gas", "Decommissioning", "Offshore Wind", "Subsea Engineering"],
-    "oslo": ["Offshore Oil & Gas", "Subsea Systems", "Offshore Wind", "Maritime Industry"],
-    "rotterdam": ["Refining", "Petrochemicals", "Chemical Processing", "Maritime Port Infrastructure"],
-    "hyderabad": ["Power Generation", "Refining (Remote Monitoring)", "Fertiliser & Chemicals", "Defence & Aerospace"],
-    "muscat": ["Upstream Production", "LNG Export", "Downstream Refining", "Petrochemicals"],
-    "kuala-lumpur": ["Downstream Refining", "Offshore Production", "LNG", "Petrochemicals"],
-    "lagos": ["Refining", "Offshore Oil & Gas", "Pipeline Infrastructure", "Power Generation"],
-    "new-orleans": ["Downstream Refining", "LNG Export", "Petrochemicals", "Midstream Transport"],
-    "denver": ["Midstream Gas Processing", "Upstream Oil & Gas", "Refining", "Renewable Energy Infrastructure"]
-};
+// Data sourced from src/data/dt-city-data.mjs — shared with scripts/prerender.mjs
+// so the build-time prerender HTML body content stays in sync with the React
+// runtime view. To add a city: edit src/data/dt-city-data.mjs.
+//
+// The inline Records (digitalTwinLocationContext, digitalTwinAssets,
+// digitalTwinIndustries) that previously lived here have been extracted.
+// Below is an internal placeholder kept compiled-but-stripped so that the
+// surrounding line numbering and code comments stay readable. It does not
+// shadow the imported binding.
 
 // ─── Use case definitions ─────────────────────────────────────────────────────
 
@@ -1042,6 +984,17 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                             <span>API 579 FFS calculations included</span>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* ── Sibling-city cross-links (Reporting / ERP / Training / Consulting) ── */}
+            <section className="bg-white py-8 border-t border-slate-200">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <RelatedCityProducts
+                        currentProduct="digital-twin"
+                        citySlug={cityKey}
+                        city={city}
+                    />
                 </div>
             </section>
 

@@ -38,8 +38,8 @@ export default function ErpModulesHub() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="ERP Modules for Inspection Companies | Atlantis NDT ERP"
-        description="11-module ERP suite for NDT, calibration, welding, marine survey, pipeline integrity, aerospace QC, and inspection service companies. Inventory, certification, calibration, work orders, scheduling, audit, documents, assets, corrosion, quality, project management."
+        title="11 NDT ERP Modules — $18K/yr Flat, All Apps Included"
+        description="Atlantis NDT ERP — 11 modules + 30+ Odoo apps for $18,000/yr flat. Certification, calibration, work orders, scheduling, audit, documents, assets, RBI, QMS. See pricing."
         keywords="ERP modules, NDT ERP modules, inspection management modules, certification tracking software, calibration management software, work order management, inspection scheduling, audit management, document control, asset integrity, corrosion management, quality management, project management, Atlantis NDT"
         canonical={url}
         structuredData={structuredData}

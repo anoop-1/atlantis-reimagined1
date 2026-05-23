@@ -66,8 +66,8 @@ export default function DigitalTwinRoiCalculator() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin ROI Calculator 2026: Free 8-Input NDT Tool"
-                description="Free 2026 digital twin ROI calculator: enter 8 inputs, get baseline cost, 20/35/50% savings scenarios, and break-even in months. No signup."
+                title="Digital Twin ROI Calculator 2026 — Free, See Payback in Months"
+                description="Free 2026 NDT digital twin ROI calculator: 8 inputs, baseline cost, 20/35/50% savings scenarios, break-even in months. No signup. Try the free calculator now."
                 canonical="https://atlantisndt.com/digital-twin-roi-calculator"
                 structuredData={structuredData}
             />

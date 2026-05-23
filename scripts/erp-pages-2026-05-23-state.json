@@ -1,0 +1,1296 @@
+{
+  "group1": [
+    {
+      "slug": "ndt-erp-baytown",
+      "file": "src/pages/ndt-erp-baytown.tsx",
+      "compName": "NDTErp_baytown"
+    },
+    {
+      "slug": "ndt-erp-pasadena-texas",
+      "file": "src/pages/ndt-erp-pasadena-texas.tsx",
+      "compName": "NDTErp_pasadena_texas"
+    },
+    {
+      "slug": "ndt-erp-texas-city",
+      "file": "src/pages/ndt-erp-texas-city.tsx",
+      "compName": "NDTErp_texas_city"
+    },
+    {
+      "slug": "ndt-erp-deer-park",
+      "file": "src/pages/ndt-erp-deer-park.tsx",
+      "compName": "NDTErp_deer_park"
+    },
+    {
+      "slug": "ndt-erp-la-porte",
+      "file": "src/pages/ndt-erp-la-porte.tsx",
+      "compName": "NDTErp_la_porte"
+    },
+    {
+      "slug": "ndt-erp-channelview",
+      "file": "src/pages/ndt-erp-channelview.tsx",
+      "compName": "NDTErp_channelview"
+    },
+    {
+      "slug": "ndt-erp-sugar-land",
+      "file": "src/pages/ndt-erp-sugar-land.tsx",
+      "compName": "NDTErp_sugar_land"
+    },
+    {
+      "slug": "ndt-erp-pearland",
+      "file": "src/pages/ndt-erp-pearland.tsx",
+      "compName": "NDTErp_pearland"
+    },
+    {
+      "slug": "ndt-erp-conroe",
+      "file": "src/pages/ndt-erp-conroe.tsx",
+      "compName": "NDTErp_conroe"
+    },
+    {
+      "slug": "ndt-erp-galveston",
+      "file": "src/pages/ndt-erp-galveston.tsx",
+      "compName": "NDTErp_galveston"
+    },
+    {
+      "slug": "ndt-erp-port-arthur",
+      "file": "src/pages/ndt-erp-port-arthur.tsx",
+      "compName": "NDTErp_port_arthur"
+    },
+    {
+      "slug": "ndt-erp-freeport-texas",
+      "file": "src/pages/ndt-erp-freeport-texas.tsx",
+      "compName": "NDTErp_freeport_texas"
+    },
+    {
+      "slug": "ndt-erp-orange-texas",
+      "file": "src/pages/ndt-erp-orange-texas.tsx",
+      "compName": "NDTErp_orange_texas"
+    },
+    {
+      "slug": "ndt-erp-long-beach",
+      "file": "src/pages/ndt-erp-long-beach.tsx",
+      "compName": "NDTErp_long_beach"
+    },
+    {
+      "slug": "ndt-erp-carson",
+      "file": "src/pages/ndt-erp-carson.tsx",
+      "compName": "NDTErp_carson"
+    },
+    {
+      "slug": "ndt-erp-wilmington-california",
+      "file": "src/pages/ndt-erp-wilmington-california.tsx",
+      "compName": "NDTErp_wilmington_california"
+    },
+    {
+      "slug": "ndt-erp-torrance",
+      "file": "src/pages/ndt-erp-torrance.tsx",
+      "compName": "NDTErp_torrance"
+    },
+    {
+      "slug": "ndt-erp-el-segundo",
+      "file": "src/pages/ndt-erp-el-segundo.tsx",
+      "compName": "NDTErp_el_segundo"
+    },
+    {
+      "slug": "ndt-erp-vernon",
+      "file": "src/pages/ndt-erp-vernon.tsx",
+      "compName": "NDTErp_vernon"
+    },
+    {
+      "slug": "ndt-erp-richmond-california",
+      "file": "src/pages/ndt-erp-richmond-california.tsx",
+      "compName": "NDTErp_richmond_california"
+    },
+    {
+      "slug": "ndt-erp-martinez",
+      "file": "src/pages/ndt-erp-martinez.tsx",
+      "compName": "NDTErp_martinez"
+    },
+    {
+      "slug": "ndt-erp-benicia",
+      "file": "src/pages/ndt-erp-benicia.tsx",
+      "compName": "NDTErp_benicia"
+    },
+    {
+      "slug": "ndt-erp-joliet",
+      "file": "src/pages/ndt-erp-joliet.tsx",
+      "compName": "NDTErp_joliet"
+    },
+    {
+      "slug": "ndt-erp-hammond",
+      "file": "src/pages/ndt-erp-hammond.tsx",
+      "compName": "NDTErp_hammond"
+    },
+    {
+      "slug": "ndt-erp-east-chicago",
+      "file": "src/pages/ndt-erp-east-chicago.tsx",
+      "compName": "NDTErp_east_chicago"
+    },
+    {
+      "slug": "ndt-erp-trainer",
+      "file": "src/pages/ndt-erp-trainer.tsx",
+      "compName": "NDTErp_trainer"
+    },
+    {
+      "slug": "ndt-erp-marcus-hook",
+      "file": "src/pages/ndt-erp-marcus-hook.tsx",
+      "compName": "NDTErp_marcus_hook"
+    },
+    {
+      "slug": "ndt-erp-paulsboro",
+      "file": "src/pages/ndt-erp-paulsboro.tsx",
+      "compName": "NDTErp_paulsboro"
+    },
+    {
+      "slug": "ndt-erp-linden-nj",
+      "file": "src/pages/ndt-erp-linden-nj.tsx",
+      "compName": "NDTErp_linden_nj"
+    },
+    {
+      "slug": "ndt-erp-dearborn",
+      "file": "src/pages/ndt-erp-dearborn.tsx",
+      "compName": "NDTErp_dearborn"
+    },
+    {
+      "slug": "ndt-erp-monaca",
+      "file": "src/pages/ndt-erp-monaca.tsx",
+      "compName": "NDTErp_monaca"
+    },
+    {
+      "slug": "ndt-erp-clairton",
+      "file": "src/pages/ndt-erp-clairton.tsx",
+      "compName": "NDTErp_clairton"
+    },
+    {
+      "slug": "ndt-erp-jebel-ali",
+      "file": "src/pages/ndt-erp-jebel-ali.tsx",
+      "compName": "NDTErp_jebel_ali"
+    },
+    {
+      "slug": "ndt-erp-mussafah",
+      "file": "src/pages/ndt-erp-mussafah.tsx",
+      "compName": "NDTErp_mussafah"
+    },
+    {
+      "slug": "ndt-erp-ruwais",
+      "file": "src/pages/ndt-erp-ruwais.tsx",
+      "compName": "NDTErp_ruwais"
+    },
+    {
+      "slug": "ndt-erp-fujairah",
+      "file": "src/pages/ndt-erp-fujairah.tsx",
+      "compName": "NDTErp_fujairah"
+    },
+    {
+      "slug": "ndt-erp-khobar",
+      "file": "src/pages/ndt-erp-khobar.tsx",
+      "compName": "NDTErp_khobar"
+    },
+    {
+      "slug": "ndt-erp-ras-tanura",
+      "file": "src/pages/ndt-erp-ras-tanura.tsx",
+      "compName": "NDTErp_ras_tanura"
+    },
+    {
+      "slug": "ndt-erp-khurais",
+      "file": "src/pages/ndt-erp-khurais.tsx",
+      "compName": "NDTErp_khurais"
+    },
+    {
+      "slug": "ndt-erp-shaybah",
+      "file": "src/pages/ndt-erp-shaybah.tsx",
+      "compName": "NDTErp_shaybah"
+    },
+    {
+      "slug": "ndt-erp-abqaiq",
+      "file": "src/pages/ndt-erp-abqaiq.tsx",
+      "compName": "NDTErp_abqaiq"
+    },
+    {
+      "slug": "ndt-erp-riyadh",
+      "file": "src/pages/ndt-erp-riyadh.tsx",
+      "compName": "NDTErp_riyadh"
+    },
+    {
+      "slug": "ndt-erp-duqm",
+      "file": "src/pages/ndt-erp-duqm.tsx",
+      "compName": "NDTErp_duqm"
+    },
+    {
+      "slug": "ndt-erp-salalah",
+      "file": "src/pages/ndt-erp-salalah.tsx",
+      "compName": "NDTErp_salalah"
+    },
+    {
+      "slug": "ndt-erp-ras-laffan",
+      "file": "src/pages/ndt-erp-ras-laffan.tsx",
+      "compName": "NDTErp_ras_laffan"
+    },
+    {
+      "slug": "ndt-erp-mesaieed",
+      "file": "src/pages/ndt-erp-mesaieed.tsx",
+      "compName": "NDTErp_mesaieed"
+    },
+    {
+      "slug": "ndt-erp-al-zour",
+      "file": "src/pages/ndt-erp-al-zour.tsx",
+      "compName": "NDTErp_al_zour"
+    },
+    {
+      "slug": "ndt-erp-pune",
+      "file": "src/pages/ndt-erp-pune.tsx",
+      "compName": "NDTErp_pune"
+    },
+    {
+      "slug": "ndt-erp-vadodara",
+      "file": "src/pages/ndt-erp-vadodara.tsx",
+      "compName": "NDTErp_vadodara"
+    },
+    {
+      "slug": "ndt-erp-surat",
+      "file": "src/pages/ndt-erp-surat.tsx",
+      "compName": "NDTErp_surat"
+    },
+    {
+      "slug": "ndt-erp-visakhapatnam",
+      "file": "src/pages/ndt-erp-visakhapatnam.tsx",
+      "compName": "NDTErp_visakhapatnam"
+    },
+    {
+      "slug": "ndt-erp-balikpapan",
+      "file": "src/pages/ndt-erp-balikpapan.tsx",
+      "compName": "NDTErp_balikpapan"
+    },
+    {
+      "slug": "ndt-erp-cilacap",
+      "file": "src/pages/ndt-erp-cilacap.tsx",
+      "compName": "NDTErp_cilacap"
+    },
+    {
+      "slug": "ndt-erp-bontang",
+      "file": "src/pages/ndt-erp-bontang.tsx",
+      "compName": "NDTErp_bontang"
+    },
+    {
+      "slug": "ndt-erp-pengerang",
+      "file": "src/pages/ndt-erp-pengerang.tsx",
+      "compName": "NDTErp_pengerang"
+    },
+    {
+      "slug": "ndt-erp-bintulu",
+      "file": "src/pages/ndt-erp-bintulu.tsx",
+      "compName": "NDTErp_bintulu"
+    },
+    {
+      "slug": "ndt-erp-kerteh",
+      "file": "src/pages/ndt-erp-kerteh.tsx",
+      "compName": "NDTErp_kerteh"
+    },
+    {
+      "slug": "ndt-erp-kemaman",
+      "file": "src/pages/ndt-erp-kemaman.tsx",
+      "compName": "NDTErp_kemaman"
+    },
+    {
+      "slug": "ndt-erp-miri",
+      "file": "src/pages/ndt-erp-miri.tsx",
+      "compName": "NDTErp_miri"
+    },
+    {
+      "slug": "ndt-erp-jurong-island",
+      "file": "src/pages/ndt-erp-jurong-island.tsx",
+      "compName": "NDTErp_jurong_island"
+    },
+    {
+      "slug": "ndt-erp-port-hedland",
+      "file": "src/pages/ndt-erp-port-hedland.tsx",
+      "compName": "NDTErp_port_hedland"
+    },
+    {
+      "slug": "ndt-erp-port-kembla",
+      "file": "src/pages/ndt-erp-port-kembla.tsx",
+      "compName": "NDTErp_port_kembla"
+    },
+    {
+      "slug": "ndt-erp-whyalla",
+      "file": "src/pages/ndt-erp-whyalla.tsx",
+      "compName": "NDTErp_whyalla"
+    },
+    {
+      "slug": "ndt-erp-grangemouth",
+      "file": "src/pages/ndt-erp-grangemouth.tsx",
+      "compName": "NDTErp_grangemouth"
+    },
+    {
+      "slug": "ndt-erp-stanlow",
+      "file": "src/pages/ndt-erp-stanlow.tsx",
+      "compName": "NDTErp_stanlow"
+    },
+    {
+      "slug": "ndt-erp-fawley",
+      "file": "src/pages/ndt-erp-fawley.tsx",
+      "compName": "NDTErp_fawley"
+    },
+    {
+      "slug": "ndt-erp-immingham",
+      "file": "src/pages/ndt-erp-immingham.tsx",
+      "compName": "NDTErp_immingham"
+    },
+    {
+      "slug": "ndt-erp-teesside",
+      "file": "src/pages/ndt-erp-teesside.tsx",
+      "compName": "NDTErp_teesside"
+    },
+    {
+      "slug": "ndt-erp-mongstad",
+      "file": "src/pages/ndt-erp-mongstad.tsx",
+      "compName": "NDTErp_mongstad"
+    },
+    {
+      "slug": "ndt-erp-karsto",
+      "file": "src/pages/ndt-erp-karsto.tsx",
+      "compName": "NDTErp_karsto"
+    },
+    {
+      "slug": "ndt-erp-trondheim",
+      "file": "src/pages/ndt-erp-trondheim.tsx",
+      "compName": "NDTErp_trondheim"
+    },
+    {
+      "slug": "ndt-erp-sarnia",
+      "file": "src/pages/ndt-erp-sarnia.tsx",
+      "compName": "NDTErp_sarnia"
+    },
+    {
+      "slug": "ndt-erp-hamilton-ontario",
+      "file": "src/pages/ndt-erp-hamilton-ontario.tsx",
+      "compName": "NDTErp_hamilton_ontario"
+    },
+    {
+      "slug": "ndt-erp-fort-saskatchewan",
+      "file": "src/pages/ndt-erp-fort-saskatchewan.tsx",
+      "compName": "NDTErp_fort_saskatchewan"
+    },
+    {
+      "slug": "ndt-erp-lloydminster",
+      "file": "src/pages/ndt-erp-lloydminster.tsx",
+      "compName": "NDTErp_lloydminster"
+    }
+  ],
+  "group2": [
+    {
+      "slug": "ndt-erp-texas",
+      "file": "src/pages/ndt-erp-texas.tsx",
+      "compName": "NDTErp_texas"
+    },
+    {
+      "slug": "ndt-erp-louisiana",
+      "file": "src/pages/ndt-erp-louisiana.tsx",
+      "compName": "NDTErp_louisiana"
+    },
+    {
+      "slug": "ndt-erp-california",
+      "file": "src/pages/ndt-erp-california.tsx",
+      "compName": "NDTErp_california"
+    },
+    {
+      "slug": "ndt-erp-alaska",
+      "file": "src/pages/ndt-erp-alaska.tsx",
+      "compName": "NDTErp_alaska"
+    },
+    {
+      "slug": "ndt-erp-north-dakota",
+      "file": "src/pages/ndt-erp-north-dakota.tsx",
+      "compName": "NDTErp_north_dakota"
+    },
+    {
+      "slug": "ndt-erp-ohio",
+      "file": "src/pages/ndt-erp-ohio.tsx",
+      "compName": "NDTErp_ohio"
+    },
+    {
+      "slug": "ndt-erp-pennsylvania",
+      "file": "src/pages/ndt-erp-pennsylvania.tsx",
+      "compName": "NDTErp_pennsylvania"
+    },
+    {
+      "slug": "ndt-erp-alberta",
+      "file": "src/pages/ndt-erp-alberta.tsx",
+      "compName": "NDTErp_alberta"
+    },
+    {
+      "slug": "ndt-erp-ontario",
+      "file": "src/pages/ndt-erp-ontario.tsx",
+      "compName": "NDTErp_ontario"
+    },
+    {
+      "slug": "ndt-erp-iraq",
+      "file": "src/pages/ndt-erp-iraq.tsx",
+      "compName": "NDTErp_iraq"
+    },
+    {
+      "slug": "ndt-erp-kazakhstan",
+      "file": "src/pages/ndt-erp-kazakhstan.tsx",
+      "compName": "NDTErp_kazakhstan"
+    },
+    {
+      "slug": "ndt-erp-azerbaijan",
+      "file": "src/pages/ndt-erp-azerbaijan.tsx",
+      "compName": "NDTErp_azerbaijan"
+    },
+    {
+      "slug": "ndt-erp-turkey",
+      "file": "src/pages/ndt-erp-turkey.tsx",
+      "compName": "NDTErp_turkey"
+    },
+    {
+      "slug": "ndt-erp-greece",
+      "file": "src/pages/ndt-erp-greece.tsx",
+      "compName": "NDTErp_greece"
+    },
+    {
+      "slug": "ndt-erp-cyprus",
+      "file": "src/pages/ndt-erp-cyprus.tsx",
+      "compName": "NDTErp_cyprus"
+    },
+    {
+      "slug": "ndt-erp-israel",
+      "file": "src/pages/ndt-erp-israel.tsx",
+      "compName": "NDTErp_israel"
+    },
+    {
+      "slug": "ndt-erp-tunisia",
+      "file": "src/pages/ndt-erp-tunisia.tsx",
+      "compName": "NDTErp_tunisia"
+    },
+    {
+      "slug": "ndt-erp-mozambique",
+      "file": "src/pages/ndt-erp-mozambique.tsx",
+      "compName": "NDTErp_mozambique"
+    },
+    {
+      "slug": "ndt-erp-tanzania",
+      "file": "src/pages/ndt-erp-tanzania.tsx",
+      "compName": "NDTErp_tanzania"
+    },
+    {
+      "slug": "ndt-erp-ghana",
+      "file": "src/pages/ndt-erp-ghana.tsx",
+      "compName": "NDTErp_ghana"
+    },
+    {
+      "slug": "ndt-erp-gabon",
+      "file": "src/pages/ndt-erp-gabon.tsx",
+      "compName": "NDTErp_gabon"
+    },
+    {
+      "slug": "ndt-erp-senegal",
+      "file": "src/pages/ndt-erp-senegal.tsx",
+      "compName": "NDTErp_senegal"
+    },
+    {
+      "slug": "ndt-erp-ivory-coast",
+      "file": "src/pages/ndt-erp-ivory-coast.tsx",
+      "compName": "NDTErp_ivory_coast"
+    },
+    {
+      "slug": "ndt-erp-suriname",
+      "file": "src/pages/ndt-erp-suriname.tsx",
+      "compName": "NDTErp_suriname"
+    },
+    {
+      "slug": "ndt-erp-guyana",
+      "file": "src/pages/ndt-erp-guyana.tsx",
+      "compName": "NDTErp_guyana"
+    },
+    {
+      "slug": "ndt-erp-panama",
+      "file": "src/pages/ndt-erp-panama.tsx",
+      "compName": "NDTErp_panama"
+    },
+    {
+      "slug": "ndt-erp-ecuador",
+      "file": "src/pages/ndt-erp-ecuador.tsx",
+      "compName": "NDTErp_ecuador"
+    },
+    {
+      "slug": "ndt-erp-bangladesh",
+      "file": "src/pages/ndt-erp-bangladesh.tsx",
+      "compName": "NDTErp_bangladesh"
+    },
+    {
+      "slug": "ndt-erp-sri-lanka",
+      "file": "src/pages/ndt-erp-sri-lanka.tsx",
+      "compName": "NDTErp_sri_lanka"
+    },
+    {
+      "slug": "ndt-erp-pakistan",
+      "file": "src/pages/ndt-erp-pakistan.tsx",
+      "compName": "NDTErp_pakistan"
+    },
+    {
+      "slug": "ndt-erp-myanmar",
+      "file": "src/pages/ndt-erp-myanmar.tsx",
+      "compName": "NDTErp_myanmar"
+    },
+    {
+      "slug": "ndt-erp-mongolia",
+      "file": "src/pages/ndt-erp-mongolia.tsx",
+      "compName": "NDTErp_mongolia"
+    }
+  ],
+  "group3": [
+    {
+      "slug": "crm-for-ndt-companies",
+      "file": "src/pages/erp/crm-for-ndt-companies.tsx",
+      "compName": "CrmForNdtCompanies",
+      "route": "/erp/crm-for-ndt-companies"
+    },
+    {
+      "slug": "email-marketing-software-for-ndt",
+      "file": "src/pages/erp/email-marketing-software-for-ndt.tsx",
+      "compName": "EmailMarketingSoftwareForNdt",
+      "route": "/erp/email-marketing-software-for-ndt"
+    },
+    {
+      "slug": "marketing-automation-for-ndt-companies",
+      "file": "src/pages/erp/marketing-automation-for-ndt-companies.tsx",
+      "compName": "MarketingAutomationForNdtCompanies",
+      "route": "/erp/marketing-automation-for-ndt-companies"
+    },
+    {
+      "slug": "sales-management-for-inspection-companies",
+      "file": "src/pages/erp/sales-management-for-inspection-companies.tsx",
+      "compName": "SalesManagementForInspectionCompanies",
+      "route": "/erp/sales-management-for-inspection-companies"
+    },
+    {
+      "slug": "inventory-management-for-ndt-companies",
+      "file": "src/pages/erp/inventory-management-for-ndt-companies.tsx",
+      "compName": "InventoryManagementForNdtCompanies",
+      "route": "/erp/inventory-management-for-ndt-companies"
+    },
+    {
+      "slug": "accounting-software-for-ndt-companies",
+      "file": "src/pages/erp/accounting-software-for-ndt-companies.tsx",
+      "compName": "AccountingSoftwareForNdtCompanies",
+      "route": "/erp/accounting-software-for-ndt-companies"
+    },
+    {
+      "slug": "invoicing-software-for-ndt-companies",
+      "file": "src/pages/erp/invoicing-software-for-ndt-companies.tsx",
+      "compName": "InvoicingSoftwareForNdtCompanies",
+      "route": "/erp/invoicing-software-for-ndt-companies"
+    },
+    {
+      "slug": "project-management-for-ndt-companies",
+      "file": "src/pages/erp/project-management-for-ndt-companies.tsx",
+      "compName": "ProjectManagementForNdtCompanies",
+      "route": "/erp/project-management-for-ndt-companies"
+    },
+    {
+      "slug": "manufacturing-erp-for-fabrication-shops",
+      "file": "src/pages/erp/manufacturing-erp-for-fabrication-shops.tsx",
+      "compName": "ManufacturingErpForFabricationShops",
+      "route": "/erp/manufacturing-erp-for-fabrication-shops"
+    },
+    {
+      "slug": "cmms-for-inspection-companies",
+      "file": "src/pages/erp/cmms-for-inspection-companies.tsx",
+      "compName": "CmmsForInspectionCompanies",
+      "route": "/erp/cmms-for-inspection-companies"
+    },
+    {
+      "slug": "maintenance-management-for-ndt",
+      "file": "src/pages/erp/maintenance-management-for-ndt.tsx",
+      "compName": "MaintenanceManagementForNdt",
+      "route": "/erp/maintenance-management-for-ndt"
+    },
+    {
+      "slug": "quality-management-for-ndt-companies",
+      "file": "src/pages/erp/quality-management-for-ndt-companies.tsx",
+      "compName": "QualityManagementForNdtCompanies",
+      "route": "/erp/quality-management-for-ndt-companies"
+    },
+    {
+      "slug": "document-control-for-ndt-companies",
+      "file": "src/pages/erp/document-control-for-ndt-companies.tsx",
+      "compName": "DocumentControlForNdtCompanies",
+      "route": "/erp/document-control-for-ndt-companies"
+    },
+    {
+      "slug": "procurement-for-ndt-companies",
+      "file": "src/pages/erp/procurement-for-ndt-companies.tsx",
+      "compName": "ProcurementForNdtCompanies",
+      "route": "/erp/procurement-for-ndt-companies"
+    },
+    {
+      "slug": "hr-payroll-for-ndt-companies",
+      "file": "src/pages/erp/hr-payroll-for-ndt-companies.tsx",
+      "compName": "HrPayrollForNdtCompanies",
+      "route": "/erp/hr-payroll-for-ndt-companies"
+    },
+    {
+      "slug": "timesheet-software-for-ndt-companies",
+      "file": "src/pages/erp/timesheet-software-for-ndt-companies.tsx",
+      "compName": "TimesheetSoftwareForNdtCompanies",
+      "route": "/erp/timesheet-software-for-ndt-companies"
+    },
+    {
+      "slug": "expense-tracking-for-ndt-companies",
+      "file": "src/pages/erp/expense-tracking-for-ndt-companies.tsx",
+      "compName": "ExpenseTrackingForNdtCompanies",
+      "route": "/erp/expense-tracking-for-ndt-companies"
+    },
+    {
+      "slug": "helpdesk-for-ndt-companies",
+      "file": "src/pages/erp/helpdesk-for-ndt-companies.tsx",
+      "compName": "HelpdeskForNdtCompanies",
+      "route": "/erp/helpdesk-for-ndt-companies"
+    },
+    {
+      "slug": "ecommerce-for-ndt-companies",
+      "file": "src/pages/erp/ecommerce-for-ndt-companies.tsx",
+      "compName": "EcommerceForNdtCompanies",
+      "route": "/erp/ecommerce-for-ndt-companies"
+    },
+    {
+      "slug": "pos-for-ndt-companies",
+      "file": "src/pages/erp/pos-for-ndt-companies.tsx",
+      "compName": "PosForNdtCompanies",
+      "route": "/erp/pos-for-ndt-companies"
+    },
+    {
+      "slug": "field-service-management-for-ndt",
+      "file": "src/pages/erp/field-service-management-for-ndt.tsx",
+      "compName": "FieldServiceManagementForNdt",
+      "route": "/erp/field-service-management-for-ndt"
+    },
+    {
+      "slug": "subscription-management-for-ndt",
+      "file": "src/pages/erp/subscription-management-for-ndt.tsx",
+      "compName": "SubscriptionManagementForNdt",
+      "route": "/erp/subscription-management-for-ndt"
+    },
+    {
+      "slug": "no-code-customization-odoo-studio-for-ndt",
+      "file": "src/pages/erp/no-code-customization-odoo-studio-for-ndt.tsx",
+      "compName": "NoCodeCustomizationOdooStudioForNdt",
+      "route": "/erp/no-code-customization-odoo-studio-for-ndt"
+    },
+    {
+      "slug": "approvals-workflows-for-ndt-companies",
+      "file": "src/pages/erp/approvals-workflows-for-ndt-companies.tsx",
+      "compName": "ApprovalsWorkflowsForNdtCompanies",
+      "route": "/erp/approvals-workflows-for-ndt-companies"
+    },
+    {
+      "slug": "events-management-for-ndt-conferences",
+      "file": "src/pages/erp/events-management-for-ndt-conferences.tsx",
+      "compName": "EventsManagementForNdtConferences",
+      "route": "/erp/events-management-for-ndt-conferences"
+    }
+  ],
+  "group4": [
+    {
+      "slug": "crm-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_houston",
+      "route": "/erp/crm-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_dubai",
+      "route": "/erp/crm-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/crm-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_mumbai",
+      "route": "/erp/crm-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-london",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_london",
+      "route": "/erp/crm-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_singapore",
+      "route": "/erp/crm-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_calgary",
+      "route": "/erp/crm-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_perth",
+      "route": "/erp/crm-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_doha",
+      "route": "/erp/crm-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "crm-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/crm-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_crm_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/crm-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_houston",
+      "route": "/erp/email-marketing-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_dubai",
+      "route": "/erp/email-marketing-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/email-marketing-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_mumbai",
+      "route": "/erp/email-marketing-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-london",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_london",
+      "route": "/erp/email-marketing-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_singapore",
+      "route": "/erp/email-marketing-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_calgary",
+      "route": "/erp/email-marketing-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_perth",
+      "route": "/erp/email-marketing-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_doha",
+      "route": "/erp/email-marketing-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "email-marketing-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/email-marketing-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_email_marketing_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/email-marketing-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_houston",
+      "route": "/erp/inventory-management-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_dubai",
+      "route": "/erp/inventory-management-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/inventory-management-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_mumbai",
+      "route": "/erp/inventory-management-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-london",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_london",
+      "route": "/erp/inventory-management-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_singapore",
+      "route": "/erp/inventory-management-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_calgary",
+      "route": "/erp/inventory-management-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_perth",
+      "route": "/erp/inventory-management-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_doha",
+      "route": "/erp/inventory-management-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "inventory-management-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/inventory-management-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_inventory_management_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/inventory-management-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_houston",
+      "route": "/erp/accounting-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_dubai",
+      "route": "/erp/accounting-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/accounting-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_mumbai",
+      "route": "/erp/accounting-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-london",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_london",
+      "route": "/erp/accounting-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_singapore",
+      "route": "/erp/accounting-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_calgary",
+      "route": "/erp/accounting-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_perth",
+      "route": "/erp/accounting-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_doha",
+      "route": "/erp/accounting-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "accounting-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/accounting-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_accounting_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/accounting-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_houston",
+      "route": "/erp/project-management-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_dubai",
+      "route": "/erp/project-management-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/project-management-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_mumbai",
+      "route": "/erp/project-management-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-london",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_london",
+      "route": "/erp/project-management-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_singapore",
+      "route": "/erp/project-management-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_calgary",
+      "route": "/erp/project-management-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_perth",
+      "route": "/erp/project-management-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_doha",
+      "route": "/erp/project-management-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "project-management-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/project-management-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_project_management_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/project-management-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_houston",
+      "route": "/erp/manufacturing-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_dubai",
+      "route": "/erp/manufacturing-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/manufacturing-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_mumbai",
+      "route": "/erp/manufacturing-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-london",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_london",
+      "route": "/erp/manufacturing-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_singapore",
+      "route": "/erp/manufacturing-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_calgary",
+      "route": "/erp/manufacturing-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_perth",
+      "route": "/erp/manufacturing-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_doha",
+      "route": "/erp/manufacturing-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "manufacturing-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/manufacturing-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_manufacturing_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/manufacturing-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_houston",
+      "route": "/erp/helpdesk-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_dubai",
+      "route": "/erp/helpdesk-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/helpdesk-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_mumbai",
+      "route": "/erp/helpdesk-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-london",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_london",
+      "route": "/erp/helpdesk-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_singapore",
+      "route": "/erp/helpdesk-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_calgary",
+      "route": "/erp/helpdesk-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_perth",
+      "route": "/erp/helpdesk-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_doha",
+      "route": "/erp/helpdesk-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "helpdesk-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/helpdesk-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_helpdesk_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/helpdesk-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_houston",
+      "route": "/erp/field-service-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_dubai",
+      "route": "/erp/field-service-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/field-service-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_mumbai",
+      "route": "/erp/field-service-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-london",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_london",
+      "route": "/erp/field-service-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_singapore",
+      "route": "/erp/field-service-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_calgary",
+      "route": "/erp/field-service-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_perth",
+      "route": "/erp/field-service-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_doha",
+      "route": "/erp/field-service-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "field-service-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/field-service-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_field_service_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/field-service-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_houston",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_dubai",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_mumbai",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-london",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_london",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_singapore",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_calgary",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_perth",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_doha",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "hr-payroll-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/hr-payroll-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_hr_payroll_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/hr-payroll-ndt-inspection-companies-kuala-lumpur"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-houston",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-houston.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_houston",
+      "route": "/erp/cmms-ndt-inspection-companies-houston"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-dubai",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-dubai.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_dubai",
+      "route": "/erp/cmms-ndt-inspection-companies-dubai"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-abu-dhabi",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-abu-dhabi.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_abu_dhabi",
+      "route": "/erp/cmms-ndt-inspection-companies-abu-dhabi"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-mumbai",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-mumbai.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_mumbai",
+      "route": "/erp/cmms-ndt-inspection-companies-mumbai"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-london",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-london.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_london",
+      "route": "/erp/cmms-ndt-inspection-companies-london"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-singapore",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-singapore.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_singapore",
+      "route": "/erp/cmms-ndt-inspection-companies-singapore"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-calgary",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-calgary.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_calgary",
+      "route": "/erp/cmms-ndt-inspection-companies-calgary"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-perth",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-perth.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_perth",
+      "route": "/erp/cmms-ndt-inspection-companies-perth"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-doha",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-doha.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_doha",
+      "route": "/erp/cmms-ndt-inspection-companies-doha"
+    },
+    {
+      "slug": "cmms-ndt-inspection-companies-kuala-lumpur",
+      "file": "src/pages/erp/cmms-ndt-inspection-companies-kuala-lumpur.tsx",
+      "compName": "ErpTriple_cmms_ndt_inspection_companies_kuala_lumpur",
+      "route": "/erp/cmms-ndt-inspection-companies-kuala-lumpur"
+    }
+  ],
+  "skipped": []
+}

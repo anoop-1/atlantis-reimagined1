@@ -9,6 +9,7 @@ import { CheckCircle, Users, FileText, Shield, Award, Target, MapPin, Building, 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
+import { RelatedCityProducts } from '@/components/RelatedProducts';
 
 // Happy client logos - trusted global brands
 const clientLogos = [
@@ -1156,6 +1157,17 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             Email Directly
                         </a>
                     </div>
+                </div>
+            </section>
+
+            {/* ── Sibling-city cross-links (Digital Twin / ERP / Reporting / Training) ── */}
+            <section className="py-8 bg-white border-t border-slate-200">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <RelatedCityProducts
+                        currentProduct="consulting"
+                        citySlug={locationSlug}
+                        city={location.name}
+                    />
                 </div>
             </section>
 

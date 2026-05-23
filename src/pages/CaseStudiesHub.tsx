@@ -126,9 +126,9 @@ export default function CaseStudiesHub() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="ERP Implementation Case Studies — Inspection, Calibration, Welding, Aerospace | Atlantis NDT"
-        description="12 anonymized customer case studies covering Atlantis NDT ERP implementations across NDT inspection, calibration labs, welding fabrication, marine survey, pipeline integrity, aerospace, metrology, coatings, construction QA, geotechnical, environmental, and oilfield service companies."
-        keywords="ERP case studies, inspection ERP case study, NDT ERP customer story, calibration lab ERP implementation, welding fabrication ERP, aerospace NDT ERP, pipeline integrity ERP, Atlantis NDT ERP customer stories"
+        title="NDT Case Studies: Real Results in Oil & Gas, Aerospace & Pipeline"
+        description="12 real NDT & ERP case studies: defect detection, $2.5M cost savings, digital twin ROI, ASNT-certified workforce scaling. Oil & gas, aerospace, pipeline, tank inspection."
+        keywords="NDT case studies, inspection case study, NDT digital twin case study, oil gas NDT results, ASNT NDT success stories, pipeline inspection case study, aerospace NDT examples"
         canonical={url}
         structuredData={collectionSchema}
       />

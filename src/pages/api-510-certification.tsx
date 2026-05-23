@@ -160,8 +160,8 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Certification 2026 — Requirements, Cost, Pass Rate"
-                description="API 510 Pressure Vessel Inspector certification 2026: experience requirements, $730 exam fee, 84% first-attempt pass rate, 9 reference codes (API 571/572/576/579-1, ASME VIII/V/IX), 5-day exam prep. Atlantis NDT Houston, Dubai, Hyderabad."
+                title="API 510 Certification 2026 — $730 Exam, 84% Pass, 5-Day Prep"
+                description="API 510 Pressure Vessel Inspector 2026: $730 exam, 84% pass rate, 9 reference codes (ASME VIII/IX, API 571/579), 5-day prep with ASNT Level III instructors. Enroll now."
                 keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}

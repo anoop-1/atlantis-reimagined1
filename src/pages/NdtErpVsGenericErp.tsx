@@ -75,8 +75,8 @@ export default function NdtErpVsGenericErp() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP vs Generic ERP: 2026 Comparison Guide"
-        description="Compare NDT ERP vs SAP/Oracle vs point reporting tools across 11 dimensions. Cost, implementation time, NDT-native features, TCO. 2026 decision framework."
+        title="NDT ERP vs SAP/Oracle 2026 — $18K/yr vs $2M+ TCO"
+        description="NDT ERP vs SAP/Oracle vs point tools: 11-dimension 2026 matrix. $18K/yr flat vs $250K-$2M+ generic. 30-90 day deploy vs 9-24 months. See pricing & ROI breakdown."
         keywords="NDT ERP, inspection management software, NDT ERP vs SAP, purpose-built NDT ERP, NDT software comparison, inspection ERP"
         canonical="https://atlantisndt.com/ndt-erp-vs-generic-erp"
         structuredData={structuredData}

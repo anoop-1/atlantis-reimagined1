@@ -306,8 +306,8 @@ export default function DigitalTwinReporting() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin NDT Reporting Software | 3D Asset Inspection Visualization | Atlantis NDT"
-                description="Input asset dimensions and NDT data — get a 3D color-coded model showing asset condition instantly. UT thickness, PAUT C-scan, ECT tube maps. API 510/570/653 retirement criteria, corrosion rate, and remaining life built in. Request a demo."
+                title="Digital Twin NDT Reporting 2026 — UT/PAUT in 3D, API 510/570/653"
+                description="Input asset dimensions + NDT data, get a 3D color-coded model in seconds. UT thickness, PAUT C-scan, ECT tube maps, API 510/570/653 retirement criteria built in. Demo free."
                 keywords="digital twin NDT reporting, 3D NDT visualization, UT thickness map, PAUT C-scan viewer, API 510 inspection software, corrosion mapping software, NDT digital twin software, asset integrity visualization"
                 canonical="https://atlantisndt.com/digital-twin-reporting"
                 structuredData={structuredData}

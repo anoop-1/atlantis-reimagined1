@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
@@ -594,6 +595,12 @@ export default function NDTTrainingIndia() {
                             <Button variant="outline" size="lg">View India Programs</Button>
                         </Link>
                     </div>
+                </div>
+            </section>
+
+            <section className="py-8 bg-white border-t border-slate-200">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <RelatedCityProducts currentProduct="training" citySlug="india" city="India" />
                 </div>
             </section>
 

@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Download, FileCheck, CheckCircle, ClipboardList, Shield, Award, BookOpen, FileText, Gauge, Wrench, Activity, Thermometer, AlertTriangle, Stamp, Hammer, FileSearch, ListChecks, Bug } from "lucide-react";
+import { Download, FileCheck, CheckCircle, ClipboardList, Shield, Award, BookOpen, FileText, Gauge, Wrench, Activity, Thermometer, AlertTriangle, Stamp, Hammer, FileSearch, ListChecks, Bug, TrendingUp, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -204,6 +204,44 @@ export default function ResourcesDownloads() {
                             Access free professional resources including inspection checklists, procedure templates, study guides, and reference materials. All resources are developed by ASNT Level III certified professionals with real industry experience.
                         </p>
                     </motion.div>
+                </div>
+            </section>
+
+            {/* Featured: State of NDT Industry 2026 Annual Report */}
+            <section className="pt-10 pb-2">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <Link to="/resources/state-of-ndt-2026" className="block group">
+                        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary via-primary to-accent text-primary-foreground p-8 md:p-10 shadow-lg hover:shadow-2xl transition">
+                            <div className="grid md:grid-cols-[1fr_auto] gap-6 items-center">
+                                <div>
+                                    <div className="inline-flex items-center gap-2 bg-white/15 text-white text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                                        <TrendingUp className="w-3.5 h-3.5" />
+                                        New — Annual Industry Report
+                                    </div>
+                                    <h2 className="text-2xl md:text-3xl font-bold mb-2 leading-tight">
+                                        State of NDT Industry 2026 — Free 30-page annual report
+                                    </h2>
+                                    <p className="text-primary-foreground/90 mb-3 max-w-2xl">
+                                        $4.8B global market sizing, PAUT +18% fastest-growing method,
+                                        salary by region ($72K USA / $52K ME / ₹6.8L India), 23% digital
+                                        twin adoption, and projected 32% Level III shortage by 2028.
+                                        Authored by an ASNT Level III. Email-gated, free to cite.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 text-xs text-primary-foreground/85">
+                                        <span className="bg-white/15 px-2.5 py-0.5 rounded-full">30 pages</span>
+                                        <span className="bg-white/15 px-2.5 py-0.5 rounded-full">~9,000 words</span>
+                                        <span className="bg-white/15 px-2.5 py-0.5 rounded-full">12 methods</span>
+                                        <span className="bg-white/15 px-2.5 py-0.5 rounded-full">6 regions</span>
+                                        <span className="bg-white/15 px-2.5 py-0.5 rounded-full">CC BY 4.0</span>
+                                    </div>
+                                </div>
+                                <Button className="bg-white text-primary hover:bg-white/95 font-semibold whitespace-nowrap">
+                                    Get the report
+                                    <ArrowRight className="w-4 h-4 ml-2" />
+                                </Button>
+                            </div>
+                        </div>
+                    </Link>
                 </div>
             </section>
 

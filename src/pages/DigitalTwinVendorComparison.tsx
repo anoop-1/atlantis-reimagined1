@@ -107,8 +107,8 @@ export default function DigitalTwinVendorComparison() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin Platform Comparison 2026: 6 NDT Vendors Rated"
-                description="2026 digital twin platform matrix: Antea, Mistras OneSuite, Hexagon, IBM Maximo APM, Bentley iTwin, Atlantis NDT. Pricing, NDT fit, integrations, best-fit."
+                title="Best Digital Twin Platforms 2026 — 6 NDT Vendors Compared"
+                description="2026 NDT digital twin matrix: Antea, Mistras OneSuite, Hexagon, IBM Maximo APM, Bentley iTwin, Atlantis. Pricing, NDT fit, integrations, best-fit. Free comparison."
                 canonical="https://atlantisndt.com/digital-twin-vendor-comparison"
                 structuredData={structuredData}
                 faq={faqs}

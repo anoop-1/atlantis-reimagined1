@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { GraduationCap, MapPin, Award, CheckCircle, Ship, Factory, Briefcase } from "lucide-react";
@@ -206,6 +207,12 @@ export default function NDTTrainingSingapore() {
             <Link to="/radiographic-testing-singapore" className="text-blue-600 hover:underline">Radiographic Testing — Singapore →</Link>
             <Link to="/training-me" className="text-blue-600 hover:underline">NDT Training — Middle East Region →</Link>
           </div>
+        </div>
+      </section>
+
+      <section className="py-8 bg-white border-t border-slate-200">
+        <div className="container mx-auto max-w-6xl px-6">
+          <RelatedCityProducts currentProduct="training" citySlug="singapore" city="Singapore" />
         </div>
       </section>
 

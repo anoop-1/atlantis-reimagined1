@@ -140,8 +140,8 @@ export default function NdtErpIntegrationMatrix() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP Integration Matrix 2026: SAP, Oracle, Maximo"
-        description="10-system NDT ERP integration matrix. SAP, Oracle, Maximo, Dynamics 365, QuickBooks, Xero, HubSpot, Salesforce, Zapier, REST. Setup time and fields."
+        title="NDT ERP Integrations 2026 — 10 Systems Mapped, $18K/yr"
+        description="Atlantis NDT ERP integrates 10 systems: SAP, Oracle, Maximo, Dynamics 365, QuickBooks, Xero, HubSpot, Salesforce, Zapier, REST. Setup time & field mapping. See pricing."
         keywords="NDT ERP integration, NDT software SAP integration, NDT Maximo integration, inspection software API, NDT ERP Oracle, NDT QuickBooks integration"
         canonical="https://atlantisndt.com/ndt-erp-integration-matrix"
         structuredData={structuredData}

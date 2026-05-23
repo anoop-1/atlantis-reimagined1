@@ -69,8 +69,8 @@ export default function DigitalTwinApiMapping() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin API 510/570/580 Mapping 2026: 5 Codes"
-                description="2026 clause-by-clause map of how a digital twin satisfies API 510, 570, 580, 581, and 579-1 requirements. For integrity engineers and Level IIIs."
+                title="Digital Twin API 510/570/580/579 Mapping 2026 — 5 Codes"
+                description="2026 clause-by-clause map: how a digital twin satisfies API 510, 570, 580, 581, 579-1 requirements. For integrity engineers and Level IIIs. Free PDF inside."
                 canonical="https://atlantisndt.com/digital-twin-api-510-570-580-mapping"
                 structuredData={structuredData}
             />

@@ -31,8 +31,8 @@ const stateData: Record<string, StateData> = {
     name: "Texas", abbreviation: "TX", slug: "texas",
     heroTitle: "NDT Level III Consulting & Training in Texas",
     heroSubtitle: "Houston-headquartered ASNT Level III experts serving the energy capital of the world. 50+ certified consultants for oil & gas, petrochemical, aerospace, and power generation industries across Texas.",
-    metaTitle: "NDT Level III Consulting Texas | ASNT Certified | Houston HQ | Atlantis NDT",
-    metaDescription: "Texas NDT Level III consulting & training from Houston-based Atlantis NDT. ASNT certified procedure development, program audits, SNT-TC-1A compliance for oil & gas, petrochemical, aerospace. Serving Houston, Dallas, San Antonio, Austin, Midland.",
+    metaTitle: "NDT Level III Consultant in Texas | ASNT Certified | Houston HQ | Atlantis NDT",
+    metaDescription: "ASNT Level III NDT consulting in Texas from Houston-based Atlantis NDT. Procedure development, program audits, SNT-TC-1A compliance for oil & gas, petrochemical, aerospace. Serving Houston, Dallas, San Antonio, Austin, Midland.",
     industries: [
       { name: "Oil & Gas", description: "500+ refineries and petrochemical plants along the Gulf Coast. API 510/570/653 inspection programs for pressure vessels, piping, and storage tanks.", icon: "factory" },
       { name: "Aerospace & Defense", description: "Lockheed Martin, Bell, L3Harris facilities requiring NAS-410 NDT programs and Level III oversight.", icon: "shield" },
@@ -64,8 +64,8 @@ const stateData: Record<string, StateData> = {
     name: "California", abbreviation: "CA", slug: "california",
     heroTitle: "NDT Level III Consulting & Training in California",
     heroSubtitle: "ASNT Level III consulting for California's aerospace, refining, power generation, and infrastructure sectors. Expert NDT program development and training across the Golden State.",
-    metaTitle: "NDT Level III Consulting California | Aerospace & Refinery NDT | Atlantis NDT",
-    metaDescription: "California NDT Level III consulting & training. ASNT certified inspectors for aerospace (Boeing, Northrop Grumman), refineries (Chevron, Marathon), and power generation. Serving Los Angeles, San Francisco, San Diego, Sacramento.",
+    metaTitle: "NDT Level III Consultant in California | Aerospace & Refinery NDT | Atlantis NDT",
+    metaDescription: "ASNT Level III NDT consulting in California. Certified inspectors for aerospace (Boeing, Northrop Grumman), refineries (Chevron, Marathon), and power generation. Serving Los Angeles, San Francisco, San Diego, Sacramento.",
     industries: [
       { name: "Aerospace & Defense", description: "Boeing, Northrop Grumman, Raytheon, SpaceX — California leads US aerospace manufacturing requiring NAS-410 NDT programs.", icon: "shield" },
       { name: "Refining & Energy", description: "Chevron Richmond, Marathon Martinez, and PBF Torrance refineries require API 510/570/653 inspection programs.", icon: "factory" },
@@ -93,7 +93,7 @@ const stateData: Record<string, StateData> = {
     name: "Louisiana", abbreviation: "LA", slug: "louisiana",
     heroTitle: "NDT Level III Consulting & Training in Louisiana",
     heroSubtitle: "Expert NDT consulting for Louisiana's petrochemical corridor, LNG export terminals, and offshore operations. Level III procedure development and ASNT certification training.",
-    metaTitle: "NDT Level III Consulting Louisiana | Petrochemical & LNG NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Louisiana | Petrochemical & LNG NDT | Atlantis NDT",
     metaDescription: "Louisiana NDT Level III consulting & training. ASNT certified inspectors for petrochemical plants, LNG terminals, and offshore platforms. Serving New Orleans, Baton Rouge, Lake Charles, Shreveport.",
     industries: [
       { name: "Petrochemical", description: "Louisiana's Chemical Corridor between Baton Rouge and New Orleans hosts 150+ chemical and petrochemical facilities.", icon: "factory" },
@@ -121,7 +121,7 @@ const stateData: Record<string, StateData> = {
     name: "Ohio", abbreviation: "OH", slug: "ohio",
     heroTitle: "NDT Level III Consulting & Training in Ohio",
     heroSubtitle: "ASNT Level III consulting for Ohio's manufacturing, power generation, and refining industries. Expert NDT program development across the Buckeye State.",
-    metaTitle: "NDT Level III Consulting Ohio | Manufacturing & Power NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Ohio | Manufacturing & Power NDT | Atlantis NDT",
     metaDescription: "Ohio NDT Level III consulting & training. ASNT certified inspectors for manufacturing, power generation, refining, and pipeline industries. Serving Cleveland, Cincinnati, Columbus, Toledo, Akron.",
     industries: [
       { name: "Manufacturing", description: "Ohio ranks 3rd in US manufacturing output. Steel, automotive, aerospace components require quality NDT programs.", icon: "factory" },
@@ -149,7 +149,7 @@ const stateData: Record<string, StateData> = {
     name: "Pennsylvania", abbreviation: "PA", slug: "pennsylvania",
     heroTitle: "NDT Level III Consulting & Training in Pennsylvania",
     heroSubtitle: "Expert NDT consulting for Pennsylvania's refining, nuclear, manufacturing, and natural gas industries. Level III procedure development and ASNT certification training.",
-    metaTitle: "NDT Level III Consulting Pennsylvania | Nuclear & Refinery NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Pennsylvania | Nuclear & Refinery NDT | Atlantis NDT",
     metaDescription: "Pennsylvania NDT Level III consulting & training. ASNT certified for nuclear (Limerick, Peach Bottom), refineries (Philadelphia Energy), steel manufacturing, and Marcellus Shale operations. Serving Philadelphia, Pittsburgh.",
     industries: [
       { name: "Nuclear Power", description: "Limerick, Peach Bottom, Beaver Valley, and Susquehanna nuclear stations require ASME Section XI NDT programs.", icon: "shield" },
@@ -175,7 +175,7 @@ const stateData: Record<string, StateData> = {
     name: "Colorado", abbreviation: "CO", slug: "colorado",
     heroTitle: "NDT Level III Consulting & Training in Colorado",
     heroSubtitle: "ASNT Level III consulting for Colorado's oil & gas, aerospace, mining, and renewable energy sectors. Expert NDT program development from Denver metro to the Western Slope.",
-    metaTitle: "NDT Level III Consulting Colorado | Oil & Gas & Aerospace NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Colorado | Oil & Gas & Aerospace NDT | Atlantis NDT",
     metaDescription: "Colorado NDT Level III consulting & training. ASNT certified for DJ Basin oil & gas, aerospace (Lockheed Martin, Ball Aerospace), mining, and wind energy. Serving Denver, Colorado Springs, Greeley.",
     industries: [
       { name: "Oil & Gas", description: "DJ Basin and Piceance Basin operations. Midstream pipelines and processing facilities across Colorado.", icon: "factory" },
@@ -202,7 +202,7 @@ const stateData: Record<string, StateData> = {
     name: "Michigan", abbreviation: "MI", slug: "michigan",
     heroTitle: "NDT Level III Consulting & Training in Michigan",
     heroSubtitle: "ASNT Level III consulting for Michigan's automotive, manufacturing, nuclear, and pipeline industries. Expert NDT program development for the Great Lakes industrial corridor.",
-    metaTitle: "NDT Level III Consulting Michigan | Automotive & Manufacturing NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Michigan | Automotive & Manufacturing NDT | Atlantis NDT",
     metaDescription: "Michigan NDT Level III consulting & training. ASNT certified for automotive manufacturing (GM, Ford, Stellantis), nuclear power, and Great Lakes pipeline operations. Serving Detroit, Grand Rapids.",
     industries: [
       { name: "Automotive", description: "GM, Ford, Stellantis — Michigan is the heart of US automotive manufacturing requiring production NDT and quality assurance.", icon: "factory" },
@@ -228,7 +228,7 @@ const stateData: Record<string, StateData> = {
     name: "Illinois", abbreviation: "IL", slug: "illinois",
     heroTitle: "NDT Level III Consulting & Training in Illinois",
     heroSubtitle: "ASNT Level III consulting for Illinois' refining, nuclear, manufacturing, and infrastructure sectors. Expert NDT programs serving the greater Chicago industrial area.",
-    metaTitle: "NDT Level III Consulting Illinois | Nuclear & Refinery NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Illinois | Nuclear & Refinery NDT | Atlantis NDT",
     metaDescription: "Illinois NDT Level III consulting & training. ASNT certified for nuclear power (Braidwood, Byron, LaSalle), refineries, and heavy manufacturing. Serving Chicago, Joliet, Decatur, East St. Louis.",
     industries: [
       { name: "Nuclear Power", description: "Illinois has more nuclear plants than any other state — Braidwood, Byron, Dresden, LaSalle, and Quad Cities.", icon: "shield" },
@@ -253,7 +253,7 @@ const stateData: Record<string, StateData> = {
     name: "New York", abbreviation: "NY", slug: "new-york",
     heroTitle: "NDT Level III Consulting & Training in New York",
     heroSubtitle: "ASNT Level III consulting for New York's infrastructure, nuclear, manufacturing, and aerospace sectors. Expert NDT programs for the Northeast industrial corridor.",
-    metaTitle: "NDT Level III Consulting New York | Infrastructure & Nuclear NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in New York | Infrastructure & Nuclear NDT | Atlantis NDT",
     metaDescription: "New York NDT Level III consulting & training. ASNT certified for infrastructure inspection, nuclear power (Indian Point decommissioning), aerospace manufacturing, and Port Authority projects.",
     industries: [
       { name: "Infrastructure", description: "Bridges, tunnels, buildings — NYC requires extensive structural NDT for aging infrastructure under NYCDOB and MTA requirements.", icon: "building" },
@@ -279,7 +279,7 @@ const stateData: Record<string, StateData> = {
     name: "Florida", abbreviation: "FL", slug: "florida",
     heroTitle: "NDT Level III Consulting & Training in Florida",
     heroSubtitle: "ASNT Level III consulting for Florida's aerospace, power generation, marine, and phosphate industries. Expert NDT programs from Cape Canaveral to the Panhandle.",
-    metaTitle: "NDT Level III Consulting Florida | Aerospace & Marine NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Florida | Aerospace & Marine NDT | Atlantis NDT",
     metaDescription: "Florida NDT Level III consulting & training. ASNT certified for aerospace (NASA, SpaceX), nuclear power (Turkey Point, St. Lucie), marine, and phosphate mining. Serving Jacksonville, Tampa, Orlando, Miami.",
     industries: [
       { name: "Aerospace & Space", description: "NASA Kennedy Space Center, SpaceX, Blue Origin, L3Harris — Florida is the space launch capital requiring specialized NDT.", icon: "shield" },
@@ -307,7 +307,7 @@ const stateData: Record<string, StateData> = {
     name: "Washington", abbreviation: "WA", slug: "washington",
     heroTitle: "NDT Level III Consulting & Training in Washington",
     heroSubtitle: "ASNT Level III consulting for Washington's aerospace, nuclear, refining, and shipbuilding industries. Expert NDT programs for the Pacific Northwest.",
-    metaTitle: "NDT Level III Consulting Washington | Aerospace & Nuclear NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Washington State | Boeing & Hanford NDT | Atlantis NDT",
     metaDescription: "Washington NDT Level III consulting & training. ASNT certified for Boeing aerospace, Hanford nuclear decommissioning, refineries, and PSNS shipyard. Serving Seattle, Tacoma, Richland.",
     industries: [
       { name: "Aerospace", description: "Boeing's largest manufacturing facility in Everett. Commercial and military aircraft NDT programs.", icon: "shield" },
@@ -332,7 +332,7 @@ const stateData: Record<string, StateData> = {
     name: "Georgia", abbreviation: "GA", slug: "georgia",
     heroTitle: "NDT Level III Consulting & Training in Georgia",
     heroSubtitle: "ASNT Level III consulting for Georgia's manufacturing, nuclear, aerospace, and port industries. Expert NDT programs for the Southeast industrial corridor.",
-    metaTitle: "NDT Level III Consulting Georgia | Manufacturing & Nuclear NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Georgia | Manufacturing & Nuclear NDT | Atlantis NDT",
     metaDescription: "Georgia NDT Level III consulting & training. ASNT certified for Vogtle nuclear, manufacturing (Kia, Hyundai, Gulfstream), and Savannah port operations. Serving Atlanta, Savannah, Augusta.",
     industries: [
       { name: "Nuclear Power", description: "Vogtle 3 & 4 (newest US nuclear units) and Hatch Nuclear require ASME Section XI NDE programs.", icon: "shield" },
@@ -358,7 +358,7 @@ const stateData: Record<string, StateData> = {
     name: "New Jersey", abbreviation: "NJ", slug: "new-jersey",
     heroTitle: "NDT Level III Consulting & Training in New Jersey",
     heroSubtitle: "ASNT Level III consulting for New Jersey's refining, pharmaceutical, nuclear, and infrastructure sectors. Expert NDT programs for the Mid-Atlantic industrial corridor.",
-    metaTitle: "NDT Level III Consulting New Jersey | Refinery & Pharma NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in New Jersey | Refinery & Pharma NDT | Atlantis NDT",
     metaDescription: "New Jersey NDT Level III consulting & training. ASNT certified for refineries, pharmaceutical plants, nuclear (Salem, Hope Creek), and infrastructure. Serving Newark, Elizabeth, Paulsboro.",
     industries: [
       { name: "Refining & Chemical", description: "New Jersey's refining corridor along the Delaware River and chemical manufacturing in northern NJ.", icon: "factory" },
@@ -383,7 +383,7 @@ const stateData: Record<string, StateData> = {
     name: "North Carolina", abbreviation: "NC", slug: "north-carolina",
     heroTitle: "NDT Level III Consulting & Training in North Carolina",
     heroSubtitle: "ASNT Level III consulting for North Carolina's nuclear, aerospace, manufacturing, and energy sectors. Expert NDT programs from Charlotte to the Research Triangle.",
-    metaTitle: "NDT Level III Consulting North Carolina | Nuclear & Aerospace NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in North Carolina | Nuclear & Aerospace NDT | Atlantis NDT",
     metaDescription: "North Carolina NDT Level III consulting & training. ASNT certified for nuclear power (Brunswick, McGuire, Harris), aerospace (GE Aviation), and manufacturing. Serving Charlotte, Raleigh, Wilmington.",
     industries: [
       { name: "Nuclear Power", description: "Brunswick, McGuire, and Harris nuclear stations — Duke Energy's fleet requires ASME Section XI NDE.", icon: "shield" },
@@ -409,7 +409,7 @@ const stateData: Record<string, StateData> = {
     name: "Virginia", abbreviation: "VA", slug: "virginia",
     heroTitle: "NDT Level III Consulting & Training in Virginia",
     heroSubtitle: "ASNT Level III consulting for Virginia's naval, nuclear, aerospace, and defense sectors. Expert NDT programs for the largest military presence in the US.",
-    metaTitle: "NDT Level III Consulting Virginia | Naval & Defense NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Virginia | Naval & Defense NDT | Atlantis NDT",
     metaDescription: "Virginia NDT Level III consulting & training. ASNT certified for Newport News Shipbuilding, nuclear power (North Anna, Surry), and defense contractors. Serving Norfolk, Hampton Roads, Richmond.",
     industries: [
       { name: "Naval Shipbuilding", description: "Huntington Ingalls Newport News — sole builder of US aircraft carriers and nuclear submarines.", icon: "shield" },
@@ -435,7 +435,7 @@ const stateData: Record<string, StateData> = {
     name: "Tennessee", abbreviation: "TN", slug: "tennessee",
     heroTitle: "NDT Level III Consulting & Training in Tennessee",
     heroSubtitle: "ASNT Level III consulting for Tennessee's nuclear, manufacturing, automotive, and chemical industries. Expert NDT programs from Memphis to Knoxville.",
-    metaTitle: "NDT Level III Consulting Tennessee | Nuclear & Manufacturing NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Tennessee | TVA Nuclear & Manufacturing NDT | Atlantis NDT",
     metaDescription: "Tennessee NDT Level III consulting & training. ASNT certified for TVA nuclear fleet (Watts Bar, Sequoyah), Oak Ridge National Lab, automotive (Nissan, GM), and chemical manufacturing.",
     industries: [
       { name: "Nuclear (TVA)", description: "Watts Bar, Sequoyah, and Browns Ferry — TVA operates the largest nuclear fleet in the US.", icon: "shield" },
@@ -462,7 +462,7 @@ const stateData: Record<string, StateData> = {
     name: "Alabama", abbreviation: "AL", slug: "alabama",
     heroTitle: "NDT Level III Consulting & Training in Alabama",
     heroSubtitle: "ASNT Level III consulting for Alabama's aerospace, nuclear, automotive, and shipbuilding industries. Expert NDT programs for the Southeast.",
-    metaTitle: "NDT Level III Consulting Alabama | Aerospace & Shipbuilding NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Alabama | Aerospace & Shipbuilding NDT | Atlantis NDT",
     metaDescription: "Alabama NDT Level III consulting & training. ASNT certified for NASA Marshall, Airbus Mobile, nuclear power (Browns Ferry, Farley), and Austal shipyard. Serving Huntsville, Mobile, Birmingham.",
     industries: [
       { name: "Aerospace & Space", description: "NASA Marshall Space Flight Center, Boeing, Blue Origin, and ULA in Huntsville — the Rocket City.", icon: "shield" },
@@ -489,7 +489,7 @@ const stateData: Record<string, StateData> = {
     name: "Oklahoma", abbreviation: "OK", slug: "oklahoma",
     heroTitle: "NDT Level III Consulting & Training in Oklahoma",
     heroSubtitle: "ASNT Level III consulting for Oklahoma's oil & gas, pipeline, aerospace, and wind energy sectors. Expert NDT programs from Tulsa to Oklahoma City.",
-    metaTitle: "NDT Level III Consulting Oklahoma | Oil & Gas & Pipeline NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Oklahoma | Oil & Gas & Pipeline NDT | Atlantis NDT",
     metaDescription: "Oklahoma NDT Level III consulting & training. ASNT certified for oil & gas operations, pipeline integrity (Cushing hub), aerospace (Tinker AFB, American Airlines MRO), and wind energy.",
     industries: [
       { name: "Oil & Gas", description: "SCOOP/STACK plays, Cushing storage hub, and extensive midstream operations.", icon: "factory" },
@@ -515,7 +515,7 @@ const stateData: Record<string, StateData> = {
     name: "Minnesota", abbreviation: "MN", slug: "minnesota",
     heroTitle: "NDT Level III Consulting & Training in Minnesota",
     heroSubtitle: "ASNT Level III consulting for Minnesota's manufacturing, pipeline, nuclear, and medical device industries. Expert NDT programs for the Upper Midwest.",
-    metaTitle: "NDT Level III Consulting Minnesota | Manufacturing & Pipeline NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Minnesota | Manufacturing & Pipeline NDT | Atlantis NDT",
     metaDescription: "Minnesota NDT Level III consulting & training. ASNT certified for manufacturing (3M, Honeywell), pipeline (Enbridge Line 3), nuclear (Prairie Island, Monticello), and medical devices.",
     industries: [
       { name: "Manufacturing", description: "3M, Honeywell, Cargill — Minnesota's diversified manufacturing base requires quality NDT programs.", icon: "factory" },
@@ -540,7 +540,7 @@ const stateData: Record<string, StateData> = {
     name: "Wisconsin", abbreviation: "WI", slug: "wisconsin",
     heroTitle: "NDT Level III Consulting & Training in Wisconsin",
     heroSubtitle: "ASNT Level III consulting for Wisconsin's manufacturing, power generation, shipbuilding, and paper industries. Expert NDT programs for the Great Lakes industrial region.",
-    metaTitle: "NDT Level III Consulting Wisconsin | Manufacturing & Power NDT | Atlantis NDT",
+    metaTitle: "NDT Level III Consultant in Wisconsin | Manufacturing & Power NDT | Atlantis NDT",
     metaDescription: "Wisconsin NDT Level III consulting & training. ASNT certified for manufacturing (Caterpillar, Oshkosh Defense), power generation, Marinette Marine shipyard, and paper/pulp industries.",
     industries: [
       { name: "Manufacturing", description: "Caterpillar, Oshkosh Defense, Harley-Davidson — Wisconsin's manufacturing heritage drives NDT demand.", icon: "factory" },
@@ -610,14 +610,76 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
     { q: `How quickly can Atlantis NDT deploy consultants to ${state.name}?`, a: `Our Houston-based team can deploy ASNT Level III consultants to any ${state.name} location within 24-48 hours for urgent needs. For planned engagements, we recommend 1-2 weeks advance notice to match the right specialist to your industry and application.` },
   ];
 
+  const canonical = `https://atlantisndt.com/ndt-consulting-${state.slug}`;
+
+  const hreflangLinks = [
+    { hreflang: 'en-US', href: canonical },
+    { hreflang: 'en', href: canonical },
+    { hreflang: 'x-default', href: canonical },
+  ];
+
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(f => ({
-      "@type": "Question",
-      "name": f.q,
-      "acceptedAnswer": { "@type": "Answer", "text": f.a }
-    }))
+    "@graph": [
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a }
+        }))
+      },
+      {
+        "@type": ["ProfessionalService", "LocalBusiness"],
+        "name": "Atlantis NDT",
+        "url": "https://atlantisndt.com",
+        "logo": "https://atlantisndt.com/og-image.jpg",
+        "image": "https://atlantisndt.com/og-image.jpg",
+        "description": state.heroSubtitle,
+        "telephone": "+12818408969",
+        "email": "sales@atlantisndt.com",
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Houston",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          {
+            "@type": "State",
+            "name": state.name,
+            "containedInPlace": {
+              "@type": "Country",
+              "name": "United States",
+              "sameAs": "https://en.wikipedia.org/wiki/United_States"
+            }
+          }
+        ],
+        "knowsAbout": [
+          "ASNT Level III NDT Consulting",
+          "Nondestructive Testing",
+          "NDT Procedure Development",
+          "SNT-TC-1A Written Practice",
+          "API 510 570 653 Inspection",
+          "Phased Array Ultrasonic Testing"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": `NDT Level III Consulting Services in ${state.name}`,
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "NDT Procedure Development", "areaServed": state.name }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "NDT Program Audits & Compliance", "areaServed": state.name }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ASNT Level III Training & Certification", "areaServed": state.name }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Written Practice Development", "areaServed": state.name }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Third-Party Level III Oversight", "areaServed": state.name }}
+          ]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/atlantis-ndt"
+        ]
+      }
+    ]
   };
 
   const services = [
@@ -634,8 +696,8 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
       <SEOHead
         title={state.metaTitle}
         description={state.metaDescription}
-        noindex={true}
-        canonical={`https://atlantisndt.com/ndt-consulting-${state.slug}`}
+        canonical={canonical}
+        hreflangLinks={hreflangLinks}
         structuredData={structuredData}
       />
       <Navigation />

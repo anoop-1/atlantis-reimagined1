@@ -115,8 +115,8 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT Certification 2026 — SNT-TC-1A, ACCP, Level I/II/III"
-                description="ASNT certification roadmap 2026: SNT-TC-1A vs ACCP vs CP-189, UT/RT 40h + MT 16h training hours, exam fees $280–$540, 91% first-attempt pass rate, Level I/II/III path, salary to $150K+. ACCP Level II + Level III prep included."
+                title="ASNT Certification 2026 — $280 Fees, 91% Pass, $150K+ Salary"
+                description="ASNT certification 2026: SNT-TC-1A vs ACCP vs CP-189, exam fees $280-$540, 91% pass rate, Level I/II/III path to $150K+ salary. ASNT Level III instructors. Enroll now."
                 keywords="ASNT certification, ACCP, ACCP Level II, ACCP NDT, ACCP NDT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, SNT-TC-1A 2024, CP-189, ASNT Level II, ASNT training, NDT Level III certification, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}

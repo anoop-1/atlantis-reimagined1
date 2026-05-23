@@ -116,8 +116,8 @@ export default function DigitalTwinsOilGas() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twins for Oil & Gas: How Refineries Save $2M+ Per Turnaround [2026]"
-                description="Real-world digital twin applications in oil & gas: refinery turnaround planning, pipeline integrity, storage tank monitoring. Case studies showing 40% cost reduction. Implementation guide with vendor comparison."
+                title="Digital Twins for Oil & Gas 2026 — Save $2M+ Per Turnaround"
+                description="2026 digital twins for oil & gas: refinery turnarounds, pipeline integrity, tank monitoring. Case studies show 40% cost cut. Vendor comparison & implementation. Read free."
                 keywords="digital twins oil gas, refinery digital twin, pipeline digital twin, storage tank visualization, heat exchanger inspection, petrochemical digital twin, API 653, API 510"
                 canonical="https://atlantisndt.com/blog/digital-twins-oil-gas"
                 structuredData={structuredData}

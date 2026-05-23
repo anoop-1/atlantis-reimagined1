@@ -1242,6 +1242,241 @@ const NDTErp_uk = lazy(() => import("./pages/ndt-erp-uk"));
 const NDTErp_usa = lazy(() => import("./pages/ndt-erp-usa"));
 const NDTErp_vietnam = lazy(() => import("./pages/ndt-erp-vietnam"));
 const NDTErp_vizag = lazy(() => import("./pages/ndt-erp-vizag"));
+// === ERP Expansion 2026-05-23 (sub-cities + countries + pillars + triple-cross) ===
+const NDTErp_baytown = lazy(() => import("./pages/ndt-erp-baytown"));
+const NDTErp_pasadena_texas = lazy(() => import("./pages/ndt-erp-pasadena-texas"));
+const NDTErp_texas_city = lazy(() => import("./pages/ndt-erp-texas-city"));
+const NDTErp_deer_park = lazy(() => import("./pages/ndt-erp-deer-park"));
+const NDTErp_la_porte = lazy(() => import("./pages/ndt-erp-la-porte"));
+const NDTErp_channelview = lazy(() => import("./pages/ndt-erp-channelview"));
+const NDTErp_sugar_land = lazy(() => import("./pages/ndt-erp-sugar-land"));
+const NDTErp_pearland = lazy(() => import("./pages/ndt-erp-pearland"));
+const NDTErp_conroe = lazy(() => import("./pages/ndt-erp-conroe"));
+const NDTErp_galveston = lazy(() => import("./pages/ndt-erp-galveston"));
+const NDTErp_port_arthur = lazy(() => import("./pages/ndt-erp-port-arthur"));
+const NDTErp_freeport_texas = lazy(() => import("./pages/ndt-erp-freeport-texas"));
+const NDTErp_orange_texas = lazy(() => import("./pages/ndt-erp-orange-texas"));
+const NDTErp_long_beach = lazy(() => import("./pages/ndt-erp-long-beach"));
+const NDTErp_carson = lazy(() => import("./pages/ndt-erp-carson"));
+const NDTErp_wilmington_california = lazy(() => import("./pages/ndt-erp-wilmington-california"));
+const NDTErp_torrance = lazy(() => import("./pages/ndt-erp-torrance"));
+const NDTErp_el_segundo = lazy(() => import("./pages/ndt-erp-el-segundo"));
+const NDTErp_vernon = lazy(() => import("./pages/ndt-erp-vernon"));
+const NDTErp_richmond_california = lazy(() => import("./pages/ndt-erp-richmond-california"));
+const NDTErp_martinez = lazy(() => import("./pages/ndt-erp-martinez"));
+const NDTErp_benicia = lazy(() => import("./pages/ndt-erp-benicia"));
+const NDTErp_joliet = lazy(() => import("./pages/ndt-erp-joliet"));
+const NDTErp_hammond = lazy(() => import("./pages/ndt-erp-hammond"));
+const NDTErp_east_chicago = lazy(() => import("./pages/ndt-erp-east-chicago"));
+const NDTErp_trainer = lazy(() => import("./pages/ndt-erp-trainer"));
+const NDTErp_marcus_hook = lazy(() => import("./pages/ndt-erp-marcus-hook"));
+const NDTErp_paulsboro = lazy(() => import("./pages/ndt-erp-paulsboro"));
+const NDTErp_linden_nj = lazy(() => import("./pages/ndt-erp-linden-nj"));
+const NDTErp_dearborn = lazy(() => import("./pages/ndt-erp-dearborn"));
+const NDTErp_monaca = lazy(() => import("./pages/ndt-erp-monaca"));
+const NDTErp_clairton = lazy(() => import("./pages/ndt-erp-clairton"));
+const NDTErp_jebel_ali = lazy(() => import("./pages/ndt-erp-jebel-ali"));
+const NDTErp_mussafah = lazy(() => import("./pages/ndt-erp-mussafah"));
+const NDTErp_ruwais = lazy(() => import("./pages/ndt-erp-ruwais"));
+const NDTErp_fujairah = lazy(() => import("./pages/ndt-erp-fujairah"));
+const NDTErp_khobar = lazy(() => import("./pages/ndt-erp-khobar"));
+const NDTErp_ras_tanura = lazy(() => import("./pages/ndt-erp-ras-tanura"));
+const NDTErp_khurais = lazy(() => import("./pages/ndt-erp-khurais"));
+const NDTErp_shaybah = lazy(() => import("./pages/ndt-erp-shaybah"));
+const NDTErp_abqaiq = lazy(() => import("./pages/ndt-erp-abqaiq"));
+const NDTErp_riyadh = lazy(() => import("./pages/ndt-erp-riyadh"));
+const NDTErp_duqm = lazy(() => import("./pages/ndt-erp-duqm"));
+const NDTErp_salalah = lazy(() => import("./pages/ndt-erp-salalah"));
+const NDTErp_ras_laffan = lazy(() => import("./pages/ndt-erp-ras-laffan"));
+const NDTErp_mesaieed = lazy(() => import("./pages/ndt-erp-mesaieed"));
+const NDTErp_al_zour = lazy(() => import("./pages/ndt-erp-al-zour"));
+const NDTErp_pune = lazy(() => import("./pages/ndt-erp-pune"));
+const NDTErp_vadodara = lazy(() => import("./pages/ndt-erp-vadodara"));
+const NDTErp_surat = lazy(() => import("./pages/ndt-erp-surat"));
+const NDTErp_visakhapatnam = lazy(() => import("./pages/ndt-erp-visakhapatnam"));
+const NDTErp_balikpapan = lazy(() => import("./pages/ndt-erp-balikpapan"));
+const NDTErp_cilacap = lazy(() => import("./pages/ndt-erp-cilacap"));
+const NDTErp_bontang = lazy(() => import("./pages/ndt-erp-bontang"));
+const NDTErp_pengerang = lazy(() => import("./pages/ndt-erp-pengerang"));
+const NDTErp_bintulu = lazy(() => import("./pages/ndt-erp-bintulu"));
+const NDTErp_kerteh = lazy(() => import("./pages/ndt-erp-kerteh"));
+const NDTErp_kemaman = lazy(() => import("./pages/ndt-erp-kemaman"));
+const NDTErp_miri = lazy(() => import("./pages/ndt-erp-miri"));
+const NDTErp_jurong_island = lazy(() => import("./pages/ndt-erp-jurong-island"));
+const NDTErp_port_hedland = lazy(() => import("./pages/ndt-erp-port-hedland"));
+const NDTErp_port_kembla = lazy(() => import("./pages/ndt-erp-port-kembla"));
+const NDTErp_whyalla = lazy(() => import("./pages/ndt-erp-whyalla"));
+const NDTErp_grangemouth = lazy(() => import("./pages/ndt-erp-grangemouth"));
+const NDTErp_stanlow = lazy(() => import("./pages/ndt-erp-stanlow"));
+const NDTErp_fawley = lazy(() => import("./pages/ndt-erp-fawley"));
+const NDTErp_immingham = lazy(() => import("./pages/ndt-erp-immingham"));
+const NDTErp_teesside = lazy(() => import("./pages/ndt-erp-teesside"));
+const NDTErp_mongstad = lazy(() => import("./pages/ndt-erp-mongstad"));
+const NDTErp_karsto = lazy(() => import("./pages/ndt-erp-karsto"));
+const NDTErp_trondheim = lazy(() => import("./pages/ndt-erp-trondheim"));
+const NDTErp_sarnia = lazy(() => import("./pages/ndt-erp-sarnia"));
+const NDTErp_hamilton_ontario = lazy(() => import("./pages/ndt-erp-hamilton-ontario"));
+const NDTErp_fort_saskatchewan = lazy(() => import("./pages/ndt-erp-fort-saskatchewan"));
+const NDTErp_lloydminster = lazy(() => import("./pages/ndt-erp-lloydminster"));
+const NDTErp_texas = lazy(() => import("./pages/ndt-erp-texas"));
+const NDTErp_louisiana = lazy(() => import("./pages/ndt-erp-louisiana"));
+const NDTErp_california = lazy(() => import("./pages/ndt-erp-california"));
+const NDTErp_alaska = lazy(() => import("./pages/ndt-erp-alaska"));
+const NDTErp_north_dakota = lazy(() => import("./pages/ndt-erp-north-dakota"));
+const NDTErp_ohio = lazy(() => import("./pages/ndt-erp-ohio"));
+const NDTErp_pennsylvania = lazy(() => import("./pages/ndt-erp-pennsylvania"));
+const NDTErp_alberta = lazy(() => import("./pages/ndt-erp-alberta"));
+const NDTErp_ontario = lazy(() => import("./pages/ndt-erp-ontario"));
+const NDTErp_iraq = lazy(() => import("./pages/ndt-erp-iraq"));
+const NDTErp_kazakhstan = lazy(() => import("./pages/ndt-erp-kazakhstan"));
+const NDTErp_azerbaijan = lazy(() => import("./pages/ndt-erp-azerbaijan"));
+const NDTErp_turkey = lazy(() => import("./pages/ndt-erp-turkey"));
+const NDTErp_greece = lazy(() => import("./pages/ndt-erp-greece"));
+const NDTErp_cyprus = lazy(() => import("./pages/ndt-erp-cyprus"));
+const NDTErp_israel = lazy(() => import("./pages/ndt-erp-israel"));
+const NDTErp_tunisia = lazy(() => import("./pages/ndt-erp-tunisia"));
+const NDTErp_mozambique = lazy(() => import("./pages/ndt-erp-mozambique"));
+const NDTErp_tanzania = lazy(() => import("./pages/ndt-erp-tanzania"));
+const NDTErp_ghana = lazy(() => import("./pages/ndt-erp-ghana"));
+const NDTErp_gabon = lazy(() => import("./pages/ndt-erp-gabon"));
+const NDTErp_senegal = lazy(() => import("./pages/ndt-erp-senegal"));
+const NDTErp_ivory_coast = lazy(() => import("./pages/ndt-erp-ivory-coast"));
+const NDTErp_suriname = lazy(() => import("./pages/ndt-erp-suriname"));
+const NDTErp_guyana = lazy(() => import("./pages/ndt-erp-guyana"));
+const NDTErp_panama = lazy(() => import("./pages/ndt-erp-panama"));
+const NDTErp_ecuador = lazy(() => import("./pages/ndt-erp-ecuador"));
+const NDTErp_bangladesh = lazy(() => import("./pages/ndt-erp-bangladesh"));
+const NDTErp_sri_lanka = lazy(() => import("./pages/ndt-erp-sri-lanka"));
+const NDTErp_pakistan = lazy(() => import("./pages/ndt-erp-pakistan"));
+const NDTErp_myanmar = lazy(() => import("./pages/ndt-erp-myanmar"));
+const NDTErp_mongolia = lazy(() => import("./pages/ndt-erp-mongolia"));
+const CrmForNdtCompanies = lazy(() => import("./pages/erp/crm-for-ndt-companies"));
+const EmailMarketingSoftwareForNdt = lazy(() => import("./pages/erp/email-marketing-software-for-ndt"));
+const MarketingAutomationForNdtCompanies = lazy(() => import("./pages/erp/marketing-automation-for-ndt-companies"));
+const SalesManagementForInspectionCompanies = lazy(() => import("./pages/erp/sales-management-for-inspection-companies"));
+const InventoryManagementForNdtCompanies = lazy(() => import("./pages/erp/inventory-management-for-ndt-companies"));
+const AccountingSoftwareForNdtCompanies = lazy(() => import("./pages/erp/accounting-software-for-ndt-companies"));
+const InvoicingSoftwareForNdtCompanies = lazy(() => import("./pages/erp/invoicing-software-for-ndt-companies"));
+const ProjectManagementForNdtCompanies = lazy(() => import("./pages/erp/project-management-for-ndt-companies"));
+const ManufacturingErpForFabricationShops = lazy(() => import("./pages/erp/manufacturing-erp-for-fabrication-shops"));
+const CmmsForInspectionCompanies = lazy(() => import("./pages/erp/cmms-for-inspection-companies"));
+const MaintenanceManagementForNdt = lazy(() => import("./pages/erp/maintenance-management-for-ndt"));
+const QualityManagementForNdtCompanies = lazy(() => import("./pages/erp/quality-management-for-ndt-companies"));
+const DocumentControlForNdtCompanies = lazy(() => import("./pages/erp/document-control-for-ndt-companies"));
+const ProcurementForNdtCompanies = lazy(() => import("./pages/erp/procurement-for-ndt-companies"));
+const HrPayrollForNdtCompanies = lazy(() => import("./pages/erp/hr-payroll-for-ndt-companies"));
+const TimesheetSoftwareForNdtCompanies = lazy(() => import("./pages/erp/timesheet-software-for-ndt-companies"));
+const ExpenseTrackingForNdtCompanies = lazy(() => import("./pages/erp/expense-tracking-for-ndt-companies"));
+const HelpdeskForNdtCompanies = lazy(() => import("./pages/erp/helpdesk-for-ndt-companies"));
+const EcommerceForNdtCompanies = lazy(() => import("./pages/erp/ecommerce-for-ndt-companies"));
+const PosForNdtCompanies = lazy(() => import("./pages/erp/pos-for-ndt-companies"));
+const FieldServiceManagementForNdt = lazy(() => import("./pages/erp/field-service-management-for-ndt"));
+const SubscriptionManagementForNdt = lazy(() => import("./pages/erp/subscription-management-for-ndt"));
+const NoCodeCustomizationOdooStudioForNdt = lazy(() => import("./pages/erp/no-code-customization-odoo-studio-for-ndt"));
+const ApprovalsWorkflowsForNdtCompanies = lazy(() => import("./pages/erp/approvals-workflows-for-ndt-companies"));
+const EventsManagementForNdtConferences = lazy(() => import("./pages/erp/events-management-for-ndt-conferences"));
+const ErpTriple_crm_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-houston"));
+const ErpTriple_crm_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-dubai"));
+const ErpTriple_crm_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_crm_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-mumbai"));
+const ErpTriple_crm_ndt_inspection_companies_london = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-london"));
+const ErpTriple_crm_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-singapore"));
+const ErpTriple_crm_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-calgary"));
+const ErpTriple_crm_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-perth"));
+const ErpTriple_crm_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-doha"));
+const ErpTriple_crm_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_email_marketing_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-houston"));
+const ErpTriple_email_marketing_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-dubai"));
+const ErpTriple_email_marketing_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_email_marketing_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-mumbai"));
+const ErpTriple_email_marketing_ndt_inspection_companies_london = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-london"));
+const ErpTriple_email_marketing_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-singapore"));
+const ErpTriple_email_marketing_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-calgary"));
+const ErpTriple_email_marketing_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-perth"));
+const ErpTriple_email_marketing_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-doha"));
+const ErpTriple_email_marketing_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/email-marketing-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_inventory_management_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-houston"));
+const ErpTriple_inventory_management_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-dubai"));
+const ErpTriple_inventory_management_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_inventory_management_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-mumbai"));
+const ErpTriple_inventory_management_ndt_inspection_companies_london = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-london"));
+const ErpTriple_inventory_management_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-singapore"));
+const ErpTriple_inventory_management_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-calgary"));
+const ErpTriple_inventory_management_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-perth"));
+const ErpTriple_inventory_management_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-doha"));
+const ErpTriple_inventory_management_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_accounting_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-houston"));
+const ErpTriple_accounting_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-dubai"));
+const ErpTriple_accounting_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_accounting_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-mumbai"));
+const ErpTriple_accounting_ndt_inspection_companies_london = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-london"));
+const ErpTriple_accounting_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-singapore"));
+const ErpTriple_accounting_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-calgary"));
+const ErpTriple_accounting_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-perth"));
+const ErpTriple_accounting_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-doha"));
+const ErpTriple_accounting_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_project_management_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-houston"));
+const ErpTriple_project_management_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-dubai"));
+const ErpTriple_project_management_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_project_management_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-mumbai"));
+const ErpTriple_project_management_ndt_inspection_companies_london = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-london"));
+const ErpTriple_project_management_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-singapore"));
+const ErpTriple_project_management_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-calgary"));
+const ErpTriple_project_management_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-perth"));
+const ErpTriple_project_management_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-doha"));
+const ErpTriple_project_management_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_manufacturing_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-houston"));
+const ErpTriple_manufacturing_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-dubai"));
+const ErpTriple_manufacturing_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_manufacturing_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-mumbai"));
+const ErpTriple_manufacturing_ndt_inspection_companies_london = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-london"));
+const ErpTriple_manufacturing_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-singapore"));
+const ErpTriple_manufacturing_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-calgary"));
+const ErpTriple_manufacturing_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-perth"));
+const ErpTriple_manufacturing_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-doha"));
+const ErpTriple_manufacturing_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/manufacturing-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_helpdesk_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-houston"));
+const ErpTriple_helpdesk_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-dubai"));
+const ErpTriple_helpdesk_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_helpdesk_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-mumbai"));
+const ErpTriple_helpdesk_ndt_inspection_companies_london = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-london"));
+const ErpTriple_helpdesk_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-singapore"));
+const ErpTriple_helpdesk_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-calgary"));
+const ErpTriple_helpdesk_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-perth"));
+const ErpTriple_helpdesk_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-doha"));
+const ErpTriple_helpdesk_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/helpdesk-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_field_service_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-houston"));
+const ErpTriple_field_service_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-dubai"));
+const ErpTriple_field_service_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_field_service_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-mumbai"));
+const ErpTriple_field_service_ndt_inspection_companies_london = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-london"));
+const ErpTriple_field_service_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-singapore"));
+const ErpTriple_field_service_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-calgary"));
+const ErpTriple_field_service_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-perth"));
+const ErpTriple_field_service_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-doha"));
+const ErpTriple_field_service_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/field-service-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-houston"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-dubai"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-mumbai"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_london = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-london"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-singapore"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-calgary"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-perth"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-doha"));
+const ErpTriple_hr_payroll_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/hr-payroll-ndt-inspection-companies-kuala-lumpur"));
+const ErpTriple_cmms_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-houston"));
+const ErpTriple_cmms_ndt_inspection_companies_dubai = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-dubai"));
+const ErpTriple_cmms_ndt_inspection_companies_abu_dhabi = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-abu-dhabi"));
+const ErpTriple_cmms_ndt_inspection_companies_mumbai = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-mumbai"));
+const ErpTriple_cmms_ndt_inspection_companies_london = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-london"));
+const ErpTriple_cmms_ndt_inspection_companies_singapore = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-singapore"));
+const ErpTriple_cmms_ndt_inspection_companies_calgary = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-calgary"));
+const ErpTriple_cmms_ndt_inspection_companies_perth = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-perth"));
+const ErpTriple_cmms_ndt_inspection_companies_doha = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-doha"));
+const ErpTriple_cmms_ndt_inspection_companies_kuala_lumpur = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-kuala-lumpur"));
+// === END ERP Expansion 2026-05-23 ===
+
 const NDTTrainingSaudiArabia = lazy(() => import("./pages/ndt-training-saudi-arabia"));
 const NDTTrainingIndia = lazy(() => import("./pages/ndt-training-india"));
 const NDTTrainingOnline = lazy(() => import("./pages/ndt-training-online"));
@@ -3538,6 +3773,240 @@ const App = () => (
                   <Route path="/ndt-erp-auckland" element={<LazyRoute Component={NDTErpAuckland} />} />
                   <Route path="/ndt-erp-wellington" element={<LazyRoute Component={NDTErpWellington} />} />
                   <Route path="/ndt-erp-christchurch" element={<LazyRoute Component={NDTErpChristchurch} />} />
+                  {/* === ERP Expansion 2026-05-23 routes === */}
+                  <Route path="/ndt-erp-baytown" element={<LazyRoute Component={NDTErp_baytown} />} />
+                  <Route path="/ndt-erp-pasadena-texas" element={<LazyRoute Component={NDTErp_pasadena_texas} />} />
+                  <Route path="/ndt-erp-texas-city" element={<LazyRoute Component={NDTErp_texas_city} />} />
+                  <Route path="/ndt-erp-deer-park" element={<LazyRoute Component={NDTErp_deer_park} />} />
+                  <Route path="/ndt-erp-la-porte" element={<LazyRoute Component={NDTErp_la_porte} />} />
+                  <Route path="/ndt-erp-channelview" element={<LazyRoute Component={NDTErp_channelview} />} />
+                  <Route path="/ndt-erp-sugar-land" element={<LazyRoute Component={NDTErp_sugar_land} />} />
+                  <Route path="/ndt-erp-pearland" element={<LazyRoute Component={NDTErp_pearland} />} />
+                  <Route path="/ndt-erp-conroe" element={<LazyRoute Component={NDTErp_conroe} />} />
+                  <Route path="/ndt-erp-galveston" element={<LazyRoute Component={NDTErp_galveston} />} />
+                  <Route path="/ndt-erp-port-arthur" element={<LazyRoute Component={NDTErp_port_arthur} />} />
+                  <Route path="/ndt-erp-freeport-texas" element={<LazyRoute Component={NDTErp_freeport_texas} />} />
+                  <Route path="/ndt-erp-orange-texas" element={<LazyRoute Component={NDTErp_orange_texas} />} />
+                  <Route path="/ndt-erp-long-beach" element={<LazyRoute Component={NDTErp_long_beach} />} />
+                  <Route path="/ndt-erp-carson" element={<LazyRoute Component={NDTErp_carson} />} />
+                  <Route path="/ndt-erp-wilmington-california" element={<LazyRoute Component={NDTErp_wilmington_california} />} />
+                  <Route path="/ndt-erp-torrance" element={<LazyRoute Component={NDTErp_torrance} />} />
+                  <Route path="/ndt-erp-el-segundo" element={<LazyRoute Component={NDTErp_el_segundo} />} />
+                  <Route path="/ndt-erp-vernon" element={<LazyRoute Component={NDTErp_vernon} />} />
+                  <Route path="/ndt-erp-richmond-california" element={<LazyRoute Component={NDTErp_richmond_california} />} />
+                  <Route path="/ndt-erp-martinez" element={<LazyRoute Component={NDTErp_martinez} />} />
+                  <Route path="/ndt-erp-benicia" element={<LazyRoute Component={NDTErp_benicia} />} />
+                  <Route path="/ndt-erp-joliet" element={<LazyRoute Component={NDTErp_joliet} />} />
+                  <Route path="/ndt-erp-hammond" element={<LazyRoute Component={NDTErp_hammond} />} />
+                  <Route path="/ndt-erp-east-chicago" element={<LazyRoute Component={NDTErp_east_chicago} />} />
+                  <Route path="/ndt-erp-trainer" element={<LazyRoute Component={NDTErp_trainer} />} />
+                  <Route path="/ndt-erp-marcus-hook" element={<LazyRoute Component={NDTErp_marcus_hook} />} />
+                  <Route path="/ndt-erp-paulsboro" element={<LazyRoute Component={NDTErp_paulsboro} />} />
+                  <Route path="/ndt-erp-linden-nj" element={<LazyRoute Component={NDTErp_linden_nj} />} />
+                  <Route path="/ndt-erp-dearborn" element={<LazyRoute Component={NDTErp_dearborn} />} />
+                  <Route path="/ndt-erp-monaca" element={<LazyRoute Component={NDTErp_monaca} />} />
+                  <Route path="/ndt-erp-clairton" element={<LazyRoute Component={NDTErp_clairton} />} />
+                  <Route path="/ndt-erp-jebel-ali" element={<LazyRoute Component={NDTErp_jebel_ali} />} />
+                  <Route path="/ndt-erp-mussafah" element={<LazyRoute Component={NDTErp_mussafah} />} />
+                  <Route path="/ndt-erp-ruwais" element={<LazyRoute Component={NDTErp_ruwais} />} />
+                  <Route path="/ndt-erp-fujairah" element={<LazyRoute Component={NDTErp_fujairah} />} />
+                  <Route path="/ndt-erp-khobar" element={<LazyRoute Component={NDTErp_khobar} />} />
+                  <Route path="/ndt-erp-ras-tanura" element={<LazyRoute Component={NDTErp_ras_tanura} />} />
+                  <Route path="/ndt-erp-khurais" element={<LazyRoute Component={NDTErp_khurais} />} />
+                  <Route path="/ndt-erp-shaybah" element={<LazyRoute Component={NDTErp_shaybah} />} />
+                  <Route path="/ndt-erp-abqaiq" element={<LazyRoute Component={NDTErp_abqaiq} />} />
+                  <Route path="/ndt-erp-riyadh" element={<LazyRoute Component={NDTErp_riyadh} />} />
+                  <Route path="/ndt-erp-duqm" element={<LazyRoute Component={NDTErp_duqm} />} />
+                  <Route path="/ndt-erp-salalah" element={<LazyRoute Component={NDTErp_salalah} />} />
+                  <Route path="/ndt-erp-ras-laffan" element={<LazyRoute Component={NDTErp_ras_laffan} />} />
+                  <Route path="/ndt-erp-mesaieed" element={<LazyRoute Component={NDTErp_mesaieed} />} />
+                  <Route path="/ndt-erp-al-zour" element={<LazyRoute Component={NDTErp_al_zour} />} />
+                  <Route path="/ndt-erp-pune" element={<LazyRoute Component={NDTErp_pune} />} />
+                  <Route path="/ndt-erp-vadodara" element={<LazyRoute Component={NDTErp_vadodara} />} />
+                  <Route path="/ndt-erp-surat" element={<LazyRoute Component={NDTErp_surat} />} />
+                  <Route path="/ndt-erp-visakhapatnam" element={<LazyRoute Component={NDTErp_visakhapatnam} />} />
+                  <Route path="/ndt-erp-balikpapan" element={<LazyRoute Component={NDTErp_balikpapan} />} />
+                  <Route path="/ndt-erp-cilacap" element={<LazyRoute Component={NDTErp_cilacap} />} />
+                  <Route path="/ndt-erp-bontang" element={<LazyRoute Component={NDTErp_bontang} />} />
+                  <Route path="/ndt-erp-pengerang" element={<LazyRoute Component={NDTErp_pengerang} />} />
+                  <Route path="/ndt-erp-bintulu" element={<LazyRoute Component={NDTErp_bintulu} />} />
+                  <Route path="/ndt-erp-kerteh" element={<LazyRoute Component={NDTErp_kerteh} />} />
+                  <Route path="/ndt-erp-kemaman" element={<LazyRoute Component={NDTErp_kemaman} />} />
+                  <Route path="/ndt-erp-miri" element={<LazyRoute Component={NDTErp_miri} />} />
+                  <Route path="/ndt-erp-jurong-island" element={<LazyRoute Component={NDTErp_jurong_island} />} />
+                  <Route path="/ndt-erp-port-hedland" element={<LazyRoute Component={NDTErp_port_hedland} />} />
+                  <Route path="/ndt-erp-port-kembla" element={<LazyRoute Component={NDTErp_port_kembla} />} />
+                  <Route path="/ndt-erp-whyalla" element={<LazyRoute Component={NDTErp_whyalla} />} />
+                  <Route path="/ndt-erp-grangemouth" element={<LazyRoute Component={NDTErp_grangemouth} />} />
+                  <Route path="/ndt-erp-stanlow" element={<LazyRoute Component={NDTErp_stanlow} />} />
+                  <Route path="/ndt-erp-fawley" element={<LazyRoute Component={NDTErp_fawley} />} />
+                  <Route path="/ndt-erp-immingham" element={<LazyRoute Component={NDTErp_immingham} />} />
+                  <Route path="/ndt-erp-teesside" element={<LazyRoute Component={NDTErp_teesside} />} />
+                  <Route path="/ndt-erp-mongstad" element={<LazyRoute Component={NDTErp_mongstad} />} />
+                  <Route path="/ndt-erp-karsto" element={<LazyRoute Component={NDTErp_karsto} />} />
+                  <Route path="/ndt-erp-trondheim" element={<LazyRoute Component={NDTErp_trondheim} />} />
+                  <Route path="/ndt-erp-sarnia" element={<LazyRoute Component={NDTErp_sarnia} />} />
+                  <Route path="/ndt-erp-hamilton-ontario" element={<LazyRoute Component={NDTErp_hamilton_ontario} />} />
+                  <Route path="/ndt-erp-fort-saskatchewan" element={<LazyRoute Component={NDTErp_fort_saskatchewan} />} />
+                  <Route path="/ndt-erp-lloydminster" element={<LazyRoute Component={NDTErp_lloydminster} />} />
+                  <Route path="/ndt-erp-texas" element={<LazyRoute Component={NDTErp_texas} />} />
+                  <Route path="/ndt-erp-louisiana" element={<LazyRoute Component={NDTErp_louisiana} />} />
+                  <Route path="/ndt-erp-california" element={<LazyRoute Component={NDTErp_california} />} />
+                  <Route path="/ndt-erp-alaska" element={<LazyRoute Component={NDTErp_alaska} />} />
+                  <Route path="/ndt-erp-north-dakota" element={<LazyRoute Component={NDTErp_north_dakota} />} />
+                  <Route path="/ndt-erp-ohio" element={<LazyRoute Component={NDTErp_ohio} />} />
+                  <Route path="/ndt-erp-pennsylvania" element={<LazyRoute Component={NDTErp_pennsylvania} />} />
+                  <Route path="/ndt-erp-alberta" element={<LazyRoute Component={NDTErp_alberta} />} />
+                  <Route path="/ndt-erp-ontario" element={<LazyRoute Component={NDTErp_ontario} />} />
+                  <Route path="/ndt-erp-iraq" element={<LazyRoute Component={NDTErp_iraq} />} />
+                  <Route path="/ndt-erp-kazakhstan" element={<LazyRoute Component={NDTErp_kazakhstan} />} />
+                  <Route path="/ndt-erp-azerbaijan" element={<LazyRoute Component={NDTErp_azerbaijan} />} />
+                  <Route path="/ndt-erp-turkey" element={<LazyRoute Component={NDTErp_turkey} />} />
+                  <Route path="/ndt-erp-greece" element={<LazyRoute Component={NDTErp_greece} />} />
+                  <Route path="/ndt-erp-cyprus" element={<LazyRoute Component={NDTErp_cyprus} />} />
+                  <Route path="/ndt-erp-israel" element={<LazyRoute Component={NDTErp_israel} />} />
+                  <Route path="/ndt-erp-tunisia" element={<LazyRoute Component={NDTErp_tunisia} />} />
+                  <Route path="/ndt-erp-mozambique" element={<LazyRoute Component={NDTErp_mozambique} />} />
+                  <Route path="/ndt-erp-tanzania" element={<LazyRoute Component={NDTErp_tanzania} />} />
+                  <Route path="/ndt-erp-ghana" element={<LazyRoute Component={NDTErp_ghana} />} />
+                  <Route path="/ndt-erp-gabon" element={<LazyRoute Component={NDTErp_gabon} />} />
+                  <Route path="/ndt-erp-senegal" element={<LazyRoute Component={NDTErp_senegal} />} />
+                  <Route path="/ndt-erp-ivory-coast" element={<LazyRoute Component={NDTErp_ivory_coast} />} />
+                  <Route path="/ndt-erp-suriname" element={<LazyRoute Component={NDTErp_suriname} />} />
+                  <Route path="/ndt-erp-guyana" element={<LazyRoute Component={NDTErp_guyana} />} />
+                  <Route path="/ndt-erp-panama" element={<LazyRoute Component={NDTErp_panama} />} />
+                  <Route path="/ndt-erp-ecuador" element={<LazyRoute Component={NDTErp_ecuador} />} />
+                  <Route path="/ndt-erp-bangladesh" element={<LazyRoute Component={NDTErp_bangladesh} />} />
+                  <Route path="/ndt-erp-sri-lanka" element={<LazyRoute Component={NDTErp_sri_lanka} />} />
+                  <Route path="/ndt-erp-pakistan" element={<LazyRoute Component={NDTErp_pakistan} />} />
+                  <Route path="/ndt-erp-myanmar" element={<LazyRoute Component={NDTErp_myanmar} />} />
+                  <Route path="/ndt-erp-mongolia" element={<LazyRoute Component={NDTErp_mongolia} />} />
+                  <Route path="/erp/crm-for-ndt-companies" element={<LazyRoute Component={CrmForNdtCompanies} />} />
+                  <Route path="/erp/email-marketing-software-for-ndt" element={<LazyRoute Component={EmailMarketingSoftwareForNdt} />} />
+                  <Route path="/erp/marketing-automation-for-ndt-companies" element={<LazyRoute Component={MarketingAutomationForNdtCompanies} />} />
+                  <Route path="/erp/sales-management-for-inspection-companies" element={<LazyRoute Component={SalesManagementForInspectionCompanies} />} />
+                  <Route path="/erp/inventory-management-for-ndt-companies" element={<LazyRoute Component={InventoryManagementForNdtCompanies} />} />
+                  <Route path="/erp/accounting-software-for-ndt-companies" element={<LazyRoute Component={AccountingSoftwareForNdtCompanies} />} />
+                  <Route path="/erp/invoicing-software-for-ndt-companies" element={<LazyRoute Component={InvoicingSoftwareForNdtCompanies} />} />
+                  <Route path="/erp/project-management-for-ndt-companies" element={<LazyRoute Component={ProjectManagementForNdtCompanies} />} />
+                  <Route path="/erp/manufacturing-erp-for-fabrication-shops" element={<LazyRoute Component={ManufacturingErpForFabricationShops} />} />
+                  <Route path="/erp/cmms-for-inspection-companies" element={<LazyRoute Component={CmmsForInspectionCompanies} />} />
+                  <Route path="/erp/maintenance-management-for-ndt" element={<LazyRoute Component={MaintenanceManagementForNdt} />} />
+                  <Route path="/erp/quality-management-for-ndt-companies" element={<LazyRoute Component={QualityManagementForNdtCompanies} />} />
+                  <Route path="/erp/document-control-for-ndt-companies" element={<LazyRoute Component={DocumentControlForNdtCompanies} />} />
+                  <Route path="/erp/procurement-for-ndt-companies" element={<LazyRoute Component={ProcurementForNdtCompanies} />} />
+                  <Route path="/erp/hr-payroll-for-ndt-companies" element={<LazyRoute Component={HrPayrollForNdtCompanies} />} />
+                  <Route path="/erp/timesheet-software-for-ndt-companies" element={<LazyRoute Component={TimesheetSoftwareForNdtCompanies} />} />
+                  <Route path="/erp/expense-tracking-for-ndt-companies" element={<LazyRoute Component={ExpenseTrackingForNdtCompanies} />} />
+                  <Route path="/erp/helpdesk-for-ndt-companies" element={<LazyRoute Component={HelpdeskForNdtCompanies} />} />
+                  <Route path="/erp/ecommerce-for-ndt-companies" element={<LazyRoute Component={EcommerceForNdtCompanies} />} />
+                  <Route path="/erp/pos-for-ndt-companies" element={<LazyRoute Component={PosForNdtCompanies} />} />
+                  <Route path="/erp/field-service-management-for-ndt" element={<LazyRoute Component={FieldServiceManagementForNdt} />} />
+                  <Route path="/erp/subscription-management-for-ndt" element={<LazyRoute Component={SubscriptionManagementForNdt} />} />
+                  <Route path="/erp/no-code-customization-odoo-studio-for-ndt" element={<LazyRoute Component={NoCodeCustomizationOdooStudioForNdt} />} />
+                  <Route path="/erp/approvals-workflows-for-ndt-companies" element={<LazyRoute Component={ApprovalsWorkflowsForNdtCompanies} />} />
+                  <Route path="/erp/events-management-for-ndt-conferences" element={<LazyRoute Component={EventsManagementForNdtConferences} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/email-marketing-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_email_marketing_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_inventory_management_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_accounting_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_project_management_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/manufacturing-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_manufacturing_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/helpdesk-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_helpdesk_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/field-service-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_field_service_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/hr-payroll-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_hr_payroll_ndt_inspection_companies_kuala_lumpur} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_houston} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-dubai" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_dubai} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-abu-dhabi" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_abu_dhabi} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-mumbai" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_mumbai} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-london" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_london} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-singapore" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_singapore} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-calgary" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_calgary} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-perth" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_perth} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-doha" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_doha} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-kuala-lumpur" element={<LazyRoute Component={ErpTriple_cmms_ndt_inspection_companies_kuala_lumpur} />} />
+                  {/* === END ERP Expansion 2026-05-23 routes === */}
                   {/* Reporting — tier-3 (US/CA/EU/AU/NZ) */}
                   <Route path="/ndt-reporting-tulsa" element={<LazyRoute Component={NDTReportingTulsa} />} />
                   <Route path="/ndt-reporting-beaumont" element={<LazyRoute Component={NDTReportingBeaumont} />} />

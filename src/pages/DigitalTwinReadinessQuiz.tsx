@@ -157,8 +157,8 @@ export default function DigitalTwinReadinessQuiz() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin Readiness Quiz 2026: 10-Question Score (Free)"
-                description="Free 10-question quiz scoring your NDT digital twin readiness 0-30 across 4 maturity bands. Get a tailored next-step recommendation. 2026 edition."
+                title="Digital Twin Readiness Quiz 2026 — Free 10-Question NDT Score"
+                description="Free 10-question quiz scores your NDT digital twin readiness 0-30 across 4 maturity bands. Get a tailored next-step plan in 3 minutes. Take the free quiz."
                 canonical="https://atlantisndt.com/digital-twin-readiness-quiz"
                 structuredData={structuredData}
             />

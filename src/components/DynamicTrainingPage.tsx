@@ -8,6 +8,7 @@ import { GraduationCap, MapPin, Award, CheckCircle, TrendingUp, Users, Clock } f
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { isCuratedCity } from '@/data/curated-cities';
+import { RelatedCityProducts } from '@/components/RelatedProducts';
 
 interface TrainingCity {
   name: string;
@@ -74,6 +75,13 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
             <Button asChild className="bg-[#004aad] hover:bg-[#003580]">
               <Link to="/contact">Contact Us for Training</Link>
             </Button>
+            <div className="mt-12">
+              <RelatedCityProducts
+                currentProduct="training"
+                citySlug={citySlug}
+                city={cityName}
+              />
+            </div>
           </div>
         </main>
         <ContactDetails />
@@ -185,6 +193,17 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
               <Link to="/training">View All Training Programs</Link>
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* ── Sibling-city cross-links (Digital Twin / ERP / Reporting / Consulting) ── */}
+      <section className="py-8 bg-white border-t border-slate-200">
+        <div className="container mx-auto max-w-6xl px-6">
+          <RelatedCityProducts
+            currentProduct="training"
+            citySlug={citySlug}
+            city={name}
+          />
         </div>
       </section>
 

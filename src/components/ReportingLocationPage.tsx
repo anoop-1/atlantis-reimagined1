@@ -26,6 +26,7 @@ import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { isCuratedCity, cityFromProductSlug } from "@/data/curated-cities";
 import { ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
+import { RelatedCityProducts } from "@/components/RelatedProducts";
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -1008,6 +1009,17 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
               .
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      {/* ── Sibling-city cross-links (Digital Twin / ERP / Training / Consulting) ── */}
+      <section className="py-8 bg-background border-t border-border">
+        <div className="container mx-auto px-6 max-w-6xl">
+          <RelatedCityProducts
+            currentProduct="reporting"
+            citySlug={cityFromProductSlug(slug)}
+            city={city}
+          />
         </div>
       </section>
 

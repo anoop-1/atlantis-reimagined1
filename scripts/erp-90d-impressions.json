@@ -1,0 +1,1260 @@
+{
+  "generated": "2026-05-23T02:15:45.504Z",
+  "site": "https://atlantisndt.com",
+  "range": {
+    "startDate": "2026-02-19",
+    "endDate": "2026-05-20"
+  },
+  "total": 156,
+  "withImpressions": 36,
+  "items": [
+    {
+      "slug": "london",
+      "page": "/ndt-erp-london",
+      "impressions": 104,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6.480769230769231
+    },
+    {
+      "slug": "qatar",
+      "page": "/ndt-erp-qatar",
+      "impressions": 74,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4.256756756756756
+    },
+    {
+      "slug": "muscat",
+      "page": "/ndt-erp-muscat",
+      "impressions": 30,
+      "clicks": 2,
+      "ctr": 0.06666666666666667,
+      "position": 9.466666666666667
+    },
+    {
+      "slug": "india",
+      "page": "/ndt-erp-india",
+      "impressions": 11,
+      "clicks": 1,
+      "ctr": 0.09090909090909091,
+      "position": 20.818181818181817
+    },
+    {
+      "slug": "ras-al-khaimah",
+      "page": "/ndt-erp-ras-al-khaimah",
+      "impressions": 8,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 31.875
+    },
+    {
+      "slug": "oslo",
+      "page": "/ndt-erp-oslo",
+      "impressions": 7,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7.428571428571429
+    },
+    {
+      "slug": "perth",
+      "page": "/ndt-erp-perth",
+      "impressions": 5,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 24.2
+    },
+    {
+      "slug": "sharjah",
+      "page": "/ndt-erp-sharjah",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5.666666666666667
+    },
+    {
+      "slug": "genoa",
+      "page": "/ndt-erp-genoa",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 22.666666666666668
+    },
+    {
+      "slug": "argentina",
+      "page": "/ndt-erp-argentina",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "slug": "hong-kong",
+      "page": "/ndt-erp-hong-kong",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "slug": "jakarta",
+      "page": "/ndt-erp-jakarta",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "slug": "shenzhen",
+      "page": "/ndt-erp-shenzhen",
+      "impressions": 3,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 19.333333333333332
+    },
+    {
+      "slug": "houston",
+      "page": "/ndt-erp-houston",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "slug": "new-orleans",
+      "page": "/ndt-erp-new-orleans",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "slug": "algeria",
+      "page": "/ndt-erp-algeria",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 17.5
+    },
+    {
+      "slug": "belgium",
+      "page": "/ndt-erp-belgium",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 22.5
+    },
+    {
+      "slug": "colombia",
+      "page": "/ndt-erp-colombia",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 40.5
+    },
+    {
+      "slug": "colorado-springs",
+      "page": "/ndt-erp-colorado-springs",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "slug": "shanghai",
+      "page": "/ndt-erp-shanghai",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 41.5
+    },
+    {
+      "slug": "taipei",
+      "page": "/ndt-erp-taipei",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "slug": "uk",
+      "page": "/ndt-erp-uk",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "slug": "vizag",
+      "page": "/ndt-erp-vizag",
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "slug": "abu-dhabi",
+      "page": "/ndt-erp-abu-dhabi",
+      "impressions": 1,
+      "clicks": 1,
+      "ctr": 1,
+      "position": 2
+    },
+    {
+      "slug": "lagos",
+      "page": "/ndt-erp-lagos",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "slug": "aberdeen",
+      "page": "/ndt-erp-aberdeen",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "slug": "accra",
+      "page": "/ndt-erp-accra",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "slug": "beijing",
+      "page": "/ndt-erp-beijing",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 62
+    },
+    {
+      "slug": "bogota",
+      "page": "/ndt-erp-bogota",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "slug": "buenos-aires",
+      "page": "/ndt-erp-buenos-aires",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "slug": "egypt",
+      "page": "/ndt-erp-egypt",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 57
+    },
+    {
+      "slug": "kolkata",
+      "page": "/ndt-erp-kolkata",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "slug": "nairobi",
+      "page": "/ndt-erp-nairobi",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 58
+    },
+    {
+      "slug": "online",
+      "page": "/ndt-erp-online",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "slug": "philadelphia",
+      "page": "/ndt-erp-philadelphia",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "slug": "sao-paulo",
+      "page": "/ndt-erp-sao-paulo",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "slug": "dubai",
+      "page": "/ndt-erp-dubai",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "saudi-arabia",
+      "page": "/ndt-erp-saudi-arabia",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "calgary",
+      "page": "/ndt-erp-calgary",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "singapore",
+      "page": "/ndt-erp-singapore",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "mumbai",
+      "page": "/ndt-erp-mumbai",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "doha",
+      "page": "/ndt-erp-doha",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "kuwait",
+      "page": "/ndt-erp-kuwait",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "hyderabad",
+      "page": "/ndt-erp-hyderabad",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "chennai",
+      "page": "/ndt-erp-chennai",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "kuala-lumpur",
+      "page": "/ndt-erp-kuala-lumpur",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "denver",
+      "page": "/ndt-erp-denver",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "manama",
+      "page": "/ndt-erp-manama",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "odessa",
+      "page": "/ndt-erp-odessa",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "bergen",
+      "page": "/ndt-erp-bergen",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "sohar",
+      "page": "/ndt-erp-sohar",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "basrah",
+      "page": "/ndt-erp-basrah",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "port-harcourt",
+      "page": "/ndt-erp-port-harcourt",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "midland",
+      "page": "/ndt-erp-midland",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "anchorage",
+      "page": "/ndt-erp-anchorage",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "bakersfield",
+      "page": "/ndt-erp-bakersfield",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "melbourne",
+      "page": "/ndt-erp-melbourne",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "jubail",
+      "page": "/ndt-erp-jubail",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "yanbu",
+      "page": "/ndt-erp-yanbu",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "edmonton",
+      "page": "/ndt-erp-edmonton",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "rotterdam",
+      "page": "/ndt-erp-rotterdam",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "tulsa",
+      "page": "/ndt-erp-tulsa",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "beaumont",
+      "page": "/ndt-erp-beaumont",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "mobile",
+      "page": "/ndt-erp-mobile",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "st-louis",
+      "page": "/ndt-erp-st-louis",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "cleveland",
+      "page": "/ndt-erp-cleveland",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "cincinnati",
+      "page": "/ndt-erp-cincinnati",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "nashville",
+      "page": "/ndt-erp-nashville",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "louisville",
+      "page": "/ndt-erp-louisville",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "kansas-city",
+      "page": "/ndt-erp-kansas-city",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "minneapolis",
+      "page": "/ndt-erp-minneapolis",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "milwaukee",
+      "page": "/ndt-erp-milwaukee",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "charlotte",
+      "page": "/ndt-erp-charlotte",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "toronto",
+      "page": "/ndt-erp-toronto",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "vancouver",
+      "page": "/ndt-erp-vancouver",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "montreal",
+      "page": "/ndt-erp-montreal",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "fort-mcmurray",
+      "page": "/ndt-erp-fort-mcmurray",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "halifax",
+      "page": "/ndt-erp-halifax",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "glasgow",
+      "page": "/ndt-erp-glasgow",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "paris",
+      "page": "/ndt-erp-paris",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "madrid",
+      "page": "/ndt-erp-madrid",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "piraeus",
+      "page": "/ndt-erp-piraeus",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "plymouth",
+      "page": "/ndt-erp-plymouth",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "newcastle",
+      "page": "/ndt-erp-newcastle",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "sydney",
+      "page": "/ndt-erp-sydney",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "karratha",
+      "page": "/ndt-erp-karratha",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "gladstone",
+      "page": "/ndt-erp-gladstone",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "darwin",
+      "page": "/ndt-erp-darwin",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "auckland",
+      "page": "/ndt-erp-auckland",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "wellington",
+      "page": "/ndt-erp-wellington",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "christchurch",
+      "page": "/ndt-erp-christchurch",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "ahmedabad",
+      "page": "/ndt-erp-ahmedabad",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "angola",
+      "page": "/ndt-erp-angola",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "atlanta",
+      "page": "/ndt-erp-atlanta",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "austin",
+      "page": "/ndt-erp-austin",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "australia",
+      "page": "/ndt-erp-australia",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "bahrain",
+      "page": "/ndt-erp-bahrain",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "bangalore",
+      "page": "/ndt-erp-bangalore",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "bangkok",
+      "page": "/ndt-erp-bangkok",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "baton-rouge",
+      "page": "/ndt-erp-baton-rouge",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "brazil",
+      "page": "/ndt-erp-brazil",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "brisbane",
+      "page": "/ndt-erp-brisbane",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "cape-town",
+      "page": "/ndt-erp-cape-town",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "casablanca",
+      "page": "/ndt-erp-casablanca",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "chicago",
+      "page": "/ndt-erp-chicago",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "corpus-christi",
+      "page": "/ndt-erp-corpus-christi",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "dallas",
+      "page": "/ndt-erp-dallas",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "dammam",
+      "page": "/ndt-erp-dammam",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "delhi",
+      "page": "/ndt-erp-delhi",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "detroit",
+      "page": "/ndt-erp-detroit",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "fort-worth",
+      "page": "/ndt-erp-fort-worth",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "france",
+      "page": "/ndt-erp-france",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "germany",
+      "page": "/ndt-erp-germany",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "ho-chi-minh",
+      "page": "/ndt-erp-ho-chi-minh",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "huntsville",
+      "page": "/ndt-erp-huntsville",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "indonesia",
+      "page": "/ndt-erp-indonesia",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "italy",
+      "page": "/ndt-erp-italy",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "jamnagar",
+      "page": "/ndt-erp-jamnagar",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "japan",
+      "page": "/ndt-erp-japan",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "johannesburg",
+      "page": "/ndt-erp-johannesburg",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "kochi",
+      "page": "/ndt-erp-kochi",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "lake-charles",
+      "page": "/ndt-erp-lake-charles",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "lima",
+      "page": "/ndt-erp-lima",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "los-angeles",
+      "page": "/ndt-erp-los-angeles",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "malaysia",
+      "page": "/ndt-erp-malaysia",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "manila",
+      "page": "/ndt-erp-manila",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "mexico-city",
+      "page": "/ndt-erp-mexico-city",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "netherlands",
+      "page": "/ndt-erp-netherlands",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "new-york",
+      "page": "/ndt-erp-new-york",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "new-zealand",
+      "page": "/ndt-erp-new-zealand",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "nigeria",
+      "page": "/ndt-erp-nigeria",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "norfolk",
+      "page": "/ndt-erp-norfolk",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "norway",
+      "page": "/ndt-erp-norway",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "oklahoma-city",
+      "page": "/ndt-erp-oklahoma-city",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "oman",
+      "page": "/ndt-erp-oman",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "orlando",
+      "page": "/ndt-erp-orlando",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "philippines",
+      "page": "/ndt-erp-philippines",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "phoenix",
+      "page": "/ndt-erp-phoenix",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "pittsburgh",
+      "page": "/ndt-erp-pittsburgh",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "raleigh",
+      "page": "/ndt-erp-raleigh",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "page": "/ndt-erp-rio-de-janeiro",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "sacramento",
+      "page": "/ndt-erp-sacramento",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "san-antonio",
+      "page": "/ndt-erp-san-antonio",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "san-francisco",
+      "page": "/ndt-erp-san-francisco",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "santiago",
+      "page": "/ndt-erp-santiago",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "savannah",
+      "page": "/ndt-erp-savannah",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "scotland",
+      "page": "/ndt-erp-scotland",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "seattle",
+      "page": "/ndt-erp-seattle",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "south-africa",
+      "page": "/ndt-erp-south-africa",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "south-korea",
+      "page": "/ndt-erp-south-korea",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "spain",
+      "page": "/ndt-erp-spain",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "taiwan",
+      "page": "/ndt-erp-taiwan",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "thailand",
+      "page": "/ndt-erp-thailand",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "trinidad",
+      "page": "/ndt-erp-trinidad",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "usa",
+      "page": "/ndt-erp-usa",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    {
+      "slug": "vietnam",
+      "page": "/ndt-erp-vietnam",
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0
+    }
+  ]
+}

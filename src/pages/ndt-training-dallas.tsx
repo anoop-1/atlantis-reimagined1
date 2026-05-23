@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
+import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { Link } from 'react-router-dom';
 
 export default function NDTTrainingDallas() {
@@ -118,6 +119,12 @@ export default function NDTTrainingDallas() {
               <Link to="/contact">Request Information</Link>
             </Button>
           </div>
+        </div>
+      </section>
+
+      <section className="py-8 bg-white border-t border-slate-200">
+        <div className="container mx-auto max-w-6xl px-6">
+          <RelatedCityProducts currentProduct="training" citySlug="dallas" city="Dallas" />
         </div>
       </section>
 

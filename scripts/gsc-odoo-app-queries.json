@@ -1,0 +1,50 @@
+{
+  "rows": [
+    {
+      "keys": [
+        "24/7 helpdesk support atlantis"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "construction erp malaysia"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 29.5
+    },
+    {
+      "keys": [
+        "construction erp software malaysia"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 32.85714285714286
+    },
+    {
+      "keys": [
+        "construction erp software singapore"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "keys": [
+        "construction erp singapore"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 17
+    }
+  ],
+  "responseAggregationType": "byProperty"
+}

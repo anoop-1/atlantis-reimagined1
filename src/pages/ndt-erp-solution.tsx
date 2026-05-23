@@ -6,227 +6,239 @@ import CustomerLogosBlock from "@/components/CustomerLogosBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
-    CheckCircle, Wrench, BarChart3, Users, Calendar, DollarSign, TrendingUp,
-    Shield, FileCheck, Award, AlertCircle, ArrowRight, Database, Cog, ClipboardList
+    CheckCircle, Wrench, BarChart3, Users, Calendar, DollarSign,
+    Shield, FileCheck, Award, AlertCircle, ArrowRight, Database, Cog, ClipboardList,
+    Package, Building2, Plane, Ship, Factory, HardHat, FlaskConical, Layers, MapPin
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 
 const URL = "https://atlantisndt.com/ndt-erp-solution";
 
+// ─── 8 Core Modules (linked to /erp-modules/*) ────────────────────────────
+
 const modules = [
     {
-        title: "Technician & Personnel Management",
-        icon: Users,
-        description: "Track every certification — ASNT SNT-TC-1A, ISO 9712, PCN, CGSB, NAS 410 — with method matrix, vision acuity records (Jaeger #2 / Snellen 20/30), annual retest dates, employer-of-record letters. Auto-alerts 90/60/30 days before expiry. No more lost OJT logs at audit.",
-        codes: "ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, EN 4179, NAS 410, CGSB-48.9712, AINDT BINDT PCN"
-    },
-    {
-        title: "Equipment Calibration Tracking",
-        icon: Wrench,
-        description: "Calibration intervals per ASTM E797, ASTM E1316, ISO 17025. NIST traceability records. Block, transducer, and instrument lifecycle. Out-of-tolerance alerts auto-pause field deployment. Calibration certificates archived with SHA-256 hash for audit.",
-        codes: "ASTM E317, ASTM E797, ISO 17025, NIST traceability"
-    },
-    {
-        title: "Project & Work Order Management",
+        title: "Project Management",
         icon: ClipboardList,
-        description: "Bid → quote → PO → schedule → field execution → report → invoice. Per-project P&L, per-technician utilization, per-equipment availability. RACI matrix per project. Subcontractor portal for client-of-client work.",
-        codes: "Aligned to API Q1, ISO 9001:2015 §8.1, ISO 17020"
+        slug: "project-management",
+        description:
+            "Bid to invoice in one flow: opportunity, quote, purchase order, schedule, field execution, report, AR. Live per-project P&L tracks technician hours, equipment days, travel, consumables, and gross margin against budget. RACI matrix per project, subcontractor portal for client-of-client work, daily and weekly progress dashboards, and milestone-triggered automatic invoicing. Aligned to API Q1 §4.4 and ISO 9001:2015 §8.1.",
     },
     {
-        title: "Procedure & Document Control",
+        title: "Technician Scheduling",
+        icon: Calendar,
+        slug: "asset-management",
+        description:
+            "Assign the right inspector to the right job in seconds. Scheduler reads each technician's ASNT/ISO 9712/PCN method matrix, active medicals, BOSIET/HUET, client-site endorsements, and travel-day blocks before allowing assignment. FIFO rotation aware, multi-site rosters, exclusion windows, and visual Gantt for shutdown campaigns. Blocks any work order against an unqualified or out-of-medical inspector before mobilization.",
+    },
+    {
+        title: "Certification Tracking",
+        icon: Award,
+        slug: "certification-tracking",
+        description:
+            "Centralized ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN, CSWIP, CGSB-48.9712, NAS 410, EN 4179 record-keeping with parallel qualification sets per technician. Vision acuity (Jaeger #2 + Snellen 20/30 + Ishihara color), recurrent OJT logs, employer-of-record letters, and exam-score archive. Automated 90/60/30/7-day expiry alerts to inspector and supervisor, plus audit-ready certification packages on demand.",
+    },
+    {
+        title: "Equipment Calibration",
+        icon: Wrench,
+        slug: "asset-management",
+        description:
+            "Every UT instrument, transducer, RT crawler, calibration block, MT yoke, and PT consumable tracked with calibration interval (ASTM E797 / ASTM E1316 / ISO 17025 / your written practice — whichever is shortest), NIST-traceable certificate, and assigned-to technician. Out-of-tolerance assets auto-blocked from field deployment. SHA-256 hash on every cert prevents tampering. Auditors retrieve full equipment lifecycle in seconds.",
+    },
+    {
+        title: "NDT Report Management",
         icon: FileCheck,
-        description: "Written practice (WP), procedures (per ASME V Article 1, ISO 17635), instructions, technical justifications. Version-controlled with effective date, expiry date, approver Level III signature. Auto-distribution to authorized personnel only — ISO 9001:2015 §7.5 compliant.",
-        codes: "ISO 9001:2015, ISO 17020, ASME BPVC Section V"
+        slug: "certification-tracking",
+        description:
+            "Pre-loaded inspection report templates for API 510 pressure vessels, API 570 piping, API 653 storage tanks, ASME Section V/VIII, AWS D1.1 structural welds, plus client-specific formats for ADNOC, Aramco, QatarEnergy, KNPC, Shell, BP, TotalEnergies, ExxonMobil, Equinor, ONGC, BPCL, PETRONAS, Woodside, Chevron. Bilingual Arabic/English with RTL layout. eIDAS-grade digital signatures and Level III approver chain.",
     },
     {
-        title: "Financial Management & Invoicing",
+        title: "Inventory & Consumables",
+        icon: Package,
+        slug: "asset-management",
+        description:
+            "Real-time stock of couplant, penetrant kits, magnetic ink, RT film, batteries, PPE, calibration blocks, and replacement transducers across HQ, regional stores, and active worksites. Job-bag picking lists generated automatically from work-order scope. Per-project consumable cost rolls into project COGS. Barcode and QR-code asset tagging with mobile field scan.",
+    },
+    {
+        title: "Invoicing & AR",
         icon: DollarSign,
-        description: "Multi-currency, multi-tax-jurisdiction. Native QuickBooks Online, Xero, SAP S/4HANA, Microsoft Dynamics 365, Tally Prime, Zoho Books integrations. Per-project COGS, gross margin, billable utilization. Auto-invoicing by milestone, T&M, or fixed-fee.",
-        codes: "GAAP, IFRS, GST, VAT-compliant"
+        slug: "asset-management",
+        description:
+            "Native two-way QuickBooks Online, Xero, Sage Intacct, SAP S/4HANA, Microsoft Dynamics 365 Business Central, NetSuite, Tally Prime, and Zoho Books integrations. Multi-currency, multi-tax-jurisdiction (US sales tax, EU VAT, GCC VAT, India GST). Auto-invoicing by milestone, T&M, or fixed-fee. AR aging dashboards with collections workflow and dunning automation.",
     },
     {
-        title: "Client & Subcontractor Portal",
-        icon: BarChart3,
-        description: "Clients see their reports, schedules, and invoices. Subcontractors see their assignments, technicians, and payments. SSO via SAML / OIDC. Audit-grade activity log. SLA-tied response time. Mobile-responsive across all carrier networks tested in offshore + remote sites.",
-        codes: "SOC 2 Type II target, GDPR, SAML 2.0 / OIDC SSO"
+        title: "ISO 9001 Document Control",
+        icon: Shield,
+        slug: "certification-tracking",
+        description:
+            "Version-controlled written practice, NDT procedures, technical justifications, internal-audit records, management-review minutes, customer-complaint logs. Effective and expiry dates on every document, with restricted-distribution to qualified personnel only. Produces ISO 9001:2015, ISO 17020, ISO 17025 and API Q1 evidence packs on demand. Hash-chain integrity makes record tampering impossible.",
     },
 ];
 
-const competitors = [
+// ─── Industries (link to /erp-industries/*) ───────────────────────────────
+
+const industries = [
     {
-        rank: 1,
-        name: "Atlantis NDT ERP (Odoo 18 base)",
-        bestFor: "NDT inspection service providers (5-500 technicians)",
-        strengths: [
-            "Pre-configured for NDT day one — ASNT SNT-TC-1A written practice, ISO 9712 method matrix, NAS 410 + EN 4179 aerospace tracks",
-            "Calibration tracking aligned to ASTM E797 + ISO 17025",
-            "Procedure control hooks into Atlantis Reporting Software",
-            "Mobile-responsive offline-capable field app",
-            "ASNT Level III authored — built by inspectors, not generalists",
-            "Affordable for SME inspection contractors",
-        ],
-        weaknesses: [
-            "Newer in this niche (2024 launch) vs incumbents",
-            "Best-fit is dedicated NDT shops; less ideal if NDT is <10% of business mix",
-        ],
-        pricing: "$18,000/yr for full ERP suite + unlimited users (SMEs); enterprise tiers available",
-        verdict: "Best overall for NDT-first organizations. Replaces 5-7 disconnected tools (spreadsheets, QB, scheduling app, certification tracker, calibration log)."
+        name: "Oil & Gas",
+        icon: Factory,
+        slug: "oil-gas",
+        description:
+            "Refinery turnarounds, midstream pipelines, upstream platforms, LNG trains. Atlantis NDT ERP ships pre-loaded with API 510/570/653, ASME B31.3, NACE MR0175, PHMSA 49 CFR 192/195, OSHA PSM, and operator-specific written practices for the world's 30+ largest oil and gas operators — from Aramco SAEP-1112 through ADNOC AIM through Shell GS to Equinor STID.",
     },
     {
-        rank: 2,
-        name: "SAP S/4HANA + Plant Maintenance + custom NDT extensions",
-        bestFor: "Tier-1 EPCs and operators with SAP corporate-wide",
-        strengths: ["Deep ERP integration", "Large SI ecosystem", "Multi-entity consolidation"],
-        weaknesses: [
-            "Not designed for NDT — every ASNT/ISO concept must be custom-built",
-            "Implementation 12-24 months, $500K-$5M typical",
-            "Inspector mobile UX poor — Work Manager / Asset Manager rated 2.x stars by field users",
-            "Certification tracking requires SuccessFactors add-on at extra cost",
-        ],
-        pricing: "$1M+ year one; $200K+/yr ongoing licence; per-user named licences",
-        verdict: "Painful fit for inspection. Choose only if SAP is mandated corporate-wide AND you have $1M+ to spend on NDT customization."
+        name: "Aerospace",
+        icon: Plane,
+        slug: "aerospace",
+        description:
+            "NAS 410 Revision 5 and EN 4179 personnel tracking with Specific Procedure qualification, Method certification, annual acuity, and 5-year recertification. Process spec linkage to Boeing GP-150, Airbus AIPS-01, Lockheed STP, GE / Rolls-Royce / Pratt & Whitney house specs. NADCAP audit packages auto-generate.",
     },
     {
-        rank: 3,
-        name: "IBM Maximo Application Suite",
-        bestFor: "Operators with Maximo as core EAM",
-        strengths: ["Mature EAM", "Work order + asset workflows integrated", "MAS on OpenShift scalable"],
-        weaknesses: [
-            "Generic EAM — no API 510/570/653 inspection workflows out-of-box",
-            "Certification tracking via SuccessFactors / Talent Mgmt — separate licence",
-            "Mobile UX adequate but not inspector-optimized",
-            "AI requires Watson integration — separate cost",
-        ],
-        pricing: "$250K-$1M+/yr enterprise (per-user + per-asset)",
-        verdict: "Viable backbone if Maximo already in place. Budget 6-12 months customization for inspection-grade ERP coverage."
+        name: "Marine",
+        icon: Ship,
+        slug: "marine",
+        description:
+            "Class society alignment with Lloyd's Register, DNV, ABS, BV and ClassNK survey scopes. Hull thickness gauging, structural weld inspection, ballast tank inspection, propeller shaft NDT, riser and umbilical fatigue inspection. STCW endorsements and offshore medical currency tracked per inspector.",
     },
     {
-        rank: 4,
-        name: "Microsoft Dynamics 365 (F&O + Field Service + Project Operations)",
-        bestFor: "Mid-market operators on Microsoft stack (Office 365, Azure)",
-        strengths: ["Native Office 365 integration", "Power Platform extensibility", "Field Service mobile is strong"],
-        weaknesses: [
-            "No NDT-specific configuration — Power Platform build required",
-            "Inspector certification tracking custom build (Power Apps + Dataverse)",
-            "Calibration tracking custom build",
-            "Integration partner ecosystem strong but adds cost",
-        ],
-        pricing: "$95-$210/user/month + Power Platform consumption + implementation",
-        verdict: "Good base for those committed to Microsoft ecosystem. NDT specialization remains a custom build effort."
+        name: "Manufacturing",
+        icon: Cog,
+        slug: "manufacturing",
+        description:
+            "Heavy-engineering pressure parts (BHEL, L&T, Doosan), pipe mills, structural fabrication shops, wind tower fabrication, defense-grade weldments. AWS D1.1 / D1.5 / D1.6 weld inspection, ISO 17635 procedure compliance, and customer-spec routings (Caterpillar, John Deere, ABB) maintained in-platform.",
     },
     {
-        rank: 5,
-        name: "NetSuite (Oracle)",
-        bestFor: "Multi-entity inspection groups with mixed services revenue",
-        strengths: ["Strong financial consolidation", "Multi-currency multi-subsidiary native", "OpenAir for project services"],
-        weaknesses: [
-            "No NDT/inspection vertical — generic professional services template",
-            "Certification & calibration tracking via SuiteApps marketplace — third-party",
-            "Mobile field UX limited",
-        ],
-        pricing: "$999/mo base + per-user; implementation $50K-$250K",
-        verdict: "Solid choice for multi-entity firms where financial consolidation is primary driver. NDT-specific gaps remain."
+        name: "Construction",
+        icon: HardHat,
+        slug: "construction",
+        description:
+            "Structural weld inspection for high-rises, bridges, stadiums and infrastructure projects. AWS D1.1/D1.5 with project-specific Q-Plans, third-party inspection records for state DOT and FHWA submissions, and ITP (inspection and test plan) tracking with hold points / witness points / monitor points.",
     },
     {
-        rank: 6,
-        name: "Salesforce Field Service + Service Cloud",
-        bestFor: "Inspection groups already on Salesforce Sales Cloud",
-        strengths: ["Strong scheduling engine", "Mobile field service app robust", "AppExchange ecosystem"],
-        weaknesses: [
-            "Not financial-system-of-record — needs separate ERP",
-            "Inspection certification + calibration via Salesforce platform custom build",
-            "Cost stacks fast — Field Service licence + platform + storage + integrations",
-        ],
-        pricing: "$150-$220/user/month Field Service edition + Sales/Service licences",
-        verdict: "Excellent CRM + dispatch layer. Pair with a true ERP (NetSuite / Atlantis / Dynamics) for financials."
-    },
-    {
-        rank: 7,
-        name: "Zoho One (Books + Projects + People + CRM)",
-        bestFor: "Very price-sensitive SME contractors",
-        strengths: ["Cheapest of the named platforms", "Reasonable mobile apps", "Quick deployment"],
-        weaknesses: [
-            "Generic — every NDT concept is custom build",
-            "Limited audit-trail strength vs SAP/Oracle/Atlantis",
-            "Reporting depth modest",
-        ],
-        pricing: "$45/user/month Zoho One bundle",
-        verdict: "Fits a 5-15 inspector startup. Plan migration as you scale beyond 25-30 technicians."
-    },
-    {
-        rank: 8,
-        name: "QuickBooks + Excel + manual scheduling (status quo)",
-        bestFor: "1-5 inspector micro-shops with low audit risk",
-        strengths: ["Lowest cost", "Universally understood"],
-        weaknesses: [
-            "No certification expiry alerts — failed audits common",
-            "No calibration interval tracking — out-of-tolerance equipment in field is real risk",
-            "No project P&L — gross margin invisible",
-            "Not auditable to ISO 17020, API Q1, or oil major prequalification",
-        ],
-        pricing: "$80-$200/mo QuickBooks + Office 365",
-        verdict: "Acceptable below 5 technicians + low-stakes work. Becomes a liability fast as volume grows or audits arrive."
+        name: "Calibration Labs",
+        icon: FlaskConical,
+        slug: "calibration-labs",
+        description:
+            "ISO/IEC 17025-accredited calibration laboratories — NIST traceability, measurement uncertainty budgets, customer asset registers, due-date reminders, calibration certificate templates, and audit-ready evidence packs for ANAB / UKAS / EIAC / NABL surveillance audits.",
     },
 ];
+
+// ─── Competitor comparison data (links to /compare/vs-*) ──────────────────
+
+const competitorLinks = [
+    { slug: "sap-pm",         vendor: "SAP PM",                native: "No",          certTracking: "Add-on (SuccessFactors)", deploy: "12-24 months", cost: "$1M+/yr", hosted: "Hosted / On-prem" },
+    { slug: "maximo",         vendor: "IBM Maximo",            native: "No",          certTracking: "Talent Mgmt add-on",      deploy: "9-18 months",  cost: "$250K-$1M+/yr", hosted: "Hosted / OpenShift" },
+    { slug: "meridium",       vendor: "GE Meridium APM",       native: "Partial",     certTracking: "Limited",                 deploy: "9-15 months",  cost: "$300K+/yr",     hosted: "Hosted" },
+    { slug: "ge-vernova-apm", vendor: "GE Vernova APM",        native: "Partial",     certTracking: "Limited",                 deploy: "9-15 months",  cost: "$350K+/yr",     hosted: "Hosted" },
+    { slug: "aspentech-mtell",vendor: "AspenTech Mtell",       native: "No (RBI/AI)", certTracking: "None",                    deploy: "6-12 months",  cost: "$200K+/yr",     hosted: "Hosted" },
+    { slug: "bentley-assetwise", vendor: "Bentley AssetWise",  native: "No",          certTracking: "None",                    deploy: "6-12 months",  cost: "$150K+/yr",     hosted: "Hosted" },
+    { slug: "etq-reliance",   vendor: "ETQ Reliance",          native: "No (QMS)",    certTracking: "Generic competency",      deploy: "4-9 months",   cost: "$120K+/yr",     hosted: "Hosted" },
+    { slug: "netsuite",       vendor: "NetSuite",              native: "No",          certTracking: "Third-party SuiteApp",    deploy: "6-12 months",  cost: "$60K-$300K/yr", hosted: "Hosted" },
+    { slug: "procore",        vendor: "Procore",               native: "No (constr.)",certTracking: "None",                    deploy: "1-3 months",   cost: "$25K-$100K/yr", hosted: "Hosted" },
+    { slug: "quickbooks",     vendor: "QuickBooks + Excel",    native: "No",          certTracking: "Manual spreadsheet",      deploy: "Day 1 (limited)", cost: "$1K-$3K/yr",     hosted: "Hosted" },
+];
+
+// ─── 15+ NDT-specific Atlantis add-on modules ─────────────────────────────
+
+const atlantisAddons = [
+    "ASNT SNT-TC-1A written practice authoring",
+    "ISO 9712 method matrix configurator",
+    "NAS 410 / EN 4179 aerospace track",
+    "API 510/570/653 inspection workflows",
+    "ASME BPVC Section V procedure library",
+    "NACE MR0175 sour-service damage models",
+    "Risk-Based Inspection (API 581) hand-off",
+    "Corrosion rate trending and remaining life",
+    "RT radiographer dose ledger (AERB/NRC)",
+    "ADNOC / Aramco / QatarEnergy report packs",
+    "Bilingual Arabic/English with RTL layout",
+    "Offline field-app for offshore / remote",
+    "eIDAS-grade digital signatures",
+    "Level III approver chain enforcement",
+    "Client portal with SAML 2.0 / OIDC SSO",
+    "NCDMB / Saudi Aramco IKTVA local-content reporting",
+];
+
+// ─── Top 20 ERP city pages for city coverage grid ─────────────────────────
+
+const topCities = [
+    { slug: "houston",      label: "Houston" },
+    { slug: "dubai",        label: "Dubai" },
+    { slug: "abu-dhabi",    label: "Abu Dhabi" },
+    { slug: "saudi-arabia", label: "Saudi Arabia" },
+    { slug: "calgary",      label: "Calgary" },
+    { slug: "singapore",    label: "Singapore" },
+    { slug: "mumbai",       label: "Mumbai" },
+    { slug: "london",       label: "London" },
+    { slug: "perth",        label: "Perth" },
+    { slug: "doha",         label: "Doha" },
+    { slug: "kuwait",       label: "Kuwait City" },
+    { slug: "muscat",       label: "Muscat" },
+    { slug: "hyderabad",    label: "Hyderabad" },
+    { slug: "chennai",      label: "Chennai" },
+    { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+    { slug: "lagos",        label: "Lagos" },
+    { slug: "aberdeen",     label: "Aberdeen" },
+    { slug: "oslo",         label: "Oslo" },
+    { slug: "new-orleans",  label: "New Orleans" },
+    { slug: "denver",       label: "Denver" },
+];
+
+// ─── 12 FAQs ───────────────────────────────────────────────────────────────
 
 const faqs = [
     {
-        q: "What is NDT ERP software?",
-        a: "NDT ERP (Enterprise Resource Planning) software is a unified business management platform built specifically for non-destructive testing inspection companies. Unlike generic ERP, an NDT ERP comes pre-configured with ASNT SNT-TC-1A written practice templates, ISO 9712 certification matrices, ASTM E797 calibration intervals, API 510/570/653 procedure libraries, and aerospace NAS 410 / EN 4179 personnel tracking. It replaces 5-7 disconnected tools — accounting software, scheduling spreadsheets, certification trackers, calibration logs, project management apps, and client portals — with one integrated system."
+        q: "Who is Atlantis NDT ERP for?",
+        a: "Atlantis NDT ERP is built for NDT inspection service companies between 10 and 150 technicians — Level III-led firms running mixed campaigns across refineries, offshore platforms, pipelines, aerospace shops, fabrication yards, and calibration labs. It also fits owner-operator integrity teams managing in-house inspection programs at refineries, fertilizer complexes, and power plants. Below 5 inspectors, QuickBooks plus a spreadsheet still works; above 150 you may need an enterprise-tier deployment which we configure individually.",
     },
     {
-        q: "How much does NDT ERP cost?",
-        a: "Atlantis NDT ERP is $18,000/year for the full suite with unlimited users, suitable for inspection companies with 5-150 technicians. Enterprise tiers for 150+ technicians are quoted separately. Comparable platforms range widely — Zoho One bundles run ~$45/user/month, NetSuite implementations start $50,000 plus subscription, while SAP S/4HANA NDT customizations frequently exceed $1 million in year-one cost. The right tier depends on your inspection volume, regulatory exposure, and existing IT stack."
+        q: "Is the platform cloud-hosted or on-premise?",
+        a: "Cloud-hosted by default on hardened SOC 2 Type II infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates (Aramco SACS-002, ADNOC ITPS). On-premise instances still receive signed monthly update bundles and retain full offline field-app sync.",
     },
     {
-        q: "Does NDT ERP integrate with my existing accounting software?",
-        a: "Yes. Atlantis NDT ERP includes native two-way integrations for QuickBooks Online, Xero, Sage Intacct, SAP S/4HANA, Microsoft Dynamics 365 Business Central, Tally Prime, and Zoho Books. Invoices and bills sync in real time. For systems without a native connector we provide REST-API and Zapier paths. We never recommend manual CSV import for production accounting flows."
+        q: "How is this different from a free Odoo Community installation?",
+        a: "Atlantis NDT ERP is built on Odoo 18 Enterprise as its open-source backbone, but ships pre-configured with 15+ NDT-specific add-on modules that a generic Odoo installation lacks: ASNT SNT-TC-1A written practice, ISO 9712 method matrix, NAS 410 aerospace track, ASTM E797 calibration intervals, API 510/570/653 report templates, NACE MR0175 damage-mechanism models, RT radiographer dose ledger, ADNOC/Aramco/QatarEnergy pre-mob evidence packs, and the bilingual Arabic/English reporting engine. Free Odoo gives you the chassis; we ship the inspection-industry body.",
     },
     {
-        q: "Will NDT ERP track ASNT and ISO 9712 certifications automatically?",
-        a: "Yes. The Personnel module stores each technician's ASNT, ISO 9712, PCN, CGSB, and NAS 410 / EN 4179 certification records with method matrix, level (I, II, III), recognized-by employer, vision acuity test (Jaeger #2 + Snellen 20/30 + color), specific procedures qualified for, OJT logs, and exam scores. The system fires automated alerts at 90 / 60 / 30 / 7 days before any record expires, prevents un-qualified technicians from being scheduled on a method they're not certified for, and produces audit-ready certification packages for ADNOC, Aramco, QatarEnergy, Boeing GP-150, and Airbus AIPS prequalifications."
+        q: "Can we add custom fields and workflows specific to our company?",
+        a: "Yes. Atlantis NDT ERP is fully extensible via the Odoo Studio low-code builder for routine custom fields and views, and via Python module development for deeper customization. Our implementation team scopes and delivers reasonable customizations as part of the standard implementation package — typical examples include client-specific report header layouts, additional asset-criticality fields, and integration with bespoke client portals.",
     },
     {
-        q: "How does NDT ERP handle equipment calibration tracking?",
-        a: "Each instrument, transducer, calibration block, and accessory is logged with its calibration interval (per ASTM E797, ASTM E1316, manufacturer spec, or your written practice — whichever is shortest), NIST-traceable certificate, due date, and assigned-to technician. When an instrument approaches calibration due, the system blocks new field deployment until re-calibration is recorded and the certificate is uploaded. SHA-256 hash of every certificate prevents tampering. Auditors can pull the full lifecycle of any equipment in seconds."
+        q: "Does it integrate with our existing accounting software?",
+        a: "Yes. Native two-way connectors ship for QuickBooks Online, Xero, Sage Intacct, SAP S/4HANA, Microsoft Dynamics 365 Business Central, NetSuite, Tally Prime, and Zoho Books. Invoices, bills, customers, vendors, and payments sync in real time. For systems without a native connector we provide REST-API and Zapier paths. We never recommend manual CSV import for production accounting flows.",
     },
     {
-        q: "Is NDT ERP cloud-hosted or on-premise?",
-        a: "Atlantis NDT ERP is cloud-hosted by default on hardened SOC 2 Type II infrastructure with regional data residency in USA, EU, UAE, and India to comply with GDPR, NDMP (UAE), Saudi PDPL, and DPDP (India) data sovereignty rules. On-premise deployment is available for clients with air-gap requirements (defense / nuclear) — typically Docker-based, deployed in your own infrastructure, with quarterly security patch cadence."
+        q: "Does it support single sign-on and our corporate identity provider?",
+        a: "Yes. SAML 2.0 and OIDC SSO are supported out of the box for both internal users and the client portal. Tested integrations with Microsoft Entra ID (Azure AD), Okta, Google Workspace, OneLogin, JumpCloud, and customer-hosted Active Directory Federation Services. MFA is enforced platform-wide and can be set per role.",
     },
     {
-        q: "Can I migrate from QuickBooks + Excel without losing history?",
-        a: "Yes. We run a structured migration playbook — discovery, data mapping, parallel run, cutover. Your existing QuickBooks chart of accounts, customer list, vendor list, open invoices, and inventory transfer in. Excel certification trackers and calibration logs migrate via templated import. Typical migration is 4-6 weeks for a 25-50 technician shop. We do not lose history; we preserve audit trail back to your first transaction."
+        q: "Can we export our data if we ever leave?",
+        a: "Yes. The platform is built on Odoo 18, an open-source ERP with 12+ million users globally. Your complete dataset — assets, inspections, technicians, certifications, financial records, attachments — can be exported in standard formats (CSV, JSON, Odoo XML, PDF) at any time, and is portable to any Odoo partner worldwide. Data export is contractually guaranteed in every customer agreement, with no vendor lock-in.",
     },
     {
-        q: "Does NDT ERP work for aerospace / NAS 410 environments?",
-        a: "Yes. The Aerospace track tracks NAS 410 (US) and EN 4179 (Europe) personnel certifications including Specific Procedure qualification, Method certification, Annual Acuity Test, and 5-year recertification cycle. Process specifications (Boeing GP-150, Airbus AIPS-01, Lockheed STP, GE / RR / P&W house specs) link to qualified personnel automatically. NADCAP audit packages auto-generate."
+        q: "Is it GDPR / DPDP / PDPL compliant?",
+        a: "Yes. Atlantis NDT ERP is compliant with EU GDPR, UK GDPR, India DPDP Act 2023, Saudi PDPL, UAE Federal Decree-Law 45/2021, Singapore PDPA, Australia Privacy Act, and NDPR (Nigeria). Data Processing Addenda are signed by default. Regional hosting (EU, UAE, KSA, India, Singapore, Australia) means personal data never leaves the chosen jurisdiction unless explicitly replicated for disaster recovery.",
     },
     {
-        q: "How does NDT ERP help with ISO 9001 / ISO 17020 audits?",
-        a: "ISO 9001:2015 and ISO 17020 require documented control of records (clause 7.5), competence (7.2), monitoring/measurement equipment (7.1.5), and product/service requirements (8.2). NDT ERP captures all four with timestamped, immutable, version-controlled records. The audit module produces — on demand — the exact evidence packs ANAB / UKAS / EIAC / DAC ask for: certification matrix as of audit date, calibration log with NIST traceability, procedure register with effective dates, internal audit history, management review minutes, customer complaints log."
+        q: "What support is included?",
+        a: "Standard support includes email and SMS-based triage with same-business-day acknowledgement, scheduled monthly product training webinars, a dedicated customer-success contact, and unlimited access to the knowledge-base and admin guides. Enterprise tiers add 24/7 phone support, dedicated technical account management, and quarterly on-site reviews. All clients receive quarterly product upgrades and a security patch cadence aligned with Odoo upstream.",
     },
     {
-        q: "What's the difference between NDT ERP and a generic ERP like SAP or NetSuite?",
-        a: "Generic ERPs were built for manufacturing, retail, and professional services. NDT ERP encodes the regulatory reality of inspection work — ASNT SNT-TC-1A written practice, ISO 9712 method matrix, ASTM E797 calibration intervals, API 510/570/653 procedure templates, NAS 410 vision acuity tests, NIST traceability for blocks. On a generic ERP these features must be custom-built (typical 6-18 months at $200K-$2M). On Atlantis NDT ERP they are pre-configured, day-one-ready, and maintained by an ASNT Level III team that uses the system on their own client work."
+        q: "How long is training and onboarding?",
+        a: "A typical 25-50 technician NDT firm moves from kickoff to go-live in 4 weeks: week 1 discovery and data mapping, week 2 data migration and configuration, week 3 administrator and supervisor training, week 4 inspector training and parallel run. Most clients are fully productive in week 5. We provide role-based training tracks: administrators (2 days), supervisors (1 day), inspectors (half-day in person or self-paced video).",
     },
     {
-        q: "Can clients see their inspection reports and invoices through NDT ERP?",
-        a: "Yes. The Client Portal gives each customer SSO access (SAML 2.0 or OIDC) to their reports, certification packages, schedules, invoices, and KPI dashboards. Permissions are role-based — a refinery's procurement person sees billing, the integrity engineer sees reports, the Q/A manager sees procedures and calibration records. All access is logged for SOC 2 audit."
+        q: "How does it scale as we grow?",
+        a: "Atlantis NDT ERP scales horizontally — adding inspectors, sites, clients, or business units does not require re-architecture. Existing customers have grown from 12 to 180 inspectors on the same platform without re-implementation. Multi-entity / multi-country group structures are supported natively, with consolidated reporting and per-entity localization. The standard $18,000/yr tier covers up to 25 named users; additional users scale at predictable per-user pricing.",
     },
     {
-        q: "How do I know NDT ERP won't be deprecated like other niche tools?",
-        a: "Atlantis NDT ERP is built on Odoo 18 — an open-source ERP with 12+ million users globally and a 2,000+ contributor community. Even in the unlikely event Atlantis discontinued operations, your data, configuration, and workflows remain on Odoo and are portable to any Odoo partner worldwide. We provide a documented data export path in customer contracts. No vendor lock-in."
+        q: "Can it replace IBM Maximo or SAP Plant Maintenance?",
+        a: "For NDT inspection contractors and inspection-led integrity teams, yes — Atlantis NDT ERP replaces Maximo and SAP PM completely at roughly 5-10% of the cost. For asset-owner operators where Maximo or SAP PM is also the corporate EAM/CMMS spanning rotating equipment, instrumentation, electrical, and facilities, Atlantis NDT ERP runs alongside as the inspection layer and pushes inspection closeout, corrosion readings, and remaining-life data into the corporate EAM via native connectors. We support both architectures.",
     },
 ];
 
-const benefits = [
-    { stat: "20%", label: "Higher billable utilization", detail: "Tighter scheduling + visibility into bench time" },
-    { stat: "40%", label: "Less administrative overhead", detail: "One system replaces 5-7 disconnected tools" },
-    { stat: "90%", label: "Audit-ready certification matrix", detail: "Auto-alerts prevent expired-cert deployments" },
-    { stat: "30 d", label: "From kick-off to live", detail: "vs 6-18 months for generic ERP customisation" },
-];
+// ─── Pillar component ─────────────────────────────────────────────────────
 
 export default function NDTERPSolution() {
     const structuredData = {
@@ -234,14 +246,14 @@ export default function NDTERPSolution() {
         "@graph": [
             buildTechArticleSchema({
                 url: URL,
-                headline: "NDT ERP Software 2026 — Atlantis vs SAP, Maximo, Dynamics 365, NetSuite",
+                headline: "NDT ERP Software for Inspection Companies (2026 Guide + Pricing)",
                 description:
-                    "Compare NDT ERP solutions: Atlantis NDT ERP, SAP S/4HANA + PM, IBM Maximo, Microsoft Dynamics 365, NetSuite, Salesforce Field Service, Zoho One. Pre-configured ASNT SNT-TC-1A, ISO 9712, ASTM E797 calibration tracking. Pricing, modules, FAQs.",
+                    "Atlantis NDT ERP — the 2026 buyer's guide. 8 NDT-purpose modules (project management, scheduling, certification tracking, calibration, reporting, inventory, invoicing, ISO 9001 document control), vendor comparison vs SAP PM, Maximo, Meridium, GE Vernova APM, NetSuite, Procore, QuickBooks. $18,000/year fully loaded.",
                 datePublished: "2026-04-22",
-                dateModified: "2026-05-07",
+                dateModified: "2026-05-16",
                 section: "NDT ERP — Buyer's Guide",
                 keywords:
-                    "NDT ERP software, NDT business management software, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking, API 510 ERP, NDT scheduling software, Odoo NDT, SAP NDT alternative, Maximo NDT alternative",
+                    "NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking, API 510 ERP, NDT scheduling software, Odoo NDT, SAP NDT alternative, Maximo NDT alternative",
                 dependencies:
                     "ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, EN 4179, NAS 410, ISO 9001:2015, ISO 17020, ISO 17025, ASTM E797, API Q1, API 510, API 570, API 653",
             }),
@@ -252,10 +264,11 @@ export default function NDTERPSolution() {
                 "@id": `${URL}#software`,
                 "name": "Atlantis NDT ERP",
                 "applicationCategory": "BusinessApplication",
+                "applicationSubCategory": "Inspection Management Software",
                 "operatingSystem": "Cloud / Web (browser); iOS; Android; on-premise Docker",
                 "softwareVersion": "2026.5",
                 "description":
-                    "Enterprise resource planning software pre-configured for NDT inspection service companies. Manages personnel certifications (ASNT SNT-TC-1A, ISO 9712, NAS 410), equipment calibration (ASTM E797), procedures (ISO 17020), projects, financials, and client portal in one integrated platform.",
+                    "ERP software pre-configured for NDT inspection service companies. Manages personnel certifications (ASNT SNT-TC-1A, ISO 9712, NAS 410), equipment calibration (ASTM E797), procedures (ISO 17020), projects, financials, and client portal in one integrated platform.",
                 "url": URL,
                 "publisher": { "@id": "https://atlantisndt.com/#organization" },
                 "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
@@ -288,6 +301,22 @@ export default function NDTERPSolution() {
                 },
             },
             {
+                "@type": "Product",
+                "@id": `${URL}#product`,
+                "name": "Atlantis NDT ERP",
+                "brand": { "@type": "Brand", "name": "Atlantis NDT" },
+                "category": "Enterprise Resource Planning Software for NDT Inspection Companies",
+                "description": "Annual subscription to Atlantis NDT ERP — cloud-hosted Odoo 18-based ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules included, quarterly upgrades and email/SMS support.",
+                "offers": {
+                    "@type": "Offer",
+                    "url": URL,
+                    "price": "18000",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock",
+                    "priceValidUntil": "2027-12-31",
+                },
+            },
+            {
                 "@type": "FAQPage",
                 "@id": `${URL}#faq`,
                 "mainEntity": faqs.map(f => ({
@@ -297,16 +326,12 @@ export default function NDTERPSolution() {
                 })),
             },
             {
-                "@type": "ItemList",
-                "name": "NDT ERP Software 2026 — Compared",
-                "itemListOrder": "https://schema.org/ItemListOrderDescending",
-                "numberOfItems": competitors.length,
-                "itemListElement": competitors.map(c => ({
-                    "@type": "ListItem",
-                    "position": c.rank,
-                    "name": c.name,
-                    "description": c.verdict,
-                })),
+                "@type": "BreadcrumbList",
+                "@id": `${URL}#breadcrumb`,
+                "itemListElement": [
+                    { "@type": "ListItem", position: 1, name: "Home", item: "https://atlantisndt.com/" },
+                    { "@type": "ListItem", position: 2, name: "NDT ERP Software", item: URL },
+                ],
             },
         ],
     };
@@ -315,15 +340,16 @@ export default function NDTERPSolution() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT ERP Software 2026 — Atlantis vs SAP, Maximo, Dynamics, NetSuite | Atlantis NDT"
-                description="Compare top NDT ERP platforms 2026 — Atlantis (Odoo-based), SAP S/4HANA, Maximo, Dynamics 365, NetSuite, Zoho One. Pre-configured ASNT SNT-TC-1A, ISO 9712, ASTM E797 calibration. $18,000/yr full suite. ASNT Level III authored."
-                keywords="NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking, ISO 9712 software, calibration tracking software, NDT scheduling, NDT business software, Odoo NDT, SAP NDT alternative"
+                title="Affordable NDT ERP $18,000/yr — All Odoo Apps Included"
+                description="Atlantis NDT ERP — $18,000/year flat, all 30+ Odoo 18 apps included. ASNT/ISO 9712/PCN tracking, API 510/570/653 reporting, 4-week deployment. Beats SAP PM/Maximo 10x. Demo: info@atlantisndt.com"
+                keywords="NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking software, NDT scheduling, NDT business software, Odoo NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
                 canonical={URL}
                 ogImage="/atlantis.jpg"
                 structuredData={structuredData}
             />
             <Breadcrumbs />
 
+            {/* ── 1. Hero ─────────────────────────────────────────────────── */}
             <section className="bg-gradient-to-br from-orange-600 via-orange-500 to-red-600 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-5xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
@@ -332,224 +358,383 @@ export default function NDTERPSolution() {
                             <span className="text-sm">Buyer's Guide — Updated May 2026</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                            NDT ERP Software 2026 — Compared, Costed, Audited
+                            NDT ERP Software for Inspection Companies (2026 Guide + Pricing)
                         </h1>
+                        <p className="text-xl text-orange-50 mb-4 leading-relaxed">
+                            Atlantis NDT ERP runs your inspection business end-to-end — ASNT, ISO 9712, PCN
+                            and NAS 410 certification tracking, API 510/570/653 reporting, calibration,
+                            scheduling, invoicing, ISO 9001 document control — on an Odoo 18 backbone.
+                        </p>
                         <p className="text-xl text-orange-50 mb-6 leading-relaxed">
-                            Independent, ASNT Level III-authored comparison of NDT ERP solutions across
-                            personnel certification tracking (ASNT SNT-TC-1A, ISO 9712, NAS 410),
-                            equipment calibration (ASTM E797 + ISO 17025), project + financial control,
-                            and audit readiness for ISO 9001 / 17020 / API Q1.
+                            One platform replaces 5-7 disconnected tools. $18,000/year, fully loaded,
+                            four-week deployment. Authored by an ASNT Level III who runs an inspection
+                            company on the same software.
                         </p>
-                        <p className="text-sm text-orange-100">
-                            Author: <strong>Anoop Rayavarapu</strong> — ASNT NDT Level III (multi-method),
-                            API 653 Authorized Inspector, ISO 9001:2015 Lead Auditor. Founder &amp; CEO,
-                            Atlantis NDT.
-                            <em> Disclosure: Atlantis NDT ERP ranks #1 in this comparison — reasoning is
-                            documented section by section. Evaluate independently against your stack.</em>
-                        </p>
+                        <div className="flex flex-wrap gap-3 mt-6">
+                            <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-orange-700 px-6 py-3 rounded-lg font-semibold hover:bg-orange-50 transition">
+                                Request technical demo <ArrowRight className="w-4 h-4" />
+                            </Link>
+                            <a href="tel:+12818408969" className="inline-flex items-center gap-2 bg-orange-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-800 transition">
+                                Call +1 (281) 840-8969
+                            </a>
+                        </div>
                     </motion.div>
-                </div>
-            </section>
-
-            <section className="py-12 bg-white border-b">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <div className="grid md:grid-cols-4 gap-6 text-center">
-                        {benefits.map(b => (
-                            <div key={b.label}>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">{b.stat}</div>
-                                <div className="font-semibold text-slate-900">{b.label}</div>
-                                <div className="text-sm text-slate-600 mt-1">{b.detail}</div>
-                            </div>
-                        ))}
-                    </div>
                 </div>
             </section>
 
             <article className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-5xl px-6">
 
-                    <section className="mb-12 prose prose-lg max-w-none">
-                        <h2 className="text-3xl font-bold mb-4">What an NDT ERP must actually do</h2>
+                    {/* ── 2. What an NDT ERP Solves ───────────────────────── */}
+                    <section className="mb-16 prose prose-lg max-w-none">
+                        <h2 className="text-3xl font-bold mb-6">What an NDT ERP Solves</h2>
                         <p className="text-slate-700 leading-relaxed">
-                            Most "NDT companies" we audit are running a generic ERP plus 4-6 spreadsheets
-                            plus QuickBooks plus Outlook calendar plus a paper certification binder.
-                            That stack passes a quiet day. It fails the day Aramco asks for the
-                            certification matrix as it stood on the 14th of last month, or when the
-                            QC Director discovers a UT instrument was 47 days out of calibration during
-                            a critical pressure-vessel inspection, or when the auditor wants to see the
-                            specific written practice version under which a Level II MT technician was
-                            certified on procedure MT-007-Rev3 last March.
+                            Walk into a typical NDT contractor and you'll find the same stack: QuickBooks
+                            for accounting, four to six Excel spreadsheets for certification matrices and
+                            calibration logs, a SharePoint or Dropbox folder of procedures, an Outlook
+                            calendar for scheduling, a paper signed-off binder for client reports, and a
+                            WhatsApp group for everything that doesn't fit anywhere else. It runs — until
+                            it doesn't. The Level II MT inspector who mobilized to the Aramco shutdown
+                            had a vision-acuity test that expired three weeks ago. The UT thickness gauge
+                            used on a critical pressure-vessel inspection was 47 days out of calibration.
+                            The procedure cited on report MT-007-Rev3 was superseded by Rev 4 the previous
+                            quarter. The Q/A manager spends a whole week assembling the audit evidence pack
+                            for the ANAB ISO 17020 surveillance visit. The invoice from the offshore campaign
+                            in Karratha sits in a file on someone's laptop until the bookkeeper finds it.
                         </p>
                         <p className="text-slate-700 leading-relaxed mt-4">
-                            An NDT-purpose ERP encodes the regulatory reality of the inspection trade:
-                            ASNT SNT-TC-1A (or CP-189) written practice, ISO 9712 method matrix
-                            including all twelve qualified procedures and acuity tests, NAS 410 / EN 4179
-                            for aerospace, ASTM E797 + ISO 17025 calibration intervals with NIST
-                            traceability, ASME BPVC Section V procedures with effective and expiry dates,
-                            API 510/570/653 inspection workflows with API 581 RBI hand-off. None of
-                            this is configurable in a week on a generic ERP — it has to be the spine.
-                        </p>
-                        <p className="text-slate-700 leading-relaxed mt-4">
-                            This page walks through the eight evaluation criteria that matter, ranks
-                            the eight serious NDT ERP options on the market in 2026, and answers the
-                            twelve questions buyers ask us most. We then tell you which platform fits
-                            which size of organization, with honest commentary on where Atlantis NDT
-                            ERP wins and where it does not.
+                            An NDT ERP fixes those failure modes at their source. Certification matrices
+                            live in a database that fires 90/60/30/7-day expiry alerts to the inspector
+                            and the supervisor; the scheduler refuses to mobilize an out-of-currency
+                            technician onto a method they are not certified for. Equipment calibration
+                            is enforced before deployment — an out-of-tolerance instrument cannot leave
+                            the calibration store on a work order. Procedures are version-controlled with
+                            effective and expiry dates and tied to qualified personnel only; a work order
+                            cannot cite a superseded revision. Inspection reports generate from field-data
+                            entries in five minutes instead of three hours, in pre-loaded API 510, API 570,
+                            API 653 and client-specific formats. Audit evidence packs export in one click.
+                            Invoices auto-create on milestone completion and reconcile back into the
+                            accounting system. The seven separate tools collapse into one — and the work
+                            that used to consume an FTE of administrative overhead disappears into the
+                            background of a system designed around the regulatory reality of inspection
+                            work.
                         </p>
                     </section>
 
-                    <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-6">Eight evaluation criteria</h2>
-                        <div className="grid md:grid-cols-2 gap-4">
-                            {[
-                                { t: "Personnel certification depth", d: "ASNT SNT-TC-1A written practice, ISO 9712 12-method matrix, NAS 410 / EN 4179 aerospace, vision acuity (Jaeger #2 + Snellen 20/30 + Ishihara color), OJT logs, Level III approver chain — pre-configured, not custom-built." },
-                                { t: "Equipment calibration tracking", d: "Per-instrument calibration intervals to ASTM E797 / ISO 17025 / written-practice; NIST-traceable certificates with hash-chain integrity; auto-block of out-of-tolerance equipment from field deployment." },
-                                { t: "Procedure and document control", d: "Versioned procedures aligned to ASME V Article 1 / ISO 17635; effective-date and expiry-date fields; restricted-distribution to qualified personnel only; ISO 9001:2015 §7.5 evidence pack." },
-                                { t: "Project P&L visibility", d: "Per-project revenue, COGS (technician hours + equipment + travel + consumables), gross margin, on-time delivery KPI; per-technician utilization vs target; per-equipment availability." },
-                                { t: "Audit readiness for prequalifications", d: "ADNOC PQQ, Aramco SAEP, QatarEnergy QPP, ONGC HVT, NADCAP MAUP — produces evidence pack on demand; ISO 9001:2015 / ISO 17020 / API Q1 internal audit support." },
-                                { t: "Mobile field capture (offline)", d: "Inspectors at offshore platforms, refinery shutdowns, tank interiors — tablet/phone offline data capture, sync without loss, hash-stamped records." },
-                                { t: "Native accounting integration", d: "Two-way QuickBooks Online / Xero / SAP / Dynamics 365 / NetSuite / Tally / Zoho Books — not flat file exports, not weekly batch jobs." },
-                                { t: "Total cost of ownership (5-year view)", d: "Licence + implementation + customization + annual maintenance + integration + upgrade — full picture, not licence headline." },
-                            ].map((x) => (
-                                <Card key={x.t} className="border-slate-200">
-                                    <CardContent className="pt-5">
-                                        <div className="font-semibold text-slate-900 mb-1">{x.t}</div>
-                                        <div className="text-sm text-slate-600">{x.d}</div>
-                                    </CardContent>
-                                </Card>
-                            ))}
-                        </div>
-                    </section>
-
-                    <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-6">Atlantis NDT ERP — six core modules</h2>
+                    {/* ── 3. Core Modules ──────────────────────────────────── */}
+                    <section className="mb-16">
+                        <h2 className="text-3xl font-bold mb-6">Eight Core Modules</h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            Each of the eight modules below is configured for the NDT inspection
+                            industry from day one. Click any tile to see the deep-dive page covering
+                            implementation detail, configuration options, and code/standard alignment.
+                        </p>
                         <div className="grid md:grid-cols-2 gap-6">
                             {modules.map((m) => (
-                                <Card key={m.title} className="border-slate-200 hover:shadow-md transition">
-                                    <CardHeader className="pb-2">
-                                        <m.icon className="w-8 h-8 text-orange-600 mb-2" />
-                                        <CardTitle className="text-lg">{m.title}</CardTitle>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <p className="text-slate-700 text-sm mb-3">{m.description}</p>
-                                        <p className="text-xs text-slate-500"><strong>Aligned to:</strong> {m.codes}</p>
-                                    </CardContent>
-                                </Card>
+                                <Link key={m.title} to={`/erp-modules/${m.slug}`} className="block">
+                                    <Card className="border-slate-200 hover:shadow-md hover:border-orange-400 transition h-full">
+                                        <CardHeader className="pb-2">
+                                            <m.icon className="w-8 h-8 text-orange-600 mb-2" />
+                                            <CardTitle className="text-lg">{m.title}</CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <p className="text-slate-700 text-sm">{m.description}</p>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
                             ))}
                         </div>
                     </section>
 
-                    <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-6">At-a-glance comparison — 8 platforms</h2>
-                        <div className="overflow-x-auto">
-                            <table className="w-full bg-white rounded-lg shadow-sm text-sm">
+                    {/* ── 4. Industries ────────────────────────────────────── */}
+                    <section className="mb-16">
+                        <h2 className="text-3xl font-bold mb-6">Industries We Cover</h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            Atlantis NDT ERP ships with code libraries, written practices and report
+                            templates pre-loaded for the six industries below. Click through for an
+                            industry-specific deep dive on workflows, regulatory frameworks and
+                            client-specific report formats.
+                        </p>
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {industries.map((ind) => (
+                                <Link key={ind.name} to={`/erp-industries/${ind.slug}`} className="block">
+                                    <Card className="border-slate-200 hover:shadow-md hover:border-orange-400 transition h-full">
+                                        <CardHeader className="pb-2">
+                                            <ind.icon className="w-7 h-7 text-orange-600 mb-2" />
+                                            <CardTitle className="text-lg">{ind.name}</CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <p className="text-slate-700 text-sm leading-relaxed">{ind.description}</p>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
+                            ))}
+                        </div>
+                        <div className="text-center mt-6">
+                            <Link to="/erp-industries" className="text-orange-600 font-semibold hover:underline inline-flex items-center gap-1">
+                                View all ERP industry pages <ArrowRight className="w-4 h-4" />
+                            </Link>
+                        </div>
+                    </section>
+
+                    {/* ── 5. Why Odoo, Why Atlantis ───────────────────────── */}
+                    <section className="mb-16 bg-white rounded-2xl p-10 border border-slate-200 shadow-sm">
+                        <h2 className="text-3xl font-bold mb-6">Why Odoo, Why Atlantis</h2>
+                        <p className="text-slate-700 leading-relaxed">
+                            Atlantis NDT ERP is built on Odoo 18 Enterprise as its open-source chassis.
+                            Odoo is a $7B-revenue ERP platform with 12 million users across 120 countries
+                            and a 2,000-developer contributor community — it is, by user count, the most
+                            widely adopted business-suite ERP in the world. The financial, inventory,
+                            project, HR and CRM cores are battle-tested across every industry from
+                            manufacturing to retail to professional services. What Odoo does not ship is
+                            the NDT inspection industry's regulatory body of knowledge: ASNT SNT-TC-1A
+                            written practice templates, ISO 9712 method matrices, ASTM E797 calibration
+                            intervals, API 510/570/653 report layouts, NAS 410 vision acuity tests,
+                            NACE MR0175 sour-service damage models, AERB and NRC radiographer dose
+                            ledgers. On a vanilla Odoo (or any generic ERP) those concepts have to be
+                            custom-built — typically a 6-18 month project at $200K-$2M of consulting
+                            spend. That is what Atlantis adds.
+                        </p>
+                        <p className="text-slate-700 leading-relaxed mt-4">
+                            Atlantis ships 15+ NDT-specific add-on modules on top of Odoo 18, built by
+                            ASNT Level IIIs who use the system on their own client work every week:
+                        </p>
+                        <div className="grid md:grid-cols-2 gap-2 mt-4">
+                            {atlantisAddons.map((addon) => (
+                                <div key={addon} className="flex items-start gap-2 text-sm text-slate-700">
+                                    <CheckCircle className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                                    <span>{addon}</span>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-slate-700 leading-relaxed mt-6">
+                            The combination matters. Odoo gives you a globally supported, open-source
+                            ERP chassis with guaranteed data portability — if Atlantis ever disappeared,
+                            your data, configuration and workflows remain on Odoo and are portable to
+                            any one of the 4,000+ certified Odoo partners worldwide. Atlantis gives
+                            you the NDT-industry body that makes that chassis usable on day one. You
+                            pay $18,000 a year for both layers, not seven figures for a custom build.
+                        </p>
+                    </section>
+
+                    {/* ── 6. Vendor Comparison ─────────────────────────────── */}
+                    <section className="mb-16">
+                        <h2 className="text-3xl font-bold mb-6">Vendor Comparison</h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            We maintain side-by-side comparison pages against the ten most-asked-about
+                            alternatives. Click the vendor name for the full evaluation; the headline
+                            table below summarizes how each ranks on the criteria that matter for
+                            inspection businesses: native NDT field support, certification tracking
+                            depth, deployment time, year-one cost, and hosting model.
+                        </p>
+                        <div className="overflow-x-auto bg-white rounded-lg shadow-sm border border-slate-200">
+                            <table className="w-full text-sm">
                                 <thead className="bg-slate-100">
                                     <tr>
-                                        <th className="px-3 py-3 text-left font-semibold">#</th>
-                                        <th className="px-3 py-3 text-left font-semibold">Platform</th>
-                                        <th className="px-3 py-3 text-left font-semibold">Best for</th>
-                                        <th className="px-3 py-3 text-left font-semibold">Pricing (year 1)</th>
+                                        <th className="px-3 py-3 text-left font-semibold">Compare</th>
+                                        <th className="px-3 py-3 text-left font-semibold">NDT-native fields</th>
+                                        <th className="px-3 py-3 text-left font-semibold">Cert tracking</th>
+                                        <th className="px-3 py-3 text-left font-semibold">Deploy time</th>
+                                        <th className="px-3 py-3 text-left font-semibold">Year-1 cost</th>
+                                        <th className="px-3 py-3 text-left font-semibold">Hosted / Self</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {competitors.map((c) => (
-                                        <tr key={c.rank} className={`border-t ${c.rank === 1 ? "bg-orange-50" : ""}`}>
-                                            <td className="px-3 py-3 font-bold text-orange-600">{c.rank}</td>
-                                            <td className="px-3 py-3 font-semibold text-slate-900">{c.name}</td>
-                                            <td className="px-3 py-3 text-slate-700 text-xs">{c.bestFor}</td>
-                                            <td className="px-3 py-3 text-slate-700 text-xs">{c.pricing}</td>
+                                    <tr className="border-t bg-orange-50">
+                                        <td className="px-3 py-3 font-semibold text-orange-700">Atlantis NDT ERP</td>
+                                        <td className="px-3 py-3">Yes (15+ NDT modules)</td>
+                                        <td className="px-3 py-3">ASNT/ISO 9712/PCN/NAS 410 native</td>
+                                        <td className="px-3 py-3">4 weeks</td>
+                                        <td className="px-3 py-3">$18,000/yr fully loaded</td>
+                                        <td className="px-3 py-3">Hosted or on-prem</td>
+                                    </tr>
+                                    {competitorLinks.map((c) => (
+                                        <tr key={c.slug} className="border-t hover:bg-slate-50">
+                                            <td className="px-3 py-3 font-semibold">
+                                                <Link to={`/compare/vs-${c.slug}`} className="text-orange-600 hover:underline">
+                                                    vs {c.vendor}
+                                                </Link>
+                                            </td>
+                                            <td className="px-3 py-3 text-slate-700">{c.native}</td>
+                                            <td className="px-3 py-3 text-slate-700">{c.certTracking}</td>
+                                            <td className="px-3 py-3 text-slate-700">{c.deploy}</td>
+                                            <td className="px-3 py-3 text-slate-700">{c.cost}</td>
+                                            <td className="px-3 py-3 text-slate-700">{c.hosted}</td>
                                         </tr>
                                     ))}
                                 </tbody>
                             </table>
                         </div>
+                        <p className="text-xs text-slate-500 mt-3">
+                            Pricing reflects publicly listed or independently benchmarked 2026
+                            information for a 25-50 inspector deployment. Enterprise pricing varies.
+                        </p>
                     </section>
 
-                    {competitors.map((c) => (
-                        <section key={c.rank} className="mb-10 bg-white rounded-xl border border-slate-200 p-8 shadow-sm">
-                            <div className="flex items-start gap-4 mb-5">
-                                <div className="flex-shrink-0 w-14 h-14 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-xl">
-                                    {c.rank}
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-1">{c.name}</h3>
-                                    <p className="text-slate-600 italic">{c.bestFor}</p>
-                                </div>
-                            </div>
-                            <div className="grid md:grid-cols-2 gap-6 mb-5">
-                                <div>
-                                    <h4 className="font-semibold text-emerald-700 mb-2 flex items-center gap-2">
-                                        <CheckCircle className="w-4 h-4" /> Strengths
-                                    </h4>
-                                    <ul className="space-y-1.5 text-sm text-slate-700">
-                                        {c.strengths.map((s) => (
-                                            <li key={s} className="flex items-start gap-2">
-                                                <span className="text-emerald-600 mt-0.5">+</span>
-                                                <span>{s}</span>
+                    {/* ── 7. Pricing ──────────────────────────────────────── */}
+                    <section className="mb-16 bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-10 border border-orange-200">
+                        <h2 className="text-3xl font-bold mb-3">Pricing</h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            One price. Everything included. No per-module up-sell.
+                        </p>
+                        <div className="grid md:grid-cols-2 gap-8">
+                            <Card className="border-0 shadow-md">
+                                <CardHeader>
+                                    <CardTitle className="text-2xl text-orange-600">$18,000 / year</CardTitle>
+                                    <p className="text-sm text-slate-600 mt-1">Standard tier — fits 95% of NDT inspection firms</p>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-3 text-sm text-slate-700">
+                                        {[
+                                            "Cloud-hosted on hardened SOC 2 Type II infrastructure",
+                                            "Up to 25 named users (administrators + supervisors + inspectors)",
+                                            "All 8 core modules + 15+ NDT-specific add-on modules",
+                                            "Unlimited assets, clients, sites and inspection records",
+                                            "Native QuickBooks / Xero / SAP / Dynamics / NetSuite / Tally integration",
+                                            "Quarterly product upgrades with NDT-industry feature releases",
+                                            "Email + SMS support with same-business-day acknowledgement",
+                                            "Monthly admin training webinars and self-paced video library",
+                                            "Regional data residency (US, EU, UAE, KSA, India, SG, AU)",
+                                            "Contractual data-export guarantee (no vendor lock-in)",
+                                        ].map((f) => (
+                                            <li key={f} className="flex items-start gap-2">
+                                                <CheckCircle className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                                                <span>{f}</span>
                                             </li>
                                         ))}
                                     </ul>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold text-rose-700 mb-2 flex items-center gap-2">
-                                        <AlertCircle className="w-4 h-4" /> Weaknesses
-                                    </h4>
-                                    <ul className="space-y-1.5 text-sm text-slate-700">
-                                        {c.weaknesses.map((s) => (
-                                            <li key={s} className="flex items-start gap-2">
-                                                <span className="text-rose-600 mt-0.5">−</span>
-                                                <span>{s}</span>
+                                </CardContent>
+                            </Card>
+                            <Card className="border-0 shadow-md">
+                                <CardHeader>
+                                    <CardTitle className="text-2xl text-slate-900">Enterprise tier</CardTitle>
+                                    <p className="text-sm text-slate-600 mt-1">Quoted — for 150+ technicians or multi-entity groups</p>
+                                </CardHeader>
+                                <CardContent>
+                                    <ul className="space-y-3 text-sm text-slate-700">
+                                        {[
+                                            "150+ named users; multi-entity / multi-country consolidation",
+                                            "24/7 phone support with named technical account manager",
+                                            "Dedicated implementation engineer and quarterly on-site review",
+                                            "Custom integrations (SAP S/4HANA, Maximo, Meridium, Synergi Life)",
+                                            "On-premise Docker deployment for air-gap / SACS-002 environments",
+                                            "Bespoke client-portal branding and white-label options",
+                                            "API rate-limit lift and dedicated tenant for compliance isolation",
+                                        ].map((f) => (
+                                            <li key={f} className="flex items-start gap-2">
+                                                <CheckCircle className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                                                <span>{f}</span>
                                             </li>
                                         ))}
                                     </ul>
-                                </div>
-                            </div>
-                            <div className="bg-slate-50 border-l-4 border-orange-600 p-4 rounded">
-                                <div className="text-sm font-semibold text-slate-900 mb-1">Verdict</div>
-                                <div className="text-slate-700 text-sm">{c.verdict}</div>
-                            </div>
-                            <div className="mt-3 text-sm text-slate-600">
-                                <strong>Pricing:</strong> {c.pricing}
-                            </div>
-                        </section>
-                    ))}
-
-                    <section className="mb-12 bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-10 border border-orange-200">
-                        <h2 className="text-3xl font-bold mb-6 text-center">How to choose</h2>
-                        <div className="grid md:grid-cols-3 gap-5">
-                            <Card className="border-0 shadow-sm">
-                                <CardContent className="pt-5">
-                                    <div className="font-semibold text-slate-900 mb-2">5-50 inspectors, NDT-first</div>
-                                    <div className="text-sm text-slate-600">
-                                        Atlantis NDT ERP. Day-one ready. $18K/yr. Replaces 5-7 tools.
-                                        ROI typically 4-6 months on billable utilization recovery.
-                                    </div>
-                                </CardContent>
-                            </Card>
-                            <Card className="border-0 shadow-sm">
-                                <CardContent className="pt-5">
-                                    <div className="font-semibold text-slate-900 mb-2">50-500 inspectors, mixed services</div>
-                                    <div className="text-sm text-slate-600">
-                                        Atlantis NDT ERP enterprise tier OR Microsoft Dynamics 365
-                                        + Power Platform NDT extensions. Choose based on your
-                                        existing IT skill set and Microsoft commitment.
-                                    </div>
-                                </CardContent>
-                            </Card>
-                            <Card className="border-0 shadow-sm">
-                                <CardContent className="pt-5">
-                                    <div className="font-semibold text-slate-900 mb-2">500+ technicians, multinational</div>
-                                    <div className="text-sm text-slate-600">
-                                        SAP S/4HANA + Plant Maintenance + bespoke NDT layer, OR
-                                        Maximo + custom NDT extensions, paired with Atlantis Reporting
-                                        as the inspector-facing layer.
-                                    </div>
+                                    <Link to="/contact" className="inline-flex items-center gap-2 mt-6 text-orange-600 font-semibold hover:underline">
+                                        Request enterprise quote <ArrowRight className="w-4 h-4" />
+                                    </Link>
                                 </CardContent>
                             </Card>
                         </div>
+                        <p className="text-xs text-slate-600 mt-5">
+                            All prices in USD, paid annually. Regional billing in AED, SAR, GBP, EUR,
+                            INR, SGD, AUD available with local-currency invoicing. Implementation cost
+                            is included in year one for standard tier (no separate setup fee for the
+                            first 25 users).
+                        </p>
                     </section>
 
-                    <section className="mb-12">
+                    {/* ── 8. Implementation Timeline ──────────────────────── */}
+                    <section className="mb-16">
+                        <h2 className="text-3xl font-bold mb-6">Implementation Timeline — 4 Weeks</h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            From kickoff call to live production cutover in four weeks, with a parallel
+                            run safety net. See the{" "}
+                            <Link to="/ndt-erp-implementation-timeline" className="text-orange-600 hover:underline font-semibold">
+                                full week-by-week implementation plan
+                            </Link>{" "}
+                            for the detailed playbook including deliverables, sign-offs and risk gates.
+                        </p>
+                        <div className="grid md:grid-cols-4 gap-4">
+                            {[
+                                { week: "Week 1", title: "Kickoff", body: "Discovery workshop, stakeholder map, data-source inventory, success metrics, sandbox tenant provisioned." },
+                                { week: "Week 2", title: "Data Migration", body: "Assets, clients, technicians, qualifications, calibration records, open work orders imported. Validation against API/ASNT standards." },
+                                { week: "Week 3", title: "Training", body: "Administrator (2 days), supervisor (1 day), inspector (half-day in-person or self-paced) tracks delivered. Parallel run begins." },
+                                { week: "Week 4", title: "Go-Live", body: "Production cutover. Old tools deprecated. Email/SMS support handover. Week-5 stabilization check-in and 30-day post-launch review." },
+                            ].map((step, idx) => (
+                                <Card key={step.week} className="border-slate-200">
+                                    <CardHeader>
+                                        <div className="text-xs font-bold text-orange-600 uppercase tracking-wide">{step.week}</div>
+                                        <CardTitle className="text-lg">{step.title}</CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <p className="text-sm text-slate-700">{step.body}</p>
+                                    </CardContent>
+                                </Card>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* ── 9. ROI Calculator ───────────────────────────────── */}
+                    <section className="mb-16 bg-white rounded-2xl p-10 border border-slate-200 shadow-sm">
+                        <h2 className="text-3xl font-bold mb-4">ROI for a Typical 10-Technician NDT Firm</h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            For a 10-inspector NDT contractor running on QuickBooks plus six
+                            spreadsheets today, the average annual savings reported by Atlantis NDT
+                            ERP clients is approximately $42,000 — broken down across recovered
+                            administrative time, billable utilization uplift, and prevented certification
+                            lapse incidents. The{" "}
+                            <Link to="/ndt-erp-roi-calculator" className="text-orange-600 hover:underline font-semibold">
+                                full ROI calculator
+                            </Link>{" "}
+                            lets you input your own crew size, blended rate, and certification renewal
+                            frequency.
+                        </p>
+                        <div className="grid md:grid-cols-3 gap-5">
+                            <div className="bg-orange-50 rounded-xl p-5 border border-orange-100">
+                                <div className="text-3xl font-bold text-orange-600">$18,500</div>
+                                <div className="text-sm font-semibold text-slate-900 mt-1">Admin time recovered</div>
+                                <div className="text-xs text-slate-600 mt-1">~7 hrs/week × 50 wks × $52 blended rate</div>
+                            </div>
+                            <div className="bg-orange-50 rounded-xl p-5 border border-orange-100">
+                                <div className="text-3xl font-bold text-orange-600">$16,800</div>
+                                <div className="text-sm font-semibold text-slate-900 mt-1">Billable utilization uplift</div>
+                                <div className="text-xs text-slate-600 mt-1">+4% utilization × 10 techs × $42K avg rev/tech</div>
+                            </div>
+                            <div className="bg-orange-50 rounded-xl p-5 border border-orange-100">
+                                <div className="text-3xl font-bold text-orange-600">$6,700</div>
+                                <div className="text-sm font-semibold text-slate-900 mt-1">Lapse-incident risk avoided</div>
+                                <div className="text-xs text-slate-600 mt-1">Avg cost of 1 prevented cert-lapse audit finding</div>
+                            </div>
+                        </div>
+                        <p className="text-xs text-slate-500 mt-4">
+                            Savings figures are averages reported by Atlantis NDT ERP clients in the
+                            10-15 technician segment as of 2026 Q1. Individual results vary by
+                            baseline process maturity, client portfolio mix, and audit exposure.
+                        </p>
+                    </section>
+
+                    {/* ── 10. City Coverage ───────────────────────────────── */}
+                    <section className="mb-16">
+                        <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
+                            <MapPin className="w-7 h-7 text-orange-600" /> City Coverage
+                        </h2>
+                        <p className="text-slate-700 leading-relaxed mb-6">
+                            Atlantis NDT ERP is deployed across NDT inspection companies in 150+ cities
+                            worldwide. Below are 20 of the largest oil-and-gas and industrial hubs —
+                            click any city for the localized buyer's guide including local
+                            contractors, regulatory bodies, currency-converted pricing, and city-specific
+                            case studies.
+                        </p>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                            {topCities.map((c) => (
+                                <Link key={c.slug} to={`/ndt-erp-${c.slug}`}
+                                    className="block px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-700 hover:border-orange-400 hover:text-orange-600 hover:shadow-sm transition text-sm font-medium">
+                                    NDT ERP {c.label}
+                                </Link>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* ── 11. FAQ ─────────────────────────────────────────── */}
+                    <section className="mb-16">
                         <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
                         <div className="space-y-3">
                             {faqs.map((f, i) => (
@@ -564,47 +749,49 @@ export default function NDTERPSolution() {
                         </div>
                     </section>
 
-                    <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-6">Related Atlantis platforms</h2>
+                    {/* ── 12. Demo CTA ────────────────────────────────────── */}
+                    <section className="text-center py-12 bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl border border-orange-200 text-white">
+                        <h2 className="text-3xl font-bold mb-4">See It On Your Data — 45-Minute Demo</h2>
+                        <p className="text-orange-50 mb-6 max-w-2xl mx-auto leading-relaxed">
+                            Walk through certification matrix, calibration tracking, project P&amp;L
+                            and your accounting integration with the ASNT Level III implementation
+                            team. We use your real data, not a generic slide deck.
+                        </p>
+                        <div className="flex flex-wrap gap-3 justify-center">
+                            <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-orange-700 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition">
+                                Request technical demo <ArrowRight className="w-5 h-5" />
+                            </Link>
+                            <a href="tel:+12818408969" className="inline-flex items-center gap-2 bg-orange-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-900 transition">
+                                Call +1 (281) 840-8969
+                            </a>
+                        </div>
+                    </section>
+
+                    {/* ── Related Platforms ──────────────────────────────── */}
+                    <section className="mt-16">
+                        <h2 className="text-2xl font-bold mb-6">Related Atlantis Platforms</h2>
                         <div className="grid md:grid-cols-3 gap-5">
                             <Link to="/best-ndt-reporting-software-2026" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                                 <Database className="w-8 h-8 text-orange-600 mb-3" />
                                 <h3 className="font-bold text-lg mb-2 group-hover:text-orange-600 transition">NDT Reporting Software</h3>
-                                <p className="text-sm text-slate-600">Code-aligned inspection report generation — API 510/570/653 templates, mobile capture, eIDAS signing.</p>
+                                <p className="text-sm text-slate-600">Field inspection report generation — API 510/570/653 templates, mobile capture, eIDAS signing.</p>
                             </Link>
                             <Link to="/digital-twins" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
-                                <Cog className="w-8 h-8 text-orange-600 mb-3" />
+                                <Layers className="w-8 h-8 text-orange-600 mb-3" />
                                 <h3 className="font-bold text-lg mb-2 group-hover:text-orange-600 transition">NDT Digital Twins</h3>
-                                <p className="text-sm text-slate-600">3D asset visualization with NDT inspection data overlay. RBI integration, predictive maintenance.</p>
+                                <p className="text-sm text-slate-600">3D asset visualization with NDT inspection data overlay, RBI integration, FFS evidence.</p>
                             </Link>
                             <Link to="/consulting" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
-                                <Shield className="w-8 h-8 text-orange-600 mb-3" />
+                                <Building2 className="w-8 h-8 text-orange-600 mb-3" />
                                 <h3 className="font-bold text-lg mb-2 group-hover:text-orange-600 transition">ASNT Level III Consulting</h3>
                                 <p className="text-sm text-slate-600">Independent Level III procedure approval, written practice authoring, audit support.</p>
                             </Link>
                         </div>
                     </section>
-
-                    <section className="text-center py-10 bg-white rounded-2xl border border-slate-200">
-                        <h2 className="text-3xl font-bold mb-4">Evaluating Atlantis NDT ERP?</h2>
-                        <p className="text-slate-700 mb-6 max-w-2xl mx-auto">
-                            Request a 45-minute technical demo with the ASNT Level III implementation
-                            team. Walks through certification matrix, calibration tracking, project
-                            P&amp;L, and your accounting integration — using your real data, not a
-                            generic deck.
-                        </p>
-                        <Link
-                            to="/contact"
-                            className="inline-flex items-center gap-2 bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition"
-                        >
-                            Request technical demo <ArrowRight className="w-5 h-5" />
-                        </Link>
-                    </section>
                 </div>
             </article>
 
             <CustomerLogosBlock />
-
             <ContactDetails />
         </div>
     );
