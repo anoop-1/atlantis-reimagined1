@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Download, FileCheck, CheckCircle, ClipboardList, Shield, Award, BookOpen, FileText, Gauge, Wrench, Activity, Thermometer, AlertTriangle, Stamp, Hammer, FileSearch, ListChecks, Bug, TrendingUp, ArrowRight } from "lucide-react";
@@ -328,6 +329,16 @@ export default function ResourcesDownloads() {
                     <Link to="/contact" className="inline-block bg-background text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-secondary transition">
                         Contact Us for Custom Solutions
                     </Link>
+                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="Document Control"
+                        relevantAppHref="/erp/document-control-for-ndt-companies"
+                    />
                 </div>
             </section>
 

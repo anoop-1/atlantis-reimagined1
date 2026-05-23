@@ -1,0 +1,40 @@
+{
+  "date": "2026-05-23",
+  "range": {
+    "startDate": "2026-04-20",
+    "endDate": "2026-05-20"
+  },
+  "daysSinceGoalStart": 0,
+  "daysRemaining": 30,
+  "goal": {
+    "clicks": 4000,
+    "days": 30
+  },
+  "siteWide": {
+    "clicks": 505,
+    "imp": 62963
+  },
+  "erp": {
+    "clicks": 3,
+    "imp": 517
+  },
+  "dt": {
+    "clicks": 3,
+    "imp": 707
+  },
+  "erpDtCombined": {
+    "clicks": 6,
+    "imp": 1224,
+    "ctrPct": "0.49"
+  },
+  "newPages": {
+    "tracked": 232,
+    "withImpressions": 0,
+    "clicks": 0,
+    "imp": 0
+  },
+  "progressVsGoal": {
+    "pct": "0.1",
+    "projectedAt30d": 0
+  }
+}

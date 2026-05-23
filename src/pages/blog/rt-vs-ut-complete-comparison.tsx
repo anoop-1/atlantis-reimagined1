@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { SocialShare } from "@/components/SocialShare";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -455,6 +456,12 @@ export default function RTvsUTCompleteComparison() {
                             </Link>
                         </div>
                     </section>
+
+                    {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+                    <ErpDtCrossPromoBlock
+                        relevantApp="Quality Management"
+                        relevantAppHref="/erp/quality-management-for-ndt-companies"
+                    />
                 </div>
             </article>
 

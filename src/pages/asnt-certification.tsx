@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Award, Clock, DollarSign, Users, FileText } from "lucide-react";
@@ -321,6 +322,16 @@ export default function ASNTCertification() {
                             <p className="text-slate-600 text-sm mt-2">510 vs 570 vs 653 pass rates, retake stats, study-hour benchmarks</p>
                         </Link>
                     </div>
+                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="CMMS"
+                        relevantAppHref="/erp/cmms-for-inspection-companies"
+                    />
                 </div>
             </section>
             <ContactDetails />

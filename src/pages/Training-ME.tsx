@@ -7,6 +7,7 @@ import { CheckCircle2, Award, Anchor, Users, TrendingUp, Droplets, GraduationCap
 import { SEOHead } from '@/components/SEOHead';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
+import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 import { Navigation } from '@/components/Navigation';
 
 export default function TrainingMiddleEast() {
@@ -417,6 +418,16 @@ export default function TrainingMiddleEast() {
                             </a>
                         </Button>
                     </motion.div>
+                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="Timesheet Software"
+                        relevantAppHref="/erp/timesheet-software-for-ndt-companies"
+                    />
                 </div>
             </section>
 

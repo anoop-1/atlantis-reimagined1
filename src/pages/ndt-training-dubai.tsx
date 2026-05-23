@@ -3,6 +3,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
@@ -599,6 +600,16 @@ export default function NDTTrainingDubai() {
             <section className="py-8 bg-white border-t border-slate-200">
                 <div className="container mx-auto max-w-6xl px-6">
                     <RelatedCityProducts currentProduct="training" citySlug="dubai" city="Dubai" />
+                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="Timesheet Software"
+                        relevantAppHref="/erp/timesheet-software-for-ndt-companies"
+                    />
                 </div>
             </section>
 

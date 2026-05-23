@@ -9,6 +9,39 @@ import { ChevronLeft } from 'lucide-react';
 import { useEffect, useState, useMemo } from 'react';
 import { RelatedArticles } from '@/components/RelatedArticles';
 import { RelatedProducts } from '@/components/RelatedProducts';
+import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
+
+/**
+ * Pick a contextually-relevant Odoo-app pillar URL for a blog slug.
+ * Used to drive the dynamic Card 3 of <ErpDtCrossPromoBlock> on data-driven
+ * blog posts (rendered by this component, not by a standalone .tsx file).
+ *
+ * Falls back to CMMS for inspection — the safest default for compliance /
+ * cert / inspection-leaning content, which dominates the blog cluster.
+ */
+function pickRelevantApp(slug: string | undefined): { app: string; href: string } {
+  const s = (slug || '').toLowerCase();
+  if (s.includes('salary') || s.includes('career') || s.includes('hr ') || s.includes('payroll')) {
+    return { app: 'HR & Payroll', href: '/erp/hr-payroll-for-ndt-companies' };
+  }
+  if (s.includes('training') || s.includes('course') || s.includes('timesheet')) {
+    return { app: 'Timesheet Software', href: '/erp/timesheet-software-for-ndt-companies' };
+  }
+  if (s.includes('quality') || s.includes('iso-9001') || s.includes('audit') || s.includes('rt-vs-ut') || s.includes('comparison')) {
+    return { app: 'Quality Management', href: '/erp/quality-management-for-ndt-companies' };
+  }
+  if (s.includes('consulting') || s.includes('project') || s.includes('turnaround')) {
+    return { app: 'Project Management', href: '/erp/project-management-for-ndt-companies' };
+  }
+  if (s.includes('document') || s.includes('procedure') || s.includes('record')) {
+    return { app: 'Document Control', href: '/erp/document-control-for-ndt-companies' };
+  }
+  if (s.includes('crm') || s.includes('sales') || s.includes('market')) {
+    return { app: 'CRM', href: '/erp/crm-for-ndt-companies' };
+  }
+  // Default — compliance / inspection / cert leaning content
+  return { app: 'CMMS', href: '/erp/cmms-for-inspection-companies' };
+}
 
 // Function to clean up blog content - removes DOCTYPE, html, head, body wrappers
 function cleanBlogContent(content: string): string {
@@ -239,6 +272,17 @@ export default function BlogDetail() {
               className="mt-16"
             >
               <RelatedProducts tags={[blog?.title, blog?.category, ...(blog?.tags || [])].filter(Boolean)} count={3} />
+
+              {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+              {(() => {
+                const rel = pickRelevantApp(slug);
+                return (
+                  <ErpDtCrossPromoBlock
+                    relevantApp={rel.app}
+                    relevantAppHref={rel.href}
+                  />
+                );
+              })()}
 
               <RelatedArticles currentSlug={slug || ''} maxArticles={3} />
 

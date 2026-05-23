@@ -10,6 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
+import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 
 // Happy client logos - trusted global brands
 const clientLogos = [
@@ -1167,6 +1168,16 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                         currentProduct="consulting"
                         citySlug={locationSlug}
                         city={location.name}
+                    />
+                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="Project Management"
+                        relevantAppHref="/erp/project-management-for-ndt-companies"
                     />
                 </div>
             </section>

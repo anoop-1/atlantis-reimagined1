@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Award, BookOpen, Clock, FileText, Users, AlertCircle, Zap, Eye, Radio, Shield } from "lucide-react";
@@ -437,6 +438,16 @@ export default function API510Certification() {
                             <p className="text-slate-600 text-sm mt-2">Topic weights, what changed in Sept 2025 BoK edition</p>
                         </Link>
                     </div>
+                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="CMMS"
+                        relevantAppHref="/erp/cmms-for-inspection-companies"
+                    />
                 </div>
             </section>
             <ContactDetails />

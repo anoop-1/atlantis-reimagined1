@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { TrendingUp, DollarSign, Globe, Award } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 
 const faqs = [
     { question: "What is the average NDT technician salary in 2026?", answer: "The median NDT Level II technician salary in the USA ranges from $55,000-$80,000 annually, depending on method specialization, industry, and experience. This is significantly higher than the Bureau of Labor Statistics general 'Quality Control Inspectors' average ($44,000) because NDT technicians with specialized methods (PAUT, TOFD, RT) command premium rates. Salary variation by method is dramatic: MT/PT technicians earn $50,000-$65,000, while PAUT/TOFD specialists earn $80,000-$110,000 - a 50-80% premium. Advanced methods (AUT, corrosion mapping) push salaries to $85,000-$115,000. Overtime is substantial in oil & gas (~10-20% annual bonus in onshore roles; 30-50% in offshore roles)." },
@@ -541,6 +542,11 @@ export default function NDTSalaryGuide2026() {
                             </Link>
                         </div>
                     </section>
+                    {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+                    <ErpDtCrossPromoBlock
+                        relevantApp="HR & Payroll"
+                        relevantAppHref="/erp/hr-payroll-for-ndt-companies"
+                    />
                 </div>
             </article>
 

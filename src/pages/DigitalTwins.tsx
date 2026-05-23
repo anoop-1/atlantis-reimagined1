@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
+import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import InteractiveJet from "@/components/InteractiveJet";
 import InteractivePlant from "@/components/InteractivePlant";
 import InteractivePipe from "@/components/InteractivePipe";
@@ -975,6 +976,18 @@ export default function DigitalTwins() {
                      Anoop Rayavarapu, Founder &amp; CEO — anoop@atlantisinspection.com
                   </p>
                </div>
+            </section>
+
+            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
+            <section className="bg-white py-4">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <ErpDtCrossPromoBlock
+                        relevantApp="CMMS"
+                        relevantAppHref="/erp/cmms-for-inspection-companies"
+                        heading="Pair your Digital Twin with the cheapest ERP in the industry"
+                        subheading="Most inspection companies adopt the ERP first, the Digital Twin second. Both ship with the same data model — UT/PAUT, certs, calibrations, RBI — so there's no integration tax."
+                    />
+                </div>
             </section>
 
             <ContactDetails />

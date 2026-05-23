@@ -150,6 +150,23 @@ const API570InspectorSalary = lazy(() => import("./pages/blog/api-570-inspector-
 const NDTInspectionCostMatrix = lazy(() => import("./pages/blog/ndt-inspection-cost-2026-by-method-pricing-matrix"));
 const API653EditionExplained = lazy(() => import("./pages/blog/api-653-current-edition-2026-vs-bok-window-explained"));
 const ISO9712VsASNTDecision = lazy(() => import("./pages/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country"));
+// === Blog expansion 2026-05-23 ===
+const BlogERPMalaysiaConstruction = lazy(() => import("./pages/blog/best-erp-software-malaysia-construction-oil-gas-2026"));
+const BlogERPSingaporeConstruction = lazy(() => import("./pages/blog/best-erp-software-singapore-construction-2026"));
+const BlogERPLondonAberdeenUK = lazy(() => import("./pages/blog/erp-software-london-affordable-uk-2026"));
+const BlogWeldingFabricationERP = lazy(() => import("./pages/blog/welding-fabrication-erp-software-guide-2026"));
+const BlogDTROICalculatorExamples = lazy(() => import("./pages/blog/digital-twin-platform-roi-calculator-examples-2026"));
+const BlogDTAPIIntegrationGuide = lazy(() => import("./pages/blog/digital-twin-platform-api-access-integration-guide"));
+const BlogAssetIntegrityDTGuide = lazy(() => import("./pages/blog/asset-integrity-digital-twin-guide-2026"));
+const BlogAIPredictiveAviationNDT = lazy(() => import("./pages/blog/ai-predictive-maintenance-digital-twins-aviation-ndt"));
+const BlogDTCorrosionVendorsComparison = lazy(() => import("./pages/blog/digital-twin-corrosion-monitoring-vendors-comparison"));
+const BlogDTImplementationRoadmapOilGas = lazy(() => import("./pages/blog/digital-twin-implementation-roadmap-oil-gas-2026"));
+const BlogNDTInspectionSoftwareComparison = lazy(() => import("./pages/blog/ndt-inspection-software-comparison-2026"));
+const BlogAffordableERPAlternative = lazy(() => import("./pages/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison"));
+const BlogOdooVsSAPVsNetSuite = lazy(() => import("./pages/blog/odoo-vs-sap-vs-netsuite-erp-comparison-2026"));
+const BlogCRMForNDTInspectionGuide = lazy(() => import("./pages/blog/crm-for-ndt-inspection-companies-guide"));
+const BlogEmailMarketingEngineeringServices = lazy(() => import("./pages/blog/email-marketing-for-engineering-services-companies"));
+// === End blog expansion 2026-05-23 ===
 // Certification Pages
 const API510Certification = lazy(() => import("./pages/api-510-certification"));
 const API570Certification = lazy(() => import("./pages/api-570-certification"));
@@ -2319,6 +2336,23 @@ const App = () => (
                   <Route path="/blog/ndt-inspection-cost-2026-by-method-pricing-matrix" element={<LazyRoute Component={NDTInspectionCostMatrix} />} />
                   <Route path="/blog/api-653-current-edition-2026-vs-bok-window-explained" element={<LazyRoute Component={API653EditionExplained} />} />
                   <Route path="/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country" element={<LazyRoute Component={ISO9712VsASNTDecision} />} />
+                  {/* === Blog expansion 2026-05-23 — ERP + Digital Twin SEO posts === */}
+                  <Route path="/blog/best-erp-software-malaysia-construction-oil-gas-2026" element={<LazyRoute Component={BlogERPMalaysiaConstruction} />} />
+                  <Route path="/blog/best-erp-software-singapore-construction-2026" element={<LazyRoute Component={BlogERPSingaporeConstruction} />} />
+                  <Route path="/blog/erp-software-london-affordable-uk-2026" element={<LazyRoute Component={BlogERPLondonAberdeenUK} />} />
+                  <Route path="/blog/welding-fabrication-erp-software-guide-2026" element={<LazyRoute Component={BlogWeldingFabricationERP} />} />
+                  <Route path="/blog/digital-twin-platform-roi-calculator-examples-2026" element={<LazyRoute Component={BlogDTROICalculatorExamples} />} />
+                  <Route path="/blog/digital-twin-platform-api-access-integration-guide" element={<LazyRoute Component={BlogDTAPIIntegrationGuide} />} />
+                  <Route path="/blog/asset-integrity-digital-twin-guide-2026" element={<LazyRoute Component={BlogAssetIntegrityDTGuide} />} />
+                  <Route path="/blog/ai-predictive-maintenance-digital-twins-aviation-ndt" element={<LazyRoute Component={BlogAIPredictiveAviationNDT} />} />
+                  <Route path="/blog/digital-twin-corrosion-monitoring-vendors-comparison" element={<LazyRoute Component={BlogDTCorrosionVendorsComparison} />} />
+                  <Route path="/blog/digital-twin-implementation-roadmap-oil-gas-2026" element={<LazyRoute Component={BlogDTImplementationRoadmapOilGas} />} />
+                  <Route path="/blog/ndt-inspection-software-comparison-2026" element={<LazyRoute Component={BlogNDTInspectionSoftwareComparison} />} />
+                  <Route path="/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison" element={<LazyRoute Component={BlogAffordableERPAlternative} />} />
+                  <Route path="/blog/odoo-vs-sap-vs-netsuite-erp-comparison-2026" element={<LazyRoute Component={BlogOdooVsSAPVsNetSuite} />} />
+                  <Route path="/blog/crm-for-ndt-inspection-companies-guide" element={<LazyRoute Component={BlogCRMForNDTInspectionGuide} />} />
+                  <Route path="/blog/email-marketing-for-engineering-services-companies" element={<LazyRoute Component={BlogEmailMarketingEngineeringServices} />} />
+                  {/* === End blog expansion 2026-05-23 === */}
                   {/* Certification Pages */}
                   <Route path="/api-510-certification" element={<LazyRoute Component={API510Certification} />} />
                   <Route path="/api-570-certification" element={<LazyRoute Component={API570Certification} />} />
