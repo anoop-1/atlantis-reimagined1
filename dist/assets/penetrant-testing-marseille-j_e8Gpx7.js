@@ -1,0 +1,1 @@
+import{j as t}from"./compare-pages-C1d7etmC.js";import e from"./MethodLocationPage-0r_8poAo.js";import"./PillarHubNav-4Fa_GMYz.js";import"./programmatic-seo-CmWZtb0f.js";import"./erp-pages-C6o15K_z.js";function m(){return t.jsx(e,{methodSlug:"penetrant-testing",locationSlug:"marseille"})}export{m as default};

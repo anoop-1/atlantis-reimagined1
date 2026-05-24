@@ -1,0 +1,1 @@
+import{j as i}from"./compare-pages-C1d7etmC.js";import{g as r,T as n}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function f(){const t=r("seattle");return t?i.jsx(n,{profile:t}):null}export{f as default};

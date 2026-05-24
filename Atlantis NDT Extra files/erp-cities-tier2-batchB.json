@@ -1,0 +1,1328 @@
+[
+  {
+    "slug": "aberdeen",
+    "city": "Aberdeen",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "region": "EU",
+    "industries": [
+      "offshore-oil-gas",
+      "oil-gas",
+      "pipelines",
+      "port-ops",
+      "renewable-energy"
+    ],
+    "namedFacilities": [
+      "Wood Group Aberdeen",
+      "BP North Sea Aberdeen",
+      "TotalEnergies Aberdeen",
+      "Shell UK Aberdeen",
+      "Port of Aberdeen"
+    ],
+    "codes": [
+      "PED 2014/68/EU",
+      "EN 13445",
+      "EN ISO 9712",
+      "DNV-OS-F101",
+      "Lloyd's Register",
+      "API 1104"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Aberdeen NDT ERP Software | North Sea Offshore",
+    "meta155": "Aberdeen NDT ERP for Wood, BP, TotalEnergies, Shell North Sea. DNV-OS-F101, PED, EN ISO 9712 workflows with SAP and Maximo sync. Remote onboarding.",
+    "h1": "Aberdeen NDT ERP Software — Customizable for All Industries",
+    "localHook": "Aberdeen is Europe's offshore oil and gas capital, and the NDT firms based here run inspection campaigns for Wood Group, BP Aberdeen, TotalEnergies, and Shell UK across North Sea platforms, FPSOs, subsea tiebacks, and onshore terminals at St Fergus and Sullom Voe. Contractors have to reconcile UKCS operator specs with PED 2014/68/EU, EN 13445, DNV-OS-F101 pipeline rules, and Lloyd's Register class surveys — often inside a single campaign work pack. Our Aberdeen NDT ERP keeps EN ISO 9712 Level 2 and 3 certifications tied to method, sector, and expiry, links each UT, PAUT, or MPI result to a riser joint or topsides weld ID, and generates client-facing reports in the formats BP and TotalEnergies contractor document control systems expect. Subsea rope-access and ROV-supported inspection teams can tag jobs by vessel call-off and weather window, while integrity engineers track CML trends across platforms without rebuilding spreadsheets after every campaign.",
+    "integrationPainParagraph": "Aberdeen NDT contractors get pulled between operator SAP S/4HANA notifications, IBM Maximo work orders from duty-holders, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends the integrity engineer wants inside the report. When the ERP cannot speak to those systems, offshore techs retype joint numbers, campaign schedulers lose sight of which welds are cleared, and invoicing slips behind the vessel demob. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables booked offshore.",
+    "remoteDeliveryPitch": "We onboard Aberdeen NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your campaign calendar, SAP and Maximo connectors tested with an operator sample, and inspector training delivered in English over Teams. Go-live support covers the first offshore campaign so your crews are never alone on deck.",
+    "featureBullets": [
+      "Offshore campaign work-pack builder mapped to BP, TotalEnergies, and Shell contractor templates",
+      "DNV-OS-F101 and API 1104 pipeline inspection records with digital sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "Topsides CML and riser joint management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Rope-access and ROV job logger with vessel call-off and weather-window tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes do North Sea operators require from Aberdeen contractors?",
+        "a": "North Sea operators typically reference PED 2014/68/EU, EN 13445, DNV-OS-F101, API 1104, and Lloyd's Register class rules. BP, TotalEnergies, and Shell UK each publish contractor specs built on those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with BP Aberdeen SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Duty-holder notifications become NDT jobs automatically, with joint and weld IDs preserved, and completion status is pushed back so campaign coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks offshore mobilisation if a certificate is within 30 days of expiry, and audit exports are formatted for operator contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle offshore campaign work packs?",
+        "a": "Work packs are built from operator-supplied isometrics and equipment lists, with each joint or CML attached to its parent riser, caisson, or vessel. Inspector mobile apps sync offline on platforms, and final packs export as PDF plus native data for operator document-control systems."
+      },
+      {
+        "q": "Is PAUT reporting supported for North Sea topsides and risers?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the joint or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by BP, TotalEnergies, and Shell UK."
+      },
+      {
+        "q": "Can we manage DNV-OS-F101 pipeline inspection records?",
+        "a": "Yes — the pipeline module logs AUT, radiography, and visual inspection results against DNV-OS-F101 acceptance criteria, flags rejects, and maintains a weld history per spool. Reports map directly to the DNV formats operators and Lloyd's Register surveyors require."
+      },
+      {
+        "q": "How long does remote onboarding take for an Aberdeen NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first offshore campaign."
+      },
+      {
+        "q": "Does the ERP support rope-access and ROV inspection logging?",
+        "a": "Yes — the job logger tags each scope by access method, vessel call-off, and weather window, captures IRATA or FROSIO qualifications per technician, and links deliverables to the operator's integrity management system for Aberdeen North Sea campaigns."
+      }
+    ]
+  },
+  {
+    "slug": "amsterdam",
+    "city": "Amsterdam",
+    "state": "North Holland",
+    "country": "Netherlands",
+    "region": "EU",
+    "industries": [
+      "port-ops",
+      "petchem",
+      "pipelines",
+      "power-generation",
+      "renewable-energy"
+    ],
+    "namedFacilities": [
+      "Port of Amsterdam",
+      "Vopak Amsterdam Westpoort",
+      "Gate LNG (adjacent, Maasvlakte)",
+      "Nuon Hemweg power station",
+      "Greenergy Amsterdam terminal"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 653",
+      "EEMUA 159",
+      "ASME B31.3"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Amsterdam NDT ERP Software | Tank Terminals & Port",
+    "meta155": "Amsterdam NDT ERP for Vopak Westpoort, Port of Amsterdam, Greenergy terminal. EN 13445, API 653, EEMUA 159 with SAP and Maximo integration.",
+    "h1": "Amsterdam NDT ERP Software — Customizable for All Industries",
+    "localHook": "Amsterdam is the Netherlands' second energy port after Rotterdam, and NDT contractors working Westpoort juggle storage-tank inspection campaigns at Vopak Amsterdam, bunker and product terminals along the North Sea Canal, and bi-annual shutdowns at Greenergy and adjacent fuel-blending sites. Much of the maintenance base also services cross-border work feeding Rotterdam Botlek. Every asset-integrity shop must produce records that map to PED 2014/68/EU, EN 13445 for pressure vessels, API 653 for atmospheric tanks, and EEMUA 159 for tank-bottom assessments — typically inside the same work pack. Our Amsterdam NDT ERP keeps EN ISO 9712 technician certifications aligned by method, links each UT or MFL scan to a shell course or annular plate, and generates client reports in the formats Vopak and port tenants already consume. Pipeline and bunker-barge teams can tag jobs by berth and tide window without rebuilding spreadsheets after every turnaround.",
+    "integrationPainParagraph": "Most Amsterdam NDT shops sit between client SAP S/4HANA notifications, IBM Maximo work orders from terminal operators, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends that integrity engineers reference in the report. When the ERP cannot speak to those systems, technicians retype tank numbers, shutdown schedulers lose sight of which shells are cleared, and invoicing slips behind campaign close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables actually booked in the field.",
+    "remoteDeliveryPitch": "We onboard Amsterdam NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your terminal calendar, SAP and Maximo connectors tested with a client sample, and inspector training delivered in English over Teams. Go-live support covers the first shutdown so your crews are never alone on site.",
+    "featureBullets": [
+      "API 653 tank inspection records with shell, annular, and roof mapping",
+      "EEMUA 159 tank-bottom assessment templates with corrosion-rate trending",
+      "EN 13445 and PED 2014/68/EU vessel inspection records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Bunker-barge and berth job logger with tide-window and permit tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Amsterdam terminal work require?",
+        "a": "Amsterdam terminal NDT runs primarily on EN 13445, PED 2014/68/EU, API 653, EEMUA 159, and ASME B31.3. Vopak and other Westpoort tenants publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Vopak SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Terminal notifications become NDT jobs automatically, with tank and line IDs preserved, and completion status is pushed back so campaign coordinators see live progress."
+      },
+      {
+        "q": "Does it support API 653 tank inspection reporting?",
+        "a": "Yes — the tank module captures shell UT course by course, annular plate MFL or ultrasonic results, and roof condition, with corrosion-rate trending per tank. Reports follow API 653 layouts accepted by Vopak and major terminal operators in Amsterdam and Rotterdam."
+      },
+      {
+        "q": "How does the system handle EEMUA 159 tank-bottom assessments?",
+        "a": "EEMUA 159 templates drive the bottom-scan logic, aggregate MFL and ultrasonic floor data, and produce remaining-life calculations per plate. Out-of-service inspection reports export in the format most Dutch terminal operators require."
+      },
+      {
+        "q": "Is PAUT reporting supported for Amsterdam pressure vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by terminal operators and NoBo surveyors."
+      },
+      {
+        "q": "Does the ERP manage EN ISO 9712 personnel certification?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for terminal contractor-qualification reviews."
+      },
+      {
+        "q": "How long does remote onboarding take for an Amsterdam NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first terminal shutdown window."
+      },
+      {
+        "q": "Does the ERP support multilingual crews in Amsterdam?",
+        "a": "The interface runs in English by default with Dutch and German language packs available for technicians. Client-facing reports are generated in English to match Vopak and port tenant contractor document standards."
+      }
+    ]
+  },
+  {
+    "slug": "antwerp",
+    "city": "Antwerp",
+    "state": "Flanders",
+    "country": "Belgium",
+    "region": "EU",
+    "industries": [
+      "petchem",
+      "refining",
+      "chemical",
+      "port-ops",
+      "pipelines"
+    ],
+    "namedFacilities": [
+      "BASF Antwerpen",
+      "TotalEnergies Antwerp Refinery",
+      "INEOS Antwerp",
+      "ExxonMobil Antwerp",
+      "Port of Antwerp-Bruges"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "API 570",
+      "ASME B31.3"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Antwerp NDT ERP Software | Petchem & Refining Cluster",
+    "meta155": "Antwerp NDT ERP for BASF, TotalEnergies Antwerp, INEOS, ExxonMobil turnarounds. EN 13445, PED, API 510/570 workflows with SAP and Maximo integration.",
+    "h1": "Antwerp NDT ERP Software — Customizable for All Industries",
+    "localHook": "Antwerp hosts Europe's second-largest petrochemical cluster, and NDT service firms here rotate through turnarounds at BASF Antwerpen, TotalEnergies Antwerp Refinery, INEOS Antwerp, and ExxonMobil Antwerp, plus pipeline work along the port's product corridors. Each client contractor spec stacks PED 2014/68/EU, EN 13445 pressure-vessel calculations, and API 510 / 570 programs on top of local Belgian AREI rules. Our Antwerp NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, or RT result to a specific nozzle, weld, or CML, and generates client-facing turnaround reports in the formats BASF and ExxonMobil contractor document-control systems already consume. Port-ops crews handling bunker and chemical barges can tag jobs by berth and tide, and pipeline teams track cathodic protection surveys across the cluster without rebuilding spreadsheets after every shutdown.",
+    "integrationPainParagraph": "Antwerp NDT contractors are pulled between client SAP S/4HANA notifications, IBM Maximo work orders from terminals, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends inspectors reference in the report. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind the TAR close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables actually booked in the field.",
+    "remoteDeliveryPitch": "We onboard Antwerp NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your turnaround calendar, SAP and Maximo connectors tested with a client sample, and inspector training delivered in English over Teams. Go-live support covers the first turnaround window so your crews are never alone on site.",
+    "featureBullets": [
+      "Turnaround work-pack builder mapped to BASF, TotalEnergies, INEOS, and ExxonMobil templates",
+      "EN 13445 and PED 2014/68/EU vessel inspection records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 / 653 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Pipeline CP survey logger for port corridors with GPS tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Antwerp petrochemical work require?",
+        "a": "Antwerp petrochemical NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3. BASF, TotalEnergies, INEOS, and ExxonMobil each publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with BASF Antwerpen SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Client notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for refinery contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle turnaround work packs for TotalEnergies Antwerp?",
+        "a": "Work packs are built from client-supplied isometrics and equipment lists, with each weld or CML attached to its parent vessel or circuit. Inspector mobile apps sync offline, and final packs export as PDF plus native data for TotalEnergies' document-control system."
+      },
+      {
+        "q": "Is PAUT reporting supported for INEOS Antwerp pressure vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by INEOS and ExxonMobil contractor document control."
+      },
+      {
+        "q": "Can we manage pipeline CP surveys along the Port of Antwerp?",
+        "a": "Yes — the CP survey module logs potentials against GPS, flags exceedance zones, and maintains a history per test post. Reports map directly to EN 12954 and NACE SP0169 formats that pipeline operators in the Antwerp cluster require."
+      },
+      {
+        "q": "How long does remote onboarding take for an Antwerp NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first turnaround window."
+      },
+      {
+        "q": "Does the ERP support multilingual crews working in Antwerp?",
+        "a": "The interface runs in English by default with Dutch, French, and German language packs available for technicians. Client-facing reports are generated in English to match BASF, TotalEnergies, INEOS, and ExxonMobil contractor document standards."
+      }
+    ]
+  },
+  {
+    "slug": "barcelona",
+    "city": "Barcelona",
+    "state": "Catalonia",
+    "country": "Spain",
+    "region": "EU",
+    "industries": [
+      "auto-manufacturing",
+      "petchem",
+      "port-ops",
+      "chemical",
+      "pipelines"
+    ],
+    "namedFacilities": [
+      "SEAT Martorell",
+      "Repsol Tarragona (regional)",
+      "Port of Barcelona",
+      "Covestro Tarragona (regional)",
+      "Dow Tarragona (regional)"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "API 570",
+      "ASME B31.3"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Dassault 3DEXPERIENCE"
+    ],
+    "languages": [
+      "es",
+      "en"
+    ],
+    "defaultLanguage": "es",
+    "title60": "Barcelona NDT ERP Software | Auto, Petchem & Port",
+    "meta155": "Barcelona NDT ERP for SEAT Martorell, Repsol Tarragona petchem, Port of Barcelona. EN 13445, PED, API 510/570 workflows with SAP and Maximo integration.",
+    "h1": "Barcelona NDT ERP Software — Customizable for All Industries",
+    "localHook": "Barcelona anchors Catalonia's industrial corridor, and NDT service firms here combine automotive work at SEAT Martorell with regional petchem campaigns at the Repsol Tarragona complex (about 100 km south), Covestro and Dow Tarragona, plus port and terminal work at the Port of Barcelona. Contractor specs stack PED 2014/68/EU, EN 13445 pressure-vessel calculations, API 510 / 570 circuits, and ASME B31.3 piping — often in the same week. Our Barcelona NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, or RT result to a weld, nozzle, or CML, and generates client-facing reports in the formats Repsol and major Tarragona operators already consume. Automotive NDT for body-in-white and powertrain can tag jobs by line and shift, while pipeline teams track cathodic protection surveys along the port corridor without rebuilding spreadsheets after every outage.",
+    "integrationPainParagraph": "Most Barcelona NDT contractors sit between client SAP S/4HANA notifications, IBM Maximo work orders from petchem sites, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends inspectors want in the report. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind campaign close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables booked in the field.",
+    "remoteDeliveryPitch": "We onboard Barcelona NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your turnaround calendar, SAP and Maximo connectors tested with a client sample, and inspector training delivered in Spanish and English over Teams. Go-live support covers the first turnaround window so your crews are never alone on site.",
+    "featureBullets": [
+      "Turnaround work-pack builder mapped to Repsol, Covestro, and Dow contractor templates",
+      "EN 13445 and PED 2014/68/EU vessel inspection records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 / 653 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Automotive body-in-white and powertrain NDT logger with line and shift tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Barcelona petrochemical work require?",
+        "a": "Barcelona petrochemical NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3. Repsol Tarragona, Covestro, and Dow publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Repsol Tarragona SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Client notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for Spanish refinery contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle automotive NDT at SEAT Martorell?",
+        "a": "Automotive NDT scopes are logged by line, station, and shift, with UT and RT results tied to the part or weld fixture. Inspector mobile apps capture defect maps, and reports export in the formats Volkswagen Group plants and SEAT quality control accept."
+      },
+      {
+        "q": "Is PAUT reporting supported for Tarragona petchem vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by Repsol and major Tarragona operators."
+      },
+      {
+        "q": "Can we manage pipeline CP surveys along the Port of Barcelona?",
+        "a": "Yes — the CP survey module logs potentials against GPS, flags exceedance zones, and maintains a history per test post. Reports map directly to EN 12954 and NACE SP0169 formats that pipeline operators in the Barcelona corridor require."
+      },
+      {
+        "q": "How long does remote onboarding take for a Barcelona NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in Spanish and English, and go-live support across your first turnaround window."
+      },
+      {
+        "q": "Does the ERP support Spanish and Catalan crews in Barcelona?",
+        "a": "The interface runs in Spanish by default with English and Catalan language packs available for technicians. Client-facing reports are generated in Spanish or English to match Repsol, Covestro, Dow, and SEAT contractor document standards."
+      }
+    ]
+  },
+  {
+    "slug": "bergen",
+    "city": "Bergen",
+    "state": "Vestland",
+    "country": "Norway",
+    "region": "EU",
+    "industries": [
+      "refining",
+      "offshore-oil-gas",
+      "oil-gas",
+      "shipyards",
+      "renewable-energy"
+    ],
+    "namedFacilities": [
+      "Equinor Mongstad refinery",
+      "Aker Solutions Mongstad",
+      "Aker BioMarine Bergen",
+      "Equinor Kollsnes gas terminal",
+      "Port of Bergen"
+    ],
+    "codes": [
+      "PED 2014/68/EU",
+      "EN 13445",
+      "EN ISO 9712",
+      "Norsok M-101",
+      "DNV-OS-F101",
+      "API 510"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Bergen NDT ERP Software | Mongstad Refinery & Offshore",
+    "meta155": "Bergen NDT ERP for Equinor Mongstad, Kollsnes, Aker Solutions. Norsok M-101, PED, EN 13445, DNV workflows with SAP and Maximo integration.",
+    "h1": "Bergen NDT ERP Software — Customizable for All Industries",
+    "localHook": "Bergen is the onshore base for Norway's western offshore and refining operations, and NDT firms here cycle through turnarounds at the Equinor Mongstad refinery — currently in the middle of an Aker Solutions-led wastewater treatment upgrade completing Q4 2026 — gas processing at Equinor Kollsnes, and offshore campaign support for rigs and FPSOs working the Norwegian Sea. Contractor specs layer PED 2014/68/EU, EN 13445, Norsok M-101 welding inspection, and DNV-OS-F101 pipeline rules into a single work pack. Our Bergen NDT ERP keeps EN ISO 9712 technician certifications tied to method, sector, and expiry, links each UT, PAUT, or RT result to a vessel nozzle or pipeline weld, and generates client-facing reports in the formats Equinor and Aker Solutions contractor document control systems already consume. Offshore campaign crews can tag jobs by vessel call-off and weather window, and Aker BioMarine work along the coast fits the same framework without rebuilding spreadsheets after every campaign.",
+    "integrationPainParagraph": "Bergen NDT contractors sit between Equinor SAP S/4HANA notifications, IBM Maximo work orders, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends integrity engineers reference in the report. When the ERP cannot speak to those systems, offshore techs retype joint numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind the campaign demob. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables booked offshore and onshore.",
+    "remoteDeliveryPitch": "We onboard Bergen NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your Mongstad and offshore calendars, SAP and Maximo connectors tested with a client sample, and inspector training delivered in English over Teams. Go-live support covers the first turnaround or campaign window.",
+    "featureBullets": [
+      "Turnaround work-pack builder mapped to Equinor and Aker Solutions templates",
+      "Norsok M-101 welding and EN 13445 vessel records with digital sign-off",
+      "DNV-OS-F101 pipeline inspection records with weld-history tracking",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Offshore campaign logger with vessel call-off and weather-window tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Mongstad refinery work require?",
+        "a": "Mongstad NDT runs primarily on PED 2014/68/EU, EN 13445, Norsok M-101, API 510, and API 570. Equinor and Aker Solutions publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Is the Mongstad refinery still operating in 2026?",
+        "a": "Yes — the Equinor Mongstad refinery is operating normally in 2026. Aker Solutions is delivering an EPCIC wastewater treatment plant upgrade expected to complete Q4 2026, which adds additional inspection and NDT scope during that window."
+      },
+      {
+        "q": "Can the ERP integrate with Equinor SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Equinor notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 and Norsok M-101 certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, expiry, and Norsok M-101 qualifications where applicable. Scheduling blocks offshore mobilisation if a certificate is within 30 days of expiry."
+      },
+      {
+        "q": "How does the system handle turnaround work packs for Mongstad?",
+        "a": "Work packs are built from Equinor-supplied isometrics and equipment lists, with each weld or CML attached to its parent vessel or circuit. Inspector mobile apps sync offline, and final packs export as PDF plus native data for Equinor's document-control system."
+      },
+      {
+        "q": "Is PAUT reporting supported for Kollsnes and Mongstad vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V, EN ISO 13588, and Norsok M-101 layouts accepted by Equinor and Aker Solutions."
+      },
+      {
+        "q": "Can we manage DNV-OS-F101 pipeline inspection records?",
+        "a": "Yes — the pipeline module logs AUT, radiography, and visual inspection results against DNV-OS-F101 acceptance criteria, flags rejects, and maintains a weld history per spool. Reports map directly to DNV formats Equinor and Lloyd's Register surveyors require."
+      },
+      {
+        "q": "How long does remote onboarding take for a Bergen NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first Mongstad turnaround or offshore campaign."
+      }
+    ]
+  },
+  {
+    "slug": "gelsenkirchen",
+    "city": "Gelsenkirchen",
+    "state": "North Rhine-Westphalia",
+    "country": "Germany",
+    "region": "EU",
+    "industries": [
+      "refining",
+      "petchem",
+      "chemical",
+      "pipelines",
+      "power-generation"
+    ],
+    "namedFacilities": [
+      "BP Gelsenkirchen refinery (Scholven + Horst)",
+      "BP Bottrop tank farm",
+      "DHC Solvent Chemie GmbH",
+      "Ruhr Oel pipeline network",
+      "Uniper Scholven power station (adjacent)"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "API 570",
+      "ASME B31.3"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "defaultLanguage": "de",
+    "title60": "Gelsenkirchen NDT ERP Software | Refinery & Petchem",
+    "meta155": "Gelsenkirchen NDT ERP for BP refinery, Bottrop tank farm, DHC Solvent Chemie. EN 13445, PED, API 510/570 workflows with SAP and Maximo integration.",
+    "h1": "Gelsenkirchen NDT ERP Software — Customizable for All Industries",
+    "localHook": "Gelsenkirchen anchors the Ruhr refining cluster, and NDT contractors here spend most of their year inside the BP Gelsenkirchen refinery complex (Scholven and Horst sites), the linked BP Bottrop tank farm, and DHC Solvent Chemie — with pipeline integrity work across the Ruhr Oel network feeding the cluster. BP announced the planned sale of Gelsenkirchen to Klesch Group in March 2026, with closing targeted for H2 2026 subject to regulatory review; operations continue normally through that transition. Contractor specs stack PED 2014/68/EU, EN 13445 pressure-vessel calculations, and API 510 / 570 circuit programs. Our Gelsenkirchen NDT ERP keeps EN ISO 9712 technician certifications aligned by method, links each UT, PAUT, or RT result to a specific nozzle or weld, and generates client-facing turnaround reports in the formats BP and DHC contractor document control already consume, without rebuilding spreadsheets after every shutdown.",
+    "integrationPainParagraph": "Gelsenkirchen NDT shops get pulled between client SAP S/4HANA notifications, IBM Maximo work orders, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends inspectors reference in the report. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind the TAR close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables actually booked in the field.",
+    "remoteDeliveryPitch": "We onboard Gelsenkirchen NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your turnaround calendar, SAP and Maximo connectors tested with a client sample, and inspector training delivered in German and English over Teams. Go-live support covers the first turnaround window.",
+    "featureBullets": [
+      "Turnaround work-pack builder mapped to BP and DHC contractor templates",
+      "EN 13445 and PED 2014/68/EU vessel inspection records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 / 653 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Ruhr Oel pipeline CP survey logger with GPS tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Is the BP Gelsenkirchen refinery still operating in 2026?",
+        "a": "Yes — the BP Gelsenkirchen refinery (Scholven and Horst) is operating normally in 2026. BP agreed in March 2026 to sell the site to Klesch Group, with closing expected in H2 2026 pending German regulatory review, but operations continue through the transition."
+      },
+      {
+        "q": "Which NDT codes does Gelsenkirchen refining work require?",
+        "a": "Gelsenkirchen refining NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3. BP Gelsenkirchen and DHC Solvent Chemie publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with BP Gelsenkirchen SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Refinery notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for refinery contractor-qualification reviews."
+      },
+      {
+        "q": "Will the ERP keep working after the Klesch transition?",
+        "a": "Yes — the ERP does not depend on BP ownership. Record templates, SAP and Maximo connectors, and contractor workflows are configurable per client, so a change in refinery ownership can be accommodated by updating the client profile without disrupting live work packs."
+      },
+      {
+        "q": "How does the system handle turnaround work packs for Scholven and Horst?",
+        "a": "Work packs are built from client-supplied isometrics and equipment lists, with each weld or CML attached to its parent vessel or circuit and tagged by site. Inspector mobile apps sync offline, and final packs export as PDF plus native data for the refinery's document-control system."
+      },
+      {
+        "q": "Is PAUT reporting supported for Gelsenkirchen pressure vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by BP Gelsenkirchen and DHC contractor document control."
+      },
+      {
+        "q": "How long does remote onboarding take for a Gelsenkirchen NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in German and English, and go-live support across your first turnaround window."
+      }
+    ]
+  },
+  {
+    "slug": "hamburg",
+    "city": "Hamburg",
+    "state": "Hamburg",
+    "country": "Germany",
+    "region": "EU",
+    "industries": [
+      "refining",
+      "aerospace",
+      "port-ops",
+      "shipyards",
+      "petchem"
+    ],
+    "namedFacilities": [
+      "Holborn Europa Raffinerie Hamburg",
+      "Airbus Finkenwerder",
+      "HHLA Hamburg container terminals",
+      "Blohm+Voss shipyard",
+      "Port of Hamburg"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "EN 9100",
+      "API 510",
+      "Lloyd's Register"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "Dassault 3DEXPERIENCE",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "defaultLanguage": "de",
+    "title60": "Hamburg NDT ERP Software | Refinery, Aerospace & Port",
+    "meta155": "Hamburg NDT ERP for Holborn refinery, Airbus Finkenwerder, HHLA, Blohm+Voss. EN 13445, EN 9100, PED, API workflows with SAP and Maximo integration.",
+    "h1": "Hamburg NDT ERP Software — Customizable for All Industries",
+    "localHook": "Hamburg combines three NDT workstreams in one city: refining at the Holborn Europa Raffinerie (operating in 2026 with a renewable-fuels complex under construction for 2027 start-up), aerospace manufacturing at Airbus Finkenwerder, and port-ops plus shipbuilding around HHLA terminals, Blohm+Voss, and the wider Port of Hamburg. Refining contractors work to PED 2014/68/EU, EN 13445, and API 510 / 570, aerospace shops to EN 9100 and Nadcap, and shipyards to Lloyd's Register and DNV class rules — often with the same technicians rotating across scopes. Our Hamburg NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, RT, or FPI result to a specific nozzle, weld, fuselage frame, or hull plate, and generates client-facing reports in the formats Holborn, Airbus, and Blohm+Voss document control already consume without rebuilding spreadsheets.",
+    "integrationPainParagraph": "Hamburg NDT firms juggle refinery SAP S/4HANA notifications, Maximo work orders from port tenants, Dassault 3DEXPERIENCE models from Airbus, and Aveva Enterprise hierarchies for industrial clients — plus OSIsoft PI tag trends for the refinery side. When the ERP cannot speak to those systems, technicians retype part numbers, turnaround and build-slot schedulers lose traceability, and invoicing slips behind close-out. Our platform ships with connectors for SAP notifications, Maximo work orders, and 3DEXPERIENCE part trees, and attaches PI trend screenshots to refinery inspection records automatically. Oracle Fusion finance hooks close the loop so billing reflects hours booked across refining, aerospace, and shipyard scopes.",
+    "remoteDeliveryPitch": "We onboard Hamburg NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your mixed client calendar, SAP, Maximo, and 3DEXPERIENCE connectors tested with client samples, and inspector training delivered in German and English over Teams. Go-live support covers the first turnaround or build slot.",
+    "featureBullets": [
+      "Refinery turnaround work-pack builder mapped to Holborn contractor templates",
+      "EN 9100 aerospace NDT records with Airbus Finkenwerder part traceability",
+      "EN 13445 and PED 2014/68/EU vessel records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "SAP S/4HANA, Maximo, and 3DEXPERIENCE bi-directional sync",
+      "Shipyard hull inspection logger mapped to Lloyd's Register and DNV class rules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Hamburg industrial work require?",
+        "a": "Hamburg NDT spans EN 13445, PED 2014/68/EU, API 510/570 for refining, EN 9100 plus Nadcap for aerospace, and Lloyd's Register and DNV class rules for shipyards. Holborn, Airbus Finkenwerder, and Blohm+Voss each publish contractor specs referencing those codes."
+      },
+      {
+        "q": "Is the Holborn refinery operating in 2026?",
+        "a": "Yes — Holborn Europa Raffinerie is operating normally in Hamburg in 2026 with capacity around 105,000 bpd. A renewable diesel and SAF complex being built by Kinetics Technology is scheduled to start up in early 2027, adding inspection scope during commissioning."
+      },
+      {
+        "q": "Can the ERP integrate with Airbus Finkenwerder 3DEXPERIENCE?",
+        "a": "Yes — the platform connects to Dassault 3DEXPERIENCE to pull part trees, work instructions, and quality plans, and pushes NDT results back tagged to fuselage section or frame. EN 9100 and Nadcap traceability is preserved through the build slot."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for refinery, aerospace, and shipyard contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle Blohm+Voss shipyard hull inspections?",
+        "a": "Shipyard scopes are logged by hull block, weld seam, and class rule, with UT and MPI results linked to Lloyd's Register or DNV class survey items. Reports export in the formats class surveyors require for new-build and repair dockings."
+      },
+      {
+        "q": "Is PAUT reporting supported for Holborn refinery vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by Holborn contractor document control."
+      },
+      {
+        "q": "How long does remote onboarding take for a Hamburg NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP, Maximo, and 3DEXPERIENCE connector testing, inspector training in German and English, and go-live support across your first turnaround or aerospace build slot."
+      },
+      {
+        "q": "Does the ERP support German-language reporting for Hamburg clients?",
+        "a": "Yes — the interface defaults to German with English available per user. Client-facing reports can be generated in either language to match Holborn, Airbus, HHLA, and Blohm+Voss contractor document control preferences."
+      }
+    ]
+  },
+  {
+    "slug": "helsinki",
+    "city": "Helsinki",
+    "state": "Uusimaa",
+    "country": "Finland",
+    "region": "EU",
+    "industries": [
+      "refining",
+      "shipyards",
+      "power-generation",
+      "port-ops",
+      "heavy-fabrication"
+    ],
+    "namedFacilities": [
+      "Neste Porvoo refinery (regional, ~50km)",
+      "ABB Helsinki",
+      "Meyer Turku shipyard (regional)",
+      "Helen Salmisaari power station",
+      "Port of Helsinki"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "Lloyd's Register",
+      "DNV"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Helsinki NDT ERP Software | Porvoo Refinery & Shipyards",
+    "meta155": "Helsinki NDT ERP for Neste Porvoo, ABB Helsinki, Meyer Turku shipyard. EN 13445, PED, API 510, Lloyd's Register workflows with SAP and Maximo integration.",
+    "h1": "Helsinki NDT ERP Software — Customizable for All Industries",
+    "localHook": "Helsinki is the service and engineering hub for Finland's heavy industry corridor, and NDT firms here run campaigns at the Neste Porvoo refinery (about 50 km east, fully operating in 2026 with ongoing waste-plastic upgrade ramp-up), ABB Helsinki electrical and drives manufacturing, Meyer Turku cruise shipyard (about 170 km west), and power generation at Helen's Salmisaari and Hanasaari sites plus port-ops at the Port of Helsinki. Contractor specs stack PED 2014/68/EU, EN 13445, API 510/570, and Lloyd's Register or DNV class rules for the shipyards. Our Helsinki NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, RT, or MPI result to a specific nozzle, weld, or hull seam, and generates client-facing reports in the formats Neste, ABB, and Meyer Turku document control systems already consume without rebuilding spreadsheets after every campaign.",
+    "integrationPainParagraph": "Helsinki NDT contractors get pulled between Neste SAP S/4HANA notifications, IBM Maximo work orders from Helen and Fortum, and Aveva Enterprise hierarchies at major sites — plus OSIsoft PI trends integrity engineers reference in the report. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects hours booked across refining, shipyard, and power scopes.",
+    "remoteDeliveryPitch": "We onboard Helsinki NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your Porvoo and Meyer Turku calendars, SAP and Maximo connectors tested with a client sample, and inspector training delivered in English over Teams. Go-live support covers the first turnaround or dry-dock window.",
+    "featureBullets": [
+      "Refinery turnaround work-pack builder mapped to Neste Porvoo contractor templates",
+      "EN 13445 and PED 2014/68/EU vessel records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Shipyard hull and block inspection logger mapped to Lloyd's Register and DNV class rules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Is the Neste Porvoo refinery still operating in 2026?",
+        "a": "Yes — Neste Porvoo is operating normally in 2026 with about 12 Mt/yr capacity. A 150,000 t/yr liquefied waste plastic upgrade facility completed in 2025 is ramping up through 2026, and Neste is gradually transforming the site toward renewable and circular feedstocks over the next decade."
+      },
+      {
+        "q": "Which NDT codes does Porvoo refinery work require?",
+        "a": "Porvoo NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3. Neste publishes contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Neste SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Refinery notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for refinery, power, and shipyard contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle Meyer Turku shipyard inspections?",
+        "a": "Shipyard scopes are logged by hull block, weld seam, and class rule, with UT and MPI results linked to Lloyd's Register or DNV class survey items. Reports export in the formats class surveyors require for Meyer Turku cruise-ship new-builds."
+      },
+      {
+        "q": "Is PAUT reporting supported for Porvoo pressure vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by Neste contractor document control."
+      },
+      {
+        "q": "Can we manage power-plant inspection for Helen and Fortum?",
+        "a": "Yes — the platform supports boiler tube UT, header weld inspection, and pressure-part CML tracking under EN 12952 and EN 13445. Reports align with Helen Salmisaari, Hanasaari, and Fortum station contractor document control requirements."
+      },
+      {
+        "q": "How long does remote onboarding take for a Helsinki NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first turnaround or shipyard dry-dock window."
+      }
+    ]
+  },
+  {
+    "slug": "lisbon",
+    "city": "Lisbon",
+    "state": "Lisbon",
+    "country": "Portugal",
+    "region": "EU",
+    "industries": [
+      "refining",
+      "shipyards",
+      "port-ops",
+      "petchem",
+      "renewable-energy"
+    ],
+    "namedFacilities": [
+      "Galp Sines refinery (regional)",
+      "Lisnave Setubal shipyard (regional)",
+      "Port of Lisbon",
+      "Galp Matosinhos (historic, decommissioning)",
+      "EDP Sines power (regional)"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "API 570",
+      "Lloyd's Register"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "pt",
+      "en"
+    ],
+    "defaultLanguage": "pt",
+    "title60": "Lisbon NDT ERP Software | Galp Sines & Lisnave Shipyard",
+    "meta155": "Lisbon NDT ERP for Galp Sines refinery, Lisnave Setubal shipyard, Port of Lisbon. EN 13445, PED, API 510/570, Lloyd's Register with SAP and Maximo.",
+    "h1": "Lisbon NDT ERP Software — Customizable for All Industries",
+    "localHook": "Lisbon is the engineering hub for Portugal's heavy industry corridor, and NDT firms here run campaigns at the Galp Sines refinery (about 150 km south, operating in 2026 with new HVO/SAF and 100 MW green hydrogen units starting up during the year), the Lisnave shipyard in Setubal (about 45 km south), and port-ops at the Port of Lisbon plus EDP's Sines power assets. Galp and Moeve also announced a non-binding downstream merger in January 2026 targeting a binding deal by mid-year. Contractor specs stack PED 2014/68/EU, EN 13445, API 510/570, and Lloyd's Register class rules for the shipyard. Our Lisbon NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, RT, or MPI result to a specific nozzle, weld, or hull seam, and generates client-facing reports in the formats Galp and Lisnave document control already consume without rebuilding spreadsheets after every campaign.",
+    "integrationPainParagraph": "Lisbon NDT contractors sit between Galp SAP S/4HANA notifications, IBM Maximo work orders from EDP and port tenants, and Aveva Enterprise hierarchies at major sites — plus OSIsoft PI tag trends integrity engineers want in the report. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots automatically. Oracle Fusion finance hooks close the loop so billing reflects hours booked across refining, shipyard, and power scopes.",
+    "remoteDeliveryPitch": "We onboard Lisbon NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your Sines and Lisnave calendars, SAP and Maximo connectors tested with a client sample, and inspector training delivered in Portuguese and English over Teams. Go-live support covers the first turnaround or dry-dock window.",
+    "featureBullets": [
+      "Refinery turnaround work-pack builder mapped to Galp Sines contractor templates",
+      "EN 13445 and PED 2014/68/EU vessel records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Lisnave shipyard hull and block inspection logger mapped to Lloyd's Register class rules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Is the Galp Sines refinery operating in 2026?",
+        "a": "Yes — Galp Sines is operating in 2026 and is commissioning new units: an HVO/SAF plant (up to 270,000 t/yr, JV with Mitsui) and a 100 MW green hydrogen unit, both targeting start-up during 2026, plus a pending Galp-Moeve downstream merger agreed in principle in January 2026."
+      },
+      {
+        "q": "Which NDT codes does Galp Sines refining work require?",
+        "a": "Sines NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3. Galp publishes contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Galp SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Refinery notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for refinery, shipyard, and power contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle Lisnave shipyard inspections?",
+        "a": "Shipyard scopes are logged by hull block, weld seam, and class rule, with UT and MPI results linked to Lloyd's Register class survey items. Reports export in the formats class surveyors require for Lisnave's tanker and offshore repair dockings."
+      },
+      {
+        "q": "Is PAUT reporting supported for Sines vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by Galp contractor document control."
+      },
+      {
+        "q": "Can we manage inspection scope for the new HVO/SAF and H2 units?",
+        "a": "Yes — commissioning and early-life inspection scopes are logged with their own phase tags, linking witness points, hydrotest records, and PAUT weld results to the new-unit equipment tree. The same work-pack structure carries into ongoing turnarounds."
+      },
+      {
+        "q": "How long does remote onboarding take for a Lisbon NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in Portuguese and English, and go-live support across your first turnaround or dry-dock window."
+      }
+    ]
+  },
+  {
+    "slug": "london",
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "EU",
+    "industries": [
+      "oil-gas",
+      "offshore-oil-gas",
+      "aerospace",
+      "nuclear-power",
+      "renewable-energy"
+    ],
+    "namedFacilities": [
+      "Shell plc HQ",
+      "BP plc HQ",
+      "TotalEnergies UK London office",
+      "Rolls-Royce London office",
+      "EDF Energy UK HQ"
+    ],
+    "codes": [
+      "PED 2014/68/EU",
+      "EN 13445",
+      "EN ISO 9712",
+      "DNV",
+      "Lloyd's Register",
+      "API 510"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "London NDT ERP Software | Energy & Engineering HQ Hub",
+    "meta155": "London NDT ERP for Shell, BP, TotalEnergies, Rolls-Royce, EDF HQ contracts. Framework aligned with PED, EN 13445, DNV, Lloyd's Register. Remote onboard.",
+    "h1": "London NDT ERP Software — Customizable for All Industries",
+    "localHook": "London is not a heavy-industry city — it is the global services and engineering HQ hub for the sector. Shell plc, BP plc, TotalEnergies UK, Rolls-Royce, and EDF Energy all run major offices here, and NDT service firms headquartered in or around London tend to bid for framework agreements that are delivered at North Sea assets, downstream sites in Lincolnshire and Fife, nuclear fleets at Hinkley Point C and the EDF AGR sites, and aerospace facilities in Derby and Filton. Contractor specs reference PED 2014/68/EU, EN 13445, API 510/570, DNV, Lloyd's Register, and EN 9100 for aerospace. Our London NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, consolidates framework-level KPIs across sites, links each inspection result to the parent asset, and generates client-facing reports in the formats operator document control systems already consume — without reconciling across regional spreadsheets.",
+    "integrationPainParagraph": "London-based NDT firms manage framework contracts across multiple operator SAP S/4HANA tenants, IBM Maximo work orders from duty-holders, and Aveva Enterprise hierarchies per site — plus OSIsoft PI trends from each plant. When the ERP cannot consolidate those feeds, head-office reporting slips, framework KPIs drift, and invoicing has to be reconciled manually per client. Our platform ships with connectors for SAP notifications and Maximo work orders across multiple tenants, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing rolls up cleanly at framework level.",
+    "remoteDeliveryPitch": "We onboard London-headquartered NDT firms fully remote — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your framework client list, SAP and Maximo connectors tested per tenant, and head-office plus regional inspector training delivered in English over Teams. Go-live support covers the first major client turnaround or campaign.",
+    "featureBullets": [
+      "Framework-contract dashboard consolidating KPIs across multiple operator sites",
+      "PED 2014/68/EU, EN 13445, API 510/570 refinery records with digital sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "DNV and Lloyd's Register class-survey templates for offshore and marine scopes",
+      "SAP S/4HANA and Maximo multi-tenant connectors for HQ-level rollup",
+      "Oracle Fusion finance integration for framework-level billing and margin reporting"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Does it make sense to host an NDT ERP out of London given there is no heavy industry in the city?",
+        "a": "Yes — London is a services and HQ hub. NDT firms headquartered here bid for multi-site framework agreements with Shell, BP, TotalEnergies, Rolls-Royce, and EDF Energy, and the ERP consolidates inspection data from those remote sites into head-office dashboards and finance."
+      },
+      {
+        "q": "Which NDT codes does a London HQ contract typically reference?",
+        "a": "Framework specs typically stack PED 2014/68/EU, EN 13445, API 510/570 for downstream, DNV and Lloyd's Register for offshore and marine, and EN 9100 plus Nadcap for aerospace. Our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP consolidate framework KPIs across multiple operator sites?",
+        "a": "Yes — a head-office dashboard rolls up inspection volumes, rejects, on-time completion, and certification coverage across every site under a framework contract, with drill-down to the individual weld or CML when an operator queries a number."
+      },
+      {
+        "q": "Can the ERP integrate with Shell and BP SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications from multiple operator tenants via standard BAPI/OData connectors. Each duty-holder's notifications become NDT jobs under the correct framework contract, with completion status pushed back automatically."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for multi-client contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle nuclear-sector work for EDF Energy?",
+        "a": "Nuclear scopes are logged with their own regulatory tags, EN ISO 9712 sector-nuclear qualifications, and ONR-aligned record retention. Each inspection result ties to the parent reactor island or balance-of-plant asset and exports in EDF Energy contractor document control formats."
+      },
+      {
+        "q": "Is aerospace work for Rolls-Royce supported?",
+        "a": "Yes — EN 9100 and Nadcap traceability is preserved, with part-level NDT records tied to engine module or component. The ERP integrates with Dassault 3DEXPERIENCE to pull build definitions and push NDT results back into the quality record."
+      },
+      {
+        "q": "How long does remote onboarding take for a London-headquartered NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, multi-tenant SAP and Maximo connector testing, head-office and regional training in English, and go-live support across your first major framework client turnaround."
+      }
+    ]
+  },
+  {
+    "slug": "ludwigshafen",
+    "city": "Ludwigshafen",
+    "state": "Rhineland-Palatinate",
+    "country": "Germany",
+    "region": "EU",
+    "industries": [
+      "chemical",
+      "petchem",
+      "pipelines",
+      "power-generation",
+      "heavy-fabrication"
+    ],
+    "namedFacilities": [
+      "BASF Ludwigshafen Verbund",
+      "BASF steam cracker I and II",
+      "BASF Ludwigshafen power plants",
+      "BASF Friesenheimer Insel logistics",
+      "Rhine river product pipelines"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "API 570",
+      "ASME B31.3"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "defaultLanguage": "de",
+    "title60": "Ludwigshafen NDT ERP Software | BASF Verbund Chemical",
+    "meta155": "Ludwigshafen NDT ERP for BASF Verbund site turnarounds, steam crackers, pipelines. EN 13445, PED, API 510/570 workflows with SAP and Maximo integration.",
+    "h1": "Ludwigshafen NDT ERP Software — Customizable for All Industries",
+    "localHook": "Ludwigshafen is home to the BASF Verbund — the world's largest integrated chemical complex — and NDT contractors here essentially work one mega-client across roughly 200 production plants, two steam crackers, captive power stations, and the Friesenheimer Insel logistics hub on the Rhine. Every turnaround, plant-revamp, and pipeline inspection runs to PED 2014/68/EU, EN 13445 pressure-vessel calculations, and API 510 / 570 circuit programs, layered onto BASF's own verbundweite contractor specifications. Our Ludwigshafen NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, or RT result to a specific nozzle, weld, or CML inside the BASF equipment hierarchy, and generates client-facing reports in the formats BASF document control already consumes — cleanly traceable from Verbund plant down to individual weld without rebuilding spreadsheets after every shutdown.",
+    "integrationPainParagraph": "BASF Ludwigshafen NDT contractors are deeply embedded in client SAP S/4HANA notifications, IBM Maximo work orders, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends inspectors reference across hundreds of production plants. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind the TAR close-out on a site with enormous scope. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests BASF equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables booked across the Verbund.",
+    "remoteDeliveryPitch": "We onboard Ludwigshafen NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against BASF's Verbund turnaround calendar, SAP and Maximo connectors tested with a client sample, and inspector training delivered in German and English over Teams. Go-live support covers the first BASF turnaround window.",
+    "featureBullets": [
+      "Verbund-scale work-pack builder mapped to BASF Ludwigshafen contractor templates",
+      "EN 13445 and PED 2014/68/EU vessel records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 / 653 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync at Verbund scale",
+      "Rhine-corridor pipeline CP survey logger with GPS tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does BASF Ludwigshafen work require?",
+        "a": "BASF Ludwigshafen NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3, all layered onto BASF's verbundweite contractor specifications. Our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with BASF SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. BASF notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress across the Verbund."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for BASF contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system scale to the BASF Verbund's ~200 plants?",
+        "a": "The equipment hierarchy is ingested from Aveva and mapped to BASF's Verbund structure. Work packs can be scoped per plant, per turnaround, or per framework agreement, and head-office dashboards roll up across the entire site for contractor management reviews."
+      },
+      {
+        "q": "Is PAUT reporting supported for BASF steam cracker equipment?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld on steam cracker I and II furnaces, drums, and high-temperature piping. Reports follow ASME Section V and EN ISO 13588 layouts BASF accepts."
+      },
+      {
+        "q": "Can we manage Rhine-corridor pipeline inspections?",
+        "a": "Yes — the CP survey module logs potentials against GPS, flags exceedance zones, and maintains a history per test post along BASF's Rhine-corridor product pipelines. Reports map directly to EN 12954 and NACE SP0169 formats."
+      },
+      {
+        "q": "How long does remote onboarding take for a Ludwigshafen NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in German and English, and go-live support across your first BASF turnaround window."
+      },
+      {
+        "q": "Does the ERP support German-language reporting for BASF?",
+        "a": "Yes — the interface defaults to German with English available per user. Client-facing reports can be generated in either language to match BASF Ludwigshafen contractor document control preferences."
+      }
+    ]
+  },
+  {
+    "slug": "milan",
+    "city": "Milan",
+    "state": "Lombardy",
+    "country": "Italy",
+    "region": "EU",
+    "industries": [
+      "oil-gas",
+      "aerospace",
+      "auto-manufacturing",
+      "heavy-fabrication",
+      "rail"
+    ],
+    "namedFacilities": [
+      "Eni HQ Milan",
+      "Pirelli Bicocca",
+      "Leonardo Cascina Costa (aerospace, regional)",
+      "Alstom Sesto San Giovanni (regional)",
+      "Saipem Milan office"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "EN 9100",
+      "API 510",
+      "EN 15085"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "Dassault 3DEXPERIENCE",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Milan NDT ERP Software | Eni, Pirelli, Leonardo, Alstom",
+    "meta155": "Milan NDT ERP for Eni HQ, Pirelli Bicocca, Leonardo aerospace, Alstom rail. EN 13445, EN 9100, EN 15085, PED workflows with SAP and 3DEXPERIENCE sync.",
+    "h1": "Milan NDT ERP Software — Customizable for All Industries",
+    "localHook": "Milan is Italy's engineering and industrial HQ, and NDT firms here combine oil and gas framework work tied to Eni's Milan HQ and Saipem with manufacturing scopes at Pirelli Bicocca, Leonardo's helicopter plant at Cascina Costa (Varese, about 45 km away), and Alstom rail fabrication at Sesto San Giovanni. Contractor specs layer PED 2014/68/EU, EN 13445 for pressure vessels, EN 9100 plus Nadcap for aerospace, and EN 15085 for railway welding. Our Milan NDT ERP keeps EN ISO 9712 technician certifications aligned by method and sector, links each UT, PAUT, RT, or MPI result to a specific nozzle, weld, rotor blade, or rail bogie frame, and generates client-facing reports in the formats Eni, Leonardo, and Alstom document control systems already consume without rebuilding spreadsheets across disparate client templates.",
+    "integrationPainParagraph": "Milan NDT firms juggle Eni SAP S/4HANA notifications, IBM Maximo work orders from manufacturing clients, Dassault 3DEXPERIENCE models from Leonardo, and Aveva Enterprise hierarchies at industrial sites — plus OSIsoft PI trends for oil and gas. When the ERP cannot speak to those systems, technicians retype part numbers, programme schedulers lose traceability, and invoicing slips behind close-out. Our platform ships with connectors for SAP notifications, Maximo work orders, and 3DEXPERIENCE part trees. Oracle Fusion finance hooks close the loop so billing reflects hours booked across oil and gas, aerospace, and rail scopes.",
+    "remoteDeliveryPitch": "We onboard Milan NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your mixed client calendar, SAP, Maximo, and 3DEXPERIENCE connectors tested with client samples, and inspector training delivered in English over Teams. Go-live support covers the first turnaround or production slot.",
+    "featureBullets": [
+      "Eni framework work-pack builder with PED and EN 13445 compliance",
+      "EN 9100 aerospace NDT records with Leonardo part traceability",
+      "EN 15085 railway welding inspection records for Alstom fabrication",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "SAP S/4HANA, Maximo, and 3DEXPERIENCE bi-directional sync",
+      "Pirelli Bicocca manufacturing NDT logger with line and shift tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Milan industrial work require?",
+        "a": "Milan NDT spans EN 13445, PED 2014/68/EU, API 510/570 for oil and gas frameworks, EN 9100 plus Nadcap for Leonardo aerospace, and EN 15085 for Alstom rail welding. Our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Eni SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Eni notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so framework coordinators see live progress."
+      },
+      {
+        "q": "Does it support Leonardo aerospace NDT at Cascina Costa?",
+        "a": "Yes — EN 9100 and Nadcap traceability is preserved, with part-level NDT records tied to helicopter rotor, gearbox, or airframe component. The ERP integrates with Dassault 3DEXPERIENCE to pull build definitions and push NDT results back into Leonardo's quality record."
+      },
+      {
+        "q": "Is EN 15085 railway welding inspection supported?",
+        "a": "Yes — weld records capture welder EN ISO 9606 qualifications, EN 15085 CL1-CL4 class, and NDT results by seam. Reports export in the formats Alstom Sesto San Giovanni and other rail fabricators require for certification body sign-off."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for multi-client contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle Pirelli Bicocca manufacturing NDT?",
+        "a": "Manufacturing scopes are logged by line, station, and shift, with UT and RT results tied to the part or mould. Inspector mobile apps capture defect maps, and reports export in the formats Pirelli quality control accepts for tyre-industry equipment."
+      },
+      {
+        "q": "Is PAUT reporting supported for Eni framework vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by Eni and Saipem contractor document control."
+      },
+      {
+        "q": "How long does remote onboarding take for a Milan NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP, Maximo, and 3DEXPERIENCE connector testing, inspector training in English, and go-live support across your first framework turnaround or aerospace build slot."
+      }
+    ]
+  },
+  {
+    "slug": "rotterdam",
+    "city": "Rotterdam",
+    "state": "South Holland",
+    "country": "Netherlands",
+    "region": "EU",
+    "industries": [
+      "refining",
+      "petchem",
+      "port-ops",
+      "pipelines",
+      "lng"
+    ],
+    "namedFacilities": [
+      "Shell Pernis refinery",
+      "BP Rotterdam refinery",
+      "ExxonMobil Botlek",
+      "Gasunie LNG Maasvlakte",
+      "Port of Rotterdam"
+    ],
+    "codes": [
+      "EN 13445",
+      "PED 2014/68/EU",
+      "EN ISO 9712",
+      "API 510",
+      "API 570",
+      "ASME B31.3"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Rotterdam NDT ERP Software | Refining & Petchem",
+    "meta155": "Rotterdam NDT ERP software for Shell Pernis, BP, ExxonMobil Botlek. EN 13445, PED, API workflows with SAP and Maximo integration. Remote onboarding.",
+    "h1": "Rotterdam NDT ERP Software — Customizable for All Industries",
+    "localHook": "Rotterdam anchors Europe's largest refining and petchem cluster, and NDT service companies here juggle turnarounds at Shell Pernis, BP Rotterdam, and ExxonMobil Botlek alongside pipeline inspections feeding Gasunie LNG terminals on the Maasvlakte. Every asset-integrity shop has to produce inspection records that map cleanly to PED 2014/68/EU, EN 13445 pressure-vessel calculations, and API 510 / 570 programs — usually in the same work pack. Our Rotterdam NDT ERP keeps certification logs aligned with EN ISO 9712 personnel levels, links each UT or PAUT scan to a specific nozzle or weld ID, and generates client-facing turnaround reports in the formats Shell and ExxonMobil contractors already consume. Port-ops crews handling floating storage and bunker barges can tag jobs by berth and tide window, while pipeline teams track cathodic protection surveys across the Botlek and Europoort corridors without rebuilding spreadsheets after every shutdown.",
+    "integrationPainParagraph": "Most Rotterdam NDT shops are pulled between client SAP S/4HANA notifications, IBM Maximo work orders from the terminals, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends that inspectors want referenced inside the report. When the ERP cannot speak to those systems, technicians retype nozzle numbers, turnaround schedulers lose sight of which welds are cleared, and invoicing slips behind the TAR close-out. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables actually booked in the field.",
+    "remoteDeliveryPitch": "We onboard Rotterdam NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your turnaround calendar, SAP and Maximo connectors tested with a client sample, and inspector training delivered in English over Teams. Go-live support covers the first turnaround window so your crews are never alone on site.",
+    "featureBullets": [
+      "Turnaround work-pack builder mapped to Shell, BP, and ExxonMobil contractor templates",
+      "EN 13445 and PED 2014/68/EU vessel inspection records with digital NoBo sign-off",
+      "EN ISO 9712 technician certification tracking with auto-expiry alerts per method",
+      "API 510 / 570 / 653 circuit and CML management with corrosion-rate trending",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Pipeline CP survey logger for Botlek and Europoort corridors with GPS tagging"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Rotterdam refining work require?",
+        "a": "Rotterdam refining NDT runs primarily on EN 13445, PED 2014/68/EU, API 510, API 570, and ASME B31.3. Shell Pernis, BP Rotterdam, and ExxonMobil Botlek each publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Shell Pernis SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Client notifications become NDT jobs automatically, with weld and nozzle IDs preserved, and completion status is pushed back so turnaround coordinators see live progress."
+      },
+      {
+        "q": "Does it support EN ISO 9712 personnel certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for refinery contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle turnaround work packs for BP Rotterdam?",
+        "a": "Work packs are built from client-supplied isometrics and equipment lists, with each weld or CML attached to its parent vessel or circuit. Inspector mobile apps sync offline, and final packs export as PDF plus native data for BP's document-control system."
+      },
+      {
+        "q": "Is PAUT reporting supported for Botlek pressure vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V and EN ISO 13588 layouts accepted by ExxonMobil Botlek and Shell Pernis."
+      },
+      {
+        "q": "Can we manage pipeline CP surveys along the Europoort corridor?",
+        "a": "Yes — the CP survey module logs potentials against GPS, flags exceedance zones, and maintains a history per test post. Reports map directly to EN 12954 and NACE SP0169 formats that Gasunie and pipeline operators in the Europoort area require."
+      },
+      {
+        "q": "How long does remote onboarding take for a Rotterdam NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first turnaround window."
+      },
+      {
+        "q": "Does the ERP support multilingual crews working in Rotterdam?",
+        "a": "The interface runs in English by default with Dutch and German language packs available for technicians. Client-facing reports are generated in English to match Shell, BP, and ExxonMobil contractor document standards."
+      }
+    ]
+  },
+  {
+    "slug": "stavanger",
+    "city": "Stavanger",
+    "state": "Rogaland",
+    "country": "Norway",
+    "region": "EU",
+    "industries": [
+      "offshore-oil-gas",
+      "oil-gas",
+      "pipelines",
+      "heavy-fabrication",
+      "renewable-energy"
+    ],
+    "namedFacilities": [
+      "Equinor HQ Stavanger",
+      "Aker Solutions Stavanger",
+      "Subsea 7 Stavanger",
+      "Equinor Karsto processing plant",
+      "Risavika supply base"
+    ],
+    "codes": [
+      "PED 2014/68/EU",
+      "EN 13445",
+      "EN ISO 9712",
+      "Norsok M-101",
+      "DNV-OS-F101",
+      "API 1104"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Maximo",
+      "Oracle Fusion",
+      "OSIsoft PI",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Stavanger NDT ERP Software | Equinor, Aker, Subsea 7",
+    "meta155": "Stavanger NDT ERP for Equinor HQ, Aker Solutions, Subsea 7, Karsto plant. Norsok M-101, DNV-OS-F101, PED, EN 13445 with SAP and Maximo sync.",
+    "h1": "Stavanger NDT ERP Software — Customizable for All Industries",
+    "localHook": "Stavanger is Norway's offshore oil and gas capital, and NDT firms based here run campaigns for Equinor HQ, Aker Solutions, Subsea 7, and the Equinor Karsto gas-processing plant, with supply-base fabrication and load-out at Risavika. Contractor specs stack PED 2014/68/EU, EN 13445, Norsok M-101 welding inspection, DNV-OS-F101 pipeline rules, and API 1104 for export pipeline tie-ins. Our Stavanger NDT ERP keeps EN ISO 9712 and Norsok certifications tied to method, sector, and expiry, links each UT, PAUT, or RT result to a specific riser joint, topside weld, subsea spool, or Karsto vessel, and generates client-facing reports in the formats Equinor and Aker Solutions contractor document control systems already consume. Offshore campaign crews can tag jobs by vessel call-off and weather window, and supply-base fabrication scopes track weld procedure qualification without rebuilding spreadsheets after every load-out.",
+    "integrationPainParagraph": "Stavanger NDT contractors sit between Equinor SAP S/4HANA notifications, IBM Maximo work orders, and Aveva Enterprise asset hierarchies — plus OSIsoft PI tag trends integrity engineers reference in the report. When the ERP cannot speak to those systems, offshore techs retype joint numbers, campaign schedulers lose sight of which welds are cleared, and invoicing slips behind the vessel demob. Our platform ships with connectors for SAP notifications and Maximo work orders, ingests equipment trees from Aveva, and attaches PI trend screenshots to the inspection record automatically. Oracle Fusion finance hooks close the loop so billing reflects the hours and consumables booked offshore and at the supply base.",
+    "remoteDeliveryPitch": "We onboard Stavanger NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your campaign and fabrication calendars, SAP and Maximo connectors tested with a client sample, and inspector training delivered in English over Teams. Go-live support covers the first offshore campaign or load-out.",
+    "featureBullets": [
+      "Offshore campaign work-pack builder mapped to Equinor, Aker Solutions, and Subsea 7 templates",
+      "Norsok M-101 welding and DNV-OS-F101 pipeline inspection records with digital sign-off",
+      "EN ISO 9712 and Norsok technician certification tracking with auto-expiry alerts",
+      "Subsea spool and riser joint management with weld-history traceability",
+      "SAP S/4HANA notification and Maximo work-order bi-directional sync",
+      "Supply-base load-out logger tying fabrication WPS/PQR to offshore acceptance"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Stavanger offshore work require?",
+        "a": "Stavanger NDT runs primarily on PED 2014/68/EU, EN 13445, Norsok M-101, DNV-OS-F101, and API 1104. Equinor, Aker Solutions, and Subsea 7 publish contractor specs referencing those codes, and our ERP ships with record templates matched to each."
+      },
+      {
+        "q": "Can the ERP integrate with Equinor SAP notifications?",
+        "a": "Yes — the platform ingests SAP S/4HANA notifications via standard BAPI/OData connectors. Equinor notifications become NDT jobs automatically, with joint and weld IDs preserved, and completion status is pushed back so campaign coordinators see live progress."
+      },
+      {
+        "q": "Does it support Norsok M-101 and EN ISO 9712 certification tracking?",
+        "a": "Yes — every technician profile stores EN ISO 9712 level, method, sector, issuing body, and expiry, plus Norsok M-101 qualifications where applicable. Scheduling blocks offshore mobilisation if a certificate is within 30 days of expiry."
+      },
+      {
+        "q": "How does the system handle Subsea 7 spool and riser NDT?",
+        "a": "Subsea scopes are logged by spool and riser joint, with AUT, radiography, and visual inspection results linked to weld ID and DNV-OS-F101 acceptance criteria. Reports export in the formats Subsea 7 and Equinor Subsea Operations accept for load-out."
+      },
+      {
+        "q": "Is PAUT reporting supported for Karsto processing vessels?",
+        "a": "Yes — PAUT scans are uploaded with encoder position, reference block, and procedure number, and linked to the vessel nozzle or weld. Reports follow ASME Section V, EN ISO 13588, and Norsok M-101 layouts accepted by Equinor Karsto contractor document control."
+      },
+      {
+        "q": "How does the ERP tie supply-base fabrication to offshore acceptance?",
+        "a": "Each fabricated spool or module carries its WPS/PQR, welder qualifications, and NDT record from the Risavika supply base through load-out to offshore acceptance. Handover documentation exports in the formats Equinor and Aker Solutions require."
+      },
+      {
+        "q": "Can we manage DNV-OS-F101 pipeline inspection records?",
+        "a": "Yes — the pipeline module logs AUT, radiography, and visual inspection results against DNV-OS-F101 acceptance criteria, flags rejects, and maintains a weld history per spool. Reports map directly to DNV formats Equinor and Lloyd's Register surveyors require."
+      },
+      {
+        "q": "How long does remote onboarding take for a Stavanger NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and Maximo connector testing, inspector training in English, and go-live support across your first offshore campaign or supply-base load-out."
+      }
+    ]
+  },
+  {
+    "slug": "toulouse",
+    "city": "Toulouse",
+    "state": "Occitanie",
+    "country": "France",
+    "region": "EU",
+    "industries": [
+      "aerospace",
+      "aerospace-engines",
+      "defense",
+      "heavy-fabrication",
+      "rail"
+    ],
+    "namedFacilities": [
+      "Airbus FAL Toulouse",
+      "Safran Toulouse",
+      "Thales Alenia Space Toulouse",
+      "ATR Toulouse",
+      "Airbus Defence and Space"
+    ],
+    "codes": [
+      "EN 9100",
+      "EN ISO 9712",
+      "Nadcap",
+      "PED 2014/68/EU",
+      "EN 13445",
+      "EN 4179"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "Dassault 3DEXPERIENCE",
+      "Maximo",
+      "Oracle Fusion",
+      "Aveva Enterprise"
+    ],
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "defaultLanguage": "fr",
+    "title60": "Toulouse NDT ERP | Airbus, Safran, Thales Alenia",
+    "meta155": "Toulouse NDT ERP for Airbus FAL, Safran, Thales Alenia Space, ATR. EN 9100, Nadcap, EN 4179 workflows with SAP S/4HANA and 3DEXPERIENCE integration.",
+    "h1": "Toulouse NDT ERP Software — Customizable for All Industries",
+    "localHook": "Toulouse is Europe's aerospace capital, and NDT firms here serve Airbus Final Assembly Lines for A320, A330, and A350 families, Safran aero-engine and nacelle operations, Thales Alenia Space satellite manufacturing, ATR regional-aircraft assembly, and Airbus Defence and Space. Contractor specs run almost exclusively under EN 9100, Nadcap accreditation, EN 4179 personnel qualification, and EN ISO 9712 sector-aerospace, with PED 2014/68/EU and EN 13445 covering ground-support pressure equipment. Our Toulouse NDT ERP keeps EN 4179 and EN ISO 9712 technician certifications aligned by method, link type, and expiry, links each UT, PAUT, RT, FPI, or eddy-current result to a specific part number and build slot inside Airbus or Safran ERP, and generates client-facing reports in the formats Airbus and Safran quality systems already consume without rebuilding spreadsheets across build phases.",
+    "integrationPainParagraph": "Toulouse NDT firms work deep inside customer SAP S/4HANA and Dassault 3DEXPERIENCE — Airbus, Safran, and Thales all expect part-level traceability from the build definition through to the NDT result and back into the non-conformance record. When the ERP cannot speak to those systems, technicians retype part numbers, build-slot schedulers lose visibility of which inspections are cleared, and Nadcap audits surface gaps. Our platform ships with connectors for SAP notifications and 3DEXPERIENCE part trees, pushes NDT results back into the quality record, and preserves EN 9100 and Nadcap traceability end to end. Oracle Fusion finance hooks close the loop on billing per build slot.",
+    "remoteDeliveryPitch": "We onboard Toulouse NDT firms fully remote from our delivery hub — no travel, no site visit required. A typical rollout runs four to six weeks: discovery workshops by video, sandbox configured against your Airbus or Safran build calendar, SAP and 3DEXPERIENCE connectors tested with a client sample, and inspector training delivered in French and English over Teams. Go-live support covers the first production slot.",
+    "featureBullets": [
+      "EN 9100 aerospace work-pack builder mapped to Airbus and Safran templates",
+      "Nadcap-compliant NDT records with audit-ready traceability per part number",
+      "EN 4179 and EN ISO 9712 technician certification tracking with auto-expiry alerts",
+      "SAP S/4HANA and Dassault 3DEXPERIENCE bi-directional sync",
+      "Eddy-current, FPI, UT, and X-ray records tied to build slot and non-conformance",
+      "Satellite structure inspection logger for Thales Alenia Space assemblies"
+    ],
+    "paaQuestions": [
+      {
+        "q": "Which NDT codes does Toulouse aerospace work require?",
+        "a": "Toulouse aerospace NDT runs on EN 9100, Nadcap accreditation, EN 4179 personnel qualification, and EN ISO 9712 sector-aerospace. Ground-support pressure equipment adds PED 2014/68/EU and EN 13445. Airbus, Safran, Thales Alenia Space, and ATR publish contractor specs referencing those standards."
+      },
+      {
+        "q": "Can the ERP integrate with Airbus 3DEXPERIENCE?",
+        "a": "Yes — the platform connects to Dassault 3DEXPERIENCE to pull part trees, work instructions, and quality plans, and pushes NDT results back tagged to fuselage section, wing sub-assembly, or engine module. EN 9100 and Nadcap traceability is preserved through the build slot."
+      },
+      {
+        "q": "Does it support EN 4179 and EN ISO 9712 personnel certification?",
+        "a": "Yes — every technician profile stores EN 4179 and EN ISO 9712 level, method, sector-aerospace, issuing body, and expiry. Scheduling blocks assignments if a certificate is within 30 days of expiry, and audit exports are formatted for Nadcap and Airbus contractor-qualification reviews."
+      },
+      {
+        "q": "How does the system handle Safran engine-component NDT?",
+        "a": "Engine-component scopes are logged by part number and build slot, with FPI, eddy-current, and UT results tied to Safran's quality plan. Non-conformances route back into Safran's ERP, and reports export in the formats Safran Aircraft Engines accepts."
+      },
+      {
+        "q": "Is satellite structure inspection supported for Thales Alenia Space?",
+        "a": "Yes — satellite primary structures and composite panels are logged by assembly reference, with UT, X-ray, and optical inspection results tied to the build plan. Reports follow Thales Alenia Space document control formats for spacecraft integration."
+      },
+      {
+        "q": "Can the ERP handle ATR regional-aircraft assembly NDT?",
+        "a": "Yes — ATR assembly scopes are logged by aircraft MSN and build station, with NDT results mapped to EN 9100 and Nadcap requirements. Reports export in the formats ATR quality control accepts for airframe certification."
+      },
+      {
+        "q": "Does the ERP support Nadcap audit readiness?",
+        "a": "Yes — the platform maintains the evidence trail Nadcap auditors expect: technician qualification, procedure control, equipment calibration, sample results, and non-conformance handling, all exportable in audit-ready formats."
+      },
+      {
+        "q": "How long does remote onboarding take for a Toulouse NDT firm?",
+        "a": "Typical onboarding is four to six weeks fully remote. That covers discovery, sandbox configuration, SAP and 3DEXPERIENCE connector testing, inspector training in French and English, and go-live support across your first Airbus or Safran production slot."
+      }
+    ]
+  }
+]

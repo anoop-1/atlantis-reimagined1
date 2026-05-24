@@ -167,8 +167,8 @@ export default function NDTTrainingHub() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Training & Certification 2026: UT, RT, MT, PT, VT, ET"
-        description="ASNT Level I/II/III training across 6 NDT methods + PAUT/TOFD. Online, onsite, blended. $800–$3,000 per course. 91% first-attempt pass rate."
+        title="NDT Training & Certification 2026 — 95% Pass Rate, ASNT SNT-TC-1A Approved, All 6 Methods | Atlantis NDT"
+        description="ASNT Level III-led NDT training — UT/RT/MT/PT/VT/ET + PAUT/TOFD. Online, onsite, blended. From $800 per course. 95% pass rate. 5,400+ technicians trained worldwide. Enroll: enroll@atlantisndt.com"
         keywords="NDT training, ASNT Level I training, ASNT Level II training, ASNT Level III training, UT training, RT training, MT training, PT training, VT training, ET training, PAUT training, TOFD training, NDT certification courses, SNT-TC-1A, ACCP, ISO 9712"
         canonical="https://atlantisndt.com/ndt-training"
         structuredData={structuredData}

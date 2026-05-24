@@ -1,0 +1,1 @@
+import{j as a}from"./compare-pages-C1d7etmC.js";import{D as i}from"./DigitalTwinLocationPage-mFnkvcfO.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function m(){return a.jsx(i,{city:"Casablanca",country:"Morocco",slug:"digital-twin-casablanca"})}export{m as default};

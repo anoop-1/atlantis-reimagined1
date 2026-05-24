@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "beaumont",
+  "route": "/es/ndt-erp-beaumont",
+  "canonicalEnRoute": "/ndt-erp-beaumont",
+  "title60": "Software ERP NDT Beaumont 2026 | Refinería y LNG",
+  "meta155": "ERP NDT Beaumont para ExxonMobil Beaumont y Golden Pass LNG — API 510/570/625, NFPA 59A, despliegue remoto 30/60/90 días.",
+  "h1": "Software ERP NDT Beaumont — Personalizable para Todas las Industrias",
+  "localHook": "Beaumont es uno de los extremos del corredor de refinación y LNG Beaumont-Port Arthur, que forma la huella petroquímica más densa del Golfo de México de Texas. La Refinería Beaumont de ExxonMobil se ha expandido sustancialmente en los últimos años y ahora figura entre las más grandes de Norteamérica, con la planta química colocalizada de ExxonMobil sumando capacidad de olefinas y polietileno. Golden Pass LNG —una terminal de exportación de ExxonMobil-QatarEnergy— está poniendo en línea capacidad importante de licuefacción del lado del canal de navegación. El Puerto de Beaumont maneja algunas de las mayores cargas militares y comerciales en tonelaje del país. El trabajo de inspección está dominado por API 510, API 570, API 580 RBI y API 653 del lado refinería, API 625 y NFPA 59A del lado LNG, y tubería ASME B31.3 en ambos. Esta configuración —refinería y LNG a la misma escala en la misma ciudad— genera un perfil de dolor ERP-inspección donde el cumplimiento de códigos criogénicos y de hidrocarburos debe coexistir limpiamente.",
+  "integrationPainParagraph": "Maximo opera la inspección de equipo fijo en la Refinería ExxonMobil Beaumont y SAP PM atiende el lado de la planta química, mientras que la base de comisionamiento y operación temprana de Golden Pass LNG está desplegando una instancia separada de Maximo APM con plantillas de activos específicas para criogenia. La capa NDT intermedia —datos CML de recipientes API 510, circuitos de tubería API 570, inspección de tanques API 653, registros de tanques de almacenamiento refrigerado API 625, cumplimiento LNG NFPA 59A— vive en silos desconectados. El vencimiento de certificaciones corre en hojas de cálculo. El tiempo de entrega de reporte sobre un hallazgo del lado refinería durante la temporada de paradas compite con las prioridades de comisionamiento LNG. La entrega campo-ingeniero de integridad sobre PAUT se fragmenta atravesando la frontera refinería-LNG.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III con experiencia API 510/570/653 y NFPA 59A LNG. Ejecutamos un piloto de 30 días sobre una unidad de Beaumont o un tanque LNG, una fase de integración de 60 días a su Maximo o SAP PM, y un corte total a 90 días. Sin viajes, sin personal en sitio. Cada despliegue lleva firma Nivel III tanto sobre el stack de códigos de refinería como sobre el stack criogénico LNG.",
+  "featureBullets": [
+    "Gestión de CML de recipientes a presión API 510 dimensionada para la base de activos expandida de la refinería ExxonMobil Beaumont.",
+    "Flujo de tanques de almacenamiento refrigerado y criogénico API 625 para los tanques de contención total de Golden Pass LNG.",
+    "Retención de registros de instalación LNG NFPA 59A y programación de inspección atada a la transición de comisionamiento a operaciones.",
+    "Inspección fuera de servicio de tanques API 653 alineada a los ciclos de terminal del Puerto de Beaumont.",
+    "Tendencia de espesores ASME B31.3 de tubería de proceso en la Planta Química ExxonMobil Beaumont con publicación de orden de trabajo en Maximo.",
+    "Seguimiento de certificación de inspector dual refinería más LNG — endosos API y NFPA separados por método con bloqueo de despacho de orden de trabajo."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Qué software NDT se usa en ExxonMobil Beaumont?",
+      "a": "La Refinería ExxonMobil Beaumont opera Maximo para la gestión de activos y órdenes de trabajo con integridad de equipo fijo superpuesta. Atlantis ERP NDT se despliega como la capa NDT dedicada que se conecta a una instancia existente de Maximo, y maneja los flujos de recipientes API 510, tubería API 570 y tanques API 653 con trazabilidad plena a nivel de CML. Los procedimientos corporativos específicos de inspección de ExxonMobil se soportan como superposiciones de biblioteca de procedimientos sobre los flujos API nativos."
+    },
+    {
+      "q": "¿Soporta el ERP NDT la inspección de terminales LNG?",
+      "a": "Sí — Atlantis ERP NDT soporta los flujos de inspección de terminales LNG bajo API 625 (tanques de almacenamiento refrigerado), NFPA 59A (norma de instalaciones LNG) y ASME B31.3 (tubería criogénica). Para Golden Pass LNG y operaciones comparables de terminales de exportación del Golfo de México, el sistema maneja intervalos de inspección de tanques de contención total, tendencia de espesores de tubería criogénica y la transición de registros de comisionamiento a operaciones. Los métodos NDT específicos para criogenia, incluyendo prueba de fugas con helio y emisión acústica, son nativos."
+    },
+    {
+      "q": "¿Cuánto cuesta el software ERP NDT de refinería?",
+      "a": "El ERP NDT de refinería para una operación a escala Beaumont va de 100.000 a 300.000 dólares anuales según la cantidad de unidades, el volumen de activos y la integración con Maximo. Atlantis cotiza contra la huella existente de Maximo en lugar de por asiento, porque el uso del inspector es concentrado alrededor de las paradas. Un despliegue API 510/570/653 de una sola refinería grande se ubica alrededor de 130.000 a 180.000 dólares anuales. Los despliegues multi-unidad a escala ExxonMobil se ubican más arriba. El piloto de 30 días tiene precio fijo y se acredita contra la suscripción anual."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con Meridium APM?",
+      "a": "Sí — Atlantis ERP NDT se integra con GE/Baker Hughes Meridium APM (ahora parte de IBM Maximo APM) mediante intercambio de datos estándar al nivel de activo, CML, registro de inspección y cálculo RBI. Para los operadores de refinerías de Beaumont que operan Meridium para RBI, el sistema provee la capa de ejecución de inspección que Meridium no da —captura de datos de campo, bibliotecas de escaneo PAUT/TOFD y bloqueo por certificación de inspector— manteniendo al motor RBI como autoritativo."
+    },
+    {
+      "q": "¿Puede el ERP NDT manejar refinería y LNG juntos?",
+      "a": "Sí — Atlantis ERP NDT corre flujos de refinería API 510/570/653 y flujos LNG API 625/NFPA 59A en una sola instancia sin contaminación cruzada entre familias de código. Para los operadores de Beaumont donde el trabajo de refinería de ExxonMobil y el trabajo de Golden Pass LNG comparten inspectores y contratistas, esto importa. El despacho de orden de trabajo se bloquea sobre la certificación correcta por familia de código. Una inspección de tanque API 653 del lado refinería nunca se despacha bajo un endoso solo NFPA 59A."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación del ERP NDT de refinería?",
+      "a": "Atlantis ERP NDT se implementa en 30/60/90 días para una refinería del área de Beaumont. El piloto de 30 días corre sobre una sola unidad o patio de tanques para validar el modelo de datos contra API 510/570/653. La integración de 60 días conecta a Maximo o SAP PM. El corte de 90 días migra los registros históricos de inspección y entrega el control a su ingeniero de integridad. El tiempo total es 90 días. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Soporta el ERP NDT API 625 para tanques criogénicos?",
+      "a": "Sí — API 625 (y el solape con ACI 376) es un flujo nativo en Atlantis ERP NDT para tanques de almacenamiento refrigerado y criogénico, incluidos los tanques LNG de contención total. Para Golden Pass LNG y terminales LNG comparables de Beaumont-Port Arthur, el sistema maneja los intervalos de inspección del tanque interior de acero 9% níquel y del tanque exterior de hormigón, el monitoreo de línea base por emisión acústica y la retención de registros de cumplimiento NFPA 59A."
+    },
+    {
+      "q": "¿Puede el ERP NDT rastrear RBI para recipientes a presión?",
+      "a": "Sí — Atlantis ERP NDT soporta los flujos de inspección basada en riesgo API 580/581, ya sea de forma nativa o como la capa de ejecución bajo un motor RBI Meridium/AssetWise. Para las operaciones de refinería y planta química de Beaumont, el sistema mantiene las asignaciones de mecanismo de daño, los niveles de confianza y los registros de efectividad de inspección requeridos bajo API 580, y cierra el ciclo RBI al alimentar los resultados reales de inspección al modelo de riesgo."
+    }
+  ]
+}

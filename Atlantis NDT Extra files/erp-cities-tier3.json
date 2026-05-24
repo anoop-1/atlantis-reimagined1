@@ -1,0 +1,1817 @@
+[
+  {
+    "slug": "dubai",
+    "city": "Dubai",
+    "state": "",
+    "country": "United Arab Emirates",
+    "region": "MENA",
+    "industries": [
+      "oil-gas",
+      "port-ops",
+      "aerospace-mro",
+      "power-generation",
+      "desalination"
+    ],
+    "namedFacilities": [
+      "ENOC Jebel Ali Refinery (210k BPD condensate splitter)",
+      "DP World Jebel Ali Port (container terminal + free zone)",
+      "Emirates Engineering MRO (Dubai International)",
+      "DEWA Jebel Ali M-Station (power + desalination, 2,763 MW)",
+      "Dubai Aluminium (EGA Jebel Ali smelter)"
+    ],
+    "codes": [
+      "ASME BPVC Section V",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ADNOC HSEIA",
+      "AWS D1.1",
+      "AS9100"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Dubai NDT ERP Software 2026 | ENOC, DP World, Emirates MRO",
+    "meta155": "Dubai NDT ERP for refining, ports, aerospace MRO and power: API 510/570/653 and AS9100 workflows integrated with SAP, Maximo and Oracle EBS. Arabic UI.",
+    "h1": "Dubai NDT ERP Software - Customizable for All Industries",
+    "localHook": "Dubai's inspection demand spans four very different asset classes. ENOC's Jebel Ali condensate refinery and storage terminals run API 510, 570 and 653 programs on pressure vessels, piping and tank farms. DP World Jebel Ali \u2014 the Middle East's largest container port \u2014 generates heavy crane, quay and pipeline inspection load across the free zone. Emirates Engineering operates one of the world's busiest widebody MRO lines at Dubai International and Dubai World Central, with AS9100 and Part 145 audit trails feeding Emirates, flydubai and third-party primes. DEWA's M-Station at Jebel Ali is the world's largest gas turbine combined-cycle plant coupled with MSF desalination, driving power-generation and boiler inspection volume. Add EGA's aluminium smelter pot lines and Dubai Aluminium rolling mills, and inspectors juggle ASME, API, AWS and AS9100 codes simultaneously. Atlantis NDT ERP consolidates all four streams with Arabic-English bilingual output ready for UAE Ministry of Energy and GCAA filings.",
+    "integrationPainParagraph": "Dubai operators mostly run SAP S/4HANA at the enterprise tier, with IBM Maximo on the plant floor at DEWA and EGA, Oracle EBS at some DP World subsidiaries, and IFS Cloud creeping in at Emirates Engineering for component MRO. NDT certs, RT film indexes and thickness surveys rarely flow into any of those stacks cleanly, and DAFZA, JAFZA and GCAA audits expose the gap. Atlantis NDT ERP pushes inspection findings, technician qualification windows and TML trends directly into SAP PM notifications, Maximo work-order history and Oracle EAM via REST, while Primavera P6 receives hold-point status the same shift. GCAA Part 145 task cards and ADNOC-aligned inspection forms are preloaded, so audits pull clean on the first request.",
+    "remoteDeliveryPitch": "Atlantis deploys across Dubai without flying consultants in. Discovery runs over Teams in English and Arabic, SAP and Maximo connectors are validated against a sandboxed UAE tenant aligned to Dubai's GST+4 working week (Monday-Friday), and technicians train in bilingual sessions recorded for night-shift access at Jebel Ali and the airport MROs. Typical Dubai deployments reach production in 5-7 weeks, scheduled around Ramadan and Eid operational calendars so hangar and refinery turnarounds never miss a hold-point.",
+    "featureBullets": [
+      "API 510/570/653 inspection workflows with ADNOC and ENOC reporting templates",
+      "AS9100 and GCAA Part 145 audit evidence packs for Emirates Engineering-style MRO",
+      "Bilingual Arabic-English technician UI, reports and signatures",
+      "DEWA and EGA-ready power, boiler and smelter pot-line inspection records",
+      "SAP PM, Maximo and Oracle EBS push of findings via REST with closeout evidence",
+      "Free zone (JAFZA, DAFZA, DMCC) audit-ready retention and export controls"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used by refineries in Dubai?",
+        "a": "ENOC-tier refineries in Dubai use NDT ERP platforms that enforce API 510, 570 and 653 with ADNOC-aligned reporting. Atlantis NDT ERP ships those templates preloaded and integrates with SAP PM and Maximo."
+      },
+      {
+        "q": "Does the ERP support Arabic language reporting?",
+        "a": "Yes. Atlantis NDT ERP runs a full bilingual Arabic-English UI with RTL layout for technician modules, PDF reports and digital signatures accepted by UAE regulators."
+      },
+      {
+        "q": "Can it handle GCAA Part 145 audits for Emirates Engineering?",
+        "a": "Yes. The platform stores personnel certs, procedure revisions, calibration records and task-card evidence structured to GCAA CAR 145 and AS9100 audit checklists."
+      },
+      {
+        "q": "How does it integrate with SAP S/4HANA used by DEWA and EGA?",
+        "a": "It writes inspection results back to SAP PM notifications and QM inspection lots via standard REST, so NDT findings appear on existing functional locations without rekeying."
+      },
+      {
+        "q": "Is it suitable for Jebel Ali Port crane and quay inspections?",
+        "a": "Yes. The mobile module captures UT, MPI and visual data at the crane and bollard level, with DP World-aligned retention and JAFZA audit exports."
+      },
+      {
+        "q": "Can it produce DEWA M-Station boiler inspection reports?",
+        "a": "Yes. Boiler, HRSG and pressure-vessel records align to ASME BPVC Section V and UAE Ministry of Energy templates, with TML trending and RBI scoring built in."
+      },
+      {
+        "q": "Does it handle desalination plant tube-bundle inspections?",
+        "a": "Yes. MSF and RO tube-bundle IRIS, ECT and RFT data flow into asset-level histories with plug maps and remaining-life calculations."
+      },
+      {
+        "q": "How long does implementation take in Dubai?",
+        "a": "A typical Dubai Atlantis NDT ERP rollout takes 5 to 7 weeks remotely, including SAP or Maximo connector setup, data migration and bilingual Arabic-English training."
+      }
+    ]
+  },
+  {
+    "slug": "abu-dhabi",
+    "city": "Abu Dhabi",
+    "state": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "MENA",
+    "industries": [
+      "oil-gas",
+      "refining",
+      "petchem",
+      "aerospace-mro",
+      "nuclear-power"
+    ],
+    "namedFacilities": [
+      "ADNOC Onshore (Bab, Bu Hasa, NEB fields)",
+      "ADNOC Refining Ruwais (feeds from Abu Dhabi)",
+      "Borouge Ruwais petchem (ADNOC/Borealis JV)",
+      "Strata Manufacturing (Mubadala, Al Ain composites)",
+      "Sanad Aerotech (engine MRO, Mussafah)",
+      "Barakah Nuclear Power Plant (ENEC, 4x APR-1400)"
+    ],
+    "codes": [
+      "ADNOC HSEIA",
+      "ADNOC COP",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "ASME Section XI",
+      "AS9100",
+      "IAEA/FANR"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Abu Dhabi NDT ERP 2026 | ADNOC, Strata, Sanad, Barakah",
+    "meta155": "Abu Dhabi NDT ERP for ADNOC oil and gas, Strata aerospace, Sanad engines and Barakah nuclear: ADNOC COP, AS9100, ASME XI into SAP and Maximo.",
+    "h1": "Abu Dhabi NDT ERP Software - Customizable for All Industries",
+    "localHook": "Abu Dhabi runs the UAE's heaviest inspection economy. ADNOC Onshore operates the Bab, Bu Hasa and Northeast Bab fields feeding Ruwais, while ADNOC Offshore, ADNOC Gas and ADNOC LNG generate continuous pressure, pipeline and rotating-equipment inspection volume under the ADNOC Code of Practice and HSEIA framework. Mubadala's aerospace cluster - Strata Manufacturing in Al Ain (Airbus and Boeing composite aerostructures) and Sanad Aerotech in Mussafah (GE, RR and IAE engine MRO) - drives AS9100, Nadcap NDT and GCAA Part 145 work. ENEC's Barakah Nuclear Power Plant, with four APR-1400 units now operational, adds ASME Section XI ISI volume governed by FANR. EGA Al Taweelah aluminium smelter, Emirates Steel and TAQA power and water assets round out the load. Atlantis NDT ERP unifies ADNOC, aerospace and nuclear code sets with bilingual Arabic-English output aligned to FANR, GCAA and ADNOC audit expectations.",
+    "integrationPainParagraph": "ADNOC Group standardizes on SAP S/4HANA at enterprise and IBM Maximo on the plant floor, with Oracle EBS surviving at some legacy units and IFS Cloud adopted at aerospace MROs. Inspection data historically lived in PCMS, Credo and shared drives, which failed ADNOC COP evidence reviews and FANR nuclear audits. Atlantis NDT ERP writes inspection findings, TML readings, NDE certs and task-card evidence directly into SAP PM notifications, Maximo functional locations and Oracle EAM via REST, while Primavera P6 picks up hold-point closures the same shift. ADNOC HSEIA forms, ASME Section XI ISI intervals and AS9100 audit trails are preloaded, so ADNOC, FANR and Nadcap audits pull clean without rework.",
+    "remoteDeliveryPitch": "Atlantis implements across Abu Dhabi fully remotely. Discovery runs over Teams in bilingual Arabic-English with Sunday-Thursday working week alignment, SAP and Maximo connectors are sandboxed against ADNOC-style tenants, and technicians train in recorded sessions for Ruwais, Al Ain and Barakah night shifts. Typical Abu Dhabi rollouts go live in 6-8 weeks, sequenced around ADNOC turnaround windows, Sanad engine-shop slots and Barakah outages so no inspection campaign slips.",
+    "featureBullets": [
+      "ADNOC COP and HSEIA-aligned inspection templates and evidence packs",
+      "ASME Section XI ISI scheduling for Barakah APR-1400 reactor assets",
+      "AS9100 and Nadcap NDT audit trails for Strata and Sanad aerospace work",
+      "Bilingual Arabic-English UI, reports and e-signatures",
+      "SAP PM, Maximo and Oracle EBS REST push with closeout evidence",
+      "FANR, GCAA and ADNOC audit-ready retention and chain-of-custody"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do ADNOC contractors use in Abu Dhabi?",
+        "a": "ADNOC-tier contractors use NDT ERP platforms that enforce the ADNOC Code of Practice and HSEIA, with API 510/570/653 inspection workflows pushed into SAP PM and Maximo."
+      },
+      {
+        "q": "Does it support FANR nuclear inspection records for Barakah?",
+        "a": "Yes. ASME Section XI ISI intervals, weld maps and reactor component records are preloaded with FANR retention and audit-trail structures for Barakah's four APR-1400 units."
+      },
+      {
+        "q": "Can it manage AS9100 NDT audits for Strata and Sanad?",
+        "a": "Yes. Nadcap NDT checklists, personnel certs and procedure revisions are tracked at the part-number and serial-number level, aligned to Airbus, Boeing, GE and Rolls-Royce primes."
+      },
+      {
+        "q": "Is the Arabic interface production-ready?",
+        "a": "Yes. Full RTL Arabic UI, PDF reports and digital signatures are accepted by ADNOC, FANR and GCAA, with English exports for expat technicians and international primes."
+      },
+      {
+        "q": "How does it integrate with SAP S/4HANA at ADNOC?",
+        "a": "It writes inspection results back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing ADNOC functional locations without rekeying."
+      },
+      {
+        "q": "Does it handle offshore platform inspection campaigns?",
+        "a": "Yes. ADNOC Offshore platforms, risers and subsea pipelines are tracked with CUI, UT and close-visual campaigns linked to RBI and fitness-for-service modules."
+      },
+      {
+        "q": "Can it support engine-shop NDT at Sanad Aerotech?",
+        "a": "Yes. FPI, MPI, ET and UT results tie to engine serial numbers and task cards, pushing into TRAX or IFS for GE, RR and IAE engine MRO."
+      },
+      {
+        "q": "How long does Abu Dhabi implementation take?",
+        "a": "A typical Abu Dhabi deployment takes 6 to 8 weeks remotely, including SAP and Maximo connector setup, ADNOC COP template configuration and bilingual technician training."
+      }
+    ]
+  },
+  {
+    "slug": "ruwais",
+    "city": "Ruwais",
+    "state": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "MENA",
+    "industries": [
+      "refining",
+      "petchem",
+      "lng",
+      "oil-gas",
+      "port-ops"
+    ],
+    "namedFacilities": [
+      "ADNOC Ruwais Refinery West + East (approx 922k BPD, among world's largest)",
+      "Borouge 1/2/3/4 petchem complex (ADNOC/Borealis JV, polyolefins)",
+      "ADNOC Fertiliser (Fertil)",
+      "Ruwais Industrial Complex sulphur handling",
+      "Al Ruwais Port (ADNOC Logistics)",
+      "Ta'ziz chemicals complex (under construction/phased commissioning)"
+    ],
+    "codes": [
+      "ADNOC COP",
+      "ADNOC HSEIA",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "ASME BPVC Section V",
+      "AWS D1.1"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "OSI PI"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Ruwais NDT ERP 2026 | ADNOC Refinery, Borouge, Fertil",
+    "meta155": "Ruwais NDT ERP for ADNOC refining, Borouge petchem and Ta'ziz chemicals: ADNOC COP, API 510/570/653 and 579 in SAP PM, Maximo and Primavera.",
+    "h1": "Ruwais NDT ERP Software - Customizable for All Industries",
+    "localHook": "Ruwais is ADNOC's integrated downstream city. The Ruwais Refinery complex (West + East trains combined, approaching 922k BPD with the planned crude flexibility project) is one of the world's largest single-site refineries. Borouge 1, 2, 3 and the Borouge 4 expansion form the Middle East's largest polyolefins complex via the ADNOC-Borealis JV, producing polyethylene and polypropylene at scale. ADNOC Fertiliser (Fertil), sulphur handling units and the new Ta'ziz chemicals zone add ammonia, urea and specialty chemical inspection load. Al Ruwais Port handles LPG, naphtha, condensate and sulphur exports. Inspectors work continuously on pressure vessels, piping circuits, fired heaters, cryogenic units, polyolefin reactors and sulphur trains under the ADNOC Code of Practice, API 510/570/653 and API 579 fitness-for-service. Atlantis NDT ERP runs every Ruwais asset class in one bilingual Arabic-English system aligned to ADNOC HSEIA and Ta'ziz audit expectations. Royal Commission Al Ruwais oversight adds freezone audit expectations across every JV and contractor footprint.",
+    "integrationPainParagraph": "ADNOC Refining and Borouge standardize on SAP S/4HANA at enterprise with IBM Maximo on the plant floor, Primavera P6 driving turnaround and capital schedules, and OSI PI historians feeding process data. Inspection and NDE results historically sit in siloed PCMS or Credo databases that struggle to post back into SAP PM notifications or Maximo work orders in real time, stalling integrity reviews during major turnarounds. Atlantis NDT ERP bridges that gap by writing TML thickness readings, CML trends, NDE certs and RBI outputs into SAP PM and Maximo functional locations via REST, while Primavera P6 sees hold-point completions without manual status meetings. ADNOC COP and API 579 Level 1/2/3 records stay linked to every inspection.",
+    "remoteDeliveryPitch": "Atlantis rolls out across the Ruwais complex without flying consultants to Al Dhafra. Discovery runs over Teams in Arabic and English, SAP, Maximo and OSI PI connectors are sandboxed against an ADNOC-style tenant, and technicians train in bilingual recorded sessions covering night shifts. Typical Ruwais deployments reach production in 7-9 weeks, sequenced around refinery turnaround windows and Borouge polymer line shutdowns so no ADNOC HSEIA hold-point slips.",
+    "featureBullets": [
+      "ADNOC COP and HSEIA-aligned refining and petchem inspection templates",
+      "API 510/570/653 and API 579 Level 1/2/3 fitness-for-service calculators",
+      "Bilingual Arabic-English UI, reports and e-signatures for ADNOC audits",
+      "Borouge polyolefin reactor and compressor inspection tracking",
+      "SAP PM, Maximo and Primavera P6 REST push with turnaround hold-points",
+      "OSI PI historian tie-in for corrosion rate and TML trend overlays"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does ADNOC Refining use at Ruwais?",
+        "a": "ADNOC Refining contractors use NDT ERP platforms enforcing the ADNOC Code of Practice with API 510/570/653 and 579 workflows pushed into SAP PM, Maximo and Primavera P6."
+      },
+      {
+        "q": "Does it support Borouge petchem inspection programs?",
+        "a": "Yes. Polyolefin reactor, compressor and cryogenic unit inspection records are preloaded with Borouge-style templates for ADNOC-Borealis JV sites."
+      },
+      {
+        "q": "Can it run API 579 fitness-for-service at Ruwais?",
+        "a": "Yes. Level 1, 2 and 3 FFS assessments for local thin areas, pitting, cracking and creep damage are built in and traced against CML and TML history."
+      },
+      {
+        "q": "Is it bilingual Arabic-English for ADNOC audits?",
+        "a": "Yes. Full RTL Arabic UI, reports and e-signatures are accepted by ADNOC HSEIA, with English exports for international EPC and inspection contractors."
+      },
+      {
+        "q": "How does it integrate with SAP S/4HANA and Maximo at ADNOC?",
+        "a": "It writes TML readings, CML trends and NDE findings back to SAP PM notifications and Maximo functional locations via REST, eliminating duplicate entry during turnarounds."
+      },
+      {
+        "q": "Does it handle Ta'ziz chemicals complex commissioning?",
+        "a": "Yes. Pre-commissioning PT, MPI, UT and RT records tie to punchlists and ADNOC Ta'ziz handover packs, with P6 hold-points for each unit."
+      },
+      {
+        "q": "Can it support Fertil ammonia and urea inspection?",
+        "a": "Yes. Fertil ammonia converters, urea reactors and HP loops are tracked with API 510, ASME VIII Div 1/2 and ADNOC COP references."
+      },
+      {
+        "q": "How long does a Ruwais implementation take?",
+        "a": "Typical Ruwais rollouts take 7 to 9 weeks remotely, including SAP, Maximo, OSI PI and Primavera P6 connector setup and bilingual technician training."
+      }
+    ]
+  },
+  {
+    "slug": "dhahran",
+    "city": "Dhahran",
+    "state": "Eastern Province",
+    "country": "Saudi Arabia",
+    "region": "MENA",
+    "industries": [
+      "oil-gas",
+      "refining",
+      "petchem",
+      "pipelines",
+      "power-generation"
+    ],
+    "namedFacilities": [
+      "Saudi Aramco Headquarters (Dhahran)",
+      "Saudi Aramco EXPEC Advanced Research Center",
+      "Aramco Abqaiq processing facility (nearby, fed from Dhahran ops)",
+      "Aramco Ras Tanura refinery + terminal (nearby, 550k BPD)",
+      "King Fahd University of Petroleum and Minerals (KFUPM)"
+    ],
+    "codes": [
+      "SAES-W-010",
+      "SAES-W-011",
+      "SAEP-1142",
+      "GI 2.100",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "ASME BPVC Section V"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "OSI PI"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Dhahran NDT ERP 2026 | Saudi Aramco SAES-W-010 Ready",
+    "meta155": "Dhahran NDT ERP for Saudi Aramco contractors: SAES-W-010, SAEP-1142 and GI 2.100 with API 510/570/653 wired into SAP PM, Maximo and Primavera P6.",
+    "h1": "Dhahran NDT ERP Software - Customizable for All Industries",
+    "localHook": "Dhahran is Saudi Aramco's nerve center. The Aramco headquarters, EXPEC Advanced Research Center and operational commands drive inspection standards for the entire Kingdom, from Ghawar and Safaniya fields to Abqaiq's processing trains, Shaybah GOSP trains, the Master Gas System, and the Ras Tanura and Yanbu refineries. Every contractor and EPC firm working Aramco scope has to meet SAES-W-010 (welding requirements), SAES-W-011 (welder qualification), SAEP-1142 (inspection and testing) and GI 2.100 series for engineering and construction. KFUPM feeds the inspection talent pipeline, and most major inspection vendors - Bureau Veritas, Intertek, TUV Rheinland, Applus+ - run Eastern Province hubs out of Dhahran and Al Khobar. Asset classes range from sour gas trains and water injection networks to pipelines, tank farms and cogeneration plants. Atlantis NDT ERP preloads SAES-W-010, SAEP-1142 and GI 2.100 templates with bilingual Arabic-English output for Aramco-compliant records. Dhahran's inspection vendor density - Bureau Veritas, Intertek, TUV Rheinland and Applus+ - sets the Kingdom's benchmark for contractor scope.",
+    "integrationPainParagraph": "Saudi Aramco and its EPC partners standardize on SAP S/4HANA at enterprise with IBM Maximo on the plant floor, Primavera P6 for capital and turnaround schedules, and OSI PI historians across process units. Inspection data traditionally lived in siloed PCMS or Meridium databases and Excel trackers, which struggled to satisfy Aramco's T&I (Test and Inspection) department audits and SAEP-1142 evidence reviews. Atlantis NDT ERP writes inspection findings, welder qualification records, TML trends and NDE certs directly into SAP PM notifications, Maximo functional locations and Primavera P6 hold-points via REST, with SAES-W-010 weld maps and SAEP-1142 inspection test plans preloaded so Aramco T&I audits pull clean first pass.",
+    "remoteDeliveryPitch": "Atlantis deploys Aramco contractors and Dhahran-based EPCs entirely remotely. Discovery runs over Teams in bilingual Arabic-English, aligned to the Sunday-Thursday Saudi working week, SAP and Maximo connectors are sandboxed against Aramco SA template tenants, and technicians train in recorded sessions covering Eastern Province night shifts. Typical Dhahran rollouts reach production in 6-8 weeks, sequenced around Aramco turnaround and pre-commissioning windows so no SAES-W-010 hold-point slips.",
+    "featureBullets": [
+      "SAES-W-010, SAES-W-011 and SAEP-1142 preloaded inspection and weld templates",
+      "GI 2.100 series construction and inspection evidence packs",
+      "API 510/570/653 and API 579 FFS calculators for Aramco assets",
+      "Bilingual Arabic-English UI, reports and e-signatures for T&I audits",
+      "SAP PM, Maximo and Primavera P6 REST push with hold-point automation",
+      "Welder and inspector qualification tracking with Aramco SA certificate retention"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do Saudi Aramco contractors use?",
+        "a": "Aramco-approved contractors use NDT ERP platforms that preload SAES-W-010, SAEP-1142 and GI 2.100 templates and integrate with SAP PM, Maximo and Primavera P6 used by Aramco."
+      },
+      {
+        "q": "Does it support SAES-W-010 welding inspection requirements?",
+        "a": "Yes. SAES-W-010 weld maps, NDE coverage and acceptance criteria are preloaded, with SAEP-1142 inspection test plans linked to each weld joint."
+      },
+      {
+        "q": "Can it handle SAES-W-011 welder qualification tracking?",
+        "a": "Yes. SAES-W-011 welder performance qualifications, continuity and renewal windows are tracked with automatic alerts and Aramco-ready certificate PDFs."
+      },
+      {
+        "q": "Is Arabic reporting accepted by Aramco T&I?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported, though Aramco T&I typically requires English records - the system exports both formats simultaneously."
+      },
+      {
+        "q": "How does it integrate with SAP used by Aramco EPCs?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so findings appear on existing Aramco functional locations without rekeying."
+      },
+      {
+        "q": "Does it cover Abqaiq and Ras Tanura turnarounds?",
+        "a": "Yes. API 510/570/653 and 579 workflows plus Primavera P6 hold-point sync cover pressure-vessel, piping and tank inspection during Abqaiq and Ras Tanura TAs."
+      },
+      {
+        "q": "Can it manage sour-service inspection per NACE MR0175?",
+        "a": "Yes. Sour-service material tracking, HIC, SSC and SOHIC inspection plans are linked to NACE MR0175/ISO 15156 records for Aramco gas and oil scope."
+      },
+      {
+        "q": "How long does a Dhahran implementation take?",
+        "a": "Typical Dhahran deployments take 6 to 8 weeks remotely, including SAP and Maximo connector setup, SAES/SAEP template loading and bilingual technician training."
+      }
+    ]
+  },
+  {
+    "slug": "jubail",
+    "city": "Jubail",
+    "state": "Eastern Province",
+    "country": "Saudi Arabia",
+    "region": "MENA",
+    "industries": [
+      "petchem",
+      "refining",
+      "chemical",
+      "port-ops",
+      "desalination"
+    ],
+    "namedFacilities": [
+      "SABIC Jubail petchem complex (multiple affiliates)",
+      "SATORP Jubail refinery (Aramco/TotalEnergies JV, 460k BPD)",
+      "Sadara Chemical (Aramco/Dow JV)",
+      "Royal Commission Jubail Industrial City infrastructure",
+      "Jubail Commercial Port (SPA) + King Fahd Industrial Port",
+      "SWCC Jubail desalination (one of world's largest)"
+    ],
+    "codes": [
+      "SAES-W-010",
+      "SAEP-1142",
+      "SABIC ES standards",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Jubail NDT ERP 2026 | SABIC, SATORP, Sadara Petchem",
+    "meta155": "Jubail NDT ERP for SABIC petchem, SATORP refinery and Sadara chemicals: SAES-W-010, SAEP-1142 and SABIC ES in SAP PM, Maximo and Primavera.",
+    "h1": "Jubail NDT ERP Software - Customizable for All Industries",
+    "localHook": "Jubail Industrial City is the world's largest integrated petchem hub. SABIC's Jubail affiliates (Kemya, Yanpet, Petrokemya, Ibn Sina, Sharq and others) plus the SATORP refinery (Saudi Aramco/TotalEnergies JV at 460k BPD) and Sadara Chemical (Aramco/Dow JV) form the petchem core, fed by utilities from Marafiq and seawater from SWCC Jubail desalination - one of the largest plants on earth. King Fahd Industrial Port and Jubail Commercial Port handle petchem and chemical exports at scale. Inspection scope covers cracker furnaces, polyethylene and polypropylene reactors, MEG and ethylene oxide trains, sour gas treaters, sulphur recovery units, MSF and RO desalination tube bundles and jetty lines. Every Aramco and SABIC contractor must meet SAES-W-010, SAEP-1142 and SABIC Engineering Standards. Atlantis NDT ERP consolidates petchem, refining, chemical and desalination streams in one bilingual Arabic-English system aligned to SABIC, Aramco and Royal Commission audit expectations.",
+    "integrationPainParagraph": "SABIC, SATORP and Sadara standardize on SAP S/4HANA at enterprise with IBM Maximo on the plant floor and Primavera P6 driving capital and turnaround schedules, while some service contractors run IFS Cloud. Inspection and NDE data historically sat in PCMS, Meridium and shared drives, which stalled SABIC and Aramco T&I audit reviews and missed RBI update cycles. Atlantis NDT ERP writes TML and CML readings, RT and UT results, welder qualifications and NDE certs directly into SAP PM notifications and Maximo functional locations via REST, with SAES-W-010, SAEP-1142 and SABIC ES templates preloaded so SABIC and Aramco audits pull clean first pass during turnarounds.",
+    "remoteDeliveryPitch": "Atlantis deploys Jubail SABIC and Aramco contractors entirely remotely. Discovery runs over Teams in bilingual Arabic-English aligned to the Sunday-Thursday week, SAP and Maximo connectors are sandboxed against SABIC and Aramco template tenants, and technicians train via recorded bilingual sessions covering Jubail night shifts. Typical Jubail rollouts go live in 7-9 weeks, sequenced around SABIC cracker TAs, SATORP turnarounds and Sadara unit outages so no SAES-W-010 hold-point slips.",
+    "featureBullets": [
+      "SAES-W-010, SAEP-1142 and SABIC Engineering Standards templates preloaded",
+      "API 510/570/653 inspection workflows for refining, petchem and chemicals",
+      "SWCC desalination tube-bundle IRIS, ECT and RFT inspection tracking",
+      "Bilingual Arabic-English UI, reports and e-signatures for Royal Commission audits",
+      "SAP PM, Maximo and Primavera P6 REST push with turnaround hold-points",
+      "Welder and inspector qualification tracking with Aramco and SABIC certificate retention"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does SABIC use at Jubail?",
+        "a": "SABIC affiliates use NDT ERP platforms that enforce SABIC Engineering Standards alongside SAES-W-010 and SAEP-1142, integrated with SAP PM and Maximo used across Jubail affiliates."
+      },
+      {
+        "q": "Does it support SATORP refinery turnarounds?",
+        "a": "Yes. API 510/570/653 and 579 workflows tied to Primavera P6 hold-points cover SATORP crude, vacuum, hydrocracker and HDS unit turnarounds."
+      },
+      {
+        "q": "Can it run Sadara Chemical inspection programs?",
+        "a": "Yes. Sadara isocyanates, polyether polyols and specialty chemical units are tracked with Aramco-Dow JV templates and ADNOC/SABIC-style reporting."
+      },
+      {
+        "q": "Is it bilingual for Royal Commission Jubail audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported, with English exports for EPCs and T&I departments, accepted by Royal Commission inspectors."
+      },
+      {
+        "q": "How does it integrate with SAP at SABIC affiliates?",
+        "a": "It writes inspection findings, weld data and TML trends back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing SABIC functional locations."
+      },
+      {
+        "q": "Does it handle SWCC desalination plant inspection?",
+        "a": "Yes. MSF evaporator shells, RO racks and jetty intake lines are tracked with IRIS, ECT, RFT and UT records and plug-map histories."
+      },
+      {
+        "q": "Can it manage sulphur recovery unit inspections?",
+        "a": "Yes. SRU reaction furnaces, waste heat boilers and Claus condensers carry API 510, NACE and SAES-W-010 inspection plans with high-temperature sulphidation tracking."
+      },
+      {
+        "q": "How long does a Jubail implementation take?",
+        "a": "Typical Jubail deployments take 7 to 9 weeks remotely, including SAP, Maximo and Primavera P6 connector setup, SABIC/Aramco template loading and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "yanbu",
+    "city": "Yanbu",
+    "state": "Madinah Province",
+    "country": "Saudi Arabia",
+    "region": "MENA",
+    "industries": [
+      "refining",
+      "petchem",
+      "oil-gas",
+      "port-ops",
+      "desalination"
+    ],
+    "namedFacilities": [
+      "Aramco Yanbu Refinery (250k BPD)",
+      "YASREF (Aramco/Sinopec JV, 400k BPD)",
+      "SAMREF (Aramco/ExxonMobil JV, 400k BPD)",
+      "Yanpet (SABIC/ExxonMobil JV petchem)",
+      "Yansab (SABIC petchem affiliate)",
+      "King Fahd Industrial Port Yanbu (East-West pipeline terminus)"
+    ],
+    "codes": [
+      "SAES-W-010",
+      "SAES-W-011",
+      "SAEP-1142",
+      "SABIC ES",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "Oracle EBS"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Yanbu NDT ERP 2026 | YASREF, SAMREF, Yanpet, Yansab",
+    "meta155": "Yanbu NDT ERP for YASREF, SAMREF, Yanpet and Yansab: SAES-W-010, SAEP-1142 and SABIC ES workflows in SAP PM, Maximo and Primavera P6.",
+    "h1": "Yanbu NDT ERP Software - Customizable for All Industries",
+    "localHook": "Yanbu Industrial City is Saudi Arabia's Red Sea export gateway. Three major refineries - Aramco's wholly-owned Yanbu Refinery (250k BPD), YASREF (Aramco/Sinopec JV, 400k BPD) and SAMREF (Aramco/ExxonMobil JV, 400k BPD) - process crude arriving via the East-West pipeline from Abqaiq. Yanpet (SABIC/ExxonMobil JV) and Yansab run ethylene, polyethylene and MEG trains, while King Fahd Industrial Port Yanbu exports crude, products and petchem at scale alongside SWCC desalination. Every Aramco and SABIC contractor must satisfy SAES-W-010, SAES-W-011 and SAEP-1142 on welding and inspection, plus SABIC Engineering Standards on petchem. Inspection scope covers CDU, VDU, hydrocracker, hydrotreater and reformer units, ethylene crackers, polymer reactors, sulphur trains and the Red Sea jetty lines. Atlantis NDT ERP consolidates refining and petchem code streams in one bilingual Arabic-English system aligned to Aramco T&I, SABIC and Royal Commission Yanbu audit expectations. Royal Commission Yanbu freezone oversight adds construction and operational audit expectations across every JV contractor footprint operating in the industrial city.",
+    "integrationPainParagraph": "Yanbu operators standardize on SAP S/4HANA with IBM Maximo on the plant floor and Primavera P6 for capital and turnaround schedules, with Oracle EBS at a few service contractors. Inspection and NDE data historically sat in PCMS, Meridium and Excel trackers, which struggled to satisfy Aramco T&I, SABIC and Royal Commission reviews and missed RBI update cycles during TAs. Atlantis NDT ERP writes TML and CML readings, RT and UT results, welder qualifications and NDE certs directly into SAP PM notifications and Maximo functional locations via REST, with SAES-W-010, SAEP-1142 and SABIC ES templates preloaded so Aramco and SABIC audits pull clean first pass at YASREF, SAMREF, Yanpet and Yansab during turnaround execution.",
+    "remoteDeliveryPitch": "Atlantis deploys Yanbu operators and EPCs fully remotely. Discovery runs over Teams in bilingual Arabic-English, aligned to Sunday-Thursday Saudi workweeks, SAP and Maximo connectors are sandboxed against Aramco and SABIC template tenants, and technicians train in recorded bilingual sessions covering Yanbu night shifts. Typical Yanbu rollouts reach production in 6-8 weeks, sequenced around YASREF, SAMREF and Yanpet turnarounds so no SAES-W-010 hold-point slips.",
+    "featureBullets": [
+      "SAES-W-010, SAES-W-011 and SAEP-1142 preloaded weld and inspection templates",
+      "SABIC Engineering Standards coverage for Yanpet and Yansab petchem",
+      "API 510/570/653 and 579 workflows for YASREF, SAMREF and Aramco Yanbu Refinery",
+      "Bilingual Arabic-English UI, reports and e-signatures for T&I audits",
+      "SAP PM, Maximo and Primavera P6 REST push with hold-point automation",
+      "Red Sea jetty and pipeline inspection tracking with NACE sour-service controls"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does YASREF use at Yanbu?",
+        "a": "YASREF-tier contractors use NDT ERP platforms preloaded with SAES-W-010 and SAEP-1142 templates, integrated with SAP PM, Maximo and Primavera P6 for refinery turnarounds."
+      },
+      {
+        "q": "Does it support SAMREF ExxonMobil JV inspection programs?",
+        "a": "Yes. SAMREF CDU, VDU, hydrocracker and alkylation units are tracked with Aramco/ExxonMobil JV templates and SAES/SAEP references."
+      },
+      {
+        "q": "Can it run Yanpet and Yansab petchem inspections?",
+        "a": "Yes. SABIC Engineering Standards templates cover ethylene crackers, polyethylene reactors and MEG trains at Yanpet and Yansab with SAP PM sync."
+      },
+      {
+        "q": "Is it bilingual for Royal Commission Yanbu audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported with English exports for Aramco T&I, SABIC and EPC reviewers."
+      },
+      {
+        "q": "How does it integrate with SAP at Yanbu sites?",
+        "a": "It writes inspection findings, weld data and TML trends back to SAP PM notifications and QM inspection lots via REST, so findings appear on existing Aramco and SABIC functional locations."
+      },
+      {
+        "q": "Does it handle East-West pipeline terminus inspections?",
+        "a": "Yes. Pipeline crude and product receipt lines at Yanbu terminus are tracked with API 570, ILI reconciliation and NACE MR0175 sour-service flags."
+      },
+      {
+        "q": "Can it manage Red Sea jetty CUI campaigns?",
+        "a": "Yes. CUI, hot-box and external coating inspection programs run with NACE SP0198 alignment and RBI scoring for jetty product lines."
+      },
+      {
+        "q": "How long does a Yanbu implementation take?",
+        "a": "Typical Yanbu deployments take 6 to 8 weeks remotely, including SAP, Maximo and Primavera P6 connector setup and bilingual Arabic-English training."
+      }
+    ]
+  },
+  {
+    "slug": "riyadh",
+    "city": "Riyadh",
+    "state": "Riyadh Province",
+    "country": "Saudi Arabia",
+    "region": "MENA",
+    "industries": [
+      "power-generation",
+      "aerospace-mro",
+      "defense",
+      "chemical",
+      "auto-manufacturing"
+    ],
+    "namedFacilities": [
+      "SEC PP10 / PP11 combined-cycle power plants (Riyadh)",
+      "Alsalam Aerospace Industries (Riyadh, F-15 MRO)",
+      "SAMI (Saudi Arabian Military Industries HQ)",
+      "King Khalid International Airport maintenance hangars",
+      "Saudi Electricity Company National Grid SA HQ",
+      "Saudi Railway SAR Riyadh operations hub"
+    ],
+    "codes": [
+      "SAES-W-010",
+      "SAEP-1142",
+      "AS9100",
+      "Nadcap NDT",
+      "API 510",
+      "API 570",
+      "ASME BPVC Section V"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Riyadh NDT ERP 2026 | SEC Power, Alsalam Aerospace, SAMI",
+    "meta155": "Riyadh NDT ERP for SEC power, Alsalam F-15 MRO, SAMI defense and chemicals: SAES-W-010, AS9100 and Nadcap NDT in SAP, Maximo and IFS Cloud.",
+    "h1": "Riyadh NDT ERP Software - Customizable for All Industries",
+    "localHook": "Riyadh's inspection profile is power, aerospace and defense heavy. Saudi Electricity Company (SEC) operates PP10, PP11 and PP9 combined-cycle and simple-cycle plants feeding the capital's load, with HRSG, gas turbine and boiler inspection under ASME BPVC and API 510. Alsalam Aerospace Industries runs F-15 airframe and engine MRO under AS9100 and Nadcap NDT with GE and Pratt & Whitney engine work. SAMI (Saudi Arabian Military Industries) headquartered here drives localization of defense NDT under Vision 2030. King Khalid International Airport hangars handle Saudia and flyadeal narrow-body MRO. Saudi Railway (SAR) Riyadh hub runs North-South and Landbridge rail asset inspection, and expanding chemical, food and auto plants - including the new Lucid EV plant in King Abdullah Economic City supply chain - add fabrication inspection. Atlantis NDT ERP runs SAES-W-010, AS9100, Nadcap NDT and ASME streams in one bilingual Arabic-English system.",
+    "integrationPainParagraph": "Riyadh operators mix SAP S/4HANA at SEC and SAMI, IBM Maximo in power plants and airports, Oracle EBS at legacy defense units and IFS Cloud rising at aerospace MROs. Inspection data historically sat in shared drives and Excel sheets, which failed GACA Part 145 audits, Nadcap NDT reviews and SEC outage integrity reports. Atlantis NDT ERP writes inspection findings, weld qualification records and NDE certs directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with SAES-W-010, SAEP-1142, AS9100 and Nadcap NDT checklists preloaded so GACA, SEC and defense audits pull clean first pass during outages and MRO inductions.",
+    "remoteDeliveryPitch": "Atlantis deploys Riyadh operators remotely, with discovery over Teams in bilingual Arabic-English aligned to Sunday-Thursday workweeks, SAP and Maximo connectors sandboxed against SEC and defense template tenants, and technicians trained in recorded bilingual sessions covering Riyadh night shifts. Typical Riyadh rollouts reach production in 5-7 weeks, sequenced around SEC summer peak outages and Alsalam F-15 induction windows so no hold-point slips.",
+    "featureBullets": [
+      "SAES-W-010 and SAEP-1142 preloaded templates for SEC and Aramco-scope contractors",
+      "AS9100 and Nadcap NDT audit evidence for Alsalam and SAMI aerospace work",
+      "API 510/570/653 and ASME BPVC Section V for SEC power plant outages",
+      "Bilingual Arabic-English UI, reports and e-signatures for GACA and SEC audits",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence",
+      "F-15 and commercial narrow-body engine and airframe NDT tracking"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does SEC use at Riyadh power plants?",
+        "a": "SEC contractors use NDT ERP platforms enforcing SAES-W-010 and API 510/ASME BPVC templates, integrated with SAP PM and Maximo for PP10, PP11 and PP9 outages."
+      },
+      {
+        "q": "Does it support AS9100 and Nadcap NDT for Alsalam Aerospace?",
+        "a": "Yes. AS9100 and Nadcap NDT audit checklists, personnel certs and procedure revisions are preloaded for Alsalam's F-15 airframe and engine MRO work."
+      },
+      {
+        "q": "Can it support SAMI defense NDT localization?",
+        "a": "Yes. SAMI-style defense inspection with AS9100, MIL-STD and GCC localization records is supported, with Vision 2030 IKTVA-aligned retention."
+      },
+      {
+        "q": "Is Arabic interface ready for GACA Part 145 audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported, with English exports for GACA, EASA and FAA reviewers accepted at Saudia and Alsalam operations."
+      },
+      {
+        "q": "How does it integrate with SAP at SEC and SAMI?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing SEC and SAMI functional locations."
+      },
+      {
+        "q": "Does it handle HRSG and gas turbine outage inspections?",
+        "a": "Yes. HRSG tube thickness, gas turbine hot-section eddy current, borescope and boroblend records are tracked with OEM task-card structure."
+      },
+      {
+        "q": "Can it manage Saudi Railway SAR rail asset NDT?",
+        "a": "Yes. Rail wheelset UT, axle MPI and bogie frame inspections are tracked with SAR and Talgo-aligned records."
+      },
+      {
+        "q": "How long does a Riyadh implementation take?",
+        "a": "Typical Riyadh deployments take 5 to 7 weeks remotely, including SAP, Maximo, Oracle EBS or IFS Cloud connector setup and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "doha",
+    "city": "Doha",
+    "state": "",
+    "country": "Qatar",
+    "region": "MENA",
+    "industries": [
+      "oil-gas",
+      "lng",
+      "power-generation",
+      "port-ops",
+      "aerospace-mro"
+    ],
+    "namedFacilities": [
+      "QatarEnergy HQ (Doha)",
+      "Qatar Airways Doha Engineering (Hamad International Airport MRO)",
+      "Mesaieed Industrial City (nearby: QAPCO, QAFAC, QAFCO)",
+      "Ras Abu Fontas power + desalination complex",
+      "Hamad Port (Qatar's deep-sea container and industrial gateway)",
+      "Qatar Steel (Industries Qatar)"
+    ],
+    "codes": [
+      "QP ES (QatarEnergy Engineering Standards)",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "AS9100",
+      "ADNOC HSEIA (regional)",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Doha NDT ERP 2026 | QatarEnergy, Qatar Airways MRO, QP ES",
+    "meta155": "Doha NDT ERP for QatarEnergy, Qatar Airways MRO and Mesaieed petchem: QP ES, API 510/570/653 and AS9100 in SAP PM, Maximo and IFS Cloud.",
+    "h1": "Doha NDT ERP Software - Customizable for All Industries",
+    "localHook": "Doha is QatarEnergy's command center and the launching point for Qatar's North Field expansion, pushing LNG capacity toward 142 MTPA by 2030. The Doha HQ directs inspection standards for QatarEnergy LNG (formerly Qatargas/RasGas) trains at Ras Laffan, Mesaieed Industrial City's petchem and fertilizer complexes (QAPCO, QAFAC, QAFCO, QChem), and the Dukhan onshore oil field. Qatar Airways Doha Engineering at Hamad International Airport runs one of the region's largest widebody MRO operations under AS9100 and QCAA Part 145. Ras Abu Fontas drives combined power and desalination load, Qatar Steel rolls rebar and sections, and Hamad Port handles industrial and container traffic. Every contractor must satisfy QatarEnergy Engineering Standards (QP ES), API 510/570/653 and NACE MR0175 sour-service requirements. Atlantis NDT ERP consolidates oil and gas, petchem, aerospace MRO and power in one bilingual Arabic-English system aligned to QatarEnergy, QCAA and Qatari ministry audits.",
+    "integrationPainParagraph": "QatarEnergy and its JV partners standardize on SAP S/4HANA at enterprise with IBM Maximo on the plant floor, Oracle EBS at some legacy affiliates and IFS Cloud at Qatar Airways Engineering for component MRO. Inspection and NDE records historically sat in shared drives, PCMS and Meridium databases, which struggled to satisfy QP ES audits and QCAA Part 145 reviews. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and task-card evidence directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with QP ES, API 510 and AS9100 templates preloaded so QatarEnergy, QCAA and Ministry of Energy audits pull clean first pass during turnarounds and MRO inductions.",
+    "remoteDeliveryPitch": "Atlantis deploys Doha operators and EPCs remotely. Discovery runs over Teams in bilingual Arabic-English aligned to Sunday-Thursday workweeks, SAP and Maximo connectors are sandboxed against QatarEnergy template tenants, and technicians train in recorded bilingual sessions covering Doha and Hamad Airport night shifts. Typical Doha rollouts reach production in 6-8 weeks, sequenced around Mesaieed turnarounds, Qatar Airways induction windows and Ras Abu Fontas outages.",
+    "featureBullets": [
+      "QP ES (QatarEnergy Engineering Standards) preloaded templates",
+      "API 510/570/653 and API 579 FFS calculators for Mesaieed and Dukhan",
+      "AS9100 and QCAA Part 145 audit evidence for Qatar Airways Engineering",
+      "Bilingual Arabic-English UI, reports and e-signatures",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence",
+      "NACE MR0175 sour-service tracking for North Field and Dukhan assets"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does QatarEnergy use at Doha HQ?",
+        "a": "QatarEnergy contractors use NDT ERP platforms enforcing QP Engineering Standards and API 510/570/653, integrated with SAP PM and Maximo used across QatarEnergy affiliates."
+      },
+      {
+        "q": "Does it support Qatar Airways Engineering AS9100 audits?",
+        "a": "Yes. AS9100, QCAA Part 145 and Nadcap NDT checklists are preloaded for widebody MRO at Hamad International Airport."
+      },
+      {
+        "q": "Can it run Mesaieed petchem inspection programs?",
+        "a": "Yes. QAPCO, QAFAC, QAFCO and QChem units are covered with QP ES templates, NACE MR0175 sour-service tracking and SAP PM sync."
+      },
+      {
+        "q": "Is it bilingual for Qatari ministry audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported with English exports, accepted by QatarEnergy, QCAA and Ministry of Energy reviewers."
+      },
+      {
+        "q": "How does it integrate with SAP at QatarEnergy?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing QatarEnergy functional locations."
+      },
+      {
+        "q": "Does it handle Ras Abu Fontas desalination tube inspections?",
+        "a": "Yes. MSF evaporator shells and RO racks are tracked with IRIS, ECT, RFT and UT records and tube-plug histories."
+      },
+      {
+        "q": "Can it manage Qatar Steel rebar mill NDT?",
+        "a": "Yes. DRI shaft furnaces, EAF meltshops and rolling mill assets are tracked with API 510, ASME BPVC and Qatar Steel-aligned records."
+      },
+      {
+        "q": "How long does a Doha implementation take?",
+        "a": "Typical Doha deployments take 6 to 8 weeks remotely, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "ras-laffan",
+    "city": "Ras Laffan",
+    "state": "",
+    "country": "Qatar",
+    "region": "MENA",
+    "industries": [
+      "lng",
+      "petchem",
+      "oil-gas",
+      "port-ops",
+      "power-generation"
+    ],
+    "namedFacilities": [
+      "QatarEnergy LNG (formerly Qatargas/RasGas, 14 trains, world's largest LNG export hub)",
+      "North Field East + North Field South expansion trains (toward 142 MTPA by 2030)",
+      "Ras Laffan Refinery (QatarEnergy, condensate)",
+      "Pearl GTL (Shell/QatarEnergy, 140k bpd GTL)",
+      "Oryx GTL (Sasol/QatarEnergy)",
+      "Ras Laffan Port (LNG and condensate exports)",
+      "Ras Laffan Power Company (combined cycle)"
+    ],
+    "codes": [
+      "QP ES",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "ASME BPVC Section V",
+      "ASME B31.3",
+      "NACE MR0175",
+      "EEMUA 159"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "OSI PI"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Ras Laffan NDT ERP 2026 | QatarEnergy LNG, Pearl GTL",
+    "meta155": "Ras Laffan NDT ERP for QatarEnergy LNG, Pearl GTL and Oryx GTL: QP ES, API 510/570/653/579 and NACE MR0175 in SAP PM, Maximo and Primavera.",
+    "h1": "Ras Laffan NDT ERP Software - Customizable for All Industries",
+    "localHook": "Ras Laffan is the world's largest LNG export terminal. QatarEnergy LNG (the merged Qatargas/RasGas operations) runs 14 liquefaction trains today, with the North Field East (NFE) and North Field South (NFS) expansions driving capacity toward 142 MTPA by 2030. Pearl GTL, the Shell/QatarEnergy JV, is the world's largest gas-to-liquids plant at 140k bpd, and Oryx GTL (Sasol/QatarEnergy) adds further GTL capacity. Ras Laffan Refinery processes condensate, Ras Laffan Power Company runs combined-cycle generation, and Ras Laffan Port is Qatar's LNG and condensate export gateway. Inspection scope covers cryogenic exchangers, main cryogenic heat exchangers (MCHE), propane and mixed-refrigerant loops, LNG storage tanks under EEMUA 159 and API 653, GTL Fischer-Tropsch reactors, sour gas amine trains and sulphur recovery units. Every contractor works to QatarEnergy Engineering Standards, API 510/570/653/579 and NACE MR0175. Atlantis NDT ERP runs all of it in one bilingual Arabic-English system.",
+    "integrationPainParagraph": "QatarEnergy LNG, Pearl GTL and Oryx GTL standardize on SAP S/4HANA at enterprise with IBM Maximo on the plant floor, Primavera P6 driving turnaround and capital schedules and OSI PI historians feeding process data. Inspection and NDE data historically sat in PCMS, Meridium and Excel trackers, which stalled QatarEnergy T&I audits and missed RBI update cycles during major LNG train turnarounds. Atlantis NDT ERP writes TML and CML readings, RT and UT results, welder qualifications and NDE certs directly into SAP PM notifications and Maximo functional locations via REST, with QP ES, API 510/570/653/579 and EEMUA 159 templates preloaded so QatarEnergy audits pull clean first pass during NFE and NFS commissioning and existing train TAs.",
+    "remoteDeliveryPitch": "Atlantis deploys Ras Laffan operators and EPCs fully remotely. Discovery runs over Teams in bilingual Arabic-English aligned to Sunday-Thursday workweeks, SAP, Maximo and OSI PI connectors are sandboxed against QatarEnergy template tenants, and technicians train in recorded bilingual sessions covering Ras Laffan night shifts. Typical Ras Laffan rollouts reach production in 8-10 weeks given LNG complexity, sequenced around train turnarounds and NFE/NFS commissioning milestones so no QP ES hold-point slips.",
+    "featureBullets": [
+      "QP ES and API 510/570/653/579 preloaded templates for LNG and GTL",
+      "EEMUA 159 LNG storage tank inspection and repair workflows",
+      "MCHE and cryogenic exchanger inspection tracking with OEM task-card structure",
+      "Bilingual Arabic-English UI, reports and e-signatures for QatarEnergy audits",
+      "SAP PM, Maximo, Primavera P6 and OSI PI REST push and historian tie-in",
+      "NACE MR0175 sour-service and amine-system inspection controls"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does QatarEnergy LNG use at Ras Laffan?",
+        "a": "QatarEnergy LNG contractors use NDT ERP platforms enforcing QP Engineering Standards with API 510/570/653/579 workflows pushed into SAP PM, Maximo and Primavera P6."
+      },
+      {
+        "q": "Does it support NFE and NFS commissioning NDT?",
+        "a": "Yes. Pre-commissioning PT, MPI, UT and RT records tie to punchlists and QatarEnergy handover packs, with Primavera P6 hold-points at each train milestone."
+      },
+      {
+        "q": "Can it handle LNG tank EEMUA 159 inspections?",
+        "a": "Yes. Full-containment LNG tank external, shell, roof and inner tank inspections run to EEMUA 159 and API 653 with cryogenic-service retention."
+      },
+      {
+        "q": "Is it bilingual for QatarEnergy T&I audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported with English exports, accepted by QatarEnergy T&I and QCAA reviewers."
+      },
+      {
+        "q": "How does it integrate with SAP at QatarEnergy LNG?",
+        "a": "It writes TML readings, NDE findings and weld data back to SAP PM notifications and QM inspection lots via REST, so findings appear on existing QatarEnergy functional locations."
+      },
+      {
+        "q": "Does it handle Pearl GTL Fischer-Tropsch reactor NDT?",
+        "a": "Yes. FT reactors, syngas loops, hydrocracker and wax upgrading units are tracked with API 510, NACE MR0175 and Shell DEP-aligned records."
+      },
+      {
+        "q": "Can it manage MCHE cryogenic exchanger inspections?",
+        "a": "Yes. APCI wound coil and PFHE exchangers are tracked with eddy current, IRIS and close-visual records at bundle and circuit level."
+      },
+      {
+        "q": "How long does a Ras Laffan implementation take?",
+        "a": "Typical Ras Laffan deployments take 8 to 10 weeks remotely given LNG complexity, including SAP, Maximo, P6 and OSI PI connectors and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "kuwait-city",
+    "city": "Kuwait City",
+    "state": "",
+    "country": "Kuwait",
+    "region": "MENA",
+    "industries": [
+      "oil-gas",
+      "refining",
+      "petchem",
+      "power-generation",
+      "desalination"
+    ],
+    "namedFacilities": [
+      "KNPC Mina Abdulla refinery (approx 454k BPD post-CFP)",
+      "KNPC Mina Al Ahmadi refinery (approx 346k BPD)",
+      "KNPC Al-Zour refinery (615k BPD, new clean fuels)",
+      "KOC Greater Burgan field operations",
+      "EQUATE Petrochemicals (Kuwait/Dow JV)",
+      "MEW Az-Zour power + desalination complex",
+      "KIPIC (Kuwait Integrated Petroleum Industries Co.) HQ"
+    ],
+    "codes": [
+      "KOC Standards",
+      "KNPC ES",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "ASME BPVC Section V",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "Oracle EBS"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Kuwait City NDT ERP 2026 | KNPC, KOC, KIPIC, EQUATE",
+    "meta155": "Kuwait City NDT ERP for KNPC, KOC, KIPIC Al-Zour and EQUATE: KOC Standards, KNPC ES, API 510/570/653 in SAP PM, Maximo and Primavera P6.",
+    "h1": "Kuwait City NDT ERP Software - Customizable for All Industries",
+    "localHook": "Kuwait City hosts KPC's operating companies - KOC, KNPC, KIPIC, PIC and KGOC - coordinating inspection standards across the country. KNPC's Mina Abdulla refinery (approx 454k BPD post-Clean Fuels Project) and Mina Al Ahmadi refinery (approx 346k BPD) anchor the northern industrial belt, while KIPIC's new Al-Zour refinery (615k BPD) is one of the world's largest single-site refineries with integrated LNG import. KOC manages Greater Burgan - the world's second-largest oil field - and its gathering centers, booster stations and water injection networks. EQUATE (Kuwait/Dow JV) and PIC run ethylene glycol and polyethylene trains. MEW's Az-Zour and Shuaiba power and desalination complexes drive combined-cycle boiler inspection. Every contractor must meet KOC Standards and KNPC Engineering Standards along with API 510/570/653/579 and NACE MR0175. Atlantis NDT ERP consolidates all KPC subsidiaries in one bilingual Arabic-English system. Kuwait's Ministry of Oil and Public Authority for Industry (PAI) add regulatory oversight across every KPC subsidiary and contractor working the Kuwaiti hydrocarbon supply chain.",
+    "integrationPainParagraph": "KPC and its subsidiaries standardize on SAP S/4HANA with IBM Maximo on the plant floor, Primavera P6 driving capital and turnaround schedules and Oracle EBS surviving at legacy units. Inspection and NDE data historically sat in PCMS, Meridium and Excel trackers, which failed KOC Inspection and KNPC T&I reviews and missed RBI update cycles during TAs. Atlantis NDT ERP writes TML readings, CML trends, RT and UT results, welder qualifications and NDE certs directly into SAP PM notifications and Maximo functional locations via REST, with KOC Standards, KNPC ES and API 510/570/653 templates preloaded so KPC audits pull clean first pass during Mina Abdulla, Mina Al Ahmadi and Al-Zour turnarounds and Burgan field campaigns.",
+    "remoteDeliveryPitch": "Atlantis deploys KPC subsidiaries and contractors fully remotely. Discovery runs over Teams in bilingual Arabic-English aligned to Sunday-Thursday workweeks, SAP and Maximo connectors are sandboxed against KOC and KNPC template tenants, and technicians train in recorded bilingual sessions covering Kuwaiti night shifts. Typical Kuwait rollouts reach production in 7-9 weeks, sequenced around KNPC CFP, Al-Zour and Burgan campaign windows so no KOC Standards hold-point slips.",
+    "featureBullets": [
+      "KOC Standards and KNPC Engineering Standards preloaded templates",
+      "API 510/570/653 and API 579 FFS calculators for refining and upstream",
+      "NACE MR0175 sour-service tracking for Burgan and Wafra assets",
+      "Bilingual Arabic-English UI, reports and e-signatures for KPC audits",
+      "SAP PM, Maximo, Primavera P6 and Oracle EBS REST push with hold-points",
+      "Al-Zour LNG import terminal and power-station inspection modules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does KNPC use in Kuwait?",
+        "a": "KNPC contractors use NDT ERP platforms enforcing KNPC Engineering Standards and API 510/570/653, integrated with SAP PM, Maximo and Primavera P6 used across KPC."
+      },
+      {
+        "q": "Does it support KOC Burgan field inspection programs?",
+        "a": "Yes. Gathering centers, booster stations and water injection networks at Greater Burgan are tracked with KOC Standards templates, NACE MR0175 sour-service flags and SAP PM sync."
+      },
+      {
+        "q": "Can it handle Al-Zour refinery inspections?",
+        "a": "Yes. KIPIC Al-Zour's CDU, hydrocracker and utilities units are covered with KNPC ES templates and API 510/570/653 workflows."
+      },
+      {
+        "q": "Is it bilingual for Kuwaiti ministry audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported with English exports, accepted by KPC subsidiaries and Ministry of Oil reviewers."
+      },
+      {
+        "q": "How does it integrate with SAP at KPC?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing KNPC, KOC and KIPIC functional locations."
+      },
+      {
+        "q": "Does it handle EQUATE and PIC petchem inspections?",
+        "a": "Yes. Ethylene glycol, polyethylene and styrene trains at EQUATE and PIC are tracked with Dow JV templates, API 510 and NACE MR0175 references."
+      },
+      {
+        "q": "Can it manage MEW power and desalination inspections?",
+        "a": "Yes. MEW Az-Zour and Shuaiba boiler, HRSG, MSF and RO assets are tracked with API 510, ASME BPVC and MEW-aligned records."
+      },
+      {
+        "q": "How long does a Kuwait implementation take?",
+        "a": "Typical Kuwait deployments take 7 to 9 weeks remotely, including SAP, Maximo, Primavera P6 and Oracle EBS connector setup and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "muscat",
+    "city": "Muscat",
+    "state": "",
+    "country": "Oman",
+    "region": "MENA",
+    "industries": [
+      "oil-gas",
+      "power-generation",
+      "port-ops",
+      "aerospace-mro",
+      "mining"
+    ],
+    "namedFacilities": [
+      "Petroleum Development Oman (PDO) HQ (Mina Al Fahal, Muscat)",
+      "OQ (formerly Oman Oil + Orpic) HQ",
+      "Mina Al Fahal Refinery (Muscat oil export terminal)",
+      "Oman Air Engineering (Muscat International Airport)",
+      "Ghubrah power + desalination (Muscat)",
+      "Mawarid Mining operations (regional HQ in Muscat)"
+    ],
+    "codes": [
+      "PDO SP (Specifications)",
+      "OQ ES",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "AS9100",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Muscat NDT ERP 2026 | PDO, OQ, Oman Air MRO, PDO SP",
+    "meta155": "Muscat NDT ERP for PDO, OQ and Oman Air: PDO SP, OQ ES, API 510/570/653 and AS9100 workflows in SAP PM, Maximo and IFS Cloud. Bilingual AR/EN.",
+    "h1": "Muscat NDT ERP Software - Customizable for All Industries",
+    "localHook": "Muscat is Oman's upstream and downstream brain trust. Petroleum Development Oman (PDO) headquartered at Mina Al Fahal directs inspection across the interior fields - Yibal, Fahud, Marmul, Nimr and Harweel - with its own detailed Specifications (PDO SP) governing welding, coatings, piping, vessels and inspection. OQ (the merged Oman Oil, Orpic and OTI group) runs downstream refining, polyethylene, aromatics and LPG, with HQ operations in Muscat. Mina Al Fahal Refinery and terminal handle crude export, Oman Air Engineering runs commercial MRO at Muscat International Airport under AS9100 and PACA Part 145, and Ghubrah combined-cycle power and MSF desalination runs continuous boiler and tube-bundle inspection. Mawarid Mining and other mining operators headquarter here. Every contractor must satisfy PDO SP, OQ Engineering Standards and API 510/570/653. Atlantis NDT ERP consolidates upstream, downstream and aerospace MRO in one bilingual Arabic-English system aligned to PDO, OQ and PACA audit expectations.",
+    "integrationPainParagraph": "PDO and OQ standardize on SAP S/4HANA at enterprise with IBM Maximo on the plant floor, Oracle EBS surviving at some subsidiaries and IFS Cloud at Oman Air Engineering for component MRO. Inspection and NDE data historically sat in shared drives and Excel trackers, which struggled to satisfy PDO T&I and OQ integrity reviews. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and task-card evidence directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with PDO SP, OQ ES, API 510/570/653 and AS9100 templates preloaded so PDO, OQ and PACA audits pull clean first pass during turnarounds and MRO inductions.",
+    "remoteDeliveryPitch": "Atlantis deploys Muscat operators remotely, with discovery over Teams in bilingual Arabic-English aligned to Sunday-Thursday workweeks, SAP and Maximo connectors sandboxed against PDO and OQ template tenants, and technicians trained in recorded bilingual sessions covering Oman night shifts. Typical Muscat rollouts reach production in 6-8 weeks, sequenced around PDO field campaigns, OQ refinery outages and Oman Air Engineering induction windows.",
+    "featureBullets": [
+      "PDO SP (Specifications) preloaded templates for interior field assets",
+      "OQ Engineering Standards for refining, aromatics and polyethylene",
+      "API 510/570/653 and 579 workflows with PDO and OQ-aligned RBI",
+      "AS9100 and PACA Part 145 audit evidence for Oman Air Engineering",
+      "Bilingual Arabic-English UI, reports and e-signatures for PDO T&I audits",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do PDO contractors use in Oman?",
+        "a": "PDO contractors use NDT ERP platforms enforcing PDO Specifications (PDO SP) alongside API 510/570/653, integrated with SAP PM and Maximo used across PDO and its service partners."
+      },
+      {
+        "q": "Does it support OQ refining and petchem inspections?",
+        "a": "Yes. OQ Engineering Standards cover refining, aromatics and polyethylene units at Sohar, Salalah and Muscat assets with SAP PM sync and RBI scoring."
+      },
+      {
+        "q": "Can it handle Oman Air Engineering AS9100 audits?",
+        "a": "Yes. AS9100 and PACA Part 145 checklists, personnel certs and task-card evidence are preloaded for widebody and narrow-body MRO at Muscat International."
+      },
+      {
+        "q": "Is it bilingual for PDO and OQ audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported with English exports, accepted by PDO T&I, OQ integrity and PACA reviewers."
+      },
+      {
+        "q": "How does it integrate with SAP at PDO and OQ?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing PDO and OQ functional locations."
+      },
+      {
+        "q": "Does it handle interior field gathering-station NDT?",
+        "a": "Yes. Yibal, Fahud, Marmul, Nimr and Harweel gathering stations, pipelines and water injection networks are tracked with PDO SP and NACE MR0175 flags."
+      },
+      {
+        "q": "Can it manage Ghubrah desalination tube inspections?",
+        "a": "Yes. MSF evaporator shells and RO racks at Ghubrah are tracked with IRIS, ECT, RFT and UT records with plug-map histories."
+      },
+      {
+        "q": "How long does a Muscat implementation take?",
+        "a": "Typical Muscat deployments take 6 to 8 weeks remotely, including SAP, Maximo, Oracle EBS or IFS connector setup and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "sohar",
+    "city": "Sohar",
+    "state": "",
+    "country": "Oman",
+    "region": "MENA",
+    "industries": [
+      "refining",
+      "petchem",
+      "port-ops",
+      "steel",
+      "chemical"
+    ],
+    "namedFacilities": [
+      "OQ Sohar Refinery (approx 198k BPD post-SRIP)",
+      "OQ aromatics and polyethylene plants (Sohar)",
+      "Port of Sohar (Asyad Group)",
+      "Sohar Industrial Port and Freezone (SOHAR)",
+      "Vale Oman pelletizing plant (Sohar, iron ore pellets)",
+      "Jindal Shadeed Iron and Steel (Sohar, 2.4 MTPA)"
+    ],
+    "codes": [
+      "OQ ES",
+      "PDO SP (regional)",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "Oracle EBS"
+    ],
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Sohar NDT ERP 2026 | OQ Refinery, Vale, Jindal Shadeed",
+    "meta155": "Sohar NDT ERP for OQ Sohar refinery, aromatics, Vale pelletizing and Jindal Shadeed steel: OQ ES, API 510/570/653 in SAP PM, Maximo and P6.",
+    "h1": "Sohar NDT ERP Software - Customizable for All Industries",
+    "localHook": "Sohar is Oman's downstream and heavy-industry hub on the Gulf of Oman. OQ's Sohar Refinery (approx 198k BPD after the Sohar Refinery Improvement Project) plus the adjacent aromatics, polyethylene and LPG plants form the OQ downstream cluster. Port of Sohar (operated by Asyad Group) and the SOHAR Freezone host Vale Oman's pelletizing plant (iron-ore pellets for Asia-Pacific mills), Jindal Shadeed Iron and Steel (2.4 MTPA DRI/EAF), and methanol, steel and downstream chemical investors. Inspection scope spans refinery pressure vessels and piping, aromatics reformers, polyethylene reactors, DRI shaft furnaces, EAFs, continuous casters and pelletizing indurating furnaces, plus the port's bulk-handling and jetty lines. Every contractor must satisfy OQ Engineering Standards, API 510/570/653 and NACE MR0175, with steel and mining operators adding ASME BPVC Section V scope. Atlantis NDT ERP consolidates refining, steel and mining streams in one bilingual Arabic-English system aligned to OQ and SOHAR freezone audit expectations.",
+    "integrationPainParagraph": "Sohar operators mix SAP S/4HANA at OQ, Vale and Jindal Shadeed with IBM Maximo on the plant floor, Primavera P6 for capital and turnaround schedules and Oracle EBS at some service contractors. Inspection and NDE data historically sat in PCMS, Meridium and Excel trackers, which struggled to satisfy OQ integrity, Vale global inspection and Jindal Shadeed metallurgical audits. Atlantis NDT ERP writes TML and CML readings, RT and UT results, welder qualifications and NDE certs directly into SAP PM notifications and Maximo functional locations via REST, with OQ ES, API 510/570/653 and ASME BPVC templates preloaded so OQ, Vale and Jindal audits pull clean first pass during Sohar refinery TAs and steel-mill reline campaigns.",
+    "remoteDeliveryPitch": "Atlantis deploys Sohar operators remotely. Discovery runs over Teams in bilingual Arabic-English aligned to Sunday-Thursday workweeks, SAP and Maximo connectors are sandboxed against OQ and Jindal template tenants, and technicians train in recorded bilingual sessions covering Sohar night shifts. Typical Sohar rollouts reach production in 6-8 weeks, sequenced around OQ refinery TAs, Vale pelletizer outages and Jindal Shadeed DRI shutdown windows.",
+    "featureBullets": [
+      "OQ Engineering Standards preloaded templates for Sohar downstream",
+      "API 510/570/653 and 579 workflows for refining and aromatics",
+      "DRI, EAF, caster and pelletizer inspection tracking for Vale and Jindal Shadeed",
+      "Bilingual Arabic-English UI, reports and e-signatures for OQ and freezone audits",
+      "SAP PM, Maximo, Primavera P6 and Oracle EBS REST push with hold-points",
+      "Port of Sohar jetty, bulk-handling and pipeline inspection modules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does OQ use at Sohar?",
+        "a": "OQ contractors use NDT ERP platforms enforcing OQ Engineering Standards and API 510/570/653, integrated with SAP PM, Maximo and Primavera P6 used across OQ downstream."
+      },
+      {
+        "q": "Does it support Vale Oman pelletizing plant inspections?",
+        "a": "Yes. Pelletizer indurating furnaces, grates, bag filters and jetty lines are tracked with Vale global inspection standards and ASME BPVC references."
+      },
+      {
+        "q": "Can it handle Jindal Shadeed DRI and EAF NDT?",
+        "a": "Yes. DRI shaft furnaces, EAF shells, continuous casters and rolling mills are tracked with Jindal-aligned and ASME BPVC templates."
+      },
+      {
+        "q": "Is it bilingual for OQ and SOHAR freezone audits?",
+        "a": "Yes. Full RTL Arabic UI and reports are supported with English exports, accepted by OQ integrity, SOHAR freezone and Port of Sohar reviewers."
+      },
+      {
+        "q": "How does it integrate with SAP at OQ and Jindal?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing OQ, Vale and Jindal functional locations."
+      },
+      {
+        "q": "Does it handle aromatics and polyethylene reactor NDT?",
+        "a": "Yes. OQ aromatics reformers, polyethylene reactors and LPG units are tracked with API 510, NACE MR0175 and OQ ES references."
+      },
+      {
+        "q": "Can it manage Port of Sohar jetty inspections?",
+        "a": "Yes. Jetty bollards, ship-to-shore lines and bulk-handling structures are tracked with API 570, AWS D1.1 and Asyad-aligned records."
+      },
+      {
+        "q": "How long does a Sohar implementation take?",
+        "a": "Typical Sohar deployments take 6 to 8 weeks remotely, including SAP, Maximo, Primavera P6 and Oracle EBS connector setup and bilingual training."
+      }
+    ]
+  },
+  {
+    "slug": "singapore",
+    "city": "Singapore",
+    "state": "",
+    "country": "Singapore",
+    "region": "APAC",
+    "industries": [
+      "refining",
+      "petchem",
+      "port-ops",
+      "aerospace-mro",
+      "offshore"
+    ],
+    "namedFacilities": [
+      "ExxonMobil Singapore Refinery (Jurong/Pulau Ayer Chawan, approx 592k BPD)",
+      "Shell Bukom (Pulau Bukom refinery + petchem)",
+      "Singapore Refining Company SRC Jurong Island (ExxonMobil/Chevron/PetroChina JV)",
+      "ST Engineering Aerospace (Paya Lebar, Loyang, Seletar)",
+      "PSA Singapore Tuas Port (world's largest fully automated port)",
+      "Keppel FELS and Sembcorp Marine Jurong (rigs, FPSOs, offshore fabrication)"
+    ],
+    "codes": [
+      "ASME BPVC Section V",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "AS9100",
+      "CAAS Part 145",
+      "ABS/DNV/LR classification",
+      "SS 560 (Singapore Standards)"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "IFS Cloud",
+      "Oracle EBS"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Singapore NDT ERP 2026 | ExxonMobil, Shell, ST Engineering",
+    "meta155": "Singapore NDT ERP for ExxonMobil, Shell Bukom, ST Engineering Aerospace and Keppel: ASME, API 510/570/653, AS9100 in SAP PM, Maximo and IFS.",
+    "h1": "Singapore NDT ERP Software - Customizable for All Industries",
+    "localHook": "Singapore is Asia's inspection capital. ExxonMobil's integrated Singapore refinery and chemical complex on Jurong Island and Pulau Ayer Chawan runs approximately 592k BPD of crude capacity alongside ethylene, polyethylene and aromatics. Shell's Pulau Bukom refinery and petchem complex adds further downstream scope. Singapore Refining Company (SRC) on Jurong Island is an ExxonMobil/Chevron/PetroChina JV. ST Engineering Aerospace - with sites at Paya Lebar, Loyang and Seletar - is the world's largest independent airframe MRO provider under AS9100 and CAAS Part 145, servicing Airbus, Boeing and Embraer fleets. Keppel FELS and Sembcorp Marine Jurong (now Seatrium) build and overhaul jack-up rigs, semisubs and FPSOs for global offshore markets. PSA Singapore's Tuas Port is the world's largest fully automated container terminal. Inspection scope covers every code stream - ASME, API, AS9100, ABS, DNV, LR and SS 560. Atlantis NDT ERP unifies all of them for Singapore's dense inspection market.",
+    "integrationPainParagraph": "Singapore majors standardize on SAP S/4HANA at ExxonMobil, Shell and Seatrium with IBM Maximo on the plant floor and IFS Cloud rising at ST Engineering Aerospace for component MRO and engineering services. Oracle EBS survives at some port and logistics operators. Inspection and NDE data historically sat in PCMS, Meridium and shared drives, which struggled to satisfy CAAS Part 145, classification society and EDB-QC audits. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and task-card evidence directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with AS9100, ASME BPVC, API 510/570/653 and ABS/DNV/LR templates preloaded so CAAS, MOM and class audits pull clean first pass.",
+    "remoteDeliveryPitch": "Atlantis deploys Singapore operators fully remotely from Monday-Friday English-speaking discovery through production go-live. SAP, Maximo, Oracle EBS and IFS Cloud connectors are sandboxed against Jurong Island and Seletar template tenants, and technicians train via recorded English sessions covering ExxonMobil, Shell, ST Engineering and Seatrium night shifts. Typical Singapore rollouts reach production in 5-7 weeks, sequenced around refinery and MRO induction windows so no CAAS or class hold-point slips.",
+    "featureBullets": [
+      "AS9100 and CAAS Part 145 audit evidence for ST Engineering Aerospace",
+      "API 510/570/653 and 579 FFS workflows for ExxonMobil, Shell and SRC",
+      "ABS, DNV and LR classification records for Seatrium rigs and FPSOs",
+      "SS 560 Singapore welding standard alignment and coverage",
+      "SAP PM, Maximo, IFS Cloud and Oracle EBS REST push with closeout evidence",
+      "Tuas Port crane, quay and pipeline inspection modules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do ExxonMobil and Shell use in Singapore?",
+        "a": "Jurong Island and Pulau Bukom contractors use NDT ERP platforms enforcing ASME BPVC and API 510/570/653, integrated with SAP PM and Maximo used across ExxonMobil and Shell."
+      },
+      {
+        "q": "Does it support ST Engineering Aerospace AS9100 audits?",
+        "a": "Yes. AS9100, CAAS Part 145 and Nadcap NDT checklists, personnel certs and task-card evidence are preloaded for Paya Lebar, Loyang and Seletar MRO lines."
+      },
+      {
+        "q": "Can it handle Seatrium offshore fabrication NDT?",
+        "a": "Yes. Jack-up rigs, semisubs and FPSO topsides and hull inspections are tracked with ABS, DNV, LR and AWS D1.1 references at block and weld-seam level."
+      },
+      {
+        "q": "Does it integrate with SAP at Singapore refiners?",
+        "a": "Yes. It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing Jurong and Bukom functional locations."
+      },
+      {
+        "q": "Is it MOM and EDB-QC audit ready?",
+        "a": "Yes. MOM Workplace Safety and Health and EDB-QC inspection retention and audit trails are preloaded, with SS 560 welding references."
+      },
+      {
+        "q": "Can it manage PSA Tuas Port crane inspections?",
+        "a": "Yes. Automated stacking cranes, quay cranes and AGV charging infrastructure are tracked at asset level with API and AWS references."
+      },
+      {
+        "q": "Does it support SRC Jurong Island turnaround planning?",
+        "a": "Yes. API 510/570/653 and 579 workflows tie to Primavera P6 hold-points for SRC crude, vacuum and hydrotreater unit turnarounds."
+      },
+      {
+        "q": "How long does a Singapore implementation take?",
+        "a": "Typical Singapore deployments take 5 to 7 weeks remotely, including SAP, Maximo, IFS Cloud and Oracle EBS connector setup and English technician training."
+      }
+    ]
+  },
+  {
+    "slug": "jurong-island",
+    "city": "Jurong Island",
+    "state": "",
+    "country": "Singapore",
+    "region": "APAC",
+    "industries": [
+      "refining",
+      "petchem",
+      "chemical",
+      "port-ops",
+      "oil-gas"
+    ],
+    "namedFacilities": [
+      "ExxonMobil Jurong/Pulau Ayer Chawan integrated refinery + chemicals",
+      "Singapore Refining Company SRC (ExxonMobil/Chevron/PetroChina JV)",
+      "Shell Jurong Island chemicals",
+      "Chevron Oronite additives plant",
+      "Lanxess, Mitsui Chemicals, Sumitomo Chemical plants",
+      "Singapore LNG Terminal (Jurong Island)"
+    ],
+    "codes": [
+      "ASME BPVC Section V",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "NACE MR0175",
+      "EEMUA 159",
+      "SS 560"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Primavera P6",
+      "OSI PI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Jurong Island NDT ERP 2026 | ExxonMobil, Shell, SRC",
+    "meta155": "Jurong Island NDT ERP for ExxonMobil, Shell, SRC and LNG Terminal: ASME, API 510/570/653/579 and EEMUA 159 in SAP PM, Maximo and Primavera P6.",
+    "h1": "Jurong Island NDT ERP Software - Customizable for All Industries",
+    "localHook": "Jurong Island is Asia's densest petchem real estate. ExxonMobil's integrated Jurong/Pulau Ayer Chawan refinery and chemicals complex (approximately 592k BPD crude plus ethylene, polyethylene and aromatics) anchors the island, flanked by Singapore Refining Company (ExxonMobil/Chevron/PetroChina JV), Shell Jurong Island chemicals, Chevron Oronite additives, Lanxess, Mitsui Chemicals, Sumitomo Chemical, Asahi Kasei and Evonik plants, plus the Singapore LNG Terminal on the island's south end. Inspection scope covers steam crackers, polymer reactors, aromatics reformers, hydrotreaters, hydrocrackers, sulphur trains, LNG storage tanks under EEMUA 159 and API 653, pipe racks linking every plant under the Multi-User Infrastructure and jetties on both Horsburgh and Singapore-main sides. Every contractor must satisfy ASME BPVC, API 510/570/653/579, NACE MR0175 and SS 560. Atlantis NDT ERP runs all of it in one English-native system aligned to MOM, EDB-QC and JTC audit expectations. JTC Corporation's Jurong Island authority adds industrial-land oversight across every petchem tenant and service contractor on the island.",
+    "integrationPainParagraph": "Jurong Island operators standardize on SAP S/4HANA with IBM Maximo on the plant floor, Primavera P6 driving capital and turnaround schedules and OSI PI historians feeding process data. Inspection and NDE data historically sat in PCMS, Meridium and Excel trackers, which stalled EDB-QC audit reviews and missed RBI update cycles during major turnarounds across the Multi-User Infrastructure. Atlantis NDT ERP writes TML and CML readings, RT and UT results, welder qualifications and NDE certs directly into SAP PM notifications and Maximo functional locations via REST, with ASME, API 510/570/653/579 and EEMUA 159 templates preloaded so JTC, MOM and EDB-QC audits pull clean first pass during major TA windows and LNG terminal inspections.",
+    "remoteDeliveryPitch": "Atlantis deploys Jurong Island operators fully remotely. Discovery runs over Teams in English, SAP, Maximo, P6 and OSI PI connectors are sandboxed against Jurong template tenants, and technicians train via recorded sessions covering multi-user pipe-rack night shifts. Typical Jurong Island rollouts reach production in 6-8 weeks, sequenced around ExxonMobil, Shell and SRC turnarounds and LNG terminal maintenance windows so no MOM or class hold-point slips.",
+    "featureBullets": [
+      "API 510/570/653 and API 579 Level 1/2/3 FFS calculators",
+      "EEMUA 159 LNG storage tank inspection workflows for SLNG",
+      "Multi-User Infrastructure pipe-rack and jetty line inspection tracking",
+      "OSI PI historian tie-in for corrosion rate and TML trend overlays",
+      "SAP PM, Maximo and Primavera P6 REST push with turnaround hold-points",
+      "SS 560 Singapore welding standard and NACE MR0175 sour-service controls"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP is used on Jurong Island?",
+        "a": "ExxonMobil, Shell and SRC contractors use NDT ERP platforms enforcing ASME BPVC and API 510/570/653/579, integrated with SAP PM, Maximo, Primavera P6 and OSI PI used across Jurong Island."
+      },
+      {
+        "q": "Does it support LNG tank EEMUA 159 inspections at SLNG?",
+        "a": "Yes. Singapore LNG Terminal full-containment tank external, shell, roof and inner tank inspections run to EEMUA 159 and API 653 with cryogenic-service retention."
+      },
+      {
+        "q": "Can it run multi-user pipe-rack inspections?",
+        "a": "Yes. Each pipe segment across the Multi-User Infrastructure is tracked at isometric level with API 570, CUI screening and RBI scoring linked to owner operator."
+      },
+      {
+        "q": "Is it MOM and EDB-QC audit ready?",
+        "a": "Yes. MOM Workplace Safety and Health and EDB-QC inspection retention and audit trails are preloaded, with SS 560 welding and JTC site references."
+      },
+      {
+        "q": "How does it integrate with SAP at Jurong Island?",
+        "a": "It writes TML readings, NDE findings and weld data back to SAP PM notifications and QM inspection lots via REST, so findings appear on existing Jurong functional locations."
+      },
+      {
+        "q": "Does it handle steam cracker furnace NDT?",
+        "a": "Yes. Radiant coils, convection sections and transfer line exchangers are tracked with API 573, eddy current, UT and close-visual records at tube level."
+      },
+      {
+        "q": "Can it manage sulphur recovery unit inspections?",
+        "a": "Yes. SRU reaction furnaces, waste heat boilers and Claus condensers carry API 510, NACE MR0175 and high-temperature sulphidation tracking."
+      },
+      {
+        "q": "How long does a Jurong Island implementation take?",
+        "a": "Typical Jurong Island deployments take 6 to 8 weeks remotely, including SAP, Maximo, P6 and OSI PI connector setup and English technician training."
+      }
+    ]
+  },
+  {
+    "slug": "kuala-lumpur",
+    "city": "Kuala Lumpur",
+    "state": "",
+    "country": "Malaysia",
+    "region": "APAC",
+    "industries": [
+      "oil-gas",
+      "aerospace-mro",
+      "power-generation",
+      "chemical",
+      "auto-manufacturing"
+    ],
+    "namedFacilities": [
+      "PETRONAS HQ (KLCC Twin Towers, Kuala Lumpur)",
+      "Malaysia Airlines Engineering + GE Engine Services Malaysia (KLIA)",
+      "Sapura Energy HQ (Kuala Lumpur, offshore services)",
+      "AirAsia / AirAsia RedQ (Sepang)",
+      "Tenaga Nasional Berhad HQ + Manjung and Jimah power stations (regional)",
+      "Proton + Perodua national auto plants (Shah Alam/Rawang supply chain)"
+    ],
+    "codes": [
+      "PETRONAS Technical Standards (PTS)",
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 579",
+      "ASME BPVC Section V",
+      "AS9100",
+      "CAAM Part 145",
+      "MS 1722 / MS ISO 9001"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Kuala Lumpur NDT ERP 2026 | PETRONAS, MAB Engineering, TNB",
+    "meta155": "Kuala Lumpur NDT ERP for PETRONAS, MAB Engineering, Sapura and TNB: PTS, API 510/570/653, AS9100 and CAAM Part 145 in SAP PM, Maximo and IFS.",
+    "h1": "Kuala Lumpur NDT ERP Software - Customizable for All Industries",
+    "localHook": "Kuala Lumpur directs Malaysia's national inspection economy. PETRONAS - headquartered in the KLCC Twin Towers - owns and operates upstream, gas processing, LNG, refining, petchem and shipping assets across Malaysia and globally, publishing the PETRONAS Technical Standards (PTS) that govern every contractor. Sapura Energy and Yinson Holdings run offshore drilling, FPSOs and subsea services from KL. Malaysia Airlines Engineering and GE Engine Services Malaysia at KLIA run widebody and engine MRO under AS9100 and CAAM Part 145. AirAsia / RedQ headquarters in Sepang. Tenaga Nasional Berhad coordinates Manjung, Jimah, Prai and Kapar power stations nationally. Proton and Perodua supply chains plus specialty chemicals and electronics add fabrication inspection. Every contractor works to PTS, API 510/570/653, AS9100 and CAAM. Atlantis NDT ERP consolidates oil and gas, aerospace MRO and power in one English-native system aligned to PETRONAS, CAAM and DOSH Malaysia audits.",
+    "integrationPainParagraph": "PETRONAS and its PCG, PGB and MLNG subsidiaries standardize on SAP S/4HANA with IBM Maximo on the plant floor and Oracle EBS at some legacy units, while IFS Cloud rises at MAB Engineering and GE Engine Services for component MRO. Inspection and NDE data historically sat in PCMS, Meridium and shared drives, which stalled PETRONAS Group Technical Solutions audits and CAAM Part 145 reviews. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and task-card evidence directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with PTS, AS9100, API 510/570/653 templates preloaded so PETRONAS, CAAM and DOSH audits pull clean first pass during TAs and MRO inductions.",
+    "remoteDeliveryPitch": "Atlantis deploys KL operators remotely. Discovery runs over Teams in English (with Bahasa Malaysia translation on request), SAP and Maximo connectors are sandboxed against PETRONAS template tenants, and technicians train via recorded sessions covering KL, KLIA and offshore night shifts. Typical KL rollouts reach production in 5-7 weeks, sequenced around PETRONAS TAs, MAB Engineering induction windows and TNB outage calendars.",
+    "featureBullets": [
+      "PETRONAS Technical Standards (PTS) preloaded inspection templates",
+      "API 510/570/653 and 579 FFS workflows for MLNG, PGB and PCG assets",
+      "AS9100 and CAAM Part 145 audit evidence for MAB Engineering and GE Engine Services",
+      "ASME BPVC Section V and TNB outage boiler/HRSG inspection tracking",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence",
+      "Sapura / Yinson offshore and FPSO inspection modules with class society records"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do PETRONAS contractors use?",
+        "a": "PETRONAS contractors use NDT ERP platforms enforcing PETRONAS Technical Standards (PTS) alongside API 510/570/653, integrated with SAP PM and Maximo used across PETRONAS group."
+      },
+      {
+        "q": "Does it support MAB Engineering AS9100 audits?",
+        "a": "Yes. AS9100 and CAAM Part 145 checklists, personnel certs and task-card evidence are preloaded for widebody and narrow-body MRO at KLIA and Subang."
+      },
+      {
+        "q": "Can it handle Sapura Energy offshore inspection programs?",
+        "a": "Yes. Drilling rigs, FPSOs and subsea inspection are tracked with ABS, DNV, LR and PTS-aligned records at weld-seam and component level."
+      },
+      {
+        "q": "Is it ready for DOSH Malaysia pressure-vessel filings?",
+        "a": "Yes. DOSH pressure-vessel and steam-boiler inspection reports aligned to API 510 and ASME BPVC Section V are produced with full revision history."
+      },
+      {
+        "q": "How does it integrate with SAP at PETRONAS?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing PETRONAS functional locations."
+      },
+      {
+        "q": "Does it handle TNB power station outage NDT?",
+        "a": "Yes. Manjung, Jimah and Kapar boiler, HRSG and gas turbine assets are tracked with API 510, ASME BPVC and TNB-aligned records."
+      },
+      {
+        "q": "Can it support MLNG Bintulu and PGB Kertih assets?",
+        "a": "Yes. MLNG Bintulu LNG trains and PGB gas processing plants are covered with PTS templates and EEMUA 159/API 653 LNG tank workflows."
+      },
+      {
+        "q": "How long does a Kuala Lumpur implementation take?",
+        "a": "Typical KL deployments take 5 to 7 weeks remotely, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and English technician training."
+      }
+    ]
+  },
+  {
+    "slug": "pasir-gudang",
+    "city": "Pasir Gudang",
+    "state": "Johor",
+    "country": "Malaysia",
+    "region": "APAC",
+    "industries": [
+      "port-ops",
+      "shipbuilding",
+      "petchem",
+      "chemical",
+      "oil-gas"
+    ],
+    "namedFacilities": [
+      "Johor Port (Pasir Gudang)",
+      "MMHE (Malaysia Marine and Heavy Engineering, Sime Darby, offshore fabrication)",
+      "Pengerang Integrated Complex PIC (nearby Johor: PETRONAS/Aramco RAPID refinery + petchem)",
+      "Tanjung Langsat Port (chemical terminal)",
+      "Pasir Gudang industrial estate (chemicals, palm oil refineries, storage)",
+      "Pasir Gudang petroleum products terminals"
+    ],
+    "codes": [
+      "PETRONAS Technical Standards (PTS)",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "ABS/DNV/LR classification",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Pasir Gudang NDT ERP 2026 | Johor Port, MMHE, PIC Pengerang",
+    "meta155": "Pasir Gudang NDT ERP for Johor Port, MMHE offshore fab and PIC Pengerang: PTS, API 510/570/653, ABS/DNV/LR in SAP PM, Maximo and IFS Cloud.",
+    "h1": "Pasir Gudang NDT ERP Software - Customizable for All Industries",
+    "localHook": "Pasir Gudang is Johor's heavy-industry waterfront, hosting Johor Port, the Tanjung Langsat chemical terminal and one of Malaysia's densest petrochemical, storage and palm oil processing clusters. MMHE (Malaysia Marine and Heavy Engineering) fabricates offshore platforms, jackets and FPSOs under class society oversight (ABS, DNV, LR) and PETRONAS scope. The adjacent Pengerang Integrated Complex (PIC) in southeast Johor - the PETRONAS/Aramco RAPID refinery (300k BPD) plus steam cracker and petchem trains - generates enormous turnaround inspection load spilling into Pasir Gudang service contractors. Inspection scope spans offshore structural welds, pressure vessels and piping in petchem and storage terminals, jetty lines and tank farms under API 653, and palm oil refineries with pressure-equipment duty under DOSH Malaysia. Every contractor must satisfy PETRONAS Technical Standards (PTS), API 510/570/653, AWS D1.1 and ABS/DNV/LR class rules. Atlantis NDT ERP runs all of it in one English-native system aligned to PETRONAS, DOSH and class audits.",
+    "integrationPainParagraph": "Pasir Gudang and PIC operators standardize on SAP S/4HANA at PETRONAS and MMHE with IBM Maximo on the plant and yard floors, Oracle EBS at some terminal and logistics operators, and IFS Cloud at a few engineering contractors. Inspection and NDE data historically sat in shared drives and Excel trackers, which stalled PETRONAS GTS audits, ABS/DNV/LR surveyor reviews and DOSH pressure-vessel filings. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and class society records directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with PTS, API 510/570/653, AWS D1.1 and class templates preloaded so PETRONAS, DOSH and class audits pull clean first pass during PIC TAs and MMHE block deliveries.",
+    "remoteDeliveryPitch": "Atlantis deploys Pasir Gudang operators fully remotely. Discovery runs over Teams in English (Bahasa Malaysia breakouts on request), SAP and Maximo connectors are sandboxed against PETRONAS and MMHE template tenants, and technicians train via recorded sessions covering Johor Port and PIC night shifts. Typical Pasir Gudang rollouts reach production in 6-8 weeks, sequenced around PIC turnarounds, MMHE load-out schedules and terminal tank in-service windows.",
+    "featureBullets": [
+      "PETRONAS Technical Standards (PTS) preloaded templates for PIC and terminals",
+      "API 510/570/653 inspection workflows for petchem, refineries and tank farms",
+      "ABS, DNV and LR classification records for MMHE offshore fabrication",
+      "AWS D1.1 structural weld inspection with block-level traceability",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence",
+      "Johor Port crane, jetty and pipeline inspection modules"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do PETRONAS contractors use at PIC Pengerang?",
+        "a": "PIC contractors use NDT ERP platforms enforcing PTS and API 510/570/653, integrated with SAP PM, Maximo and IFS Cloud used across PETRONAS and Aramco JV operations."
+      },
+      {
+        "q": "Does it support MMHE offshore fabrication audits?",
+        "a": "Yes. ABS, DNV, LR class society records and AWS D1.1 weld inspection are tracked at block and weld-seam level with full class surveyor audit trails."
+      },
+      {
+        "q": "Can it handle Johor Port crane and jetty NDT?",
+        "a": "Yes. Ship-to-shore cranes, bollards and jetty lines are tracked with API 570, AWS D1.1 and Port of Johor-aligned records."
+      },
+      {
+        "q": "Is it ready for DOSH Malaysia pressure-vessel filings?",
+        "a": "Yes. DOSH pressure-vessel and steam-boiler inspection reports aligned to API 510 and ASME BPVC Section V are produced with full revision history."
+      },
+      {
+        "q": "How does it integrate with SAP at PIC?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing PIC RAPID and petchem functional locations."
+      },
+      {
+        "q": "Does it handle Tanjung Langsat chemical terminal inspections?",
+        "a": "Yes. Tank farms, jetty lines and storage vessels are tracked with API 653, API 570 and NACE MR0175 sour-service flags where relevant."
+      },
+      {
+        "q": "Can it support palm oil refinery pressure equipment NDT?",
+        "a": "Yes. Palm oil refinery deodorizers, fractionators and boilers are tracked with DOSH-compliant pressure-vessel and steam-boiler inspection templates."
+      },
+      {
+        "q": "How long does a Pasir Gudang implementation take?",
+        "a": "Typical Pasir Gudang deployments take 6 to 8 weeks remotely, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and English technician training."
+      }
+    ]
+  },
+  {
+    "slug": "jakarta",
+    "city": "Jakarta",
+    "state": "",
+    "country": "Indonesia",
+    "region": "APAC",
+    "industries": [
+      "oil-gas",
+      "power-generation",
+      "aerospace-mro",
+      "port-ops",
+      "chemical"
+    ],
+    "namedFacilities": [
+      "Pertamina HQ (Jakarta)",
+      "PLN (Perusahaan Listrik Negara) HQ + Jawa-7 and Muara Karang power stations",
+      "GMF AeroAsia (Garuda Maintenance Facility, Soekarno-Hatta, widebody MRO)",
+      "Medco Energi HQ + Inpex Indonesia office",
+      "Tanjung Priok Port (Pelindo, Indonesia's largest)",
+      "Krakatau Steel (Cilegon, near Jakarta)"
+    ],
+    "codes": [
+      "Pertamina TKO/TKI standards",
+      "SNI (Indonesian National Standards)",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "AS9100",
+      "DGCA Indonesia CASR 145"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Jakarta NDT ERP 2026 | Pertamina, PLN, GMF AeroAsia",
+    "meta155": "Jakarta NDT ERP for Pertamina, PLN, GMF AeroAsia and Krakatau: Pertamina TKO, SNI, API 510/570/653 and AS9100 in SAP PM, Maximo and IFS Cloud.",
+    "h1": "Jakarta NDT ERP Software - Customizable for All Industries",
+    "localHook": "Jakarta directs Indonesia's national inspection economy. Pertamina - headquartered here - owns refineries at Cilacap, Balikpapan, Dumai, Balongan and Plaju, plus upstream fields across Sumatra, Java and Kalimantan, publishing Tata Kerja Organisasi (TKO) and Tata Kerja Individu (TKI) standards that govern contractor scope. PLN (Perusahaan Listrik Negara) operates national power generation including Jawa-7, Muara Karang and Suralaya plants. GMF AeroAsia (Garuda Maintenance Facility) at Soekarno-Hatta runs widebody and narrow-body MRO under AS9100 and DGCA Indonesia CASR 145. Medco Energi, Inpex Indonesia, Chevron IBU and Repsol Indonesia coordinate upstream from Jakarta. Tanjung Priok (Pelindo) is Indonesia's largest port. Krakatau Steel in Cilegon adds integrated steel inspection. Every contractor must satisfy Pertamina TKO/TKI, SNI, API 510/570/653 and AS9100. Atlantis NDT ERP consolidates oil and gas, aerospace MRO and power in one English-native system aligned to Pertamina, DGCA and Migas audit expectations. Indonesian Ministry of Energy and Mineral Resources (ESDM) and SKK Migas upstream oversight add regulatory scrutiny across every Pertamina affiliate and PSC contractor operating nationally.",
+    "integrationPainParagraph": "Pertamina, PLN and GMF AeroAsia standardize on SAP S/4HANA with IBM Maximo on the plant and hangar floors, Oracle EBS at some legacy Pertamina and Pelindo subsidiaries, and IFS Cloud at GMF AeroAsia for component MRO and engineering. Inspection and NDE data historically sat in shared drives, Excel trackers and bespoke PCMS clones, which failed Pertamina Quality Management audits and DGCA CASR 145 reviews. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and task-card evidence directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with Pertamina TKO, SNI, AS9100 and API 510/570/653 templates preloaded so Pertamina, DGCA, Migas and Disnaker audits pull clean first pass.",
+    "remoteDeliveryPitch": "Atlantis deploys Jakarta operators remotely, with discovery over Teams in English (Bahasa Indonesia breakouts on request), SAP and Maximo connectors sandboxed against Pertamina and GMF template tenants, and technicians trained in recorded sessions covering Jakarta, Cilegon and Soekarno-Hatta night shifts. Typical Jakarta rollouts reach production in 5-7 weeks, sequenced around Pertamina refinery TAs, GMF induction windows and PLN outage calendars.",
+    "featureBullets": [
+      "Pertamina TKO/TKI and SNI preloaded inspection templates",
+      "API 510/570/653 and 579 FFS workflows for Cilacap, Balikpapan and Dumai",
+      "AS9100 and DGCA CASR 145 audit evidence for GMF AeroAsia",
+      "ASME BPVC Section V for PLN power station outage NDT",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence",
+      "Krakatau Steel blast furnace, EAF and hot-strip mill inspection tracking"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do Pertamina contractors use?",
+        "a": "Pertamina contractors use NDT ERP platforms enforcing Pertamina TKO/TKI and SNI alongside API 510/570/653, integrated with SAP PM and Maximo used across Pertamina refineries and upstream."
+      },
+      {
+        "q": "Does it support GMF AeroAsia AS9100 audits?",
+        "a": "Yes. AS9100, DGCA CASR 145 and Nadcap NDT checklists, personnel certs and task-card evidence are preloaded for widebody MRO at Soekarno-Hatta."
+      },
+      {
+        "q": "Can it handle PLN power station outage NDT?",
+        "a": "Yes. Jawa-7, Muara Karang and Suralaya boiler, HRSG and gas turbine assets are tracked with API 510, ASME BPVC and PLN-aligned records."
+      },
+      {
+        "q": "Is it ready for Disnaker and Migas filings?",
+        "a": "Yes. Indonesian Ministry of Manpower (Disnaker) pressure-vessel filings and Migas upstream inspection reports are produced in SNI-aligned format with full revision history."
+      },
+      {
+        "q": "How does it integrate with SAP at Pertamina?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing Pertamina functional locations."
+      },
+      {
+        "q": "Does it handle Krakatau Steel blast furnace NDT?",
+        "a": "Yes. Blast furnace shells, hot blast stoves, EAFs and rolling mill assets are tracked with API 510, ASME BPVC and Krakatau-aligned records."
+      },
+      {
+        "q": "Can it support Tanjung Priok port crane inspections?",
+        "a": "Yes. Pelindo quay cranes, RTGs and jetty lines are tracked with API 570, AWS D1.1 and Pelindo-aligned records."
+      },
+      {
+        "q": "How long does a Jakarta implementation take?",
+        "a": "Typical Jakarta deployments take 5 to 7 weeks remotely, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and English technician training."
+      }
+    ]
+  },
+  {
+    "slug": "bangkok",
+    "city": "Bangkok",
+    "state": "",
+    "country": "Thailand",
+    "region": "APAC",
+    "industries": [
+      "oil-gas",
+      "refining",
+      "petchem",
+      "aerospace-mro",
+      "auto-manufacturing"
+    ],
+    "namedFacilities": [
+      "PTT Public Company Limited HQ (Bangkok)",
+      "Bangchak Corporation refinery + Bangchak HQ",
+      "PTTGC (PTT Global Chemical) HQ (Map Ta Phut assets directed from Bangkok)",
+      "Thai Airways Technical Department (Don Mueang + Suvarnabhumi)",
+      "Thai Oil Sriracha refinery (regional, directed from Bangkok)",
+      "EGAT (Electricity Generating Authority of Thailand)"
+    ],
+    "codes": [
+      "PTTEP / PTT standards",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "AS9100",
+      "CAAT Part 145",
+      "TIS (Thai Industrial Standards)"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Bangkok NDT ERP 2026 | PTT, Bangchak, Thai Airways, EGAT",
+    "meta155": "Bangkok NDT ERP for PTT, Bangchak, Thai Airways Technical and EGAT: PTT standards, API 510/570/653, AS9100 and CAAT 145 in SAP PM and Maximo.",
+    "h1": "Bangkok NDT ERP Software - Customizable for All Industries",
+    "localHook": "Bangkok is Thailand's energy and aerospace capital. PTT Public Company Limited headquartered here directs upstream (PTTEP), gas processing, refining (through Thai Oil at Sriracha and IRPC at Rayong) and petrochemicals (PTT Global Chemical at Map Ta Phut). Bangchak Corporation runs its own downstream refinery and retail network. EGAT (Electricity Generating Authority of Thailand) coordinates national generation including Mae Moh, Bang Pakong and South Bangkok plants. Thai Airways Technical Department at Don Mueang and Suvarnabhumi runs widebody and narrow-body MRO under AS9100 and CAAT Part 145, competing with Thai Lion Air Tech Service. Eastern Economic Corridor (EEC) industrial expansion and Thailand's auto cluster (Toyota, Honda, Isuzu, Mazda, BYD) add fabrication inspection. Every contractor must satisfy PTT/PTTEP standards, API 510/570/653, AS9100, CAAT and TIS. Atlantis NDT ERP consolidates oil and gas, aerospace MRO and power in one English-native system aligned to PTT, CAAT and DIW (Department of Industrial Works) audits.",
+    "integrationPainParagraph": "PTT Group and EGAT standardize on SAP S/4HANA with IBM Maximo on the plant floor, Oracle EBS at some subsidiaries and IFS Cloud rising at Thai Airways Technical and engineering contractors. Inspection and NDE data historically sat in shared drives and Excel trackers, which stalled PTT Group Quality audits, CAAT CASR 145 reviews and DIW pressure-equipment filings. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and task-card evidence directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with PTT/PTTEP, API 510/570/653, AS9100 and TIS templates preloaded so PTT, CAAT, DIW and DOL (Department of Labour) audits pull clean first pass during TAs and MRO inductions.",
+    "remoteDeliveryPitch": "Atlantis deploys Bangkok operators fully remotely. Discovery runs over Teams in English (Thai breakouts on request), SAP and Maximo connectors are sandboxed against PTT and Thai Airways template tenants, and technicians train via recorded sessions covering Bangkok, Map Ta Phut and Sriracha night shifts. Typical Bangkok rollouts reach production in 5-7 weeks, sequenced around PTT refinery TAs, Thai Airways induction windows and EGAT outage calendars.",
+    "featureBullets": [
+      "PTT/PTTEP standards and TIS preloaded inspection templates",
+      "API 510/570/653 and 579 FFS workflows for Thai Oil, IRPC and Bangchak",
+      "AS9100 and CAAT CASR 145 audit evidence for Thai Airways Technical",
+      "ASME BPVC Section V and EGAT outage boiler/HRSG inspection tracking",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence",
+      "Auto cluster (Toyota, Honda, Isuzu) pressure and structural weld NDT tracking"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP do PTT contractors use in Thailand?",
+        "a": "PTT contractors use NDT ERP platforms enforcing PTT/PTTEP standards and API 510/570/653, integrated with SAP PM and Maximo used across PTT Group including Thai Oil, IRPC and PTTGC."
+      },
+      {
+        "q": "Does it support Thai Airways Technical AS9100 audits?",
+        "a": "Yes. AS9100, CAAT CASR 145 and Nadcap NDT checklists, personnel certs and task-card evidence are preloaded for widebody MRO at Don Mueang and Suvarnabhumi."
+      },
+      {
+        "q": "Can it handle Bangchak refinery turnarounds?",
+        "a": "Yes. API 510/570/653 and 579 FFS workflows tied to Primavera P6 hold-points cover Bangchak's CDU, hydrocracker and HDS turnarounds."
+      },
+      {
+        "q": "Is it ready for DIW and DOL filings?",
+        "a": "Yes. Thai Department of Industrial Works pressure-vessel filings and Department of Labour occupational NDT reports are produced in TIS-aligned format."
+      },
+      {
+        "q": "How does it integrate with SAP at PTT?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing PTT functional locations."
+      },
+      {
+        "q": "Does it handle EGAT Mae Moh outage NDT?",
+        "a": "Yes. Mae Moh, Bang Pakong and South Bangkok boiler, HRSG and gas turbine assets are tracked with API 510, ASME BPVC and EGAT-aligned records."
+      },
+      {
+        "q": "Can it support Eastern Economic Corridor auto plants?",
+        "a": "Yes. Toyota, Honda, Isuzu, Mazda and BYD supplier plants are covered with TIS, AWS D1.1 and API 510 pressure-equipment inspection templates."
+      },
+      {
+        "q": "How long does a Bangkok implementation take?",
+        "a": "Typical Bangkok deployments take 5 to 7 weeks remotely, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and English technician training."
+      }
+    ]
+  },
+  {
+    "slug": "ulsan",
+    "city": "Ulsan",
+    "state": "",
+    "country": "South Korea",
+    "region": "APAC",
+    "industries": [
+      "shipbuilding",
+      "refining",
+      "petchem",
+      "auto-manufacturing",
+      "offshore"
+    ],
+    "namedFacilities": [
+      "HD Hyundai Heavy Industries Ulsan shipyard (world's largest)",
+      "SK Energy Ulsan Complex (approx 840k BPD, one of world's largest refineries)",
+      "S-Oil Onsan refinery (Ulsan, approx 669k BPD)",
+      "Hyundai Motor Ulsan plant (world's largest single-site auto assembly)",
+      "HD Hyundai Mipo (Ulsan, product tankers)",
+      "Ulsan Petrochemical Complex (Yeochun/Yeosu-linked Korea petchem)"
+    ],
+    "codes": [
+      "KEPIC (Korean Electric Power Industry Code)",
+      "KGS Code",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "ABS/DNV/LR/KR classification"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ko"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Ulsan NDT ERP 2026 | HD Hyundai, SK Energy, S-Oil, Hyundai",
+    "meta155": "Ulsan NDT ERP for HD Hyundai shipyard, SK Energy refinery, S-Oil and Hyundai Motor: KEPIC, KGS, API 510/570/653 and class rules in SAP and Maximo.",
+    "h1": "Ulsan NDT ERP Software - Customizable for All Industries",
+    "localHook": "Ulsan is Korea's heavy-industry capital and arguably the densest inspection city on earth. HD Hyundai Heavy Industries operates the world's largest shipyard here, building VLCCs, LNG carriers, FPSOs, naval vessels and offshore structures under ABS, DNV, LR and KR class. SK Energy's Ulsan Complex is among the world's largest refineries (approximately 840k BPD) with integrated petchem, and S-Oil's Onsan refinery (Aramco majority-owned, approximately 669k BPD) anchors the RUC/ODC and Shaheen projects. Hyundai Motor Ulsan plant is the world's largest single-site auto assembly, and HD Hyundai Mipo (also Ulsan) specializes in product and chemical tankers. The Ulsan Petrochemical Complex adds ethylene, aromatics and polymer trains. Every contractor works to KEPIC, KGS Code, API 510/570/653, ASME BPVC, AWS D1.1 and class society rules. Atlantis NDT ERP consolidates shipbuilding, refining, petchem and auto in one bilingual Korean-English system aligned to KEPIC, KGS and class audits.",
+    "integrationPainParagraph": "Ulsan operators standardize on SAP S/4HANA at HD Hyundai, SK Energy, S-Oil and Hyundai Motor with IBM Maximo on the plant and yard floors, Oracle EBS at some auto suppliers and IFS Cloud at engineering contractors. Inspection and NDE data historically sat in Korean-language shared drives and bespoke PCMS clones, which stalled KEPIC certification, KGS pressure-equipment reviews and class society surveyor audits. Atlantis NDT ERP writes inspection findings, weld qualifications, TML trends and class records directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with KEPIC, KGS, API 510/570/653, ASME BPVC, AWS D1.1 and class templates preloaded so KEPIC, KGS and ABS/DNV/LR/KR audits pull clean first pass during turnarounds and vessel deliveries.",
+    "remoteDeliveryPitch": "Atlantis deploys Ulsan operators remotely with a bilingual English-Korean team. Discovery runs over Teams with Korean-native workshops, SAP and Maximo connectors are sandboxed against HD Hyundai and SK Energy template tenants, and technicians train via recorded bilingual sessions covering yard and refinery night shifts. Typical Ulsan rollouts reach production in 7-9 weeks given industrial density, sequenced around SK Energy and S-Oil TAs, HD Hyundai block load-outs and Hyundai Motor line-change windows.",
+    "featureBullets": [
+      "KEPIC and KGS Code preloaded templates for Korean pressure equipment",
+      "API 510/570/653 and 579 FFS workflows for SK Energy and S-Oil refineries",
+      "ABS, DNV, LR and KR class society records for HD Hyundai and HD Hyundai Mipo",
+      "Bilingual Korean-English UI, reports and e-signatures for KEPIC and KGS audits",
+      "AWS D1.1 and block-level weld traceability for shipbuilding",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does HD Hyundai use at Ulsan?",
+        "a": "HD Hyundai contractors use NDT ERP platforms enforcing KEPIC, KGS Code, AWS D1.1 and class society rules (ABS/DNV/LR/KR), integrated with SAP PM and Maximo used across HD Hyundai Heavy Industries."
+      },
+      {
+        "q": "Does it support SK Energy and S-Oil refinery turnarounds?",
+        "a": "Yes. API 510/570/653 and 579 FFS workflows plus KEPIC and KGS pressure-equipment rules cover SK Energy Ulsan Complex and S-Oil Onsan turnarounds."
+      },
+      {
+        "q": "Is it bilingual Korean-English?",
+        "a": "Yes. Full Korean UI and reports are supported with English exports, accepted by KEPIC, KGS, HD Hyundai and class society surveyors."
+      },
+      {
+        "q": "Can it handle KEPIC certification audits?",
+        "a": "Yes. KEPIC Mechanical, Electrical and Structural sections are mapped to inspection templates and procedure revisions with Korean retention and audit trails."
+      },
+      {
+        "q": "How does it integrate with SAP at Korean majors?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing HD Hyundai, SK Energy and S-Oil functional locations."
+      },
+      {
+        "q": "Does it support Hyundai Motor Ulsan plant NDT?",
+        "a": "Yes. Stamping press welds, body-in-white joints and paint-shop pressure equipment are tracked with AWS D1.1, KEPIC and Hyundai Motor quality standards."
+      },
+      {
+        "q": "Can it manage HD Hyundai Mipo product tanker builds?",
+        "a": "Yes. Product and chemical tanker blocks are tracked at weld-seam level with ABS, DNV, LR, KR class surveyor records and IMO coating inspection."
+      },
+      {
+        "q": "How long does an Ulsan implementation take?",
+        "a": "Typical Ulsan deployments take 7 to 9 weeks remotely given industrial density, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and bilingual Korean-English training."
+      }
+    ]
+  },
+  {
+    "slug": "busan",
+    "city": "Busan",
+    "state": "",
+    "country": "South Korea",
+    "region": "APAC",
+    "industries": [
+      "shipbuilding",
+      "port-ops",
+      "offshore",
+      "steel",
+      "defense"
+    ],
+    "namedFacilities": [
+      "HD Hyundai Mipo Dockyard (Busan-Ulsan, product and chemical tankers)",
+      "Hanwha Ocean (formerly DSME) Geoje shipyard (near Busan, LNG carriers, submarines)",
+      "Busan Port (Pelican, world's 7th largest container port)",
+      "HJ Shinhan Heavy Industries (Busan shipbuilding)",
+      "POSCO Pohang + Gwangyang (Korean steel, directed via Busan logistics)",
+      "Korean Navy Busan Naval Base + 2nd Fleet"
+    ],
+    "codes": [
+      "KEPIC",
+      "KGS Code",
+      "API 510",
+      "API 570",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "ABS/DNV/LR/KR classification",
+      "MIL-STD (defense)"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "IFS Cloud"
+    ],
+    "languages": [
+      "en",
+      "ko"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Busan NDT ERP 2026 | HD Hyundai Mipo, Hanwha Ocean, Port",
+    "meta155": "Busan NDT ERP for HD Hyundai Mipo, Hanwha Ocean, HJ Shinhan and Busan Port: KEPIC, KGS, class rules and AWS D1.1 in SAP PM, Maximo and IFS.",
+    "h1": "Busan NDT ERP Software - Customizable for All Industries",
+    "localHook": "Busan is Korea's maritime capital. HD Hyundai Mipo Dockyard (with yards across Busan-Ulsan) specializes in product and chemical tankers, while Hanwha Ocean (the former Daewoo Shipbuilding and Marine Engineering, DSME) on Geoje Island near Busan builds LNG carriers, LPG carriers, FPSOs and Korean Navy submarines. HJ Shinhan Heavy Industries (formerly Hanjin Heavy Industries) builds medium and specialty vessels in Busan proper. Busan Port - operated by the Busan Port Authority and Pelican - is the world's seventh-largest container port and a primary logistics gateway for POSCO Pohang and Gwangyang steel exports, plus Korean auto and electronics supply chains. Korean Navy Busan Naval Base and the 2nd Fleet add defense NDT scope under MIL-STD. Every contractor works to KEPIC, KGS Code, ABS/DNV/LR/KR class rules, AWS D1.1 and, for defense, Korean MND and US MIL-STD. Atlantis NDT ERP unifies shipbuilding, port, steel-export logistics and defense in one bilingual Korean-English system.",
+    "integrationPainParagraph": "Busan operators standardize on SAP S/4HANA at HD Hyundai Mipo and Hanwha Ocean with IBM Maximo on the yard floor, Oracle EBS at some naval and steel logistics operators and IFS Cloud at engineering contractors. Inspection and NDE data historically sat in Korean-language shared drives and class-society PDFs, which stalled ABS, DNV, LR and KR surveyor audits, KEPIC certification and Korean Navy acceptance reviews. Atlantis NDT ERP writes inspection findings, weld qualifications, class society records and defense audit packs directly into SAP PM notifications, Maximo functional locations, Oracle EBS and IFS asset records via REST, with KEPIC, KGS, AWS D1.1, MIL-STD and class templates preloaded so class, KEPIC and Korean Navy audits pull clean first pass during block deliveries and vessel acceptance.",
+    "remoteDeliveryPitch": "Atlantis deploys Busan operators remotely with a bilingual English-Korean team. Discovery runs over Teams with Korean-native workshops, SAP and Maximo connectors are sandboxed against HD Hyundai Mipo and Hanwha Ocean template tenants, and technicians train via recorded bilingual sessions covering yard and naval-base shifts. Typical Busan rollouts reach production in 6-8 weeks, sequenced around tanker and LNG carrier load-outs, submarine acceptance windows and Busan Port peak seasons.",
+    "featureBullets": [
+      "ABS, DNV, LR and KR class society records for HD Hyundai Mipo and Hanwha Ocean",
+      "KEPIC and KGS Code preloaded templates for Korean pressure equipment",
+      "AWS D1.1 and block-level weld traceability for shipbuilding and offshore",
+      "MIL-STD defense NDT evidence for Korean Navy submarine and surface work",
+      "Bilingual Korean-English UI, reports and e-signatures for KEPIC and class audits",
+      "SAP PM, Maximo, Oracle EBS and IFS Cloud REST push with closeout evidence"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP does HD Hyundai Mipo use?",
+        "a": "HD Hyundai Mipo contractors use NDT ERP platforms enforcing KEPIC, KGS Code, AWS D1.1 and class rules (ABS/DNV/LR/KR), integrated with SAP PM and Maximo used across HD Hyundai yards."
+      },
+      {
+        "q": "Does it support Hanwha Ocean LNG carrier builds?",
+        "a": "Yes. LNG carrier GTT membrane and Moss tank inspections are tracked at weld-seam and membrane-panel level with class and gas-trial retention."
+      },
+      {
+        "q": "Is it bilingual Korean-English?",
+        "a": "Yes. Full Korean UI and reports are supported with English exports, accepted by KEPIC, KGS, class society and Korean Navy reviewers."
+      },
+      {
+        "q": "Can it handle Korean Navy submarine acceptance audits?",
+        "a": "Yes. MIL-STD, Korean MND acceptance and KR naval class records are tracked at weld-joint and component level with classified retention profiles."
+      },
+      {
+        "q": "How does it integrate with SAP at Busan shipyards?",
+        "a": "It writes inspection and weld data back to SAP PM notifications and QM inspection lots via REST, so NDT findings appear on existing HD Hyundai Mipo and Hanwha Ocean functional locations."
+      },
+      {
+        "q": "Does it support Busan Port crane and jetty NDT?",
+        "a": "Yes. BPA and Pelican quay cranes, RTGs and jetty lines are tracked with API 570, AWS D1.1 and port-operator records."
+      },
+      {
+        "q": "Can it manage POSCO steel export logistics inspection?",
+        "a": "Yes. Bulk-handling transfer points, stockyards and export jetties tied to POSCO Pohang and Gwangyang flows are tracked with API 570 and port-asset records."
+      },
+      {
+        "q": "How long does a Busan implementation take?",
+        "a": "Typical Busan deployments take 6 to 8 weeks remotely, including SAP, Maximo, Oracle EBS and IFS Cloud connector setup and bilingual Korean-English training."
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "lang": "de",
+  "route": "/de/ndt-erp-software",
+  "title60": "ZfP-ERP-Software 2026 | Branchenspezifisch anpassbar",
+  "meta155": "ERP-Software für Zerstörungsfreie Prüfung (ZfP), integriert mit SAP und Maximo. Remote-Einführung in 30 Tagen unter Aufsicht eines Stufe-III-Prüfers.",
+  "h1": "ERP-Software für ZfP — Anpassbar für jede Branche",
+  "heroLead": "Atlantis bietet eine auf Zerstörungsfreie Prüfung (ZfP) spezialisierte ERP-Software, die Feldinspektion, Integritätsmanagement und Arbeitsauftragsabwicklung auf einer einzigen Plattform vereint. Die Lösung integriert sich nativ mit SAP PM, IBM Maximo und Meridium, erfüllt die Vorgaben von API, ASME und ISO 9712 und wird zu 100 % remote innerhalb von 30 Tagen unter der Aufsicht eines Stufe-III-Prüfers implementiert. Sie ist konzipiert für Raffinerien, petrochemische Anlagen, LNG-Anlagen, die Luft- und Raumfahrt, Werften und Pipeline-Betreiber, die auditierbare Nachverfolgbarkeit ohne Vor-Ort-Berater benötigen.",
+  "sections": [
+    {
+      "heading": "Was bedeutet es, ZfP in ein ERP zu integrieren",
+      "body": "Die Zerstörungsfreie Prüfung (ZfP) in ein ERP zu integrieren bedeutet, dass jede Wanddickenmessung, jeder PAUT-Scan, jede Radiografie und jede Anzeige strukturiert mit dem Anlagenobjekt, dem Inspektionskreislauf, der Kostenstelle und dem zugehörigen Arbeitsauftrag verknüpft wird. Statt in Tabellenkalkulationen, Netzlaufwerken oder Scanner-Herstellerportalen zu verbleiben, werden Feldbefunde nur einmal erfasst und fließen anschließend in SAP PM oder Maximo, um den Instandhaltungszyklus zu schließen, in Meridium oder APM, um das risikobasierte Inspektionsmodell (RBI) zu speisen, und in die Audit-Dokumentation des Kunden. Diese Integration ist der Unterschied zwischen bloßen Prüfdaten und einem Integritätsmanagement-Programm, das eine behördliche Prüfung ohne manuelle Abstimmungen übersteht."
+    },
+    {
+      "heading": "Integration mit SAP PM, Maximo und Meridium",
+      "body": "Atlantis verbindet sich mit SAP PM und SAP QM über BAPI- und OData-Schnittstellen, mit IBM Maximo und Maximo APM über die Standard-REST- und MIF-Dienste und mit Meridium sowie Bentley AssetWise auf Anlagen-, CML- und RBI-Berechnungsebene. Die Integration arbeitet mit der aktuellen ERP-Version des Kunden, ohne dass ein Upgrade erforderlich ist. Die Konnektoren sind bidirektional: Arbeitsaufträge fließen vom ERP zum Feldtechniker, und die ZfP-Ergebnisse fließen zurück in das Führungssystem mit vollständiger Rückverfolgbarkeit zur Seriennummer, zum qualifizierten Verfahren und zum Prüferzertifikat. Kunden mit dualer Architektur (z. B. Hexagon EAM zusammen mit SAP PM in Großraffinerien) erhalten einen Doppel-Konnektor-Modus, der die Befunde in beide Systeme synchronisiert, ohne die Erfassung zu duplizieren."
+    },
+    {
+      "heading": "Remote-Einführung in 30 Tagen",
+      "body": "Atlantis realisiert die Einführung des ZfP-ERP zu 100 % remote, ohne Personal vor Ort und ohne Verzögerungen durch Zutrittsmanagement oder Werksausweise. In den Tagen 1-30 wird das Datenmodell gegen die anwendbaren Codes konfiguriert (API 510/570/580/653, ASME V/VIII/B31.3, NFPA 59A, ISO 9712 oder andere), die vom Stufe-III-Prüfer qualifizierten Verfahren werden geladen und ein Pilot wird an einer Einheit, einem Tank oder einem Rohrleitungsabschnitt durchgeführt. In den Tagen 31-60 wird das System in das bestehende SAP PM, Maximo oder EAM integriert und historische Wanddicken- und CML-Daten werden migriert. In den Tagen 61-90 wird der komplette Datenfluss bis in die Fitness-for-Service-Engine validiert und die operative Kontrolle an das Integritätsteam des Kunden übergeben. Der gesamte Zyklus läuft über sichere VPN."
+    },
+    {
+      "heading": "Bediente Branchen",
+      "body": "Atlantis bedient Raffinerien und petrochemische Komplexe im US-Golf von Mexiko, in Mexiko, Kolumbien und Argentinien; LNG-Terminals in Inbetriebnahme und Betrieb; Pipeline-Betreiber nach PHMSA 49 CFR 192/195 und entsprechenden lateinamerikanischen Regelungen; Offshore-Betriebe unter BSEE-Aufsicht; Werften mit ABS- und DNV-Klassifikation; Fertigungsanlagen der Luft- und Raumfahrt nach AS9100 und Nadcap AC7114/AC7006; Halbleiterwerke mit SEMI F19/F20-Anforderungen; Kernkraftwerksbetrieb nach ASME Abschnitt XI und 10 CFR 50 Anhang B; sowie Medizinprodukte nach 21 CFR Teil 820. Jede Branche erhält eine bereits qualifizierte Verfahrensbibliothek, nicht eine leere Konfiguration."
+    },
+    {
+      "heading": "Unterstützte Codes und Normen",
+      "body": "Das System unterstützt nativ die anspruchsvollsten Codes für wiederkehrende Prüfung und Fertigung: API 510 (Druckbehälter), API 570 (Prozessrohrleitungen), API 580/581 (risikobasierte Inspektion), API 625 (gekühlte und kryogene Tanks), API 653 (atmosphärische Tanks), API 1104 (Pipeline-Schweißung), ASME Abschnitt V (ZfP-Methoden), ASME Abschnitt VIII (Behälterbau), ASME B31.3/B31.4/B31.8 (Rohrleitungen), ASME Abschnitt XI (nukleare wiederkehrende Prüfung), NFPA 59A (LNG-Anlagen), PHMSA 49 CFR 192/195, AWS D1.1 und D17.1, NAS 410, Nadcap AC7114 und AC7006, AMS 2175, MIL-STD-1907 und MIL-STD-2219, ISO 9712 für die Personalqualifizierung und 21 CFR Teil 11/820 für Medizinprodukte. Die Intervalllogik und die Dokumentenaufbewahrungsregeln werden automatisch je Code angewendet."
+    },
+    {
+      "heading": "Aufsicht durch Stufe-III-Prüfer",
+      "body": "Jede Einführung von Atlantis trägt die Unterschrift eines nach ASNT oder gleichwertig ISO 9712 zertifizierten Stufe-III-Prüfers. Die Verfahrensbibliothek, die Qualifizierung des Stufe-II-Personals, die Validierung des Datenmodells gegen die anwendbaren Codes und die Überprüfung kritischer Anzeigen durchlaufen die elektronische Unterschrift des Stufe-III-Prüfers, bevor sie als abgeschlossen gelten. Für Betreiber, die keinen eigenen Stufe-III-Prüfer intern haben, bietet Atlantis die Remote-Stufe-III-Aufsicht als dauerhafte Dienstleistung an, mit auditierbarer Rückverfolgbarkeit jeder Unterschrift zur Zertifikatsnummer und zum Ablaufdatum. Damit wird eine häufige Lücke bei mittelständischen Unternehmen geschlossen, die zuvor auf externe Beratungsunternehmen mit Vor-Ort-Einsatz angewiesen waren."
+    },
+    {
+      "heading": "Kundenspezifische Anpassung",
+      "body": "Das ZfP-ERP ist anpassbar im Datenmodell, in der Anlagenhierarchie, in den Berichtsvorlagen, in den Freigabe-Workflows und in den Konnektoren zum Unternehmens-ERP. Atlantis bietet kein Produkt mit starrer Konfiguration: Jeder Kunde erhält Verfahren, die gegen seine eigenen Unternehmensspezifikationen qualifiziert sind (zum Beispiel die internen Normen von Shell, BP, BASF oder Wintershall Dea auf Basis der API- und ASME-Vorlagen). Management-Dashboards werden nach Anlagentyp, Betriebseinheit oder Land aufgebaut, und regulatorische Berichte werden in den exakten Formaten exportiert, die die Landesbehörde, PHMSA, das Bundesamt für Wirtschaft und Ausfuhrkontrolle oder die EU-Aufsichtsgremien verlangen. Die Anpassung ist Teil des festen Einführungsumfangs, kein zusätzlicher Kostenpunkt."
+    },
+    {
+      "heading": "Reiseloser Remote-Betrieb",
+      "body": "Atlantis liefert jedes Projekt ohne Berater vor Ort. Konfigurationssitzungen, Schulungen, Migration historischer Daten und Validierung der Schnittstellen erfolgen per Videokonferenz und sicherer VPN. Die Stufe-II-Prüfer des Kunden erhalten Remote-Schulung zur Datenerfassung auf dem Tablet mit Offline-Modus für Prozesseinheiten ohne Mobilfunk- oder WLAN-Abdeckung. Die Stufe-III-Prüfer des Kunden oder die Stufe-III-Prüfer von Atlantis im Service-Modell prüfen und unterzeichnen kritische Anzeigen von jedem Standort aus. Das Remote-Modell eliminiert Reisekosten, Verzögerungen durch Werksausweise und Wartezeiten durch Sicherheitsfreigaben und ermöglicht den Einführungsstart am Tag der Vertragsunterzeichnung."
+    },
+    {
+      "heading": "Erfolgsgeschichten und Kundennachweise",
+      "body": "Kunden in Raffinerien am Golf von Mexiko, LNG-Anlagen in der Inbetriebnahmephase, Pipeline-Betreiber in Lateinamerika und aerospace-Hersteller mit Nadcap-Zertifizierung haben Atlantis in den beschriebenen 30/60/90-Tage-Zyklen eingeführt. Typische Ergebnisse umfassen die Eliminierung der manuellen Datenneueingabe zwischen Feldtechniker und Integritätsingenieur, die frühzeitige Erkennung von Verstößen gegen die Mindestwanddicke (T-min), bevor sie zum Ausfall eskalieren, die Vorbereitung regulatorischer Audit-Pakete in Stunden statt in Wochen und die kontinuierliche Einhaltung der API-Intervalle ohne Last-Minute-Eskalationen. Atlantis teilt überprüfbare Referenzen unter Vertraulichkeitsvereinbarung während des Auswahlprozesses."
+    }
+  ],
+  "featureBullets": [
+    "Native Integration mit SAP PM, Maximo, Meridium und Bentley AssetWise über REST, BAPI, OData und MIF",
+    "Verfahrensbibliothek qualifiziert gegen API 510/570/580/625/653, ASME V/VIII/B31.3, NFPA 59A, Nadcap AC7114/AC7006 und ASME Abschnitt XI",
+    "100 % Remote-Einführung in 30/60/90 Tagen unter Aufsicht eines Stufe-III-Prüfers",
+    "Einheitliches Personalzertifizierungsregister mit automatischer Sperre bei Zuweisung von Arbeitsaufträgen nach Methode und Code",
+    "Felddatenerfassung per Tablet im Offline-Modus mit automatischer Synchronisation bei Rückkehr in den Empfangsbereich",
+    "Zweisprachige Oberfläche Englisch/Deutsch mit elektronisch signierten Berichten in der Sprache des Betreibers"
+  ],
+  "paaQuestions": [
+    {
+      "q": "Was ist eine ERP-Software für ZfP?",
+      "a": "Eine ERP-Software für ZfP ist eine Plattform, die die Datenerfassung der Zerstörungsfreien Prüfung (ZfP) mit dem Anlagenmanagement, den Arbeitsaufträgen, den Personalzertifizierungen und dem risikobasierten Inspektionsmodell in einem einzigen auditierbaren System zusammenführt. Sie ersetzt Tabellenkalkulationen, Netzlaufwerke und isolierte Scanner-Herstellerportale. Sie verbindet sich mit dem Unternehmens-ERP (SAP PM, Maximo, Oracle EAM), um den Kreislauf zwischen Feldbefund und Arbeitsauftrag zu schließen."
+    },
+    {
+      "q": "Was kostet eine ERP-Software für ZfP?",
+      "a": "Der typische Jahrespreis liegt zwischen 60.000 und 300.000 US-Dollar, abhängig von der Anzahl der Anlagen, Benutzer und dem Integrationsumfang. Atlantis kalkuliert anhand der Größe des bestehenden ERP, nicht pro Arbeitsplatz, da die Prüfernutzung während Anlagenstillständen konzentriert ist. Eine Einzelwerks-Einführung für Raffinerie oder Luft- und Raumfahrt liegt zwischen 85.000 und 160.000 US-Dollar pro Jahr. Der 30-Tage-Pilot hat einen Festpreis und wird auf das Jahresabonnement angerechnet, sofern der Kunde fortfährt."
+    },
+    {
+      "q": "Integriert sich das ZfP-ERP in SAP und Maximo?",
+      "a": "Ja, Atlantis integriert sich nativ in SAP PM/QM sowie IBM Maximo und Maximo APM. Die Verbindung erfolgt über BAPI, OData, REST und MIF auf den Ebenen Meldung, Arbeitsauftrag, Anlagenhierarchie, Zustandsüberwachungspunkt und Inspektionslos. Die Integration ist bidirektional, arbeitet mit der aktuellen ERP-Version ohne Upgrade und eliminiert die manuelle Neueingabe zwischen ZfP-Techniker und Instandhaltungsplaner."
+    },
+    {
+      "q": "Wie lange dauert die Einführung des ZfP-ERP?",
+      "a": "Der Standardzyklus beträgt 30/60/90 Tage. Die ersten 30 Tage decken die Konfiguration gegen die anwendbaren Codes und einen Piloten an einer repräsentativen Anlage ab. Die Tage 31-60 integrieren das System in SAP PM oder Maximo. Die Tage 61-90 migrieren die historischen Prüfdaten und übergeben die operative Kontrolle an das Integritätsteam. Der gesamte Zyklus läuft remote, ohne Reisen und ohne Vor-Ort-Personal."
+    },
+    {
+      "q": "Benötigt Atlantis Personal vor Ort für die Implementierung?",
+      "a": "Nein, Atlantis benötigt kein Personal vor Ort. Die gesamte Konfiguration, Integration, Schulung und Validierung erfolgt remote über sichere VPN und Videokonferenz. Die Stufe-II-Prüfer des Kunden erfassen Daten im Feld mit Tablets, und die Stufe-III-Prüfer (des Kunden oder von Atlantis) prüfen kritische Anzeigen von jedem Standort aus. Das Remote-Modell eliminiert Reisekosten und Wartezeiten durch Werksausweise."
+    },
+    {
+      "q": "Welche Prüfcodes unterstützt das System?",
+      "a": "Nativ unterstützt werden API 510, 570, 580, 625, 653 und 1104; ASME Abschnitt V, Abschnitt VIII, Abschnitt XI und B31.3/B31.4/B31.8; NFPA 59A für LNG-Anlagen; PHMSA 49 CFR 192 und 195 für Pipelines; AWS D1.1 und D17.1; NAS 410 und Nadcap AC7114/AC7006 für die Luft- und Raumfahrt; ISO 9712 für die Personalqualifizierung; sowie 21 CFR Teil 11/820 für Medizinprodukte. Die Intervalllogik und die Dokumentenaufbewahrung werden automatisch je Code angewendet."
+    },
+    {
+      "q": "Verwaltet das System die Personalzertifizierung?",
+      "a": "Ja, das System führt pro Person und Methode ein Register aller gültigen Zertifizierungen, einschließlich ASNT Stufe I/II/III, ISO 9712, NAS 410, API 510/570/653-Endorsements und kundenspezifische Freigaben. Die Arbeitsauftragsvergabe wird automatisch gesperrt, wenn die erforderliche Zertifizierung abgelaufen ist. Erneuerungshinweise werden 90, 60 und 30 Tage vor Ablauf ausgelöst und eliminieren die Abhängigkeit von parallel geführten Tabellenkalkulationen, die zwischen Audits oft veraltet sind."
+    },
+    {
+      "q": "Funktioniert das ZfP-ERP im Feld ohne Verbindung?",
+      "a": "Ja, die Feldanwendung arbeitet im Offline-Modus auf dem Tablet des Prüfers in Prozesseinheiten ohne Mobilfunk- oder WLAN-Abdeckung. Wanddickenmessungen, Importe von UT/PAUT-Scans, visuelle Befunde und Fotos werden lokal erfasst und an das ERP synchronisiert, sobald das Gerät wieder Empfang hat. Jede Erfassung wird mit Datum, Uhrzeit und der Zertifikatsnummer des Prüfers zum Aufnahmezeitpunkt versiegelt."
+    },
+    {
+      "q": "Welche Branchen bedient Atlantis?",
+      "a": "Atlantis bedient Raffinerien, petrochemische Anlagen, LNG-Terminals, Pipeline-Betreiber, Offshore-Plattformen, Werften, Luft- und Raumfahrtfertigung, Halbleiterwerke, Kernkraftwerke und Medizinprodukte. Jede Branche erhält eine bereits gegen die anwendbaren Codes qualifizierte Verfahrensbibliothek, und die Konfiguration wird ohne Zusatzkosten innerhalb des Einführungsumfangs an die Unternehmensspezifikationen des Kunden angepasst."
+    },
+    {
+      "q": "Bietet Atlantis Support auf Deutsch?",
+      "a": "Ja, Atlantis bietet eine zweisprachige Oberfläche Englisch/Deutsch, in der Sprache des Betreibers signierte Berichte, Remote-Schulung auf Deutsch für Teams in Deutschland, Österreich und der Schweiz sowie technischen Support auf Deutsch. Codes und regulatorische Verweise werden in ihrer kanonischen Sprache beibehalten (zum Beispiel API 510 oder ASME Abschnitt V), um den rechtlichen Wert des Dokuments bei einer Prüfung zu erhalten."
+    }
+  ],
+  "cta": {
+    "heading": "Vereinbaren Sie eine Demo des ZfP-ERP",
+    "body": "Fordern Sie eine 45-minütige Remote-Demo an, um das auf Ihre Branche angewandte Datenmodell, die bereits funktionierenden Konnektoren zu SAP PM oder Maximo und die von einem Stufe-III-Prüfer qualifizierte Verfahrensbibliothek zu sehen. Der 30-Tage-Pilot hat einen Festpreis und wird auf das Jahresabonnement angerechnet.",
+    "buttonText": "Demo vereinbaren"
+  }
+}

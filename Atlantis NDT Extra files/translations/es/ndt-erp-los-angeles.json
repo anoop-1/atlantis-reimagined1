@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "los-angeles",
+  "route": "/es/ndt-erp-los-angeles",
+  "canonicalEnRoute": "/ndt-erp-los-angeles",
+  "title60": "ERP NDT Los Ángeles 2026 | Refinación y Puertos",
+  "meta155": "ERP NDT para refinación, aeroespacial y puertos de la Cuenca de LA. Flujos API 510/570 y AS9100 para Marathon LA y Chevron El Segundo, 30/60/90 días.",
+  "h1": "Software ERP NDT Los Ángeles — Personalizable para Todas las Industrias",
+  "localHook": "La Cuenca de Los Ángeles alberga el mayor clúster de refinerías de la Costa Oeste. La refinería Marathon Los Angeles, que combina los sitios de Carson y Wilmington que Marathon adquirió en 2018, es la refinería más grande de la Costa Oeste con 365.000 barriles por día calendario. Phillips 66 Los Angeles (Wilmington y Carson), Chevron El Segundo y Valero Wilmington completan una huella refinadora que abastece una porción importante de la demanda de combustible de California. Los Puertos de Los Ángeles y Long Beach suman inspección de grúas portuarias e intermodal, y el clúster aeroespacial de LA —Boeing El Segundo, Raytheon y Northrop Grumman— opera trabajo denso de calidad de proveedor bajo AS9100. El dolor distintivo ERP-inspección es la densidad regulatoria de California: CARB, CalARP, SCAQMD y las reglas de retiro SB 1137 superpuestas sobre los requisitos federales API y PHMSA generan una carga de reporte que las hojas de cálculo manuales simplemente no pueden sostener a la escala de las refinerías de LA.",
+  "integrationPainParagraph": "La refinería Marathon Los Angeles opera Hexagon EAM (antes PAS) junto con SAP PM en una configuración dual común a la escala de 365.000 barriles por día. El dolor de integración es que los hallazgos de inspección API 510 y 570 deben reconciliarse entre ambos sistemas de planta, y el reporte regulatorio de California —actualizaciones CalARP RMP, cumplimiento SCAQMD Regla 1402, reporte de aire comunitario AB 617— extrae datos de ambos. Chevron El Segundo, Phillips 66 LA y Valero Wilmington operan cada uno variantes del mismo tema. Atlantis ERP NDT provee una sola capa de datos de inspección que empuja hallazgos estructurados hacia Hexagon EAM y SAP PM, preserva la trazabilidad entre sistemas y exporta los reportes regulatorios de California directamente en lugar de requerir una reconciliación manual.",
+  "remoteDeliveryPitch": "Atlantis despliega a sus clientes de Los Ángeles —refinería Marathon LA, Phillips 66 LA, Chevron El Segundo, Valero Wilmington, operadores del puerto LA/Long Beach y primes aeroespaciales de El Segundo— de forma completamente remota. Configuración respaldada por Inspector ASNT Nivel III, conectores SAP PM, Maximo, Hexagon EAM y Oracle EAM escritos sin viajar, y tenants de sandbox activos el primer día. Tiempo típico: 30 días a piloto, 60 días a alcance completo con integración, 90 días a producción. La entrega remota evita el tráfico de LA y las demoras de credenciales.",
+  "featureBullets": [
+    "Plantillas API 510 y API 570 afinadas a la configuración de 365.000 bpd Carson/Wilmington de la refinería Marathon Los Angeles.",
+    "Modo de conector dual Hexagon EAM y SAP PM para los patrones de integración de refinerías de la Cuenca de LA.",
+    "Paquete de reporte regulatorio de California para CalARP RMP, SCAQMD Regla 1402 y presentaciones de aire comunitario AB 617.",
+    "Flujos AS9100 y NAS 410 configurados para los patrones de proveedor de Boeing El Segundo, Raytheon y Northrop Grumman.",
+    "Inspección de tanques API 653 y terminales portuarias para los activos de terminales de combustible del Puerto de LA y el Puerto de Long Beach.",
+    "Formularios bilingües inglés/español de entrada de campo alineados a las calificaciones de procedimiento ASME V usadas en los grupos de contratistas de la Cuenca de LA."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Cuánto cuesta el software ERP NDT en Los Ángeles?",
+      "a": "Atlantis ERP NDT para los clientes de Los Ángeles típicamente va de 50.000 a 280.000 dólares anuales, cotizado por conteo de activos activos. Un solo tenant de calidad de proveedor aeroespacial en El Segundo o un operador de terminal del Puerto de LA se ubica en el rango medio. Un despliegue a escala de refinería tipo Valero Wilmington o Phillips 66 LA se ubica más alto. Un tenant a escala de la refinería Marathon Los Angeles con 365.000 barriles por día calendario —la mayor de la Costa Oeste— se ubica en el extremo superior. La implementación va de 40.000 a 130.000 dólares según la complejidad de integración con Hexagon EAM, SAP PM o Maximo. Sin tarifas por asiento."
+    },
+    {
+      "q": "¿Se puede integrar con Hexagon EAM en Marathon LA?",
+      "a": "Sí — la integración con Hexagon EAM es un patrón soportado para las refinerías de la Cuenca de LA que operan la plataforma junto con SAP PM. El conector mapea hallazgos de inspección a las jerarquías de activos Hexagon, empuja eventos de quiebre de T-min y superación de tasa de corrosión, y preserva la trazabilidad a través de la configuración dual Hexagon EAM y SAP PM común a la escala de 365.000 barriles por día. La integración se configura durante la fase de despliegue de 60 días contra copias sandbox de ambos sistemas."
+    },
+    {
+      "q": "¿Maneja el reporte regulatorio de California?",
+      "a": "Sí — el reporte regulatorio de California está incorporado a la plataforma. Las actualizaciones del Programa de Gestión de Riesgo CalARP, el reporte de benceno y de aire comunitario a 1,5 millas bajo la Regla 1402 de SCAQMD, las entregas de datos de monitoreo de aire comunitario AB 617 y el cumplimiento de distancias mínimas SB 1137 para operadores aguas arriba se exportan directamente. Para las refinerías de la Cuenca de LA, el paquete de reporte maneja limpiamente la capa federal API y PHMSA superpuesta — un solo registro de inspección genera las salidas requeridas para múltiples agencias en lugar de requerir reconciliación manual entre sistemas."
+    },
+    {
+      "q": "¿Cuál es el mejor software NDT para las refinerías de la Cuenca de LA?",
+      "a": "El mejor software NDT para refinerías de la Cuenca de LA es aquel que maneja escalas de 100.000 a 365.000 barriles por día con conectividad Hexagon EAM, SAP PM o Maximo, cobertura completa de códigos API 510/570/580/653 y reporte regulatorio de California —CalARP, SCAQMD, AB 617— incorporado. Atlantis ERP NDT calza con este perfil porque fue configurado específicamente para el clúster de la Cuenca de LA. Los proveedores empresariales cobran por asiento y luchan con la capa regulatoria de California. Las apps NDT puntuales cubren la captura de campo pero no la entrega al ERP ni el reporte regulatorio."
+    },
+    {
+      "q": "¿Soporta AS9100 para proveedores aeroespaciales de El Segundo?",
+      "a": "Sí — los flujos AS9100D son una capacidad central de la plataforma, incluyendo la cláusula 8.4 de controles de proveedor externo, la cláusula 9.2 de auditorías internas y la cláusula 10.2 de gestión de no conformidades. Para los proveedores aeroespaciales de El Segundo que trabajan en los programas del Centro de Desarrollo de Satélites de Boeing, Raytheon o Northrop Grumman, la plataforma soporta la visibilidad de proveedor de segundo y tercer nivel requerida para revisiones de aseguramiento de misión. El seguimiento de calificación NAS 410 se vincula a cada registro de inspección, y las referencias FAA AC 43.13 se incrustan donde corresponden."
+    },
+    {
+      "q": "¿Maneja inspección de grúas y terminales portuarias?",
+      "a": "Sí — la inspección de grúas y terminales de combustible en el Puerto de LA y el Puerto de Long Beach se soporta mediante flujos ASME B30.2 de grúas aéreas, inspección de tanques API 653 y plantillas de tuberías API 570. Las inspecciones periódicas de grúas de contenedores, las inspecciones de brazos de carga en terminales de combustible y los hallazgos NDT estructurales de muelle viven como registros de primera clase. La integración con los sistemas CMMS del operador portuario —típicamente Maximo u Oracle EAM— empuja hallazgos al flujo de orden de trabajo para programación y planificación de repuestos."
+    },
+    {
+      "q": "¿Cuánto tarda el despliegue en una refinería de la Cuenca de LA?",
+      "a": "Treinta días a un piloto funcional que cubre tuberías API 570 en una unidad de refinería. Sesenta días a la cobertura total de la refinería incluyendo recipientes API 510 y tanques API 653, con integración Hexagon EAM, SAP PM o Maximo conectada. Noventa días al corte a producción con datos históricos de espesores migrados, reporte regulatorio de California activo y cuadrillas de campo capacitadas. El plazo asume sesiones de trabajo semanales de 90 minutos y acceso a un sandbox del sistema de planta. Atlantis opera todo de forma remota — sin demoras de credenciales, sin tráfico."
+    },
+    {
+      "q": "¿Vale la pena el ERP NDT para una refinería a escala de Valero Wilmington?",
+      "a": "Para refinerías a escala de Valero Wilmington —aproximadamente 135.000 barriles por día— el ERP NDT típicamente paga su retorno en 8 a 12 meses mediante reducción de doble carga de datos, detección de quiebres de T-min, definición más limpia del alcance de parada y ahorros sustanciales en la preparación de reporte regulatorio de California. La presión regulatoria de California acelera el retorno frente a otras regiones porque los flujos de reporte manual consumen horas de ingeniería que los datos estructurados eliminan. La decisión suele depender de la exposición a auditoría CalARP — los operadores con citaciones recientes ven un ROI más rápido."
+    }
+  ]
+}

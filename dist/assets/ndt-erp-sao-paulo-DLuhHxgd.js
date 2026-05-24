@@ -1,0 +1,1 @@
+import{j as o}from"./compare-pages-C1d7etmC.js";import{E as r}from"./ErpLocationPage-DcBT4Vpb.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function u(){return o.jsx(r,{city:"Sao Paulo",country:"Brazil",slug:"ndt-erp-sao-paulo"})}export{u as default};

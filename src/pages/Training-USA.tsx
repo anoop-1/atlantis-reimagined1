@@ -94,8 +94,8 @@ export default function TrainingUSA() {
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
       <Navigation />
       <SEOHead
-        title="[Comprehensive] NDT Training USA - ASNT Certified Courses"
-        description="NDT training USA: Level I/II/III, all methods. Houston, Dallas, multiple locations. 95% pass rate. ASNT certified instructors."
+        title="NDT Training USA 2026 — 95% Pass Rate, ASNT SNT-TC-1A Approved, 5 Day Course | Atlantis NDT"
+        description="ASNT Level III-led NDT training across Houston, Dallas, Chicago, Los Angeles, New Orleans, Denver. UT/RT/MT/PT/VT/ET methods. $1,500 per student. 95% pass rate. 3,200+ US technicians trained. Enroll: enroll@atlantisndt.com"
         keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
         canonical="https://atlantisndt.com/training-usa"
         structuredData={courseSchema}

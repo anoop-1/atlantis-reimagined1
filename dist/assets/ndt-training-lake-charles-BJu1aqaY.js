@@ -1,0 +1,1 @@
+import{j as i}from"./compare-pages-C1d7etmC.js";import{g as t,T as a}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function l(){const r=t("lake-charles");return r?i.jsx(a,{profile:r}):null}export{l as default};

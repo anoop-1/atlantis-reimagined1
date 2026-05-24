@@ -1,0 +1,1 @@
+import{j as r}from"./compare-pages-C1d7etmC.js";import{g as t,T as n}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function l(){const i=t("marseille");return i?r.jsx(n,{profile:i}):null}export{l as default};

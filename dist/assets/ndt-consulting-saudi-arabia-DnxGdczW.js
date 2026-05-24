@@ -1,0 +1,1 @@
+import{j as o}from"./compare-pages-C1d7etmC.js";import{C as i}from"./ConsultingLocationPage-BaZB4cLc.js";import"./PillarHubNav-4Fa_GMYz.js";import"./programmatic-seo-CmWZtb0f.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function u(){return o.jsx(i,{locationSlug:"saudi-arabia"})}export{u as default};

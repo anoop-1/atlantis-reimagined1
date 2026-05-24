@@ -1,0 +1,1645 @@
+{
+  "anchorage": {
+    "digitalTwinUrl": "/digital-twin-anchorage",
+    "erpUrl": "/ndt-erp-anchorage",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "bakersfield",
+      "baton-rouge"
+    ]
+  },
+  "atlanta": {
+    "digitalTwinUrl": "/digital-twin-atlanta",
+    "erpUrl": "/ndt-erp-atlanta",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "charlotte",
+      "jacksonville",
+      "miami"
+    ]
+  },
+  "bakersfield": {
+    "digitalTwinUrl": "/digital-twin-bakersfield",
+    "erpUrl": "/ndt-erp-bakersfield",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "anchorage",
+      "baton-rouge"
+    ]
+  },
+  "baltimore": {
+    "digitalTwinUrl": "/digital-twin-baltimore",
+    "erpUrl": "/ndt-erp-baltimore",
+    "verticalHub": "/digital-twins/defense",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "newport-news",
+      "norfolk"
+    ]
+  },
+  "baton-rouge": {
+    "digitalTwinUrl": "/digital-twin-baton-rouge",
+    "erpUrl": "/ndt-erp-baton-rouge",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "lake-charles",
+      "new-orleans"
+    ]
+  },
+  "beaumont": {
+    "digitalTwinUrl": "/digital-twin-beaumont",
+    "erpUrl": "/ndt-erp-beaumont",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "corpus-christi",
+      "galveston",
+      "houston"
+    ]
+  },
+  "billings": {
+    "digitalTwinUrl": "/digital-twin-billings",
+    "erpUrl": "/ndt-erp-billings",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "casper",
+      "denver",
+      "salt-lake-city"
+    ]
+  },
+  "birmingham": {
+    "digitalTwinUrl": "/digital-twin-birmingham",
+    "erpUrl": "/ndt-erp-birmingham",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "huntsville",
+      "memphis",
+      "mobile"
+    ]
+  },
+  "boston": {
+    "digitalTwinUrl": "/digital-twin-boston",
+    "erpUrl": "/ndt-erp-boston",
+    "verticalHub": "/digital-twins/defense",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "hartford",
+      "baltimore"
+    ]
+  },
+  "buffalo": {
+    "digitalTwinUrl": "/digital-twin-buffalo",
+    "erpUrl": "/ndt-erp-buffalo",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "atlanta",
+      "charlotte"
+    ]
+  },
+  "casper": {
+    "digitalTwinUrl": "/digital-twin-casper",
+    "erpUrl": "/ndt-erp-casper",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "billings",
+      "denver",
+      "salt-lake-city"
+    ]
+  },
+  "charlotte": {
+    "digitalTwinUrl": "/digital-twin-charlotte",
+    "erpUrl": "/ndt-erp-charlotte",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "atlanta",
+      "jacksonville",
+      "miami"
+    ]
+  },
+  "chicago": {
+    "digitalTwinUrl": "/digital-twin-chicago",
+    "erpUrl": "/ndt-erp-chicago",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "cleveland",
+      "detroit"
+    ]
+  },
+  "cincinnati": {
+    "digitalTwinUrl": "/digital-twin-cincinnati",
+    "erpUrl": "/ndt-erp-cincinnati",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "columbus",
+      "indianapolis",
+      "louisville"
+    ]
+  },
+  "cleveland": {
+    "digitalTwinUrl": "/digital-twin-cleveland",
+    "erpUrl": "/ndt-erp-cleveland",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "chicago",
+      "detroit"
+    ]
+  },
+  "columbus": {
+    "digitalTwinUrl": "/digital-twin-columbus",
+    "erpUrl": "/ndt-erp-columbus",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "cincinnati",
+      "indianapolis",
+      "louisville"
+    ]
+  },
+  "corpus-christi": {
+    "digitalTwinUrl": "/digital-twin-corpus-christi",
+    "erpUrl": "/ndt-erp-corpus-christi",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "beaumont",
+      "galveston",
+      "houston"
+    ]
+  },
+  "dallas": {
+    "digitalTwinUrl": "/digital-twin-dallas",
+    "erpUrl": "/ndt-erp-dallas",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "fort-worth",
+      "midland",
+      "san-antonio"
+    ]
+  },
+  "denver": {
+    "digitalTwinUrl": "/digital-twin-denver",
+    "erpUrl": "/ndt-erp-denver",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "billings",
+      "casper",
+      "salt-lake-city"
+    ]
+  },
+  "detroit": {
+    "digitalTwinUrl": "/digital-twin-detroit",
+    "erpUrl": "/ndt-erp-detroit",
+    "verticalHub": "/digital-twins/defense",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "chicago",
+      "cleveland"
+    ]
+  },
+  "fargo": {
+    "digitalTwinUrl": "/digital-twin-fargo",
+    "erpUrl": "/ndt-erp-fargo",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "anchorage",
+      "bakersfield"
+    ]
+  },
+  "fort-worth": {
+    "digitalTwinUrl": "/digital-twin-fort-worth",
+    "erpUrl": "/ndt-erp-fort-worth",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "dallas",
+      "midland",
+      "san-antonio"
+    ]
+  },
+  "galveston": {
+    "digitalTwinUrl": "/digital-twin-galveston",
+    "erpUrl": "/ndt-erp-galveston",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "beaumont",
+      "corpus-christi",
+      "houston"
+    ]
+  },
+  "hartford": {
+    "digitalTwinUrl": "/digital-twin-hartford",
+    "erpUrl": "/ndt-erp-hartford",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "boston",
+      "atlanta"
+    ]
+  },
+  "houston": {
+    "digitalTwinUrl": "/digital-twin-houston",
+    "erpUrl": "/ndt-erp-houston",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "beaumont",
+      "corpus-christi",
+      "galveston"
+    ]
+  },
+  "huntsville": {
+    "digitalTwinUrl": "/digital-twin-huntsville",
+    "erpUrl": "/ndt-erp-huntsville",
+    "verticalHub": "/digital-twins/defense",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "birmingham",
+      "memphis",
+      "mobile"
+    ]
+  },
+  "indianapolis": {
+    "digitalTwinUrl": "/digital-twin-indianapolis",
+    "erpUrl": "/ndt-erp-indianapolis",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "cincinnati",
+      "columbus",
+      "louisville"
+    ]
+  },
+  "jacksonville": {
+    "digitalTwinUrl": "/digital-twin-jacksonville",
+    "erpUrl": "/ndt-erp-jacksonville",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "atlanta",
+      "charlotte",
+      "miami"
+    ]
+  },
+  "kansas-city": {
+    "digitalTwinUrl": "/digital-twin-kansas-city",
+    "erpUrl": "/ndt-erp-kansas-city",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "oklahoma-city",
+      "tulsa"
+    ]
+  },
+  "lake-charles": {
+    "digitalTwinUrl": "/digital-twin-lake-charles",
+    "erpUrl": "/ndt-erp-lake-charles",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "baton-rouge",
+      "new-orleans"
+    ]
+  },
+  "los-angeles": {
+    "digitalTwinUrl": "/digital-twin-los-angeles",
+    "erpUrl": "/ndt-erp-los-angeles",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "san-francisco",
+      "anchorage"
+    ]
+  },
+  "louisville": {
+    "digitalTwinUrl": "/digital-twin-louisville",
+    "erpUrl": "/ndt-erp-louisville",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "cincinnati",
+      "columbus",
+      "indianapolis"
+    ]
+  },
+  "memphis": {
+    "digitalTwinUrl": "/digital-twin-memphis",
+    "erpUrl": "/ndt-erp-memphis",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "birmingham",
+      "huntsville",
+      "mobile"
+    ]
+  },
+  "miami": {
+    "digitalTwinUrl": "/digital-twin-miami",
+    "erpUrl": "/ndt-erp-miami",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "atlanta",
+      "charlotte",
+      "jacksonville"
+    ]
+  },
+  "midland": {
+    "digitalTwinUrl": "/digital-twin-midland",
+    "erpUrl": "/ndt-erp-midland",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dallas",
+      "fort-worth",
+      "san-antonio"
+    ]
+  },
+  "milwaukee": {
+    "digitalTwinUrl": "/digital-twin-milwaukee",
+    "erpUrl": "/ndt-erp-milwaukee",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/iot-sensor-integration",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "minneapolis-st-paul",
+      "new-york"
+    ]
+  },
+  "minneapolis-st-paul": {
+    "digitalTwinUrl": "/digital-twin-minneapolis-st-paul",
+    "erpUrl": "/ndt-erp-minneapolis-st-paul",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "milwaukee",
+      "atlanta"
+    ]
+  },
+  "mobile": {
+    "digitalTwinUrl": "/digital-twin-mobile",
+    "erpUrl": "/ndt-erp-mobile",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "birmingham",
+      "huntsville",
+      "memphis"
+    ]
+  },
+  "nashville": {
+    "digitalTwinUrl": "/digital-twin-nashville",
+    "erpUrl": "/ndt-erp-nashville",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "birmingham",
+      "huntsville",
+      "memphis"
+    ]
+  },
+  "new-orleans": {
+    "digitalTwinUrl": "/digital-twin-new-orleans",
+    "erpUrl": "/ndt-erp-new-orleans",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "baton-rouge",
+      "lake-charles"
+    ]
+  },
+  "new-york": {
+    "digitalTwinUrl": "/digital-twin-new-york",
+    "erpUrl": "/ndt-erp-new-york",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/iot-sensor-integration",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "newark",
+      "philadelphia"
+    ]
+  },
+  "newark": {
+    "digitalTwinUrl": "/digital-twin-newark",
+    "erpUrl": "/ndt-erp-newark",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "new-york",
+      "philadelphia"
+    ]
+  },
+  "newport-news": {
+    "digitalTwinUrl": "/digital-twin-newport-news",
+    "erpUrl": "/ndt-erp-newport-news",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "baltimore",
+      "norfolk"
+    ]
+  },
+  "norfolk": {
+    "digitalTwinUrl": "/digital-twin-norfolk",
+    "erpUrl": "/ndt-erp-norfolk",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "baltimore",
+      "newport-news"
+    ]
+  },
+  "odessa": {
+    "digitalTwinUrl": "/digital-twin-odessa",
+    "erpUrl": "/ndt-erp-odessa",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "anchorage",
+      "bakersfield"
+    ]
+  },
+  "oklahoma-city": {
+    "digitalTwinUrl": "/digital-twin-oklahoma-city",
+    "erpUrl": "/ndt-erp-oklahoma-city",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "kansas-city",
+      "tulsa"
+    ]
+  },
+  "philadelphia": {
+    "digitalTwinUrl": "/digital-twin-philadelphia",
+    "erpUrl": "/ndt-erp-philadelphia",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "new-york",
+      "newark"
+    ]
+  },
+  "phoenix": {
+    "digitalTwinUrl": "/digital-twin-phoenix",
+    "erpUrl": "/ndt-erp-phoenix",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "tucson",
+      "atlanta"
+    ]
+  },
+  "pittsburgh": {
+    "digitalTwinUrl": "/digital-twin-pittsburgh",
+    "erpUrl": "/ndt-erp-pittsburgh",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/iot-sensor-integration",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "milwaukee",
+      "new-york"
+    ]
+  },
+  "port-arthur": {
+    "digitalTwinUrl": "/digital-twin-port-arthur",
+    "erpUrl": "/ndt-erp-port-arthur",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "beaumont",
+      "corpus-christi",
+      "galveston"
+    ]
+  },
+  "portland": {
+    "digitalTwinUrl": "/digital-twin-portland",
+    "erpUrl": "/ndt-erp-portland",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "seattle",
+      "miami"
+    ]
+  },
+  "salt-lake-city": {
+    "digitalTwinUrl": "/digital-twin-salt-lake-city",
+    "erpUrl": "/ndt-erp-salt-lake-city",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "billings",
+      "casper",
+      "denver"
+    ]
+  },
+  "san-antonio": {
+    "digitalTwinUrl": "/digital-twin-san-antonio",
+    "erpUrl": "/ndt-erp-san-antonio",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "dallas",
+      "fort-worth",
+      "midland"
+    ]
+  },
+  "san-francisco": {
+    "digitalTwinUrl": "/digital-twin-san-francisco",
+    "erpUrl": "/ndt-erp-san-francisco",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "los-angeles",
+      "anchorage"
+    ]
+  },
+  "seattle": {
+    "digitalTwinUrl": "/digital-twin-seattle",
+    "erpUrl": "/ndt-erp-seattle",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "portland",
+      "atlanta"
+    ]
+  },
+  "st-louis": {
+    "digitalTwinUrl": "/digital-twin-st-louis",
+    "erpUrl": "/ndt-erp-st-louis",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "cincinnati",
+      "columbus",
+      "indianapolis"
+    ]
+  },
+  "tampa": {
+    "digitalTwinUrl": "/digital-twin-tampa",
+    "erpUrl": "/ndt-erp-tampa",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/iot-sensor-integration",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "atlanta",
+      "charlotte",
+      "jacksonville"
+    ]
+  },
+  "toledo": {
+    "digitalTwinUrl": "/digital-twin-toledo",
+    "erpUrl": "/ndt-erp-toledo",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "cincinnati",
+      "columbus",
+      "indianapolis"
+    ]
+  },
+  "tucson": {
+    "digitalTwinUrl": "/digital-twin-tucson",
+    "erpUrl": "/ndt-erp-tucson",
+    "verticalHub": "/digital-twins/defense",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "phoenix",
+      "baltimore"
+    ]
+  },
+  "tulsa": {
+    "digitalTwinUrl": "/digital-twin-tulsa",
+    "erpUrl": "/ndt-erp-tulsa",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "kansas-city",
+      "oklahoma-city"
+    ]
+  },
+  "toronto": {
+    "digitalTwinUrl": "/digital-twin-toronto",
+    "erpUrl": "/ndt-erp-toronto",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "montreal",
+      "calgary",
+      "edmonton"
+    ]
+  },
+  "montreal": {
+    "digitalTwinUrl": "/digital-twin-montreal",
+    "erpUrl": "/ndt-erp-montreal",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "toronto",
+      "calgary",
+      "edmonton"
+    ]
+  },
+  "calgary": {
+    "digitalTwinUrl": "/digital-twin-calgary",
+    "erpUrl": "/ndt-erp-calgary",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "toronto",
+      "montreal",
+      "edmonton"
+    ]
+  },
+  "edmonton": {
+    "digitalTwinUrl": "/digital-twin-edmonton",
+    "erpUrl": "/ndt-erp-edmonton",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "toronto",
+      "montreal",
+      "calgary"
+    ]
+  },
+  "sarnia": {
+    "digitalTwinUrl": "/digital-twin-sarnia",
+    "erpUrl": "/ndt-erp-sarnia",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "toronto",
+      "montreal",
+      "calgary"
+    ]
+  },
+  "vancouver": {
+    "digitalTwinUrl": "/digital-twin-vancouver",
+    "erpUrl": "/ndt-erp-vancouver",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "toronto",
+      "montreal",
+      "calgary"
+    ]
+  },
+  "mexico-city": {
+    "digitalTwinUrl": "/digital-twin-mexico-city",
+    "erpUrl": "/ndt-erp-mexico-city",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "monterrey",
+      "villahermosa",
+      "coatzacoalcos"
+    ]
+  },
+  "monterrey": {
+    "digitalTwinUrl": "/digital-twin-monterrey",
+    "erpUrl": "/ndt-erp-monterrey",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "villahermosa",
+      "coatzacoalcos"
+    ]
+  },
+  "villahermosa": {
+    "digitalTwinUrl": "/digital-twin-villahermosa",
+    "erpUrl": "/ndt-erp-villahermosa",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "coatzacoalcos"
+    ]
+  },
+  "coatzacoalcos": {
+    "digitalTwinUrl": "/digital-twin-coatzacoalcos",
+    "erpUrl": "/ndt-erp-coatzacoalcos",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "sao-paulo": {
+    "digitalTwinUrl": "/digital-twin-sao-paulo",
+    "erpUrl": "/ndt-erp-sao-paulo",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "rio-de-janeiro": {
+    "digitalTwinUrl": "/digital-twin-rio-de-janeiro",
+    "erpUrl": "/ndt-erp-rio-de-janeiro",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "salvador": {
+    "digitalTwinUrl": "/digital-twin-salvador",
+    "erpUrl": "/ndt-erp-salvador",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "buenos-aires": {
+    "digitalTwinUrl": "/digital-twin-buenos-aires",
+    "erpUrl": "/ndt-erp-buenos-aires",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "bogota": {
+    "digitalTwinUrl": "/digital-twin-bogota",
+    "erpUrl": "/ndt-erp-bogota",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "aberdeen": {
+    "digitalTwinUrl": "/digital-twin-aberdeen",
+    "erpUrl": "/ndt-erp-aberdeen",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "amsterdam",
+      "antwerp",
+      "barcelona"
+    ]
+  },
+  "amsterdam": {
+    "digitalTwinUrl": "/digital-twin-amsterdam",
+    "erpUrl": "/ndt-erp-amsterdam",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "antwerp",
+      "barcelona"
+    ]
+  },
+  "antwerp": {
+    "digitalTwinUrl": "/digital-twin-antwerp",
+    "erpUrl": "/ndt-erp-antwerp",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "barcelona"
+    ]
+  },
+  "barcelona": {
+    "digitalTwinUrl": "/digital-twin-barcelona",
+    "erpUrl": "/ndt-erp-barcelona",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "bergen": {
+    "digitalTwinUrl": "/digital-twin-bergen",
+    "erpUrl": "/ndt-erp-bergen",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "gelsenkirchen": {
+    "digitalTwinUrl": "/digital-twin-gelsenkirchen",
+    "erpUrl": "/ndt-erp-gelsenkirchen",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "hamburg": {
+    "digitalTwinUrl": "/digital-twin-hamburg",
+    "erpUrl": "/ndt-erp-hamburg",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "helsinki": {
+    "digitalTwinUrl": "/digital-twin-helsinki",
+    "erpUrl": "/ndt-erp-helsinki",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "lisbon": {
+    "digitalTwinUrl": "/digital-twin-lisbon",
+    "erpUrl": "/ndt-erp-lisbon",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "london": {
+    "digitalTwinUrl": "/digital-twin-london",
+    "erpUrl": "/ndt-erp-london",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "ludwigshafen": {
+    "digitalTwinUrl": "/digital-twin-ludwigshafen",
+    "erpUrl": "/ndt-erp-ludwigshafen",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "milan": {
+    "digitalTwinUrl": "/digital-twin-milan",
+    "erpUrl": "/ndt-erp-milan",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "rotterdam": {
+    "digitalTwinUrl": "/digital-twin-rotterdam",
+    "erpUrl": "/ndt-erp-rotterdam",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "stavanger": {
+    "digitalTwinUrl": "/digital-twin-stavanger",
+    "erpUrl": "/ndt-erp-stavanger",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "toulouse": {
+    "digitalTwinUrl": "/digital-twin-toulouse",
+    "erpUrl": "/ndt-erp-toulouse",
+    "verticalHub": "/digital-twins/aerospace",
+    "clusterPages": [
+      "/digital-twins/ndt-data-overlay",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "aberdeen",
+      "amsterdam",
+      "antwerp"
+    ]
+  },
+  "dubai": {
+    "digitalTwinUrl": "/digital-twin-dubai",
+    "erpUrl": "/ndt-erp-dubai",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "abu-dhabi",
+      "ruwais",
+      "dhahran"
+    ]
+  },
+  "abu-dhabi": {
+    "digitalTwinUrl": "/digital-twin-abu-dhabi",
+    "erpUrl": "/ndt-erp-abu-dhabi",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "ruwais",
+      "dhahran"
+    ]
+  },
+  "ruwais": {
+    "digitalTwinUrl": "/digital-twin-ruwais",
+    "erpUrl": "/ndt-erp-ruwais",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "dhahran"
+    ]
+  },
+  "dhahran": {
+    "digitalTwinUrl": "/digital-twin-dhahran",
+    "erpUrl": "/ndt-erp-dhahran",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "jubail": {
+    "digitalTwinUrl": "/digital-twin-jubail",
+    "erpUrl": "/ndt-erp-jubail",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "yanbu": {
+    "digitalTwinUrl": "/digital-twin-yanbu",
+    "erpUrl": "/ndt-erp-yanbu",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "riyadh": {
+    "digitalTwinUrl": "/digital-twin-riyadh",
+    "erpUrl": "/ndt-erp-riyadh",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/iot-sensor-integration",
+      "/digital-twins/ai-predictive-analytics"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "doha": {
+    "digitalTwinUrl": "/digital-twin-doha",
+    "erpUrl": "/ndt-erp-doha",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "ras-laffan": {
+    "digitalTwinUrl": "/digital-twin-ras-laffan",
+    "erpUrl": "/ndt-erp-ras-laffan",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "kuwait-city": {
+    "digitalTwinUrl": "/digital-twin-kuwait-city",
+    "erpUrl": "/ndt-erp-kuwait-city",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "muscat": {
+    "digitalTwinUrl": "/digital-twin-muscat",
+    "erpUrl": "/ndt-erp-muscat",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "sohar": {
+    "digitalTwinUrl": "/digital-twin-sohar",
+    "erpUrl": "/ndt-erp-sohar",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "dubai",
+      "abu-dhabi",
+      "ruwais"
+    ]
+  },
+  "singapore": {
+    "digitalTwinUrl": "/digital-twin-singapore",
+    "erpUrl": "/ndt-erp-singapore",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "jurong-island",
+      "kuala-lumpur",
+      "pasir-gudang"
+    ]
+  },
+  "jurong-island": {
+    "digitalTwinUrl": "/digital-twin-jurong-island",
+    "erpUrl": "/ndt-erp-jurong-island",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "kuala-lumpur",
+      "pasir-gudang"
+    ]
+  },
+  "kuala-lumpur": {
+    "digitalTwinUrl": "/digital-twin-kuala-lumpur",
+    "erpUrl": "/ndt-erp-kuala-lumpur",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "pasir-gudang"
+    ]
+  },
+  "pasir-gudang": {
+    "digitalTwinUrl": "/digital-twin-pasir-gudang",
+    "erpUrl": "/ndt-erp-pasir-gudang",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "jakarta": {
+    "digitalTwinUrl": "/digital-twin-jakarta",
+    "erpUrl": "/ndt-erp-jakarta",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "bangkok": {
+    "digitalTwinUrl": "/digital-twin-bangkok",
+    "erpUrl": "/ndt-erp-bangkok",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "ulsan": {
+    "digitalTwinUrl": "/digital-twin-ulsan",
+    "erpUrl": "/ndt-erp-ulsan",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "busan": {
+    "digitalTwinUrl": "/digital-twin-busan",
+    "erpUrl": "/ndt-erp-busan",
+    "verticalHub": "/digital-twins/maritime",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "saint-john": {
+    "digitalTwinUrl": "/digital-twin-saint-john",
+    "erpUrl": "/ndt-erp-saint-john",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "pasadena-tx",
+      "anchorage"
+    ]
+  },
+  "pasadena-tx": {
+    "digitalTwinUrl": "/digital-twin-pasadena-tx",
+    "erpUrl": "/ndt-erp-pasadena-tx",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "saint-john",
+      "anchorage"
+    ]
+  },
+  "lima": {
+    "digitalTwinUrl": "/digital-twin-lima",
+    "erpUrl": "/ndt-erp-lima",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "cartagena": {
+    "digitalTwinUrl": "/digital-twin-cartagena",
+    "erpUrl": "/ndt-erp-cartagena",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "mexico-city",
+      "monterrey",
+      "villahermosa"
+    ]
+  },
+  "luanda": {
+    "digitalTwinUrl": "/digital-twin-luanda",
+    "erpUrl": "/ndt-erp-luanda",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "port-harcourt",
+      "durban"
+    ]
+  },
+  "port-harcourt": {
+    "digitalTwinUrl": "/digital-twin-port-harcourt",
+    "erpUrl": "/ndt-erp-port-harcourt",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "luanda",
+      "durban"
+    ]
+  },
+  "atyrau": {
+    "digitalTwinUrl": "/digital-twin-atyrau",
+    "erpUrl": "/ndt-erp-atyrau",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "anchorage",
+      "bakersfield"
+    ]
+  },
+  "perth": {
+    "digitalTwinUrl": "/digital-twin-perth",
+    "erpUrl": "/ndt-erp-perth",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "gladstone": {
+    "digitalTwinUrl": "/digital-twin-gladstone",
+    "erpUrl": "/ndt-erp-gladstone",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/iot-sensor-integration"
+    ],
+    "recommendedSiblings": [
+      "singapore",
+      "jurong-island",
+      "kuala-lumpur"
+    ]
+  },
+  "durban": {
+    "digitalTwinUrl": "/digital-twin-durban",
+    "erpUrl": "/ndt-erp-durban",
+    "verticalHub": "/digital-twins/oil-and-gas",
+    "clusterPages": [
+      "/digital-twins/lidar-scan-to-twin",
+      "/digital-twins/ndt-data-overlay"
+    ],
+    "recommendedSiblings": [
+      "luanda",
+      "port-harcourt"
+    ]
+  }
+}

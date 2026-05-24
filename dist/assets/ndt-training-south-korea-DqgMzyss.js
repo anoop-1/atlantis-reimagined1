@@ -1,0 +1,1 @@
+import{j as o}from"./compare-pages-C1d7etmC.js";import{g as i,T as t}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function u(){const r=i("south-korea");return r?o.jsx(t,{profile:r}):null}export{u as default};

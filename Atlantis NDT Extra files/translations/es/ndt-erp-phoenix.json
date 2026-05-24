@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "phoenix",
+  "route": "/es/ndt-erp-phoenix",
+  "canonicalEnRoute": "/ndt-erp-phoenix",
+  "title60": "Software ERP NDT Phoenix 2026 | Intel, TSMC y Honeywell",
+  "meta155": "ERP NDT Phoenix para fábricas Intel, TSMC y Honeywell Aerospace. Listo para SEMI F19, AS9100, NAS 410. Despliegue remoto 30/60/90 por Nivel III ASNT.",
+  "h1": "Software ERP NDT Phoenix — Personalizable para Todas las Industrias",
+  "localHook": "Phoenix es hoy el corredor de semiconductores y aeroespacial más denso del suroeste estadounidense. Intel Chandler —las fábricas Fab 42, 52 y 62— opera producción lógica de nodo avanzado regida por tubería de proceso ASME B31.3 y SEMI F19/F20 para entrega de gases y químicos de ultra alta pureza, mientras TSMC Arizona Fab 21 en el norte de Phoenix puso en marcha su primer nodo N4 a fines de 2024 y comienzos de 2025 y se está extendiendo a fases adicionales bajo el mismo régimen de códigos. Honeywell Aerospace Phoenix tiene su sede de motores y unidades auxiliares de potencia bajo AS9100 y NAS 410, Boeing Mesa construye el AH-64 Apache bajo MIL-STD-2219 y AWS D17.1, y Lockheed Martin Goodyear atiende trabajo de misiles y cercano al espacio. Cualquier ERP NDT que atienda el Valle debe manejar con fluidez las soldaduras UHP de grado SEMI y la disciplina de viajeros aeroespaciales bajo un único marco de firma Nivel III.",
+  "integrationPainParagraph": "Intel Chandler opera sobre SAP con un MES Siemens Opcenter profundo, y TSMC Arizona trae su propio stack centrado en SAP adaptado a paquetes de construcción de Arizona. Honeywell Aerospace Phoenix opera SAP PM y Siemens Teamcenter para sus programas aeroespaciales, mientras Boeing Mesa se alinea con los flujos SAP y Teamcenter de Boeing a nivel empresa. El dolor de integración es consistente: los paquetes RT de soldadura orbital UHP en Intel y TSMC se ubican en sistemas documentales desconectados de las órdenes de cambio de SAP, y los hallazgos NDT aeroespaciales en Honeywell fluyen a través de viajeros que rara vez llegan al backlog de mantenimiento Maximo a nivel sitio. Un ERP NDT debe actuar como el sistema de registro que reconcilia mapas de soldadura clase SEMI, viajeros AS9100 y órdenes de trabajo de instalaciones sin retipear datos.",
+  "remoteDeliveryPitch": "Atlantis ejecuta los programas ERP NDT de Phoenix totalmente en remoto, liderados por autores ASNT Nivel III versados tanto en UHP de semiconductores como en viajero aeroespacial. Día 1-30: configuración de flujos SEMI F19/F20, ASME B31.3, AS9100 y NAS 410. Día 31-60: integración a SAP PM o Maximo e importación de calificaciones de personal. Día 61-90: validación de trazabilidad de extremo a extremo sobre un programa piloto. Interfaz inglés/español soportada. Sin personal de Atlantis en sitio.",
+  "featureBullets": [
+    "Trazabilidad SEMI F19/F20 y ASME B31.3 de soldadura UHP para Intel Chandler Fab 42/52/62.",
+    "Conjuntos de registros NDT de construcción y hookup para TSMC Arizona, para GTAW orbital y PMI.",
+    "Integración de viajero AS9100 y NAS 410 para motores y APU de Honeywell Aerospace Phoenix.",
+    "Registros MIL-STD-2219 y AWS D17.1 para los programas de la aeronave rotatoria AH-64 Apache en Boeing Mesa.",
+    "Lógica de primer artículo para programas de misiles y espacio en los proyectos de Lockheed Martin Goodyear.",
+    "Interfaz de inspección bilingüe (inglés/español) con firma electrónica de Nivel III."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Está TSMC Arizona en operación en 2026?",
+      "a": "Sí. La Fab 21 de TSMC en Arizona comenzó producción en tecnología de proceso N4 a fines de 2024 y comienzos de 2025, con construcción por fases en curso. El alcance NDT en el campus incluye tubería UHP, entrega de químicos de proceso e inspección de soldadura estructural durante las fases de construcción activa."
+    },
+    {
+      "q": "¿Qué normas NDT aplica Intel Chandler para tubería UHP?",
+      "a": "Intel aplica ASME B31.3, SEMI F19 para distribución de gases, SEMI F20 para entrega de gases peligrosos y sus propias especificaciones internas de construcción. Las soldaduras orbitales GTAW requieren aceptación por RT o por boroscopio, con cupones digitales y conteos de partículas documentados por junta."
+    },
+    {
+      "q": "¿Requiere Honeywell Aerospace Phoenix NAS 410 para subcontratistas?",
+      "a": "Sí. Los programas de motores y APU de Honeywell imponen AS9100 y la calificación del personal NAS 410 para inspección UT, ET, RT y por líquidos penetrantes, junto con las especificaciones de proceso propias de Honeywell. Los ERP NDT deben rastrear las calificaciones Nivel II/III frente a esas cascadas de requisitos."
+    },
+    {
+      "q": "¿Qué construye Boeing Mesa y qué códigos NDT aplican?",
+      "a": "Boeing Mesa produce y remanufactura el helicóptero de ataque AH-64 Apache para el Ejército de Estados Unidos y para ventas militares extranjeras. La inspección de estructura primaria de aeronaves rotatorias sigue AWS D17.1 para soldadura de fusión, MIL-STD-2219 para soldadura aeroespacial y las especificaciones de proceso del Ejército y de Boeing."
+    },
+    {
+      "q": "¿Hay operaciones NDT en español en Phoenix?",
+      "a": "Una porción significativa de los oficios de construcción y hookup en Intel Chandler, TSMC Arizona y los talleres de fabricación del entorno operan en español. Una interfaz de inspección bilingüe reduce los errores de traducción y acelera la adopción por parte de los técnicos Nivel II."
+    },
+    {
+      "q": "¿Con qué ERP se integran más a menudo las fábricas de Arizona?",
+      "a": "SAP es el sistema empresarial dominante en los sitios de Intel, TSMC, Honeywell y Boeing, típicamente emparejado con Siemens Opcenter o Teamcenter como MES/PLM. Las integraciones ERP NDT apuntan a las órdenes de trabajo de SAP PM y a los objetos documentales de Teamcenter."
+    },
+    {
+      "q": "¿Cuánto tarda un despliegue de ERP NDT de semiconductores en Phoenix?",
+      "a": "Un cadencia remota de 30/60/90 días es el estándar — configuración, integración piloto y validación lista para auditoría. Los paquetes complejos de construcción de TSMC o Intel pueden sumar un subproyecto paralelo para estructuras de etiqueta específicas del campus pero no extienden el despliegue central."
+    },
+    {
+      "q": "¿Envía Atlantis personal a los sitios de Phoenix?",
+      "a": "No. Atlantis entrega el programa completo de forma remota. La configuración, integración, capacitación y autoría de procedimientos Nivel III se ejecutan por VPN segura, y su personal interno realiza las pruebas de aceptación en sitio que correspondan."
+    }
+  ]
+}

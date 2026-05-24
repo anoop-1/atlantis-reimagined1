@@ -94,8 +94,8 @@ export default function TrainingIndia() {
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training India | Best NDT Institute Mumbai Chennai Bangalore"
-                description="Professional ASNT SNT-TC-1A NDT training in India. Level I & II training with certification, Level III training only. Ultrasonic, radiographic, magnetic."
+                title="NDT Training India 2026 — 95% Pass Rate, ASNT & ISNT Approved, 5 Day Course | Atlantis NDT"
+                description="ASNT Level III-led NDT training in India — Mumbai, Chennai, Bangalore, Hyderabad, Delhi. UT/RT/MT/PT/VT/ET methods. INR 22,000 per student. 95% pass rate. 1,800+ Indian technicians trained. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training India, best NDT institute India, NDT courses Mumbai, NDT training Chennai, NDT certification Bangalore, ultrasonic testing training India, ASNT Level II India, radiographic testing course India, NDT technician training, welding inspector certification India, NDT Level III India"
                 canonical="https://atlantisndt.com/training-india"
                 structuredData={courseSchema}

@@ -1,0 +1,1 @@
+import{j as o}from"./compare-pages-C1d7etmC.js";import{E as t}from"./ErpLocationPage-DcBT4Vpb.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function s(){return o.jsx(t,{city:"Oklahoma City",country:"USA",slug:"ndt-erp-oklahoma-city"})}export{s as default};

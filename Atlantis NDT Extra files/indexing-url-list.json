@@ -1,0 +1,1476 @@
+[
+  {
+    "url": "https://atlantisndt.com/ndt-erp-software",
+    "tier": "S",
+    "kind": "hub",
+    "lang": "en"
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-for-refineries",
+    "tier": "S",
+    "kind": "vertical",
+    "lang": "en"
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-for-aerospace-mro",
+    "tier": "S",
+    "kind": "vertical",
+    "lang": "en"
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-for-shipyards",
+    "tier": "S",
+    "kind": "vertical",
+    "lang": "en"
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-for-power-generation",
+    "tier": "S",
+    "kind": "vertical",
+    "lang": "en"
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-for-nde-service-providers",
+    "tier": "S",
+    "kind": "vertical",
+    "lang": "en"
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-anchorage",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "anchorage",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-atlanta",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "atlanta",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-bakersfield",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "bakersfield",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-baltimore",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "baltimore",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-baton-rouge",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "baton-rouge",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-beaumont",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "beaumont",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-billings",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "billings",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-birmingham",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "birmingham",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-boston",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "boston",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-buffalo",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "buffalo",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-casper",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "casper",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-charlotte",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "charlotte",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-chicago",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "chicago",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-cincinnati",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "cincinnati",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-cleveland",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "cleveland",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-columbus",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "columbus",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-corpus-christi",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "corpus-christi",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-dallas",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "dallas",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-denver",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "denver",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-detroit",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "detroit",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-fargo",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "fargo",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-fort-worth",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "fort-worth",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-galveston",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "galveston",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-hartford",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "hartford",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-houston",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "houston",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-huntsville",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "huntsville",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-indianapolis",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "indianapolis",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-jacksonville",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "jacksonville",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-kansas-city",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "kansas-city",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-lake-charles",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "lake-charles",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-los-angeles",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "los-angeles",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-louisville",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "louisville",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-memphis",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "memphis",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-miami",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "miami",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-midland",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "midland",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-milwaukee",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "milwaukee",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-minneapolis-st-paul",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "minneapolis-st-paul",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-mobile",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "mobile",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-nashville",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "nashville",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-new-orleans",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "new-orleans",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-new-york",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "new-york",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-newark",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "newark",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-newport-news",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "newport-news",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-norfolk",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "norfolk",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-odessa",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "odessa",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-oklahoma-city",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "oklahoma-city",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-philadelphia",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "philadelphia",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-phoenix",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "phoenix",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-pittsburgh",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "pittsburgh",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-port-arthur",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "port-arthur",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-portland",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "portland",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-salt-lake-city",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "salt-lake-city",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-san-antonio",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "san-antonio",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-san-francisco",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "san-francisco",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-seattle",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "seattle",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-st-louis",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "st-louis",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-tampa",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "tampa",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-toledo",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "toledo",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-tucson",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "tucson",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-tulsa",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "tulsa",
+    "lang": "en",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-toronto",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "toronto",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-montreal",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "montreal",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-calgary",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "calgary",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-edmonton",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "edmonton",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-sarnia",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "sarnia",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-vancouver",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "vancouver",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-mexico-city",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "mexico-city",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-monterrey",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "monterrey",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-villahermosa",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "villahermosa",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-coatzacoalcos",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "coatzacoalcos",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-sao-paulo",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "sao-paulo",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-rio-de-janeiro",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "rio-de-janeiro",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-salvador",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "salvador",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-buenos-aires",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "buenos-aires",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-bogota",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "bogota",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-aberdeen",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "aberdeen",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-amsterdam",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "amsterdam",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-antwerp",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "antwerp",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-barcelona",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "barcelona",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-bergen",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "bergen",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-gelsenkirchen",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "gelsenkirchen",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-hamburg",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "hamburg",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-helsinki",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "helsinki",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-lisbon",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "lisbon",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-london",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "london",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-ludwigshafen",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "ludwigshafen",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-milan",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "milan",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-rotterdam",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "rotterdam",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-stavanger",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "stavanger",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-toulouse",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "toulouse",
+    "lang": "en",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-dubai",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "dubai",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-abu-dhabi",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "abu-dhabi",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-ruwais",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "ruwais",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-dhahran",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "dhahran",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-jubail",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "jubail",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-yanbu",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "yanbu",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-riyadh",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "riyadh",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-doha",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "doha",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-ras-laffan",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "ras-laffan",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-kuwait-city",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "kuwait-city",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-muscat",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "muscat",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-sohar",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "sohar",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-singapore",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "singapore",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-jurong-island",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "jurong-island",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-kuala-lumpur",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "kuala-lumpur",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-pasir-gudang",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "pasir-gudang",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-jakarta",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "jakarta",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-bangkok",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "bangkok",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-ulsan",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "ulsan",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-busan",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "busan",
+    "lang": "en",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-saint-john",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "saint-john",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-pasadena-tx",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "pasadena-tx",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-lima",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "lima",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-cartagena",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "cartagena",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-luanda",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "luanda",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-port-harcourt",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "port-harcourt",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-atyrau",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "atyrau",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-perth",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "perth",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-gladstone",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "gladstone",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ndt-erp-durban",
+    "tier": "B",
+    "kind": "city-en",
+    "slug": "durban",
+    "lang": "en",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-bakersfield",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "bakersfield",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-beaumont",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "beaumont",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-buffalo",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "buffalo",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-corpus-christi",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "corpus-christi",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-dallas",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "dallas",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-fort-worth",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "fort-worth",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-galveston",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "galveston",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-houston",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "houston",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-jacksonville",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "jacksonville",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-los-angeles",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "los-angeles",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-miami",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "miami",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-midland",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "midland",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-new-york",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "new-york",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-odessa",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "odessa",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-phoenix",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "phoenix",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-port-arthur",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "port-arthur",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-san-antonio",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "san-antonio",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-san-francisco",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "san-francisco",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-tampa",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "tampa",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-tucson",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "tucson",
+    "lang": "es",
+    "tierSource": 1
+  },
+  {
+    "url": "https://atlantisndt.com/fr/ndt-erp-toronto",
+    "tier": "C",
+    "kind": "city-fr",
+    "slug": "toronto",
+    "lang": "fr",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/fr/ndt-erp-montreal",
+    "tier": "C",
+    "kind": "city-fr",
+    "slug": "montreal",
+    "lang": "fr",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-mexico-city",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "mexico-city",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-monterrey",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "monterrey",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-villahermosa",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "villahermosa",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-coatzacoalcos",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "coatzacoalcos",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/pt/ndt-erp-sao-paulo",
+    "tier": "C",
+    "kind": "city-pt",
+    "slug": "sao-paulo",
+    "lang": "pt",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/pt/ndt-erp-rio-de-janeiro",
+    "tier": "C",
+    "kind": "city-pt",
+    "slug": "rio-de-janeiro",
+    "lang": "pt",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/pt/ndt-erp-salvador",
+    "tier": "C",
+    "kind": "city-pt",
+    "slug": "salvador",
+    "lang": "pt",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-buenos-aires",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "buenos-aires",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-bogota",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "bogota",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-barcelona",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "barcelona",
+    "lang": "es",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/de/ndt-erp-gelsenkirchen",
+    "tier": "C",
+    "kind": "city-de",
+    "slug": "gelsenkirchen",
+    "lang": "de",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/de/ndt-erp-hamburg",
+    "tier": "C",
+    "kind": "city-de",
+    "slug": "hamburg",
+    "lang": "de",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/pt/ndt-erp-lisbon",
+    "tier": "C",
+    "kind": "city-pt",
+    "slug": "lisbon",
+    "lang": "pt",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/de/ndt-erp-ludwigshafen",
+    "tier": "C",
+    "kind": "city-de",
+    "slug": "ludwigshafen",
+    "lang": "de",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/fr/ndt-erp-toulouse",
+    "tier": "C",
+    "kind": "city-fr",
+    "slug": "toulouse",
+    "lang": "fr",
+    "tierSource": 2
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-dubai",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "dubai",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-abu-dhabi",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "abu-dhabi",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-ruwais",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "ruwais",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-dhahran",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "dhahran",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-jubail",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "jubail",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-yanbu",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "yanbu",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-riyadh",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "riyadh",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-doha",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "doha",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-ras-laffan",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "ras-laffan",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-kuwait-city",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "kuwait-city",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-muscat",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "muscat",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-sohar",
+    "tier": "C",
+    "kind": "city-ar",
+    "slug": "sohar",
+    "lang": "ar",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ko/ndt-erp-ulsan",
+    "tier": "C",
+    "kind": "city-ko",
+    "slug": "ulsan",
+    "lang": "ko",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/ko/ndt-erp-busan",
+    "tier": "C",
+    "kind": "city-ko",
+    "slug": "busan",
+    "lang": "ko",
+    "tierSource": 3
+  },
+  {
+    "url": "https://atlantisndt.com/fr/ndt-erp-saint-john",
+    "tier": "C",
+    "kind": "city-fr",
+    "slug": "saint-john",
+    "lang": "fr",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-lima",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "lima",
+    "lang": "es",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-cartagena",
+    "tier": "C",
+    "kind": "city-es",
+    "slug": "cartagena",
+    "lang": "es",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/pt/ndt-erp-luanda",
+    "tier": "C",
+    "kind": "city-pt",
+    "slug": "luanda",
+    "lang": "pt",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/ru/ndt-erp-atyrau",
+    "tier": "C",
+    "kind": "city-ru",
+    "slug": "atyrau",
+    "lang": "ru",
+    "tierSource": 4
+  },
+  {
+    "url": "https://atlantisndt.com/es/ndt-erp-software",
+    "tier": "C",
+    "kind": "hub-translation",
+    "lang": "es"
+  },
+  {
+    "url": "https://atlantisndt.com/pt/ndt-erp-software",
+    "tier": "C",
+    "kind": "hub-translation",
+    "lang": "pt"
+  },
+  {
+    "url": "https://atlantisndt.com/de/ndt-erp-software",
+    "tier": "C",
+    "kind": "hub-translation",
+    "lang": "de"
+  },
+  {
+    "url": "https://atlantisndt.com/ko/ndt-erp-software",
+    "tier": "C",
+    "kind": "hub-translation",
+    "lang": "ko"
+  },
+  {
+    "url": "https://atlantisndt.com/ar/ndt-erp-software",
+    "tier": "C",
+    "kind": "hub-translation",
+    "lang": "ar"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "_README": "PLACEHOLDER — replace with real ASNT III holders before deploy. Each author appears in an AuthorBio block on cluster pages, vertical hubs, and case studies, and is emitted as Person schema.org JSON-LD.",
+  "authors": [
+    {
+      "id": "author-1",
+      "name": "A. Reyes ASNT III",
+      "role": "Principal NDT Level III — Oil & Gas Digital Twin",
+      "asntLevels": [
+        {
+          "method": "Ultrasonic Testing",
+          "methodCode": "UT-III",
+          "certNumber": "PLACEHOLDER-UT-00001"
+        },
+        {
+          "method": "Phased Array Ultrasonic",
+          "methodCode": "PAUT-III",
+          "certNumber": null
+        },
+        {
+          "method": "Radiographic Testing",
+          "methodCode": "RT-III",
+          "certNumber": "PLACEHOLDER-RT-00001"
+        }
+      ],
+      "yearsInField": 24,
+      "bio": "Principal NDT Level III leading the oil and gas digital twin practice at Atlantis. Two decades of refinery and FPSO inspection experience across API 510, 570, and 580 regimes. Authored internal procedures for PAUT thickness mapping on fired heater tubes and remains the sign-off authority for RBI re-prioritizations on client assets. Field mobilizations include Gulf of Mexico, the Middle East, and the Malaysian straits. Teaches the Atlantis Level II refresher in UT and PAUT annually. Placeholder bio — replace before deploy.",
+      "imageUrl": null
+    },
+    {
+      "id": "author-2",
+      "name": "B. Okafor ASNT III",
+      "role": "Senior NDT Level III — Maritime & FPSO",
+      "asntLevels": [
+        {
+          "method": "Magnetic Particle Testing",
+          "methodCode": "MT-III",
+          "certNumber": null
+        },
+        {
+          "method": "Penetrant Testing",
+          "methodCode": "PT-III",
+          "certNumber": null
+        },
+        {
+          "method": "Ultrasonic Testing",
+          "methodCode": "UT-III",
+          "certNumber": "PLACEHOLDER-UT-00002"
+        }
+      ],
+      "yearsInField": 19,
+      "bio": "Senior Level III for maritime and FPSO assets. Experience spans West Africa offshore, North Sea platforms, and Far East shipyards under ABS and DNV classification rules. Specializes in weld inspection during FPSO conversion and in-service hull thickness campaigns. Integrates permanently installed UT probes and ER corrosion coupons into live twin feeds and supervises Level II technicians on deck mobilizations. Placeholder bio — replace before deploy.",
+      "imageUrl": null
+    },
+    {
+      "id": "author-3",
+      "name": "C. Vargas ASNT III",
+      "role": "NDT Level III — LNG & Power Generation",
+      "asntLevels": [
+        {
+          "method": "Radiographic Testing",
+          "methodCode": "RT-III",
+          "certNumber": "PLACEHOLDER-RT-00003"
+        },
+        {
+          "method": "Eddy Current Testing",
+          "methodCode": "ET-III",
+          "certNumber": null
+        },
+        {
+          "method": "Acoustic Emission",
+          "methodCode": "AE-III",
+          "certNumber": null
+        }
+      ],
+      "yearsInField": 21,
+      "bio": "NDT Level III for LNG terminals, gas processing trains, and fossil/nuclear power generation. Code familiarity includes KEPIC for Korean power plants, ASME Section V/VIII, and KGS for LNG pressure equipment. Integrates radiation monitoring and gas-detection IoT feeds into the twin so that inspection data and operational telemetry share a single geometric coordinate system. Published work on AE monitoring of LNG spheres. Placeholder bio — replace before deploy.",
+      "imageUrl": null
+    },
+    {
+      "id": "author-4",
+      "name": "D. Nair ASNT III",
+      "role": "NDT Level III — Aerospace & Defense MRO",
+      "asntLevels": [
+        {
+          "method": "Penetrant Testing",
+          "methodCode": "PT-III",
+          "certNumber": null
+        },
+        {
+          "method": "Eddy Current Testing",
+          "methodCode": "ET-III",
+          "certNumber": null
+        },
+        {
+          "method": "Computed Tomography",
+          "methodCode": "CT-III",
+          "certNumber": null
+        }
+      ],
+      "yearsInField": 17,
+      "bio": "NDT Level III for aerospace MRO depots and defense sustainment. Works under AS9100, FAA Part 145, EASA Part 145, and MIL-STD-271 for naval boiler, piping, and shipboard equipment inspection. Supervises fluorescent penetrant and eddy-current array inspection on HPT blades; integrates volumetric CT scans into per-blade digital twins for life-cycle traceability. Placeholder bio — replace before deploy.",
+      "imageUrl": null
+    }
+  ]
+}

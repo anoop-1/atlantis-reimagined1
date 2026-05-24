@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "fort-worth",
+  "route": "/es/ndt-erp-fort-worth",
+  "canonicalEnRoute": "/ndt-erp-fort-worth",
+  "title60": "ERP NDT Fort Worth 2026 | MRO F-35 y Aeronaves Rotatorias",
+  "meta155": "ERP NDT Fort Worth para MRO del F-35 de Lockheed y aeronaves rotatorias Bell — Nadcap AC7114, NAS 410, despliegue remoto 30/60/90, integración SAP PM.",
+  "h1": "Software ERP NDT Fort Worth — Personalizable para Todas las Industrias",
+  "localHook": "Fort Worth es el corazón latente de la producción de aeronaves de combate de Estados Unidos. Lockheed Martin Aeronautics construye aquí el F-35 Lightning II, Bell Textron fabrica el V-22 Osprey y el V-280 Valor en Hurst e instalaciones vecinas, y la Base Aeronaval de la Reserva Conjunta Fort Worth (Naval Air Station Fort Worth JRB) impulsa la demanda de MRO militar tanto en ala fija como en ala rotatoria. Alliance Airport es un importante nodo aeroespacial de logística y MRO. Los regímenes de inspección son clasificación AMS 2175, certificación de inspector NAS 410, Nadcap AC7114 para PT/MT/UT/RT, Nadcap AC7006 para compuestos y MIL-STD-1907 para severidad de falla. La división Mid-Tex de Atmos Energy suma trabajo de integridad de ductos bajo ASME B31.8 y PHMSA 49 CFR 192. Esta configuración —estructura primaria crítica para la seguridad de vuelo, historiales extensos por viajero y pista de auditoría paralela de grado militar— genera un perfil de dolor ERP-inspección donde cada indicación debe reconciliarse con un número de serie de parte a lo largo de décadas.",
+  "integrationPainParagraph": "SAP PM/QM opera el flujo de producción y calidad en la línea del F-35 de Lockheed Martin Fort Worth y en los programas de aeronaves rotatorias de Bell Textron, mientras Maximo atiende el lado de ductos en Atmos Energy Mid-Tex. La capa NDT intermedia es donde se concentra el dolor: registros Nadcap AC7114 y AC7006, imágenes radiográficas y placas CR, A-scans UT ligados a largueros de ala y cubos de rotor, credenciales de inspector NAS 410 por método. Típicamente viven dispersos entre discos compartidos de QA, portales de proveedores de escáneres y viajeros en papel. El vencimiento de certificaciones se desvía en hojas de cálculo. El tiempo de entrega de reporte sobre un hallazgo crítico de vuelo puede demorar cuando un auditor DCMA o Nadcap lo necesita el mismo día. La entrega campo-ingeniero sobre PAUT se fragmenta en cada cambio de turno.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III con procedimientos conscientes de Nadcap. Ejecutamos un piloto de 30 días sobre un solo programa o celda de Fort Worth, una integración de 60 días que conecta la capa NDT a su SAP PM/QM o Maximo, y un corte total a 90 días con su equipo Nivel III en control operacional. Sin viajes requeridos, sin consultores en sitio. Cada despliegue lleva firma Nivel III rastreable a AMS 2175, NAS 410, Nadcap AC7114/AC7006 y MIL-STD-1907.",
+  "featureBullets": [
+    "Pista de auditoría Nadcap AC7114 PT/MT/UT/RT dimensionada para el trabajo de estructura primaria del F-35 de Lockheed Martin — trazabilidad indicación-a-serie a lo largo de 40 años de vida del fuselaje.",
+    "Flujo de inspección de compuestos Nadcap AC7006 para la estructura de las aeronaves rotatorias V-22 y V-280 de Bell Textron, con hallazgos de línea de pegado y conteo de capas.",
+    "Bloqueo de certificación de inspector NAS 410 al despacho de orden de trabajo en los depósitos MRO de la Naval Air Station Fort Worth JRB.",
+    "Clasificación de falla MIL-STD-1907 vinculada al flujo de disposición de parte en SAP PM/QM.",
+    "Flujo de integridad de ductos ASME B31.8 para los activos de distribución y transmisión de Atmos Energy Mid-Tex.",
+    "Archivo de radiografía digital y placas CR con metadatos DICOM, recuperable por número de serie de parte o programa en segundos durante una auditoría Nadcap."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Qué software NDT se usa para la producción del F-35?",
+      "a": "La producción y el sostenimiento NDT del F-35 se rige por requisitos del programa de Lockheed Martin sobre AMS 2175, NAS 410 y Nadcap AC7114/AC7006. Atlantis ERP NDT está construido sobre ese stack con trazabilidad completa indicación-a-número-de-serie a lo largo de la vida del fuselaje. Para proveedores Nadcap de segundo y tercer nivel en Fort Worth que alimentan la línea del F-35, el sistema entrega el modelo de datos listo para auditoría sin requerir desarrollo a medida. La firma Inspector ASNT Nivel III es parte de la entrega."
+    },
+    {
+      "q": "¿Cuánto cuesta un software NDT compatible con Nadcap?",
+      "a": "Un software NDT compatible con Nadcap para un proveedor aeroespacial de Fort Worth va de 80.000 a 250.000 dólares anuales según la cantidad de programas, el alcance de métodos (PT/MT/UT/RT/compuestos) y la integración con SAP PM/QM. Atlantis cotiza contra la huella existente del ERP, no por asiento. Un despliegue de un solo programa Nadcap AC7114 se ubica alrededor de 100.000 a 140.000 dólares anuales. Los despliegues multi-programa que cubren F-35 y aeronaves rotatorias juntos escalan más arriba. El piloto de 30 días tiene precio fijo y se acredita contra la suscripción anual."
+    },
+    {
+      "q": "¿Soporta el ERP NDT el seguimiento de certificación NAS 410?",
+      "a": "Sí — Atlantis ERP NDT rastrea la certificación de inspector NAS 410 por persona y por método como un tipo de dato de primera clase. Los endosos Nivel I/II/III, las autorizaciones de alcance limitado, las Cartas de Delegación del cliente y las credenciales Nadcap Supplier Reference se rastrean por separado con alertas de renovación a 90/60/30 días. El despacho de orden de trabajo se condiciona a la certificación vigente: un Nivel II de UT vencido no puede ser asignado a un escaneo UT sobre un componente del F-35. Esto reemplaza el rastreador en hoja de cálculo típico en proveedores de segundo nivel de Fort Worth."
+    },
+    {
+      "q": "¿Puede el software NDT manejar inspección de compuestos?",
+      "a": "Sí — Atlantis ERP NDT maneja los flujos de inspección de compuestos Nadcap AC7006 incluyendo integridad de línea de pegado, verificación de conteo de capas, clasificación de porosidad y mapeo de delaminación. Para los programas de aeronaves rotatorias de Bell Textron en el metroplex de Fort Worth, esto cubre la estructura primaria compuesta del V-22 y V-280. Los hallazgos ultrasónicos, termográficos y shearográficos son tipos de dato nativos con trazabilidad indicación-a-número-de-serie. La exportación de auditoría se alinea con la lista de verificación del auditor AC7006 por defecto."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación del software NDT aeroespacial?",
+      "a": "Atlantis ERP NDT se implementa en 30/60/90 días para un programa aeroespacial de Fort Worth. El piloto de 30 días corre sobre una sola celda o programa para validar el modelo de datos contra AMS 2175, NAS 410 y Nadcap AC7114. La integración de 60 días conecta el sistema a su SAP PM/QM existente. El corte total de 90 días migra los registros NDT históricos incluyendo imágenes radiográficas archivadas y entrega el control operacional a su Nivel III. El tiempo total es 90 días. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con SAP QM para aeroespacial?",
+      "a": "Sí — Atlantis ERP NDT se integra con SAP QM vía BAPI y OData al nivel de lote de inspección, material, equipo y característica. Para primes aeroespaciales de Fort Worth y sus proveedores Nadcap de segundo nivel, las indicaciones NDT en Atlantis se publican de regreso al lote de inspección SAP QM con fidelidad plena de pista de auditoría AC7114. Sin doble carga. La integración opera sobre su versión de SAP sin requerir una actualización."
+    },
+    {
+      "q": "¿Qué es la clasificación de falla MIL-STD-1907?",
+      "a": "MIL-STD-1907 es la norma del Departamento de Defensa de Estados Unidos para confiabilidad de inspección, que cubre clasificación de falla, probabilidad de detección y calificación de sistema de inspección sobre componentes aeroespaciales militares. Atlantis ERP NDT codifica las clases de severidad de falla 1907 directamente en el registro de indicación, de modo que cada hallazgo lleva su clasificación 1907 junto con la credencial de inspector NAS 410 y el procedimiento del método Nadcap AC7114. Para el trabajo de Lockheed Martin y Bell Textron en Fort Worth esto es el estándar, no un complemento."
+    },
+    {
+      "q": "¿Puede el ERP NDT rastrear ductos y aeroespacial en un solo sistema?",
+      "a": "Sí — Atlantis ERP NDT corre flujos aeroespaciales Nadcap y flujos de integridad de ductos PHMSA 49 CFR 192 en una sola instancia sin contaminación cruzada. Para operaciones de Fort Worth donde el trabajo de ductos de Atmos Energy Mid-Tex coexiste con la base aeroespacial, las certificaciones de inspectores, los flujos de código y las exportaciones de auditoría permanecen separados. Una examinación directa ASME B31.8 del lado de ductos nunca se mezcla con un escaneo UT de larguero de ala del F-35. El acceso por rol aplica la separación al nivel del registro."
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-import{r as u,v as e,s as a}from"./index-DV-nybpu.js";var i=a[" useId ".trim().toString()]||(()=>{}),n=0;function v(o){const[s,r]=u.useState(i());return e(()=>{r(t=>t!=null?t:String(n++))},[o]),s?`radix-${s}`:""}export{v as u};

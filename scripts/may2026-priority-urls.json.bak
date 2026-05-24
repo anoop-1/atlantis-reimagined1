@@ -1,0 +1,3356 @@
+[
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twins",
+    "type": "dt-pillar-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-solution",
+    "type": "erp-pillar-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/resources/state-of-ndt-2026",
+    "type": "lead-magnet-landing",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/glossary",
+    "type": "glossary-index",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/ultrasonic-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/radiographic-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/magnetic-particle-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/penetrant-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/eddy-current-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/visual-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/acoustic-emission",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/leak-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/thermography",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/microwave-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/phased-array-ultrasonic-testing-paut",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/time-of-flight-diffraction-tofd",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/total-focusing-method-tfm",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/full-matrix-capture-fmc",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/guided-wave-testing-gwt",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/internal-rotary-inspection-system-iris",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/automated-ultrasonic-testing-aut",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/magnetic-flux-leakage-mfl",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/alternating-current-field-measurement-acfm",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/computed-radiography-cr",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/digital-radiography-dr",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/real-time-radiography-rtr",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/a-scan",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/b-scan",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/c-scan",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/d-scan",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/s-scan",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/l-scan",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/back-wall-echo",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/calibration-block",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/distance-amplitude-correction-dac",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/distance-gain-size-dgs",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/time-corrected-gain-tcg",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/beam-spread",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/near-field",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/far-field",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/dead-zone",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/gating",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/transducer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/dual-element-probe",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/angle-beam-probe",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/normal-beam-probe",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/contact-coupling",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/couplant",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/immersion-testing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/shear-wave",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/longitudinal-wave",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/surface-wave",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/lamb-wave",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/mode-conversion",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/attenuation",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/decibel-db",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/reference-reflector",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/side-drilled-hole-sdh",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/flat-bottom-hole-fbh",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/notch-reference",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/x-ray-tube",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/gamma-source",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/ir-192",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/co-60",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/se-75",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/image-quality-indicator-iqi",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/wire-iqi",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/hole-iqi",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/geometric-unsharpness",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/density",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/sensitivity",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/contrast",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fog-level",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/latitude",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/source-to-film-distance-sfd",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/exposure-chart",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/half-value-layer-hvl",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/radiation-safety-officer-rso",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/alara",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/time-distance-shielding",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/controlled-area",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/yoke",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/prods",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/magnetic-bench",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/wet-particle",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/dry-particle",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fluorescent-particle",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/visible-particle",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/demagnetization",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/residual-magnetism",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/central-conductor",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/multi-directional-magnetization",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/magnetic-flux",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/hysteresis",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/magnetic-permeability",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/solvent-removable-penetrant",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/water-washable-penetrant",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/post-emulsifiable-penetrant",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/dwell-time",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/developer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/form-a-developer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/form-b-developer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/form-c-developer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/form-d-developer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/form-e-developer",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/indication",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/false-indication",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/relevant-indication",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/capillary-action",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/impedance-plane",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/lift-off",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/edge-effect",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fill-factor",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/frequency-response",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/encircling-coil",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/bobbin-coil",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/surface-coil",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/rotating-probe",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/multi-frequency-eddy-current",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/crack",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/lack-of-fusion-lof",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/lack-of-penetration-lop",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/slag-inclusion",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/porosity",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/undercut",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/overlap",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/burn-through",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/weld-spatter",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/lamination",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/lamellar-tearing",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/hydrogen-induced-cracking-hic",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/stress-corrosion-cracking-scc",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/sulfide-stress-cracking-ssc",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/corrosion-under-insulation-cui",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/pitting-corrosion",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/erosion-corrosion",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/galvanic-corrosion",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fatigue-crack",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/creep-damage",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/hydrogen-embrittlement",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-section-v",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-section-viii",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-ix",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-xi",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-b31-1",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-b31-3",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-b31-8",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/asme-b31-4",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-510",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-570",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-571",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-579",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-580",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-581",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-650",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-653",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-1104",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/api-1163",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/awwa-d100",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/aws-d1-1",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/aws-d1-5",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-9712",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-3452",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-17636",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-17640",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-9934",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-23279",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/iso-13588",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/en-12668",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/astm-e94",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/astm-e165",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/astm-e709",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/astm-e1417",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/astm-e1444",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/snt-tc-1a",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/cp-189",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/nas-410",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/pcn",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/cswip",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/level-i",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/level-ii",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/level-iii",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/central-certification-body",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/employer-based-certification",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/recertification",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/qualification-vs-certification",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/written-practice",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/sensory-acuity",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/near-vision-test",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/color-vision-test",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/jaeger-j1",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/jaeger-j2",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fitness-for-service-ffs",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/risk-based-inspection-rbi",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/remaining-life",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/corrosion-rate",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/minimum-required-thickness",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/t-min",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/t-actual",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/retirement-thickness",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/joint-efficiency",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/mawp",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/maximum-allowable-working-pressure",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/pressure-vessel",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/storage-tank",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/heat-exchanger",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fired-heater",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/pipeline",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fpso",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/riser",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/jacket",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/topsides",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/wellhead",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/christmas-tree",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/blow-out-preventer-bop",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/valve",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/flange",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/gasket",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/welded-joint",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/fillet-weld",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/butt-weld",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/glossary/socket-weld",
+    "type": "glossary-term",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/standards",
+    "type": "standards-index",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-1",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-2",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-4",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-5",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-6",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-7",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-8",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-9",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-section-v-article-23",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/asme-b31-3",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-510",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-570",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-571",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-579",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-580",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-581",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-653",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/api-1104",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/astm-e94",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/astm-e165",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/astm-e709",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/astm-e1417",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/astm-e1444",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/iso-3452",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/iso-9712",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/iso-17636",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/iso-17640",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/iso-9934",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/aws-d1-1",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/aws-d1-5",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/en-12668",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/nace-mr0175",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/standards/nace-sp0490",
+    "type": "standards-detail",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/radiographic-testing-complete-guide",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/magnetic-particle-testing-complete-guide",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/penetrant-testing-complete-guide",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/visual-testing-complete-guide",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/ut-level-2-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/rt-level-2-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/mt-level-2-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/pt-level-2-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/api-510-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/api-570-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/api-653-practice-questions",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/asnt-level-3-basic-exam-prep",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/cswip-31-exam-prep",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/pcn-level-2-exam-guide",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/ut-vs-rt-complete-comparison-guide",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/mt-vs-pt-comparison",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/paut-vs-tofd-comparison",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/digital-radiography-vs-film-comparison",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/asnt-vs-pcn-certification-comparison",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/api-510-vs-570-comparison",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/blog/ndt-level-2-vs-level-3-comparison",
+    "type": "blog-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-houston",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-dubai",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-abu-dhabi",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-saudi-arabia",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-calgary",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-singapore",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-mumbai",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-london",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-perth",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-doha",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-kuwait",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-aberdeen",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-oslo",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-rotterdam",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-hyderabad",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-muscat",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-kuala-lumpur",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-lagos",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-new-orleans",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-denver",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-manama",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-odessa",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-bergen",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-ras-al-khaimah",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-sohar",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-basrah",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-port-harcourt",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-midland",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-anchorage",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-bakersfield",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-sharjah",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-melbourne",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-jubail",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-yanbu",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-edmonton",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-chennai",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-tulsa",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-beaumont",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-mobile",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-st-louis",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-cleveland",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-cincinnati",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-nashville",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-louisville",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-kansas-city",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-minneapolis",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-milwaukee",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-charlotte",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-toronto",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-vancouver",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-montreal",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-fort-mcmurray",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-halifax",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-glasgow",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-paris",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-madrid",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-genoa",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-piraeus",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-plymouth",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-newcastle",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-sydney",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-karratha",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-gladstone",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-darwin",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-auckland",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-wellington",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-christchurch",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-atlanta",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-austin",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-bahrain",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-baton-rouge",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-brazil",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-corpus-christi",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-dallas",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-dammam",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-delhi",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-fort-worth",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-india",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-indonesia",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-jakarta",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-jamnagar",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-kochi",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-kolkata",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-lake-charles",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-los-angeles",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-malaysia",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-manila",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-mexico-city",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-new-york",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-norway",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-oklahoma-city",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-oman",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-philadelphia",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-pittsburgh",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-port-arthur",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-qatar",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-sao-paulo",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-san-antonio",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-san-francisco",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-seattle",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-shanghai",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-south-korea",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-stavanger",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-taipei",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-thailand",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-trinidad",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-uk",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-usa",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-vizag",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-japan",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-italy",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-spain",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-germany",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-france",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-netherlands",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-egypt",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-nigeria",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-ahmedabad",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-algeria",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-angola",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-argentina",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-australia",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-bangalore",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-bangkok",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-beijing",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-belgium",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-bogota",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-brisbane",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-buenos-aires",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-cape-town",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-casablanca",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-chicago",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-colombia",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-ho-chi-minh",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-hong-kong",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-johannesburg",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-lima",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-new-zealand",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-philippines",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-raleigh",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-rio-de-janeiro",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-sacramento",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-santiago",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-savannah",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-scotland",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-shenzhen",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-south-africa",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-vietnam",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/digital-twin-taiwan",
+    "type": "dt-city",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-houston",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-new-orleans",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-dallas",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-beaumont",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-baton-rouge",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-dubai",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-abu-dhabi",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-saudi-arabia",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-doha",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-muscat",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-mumbai",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-chennai",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-bangalore",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-delhi",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-kochi",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-london",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-glasgow",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-edinburgh",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-stavanger",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-rotterdam",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-calgary",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-edmonton",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-fort-mcmurray",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-montreal",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-halifax",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-perth",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-brisbane",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-melbourne",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-sydney",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-singapore",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-kuala-lumpur",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-jakarta",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-ho-chi-minh",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-dammam",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-jubail",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-yanbu",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-manama",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-kuwait",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-sharjah",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-ras-al-khaimah",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-sohar",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-qatar",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-anchorage",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-denver",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-seattle",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-austin",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-fort-worth",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-san-diego",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-corpus-christi",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-lake-charles",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-mobile",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-cincinnati",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-cleveland",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-detroit",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-indianapolis",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-pittsburgh",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-kansas-city",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-milwaukee",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-minneapolis",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-oklahoma-city",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-tulsa",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-st-louis",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-midland",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-chicago",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-jacksonville",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-tampa",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-nashville",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-atlanta",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-miami",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-portland",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-salt-lake-city",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-vancouver",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-los-angeles",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-washington-dc",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-baltimore",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-philadelphia",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-boston",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-new-york",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-kolkata",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-shanghai",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-oslo",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-antwerp",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-barcelona",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-hamburg",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-marseille",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-paris",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-milan",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-gdansk",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-lagos",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-port-harcourt",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-sao-paulo",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-mexico-city",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-australia",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-brazil",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-canada",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-malaysia",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-norway",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-philippines",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-south-korea",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-uae",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-oman",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-nigeria",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "A",
+    "url": "https://atlantisndt.com/ndt-training-mexico",
+    "type": "training-city-may2026",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-houston",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-dubai",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-abu-dhabi",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-saudi-arabia",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-calgary",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-singapore",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-mumbai",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-london",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-perth",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-doha",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-kuwait",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-muscat",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-hyderabad",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-chennai",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-kuala-lumpur",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-lagos",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-new-orleans",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-denver",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-aberdeen",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-oslo",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-jubail",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-yanbu",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-edmonton",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-rotterdam",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-jakarta",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-dammam",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-manama",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-sharjah",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-bahrain",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  },
+  {
+    "tier": "S",
+    "url": "https://atlantisndt.com/ndt-erp-qatar",
+    "type": "erp-city-rewrite",
+    "lang": "en"
+  }
+]

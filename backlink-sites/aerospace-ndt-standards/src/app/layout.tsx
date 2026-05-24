@@ -29,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 function Header() {
   return (
+    <>
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
       <script dangerouslySetInnerHTML={{__html: `
         window.dataLayer = window.dataLayer || [];
@@ -47,6 +48,7 @@ function Header() {
         </div>
       </nav>
     </header>
+      </>
   );
 }
 

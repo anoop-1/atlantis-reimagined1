@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "galveston",
+  "route": "/es/ndt-erp-galveston",
+  "canonicalEnRoute": "/ndt-erp-galveston",
+  "title60": "ERP NDT Galveston 2026 | Refinería, Puerto y Astillero",
+  "meta155": "ERP NDT Galveston para Marathon Galveston Bay y Puerto de Galveston — API 510/653, ABS/DNV, despliegue remoto 30/60/90 días.",
+  "h1": "Software ERP NDT Galveston — Personalizable para Todas las Industrias",
+  "localHook": "Galveston y el corredor industrial vecino de Texas City se ubican en el costado occidental de la Bahía de Galveston con un perfil NDT distintivo de tres vías: refinación, operaciones portuarias y marina. La refinería Marathon Galveston Bay en Texas City es una de las más grandes de Estados Unidos, Valero Texas City suma capacidad sustancial y ambas refinerías juntas anclan el clúster. El Puerto de Galveston es un importante puerto de cruceros y carga general con capacidad de reparación marina provista por BAE Systems Southeast Shipyards. Los buques de apoyo costa afuera que operan en el Golfo de México también tienen base en el sistema de la Bahía de Galveston. El trabajo de inspección abarca API 510/570/653 del lado refinería, ABS y DNV del lado marino y de astillero, y BSEE NTL del lado de buques costa afuera. Esta configuración —el calendario de parada de refinería chocando con las agendas de buque en dique seco y los ciclos de despliegue costa afuera— genera un perfil de dolor ERP-inspección donde la semana del inspector está marcada por tres relojes distintos.",
+  "integrationPainParagraph": "Maximo opera la integridad de equipo fijo en Marathon Galveston Bay y SAP PM atiende Valero Texas City, mientras que BAE Systems Southeast Shipyards Galveston opera su propio stack de mantenimiento marino atado a los estudios de clasificación ABS y DNV. Los datos NDT intermedios —CML de recipientes API 510, inspección de tanques de refinería API 653, medición UT de espesor de casco ABS, inspección de buque costa afuera BSEE NTL— viven en silos desconectados en cada empleador. El vencimiento de certificaciones corre en hojas de cálculo con ciclos de renovación ABS, API y ASNT distintos. El tiempo de entrega de reportes se atrasa entre las prioridades de parada de refinería y las ventanas de dique seco. La entrega de PAUT se fragmenta en la frontera refinería-astillero.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III con experiencia relevante en API, ABS y DNV. Ejecutamos un piloto de 30 días sobre un solo activo de Galveston-Texas City —unidad de refinería, dique seco de astillero o buque de apoyo costa afuera—, una integración de 60 días a Maximo o SAP PM y un corte total a 90 días. Sin viajes. Cada despliegue lleva firma Nivel III sobre los stacks de códigos de refinería y marinos bajo los cuales trabajan sus inspectores.",
+  "featureBullets": [
+    "Programación de inspección fuera de servicio API 653 alineada a las ventanas de parada de Marathon Galveston Bay — las fechas del ERP se atan al calendario de paro de la refinería, no al revés.",
+    "Flujo de medición UT de espesor de casco ABS y DNV para los ciclos de dique seco de BAE Systems Southeast Shipyards Galveston.",
+    "Gestión de CML de recipientes a presión API 510 para las unidades del complejo Valero Texas City.",
+    "Retención de registros de inspección de buque costa afuera BSEE NTL para las flotas de buques de apoyo del Golfo de México con base en la Bahía de Galveston.",
+    "Tendencia de espesores ASME B31.3 de tubería de proceso en activos del lado refinería, publicada en las órdenes de trabajo de Maximo.",
+    "Ledger de certificación de inspector entre industrias — endosos API, ABS/DNV y ASNT mantenidos por separado con bloqueo de despacho de orden de trabajo por código."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Qué software NDT se usa en Marathon Galveston Bay?",
+      "a": "La refinería Marathon Galveston Bay opera IBM Maximo para activos y órdenes de trabajo con integridad de equipo fijo API 510/570/580/653 superpuesta. Atlantis ERP NDT se despliega como la capa NDT dedicada que se conecta a Maximo y maneja la gestión de CML de recipientes, el seguimiento de circuitos de tubería y la inspección de tanques con trazabilidad completa a nivel de indicación. Los procedimientos corporativos de inspección de Marathon se soportan como superposiciones de biblioteca de procedimientos sobre los flujos API nativos."
+    },
+    {
+      "q": "¿Soporta el ERP NDT los estudios de clase ABS y DNV?",
+      "a": "Sí — Atlantis ERP NDT soporta flujos de estudios de sociedades de clasificación ABS y DNV junto con flujos API de refinería. Para operaciones del área de Galveston donde el trabajo de dique seco de BAE Systems Southeast Shipyards coexiste con la base refinadora, el sistema maneja medición UT de espesor de casco ABS, registros de estudios especiales DNV e inspección de línea de eje y timón con el mismo rigor de exportación lista para auditoría que el lado refinería. Los registros de asistencia del inspector de sociedad de clasificación son nativos."
+    },
+    {
+      "q": "¿Cuánto cuesta el software ERP NDT de astillero?",
+      "a": "El ERP NDT de astillero para una operación de dique seco del área de Galveston va de 60.000 a 200.000 dólares anuales según el flujo de buques, el alcance ABS/DNV y la integración con el ERP de mantenimiento marino. Atlantis cotiza contra la huella existente del ERP en lugar de por asiento. Un despliegue de un solo dique seco que cubra flujos de estudio ABS y DNV se ubica alrededor de 80.000 a 120.000 dólares anuales. Los despliegues multi-astillero a escala BAE se ubican más arriba. El piloto de 30 días tiene precio fijo."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con Maximo en una refinería?",
+      "a": "Sí — Atlantis ERP NDT se integra con IBM Maximo en las refinerías del área de Galveston mediante REST y MIF estándar al nivel de orden de trabajo, activo y punto de monitoreo de condición. Los CML de recipientes API 510 y los hallazgos de inspección de tanques API 653 en Atlantis permanecen sincronizados con Maximo sin doble carga de activos. La integración es bidireccional y opera sobre su versión actual de Maximo sin requerir una actualización."
+    },
+    {
+      "q": "¿Puede el ERP NDT manejar refinería y astillero en un solo sistema?",
+      "a": "Sí — Atlantis ERP NDT corre flujos API de refinería y flujos marinos ABS/DNV en una sola instancia sin contaminación cruzada entre familias de código. Para los operadores de Galveston donde los inspectores trabajan en paradas de refinería y ciclos de dique seco, el despacho de orden de trabajo se condiciona a la certificación correcta por familia de código. Una inspección de tanque API 653 nunca se despacha bajo un endoso solo ABS, y un estudio de casco ABS nunca se despacha bajo una certificación solo API."
+    },
+    {
+      "q": "¿Soporta el ERP NDT el cumplimiento BSEE costa afuera?",
+      "a": "Sí — Atlantis ERP NDT soporta los Avisos a Arrendatarios (NTL) de BSEE y los flujos de cumplimiento de inspección BSEE para operaciones costa afuera del Golfo de México, incluyendo los ciclos de inspección de buques de apoyo con base en la Bahía de Galveston. API RP 2X para inspección de soldadura de plataformas costa afuera, junto con la retención de registros BSEE NTL, es nativo. Para los operadores de apoyo costa afuera que llevan activos hacia Galveston, el sistema ata los registros de inspección de costa y costa afuera en una sola pista de auditoría."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación del ERP NDT de refinería?",
+      "a": "Atlantis ERP NDT se implementa en 30/60/90 días para una refinería Galveston-Texas City. El piloto de 30 días corre sobre una sola unidad o patio de tanques para validar el modelo de datos contra API 510/570/653. La integración de 60 días conecta a Maximo o SAP PM. El corte de 90 días migra los registros históricos de inspección y entrega el control operacional a su ingeniero de integridad. El tiempo total es 90 días. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Puede el ERP NDT programar contra las ventanas de parada de refinería?",
+      "a": "Sí — Atlantis ERP NDT programa los intervalos de inspección API 510, API 570 y API 653 contra las ventanas reales de parada de unidad en Marathon Galveston Bay y Valero Texas City, de modo que las fechas de inspección de recipientes y tanques se aten al calendario de paro en lugar de desviarse. Para operaciones del lado refinería donde la ventana de parada es la restricción vinculante, esto reemplaza la reconciliación manual de programación que típicamente ocurre en Excel entre el equipo de integridad y el planificador de parada."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "sa": "E:\\software\\Atlantis\\atlantis-gsc-10-9713791467e7.json",
+  "submitted_at": "2026-05-17T11:58:04",
+  "results": [
+    {
+      "url": "https://atlantisndt.com/blog/api-icp-pass-rates-510-vs-570-vs-653-2026",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/api-icp-pass-rates-510-vs-570-vs-653-2026\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asnt-level-3-fees-2026-complete-pricing-table",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/asnt-level-3-fees-2026-complete-pricing-table\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-510-570-653-exam-schedule-2026",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/api-510-570-653-exam-schedule-2026\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-510-body-of-knowledge-2026-changes-explained",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/api-510-body-of-knowledge-2026-changes-explained\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/cwi-exam-cost-2026-total-investment-calculator",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/cwi-exam-cost-2026-total-investment-calculator\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/cwi-pass-rate-by-part-a-b-c-breakdown",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/cwi-pass-rate-by-part-a-b-c-breakdown\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/paut-technician-salary-2026-region-cert-industry",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/paut-technician-salary-2026-region-cert-industry\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-570-inspector-salary-2026-by-region-experience",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/api-570-inspector-salary-2026-by-region-experience\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/ndt-inspection-cost-2026-by-method-pricing-matrix\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-653-current-edition-2026-vs-bok-window-explained",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/api-653-current-edition-2026-vs-bok-window-explained\"\n  }\n}\n"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country",
+      "status": 200,
+      "ok": true,
+      "body": "{\n  \"urlNotificationMetadata\": {\n    \"url\": \"https://atlantisndt.com/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country\"\n  }\n}\n"
+    }
+  ]
+}

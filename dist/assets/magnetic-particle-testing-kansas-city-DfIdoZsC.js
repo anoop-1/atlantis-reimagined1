@@ -1,0 +1,1 @@
+import{j as t}from"./compare-pages-C1d7etmC.js";import i from"./MethodLocationPage-0r_8poAo.js";import"./PillarHubNav-4Fa_GMYz.js";import"./programmatic-seo-CmWZtb0f.js";import"./erp-pages-C6o15K_z.js";function s(){return t.jsx(i,{methodSlug:"magnetic-particle-testing",locationSlug:"kansas-city"})}export{s as default};

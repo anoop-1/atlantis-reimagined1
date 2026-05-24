@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "houston",
+  "route": "/es/ndt-erp-houston",
+  "canonicalEnRoute": "/ndt-erp-houston",
+  "title60": "Software ERP NDT Houston 2026 | Refinerías y Petroquímica",
+  "meta155": "ERP NDT para refinerías y petroquímica de Houston — flujos ExxonMobil Baytown y Shell Deer Park, API 510/570/653, despliegue remoto 30/60/90.",
+  "h1": "Software ERP NDT Houston — Personalizable para Todas las Industrias",
+  "localHook": "Houston es el centro operativo del refino y la petroquímica aguas abajo de Estados Unidos, y la carga de inspección lo refleja. En un radio de 65 kilómetros conviven ExxonMobil Baytown —la refinería de mayor capacidad de crudo del país—, el complejo de olefinas y químicos de Shell Deer Park y LyondellBasell Channelview, todos ejecutando paradas programadas que nunca terminan de alinearse con las cuadrillas de inspección de los otros. El trabajo dominante es inspección API 510 de recipientes a presión, API 570 de tuberías de proceso e API 653 de fondo de tanques bajo jurisdicción de la Texas Railroad Commission y BSEE, con programas de integridad de equipo fijo que abarcan décadas de historia de soldadura, circuitos de monitoreo de corrosión y bibliotecas de escaneos PAUT/TOFD. El Puerto de Houston suma inspección de manejo de carga, grúas y terminales de ductos. Esta configuración —varios megacomplejos, ciclos de código superpuestos y miles de circuitos por sitio— genera un perfil de dolor ERP-inspección donde el calendario, no los datos del escaneo, es lo primero que se rompe.",
+  "integrationPainParagraph": "Maximo opera la inspección de equipo fijo en ExxonMobil Baytown y SAP PM gobierna el flujo de órdenes de trabajo en Shell Deer Park, pero la capa NDT intermedia —las lecturas UT crudas, los archivos de escaneo PAUT, los circuitos API 510 de monitoreo de condición, los CML de circuitos de tubería B31.3— típicamente vive en silos desconectados: laptops de ingenieros, discos compartidos, portales de proveedores externos de escáneres. El vencimiento de certificaciones de inspectores se lleva manualmente en hojas de cálculo que se desactualizan en silencio. El tiempo de entrega de reportes del técnico de campo al ingeniero de integridad se atrasa de forma rutinaria entre 5 y 10 días. El flujo PAUT y TOFD se fragmenta en la entrega campo-oficina. Cuando llega la siguiente parada, el ERP tiene fechas pero no datos, y los datos tienen hallazgos pero no orden de trabajo.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III. Ejecutamos un piloto de 30 días sobre una unidad o circuito del área de Houston, una integración de 60 días que conecta la capa NDT a su instancia Maximo o SAP PM existente, y un corte total a 90 días con sus ingenieros de integridad a cargo. Sin viajes, sin consultores en sitio. Cada despliegue se entrega con firma Nivel III sobre procedimiento, modelo de datos y mapeo de cumplimiento de códigos.",
+  "featureBullets": [
+    "Intervalos de inspección API 510 de recipientes a presión calculados automáticamente contra las ventanas de parada de ExxonMobil Baytown — las fechas del ERP se alinean al calendario de paro de la unidad, no al revés.",
+    "Gestión de CML de circuitos API 570 con enlace a escaneos PAUT/TOFD, dimensionada para los miles de circuitos típicos en Shell Deer Park y LyondellBasell Channelview.",
+    "Programación de inspección API 653 fuera de servicio de tanques alineada a los ciclos de terminal del Puerto de Houston y a los factores de servicio de tanques de crudo.",
+    "Tendencia de espesores ASME B31.3 de tubería de proceso con alertas por tasa de corrosión, integrada directamente al ciclo de orden de trabajo en Maximo o SAP PM.",
+    "Vencimiento de certificaciones ASNT Nivel II/III del inspector rastreado por persona y por método, con bloqueo procedimental al despachar la orden de trabajo.",
+    "Registros de inspección PHMSA 49 CFR 195 de ductos de líquidos retenidos según el calendario 49 CFR y exportables al formato de auditoría PHMSA."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Cuánto cuesta un software ERP para NDT?",
+      "a": "El software ERP para NDT en una refinería o complejo petroquímico de Houston típicamente va de 60.000 a 250.000 dólares anuales según cantidad de usuarios, volumen de activos y alcance de integración. Atlantis cotiza contra la huella existente de Maximo o SAP PM en vez de por asiento, porque el uso del inspector se concentra en paradas. Un despliegue de un solo sitio API 510/570 para una refinería mediana se ubica alrededor de 85.000 a 120.000 dólares anuales todo incluido. El piloto de 30 días tiene precio fijo y se acredita contra la suscripción anual si usted avanza."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con Maximo?",
+      "a": "Sí — Atlantis ERP NDT se integra de forma nativa con IBM Maximo y Maximo APM mediante las interfaces REST y MIF estándar. En los despliegues de Houston típicamente conectamos al nivel de orden de trabajo, jerarquía de activos y punto de monitoreo de condición, de modo que los CML de recipientes API 510 y circuitos de tubería API 570 en Maximo se mantienen sincronizados con lecturas de espesor UT/PAUT y hallazgos de inspección de tanques API 653 en Atlantis. Sin doble carga de activos, sin puente de hoja de cálculo. La integración es bidireccional y opera sobre su versión actual de Maximo sin requerir una actualización."
+    },
+    {
+      "q": "¿Puede el ERP NDT manejar el flujo API 653?",
+      "a": "Sí — Atlantis ERP NDT está construido con API 510, API 570 y API 653 como flujos de primera clase, no como complementos. La inspección fuera de servicio API 653, la inspección en servicio, los relevamientos de asentamiento, los datos de escaneo de fondo y los historiales de espesor de anillo son tipos de dato nativos. Los cálculos de idoneidad para el servicio según API 579 quedan adjuntos al mismo registro. Para los patios de tanques de crudo y producto en terminales alrededor del Canal de Navegación de Houston (Houston Ship Channel), el sistema maneja la cadencia completa de 20 años en servicio / 10 años fuera de servicio con cálculo automático de intervalo a partir de la tasa de corrosión."
+    },
+    {
+      "q": "¿Cuál es el mejor software NDT para refinerías?",
+      "a": "El mejor software NDT para una refinería del Golfo de México de Estados Unidos es aquel que es nativo de API 510/570/653, se integra directamente con Maximo o SAP PM y está firmado por un Inspector ASNT Nivel III. Atlantis está construido a esa especificación. Para operaciones de la escala de ExxonMobil Baytown o Phillips 66 Sweeny el factor decisivo no es la cantidad de funciones sino si el sistema puede sostener más de un millón de CML sin volverse lento y si puede reconciliarse con la orden de trabajo del ERP sin un puente manual. Atlantis hace ambas cosas."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación del ERP NDT en Houston?",
+      "a": "Atlantis ERP NDT se implementa en un ciclo de piloto 30 días, integración 60 días y corte total 90 días para una refinería o complejo petroquímico del área de Houston. El piloto corre sobre una unidad o patio de tanques para validar el modelo de datos. La integración conecta el sistema a su instancia existente de Maximo o SAP PM. El corte migra los registros históricos de inspección y entrega el control operacional a su equipo de integridad. El tiempo total desde contrato firmado hasta producción plena en un complejo mediano es de 90 días. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Funciona el software NDT sin conexión en campo?",
+      "a": "Sí — Atlantis ERP NDT opera sin conexión en la tableta del técnico dentro de unidades de proceso donde el celular y el Wi-Fi de planta se caen. Las lecturas de espesor, las importaciones de escaneos UT/PAUT, los hallazgos de inspección visual y las fotos se capturan localmente y se sincronizan al ERP en el momento en que el dispositivo recupera cobertura. Esto importa dentro de ExxonMobil Baytown, Shell Deer Park y las zonas de terminal del Puerto de Houston, donde la radiofrecuencia es poco confiable. Las capturas fuera de línea quedan selladas con fecha, hora y atribuidas al número de certificado del inspector al momento de la toma."
+    },
+    {
+      "q": "¿Qué códigos debe soportar un software ERP NDT?",
+      "a": "Para una refinería de Houston, el ERP NDT debe soportar API 510 (recipientes a presión), API 570 (tuberías de proceso), API 653 (tanques atmosféricos de almacenamiento), API 580 (inspección basada en riesgo), ASME V (métodos de END), ASME VIII (construcción de recipientes a presión) y ASME B31.3 (tuberías de proceso). El trabajo en ductos de líquidos y gas suma ASME B31.4/B31.8 y PHMSA 49 CFR 195/192. Atlantis se entrega con todos estos como flujos nativos con cumplimiento de código, incluyendo la lógica de cálculo de intervalos y los calendarios de retención requeridos bajo auditoría federal y de la Texas Railroad Commission."
+    },
+    {
+      "q": "¿Puede el ERP NDT rastrear las certificaciones de inspectores?",
+      "a": "Sí — Atlantis ERP NDT rastrea las certificaciones por persona y por método, incluyendo ASNT Nivel I/II/III, endosos API 510/570/653, PCN y autorizaciones específicas del cliente. El ERP condiciona el despacho de órdenes de trabajo a la certificación vigente: un Nivel II de UT vencido no puede ser asignado a un escaneo UT, un inspector API 653 sin endoso vigente no puede cerrar una inspección de tanque. Las alertas de renovación se disparan a 90, 60 y 30 días antes. Esto reemplaza el rastreador en hoja de cálculo que típicamente corre junto a Maximo en las refinerías del Golfo y se desactualiza en silencio entre auditorías."
+    }
+  ]
+}

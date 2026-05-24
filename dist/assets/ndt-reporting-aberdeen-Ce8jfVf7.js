@@ -1,0 +1,1 @@
+import{j as r}from"./compare-pages-C1d7etmC.js";import{R as t}from"./ReportingLocationPage-4oT4qEfA.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./blog-pages-B6olVlga.js";import"./RelatedProducts-BB-PbHxv.js";function s(){return r.jsx(t,{city:"Aberdeen",country:"UK",slug:"ndt-reporting-aberdeen"})}export{s as default};

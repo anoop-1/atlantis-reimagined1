@@ -1,0 +1,891 @@
+[
+  {
+    "slug": "saint-john",
+    "city": "Saint John",
+    "state": "NB",
+    "country": "Canada",
+    "region": "NAmerica",
+    "industries": [
+      "refining",
+      "oil-gas",
+      "port-ops",
+      "pipelines",
+      "lng"
+    ],
+    "namedFacilities": [
+      "Irving Oil Saint John Refinery (320 kbpd, Canada's largest)",
+      "Canaport LNG Terminal (Repsol/Irving, regasification)",
+      "Port of Saint John (DP World container + bulk terminals)",
+      "Irving Oil Canaport Crude Marine Terminal",
+      "NB Power Coleson Cove thermal generating station"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "CAN/CSA Z662",
+      "CSA W178.2",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Saint John NDT ERP Software | Irving Oil, Canaport LNG",
+    "meta155": "Saint John NDT ERP for Irving Oil refinery, Canaport LNG and Atlantic port assets: API, CSA Z662, NACE workflows tied to SAP and Maximo. Remote rollout.",
+    "h1": "Saint John NDT ERP Software — Built for Atlantic Canada Refining",
+    "localHook": "Saint John's NDT workload is dominated by one asset most of the continent forgets about: the Irving Oil Saint John Refinery, at roughly 320,000 barrels per day still Canada's largest single-site refinery and a processor of acidic heavy crude blends shipped in from the Alberta oil sands via rail and marine offloading at Canaport. Inspectors juggle API 510 pressure vessel turnarounds, API 570 high-temp sulfidation loops and aggressive naphthenic acid corrosion monitoring alongside Canaport LNG regasification trains operated with Repsol, and CAN/CSA Z662-governed crude and product pipelines crossing into Maine and across the Bay of Fundy. Port of Saint John container cranes, Coleson Cove thermal generation and NB Power distribution lines add CSA W178.2 weld inspection and rope-access structural UT. Atlantis NDT ERP unifies CSA, API, ASME and NACE MR0175 records into one bilingual English and French report stack that satisfies federal, provincial and Transport Canada filings from a single New Brunswick tenant.",
+    "integrationPainParagraph": "Irving-group sites and their Saint John contractor network run SAP S/4HANA at the enterprise level, IBM Maximo on the plant floor for work orders and Oracle EBS on the finance side, while Canaport LNG uses its own Maximo tenant aligned with Repsol upstream. NDT certs, RT film packets, PAUT corrosion maps and IOW exceedance records rarely flow cleanly between those stacks, and TSB, NEB/CER and provincial audits expose the gap. Atlantis NDT ERP writes inspection results, technician qualification windows and fitness-for-service findings directly into SAP PM notifications and Maximo work orders via REST, while Primavera P6 turnaround schedules receive hold-point updates the same shift. CAN/CSA Z662 pipeline dig reports and API 570 circuit histories map to Maximo functional locations without duplicate entry.",
+    "remoteDeliveryPitch": "Atlantis deploys across Saint John without flying consultants into New Brunswick. Discovery runs over Teams, SAP and Maximo connectors configure against an Atlantic-Canada sandbox, and technicians train in bilingual English and French sessions recorded for shift work. Most Saint John rollouts go live in 5 to 7 weeks, with hypercare timed around Irving refinery turnarounds and Canaport LNG ship windows so outage schedules stay intact.",
+    "featureBullets": [
+      "API 510/570/653 fitness-for-service engine tuned for sour heavy crude sulfidation and NAC loops",
+      "CAN/CSA Z662 pipeline dig, ILI correlation and Class location tracking for NB and cross-border lines",
+      "Canaport LNG-ready cryogenic tank and loading arm inspection templates",
+      "Bilingual EN/FR report output for federal, CER and Transport Canada filings",
+      "NACE MR0175 sour-service material traceability with H2S exposure history",
+      "Turnaround hold-point sync with Primavera P6 and SAP PM notifications"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software works for the Irving Oil Saint John refinery ecosystem?",
+        "a": "Atlantis NDT ERP ships with API 510, 570 and 653 templates plus naphthenic acid corrosion and sulfidation IOW tracking tuned for the acidic heavy crude diet processed at Saint John, and integrates with SAP and Maximo tenants common to Irving-group contractors."
+      },
+      {
+        "q": "Does it handle CAN/CSA Z662 pipeline inspection records?",
+        "a": "Yes. The ERP stores Z662-compliant dig sheets, ILI correlation data, Class location updates and repair records, and exports CER-ready packages for NB and cross-border pipelines."
+      },
+      {
+        "q": "Can it support Canaport LNG cryogenic inspection?",
+        "a": "Yes. Templates cover LNG storage tank annular plate UT, loading arm inspection, and cold-box walkdowns aligned with CSA Z276 and API 625 reference practices."
+      },
+      {
+        "q": "Is bilingual English and French reporting available for New Brunswick work?",
+        "a": "Yes. All reports, technician UIs and client portals switch between English and French to satisfy NB's official bilingual status and federal filings."
+      },
+      {
+        "q": "How does it integrate with SAP and Maximo used by Irving contractors?",
+        "a": "Inspection findings, calibration records and personnel certs push into SAP PM notifications and Maximo work orders via REST, eliminating duplicate entry across the Irving contractor network."
+      },
+      {
+        "q": "Does it track NACE MR0175 sour service requirements?",
+        "a": "Yes. Material heat numbers, hardness data and H2S exposure history are stored against each asset so sour-service compliance is audit-ready."
+      },
+      {
+        "q": "Can it schedule turnaround hold-points with Primavera P6?",
+        "a": "Yes. PAUT, RT and UT hold-points sync bidirectionally with Primavera P6 so turnaround schedule changes flow into the inspection plan without rework."
+      },
+      {
+        "q": "How long does implementation take in Saint John?",
+        "a": "A typical Saint John rollout takes 5 to 7 weeks remotely, including SAP and Maximo connector setup, bilingual training and hypercare aligned to Irving and Canaport outage windows."
+      }
+    ]
+  },
+  {
+    "slug": "pasadena-tx",
+    "city": "Pasadena",
+    "state": "TX",
+    "country": "United States",
+    "region": "NAmerica",
+    "industries": [
+      "refining",
+      "petchem",
+      "port-ops",
+      "pipelines",
+      "oil-gas"
+    ],
+    "namedFacilities": [
+      "Chevron Pasadena Refinery (former PES, 112 kbpd)",
+      "LyondellBasell Pasadena Complex (polyolefins)",
+      "Kinder Morgan Pasadena Terminal (Houston Ship Channel)",
+      "Air Liquide Bayport Complex (industrial gases + hydrogen)",
+      "Vopak Deer Park Terminal (chemical storage)"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 2015",
+      "ASME BPVC Section V",
+      "ASME B31.3",
+      "NACE SP0472"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "AVEVA PI",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Pasadena TX NDT ERP | Chevron, LyondellBasell, Ship Channel",
+    "meta155": "Pasadena TX NDT ERP for Houston Ship Channel refining, petchem and terminals: API, ASME B31.3, NACE workflows into SAP, Maximo and PI. Remote deploy.",
+    "h1": "Pasadena NDT ERP Software — Houston Ship Channel Ready",
+    "localHook": "Pasadena sits at the dense industrial heart of the Houston Ship Channel, and its NDT workload reflects four decades of rust-belt chemical infrastructure being rebuilt under tighter RAGAGEP expectations. The Chevron Pasadena Refinery, acquired from PES in 2019 and running around 112,000 barrels per day, anchors a corridor that also includes LyondellBasell's polyolefins complex, Kinder Morgan and Vopak terminals along the channel, and Air Liquide's Bayport hydrogen and industrial gas assets in neighboring Deer Park. Inspectors cycle through API 510 pressure vessel turnarounds, API 570 circuit walkdowns on high-temp H2/H2S loops, ASME B31.3 chemical piping on LLDPE and HDPE lines, API 653 tank bottoms on Ship Channel product storage and API 2015 confined-entry work. PHMSA-jurisdictional pipelines and TCEQ air-permit driven mechanical integrity schedules add regulatory weight. Atlantis NDT ERP brings API, ASME and NACE SP0472 weld-overlay records into one Texas-ready stack.",
+    "integrationPainParagraph": "Ship Channel operators run SAP S/4HANA or Oracle EBS at the enterprise level, IBM Maximo on the plant floor and AVEVA PI historians for process data, with engineering contractors like Wood, Jacobs and Fluor layering their own Primavera P6 and Documentum stacks during turnarounds. NDT RBI recommendations, CML thickness readings, PAUT corrosion maps and IOW exceedances rarely cross those boundaries without rekeying, and PHMSA, OSHA PSM and TCEQ audits expose it quickly. Atlantis NDT ERP pushes inspection findings, technician qualifications and fitness-for-service calcs into SAP PM notifications and Maximo work orders via REST, pulls live process conditions from AVEVA PI for IOW context, and syncs PAUT and RT hold-points with turnaround P6 schedules so Chevron, LyondellBasell and terminal operators see one inspection truth.",
+    "remoteDeliveryPitch": "Atlantis deploys into Pasadena without flying consultants into Harris County. Discovery happens entirely over Teams, SAP, Maximo and AVEVA PI connectors configure against a Gulf Coast sandbox tenant, and night-shift Ship Channel technicians train in recorded sessions that respect rotating schedules. Most Pasadena rollouts go live in 5 to 7 weeks, with dedicated hypercare timed carefully around Chevron, LyondellBasell and terminal operator turnaround windows through the year.",
+    "featureBullets": [
+      "API 510/570/653 RBI engine with H2/H2S, HTHA and sulfidation IOW triggers wired to AVEVA PI",
+      "ASME B31.3 process piping templates for LLDPE, HDPE and chlor-alkali service",
+      "PHMSA-ready breakout tank and liquid pipeline record exports",
+      "NACE SP0472 weld overlay and CUI survey workflows for Ship Channel terminals",
+      "Turnaround hold-point sync with Primavera P6 and SAP PM notifications",
+      "Mobile CML capture with barcode asset lookup and offline Ship Channel coverage"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used along the Houston Ship Channel?",
+        "a": "Ship Channel operators use NDT ERP platforms that enforce API 510, 570 and 653 plus ASME B31.3, and that integrate with SAP, Maximo and AVEVA PI. Atlantis NDT ERP ships with those templates preloaded for Pasadena refining and petchem."
+      },
+      {
+        "q": "Does it integrate with AVEVA PI for IOW monitoring?",
+        "a": "Yes. Process limits from PI feed directly into the IOW engine so CML and RBI schedules react automatically when operating envelopes are exceeded."
+      },
+      {
+        "q": "Can it handle PHMSA-jurisdictional breakout tanks and pipelines?",
+        "a": "Yes. The ERP produces PHMSA-compliant API 653 tank records and 195/192-aligned pipeline packages, including OQ personnel tracking."
+      },
+      {
+        "q": "Does it support Chevron Pasadena and LyondellBasell contractor workflows?",
+        "a": "Yes. Vendor-specific report templates, personnel qualification matrices and client portal exports are preconfigured for major Ship Channel owners."
+      },
+      {
+        "q": "How does it manage NACE SP0472 weld overlay records?",
+        "a": "Overlay thickness, hardness and ferrite readings plus heat number traceability are stored against each weld for full NACE SP0472 audit readiness."
+      },
+      {
+        "q": "Can it plan turnaround hold-points with Primavera P6?",
+        "a": "Yes. PAUT, RT, UT and MPI hold-points sync bidirectionally with P6 schedules used by Wood, Jacobs and Fluor contractor teams."
+      },
+      {
+        "q": "Does it work offline inside Ship Channel units?",
+        "a": "Yes. Mobile capture operates fully offline inside steel-dense process units and syncs calibration and CML data when connectivity returns."
+      },
+      {
+        "q": "How long does implementation take in Pasadena?",
+        "a": "A typical Pasadena rollout takes 5 to 7 weeks remotely, with SAP, Maximo and PI connectors configured and hypercare aligned to Chevron and LyondellBasell turnaround schedules."
+      }
+    ]
+  },
+  {
+    "slug": "lima",
+    "city": "Lima",
+    "state": "",
+    "country": "Peru",
+    "region": "LATAM",
+    "industries": [
+      "refining",
+      "port-ops",
+      "mining",
+      "oil-gas",
+      "pipelines"
+    ],
+    "namedFacilities": [
+      "La Pampilla Refinery (Relapasa/Repsol, 117 kbpd)",
+      "Callao Port Terminal (APM Terminals Callao)",
+      "Petroperu Conchan Terminal",
+      "Camisea Gas Pipeline Lima delivery (TGP)",
+      "Kallpa Generacion Chilca thermal plant"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "ASME B31.3",
+      "NTP 341.027",
+      "OSINERGMIN directives"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Lima NDT ERP Software | La Pampilla, Callao, Camisea",
+    "meta155": "Lima Peru NDT ERP for La Pampilla refinery, Callao port and Camisea gas assets: API, ASME, OSINERGMIN workflows into SAP and Maximo. Remote rollout.",
+    "h1": "Software NDT ERP para Lima — Refineria y Puerto de Callao",
+    "localHook": "Lima's industrial inspection workload centers on the Callao coastal strip, where the La Pampilla Refinery — operated by Relapasa, the Repsol subsidiary — processes around 117,000 barrels per day and remains Peru's largest refining asset after the long, problematic Talara modernization further north. Around it sit APM Terminals Callao container and bulk berths, the Petroperu Conchan terminal, and the Lima delivery end of the Camisea gas pipeline system operated by TGP from the Amazon basin to the coast. Inspectors juggle API 510 pressure vessel turnarounds, API 570 circuit walkdowns, ASME B31.3 process piping, API 653 tank bottoms at marine terminals and OSINERGMIN-driven hydrocarbon integrity filings, plus NTP 341.027 weld inspection at fabricators serving the mining supply chain. Callao-based fabricators also support Southern Copper, Antamina and Las Bambas projects with CWI weld work. Atlantis NDT ERP consolidates API, ASME and OSINERGMIN records into one Spanish-and-English tenant that Lima-based operators can run without a dedicated IT build.",
+    "integrationPainParagraph": "Relapasa and Petroperu run SAP S/4HANA at the enterprise level, with IBM Maximo and Oracle EBS handling plant-floor work orders and finance, while TGP and its midstream partners operate their own Maximo and Primavera P6 instances aligned with Camisea pipeline integrity management. NDT certs, RT packets, PAUT maps and calibration records rarely flow cleanly between those stacks, and OSINERGMIN audits surface the gap quickly. Atlantis NDT ERP writes inspection findings and personnel qualifications directly into SAP PM notifications and Maximo work orders via REST, syncs turnaround PAUT and RT hold-points with Primavera P6, and maintains bilingual Spanish and English report output so OSINERGMIN, MINEM and client portal submissions happen from one source of truth without duplicate entry.",
+    "remoteDeliveryPitch": "Atlantis deploys into Lima without flying consultants into Peru. Discovery runs entirely over Teams in Spanish and English, SAP and Maximo connectors configure cleanly against a LATAM sandbox tenant, and Callao-based technicians train in recorded Spanish-language sessions. Most Lima rollouts go live in 5 to 7 weeks, with dedicated hypercare timed around La Pampilla refinery turnarounds, Camisea pipeline dig campaigns and OSINERGMIN submission deadlines through the year.",
+    "featureBullets": [
+      "API 510/570/653 fitness-for-service engine with Spanish-language report output",
+      "OSINERGMIN-ready hydrocarbon integrity submission templates",
+      "Camisea pipeline dig, ILI correlation and repair tracking",
+      "NTP 341.027 weld inspection templates for Lima fabricators serving mining",
+      "Bilingual EN/ES technician UI and client portals",
+      "Turnaround hold-point sync with Primavera P6 and SAP PM"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used in Lima's refining sector?",
+        "a": "Lima operators use NDT ERP platforms that enforce API 510, 570 and 653 with OSINERGMIN-aligned submissions and Spanish-language reporting. Atlantis NDT ERP ships with those templates preloaded for La Pampilla and Conchan assets."
+      },
+      {
+        "q": "Does it produce OSINERGMIN-compliant integrity reports?",
+        "a": "Yes. The ERP exports hydrocarbon integrity packages aligned to OSINERGMIN procedures for upstream, midstream and downstream assets in Peru."
+      },
+      {
+        "q": "Is Spanish-language reporting supported for local filings?",
+        "a": "Yes. Reports, templates, client portals and technician UIs operate fully in Spanish and English so MINEM and OSINERGMIN filings run in es-PE."
+      },
+      {
+        "q": "Can it handle Camisea pipeline integrity records?",
+        "a": "Yes. TGP-style pipeline dig, ILI correlation, repair and class location tracking are supported with Spanish regulator output."
+      },
+      {
+        "q": "Does it integrate with SAP used by Relapasa and Petroperu?",
+        "a": "Yes. Inspection results and personnel certs push into SAP PM notifications via REST, matching the Repsol and Petroperu enterprise stack."
+      },
+      {
+        "q": "Can Lima fabricators track NTP 341.027 weld inspections?",
+        "a": "Yes. Fabricator workflows cover NTP 341.027 and AWS D1.1 weld inspection records used on mining and port project work out of Callao."
+      },
+      {
+        "q": "How does it support mining supply chain QA in Callao?",
+        "a": "CWI weld packages, NDT certs and traceability records export in formats accepted by Antamina, Las Bambas and Southern Copper procurement portals."
+      },
+      {
+        "q": "How long does implementation take in Lima?",
+        "a": "A typical Lima rollout takes 5 to 7 weeks remotely, with SAP and Maximo connectors and bilingual Spanish-English training sessions."
+      }
+    ]
+  },
+  {
+    "slug": "cartagena",
+    "city": "Cartagena",
+    "state": "",
+    "country": "Colombia",
+    "region": "LATAM",
+    "industries": [
+      "refining",
+      "petchem",
+      "port-ops",
+      "oil-gas",
+      "offshore"
+    ],
+    "namedFacilities": [
+      "Reficar — Refineria de Cartagena (Ecopetrol, 165 kbpd)",
+      "Cartagena Naval Base (ARC/COTECMAR shipyard)",
+      "Contecar and SPRC Container Terminals",
+      "Mamonal Industrial Zone petrochemical cluster",
+      "Ecopetrol Cartagena Crude Marine Terminal"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "ASME B31.3",
+      "NTC 2050",
+      "ANH integrity directives"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Cartagena NDT ERP Software | Reficar, COTECMAR, Mamonal",
+    "meta155": "Cartagena Colombia NDT ERP for Reficar refinery, COTECMAR naval shipyard and Mamonal petchem: API, ASME, ANH workflows on SAP and Maximo.",
+    "h1": "Software NDT ERP para Cartagena — Reficar y Base Naval",
+    "localHook": "Cartagena is Colombia's heaviest concentration of complex NDT scope outside Bogota's engineering offices. Reficar — the Refineria de Cartagena run by Ecopetrol at roughly 165,000 barrels per day after the troubled but now-stabilized modernization — anchors the Mamonal industrial zone, which also hosts petrochemical plants, the Ecopetrol crude marine terminal, and Contecar and SPRC container terminals. A few kilometers away, the Cartagena Naval Base and the COTECMAR shipyard handle frigate, patrol craft and commercial vessel hull inspection, propeller UT and structural MPI under both ARC and class society rules. Inspectors work API 510 pressure vessel turnarounds at Reficar, API 570 process piping across Mamonal petchem, API 653 tank bottoms on crude storage and marine terminal assets, ASME B31.3 process lines, and ANH-directed upstream integrity work from offshore Caribbean tie-backs. Atlantis NDT ERP brings API, ASME, NTC and ANH records into one Spanish-first tenant built for Cartagena.",
+    "integrationPainParagraph": "Ecopetrol and Reficar run SAP S/4HANA at the enterprise level with IBM Maximo handling plant-floor work orders and Oracle EBS covering finance, while COTECMAR operates its own mix of Maximo and shipyard-specific MES for naval and commercial hull work. Mamonal petrochemical operators layer their own Maximo and Primavera P6 instances, and upstream contractors working offshore tie-backs bring Wood, Worley and local firms' Documentum stacks with them. NDT records, calibration logs and PAUT maps rarely cross these boundaries cleanly, and ANH and MinMinas audits expose the gap. Atlantis NDT ERP pushes inspection findings into SAP PM notifications and Maximo work orders via REST, syncs turnaround hold-points with Primavera P6, and outputs Spanish-language reports so ANH and client submissions happen without rekeying.",
+    "remoteDeliveryPitch": "Atlantis deploys into Cartagena without flying consultants into Bolivar. Discovery runs entirely over Teams in Spanish and English, SAP and Maximo connectors configure cleanly against a LATAM sandbox tenant, and technicians train in recorded Spanish-language sessions covering Reficar, Mamonal and COTECMAR shipyard scope. Most Cartagena rollouts go live in 5 to 7 weeks, with dedicated hypercare timed carefully around Reficar refinery turnarounds and naval base campaigns.",
+    "featureBullets": [
+      "API 510/570/653 fitness-for-service engine with Spanish-language report output",
+      "ANH-ready upstream and midstream integrity submission templates",
+      "COTECMAR shipyard hull MPI, UT and propeller inspection workflows",
+      "NTC 2050 and AWS D1.1 weld inspection templates for local fabricators",
+      "Bilingual EN/ES technician UI and client portals",
+      "Turnaround hold-point sync with Primavera P6 and SAP PM"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used at Reficar in Cartagena?",
+        "a": "Reficar-aligned contractors use NDT ERP platforms that enforce API 510, 570 and 653 with Spanish-language reporting and SAP and Maximo integration. Atlantis NDT ERP ships with those templates preloaded."
+      },
+      {
+        "q": "Does it support Ecopetrol and ANH integrity filings?",
+        "a": "Yes. Upstream, midstream and downstream integrity packages export in formats aligned to ANH directives and Ecopetrol's own inspection procedures."
+      },
+      {
+        "q": "Is Spanish-language reporting supported?",
+        "a": "Yes. Reports, templates, client portals and technician UIs run fully in Spanish and English for MinMinas, ANH and Ecopetrol submissions."
+      },
+      {
+        "q": "Can it handle COTECMAR shipyard inspections?",
+        "a": "Yes. Hull MPI, propeller UT, structural weld inspection and class society record workflows are supported for naval and commercial vessel work."
+      },
+      {
+        "q": "Does it integrate with SAP used by Ecopetrol?",
+        "a": "Yes. Inspection findings and personnel certifications push into SAP PM notifications via REST, matching the Ecopetrol enterprise stack."
+      },
+      {
+        "q": "How does it handle Mamonal petrochemical piping records?",
+        "a": "ASME B31.3 and API 570 circuit walkdowns with CML, PAUT and RT capture are stored against each asset and synced to Maximo functional locations."
+      },
+      {
+        "q": "Is offshore Caribbean tie-back integrity covered?",
+        "a": "Yes. Offshore riser, splash-zone and subsea tie-back inspection records are supported with DNV and API 2SIM-aligned templates."
+      },
+      {
+        "q": "How long does implementation take in Cartagena?",
+        "a": "A typical Cartagena rollout takes 5 to 7 weeks remotely with Spanish-English training and SAP, Maximo and P6 connectors configured during discovery."
+      }
+    ]
+  },
+  {
+    "slug": "luanda",
+    "city": "Luanda",
+    "state": "",
+    "country": "Angola",
+    "region": "Africa",
+    "industries": [
+      "oil-gas",
+      "offshore",
+      "lng",
+      "port-ops",
+      "refining"
+    ],
+    "namedFacilities": [
+      "Sonangol Luanda Refinery (65 kbpd)",
+      "Angola LNG Soyo (Chevron-led JV, regional operator base in Luanda)",
+      "Port of Luanda (DP World terminal concession)",
+      "TotalEnergies Block 17 Luanda operator base (Girassol, Dalia FPSOs)",
+      "ExxonMobil Block 15 Luanda operator base (Kizomba FPSOs)"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 2SIM",
+      "ASME BPVC Section V",
+      "DNV-OS-F101",
+      "DNV-OS-C401"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en",
+      "pt"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Luanda NDT ERP Software | Sonangol, Total, Exxon FPSOs",
+    "meta155": "Luanda Angola NDT ERP for Sonangol, TotalEnergies and ExxonMobil FPSO operator bases: API, DNV, ANPG workflows on SAP and Maximo. Remote rollout.",
+    "h1": "Software NDT ERP para Luanda — Base Operacional Offshore",
+    "localHook": "Luanda is the onshore command base for one of Africa's most active deepwater oil regions. TotalEnergies runs Block 17 — Girassol, Dalia, Pazflor and CLOV FPSOs — out of Luanda, ExxonMobil manages Block 15 Kizomba assets from the same city, and BP, Eni and Sonangol P&P hold adjacent blocks feeding Angola LNG at Soyo. The Sonangol Luanda Refinery, while small at around 65,000 barrels per day, remains operational and anchors downstream scope alongside the Port of Luanda. Inspectors support FPSO turret, riser and flowline inspection under DNV-OS-F101 and API 2SIM, API 510 pressure vessel campaigns on topsides, API 570 process piping, API 653 tank bottoms on crude storage, and ASME BPVC Section V technique work. ANPG, Angola's upstream regulator since replacing Sonangol's concessionaire role, drives integrity filings. Atlantis NDT ERP consolidates API, DNV and ANPG records into one bilingual Portuguese-and-English tenant built for Luanda operator bases.",
+    "integrationPainParagraph": "Block operators run SAP S/4HANA at the enterprise level with IBM Maximo on the FPSO and onshore base for work orders, while Sonangol and downstream assets use their own Maximo and Oracle EBS instances. Turnaround and riser inspection campaigns add Primavera P6 schedules from Subsea 7, Saipem and TechnipFMC. NDT records, PAUT maps, flooded-member-detection logs and calibration data rarely cross those stacks cleanly, and ANPG audits surface the gap. Atlantis NDT ERP writes inspection findings into SAP PM notifications and Maximo work orders via REST, syncs offshore hold-points with Primavera P6, and outputs bilingual Portuguese and English reports so ANPG and operator submissions from TotalEnergies, ExxonMobil and Sonangol happen from one record without duplicate entry.",
+    "remoteDeliveryPitch": "Atlantis deploys into Luanda without flying consultants into Angola. Discovery runs entirely over Teams in Portuguese and English, SAP and Maximo connectors configure cleanly against an Africa sandbox tenant, and offshore crews train in recorded Portuguese-language sessions aligned to FPSO crew rotation schedules. Most Luanda rollouts go live in 6 to 8 weeks, with dedicated hypercare timed around Block 17, Block 15 and Angola LNG FPSO turret and riser campaigns.",
+    "featureBullets": [
+      "FPSO turret, riser and flooded-member inspection templates under DNV-OS-F101 and API 2SIM",
+      "API 510/570/653 topsides and onshore fitness-for-service engine",
+      "ANPG-ready upstream integrity submission templates",
+      "Bilingual EN/PT technician UI and client portals",
+      "Offline mobile capture for offshore FPSO decks and splash-zone rope access",
+      "Turnaround hold-point sync with Primavera P6 and SAP PM"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used by FPSO operators based in Luanda?",
+        "a": "Luanda operator bases use NDT ERP platforms that enforce API 2SIM, DNV-OS-F101 and API 510 with Portuguese-language reporting and SAP and Maximo integration. Atlantis NDT ERP ships with those templates for Block 15, 17 and adjacent assets."
+      },
+      {
+        "q": "Does it support ANPG integrity filings?",
+        "a": "Yes. Upstream integrity packages export in formats aligned to Angola's ANPG directives for Block operators and Sonangol."
+      },
+      {
+        "q": "Is Portuguese-language reporting supported?",
+        "a": "Yes. Reports, templates, client portals and technician UIs run fully in Portuguese and English for ANPG and MIREMPET submissions."
+      },
+      {
+        "q": "Can it handle FPSO turret and riser inspection?",
+        "a": "Yes. DNV-OS-F101 riser inspection, turret swivel UT and flooded-member detection workflows are supported for Block 17 and Block 15 FPSOs."
+      },
+      {
+        "q": "Does it integrate with SAP used by TotalEnergies and ExxonMobil?",
+        "a": "Yes. Inspection findings push into SAP PM notifications via REST matching the enterprise stacks of both operators in Angola."
+      },
+      {
+        "q": "Can it support Sonangol refinery turnaround records?",
+        "a": "Yes. API 510, 570 and 653 templates cover the Luanda refinery and its marine terminal assets."
+      },
+      {
+        "q": "Does it work offline on FPSO decks in Block 17?",
+        "a": "Yes. Mobile capture operates fully offline on FPSO decks and syncs calibration, CML and PAUT data when the helicopter rotation returns onshore."
+      },
+      {
+        "q": "How long does implementation take in Luanda?",
+        "a": "A typical Luanda rollout takes 6 to 8 weeks remotely with Portuguese-English training, SAP and Maximo connectors and hypercare timed to FPSO campaigns."
+      }
+    ]
+  },
+  {
+    "slug": "port-harcourt",
+    "city": "Port Harcourt",
+    "state": "",
+    "country": "Nigeria",
+    "region": "Africa",
+    "industries": [
+      "refining",
+      "oil-gas",
+      "lng-export",
+      "offshore",
+      "pipelines"
+    ],
+    "namedFacilities": [
+      "NNPC Port Harcourt Refining Company (210 kbpd, rehabilitated)",
+      "Bonny LNG Terminal (NLNG, six-train export complex)",
+      "Shell Nigeria Exploration and Production Company (SNEPCo) Port Harcourt base",
+      "TotalEnergies OML 58 onshore facilities",
+      "Indorama Eleme Petrochemicals (Eleme complex)"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 2SIM",
+      "ASME BPVC Section V",
+      "DPR/NUPRC directives",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Port Harcourt NDT ERP | NNPC, NLNG Bonny, SNEPCo",
+    "meta155": "Port Harcourt NDT ERP for NNPC refinery, NLNG Bonny export and SNEPCo offshore bases: API, DNV, NUPRC workflows on SAP and Maximo. Remote deploy.",
+    "h1": "Port Harcourt NDT ERP Software — Niger Delta Operator Base",
+    "localHook": "Port Harcourt remains Nigeria's operational center of gravity for oil and gas inspection scope. The NNPC Port Harcourt Refining Company complex, following its long-awaited rehabilitation, is operating again at meaningful throughput and anchors downstream work alongside Indorama Eleme Petrochemicals. Offshore, Shell's SNEPCo runs deepwater Bonga operations from Port Harcourt, TotalEnergies manages OML 58 onshore assets from the same city, and the NLNG Bonny Island six-train export complex — one of the world's largest LNG plants — draws its inspection contractor pool from Port Harcourt fabricators and NDT houses. Inspectors support API 510 pressure vessel turnarounds, API 570 process piping on high-H2S service, API 653 tank bottoms, API 2SIM and DNV offshore work on Bonga FPSO, and NACE MR0175 sour-service material traceability. NUPRC, which replaced DPR as upstream regulator, drives integrity filings. Atlantis NDT ERP consolidates API, ASME, DNV and NUPRC records into one tenant built for Niger Delta operations.",
+    "integrationPainParagraph": "Shell, TotalEnergies and NNPC run SAP S/4HANA at the enterprise level with IBM Maximo on plant floors and FPSO topsides, while Indorama Eleme and NLNG operate their own Maximo and Oracle EBS instances. Turnaround campaigns add Primavera P6 schedules from Schlumberger, Saipem and local NigerStar-style contractors. NDT records, PAUT maps, H2S exposure logs and calibration data rarely cross these boundaries cleanly, and NUPRC and NMDPRA audits expose the gap. Atlantis NDT ERP writes inspection findings into SAP PM notifications and Maximo work orders via REST, syncs offshore and refinery hold-points with Primavera P6, and maintains NACE MR0175 sour-service traceability so NUPRC, NMDPRA and operator submissions happen from one record without duplicate entry.",
+    "remoteDeliveryPitch": "Atlantis deploys into Port Harcourt without flying consultants into Rivers State. Discovery runs entirely over Teams in English, SAP and Maximo connectors configure cleanly against an Africa sandbox tenant, and local technicians train in recorded sessions aligned to Bonga FPSO helicopter rotations and NNPC refinery turnaround schedules. Most Port Harcourt rollouts go live in 6 to 8 weeks, with dedicated hypercare timed around NLNG Bonny, SNEPCo and Eleme petrochemical campaigns.",
+    "featureBullets": [
+      "API 510/570/653 fitness-for-service engine with H2S and sulfidation IOW tracking",
+      "NACE MR0175 sour-service material traceability and H2S exposure history",
+      "NLNG Bonny cryogenic tank and loading arm inspection templates",
+      "NUPRC and NMDPRA-ready upstream and downstream integrity submissions",
+      "FPSO turret and riser inspection under API 2SIM and DNV-OS-F101",
+      "Offline mobile capture for Bonga FPSO decks and Eleme plant units"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used in Port Harcourt's oil and gas sector?",
+        "a": "Port Harcourt operators use NDT ERP platforms that enforce API 510, 570 and 653 plus API 2SIM offshore work and NACE MR0175 sour-service traceability. Atlantis NDT ERP ships with those templates for NNPC, Shell SNEPCo and TotalEnergies scope."
+      },
+      {
+        "q": "Does it support NUPRC integrity filings?",
+        "a": "Yes. Upstream integrity packages export in formats aligned to Nigeria's NUPRC directives, with NMDPRA-ready downstream submissions."
+      },
+      {
+        "q": "Can it handle NLNG Bonny cryogenic inspection?",
+        "a": "Yes. Templates cover LNG storage tank annular plate UT, loading arm inspection and cold-box walkdowns aligned with API 625 reference practices."
+      },
+      {
+        "q": "How does it track sour service per NACE MR0175?",
+        "a": "Heat numbers, hardness data and H2S exposure history are stored against each asset so sour-service compliance is audit-ready for Niger Delta operations."
+      },
+      {
+        "q": "Does it integrate with SAP used by Shell and TotalEnergies?",
+        "a": "Yes. Inspection findings push into SAP PM notifications via REST matching the enterprise stacks of both operators."
+      },
+      {
+        "q": "Can it support Bonga FPSO riser and turret inspection?",
+        "a": "Yes. DNV-OS-F101 riser inspection and turret swivel UT workflows are supported for SNEPCo deepwater scope."
+      },
+      {
+        "q": "Does it work offline on FPSO decks and Eleme units?",
+        "a": "Yes. Mobile capture operates offline and syncs calibration and CML data when connectivity returns at base."
+      },
+      {
+        "q": "How long does implementation take in Port Harcourt?",
+        "a": "A typical Port Harcourt rollout takes 6 to 8 weeks remotely with SAP and Maximo connectors and hypercare timed to NLNG and NNPC campaigns."
+      }
+    ]
+  },
+  {
+    "slug": "atyrau",
+    "city": "Atyrau",
+    "state": "",
+    "country": "Kazakhstan",
+    "region": "CIS",
+    "industries": [
+      "oil-gas",
+      "refining",
+      "petchem",
+      "pipelines",
+      "offshore"
+    ],
+    "namedFacilities": [
+      "Tengizchevroil (TCO) — Chevron/ExxonMobil/KMG/LukArco JV, FGP/WPMP live",
+      "Karachaganak Petroleum Operating (KPO — Shell/Eni/Chevron/Lukoil/KMG)",
+      "North Caspian Operating Company (NCOC) — Kashagan field",
+      "Atyrau Refinery (KazMunayGas, ~110 kbpd post-modernization)",
+      "CPC (Caspian Pipeline Consortium) Atyrau pumping station"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "ST RK (Kazakh adopted)",
+      "GOST 34347",
+      "NACE MR0175"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en",
+      "ru"
+    ],
+    "defaultLanguage": "en",
+    "title60": "NDT ERP Software for Atyrau Oilfield Operators | TCO, KPO",
+    "meta155": "Atyrau NDT ERP for Tengiz, Karachaganak, Kashagan and KMG refinery: API, GOST, ST RK workflows with sour-service H2S controls. Remote rollout.",
+    "h1": "Atyrau NDT ERP Software — Tengiz and Karachaganak Ready",
+    "localHook": "Atyrau is the command city of Kazakhstan's upstream oil industry and home to some of the most technically demanding NDT scope on the planet. Tengizchevroil (TCO) — the Chevron, ExxonMobil, KazMunayGas and LukArco joint venture — runs the Tengiz sour-crude supergiant with Future Growth Project and Wellhead Pressure Management Project now producing, pushing H2S levels and mercaptan exposure that dictate material selection and every NDT technique used. Karachaganak Petroleum Operating (Shell, Eni, Chevron, Lukoil, KMG) handles the gas-condensate giant, while NCOC operates the massive offshore Kashagan field. The KazMunayGas-owned Atyrau Refinery, at around 110,000 barrels per day after its modernization, anchors downstream scope, and the CPC Atyrau pumping station feeds crude to Novorossiysk. Inspectors juggle API 510, 570 and 653 with adopted Kazakh ST RK and still-referenced Russian GOST 34347 pressure equipment rules, and NACE MR0175 sour-service compliance is non-negotiable. Atlantis NDT ERP brings API, GOST, ST RK and NACE records into one bilingual Russian-and-English Atyrau tenant.",
+    "integrationPainParagraph": "TCO, KPO and NCOC run SAP S/4HANA at the enterprise level with IBM Maximo for plant-floor work orders and Oracle EBS for finance, while KazMunayGas and the Atyrau Refinery run their own Maximo and SAP instances aligned with KMG group standards. Turnaround campaigns add Primavera P6 schedules from Worley, Fluor and Bonatti. NDT records, PAUT maps, H2S exposure logs and calibration data rarely cross these boundaries cleanly, and Kazakhstan's Ministry of Energy and Committee for Industrial Development audits surface the gap. Atlantis NDT ERP writes inspection findings into SAP PM notifications and Maximo work orders via REST, syncs turnaround hold-points with Primavera P6, and maintains ST RK, GOST and NACE MR0175 sour-service traceability so Kazakh regulator and JV partner submissions happen from one record in Russian and English.",
+    "remoteDeliveryPitch": "Atlantis deploys into Atyrau without flying consultants into Kazakhstan. Discovery runs entirely over Teams in Russian and English, SAP and Maximo connectors configure cleanly against a CIS sandbox tenant, and technicians train in recorded Russian-language sessions aligned to TCO, KPO and NCOC rotation schedules across the Caspian basin. Most Atyrau rollouts go live in 6 to 8 weeks, with dedicated hypercare timed around Tengiz and Karachaganak turnarounds.",
+    "featureBullets": [
+      "API 510/570/653 fitness-for-service engine tuned for sour gas H2S and mercaptan exposure",
+      "NACE MR0175 sour-service material traceability with H2S and CO2 exposure history",
+      "ST RK and GOST 34347 pressure equipment templates alongside ASME BPVC",
+      "Bilingual EN/RU technician UI, client portals and Kazakh regulator exports",
+      "Offshore Kashagan platform inspection templates under API 2SIM",
+      "Turnaround hold-point sync with Primavera P6 and SAP PM"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software works for Tengizchevroil and KPO in Atyrau?",
+        "a": "TCO and KPO contractors use NDT ERP platforms that enforce API 510, 570 and 653, NACE MR0175 sour-service traceability and Russian-language reporting alongside ST RK. Atlantis NDT ERP ships with those templates preloaded."
+      },
+      {
+        "q": "Does it handle sour gas H2S and mercaptan exposure tracking?",
+        "a": "Yes. Exposure history, IOW triggers and material hardness data are tracked against each asset so NACE MR0175 and Tengiz FGP sour service controls are audit-ready."
+      },
+      {
+        "q": "Is Russian-language reporting supported?",
+        "a": "Yes. Reports, client portals and technician UIs run fully in Russian and English, and Kazakh regulator exports follow ST RK formats."
+      },
+      {
+        "q": "Does it support GOST 34347 pressure equipment records?",
+        "a": "Yes. GOST 34347 templates run alongside ASME BPVC Section V and API 510 records, which is still common in Kazakh refining and petchem."
+      },
+      {
+        "q": "Can it handle Kashagan offshore platform inspection?",
+        "a": "Yes. API 2SIM offshore structural inspection and topsides piping workflows are supported for NCOC scope."
+      },
+      {
+        "q": "Does it integrate with SAP used by TCO and KMG?",
+        "a": "Yes. Inspection findings push into SAP PM notifications via REST matching the TCO, KPO, NCOC and KazMunayGas enterprise stacks."
+      },
+      {
+        "q": "How does it support the Atyrau Refinery turnarounds?",
+        "a": "API 510, 570 and 653 templates plus Primavera P6 hold-point sync cover KMG's modernized Atyrau Refinery turnaround schedule."
+      },
+      {
+        "q": "How long does implementation take in Atyrau?",
+        "a": "A typical Atyrau rollout takes 6 to 8 weeks remotely with Russian-English training and SAP, Maximo and P6 connectors configured during discovery."
+      }
+    ]
+  },
+  {
+    "slug": "perth",
+    "city": "Perth",
+    "state": "WA",
+    "country": "Australia",
+    "region": "APAC",
+    "industries": [
+      "lng",
+      "iron-ore",
+      "mining",
+      "offshore",
+      "oil-gas"
+    ],
+    "namedFacilities": [
+      "Woodside Energy Perth HQ (North West Shelf + Pluto LNG operator)",
+      "Chevron Australia Perth HQ (Gorgon + Wheatstone LNG operator)",
+      "Rio Tinto Iron Ore Perth Operations Centre",
+      "BHP WAIO Perth headquarters (Pilbara iron ore)",
+      "Fortescue Perth HQ (Pilbara iron ore + green energy)"
+    ],
+    "codes": [
+      "AS/NZS 3788",
+      "AS 4037",
+      "AS 3992",
+      "AS 1554",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Oracle EBS",
+      "Pronto Xi",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Perth NDT ERP | Woodside, Chevron, Rio Tinto, BHP, FMG",
+    "meta155": "Perth WA NDT ERP for NW Shelf LNG operator bases and Pilbara iron ore HQs: AS/NZS, API workflows wired to SAP, Maximo and Pronto. Remote deploy.",
+    "h1": "Perth NDT ERP Software — WA Operator Base Ready",
+    "localHook": "Perth is the corporate and inspection planning hub for Western Australia's entire resources sector. Woodside Energy runs the North West Shelf and Pluto LNG operations from Perth, Chevron Australia operates Gorgon and Wheatstone LNG from the same city, and Rio Tinto, BHP Western Australia Iron Ore and Fortescue Metals Group run their Pilbara iron ore empires through Perth operations centers with live mine control. Inspection scope flows back to Perth-based contractors: AS/NZS 3788 in-service pressure equipment inspection, AS 4037 boiler surveys, AS 3992 pressure equipment welder qualification, AS 1554 structural welding, plus API 510, 570 and 653 on LNG topsides and storage, with API 2SIM on Gorgon and Wheatstone jacket structures. Heavy mobile mining equipment MPI and UT at the Pilbara mines feeds back through Perth planning. Atlantis NDT ERP consolidates AS/NZS, API and ASME records into one Perth tenant ready for LNG and iron ore operator requirements.",
+    "integrationPainParagraph": "Woodside, Chevron and the iron ore majors run SAP S/4HANA at the enterprise level with IBM Maximo on LNG plants and at Pilbara mines, while mid-tier WA contractors and fabricators often run Pronto Xi for ERP. Turnaround and shutdown campaigns add Primavera P6 schedules from Monadelphous, Worley and UGL. NDT records, PAUT maps, calibration data and AS/NZS 3788 periodic inspection certificates rarely cross these boundaries cleanly, and WA DMIRS and NOPSEMA audits expose the gap. Atlantis NDT ERP writes inspection findings into SAP PM notifications and Maximo work orders via REST, pushes Pronto Xi updates for fabricators, syncs turnaround hold-points with Primavera P6 and maintains AS/NZS 3788 certificate registers so WA and offshore filings happen from one record.",
+    "remoteDeliveryPitch": "Atlantis deploys into Perth without flying consultants across to Western Australia. Discovery runs entirely over Teams, SAP, Maximo and Pronto Xi connectors configure cleanly against an APAC sandbox tenant, and technicians train in recorded AWST-scheduled sessions aligned to Pilbara FIFO rotations and Perth operations centre shifts. Most Perth rollouts go live in 5 to 7 weeks, with dedicated hypercare timed around Woodside, Chevron and iron ore major shutdown windows.",
+    "featureBullets": [
+      "AS/NZS 3788 in-service pressure equipment inspection certificate register",
+      "AS 3992 and AS 1554 welder qualification and weld inspection tracking",
+      "API 510/570/653 fitness-for-service engine for LNG topsides and storage",
+      "API 2SIM offshore jacket inspection templates for Gorgon and Wheatstone",
+      "Pronto Xi connector alongside SAP and Maximo for WA fabricators",
+      "NOPSEMA-ready offshore safety case inspection evidence exports"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used by WA LNG operators in Perth?",
+        "a": "Perth-based LNG operators use NDT ERP platforms that enforce AS/NZS 3788, API 510 and API 2SIM with SAP and Maximo integration. Atlantis NDT ERP ships with those templates for Woodside and Chevron scope."
+      },
+      {
+        "q": "Does it support AS/NZS 3788 periodic inspection certificates?",
+        "a": "Yes. The ERP maintains a full AS/NZS 3788 certificate register with expiry alerts and DMIRS-ready exports."
+      },
+      {
+        "q": "Can it integrate with Pronto Xi used by WA fabricators?",
+        "a": "Yes. A Pronto Xi connector sits alongside SAP and Maximo so mid-tier WA fabricators can push NDT data into their existing ERP."
+      },
+      {
+        "q": "How does it handle NOPSEMA offshore safety case evidence?",
+        "a": "Inspection results, personnel qualifications and integrity findings export in formats aligned to NOPSEMA safety case requirements for Gorgon, Wheatstone and NW Shelf."
+      },
+      {
+        "q": "Does it cover Pilbara iron ore mobile equipment NDT?",
+        "a": "Yes. Haul truck frame MPI, shovel UT, conveyor pulley inspection and tie-up record workflows are supported for Rio Tinto, BHP and FMG fleets."
+      },
+      {
+        "q": "Can it manage Gorgon and Wheatstone jacket inspections?",
+        "a": "Yes. API 2SIM and AS 3990 structural templates cover offshore jacket, riser and topsides inspection scope."
+      },
+      {
+        "q": "How does it integrate with SAP used by Woodside and Chevron?",
+        "a": "Inspection findings push into SAP PM notifications via REST matching the enterprise stacks of both operators."
+      },
+      {
+        "q": "How long does implementation take in Perth?",
+        "a": "A typical Perth rollout takes 5 to 7 weeks remotely with SAP, Maximo, Pronto Xi and Primavera P6 connectors and hypercare timed to WA shutdown windows."
+      }
+    ]
+  },
+  {
+    "slug": "gladstone",
+    "city": "Gladstone",
+    "state": "QLD",
+    "country": "Australia",
+    "region": "APAC",
+    "industries": [
+      "lng-export",
+      "port-ops",
+      "mining",
+      "petchem",
+      "pipelines"
+    ],
+    "namedFacilities": [
+      "GLNG — Santos Gladstone LNG (Curtis Island, 2 trains)",
+      "APLNG — ConocoPhillips/Origin/Sinopec Australia Pacific LNG (Curtis Island, 2 trains)",
+      "QCLNG — Shell Queensland Curtis LNG (Curtis Island, 2 trains)",
+      "Rio Tinto Yarwun Alumina Refinery (Gladstone)",
+      "Port of Gladstone (GPC — coal, alumina, LNG export)"
+    ],
+    "codes": [
+      "AS/NZS 3788",
+      "AS 4037",
+      "AS 3992",
+      "AS 1554",
+      "AS 2885 (gas pipelines)",
+      "API 510",
+      "API 570",
+      "API 653"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Pronto Xi",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Gladstone NDT ERP | GLNG, APLNG, QCLNG, Yarwun Alumina",
+    "meta155": "Gladstone QLD NDT ERP for Curtis Island CSG-LNG trains, Yarwun alumina and port export: AS/NZS, AS 2885, API workflows on SAP and Maximo.",
+    "h1": "Gladstone NDT ERP Software — Curtis Island LNG Ready",
+    "localHook": "Gladstone is the heart of Australia's coal-seam-gas-to-LNG export industry and one of the most inspection-intensive corners of Queensland. Three two-train LNG export complexes sit on Curtis Island: Santos-led GLNG, ConocoPhillips/Origin/Sinopec's APLNG, and Shell's QCLNG. Each draws CSG from the Surat and Bowen basins through AS 2885-governed long-distance gas transmission pipelines, conditions it, and exports it from Gladstone. Alongside LNG, Rio Tinto's Yarwun alumina refinery and Boyne Smelters drive heavy industrial scope, while the Port of Gladstone runs coal, alumina and LNG shipment through Gladstone Ports Corporation terminals. Inspectors work AS/NZS 3788 in-service pressure equipment inspection on LNG trains, AS 3992 weld inspection on cryogenic piping, AS 1554 structural welding at port infrastructure, AS 2885 on the upstream CSG gathering and transmission network, and API 510, 570 and 653 across topsides, process piping and tank bottoms. Atlantis NDT ERP consolidates AS/NZS, AS 2885, API and ASME records into one Gladstone tenant built for CSG-to-LNG integrated operations.",
+    "integrationPainParagraph": "Santos, Shell and ConocoPhillips-led JVs run SAP S/4HANA at the enterprise level with IBM Maximo on Curtis Island and at wellhead gathering, while Rio Tinto Yarwun runs its own Maximo and SAP combination and mid-tier Gladstone fabricators often run Pronto Xi. Turnaround and shutdown campaigns add Primavera P6 schedules from Monadelphous, UGL and Laing O'Rourke. NDT records, PAUT maps, AS 2885 pipeline ECA results and AS/NZS 3788 certificates rarely cross these boundaries cleanly, and Queensland Resources Safety and Health and NOPSEMA audits surface the gap. Atlantis NDT ERP writes inspection findings into SAP PM notifications and Maximo work orders via REST, syncs turnaround hold-points with Primavera P6 and maintains AS 2885 pipeline integrity registers so regulator and JV partner submissions happen from one record.",
+    "remoteDeliveryPitch": "Atlantis deploys into Gladstone without flying consultants into Queensland. Discovery runs entirely over Teams, SAP, Maximo and Pronto Xi connectors configure cleanly against an APAC sandbox tenant, and technicians train in recorded AEST-scheduled sessions aligned to Curtis Island shutdown windows and CSG field rotation schedules. Most Gladstone rollouts go live in 5 to 7 weeks, with dedicated hypercare timed around GLNG, APLNG and QCLNG train turnarounds.",
+    "featureBullets": [
+      "AS 2885-ready CSG gas transmission pipeline ECA, dig and repair tracking",
+      "AS/NZS 3788 in-service pressure equipment certificate register for LNG trains",
+      "Cryogenic piping AS 3992 weld inspection and PAUT workflows for Curtis Island",
+      "API 510/570/653 fitness-for-service engine for LNG topsides and storage",
+      "Yarwun alumina refinery high-temp caustic service inspection templates",
+      "Pronto Xi connector alongside SAP and Maximo for Gladstone fabricators"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used on Curtis Island LNG trains?",
+        "a": "Curtis Island operators use NDT ERP platforms that enforce AS/NZS 3788, AS 3992, AS 2885 and API 510 with SAP and Maximo integration. Atlantis NDT ERP ships with those templates for GLNG, APLNG and QCLNG scope."
+      },
+      {
+        "q": "Does it support AS 2885 CSG pipeline integrity?",
+        "a": "Yes. AS 2885 ECA, class location, dig, ILI correlation and repair records are maintained for the CSG gathering and transmission network feeding Curtis Island."
+      },
+      {
+        "q": "Can it handle cryogenic LNG piping inspection?",
+        "a": "Yes. AS 3992 weld inspection, PAUT and cold-box walkdown templates cover LNG train cryogenic scope."
+      },
+      {
+        "q": "Does it integrate with Pronto Xi used by QLD fabricators?",
+        "a": "Yes. A Pronto Xi connector sits alongside SAP and Maximo for mid-tier Gladstone fabricators serving LNG and port scope."
+      },
+      {
+        "q": "How does it handle Yarwun alumina high-temp caustic service?",
+        "a": "Templates cover caustic cracking, thickness monitoring and KOH service considerations for alumina refinery pressure equipment."
+      },
+      {
+        "q": "Can it support Gladstone Ports Corporation terminal inspections?",
+        "a": "Yes. Coal, alumina and LNG terminal structural, MPI and UT inspection workflows are supported under AS 1554 and AS 3990 references."
+      },
+      {
+        "q": "How does it integrate with SAP used by Santos and Shell?",
+        "a": "Inspection findings push into SAP PM notifications via REST matching the enterprise stacks of Santos, Shell and ConocoPhillips JVs."
+      },
+      {
+        "q": "How long does implementation take in Gladstone?",
+        "a": "A typical Gladstone rollout takes 5 to 7 weeks remotely with SAP, Maximo, Pronto Xi and Primavera P6 connectors and hypercare timed to Curtis Island shutdowns."
+      }
+    ]
+  },
+  {
+    "slug": "durban",
+    "city": "Durban",
+    "state": "KZN",
+    "country": "South Africa",
+    "region": "Africa",
+    "industries": [
+      "refining",
+      "petchem",
+      "port-ops",
+      "pipelines",
+      "oil-gas"
+    ],
+    "namedFacilities": [
+      "Engen Durban Refinery (South Durban basin, under restart/rebuild)",
+      "SAPREF Refinery (Shell/BP JV, Prospecton — repurposing/terminal transition)",
+      "Port of Durban (TNPA — Africa's busiest container port)",
+      "Transnet Multi-Product Pipeline (NMPP) Durban inlet",
+      "Island View petrochemical terminals (Bidvest Tank Terminals, Vopak)"
+    ],
+    "codes": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME BPVC Section V",
+      "SANS 347",
+      "SANS 10227",
+      "OHSA PER directives"
+    ],
+    "integrationStacks": [
+      "SAP S/4HANA",
+      "IBM Maximo",
+      "Pragma on-demand",
+      "Oracle EBS",
+      "Primavera P6"
+    ],
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "title60": "Durban NDT ERP Software | Engen, SAPREF, TNPA, NMPP",
+    "meta155": "Durban NDT ERP for South Durban refining basin, TNPA port, NMPP pipeline and Island View terminals: API, SANS workflows on SAP, Maximo, Pragma.",
+    "h1": "Durban NDT ERP Software — KZN Refining and Port Corridor",
+    "localHook": "Durban is South Africa's densest downstream and port inspection corridor, even as the refining picture has shifted in recent years. The Engen Durban Refinery, idled after the 2020 fire, has been undergoing a staged restart and terminal-focused rebuild, while SAPREF — the Shell and BP joint venture at Prospecton — has transitioned toward a storage and import-terminal role as Shell and BP exited operations. Both still drive heavy mechanical integrity scope in the South Durban basin alongside the Island View petrochemical terminals run by Bidvest Tank Terminals, Vopak and others. The Port of Durban, operated by TNPA, remains Africa's busiest container port, and the Transnet New Multi-Product Pipeline enters Durban from Johannesburg. Inspectors work API 510 pressure vessels, API 570 process piping, API 653 tank bottoms across Island View and refinery storage, ASME BPVC Section V technique work, and SANS 347 and SANS 10227 local pressure equipment rules under OHSA PER directives. Atlantis NDT ERP consolidates API, ASME and SANS records into one KZN-ready tenant.",
+    "integrationPainParagraph": "Engen, the SAPREF successor entity, Transnet and Island View operators run SAP S/4HANA at the enterprise level with IBM Maximo for plant-floor work orders and Oracle EBS for finance, while mid-tier South African asset owners commonly use Pragma on-demand for asset management. Turnaround and terminal rebuild campaigns add Primavera P6 schedules from local EPC houses and Worley. NDT records, PAUT maps, SANS 347 pressure equipment certificates and calibration data rarely cross these boundaries cleanly, and DEL and NERSA audits expose the gap. Atlantis NDT ERP writes inspection findings into SAP PM notifications, Maximo work orders and Pragma on-demand records via REST, syncs turnaround hold-points with Primavera P6 and maintains SANS 347 certificate registers so OHSA PER and client submissions happen from one record.",
+    "remoteDeliveryPitch": "Atlantis deploys into Durban without flying consultants into KZN. Discovery runs over Teams, SAP, Maximo and Pragma on-demand connectors configure against an Africa sandbox, and technicians train in recorded SAST-scheduled sessions aligned to Island View and refinery rebuild windows. Most Durban rollouts go live in 5 to 7 weeks, with hypercare timed around Engen restart and SAPREF terminal transition campaigns.",
+    "featureBullets": [
+      "API 510/570/653 fitness-for-service engine with SANS 347 certificate tracking",
+      "SANS 10227 welder qualification and weld inspection records",
+      "Pragma on-demand connector alongside SAP and Maximo for SA asset owners",
+      "Island View terminal cryogenic and product storage inspection templates",
+      "NMPP multi-product pipeline integrity tracking with Transnet inlet workflows",
+      "OHSA PER-ready pressure equipment inspection evidence exports"
+    ],
+    "paaQuestions": [
+      {
+        "q": "What NDT ERP software is used in Durban's refining and terminal sector?",
+        "a": "Durban operators use NDT ERP platforms that enforce API 510, 570 and 653 alongside SANS 347 and SANS 10227 with SAP, Maximo and Pragma on-demand integration. Atlantis NDT ERP ships with those templates preloaded."
+      },
+      {
+        "q": "Does it support SANS 347 pressure equipment certificates?",
+        "a": "Yes. SANS 347 certificate registers with expiry alerts and OHSA PER-ready exports are maintained against each asset."
+      },
+      {
+        "q": "Can it integrate with Pragma on-demand used by SA asset owners?",
+        "a": "Yes. A Pragma on-demand connector sits alongside SAP and Maximo so South African mid-tier owners can push NDT data into their existing asset register."
+      },
+      {
+        "q": "How does it handle the Engen refinery restart scope?",
+        "a": "Restart mechanical completion, tightness testing and SANS 347 certification workflows are supported alongside API 510 and 570 templates."
+      },
+      {
+        "q": "Can it manage SAPREF terminal transition inspections?",
+        "a": "Yes. API 653 tank bottoms, repurposing fit-for-purpose assessments and terminal integrity records are maintained for the Prospecton site."
+      },
+      {
+        "q": "Does it cover NMPP Transnet pipeline records?",
+        "a": "Yes. Pipeline ILI correlation, dig sheets and repair tracking are supported for the Transnet New Multi-Product Pipeline Durban inlet."
+      },
+      {
+        "q": "How does it support Island View petrochemical terminals?",
+        "a": "Bidvest Tank Terminals, Vopak and similar operators get API 653 tank bottom, API 570 piping and loading arm inspection templates preconfigured."
+      },
+      {
+        "q": "How long does implementation take in Durban?",
+        "a": "A typical Durban rollout takes 5 to 7 weeks remotely with SAP, Maximo, Pragma on-demand and Primavera P6 connectors and hypercare timed to Engen and SAPREF campaigns."
+      }
+    ]
+  }
+]

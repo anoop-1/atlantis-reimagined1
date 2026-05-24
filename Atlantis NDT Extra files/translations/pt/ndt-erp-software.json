@@ -1,0 +1,101 @@
+{
+  "lang": "pt",
+  "route": "/pt/ndt-erp-software",
+  "title60": "Software ERP de END 2026 | Personalizável por Indústria",
+  "meta155": "Software ERP para Ensaios Não Destrutivos (END) integrado ao SAP e Maximo. Implantação remota em 30 dias com supervisão de Inspetor Nível III.",
+  "h1": "Software ERP para END — Personalizável para Todas as Indústrias",
+  "heroLead": "A Atlantis oferece um software ERP especializado em Ensaios Não Destrutivos (END) que unifica a inspeção de campo, a gestão de integridade e o fluxo de ordens de serviço em uma única plataforma. A solução se integra nativamente ao SAP PM, IBM Maximo e Meridium, respeita os códigos API, ASME e ISO 9712, e é implementada de forma 100% remota em 30 dias sob a supervisão de um Inspetor Nível III. Foi projetada para refinarias, petroquímicas, plantas de GNL, aeroespacial, estaleiros e operadores de dutos que precisam de rastreabilidade auditável sem consultores em campo.",
+  "sections": [
+    {
+      "heading": "O que significa integrar END a um ERP",
+      "body": "Integrar os Ensaios Não Destrutivos (END) a um ERP significa que cada leitura de espessura, cada varredura PAUT, cada radiografia e cada indicação fica vinculada de forma estruturada ao ativo, ao circuito de inspeção, ao centro de custo e à ordem de serviço correspondente. Em vez de viver em planilhas, discos compartilhados ou portais do fabricante do scanner, os achados de campo são registrados uma única vez e fluem para o SAP PM ou Maximo para fechar o ciclo de manutenção, para o Meridium ou APM para alimentar o modelo de inspeção baseada em risco (RBI), e para o dossiê de auditoria do cliente. Essa integração é a diferença entre ter dados de inspeção e ter um programa de gestão de integridade que sobrevive a uma auditoria regulatória sem reconciliações manuais."
+    },
+    {
+      "heading": "Integração com SAP PM, Maximo e Meridium",
+      "body": "A Atlantis se conecta ao SAP PM e SAP QM por meio de interfaces BAPI e OData, ao IBM Maximo e Maximo APM pelos serviços REST e MIF padrão, e ao Meridium e Bentley AssetWise no nível de ativo, CML e cálculo RBI. A integração opera na versão atual do ERP do cliente, sem exigir uma atualização. Os conectores são bidirecionais: as ordens de serviço descem do ERP para o técnico de campo, e os resultados de END sobem para o sistema de registro com rastreabilidade completa ao número de série, ao procedimento qualificado e ao certificado do inspetor. Clientes que operam arquiteturas duais (por exemplo Hexagon EAM junto com SAP PM em refinarias de grande porte) recebem um modo de conector duplo que sincroniza os achados para ambos os sistemas sem duplicar a captura."
+    },
+    {
+      "heading": "Implantação remota em 30 dias",
+      "body": "A Atlantis executa a implantação do ERP de END de forma 100% remota, sem pessoal em campo e sem atrasos por gestão de acessos ou credenciais de planta. Nos dias 1-30 configura-se o modelo de dados contra os códigos aplicáveis (API 510/570/580/653, ASME V/VIII/B31.3, NFPA 59A, ISO 9712 ou outros), carregam-se os procedimentos qualificados pelo Inspetor Nível III e executa-se um piloto sobre uma unidade, um tanque ou um trecho de tubulação. Nos dias 31-60 o sistema é integrado ao SAP PM, Maximo ou EAM existente e os dados históricos de espessura e CML são migrados. Nos dias 61-90 valida-se o fluxo completo de dados até o motor de adequação ao serviço e transfere-se o controle operacional à equipe de integridade do cliente. Todo o ciclo é executado por VPN segura."
+    },
+    {
+      "heading": "Indústrias atendidas",
+      "body": "A Atlantis atende refinarias e complexos petroquímicos no Golfo do México norte-americano, México, Colômbia e Argentina; terminais de GNL em comissionamento e operação; operadores de dutos sujeitos à PHMSA 49 CFR 192/195 e regulamentações equivalentes na América Latina; operações offshore sob supervisão BSEE; estaleiros com classificação ABS e DNV; plantas de fabricação aeroespacial sob AS9100 e Nadcap AC7114/AC7006; plantas de semicondutores com requisitos SEMI F19/F20; geração nuclear sob ASME Seção XI e 10 CFR 50 Apêndice B; e dispositivos médicos sob 21 CFR Parte 820. Cada indústria recebe uma biblioteca de procedimentos já qualificada, não uma configuração em branco."
+    },
+    {
+      "heading": "Códigos e normas suportados",
+      "body": "O sistema suporta nativamente os códigos mais exigentes de inspeção em serviço e fabricação: API 510 (vasos de pressão), API 570 (tubulações de processo), API 580/581 (inspeção baseada em risco), API 625 (tanques refrigerados e criogênicos), API 653 (tanques atmosféricos), API 1104 (solda de dutos), ASME Seção V (métodos de END), ASME Seção VIII (construção de vasos), ASME B31.3/B31.4/B31.8 (tubulações), ASME Seção XI (inspeção em serviço nuclear), NFPA 59A (instalações de GNL), PHMSA 49 CFR 192/195, AWS D1.1 e D17.1, NAS 410, Nadcap AC7114 e AC7006, AMS 2175, MIL-STD-1907 e MIL-STD-2219, ISO 9712 para qualificação de pessoal e 21 CFR Parte 11/820 para dispositivos médicos. A lógica de intervalos e as regras de retenção documental são aplicadas automaticamente por código."
+    },
+    {
+      "heading": "Supervisão de Inspetor Nível III",
+      "body": "Cada implantação da Atlantis leva a assinatura de um Inspetor Nível III certificado sob ASNT ou equivalente ISO 9712. A biblioteca de procedimentos, a qualificação do pessoal Nível II, a validação do modelo de dados contra os códigos aplicáveis e a revisão de indicações críticas passam pela assinatura eletrônica do Nível III antes de serem consideradas fechadas. Para operadores que não possuem um Nível III interno dedicado, a Atlantis oferece a supervisão Nível III remota como serviço permanente, com rastreabilidade auditável de cada assinatura ao número de certificado e data de validade. Isso fecha uma lacuna comum em empresas de médio porte que antes dependiam de consultorias externas visitando o local."
+    },
+    {
+      "heading": "Personalização para cada cliente",
+      "body": "O ERP de END é personalizável no modelo de dados, na hierarquia de ativos, nos modelos de relatório, nos fluxos de aprovação e nos conectores ao ERP corporativo. A Atlantis não oferece um produto com configuração fixa: cada cliente recebe procedimentos qualificados contra suas próprias especificações corporativas (por exemplo as normas internas da Petrobras, ExxonMobil, Shell ou YPF sobre os modelos base de API e ASME). Os painéis gerenciais são montados por tipo de ativo, unidade operativa ou país, e os relatórios regulatórios são exportados nos formatos exatos que o regulador estadual, a PHMSA, a ANP no Brasil ou a CNH no México exigem. A personalização faz parte do escopo fixo da implantação, não é um custo adicional."
+    },
+    {
+      "heading": "Entrega remota e sem viagens",
+      "body": "A Atlantis entrega cada projeto sem consultores em campo. As sessões de configuração, treinamento, migração de dados históricos e validação de interfaces são realizadas por videoconferência e VPN segura. Os inspetores Nível II do cliente recebem treinamento remoto sobre a captura de dados em tablet, com modo offline para unidades de processo onde não há cobertura celular nem WiFi. Os inspetores Nível III do cliente, ou os Nível III da Atlantis em modalidade de serviço, revisam e assinam indicações críticas de qualquer localização. O modelo remoto elimina as despesas de viagem, os atrasos de credenciais de planta e os tempos de espera por acessos de segurança, e permite iniciar a implantação no dia em que o contrato é assinado."
+    },
+    {
+      "heading": "Casos de sucesso e evidência de clientes",
+      "body": "Clientes em refinarias do Golfo do México, plantas de GNL em fase de comissionamento, operadores de dutos na América Latina e fabricantes aeroespaciais com certificação Nadcap já implantaram a Atlantis nos ciclos de 30/60/90 dias descritos. Os resultados típicos incluem a eliminação da reentrada manual de dados entre o técnico de campo e o engenheiro de integridade, a detecção precoce de violações à espessura mínima (T-min) antes que escalem para falha, a preparação de pacotes de auditoria regulatória em horas em vez de semanas, e o cumprimento contínuo dos intervalos API sem escalações de última hora. A Atlantis compartilha referências verificáveis sob acordo de confidencialidade durante o processo de seleção."
+    }
+  ],
+  "featureBullets": [
+    "Integração nativa com SAP PM, Maximo, Meridium e Bentley AssetWise via REST, BAPI, OData e MIF",
+    "Biblioteca de procedimentos qualificada contra API 510/570/580/625/653, ASME V/VIII/B31.3, NFPA 59A, Nadcap AC7114/AC7006 e ASME Seção XI",
+    "Implantação 100% remota em 30/60/90 dias sob supervisão de Inspetor Nível III",
+    "Registro unificado de certificações do pessoal com bloqueio automático ao atribuir ordens de serviço por método e código",
+    "Captura de dados em campo via tablet em modo offline com sincronização automática ao retornar à cobertura",
+    "Interface bilíngue inglês/português com relatórios assinados eletronicamente no idioma do operador"
+  ],
+  "paaQuestions": [
+    {
+      "q": "O que é um software ERP para END?",
+      "a": "Um software ERP para END é uma plataforma que integra a captura de dados de Ensaios Não Destrutivos (END) com a gestão de ativos, ordens de serviço, certificações do pessoal e o modelo de inspeção baseada em risco em um sistema único e auditável. Substitui as planilhas, os discos compartilhados e os portais isolados do fabricante do scanner. Conecta-se ao ERP corporativo (SAP PM, Maximo, Oracle EAM) para fechar o ciclo entre o achado de campo e a ordem de serviço."
+    },
+    {
+      "q": "Quanto custa um software ERP para END?",
+      "a": "O preço anual típico varia entre 60.000 e 300.000 dólares dependendo da quantidade de ativos, usuários e escopo de integração. A Atlantis cota contra o tamanho do ERP existente, não por assento, porque o uso do inspetor é concentrado durante paradas de planta. Uma implantação de planta única para refinaria ou aeroespacial fica entre 85.000 e 160.000 dólares anuais. O piloto de 30 dias tem preço fixo e é creditado contra a assinatura anual se o cliente avançar."
+    },
+    {
+      "q": "O ERP de END integra-se ao SAP e Maximo?",
+      "a": "Sim, a Atlantis integra-se nativamente ao SAP PM/QM e ao IBM Maximo e Maximo APM. A conexão é feita via BAPI, OData, REST e MIF nos níveis de aviso, ordem de serviço, hierarquia de ativos, ponto de monitoramento de condição e lote de inspeção. A integração é bidirecional, opera na versão atual do ERP sem exigir atualização, e elimina a reentrada manual entre o técnico de END e o planejador de manutenção."
+    },
+    {
+      "q": "Quanto tempo leva a implantação do ERP de END?",
+      "a": "O ciclo padrão é de 30/60/90 dias. Os primeiros 30 dias cobrem a configuração contra os códigos aplicáveis e um piloto sobre um ativo representativo. Os dias 31-60 integram o sistema ao SAP PM ou Maximo. Os dias 61-90 migram os dados históricos de inspeção e transferem o controle operacional à equipe de integridade. Todo o ciclo é executado de forma remota, sem viagens nem pessoal em campo."
+    },
+    {
+      "q": "A Atlantis exige pessoal em campo para implementar?",
+      "a": "Não, a Atlantis não exige pessoal em campo. Toda a configuração, integração, treinamento e validação é realizada de forma remota por VPN segura e videoconferência. Os inspetores Nível II do cliente capturam dados em campo com tablets e os Inspetores Nível III (do cliente ou da Atlantis) revisam indicações críticas de qualquer localização. O modelo remoto elimina despesas de viagem e tempos de espera por credenciais de planta."
+    },
+    {
+      "q": "Que códigos de inspeção o sistema suporta?",
+      "a": "Suporta nativamente API 510, 570, 580, 625, 653 e 1104; ASME Seção V, Seção VIII, Seção XI e B31.3/B31.4/B31.8; NFPA 59A para instalações de GNL; PHMSA 49 CFR 192 e 195 para dutos; AWS D1.1 e D17.1; NAS 410 e Nadcap AC7114/AC7006 para aeroespacial; ISO 9712 para qualificação de pessoal; e 21 CFR Parte 11/820 para dispositivos médicos. A lógica de intervalos e a retenção documental são aplicadas automaticamente por código."
+    },
+    {
+      "q": "O sistema gerencia a certificação do pessoal?",
+      "a": "Sim, o sistema mantém um registro por pessoa e por método de todas as certificações vigentes, incluindo ASNT Nível I/II/III, ISO 9712, NAS 410, endossos API 510/570/653 e autorizações específicas do cliente. O despacho de ordens de serviço é bloqueado automaticamente se a certificação requerida estiver vencida. Os alertas de renovação disparam a 90, 60 e 30 dias antes do vencimento, eliminando a dependência da planilha paralela que costuma ficar desatualizada entre auditorias."
+    },
+    {
+      "q": "O ERP de END funciona sem conexão em campo?",
+      "a": "Sim, o aplicativo de campo opera em modo offline no tablet do inspetor dentro de unidades de processo onde não há cobertura celular nem WiFi. As leituras de espessura, importações de varreduras UT/PAUT, achados visuais e fotografias são capturados localmente e sincronizados ao ERP quando o dispositivo recupera cobertura. Cada captura fica selada com data, hora e o número de certificado do inspetor no momento da coleta."
+    },
+    {
+      "q": "Que indústrias a Atlantis atende?",
+      "a": "A Atlantis atende refinarias, petroquímicas, terminais de GNL, operadores de dutos, plataformas offshore, estaleiros, manufatura aeroespacial, fábricas de semicondutores, geração nuclear e dispositivos médicos. Cada indústria recebe uma biblioteca de procedimentos já qualificada contra os códigos aplicáveis, e a configuração é ajustada às especificações corporativas do cliente sem custo adicional dentro do escopo de implantação."
+    },
+    {
+      "q": "A Atlantis oferece suporte em português?",
+      "a": "Sim, a Atlantis oferece interface bilíngue inglês/português, relatórios assinados no idioma do operador, treinamento remoto em português para equipes do Brasil e de mercados lusófonos, e suporte técnico em português. Os códigos e referências regulatórias são mantidos em seu idioma canônico (por exemplo API 510 ou ASME Seção V) para preservar o valor legal do documento durante uma auditoria."
+    }
+  ],
+  "cta": {
+    "heading": "Agende uma demonstração do ERP de END",
+    "body": "Solicite uma demonstração remota de 45 minutos para ver o modelo de dados aplicado à sua indústria, os conectores ao SAP PM ou Maximo já funcionando, e a biblioteca de procedimentos qualificada por Inspetor Nível III. O piloto de 30 dias tem preço fixo e é creditado contra a assinatura anual.",
+    "buttonText": "Agendar uma demonstração"
+  }
+}

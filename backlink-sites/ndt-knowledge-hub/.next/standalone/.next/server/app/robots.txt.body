@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://ndt-knowledge-hub.vercel.app/sitemap.xml

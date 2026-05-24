@@ -1,0 +1,1 @@
+import{j as i}from"./compare-pages-C1d7etmC.js";import{D as t}from"./DigitalTwinLocationPage-mFnkvcfO.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function p(){return i.jsx(t,{city:"Aberdeen",country:"UK",slug:"digital-twin-aberdeen"})}export{p as default};

@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "dallas",
+  "route": "/es/ndt-erp-dallas",
+  "canonicalEnRoute": "/ndt-erp-dallas",
+  "title60": "Software ERP NDT Dallas 2026 | Aeroespacial y Ductos",
+  "meta155": "ERP NDT para MRO aeroespacial de Dallas y operaciones de ductos de Atmos — Nadcap AC7114, ASME V, PHMSA 49 CFR 192, despliegue remoto 30/60/90.",
+  "h1": "Software ERP NDT Dallas — Personalizable para Todas las Industrias",
+  "localHook": "Dallas-Fort Worth es la capital aeroespacial y de defensa de Texas, con un perfil NDT muy distinto del Golfo de México. Lockheed Martin Aeronautics en Fort Worth opera la línea del F-35, Raytheon Technologies trabaja en McKinney y Bell Textron fabrica aeronaves de ala rotatoria en Hurst. Esto significa que el régimen de inspección dominante es AMS 2175, NAS 410 y Nadcap AC7114 para examinación por líquidos penetrantes, partículas magnéticas, ultrasonido y radiografía sobre estructura primaria aeroespacial —no el trabajo API de refinería. En el área metropolitana, Atmos Energy opera una importante red de transmisión y distribución de gas natural que suma trabajo de integridad de ductos bajo ASME B31.8 y PHMSA 49 CFR 192, y el Aeropuerto Internacional de DFW impulsa demanda continua de MRO aeroespacial. Esta configuración —auditorías Nadcap estrictas, registros NDT a nivel de viajero (traveler) y un programa paralelo de integridad de ductos— genera un perfil de dolor ERP-inspección donde la trazabilidad y la granularidad de certificación, no el volumen, son lo primero que se rompe.",
+  "integrationPainParagraph": "SAP PM opera producción y mantenimiento en Lockheed Martin Fort Worth y en primes aeroespaciales Tier-1 similares del metroplex, y Maximo gobierna el lado de ductos en Atmos Energy. Los datos NDT intermedios —registros Nadcap AC7114 de penetrantes y partículas magnéticas, películas e imágenes radiográficas digitales, A-scans UT vinculados a números de serie específicos, registros de certificación de inspector según AMS 2175 y NAS 410— viven en silos dispersos entre discos compartidos de QA, herramientas de proveedores de escáneres y viajeros en papel. El vencimiento de certificaciones se rastrea manualmente. El tiempo de entrega de reporte sobre un hallazgo relevante para Nadcap puede demorar días cuando un auditor lo quiere en minutos. El flujo PAUT campo-ingeniero se fragmenta en cada cambio de turno.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III, con biblioteca de procedimientos consciente de Nadcap. Ejecutamos un piloto de 30 días sobre un solo programa o distrito de ducto del área de Dallas, una fase de integración de 60 días que conecta la capa NDT a su instancia SAP PM o Maximo, y un corte total a 90 días. Sin viajes. Cada despliegue se entrega con firma Nivel III y pista de auditoría rastreable a AMS 2175, NAS 410 y Nadcap AC7114.",
+  "featureBullets": [
+    "Captura de pista de auditoría Nadcap AC7114 para PT/MT/UT/RT sobre estructura primaria aeroespacial en programas de Lockheed Martin y Bell Textron — cada indicación ligada a un número de serie de parte y viajero.",
+    "Clasificación AMS 2175 y bloqueo de certificación de inspector NAS 410 aplicado en el despacho de orden de trabajo, con alertas de renovación a 90/60/30 días.",
+    "Flujo de integridad de ductos de gas ASME B31.8 dimensionado para la huella de distribución y transmisión de Atmos Energy en Dallas.",
+    "Retención de registros PHMSA 49 CFR 192 con exportación lista para auditoría, cubriendo el calendario completo de registros del programa de gestión de integridad de ductos.",
+    "Archivo de imagen de radiografía digital con metadatos compatibles DICOM, enlazado directamente a la orden de trabajo SAP PM.",
+    "Seguimiento de doble certificación de inspector para inspectores aeroespaciales y de ductos a la vez — estatus de endoso separado por familia de código, sin contaminación cruzada en el despacho de órdenes de trabajo."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Cuánto cuesta un ERP NDT para aeroespacial?",
+      "a": "El ERP NDT aeroespacial para un programa Tier-1 de Dallas-Fort Worth típicamente va de 90.000 a 300.000 dólares anuales según la cantidad de programas, el alcance Nadcap y la integración con SAP PM. Atlantis cotiza contra la huella existente del ERP, no por asiento, porque el uso del inspector se concentra en ciclos de construcción y MRO. Un despliegue de un solo programa que cubra Nadcap AC7114 PT/MT/UT/RT se ubica alrededor de 110.000 a 160.000 dólares anuales. Los despliegues multi-programa a escala de Lockheed Martin o Raytheon se ubican más arriba. El piloto de 30 días tiene precio fijo y se acredita contra la anualidad."
+    },
+    {
+      "q": "¿Es el software ERP NDT compatible con Nadcap?",
+      "a": "Sí — Atlantis ERP NDT está construido bajo los requisitos de pista de auditoría Nadcap AC7114 para examinación por penetrantes, partículas magnéticas, ultrasonido y radiografía. Cada indicación queda vinculada al número de serie de parte, viajero, número de certificación del inspector, revisión de procedimiento y registro de calibración de equipo al momento de la captura. La exportación de auditoría se alinea con la lista de verificación del auditor Nadcap por defecto. Para primes aeroespaciales del área de Dallas y sus proveedores NDT de segundo nivel, el sistema pasa la reacreditación Nadcap sin requerir recopilación de datos aparte."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con SAP PM?",
+      "a": "Sí — Atlantis ERP NDT se integra con SAP PM y SAP QM mediante interfaces BAPI y OData estándar. En los despliegues aeroespaciales de Dallas conectamos al nivel de aviso, orden de trabajo, equipo y lote de inspección, de forma que los registros NDT Nadcap AC7114 y los hallazgos sobre estructura primaria aeroespacial en Atlantis permanecen sincronizados con el flujo de producción y mantenimiento SAP PM/QM. Sin doble carga. Los despliegues de ductos en Atmos Energy usan el mismo patrón de conector contra su instancia SAP."
+    },
+    {
+      "q": "¿Qué software NDT usan las empresas aeroespaciales?",
+      "a": "Los OEM aeroespaciales y sus proveedores certificados Nadcap típicamente operan una combinación de SAP QM para el lote de calidad del lado ERP y un sistema NDT dedicado para el registro real a nivel de indicación. Atlantis cumple el rol de NDT dedicado, con un modelo de datos construido alrededor de AMS 2175, NAS 410 y Nadcap AC7114 desde el primer día. Para operaciones de Dallas-Fort Worth el sistema maneja la trazabilidad por número de serie a escala F-35 sin requerir un desarrollo a medida. La firma Inspector ASNT Nivel III es parte de la entrega, no un servicio aparte."
+    },
+    {
+      "q": "¿Cómo rastrea las certificaciones del inspector en NDT aeroespacial?",
+      "a": "Atlantis ERP NDT rastrea las certificaciones del inspector aeroespacial por persona y por método, incluyendo NAS 410 Nivel I/II/III, equivalencia ASNT, Carta de Delegación específica del cliente y autorización Supplier Reference de Nadcap. El despacho de orden de trabajo se condiciona a la certificación vigente: un Nivel II de penetrantes vencido no puede ser asignado a un escaneo PT sobre una parte crítica para la seguridad de vuelo. Las alertas de renovación se disparan a 90, 60 y 30 días antes. Para primes aeroespaciales de Dallas que operan decenas de programas con requisitos de certificación superpuestos, esto reemplaza la hoja de cálculo que se desactualiza en silencio entre auditorías Nadcap."
+    },
+    {
+      "q": "¿Puede el ERP NDT manejar radiografía digital?",
+      "a": "Sí — Atlantis ERP NDT ingesta imágenes de radiografía digital con metadatos compatibles DICOM, enlaza cada imagen al número de serie de parte y al viajero, y las retiene según el calendario AMS 2175 y el específico de programa. Para el trabajo MRO aeroespacial del área de Dallas en DFW e instalaciones de primes Tier-1, el archivo reemplaza la biblioteca de películas en disco compartido típica en proveedores NDT de segundo nivel. Las imágenes se pueden recuperar por número de serie, programa, inspector o rango de fechas en segundos durante una auditoría Nadcap."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación del ERP NDT aeroespacial?",
+      "a": "Atlantis ERP NDT se implementa en 30/60/90 días para un programa aeroespacial del área de Dallas. El piloto corre sobre un solo programa o celda para validar el modelo de datos contra AMS 2175 y Nadcap AC7114. La integración conecta el sistema al SAP PM/QM existente. El corte migra los registros NDT históricos, incluidas las imágenes radiográficas archivadas, y entrega el control operacional a su equipo Nivel III y de QA. El tiempo total es 90 días desde contrato a producción plena. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Soporta el ERP NDT la gestión de integridad de ductos?",
+      "a": "Sí — Atlantis ERP NDT soporta los flujos de gestión de integridad de ductos bajo PHMSA 49 CFR 192 y 49 CFR 195 junto con NDT aeroespacial. Para operaciones de Dallas donde la transmisión de gas natural de Atmos Energy se superpone a la base aeroespacial, el sistema corre ambas familias de códigos en paralelo sin contaminación cruzada. Los registros de ductos de gas ASME B31.8 y de líquidos B31.4, la ingesta de datos ILI y los hallazgos de examinación directa son nativos. La exportación de auditoría se alinea con las plantillas del inspector PHMSA por defecto."
+    }
+  ]
+}

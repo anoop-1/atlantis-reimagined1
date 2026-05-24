@@ -1,0 +1,1 @@
+import{j as i}from"./compare-pages-C1d7etmC.js";import{D as o}from"./DigitalTwinLocationPage-mFnkvcfO.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function p(){return i.jsx(o,{city:"São Paulo",country:"Brazil",slug:"digital-twin-sao-paulo"})}export{p as default};

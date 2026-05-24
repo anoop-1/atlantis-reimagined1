@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "miami",
+  "route": "/es/ndt-erp-miami",
+  "canonicalEnRoute": "/ndt-erp-miami",
+  "title60": "ERP NDT Miami FL | Puerto, Nuclear y Dispositivos",
+  "meta155": "ERP NDT Miami bilingüe en y es para nuclear Turkey Point, dispositivos médicos Baxter Medley y PortMiami — ASME XI, 10 CFR 50B, 21 CFR 820.",
+  "h1": "Software ERP NDT para Inspección de Puerto, Nuclear y Dispositivos Médicos en Miami",
+  "localHook": "La huella de inspección de industria pesada de Miami es más pequeña que lo que sugiere su horizonte urbano, pero el trabajo que existe es de alta consecuencia. La Planta Nuclear Turkey Point de FPL en Homestead opera las Unidades 3 y 4 bajo una renovación de licencia subsiguiente aprobada por la NRC, lo que requiere inspección en servicio continua bajo ASME Sección XI y controles de calidad 10 CFR 50 Apéndice B. La planta Medley de Baxter Healthcare fabrica soluciones intravenosas bajo las reglas de calidad de dispositivos de la FDA 21 CFR Parte 820, impulsando inspección de soldadura y recipientes en skids de proceso. PortMiami opera grúas de terminal e infraestructura de búnker que necesitan integridad de soldadura estructural bajo AWS D1.1 y auditorías de recipientes API 510 sobre almacenamiento de combustible. La base de inspectores es profundamente bilingüe —el español es el idioma de trabajo en muchas cuadrillas portuarias— por lo que la paridad en y es es una línea base, no una mejora.",
+  "integrationPainParagraph": "FPL y NextEra operan GE APM y Maximo en Turkey Point y St. Lucie, Baxter Medley funciona sobre SAP S/4HANA con firmas electrónicas 21 CFR Parte 820, y los contratistas de PortMiami usan Oracle EBS o herramientas puntuales para trabajo de instalaciones. Los datos de inspección rara vez cruzan entre estos sistemas en una forma utilizable. Atlantis ERP NDT se ubica en el medio: recibe órdenes de trabajo, captura evidencia ASME XI, B31.3 o AWS D1.1 en español o inglés, y devuelve reportes firmados y datos de indicación al sistema de registro de forma que los equipos de parada y auditoría vean historiales completos.",
+  "remoteDeliveryPitch": "Atlantis entrega de forma remota desde la sede: interfaz bilingüe en y es para las cuadrillas de Miami, controles documentales ASME XI y 10 CFR 50B para los proveedores de Turkey Point, flujos 21 CFR Parte 820 para Baxter Medley y conectores completos a Maximo, SAP y GE APM — sin presencia en sitio requerida.",
+  "featureBullets": [
+    "Módulo de inspección en servicio ASME Sección XI para las Unidades 3 y 4 de Turkey Point con controles 10 CFR 50 Apéndice B.",
+    "Inspección de skids de proceso de Baxter Healthcare Medley alineada a ASME B31.3 y 21 CFR Parte 820.",
+    "Flujo de inspección de soldadura estructural y de grúas en PortMiami bajo AWS D1.1.",
+    "Plantillas de inspección de recipientes a presión API 510 para tanques de combustible y búnker.",
+    "Interfaz de inspector bilingüe en y es con reportes firmados renderizados en cualquiera de los dos idiomas.",
+    "Conectores GE APM, Maximo y SAP para órdenes de trabajo de inspección en ciclo cerrado."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Qué códigos NDT aplican en la planta nuclear FPL Turkey Point?",
+      "a": "La planta nuclear FPL Turkey Point aplica ASME Sección XI para inspección en servicio de componentes de Clase 1, 2 y 3, 10 CFR 50 Apéndice B para el programa general de aseguramiento de la calidad, y ASME Sección V para los métodos de END propiamente dichos. Las tuberías de vapor y agua de alimentación referencian ASME B31.1 para diseño y B31.7 o Sección III para servicio nuclear. Atlantis ERP NDT precarga las categorías de examinación de la Sección XI y las reglas de control documental del Apéndice B, de modo que los proveedores de Turkey Point produzcan paquetes listos para auditoría de la NRC sin retrabajo manual."
+    },
+    {
+      "q": "¿Se requiere soporte bilingüe en y es para un ERP NDT en Miami?",
+      "a": "El soporte bilingüe en y es es efectivamente requerido para un ERP NDT en Miami, porque la fuerza laboral de inspectores en cuadrillas portuarias, de servicios públicos y de construcción suele ser hispanohablante dominante. Operar la plataforma solo en inglés retrasa la captura de inspección y aumenta los errores de datos. Atlantis ERP NDT renderiza formularios, notificaciones, texto de ayuda y reportes firmados finales en inglés o español por usuario, manteniendo las referencias de código y las cláusulas regulatorias en su idioma canónico para preservar el significado legal."
+    },
+    {
+      "q": "¿Cómo soporta el ERP NDT la inspección de dispositivos médicos de Baxter Healthcare?",
+      "a": "Un ERP NDT soporta la inspección de dispositivos médicos de Baxter Healthcare en la planta Medley al capturar examinaciones de soldadura, tanques y tuberías en skids de proceso bajo ASME B31.3 y las reglas de calidad de dispositivos de 21 CFR Parte 820. Las firmas electrónicas, las pistas de auditoría y los registros de control de cambios satisfacen los requisitos de 21 CFR Parte 11. Atlantis ERP NDT exporta paquetes de validación e historiales de indicación que el equipo de calidad de Baxter puede presentar directamente durante inspecciones de la FDA sin reformatear los datos de campo."
+    },
+    {
+      "q": "¿Qué es la inspección en servicio ASME Sección XI?",
+      "a": "ASME Sección XI es el código que gobierna la inspección en servicio y reparación de componentes de plantas nucleares, y define categorías de examinación, métodos, frecuencias y criterios de aceptación para sistemas Clase 1, 2 y 3. Impulsa los intervalos de inspección de diez años que dan forma a la planificación de paradas en Turkey Point. Atlantis ERP NDT programa las examinaciones de la Sección XI contra cada componente, rastrea la cobertura acumulada y marca faltantes antes de que el intervalo cierre, de modo que el cumplimiento sea continuo en lugar de reactivo."
+    },
+    {
+      "q": "¿Cómo se integra el ERP NDT con GE APM en sitios de la flota NextEra?",
+      "a": "La integración con GE APM en sitios de la flota NextEra usa las APIs REST de APM para publicar resultados de inspección, indicadores de vida remanente y entradas de evaluación basada en riesgo contra la jerarquía de equipos. Cuando un componente de Turkey Point o St. Lucie es inspeccionado, Atlantis ERP NDT devuelve datos de espesor, indicación y aceptación que APM usa para actualizar las puntuaciones de criticidad. Esto reemplaza las exportaciones manuales en hoja de cálculo que históricamente se atrasaban semanas respecto a los datos de parada."
+    },
+    {
+      "q": "¿Maneja el ERP NDT la inspección de grúas y estructural en PortMiami?",
+      "a": "Sí, un ERP NDT maneja la inspección de grúas y estructural de PortMiami al capturar examinaciones visuales, MT y UT de miembros estructurales de grúas pórtico, rieles y bloques de gancho bajo AWS D1.1 y las reglas aplicables de OSHA 29 CFR 1917 para terminales portuarios. El historial de inspección por grúa impulsa la programación de vida remanente y recertificación. Atlantis ERP NDT almacena fotografías, mapas de indicación y reportes firmados contra el registro del activo-grúa, de modo que los operadores del terminal vean el historial completo de condición."
+    },
+    {
+      "q": "¿Cuánto tarda el despliegue del ERP NDT para un cliente industrial de Miami?",
+      "a": "Un cliente industrial de Miami típicamente despliega Atlantis ERP NDT en seis a diez semanas según el alcance, con sitios nucleares y de dispositivos médicos en el extremo más largo por los requisitos de validación de 10 CFR 50 Apéndice B y 21 CFR Parte 820. Los despliegues portuarios y de instalaciones comerciales se ubican más cerca de las seis semanas. La configuración bilingüe en y es está incluida en el plazo base. Todo el trabajo se entrega remotamente desde la sede de Atlantis sin presencia en sitio en Homestead, Medley ni PortMiami."
+    },
+    {
+      "q": "¿Qué es 21 CFR Parte 820 y cómo afecta la documentación NDT?",
+      "a": "21 CFR Parte 820 es la Regulación del Sistema de Calidad de la FDA para fabricantes de dispositivos médicos, que cubre controles de diseño, controles de producción, acción correctiva y registros, y afecta la documentación NDT al requerir que la evidencia de inspección sobre equipo en contacto con dispositivos esté controlada, firmada, retenida y recuperable en auditoría. En Baxter Medley eso significa que la inspección de soldadura sobre los skids de proceso de soluciones intravenosas debe llevar firmas electrónicas y pistas de auditoría. Atlantis ERP NDT aplica los requisitos de la Parte 820 y la Parte 11 a nivel de formulario, de modo que los registros queden listos para la FDA por defecto."
+    }
+  ]
+}

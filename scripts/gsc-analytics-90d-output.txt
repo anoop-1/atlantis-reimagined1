@@ -1,0 +1,335 @@
+
+Authenticating as: atlantismarketing@x-jigsaw-293515.iam.gserviceaccount.com
+Date range: 2026-02-19 to 2026-05-20 (90 days)
+
+═══════════════════════════════════════════════════════════════
+                    TRAFFIC SUMMARY
+═══════════════════════════════════════════════════════════════
+  Total Clicks:        910
+  Total Impressions:   114,398
+  Average CTR:         0.80%
+  Average Position:    29.0
+  Daily Avg Clicks:    10/day
+  Pages with Traffic:  1592
+  Unique Queries:      2533
+  Target:              10,000 clicks/day
+  Gap:                 9,990 clicks/day needed
+═══════════════════════════════════════════════════════════════
+
+── DAILY CLICK TREND ──
+  2026-02-19       2 clicks  ███
+  2026-02-20       1 clicks  █
+  2026-02-21       3 clicks  ████
+  2026-02-22       7 clicks  ██████████
+  2026-02-23       4 clicks  ██████
+  2026-02-24       4 clicks  ██████
+  2026-02-25       4 clicks  ██████
+  2026-02-26       8 clicks  ███████████
+  2026-02-27       2 clicks  ███
+  2026-02-28       2 clicks  ███
+  2026-03-01       4 clicks  ██████
+  2026-03-02       3 clicks  ████
+  2026-03-03       3 clicks  ████
+  2026-03-04       4 clicks  ██████
+  2026-03-05       3 clicks  ████
+  2026-03-06       6 clicks  ████████
+  2026-03-07       3 clicks  ████
+  2026-03-08       3 clicks  ████
+  2026-03-09       4 clicks  ██████
+  2026-03-10       7 clicks  ██████████
+  2026-03-11       4 clicks  ██████
+  2026-03-12      10 clicks  ██████████████
+  2026-03-13       3 clicks  ████
+  2026-03-14       3 clicks  ████
+  2026-03-15       5 clicks  ███████
+  2026-03-16      10 clicks  ██████████████
+  2026-03-17       7 clicks  ██████████
+  2026-03-18      13 clicks  ██████████████████
+  2026-03-19       7 clicks  ██████████
+  2026-03-20       6 clicks  ████████
+  2026-03-21       8 clicks  ███████████
+  2026-03-22       4 clicks  ██████
+  2026-03-23      16 clicks  ██████████████████████
+  2026-03-24       7 clicks  ██████████
+  2026-03-25       7 clicks  ██████████
+  2026-03-26      10 clicks  ██████████████
+  2026-03-27      12 clicks  █████████████████
+  2026-03-28       8 clicks  ███████████
+  2026-03-29       6 clicks  ████████
+  2026-03-30       6 clicks  ████████
+  2026-03-31      11 clicks  ███████████████
+  2026-04-01       5 clicks  ███████
+  2026-04-02       8 clicks  ███████████
+  2026-04-03       4 clicks  ██████
+  2026-04-04       3 clicks  ████
+  2026-04-05       6 clicks  ████████
+  2026-04-06      12 clicks  █████████████████
+  2026-04-07       4 clicks  ██████
+  2026-04-08       7 clicks  ██████████
+  2026-04-09       9 clicks  ████████████
+  2026-04-10       5 clicks  ███████
+  2026-04-11       2 clicks  ███
+  2026-04-12       9 clicks  ████████████
+  2026-04-13      27 clicks  █████████████████████████████████████
+  2026-04-14      15 clicks  █████████████████████
+  2026-04-15      21 clicks  █████████████████████████████
+  2026-04-16      10 clicks  ██████████████
+  2026-04-17       8 clicks  ███████████
+  2026-04-18       3 clicks  ████
+  2026-04-19       3 clicks  ████
+  2026-04-20      18 clicks  █████████████████████████
+  2026-04-21      17 clicks  ███████████████████████
+  2026-04-22      19 clicks  ██████████████████████████
+  2026-04-23      20 clicks  ████████████████████████████
+  2026-04-24      18 clicks  █████████████████████████
+  2026-04-25      12 clicks  █████████████████
+  2026-04-26      14 clicks  ███████████████████
+  2026-04-27      22 clicks  ██████████████████████████████
+  2026-04-28      19 clicks  ██████████████████████████
+  2026-04-29      13 clicks  ██████████████████
+  2026-04-30      21 clicks  █████████████████████████████
+  2026-05-01       8 clicks  ███████████
+  2026-05-02       7 clicks  ██████████
+  2026-05-03       8 clicks  ███████████
+  2026-05-04       7 clicks  ██████████
+  2026-05-05      24 clicks  █████████████████████████████████
+  2026-05-06      17 clicks  ███████████████████████
+  2026-05-07      17 clicks  ███████████████████████
+  2026-05-08       9 clicks  ████████████
+  2026-05-09       4 clicks  ██████
+  2026-05-10      12 clicks  █████████████████
+  2026-05-11      21 clicks  █████████████████████████████
+  2026-05-12      15 clicks  █████████████████████
+  2026-05-13      28 clicks  ███████████████████████████████████████
+  2026-05-14      14 clicks  ███████████████████
+  2026-05-15      12 clicks  █████████████████
+  2026-05-16      11 clicks  ███████████████
+  2026-05-17      16 clicks  ██████████████████████
+  2026-05-18      25 clicks  ██████████████████████████████████
+  2026-05-19      24 clicks  █████████████████████████████████
+  2026-05-20      29 clicks  ████████████████████████████████████████
+
+── TOP PAGES BY CLICKS ──
+  Page                                                    | Clicks   | Impr     | CTR     | Pos   
+  --------------------------------------------------------+----------+----------+---------+-------
+  /blog/ndt-salary-guide-2026-global                      |       85 |    13328 |    0.6% |    5.4
+  /                                                       |       82 |     1159 |    7.1% |    4.9
+  /asnt-certification                                     |       52 |     8506 |    0.6% |    8.1
+  /api-570-certification                                  |       31 |     3753 |    0.8% |   11.0
+  /blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison |       30 |     1457 |    2.1% |    4.8
+  /ndt-training-dubai                                     |       28 |     1175 |    2.4% |    9.3
+  /blog/rt-vs-ut-complete-comparison                      |       25 |     2880 |    0.9% |    6.9
+  /resources                                              |       24 |      694 |    3.5% |    5.5
+  /api-510-certification                                  |       21 |     3642 |    0.6% |   17.5
+  /api-653-certification                                  |       21 |     3861 |    0.5% |   18.6
+  /blog/api-653-tank-inspection-guide                     |       18 |     4482 |    0.4% |   15.0
+  /blog/asnt-snt-tc-1a-vs-cp-189-comparison               |       16 |     1058 |    1.5% |    6.0
+  /training-me                                            |       14 |      768 |    1.8% |   10.7
+  /blog/asnt-snt-tc-1a-certification-requirements         |       12 |     1250 |    1.0% |    8.7
+  /blog/ut-vs-rt-comparison                               |       12 |     2768 |    0.4% |    6.5
+  /blog/eddy-current-testing-complete-guide               |        8 |     1405 |    0.6% |   14.3
+  /blog/visual-testing                                    |        8 |     1178 |    0.7% |   12.7
+  /blog/ndt-salary-guide-2025-global-level-1-2-3          |        7 |     2992 |    0.2% |    5.6
+  /ndt-training-dallas                                    |        7 |      145 |    4.8% |    7.0
+  /tools                                                  |        7 |      269 |    2.6% |    6.5
+  /blog/asme-b31-3-process-piping-requirements            |        6 |      567 |    1.1% |    8.1
+  /blog/asme-section-v-article-4-ut-requirements-explained |        6 |      934 |    0.6% |    6.4
+  /blog/eddy-current-testing                              |        6 |     3705 |    0.2% |   31.4
+  /blog/nuclear-power-plant-ndt-strict-standards-compliance |        6 |      167 |    3.6% |   13.0
+  /blog/pipe-wall-thickness-inspection-ut-procedures      |        6 |      445 |    1.3% |   10.7
+  /ndt-training-hyderabad                                 |        6 |      104 |    5.8% |    8.8
+  /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide |        5 |      685 |    0.7% |    6.9
+  /blog/magnetic-particle-testing                         |        5 |     3233 |    0.2% |   19.1
+  /blog/ped-directive-for-european-pressure-equipment     |        5 |      268 |    1.9% |   16.5
+  /digital-twins                                          |        5 |      690 |    0.7% |    8.7
+  /consulting/ndt-consulting-accra                        |        4 |       43 |    9.3% |    7.9
+  /training                                               |        4 |      280 |    1.4% |    6.9
+  /training-india                                         |        4 |      206 |    1.9% |   13.5
+  /training/asnt-level-iii-training-tampa                 |        4 |       19 |   21.1% |    8.5
+  /ultrasonic-testing-denver                              |        4 |       17 |   23.5% |    8.6
+  /ultrasonic-testing-kuwait                              |        4 |       69 |    5.8% |   14.3
+  /ultrasonic-testing-singapore                           |        4 |      261 |    1.5% |   25.3
+  /blog/api-617-centrifugal-compressor-inspection         |        3 |      392 |    0.8% |    7.6
+  /blog/asme-section-viii-division-1-pressure-vessel-ndt  |        3 |      396 |    0.8% |    8.0
+  /blog/automated-ut-aut-systems-complete-overview        |        3 |      386 |    0.8% |   12.1
+  ... and 1552 more rows
+
+── TOP QUERIES BY CLICKS ──
+  Query                                              | Clicks   | Impr     | CTR     | Pos   
+  ---------------------------------------------------+----------+----------+---------+-------
+  atlantis ndt                                       |       56 |       78 |   71.8% |    1.0
+  api 510 exam pass rate                             |        2 |       84 |    2.4% |    4.7
+  api 653 exam                                       |        2 |       27 |    7.4% |    9.6
+  api 653 exam pass rate                             |        2 |       16 |   12.5% |    5.0
+  asnt certification                                 |        2 |      689 |    0.3% |    7.4
+  api 510 course fees in india                       |        1 |        4 |   25.0% |    3.5
+  api 510 exam                                       |        1 |        7 |   14.3% |   23.7
+  api 570                                            |        1 |      263 |    0.4% |   29.9
+  api 570 certification                              |        1 |      225 |    0.4% |    4.1
+  api 570 certification cost                         |        1 |       15 |    6.7% |   13.1
+  api 570 exam pass rate                             |        1 |       17 |    5.9% |    8.1
+  api 653                                            |        1 |      370 |    0.3% |   36.1
+  api 653 certification cost                         |        1 |       99 |    1.0% |    3.8
+  api exam schedule 2026                             |        1 |        2 |   50.0% |    8.0
+  asme b31.3 2026                                    |        1 |        2 |   50.0% |    6.0
+  asnt certification cost                            |        1 |        7 |   14.3% |    1.0
+  asnt certification online                          |        1 |       10 |   10.0% |    2.7
+  asnt level 3 basic exam questions                  |        1 |        1 |  100.0% |   11.0
+  asnt snt-tc-1a                                     |        1 |       94 |    1.1% |    4.5
+  asnt snt-tc-1a 2024                                |        1 |        1 |  100.0% |   65.0
+  astm e309                                          |        1 |        3 |   33.3% |   15.0
+  aut machine                                        |        1 |        6 |   16.7% |    7.7
+  both                                               |        1 |        2 |   50.0% |    2.5
+  difference between ut and rt testing               |        1 |       26 |    3.8% |    6.0
+  eddy current certification                         |        1 |        2 |   50.0% |    4.0
+  eddy current ndt method                            |        1 |        8 |   12.5% |   42.8
+  gaji ndt level 2                                   |        1 |        1 |  100.0% |    1.0
+  iso 9712 vs asnt                                   |        1 |       35 |    2.9% |    3.1
+  name the all countries                             |        1 |        1 |  100.0% |   28.0
+  ndt calculator                                     |        1 |       48 |    2.1% |    8.4
+  ndt consultants                                    |        1 |       11 |    9.1% |   17.9
+  ndt level 3 course fees                            |        1 |        9 |   11.1% |    9.9
+  ndt offshore salary                                |        1 |       75 |    1.3% |    5.8
+  ndt oil and gas salary                             |        1 |       24 |    4.2% |    6.4
+  ndt reporting software                             |        1 |       57 |    1.8% |   29.4
+  ndt technician salary per month                    |        1 |        1 |  100.0% |    1.0
+  paut technician salary                             |        1 |       27 |    3.7% |    5.1
+  pay?                                               |        1 |        2 |   50.0% |    8.5
+  pressure vessel inspector course                   |        1 |        1 |  100.0% |    1.0
+  snt-tc-1a certification                            |        1 |        4 |   25.0% |    9.3
+  ... and 2493 more rows
+
+── HIGH IMPRESSION, LOW CTR OPPORTUNITIES ──
+  (Pages getting seen but not clicked - improve titles/descriptions)
+
+  Page                                               | Impr     | Clicks   | CTR     | Pos    | Potential             
+  ---------------------------------------------------+----------+----------+---------+--------+-----------------------
+  /blog/ndt-salary-guide-2026-global                 |    13328 |       85 |    0.6% |    5.4 | 666 clicks if CTR=5%  
+  /asnt-certification                                |     8506 |       52 |    0.6% |    8.1 | 425 clicks if CTR=5%  
+  /blog/api-653-tank-inspection-guide                |     4482 |       18 |    0.4% |   15.0 | 224 clicks if CTR=5%  
+  /api-653-certification                             |     3861 |       21 |    0.5% |   18.6 | 193 clicks if CTR=5%  
+  /api-570-certification                             |     3753 |       31 |    0.8% |   11.0 | 188 clicks if CTR=5%  
+  /blog/eddy-current-testing                         |     3705 |        6 |    0.2% |   31.4 | 185 clicks if CTR=5%  
+  /api-510-certification                             |     3642 |       21 |    0.6% |   17.5 | 182 clicks if CTR=5%  
+  /blog/magnetic-particle-testing                    |     3233 |        5 |    0.2% |   19.1 | 162 clicks if CTR=5%  
+  /blog/ndt-salary-guide-2025-global-level-1-2-3     |     2992 |        7 |    0.2% |    5.6 | 150 clicks if CTR=5%  
+  /blog/rt-vs-ut-complete-comparison                 |     2880 |       25 |    0.9% |    6.9 | 144 clicks if CTR=5%  
+  /blog/ut-vs-rt-comparison                          |     2768 |       12 |    0.4% |    6.5 | 138 clicks if CTR=5%  
+  /blog/cwi-certification-requirements-cost-career-impact |     1993 |        0 |    0.0% |    7.1 | 100 clicks if CTR=5%  
+  /blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison |     1457 |       30 |    2.1% |    4.8 | 73 clicks if CTR=5%   
+  /blog/eddy-current-testing-complete-guide          |     1405 |        8 |    0.6% |   14.3 | 70 clicks if CTR=5%   
+  /blog/aerospace-composite-inspection-ndt-methods-guide |     1312 |        0 |    0.0% |    8.5 | 66 clicks if CTR=5%   
+  /blog/asnt-snt-tc-1a-certification-requirements    |     1250 |       12 |    1.0% |    8.7 | 63 clicks if CTR=5%   
+  /blog/ndt-technician-salary-guide-2026-industry-report |     1197 |        3 |    0.3% |    5.6 | 60 clicks if CTR=5%   
+  /blog/visual-testing                               |     1178 |        8 |    0.7% |   12.7 | 59 clicks if CTR=5%   
+  /ndt-training-dubai                                |     1175 |       28 |    2.4% |    9.3 | 59 clicks if CTR=5%   
+  /blog/asnt-snt-tc-1a-vs-cp-189-comparison          |     1058 |       16 |    1.5% |    6.0 | 53 clicks if CTR=5%   
+  /blog/asme-section-v-article-4-ut-requirements-explained |      934 |        6 |    0.6% |    6.4 | 47 clicks if CTR=5%   
+  /blog/ultrasonic-testing                           |      920 |        0 |    0.0% |   47.5 | 46 clicks if CTR=5%   
+  /training-me                                       |      768 |       14 |    1.8% |   10.7 | 38 clicks if CTR=5%   
+  /blog/heat-exchanger-tube-inspection-methods-procedures |      763 |        2 |    0.3% |   16.4 | 38 clicks if CTR=5%   
+  /ndt-technician-salary                             |      726 |        1 |    0.1% |    5.7 | 36 clicks if CTR=5%   
+  /digital-twins                                     |      690 |        5 |    0.7% |    8.7 | 35 clicks if CTR=5%   
+  /blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide |      685 |        5 |    0.7% |    6.9 | 34 clicks if CTR=5%   
+  /blog/wind-turbine-blade-inspection-and-monitoring |      623 |        0 |    0.0% |   24.7 | 31 clicks if CTR=5%   
+  /blog/asme-b31-3-process-piping-requirements       |      567 |        6 |    1.1% |    8.1 | 28 clicks if CTR=5%   
+  /blog/ndt-level-iii-certification-requirements-guide |      524 |        1 |    0.2% |    8.3 | 26 clicks if CTR=5%   
+  ... and 172 more rows
+
+── ZERO TRAFFIC PAGES (1815 of 3162 sitemap URLs) ──
+  (Pages in sitemap with 0 clicks in the period)
+
+  Digital Twin (60 pages):
+    - /blog/pdf-ndt-reports-vs-digital-twin-asset-integrity
+    - /digital-twin-vs-3d-model-ndt
+    - /digital-twin-readiness-quiz
+    - /digital-twin-dubai
+    - /digital-twin-abu-dhabi
+    - /digital-twin-saudi-arabia
+    - /digital-twin-mumbai
+    - /digital-twin-london
+    - /digital-twin-perth
+    - /digital-twin-doha
+    ... and 50 more
+
+  ERP (62 pages):
+    - /ar/ndt-erp-saudi-arabia
+    - /ar/ndt-erp-dubai
+    - /ar/ndt-erp-solution
+    - /es/ndt-erp-mexico-city
+    - /es/ndt-erp-sao-paulo
+    - /es/ndt-erp-buenos-aires
+    - /es/ndt-erp-solution
+    - /ndt-erp-dubai
+    - /ndt-erp-saudi-arabia
+    - /ndt-erp-calgary
+    ... and 52 more
+
+  Consulting (21 pages):
+    - /consulting/ndt-consulting-pittsburgh
+    - /consulting/ndt-consulting-kuwait
+    - /consulting/ndt-consulting-jubail
+    - /consulting/ndt-consulting-hyderabad
+    - /consulting/ndt-consulting-pune
+    - /consulting/ndt-consulting-jamnagar
+    - /consulting/ndt-consulting-malaysia
+    - /consulting/ndt-consulting-china
+    - /consulting/ndt-consulting-netherlands
+    - /consulting/ndt-consulting-belgium
+    ... and 11 more
+
+  Method+Location (213 pages):
+    - /eddy-current-testing
+    - /blog/radiographic-testing-complete-guide
+    - /blog/magnetic-particle-testing-complete-guide
+    - /blog/penetrant-testing-complete-guide
+    - /blog/visual-testing-complete-guide
+    - /ultrasonic-testing-philadelphia
+    - /ultrasonic-testing-washington-dc
+    - /ultrasonic-testing-nashville
+    - /ultrasonic-testing-minneapolis
+    - /ultrasonic-testing-cleveland
+    ... and 203 more
+
+  Blog (33 pages):
+    - /blog/ndt-consulting-costs-pricing-guide-2025
+    - /blog/asnt-level-iii-ndt-consulting-guide
+    - /blog/iiw-international-welding-standards
+    - /blog/reheat-cracking-in-pwht-operations
+    - /blog/augmented-reality-ar-in-ndt-procedures
+    - /blog/rt-level-2-practice-questions
+    - /blog/mt-level-2-practice-questions
+    - /blog/pt-level-2-practice-questions
+    - /blog/api-510-practice-questions
+    - /blog/api-570-practice-questions
+    ... and 23 more
+
+  Other (1426 pages):
+    - /ndt-training-singapore
+    - /ndt-training-jakarta
+    - /api-653-training-saudi-arabia
+    - /erp-modules
+    - /erp-industries
+    - /free-trial
+    - /case-studies/pipeline-integrity-services-erp-implementation
+    - /case-studies/aerospace-quality-control-erp-implementation
+    - /case-studies/metrology-laboratories-erp-implementation
+    - /case-studies/construction-quality-assurance-erp-implementation
+    ... and 1416 more
+
+── TRAFFIC BY SECTION ──
+  Section              | Clicks   | Impr       | Pages  | Clk/Page  
+  ---------------------+----------+------------+--------+-----------
+  Blog                 |      342 |      66182 |    200 |        1.7
+  Other                |      220 |      12390 |    657 |        0.3
+  Certifications       |      134 |      20416 |     28 |        4.8
+  Training             |       98 |       4925 |     96 |        1.0
+  NDT Methods          |       52 |       4874 |    253 |        0.2
+  Consulting           |       34 |       1520 |     97 |        0.4
+  Advanced NDT         |       15 |       1784 |    183 |        0.1
+  Digital Twins        |        8 |       1701 |     32 |        0.3
+  ERP                  |        7 |        606 |     46 |        0.2
+
+
+Full report exported to: E:\software\Atlantis\atlantis-reimagined1\scripts\gsc-report.json
+

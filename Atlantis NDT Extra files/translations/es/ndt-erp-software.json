@@ -1,0 +1,101 @@
+{
+  "lang": "es",
+  "route": "/es/ndt-erp-software",
+  "title60": "Software ERP NDT 2026 | Personalizable por Industria",
+  "meta155": "Software ERP para ensayos no destructivos (END) integrado con SAP y Maximo. Despliegue remoto en 30 días con supervisión de Inspector Nivel III.",
+  "h1": "Software ERP para NDT — Personalizable para Todas las Industrias",
+  "heroLead": "Atlantis ofrece un software ERP especializado en ensayos no destructivos (END) que unifica la inspección de campo, la gestión de integridad y el flujo de órdenes de trabajo en una sola plataforma. La solución se integra de forma nativa con SAP PM, IBM Maximo y Meridium, respeta códigos API, ASME e ISO 9712, y se implementa de forma 100% remota en 30 días bajo la supervisión de un Inspector Nivel III. Está diseñada para refinerías, petroquímicas, plantas de LNG, aeroespacial, astilleros y operadores de ductos que necesitan trazabilidad auditable sin consultores en sitio.",
+  "sections": [
+    {
+      "heading": "Qué significa integrar END con un ERP",
+      "body": "Integrar los ensayos no destructivos (END) con un ERP significa que cada lectura de espesor, cada escaneo PAUT, cada radiografía y cada indicación queda vinculada de forma estructurada al activo, al circuito de inspección, al centro de costos y a la orden de trabajo correspondiente. En lugar de vivir en hojas de cálculo, discos compartidos o portales del fabricante del escáner, los hallazgos de campo se cargan una sola vez y fluyen hacia SAP PM o Maximo para cerrar el ciclo de mantenimiento, hacia Meridium o APM para alimentar el modelo de riesgo basado en inspección (RBI), y hacia el expediente de auditoría del cliente. Esta integración es la diferencia entre tener datos de inspección y tener un programa de gestión de integridad que sobrevive a una auditoría regulatoria sin reconciliaciones manuales."
+    },
+    {
+      "heading": "Integración con SAP PM, Maximo y Meridium",
+      "body": "Atlantis se conecta con SAP PM y SAP QM mediante interfaces BAPI y OData, con IBM Maximo y Maximo APM mediante los servicios REST y MIF estándar, y con Meridium y Bentley AssetWise en el nivel de activo, CML y cálculo RBI. La integración opera en la versión actual del ERP del cliente, sin requerir una actualización. Los conectores son bidireccionales: las órdenes de trabajo bajan del ERP al técnico de campo, y los resultados de END suben al sistema de registro con trazabilidad completa al número de serie, al procedimiento calificado y al certificado del inspector. Los clientes que operan arquitecturas duales (por ejemplo Hexagon EAM junto con SAP PM en refinerías de gran escala) reciben un modo de conector doble que sincroniza los hallazgos hacia ambos sistemas sin duplicar la captura."
+    },
+    {
+      "heading": "Implementación remota en 30 días",
+      "body": "Atlantis ejecuta la implementación del ERP NDT de forma 100% remota, sin personal en sitio y sin demoras por gestión de accesos o credenciales de planta. El día 1-30 se configura el modelo de datos contra los códigos aplicables (API 510/570/580/653, ASME V/VIII/B31.3, NFPA 59A, ISO 9712 u otros), se cargan los procedimientos calificados por el Inspector Nivel III y se corre un piloto sobre una unidad, un tanque o un tramo de tubería. Los días 31-60 integran el sistema con el SAP PM, Maximo o EAM existente y se migran datos históricos de espesores y CML. Los días 61-90 validan el flujo completo de datos hacia el motor de idoneidad para el servicio y se transfiere el control operacional al equipo de integridad del cliente. Todo el ciclo se ejecuta por VPN segura."
+    },
+    {
+      "heading": "Industrias atendidas",
+      "body": "Atlantis da servicio a refinerías y complejos petroquímicos en el Golfo de México estadounidense, México, Colombia y Argentina; terminales de LNG en comisionamiento y operación; operadores de ductos sujetos a PHMSA 49 CFR 192/195 y regulaciones equivalentes en América Latina; operaciones costa afuera con supervisión BSEE; astilleros con clasificación ABS y DNV; plantas de fabricación aeroespacial bajo AS9100 y Nadcap AC7114/AC7006; plantas de semiconductores con requisitos SEMI F19/F20; generación nuclear bajo ASME Sección XI y 10 CFR 50 Apendice B; y dispositivos medicos bajo 21 CFR Parte 820. Cada industria recibe una biblioteca de procedimientos ya calificada, no una configuración en blanco."
+    },
+    {
+      "heading": "Códigos y normas soportadas",
+      "body": "El sistema soporta de manera nativa los códigos más exigentes de inspección en servicio y fabricación: API 510 (recipientes a presión), API 570 (tuberías de proceso), API 580/581 (inspección basada en riesgo), API 625 (tanques refrigerados y criogenicos), API 653 (tanques atmosfericos), API 1104 (soldadura de ductos), ASME Sección V (métodos de END), ASME Sección VIII (construcción de recipientes), ASME B31.3/B31.4/B31.8 (tuberías), ASME Sección XI (inspección en servicio nuclear), NFPA 59A (instalaciones de LNG), PHMSA 49 CFR 192/195, AWS D1.1 y D17.1, NAS 410, Nadcap AC7114 y AC7006, AMS 2175, MIL-STD-1907 y MIL-STD-2219, ISO 9712 para calificación de personal y 21 CFR Parte 11/820 para dispositivos medicos. La lógica de intervalos y las reglas de retención documental se aplican automáticamente por código."
+    },
+    {
+      "heading": "Supervisión de Inspector Nivel III",
+      "body": "Cada implementación de Atlantis lleva la firma de un Inspector Nivel III certificado bajo ASNT o equivalente ISO 9712. La biblioteca de procedimientos, la calificación del personal Nivel II, la validación del modelo de datos contra los códigos aplicables y la revisión de indicaciones críticas pasan por la firma electrónica del Nivel III antes de considerarse cerradas. Para operadores que no cuentan con un Nivel III interno dedicado, Atlantis ofrece la supervisión Nivel III remota como servicio permanente, con trazabilidad auditable de cada firma al número de certificado y fecha de vencimiento. Esto cierra una brecha comun en compañías medianas que antes dependían de consultoras externas visitando el sitio."
+    },
+    {
+      "heading": "Personalización para cada cliente",
+      "body": "El ERP NDT es personalizable en el modelo de datos, la jerarquia de activos, las plantillas de reporte, los flujos de aprobación y los conectores al ERP corporativo. Atlantis no ofrece un producto con configuración fija: cada cliente recibe procedimientos calificados contra sus propias especificaciones corporativas (por ejemplo las normas internas de ExxonMobil, Shell, Pemex o YPF sobre las plantillas base de API y ASME). Los tableros gerenciales se arman por tipo de activo, unidad operativa o país, y los reportes regulatorios se exportan en los formatos exactos que exigen el regulador estatal, PHMSA, la CNH en México o la SEC Energía en Argentina. La personalización forma parte del alcance fijo del despliegue, no es un costo adicional."
+    },
+    {
+      "heading": "Entrega remota y sin viajes",
+      "body": "Atlantis entrega cada proyecto sin consultores en sitio. Las sesiones de configuración, capacitación, migración de datos históricos y validación de interfaces se realizan por videoconferencia y VPN segura. Los inspectores Nivel II del cliente reciben capacitación remota sobre la captura de datos en tableta, con modo fuera de linea para unidades de proceso donde no hay cobertura celular ni WiFi. Los inspectores Nivel III del cliente, o los Nivel III de Atlantis en modalidad de servicio, revisan y firman indicaciones críticas desde cualquier ubicación. El modelo remoto elimina los gastos de viaje, las demoras de credenciales de planta y los tiempos de espera por accesos de seguridad, y permite iniciar la implementación el día que se firma el contrato."
+    },
+    {
+      "heading": "Casos de exito y evidencia de clientes",
+      "body": "Clientes en refinerías del Golfo de México, plantas de LNG en fase de comisionamiento, operadores de ductos en América Latina y fabricantes aeroespaciales con certificación Nadcap han desplegado Atlantis en los ciclos de 30/60/90 días descritos. Los resultados típicos incluyen la eliminación del reingreso manual de datos entre el técnico de campo y el ingeniero de integridad, la detección temprana de violaciones al espesor mínimo (T-min) antes de que escalen a falla, la preparación de paquetes de auditoría regulatoria en horas en lugar de semanas, y el cumplimiento continuo de los intervalos API sin escalamientos de último momento. Atlantis comparte referencias verificables bajo acuerdo de confidencialidad durante el proceso de selección."
+    }
+  ],
+  "featureBullets": [
+    "Integración nativa con SAP PM, Maximo, Meridium y Bentley AssetWise mediante REST, BAPI, OData y MIF",
+    "Biblioteca de procedimientos calificada contra API 510/570/580/625/653, ASME V/VIII/B31.3, NFPA 59A, Nadcap AC7114/AC7006 y ASME Sección XI",
+    "Implementación 100% remota en 30/60/90 días bajo supervisión de Inspector Nivel III",
+    "Registro unificado de certificaciones del personal con bloqueo automático al asignar órdenes de trabajo por método y código",
+    "Captura de datos en campo con tableta en modo fuera de linea y sincronización automática al retornar a cobertura",
+    "Interfaz bilingue inglés/español con reportes firmados electrónicamente en el idioma del operador"
+  ],
+  "paaQuestions": [
+    {
+      "q": "Qué es un software ERP para NDT?",
+      "a": "Un software ERP para NDT es una plataforma que integra la captura de datos de ensayos no destructivos (END) con la gestión de activos, órdenes de trabajo, certificaciones del personal y el modelo de riesgo basado en inspección en un sistema único y auditable. Reemplaza las hojas de cálculo, los discos compartidos y los portales aislados del fabricante del escáner. Se conecta con el ERP corporativo (SAP PM, Maximo, Oracle EAM) para cerrar el ciclo entre hallazgo de campo y orden de trabajo."
+    },
+    {
+      "q": "Cuánto cuesta un software ERP para NDT?",
+      "a": "El precio anual típico oscila entre 60.000 y 300.000 dólares dependiendo de la cantidad de activos, usuarios y alcance de integración. Atlantis cotiza contra el tamaño del ERP existente, no por asiento, porque el uso del inspector es concentrado durante paradas de planta. Un despliegue de una sola planta para refinería o aeroespacial se ubica entre 85.000 y 160.000 dólares anuales. El piloto de 30 días tiene precio fijo y se acredita contra la suscripción anual si el cliente avanza."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con SAP y Maximo?",
+      "a": "Si, Atlantis se integra de forma nativa con SAP PM/QM y con IBM Maximo y Maximo APM. La conexion se hace mediante BAPI, OData, REST y MIF en los niveles de aviso, orden de trabajo, jerarquia de activos, punto de monitoreo de condición y lote de inspección. La integración es bidireccional, opera en la versión actual del ERP sin requerir una actualización, y elimina el reingreso manual entre el técnico de END y el planificador de mantenimiento."
+    },
+    {
+      "q": "Cuánto tarda la implementación del ERP NDT?",
+      "a": "El ciclo estándar es de 30/60/90 días. Los primeros 30 días cubren configuración contra los códigos aplicables y un piloto sobre un activo representativo. Los días 31-60 integran el sistema con SAP PM o Maximo. Los días 61-90 migran los datos históricos de inspección y entregan el control operacional al equipo de integridad. Todo el ciclo se ejecuta de forma remota, sin viajes ni personal en sitio."
+    },
+    {
+      "q": "¿Requiere Atlantis personal en sitio para implementar?",
+      "a": "No, Atlantis no requiere personal en sitio. Toda la configuración, integración, capacitación y validación se realiza de forma remota por VPN segura y videoconferencia. Los inspectores Nivel II del cliente capturan datos en campo con tabletas y los Inspectores Nivel III (del cliente o de Atlantis) revisan indicaciones críticas desde cualquier ubicación. El modelo remoto elimina gastos de viaje y tiempos de espera por credenciales de planta."
+    },
+    {
+      "q": "Qué códigos de inspección soporta el sistema?",
+      "a": "Soporta de forma nativa API 510, 570, 580, 625, 653 y 1104; ASME Sección V, Sección VIII, Sección XI y B31.3/B31.4/B31.8; NFPA 59A para instalaciones de LNG; PHMSA 49 CFR 192 y 195 para ductos; AWS D1.1 y D17.1; NAS 410 y Nadcap AC7114/AC7006 para aeroespacial; ISO 9712 para calificación de personal; y 21 CFR Parte 11/820 para dispositivos medicos. La lógica de intervalos y la retención documental se aplica automáticamente por código."
+    },
+    {
+      "q": "¿Maneja el sistema la certificación del personal?",
+      "a": "Si, el sistema mantiene un registro por persona y por método de todas las certificaciones vigentes, incluyendo ASNT Nivel I/II/III, ISO 9712, NAS 410, endosos API 510/570/653 y autorizaciones específicas del cliente. El despacho de órdenes de trabajo se bloquea automáticamente si la certificación requerida está vencida. Las alertas de renovación se disparan a 90, 60 y 30 días antes del vencimiento, eliminando la dependencia de la hoja de cálculo paralela que suele desactualizarse entre auditorías."
+    },
+    {
+      "q": "¿Funciona el ERP NDT sin conexion en campo?",
+      "a": "Si, la aplicación de campo opera en modo fuera de linea en la tableta del inspector dentro de unidades de proceso donde no hay cobertura celular ni WiFi. Las lecturas de espesor, importaciones de escaneos UT/PAUT, hallazgos visuales y fotografias se capturan localmente y se sincronizan al ERP cuando el dispositivo recupera cobertura. Cada captura queda sellada con fecha, hora y el número de certificado del inspector al momento de la toma."
+    },
+    {
+      "q": "Qué industrias atiende Atlantis?",
+      "a": "Atlantis atiende refinerías, petroquímicas, terminales de LNG, operadores de ductos, plataformas costa afuera, astilleros, manufactura aeroespacial, fábricas de semiconductores, generación nuclear y dispositivos medicos. Cada industria recibe una biblioteca de procedimientos ya calificada contra los códigos aplicables, y la configuración se ajusta a las especificaciones corporativas del cliente sin costo adicional dentro del alcance de despliegue."
+    },
+    {
+      "q": "¿Ofrece soporte Atlantis en español?",
+      "a": "Si, Atlantis ofrece interfaz bilingue inglés/español, reportes firmados en el idioma del operador, capacitación remota en español para equipos de México, América Latina y mercados hispanohablantes de Estados Unidos, y soporte técnico en español neutro. Los códigos y referencias regulatorias se mantienen en su idioma canonico (por ejemplo API 510 o ASME Sección V) para preservar el valor legal del documento durante una auditoría."
+    }
+  ],
+  "cta": {
+    "heading": "Agende una demostración del ERP NDT",
+    "body": "Solicite una demostración remota de 45 minutos para ver el modelo de datos aplicado a su industria, los conectores a SAP PM o Maximo ya funcionando, y la biblioteca de procedimientos calificada por Inspector Nivel III. El piloto de 30 días tiene precio fijo y se acredita contra la suscripción anual.",
+    "buttonText": "Agendar una demostración"
+  }
+}

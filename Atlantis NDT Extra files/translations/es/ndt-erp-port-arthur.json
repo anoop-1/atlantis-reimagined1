@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "port-arthur",
+  "route": "/es/ndt-erp-port-arthur",
+  "canonicalEnRoute": "/ndt-erp-port-arthur",
+  "title60": "ERP NDT Port Arthur 2026 | Motiva y Software LNG",
+  "meta155": "ERP NDT Port Arthur para Motiva, Valero, TotalEnergies y Sempra LNG — API 510/625, NFPA 59A, despliegue remoto 30/60/90 días.",
+  "h1": "Software ERP NDT Port Arthur — Personalizable para Todas las Industrias",
+  "localHook": "Port Arthur concentra la mayor densidad de refinación por kilómetro cuadrado en el Golfo de México de Estados Unidos. La refinería Motiva Port Arthur es la de mayor capacidad de crudo del país, Valero Port Arthur opera un complejo mayor y TotalEnergies Port Arthur suma capacidad refinadora adicional del lado del canal de navegación. Sempra Port Arthur LNG está poniendo en línea una capacidad masiva de licuefacción, y el Puerto de Port Arthur maneja carga industrial de alto tonelaje. La carga de inspección es API 510, API 570, API 580 RBI y API 653 para las refinerías, API 625 y NFPA 59A del lado LNG, y ASME B31.3 en ambos. Esta configuración —tres megarrefinerías y una megaterminal de LNG a menos de 16 kilómetros entre sí— genera un perfil de dolor ERP-inspección donde una base compartida de inspectores contratistas rota entre empleadores a una velocidad que rompe el seguimiento de certificaciones en hoja de cálculo en cuestión de meses.",
+  "integrationPainParagraph": "Maximo opera la integridad de equipo fijo en Motiva Port Arthur, SAP PM gobierna Valero Port Arthur, TotalEnergies opera su propia combinación y Sempra Port Arthur LNG está desplegando Maximo APM con plantillas LNG. Los datos NDT intermedios —historial de CML de recipientes API 510 que se remonta décadas en Motiva, inspección de tanques de crudo API 653 en terminales de exportación, registros de tanques LNG de contención total API 625, cumplimiento NFPA 59A— viven en silos desconectados en cada empleador. El vencimiento de certificaciones corre en hojas de cálculo con ciclos de renovación de refinería y LNG separados. El tiempo de entrega de reporte del campo al ingeniero de integridad se atrasa de forma rutinaria una semana atravesando la frontera refinería-LNG. La entrega PAUT se fragmenta cada vez que un inspector cambia de empleador.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III con experiencia API 510/570/653 y NFPA 59A para LNG. Ejecutamos un piloto de 30 días sobre un solo activo de Port Arthur, una integración de 60 días a su Maximo o SAP PM, y un corte total a 90 días. Sin viajes. Cada despliegue lleva firma Nivel III sobre los stacks de códigos de refinería y LNG que sus inspectores sostienen.",
+  "featureBullets": [
+    "Gestión de CML de recipientes a presión API 510 dimensionada para Motiva Port Arthur — la refinería de mayor capacidad de crudo de Estados Unidos.",
+    "Flujo de tanques LNG de contención total API 625 y NFPA 59A para los trenes de Sempra Port Arthur LNG.",
+    "Inspección de tanques de crudo API 653 alineada a los ciclos de carga para exportación del Puerto de Port Arthur.",
+    "Tendencia de espesores ASME B31.3 de tubería de proceso en las unidades del complejo Valero y TotalEnergies Port Arthur.",
+    "Ledger de certificación de inspector contratista que acompaña al inspector en sus rotaciones entre empleadores Motiva/Valero/TotalEnergies/Sempra sin reiniciarse.",
+    "Ciclo de retroalimentación de cálculo RBI API 580 para la integración del modelo de riesgo refinería y LNG."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Qué software NDT se usa en Motiva Port Arthur?",
+      "a": "La refinería Motiva Port Arthur opera IBM Maximo para activos y órdenes de trabajo con integridad de equipo fijo API 510/570/580/653 superpuesta, típicamente junto a un motor RBI Meridium o AssetWise. Atlantis ERP NDT se despliega como la capa de ejecución NDT dedicada que se conecta a Maximo y maneja la gestión de CML de recipientes, el seguimiento de circuitos de tubería y la inspección de tanques en la base de activos de la refinería de mayor capacidad de Estados Unidos. Los procedimientos corporativos de Motiva se soportan como superposiciones de biblioteca sobre los flujos API nativos."
+    },
+    {
+      "q": "¿Cuánto cuesta un ERP NDT de refinería en Port Arthur?",
+      "a": "El ERP NDT de refinería para una operación de Port Arthur va de 120.000 a 350.000 dólares anuales según la cantidad de unidades, el volumen de activos y la integración con Maximo. Atlantis cotiza contra la huella existente de Maximo en lugar de por asiento. Un despliegue de un solo complejo API 510/570/653 se ubica alrededor de 150.000 a 200.000 dólares anuales. Los despliegues empresariales a escala Motiva se ubican más arriba. El piloto de 30 días tiene precio fijo y se acredita contra la anualidad. Para los contratistas que atienden a Motiva/Valero/TotalEnergies/Sempra, el tramo específico para contratistas es menor."
+    },
+    {
+      "q": "¿Soporta el ERP NDT los flujos de Sempra Port Arthur LNG?",
+      "a": "Sí — Atlantis ERP NDT soporta los flujos API 625, NFPA 59A y ASME B31.3 de tubería criogénica requeridos en Sempra Port Arthur LNG y terminales comparables de exportación de licuefacción del Golfo de México. Los intervalos de inspección de tanques de contención total, el monitoreo de línea base por emisión acústica, el historial de espesores de tubería criogénica y la transición de registros de comisionamiento a operaciones son todos nativos. El sistema maneja el onboarding de activos de la fase de expansión a gran escala típica del comisionamiento de nuevos trenes."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con Maximo y Meridium?",
+      "a": "Sí — Atlantis ERP NDT se integra con IBM Maximo e IBM Maximo APM/Meridium mediante interfaces REST, MIF y SDK nativo estándar. Para los operadores de refinerías de Port Arthur donde Maximo contiene activos y órdenes de trabajo y Meridium contiene RBI, Atlantis se ubica como la capa de ejecución NDT —captura de datos de campo, bibliotecas de escaneo PAUT/TOFD, bloqueo por certificación de inspector— que ambos sistemas aguas arriba necesitan pero ninguno provee. Los hallazgos NDT cierran el ciclo de regreso al modelo RBI."
+    },
+    {
+      "q": "¿Puede el ERP NDT manejar múltiples refinerías y una terminal LNG?",
+      "a": "Sí — Atlantis ERP NDT corre operaciones a escala Motiva, Valero, TotalEnergies y Sempra LNG como instancias de tenant separadas con ledger de certificación de inspector compartido opcional. Para Port Arthur, donde los inspectores contratistas rotan entre los cuatro empleadores dentro de un solo trimestre, el modelo de ledger compartido mantiene las certificaciones con el inspector a la vez que mantiene los datos de inspección del empleador totalmente separados. El despacho de orden de trabajo se bloquea correctamente sobre el alcance de código específico del empleador."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación NDT de una terminal LNG?",
+      "a": "Atlantis ERP NDT se implementa en 30/60/90 días para una terminal LNG de Port Arthur. El piloto de 30 días corre sobre un solo tanque de contención total o tren de licuefacción para validar el modelo de datos contra API 625 y NFPA 59A. La integración de 60 días conecta a Maximo APM. El corte de 90 días migra los registros de comisionamiento y entrega el control operacional al equipo de integridad de la planta. El tiempo total es 90 días. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Rastrea el ERP NDT API 653 para tanques de crudo de exportación?",
+      "a": "Sí — Atlantis ERP NDT rastrea la inspección API 653 en servicio y fuera de servicio para tanques de exportación de crudo con intervalos de inspección alineados a los ciclos de carga del Puerto de Port Arthur. Los relevamientos de asentamiento, los datos de escaneo de fondo, los historiales de espesor de anillo y los cálculos de idoneidad para el servicio API 579 son registros nativos por tanque. Para los tanques de crudo de Motiva, Valero y TotalEnergies que alimentan los volúmenes de exportación de Estados Unidos, este es el conjunto completo de registros API 653 en formato listo para auditoría."
+    },
+    {
+      "q": "¿Puede el ERP NDT soportar inspectores contratistas entre empleadores?",
+      "a": "Sí — Atlantis ERP NDT soporta el patrón de inspector contratista que rota entre empleadores que domina Port Arthur. El sistema mantiene un registro único de certificación de inspector que acompaña al inspector, a la vez que mantiene los datos de inspección, el despacho de orden de trabajo y las superposiciones de biblioteca de procedimientos de cada empleador totalmente separados. Un inspector que rota de Motiva a Sempra LNG esta semana y a Valero la siguiente nunca pierde continuidad de certificación y nunca contamina de forma cruzada los registros de inspección de los empleadores."
+    }
+  ]
+}

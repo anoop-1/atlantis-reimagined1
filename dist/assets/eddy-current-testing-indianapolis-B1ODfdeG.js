@@ -1,0 +1,1 @@
+import{j as t}from"./compare-pages-C1d7etmC.js";import o from"./MethodLocationPage-0r_8poAo.js";import"./PillarHubNav-4Fa_GMYz.js";import"./programmatic-seo-CmWZtb0f.js";import"./erp-pages-C6o15K_z.js";function d(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"indianapolis"})}export{d as default};

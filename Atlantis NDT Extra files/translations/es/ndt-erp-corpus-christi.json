@@ -1,0 +1,54 @@
+{
+  "lang": "es",
+  "slug": "corpus-christi",
+  "route": "/es/ndt-erp-corpus-christi",
+  "canonicalEnRoute": "/ndt-erp-corpus-christi",
+  "title60": "ERP NDT Corpus Christi 2026 | LNG y Refinería",
+  "meta155": "ERP NDT Corpus Christi para Cheniere LNG y refinerías Flint Hills — API 510/625, NFPA 59A, despliegue remoto 30/60/90 días.",
+  "h1": "Software ERP NDT Corpus Christi — Personalizable para Todas las Industrias",
+  "localHook": "Corpus Christi se ha convertido en el mayor puerto de exportación de petróleo crudo de Estados Unidos y en uno de los principales centros de exportación de LNG del país. Cheniere Corpus Christi LNG opera múltiples trenes de licuefacción con una expansión de tercera etapa en curso, Flint Hills Resources opera una de las refinerías más complejas del Golfo de México, Valero y Citgo operan cada una importantes instalaciones de refinación en Corpus Christi, y el Puerto de Corpus Christi maneja una porción dominante de las exportaciones de crudo estadounidenses. La carga de inspección es API 510/570/580/653 para las refinerías, API 625 y NFPA 59A del lado LNG, y PHMSA 49 CFR 195 para la red de ductos de exportación de crudo que alimenta el puerto. Esta configuración —tres refinerías mayores, una megaterminal de LNG y el mayor puerto exportador de crudo del país, todo en un mismo metropolitano— genera un perfil de dolor ERP-inspección donde los inspectores rotan entre empleadores y la carga de cumplimiento de códigos recae sobre quien sostenga los registros en último lugar.",
+  "integrationPainParagraph": "Maximo opera el equipo fijo en Flint Hills Resources Corpus Christi y SAP PM atiende Valero Corpus Christi, mientras Cheniere Corpus Christi LNG opera Maximo APM con una plantilla de activos específica para LNG. Los datos NDT intermedios —historial de CML de recipientes API 510, inspección de tanques de crudo API 653 para carga de exportación, registros de tanques LNG de contención total API 625, examinación directa de ductos de crudo PHMSA 49 CFR 195— viven en silos desconectados dispersos entre discos compartidos de empleadores y portales de proveedores. El vencimiento de certificaciones corre en hojas de cálculo. El tiempo de entrega de reporte del técnico de campo al ingeniero de integridad a través de la frontera refinería-LNG-ductos se atrasa de forma rutinaria una semana. La entrega de PAUT se fragmenta en cada frontera de empleador.",
+  "remoteDeliveryPitch": "Atlantis es remoto primero y respaldado por Inspector ASNT Nivel III con experiencia en API, NFPA 59A y PHMSA 49 CFR 195. Ejecutamos un piloto de 30 días sobre un solo activo de Corpus Christi —unidad de refinería, tanque LNG o tramo de ducto de exportación—, una integración de 60 días a Maximo o SAP PM, y un corte total a 90 días. Sin viajes. Cada despliegue lleva firma Nivel III sobre los stacks de códigos de refinería, LNG y ductos.",
+  "featureBullets": [
+    "Programación de inspección de tanques de crudo API 653 alineada a los ciclos de carga de exportación del Puerto de Corpus Christi.",
+    "Flujo de tanques LNG de contención total API 625 y NFPA 59A para los trenes y la expansión de Cheniere Corpus Christi LNG.",
+    "Gestión de CML de recipientes a presión API 510 para las unidades del complejo Flint Hills Resources Corpus Christi.",
+    "Flujo de examinación directa PHMSA 49 CFR 195 de ductos de exportación de crudo que alimentan la terminal del Puerto de Corpus Christi.",
+    "Tendencia de espesores de tubería ASME B31.3 en las refinerías Valero y Citgo Corpus Christi.",
+    "Ledger de certificación de inspector entre empleadores — los endosos viajan con el inspector, no con el empleador, sin contaminar de forma cruzada el despacho de órdenes de trabajo."
+  ],
+  "paaQuestions": [
+    {
+      "q": "¿Qué software NDT usa Cheniere LNG?",
+      "a": "Cheniere Corpus Christi LNG opera IBM Maximo APM con plantillas de activos específicas para LNG sobre tanques de contención total, trenes de licuefacción e infraestructura de carga a buque. Atlantis ERP NDT se despliega como la capa NDT dedicada que se conecta a Maximo APM, y maneja la inspección de tanques API 625, los registros de instalaciones NFPA 59A y los flujos de tubería criogénica B31.3 con trazabilidad plena de CML. Los datos de línea base de emisión acústica y la prueba de fugas con helio son métodos nativos."
+    },
+    {
+      "q": "¿Cuánto cuesta un software NDT de terminal LNG?",
+      "a": "El software NDT para una terminal LNG a escala Corpus Christi va de 100.000 a 250.000 dólares anuales según cantidad de trenes, cantidad de tanques e integración con Maximo APM. Atlantis cotiza contra la huella existente de Maximo en lugar de por asiento. Un despliegue de un solo tren API 625 más NFPA 59A se ubica alrededor de 120.000 a 160.000 dólares anuales. Los despliegues multi-tren a escala Cheniere con onboarding de activos de fase de expansión se ubican más arriba. El piloto de 30 días tiene precio fijo."
+    },
+    {
+      "q": "¿Soporta el ERP NDT la inspección de tanques de exportación de crudo?",
+      "a": "Sí — Atlantis ERP NDT soporta la inspección API 653 de tanques de exportación de petróleo crudo con intervalos de inspección alineados a los ciclos de carga de mercancía del Puerto de Corpus Christi. Para los tanques de crudo de Flint Hills, Valero, Citgo y de operadores de terminal que alimentan los volúmenes de exportación de Estados Unidos, el sistema maneja inspección API 653 en servicio y fuera de servicio, relevamientos de asentamiento, datos de escaneo de fondo y cálculos de idoneidad para el servicio API 579 en un solo registro por tanque."
+    },
+    {
+      "q": "¿Se integra el ERP NDT con Maximo APM?",
+      "a": "Sí — Atlantis ERP NDT se integra con IBM Maximo APM mediante interfaces REST y MIF estándar al nivel de activo, punto de monitoreo de condición, orden de trabajo y cálculo RBI. Para los operadores de Corpus Christi que usan Maximo APM (Cheniere LNG, Flint Hills y otros), los hallazgos NDT en Atlantis se publican de regreso a Maximo APM con fidelidad plena de auditoría API 510/570/653 y cierran el ciclo RBI al alimentar los resultados reales de inspección al modelo de riesgo."
+    },
+    {
+      "q": "¿Cuánto tarda la implementación del ERP NDT para LNG?",
+      "a": "Atlantis ERP NDT se implementa en 30/60/90 días para una terminal LNG de Corpus Christi. El piloto de 30 días corre sobre un solo tanque de contención total o tren de licuefacción para validar el modelo de datos contra API 625 y NFPA 59A. La integración de 60 días conecta a Maximo APM. El corte de 90 días migra los registros históricos de inspección y las líneas base de emisión acústica y entrega el control operacional al equipo de integridad de la planta. El tiempo total es 90 días. Sin viajes requeridos."
+    },
+    {
+      "q": "¿Puede el ERP NDT manejar múltiples refinerías en un mismo metropolitano?",
+      "a": "Sí — Atlantis ERP NDT corre las refinerías a escala Flint Hills, Valero y Citgo de Corpus Christi como instancias de tenant separadas con ledger compartido de certificación de inspector cuando el operador lo licencia así, o como instancias totalmente separadas por refinería. En Corpus Christi, donde los inspectores comúnmente rotan entre empleadores, el modelo de ledger compartido mantiene las certificaciones con el inspector a la vez que mantiene los datos de inspección de refinería totalmente separados por empleador."
+    },
+    {
+      "q": "¿Soporta el ERP NDT la retención de registros NFPA 59A?",
+      "a": "Sí — la retención de registros NFPA 59A es un flujo nativo en Atlantis ERP NDT, que cubre registros de inspección de instalación LNG, monitoreo de línea base por emisión acústica, historial de espesores de tubería criogénica y registros de transición de comisionamiento a operaciones. Para Cheniere Corpus Christi LNG y terminales de exportación comparables del Golfo de México, el sistema sostiene el conjunto completo de registros NFPA 59A en formato listo para auditoría y exporta en plantillas de auditor inspector."
+    },
+    {
+      "q": "¿Cómo se maneja la inspección de ductos en una terminal de exportación?",
+      "a": "En una terminal de exportación de crudo como el Puerto de Corpus Christi, el flujo de inspección de ductos es examinación directa PHMSA 49 CFR 195 sobre ductos alimentadores más inspección de tanques API 653 más inspección de brazos de carga a buque, todo coordinado contra el cronograma de carga. Atlantis ERP NDT maneja las tres en una sola instancia con programación consciente del ciclo de carga, de modo que una excavación de ducto no se programe contra una ventana de carga. La coordinación es la función que típicamente se rompe en un CMMS genérico."
+    }
+  ]
+}
