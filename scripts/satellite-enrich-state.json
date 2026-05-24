@@ -149,129 +149,719 @@
     ],
     "building-corrosion-management-program-iso-55000": [
       "corrosion-management-ndt"
+    ],
+    "api-570-piping-inspector-study-plan-2026": [
+      "api-certification-guide"
+    ],
+    "api-653-aboveground-tank-inspector-prep": [
+      "api-certification-guide"
+    ],
+    "api-510-vs-api-570-which-cert-first": [
+      "api-certification-guide"
+    ],
+    "api-icp-recertification-2-cycle-cycle": [
+      "api-certification-guide"
+    ],
+    "open-book-questions-api-510-test-strategy": [
+      "api-certification-guide"
+    ],
+    "paut-vs-tofd-when-to-combine": [
+      "advanced-ndt-techniques"
+    ],
+    "guided-wave-screening-program-design": [
+      "advanced-ndt-techniques"
+    ],
+    "eddy-current-array-for-heat-exchanger-tubes": [
+      "advanced-ndt-techniques"
+    ],
+    "digital-radiography-cr-vs-dr-which-system": [
+      "advanced-ndt-techniques"
+    ],
+    "automated-ut-scanner-deployment-2026": [
+      "advanced-ndt-techniques"
+    ],
+    "ssp-sp10-vs-sp5-blast-profile-decisions": [
+      "coating-inspection-guide"
+    ],
+    "wet-film-thickness-vs-dry-film-thickness-when-each-fails": [
+      "coating-inspection-guide"
+    ],
+    "holiday-detection-low-voltage-vs-high-voltage": [
+      "coating-inspection-guide"
+    ],
+    "tsa-thermal-spray-aluminum-inspection-cui": [
+      "coating-inspection-guide"
+    ],
+    "coating-failure-modes-osmotic-blistering-cathodic-disbondment": [
+      "coating-inspection-guide"
+    ],
+    "cfrp-phased-array-vs-thermography-which-finds-disbonds": [
+      "composite-testing-hub"
+    ],
+    "wind-blade-inspection-from-rope-access-to-drones": [
+      "composite-testing-hub"
+    ],
+    "sandwich-panel-honeycomb-core-defects-and-detection": [
+      "composite-testing-hub"
+    ],
+    "shearography-on-composite-pressure-vessels": [
+      "composite-testing-hub"
+    ],
+    "pulse-thermography-vs-lock-in-thermography-quick-decision-guide": [
+      "composite-testing-hub"
+    ],
+    "gpr-vs-rebar-locator-when-which": [
+      "construction-ndt-guide"
+    ],
+    "concrete-strength-with-rebound-hammer-vs-ut-velocity": [
+      "construction-ndt-guide"
+    ],
+    "bridge-deck-deterioration-mapping-methods": [
+      "construction-ndt-guide"
+    ],
+    "post-tensioned-cable-inspection-impact-echo-and-ut": [
+      "construction-ndt-guide"
+    ],
+    "steel-structure-weld-inspection-aws-d1-5": [
+      "construction-ndt-guide"
+    ],
+    "iris-vs-ecit-vs-rfet-tube-inspection-decision": [
+      "heat-exchanger-ndt"
+    ],
+    "cleaning-tubes-before-ndt-why-it-decides-everything": [
+      "heat-exchanger-ndt"
+    ],
+    "air-cooler-tube-bundle-inspection-program": [
+      "heat-exchanger-ndt"
+    ],
+    "fouling-vs-corrosion-tube-signal-interpretation": [
+      "heat-exchanger-ndt"
+    ],
+    "plugging-vs-retubing-heat-exchanger-economics": [
+      "heat-exchanger-ndt"
+    ],
+    "cross-sector-ndt-program-benchmarks-2026": [
+      "industrial-inspection-resources"
+    ],
+    "building-an-in-house-vs-outsourced-ndt-program": [
+      "industrial-inspection-resources"
+    ],
+    "integrity-data-management-platforms-buyer-guide": [
+      "industrial-inspection-resources"
+    ],
+    "training-budget-allocation-ndt-team": [
+      "industrial-inspection-resources"
+    ],
+    "iso-9712-vs-asnt-snt-tc-1a-multi-region-teams": [
+      "industrial-inspection-resources"
+    ],
+    "cryogenic-tank-inspection-9-percent-nickel-steel": [
+      "lng-inspection-hub"
+    ],
+    "lng-loading-arm-inspection-program": [
+      "lng-inspection-hub"
+    ],
+    "lng-piping-weld-acceptance-criteria": [
+      "lng-inspection-hub"
+    ],
+    "small-scale-lng-asset-integrity-program": [
+      "lng-inspection-hub"
+    ],
+    "bog-compressor-inspection-and-monitoring": [
+      "lng-inspection-hub"
+    ],
+    "inline-ut-on-tube-mills-defect-detection": [
+      "manufacturing-ndt-quality"
+    ],
+    "casting-radiography-acceptance-by-grade": [
+      "manufacturing-ndt-quality"
+    ],
+    "supplier-quality-audit-ndt-shop": [
+      "manufacturing-ndt-quality"
+    ],
+    "additive-manufactured-parts-ndt-cap-cct-vs-ut": [
+      "manufacturing-ndt-quality"
+    ],
+    "in-process-quality-control-vs-final-ndt-trade-offs": [
+      "manufacturing-ndt-quality"
+    ],
+    "class-survey-ndt-scope-abs-dnv-lloyd": [
+      "marine-offshore-ndt"
+    ],
+    "tanker-ballast-tank-inspection-coating-and-thickness": [
+      "marine-offshore-ndt"
+    ],
+    "jacket-platform-girth-weld-inspection-from-rope-access": [
+      "marine-offshore-ndt"
+    ],
+    "flexible-riser-inspection-techniques-emerging": [
+      "marine-offshore-ndt"
+    ],
+    "in-water-survey-vs-drydock-survey-ndt-coverage": [
+      "marine-offshore-ndt"
+    ],
+    "aramco-cssp-vs-adnoc-mp-getting-approved-vendor": [
+      "middle-east-ndt-resource"
+    ],
+    "desert-pipeline-cui-aramco-saes-l": [
+      "middle-east-ndt-resource"
+    ],
+    "gcc-welder-qualification-recognition-across-borders": [
+      "middle-east-ndt-resource"
+    ],
+    "sour-service-h2s-inspection-program-gcc": [
+      "middle-east-ndt-resource"
+    ],
+    "inspection-procurement-the-gcc-way": [
+      "middle-east-ndt-resource"
+    ],
+    "haul-truck-frame-crack-inspection-program": [
+      "mining-ndt-hub"
+    ],
+    "mill-shell-girth-weld-inspection-sag-ball": [
+      "mining-ndt-hub"
+    ],
+    "conveyor-pulley-inspection-mt-ut-vt": [
+      "mining-ndt-hub"
+    ],
+    "tailings-dam-instrumentation-and-ndt-overlap": [
+      "mining-ndt-hub"
+    ],
+    "underground-mining-shaft-rope-inspection": [
+      "mining-ndt-hub"
+    ],
+    "ai-defect-detection-on-rt-films-state-of-art": [
+      "ndt-automation-future"
+    ],
+    "robotic-crawler-pipeline-inspection-trends": [
+      "ndt-automation-future"
+    ],
+    "digital-twin-for-ndt-data-architecture-2026": [
+      "ndt-automation-future"
+    ],
+    "auto-paut-data-interpretation-where-its-reliable": [
+      "ndt-automation-future"
+    ],
+    "cloud-vs-on-prem-ndt-data-the-2026-decision": [
+      "ndt-automation-future"
+    ],
+    "ndt-salary-by-method-and-region-2026": [
+      "ndt-careers-portal"
+    ],
+    "transitioning-from-welder-to-ndt-inspector": [
+      "ndt-careers-portal"
+    ],
+    "remote-ndt-jobs-are-they-real": [
+      "ndt-careers-portal"
+    ],
+    "offshore-vs-onshore-ndt-careers-financial-and-lifestyle": [
+      "ndt-careers-portal"
+    ],
+    "building-a-level-iii-consulting-practice": [
+      "ndt-careers-portal"
+    ],
+    "epoch-6lt-vs-epoch-650-real-world-comparison": [
+      "ndt-equipment-reviews"
+    ],
+    "omniscan-x3-vs-x3-64-which-channel-count-fits": [
+      "ndt-equipment-reviews"
+    ],
+    "crawler-vs-handheld-aut-for-pipeline-girths": [
+      "ndt-equipment-reviews"
+    ],
+    "calibration-blocks-buying-guide-2026": [
+      "ndt-equipment-reviews"
+    ],
+    "digital-rt-detectors-flat-panel-vs-line-scan": [
+      "ndt-equipment-reviews"
+    ],
+    "industrial-radiography-safety-program-essentials": [
+      "ndt-safety-compliance"
+    ],
+    "transport-of-ndt-sources-iata-imdg": [
+      "ndt-safety-compliance"
+    ],
+    "incident-investigation-after-ndt-source-loss": [
+      "ndt-safety-compliance"
+    ],
+    "lockout-tagout-for-ut-and-mt-on-rotating-equipment": [
+      "ndt-safety-compliance"
+    ],
+    "inspector-fatigue-and-pod-the-data-no-one-shares": [
+      "ndt-safety-compliance"
+    ],
+    "ndt-reporting-software-buyer-checklist-2026": [
+      "ndt-software-solutions"
+    ],
+    "on-prem-vs-saas-ndt-platforms-trade-offs": [
+      "ndt-software-solutions"
+    ],
+    "integrating-ndt-data-with-cmms-sap-pm-maximo": [
+      "ndt-software-solutions"
+    ],
+    "mobile-data-capture-offline-inspection-apps": [
+      "ndt-software-solutions"
+    ],
+    "data-retention-policy-for-ndt-files-7-years-or-life-of-asset": [
+      "ndt-software-solutions"
+    ],
+    "asme-section-v-2025-edition-changes": [
+      "ndt-standards-library"
+    ],
+    "iso-9712-vs-en-iso-vs-asnt-cross-recognition": [
+      "ndt-standards-library"
+    ],
+    "choosing-the-right-pipe-code-asme-b31-1-vs-b31-3-vs-b31-8": [
+      "ndt-standards-library"
+    ],
+    "aws-d1-1-vs-aws-d1-5-vs-aws-d1-6-pick-the-correct-code": [
+      "ndt-standards-library"
+    ],
+    "api-vs-asme-vs-iso-pressure-equipment-rules-quick-map": [
+      "ndt-standards-library"
+    ],
+    "designing-a-level-ii-ut-course-syllabus": [
+      "ndt-training-academy"
+    ],
+    "practical-vs-theory-hours-snt-tc-1a-vs-cp-189": [
+      "ndt-training-academy"
+    ],
+    "building-an-ndt-school-business-model": [
+      "ndt-training-academy"
+    ],
+    "online-vs-in-person-ndt-courses-where-each-wins": [
+      "ndt-training-academy"
+    ],
+    "eye-exam-jaeger-near-vision-ndt-acceptance": [
+      "ndt-training-academy"
+    ],
+    "upstream-midstream-downstream-inspection-budget-allocation": [
+      "oil-gas-inspection-guide"
+    ],
+    "crude-oil-storage-tank-inspection-api-653-walkthrough": [
+      "oil-gas-inspection-guide"
+    ],
+    "gathering-system-pipeline-inspection-cost-effective": [
+      "oil-gas-inspection-guide"
+    ],
+    "wellhead-inspection-and-pressure-testing": [
+      "oil-gas-inspection-guide"
+    ],
+    "lact-skid-and-meter-prover-inspection": [
+      "oil-gas-inspection-guide"
+    ],
+    "boiler-tube-inspection-program-for-fossil-plants": [
+      "power-generation-ndt"
+    ],
+    "turbine-blade-root-inspection-eddy-current-and-paut": [
+      "power-generation-ndt"
+    ],
+    "gas-turbine-hot-section-inspection-borescope-and-fpi": [
+      "power-generation-ndt"
+    ],
+    "condenser-tube-inspection-for-power-plants": [
+      "power-generation-ndt"
+    ],
+    "inspection-of-wind-turbine-tower-flange-bolts": [
+      "power-generation-ndt"
+    ],
+    "rail-flaw-detection-vehicle-types-and-tradeoffs": [
+      "rail-ndt-resource"
+    ],
+    "rolling-stock-wheel-set-ndt-paut-and-mt": [
+      "rail-ndt-resource"
+    ],
+    "thermite-weld-inspection-on-continuous-welded-rail": [
+      "rail-ndt-resource"
+    ],
+    "rail-corrosion-fatigue-detection-rcf-cracking": [
+      "rail-ndt-resource"
+    ],
+    "rail-bridge-truss-inspection-aar-mra": [
+      "rail-ndt-resource"
+    ],
+    "wind-turbine-foundation-grout-inspection-offshore": [
+      "renewable-energy-ndt"
+    ],
+    "green-hydrogen-pipeline-inspection-considerations": [
+      "renewable-energy-ndt"
+    ],
+    "csp-receiver-tube-inspection-concentrated-solar": [
+      "renewable-energy-ndt"
+    ],
+    "geothermal-well-casing-corrosion-and-inspection": [
+      "renewable-energy-ndt"
+    ],
+    "wind-blade-leading-edge-erosion-detection-and-repair": [
+      "renewable-energy-ndt"
+    ],
+    "api-653-out-of-service-internal-inspection-checklist": [
+      "tank-inspection-resource"
+    ],
+    "tank-floor-mfl-vs-paut-which-fits-the-job": [
+      "tank-inspection-resource"
+    ],
+    "tank-shell-thickness-program-with-out-of-service-inspection": [
+      "tank-inspection-resource"
+    ],
+    "floating-roof-seal-inspection-and-leak-detection": [
+      "tank-inspection-resource"
+    ],
+    "soil-side-corrosion-on-tank-floors-and-detection": [
+      "tank-inspection-resource"
+    ],
+    "cwi-vs-cswip-vs-iwi-which-cert-for-which-market": [
+      "welding-inspection-hub"
+    ],
+    "visual-weld-acceptance-by-code-asme-vs-aws": [
+      "welding-inspection-hub"
+    ],
+    "weld-procedure-qualification-record-pqr-from-zero": [
+      "welding-inspection-hub"
+    ],
+    "welding-distortion-control-on-thin-plate-fabrication": [
+      "welding-inspection-hub"
+    ],
+    "macro-etch-test-on-welds-what-it-actually-shows": [
+      "welding-inspection-hub"
     ]
   },
   "anchorCounts": {
-    "the ultrasonic testing methods most often shortlisted": 1,
-    "ISO 55000 asset management family": 9,
-    "requirements published in the Level III certification guide": 1,
-    "the NRC operating experience archive": 8,
-    "the ASNT body of knowledge resources": 2,
-    "the ASME Section V requirements summary": 1,
-    "a worked example of an ASME Section V procedure": 1,
-    "100 frequently asked NDT questions answered": 1,
-    "the IMCA technical resources for offshore work": 6,
-    "the AWS standards catalog": 9,
-    "the 2025 NDT career and salary outlook": 1,
-    "Level III certification requirements": 1,
-    "the API 580/581 implementation walkthrough": 1,
-    "the RBI rollout playbook": 1,
-    "the API individual certification program overview": 1,
-    "the API 579 fitness-for-service primer": 1,
-    "the AMPP standards portal": 3,
-    "integrity KPI dashboards built on NDT reporting data": 1,
-    "IOWs as the trigger layer for RBI": 1,
-    "integrating IOWs into a digital twin program": 1,
-    "DNV asset integrity services portfolio": 9,
-    "the pipeline integrity primer used as a reference": 1,
-    "NRC operating experience reports": 3,
-    "the NACE corrosion management standards summary": 1,
-    "the IAEA non-destructive testing programme": 4,
-    "the pipeline integrity overview that introduces crack management": 1,
-    "AMPP (Association for Materials Protection and Performance)": 2,
-    "the NACE/AMPP standards reference": 2,
-    "the corresponding mechanical damage assessment notes": 1,
-    "the PAUT technology guide used for HTHA scanning": 1,
-    "the ASME Section VIII Division 1 NDT rules": 1,
-    "the NADCAP audit programme overview": 3,
-    "the ASME VIII Division 1 NDT companion": 1,
-    "the UT thickness monitoring reference": 1,
-    "the corrosion thickness measurement guide": 1,
-    "ASNT (American Society for Nondestructive Testing)": 4,
-    "why digital twins shorten refinery turnaround time": 1,
-    "the inspection reporting software used in modern turnarounds": 1,
-    "the nuclear NDT compliance reference": 1,
-    "the ASME Section V requirements digest": 1,
-    "the PAUT technology overview for nuclear scope": 1,
-    "the ASME Section V procedure-writing reference": 1,
-    "the wider nuclear NDT compliance article": 1,
-    "the complete PAUT technical guide": 1,
-    "the conventional UT vs PAUT decision guide": 1,
-    "the deeper subsea NDT challenges article": 1,
-    "offshore platform inspection challenges": 1,
-    "the NACE corrosion management overview": 1,
-    "the technical PAUT guide": 1,
-    "the DNV rules summary for offshore structures": 1,
-    "the aerospace NDT services overview": 1,
-    "the methods overview for composite inspection": 1,
-    "the broader aerospace NDT methods reference": 1,
-    "the aerospace NDT services capabilities page": 1,
-    "the penetrant testing technique reference": 1,
-    "the pressure vessel inspection and compliance overview": 1,
-    "the ASME Section VIII Division 1 NDT requirements": 1,
-    "the PAUT technology overview": 1,
-    "the ultrasonic thickness measurement guide": 1,
-    "the guided wave testing primer": 1,
-    "the weld defect classification reference": 1,
-    "the comprehensive AWS D1.1 acceptance criteria guide": 1,
-    "the digital radiography vs film comparison": 1,
-    "the dedicated visual testing reference": 1,
-    "the weld inspection methods overview": 1,
-    "the welded components inspection reference": 1,
-    "the UT corrosion monitoring guide": 1,
-    "the dedicated CUI detection guide": 1,
-    "the NACE/AMPP standards summary": 1,
-    "the corrosion mapping methodology": 1,
-    "the NACE corrosion management standards": 1,
-    "inspection reporting software used in CMP execution": 1
+    "the ultrasonic testing methods most often shortlisted": 7,
+    "ISO 55000 asset management family": 29,
+    "requirements published in the Level III certification guide": 5,
+    "the NRC operating experience archive": 28,
+    "the ASNT body of knowledge resources": 9,
+    "the ASME Section V requirements summary": 3,
+    "a worked example of an ASME Section V procedure": 2,
+    "100 frequently asked NDT questions answered": 2,
+    "the IMCA technical resources for offshore work": 31,
+    "the AWS standards catalog": 36,
+    "the 2025 NDT career and salary outlook": 7,
+    "Level III certification requirements": 5,
+    "the API 580/581 implementation walkthrough": 2,
+    "the RBI rollout playbook": 2,
+    "the API individual certification program overview": 14,
+    "the API 579 fitness-for-service primer": 2,
+    "the AMPP standards portal": 14,
+    "integrity KPI dashboards built on NDT reporting data": 11,
+    "IOWs as the trigger layer for RBI": 2,
+    "integrating IOWs into a digital twin program": 2,
+    "DNV asset integrity services portfolio": 34,
+    "the pipeline integrity primer used as a reference": 3,
+    "NRC operating experience reports": 9,
+    "the NACE corrosion management standards summary": 2,
+    "the IAEA non-destructive testing programme": 20,
+    "the pipeline integrity overview that introduces crack management": 4,
+    "AMPP (Association for Materials Protection and Performance)": 9,
+    "the NACE/AMPP standards reference": 11,
+    "the corresponding mechanical damage assessment notes": 2,
+    "the PAUT technology guide used for HTHA scanning": 2,
+    "the ASME Section VIII Division 1 NDT rules": 2,
+    "the NADCAP audit programme overview": 18,
+    "the ASME VIII Division 1 NDT companion": 2,
+    "the UT thickness monitoring reference": 2,
+    "the corrosion thickness measurement guide": 3,
+    "ASNT (American Society for Nondestructive Testing)": 17,
+    "why digital twins shorten refinery turnaround time": 2,
+    "the inspection reporting software used in modern turnarounds": 4,
+    "the nuclear NDT compliance reference": 4,
+    "the ASME Section V requirements digest": 4,
+    "the PAUT technology overview for nuclear scope": 2,
+    "the ASME Section V procedure-writing reference": 2,
+    "the wider nuclear NDT compliance article": 2,
+    "the complete PAUT technical guide": 7,
+    "the conventional UT vs PAUT decision guide": 10,
+    "the deeper subsea NDT challenges article": 3,
+    "offshore platform inspection challenges": 3,
+    "the NACE corrosion management overview": 2,
+    "the technical PAUT guide": 2,
+    "the DNV rules summary for offshore structures": 6,
+    "the aerospace NDT services overview": 2,
+    "the methods overview for composite inspection": 8,
+    "the broader aerospace NDT methods reference": 2,
+    "the aerospace NDT services capabilities page": 3,
+    "the penetrant testing technique reference": 3,
+    "the pressure vessel inspection and compliance overview": 10,
+    "the ASME Section VIII Division 1 NDT requirements": 6,
+    "the PAUT technology overview": 2,
+    "the ultrasonic thickness measurement guide": 3,
+    "the guided wave testing primer": 4,
+    "the weld defect classification reference": 8,
+    "the comprehensive AWS D1.1 acceptance criteria guide": 5,
+    "the digital radiography vs film comparison": 3,
+    "the dedicated visual testing reference": 5,
+    "the weld inspection methods overview": 5,
+    "the welded components inspection reference": 2,
+    "the UT corrosion monitoring guide": 4,
+    "the dedicated CUI detection guide": 2,
+    "the NACE/AMPP standards summary": 2,
+    "the corrosion mapping methodology": 4,
+    "the NACE corrosion management standards": 2,
+    "inspection reporting software used in CMP execution": 2,
+    "the API 510 inspection code summary": 8,
+    "the affordable NDT ERP option for shaybah": 2,
+    "the NDT ERP solution overview": 6,
+    "the helpdesk ndt inspection companies kuala lumpur resource on Atlantis NDT": 3,
+    "how candidates plan their NDT training": 2,
+    "the accounting ndt inspection companies mumbai resource on Atlantis NDT": 3,
+    "the best erp software malaysia construction oil gas 2026 reference": 4,
+    "the inventory management for ndt companies resource on Atlantis NDT": 2,
+    "the stanlow NDT ERP page": 1,
+    "the digital twin platform overview": 5,
+    "the inventory management ndt inspection companies london resource on Atlantis NDT": 1,
+    "the ultimate guide to NDT digital twins": 10,
+    "the project management ndt inspection companies houston resource on Atlantis NDT": 1,
+    "the affordable NDT ERP option for mussafah": 1,
+    "Atlantis NDT's working notes on digital twin platform roi calculator examples 2026": 1,
+    "Atlantis NDT's working notes on best erp software malaysia construction oil gas 2026": 1,
+    "the affordable NDT ERP option for texas": 1,
+    "the affordable NDT ERP option for baytown": 1,
+    "the affordable NDT ERP option for deer park": 1,
+    "the whyalla NDT ERP page": 1,
+    "the welding fabrication erp software guide 2026 reference": 1,
+    "the richmond california NDT ERP page": 1,
+    "the surat NDT ERP page": 1,
+    "the digital twin ROI calculator with worked examples": 4,
+    "the erp software london affordable uk 2026 reference": 2,
+    "the affordable NDT ERP option for fort saskatchewan": 1,
+    "the long-form article on digital twin corrosion monitoring vendors comparison": 1,
+    "Atlantis NDT's working notes on affordable erp alternative sap oracle netsuite comparison": 3,
+    "the Atlantis NDT ERP overview (Odoo apps, $18,000/yr all-in)": 4,
+    "the hamilton ontario NDT ERP page": 1,
+    "the ASNT certification overview": 4,
+    "the best erp software singapore construction 2026 reference": 2,
+    "the digital twin roadmap for oil & gas asset integrity": 4,
+    "the CRM-for-NDT-inspection-companies guide for houston": 1,
+    "the field service ndt inspection companies singapore resource on Atlantis NDT": 1,
+    "the asset integrity digital twin guide 2026 reference": 1,
+    "the ndt inspection software comparison 2026 reference": 1,
+    "the affordable NDT ERP option for east chicago": 1,
+    "the pos for ndt companies resource on Atlantis NDT": 1,
+    "the long-form article on ai predictive maintenance digital twins aviation ndt": 2,
+    "the odoo vs sap vs netsuite erp comparison 2026 reference": 1,
+    "the accounting ndt inspection companies perth resource on Atlantis NDT": 1,
+    "the affordable NDT ERP positioning page": 2,
+    "the digital-twin-aware reporting platform": 2,
+    "the affordable NDT ERP option for port kembla": 1,
+    "digital twins in oil & gas - the longer reference": 1,
+    "the hr payroll ndt inspection companies mumbai resource on Atlantis NDT": 1,
+    "an independent digital twin vendor comparison": 5,
+    "the hr payroll ndt inspection companies doha resource on Atlantis NDT": 2,
+    "the email marketing ndt inspection companies calgary overview maintained by Atlantis NDT": 2,
+    "the long-form article on ndt inspection software comparison 2026": 2,
+    "the affordable NDT ERP option for bintulu": 1,
+    "NDT method selection workflow used in pipeline integrity programs": 6,
+    "the affordable NDT ERP option for panama": 1,
+    "the PAUT technology guide": 2,
+    "the ai predictive maintenance digital twins aviation ndt reference": 2,
+    "the bintulu NDT ERP page": 1,
+    "the long-form article on crm for ndt inspection companies guide": 3,
+    "the hr payroll for ndt companies resource on Atlantis NDT": 2,
+    "the longer CUI inspection deep-dive": 1,
+    "the digital twin vendor comparison": 3,
+    "the sales management for inspection companies resource on Atlantis NDT": 2,
+    "the long-form article on digital twin platform roi calculator examples 2026": 2,
+    "the affordable NDT ERP option for fujairah": 1,
+    "the SNT-TC-1A vs CP-189 qualification comparison": 6,
+    "the manufacturing ndt inspection companies dubai resource on Atlantis NDT": 1,
+    "the manufacturing ndt inspection companies doha resource on Atlantis NDT": 1,
+    "the API ICP individual certification program": 13,
+    "how integrity engineers compare inspection methods": 2,
+    "the long-form article on best erp software malaysia construction oil gas 2026": 1,
+    "Atlantis NDT's working notes on digital twin platform api access integration guide": 3,
+    "the best NDT reporting software for KPI tracking": 10,
+    "the wilmington california NDT ERP page": 1,
+    "the long-form article on digital twin platform api access integration guide": 1,
+    "the pengerang NDT ERP page": 1,
+    "structured NDT training pathways": 3,
+    "the NDT reporting software product page": 1,
+    "the tunisia NDT ERP page": 1,
+    "a digital-twin roadmap for asset integrity programs": 2,
+    "the field service management for ndt resource on Atlantis NDT": 1,
+    "the manufacturing ndt inspection companies abu dhabi resource on Atlantis NDT": 1,
+    "the ontario NDT ERP page": 1,
+    "the field service ndt inspection companies kuala lumpur resource on Atlantis NDT": 1,
+    "NDT ERP pricing & app coverage for ohio": 1,
+    "Atlantis NDT's working notes on welding fabrication erp software guide 2026": 2,
+    "the accounting ndt inspection companies kuala lumpur resource on Atlantis NDT": 1,
+    "the hr payroll ndt inspection companies perth resource on Atlantis NDT": 1,
+    "NDT ERP pricing & app coverage for sri lanka": 1,
+    "the email marketing ndt inspection companies london overview maintained by Atlantis NDT": 1,
+    "the affordable NDT ERP option for mesaieed": 1,
+    "guided wave screening for pipelines": 4,
+    "Atlantis NDT's working notes on ndt inspection software comparison 2026": 2,
+    "the affordable NDT ERP option for abqaiq": 1,
+    "NDT ERP pricing & app coverage for pennsylvania": 1,
+    "the affordable erp alternative sap oracle netsuite comparison reference": 2,
+    "the crm for ndt inspection companies guide reference": 2,
+    "the affordable NDT ERP option for carson": 1,
+    "the Digital Twin software for NDT 2026 page": 5,
+    "the invoicing software for ndt companies resource on Atlantis NDT": 1,
+    "the Odoo-for-NDT solution page": 1,
+    "the accounting ndt inspection companies singapore resource on Atlantis NDT": 1,
+    "the email marketing ndt inspection companies perth overview maintained by Atlantis NDT": 1,
+    "the cyprus NDT ERP page": 1,
+    "Atlantis NDT's digital twin platform overview": 1,
+    "the manufacturing ndt inspection companies london resource on Atlantis NDT": 1,
+    "the project management ndt inspection companies dubai resource on Atlantis NDT": 1,
+    "the long-form article on affordable erp alternative sap oracle netsuite comparison": 1,
+    "the guyana NDT ERP page": 1,
+    "NDT ERP pricing & app coverage for kemaman": 1,
+    "the full Level III certification requirements": 1,
+    "the hr payroll ndt inspection companies singapore resource on Atlantis NDT": 1,
+    "the ASNT certification overview maintained by Atlantis NDT": 2,
+    "NDT ERP pricing & app coverage for fort saskatchewan": 1,
+    "the digital twin ROI calculator": 1,
+    "the quality management for ndt companies resource on Atlantis NDT": 1,
+    "the broader pipeline integrity inspection guide": 2,
+    "Atlantis NDT's working notes on digital twin corrosion monitoring vendors comparison": 1,
+    "the email marketing software for ndt overview maintained by Atlantis NDT": 1,
+    "the texas city NDT ERP page": 1,
+    "the inventory management ndt inspection companies kuala lumpur resource on Atlantis NDT": 1,
+    "NDT ERP pricing & app coverage for channelview": 1,
+    "the accounting software for ndt companies resource on Atlantis NDT": 1,
+    "Atlantis NDT's working notes on asset integrity digital twin guide 2026": 1,
+    "the affordable NDT ERP option for alberta": 1,
+    "the marketing automation for ndt companies overview maintained by Atlantis NDT": 1
   },
   "targetUrlCounts": {
-    "https://atlantisndt.com/blog/ultrasonic-testing": 1,
-    "https://www.iso.org/standard/55000": 9,
-    "https://atlantisndt.com/blog/ndt-level-iii-certification-requirements-guide": 2,
-    "https://www.nrc.gov/reactors/operating/ops-experience.html": 11,
-    "https://www.asnt.org/": 6,
-    "https://atlantisndt.com/blog/asme-section-v-ndt-requirements-guide": 2,
-    "https://atlantisndt.com/blog/ndt-procedure-writing-guide-asme-section-v": 2,
-    "https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide": 1,
-    "https://www.imca-int.com/": 6,
-    "https://www.aws.org/standards": 9,
-    "https://atlantisndt.com/blog/ndt-career-top-choice-2025-global-market-trends": 1,
-    "https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide": 3,
-    "https://www.api.org/products-and-services/individual-certification-programs": 1,
-    "https://atlantisndt.com/blog/api-579-fitness-for-service-guide": 1,
-    "https://www.ampp.org/": 5,
-    "https://atlantisndt.com/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity": 1,
-    "https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity": 1,
-    "https://www.dnv.com/services/structural-and-asset-integrity-services-2293": 9,
-    "https://atlantisndt.com/blog/ndt-pipeline-integrity-inspection-guide": 2,
-    "https://atlantisndt.com/blog/nace-corrosion-management-standards": 6,
-    "https://www.iaea.org/topics/non-destructive-testing": 4,
-    "https://atlantisndt.com/blog/pipeline-corrosion-and-mechanical-damage-assessment": 1,
-    "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide": 4,
-    "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt": 3,
-    "https://www.nadcap.com/": 3,
-    "https://atlantisndt.com/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide": 4,
-    "https://atlantisndt.com/blog/digital-twins-reduce-refinery-turnaround-time": 1,
-    "https://atlantisndt.com/ndt-reporting-software": 2,
-    "https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance": 2,
-    "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide": 1,
-    "https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose": 1,
-    "https://atlantisndt.com/blog/offshore-platform-inspection-subsea-ndt-challenges": 2,
-    "https://atlantisndt.com/blog/dnvgl-rules-for-offshore-structures": 1,
-    "https://atlantisndt.com/aerospace-ndt-services": 2,
-    "https://atlantisndt.com/blog/aerospace-composite-inspection-ndt-methods-guide": 2,
-    "https://atlantisndt.com/blog/penetrant-testing": 1,
-    "https://atlantisndt.com/blog/pressure-vessel-inspection-and-compliance": 1,
-    "https://atlantisndt.com/blog/guided-wave-testing-for-pipeline-inspection": 1,
-    "https://atlantisndt.com/blog/weld-defect-classification-and-detection-methods": 1,
-    "https://atlantisndt.com/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide": 1,
-    "https://atlantisndt.com/blog/radiography-vs-digital-radiography-complete-comparison": 1,
-    "https://atlantisndt.com/blog/visual-testing": 1,
-    "https://atlantisndt.com/blog/weld-inspection-ndt-methods-guide": 1,
-    "https://atlantisndt.com/blog/automotive-welded-components-inspection": 1,
-    "https://atlantisndt.com/blog/corrosion-under-insulation-cui-detection-guide": 1,
-    "https://atlantisndt.com/blog/corrosion-mapping-with-multiple-ndt-methods": 1
+    "https://atlantisndt.com/blog/ultrasonic-testing": 7,
+    "https://www.iso.org/standard/55000": 29,
+    "https://atlantisndt.com/blog/ndt-level-iii-certification-requirements-guide": 11,
+    "https://www.nrc.gov/reactors/operating/ops-experience.html": 37,
+    "https://www.asnt.org/": 26,
+    "https://atlantisndt.com/blog/asme-section-v-ndt-requirements-guide": 7,
+    "https://atlantisndt.com/blog/ndt-procedure-writing-guide-asme-section-v": 4,
+    "https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide": 2,
+    "https://www.imca-int.com/": 31,
+    "https://www.aws.org/standards": 36,
+    "https://atlantisndt.com/blog/ndt-career-top-choice-2025-global-market-trends": 7,
+    "https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide": 6,
+    "https://www.api.org/products-and-services/individual-certification-programs": 27,
+    "https://atlantisndt.com/blog/api-579-fitness-for-service-guide": 2,
+    "https://www.ampp.org/": 23,
+    "https://atlantisndt.com/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity": 11,
+    "https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity": 8,
+    "https://www.dnv.com/services/structural-and-asset-integrity-services-2293": 34,
+    "https://atlantisndt.com/blog/ndt-pipeline-integrity-inspection-guide": 17,
+    "https://atlantisndt.com/blog/nace-corrosion-management-standards": 19,
+    "https://www.iaea.org/topics/non-destructive-testing": 20,
+    "https://atlantisndt.com/blog/pipeline-corrosion-and-mechanical-damage-assessment": 2,
+    "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide": 10,
+    "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt": 10,
+    "https://www.nadcap.com/": 18,
+    "https://atlantisndt.com/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide": 12,
+    "https://atlantisndt.com/blog/digital-twins-reduce-refinery-turnaround-time": 2,
+    "https://atlantisndt.com/ndt-reporting-software": 9,
+    "https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance": 6,
+    "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide": 7,
+    "https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose": 10,
+    "https://atlantisndt.com/blog/offshore-platform-inspection-subsea-ndt-challenges": 6,
+    "https://atlantisndt.com/blog/dnvgl-rules-for-offshore-structures": 6,
+    "https://atlantisndt.com/aerospace-ndt-services": 5,
+    "https://atlantisndt.com/blog/aerospace-composite-inspection-ndt-methods-guide": 10,
+    "https://atlantisndt.com/blog/penetrant-testing": 3,
+    "https://atlantisndt.com/blog/pressure-vessel-inspection-and-compliance": 10,
+    "https://atlantisndt.com/blog/guided-wave-testing-for-pipeline-inspection": 8,
+    "https://atlantisndt.com/blog/weld-defect-classification-and-detection-methods": 8,
+    "https://atlantisndt.com/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide": 5,
+    "https://atlantisndt.com/blog/radiography-vs-digital-radiography-complete-comparison": 3,
+    "https://atlantisndt.com/blog/visual-testing": 5,
+    "https://atlantisndt.com/blog/weld-inspection-ndt-methods-guide": 5,
+    "https://atlantisndt.com/blog/automotive-welded-components-inspection": 2,
+    "https://atlantisndt.com/blog/corrosion-under-insulation-cui-detection-guide": 3,
+    "https://atlantisndt.com/blog/corrosion-mapping-with-multiple-ndt-methods": 4,
+    "https://atlantisndt.com/blog/api-510-pressure-vessel-inspection-code": 8,
+    "https://atlantisndt.com/ndt-erp-shaybah": 2,
+    "https://atlantisndt.com/ndt-erp-solution": 7,
+    "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-kuala-lumpur": 3,
+    "https://atlantisndt.com/blog/ndt-training-complete-guide-courses-certification-global": 5,
+    "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-mumbai": 3,
+    "https://atlantisndt.com/blog/best-erp-software-malaysia-construction-oil-gas-2026": 6,
+    "https://atlantisndt.com/erp/inventory-management-for-ndt-companies": 2,
+    "https://atlantisndt.com/ndt-erp-stanlow": 1,
+    "https://atlantisndt.com/digital-twins": 11,
+    "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-london": 1,
+    "https://atlantisndt.com/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025": 10,
+    "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-houston": 1,
+    "https://atlantisndt.com/ndt-erp-mussafah": 1,
+    "https://atlantisndt.com/blog/digital-twin-platform-roi-calculator-examples-2026": 3,
+    "https://atlantisndt.com/ndt-erp-texas": 1,
+    "https://atlantisndt.com/ndt-erp-baytown": 1,
+    "https://atlantisndt.com/ndt-erp-deer-park": 1,
+    "https://atlantisndt.com/ndt-erp-whyalla": 1,
+    "https://atlantisndt.com/blog/welding-fabrication-erp-software-guide-2026": 3,
+    "https://atlantisndt.com/ndt-erp-richmond-california": 1,
+    "https://atlantisndt.com/ndt-erp-surat": 1,
+    "https://atlantisndt.com/digital-twin-roi-calculator": 5,
+    "https://atlantisndt.com/blog/erp-software-london-affordable-uk-2026": 2,
+    "https://atlantisndt.com/ndt-erp-fort-saskatchewan": 2,
+    "https://atlantisndt.com/blog/digital-twin-corrosion-monitoring-vendors-comparison": 2,
+    "https://atlantisndt.com/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison": 6,
+    "https://atlantisndt.com/erp": 6,
+    "https://atlantisndt.com/ndt-erp-hamilton-ontario": 1,
+    "https://atlantisndt.com/asnt-certification": 6,
+    "https://atlantisndt.com/blog/best-erp-software-singapore-construction-2026": 2,
+    "https://atlantisndt.com/erp/crm-ndt-inspection-companies-houston": 1,
+    "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-singapore": 1,
+    "https://atlantisndt.com/blog/asset-integrity-digital-twin-guide-2026": 2,
+    "https://atlantisndt.com/blog/ndt-inspection-software-comparison-2026": 5,
+    "https://atlantisndt.com/ndt-erp-east-chicago": 1,
+    "https://atlantisndt.com/erp/pos-for-ndt-companies": 1,
+    "https://atlantisndt.com/blog/ai-predictive-maintenance-digital-twins-aviation-ndt": 4,
+    "https://atlantisndt.com/blog/odoo-vs-sap-vs-netsuite-erp-comparison-2026": 1,
+    "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-perth": 1,
+    "https://atlantisndt.com/ndt-erp-port-kembla": 1,
+    "https://atlantisndt.com/blog/digital-twins-oil-gas": 1,
+    "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-mumbai": 1,
+    "https://atlantisndt.com/digital-twin-vendor-comparison": 8,
+    "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-doha": 2,
+    "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-calgary": 2,
+    "https://atlantisndt.com/ndt-erp-bintulu": 2,
+    "https://atlantisndt.com/ndt-erp-panama": 1,
+    "https://atlantisndt.com/blog/crm-for-ndt-inspection-companies-guide": 5,
+    "https://atlantisndt.com/erp/hr-payroll-for-ndt-companies": 2,
+    "https://atlantisndt.com/erp/sales-management-for-inspection-companies": 2,
+    "https://atlantisndt.com/ndt-erp-fujairah": 1,
+    "https://atlantisndt.com/blog/asnt-snt-tc-1a-vs-cp-189-comparison": 6,
+    "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-dubai": 1,
+    "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-doha": 1,
+    "https://atlantisndt.com/blog/digital-twin-platform-api-access-integration-guide": 4,
+    "https://atlantisndt.com/blog/best-ndt-reporting-software-oil-gas-digital-twin": 10,
+    "https://atlantisndt.com/ndt-erp-wilmington-california": 1,
+    "https://atlantisndt.com/ndt-erp-pengerang": 1,
+    "https://atlantisndt.com/ndt-erp-tunisia": 1,
+    "https://atlantisndt.com/erp/field-service-management-for-ndt": 1,
+    "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-abu-dhabi": 1,
+    "https://atlantisndt.com/ndt-erp-ontario": 1,
+    "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-kuala-lumpur": 1,
+    "https://atlantisndt.com/ndt-erp-ohio": 1,
+    "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-kuala-lumpur": 1,
+    "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-perth": 1,
+    "https://atlantisndt.com/ndt-erp-sri-lanka": 1,
+    "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-london": 1,
+    "https://atlantisndt.com/ndt-erp-mesaieed": 1,
+    "https://atlantisndt.com/ndt-erp-abqaiq": 1,
+    "https://atlantisndt.com/ndt-erp-pennsylvania": 1,
+    "https://atlantisndt.com/ndt-erp-carson": 1,
+    "https://atlantisndt.com/erp/invoicing-software-for-ndt-companies": 1,
+    "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-singapore": 1,
+    "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-perth": 1,
+    "https://atlantisndt.com/ndt-erp-cyprus": 1,
+    "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-london": 1,
+    "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-dubai": 1,
+    "https://atlantisndt.com/ndt-erp-guyana": 1,
+    "https://atlantisndt.com/ndt-erp-kemaman": 1,
+    "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-singapore": 1,
+    "https://atlantisndt.com/erp/quality-management-for-ndt-companies": 1,
+    "https://atlantisndt.com/erp/email-marketing-software-for-ndt": 1,
+    "https://atlantisndt.com/ndt-erp-texas-city": 1,
+    "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-kuala-lumpur": 1,
+    "https://atlantisndt.com/ndt-erp-channelview": 1,
+    "https://atlantisndt.com/erp/accounting-software-for-ndt-companies": 1,
+    "https://atlantisndt.com/ndt-erp-alberta": 1,
+    "https://atlantisndt.com/erp/marketing-automation-for-ndt-companies": 1
   },
   "runs": [
     {
@@ -289,6 +879,54 @@
         "corrosion-management-ndt"
       ],
       "count": 10
+    },
+    {
+      "at": "2026-05-23T04:02:26.191Z",
+      "targets": [
+        "api-certification-guide"
+      ],
+      "count": 1
+    },
+    {
+      "at": "2026-05-23T04:02:46.926Z",
+      "targets": [
+        "ndt-knowledge-hub",
+        "asset-integrity-hub",
+        "pipeline-integrity-guide",
+        "petrochemical-ndt-hub",
+        "nuclear-ndt-resource",
+        "subsea-inspection-guide",
+        "aerospace-ndt-standards",
+        "pressure-vessel-ndt",
+        "weld-quality-resource",
+        "corrosion-management-ndt",
+        "advanced-ndt-techniques",
+        "api-certification-guide",
+        "coating-inspection-guide",
+        "composite-testing-hub",
+        "construction-ndt-guide",
+        "heat-exchanger-ndt",
+        "industrial-inspection-resources",
+        "lng-inspection-hub",
+        "manufacturing-ndt-quality",
+        "marine-offshore-ndt",
+        "middle-east-ndt-resource",
+        "mining-ndt-hub",
+        "ndt-automation-future",
+        "ndt-careers-portal",
+        "ndt-equipment-reviews",
+        "ndt-safety-compliance",
+        "ndt-software-solutions",
+        "ndt-standards-library",
+        "ndt-training-academy",
+        "oil-gas-inspection-guide",
+        "power-generation-ndt",
+        "rail-ndt-resource",
+        "renewable-energy-ndt",
+        "tank-inspection-resource",
+        "welding-inspection-hub"
+      ],
+      "count": 35
     }
   ]
 }
