@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">LACT Skid and Meter Prover Inspection: What QA Should Look For</div>
           <div className="mt-2 text-sm text-gray-600">LACT Skid and Meter Prover Inspection: What QA Should Look For</div>
         </a>
+        <a href="/sectors/gas-processing-plant-inspection-priority-units" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-05-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Gas Processing Plant Inspection: Priority Units and Risk-Ranked NDT</div>
+          <div className="mt-2 text-sm text-gray-600">Gas Processing Plant Inspection: Priority Units and Risk-Ranked NDT</div>
+        </a>
+        <a href="/sectors/subsurface-safety-valve-inspection-essentials" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-08-24</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Subsurface Safety Valve (SSSV) Inspection Essentials</div>
+          <div className="mt-2 text-sm text-gray-600">Subsurface Safety Valve (SSSV) Inspection Essentials</div>
+        </a>
+        <a href="/sectors/separator-and-knockout-drum-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-12-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Separator and Knock-Out Drum Inspection: Damage Mechanisms to Hunt For</div>
+          <div className="mt-2 text-sm text-gray-600">Separator and Knock-Out Drum Inspection: Damage Mechanisms to Hunt For</div>
+        </a>
+        <a href="/sectors/midstream-station-yard-inspection-pump-compressor" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-03-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Midstream Station Yard Inspection: Pumps, Compressors, and Yard Piping</div>
+          <div className="mt-2 text-sm text-gray-600">Midstream Station Yard Inspection: Pumps, Compressors, and Yard Piping</div>
+        </a>
+        <a href="/sectors/lease-tank-battery-inspection-program" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-05-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Lease Tank Battery Inspection Program for Upstream Operators</div>
+          <div className="mt-2 text-sm text-gray-600">Lease Tank Battery Inspection Program for Upstream Operators</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-amber-50 border border-amber-100 rounded">
         <div className="text-sm uppercase tracking-wide text-amber-700 font-medium">Featured industry resource</div>

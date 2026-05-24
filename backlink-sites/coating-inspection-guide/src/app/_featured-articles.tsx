@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Coating Failure Modes: Osmotic Blistering, Disbondment, and What Each Tells You</div>
           <div className="mt-2 text-sm text-gray-600">Coating Failure Modes: Osmotic Blistering, Disbondment, and What Each Tells You</div>
         </a>
+        <a href="/inspections/ndt-coating-inspector-day-one-jobsite-kit" className="block p-4 bg-white border border-gray-200 rounded hover:border-teal-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-teal-600">2025-05-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Coating Inspector Day-One Jobsite Kit: What Belongs and What Does Not</div>
+          <div className="mt-2 text-sm text-gray-600">Coating Inspector Day-One Jobsite Kit: What Belongs and What Does Not</div>
+        </a>
+        <a href="/inspections/dew-point-vs-substrate-temp-painting-decision-rule" className="block p-4 bg-white border border-gray-200 rounded hover:border-teal-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-teal-600">2025-09-02</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Dew Point vs Substrate Temperature: The Painting Decision Rule Every Inspector Should Know</div>
+          <div className="mt-2 text-sm text-gray-600">Dew Point vs Substrate Temperature: The Painting Decision Rule Every Inspector Should Know</div>
+        </a>
+        <a href="/inspections/fiber-glass-and-frp-coating-inspection-considerations" className="block p-4 bg-white border border-gray-200 rounded hover:border-teal-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-teal-600">2025-11-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Fiberglass and FRP Coating Inspection Considerations</div>
+          <div className="mt-2 text-sm text-gray-600">Fiberglass and FRP Coating Inspection Considerations</div>
+        </a>
+        <a href="/inspections/tank-internal-lining-inspection-acceptance-criteria" className="block p-4 bg-white border border-gray-200 rounded hover:border-teal-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-teal-600">2026-02-27</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tank Internal Lining Inspection: Acceptance Criteria That Hold Up</div>
+          <div className="mt-2 text-sm text-gray-600">Tank Internal Lining Inspection: Acceptance Criteria That Hold Up</div>
+        </a>
+        <a href="/inspections/pipe-coating-fbe-vs-3lpe-vs-3lpp-when-each-fits" className="block p-4 bg-white border border-gray-200 rounded hover:border-teal-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-teal-600">2026-05-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Pipe Coating: FBE vs 3LPE vs 3LPP — When Each Fits</div>
+          <div className="mt-2 text-sm text-gray-600">Pipe Coating: FBE vs 3LPE vs 3LPP — When Each Fits</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-teal-50 border border-teal-100 rounded">
         <div className="text-sm uppercase tracking-wide text-teal-700 font-medium">Featured industry resource</div>

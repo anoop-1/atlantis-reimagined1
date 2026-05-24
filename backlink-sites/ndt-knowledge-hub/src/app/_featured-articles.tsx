@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">NDT Career Paths: From Level I Trainee to Level III Engineer</div>
           <div className="mt-2 text-sm text-gray-600">NDT Career Paths: From Level I Trainee to Level III Engineer</div>
         </a>
+        <a href="/guides/ndt-procedure-writing-from-blank-page-to-approved-doc" className="block p-4 bg-white border border-gray-200 rounded hover:border-primary-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-primary-600">2025-05-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">NDT Procedure Writing: From Blank Page to Approved Document</div>
+          <div className="mt-2 text-sm text-gray-600">NDT Procedure Writing: From Blank Page to Approved Document</div>
+        </a>
+        <a href="/guides/practical-vt-checklist-for-new-level-i-inspectors" className="block p-4 bg-white border border-gray-200 rounded hover:border-primary-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-primary-600">2025-09-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Practical VT Checklist for New Level I Inspectors</div>
+          <div className="mt-2 text-sm text-gray-600">Practical VT Checklist for New Level I Inspectors</div>
+        </a>
+        <a href="/guides/reading-ut-a-scans-without-getting-fooled" className="block p-4 bg-white border border-gray-200 rounded hover:border-primary-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-primary-600">2025-12-02</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Reading UT A-Scans Without Getting Fooled by Geometry</div>
+          <div className="mt-2 text-sm text-gray-600">Reading UT A-Scans Without Getting Fooled by Geometry</div>
+        </a>
+        <a href="/guides/building-a-personal-ndt-study-library-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-primary-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-primary-600">2026-02-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Building a Personal NDT Study Library on a Limited Budget (2026)</div>
+          <div className="mt-2 text-sm text-gray-600">Building a Personal NDT Study Library on a Limited Budget (2026)</div>
+        </a>
+        <a href="/guides/practical-rt-film-interpretation-from-density-to-defect" className="block p-4 bg-white border border-gray-200 rounded hover:border-primary-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-primary-600">2026-05-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Practical RT Film Interpretation: From Density to Defect</div>
+          <div className="mt-2 text-sm text-gray-600">Practical RT Film Interpretation: From Density to Defect</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-primary-50 border border-primary-100 rounded">
         <div className="text-sm uppercase tracking-wide text-primary-700 font-medium">Featured industry resource</div>

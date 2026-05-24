@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">API vs ASME vs ISO Pressure-Equipment Rules: A Quick Map</div>
           <div className="mt-2 text-sm text-gray-600">API vs ASME vs ISO Pressure-Equipment Rules: A Quick Map</div>
         </a>
+        <a href="/library/asme-bpvc-section-ix-welding-requirements-walkthrough" className="block p-4 bg-white border border-gray-200 rounded hover:border-gray-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-gray-600">2025-05-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ASME BPVC Section IX Welding Requirements: A Practical Walkthrough</div>
+          <div className="mt-2 text-sm text-gray-600">ASME BPVC Section IX Welding Requirements: A Practical Walkthrough</div>
+        </a>
+        <a href="/library/astm-e2375-bulk-ultrasonic-examination-of-pipe" className="block p-4 bg-white border border-gray-200 rounded hover:border-gray-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-gray-600">2025-09-26</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ASTM E2375: Bulk Ultrasonic Examination of Pipe — How to Use It</div>
+          <div className="mt-2 text-sm text-gray-600">ASTM E2375: Bulk Ultrasonic Examination of Pipe — How to Use It</div>
+        </a>
+        <a href="/library/asme-section-viii-div-2-vs-div-1-ndt-comparison" className="block p-4 bg-white border border-gray-200 rounded hover:border-gray-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-gray-600">2025-12-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ASME Section VIII Div 2 vs Div 1: NDT Comparison</div>
+          <div className="mt-2 text-sm text-gray-600">ASME Section VIII Div 2 vs Div 1: NDT Comparison</div>
+        </a>
+        <a href="/library/iso-17640-vs-en-iso-17640-piping-paut" className="block p-4 bg-white border border-gray-200 rounded hover:border-gray-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-gray-600">2026-03-21</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ISO 17640 vs EN ISO 17640 for Piping PAUT: What Actually Differs</div>
+          <div className="mt-2 text-sm text-gray-600">ISO 17640 vs EN ISO 17640 for Piping PAUT: What Actually Differs</div>
+        </a>
+        <a href="/library/european-pressure-equipment-directive-ped-ndt-rules" className="block p-4 bg-white border border-gray-200 rounded hover:border-gray-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-gray-600">2026-05-06</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">European Pressure Equipment Directive (PED) NDT Rules in Plain Words</div>
+          <div className="mt-2 text-sm text-gray-600">European Pressure Equipment Directive (PED) NDT Rules in Plain Words</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-gray-50 border border-gray-100 rounded">
         <div className="text-sm uppercase tracking-wide text-gray-700 font-medium">Featured industry resource</div>

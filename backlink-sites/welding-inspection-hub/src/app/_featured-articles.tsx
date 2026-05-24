@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Macro-Etch Test on Welds: What It Actually Shows You</div>
           <div className="mt-2 text-sm text-gray-600">Macro-Etch Test on Welds: What It Actually Shows You</div>
         </a>
+        <a href="/inspect/aws-d17-1-aerospace-fusion-welding-walkthrough" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-05-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">AWS D17.1 Aerospace Fusion Welding: A Walkthrough</div>
+          <div className="mt-2 text-sm text-gray-600">AWS D17.1 Aerospace Fusion Welding: A Walkthrough</div>
+        </a>
+        <a href="/inspect/iwip-and-iwip-c-paths-vs-cwi-comparison" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-09-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">IWIP and IWIP-C Paths vs CWI: Comparison for Inspector Choice</div>
+          <div className="mt-2 text-sm text-gray-600">IWIP and IWIP-C Paths vs CWI: Comparison for Inspector Choice</div>
+        </a>
+        <a href="/inspect/gtaw-vs-gmaw-process-influence-on-weld-quality" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-12-20</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">GTAW vs GMAW Process Influence on Weld Quality and Inspection Findings</div>
+          <div className="mt-2 text-sm text-gray-600">GTAW vs GMAW Process Influence on Weld Quality and Inspection Findings</div>
+        </a>
+        <a href="/inspect/underwater-welding-inspection-class-and-standard" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-03-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Underwater Welding Inspection: Class and Standard Considerations</div>
+          <div className="mt-2 text-sm text-gray-600">Underwater Welding Inspection: Class and Standard Considerations</div>
+        </a>
+        <a href="/inspect/weld-acceptance-on-coated-and-cladded-components" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-05-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Weld Acceptance on Coated and Cladded Components</div>
+          <div className="mt-2 text-sm text-gray-600">Weld Acceptance on Coated and Cladded Components</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-amber-50 border border-amber-100 rounded">
         <div className="text-sm uppercase tracking-wide text-amber-700 font-medium">Featured industry resource</div>

@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Integrity Operating Windows (IOWs): Best Practices for Refineries</div>
           <div className="mt-2 text-sm text-gray-600">Integrity Operating Windows (IOWs): Best Practices for Refineries</div>
         </a>
+        <a href="/blog/damage-mechanism-review-dmr-step-by-step" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-05-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Damage Mechanism Review (DMR): Step-by-Step for Refining Units</div>
+          <div className="mt-2 text-sm text-gray-600">Damage Mechanism Review (DMR): Step-by-Step for Refining Units</div>
+        </a>
+        <a href="/blog/inspection-data-quality-when-it-quietly-fails-rbi" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-09-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Inspection Data Quality: When It Quietly Fails Your RBI Model</div>
+          <div className="mt-2 text-sm text-gray-600">Inspection Data Quality: When It Quietly Fails Your RBI Model</div>
+        </a>
+        <a href="/blog/turnaround-readiness-review-30-day-window" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-12-21</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Turnaround Readiness Review: What Matters in the Final 30-Day Window</div>
+          <div className="mt-2 text-sm text-gray-600">Turnaround Readiness Review: What Matters in the Final 30-Day Window</div>
+        </a>
+        <a href="/blog/integrity-management-software-pitfalls-buyers-miss" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2026-03-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Integrity Management Software: Five Pitfalls Buyers Almost Always Miss</div>
+          <div className="mt-2 text-sm text-gray-600">Integrity Management Software: Five Pitfalls Buyers Almost Always Miss</div>
+        </a>
+        <a href="/blog/closing-the-loop-from-ndt-finding-to-integrity-action" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2026-05-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Closing the Loop: From an NDT Finding to a Recorded Integrity Action</div>
+          <div className="mt-2 text-sm text-gray-600">Closing the Loop: From an NDT Finding to a Recorded Integrity Action</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-blue-50 border border-blue-100 rounded">
         <div className="text-sm uppercase tracking-wide text-blue-700 font-medium">Featured industry resource</div>

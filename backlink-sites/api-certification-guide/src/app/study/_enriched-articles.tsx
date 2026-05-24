@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Eve Mitchell, API ICP Coach &middot; 2026-03-25</p>
           <p className="text-gray-700 mt-3">Open-Book Questions in API 510: A Test-Day Strategy</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/study/api-936-refractory-personnel-prep-real-syllabus" className="text-xl font-semibold text-gray-900 hover:text-orange-600">API 936 Refractory Personnel Prep: The Real Syllabus</a>
+          <p className="text-sm text-gray-500 mt-2">By Reza Karimi, API 570 &middot; 2025-05-18</p>
+          <p className="text-gray-700 mt-3">API 936 Refractory Personnel Prep: The Real Syllabus</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/study/api-580-rbi-prep-from-an-actual-exam-taker" className="text-xl font-semibold text-gray-900 hover:text-orange-600">API 580 RBI Prep From an Actual Exam-Taker</a>
+          <p className="text-sm text-gray-500 mt-2">By Eve Mitchell, API ICP Coach &middot; 2025-09-07</p>
+          <p className="text-gray-700 mt-3">API 580 RBI Prep From an Actual Exam-Taker</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/study/api-579-fitness-for-service-personnel-cert" className="text-xl font-semibold text-gray-900 hover:text-orange-600">API 579 Fitness-for-Service Personnel Certification: What to Expect</a>
+          <p className="text-sm text-gray-500 mt-2">By Reza Karimi, API 510/570/653 &middot; 2025-12-09</p>
+          <p className="text-gray-700 mt-3">API 579 Fitness-for-Service Personnel Certification: What to Expect</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/study/api-source-inspection-personnel-program-explained" className="text-xl font-semibold text-gray-900 hover:text-orange-600">API Source Inspection Personnel Program (SIPC) Explained</a>
+          <p className="text-sm text-gray-500 mt-2">By Eve Mitchell, API ICP Coach &middot; 2026-03-02</p>
+          <p className="text-gray-700 mt-3">API Source Inspection Personnel Program (SIPC) Explained</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/study/study-plan-for-passing-multiple-api-exams-in-12-months" className="text-xl font-semibold text-gray-900 hover:text-orange-600">A Study Plan for Passing Multiple API Exams in 12 Months</a>
+          <p className="text-sm text-gray-500 mt-2">By Reza Karimi, API 510/570/653 &middot; 2026-05-08</p>
+          <p className="text-gray-700 mt-3">A Study Plan for Passing Multiple API Exams in 12 Months</p>
+        </li>
       </ul>
     </div>
   );

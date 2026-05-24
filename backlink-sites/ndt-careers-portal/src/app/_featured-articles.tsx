@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Building a Level III Consulting Practice: From Salaried to Self-Employed</div>
           <div className="mt-2 text-sm text-gray-600">Building a Level III Consulting Practice: From Salaried to Self-Employed</div>
         </a>
+        <a href="/paths/ndt-resume-templates-that-actually-pass-screening" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2025-05-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">NDT Resume Templates That Actually Pass Recruiter Screening</div>
+          <div className="mt-2 text-sm text-gray-600">NDT Resume Templates That Actually Pass Recruiter Screening</div>
+        </a>
+        <a href="/paths/interviewing-for-an-ndt-supervisor-role" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2025-09-06</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Interviewing for an NDT Supervisor Role: What the Hiring Manager Looks For</div>
+          <div className="mt-2 text-sm text-gray-600">Interviewing for an NDT Supervisor Role: What the Hiring Manager Looks For</div>
+        </a>
+        <a href="/paths/side-income-options-for-a-working-ndt-inspector" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2025-12-03</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Side Income Options for a Working NDT Inspector</div>
+          <div className="mt-2 text-sm text-gray-600">Side Income Options for a Working NDT Inspector</div>
+        </a>
+        <a href="/paths/mid-career-pivot-from-field-ndt-to-software" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2026-02-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Mid-Career Pivot from Field NDT to NDT Software</div>
+          <div className="mt-2 text-sm text-gray-600">Mid-Career Pivot from Field NDT to NDT Software</div>
+        </a>
+        <a href="/paths/visa-and-relocation-for-international-ndt-work" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2026-05-05</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Visa and Relocation Pathways for International NDT Work</div>
+          <div className="mt-2 text-sm text-gray-600">Visa and Relocation Pathways for International NDT Work</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-rose-50 border border-rose-100 rounded">
         <div className="text-sm uppercase tracking-wide text-rose-700 font-medium">Featured industry resource</div>

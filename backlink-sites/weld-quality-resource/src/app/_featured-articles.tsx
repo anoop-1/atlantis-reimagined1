@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Orbital Welding Inspection for Semiconductor & Pharma Piping</div>
           <div className="mt-2 text-sm text-gray-600">Orbital Welding Inspection for Semiconductor & Pharma Piping</div>
         </a>
+        <a href="/methods/weld-mapping-as-a-quality-discipline" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-05-29</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Weld Mapping as a Quality Discipline, Not a Paperwork Burden</div>
+          <div className="mt-2 text-sm text-gray-600">Weld Mapping as a Quality Discipline, Not a Paperwork Burden</div>
+        </a>
+        <a href="/methods/weld-repair-vs-replace-decisions-on-pressure-piping" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-09-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Weld Repair vs Replace Decisions on Pressure Piping</div>
+          <div className="mt-2 text-sm text-gray-600">Weld Repair vs Replace Decisions on Pressure Piping</div>
+        </a>
+        <a href="/methods/duplex-stainless-weld-inspection-watchouts" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-12-16</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Duplex Stainless Steel Weld Inspection: Watchouts You Cannot Ignore</div>
+          <div className="mt-2 text-sm text-gray-600">Duplex Stainless Steel Weld Inspection: Watchouts You Cannot Ignore</div>
+        </a>
+        <a href="/methods/weld-distortion-vs-residual-stress-different-problems" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-03-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Weld Distortion vs Residual Stress: Two Different Problems With Different Cures</div>
+          <div className="mt-2 text-sm text-gray-600">Weld Distortion vs Residual Stress: Two Different Problems With Different Cures</div>
+        </a>
+        <a href="/methods/weld-inspection-for-cryogenic-services-9-percent-nickel" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-05-05</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Weld Inspection for Cryogenic Services: 9% Nickel and Beyond</div>
+          <div className="mt-2 text-sm text-gray-600">Weld Inspection for Cryogenic Services: 9% Nickel and Beyond</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-amber-50 border border-amber-100 rounded">
         <div className="text-sm uppercase tracking-wide text-amber-700 font-medium">Featured industry resource</div>

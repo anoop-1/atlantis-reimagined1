@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Hannah O\'Connell, NACE/AMPP CIP III &middot; 2026-04-30</p>
           <p className="text-gray-700 mt-3">Building a Corrosion Management Program Under ISO 55000</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/management/sweet-vs-sour-corrosion-inspection-program-design" className="text-xl font-semibold text-gray-900 hover:text-rose-600">Sweet vs Sour Corrosion: Designing Two Different Inspection Programs</a>
+          <p className="text-sm text-gray-500 mt-2">By Hannah O\'Connell, NACE/AMPP CIP III &middot; 2025-05-26</p>
+          <p className="text-gray-700 mt-3">Sweet vs Sour Corrosion: Designing Two Different Inspection Programs</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/management/microbiologically-influenced-corrosion-mic-detection" className="text-xl font-semibold text-gray-900 hover:text-rose-600">Microbiologically Influenced Corrosion (MIC): Detection That Actually Works</a>
+          <p className="text-sm text-gray-500 mt-2">By Felipe Moraes, AMPP-certified &middot; 2025-09-19</p>
+          <p className="text-gray-700 mt-3">Microbiologically Influenced Corrosion (MIC): Detection That Actually Works</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/management/erosion-corrosion-vs-flow-accelerated-corrosion" className="text-xl font-semibold text-gray-900 hover:text-rose-600">Erosion-Corrosion vs Flow-Accelerated Corrosion: How to Tell Them Apart</a>
+          <p className="text-sm text-gray-500 mt-2">By Hannah O\'Connell, NACE/AMPP CIP III &middot; 2025-12-18</p>
+          <p className="text-gray-700 mt-3">Erosion-Corrosion vs Flow-Accelerated Corrosion: How to Tell Them Apart</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/management/galvanic-corrosion-prevention-design-and-inspection" className="text-xl font-semibold text-gray-900 hover:text-rose-600">Galvanic Corrosion Prevention: Design Choices and Inspection Strategy</a>
+          <p className="text-sm text-gray-500 mt-2">By Felipe Moraes, AMPP-certified &middot; 2026-03-14</p>
+          <p className="text-gray-700 mt-3">Galvanic Corrosion Prevention: Design Choices and Inspection Strategy</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/management/corrosion-rate-vs-thickness-trends-what-the-data-says" className="text-xl font-semibold text-gray-900 hover:text-rose-600">Corrosion Rate vs Thickness Trends: What the Long-Term Data Actually Tells You</a>
+          <p className="text-sm text-gray-500 mt-2">By Hannah O\'Connell, NACE/AMPP CIP III &middot; 2026-05-10</p>
+          <p className="text-gray-700 mt-3">Corrosion Rate vs Thickness Trends: What the Long-Term Data Actually Tells You</p>
+        </li>
       </ul>
     </div>
   );

@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">In-Process Quality Control vs Final NDT: Where to Spend the Budget</div>
           <div className="mt-2 text-sm text-gray-600">In-Process Quality Control vs Final NDT: Where to Spend the Budget</div>
         </a>
+        <a href="/practices/forging-ndt-acceptance-criteria-by-grade" className="block p-4 bg-white border border-gray-200 rounded hover:border-zinc-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-zinc-600">2025-05-28</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Forging NDT Acceptance Criteria by Grade and Service</div>
+          <div className="mt-2 text-sm text-gray-600">Forging NDT Acceptance Criteria by Grade and Service</div>
+        </a>
+        <a href="/practices/phased-array-ut-on-thick-wall-monobloc-forgings" className="block p-4 bg-white border border-gray-200 rounded hover:border-zinc-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-zinc-600">2025-09-21</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Phased Array UT on Thick-Wall Monobloc Forgings</div>
+          <div className="mt-2 text-sm text-gray-600">Phased Array UT on Thick-Wall Monobloc Forgings</div>
+        </a>
+        <a href="/practices/plate-mill-ndt-screening-during-rolling" className="block p-4 bg-white border border-gray-200 rounded hover:border-zinc-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-zinc-600">2025-12-06</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Plate Mill NDT Screening During Hot Rolling</div>
+          <div className="mt-2 text-sm text-gray-600">Plate Mill NDT Screening During Hot Rolling</div>
+        </a>
+        <a href="/practices/first-article-inspection-fai-with-ndt-integration" className="block p-4 bg-white border border-gray-200 rounded hover:border-zinc-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-zinc-600">2026-03-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">First Article Inspection (FAI) With NDT Integration</div>
+          <div className="mt-2 text-sm text-gray-600">First Article Inspection (FAI) With NDT Integration</div>
+        </a>
+        <a href="/practices/magnetic-particle-on-castings-fluorescent-vs-dry" className="block p-4 bg-white border border-gray-200 rounded hover:border-zinc-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-zinc-600">2026-05-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Magnetic Particle on Castings: Fluorescent Wet vs Dry Method Decision</div>
+          <div className="mt-2 text-sm text-gray-600">Magnetic Particle on Castings: Fluorescent Wet vs Dry Method Decision</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-zinc-50 border border-zinc-100 rounded">
         <div className="text-sm uppercase tracking-wide text-zinc-700 font-medium">Featured industry resource</div>

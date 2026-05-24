@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Phased Array Qualification for Nuclear Applications: Building a Demonstration Block</div>
           <div className="mt-2 text-sm text-gray-600">Phased Array Qualification for Nuclear Applications: Building a Demonstration Block</div>
         </a>
+        <a href="/techniques/asme-section-xi-iwe-iwl-containment-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2025-05-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ASME Section XI IWE/IWL Containment Inspection: A Field Walkthrough</div>
+          <div className="mt-2 text-sm text-gray-600">ASME Section XI IWE/IWL Containment Inspection: A Field Walkthrough</div>
+        </a>
+        <a href="/techniques/steam-generator-tube-inspection-eddy-current-strategies" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2025-09-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Steam Generator Tube Inspection: Eddy Current Strategies for PWR Plants</div>
+          <div className="mt-2 text-sm text-gray-600">Steam Generator Tube Inspection: Eddy Current Strategies for PWR Plants</div>
+        </a>
+        <a href="/techniques/reactor-coolant-pump-inspection-asme-xi-rules" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2025-12-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Reactor Coolant Pump Inspection: Where ASME XI Rules End and Vendor Rules Begin</div>
+          <div className="mt-2 text-sm text-gray-600">Reactor Coolant Pump Inspection: Where ASME XI Rules End and Vendor Rules Begin</div>
+        </a>
+        <a href="/techniques/spent-fuel-pool-liner-leak-detection-and-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2026-03-17</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Spent Fuel Pool Liner Leak Detection and Inspection</div>
+          <div className="mt-2 text-sm text-gray-600">Spent Fuel Pool Liner Leak Detection and Inspection</div>
+        </a>
+        <a href="/techniques/pdi-paut-procedure-qualification-deep-dive-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2026-05-07</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">PDI PAUT Procedure Qualification: A Deep Dive for 2026 Programs</div>
+          <div className="mt-2 text-sm text-gray-600">PDI PAUT Procedure Qualification: A Deep Dive for 2026 Programs</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-indigo-50 border border-indigo-100 rounded">
         <div className="text-sm uppercase tracking-wide text-indigo-700 font-medium">Featured industry resource</div>

@@ -1,0 +1,57 @@
+import VerticalTemplate, { VerticalConfig } from "./_VerticalTemplate";
+
+const config: VerticalConfig = {
+   slug: "battery-manufacturing",
+   industryDisplay: "Battery Manufacturing",
+   industryShort: "lithium-ion gigafactory operators, BESS storage developers, and battery cell OEMs",
+   heroSubhead:
+      "Specialist NDT cohorts for cell production lines, pouch and prismatic seal welds, electrolyte filling and tank inspection, BESS containerised storage, and battery-pack module welding. Built around ultrasonic weld inspection of copper / aluminium current-collector tabs, helium leak testing on pouch seals, X-ray CT for cell-internal defect detection, and the structural NDT toolkit for BESS containment.",
+   primaryStandards: ["IPC/JEDEC J-STD-001 (electronics assembly)", "IEC 62619 (industrial Li-ion)", "UL 9540 (energy storage)", "ASME Section V", "AWS D17.1 (fusion welding for aerospace — applied to cell-tab welds)", "ASTM E2374 (X-ray for batteries)", "ASTM E2698 (digital radiography)"],
+   methods: [
+      { method: "Ultrasonic Testing — tab-weld bond inspection (Cu / Al ultrasonic + laser weld)", levels: "Level II", roleFit: "Cell tab-weld QC, battery-pack module assembly inspectors", codeRef: "ASME V Article 4 (modified), AWS D17.1, OEM-specific written practice" },
+      { method: "X-ray / X-ray CT — cell-internal anode-cathode alignment + foreign-object detection", levels: "Level II + III specialist", roleFit: "Cell production-line QC, failure-analysis engineers", codeRef: "ASTM E2374, ASTM E2698, ASTM E1255" },
+      { method: "Helium leak testing — pouch seal + electrolyte fill-port tightness", levels: "Level II", roleFit: "Cell finishing-line QC, BESS containment commissioning", codeRef: "ASME V Article 10, ASTM E498, ASTM E499" },
+      { method: "Visual Testing — automated optical inspection + manual hot-spot screening", levels: "Level I → II", roleFit: "All cell production QC inspectors as a baseline", codeRef: "ASME V Article 9, IPC-A-610" },
+      { method: "Infrared thermography — pack thermal-runaway surveillance + BESS commissioning", levels: "Level II specialist", roleFit: "BESS commissioning teams, gigafactory line-conditioning QC", codeRef: "ASTM E1934, ISO 18434" },
+      { method: "Liquid Penetrant Testing — electrolyte tank + module-frame weld QC", levels: "Level I → II", roleFit: "Electrolyte tank fabrication QC, BESS container weld inspectors", codeRef: "ASME V Article 6, ASTM E165, ASTM E1417" },
+      { method: "Magnetic Particle Testing — BESS containment + module-frame welds", levels: "Level II", roleFit: "BESS containment inspectors, structural pack-frame QC", codeRef: "ASME V Article 7, AWS D1.1, ASTM E709" },
+   ],
+   skillGaps: [
+      { gap: "Cell-production QC crews running automated optical inspection without competent secondary-method follow-up training", impact: "Defects flagged from AOI cameras cannot be confirmed or sized; cell scrap rates 2–3× achievable baseline, or false-negative escapes that drive field warranty claims." },
+      { gap: "Tab-weld inspectors using ultrasonic bond testing without understanding the essential variables specific to copper / aluminium dissimilar joints", impact: "Bond-strength specifications drift across shifts; weld pull-test rejection rates climb, line uptime degrades." },
+      { gap: "X-ray CT operators trained on aerospace casting inspection without battery-specific defect-library training (anode-cathode misalignment, foreign-object debris, electrolyte voiding)", impact: "Field-failure root-cause analysis takes longer; cell-line conditioning yield does not converge to design target." },
+      { gap: "BESS commissioning teams without process-safety NDT discipline on cooling-loop piping and containment", impact: "Thermal-runaway risk amplified by pinhole leaks on liquid-cooling lines; insurer survey findings on commissioned BESS sites." },
+      { gap: "Recurrent training cadence set at SNT-TC-1A's 5-year default rather than the much shorter annual OEM warranty audit cycle typical at gigafactories", impact: "OEM warranty visits flag stale inspector qualification records — line-conditioning yield audit findings, warranty-coverage disputes." },
+   ],
+   tracks: [
+      { role: "Cell Production QC Inspector", progression: "Level II VT + ultrasonic tab-weld + helium leak, plus OEM-specific written practice", coreMethods: "VT, ultrasonic bond, helium leak", hoursTotal: "160–200 instructor-led + OEM line shadow" },
+      { role: "X-ray / CT Cell Inspector", progression: "Level II RT + Level III RT path for film + digital RT + CT module", coreMethods: "RT, CT, defect-library training", hoursTotal: "200–240 instructor-led + OEM CT-lab residency" },
+      { role: "BESS Commissioning Inspector", progression: "Level II VT + UT thickness + IR thermography + leak testing", coreMethods: "VT, UT thickness, IR thermography, leak testing", hoursTotal: "140–180 instructor-led + commissioning shadow" },
+      { role: "Battery-Pack Module Welding Inspector", progression: "Level II VT + MT + ultrasonic bond + AWS D17.1 awareness", coreMethods: "VT, MT, ultrasonic bond", hoursTotal: "160–200 instructor-led" },
+      { role: "Electrolyte Tank + Containment Inspector", progression: "Level II UT + MT + PT for stainless / aluminium tank welds", coreMethods: "UT, MT, PT", hoursTotal: "140–180 instructor-led" },
+   ],
+   pricing: [
+      { headcount: "10–24 engineers", perHead: "$1,300–$2,500 per head", notes: "Standard methods; battery-specific defect-library module included." },
+      { headcount: "25–49 engineers", perHead: "$1,100–$2,200 per head", notes: "Multi-method tracks across cell production + BESS." },
+      { headcount: "50–99 engineers", perHead: "$950–$1,950 per head", notes: "Multi-site gigafactory programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "POA — typically $800–$1,650 per head", notes: "Multi-gigafactory annual contract; OEM-specific written-practice bridging on request." },
+   ],
+   deliveryNote:
+      "Battery cohorts skew hybrid — theory on the LMS to manage geographically dispersed gigafactory and BESS commissioning crews, on-site practicals concentrated at the customer's own cell-production line during ramp-up phases. X-ray CT modules are delivered as separate residencies at the customer's CT lab or, where the customer does not yet have CT capability, at a partnered CT vendor facility so the essential-variable transfer is genuine and not lecture-room theoretical.",
+   complianceFootnote:
+      "Battery manufacturing is a code-stack still consolidating. We document training records to the conservative side — SNT-TC-1A baseline, customer-specific written practice mapped on top, and IEC 62619 / UL 9540 / AWS D17.1 essential variables traced through each module. The result is an evidence pack that survives both an OEM warranty audit and an insurer survey without findings, and that holds up under EU Battery Passport regulation scrutiny.",
+   caseStudy: {
+      headline: "Tier-1 gigafactory (North America) — 48-engineer multi-method cohort, 14-week programme",
+      body: "A Tier-1 North American gigafactory ramping a new lithium-iron-phosphate (LFP) cell line needed to certify 48 in-house QC engineers across VT Level II, ultrasonic tab-weld bond Level II, helium leak Level II, and the X-ray CT defect-library track ahead of cell-line commissioning. Atlantis NDT delivered a hybrid cohort over 14 weeks: 8 weeks LMS theory in parallel with line build-out, 5 weeks on-site practical at the cell production line during conditioning, then a 1-week X-ray CT residency at the gigafactory's CT lab. Cell-line conditioning yield converged 23% faster than the gigafactory's previous line ramp-up, and the OEM warranty visit closed with no inspector-qualification findings.",
+   },
+   cityLinks: [
+      { slug: "houston", label: "Houston" },
+      { slug: "shanghai", label: "Shanghai" },
+   ],
+   wordCountHint:
+      "Battery-manufacturing NDT corporate training sits at a code-stack frontier — the established methods of pressure-vessel and structural-welding inspection (ASME Section V, AWS D1.1, ASME VIII) overlaid with the emerging code stack for cell and pack QC (IEC 62619, UL 9540, AWS D17.1 applied to tab welds, IPC-A-610 for electronics-grade visual inspection, ASTM E2374 / E2698 for radiography on cells). Our battery cohorts are built around the operators actually deploying capital — Tesla, CATL, LG Energy Solution, Samsung SDI, BYD, Northvolt, Panasonic Energy, and the next wave of US Inflation Reduction Act-funded gigafactories. The skill gap that dominates battery training procurement is the gap between traditional VT / RT / UT competence (which most candidates bring from a fabrication or oil &amp; gas background) and the battery-specific defect library — anode-cathode alignment drift, foreign-object debris (FOD) detection inside the cell, electrolyte voiding signatures on CT scans, pouch-seal tightness profiles, copper-to-aluminium ultrasonic tab-weld bond signatures. We do not waste cohort time re-teaching the methods; instead, we run a focused defect-library module that maps battery-specific signatures onto the engineer's existing method fluency. The second skill gap, especially common during gigafactory ramp-up, is the conditioning yield gap — the difference between a cell line that converges to design yield in 6 months and one that takes 12+ months because QC root-cause analysis is slow. We address that with X-ray CT residencies at the customer's own CT lab during the conditioning phase, so the engineer learns the customer's specific cell chemistry and form-factor on the actual production line. The third area where battery diverges from traditional NDT is recurrent cadence — OEM warranty audits typically require annual recertification rather than the SNT-TC-1A 5-year default, and our recurrent calendar is built to fit that cadence. BESS commissioning is a separate buyer pattern — BESS developers (AES, Vistra, NextEra, Plus Power, Tesla Megapack, BYD Cube) typically have no in-house NDT capability at all and need a foundational program built from the ground up around UL 9540 commissioning and ongoing thermal-runaway surveillance. Our BESS commissioning track is delivered as a stand-alone 140–180 hour program, separate from cell-production-line tracks. Send the gigafactory phase (build-out / ramp / steady-state), the chemistry (NCM / LFP / sodium-ion), the cell form factor (pouch / prismatic / cylindrical), and headcount — we respond inside two business days with a written training plan and indicative quote, with an OEM-specific written practice ready to layer on top of your own corporate written practice.",
+};
+
+export default function BatteryManufacturingCorporateTraining() {
+   return <VerticalTemplate config={config} />;
+}

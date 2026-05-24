@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Turnaround Inspection Planning: A Field Guide for Petrochemical Shutdowns</div>
           <div className="mt-2 text-sm text-gray-600">Turnaround Inspection Planning: A Field Guide for Petrochemical Shutdowns</div>
         </a>
+        <a href="/processes/naphthenic-acid-corrosion-inspection-strategy" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2025-05-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Naphthenic Acid Corrosion Inspection Strategy for Crude Towers</div>
+          <div className="mt-2 text-sm text-gray-600">Naphthenic Acid Corrosion Inspection Strategy for Crude Towers</div>
+        </a>
+        <a href="/processes/hydroprocessing-reactor-internals-inspection-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2025-08-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Hydroprocessing Reactor Internals Inspection: A 2026 Walkthrough</div>
+          <div className="mt-2 text-sm text-gray-600">Hydroprocessing Reactor Internals Inspection: A 2026 Walkthrough</div>
+        </a>
+        <a href="/processes/coker-drum-inspection-program-bulge-and-crack" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2025-11-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Coker Drum Inspection Program: Bulge Tracking and Crack Mapping</div>
+          <div className="mt-2 text-sm text-gray-600">Coker Drum Inspection Program: Bulge Tracking and Crack Mapping</div>
+        </a>
+        <a href="/processes/crude-furnace-tube-inspection-laser-and-paut" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2026-02-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Crude Furnace Tube Inspection With Laser Profilometry and PAUT</div>
+          <div className="mt-2 text-sm text-gray-600">Crude Furnace Tube Inspection With Laser Profilometry and PAUT</div>
+        </a>
+        <a href="/processes/sru-and-tail-gas-unit-inspection-corrosion-realities" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2026-05-06</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">SRU and Tail Gas Unit Inspection: Corrosion Realities Most Plans Miss</div>
+          <div className="mt-2 text-sm text-gray-600">SRU and Tail Gas Unit Inspection: Corrosion Realities Most Plans Miss</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-green-50 border border-green-100 rounded">
         <div className="text-sm uppercase tracking-wide text-green-700 font-medium">Featured industry resource</div>

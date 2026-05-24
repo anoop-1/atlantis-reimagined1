@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Pulse Thermography vs Lock-In Thermography: A Quick Decision Guide</div>
           <div className="mt-2 text-sm text-gray-600">Pulse Thermography vs Lock-In Thermography: A Quick Decision Guide</div>
         </a>
+        <a href="/techniques/composite-bolted-joint-inspection-aerospace" className="block p-4 bg-white border border-gray-200 rounded hover:border-fuchsia-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-fuchsia-600">2025-05-16</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Composite Bolted Joint Inspection in Aerospace Structures</div>
+          <div className="mt-2 text-sm text-gray-600">Composite Bolted Joint Inspection in Aerospace Structures</div>
+        </a>
+        <a href="/techniques/visual-inspection-of-composite-tooling-cure-defects" className="block p-4 bg-white border border-gray-200 rounded hover:border-fuchsia-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-fuchsia-600">2025-08-31</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Visual Inspection of Composite Tooling and Cure Defects</div>
+          <div className="mt-2 text-sm text-gray-600">Visual Inspection of Composite Tooling and Cure Defects</div>
+        </a>
+        <a href="/techniques/wind-blade-trailing-edge-bond-line-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-fuchsia-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-fuchsia-600">2025-11-27</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Wind Blade Trailing Edge Bond Line Inspection</div>
+          <div className="mt-2 text-sm text-gray-600">Wind Blade Trailing Edge Bond Line Inspection</div>
+        </a>
+        <a href="/techniques/composite-overwrapped-pressure-vessel-copv-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-fuchsia-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-fuchsia-600">2026-03-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Composite Overwrapped Pressure Vessel (COPV) Inspection Approaches</div>
+          <div className="mt-2 text-sm text-gray-600">Composite Overwrapped Pressure Vessel (COPV) Inspection Approaches</div>
+        </a>
+        <a href="/techniques/composite-repair-patch-inspection-and-validation" className="block p-4 bg-white border border-gray-200 rounded hover:border-fuchsia-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-fuchsia-600">2026-05-03</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Composite Repair Patch Inspection and Validation</div>
+          <div className="mt-2 text-sm text-gray-600">Composite Repair Patch Inspection and Validation</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-fuchsia-50 border border-fuchsia-100 rounded">
         <div className="text-sm uppercase tracking-wide text-fuchsia-700 font-medium">Featured industry resource</div>

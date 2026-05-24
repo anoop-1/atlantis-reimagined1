@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Dr. Eve Lindberg, ASNT NDT Level III &middot; 2026-04-15</p>
           <p className="text-gray-700 mt-3">Phased Array Qualification for Nuclear Applications: Building a Demonstration Block</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/techniques/asme-section-xi-iwe-iwl-containment-inspection" className="text-xl font-semibold text-gray-900 hover:text-indigo-600">ASME Section XI IWE/IWL Containment Inspection: A Field Walkthrough</a>
+          <p className="text-sm text-gray-500 mt-2">By Dr. Eve Lindberg, ASNT NDT Level III &middot; 2025-05-13</p>
+          <p className="text-gray-700 mt-3">ASME Section XI IWE/IWL Containment Inspection: A Field Walkthrough</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/techniques/steam-generator-tube-inspection-eddy-current-strategies" className="text-xl font-semibold text-gray-900 hover:text-indigo-600">Steam Generator Tube Inspection: Eddy Current Strategies for PWR Plants</a>
+          <p className="text-sm text-gray-500 mt-2">By Toshio Hamada, ASNT NDT Level III &middot; 2025-09-22</p>
+          <p className="text-gray-700 mt-3">Steam Generator Tube Inspection: Eddy Current Strategies for PWR Plants</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/techniques/reactor-coolant-pump-inspection-asme-xi-rules" className="text-xl font-semibold text-gray-900 hover:text-indigo-600">Reactor Coolant Pump Inspection: Where ASME XI Rules End and Vendor Rules Begin</a>
+          <p className="text-sm text-gray-500 mt-2">By Dr. Eve Lindberg, ASNT NDT Level III &middot; 2025-12-12</p>
+          <p className="text-gray-700 mt-3">Reactor Coolant Pump Inspection: Where ASME XI Rules End and Vendor Rules Begin</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/techniques/spent-fuel-pool-liner-leak-detection-and-inspection" className="text-xl font-semibold text-gray-900 hover:text-indigo-600">Spent Fuel Pool Liner Leak Detection and Inspection</a>
+          <p className="text-sm text-gray-500 mt-2">By Toshio Hamada, ASNT NDT Level III &middot; 2026-03-17</p>
+          <p className="text-gray-700 mt-3">Spent Fuel Pool Liner Leak Detection and Inspection</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/techniques/pdi-paut-procedure-qualification-deep-dive-2026" className="text-xl font-semibold text-gray-900 hover:text-indigo-600">PDI PAUT Procedure Qualification: A Deep Dive for 2026 Programs</a>
+          <p className="text-sm text-gray-500 mt-2">By Dr. Eve Lindberg, ASNT NDT Level III &middot; 2026-05-07</p>
+          <p className="text-gray-700 mt-3">PDI PAUT Procedure Qualification: A Deep Dive for 2026 Programs</p>
+        </li>
       </ul>
     </div>
   );

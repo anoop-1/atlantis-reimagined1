@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">In-Water Survey vs Drydock Survey: NDT Coverage Differences</div>
           <div className="mt-2 text-sm text-gray-600">In-Water Survey vs Drydock Survey: NDT Coverage Differences</div>
         </a>
+        <a href="/offshore/fpso-turret-inspection-and-swivel-stack" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-05-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">FPSO Turret Inspection and the Swivel Stack Reality</div>
+          <div className="mt-2 text-sm text-gray-600">FPSO Turret Inspection and the Swivel Stack Reality</div>
+        </a>
+        <a href="/offshore/subsea-flowline-rigid-vs-flexible-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-08-29</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Subsea Flowline Rigid vs Flexible: Inspection Approach Differences</div>
+          <div className="mt-2 text-sm text-gray-600">Subsea Flowline Rigid vs Flexible: Inspection Approach Differences</div>
+        </a>
+        <a href="/offshore/cargo-tank-coating-inspection-on-chemical-tankers" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-12-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Cargo Tank Coating Inspection on Chemical Tankers</div>
+          <div className="mt-2 text-sm text-gray-600">Cargo Tank Coating Inspection on Chemical Tankers</div>
+        </a>
+        <a href="/offshore/mooring-chain-inspection-onshore-vs-in-situ" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2026-03-07</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Mooring Chain Inspection: Onshore vs In-Situ Approaches</div>
+          <div className="mt-2 text-sm text-gray-600">Mooring Chain Inspection: Onshore vs In-Situ Approaches</div>
+        </a>
+        <a href="/offshore/ballast-water-treatment-system-ndt-considerations" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2026-05-03</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Ballast Water Treatment System NDT Considerations</div>
+          <div className="mt-2 text-sm text-gray-600">Ballast Water Treatment System NDT Considerations</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-blue-50 border border-blue-100 rounded">
         <div className="text-sm uppercase tracking-wide text-blue-700 font-medium">Featured industry resource</div>

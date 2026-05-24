@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Cloud vs On-Prem NDT Data: The 2026 Decision Most Operators Are Making</div>
           <div className="mt-2 text-sm text-gray-600">Cloud vs On-Prem NDT Data: The 2026 Decision Most Operators Are Making</div>
         </a>
+        <a href="/future/edge-computing-for-real-time-paut-data-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-purple-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-purple-600">2025-05-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Edge Computing for Real-Time PAUT Data Processing in 2026</div>
+          <div className="mt-2 text-sm text-gray-600">Edge Computing for Real-Time PAUT Data Processing in 2026</div>
+        </a>
+        <a href="/future/autonomous-drone-inspection-of-tanks-and-flares" className="block p-4 bg-white border border-gray-200 rounded hover:border-purple-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-purple-600">2025-09-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Autonomous Drone Inspection of Tanks and Flares: State of Play</div>
+          <div className="mt-2 text-sm text-gray-600">Autonomous Drone Inspection of Tanks and Flares: State of Play</div>
+        </a>
+        <a href="/future/crawler-localization-without-gps-underground" className="block p-4 bg-white border border-gray-200 rounded hover:border-purple-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-purple-600">2025-12-20</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Crawler Localization Without GPS: Underground and Confined-Space NDT</div>
+          <div className="mt-2 text-sm text-gray-600">Crawler Localization Without GPS: Underground and Confined-Space NDT</div>
+        </a>
+        <a href="/future/mlops-for-ndt-data-from-experiment-to-production" className="block p-4 bg-white border border-gray-200 rounded hover:border-purple-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-purple-600">2026-03-16</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">MLOps for NDT Data: From Experiment to Production</div>
+          <div className="mt-2 text-sm text-gray-600">MLOps for NDT Data: From Experiment to Production</div>
+        </a>
+        <a href="/future/human-in-the-loop-validation-of-automated-ndt-results" className="block p-4 bg-white border border-gray-200 rounded hover:border-purple-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-purple-600">2026-05-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Human-in-the-Loop Validation of Automated NDT Results</div>
+          <div className="mt-2 text-sm text-gray-600">Human-in-the-Loop Validation of Automated NDT Results</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-purple-50 border border-purple-100 rounded">
         <div className="text-sm uppercase tracking-wide text-purple-700 font-medium">Featured industry resource</div>

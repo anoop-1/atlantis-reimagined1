@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Inspection Procurement the GCC Way: What Western Vendors Get Wrong</div>
           <div className="mt-2 text-sm text-gray-600">Inspection Procurement the GCC Way: What Western Vendors Get Wrong</div>
         </a>
+        <a href="/region/aramco-saes-w-welding-and-ndt-deep-dive" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-05-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Aramco SAES-W Welding and NDT: A Deep Dive</div>
+          <div className="mt-2 text-sm text-gray-600">Aramco SAES-W Welding and NDT: A Deep Dive</div>
+        </a>
+        <a href="/region/gcc-tank-inspection-saes-d-vs-api-653" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-09-10</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">GCC Tank Inspection: SAES-D vs API 653 — Where the Standards Diverge</div>
+          <div className="mt-2 text-sm text-gray-600">GCC Tank Inspection: SAES-D vs API 653 — Where the Standards Diverge</div>
+        </a>
+        <a href="/region/gcc-inspection-mobilization-visa-permits-and-customs" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2025-12-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">GCC Inspection Mobilization: Visa, Permits, and Customs Realities</div>
+          <div className="mt-2 text-sm text-gray-600">GCC Inspection Mobilization: Visa, Permits, and Customs Realities</div>
+        </a>
+        <a href="/region/saes-l-inspection-of-buried-pipeline-coatings-update" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-03-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">SAES-L Inspection of Buried Pipeline Coatings: 2026 Update</div>
+          <div className="mt-2 text-sm text-gray-600">SAES-L Inspection of Buried Pipeline Coatings: 2026 Update</div>
+        </a>
+        <a href="/region/aramco-ipd-stage-gate-vendor-readiness-checklist" className="block p-4 bg-white border border-gray-200 rounded hover:border-amber-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-amber-600">2026-05-10</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Aramco IPD Stage-Gate Vendor Readiness Checklist for NDT Contractors</div>
+          <div className="mt-2 text-sm text-gray-600">Aramco IPD Stage-Gate Vendor Readiness Checklist for NDT Contractors</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-amber-50 border border-amber-100 rounded">
         <div className="text-sm uppercase tracking-wide text-amber-700 font-medium">Featured industry resource</div>

@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Building a Corrosion Management Program Under ISO 55000</div>
           <div className="mt-2 text-sm text-gray-600">Building a Corrosion Management Program Under ISO 55000</div>
         </a>
+        <a href="/management/sweet-vs-sour-corrosion-inspection-program-design" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2025-05-26</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Sweet vs Sour Corrosion: Designing Two Different Inspection Programs</div>
+          <div className="mt-2 text-sm text-gray-600">Sweet vs Sour Corrosion: Designing Two Different Inspection Programs</div>
+        </a>
+        <a href="/management/microbiologically-influenced-corrosion-mic-detection" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2025-09-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Microbiologically Influenced Corrosion (MIC): Detection That Actually Works</div>
+          <div className="mt-2 text-sm text-gray-600">Microbiologically Influenced Corrosion (MIC): Detection That Actually Works</div>
+        </a>
+        <a href="/management/erosion-corrosion-vs-flow-accelerated-corrosion" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2025-12-18</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Erosion-Corrosion vs Flow-Accelerated Corrosion: How to Tell Them Apart</div>
+          <div className="mt-2 text-sm text-gray-600">Erosion-Corrosion vs Flow-Accelerated Corrosion: How to Tell Them Apart</div>
+        </a>
+        <a href="/management/galvanic-corrosion-prevention-design-and-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2026-03-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Galvanic Corrosion Prevention: Design Choices and Inspection Strategy</div>
+          <div className="mt-2 text-sm text-gray-600">Galvanic Corrosion Prevention: Design Choices and Inspection Strategy</div>
+        </a>
+        <a href="/management/corrosion-rate-vs-thickness-trends-what-the-data-says" className="block p-4 bg-white border border-gray-200 rounded hover:border-rose-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-rose-600">2026-05-10</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Corrosion Rate vs Thickness Trends: What the Long-Term Data Actually Tells You</div>
+          <div className="mt-2 text-sm text-gray-600">Corrosion Rate vs Thickness Trends: What the Long-Term Data Actually Tells You</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-rose-50 border border-rose-100 rounded">
         <div className="text-sm uppercase tracking-wide text-rose-700 font-medium">Featured industry resource</div>

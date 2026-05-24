@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Data Retention Policy for NDT Files: 7 Years or Life of Asset?</div>
           <div className="mt-2 text-sm text-gray-600">Data Retention Policy for NDT Files: 7 Years or Life of Asset?</div>
         </a>
+        <a href="/solutions/integrating-paut-files-into-an-integrity-platform" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-05-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Integrating PAUT Files Into an Integrity Platform: Data Formats Compared</div>
+          <div className="mt-2 text-sm text-gray-600">Integrating PAUT Files Into an Integrity Platform: Data Formats Compared</div>
+        </a>
+        <a href="/solutions/role-based-access-control-for-inspection-data" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-09-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Role-Based Access Control for Inspection Data: A Practical Setup</div>
+          <div className="mt-2 text-sm text-gray-600">Role-Based Access Control for Inspection Data: A Practical Setup</div>
+        </a>
+        <a href="/solutions/api-first-ndt-software-evaluation-criteria" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2025-12-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">API-First NDT Software: Evaluation Criteria for Future-Proof Choice</div>
+          <div className="mt-2 text-sm text-gray-600">API-First NDT Software: Evaluation Criteria for Future-Proof Choice</div>
+        </a>
+        <a href="/solutions/inspection-photo-management-best-practices" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2026-03-10</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Inspection Photo Management Best Practices for Large Projects</div>
+          <div className="mt-2 text-sm text-gray-600">Inspection Photo Management Best Practices for Large Projects</div>
+        </a>
+        <a href="/solutions/choosing-a-cmms-aware-ndt-platform-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-blue-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-blue-600">2026-05-07</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Choosing a CMMS-Aware NDT Platform in 2026</div>
+          <div className="mt-2 text-sm text-gray-600">Choosing a CMMS-Aware NDT Platform in 2026</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-blue-50 border border-blue-100 rounded">
         <div className="text-sm uppercase tracking-wide text-blue-700 font-medium">Featured industry resource</div>

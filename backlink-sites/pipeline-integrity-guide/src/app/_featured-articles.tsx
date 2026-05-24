@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Pipeline Rehabilitation Options: Composite Sleeves vs Steel Sleeves</div>
           <div className="mt-2 text-sm text-gray-600">Pipeline Rehabilitation Options: Composite Sleeves vs Steel Sleeves</div>
         </a>
+        <a href="/case-studies/ili-data-validation-workflow-anomaly-truth-table" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-05-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ILI Data Validation Workflow: Building an Anomaly Truth Table</div>
+          <div className="mt-2 text-sm text-gray-600">ILI Data Validation Workflow: Building an Anomaly Truth Table</div>
+        </a>
+        <a href="/case-studies/pipeline-girth-weld-quality-management-eca-strain" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-08-26</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Pipeline Girth Weld Quality Management: ECA, Strain, and Construction Reality</div>
+          <div className="mt-2 text-sm text-gray-600">Pipeline Girth Weld Quality Management: ECA, Strain, and Construction Reality</div>
+        </a>
+        <a href="/case-studies/class-location-changes-mop-and-the-inspector-implications" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-11-26</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Class Location Changes, MOP, and the Inspector Implications</div>
+          <div className="mt-2 text-sm text-gray-600">Class Location Changes, MOP, and the Inspector Implications</div>
+        </a>
+        <a href="/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2026-02-18</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Pipeline Leak Detection Program Design: CPM vs Extended Sensor Approaches</div>
+          <div className="mt-2 text-sm text-gray-600">Pipeline Leak Detection Program Design: CPM vs Extended Sensor Approaches</div>
+        </a>
+        <a href="/case-studies/integrity-verification-process-post-spike-hydrotest" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2026-05-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Integrity Verification Process: Post-Spike Hydrotest Strategy</div>
+          <div className="mt-2 text-sm text-gray-600">Integrity Verification Process: Post-Spike Hydrotest Strategy</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-orange-50 border border-orange-100 rounded">
         <div className="text-sm uppercase tracking-wide text-orange-700 font-medium">Featured industry resource</div>

@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">ISO 9712 vs ASNT SNT-TC-1A for Multi-Region Teams</div>
           <div className="mt-2 text-sm text-gray-600">ISO 9712 vs ASNT SNT-TC-1A for Multi-Region Teams</div>
         </a>
+        <a href="/topics/multi-method-ndt-team-staffing-model" className="block p-4 bg-white border border-gray-200 rounded hover:border-slate-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-slate-600">2025-05-30</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Multi-Method NDT Team Staffing Model: How to Cover UT, RT, PT, MT, ECT</div>
+          <div className="mt-2 text-sm text-gray-600">Multi-Method NDT Team Staffing Model: How to Cover UT, RT, PT, MT, ECT</div>
+        </a>
+        <a href="/topics/inspection-contract-clauses-that-protect-the-owner" className="block p-4 bg-white border border-gray-200 rounded hover:border-slate-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-slate-600">2025-09-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Inspection Contract Clauses That Quietly Protect the Owner</div>
+          <div className="mt-2 text-sm text-gray-600">Inspection Contract Clauses That Quietly Protect the Owner</div>
+        </a>
+        <a href="/topics/mobilization-demobilization-cost-discipline" className="block p-4 bg-white border border-gray-200 rounded hover:border-slate-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-slate-600">2025-12-10</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Mobilization and Demobilization Cost Discipline on NDT Projects</div>
+          <div className="mt-2 text-sm text-gray-600">Mobilization and Demobilization Cost Discipline on NDT Projects</div>
+        </a>
+        <a href="/topics/standard-operating-procedures-for-cross-discipline-teams" className="block p-4 bg-white border border-gray-200 rounded hover:border-slate-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-slate-600">2026-03-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Standard Operating Procedures for Cross-Discipline Inspection Teams</div>
+          <div className="mt-2 text-sm text-gray-600">Standard Operating Procedures for Cross-Discipline Inspection Teams</div>
+        </a>
+        <a href="/topics/benchmarking-cost-per-weld-inspected-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-slate-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-slate-600">2026-05-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Benchmarking Cost Per Weld Inspected: A 2026 Reference</div>
+          <div className="mt-2 text-sm text-gray-600">Benchmarking Cost Per Weld Inspected: A 2026 Reference</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-slate-50 border border-slate-100 rounded">
         <div className="text-sm uppercase tracking-wide text-slate-700 font-medium">Featured industry resource</div>

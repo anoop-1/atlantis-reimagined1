@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Eye Exam and Jaeger Near Vision: What the NDT Standards Require</div>
           <div className="mt-2 text-sm text-gray-600">Eye Exam and Jaeger Near Vision: What the NDT Standards Require</div>
         </a>
+        <a href="/curriculum/designing-a-paut-level-ii-practical-program" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2025-05-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Designing a PAUT Level II Practical Program That Produces Field-Ready Inspectors</div>
+          <div className="mt-2 text-sm text-gray-600">Designing a PAUT Level II Practical Program That Produces Field-Ready Inspectors</div>
+        </a>
+        <a href="/curriculum/mt-and-pt-practical-stations-for-classroom-courses" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2025-09-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">MT and PT Practical Stations for Classroom Courses</div>
+          <div className="mt-2 text-sm text-gray-600">MT and PT Practical Stations for Classroom Courses</div>
+        </a>
+        <a href="/curriculum/how-to-write-an-snt-tc-1a-employer-written-practice" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2025-12-17</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">How to Write an SNT-TC-1A Employer Written Practice</div>
+          <div className="mt-2 text-sm text-gray-600">How to Write an SNT-TC-1A Employer Written Practice</div>
+        </a>
+        <a href="/curriculum/scheduling-and-tracking-on-the-job-training-hours" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2026-03-18</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Scheduling and Tracking On-the-Job Training Hours for NDT Candidates</div>
+          <div className="mt-2 text-sm text-gray-600">Scheduling and Tracking On-the-Job Training Hours for NDT Candidates</div>
+        </a>
+        <a href="/curriculum/pcn-vs-cswip-vs-asnt-for-european-students" className="block p-4 bg-white border border-gray-200 rounded hover:border-indigo-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-indigo-600">2026-05-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">PCN vs CSWIP vs ASNT for European NDT Students</div>
+          <div className="mt-2 text-sm text-gray-600">PCN vs CSWIP vs ASNT for European NDT Students</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-indigo-50 border border-indigo-100 rounded">
         <div className="text-sm uppercase tracking-wide text-indigo-700 font-medium">Featured industry resource</div>

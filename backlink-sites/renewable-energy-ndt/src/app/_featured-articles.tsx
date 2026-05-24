@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Wind Blade Leading Edge Erosion: Detection and Repair</div>
           <div className="mt-2 text-sm text-gray-600">Wind Blade Leading Edge Erosion: Detection and Repair</div>
         </a>
+        <a href="/renewables/floating-offshore-wind-inspection-emerging-practice" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2025-05-27</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Floating Offshore Wind Inspection: Emerging Practice for FOWT Programs</div>
+          <div className="mt-2 text-sm text-gray-600">Floating Offshore Wind Inspection: Emerging Practice for FOWT Programs</div>
+        </a>
+        <a href="/renewables/hydrogen-storage-vessel-inspection-considerations" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2025-09-20</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Hydrogen Storage Vessel Inspection Considerations Across Pressure Classes</div>
+          <div className="mt-2 text-sm text-gray-600">Hydrogen Storage Vessel Inspection Considerations Across Pressure Classes</div>
+        </a>
+        <a href="/renewables/pv-module-electroluminescence-and-infrared-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2025-12-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">PV Module Electroluminescence and Infrared Inspection in the Field</div>
+          <div className="mt-2 text-sm text-gray-600">PV Module Electroluminescence and Infrared Inspection in the Field</div>
+        </a>
+        <a href="/renewables/wind-turbine-gearbox-and-bearing-condition-monitoring" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2026-03-20</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Wind Turbine Gearbox and Bearing Condition Monitoring With NDT Overlap</div>
+          <div className="mt-2 text-sm text-gray-600">Wind Turbine Gearbox and Bearing Condition Monitoring With NDT Overlap</div>
+        </a>
+        <a href="/renewables/tidal-and-wave-energy-asset-inspection-introduction" className="block p-4 bg-white border border-gray-200 rounded hover:border-green-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-green-600">2026-05-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tidal and Wave Energy Asset Inspection: An Introduction</div>
+          <div className="mt-2 text-sm text-gray-600">Tidal and Wave Energy Asset Inspection: An Introduction</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-green-50 border border-green-100 rounded">
         <div className="text-sm uppercase tracking-wide text-green-700 font-medium">Featured industry resource</div>

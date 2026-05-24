@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Wendell Park, AWS CWI &middot; 2026-04-29</p>
           <p className="text-gray-700 mt-3">Orbital Welding Inspection for Semiconductor & Pharma Piping</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/methods/weld-mapping-as-a-quality-discipline" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Weld Mapping as a Quality Discipline, Not a Paperwork Burden</a>
+          <p className="text-sm text-gray-500 mt-2">By Wendell Park, AWS CWI &middot; 2025-05-29</p>
+          <p className="text-gray-700 mt-3">Weld Mapping as a Quality Discipline, Not a Paperwork Burden</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/methods/weld-repair-vs-replace-decisions-on-pressure-piping" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Weld Repair vs Replace Decisions on Pressure Piping</a>
+          <p className="text-sm text-gray-500 mt-2">By Sara Klein, IWE &middot; 2025-09-11</p>
+          <p className="text-gray-700 mt-3">Weld Repair vs Replace Decisions on Pressure Piping</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/methods/duplex-stainless-weld-inspection-watchouts" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Duplex Stainless Steel Weld Inspection: Watchouts You Cannot Ignore</a>
+          <p className="text-sm text-gray-500 mt-2">By Wendell Park, AWS CWI &middot; 2025-12-16</p>
+          <p className="text-gray-700 mt-3">Duplex Stainless Steel Weld Inspection: Watchouts You Cannot Ignore</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/methods/weld-distortion-vs-residual-stress-different-problems" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Weld Distortion vs Residual Stress: Two Different Problems With Different Cures</a>
+          <p className="text-sm text-gray-500 mt-2">By Sara Klein, IWE &middot; 2026-03-09</p>
+          <p className="text-gray-700 mt-3">Weld Distortion vs Residual Stress: Two Different Problems With Different Cures</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/methods/weld-inspection-for-cryogenic-services-9-percent-nickel" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Weld Inspection for Cryogenic Services: 9% Nickel and Beyond</a>
+          <p className="text-sm text-gray-500 mt-2">By Wendell Park, AWS CWI &middot; 2026-05-05</p>
+          <p className="text-gray-700 mt-3">Weld Inspection for Cryogenic Services: 9% Nickel and Beyond</p>
+        </li>
       </ul>
     </div>
   );

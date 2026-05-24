@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Inspection of Wind Turbine Tower Flange Bolts: Why It Keeps Surprising People</div>
           <div className="mt-2 text-sm text-gray-600">Inspection of Wind Turbine Tower Flange Bolts: Why It Keeps Surprising People</div>
         </a>
+        <a href="/plant/hrsg-tube-inspection-for-combined-cycle-plants" className="block p-4 bg-white border border-gray-200 rounded hover:border-yellow-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-yellow-600">2025-05-24</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">HRSG Tube Inspection for Combined Cycle Plants</div>
+          <div className="mt-2 text-sm text-gray-600">HRSG Tube Inspection for Combined Cycle Plants</div>
+        </a>
+        <a href="/plant/steam-piping-creep-damage-monitoring-program" className="block p-4 bg-white border border-gray-200 rounded hover:border-yellow-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-yellow-600">2025-09-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Steam Piping Creep Damage Monitoring Program</div>
+          <div className="mt-2 text-sm text-gray-600">Steam Piping Creep Damage Monitoring Program</div>
+        </a>
+        <a href="/plant/cooling-tower-structural-inspection-fiberglass-and-concrete" className="block p-4 bg-white border border-gray-200 rounded hover:border-yellow-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-yellow-600">2025-12-01</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Cooling Tower Structural Inspection: Fiberglass and Concrete Components</div>
+          <div className="mt-2 text-sm text-gray-600">Cooling Tower Structural Inspection: Fiberglass and Concrete Components</div>
+        </a>
+        <a href="/plant/generator-stator-and-rotor-ndt-techniques" className="block p-4 bg-white border border-gray-200 rounded hover:border-yellow-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-yellow-600">2026-03-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Generator Stator and Rotor NDT Techniques</div>
+          <div className="mt-2 text-sm text-gray-600">Generator Stator and Rotor NDT Techniques</div>
+        </a>
+        <a href="/plant/solar-pv-tracker-and-mounting-structure-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-yellow-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-yellow-600">2026-05-10</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Solar PV Tracker and Mounting Structure Inspection</div>
+          <div className="mt-2 text-sm text-gray-600">Solar PV Tracker and Mounting Structure Inspection</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-yellow-50 border border-yellow-100 rounded">
         <div className="text-sm uppercase tracking-wide text-yellow-700 font-medium">Featured industry resource</div>

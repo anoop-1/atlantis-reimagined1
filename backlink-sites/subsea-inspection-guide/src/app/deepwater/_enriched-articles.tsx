@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Captain Olav Berg, IMCA D 04 &middot; 2026-03-09</p>
           <p className="text-gray-700 mt-3">FPSO Hull Inspection Program: Coordinating With Class Surveys</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/deepwater/subsea-jumper-and-spool-inspection-2026-workflow" className="text-xl font-semibold text-gray-900 hover:text-cyan-600">Subsea Jumper and Spool Inspection: A 2026 Workflow</a>
+          <p className="text-sm text-gray-500 mt-2">By Marisol Reyes, MSc Subsea Engineering &middot; 2025-05-25</p>
+          <p className="text-gray-700 mt-3">Subsea Jumper and Spool Inspection: A 2026 Workflow</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/deepwater/subsea-manifold-anode-program-design" className="text-xl font-semibold text-gray-900 hover:text-cyan-600">Subsea Manifold Anode Program Design and Inspection</a>
+          <p className="text-sm text-gray-500 mt-2">By Captain Olav Berg, IMCA D 04 &middot; 2025-08-16</p>
+          <p className="text-gray-700 mt-3">Subsea Manifold Anode Program Design and Inspection</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/deepwater/rov-pilot-handoff-from-vessel-to-onshore-team" className="text-xl font-semibold text-gray-900 hover:text-cyan-600">ROV Pilot Hand-Off: From Vessel to Onshore Engineering Team</a>
+          <p className="text-sm text-gray-500 mt-2">By Marisol Reyes, MSc Subsea Engineering &middot; 2025-11-08</p>
+          <p className="text-gray-700 mt-3">ROV Pilot Hand-Off: From Vessel to Onshore Engineering Team</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/deepwater/mattress-and-stabilization-cover-inspection-pipelines" className="text-xl font-semibold text-gray-900 hover:text-cyan-600">Mattress and Stabilization Cover Inspection for Subsea Pipelines</a>
+          <p className="text-sm text-gray-500 mt-2">By Captain Olav Berg, IMCA D 04 &middot; 2026-02-25</p>
+          <p className="text-gray-700 mt-3">Mattress and Stabilization Cover Inspection for Subsea Pipelines</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/deepwater/subsea-bolts-inspection-and-replacement-strategy" className="text-xl font-semibold text-gray-900 hover:text-cyan-600">Subsea Bolts: Inspection and Replacement Strategy for Critical Connectors</a>
+          <p className="text-sm text-gray-500 mt-2">By Marisol Reyes, MSc Subsea Engineering &middot; 2026-05-08</p>
+          <p className="text-gray-700 mt-3">Subsea Bolts: Inspection and Replacement Strategy for Critical Connectors</p>
+        </li>
       </ul>
     </div>
   );

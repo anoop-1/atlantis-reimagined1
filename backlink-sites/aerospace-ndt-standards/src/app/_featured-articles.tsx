@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Fluorescent Penetrant Inspection (FPI) in Aerospace: Process Control That Works</div>
           <div className="mt-2 text-sm text-gray-600">Fluorescent Penetrant Inspection (FPI) in Aerospace: Process Control That Works</div>
         </a>
+        <a href="/standards/shot-peening-inspection-and-coverage-verification" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2025-05-21</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Shot Peening Inspection and Coverage Verification on Aero Parts</div>
+          <div className="mt-2 text-sm text-gray-600">Shot Peening Inspection and Coverage Verification on Aero Parts</div>
+        </a>
+        <a href="/standards/ndt-on-titanium-airframe-structure-considerations" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2025-09-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">NDT on Titanium Airframe Structure: Method Considerations</div>
+          <div className="mt-2 text-sm text-gray-600">NDT on Titanium Airframe Structure: Method Considerations</div>
+        </a>
+        <a href="/standards/magnetic-particle-on-landing-gear-components" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2025-12-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Magnetic Particle Inspection on Landing Gear Components</div>
+          <div className="mt-2 text-sm text-gray-600">Magnetic Particle Inspection on Landing Gear Components</div>
+        </a>
+        <a href="/standards/aerospace-ndt-data-record-retention-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2026-03-01</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Aerospace NDT Data Record Retention: What 2026 Audits Actually Demand</div>
+          <div className="mt-2 text-sm text-gray-600">Aerospace NDT Data Record Retention: What 2026 Audits Actually Demand</div>
+        </a>
+        <a href="/standards/engine-blade-tip-inspection-eddy-current-vs-fpi" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2026-05-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Engine Blade Tip Inspection: Eddy Current vs FPI Comparison</div>
+          <div className="mt-2 text-sm text-gray-600">Engine Blade Tip Inspection: Eddy Current vs FPI Comparison</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-sky-50 border border-sky-100 rounded">
         <div className="text-sm uppercase tracking-wide text-sky-700 font-medium">Featured industry resource</div>

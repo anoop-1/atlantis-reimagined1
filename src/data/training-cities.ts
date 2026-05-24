@@ -3163,6 +3163,488 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "huntsville", label: "Huntsville" },
     ],
   },
+
+  // ── Training expansion 2026-05-25 (Day 2) ──────────────────────
+  // 15 new training cities — Saudi Aramco upstream hubs, UAE alt ports,
+  // Kuwait Al-Zour, Southeast Asian capital + petrochem corridors.
+  {
+    slug: "ruwais",
+    city: "Ruwais",
+    country: "UAE",
+    lat: 24.1100, lng: 52.7300,
+    localContext:
+      "Ruwais is ADNOC's industrial city in Al Dhafra Region — home to ADNOC Refining Ruwais (the world's fourth-largest single-site refinery at 922,000 bpd), Borouge polyolefins complex (ADNOC + Borealis), Fertiglobe, and the Ta'ziz chemicals zone. Long-term framework NDT volume sits with Applus+ Velosi, TÜV Rheinland, Bureau Veritas, and Mistras Middle East against ADNOC-VR specifications.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "ADNOC Refining and Borouge enforce ASNT SNT-TC-1A together with ADNOC-VR-NDT specifications. CSWIP 3.1 is mandatory for welding inspection at EPC capital projects led by Tecnimont, Samsung Engineering, and Petrofac.",
+    salary: {
+      currency: "AED",
+      levelI: "AED 6,500–10,000/month",
+      levelII: "AED 11,000–18,000/month",
+      levelIII: "AED 22,000–34,000/month",
+      usdReference: "USD 36,000–59,000",
+    },
+    examCenters: [
+      { name: "Applus+ Velosi Ruwais", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "TÜV Rheinland Abu Dhabi", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Bureau Veritas Abu Dhabi", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "abu-dhabi", label: "Abu Dhabi" },
+      { slug: "mussafah", label: "Mussafah" },
+      { slug: "dubai", label: "Dubai" },
+      { slug: "fujairah", label: "Fujairah" },
+      { slug: "jebel-ali", label: "Jebel Ali" },
+    ],
+  },
+  {
+    slug: "mussafah",
+    city: "Mussafah",
+    country: "UAE",
+    lat: 24.3517, lng: 54.4944,
+    localContext:
+      "Mussafah is Abu Dhabi's primary industrial zone, hosting Lamprell Energy, NPCC (National Petroleum Construction Company), ADNOC L&S service yards, and heavy fabrication facilities supplying ADNOC offshore and onshore projects. The Mussafah Channel supports rig-construction yards, FPSO topsides fabrication, and large pressure-vessel shops that drive constant API 510, ASME VIII, and AWS D1.1 inspection demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Mussafah fabrication yards enforce ASNT SNT-TC-1A with AWS D1.1 / ASME IX welding qualifications. CSWIP 3.1 is the de-facto welding-inspection credential at NPCC and Lamprell.",
+    salary: {
+      currency: "AED",
+      levelI: "AED 6,000–9,500/month",
+      levelII: "AED 10,500–17,000/month",
+      levelIII: "AED 21,000–32,000/month",
+      usdReference: "USD 34,000–55,000",
+    },
+    examCenters: [
+      { name: "Applus+ Velosi Mussafah", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "Bureau Veritas Mussafah", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+      { name: "TÜV Middle East Abu Dhabi", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "abu-dhabi", label: "Abu Dhabi" },
+      { slug: "ruwais", label: "Ruwais" },
+      { slug: "dubai", label: "Dubai" },
+      { slug: "sharjah", label: "Sharjah" },
+      { slug: "jebel-ali", label: "Jebel Ali" },
+    ],
+  },
+  {
+    slug: "ras-tanura",
+    city: "Ras Tanura",
+    country: "Saudi Arabia",
+    lat: 26.6500, lng: 50.1500,
+    localContext:
+      "Ras Tanura is the historic centre of Saudi Aramco's downstream operations — Saudi Aramco Ras Tanura Refinery (550,000 bpd) and Ras Tanura Terminal, the world's largest crude oil export terminal handling roughly 6 million bpd. The complex anchors API 510 / 570 / 653 turnaround NDT work alongside continuous tank-farm and marine loading-arm inspection.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Saudi Aramco operates under SAEP-1140 / SAEP-1112 NDT procedures aligned to ASNT SNT-TC-1A. CSWIP 3.1 is required for welding inspection on EPC packages and AWS CWI is accepted at US-led contractors.",
+    salary: {
+      currency: "SAR",
+      levelI: "SAR 8,000–13,000/month",
+      levelII: "SAR 14,000–22,000/month",
+      levelIII: "SAR 28,000–42,000/month",
+      usdReference: "USD 45,000–70,000",
+    },
+    examCenters: [
+      { name: "Saudi Aramco IK&PM Training Center Dhahran", bodies: ["ASNT"] },
+      { name: "Applus+ Velosi Dammam", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "TÜV Middle East Al Khobar", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "dammam", label: "Dammam" },
+      { slug: "jubail", label: "Jubail" },
+      { slug: "khobar", label: "Al Khobar" },
+      { slug: "yanbu", label: "Yanbu" },
+      { slug: "saudi-arabia", label: "Saudi Arabia" },
+    ],
+  },
+  {
+    slug: "khurais",
+    city: "Khurais",
+    country: "Saudi Arabia",
+    lat: 25.1167, lng: 48.2000,
+    localContext:
+      "Khurais is Saudi Aramco's second-largest oilfield with a 1.5 million bpd capacity gas-oil separation and stabilization complex. The Khurais Producing Department supports continuous in-service inspection on production manifolds, oil/gas separation trains, and the trunk pipelines feeding Abqaiq processing. NDT contractors at Khurais include Saudi Aramco's IK&PM division, Applus+ Velosi, and Mistras Saudi Arabia.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Saudi Aramco upstream sites enforce SAEP-1112 / SAEP-1140 aligned to ASNT SNT-TC-1A. Pipeline weld inspection follows API 1104, and CSWIP 3.1 is required at EPC capital-project contractors.",
+    salary: {
+      currency: "SAR",
+      levelI: "SAR 8,000–13,000/month (remote-site uplift)",
+      levelII: "SAR 14,500–23,000/month",
+      levelIII: "SAR 28,000–43,000/month",
+      usdReference: "USD 46,000–73,000",
+    },
+    examCenters: [
+      { name: "Saudi Aramco IK&PM Training Center Dhahran", bodies: ["ASNT"] },
+      { name: "Applus+ Velosi Dammam", bodies: ["ASNT", "PCN", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "shaybah", label: "Shaybah" },
+      { slug: "dammam", label: "Dammam" },
+      { slug: "ras-tanura", label: "Ras Tanura" },
+      { slug: "jubail", label: "Jubail" },
+      { slug: "saudi-arabia", label: "Saudi Arabia" },
+    ],
+  },
+  {
+    slug: "shaybah",
+    city: "Shaybah",
+    country: "Saudi Arabia",
+    lat: 22.5167, lng: 53.9667,
+    localContext:
+      "Shaybah is Saudi Aramco's flagship deep-desert oilfield in the Empty Quarter (Rub' al Khali) producing 1 million bpd of Arabian Extra Light crude alongside the Shaybah NGL recovery plant. Remote-site NDT runs against API 510 / 570 / 653 with strong focus on sulphur-recovery units, NGL columns, and the cross-desert export pipelines that feed Abqaiq.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Shaybah enforces SAEP-1112 / SAEP-1140 aligned to ASNT SNT-TC-1A with API 510/570/653 for in-service inspection. CSWIP 3.1 is mandatory at EPC contractors building NGL expansion trains.",
+    salary: {
+      currency: "SAR",
+      levelI: "SAR 9,000–14,000/month (remote-site allowance)",
+      levelII: "SAR 16,000–25,000/month",
+      levelIII: "SAR 30,000–46,000/month",
+      usdReference: "USD 50,000–80,000",
+    },
+    examCenters: [
+      { name: "Saudi Aramco IK&PM Training Center Dhahran", bodies: ["ASNT"] },
+      { name: "Applus+ Velosi Dammam", bodies: ["ASNT", "PCN", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "khurais", label: "Khurais" },
+      { slug: "dammam", label: "Dammam" },
+      { slug: "ras-tanura", label: "Ras Tanura" },
+      { slug: "jubail", label: "Jubail" },
+      { slug: "saudi-arabia", label: "Saudi Arabia" },
+    ],
+  },
+  {
+    slug: "khobar",
+    city: "Al Khobar",
+    country: "Saudi Arabia",
+    lat: 26.2172, lng: 50.1971,
+    localContext:
+      "Al Khobar sits next to Dhahran and Dammam in Saudi Arabia's Eastern Province — the headquarters region for Saudi Aramco, SABIC, and the major inspection contractors (Applus+ Velosi, Bureau Veritas, TÜV Middle East, Mistras Saudi Arabia, Inspection Engineering Co.). It is the primary residential and training base for Aramco contractors serving Ras Tanura, Jubail, Abqaiq, Khurais, and Shaybah.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Saudi Aramco contractors based in Al Khobar enforce SAEP-1112 / SAEP-1140 aligned to ASNT SNT-TC-1A. CSWIP 3.1 is mandatory for welding inspection on EPC capital projects across the Eastern Province.",
+    salary: {
+      currency: "SAR",
+      levelI: "SAR 7,500–12,000/month",
+      levelII: "SAR 13,500–21,000/month",
+      levelIII: "SAR 27,000–41,000/month",
+      usdReference: "USD 43,000–67,000",
+    },
+    examCenters: [
+      { name: "TÜV Middle East Al Khobar", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Applus+ Velosi Al Khobar", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "Bureau Veritas Al Khobar", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "dammam", label: "Dammam" },
+      { slug: "jubail", label: "Jubail" },
+      { slug: "ras-tanura", label: "Ras Tanura" },
+      { slug: "yanbu", label: "Yanbu" },
+      { slug: "saudi-arabia", label: "Saudi Arabia" },
+    ],
+  },
+  {
+    slug: "abqaiq",
+    city: "Abqaiq",
+    country: "Saudi Arabia",
+    lat: 25.9333, lng: 49.6667,
+    localContext:
+      "Abqaiq is Saudi Aramco's largest oil-processing facility — handling crude stabilization, gas separation, and NGL processing for around 7 million bpd of upstream production from Ghawar, Khurais, and Shaybah. Abqaiq's spheroids, sulfur recovery units, and gas-oil separation plants underpin the highest concentration of API 510, API 570, and PAUT inspection demand anywhere in Saudi Arabia.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Abqaiq operates under SAEP-1112 / SAEP-1140 NDT procedures aligned to ASNT SNT-TC-1A. PAUT Level II is required for high-pressure equipment, and CSWIP 3.1 is mandatory at EPC contractors.",
+    salary: {
+      currency: "SAR",
+      levelI: "SAR 8,000–13,000/month",
+      levelII: "SAR 14,000–22,000/month",
+      levelIII: "SAR 28,000–43,000/month",
+      usdReference: "USD 45,000–71,000",
+    },
+    examCenters: [
+      { name: "Saudi Aramco IK&PM Training Center Dhahran", bodies: ["ASNT"] },
+      { name: "Applus+ Velosi Dammam", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "Mistras Group Saudi Arabia (Dammam)", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "dammam", label: "Dammam" },
+      { slug: "khurais", label: "Khurais" },
+      { slug: "shaybah", label: "Shaybah" },
+      { slug: "ras-tanura", label: "Ras Tanura" },
+      { slug: "saudi-arabia", label: "Saudi Arabia" },
+    ],
+  },
+  {
+    slug: "al-zour",
+    city: "Al-Zour",
+    country: "Kuwait",
+    lat: 28.7167, lng: 48.3833,
+    localContext:
+      "Al-Zour hosts Kuwait's Al-Zour Refinery (615,000 bpd, the largest in the Middle East) operated by KIPIC, the Al-Zour LNG Import Terminal, and Kuwait's southern petrochemical zone. Continuing post-commissioning shutdown work plus tie-ins for the Clean Fuels Project drive strong API 510 / 570 / 653 inspection demand alongside CSWIP-graded weld inspection on the LNG receiving facility.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "KIPIC requires ASNT SNT-TC-1A and KOC-MP-014 NDT procedures. CSWIP 3.1 is mandatory at EPC contractors (Petrofac, Samsung Engineering, Tecnicas Reunidas, Saipem) building the refinery and LNG package units.",
+    salary: {
+      currency: "KWD",
+      levelI: "KWD 500–800/month",
+      levelII: "KWD 900–1,500/month",
+      levelIII: "KWD 1,800–2,800/month",
+      usdReference: "USD 35,000–58,000",
+    },
+    examCenters: [
+      { name: "Applus+ Velosi Kuwait", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "TÜV Middle East Kuwait", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Bureau Veritas Kuwait", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "kuwait", label: "Kuwait City" },
+      { slug: "khobar", label: "Al Khobar" },
+      { slug: "dammam", label: "Dammam" },
+      { slug: "jubail", label: "Jubail" },
+      { slug: "abqaiq", label: "Abqaiq" },
+    ],
+  },
+  {
+    slug: "kerteh",
+    city: "Kerteh",
+    country: "Malaysia",
+    lat: 4.5167, lng: 103.4500,
+    localContext:
+      "Kerteh in Terengganu is the heart of Petronas's east-coast Malaysia operations — Petronas Penapisan Terengganu refinery, PETLIN polyethylene, BASF Petronas Chemicals, and the Kerteh Centralised Tankage Facility. It anchors offshore Peninsular Malaysia oil & gas processing and feeds Petronas's downstream chemicals corridor toward Kemaman.",
+    primaryCert: "ASNT",
+    secondaryCert: "PCN",
+    otherCerts: ["CSWIP", "ISO 9712"],
+    certPathwayNote:
+      "Petronas Operating Procedures (PTS — Petronas Technical Standards) require ASNT SNT-TC-1A. CSWIP 3.1 and PCN are widely accepted at Malaysian EPC contractors (Sapura Energy, Dialog Group, MMHE).",
+    salary: {
+      currency: "MYR",
+      levelI: "MYR 3,500–5,500/month",
+      levelII: "MYR 6,000–10,000/month",
+      levelIII: "MYR 12,000–18,000/month",
+      usdReference: "USD 16,000–27,000",
+    },
+    examCenters: [
+      { name: "TWI Malaysia (Shah Alam)", bodies: ["CSWIP", "ASNT"] },
+      { name: "Applus+ Velosi Malaysia", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "Bureau Veritas Malaysia", bodies: ["ASNT", "PCN", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "kemaman", label: "Kemaman" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "pengerang", label: "Pengerang" },
+      { slug: "bintulu", label: "Bintulu" },
+      { slug: "miri", label: "Miri" },
+    ],
+  },
+  {
+    slug: "manila",
+    city: "Manila",
+    country: "Philippines",
+    lat: 14.5995, lng: 120.9842,
+    localContext:
+      "Metro Manila and the Bataan / Batangas industrial belt host Petron Bataan Refinery, Pilipinas Shell Tabangao Refinery, JG Summit Petrochemicals, San Miguel Corporation power and infrastructure, and the Philippine Navy. NDT contractors include Bureau Veritas Philippines, TÜV Rheinland Philippines, and Applus+ Velosi.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Philippine refining and shipyard work runs on ASNT SNT-TC-1A and ISO 9712. The Department of Labor & Employment (DOLE) Occupational Safety and Health Center (OSHC) administers technical worker accreditation, and CSWIP 3.1 is the dominant welding-inspection credential at EPC contractors.",
+    salary: {
+      currency: "PHP",
+      levelI: "PHP 25,000–40,000/month",
+      levelII: "PHP 45,000–75,000/month",
+      levelIII: "PHP 90,000–150,000/month",
+      usdReference: "USD 10,000–17,000",
+    },
+    examCenters: [
+      { name: "TÜV Rheinland Philippines (Manila)", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Bureau Veritas Philippines (Manila)", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+      { name: "Applus+ Velosi Philippines", bodies: ["ASNT", "PCN", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "bangkok", label: "Bangkok" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "ho-chi-minh", label: "Ho Chi Minh City" },
+      { slug: "jakarta", label: "Jakarta" },
+    ],
+  },
+  {
+    slug: "bangkok",
+    city: "Bangkok",
+    country: "Thailand",
+    lat: 13.7563, lng: 100.5018,
+    localContext:
+      "Bangkok and the Eastern Economic Corridor (Map Ta Phut, Rayong, Sriracha) host PTT (Petroleum Authority of Thailand), Thai Oil (TOP) Sriracha Refinery, IRPC Industrial Estate, Bangchak Petroleum, SCG Chemicals, and Esso Sriracha. The corridor is South-East Asia's largest integrated petrochemical zone after Singapore.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Thailand follows TIS (Thai Industrial Standards) referenced to ASNT SNT-TC-1A and ISO 9712. The Department of Industrial Works (DIW) governs licensed welding inspection; CSWIP 3.1 dominates EPC welding inspection at Map Ta Phut.",
+    salary: {
+      currency: "THB",
+      levelI: "THB 25,000–40,000/month",
+      levelII: "THB 45,000–75,000/month",
+      levelIII: "THB 90,000–150,000/month",
+      usdReference: "USD 13,000–22,000",
+    },
+    examCenters: [
+      { name: "TÜV SÜD Thailand (Bangkok)", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Bureau Veritas Thailand (Bangkok)", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+      { name: "Applus+ Velosi Thailand", bodies: ["ASNT", "PCN", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "manila", label: "Manila" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "ho-chi-minh", label: "Ho Chi Minh City" },
+      { slug: "jakarta", label: "Jakarta" },
+    ],
+  },
+  {
+    slug: "balikpapan",
+    city: "Balikpapan",
+    country: "Indonesia",
+    lat: -1.2379, lng: 116.8529,
+    localContext:
+      "Balikpapan in East Kalimantan hosts Pertamina Balikpapan Refinery (currently undergoing the RDMP — Refinery Development Master Plan expansion to 360,000 bpd) plus offshore Mahakam Block operations historically run by Total and now Pertamina Hulu Mahakam. It is the principal NDT hub of Indonesian Kalimantan.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["BNSP", "CSWIP"],
+    certPathwayNote:
+      "Pertamina enforces ASNT SNT-TC-1A and ISO 9712 alongside BNSP (Badan Nasional Sertifikasi Profesi) for Indonesian-national NDT competency. CSWIP 3.1 is mandatory at EPC contractors (Tecnimont, Saipem, Hyundai E&C) on RDMP.",
+    salary: {
+      currency: "IDR",
+      levelI: "IDR 8M–14M/month",
+      levelII: "IDR 16M–28M/month",
+      levelIII: "IDR 32M–55M/month",
+      usdReference: "USD 12,000–21,000",
+    },
+    examCenters: [
+      { name: "PT Petrolog Indah Indonesia (Balikpapan)", bodies: ["ASNT", "BNSP"] },
+      { name: "TÜV NORD Indonesia (Jakarta)", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Bureau Veritas Indonesia (Jakarta)", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "cilacap", label: "Cilacap" },
+      { slug: "jakarta", label: "Jakarta" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "manila", label: "Manila" },
+      { slug: "bangkok", label: "Bangkok" },
+    ],
+  },
+  {
+    slug: "cilacap",
+    city: "Cilacap",
+    country: "Indonesia",
+    lat: -7.7167, lng: 109.0167,
+    localContext:
+      "Cilacap on Central Java's southern coast is the site of Pertamina's largest refinery — Pertamina RU IV Cilacap at 348,000 bpd — currently in RDMP-Phase 2 expansion to 400,000 bpd. The complex also runs lube-oil and asphalt production. Continuous turnaround NDT volume sits with Pertamina's in-house NDT team plus PT Petrolog Indah, Applus+ Velosi Indonesia, and Mitra Mandiri.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["BNSP", "CSWIP"],
+    certPathwayNote:
+      "Pertamina Cilacap operates under ASNT SNT-TC-1A with BNSP-issued national competency required for Indonesian nationals. CSWIP 3.1 is mandatory at the Saudi Aramco / Pertamina joint-venture RDMP EPC packages.",
+    salary: {
+      currency: "IDR",
+      levelI: "IDR 7M–12M/month",
+      levelII: "IDR 14M–25M/month",
+      levelIII: "IDR 30M–50M/month",
+      usdReference: "USD 11,000–19,000",
+    },
+    examCenters: [
+      { name: "PT Petrolog Indah Indonesia (Cilacap)", bodies: ["ASNT", "BNSP"] },
+      { name: "TÜV NORD Indonesia (Jakarta)", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+      { name: "Bureau Veritas Indonesia (Jakarta)", bodies: ["ASNT", "CSWIP", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "balikpapan", label: "Balikpapan" },
+      { slug: "jakarta", label: "Jakarta" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "manila", label: "Manila" },
+      { slug: "bangkok", label: "Bangkok" },
+    ],
+  },
+  {
+    slug: "pengerang",
+    city: "Pengerang",
+    country: "Malaysia",
+    lat: 1.3667, lng: 104.1667,
+    localContext:
+      "Pengerang in southern Johor hosts the PIPC (Pengerang Integrated Petroleum Complex) — Petronas RAPID Refinery (300,000 bpd), Petronas RAPID Petrochemical complex (cracker + downstream derivatives), the Pengerang Deepwater Terminal, and Dialog Group's Pengerang Independent Terminals. It is Malaysia's largest single integrated refinery / petrochemical site, comparable in scale to Jurong Island across the strait.",
+    primaryCert: "ASNT",
+    secondaryCert: "PCN",
+    otherCerts: ["CSWIP", "ISO 9712"],
+    certPathwayNote:
+      "Petronas RAPID enforces Petronas Technical Standards (PTS) aligned to ASNT SNT-TC-1A. CSWIP 3.1 was mandatory across the EPC packages led by Tecnimont, Saipem, Sinopec, and JGC Corporation, and remains the dominant welding-inspection credential.",
+    salary: {
+      currency: "MYR",
+      levelI: "MYR 3,800–6,000/month",
+      levelII: "MYR 6,500–11,000/month",
+      levelIII: "MYR 13,000–20,000/month",
+      usdReference: "USD 17,000–29,000",
+    },
+    examCenters: [
+      { name: "TWI Malaysia (Shah Alam)", bodies: ["CSWIP", "ASNT"] },
+      { name: "Applus+ Velosi Malaysia (Johor)", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "Bureau Veritas Malaysia (Johor)", bodies: ["ASNT", "PCN", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "kerteh", label: "Kerteh" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "bintulu", label: "Bintulu" },
+      { slug: "kemaman", label: "Kemaman" },
+    ],
+  },
+  {
+    slug: "bintulu",
+    city: "Bintulu",
+    country: "Malaysia",
+    lat: 3.1667, lng: 113.0333,
+    localContext:
+      "Bintulu in Sarawak hosts Malaysia LNG (the world's largest single-location LNG complex at roughly 30 MTPA across nine trains, operated by Petronas), Shell MDS (Middle Distillate Synthesis — gas-to-liquids), Petronas Chemicals Methanol, and the Samalaju Industrial Park aluminium smelters. NDT focus is LNG cryogenic trains, methanol reactors, and offshore Sarawak gas processing.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["PCN", "ISO 9712"],
+    certPathwayNote:
+      "Malaysia LNG and Shell MDS enforce Shell DEP / Petronas PTS specs aligned to ASNT SNT-TC-1A. CSWIP 3.1 is mandatory for LNG cryogenic and stainless-steel welding inspection on Train expansions.",
+    salary: {
+      currency: "MYR",
+      levelI: "MYR 4,000–6,500/month (Sarawak remote uplift)",
+      levelII: "MYR 7,000–12,000/month",
+      levelIII: "MYR 14,000–22,000/month",
+      usdReference: "USD 18,000–32,000",
+    },
+    examCenters: [
+      { name: "TWI Malaysia (Shah Alam)", bodies: ["CSWIP", "ASNT"] },
+      { name: "Applus+ Velosi Malaysia (Bintulu)", bodies: ["ASNT", "PCN", "CSWIP"] },
+      { name: "Bureau Veritas Malaysia (Bintulu)", bodies: ["ASNT", "PCN", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "kerteh", label: "Kerteh" },
+      { slug: "miri", label: "Miri" },
+      { slug: "pengerang", label: "Pengerang" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "singapore", label: "Singapore" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

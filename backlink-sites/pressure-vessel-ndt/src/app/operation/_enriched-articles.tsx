@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Inga Sørensen, API 510 Inspector &middot; 2026-04-22</p>
           <p className="text-gray-700 mt-3">Long-Range UT Screening for Pressure Vessels: When It Adds Real Value</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/operation/pressure-vessel-nozzle-weld-inspection-deep-dive" className="text-xl font-semibold text-gray-900 hover:text-red-600">Pressure Vessel Nozzle Weld Inspection: A Practical Deep Dive</a>
+          <p className="text-sm text-gray-500 mt-2">By Inga Sørensen, API 510 Inspector &middot; 2025-05-17</p>
+          <p className="text-gray-700 mt-3">Pressure Vessel Nozzle Weld Inspection: A Practical Deep Dive</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/operation/on-stream-inspection-with-pulsed-eddy-current" className="text-xl font-semibold text-gray-900 hover:text-red-600">On-Stream Vessel Inspection With Pulsed Eddy Current: Where It Actually Works</a>
+          <p className="text-sm text-gray-500 mt-2">By Vikram Sahota, Welding Engineer &middot; 2025-08-23</p>
+          <p className="text-gray-700 mt-3">On-Stream Vessel Inspection With Pulsed Eddy Current: Where It Actually Works</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/operation/pressure-vessel-thermal-relief-valve-and-prv-tie-ins" className="text-xl font-semibold text-gray-900 hover:text-red-600">Pressure Vessel Thermal Relief and PRV Tie-In Inspection</a>
+          <p className="text-sm text-gray-500 mt-2">By Inga Sørensen, API 510 Inspector &middot; 2025-11-17</p>
+          <p className="text-gray-700 mt-3">Pressure Vessel Thermal Relief and PRV Tie-In Inspection</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/operation/low-temperature-vessel-impact-test-requirements" className="text-xl font-semibold text-gray-900 hover:text-red-600">Low-Temperature Vessel Impact Test Requirements: ASME UCS-66 Walkthrough</a>
+          <p className="text-sm text-gray-500 mt-2">By Vikram Sahota, Welding Engineer &middot; 2026-02-14</p>
+          <p className="text-gray-700 mt-3">Low-Temperature Vessel Impact Test Requirements: ASME UCS-66 Walkthrough</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/operation/rerating-pressure-vessels-when-it-is-worth-it" className="text-xl font-semibold text-gray-900 hover:text-red-600">Rerating Pressure Vessels: When It Is Worth It (and When It Is Not)</a>
+          <p className="text-sm text-gray-500 mt-2">By Inga Sørensen, API 510 Inspector &middot; 2026-05-11</p>
+          <p className="text-gray-700 mt-3">Rerating Pressure Vessels: When It Is Worth It (and When It Is Not)</p>
+        </li>
       </ul>
     </div>
   );

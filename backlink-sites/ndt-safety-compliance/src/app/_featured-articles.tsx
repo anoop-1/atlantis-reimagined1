@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Inspector Fatigue and Probability of Detection: The Data No One Shares</div>
           <div className="mt-2 text-sm text-gray-600">Inspector Fatigue and Probability of Detection: The Data No One Shares</div>
         </a>
+        <a href="/compliance/iso-45001-and-ndt-safety-program-alignment" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-05-21</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ISO 45001 and the NDT Safety Program: How to Align Them</div>
+          <div className="mt-2 text-sm text-gray-600">ISO 45001 and the NDT Safety Program: How to Align Them</div>
+        </a>
+        <a href="/compliance/fume-control-during-magnetic-particle-and-penetrant" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-09-18</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Fume Control During Magnetic Particle and Penetrant Operations</div>
+          <div className="mt-2 text-sm text-gray-600">Fume Control During Magnetic Particle and Penetrant Operations</div>
+        </a>
+        <a href="/compliance/confined-space-entry-for-ndt-permits-and-rescue" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-12-22</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Confined Space Entry for NDT: Permits, Rescue, and Reality</div>
+          <div className="mt-2 text-sm text-gray-600">Confined Space Entry for NDT: Permits, Rescue, and Reality</div>
+        </a>
+        <a href="/compliance/crew-rotation-fatigue-and-fitness-for-duty-ndt" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2026-03-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Crew Rotation, Fatigue, and Fitness-for-Duty on Long NDT Campaigns</div>
+          <div className="mt-2 text-sm text-gray-600">Crew Rotation, Fatigue, and Fitness-for-Duty on Long NDT Campaigns</div>
+        </a>
+        <a href="/compliance/incident-reporting-near-miss-culture-for-ndt-teams" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2026-05-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Incident Reporting and Near-Miss Culture for NDT Teams</div>
+          <div className="mt-2 text-sm text-gray-600">Incident Reporting and Near-Miss Culture for NDT Teams</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-red-50 border border-red-100 rounded">
         <div className="text-sm uppercase tracking-wide text-red-700 font-medium">Featured industry resource</div>

@@ -36,6 +36,31 @@ export default function ContainerIndex() {
           <p className="text-sm text-gray-500 mt-2">By Capt. Russell Fairchild, NANDTB Level III &middot; 2026-03-30</p>
           <p className="text-gray-700 mt-3">Fluorescent Penetrant Inspection (FPI) in Aerospace: Process Control That Works</p>
         </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/standards/shot-peening-inspection-and-coverage-verification" className="text-xl font-semibold text-gray-900 hover:text-sky-600">Shot Peening Inspection and Coverage Verification on Aero Parts</a>
+          <p className="text-sm text-gray-500 mt-2">By Capt. Russell Fairchild, NANDTB Level III &middot; 2025-05-21</p>
+          <p className="text-gray-700 mt-3">Shot Peening Inspection and Coverage Verification on Aero Parts</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/standards/ndt-on-titanium-airframe-structure-considerations" className="text-xl font-semibold text-gray-900 hover:text-sky-600">NDT on Titanium Airframe Structure: Method Considerations</a>
+          <p className="text-sm text-gray-500 mt-2">By Aiyana Roy, NDT Engineer &middot; 2025-09-04</p>
+          <p className="text-gray-700 mt-3">NDT on Titanium Airframe Structure: Method Considerations</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/standards/magnetic-particle-on-landing-gear-components" className="text-xl font-semibold text-gray-900 hover:text-sky-600">Magnetic Particle Inspection on Landing Gear Components</a>
+          <p className="text-sm text-gray-500 mt-2">By Capt. Russell Fairchild, NANDTB Level III &middot; 2025-12-11</p>
+          <p className="text-gray-700 mt-3">Magnetic Particle Inspection on Landing Gear Components</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/standards/aerospace-ndt-data-record-retention-2026" className="text-xl font-semibold text-gray-900 hover:text-sky-600">Aerospace NDT Data Record Retention: What 2026 Audits Actually Demand</a>
+          <p className="text-sm text-gray-500 mt-2">By Aiyana Roy, NDT Engineer &middot; 2026-03-01</p>
+          <p className="text-gray-700 mt-3">Aerospace NDT Data Record Retention: What 2026 Audits Actually Demand</p>
+        </li>
+<li className="border-b border-gray-200 py-6">
+          <a href="/standards/engine-blade-tip-inspection-eddy-current-vs-fpi" className="text-xl font-semibold text-gray-900 hover:text-sky-600">Engine Blade Tip Inspection: Eddy Current vs FPI Comparison</a>
+          <p className="text-sm text-gray-500 mt-2">By Capt. Russell Fairchild, NANDTB Level III &middot; 2026-05-13</p>
+          <p className="text-gray-700 mt-3">Engine Blade Tip Inspection: Eddy Current vs FPI Comparison</p>
+        </li>
       </ul>
     </div>
   );

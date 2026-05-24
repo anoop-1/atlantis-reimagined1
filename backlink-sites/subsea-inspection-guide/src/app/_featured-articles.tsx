@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">FPSO Hull Inspection Program: Coordinating With Class Surveys</div>
           <div className="mt-2 text-sm text-gray-600">FPSO Hull Inspection Program: Coordinating With Class Surveys</div>
         </a>
+        <a href="/deepwater/subsea-jumper-and-spool-inspection-2026-workflow" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2025-05-25</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Subsea Jumper and Spool Inspection: A 2026 Workflow</div>
+          <div className="mt-2 text-sm text-gray-600">Subsea Jumper and Spool Inspection: A 2026 Workflow</div>
+        </a>
+        <a href="/deepwater/subsea-manifold-anode-program-design" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2025-08-16</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Subsea Manifold Anode Program Design and Inspection</div>
+          <div className="mt-2 text-sm text-gray-600">Subsea Manifold Anode Program Design and Inspection</div>
+        </a>
+        <a href="/deepwater/rov-pilot-handoff-from-vessel-to-onshore-team" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2025-11-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">ROV Pilot Hand-Off: From Vessel to Onshore Engineering Team</div>
+          <div className="mt-2 text-sm text-gray-600">ROV Pilot Hand-Off: From Vessel to Onshore Engineering Team</div>
+        </a>
+        <a href="/deepwater/mattress-and-stabilization-cover-inspection-pipelines" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2026-02-25</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Mattress and Stabilization Cover Inspection for Subsea Pipelines</div>
+          <div className="mt-2 text-sm text-gray-600">Mattress and Stabilization Cover Inspection for Subsea Pipelines</div>
+        </a>
+        <a href="/deepwater/subsea-bolts-inspection-and-replacement-strategy" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2026-05-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Subsea Bolts: Inspection and Replacement Strategy for Critical Connectors</div>
+          <div className="mt-2 text-sm text-gray-600">Subsea Bolts: Inspection and Replacement Strategy for Critical Connectors</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-cyan-50 border border-cyan-100 rounded">
         <div className="text-sm uppercase tracking-wide text-cyan-700 font-medium">Featured industry resource</div>

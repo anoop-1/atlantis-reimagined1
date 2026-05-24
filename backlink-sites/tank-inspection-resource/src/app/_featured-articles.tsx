@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Soil-Side Corrosion on Tank Floors and How to Detect It</div>
           <div className="mt-2 text-sm text-gray-600">Soil-Side Corrosion on Tank Floors and How to Detect It</div>
         </a>
+        <a href="/tanks/tank-roof-pontoon-leak-detection-vacuum-box" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2025-05-30</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tank Roof Pontoon Leak Detection With Vacuum Box and Tracer Gas</div>
+          <div className="mt-2 text-sm text-gray-600">Tank Roof Pontoon Leak Detection With Vacuum Box and Tracer Gas</div>
+        </a>
+        <a href="/tanks/tank-secondary-containment-inspection-and-integrity" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2025-09-30</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tank Secondary Containment Inspection and Integrity</div>
+          <div className="mt-2 text-sm text-gray-600">Tank Secondary Containment Inspection and Integrity</div>
+        </a>
+        <a href="/tanks/api-650-construction-ndt-acceptance-walkthrough" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2025-12-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">API 650 Construction NDT Acceptance: A Walkthrough</div>
+          <div className="mt-2 text-sm text-gray-600">API 650 Construction NDT Acceptance: A Walkthrough</div>
+        </a>
+        <a href="/tanks/asphalt-and-fuel-oil-tank-inspection-considerations" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2026-03-17</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Asphalt and Fuel Oil Tank Inspection Considerations</div>
+          <div className="mt-2 text-sm text-gray-600">Asphalt and Fuel Oil Tank Inspection Considerations</div>
+        </a>
+        <a href="/tanks/tank-relocation-and-reerection-ndt-rules" className="block p-4 bg-white border border-gray-200 rounded hover:border-cyan-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-cyan-600">2026-05-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tank Relocation and Re-Erection NDT Rules</div>
+          <div className="mt-2 text-sm text-gray-600">Tank Relocation and Re-Erection NDT Rules</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-cyan-50 border border-cyan-100 rounded">
         <div className="text-sm uppercase tracking-wide text-cyan-700 font-medium">Featured industry resource</div>

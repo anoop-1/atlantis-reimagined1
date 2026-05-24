@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">BOG Compressor Inspection and Vibration Monitoring on LNG Trains</div>
           <div className="mt-2 text-sm text-gray-600">BOG Compressor Inspection and Vibration Monitoring on LNG Trains</div>
         </a>
+        <a href="/guides/lng-storage-tank-roof-inspection-from-inside-and-outside" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2025-05-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">LNG Storage Tank Roof Inspection From Inside and Outside</div>
+          <div className="mt-2 text-sm text-gray-600">LNG Storage Tank Roof Inspection From Inside and Outside</div>
+        </a>
+        <a href="/guides/lng-vaporizer-and-srv-inspection-program" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2025-09-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">LNG Vaporizer and SRV Inspection Program</div>
+          <div className="mt-2 text-sm text-gray-600">LNG Vaporizer and SRV Inspection Program</div>
+        </a>
+        <a href="/guides/lng-trailer-and-isotainer-inspection-checklist" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2025-12-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">LNG Trailer and ISO-Tainer Inspection Checklist</div>
+          <div className="mt-2 text-sm text-gray-600">LNG Trailer and ISO-Tainer Inspection Checklist</div>
+        </a>
+        <a href="/guides/gravity-base-structure-gbs-lng-inspection-considerations" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2026-03-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Gravity-Based Structure (GBS) LNG Inspection Considerations</div>
+          <div className="mt-2 text-sm text-gray-600">Gravity-Based Structure (GBS) LNG Inspection Considerations</div>
+        </a>
+        <a href="/guides/lng-spill-protection-systems-inspection-and-test" className="block p-4 bg-white border border-gray-200 rounded hover:border-sky-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-sky-600">2026-05-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">LNG Spill Protection Systems: Inspection and Testing Practice</div>
+          <div className="mt-2 text-sm text-gray-600">LNG Spill Protection Systems: Inspection and Testing Practice</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-sky-50 border border-sky-100 rounded">
         <div className="text-sm uppercase tracking-wide text-sky-700 font-medium">Featured industry resource</div>

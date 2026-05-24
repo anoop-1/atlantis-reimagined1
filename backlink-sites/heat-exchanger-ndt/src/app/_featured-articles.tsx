@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Plugging vs Retubing: The Economics of Tube Failure Response</div>
           <div className="mt-2 text-sm text-gray-600">Plugging vs Retubing: The Economics of Tube Failure Response</div>
         </a>
+        <a href="/tubes/shell-and-tube-vs-plate-frame-inspection-realities" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-05-24</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Shell-and-Tube vs Plate-Frame Heat Exchanger Inspection Realities</div>
+          <div className="mt-2 text-sm text-gray-600">Shell-and-Tube vs Plate-Frame Heat Exchanger Inspection Realities</div>
+        </a>
+        <a href="/tubes/tube-bundle-extraction-and-rebundling-decisions" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-09-16</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tube Bundle Extraction and Rebundling: Decision Framework</div>
+          <div className="mt-2 text-sm text-gray-600">Tube Bundle Extraction and Rebundling: Decision Framework</div>
+        </a>
+        <a href="/tubes/air-cooler-header-box-inspection-for-cracks" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-12-07</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Air Cooler Header Box Inspection for Cracks and Distortion</div>
+          <div className="mt-2 text-sm text-gray-600">Air Cooler Header Box Inspection for Cracks and Distortion</div>
+        </a>
+        <a href="/tubes/tube-to-tubesheet-weld-inspection-techniques" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2026-02-21</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tube-to-Tubesheet Weld Inspection: Methods That Hold Up to Audit</div>
+          <div className="mt-2 text-sm text-gray-600">Tube-to-Tubesheet Weld Inspection: Methods That Hold Up to Audit</div>
+        </a>
+        <a href="/tubes/expansion-joint-inspection-on-shell-and-tube-exchangers" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2026-05-02</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Expansion Joint Inspection on Shell-and-Tube Exchangers</div>
+          <div className="mt-2 text-sm text-gray-600">Expansion Joint Inspection on Shell-and-Tube Exchangers</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-red-50 border border-red-100 rounded">
         <div className="text-sm uppercase tracking-wide text-red-700 font-medium">Featured industry resource</div>

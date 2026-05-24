@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Rail Bridge Truss Inspection: AAR and Operator Practice</div>
           <div className="mt-2 text-sm text-gray-600">Rail Bridge Truss Inspection: AAR and Operator Practice</div>
         </a>
+        <a href="/rail/rail-track-bolt-and-fishplate-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-05-18</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Rail Track Bolt and Fishplate Inspection in Continuous Service</div>
+          <div className="mt-2 text-sm text-gray-600">Rail Track Bolt and Fishplate Inspection in Continuous Service</div>
+        </a>
+        <a href="/rail/rail-axle-ultrasonic-inspection-procedure" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-09-29</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Rail Axle Ultrasonic Inspection Procedure and Probe Selection</div>
+          <div className="mt-2 text-sm text-gray-600">Rail Axle Ultrasonic Inspection Procedure and Probe Selection</div>
+        </a>
+        <a href="/rail/frog-and-switch-component-inspection-on-mainline-rail" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-12-12</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Frog and Switch Component Inspection on Mainline Rail</div>
+          <div className="mt-2 text-sm text-gray-600">Frog and Switch Component Inspection on Mainline Rail</div>
+        </a>
+        <a href="/rail/rail-coach-and-locomotive-shell-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2026-03-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Rail Coach and Locomotive Shell Inspection: Aluminum vs Steel</div>
+          <div className="mt-2 text-sm text-gray-600">Rail Coach and Locomotive Shell Inspection: Aluminum vs Steel</div>
+        </a>
+        <a href="/rail/rail-bearing-and-axlebox-ndt-program" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2026-05-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Rail Bearing and Axlebox NDT Program</div>
+          <div className="mt-2 text-sm text-gray-600">Rail Bearing and Axlebox NDT Program</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-orange-50 border border-orange-100 rounded">
         <div className="text-sm uppercase tracking-wide text-orange-700 font-medium">Featured industry resource</div>

@@ -35,6 +35,7 @@ import {
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { ROUND2_ANGLES } from './satellite-round2-angles.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
@@ -81,6 +82,30 @@ try {
   }
 } catch (e) {
   console.warn('indexing-url-list-blogs.json not loadable - skipping new-blog pool');
+}
+
+// 2026-05-24: Day-1 + Day-2 URL pools (Round 2 of satellite backlinks).
+let NEW_DAY1_PAGES = [];
+let NEW_DAY2_PAGES = [];
+try {
+  const day1 = JSON.parse(
+    readFileSync(join(__dirname, 'indexing-url-list-day1.json'), 'utf-8')
+  );
+  if (day1 && Array.isArray(day1.urls)) {
+    NEW_DAY1_PAGES = day1.urls.map((u) => ({ url: u.url, tier: u.tier }));
+  }
+} catch (e) {
+  console.warn('indexing-url-list-day1.json not loadable - skipping Day-1 pool');
+}
+try {
+  const day2 = JSON.parse(
+    readFileSync(join(__dirname, 'indexing-url-list-day2.json'), 'utf-8')
+  );
+  if (day2 && Array.isArray(day2.urls)) {
+    NEW_DAY2_PAGES = day2.urls.map((u) => ({ url: u.url, tier: u.tier }));
+  }
+} catch (e) {
+  console.warn('indexing-url-list-day2.json not loadable - skipping Day-2 pool');
 }
 
 // ---------------------------------------------------------------------------
@@ -1309,6 +1334,62 @@ const FRESH_BLOG_POOL = NEW_BLOG_POSTS.map((p) => ({
   anchors: blogAnchorFromUrl(p.url),
   source: 'blog',
 }));
+
+// 2026-05-24: Day-1 / Day-2 anchors — derived from the URL's last segment so
+// the anchor text reads naturally instead of being a slug repeat.
+function dayPageAnchors(url) {
+  const path = url.replace(/^https?:\/\/[^/]+/, '');
+  const segments = path.split('/').filter(Boolean);
+  const leaf = segments[segments.length - 1] || '';
+  const top = segments[0] || '';
+  const friendly = leaf.replace(/-/g, ' ');
+  const topFriendly = top.replace(/-/g, ' ');
+  const anchors = [];
+  if (top === 'consulting') {
+    const city = friendly.replace(/^ndt consulting /, '');
+    anchors.push(
+      `the NDT consulting page for ${city}`,
+      `Atlantis NDT consulting in ${city}`,
+      `Level III consulting coverage in ${city}`
+    );
+  } else if (top === 'compare') {
+    anchors.push(
+      `the ${friendly} comparison`,
+      `Atlantis NDT's ${friendly} write-up`
+    );
+  } else if (top === 'digital-twins' || top === 'digital-twin' || /^digital-twin/.test(top)) {
+    anchors.push(
+      `the ${friendly} digital twin page`,
+      `Atlantis Digital Twin coverage for ${friendly}`
+    );
+  } else if (top === 'erp' || top.startsWith('crm-') || top.startsWith('marketing-')) {
+    anchors.push(
+      `the ${friendly} ERP page on Atlantis NDT`,
+      `Atlantis NDT's ${friendly} ERP write-up`
+    );
+  } else if (top === 'corporate-training' || /training/.test(top)) {
+    anchors.push(
+      `the ${friendly} training programme`,
+      `Atlantis NDT training coverage for ${friendly}`
+    );
+  } else {
+    anchors.push(
+      `the ${friendly} page on Atlantis NDT`,
+      `Atlantis NDT's ${friendly} resource`
+    );
+  }
+  return anchors;
+}
+const DAY1_POOL = NEW_DAY1_PAGES.map((p) => ({
+  url: p.url,
+  anchors: dayPageAnchors(p.url),
+  source: 'day1',
+}));
+const DAY2_POOL = NEW_DAY2_PAGES.map((p) => ({
+  url: p.url,
+  anchors: dayPageAnchors(p.url),
+  source: 'day2',
+}));
 // Curated high-value pillars
 const HIGH_VALUE_PILLARS = [
   { url: `${ATLANTIS_DOMAIN}/erp`, anchors: ['the Atlantis NDT ERP overview (Odoo apps, $18,000/yr all-in)', 'the affordable NDT ERP positioning page'], source: 'pillar' },
@@ -1439,6 +1520,21 @@ function pickFreshBacklink(rng) {
   return pickFromPool(HIGH_VALUE_PILLARS, 0, rng);
 }
 
+// 2026-05-24 Round-2 distribution:
+//   30% Day-1 (segment expansion pages),
+//   30% Day-2 (today's parallel-agent pages),
+//   20% Day-0 ERP (232 published 2026-05-23 pages — top-up under-linked),
+//   20% high-value Atlantis pillars.
+// Falls back gracefully if any pool is empty so we never return null.
+function pickFreshBacklinkR2(rng) {
+  const r = rng();
+  if (r < 0.30 && DAY1_POOL.length) return pickFromPool(DAY1_POOL, 0, rng);
+  if (r < 0.60 && DAY2_POOL.length) return pickFromPool(DAY2_POOL, 0, rng);
+  if (r < 0.80 && FRESH_ERP_POOL.length) return pickFromPool(FRESH_ERP_POOL, 0, rng);
+  // 20% pillar (or fill when other pools empty)
+  return pickFromPool(HIGH_VALUE_PILLARS, 0, rng);
+}
+
 function targetWordCount(slug) {
   // 1500..2500 deterministic per slug
   const seed = hashSeed(slug);
@@ -1446,7 +1542,7 @@ function targetWordCount(slug) {
   return 1500 + Math.floor(rng() * 1000);
 }
 
-function buildArticleHtml(satTopic, angle, internalArticles, articleIndex) {
+function buildArticleHtml(satTopic, angle, internalArticles, articleIndex, mode = 'round1') {
   const seed = hashSeed(angle.slug);
   const rng = makeRng(seed);
   // Pick a clean, varied "focus phrase" derived from the first keyword instead
@@ -1495,17 +1591,24 @@ function buildArticleHtml(satTopic, angle, internalArticles, articleIndex) {
   // 2026-05-23 addition: every article gets ONE extra fresh backlink drawn from
   // the new ERP-pages / new-blogs / high-value-pillars pool. This ensures the
   // 232 new pages and 15 new blog posts receive backlink love from satellites.
-  let safety = 0;
-  while (safety < 20) {
-    const fb = pickFreshBacklink(rng);
-    if (!fb) break;
-    const key = fb.url + '||' + fb.anchor;
-    if (!seenKeys.has(key)) {
-      seenKeys.add(key);
-      backlinks.push(fb);
-      break;
+  // 2026-05-24: in round-2 mode we draw TWO fresh backlinks per article from
+  // the Day-1/Day-2/Day-0-ERP/pillar buckets, raising round-2's total link
+  // density toward ~175 articles × 5 links = ~875 placements (vs Day-0 ~738).
+  const freshPicker = mode === 'round2' ? pickFreshBacklinkR2 : pickFreshBacklink;
+  const freshCount = mode === 'round2' ? 2 : 1;
+  for (let i = 0; i < freshCount; i++) {
+    let safety = 0;
+    while (safety < 20) {
+      const fb = freshPicker(rng);
+      if (!fb) break;
+      const key = fb.url + '||' + fb.anchor;
+      if (!seenKeys.has(key)) {
+        seenKeys.add(key);
+        backlinks.push(fb);
+        break;
+      }
+      safety++;
     }
-    safety++;
   }
 
   // Pre-build "para sub-blocks" with backlinks injected
@@ -1846,7 +1949,7 @@ function listExistingTopLevelPaths(satRoot) {
 // ---------------------------------------------------------------------------
 // Main per-satellite enrichment
 // ---------------------------------------------------------------------------
-function enrichSatellite(satName, state) {
+function enrichSatellite(satName, state, mode = 'round1') {
   const satTopic = TOPIC_PROFILES[satName];
   if (!satTopic) {
     console.error(`No topic profile for ${satName} - skipping`);
@@ -1861,18 +1964,32 @@ function enrichSatellite(satName, state) {
   const containerDir = join(satRoot, 'src', 'app', satTopic.container);
   mkdirSync(containerDir, { recursive: true });
 
+  // Resolve which angle batch to write this run. Round-1 = the original
+  // 5 angles per satellite (already on disk after Day 0). Round-2 (2026-05-24)
+  // pulls a separate 5 NEW angles per satellite from satellite-round2-angles.mjs.
+  const round1Angles = satTopic.angles || [];
+  const round2Angles = ROUND2_ANGLES[satName] || [];
   // Anti-footprint: filter out angles whose slug was already used for some
   // OTHER satellite. (Within the same satellite re-runs are idempotent.)
-  const angles = satTopic.angles.filter((a) => {
+  const sourceAngles = mode === 'round2' ? round2Angles : round1Angles;
+  const angles = sourceAngles.filter((a) => {
     const owners = state.usedSlugs[a.slug] || [];
     return owners.length === 0 || owners.includes(satName);
   });
   if (angles.length === 0) {
-    console.warn(`All angles for ${satName} already taken by other satellites.`);
+    console.warn(`All ${mode} angles for ${satName} already taken by other satellites.`);
   }
 
-  // Pre-resolve the article path used in cross-links
-  const internalArticles = angles.map((a) => ({
+  // For sitemap / container index / homepage block, we need to surface BOTH
+  // round-1 (already on disk) AND round-2 (just written this run) articles.
+  const indexAngles = mode === 'round2'
+    ? [...round1Angles, ...round2Angles]
+    : round1Angles;
+
+  // Pre-resolve the article path used in cross-links.  Round-2 articles also
+  // cross-link to round-1 articles to push internal link equity across the
+  // whole satellite, not just within the current batch.
+  const internalArticles = indexAngles.map((a) => ({
     slug: a.slug,
     title: a.h1,
     path: `/${satTopic.container}/${a.slug}`,
@@ -1883,7 +2000,7 @@ function enrichSatellite(satName, state) {
 
   for (let idx = 0; idx < angles.length; idx++) {
     const angle = angles[idx];
-    const { body, backlinks } = buildArticleHtml(satTopic, angle, internalArticles, idx);
+    const { body, backlinks } = buildArticleHtml(satTopic, angle, internalArticles, idx, mode);
     const tsx = articleTsx({ satTopic, angle, body, satDomain });
     const articleDir = join(containerDir, angle.slug);
     mkdirSync(articleDir, { recursive: true });
@@ -1923,20 +2040,20 @@ function enrichSatellite(satName, state) {
   if (!existsSync(containerIndexPath)) {
     writeFileSync(
       containerIndexPath,
-      containerIndexTsx({ satTopic, angles })
+      containerIndexTsx({ satTopic, angles: indexAngles })
     );
   } else {
     // Append a sibling _articles-extra.tsx so we don't clobber existing UI
     writeFileSync(
       join(containerDir, '_enriched-articles.tsx'),
-      containerIndexTsx({ satTopic, angles })
+      containerIndexTsx({ satTopic, angles: indexAngles })
     );
   }
 
   // Featured section component for home page
   writeFileSync(
     join(satRoot, 'src', 'app', '_featured-articles.tsx'),
-    homepageInjectionBlock(satTopic, angles)
+    homepageInjectionBlock(satTopic, indexAngles)
   );
 
   // Patch homepage page.tsx if a marker is present, else leave a banner comment
@@ -1961,11 +2078,12 @@ function enrichSatellite(satName, state) {
   const sitemapPath = join(satRoot, 'src', 'app', 'sitemap.ts');
   writeFileSync(
     sitemapPath,
-    buildSitemapTs({ satDomain, container: satTopic.container, angles, existingTopLevelUrls })
+    buildSitemapTs({ satDomain, container: satTopic.container, angles: indexAngles, existingTopLevelUrls })
   );
 
   // Per-satellite report
-  const reportPath = join(REPORTS_DIR, `${satName}.md`);
+  const reportSuffix = mode === 'round2' ? '-round2' : '';
+  const reportPath = join(REPORTS_DIR, `${satName}${reportSuffix}.md`);
   const totalInternalBacklinks = allBacklinks.filter((b) => b.internal).length;
   const totalExternalBacklinks = allBacklinks.filter((b) => !b.internal).length;
   const avgWords = Math.round(
@@ -2039,7 +2157,11 @@ function enrichSatellite(satName, state) {
 // CLI
 // ---------------------------------------------------------------------------
 function main() {
-  const args = process.argv.slice(2);
+  const rawArgs = process.argv.slice(2);
+  // Detect --round2 anywhere in argv (so caller can do `--round2 --all` or
+  // `--all --round2`). Default mode = round1 (back-compat with Day-0 callers).
+  const mode = rawArgs.includes('--round2') ? 'round2' : 'round1';
+  const args = rawArgs.filter((a) => a !== '--round2');
   const state = loadState();
   mkdirSync(REPORTS_DIR, { recursive: true });
 
@@ -2055,19 +2177,20 @@ function main() {
     console.log(
       'Usage: node scripts/satellite-enrich.mjs <satellite-name> [<more>]\n' +
         '       node scripts/satellite-enrich.mjs --all-priority\n' +
-        '       node scripts/satellite-enrich.mjs --all'
+        '       node scripts/satellite-enrich.mjs --all\n' +
+        '       node scripts/satellite-enrich.mjs --all --round2     # 2026-05-24 Round 2'
     );
     process.exit(2);
   }
 
   const summary = [];
   for (const sat of targets) {
-    console.log(`\n=== Enriching: ${sat}`);
-    const r = enrichSatellite(sat, state);
+    console.log(`\n=== Enriching (${mode}): ${sat}`);
+    const r = enrichSatellite(sat, state, mode);
     if (r) summary.push(r);
   }
 
-  state.runs.push({ at: new Date().toISOString(), targets, count: summary.length });
+  state.runs.push({ at: new Date().toISOString(), mode, targets, count: summary.length });
   saveState(state);
 
   // Aggregate URL list for indexing
@@ -2077,8 +2200,52 @@ function main() {
     for (const a of r.articlesWritten) urls.push(a.url);
   }
   const today = new Date().toISOString().split('T')[0];
-  const urlListPath = join(__dirname, `satellite-urls-to-index-${today}.txt`);
+  const suffix = mode === 'round2' ? '-round2' : '';
+  const urlListPath = join(__dirname, `satellite-urls-to-index-${today}${suffix}.txt`);
   writeFileSync(urlListPath, urls.join('\n') + '\n');
+
+  // 2026-05-24 Round-2: also emit a structured JSON URL list for the GSC
+  // multi-account submitter (same schema as indexing-url-list-day1.json).
+  if (mode === 'round2') {
+    const articleUrls = [];
+    const bucketCounts = { day0: 0, day1: 0, day2: 0, pillar: 0, catalog: 0, external: 0 };
+    const uniqueTargets = new Set();
+    for (const r of summary) {
+      for (const a of r.articlesWritten) {
+        articleUrls.push({ url: a.url, tier: 'A', satellite: r.satName });
+        for (const bl of a.backlinks) {
+          uniqueTargets.add(bl.url);
+          if (bl.source === 'erp') bucketCounts.day0++;
+          else if (bl.source === 'day1') bucketCounts.day1++;
+          else if (bl.source === 'day2') bucketCounts.day2++;
+          else if (bl.source === 'pillar') bucketCounts.pillar++;
+          else if (bl.source === 'catalog') bucketCounts.catalog++;
+          else if (bl.source === 'external') bucketCounts.external++;
+        }
+      }
+    }
+    const jsonOut = join(__dirname, `satellite-new-urls-${today}.json`);
+    writeFileSync(
+      jsonOut,
+      JSON.stringify(
+        {
+          generated: new Date().toISOString(),
+          source: 'satellite round2 enrichment (2026-05-24)',
+          urls: articleUrls,
+          bucketCounts,
+          uniqueTargetCount: uniqueTargets.size,
+        },
+        null,
+        2
+      )
+    );
+    console.log(`Round-2 JSON URL list: ${jsonOut}`);
+    console.log('Backlink bucket distribution:');
+    for (const [k, v] of Object.entries(bucketCounts)) {
+      console.log(`  ${k}: ${v}`);
+    }
+    console.log(`Unique target URLs receiving backlinks: ${uniqueTargets.size}`);
+  }
 
   // Aggregate top anchor texts
   const anchorRanking = Object.entries(state.anchorCounts)
@@ -2086,6 +2253,7 @@ function main() {
     .slice(0, 10);
 
   console.log('\n========== ENRICHMENT SUMMARY ==========');
+  console.log(`Mode: ${mode}`);
   console.log(`Satellites enriched: ${summary.length}`);
   console.log(`Total articles written: ${summary.reduce((a, c) => a + c.articlesWritten.length, 0)}`);
   console.log(

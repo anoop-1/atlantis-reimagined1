@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Digital RT Detectors: Flat Panel vs Line Scan in 2026</div>
           <div className="mt-2 text-sm text-gray-600">Digital RT Detectors: Flat Panel vs Line Scan in 2026</div>
         </a>
+        <a href="/reviews/rt-source-projector-comparison-iridium-vs-selenium" className="block p-4 bg-white border border-gray-200 rounded hover:border-emerald-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-emerald-600">2025-05-25</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">RT Source Projector Comparison: Iridium-192 vs Selenium-75</div>
+          <div className="mt-2 text-sm text-gray-600">RT Source Projector Comparison: Iridium-192 vs Selenium-75</div>
+        </a>
+        <a href="/reviews/phased-array-probe-buying-guide-frequency-and-aperture" className="block p-4 bg-white border border-gray-200 rounded hover:border-emerald-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-emerald-600">2025-08-25</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Phased Array Probe Buying Guide: Frequency, Aperture, and Elements</div>
+          <div className="mt-2 text-sm text-gray-600">Phased Array Probe Buying Guide: Frequency, Aperture, and Elements</div>
+        </a>
+        <a href="/reviews/magnetic-particle-yoke-vs-prod-vs-coil-real-world" className="block p-4 bg-white border border-gray-200 rounded hover:border-emerald-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-emerald-600">2025-11-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Magnetic Particle Yoke vs Prod vs Coil: Real-World Comparison</div>
+          <div className="mt-2 text-sm text-gray-600">Magnetic Particle Yoke vs Prod vs Coil: Real-World Comparison</div>
+        </a>
+        <a href="/reviews/thermal-imaging-cameras-for-industrial-ndt-2026" className="block p-4 bg-white border border-gray-200 rounded hover:border-emerald-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-emerald-600">2026-02-28</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Thermal Imaging Cameras for Industrial NDT in 2026</div>
+          <div className="mt-2 text-sm text-gray-600">Thermal Imaging Cameras for Industrial NDT in 2026</div>
+        </a>
+        <a href="/reviews/ut-couplant-glycerin-vs-gel-vs-paste-when-each-fits" className="block p-4 bg-white border border-gray-200 rounded hover:border-emerald-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-emerald-600">2026-05-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">UT Couplant: Glycerin vs Gel vs Paste — When Each One Fits</div>
+          <div className="mt-2 text-sm text-gray-600">UT Couplant: Glycerin vs Gel vs Paste — When Each One Fits</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-emerald-50 border border-emerald-100 rounded">
         <div className="text-sm uppercase tracking-wide text-emerald-700 font-medium">Featured industry resource</div>

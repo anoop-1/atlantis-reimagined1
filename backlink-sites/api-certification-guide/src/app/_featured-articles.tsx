@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Open-Book Questions in API 510: A Test-Day Strategy</div>
           <div className="mt-2 text-sm text-gray-600">Open-Book Questions in API 510: A Test-Day Strategy</div>
         </a>
+        <a href="/study/api-936-refractory-personnel-prep-real-syllabus" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-05-18</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">API 936 Refractory Personnel Prep: The Real Syllabus</div>
+          <div className="mt-2 text-sm text-gray-600">API 936 Refractory Personnel Prep: The Real Syllabus</div>
+        </a>
+        <a href="/study/api-580-rbi-prep-from-an-actual-exam-taker" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-09-07</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">API 580 RBI Prep From an Actual Exam-Taker</div>
+          <div className="mt-2 text-sm text-gray-600">API 580 RBI Prep From an Actual Exam-Taker</div>
+        </a>
+        <a href="/study/api-579-fitness-for-service-personnel-cert" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2025-12-09</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">API 579 Fitness-for-Service Personnel Certification: What to Expect</div>
+          <div className="mt-2 text-sm text-gray-600">API 579 Fitness-for-Service Personnel Certification: What to Expect</div>
+        </a>
+        <a href="/study/api-source-inspection-personnel-program-explained" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2026-03-02</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">API Source Inspection Personnel Program (SIPC) Explained</div>
+          <div className="mt-2 text-sm text-gray-600">API Source Inspection Personnel Program (SIPC) Explained</div>
+        </a>
+        <a href="/study/study-plan-for-passing-multiple-api-exams-in-12-months" className="block p-4 bg-white border border-gray-200 rounded hover:border-orange-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-orange-600">2026-05-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">A Study Plan for Passing Multiple API Exams in 12 Months</div>
+          <div className="mt-2 text-sm text-gray-600">A Study Plan for Passing Multiple API Exams in 12 Months</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-orange-50 border border-orange-100 rounded">
         <div className="text-sm uppercase tracking-wide text-orange-700 font-medium">Featured industry resource</div>

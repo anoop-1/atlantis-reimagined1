@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Automated UT Scanner Deployment: A 2026 Playbook</div>
           <div className="mt-2 text-sm text-gray-600">Automated UT Scanner Deployment: A 2026 Playbook</div>
         </a>
+        <a href="/deepdives/full-matrix-capture-fmc-tfm-when-it-justifies-its-cost" className="block p-4 bg-white border border-gray-200 rounded hover:border-violet-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-violet-600">2025-05-27</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Full Matrix Capture (FMC) / TFM: When It Justifies Its Cost</div>
+          <div className="mt-2 text-sm text-gray-600">Full Matrix Capture (FMC) / TFM: When It Justifies Its Cost</div>
+        </a>
+        <a href="/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad" className="block p-4 bg-white border border-gray-200 rounded hover:border-violet-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-violet-600">2025-09-25</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Low-Frequency Eddy Current for Thick Aluminum and Clad Components</div>
+          <div className="mt-2 text-sm text-gray-600">Low-Frequency Eddy Current for Thick Aluminum and Clad Components</div>
+        </a>
+        <a href="/deepdives/industrial-ct-scanning-buyers-mindset" className="block p-4 bg-white border border-gray-200 rounded hover:border-violet-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-violet-600">2025-12-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Industrial CT Scanning: A Buyer\'s Mindset for 2026</div>
+          <div className="mt-2 text-sm text-gray-600">Industrial CT Scanning: A Buyer\'s Mindset for 2026</div>
+        </a>
+        <a href="/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses" className="block p-4 bg-white border border-gray-200 rounded hover:border-violet-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-violet-600">2026-03-06</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">EMAT Transducers: Realistic Uses Beyond the Sales Pitch</div>
+          <div className="mt-2 text-sm text-gray-600">EMAT Transducers: Realistic Uses Beyond the Sales Pitch</div>
+        </a>
+        <a href="/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe" className="block p-4 bg-white border border-gray-200 rounded hover:border-violet-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-violet-600">2026-05-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Time-of-Flight Diffraction (TOFD) on Thin-Wall Pipe: Where It Struggles</div>
+          <div className="mt-2 text-sm text-gray-600">Time-of-Flight Diffraction (TOFD) on Thin-Wall Pipe: Where It Struggles</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-violet-50 border border-violet-100 rounded">
         <div className="text-sm uppercase tracking-wide text-violet-700 font-medium">Featured industry resource</div>

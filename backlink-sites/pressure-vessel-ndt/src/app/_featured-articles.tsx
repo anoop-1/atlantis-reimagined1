@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Long-Range UT Screening for Pressure Vessels: When It Adds Real Value</div>
           <div className="mt-2 text-sm text-gray-600">Long-Range UT Screening for Pressure Vessels: When It Adds Real Value</div>
         </a>
+        <a href="/operation/pressure-vessel-nozzle-weld-inspection-deep-dive" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-05-17</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Pressure Vessel Nozzle Weld Inspection: A Practical Deep Dive</div>
+          <div className="mt-2 text-sm text-gray-600">Pressure Vessel Nozzle Weld Inspection: A Practical Deep Dive</div>
+        </a>
+        <a href="/operation/on-stream-inspection-with-pulsed-eddy-current" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-08-23</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">On-Stream Vessel Inspection With Pulsed Eddy Current: Where It Actually Works</div>
+          <div className="mt-2 text-sm text-gray-600">On-Stream Vessel Inspection With Pulsed Eddy Current: Where It Actually Works</div>
+        </a>
+        <a href="/operation/pressure-vessel-thermal-relief-valve-and-prv-tie-ins" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2025-11-17</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Pressure Vessel Thermal Relief and PRV Tie-In Inspection</div>
+          <div className="mt-2 text-sm text-gray-600">Pressure Vessel Thermal Relief and PRV Tie-In Inspection</div>
+        </a>
+        <a href="/operation/low-temperature-vessel-impact-test-requirements" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2026-02-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Low-Temperature Vessel Impact Test Requirements: ASME UCS-66 Walkthrough</div>
+          <div className="mt-2 text-sm text-gray-600">Low-Temperature Vessel Impact Test Requirements: ASME UCS-66 Walkthrough</div>
+        </a>
+        <a href="/operation/rerating-pressure-vessels-when-it-is-worth-it" className="block p-4 bg-white border border-gray-200 rounded hover:border-red-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-red-600">2026-05-11</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Rerating Pressure Vessels: When It Is Worth It (and When It Is Not)</div>
+          <div className="mt-2 text-sm text-gray-600">Rerating Pressure Vessels: When It Is Worth It (and When It Is Not)</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-red-50 border border-red-100 rounded">
         <div className="text-sm uppercase tracking-wide text-red-700 font-medium">Featured industry resource</div>

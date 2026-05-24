@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Steel Structure Weld Inspection Under AWS D1.5 (Bridge Welding Code)</div>
           <div className="mt-2 text-sm text-gray-600">Steel Structure Weld Inspection Under AWS D1.5 (Bridge Welding Code)</div>
         </a>
+        <a href="/practice/concrete-cover-meter-vs-gpr-accuracy-realities" className="block p-4 bg-white border border-gray-200 rounded hover:border-lime-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-lime-600">2025-05-20</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Concrete Cover Meter vs GPR: Accuracy Realities for Reinforcement Surveys</div>
+          <div className="mt-2 text-sm text-gray-600">Concrete Cover Meter vs GPR: Accuracy Realities for Reinforcement Surveys</div>
+        </a>
+        <a href="/practice/masonry-and-stone-structure-ndt-techniques" className="block p-4 bg-white border border-gray-200 rounded hover:border-lime-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-lime-600">2025-09-08</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Masonry and Stone Structure NDT Techniques for Heritage Buildings</div>
+          <div className="mt-2 text-sm text-gray-600">Masonry and Stone Structure NDT Techniques for Heritage Buildings</div>
+        </a>
+        <a href="/practice/post-fire-concrete-inspection-strategy" className="block p-4 bg-white border border-gray-200 rounded hover:border-lime-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-lime-600">2025-12-04</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Post-Fire Concrete Inspection Strategy: From Visual Through to Coring</div>
+          <div className="mt-2 text-sm text-gray-600">Post-Fire Concrete Inspection Strategy: From Visual Through to Coring</div>
+        </a>
+        <a href="/practice/high-strength-bolt-inspection-on-structural-connections" className="block p-4 bg-white border border-gray-200 rounded hover:border-lime-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-lime-600">2026-03-15</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">High-Strength Bolt Inspection on Structural Connections</div>
+          <div className="mt-2 text-sm text-gray-600">High-Strength Bolt Inspection on Structural Connections</div>
+        </a>
+        <a href="/practice/tunnel-lining-inspection-impact-echo-and-radar" className="block p-4 bg-white border border-gray-200 rounded hover:border-lime-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-lime-600">2026-05-06</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Tunnel Lining Inspection: Impact-Echo and Radar in Practice</div>
+          <div className="mt-2 text-sm text-gray-600">Tunnel Lining Inspection: Impact-Echo and Radar in Practice</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-lime-50 border border-lime-100 rounded">
         <div className="text-sm uppercase tracking-wide text-lime-700 font-medium">Featured industry resource</div>

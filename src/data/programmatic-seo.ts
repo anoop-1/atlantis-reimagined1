@@ -233,7 +233,30 @@ export const keyLocations = [
     // Indonesia — refining hub
     { name: "Balikpapan", slug: "balikpapan", country: "ID", region: "East Kalimantan", color: "red", industries: ["Refining", "Oil & Gas", "LNG"], companies: ["Pertamina Balikpapan Refinery", "Chevron Indonesia", "ENI"] },
     // Canada — oil sands processing
-    { name: "Fort McMurray", slug: "fort-mcmurray", country: "CA", region: "Alberta", color: "amber", industries: ["Oil Sands", "Upgrading", "Pipeline"], companies: ["Suncor", "Syncrude", "CNRL"] }
+    { name: "Fort McMurray", slug: "fort-mcmurray", country: "CA", region: "Alberta", color: "amber", industries: ["Oil Sands", "Upgrading", "Pipeline"], companies: ["Suncor", "Syncrude", "CNRL"] },
+
+    // === Consulting day-2 expansion 2026-05-24 — 15 new high-priority consulting cities ===
+    // USA — Houston-area + Permian
+    { name: "Galveston", slug: "galveston", country: "US", region: "Texas", color: "blue", industries: ["Marine", "Petrochemical", "Shipbuilding"], companies: ["Marathon Galveston Bay", "Valero Texas City", "Galveston Wharves"] },
+    { name: "Odessa", slug: "odessa-texas", country: "US", region: "Texas", color: "amber", industries: ["Oil & Gas", "Refining", "Petrochemical"], companies: ["Delek Refining Big Spring", "ExxonMobil Odessa", "Targa Resources"] },
+    { name: "Pasadena", slug: "pasadena-texas", country: "US", region: "Texas", color: "purple", industries: ["Refining", "Petrochemical", "Olefins"], companies: ["LyondellBasell Pasadena", "Chevron Pasadena", "INEOS"] },
+    { name: "Deer Park", slug: "deer-park", country: "US", region: "Texas", color: "indigo", industries: ["Refining", "Petrochemical", "Terminals"], companies: ["Shell Deer Park", "Pemex Deer Park", "OxyChem"] },
+    { name: "Sugar Land", slug: "sugar-land", country: "US", region: "Texas", color: "emerald", industries: ["Energy Services", "Engineering", "Manufacturing"], companies: ["Schlumberger HQ", "Nalco Champion", "Imperial Sugar"] },
+    // Saudi Arabia — upstream giants
+    { name: "Khurais", slug: "khurais", country: "SA", region: "Eastern Province", color: "amber", industries: ["Oil Production", "Gas Processing", "Power"], companies: ["Saudi Aramco Khurais", "Aramco Drilling", "Saipem"] },
+    { name: "Shaybah", slug: "shaybah", country: "SA", region: "Empty Quarter", color: "red", industries: ["Oil Production", "Gas Processing", "NGL"], companies: ["Saudi Aramco Shaybah", "Aramco Upstream", "Schlumberger"] },
+    // Kuwait — KIPIC
+    { name: "Al-Zour", slug: "al-zour", country: "KW", region: "Kuwait", color: "indigo", industries: ["Refining", "LNG", "Power Generation"], companies: ["KIPIC Al-Zour Refinery", "KNPC", "Kuwait LNG Import Terminal"] },
+    // Indonesia — Pertamina + Malaysia — Petronas
+    { name: "Cilacap", slug: "cilacap", country: "ID", region: "Central Java", color: "rose", industries: ["Refining", "Petrochemical", "Lube Oil"], companies: ["Pertamina Cilacap Refinery", "Pertamina Lubricants", "PIM"] },
+    { name: "Pengerang", slug: "pengerang", country: "MY", region: "Johor", color: "blue", industries: ["Refining", "Petrochemical", "LNG"], companies: ["PRefChem (Petronas-Aramco)", "Pengerang Integrated Complex", "Petronas Chemicals"] },
+    { name: "Bintulu", slug: "bintulu", country: "MY", region: "Sarawak", color: "green", industries: ["LNG", "GTL", "Petrochemical"], companies: ["Petronas LNG Complex", "Shell MDS Bintulu", "Asean Bintulu Fertilizer"] },
+    // Canada — refining + steel + petrochemical clusters
+    { name: "Hamilton", slug: "hamilton-ontario", country: "CA", region: "Ontario", color: "slate", industries: ["Steel", "Manufacturing", "Petrochemical"], companies: ["Stelco", "ArcelorMittal Dofasco", "Imperial Oil Hamilton"] },
+    { name: "Sarnia", slug: "sarnia", country: "CA", region: "Ontario", color: "purple", industries: ["Refining", "Petrochemical", "Chemicals"], companies: ["Imperial Oil Sarnia", "Suncor Sarnia", "Shell Sarnia", "NOVA Chemicals"] },
+    { name: "Fort Saskatchewan", slug: "fort-saskatchewan", country: "CA", region: "Alberta", color: "emerald", industries: ["Petrochemical", "Upgrading", "Fertilizer"], companies: ["Dow Fort Saskatchewan", "Shell Scotford", "Inter Pipeline Heartland"] },
+    // Australia — iron ore + LNG export hub
+    { name: "Port Hedland", slug: "port-hedland", country: "AU", region: "Western Australia", color: "orange", industries: ["Iron Ore Export", "LNG", "Marine"], companies: ["BHP Port Hedland", "Fortescue Metals", "Rio Tinto"] }
 ];
 
 // Generate all method-location combinations

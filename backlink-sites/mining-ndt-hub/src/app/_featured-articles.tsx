@@ -38,6 +38,31 @@ export default function FeaturedArticles() {
           <div className="mt-1 text-base font-semibold text-gray-900">Underground Mining Shaft Rope Inspection: MFL and Beyond</div>
           <div className="mt-2 text-sm text-gray-600">Underground Mining Shaft Rope Inspection: MFL and Beyond</div>
         </a>
+        <a href="/mining/crusher-and-mill-liner-bolt-inspection-strategies" className="block p-4 bg-white border border-gray-200 rounded hover:border-stone-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-stone-600">2025-05-26</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Crusher and Mill Liner Bolt Inspection Strategies</div>
+          <div className="mt-2 text-sm text-gray-600">Crusher and Mill Liner Bolt Inspection Strategies</div>
+        </a>
+        <a href="/mining/dragline-boom-and-bucket-inspection-program" className="block p-4 bg-white border border-gray-200 rounded hover:border-stone-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-stone-600">2025-09-17</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Dragline Boom and Bucket Inspection Program</div>
+          <div className="mt-2 text-sm text-gray-600">Dragline Boom and Bucket Inspection Program</div>
+        </a>
+        <a href="/mining/mine-conveyor-belt-splice-inspection" className="block p-4 bg-white border border-gray-200 rounded hover:border-stone-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-stone-600">2025-12-14</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Mine Conveyor Belt Splice Inspection: Mechanical vs Vulcanized</div>
+          <div className="mt-2 text-sm text-gray-600">Mine Conveyor Belt Splice Inspection: Mechanical vs Vulcanized</div>
+        </a>
+        <a href="/mining/haul-truck-tray-and-tub-crack-mapping" className="block p-4 bg-white border border-gray-200 rounded hover:border-stone-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-stone-600">2026-03-19</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Haul Truck Tray and Tub Crack Mapping Over Equipment Life</div>
+          <div className="mt-2 text-sm text-gray-600">Haul Truck Tray and Tub Crack Mapping Over Equipment Life</div>
+        </a>
+        <a href="/mining/mine-thickener-and-tank-inspection-mining-tailings" className="block p-4 bg-white border border-gray-200 rounded hover:border-stone-500 hover:shadow transition">
+          <div className="text-xs uppercase tracking-wide text-stone-600">2026-05-13</div>
+          <div className="mt-1 text-base font-semibold text-gray-900">Mine Thickener and Tank Inspection: Mining Tailings Practice</div>
+          <div className="mt-2 text-sm text-gray-600">Mine Thickener and Tank Inspection: Mining Tailings Practice</div>
+        </a>
       </div>
       <div className="mt-12 p-6 bg-stone-50 border border-stone-100 rounded">
         <div className="text-sm uppercase tracking-wide text-stone-700 font-medium">Featured industry resource</div>

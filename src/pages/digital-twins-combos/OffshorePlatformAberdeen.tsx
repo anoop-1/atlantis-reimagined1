@@ -1,0 +1,93 @@
+import ProductPageLayout from "@/components/ProductPageLayout";
+
+const compareRows = [
+    { factor: "UKCS operator profile", atlantis: "BP UKCS (Clair, Clair Ridge, Glen Lyon FPSO, ETAP), Shell UK (Penguins redevelopment, Jackdaw, Pierce, Shearwater), TotalEnergies UKCS (Elgin/Franklin, Culzean, Laggan-Tormore), Harbour Energy (J-Block, Britannia, Catcher), Ithaca Energy, NEO Energy, Repsol Sinopec, EnQuest, Equinor UK", competitor: "—" },
+    { factor: "Asset profile", atlantis: "Aging fixed jacket platforms (1970s&ndash;1990s vintage), FPSOs, semi-submersibles, jack-ups, plus the late-life decommissioning portfolio &mdash; among the oldest operating offshore inventory in the world", competitor: "—" },
+    { factor: "Damage mechanism stack", atlantis: "North Sea splash-zone corrosion, fatigue cracking on jacket nodes (cyclic wave loading), HISC on subsea trees, MIC in produced-water systems, late-life CUI from insulation degradation, asset-life extension (ALE) FFS workload", competitor: "—" },
+    { factor: "Regulatory regime", atlantis: "OPRED (Offshore Petroleum Regulator for Environment and Decommissioning, BEIS), HSE (Health and Safety Executive, COMAH/SCR), PSR 1996 (Pipeline Safety Regulations), Verification Scheme (Independent Verification Body), DNV / Lloyd&rsquo;s / ABS classification", competitor: "—" },
+    { factor: "ROI typical (UKCS platform)", atlantis: "$3M&ndash;$10M/yr per major platform &mdash; driven by ALE (Asset Life Extension) FFS efficiency and the brutal cost of mobilising offshore inspection crews", competitor: "—" },
+    { factor: "Implementation", atlantis: "10&ndash;16 weeks first platform live; 4&ndash;8 weeks per subsequent platform. Coexistence with operator landscape (CMMS, IDMS, ROSEN, BHGE, Wood Inteq tools).", competitor: "—" },
+];
+
+const faqs = [
+    { question: "Why is Aberdeen / UKCS the highest-leverage offshore platform digital twin region?", answer: "Three factors. First, asset age &mdash; the UK Continental Shelf (UKCS) inventory includes some of the oldest operating offshore platforms in the world. Many fixed jackets in the North Sea were installed in the late 1970s and early 1980s (e.g., the Forties Field jackets, the original Brent and Ninian platforms, the BP Magnus jacket) and are now operating well beyond their original 25-year design life under formal Asset Life Extension (ALE) programmes. ALE demands continuous FFS evidence. Second, regulatory rigour &mdash; the UK HSE COMAH / Safety Case regime, the Verification Scheme requiring an Independent Verification Body, and OPRED&rsquo;s active monitoring of late-life and decommissioning create one of the most defensible-evidence-demanding integrity environments globally. Third, cost pressure &mdash; mobilising an inspection crew offshore via helicopter or DSV is one of the most expensive labour environments in the world, so any tool that reduces inspection mobilisations pays back fast. Aberdeen is the operational, engineering, and contractor capital of UKCS, hosting all the major operators&rsquo; integrity functions plus the dense supply-chain ecosystem." },
+    { question: "How does Atlantis support the Asset Life Extension (ALE) workflow?", answer: "ALE is the canonical UKCS late-life workflow. When a platform passes its original design life (typically 25 years), the operator submits an ALE case to the HSE Safety Case framework, demonstrating that the platform remains fit-for-purpose for an extended operating window (typically 5&ndash;10 years per cycle). The ALE case requires defensible FFS evidence per API 579 / DNV-RP-G101 / BS 7910 on every safety-critical structural and pressure-containment component: jacket node fatigue assessment, riser fatigue analysis, conductor pipe wall thickness, topside vessel FFS, riser splash-zone external corrosion. Atlantis consolidates the inspection record into FFS-ready bundles automatically; the Independent Verification Body (typically DNV, Lloyd&rsquo;s, ABS, or Bureau Veritas) reviews from the same dataset. Operators with mature digital twin programmes report 30&ndash;50% reduction in ALE case preparation effort." },
+    { question: "What about the late-life decommissioning workflow?", answer: "UKCS hosts the world&rsquo;s largest active offshore decommissioning programme &mdash; OSPAR Decision 98/3 requires removal of redundant offshore installations, with multi-billion-pound annual spend on jacket and topside removal, well plug-and-abandonment, and pipeline decommissioning. Decommissioning needs defensible integrity evidence too: late-life CUI inspection, fatigue assessment of jacket nodes for the removal-lifting analysis, FFS on any equipment being repurposed (e.g., for CCS conversion at the Acorn or Northern Endurance projects). Atlantis builds the decommissioning evidence stack from the same twin used for in-service integrity. The CCS conversion workflow (re-purposing existing depleted fields and offshore infrastructure for carbon storage) is a growing UKCS opportunity where Atlantis plays a direct role." },
+    { question: "Which UKCS operators and EPC contractors integrate with Atlantis?", answer: "Aberdeen-headquartered operators integrating with Atlantis include BP UKCS, Shell UK, TotalEnergies UKCS, Harbour Energy, Ithaca Energy, NEO Energy, Repsol Sinopec, EnQuest, Equinor UK, Spirit Energy, Apache North Sea, and CNOOC International (UK). EPC and inspection contractors include Wood, Petrofac, Worley UK, Bilfinger Salamis, Stork, Sparrows Offshore, Sonomatic, Mistras, Applus+ RTD, FoundOcean, Subsea 7, Saipem UK, Aker Solutions UK, and TechnipFMC UKCS. The supply chain density in Aberdeen is unmatched in offshore globally." },
+    { question: "How does Atlantis handle the unique fatigue inspection workload on aging jackets?", answer: "Fatigue cracking at jacket nodes (the welded intersections of jacket leg, brace, and joint can elements) is the canonical UKCS fixed-platform damage mechanism. Cyclic wave loading over 30&ndash;50 years drives crack initiation at hot-spot stress locations. Inspection regime relies on MPI (Magnetic Particle Inspection) and FMD (Flooded Member Detection) underwater, plus eddy current array and ACFM for fine crack detection. Atlantis treats each jacket node as a discrete asset with welded-joint hot-spot stress mapping, fatigue accumulation history from operational wave/wind data, and the SCF (Stress Concentration Factor) calculations per DNV-RP-C203 or HSE OTH 354 fatigue guidance. Inspection-by-fatigue-priority replaces inspection-by-checklist, typically cutting MPI/FMD scope by 30&ndash;40% while improving find rates on the components that actually matter." },
+];
+
+export default function OffshorePlatformAberdeenCombo() {
+    const structuredData = {
+        "@context": "https://schema.org",
+        "@graph": [
+            { "@type": "Article", "headline": "Digital Twin for Aberdeen Offshore Platforms: BP, Shell, TotalEnergies UKCS [2026]", "datePublished": "2026-05-25", "dateModified": "2026-05-25", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://atlantisndt.com/digital-twins/offshore-platform-aberdeen" } },
+            { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
+        ]
+    };
+    return (
+        <ProductPageLayout
+            title="Digital Twin for Aberdeen UKCS Offshore: BP, Shell, TotalEnergies [2026]"
+            description="Aberdeen UKCS offshore platform digital twin: jacket node fatigue, ALE life extension, COMAH Safety Case, OPRED audit packs, decommissioning evidence. ROI $3M-$10M/yr per major platform."
+            canonical="https://atlantisndt.com/digital-twins/offshore-platform-aberdeen"
+            eyebrow="Use Case · Location"
+            h1="Atlantis Digital Twin for Aberdeen UKCS Offshore Platforms: From Jacket Node Fatigue to Asset Life Extension [2026]"
+            intro="The UK Continental Shelf (UKCS) holds some of the oldest operating offshore platforms in the world, with active Asset Life Extension (ALE) programmes at BP, Shell, TotalEnergies, Harbour Energy, Ithaca, NEO Energy, Repsol Sinopec, EnQuest, and Equinor UK. Atlantis Digital Twin manages jacket node fatigue, riser splash-zone corrosion, COMAH Safety Case evidence, and OPRED audit packs from Aberdeen &mdash; the world capital of offshore integrity engineering."
+            heroGradient="from-slate-700 to-blue-900"
+            competitorLabel="Aberdeen / UKCS Specifics"
+            compareRows={compareRows}
+            faqs={faqs}
+            related={[
+                { href: "/digital-twins/offshore-platform", title: "Offshore Platform Use Case", blurb: "Asset-class deep-dive." },
+                { href: "/digital-twin-aberdeen", title: "Aberdeen (Location)", blurb: "Full Aberdeen city DT coverage page." },
+                { href: "/digital-twins/fpso", title: "FPSO Use Case", blurb: "Adjacent &mdash; UKCS FPSO fleet." },
+                { href: "/digital-twins/subsea", title: "Subsea Use Case", blurb: "Adjacent &mdash; UKCS subsea tie-backs." },
+                { href: "/contact", title: "Book an Aberdeen Demo", blurb: "Bring one jacket&rsquo;s node fatigue record. 30-minute demo." },
+            ]}
+            ctaTitle="See Your UKCS Platform as a Live Asset Life Extension Twin"
+            ctaSubtitle="Bring one jacket&rsquo;s node fatigue inspection record and a current ALE case extract. We&rsquo;ll have it running as an Atlantis twin in a 30-minute demo at Wood Group HQ."
+            structuredData={structuredData}
+            bodyChildren={
+                <>
+                    <h2>Why Aberdeen / UKCS is the world&rsquo;s most defensible-evidence-demanding offshore region</h2>
+                    <p>The UK Continental Shelf hosts some of the oldest operating offshore platforms in the world. Many fixed jackets in the North Sea were installed in the late 1970s and early 1980s &mdash; the original Forties Field platforms, the Brent jackets, the Ninian Central, the BP Magnus jacket, the Buzzard, and the Schiehallion area FPSO operations. Operating today well beyond their original 25-year design life means formal Asset Life Extension (ALE) programmes are now the default rather than the exception. The UK HSE COMAH / Safety Case regime, the Verification Scheme requiring an Independent Verification Body (typically DNV, Lloyd&rsquo;s, ABS, or Bureau Veritas), and OPRED&rsquo;s active monitoring of late-life and decommissioning create one of the most defensible-evidence-demanding integrity environments globally. Aberdeen is the operational, engineering, and contractor capital of UKCS, with an unmatched concentration of operators, EPCs, inspection contractors, and integrity consultancies within the AB postcode area.</p>
+
+                    <h2>The UKCS offshore damage-mechanism stack</h2>
+                    <ul>
+                        <li><strong>North Sea splash-zone corrosion.</strong> Severe marine environment at the air-water interface drives external corrosion on jacket legs, riser caissons, and conductor pipes. Annual UT thickness grids and rope-access visual inspections are the norm.</li>
+                        <li><strong>Fatigue cracking on jacket nodes.</strong> Cyclic wave loading over 30&ndash;50 years drives crack initiation at hot-spot stress locations on welded joint cans. MPI (Magnetic Particle Inspection) and FMD (Flooded Member Detection) underwater, eddy current array and ACFM topside.</li>
+                        <li><strong>HISC (Hydrogen-Induced Stress Cracking) on subsea trees.</strong> Subsea X-mas trees and well-control modules are susceptible to HISC in cathodically-protected, high-strength steel components. Atlantis ships DNV-RP-F112 HISC inspection templates.</li>
+                        <li><strong>MIC in produced-water systems.</strong> Late-life produced-water handling and water-flood injection systems develop MIC, especially where biocide dosing has been reduced for cost.</li>
+                        <li><strong>Late-life CUI from degraded insulation.</strong> UKCS platforms running 35+ years see widespread insulation degradation; CUI inspection has become a dominant late-life workload.</li>
+                        <li><strong>ALE FFS workload.</strong> Asset Life Extension demands continuous FFS evidence per API 579 / DNV-RP-G101 / BS 7910 on every safety-critical component.</li>
+                    </ul>
+
+                    <h2>Asset Life Extension &mdash; the highest-value UKCS workflow</h2>
+                    <p>ALE is the canonical UKCS late-life workflow. When a platform passes its original design life (typically 25 years), the operator submits an ALE case to the HSE Safety Case framework, demonstrating that the platform remains fit-for-purpose for an extended operating window (typically 5&ndash;10 years per cycle). The ALE case requires defensible FFS evidence per API 579 / DNV-RP-G101 / BS 7910 on every safety-critical structural and pressure-containment component: jacket node fatigue assessment, riser fatigue analysis, conductor pipe wall thickness trending, topside vessel FFS, riser splash-zone external corrosion, subsea tree HISC inspection. Atlantis consolidates the inspection record into FFS-ready bundles automatically; the Independent Verification Body (DNV, Lloyd&rsquo;s, ABS, or Bureau Veritas) reviews from the same dataset; the HSE inspector reviews the ALE case with full audit traceability back to source inspection data. Operators with mature digital twin programmes report 30&ndash;50% reduction in ALE case preparation effort.</p>
+
+                    <h2>The jacket node fatigue workflow</h2>
+                    <p>Fatigue cracking at jacket nodes is the canonical UKCS fixed-platform damage mechanism. Atlantis treats each jacket node as a discrete asset record with: welded-joint hot-spot stress mapping per DNV-RP-C203, fatigue accumulation history from operational wave/wind data integrated from the platform&rsquo;s metocean monitoring, SCF (Stress Concentration Factor) calculations per DNV-RP-C203 or HSE OTH 354 fatigue guidance, the latest MPI / FMD / ACFM inspection result, and the projected remaining fatigue life. Inspection-by-fatigue-priority replaces inspection-by-checklist, typically cutting underwater inspection scope by 30&ndash;40% while improving find rates on the components that actually matter. Diving and ROV mobilisation costs (typically &pound;50K&ndash;&pound;300K per inspection campaign) make this scope-reduction directly bankable.</p>
+
+                    <h2>Decommissioning and CCS conversion workflow</h2>
+                    <p>UKCS hosts the world&rsquo;s largest active offshore decommissioning programme &mdash; OSPAR Decision 98/3 requires removal of redundant offshore installations. Multi-billion-pound annual UK decommissioning spend covers jacket and topside removal, well plug-and-abandonment, and pipeline decommissioning. Decommissioning needs defensible integrity evidence: late-life CUI inspection feeds the removal-safety assessment, fatigue assessment of jacket nodes feeds the removal-lifting analysis, FFS on any equipment being repurposed (notably for CCS conversion at the Acorn or Northern Endurance projects) feeds the change-of-service approval. Atlantis builds the decommissioning evidence stack from the same twin used for in-service integrity. The growing CCS conversion workflow &mdash; repurposing depleted UKCS fields and offshore infrastructure for carbon storage &mdash; is an area where Atlantis plays a direct role.</p>
+
+                    <h2>ROI math for a UKCS platform deployment</h2>
+                    <p>For a representative late-life UKCS platform (jacket + topside + risers + 5&ndash;20 wells via subsea trees), Atlantis Digital Twin enterprise tier ($200K&ndash;$400K/yr) typically pays back through:</p>
+                    <ul>
+                        <li><strong>ALE FFS efficiency:</strong> 30&ndash;50% reduction in ALE case preparation effort = &pound;500K&ndash;&pound;1.5M per ALE cycle (typically every 5&ndash;10 years).</li>
+                        <li><strong>Inspection mobilisation cost reduction:</strong> 30&ndash;40% reduction in MPI / FMD / ACFM scope on fatigue-priority basis = &pound;200K&ndash;&pound;1M/yr depending on platform.</li>
+                        <li><strong>Verification Body efficiency:</strong> Defensible digital evidence reduces IVB review effort, with downstream impact on COMAH Safety Case submittal timing.</li>
+                        <li><strong>Unplanned shutdown avoided:</strong> One avoided unplanned shutdown from early fatigue or HISC detection saves &pound;5M&ndash;&pound;40M depending on platform throughput.</li>
+                    </ul>
+                    <p>Net: &pound;3M&ndash;&pound;10M/yr per major UKCS platform. Particularly compelling at the end-of-design-life and decommissioning lifecycle phases.</p>
+
+                    <h2>The Aberdeen integrity ecosystem</h2>
+                    <p>Aberdeen hosts an unmatched offshore integrity engineering ecosystem. Operators (BP UKCS, Shell UK, TotalEnergies UKCS, Harbour Energy, Ithaca, NEO Energy, Repsol Sinopec, EnQuest, Equinor UK, Spirit Energy, Apache, CNOOC) maintain their UKCS integrity functions in Aberdeen. EPCs (Wood, Petrofac, Worley UK, Aker Solutions UK, TechnipFMC UKCS) and inspection contractors (Bilfinger Salamis, Stork, Sparrows Offshore, Sonomatic, Mistras, Applus+ RTD, FoundOcean) maintain Aberdeen offices. Independent Verification Bodies (DNV Aberdeen, Lloyd&rsquo;s Aberdeen, ABS Aberdeen, Bureau Veritas Aberdeen) sit at the centre of the regulatory framework. The University of Aberdeen and Robert Gordon University supply specialist offshore engineering and integrity graduates. Atlantis Digital Twin integrates across this ecosystem via REST API and standard offshore data formats.</p>
+
+                    <h2>Implementation path for a UKCS platform</h2>
+                    <p>First platform live in 10&ndash;16 weeks. Coexistence with existing operator landscape (CMMS, IDMS, ROSEN Asset Integrity Management, BHGE asset performance tools, Wood Inteq integrity tools, IBM Maximo). Subsequent platforms 4&ndash;8 weeks each. For an operator running 5&ndash;15 UKCS assets through their ALE cycles, a full fleet deployment typically lands in 12&ndash;24 months from kickoff to last-platform-live.</p>
+                </>
+            }
+        />
+    );
+}

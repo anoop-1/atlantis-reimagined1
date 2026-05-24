@@ -342,6 +342,8 @@ export const DT_CITY_PAGE_SLUGS: Set<string> = new Set([
   'sohar','st-louis','sydney','toronto','tulsa','vancouver','wellington','yanbu',
   // === DT day-1 expansion 2026-05-24 ===
   'riyadh','pune','vadodara','surat','ras-tanura','ruwais','jebel-ali','pengerang',
+  // === DT day-2 expansion 2026-05-25 ===
+  'dammam','khobar','ho-chi-minh','manila','shenzhen','shanghai',
 ]);
 
 /** Cities that have an /ndt-erp-{slug} page. */
@@ -413,6 +415,11 @@ export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
   // === Training expansion 2026-05-24 ===
   'baytown','galveston','odessa','port-arthur','pasadena-texas','deer-park','sugar-land',
   'jebel-ali','fujairah','pune','vadodara','surat','huntsville','orlando','norfolk',
+  // === Training day-2 expansion 2026-05-25 ===
+  'ruwais','mussafah','ras-tanura','khurais','shaybah','khobar','abqaiq','al-zour',
+  'kerteh','manila','bangkok','balikpapan','cilacap','pengerang','bintulu',
+  // === Training day-2 enrichment 2026-05-25 — vizag alias slug for DynamicTrainingPage ===
+  'vizag','kochi','jubail','yanbu','dammam',
 ]);
 
 /** Cities that have a /consulting/ndt-consulting-{slug} page. Matches CONSULTING_CITY_SLUGS in city-profiles.ts. */
@@ -435,6 +442,11 @@ export const CONSULTING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'riyadh','khobar','ras-tanura','jebel-ali','mussafah','ruwais','sharjah','fujairah',
   'manama','muscat','sohar','duqm','pune','vadodara','hyderabad','surat','baytown',
   'port-arthur','balikpapan','fort-mcmurray',
+  // === Consulting day-2 expansion 2026-05-24 — 15 additional consulting cities ===
+  'galveston','odessa-texas','pasadena-texas','deer-park','sugar-land',
+  'khurais','shaybah','al-zour',
+  'cilacap','pengerang','bintulu',
+  'hamilton-ontario','sarnia','fort-saskatchewan','port-hedland',
 ]);
 
 /** Product line identifier used by RelatedProducts to pick sibling links. */
