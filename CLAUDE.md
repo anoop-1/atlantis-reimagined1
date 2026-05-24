@@ -152,8 +152,14 @@ Per-account daily quota 200. With 10 service accounts = 2,000/day capacity. Spre
 - Sitemap: `public/sitemap.xml` + sub-sitemaps (sitemap-blog, sitemap-consulting-locations, sitemap-digital-twins, sitemap-methods, sitemap-other, sitemap-training, sitemap-core, sitemap-index, sitemap-glossary)
 - ~3,400+ URLs in primary sitemap. Regen via `npm run sitemaps`.
 
-### 5.2 Satellite sites (35 sites, all Vercel-CLI deployed, no Git link)
-35 backlink satellites in `backlink-sites/{name}/` — each a separate Next.js 14 app with its own Vercel project (`Link: {}` empty in Vercel = CLI-deployed). Each has `.vercel/project.json` linking to its `prj_*` id.
+### 5.2 Satellite sites (35 sites — 8 now Git-linked, 27 still CLI-deployed)
+35 backlink satellites in `backlink-sites/{name}/` — each a separate Next.js 14 **App Router** app with its own Vercel project. All source is committed in THIS repo under `backlink-sites/`.
+
+**Rendering:** every satellite is fully static (no `getServerSideProps`, no `export const revalidate`, no `force-dynamic`, no dynamic `[slug]` route segments). `sitemap.ts`/`robots.ts` use Next `MetadataRoute` and are statically emitted at build. No ISR / on-demand revalidation anywhere -> nothing to "statify". Verified 2026-05-25.
+
+**Git-link status (as of 2026-05-25):** Vercel limits a single Git repo to **10 connected projects** (`repo_links_exceeded_limit`). The repo `anoop-1/atlantis-reimagined1` is now at that cap: 2 main projects (`atlantis-reimagined1` = live primary, `atlantis-reimagined` = old dup) + **8 git-linked satellites**. The other **27 satellites cannot be git-linked to this repo on the current plan** and remain CLI-deployed via `deploy-all-satellites.mjs`. See section 13 for the full list and options.
+
+Git-linked 8 satellites (rootDirectory = `backlink-sites/<name>`, framework nextjs, branch main): ndt-knowledge-hub, construction-ndt-guide, composite-testing-hub, coating-inspection-guide, asset-integrity-hub, api-certification-guide, aerospace-ndt-standards, advanced-ndt-techniques. Pushes to `main` now auto-build these from their subfolder (verified: ndt-knowledge-hub git deploy reached READY, prod 200).
 
 Satellite list (35):
 advanced-ndt-techniques, aerospace-ndt-standards, api-certification-guide, asset-integrity-hub, coating-inspection-guide, composite-testing-hub, construction-ndt-guide, corrosion-management-ndt, heat-exchanger-ndt, industrial-inspection-resources, lng-inspection-hub, manufacturing-ndt-quality, marine-offshore-ndt, middle-east-ndt-resource, mining-ndt-hub, ndt-automation-future, ndt-careers-portal, ndt-equipment-reviews, ndt-knowledge-hub, ndt-safety-compliance, ndt-software-solutions, ndt-standards-library, ndt-training-academy, nuclear-ndt-resource, oil-gas-inspection-guide, petrochemical-ndt-hub, pipeline-integrity-guide, power-generation-ndt, pressure-vessel-ndt, rail-ndt-resource, renewable-energy-ndt, subsea-inspection-guide, tank-inspection-resource, weld-quality-resource, welding-inspection-hub
@@ -316,7 +322,9 @@ Located at `~/.claude/projects/e--software-Atlantis/memory/`:
 - **Never re-submit already-indexed URLs** — always check `gsc-priority-progress.json` first
 - **Daily GSC Indexing quota = 200/account** — 10 accounts = 2,000/day. State in `.gsc-multi-state.json`
 - **Push protection** — GitHub blocks pushes containing secrets. Never include Vercel/GitHub tokens in committed files. Reference Tokens.docx by name only.
-- **Backlink-sites are CLI-deployed** — not GitHub-linked. Must run `deploy-all-satellites.mjs` after edits.
+- **Backlink-sites: 8 git-linked, 27 CLI-deployed.** The 8 git-linked ones (see section 5.2) auto-build from `backlink-sites/<name>` on push to `main` — no manual deploy. The 27 unlinked ones still need `deploy-all-satellites.mjs` after edits (blocked from git-linking by Vercel's 10-projects-per-repo cap; see section 13).
+- **Vercel 10-links-per-repo cap** — a single Git repo can connect to at most 10 Vercel projects on this plan. To git-link more satellites: either upgrade the plan, or split satellites into additional GitHub repos (<=10 projects each), or accept CLI deploys for the surplus. Do NOT unlink the main `atlantis-reimagined1` project to free a slot.
+- **Main app has NO ISR.** atlantisndt.com is a Vite/React SPA prerendered by react-snap to ~1,071 static HTML dirs in `dist/`; served as static files. There is no `getStaticProps`/`revalidate`/Next ISR to tune. The Vercel "ISR Reads / Fast Origin Transfer" overage is NOT from app ISR config — the likely driver is `vercel.json`'s catch-all `rewrites: [{source:"/(.*)", destination:"/"}]` SPA fallback routing crawler/bot traffic through origin. Left unchanged this session (changing it risks breaking deep-link SPA routing); flagged for human review. See section 13.
 - **Pre-existing TS errors** — `src/components/FeatureSection.tsx`, `CorporateTrainingLocationPage.tsx`, `construction-ndt-services.tsx`, `aerospace-ndt-services.tsx`, parts of `/erp-industries/`, `/erp-modules/`, `Contact.tsx`, `CorporateNDTTraining.tsx` — unrelated to current SEO sprints, do not block Vite build
 - **Vite build is lenient** (esbuild) — Vercel deploys even with TS warnings
 - **JSX entity escapes** — never use raw `>` or `<` in JSX text content; use `&gt;` / `&lt;`. Common Day-0 / Day-2 build error
@@ -330,3 +338,27 @@ Located at `~/.claude/projects/e--software-Atlantis/memory/`:
 Daily sprint logs preserved in `docs/seo/ARCHIVE/`. Marketing assets stay in `docs/marketing/`. Anything dated `2026-05-23-*` or `2026-05-24-*` is sprint-specific history; this CLAUDE.md is the current state.
 
 When starting a new sprint cycle, read THIS file first. Don't re-read old sprint logs unless debugging a specific historical decision.
+
+---
+
+## 13. Vercel cost / backlink consolidation — 2026-05-25 session
+
+**Goal of this session:** fix a Vercel free-tier overage (ISR Reads + Fast Origin Transfer over limit) and consolidate the 35 satellite backlink sites onto this repo, without breaking the live primary.
+
+### Findings
+1. **Main app is a Vite/React SPA, not Next.js.** Despite the task brief assuming Next.js Pages-Router ISR, `package.json` build is `vite build && node scripts/prerender.mjs` (react-snap). Output is ~1,071 static HTML dirs in `dist/`. There is **no `getStaticProps`/`getServerSideProps`/`revalidate`/ISR** anywhere — so the prescribed "statify getStaticPaths" fix does not apply and nothing was changed in `src/`.
+2. **Likely real overage driver:** `vercel.json` ends with `rewrites: [{ "source": "/(.*)", "destination": "/" }]` (SPA fallback). Every non-static-file request (incl. bot/crawler hits on thousands of programmatic URLs) routes through Vercel's origin -> Fast Origin Transfer + edge function invocations. This is the SPA catch-all, NOT app ISR.
+3. **All 35 satellites are already fully static** (Next 14 App Router, all `page.tsx` static, no dynamic rendering, no dynamic route segments). Task 2 was verification only — no code changes needed.
+4. **Satellite source is committed** in this repo under `backlink-sites/` (1,259 tracked source files). Note: `.next/` build artifacts are committed too (bloat, ~570 files/site) but harmless — Vercel rebuilds; add `**/.next/` to a `backlink-sites/.gitignore` in a future cleanup.
+
+### Decisions
+- **Did NOT touch the main app or its Vercel project** (per brief + SPA has no ISR to tune). The catch-all rewrite is left in place because removing it risks 404ing deep-linked prerendered routes on the live primary; flagged for human review. If origin transfer must drop, the safe move is to confirm `dist/` contains a real file for every sitemap URL, then narrow the rewrite (or rely on Vercel's automatic static serving) — verify completeness before changing.
+- **Git-linked 8 satellites** to `anoop-1/atlantis-reimagined1` (rootDirectory `backlink-sites/<name>`, framework nextjs) and verified ndt-knowledge-hub deploys from the subfolder (READY, prod HTTP 200).
+- **Blocked at 8** by Vercel's **10-projects-per-repo** connection limit (`repo_links_exceeded_limit`). 2 slots are the main Atlantis projects. The remaining 27 satellites stay CLI-deployed.
+
+### Outstanding (human decision needed)
+- **27 satellites not git-linked** (still need `deploy-all-satellites.mjs`). To consolidate them, pick one: (a) upgrade Vercel plan to raise the per-repo link cap; (b) create extra GitHub repos and put <=8 satellites' folders in each, then git-link (<=10 projects/repo); (c) leave CLI-deployed. List of the 27 unlinked: middle-east-ndt-resource, renewable-energy-ndt, ndt-standards-library, pressure-vessel-ndt, welding-inspection-hub, weld-quality-resource, lng-inspection-hub, ndt-safety-compliance, ndt-software-solutions, corrosion-management-ndt, marine-offshore-ndt, ndt-automation-future, pipeline-integrity-guide, ndt-training-academy, ndt-equipment-reviews, nuclear-ndt-resource, petrochemical-ndt-hub, industrial-inspection-resources, rail-ndt-resource, ndt-careers-portal, heat-exchanger-ndt, oil-gas-inspection-guide, mining-ndt-hub, manufacturing-ndt-quality, subsea-inspection-guide, tank-inspection-resource, power-generation-ndt.
+- **Main-app origin transfer:** decide whether to narrow `vercel.json` SPA rewrite (needs sitemap-vs-dist completeness check first).
+
+### Change log
+- 2026-05-25: Investigated overage (found main app = static SPA, no ISR). Verified all 35 satellites static. Git-linked 8 satellites + set rootDirectory; verified one builds+serves. Hit 10-link/repo cap; documented remaining 27 + options. Updated section 5.2, section 11, added section 13. No `src/` or main-Vercel-project changes.
