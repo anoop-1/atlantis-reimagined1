@@ -1,0 +1,394 @@
+{
+  "generated": "2026-05-24T09:40:56.694Z",
+  "source": "Day 2 sprint 2026-05-24 — 4 segments cycle 2",
+  "urls": [
+    {
+      "url": "https://atlantisndt.com/blog/affordable-cmms-for-small-business-inspection-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-crm-for-ndt-inspection-companies-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-aerospace-quality-control-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-calibration-laboratories-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-environmental-testing-labs-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-fabrication-shops-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-marine-survey-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-metrology-laboratories-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-oilfield-services-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/affordable-erp-for-pipeline-companies-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/atlantis-vs-zoho-vs-monday-erp-comparison",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/best-affordable-erp-software-comparison-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/cheapest-cmms-software-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/cheapest-crm-for-engineering-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/odoo-erp-pricing-explained-2026",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/digital-twin-vs-bim",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/digital-twin-vs-cmms",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/digital-twin-vs-iot-dashboard",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/digital-twin-vs3d-cad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/api-510-program-audit",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/fitness-for-service-api-579",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-al-zour",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-bintulu",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-cilacap",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-deer-park",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-fort-saskatchewan",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-galveston",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-hamilton-ontario",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-khurais",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-odessa-texas",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-pasadena-texas",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-pengerang",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-port-hedland",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-sarnia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-shaybah",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-sugar-land",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-technical-procedure-development",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/rbi-program-design",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/written-practice-development",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/corporate-training/ammonia-plants",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/corporate-training/battery-manufacturing",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/corporate-training/data-centers",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/corporate-training/hydrogen-economy",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/corporate-training/rail-infrastructure",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-khobar",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/data-center-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/lng-terminal-doha",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/lng-terminal-pengerang",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/nuclear-plant-toronto",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/offshore-platform-aberdeen",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/offshore-platform-stavanger",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/petrochemical-jubail",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/pipeline-calgary",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/refinery-houston",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/refinery-jamnagar",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/refinery-rotterdam",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/storage-tank-cushing",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-erp-for-india",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-erp-for-malaysia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-erp-for-saudi-arabia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-erp-for-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-erp-for-uae",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-india",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-malaysia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-saudi-arabia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-uae",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-erp-for-india",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-erp-for-malaysia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-erp-for-saudi-arabia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-erp-for-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-erp-for-uae",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-erp-for-india",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-erp-for-malaysia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-erp-for-saudi-arabia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-erp-for-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-erp-for-uae",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-erp-for-india",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-erp-for-malaysia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-erp-for-saudi-arabia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-erp-for-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-erp-for-uae",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-abqaiq",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-al-zour",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-balikpapan",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-bangkok",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-bintulu",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-cilacap",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-kerteh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-khobar",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-khurais",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-manila",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-mussafah",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-pengerang",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-ras-tanura",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-ruwais",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-shaybah",
+      "tier": "A"
+    }
+  ]
+}
