@@ -432,6 +432,82 @@ const locationIntros: Record<string, { intro: string; marketInsight: string; reg
         intro: "Lake Charles sits at the nexus of Louisiana's LNG export boom and legacy petrochemical corridor, with massive capital projects at Cameron LNG, Driftwood LNG, and numerous chemical facilities.",
         marketInsight: "Multi-billion-dollar LNG terminal construction and ongoing refinery turnarounds create intense, sustained demand for Level III consulting in both greenfield and brownfield environments.",
         regionalChallenge: "Hurricane exposure, extreme humidity, and the simultaneous demands of construction and maintenance inspection require consultants experienced in large-project mobilization and Gulf Coast conditions."
+    },
+    // === Consulting expansion 2026-05-24 — 15 enriched city contexts (Saudi/UAE/Oman/India/Canada) ===
+    "riyadh": {
+        intro: "Riyadh is the corporate and engineering nerve centre of Saudi Aramco, SABIC, Ma'aden and the Public Investment Fund (PIF). Vision 2030 megaprojects — NEOM, the Red Sea Project, Diriyah Gate and the King Salman Park — converge in the capital alongside Aramco's central engineering, drilling services and downstream business units. The NDT consulting workload here is heavily skewed toward procedure approval, RBI program design under API 580/581, and Aramco SAEP / 01-SAMSS material compliance reviews for projects executed across the Kingdom.",
+        marketInsight: "Aramco's accelerated In-Kingdom Total Value Add (IKTVA) program and the SABIC-Aramco merger created sustained demand for ASNT Level III consultants who can stand in front of Aramco's Inspection Department, sign procedures that withstand SAES audits, and develop FFS per API 579-1 for legacy plants. PIF-backed industrial cities (King Salman Energy Park, SPARK) add steady greenfield consulting work for piping QA/QC, tank API 650/653 construction inspection, and personnel certification per SNT-TC-1A and ISO 9712.",
+        regionalChallenge: "Riyadh's projects are managed from the capital but executed across thousands of kilometres — Khurais, Shaybah, Jafurah, Yanbu, Jubail. Effective consultants here must understand Aramco's contractor approval pipeline, SAP-PM integration of inspection findings, Arabic-language documentation requirements, and the practical reality of mobilising NDT crews into hot, remote, sour-service environments."
+    },
+    "jubail": {
+        intro: "Jubail Industrial City is the largest civil engineering project in modern history and the operational heart of SABIC, HADEED, Marafiq, the Royal Commission for Jubail and Yanbu (RCJY), and Saudi Aramco's eastern downstream complex. With more than 80 petrochemical plants, the SADARA joint venture, IGCC power, desalination trains and the Ras Al-Khair maritime industrial zone next door, Jubail concentrates more pressure equipment per square kilometre than almost anywhere else on earth.",
+        marketInsight: "RCJY's strict pre-commissioning inspection regime and SABIC's plant-life-extension initiatives keep API 510 / 570 / 653 RBI consulting in high demand. PAUT corrosion mapping, HTHA assessment of reformer outlet headers, hydrogen-induced cracking (HIC) surveys per NACE TM0284, and FFS per API 579-1 dominate the consulting scope. SADARA's restart and SABIC's polycarbonate expansions add significant procedure-development workload.",
+        regionalChallenge: "The Jubail consulting market rewards consultants who understand RCJY Construction Specifications, ARAMCO 01-SAMSS / 02-SAMSS material standards, and the difference between SAES-W-011 and ASME B31.3 weld acceptance. Sour service, high ambient temperatures, and tight turnaround windows demand procedures that pass audit AND are physically executable on the deck."
+    },
+    "yanbu": {
+        intro: "Yanbu on the Red Sea hosts SAMREF (Saudi Aramco-Mobil), YANPET (SABIC-ExxonMobil), Yanbu Aramco Sinopec Refinery (YASREF), Yanbu National Petrochemical (YANSAB) and the eastern terminus of the East-West Crude pipeline. The Royal Commission's industrial expansion plan continues to add petrochemical, refining and aluminium capacity, while Saudi Aramco's marine terminals export much of the Kingdom's crude through Yanbu.",
+        marketInsight: "Yanbu's mature refining assets create consistent FFS, RBI and turnaround consulting demand under API 510/570/653, while greenfield expansions require Level III oversight on welder qualification per ASME IX, PWHT verification, and PMI for low-temperature/sour service. Aramco's IKTVA targets drive local consultant development — a meaningful share of consulting engagements blend technical delivery with knowledge-transfer obligations.",
+        regionalChallenge: "Coastal humidity, salt-laden atmospheres and tight Red Sea logistics complicate inspection planning. Consultants working Yanbu must reconcile Aramco SAES with EN/ISO codes used by European EPCs, and be ready to operate inside SAMREF/YASREF turnarounds where every hour of critical-path inspection drives millions in deferred revenue."
+    },
+    "dammam": {
+        intro: "Dammam and the surrounding Eastern Province (Khobar, Dhahran, Qatif) host the headquarters of Saudi Aramco, the largest concentration of upstream operations on the planet, and the dense industrial corridor stretching from Abqaiq through Ras Tanura. Major drilling, well-services, fabrication and modular-construction yards serving Aramco are clustered around Dammam's First, Second and Third Industrial Cities.",
+        marketInsight: "Aramco's well-completion programs, the Jafurah unconventional gas development and constant upgrade of GOSPs (gas-oil separation plants) drive sustained demand for ASNT Level III consulting in API 5L line-pipe inspection, API Spec Q1 supplier audits, and sour-service material verification per NACE MR0175 / ISO 15156. Dammam-based fabricators routinely need Level III sign-off to qualify for Aramco's IRMS approved vendor list.",
+        regionalChallenge: "Procedure approval here is gated by Aramco's Inspection Department and the SAES family of standards. Consultants must be fluent in 01-SAMSS, 02-SAMSS and the practical realities of inspecting equipment built for high-H2S service, sea-water cooling, and the desert thermal cycle."
+    },
+    "khobar": {
+        intro: "Al Khobar serves as the residential and commercial base for the engineering services community supporting Saudi Aramco's Dhahran headquarters. The city hosts the Middle East offices of Schlumberger, Halliburton, Baker Hughes, Weatherford, McDermott, Worley and the major NDT vendors, making it a logistical hub for inspection mobilisation across the Eastern Province.",
+        marketInsight: "Khobar-based EPCs and well-services contractors regularly need ASNT Level III consultants to sign and approve NDT procedures for Aramco bids, support pre-job qualifications, and provide technical authority for high-end advanced UT (PAUT/TOFD), digital radiography, and corrosion-under-insulation (CUI) inspection campaigns.",
+        regionalChallenge: "The competitive bid environment in Khobar demands turn-around of audit-ready procedures and personnel qualification records on tight timelines. Consultants must align documentation with both Aramco's SAES standards and the international codes (ASME, API, ISO 9712) that international contractors bring to the table."
+    },
+    "ras-tanura": {
+        intro: "Ras Tanura is home to one of the largest oil refineries and crude export terminals in the world, anchoring Saudi Aramco's downstream operations on the Arabian Gulf. The refinery, the gas plant, the bulk plant and the deep-water Sea Island terminal together handle a meaningful fraction of global seaborne crude.",
+        marketInsight: "Continuous turnaround cycles at Ras Tanura, plus the proximity of Abqaiq's stabilisation trains and Ras Al-Khair industrial city, generate persistent demand for Level III consulting on RBI program updates under API 580/581, FFS for aged reformer and FCC equipment per API 579, and inspection planning for offshore loading platforms, mooring buoys and submarine pipelines.",
+        regionalChallenge: "Tide-zone corrosion, salt fog, and the operational sensitivity of an export terminal handling more than a percent of global oil supply mean inspection windows are short and procedural rigour is unforgiving. Consultants must understand both refinery and marine-terminal inspection codes (API 570, API 653, DNV)."
+    },
+    "jebel-ali": {
+        intro: "Jebel Ali Free Zone (JAFZA) and Jebel Ali Port form the largest man-made harbour in the world and the busiest container port between Singapore and Rotterdam. The adjacent industrial area hosts ENOC's refinery and terminals, EMARAT, EGA's aluminium smelter at Jebel Ali, DEWA's M-Station power and desalination complex, and hundreds of oilfield services, fabrication and steel-structure yards.",
+        marketInsight: "ENOC's condensate refinery, EGA's smelter pots and rectifiers, and DEWA's combined-cycle plants drive steady consulting demand for ASNT Level III oversight of in-service inspection programs under API 510/570/653 and EFCC, plus boiler and pressure-vessel surveys for DEWA. JAFZA fabricators servicing Middle East EPCs require Level III approval of welding and NDT procedures to meet international client codes (ASME, EN, DNV).",
+        regionalChallenge: "Jebel Ali's environment combines coastal humidity, brackish-water intake systems, and high-temperature compressor service. Consultants must navigate the UAE's MoIAT registration scheme, civil-defence and DEWA permitting, and increasingly bind their work to EmiratesIA Level III certification alongside ASNT credentials."
+    },
+    "mussafah": {
+        intro: "Mussafah Industrial Area in Abu Dhabi is the largest oilfield-services and heavy-fabrication hub in the UAE, home to Senaat, Emirates Steel, Lamprell yards, and hundreds of ADNOC-approved contractors. The area supplies skids, pressure vessels, modules, line pipe and structural fabrications to ADNOC's onshore, offshore and downstream operations.",
+        marketInsight: "ADNOC's contractor-qualification regime — including 30-04 and 30-99 NDT standards — drives constant demand for Level III consultants who can write and approve procedures that pass ADNOC Inspection Department review, supervise PAUT/TOFD qualification on representative weld coupons, and develop NDT personnel certification schemes aligned with ISO 9712 and CSWIP.",
+        regionalChallenge: "Mussafah's fabricators serve simultaneous projects under ADNOC, Aramco, Petrobras and European codes. Consultants must reconcile ADNOC AGES-SP-09-007, Aramco 01-SAMSS, ASME B31.3 and EN 13445 weld acceptance criteria — and translate findings into procedures fabricators can actually execute on a busy yard floor."
+    },
+    "ruwais": {
+        intro: "Ruwais Industrial City on Abu Dhabi's western coast hosts ADNOC Refining (one of the world's largest single-site refineries), Borouge (polyolefins), Fertiglobe (urea/ammonia) and the upcoming Ruwais LNG and Ta'ziz chemicals projects. The Ruwais expansion is among the largest downstream capital programmes in the world.",
+        marketInsight: "Ruwais 2030 expansion, the Borouge 4 project and the Ta'ziz chemicals platform create continuous demand for Level III consultants in greenfield welder qualification per ASME IX, PWHT and hardness surveys, NACE MR0175 sour-service compliance, and in-service RBI / FFS programs for the mature refinery trains.",
+        regionalChallenge: "Coastal salt fog, sour-service materials, ammonia and cryogenic LNG service all coexist on a single industrial estate. Consultants must master ADNOC's AGES and AOSR standards, support both Asian-EPC and Western-EPC contractor models, and operate inside Ruwais's strict permit-to-work and security regime."
+    },
+    "sharjah": {
+        intro: "Sharjah hosts Sharjah National Oil Corporation (SNOC), Crescent Petroleum and Dana Gas — the UAE's largest private upstream and midstream operators — alongside the Hamriyah Free Zone's heavy fabrication and oilfield-services cluster. The Sajaa gas plant and the new Sharjah LNG import terminal anchor a growing midstream footprint.",
+        marketInsight: "SNOC's Mahani and Moveyeid gas developments, plus Sharjah's LNG import infrastructure, create steady consulting demand for ASNT Level III procedure approval, API 510/570 in-service inspection programs and CO2/H2S material verification per NACE MR0175. Hamriyah fabricators chasing Aramco and ADNOC pre-qualification rely on Level III consultants for QMS and NDT procedure approval.",
+        regionalChallenge: "Sharjah's mid-sized operators expect Level III consultants who can deliver Aramco/ADNOC-grade rigour with the agility of a smaller team. Coastal humidity, lean inspection budgets and the need to support multiple operator codes (SNOC, ADNOC, Aramco) in parallel require versatile consulting expertise."
+    },
+    "manama": {
+        intro: "Manama is the operational hub for Bahrain Petroleum Company (BAPCO), which is completing the multi-billion-dollar Bahrain Modernization Program — one of the most significant downstream upgrades in the GCC. Aluminium Bahrain (Alba) and Tatweer Petroleum, the operator of the legacy Bahrain Field, round out the industrial base.",
+        marketInsight: "BAPCO's modernization adds new hydrocrackers, hydrotreaters and sulphur recovery units that all require Level III consulting on welder qualification, PWHT verification, advanced UT for thick-wall hydrocracker shells, and HTHA monitoring per API RP 941. Alba's Line 6 expansion and Tatweer's enhanced-oil-recovery programme add steady RBI / FFS workload.",
+        regionalChallenge: "Bahrain combines refinery, smelter and mature-field upstream operations on a single island, with tight tide-zone corrosion, salt fog and high ambient temperatures. Consultants must reconcile BAPCO's specifications with ASME, API and DNV codes used by international EPCs delivering the modernization program."
+    },
+    "muscat": {
+        intro: "Muscat is the headquarters of Petroleum Development Oman (PDO), Oman LNG, OQ (Oman's integrated energy company) and the Ministry of Energy and Minerals. The capital coordinates Oman's mature onshore oilfields, the Mukhaizna and Marmul EOR projects, the Qalhat LNG complex and the new petrochemical investments at Sohar and Duqm.",
+        marketInsight: "PDO's continuous well-completion and pipeline integrity programs, OQ's Liwa Plastics complex and Oman LNG's debottlenecking projects drive consistent demand for Level III consulting on API 570 in-service piping inspection, sour-service material verification, and ISO 9712-based personnel certification. Oman's local-content (ICV) programme adds knowledge-transfer obligations to most consulting scopes.",
+        regionalChallenge: "Oman's mature fields use steam-assisted EOR with extreme thermal and erosion challenges; the cryogenic LNG side carries different code obligations. Consultants must navigate Omani local-content rules, ICV reporting, and the practical mobilisation logistics of remote Wusta and Dhofar fields."
+    },
+    "pune": {
+        intro: "Pune anchors Maharashtra's automotive, heavy-engineering and aerospace cluster. The city hosts Tata Motors, Bajaj Auto, Bharat Forge, Mahindra & Mahindra, Thermax, Kirloskar, and the Indian Air Force's Lohegaon base, while the Talegaon and Chakan industrial belts host hundreds of Tier-1 suppliers to global OEMs.",
+        marketInsight: "India's defence-manufacturing push (HAL, DRDO, BEL programs), the Tata Air India Airbus assembly project and ongoing automotive electrification create growing demand for Level III consulting in aerospace NDT (NAS 410), forging inspection, casting RT and UT, and welding qualification under ASME IX, AWS D1.1 and EN 15614.",
+        regionalChallenge: "Pune's manufacturers serve simultaneous customer codes — Boeing, Airbus, Caterpillar, GE, Daimler — each with its own NDT requirements. Consultants here must translate global aerospace and automotive standards into procedures Indian shop floors can execute, while supporting ISO 9712 / Indian Society for NDT (ISNT) personnel certification."
+    },
+    "vadodara": {
+        intro: "Vadodara (Baroda) sits at the centre of Gujarat's petrochemical and chemical industrial corridor, with IOCL's Gujarat Refinery, Gujarat State Fertilizer Corporation (GSFC), ONGC, Reliance, GACL, IPCL and dozens of specialty-chemical plants. The Petroleum, Chemicals and Petrochemical Investment Region (PCPIR) and the Dahej / Hazira clusters connect through Vadodara.",
+        marketInsight: "IOCL Gujarat Refinery's BS-VI revamp, GSFC's ammonia/urea revamps and the PCPIR expansion drive steady consulting demand for API 510/570/653 in-service inspection, RBI per API 580, FFS per API 579-1 for ageing pressure equipment, and welder qualification under ASME IX. The chemical-park ecosystem also generates significant PMI and HIC survey work.",
+        regionalChallenge: "Monsoon-driven CUI, the high temperatures of Gujarat summers, and the mix of legacy 1960s plants alongside modern grass-roots units require consultants familiar with both PESO/IBR/IBR-1950 statutory inspection obligations and international API/ASME RBI frameworks."
+    },
+    "fort-mcmurray": {
+        intro: "Fort McMurray is the operational base for Canada's oil sands — Suncor, Syncrude, Canadian Natural Resources (CNRL), Imperial Oil, MEG Energy and Cenovus. The surrounding mines and SAGD (steam-assisted gravity drainage) developments feed upgraders, dilbit pipelines and the Trans Mountain export system.",
+        marketInsight: "Oil-sands upgraders host some of the most punishing inspection environments in industry — high-temperature hydrogen, naphthenic-acid corrosion, sulphidation, and erosion-corrosion in slurry service. Consulting demand here focuses on API 510 / API 570 / API 580 RBI, FFS per API 579, HTHA monitoring per API RP 941, and weld procedure qualification per CSA W178.2 alongside ASME IX.",
+        regionalChallenge: "Sub-arctic winter temperatures, fly-in/fly-out crew logistics, and Canadian provincial pressure-equipment legislation (ABSA in Alberta) mean consultants must combine deep technical expertise with strong familiarity with CSA codes, Alberta Pressure Equipment Safety Regulation, and the Authorized Inspection Body framework."
     }
 };
 
@@ -535,22 +611,31 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     const colors = colorMap[location.color] || colorMap.slate;
 
     // Location-specific optimized titles and descriptions for better CTR
+    // 2026-05-24: titles rewritten to lead with API codes (510/570/580/653/579) and RBI/FFS
+    // which are the top consulting search intents driving 9%+ CTR on /ndt-consulting-accra
     const titleMap: Record<string, string> = {
-        "dallas": "[Expert Consulting] NDT Dallas - Level III Technical Support",
-        "houston": "[Expert Consulting] NDT Houston - Level III Support",
-        "nigeria": "[Expert Support] NDT Consulting Nigeria - Offshore/Onshore",
-        "singapore": "[Expert Consulting] NDT Singapore - Level III Support"
+        "houston": "NDT Consulting Houston — ASNT Level III, API 510/570/653 RBI, FFS Audits | Atlantis NDT",
+        "dubai": "NDT Consulting Dubai — ASNT Level III, API 510/570/580/653 RBI, FFS Audits | Atlantis NDT",
+        "saudi-arabia": "NDT Consulting Saudi Arabia — ASNT Level III, API RBI, FFS per API 579 | Atlantis NDT",
+        "singapore": "NDT Consulting Singapore — ASNT Level III, API 510/570/653 RBI, FFS Audits | Atlantis NDT",
+        "abu-dhabi": "NDT Consulting Abu Dhabi — ASNT Level III, API 510/570/580/653 RBI, FFS Audits | Atlantis NDT",
+        "dallas": "NDT Consulting Dallas — ASNT Level III, API 510/570/653 RBI, FFS Audits | Atlantis NDT",
+        "nigeria": "NDT Consulting Nigeria — ASNT Level III, API RBI, Offshore FFS Audits | Atlantis NDT"
     };
 
     const descMap: Record<string, string> = {
-        "dallas": "NDT Level III consulting in Dallas: procedures, audits, compliance. 25+ years expertise. Oil & gas, petrochemical refinery support.",
-        "houston": "NDT Level III consulting Houston: procedures, audits, training. Oil & gas, refinery, petrochemical. 25+ years proven expertise.",
-        "nigeria": "NDT consulting Nigeria: training, procedures, inspections. Offshore, onshore expertise. ASNT Level III, API certified. Same-day support.",
-        "singapore": "NDT Level III consulting Singapore: procedures, audits, training. Marine, offshore expertise. ASNT certified. Same-day quotes."
+        "houston": "Atlantis NDT consulting in Houston: ASNT Level III SME support, API 510/570/580/653 RBI program design, fitness-for-service per API 579, code consulting. Trusted by Gulf Coast refiners. Quote: info@atlantisndt.com",
+        "dubai": "Atlantis NDT consulting in Dubai: ASNT Level III SME support, API RBI program design, fitness-for-service per API 579, code consulting. Trusted by UAE oil & gas operators. Quote: info@atlantisndt.com",
+        "saudi-arabia": "Atlantis NDT consulting in Saudi Arabia: ASNT Level III SME support, API 510/570/653 RBI design, FFS per API 579, Aramco SAEP compliance. Quote: info@atlantisndt.com",
+        "singapore": "Atlantis NDT consulting in Singapore: ASNT Level III SME support, API RBI program design, fitness-for-service per API 579, code consulting. Trusted by Jurong Island operators. Quote: info@atlantisndt.com",
+        "abu-dhabi": "Atlantis NDT consulting in Abu Dhabi: ASNT Level III SME, API RBI program design, FFS per API 579, ADNOC code consulting. Quote: info@atlantisndt.com",
+        "dallas": "Atlantis NDT consulting in Dallas: ASNT Level III SME support, API 510/570/653 RBI design, FFS per API 579, NAS 410 aerospace consulting. Quote: info@atlantisndt.com",
+        "nigeria": "Atlantis NDT consulting in Nigeria: ASNT Level III SME, API RBI program design, offshore FFS per API 579, NCDMB local content. Quote: info@atlantisndt.com"
     };
 
-    const pageTitle = titleMap[location.slug] || `[Expert Consulting] NDT Level III ${location.name} - Technical Support & Procedures`;
-    const pageDesc = descMap[location.slug] || `ASNT Level III NDT consulting services in ${location.name}. Procedure development, program audits, technique development, and expert witness services for ${location.industries.join(", ")}. 50+ certified experts. Request quote.`;
+    // Cascade CTR formula — applies to all consulting city pages without an explicit titleMap entry
+    const pageTitle = titleMap[location.slug] || `NDT Consulting in ${location.name} — ASNT Level III, API 510/570/580/653 RBI, FFS Audits | Atlantis NDT`;
+    const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, API RBI program design, fitness-for-service per API 579, code consulting. Trusted by ${location.industries[0].toLowerCase()} operators. Quote: info@atlantisndt.com`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 

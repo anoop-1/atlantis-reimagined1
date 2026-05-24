@@ -249,10 +249,10 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 
   // ─── Schema ──────────────────────────────────────────────────────────
   const canonical = `https://atlantisndt.com/ndt-training-${profile.slug}`;
-  const pageTitle = `NDT Training in ${profile.city} — ASNT Level I/II/III Courses ${currentYear} | Atlantis NDT`;
-  const pageDescription = `ASNT SNT-TC-1A, ${profile.primaryCert}${
+  const pageTitle = `NDT Training in ${profile.city} ${currentYear} — 95% Pass Rate, ASNT/${profile.primaryCert} Approved, 5 Day Course | Atlantis NDT`;
+  const pageDescription = `ASNT Level III-led NDT training in ${profile.city}. UT/RT/MT/PT/VT/ET methods per ASNT SNT-TC-1A + ${profile.primaryCert}${
     profile.secondaryCert ? " + " + profile.secondaryCert : ""
-  } NDT certification training in ${profile.city}, ${profile.country}. UT, RT, MT, PT, ET, VT, PAUT, TOFD Level I/II/III. 95% pass rate. Salary band ${profile.salary.usdReference}.`;
+  }. 95% pass rate. Salary band ${profile.salary.usdReference}. Enroll: enroll@atlantisndt.com`;
 
   const courseSchema = {
     "@type": "Course",

@@ -340,6 +340,8 @@ export const DT_CITY_PAGE_SLUGS: Set<string> = new Set([
   'new-orleans','newcastle','odessa','oslo','paris','perth','piraeus','plymouth',
   'port-harcourt','ras-al-khaimah','rotterdam','saudi-arabia','sharjah','singapore',
   'sohar','st-louis','sydney','toronto','tulsa','vancouver','wellington','yanbu',
+  // === DT day-1 expansion 2026-05-24 ===
+  'riyadh','pune','vadodara','surat','ras-tanura','ruwais','jebel-ali','pengerang',
 ]);
 
 /** Cities that have an /ndt-erp-{slug} page. */
@@ -408,6 +410,9 @@ export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'lagos','port-harcourt','sao-paulo','mexico-city','brazil','nigeria','mexico',
   // Legacy DynamicTrainingPage map entries kept for back-compat
   'aberdeen','doha','johannesburg','riyadh',
+  // === Training expansion 2026-05-24 ===
+  'baytown','galveston','odessa','port-arthur','pasadena-texas','deer-park','sugar-land',
+  'jebel-ali','fujairah','pune','vadodara','surat','huntsville','orlando','norfolk',
 ]);
 
 /** Cities that have a /consulting/ndt-consulting-{slug} page. Matches CONSULTING_CITY_SLUGS in city-profiles.ts. */
@@ -426,6 +431,10 @@ export const CONSULTING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'brisbane','beijing','shanghai','shenzhen','hong-kong','taipei','manila','jakarta','bangkok',
   'ho-chi-minh','sao-paulo','rio-de-janeiro','buenos-aires','bogota','lima','santiago','lagos',
   'johannesburg','cape-town','nairobi','accra','casablanca',
+  // === Consulting expansion 2026-05-24 — 20 new high-priority consulting cities ===
+  'riyadh','khobar','ras-tanura','jebel-ali','mussafah','ruwais','sharjah','fujairah',
+  'manama','muscat','sohar','duqm','pune','vadodara','hyderabad','surat','baytown',
+  'port-arthur','balikpapan','fort-mcmurray',
 ]);
 
 /** Product line identifier used by RelatedProducts to pick sibling links. */

@@ -204,7 +204,36 @@ export const keyLocations = [
     { name: "Accra", slug: "accra", country: "GH", region: "West Africa", color: "amber", industries: ["Oil & Gas", "Mining", "Power"], companies: ["Tullow Oil Ghana", "Ghana National Gas", "Newmont Ghana"] },
     { name: "Casablanca", slug: "casablanca", country: "MA", region: "North Africa", color: "red", industries: ["Petrochemical", "Manufacturing", "Phosphates"], companies: ["OCP Group", "SAMIR", "Renault Maroc"] },
     { name: "Angola", slug: "angola", country: "AO", region: "West Africa", color: "red", industries: ["Offshore Oil & Gas", "LNG"], companies: ["Sonangol", "Chevron Angola", "TotalEnergies Angola"] },
-    { name: "Algeria", slug: "algeria", country: "DZ", region: "North Africa", color: "green", industries: ["Oil & Gas", "LNG", "Petrochemical"], companies: ["Sonatrach", "GDF Suez", "BP Algeria"] }
+    { name: "Algeria", slug: "algeria", country: "DZ", region: "North Africa", color: "green", industries: ["Oil & Gas", "LNG", "Petrochemical"], companies: ["Sonatrach", "GDF Suez", "BP Algeria"] },
+
+    // === Consulting expansion 2026-05-24 — 20 new high-priority consulting cities ===
+    // Saudi Arabia — Aramco network
+    { name: "Riyadh", slug: "riyadh", country: "SA", region: "Central Region", color: "green", industries: ["Oil & Gas", "Petrochemical", "Power Generation"], companies: ["Saudi Aramco", "SABIC", "Ma'aden"] },
+    { name: "Al Khobar", slug: "khobar", country: "SA", region: "Eastern Province", color: "amber", industries: ["Oil & Gas", "Petrochemical", "Marine"], companies: ["Saudi Aramco", "Schlumberger", "Halliburton"] },
+    { name: "Ras Tanura", slug: "ras-tanura", country: "SA", region: "Eastern Province", color: "blue", industries: ["Refining", "LPG", "Oil Export Terminal"], companies: ["Saudi Aramco", "SAMREF", "Ras Tanura Refinery"] },
+    // UAE — Abu Dhabi & Dubai industrial zones
+    { name: "Jebel Ali", slug: "jebel-ali", country: "AE", region: "Dubai", color: "emerald", industries: ["Petrochemical", "Marine", "Pipeline"], companies: ["DP World", "ENOC", "EMARAT"] },
+    { name: "Mussafah", slug: "mussafah", country: "AE", region: "Abu Dhabi", color: "blue", industries: ["Oil & Gas Services", "Manufacturing", "Steel"], companies: ["ADNOC", "Senaat", "Emirates Steel"] },
+    { name: "Ruwais", slug: "ruwais", country: "AE", region: "Abu Dhabi", color: "indigo", industries: ["Refining", "Petrochemical", "LNG"], companies: ["ADNOC Refining", "Borouge", "Fertiglobe"] },
+    { name: "Fujairah", slug: "fujairah", country: "AE", region: "UAE East Coast", color: "blue", industries: ["Bunkering", "Oil Storage", "Refining"], companies: ["VTTI", "Vopak Horizon", "Gulf Petrochem"] },
+    { name: "Sharjah", slug: "sharjah", country: "AE", region: "UAE", color: "amber", industries: ["Oil & Gas", "Manufacturing", "LPG"], companies: ["Sharjah National Oil", "Crescent Petroleum", "Dana Gas"] },
+    // GCC — Bahrain, Oman capitals
+    { name: "Manama", slug: "manama", country: "BH", region: "Bahrain", color: "indigo", industries: ["Oil & Gas", "Aluminum", "Refining"], companies: ["BAPCO", "Alba", "Tatweer Petroleum"] },
+    { name: "Muscat", slug: "muscat", country: "OM", region: "Oman", color: "green", industries: ["Oil & Gas", "Petrochemical", "LNG"], companies: ["Petroleum Development Oman", "Oman LNG", "OQ"] },
+    { name: "Sohar", slug: "sohar", country: "OM", region: "Al Batinah", color: "emerald", industries: ["Refining", "Petrochemical", "Steel"], companies: ["Sohar Port", "OQ Refineries", "Jindal Shadeed"] },
+    { name: "Duqm", slug: "duqm", country: "OM", region: "Al Wusta", color: "amber", industries: ["Refining", "Petrochemical", "Dry Dock"], companies: ["Duqm Refinery (OQ8)", "SEZAD", "Oman Drydock"] },
+    // India — additional industrial corridors
+    { name: "Hyderabad", slug: "hyderabad", country: "IN", region: "Telangana", color: "purple", industries: ["Aerospace", "Pharmaceutical", "Defense"], companies: ["BHEL", "TASL", "DRDO"] },
+    { name: "Pune", slug: "pune", country: "IN", region: "Maharashtra", color: "blue", industries: ["Automotive", "Manufacturing", "Aerospace"], companies: ["Tata Motors", "Bajaj Auto", "Bharat Forge"] },
+    { name: "Vadodara", slug: "vadodara", country: "IN", region: "Gujarat", color: "amber", industries: ["Petrochemical", "Power", "Chemical"], companies: ["IOCL Gujarat Refinery", "GSFC", "ONGC"] },
+    { name: "Surat", slug: "surat", country: "IN", region: "Gujarat", color: "emerald", industries: ["LNG", "Petrochemical", "Diamond"], companies: ["ONGC Hazira", "Shell Hazira LNG", "Reliance"] },
+    // USA Gulf Coast — Houston-area refining cluster
+    { name: "Baytown", slug: "baytown", country: "US", region: "Texas", color: "amber", industries: ["Refining", "Petrochemical", "Olefins"], companies: ["ExxonMobil Baytown", "Chevron Phillips", "Covestro"] },
+    { name: "Port Arthur", slug: "port-arthur", country: "US", region: "Texas", color: "purple", industries: ["Refining", "LNG", "Petrochemical"], companies: ["Motiva", "Valero Port Arthur", "Total Port Arthur"] },
+    // Indonesia — refining hub
+    { name: "Balikpapan", slug: "balikpapan", country: "ID", region: "East Kalimantan", color: "red", industries: ["Refining", "Oil & Gas", "LNG"], companies: ["Pertamina Balikpapan Refinery", "Chevron Indonesia", "ENI"] },
+    // Canada — oil sands processing
+    { name: "Fort McMurray", slug: "fort-mcmurray", country: "CA", region: "Alberta", color: "amber", industries: ["Oil Sands", "Upgrading", "Pipeline"], companies: ["Suncor", "Syncrude", "CNRL"] }
 ];
 
 // Generate all method-location combinations

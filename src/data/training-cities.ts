@@ -2686,6 +2686,483 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "los-angeles", label: "Los Angeles" },
     ],
   },
+
+  // ── Training expansion 2026-05-24 ──────────────────────────────
+  // 15 new training cities — Texas Gulf petrochem sub-cities, UAE
+  // alternative ports, India Tier-2 industrial corridors, and missing
+  // US mid-tier industrial hubs.
+  {
+    slug: "baytown",
+    city: "Baytown",
+    country: "USA",
+    lat: 29.7355, lng: -94.9774,
+    localContext:
+      "Baytown is home to ExxonMobil Baytown Refinery (one of the largest in North America), ExxonMobil Baytown Olefins Plant, Chevron Phillips Cedar Bayou complex, and Covestro Baytown polymers. Daily turnaround and capital-project NDT volume is dominated by Acuren, MISTRAS, and Team Industrial Services serving ExxonMobil's integrated complex.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "ExxonMobil Baytown follows ASNT SNT-TC-1A with API 510 / 570 / 653 for in-service inspection. AWS CWI is required for welding inspection on capital projects.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 64,000–92,000",
+    },
+    examCenters: [
+      { name: "Acuren Baytown", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Baytown", bodies: ["ASNT"] },
+      { name: "Team Industrial Services Baytown", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "beaumont", label: "Beaumont" },
+      { slug: "corpus-christi", label: "Corpus Christi" },
+      { slug: "lake-charles", label: "Lake Charles" },
+      { slug: "new-orleans", label: "New Orleans" },
+    ],
+  },
+  {
+    slug: "galveston",
+    city: "Galveston",
+    country: "USA",
+    lat: 29.3013, lng: -94.7977,
+    localContext:
+      "Galveston and Galveston Bay host Marathon Petroleum Galveston Bay Refinery (former BP Texas City), Valero Texas City Refinery, and the Port of Galveston cruise & offshore terminals. The Houston Ship Channel runs through Galveston Bay, supplying NDT work for tank farms, jetty pipework, and offshore fabrication yards at Pelican Island.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Texas Gulf Coast refineries and marine fabrication follow ASNT SNT-TC-1A with API 510 / 570 / 653. CSWIP and AWS CWI are required for offshore fabrication weld inspection.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 45,000–58,000/year",
+      levelII: "USD 62,000–88,000/year",
+      levelIII: "USD 105,000–148,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "Acuren Texas City", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Texas City", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "baytown", label: "Baytown" },
+      { slug: "beaumont", label: "Beaumont" },
+      { slug: "corpus-christi", label: "Corpus Christi" },
+      { slug: "lake-charles", label: "Lake Charles" },
+    ],
+  },
+  {
+    slug: "odessa",
+    city: "Odessa",
+    country: "USA",
+    lat: 31.8457, lng: -102.3676,
+    localContext:
+      "Odessa sits alongside Midland in the Permian Basin and is the operational base for many drilling, completion, and midstream contractors — Halliburton, Schlumberger (SLB), Baker Hughes, NOV, and Liberty Oilfield Services. NDT focus is on frac iron, manifolds, midstream pipelines, gas processing plants (Targa, Enterprise Products), and refinery operations.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Permian Basin operators use ASNT SNT-TC-1A. API 1104 weld inspection on cross-country pipelines is mandatory. AWS CWI is the common welding inspection credential.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–64,000/year",
+      levelII: "USD 70,000–105,000/year (Permian premium + per diem)",
+      levelIII: "USD 115,000–170,000/year",
+      usdReference: "USD 70,000–105,000",
+    },
+    examCenters: [
+      { name: "Acuren Odessa", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Midland-Odessa", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "midland", label: "Midland" },
+      { slug: "houston", label: "Houston" },
+      { slug: "fort-worth", label: "Fort Worth" },
+      { slug: "oklahoma-city", label: "Oklahoma City" },
+      { slug: "tulsa", label: "Tulsa" },
+    ],
+  },
+  {
+    slug: "port-arthur",
+    city: "Port Arthur",
+    country: "USA",
+    lat: 29.8850, lng: -93.9400,
+    localContext:
+      "Port Arthur is home to Motiva Port Arthur Refinery (largest refinery in North America at 636,500 bpd), Valero Port Arthur Refinery, Total Energies Port Arthur Refinery, and Sempra Energy's Port Arthur LNG project under construction by Bechtel. The continuous mix of refinery turnarounds and LNG construction creates one of the highest NDT demand corridors in the United States.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Texas Gulf Coast refineries and LNG construction use ASNT SNT-TC-1A with API 510 / 570 / 653 for in-service inspection. CSWIP 3.1 is widely accepted at LNG EPC sites led by Bechtel.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–94,000/year (LNG project premium + OT)",
+      levelIII: "USD 108,000–160,000/year",
+      usdReference: "USD 64,000–94,000",
+    },
+    examCenters: [
+      { name: "Acuren Port Arthur", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Port Arthur", bodies: ["ASNT"] },
+      { name: "Team Industrial Services Port Arthur", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "beaumont", label: "Beaumont" },
+      { slug: "lake-charles", label: "Lake Charles" },
+      { slug: "houston", label: "Houston" },
+      { slug: "baton-rouge", label: "Baton Rouge" },
+      { slug: "new-orleans", label: "New Orleans" },
+    ],
+  },
+  {
+    slug: "pasadena-texas",
+    city: "Pasadena",
+    country: "USA",
+    lat: 29.6911, lng: -95.2091,
+    localContext:
+      "Pasadena, Texas sits along the Houston Ship Channel and hosts Chevron Pasadena Refinery (formerly Petrobras America), Kinder Morgan terminals, LyondellBasell Channelview Complex (across the channel), and large fabrication yards. The Ship Channel pipework, tankage and dock-side loading systems drive continuous API 570 / API 653 in-service inspection volume.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Houston Ship Channel facilities use ASNT SNT-TC-1A with API 510 / 570 / 653 for in-service inspection. AWS CWI is required for welding inspection on capital projects.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 64,000–92,000",
+    },
+    examCenters: [
+      { name: "Acuren Pasadena", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Pasadena", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "baytown", label: "Baytown" },
+      { slug: "deer-park", label: "Deer Park" },
+      { slug: "galveston", label: "Galveston" },
+      { slug: "beaumont", label: "Beaumont" },
+    ],
+  },
+  {
+    slug: "deer-park",
+    city: "Deer Park",
+    country: "USA",
+    lat: 29.7050, lng: -95.1230,
+    localContext:
+      "Deer Park, Texas hosts Pemex Deer Park Refinery (acquired from Shell in 2022), Shell Deer Park Chemicals, LyondellBasell Channelview, Kinder Morgan Galena Park terminals and large tank-farm operations along the Houston Ship Channel. The Pemex acquisition triggered a wave of capital re-investment and continuing API 510 / 570 / 653 inspection programs.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Houston Ship Channel refineries use ASNT SNT-TC-1A with API 510 / 570 / 653 in-service inspection. Pemex Deer Park additionally requires bilingual inspection documentation in Spanish.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–92,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 64,000–92,000",
+    },
+    examCenters: [
+      { name: "Acuren Deer Park", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Deer Park", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "pasadena-texas", label: "Pasadena" },
+      { slug: "baytown", label: "Baytown" },
+      { slug: "galveston", label: "Galveston" },
+      { slug: "beaumont", label: "Beaumont" },
+    ],
+  },
+  {
+    slug: "sugar-land",
+    city: "Sugar Land",
+    country: "USA",
+    lat: 29.6196, lng: -95.6349,
+    localContext:
+      "Sugar Land hosts the corporate and engineering offices for many oilfield service majors — Schlumberger (SLB), Nalco Champion, CGG, Noble Drilling, and Western Geco. While there is less heavy plant inspection inside Sugar Land itself, Level II/III NDT engineers based here support Permian, offshore Gulf, and international projects through SLB and Halliburton technology centers.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Service-company engineering offices use ASNT Level III + CSWIP / PCN for inspection methods development, plus API 1104 for pipeline weld procedure qualification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–62,000/year",
+      levelII: "USD 68,000–95,000/year (engineering office premium)",
+      levelIII: "USD 115,000–165,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "Acuren Houston (West)", bodies: ["ASNT"] },
+      { name: "MISTRAS Houston Engineering Center", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "pasadena-texas", label: "Pasadena" },
+      { slug: "baytown", label: "Baytown" },
+      { slug: "beaumont", label: "Beaumont" },
+      { slug: "corpus-christi", label: "Corpus Christi" },
+    ],
+  },
+  {
+    slug: "jebel-ali",
+    city: "Jebel Ali",
+    country: "UAE",
+    lat: 25.0093, lng: 55.0617,
+    localContext:
+      "Jebel Ali Free Zone (JAFZA) and Jebel Ali Port together form one of the largest industrial and logistics hubs in the Middle East. EMAL / Emirates Global Aluminium (EGA) Jebel Ali smelter, DEWA M-Station power plant, DUBAL fabrication facilities, Drydocks World shipyards and over 7,000 multinational manufacturing/engineering firms drive constant demand for ASNT and CSWIP certified inspectors.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "UAE industrial sector predominantly uses ASNT SNT-TC-1A and ISO 9712. CSWIP 3.1 is the dominant welding inspection credential at JAFZA fabrication shops. Drydocks World additionally requires Lloyd's Register surveyor approval.",
+    salary: {
+      currency: "AED",
+      levelI: "AED 6,000–10,000/month",
+      levelII: "AED 12,000–22,000/month",
+      levelIII: "AED 28,000–55,000/month",
+      usdReference: "USD 3,250–6,000",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Jebel Ali", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV SUD Middle East Jebel Ali", bodies: ["ASNT", "PCN", "ISO 9712"] },
+      { name: "TWI Middle East — CSWIP/PCN", bodies: ["CSWIP", "PCN"] },
+    ],
+    siblings: [
+      { slug: "dubai", label: "Dubai" },
+      { slug: "abu-dhabi", label: "Abu Dhabi" },
+      { slug: "sharjah", label: "Sharjah" },
+      { slug: "ras-al-khaimah", label: "Ras Al Khaimah" },
+      { slug: "fujairah", label: "Fujairah" },
+    ],
+  },
+  {
+    slug: "fujairah",
+    city: "Fujairah",
+    country: "UAE",
+    lat: 25.1288, lng: 56.3265,
+    localContext:
+      "Fujairah is the bunkering capital of the Middle East and the eastern oil export terminal for Abu Dhabi Crude Oil Pipeline (ADCOP) bypassing the Strait of Hormuz. ADNOC Fujairah Refinery, VTTI Fujairah Terminal, Vopak Horizon Fujairah, Brooge Energy and Gulf Petrochem operate massive tank farms and jetty pipework. NDT demand centers on API 653 tank inspection and pipeline weld inspection.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Fujairah tankage and bunkering operations follow ASNT SNT-TC-1A with API 653 for above-ground storage tanks. CSWIP 3.1 is required at ADNOC EPC contracts.",
+    salary: {
+      currency: "AED",
+      levelI: "AED 6,500–10,500/month",
+      levelII: "AED 13,000–24,000/month (tank-farm project premium)",
+      levelIII: "AED 30,000–58,000/month",
+      usdReference: "USD 3,540–6,535",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Fujairah", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV SUD Fujairah", bodies: ["ASNT", "PCN", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "dubai", label: "Dubai" },
+      { slug: "abu-dhabi", label: "Abu Dhabi" },
+      { slug: "sharjah", label: "Sharjah" },
+      { slug: "ras-al-khaimah", label: "Ras Al Khaimah" },
+      { slug: "jebel-ali", label: "Jebel Ali" },
+    ],
+  },
+  {
+    slug: "pune",
+    city: "Pune",
+    country: "India",
+    lat: 18.5204, lng: 73.8567,
+    localContext:
+      "Pune is one of India's largest manufacturing and auto-component hubs — Tata Motors, Bajaj Auto, Mahindra & Mahindra, Bharat Forge, Kirloskar, Cummins India, Thyssenkrupp Industries, and Forbes Marshall all run major fabrication and machining operations. Pune also hosts BARC's nuclear research support contractors and Defence Research and Development Organisation (DRDO) facilities.",
+    primaryCert: "ISNT",
+    secondaryCert: "ASNT",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "Indian automotive and heavy fabrication sectors follow ISNT NDT Level I-III (aligned with ISO 9712). ASNT SNT-TC-1A is required for export-oriented suppliers to GE, Caterpillar, and ASME-stamped pressure vessel work.",
+    salary: {
+      currency: "INR",
+      levelI: "INR 2.4–4.2 LPA",
+      levelII: "INR 4.8–9.0 LPA",
+      levelIII: "INR 11–22 LPA",
+      usdReference: "USD 5,750–10,800",
+    },
+    examCenters: [
+      { name: "ISNT Pune Chapter", bodies: ["ISNT"] },
+      { name: "QUEST Pune (ASNT-recognized)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Pune", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "mumbai", label: "Mumbai" },
+      { slug: "bangalore", label: "Bangalore" },
+      { slug: "chennai", label: "Chennai" },
+      { slug: "vadodara", label: "Vadodara" },
+      { slug: "surat", label: "Surat" },
+    ],
+  },
+  {
+    slug: "vadodara",
+    city: "Vadodara",
+    country: "India",
+    lat: 22.3072, lng: 73.1812,
+    localContext:
+      "Vadodara is the headquarters of L&T Hydrocarbon Engineering, GAIL India, IOC Koyali Refinery (273,000 bpd) and Gujarat Refinery, ONGC's largest Western Onshore Asset, and is the engineering capital of Gujarat's industrial corridor. Heavy refining, fertilizer plants (GSFC), and petrochemical assets drive non-stop ASNT/ISNT Level II demand.",
+    primaryCert: "ISNT",
+    secondaryCert: "ASNT",
+    otherCerts: ["ISO 9712", "CSWIP"],
+    certPathwayNote:
+      "Indian refining and petrochemical sector follows ISNT NDT Level I-III. ASNT SNT-TC-1A is required at IOC, BPCL, HPCL, RIL refineries and L&T Hydrocarbon engineering projects. CSWIP 3.1 is used at L&T fabrication shops exporting to GCC clients.",
+    salary: {
+      currency: "INR",
+      levelI: "INR 2.4–4.0 LPA",
+      levelII: "INR 4.5–8.5 LPA",
+      levelIII: "INR 10.5–21 LPA",
+      usdReference: "USD 5,400–10,200",
+    },
+    examCenters: [
+      { name: "ISNT Vadodara Chapter", bodies: ["ISNT"] },
+      { name: "L&T Welding Research and Development Center", bodies: ["ASNT", "CSWIP"] },
+      { name: "Bureau Veritas Vadodara", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "surat", label: "Surat" },
+      { slug: "mumbai", label: "Mumbai" },
+      { slug: "pune", label: "Pune" },
+      { slug: "chennai", label: "Chennai" },
+      { slug: "kochi", label: "Kochi" },
+    ],
+  },
+  {
+    slug: "surat",
+    city: "Surat",
+    country: "India",
+    lat: 21.1702, lng: 72.8311,
+    localContext:
+      "Surat hosts ONGC Hazira complex, Essar Steel (now ArcelorMittal Nippon Steel India) Hazira, Reliance Industries Hazira manufacturing division, L&T Heavy Engineering Hazira, and Shell India's Hazira LNG terminal. The Hazira industrial belt is one of India's densest fabrication, gas processing, and steel production zones.",
+    primaryCert: "ISNT",
+    secondaryCert: "ASNT",
+    otherCerts: ["ISO 9712", "CSWIP"],
+    certPathwayNote:
+      "Hazira heavy-engineering complex follows ISNT NDT Level I-III for domestic projects and ASNT SNT-TC-1A for export fabrication (oil & gas modules, pressure vessels, offshore jackets). CSWIP 3.1 is mandatory at L&T Heavy Engineering for client-witnessed welding inspection.",
+    salary: {
+      currency: "INR",
+      levelI: "INR 2.4–4.0 LPA",
+      levelII: "INR 4.5–8.5 LPA",
+      levelIII: "INR 10.5–21 LPA",
+      usdReference: "USD 5,400–10,200",
+    },
+    examCenters: [
+      { name: "ISNT Surat Chapter", bodies: ["ISNT"] },
+      { name: "L&T Heavy Engineering Hazira Training Center", bodies: ["ASNT", "CSWIP"] },
+      { name: "ONGC Hazira NDT Training Cell", bodies: ["ISNT", "ASNT"] },
+    ],
+    siblings: [
+      { slug: "vadodara", label: "Vadodara" },
+      { slug: "mumbai", label: "Mumbai" },
+      { slug: "pune", label: "Pune" },
+      { slug: "ahmedabad", label: "Ahmedabad" },
+      { slug: "kochi", label: "Kochi" },
+    ],
+  },
+  {
+    slug: "huntsville",
+    city: "Huntsville",
+    country: "USA",
+    lat: 34.7304, lng: -86.5861,
+    localContext:
+      "Huntsville is the heart of US aerospace and defense — NASA Marshall Space Flight Center, Boeing Space Launch System, Blue Origin, United Launch Alliance, Lockheed Martin Missiles & Fire Control, Northrop Grumman, Aerojet Rocketdyne, Dynetics (Leidos), and the US Army Redstone Arsenal. NDT demand is concentrated in aerospace composites, rocket motor case inspection, and welded aluminum / titanium components.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["CSWIP"],
+    certPathwayNote:
+      "Aerospace and defense work in Huntsville requires NAS 410 (for aerospace primes) and ASNT SNT-TC-1A. Most contracts are NADCAP-audited and require Level II UT/PT/MT/ET certification per the prime's NDT procedure.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–62,000/year",
+      levelII: "USD 68,000–95,000/year (aerospace clearance premium)",
+      levelIII: "USD 115,000–165,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "MISTRAS Group Huntsville", bodies: ["ASNT"] },
+      { name: "Acuren Huntsville", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "nashville", label: "Nashville" },
+      { slug: "atlanta", label: "Atlanta" },
+      { slug: "houston", label: "Houston" },
+      { slug: "mobile", label: "Mobile" },
+      { slug: "dallas", label: "Dallas" },
+    ],
+  },
+  {
+    slug: "orlando",
+    city: "Orlando",
+    country: "USA",
+    lat: 28.5383, lng: -81.3792,
+    localContext:
+      "Orlando is a major aerospace and simulation hub — Lockheed Martin Missiles & Fire Control Orlando, Mitsubishi Power Americas (gas turbines), Siemens Energy turbine service center, Northrop Grumman, L3Harris Technologies, and the OUC Stanton Energy Center. Power-gen turbine MRO and aerospace component inspection are the primary NDT workloads.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["CSWIP"],
+    certPathwayNote:
+      "Power-gen turbine MRO uses ASNT SNT-TC-1A with API 510 / 570 for ancillary plant. Aerospace work follows NAS 410 with NADCAP audit. Both Mitsubishi Power and Siemens Energy require Level II UT/PT/MT/ET per the OEM procedure.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 62,000–88,000/year",
+      levelIII: "USD 108,000–155,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "MISTRAS Group Orlando", bodies: ["ASNT"] },
+      { name: "Acuren Orlando", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "tampa", label: "Tampa" },
+      { slug: "jacksonville", label: "Jacksonville" },
+      { slug: "atlanta", label: "Atlanta" },
+      { slug: "miami", label: "Miami" },
+      { slug: "nashville", label: "Nashville" },
+    ],
+  },
+  {
+    slug: "norfolk",
+    city: "Norfolk",
+    country: "USA",
+    lat: 36.8508, lng: -76.2859,
+    localContext:
+      "Norfolk and Hampton Roads are the heart of US Navy shipbuilding and maintenance — Norfolk Naval Shipyard, Naval Station Norfolk (largest naval base in the world), BAE Systems Norfolk Ship Repair, Newport News Shipbuilding (Huntington Ingalls — nuclear aircraft carriers and Virginia-class submarines). Nuclear, naval, and offshore wind NDT all converge here.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["CSWIP"],
+    certPathwayNote:
+      "Naval shipbuilding follows MIL-STD-2132 and NAVSEA 250-1500-1 in addition to ASNT SNT-TC-1A. Nuclear work at Newport News requires N-stamp procedures and Level III approval per ASME Section XI.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–62,000/year (security clearance premium)",
+      levelII: "USD 66,000–94,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 66,000–94,000",
+    },
+    examCenters: [
+      { name: "Newport News Shipbuilding NDT Training Center", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Norfolk", bodies: ["ASNT"] },
+      { name: "Acuren Norfolk", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "philadelphia", label: "Philadelphia" },
+      { slug: "washington-dc", label: "Washington DC" },
+      { slug: "jacksonville", label: "Jacksonville" },
+      { slug: "huntsville", label: "Huntsville" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

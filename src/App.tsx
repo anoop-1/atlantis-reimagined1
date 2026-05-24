@@ -39,6 +39,11 @@ const CompareAtlantisDtVsGePredix = lazy(() => import("./pages/compare/AtlantisD
 const CompareAtlantisDtVsIbmMaximo = lazy(() => import("./pages/compare/AtlantisDtVsIbmMaximo"));
 const CompareAtlantisDtVsBentleyItwin = lazy(() => import("./pages/compare/AtlantisDtVsBentleyItwin"));
 const CompareAtlantisDtVsAspenMtell = lazy(() => import("./pages/compare/AtlantisDtVsAspenMtell"));
+// === DT day-1 expansion 2026-05-24 — comparison pages ===
+const CompareAtlantisDtVsCogniteDataFusion = lazy(() => import("./pages/compare/AtlantisDtVsCogniteDataFusion"));
+const CompareAtlantisDtVsPtcThingworx = lazy(() => import("./pages/compare/AtlantisDtVsPtcThingworx"));
+const CompareAtlantisDtVsMicrosoftAzureDigitalTwins = lazy(() => import("./pages/compare/AtlantisDtVsMicrosoftAzureDigitalTwins"));
+// === END DT day-1 expansion 2026-05-24 — comparison pages ===
 const IntegrationSapPm = lazy(() => import("./pages/integrations/SapPm"));
 const IntegrationIbmMaximo = lazy(() => import("./pages/integrations/IbmMaximo"));
 const IntegrationMeridiumApm = lazy(() => import("./pages/integrations/MeridiumApm"));
@@ -57,6 +62,13 @@ const DtUseCaseHeatExchanger = lazy(() => import("./pages/digital-twins-usecases
 const DtUseCasePressureVessel = lazy(() => import("./pages/digital-twins-usecases/PressureVessel"));
 const DtUseCaseSubsea = lazy(() => import("./pages/digital-twins-usecases/Subsea"));
 const DtUseCaseDataCenter = lazy(() => import("./pages/digital-twins-usecases/DataCenter"));
+// === DT day-1 expansion 2026-05-24 — use-case pages ===
+const DtUseCaseLngTerminal = lazy(() => import("./pages/digital-twins-usecases/LngTerminal"));
+const DtUseCaseHydrogenElectrolyzer = lazy(() => import("./pages/digital-twins-usecases/HydrogenElectrolyzer"));
+const DtUseCaseAmmoniaPlant = lazy(() => import("./pages/digital-twins-usecases/AmmoniaPlant"));
+const DtUseCaseBatteryStorage = lazy(() => import("./pages/digital-twins-usecases/BatteryStorage"));
+const DtUseCaseSolarFarm = lazy(() => import("./pages/digital-twins-usecases/SolarFarm"));
+// === END DT day-1 expansion 2026-05-24 — use-case pages ===
 
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
@@ -1381,6 +1393,59 @@ const FieldServiceForConstructionQualityAssurance = lazy(() => import("./pages/e
 const AuditManagementForMetrologyLaboratories = lazy(() => import("./pages/erp/audit-management-for-metrology-laboratories"));
 const DocumentControlForEnvironmentalTestingLabs = lazy(() => import("./pages/erp/document-control-for-environmental-testing-labs"));
 const HrPayrollForGeotechnicalEngineering = lazy(() => import("./pages/erp/hr-payroll-for-geotechnical-engineering"));
+// === ERP day-1 expansion 2026-05-24 ===
+const CrmForMarineSurveyCompanies = lazy(() => import("./pages/erp/crm-for-marine-survey-companies"));
+const CrmForCalibrationLaboratories = lazy(() => import("./pages/erp/crm-for-calibration-laboratories"));
+const CrmForAerospaceQualityControl = lazy(() => import("./pages/erp/crm-for-aerospace-quality-control"));
+const CrmForEnvironmentalTestingLabs = lazy(() => import("./pages/erp/crm-for-environmental-testing-labs"));
+const CmmsForPipelineIntegrityServices = lazy(() => import("./pages/erp/cmms-for-pipeline-integrity-services"));
+const CmmsForWeldingFabricationShops = lazy(() => import("./pages/erp/cmms-for-welding-fabrication-shops"));
+const CmmsForOilfieldServices = lazy(() => import("./pages/erp/cmms-for-oilfield-services"));
+const CmmsForMetrologyLaboratories = lazy(() => import("./pages/erp/cmms-for-metrology-laboratories"));
+const InventoryManagementForPipelineIntegrityServices = lazy(() => import("./pages/erp/inventory-management-for-pipeline-integrity-services"));
+const InventoryManagementForWeldingFabricationShops = lazy(() => import("./pages/erp/inventory-management-for-welding-fabrication-shops"));
+const InventoryManagementForEnvironmentalTestingLabs = lazy(() => import("./pages/erp/inventory-management-for-environmental-testing-labs"));
+const ProjectManagementForAerospaceQualityControl = lazy(() => import("./pages/erp/project-management-for-aerospace-quality-control"));
+const ProjectManagementForCalibrationLaboratories = lazy(() => import("./pages/erp/project-management-for-calibration-laboratories"));
+const ProjectManagementForMarineSurveyCompanies = lazy(() => import("./pages/erp/project-management-for-marine-survey-companies"));
+const QualityManagementForPipelineIntegrityServices = lazy(() => import("./pages/erp/quality-management-for-pipeline-integrity-services"));
+const QualityManagementForCalibrationLaboratories = lazy(() => import("./pages/erp/quality-management-for-calibration-laboratories"));
+const QualityManagementForAerospaceQualityControl = lazy(() => import("./pages/erp/quality-management-for-aerospace-quality-control"));
+const QualityManagementForMarineSurveyCompanies = lazy(() => import("./pages/erp/quality-management-for-marine-survey-companies"));
+const DocumentControlForPipelineIntegrityServices = lazy(() => import("./pages/erp/document-control-for-pipeline-integrity-services"));
+const DocumentControlForCalibrationLaboratories = lazy(() => import("./pages/erp/document-control-for-calibration-laboratories"));
+const DocumentControlForAerospaceQualityControl = lazy(() => import("./pages/erp/document-control-for-aerospace-quality-control"));
+const AuditManagementForPipelineIntegrityServices = lazy(() => import("./pages/erp/audit-management-for-pipeline-integrity-services"));
+const AuditManagementForCalibrationLaboratories = lazy(() => import("./pages/erp/audit-management-for-calibration-laboratories"));
+const CertificationTrackingForPipelineIntegrityServices = lazy(() => import("./pages/erp/certification-tracking-for-pipeline-integrity-services"));
+const CertificationTrackingForWeldingFabricationShops = lazy(() => import("./pages/erp/certification-tracking-for-welding-fabrication-shops"));
+const CertificationTrackingForAerospaceQualityControl = lazy(() => import("./pages/erp/certification-tracking-for-aerospace-quality-control"));
+const HrPayrollForPipelineIntegrityServices = lazy(() => import("./pages/erp/hr-payroll-for-pipeline-integrity-services"));
+const HrPayrollForWeldingFabricationShops = lazy(() => import("./pages/erp/hr-payroll-for-welding-fabrication-shops"));
+const FieldServiceForPipelineIntegrityServices = lazy(() => import("./pages/erp/field-service-for-pipeline-integrity-services"));
+const HelpdeskForNdtInspectionCompanies = lazy(() => import("./pages/erp/helpdesk-for-ndt-inspection-companies"));
+// city-combo pages day-1 (crm/cmms/inventory-management/accounting/project-management × hyderabad/chennai/delhi/riyadh)
+const ErpCrmNdtHyderabad = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-hyderabad"));
+const ErpCrmNdtChennai = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-chennai"));
+const ErpCrmNdtDelhi = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-delhi"));
+const ErpCrmNdtRiyadh = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-riyadh"));
+const ErpCmmsNdtHyderabad = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-hyderabad"));
+const ErpCmmsNdtChennai = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-chennai"));
+const ErpCmmsNdtDelhi = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-delhi"));
+const ErpCmmsNdtRiyadh = lazy(() => import("./pages/erp/cmms-ndt-inspection-companies-riyadh"));
+const ErpInventoryNdtHyderabad = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-hyderabad"));
+const ErpInventoryNdtChennai = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-chennai"));
+const ErpInventoryNdtDelhi = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-delhi"));
+const ErpInventoryNdtRiyadh = lazy(() => import("./pages/erp/inventory-management-ndt-inspection-companies-riyadh"));
+const ErpAccountingNdtHyderabad = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-hyderabad"));
+const ErpAccountingNdtChennai = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-chennai"));
+const ErpAccountingNdtDelhi = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-delhi"));
+const ErpAccountingNdtRiyadh = lazy(() => import("./pages/erp/accounting-ndt-inspection-companies-riyadh"));
+const ErpProjectMgmtNdtHyderabad = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-hyderabad"));
+const ErpProjectMgmtNdtChennai = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-chennai"));
+const ErpProjectMgmtNdtDelhi = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-delhi"));
+const ErpProjectMgmtNdtRiyadh = lazy(() => import("./pages/erp/project-management-ndt-inspection-companies-riyadh"));
+// === END ERP day-1 expansion 2026-05-24 ===
 const NDTErp_maharashtra = lazy(() => import("./pages/ndt-erp-maharashtra"));
 const NDTErp_gujarat = lazy(() => import("./pages/ndt-erp-gujarat"));
 const NDTErp_tamil_nadu = lazy(() => import("./pages/ndt-erp-tamil-nadu"));
@@ -1693,6 +1758,30 @@ const NDTConsultingCapeTown = lazy(() => import("./pages/ndt-consulting-cape-tow
 const NDTConsultingNairobi = lazy(() => import("./pages/ndt-consulting-nairobi"));
 const NDTConsultingAccra = lazy(() => import("./pages/ndt-consulting-accra"));
 const NDTConsultingCasablanca = lazy(() => import("./pages/ndt-consulting-casablanca"));
+
+// === Consulting expansion 2026-05-24 — 20 new high-priority consulting cities ===
+const NDTConsultingRiyadh = lazy(() => import("./pages/ndt-consulting-riyadh"));
+const NDTConsultingKhobar = lazy(() => import("./pages/ndt-consulting-khobar"));
+const NDTConsultingRasTanura = lazy(() => import("./pages/ndt-consulting-ras-tanura"));
+const NDTConsultingJebelAli = lazy(() => import("./pages/ndt-consulting-jebel-ali"));
+const NDTConsultingMussafah = lazy(() => import("./pages/ndt-consulting-mussafah"));
+const NDTConsultingRuwais = lazy(() => import("./pages/ndt-consulting-ruwais"));
+const NDTConsultingSharjah = lazy(() => import("./pages/ndt-consulting-sharjah"));
+const NDTConsultingFujairah = lazy(() => import("./pages/ndt-consulting-fujairah"));
+const NDTConsultingManama = lazy(() => import("./pages/ndt-consulting-manama"));
+const NDTConsultingMuscat = lazy(() => import("./pages/ndt-consulting-muscat"));
+const NDTConsultingSohar = lazy(() => import("./pages/ndt-consulting-sohar"));
+const NDTConsultingDuqm = lazy(() => import("./pages/ndt-consulting-duqm"));
+const NDTConsultingPune = lazy(() => import("./pages/ndt-consulting-pune"));
+const NDTConsultingVadodara = lazy(() => import("./pages/ndt-consulting-vadodara"));
+const NDTConsultingHyderabad = lazy(() => import("./pages/ndt-consulting-hyderabad"));
+const NDTConsultingSurat = lazy(() => import("./pages/ndt-consulting-surat"));
+const NDTConsultingBaytown = lazy(() => import("./pages/ndt-consulting-baytown"));
+const NDTConsultingPortArthur = lazy(() => import("./pages/ndt-consulting-port-arthur"));
+const NDTConsultingBalikpapan = lazy(() => import("./pages/ndt-consulting-balikpapan"));
+const NDTConsultingFortMcmurray = lazy(() => import("./pages/ndt-consulting-fort-mcmurray"));
+// === /Consulting expansion 2026-05-24 ===
+
 // Digital Twin Location Pages
 const DigitalTwinHouston = lazy(() => import("./pages/digital-twin-houston"));
 const DigitalTwinDubai = lazy(() => import("./pages/digital-twin-dubai"));
@@ -1847,6 +1936,16 @@ const DigitalTwinShenzhen = lazy(() => import("./pages/digital-twin-shenzhen"));
 const DigitalTwinSouthAfricaCountry = lazy(() => import("./pages/digital-twin-south-africa"));
 const DigitalTwinVietnamCountry = lazy(() => import("./pages/digital-twin-vietnam"));
 const DigitalTwinTaiwanCountry = lazy(() => import("./pages/digital-twin-taiwan"));
+// === DT day-1 expansion 2026-05-24 — city pages ===
+const DigitalTwinRiyadh = lazy(() => import("./pages/digital-twin-riyadh"));
+const DigitalTwinPune = lazy(() => import("./pages/digital-twin-pune"));
+const DigitalTwinVadodara = lazy(() => import("./pages/digital-twin-vadodara"));
+const DigitalTwinSurat = lazy(() => import("./pages/digital-twin-surat"));
+const DigitalTwinRasTanura = lazy(() => import("./pages/digital-twin-ras-tanura"));
+const DigitalTwinRuwais = lazy(() => import("./pages/digital-twin-ruwais"));
+const DigitalTwinJebelAli = lazy(() => import("./pages/digital-twin-jebel-ali"));
+const DigitalTwinPengerang = lazy(() => import("./pages/digital-twin-pengerang"));
+// === END DT day-1 expansion 2026-05-24 — city pages ===
 // Resource Pages
 const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
 const StateOfNdt2026 = lazy(() => import("./pages/StateOfNdt2026"));
@@ -2267,6 +2366,23 @@ const NDTTrainingUae = lazy(() => import("./pages/ndt-training-uae"));
 const NDTTrainingOman = lazy(() => import("./pages/ndt-training-oman"));
 const NDTTrainingNigeria = lazy(() => import("./pages/ndt-training-nigeria"));
 const NDTTrainingMexico = lazy(() => import("./pages/ndt-training-mexico"));
+// === Training expansion 2026-05-24 ===
+const NDTTrainingBaytown = lazy(() => import("./pages/ndt-training-baytown"));
+const NDTTrainingGalveston = lazy(() => import("./pages/ndt-training-galveston"));
+const NDTTrainingOdessa = lazy(() => import("./pages/ndt-training-odessa"));
+const NDTTrainingPortArthur = lazy(() => import("./pages/ndt-training-port-arthur"));
+const NDTTrainingPasadenaTexas = lazy(() => import("./pages/ndt-training-pasadena-texas"));
+const NDTTrainingDeerPark = lazy(() => import("./pages/ndt-training-deer-park"));
+const NDTTrainingSugarLand = lazy(() => import("./pages/ndt-training-sugar-land"));
+const NDTTrainingJebelAli = lazy(() => import("./pages/ndt-training-jebel-ali"));
+const NDTTrainingFujairah = lazy(() => import("./pages/ndt-training-fujairah"));
+const NDTTrainingPune = lazy(() => import("./pages/ndt-training-pune"));
+const NDTTrainingVadodara = lazy(() => import("./pages/ndt-training-vadodara"));
+const NDTTrainingSurat = lazy(() => import("./pages/ndt-training-surat"));
+const NDTTrainingHuntsville = lazy(() => import("./pages/ndt-training-huntsville"));
+const NDTTrainingOrlando = lazy(() => import("./pages/ndt-training-orlando"));
+const NDTTrainingNorfolk = lazy(() => import("./pages/ndt-training-norfolk"));
+// === /Training expansion 2026-05-24 ===
 
 const queryClient = new QueryClient();
 
@@ -3532,6 +3648,30 @@ const App = () => (
                   <Route path="/consulting/ndt-consulting-nairobi" element={<LazyRoute Component={NDTConsultingNairobi} />} />
                   <Route path="/consulting/ndt-consulting-accra" element={<LazyRoute Component={NDTConsultingAccra} />} />
                   <Route path="/consulting/ndt-consulting-casablanca" element={<LazyRoute Component={NDTConsultingCasablanca} />} />
+
+                  {/* === Consulting expansion 2026-05-24 === */}
+                  <Route path="/consulting/ndt-consulting-riyadh" element={<LazyRoute Component={NDTConsultingRiyadh} />} />
+                  <Route path="/consulting/ndt-consulting-khobar" element={<LazyRoute Component={NDTConsultingKhobar} />} />
+                  <Route path="/consulting/ndt-consulting-ras-tanura" element={<LazyRoute Component={NDTConsultingRasTanura} />} />
+                  <Route path="/consulting/ndt-consulting-jebel-ali" element={<LazyRoute Component={NDTConsultingJebelAli} />} />
+                  <Route path="/consulting/ndt-consulting-mussafah" element={<LazyRoute Component={NDTConsultingMussafah} />} />
+                  <Route path="/consulting/ndt-consulting-ruwais" element={<LazyRoute Component={NDTConsultingRuwais} />} />
+                  <Route path="/consulting/ndt-consulting-sharjah" element={<LazyRoute Component={NDTConsultingSharjah} />} />
+                  <Route path="/consulting/ndt-consulting-fujairah" element={<LazyRoute Component={NDTConsultingFujairah} />} />
+                  <Route path="/consulting/ndt-consulting-manama" element={<LazyRoute Component={NDTConsultingManama} />} />
+                  <Route path="/consulting/ndt-consulting-muscat" element={<LazyRoute Component={NDTConsultingMuscat} />} />
+                  <Route path="/consulting/ndt-consulting-sohar" element={<LazyRoute Component={NDTConsultingSohar} />} />
+                  <Route path="/consulting/ndt-consulting-duqm" element={<LazyRoute Component={NDTConsultingDuqm} />} />
+                  <Route path="/consulting/ndt-consulting-pune" element={<LazyRoute Component={NDTConsultingPune} />} />
+                  <Route path="/consulting/ndt-consulting-vadodara" element={<LazyRoute Component={NDTConsultingVadodara} />} />
+                  <Route path="/consulting/ndt-consulting-hyderabad" element={<LazyRoute Component={NDTConsultingHyderabad} />} />
+                  <Route path="/consulting/ndt-consulting-surat" element={<LazyRoute Component={NDTConsultingSurat} />} />
+                  <Route path="/consulting/ndt-consulting-baytown" element={<LazyRoute Component={NDTConsultingBaytown} />} />
+                  <Route path="/consulting/ndt-consulting-port-arthur" element={<LazyRoute Component={NDTConsultingPortArthur} />} />
+                  <Route path="/consulting/ndt-consulting-balikpapan" element={<LazyRoute Component={NDTConsultingBalikpapan} />} />
+                  <Route path="/consulting/ndt-consulting-fort-mcmurray" element={<LazyRoute Component={NDTConsultingFortMcmurray} />} />
+                  {/* === /Consulting expansion 2026-05-24 === */}
+
                   {/* Resource Pages */}
                   <Route path="/resources" element={<LazyRoute Component={ResourcesDownloads} />} />
                   <Route path="/press" element={<LazyRoute Component={PressMedia} />} />
@@ -3971,6 +4111,58 @@ const App = () => (
                   <Route path="/ndt-erp-michigan" element={<LazyRoute Component={NDTErp_michigan} />} />
                   <Route path="/ndt-erp-colorado" element={<LazyRoute Component={NDTErp_colorado} />} />
                   {/* === END Comparison + Industry + State expansion 2026-05-23 === */}
+                  {/* === ERP day-1 expansion 2026-05-24 === */}
+                  <Route path="/erp/crm-for-marine-survey-companies" element={<LazyRoute Component={CrmForMarineSurveyCompanies} />} />
+                  <Route path="/erp/crm-for-calibration-laboratories" element={<LazyRoute Component={CrmForCalibrationLaboratories} />} />
+                  <Route path="/erp/crm-for-aerospace-quality-control" element={<LazyRoute Component={CrmForAerospaceQualityControl} />} />
+                  <Route path="/erp/crm-for-environmental-testing-labs" element={<LazyRoute Component={CrmForEnvironmentalTestingLabs} />} />
+                  <Route path="/erp/cmms-for-pipeline-integrity-services" element={<LazyRoute Component={CmmsForPipelineIntegrityServices} />} />
+                  <Route path="/erp/cmms-for-welding-fabrication-shops" element={<LazyRoute Component={CmmsForWeldingFabricationShops} />} />
+                  <Route path="/erp/cmms-for-oilfield-services" element={<LazyRoute Component={CmmsForOilfieldServices} />} />
+                  <Route path="/erp/cmms-for-metrology-laboratories" element={<LazyRoute Component={CmmsForMetrologyLaboratories} />} />
+                  <Route path="/erp/inventory-management-for-pipeline-integrity-services" element={<LazyRoute Component={InventoryManagementForPipelineIntegrityServices} />} />
+                  <Route path="/erp/inventory-management-for-welding-fabrication-shops" element={<LazyRoute Component={InventoryManagementForWeldingFabricationShops} />} />
+                  <Route path="/erp/inventory-management-for-environmental-testing-labs" element={<LazyRoute Component={InventoryManagementForEnvironmentalTestingLabs} />} />
+                  <Route path="/erp/project-management-for-aerospace-quality-control" element={<LazyRoute Component={ProjectManagementForAerospaceQualityControl} />} />
+                  <Route path="/erp/project-management-for-calibration-laboratories" element={<LazyRoute Component={ProjectManagementForCalibrationLaboratories} />} />
+                  <Route path="/erp/project-management-for-marine-survey-companies" element={<LazyRoute Component={ProjectManagementForMarineSurveyCompanies} />} />
+                  <Route path="/erp/quality-management-for-pipeline-integrity-services" element={<LazyRoute Component={QualityManagementForPipelineIntegrityServices} />} />
+                  <Route path="/erp/quality-management-for-calibration-laboratories" element={<LazyRoute Component={QualityManagementForCalibrationLaboratories} />} />
+                  <Route path="/erp/quality-management-for-aerospace-quality-control" element={<LazyRoute Component={QualityManagementForAerospaceQualityControl} />} />
+                  <Route path="/erp/quality-management-for-marine-survey-companies" element={<LazyRoute Component={QualityManagementForMarineSurveyCompanies} />} />
+                  <Route path="/erp/document-control-for-pipeline-integrity-services" element={<LazyRoute Component={DocumentControlForPipelineIntegrityServices} />} />
+                  <Route path="/erp/document-control-for-calibration-laboratories" element={<LazyRoute Component={DocumentControlForCalibrationLaboratories} />} />
+                  <Route path="/erp/document-control-for-aerospace-quality-control" element={<LazyRoute Component={DocumentControlForAerospaceQualityControl} />} />
+                  <Route path="/erp/audit-management-for-pipeline-integrity-services" element={<LazyRoute Component={AuditManagementForPipelineIntegrityServices} />} />
+                  <Route path="/erp/audit-management-for-calibration-laboratories" element={<LazyRoute Component={AuditManagementForCalibrationLaboratories} />} />
+                  <Route path="/erp/certification-tracking-for-pipeline-integrity-services" element={<LazyRoute Component={CertificationTrackingForPipelineIntegrityServices} />} />
+                  <Route path="/erp/certification-tracking-for-welding-fabrication-shops" element={<LazyRoute Component={CertificationTrackingForWeldingFabricationShops} />} />
+                  <Route path="/erp/certification-tracking-for-aerospace-quality-control" element={<LazyRoute Component={CertificationTrackingForAerospaceQualityControl} />} />
+                  <Route path="/erp/hr-payroll-for-pipeline-integrity-services" element={<LazyRoute Component={HrPayrollForPipelineIntegrityServices} />} />
+                  <Route path="/erp/hr-payroll-for-welding-fabrication-shops" element={<LazyRoute Component={HrPayrollForWeldingFabricationShops} />} />
+                  <Route path="/erp/field-service-for-pipeline-integrity-services" element={<LazyRoute Component={FieldServiceForPipelineIntegrityServices} />} />
+                  <Route path="/erp/helpdesk-for-ndt-inspection-companies" element={<LazyRoute Component={HelpdeskForNdtInspectionCompanies} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-hyderabad" element={<LazyRoute Component={ErpCrmNdtHyderabad} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-chennai" element={<LazyRoute Component={ErpCrmNdtChennai} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-delhi" element={<LazyRoute Component={ErpCrmNdtDelhi} />} />
+                  <Route path="/erp/crm-ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpCrmNdtRiyadh} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-hyderabad" element={<LazyRoute Component={ErpCmmsNdtHyderabad} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-chennai" element={<LazyRoute Component={ErpCmmsNdtChennai} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-delhi" element={<LazyRoute Component={ErpCmmsNdtDelhi} />} />
+                  <Route path="/erp/cmms-ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpCmmsNdtRiyadh} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-hyderabad" element={<LazyRoute Component={ErpInventoryNdtHyderabad} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-chennai" element={<LazyRoute Component={ErpInventoryNdtChennai} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-delhi" element={<LazyRoute Component={ErpInventoryNdtDelhi} />} />
+                  <Route path="/erp/inventory-management-ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpInventoryNdtRiyadh} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-hyderabad" element={<LazyRoute Component={ErpAccountingNdtHyderabad} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-chennai" element={<LazyRoute Component={ErpAccountingNdtChennai} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-delhi" element={<LazyRoute Component={ErpAccountingNdtDelhi} />} />
+                  <Route path="/erp/accounting-ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpAccountingNdtRiyadh} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-hyderabad" element={<LazyRoute Component={ErpProjectMgmtNdtHyderabad} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-chennai" element={<LazyRoute Component={ErpProjectMgmtNdtChennai} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-delhi" element={<LazyRoute Component={ErpProjectMgmtNdtDelhi} />} />
+                  <Route path="/erp/project-management-ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpProjectMgmtNdtRiyadh} />} />
+                  {/* === END ERP day-1 expansion 2026-05-24 === */}
                   <Route path="/erp/crm-for-ndt-companies" element={<LazyRoute Component={CrmForNdtCompanies} />} />
                   <Route path="/erp/email-marketing-software-for-ndt" element={<LazyRoute Component={EmailMarketingSoftwareForNdt} />} />
                   <Route path="/erp/marketing-automation-for-ndt-companies" element={<LazyRoute Component={MarketingAutomationForNdtCompanies} />} />
@@ -4447,6 +4639,23 @@ const App = () => (
                   <Route path="/ndt-training-oman" element={<LazyRoute Component={NDTTrainingOman} />} />
                   <Route path="/ndt-training-nigeria" element={<LazyRoute Component={NDTTrainingNigeria} />} />
                   <Route path="/ndt-training-mexico" element={<LazyRoute Component={NDTTrainingMexico} />} />
+                  {/* === Training expansion 2026-05-24 === */}
+                  <Route path="/ndt-training-baytown" element={<LazyRoute Component={NDTTrainingBaytown} />} />
+                  <Route path="/ndt-training-galveston" element={<LazyRoute Component={NDTTrainingGalveston} />} />
+                  <Route path="/ndt-training-odessa" element={<LazyRoute Component={NDTTrainingOdessa} />} />
+                  <Route path="/ndt-training-port-arthur" element={<LazyRoute Component={NDTTrainingPortArthur} />} />
+                  <Route path="/ndt-training-pasadena-texas" element={<LazyRoute Component={NDTTrainingPasadenaTexas} />} />
+                  <Route path="/ndt-training-deer-park" element={<LazyRoute Component={NDTTrainingDeerPark} />} />
+                  <Route path="/ndt-training-sugar-land" element={<LazyRoute Component={NDTTrainingSugarLand} />} />
+                  <Route path="/ndt-training-jebel-ali" element={<LazyRoute Component={NDTTrainingJebelAli} />} />
+                  <Route path="/ndt-training-fujairah" element={<LazyRoute Component={NDTTrainingFujairah} />} />
+                  <Route path="/ndt-training-pune" element={<LazyRoute Component={NDTTrainingPune} />} />
+                  <Route path="/ndt-training-vadodara" element={<LazyRoute Component={NDTTrainingVadodara} />} />
+                  <Route path="/ndt-training-surat" element={<LazyRoute Component={NDTTrainingSurat} />} />
+                  <Route path="/ndt-training-huntsville" element={<LazyRoute Component={NDTTrainingHuntsville} />} />
+                  <Route path="/ndt-training-orlando" element={<LazyRoute Component={NDTTrainingOrlando} />} />
+                  <Route path="/ndt-training-norfolk" element={<LazyRoute Component={NDTTrainingNorfolk} />} />
+                  {/* === /Training expansion 2026-05-24 === */}
                   <Route path="/api-510-training" element={<LazyRoute Component={Api510Training} />} />
                   <Route path="/api-570-training" element={<LazyRoute Component={Api570Training} />} />
                   <Route path="/api-653-training" element={<LazyRoute Component={Api653Training} />} />
@@ -4532,6 +4741,24 @@ const App = () => (
                   <Route path="/digital-twins/pressure-vessel" element={<LazyRoute Component={DtUseCasePressureVessel} />} />
                   <Route path="/digital-twins/subsea" element={<LazyRoute Component={DtUseCaseSubsea} />} />
                   <Route path="/digital-twins/data-center" element={<LazyRoute Component={DtUseCaseDataCenter} />} />
+                  {/* === DT day-1 expansion 2026-05-24 === */}
+                  <Route path="/digital-twin-riyadh" element={<LazyRoute Component={DigitalTwinRiyadh} />} />
+                  <Route path="/digital-twin-pune" element={<LazyRoute Component={DigitalTwinPune} />} />
+                  <Route path="/digital-twin-vadodara" element={<LazyRoute Component={DigitalTwinVadodara} />} />
+                  <Route path="/digital-twin-surat" element={<LazyRoute Component={DigitalTwinSurat} />} />
+                  <Route path="/digital-twin-ras-tanura" element={<LazyRoute Component={DigitalTwinRasTanura} />} />
+                  <Route path="/digital-twin-ruwais" element={<LazyRoute Component={DigitalTwinRuwais} />} />
+                  <Route path="/digital-twin-jebel-ali" element={<LazyRoute Component={DigitalTwinJebelAli} />} />
+                  <Route path="/digital-twin-pengerang" element={<LazyRoute Component={DigitalTwinPengerang} />} />
+                  <Route path="/digital-twins/lng-terminal" element={<LazyRoute Component={DtUseCaseLngTerminal} />} />
+                  <Route path="/digital-twins/hydrogen-electrolyzer" element={<LazyRoute Component={DtUseCaseHydrogenElectrolyzer} />} />
+                  <Route path="/digital-twins/ammonia-plant" element={<LazyRoute Component={DtUseCaseAmmoniaPlant} />} />
+                  <Route path="/digital-twins/battery-storage" element={<LazyRoute Component={DtUseCaseBatteryStorage} />} />
+                  <Route path="/digital-twins/solar-farm" element={<LazyRoute Component={DtUseCaseSolarFarm} />} />
+                  <Route path="/compare/atlantis-dt-vs-cognite-data-fusion" element={<LazyRoute Component={CompareAtlantisDtVsCogniteDataFusion} />} />
+                  <Route path="/compare/atlantis-dt-vs-ptc-thingworx" element={<LazyRoute Component={CompareAtlantisDtVsPtcThingworx} />} />
+                  <Route path="/compare/atlantis-dt-vs-microsoft-azure-digital-twins" element={<LazyRoute Component={CompareAtlantisDtVsMicrosoftAzureDigitalTwins} />} />
+                  {/* === END DT day-1 expansion 2026-05-24 === */}
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>

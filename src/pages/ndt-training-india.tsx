@@ -224,8 +224,8 @@ export default function NDTTrainingIndia() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training India | ASNT & ISNT Certification Hyderabad | Atlantis NDT"
-                description="NDT training in India: ASNT SNT-TC-1A and ISNT Level I, II, III courses in Hyderabad, Mumbai, Chennai, Delhi. UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol."
+                title="NDT Training India 2026 — 95% Pass Rate, ASNT & ISNT Approved, 5 Day Course | Atlantis NDT"
+                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. INR 22,000 per student. 95% pass rate. 1,800+ Indian technicians trained. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, ISNT certification, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
                 canonical="https://atlantisndt.com/ndt-training-india"
                 structuredData={structuredData}

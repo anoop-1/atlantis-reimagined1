@@ -27,8 +27,10 @@ const SNAP_DIR = join(__dirname, '30day-tracker-snapshots');
 const URL_LIST = join(__dirname, 'indexing-url-list.json');
 const SITE = 'sc-domain:atlantisndt.com';
 const GOAL_START = '2026-05-23';
-const GOAL_CLICKS = 4000;
+// Updated 2026-05-24 — new goal is site-wide 30k clicks/month by 2026-06-22
+const GOAL_CLICKS = 30000;     // site-wide last 30d
 const GOAL_DAYS = 30;
+const GOAL_TARGET_DATE = '2026-06-22';
 
 if (!existsSync(SNAP_DIR)) mkdirSync(SNAP_DIR, { recursive: true });
 
@@ -60,6 +62,8 @@ function bucket(page) {
   const p = page.replace('https://atlantisndt.com', '');
   if (p === '/erp' || p.startsWith('/erp/') || p.startsWith('/ndt-erp-')) return 'erp';
   if (p.startsWith('/digital-twin')) return 'dt';
+  if (p.startsWith('/training') || p.startsWith('/ndt-training') || p === '/training' || p.includes('-training-') || p.includes('-certification')) return 'training';
+  if (p.startsWith('/consulting')) return 'consulting';
   return 'other';
 }
 
@@ -71,15 +75,21 @@ async function main() {
   const pageRes = await query(t, { ...r30, dimensions: ['page'], rowLimit: 25000, dataState: 'all' });
   const rows = pageRes.rows || [];
 
-  const sums = { all: { clicks: 0, imp: 0 }, erp: { clicks: 0, imp: 0 }, dt: { clicks: 0, imp: 0 } };
+  const sums = {
+    all: { clicks: 0, imp: 0 },
+    erp: { clicks: 0, imp: 0, pages: 0 },
+    dt: { clicks: 0, imp: 0, pages: 0 },
+    training: { clicks: 0, imp: 0, pages: 0 },
+    consulting: { clicks: 0, imp: 0, pages: 0 },
+    other: { clicks: 0, imp: 0, pages: 0 },
+  };
   for (const row of rows) {
     sums.all.clicks += row.clicks;
     sums.all.imp += row.impressions;
     const b = bucket(row.keys[0]);
-    if (b === 'erp' || b === 'dt') {
-      sums[b].clicks += row.clicks;
-      sums[b].imp += row.impressions;
-    }
+    sums[b].clicks += row.clicks;
+    sums[b].imp += row.impressions;
+    sums[b].pages += 1;
   }
 
   // New pages from indexing-url-list.json
@@ -101,8 +111,8 @@ async function main() {
   const erpDtImp = sums.erp.imp + sums.dt.imp;
   const daysSinceStart = Math.floor((Date.now() - new Date(GOAL_START).getTime()) / 86400000);
   const daysRemaining = Math.max(0, GOAL_DAYS - daysSinceStart);
-  const progress = erpDtClicks / GOAL_CLICKS;
-  const onPace = daysSinceStart > 0 ? (erpDtClicks / daysSinceStart) * GOAL_DAYS : 0;
+  const progress = sums.all.clicks / GOAL_CLICKS;
+  const onPace = daysSinceStart > 0 ? (sums.all.clicks / daysSinceStart) * GOAL_DAYS : 0;
 
   const snap = {
     date: new Date().toISOString().slice(0, 10),
@@ -130,14 +140,17 @@ async function main() {
 
   console.log('');
   console.log('═══════════════════════════════════════════════════════════════');
-  console.log(' 30-DAY ERP+DT TRACKER —', snap.date);
+  console.log(' 30-DAY SITE-WIDE TRACKER —', snap.date);
   console.log('═══════════════════════════════════════════════════════════════');
-  console.log(' Goal:', GOAL_CLICKS, 'ERP+DT clicks in 30 days from', GOAL_START);
+  console.log(' Goal:', GOAL_CLICKS, 'site-wide clicks in 30 days by', GOAL_TARGET_DATE);
   console.log(' Days since start:', daysSinceStart, '| Days remaining:', daysRemaining);
   console.log('');
   console.log(' Site-wide last 30d  : clicks=' + sums.all.clicks + ' imp=' + sums.all.imp);
-  console.log(' ERP section 30d     : clicks=' + sums.erp.clicks + ' imp=' + sums.erp.imp);
-  console.log(' DT section 30d      : clicks=' + sums.dt.clicks + ' imp=' + sums.dt.imp);
+  console.log(' Training section    : clicks=' + sums.training.clicks + ' imp=' + sums.training.imp + ' pages=' + sums.training.pages);
+  console.log(' Consulting section  : clicks=' + sums.consulting.clicks + ' imp=' + sums.consulting.imp + ' pages=' + sums.consulting.pages);
+  console.log(' ERP section         : clicks=' + sums.erp.clicks + ' imp=' + sums.erp.imp + ' pages=' + sums.erp.pages);
+  console.log(' DT section          : clicks=' + sums.dt.clicks + ' imp=' + sums.dt.imp + ' pages=' + sums.dt.pages);
+  console.log(' Other (blog/methods): clicks=' + sums.other.clicks + ' imp=' + sums.other.imp + ' pages=' + sums.other.pages);
   console.log(' ERP+DT combined     : clicks=' + erpDtClicks + ' imp=' + erpDtImp);
   console.log('');
   console.log(' New pages tracked   :', newUrls.size);
@@ -145,7 +158,7 @@ async function main() {
   console.log(' New pages clicks    :', newPagesClicks);
   console.log(' New pages imp       :', newPagesImp);
   console.log('');
-  console.log(' Progress vs goal    :', snap.progressVsGoal.pct + '%   (', erpDtClicks, '/', GOAL_CLICKS, ')');
+  console.log(' Progress vs goal    :', snap.progressVsGoal.pct + '%   (', sums.all.clicks, '/', GOAL_CLICKS, ')');
   console.log(' Projected at day 30 :', snap.progressVsGoal.projectedAt30d, 'clicks');
   console.log(' On-pace?            :', snap.progressVsGoal.projectedAt30d >= GOAL_CLICKS ? 'YES' : 'NO — accelerate');
 
