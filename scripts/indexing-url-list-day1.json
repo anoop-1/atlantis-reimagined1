@@ -1,0 +1,430 @@
+{
+  "generated": "2026-05-24T03:34:04.798Z",
+  "source": "Day 1 sprint 2026-05-24 — 4-segment 20% boost",
+  "urls": [
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-cognite-data-fusion",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-microsoft-azure-digital-twins",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-ptc-thingworx",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-balikpapan",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-baytown",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-duqm",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-fort-mcmurray",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-fujairah",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-hyderabad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-jebel-ali",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-khobar",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-manama",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-muscat",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-mussafah",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-port-arthur",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-pune",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-ras-tanura",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-ruwais",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-sharjah",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-sohar",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-surat",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/ndt-consulting-vadodara",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-jebel-ali",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-pengerang",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-pune",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-ras-tanura",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-ruwais",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-surat",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twin-vadodara",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/ammonia-plant",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/battery-storage",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/hydrogen-electrolyzer",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/lng-terminal",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/solar-farm",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-chennai",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-delhi",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-hyderabad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/audit-management-for-calibration-laboratories",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/audit-management-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/certification-tracking-for-aerospace-quality-control",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/certification-tracking-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/certification-tracking-for-welding-fabrication-shops",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-metrology-laboratories",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-oilfield-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-welding-fabrication-shops",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-chennai",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-delhi",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-hyderabad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-for-aerospace-quality-control",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-for-calibration-laboratories",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-for-environmental-testing-labs",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-for-marine-survey-companies",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-chennai",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-delhi",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-hyderabad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/document-control-for-aerospace-quality-control",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/document-control-for-calibration-laboratories",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/document-control-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-for-ndt-inspection-companies",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-for-welding-fabrication-shops",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-for-environmental-testing-labs",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-for-welding-fabrication-shops",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-chennai",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-delhi",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-hyderabad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-for-aerospace-quality-control",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-for-calibration-laboratories",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-for-marine-survey-companies",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-chennai",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-delhi",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-hyderabad",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-riyadh",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/quality-management-for-aerospace-quality-control",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/quality-management-for-calibration-laboratories",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/quality-management-for-marine-survey-companies",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/quality-management-for-pipeline-integrity-services",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-baytown",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-deer-park",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-dubai",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-fujairah",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-galveston",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-houston",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-huntsville",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-india",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-jebel-ali",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-norfolk",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-odessa",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-orlando",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-pasadena-texas",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-port-arthur",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-pune",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-saudi-arabia",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-singapore",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-sugar-land",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-surat",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-training-vadodara",
+      "tier": "A"
+    }
+  ]
+}
