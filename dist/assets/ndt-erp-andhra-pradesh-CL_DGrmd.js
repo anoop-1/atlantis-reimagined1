@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Dg2DQ--s.js";import{E as t}from"./ErpLocationPage-Dt7s-uLb.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function d(){return r.jsx(t,{city:"Andhra Pradesh",country:"India",slug:"ndt-erp-andhra-pradesh"})}export{d as default};

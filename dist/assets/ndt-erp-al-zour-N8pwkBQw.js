@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Dg2DQ--s.js";import{E as o}from"./ErpLocationPage-Dt7s-uLb.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function n(){return r.jsx(o,{city:"Al Zour",country:"Kuwait",slug:"ndt-erp-al-zour"})}export{n as default};

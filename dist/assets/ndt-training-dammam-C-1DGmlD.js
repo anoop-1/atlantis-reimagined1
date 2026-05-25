@@ -1,1 +1,0 @@
-import{j as r}from"./compare-pages-C1d7etmC.js";import{g as t,T as a}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function s(){const i=t("dammam");return i?r.jsx(a,{profile:i}):null}export{s as default};

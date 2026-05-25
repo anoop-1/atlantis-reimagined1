@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Dg2DQ--s.js";import{g as t,T as n}from"./TrainingLocationPage-BoYFOpwF.js";import"./RelatedProducts-A6WMnPre.js";import"./erp-pages-4sre8qMy.js";function m(){const i=t("muscat");return i?r.jsx(n,{profile:i}):null}export{m as default};

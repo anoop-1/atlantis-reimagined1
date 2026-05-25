@@ -1,1 +1,0 @@
-import{j as t}from"./compare-pages-C1d7etmC.js";import{D as r}from"./DigitalTwinLocationPage-mFnkvcfO.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function u(){return t.jsx(r,{city:"Port Arthur",country:"USA",slug:"digital-twin-port-arthur"})}export{u as default};

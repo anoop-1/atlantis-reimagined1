@@ -1,1 +1,0 @@
-import{j as o}from"./compare-pages-C1d7etmC.js";import{C as t}from"./ConsultingLocationPage-BaZB4cLc.js";import"./PillarHubNav-4Fa_GMYz.js";import"./programmatic-seo-CmWZtb0f.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function p(){return o.jsx(t,{locationSlug:"sacramento"})}export{p as default};

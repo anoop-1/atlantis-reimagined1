@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Dg2DQ--s.js";import{C as t}from"./ConsultingLocationPage-Bcl0Emb6.js";import"./PillarHubNav-CS8cPNvD.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function m(){return o.jsx(t,{locationSlug:"odessa-texas"})}export{m as default};

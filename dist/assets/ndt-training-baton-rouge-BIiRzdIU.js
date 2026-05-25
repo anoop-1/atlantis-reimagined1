@@ -1,1 +1,0 @@
-import{j as r}from"./compare-pages-C1d7etmC.js";import{g as i,T as t}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function s(){const o=i("baton-rouge");return o?r.jsx(t,{profile:o}):null}export{s as default};

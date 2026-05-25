@@ -1,1 +1,0 @@
-import{j as o}from"./compare-pages-C1d7etmC.js";import{D as t}from"./DigitalTwinLocationPage-mFnkvcfO.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function p(){return o.jsx(t,{city:"Bogotá",country:"Colombia",slug:"digital-twin-bogota"})}export{p as default};

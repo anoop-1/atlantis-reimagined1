@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Dg2DQ--s.js";import{R as i}from"./ReportingLocationPage-CbvWvlc5.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function s(){return o.jsx(i,{city:"Minneapolis",country:"USA",slug:"ndt-reporting-minneapolis"})}export{s as default};

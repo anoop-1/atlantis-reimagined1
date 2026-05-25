@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Dg2DQ--s.js";import{D as a}from"./DigitalTwinLocationPage-ZqeE13w3.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function l(){return i.jsx(a,{city:"Ras Al Khaimah",country:"UAE",slug:"digital-twin-ras-al-khaimah"})}export{l as default};

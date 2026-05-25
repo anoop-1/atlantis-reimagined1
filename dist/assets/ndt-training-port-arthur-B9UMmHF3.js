@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Dg2DQ--s.js";import{g as i,T as o}from"./TrainingLocationPage-BoYFOpwF.js";import"./RelatedProducts-A6WMnPre.js";import"./erp-pages-4sre8qMy.js";function s(){const r=i("port-arthur");return r?t.jsx(o,{profile:r}):null}export{s as default};

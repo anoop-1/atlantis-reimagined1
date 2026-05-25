@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Dg2DQ--s.js";import{D as a}from"./DigitalTwinLocationPage-ZqeE13w3.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function p(){return i.jsx(a,{city:"Jamnagar",country:"India",slug:"digital-twin-jamnagar"})}export{p as default};

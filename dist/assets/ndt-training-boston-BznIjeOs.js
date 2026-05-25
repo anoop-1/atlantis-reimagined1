@@ -1,1 +1,0 @@
-import{j as i}from"./compare-pages-C1d7etmC.js";import{g as r,T as t}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function f(){const o=r("boston");return o?i.jsx(t,{profile:o}):null}export{f as default};

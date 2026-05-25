@@ -1,1 +1,0 @@
-import{j as a}from"./compare-pages-C1d7etmC.js";import{E as r}from"./ErpLocationPage-DcBT4Vpb.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function n(){return a.jsx(r,{city:"Malaysia",country:"Malaysia",slug:"ndt-erp-malaysia"})}export{n as default};

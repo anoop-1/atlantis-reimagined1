@@ -1,1 +1,0 @@
-import{j as n}from"./compare-pages-C1d7etmC.js";import{g as r,T as t}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function g(){const i=r("washington-dc");return i?n.jsx(t,{profile:i}):null}export{g as default};

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Dg2DQ--s.js";import{E as o}from"./ErpLocationPage-Dt7s-uLb.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function a(){return r.jsx(o,{city:"Buenos Aires",country:"Argentina",slug:"ndt-erp-buenos-aires"})}export{a as default};

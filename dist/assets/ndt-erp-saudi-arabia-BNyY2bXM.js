@@ -1,1 +1,0 @@
-import{j as r}from"./compare-pages-C1d7etmC.js";import{E as a}from"./ErpLocationPage-DcBT4Vpb.js";import"./PillarHubNav-4Fa_GMYz.js";import"./badge-Cm4itCyF.js";import"./erp-pages-C6o15K_z.js";import"./RelatedProducts-BB-PbHxv.js";function s(){return r.jsx(a,{city:"Saudi Arabia",country:"Saudi Arabia",slug:"ndt-erp-saudi-arabia"})}export{s as default};

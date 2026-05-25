@@ -1,1 +1,0 @@
-import{j as i}from"./compare-pages-C1d7etmC.js";import{g as t,T as o}from"./TrainingLocationPage-B__cI0Um.js";import"./RelatedProducts-BB-PbHxv.js";import"./erp-pages-C6o15K_z.js";function f(){const r=t("fort-mcmurray");return r?i.jsx(o,{profile:r}):null}export{f as default};

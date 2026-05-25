@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Dg2DQ--s.js";import{g as n,T as t}from"./TrainingLocationPage-BoYFOpwF.js";import"./RelatedProducts-A6WMnPre.js";import"./erp-pages-4sre8qMy.js";function u(){const i=n("yanbu");return i?r.jsx(t,{profile:i}):null}export{u as default};

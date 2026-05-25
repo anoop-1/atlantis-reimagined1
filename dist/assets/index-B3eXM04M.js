@@ -1,1 +1,0 @@
-import{a as u,E as a}from"./compare-pages-C1d7etmC.js";import{d as e}from"./index-bkQjuscz.js";var i=a[" useId ".trim().toString()]||(()=>{}),n=0;function d(s){const[o,r]=u.useState(i());return e(()=>{r(t=>t!=null?t:String(n++))},[s]),o?`radix-${o}`:""}export{d as u};
