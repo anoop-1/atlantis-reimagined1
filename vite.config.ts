@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
       },
    },
    build: {
-      target: "es2015", // <-- transpile modern JS down for Puppeteer
+      target: "es2020", // es2020 supports BigInt literals (required by @splinetool/runtime wasm loader)
       chunkSizeWarningLimit: 600,
       // NOTE: do NOT split react / react-dom into separate manual chunks.
       // react-dom relies on react's internal `__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED`
