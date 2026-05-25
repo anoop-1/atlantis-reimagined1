@@ -98,6 +98,7 @@ const Training = lazy(() => import("./pages/Training"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
+const DigitalTwinsExperience = lazy(() => import("./pages/DigitalTwinsExperience"));
 const Erp = lazy(() => import("./pages/Erp"));
 const NDTConnect = lazy(() => import("./pages/NDTConnect"));
 const BlogPage = lazy(() => import("./pages/Blog"));
@@ -2554,6 +2555,10 @@ const App = () => (
                   <Route
                      path="/digital-twins"
                      element={<DigitalTwins />}
+                  />
+                  <Route
+                     path="/digital-twins-experience"
+                     element={<DigitalTwinsExperience />}
                   />
                   <Route path="/erp" element={<Erp />} />
                   <Route path="/ndt-connect" element={<NDTConnect />} />

@@ -67,6 +67,7 @@ export default {
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'bounce-slow': 'bounce 2s infinite',
         'spin-slow': 'spin 3s linear infinite',
+        'spotlight': 'spotlight 2s ease .75s 1 forwards',
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -89,6 +90,10 @@ export default {
         float: {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-10px)' },
+        },
+        spotlight: {
+          '0%': { opacity: '0', transform: 'translate(-72%, -62%) scale(0.5)' },
+          '100%': { opacity: '1', transform: 'translate(-50%,-40%) scale(1)' },
         },
         "fade-in": {
           from: { opacity: "0", transform: "translateY(20px)" },
