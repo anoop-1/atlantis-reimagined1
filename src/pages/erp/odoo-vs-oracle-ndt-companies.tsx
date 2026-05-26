@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS = [
   {
     question: "What does Oracle Fusion Cloud ERP actually cost an NDT inspection company in 2026?",
-    answer: "Oracle Fusion Cloud ERP (the rebrand of Oracle ERP Cloud / Oracle Cloud Applications) for a 50-user mid-market services firm: $800-$1,800/user/month for the standard Cloud ERP + Cloud SCM + Cloud HCM bundle that an inspection contractor typically needs — approximately $480K-$1.08M/year in licenses. Implementation by a tier-1 Oracle Cloud SI (Accenture, Deloitte, PwC, Infosys, Cognizant): $300K-$800K depending on scope. Five-year customization, integration and support: $200K-$450K. Total 5-year TCO for a 50-user mid-market NDT contractor: $3.1M-$6.4M. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) at flat $18,000/year totals $90K over 5 years. Oracle Fusion is roughly 35-70× more expensive for the same mid-market scope.",
+    answer: "Oracle Fusion Cloud ERP (the rebrand of Oracle ERP Cloud / Oracle Cloud Applications) for a 50-user mid-market services firm: $800-$1,800/user/month for the standard Cloud ERP + Cloud SCM + Cloud HCM bundle that an inspection contractor typically needs — approximately $480K-$1.08M/year in licenses. Implementation by a tier-1 Oracle Cloud SI (Accenture, Deloitte, PwC, Infosys, Cognizant): $300K-$800K depending on scope. Five-year customization, integration and support: $200K-$450K. Total 5-year TCO for a 50-user mid-market NDT contractor: $3.1M-$6.4M. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) at flat regional pricing totals $90K over 5 years. Oracle Fusion is roughly 35-70× more expensive for the same mid-market scope.",
   },
   {
     question: "Why is Oracle Fusion Cloud different from Oracle E-Business Suite (EBS)?",
@@ -101,7 +101,7 @@ export default function OdooVsOracleNdtCompanies() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
         title="Atlantis NDT (Odoo) vs Oracle Fusion Cloud ERP for NDT Companies — $18K vs $480K+ | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, $18K/yr flat) vs Oracle Fusion Cloud ERP ($480K-$1.08M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when Oracle Fusion genuinely wins."
+        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, regionally priced) vs Oracle Fusion Cloud ERP ($480K-$1.08M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when Oracle Fusion genuinely wins."
         canonical="/erp/odoo-vs-oracle-ndt-companies"
         faq={FAQS}
         article={{
@@ -121,12 +121,12 @@ export default function OdooVsOracleNdtCompanies() {
             Atlantis NDT (Odoo) vs Oracle Fusion Cloud ERP — $18K vs $180K-$1.08M+
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat $18,000/year) against <span className="text-red-400 font-semibold">Oracle Fusion Cloud ERP</span> — the modern Oracle SaaS ERP that replaces Oracle E-Business Suite. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where Oracle Fusion genuinely wins.
+            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat regional pricing) against <span className="text-red-400 font-semibold">Oracle Fusion Cloud ERP</span> — the modern Oracle SaaS ERP that replaces Oracle E-Business Suite. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where Oracle Fusion genuinely wins.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">$18,000 / year flat</span>
+              <span className="font-semibold">regional pricing</span>
               <span className="text-emerald-200/70 text-sm">Atlantis NDT ERP</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 rounded-lg px-4 py-2 text-red-300">
@@ -206,7 +206,7 @@ export default function OdooVsOracleNdtCompanies() {
               <p className="text-4xl font-bold text-white mb-4">$90,000</p>
               <p className="text-sm text-emerald-200 mb-4">over 5 years, flat</p>
               <ul className="space-y-2 text-slate-200 text-sm">
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: $18,000/year flat — all apps included</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: regional pricing — contact us — all apps included</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Implementation: $15K-$45K one-off</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Customization: $10K-$30K (NDT overlay pre-built)</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Support + upgrades: included</li>

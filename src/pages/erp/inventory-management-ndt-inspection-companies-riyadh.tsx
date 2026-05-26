@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is Inventory configured for NDT inspection companies operating in Riyadh?", "Yes. The Inventory module is pre-loaded with Aramco SAEP-1107 approved-consumable lists, SAEP-1112 personnel qualifications linked to consumable use, NACE MR0175 sour-service certification, and NRRC e-licensing integration."],
     ["Which Saudi regulators does Inventory align with?", "The compliance dashboard maps to SASO, NRRC, Saudi Accreditation Center (SAC). Aramco's internal regulatory pillars (SAEP-1107, SAEP-1112, SAEP-1119, SACS-002) are also encoded as primary frameworks."],
     ["Can Riyadh NDT inspection companies integrate Inventory with Aramco APQS/VQIP?", "Yes. The platform supports direct consumable-certificate evidence-pack export to Aramco APQS and VQIP. Aramco SAEP-1107 specification revisions automatically flag affected consumable procurement procedures."],
-    ["What does Inventory cost for an NDT inspection company in Riyadh?", "Inventory is bundled inside the standard $18,000 / year (approximately SAR 67,500) Atlantis NDT ERP subscription. Invoicing is supported in SAR or USD with daily FX update."],
+    ["What does Inventory cost for an NDT inspection company in Riyadh?", "Inventory is bundled inside the standard regionally priced (contact us; approximately SAR 67,500) Atlantis NDT ERP subscription. Invoicing is supported in SAR or USD with daily FX update."],
     ["Does Inventory support NRRC radiography source licensing?", "Yes. NRRC (Nuclear and Radiological Regulatory Commission) e-licensing integration, source-pit licensing, ALARA dose record management, radiographer-card tracking, and source-leak-test certificates are all integrated."]
   ]
 } as ErpTripleCrossProps;

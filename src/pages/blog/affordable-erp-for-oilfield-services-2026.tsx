@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
 const faqs = [
-  { question: "What is the most affordable ERP for oilfield-services companies in 2026?", answer: "For oilfield-services (OFS) companies (1-200 staff providing well services, completions, intervention, slickline / e-line / coiled tubing, hydraulic fracturing, cementing, directional drilling, wireline logging, downhole tools, frac rentals), the realistic 2026 affordable-ERP shortlist is: (1) Atlantis NDT ERP — flat USD $18,000/year all-in; (2) Quorum Energy Components — $80-220K/year + implementation $80-200K; (3) Enverus PRISM (formerly Drillinginfo) — $60-180K/year; (4) Peloton WellView / SiteView — $40-150K/year + implementation; (5) P2 Energy Solutions BOLO / Excalibur — $50-200K/year; (6) Halliburton DecisionSpace / Schlumberger DELFI — operator-side, not OFS-vendor-side. Atlantis NDT differentiator: native ASNT / IADC / OPITO / NORSOK / Wellsite Quality Control workflow integration, plus operator-side OFS vendor portal integration (Halliburton vendor portal, Schlumberger SLB Connect, Baker Hughes BHG vendor portal, Saudi Aramco APQS / VQIP, ADNOC Tejari)." },
+  { question: "What is the most affordable ERP for oilfield-services companies in 2026?", answer: "For oilfield-services (OFS) companies (1-200 staff providing well services, completions, intervention, slickline / e-line / coiled tubing, hydraulic fracturing, cementing, directional drilling, wireline logging, downhole tools, frac rentals), the realistic 2026 affordable-ERP shortlist is: (1) Atlantis NDT ERP — regionally priced, all-in; (2) Quorum Energy Components — $80-220K/year + implementation $80-200K; (3) Enverus PRISM (formerly Drillinginfo) — $60-180K/year; (4) Peloton WellView / SiteView — $40-150K/year + implementation; (5) P2 Energy Solutions BOLO / Excalibur — $50-200K/year; (6) Halliburton DecisionSpace / Schlumberger DELFI — operator-side, not OFS-vendor-side. Atlantis NDT differentiator: native ASNT / IADC / OPITO / NORSOK / Wellsite Quality Control workflow integration, plus operator-side OFS vendor portal integration (Halliburton vendor portal, Schlumberger SLB Connect, Baker Hughes BHG vendor portal, Saudi Aramco APQS / VQIP, ADNOC Tejari)." },
   { question: "Does the ERP support IADC / OPITO / Wellsite QC standards?", answer: "Yes. IADC (International Association of Drilling Contractors) RIG PASS / WellCAP / Stuck Pipe Prevention training records, OPITO (Offshore Petroleum Industry Training Organization) BOSIET / FOET / MIST / HUET / Compressed Air Emergency Breathing System (CA-EBS) currency, NORSOK D-010 (Well Integrity), API Spec Q1 / Q2 / Spec 4F / 5CT / 6A / 7-1 / 7-2 / 11D1 quality-management, and Wellsite QC (third-party-witness inspection of cement jobs, casing-running, BOP function-tests, downhole-tool dimensional inspection) are all pre-configured workflows." },
   { question: "How does the ERP handle well-services billing (rig day rates, T&M, lump sum, performance)?", answer: "Yes. Well-services billing patterns — rig day-rate (operating / standby / move / waiting-on-weather / waiting-on-orders / inactive day rates per the rig contract), tool day-rate, tonne-hour fracking billing, footage-based directional billing, time-and-materials, lump sum, performance-based (% of well-productivity gain) — are all supported with parallel billing per contract. Per-well cost capture flows through to project-profitability and contract-profitability reporting." },
   { question: "Can the ERP integrate with Halliburton, Schlumberger, Baker Hughes operator portals?", answer: "Yes. Bidirectional integration with major operator-side OFS vendor portals: Halliburton vendor portal, Schlumberger SLB Connect, Baker Hughes BHG vendor portal, Weatherford vendor portal, Saudi Aramco APQS / VQIP (for OFS vendors), ADNOC Tejari, KOC vendor portal, PDO CIMS, NOC Libya vendor portal, Petrobras vendor portal. Pre-mob qualification evidence-pack export is single-click for each operator." },
@@ -24,7 +24,7 @@ export default function AffordableERPForOilfieldServices2026() {
       <Navigation />
       <SEOHead
         title="Affordable ERP for Oilfield Services Companies 2026"
-        description="Affordable ERP for oilfield services 2026. Atlantis NDT ERP $18K/yr vs Quorum / Enverus / Peloton / P2 Energy 5-yr TCO. IADC / OPITO / NORSOK / API Q1/Q2, Halliburton / SLB / BHG portal integration."
+        description="Affordable ERP for oilfield services 2026. Atlantis NDT ERP regional pricing vs Quorum / Enverus / Peloton / P2 Energy 5-yr TCO. IADC / OPITO / NORSOK / API Q1/Q2, Halliburton / SLB / BHG portal integration."
         keywords="affordable erp oilfield services, ofs erp software 2026, quorum energy components alternative, peloton wellview alternative, well services erp, drilling services erp"
         canonical="https://atlantisndt.com/blog/affordable-erp-for-oilfield-services-2026"
         article={{ headline: "Affordable ERP for Oilfield Services Companies 2026", datePublished: "2026-05-24", author: "Atlantis NDT Editorial Team", section: "ERP Buyer Guides" }}
@@ -37,14 +37,14 @@ export default function AffordableERPForOilfieldServices2026() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="text-stone-200 mb-4">Oilfield Services ERP Buyer Guide • May 2026 • 12 min read</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Affordable ERP for Oilfield Services Companies 2026</h1>
-            <p className="text-xl text-stone-100 mb-8">An honest 2026 ERP comparison for oilfield-services companies — well services, completions, intervention, frac, cementing, directional drilling, wireline logging, downhole tools, frac rentals. Atlantis NDT ERP $18K/yr flat vs Quorum, Enverus PRISM, Peloton WellView, P2 Energy. IADC / OPITO / NORSOK D-010 / API Q1/Q2 native, Halliburton / SLB / BHG / Aramco APQS / ADNOC Tejari portal integration.</p>
+            <p className="text-xl text-stone-100 mb-8">An honest 2026 ERP comparison for oilfield-services companies — well services, completions, intervention, frac, cementing, directional drilling, wireline logging, downhole tools, frac rentals. Atlantis NDT ERP regional pricing flat vs Quorum, Enverus PRISM, Peloton WellView, P2 Energy. IADC / OPITO / NORSOK D-010 / API Q1/Q2 native, Halliburton / SLB / BHG / Aramco APQS / ADNOC Tejari portal integration.</p>
           </motion.div>
         </div>
       </section>
 
       <div className="py-6 bg-white border-b">
         <div className="container mx-auto max-w-4xl px-6">
-          <SocialShare title="Affordable ERP for Oilfield Services Companies 2026" description="$18K/yr flat OFS ERP." />
+          <SocialShare title="Affordable ERP for Oilfield Services Companies 2026" description="regional pricing flat OFS ERP." />
         </div>
       </div>
 

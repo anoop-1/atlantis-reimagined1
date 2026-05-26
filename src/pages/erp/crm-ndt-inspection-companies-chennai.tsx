@@ -76,7 +76,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "What does CRM cost for an NDT inspection company in Chennai?",
-      "CRM is bundled inside the standard $18,000 / year (approximately INR 15 lakh) Atlantis NDT ERP subscription — there is no per-module licence fee. Invoicing is supported in INR or USD with daily FX update."
+      "CRM is bundled inside the standard regionally priced (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription — there is no per-module licence fee. Invoicing is supported in INR or USD with daily FX update."
     ],
     [
       "Does CRM support nuclear-grade BARC / AERB qualifications for Kalpakkam supplier work?",

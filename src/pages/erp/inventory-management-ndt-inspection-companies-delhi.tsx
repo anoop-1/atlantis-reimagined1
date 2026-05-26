@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is Inventory configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The Inventory module is pre-loaded with IOCL, EIL, BHEL, GAIL approved-consumable lists, AERB radiography source register requirements, and PESO statutory consumable certificate requirements."],
     ["Which Delhi regulators does Inventory align with?", "The compliance dashboard maps to PESO, OISD, AERB, BIS, CPCB, DPCC. Statutory consumable certificate generation, shelf-life enforcement, and audit-ready evidence-pack assembly are built around these authorities."],
     ["Can Delhi NDT inspection companies integrate Inventory with EIL portal?", "Yes. The platform supports vendor-portal flow with IOCL, GAIL, ONGC, Engineers India Limited (EIL), BHEL Haridwar, NTPC. Operator-specific consumable approvals are imported as controlled documents."],
-    ["What does Inventory cost for an NDT inspection company in Delhi?", "Inventory is bundled inside the standard $18,000 / year (approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
+    ["What does Inventory cost for an NDT inspection company in Delhi?", "Inventory is bundled inside the standard regionally priced (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
     ["Does Inventory support multi-state mobilization consumable tracking?", "Yes. Multi-state mobilization paperwork for consumables (UP, Haryana, Uttarakhand, NCR) is automated, including state-specific GST handling, e-way bill generation, and consumable-batch chain-of-custody preservation across state borders."]
   ]
 } as ErpTripleCrossProps;

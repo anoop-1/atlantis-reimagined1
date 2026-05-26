@@ -9,7 +9,7 @@ export default function ProjectManagementErpForMalaysia() {
       industry="Malaysia inspection projects and turnarounds"
       breadcrumbLabel="Project Management for Malaysia"
       trustBadge="DOSH / AELB / PETRONAS PTS / SIRIM ready"
-      metaDescription="Atlantis NDT ERP Project Management for Malaysia — PETRONAS / MLNG / RAPID turnaround scheduling, DOSH PMA per inspector, JKKP Form JKKP-G per project, bilingual Bahasa Melayu/English. Flat $18,000/yr (RM 84,000)."
+      metaDescription="Atlantis NDT ERP Project Management for Malaysia — PETRONAS / MLNG / RAPID turnaround scheduling, DOSH PMA per inspector, JKKP Form JKKP-G per project, bilingual Bahasa Melayu/English. Flat regional pricing."
       heroBody="Atlantis NDT ERP Project Management pre-configured for Malaysian inspection projects — PETRONAS / MLNG / RAPID turnaround scheduling, DOSH PMA inspector mobilization, JKKP Form JKKP-G statutory submission per project, and bilingual Bahasa Melayu/English UI. Flat RM 84,000 / $18,000 per year."
       whatItIs={[
         "Project Management ERP for Malaysia tracks every inspection project from RFQ through final-invoice closure with structured fields for PETRONAS Technical Standards (PTS) inspector qualification, DOSH PMA grade, AELB Class A/B/C radiography licensing, JKKP Form JKKP-G submission status, and SIRIM QAS ISO 17020/17025 accreditation currency. Project templates pre-load PETRONAS Carigali offshore-platform inspection, MLNG Bintulu Train 1-9 turnaround events, RAPID PRefChem petrochemical major-maintenance, Sarawak Petchem methanol / olefins plant shutdowns, Kerteh integrated petrochemical hub shutdowns, Melaka refinery turnarounds, and Penang aerospace MRO supplier projects.",

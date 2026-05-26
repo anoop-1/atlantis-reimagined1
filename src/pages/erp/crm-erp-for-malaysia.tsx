@@ -9,7 +9,7 @@ export default function CrmErpForMalaysia() {
       industry="Malaysia inspection and engineering services"
       breadcrumbLabel="CRM ERP for Malaysia"
       trustBadge="DOSH / AELB / PETRONAS PTS / SIRIM ready"
-      metaDescription="Atlantis NDT ERP CRM for Malaysia — DOSH PMA certification, AELB radiography licensing, PETRONAS PTS standards, SIRIM QAS accreditation, MyInvois e-invoice. Flat $18,000/yr (RM 84,000)."
+      metaDescription="Atlantis NDT ERP CRM for Malaysia — DOSH PMA certification, AELB radiography licensing, PETRONAS PTS standards, SIRIM QAS accreditation, MyInvois e-invoice. Flat regional pricing."
       heroBody="Atlantis NDT ERP CRM pre-configured for Malaysian inspection firms — DOSH (Department of Occupational Safety and Health) PMA certification tracking, AELB (Atomic Energy Licensing Board) radiography licensing, PETRONAS Technical Standards (PTS) awareness, SIRIM QAS accreditation, and MyInvois e-invoicing. Flat RM 84,000 / $18,000 per year."
       whatItIs={[
         "CRM ERP for Malaysia inside Atlantis NDT ERP is pre-configured for the Malaysian inspection-services market. Every opportunity carries structured fields for PETRONAS Carigali / PCSB / Pengerang / MLNG Bintulu / Refinery and Petrochemical Integrated Development (RAPID) project counterparty, DOSH PMA (Person-in-Charge / Pressure Vessel) certification status, AELB Class A/B/C industrial-radiography licence number, SIRIM QAS ISO 17020/17025 accreditation currency, and PETRONAS Technical Standards (PTS) qualification mapping.",

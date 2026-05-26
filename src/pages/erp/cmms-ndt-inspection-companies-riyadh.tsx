@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is CMMS configured for NDT inspection companies operating in Riyadh?", "Yes. The CMMS module is pre-loaded with codes and operator flow-downs that Riyadh NDT inspection companies work with daily: Aramco SAEP-1112, SAEP-1119, SACS-002, API 510/570/653, ASME B31.3, plus operator-specific quality clauses from Aramco, SABIC, Ma'aden, NEOM, SPARK."],
     ["Which Saudi regulators does CMMS align with?", "The compliance dashboard maps to SASO, NRRC, Saudi Accreditation Center (SAC), Ministry of Energy, GAMEP. Aramco's internal regulatory pillars (SAEP-1112, SAEP-1119, SACS-002) are also encoded as primary frameworks."],
     ["Can Riyadh NDT inspection companies integrate CMMS with Aramco APQS/VQIP?", "Yes. The platform supports direct evidence-pack export to Aramco APQS and VQIP. Aramco specification revisions automatically flag affected equipment-maintenance procedures."],
-    ["What does CMMS cost for an NDT inspection company in Riyadh?", "CMMS is bundled inside the standard $18,000 / year (approximately SAR 67,500) Atlantis NDT ERP subscription. Invoicing is supported in SAR or USD with daily FX update."],
+    ["What does CMMS cost for an NDT inspection company in Riyadh?", "CMMS is bundled inside the standard regionally priced (contact us; approximately SAR 67,500) Atlantis NDT ERP subscription. Invoicing is supported in SAR or USD with daily FX update."],
     ["Does CMMS support NRRC radiography source licensing?", "Yes. NRRC (Nuclear and Radiological Regulatory Commission) e-licensing integration, source-pit licensing, ALARA dose record management, radiographer-card tracking, and source-leak-test certificates are all integrated."]
   ]
 } as ErpTripleCrossProps;

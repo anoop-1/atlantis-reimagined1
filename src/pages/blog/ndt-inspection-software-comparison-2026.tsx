@@ -153,7 +153,7 @@ export default function NDTInspectionSoftwareComparison2026() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6">Atlantis NDT ERP+Reporting — The Affordable Full-Stack Option</h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Atlantis NDT ERP+Reporting combines ERP (finance, HR, projects, CRM, inventory) with NDT-specific inspection management (all methods, technician certification, equipment calibration, code-compliant reports, mobile offline). Pricing is flat: $18,000/year for the standard ERP + inspection package; $50,000/year for the advanced tier that adds digital-twin features and 3D asset visualization. The value proposition for small and mid-tier NDT service vendors is structural: rather than running separate accounting software (Xero/QuickBooks), separate CRM (HubSpot/Salesforce), separate inspection management (MISTRAS PCMS / Acuren ASSET), and separate technician-cert tracking spreadsheets, the vendor runs one unified system at a fraction of the total cost.
+              Atlantis NDT ERP+Reporting combines ERP (finance, HR, projects, CRM, inventory) with NDT-specific inspection management (all methods, technician certification, equipment calibration, code-compliant reports, mobile offline). Pricing is flat: regional pricing for the standard ERP + inspection package; $50,000/year for the advanced tier that adds digital-twin features and 3D asset visualization. The value proposition for small and mid-tier NDT service vendors is structural: rather than running separate accounting software (Xero/QuickBooks), separate CRM (HubSpot/Salesforce), separate inspection management (MISTRAS PCMS / Acuren ASSET), and separate technician-cert tracking spreadsheets, the vendor runs one unified system at a fraction of the total cost.
             </p>
           </section>
 
@@ -180,7 +180,7 @@ export default function NDTInspectionSoftwareComparison2026() {
           </section>
 
           <section className="bg-gradient-to-br from-emerald-700 to-green-900 text-white p-10 rounded-2xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">$18,000/year — All NDT Methods, ERP + Reporting Combined</h2>
+            <h2 className="text-3xl font-bold mb-4">regional pricing — All NDT Methods, ERP + Reporting Combined</h2>
             <p className="text-emerald-100 text-lg mb-6">Atlantis NDT ERP+Reporting — full ERP with inspection management, technician certification, equipment calibration, mobile offline reporting. Unlimited users.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/erp" className="bg-white text-emerald-900 px-6 py-3 rounded-lg font-semibold hover:bg-emerald-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>

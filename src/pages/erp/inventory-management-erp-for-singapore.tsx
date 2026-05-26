@@ -9,7 +9,7 @@ export default function InventoryManagementErpForSingapore() {
       industry="Singapore inspection and industrial operations"
       breadcrumbLabel="Inventory Management for Singapore"
       trustBadge="MOM / NEA / SAC-SINGLAS / InvoiceNow ready"
-      metaDescription="Atlantis NDT ERP Inventory Management for Singapore — multi-warehouse Jurong Island-aligned stock control, NEA radioactive-source tracking, InvoiceNow PEPPOL e-invoicing. Flat $18,000/yr (S$24,300)."
+      metaDescription="Atlantis NDT ERP Inventory Management for Singapore — multi-warehouse Jurong Island-aligned stock control, NEA radioactive-source tracking, InvoiceNow PEPPOL e-invoicing. Flat regional pricing (S$24,300)."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for Singapore — multi-warehouse stock control across ExxonMobil / Shell / PCS / Sembcorp / ST Engineering-aligned consumables, NEA RPNS radioactive-source chain-of-custody, InvoiceNow PEPPOL e-invoicing, and SAC-SINGLAS-aligned ISO 17025 calibration lot management. Flat S$24,300 / $18,000 per year."
       whatItIs={[
         "Inventory Management ERP for Singapore tracks consumables, capital equipment, calibrated instruments, radiation sources and PPE across multiple warehouses with ExxonMobil / Shell / Singapore Refining Company / PCS / Sembcorp / ST Engineering lot-traceability requirements. Every UT couplant batch, MT dry-magnetic-particle lot, PT spray-can batch, Ir-192/Se-75 radioactive source, and radiographic-film lot is tracked with full chain-of-custody.",

@@ -202,7 +202,7 @@ export default function EmailMarketingForEngineeringServicesCompanies() {
 
           <section className="bg-gradient-to-br from-yellow-700 to-orange-900 text-white p-10 rounded-2xl mb-12">
             <h2 className="text-3xl font-bold mb-4">200 Emails / Day. Multi-Brand. Integrated CRM.</h2>
-            <p className="text-yellow-100 text-lg mb-6">Atlantis NDT ERP — cold outreach, nurture, ABM, multi-persona sending, per-country compliance, deliverability monitoring. Flat $18,000/year including everything.</p>
+            <p className="text-yellow-100 text-lg mb-6">Atlantis NDT ERP — cold outreach, nurture, ABM, multi-persona sending, per-country compliance, deliverability monitoring. Flat regional pricing including everything.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/erp" className="bg-white text-yellow-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>
               <Link to="/contact" className="bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 flex items-center gap-2">Book a Demo <ArrowRight className="w-4 h-4" /></Link>

@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is CMMS configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The CMMS module is pre-loaded with codes and operator flow-downs that Delhi-NCR NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, OISD-141, OISD-129, AERB SC/IR-1, plus operator-specific quality clauses from IOCL Mathura, IOCL Panipat, GAIL, EIL, BHEL Haridwar, ONGC."],
     ["Which Delhi regulators does CMMS align with?", "The compliance dashboard maps to PESO, OISD, AERB, BIS, Central Pollution Control Board (CPCB), Delhi Pollution Control Committee (DPCC)."],
     ["Can Delhi NDT inspection companies integrate CMMS with operator-specific portals like IOCL / EIL?", "Yes. The platform supports vendor-portal flow with IOCL Mathura, IOCL Panipat, GAIL Vijaipur, ONGC, Engineers India Limited (EIL), and BHEL Haridwar."],
-    ["What does CMMS cost for an NDT inspection company in Delhi?", "CMMS is bundled inside the standard $18,000 / year (approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
+    ["What does CMMS cost for an NDT inspection company in Delhi?", "CMMS is bundled inside the standard regionally priced (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
     ["Does CMMS support PESO Form XVI / XIV statutory submission for inspection equipment?", "Yes. PESO Form XVI and Form XIV — the statutory pressure-vessel inspection forms — are auto-generated from CMMS equipment records. Submission can be done electronically via the PESO online portal."]
   ]
 } as ErpTripleCrossProps;

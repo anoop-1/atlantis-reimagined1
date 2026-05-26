@@ -73,7 +73,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "What does Field Service Management cost for an NDT inspection company in Singapore?",
-      "Field Service Management is bundled inside the standard $18,000 / year Atlantis NDT ERP subscription — there is no per-module licence fee. For Singapore customers, invoicing is supported in SGD or USD with daily FX update. The subscription covers cloud hosting (with optional Singapore data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for Singapore-specific data migration, custom report design and integration build are quoted separately."
+      "Field Service Management is bundled inside the standard Atlantis NDT ERP subscription — there is no per-module licence fee. For Singapore customers, invoicing is supported in SGD or USD with daily FX update. The subscription covers cloud hosting (with optional Singapore data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for Singapore-specific data migration, custom report design and integration build are quoted separately."
     ],
     [
       "Does Field Service Management work with both ASNT SNT-TC-1A and ISO 9712 schemes simultaneously?",

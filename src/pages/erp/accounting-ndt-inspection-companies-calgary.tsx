@@ -74,7 +74,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "What does Accounting cost for an NDT inspection company in Calgary?",
-      "Accounting is bundled inside the standard $18,000 / year Atlantis NDT ERP subscription — there is no per-module licence fee. For Calgary customers, invoicing is supported in CAD or USD with daily FX update. The subscription covers cloud hosting (with optional Canada data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for Calgary-specific data migration, custom report design and integration build are quoted separately."
+      "Accounting is bundled inside the standard Atlantis NDT ERP subscription — there is no per-module licence fee. For Calgary customers, invoicing is supported in CAD or USD with daily FX update. The subscription covers cloud hosting (with optional Canada data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for Calgary-specific data migration, custom report design and integration build are quoted separately."
     ],
     [
       "Does Accounting work with both ASNT SNT-TC-1A and ISO 9712 schemes simultaneously?",

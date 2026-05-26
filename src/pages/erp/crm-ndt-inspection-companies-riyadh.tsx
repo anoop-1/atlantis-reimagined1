@@ -76,7 +76,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "What does CRM cost for an NDT inspection company in Riyadh?",
-      "CRM is bundled inside the standard $18,000 / year (approximately SAR 67,500) Atlantis NDT ERP subscription — there is no per-module licence fee. For Riyadh customers, invoicing is supported in SAR or USD with daily FX update. SACS-002 cybersecurity-aligned data residency is included where required."
+      "CRM is bundled inside the standard regionally priced (contact us; approximately SAR 67,500) Atlantis NDT ERP subscription — there is no per-module licence fee. For Riyadh customers, invoicing is supported in SAR or USD with daily FX update. SACS-002 cybersecurity-aligned data residency is included where required."
     ],
     [
       "Does CRM support Vision 2030 mega-project workflows?",

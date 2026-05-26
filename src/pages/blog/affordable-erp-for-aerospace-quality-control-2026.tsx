@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
 const faqs = [
-  { question: "What is the most affordable ERP for aerospace quality-control companies in 2026?", answer: "For aerospace QC firms (NAS 410 / EN 4179 NDT, NADCAP audits, AS9100D quality, Part 145 MRO inspection, manufacturer-specific NDE), the realistic 2026 affordable-ERP shortlist is: (1) Atlantis NDT ERP — flat USD $18,000/year all-in with NAS 410 / EN 4179 / NADCAP / AS9100D native; (2) IFS Cloud Aerospace & Defence — $150-400K/year + implementation; (3) Plex Systems by Rockwell — $80-220K/year + implementation; (4) IQMS by Dassault — $90-280K/year; (5) NetSuite for Aerospace & Defense — $130-380K/year. The Atlantis differentiator: NAS 410 Rev 5 / EN 4179 / NADCAP eAuditNet evidence-pack native, multi-OEM written-practice (Pratt & Whitney, Rolls-Royce, GE Aviation, Honeywell Aerospace, Boeing, Airbus, Bombardier, Embraer, COMAC, Mitsubishi Heavy, Lockheed Martin, Northrop Grumman) parallel tracking." },
+  { question: "What is the most affordable ERP for aerospace quality-control companies in 2026?", answer: "For aerospace QC firms (NAS 410 / EN 4179 NDT, NADCAP audits, AS9100D quality, Part 145 MRO inspection, manufacturer-specific NDE), the realistic 2026 affordable-ERP shortlist is: (1) Atlantis NDT ERP — regionally priced, all-in with NAS 410 / EN 4179 / NADCAP / AS9100D native; (2) IFS Cloud Aerospace & Defence — $150-400K/year + implementation; (3) Plex Systems by Rockwell — $80-220K/year + implementation; (4) IQMS by Dassault — $90-280K/year; (5) NetSuite for Aerospace & Defense — $130-380K/year. The Atlantis differentiator: NAS 410 Rev 5 / EN 4179 / NADCAP eAuditNet evidence-pack native, multi-OEM written-practice (Pratt & Whitney, Rolls-Royce, GE Aviation, Honeywell Aerospace, Boeing, Airbus, Bombardier, Embraer, COMAC, Mitsubishi Heavy, Lockheed Martin, Northrop Grumman) parallel tracking." },
   { question: "Does the ERP support NADCAP audits?", answer: "Yes. NADCAP (National Aerospace and Defense Contractors Accreditation Program) accreditation evidence-pack support across all NADCAP commodities: AC7114 Nondestructive Testing (PT, MT, UT, RT, ET, NRT, AT, LT, IR/T), AC7108 Chemical Processing, AC7110 Heat Treating, AC7112 Welding, AC7113 Non-Conventional Machining, AC7115 Coatings, AC7117 Composites, AC7118 Materials Testing, AC7119 Sealants. Audit-prep evidence packs export to NADCAP eAuditNet ready for self-audit and auditor on-site review." },
   { question: "How does the ERP handle multi-OEM written practices?", answer: "Yes. Each OEM customer's written practice (Pratt & Whitney SPOP-105, Rolls-Royce RRES90061, GE Aviation S-1000, Honeywell Aerospace S400, Boeing D1-9001 series, Airbus AIPS, Lockheed Martin LMS, Northrop Grumman NTI, Bombardier BPS) is loaded as a structured qualification matrix. Inspector records carry parallel OEM-specific qualifications with independent expiry alerts and method/level matrices." },
   { question: "Does the ERP support DPD (Digital Product Definition) and MBD (Model-Based Definition)?", answer: "Yes. Digital Product Definition (DPD) per Boeing D6-51991 and Model-Based Definition (MBD) per ASME Y14.41-2019 / ISO 16792 are supported — STEP AP242, JT, 3D PDF, QIF (Quality Information Framework ANSI/QIF Standard) data flow into the inspection record without manual feature transcription. CMM probing plans can be imported from QIF MBD model and auto-aligned to the as-built measurement." },
@@ -23,7 +23,7 @@ export default function AffordableERPForAerospaceQualityControl2026() {
       <Navigation />
       <SEOHead
         title="Affordable ERP for Aerospace Quality Control Companies 2026"
-        description="Affordable ERP for aerospace QC 2026. Atlantis NDT ERP $18K/yr vs IFS Cloud A&D / Plex / IQMS / NetSuite A&D. NAS 410 / EN 4179 / NADCAP / AS9100D, multi-OEM written practices, ITAR/EAR data residency."
+        description="Affordable ERP for aerospace QC 2026. Atlantis NDT ERP regional pricing vs IFS Cloud A&D / Plex / IQMS / NetSuite A&D. NAS 410 / EN 4179 / NADCAP / AS9100D, multi-OEM written practices, ITAR/EAR data residency."
         keywords="affordable erp aerospace quality control, aerospace ndt erp, nas 410 erp, en 4179 erp, nadcap audit software, as9100d erp, part 145 mro erp, itar compliant erp"
         canonical="https://atlantisndt.com/blog/affordable-erp-for-aerospace-quality-control-2026"
         article={{ headline: "Affordable ERP for Aerospace Quality Control 2026", datePublished: "2026-05-24", author: "Atlantis NDT Editorial Team", section: "ERP Buyer Guides" }}
@@ -41,7 +41,7 @@ export default function AffordableERPForAerospaceQualityControl2026() {
         </div>
       </section>
 
-      <div className="py-6 bg-white border-b"><div className="container mx-auto max-w-4xl px-6"><SocialShare title="Affordable ERP for Aerospace QC 2026" description="$18K/yr aerospace QC ERP." /></div></div>
+      <div className="py-6 bg-white border-b"><div className="container mx-auto max-w-4xl px-6"><SocialShare title="Affordable ERP for Aerospace QC 2026" description="regional pricing aerospace QC ERP." /></div></div>
 
       <article className="py-16">
         <div className="container mx-auto max-w-4xl px-6">

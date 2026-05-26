@@ -73,7 +73,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "What does Project Management cost for an NDT inspection company in Dubai?",
-      "Project Management is bundled inside the standard $18,000 / year Atlantis NDT ERP subscription — there is no per-module licence fee. For Dubai customers, invoicing is supported in AED or USD with daily FX update. The subscription covers cloud hosting (with optional UAE data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for Dubai-specific data migration, custom report design and integration build are quoted separately."
+      "Project Management is bundled inside the standard Atlantis NDT ERP subscription — there is no per-module licence fee. For Dubai customers, invoicing is supported in AED or USD with daily FX update. The subscription covers cloud hosting (with optional UAE data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for Dubai-specific data migration, custom report design and integration build are quoted separately."
     ],
     [
       "Does Project Management work with both ASNT SNT-TC-1A and ISO 9712 schemes simultaneously?",

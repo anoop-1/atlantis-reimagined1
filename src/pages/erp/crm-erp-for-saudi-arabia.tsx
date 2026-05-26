@@ -9,7 +9,7 @@ export default function CrmErpForSaudiArabia() {
       industry="Saudi Arabia inspection and engineering services"
       breadcrumbLabel="CRM ERP for Saudi Arabia"
       trustBadge="SAEP-1112 / SACS-002 / NRRC ready"
-      metaDescription="Atlantis NDT ERP CRM for Saudi Arabia — Aramco SAEP-1112 qualification mapping, SACS-002 cybersecurity-aligned data residency, bilingual Arabic/English pipeline, Aramco APQS/VQIP vendor-portal evidence export. Flat $18,000/yr (SAR 67,500)."
+      metaDescription="Atlantis NDT ERP CRM for Saudi Arabia — Aramco SAEP-1112 qualification mapping, SACS-002 cybersecurity-aligned data residency, bilingual Arabic/English pipeline, Aramco APQS/VQIP vendor-portal evidence export. Flat regional pricing (SAR 67,500)."
       heroBody="Atlantis NDT ERP CRM pre-configured for Saudi Arabian inspection firms — Aramco SAEP-1112-aware opportunity scoring, SACS-002 cybersecurity data residency, NRRC radiography licensing awareness, parallel Aramco / SABIC / SATORP / YASREF / Maaden pipeline tracking, and bilingual Arabic/English CRM output. Flat SAR 67,500 / $18,000 per year."
       whatItIs={[
         "CRM ERP for Saudi Arabia inside Atlantis NDT ERP is the Odoo 18 CRM module pre-configured for the Kingdom's inspection and engineering-services market. Every opportunity carries structured fields for Saudi Aramco SAEP-1112 qualification scope, SABIC asset-integrity standards, Royal Commission for Jubail and Yanbu (RCJY) industrial-city permits, NRRC (Nuclear and Radiological Regulatory Commission) radiography authorisation status, Saudi Accreditation Center (SAC) ISO 17020/17025 currency, and Aramco APQS (Approved Personnel Qualification System) / VQIP (Vendor Qualification Improvement Program) portal status.",

@@ -170,7 +170,7 @@ export default function OdooVsSAPVsNetSuiteERPComparison2026() {
           </section>
 
           <section className="bg-gradient-to-br from-purple-700 to-fuchsia-900 text-white p-10 rounded-2xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">$18,000/year Flat. Odoo 18 with NDT Industry Overlay.</h2>
+            <h2 className="text-3xl font-bold mb-4">regional pricing Flat. Odoo 18 with NDT Industry Overlay.</h2>
             <p className="text-purple-100 text-lg mb-6">Atlantis NDT ERP — 70-85% of SAP / NetSuite functional capability at 8-25× lower 5-year TCO. Built on Odoo 18 with NDT, inspection, fabrication, asset-integrity modules.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/erp" className="bg-white text-purple-900 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>

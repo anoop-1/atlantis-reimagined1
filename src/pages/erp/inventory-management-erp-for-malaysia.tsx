@@ -9,7 +9,7 @@ export default function InventoryManagementErpForMalaysia() {
       industry="Malaysia inspection and industrial operations"
       breadcrumbLabel="Inventory Management for Malaysia"
       trustBadge="DOSH / AELB / SIRIM / MyInvois ready"
-      metaDescription="Atlantis NDT ERP Inventory Management for Malaysia — multi-warehouse PETRONAS-aligned stock control, AELB radioactive-source tracking, MyInvois e-invoicing, bilingual Bahasa Melayu/English. Flat $18,000/yr (RM 84,000)."
+      metaDescription="Atlantis NDT ERP Inventory Management for Malaysia — multi-warehouse PETRONAS-aligned stock control, AELB radioactive-source tracking, MyInvois e-invoicing, bilingual Bahasa Melayu/English. Flat regional pricing."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for Malaysia — multi-warehouse stock control across PETRONAS / MLNG / RAPID / Sarawak Petchem-aligned consumables, AELB radioactive-source chain-of-custody, LHDN MyInvois e-invoicing, bilingual Bahasa Melayu/English UI, and SIRIM QAS-aligned ISO 17025 calibration lot management. Flat RM 84,000 / $18,000 per year."
       whatItIs={[
         "Inventory Management ERP for Malaysia tracks consumables, capital equipment, calibrated instruments, radiation sources and PPE across multiple warehouses with PETRONAS / MLNG / RAPID lot-traceability requirements. Every UT couplant batch, MT dry-magnetic-particle lot, PT spray-can batch, Ir-192/Se-75/Co-60 radioactive source, and radiographic-film lot is tracked with full chain-of-custody.",

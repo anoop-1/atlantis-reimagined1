@@ -9,7 +9,7 @@ export default function CmmsForMalaysia() {
       industry="Malaysia industrial maintenance operations"
       breadcrumbLabel="CMMS for Malaysia"
       trustBadge="DOSH / AELB / PETRONAS PTS / SIRIM ready"
-      metaDescription="Atlantis NDT ERP CMMS for Malaysia — DOSH PMA certification, AELB radiography, PETRONAS PTS standards, SIRIM QAS accreditation, bilingual Bahasa Melayu/English asset registers. Flat $18,000/yr (RM 84,000)."
+      metaDescription="Atlantis NDT ERP CMMS for Malaysia — DOSH PMA certification, AELB radiography, PETRONAS PTS standards, SIRIM QAS accreditation, bilingual Bahasa Melayu/English asset registers. Flat regional pricing."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Malaysian industrial-maintenance operations — DOSH PMA (Person-in-Charge for Pressure Vessels) certification, AELB Class A/B/C radiography licensing, PETRONAS Technical Standards (PTS) compliance, and bilingual Bahasa Melayu/English asset registers. Flat RM 84,000 / $18,000 per year."
       whatItIs={[
         "CMMS for Malaysia inside Atlantis NDT ERP is pre-configured for Malaysia's PETRONAS-anchored hydrocarbon and the wider RAPID / MLNG / Pengerang / Bintulu / Kerteh / Melaka petrochemical-and-LNG industrial base. Damage-mechanism profiles are pre-loaded for principal Malaysian service environments — H2S sour service at Sarawak gas operations, opportunistic-crude TAN corrosion at Melaka / PRefChem, cryogenic LNG service at MLNG Bintulu and PFLNG Satu / Dua, naphthenic-acid corrosion at Kerteh and PRefChem, and tropical-humidity external corrosion across coastal facilities.",

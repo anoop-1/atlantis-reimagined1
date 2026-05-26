@@ -9,7 +9,7 @@ export default function AccountingErpForMalaysia() {
       industry="Malaysia inspection and engineering services"
       breadcrumbLabel="Accounting ERP for Malaysia"
       trustBadge="LHDN MyInvois / SST / MFRS / EPF / SOCSO ready"
-      metaDescription="Atlantis NDT ERP Accounting for Malaysia — LHDN MyInvois e-invoicing, SST 8%, MFRS chart of accounts, EPF (KWSP) / SOCSO / EIS / PCB auto-calc, bilingual Bahasa Melayu/English. Flat $18,000/yr (RM 84,000)."
+      metaDescription="Atlantis NDT ERP Accounting for Malaysia — LHDN MyInvois e-invoicing, SST 8%, MFRS chart of accounts, EPF (KWSP) / SOCSO / EIS / PCB auto-calc, bilingual Bahasa Melayu/English. Flat regional pricing."
       heroBody="Atlantis NDT ERP Accounting pre-configured for Malaysia — LHDN MyInvois e-invoicing, SST 8% (Sales and Service Tax), MFRS (Malaysian Financial Reporting Standards) chart of accounts, EPF (KWSP) / SOCSO (PERKESO) / EIS / PCB auto-calculation, and bilingual Bahasa Melayu/English invoices. Flat RM 84,000 / $18,000 per year."
       whatItIs={[
         "Accounting ERP for Malaysia is pre-configured for Malaysia's regulatory environment — MFRS (Malaysian Financial Reporting Standards, fully converged with IFRS since 2012), MPERS (Malaysian Private Entities Reporting Standard) for non-public-interest entities, SST 8% (raised from 6% effective March 2024 for taxable services), LHDN MyInvois e-invoicing mandatory for businesses above RM 100M turnover since August 2024 with phased extension to all businesses by July 2025, and full multi-currency support (RM base with USD / SGD / IDR / THB / VND secondary).",

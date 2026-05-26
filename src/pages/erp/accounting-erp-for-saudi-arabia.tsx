@@ -9,7 +9,7 @@ export default function AccountingErpForSaudiArabia() {
       industry="Saudi Arabia inspection and engineering services"
       breadcrumbLabel="Accounting ERP for Saudi Arabia"
       trustBadge="ZATCA Phase 2 / SOCPA / GOSI ready"
-      metaDescription="Atlantis NDT ERP Accounting for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV, SOCPA-aligned chart of accounts, VAT 15% / WHT, GOSI / Mudad / Wage Protection. Flat $18,000/yr (SAR 67,500)."
+      metaDescription="Atlantis NDT ERP Accounting for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV, SOCPA-aligned chart of accounts, VAT 15% / WHT, GOSI / Mudad / Wage Protection. Flat regional pricing (SAR 67,500)."
       heroBody="Atlantis NDT ERP Accounting pre-configured for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV encoding, SOCPA (Saudi Organization for Chartered Public Accountants)-aligned chart of accounts, VAT 15% / WHT (withholding tax), GOSI workforce reporting, and Mudad / Wage Protection System integration. Flat SAR 67,500 / $18,000 per year."
       whatItIs={[
         "Accounting ERP for Saudi Arabia is pre-configured for the Kingdom's regulatory environment — SOCPA-aligned chart of accounts mapped to the Saudi national chart of accounts, ZATCA (Zakat, Tax and Customs Authority) Fatoorah Phase 2 (Integration) e-invoicing with mandatory QR-code TLV (Tag-Length-Value) encoding and cryptographic stamping, VAT 15% standard rate with zero-rated exports and exempt residential rentals, WHT 5-20% on cross-border services payments, Zakat calculation for Saudi/GCC-owned shareholders, and full multi-currency support (SAR base with USD / EUR / AED / GBP / INR secondary).",

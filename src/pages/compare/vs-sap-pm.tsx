@@ -9,7 +9,7 @@ export default function VsSapPm() {
             competitorVendor="SAP"
             competitorUrl="https://www.sap.com/products/scm/intelligent-asset-management.html"
             metaTitle="Atlantis NDT ERP vs SAP S/4HANA Asset Management (SAP PM) 2026 — Honest Comparison"
-            metaDescription="SAP S/4HANA Asset Management / SAP PM vs Atlantis NDT ERP. Enterprise SAP-ecosystem fit vs NDT-native deployment, $500K+ vs $18K-$120K, ABAP customization vs SaaS configuration. When each wins."
+            metaDescription="SAP S/4HANA Asset Management / SAP PM vs Atlantis NDT ERP. Enterprise SAP-ecosystem fit vs NDT-native deployment, $500K+ vs Contact for pricing, ABAP customization vs SaaS configuration. When each wins."
             keywords="sap pm alternative, sap s4hana asset management vs atlantis, sap plant maintenance ndt, sap pm inspection module, sap pm comparison"
             intro="SAP S/4HANA Asset Management (the modern successor to SAP PM) is the right choice when SAP is already your ERP backbone. The integrated financial, procurement, and HR data flow is genuinely valuable for refineries, EPCs, and manufacturers running SAP end-to-end. The honest read: SAP PM wins where SAP is already the system of record and the inspection workflow is a small fraction of overall plant operations. Atlantis NDT ERP wins for pure-play inspection / NDT / calibration / welding service companies where SAP licensing, ABAP / Fiori customization, and 12-24 month implementation timelines are economically prohibitive."
             competitorWinsTitle="When SAP PM is the right choice"
@@ -33,7 +33,7 @@ export default function VsSapPm() {
             comparisonRows={[
                       {
                                 "dim": "Total cost of ownership (Year 1)",
-                                "atlantis": "$18K-$120K all-in (SaaS + onboarding)",
+                                "atlantis": "Contact for pricing all-in (SaaS + onboarding)",
                                 "competitor": "$500K-$2M+ (S/4HANA license + Asset Mgmt module + implementation)"
                       },
                       {

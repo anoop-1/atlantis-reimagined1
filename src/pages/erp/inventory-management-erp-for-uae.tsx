@@ -9,7 +9,7 @@ export default function InventoryManagementErpForUae() {
       industry="UAE inspection and industrial operations"
       breadcrumbLabel="Inventory Management for UAE"
       trustBadge="ADNOC AGES / FANR / FTA ready"
-      metaDescription="Atlantis NDT ERP Inventory Management for UAE — multi-warehouse ADNOC-aligned stock control, FANR radioactive-source tracking, FTA e-invoicing, bilingual Arabic/English. Flat $18,000/yr (AED 66,000)."
+      metaDescription="Atlantis NDT ERP Inventory Management for UAE — multi-warehouse ADNOC-aligned stock control, FANR radioactive-source tracking, FTA e-invoicing, bilingual Arabic/English. Flat regional pricing (AED 66,000)."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for UAE — multi-warehouse stock control across ADNOC / ENOC / SNOC / EGA-aligned consumables, FANR radioactive-source chain-of-custody, FTA e-invoicing, bilingual Arabic/English UI, and EIAC/ENAS/DAC-aligned ISO 17025 calibration lot management. Flat AED 66,000 / $18,000 per year."
       whatItIs={[
         "Inventory Management ERP for UAE tracks consumables, capital equipment, calibrated instruments, radiation sources and PPE across multiple warehouses with ADNOC / ENOC / SNOC lot-traceability requirements. Every UT couplant, MT magnetic-particle, PT spray-can batch, Ir-192/Se-75/Co-60 radioactive source, and radiographic-film lot is tracked with full chain-of-custody.",

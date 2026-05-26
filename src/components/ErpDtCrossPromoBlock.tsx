@@ -9,7 +9,7 @@ import { Database, Cog, Sparkles, ArrowRight } from "lucide-react";
  * the two flagship product pillars + a contextually-relevant Odoo-app
  * pillar page.
  *
- *  - Card 1 (fixed): /erp        — Atlantis NDT ERP, $18,000/yr
+ *  - Card 1 (fixed): /erp        — Atlantis NDT ERP, regional pricing
  *  - Card 2 (fixed): /digital-twins — Digital Twin for NDT
  *  - Card 3 (dynamic): pick a pillar that matches the source page's intent.
  *
@@ -53,8 +53,8 @@ export function ErpDtCrossPromoBlock({
     ? `${relevantApp} for NDT Companies`
     : "All 30+ Odoo Apps for NDT";
   const card3Description = relevantApp
-    ? `${relevantApp} for NDT Companies — included free at $18K/yr. Pre-configured for inspection workflows.`
-    : "Browse the full Odoo-app pillar set for NDT — CRM, CMMS, HR, Quality, Project, Document Control, and more. All included at $18K/yr.";
+    ? `${relevantApp} for NDT Companies — included free at regional pricing. Pre-configured for inspection workflows.`
+    : "Browse the full Odoo-app pillar set for NDT — CRM, CMMS, HR, Quality, Project, Document Control, and more. All included at regional pricing.";
   const card3Href = relevantAppHref ?? "/erp";
 
   return (
@@ -88,7 +88,7 @@ export function ErpDtCrossPromoBlock({
             Atlantis NDT ERP
           </h3>
           <p className="text-xs text-slate-600 leading-relaxed mb-3">
-            $18,000/yr — all 30+ Odoo apps included. Fully customizable for
+            regional pricing — all 30+ Odoo apps included. Fully customizable for
             NDT inspection workflows. Cheapest ERP in the industry.
           </p>
           <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#004aad] group-hover:gap-2 transition-all">

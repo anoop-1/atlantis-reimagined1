@@ -9,7 +9,7 @@ export default function AccountingErpForUae() {
       industry="UAE inspection and engineering services"
       breadcrumbLabel="Accounting ERP for UAE"
       trustBadge="FTA / WPS / AAOIFI / Corporate Tax ready"
-      metaDescription="Atlantis NDT ERP Accounting for UAE — FTA e-invoicing PEPPOL, IFRS / AAOIFI chart of accounts, VAT 5%, UAE Corporate Tax 9%, WPS (Wage Protection System), MoHRE compliance. Flat $18,000/yr (AED 66,000)."
+      metaDescription="Atlantis NDT ERP Accounting for UAE — FTA e-invoicing PEPPOL, IFRS / AAOIFI chart of accounts, VAT 5%, UAE Corporate Tax 9%, WPS (Wage Protection System), MoHRE compliance. Flat regional pricing (AED 66,000)."
       heroBody="Atlantis NDT ERP Accounting pre-configured for UAE — FTA (Federal Tax Authority) e-invoicing on PEPPOL-aligned UBL, IFRS chart of accounts with AAOIFI Islamic-finance overlay, VAT 5% standard / 0% exports / exempt residential / out-of-scope DZIT, UAE Corporate Tax 9% (introduced June 2023), and WPS (Wage Protection System) integration. Flat AED 66,000 / $18,000 per year."
       whatItIs={[
         "Accounting ERP for UAE is pre-configured for the Emirates' regulatory environment — IFRS chart of accounts with AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) overlay for Sharia-compliant subsidiaries, FTA e-invoicing on PEPPOL-aligned UBL XML (rolling 2026-2027 mandate), VAT 5% with FTA TRN (Tax Registration Number) cryptographic validation, UAE Corporate Tax 9% on taxable income above AED 375k (introduced 1 June 2023), QFZP (Qualifying Free Zone Person) 0% tax regime for qualifying free-zone subsidiaries, and full multi-currency support (AED base with USD / SAR / EUR / GBP / INR secondary).",

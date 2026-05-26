@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS = [
   {
     question: "What does Oracle NetSuite OneWorld actually cost an NDT inspection company in 2026?",
-    answer: "NetSuite OneWorld base subscription plus the SuiteSuccess Professional Services edition for a 50-user inspection firm typically runs $1,300-$2,200 per user per month — approximately $780K-$1.32M/year in licenses. NetSuite implementation by a tier-1 partner (Oracle's own NetSuite Services, Big Bang ERP, RSM, Eide Bailly): $150K-$500K depending on scope. Five-year customization, integration and support: $80K-$280K. Total 5-year TCO for a 50-user mid-market NDT contractor: $4.1M-$7.2M. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) at flat $18,000/year totals $90K over 5 years. NetSuite is roughly 45-80× more expensive for the same mid-market scope.",
+    answer: "NetSuite OneWorld base subscription plus the SuiteSuccess Professional Services edition for a 50-user inspection firm typically runs $1,300-$2,200 per user per month — approximately $780K-$1.32M/year in licenses. NetSuite implementation by a tier-1 partner (Oracle's own NetSuite Services, Big Bang ERP, RSM, Eide Bailly): $150K-$500K depending on scope. Five-year customization, integration and support: $80K-$280K. Total 5-year TCO for a 50-user mid-market NDT contractor: $4.1M-$7.2M. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) at flat regional pricing totals $90K over 5 years. NetSuite is roughly 45-80× more expensive for the same mid-market scope.",
   },
   {
     question: "Is NetSuite OpenAir / SuiteProjects really better for services firms than Odoo?",
@@ -101,7 +101,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
         title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — $18K vs $780K+ | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, $18K/yr flat) vs Oracle NetSuite OneWorld ($780K-$1.32M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
+        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, regionally priced) vs Oracle NetSuite OneWorld ($780K-$1.32M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
         canonical="/erp/odoo-vs-netsuite-ndt-companies"
         faq={FAQS}
         article={{
@@ -121,12 +121,12 @@ export default function OdooVsNetSuiteNdtCompanies() {
             Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — $18K vs $80K-$250K+
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat $18,000/year) against <span className="text-orange-400 font-semibold">Oracle NetSuite OneWorld</span> — the mid-market services ERP gold standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where NetSuite genuinely wins.
+            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat regional pricing) against <span className="text-orange-400 font-semibold">Oracle NetSuite OneWorld</span> — the mid-market services ERP gold standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where NetSuite genuinely wins.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">$18,000 / year flat</span>
+              <span className="font-semibold">regional pricing</span>
               <span className="text-emerald-200/70 text-sm">Atlantis NDT ERP</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 rounded-lg px-4 py-2 text-orange-300">
@@ -206,7 +206,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
               <p className="text-4xl font-bold text-white mb-4">$90,000</p>
               <p className="text-sm text-emerald-200 mb-4">over 5 years, flat</p>
               <ul className="space-y-2 text-slate-200 text-sm">
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: $18,000/year flat — all apps included</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: regional pricing — contact us — all apps included</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Implementation: $15K-$45K one-off</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Customization: $10K-$30K (NDT overlay pre-built)</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Support + upgrades: included</li>
@@ -244,7 +244,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">2. Flat-fee vs per-user pricing</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">NetSuite charges per user — growing from 50 to 100 users approximately doubles your license cost. Atlantis NDT ERP is flat $18,000/year for the first 25 users with additional users at $50/user/month — growing from 50 to 100 users adds approximately $30K/year, not $500K-$700K/year. Inspection contractors with seasonal scaling (turnaround crews, FIFO rotations, project-based hiring) save meaningfully on flat pricing.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">NetSuite charges per user — growing from 50 to 100 users approximately doubles your license cost. Atlantis NDT ERP is flat regional pricing for the first 25 users with additional users at $50/user/month — growing from 50 to 100 users adds approximately $30K/year, not $500K-$700K/year. Inspection contractors with seasonal scaling (turnaround crews, FIFO rotations, project-based hiring) save meaningfully on flat pricing.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Open-source flexibility</h3>

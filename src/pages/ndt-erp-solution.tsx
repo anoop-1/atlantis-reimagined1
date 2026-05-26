@@ -230,7 +230,7 @@ const faqs = [
     },
     {
         q: "How does it scale as we grow?",
-        a: "Atlantis NDT ERP scales horizontally — adding inspectors, sites, clients, or business units does not require re-architecture. Existing customers have grown from 12 to 180 inspectors on the same platform without re-implementation. Multi-entity / multi-country group structures are supported natively, with consolidated reporting and per-entity localization. The standard $18,000/yr tier covers up to 25 named users; additional users scale at predictable per-user pricing.",
+        a: "Atlantis NDT ERP scales horizontally — adding inspectors, sites, clients, or business units does not require re-architecture. Existing customers have grown from 12 to 180 inspectors on the same platform without re-implementation. Multi-entity / multi-country group structures are supported natively, with consolidated reporting and per-entity localization. The standard regional pricing tier covers up to 25 named users; additional users scale at predictable per-user pricing.",
     },
     {
         q: "Can it replace IBM Maximo or SAP Plant Maintenance?",
@@ -248,7 +248,7 @@ export default function NDTERPSolution() {
                 url: URL,
                 headline: "NDT ERP Software for Inspection Companies (2026 Guide + Pricing)",
                 description:
-                    "Atlantis NDT ERP — the 2026 buyer's guide. 8 NDT-purpose modules (project management, scheduling, certification tracking, calibration, reporting, inventory, invoicing, ISO 9001 document control), vendor comparison vs SAP PM, Maximo, Meridium, GE Vernova APM, NetSuite, Procore, QuickBooks. $18,000/year fully loaded.",
+                    "Atlantis NDT ERP — the 2026 buyer's guide. 8 NDT-purpose modules (project management, scheduling, certification tracking, calibration, reporting, inventory, invoicing, ISO 9001 document control), vendor comparison vs SAP PM, Maximo, Meridium, GE Vernova APM, NetSuite, Procore, QuickBooks. regional pricing fully loaded.",
                 datePublished: "2026-04-22",
                 dateModified: "2026-05-16",
                 section: "NDT ERP — Buyer's Guide",
@@ -340,8 +340,8 @@ export default function NDTERPSolution() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Affordable NDT ERP $18,000/yr — All Odoo Apps Included"
-                description="Atlantis NDT ERP — $18,000/year flat, all 30+ Odoo 18 apps included. ASNT/ISO 9712/PCN tracking, API 510/570/653 reporting, 4-week deployment. Beats SAP PM/Maximo 10x. Demo: info@atlantisndt.com"
+                title="Affordable NDT ERP regional pricing — All Odoo Apps Included"
+                description="Atlantis NDT ERP — regional pricing, all 30+ Odoo 18 apps included. ASNT/ISO 9712/PCN tracking, API 510/570/653 reporting, 4-week deployment. Beats SAP PM/Maximo 10x. Demo: info@atlantisndt.com"
                 keywords="NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking software, NDT scheduling, NDT business software, Odoo NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
                 canonical={URL}
                 ogImage="/atlantis.jpg"
@@ -366,7 +366,7 @@ export default function NDTERPSolution() {
                             scheduling, invoicing, ISO 9001 document control — on an Odoo 18 backbone.
                         </p>
                         <p className="text-xl text-orange-50 mb-6 leading-relaxed">
-                            One platform replaces 5-7 disconnected tools. $18,000/year, fully loaded,
+                            One platform replaces 5-7 disconnected tools. regional pricing, fully loaded,
                             four-week deployment. Authored by an ASNT Level III who runs an inspection
                             company on the same software.
                         </p>
@@ -545,7 +545,7 @@ export default function NDTERPSolution() {
                                         <td className="px-3 py-3">Yes (15+ NDT modules)</td>
                                         <td className="px-3 py-3">ASNT/ISO 9712/PCN/NAS 410 native</td>
                                         <td className="px-3 py-3">4 weeks</td>
-                                        <td className="px-3 py-3">$18,000/yr fully loaded</td>
+                                        <td className="px-3 py-3">regional pricing fully loaded</td>
                                         <td className="px-3 py-3">Hosted or on-prem</td>
                                     </tr>
                                     {competitorLinks.map((c) => (
@@ -580,7 +580,7 @@ export default function NDTERPSolution() {
                         <div className="grid md:grid-cols-2 gap-8">
                             <Card className="border-0 shadow-md">
                                 <CardHeader>
-                                    <CardTitle className="text-2xl text-orange-600">$18,000 / year</CardTitle>
+                                    <CardTitle className="text-2xl text-orange-600">regional pricing</CardTitle>
                                     <p className="text-sm text-slate-600 mt-1">Standard tier — fits 95% of NDT inspection firms</p>
                                 </CardHeader>
                                 <CardContent>

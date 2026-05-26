@@ -43,7 +43,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title={`${props.pageTitle} — $18,000/yr All Odoo Apps Included | Atlantis NDT`}
+        title={`${props.pageTitle} — regional pricing All Odoo Apps Included | Atlantis NDT`}
         description={props.metaDescription}
         canonical={`/erp/${props.slug}`}
         faq={props.faqs}
@@ -63,7 +63,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">$18,000 / year</span>
+              <span className="font-semibold">regional pricing</span>
               <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">
@@ -142,9 +142,9 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
         {/* PRICING */}
         <section className="mb-16">
           <div className="bg-gradient-to-br from-emerald-900/40 to-emerald-800/20 border border-emerald-500/30 rounded-2xl p-8">
-            <h2 className="text-3xl font-bold mb-3">Pricing — flat $18,000 / year</h2>
+            <h2 className="text-3xl font-bold mb-3">Pricing — contact us for a regional quote</h2>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
-              {props.appName} is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The $18,000 / year fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major industry portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
+              {props.appName} is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major industry portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
             </p>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
               For {props.industry} firms with more than 25 named users, additional users are billed at $50 / user / month. Multi-tenancy is supported at no extra cost. Implementation services (data migration, custom report design, integration build, training) are quoted separately based on scope.

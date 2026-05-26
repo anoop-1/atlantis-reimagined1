@@ -9,7 +9,7 @@ export default function CmmsForUae() {
       industry="UAE industrial maintenance operations"
       breadcrumbLabel="CMMS for UAE"
       trustBadge="ADNOC AGES / FANR / OSHAD ready"
-      metaDescription="Atlantis NDT ERP CMMS for UAE — ADNOC AGES asset-integrity, FANR radiography licensing, OSHAD-SF HSE, EIAC/ENAS accreditation, bilingual Arabic/English asset registers. Flat $18,000/yr (AED 66,000)."
+      metaDescription="Atlantis NDT ERP CMMS for UAE — ADNOC AGES asset-integrity, FANR radiography licensing, OSHAD-SF HSE, EIAC/ENAS accreditation, bilingual Arabic/English asset registers. Flat regional pricing (AED 66,000)."
       heroBody="Atlantis NDT ERP CMMS pre-configured for UAE industrial-maintenance operations — ADNOC AGES (Asset Integrity Group Engineering Standards) RBI / damage-mechanism management, FANR radiography licensing, OSHAD-SF HSE compliance, and bilingual Arabic/English asset registers. Flat AED 66,000 / $18,000 per year."
       whatItIs={[
         "CMMS for UAE inside Atlantis NDT ERP is pre-configured for ADNOC group operating environments and the wider UAE industrial-maintenance market. Damage-mechanism profiles are pre-loaded for the principal Emirati service environments — H2S sour gas (Bab, Bu Hasa, Asab onshore fields), CO2 / chloride corrosion at ADNOC Offshore (Umm Shaif, Zakum, Lower Zakum, Umm Lulu / Satah Al Razboot SARB) and Das Island, HF acid alkylation at ADNOC Refining Ruwais, MEG / TEG glycol-service corrosion at Habshan / Asab, and elevated chloride-SCC at coastal Ruwais and Fujairah terminals.",

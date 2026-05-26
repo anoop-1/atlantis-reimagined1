@@ -33,7 +33,7 @@ export default function VsGeVernovaApm() {
             comparisonRows={[
                       {
                                 "dim": "TCO Year 1",
-                                "atlantis": "$18K-$120K",
+                                "atlantis": "Contact for pricing",
                                 "competitor": "$300K-$1.5M (license + GE services)"
                       },
                       {

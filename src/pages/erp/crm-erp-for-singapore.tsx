@@ -9,7 +9,7 @@ export default function CrmErpForSingapore() {
       industry="Singapore inspection and engineering services"
       breadcrumbLabel="CRM ERP for Singapore"
       trustBadge="MOM CERT / NEA / SAC / BCA ready"
-      metaDescription="Atlantis NDT ERP CRM for Singapore — MOM CERT NDT-personnel certification, NEA Radiation Protection licensing, SAC ISO 17020/17025 accreditation, BCA building inspection, InvoiceNow PEPPOL e-invoice. Flat $18,000/yr (S$24,300)."
+      metaDescription="Atlantis NDT ERP CRM for Singapore — MOM CERT NDT-personnel certification, NEA Radiation Protection licensing, SAC ISO 17020/17025 accreditation, BCA building inspection, InvoiceNow PEPPOL e-invoice. Flat regional pricing (S$24,300)."
       heroBody="Atlantis NDT ERP CRM pre-configured for Singapore inspection firms — MOM (Ministry of Manpower) CERT NDT-personnel certification, NEA (National Environment Agency) Radiation Protection licensing, SAC (Singapore Accreditation Council) ISO 17020/17025 accreditation, BCA-graded contractor status, and InvoiceNow PEPPOL e-invoicing. Flat S$24,300 / $18,000 per year."
       whatItIs={[
         "CRM ERP for Singapore inside Atlantis NDT ERP is pre-configured for Singapore's high-density Jurong Island and broader inspection-services market. Every opportunity carries structured fields for MOM CERT (Workplace Safety and Health (NDT Inspection) Regulations) NDT-personnel qualification, NEA Radiation Protection and Nuclear Safety (RPNS) industrial-radiography licence, SAC-SINGLAS ISO 17020/17025 accreditation currency, BCA-graded contractor registration, MPA (Maritime and Port Authority) marine-inspection licensing, and CAAS (Civil Aviation Authority of Singapore) Part 145 repair-station status.",

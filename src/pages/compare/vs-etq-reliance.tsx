@@ -33,7 +33,7 @@ export default function VsEtqReliance() {
             comparisonRows={[
                       {
                                 "dim": "TCO Year 1",
-                                "atlantis": "$18K-$120K (inspection + QMS)",
+                                "atlantis": "Contact for pricing (inspection + QMS)",
                                 "competitor": "$80K-$400K+ (QMS only)"
                       },
                       {

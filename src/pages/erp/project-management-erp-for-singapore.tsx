@@ -9,7 +9,7 @@ export default function ProjectManagementErpForSingapore() {
       industry="Singapore inspection projects and turnarounds"
       breadcrumbLabel="Project Management for Singapore"
       trustBadge="MOM CERT / NEA / SAC-SINGLAS / BCA ready"
-      metaDescription="Atlantis NDT ERP Project Management for Singapore — Jurong Island turnaround scheduling, MOM CERT per inspector, NEA RPNS radiography per project, InvoiceNow PEPPOL per invoice. Flat $18,000/yr (S$24,300)."
+      metaDescription="Atlantis NDT ERP Project Management for Singapore — Jurong Island turnaround scheduling, MOM CERT per inspector, NEA RPNS radiography per project, InvoiceNow PEPPOL per invoice. Flat regional pricing (S$24,300)."
       heroBody="Atlantis NDT ERP Project Management pre-configured for Singapore inspection projects — Jurong Island operator-tenant turnaround scheduling, MOM CERT inspector mobilization, NEA RPNS radiography per project, and IMDA InvoiceNow PEPPOL e-invoicing. Flat S$24,300 / $18,000 per year."
       whatItIs={[
         "Project Management ERP for Singapore tracks every inspection project from RFQ through final-invoice closure with structured fields for MOM CERT NDT-personnel certification (Workplace Safety and Health (NDT Inspection) Regulations), NEA RPNS industrial-radiography licensing, SAC-SINGLAS ISO 17020/17025 accreditation, BCA-graded contractor status, MPA marine-inspection licensing, CAAS Part 145 aerospace-MRO documentation, and JTC / EMA / NEA / EDB Jurong Island access-permit integration.",

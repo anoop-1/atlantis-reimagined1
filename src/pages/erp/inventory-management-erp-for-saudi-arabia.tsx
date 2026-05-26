@@ -9,7 +9,7 @@ export default function InventoryManagementErpForSaudiArabia() {
       industry="Saudi Arabia inspection and industrial operations"
       breadcrumbLabel="Inventory Management for Saudi Arabia"
       trustBadge="SAEP-1112 / ZATCA / SAC ready"
-      metaDescription="Atlantis NDT ERP Inventory Management for Saudi Arabia — multi-warehouse Aramco/SABIC/RCJY-aligned stock control, NACE MR0175 consumables tracking, ZATCA e-invoicing, bilingual Arabic/English. Flat $18,000/yr (SAR 67,500)."
+      metaDescription="Atlantis NDT ERP Inventory Management for Saudi Arabia — multi-warehouse Aramco/SABIC/RCJY-aligned stock control, NACE MR0175 consumables tracking, ZATCA e-invoicing, bilingual Arabic/English. Flat regional pricing (SAR 67,500)."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for Saudi Arabia — multi-warehouse stock control across Aramco / SABIC / RCJY-aligned consumables, NACE MR0175 sour-service-grade material tracking, ZATCA Phase 2 e-invoicing, bilingual Arabic/English UI, and SAC-aligned ISO 17025 calibration lot management. Flat SAR 67,500 / $18,000 per year."
       whatItIs={[
         "Inventory Management ERP for Saudi Arabia tracks consumables, capital equipment, calibrated instruments, radiation sources and PPE across multiple warehouses with Aramco / SABIC / SATORP / YASREF lot-traceability requirements. Every UT couplant batch, MT dry-magnetic-particle lot, PT spray-can batch, Ir-192 / Se-75 / Co-60 radioactive source, and radiographic-film lot is tracked with full chain-of-custody from receipt through consumption.",

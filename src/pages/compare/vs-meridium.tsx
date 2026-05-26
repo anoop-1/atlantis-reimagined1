@@ -9,7 +9,7 @@ export default function VsMeridium() {
             competitorVendor="Hexagon"
             competitorUrl="https://hexagon.com/products/meridium-apm"
             metaTitle="Atlantis NDT ERP vs Hexagon Meridium APM 2026 — Honest RBI, FFS & APM Comparison"
-            metaDescription="Hexagon Meridium APM vs Atlantis NDT ERP: refinery RBI / FFS leader vs NDT-native ERP. Meridium $400K-$2M vs Atlantis $18K-$120K, mature damage-mechanism library vs operator-template approach."
+            metaDescription="Hexagon Meridium APM vs Atlantis NDT ERP: refinery RBI / FFS leader vs NDT-native ERP. Meridium $400K-$2M vs Atlantis Contact for pricing, mature damage-mechanism library vs operator-template approach."
             keywords="meridium apm alternative, atlantis ndt erp vs meridium, hexagon meridium comparison, meridium rbi, meridium ffs alternative"
             intro="Hexagon Meridium APM (formerly GE / Bently Nevada / Meridium) is the industry standard for refinery Asset Performance Management. Its API 581 RBI engine, API 579 FFS calculators, and damage-mechanism library are mature, validated by decades of refinery deployments, and supported by Hexagon's services team. Atlantis NDT ERP does not pretend to replace Meridium where Meridium genuinely wins — at $5B+ refinery operators with established RBI programs. Atlantis wins for inspection service companies and smaller operators where Meridium's $400K-$2M+ enterprise pricing and 9-18 month implementation are economically prohibitive."
             competitorWinsTitle="When Hexagon Meridium is the right choice"
@@ -33,7 +33,7 @@ export default function VsMeridium() {
             comparisonRows={[
                       {
                                 "dim": "Total cost of ownership (Year 1)",
-                                "atlantis": "$18K-$120K all-in (SaaS + onboarding)",
+                                "atlantis": "Contact for pricing all-in (SaaS + onboarding)",
                                 "competitor": "$400K-$2M+ (license + Hexagon services + DM library setup)"
                       },
                       {

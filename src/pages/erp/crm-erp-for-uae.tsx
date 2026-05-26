@@ -9,7 +9,7 @@ export default function CrmErpForUae() {
       industry="UAE inspection and engineering services"
       breadcrumbLabel="CRM ERP for UAE"
       trustBadge="ADNOC AGES / FANR / OSHAD ready"
-      metaDescription="Atlantis NDT ERP CRM for UAE — ADNOC AGES qualification mapping, FANR radiography licensing, OSHAD-SF HSE compliance, EIAC/ENAS accreditation tracking, bilingual Arabic/English pipeline. Flat $18,000/yr (AED 66,000)."
+      metaDescription="Atlantis NDT ERP CRM for UAE — ADNOC AGES qualification mapping, FANR radiography licensing, OSHAD-SF HSE compliance, EIAC/ENAS accreditation tracking, bilingual Arabic/English pipeline. Flat regional pricing (AED 66,000)."
       heroBody="Atlantis NDT ERP CRM pre-configured for UAE inspection firms — ADNOC AGES (Asset Integrity Group Engineering Standards) opportunity scoring, FANR radiography licensing awareness, OSHAD-SF HSE framework alignment, EIAC / ENAS / DAC accreditation tracking, and bilingual Arabic/English CRM output. Flat AED 66,000 / $18,000 per year."
       whatItIs={[
         "CRM ERP for UAE inside Atlantis NDT ERP is pre-configured for the Emirates' inspection-services market. Every opportunity is tagged against ADNOC group (ADNOC Onshore, ADNOC Offshore, ADNOC Refining, ADNOC Gas, ADNOC LNG, Borouge), ENOC, Emirates Global Aluminium, DUCAB, Dolphin Energy, Sharjah National Oil Company (SNOC), and Ras Al Khaimah Maritime City counterparties — with structured fields for the AGES (Asset Integrity Group Engineering Standards) scope, FANR (Federal Authority for Nuclear Regulation) industrial-radiography licence number, and OSHAD-SF (Occupational Safety and Health Center Abu Dhabi — Statutory Framework) compliance status.",

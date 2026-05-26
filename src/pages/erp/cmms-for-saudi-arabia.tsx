@@ -9,7 +9,7 @@ export default function CmmsForSaudiArabia() {
       industry="Saudi Arabia industrial maintenance operations"
       breadcrumbLabel="CMMS for Saudi Arabia"
       trustBadge="SAEP-1112 / Aramco AIM / NACE MR0175 ready"
-      metaDescription="Atlantis NDT ERP CMMS for Saudi Arabia — Aramco SAEP-1119 RBI, NACE MR0175 sour-service, SAC-002 cybersecurity data residency, bilingual Arabic/English asset registers. Flat $18,000/yr (SAR 67,500)."
+      metaDescription="Atlantis NDT ERP CMMS for Saudi Arabia — Aramco SAEP-1119 RBI, NACE MR0175 sour-service, SAC-002 cybersecurity data residency, bilingual Arabic/English asset registers. Flat regional pricing (SAR 67,500)."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Saudi Arabia industrial-maintenance operations — Saudi Aramco SAEP-1119 RBI / damage-mechanism management, NACE MR0175 sour-service tracking, SACS-002 cybersecurity data residency, and bilingual Arabic/English asset registers. Flat SAR 67,500 / $18,000 per year."
       whatItIs={[
         "CMMS for Saudi Arabia inside Atlantis NDT ERP is the Odoo 18 maintenance module pre-configured for the Kingdom's operating environment — Saudi Aramco SAEP-1119 Asset Integrity standard, SAEP-1112 inspector-qualification framework, NACE MR0175 sour-service damage-mechanism profiles, ASME PCC-2 and API 510 / 570 / 653 inspection-interval management, and bilingual Arabic/English asset registers with Hijri/Gregorian dual dating.",

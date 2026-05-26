@@ -33,7 +33,7 @@ export default function VsAspentechMtell() {
             comparisonRows={[
                       {
                                 "dim": "Total cost of ownership (Year 1)",
-                                "atlantis": "$18K-$120K all-in (SaaS + onboarding)",
+                                "atlantis": "Contact for pricing all-in (SaaS + onboarding)",
                                 "competitor": "$300K-$1.5M+ (Mtell license + AspenTech services + ML model curation)"
                       },
                       {

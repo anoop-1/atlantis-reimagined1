@@ -37,7 +37,7 @@ export default function VsMaximo() {
                 { dim: "Industry configs (NDT, calibration lab, welding, marine survey)", atlantis: "12 inspection vertical configs pre-loaded", competitor: "Maximo Oil & Gas, Utilities, Transportation industry solutions; not NDT-specific" },
                 { dim: "Mobile field app (offline capture)", atlantis: "Native iOS / Android, offline-first inspection capture", competitor: "Maximo Mobile / Anywhere — capable but requires configuration for NDT workflows" },
                 { dim: "Cloud / on-prem", atlantis: "Multi-tenant SaaS, single-tenant cloud, on-prem", competitor: "IBM Cloud, OpenShift, on-prem; MAS SaaS available" },
-                { dim: "Multi-tenant SaaS pricing", atlantis: "Yes — published per-seat tiers from $18K/yr", competitor: "No public multi-tenant SaaS pricing; enterprise contracts" },
+                { dim: "Multi-tenant SaaS pricing", atlantis: "Yes — published per-seat tiers from regional pricing", competitor: "No public multi-tenant SaaS pricing; enterprise contracts" },
                 { dim: "Operator template library (Aramco, ADNOC, Petronas, KOC)", atlantis: "Pre-built inspection templates per major operator", competitor: "Custom build by IBM services partner" },
                 { dim: "Audit-package generation (one-click TPI / regulator pack)", atlantis: "Native — one-click ASNT, ISO 17025, AS9100 packs", competitor: "Custom report engine via Cognos / BIRT" },
                 { dim: "Pricing model", atlantis: "Per-seat tiered SaaS, predictable", competitor: "Per-user + per-asset (MAS app points) + add-on apps" },

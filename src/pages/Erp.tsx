@@ -116,8 +116,8 @@ export default function Erp() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="Affordable ERP — $18,000/yr, 30+ Odoo Apps Included"
-            description="Atlantis ERP — $18,000/year flat. All 30+ Odoo 18 apps included: inventory, CRM, accounting, HR, projects. Fully customizable. Beats SAP/NetSuite 10x on cost. Demo: info@atlantisndt.com"
+            title="Affordable ERP — regional pricing, 30+ Odoo Apps Included"
+            description="Atlantis ERP — regional pricing. All 30+ Odoo 18 apps included: inventory, CRM, accounting, HR, projects. Fully customizable. Beats SAP/NetSuite 10x on cost. Demo: info@atlantisndt.com"
             keywords="ERP software, business management, Odoo alternative, inventory, sales, finance, HR, project management"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/erp"

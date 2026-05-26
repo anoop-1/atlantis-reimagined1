@@ -33,7 +33,7 @@ export default function VsNetsuite() {
             comparisonRows={[
                       {
                                 "dim": "TCO Year 1",
-                                "atlantis": "$18K-$120K (inspection workflow)",
+                                "atlantis": "Contact for pricing (inspection workflow)",
                                 "competitor": "$50K-$300K (NetSuite ERP)"
                       },
                       {

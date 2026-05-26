@@ -9,7 +9,7 @@ export default function ProjectManagementErpForUae() {
       industry="UAE inspection projects and turnarounds"
       breadcrumbLabel="Project Management for UAE"
       trustBadge="ADNOC AGES / FANR / OSHAD ready"
-      metaDescription="Atlantis NDT ERP Project Management for UAE — ADNOC turnaround scheduling, AGES inspector mobilization, FANR radiography, OSHAD-SF HSE compliance, bilingual Arabic/English. Flat $18,000/yr (AED 66,000)."
+      metaDescription="Atlantis NDT ERP Project Management for UAE — ADNOC turnaround scheduling, AGES inspector mobilization, FANR radiography, OSHAD-SF HSE compliance, bilingual Arabic/English. Flat regional pricing (AED 66,000)."
       heroBody="Atlantis NDT ERP Project Management pre-configured for UAE inspection projects — ADNOC group turnaround scheduling, AGES (Asset Integrity Group Engineering Standards)-aware inspector mobilization, OSHAD-SF HSE compliance, and bilingual Arabic/English UI. Flat AED 66,000 / $18,000 per year."
       whatItIs={[
         "Project Management ERP for UAE tracks every inspection project from RFQ through final-invoice closure with structured fields for ADNOC AGES inspector-qualification scope, FANR radiography licensing, OSHAD-SF HSE compliance, and ADNOC Tejari / ENOC / SNOC vendor-portal evidence requirements. Project templates are pre-built for ADNOC Onshore Bab/Bu Hasa/Asab turnarounds, ADNOC Offshore Das Island/Zirku/Umm Shaif/SARB platform inspection, ADNOC Refining Ruwais major-maintenance, Borouge polyolefin plant shutdowns, ENOC Jebel Ali jetty/terminal inspection, EGA aluminium-smelter major-overhauls, and SNOC Sharjah onshore-gas inspection.",

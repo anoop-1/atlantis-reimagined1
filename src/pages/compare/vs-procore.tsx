@@ -33,7 +33,7 @@ export default function VsProcore() {
             comparisonRows={[
                       {
                                 "dim": "TCO Year 1",
-                                "atlantis": "$18K-$120K",
+                                "atlantis": "Contact for pricing",
                                 "competitor": "$30K-$200K+ (Procore subscription + modules)"
                       },
                       {

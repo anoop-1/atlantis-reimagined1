@@ -33,7 +33,7 @@ export default function VsBentleyAssetwise() {
             comparisonRows={[
                       {
                                 "dim": "TCO Year 1",
-                                "atlantis": "$18K-$120K",
+                                "atlantis": "Contact for pricing",
                                 "competitor": "$200K-$800K (license + Bentley services)"
                       },
                       {

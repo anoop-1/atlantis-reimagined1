@@ -84,8 +84,8 @@ export default function NdtErpImplementationTimeline() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP Implementation 2026 — Live in 90 Days, $18K/yr"
-        description="Go live on NDT ERP in 30/60/90 days for $18,000/yr — vs 9-24 months for SAP. Day-by-day gantt, migration, UAT, cutover. 7-risk register. Free 90-day plan."
+        title="NDT ERP Implementation 2026 — Live in 90 Days, regional pricing"
+        description="Go live on NDT ERP in 30/60/90 days for regional pricing — vs 9-24 months for SAP. Day-by-day gantt, migration, UAT, cutover. 7-risk register. Free 90-day plan."
         keywords="NDT ERP implementation, NDT ERP timeline, NDT ERP go-live plan, NDT ERP 30 60 90 day plan, NDT ERP rollout, inspection ERP deployment"
         canonical="https://atlantisndt.com/ndt-erp-implementation-timeline"
         structuredData={structuredData}
