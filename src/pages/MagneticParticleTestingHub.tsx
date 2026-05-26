@@ -37,6 +37,8 @@ const faqs = [
     answer:
       "MT per-joint cost on weld toes averages $3–$6 per linear inch for visible dry; $5–$9 for WFMT with UV booth. On a typical shop weld, MT is 3–5x faster than UT Level II examination and an order of magnitude faster than RT. It beats UT whenever the concern is surface-breaking defects: weld toe cracks, heat-affected-zone cracks, crankshaft surface indications, casting surface porosity. UT wins the moment volumetric inspection or depth sizing is required.",
   },
+    { question: 'How does magnetic particle testing detect surface cracks?', answer: 'Magnetic particle testing magnetises a ferromagnetic part and applies iron particles; surface and near-surface cracks distort the magnetic field and create a leakage field that holds the particles, forming a visible indication. It is one of the fastest methods for surface crack detection on welds and castings, following ASME Section V Article 7.' }, /*kw-embed*/
+    { question: 'What is surface crack detection with magnetic particle inspection?', answer: 'Surface crack detection by magnetic particle inspection (MT or MPI) reveals cracks, laps, seams, and other surface-breaking discontinuities in ferromagnetic materials using wet fluorescent or dry powder techniques. For non-ferromagnetic materials, liquid penetrant testing is used instead.' }, /*kw-embed*/
 ];
 
 const cities = [

@@ -37,6 +37,9 @@ const faqs = [
     answer:
       "UT shines where RT struggles: planar defects oriented parallel to the radiation beam (lack of fusion on bevel faces, fatigue cracks), material thickness above ~100 mm where RT exposures become impractical, and in-service inspection where radiation safety lockouts would shut the plant down. UT also gives depth information natively, which RT does not — crucial for fitness-for-service calcs. RT still wins for porosity clusters, slag inclusions, and geometry where access allows film/detector placement on both sides.",
   },
+    { question: 'What is involved in ultrasonic testing Level 1 training?', answer: 'UT Level 1 training combines classroom theory with supervised on-the-job hours under SNT-TC-1A. You learn equipment setup, calibration, couplants, and basic flaw and thickness measurement, qualifying you to test under Level II supervision. The exact hour requirements follow your employer Written Practice.' }, /*kw-embed*/
+    { question: 'How does ultrasonic testing detect corrosion?', answer: 'Ultrasonic corrosion mapping measures remaining wall thickness from the back-wall echo time-of-flight. Scanning across a grid produces a corrosion map that reveals pitting, corrosion under insulation, and erosion, giving a quantified record for fitness-for-service and remaining-life decisions.' }, /*kw-embed*/
+    { question: 'What is a typical PAUT technician salary?', answer: 'Phased array UT technicians generally earn more than conventional UT Level II inspectors because PAUT adds image-based scanning, data archiving, and code-qualified procedures. Rates vary widely by region and sector, with the highest packages in oil and gas, offshore, and the Gulf. Contact us for current ranges and openings rather than relying on a single fixed figure.' }, /*kw-embed*/
 ];
 
 const cities = [

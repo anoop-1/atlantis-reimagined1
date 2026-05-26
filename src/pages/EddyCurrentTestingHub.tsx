@@ -37,6 +37,8 @@ const faqs = [
     answer:
       "Heat exchanger tube inspection: $0.50–$1.50 per tube for conventional ECT, $1–$2.50 for RFT, $2–$5 for ECA or NFA — a 2,000-tube bundle runs $3K–$8K plus mobilization. Weld ECT on non-ferrous: $4–$8 per inch. Aircraft fastener-hole ECT: $2–$6 per hole. Coating thickness surveys: $150–$300 per hour. Field day rate for ECT Level II crew with calibrated equipment: $900–$1,500.",
   },
+    { question: 'What is eddy current testing used for?', answer: 'Eddy current testing detects surface and near-surface flaws in conductive materials. It is widely used for heat-exchanger and condenser tube inspection, weld inspection, conductivity and coating-thickness measurement, and aircraft fastener-hole inspection. It needs no couplant and is fast for in-service screening.' }, /*kw-embed*/
+    { question: 'How does eddy current testing work?', answer: 'Eddy current testing induces circulating currents in a conductive part with an alternating-current coil. Flaws, conductivity changes, or geometry changes disturb those currents and the coil impedance, which the instrument displays. ET follows codes such as ASME Section V Article 8.' }, /*kw-embed*/
 ];
 
 const cities = [
