@@ -26,7 +26,7 @@ export const digitalTwinCityProfiles: Record<string, Partial<DigitalTwinPage>> =
             "Pipeline corridor modeling with integrated SCADA data for leak prediction",
             "Cracking unit efficiency optimization through digital process simulation"
         ],
-        industryContext: "Houston's energy sector relies on complex refinery operations where downtime costs $200,000+ per hour. Digital twins enable precision maintenance scheduling during turnarounds and real-time optimization of cracking units, directly impacting the bottom line of ExxonMobil, Chevron, Shell, and BP operations.",
+        industryContext: "Houston's energy sector relies on complex refinery operations where unplanned downtime is extremely costly. Digital twins enable precision maintenance scheduling during turnarounds and real-time optimization of cracking units, directly impacting the bottom line of ExxonMobil, Chevron, Shell, and BP operations.",
         roiData: [
             { metric: "Refinery Turnaround Cost Savings", value: "15-20% reduction in planned maintenance downtime" },
             { metric: "Unplanned Downtime Prevention", value: "Up to 30% fewer emergency shutdowns through predictive analytics" },

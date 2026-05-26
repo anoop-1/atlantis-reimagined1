@@ -191,7 +191,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-bentley-itwin",
       ndtNative: "No — CAD/BIM lineage; NDT requires custom integration",
       level3: "Not embedded — partner integrators only",
-      pricing: "$80K-$500K/yr usage-based + per-seat licensing",
+      pricing: "On request",
       deploy: "Cloud SaaS; limited on-prem",
    },
    {
@@ -199,7 +199,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-hexagon-eam",
       ndtNative: "Partial — Meridium APM has CML; HxDR is reality capture",
       level3: "External consulting required",
-      pricing: "$300K-$1.5M/yr typical",
+      pricing: "On request",
       deploy: "Cloud or on-prem; complex install",
    },
    {
@@ -207,7 +207,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-aveva-pi-system",
       ndtNative: "No — process historian first; NDT bolted on",
       level3: "Not part of platform",
-      pricing: "$200K-$800K/yr based on tag count",
+      pricing: "On request",
       deploy: "On-prem + cloud hybrid",
    },
    {
@@ -215,7 +215,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-ge-predix",
       ndtNative: "Limited — APM Mechanical Integrity module is add-on",
       level3: "External SI engagement",
-      pricing: "$250K-$1M/yr typical enterprise",
+      pricing: "On request",
       deploy: "Cloud-first; on-prem deprecated",
    },
    {
@@ -223,7 +223,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-siemens-mindsphere",
       ndtNative: "No — IIoT and analytics; NDT is custom build",
       level3: "Customer-supplied",
-      pricing: "$150K-$600K/yr + SI cost",
+      pricing: "On request",
       deploy: "Cloud SaaS only",
    },
    {
@@ -231,7 +231,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-ibm-maximo",
       ndtNative: "Partial — Maximo Health & APM Predict; CML add-on",
       level3: "Not included",
-      pricing: "$400K-$2M/yr enterprise tier",
+      pricing: "On request",
       deploy: "Cloud or Red Hat OpenShift on-prem",
    },
    {
@@ -239,7 +239,7 @@ const vendorCompare = [
       href: "/compare/atlantis-dt-vs-aspen-mtell",
       ndtNative: "No — ML-led predictive maintenance; rotating equipment focus",
       level3: "Not embedded",
-      pricing: "$300K-$900K/yr",
+      pricing: "On request",
       deploy: "Cloud or on-prem",
    },
 ];
@@ -787,8 +787,7 @@ export default function DigitalTwins() {
                         <Badge className="mb-3 bg-slate-700 text-slate-200">Air-gap / multi-tenant</Badge>
                         <h3 className="text-2xl font-bold mb-2">Enterprise custom</h3>
                         <div className="flex items-baseline gap-2 mb-5">
-                           <span className="text-4xl font-bold text-blue-400">$400K+</span>
-                           <span className="text-slate-400">/ year</span>
+                           <span className="text-4xl font-bold text-blue-400">Contact us</span>
                         </div>
                         <ul className="space-y-2.5 text-slate-300 text-sm">
                            {[
@@ -801,7 +800,7 @@ export default function DigitalTwins() {
                               "Custom regulatory export packages (Aramco SAEP, ADNOC PQQ, QatarEnergy QPP, KOC, ONGC)",
                               "FedRAMP / IRAP / C5 alignment available",
                               "Source-code escrow + on-site escrow keys",
-                              "Per-plant onboarding $50K-$150K depending on scope",
+                              "Per-plant onboarding scoped to your facility",
                            ].map(item => (
                               <li key={item} className="flex items-start gap-2">
                                  <CheckCircle className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
