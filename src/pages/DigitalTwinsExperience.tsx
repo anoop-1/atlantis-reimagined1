@@ -101,10 +101,10 @@ const industries = [
 ];
 
 const metrics = [
-   { value: "$200K", label: "per year — full enterprise SaaS license" },
-   { value: "4–6 wk", label: "to first asset live on the twin" },
-   { value: "20+", label: "NDT data connectors shipped" },
-   { value: "SOC 2", label: "Type II audited tenancy" },
+   { value: "All-in-one", label: "one enterprise license — everything included" },
+   { value: "Weeks", label: "to first asset live on the twin" },
+   { value: "Every method", label: "UT, PAUT, TOFD, AUT, ILI & IoT connectors" },
+   { value: "Level III-led", label: "approved & hash-chained for the regulator" },
 ];
 
 const assetUseCases = [
@@ -153,7 +153,7 @@ export default function DigitalTwinsExperience() {
                            </motion.div>
                            <motion.h1
                               variants={fadeUp}
-                              className="text-4xl md:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500"
+                              className="text-4xl md:text-6xl font-bold leading-tight text-[#004aad]"
                            >
                               Your asset,
                               <br />
@@ -168,7 +168,7 @@ export default function DigitalTwinsExperience() {
                               <Button
                                  asChild
                                  size="lg"
-                                 className="bg-neutral-900 text-white hover:bg-neutral-800 font-semibold"
+                                 className="bg-[#004aad] text-white hover:bg-[#003d8f] font-bold"
                               >
                                  <a href="mailto:info@atlantisndt.com?subject=Digital%20Twin%20Demo">
                                     Book a live demo <ArrowRight className="ml-2 w-4 h-4" />
@@ -178,7 +178,7 @@ export default function DigitalTwinsExperience() {
                                  asChild
                                  size="lg"
                                  variant="outline"
-                                 className="border-neutral-300 bg-transparent text-neutral-800 hover:bg-neutral-100"
+                                 className="border-[#004aad] bg-transparent text-[#004aad] hover:bg-[#004aad]/10 font-bold"
                               >
                                  <Link to="/digital-twins">See full platform</Link>
                               </Button>
@@ -203,7 +203,7 @@ export default function DigitalTwinsExperience() {
                   variants={fadeUp}
                   className="max-w-2xl"
                >
-                  <h2 className="text-3xl md:text-4xl font-bold text-neutral-900">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#004aad]">
                      One twin. Every NDT method.
                   </h2>
                   <p className="mt-4 text-neutral-600 text-lg">
@@ -245,7 +245,7 @@ export default function DigitalTwinsExperience() {
                         transition={{ duration: 0.5, delay: i * 0.1 }}
                         className="text-center"
                      >
-                        <div className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500">
+                        <div className="text-3xl md:text-5xl font-bold text-[#004aad]">
                            {m.value}
                         </div>
                         <div className="mt-2 text-sm text-neutral-600">{m.label}</div>
@@ -261,7 +261,7 @@ export default function DigitalTwinsExperience() {
                   whileInView="show"
                   viewport={{ once: true }}
                   variants={fadeUp}
-                  className="text-3xl md:text-4xl font-bold text-neutral-900 max-w-2xl"
+                  className="text-3xl md:text-4xl font-bold text-[#004aad] max-w-2xl"
                >
                   Built for the assets that fail expensively.
                </motion.h2>
@@ -299,7 +299,7 @@ export default function DigitalTwinsExperience() {
                   variants={fadeUp}
                   className="rounded-2xl border border-neutral-200 bg-neutral-50 p-8 md:p-12"
                >
-                  <h2 className="text-2xl md:text-3xl font-bold text-neutral-900">
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#004aad]">
                      Twelve asset families, twelve playbooks.
                   </h2>
                   <p className="mt-3 text-neutral-600 max-w-2xl">
@@ -331,15 +331,15 @@ export default function DigitalTwinsExperience() {
                >
                   <Spotlight className="-top-40 left-1/2 -translate-x-1/2" fill="#22d3ee" />
                   <div className="relative z-10">
-                     <h2 className="text-3xl md:text-5xl font-bold text-neutral-900">
-                        $200,000 / year. Everything included.
+                     <h2 className="text-3xl md:text-5xl font-bold text-[#004aad]">
+                        One enterprise license. Everything included.
                      </h2>
                      <p className="mt-5 text-neutral-700 max-w-2xl mx-auto text-lg">
-                        Unlimited connectors, the FFS + RBI engines, 40 hours of ASNT Level III
-                        consulting, cloud / on-prem / air-gapped — one flat enterprise license.
+                        Unlimited connectors, the FFS + RBI engines, ASNT Level III
+                        consulting, and cloud / on-prem / air-gapped deployment — one flat enterprise license.
                      </p>
                      <ul className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-neutral-700">
-                        {["All NDT methods (UT/RT/MT/PT/ET/VT/PAUT/TOFD/AUT/ILI/IoT)", "SOC 2 Type II", "Source-code escrow", "24×7 support"].map((f) => (
+                        {["All NDT methods (UT/RT/MT/PT/ET/VT/PAUT/TOFD/AUT/ILI/IoT)", "Enterprise-grade security", "Source-code escrow", "Round-the-clock support"].map((f) => (
                            <li key={f} className="flex items-center gap-2">
                               <CheckCircle className="w-4 h-4 text-cyan-600 shrink-0" />
                               {f}
@@ -350,7 +350,7 @@ export default function DigitalTwinsExperience() {
                         <Button
                            asChild
                            size="lg"
-                           className="bg-neutral-900 text-white hover:bg-neutral-800 font-semibold"
+                           className="bg-[#004aad] text-white hover:bg-[#003d8f] font-bold"
                         >
                            <a href="mailto:info@atlantisndt.com?subject=Digital%20Twin%20Demo">
                               Book a live demo <ArrowRight className="ml-2 w-4 h-4" />
@@ -360,7 +360,7 @@ export default function DigitalTwinsExperience() {
                            asChild
                            size="lg"
                            variant="outline"
-                           className="border-neutral-300 bg-transparent text-neutral-800 hover:bg-neutral-100"
+                           className="border-[#004aad] bg-transparent text-[#004aad] hover:bg-[#004aad]/10 font-bold"
                         >
                            <Link to="/digital-twin-roi-calculator">ROI calculator</Link>
                         </Button>

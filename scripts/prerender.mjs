@@ -176,7 +176,7 @@ const CTR_OVERRIDES = {
   },
   '/ndt-training-usa': {
     title: 'NDT Training USA 2026: ASNT Level I/II/III, 40-80 hr Courses, $1,200–$3,500',
-    description: 'NDT training across USA — ASNT SNT-TC-1A + ACCP Level I/II/III. UT, RT, MT, PT, ET, VT. Online + onsite (Houston, Dallas, Pittsburgh, Anchorage). 95% pass rate, OJT logs included.'
+    description: 'NDT training across USA — ASNT SNT-TC-1A + ACCP Level I/II/III. UT, RT, MT, PT, ET, VT. Online + onsite (Houston, Dallas, Pittsburgh, Anchorage). consistently high exam pass rates, OJT logs included.'
   },
   // OFI 2026-05-09 — top remaining CTR bleeders not yet covered.
   // /blog/magnetic-particle-testing alone losing ~70 cl/mo at pos 15 with 1342 impr.
@@ -576,8 +576,12 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
     // head-term link equity into the pillar hubs across all ~2,477 pages.
     const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/ndt-training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>`;
     const augmentedBody = bodyContent + PILLAR_NAV;
+    // The dist template closes #root immediately before </body> with no body
+    // <script> tag, so the previous /<\/div>\s*<script/ anchor never matched
+    // and bodyContent was silently dropped on every page. Anchor on the #root
+    // closing </div> that precedes </body> instead.
     out = out.replace(
-      /(<div id="root">)[\s\S]*?(<\/div>\s*<script)/,
+      /(<div id="root">)[\s\S]*?(<\/div>\s*<\/body>)/,
       (_match, open, close) => `${open}\n${augmentedBody}\n${close}`
     );
   }
@@ -631,14 +635,14 @@ const corePages = [
   {
     path: '/about',
     title: 'About Atlantis NDT | Global NDT Consulting & Training Leaders',
-    description: 'Learn about Atlantis NDT — a global leader in NDT consulting, training and digital twins. 50+ ASNT Level III experts serving oil & gas, aerospace & industry across USA, India and Middle East.',
+    description: 'Learn about Atlantis NDT — a global leader in NDT consulting, training and digital twins. ASNT Level III experts serving oil & gas, aerospace & industry across USA, India and Middle East.',
     bodyH1: 'About Atlantis NDT',
-    bodyText: 'Atlantis NDT is a global leader in Non-Destructive Testing consulting, training, and digital twin technology. Our team of 50+ ASNT Level III certified professionals serves clients across the USA, India, and Middle East.',
+    bodyText: 'Atlantis NDT is a global leader in Non-Destructive Testing consulting, training, and digital twin technology. Our team of ASNT Level III certified professionals serves clients across the USA, India, and Middle East.',
   },
   {
     path: '/consulting',
     title: 'NDT Consulting Services | ASNT Level III Experts | Atlantis NDT',
-    description: 'NDT consulting from 50+ ASNT Level III experts. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. USA, India, Middle East.',
+    description: 'NDT consulting from ASNT Level III experts. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. USA, India, Middle East.',
     bodyH1: 'NDT Consulting Services',
     bodyText: 'Atlantis NDT provides expert NDT consulting services including procedure development, program audits, ASNT SNT-TC-1A compliance, and written practice development.',
   },
@@ -666,16 +670,16 @@ const corePages = [
   {
     path: '/training',
     title: 'NDT Training Courses | ASNT Level I II III Certification | Atlantis NDT',
-    description: 'ASNT-aligned NDT training courses for Level I, II & III certification. UT, MT, PT, RT, ET, VT methods. Online and classroom options. 95% pass rate. USA, India & Middle East.',
+    description: 'ASNT-aligned NDT training courses for Level I, II & III certification. UT, MT, PT, RT, ET, VT methods. Online and classroom options. consistently high exam pass rates. USA, India & Middle East.',
     bodyH1: 'NDT Training Programs',
-    bodyText: 'Professional NDT training courses for ASNT Level I, II, and III certification. Covering UT, MT, PT, RT, ET, and VT methods with 95% pass rate across all programs.',
+    bodyText: 'Professional NDT training courses for ASNT Level I, II, and III certification. Covering UT, MT, PT, RT, ET, and VT methods with consistently high exam pass rates across all programs.',
   },
   {
     path: '/training-usa',
     title: 'NDT Training USA | ASNT Certification Courses Houston | Atlantis NDT',
-    description: 'ASNT-aligned NDT training courses in the USA. Level I, II & III certification for UT, MT, PT, RT, ET, VT. Houston training center with online options. 95% pass rate.',
+    description: 'ASNT-aligned NDT training courses in the USA. Level I, II & III certification for UT, MT, PT, RT, ET, VT. Houston training center with online options. consistently high exam pass rates.',
     bodyH1: 'NDT Training USA',
-    bodyText: 'Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with 95% pass rate.',
+    bodyText: 'Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with consistently high exam pass rates.',
   },
   {
     path: '/training-india',
@@ -687,7 +691,7 @@ const corePages = [
   {
     path: '/training-me',
     title: 'NDT Training Dubai & Middle East [2026]: ASNT + ISO 9712, Level I-III (Monthly Batches)',
-    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, 95% pass rate, ADNOC & Aramco recognized. Cost: $2K-$6K per level. Enrol for March/April 2026 batches.',
+    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, consistently high exam pass rates, ADNOC & Aramco recognized. Cost: $2K-$6K per level. Enrol for March/April 2026 batches.',
     bodyH1: 'NDT Training Middle East',
     bodyText: 'Professional NDT training across Middle East: UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for all major NDT methods.',
   },
@@ -808,7 +812,7 @@ const corePages = [
     title: 'API 653 Certification [2026]: Tank Inspector Exam — 10 Codes You Must Know',
     description: 'API 653 tank inspector exam requires 10 reference codes (API 650/651/653, ASME V/IX). Our guide covers exam format, cost ($3K-$6K), RBI formulas, and $80K-$130K+ salary path.',
     bodyH1: 'API 653 Aboveground Storage Tank Inspector Certification',
-    bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, RBI, tank inspection intervals, and NDT methods. 95% pass rate.',
+    bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, RBI, tank inspection intervals, and NDT methods. consistently high exam pass rates.',
   },
   {
     path: '/intelligent-reporting-software',
@@ -841,21 +845,21 @@ const corePages = [
   {
     path: '/ndt-training-usa',
     title: 'NDT Training USA | ASNT Certification Houston | SNT-TC-1A & CP-189 | Atlantis NDT',
-    description: 'NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95% pass rate.',
+    description: 'NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. consistently high exam pass rates.',
     bodyH1: 'NDT Training USA',
-    bodyText: 'Professional NDT training in the USA. ASNT SNT-TC-1A and CP-189 certification courses in Houston, TX and online. Level I, II, and III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410 preparation available. 95% pass rate.',
+    bodyText: 'Professional NDT training in the USA. ASNT SNT-TC-1A and CP-189 certification courses in Houston, TX and online. Level I, II, and III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410 preparation available. consistently high exam pass rates.',
   },
   {
     path: '/ndt-training-india',
     title: 'NDT Training India | ASNT & ISNT Certification Hyderabad | Atlantis NDT',
-    description: 'NDT training in India: ASNT SNT-TC-1A and ISNT Level I, II, III courses in Hyderabad, Mumbai, Chennai, Delhi. UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol today.',
+    description: 'NDT training in India: ASNT SNT-TC-1A and ISNT Level I, II, III courses in Hyderabad, Mumbai, Chennai, Delhi. UT, MT, PT, RT, ET, VT. consistently high exam pass rates. Enrol today.',
     bodyH1: 'NDT Training India',
-    bodyText: 'Professional NDT training across India. ASNT SNT-TC-1A and ISNT Level I, II, and III certification courses in Hyderabad (main center), Mumbai, Chennai, Delhi NCR, and Bangalore. UT, MT, PT, RT, ET, VT. Online options available. 95% pass rate.',
+    bodyText: 'Professional NDT training across India. ASNT SNT-TC-1A and ISNT Level I, II, and III certification courses in Hyderabad (main center), Mumbai, Chennai, Delhi NCR, and Bangalore. UT, MT, PT, RT, ET, VT. Online options available. consistently high exam pass rates.',
   },
   {
     path: '/ndt-training-dubai',
     title: 'NDT Training Dubai [2026]: ASNT & ISO 9712 Level I-III, $2K-$6K, 95% Pass Rate [Monthly]',
-    description: 'NDT training in Dubai, UAE [2026]: ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Cost: $2K-$6K per level, monthly batches, 95% pass rate, ADNOC & Aramco recognized. Tax-free NDT career in UAE earning $45K-$120K+. Next batch: March 2026. Enrol now.',
+    description: 'NDT training in Dubai, UAE [2026]: ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Cost: $2K-$6K per level, monthly batches, consistently high exam pass rates, ADNOC & Aramco recognized. Tax-free NDT career in UAE earning $45K-$120K+. Next batch: March 2026. Enrol now.',
     bodyH1: 'NDT Training Dubai & UAE',
     bodyText: 'Professional NDT training in Dubai, Abu Dhabi, and across UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for oil & gas industry professionals. CSWIP preparation available. ADNOC and Aramco contractor recognised. Tax-free career in UAE. Monthly class starts.',
   },
@@ -6910,7 +6914,7 @@ corePages.forEach(p => {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "NDT Training - ASNT Level I, II, III Certification",
-      "description": "Professional NDT training courses for ASNT Level I, II, and III certification. Covering UT, MT, PT, RT, ET, and VT methods with flexible scheduling and 95% pass rate.",
+      "description": "Professional NDT training courses for ASNT Level I, II, and III certification. Covering UT, MT, PT, RT, ET, and VT methods with flexible scheduling and consistently high exam pass rates.",
       "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
       "educationalLevel": "Professional",
       "courseCode": "NDT-CERT",
@@ -6928,7 +6932,7 @@ corePages.forEach(p => {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "NDT Training USA - ASNT Level I, II, III Certification",
-      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with 95% pass rate. UT, MT, PT, RT, ET, VT methods.",
+      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with consistently high exam pass rates. UT, MT, PT, RT, ET, VT methods.",
       "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
       "educationalLevel": "Professional",
       "courseCode": "NDT-USA",
@@ -7000,7 +7004,7 @@ corePages.forEach(p => {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "NDT Training USA - ASNT Level I, II, III Certification",
-      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with 95% pass rate. UT, MT, PT, RT, ET, VT methods.",
+      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with consistently high exam pass rates. UT, MT, PT, RT, ET, VT methods.",
       "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
       "educationalLevel": "Professional",
       "courseCode": "NDT-USA",
@@ -8303,9 +8307,9 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
   routes.push({
     path: `/ndt-training-${slug}`,
     title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
-    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} 95% pass rate. Enrol today.`,
+    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} consistently high exam pass rates. Enrol today.`,
     canonical: `${SITE_URL}/ndt-training-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}. ${detail} Level I, II, and III certification for all major NDT methods with 95% pass rate.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}. ${detail} Level I, II, and III certification for all major NDT methods with consistently high exam pass rates.</p>\n  </main>`,
   });
 });
 
@@ -8314,7 +8318,7 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
 const additionalTrainingPages = [
   { path: '/api-510-training', title: 'API 510 Training 2026 — Houston, Dubai, Saudi, Singapore, India', description: 'API 510 Pressure Vessel Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME VIII Div 1 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors.', h1: 'API 510 Pressure Vessel Inspector Training' },
   { path: '/api-653-training', title: 'API 653 Training 2026 — Houston, Dubai, Saudi (Jubail/Yanbu), Singapore', description: 'API 653 Aboveground Storage Tank Inspector training in Houston, Dubai, Saudi Arabia (Jubail / Yanbu / Ras Tanura), Singapore, Hyderabad, and online. API 650/651/652 + 571/575/577 + ASME V/IX, 5-day prep, 95% first-attempt pass rate.', h1: 'API 653 Tank Inspector Training' },
-  { path: '/asnt-level-iii-training', title: 'ASNT Level III Training | NDT Manager Certification Prep | Atlantis NDT', description: 'ASNT Level III certification training: Basic, Method, and Specific exam preparation. Written practice development, program management, and procedure review. 95% pass rate.', h1: 'ASNT Level III Certification Training' },
+  { path: '/asnt-level-iii-training', title: 'ASNT Level III Training | NDT Manager Certification Prep | Atlantis NDT', description: 'ASNT Level III certification training: Basic, Method, and Specific exam preparation. Written practice development, program management, and procedure review. consistently high exam pass rates.', h1: 'ASNT Level III Certification Training' },
   { path: '/phased-array-training', title: 'Phased Array UT Training | PAUT Certification Course | Atlantis NDT', description: 'Phased Array UT (PAUT) training and certification. S-scan, TFM, sector scans, ASME V Appendix IV. Hands-on lab with Olympus OmniScan. Houston, Dubai, India & online.', h1: 'Phased Array UT (PAUT) Training' },
 ];
 
@@ -8804,7 +8808,7 @@ certSlugs.forEach(cert => {
     routes.push({
       path,
       title: `${cert.name} in ${city.name} | Atlantis NDT`,
-      description: `${cert.name} courses in ${city.name}. Expert-led preparation with 95% pass rate. Classroom and online options available. Enrol today.`,
+      description: `${cert.name} courses in ${city.name}. Expert-led preparation with consistently high exam pass rates. Classroom and online options available. Enrol today.`,
       canonical: `${SITE_URL}${path}`,
       structuredData: {
         "@context": "https://schema.org",
@@ -8894,7 +8898,7 @@ globalTrainingCities.forEach(({ slug, city, region, detail }) => {
   routes.push({
     path: `/ndt-training-${slug}`,
     title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
-    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} 95% pass rate.`,
+    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} consistently high exam pass rates.`,
     canonical: `${SITE_URL}/ndt-training-${slug}`,
     structuredData: {
       "@context": "https://schema.org",
@@ -8905,7 +8909,7 @@ globalTrainingCities.forEach(({ slug, city, region, detail }) => {
       "locationCreated": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": city } },
       "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "onsite", "courseWorkload": "PT40H" }
     },
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}, ${region}. ${detail} Level I, II, and III certification for all major NDT methods with 95% pass rate.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}, ${region}. ${detail} Level I, II, and III certification for all major NDT methods with consistently high exam pass rates.</p>\n  </main>`,
   });
   programmaticCount++;
 });
@@ -9544,19 +9548,4 @@ console.log(`🗺️  Sitemap index generated: ${sitemapUrls.length} sub-sitemap
 console.log(`🗺️  Total URLs: ${routes.filter(r => !r.path.includes(':') && !r.noindex).length + 1}`);
 console.log(`📁 Output: ${DIST}/[route]/index.html`);
 
-// ─── IndexNow ping (Bing/Yandex/Seznam) ───────────────────────────────────
-// Non-blocking: prerender success must never depend on this.
-// Set SKIP_INDEXNOW=1 to skip (e.g. for local dev runs).
-if (process.env.SKIP_INDEXNOW === '1') {
-  console.log('[indexnow] skipped (SKIP_INDEXNOW=1)');
-} else {
-  try {
-    const indexableRoutes = routes
-      .filter(r => !r.path.includes(':') && !r.noindex)
-      .map(r => `${SITE_URL}${r.path}`);
-    const mod = await import('./indexnow-ping.mjs');
-    await mod.main(indexableRoutes);
-  } catch (err) {
-    console.warn(`[indexnow] ping skipped: ${err.message}`);
-  }
-}
+// ──
