@@ -264,6 +264,8 @@ export default function BlogDetail() {
               </CardContent>
             </Card>
 
+            <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
+
             {/* Related Articles */}
             <motion.div
               initial={{ y: 20, opacity: 0 }}

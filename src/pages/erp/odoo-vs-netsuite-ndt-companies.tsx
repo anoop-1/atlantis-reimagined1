@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     question: "Is Atlantis NDT ERP secure enough to handle the same data NetSuite handles?",
-    answer: "Yes. Atlantis NDT ERP runs on ISO 27001-certified infrastructure with AES-256 at-rest encryption, TLS 1.3 in transit, role-based access control, audit logging of every record change, and multi-region disaster recovery with hourly database backups. SOC 2 Type II audited. GDPR, CCPA, PDPL (Saudi/UAE/Bahrain), DPDP Act 2023 (India) and PIPEDA (Canada) compliant. Data residency options for USA, EU, UAE, Saudi (in-Kingdom), India and Singapore — the same residency set NetSuite offers. The security and compliance bar is equivalent for an NDT inspection contractor; cost is not.",
+    answer: "Yes. Atlantis NDT ERP runs on ISO 27001-certified infrastructure with AES-256 at-rest encryption, TLS 1.3 in transit, role-based access control, audit logging of every record change, and multi-region disaster recovery with hourly database backups. GDPR, CCPA, PDPL (Saudi/UAE/Bahrain), DPDP Act 2023 (India) and PIPEDA (Canada) compliant. Data residency options for USA, EU, UAE, Saudi (in-Kingdom), India and Singapore — the same residency set NetSuite offers. The security and compliance bar is equivalent for an NDT inspection contractor; cost is not.",
   },
   {
     question: "Does Atlantis NDT ERP handle multi-currency / multi-entity at NetSuite's level?",

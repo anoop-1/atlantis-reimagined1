@@ -28,7 +28,7 @@ const benefits = [
 const faqs = [
     { question: "What is NDT Connect?", answer: "NDT Connect is a cloud-based platform for managing NDT inspection data, reports, and personnel. It centralizes all your inspection operations in one secure, accessible platform." },
     { question: "How does it integrate with existing systems?", answer: "NDT Connect offers API integration with ERP systems, equipment data loggers, and third-party software. We also provide import tools for legacy data." },
-    { question: "Is the data secure?", answer: "Yes, NDT Connect uses enterprise-grade security with encrypted data storage, role-based access controls, and regular backups. We are SOC 2 compliant." }
+    { question: "Is the data secure?", answer: "Yes, NDT Connect uses enterprise-grade security with encrypted data storage, role-based access controls, and regular backups. We follow enterprise-grade security practices." }
 ];
 
 export default function NDTConnectPlatform() {
@@ -46,7 +46,7 @@ export default function NDTConnectPlatform() {
             <Navigation />
             <SEOHead
                 title="NDT Connect [Complete Platform] - 70% Faster Reports"
-                description="NDT Connect cuts reporting time 70% with cloud-based inspection management. Real-time collaboration, SOC 2 compliance, analytics. Request demo today!"
+                description="NDT Connect cuts reporting time 70% with cloud-based inspection management. Real-time collaboration, analytics. Request demo today!"
                 keywords="NDT Connect, NDT software, inspection management software, cloud NDT platform, NDT data management, inspection reporting software"
                 canonical="https://ndt-connect.com"
                 structuredData={structuredData}
@@ -72,7 +72,7 @@ export default function NDTConnectPlatform() {
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div><div className="text-4xl font-bold text-indigo-600 mb-2">70%</div><div className="text-slate-600">Faster Reporting</div></div>
                         <div><div className="text-4xl font-bold text-indigo-600 mb-2">100%</div><div className="text-slate-600">Cloud-Based</div></div>
-                        <div><div className="text-4xl font-bold text-indigo-600 mb-2">SOC 2</div><div className="text-slate-600">Compliant</div></div>
+                        <div><div className="text-4xl font-bold text-indigo-600 mb-2">Encrypted</div><div className="text-slate-600">End-to-end</div></div>
                         <div><div className="text-4xl font-bold text-indigo-600 mb-2">24/7</div><div className="text-slate-600">Access</div></div>
                     </div>
                 </div>

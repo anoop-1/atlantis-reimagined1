@@ -44,11 +44,11 @@ const URL = "https://atlantisndt.com/digital-twins";
 const dtFaqs = [
    {
       q: "How much does the Atlantis Digital Twin platform cost?",
-      a: "The Atlantis Digital Twin platform is priced at USD $200,000 per year as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours (40 hours included annually), choice of cloud or on-prem deployment, 24x7 support, SOC 2 Type II audited tenancy, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards ranges from $15,000 to $50,000 per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — typical land at $400K-$900K/yr fully loaded, still meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs.",
+      a: "The Atlantis Digital Twin platform is priced at USD $200,000 per year as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours (40 hours included annually), choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards ranges from $15,000 to $50,000 per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — typical land at $400K-$900K/yr fully loaded, still meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs.",
    },
    {
       q: "Can the Digital Twin run on-prem or air-gapped instead of in the cloud?",
-      a: "Yes. Atlantis ships three deployment topologies: (1) Multi-tenant SaaS on AWS us-east-1 / eu-west-2 / me-central-1 / ap-southeast-1 — SOC 2 Type II, ISO 27001 controls; (2) Single-tenant dedicated VPC for ADNOC, Aramco, KOC, QatarEnergy clients that need geo-fenced data; (3) Fully air-gapped on-prem Docker / Kubernetes deployment for nuclear (NRC 10 CFR 50 Appendix B), defense (DoD IL5, UK MOD), and offshore platforms with no permanent satellite uplink. On-prem requires a customer-supplied Linux host (RHEL 9, Ubuntu 22.04, Rocky 9) with 32 GB RAM, 8 vCPU, 2 TB SSD per node — Atlantis ships the offline installer, the license daemon, and the upgrade path quarterly via signed tarball. Same feature set across all three topologies; pricing same.",
+      a: "Yes. Atlantis ships three deployment topologies: (1) Multi-tenant SaaS on AWS us-east-1 / eu-west-2 / me-central-1 / ap-southeast-1 — ISO 27001 controls; (2) Single-tenant dedicated VPC for ADNOC, Aramco, KOC, QatarEnergy clients that need geo-fenced data; (3) Fully air-gapped on-prem Docker / Kubernetes deployment for nuclear (NRC 10 CFR 50 Appendix B), defense (DoD IL5, UK MOD), and offshore platforms with no permanent satellite uplink. On-prem requires a customer-supplied Linux host (RHEL 9, Ubuntu 22.04, Rocky 9) with 32 GB RAM, 8 vCPU, 2 TB SSD per node — Atlantis ships the offline installer, the license daemon, and the upgrade path quarterly via signed tarball. Same feature set across all three topologies; pricing same.",
    },
    {
       q: "How long does an integration take from kickoff to first asset live?",
@@ -68,7 +68,7 @@ const dtFaqs = [
    },
    {
       q: "How does the platform handle data security for OT and critical infrastructure?",
-      a: "We follow IEC 62443 zone-and-conduit guidance for industrial control system integration. Plant historian and OT-network connectors are read-only through a DMZ — no write path from the twin into the control system, ever. SaaS tenancy is SOC 2 Type II audited annually by an independent firm; ISO 27001 controls are mapped one-to-one. Penetration tests run quarterly by an NIST-aligned external firm with publicly reported findings. CVE disclosure has a 90-day window per industry convention. All inspection data writes to the twin are SHA-256 hash-chained with timestamp + authenticated user — an immutable audit log that regulators (ADNOC, NRC, HSE, PSA Norway) can spot-check. Air-gapped on-prem deployment is available for nuclear, defense, and any client whose risk appetite requires zero internet egress.",
+      a: "We follow IEC 62443 zone-and-conduit guidance for industrial control system integration. Plant historian and OT-network connectors are read-only through a DMZ — no write path from the twin into the control system, ever. SaaS tenancy is secured to enterprise standards and reviewed annually by an independent firm; ISO 27001 controls are mapped one-to-one. Penetration tests run quarterly by an NIST-aligned external firm with publicly reported findings. CVE disclosure has a 90-day window per industry convention. All inspection data writes to the twin are SHA-256 hash-chained with timestamp + authenticated user — an immutable audit log that regulators (ADNOC, NRC, HSE, PSA Norway) can spot-check. Air-gapped on-prem deployment is available for nuclear, defense, and any client whose risk appetite requires zero internet egress.",
    },
    {
       q: "What sample size or asset count do I need before a Digital Twin makes ROI sense?",
@@ -426,7 +426,7 @@ export default function DigitalTwins() {
             "publisher": { "@id": "https://atlantisndt.com/#organization" },
             "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
             "featureList":
-               "Browser WebGL 3D • UT thickness heat-map overlay • RT defect localization • MT/PT indication tagging • API 579-1 FFS calculations • API 581 RBI engine • Predictive maintenance (corrosion-rate regression, anomaly detection, Bayesian RUL) • CMMS / EAM integration • Plant historian ingestion • IEC 62443 OT security • SHA-256 hash chain audit log • ASNT Level III approval workflow • SOC 2 Type II tenancy",
+               "Browser WebGL 3D • UT thickness heat-map overlay • RT defect localization • MT/PT indication tagging • API 579-1 FFS calculations • API 581 RBI engine • Predictive maintenance (corrosion-rate regression, anomaly detection, Bayesian RUL) • CMMS / EAM integration • Plant historian ingestion • IEC 62443 OT security • SHA-256 hash chain audit log • ASNT Level III approval workflow",
             "offers": {
                "@type": "Offer",
                "url": URL,
@@ -771,7 +771,7 @@ export default function DigitalTwins() {
                               "Plant historian connectors (OSIsoft PI, AVEVA PI, Honeywell PHD, Aspen IP.21)",
                               "40 hours of ASNT Level III consulting included annually",
                               "Cloud SaaS (AWS) or single-tenant dedicated VPC",
-                              "SOC 2 Type II audited tenancy, ISO 27001 controls",
+                              "ISO 27001 controls",
                               "Source-code escrow with Iron Mountain",
                               "24x7 support, 99.9% SLA",
                            ].map(item => (

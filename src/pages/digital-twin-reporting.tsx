@@ -228,7 +228,7 @@ const faqs = [
     },
     {
         question: "Is this cloud-based or can we run it on-premise?",
-        answer: "Both deployment options are available. Cloud (AWS) is standard for most clients — SOC 2 Type II compliant, data encrypted at rest and in transit. On-premise deployment available for clients in regulated industries or with data sovereignty requirements (common in Middle East and India operations)."
+        answer: "Both deployment options are available. Cloud (AWS) is standard for most clients — data encrypted at rest and in transit. On-premise deployment available for clients in regulated industries or with data sovereignty requirements (common in Middle East and India operations)."
     },
     {
         question: "What is the difference between this and your Intelligent Reporting Software?",

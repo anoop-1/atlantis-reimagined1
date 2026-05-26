@@ -9510,6 +9510,19 @@ try {
     /\s*<meta\s+name="keywords"[\s\S]*?\/>\s*/,
     '\n  '
   );
+  // Inject real homepage content into #root so crawlers don't get an empty shell.
+  const HOME_BODY = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/about">About</a><a href="/consulting">NDT Consulting</a><a href="/training">NDT Training</a><a href="/digital-twins">Digital Twins</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>
+  <main>
+    <h1>Atlantis NDT — ASNT Level III NDT Consulting, Training &amp; Digital Twins</h1>
+    <p>Atlantis NDT is a global leader in Non-Destructive Testing consulting, training, and digital twin technology. Our ASNT Level III certified team serves oil &amp; gas, aerospace, marine, power generation, and nuclear industries across the USA, Europe, Australia, the Middle East, and India.</p>
+    <h2>NDT Consulting</h2>
+    <p>Procedure development, program audits, ASNT SNT-TC-1A compliance, written practices, and expert-witness support led by ASNT Level III consultants.</p>
+    <h2>NDT Training &amp; Certification</h2>
+    <p>ASNT-aligned Level I, II, and III training in UT, PAUT, MT, PT, RT, ET, and VT — delivered in classroom, online, and on-site formats.</p>
+    <h2>Digital Twins &amp; Reporting</h2>
+    <p>Interactive 3D digital twins that overlay UT, PAUT, and corrosion-mapping data with API 579 fitness-for-service and API 581 risk-based inspection for asset-integrity management.</p>
+  </main>`;
+  homeHtml = homeHtml.replace(/(<div id="root">)[\s\S]*?(<\/div>\s*<\/body>)/, (_m,o,c)=>`${o}\n${HOME_BODY}\n${c}`);
   writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
   console.log('🏠 dist/index.html refreshed (rotated review dates + keywords stripped)');
 } catch (err) {

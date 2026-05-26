@@ -194,7 +194,7 @@ const faqs = [
     },
     {
         q: "Is the platform cloud-hosted or on-premise?",
-        a: "Cloud-hosted by default on hardened SOC 2 Type II infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates (Aramco SACS-002, ADNOC ITPS). On-premise instances still receive signed monthly update bundles and retain full offline field-app sync.",
+        a: "Cloud-hosted by default on hardened, encrypted infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates (Aramco SACS-002, ADNOC ITPS). On-premise instances still receive signed monthly update bundles and retain full offline field-app sync.",
     },
     {
         q: "How is this different from a free Odoo Community installation?",
@@ -586,7 +586,7 @@ export default function NDTERPSolution() {
                                 <CardContent>
                                     <ul className="space-y-3 text-sm text-slate-700">
                                         {[
-                                            "Cloud-hosted on hardened SOC 2 Type II infrastructure",
+                                            "Cloud-hosted on hardened, encrypted infrastructure",
                                             "Up to 25 named users (administrators + supervisors + inspectors)",
                                             "All 8 core modules + 15+ NDT-specific add-on modules",
                                             "Unlimited assets, clients, sites and inspection records",

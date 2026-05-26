@@ -37,7 +37,7 @@ const FAQS = [
   },
   {
     question: "Is Oracle Fusion Cloud ERP more enterprise-grade than Atlantis NDT ERP?",
-    answer: "Oracle Fusion Cloud is unquestionably enterprise-grade — Oracle Cloud Infrastructure (OCI) data centers, 99.95% uptime SLA, sovereign-cloud options for US Government, deep audit and SOC 2 / SOC 3 / ISO 27001 / FedRAMP / IRAP certification. Atlantis NDT ERP runs on ISO 27001-certified cloud infrastructure with 99.95% uptime SLA, SOC 2 Type II audit, GDPR / CCPA / PDPL / DPDP Act 2023 compliance and multi-region disaster recovery. For an NDT inspection contractor between 5 and 500 technicians, both are sufficiently enterprise-grade for any operational scenario. The 'enterprise-grade' delta between Oracle Fusion and Atlantis matters only above $500M revenue with publicly-listed audit complexity — irrelevant for most NDT contractors.",
+    answer: "Oracle Fusion Cloud is unquestionably enterprise-grade — Oracle Cloud Infrastructure (OCI) data centers, 99.95% uptime SLA, sovereign-cloud options for US Government, deep audit and ISO 27001 / FedRAMP / IRAP certification. Atlantis NDT ERP runs on ISO 27001-certified cloud infrastructure with 99.95% uptime SLA, GDPR / CCPA / PDPL / DPDP Act 2023 compliance and multi-region disaster recovery. For an NDT inspection contractor between 5 and 500 technicians, both are sufficiently enterprise-grade for any operational scenario. The 'enterprise-grade' delta between Oracle Fusion and Atlantis matters only above $500M revenue with publicly-listed audit complexity — irrelevant for most NDT contractors.",
   },
 ];
 

@@ -178,7 +178,7 @@ export default function EsNdtErpSolution() {
         {
           question: "¿El sistema cumple con los requisitos de soberanía de datos en Latinoamérica?",
           answer:
-            "Sí. El sistema está alojado en servidores seguros en centros de datos certificados con ISO 27001 y SOC 2. Para clientes que requieren alojamiento local en países específicos (para cumplir con la LGPD brasileña o la Ley de Protección de Datos colombiana), ofrecemos opciones de alojamiento en centros de datos regionales certificados en São Paulo, México D.F. y Bogotá.",
+            "Sí. El sistema está alojado en servidores seguros en centros de datos certificados con ISO 27001. Para clientes que requieren alojamiento local en países específicos (para cumplir con la LGPD brasileña o la Ley de Protección de Datos colombiana), ofrecemos opciones de alojamiento en centros de datos regionales certificados en São Paulo, México D.F. y Bogotá.",
         },
       ]}
       ui={ui}

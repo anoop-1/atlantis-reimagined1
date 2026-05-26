@@ -484,7 +484,8 @@ export default function ASNTLevel3Fees2026CompletePricingTable() {
                         </div>
                     </section>
                 </div>
-            </article>
+                    <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
+      </article>
 
             <ContactDetails />
         </div>
