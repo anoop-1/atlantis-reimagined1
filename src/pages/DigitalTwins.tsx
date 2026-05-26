@@ -44,7 +44,7 @@ const URL = "https://atlantisndt.com/digital-twins";
 const dtFaqs = [
    {
       q: "How much does the Atlantis Digital Twin platform cost?",
-      a: "The Atlantis Digital Twin platform is priced at USD $200,000 per year as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours (40 hours included annually), choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards ranges from $15,000 to $50,000 per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — typical land at $400K-$900K/yr fully loaded, still meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs.",
+      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs.",
    },
    {
       q: "Can the Digital Twin run on-prem or air-gapped instead of in the cloud?",
@@ -72,7 +72,7 @@ const dtFaqs = [
    },
    {
       q: "What sample size or asset count do I need before a Digital Twin makes ROI sense?",
-      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone (USD $50K/yr) handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because RBI optimization, FFS automation, and turnaround scope reduction scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months.",
+      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because RBI optimization, FFS automation, and turnaround scope reduction scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months.",
    },
    {
       q: "Does the Digital Twin integrate with my existing CMMS / EAM and inspection management systems?",
@@ -329,7 +329,7 @@ export default function DigitalTwins() {
             url: URL,
             headline: "Digital Twin NDT Software for Oil & Gas, Aerospace & Power Assets",
             description:
-               "ASNT Level III-authored product pillar: NDT digital twin platform with API 579 FFS, API 581 RBI, AUT/PAUT integration, fleet portfolio view, and regulatory audit packages. $200K/yr enterprise SaaS.",
+               "ASNT Level III-authored product pillar: NDT digital twin platform with API 579 FFS, API 581 RBI, AUT/PAUT integration, fleet portfolio view, and regulatory audit packages. enterprise SaaS.",
             datePublished: "2026-03-15",
             dateModified: "2026-05-16",
             section: "NDT Digital Twins — Product Pillar",
@@ -486,7 +486,7 @@ export default function DigitalTwins() {
                         A 3D asset twin built from the inspection record — UT thickness, RT, MT/PT, PAUT, TOFD, ILI — with API 579 Fitness-For-Service, API 581 Risk-Based Inspection, and ASNT Level III approval baked into the workflow.
                      </p>
                      <p className="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-3xl mx-auto">
-                        Browser-first, cloud or air-gap on-prem, USD $200,000 per year all-in for up to 500 assets.
+                        Browser-first, cloud or air-gap on-prem, all-in for up to 500 assets.
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -715,7 +715,7 @@ export default function DigitalTwins() {
                               <td className="p-3 border-b border-slate-200 font-semibold text-blue-900">Atlantis Digital Twin</td>
                               <td className="p-3 border-b border-slate-200 text-slate-800">Yes — UT/RT/PAUT/TOFD/AUT/ILI/IoT native</td>
                               <td className="p-3 border-b border-slate-200 text-slate-800">Embedded approval workflow + 40 consulting hrs/yr</td>
-                              <td className="p-3 border-b border-slate-200 text-slate-800">Public — $200K/yr enterprise</td>
+                              <td className="p-3 border-b border-slate-200 text-slate-800">Public — enterprise tier</td>
                               <td className="p-3 border-b border-slate-200 text-slate-800">Both — air-gap on-prem available</td>
                            </tr>
                            {vendorCompare.map(row => (
@@ -744,7 +744,7 @@ export default function DigitalTwins() {
                <div className="max-w-5xl mx-auto px-6">
                   <div className="max-w-3xl mb-10">
                      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
-                        Pricing — USD $200,000 per year, no hidden seat licenses
+                        Pricing — custom enterprise quote, no hidden seat licenses
                      </h2>
                      <p className="text-slate-700 text-lg leading-relaxed">
                         Single SKU, single price, single seller. We publish our pricing because we believe procurement teams should not have to file an NDA to see a number. Volume discounting is available for multi-tenant enterprises and government accounts.
@@ -756,7 +756,7 @@ export default function DigitalTwins() {
                         <Badge className="mb-3 bg-blue-500 text-white">Most customers</Badge>
                         <h3 className="text-2xl font-bold text-slate-900 mb-2">Enterprise SaaS</h3>
                         <div className="flex items-baseline gap-2 mb-5">
-                           <span className="text-4xl font-bold text-blue-600">$200,000</span>
+                           <span className="text-4xl font-bold text-blue-600">Contact us</span>
                            <span className="text-slate-600">/ year</span>
                         </div>
                         <ul className="space-y-2.5 text-slate-700 text-sm">
@@ -816,7 +816,7 @@ export default function DigitalTwins() {
                   </div>
 
                   <div className="mt-8 p-5 bg-white rounded-lg border border-slate-200 text-slate-700 text-sm leading-relaxed">
-                     <strong className="text-slate-900">Per-asset onboarding:</strong> $15,000-$50,000 per major asset (3D mesh creation if not customer-provided, plant historian connector configuration, KPI dashboard build-out, asset-hierarchy reconciliation). Discounted to $8,000-$25,000 when bundled with the <Link to="/best-ndt-reporting-software-2026" className="text-blue-600 underline">Atlantis NDT Reporting Software</Link> ($50K/yr) and <Link to="/ndt-erp-solution" className="text-blue-600 underline">Atlantis NDT ERP</Link> ($18K/yr).
+                     <strong className="text-slate-900">Per-asset onboarding:</strong> scoped per major asset (3D mesh creation if not customer-provided, plant historian connector configuration, KPI dashboard build-out, asset-hierarchy reconciliation). Discounted when bundled with the <Link to="/best-ndt-reporting-software-2026" className="text-blue-600 underline">Atlantis NDT Reporting Software</Link> and <Link to="/ndt-erp-solution" className="text-blue-600 underline">Atlantis NDT ERP</Link>.
                   </div>
                </div>
             </section>
