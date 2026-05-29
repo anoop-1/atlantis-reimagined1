@@ -72,22 +72,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     `</table>` +
     `<h3>Message</h3><p>${escapeHtml(message).replace(/\n/g, '<br>')}</p>`;
 
-  const autoReplyText =
-    `Dear ${firstName},\n\n` +
-    `Thank you for reaching out to Atlantis NDT. We have received your message and a member of our team will be in touch with you very soon.\n\n` +
-    `If your matter is urgent, please call us directly at +1 (281) 840-8969.\n\n` +
-    `Best regards,\n` +
-    `Atlantis NDT Team\n` +
-    `https://atlantisndt.com`;
-
-  const autoReplyHtml =
-    `<p>Dear ${escapeHtml(firstName)},</p>` +
-    `<p>Thank you for reaching out to <strong>Atlantis NDT</strong>. We have received your message and a member of our team will be in touch with you very soon.</p>` +
-    `<p>If your matter is urgent, please call us directly at <strong>+1 (281) 840-8969</strong>.</p>` +
-    `<hr style="border:none;border-top:1px solid #e5e7eb;margin:20px 0">` +
-    `<p style="color:#6b7280;font-size:13px">Atlantis NDT — Precision Through Innovation<br>` +
-    `<a href="https://atlantisndt.com" style="color:#f59e0b">atlantisndt.com</a></p>`;
-
   try {
     // Notify Atlantis NDT team (VPS forwards info@ to anoop@atlantisinspection.com)
     await transport.sendMail({
@@ -97,15 +81,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       subject,
       text,
       html,
-    });
-
-    // Auto-reply to the person who submitted the form
-    await transport.sendMail({
-      from: `"Atlantis NDT" <${fromAddress}>`,
-      to: `"${firstName} ${lastName}" <${email}>`,
-      subject: `We received your message — Atlantis NDT will be in touch soon`,
-      text: autoReplyText,
-      html: autoReplyHtml,
     });
 
     return res.status(200).json({ ok: true });
