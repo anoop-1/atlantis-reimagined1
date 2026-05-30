@@ -4,6 +4,7 @@ import { lazy, Suspense } from "react";
 const MethodLocationPage = lazy(() => import("@/components/MethodLocationPage"));
 const DynamicTrainingPage = lazy(() => import("@/components/DynamicTrainingPage"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
+const ThreeDScanningLocationPage = lazy(() => import("@/components/ThreeDScanningLocationPage"));
 
 // NDT methods that map to MethodLocationPage
 const METHOD_SLUGS = [
@@ -46,6 +47,18 @@ export default function DynamicCityRoute() {
           </Suspense>
         );
       }
+    }
+  }
+
+  // Match 3d-scanning-{city}
+  if (path.startsWith("3d-scanning-") && path !== "3d-scanning-services") {
+    const city = path.slice("3d-scanning-".length);
+    if (city) {
+      return (
+        <Suspense fallback={<Loader />}>
+          <ThreeDScanningLocationPage citySlug={city} />
+        </Suspense>
+      );
     }
   }
 

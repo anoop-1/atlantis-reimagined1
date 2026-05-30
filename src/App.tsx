@@ -15,6 +15,7 @@ const IndustryLocationPage = lazy(() => import("./components/IndustryLocationPag
 const InspectionServiceLocationPage = lazy(() => import("./components/InspectionServiceLocationPage"));
 const CertTrainingLocationPage = lazy(() => import("./components/CertTrainingLocationPage"));
 const DynamicCityRoute = lazy(() => import("./components/DynamicCityRoute"));
+const ThreeDScanning = lazy(() => import("./pages/ThreeDScanning"));
 const DynamicCorporateTrainingRoute = lazy(() => import("./components/DynamicCorporateTrainingRoute"));
 const CorporateNDTTraining = lazy(() => import("./pages/CorporateNDTTraining"));
 
@@ -4996,6 +4997,7 @@ const App = () => (
                   <Route path="/compare/digital-twin-vs-iot-dashboard" element={<LazyRoute Component={CompareDigitalTwinVsIotDashboard} />} />
                   <Route path="/compare/digital-twin-vs-cmms" element={<LazyRoute Component={CompareDigitalTwinVsCmms} />} />
                   {/* === END DT day-2 expansion 2026-05-25 === */}
+                     <Route path="/3d-scanning-services" element={<LazyRoute Component={ThreeDScanning} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>

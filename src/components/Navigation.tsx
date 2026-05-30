@@ -13,6 +13,7 @@ const navItems = [
       dropdown: [
          { name: "Training", path: "/training" },
          { name: "Consulting Services", path: "/consulting" },
+         { name: "3D Scanning Services", path: "/3d-scanning-services" },
       ],
    }, {
       name: "Products",

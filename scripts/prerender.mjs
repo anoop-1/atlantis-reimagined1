@@ -8955,6 +8955,44 @@ const hasFaqPage = (sd) => {
   if (Array.isArray(sd['@graph'])) return sd['@graph'].some(n => n && n['@type'] === 'FAQPage');
   return false;
 };
+// ── 3D Scanning service pages (LiDAR / photogrammetry / drone) — all cities ──
+// Added 2026-05-29. Derives the city list from existing city routes so coverage
+// always matches "every city we have pages in". Renders real bodyContent HTML.
+(() => {
+  const _pfx = ['ndt-erp-', 'ndt-training-', 'digital-twin-', 'ndt-consulting-'];
+  const _cities = new Set();
+  for (const r of routes) {
+    const p = (r && r.path ? r.path : '').replace(/^\//, '').replace(/\/$/, '');
+    for (const pre of _pfx) {
+      if (p.startsWith(pre)) {
+        const c = p.slice(pre.length);
+        if (c && !c.includes('/') && !c.includes(':')) _cities.add(c);
+      }
+    }
+  }
+  const _tc = (s) => s.split('-').map(w => w.length <= 2 ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  routes.push({
+    path: '/3d-scanning-services',
+    title: '3D Scanning Services — LiDAR, Photogrammetry & Drone Surveys | Atlantis NDT',
+    description: 'Atlantis NDT 3D scanning services: survey-grade LiDAR, photogrammetry and drone-based capture for as-built models, tank & vessel deformation surveys, corrosion mapping, BIM and digital twins. ASNT Level III led.',
+    bodyContent: '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/consulting">NDT Consulting</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>3D Scanning Services — LiDAR, Photogrammetry &amp; Drone-Based Reality Capture</h1>\n    <p>Atlantis NDT delivers survey-grade 3D scanning and reality-capture services that turn physical assets into accurate, measurable digital models. We combine LiDAR laser scanning, photogrammetry and drone-based (UAV) capture with ASNT Level III inspection expertise.</p>\n    <p>Applications: as-built capture and dimensional control, tank and pressure-vessel deformation surveys (API 653, API 510), corrosion and coating mapping, BIM and digital-twin model creation, reverse engineering, clash detection and turnaround scoping for oil &amp; gas, petrochemical, power, marine and infrastructure assets worldwide.</p>\n  </main>',
+  });
+  let _n = 0;
+  for (const city of _cities) {
+    if (city === 'services') continue;
+    const name = _tc(city);
+    routes.push({
+      path: '/3d-scanning-' + city,
+      title: '3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry & Drone Surveys | Atlantis NDT',
+      description: 'Atlantis NDT 3D scanning in ' + name + ': survey-grade LiDAR laser scanning, photogrammetry and drone-based reality capture for as-built models, tank & vessel deformation surveys, corrosion mapping, BIM and digital twins. ASNT Level III led.',
+      bodyContent: '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/consulting">NDT Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry &amp; Drone Surveys</h1>\n    <p>Atlantis NDT provides survey-grade 3D scanning and reality-capture services in ' + name + ', combining LiDAR laser scanning, photogrammetry and drone-based (UAV) capture to turn plants, tanks, vessels, structures and components into accurate, measurable digital models.</p>\n    <p>Backed by our ASNT Level III inspection team, scans captured in ' + name + ' feed into as-built CAD, BIM and digital-twin workflows and support API 653 / API 510 tank and vessel deformation surveys, corrosion and coating mapping, clash detection, reverse engineering, and turnaround planning.</p>\n  </main>',
+    });
+    _n++;
+  }
+  console.log('🛰️  3D Scanning pages added: ' + _n + ' cities + 1 hub');
+})();
+
+
 routes.forEach(route => {
   const faq = faqSchemas[route.path];
   if (!faq) return;
