@@ -644,7 +644,7 @@ const corePages = [
     title: 'NDT Consulting Services | ASNT Level III Experts | Atlantis NDT',
     description: 'NDT consulting from ASNT Level III experts. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. USA, India, Middle East.',
     bodyH1: 'NDT Consulting Services',
-    bodyText: 'Atlantis NDT provides expert NDT consulting services including procedure development, program audits, ASNT SNT-TC-1A compliance, and written practice development.',
+    bodyText: 'Atlantis NDT provides expert NDT consulting services worldwide, including independent ASNT Level III consulting and outsourced NDT Level III services, NDT procedure development and approval, written-practice authoring to SNT-TC-1A / CP-189 / NAS 410, program and quality-system audits, personnel qualification and certification, RBI per API 580/581, and fitness-for-service (FFS) per API 579. Our 50+ ASNT Level III professionals support inspection contractors, owner-operators and EPCs across the USA, India, the Middle East, Europe, Australia and Asia.',
   },
   {
     path: '/consulting-usa',
@@ -798,7 +798,7 @@ const corePages = [
     title: 'API 570 Training 2026 — Houston, Dubai, Saudi, Singapore, India',
     description: 'API 570 Piping Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME B31.3 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors.',
     bodyH1: 'API 570 Piping Inspector Training',
-    bodyText: 'Comprehensive API 570 Piping Inspector certification training. Open-book exam preparation covering ASME B31.3, API 570, 571, 574, 578, and 580. Available in Dubai, Houston, India, and online.',
+    bodyText: 'Comprehensive API 570 Piping Inspector training and exam-prep course, delivered classroom, online and blended. Our API 570 training course covers ASME B31.3 process piping, API 570/571/574/577/578, RBI per API 580/581, corrosion monitoring locations, remaining-life and thickness calculations, and open-book exam strategy. Available as API 570 online training and in-person in Houston, Dubai, Riyadh/Jubail, Singapore and Hyderabad/Mumbai, with a 95% first-attempt pass rate and ADNOC / Saudi Aramco / Petronas approved instructors.',
   },
   {
     path: '/eddy-current-tube-inspection',
@@ -7323,7 +7323,7 @@ routes.push({
   path: '/consulting/ndt-consulting-level-iii',
   title: 'NDT Level III Consulting | ASNT Certified Expert Consultants',
   description: 'NDT Level III consulting services: ASNT-certified procedure development, SNT-TC-1A compliance, program audits, personnel qualification, written practices, and expert witness. Global coverage.',
-  canonical: `${SITE_URL}/consulting/ndt-consulting-level-iii`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">NDT Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>ASNT Level III Consulting &amp; Outsourced NDT Level III Services</h1>\n    <p>Atlantis NDT provides independent <strong>ASNT Level III consulting</strong> and <strong>outsourced NDT Level III services</strong> for inspection contractors, owner-operators and EPCs worldwide. Our 50+ ASNT Level III professionals author and approve written practices, develop and certify NDT procedures, qualify Level I/II personnel, and provide audit and expert-witness support on a retainer or per-engagement basis.</p>\n    <h2>What our NDT Level III consulting services cover</h2>\n    <p>Written-practice authoring to SNT-TC-1A, CP-189 and NAS 410; procedure development and approval for UT, PAUT, TOFD, RT, MT, PT, ET and VT; personnel certification and eye-exam administration; method and equipment validation; and quality-system audit support for ADNOC, Saudi Aramco, QatarEnergy, NRC and ISO 9712 / Nadcap programs. We act as your responsible Level III services provider so you can bid and execute NDT scopes without carrying a full-time Level III on staff.</p>\n    <h2>Outsourced Level III with a clear SLA</h2>\n    <p>Most procedure reviews and written-practice updates are returned within 2 to 5 business days, signed and stamped. Engagements scale from a single procedure approval to a full multi-method NDT program. Independent ASNT Level III consulting typically runs 1,500 to 3,500 USD per day depending on method and travel, with retainers available for ongoing NDT Level 3 consulting services.</p>\n    <p>Related: <a href="/consulting">NDT consulting services</a>, <a href="/asnt-certification">ASNT certification guide</a>, <a href="/api-570-certification">API 570 certification</a>, <a href="/api-653-certification">API 653 tank inspector</a>.</p>\n  </main>`,
 });
 
 // ── NDT Method + City pages ───────────────────────────────────────────────
