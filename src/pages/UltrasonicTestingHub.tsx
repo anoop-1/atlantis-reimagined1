@@ -23,11 +23,6 @@ const faqs = [
       "Primary codes: ASME BPVC Section V Article 4 (UT general), Article 5 (in-service), Article 23 (SE-797 for thickness); ASME Section VIII UW-53; AWS D1.1 Clause 8 for structural welds; API 1104 for pipelines; EN/ISO 17640 for European weld testing; EN/ISO 16811 for sensitivity; EN/ISO 22232 for equipment. PAUT specifically is governed by ASME V Article 4 Mandatory Appendix IV and ASTM E2700. Aerospace UT follows SAE AMS 2154 and NAS 410.",
   },
   {
-    question: "How much does ultrasonic testing cost?",
-    answer:
-      "Thickness gauging on piping typically runs $2–$4 per point for field crews. Weld UT for shop inspections averages $6–$12 per weld inch for conventional UT and $12–$20 per inch for PAUT (which includes data archiving). Corrosion mapping with automated raster scanners runs $300–$800 per square meter depending on surface prep. A Level II UT inspector mobilization in North America costs $800–$1,400 per day; in the Middle East $900–$1,600 including LOA. Expect 24–48h for a written report.",
-  },
-  {
     question: "What UT training and certification do I need?",
     answer:
       "For conventional UT: SNT-TC-1A requires 40 hours classroom + 210 hours OJT for Level I, plus another 40 + 630 hours for Level II. ACCP Level II UT exam costs $420 at ASNT. For PAUT you need conventional UT Level II as a prerequisite, then 40 hours of PAUT-specific training (AWS CWI-SCWI adds another layer for structural work). TOFD usually adds 32 hours of training on top of PAUT. ISO 9712 has similar hour requirements but is third-party issued by bodies like PCN, CSWIP, or DNV.",

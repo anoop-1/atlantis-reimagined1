@@ -166,11 +166,6 @@ export default function EsNdtErpSolution() {
             "Sí. La solución fue diseñada para empresas de inspección con múltiples oficinas en diferentes países latinoamericanos, con panel unificado para ver todas las operaciones, separación de datos por sede, múltiples monedas y impuestos, y soporte en español, portugués brasileño, inglés y árabe.",
         },
         {
-          question: "¿Cuál es el costo de suscripción anual?",
-          answer:
-            "El paquete básico comienza en 18.000 dólares anuales para empresas de inspección pequeñas (hasta 10 técnicos) y llega a 120.000 dólares anuales para empresas grandes multi-sede (más de 100 técnicos). Todos los paquetes incluyen actualizaciones, soporte técnico en español y alojamiento en la nube.",
-        },
-        {
           question: "¿Se pueden importar nuestros datos históricos desde hojas de cálculo?",
           answer:
             "Sí. El equipo de implementación proporciona plantillas Excel para importar activos, equipos, registros de empleados y proyectos históricos. Un especialista de implementación dedicado valida los datos antes del despliegue, y normalmente la migración de datos y el go-live se completan en 4 a 6 semanas.",

@@ -1,0 +1,82 @@
+{
+ "generated": "2026-05-30",
+ "source": "enriched money + DT bodyText",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/training/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/training-usa/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/training-india/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/training-me/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/asnt-certification/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/api-510-certification/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/consulting-usa/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/consulting-india/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/consulting-me/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-methods/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/refinery/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/fpso/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/storage-tank/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/pipeline/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/offshore-platform/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/pressure-vessel/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/heat-exchanger/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/subsea/",
+   "tier": "A"
+  }
+ ]
+}

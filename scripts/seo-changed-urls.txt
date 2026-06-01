@@ -1,0 +1,42 @@
+# Atlantis NDT — changed/affected URLs for GSC Indexing re-crawl
+# Generated 2026-05-31. RUN submit-indexing.py AFTER DEPLOY ONLY.
+# Only URLs confirmed present in the sitemap are listed (no 404 risk).
+# 37 URLs (of 142 candidates; 105 candidates not in sitemap were dropped).
+
+https://atlantisndt.com/api-510-certification
+https://atlantisndt.com/api-570-certification
+https://atlantisndt.com/api-653-certification
+https://atlantisndt.com/api-653-training-saudi-arabia
+https://atlantisndt.com/asnt-certification
+https://atlantisndt.com/blog/api-510-570-653-exam-schedule-2026
+https://atlantisndt.com/blog/api-653-certification-complete-guide
+https://atlantisndt.com/blog/asnt-level-3-fees-2026-complete-pricing-table
+https://atlantisndt.com/blog/cwi-certification-requirements-cost-career-impact
+https://atlantisndt.com/blog/cwi-exam-cost-2026-total-investment-calculator
+https://atlantisndt.com/blog/cwi-pass-rate-by-part-a-b-c-breakdown
+https://atlantisndt.com/blog/eddy-current-testing-complete-guide
+https://atlantisndt.com/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut
+https://atlantisndt.com/blog/ndt-inspection-cost-2026-by-method-pricing-matrix
+https://atlantisndt.com/blog/ndt-salary-guide-2026-global
+https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide
+https://atlantisndt.com/blog/rt-vs-ut-complete-comparison
+https://atlantisndt.com/compare/asnt-vs-pcn
+https://atlantisndt.com/compare/atlantis-dt-vs-aspen-mtell
+https://atlantisndt.com/compare/atlantis-dt-vs-aveva-pi-system
+https://atlantisndt.com/compare/atlantis-dt-vs-bentley-itwin
+https://atlantisndt.com/compare/atlantis-dt-vs-hexagon-eam
+https://atlantisndt.com/compare/atlantis-dt-vs-ibm-maximo
+https://atlantisndt.com/compare/atlantis-dt-vs-osisoft-pi
+https://atlantisndt.com/compare/atlantis-dt-vs-siemens-mindsphere
+https://atlantisndt.com/consulting
+https://atlantisndt.com/digital-twin-vendor-comparison
+https://atlantisndt.com/digital-twins
+https://atlantisndt.com/erp
+https://atlantisndt.com/integrations/aspen-mtell
+https://atlantisndt.com/ndt-erp-software-comparison
+https://atlantisndt.com/ndt-training-houston
+https://atlantisndt.com/ndt-training-jakarta
+https://atlantisndt.com/ndt-training-singapore
+https://atlantisndt.com/ndt-training-usa
+https://atlantisndt.com/services/mfl-pipeline-inspection
+https://atlantisndt.com/training-usa

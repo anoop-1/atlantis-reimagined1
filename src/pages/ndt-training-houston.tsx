@@ -125,14 +125,6 @@ export default function NDTTrainingHouston() {
       },
       {
         "@type": "Question",
-        "name": "How much does NDT training cost in Houston?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Training costs vary by method and level. Level I courses start at $1,500. Level II runs $2,500-$3,500. Level III specialized training is $3,500+. Corporate volume discounts available."
-        }
-      },
-      {
-        "@type": "Question",
         "name": "Is ASNT certification recognized in Houston?",
         "acceptedAnswer": {
           "@type": "Answer",

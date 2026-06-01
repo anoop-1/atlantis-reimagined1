@@ -1,0 +1,323 @@
+{
+  "generated": "2026-05-24T16:43:42.766Z",
+  "concurrency": 8,
+  "total": 35,
+  "successful": 10,
+  "results": [
+    {
+      "name": "coating-inspection-guide",
+      "projectId": "prj_4wGwOUGAr223YhKN0nh6SRnollJr",
+      "ok": false,
+      "url": "https://coating-inspection-guide-16eas05mw-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 683,
+      "errTail": "guide-16eas05mw-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect coating-inspection-guide-16eas05mw-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "asset-integrity-hub",
+      "projectId": "prj_r4Ve36yIGWoHSxOxhc1mGZa8BZ6H",
+      "ok": false,
+      "url": "https://asset-integrity-d604fy26k-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 712,
+      "errTail": "sset-integrity-d604fy26k-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect asset-integrity-d604fy26k-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "api-certification-guide",
+      "projectId": "prj_9M7gQBXOUL8jCh2UlC2lVDZDslNp",
+      "ok": false,
+      "url": "https://api-certification-guide-21rr26h0t-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 738,
+      "errTail": "-guide-21rr26h0t-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect api-certification-guide-21rr26h0t-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "advanced-ndt-techniques",
+      "projectId": "prj_qHMndxRjznClWXcSX5KBTVuL7i0T",
+      "ok": false,
+      "url": "https://advanced-ndt-techniques-owy1vy2na-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 804,
+      "errTail": "niques-owy1vy2na-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect advanced-ndt-techniques-owy1vy2na-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "aerospace-ndt-standards",
+      "projectId": "prj_bVLWLesG4YMiL5cw6Nvc0gKw4MsW",
+      "ok": false,
+      "url": "https://aerospace-ndt-standards-qodgpehzk-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 804,
+      "errTail": "ndards-qodgpehzk-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect aerospace-ndt-standards-qodgpehzk-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "composite-testing-hub",
+      "projectId": "prj_vjHYxY7aSQBkGEYoPwNjzD2xnk6i",
+      "ok": false,
+      "url": "https://composite-testing-5hf4nwaxq-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 868,
+      "errTail": "site-testing-5hf4nwaxq-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect composite-testing-5hf4nwaxq-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "corrosion-management-ndt",
+      "projectId": "prj_nzXWh3Vew6x73nC0zPnY3faskQxO",
+      "ok": false,
+      "url": "https://corrosion-management-bvt4dmm6p-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 927,
+      "errTail": "anagement-bvt4dmm6p-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect corrosion-management-bvt4dmm6p-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "construction-ndt-guide",
+      "projectId": "prj_hAidEbs0r23ZZuPUq0lI0uoIEI2T",
+      "ok": false,
+      "url": "https://construction-ndt-guide-a1cnk0qgj-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 984,
+      "errTail": "t-guide-a1cnk0qgj-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect construction-ndt-guide-a1cnk0qgj-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "heat-exchanger-ndt",
+      "projectId": "prj_3amXoO9fKuxZjhhNJ32VSKeVIf2i",
+      "ok": "https://heat-exchanger-9dy2r8lta-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://heat-exchanger-9dy2r8lta-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 349,
+      "errTail": null
+    },
+    {
+      "name": "industrial-inspection-resources",
+      "projectId": "prj_OPKgkMmKW3Ivq5oZhsBcVUbHrsnN",
+      "ok": "https://industrial-inspection-resources-2xcybgpv4.vercel.app",
+      "url": "https://industrial-inspection-resources-2xcybgpv4.vercel.app",
+      "code": 0,
+      "elapsedSec": 379,
+      "errTail": null
+    },
+    {
+      "name": "lng-inspection-hub",
+      "projectId": "prj_ruj2tXXDx76sM56Mm7Pvhn4GtqfC",
+      "ok": "https://lng-inspection-hyxz6tefq-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://lng-inspection-hyxz6tefq-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 374,
+      "errTail": null
+    },
+    {
+      "name": "manufacturing-ndt-quality",
+      "projectId": "prj_DAAqn17lyH2SRMyMfoeMkFX7dBDe",
+      "ok": false,
+      "url": "https://manufacturing-ndt-quality-r1aeqzfb6-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 804,
+      "errTail": "lity-r1aeqzfb6-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect manufacturing-ndt-quality-r1aeqzfb6-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "marine-offshore-ndt",
+      "projectId": "prj_WMerlFeybOEZX8woLIbsVR2Q5a7A",
+      "ok": false,
+      "url": "https://marine-offshore-eu9nveszn-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 896,
+      "errTail": "arine-offshore-eu9nveszn-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect marine-offshore-eu9nveszn-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "middle-east-ndt-resource",
+      "projectId": "prj_6Lwt1VnNqejZbPDjO0WYcN6wt44A",
+      "ok": false,
+      "url": "https://middle-east-ndt-resource-lic62vnh4-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 868,
+      "errTail": "ource-lic62vnh4-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect middle-east-ndt-resource-lic62vnh4-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "mining-ndt-hub",
+      "projectId": "prj_yOTx4d6327NsBgSeiTMz8NMARBDT",
+      "ok": false,
+      "url": "https://mining-ndt-mitri581k-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 866,
+      "errTail": "ployment mining-ndt-mitri581k-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect mining-ndt-mitri581k-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "ndt-automation-future",
+      "projectId": "prj_LsidR8OwFOorxjKlOcXdWtNAI1SN",
+      "ok": false,
+      "url": "https://ndt-automation-future-p8v6h3h26-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 836,
+      "errTail": "n-future-p8v6h3h26-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect ndt-automation-future-p8v6h3h26-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "ndt-careers-portal",
+      "projectId": "prj_EK30okelrmeHgVhO8SfydlBhwfP5",
+      "ok": false,
+      "url": "https://ndt-careers-portal-pf713ga9n-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 867,
+      "errTail": "eers-portal-pf713ga9n-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect ndt-careers-portal-pf713ga9n-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "ndt-equipment-reviews",
+      "projectId": "prj_3ovCjX66moYJFK0GLBKtBvLKt9qa",
+      "ok": false,
+      "url": "https://ndt-equipment-reviews-cy4hnwurg-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 831,
+      "errTail": "-reviews-cy4hnwurg-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect ndt-equipment-reviews-cy4hnwurg-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "ndt-knowledge-hub",
+      "projectId": "prj_c6zZA8Snr2NzyOmkbmC7KOoYTYvv",
+      "ok": false,
+      "url": "https://ndt-knowledge-i9vdul84e-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 864,
+      "errTail": "nt ndt-knowledge-i9vdul84e-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect ndt-knowledge-i9vdul84e-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "ndt-safety-compliance",
+      "projectId": "prj_Raq81IwZ8OwFMkNHU1OhwwNh7qR3",
+      "ok": "https://ndt-safety-compliance-9f42kfnuk-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://ndt-safety-compliance-9f42kfnuk-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 472,
+      "errTail": null
+    },
+    {
+      "name": "ndt-software-solutions",
+      "projectId": "prj_pCK4cKkdx5U76UuHNuYDw590ZMyA",
+      "ok": "https://ndt-software-solutions-7o12wq05c-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://ndt-software-solutions-7o12wq05c-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 442,
+      "errTail": null
+    },
+    {
+      "name": "ndt-standards-library",
+      "projectId": "prj_9R6lwXXXWk6tlrbiVrKAHv2jYJyb",
+      "ok": "https://ndt-standards-library-cbwy8crdi-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://ndt-standards-library-cbwy8crdi-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 439,
+      "errTail": null
+    },
+    {
+      "name": "ndt-training-academy",
+      "projectId": "prj_OZo3IbGSGmDod86Zj3KfUQJ8pHSj",
+      "ok": "https://ndt-training-academy-hac7d75tk-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://ndt-training-academy-hac7d75tk-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 439,
+      "errTail": null
+    },
+    {
+      "name": "nuclear-ndt-resource",
+      "projectId": "prj_h5qBdEaQSn2t4xdfO9HxN6CVJ8KK",
+      "ok": "https://nuclear-ndt-resource-ny7hxxlu1-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://nuclear-ndt-resource-ny7hxxlu1-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 439,
+      "errTail": null
+    },
+    {
+      "name": "oil-gas-inspection-guide",
+      "projectId": "prj_Ng56Ba6sRVsuyEh8D276hUgHz25o",
+      "ok": false,
+      "url": "https://oil-gas-inspection-guide-py58y2q51-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 927,
+      "errTail": "guide-py58y2q51-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect oil-gas-inspection-guide-py58y2q51-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "petrochemical-ndt-hub",
+      "projectId": "prj_WLR0vk0YUlBpTP2BATJrZkpuT5mx",
+      "ok": false,
+      "url": "https://petrochemical-ndt-haz025e05-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 958,
+      "errTail": "chemical-ndt-haz025e05-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect petrochemical-ndt-haz025e05-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "pipeline-integrity-guide",
+      "projectId": "prj_Qk3XW7kOoShpNYnqUwUMcHFbIUYb",
+      "ok": false,
+      "url": "https://pipeline-integrity-guide-azv62dcfu-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 953,
+      "errTail": "guide-azv62dcfu-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect pipeline-integrity-guide-azv62dcfu-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "power-generation-ndt",
+      "projectId": "prj_mHneVvvzcuq4f9URTU4nQfKRu3tH",
+      "ok": false,
+      "url": "https://power-generation-9n25pshsr-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 954,
+      "errTail": "er-generation-9n25pshsr-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect power-generation-9n25pshsr-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "pressure-vessel-ndt",
+      "projectId": "prj_ZnbTuqnwnMtEVBAMrqmxmphWrWfh",
+      "ok": false,
+      "url": "https://pressure-vessel-do3uklu1n-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 953,
+      "errTail": "ressure-vessel-do3uklu1n-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect pressure-vessel-do3uklu1n-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "rail-ndt-resource",
+      "projectId": "prj_8ftlFdaaUM8BpNcacD1mEcq4P6zZ",
+      "ok": false,
+      "url": "https://rail-ndt-resource-k7i1d8vsk-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 956,
+      "errTail": "ndt-resource-k7i1d8vsk-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect rail-ndt-resource-k7i1d8vsk-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "renewable-energy-ndt",
+      "projectId": "prj_i14LDp8LrNbyK2fBfxgWRGi5KqGz",
+      "ok": false,
+      "url": "https://renewable-energy-2m80dilqc-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 954,
+      "errTail": "ewable-energy-2m80dilqc-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect renewable-energy-2m80dilqc-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "subsea-inspection-guide",
+      "projectId": "prj_l9XGXMqBkAjMDfMI1OmVblR32cO0",
+      "ok": false,
+      "url": "https://subsea-inspection-guide-3fx4ssud6-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 957,
+      "errTail": "-guide-3fx4ssud6-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect subsea-inspection-guide-3fx4ssud6-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    },
+    {
+      "name": "tank-inspection-resource",
+      "projectId": "prj_jICaziWaFBzqPabAtqVIxbwMlPsG",
+      "ok": "https://tank-inspection-resource-c7micu2q5-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://tank-inspection-resource-c7micu2q5-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 444,
+      "errTail": null
+    },
+    {
+      "name": "weld-quality-resource",
+      "projectId": "prj_azkd11jLZtc5qrxMy8js1F0ne7OA",
+      "ok": "https://weld-quality-resource-ecoupr8c6-anoops-projects-776b2b4a.vercel.app",
+      "url": "https://weld-quality-resource-ecoupr8c6-anoops-projects-776b2b4a.vercel.app",
+      "code": 0,
+      "elapsedSec": 438,
+      "errTail": null
+    },
+    {
+      "name": "welding-inspection-hub",
+      "projectId": "prj_DIpQB2IHxh3QMSuqlK2lcgmYr7s0",
+      "ok": false,
+      "url": "https://welding-inspection-oe7oi6r9n-anoops-projects-776b2b4a.vercel.app",
+      "code": null,
+      "elapsedSec": 1109,
+      "errTail": "-inspection-oe7oi6r9n-anoops-projects-776b2b4a.vercel.app ready.\",\n  \"next\": [\n    {\n      \"command\": \"vercel inspect welding-inspection-oe7oi6r9n-anoops-projects-776b2b4a.vercel.app --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Inspect deployment\"\n    },\n    {\n      \"command\": \"vercel deploy --prod --scope team_RvIKW6PFuuliC77dktstAJmQ\",\n      \"when\": \"Promote to production\"\n    }\n  ]\n}\n"
+    }
+  ]
+}

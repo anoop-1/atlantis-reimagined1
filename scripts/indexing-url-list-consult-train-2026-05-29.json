@@ -1,0 +1,8 @@
+{ "generated":"2026-05-29","source":"consulting+training upgrade recrawl",
+  "urls":[
+    {"url":"https://atlantisndt.com/consulting/ndt-consulting-level-iii/","tier":"A"},
+    {"url":"https://atlantisndt.com/consulting/","tier":"A"},
+    {"url":"https://atlantisndt.com/api-570-training/","tier":"A"},
+    {"url":"https://atlantisndt.com/consulting-usa/","tier":"B"},
+    {"url":"https://atlantisndt.com/ndt-consulting-level-iii/","tier":"B"}
+  ] }

@@ -16,10 +16,6 @@ const faqs = [
         answer: "Atlantis NDT and Mistras OneSuite have the deepest offline-field-inspector support; both sync to the twin once the device reconnects. Bentley iTwin offers strong offline 3D navigation but weaker inspection capture. Hexagon EAM has offline CMMS but limited NDT field flow. IBM Maximo Anywhere supports offline work orders but requires custom integration for NDT data entry."
     },
     {
-        question: "What is the typical total cost of ownership?",
-        answer: "Per-asset TCO over 5 years ranges roughly: static twin $80K-$120K, operational twin $180K-$320K, predictive twin $350K-$700K. Platform fees alone (SaaS + cloud) are 20-30% of that; the majority is sensor hardware, integration work, and analytics tuning. Enterprise licences for IBM Maximo APM or Hexagon EAM sit outside these bands and are negotiated."
-    },
-    {
         question: "Can a digital twin replace my CMMS?",
         answer: "No. The twin complements the CMMS — it consumes from and writes to it. A good twin is the source of truth for asset integrity state (thickness, damage mechanisms, FFS verdicts), while the CMMS remains the source of truth for work orders, materials, and labour. Treating them as alternatives leads to data drift; treating them as peers with clear ownership works."
     },

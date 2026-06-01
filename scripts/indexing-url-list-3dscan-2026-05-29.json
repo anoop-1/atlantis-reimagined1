@@ -1,0 +1,1282 @@
+{
+ "generated": "2026-05-29",
+ "source": "3D Scanning hub + all-city pages (LiDAR/photogrammetry/drone)",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/3d-scanning-services/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-aberdeen/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-abqaiq/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-abu-dhabi/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-accra/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ahmedabad/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-al-zour/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-alabama-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-alaska/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-alberta/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-algeria/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-anchorage/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-andhra-pradesh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-angola/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-antwerp/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-argentina/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-atlanta/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-auckland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-austin/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-australia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-azerbaijan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bahrain/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bakersfield/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-balikpapan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-baltimore/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bangalore/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bangkok/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bangladesh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-barcelona/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-basrah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-baton-rouge/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-baytown/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-beaumont/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-beijing/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-belgium/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-benicia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bergen/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bintulu/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bogota/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-bontang/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-boston/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-brazil/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-brisbane/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-buenos-aires/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-calgary/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-california/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-california-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-canada/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-cape-town/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-carson/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-casablanca/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-channelview/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-charlotte/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-chennai/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-chicago/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-christchurch/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-cilacap/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-cincinnati/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-clairton/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-cleveland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-colombia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-colorado/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-colorado-springs/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-colorado-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-conroe/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-corpus-christi/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-cyprus/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-dallas/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-dammam/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-darwin/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-dearborn/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-deer-park/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-delhi/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-denver/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-detroit/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-doha/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-dubai/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-duqm/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-east-chicago/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ecuador/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-edinburgh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-edmonton/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-egypt/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-el-segundo/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-fawley/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-florida/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-florida-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-fort-mcmurray/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-fort-saskatchewan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-fort-worth/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-france/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-freeport-texas/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-fujairah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-gabon/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-galveston/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-gdansk/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-genoa/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-georgia-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-germany/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ghana/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-gladstone/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-glasgow/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-grangemouth/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-greece/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-gujarat/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-guyana/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-halifax/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-hamburg/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-hamilton-ontario/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-hammond/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ho-chi-minh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-hong-kong/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-houston/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-huntsville/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-hyderabad/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-illinois/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-illinois-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-immingham/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-indianapolis/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-indonesia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-iraq/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-israel/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-italy/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ivory-coast/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-jacksonville/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-jakarta/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-jamnagar/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-japan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-jebel-ali/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-johannesburg/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-joliet/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-jubail/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-jurong-island/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kansas-city/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-karnataka/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-karratha/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-karsto/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kazakhstan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kemaman/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kerala/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kerteh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-khobar/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-khurais/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kochi/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kolkata/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kuala-lumpur/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-kuwait/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-la-porte/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-lagos/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-lake-charles/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-level-iii/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-lima/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-linden-nj/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-lloydminster/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-london/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-long-beach/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-los-angeles/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-louisiana/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-louisiana-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-louisville/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-madrid/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-maharashtra/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-malaysia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-manama/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-manila/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-marcus-hook/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-marseille/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-martinez/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-melbourne/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mesaieed/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mexico/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mexico-city/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-miami/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-michigan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-michigan-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-midland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-milan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-milwaukee/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-minneapolis/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-minnesota-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-miri/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mobile/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-monaca/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mongolia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mongstad/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-montreal/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mozambique/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mumbai/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-muscat/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-mussafah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-myanmar/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-nairobi/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-nashville/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ndt-software/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-netherlands/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-new-jersey-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-new-orleans/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-new-york/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-new-york-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-new-zealand/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-newcastle/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-nigeria/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-norfolk/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-north-carolina-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-north-dakota/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-norway/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-odessa/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-odessa-texas/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ohio/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ohio-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-oklahoma-city/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-oklahoma-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-oman/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ontario/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-orange-texas/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-orlando/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-oslo/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pakistan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-panama/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-paris/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pasadena-texas/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-paulsboro/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pearland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pengerang/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pennsylvania/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pennsylvania-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-perth/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-philadelphia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-philippines/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-phoenix/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-piraeus/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pittsburgh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-plymouth/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-port-arthur/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-port-harcourt/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-port-hedland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-port-kembla/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-portland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-pune/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-qatar/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-raleigh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ras-al-khaimah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ras-laffan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ras-tanura/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-reporting/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-richmond-california/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-rio-de-janeiro/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-riyadh/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-rotterdam/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-ruwais/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sacramento/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-salalah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-salt-lake-city/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-san-antonio/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-san-diego/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-san-francisco/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-santiago/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sao-paulo/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sarnia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-saudi-arabia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-savannah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-scotland/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-seattle/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-senegal/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-shanghai/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sharjah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-shaybah/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-shenzhen/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-singapore/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-software-comparison/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sohar/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-south-africa/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-south-korea/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-spain/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sri-lanka/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-st-louis/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-stanlow/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-stavanger/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sugar-land/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-surat/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-suriname/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-sydney/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-taipei/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-taiwan/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-tamil-nadu/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-tampa/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-tanzania/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-teesside/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-telangana/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-tennessee-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-texas/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-texas-city/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-texas-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-thailand/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-toronto/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-torrance/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-trainer/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-trinidad/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-trondheim/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-tulsa/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-tunisia/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-turkey/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-uae/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-uk/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-vadodara/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-vancouver/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-vernon/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-vietnam/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-virginia-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-visakhapatnam/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-vizag/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-washington-dc/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-washington-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-wellington/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-west-bengal/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-whyalla/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-wilmington-california/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-wisconsin-state/",
+   "tier": "B"
+  },
+  {
+   "url": "https://atlantisndt.com/3d-scanning-yanbu/",
+   "tier": "B"
+  }
+ ]
+}

@@ -28,11 +28,6 @@ const faqs = [
       "RT excels at detecting volumetric defects: porosity (isolated or cluster), slag inclusions, tungsten inclusions, lack of penetration at weld root, burn-through, excess penetration. It also finds lack of fusion when the orientation is favorable — roughly normal to the beam. RT's classic blind spot is planar defects parallel to the radiation beam: an LOF crack on a 35° bevel face may produce almost no density change and be missed entirely. This is why weld UT (especially PAUT or TOFD) is often mandated alongside RT on critical welds, and why ASME is increasingly allowing UT as a direct RT alternative.",
   },
   {
-    question: "How long does an RT exposure take and how much does it cost?",
-    answer:
-      "Exposure time depends on source, curie strength, and thickness. Typical Iridium-192 exposures on 12 mm (0.5 in) carbon steel run 30–90 seconds at 1 meter film-focus distance with a 40-curie source. Add 30–45 minutes for setup, survey, development, and film reading per shot on film RT. DR cuts per-shot cycle time to under 5 minutes. Pricing: film RT on pipe girth welds runs $80–$150 per 2-inch DWSI panoramic; DR/CR $60–$120 per weld; full panoramic on a 36-inch transmission line $250–$400 per weld. Crew day rate: $1,200–$1,800 for a two-radiographer team plus source rental.",
-  },
-  {
     question: "What certification is needed to perform RT in the field?",
     answer:
       "In the US, a field radiographer needs both (1) ASNT RT Level II (SNT-TC-1A, ACCP, or NAS 410 depending on industry) and (2) an NRC or Agreement State Radiographer certification or radiation safety officer (RSO) supervision. Training is typically 80 hours classroom RT plus 40 hours radiation safety plus 400+ hours supervised field experience. International projects add country-specific regulator cards: FANR in UAE, NRRC in KSA, AERB in India. Outside the Gulf, CSWIP and PCN add RT-specific Level II schemes.",

@@ -174,11 +174,6 @@ export default function EsNdtErpBuenosAires() {
           answer:
             "Sí. La aplicación móvil incluye modo offline completo para captura de datos en yacimientos de la cuenca neuquina donde la conectividad es intermitente. Los datos se sincronizan automáticamente cuando el técnico regresa a la oficina de Neuquén o Buenos Aires, sin pérdida de información incluso después de turnos de catorce días en campo.",
         },
-        {
-          question: "¿Cuál es el costo del sistema para una empresa de inspección argentina?",
-          answer:
-            "Las suscripciones comienzan desde 18.000 dólares estadounidenses anuales para empresas pequeñas (hasta 10 técnicos), con planes intermedios para empresas medianas (10 a 30 técnicos) y planes empresariales para operadores grandes. Ofrecemos planes de pago en moneda local con ajustes según la inflación argentina y términos de pago flexibles adaptados al contexto económico local.",
-        },
       ]}
       ui={ui}
     />

@@ -56,14 +56,7 @@ export default function ErpImplementationCostCalculator() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "WebApplication", "name": "NDT ERP Implementation Cost Calculator", "applicationCategory": "BusinessApplication", "description": "Free interactive calculator estimating Year-1 and 5-year TCO of an NDT ERP implementation across vendors (Atlantis, SAP, Oracle, IBM Maximo).", "operatingSystem": "Any", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" } },
-            { "@type": "HowTo", "name": "How to estimate NDT ERP implementation cost", "step": [
-                { "@type": "HowToStep", "text": "Enter your user count, site count, and ERP vendor preference." },
-                { "@type": "HowToStep", "text": "Adjust integration count for the connected systems (SAP PM, Maximo, etc.)." },
-                { "@type": "HowToStep", "text": "Select migration complexity based on your historical data depth." },
-                { "@type": "HowToStep", "text": "Set training hours per user — typically 30-60 hours for inspection role users." },
-                { "@type": "HowToStep", "text": "Review Year-1 cost breakdown and 5-year TCO." }
-            ]}
+
         ]
     };
 

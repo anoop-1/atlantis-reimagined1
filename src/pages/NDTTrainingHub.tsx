@@ -13,11 +13,6 @@ const faqs = [
       "Method-dependent. SNT-TC-1A sets minimum classroom hours per method: UT and RT require 40 hours at Level I and another 40 at Level II, ET requires 40/40, MT needs 12/24, VT needs 8/16, and PT needs 4/8. Experience hours range from 130 (PT Level I) to 3,600 (UT Level II) supervised OJT. In practice, a full Level II pathway in a single method takes 6–12 months elapsed including OJT; a fast-track immersive classroom-only block takes 2–3 weeks.",
   },
   {
-    question: "How much does ASNT certification cost?",
-    answer:
-      "For SNT-TC-1A (employer-based), training is the main cost: $800–$1,800 per Level I/II method at most private schools, $2,000–$3,000 for advanced methods like PAUT or TOFD. ACCP Level II exam is $420 per method through ASNT. ASNT NDT Level III Basic exam costs $540 with each method exam at $310. Budget $3,000–$6,000 end-to-end for a Level II in a major method including training, exam fees, reference materials, and vision test.",
-  },
-  {
     question: "What are the 3 levels of NDT certification?",
     answer:
       "Level I technicians perform calibrated tests and record results under Level II or III supervision. Level II technicians set up equipment, interpret indications against acceptance criteria, write reports, and supervise Level I personnel. Level III professionals develop written practices and procedures, qualify Level I/II staff, select methods, and sign off on NDT programs — they hold either ASNT NDT Level III or ACCP Level III credentials and typically need a decade of field experience plus passing Basic and Method exams.",
@@ -41,11 +36,6 @@ const faqs = [
     question: "Can my employer sponsor my NDT training?",
     answer:
       "Almost always yes. Operators, EPCs, and inspection companies routinely sponsor Level I through III training as a retention and compliance investment. Typical arrangements include full tuition coverage in exchange for a 12–24 month service agreement. Employer-sponsored trainees also get SNT-TC-1A certification automatically (the employer is the certifying body), and experience hours accumulate on company time. We offer group pricing for sponsored cohorts of 4+ trainees.",
-  },
-  {
-    question: "Is there a cost calculator for NDT certification?",
-    answer:
-      "Yes — our NDT Certification Cost Calculator factors training fees, exam costs, travel, reference codes, and lost wages during OJT to give a realistic total. For a single-method SNT-TC-1A Level II in the US, expect $3,500–$5,500 all-in. For ACCP Level II with portable certification, budget $4,500–$6,500. Multi-method technicians save roughly 30% on marginal methods after the first.",
   },
 ];
 

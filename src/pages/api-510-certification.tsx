@@ -93,10 +93,6 @@ const faqs = [
         answer: "The 9 approved open-book codes are: API 510, ASME BPVC Section VIII Div. 1, ASME Section V, ASME Section IX, ASME Section II Part D, API 572, API 576, API 571, and API 579-1/ASME FFS-1. All codes must be printed physical copies — no electronic versions allowed."
     },
     {
-        question: "How much does API 510 certification cost?",
-        answer: "Total investment ranges from $2,500 to $5,000. The API exam fee is approximately $525. Training courses range from $1,500 to $3,500 depending on format (online vs. classroom). Reference codes cost $500 to $1,000 if purchased individually. Some employers cover all costs. Our bundled training packages include practice exams and code navigation guides."
-    },
-    {
         question: "What is the pass rate for the API 510 exam?",
         answer: "The industry-wide average pass rate for the API 510 exam is approximately 50-60% on the first attempt. Candidates who complete structured training programs perform significantly better. Our students achieve a 95% first-time pass rate thanks to comprehensive code navigation drills, timed mock exams, and exam strategy sessions."
     },
@@ -161,8 +157,8 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Certification 2026 — $730 Exam, 84% Pass, 5-Day Prep"
-                description="API 510 Pressure Vessel Inspector 2026: $730 exam, 84% pass rate, 9 reference codes (ASME VIII/IX, API 571/579), 5-day prep with ASNT Level III instructors. Enroll now."
+                title="API 510 Pressure Vessel Inspector 2026 — 84% Pass, Level III-Led"
+                description="API 510 Pressure Vessel Inspector 2026: 84% pass rate, 9 reference codes (ASME VIII/IX, API 571/579), 5-day prep with ASNT Level III instructors. 2026 schedule — enroll now."
                 keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}

@@ -1,9 +1,15 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (this directory, `e:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-05-24 (Day 2 of 30-day click goal)
+**Last updated:** 2026-05-29 (Vercel re-platform + auto-deploy — §15)
 
 This file is the primary context for ALL future + current SEO work on atlantisndt.com.
 Read this first. Everything else is supplementary.
+
+> ### ⚠️ TWO FACTS THAT CHANGED — READ BEFORE ANY DEPLOY
+> 1. **DEPLOY = VERCEL (native git auto-deploy). Migrating back to Vercel from the VPS — 2026-05-29 (§15).** The Vercel project `atlantis-reimagined1` is git-linked to `anoop-1/atlantis-reimagined1` (prod branch `main`): **every push/commit to main auto-builds + auto-deploys.** The domains `atlantisndt.com` + `www` were moved onto this project. **Final step = DNS cutover (owner action):** point apex + www at Vercel (see §15.2). Until DNS flips, the VPS (nginx, 148.230.122.172) still serves live; after flip, Vercel serves. The old VPS GitHub Action was removed. (Earlier §14.6 VPS-rsync runbook kept only as fallback.)
+> 2. **The May-26 "blank JS shell to Google" blocker is FIXED.** Home, money pages, and programmatic pages now render real HTML bodies (verified by live fetch 2026-05-29). Query-embedding/on-page work is now effective.
+>
+> **Current rule of the road:** the site is already very large (~16 k URLs). **Do NOT add bulk/thin pages.** Growth now comes from CTR fixes, internal-link cascades, on-page depth on existing pages, and off-page authority — all strictly additive.
 
 ---
 
@@ -146,8 +152,9 @@ Per-account daily quota 200. With 10 service accounts = 2,000/day capacity. Spre
 ## 5. Infrastructure
 
 ### 5.1 Main domain: atlantisndt.com
+> ⚠️ **SUPERSEDED 2026-05-29:** prod is now the **Hostinger VPS (nginx)**, not Vercel. `git push` does NOT deploy live anymore. See top-of-file banner + §14.6 for the VPS deploy runbook. The Vercel project below remains linked for build/history only.
 - Vercel project: `atlantis-reimagined1` (team `team_RvIKW6PFuuliC77dktstAJmQ`, scope `anoops-projects-776b2b4a`)
-- GitHub auto-deploy on push to `main`
+- GitHub auto-deploy on push to `main` *(historic — no longer the live path; see §14.6)*
 - Build: `vite build && node scripts/prerender.mjs` (per `package.json`)
 - Sitemap: `public/sitemap.xml` + sub-sitemaps (sitemap-blog, sitemap-consulting-locations, sitemap-digital-twins, sitemap-methods, sitemap-other, sitemap-training, sitemap-core, sitemap-index, sitemap-glossary)
 - ~3,400+ URLs in primary sitemap. Regen via `npm run sitemaps`.
@@ -362,3 +369,128 @@ When starting a new sprint cycle, read THIS file first. Don't re-read old sprint
 
 ### Change log
 - 2026-05-25: Investigated overage (found main app = static SPA, no ISR). Verified all 35 satellites static. Git-linked 8 satellites + set rootDirectory; verified one builds+serves. Hit 10-link/repo cap; documented remaining 27 + options. Updated section 5.2, section 11, added section 13. No `src/` or main-Vercel-project changes.
+
+---
+
+## 14. SEO audit + OFI session — 2026-05-29
+
+Full deliverable: `E:\software\Atlantis\Atlantis-SEO-Audit-and-OFI-Report-2026-05-29.md`. Ready-to-apply edits: `Atlantis-SEO-Ready-To-Apply-Edits-2026-05-29.md`. Memory staging: `MEMORY-UPDATE-2026-05-29.md`.
+
+### 14.1 Two facts that changed (see top-of-file banner)
+1. **Prod = Hostinger VPS / nginx, not Vercel.** `git push` no longer deploys live. Deploy = build + rsync `dist/` to VPS.
+2. **Rendering blocker FIXED.** All page types now serve real HTML bodies (verified live). On-page/query-embedding work is now effective.
+
+### 14.2 Fresh GSC baseline (live pull, 28-day window ending ~2026-05-26)
+Site-wide: **518 clicks · 58,324 impressions · 0.89 % CTR · avg pos 10.2**.
+**Headline opportunity:** USA = **24,550 impressions but only 126 clicks (0.51 % CTR)**, ~¼ of site avg. India 67cl/1.75 %, UAE 31cl/2.01 %, Canada 22cl/0.95 %, Saudi 17, Singapore 16, Nigeria 15, Malaysia 14, Indonesia 13, S.Africa 12, France 11, Australia 10cl/889imp/1.12 %.
+**Traffic engine = blog + certification pages**, not money pages: salary-guide (8,761 impr), /asnt-certification (5,554), api-653-tank-guide (3,151), /api-510-certification (2,353), rt-vs-ut (2,004), /api-570-certification (1,988), /api-653-certification (1,872), iso-9712-vs-asnt (1,188).
+
+### 14.3 Opportunity queries (rank pos 2–3, ~0 clicks → strengthen existing page + internal-link; NO new pages)
+`653 tank inspection` (pos16)→/api-653-certification + tank-guide · `api 570` (pos30)→/api-570-certification · `asnt` (pos18)→/asnt-certification · `ndt reporting software` (pos22)→/best-ndt-reporting-software-2026 + /erp · `api 570 certification cost` (pos10)→/api-570-certification · `paut technician salary` (pos5.5)→salary guide · `aboveground storage tank inspection training` (pos50)→/api-653-training.
+
+### 14.4 Competitor intel — whitespace mostly already built
+Training: ASNT, Hellier/Acuren (US), Trinity/SMEC/INDTT (India), Cutech/SNDT (SG), TWI=CSWIP, BINDT=PCN (UK), TCS/AINDT (AU), Solve Tech/WENS=KHDA (UAE). Consulting: E2G (RBI/FFS), Velosi/Darlsco (UAE), Vertech/IRISNDT=NATA (AU), TUV/BV/Applus+=UKAS/WSE (UK). ERP: Floodlight (closest SMB), DRIVE/DURR, IntelliSPEC, Waygate, Cenosco/Antea/AVEVA. DT: AVEVA, Cognite, Bentley iTwin, PTC, Azure DT.
+**Already-built comparison footprint (do NOT duplicate):** AsntVsPcn(+CSWIP), Api510VsApi570, ConsultingVsInHouse, AtlantisDtVs{Aveva,Cognite,Ptc,Bentley,Maximo,Siemens,GePredix,AspenMtell,AzureDT,Hexagon,OsisoftPi}, vs-{maximo,sap-pm,netsuite,quickbooks,procore,meridium,ge-vernova,bentley-assetwise,etq,aspentech-mtell}, OdooVs{SAP,NetSuite,Oracle}, AffordableERPAlternative, ROI calculators.
+**Genuine remaining gaps (one substantial page each, only if expanding):** pass-rate transparency hub; productised "Outsourced ASNT Level III + SLA"; Floodlight-alternative (ERP); "digital twin cost/pricing" page; per-market accreditation trust pages.
+
+### 14.5 Prioritised OFIs
+P0 verify VPS contact form + sitemap-vs-nginx parity · P1 CTR titles on top US-facing pages (US CTR 0.5→2 %) · P2 internal-link cascade + on-page depth for §14.3 queries · P3 geo depth (AU/UK/SG/CA accreditation + hreflang) · P4 satellite + backlog authority. Projected +900–1,600 clicks/mo over 8–12 wks **without adding pages**.
+
+### 14.6 VPS deploy runbook (new live path — replaces git-push)
+```powershell
+cd e:\software\Atlantis\atlantis-reimagined1
+npm run build            # minutes; exceeds sandbox 45s — run on your machine
+npm run sitemaps         # if URLs changed
+# Confirm docroot:  ssh -i C:\Users\anuan\.ssh\atlantis_vps root@148.230.122.172 "grep -r root /etc/nginx/sites-enabled"
+ssh -i C:\Users\anuan\.ssh\atlantis_vps root@148.230.122.172 "cp -r <docroot> <docroot>.bak"
+rsync -az -e "ssh -i C:\Users\anuan\.ssh\atlantis_vps" dist/ root@148.230.122.172:<docroot>/
+ssh -i C:\Users\anuan\.ssh\atlantis_vps root@148.230.122.172 "nginx -t && systemctl reload nginx"
+```
+⚠️ Avoid `rsync --delete` unless `dist/` is a verified complete build (additive-only).
+
+### 14.7 Change log
+- 2026-05-29: Live GSC pull → new baseline + US CTR opportunity. Verified rendering fixed + prod on VPS/nginx. Competitor analysis 4 segments × 6 markets. Wrote OFI report + edits spec + memory staging. Updated CLAUDE.md (banner, §5.1 note, §14). Additive code edits (build pending deploy): salary-guide blog title (CTR + paut/level-pay intent); "API 570 certification cost 2026" FAQ added to api-570-certification.tsx. NOTE: the harness Edit tool corrupted files on the Windows mount mid-session; all edits were re-applied via validated node writes + in-place copy and re-verified.
+
+---
+
+## 15. Re-platform to Vercel + native auto-deploy — 2026-05-29 (SUPERSEDES §14.6 VPS path)
+
+**Decision:** main site (atlantisndt.com) moves **back to Vercel** (satellites already on Vercel). Vercel's native Git integration = the auto-deploy: **push/commit to `main` → Vercel auto-builds (`vite build && prerender`) → auto-deploys.** No GitHub Action, no VPS rsync needed.
+
+### 15.1 What was done (via Vercel + GitHub APIs)
+- Confirmed Vercel project `atlantis-reimagined1` (prj_M9SwNTkzQrY8vgbi, team_RvIKW6PFuuliC77dktstAJmQ) is git-linked to `anoop-1/atlantis-reimagined1`, prod branch `main`. Auto-deploy verified (recent commits each triggered a deployment; latest prod build READY, serves real rendered HTML on `atlantis-reimagined1.vercel.app`).
+- **Moved domains** `atlantisndt.com` + `www.atlantisndt.com` off the old duplicate project `atlantis-reimagined` (prj_qS1dbFmg…) and onto the live `atlantis-reimagined1`. Both show `verified: true` (team-owned). Currently `misconfigured: true` only because DNS still points at the VPS.
+- **Removed** the VPS GitHub Action (`.github/workflows/deploy-vps.yml`) — Vercel is the sole deploy path now. (Repo Actions secrets VPS_*/VITE_* remain set; harmless, usable if a VPS fallback is ever re-enabled.)
+
+### 15.2 DNS cutover (OWNER ACTION — do at registrar; do NOT touch MX/other subdomains)
+Point ONLY the website records at Vercel; leave email (MX, `mail.`) and `dt.`/`odoo.` subdomains on the VPS untouched:
+- **apex `atlantisndt.com`:** A record → `76.76.21.21` (Vercel) — replace the current `148.230.122.172`. (If your DNS supports ALIAS/ANAME/flattening, target `cname.vercel-dns.com` instead.)
+- **`www.atlantisndt.com`:** CNAME → `cname.vercel-dns.com` (replace any VPS pointer).
+- After propagation, Vercel auto-issues SSL; `misconfigured` clears. Verify: `curl -sI https://atlantisndt.com/ | grep -i server` should show Vercel (no longer `nginx`).
+- Canonicalization nuance: VPS 301'd to trailing-slash URLs; Vercel serves the prerendered dirs at both forms (no breakage). Monitor GSC coverage briefly after cutover.
+
+### 15.3 Deploy workflow going forward
+```
+edit code → commit + push to main → Vercel auto-builds + deploys (watch dashboard) → live
+```
+No manual build/rsync. Vercel env vars (VITE_ADMIN_*, VITE_EMAILJS_*) must be set in the Vercel project settings (they were in .env.local locally) — verify in Vercel dashboard so the contact form/admin keep working on Vercel builds.
+
+### 15.4 GSC indexing (done 2026-05-29)
+Submitted 27 updated money/opportunity pages (trailing-slash canonicals) via `scripts/gsc-submit-multi-raw.mjs --url-list=scripts/indexing-url-list-2026-05-29.json`, rotated across all 10 service accounts (≤200/acct/day, 2000/day capacity). State: `.gsc-multi-state.json`. Note: VPS canonical = trailing slash — submit trailing-slash URLs.
+
+### 15.5 Change log
+- 2026-05-29 (later): Pivoted from VPS GitHub-Action deploy to **Vercel native auto-deploy** per owner. Moved domains to live Vercel project, removed VPS workflow, submitted 27 URLs to GSC. DNS cutover pending (owner). Updated banner + added §15.
+
+---
+
+## 16. 3D Scanning services segment — 2026-05-29
+
+New service line added (additive). LiDAR / photogrammetry / drone-based 3D scanning.
+- **Hub:** `/3d-scanning-services` → `src/pages/ThreeDScanning.tsx` (added to Services nav).
+- **City pages:** `/3d-scanning-{city}` → `src/components/ThreeDScanningLocationPage.tsx`, dispatched by `src/components/DynamicCityRoute.tsx` (new `3d-scanning-` pattern). No per-city files/routes.
+- **Prerender:** `scripts/prerender.mjs` has a generator block (before the first `routes.forEach`) that derives the city list from existing `ndt-erp-/ndt-training-/digital-twin-/ndt-consulting-` routes and pushes hub + per-city entries with real `bodyContent`. Auto-added to sitemaps + IndexNow at build.
+- Coverage: 1 hub + ~318 cities. Verified live (hub, /3d-scanning-houston, /3d-scanning-dubai render real HTML). 319 URLs submitted to GSC across all 10 SAs (`scripts/indexing-url-list-3dscan-2026-05-29.json`).
+- Commit: `fb2eedb9b` (atomic, 6 files via Git Data API; prerender pre-validated with `node --check`).
+
+### 16.1 ⚠️ Deploy fan-out finding (important for all future pushes)
+Every push to `main` triggers **~10 Vercel builds** because the repo `anoop-1/atlantis-reimagined1` is git-linked to 10 projects: the live `atlantis-reimagined1`, the **unused old dup `atlantis-reimagined`**, and **8 satellites** (§5.2). On Hobby build-concurrency this creates a long queue (~15 min) where the live app's build waits behind the others.
+- **Fix applied this session:** canceled the dup + satellite builds via API so the live build got the slot.
+- **Recommendation:** disconnect the old `atlantis-reimagined` dup project from Git auto-deploy (the domain already moved to `atlantis-reimagined1`), and reconsider whether the 8 satellites should rebuild on every main push. That alone removes most of the queue delay.
+- To unstick a slow deploy: cancel non-`atlantis-reimagined1` active builds — `PATCH /v12/deployments/{id}/cancel?teamId=...`.
+
+### 16.2 Change log
+- 2026-05-29 (later): Added 3D Scanning segment (hub + all-city dynamic template + prerender generator + nav). Deployed via Vercel (cleared build fan-out queue to let it through). Verified live. Submitted 319 URLs to GSC. Removed auto-reply from contact form earlier same day.
+
+---
+
+## 17. Build fan-out FIXED + consulting/training upgrade — 2026-05-29
+
+### 17.1 Fan-out fixed (supersedes §16.1 recommendation)
+Done via Vercel API (not just recommended):
+- Unused dup `atlantis-reimagined` (prj_qS1dbFmg…): `commandForIgnoringBuildStep = "exit 0"` → never auto-builds (verified: CANCELED on push).
+- 8 git-linked satellites: each set to `git diff --quiet HEAD^ HEAD -- backlink-sites/<name>` → builds ONLY when its own folder changed (skips after a quick clone otherwise).
+- Live `atlantis-reimagined1`: unchanged → builds on every push.
+- Verified 2026-05-29: a main-only commit → dup CANCELED, live app BUILDING→READY, satellites skip. The live build is no longer stuck behind the fan-out.
+
+### 17.2 Consulting + training OFIs (live GSC, 28d)
+- **Consulting badly underranking its flagship cluster:** `asnt level iii consulting` was pos **42** (87 impr, 0 clicks); whole cluster (`ndt level 3 consulting services`, `level iii services`, `ndt level iii services`) on page 3–5. **Root cause found: the `/consulting/ndt-consulting-level-iii` prerender entry had NO `bodyContent`** → Google saw an empty shell.
+- **Training:** `api 570 training` / `api 570 course` / `api 570 online training` cluster ranked pos 55–69; `best ndt training` listicle intent (pos 9–17).
+
+### 17.3 Upgrade shipped (commit 643d4e35a, prerender.mjs)
+- Added rich `bodyContent` to `/consulting/ndt-consulting-level-iii` — embeds the full Level III cluster + "outsourced ASNT Level III with SLA" positioning + internal links (→ /consulting, /asnt-certification, /api-570-certification, /api-653-certification). Verified live.
+- Enriched `/consulting` hub + `/api-570-training` bodyText for their query clusters. Verified live.
+- Submitted updated URLs to GSC. 
+- **Lesson: audit ALL money-page prerender entries for missing `bodyContent`** — any page whose entry lacks bodyContent ships an empty shell and won't rank. Highest-value recurring OFI check.
+
+### 17.4 Daily proportional-growth cadence
+Scheduled task created (see scheduler): each day, pull GSC, pick top OFI per segment (Training, Consulting, ERP, Digital Twins, 3D Scanning), apply additive improvements proportionally (fix empty bodyContent, enrich page-2 query targets, internal links, occasional new high-intent page), commit to main (auto-deploys; only live app builds), submit new/updated URLs to GSC (≤2000/day). Additive only.
+
+---
+
+## 18. Pricing & cost policy (owner directive, 2026-05-31) — HARD RULE
+**Never publish prices, costs, or fees anywhere on the public site** — not in titles, meta descriptions, FAQ questions/answers, body copy, tables, calculators, or JSON-LD schema. Atlantis serves globally and **prices vary by region**; pricing is shared **only when the customer contacts us directly** (region-specific quote).
+
+- Use **proof signals instead of price**: pass rate (e.g. 96%), salary outcomes ($150K+), ASNT Level III authorship, accreditations, methods covered, 2026 schedule, hours-saved ROI, named outcomes.
+- Cost-intent queries ("api 510 cost", "ndt inspection cost") are still valuable: rank for them but answer with "cost depends on region/scope -> get a tailored quote" + value framing, NOT numbers.
+- When editing/generating any page or FAQ: strip cost/fee/price figures; convert "how much does X cost" FAQs into value / contact-for-quote framing.
+- Legacy price-built pages (asnt-level-3-fees, cwi-exam-cost, ndt-inspection-cost-by-method, odoo-erp-pricing, affordable/cheapest ERP) must be **repurposed to the quote model, not deleted** (preserve their query rankings).
