@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Dg2DQ--s.js";import t from"./MethodLocationPage-DPkwEn33.js";import"./PillarHubNav-CS8cPNvD.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-4sre8qMy.js";function g(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"san-diego"})}export{g as default};

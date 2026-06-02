@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-BaE92hYU.js";import{R as r}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function m(){return o.jsx(r,{city:"Vancouver",country:"Canada",slug:"ndt-reporting-vancouver"})}export{m as default};

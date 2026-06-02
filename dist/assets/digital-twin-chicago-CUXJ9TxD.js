@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-BaE92hYU.js";import{D as t}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function g(){return i.jsx(t,{city:"Chicago",country:"USA",slug:"digital-twin-chicago"})}export{g as default};

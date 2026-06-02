@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Dg2DQ--s.js";import{g as r,T as t}from"./TrainingLocationPage-BoYFOpwF.js";import"./RelatedProducts-A6WMnPre.js";import"./erp-pages-4sre8qMy.js";function f(){const i=r("oslo");return i?o.jsx(t,{profile:i}):null}export{f as default};

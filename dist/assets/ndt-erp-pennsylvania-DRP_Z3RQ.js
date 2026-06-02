@@ -1,0 +1,1 @@
+import{j as n}from"./blog-pages-BaE92hYU.js";import{E as r}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function e(){return n.jsx(r,{city:"Pennsylvania",country:"USA",slug:"ndt-erp-pennsylvania"})}export{e as default};

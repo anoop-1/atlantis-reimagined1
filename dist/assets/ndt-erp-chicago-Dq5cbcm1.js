@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Dg2DQ--s.js";import{E as r}from"./ErpLocationPage-Dt7s-uLb.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function n(){return o.jsx(r,{city:"Chicago",country:"USA",slug:"ndt-erp-chicago"})}export{n as default};

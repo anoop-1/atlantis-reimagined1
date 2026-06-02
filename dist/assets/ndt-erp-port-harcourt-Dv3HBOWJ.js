@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-BaE92hYU.js";import{E as t}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function c(){return r.jsx(t,{city:"Port Harcourt",country:"Nigeria",slug:"ndt-erp-port-harcourt"})}export{c as default};

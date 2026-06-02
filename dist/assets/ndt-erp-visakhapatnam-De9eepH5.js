@@ -1,0 +1,1 @@
+import{j as a}from"./blog-pages-BaE92hYU.js";import{E as t}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function s(){return a.jsx(t,{city:"Visakhapatnam",country:"India",slug:"ndt-erp-visakhapatnam"})}export{s as default};

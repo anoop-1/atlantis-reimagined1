@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-BaE92hYU.js";import{C as i}from"./ConsultingLocationPage-CCmCuZAI.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function p(){return o.jsx(i,{locationSlug:"rio-de-janeiro"})}export{p as default};

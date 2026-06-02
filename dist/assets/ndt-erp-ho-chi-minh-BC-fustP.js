@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-BaE92hYU.js";import{E as o}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function a(){return i.jsx(o,{city:"Ho Chi Minh",country:"Vietnam",slug:"ndt-erp-ho-chi-minh"})}export{a as default};

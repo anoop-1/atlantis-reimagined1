@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Dg2DQ--s.js";import{g as o,T as n}from"./TrainingLocationPage-BoYFOpwF.js";import"./RelatedProducts-A6WMnPre.js";import"./erp-pages-4sre8qMy.js";function f(){const r=o("norway");return r?i.jsx(n,{profile:r}):null}export{f as default};

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-BaE92hYU.js";import{R as t}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function u(){return r.jsx(t,{city:"Fort McMurray",country:"Canada",slug:"ndt-reporting-fort-mcmurray"})}export{u as default};

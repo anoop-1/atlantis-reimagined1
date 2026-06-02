@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-BaE92hYU.js";import{D as i}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function m(){return t.jsx(i,{city:"Egypt",country:"Egypt",slug:"digital-twin-egypt"})}export{m as default};

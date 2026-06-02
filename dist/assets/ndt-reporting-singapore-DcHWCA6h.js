@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-BaE92hYU.js";import{R as r}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function g(){return o.jsx(r,{city:"Singapore",country:"Singapore",slug:"ndt-reporting-singapore"})}export{g as default};

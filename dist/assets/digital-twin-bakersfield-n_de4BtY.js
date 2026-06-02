@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-BaE92hYU.js";import{D as t}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function n(){return i.jsx(t,{city:"Bakersfield",country:"USA",slug:"digital-twin-bakersfield"})}export{n as default};

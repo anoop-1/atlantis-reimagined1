@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Dg2DQ--s.js";import{D as i}from"./DigitalTwinLocationPage-ZqeE13w3.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function p(){return t.jsx(i,{city:"Vietnam",country:"Vietnam",slug:"digital-twin-vietnam"})}export{p as default};

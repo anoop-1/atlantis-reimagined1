@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-BaE92hYU.js";import o from"./MethodLocationPage-2f018dwL.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";function s(){return t.jsx(o,{methodSlug:"visual-testing",locationSlug:"stavanger"})}export{s as default};

@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-BaE92hYU.js";import{E as r}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function m(){return o.jsx(r,{city:"South Korea",country:"South Korea",slug:"ndt-erp-south-korea"})}export{m as default};

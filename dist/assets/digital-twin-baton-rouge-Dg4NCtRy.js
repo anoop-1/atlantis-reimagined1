@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Dg2DQ--s.js";import{D as o}from"./DigitalTwinLocationPage-ZqeE13w3.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function e(){return t.jsx(o,{city:"Baton Rouge",country:"USA",slug:"digital-twin-baton-rouge"})}export{e as default};

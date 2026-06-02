@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-BaE92hYU.js";import{E as t}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function m(){return r.jsx(t,{city:"Pearland",country:"USA",slug:"ndt-erp-pearland"})}export{m as default};

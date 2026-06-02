@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-BaE92hYU.js";import{g as t,T as n}from"./TrainingLocationPage-d9AzDB4O.js";import"./RelatedProducts-xqCJSnRU.js";import"./erp-pages-BhbgqGxr.js";function u(){const i=t("jubail");return i?r.jsx(n,{profile:i}):null}export{u as default};

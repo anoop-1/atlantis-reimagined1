@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Dg2DQ--s.js";import{g as o,T as i}from"./TrainingLocationPage-BoYFOpwF.js";import"./RelatedProducts-A6WMnPre.js";import"./erp-pages-4sre8qMy.js";function s(){const r=o("port-harcourt");return r?t.jsx(i,{profile:r}):null}export{s as default};

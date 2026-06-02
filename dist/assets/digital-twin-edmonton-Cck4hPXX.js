@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-BaE92hYU.js";import{D as o}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function s(){return t.jsx(o,{city:"Edmonton",country:"Canada",slug:"digital-twin-edmonton"})}export{s as default};

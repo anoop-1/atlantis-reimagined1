@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Dg2DQ--s.js";import{R as t}from"./ReportingLocationPage-CbvWvlc5.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function e(){return r.jsx(t,{city:"Paris",country:"France",slug:"ndt-reporting-paris"})}export{e as default};

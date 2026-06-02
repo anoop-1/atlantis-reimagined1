@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Dg2DQ--s.js";import o from"./MethodLocationPage-DPkwEn33.js";import"./PillarHubNav-CS8cPNvD.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-4sre8qMy.js";function e(){return i.jsx(o,{methodSlug:"visual-testing",locationSlug:"indianapolis"})}export{e as default};

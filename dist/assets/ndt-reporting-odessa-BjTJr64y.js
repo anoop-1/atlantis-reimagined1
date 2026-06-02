@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-BaE92hYU.js";import{R as o}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function a(){return t.jsx(o,{city:"Odessa",country:"USA",slug:"ndt-reporting-odessa"})}export{a as default};

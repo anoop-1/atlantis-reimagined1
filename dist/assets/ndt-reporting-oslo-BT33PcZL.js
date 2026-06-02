@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-BaE92hYU.js";import{R as t}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function e(){return o.jsx(t,{city:"Oslo",country:"Norway",slug:"ndt-reporting-oslo"})}export{e as default};

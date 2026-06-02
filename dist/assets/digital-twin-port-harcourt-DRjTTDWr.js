@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-BaE92hYU.js";import{D as r}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function u(){return t.jsx(r,{city:"Port Harcourt",country:"Nigeria",slug:"digital-twin-port-harcourt"})}export{u as default};

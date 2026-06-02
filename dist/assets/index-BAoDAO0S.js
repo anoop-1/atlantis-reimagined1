@@ -1,1 +1,0 @@
-import{o as a,z as s}from"./blog-pages-Dg2DQ--s.js";import{d as u}from"./index-COv8sv4W.js";var i=s[" useId ".trim().toString()]||(()=>{}),d=0;function f(r){const[t,e]=a.useState(i());return u(()=>{e(o=>o??String(d++))},[r]),t?`radix-${t}`:""}export{f as u};

@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-BaE92hYU.js";import{C as o}from"./ConsultingLocationPage-CCmCuZAI.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function s(){return t.jsx(o,{locationSlug:"argentina"})}export{s as default};

@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-BaE92hYU.js";import t from"./MethodLocationPage-2f018dwL.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";function p(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"baltimore"})}export{p as default};

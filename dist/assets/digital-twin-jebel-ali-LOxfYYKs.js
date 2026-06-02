@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Dg2DQ--s.js";import{D as t}from"./DigitalTwinLocationPage-ZqeE13w3.js";import"./PillarHubNav-CS8cPNvD.js";import"./badge-xiE8ZjX9.js";import"./erp-pages-4sre8qMy.js";import"./RelatedProducts-A6WMnPre.js";function n(){return i.jsx(t,{city:"Jebel Ali",country:"United Arab Emirates",slug:"digital-twin-jebel-ali"})}export{n as default};
