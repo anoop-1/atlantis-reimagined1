@@ -469,41 +469,41 @@ export default function DigitalTwins() {
 
          <div className="w-full min-h-screen flex flex-col bg-white">
             {/* ─────────────── HERO ─────────────── */}
-            <section className="pt-24 pb-16 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 text-white">
+            <section className="pt-24 pb-16 bg-white text-[#004aad]">
                <div className="max-w-5xl mx-auto px-6 text-center">
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
                      animate={{ opacity: 1, y: 0 }}
                      transition={{ duration: 0.7 }}
                   >
-                     <Badge className="mb-5 bg-blue-500/20 text-blue-200 border-blue-400/30 hover:bg-blue-500/30">
+                     <Badge className="mb-5 bg-[#004aad]/10 text-[#004aad] border-[#004aad]/30 hover:bg-[#004aad]/20">
                         Product pillar · Updated May 2026
                      </Badge>
-                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#004aad]">
                         Digital Twin NDT Software for Oil &amp; Gas, Aerospace &amp; Power Assets
                      </h1>
-                     <p className="text-lg md:text-xl text-slate-200 leading-relaxed mb-3 max-w-3xl mx-auto">
+                     <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-3 max-w-3xl mx-auto">
                         A 3D asset twin built from the inspection record — UT thickness, RT, MT/PT, PAUT, TOFD, ILI — with API 579 Fitness-For-Service, API 581 Risk-Based Inspection, and ASNT Level III approval baked into the workflow.
                      </p>
-                     <p className="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-3xl mx-auto">
+                     <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-8 max-w-3xl mx-auto">
                         Browser-first, cloud or air-gap on-prem, all-in for up to 500 assets.
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                            to="/contact?subject=Digital%20Twin%20Demo%20Request"
-                           className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg shadow-lg transition"
+                           className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#004aad] hover:bg-[#003a85] text-white font-semibold rounded-lg shadow-lg transition"
                         >
                            Book a 60-minute scoping call <ArrowRight className="w-4 h-4" />
                         </Link>
                         <a
                            href="#interactive-demo"
-                           className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-slate-400 hover:bg-white/10 text-white font-semibold rounded-lg transition"
+                           className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#004aad] hover:bg-[#004aad]/10 text-[#004aad] font-semibold rounded-lg transition"
                         >
                            Try the interactive demo
                         </a>
                      </div>
-                     <p className="text-sm text-slate-400 mt-8">
-                        Authored by <strong className="text-slate-200">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), API 510 / 570 / 653 Authorized Inspector, ISO 9001:2015 Lead Auditor, Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
+                     <p className="text-sm text-[#004aad]/80 mt-8">
+                        Authored by <strong className="text-[#004aad]">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), API 510 / 570 / 653 Authorized Inspector, ISO 9001:2015 Lead Auditor, Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
                      </p>
                   </motion.div>
                </div>
