@@ -2044,7 +2044,6 @@ const DigitalTwinPengerang = lazy(() => import("./pages/digital-twin-pengerang")
 // === END DT day-1 expansion 2026-05-24 — city pages ===
 // Resource Pages
 const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
-const StateOfNdt2026 = lazy(() => import("./pages/StateOfNdt2026"));
 const PressMedia = lazy(() => import("./pages/press-media"));
 // ERP Location Pages
 const NDTErpHouston = lazy(() => import("./pages/ndt-erp-houston"));
@@ -4543,7 +4542,6 @@ const App = () => (
                   <Route path="/resources/ndt-written-practice-template" element={<LazyRoute Component={NDTWrittenPracticeTemplate} />} />
                   <Route path="/resources/inspection-test-plan-itp" element={<LazyRoute Component={InspectionTestPlanITP} />} />
                   <Route path="/resources/audit-finding-tracker" element={<LazyRoute Component={AuditFindingTracker} />} />
-                  <Route path="/resources/state-of-ndt-2026" element={<LazyRoute Component={StateOfNdt2026} />} />
                   {/* Content Pages */}
                   <Route path="/ndt-industry-statistics" element={<LazyRoute Component={NDTIndustryStatistics} />} />
                   <Route path="/ndt-complete-guide" element={<LazyRoute Component={UltimateGuideNDT} />} />
