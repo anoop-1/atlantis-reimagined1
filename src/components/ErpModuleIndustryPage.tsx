@@ -38,7 +38,7 @@ export default function ErpModuleIndustryPage(p: ErpModuleIndustryProps) {
         "description": p.desc,
         "url": url,
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-        "offers": { "@type": "Offer", "price": "Contact for pricing", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" },
         "audience": { "@type": "BusinessAudience", "audienceType": p.industryName },
         "featureList": p.industryFeatures.slice(0, 10),
       },

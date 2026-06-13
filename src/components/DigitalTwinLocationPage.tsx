@@ -220,12 +220,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                 },
                 "offers": {
                     "@type": "Offer",
-                    "availability": "https://schema.org/InStock",
-                    "priceCurrency": "USD",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "description": "Contact for pricing"
-                    }
+                    "availability": "https://schema.org/InStock"
                 }
             }
         ]

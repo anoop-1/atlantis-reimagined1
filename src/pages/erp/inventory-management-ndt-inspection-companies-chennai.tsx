@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is Inventory configured for NDT inspection companies operating in Chennai?", "Yes. The Inventory module is pre-loaded with automotive Q/A approved-consumable lists (Hyundai, BMW, Renault-Nissan, Daimler), BARC nuclear consumable certification for Kalpakkam supplier work, and AERB radiography source register requirements."],
     ["Which Chennai regulators does Inventory align with?", "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Tamil Nadu Pollution Control Board (TNPCB). The AERB Chennai office specifically covers Kalpakkam nuclear consumable authorizations."],
     ["Can Chennai NDT inspection companies integrate Inventory with automotive OEM portals?", "Yes. The platform supports vendor-portal flow with Hyundai, BMW India, Renault-Nissan, Daimler India and the major automotive supplier-Q/A approved-consumable systems."],
-    ["What does Inventory cost for an NDT inspection company in Chennai?", "Inventory is bundled inside the standard regionally priced (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
+    ["What does Inventory cost for an NDT inspection company in Chennai?", "Inventory is bundled inside the standard affordable, accessible (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
     ["Does Inventory support nuclear-grade BARC consumable certification?", "Yes. BARC-CONS approved consumable lists for Kalpakkam supplier work — covering radiography film, calibration blocks, source consumables — are pre-loaded with chain-of-custody traceability."]
   ]
 } as ErpTripleCrossProps;

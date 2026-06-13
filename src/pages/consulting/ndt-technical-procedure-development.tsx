@@ -247,14 +247,15 @@ export default function NdtTechnicalProcedureDevelopment() {
 
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto px-6 max-w-4xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement & pricing</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement model</h2>
                     <Card className="border-2 border-rose-500">
                         <CardContent className="pt-6">
+                            <p className="text-slate-700 mb-4"><strong>Affordable. Accessible. Fully Customizable.</strong> Engagement scope is tailored to your method mix, code body, client specification and delivery timeline.</p>
                             <ul className="space-y-3 text-slate-700">
-                                <li className="flex items-start gap-3"><BarChart3 className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-method procedure (UT / RT / MT / PT / VT):</strong> $4,500-$8,500 per procedure, 2-3 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Briefcase className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>PAUT or TOFD procedure with PQR:</strong> $14,000-$28,000 per procedure (qualification + documentation), 5-8 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Settings className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Multi-method procedure suite (4-6 methods):</strong> $32,000-$68,000 fixed-fee, 6-10 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Target className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Aramco / ADNOC client-specific submission pack:</strong> $8,500-$18,000 additional per procedure for review-and-resolution support.</span></li>
+                                <li className="flex items-start gap-3"><BarChart3 className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-method procedure (UT / RT / MT / PT / VT):</strong> 2-3 week delivery. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Briefcase className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>PAUT or TOFD procedure with PQR:</strong> 5-8 week delivery, includes qualification and documentation. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Settings className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Multi-method procedure suite (4-6 methods):</strong> 6-10 week delivery. Fixed-fee engagements available — contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Target className="text-rose-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Aramco / ADNOC client-specific submission pack:</strong> additional review-and-resolution support per procedure. Pricing varies by region and scope — contact us for a tailored quote.</span></li>
                             </ul>
                         </CardContent>
                     </Card>

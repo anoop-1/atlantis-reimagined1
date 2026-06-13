@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is Accounting configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The Accounting module is pre-loaded with government-PSU invoicing formats (IOCL, GAIL, EIL, BHEL, NTPC, ONGC), GST e-invoice generation, TDS calculation, Companies Act 2013 compliance, and government-tender financial-bond tracking."],
     ["Which Delhi financial regulators does Accounting align with?", "The compliance dashboard maps to the Income Tax Department (Delhi office), GST Network (GSTN), Ministry of Corporate Affairs (MCA), Comptroller and Auditor General of India (CAG, for PSU work)."],
     ["Can Delhi NDT inspection companies integrate Accounting with EIL contractor portal?", "Yes. The platform supports vendor-portal flow with IOCL, GAIL, ONGC, Engineers India Limited (EIL), BHEL Haridwar, NTPC. EIL contractor-portal evidence-pack export is automated."],
-    ["What does Accounting cost for an NDT inspection company in Delhi?", "Accounting is bundled inside the standard regionally priced (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
+    ["What does Accounting cost for an NDT inspection company in Delhi?", "Accounting is bundled inside the standard affordable, accessible (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
     ["Does Accounting handle government-tender financial bonds?", "Yes. EMD (Earnest Money Deposit), performance bank guarantee (BG), retention money — common in government-PSU tenders — are tracked with lifecycle management, validity-period alerts, and bank-side reconciliation."]
   ]
 } as ErpTripleCrossProps;

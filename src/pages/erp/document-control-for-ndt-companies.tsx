@@ -34,8 +34,8 @@ export default function DocumentControlForNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Document Control for NDT Companies — regional pricing All Odoo Apps Included | Atlantis NDT"
-        description="Atlantis NDT ERP includes Document Control. Designed for NDT inspection companies and certification labs. regionally priced, fully customizable, ASNT/ISO 9712 ready. Demo: info@atlantisndt.com"
+        title="Document Control for NDT Companies — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT"
+        description="Atlantis NDT ERP includes Document Control. Designed for NDT inspection companies and certification labs. Affordable, accessible, fully customizable, ASNT/ISO 9712 ready. Demo: info@atlantisndt.com"
         canonical="/erp/document-control-for-ndt-companies"
         faq={FAQS}
       />
@@ -54,7 +54,7 @@ export default function DocumentControlForNdtCompanies() {
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">regional pricing</span>
+              <span className="font-semibold">Fully Customizable</span>
               <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">

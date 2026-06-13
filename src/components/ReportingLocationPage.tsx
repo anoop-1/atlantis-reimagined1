@@ -19,7 +19,7 @@ import {
   ChevronUp,
   ArrowRight,
   Star,
-  FileSignature,
+  FileSignature
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -88,7 +88,7 @@ const reportingLocationContext: Record<string, string> = {
   "Odessa":
     "Odessa, Texas anchors Permian Basin upstream inspection activity, with inspection service providers serving ConocoPhillips, Pioneer Natural Resources, Chevron, and ExxonMobil across thousands of wellhead, tank battery, and gathering system assets. Atlantis NDT Reporting Software produces Texas Railroad Commission (RRC) regulatory inspection reports, API 510/570/653 facility documentation, and the high-volume batch-export capability needed for Permian operators inspecting thousands of assets per quarter.",
   "Bergen":
-    "Bergen serves Norway's western offshore sector with operations targeting Equinor Troll, Johan Sverdrup, and the Mongstad refinery. Norwegian Petroleum Safety Authority (PSA) inspection documentation requirements follow NORSOK Z-008 and N-001 standards. Atlantis NDT Reporting Software produces NORSOK-compliant PDF reports with PSA-ready audit metadata, Equinor STID-compatible XML exports, and Mongstad-specific turnaround inspection deliverables.",
+    "Bergen serves Norway's western offshore sector with operations targeting Equinor Troll, Johan Sverdrup, and the Mongstad refinery. Norwegian Petroleum Safety Authority (PSA) inspection documentation requirements follow NORSOK Z-008 and N-001 standards. Atlantis NDT Reporting Software produces NORSOK-compliant PDF reports with PSA-ready audit metadata, Equinor STID-compatible XML exports, and Mongstad-specific turnaround inspection deliverables."
 };
 
 // ─── Local report formats supported ──────────────────────────────────────────
@@ -117,7 +117,7 @@ const localReportFormats: Record<string, string[]> = {
   "Rotterdam": ["PED 2014/68/EU conformity", "SZW Technische Integriteit Register", "Shell MESC SP 77 formats", "ExxonMobil EMIR deliverables", "BP downstream templates"],
   "Manama": ["Bapco OP-0003 formats", "NOGA regulatory submissions", "SAP ERP XML exports", "Bahrain Boilers Inspection Unit", "GCC mutual recognition"],
   "Odessa": ["Texas RRC regulatory reports", "Permian API 510/570/653", "Pioneer NR vendor formats", "ConocoPhillips deliverables", "Exxon XTO templates"],
-  "Bergen": ["NORSOK Z-008/N-001 PDFs", "PSA audit metadata embedded", "Equinor STID XML exports", "Mongstad turnaround formats", "DNV offshore certification"],
+  "Bergen": ["NORSOK Z-008/N-001 PDFs", "PSA audit metadata embedded", "Equinor STID XML exports", "Mongstad turnaround formats", "DNV offshore certification"]
 };
 
 // ─── Technical reporting modules (6 core) ─────────────────────────────────────
@@ -133,9 +133,9 @@ const reportingModules = [
       "UT thickness reading capture with A-scan screenshots",
       "MT/PT/VT acceptance per ASME Section V Article 7/6/9",
       "GPS-tagged photo capture for weld/defect location",
-      "Voice-to-text dictation for finding narratives",
+      "Voice-to-text dictation for finding narratives"
     ],
-    badge: "Field-Proven",
+    badge: "Field-Proven"
   },
   {
     icon: FileText,
@@ -147,9 +147,9 @@ const reportingModules = [
       "API 570 piping circuit reporting",
       "API 653 aboveground storage tank reports",
       "ASME Section V Article 4/5 UT calibration tables",
-      "AWS D1.1 weld inspection acceptance criteria",
+      "AWS D1.1 weld inspection acceptance criteria"
     ],
-    badge: "Code-Aligned",
+    badge: "Code-Aligned"
   },
   {
     icon: Layers,
@@ -161,9 +161,9 @@ const reportingModules = [
       "API 579-1 fitness-for-service suggestion prompts",
       "Executive summary auto-draft (human approved)",
       "Consistent house-style enforcement across report corpus",
-      "Multi-language output (EN/AR/ES/FR/ZH)",
+      "Multi-language output (EN/AR/ES/FR/ZH)"
     ],
-    badge: "AI-Accelerated",
+    badge: "AI-Accelerated"
   },
   {
     icon: FileSignature,
@@ -175,9 +175,9 @@ const reportingModules = [
       "Adobe CDS certified signatures for US/global",
       "Long-term validation (LTV) timestamp embedding",
       "Revocation checking via OCSP at sign time",
-      "PDF/A-3 archival format for life-of-asset retention",
+      "PDF/A-3 archival format for life-of-asset retention"
     ],
-    badge: "Legally Binding",
+    badge: "Legally Binding"
   },
   {
     icon: Cloud,
@@ -189,9 +189,9 @@ const reportingModules = [
       "Role-based access control (reviewer, approver, read-only)",
       "SAP PM / Maximo / Meridium APM REST API push",
       "Automated daily/weekly report digest emails",
-      "Full audit log of every report view, download, re-share",
+      "Full audit log of every report view, download, re-share"
     ],
-    badge: "Client-Ready",
+    badge: "Client-Ready"
   },
   {
     icon: Shield,
@@ -203,10 +203,10 @@ const reportingModules = [
       "Immutable version history per inspection record",
       "Granular user action audit log (who did what when)",
       "Regulator audit-export in sealed PDF package",
-      "Insurance-grade integrity proof for litigation support",
+      "Insurance-grade integrity proof for litigation support"
     ],
-    badge: "Audit-Proof",
-  },
+    badge: "Audit-Proof"
+  }
 ];
 
 // ─── FAQs — deeply technical ─────────────────────────────────────────────────
@@ -216,50 +216,50 @@ const faqs = [
     question:
       "How does Atlantis NDT Reporting Software ensure the field-captured thickness readings remain unaltered between capture and final PDF signing?",
     answer:
-      "Each data point captured in the mobile app is hashed with SHA-256 at the device, signed with the inspector's device certificate, and synchronised to the cloud alongside the hash and signature. During report drafting and review, any edit triggers a new hash-chained version — the original value remains retrievable and auditable. At signing, the Level III approver's eIDAS or Adobe CDS certificate signs the final PDF, embedding a timestamp authority (TSA) signature. Independent auditors can verify the cryptographic chain years later without any Atlantis infrastructure dependency.",
+      "Each data point captured in the mobile app is hashed with SHA-256 at the device, signed with the inspector's device certificate, and synchronised to the cloud alongside the hash and signature. During report drafting and review, any edit triggers a new hash-chained version — the original value remains retrievable and auditable. At signing, the Level III approver's eIDAS or Adobe CDS certificate signs the final PDF, embedding a timestamp authority (TSA) signature. Independent auditors can verify the cryptographic chain years later without any Atlantis infrastructure dependency."
   },
   {
     question:
       "Which NDT method procedures and acceptance criteria are pre-populated in the report templates?",
     answer:
-      "Templates ship with pre-configured acceptance criteria references for ASME Section V Article 4 (UT), Article 5 (UT of welds), Article 7 (MT), Article 9 (visual), API 510 Annex D (pressure vessel inspection intervals), API 570 Section 6 (piping circuit classifications), API 653 Section 4 (tank inspection intervals), AWS D1.1 Clause 8 (welding acceptance), API 1104 Section 9 (pipeline girth welds), ISO 17635 (NDT of welds), ASTM E164 (contact examination of weldments), ASTM E213 (tube inspection), and ASTM E309 (eddy current). Custom client-specific acceptance criteria can be defined per inspection procedure.",
+      "Templates ship with pre-configured acceptance criteria references for ASME Section V Article 4 (UT), Article 5 (UT of welds), Article 7 (MT), Article 9 (visual), API 510 Annex D (pressure vessel inspection intervals), API 570 Section 6 (piping circuit classifications), API 653 Section 4 (tank inspection intervals), AWS D1.1 Clause 8 (welding acceptance), API 1104 Section 9 (pipeline girth welds), ISO 17635 (NDT of welds), ASTM E164 (contact examination of weldments), ASTM E213 (tube inspection), and ASTM E309 (eddy current). Custom client-specific acceptance criteria can be defined per inspection procedure."
   },
   {
     question:
       "How does the software handle DAC (Distance-Amplitude Correction) and DGS (Distance-Gain-Size) calibration curves required for API 510/570 UT reporting?",
     answer:
-      "UT inspection modules capture the calibration block side-drilled-hole reference amplitudes at multiple sound paths to construct the DAC curve per ASME Section V Article 4 T-434.2, or the DGS curve from the transducer manufacturer's AVG/DGS diagram per EN 583-2. The curves are embedded in the final PDF report as both vector graphics and the underlying amplitude/distance data points. AI-assisted probe response verification compares captured DAC against expected probe response to flag calibration drift.",
+      "UT inspection modules capture the calibration block side-drilled-hole reference amplitudes at multiple sound paths to construct the DAC curve per ASME Section V Article 4 T-434.2, or the DGS curve from the transducer manufacturer's AVG/DGS diagram per EN 583-2. The curves are embedded in the final PDF report as both vector graphics and the underlying amplitude/distance data points. AI-assisted probe response verification compares captured DAC against expected probe response to flag calibration drift."
   },
   {
     question:
       "Does the platform support multi-language reporting for international clients?",
     answer:
-      "Yes. Report templates are Unicode-native with bilingual rendering support. Atlantis NDT Reporting Software ships with Arabic (for Saudi Aramco, ADNOC, QatarEnergy, KOC submissions), Spanish (for PEMEX, Petrobras, Ecopetrol), French (for TotalEnergies West Africa, Sonatrach), Chinese (for Sinopec, CNPC, PetroChina), and English baseline. AI-assisted translation of finding narratives uses a domain-specialised terminology dictionary — damage mechanism names (crevice corrosion, caustic embrittlement, HIC, SCC) render correctly in each target language.",
+      "Yes. Report templates are Unicode-native with bilingual rendering support. Atlantis NDT Reporting Software ships with Arabic (for Saudi Aramco, ADNOC, QatarEnergy, KOC submissions), Spanish (for PEMEX, Petrobras, Ecopetrol), French (for TotalEnergies West Africa, Sonatrach), Chinese (for Sinopec, CNPC, PetroChina), and English baseline. AI-assisted translation of finding narratives uses a domain-specialised terminology dictionary — damage mechanism names (crevice corrosion, caustic embrittlement, HIC, SCC) render correctly in each target language."
   },
   {
     question:
       "How does the corrosion rate trending calculation work when historical thickness readings are from paper-era inspections?",
     answer:
-      "Historical thickness readings (from Word/PDF legacy reports or paper binders) are digitised through either (a) OCR ingestion with human verification, or (b) manual data entry via a structured import template. Corrosion rates are calculated per API 510 Annex D using short-term rate (STR) between consecutive inspections and long-term rate (LTR) from the earliest credible reading, with remaining life computed per API 579-1 Part 4 thickness averaging methodology. Rate calculations include confidence interval flags when historical data quality is uncertain.",
+      "Historical thickness readings (from Word/PDF legacy reports or paper binders) are digitised through either (a) OCR ingestion with human verification, or (b) manual data entry via a structured import template. Corrosion rates are calculated per API 510 Annex D using short-term rate (STR) between consecutive inspections and long-term rate (LTR) from the earliest credible reading, with remaining life computed per API 579-1 Part 4 thickness averaging methodology. Rate calculations include confidence interval flags when historical data quality is uncertain."
   },
   {
     question:
       "What RBI (risk-based inspection) integrations are supported?",
     answer:
-      "The reporting platform exports inspection findings into RBI analysis formats compatible with API RP 580/581 Part 2 Level II quantitative RBI software including AspenTech RBI, GE Meridium APM RBI, DNV Synergi Plant, and Bentley AssetWise APM. Inspection history, corrosion rate distributions, and damage mechanism susceptibility scores feed directly into probability of failure (POF) and consequence of failure (COF) calculations. Reports can be auto-scheduled based on RBI-recommended intervals rather than calendar-based intervals.",
+      "The reporting platform exports inspection findings into RBI analysis formats compatible with API RP 580/581 Part 2 Level II quantitative RBI software including AspenTech RBI, GE Meridium APM RBI, DNV Synergi Plant, and Bentley AssetWise APM. Inspection history, corrosion rate distributions, and damage mechanism susceptibility scores feed directly into probability of failure (POF) and consequence of failure (COF) calculations. Reports can be auto-scheduled based on RBI-recommended intervals rather than calendar-based intervals."
   },
   {
     question:
       "Is the software compliant with FDA 21 CFR Part 11 for pharmaceutical and medical device inspection documentation?",
     answer:
-      "Yes. The platform implements 21 CFR Part 11 electronic record and electronic signature controls: individually-authenticated user accounts, role-based access control, unique electronic signatures tied to identity, signature-record binding through cryptographic hash linking, full audit trail of all record access and modification, and validated system retention. Atlantis NDT Reporting Software deployments for pharmaceutical clients include IQ/OQ/PQ validation documentation aligned to GAMP 5 Category 4 software.",
+      "Yes. The platform implements 21 CFR Part 11 electronic record and electronic signature controls: individually-authenticated user accounts, role-based access control, unique electronic signatures tied to identity, signature-record binding through cryptographic hash linking, full audit trail of all record access and modification, and validated system retention. Atlantis NDT Reporting Software deployments for pharmaceutical clients include IQ/OQ/PQ validation documentation aligned to GAMP 5 Category 4 software."
   },
   {
     question:
       "What is the typical implementation timeline for a new NDT inspection company?",
     answer:
-      "A 10-30 technician inspection company typically completes initial deployment in 4-6 weeks: week 1-2 data migration planning and template configuration, week 2-4 historical data import and legacy report OCR ingestion, week 4-5 pilot inspection with parallel paper/Atlantis output for validation, week 5-6 training and production cutover. Organisations with 100+ technicians or multiple regulatory regimes typically phase deployment region-by-region over 3-4 months. Atlantis provides a dedicated implementation specialist and ASNT Level III technical advisor for every deployment.",
-  },
+      "A 10-30 technician inspection company typically completes initial deployment in 4-6 weeks: week 1-2 data migration planning and template configuration, week 2-4 historical data import and legacy report OCR ingestion, week 4-5 pilot inspection with parallel paper/Atlantis output for validation, week 5-6 training and production cutover. Organisations with 100+ technicians or multiple regulatory regimes typically phase deployment region-by-region over 3-4 months. Atlantis provides a dedicated implementation specialist and ASNT Level III technical advisor for every deployment."
+  }
 ];
 
 // ─── FAQ accordion ───────────────────────────────────────────────────────────
@@ -302,7 +302,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
       "API 570 piping circuit reporting",
       "API 653 aboveground storage tank reports",
       "ASME Section V Article 4/5 UT calibration",
-      "AWS D1.1 weld acceptance criteria",
+      "AWS D1.1 weld acceptance criteria"
     ];
 
   const canonicalUrl = `https://atlantisndt.com/${slug}`;
@@ -312,7 +312,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
   const hreflangLinks = [
     { hreflang: `en-${country}`, href: canonicalUrl },
     { hreflang: "x-default", href: canonicalUrl },
-    { hreflang: "en", href: canonicalUrl },
+    { hreflang: "en", href: canonicalUrl }
   ];
 
   const structuredData = {
@@ -331,14 +331,14 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
           "@type": "Offer",
           price: "Contact for pricing",
           priceCurrency: "USD",
-          availability: "https://schema.org/InStock",
+          availability: "https://schema.org/InStock"
         },
         aggregateRating: {
           "@type": "AggregateRating",
           ratingValue: "4.8",
           reviewCount: "94",
           bestRating: "5",
-          worstRating: "1",
+          worstRating: "1"
         },
         provider: { "@id": "https://atlantisndt.com/#organization" },
         author: ATLANTIS_AUTHOR_ANOOP,
@@ -355,13 +355,13 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
           "AI-assisted finding narratives (API 571 / 579 aware)",
           "Multi-language reporting (EN/AR/ES/FR/ZH)",
           "SAP PM / IBM Maximo / Meridium APM integration",
-          "21 CFR Part 11 compliance mode for pharma",
+          "21 CFR Part 11 compliance mode for pharma"
         ],
         areaServed: {
           "@type": "City",
           name: city,
-          containedInPlace: { "@type": "Country", name: country },
-        },
+          containedInPlace: { "@type": "Country", name: country }
+        }
       },
       {
         "@type": "LocalBusiness",
@@ -374,12 +374,12 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
         address: {
           "@type": "PostalAddress",
           addressLocality: city,
-          addressCountry: country,
+          addressCountry: country
         },
         areaServed: { "@type": "City", name: city },
-        parentOrganization: { "@id": "https://atlantisndt.com/#organization" },
-      },
-    ],
+        parentOrganization: { "@id": "https://atlantisndt.com/#organization" }
+      }
+    ]
   };
 
   const faqStructuredData = {
@@ -388,8 +388,8 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,
-      acceptedAnswer: { "@type": "Answer", text: faq.answer },
-    })),
+      acceptedAnswer: { "@type": "Answer", text: faq.answer }
+    }))
   };
 
   return (
@@ -469,7 +469,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 { value: "5 min", label: "API 510 PDF from field data" },
                 { value: "SHA-256", label: "Hash-chained audit trail" },
                 { value: "eIDAS", label: "Qualified digital signatures" },
-                { value: "6", label: "Core reporting modules" },
+                { value: "6", label: "Core reporting modules" }
               ].map((stat) => (
                 <div
                   key={stat.label}
@@ -532,7 +532,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 solution:
                   "Atlantis generates a fully-formatted, code-aligned PDF in under 5 minutes directly from field-captured data — with DAC/DGS curves, photo grids, ASNT credential blocks, and client branding auto-populated.",
                 color: "text-amber-500",
-                bgColor: "bg-amber-50 dark:bg-amber-950/20",
+                bgColor: "bg-amber-50 dark:bg-amber-950/20"
               },
               {
                 icon: Shield,
@@ -541,7 +541,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 solution:
                   "Every captured data point is SHA-256 hashed at the device, signed with an inspector device certificate, and chained immutably through the review/approval/publish workflow. Independent cryptographic verification — no Atlantis dependency.",
                 color: "text-blue-500",
-                bgColor: "bg-blue-50 dark:bg-blue-950/20",
+                bgColor: "bg-blue-50 dark:bg-blue-950/20"
               },
               {
                 icon: Clock,
@@ -550,8 +550,8 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 solution:
                   "Atlantis mobile app is fully offline-first: capture readings, photos, voice-dictated narratives, and annotations without any network. Data syncs automatically with hash verification when connectivity returns.",
                 color: "text-emerald-500",
-                bgColor: "bg-emerald-50 dark:bg-emerald-950/20",
-              },
+                bgColor: "bg-emerald-50 dark:bg-emerald-950/20"
+              }
             ].map((item, idx) => (
               <motion.div
                 key={item.title}
@@ -719,43 +719,43 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 {
                   n: 1,
                   t: "Field data capture",
-                  d: "Inspector captures UT thickness readings, MT/PT acceptance results, photos, GPS-tagged annotations, and voice-dictated narratives on tablet. Each data point SHA-256 hashed at the device before sync.",
+                  d: "Inspector captures UT thickness readings, MT/PT acceptance results, photos, GPS-tagged annotations, and voice-dictated narratives on tablet. Each data point SHA-256 hashed at the device before sync."
                 },
                 {
                   n: 2,
                   t: "Secure sync with hash verification",
-                  d: "On connectivity return, data syncs with original device hash validated at the server. Any hash mismatch triggers a sync integrity alert and preserves both captured and server states for review.",
+                  d: "On connectivity return, data syncs with original device hash validated at the server. Any hash mismatch triggers a sync integrity alert and preserves both captured and server states for review."
                 },
                 {
                   n: 3,
                   t: "Template binding",
-                  d: "Data is bound to the applicable API 510 / API 570 / API 653 / ASME V / AWS D1.1 template based on work order scope. Calibration certificates, procedure revisions, and technician credentials auto-populate.",
+                  d: "Data is bound to the applicable API 510 / API 570 / API 653 / ASME V / AWS D1.1 template based on work order scope. Calibration certificates, procedure revisions, and technician credentials auto-populate."
                 },
                 {
                   n: 4,
                   t: "AI-assisted drafting (human-gated)",
-                  d: "LLM drafts executive summary, finding narratives, and API 571 damage mechanism tags. Level II inspector reviews and edits — nothing AI-drafted reaches the PDF without human approval.",
+                  d: "LLM drafts executive summary, finding narratives, and API 571 damage mechanism tags. Level II inspector reviews and edits — nothing AI-drafted reaches the PDF without human approval."
                 },
                 {
                   n: 5,
                   t: "DAC/DGS curve embedding",
-                  d: "UT calibration curves per ASME V Article 4 T-434.2 or EN 583-2 DGS embedded as vector graphics and raw amplitude/distance data. Probe response compared against expected AVG/DGS diagram.",
+                  d: "UT calibration curves per ASME V Article 4 T-434.2 or EN 583-2 DGS embedded as vector graphics and raw amplitude/distance data. Probe response compared against expected AVG/DGS diagram."
                 },
                 {
                   n: 6,
                   t: "Level III technical review",
-                  d: "ASNT Level III (or equivalent) reviews findings, corrosion rate calculations per API 510 Annex D, and recommendations. Annotations tracked in audit log; approval triggers signing stage.",
+                  d: "ASNT Level III (or equivalent) reviews findings, corrosion rate calculations per API 510 Annex D, and recommendations. Annotations tracked in audit log; approval triggers signing stage."
                 },
                 {
                   n: 7,
                   t: "Qualified digital signing",
-                  d: "Final PDF signed with eIDAS-qualified or Adobe CDS certificate tied to Level III approver. Timestamp authority (TSA) signature + OCSP revocation check embedded. Long-term validation (LTV) format ensures verifiability decades later.",
+                  d: "Final PDF signed with eIDAS-qualified or Adobe CDS certificate tied to Level III approver. Timestamp authority (TSA) signature + OCSP revocation check embedded. Long-term validation (LTV) format ensures verifiability decades later."
                 },
                 {
                   n: 8,
                   t: "Client portal delivery + CMMS push",
-                  d: "Signed PDF published to client portal with per-client branding. Metadata (asset ID, finding severity, recommended actions) pushed to SAP PM / Maximo / Meridium APM / AspenTech Mtell via REST API. Full audit log of every view/download.",
-                },
+                  d: "Signed PDF published to client portal with per-client branding. Metadata (asset ID, finding severity, recommended actions) pushed to SAP PM / Maximo / Meridium APM / AspenTech Mtell via REST API. Full audit log of every view/download."
+                }
               ].map((step) => (
                 <div
                   key={step.n}
@@ -810,7 +810,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                       { metric: "85%", label: "reduction in report rework cycles" },
                       { metric: "Zero", label: "handwritten-to-typed transcription errors" },
                       { metric: "4-6 weeks", label: "to full production cutover" },
-                      { metric: "Instant", label: "audit-export package for any client review" },
+                      { metric: "Instant", label: "audit-export package for any client review" }
                     ].map((item) => (
                       <li key={item.label} className="flex items-start gap-3">
                         <span className="text-primary font-bold text-sm w-28 flex-shrink-0">
@@ -895,7 +895,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
               { title: "NDT ERP", desc: "Inspection management system", link: `/ndt-erp-${slug.replace("ndt-reporting-", "")}` },
               { title: "Digital Twins", desc: "3D asset visualisation", link: `/digital-twin-${slug.replace("ndt-reporting-", "")}` },
               { title: "NDT Consulting", desc: "Level III experts", link: "/consulting" },
-              { title: "NDT Training", desc: "ASNT / API certification", link: "/training" },
+              { title: "NDT Training", desc: "ASNT / API certification", link: "/training" }
             ].map((s) => (
               <Link
                 key={s.title}
@@ -927,7 +927,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 "aberdeen",
                 "oslo",
                 "lagos",
-                "rotterdam",
+                "rotterdam"
               ]
                 .filter((c) => c !== slug.replace("ndt-reporting-", ""))
                 .slice(0, 10)

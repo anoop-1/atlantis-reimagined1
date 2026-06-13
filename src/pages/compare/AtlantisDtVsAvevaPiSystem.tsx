@@ -7,7 +7,7 @@ import { CheckCircle, ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K starter, $200K enterprise/yr", competitor: "Per-tag licensing — typically $150K–$1.2M/yr depending on tag count" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-tag licensing — typically $150K–$1.2M/yr depending on tag count" },
     { factor: "Deployment options", atlantis: "Cloud, on-prem, hybrid, air-gapped", competitor: "Primarily on-prem; PI Cloud option available" },
     { factor: "NDT data model", atlantis: "Native — UT thickness grids, RT shot maps, MT/PT indications, PAUT B/C-scan storage", competitor: "Generic time-series; NDT requires custom asset framework templates" },
     { factor: "API 579 / API 581 support", atlantis: "Built-in FFS calculator + RBI engine certified to API 581", competitor: "Requires partner add-on (Antea, Bentley, or custom)" },
@@ -56,7 +56,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs AVEVA PI System: Cost, Features, NDT Integration [2026]"
-                description="Atlantis Digital Twin vs AVEVA PI System: $50K-$200K SaaS vs $150K-$1.2M per-tag licensing. Native NDT data model, API 579 FFS, 3D twin vs process historian. 2026 buyer guide."
+                description="Atlantis Digital Twin vs AVEVA PI System: affordable, accessible, fully customizable SaaS vs $150K-$1.2M per-tag licensing. Native NDT data model, API 579 FFS, 3D twin vs process historian. 2026 buyer guide."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-aveva-pi-system"
                 structuredData={structuredData}
                 faq={faqs}
@@ -84,13 +84,13 @@ export default function AtlantisDtVsAvevaPiSystem() {
                     <h2>The honest summary up front</h2>
                     <ul>
                         <li><strong>Pick AVEVA PI</strong> if your primary need is real-time process historian capability across thousands of PLC/DCS tags, you&rsquo;ve already invested in Asset Framework and PI Vision dashboards, and your integrity workflow is handled in a separate IDMS (Meridium, Antea, GE APM) that you&rsquo;re happy with.</li>
-                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is to consolidate inspection data, FFS, RBI, and a 3D asset twin into one platform — and you want SaaS pricing instead of per-tag licensing — and you want native ASNT Level III support included rather than sourced through a partner.</li>
+                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is to consolidate inspection data, FFS, RBI, and a 3D asset twin into one platform — and you want affordable, accessible, fully customizable SaaS instead of per-tag licensing — and you want native ASNT Level III support included rather than sourced through a partner.</li>
                         <li><strong>Run both</strong> if you have a mature PI estate and want Atlantis to be your inspection integrity layer pulling process severity tags from PI via the Web API. This is the most common deployment for tier-1 oil &amp; gas operators.</li>
                     </ul>
 
                     <h2>Pricing model — the biggest practical difference</h2>
                     <p>AVEVA PI is licensed primarily on tag count. Each PLC point, each calculation tag, each event frame counts. A mid-sized refinery with 25,000 PI tags — which is small by historian standards — typically lands at $150K–$400K/year for the historian core. Add PI Vision (~$60K/yr), Asset Framework templates (~$40K/yr), Asset Analytics (~$80K/yr), and the AVEVA Connect cloud bridge (~$50K/yr) and total spend climbs past $600K/year before any custom AF templates or integration work. For a tier-1 operator with 100,000+ tags across multiple sites, $1.2M+/year is normal.</p>
-                    <p>Atlantis Digital Twin is tiered SaaS based on asset complexity and user count, not data volume. The $50K/year starter covers one complex asset (a refinery unit, an FPSO topsides module, a tank farm) with up to 25 named users and unlimited inspection records. The $200K/year enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. There is no per-tag charge for PI tags pulled in via OPC-UA — they&rsquo;re mapped into the asset record at no additional cost.</p>
+                    <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS based on asset complexity and user count, not data volume. A starter tier covers one complex asset (a refinery unit, an FPSO topsides module, a tank farm) with up to 25 named users and unlimited inspection records. An enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. There is no per-tag charge for PI tags pulled in via OPC-UA — they&rsquo;re mapped into the asset record at no additional cost. Pricing varies by region and scope — contact us for a tailored quote.</p>
 
                     <h2>NDT data depth — where the gap is widest</h2>
                     <p>This is where the platforms diverge most. PI&rsquo;s native data type is a numeric value with a timestamp and a quality flag. Inspection data does not fit that mold:</p>
@@ -146,7 +146,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
                     <h2>Total cost of ownership over 5 years</h2>
                     <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, RBI on 800 components — a 5-year TCO comparison looks roughly like this:</p>
                     <ul>
-                        <li><strong>Atlantis enterprise tier</strong>: $200K/yr × 5 = $1.0M, plus $80K one-time implementation = <strong>$1.08M</strong></li>
+                        <li><strong>Atlantis enterprise tier</strong>: affordable, accessible, fully customizable SaaS — region-specific quote on request</li>
                         <li><strong>AVEVA PI + AF + Vision + partner IDMS</strong>: $400K/yr × 5 = $2.0M, plus $250K implementation + ongoing partner FFS/RBI services ($120K/yr) = <strong>~$2.85M</strong></li>
                     </ul>
                     <p>The gap shrinks when you scale to many sites (PI&rsquo;s per-tag pricing levels off after the first thousands of tags) and inverts entirely if your operation is process-control-heavy with relatively few inspection workflows. For inspection-led organizations the cost story is firmly in Atlantis&rsquo;s favor.</p>
@@ -159,7 +159,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
                         <li>Inspection-led organizations (oil &amp; gas inspection departments, fixed-equipment integrity teams, FPSO classification societies) where the daily user is an inspector or integrity engineer, not a process control engineer.</li>
                         <li>Operators who want a single platform from inspection capture → 3D visualization → FFS/RBI → reporting, instead of a stack of 4–6 point tools.</li>
                         <li>Smaller and mid-sized operators where AVEVA&rsquo;s licensing model is structurally too expensive for the number of tags they actually need.</li>
-                        <li>Teams that value SaaS economics (predictable annual fee, included upgrades, no on-prem server fleet) over perpetual on-prem licensing.</li>
+                        <li>Teams that value affordable, accessible, fully customizable SaaS economics (predictable subscription, included upgrades, no on-prem server fleet) over perpetual on-prem licensing.</li>
                     </ul>
 
                     <h2>Next steps</h2>

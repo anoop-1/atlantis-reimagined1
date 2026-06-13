@@ -43,7 +43,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title={`${props.pageTitle} — regional pricing All Odoo Apps Included | Atlantis NDT`}
+        title={`${props.pageTitle} — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT`}
         description={props.metaDescription}
         canonical={`/erp/${props.slug}`}
         faq={props.faqs}
@@ -63,7 +63,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">regional pricing</span>
+              <span className="font-semibold">Affordable. Accessible. Fully Customizable.</span>
               <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">

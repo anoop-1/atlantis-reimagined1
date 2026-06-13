@@ -33,7 +33,7 @@ const pipelineSizes = [
 
 const projectCosts = [
     { service: "MFL pig run (rental + crew)", range: "$8,000 – $25,000 / mile", driver: "Diameter, distance, mobilisation, sour service" },
-    { service: "High-resolution MFL + TFI combo", range: "$18,000 – $45,000 / mile", driver: "Number of sensor channels, integrity-management deliverables" },
+    { service: "High-resolution MFL + TFI combo", range: "affordable, accessible – $45,000 / mile", driver: "Number of sensor channels, integrity-management deliverables" },
     { service: "Pre-run cleaning pig train", range: "$5,000 – $20,000 / mile", driver: "Pipeline condition, debris loading, multiple cleaning passes" },
     { service: "ILI data analysis & report", range: "$15,000 – $80,000 / project", driver: "Anomaly count, dig sheet preparation, RBI workup" },
     { service: "Tank-floor MFL scan (alt. application)", range: "$3 – $9 / sq ft of floor", driver: "Tank diameter, floor condition, edge-zone UT add-on" },
@@ -80,13 +80,6 @@ export default function MflPipelineInspection() {
                 "audience": { "@type": "BusinessAudience", "audienceType": "Pipeline operators, midstream, transmission, gathering" },
                 "offers": {
                     "@type": "Offer",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "USD",
-                        "minPrice": "8000",
-                        "maxPrice": "45000",
-                        "unitText": "per mile inspected"
-                    },
                     "availability": "https://schema.org/InStock"
                 }
             },
@@ -220,7 +213,7 @@ export default function MflPipelineInspection() {
                                 <tr className="border-t"><td className="px-5 py-3 font-medium">Tool speed</td><td className="px-5 py-3 text-sm">Faster — typical 1–4 m/s</td><td className="px-5 py-3 text-sm">Slower — must hold 0.5–2 m/s for clean data</td></tr>
                                 <tr className="border-t bg-slate-50"><td className="px-5 py-3 font-medium">Cracks (axial)</td><td className="px-5 py-3 text-sm">Standard MFL: blind. TFI: yes.</td><td className="px-5 py-3 text-sm">UT-CD (crack-detection) tools: yes</td></tr>
                                 <tr className="border-t"><td className="px-5 py-3 font-medium">Laminations</td><td className="px-5 py-3 text-sm">Marginal</td><td className="px-5 py-3 text-sm">Excellent</td></tr>
-                                <tr className="border-t bg-slate-50"><td className="px-5 py-3 font-medium">Cost / mile (HR)</td><td className="px-5 py-3 text-sm">$18K–$45K (with TFI combo)</td><td className="px-5 py-3 text-sm">$25K–$70K typical</td></tr>
+                                <tr className="border-t bg-slate-50"><td className="px-5 py-3 font-medium">Cost / mile (HR)</td><td className="px-5 py-3 text-sm">affordable, accessible–$45K (with TFI combo)</td><td className="px-5 py-3 text-sm">$25K–$70K typical</td></tr>
                                 <tr className="border-t"><td className="px-5 py-3 font-medium">Best fit</td><td className="px-5 py-3 text-sm">Gas transmission, gathering, screening</td><td className="px-5 py-3 text-sm">Liquid lines, sizing-critical, crack threats</td></tr>
                             </tbody>
                         </table>

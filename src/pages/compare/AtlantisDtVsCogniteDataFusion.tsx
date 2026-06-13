@@ -7,7 +7,7 @@ import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K starter, $200K enterprise/yr", competitor: "Subscription per workspace + data-volume + named users — typically $300K–$1.8M/yr enterprise" },
+    { factor: "Pricing model", atlantis: "Affordable, accessible, fully customizable SaaS — quote on request", competitor: "Subscription per workspace + data-volume + named users — typically enterprise-tier ($300K–$1.8M/yr range industry-wide)" },
     { factor: "Deployment options", atlantis: "Cloud, on-prem, hybrid, air-gapped", competitor: "Cloud-first (Azure/AWS/GCP); on-prem is custom engagement" },
     { factor: "Core data model", atlantis: "Inspection-native — CMLs, weld maps, defect maps, FFS results, RBI scores", competitor: "Industrial data fabric — contextualises time-series + 3D + documents + simulation + ML" },
     { factor: "NDT data depth", atlantis: "PAUT B/C/S-scan native, RT image archive, MT/PT indications, UT thickness grids", competitor: "Generic file storage; NDT inspection workflow requires custom solution build" },
@@ -58,7 +58,7 @@ export default function AtlantisDtVsCogniteDataFusion() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs Cognite Data Fusion: Inspection App vs Data Fabric [2026]"
-                description="Atlantis Digital Twin vs Cognite Data Fusion: $50K-$200K turnkey inspection vs $300K-$1.8M industrial data fabric. Native API 579/581 vs build-it-yourself ML. 2026 buyer guide."
+                description="Atlantis Digital Twin vs Cognite Data Fusion: affordable, customizable turnkey inspection platform vs enterprise-tier industrial data fabric. Native API 579/581 vs build-it-yourself ML. 2026 buyer guide."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-cognite-data-fusion"
                 structuredData={structuredData}
                 faq={faqs}
@@ -91,8 +91,8 @@ export default function AtlantisDtVsCogniteDataFusion() {
                     </ul>
 
                     <h2>Pricing model — the practical difference</h2>
-                    <p>Cognite Data Fusion is priced on a per-workspace + data-volume + named-user subscription model. A typical tier-1 industrial customer (e.g. Aker BP, Equinor, Saudi Aramco, ADNOC) lands in the $300K–$1.8M/year range depending on workspace count, data volume ingested per month, and named-user count. Add the custom-built inspection app effort — typically a 4–6 month engagement with a Cognite partner (Cognite Consulting Services, Accenture, Deloitte, Wood, Worley) at $500K–$1.5M one-time implementation — and the first-year total is $800K–$3.3M before the inspection workflow is even live.</p>
-                    <p>Atlantis Digital Twin is tiered SaaS based on asset complexity and user count. The $50K/year starter covers one complex asset with up to 25 named users and unlimited inspection records. The $200K/year enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. Implementation is 8–14 weeks at typically $40K–$120K one-time. First-year total: $90K–$320K for the inspection-led customer who doesn&rsquo;t need the broader data fabric.</p>
+                    <p>Cognite Data Fusion is priced on a per-workspace + data-volume + named-user subscription model. Industry context: tier-1 industrial customers (e.g. Aker BP, Equinor, Saudi Aramco, ADNOC) typically land in the $300K–$1.8M/year range industry-wide depending on workspace count, data volume ingested per month, and named-user count. Add the custom-built inspection app effort — typically a 4–6 month engagement with a Cognite partner (Cognite Consulting Services, Accenture, Deloitte, Wood, Worley) — and first-year totals run well into seven figures before the inspection workflow is even live.</p>
+                    <p>Atlantis Digital Twin is positioned as <strong>affordable, accessible, and fully customizable</strong> SaaS scaled by asset complexity and user count. The starter tier covers one complex asset with named users and unlimited inspection records. The enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. Implementation is 8–14 weeks. Pricing varies by region and scope — <Link to="/contact" className="text-blue-700 underline">contact us for a tailored quote</Link>.</p>
 
                     <h2>Data depth — where the platforms diverge</h2>
                     <p>This is where the platforms are most different. Cognite Data Fusion is a fabric: it stores everything (time-series, 3D models, documents, simulation outputs) and lets you query across it. The depth in any one domain depends entirely on what you build on top. For inspection specifically, CDF gives you the building blocks — but you still need to define the inspection data model, build the FFS calculation, build the RBI engine, build the mobile capture app, and build the report templates. Most CDF customers either skip the inspection workflow entirely (using a separate IDMS) or build a minimal version that doesn&rsquo;t match the depth of a purpose-built tool.</p>
@@ -148,11 +148,8 @@ export default function AtlantisDtVsCogniteDataFusion() {
                     </ul>
 
                     <h2>Total cost of ownership over 5 years</h2>
-                    <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, RBI on 800 components — a 5-year TCO comparison looks roughly like this:</p>
-                    <ul>
-                        <li><strong>Atlantis enterprise tier</strong>: $200K/yr × 5 = $1.0M, plus $80K one-time implementation = <strong>$1.08M</strong></li>
-                        <li><strong>Cognite Data Fusion + custom inspection app</strong>: $500K/yr × 5 = $2.5M, plus $800K implementation + ongoing partner enhancements ($150K/yr) = <strong>~$4.05M</strong></li>
-                    </ul>
+                    <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, RBI on 800 components — Atlantis Digital Twin delivers a dramatically lower 5-year TCO than the Cognite Data Fusion + custom inspection app build. Industry-wide, CDF enterprise deployments plus a partner-built inspection app routinely land in the multi-million-dollar 5-year range when you include licensing, implementation, and ongoing partner enhancements.</p>
+                    <p>Atlantis is positioned as the <strong>affordable, accessible, fully customizable</strong> alternative — region-specific pricing on request. <Link to="/contact" className="text-blue-700 underline">Request a tailored TCO model</Link> against your asset list.</p>
                     <p>The gap shrinks at very large scale (CDF&rsquo;s data fabric earns its keep when you&rsquo;re running 5+ use cases including robotics, production allocation, and process optimisation in parallel). For inspection-led organisations the cost story is firmly in Atlantis&rsquo;s favor.</p>
 
                     <h2>When Cognite Data Fusion is the better choice</h2>
@@ -232,7 +229,7 @@ export default function AtlantisDtVsCogniteDataFusion() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-blue-700">Atlantis Digital Twin</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Full product page with features, pricing tiers, and case studies.</p>
+                                    <p className="text-sm text-slate-600">Full product page with features and case studies.</p>
                                 </CardContent>
                             </Card>
                         </Link>

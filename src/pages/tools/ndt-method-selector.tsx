@@ -13,7 +13,7 @@ import {
   RotateCcw,
   Compass,
   Copy,
-  Check,
+  Check
 } from "lucide-react";
 import {
   RadarChart,
@@ -22,12 +22,12 @@ import {
   PolarRadiusAxis,
   Radar,
   ResponsiveContainer,
-  Legend,
+  Legend
 } from "recharts";
 import {
   selectorSteps,
   methodScores,
-  methodInfo,
+  methodInfo
 } from "@/data/ndt-selector-data";
 
 /* ─── Radar Criteria Labels (one per step) ─── */
@@ -37,7 +37,7 @@ const radarCriteria = [
   "Access",
   "Code",
   "Priority",
-  "Volume",
+  "Volume"
 ];
 
 const METHOD_KEYS = Object.keys(methodInfo);
@@ -47,7 +47,7 @@ const METHOD_COLORS: Record<string, string> = {
   "magnetic-particle-testing": "#059669",
   "penetrant-testing": "#d97706",
   "eddy-current-testing": "#7c3aed",
-  "visual-testing": "#0891b2",
+  "visual-testing": "#0891b2"
 };
 
 /* ─── Structured Data ─── */
@@ -63,13 +63,13 @@ const structuredData = {
   offers: {
     "@type": "Offer",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "USD"
   },
   publisher: {
     "@type": "Organization",
     name: "Atlantis NDT",
-    url: "https://atlantisndt.com",
-  },
+    url: "https://atlantisndt.com"
+  }
 };
 
 export default function NDTMethodSelector() {
@@ -214,7 +214,7 @@ export default function NDTMethodSelector() {
         items={[
           { label: "Home", href: "/" },
           { label: "Tools", href: "/tools" },
-          { label: "NDT Method Selector" },
+          { label: "NDT Method Selector" }
         ]}
       />
 
@@ -471,7 +471,7 @@ export default function NDTMethodSelector() {
                         className="h-3 rounded-full"
                         style={{
                           backgroundColor:
-                            METHOD_COLORS[r.key] || "#004aad",
+                            METHOD_COLORS[r.key] || "#004aad"
                         }}
                         initial={{ width: 0 }}
                         animate={{ width: `${pct}%` }}

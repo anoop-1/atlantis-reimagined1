@@ -166,7 +166,7 @@ export default function AssetIntegrityDigitalTwinGuide2026() {
           </section>
 
           <section className="bg-gradient-to-br from-teal-700 to-cyan-900 text-white p-10 rounded-2xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">See Pricing — $200K/year for Refinery-Class Deployments</h2>
+            <h2 className="text-3xl font-bold mb-4">See Pricing — enterprise tier/year for Refinery-Class Deployments</h2>
             <p className="text-teal-100 text-lg mb-6">Atlantis NDT asset integrity digital twin with API 580 RBI overlay + API 579 FFS engine + continuous-monitoring integration. Refinery, FPSO, pipeline, power plant.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/digital-twins" className="bg-white text-teal-900 px-6 py-3 rounded-lg font-semibold hover:bg-teal-50 flex items-center gap-2">See Platform Pricing <ArrowRight className="w-4 h-4" /></Link>

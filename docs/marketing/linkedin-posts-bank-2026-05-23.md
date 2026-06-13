@@ -58,7 +58,7 @@ Question hook.
 > - SAEP / API 510 / NADCAP qualification flags per client
 > - Probe calibration status before mobilization
 >
-> Atlantis NDT ERP fixes this. The CRM is preloaded with NDT-specific deal fields, certification matching, and crew dispatch — all for $18K/year flat. Unlimited users.
+> Atlantis NDT ERP fixes this. The CRM is preloaded with NDT-specific deal fields, certification matching, and crew dispatch — affordable flat-rate. Unlimited users.
 >
 > If you're tired of losing $300K leads to a Gmail folder, see how it actually works:
 > https://atlantisndt.com/erp/crm-for-ndt-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post1
@@ -83,7 +83,7 @@ Stat hook.
 > - Drops out anyone with an open work order (you don't pitch a client you owe a report)
 > - Tracks opens at the rig/site level, not just the email
 >
-> Same engine as Mailchimp. Better data. Included free with your $18K/yr Atlantis ERP — no add-on cost.
+> Same engine as Mailchimp. Better data. Included free with your Atlantis ERP — no add-on cost.
 >
 > https://atlantisndt.com/erp/email-marketing-software-for-ndt?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post2
 >
@@ -107,7 +107,7 @@ Story hook.
 > - Pauses sequences when a deal moves to "Quote Sent"
 > - Logs every touchpoint in the lead record (no separate sales tool needed)
 >
-> All inside the same $18K/yr Atlantis NDT ERP. Marketing + sales + ops on one DB.
+> All inside the same affordable Atlantis NDT ERP. Marketing + sales + ops on one DB.
 >
 > https://atlantisndt.com/erp/marketing-automation-for-ndt-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post3
 >
@@ -164,7 +164,7 @@ Question hook.
 > - Probe calibration expiry tied to the same record (no separate spreadsheet)
 > - Mobile barcode scanner so techs check kit in/out at the gate
 >
-> Stop bleeding margin on emergency Amazon orders. $18K/yr, included.
+> Stop bleeding margin on emergency Amazon orders. Affordable, all-in.
 >
 > https://atlantisndt.com/erp/inventory-management-for-ndt-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post5
 >
@@ -270,7 +270,7 @@ Question hook.
 > - QC hold points enforced — you can't ship until UT/RT signs off
 > - Auto-generates the Manufacturer's Data Report (MDR) at delivery
 >
-> $18K/yr. All in. Includes accounting, invoicing, payroll, the rest of Odoo too.
+> Affordable flat-rate. All in. Includes accounting, invoicing, payroll, the rest of Odoo too.
 >
 > https://atlantisndt.com/erp/manufacturing-erp-for-fabrication-shops?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post9
 >
@@ -296,7 +296,7 @@ Contrarian hook.
 > - Mobile tablet capture for field thickness grids
 > - Integrates the inspection report directly into the asset history
 >
-> CMMS that actually understands NDT. $18K/yr, with the rest of Odoo included.
+> CMMS that actually understands NDT. Affordable, with the rest of Odoo included.
 >
 > https://atlantisndt.com/erp/cmms-for-inspection-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post10
 >
@@ -403,7 +403,7 @@ Contrarian hook.
 >
 > A pipeline integrity firm in Edmonton cut consumables spend 22% in the first quarter just by consolidating POs across 4 sites.
 >
-> Included in the $18K/yr Atlantis ERP. No procurement-tool upsell.
+> Included in the Atlantis ERP. No procurement-tool upsell.
 >
 > https://atlantisndt.com/erp?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post14
 >
@@ -510,7 +510,7 @@ Contrarian hook.
 > - Customer portal so clients track status themselves (cuts inbound by 40%)
 > - Knowledge base auto-suggests answers
 >
-> $18K/yr includes this. Same database as the rest of your ops.
+> Affordable flat-rate includes this. Same database as the rest of your ops.
 >
 > https://atlantisndt.com/erp/helpdesk-for-ndt-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post18
 >
@@ -538,7 +538,7 @@ Question hook.
 >
 > One Calgary client added a "used probes" storefront — $42K extra revenue in the first quarter with zero added headcount.
 >
-> Included in your $18K/yr ERP.
+> Included in your Atlantis ERP.
 >
 > https://atlantisndt.com/erp/ecommerce-for-ndt-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post19
 >
@@ -565,7 +565,7 @@ Stat hook.
 > - Integrated with inventory (knows what's in vs out, by serial)
 > - Receipt printer + barcode scanner support
 >
-> Turn your office counter into a real revenue channel. $18K/yr, included.
+> Turn your office counter into a real revenue channel. Affordable, included.
 >
 > https://atlantisndt.com/erp/pos-for-ndt-companies?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post20
 >
@@ -667,7 +667,7 @@ Story hook.
 > - SLA timer (24h escalation if not actioned)
 > - Auto-attached to the asset history and the inspection report
 >
-> Approvals you'd be proud to show an auditor. Built in. $18K/yr.
+> Approvals you'd be proud to show an auditor. Built in. Affordable, all-in.
 >
 > https://atlantisndt.com/erp?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post24
 >
@@ -695,7 +695,7 @@ Stat hook.
 >
 > Built for ASNT, MENDT, World Conference NDT, OTC, ADIPEC, Subsea Expo — anywhere NDT shows up.
 >
-> Stop wasting your trade show spend. $18K/yr, included.
+> Stop wasting your trade show spend. Affordable, included.
 >
 > https://atlantisndt.com/erp/events-management-for-ndt-conferences?utm_source=linkedin&utm_medium=organic&utm_campaign=erp-pillar&utm_content=post25
 >

@@ -13,7 +13,7 @@ export default function NdtErpVsGenericErp() {
   const faq = [
     {
       question: 'What is NDT ERP?',
-      answer: 'NDT ERP (Enterprise Resource Planning for Non-Destructive Testing) is purpose-built business software that unifies inspection job management, personnel certification tracking, equipment calibration, compliance reporting, and invoicing for NDT inspection companies. Unlike generic ERPs such as SAP S/4HANA or Oracle Fusion, an NDT ERP like Atlantis NDT Suite ships with native modules for ASNT SNT-TC-1A Level tracking, API 510/570/653 certificate expiry alerts, probe and gauge calibration logs, and structured inspection report templates aligned to ASME Section V. A well-designed NDT ERP typically deploys in 30-90 days at a total first-year cost of $15K-$120K, versus $500K-$5M+ and 6-24 months for a generic ERP implementation.'
+      answer: 'NDT ERP (Enterprise Resource Planning for Non-Destructive Testing) is purpose-built business software that unifies inspection job management, personnel certification tracking, equipment calibration, compliance reporting, and invoicing for NDT inspection companies. Unlike generic ERPs such as SAP S/4HANA or Oracle Fusion, an NDT ERP like Atlantis NDT Suite ships with native modules for ASNT SNT-TC-1A Level tracking, API 510/570/653 certificate expiry alerts, probe and gauge calibration logs, and structured inspection report templates aligned to ASME Section V. A well-designed NDT ERP typically deploys in 30-90 days as an affordable, fully customizable SaaS, versus 6-24 months for an enterprise-tier generic ERP implementation. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.'
     },
     {
       question: 'What is inspection management software?',
@@ -21,11 +21,11 @@ export default function NdtErpVsGenericErp() {
     },
     {
       question: 'Why not just use SAP or Oracle for an NDT inspection business?',
-      answer: 'Generic enterprise ERPs like SAP S/4HANA and Oracle Fusion were designed for manufacturing, finance, and supply chain. They lack native understanding of NDT workflows: they cannot track ASNT SNT-TC-1A recertification cycles, they have no concept of probe calibration traceability, they do not auto-populate ASME Section V compliant report templates, and their customization to NDT workflows typically costs $500K-$2M and takes 12-24 months. Generic ERPs also require expensive consulting to build the NDT data model from scratch. Purpose-built NDT ERPs ship with these workflows pre-configured, reducing total cost of ownership by 60-80% over 5 years.'
+      answer: 'Generic enterprise ERPs like SAP S/4HANA and Oracle Fusion were designed for manufacturing, finance, and supply chain. They lack native understanding of NDT workflows: they cannot track ASNT SNT-TC-1A recertification cycles, they have no concept of probe calibration traceability, they do not auto-populate ASME Section V compliant report templates, and their customization to NDT workflows is an enterprise-tier engagement spanning 12-24 months. Generic ERPs also require expensive consulting to build the NDT data model from scratch. Purpose-built NDT ERPs ship with these workflows pre-configured, materially reducing total cost of ownership over 5 years.'
     },
     {
       question: 'Do I need a standalone NDT ERP if I already have SAP?',
-      answer: 'For inspection-heavy operations, yes. The best architecture is a purpose-built NDT ERP (Atlantis, Mistras Group DRIVE, or similar) integrated with your SAP backbone via REST API or middleware for financial posting, PO matching, and master data sync. This pattern gives technicians and Level III consultants the NDT-native UX they need in the field, while Finance and Procurement keep SAP as the system of record. Typical integration projects run 4-8 weeks and cost $15K-$60K.'
+      answer: 'For inspection-heavy operations, yes. The best architecture is a purpose-built NDT ERP (Atlantis, Mistras Group DRIVE, or similar) integrated with your SAP backbone via REST API or middleware for financial posting, PO matching, and master data sync. This pattern gives technicians and Level III consultants the NDT-native UX they need in the field, while Finance and Procurement keep SAP as the system of record. Typical integration projects run 4-8 weeks — pricing varies by scope; request a tailored quote.'
     },
     {
       question: 'How is a point NDT reporting tool different from a full NDT ERP?',
@@ -42,7 +42,7 @@ export default function NdtErpVsGenericErp() {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web, iOS, Android',
         description: 'Purpose-built NDT ERP for inspection companies. Native modules for job management, personnel certification tracking, equipment calibration, and API-compliant reporting.',
-        offers: { '@type': 'Offer', price: '15000', priceCurrency: 'USD' },
+        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
         aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '127' },
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
       },
@@ -58,7 +58,7 @@ export default function NdtErpVsGenericErp() {
   };
 
   const comparisonRows = [
-    { dim: 'License / subscription cost (Year 1)', generic: '$250K-$2M+', point: '$5K-$25K', ndt: '$15K-$120K' },
+    { dim: 'License / subscription model (Year 1)', generic: 'Enterprise tier', point: 'Per-seat license', ndt: 'Affordable SaaS — fully customizable' },
     { dim: 'Implementation time', generic: '9-24 months', point: '2-6 weeks', ndt: '30-90 days' },
     { dim: 'NDT-native job workflow', generic: 'No (custom build)', point: 'Partial (reports only)', ndt: 'Yes, pre-configured' },
     { dim: 'ASNT / API compliance tracking', generic: 'No', point: 'No', ndt: 'Yes, auto-expiry alerts' },
@@ -68,15 +68,15 @@ export default function NdtErpVsGenericErp() {
     { dim: 'Financial ERP integrations', generic: 'Native (is the ERP)', point: 'None', ndt: 'SAP, Oracle, QB, Xero via API' },
     { dim: 'Digital twin / 3D asset integration', generic: 'No', point: 'No', ndt: 'Native (thickness-to-3D)' },
     { dim: 'Mobile offline data capture', generic: 'Rare / expensive add-on', point: 'Yes', ndt: 'Yes, industry standard' },
-    { dim: 'Total cost of ownership (5 yr)', generic: '$2M-$10M', point: '$50K-$200K', ndt: '$200K-$800K' },
+    { dim: 'Total cost of ownership (5 yr)', generic: 'Enterprise tier', point: 'Per-seat cumulative', ndt: 'Affordable, fully customizable' },
   ];
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP vs SAP/Oracle 2026 — regional pricing vs $2M+ TCO"
-        description="NDT ERP vs SAP/Oracle vs point tools: 11-dimension 2026 matrix. regional pricing flat vs $250K-$2M+ generic. 30-90 day deploy vs 9-24 months. See pricing & ROI breakdown."
+        title="NDT ERP vs SAP/Oracle 2026 — Affordable, Fully Customizable Alternative"
+        description="NDT ERP vs SAP/Oracle vs point tools: 11-dimension 2026 matrix. Atlantis NDT — Affordable. Accessible. Fully Customizable. — vs enterprise-tier generics. 30-90 day deploy vs 9-24 months."
         keywords="NDT ERP, inspection management software, NDT ERP vs SAP, purpose-built NDT ERP, NDT software comparison, inspection ERP"
         canonical="https://atlantisndt.com/ndt-erp-vs-generic-erp"
         structuredData={structuredData}
@@ -169,8 +169,8 @@ export default function NdtErpVsGenericErp() {
               Enterprise ERPs are the default for companies with $500M+ revenue or complex multi-entity manufacturing. They excel at
               financial consolidation, global tax handling, procurement, inventory, and supply chain. They do not ship with NDT workflow
               out of the box. To run an inspection business on SAP S/4HANA, you either build a custom Z-module (6-18 months of ABAP
-              development at $200K-$800K) or buy a third-party NDT bolt-on and wire it in. Both paths burden the inspection team with
-              a UX designed for accountants.
+              development as an enterprise-tier engagement) or buy a third-party NDT bolt-on and wire it in. Both paths burden the
+              inspection team with a UX designed for accountants.
             </p>
             <p>
               <strong>When it works:</strong> you are an inspection business unit inside a $1B+ parent that has already standardized on SAP.
@@ -220,8 +220,9 @@ export default function NdtErpVsGenericErp() {
               Oceaneering NDTMS is the historical incumbent in subsea and offshore.
             </p>
             <p>
-              Total cost of ownership over 5 years for a 25-technician inspection company typically lands at $200K-$800K for a purpose-built
-              NDT ERP versus $2M-$10M for a generic ERP customized to the same scope. Payback is usually 12-18 months.
+              Total cost of ownership over 5 years for a 25-technician inspection company is dramatically lower with a purpose-built
+              NDT ERP — an affordable, fully customizable SaaS — versus an enterprise-tier generic ERP customized to the same scope.
+              Payback is usually 12-18 months. Pricing varies by region and team size — request a tailored quote.
             </p>
           </div>
         </div>
@@ -234,24 +235,23 @@ export default function NdtErpVsGenericErp() {
             <p>
               To make the TCO comparison concrete, consider a 25-technician inspection company with $12M in annual revenue, operating
               UT, PAUT, MT, PT, and RT across refinery turnarounds and pipeline integrity programs. The generic ERP path (SAP S/4HANA
-              with a custom NDT Z-module) lands at roughly $850K in Year 1 (license + implementation + custom development), then
-              $350K/year in license + support for Years 2-5. Five-year TCO: approximately $2.25M. The point-tool path (InspectionXpert
-              for UT/PAUT, a separate thickness logger, a separate MT/PT reporting tool) runs $60K-$90K per year in total software
-              spend, but costs the business about $200K-$300K per year in workflow friction, duplicate data entry, and lost reporting
-              productivity. Five-year TCO: around $1.5M when you include the hidden costs.
+              with a custom NDT Z-module) is an enterprise-tier engagement in Year 1 (license + implementation + custom development),
+              with significant ongoing license + support for Years 2-5. The point-tool path (InspectionXpert for UT/PAUT, a separate
+              thickness logger, a separate MT/PT reporting tool) carries a modest per-tool spend but costs the business meaningfully
+              in workflow friction, duplicate data entry, and lost reporting productivity. Hidden costs add up quickly across 5 years.
             </p>
             <p>
-              The purpose-built NDT ERP path (Atlantis NDT Suite mid-tier) runs $60K/year license, $35K one-time implementation, and
-              about $12K/year in ongoing support uplift. Five-year TCO: approximately $395K. That is roughly 5.7x cheaper than the
-              generic ERP path and 3.8x cheaper than the point-tool path, with materially better operational outcomes. The payback
-              on the NDT ERP investment lands inside 11 months for this company profile, driven primarily by a 60% reduction in
-              report-production hours and a 50% reduction in admin overhead.
+              The purpose-built NDT ERP path (Atlantis NDT Suite) is positioned as an affordable, fully customizable SaaS with a
+              short implementation and modest ongoing support uplift. The 5-year TCO is dramatically lower than the generic ERP path
+              and meaningfully lower than the point-tool path, with materially better operational outcomes. The payback on the NDT
+              ERP investment lands inside 11 months for this company profile, driven primarily by a 60% reduction in report-production
+              hours and a 50% reduction in admin overhead. Pricing varies by region and team size — request a tailored quote.
             </p>
             <p>
-              The TCO gap widens as you scale. For a 100-tech operation, the generic ERP path can exceed $8M over 5 years, while
-              the purpose-built NDT ERP path caps out around $800K-$1.1M. For a 5-tech shop, generic ERP is almost never worth the
-              implementation lift, point tools are typically fine, and a low-tier NDT ERP ($15K/year SaaS) is the fastest path to
-              scale without re-platforming later.
+              The TCO gap widens as you scale. For a 100-tech operation, the generic ERP path is an enterprise-tier commitment over 5
+              years, while the purpose-built NDT ERP path remains affordable and fully customizable. For a 5-tech shop, generic ERP
+              is almost never worth the implementation lift, point tools are typically fine, and an affordable NDT ERP SaaS is the
+              fastest path to scale without re-platforming later.
             </p>
           </div>
         </div>
@@ -279,9 +279,9 @@ export default function NdtErpVsGenericErp() {
             </p>
             <p>
               Generic ERPs can be customized to do any of these, but the customization is rarely cost-effective. In a typical
-              SAP S/4HANA NDT customization, each of the nine capabilities costs $50K-$200K in ABAP development plus ongoing
-              maintenance. The purpose-built NDT ERP ships with them as configuration, not code. That is why the cost-to-parity
-              math never works out for the generic ERP path on pure NDT operations.
+              SAP S/4HANA NDT customization, each of the nine capabilities is a substantial ABAP development engagement plus ongoing
+              maintenance — an enterprise-tier commitment per capability. The purpose-built NDT ERP ships with them as configuration,
+              not code. That is why the cost-to-parity math never works out for the generic ERP path on pure NDT operations.
             </p>
           </div>
         </div>

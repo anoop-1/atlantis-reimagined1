@@ -27,7 +27,7 @@ export default function NdtErpImplementationTimeline() {
     {
       question: 'Who owns the implementation on our side?',
       answer: 'You need three roles: (1) an Executive Sponsor (usually COO or VP Operations) for decision-making authority and scope control, (2) a Project Manager (20-50% of their time for 90 days) to run the cutover, and (3) 1-2 Technical SMEs — typically a Level III and a senior office admin — to validate workflow design, templates, and data migration. Atlantis supplies an Implementation Lead, a Technical Architect for integrations, and a Training Lead, so your team has a counterpart for each role.'
-    },
+    }
   ];
 
   const structuredData = {
@@ -67,7 +67,7 @@ export default function NdtErpImplementationTimeline() {
     { phase: 'Day 71-80', workstream: 'UAT + Fix', owner: 'Atlantis Eng + Client SMEs', detail: 'Close UAT defects. Re-test integrations with production-like data volumes. Performance & security sign-off.' },
     { phase: 'Day 81-85', workstream: 'Cutover Prep', owner: 'Atlantis IL + Client PM', detail: 'Production tenant provisioned. Final data migration rehearsal. Go/no-go checklist. Rollback plan documented.' },
     { phase: 'Day 86-88', workstream: 'Go-Live', owner: 'All hands', detail: 'Production cutover over a weekend. Monday morning: full team on new ERP. Parallel-run with legacy for 2 weeks.' },
-    { phase: 'Day 89-90', workstream: 'Hypercare', owner: 'Atlantis IL onsite', detail: 'Daily standup, real-time defect triage, rapid-fix SLAs. Success metrics tracked: adoption %, report cycle time, exceptions.' },
+    { phase: 'Day 89-90', workstream: 'Hypercare', owner: 'Atlantis IL onsite', detail: 'Daily standup, real-time defect triage, rapid-fix SLAs. Success metrics tracked: adoption %, report cycle time, exceptions.' }
   ];
 
   const risks = [
@@ -77,7 +77,7 @@ export default function NdtErpImplementationTimeline() {
     { risk: 'Field technician adoption resistance', impact: 'Medium', mitigation: 'Identify and pre-train 2-3 respected Level II/III champions in Week 5. Pay a $500 go-live bonus for the first 20 clean reports. Make the mobile app demonstrably faster than paper.' },
     { risk: 'Insufficient UAT rigor', impact: 'Medium', mitigation: 'UAT exit criteria are objective: 20 end-to-end inspection jobs completed in sandbox with zero critical defects. Do not cut over on a date, cut over on passing the exit criteria.' },
     { risk: 'Parallel-run fatigue during hypercare', impact: 'Medium', mitigation: 'Cap parallel run at 14 days. Daily data reconciliation. Pull the plug on legacy on Day 14 regardless of residual anxiety; holding longer only delays muscle memory.' },
-    { risk: 'Client-facing report format pushback post go-live', impact: 'Low', mitigation: 'Identify top 5 clients by revenue and share a sample new-format report with them in Week 8. Collect feedback. Pre-approved formats eliminate 90% of post go-live client complaints.' },
+    { risk: 'Client-facing report format pushback post go-live', impact: 'Low', mitigation: 'Identify top 5 clients by revenue and share a sample new-format report with them in Week 8. Collect feedback. Pre-approved formats eliminate 90% of post go-live client complaints.' }
   ];
 
   return (

@@ -27,7 +27,7 @@ export default function VsEtqReliance() {
                       "You are an inspection service company (NDT, calibration, welding, marine survey) where QMS is operational, not corporate.",
                       "Your QMS scope is ISO 9001 / ISO 17025 / AS9100 audit prep — not pharma GxP / 21 CFR Part 11 depth.",
                       "You need QMS embedded with inspection workflow (CAPA tied to inspection findings, supplier quality tied to sub-contractors) — not a separate QMS platform.",
-                      "Your annual QMS / compliance software budget is under $200K — ETQ enterprise tier starts at $100K-$300K/year.",
+                      "Your annual QMS / compliance software budget is modest — ETQ enterprise tier starts at $100K-$300K/year.",
                       "Your team is 10-150 people and ETQ's enterprise approach is over-scaled."
             ]}
             comparisonRows={[
@@ -87,7 +87,7 @@ export default function VsEtqReliance() {
                                 "competitor": "Comprehensive QMS / EHS for regulated manufacturers"
                       }
             ]}
-            migrationParagraph="Migration is rarely the right framing — these serve different scopes. For inspection service companies with simple QMS needs (ISO 9001, ISO 17025, AS9100 audit prep): Atlantis embedded QMS is sufficient and avoids the $100K-$300K/year ETQ cost. For regulated manufacturers (pharma, medical device, aerospace) with dedicated quality organizations: ETQ Reliance is the right anchor; Atlantis can integrate for the inspection-specific workflow. Implementation 4-8 weeks for the integration pattern, $30K-$70K typical."
+            migrationParagraph="Migration is rarely the right framing — these serve different scopes. For inspection service companies with simple QMS needs (ISO 9001, ISO 17025, AS9100 audit prep): Atlantis embedded QMS is sufficient and avoids the $100K-$300K/year ETQ cost. For regulated manufacturers (pharma, medical device, aerospace) with dedicated quality organizations: ETQ Reliance is the right anchor; Atlantis can integrate for the inspection-specific workflow. Implementation 4-8 weeks for the integration pattern — contact us for a tailored quote."
             scenarios={[
                       {
                                 "title": "Small NDT contractor — 8 people, ISO 9001-certified",

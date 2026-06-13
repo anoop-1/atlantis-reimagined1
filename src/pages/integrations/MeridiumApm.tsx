@@ -24,7 +24,7 @@ export default function MeridiumApmIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Meridium / GE APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native Meridium APM and GE Vernova APM integration. RBI library sync, equipment master, FFS results, inspection events. Coexistence or full migration paths.", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Meridium / GE APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native Meridium APM and GE Vernova APM integration. RBI library sync, equipment master, FFS results, inspection events. Coexistence or full migration paths.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — Meridium / GE APM Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]

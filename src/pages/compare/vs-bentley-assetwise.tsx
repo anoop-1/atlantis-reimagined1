@@ -25,7 +25,7 @@ export default function VsBentleyAssetwise() {
             atlantisWinsLead="Specifically for inspection / NDT / calibration / welding / marine survey / pipeline integrity / aerospace QC service companies:"
             atlantisWins={[
                       "You are an industrial inspection service company (NDT, calibration, welding, marine survey) — Bentley's infrastructure focus doesn't match your asset model.",
-                      "Your annual software budget is under $200K and Bentley enterprise pricing exceeds that.",
+                      "Your annual software budget is modest and Bentley enterprise pricing exceeds your envelope.",
                       "You need NDT-native features (ASNT cert, API 510/570/653) as out-of-box configuration, not custom Bentley integration.",
                       "You serve multiple clients and need multi-tenant data isolation — Bentley typically deploys per-customer.",
                       "You need go-live in 8-12 weeks for the next inspection campaign — Bentley implementation is typically 6-12 months."
@@ -34,7 +34,7 @@ export default function VsBentleyAssetwise() {
                       {
                                 "dim": "TCO Year 1",
                                 "atlantis": "Contact for pricing",
-                                "competitor": "$200K-$800K (license + Bentley services)"
+                                "competitor": "enterprise tier-$800K (license + Bentley services)"
                       },
                       {
                                 "dim": "Implementation time",
@@ -87,16 +87,16 @@ export default function VsBentleyAssetwise() {
                                 "competitor": "Civil infrastructure APM, BIM-centric"
                       }
             ]}
-            migrationParagraph="Migration from Bentley AssetWise is rare for civil infrastructure customers. For industrial inspection service companies who inherited Bentley via a parent group or acquisition: extract inspection workflow into Atlantis (ASNT certs, work orders, codes, reports), keep Bentley read-only for any infrastructure-specific data. Implementation 4-8 weeks, $30K-$80K. For pure industrial inspection / NDT companies, Atlantis is the system of record outright."
+            migrationParagraph="Migration from Bentley AssetWise is rare for civil infrastructure customers. For industrial inspection service companies who inherited Bentley via a parent group or acquisition: extract inspection workflow into Atlantis (ASNT certs, work orders, codes, reports), keep Bentley read-only for any infrastructure-specific data. Implementation 4-8 weeks — contact us for a tailored quote. For pure industrial inspection / NDT companies, Atlantis is the system of record outright."
             scenarios={[
                       {
                                 "title": "Small industrial inspection contractor — 8 people",
-                                "description": "Bentley AssetWise is the wrong tool. Atlantis at $25K/year ships in 45 days with native ASNT tracking, mobile capture, ASME V templates.",
+                                "description": "Bentley AssetWise is the wrong tool. Atlantis (affordable SaaS) ships in 45 days with native ASNT tracking, mobile capture, ASME V templates.",
                                 "winner": "atlantis"
                       },
                       {
                                 "title": "Mid-size NDT consultancy — 60 people",
-                                "description": "Atlantis at $55K-$85K/year for 60 seats, 10-week implementation. Bentley AssetWise per-user / per-asset pricing for the same inspection workload would exceed $250K/year.",
+                                "description": "Atlantis (affordable SaaS, 60 seats) deploys in a 10-week implementation. Bentley AssetWise per-user / per-asset pricing for the same inspection workload would exceed $250K/year.",
                                 "winner": "atlantis"
                       },
                       {
@@ -108,7 +108,7 @@ export default function VsBentleyAssetwise() {
             faqs={[
                       {
                                 "question": "Is Atlantis cheaper than Bentley AssetWise for a mid-size inspection company?",
-                                "answer": "Yes — typically 3-5x lower TCO for industrial inspection use cases. Bentley for a 50-100 user industrial inspection company lands at $200K-$400K/year. Atlantis lands at $55K-$85K/year plus $25K-$70K onboarding."
+                                "answer": "Yes — typically 3-5x lower TCO for industrial inspection use cases. Bentley for a 50-100 user industrial inspection company lands at enterprise tier-$400K/year. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Can Atlantis integrate with Bentley AssetWise?",

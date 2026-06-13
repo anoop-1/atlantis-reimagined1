@@ -77,7 +77,7 @@ export default function FpsoUseCase() {
                         <li><strong>Inspection labor optimization:</strong> Better scoping of the constrained inspection windows = 10–20% labor efficiency on a $1.5M–$4M/yr inspection budget.</li>
                         <li><strong>Mooring failure prevention:</strong> A single mooring failure event can be $50M+ — even a small probability reduction has large expected-value impact.</li>
                     </ul>
-                    <p>Net: $2M–$8M/yr in measurable value on a $200K/yr platform cost. Class society engagement during deployment is recommended — most class societies recognize Atlantis-style integrity twins as evidence of strong integrity management, which can affect insurance and class fee discussions.</p>
+                    <p>Net: $2M&ndash;$8M/yr in measurable value on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request. Class society engagement during deployment is recommended &mdash; most class societies recognize Atlantis-style integrity twins as evidence of strong integrity management, which can affect insurance and class fee discussions.</p>
 
                     <h2>Implementation path</h2>
                     <p>First FPSO live in 12–16 weeks. Slightly longer than a refinery process unit because of the hull / ballast tank / mooring scope and the class survey alignment work. Second and third FPSOs in a fleet typically 6–8 weeks each. Implementation runs offshore where access permits and remote where it doesn&rsquo;t — most setup and configuration is done remotely.</p>

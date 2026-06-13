@@ -19,7 +19,7 @@ const faqs = [
 ];
 
 const ukErpTable = [
-  { erp: "Atlantis NDT ERP (Odoo 18)", priceGBP: "~£14,500/yr (flat USD $18,000)", users: "Unlimited", mtdVat: "Yes", cis: "Yes", pssrSupport: "Yes (native)", bestFor: "SMEs, inspection firms, Aberdeen service vendors" },
+  { erp: "Atlantis NDT ERP (Odoo 18)", priceGBP: "~£14,500/yr (flat USD affordable, accessible)", users: "Unlimited", mtdVat: "Yes", cis: "Yes", pssrSupport: "Yes (native)", bestFor: "SMEs, inspection firms, Aberdeen service vendors" },
   { erp: "SAP S/4HANA Cloud", priceGBP: "£180-450K/yr", users: "Per-user", mtdVat: "Yes", cis: "Add-on", pssrSupport: "Custom", bestFor: "FTSE-listed, large engineering majors" },
   { erp: "Oracle NetSuite OneWorld", priceGBP: "£90-220K/yr", users: "Per-user", mtdVat: "Yes", cis: "Add-on", pssrSupport: "Custom", bestFor: "Multi-country services, fast growth" },
   { erp: "MS Dynamics 365 BC", priceGBP: "£22-55K/yr", users: "Per-user", mtdVat: "Yes", cis: "Yes", pssrSupport: "Custom", bestFor: "Microsoft-stack mid-market" },
@@ -198,7 +198,7 @@ export default function ERPSoftwareLondonAffordableUK2026() {
           </section>
 
           <section className="bg-gradient-to-br from-indigo-700 to-blue-900 text-white p-10 rounded-2xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">See Pricing — Flat £14,500/year (USD $18,000)</h2>
+            <h2 className="text-3xl font-bold mb-4">See Pricing — Flat £14,500/year (USD affordable, accessible)</h2>
             <p className="text-indigo-100 text-lg mb-6">Atlantis NDT ERP for London engineering services, Aberdeen North Sea vendors, and UK inspection companies. MTD VAT, CIS, PSSR 2000 ready. Unlimited users.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/erp" className="bg-white text-indigo-900 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>

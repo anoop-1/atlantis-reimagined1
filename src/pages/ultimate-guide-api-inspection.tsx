@@ -158,7 +158,7 @@ const careerPath = [
   {
     stage: "Integrity Engineer / Consultant",
     years: "Years 12+",
-    salary: "$130K-$200K+",
+    salary: "$130K-enterprise tier+",
     desc: "Transition to engineering or consulting role. Develop integrity management strategies. Expert witness work. Training and mentoring. Independent consulting rates: $150-$300/hour.",
   },
 ];
@@ -224,7 +224,7 @@ export default function UltimateGuideAPIInspection() {
         "@type": "Article",
         headline: "API Inspector Guide 2026 | API 510 vs 570 vs 653 Comparison",
         description:
-          "Complete API inspector guide: API 510 vs 570 vs 653 side-by-side comparison, prerequisites, exam prep strategy, career path, salary ranges ($80K-$200K+), and certification costs.",
+          "Complete API inspector guide: API 510 vs 570 vs 653 side-by-side comparison, prerequisites, exam prep strategy, career path, salary ranges ($80K-enterprise tier+), and certification costs.",
         author: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
         publisher: {
           "@type": "Organization",
@@ -307,7 +307,7 @@ export default function UltimateGuideAPIInspection() {
             {[
               { label: "API Certifications Compared", value: "3 (510/570/653)" },
               { label: "Exam Pass Rate", value: "35-55%" },
-              { label: "Salary Range (USA)", value: "$80K-$200K+" },
+              { label: "Salary Range (USA)", value: "$80K-enterprise tier+" },
               { label: "Certification Validity", value: "3 Years" },
             ].map((s) => (
               <div key={s.label}>

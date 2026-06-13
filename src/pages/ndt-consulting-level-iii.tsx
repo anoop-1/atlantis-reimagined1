@@ -111,8 +111,8 @@ const consultingServices = [
 const comparisonData = [
     {
         dimension: "Cost Model",
-        inHouse: "Full-time salary ($120K–$180K) + benefits, training budget, office overhead",
-        outsourced: "Daily rate ($1,200–$2,500/day) or project-based fee — pay only when needed",
+        inHouse: "Full-time salary + benefits, training budget, office overhead — significant fixed annual cost",
+        outsourced: "Affordable, accessible, fully customizable — daily-rate or project-based engagement; pay only when needed. Contact us for a tailored quote.",
     },
     {
         dimension: "Flexibility",
@@ -330,8 +330,8 @@ export default function NDTConsultingLevelIII() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT Level III NDT Consulting 2026: From $180/hr, Audits"
-                description="ASNT Level III NDT consulting 2026 from $180/hr: written practice per SNT-TC-1A, CP-189 audits, UT/PAUT/RT/MT/PT/ET procedures, expert witness, NAS 410 programs."
+                title="ASNT Level III NDT Consulting 2026 — Affordable, Customizable, Audits"
+                description="ASNT Level III NDT consulting 2026 — affordable, accessible, fully customizable: written practice per SNT-TC-1A, CP-189 audits, UT/PAUT/RT/MT/PT/ET procedures, expert witness, NAS 410 programs."
                 keywords="NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT expert witness, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
                 canonical="https://atlantisndt.com/consulting/ndt-consulting-level-iii"
                 structuredData={structuredData}

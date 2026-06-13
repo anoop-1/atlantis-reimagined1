@@ -1,7 +1,7 @@
 // CTR_OVERRIDES suggestion (for prerender.mjs):
 //   "/compare/api-510-vs-api-570": {
 //     title: "API 510 vs API 570 — Which Inspector Cert in 2026? Salary, Scope, Exam",
-//     description: "API 510 (pressure vessel) vs API 570 (piping) inspector — exam scope, $730 fee, $85K–$140K salary, who needs which, can you hold both. 2026 guide."
+//     description: "API 510 (pressure vessel) vs API 570 (piping) inspector — exam scope, current API exam fee, $85K–$140K salary, who needs which, can you hold both. 2026 guide."
 //   }
 
 import { Navigation } from "@/components/Navigation";

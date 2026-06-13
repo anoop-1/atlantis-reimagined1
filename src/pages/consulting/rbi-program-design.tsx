@@ -268,14 +268,15 @@ export default function RbiProgramDesign() {
             {/* Pricing */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-4xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement & pricing</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement model</h2>
                     <Card className="border-2 border-amber-500">
                         <CardContent className="pt-6">
+                            <p className="text-slate-700 mb-4"><strong>Affordable. Accessible. Fully Customizable.</strong> Engagement scope is tailored to your plant scale, equipment population, regulatory framework and software platform.</p>
                             <ul className="space-y-3 text-slate-700">
-                                <li className="flex items-start gap-3"><BarChart3 className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Consulting day rate:</strong> $1,800-$2,400 per ASNT Level III consultant-day, on-site or remote.</span></li>
-                                <li className="flex items-start gap-3"><Briefcase className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-unit RBI design:</strong> $45,000-$85,000 fixed-fee for 100-200 equipment items, 6-8 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Settings className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Full-refinery RBI design:</strong> $180,000-$450,000 fixed-fee for 1,000+ equipment items, 12-20 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Target className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>RBI sustainment retainer:</strong> $4,500-$12,000 per month for ongoing MoC review, re-assessment triggers and inspection-plan tuning.</span></li>
+                                <li className="flex items-start gap-3"><BarChart3 className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Consulting day rate:</strong> ASNT Level III consultant, on-site or remote. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Briefcase className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-unit RBI design:</strong> 100-200 equipment items, 6-8 week delivery. Fixed-fee engagements — contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Settings className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Full-refinery RBI design:</strong> 1,000+ equipment items, 12-20 week delivery. Fixed-fee engagements — contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Target className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>RBI sustainment retainer:</strong> ongoing MoC review, re-assessment triggers and inspection-plan tuning. Pricing varies by region and scope — contact us for a tailored quote.</span></li>
                             </ul>
                         </CardContent>
                     </Card>
@@ -309,7 +310,7 @@ export default function RbiProgramDesign() {
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <h2 className="text-3xl font-bold mb-6">Ready to build a defensible RBI program?</h2>
                     <p className="text-lg text-slate-200 mb-8">
-                        Most engagements start with a 60-minute scoping call — free, no obligation, NDA available on request. We will tell you whether your plant is RBI-ready, what data we need, and what timeline + cost looks like for your equipment population.
+                        Most engagements start with a 60-minute scoping call — free, no obligation, NDA available on request. We will tell you whether your plant is RBI-ready, what data we need, and what timeline looks like for your equipment population. Pricing varies by region and scope — contact us for a tailored quote.
                     </p>
                     <Link to="/contact">
                         <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">

@@ -24,8 +24,8 @@ Founder/CEO: Anoop Rayavarapu — Houston TX + Hyderabad India, ASNT Level III.
 |---|---|---|
 | **Training** | `/training`, `/training-{region}`, `/ndt-training-{city}`, `/asnt-certification`, `/api-{510,570,653}-certification`, `/corporate-training/*` | NDT Level I/II/III training; corporate vertical training |
 | **Consulting** | `/consulting`, `/consulting-{region}`, `/consulting/ndt-consulting-{city}`, `/consulting/{service-line}` | ASNT Level III consulting, API RBI, FFS, code consulting |
-| **ERP** | `/erp`, `/erp/*`, `/ndt-erp-*`, `/erp/{app}-for-{industry}`, `/erp/{app}-for-{country}`, `/erp/{app}-ndt-inspection-companies-{city}` | "Affordable NDT ERP — $18,000/yr, all 30+ Odoo apps included, fully customizable" |
-| **Digital Twins** | `/digital-twins`, `/digital-twin-{city}`, `/digital-twins/{usecase}`, `/digital-twins/{usecase}-{city}`, `/compare/atlantis-dt-vs-{competitor}`, `/compare/digital-twin-vs-{tech}` | $200K/yr enterprise SaaS digital twin platform |
+| **ERP** | `/erp`, `/erp/*`, `/ndt-erp-*`, `/erp/{app}-for-{industry}`, `/erp/{app}-for-{country}`, `/erp/{app}-ndt-inspection-companies-{city}` | "Affordable NDT ERP — accessible, fully customizable, all 30+ Odoo apps included" |
+| **Digital Twins** | `/digital-twins`, `/digital-twin-{city}`, `/digital-twins/{usecase}`, `/digital-twins/{usecase}-{city}`, `/compare/atlantis-dt-vs-{competitor}`, `/compare/digital-twin-vs-{tech}` | Enterprise SaaS digital twin platform — accessible, customizable |
 
 Plus blog + methods at `/blog/*`, `/ultrasonic-testing`, `/radiographic-testing`, etc.
 
@@ -246,8 +246,8 @@ node scripts/gsc-submit-multi-raw.mjs --url-list=scripts/indexing-url-list-X.jso
 
 ### ERP city pages (cascade via `ErpLocationPage.tsx`)
 ```
-Title:  Affordable NDT ERP in {City} — $18,000/yr All Odoo Apps Included | Atlantis NDT
-Desc:   Atlantis NDT ERP for inspection companies in {City}, {Country}. $18,000/yr flat — 30+ Odoo apps included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com
+Title:  Affordable NDT ERP in {City} — All 30+ Odoo Apps Included, Fully Customizable | Atlantis NDT
+Desc:   Atlantis NDT ERP for inspection companies in {City}, {Country}. Affordable, accessible, fully customizable — 30+ Odoo apps included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com
 ```
 
 ### Consulting city pages (cascade via `ConsultingLocationPage.tsx`)

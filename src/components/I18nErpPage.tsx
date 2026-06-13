@@ -190,8 +190,6 @@ export default function I18nErpPage(props: I18nErpPageProps) {
         "inLanguage": lang,
         "offers": {
           "@type": "Offer",
-          "price": "Contact for pricing",
-          "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
         },
         "aggregateRating": {

@@ -14,8 +14,10 @@ import { Link } from 'react-router-dom';
 
 const REPORT_TIME_REDUCTION = 0.60;
 const ADMIN_OVERHEAD_REDUCTION = 0.50;
-const LICENSE_LOW = 15000;
-const LICENSE_HIGH = 120000;
+// NOTE: Atlantis-specific license figures removed — pricing varies by region and team size.
+// Users get a tailored quote at info@atlantisndt.com. Generic ROI math (savings, time-saved) preserved.
+const LICENSE_LOW = 0;
+const LICENSE_HIGH = 0;
 
 function fmtUsd(n: number): string {
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
@@ -62,7 +64,7 @@ export default function NdtErpRoiCalculator() {
       licenseHigh,
       netRoiLow,
       netRoiHigh,
-      paybackMonthsMid,
+      paybackMonthsMid
     };
   }, [technicians, jobsPerMonth, hoursPerReport, techRate, adminHoursPerWeek, adminRate]);
 
@@ -76,13 +78,13 @@ export default function NdtErpRoiCalculator() {
       answer: 'Administrative overhead in an NDT business is concentrated in three activities: manual report QA, job file assembly for the client, and certification/calibration paperwork. A purpose-built NDT ERP automates all three. 50% reduction is achievable within 6-9 months post go-live; some customers hit 70%+ but we use 50% as a conservative planning assumption.'
     },
     {
-      question: 'Why is the license range $15K to $120K per year?',
-      answer: 'Atlantis NDT Suite and comparable purpose-built NDT ERPs price by tech seat count and modules. A 5-10 tech shop with core modules lands around $15K-$30K/year. A 25-tech multi-method operation with integrations runs $40K-$80K/year. A 50+ tech enterprise deployment with SAP/Oracle integration and digital twin hooks runs $80K-$120K/year. Implementation fees are typically separate and one-time ($15K-$60K).'
+      question: 'How much does Atlantis NDT ERP cost?',
+      answer: 'Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com. Atlantis NDT ERP is positioned as the affordable, fully customizable alternative across small (5-10 tech), mid (25-40 tech), and enterprise (50+ tech) deployments. Tell us your tech count, methods, and integration scope and we will quote.'
     },
     {
       question: 'Does the calculator include training and change-management cost?',
       answer: 'No. The calculator shows direct labor and admin savings only. Plan an additional $5K-$25K one-time cost for training, change management, and data migration. These costs are usually recouped within the first 4-6 months of operation and are absorbed into the Year 1 payback calculation when you run a full TCO model.'
-    },
+    }
   ];
 
   const structuredData = {
@@ -214,18 +216,11 @@ export default function NdtErpRoiCalculator() {
                   <span className="text-xl font-bold text-primary">{fmtUsd(results.totalSavings)}</span>
                 </div>
                 <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="text-sm text-muted-foreground">NDT ERP license range / year</div>
-                  <span className="font-semibold">{fmtUsd(results.licenseLow)} &ndash; {fmtUsd(results.licenseHigh)}</span>
+                  <div className="text-sm text-muted-foreground">NDT ERP license</div>
+                  <span className="font-semibold text-primary">Request a tailored quote</span>
                 </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="text-sm text-muted-foreground">Net ROI Year 1</div>
-                  <span className="font-semibold">{fmtUsd(results.netRoiLow)} &ndash; {fmtUsd(results.netRoiHigh)}</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <div className="text-sm text-muted-foreground font-semibold">Payback (midpoint license)</div>
-                  <span className="text-xl font-bold text-primary">
-                    {results.paybackMonthsMid > 0 ? `${results.paybackMonthsMid.toFixed(1)} months` : '—'}
-                  </span>
+                <div className="text-xs text-muted-foreground italic">
+                  Atlantis NDT ERP is affordable, accessible, and fully customizable. Pricing varies by region and team size — email info@atlantisndt.com for your tailored quote, then compare your annual savings (above) against the quote to compute Year 1 net ROI and payback.
                 </div>
                 <Button asChild size="lg" className="w-full mt-4">
                   <Link to="/contact">Get a Custom ROI Model</Link>
@@ -268,10 +263,11 @@ export default function NdtErpRoiCalculator() {
               customers who hit 70%+ after 9 months of mature usage, but 50% is a safe planning number.
             </p>
             <p>
-              The license range ($15K-$120K/year) reflects typical Atlantis NDT Suite pricing across small (5-10 tech), mid (25-40 tech),
-              and enterprise (50+ tech) deployments. Implementation fees and training are not included in the net ROI; plan an additional
-              $15K-$60K one-time cost for those, typically recouped in the first 4-6 months. The calculator is deliberately conservative:
-              it ignores downstream revenue uplift from faster report turnaround (winning repeat business from clients) and from
+              Atlantis NDT Suite is positioned as affordable, accessible, and fully customizable across small (5-10 tech), mid (25-40 tech),
+              and enterprise (50+ tech) deployments — pricing varies by region and team size, so we share a tailored quote when you contact
+              us at info@atlantisndt.com rather than publishing a fixed list price here. Implementation fees and training are not included in
+              the net ROI; plan an additional one-time cost for those, typically recouped in the first 4-6 months. The calculator is deliberately
+              conservative: it ignores downstream revenue uplift from faster report turnaround (winning repeat business from clients) and from
               expanded capacity (same team doing more jobs because they are not stuck in paperwork).
             </p>
           </div>

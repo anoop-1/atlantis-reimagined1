@@ -73,7 +73,7 @@ export default function RefineryJamnagarCombo() {
                     <p>Jamnagar turnaround scope decisions move tens to hundreds of millions of dollars. The Atlantis turnaround scoping module ranks every overdue CML, every elevated RBI risk component, every FFS &lsquo;requires further evaluation,&rsquo; and every weld pending re-inspection into a defensible scope list. OISD-129 (pressure vessel inspection) and OISD-130 (piping inspection) audit packs generate directly from the twin in &lt;30 seconds, ready for PNGRB inspector review.</p>
 
                     <h2>ROI math for a Jamnagar-scale deployment</h2>
-                    <p>For a full Jamnagar SEZ + DTA deployment (or an equivalent-scale refinery cluster like SABIC&rsquo;s Saudi network or Sinopec&rsquo;s Maoming/Zhenhai), Atlantis Digital Twin enterprise tier ($200K/yr base plus enterprise scaling) typically pays back through:</p>
+                    <p>For a full Jamnagar SEZ + DTA deployment (or an equivalent-scale refinery cluster like SABIC&rsquo;s Saudi network or Sinopec&rsquo;s Maoming/Zhenhai), Atlantis Digital Twin enterprise tier (affordable, accessible, fully customizable SaaS &mdash; quote on request) typically pays back through:</p>
                     <ul>
                         <li><strong>Turnaround scope reduction:</strong> 15&ndash;25% on $200&ndash;$600M annualised turnaround spend = $30&ndash;$150M every 4&ndash;5 years &asymp; $7&ndash;$30M/yr averaged.</li>
                         <li><strong>HTHA / sour service unplanned downtime avoided:</strong> One avoided hydroprocessor trip from early HTHA or wet H<sub>2</sub>S detection saves $20&ndash;$60M in lost margin.</li>

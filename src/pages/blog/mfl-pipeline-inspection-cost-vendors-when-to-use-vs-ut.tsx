@@ -43,9 +43,9 @@ const mflVsUtMatrix = [
 ];
 
 const topVendors = [
-    { vendor: "ROSEN Group", hq: "Lingen, Germany", flagship: "RoCorr MFL-A, RoCorr CDI, ProGeo IMU", strength: "HR-MFL leader, deepest analyst pool, global footprint", priceTier: "Premium (top 10%)", typicalProjectMin: "50 km / $200K" },
+    { vendor: "ROSEN Group", hq: "Lingen, Germany", flagship: "RoCorr MFL-A, RoCorr CDI, ProGeo IMU", strength: "HR-MFL leader, deepest analyst pool, global footprint", priceTier: "Premium (top 10%)", typicalProjectMin: "50 km / enterprise tier" },
     { vendor: "Baker Hughes (PII/BHGE)", hq: "Cramlington, UK", flagship: "MagneScan HD, MagneScan Triax, Vectra", strength: "Original PII heritage, strong in gas transmission, dual-field MFL", priceTier: "Premium", typicalProjectMin: "40 km / $180K" },
-    { vendor: "NDT Global", hq: "Stutensee, Germany", flagship: "Evo Eclipse Hybrid (MFL+UT), Evo 1.0 UT", strength: "Best UT/MFL combo tools, liquid pipeline specialist", priceTier: "Premium", typicalProjectMin: "30 km / $200K" },
+    { vendor: "NDT Global", hq: "Stutensee, Germany", flagship: "Evo Eclipse Hybrid (MFL+UT), Evo 1.0 UT", strength: "Best UT/MFL combo tools, liquid pipeline specialist", priceTier: "Premium", typicalProjectMin: "30 km / enterprise tier" },
     { vendor: "T.D. Williamson (TDW)", hq: "Tulsa, OK", flagship: "SpirALL MFL (spiral magnetization), Multidataset", strength: "Spiral MFL for axial crack detection, North American gas transmission", priceTier: "Mid-Premium", typicalProjectMin: "30 km / $150K" },
     { vendor: "Onstream Pipeline Inspection", hq: "Calgary, Canada", flagship: "HR-MFL combo tools", strength: "Cost-competitive HR-MFL, fast turnaround, distribution and gathering", priceTier: "Mid-Market", typicalProjectMin: "20 km / $100K" },
     { vendor: "Quest Integrity", hq: "Kent, WA", flagship: "InVista UT for unpiggable lines", strength: "Unpiggable, tight-bend, refinery piping", priceTier: "Specialty Premium", typicalProjectMin: "5 km / $150K" },

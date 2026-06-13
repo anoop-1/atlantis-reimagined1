@@ -33,7 +33,7 @@ export default function VsQuickbooks() {
             comparisonRows={[
                       {
                                 "dim": "TCO Year 1",
-                                "atlantis": "$18K-$30K (small shop tier)",
+                                "atlantis": "Affordable SaaS — quote on request",
                                 "competitor": "$1K-$3K (QuickBooks Online subscription)"
                       },
                       {
@@ -87,21 +87,21 @@ export default function VsQuickbooks() {
                                 "competitor": "Accounting / financial reporting"
                       }
             ]}
-            migrationParagraph="Migration is the wrong framing — QuickBooks and Atlantis are complementary. Most Atlantis customers run QuickBooks Online for accounting (GL, AR, AP, payroll, tax) and Atlantis for inspection workflow (ASNT, codes, reports, audit). Integration via QuickBooks Online API flows approved Atlantis invoices to QBO AR; customer master and chart-of-accounts sync. Implementation 2-3 weeks, $5K-$15K typical for small inspection contractor."
+            migrationParagraph="Migration is the wrong framing — QuickBooks and Atlantis are complementary. Most Atlantis customers run QuickBooks Online for accounting (GL, AR, AP, payroll, tax) and Atlantis for inspection workflow (ASNT, codes, reports, audit). Integration via QuickBooks Online API flows approved Atlantis invoices to QBO AR; customer master and chart-of-accounts sync. Implementation 2-3 weeks — contact us for a tailored quote."
             scenarios={[
                       {
                                 "title": "Solo inspector — 1 person, 30 reports/year",
-                                "description": "QuickBooks + Word + Excel works. Atlantis at $18K/year is premature. Re-evaluate when you grow past 3 technicians.",
+                                "description": "QuickBooks + Word + Excel works. Atlantis is premature at this scale even though it's an affordable, accessible, fully customizable SaaS. Re-evaluate when you grow past 3 technicians.",
                                 "winner": "competitor"
                       },
                       {
                                 "title": "Small NDT contractor — 6 people, 200 reports/year, 4 clients",
-                                "description": "Atlantis at $24K-$35K/year + QuickBooks Online for accounting is the right combo. The 8-15 hour/week saved on report production and cert tracking covers Atlantis cost within 3-4 months.",
+                                "description": "Atlantis (affordable, accessible, fully customizable SaaS — quote on request) + QuickBooks Online for accounting is the right combo. The 8-15 hour/week saved on report production and cert tracking typically covers Atlantis cost within 3-4 months.",
                                 "winner": "atlantis"
                       },
                       {
                                 "title": "Growing inspection company — 15 people, 800 reports/year, 12 clients",
-                                "description": "Atlantis at $40K-$60K/year + QuickBooks Online combo. Multi-client compliance dashboards, customer portals, API-format reports — all needed at this scale. QuickBooks alone with spreadsheets is no longer viable.",
+                                "description": "Atlantis (affordable, accessible, fully customizable SaaS — quote on request) + QuickBooks Online combo. Multi-client compliance dashboards, customer portals, API-format reports — all needed at this scale. QuickBooks alone with spreadsheets is no longer viable.",
                                 "winner": "atlantis"
                       }
             ]}

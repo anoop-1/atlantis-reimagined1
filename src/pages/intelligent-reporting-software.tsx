@@ -156,11 +156,7 @@ export default function IntelligentReportingSoftware() {
                 },
                 "offers": {
                     "@type": "Offer",
-                    "availability": "https://schema.org/InStock",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "USD"
-                    }
+                    "availability": "https://schema.org/InStock"
                 },
                 "featureList": [
                     "3D Digital Twin Visualization",

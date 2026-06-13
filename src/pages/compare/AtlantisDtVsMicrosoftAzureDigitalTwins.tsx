@@ -7,7 +7,7 @@ import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K starter, $200K enterprise/yr", competitor: "Pay-as-you-go Azure consumption — $0.001 per API call + storage + Functions + IoT Hub; typically $80K–$600K/yr Azure spend + custom-app dev cost" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Pay-as-you-go Azure consumption — $0.001 per API call + storage + Functions + IoT Hub; typically $80K–$600K/yr Azure spend + custom-app dev cost" },
     { factor: "Deployment options", atlantis: "Cloud, on-prem, hybrid, air-gapped", competitor: "Azure cloud only; sovereign cloud regions available" },
     { factor: "Core data model", atlantis: "Inspection-native — CMLs, weld maps, defect maps, FFS results, RBI scores", competitor: "DTDL (Digital Twins Definition Language) ontology + graph runtime — bring-your-own data model" },
     { factor: "NDT data depth", atlantis: "PAUT B/C/S-scan native, RT image archive, MT/PT indications, UT thickness grids", competitor: "Blob storage + custom DTDL — NDT workflow is custom-build" },
@@ -58,7 +58,7 @@ export default function AtlantisDtVsMicrosoftAzureDigitalTwins() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs Microsoft Azure Digital Twins: Application vs PaaS [2026]"
-                description="Atlantis Digital Twin vs Microsoft Azure Digital Twins: $50K-$200K turnkey app vs $80K-$600K Azure PaaS + $800K-$2.5M custom dev. Native API 579/581 vs DTDL + Azure Functions. 2026 buyer guide."
+                description="Atlantis Digital Twin vs Microsoft Azure Digital Twins: accessible turnkey app vs $80K-$600K Azure PaaS + $800K-$2.5M custom dev. Native API 579/581 vs DTDL + Azure Functions. 2026 buyer guide."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-microsoft-azure-digital-twins"
                 structuredData={structuredData}
                 faq={faqs}
@@ -86,20 +86,20 @@ export default function AtlantisDtVsMicrosoftAzureDigitalTwins() {
                     <h2>The honest summary up front</h2>
                     <ul>
                         <li><strong>Pick Microsoft Azure Digital Twins</strong> if you&rsquo;re an enterprise heavily committed to Azure with in-house developer capacity, your digital twin use case spans well beyond inspection (smart buildings + fleets + factories + supply chain), you want a single DTDL ontology across all those domains, or regulatory / data-residency requirements mandate Azure Sovereign Cloud.</li>
-                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is a turnkey inspection-integrity platform — CML capture, weld maps, FFS, RBI, 3D twin, mobile workflow, reporting — without committing to custom Azure development. SaaS pricing, ASNT Level III consultant included, 8–14 weeks to first-asset-live. Cloud, on-prem, or air-gapped deployment.</li>
+                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is a turnkey inspection-integrity platform — CML capture, weld maps, FFS, RBI, 3D twin, mobile workflow, reporting — without committing to custom Azure development. Affordable, accessible, fully customizable SaaS, ASNT Level III consultant included, 8–14 weeks to first-asset-live. Cloud, on-prem, or air-gapped deployment.</li>
                         <li><strong>Run both</strong> if you have an Azure-committed enterprise IT strategy and want Atlantis as the inspection-application layer pulling telemetry from your Azure IoT Hub footprint and pushing inspection events back to ADT for the broader enterprise graph. This is the most common pattern for tier-1 industrial operators with Microsoft EAs.</li>
                     </ul>
 
                     <h2>Pricing model — the practical difference</h2>
                     <p>Azure Digital Twins itself is inexpensive at the platform level — consumption-priced at roughly $0.001 per API operation + storage + Functions execution. A typical mid-sized industrial deployment lands at $80K–$600K/year Azure consumption across ADT + IoT Hub + IoT Edge + Azure Functions + Blob storage + Azure ML for the building blocks. The real cost is the custom-app development effort to turn those building blocks into a working inspection application. A typical Microsoft partner engagement (Accenture, Deloitte, EY, Capgemini, Avanade, ZS Associates) to build the DTDL ontology, the inspection workflow, the 3D viewer, the FFS calculator, the RBI engine, the mobile capture app, and the reporting layer runs $800K–$2.5M one-time, with ongoing maintenance at $150K–$400K/year. First-year total: $1M–$3.5M before the inspection workflow is producing business value.</p>
-                    <p>Atlantis Digital Twin is tiered SaaS. The $50K/year starter covers one complex asset with up to 25 named users and unlimited inspection records. The $200K/year enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. Implementation is 8–14 weeks at typically $40K–$120K one-time. First-year total: $90K–$320K for the inspection-led customer.</p>
+                    <p>Atlantis Digital Twin is positioned as affordable, accessible, and fully customizable SaaS — region-specific pricing scaled to scope. A starter tier covers one complex asset with up to 25 named users and unlimited inspection records. The enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. Implementation is 8–14 weeks. Contact us for a tailored quote for the inspection-led customer.</p>
 
                     <h2>Data depth — where the platforms diverge</h2>
                     <p>This is where the gap is largest. Azure Digital Twins is a graph runtime with DTDL ontology — a generic and powerful primitive, but it doesn&rsquo;t come with any inspection-specific model. To use ADT for inspection, an engineering team has to: (1) author the DTDL ontology for inspection (CML, weld, defect, FFS result, RBI score, damage mechanism, inspection event, NDT method, inspector certification, etc. — typically 80–150 DTDL interfaces); (2) build Azure Functions to compute FFS and RBI; (3) build a 3D viewer using Babylon.js, Unity, or 3D Scenes Studio; (4) build a Power Apps / Blazor / React mobile capture app; (5) build report templates in Power BI or custom React; (6) build the ASNT certification tracking. This is the kind of project that ends up costing $1.5M–$3M and taking 9–18 months.</p>
                     <p>Atlantis stores all of this natively. The asset record is a graph: equipment → CML → reading history → trend → predicted next inspection date. The same record holds the API 579 FFS calculation result, the API 581 RBI risk score, and the linked inspection report PDF. Weld maps, defect maps, PAUT B/C/S-scan images, and RT shot logs are all first-class objects. No custom build required.</p>
 
                     <h2>3D visualization</h2>
-                    <p>Azure Digital Twins 3D Scenes Studio delivers a basic 3D viewer suitable for proof-of-concept and limited-scope deployments. For production 3D — with hundreds of millions of polygons, real-time inspection-overlay colouring, click-through to CML history, and field-grade tablet performance — most enterprises build custom Unity or Babylon.js viewers, which is its own engineering project ($200K–$500K typical).</p>
+                    <p>Azure Digital Twins 3D Scenes Studio delivers a basic 3D viewer suitable for proof-of-concept and limited-scope deployments. For production 3D — with hundreds of millions of polygons, real-time inspection-overlay colouring, click-through to CML history, and field-grade tablet performance — most enterprises build custom Unity or Babylon.js viewers, which is its own engineering project (enterprise tier–$500K typical).</p>
                     <p>Atlantis renders the asset as an interactive 3D twin in the browser — no client install, WebGL on any modern device including iPad in the field. CMLs, defects, FFS hot spots, and RBI risk are colour-coded directly on the geometry. Inspectors click a CML to see thickness history; engineers click a flaw to open the FFS calculation.</p>
 
                     <h2>Side-by-side comparison table</h2>
@@ -149,7 +149,7 @@ export default function AtlantisDtVsMicrosoftAzureDigitalTwins() {
                     <h2>Total cost of ownership over 5 years</h2>
                     <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, RBI on 800 components — a 5-year TCO comparison:</p>
                     <ul>
-                        <li><strong>Atlantis enterprise tier</strong>: $200K/yr × 5 = $1.0M, plus $80K one-time implementation = <strong>$1.08M</strong></li>
+                        <li><strong>Atlantis enterprise tier</strong>: affordable, accessible, fully customizable SaaS — region-specific quote on request</li>
                         <li><strong>Azure Digital Twins + IoT Hub + custom inspection app</strong>: $300K/yr × 5 = $1.5M, plus $1.5M implementation + ongoing custom-app maintenance ($250K/yr) = <strong>~$4.25M</strong></li>
                     </ul>
                     <p>The gap shrinks if your enterprise IT strategy is &ldquo;everything must be Azure-resident&rdquo; and you&rsquo;re willing to absorb the custom-build cost as a long-term enterprise architecture investment. For pure inspection-led integrity, the cost story is firmly in Atlantis&rsquo;s favor.</p>
@@ -231,7 +231,7 @@ export default function AtlantisDtVsMicrosoftAzureDigitalTwins() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-blue-700">Atlantis Digital Twin</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Full product page with features, pricing tiers, and case studies.</p>
+                                    <p className="text-sm text-slate-600">Full product page with features and case studies.</p>
                                 </CardContent>
                             </Card>
                         </Link>

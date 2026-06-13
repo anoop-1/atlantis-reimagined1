@@ -80,14 +80,14 @@ export default function RefineryUseCase() {
                     <p>The turnaround scoping module pulls together every CML overdue, every elevated RBI risk component, every FFS result that flagged &lsquo;requires further evaluation,&rsquo; every weld pending re-inspection, and every API 581-driven recommendation. The integrity team walks into the turnaround scope meeting with a defensible, prioritized list rather than a spreadsheet of opinions. Most refineries report 15–25% inspection-labor savings on turnaround through better scoping alone, plus avoided rework when a turnaround discovers a problem that should have been on the original scope.</p>
 
                     <h2>ROI in real numbers</h2>
-                    <p>For a single-site refinery with 25,000 CMLs across 3 process units, typical Atlantis Digital Twin enterprise deployment ($200K/yr) pays back through:</p>
+                    <p>For a single-site refinery with 25,000 CMLs across 3 process units, typical Atlantis Digital Twin enterprise deployment (affordable, accessible, fully customizable SaaS &mdash; quote on request) pays back through:</p>
                     <ul>
-                        <li><strong>Avoided unplanned downtime:</strong> 1–3 events/year averted at $200K–$2M each = $1M–$3M/yr value.</li>
+                        <li><strong>Avoided unplanned downtime:</strong> 1–3 events/year averted at enterprise tier–$2M each = $1M–$3M/yr value.</li>
                         <li><strong>Inspection labor reduction:</strong> 15–25% of $2M–$5M/yr inspection cost = $300K–$1.25M/yr.</li>
                         <li><strong>Turnaround scope optimization:</strong> 5–15% turnaround cost reduction × $20M–$80M turnaround = $1M–$12M every 4–5 years.</li>
                         <li><strong>Insurance &amp; regulatory:</strong> Defensible integrity program cuts insurance premiums and regulatory friction (PHMSA, EPA, OSHA PSM compliance).</li>
                     </ul>
-                    <p>Net: $1.8M–$6M/yr in measurable value at a $200K/yr platform cost. Even discounted heavily for ramp-up and adoption realities, the payback is well inside 12 months.</p>
+                    <p>Net: $1.8M&ndash;$6M/yr in measurable value on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request. Even discounted heavily for ramp-up and adoption realities, the payback is well inside 12 months.</p>
 
                     <h2>Implementation path for a refinery deployment</h2>
                     <p>First process unit live in 10–14 weeks. Subsequent units typically 4–6 weeks each given the templates, integrations, and team familiarity built in the first deployment. Most refineries deploy unit-by-unit over 6–12 months rather than big-bang — this preserves integrity team capacity and lets the platform earn trust before it&rsquo;s the only system of record. Coexistence with existing PI / APM / EAM is the rule, not the exception.</p>

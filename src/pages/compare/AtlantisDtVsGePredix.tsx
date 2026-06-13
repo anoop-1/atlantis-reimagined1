@@ -1,7 +1,7 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K–$200K/yr", competitor: "Per-asset + per-application — $100K–$700K/yr typical" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-asset + per-application — $100K–$700K/yr typical" },
     { factor: "Brand status", atlantis: "Independent NDT software vendor", competitor: "GE spun out Predix into GE Digital, then Aveva-style restructuring; remains active under GE Vernova / GE Digital" },
     { factor: "Platform focus", atlantis: "Inspection integrity twin", competitor: "Industrial IoT + Asset Performance Management (Predix APM)" },
     { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, FFS, RBI", competitor: "APM has inspection capabilities — generally Meridium-derived, mature but heavyweight" },
@@ -45,7 +45,7 @@ export default function AtlantisDtVsGePredix() {
                 { href: "/compare/atlantis-dt-vs-ibm-maximo", title: "vs IBM Maximo", blurb: "EAM giant — the other major APM-class competitor." },
                 { href: "/compare/atlantis-dt-vs-aspen-mtell", title: "vs Aspen Mtell", blurb: "Predictive maintenance ML focus." },
                 { href: "/compare/atlantis-dt-vs-siemens-mindsphere", title: "vs Siemens MindSphere", blurb: "Industrial IoT platform comparison." },
-                { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
+                { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features and case studies." },
                 { href: "/integrations/ge-vernova-apm", title: "GE Vernova APM Integration", blurb: "Run Atlantis alongside APM with bidirectional REST integration." },
                 { href: "/contact", title: "Book a Demo", blurb: "60-minute scoping call with an ASNT Level III consultant." },
             ]}
@@ -59,7 +59,7 @@ export default function AtlantisDtVsGePredix() {
                     <p>From an inspection integrity perspective, the key product is GE APM. It includes RBI (heavily Meridium-derived), FFS, inspection management, CML thickness tracking, and the broader APM module suite (failure modes, criticality analysis, recommendation tracking). It is mature and proven. It is also a heavyweight enterprise platform — long implementations (typically 6–18 months for a real APM rollout), high TCO, and a UX inheritance from Meridium that newer users often find dated.</p>
 
                     <h2>How Atlantis Digital Twin compares</h2>
-                    <p>Atlantis covers the same core inspection integrity ground (CMLs, FFS, RBI, weld registers, NDT capture, 3D twin) in a modern SaaS package: 8–14 weeks to first asset live, browser-native UX, SaaS pricing tier of $50K–$200K/year, and an included ASNT Level III consultant on enterprise engagements. For mid-sized operators or organizations starting fresh, the choice is usually clear in Atlantis&rsquo; favor on TCO and time-to-value. For very large operators with existing APM working well, the choice is between &lsquo;keep APM&rsquo; and &lsquo;migrate&rsquo; — see the migration FAQ below.</p>
+                    <p>Atlantis covers the same core inspection integrity ground (CMLs, FFS, RBI, weld registers, NDT capture, 3D twin) in a modern, affordable, accessible, fully customizable SaaS package: 8–14 weeks to first asset live, browser-native UX, region-specific quote on request, and an included ASNT Level III consultant on enterprise engagements. For mid-sized operators or organizations starting fresh, the choice is usually clear in Atlantis&rsquo; favor on TCO and time-to-value. For very large operators with existing APM working well, the choice is between &lsquo;keep APM&rsquo; and &lsquo;migrate&rsquo; — see the migration FAQ below.</p>
 
                     <h2>When GE APM is the right answer</h2>
                     <ul>

@@ -72,10 +72,10 @@ export default function LngTerminalPengerangCombo() {
                     <p>Petronas requires PTS (Petronas Technical Standards) compliance across all owned and operated assets, with detailed audit-pack evidence. PTS standards are often more stringent than international API/ASME/EN baselines &mdash; for example, PTS 60.2222 (in-service inspection of pressure vessels) requires more frequent CML re-inspection than API 510 for certain damage mechanisms. Atlantis ships the PTS audit-pack template alongside the API 510/570/625 + EN 13445/14620 templates, with field-level mapping between equivalent codes. PTS audit packs generate from the twin in &lt;30 seconds, ready for Petronas internal audit, DOSH (Department of Occupational Safety and Health Malaysia) inspection, or Suruhanjaya Tenaga (Energy Commission) review.</p>
 
                     <h2>ROI math for a Pengerang LNG + integrated deployment</h2>
-                    <p>For the Pengerang LNG terminal alone (~$2.5M&ndash;$6M/yr) plus integrated deployment across RAPID refinery and the petrochemical complex (additional value), Atlantis Digital Twin enterprise tier ($200K/yr) pays back through:</p>
+                    <p>For the Pengerang LNG terminal alone (~$2.5M&ndash;$6M/yr) plus integrated deployment across RAPID refinery and the petrochemical complex (additional value), Atlantis Digital Twin enterprise tier (affordable, accessible, fully customizable SaaS &mdash; quote on request) pays back through:</p>
                     <ul>
                         <li><strong>Tank out-of-service inspection deferral:</strong> 2&ndash;4 year extension on 10-year cycle &times; $4M&ndash;$10M per inspection on each 200,000 m&sup3; tank.</li>
-                        <li><strong>ORV / SCV inspection efficiency:</strong> Annual ORV external surveys + biofouling assessment streamlined via digital workflow = $200K&ndash;$500K/yr labour saved.</li>
+                        <li><strong>ORV / SCV inspection efficiency:</strong> Annual ORV external surveys + biofouling assessment streamlined via digital workflow = enterprise tier&ndash;$500K/yr labour saved.</li>
                         <li><strong>RAPID refinery turnaround scope reduction:</strong> 15&ndash;25% on integrated turnaround scope = additional $1M&ndash;$3M/yr averaged.</li>
                         <li><strong>PTS audit-pack automation:</strong> 200&ndash;500 hours per year saved in audit-pack preparation across the integrated PIC complex.</li>
                     </ul>

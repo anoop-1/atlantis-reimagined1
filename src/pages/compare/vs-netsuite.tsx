@@ -87,21 +87,21 @@ export default function VsNetsuite() {
                                 "competitor": "Financial / accounting / inventory / CRM ERP"
                       }
             ]}
-            migrationParagraph="Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, RBI, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks, $25K-$60K."
+            migrationParagraph="Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, RBI, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks — contact us for a tailored quote."
             scenarios={[
                       {
                                 "title": "Small NDT contractor — 6 people on QuickBooks Online",
-                                "description": "Atlantis at $20K/year is the right system of record. NetSuite for 6 users at $999/user/month base exceeds $70K/year before customization. QuickBooks + Atlantis combo serves the business well.",
+                                "description": "Atlantis (affordable SaaS) is the right system of record. NetSuite for 6 users at $999/user/month base exceeds $70K/year before customization. QuickBooks + Atlantis combo serves the business well.",
                                 "winner": "atlantis"
                       },
                       {
                                 "title": "Mid-size inspection multinational — 80 people on NetSuite",
-                                "description": "NetSuite is the financial system of record for 80 employees + accounting team. Atlantis handles inspection workflow + ASNT + codes + RBI. Combined cost $130K-$180K/year covers both scopes properly.",
+                                "description": "NetSuite is the financial system of record for 80 employees + accounting team. Atlantis handles inspection workflow + ASNT + codes + RBI. The two systems together cover both scopes properly.",
                                 "winner": "either"
                       },
                       {
                                 "title": "$50M inspection company with broader service lines (training, equipment rental)",
-                                "description": "NetSuite is the right ERP for the broader business. Atlantis layered on for the inspection workflow specifically. Combined cost $200K-$300K serves the diversified business model.",
+                                "description": "NetSuite is the right ERP for the broader business. Atlantis layered on for the inspection workflow specifically. The combined architecture serves the diversified business model.",
                                 "winner": "either"
                       }
             ]}

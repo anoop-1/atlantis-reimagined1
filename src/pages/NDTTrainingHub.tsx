@@ -10,33 +10,33 @@ const faqs = [
   {
     question: "How long does NDT training take?",
     answer:
-      "Method-dependent. SNT-TC-1A sets minimum classroom hours per method: UT and RT require 40 hours at Level I and another 40 at Level II, ET requires 40/40, MT needs 12/24, VT needs 8/16, and PT needs 4/8. Experience hours range from 130 (PT Level I) to 3,600 (UT Level II) supervised OJT. In practice, a full Level II pathway in a single method takes 6–12 months elapsed including OJT; a fast-track immersive classroom-only block takes 2–3 weeks.",
+      "Method-dependent. SNT-TC-1A sets minimum classroom hours per method: UT and RT require 40 hours at Level I and another 40 at Level II, ET requires 40/40, MT needs 12/24, VT needs 8/16, and PT needs 4/8. Experience hours range from 130 (PT Level I) to 3,600 (UT Level II) supervised OJT. In practice, a full Level II pathway in a single method takes 6–12 months elapsed including OJT; a fast-track immersive classroom-only block takes 2–3 weeks."
   },
   {
     question: "What are the 3 levels of NDT certification?",
     answer:
-      "Level I technicians perform calibrated tests and record results under Level II or III supervision. Level II technicians set up equipment, interpret indications against acceptance criteria, write reports, and supervise Level I personnel. Level III professionals develop written practices and procedures, qualify Level I/II staff, select methods, and sign off on NDT programs — they hold either ASNT NDT Level III or ACCP Level III credentials and typically need a decade of field experience plus passing Basic and Method exams.",
+      "Level I technicians perform calibrated tests and record results under Level II or III supervision. Level II technicians set up equipment, interpret indications against acceptance criteria, write reports, and supervise Level I personnel. Level III professionals develop written practices and procedures, qualify Level I/II staff, select methods, and sign off on NDT programs — they hold either ASNT NDT Level III or ACCP Level III credentials and typically need a decade of field experience plus passing Basic and Method exams."
   },
   {
     question: "Is NDT a good career in 2026?",
     answer:
-      "Yes. US BLS projects 8% growth for non-destructive testing specialists through 2032, faster than average. Aging infrastructure (pipelines, nuclear, refineries), offshore wind buildout, and semiconductor fabs all require certified NDT inspectors. Level II technicians earn $60K–$85K in the US; Level III consultants earn $120K–$180K. Overseas hardship rotations (Middle East, North Sea) can push Level II income past $150K annually.",
+      "Yes. US BLS projects 8% growth for non-destructive testing specialists through 2032, faster than average. Aging infrastructure (pipelines, nuclear, refineries), offshore wind buildout, and semiconductor fabs all require certified NDT inspectors. Level II technicians earn $60K–$85K in the US; Level III consultants earn $120K–$180K. Overseas hardship rotations (Middle East, North Sea) can push Level II income past $150K annually."
   },
   {
     question: "What is the highest-paying NDT certification?",
     answer:
-      "ASNT NDT Level III is the highest-compensated credential — independent Level IIIs charge $150–$300/hr for procedure development and program audits. Among methods, Phased Array UT (PAUT) and TOFD command the highest field-tech premiums, adding $10–$25/hr over conventional UT. API 510/570/653 pressure-equipment inspector certifications, while not strictly NDT, pay $100K–$150K+ and stack on top of existing Level II credentials.",
+      "ASNT NDT Level III is the highest-compensated credential — independent Level IIIs charge $150–$300/hr for procedure development and program audits. Among methods, Phased Array UT (PAUT) and TOFD command the highest field-tech premiums, adding $10–$25/hr over conventional UT. API 510/570/653 pressure-equipment inspector certifications, while not strictly NDT, pay $100K–$150K+ and stack on top of existing Level II credentials."
   },
   {
     question: "Online vs onsite: which NDT training is better?",
     answer:
-      "Online works well for theory and code study — SNT-TC-1A permits remote classroom instruction if it is documented. Hands-on calibration, instrument setup, and scanning practice must be done in person; you cannot substitute video for standing in front of a UT scope. Our blended model delivers 60% of theory online (self-paced plus live tutor sessions), then 1–2 weeks onsite for practical work in Houston, Dubai, or Hyderabad. Blended shortens travel by roughly 50% and cuts total cost by 20–30%.",
+      "Online works well for theory and code study — SNT-TC-1A permits remote classroom instruction if it is documented. Hands-on calibration, instrument setup, and scanning practice must be done in person; you cannot substitute video for standing in front of a UT scope. Our blended model delivers 60% of theory online (self-paced plus live tutor sessions), then 1–2 weeks onsite for practical work in Houston, Dubai, or Hyderabad. Blended shortens travel by roughly 50% and cuts total cost by 20–30%."
   },
   {
     question: "Can my employer sponsor my NDT training?",
     answer:
-      "Almost always yes. Operators, EPCs, and inspection companies routinely sponsor Level I through III training as a retention and compliance investment. Typical arrangements include full tuition coverage in exchange for a 12–24 month service agreement. Employer-sponsored trainees also get SNT-TC-1A certification automatically (the employer is the certifying body), and experience hours accumulate on company time. We offer group pricing for sponsored cohorts of 4+ trainees.",
-  },
+      "Almost always yes. Operators, EPCs, and inspection companies routinely sponsor Level I through III training as a retention and compliance investment. Typical arrangements include full tuition coverage in exchange for a 12–24 month service agreement. Employer-sponsored trainees also get SNT-TC-1A certification automatically (the employer is the certifying body), and experience hours accumulate on company time. We offer group pricing for sponsored cohorts of 4+ trainees."
+  }
 ];
 
 const methods = [
@@ -48,8 +48,8 @@ const methods = [
     levelLinks: {
       L1: "/ultrasonic-testing",
       L2: "/ultrasonic-testing",
-      L3: "/asnt-level-iii-training",
-    },
+      L3: "/asnt-level-iii-training"
+    }
   },
   {
     name: "Radiographic Testing (RT)",
@@ -59,8 +59,8 @@ const methods = [
     levelLinks: {
       L1: "/radiographic-testing",
       L2: "/radiographic-testing",
-      L3: "/asnt-level-iii-training",
-    },
+      L3: "/asnt-level-iii-training"
+    }
   },
   {
     name: "Magnetic Particle Testing (MT)",
@@ -70,8 +70,8 @@ const methods = [
     levelLinks: {
       L1: "/magnetic-particle-testing",
       L2: "/magnetic-particle-testing",
-      L3: "/asnt-level-iii-training",
-    },
+      L3: "/asnt-level-iii-training"
+    }
   },
   {
     name: "Liquid Penetrant Testing (PT)",
@@ -81,8 +81,8 @@ const methods = [
     levelLinks: {
       L1: "/penetrant-testing",
       L2: "/penetrant-testing",
-      L3: "/asnt-level-iii-training",
-    },
+      L3: "/asnt-level-iii-training"
+    }
   },
   {
     name: "Visual Testing (VT)",
@@ -92,8 +92,8 @@ const methods = [
     levelLinks: {
       L1: "/visual-testing",
       L2: "/visual-testing",
-      L3: "/asnt-level-iii-training",
-    },
+      L3: "/asnt-level-iii-training"
+    }
   },
   {
     name: "Eddy Current Testing (ET)",
@@ -103,15 +103,15 @@ const methods = [
     levelLinks: {
       L1: "/eddy-current-testing",
       L2: "/eddy-current-testing",
-      L3: "/asnt-level-iii-training",
-    },
-  },
+      L3: "/asnt-level-iii-training"
+    }
+  }
 ];
 
 const specialties = [
   { name: "Phased Array UT (PAUT)", slug: "/phased-array-training", pitch: "Electronic beam steering for faster, image-based UT." },
   { name: "TOFD", slug: "/tofd-testing", pitch: "Time-of-Flight Diffraction — the gold standard for weld sizing." },
-  { name: "Digital/Computed Radiography", slug: "/radiographic-testing", pitch: "DR/CR replaces film for faster turnaround." },
+  { name: "Digital/Computed Radiography", slug: "/radiographic-testing", pitch: "DR/CR replaces film for faster turnaround." }
 ];
 
 const cities = [
@@ -119,14 +119,14 @@ const cities = [
   { label: "Dubai", slug: "/ndt-training-dubai" },
   { label: "India", slug: "/ndt-training-india" },
   { label: "Saudi Arabia", slug: "/ndt-training-saudi-arabia" },
-  { label: "Online", slug: "/ndt-training-online" },
+  { label: "Online", slug: "/ndt-training-online" }
 ];
 
 export default function NDTTrainingHub() {
   const faqSchemaData = faqs.map((f) => ({
     "@type": "Question",
     name: f.question,
-    acceptedAnswer: { "@type": "Answer", text: f.answer },
+    acceptedAnswer: { "@type": "Answer", text: f.answer }
   }));
 
   const structuredData = {
@@ -139,7 +139,7 @@ export default function NDTTrainingHub() {
         description:
           "Comprehensive NDT training hub covering UT, RT, MT, PT, VT, ET plus PAUT/TOFD specialties. Level I/II/III pathways, SNT-TC-1A vs ISO 9712 vs ACCP, online/onsite/blended delivery.",
         inLanguage: "en-US",
-        isPartOf: { "@id": "https://atlantisndt.com/#website" },
+        isPartOf: { "@id": "https://atlantisndt.com/#website" }
       },
       {
         "@type": "ItemList",
@@ -147,10 +147,10 @@ export default function NDTTrainingHub() {
         itemListElement: methods.map((m, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          name: m.name,
-        })),
-      },
-    ],
+          name: m.name
+        }))
+      }
+    ]
   };
 
   return (
@@ -171,7 +171,7 @@ export default function NDTTrainingHub() {
           educationalLevel: "Beginner to Advanced",
           price: "800",
           priceCurrency: "USD",
-          educationalCredentialAwarded: "ASNT SNT-TC-1A / ACCP / ISO 9712 (method- and level-specific)",
+          educationalCredentialAwarded: "ASNT SNT-TC-1A / ACCP / ISO 9712 (method- and level-specific)"
         }}
       />
       <Breadcrumbs />

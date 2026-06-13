@@ -23,7 +23,7 @@ export default function GeVernovaApmIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — GE Vernova APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "GE Vernova APM (formerly GE APM, originally Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, RBI library, inspection records. Power-gen module support.", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — GE Vernova APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "GE Vernova APM (formerly GE APM, originally Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, RBI library, inspection records. Power-gen module support.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — GE Vernova APM Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]

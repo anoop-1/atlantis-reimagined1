@@ -27,7 +27,7 @@ export default function NdtErpIntegrationMatrix() {
     {
       question: 'Are integrations one-way or two-way?',
       answer: 'Most integrations are configurable per object. Customer master, equipment master, and personnel master are typically two-way with one system designated as the master of record (usually SAP, Oracle, or Dynamics). Inspection reports, job status, and defect findings are typically one-way from NDT ERP outbound to the ERP/EAM. Invoices are one-way from NDT ERP to the financial ERP. Payment receipts flow back two-way so that A/R aging stays consistent in both systems.'
-    },
+    }
   ];
 
   const structuredData = {
@@ -133,7 +133,7 @@ export default function NdtErpIntegrationMatrix() {
       direction: 'Two-way (fully configurable)',
       fields: 'All Atlantis objects: Job, Report, Technician, Certification, Equipment, Calibration, Invoice, Customer',
       constraints: 'Requires API-capable endpoint on your side. OAuth 2.0 or API key auth supported.'
-    },
+    }
   ];
 
   return (

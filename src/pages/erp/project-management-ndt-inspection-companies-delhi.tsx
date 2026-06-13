@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is Project Management configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The Project Management module is pre-loaded with IOCL refinery turnaround scheduling, EIL EPC project gate management, BHEL manufacturing supplier workflow, multi-state mobilization automation, and cross-code templates."],
     ["Which Delhi regulators does Project Management align with?", "The compliance dashboard maps to PESO, OISD, AERB, BIS, Central Pollution Control Board (CPCB), Delhi Pollution Control Committee (DPCC)."],
     ["Can Delhi NDT inspection companies integrate Project Management with EIL contractor portal?", "Yes. The platform supports vendor-portal flow with IOCL, GAIL, ONGC, Engineers India Limited (EIL), BHEL Haridwar, NTPC. EIL EPC project deliverables are auto-formatted."],
-    ["What does Project Management cost for an NDT inspection company in Delhi?", "Project Management is bundled inside the standard regionally priced (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing in INR or USD."],
+    ["What does Project Management cost for an NDT inspection company in Delhi?", "Project Management is bundled inside the standard affordable, accessible (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing in INR or USD."],
     ["Does Project Management support multi-state mobilization automation?", "Yes. Multi-state mobilization (UP, Haryana, Uttarakhand, NCR, all-India for EIL) is automated with state-specific GST handling, e-way bill generation, inter-state crew-rotation paperwork, and consumable chain-of-custody across state borders."]
   ]
 } as ErpTripleCrossProps;

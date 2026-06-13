@@ -14,7 +14,7 @@ import { CheckCircle, Users, Briefcase, ArrowRight, DollarSign, Calculator } fro
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Headcount cost (USA, Level III)", consulting: "Day-rate $1,500–$3,500 (no benefits load)", inHouse: "Base salary $130K–$200K + ~30–40% benefits load = $170K–$280K fully loaded" },
+    { factor: "Headcount cost (USA, Level III)", consulting: "Day-rate $1,500–$3,500 (no benefits load)", inHouse: "Base salary $130K–enterprise tier + ~30–40% benefits load = $170K–$280K fully loaded" },
     { factor: "Onboarding lead-time", consulting: "1–3 weeks (NDA, vendor onboarding, badge-up)", inHouse: "3–6 months (recruit, hire, security clearance, training)" },
     { factor: "Coverage continuity", consulting: "Backed by a bench — illness/leave covered", inHouse: "Single point of failure unless you hire 2+" },
     { factor: "Method breadth", consulting: "Multi-method Level III on demand (UT, RT, MT, PT, ECT, AUT, TOFD, PA-UT)", inHouse: "Typically 1–2 methods per Level III; multi-cert hires are scarce and expensive" },

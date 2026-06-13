@@ -7,7 +7,7 @@ import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K starter, $200K enterprise/yr", competitor: "Subscription per server + connected device + named developer — typically $250K–$1.2M/yr enterprise" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Subscription per server + connected device + named developer — typically $250K–$1.2M/yr enterprise" },
     { factor: "Deployment options", atlantis: "Cloud, on-prem, hybrid, air-gapped", competitor: "On-prem ThingWorx Platform; ThingWorx Cloud (managed); Foundation as-a-service" },
     { factor: "Industry fit", atlantis: "Continuous-process integrity (refining, petrochem, FPSO, LNG, NH3, pipelines)", competitor: "Discrete manufacturing (factories, machine builders, automotive, aerospace MRO, medical devices)" },
     { factor: "Core data model", atlantis: "Inspection-native — CMLs, weld maps, defect maps, FFS results, RBI scores", competitor: "Thing-property-event model with low-code Mashup UI builder" },
@@ -58,7 +58,7 @@ export default function AtlantisDtVsPtcThingworx() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs PTC ThingWorx: Continuous-Process Integrity vs Discrete IIoT [2026]"
-                description="Atlantis Digital Twin vs PTC ThingWorx: $50K-$200K SaaS continuous-process integrity vs $250K-$1.2M IIoT for discrete manufacturing. Native API 579/581 vs custom Mashup. 2026 buyer guide."
+                description="Atlantis Digital Twin vs PTC ThingWorx: affordable, accessible, fully customizable SaaS continuous-process integrity vs $250K-$1.2M IIoT for discrete manufacturing. Native API 579/581 vs custom Mashup. 2026 buyer guide."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-ptc-thingworx"
                 structuredData={structuredData}
                 faq={faqs}
@@ -87,13 +87,13 @@ export default function AtlantisDtVsPtcThingworx() {
                     <h2>The honest summary up front</h2>
                     <ul>
                         <li><strong>Pick PTC ThingWorx</strong> if your primary use case is connecting discrete machines (CNC tools, PLCs, robots, factory automation), delivering AR-assisted maintenance via Vuforia Studio, or you&rsquo;re a machine builder embedding IIoT into your product. ThingWorx + Vuforia + Kepware is the strongest stack on the market for these use cases.</li>
-                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is continuous-process integrity — refining, petrochem, LNG, NH3, pipelines, FPSOs — with native API 510/570/653/579/581 workflow and a 3D twin built for inspection overlay. SaaS pricing, ASNT Level III consultant included, 8–14 weeks to first-asset-live.</li>
+                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is continuous-process integrity — refining, petrochem, LNG, NH3, pipelines, FPSOs — with native API 510/570/653/579/581 workflow and a 3D twin built for inspection overlay. Affordable, accessible, fully customizable SaaS, ASNT Level III consultant included, 8–14 weeks to first-asset-live.</li>
                         <li><strong>Run both</strong> if you have a mixed portfolio. ThingWorx for the discrete factory equipment, Atlantis for the fixed continuous-process integrity. The platforms integrate cleanly via REST API.</li>
                     </ul>
 
                     <h2>Pricing model — the practical difference</h2>
-                    <p>PTC ThingWorx pricing is per-server + per-connected-device + per-named-developer + per-AR-licence. A typical mid-sized ThingWorx Foundation deployment lands at $250K–$1.2M/year for the platform itself, with Vuforia Studio for AR adding $60K–$200K/yr, Kepware OPC connectivity adding $30K–$80K/yr, and ThingWorx Analytics Server (for predictive maintenance use cases) adding $80K–$200K/yr. Total stack spend commonly reaches $500K–$1.7M/year for an enterprise deployment, and that&rsquo;s before the custom Mashup engineering effort to build the inspection workflow on top.</p>
-                    <p>Atlantis Digital Twin is tiered SaaS. The $50K/year starter covers one complex asset with up to 25 named users and unlimited inspection records. The $200K/year enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. Implementation is 8–14 weeks at typically $40K–$120K one-time. First-year total: $90K–$320K for the inspection-led customer.</p>
+                    <p>PTC ThingWorx pricing is per-server + per-connected-device + per-named-developer + per-AR-licence. A typical mid-sized ThingWorx Foundation deployment lands at $250K–$1.2M/year for the platform itself, with Vuforia Studio for AR adding $60K–enterprise tier, accessible, Kepware OPC connectivity adding $30K–$80K/yr, and ThingWorx Analytics Server (for predictive maintenance use cases) adding $80K–enterprise tier, accessible. Total stack spend commonly reaches $500K–$1.7M/year for an enterprise deployment, and that&rsquo;s before the custom Mashup engineering effort to build the inspection workflow on top.</p>
+                    <p>Atlantis Digital Twin is positioned as affordable, accessible, and fully customizable SaaS — region-specific pricing scaled to scope. A starter tier covers one complex asset with up to 25 named users and unlimited inspection records. The enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. Implementation is 8–14 weeks. Contact us for a tailored quote for the inspection-led customer.</p>
 
                     <h2>NDT data depth — where the gap is widest</h2>
                     <p>This is where the platforms diverge most. ThingWorx&rsquo;s native data type is a Thing with Properties and Events — designed for the kind of data that comes off a CNC machine (spindle speed, vibration, tool wear, part counter). Inspection data does not fit that mould:</p>
@@ -156,7 +156,7 @@ export default function AtlantisDtVsPtcThingworx() {
                     <h2>Total cost of ownership over 5 years</h2>
                     <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, RBI on 800 components — a 5-year TCO comparison:</p>
                     <ul>
-                        <li><strong>Atlantis enterprise tier</strong>: $200K/yr × 5 = $1.0M, plus $80K one-time implementation = <strong>$1.08M</strong></li>
+                        <li><strong>Atlantis enterprise tier</strong>: affordable, accessible, fully customizable SaaS — region-specific quote on request</li>
                         <li><strong>PTC ThingWorx Foundation + Vuforia + Kepware + custom inspection Mashup</strong>: $700K/yr × 5 = $3.5M, plus $600K implementation + ongoing custom Mashup maintenance ($120K/yr) = <strong>~$4.7M</strong></li>
                     </ul>
                     <p>For continuous-process integrity, the cost story is firmly in Atlantis&rsquo;s favor. The platforms are not direct substitutes — but for the inspection-led integrity use case, Atlantis is the right purchase.</p>

@@ -46,8 +46,8 @@ export default function CrmForPipelineIntegrityServices() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="CRM for Pipeline Integrity Services Companies — regional pricing All Odoo Apps Included | Atlantis NDT"
-        description="Atlantis NDT ERP CRM for pipeline integrity services. HCA segment tracking, ILI vendor management, API 1160/1163/1173 compliance, PHMSA-aligned opportunity pipeline. regional pricing flat."
+        title="CRM for Pipeline Integrity Services Companies — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT"
+        description="Atlantis NDT ERP CRM for pipeline integrity services. HCA segment tracking, ILI vendor management, API 1160/1163/1173 compliance, PHMSA-aligned opportunity pipeline. Fully Customizable."
         canonical="/erp/crm-for-pipeline-integrity-services"
         faq={FAQS}
       />
@@ -65,7 +65,7 @@ export default function CrmForPipelineIntegrityServices() {
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">regional pricing</span>
+              <span className="font-semibold">Fully Customizable</span>
               <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">

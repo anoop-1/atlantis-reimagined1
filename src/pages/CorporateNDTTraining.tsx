@@ -19,11 +19,11 @@ import {
 const HUB_FAQS = [
   {
     question: "What's the minimum batch size for a corporate NDT training engagement?",
-    answer: "We run cohorts from 6 trainees upward for specialist methods (ACFM, PAUT for cryogenic service) and 10 upward for standard ASNT Level I/II methods. Below 6 trainees the per-head cost becomes non-competitive versus open-enrolment.",
+    answer: "We run cohorts from 6 trainees upward for specialist methods (ACFM, PAUT for cryogenic service) and 10 upward for standard ASNT Level I/II methods. Below 6 trainees open-enrolment is generally more efficient. Pricing varies by region and scope — contact us for a tailored quote.",
   },
   {
     question: "Online vs onsite — which delivery mode should we choose?",
-    answer: "Online wins for distributed teams, refresher cycles, and pre-work before a turnaround; onsite wins when your equipment (e.g. a specific OEM phased-array unit, a particular specimen geometry) is the training target. Blended is the most cost-effective for most clients: theory online, practicals onsite. Typical saving on blended vs pure onsite is 20-25%.",
+    answer: "Online wins for distributed teams, refresher cycles, and pre-work before a turnaround; onsite wins when your equipment (e.g. a specific OEM phased-array unit, a particular specimen geometry) is the training target. Blended is the most efficient for most clients: theory online, practicals onsite. Typical saving on blended vs pure onsite is 20-25%.",
   },
   {
     question: "Which certification schemes do you align to?",
@@ -218,7 +218,7 @@ export default function CorporateNDTTraining() {
             <h2 className="text-3xl font-bold mb-2">Corporate NDT Training — cities we serve</h2>
             <p className="text-muted-foreground mb-6 max-w-3xl">
               Each city page includes the local anchor industries, named employers we commonly train for,
-              onsite travel radius, typical batch size, local pricing, and city-specific FAQs.
+              onsite travel radius, typical batch size, and city-specific FAQs. Pricing varies by region and scope — contact us for a tailored quote.
             </p>
 
             <h3 className="text-xl font-semibold mb-3">Priority hubs</h3>
@@ -234,7 +234,7 @@ export default function CorporateNDTTraining() {
                     <h3 className="font-semibold text-lg">{c.city}</h3>
                   </div>
                   <p className="text-xs text-muted-foreground line-clamp-3">{c.shortPitch}</p>
-                  <p className="text-xs font-medium text-primary mt-2">{c.priceRangeUSD}</p>
+                  <p className="text-xs font-medium text-primary mt-2">Affordable. Accessible. Fully Customizable.</p>
                 </Link>
               ))}
             </div>
@@ -254,17 +254,15 @@ export default function CorporateNDTTraining() {
             </div>
           </section>
 
-          {/* Pricing anchor */}
+          {/* Engagement model */}
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
-              <Clock className="w-7 h-7 text-primary" /> Pricing — at a glance
+              <Clock className="w-7 h-7 text-primary" /> Engagement model — at a glance
             </h2>
             <Card>
               <CardContent className="pt-6 text-sm">
                 <p className="mb-3">
-                  Standard 20-seat UT-II or PAUT cohort starts at <strong>$9,500 per batch</strong> online, scaling up
-                  to <strong>$18,000 per batch</strong> for onsite engagements in high-cost labour markets
-                  (Aberdeen, London, Singapore, Perth).
+                  <strong>Affordable. Accessible. Fully Customizable.</strong> Cohorts scale from compact 6-10 trainee specialist batches up to 20+ seat enterprise rollouts, delivered online, onsite, or blended.
                 </p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Trainer + written + practical exam + ASNT Level III countersignature included</li>
@@ -272,7 +270,7 @@ export default function CorporateNDTTraining() {
                   <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Free onsite competence-gap assessment for engagements over 40 trainees</li>
                   <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Local-currency invoicing in USD, GBP, EUR, AED, SAR, INR, SGD, AUD, CAD</li>
                 </ul>
-                <p className="text-muted-foreground">Each city page carries the local price band and billing note. Custom quotes within 2 business days.</p>
+                <p className="text-muted-foreground">Pricing varies by region and scope — contact us for a tailored quote, returned within 2 business days.</p>
               </CardContent>
             </Card>
           </section>

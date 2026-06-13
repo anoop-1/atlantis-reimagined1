@@ -380,7 +380,7 @@ export default function RTvsUTCompleteComparison() {
                                 On a large pipeline project with 1,000 welds, pure RT inspection would cost $75,000-$100,000 and take 2-3 months. Pure UT inspection costs $6,000-$10,000 and takes 1-2 weeks - massive savings.
                             </p>
                             <p className="text-cyan-900 mb-4">
-                                Combined approach: UT screen all 1,000 welds ($8,000, 2 weeks), then RT confirm indications found (typically 1-5% of welds, $2,000-$10,000). Total cost: $10,000-$18,000 and 2.5-3 weeks. This provides 90%+ cost savings versus pure RT while maintaining high confidence through RT confirmation.
+                                Combined approach: UT screen all 1,000 welds ($8,000, 2 weeks), then RT confirm indications found (typically 1-5% of welds, $2,000-$10,000). Total cost: $10,000-affordable, accessible and 2.5-3 weeks. This provides 90%+ cost savings versus pure RT while maintaining high confidence through RT confirmation.
                             </p>
                             <p className="text-cyan-900">
                                 <strong>Key insight:</strong> Combined approach is economically superior to pure RT for most large-scale projects while maintaining defect confidence through selective RT confirmation. This strategy is standard practice in oil & gas, power generation, and aerospace industries.

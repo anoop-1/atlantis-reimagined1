@@ -39,8 +39,8 @@ export default function ErpCompareHub() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT ERP vs Maximo/SAP/Meridium 2026 — $18K vs $2M+"
-                description="Atlantis NDT ERP regional pricing vs Maximo, SAP PM, Meridium, Mtell, GE APM, Bentley, NetSuite, QuickBooks, Procore, ETQ — 10 honest comparisons. See pricing matrix."
+                title="NDT ERP vs Maximo/SAP/Meridium 2026 — Affordable, Fully Customizable"
+                description="Atlantis NDT ERP — Affordable. Accessible. Fully Customizable. Compared to Maximo, SAP PM, Meridium, Mtell, GE APM, Bentley, NetSuite, QuickBooks, Procore, ETQ — 10 honest comparisons."
                 keywords="ndt erp comparison, atlantis ndt erp vs maximo, ndt erp vs sap, hexagon meridium alternative, aspentech mtell alternative, ge vernova apm alternative, bentley assetwise comparison, netsuite vs ndt erp, procore vs ndt erp, etq reliance alternative"
                 canonical={url}
                 structuredData={structuredData}

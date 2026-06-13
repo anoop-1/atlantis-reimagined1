@@ -1,7 +1,7 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K–$200K/yr", competitor: "AspenTech Subscription — typically $150K–$700K/yr depending on rotating equipment count" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "AspenTech Subscription — typically $150K–$700K/yr depending on rotating equipment count" },
     { factor: "Primary use case", atlantis: "Fixed-equipment inspection integrity (CMLs, FFS, RBI)", competitor: "Predictive maintenance ML on rotating equipment (pumps, compressors, turbines)" },
     { factor: "Equipment focus", atlantis: "Static / fixed equipment — vessels, piping, tanks, exchangers, structures", competitor: "Rotating equipment with continuous telemetry" },
     { factor: "Data source", atlantis: "Inspection events (UT thickness, RT, MT/PT, PAUT scans)", competitor: "Continuous time-series sensor data — vibration, temperature, current" },
@@ -44,7 +44,7 @@ export default function AtlantisDtVsAspenMtell() {
                 { href: "/integrations/aspen-mtell", title: "Aspen Mtell Integration", blurb: "How Atlantis pulls Mtell anomaly events into the asset record." },
                 { href: "/compare/atlantis-dt-vs-ge-predix", title: "vs GE Predix / APM", blurb: "Other major APM platform — Meridium-derived." },
                 { href: "/compare/atlantis-dt-vs-ibm-maximo", title: "vs IBM Maximo", blurb: "Tier-1 EAM with APM extensions." },
-                { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
+                { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features and case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
                 { href: "/contact", title: "Book a Demo", blurb: "60-minute scoping call with an ASNT Level III consultant." },
             ]}

@@ -80,7 +80,7 @@ export default function StorageTankUseCase() {
                         <li><strong>API 653 internal scope optimization:</strong> Better-justified scope of work = avoided rework and better contractor pricing on the actual scope.</li>
                         <li><strong>Insurance and regulatory:</strong> Defensible integrity program is increasingly important for tank farm insurance discussions.</li>
                     </ul>
-                    <p>Net: $300K–$1.5M/yr in measurable value per tank farm at a $50K–$200K/yr platform cost depending on terminal scale.</p>
+                    <p>Net: $300K&ndash;$1.5M/yr in measurable value per tank farm on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request.</p>
                 </>
             }
         />

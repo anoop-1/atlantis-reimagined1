@@ -73,14 +73,14 @@ export default function RefineryHoustonCombo() {
                     <p>A Houston refinery turnaround scope decision moves millions of dollars in either direction. The Atlantis turnaround scoping module pulls together every overdue CML, every elevated RBI risk component, every FFS that flagged &lsquo;requires further evaluation,&rsquo; every weld pending re-inspection, and every API 581-driven recommendation, then ranks them by combined consequence-and-probability into a defensible scope list. Houston refineries report 15&ndash;25% reduction in turnaround inspection labour cost from better scoping alone &mdash; on a $40&ndash;$120M Gulf Coast refinery turnaround, that is $6&ndash;$30M per event.</p>
 
                     <h2>ROI math for a typical Houston-area refinery</h2>
-                    <p>For a representative Houston Ship Channel refinery (~200,000&ndash;600,000 bpd, 8&ndash;12 process units, 50,000&ndash;200,000 CMLs site-wide), Atlantis Digital Twin enterprise tier ($200K/yr) pays back through:</p>
+                    <p>For a representative Houston Ship Channel refinery (~200,000&ndash;600,000 bpd, 8&ndash;12 process units, 50,000&ndash;200,000 CMLs site-wide), Atlantis Digital Twin enterprise tier (affordable, accessible, fully customizable SaaS &mdash; quote on request) pays back through:</p>
                     <ul>
                         <li><strong>Turnaround scope reduction:</strong> 15&ndash;25% on $40&ndash;$120M turnaround scope = $6&ndash;$30M every 4&ndash;5 years &asymp; $1.5&ndash;$6M/yr averaged.</li>
                         <li><strong>Unplanned downtime avoided:</strong> One avoided unit trip from early CUI detection saves $5&ndash;$15M in lost margin (Houston refining margins are $10&ndash;$25/bbl &times; 100&ndash;400K bpd unit &times; 5&ndash;14 days outage).</li>
                         <li><strong>Hurricane restart acceleration:</strong> 40&ndash;60% reduction in post-storm restart inspection time = $2&ndash;$8M per major storm event.</li>
                         <li><strong>Inspection labor savings:</strong> 10&ndash;20% reduction in routine inspection hours = $400K&ndash;$1.5M/yr.</li>
                     </ul>
-                    <p>Net: $2.5M&ndash;$8M/yr in measurable value at $200K/yr platform cost. Payback in &lt;6 months for a typical mid-sized Houston refinery.</p>
+                    <p>Net: $2.5M&ndash;$8M/yr in measurable value on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request. Payback in &lt;6 months for a typical mid-sized Houston refinery.</p>
 
                     <h2>The Houston engineering and inspection ecosystem</h2>
                     <p>Atlantis is contractor-agnostic. Houston-area integrators and inspection vendors regularly using the platform include Acuren (a Rockwood acquisition), Mistras Group (Princeton-headquartered but Houston-heavy), Applus+ RTD, Team Inc (Houston-headquartered), IRISNDT, Stork (a Fluor company), Plant Performance Services (P2S), Versa Integrity, and the in-house inspection departments at the majors. Engineering firms doing FFS and RBI work in the Houston market &mdash; Becht Engineering, E2G/The Equity Engineering Group, Stress Engineering Services, Trinity Engineering &mdash; integrate via the Atlantis REST API for submittal review and the FFS calculation cross-check.</p>

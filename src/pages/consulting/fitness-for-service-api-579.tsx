@@ -237,14 +237,15 @@ export default function FitnessForServiceApi579() {
 
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto px-6 max-w-4xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement & pricing</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement model</h2>
                     <Card className="border-2 border-emerald-500">
                         <CardContent className="pt-6">
+                            <p className="text-slate-700 mb-4"><strong>Affordable. Accessible. Fully Customizable.</strong> Engagement scope is tailored to your damage type, assessment level, equipment criticality and regulatory jurisdiction.</p>
                             <ul className="space-y-3 text-slate-700">
-                                <li className="flex items-start gap-3"><BarChart3 className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Level 1 screening:</strong> $4,500-$8,500 per assessment, 3-5 business day turnaround.</span></li>
-                                <li className="flex items-start gap-3"><Briefcase className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Level 2 engineering assessment:</strong> $18,000-$45,000 per assessment, 3-8 weeks delivery.</span></li>
-                                <li className="flex items-start gap-3"><Settings className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Level 3 (FEA) assessment:</strong> $65,000-$220,000 per assessment, 8-20 weeks delivery.</span></li>
-                                <li className="flex items-start gap-3"><Target className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>FFS programme retainer:</strong> $6,500-$18,000 per month for ongoing FFS support across a refinery or fleet.</span></li>
+                                <li className="flex items-start gap-3"><BarChart3 className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Level 1 screening:</strong> 3-5 business day turnaround. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Briefcase className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Level 2 engineering assessment:</strong> 3-8 weeks delivery. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Settings className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Level 3 (FEA) assessment:</strong> 8-20 weeks delivery. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Target className="text-emerald-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>FFS programme retainer:</strong> ongoing FFS support across a refinery or fleet. Pricing varies by region and scope — contact us for a tailored quote.</span></li>
                             </ul>
                         </CardContent>
                     </Card>

@@ -147,7 +147,7 @@ export default function CRMForNDTInspectionCompaniesGuide() {
             <div className="grid md:grid-cols-2 gap-4">
               <Link to="/erp/crm-for-ndt-companies" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-pink-500 hover:shadow-md transition"><h4 className="font-bold text-pink-900">CRM for NDT Companies Module</h4><p className="text-slate-600 text-sm">Detailed module overview.</p></Link>
               <Link to="/erp/email-marketing-software-for-ndt" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-pink-500 hover:shadow-md transition"><h4 className="font-bold text-pink-900">Email Marketing for NDT</h4><p className="text-slate-600 text-sm">Cold email + nurture campaigns.</p></Link>
-              <Link to="/erp" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-pink-500 hover:shadow-md transition"><h4 className="font-bold text-pink-900">Atlantis NDT ERP Pricing</h4><p className="text-slate-600 text-sm">Flat $18K/year with CRM included.</p></Link>
+              <Link to="/erp" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-pink-500 hover:shadow-md transition"><h4 className="font-bold text-pink-900">Atlantis NDT ERP Pricing</h4><p className="text-slate-600 text-sm">Flat affordable, accessible/year with CRM included.</p></Link>
               <Link to="/contact" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-pink-500 hover:shadow-md transition"><h4 className="font-bold text-pink-900">Book a CRM Demo</h4><p className="text-slate-600 text-sm">Walkthrough with tender + technician scenarios.</p></Link>
             </div>
           </section>

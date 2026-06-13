@@ -1,7 +1,7 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K–$200K/yr", competitor: "iTwin Platform usage-based + per-user; Bentley OpenPlant per-seat. $80K–$500K/yr typical for an integrity-scope deployment" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "iTwin Platform usage-based + per-user; Bentley OpenPlant per-seat. $80K–$500K/yr typical for an integrity-scope deployment" },
     { factor: "Twin lineage", atlantis: "Inspection-record-led — 3D twin generated from asset model + inspection data", competitor: "CAD/BIM-led — twin built from MicroStation, OpenPlant, ContextCapture reality models" },
     { factor: "Strength", atlantis: "Inspection workflow, FFS, RBI, NDT data archive, Level III support", competitor: "Reality modeling, photogrammetry, BIM/engineering CAD lineage, 4D construction sequencing" },
     { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, FFS, RBI", competitor: "iTwin hosts data via custom apps; NDT not native" },
@@ -44,7 +44,7 @@ export default function AtlantisDtVsBentleyItwin() {
                 { href: "/compare/atlantis-dt-vs-aveva-pi-system", title: "vs AVEVA PI", blurb: "Process historian comparison." },
                 { href: "/compare/atlantis-dt-vs-hexagon-eam", title: "vs Hexagon EAM", blurb: "EAM-rooted comparison." },
                 { href: "/compare/atlantis-dt-vs-aspen-mtell", title: "vs Aspen Mtell", blurb: "Predictive maintenance ML platform." },
-                { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
+                { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features and case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
                 { href: "/contact", title: "Book a Demo", blurb: "60-minute scoping call with an ASNT Level III consultant." },
             ]}

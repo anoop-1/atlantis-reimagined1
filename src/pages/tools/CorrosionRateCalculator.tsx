@@ -12,7 +12,7 @@ import {
   TrendingDown,
   AlertTriangle,
   Info,
-  Calendar,
+  Calendar
 } from "lucide-react";
 import {
   LineChart,
@@ -22,7 +22,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
+  Legend
 } from "recharts";
 
 /* ─── Types ─── */
@@ -57,13 +57,13 @@ const structuredData = {
   offers: {
     "@type": "Offer",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "USD"
   },
   publisher: {
     "@type": "Organization",
     name: "Atlantis NDT",
-    url: "https://atlantisndt.com",
-  },
+    url: "https://atlantisndt.com"
+  }
 };
 
 export default function CorrosionRateCalculator() {
@@ -71,7 +71,7 @@ export default function CorrosionRateCalculator() {
     originalThickness: 12.7,
     currentThickness: 11.2,
     timeInService: 5,
-    minimumAcceptableThickness: 6.35,
+    minimumAcceptableThickness: 6.35
   });
   const [copied, setCopied] = useState(false);
 
@@ -80,7 +80,7 @@ export default function CorrosionRateCalculator() {
     (field: keyof CalculatorInputs, value: number | string) => {
       setInputs((prev) => ({
         ...prev,
-        [field]: typeof value === "string" ? parseFloat(value) || 0 : value,
+        [field]: typeof value === "string" ? parseFloat(value) || 0 : value
       }));
     },
     []
@@ -130,7 +130,7 @@ export default function CorrosionRateCalculator() {
       yearsToMinimum,
       nextInspectionDate: nextInspection.toLocaleDateString(),
       projectedThickness5Year,
-      projectedThickness10Year,
+      projectedThickness10Year
     };
   }, [inputs]);
 
@@ -146,7 +146,7 @@ export default function CorrosionRateCalculator() {
       data.push({
         year,
         thickness: parseFloat(projectedThickness.toFixed(2)),
-        minimum: minThickness,
+        minimum: minThickness
       });
     }
     return data;
@@ -158,26 +158,26 @@ export default function CorrosionRateCalculator() {
       label: "Low Corrosion Rate",
       color: "bg-green-50 border-green-300",
       textColor: "text-green-700",
-      bgFull: "bg-green-100",
+      bgFull: "bg-green-100"
     },
     moderate: {
       label: "Moderate Corrosion Rate",
       color: "bg-yellow-50 border-yellow-300",
       textColor: "text-yellow-700",
-      bgFull: "bg-yellow-100",
+      bgFull: "bg-yellow-100"
     },
     high: {
       label: "High Corrosion Rate",
       color: "bg-orange-50 border-orange-300",
       textColor: "text-orange-700",
-      bgFull: "bg-orange-100",
+      bgFull: "bg-orange-100"
     },
     critical: {
       label: "Critical Corrosion Rate",
       color: "bg-red-50 border-red-300",
       textColor: "text-red-700",
-      bgFull: "bg-red-100",
-    },
+      bgFull: "bg-red-100"
+    }
   };
 
   const severityData = severityMap[result.severity];
@@ -209,7 +209,7 @@ Severity: ${severityData.label}`;
         items={[
           { label: "Home", path: "/" },
           { label: "Tools", path: "/tools" },
-          { label: "Corrosion Rate Calculator" },
+          { label: "Corrosion Rate Calculator" }
         ]}
       />
 
@@ -432,7 +432,7 @@ Severity: ${severityData.label}`;
                     contentStyle={{
                       backgroundColor: "#fff",
                       border: "1px solid #e5e7eb",
-                      borderRadius: "8px",
+                      borderRadius: "8px"
                     }}
                   />
                   <Legend />
@@ -498,26 +498,26 @@ Severity: ${severityData.label}`;
                     rate: "< 0.3 mm/year",
                     level: "Low",
                     color: "bg-green-50 border-green-300",
-                    desc: "Acceptable for most applications. Typical for well-maintained systems with adequate corrosion protection.",
+                    desc: "Acceptable for most applications. Typical for well-maintained systems with adequate corrosion protection."
                   },
                   {
                     rate: "0.3 - 1.0 mm/year",
                     level: "Moderate",
                     color: "bg-yellow-50 border-yellow-300",
-                    desc: "Acceptable with caution. Requires more frequent inspection intervals (every 2-3 years). Consider corrosion control measures.",
+                    desc: "Acceptable with caution. Requires more frequent inspection intervals (every 2-3 years). Consider corrosion control measures."
                   },
                   {
                     rate: "1.0 - 2.0 mm/year",
                     level: "High",
                     color: "bg-orange-50 border-orange-300",
-                    desc: "Unacceptable for long-term service. Immediate action required. Increase inspection frequency to annual or semi-annual. Implement aggressive corrosion control.",
+                    desc: "Unacceptable for long-term service. Immediate action required. Increase inspection frequency to annual or semi-annual. Implement aggressive corrosion control."
                   },
                   {
                     rate: "> 2.0 mm/year",
                     level: "Critical",
                     color: "bg-red-50 border-red-300",
-                    desc: "Severe degradation. Equipment may be approaching end-of-life. Consider replacement or retirement. Increase inspections to quarterly or continuous monitoring.",
-                  },
+                    desc: "Severe degradation. Equipment may be approaching end-of-life. Consider replacement or retirement. Increase inspections to quarterly or continuous monitoring."
+                  }
                 ].map((item) => (
                   <div key={item.rate} className={`${item.color} border-2 rounded-lg p-4`}>
                     <div className="flex items-start justify-between">

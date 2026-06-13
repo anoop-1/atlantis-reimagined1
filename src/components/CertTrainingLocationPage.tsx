@@ -185,7 +185,7 @@ const certificationDatabase: Record<string, CertificationData> = {
             "Ferrous and non-ferrous materials inspection"
         ],
         careerImpact: {
-            salary: "Average salary increase of $18,000-$30,000 annually",
+            salary: "Average salary increase of affordable, accessible-$30,000 annually",
             jobDemand: "Extremely high demand across all welding industries",
             opportunities: ["Quality assurance manager", "Welding engineering", "Fabrication plant inspector", "Construction project supervisor"]
         },

@@ -72,23 +72,23 @@ export default function ErpComparisonPage(props: ErpComparisonPageProps) {
                 applicationCategory: "BusinessApplication",
                 operatingSystem: "Web, iOS, Android",
                 description: `Purpose-built NDT ERP compared against ${props.competitorName}. Native modules for ASNT certification tracking, API 510/570/653 inspection scheduling, equipment calibration, RBI, and audit packages.`,
-                offers: { "@type": "Offer", price: "18000", priceCurrency: "USD" },
+                offers: { "@type": "Offer", availability: "https://schema.org/InStock" },
                 aggregateRating: { "@type": "AggregateRating", ratingValue: props.ratingValue || "4.9", reviewCount: props.ratingCount || "127" },
                 provider: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
                 mentions: [
                     { "@type": "SoftwareApplication", name: props.competitorName, applicationCategory: "BusinessApplication", provider: { "@type": "Organization", name: props.competitorVendor, ...(props.competitorUrl ? { url: props.competitorUrl } : {}) } }
                 ],
-                url: canonical,
+                url: canonical
             },
             {
                 "@type": "FAQPage",
                 mainEntity: props.faqs.map(f => ({
                     "@type": "Question",
                     name: f.question,
-                    acceptedAnswer: { "@type": "Answer", text: f.answer },
-                })),
-            },
-        ],
+                    acceptedAnswer: { "@type": "Answer", text: f.answer }
+                }))
+            }
+        ]
     };
 
     return (
@@ -107,7 +107,7 @@ export default function ErpComparisonPage(props: ErpComparisonPageProps) {
                     { label: "Home", href: "/" },
                     { label: "NDT ERP", href: "/ndt-erp-solution" },
                     { label: "Compare", href: "/compare" },
-                    { label: `vs ${props.competitorShortName}` },
+                    { label: `vs ${props.competitorShortName}` }
                 ]} />
             </div>
 

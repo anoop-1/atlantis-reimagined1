@@ -7,7 +7,7 @@ import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K starter, $200K enterprise/yr", competitor: "Per-user named licensing — $1.5K–$3K/user/yr; mid-sized refinery $250K–$700K/yr" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-user named licensing — $1.5K–$3K/user/yr; mid-sized refinery $250K–$700K/yr" },
     { factor: "Primary use case", atlantis: "NDT inspection integrity twin with FFS/RBI", competitor: "Enterprise asset management — work orders, maintenance scheduling, MRO" },
     { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, RT/UT/PAUT scans, MT/PT indications", competitor: "Inspection module exists but is generic — typically requires customization for NDT" },
     { factor: "FFS / RBI engine", atlantis: "Built-in API 579 + API 581", competitor: "Not native; integrated via partner (Antea, GE APM)" },
@@ -39,8 +39,8 @@ export default function AtlantisDtVsHexagonEam() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Atlantis Digital Twin vs Hexagon EAM: NDT Integrity vs EAM [2026 Cost Comparison]"
-                description="Hexagon EAM (formerly Infor EAM) vs Atlantis Digital Twin: enterprise asset management vs inspection integrity twin. Pricing, FFS/RBI, when to run both. 2026 buyer guide."
+                title="Atlantis Digital Twin vs Hexagon EAM: NDT Integrity vs EAM [2026 Comparison]"
+                description="Hexagon EAM (formerly Infor EAM) vs Atlantis Digital Twin: enterprise asset management vs affordable, accessible, fully customizable inspection integrity twin. FFS/RBI, when to run both. 2026 buyer guide."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-hexagon-eam"
                 structuredData={structuredData}
                 faq={faqs}
@@ -113,8 +113,8 @@ export default function AtlantisDtVsHexagonEam() {
 
                     <h2>5-year TCO scenarios</h2>
                     <p><strong>Scenario A: Hexagon EAM only with custom inspection module.</strong> EAM $500K/yr + inspection module customization amortized $80K/yr + partner FFS/RBI $120K/yr = $700K/yr × 5 = <strong>$3.5M</strong>, plus the integrity team complaining the whole time.</p>
-                    <p><strong>Scenario B: Hexagon EAM + Atlantis Digital Twin enterprise.</strong> EAM $500K/yr + Atlantis $200K/yr = $700K/yr × 5 = <strong>$3.5M</strong>, but with a working inspection integrity workflow, native FFS/RBI, 3D twin, and one fewer partner.</p>
-                    <p><strong>Scenario C: Atlantis Digital Twin only (smaller operators).</strong> $200K/yr × 5 = <strong>$1.0M</strong>, sufficient if your asset register is small enough that you don&rsquo;t need a full EAM.</p>
+                    <p><strong>Scenario B: Hexagon EAM + Atlantis Digital Twin enterprise.</strong> EAM $500K/yr + Atlantis (affordable, accessible, fully customizable SaaS — see quote) — but with a working inspection integrity workflow, native FFS/RBI, 3D twin, and one fewer partner.</p>
+                    <p><strong>Scenario C: Atlantis Digital Twin only (smaller operators).</strong> Affordable, accessible, fully customizable SaaS — region-specific quote on request, sufficient if your asset register is small enough that you don&rsquo;t need a full EAM.</p>
 
                     <h2>When Hexagon EAM clearly wins</h2>
                     <p>Maintenance-management-led organizations — facilities operators, fleet operators, manufacturing plants where the dominant workload is preventive and corrective maintenance scheduling, MRO inventory, technician dispatch — should start with a tier-1 EAM. Hexagon, IBM Maximo, SAP PM, and Oracle EAM all win this competition. Atlantis is not in that race. Add Atlantis on top only when the inspection integrity workflow becomes a meaningful fraction of the operation.</p>
@@ -145,7 +145,7 @@ export default function AtlantisDtVsHexagonEam() {
                         <Link to="/compare/atlantis-dt-vs-ibm-maximo" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">vs IBM Maximo</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">EAM giant with deep oil &amp; gas footprint — when each wins.</p></CardContent></Card></Link>
                         <Link to="/compare/atlantis-dt-vs-bentley-itwin" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">vs Bentley iTwin</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">CAD/BIM-rooted twin vs inspection-rooted twin.</p></CardContent></Card></Link>
                         <Link to="/compare/atlantis-dt-vs-aveva-pi-system" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">vs AVEVA PI System</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">Process historian comparison.</p></CardContent></Card></Link>
-                        <Link to="/digital-twins" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">Atlantis Digital Twin</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">Product page — features, pricing tiers, case studies.</p></CardContent></Card></Link>
+                        <Link to="/digital-twins" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">Atlantis Digital Twin</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">Product page — features and case studies.</p></CardContent></Card></Link>
                         <Link to="/erp" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">Atlantis NDT ERP</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">Companion ERP — jobs, certs, equipment, invoicing.</p></CardContent></Card></Link>
                         <Link to="/contact" className="group"><Card className="h-full hover:shadow-lg transition border-l-4 border-l-purple-600"><CardContent className="p-5"><div className="flex items-center justify-between mb-2"><h3 className="font-bold text-slate-800 group-hover:text-purple-700">Book a Demo</h3><ArrowRight className="w-4 h-4 text-slate-400" /></div><p className="text-sm text-slate-600">60-minute scoping call with a Level III consultant.</p></CardContent></Card></Link>
                     </div>

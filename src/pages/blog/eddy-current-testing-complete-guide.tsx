@@ -74,8 +74,8 @@ export default function EddyCurrentTestingCompleteGuide() {
         "@graph": [
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/blog/eddy-current-testing-complete-guide",
-                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment $15K-$200K, Applications",
-                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment $15K-$200K, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
+                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment $15K-enterprise tier, Applications",
+                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment $15K-enterprise tier, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2026-03-09",
                 dateModified: "2026-04-18",
                 section: "NDT Methods — Electromagnetic",
@@ -97,7 +97,7 @@ export default function EddyCurrentTestingCompleteGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Eddy Current Testing 2026: 7 ECT Types, Skin-Depth Physics, $15K–$200K Equipment"
+                title="Eddy Current Testing 2026: 7 ECT Types, Skin-Depth Physics, $15K–enterprise tier Equipment"
                 description="ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, IRIS), skin-depth formula δ=√(2/ωμσ), ASTM E309/E426/E2338, aerospace fatigue POD, tubing."
                 keywords="eddy current testing, ECT, eddy current inspection, ECL, pulsed eddy current, PEC, ASTM E309, E426, bobbin coil, pancake coil, aerospace NDT, pipeline inspection, corrosion under insulation, CUI detection, eddy current probe, ECT equipment"
                 canonical="https://atlantisndt.com/blog/eddy-current-testing-complete-guide"

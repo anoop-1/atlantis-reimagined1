@@ -79,8 +79,6 @@ export default function FreeTrial() {
         "brand": { "@type": "Brand", "name": "Atlantis NDT" },
         "offers": {
           "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFor": "PT14D",
         },

@@ -77,7 +77,7 @@ export default function PetrochemicalComplexUseCase() {
                     <p>Polymer plants have specific workflows for catalyst-bed inspection (fluid-bed and slurry-bed reactors), polymer-service piping (erosion-corrosion as the dominant mechanism), and recycle systems (where catalyst-laden streams accelerate wear). PSA (pressure-swing adsorption) beds for hydrogen recovery / nitrogen generation tracked separately with cyclic-service fatigue workflow.</p>
 
                     <h2>ROI for petrochem complex deployment</h2>
-                    <p>Similar magnitude to refinery — $2M–$8M/yr for a single-site petrochem complex through avoided unplanned shutdown ($1M–$4M/yr expected value), inspection labor reduction (15–25% of $2M–$5M/yr inspection cost = $300K–$1.25M/yr), and turnaround scope optimization (5–15% of $20M–$80M turnaround = $1M–$12M every 4–5 years). Net payback inside 12 months for a $200K/yr platform cost.</p>
+                    <p>Similar magnitude to refinery &mdash; $2M&ndash;$8M/yr for a single-site petrochem complex through avoided unplanned shutdown ($1M&ndash;$4M/yr expected value), inspection labor reduction (15&ndash;25% of $2M&ndash;$5M/yr inspection cost = $300K&ndash;$1.25M/yr), and turnaround scope optimization (5&ndash;15% of $20M&ndash;$80M turnaround = $1M&ndash;$12M every 4&ndash;5 years). Net payback inside 12 months on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request.</p>
                 </>
             }
         />

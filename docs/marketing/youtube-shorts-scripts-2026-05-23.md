@@ -26,10 +26,10 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 
 ---
 
-## E1 — "Why SAP is $250K and Atlantis is $18K" Rant
+## E1 — "Why SAP is $250K and Atlantis is Affordable" Rant
 
-**Title:** SAP costs $250K. We charge $18K. Here's why
-**Description:** SAP wants $250,000/yr for an ERP your 25-tech NDT shop will never fully use. Atlantis NDT ERP is $18K/yr, ASNT-ready, all 30+ apps included. Free trial: atlantisndt.com/erp
+**Title:** SAP costs $250K. We're a fraction of that. Here's why
+**Description:** SAP wants $250,000/yr for an ERP your 25-tech NDT shop will never fully use. Atlantis NDT ERP — affordable, ASNT-ready, all 30+ apps included, fully customizable. Free trial: atlantisndt.com/erp
 **Tags:** #NDT #SAP #ERP #OdooERP #InspectionSoftware #NDTinspection #SmallBusinessERP #OilAndGas #ASNT #ISO9712 #API510 #API653 #FabricationShop #BootstrappedSaaS #NDTConnect
 
 **Hook (0-3s):** "SAP quoted you $250K? Watch this before signing."
@@ -37,7 +37,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Big ERP charges per user." | Text: $250K/yr — 25 users
 - VO "You pay for SAP modules." | Text: 80% you'll never open
 - VO "Then $80K to implement." | Text: 9-month rollout
-- VO "Atlantis NDT is different." | Text: $18,000/yr — flat
+- VO "Atlantis NDT is different." | Text: Affordable — flat pricing
 - VO "Thirty plus Odoo apps included." | Text: CRM + Inv + QC + HR + FSM
 - VO "ASNT certs preloaded." | Text: ISO 9712, PCN, CSWIP
 - VO "API 510 570 653 templates." | Text: Inspection-ready day one
@@ -45,7 +45,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "No per-user gotcha pricing." | Text: Unlimited techs
 - VO "Live in two weeks." | Text: Not nine months
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** SAP quote PDF on screen, calculator hitting $250,000, side-by-side pricing card, Atlantis dashboard pan, technician with UT probe on pipe
 **Music:** Punchy hip-hop beat, 110-120 BPM (rant tempo)
 
@@ -54,7 +54,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 ## E2 — "I Track 50 Technicians' ASNT Certs in 30 Seconds"
 
 **Title:** 50 ASNT certs tracked in 30 seconds (demo)
-**Description:** Stop the spreadsheet nightmare. Atlantis NDT ERP flags every expiring ASNT, ISO 9712, PCN, CSWIP cert 90 days out — automatically. $18K/yr, all 30+ Odoo apps. Free trial: atlantisndt.com/erp
+**Description:** Stop the spreadsheet nightmare. Atlantis NDT ERP flags every expiring ASNT, ISO 9712, PCN, CSWIP cert 90 days out — automatically. Affordable, all 30+ Odoo apps. Free trial: atlantisndt.com/erp
 **Tags:** #ASNT #ISO9712 #PCN #CSWIP #NDTtraining #NDTcertification #InspectionManagement #ERP #OdooERP #NDTLevel2 #NDTLevel3 #API510 #QualityControl #FabricationShop #NDTtech
 
 **Hook (0-3s):** "Your spreadsheet just expired three certs."
@@ -70,7 +70,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Thirty seconds. Fifty techs." | Text: vs. 4 hours in Excel
 - VO "Sleep through audit week." | Text: Inspectors love us
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Screen recording of certification dashboard, expiry filter clicking, email auto-send animation, Excel spreadsheet shaking/breaking, technician credential card close-up
 **Music:** Lo-fi tech beat, 90 BPM (demo confidence)
 
@@ -79,7 +79,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 ## E3 — "What ERP Costs My NDT Business Per Year"
 
 **Title:** Real ERP cost for a 30-tech NDT shop
-**Description:** I run a 30-technician NDT shop. Here's what I actually pay for ERP — versus what SAP, NetSuite, and Procore quoted. Atlantis NDT ERP: $18K flat, all apps. Free trial: atlantisndt.com/erp
+**Description:** I run a 30-technician NDT shop. Here's what I actually pay for ERP — versus what SAP, NetSuite, and Procore quoted. Atlantis NDT ERP: affordable flat pricing, all apps. Free trial: atlantisndt.com/erp
 **Tags:** #NDTbusiness #ERPcost #SmallBusinessSaaS #InspectionCompany #NDTinspection #OilAndGas #FabricationShop #ASNT #OdooERP #NetSuite #Procore #SAP #BootstrappedFounder #NDTConnect #API653
 
 **Hook (0-3s):** "Real numbers — what I pay for my NDT ERP."
@@ -87,7 +87,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Quote one — SAP business one." | Text: $180,000/yr + implement
 - VO "Quote two — NetSuite." | Text: $120K + per-user fees
 - VO "Quote three — Procore." | Text: $90K, no NDT templates
-- VO "We chose Atlantis NDT." | Text: $18,000/yr — done
+- VO "We chose Atlantis NDT." | Text: Affordable — done
 - VO "All thirty plus apps included." | Text: CRM, Inv, QC, HR, PM
 - VO "ASNT cert tracking native." | Text: ISO 9712, API 510
 - VO "No per-user fee ever." | Text: 30 techs, same price
@@ -95,7 +95,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Customizable with Odoo Studio." | Text: No-code, no devs
 - VO "Honest math. Real shop." | Text: 30 techs, Houston-based
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Founder talking head, three quote PDFs slammed on desk, calculator subtracting, dashboard wide-shot, Houston shop b-roll with techs
 **Music:** Documentary podcast intro, 85-95 BPM (honest founder tone)
 
@@ -104,7 +104,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 ## E4 — "Cheapest NDT ERP in 2026" Listicle
 
 **Title:** 5 cheapest ERPs for NDT shops in 2026
-**Description:** Ranked: 5 ERPs an NDT inspection company can actually afford in 2026. Spoiler — only one is NDT-native. Atlantis NDT ERP $18K/yr, all 30+ apps. Free trial: atlantisndt.com/erp
+**Description:** Ranked: 5 ERPs an NDT inspection company can actually afford in 2026. Spoiler — only one is NDT-native. Atlantis NDT ERP — affordable, all 30+ apps. Free trial: atlantisndt.com/erp
 **Tags:** #NDT2026 #ERP #InspectionSoftware #CheapERP #OdooERP #ZohoOne #NetSuite #SAP #Acumatica #NDTbusiness #OilAndGas #FabricationShop #ASNT #ISO9712 #API510
 
 **Hook (0-3s):** "Cheapest NDT ERP in 2026 — ranked."
@@ -113,14 +113,14 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Number four — NetSuite." | Text: $120K — no NDT templates
 - VO "Number three — Acumatica." | Text: $48K — generic ERP
 - VO "Number two — Zoho One." | Text: $25K — DIY everything
-- VO "Number one — Atlantis NDT." | Text: $18,000 — NDT-native
+- VO "Number one — Atlantis NDT." | Text: Affordable — NDT-native
 - VO "ASNT ISO PCN CSWIP loaded." | Text: Day-one ready
 - VO "API 510 570 653 templates." | Text: Inspection reports built-in
 - VO "Thirty plus Odoo apps." | Text: Same one-price feed
 - VO "Customizable no-code." | Text: Odoo Studio drag-drop
 - VO "Built by ASNT Level Three." | Text: Founder uses it daily
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Animated leaderboard count-up, logos crossed-out, Atlantis logo crown animation, dashboard screen-grab, founder thumbs-up
 **Music:** Upbeat countdown synth, 115 BPM (listicle energy)
 
@@ -129,7 +129,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 ## E5 — "Atlantis ERP vs Spreadsheets: Day in the Life"
 
 **Title:** NDT day-in-life: Atlantis ERP vs Excel chaos
-**Description:** Two NDT ops managers. Same Tuesday. One uses Excel. One uses Atlantis NDT ERP. Watch the difference. $18K/yr, all 30+ Odoo apps. Free trial: atlantisndt.com/erp
+**Description:** Two NDT ops managers. Same Tuesday. One uses Excel. One uses Atlantis NDT ERP. Watch the difference. Affordable, all 30+ Odoo apps. Free trial: atlantisndt.com/erp
 **Tags:** #NDTopsmanager #InspectionLife #SpreadsheetHell #OdooERP #NDTinspection #OilAndGas #FabricationShop #ASNT #ISO9712 #ERPcomparison #NDTConnect #DigitalTwin #API510 #DayInTheLife #NDT
 
 **Hook (0-3s):** "Same job. Two ops managers. One drowning."
@@ -145,7 +145,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "6 PM Excel guy." | Text: Still at desk
 - VO "6 PM Atlantis user." | Text: Home, kids, dinner
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Split-screen — left chaotic desk with Excel and coffee rings, right clean dashboard view; clock overlay ticking; office at sunset empty vs occupied
 **Music:** Lo-fi vs jazz duel split-stem, 80 BPM (mood contrast)
 
@@ -174,9 +174,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Pipeline by industry vertical." | Text: O&G, fab, power, marine
 - VO "Lost-deal reasons NDT-specific." | Text: "Lost on cert mismatch"
 - VO "Built inside our ERP." | Text: No bolt-on integration mess
-- VO "$18K/yr — all 30+ apps." | Text: Including this CRM
+- VO "Affordable — all 30+ apps." | Text: Including this CRM
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** CRM screen filter clicking UT/RT/PA, lead card detail with method tags, pipeline kanban with industry swimlanes, technician profile pop-up with ASNT badge
 **Music:** Upbeat corporate tech, 105 BPM
 
@@ -187,7 +187,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 1, Wed 9:00 AM CST
 
 **Title:** I emailed 6,700 NDT leads for $0 last month
-**Description:** Atlantis NDT email marketing — segment by method, industry, cert needs. 6,700 leads, $0 per send, fully GDPR/CAN-SPAM. Built into the $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT email marketing — segment by method, industry, cert needs. 6,700 leads, $0 per send, fully GDPR/CAN-SPAM. Built into the affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #EmailMarketing #NDTleads #ColdEmail #OdooEmail #B2Bemail #InspectionMarketing #NDTbusiness #OilAndGas #FabricationShop #ColdMailer #LeadGen #NDTConnect #ASNT #MarketingAutomation #ERP
 
 **Hook (0-3s):** "Mailchimp wants $400/mo. I send free."
@@ -201,9 +201,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Bounce + unsubscribe auto-handled." | Text: GDPR + CAN-SPAM safe
 - VO "Triggered by CRM stage." | Text: Quote sent? Follow-up auto
 - VO "Same database as your sales." | Text: Zero data sync mess
-- VO "All in $18K/yr." | Text: 30+ apps, one price
+- VO "All in, affordable." | Text: 30+ apps, one price
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Email composer screen, segment filter UI with NDT method checkboxes, send-stats dashboard with open rates, Mailchimp invoice for $400 with red X
 **Music:** Upbeat synth-wave, 110 BPM
 
@@ -214,7 +214,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 1, Thu 9:00 AM CST
 
 **Title:** My marketing runs while I'm on a tank inspection
-**Description:** Atlantis NDT marketing automation — workflows trigger by lead source, method, certification. Drip campaigns, lead scoring, auto-handoff to sales. $18K/yr all in. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT marketing automation — workflows trigger by lead source, method, certification. Drip campaigns, lead scoring, auto-handoff to sales. Affordable, all-in. Free trial: atlantisndt.com/erp
 **Tags:** #MarketingAutomation #NDTmarketing #LeadNurture #DripCampaign #OdooAutomation #InspectionMarketing #NDTbusiness #OilAndGas #FabricationShop #B2Bmarketing #NDTConnect #ASNT #LeadScoring #SalesFunnel #ERP
 
 **Hook (0-3s):** "I'm 80ft up a tank — my pipeline grew $40K."
@@ -228,9 +228,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Sales rep auto-notified." | Text: Slack ping fires
 - VO "Quote template auto-loaded." | Text: Pre-filled, ready
 - VO "I climb down — deal closed." | Text: $40K — zero touch
-- VO "Atlantis ERP. $18K/yr." | Text: Pays itself in week one
+- VO "Atlantis ERP — affordable." | Text: Pays itself in week one
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Founder POV climbing tank (GoPro), phone notification of new lead, workflow builder canvas with nodes lighting up, lead-score gauge animation
 **Music:** Cinematic build-up, 95 BPM
 
@@ -241,7 +241,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 1, Fri 9:00 AM CST
 
 **Title:** Closed $1.2M of inspection work in Q1 — here's how
-**Description:** Atlantis NDT sales — kanban pipeline by inspection method, auto-quote builder, PO-to-project in one click. $1.2M closed in Q1. $18K/yr, all 30+ apps. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT sales — kanban pipeline by inspection method, auto-quote builder, PO-to-project in one click. $1.2M closed in Q1. Affordable, all 30+ apps. Free trial: atlantisndt.com/erp
 **Tags:** #NDTsales #InspectionSales #SalesPipeline #B2Bsales #OdooSales #NDTbusiness #OilAndGas #FabricationShop #QuoteToCash #SalesManagement #NDTConnect #ASNT #SalesFunnel #ERP #API510
 
 **Hook (0-3s):** "$1.2M closed Q1. One sales rep. Here's how."
@@ -255,9 +255,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Project auto-created." | Text: Tasks, techs assigned
 - VO "Invoice schedule fires." | Text: Milestones pre-set
 - VO "Q1 — $1.2M closed." | Text: 38 jobs, 1 rep, 0 chaos
-- VO "$18K/yr — paid itself month one." | Text: Atlantis NDT ERP
+- VO "Affordable — paid itself month one." | Text: Atlantis NDT ERP
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Kanban board drag-and-drop, quote PDF generating, e-signature stamp, project board auto-populating with techs
 **Music:** Driving electronic, 120 BPM
 
@@ -268,7 +268,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 2, Tue 9:00 AM CST
 
 **Title:** I know where every UT probe is. Across 4 trucks.
-**Description:** Atlantis NDT inventory — every probe, scanner, cal block tracked by serial, location, calibration date. Auto-flag overdue cal. $18K/yr, all 30+ Odoo apps. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT inventory — every probe, scanner, cal block tracked by serial, location, calibration date. Auto-flag overdue cal. Affordable, all 30+ Odoo apps. Free trial: atlantisndt.com/erp
 **Tags:** #NDTinventory #UTprobe #CalibrationTracking #AssetTracking #InspectionEquipment #OdooInventory #NDTbusiness #OilAndGas #FabricationShop #PhasedArray #TOFD #NDTConnect #ASNT #ERP #API510
 
 **Hook (0-3s):** "Last UT probe cost $4,200. Where is it?"
@@ -282,9 +282,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Audit trail — every move logged." | Text: Truck-to-truck transfers
 - VO "Min stock alerts on couplant." | Text: Auto-reorder triggered
 - VO "Mobile scan on jobsite." | Text: Barcode + serial lookup
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Probes accounted. Sleep tight.
+- VO "Affordable — Atlantis NDT ERP." | Text: Probes accounted. Sleep tight.
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** UT probe close-up with serial tag, inventory dashboard with truck assignments, calibration expiry red badge, mobile barcode scanner on equipment
 **Music:** Industrial mid-tempo, 100 BPM
 
@@ -294,24 +294,24 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Pillar:** `/erp/accounting-software-for-ndt-companies`
 **Recommended post:** Week 2, Wed 9:00 AM CST
 
-**Title:** Fired my accountant. ERP did it for $18K/yr.
-**Description:** Atlantis NDT accounting — full GL, AR, AP, multi-currency, IFRS + GAAP, tax filings. Inspection-job-level P&L. $18K/yr total, all 30+ apps. Free trial: atlantisndt.com/erp
+**Title:** Fired my accountant. ERP did it for a fraction of the cost.
+**Description:** Atlantis NDT accounting — full GL, AR, AP, multi-currency, IFRS + GAAP, tax filings. Inspection-job-level P&L. Affordable, all 30+ apps. Free trial: atlantisndt.com/erp
 **Tags:** #NDTaccounting #SmallBusinessAccounting #QuickBooksAlternative #OdooAccounting #InspectionFinance #NDTbusiness #OilAndGas #FabricationShop #JobCosting #ERP #NDTConnect #ASNT #CFO #BusinessFinance #API510
 
-**Hook (0-3s):** "Bookkeeper quoted $36K/yr. ERP does it for $18K."
+**Hook (0-3s):** "Bookkeeper quoted $36K/yr. ERP does it for a fraction."
 **Body (3-50s):**
 - VO "Bookkeeper — $3K per month." | Text: $36,000/yr
 - VO "Plus QuickBooks — $200/mo." | Text: $2,400/yr more
-- VO "Atlantis ERP includes accounting." | Text: $18K total — done
+- VO "Atlantis ERP includes accounting." | Text: Affordable — done
 - VO "Auto-invoice from inspection job." | Text: PO closes — bill fires
 - VO "Job-level P&L instantly." | Text: $/foot UT cost vs revenue
 - VO "AR aging by client." | Text: 30/60/90 — auto-chase
 - VO "Multi-currency for KSA + India." | Text: USD, INR, SAR live FX
 - VO "Tax reports — one click." | Text: GST, VAT, IFRS-ready
 - VO "Bank reconciliation auto." | Text: CSV → matched in 60s
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Saved $20K year one
+- VO "Affordable — Atlantis NDT ERP." | Text: Saved $20K year one
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Calculator hitting $36K, QuickBooks logo with X, GL dashboard, bank rec auto-match animation, P&L per inspection job report
 **Music:** Confident finance podcast intro, 95 BPM
 
@@ -322,7 +322,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 2, Thu 9:00 AM CST
 
 **Title:** Sent 47 NDT invoices in 4 minutes — automated.
-**Description:** Atlantis NDT invoicing — milestone bill from project, time-and-material auto-rolls, PDF + portal pay. 47 invoices in 4 minutes. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT invoicing — milestone bill from project, time-and-material auto-rolls, PDF + portal pay. 47 invoices in 4 minutes. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #Invoicing #NDTinvoice #BillingAutomation #OdooInvoicing #InspectionBilling #NDTbusiness #OilAndGas #FabricationShop #CashFlow #ARautomation #NDTConnect #ASNT #ERP #SmallBusiness #API510
 
 **Hook (0-3s):** "47 invoices. 4 minutes. Friday lunch."
@@ -336,9 +336,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "PDFs branded — sent to client." | Text: Email + portal link
 - VO "Client pays in portal." | Text: Stripe, ACH, wire
 - VO "AR aging updates live." | Text: Cash forecast green
-- VO "47 invoices — 4 minutes flat." | Text: $18K/yr — Atlantis ERP
+- VO "47 invoices — 4 minutes flat." | Text: Affordable — Atlantis ERP
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Friday calendar zoom, batch-invoice button click, PDFs flying out animation, mobile payment screen, cash forecast green chart
 **Music:** Upbeat funk, 115 BPM (cash-flowing energy)
 
@@ -349,7 +349,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 2, Fri 9:00 AM CST
 
 **Title:** Managed a 12-tech refinery shutdown — one screen
-**Description:** Atlantis NDT project — Gantt by inspection method, tech assignment by cert, daily field reports auto-roll. 12-tech shutdown, zero chaos. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT project — Gantt by inspection method, tech assignment by cert, daily field reports auto-roll. 12-tech shutdown, zero chaos. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #ProjectManagement #NDTproject #RefineryShutdown #Turnaround #OdooProject #InspectionPM #NDTbusiness #OilAndGas #FabricationShop #API510 #API570 #NDTConnect #ASNT #Gantt #ERP
 
 **Hook (0-3s):** "Refinery shutdown. 12 techs. 9 days. One screen."
@@ -363,9 +363,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Client portal — live update." | Text: Refinery PM watches
 - VO "Behind schedule? Auto-flag." | Text: Red on day 6, weld 134
 - VO "Reassign Sunday tech." | Text: Pulled from backup pool
-- VO "On time. On budget. $18K/yr." | Text: Atlantis NDT ERP
+- VO "On time. On budget. Affordable." | Text: Atlantis NDT ERP
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Refinery aerial drone shot, Gantt chart panning, tech assignment drag-drop, mobile field report submit, weld defect photo log
 **Music:** Industrial cinematic, 100 BPM
 
@@ -376,7 +376,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 3, Tue 9:00 AM CST
 
 **Title:** Fab shop ERP — from BOM to NDT clearance in one app
-**Description:** Atlantis manufacturing ERP for fab shops — BOM, work orders, weld tracking, NDT inspection sign-off, MTR control. $18K/yr, all 30+ apps. Free trial: atlantisndt.com/erp
+**Description:** Atlantis manufacturing ERP for fab shops — BOM, work orders, weld tracking, NDT inspection sign-off, MTR control. Affordable, all 30+ apps. Free trial: atlantisndt.com/erp
 **Tags:** #ManufacturingERP #FabricationShop #WeldTracking #MTR #OdooManufacturing #NDTinspection #PressureVessel #Piping #API510 #ASME #NDTConnect #ASNT #BOM #WorkOrder #ERP
 
 **Hook (0-3s):** "Fab shop. 800 welds. Zero spreadsheet."
@@ -390,9 +390,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Failed weld — auto-rework." | Text: New WO, new welder
 - VO "MTR-to-weld traceability." | Text: Full ASME chain
 - VO "Ship-pack with NDT certs." | Text: One-click bundle
-- VO "$18K/yr — Atlantis ERP." | Text: Fab + NDT, one screen
+- VO "Affordable — Atlantis ERP." | Text: Fab + NDT, one screen
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Fab shop floor, welder striking arc, weld map close-up, mobile NDT sign-off screen, MTR document attached to weld ID
 **Music:** Heavy industrial rock, 110 BPM
 
@@ -403,7 +403,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 3, Wed 9:00 AM CST
 
 **Title:** CMMS built for inspectors, not janitors
-**Description:** Atlantis CMMS for NDT — equipment cal schedules, PM by hours/cycles, work-order to NDT tech mobile. Built for inspection, not facilities. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis CMMS for NDT — equipment cal schedules, PM by hours/cycles, work-order to NDT tech mobile. Built for inspection, not facilities. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #CMMS #MaintenanceSoftware #NDTequipment #CalibrationManagement #PreventiveMaintenance #OdooMaintenance #InspectionEquipment #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #API570 #ERP
 
 **Hook (0-3s):** "Most CMMS thinks 'inspection' = changing light bulbs."
@@ -417,9 +417,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Mobile work-orders for techs." | Text: Sign off, photo, sign-off
 - VO "Spare-parts auto-deduct stock." | Text: Couplant, batteries logged
 - VO "Audit-ready history per asset." | Text: ISO 17025 trail
-- VO "$18K/yr — Atlantis NDT ERP." | Text: CMMS for real inspection
+- VO "Affordable — Atlantis NDT ERP." | Text: CMMS for real inspection
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** UT scanner being serviced, PM checklist on tablet, calibration sticker close-up, equipment fleet dashboard
 **Music:** Mid-tempo tech, 95 BPM
 
@@ -430,7 +430,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 3, Thu 9:00 AM CST
 
 **Title:** Saved $80K downtime — predictive maintenance for NDT gear
-**Description:** Atlantis NDT maintenance — predictive PM by usage, vibration data hooks, MTBF tracking. $80K downtime saved last year. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT maintenance — predictive PM by usage, vibration data hooks, MTBF tracking. $80K downtime saved last year. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #PredictiveMaintenance #NDTequipment #MTBF #Downtime #OdooMaintenance #InspectionEquipment #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API570 #ERP #ReliabilityEngineering #DigitalTwin
 
 **Hook (0-3s):** "PA scanner died mid-job. $80K lost. Never again."
@@ -444,9 +444,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Tech notified — swap planned." | Text: Zero downtime swap
 - VO "Failure history → ML predicts." | Text: Pattern: capacitor wear
 - VO "Vendor service ticket auto-fires." | Text: Olympus warranty claim
-- VO "$18K/yr — saved $80K already." | Text: Atlantis NDT ERP
+- VO "Affordable — saved $80K already." | Text: Atlantis NDT ERP
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Dead PA scanner with red error, MTBF graph, vibration anomaly chart, technician swapping units in van, vendor RMA email auto-generated
 **Music:** Tense build → resolve electronic, 100 BPM
 
@@ -457,7 +457,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 3, Fri 9:00 AM CST
 
 **Title:** ISO 9001 audit passed in 90 minutes. Zero NCRs.
-**Description:** Atlantis NDT QMS — NCR tracking, CAPA workflows, ISO 9001:2015 + ISO 17025 ready, audit trail every action. Passed in 90 min. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT QMS — NCR tracking, CAPA workflows, ISO 9001:2015 + ISO 17025 ready, audit trail every action. Passed in 90 min. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #ISO9001 #QualityManagement #NDTQA #NCR #CAPA #OdooQuality #InspectionQA #NDTbusiness #OilAndGas #FabricationShop #ISO17025 #NDTConnect #ASNT #API510 #ERP
 
 **Hook (0-3s):** "ISO 9001 audit. 90 minutes. Zero findings."
@@ -471,9 +471,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Asks — management review?" | Text: KPI dashboard exported
 - VO "10:30 AM — done." | Text: Zero NCRs, zero observations
 - VO "Old way — 3 days prep." | Text: Filing cabinets, panic
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Audit-proof always
+- VO "Affordable — Atlantis NDT ERP." | Text: Audit-proof always
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Auditor with clipboard, NCR dashboard, CAPA workflow board, ASNT cert pile vs digital lookup, ISO 9001 stamp animation
 **Music:** Calm corporate confidence, 90 BPM
 
@@ -484,7 +484,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 4, Tue 9:00 AM CST
 
 **Title:** Every NDT procedure. Versioned. Signed. Audit-ready.
-**Description:** Atlantis NDT document control — procedures, WPS, PQR, technique sheets, revision history, e-sign approvals, ISO 17025 trail. $18K/yr ERP all-in. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT document control — procedures, WPS, PQR, technique sheets, revision history, e-sign approvals, ISO 17025 trail. Affordable ERP all-in. Free trial: atlantisndt.com/erp
 **Tags:** #DocumentControl #NDTprocedures #WPS #PQR #ISO17025 #ISO9001 #OdooDocs #InspectionDocs #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #ERP
 
 **Hook (0-3s):** "Inspector used Rev 3. Latest is Rev 7. Lawsuit."
@@ -498,9 +498,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Read-receipt logged per tech." | Text: "Mike read Rev 7 May 14"
 - VO "Audit pulls full chain." | Text: Every revision, every reader
 - VO "Templates — WPS, PQR, NDT proc." | Text: Pre-loaded, customizable
-- VO "$18K/yr — Atlantis NDT ERP." | Text: No more Rev-3 disasters
+- VO "Affordable — Atlantis NDT ERP." | Text: No more Rev-3 disasters
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Old paper procedure crossed out, mobile screen showing Rev 7, e-signature on procedure, read-receipt log, WPS template close-up
 **Music:** Cinematic suspense → resolution, 85 BPM
 
@@ -511,7 +511,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 4, Wed 9:00 AM CST
 
 **Title:** Auto-reorder couplant before techs run out
-**Description:** Atlantis NDT procurement — RFQ, vendor scoring, auto-PO from min-stock, MTR + cert receipt. Never run out of couplant. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT procurement — RFQ, vendor scoring, auto-PO from min-stock, MTR + cert receipt. Never run out of couplant. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #Procurement #PurchaseOrder #NDTsupplies #Couplant #VendorManagement #OdooPurchase #InspectionSupply #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #ERP #SupplyChain
 
 **Hook (0-3s):** "Tech on jobsite. Zero couplant. Drive 2 hrs back."
@@ -525,9 +525,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Receipt scans MTR + cert." | Text: Couplant cert auto-filed
 - VO "Stock updates per truck." | Text: Truck 02 — 12 bottles loaded
 - VO "Spend dashboard by vendor." | Text: Q1 = $14K couplant
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Never run out again
+- VO "Affordable — Atlantis NDT ERP." | Text: Never run out again
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Empty couplant bottle, frustrated tech, auto-RFQ email screen, vendor score table, delivery receipt scanned
 **Music:** Driving electronic, 110 BPM
 
@@ -538,7 +538,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 4, Thu 9:00 AM CST
 
 **Title:** Per-diem, OT, certs, payroll — one button
-**Description:** Atlantis NDT HR + payroll — per-diem by jobsite, OT auto-calc, ASNT cert tracking, pay-stub portal. Multi-state + international. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT HR + payroll — per-diem by jobsite, OT auto-calc, ASNT cert tracking, pay-stub portal. Multi-state + international. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #HRsoftware #Payroll #NDTpayroll #PerDiem #Overtime #OdooHR #InspectionHR #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #ISO9712 #ERP #SmallBusinessHR
 
 **Hook (0-3s):** "Per-diem in 3 states + Saudi. One payroll click."
@@ -552,9 +552,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Multi-currency — USD + SAR." | Text: KSA techs paid in SAR
 - VO "Pay stub to portal + email." | Text: Tech opens mobile, signs
 - VO "GL hits — accounting reconciles." | Text: Job-cost auto-allocated
-- VO "$18K/yr — Atlantis NDT ERP." | Text: 6 hours → 6 minutes
+- VO "Affordable — Atlantis NDT ERP." | Text: 6 hours → 6 minutes
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Payroll batch button, per-diem rule table by state, pay-stub mobile preview, multi-currency conversion screen
 **Music:** Smooth jazz-funk, 100 BPM
 
@@ -565,7 +565,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 4, Fri 9:00 AM CST
 
 **Title:** Techs clock in from the tank. Offline. GPS-stamped.
-**Description:** Atlantis NDT timesheets — mobile + offline, GPS-stamped, by job/method, auto-roll to payroll + invoice. $18K/yr ERP, all 30+ apps. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT timesheets — mobile + offline, GPS-stamped, by job/method, auto-roll to payroll + invoice. Affordable ERP, all 30+ apps. Free trial: atlantisndt.com/erp
 **Tags:** #Timesheet #TimeTracking #NDTpayroll #MobileTimesheet #OdooTimesheet #FieldService #InspectionTime #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #ERP #OfflineApp
 
 **Hook (0-3s):** "Tech's 80ft up. No signal. Still tracked."
@@ -579,9 +579,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "PM approves in dashboard." | Text: 8.5 hrs, $640 line
 - VO "Rolls to invoice + payroll." | Text: Both auto-update
 - VO "Compliance — fraud-proof GPS." | Text: No buddy-punching
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Time tracked. Done.
+- VO "Affordable — Atlantis NDT ERP." | Text: Time tracked. Done.
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Tech on tank with mobile, offline-mode icon, GPS pin animation, sync upload progress bar, PM dashboard approval click
 **Music:** Field-work cinematic, 95 BPM
 
@@ -592,7 +592,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 5, Tue 9:00 AM CST
 
 **Title:** Snap receipt. Charged to inspection job. Approved auto.
-**Description:** Atlantis NDT expenses — mobile receipt OCR, per-diem rules, auto-charge to job, multi-currency, reimburse via payroll. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT expenses — mobile receipt OCR, per-diem rules, auto-charge to job, multi-currency, reimburse via payroll. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #ExpenseTracking #Reimbursement #NDTexpenses #OCRreceipt #OdooExpenses #FieldExpenses #InspectionBusiness #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #PerDiem #ERP #API510
 
 **Hook (0-3s):** "Pile of crumpled receipts? Snap and done."
@@ -606,9 +606,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Manager approves in dashboard." | Text: One screen, one click
 - VO "Reimburse via next payroll." | Text: Tech sees on pay stub
 - VO "Charges to job cost auto." | Text: Job 142 P&L updated
-- VO "$18K/yr — Atlantis NDT ERP." | Text: No more shoebox
+- VO "Affordable — Atlantis NDT ERP." | Text: No more shoebox
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Pile of receipts, mobile OCR scan animation, job-cost dashboard, manager approval swipe
 **Music:** Upbeat lo-fi, 105 BPM
 
@@ -619,7 +619,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 5, Wed 9:00 AM CST
 
 **Title:** Client portal — they log tickets, you sleep
-**Description:** Atlantis NDT helpdesk — client portal, SLA timers, auto-route by inspection method, escalation. Stop the after-hours phone calls. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT helpdesk — client portal, SLA timers, auto-route by inspection method, escalation. Stop the after-hours phone calls. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #Helpdesk #ClientPortal #SLA #CustomerSupport #OdooHelpdesk #InspectionService #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #ERP #SupportSoftware #CustomerService
 
 **Hook (0-3s):** "Phone rings 11pm. Refinery wants UT report. Again."
@@ -633,9 +633,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Routes to on-call Level II." | Text: By cert, by territory
 - VO "Escalates after 2hr if unread." | Text: Auto-bumps to me
 - VO "Most clients self-serve." | Text: 70% never call
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Sleep restored
+- VO "Affordable — Atlantis NDT ERP." | Text: Sleep restored
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Phone ringing at night, client portal login screen, SLA timer countdown, escalation routing diagram
 **Music:** Chill late-night lofi, 80 BPM
 
@@ -646,7 +646,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 5, Thu 9:00 AM CST
 
 **Title:** Sold $40K of NDT supplies online — without lifting a finger
-**Description:** Atlantis NDT eCommerce — couplant, probes, accessories online store, stock-synced, B2B pricing tiers. $40K passive last quarter. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT eCommerce — couplant, probes, accessories online store, stock-synced, B2B pricing tiers. $40K passive last quarter. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #eCommerce #NDTsupplies #OnlineStore #B2Becommerce #OdooEcommerce #NDTsales #InspectionSupplies #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #ERP #PassiveIncome #API510
 
 **Hook (0-3s):** "Side-hustle: sold $40K of NDT gear in my sleep."
@@ -660,9 +660,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Order ships from same warehouse." | Text: Same WMS pick
 - VO "Repeat customers auto-tier up." | Text: 5 orders = wholesale
 - VO "Q1 — $40K passive revenue." | Text: Side-business unlocked
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Store included free
+- VO "Affordable — Atlantis NDT ERP." | Text: Store included free
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Online store landing page, product cards (couplant, probes), shopping cart checkout, stock sync animation, $40K revenue chart
 **Music:** Upbeat entrepreneur synth, 115 BPM
 
@@ -673,7 +673,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 5, Fri 9:00 AM CST
 
 **Title:** Train + sell at NDT conference — POS on iPad
-**Description:** Atlantis NDT POS — conference booth, training class, walk-in supply sales. Cash/card/invoice, syncs inventory. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT POS — conference booth, training class, walk-in supply sales. Cash/card/invoice, syncs inventory. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #POS #PointOfSale #NDTtraining #NDTconference #OdooPOS #InspectionEvents #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #ISO9712 #ERP #TrainingSales #API510
 
 **Hook (0-3s):** "ASNT conference booth — sold $12K on Day 1."
@@ -687,9 +687,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "New customer — auto-CRM." | Text: Lead added, tagged
 - VO "Day-1 sales total — $12K." | Text: 14 trainings, 31 kits
 - VO "Refund? One tap, signed off." | Text: GL hits live
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Conference-ready
+- VO "Affordable — Atlantis NDT ERP." | Text: Conference-ready
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Conference booth setup, iPad POS interface, Stripe card-reader beep, customer signing receipt, sales dashboard ticking up
 **Music:** Energetic event-trade vibe, 120 BPM
 
@@ -700,7 +700,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 6, Tue 9:00 AM CST
 
 **Title:** Dispatch 18 techs across Texas. From bed. 7am.
-**Description:** Atlantis NDT FSM — dispatch by cert + location + truck, route optimize, mobile job sheet, parts on van. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT FSM — dispatch by cert + location + truck, route optimize, mobile job sheet, parts on van. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #FieldService #FSM #Dispatch #NDTfieldservice #OdooFSM #MobileWorkforce #InspectionDispatch #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #ERP #ServiceManagement
 
 **Hook (0-3s):** "Dispatch 18 NDT techs across Texas — from my pillow."
@@ -714,9 +714,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Parts on van — listed." | Text: Couplant: 6, batt: 4
 - VO "Tech checks in — clock starts." | Text: Live status: en route
 - VO "Client portal — ETA visible." | Text: Refinery PM watches
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Dispatch from bed
+- VO "Affordable — Atlantis NDT ERP." | Text: Dispatch from bed
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Map view with truck pins, drag-drop dispatch, tech receiving job push, route optimization line drawing
 **Music:** Driving morning podcast, 105 BPM
 
@@ -727,7 +727,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 6, Wed 9:00 AM CST
 
 **Title:** Recurring NDT inspection contracts — auto-billed monthly
-**Description:** Atlantis NDT subscription — recurring inspection contracts (CUI, tank, pipeline), auto-invoice, scheduled service, churn analytics. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT subscription — recurring inspection contracts (CUI, tank, pipeline), auto-invoice, scheduled service, churn analytics. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #Subscription #RecurringRevenue #NDTcontracts #MRR #OdooSubscription #InspectionContracts #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #API570 #ERP #SaaSforNDT
 
 **Hook (0-3s):** "Turned one-off NDT into $25K/month recurring."
@@ -741,9 +741,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Churn flagged — at-risk score." | Text: No-show client = red
 - VO "MRR dashboard live." | Text: $25,400 — Q2
 - VO "Predictable cash flow finally." | Text: Sleep at night
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Builds the recurring engine
+- VO "Affordable — Atlantis NDT ERP." | Text: Builds the recurring engine
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** MRR chart climbing, subscription contract template, auto-invoice fire animation, renewal email preview
 **Music:** Smooth SaaS-bro electronica, 105 BPM
 
@@ -754,7 +754,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 6, Thu 9:00 AM CST
 
 **Title:** Built a custom NDT field — no devs, 4 minutes
-**Description:** Atlantis NDT uses Odoo Studio — drag-drop custom fields, forms, reports, workflows. No developers, no $50K consulting. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT uses Odoo Studio — drag-drop custom fields, forms, reports, workflows. No developers, no $50K consulting. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #NoCode #OdooStudio #Customization #LowCode #CitizenDeveloper #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #API510 #ERP #ProcessAutomation #DragAndDrop #SmallBusinessSaaS
 
 **Hook (0-3s):** "Needed a custom NDT field. No devs. 4 minutes."
@@ -768,9 +768,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Add to weld-report PDF." | Text: Drag into template
 - VO "Build workflow — auto-route." | Text: If WPS empty, block save
 - VO "Saved — live in production." | Text: 4 minutes — total
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Custom without consultants
+- VO "Affordable — Atlantis NDT ERP." | Text: Custom without consultants
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Studio drag-drop UI, field drop animation, form preview, PDF report regenerating with new field, stopwatch hitting 4:00
 **Music:** Hype builder synth, 110 BPM
 
@@ -781,7 +781,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 6, Fri 9:00 AM CST
 
 **Title:** Level III sign-off in 30 seconds. From his phone.
-**Description:** Atlantis NDT approvals — multi-step sign-off (tech → Level III → QA → client), mobile push, audit trail. ASNT, ISO 9712 compliant. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT approvals — multi-step sign-off (tech → Level III → QA → client), mobile push, audit trail. ASNT, ISO 9712 compliant. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #Workflow #Approvals #NDTLevel3 #DigitalSignature #OdooApprovals #InspectionApproval #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #ISO9712 #API510 #ERP #ComplianceWorkflow
 
 **Hook (0-3s):** "Level III sign-off from a 35,000-ft flight."
@@ -795,9 +795,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Auto-routes to client QA." | Text: Refinery review next
 - VO "Audit trail logged forever." | Text: Timestamps, IDs, devices
 - VO "ASNT + ISO 9712 compliant." | Text: Code-grade chain
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Approvals don't stop
+- VO "Affordable — Atlantis NDT ERP." | Text: Approvals don't stop
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Plane wifi icon, Level III mobile screen, e-signature stamp on report, workflow diagram lighting up, audit log table
 **Music:** Cinematic globe-traveler, 95 BPM
 
@@ -808,7 +808,7 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 **Recommended post:** Week 6, Sat 9:00 AM CST
 
 **Title:** Ran NDT training event for 120 — one ERP module
-**Description:** Atlantis NDT events — registration, ticketing, ASNT cert credit tracking, badge print, post-event nurture. 120 attendees, zero chaos. $18K/yr ERP. Free trial: atlantisndt.com/erp
+**Description:** Atlantis NDT events — registration, ticketing, ASNT cert credit tracking, badge print, post-event nurture. 120 attendees, zero chaos. Affordable ERP. Free trial: atlantisndt.com/erp
 **Tags:** #EventManagement #NDTtraining #NDTconference #ASNTrenewal #OdooEvents #TrainingProvider #NDTbusiness #OilAndGas #FabricationShop #NDTConnect #ASNT #ISO9712 #API510 #ERP #CEUcredits
 
 **Hook (0-3s):** "120 NDT pros. Houston training day. Zero chaos."
@@ -822,9 +822,9 @@ General ERP / Digital Twin awareness. Re-run quarterly.
 - VO "Cert email post-event." | Text: PDF + portal download
 - VO "All 120 added to CRM." | Text: Tagged: UT, Houston, 2026
 - VO "Drip campaign auto-starts." | Text: Up-sell Level III course
-- VO "$18K/yr — Atlantis NDT ERP." | Text: Events to revenue, one screen
+- VO "Affordable — Atlantis NDT ERP." | Text: Events to revenue, one screen
 
-**CTA (50-60s):** "Try Atlantis NDT ERP — $18K/yr. Link in bio."
+**CTA (50-60s):** "Try Atlantis NDT ERP — affordable, all-in. Link in bio."
 **B-roll:** Conference room with attendees, QR-code badge scanner, CEU certificate PDF, CRM contact list filling up, post-event email drip animation
 **Music:** Upbeat conference vibe, 110 BPM
 

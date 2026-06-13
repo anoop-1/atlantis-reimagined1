@@ -88,11 +88,11 @@ export function ErpDtCrossPromoBlock({
             Atlantis NDT ERP
           </h3>
           <p className="text-xs text-slate-600 leading-relaxed mb-3">
-            regional pricing — all 30+ Odoo apps included. Fully customizable for
-            NDT inspection workflows. Cheapest ERP in the industry.
+            Affordable. Accessible. Fully customizable. All 30+ Odoo apps
+            included — built for NDT inspection workflows.
           </p>
           <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#004aad] group-hover:gap-2 transition-all">
-            See pricing
+            Explore Atlantis ERP
             <ArrowRight className="w-3 h-3" aria-hidden="true" />
           </span>
         </Link>

@@ -19,7 +19,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Basic physics & math",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "$1,695–$2,695"
+        price: "Quote on request"
     },
     {
         method: "Radiographic Testing (RT)",
@@ -29,7 +29,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Radiation safety awareness",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "$1,695–$2,695"
+        price: "Quote on request"
     },
     {
         method: "Magnetic Particle Testing (MT)",
@@ -39,7 +39,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "None",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "$1,195–$1,595"
+        price: "Quote on request"
     },
     {
         method: "Liquid Penetrant Testing (PT)",
@@ -49,7 +49,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "None",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "$895–$1,295"
+        price: "Quote on request"
     },
     {
         method: "Eddy Current Testing (ET)",
@@ -59,7 +59,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Basic electricity concepts",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "$1,695–$2,695"
+        price: "Quote on request"
     },
     {
         method: "Visual Testing (VT)",
@@ -69,7 +69,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Vision acuity check",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "$795–$1,195"
+        price: "Quote on request"
     },
     {
         method: "Phased Array UT (PAUT)",
@@ -79,7 +79,7 @@ const courses = [
         levelIII: "N/A",
         prerequisites: "UT Level II recommended",
         standard: "ASNT SNT-TC-1A",
-        price: "$2,495–$3,495"
+        price: "Quote on request"
     },
     {
         method: "Time of Flight Diffraction (TOFD)",
@@ -89,7 +89,7 @@ const courses = [
         levelIII: "N/A",
         prerequisites: "UT Level II recommended",
         standard: "ASNT SNT-TC-1A",
-        price: "$2,495"
+        price: "Quote on request"
     }
 ];
 
@@ -296,7 +296,7 @@ export default function NDTTrainingUSA() {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-3xl font-bold mb-4">NDT Courses Available in the USA</h2>
-                        <p className="text-muted-foreground">All courses include materials, practical training, and examination. Prices shown are per-person classroom rates. Online and corporate rates available on request.</p>
+                        <p className="text-muted-foreground"><strong>Affordable. Accessible. Fully Customizable.</strong> All courses include materials, practical training, and examination. Pricing varies by region and scope — contact us for a tailored quote.</p>
                     </motion.div>
                     <div className="overflow-x-auto">
                         <table className="w-full text-sm border-collapse">
@@ -307,7 +307,7 @@ export default function NDTTrainingUSA() {
                                     <th className="text-left p-3 font-semibold border border-border">Level I Hours</th>
                                     <th className="text-left p-3 font-semibold border border-border">Level II Hours</th>
                                     <th className="text-left p-3 font-semibold border border-border">Standard</th>
-                                    <th className="text-left p-3 font-semibold border border-border">Est. Price</th>
+                                    <th className="text-left p-3 font-semibold border border-border">Pricing</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -331,7 +331,7 @@ export default function NDTTrainingUSA() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-muted-foreground mt-4">Prices are indicative and subject to change. Corporate group rates and online discounts available. Level III duration and pricing vary — contact us for a quote.</p>
+                    <p className="text-xs text-muted-foreground mt-4">Pricing varies by region, course scope and group size. Corporate, online and Level III engagements — contact us for a tailored quote.</p>
                 </div>
             </section>
 

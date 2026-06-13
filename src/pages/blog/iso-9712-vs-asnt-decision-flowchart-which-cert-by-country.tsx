@@ -298,7 +298,7 @@ export default function ISO9712VsASNTDecisionFlowchartByCountry() {
                             <li><strong>You're a US contractor going on Saudi / UAE rotation.</strong> ASNT covers your US base-load; ISO 9712 unlocks the Middle East premium (typically 30-45% on day rates).</li>
                             <li><strong>You're an Indian / Filipino / South African inspector targeting US-EPC scope while based overseas.</strong> ISO 9712 is your primary credential; ASNT layered on lets you join a US contractor's overseas project team without re-qualification friction.</li>
                             <li><strong>You're a Level III pursuing consulting work.</strong> Dual certification lets you write Written Practices for US clients AND audit ISO 9712 programs for European clients.</li>
-                            <li><strong>You're chasing the salary band above $130k.</strong> The dual-certified ASNT Level III with PCN Level 3 in 3 methods is the standard profile for $150k-$200k senior inspection roles in the Middle East and Australia.</li>
+                            <li><strong>You're chasing the salary band above $130k.</strong> The dual-certified ASNT Level III with PCN Level 3 in 3 methods is the standard profile for $150k-enterprise tier senior inspection roles in the Middle East and Australia.</li>
                         </ul>
 
                         <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 mb-6">

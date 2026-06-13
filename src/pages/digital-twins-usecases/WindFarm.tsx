@@ -71,8 +71,8 @@ export default function WindFarmUseCase() {
 
                     <h2>ROI for wind operators</h2>
                     <ul>
-                        <li><strong>Turbine availability:</strong> Better-targeted inspection prevents in-service failure that takes a turbine down for weeks. A single avoided multi-week downtime event is $50K–$200K in lost generation revenue.</li>
-                        <li><strong>Drone inspection efficiency:</strong> Structured data flow eliminates manual inspection report production = 30–50% labor savings on a typical $50K–$200K/yr drone inspection budget.</li>
+                        <li><strong>Turbine availability:</strong> Better-targeted inspection prevents in-service failure that takes a turbine down for weeks. A single avoided multi-week downtime event is $50K–enterprise tier in lost generation revenue.</li>
+                        <li><strong>Drone inspection efficiency:</strong> Structured data flow eliminates manual inspection report production = 30–50% labor savings on a typical $50K–enterprise tier, accessible drone inspection budget.</li>
                         <li><strong>Warranty defensibility:</strong> Structured record of all inspections supports warranty claims against OEMs. Recovered warranty value can dwarf the platform cost.</li>
                         <li><strong>Repower / refurbishment decisions:</strong> Multi-year integrity record enables defensible repower vs replace decisions as turbines approach end of design life.</li>
                     </ul>

@@ -87,11 +87,11 @@ export default function VsGeVernovaApm() {
                                 "competitor": "Power gen / utility APM, GE-built assets"
                       }
             ]}
-            migrationParagraph="Migration from GE Vernova APM to Atlantis NDT ERP is rare for utility operators. Pragmatic pattern for inspection service companies serving utility clients: keep GE Vernova read-only for client-required APM workflows, run Atlantis as the inspection service company's own system of record. Bi-directional integration via REST API flows inspection findings into GE Vernova for the client's reliability team. Implementation 4-8 weeks, $25K-$70K."
+            migrationParagraph="Migration from GE Vernova APM to Atlantis NDT ERP is rare for utility operators. Pragmatic pattern for inspection service companies serving utility clients: keep GE Vernova read-only for client-required APM workflows, run Atlantis as the inspection service company's own system of record. Bi-directional integration via REST API flows inspection findings into GE Vernova for the client's reliability team. Implementation 4-8 weeks — contact us for a tailored quote."
             scenarios={[
                       {
                                 "title": "Small inspection contractor serving power utilities — 12 people",
-                                "description": "Atlantis at $35K/year manages ASNT certs, boiler / turbine inspection scheduling, customer reports. GE Vernova remains the utility's APM system of record. Atlantis flows findings via API.",
+                                "description": "Atlantis (affordable SaaS) manages ASNT certs, boiler / turbine inspection scheduling, customer reports. GE Vernova remains the utility's APM system of record. Atlantis flows findings via API.",
                                 "winner": "atlantis"
                       },
                       {
@@ -108,7 +108,7 @@ export default function VsGeVernovaApm() {
             faqs={[
                       {
                                 "question": "Is Atlantis cheaper than GE Vernova APM for a mid-size inspection company?",
-                                "answer": "Yes — typically 4-8x lower TCO. GE Vernova for a 50-100 user inspection consultancy lands at $200K-$450K/year plus $300K-$700K implementation. Atlantis lands at $55K-$95K/year plus $25K-$70K onboarding."
+                                "answer": "Yes — typically 4-8x lower TCO. GE Vernova for a 50-100 user inspection consultancy lands at enterprise tier-$450K/year plus $300K-$700K implementation. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Does Atlantis integrate with GE Vernova APM if we want to keep both?",

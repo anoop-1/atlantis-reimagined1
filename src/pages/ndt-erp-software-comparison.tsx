@@ -20,7 +20,7 @@ export default function NDTERPSoftwareComparison() {
         "Strong vendor support"
       ],
       cons: [
-        "High implementation cost ($500K-$5M+)",
+        "Enterprise tier implementation",
         "Long deployment timeline (6-24 months)",
         "Steep learning curve",
         "Limited NDT-specific features"
@@ -34,7 +34,7 @@ export default function NDTERPSoftwareComparison() {
         "Built for NDT workflows",
         "Fast deployment (weeks to months)",
         "Intuitive for inspectors",
-        "Cost-effective ($50K-$200K)"
+        "Affordable SaaS — fully customizable"
       ],
       cons: [
         "Limited business system integration",
@@ -50,7 +50,7 @@ export default function NDTERPSoftwareComparison() {
         "No infrastructure investment",
         "Automatic updates",
         "Mobile access",
-        "Lower upfront cost ($100-$500/month/user)"
+        "Affordable, low-commitment per-user model"
       ],
       cons: [
         "Ongoing subscription costs",
@@ -138,10 +138,10 @@ export default function NDTERPSoftwareComparison() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What is the cost of NDT ERP software?",
+        "name": "How much does Atlantis NDT ERP cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Costs vary widely: Enterprise ERP ($500K-$5M+), Specialized NDT ($50K-$200K), Cloud SaaS ($100-$500/user/month). ROI typically achieved within 12-24 months through improved efficiency."
+          "text": "Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com. Atlantis NDT ERP is positioned as the affordable, fully customizable alternative to enterprise-tier platforms. ROI typically achieved within 12-24 months through improved efficiency."
         }
       },
       {
@@ -180,8 +180,8 @@ export default function NDTERPSoftwareComparison() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="Best NDT ERP Software 2026 — 8 Vendors Compared, $18K vs $2M+"
-        description="2026 NDT ERP comparison: 8 vendors rated on cost, deploy time, ASNT tracking, API reporting. Atlantis regional pricing vs enterprise $250K-$2M+. Free pricing matrix — see it free."
+        title="Best NDT ERP Software 2026 — 8 Vendors Compared, Affordable & Fully Customizable"
+        description="2026 NDT ERP comparison: 8 vendors rated on deploy time, ASNT tracking, API reporting. Atlantis — Affordable. Accessible. Fully Customizable. — vs Enterprise tier alternatives. Free matrix."
         keywords="NDT ERP software, NDT software comparison, inspection management software, NDT data management, NDT reporting software, asset integrity software"
         canonical="https://atlantisndt.com/ndt-erp-software-comparison"
         structuredData={structuredData}

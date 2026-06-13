@@ -71,14 +71,14 @@ export default function RefineryRotterdamCombo() {
                     <p>The crude-supply restructure since 2022 has been the most significant European refining event in a generation. Atlantis API 581 RBI engine recalculates component risk scores whenever crude composition tags from the historian change. A Shell Pernis switch from Urals to a Guyana Liza / US WTI blend, for example, lowers sulfur and raises API gravity &mdash; reducing sour-service risk on most components but potentially raising naphthenic acid risk on residue service if TAN increases. The RBI engine surfaces the re-ranking automatically; integrity engineers don&rsquo;t need to recalculate manually.</p>
 
                     <h2>ROI math for a typical Rotterdam refinery</h2>
-                    <p>For a representative Rotterdam refinery (~200,000&ndash;400,000 bpd, 8&ndash;12 process units, 40,000&ndash;120,000 CMLs site-wide), Atlantis Digital Twin enterprise tier ($200K/yr) typically pays back through:</p>
+                    <p>For a representative Rotterdam refinery (~200,000&ndash;400,000 bpd, 8&ndash;12 process units, 40,000&ndash;120,000 CMLs site-wide), Atlantis Digital Twin enterprise tier (affordable, accessible, fully customizable SaaS &mdash; quote on request) typically pays back through:</p>
                     <ul>
                         <li><strong>Turnaround scope reduction:</strong> 15&ndash;25% on $30&ndash;$80M turnaround = $4.5&ndash;$20M every 4&ndash;5 years &asymp; $1&ndash;$4.5M/yr averaged.</li>
                         <li><strong>EU ETS allowance savings:</strong> Reduced unplanned shutdown flaring + reduced fugitive methane emissions = $500K&ndash;$2M/yr in avoided ETS allowance purchases.</li>
                         <li><strong>PED FFS submittal efficiency:</strong> Defensible FFS evidence supporting NoBo inspection-interval extension saves $300K&ndash;$1M/yr in premature replacement and inspection labour.</li>
                         <li><strong>Unplanned downtime avoided:</strong> One avoided unit trip from early CUI / HTHA detection = $3&ndash;$10M in lost margin (European refining margins are leaner than US Gulf Coast but unit sizes are comparable).</li>
                     </ul>
-                    <p>Net: $3M&ndash;$10M/yr in measurable value per refinery at $200K/yr platform cost. Payback well inside 12 months.</p>
+                    <p>Net: $3M&ndash;$10M/yr in measurable value per refinery on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request. Payback well inside 12 months.</p>
 
                     <h2>Implementation in the Rotterdam ecosystem</h2>
                     <p>First process unit live in 10&ndash;14 weeks. Integration with existing tools (SAP PM, AVEVA PI, Yokogawa Exaquantum, Honeywell Uniformance, Bentley AssetWise, ROSEN Asset Integrity Suite) is the norm. Coexistence with European inspection contractor data formats is built in: Applus+ RTD inspection reports, Stork inspection reports, Bilfinger and Sonomatic data formats, plus the standard Olympus / Eddyfi / Sonatest / GE Mentor instrument files all import natively. NoBo certification metadata (Kiwa Stoomwezen, TUV, Lloyd&rsquo;s) captures alongside the inspection data automatically.</p>

@@ -20,7 +20,7 @@
 - **Phone:** +1 (281) 840-8969
 - **Logo URL:** https://atlantisndt.com/atlantis.png
 - **LinkedIn:** https://www.linkedin.com/company/atlantis-ndt
-- **Pricing tier:** $18,000/year flat (unlimited users, all 30+ Odoo apps included)
+- **Pricing tier:** Affordable flat-rate SaaS — unlimited users, all 30+ Odoo apps included. Quote on request.
 - **Free trial:** 30-day evaluation, no credit card
 - **Deployment:** Cloud-hosted (default) or on-premise
 - **Support:** 24/5 email + chat, dedicated onboarding manager
@@ -47,9 +47,9 @@
   - Primary: **ERP Systems** (mid-market)
   - Secondary: **CMMS Software**, **Quality Management Systems (QMS)**, **EHS Software**, **Field Service Management**
 - **Short pitch (80 chars):**
-  `NDT-ready ERP at $18K/yr — 30+ Odoo apps, ASNT/ISO 9712 preloaded, no add-ons.`
+  `NDT-ready ERP — affordable, 30+ Odoo apps, ASNT/ISO 9712 preloaded, no add-ons.`
 - **Tagline (200 chars):**
-  `The only ERP built for non-destructive testing companies. 30+ Odoo apps, ASNT/PCN/CSWIP certification tracking, API 510/570/653 templates — all in one flat $18,000/year price. Fully customizable.`
+  `The only ERP built for non-destructive testing companies. 30+ Odoo apps, ASNT/PCN/CSWIP certification tracking, API 510/570/653 templates — affordable flat-rate pricing. Fully customizable.`
 
 - **Long description (~2,400 chars):**
 
@@ -57,7 +57,7 @@
 Atlantis NDT ERP is the first enterprise resource planning platform purpose-built for non-destructive testing (NDT), inspection, and asset integrity companies. Born inside an ASNT Level III-led inspection firm, it ships with every workflow you actually need — and none of the consulting fees you don't.
 
 WHY NDT COMPANIES SWITCHED TO ATLANTIS NDT ERP
-- $18,000 per year, flat. Unlimited users. No per-seat tax. No "modules upgrade" upsell.
+- Affordable flat-rate. Unlimited users. No per-seat tax. No "modules upgrade" upsell.
 - All 30+ Odoo 18 apps included: CRM, Sales, Inventory, Accounting, Manufacturing, Project, Maintenance (CMMS), Quality, Documents, HR, Payroll, Field Service, Helpdesk, eCommerce, POS, Subscriptions, Studio, and more.
 - NDT-ready on day one. We preload ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NADCAP, API 510/570/653, ASME Section V, ASME B31.3 templates so your team isn't building from scratch.
 - Fully customizable. Use Odoo Studio (included) to build new modules, custom fields, workflows, reports — no Python required.
@@ -82,7 +82,7 @@ WHO USES IT
 NDT inspection service providers, oil & gas operators, fabrication shops, calibration laboratories, pipeline integrity teams, marine surveyors, aerospace QC labs, and oilfield service companies in Houston, Calgary, Dubai, Saudi Arabia, Singapore, Mumbai, London, and beyond.
 
 PRICING
-$18,000/year. Unlimited users. 30-day evaluation. No credit card required for trial.
+Affordable flat-rate. Unlimited users. 30-day evaluation. No credit card required for trial.
 
 Book a live demo at https://atlantisndt.com/erp
 ```
@@ -123,16 +123,16 @@ Book a live demo at https://atlantisndt.com/erp
   - Primary: **ERP Software**
   - Secondary: **CMMS Software**, **Quality Management**, **Calibration Management**, **Inspection Software**, **Field Service Management**
 - **Short pitch (80 chars):**
-  `Affordable NDT ERP at $18K/yr — all Odoo apps + ASNT/ISO 9712 out of the box.`
+  `Affordable NDT ERP — all Odoo apps + ASNT/ISO 9712 out of the box.`
 - **Tagline (200 chars):**
-  `Atlantis NDT ERP is the affordable, fully-customizable ERP built for non-destructive testing companies. All 30+ Odoo 18 apps, preloaded ASNT/PCN/CSWIP/API workflows, $18,000/yr flat.`
+  `Atlantis NDT ERP is the affordable, fully-customizable ERP built for non-destructive testing companies. All 30+ Odoo 18 apps, preloaded ASNT/PCN/CSWIP/API workflows. Affordable flat-rate.`
 
 - **Long description (~1,900 chars):**
 
 ```
 Atlantis NDT ERP is the only enterprise resource planning system designed for non-destructive testing (NDT), inspection, and asset integrity companies. Built on Odoo 18 and shipped with every NDT-specific workflow preloaded — ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NADCAP, API 510/570/653, and ASME Section V templates.
 
-WHAT'S INCLUDED FOR $18,000 / YEAR
+WHAT'S INCLUDED
 All 30+ Odoo 18 apps — unlimited users, no per-seat fees:
 CRM, Sales, Inventory, Accounting, Invoicing, Purchase, Manufacturing, Project, Timesheets, Field Service, Maintenance (CMMS), Quality, Documents, Approvals, HR, Payroll, Recruitment, Helpdesk, eCommerce, POS, Subscriptions, Marketing Automation, Email Marketing, SMS, Events, Surveys, Studio (no-code customizer), and more.
 
@@ -152,13 +152,13 @@ WHY CUSTOMERS SWITCH
 60-80% admin time reduction. One source of truth. No more spreadsheets for certifications. Audit-ready in 24 hours.
 
 PRICING
-$18,000/year flat. 30-day evaluation. Cloud or on-premise. Free implementation guidance.
+Affordable flat-rate. 30-day evaluation. Cloud or on-premise. Free implementation guidance.
 
 Book a demo: https://atlantisndt.com/erp
 ```
 
 - **Key features (12 bullets):**
-  - 30+ Odoo 18 apps included, unlimited users, $18K/yr flat
+  - 30+ Odoo 18 apps included, unlimited users, affordable flat-rate
   - ASNT SNT-TC-1A & ISO 9712 certification tracking with expiry alerts
   - PCN, CSWIP, NADCAP, API 510/570/653 templates preloaded
   - Equipment calibration register with probe serial traceability
@@ -173,7 +173,7 @@ Book a demo: https://atlantisndt.com/erp
 
 - **Submission tips:**
   - Capterra requires a verified company website. Make sure atlantisndt.com/erp loads in <2s (already does).
-  - Add "starting price" as $18,000/year — leaving it blank delays approval.
+  - Add "starting price" as "contact for quote" or leave per directory rules — see directory's pricing policy.
   - Pick "Mid-Market (51-1000 employees)" and "Small Business" as deployment size.
   - Submit your product video (60-90s) for higher placement.
   - Capterra cross-publishes to GetApp + SoftwareAdvice automatically (Gartner network). Submit Capterra first, then check GetApp/SA for auto-replication.
@@ -189,14 +189,14 @@ Book a demo: https://atlantisndt.com/erp
   - Primary: **ERP Software**
   - Secondary: **CMMS**, **Quality Management**, **Inspection Software**, **Calibration Management**
 - **Short pitch (80 chars):**
-  `The NDT-ready ERP — $18K/yr, all Odoo apps, ASNT/PCN/CSWIP templates included.`
+  `The NDT-ready ERP — affordable, all Odoo apps, ASNT/PCN/CSWIP templates included.`
 - **Tagline (200 chars):**
-  `Affordable, NDT-specific ERP. Built on Odoo 18 with 30+ apps, ASNT certification tracking, API 510/570/653 workflows, and a $18,000/year flat price. Cloud or on-premise. 30-day evaluation.`
+  `Affordable, NDT-specific ERP. Built on Odoo 18 with 30+ apps, ASNT certification tracking, API 510/570/653 workflows, and an affordable flat-rate. Cloud or on-premise. 30-day evaluation.`
 
 - **Long description (~1,800 chars):**
 
 ```
-Atlantis NDT ERP is the affordable, NDT-ready ERP platform built for inspection service companies and asset-integrity operators. Where SAP and Oracle cost $150,000+ in the first year and still require 6 months of consultants to be "NDT-ready," Atlantis ships preloaded with the certifications, calibrations, work orders, and report templates that NDT companies actually use — for $18,000/year flat.
+Atlantis NDT ERP is the affordable, NDT-ready ERP platform built for inspection service companies and asset-integrity operators. Where SAP and Oracle cost $150,000+ in the first year and still require 6 months of consultants to be "NDT-ready," Atlantis ships preloaded with the certifications, calibrations, work orders, and report templates that NDT companies actually use — at an affordable, accessible flat-rate that's a fraction of legacy ERP cost.
 
 WHAT YOU GET
 - All 30+ Odoo 18 apps (CRM through Payroll), unlimited users
@@ -220,13 +220,13 @@ WHO IT'S FOR
 NDT service providers, oil & gas operators, EPCs, fabrication shops, calibration labs, aerospace QC, marine survey, pipeline integrity firms.
 
 PRICING
-$18,000/year — unlimited users, all apps included. 30-day evaluation. Cloud-hosted or on-premise.
+Affordable flat-rate — unlimited users, all apps included. 30-day evaluation. Cloud-hosted or on-premise.
 
 Demo: https://atlantisndt.com/erp
 ```
 
 - **Key features (10 bullets):**
-  - All 30+ Odoo 18 apps, unlimited users, $18K/yr flat
+  - All 30+ Odoo 18 apps, unlimited users, affordable flat-rate
   - ASNT, ISO 9712, PCN, CSWIP, NADCAP certification tracking
   - API 510/570/653 and ASME Section V workflows preloaded
   - Equipment calibration with serial number traceability
@@ -254,16 +254,16 @@ Demo: https://atlantisndt.com/erp
   - Primary: **ERP Software**
   - Secondary: **CMMS Software**, **Field Service**, **Quality Management**, **Inspection Management**, **Calibration Management**
 - **Short pitch (80 chars):**
-  `Affordable NDT ERP at $18K/yr — 30+ Odoo apps + ASNT/ISO 9712 built in.`
+  `Affordable NDT ERP — 30+ Odoo apps + ASNT/ISO 9712 built in.`
 - **Tagline (200 chars):**
-  `Atlantis NDT ERP: the only ERP purpose-built for non-destructive testing. 30+ Odoo 18 apps, ASNT/PCN/CSWIP certification tracking, API 510/570/653 workflows. $18,000/year. Unlimited users.`
+  `Atlantis NDT ERP: the only ERP purpose-built for non-destructive testing. 30+ Odoo 18 apps, ASNT/PCN/CSWIP certification tracking, API 510/570/653 workflows. Affordable flat-rate. Unlimited users.`
 
 - **Long description (~1,700 chars):**
 
 ```
-Atlantis NDT ERP is the affordable, NDT-ready ERP built for inspection service providers and asset-integrity teams. Instead of paying $150K+ for SAP or Oracle and then $50K more in consultants to make it "NDT-aware," Atlantis ships preloaded with the workflows NDT companies actually need.
+Atlantis NDT ERP is the affordable, NDT-ready ERP built for inspection service providers and asset-integrity teams. Instead of paying $150K+ for SAP or Oracle and then significant additional consultant fees to make it "NDT-aware," Atlantis ships preloaded with the workflows NDT companies actually need.
 
-INCLUDED FOR $18,000/YEAR FLAT
+INCLUDED IN THE AFFORDABLE FLAT-RATE
 - All 30+ Odoo 18 apps, unlimited users
 - ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NADCAP certification register
 - Equipment calibration tracker with probe-level traceability
@@ -286,13 +286,13 @@ USED BY
 NDT service companies, fabrication shops, oil & gas operators, calibration laboratories, aerospace QC, marine surveyors, pipeline integrity firms.
 
 PRICING
-$18,000/year flat. 30-day evaluation. Cloud or on-premise.
+Affordable flat-rate. 30-day evaluation. Cloud or on-premise.
 
 Demo: https://atlantisndt.com/erp
 ```
 
 - **Key features (12 bullets):**
-  - $18K/yr flat — all 30+ Odoo apps, unlimited users
+  - Affordable flat-rate — all 30+ Odoo apps, unlimited users
   - ASNT, ISO 9712, PCN, CSWIP, NADCAP certification tracking
   - Equipment calibration with serial number traceability
   - Work order + UT/RT/MT/PT/PA/TOFD/ET/VT report templates
@@ -321,19 +321,19 @@ Demo: https://atlantisndt.com/erp
   - Primary: **ERP Software**
   - Secondary: **CMMS Software**, **Quality Management**, **Field Service Management**, **Compliance Management**, **Inspection Software**
 - **Short pitch (80 chars):**
-  `Affordable NDT ERP — $18K/yr, all Odoo apps + ASNT/ISO 9712 ready out of box.`
+  `Affordable NDT ERP — all Odoo apps + ASNT/ISO 9712 ready out of box.`
 - **Tagline (200 chars):**
-  `Atlantis NDT ERP — affordable, NDT-ready, fully customizable. All 30+ Odoo 18 apps with ASNT/PCN/CSWIP and API 510/570/653 workflows preloaded. $18,000/yr. Unlimited users. 30-day evaluation.`
+  `Atlantis NDT ERP — affordable, NDT-ready, fully customizable. All 30+ Odoo 18 apps with ASNT/PCN/CSWIP and API 510/570/653 workflows preloaded. Affordable flat-rate. Unlimited users. 30-day evaluation.`
 
 - **Long description (~2,100 chars):**
 
 ```
-Atlantis NDT ERP is purpose-built ERP software for non-destructive testing (NDT) and inspection companies. Founded by an ASNT Level III certified inspector, the platform delivers all 30+ Odoo 18 applications PLUS preloaded NDT-specific modules — at a flat $18,000/year price.
+Atlantis NDT ERP is purpose-built ERP software for non-destructive testing (NDT) and inspection companies. Founded by an ASNT Level III certified inspector, the platform delivers all 30+ Odoo 18 applications PLUS preloaded NDT-specific modules — at an affordable flat-rate.
 
 WHY NDT COMPANIES IN INDIA, GCC, AND NORTH AMERICA CHOSE ATLANTIS
 
 1. AFFORDABILITY — One flat price, no surprises
-   - $18,000/year, unlimited users, no per-seat upcharges
+   - Affordable flat-rate, unlimited users, no per-seat upcharges
    - Implementation included, not extra
    - Cloud-hosted (default) or on-premise
 
@@ -370,7 +370,7 @@ WHO USES IT
 NDT service providers, oil & gas, fabrication shops, calibration laboratories, aerospace inspection, pipeline integrity, oilfield services, marine survey. Customers in Houston, Calgary, Dubai, Saudi Arabia, Mumbai, Hyderabad, Singapore, London.
 
 PRICING
-$18,000/year flat. 30-day evaluation. No credit card required.
+Affordable flat-rate. 30-day evaluation. No credit card required.
 
 Demo: https://atlantisndt.com/erp
 Email: info@atlantisndt.com
@@ -394,7 +394,7 @@ Email: info@atlantisndt.com
   - Odoo Studio no-code customizer included
 
 - **Submission tips:**
-  - SoftwareSuggest gets significant India SMB traffic — emphasize the Hyderabad office and Indian-rupee pricing (INR 15 lakh / year approximate) in the listing.
+  - SoftwareSuggest gets significant India SMB traffic — emphasize the Hyderabad office and India SMB-affordable pricing in the listing.
   - Add a downloadable PDF brochure — they index gated content positively.
   - Their "Customer Reviews" tab carries weight; line up 3-5 Indian customer reviews from your Hyderabad clients.
   - Include WhatsApp Business number in contact field (Indian buyers expect it).
@@ -410,14 +410,14 @@ Email: info@atlantisndt.com
   - Primary: **ERP Software**
   - Secondary: **CMMS Software**, **Asset Management Software**, **Quality Management Software**, **Field Service Software**, **Compliance Management**
 - **Short pitch (80 chars):**
-  `$18K/yr NDT ERP — 30+ Odoo apps, ASNT certs, API 510/570/653 preloaded.`
+  `Affordable NDT ERP — 30+ Odoo apps, ASNT certs, API 510/570/653 preloaded.`
 - **Tagline (200 chars):**
-  `The ERP built for non-destructive testing. Atlantis NDT delivers all 30+ Odoo 18 apps + ASNT/PCN/CSWIP certification tracking + API 510/570/653 workflows for $18,000/year. Fully customizable.`
+  `The ERP built for non-destructive testing. Atlantis NDT delivers all 30+ Odoo 18 apps + ASNT/PCN/CSWIP certification tracking + API 510/570/653 workflows at an affordable flat-rate. Fully customizable.`
 
 - **Long description (~1,800 chars):**
 
 ```
-Atlantis NDT ERP is purpose-built ERP for non-destructive testing companies, fabrication shops, calibration labs, pipeline integrity teams, and oil & gas operators. Built on Odoo 18 with every NDT-specific workflow preloaded — certification tracking, equipment calibration, work order templates, audit packs — at a flat $18,000/year price.
+Atlantis NDT ERP is purpose-built ERP for non-destructive testing companies, fabrication shops, calibration labs, pipeline integrity teams, and oil & gas operators. Built on Odoo 18 with every NDT-specific workflow preloaded — certification tracking, equipment calibration, work order templates, audit packs — at an affordable flat-rate.
 
 WHAT'S INCLUDED
 - All 30+ Odoo 18 apps: CRM, Sales, Inventory, Accounting, Manufacturing, Project, Maintenance, Quality, HR, Payroll, Field Service, Helpdesk, eCommerce, POS, Subscriptions, Studio, more
@@ -444,7 +444,7 @@ DEPLOYMENT
 Cloud-hosted (default) or on-premise. 30-day evaluation. No credit card.
 
 PRICING
-$18,000/year flat. Unlimited users. All apps included.
+Affordable flat-rate. Unlimited users. All apps included.
 
 Demo: https://atlantisndt.com/erp
 ```
@@ -469,7 +469,7 @@ Demo: https://atlantisndt.com/erp
   - Primary: **Enterprise Software**
   - Secondary: **Industrial Software**, **SaaS**, **Quality Assurance**, **Asset Management**, **Oil and Gas**
 - **Short pitch (80 chars):**
-  `Atlantis NDT — affordable ERP for non-destructive testing companies. $18K/yr.`
+  `Atlantis NDT — affordable ERP for non-destructive testing companies.`
 - **Tagline (200 chars):**
   `Atlantis NDT Inspection Services builds purpose-built ERP and digital twin software for the non-destructive testing industry. Founded 2023 in Houston, TX by ASNT Level III inspector Anoop Rayavarapu.`
 
@@ -479,9 +479,9 @@ Demo: https://atlantisndt.com/erp
 Atlantis NDT Inspection Services is a B2B SaaS company building purpose-built software for the global non-destructive testing (NDT) and asset integrity industry. Founded in 2023 in Houston, Texas by ASNT Level III certified inspector Anoop Rayavarapu, the company serves NDT service providers, oil & gas operators, fabrication shops, and calibration laboratories across North America, the Middle East, and Asia.
 
 PRODUCTS
-- Atlantis NDT ERP ($18,000/year): Odoo 18-based ERP with all 30+ apps plus preloaded ASNT, ISO 9712, PCN, CSWIP, NADCAP, and API 510/570/653 workflows
-- Atlantis Digital Twin Platform ($200,000/year): real-time 3D asset visualization with integrated NDT inspection data, AI-powered predictive maintenance, asset lifecycle management
-- NDT Reporting Software ($50,000/year): AI-powered inspection report generation with mobile data capture, multi-method support (UT/RT/MT/PT/VT/ET/TOFD/PA)
+- Atlantis NDT ERP (affordable flat-rate): Odoo 18-based ERP with all 30+ apps plus preloaded ASNT, ISO 9712, PCN, CSWIP, NADCAP, and API 510/570/653 workflows
+- Atlantis Digital Twin Platform (enterprise SaaS): real-time 3D asset visualization with integrated NDT inspection data, AI-powered predictive maintenance, asset lifecycle management
+- NDT Reporting Software (affordable SaaS): AI-powered inspection report generation with mobile data capture, multi-method support (UT/RT/MT/PT/VT/ET/TOFD/PA)
 - NDT Training & Consulting: ASNT Level I/II/III training programs
 
 COMPLIANCE
@@ -536,7 +536,7 @@ https://ndtconnect.com — "Uber for NDT" marketplace
 - **Short pitch (80 chars):**
   `Atlantis NDT — purpose-built ERP & digital twin software for inspection firms.`
 - **Tagline (200 chars):**
-  `Atlantis NDT builds the affordable NDT ERP ($18K/yr) and the enterprise Digital Twin Platform. Trusted by inspection companies, fabrication shops, and oil & gas operators across 3 continents.`
+  `Atlantis NDT builds the affordable NDT ERP and the enterprise Digital Twin Platform. Trusted by inspection companies, fabrication shops, and oil & gas operators across 3 continents.`
 
 - **Company description (~1,400 chars):**
 
@@ -545,11 +545,11 @@ Atlantis NDT Inspection Services builds software for the non-destructive testing
 
 OUR PRODUCTS
 
-Atlantis NDT ERP — the affordable ERP built for NDT companies. All 30+ Odoo 18 apps with ASNT, ISO 9712, PCN, CSWIP, NADCAP certification tracking and API 510/570/653 workflows preloaded. $18,000/year flat. Unlimited users. 30-day evaluation.
+Atlantis NDT ERP — the affordable ERP built for NDT companies. All 30+ Odoo 18 apps with ASNT, ISO 9712, PCN, CSWIP, NADCAP certification tracking and API 510/570/653 workflows preloaded. Affordable flat-rate. Unlimited users. 30-day evaluation.
 
-Atlantis Digital Twin Platform — real-time 3D asset visualization with integrated NDT inspection data, AI-powered predictive maintenance, and asset lifecycle management. $200,000/year enterprise SaaS.
+Atlantis Digital Twin Platform — real-time 3D asset visualization with integrated NDT inspection data, AI-powered predictive maintenance, and asset lifecycle management. Enterprise SaaS — accessible, customizable.
 
-NDT Reporting Software — AI-powered inspection report generation with offline-capable mobile capture. Multi-method (UT/RT/MT/PT/VT/ET/TOFD/PA). $50,000/year.
+NDT Reporting Software — AI-powered inspection report generation with offline-capable mobile capture. Multi-method (UT/RT/MT/PT/VT/ET/TOFD/PA). Affordable SaaS.
 
 WHO WE SERVE
 NDT service providers, oil & gas operators, fabrication shops, calibration laboratories, aerospace QC, marine surveyors, pipeline integrity firms. Customers in Houston, Calgary, Dubai, Saudi Arabia, Mumbai, Hyderabad, Singapore, London.

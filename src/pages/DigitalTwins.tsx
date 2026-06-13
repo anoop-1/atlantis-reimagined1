@@ -29,7 +29,7 @@ import {
    Ship,
    Zap,
    Building2,
-   MapPin,
+   MapPin
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -44,52 +44,52 @@ const URL = "https://atlantisndt.com/digital-twins";
 const dtFaqs = [
    {
       q: "How much does the Atlantis Digital Twin platform cost?",
-      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs.",
+      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs."
    },
    {
       q: "Can the Digital Twin run on-prem or air-gapped instead of in the cloud?",
-      a: "Yes. Atlantis ships three deployment topologies: (1) Multi-tenant SaaS on AWS us-east-1 / eu-west-2 / me-central-1 / ap-southeast-1 — ISO 27001 controls; (2) Single-tenant dedicated VPC for ADNOC, Aramco, KOC, QatarEnergy clients that need geo-fenced data; (3) Fully air-gapped on-prem Docker / Kubernetes deployment for nuclear (NRC 10 CFR 50 Appendix B), defense (DoD IL5, UK MOD), and offshore platforms with no permanent satellite uplink. On-prem requires a customer-supplied Linux host (RHEL 9, Ubuntu 22.04, Rocky 9) with 32 GB RAM, 8 vCPU, 2 TB SSD per node — Atlantis ships the offline installer, the license daemon, and the upgrade path quarterly via signed tarball. Same feature set across all three topologies; pricing same.",
+      a: "Yes. Atlantis ships three deployment topologies: (1) Multi-tenant SaaS on AWS us-east-1 / eu-west-2 / me-central-1 / ap-southeast-1 — ISO 27001 controls; (2) Single-tenant dedicated VPC for ADNOC, Aramco, KOC, QatarEnergy clients that need geo-fenced data; (3) Fully air-gapped on-prem Docker / Kubernetes deployment for nuclear (NRC 10 CFR 50 Appendix B), defense (DoD IL5, UK MOD), and offshore platforms with no permanent satellite uplink. On-prem requires a customer-supplied Linux host (RHEL 9, Ubuntu 22.04, Rocky 9) with 32 GB RAM, 8 vCPU, 2 TB SSD per node — Atlantis ships the offline installer, the license daemon, and the upgrade path quarterly via signed tarball. Same feature set across all three topologies; pricing same."
    },
    {
       q: "How long does an integration take from kickoff to first asset live?",
-      a: "Pilot asset live in 4-6 weeks for a single circuit (one storage tank, one piping circuit, one heat exchanger, or one pressure vessel). Plant-wide rollout for a typical 200-asset refinery is 6-9 months. Greenfield mega-projects (LNG terminal, petrochemical complex, FPSO commissioning) sit on a 12-18 month deployment plan that runs alongside the commissioning schedule. The Atlantis deployment team is fronted by an ASNT Level III engineer plus a solution architect; their first job in week 1 is reading your existing IDMS / EAM dump (Meridium, Maximo, AssetWise, Mtell), mapping functional locations, and standing up the data pipeline. By week 3 you have a live mesh, in week 4 the first inspection record renders on the twin, and by week 6 the first FFS calculation is approved by your Level III.",
+      a: "Pilot asset live in 4-6 weeks for a single circuit (one storage tank, one piping circuit, one heat exchanger, or one pressure vessel). Plant-wide rollout for a typical 200-asset refinery is 6-9 months. Greenfield mega-projects (LNG terminal, petrochemical complex, FPSO commissioning) sit on a 12-18 month deployment plan that runs alongside the commissioning schedule. The Atlantis deployment team is fronted by an ASNT Level III engineer plus a solution architect; their first job in week 1 is reading your existing IDMS / EAM dump (Meridium, Maximo, AssetWise, Mtell), mapping functional locations, and standing up the data pipeline. By week 3 you have a live mesh, in week 4 the first inspection record renders on the twin, and by week 6 the first FFS calculation is approved by your Level III."
    },
    {
       q: "Which inspection standards and regulatory codes does the platform support natively?",
-      a: "The platform implements API 510 (pressure vessels), API 570 (piping), API 653 (above-ground storage tanks), API 579-1 Fitness-For-Service (all four assessment levels), API 581 Risk-Based Inspection (POF + COF on the 5x5 matrix), API 580 framework, ASME BPVC Section V (NDE methods), ASME BPVC Section VIII (pressure vessel design), ASME B31.3 (process piping), ASME B31.8 (gas transmission), ASME PCC-2 (repair), ISO 9712 (NDT personnel qualification), ISO 17635 (welds NDT), NACE SP0102 (in-line inspection), NACE SP0169 (external corrosion), NORSOK N-005 (Norway), API RP 1160 (pipeline integrity), 49 CFR 192/195 (PHMSA US pipelines), and PED 2014/68/EU. Audit packages exportable for ADNOC PQQ, Aramco SAEP, QatarEnergy QPP, KOC tender, ONGC HVT-INSP, NRC, MOD, HSE PSSR.",
+      a: "The platform implements API 510 (pressure vessels), API 570 (piping), API 653 (above-ground storage tanks), API 579-1 Fitness-For-Service (all four assessment levels), API 581 Risk-Based Inspection (POF + COF on the 5x5 matrix), API 580 framework, ASME BPVC Section V (NDE methods), ASME BPVC Section VIII (pressure vessel design), ASME B31.3 (process piping), ASME B31.8 (gas transmission), ASME PCC-2 (repair), ISO 9712 (NDT personnel qualification), ISO 17635 (welds NDT), NACE SP0102 (in-line inspection), NACE SP0169 (external corrosion), NORSOK N-005 (Norway), API RP 1160 (pipeline integrity), 49 CFR 192/195 (PHMSA US pipelines), and PED 2014/68/EU. Audit packages exportable for ADNOC PQQ, Aramco SAEP, QatarEnergy QPP, KOC tender, ONGC HVT-INSP, NRC, MOD, HSE PSSR."
    },
    {
       q: "How is Atlantis Digital Twin different from a 3D CAD model or BIM file?",
-      a: "A CAD model is geometry — what was designed. A BIM file is geometry plus design metadata — bills of material, supplier specs, original installation drawings. The Atlantis Digital Twin is geometry plus the live operating record: as-found UT thickness grids, RT shot indexing, PAUT scan archives, MT/PT indication registers, weld-by-weld inspection history, FFS calculation outputs, RBI risk tier, IoT corrosion probe streams, plant historian process conditions, work-order linkage, and Level III approval trail. CAD shows you the design. BIM shows you the design plus the handover documents. Atlantis shows you what your asset actually is, today, including the parts of it that are corroding, the parts that have been repaired, and the parts that have a flagged anomaly waiting for a re-inspection.",
+      a: "A CAD model is geometry — what was designed. A BIM file is geometry plus design metadata — bills of material, supplier specs, original installation drawings. The Atlantis Digital Twin is geometry plus the live operating record: as-found UT thickness grids, RT shot indexing, PAUT scan archives, MT/PT indication registers, weld-by-weld inspection history, FFS calculation outputs, RBI risk tier, IoT corrosion probe streams, plant historian process conditions, work-order linkage, and Level III approval trail. CAD shows you the design. BIM shows you the design plus the handover documents. Atlantis shows you what your asset actually is, today, including the parts of it that are corroding, the parts that have been repaired, and the parts that have a flagged anomaly waiting for a re-inspection."
    },
    {
       q: "What NDT data sources and inspection methods does the Digital Twin ingest?",
-      a: "Native ingestion from: Atlantis NDT Reporting Software (real-time push); Olympus / Evident Epoch 650, OmniScan X3, MX2 thickness gauges; Eddyfi M2M Gekko / Mantis, Magnifi (ET), Tecscan PAUT systems; Sonatest Veo, RapidScan, Wave; GE / Waygate Krautkramer USM 36 and Mentor UT; ZETEC Topaz PAUT and AUT systems; Pipeline ILI exports from Rosen, NDT Global, Baker Hughes, ROSEN ILI MFL/UT, T.D. Williamson SmartCat; Drone RT and visual surveys from Cyberhawk, Industrial Skyworks, Skyworx; IoT corrosion probes (Permasense, Cosasco, ROXAR FSM, Emerson Pervasive Sensing); Plant historian (OSIsoft PI, Honeywell PHD, Aspen IP.21, AVEVA PI System); CMMS / EAM (SAP PM, Maximo, Meridium APM, AssetWise, Mtell, ABB Ability, GE Vernova APM). All eight conventional NDT methods plus PAUT, TOFD, AUT, ToFD, TFM, FMC, MFL, IRIS, and DSI are supported with method-specific data schemas.",
+      a: "Native ingestion from: Atlantis NDT Reporting Software (real-time push); Olympus / Evident Epoch 650, OmniScan X3, MX2 thickness gauges; Eddyfi M2M Gekko / Mantis, Magnifi (ET), Tecscan PAUT systems; Sonatest Veo, RapidScan, Wave; GE / Waygate Krautkramer USM 36 and Mentor UT; ZETEC Topaz PAUT and AUT systems; Pipeline ILI exports from Rosen, NDT Global, Baker Hughes, ROSEN ILI MFL/UT, T.D. Williamson SmartCat; Drone RT and visual surveys from Cyberhawk, Industrial Skyworks, Skyworx; IoT corrosion probes (Permasense, Cosasco, ROXAR FSM, Emerson Pervasive Sensing); Plant historian (OSIsoft PI, Honeywell PHD, Aspen IP.21, AVEVA PI System); CMMS / EAM (SAP PM, Maximo, Meridium APM, AssetWise, Mtell, ABB Ability, GE Vernova APM). All eight conventional NDT methods plus PAUT, TOFD, AUT, ToFD, TFM, FMC, MFL, IRIS, and DSI are supported with method-specific data schemas."
    },
    {
       q: "How does the platform handle data security for OT and critical infrastructure?",
-      a: "We follow IEC 62443 zone-and-conduit guidance for industrial control system integration. Plant historian and OT-network connectors are read-only through a DMZ — no write path from the twin into the control system, ever. SaaS tenancy is secured to enterprise standards and reviewed annually by an independent firm; ISO 27001 controls are mapped one-to-one. Penetration tests run quarterly by an NIST-aligned external firm with publicly reported findings. CVE disclosure has a 90-day window per industry convention. All inspection data writes to the twin are SHA-256 hash-chained with timestamp + authenticated user — an immutable audit log that regulators (ADNOC, NRC, HSE, PSA Norway) can spot-check. Air-gapped on-prem deployment is available for nuclear, defense, and any client whose risk appetite requires zero internet egress.",
+      a: "We follow IEC 62443 zone-and-conduit guidance for industrial control system integration. Plant historian and OT-network connectors are read-only through a DMZ — no write path from the twin into the control system, ever. SaaS tenancy is secured to enterprise standards and reviewed annually by an independent firm; ISO 27001 controls are mapped one-to-one. Penetration tests run quarterly by an NIST-aligned external firm with publicly reported findings. CVE disclosure has a 90-day window per industry convention. All inspection data writes to the twin are SHA-256 hash-chained with timestamp + authenticated user — an immutable audit log that regulators (ADNOC, NRC, HSE, PSA Norway) can spot-check. Air-gapped on-prem deployment is available for nuclear, defense, and any client whose risk appetite requires zero internet egress."
    },
    {
       q: "What sample size or asset count do I need before a Digital Twin makes ROI sense?",
-      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because RBI optimization, FFS automation, and turnaround scope reduction scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months.",
+      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because RBI optimization, FFS automation, and turnaround scope reduction scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months."
    },
    {
       q: "Does the Digital Twin integrate with my existing CMMS / EAM and inspection management systems?",
-      a: "Yes — two-way integration with SAP Plant Maintenance, IBM Maximo Application Suite, Hexagon Meridium APM, AspenTech Mtell, GE Vernova APM, Bentley AssetWise, ABB Ability, Microsoft Dynamics 365 Field Service, Salesforce Field Service, and Oracle EAM. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript.",
+      a: "Yes — two-way integration with SAP Plant Maintenance, IBM Maximo Application Suite, Hexagon Meridium APM, AspenTech Mtell, GE Vernova APM, Bentley AssetWise, ABB Ability, Microsoft Dynamics 365 Field Service, Salesforce Field Service, and Oracle EAM. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
    },
    {
       q: "What hardware do I need at site for inspectors and integrity engineers?",
-      a: "Browser-first design — the twin runs on any modern Chromium-class browser via WebGL, no plugin install, no thick client. A standard Dell Latitude 5440, Lenovo ThinkPad T16, or MacBook Air M3 with 16 GB RAM streams a 200-asset refinery scene at >30 FPS. Inspectors at site use the iOS / Android viewer-only app for data capture (offline-capable, syncs when 4G or wifi appears). Integrity engineers and Level III approvers prefer the desktop fat-client on Windows or Mac for very large meshes >500 MB. No VR / AR hardware is required; WebXR support for Meta Quest 3 and Apple Vision Pro is in beta with Q3 2026 GA targeted. No GPU farm, no on-site server, no specialized network — the asset is a SaaS endpoint or an on-prem container, not a hardware appliance.",
+      a: "Browser-first design — the twin runs on any modern Chromium-class browser via WebGL, no plugin install, no thick client. A standard Dell Latitude 5440, Lenovo ThinkPad T16, or MacBook Air M3 with 16 GB RAM streams a 200-asset refinery scene at >30 FPS. Inspectors at site use the iOS / Android viewer-only app for data capture (offline-capable, syncs when 4G or wifi appears). Integrity engineers and Level III approvers prefer the desktop fat-client on Windows or Mac for very large meshes >500 MB. No VR / AR hardware is required; WebXR support for Meta Quest 3 and Apple Vision Pro is in beta with Q3 2026 GA targeted. No GPU farm, no on-site server, no specialized network — the asset is a SaaS endpoint or an on-prem container, not a hardware appliance."
    },
    {
       q: "What training does my team need to operate the Digital Twin?",
-      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (b) Integrity engineer — 16 hours over two days, covering FFS workflow on the twin, RBI tier review, anomaly triage, work-order generation. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, FFS Level 1 vs Level 2 vs Level 3 routing, and regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT Level III, API 510/570/653 authorized inspector) personally signs off on the integrity-engineer curriculum.",
+      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (b) Integrity engineer — 16 hours over two days, covering FFS workflow on the twin, RBI tier review, anomaly triage, work-order generation. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, FFS Level 1 vs Level 2 vs Level 3 routing, and regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT Level III, API 510/570/653 authorized inspector) personally signs off on the integrity-engineer curriculum."
    },
    {
       q: "How does the platform scale from a pilot to a full enterprise rollout?",
-      a: "Scale is engineered in from day one. The data model partitions per-asset, per-tenant; rendering uses level-of-detail mesh decimation so a 5,000-asset refinery scene loads at the same speed as a 50-asset pilot. Tenant sharding lives at the AWS account boundary for large customers (Aramco, ADNOC, Shell, ExxonMobil) so noisy-neighbor risk is structurally eliminated. The deployment pattern we recommend: pilot on one circuit (week 1-6), validate against your Level III's existing workflow, expand to one full unit (month 2-4), expand to a full plant (month 5-9), then horizontal expansion across the operator's portfolio at 1-2 plants per quarter. We've executed this exact pattern across Gulf Coast operators and ADNOC group companies — the playbook is documented and repeatable.",
-   },
+      a: "Scale is engineered in from day one. The data model partitions per-asset, per-tenant; rendering uses level-of-detail mesh decimation so a 5,000-asset refinery scene loads at the same speed as a 50-asset pilot. Tenant sharding lives at the AWS account boundary for large customers (Aramco, ADNOC, Shell, ExxonMobil) so noisy-neighbor risk is structurally eliminated. The deployment pattern we recommend: pilot on one circuit (week 1-6), validate against your Level III's existing workflow, expand to one full unit (month 2-4), expand to a full plant (month 5-9), then horizontal expansion across the operator's portfolio at 1-2 plants per quarter. We've executed this exact pattern across Gulf Coast operators and ADNOC group companies — the playbook is documented and repeatable."
+   }
 ];
 
 // ──────────────────────────────────────────────────────────────────────────────
@@ -100,50 +100,50 @@ const capabilities = [
       icon: Layers,
       title: "Corrosion mapping & UT thickness grids",
       blurb:
-         "Project conventional UT spot readings, automated UT scan grids, IRIS bundle data, and PAUT corrosion mapping directly onto the 3D mesh as a heat map. Compare against design thickness, calculate corrosion rate from inspection-to-inspection delta, project remaining life under API 581 generic and operator-specific corrosion-rate models.",
+         "Project conventional UT spot readings, automated UT scan grids, IRIS bundle data, and PAUT corrosion mapping directly onto the 3D mesh as a heat map. Compare against design thickness, calculate corrosion rate from inspection-to-inspection delta, project remaining life under API 581 generic and operator-specific corrosion-rate models."
    },
    {
       icon: Gauge,
       title: "API 579-1 Fitness-For-Service",
       blurb:
-         "All four FFS assessment levels embedded: Level 1 screening (LTA, general metal loss, local thin areas), Level 2 detailed assessment (RSF, MAWP rerate, blister, gouge), Level 3 advanced (FEA-driven, brittle fracture, creep) via partner FEA integration. Outputs route through your ASNT Level III for final approval, audit-logged to the asset record.",
+         "All four FFS assessment levels embedded: Level 1 screening (LTA, general metal loss, local thin areas), Level 2 detailed assessment (RSF, MAWP rerate, blister, gouge), Level 3 advanced (FEA-driven, brittle fracture, creep) via partner FEA integration. Outputs route through your ASNT Level III for final approval, audit-logged to the asset record."
    },
    {
       icon: BarChart3,
       title: "API 581 Risk-Based Inspection",
       blurb:
-         "Damage factor + consequence factor calculations on a 5x5 risk matrix per equipment item or per TML circuit. POF accounts for the eleven damage mechanisms in API 581 Section 4 (thinning, SCC, HTHA, brittle fracture, fatigue, ext. corrosion, CUI, lining). COF runs both financial and area-based models per Section 5. Inspection plan output feeds the EAM as work orders.",
+         "Damage factor + consequence factor calculations on a 5x5 risk matrix per equipment item or per TML circuit. POF accounts for the eleven damage mechanisms in API 581 Section 4 (thinning, SCC, HTHA, brittle fracture, fatigue, ext. corrosion, CUI, lining). COF runs both financial and area-based models per Section 5. Inspection plan output feeds the EAM as work orders."
    },
    {
       icon: Activity,
       title: "AUT, PAUT, TOFD & advanced UT integration",
       blurb:
-         "Native ingestion of phased-array scan files from Olympus OmniScan X3, Eddyfi Gekko / Mantis, Tecscan, ZETEC Topaz, Sonatest, GE Mentor UT, plus TOFD parabola archives and Total Focusing Method (TFM) frames. Scan data is geo-tagged to the exact weld or component on the mesh, sliceable on the twin, replay-able for arbitration during turnarounds.",
+         "Native ingestion of phased-array scan files from Olympus OmniScan X3, Eddyfi Gekko / Mantis, Tecscan, ZETEC Topaz, Sonatest, GE Mentor UT, plus TOFD parabola archives and Total Focusing Method (TFM) frames. Scan data is geo-tagged to the exact weld or component on the mesh, sliceable on the twin, replay-able for arbitration during turnarounds."
    },
    {
       icon: Database,
       title: "Fleet & portfolio view",
       blurb:
-         "Multi-asset, multi-site, multi-region rollups. Integrity managers running 4-12 plants see comparative risk distributions, inspection-due lists, and capex prioritization on a single screen. Drill from fleet → site → unit → equipment → component → reading in three clicks. Powers the quarterly integrity review packet that goes to the VP HSE or the asset committee.",
+         "Multi-asset, multi-site, multi-region rollups. Integrity managers running 4-12 plants see comparative risk distributions, inspection-due lists, and capex prioritization on a single screen. Drill from fleet → site → unit → equipment → component → reading in three clicks. Powers the quarterly integrity review packet that goes to the VP HSE or the asset committee."
    },
    {
       icon: Workflow,
       title: "Defect lifecycle & anomaly management",
       blurb:
-         "Every indication (whether crack, pit, blister, dent, gouge, lamination, weld discontinuity, HIC) is a first-class object with status (open, monitored, repaired, accepted), assignment, due-date, FFS justification, and Level III sign-off chain. Trend defect growth over multi-year inspection history. Searchable by mechanism, method, severity, location, inspector, vendor.",
+         "Every indication (whether crack, pit, blister, dent, gouge, lamination, weld discontinuity, HIC) is a first-class object with status (open, monitored, repaired, accepted), assignment, due-date, FFS justification, and Level III sign-off chain. Trend defect growth over multi-year inspection history. Searchable by mechanism, method, severity, location, inspector, vendor."
    },
    {
       icon: FileCheck,
       title: "Regulatory reporting (API 510 / 570 / 653)",
       blurb:
-         "One-click PDF/A audit packages aligned to API 510 inspection records, API 570 piping integrity reports, API 653 tank inspection reports, ASME PCC-2 repair filings, PED PSSR 2000 reports, PESO (India), and 49 CFR 192/195 PHMSA submittals. Hash-chained immutable trail behind every export. Authorized inspector (AI) signature workflow with crypto-backed signatures.",
+         "One-click PDF/A audit packages aligned to API 510 inspection records, API 570 piping integrity reports, API 653 tank inspection reports, ASME PCC-2 repair filings, PED PSSR 2000 reports, PESO (India), and 49 CFR 192/195 PHMSA submittals. Hash-chained immutable trail behind every export. Authorized inspector (AI) signature workflow with crypto-backed signatures."
    },
    {
       icon: Server,
       title: "Digital handover & turnover from EPC",
       blurb:
-         "Greenfield EPC and brownfield revamps deliver a complete asset twin at mechanical completion. Atlantis ingests IFC models from Bentley OpenPlant, Hexagon SmartPlant 3D, AVEVA E3D Design, AutoCAD Plant 3D, Intergraph Smart 3D — plus point clouds from FARO, Leica, Trimble — and reconciles them into the operating twin. End-to-end handover from commissioning data through to year-30 retirement.",
-   },
+         "Greenfield EPC and brownfield revamps deliver a complete asset twin at mechanical completion. Atlantis ingests IFC models from Bentley OpenPlant, Hexagon SmartPlant 3D, AVEVA E3D Design, AutoCAD Plant 3D, Intergraph Smart 3D — plus point clouds from FARO, Leica, Trimble — and reconciles them into the operating twin. End-to-end handover from commissioning data through to year-30 retirement."
+   }
 ];
 
 // ──────────────────────────────────────────────────────────────────────────────
@@ -154,32 +154,32 @@ const industriesServed = [
       icon: Droplets,
       name: "Oil & Gas",
       useCase: "FPSO hulls, refinery pressure vessels, sour-gas piping, atmospheric storage tanks — full API 510 / 570 / 653 / 579 / 581 stack in one twin.",
-      href: "/ndt-for-oil-gas",
+      href: "/ndt-for-oil-gas"
    },
    {
       icon: Zap,
       name: "Power Generation",
       useCase: "Boiler pressure parts, HRSG superheater tubes, steam piping, condenser tube bundles — ECT and IRIS tube-bundle data overlaid for outage planning.",
-      href: "/ndt-for-power-generation",
+      href: "/ndt-for-power-generation"
    },
    {
       icon: Plane,
       name: "Aerospace",
       useCase: "Engine borescope inspection records, airframe fatigue tracking, composite delamination mapping — ISO 9712 personnel qualification audit trail.",
-      href: "/ndt-for-aerospace",
+      href: "/ndt-for-aerospace"
    },
    {
       icon: Ship,
       name: "Marine & Offshore",
       useCase: "Ballast tank coating breakdown, hull plate thickness, jacket-leg cathodic protection — class survey alignment (DNV, ABS, Lloyd's, BV).",
-      href: "/marine-offshore-ndt-services",
+      href: "/marine-offshore-ndt-services"
    },
    {
       icon: Atom,
       name: "Nuclear",
       useCase: "Steam generator tubes, RPV head penetrations, ASME Section XI ISI program tracking — air-gapped deployment satisfies NRC 10 CFR 50 Appendix B.",
-      href: "/nuclear-ndt-services",
-   },
+      href: "/nuclear-ndt-services"
+   }
 ];
 
 // ──────────────────────────────────────────────────────────────────────────────
@@ -192,7 +192,7 @@ const vendorCompare = [
       ndtNative: "No — CAD/BIM lineage; NDT requires custom integration",
       level3: "Not embedded — partner integrators only",
       pricing: "On request",
-      deploy: "Cloud SaaS; limited on-prem",
+      deploy: "Cloud SaaS; limited on-prem"
    },
    {
       vendor: "Hexagon HxDR / Meridium APM",
@@ -200,7 +200,7 @@ const vendorCompare = [
       ndtNative: "Partial — Meridium APM has CML; HxDR is reality capture",
       level3: "External consulting required",
       pricing: "On request",
-      deploy: "Cloud or on-prem; complex install",
+      deploy: "Cloud or on-prem; complex install"
    },
    {
       vendor: "AVEVA PI System",
@@ -208,7 +208,7 @@ const vendorCompare = [
       ndtNative: "No — process historian first; NDT bolted on",
       level3: "Not part of platform",
       pricing: "On request",
-      deploy: "On-prem + cloud hybrid",
+      deploy: "On-prem + cloud hybrid"
    },
    {
       vendor: "GE Predix / Vernova APM",
@@ -216,7 +216,7 @@ const vendorCompare = [
       ndtNative: "Limited — APM Mechanical Integrity module is add-on",
       level3: "External SI engagement",
       pricing: "On request",
-      deploy: "Cloud-first; on-prem deprecated",
+      deploy: "Cloud-first; on-prem deprecated"
    },
    {
       vendor: "Siemens MindSphere / Xcelerator",
@@ -224,7 +224,7 @@ const vendorCompare = [
       ndtNative: "No — IIoT and analytics; NDT is custom build",
       level3: "Customer-supplied",
       pricing: "On request",
-      deploy: "Cloud SaaS only",
+      deploy: "Cloud SaaS only"
    },
    {
       vendor: "IBM Maximo Application Suite",
@@ -232,7 +232,7 @@ const vendorCompare = [
       ndtNative: "Partial — Maximo Health & APM Predict; CML add-on",
       level3: "Not included",
       pricing: "On request",
-      deploy: "Cloud or Red Hat OpenShift on-prem",
+      deploy: "Cloud or Red Hat OpenShift on-prem"
    },
    {
       vendor: "AspenTech Mtell",
@@ -240,8 +240,8 @@ const vendorCompare = [
       ndtNative: "No — ML-led predictive maintenance; rotating equipment focus",
       level3: "Not embedded",
       pricing: "On request",
-      deploy: "Cloud or on-prem",
-   },
+      deploy: "Cloud or on-prem"
+   }
 ];
 
 // ──────────────────────────────────────────────────────────────────────────────
@@ -259,7 +259,7 @@ const assetUseCases = [
    { name: "Offshore platform", href: "/digital-twins/offshore-platform" },
    { name: "Petrochemical complex", href: "/digital-twins/petrochemical-complex" },
    { name: "Subsea systems", href: "/digital-twins/subsea" },
-   { name: "Data center", href: "/digital-twins/data-center" },
+   { name: "Data center", href: "/digital-twins/data-center" }
 ];
 
 // ──────────────────────────────────────────────────────────────────────────────
@@ -285,7 +285,7 @@ const dtCities = [
    { name: "Kuala Lumpur", href: "/digital-twin-kuala-lumpur" },
    { name: "Lagos", href: "/digital-twin-lagos" },
    { name: "New Orleans", href: "/digital-twin-new-orleans" },
-   { name: "Denver", href: "/digital-twin-denver" },
+   { name: "Denver", href: "/digital-twin-denver" }
 ];
 
 // ──────────────────────────────────────────────────────────────────────────────
@@ -297,22 +297,22 @@ const models = [
       path: "/jet_engine.glb",
       component: InteractiveJet,
       description:
-         "Aerospace engine twin with borescope inspection records and PT/MT indication tagging on rotating components.",
+         "Aerospace engine twin with borescope inspection records and PT/MT indication tagging on rotating components."
    },
    {
       name: "Industrial Plant",
       path: "/generic_factory_with_smoke_towers.glb",
       component: InteractivePlant,
       description:
-         "Refinery / petrochemical plant scene — pressure vessels, exchangers, fired heaters, and piping circuits.",
+         "Refinery / petrochemical plant scene — pressure vessels, exchangers, fired heaters, and piping circuits."
    },
    {
       name: "Storage Tank",
       path: "/propane_tank.glb",
       component: InteractivePipe,
       description:
-         "Atmospheric or pressurized storage tank twin — floor MFL, shell UT grids, API 653 audit trail.",
-   },
+         "Atmospheric or pressurized storage tank twin — floor MFL, shell UT grids, API 653 audit trail."
+   }
 ];
 
 export default function DigitalTwins() {
@@ -336,7 +336,7 @@ export default function DigitalTwins() {
             keywords:
                "digital twin NDT software, NDT digital twin platform, API 579 FFS, API 581 RBI, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity software, ASNT Level III, predictive maintenance",
             dependencies:
-               "API 510, API 570, API 653, API 579-1, API 581, ASME BPVC Section V, ASME BPVC Section VIII, ISO 9712, ISO 17635, IEC 62443, NORSOK N-005, NRC 10 CFR 50 Appendix B",
+               "API 510, API 570, API 653, API 579-1, API 581, ASME BPVC Section V, ASME BPVC Section VIII, ISO 9712, ISO 17635, IEC 62443, NORSOK N-005, NRC 10 CFR 50 Appendix B"
          }),
          { "@type": "Organization", "@id": "https://atlantisndt.com/#organization", ...ATLANTIS_PUBLISHER },
          { "@type": "Person", "@id": "https://atlantisndt.com/#anoop-rayavarapu", ...ATLANTIS_AUTHOR_ANOOP },
@@ -361,17 +361,17 @@ export default function DigitalTwins() {
                { "@type": "Country", "name": "Netherlands" },
                { "@type": "Country", "name": "Qatar" },
                { "@type": "Country", "name": "Kuwait" },
-               { "@type": "Country", "name": "Oman" },
+               { "@type": "Country", "name": "Oman" }
             ],
             "hasOfferCatalog": {
                "@type": "OfferCatalog",
                "name": "Digital Twin Platform Tiers",
                "itemListElement": [
-                  { "@type": "Offer", "name": "Enterprise SaaS — up to 500 assets", "price": "200000", "priceCurrency": "USD" },
-                  { "@type": "Offer", "name": "Per-asset onboarding (3D mesh + connectors)", "price": "15000", "priceCurrency": "USD" },
-                  { "@type": "Offer", "name": "Multi-tenant / air-gap enterprise", "price": "400000", "priceCurrency": "USD" },
-               ],
-            },
+                  { "@type": "Offer", "name": "Enterprise SaaS — up to 500 assets", "availability": "https://schema.org/InStock" },
+                  { "@type": "Offer", "name": "Per-asset onboarding (3D mesh + connectors)", "availability": "https://schema.org/InStock" },
+                  { "@type": "Offer", "name": "Multi-tenant / air-gap enterprise", "availability": "https://schema.org/InStock" }
+               ]
+            }
          },
          {
             "@type": "Product",
@@ -386,10 +386,7 @@ export default function DigitalTwins() {
             "offers": {
                "@type": "Offer",
                "url": URL,
-               "price": "200000",
-               "priceCurrency": "USD",
-               "priceValidUntil": "2027-12-31",
-               "availability": "https://schema.org/InStock",
+                              "availability": "https://schema.org/InStock",
                "seller": { "@id": "https://atlantisndt.com/#organization" },
                "eligibleRegion": [
                   { "@type": "Country", "name": "United States" },
@@ -403,16 +400,16 @@ export default function DigitalTwins() {
                   { "@type": "Country", "name": "Norway" },
                   { "@type": "Country", "name": "Qatar" },
                   { "@type": "Country", "name": "Kuwait" },
-                  { "@type": "Country", "name": "Oman" },
-               ],
+                  { "@type": "Country", "name": "Oman" }
+               ]
             },
             "aggregateRating": {
                "@type": "AggregateRating",
                "ratingValue": "4.8",
                "ratingCount": "125",
                "bestRating": "5",
-               "worstRating": "1",
-            },
+               "worstRating": "1"
+            }
          },
          {
             "@type": "SoftwareApplication",
@@ -429,11 +426,8 @@ export default function DigitalTwins() {
                "Browser WebGL 3D • UT thickness heat-map overlay • RT defect localization • MT/PT indication tagging • API 579-1 FFS calculations • API 581 RBI engine • Predictive maintenance (corrosion-rate regression, anomaly detection, Bayesian RUL) • CMMS / EAM integration • Plant historian ingestion • IEC 62443 OT security • SHA-256 hash chain audit log • ASNT Level III approval workflow",
             "offers": {
                "@type": "Offer",
-               "url": URL,
-               "price": "200000",
-               "priceCurrency": "USD",
-               "priceValidUntil": "2027-12-31",
-            },
+               "url": URL
+                           }
          },
          {
             "@type": "FAQPage",
@@ -441,18 +435,18 @@ export default function DigitalTwins() {
             "mainEntity": dtFaqs.map(f => ({
                "@type": "Question",
                "name": f.q,
-               "acceptedAnswer": { "@type": "Answer", "text": f.a },
-            })),
+               "acceptedAnswer": { "@type": "Answer", "text": f.a }
+            }))
          },
          {
             "@type": "BreadcrumbList",
             "@id": `${URL}#breadcrumb`,
             "itemListElement": [
                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
-               { "@type": "ListItem", "position": 2, "name": "Digital Twins", "item": URL },
-            ],
-         },
-      ],
+               { "@type": "ListItem", "position": 2, "name": "Digital Twins", "item": URL }
+            ]
+         }
+      ]
    };
 
    return (
@@ -773,7 +767,7 @@ export default function DigitalTwins() {
                               "Cloud SaaS (AWS) or single-tenant dedicated VPC",
                               "ISO 27001 controls",
                               "Source-code escrow with Iron Mountain",
-                              "24x7 support, 99.9% SLA",
+                              "24x7 support, 99.9% SLA"
                            ].map(item => (
                               <li key={item} className="flex items-start gap-2">
                                  <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
@@ -800,7 +794,7 @@ export default function DigitalTwins() {
                               "Custom regulatory export packages (Aramco SAEP, ADNOC PQQ, QatarEnergy QPP, KOC, ONGC)",
                               "FedRAMP / IRAP / C5 alignment available",
                               "Source-code escrow + on-site escrow keys",
-                              "Per-plant onboarding scoped to your facility",
+                              "Per-plant onboarding scoped to your facility"
                            ].map(item => (
                               <li key={item} className="flex items-start gap-2">
                                  <CheckCircle className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />

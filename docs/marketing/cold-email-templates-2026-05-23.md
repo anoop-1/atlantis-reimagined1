@@ -3,7 +3,7 @@
 **Sender persona:** Mark Harrison, Business Development Manager (alt: Anoop Rayavarapu, Founder)
 **Sender email:** sales@atlantisndt.com (BCC: anoop@atlantisinspection.com)
 **Volume target:** 200/day via Atlantis Marketing Agent
-**Style:** Human, conversational, no corporate-speak. Specific pain. $18K/yr price up front. P.S. line with social proof.
+**Style:** Human, conversational, no corporate-speak. Specific pain. Affordable positioning up front. P.S. line with social proof.
 
 ## Personalization tokens (used across all templates)
 
@@ -35,7 +35,7 @@ Saw {{company}} on a recent {{city}} bid list — looks like you're running 4+ m
 
 Quick question: how's your CMMS holding up? Most {{city}} inspection firms tell me Maximo or SAP costs $80K-150K/year just for licenses, plus another $50K to make it "NDT-aware" with ASNT certifications and API 510/570 workflows.
 
-We built Atlantis NDT ERP because of that exact problem. $18,000/year flat — all 30+ Odoo apps included, plus ASNT/PCN/CSWIP tracking, API 510/570/653 templates, SAEP-1112 evidence packs, and a field tablet app pre-loaded out of the box.
+We built Atlantis NDT ERP because of that exact problem. Affordable flat-rate — all 30+ Odoo apps included, plus ASNT/PCN/CSWIP tracking, API 510/570/653 templates, SAEP-1112 evidence packs, and a field tablet app pre-loaded out of the box.
 
 Worth a 15-min look? I can show your team the dashboard our Houston customers use to cut admin time 60-80%.
 
@@ -67,7 +67,7 @@ There's a better way.
 
 Atlantis NDT ERP is the only ERP that auto-generates SAEP-1112 (and ADNOC ICS-RBI, and QP QFC-AMF) evidence packs in one click — pulling live from your certs, calibrations, and inspection register. We built it because I'm ex-Aramco and got tired of the manual grind.
 
-$18,000/year, all 30+ Odoo apps included. Unlimited users. NDT-ready out of the box (PCN, CSWIP, ISO 9712 too).
+Affordable flat-rate, all 30+ Odoo apps included. Unlimited users. NDT-ready out of the box (PCN, CSWIP, ISO 9712 too).
 
 Want a 15-min screen-share showing your team how the SAEP pack assembles itself?
 
@@ -94,7 +94,7 @@ https://atlantisndt.com/ndt-erp-saudi-arabia?utm_source=email&utm_medium=cold&ut
 
 Quick note from one founder to another — I'm Anoop, ASNT Level III, originally from {{city}}. Built Atlantis NDT ERP because every Indian inspection firm I knew was wrestling with Tally + 5 spreadsheets.
 
-INR 15 lakh per year. All 30+ Odoo 18 modules included. Unlimited users. GST + e-invoicing ready. ASNT, ISO 9712, BARC, BGAS-CSWIP cert tracking built in. Mobile field app works offline (because we know rural sites have patchy 4G).
+Affordable India pricing. All 30+ Odoo 18 modules included. Unlimited users. GST + e-invoicing ready. ASNT, ISO 9712, BARC, BGAS-CSWIP cert tracking built in. Mobile field app works offline (because we know rural sites have patchy 4G).
 
 Plus we have a Hyderabad office, so support is in your timezone with someone who speaks your language.
 
@@ -133,7 +133,7 @@ Atlantis NDT ERP is built for welding + fab + NDT under one roof:
 - Manufacturer's Data Report (MDR) auto-assembles at delivery
 - All 30+ Odoo apps (accounting, payroll, invoicing) included
 
-$18,000/year flat. No per-seat. No "modules upgrade" upsell.
+Affordable flat-rate. No per-seat. No "modules upgrade" upsell.
 
 Worth a 15-min look? I can pull up a real customer's MDR auto-gen as a demo.
 
@@ -169,7 +169,7 @@ Atlantis NDT ERP is the only platform that flips this on its head:
 - Document control built in (no separate QMS subscription)
 - Plus all 30+ Odoo apps — invoicing, accounting, CRM, HR, etc.
 
-$18,000/year. Unlimited users. 30-day evaluation.
+Affordable flat-rate. Unlimited users. 30-day evaluation.
 
 Worth a 15-min look at the audit-prep dashboard?
 
@@ -195,7 +195,7 @@ https://atlantisndt.com/erp?utm_source=email&utm_medium=cold&utm_campaign=tpl5-c
 ```
 {{first_name}},
 
-I bet {{company}} runs API 570 RBI in Excel. Most pipeline integrity firms do — because Bentley AssetWise costs $200K/year and Synergi is even more.
+I bet {{company}} runs API 570 RBI in Excel. Most pipeline integrity firms do — because Bentley AssetWise costs enterprise tier/year and Synergi is even more.
 
 Atlantis NDT ERP includes RBI natively:
 - Asset register with CMLs (condition monitoring locations) per pipeline segment
@@ -205,7 +205,7 @@ Atlantis NDT ERP includes RBI natively:
 - Inspection work order auto-created 60 days ahead of due date
 - Plus all 30+ Odoo apps included
 
-$18,000/year flat. Unlimited users. NDT-ready out of the box (ASNT, PCN, CSWIP, API 510/570/653).
+Affordable flat-rate. Unlimited users. NDT-ready out of the box (ASNT, PCN, CSWIP, API 510/570/653).
 
 15-min look? I'll show you the RBI dashboard we built with a Houston pipeline-integrity customer.
 
@@ -241,7 +241,7 @@ Atlantis NDT ERP is one of the few that handles class-society reporting natively
 - Multi-currency invoicing (USD, EUR, SGD, INR)
 - Plus all 30+ Odoo apps included
 
-$18,000/year flat.
+Affordable flat-rate.
 
 Want a 15-min walkthrough? I'll show you the dispatch board a Singapore marine-survey firm uses.
 
@@ -277,7 +277,7 @@ Atlantis NDT ERP collapses NADCAP prep from 2 weeks to 2 hours:
 - AS9100 + ISO 9001 doc control in one
 - Plus all 30+ Odoo apps included
 
-$18,000/year flat. Unlimited users.
+Affordable flat-rate. Unlimited users.
 
 15-min walkthrough? I'll show the NADCAP-prep dashboard.
 
@@ -313,7 +313,7 @@ Atlantis NDT ERP merges asset + corrosion + inspection in one workflow:
 - Field tech app for run reports (offline-capable, no cell)
 - Plus all 30+ Odoo apps (accounting, payroll, invoicing) included
 
-$18,000/year flat. Unlimited users. NDT-ready.
+Affordable flat-rate. Unlimited users. NDT-ready.
 
 15-min look? Happy to walk through with someone on your tool ops team.
 
@@ -349,7 +349,7 @@ Atlantis NDT ERP includes a CRM purpose-built for training:
 - Online course delivery (Moodle/LMS-compatible)
 - Plus the rest of Odoo — invoicing, payroll, marketing, eCommerce for selling sample kits
 
-$18,000/year. Unlimited users.
+Affordable flat-rate. Unlimited users.
 
 15-min look? I'll show a real customer's instructor schedule + corporate-account dashboard.
 
@@ -379,7 +379,7 @@ You signed up for NDT Connect ({{recent_signal}}) — thanks for joining the mar
 
 Quick heads-up about our sister product, in case it's useful:
 
-We also build Atlantis NDT ERP — purpose-built ERP for inspection companies. All 30+ Odoo 18 apps + ASNT/PCN/CSWIP tracking + API 510/570/653 workflows. $18,000/year flat. Unlimited users.
+We also build Atlantis NDT ERP — purpose-built ERP for inspection companies. All 30+ Odoo 18 apps + ASNT/PCN/CSWIP tracking + API 510/570/653 workflows. Affordable flat-rate. Unlimited users.
 
 If you're tired of bouncing between Tally, Maximo, Outlook, and 5 spreadsheets, it might be worth 15 minutes.
 
@@ -420,7 +420,7 @@ No pitch. If the number is interesting, we can talk. If not, you have a useful n
 Mark
 {{sender_phone}}
 
-P.S. The ERP ($18K/yr) is still on the menu — same offer, 30-day eval.
+P.S. The ERP (affordable flat-rate) is still on the menu — same offer, 30-day eval.
 ```
 
 ---
@@ -436,7 +436,7 @@ P.S. The ERP ($18K/yr) is still on the menu — same offer, 30-day eval.
 7. **Personalization minimum:** `{{first_name}}` + `{{company}}` + `{{city}}` REQUIRED. `{{recent_signal}}` strongly preferred.
 8. **No corporate jargon:** read like a human, not a marketing department
 9. **Always lead with specific pain** (60-80% admin reduction, SAEP-1112 prep, INR 15L pricing) not "transform your business"
-10. **$18,000/year price up front** — don't gate it behind a demo. Pricing transparency is our differentiator vs SAP/Oracle/Maximo.
+10. **Affordable positioning up front** — communicate the affordability differentiator vs SAP/Oracle/Maximo. Hold exact pricing for quote conversations.
 
 ## Cold email pipeline config (Atlantis Marketing Agent)
 

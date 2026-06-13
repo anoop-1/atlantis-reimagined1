@@ -80,7 +80,7 @@ export default function PetrochemicalJubailCombo() {
                     <p>Atlantis recommends tube swap timing based on accumulated creep-life-fraction, surfaces tubes approaching the end-of-life threshold for the next furnace turnaround scope decision, and produces the API 579 Part 10 audit pack for engineering review.</p>
 
                     <h2>ROI math for a Jubail-scale deployment</h2>
-                    <p>For a representative Jubail SABIC affiliate complex or for SATORP, Sadara, or Petro Rabigh scale (multiple process units, 30,000&ndash;120,000 CMLs, integrated refinery + petrochemical operation), Atlantis Digital Twin enterprise tier ($200K&ndash;$600K/yr at scale) typically pays back through:</p>
+                    <p>For a representative Jubail SABIC affiliate complex or for SATORP, Sadara, or Petro Rabigh scale (multiple process units, 30,000&ndash;120,000 CMLs, integrated refinery + petrochemical operation), Atlantis Digital Twin enterprise tier (affordable, accessible, fully customizable SaaS &mdash; quote on request) typically pays back through:</p>
                     <ul>
                         <li><strong>Turnaround scope reduction:</strong> 15&ndash;25% on $40&ndash;$200M turnaround scope = $6M&ndash;$50M every 4&ndash;5 years.</li>
                         <li><strong>Steam cracker furnace tube swap optimisation:</strong> Better creep-life-fraction projection extends tube life or accelerates swap as appropriate = $1M&ndash;$5M/yr depending on cracker fleet size.</li>

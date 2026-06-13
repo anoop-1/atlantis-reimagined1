@@ -287,8 +287,7 @@ export default function DigitalTwinReporting() {
                 ],
                 "offers": {
                     "@type": "Offer",
-                    "availability": "https://schema.org/InStock",
-                    "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD" }
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {

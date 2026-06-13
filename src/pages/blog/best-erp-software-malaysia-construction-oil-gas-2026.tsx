@@ -121,7 +121,7 @@ export default function BestERPMalaysiaConstructionOilGas2026() {
                 </tbody>
               </table>
             </div>
-            <p className="text-slate-500 text-sm">Pricing reflects 2026 Malaysian market rates collected from vendor RFQs and integrator references. SAP and Oracle costs include average local implementation partner fees (Accenture, Deloitte, PwC Malaysia, EY Malaysia). Atlantis NDT ERP fee is the flat USD $18,000 list price converted at RM 4.72/USD spot rate.</p>
+            <p className="text-slate-500 text-sm">Pricing reflects 2026 Malaysian market rates collected from vendor RFQs and integrator references. SAP and Oracle costs include average local implementation partner fees (Accenture, Deloitte, PwC Malaysia, EY Malaysia). Atlantis NDT ERP fee is the flat USD affordable, accessible list price converted at RM 4.72/USD spot rate.</p>
           </section>
 
           <section className="mb-12">

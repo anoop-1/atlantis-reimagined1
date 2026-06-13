@@ -14,7 +14,7 @@ import {
   Copy,
   Check,
   AlertCircle,
-  Info,
+  Info
 } from "lucide-react";
 
 /* ─── Question and Recommendation Data ─── */
@@ -27,8 +27,8 @@ const WIZARD_QUESTIONS = [
       { value: "non-ferromagnetic", label: "Non-Ferromagnetic Metal (aluminum, copper, brass)" },
       { value: "composite", label: "Composite (CFRP, GFRP, aramid)" },
       { value: "ceramic", label: "Ceramic or Glass" },
-      { value: "mixed", label: "Mixed Materials or Unknown" },
-    ],
+      { value: "mixed", label: "Mixed Materials or Unknown" }
+    ]
   },
   {
     id: "defect",
@@ -38,8 +38,8 @@ const WIZARD_QUESTIONS = [
       { value: "subsurface", label: "Subsurface Defects (near-surface flaws)" },
       { value: "volumetric", label: "Volumetric Defects (internal porosity, inclusions)" },
       { value: "thickness", label: "Thickness Measurement (wall thinning, corrosion)" },
-      { value: "mixed", label: "Mixed or Unknown Defect Type" },
-    ],
+      { value: "mixed", label: "Mixed or Unknown Defect Type" }
+    ]
   },
   {
     id: "access",
@@ -48,8 +48,8 @@ const WIZARD_QUESTIONS = [
       { value: "full", label: "Full Access (both sides available)" },
       { value: "single", label: "Single Side Access Only" },
       { value: "limited", label: "Limited Access (tight spaces, remote locations)" },
-      { value: "confined", label: "Confined Space or Remote Inspection Needed" },
-    ],
+      { value: "confined", label: "Confined Space or Remote Inspection Needed" }
+    ]
   },
   {
     id: "surface",
@@ -58,8 +58,8 @@ const WIZARD_QUESTIONS = [
       { value: "clean", label: "Clean and Smooth" },
       { value: "painted", label: "Painted or Coated" },
       { value: "rough", label: "Rough or Corroded" },
-      { value: "contaminated", label: "Contaminated (rust scale, marine growth)" },
-    ],
+      { value: "contaminated", label: "Contaminated (rust scale, marine growth)" }
+    ]
   },
   {
     id: "standard",
@@ -69,9 +69,9 @@ const WIZARD_QUESTIONS = [
       { value: "api", label: "API (Petroleum/Refining Industry)" },
       { value: "aws", label: "AWS (Welding)" },
       { value: "aerospace", label: "Aerospace (NADCAP, BAC standards)" },
-      { value: "general", label: "General Quality Assurance" },
-    ],
-  },
+      { value: "general", label: "General Quality Assurance" }
+    ]
+  }
 ];
 
 /* ─── Method Recommendations Database ─── */
@@ -94,7 +94,7 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Surface defects only", "Ferromagnetic materials only", "Magnetic field demagnetization concerns"],
       costRelative: "$",
       timeToResult: "Fast (minutes)",
-      standards: ["ASME V", "ASTM E1309"],
+      standards: ["ASME V", "ASTM E1309"]
     },
     {
       method: "Liquid Penetrant Testing",
@@ -104,8 +104,8 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Surface defects only", "Requires thorough cleaning", "Environmental concerns"],
       costRelative: "$",
       timeToResult: "Moderate (hours)",
-      standards: ["ASME V", "ASTM E1417"],
-    },
+      standards: ["ASME V", "ASTM E1417"]
+    }
   ],
   "ferromagnetic-volumetric-single-clean-api": [
     {
@@ -116,7 +116,7 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Requires couplant", "Skill dependent", "Surface roughness affects results"],
       costRelative: "$$",
       timeToResult: "Fast (real-time)",
-      standards: ["API 510", "ASME V", "ISO 5577"],
+      standards: ["API 510", "ASME V", "ISO 5577"]
     },
     {
       method: "Radiographic Testing",
@@ -126,8 +126,8 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Radiation safety concerns", "Two-way access often needed", "Slow process", "Expensive"],
       costRelative: "$$$",
       timeToResult: "Slow (hours to days)",
-      standards: ["API 510", "ASME V"],
-    },
+      standards: ["API 510", "ASME V"]
+    }
   ],
   "non-ferromagnetic-thickness-single-painted-api": [
     {
@@ -138,7 +138,7 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Thick coatings reduce accuracy", "Surface prep important"],
       costRelative: "$$",
       timeToResult: "Fast",
-      standards: ["API 570", "ISO 5577"],
+      standards: ["API 570", "ISO 5577"]
     },
     {
       method: "Eddy Current Testing",
@@ -148,8 +148,8 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Limited penetration depth", "Material conductivity dependent"],
       costRelative: "$$",
       timeToResult: "Very fast",
-      standards: ["ASTM E2375"],
-    },
+      standards: ["ASTM E2375"]
+    }
   ],
   "composite-volumetric-full-clean-aerospace": [
     {
@@ -160,7 +160,7 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["High attenuation in some composites", "Operator skill critical"],
       costRelative: "$$",
       timeToResult: "Fast",
-      standards: ["NADCAP", "BAC 5555", "AS6075"],
+      standards: ["NADCAP", "BAC 5555", "AS6075"]
     },
     {
       method: "Thermography",
@@ -170,8 +170,8 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Subsurface depth limited", "Environmental sensitivity"],
       costRelative: "$$$",
       timeToResult: "Moderate",
-      standards: ["Aerospace standards"],
-    },
+      standards: ["Aerospace standards"]
+    }
   ],
   "default": [
     {
@@ -182,9 +182,9 @@ const METHOD_RECOMMENDATIONS: Record<string, Array<{
       limitations: ["Surface defects only", "Operator dependent", "Limited detection capability"],
       costRelative: "$",
       timeToResult: "Very fast",
-      standards: ["ASME V", "API", "General"],
-    },
-  ],
+      standards: ["ASME V", "API", "General"]
+    }
+  ]
 };
 
 /* ─── Structured Data ─── */
@@ -200,13 +200,13 @@ const structuredData = {
   offers: {
     "@type": "Offer",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "USD"
   },
   publisher: {
     "@type": "Organization",
     name: "Atlantis NDT",
-    url: "https://atlantisndt.com",
-  },
+    url: "https://atlantisndt.com"
+  }
 };
 
 export default function NDTMethodSelector() {
@@ -226,7 +226,7 @@ export default function NDTMethodSelector() {
       answers.defect,
       answers.access,
       answers.surface,
-      answers.standard,
+      answers.standard
     ]
       .join("-")
       .toLowerCase();
@@ -302,7 +302,7 @@ export default function NDTMethodSelector() {
         items={[
           { label: "Home", path: "/" },
           { label: "Tools", path: "/tools" },
-          { label: "NDT Method Selector" },
+          { label: "NDT Method Selector" }
         ]}
       />
 
@@ -346,7 +346,7 @@ export default function NDTMethodSelector() {
                   <motion.div
                     initial={{ width: 0 }}
                     animate={{
-                      width: `${((currentStep + 1) / WIZARD_QUESTIONS.length) * 100}%`,
+                      width: `${((currentStep + 1) / WIZARD_QUESTIONS.length) * 100}%`
                     }}
                     transition={{ duration: 0.3 }}
                     className="bg-blue-600 h-2 rounded-full"
@@ -634,7 +634,7 @@ export default function NDTMethodSelector() {
                       { name: "Liquid Penetrant (PT)", surface: "Excellent", vol: "No", cost: "$", speed: "Moderate", materials: "Non-porous materials" },
                       { name: "Eddy Current (ET)", surface: "Excellent", vol: "Limited", cost: "$$", speed: "Very fast", materials: "Conductive materials" },
                       { name: "Visual (VT)", surface: "Good", vol: "No", cost: "$", speed: "Very fast", materials: "Any material" },
-                      { name: "Thermography (IRT)", surface: "Good", vol: "Limited", cost: "$$$", speed: "Fast", materials: "Most materials" },
+                      { name: "Thermography (IRT)", surface: "Good", vol: "Limited", cost: "$$$", speed: "Fast", materials: "Most materials" }
                     ].map((method, idx) => (
                       <tr
                         key={method.name}

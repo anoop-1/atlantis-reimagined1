@@ -381,7 +381,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Houston-area operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For a typical 5-million-bpd-throughput Houston refinery with ~2,000 inspectable pressure-retaining items, enterprise tiers apply — contact us for a site-specific quote. On-prem deployment is offered at the same price point and is the standard configuration for OSHA PSM 29 CFR 1910.119-covered facilities that prefer to keep inspection data behind their own firewall."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For a typical 5-million-bpd-throughput Houston refinery with ~2,000 inspectable pressure-retaining items, enterprise tiers apply — contact us for a site-specific quote. On-prem deployment is offered at the same price point and is the standard configuration for OSHA PSM 29 CFR 1910.119-covered facilities that prefer to keep inspection data behind their own firewall."
         },
         {
             q: "How long does deployment take for a Houston refinery?",
@@ -403,7 +403,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Dubai-based operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets in Dubai, with ASNT Level III consulting and unlimited NDT data ingest included. For multi-site UAE rollouts including ENOC, DEWA, Emarat, and Dubai Petroleum, enterprise tiers apply. Cloud deployment on Microsoft Azure UAE North or AWS Bahrain regions is available for low-latency Gulf access; on-prem is also offered."
+            a: "Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS — quote on request. Pricing varies by region and scope; a Dubai-typical deployment covers up to 500 assets with ASNT Level III consulting and unlimited NDT data ingest included. For multi-site UAE rollouts including ENOC, DEWA, Emarat, and Dubai Petroleum, enterprise tiers apply. Cloud deployment on Microsoft Azure UAE North or AWS Bahrain regions is available for low-latency Gulf access; on-prem is also offered. Contact us for a tailored quote."
         },
         {
             q: "How long does deployment take in Dubai?",
@@ -425,7 +425,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for ADNOC and Abu Dhabi operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For ADNOC's massive multi-asset offshore + onshore + LNG portfolio (94% of UAE's proven oil reserves), enterprise tiers apply and dedicated Level III resident engineers are bundled."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For ADNOC's massive multi-asset offshore + onshore + LNG portfolio (94% of UAE's proven oil reserves), enterprise tiers apply and dedicated Level III resident engineers are bundled."
         },
         {
             q: "How long does deployment take for an Abu Dhabi asset?",
@@ -447,7 +447,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Saudi Aramco and Kingdom operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Aramco's world's-largest integrated oil and gas portfolio, enterprise tiers apply. On-prem deployment is the standard for Saudi Aramco IT environments per SAEP-99 information security standards."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Aramco's world's-largest integrated oil and gas portfolio, enterprise tiers apply. On-prem deployment is the standard for Saudi Aramco IT environments per SAEP-99 information security standards."
         },
         {
             q: "How long does deployment take for a Saudi Aramco asset?",
@@ -469,7 +469,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Alberta operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For multi-site oil sands rollouts (Suncor's Fort Hills, CNRL's Horizon, Imperial's Kearl), enterprise tiers apply. Cloud deployment on Azure Canada Central is standard; on-prem is also offered."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For multi-site oil sands rollouts (Suncor's Fort Hills, CNRL's Horizon, Imperial's Kearl), enterprise tiers apply. Cloud deployment on Azure Canada Central is standard; on-prem is also offered."
         },
         {
             q: "How long does deployment take in Calgary?",
@@ -491,7 +491,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Singapore operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Jurong Island's ultra-dense petrochemical estate, enterprise tiers apply and Level III resident-engineer support is bundled given the always-on production schedule and constrained inspection windows."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Jurong Island's ultra-dense petrochemical estate, enterprise tiers apply and Level III resident-engineer support is bundled given the always-on production schedule and constrained inspection windows."
         },
         {
             q: "How long does deployment take in Singapore?",
@@ -513,7 +513,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Mumbai operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. India-specific local-currency invoicing is available, and Atlantis maintains a Hyderabad delivery centre that can dispatch resident engineers to Mumbai sites on short notice."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. India-specific local-currency invoicing is available, and Atlantis maintains a Hyderabad delivery centre that can dispatch resident engineers to Mumbai sites on short notice."
         },
         {
             q: "How long does deployment take in Mumbai?",
@@ -535,7 +535,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for London-headquartered operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For BP, Shell, Harbour Energy, and the major EPCI contractors headquartered in London managing global portfolios, enterprise multi-site tiers apply and Level III subject-matter-expert support is bundled."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For BP, Shell, Harbour Energy, and the major EPCI contractors headquartered in London managing global portfolios, enterprise multi-site tiers apply and Level III subject-matter-expert support is bundled."
         },
         {
             q: "How long does deployment take for a London-coordinated programme?",
@@ -557,7 +557,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Perth-area operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Woodside's massive multi-LNG portfolio, Chevron Australia's Gorgon + Wheatstone twin-train operation, and Inpex Ichthys, enterprise tiers apply and bundled cryogenic-specialist Level III support is included."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Woodside's massive multi-LNG portfolio, Chevron Australia's Gorgon + Wheatstone twin-train operation, and Inpex Ichthys, enterprise tiers apply and bundled cryogenic-specialist Level III support is included."
         },
         {
             q: "How long does deployment take in Perth?",
@@ -579,7 +579,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for QatarEnergy operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For QatarEnergy's massive Ras Laffan portfolio (14 LNG trains rising to ~22 with the North Field East/South expansion), enterprise tiers apply and bundled cryogenic + sour-service Level III support is included."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For QatarEnergy's massive Ras Laffan portfolio (14 LNG trains rising to ~22 with the North Field East/South expansion), enterprise tiers apply and bundled cryogenic + sour-service Level III support is included."
         },
         {
             q: "How long does deployment take in Doha?",
@@ -601,7 +601,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Kuwait operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For KNPC's massive Al-Zour Clean Fuels Project (the world's largest refinery project) and KOC's extensive upstream + pipeline portfolio, enterprise tiers apply."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For KNPC's massive Al-Zour Clean Fuels Project (the world's largest refinery project) and KOC's extensive upstream + pipeline portfolio, enterprise tiers apply."
         },
         {
             q: "How long does deployment take in Kuwait?",
@@ -623,7 +623,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Oman operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For PDO's extensive onshore portfolio (>700,000 bpd) and OQ's Sohar refining cluster, enterprise tiers apply. On-prem deployment within PDO and OQ data centres is the standard."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For PDO's extensive onshore portfolio (>700,000 bpd) and OQ's Sohar refining cluster, enterprise tiers apply. On-prem deployment within PDO and OQ data centres is the standard."
         },
         {
             q: "How long does deployment take in Muscat?",
@@ -645,7 +645,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Hyderabad-based programmes?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. India-specific INR invoicing is available, and the Hyderabad delivery centre provides bundled Level III on-site support across the South India industrial belt."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. India-specific INR invoicing is available, and the Hyderabad delivery centre provides bundled Level III on-site support across the South India industrial belt."
         },
         {
             q: "How long does deployment take in Hyderabad?",
@@ -667,7 +667,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Chennai operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. India-specific INR invoicing is available, and Atlantis can dispatch Level III resources from the Hyderabad delivery centre to Chennai with short lead times."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. India-specific INR invoicing is available, and Atlantis can dispatch Level III resources from the Hyderabad delivery centre to Chennai with short lead times."
         },
         {
             q: "How long does deployment take in Chennai?",
@@ -689,7 +689,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Petronas-coordinated programmes?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Petronas's massive PIC + MLNG (29 mtpa across 9 trains) + upstream portfolio, enterprise tiers apply and Petronas Technical Standards (PTS)-aligned configuration is bundled."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Petronas's massive PIC + MLNG (29 mtpa across 9 trains) + upstream portfolio, enterprise tiers apply and Petronas Technical Standards (PTS)-aligned configuration is bundled."
         },
         {
             q: "How long does deployment take in Kuala Lumpur?",
@@ -711,7 +711,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Nigerian operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Dangote's 650,000 bpd Africa's-largest single-site refinery and the NNPCL three-refinery rehabilitation programme, enterprise tiers apply. On-prem deployment is the standard within NNPCL and IOC compliance regimes."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Dangote's 650,000 bpd Africa's-largest single-site refinery and the NNPCL three-refinery rehabilitation programme, enterprise tiers apply. On-prem deployment is the standard within NNPCL and IOC compliance regimes."
         },
         {
             q: "How long does deployment take in Lagos?",
@@ -733,7 +733,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Lower Mississippi River operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For the dense Lower Mississippi refinery + LNG corridor (refineries totalling over 1.4 million bpd between New Orleans and Baton Rouge), enterprise multi-site tiers apply and bundled hurricane-recovery re-inspection support is included."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For the dense Lower Mississippi refinery + LNG corridor (refineries totalling over 1.4 million bpd between New Orleans and Baton Rouge), enterprise multi-site tiers apply and bundled hurricane-recovery re-inspection support is included."
         },
         {
             q: "How long does deployment take in New Orleans?",
@@ -755,7 +755,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Denver-area operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Denver-headquartered midstream operators (DCP Midstream, ONEOK, Williams Rockies) managing thousands of kilometres of pipeline, enterprise multi-site tiers apply."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Denver-headquartered midstream operators (DCP Midstream, ONEOK, Williams Rockies) managing thousands of kilometres of pipeline, enterprise multi-site tiers apply."
         },
         {
             q: "How long does deployment take in Denver?",
@@ -777,7 +777,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Aberdeen-coordinated UKCS programmes?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For late-life UKCS portfolios where life-extension FFS is mandatory (Harbour Energy, EnQuest, Ithaca Energy, BP), enterprise multi-asset tiers apply and bundled FFS Level 2/3 Level III support is included."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For late-life UKCS portfolios where life-extension FFS is mandatory (Harbour Energy, EnQuest, Ithaca Energy, BP), enterprise multi-asset tiers apply and bundled FFS Level 2/3 Level III support is included."
         },
         {
             q: "How long does deployment take in Aberdeen?",
@@ -799,7 +799,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "What does Digital Twin NDT cost for Equinor and Norwegian operators?",
-            a: "Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Equinor's massive NCS portfolio + Mongstad/Slagen refineries + Snøhvit LNG, enterprise multi-asset tiers apply and bundled NORSOK Z-008-aligned Level III support is included."
+            a: "Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. For Equinor's massive NCS portfolio + Mongstad/Slagen refineries + Snøhvit LNG, enterprise multi-asset tiers apply and bundled NORSOK Z-008-aligned Level III support is included."
         },
         {
             q: "How long does deployment take in Oslo?",
@@ -826,7 +826,7 @@ export function makeGenericFaqs(cityName) {
         },
         {
             q: `What does Digital Twin NDT cost in ${cityName}?`,
-            a: `Atlantis Digital Twin starts at USD 200,000/year for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. Enterprise tiers are available for multi-site fleets, and on-prem deployment is offered at the same price point. Request a ${cityName}-specific quote and we will model your asset count and data-volume requirements.`
+            a: `Atlantis Digital Twin is an affordable, accessible, fully customizable enterprise SaaS platform sized for up to 500 assets, with ASNT Level III consulting and unlimited NDT data ingest included. Enterprise tiers are available for multi-site fleets, and on-prem deployment is offered at the same price point. Request a ${cityName}-specific quote and we will model your asset count and data-volume requirements.`
         },
         {
             q: `How long does deployment take in ${cityName}?`,

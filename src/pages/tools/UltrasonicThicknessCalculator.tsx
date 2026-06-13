@@ -11,7 +11,7 @@ import {
   Check,
   Gauge,
   AlertCircle,
-  Info,
+  Info
 } from "lucide-react";
 
 /* ─── Material Sound Velocity Database ─── */
@@ -37,12 +37,12 @@ const MATERIAL_DATA: Record<string, { velocity: number; density: number }> = {
   "low-alloy-steel": { velocity: 5960, density: 7850 },
   "tool-steel": { velocity: 5940, density: 7750 },
   "grey-iron": { velocity: 3660, density: 7100 },
-  "ductile-iron": { velocity: 4740, density: 7140 },
+  "ductile-iron": { velocity: 4740, density: 7140 }
 };
 
 const MATERIAL_OPTIONS = Object.keys(MATERIAL_DATA).map((key) => ({
   value: key,
-  label: key.replace(/[-_]/g, " ").replace(/\b\w/g, (l) => l.toUpperCase()),
+  label: key.replace(/[-_]/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())
 }));
 
 /* ─── Types ─── */
@@ -72,20 +72,20 @@ const structuredData = {
   offers: {
     "@type": "Offer",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "USD"
   },
   publisher: {
     "@type": "Organization",
     name: "Atlantis NDT",
-    url: "https://atlantisndt.com",
-  },
+    url: "https://atlantisndt.com"
+  }
 };
 
 export default function UltrasonicThicknessCalculator() {
   const [inputs, setInputs] = useState<CalculatorInputs>({
     materialType: "carbon-steel",
     soundVelocity: MATERIAL_DATA["carbon-steel"].velocity,
-    transitTime: 100,
+    transitTime: 100
   });
   const [copied, setCopied] = useState(false);
 
@@ -96,7 +96,7 @@ export default function UltrasonicThicknessCalculator() {
       setInputs((prev) => ({
         ...prev,
         materialType,
-        soundVelocity: material.velocity,
+        soundVelocity: material.velocity
       }));
     }
   }, []);
@@ -104,7 +104,7 @@ export default function UltrasonicThicknessCalculator() {
   const setField = useCallback((field: keyof CalculatorInputs, value: number | string) => {
     setInputs((prev) => ({
       ...prev,
-      [field]: typeof value === "string" ? parseFloat(value) || 0 : value,
+      [field]: typeof value === "string" ? parseFloat(value) || 0 : value
     }));
   }, []);
 
@@ -127,7 +127,7 @@ export default function UltrasonicThicknessCalculator() {
       thicknessMillimeters,
       thicknessInches,
       acousticImpedance,
-      reflectionCoefficient,
+      reflectionCoefficient
     };
   }, [inputs]);
 
@@ -144,7 +144,7 @@ export default function UltrasonicThicknessCalculator() {
     normal: { label: "Normal", color: "bg-green-50 border-green-300", textColor: "text-green-700" },
     moderate: { label: "Moderate Wear", color: "bg-yellow-50 border-yellow-300", textColor: "text-yellow-700" },
     high: { label: "High Wear", color: "bg-orange-50 border-orange-300", textColor: "text-orange-700" },
-    critical: { label: "Critical Thickness", color: "bg-red-50 border-red-300", textColor: "text-red-700" },
+    critical: { label: "Critical Thickness", color: "bg-red-50 border-red-300", textColor: "text-red-700" }
   };
 
   const copyResult = () => {
@@ -170,7 +170,7 @@ Thickness: ${result.thicknessMillimeters.toFixed(2)} mm (${result.thicknessInche
         items={[
           { label: "Home", path: "/" },
           { label: "Tools", path: "/tools" },
-          { label: "UT Thickness Calculator" },
+          { label: "UT Thickness Calculator" }
         ]}
       />
 

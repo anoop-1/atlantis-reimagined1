@@ -1,7 +1,7 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K–$200K/yr", competitor: "Subscription tiered by data volume + connected assets — $80K–$600K/yr typical" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Subscription tiered by data volume + connected assets — $80K–$600K/yr typical" },
     { factor: "Platform focus", atlantis: "Inspection integrity twin (NDT, FFS, RBI)", competitor: "Industrial IoT platform — telemetry ingestion, MindApps marketplace, Mendix low-code" },
     { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, FFS, RBI, RT/UT/PAUT scans", competitor: "Generic IoT data model; NDT requires custom MindApp or partner overlay" },
     { factor: "Strength", atlantis: "Inspection capture → 3D twin → integrity engineering", competitor: "Edge connectivity, time-series at scale, app marketplace, Mendix builder" },
@@ -32,7 +32,7 @@ export default function AtlantisDtVsSiemensMindsphere() {
     return (
         <ProductPageLayout
             title="Atlantis Digital Twin vs Siemens MindSphere (Insights Hub) [2026 Comparison]"
-            description="Siemens MindSphere / Insights Hub vs Atlantis Digital Twin: industrial IoT platform vs inspection integrity twin. Native FFS/RBI, 3D twin, $50K-$200K SaaS pricing."
+            description="Siemens MindSphere / Insights Hub vs Atlantis Digital Twin: industrial IoT platform vs inspection integrity twin. Native FFS/RBI, 3D twin, affordable accessible fully customizable SaaS."
             canonical="https://atlantisndt.com/compare/atlantis-dt-vs-siemens-mindsphere"
             eyebrow="Digital Twin vs Industrial IoT"
             h1="Atlantis Digital Twin vs Siemens MindSphere: Inspection Integrity vs Industrial IoT [2026]"
@@ -70,7 +70,7 @@ export default function AtlantisDtVsSiemensMindsphere() {
                     <ul>
                         <li>Your dominant use case is inspection integrity — fixed equipment, vessels, piping, tanks, structural welds.</li>
                         <li>You want a tool that ships with FFS, RBI, weld registers, and NDT method-specific data models out of the box.</li>
-                        <li>You prefer a SaaS economics model over per-asset / per-tag pricing.</li>
+                        <li>You prefer affordable, accessible, fully customizable SaaS economics over per-asset / per-tag enterprise pricing.</li>
                         <li>You want named ASNT Level III consulting included rather than sourced through a partner.</li>
                     </ul>
 

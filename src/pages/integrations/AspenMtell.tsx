@@ -22,7 +22,7 @@ export default function AspenMtellIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Aspen Mtell Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Aspen Mtell integration: rotating-equipment anomaly events flow into connected fixed-asset records; FFS/RBI risk band flows back to Mtell for reliability prioritization. 4-6 wk deploy.", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Aspen Mtell Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Aspen Mtell integration: rotating-equipment anomaly events flow into connected fixed-asset records; FFS/RBI risk band flows back to Mtell for reliability prioritization. 4-6 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — Aspen Mtell Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]

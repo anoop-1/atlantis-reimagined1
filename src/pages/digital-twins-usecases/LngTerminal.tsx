@@ -79,14 +79,14 @@ export default function LngTerminalUseCase() {
                     <p>For the train side (compressors, MCHEs, MR drum, propane chillers, etc.), the turnaround scoping module pulls together every CML overdue, every elevated RBI risk component, every FFS that flagged &lsquo;requires further evaluation,&rsquo; and every weld pending re-inspection. Major operators report 15–25% inspection-labor savings on LNG turnaround through better scoping alone.</p>
 
                     <h2>ROI in real numbers for an LNG terminal</h2>
-                    <p>For a typical 2-train, 4-tank LNG export terminal (e.g. Cameron LNG Phase 1, Sabine Pass Trains 1-2), Atlantis Digital Twin enterprise deployment ($200K/yr) pays back through:</p>
+                    <p>For a typical 2-train, 4-tank LNG export terminal (e.g. Cameron LNG Phase 1, Sabine Pass Trains 1-2), Atlantis Digital Twin enterprise deployment (affordable, accessible, fully customizable SaaS &mdash; quote on request) pays back through:</p>
                     <ul>
                         <li><strong>Deferred tank out-of-service inspection:</strong> 2–4 year deferral on a 10-year cycle × $3M–$8M per inspection = $0.6M–$3.2M/yr value, averaged.</li>
                         <li><strong>Avoided BOG flaring during cooldown:</strong> Improved cooldown-cycle planning from twin-backed thermal-fatigue tracking = $0.5M–$1.5M/yr saved BOG.</li>
                         <li><strong>Turnaround scope optimization:</strong> 15–25% turnaround inspection cost reduction × $8M–$25M turnaround = $1.2M–$6M every 4–6 years.</li>
                         <li><strong>Insurance &amp; regulatory:</strong> Defensible integrity program reduces NFPA 59A and PHMSA Part 193 friction; major insurers reward digital-twin-backed integrity programmes with measurable premium reductions.</li>
                     </ul>
-                    <p>Net: $2.5M–$8M/yr in measurable value at a $200K/yr platform cost. Payback well inside 12 months for a typical mid-sized terminal.</p>
+                    <p>Net: $2.5M&ndash;$8M/yr in measurable value on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request. Payback well inside 12 months for a typical mid-sized terminal.</p>
 
                     <h2>Real LNG operators where this fits</h2>
                     <p>Cheniere Energy (Sabine Pass, Corpus Christi), Sempra Infrastructure (Cameron LNG, ECA LNG), Venture Global (Calcasieu Pass, Plaquemines, CP2), Freeport LNG, Dominion Cove Point, Tellurian Driftwood, NextDecade Rio Grande LNG, ConocoPhillips Darwin LNG, Inpex Ichthys LNG, Woodside Pluto and Scarborough, QatarEnergy Ras Laffan (NFE/NFS expansion), Shell Prelude FLNG, Petronas FLNG2 / Bintulu MLNG, Equinor Hammerfest LNG (Snøhvit), Yamal LNG, Egypt Idku/Damietta, Angola LNG Soyo, Trinidad Atlantic LNG, Peru LNG Pisco, and the regas import terminals (Cove Point, Everett, Elba Island, Cameron, Quintero Chile, Dragon LNG UK, South Hook UK). All run cryogenic integrity programmes where Atlantis fits as the inspection-data-native layer.</p>

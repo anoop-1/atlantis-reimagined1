@@ -24,7 +24,7 @@ export default function IbmMaximoIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — IBM Maximo Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native IBM Maximo integration via REST + OSLC. Supports Maximo 7.6, 8.x, Maximo Application Suite. Bi-directional asset master sync, inspection findings → Service Requests → Work Orders. 3-4 wk deploy.", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — IBM Maximo Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native IBM Maximo integration via REST + OSLC. Supports Maximo 7.6, 8.x, Maximo Application Suite. Bi-directional asset master sync, inspection findings → Service Requests → Work Orders. 3-4 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — IBM Maximo Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]

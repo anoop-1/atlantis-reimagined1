@@ -46,7 +46,7 @@ export default function DigitalTwinRoiCalculator() {
         "applicationCategory": "BusinessApplication",
         "description": "Free calculator estimating ROI of a digital twin NDT program against baseline inspection and downtime cost.",
         "operatingSystem": "Any",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }
     };
 
     const field = (label: string, val: number, setter: (n: number) => void, hint?: string) => (

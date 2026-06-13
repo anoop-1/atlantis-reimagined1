@@ -248,14 +248,15 @@ export default function WrittenPracticeDevelopment() {
 
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto px-6 max-w-4xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement & pricing</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Engagement model</h2>
                     <Card className="border-2 border-purple-500">
                         <CardContent className="pt-6">
+                            <p className="text-slate-700 mb-4"><strong>Affordable. Accessible. Fully Customizable.</strong> Engagement scope is tailored to your method mix, framework (SNT-TC-1A / CP-189 / NAS 410) and personnel count.</p>
                             <ul className="space-y-3 text-slate-700">
-                                <li className="flex items-start gap-3"><BarChart3 className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>SNT-TC-1A written practice (4 methods):</strong> $18,000-$32,000 fixed-fee, 5-7 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Briefcase className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>CP-189 written practice (4 methods):</strong> $28,000-$48,000 fixed-fee, 7-10 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Settings className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>NAS 410 aerospace written practice:</strong> $42,000-$78,000 fixed-fee, 8-12 week delivery, includes NADCAP audit-ready support.</span></li>
-                                <li className="flex items-start gap-3"><Target className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Annual Level III examiner retainer:</strong> $18,000-$48,000 per year for ongoing examiner support, certification records management and annual practice review.</span></li>
+                                <li className="flex items-start gap-3"><BarChart3 className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>SNT-TC-1A written practice (4 methods):</strong> 5-7 week delivery. Fixed-fee engagements — contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Briefcase className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>CP-189 written practice (4 methods):</strong> 7-10 week delivery. Fixed-fee engagements — contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Settings className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>NAS 410 aerospace written practice:</strong> 8-12 week delivery, includes NADCAP audit-ready support. Contact us for a tailored quote.</span></li>
+                                <li className="flex items-start gap-3"><Target className="text-purple-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Annual Level III examiner retainer:</strong> ongoing examiner support, certification records management and annual practice review. Pricing varies by region and scope — contact us for a tailored quote.</span></li>
                             </ul>
                         </CardContent>
                     </Card>

@@ -9,8 +9,8 @@ export default function AccountingErpForSingapore() {
       industry="Singapore inspection and engineering services"
       breadcrumbLabel="Accounting ERP for Singapore"
       trustBadge="InvoiceNow PEPPOL / GST / IRAS / CPF ready"
-      metaDescription="Atlantis NDT ERP Accounting for Singapore — IMDA InvoiceNow PEPPOL e-invoicing, GST 9%, SFRS chart of accounts, CPF / SDL / FWL auto-calc, IRAS e-filing. Flat regional pricing (S$24,300)."
-      heroBody="Atlantis NDT ERP Accounting pre-configured for Singapore — IMDA InvoiceNow PEPPOL e-invoicing (mandatory November 2025 Phase 2), GST 9% (raised from 8% effective January 2024), SFRS (Singapore Financial Reporting Standards) / SFRS(I) chart of accounts, and CPF / SDL / FWL auto-calculation. Flat S$24,300 / $18,000 per year."
+      metaDescription="Atlantis NDT ERP Accounting for Singapore — IMDA InvoiceNow PEPPOL e-invoicing, GST 9%, SFRS chart of accounts, CPF / SDL / FWL auto-calc, IRAS e-filing. Affordable, accessible, and fully customizable."
+      heroBody="Atlantis NDT ERP Accounting pre-configured for Singapore — IMDA InvoiceNow PEPPOL e-invoicing (mandatory November 2025 Phase 2), GST 9% (raised from 8% effective January 2024), SFRS (Singapore Financial Reporting Standards) / SFRS(I) chart of accounts, and CPF / SDL / FWL auto-calculation. Affordable, accessible, and fully customizable."
       whatItIs={[
         "Accounting ERP for Singapore is pre-configured for Singapore's regulatory environment — SFRS (Singapore Financial Reporting Standards) fully converged with IFRS, SFRS(I) for entities applying IFRS in full, SFRS for Small Entities for SMEs, GST 9% (raised from 8% effective 1 January 2024) with zero-rated international services and exempt financial services, IMDA InvoiceNow PEPPOL e-invoicing mandatory for GST-registered businesses since November 2025 Phase 2, and full multi-currency support (S$ base with USD / MYR / IDR / CNY / THB / VND secondary).",
         "Payroll integrates with CPF (Central Provident Fund) at 20% employee + 17% employer for Singapore Citizens / PRs (Year 3+), SDL (Skills Development Levy) at 0.25%, FWL (Foreign Worker Levy) for S-Pass and Work Permit holders per sector and quota, and IRAS AIS (Auto-Inclusion Scheme) Form IR8A annual employee income reporting. Statutory reporting includes ACRA Annual Return / AGM filing, GST F5 quarterly return, IR8A annual employee submission, GIRO direct-debit for CPF / GST / IRAS, and SGQR-compliant invoice QR codes. Multi-entity consolidation supports Singapore HoldCo + offshore subsidiaries with independent ledgers.",
@@ -25,7 +25,7 @@ export default function AccountingErpForSingapore() {
         "IMDA InvoiceNow PEPPOL e-invoicing (mandatory Nov 2025 Phase 2)",
         "GST 9% (raised from 8% effective Jan 2024)",
         "SFRS / SFRS(I) / SFRS for Small Entities chart of accounts",
-        "Corporate Tax 17% with partial-exemption first S$200k",
+        "Corporate Tax 17% with partial-exemption first Senterprise tier",
         "CPF 20% employee + 17% employer (Year 3+ SC/PR)",
         "SDL (Skills Development Levy) 0.25%",
         "FWL (Foreign Worker Levy) S-Pass / Work Permit per sector",

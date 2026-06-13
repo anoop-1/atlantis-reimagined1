@@ -11,7 +11,7 @@ import {
   DollarSign,
   TrendingUp,
   ArrowRight,
-  Info,
+  Info
 } from "lucide-react";
 import {
   AreaChart,
@@ -21,7 +21,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
+  Legend
 } from "recharts";
 import { certifications, regions } from "@/data/certification-cost-data";
 import type { Certification, CostBreakdown } from "@/data/certification-cost-data";
@@ -33,7 +33,7 @@ type CurrentLevel = (typeof CURRENT_LEVELS)[number];
 const BASE_SALARY: Record<CurrentLevel, number> = {
   None: 35000,
   "Level I": 48000,
-  "Level II": 68000,
+  "Level II": 68000
 };
 
 /* ─── Structured Data ─── */
@@ -49,13 +49,13 @@ const structuredData = {
   offers: {
     "@type": "Offer",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "USD"
   },
   publisher: {
     "@type": "Organization",
     name: "Atlantis NDT",
-    url: "https://atlantisndt.com",
-  },
+    url: "https://atlantisndt.com"
+  }
 };
 
 /* ─── Helper: get cost breakdown for a cert + region + level ─── */
@@ -78,7 +78,7 @@ function fmt(n: number): string {
   return n.toLocaleString("en-US", {
     style: "currency",
     currency: "USD",
-    maximumFractionDigits: 0,
+    maximumFractionDigits: 0
   });
 }
 
@@ -142,7 +142,7 @@ export default function NDTCertificationCostCalculator() {
           year: `Year 0`,
           "Cumulative Cost": cumulativeCost,
           "Cumulative Salary Gain": 0,
-          "Net ROI": -cumulativeCost,
+          "Net ROI": -cumulativeCost
         });
       } else {
         cumulativeGain += annualGain;
@@ -150,7 +150,7 @@ export default function NDTCertificationCostCalculator() {
           year: `Year ${year}`,
           "Cumulative Cost": cumulativeCost,
           "Cumulative Salary Gain": cumulativeGain,
-          "Net ROI": cumulativeGain - cumulativeCost,
+          "Net ROI": cumulativeGain - cumulativeCost
         });
       }
     }
@@ -178,7 +178,7 @@ export default function NDTCertificationCostCalculator() {
         items={[
           { label: "Home", href: "/" },
           { label: "Tools", href: "/tools" },
-          { label: "Certification Cost Calculator" },
+          { label: "Certification Cost Calculator" }
         ]}
       />
 
@@ -568,7 +568,7 @@ export default function NDTCertificationCostCalculator() {
                   formatter={(value: number) => fmt(value)}
                   contentStyle={{
                     borderRadius: "8px",
-                    border: "1px solid #e2e8f0",
+                    border: "1px solid #e2e8f0"
                   }}
                 />
                 <Legend wrapperStyle={{ fontSize: 13, paddingTop: 8 }} />

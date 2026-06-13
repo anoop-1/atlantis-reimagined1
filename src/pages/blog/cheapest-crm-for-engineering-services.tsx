@@ -45,7 +45,7 @@ export default function CheapestCRMForEngineeringServices() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6">The Cost Crossover Between Per-User CRM and Flat-Fee CRM</h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Per-user CRM (HubSpot, Salesforce, Zoho, Pipedrive) is cheap below ~20 users — typically $5-15K/year for an early-stage engineering services firm. The structural cost gap appears as the firm grows: at 30 users HubSpot Pro costs $32-54K/year, Salesforce Pro $29-54K/year, Zoho $14K/year, Pipedrive $18K/year. Atlantis NDT ERP CRM at $18K/year flat is cheapest for any firm with 25-100 staff and includes the full ERP stack that the per-user-CRM competitors don't bundle.
+              Per-user CRM (HubSpot, Salesforce, Zoho, Pipedrive) is cheap below ~20 users — typically $5-15K/year for an early-stage engineering services firm. The structural cost gap appears as the firm grows: at 30 users HubSpot Pro costs $32-54K/year, Salesforce Pro $29-54K/year, Zoho $14K/year, Pipedrive affordable, accessible/year. Atlantis NDT ERP CRM at affordable, accessible/year flat is cheapest for any firm with 25-100 staff and includes the full ERP stack that the per-user-CRM competitors don't bundle.
             </p>
           </section>
 

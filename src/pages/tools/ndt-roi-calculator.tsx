@@ -12,7 +12,7 @@ import {
   DollarSign,
   ShieldCheck,
   BarChart3,
-  ChevronDown,
+  ChevronDown
 } from "lucide-react";
 import {
   AreaChart,
@@ -22,12 +22,12 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
+  Legend
 } from "recharts";
 import {
   industryDefaults,
   inspectionApproaches,
-  savingsFactors,
+  savingsFactors
 } from "@/data/roi-calculator-data";
 
 /* ─── Types ─── */
@@ -47,12 +47,12 @@ const INDUSTRY_OPTIONS = [
   { value: "petrochemical", label: "Petrochemical Plant" },
   { value: "pipeline", label: "Pipeline Operator" },
   { value: "power-generation", label: "Power Generation" },
-  { value: "offshore", label: "Offshore Platform" },
+  { value: "offshore", label: "Offshore Platform" }
 ];
 
 const INITIAL_INPUTS: Inputs = {
   industry: "refinery",
-  ...industryDefaults["refinery"],
+  ...industryDefaults["refinery"]
 };
 
 /* ─── Structured Data ─── */
@@ -68,13 +68,13 @@ const structuredData = {
   offers: {
     "@type": "Offer",
     price: "0",
-    priceCurrency: "USD",
+    priceCurrency: "USD"
   },
   publisher: {
     "@type": "Organization",
     name: "Atlantis NDT",
-    url: "https://atlantisndt.com",
-  },
+    url: "https://atlantisndt.com"
+  }
 };
 
 /* ─── Format currency ─── */
@@ -85,7 +85,7 @@ function fmt(n: number): string {
   return n.toLocaleString("en-US", {
     style: "currency",
     currency: "USD",
-    maximumFractionDigits: 0,
+    maximumFractionDigits: 0
   });
 }
 
@@ -176,7 +176,7 @@ export default function NDTROICalculator() {
           year: `Year 0`,
           "Time-Based (TBI)": 0,
           "Risk-Based (RBI)": implementationCost,
-          "Cumulative Savings": -implementationCost,
+          "Cumulative Savings": -implementationCost
         });
       } else {
         tbiCumulative += tbiTotalAnnual;
@@ -185,7 +185,7 @@ export default function NDTROICalculator() {
           year: `Year ${year}`,
           "Time-Based (TBI)": Math.round(tbiCumulative),
           "Risk-Based (RBI)": Math.round(rbiCumulative),
-          "Cumulative Savings": Math.round(tbiCumulative - rbiCumulative),
+          "Cumulative Savings": Math.round(tbiCumulative - rbiCumulative)
         });
       }
     }
@@ -210,7 +210,7 @@ export default function NDTROICalculator() {
       roiPct,
       chartData,
       tbiInspections: Math.round(tbiInspections),
-      rbiInspections: Math.round(rbiInspections),
+      rbiInspections: Math.round(rbiInspections)
     };
   }, [inputs]);
 
@@ -228,7 +228,7 @@ export default function NDTROICalculator() {
         items={[
           { label: "Home", href: "/" },
           { label: "Tools", href: "/tools" },
-          { label: "Inspection ROI Calculator" },
+          { label: "Inspection ROI Calculator" }
         ]}
       />
 
@@ -677,7 +677,7 @@ export default function NDTROICalculator() {
                     formatter={(value: number) => fmt(value)}
                     contentStyle={{
                       borderRadius: "8px",
-                      border: "1px solid #e2e8f0",
+                      border: "1px solid #e2e8f0"
                     }}
                   />
                   <Legend wrapperStyle={{ fontSize: 13, paddingTop: 8 }} />

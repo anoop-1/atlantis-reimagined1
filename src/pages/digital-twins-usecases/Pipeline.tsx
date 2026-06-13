@@ -81,7 +81,7 @@ export default function PipelineUseCase() {
                         <li><strong>Dig program optimization:</strong> 20–40% fewer unnecessary digs at $50K–$300K per dig avoided = $1M–$5M/yr at typical operator scale.</li>
                         <li><strong>Repair effectiveness:</strong> Better-targeted remediation = fewer re-digs.</li>
                         <li><strong>Regulatory and audit efficiency:</strong> Structured record = dramatically faster audit response and lower regulatory risk.</li>
-                        <li><strong>ILI re-inspection optimization:</strong> RBI-driven re-inspection intervals can defer some ILI runs (each $200K–$2M depending on length and tool type).</li>
+                        <li><strong>ILI re-inspection optimization:</strong> RBI-driven re-inspection intervals can defer some ILI runs (each enterprise tier–$2M depending on length and tool type).</li>
                     </ul>
                 </>
             }

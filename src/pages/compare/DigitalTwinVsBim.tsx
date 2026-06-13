@@ -138,7 +138,7 @@ export default function DigitalTwinVsBim() {
                     </ul>
 
                     <h2>Atlantis Digital Twin &mdash; the operational layer</h2>
-                    <p>Atlantis Digital Twin is purpose-built for the operations and maintenance phase. It imports BIM geometry, COBie asset registers, IFC models, and CFIHOS handover packages natively. It runs API 579 FFS, API 581 RBI, damage-mechanism templates per API 571, and inspection workflow capture on mobile devices. It generates regulatory audit packs in &lt;30 seconds. It integrates with the operator&rsquo;s SAP PM, Maximo, AVEVA PI, Honeywell PHD, and the existing IDMS stack via REST and standard connectors. Pricing is tiered SaaS: $50K/yr starter (one complex asset), $200K/yr enterprise (unlimited assets). The implementation cadence is 8&ndash;14 weeks to first-asset-live, with subsequent assets in 4&ndash;6 weeks.</p>
+                    <p>Atlantis Digital Twin is purpose-built for the operations and maintenance phase. It imports BIM geometry, COBie asset registers, IFC models, and CFIHOS handover packages natively. It runs API 579 FFS, API 581 RBI, damage-mechanism templates per API 571, and inspection workflow capture on mobile devices. It generates regulatory audit packs in &lt;30 seconds. It integrates with the operator&rsquo;s SAP PM, Maximo, AVEVA PI, Honeywell PHD, and the existing IDMS stack via REST and standard connectors. Pricing is tiered SaaS: $50K/yr starter (one complex asset), enterprise tier, accessible enterprise (unlimited assets). The implementation cadence is 8&ndash;14 weeks to first-asset-live, with subsequent assets in 4&ndash;6 weeks.</p>
 
                     <h2>Compare more technology pairings</h2>
                 </div>

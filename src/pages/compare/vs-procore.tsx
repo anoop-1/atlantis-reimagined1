@@ -34,7 +34,7 @@ export default function VsProcore() {
                       {
                                 "dim": "TCO Year 1",
                                 "atlantis": "Contact for pricing",
-                                "competitor": "$30K-$200K+ (Procore subscription + modules)"
+                                "competitor": "$30K-enterprise tier+ (Procore subscription + modules)"
                       },
                       {
                                 "dim": "Primary scope",
@@ -91,12 +91,12 @@ export default function VsProcore() {
             scenarios={[
                       {
                                 "title": "Small industrial inspection contractor — 8 people",
-                                "description": "Atlantis at $25K/year is the right system. Procore is overkill — construction PM scope isn't needed for operating-asset inspection.",
+                                "description": "Atlantis (affordable SaaS) is the right system. Procore is overkill — construction PM scope isn't needed for operating-asset inspection.",
                                 "winner": "atlantis"
                       },
                       {
                                 "title": "Mid-size NDT consultancy — 50 people serving construction + operations",
-                                "description": "Atlantis at $50K-$80K/year for inspection workflow; clients may require Procore access for construction phase. Multi-client data flows from Atlantis to client Procore instances via API.",
+                                "description": "Atlantis (affordable SaaS) for inspection workflow; clients may require Procore access for construction phase. Multi-client data flows from Atlantis to client Procore instances via API.",
                                 "winner": "atlantis"
                       },
                       {
@@ -108,7 +108,7 @@ export default function VsProcore() {
             faqs={[
                       {
                                 "question": "Is Atlantis cheaper than Procore for a small inspection company?",
-                                "answer": "Yes typically. Procore for a 10-20 user team lands at $30K-$80K/year + module add-ons. Atlantis lands at $24K-$45K/year with inspection-specific features Procore doesn't have."
+                                "answer": "Yes typically. Procore for a 10-20 user team lands at $30K-$80K/year + module add-ons. Atlantis is an affordable SaaS with inspection-specific features Procore doesn't have — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Does Atlantis integrate with Procore?",

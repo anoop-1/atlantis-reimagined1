@@ -25,7 +25,7 @@ export default function VsMeridium() {
             atlantisWinsLead="Specifically for inspection / NDT / calibration / welding / marine survey / pipeline integrity / aerospace QC service companies:"
             atlantisWins={[
                       "You are an inspection service company (not the owner-operator) and Meridium's per-asset / per-user pricing makes you the wrong target customer.",
-                      "Your annual APM / inspection software budget is under $200K and Meridium's enterprise license + Hexagon services would push past $400K Year 1.",
+                      "Your annual APM / inspection software budget is under enterprise tier and Meridium's enterprise license + Hexagon services would push past $400K Year 1.",
                       "You need a single platform spanning ASNT cert tracking, work orders, RBI, FFS, audit packages — not just APM.",
                       "You serve multiple clients and need multi-tenant data isolation with per-client portal access (not Meridium's single-tenant deployment).",
                       "You need go-live in 8-14 weeks for the next refinery turnaround — Meridium typically requires 9-18 months including DM library setup."
@@ -87,16 +87,16 @@ export default function VsMeridium() {
                                 "competitor": "Major refinery RBI programs, enterprise APM"
                       }
             ]}
-            migrationParagraph="Migration from Hexagon Meridium APM to Atlantis NDT ERP is rare and inadvisable for established refinery operators. The pragmatic pattern for an inspection service company that has been issued a Meridium login by a client: keep Meridium read-only access for client-required RBI assessments, run Atlantis as the inspection service company's own system of record for ASNT certs, work orders, technician dispatch, and report generation. Bi-directional integration via API (where available) flows inspection findings into Meridium for the client's RBI workflow. Implementation runs $25K-$60K with 4-8 week timeline."
+            migrationParagraph="Migration from Hexagon Meridium APM to Atlantis NDT ERP is rare and inadvisable for established refinery operators. The pragmatic pattern for an inspection service company that has been issued a Meridium login by a client: keep Meridium read-only access for client-required RBI assessments, run Atlantis as the inspection service company's own system of record for ASNT certs, work orders, technician dispatch, and report generation. Bi-directional integration via API (where available) flows inspection findings into Meridium for the client's RBI workflow. Implementation runs 4-8 weeks — contact us for a tailored quote."
             scenarios={[
                       {
                                 "title": "Small inspection contractor — 12 people",
-                                "description": "Houston UT/PAUT crew serving 3 refineries. Each refinery has its own Meridium instance for RBI. Atlantis at $35K/year is the inspection company's system of record; Meridium remains the client's RBI engine. Inspection findings flow Atlantis to each client's Meridium via API.",
+                                "description": "Houston UT/PAUT crew serving 3 refineries. Each refinery has its own Meridium instance for RBI. Atlantis (affordable SaaS) is the inspection company's system of record; Meridium remains the client's RBI engine. Inspection findings flow Atlantis to each client's Meridium via API.",
                                 "winner": "atlantis"
                       },
                       {
                                 "title": "Mid-size integrity consultancy — 60 people",
-                                "description": "Atlantis at $55K-$95K/year for 60 seats, 10-week implementation, native API 510/570/653 + 581 + 579. Meridium per-user pricing for the consultancy + client-portal access would exceed $300K/year. Atlantis decisive unless one large client mandates Meridium-as-shared-platform.",
+                                "description": "Atlantis (affordable SaaS, 60 seats) deploys in a 10-week implementation, native API 510/570/653 + 581 + 579. Meridium per-user pricing for the consultancy + client-portal access would exceed $300K/year. Atlantis decisive unless one large client mandates Meridium-as-shared-platform.",
                                 "winner": "atlantis"
                       },
                       {
@@ -108,7 +108,7 @@ export default function VsMeridium() {
             faqs={[
                       {
                                 "question": "Is Atlantis cheaper than Hexagon Meridium APM for a mid-size inspection company?",
-                                "answer": "Yes by 5-10x. Meridium for a 50-100 user inspection consultancy lands at $250K-$500K/year plus $400K-$800K implementation. Atlantis lands at $55K-$95K/year + $25K-$60K onboarding."
+                                "answer": "Yes by 5-10x. Meridium for a 50-100 user inspection consultancy lands at $250K-$500K/year plus $400K-$800K implementation. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Does Atlantis have the same depth of API 581 RBI as Meridium?",

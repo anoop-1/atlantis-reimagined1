@@ -14,72 +14,72 @@ const faqs = [
 ];
 
 const awsFeeStructure = [
-    { component: "Application / Processing Fee", member: "$250", nonMember: "$250", notes: "Non-refundable, paid with application; required regardless of membership" },
-    { component: "CWI Exam Fee (Parts A + B + C)", member: "$1,150", nonMember: "$1,335", notes: "Body-of-knowledge fee; covers Fundamentals, Practical, and Code Book" },
-    { component: "Pre-Exam 5-Day Seminar (optional)", member: "$1,725", nonMember: "$1,925", notes: "Highly recommended for first-timers; raises pass rate from ~65% to ~85%" },
-    { component: "Part A Retake (individual)", member: "$510", nonMember: "$595", notes: "Fundamentals only; permitted within 12 months of initial exam" },
-    { component: "Part B Retake (individual)", member: "$510", nonMember: "$595", notes: "Practical / Book of Specifications; most commonly failed part" },
-    { component: "Part C Retake (individual)", member: "$510", nonMember: "$595", notes: "Code Book (D1.1, API 1104, or B31.3); open-book, timed" },
-    { component: "3-Year Renewal (Years 3 & 6)", member: "$395", nonMember: "$560", notes: "Continuous employment + 8 hrs PDH; no retest required" },
-    { component: "9-Year Recertification", member: "$760", nonMember: "$935", notes: "40-question Part B-style retest required at 9-year mark" },
-    { component: "AWS Individual Membership", member: "$295/yr", nonMember: "N/A", notes: "Recommended; pays back via discounts on exam, codes, and seminars" }
+    { component: "Application / Processing Fee", member: "See official body (aws.org)", nonMember: "See official body (aws.org)", notes: "Non-refundable, paid with application; required regardless of membership. Fees vary — verify at aws.org." },
+    { component: "CWI Exam Fee (Parts A + B + C)", member: "Varies — see aws.org", nonMember: "Varies — see aws.org", notes: "Body-of-knowledge fee; covers Fundamentals, Practical, and Code Book" },
+    { component: "Pre-Exam 5-Day Seminar (optional)", member: "Varies — see aws.org", nonMember: "Varies — see aws.org", notes: "Highly recommended for first-timers; raises pass rate from ~65% to ~85%" },
+    { component: "Part A Retake (individual)", member: "See official body", nonMember: "See official body", notes: "Fundamentals only; permitted within 12 months of initial exam" },
+    { component: "Part B Retake (individual)", member: "See official body", nonMember: "See official body", notes: "Practical / Book of Specifications; most commonly failed part" },
+    { component: "Part C Retake (individual)", member: "See official body", nonMember: "See official body", notes: "Code Book (D1.1, API 1104, or B31.3); open-book, timed" },
+    { component: "3-Year Renewal (Years 3 & 6)", member: "See official body", nonMember: "See official body", notes: "Continuous employment + 8 hrs PDH; no retest required" },
+    { component: "9-Year Recertification", member: "See official body", nonMember: "See official body", notes: "40-question Part B-style retest required at 9-year mark" },
+    { component: "AWS Individual Membership", member: "Varies — see aws.org", nonMember: "N/A", notes: "Recommended; pays back via discounts on exam, codes, and seminars" }
 ];
 
 const nineYearTCO = [
-    { year: "Year 1 — Initial Certification", member: "$3,125", nonMember: "$3,510", scope: "Application + exam + seminar (recommended path); excludes code book and travel" },
-    { year: "Year 1 — No-Seminar Path", member: "$1,400", nonMember: "$1,585", scope: "Application + exam only (self-study); add ~$450 for D1.1 code book and study guides" },
-    { year: "Year 3 — Part-Time Renewal", member: "$395", nonMember: "$560", scope: "Renewal application + employer continuous-employment letter; no retest" },
-    { year: "Year 6 — Part-Time Renewal", member: "$395", nonMember: "$560", scope: "Renewal application + 8 hours documented PDH; no retest" },
-    { year: "Year 9 — Full Recertification", member: "$760", nonMember: "$935", scope: "Mandatory Part B-style 40-question retest; resets the 9-year clock" },
-    { year: "9-Year AWS-Only TCO", member: "$5,675", nonMember: "$6,500", scope: "Initial (with seminar) + 2 mid-cycle renewals + 9-year recert" },
-    { year: "9-Year All-In TCO (realistic)", member: "$7,500–$9,500", nonMember: "$8,500–$11,000", scope: "Adds code books, travel, 1 endorsement, 1 retake, study materials" }
+    { year: "Year 1 — Initial Certification", member: "Varies — see aws.org", nonMember: "Varies — see aws.org", scope: "Application + exam + seminar (recommended path); excludes code book and travel" },
+    { year: "Year 1 — No-Seminar Path", member: "Varies — see aws.org", nonMember: "Varies — see aws.org", scope: "Application + exam only (self-study); add D1.1 code book and study guides" },
+    { year: "Year 3 — Part-Time Renewal", member: "See official body", nonMember: "See official body", scope: "Renewal application + employer continuous-employment letter; no retest" },
+    { year: "Year 6 — Part-Time Renewal", member: "See official body", nonMember: "See official body", scope: "Renewal application + 8 hours documented PDH; no retest" },
+    { year: "Year 9 — Full Recertification", member: "See official body", nonMember: "See official body", scope: "Mandatory Part B-style 40-question retest; resets the 9-year clock" },
+    { year: "9-Year AWS-Only TCO", member: "Varies — see aws.org", nonMember: "Varies — see aws.org", scope: "Initial (with seminar) + 2 mid-cycle renewals + 9-year recert" },
+    { year: "9-Year All-In TCO (realistic)", member: "Varies by region & path", nonMember: "Varies by region & path", scope: "Adds code books, travel, 1 endorsement, 1 retake, study materials" }
 ];
 
 const partBreakdown = [
-    { part: "Part A — Fundamentals", duration: "2 hours, 150 questions", format: "Closed-book multiple choice", retakeFee: "$510 Member / $595 Non-Member", coverage: "Welding processes, metallurgy, distortion, NDT methods, safety, basic math, terminology", passRate: "~75% first attempt" },
-    { part: "Part B — Practical", duration: "2 hours, 46 questions", format: "Open Book of Specifications", retakeFee: "$510 Member / $595 Non-Member", coverage: "Visual inspection of plastic weld replicas using a proprietary B-Book of specs, drawings, and acceptance criteria", passRate: "~55% first attempt (lowest)" },
-    { part: "Part C — Code Book", duration: "2 hours, 46 questions", format: "Open code book (D1.1 default)", retakeFee: "$510 Member / $595 Non-Member", coverage: "Navigation and application of AWS D1.1 (or API 1104 / ASME B31.1 / B31.3 if elected)", passRate: "~70% first attempt" }
+    { part: "Part A — Fundamentals", duration: "2 hours, 150 questions", format: "Closed-book multiple choice", retakeFee: "See official body (aws.org)", coverage: "Welding processes, metallurgy, distortion, NDT methods, safety, basic math, terminology", passRate: "~75% first attempt" },
+    { part: "Part B — Practical", duration: "2 hours, 46 questions", format: "Open Book of Specifications", retakeFee: "See official body (aws.org)", coverage: "Visual inspection of plastic weld replicas using a proprietary B-Book of specs, drawings, and acceptance criteria", passRate: "~55% first attempt (lowest)" },
+    { part: "Part C — Code Book", duration: "2 hours, 46 questions", format: "Open code book (D1.1 default)", retakeFee: "See official body (aws.org)", coverage: "Navigation and application of AWS D1.1 (or API 1104 / ASME B31.1 / B31.3 if elected)", passRate: "~70% first attempt" }
 ];
 
 const endorsementCosts = [
-    { endorsement: "AWS D1.1 Structural Steel (Advanced)", memberFee: "$390", nonMemberFee: "$475", value: "Highest demand; structural fabricators and steel construction" },
-    { endorsement: "AWS D1.5 Bridge Welding Code", memberFee: "$390", nonMemberFee: "$475", value: "Bridge fabrication, DOT and infrastructure projects" },
-    { endorsement: "API 1104 Pipeline Welding", memberFee: "$475", nonMemberFee: "$590", value: "Oil & gas transmission pipelines; high billing-rate sector" },
-    { endorsement: "ASME B31.1 Power Piping", memberFee: "$475", nonMemberFee: "$590", value: "Power plants, utilities, nuclear support facilities" },
-    { endorsement: "ASME B31.3 Process Piping", memberFee: "$475", nonMemberFee: "$590", value: "Refineries, petrochemical plants, process facilities" },
-    { endorsement: "AWS D1.1 Structural Steel Endorsement", memberFee: "$390", nonMemberFee: "$475", value: "Required by many structural EOR specifications" }
+    { endorsement: "AWS D1.1 Structural Steel (Advanced)", memberFee: "See official body", nonMemberFee: "See official body", value: "Highest demand; structural fabricators and steel construction" },
+    { endorsement: "AWS D1.5 Bridge Welding Code", memberFee: "See official body", nonMemberFee: "See official body", value: "Bridge fabrication, DOT and infrastructure projects" },
+    { endorsement: "API 1104 Pipeline Welding", memberFee: "See official body", nonMemberFee: "See official body", value: "Oil & gas transmission pipelines; high billing-rate sector" },
+    { endorsement: "ASME B31.1 Power Piping", memberFee: "See official body", nonMemberFee: "See official body", value: "Power plants, utilities, nuclear support facilities" },
+    { endorsement: "ASME B31.3 Process Piping", memberFee: "See official body", nonMemberFee: "See official body", value: "Refineries, petrochemical plants, process facilities" },
+    { endorsement: "AWS D1.1 Structural Steel Endorsement", memberFee: "See official body", nonMemberFee: "See official body", value: "Required by many structural EOR specifications" }
 ];
 
 const hiddenCosts = [
-    { item: "AWS D1.1 Code Book (2025 Edition)", cost: "$469 Member / $625 Non-Member", note: "Mandatory for Part C unless electing alternate code; not included in exam fee" },
-    { item: "Pre-Seminar Reference Materials", cost: "$300–$500", note: "AWS official prep package; critical for self-study candidates" },
-    { item: "Practice Exams & Question Banks", cost: "$150–$400", note: "Hobart, Real Education, TWI - multiple vendors; pick one full mock exam minimum" },
-    { item: "Travel to Seminar/Exam City", cost: "$800–$2,500", note: "5–6 nights hotel, flights, ground transport, meals; varies by home city" },
-    { item: "Time Off Work (Opportunity Cost)", cost: "$1,800–$3,600", note: "6 days unpaid or PTO at $300–$600/day typical inspector wage" },
-    { item: "Pre-Exam Vision Examination", cost: "$30–$80", note: "Required documentation; standard optometrist visit" },
-    { item: "Optional Review Course (online)", cost: "$300–$1,200", note: "Recommended if not attending the in-person seminar" }
+    { item: "AWS D1.1 Code Book (current edition)", cost: "Varies — see aws.org", note: "Mandatory for Part C unless electing alternate code; not included in exam fee" },
+    { item: "Pre-Seminar Reference Materials", cost: "Varies by provider", note: "AWS official prep package; critical for self-study candidates" },
+    { item: "Practice Exams & Question Banks", cost: "Varies by provider", note: "Hobart, Real Education, TWI - multiple vendors; pick one full mock exam minimum" },
+    { item: "Travel to Seminar/Exam City", cost: "Varies by region", note: "5–6 nights hotel, flights, ground transport, meals; varies by home city" },
+    { item: "Time Off Work (Opportunity Cost)", cost: "Depends on wage", note: "6 days unpaid or PTO at typical inspector wage" },
+    { item: "Pre-Exam Vision Examination", cost: "Local optometrist rates", note: "Required documentation; standard optometrist visit" },
+    { item: "Optional Review Course (online)", cost: "Varies by provider", note: "Recommended if not attending the in-person seminar" }
 ];
 
 const scwiUpgrade = [
     { aspect: "Eligibility", value: "Active CWI + 6 additional years of weld inspection experience post-CWI" },
-    { aspect: "Application Fee", value: "$250 (non-refundable)" },
-    { aspect: "Exam Fee", value: "$1,335 Member / $1,520 Non-Member" },
-    { aspect: "Total Upgrade Cost (AWS only)", value: "$1,585 Member / $1,770 Non-Member" },
-    { aspect: "Study Materials", value: "$300–$500 (no pre-exam seminar offered)" },
+    { aspect: "Application Fee", value: "See official body (aws.org)" },
+    { aspect: "Exam Fee", value: "See official body (aws.org)" },
+    { aspect: "Total Upgrade Cost (AWS only)", value: "Varies — verify at aws.org" },
+    { aspect: "Study Materials", value: "Varies by provider (no pre-exam seminar offered)" },
     { aspect: "Exam Format", value: "Closed-book Fundamentals + Open-code-book + Supervisory inspection scenarios" },
-    { aspect: "Salary Premium vs CWI", value: "15–25% (typical $15K–$25K annual uplift)" },
+    { aspect: "Salary Premium vs CWI", value: "15–25% typical annual uplift" },
     { aspect: "Holder Population", value: "Approximately 8% of active CWIs hold SCWI" }
 ];
 
 const cwiVsAtlantis = [
-    { feature: "Exam Fee", standardCWI: "$1,150 (Member)", atlantisPlus: "$1,150 (paid to AWS unchanged)" },
-    { feature: "Pre-Exam Seminar", standardCWI: "$1,725 (5 days, classroom-only)", atlantisPlus: "Included with hands-on B-book drills and real-coupon practice" },
+    { feature: "Exam Fee", standardCWI: "Set by AWS — see aws.org", atlantisPlus: "Paid to AWS unchanged" },
+    { feature: "Pre-Exam Seminar", standardCWI: "5 days, classroom-only (AWS pricing)", atlantisPlus: "Included with hands-on B-book drills and real-coupon practice" },
     { feature: "Practical (Part B) Coaching", standardCWI: "Mock B-book only", atlantisPlus: "Real plastic + steel coupons + acceptance/rejection drills" },
     { feature: "Code Navigation (Part C)", standardCWI: "Standard reading guide", atlantisPlus: "Timed code-book chase exercises against real RFI scenarios" },
-    { feature: "International Test Centers", standardCWI: "US-centric", atlantisPlus: "India, UAE, Saudi, Singapore - cuts travel cost 40–60%" },
+    { feature: "International Test Centers", standardCWI: "US-centric", atlantisPlus: "India, UAE, Saudi, Singapore — reduces travel burden materially" },
     { feature: "Pass-Rate Track Record", standardCWI: "~65% self-study / ~85% seminar", atlantisPlus: "88–92% across cohorts since 2023" },
     { feature: "Post-Exam Job Pipeline", standardCWI: "None", atlantisPlus: "Direct intro to Atlantis client base + NDT Connect marketplace" },
-    { feature: "All-In Cost (USA candidate)", standardCWI: "$4,500–$8,000", atlantisPlus: "$3,200–$5,500 (international route)" }
+    { feature: "All-In Cost (USA candidate)", standardCWI: "Varies by region and route", atlantisPlus: "Affordable, accessible, fully customizable — contact for a tailored quote" }
 ];
 
 const roiBreakdown = [

@@ -9,7 +9,7 @@ export default function VsSapPm() {
             competitorVendor="SAP"
             competitorUrl="https://www.sap.com/products/scm/intelligent-asset-management.html"
             metaTitle="Atlantis NDT ERP vs SAP S/4HANA Asset Management (SAP PM) 2026 — Honest Comparison"
-            metaDescription="SAP S/4HANA Asset Management / SAP PM vs Atlantis NDT ERP. Enterprise SAP-ecosystem fit vs NDT-native deployment, $500K+ vs Contact for pricing, ABAP customization vs SaaS configuration. When each wins."
+            metaDescription="SAP S/4HANA Asset Management / SAP PM vs Atlantis NDT ERP. Enterprise SAP-ecosystem fit vs NDT-native deployment, $500K+ SAP vs affordable Atlantis SaaS, ABAP customization vs SaaS configuration. When each wins."
             keywords="sap pm alternative, sap s4hana asset management vs atlantis, sap plant maintenance ndt, sap pm inspection module, sap pm comparison"
             intro="SAP S/4HANA Asset Management (the modern successor to SAP PM) is the right choice when SAP is already your ERP backbone. The integrated financial, procurement, and HR data flow is genuinely valuable for refineries, EPCs, and manufacturers running SAP end-to-end. The honest read: SAP PM wins where SAP is already the system of record and the inspection workflow is a small fraction of overall plant operations. Atlantis NDT ERP wins for pure-play inspection / NDT / calibration / welding service companies where SAP licensing, ABAP / Fiori customization, and 12-24 month implementation timelines are economically prohibitive."
             competitorWinsTitle="When SAP PM is the right choice"
@@ -97,16 +97,16 @@ export default function VsSapPm() {
                                 "competitor": "Enterprise ERP integration, manufacturing-finance data lineage"
                       }
             ]}
-            migrationParagraph="Migration from SAP PM to Atlantis NDT ERP rarely makes sense as a wholesale replacement when SAP is the enterprise ERP. The pragmatic pattern is to keep SAP as the financial / asset master and integrate Atlantis via REST API + IDoc / RFC for the inspection-specific workflow. A 6-10 week migration covers SAP equipment master export, ASNT certification data migration via CSV, parallel-run of the next inspection campaign, and operator-template re-creation for codes customized in SAP. Implementation runs $40K-$110K depending on data complexity. For pure-play NDT companies running QuickBooks / Xero / NetSuite (not SAP), Atlantis is the system of record outright."
+            migrationParagraph="Migration from SAP PM to Atlantis NDT ERP rarely makes sense as a wholesale replacement when SAP is the enterprise ERP. The pragmatic pattern is to keep SAP as the financial / asset master and integrate Atlantis via REST API + IDoc / RFC for the inspection-specific workflow. A 6-10 week migration covers SAP equipment master export, ASNT certification data migration via CSV, parallel-run of the next inspection campaign, and operator-template re-creation for codes customized in SAP. Implementation is scoped per project — contact us for a tailored quote. For pure-play NDT companies running QuickBooks / Xero / NetSuite (not SAP), Atlantis is the system of record outright."
             scenarios={[
                       {
                                 "title": "Small NDT contractor — 8 people",
-                                "description": "Calgary-based pipeline integrity team with 8 inspectors and $2.5M revenue. Atlantis at $24K-$40K/year ships in 45 days with native API 1163 and PHMSA reporting. SAP is not procurable at this scale — minimum viable SAP S/4HANA Cloud Public Edition starts at ~$150/user/month for 25-seat minimum plus the inspection module, which is uneconomic.",
+                                "description": "Calgary-based pipeline integrity team with 8 inspectors and $2.5M revenue. Atlantis (affordable SaaS) ships in 45 days with native API 1163 and PHMSA reporting. SAP is not procurable at this scale — minimum viable SAP S/4HANA Cloud Public Edition starts at ~$150/user/month for 25-seat minimum plus the inspection module, which is uneconomic.",
                                 "winner": "atlantis"
                       },
                       {
                                 "title": "Mid-size NDT multinational — 100 people",
-                                "description": "Atlantis at $80K-$130K/year for 100 seats, 12-week implementation. SAP S/4HANA + Asset Manager would run $350K-$700K/year plus a $500K-$1.2M implementation. Atlantis wins unless the parent group is already on SAP.",
+                                "description": "Atlantis (affordable SaaS, 100 seats) deploys in a 12-week implementation. SAP S/4HANA + Asset Manager would run $350K-$700K/year plus a $500K-$1.2M implementation. Atlantis wins unless the parent group is already on SAP.",
                                 "winner": "atlantis"
                       },
                       {
@@ -118,7 +118,7 @@ export default function VsSapPm() {
             faqs={[
                       {
                                 "question": "Is Atlantis NDT ERP cheaper than SAP for a mid-size inspection company?",
-                                "answer": "Yes — typically 4-7x lower 5-year TCO. SAP S/4HANA + Asset Manager for a 100-user inspection company lands at $350K-$700K/year license plus $500K-$1.2M implementation. Atlantis lands at $80K-$130K/year SaaS plus $30K-$80K onboarding inside 12 weeks."
+                                "answer": "Yes — typically 4-7x lower 5-year TCO. SAP S/4HANA + Asset Manager for a 100-user inspection company lands at $350K-$700K/year license plus $500K-$1.2M implementation. Atlantis is an affordable SaaS with onboarding inside 12 weeks — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Can Atlantis integrate with SAP S/4HANA if we want to keep both?",

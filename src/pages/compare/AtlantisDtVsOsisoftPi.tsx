@@ -7,7 +7,7 @@ import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Tiered SaaS — $50K starter, $200K enterprise/yr", competitor: "Per-tag perpetual + 22% maintenance — $120K–$900K/yr typical" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-tag perpetual + 22% maintenance — $120K–$900K/yr typical" },
     { factor: "Brand status", atlantis: "Independent NDT software vendor", competitor: "OSIsoft acquired by AVEVA in 2021; same code base, AVEVA badging" },
     { factor: "NDT data model", atlantis: "Native — UT thickness CMLs, RT shot maps, weld registers, FFS, RBI", competitor: "Generic time-series + Asset Framework templates; NDT requires custom modeling" },
     { factor: "API 579 / API 581 engine", atlantis: "Built-in", competitor: "Not native — partner add-ons (Antea, Meridium, GE APM)" },
@@ -41,7 +41,7 @@ export default function AtlantisDtVsOsisoftPi() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs OSIsoft PI: Pricing, NDT Workflow, Migration [2026]"
-                description="OSIsoft PI (now AVEVA PI) vs Atlantis Digital Twin — historian per-tag licensing $120K-$900K/yr vs $50K-$200K SaaS. Native FFS/RBI, 3D twin, ASNT Level III support."
+                description="OSIsoft PI (now AVEVA PI) vs Atlantis Digital Twin — historian per-tag licensing $120K-$900K/yr vs affordable accessible fully customizable SaaS. Native FFS/RBI, 3D twin, ASNT Level III support."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-osisoft-pi"
                 structuredData={structuredData}
                 faq={faqs}
@@ -75,7 +75,7 @@ export default function AtlantisDtVsOsisoftPi() {
 
                     <h2>Pricing — the practical difference</h2>
                     <p>OSIsoft PI is licensed primarily on tag count plus add-ons (PI Vision, PI Asset Framework, PI Asset Analytics, PI Integrators, AVEVA Connect). Pre-AVEVA, perpetual licensing was common with 22% annual maintenance. Today, most renewals push toward AVEVA Flex subscription. Mid-sized refinery (~25,000 tags) total spend is commonly $300K–$800K/year all-in. Tier-1 operators with multi-site deployments routinely exceed $1M/year.</p>
-                    <p>Atlantis Digital Twin is tiered SaaS, not per-tag. $50K/year starter for one complex asset with 25 users; $200K/year enterprise for unlimited assets and users with the full FFS/RBI engine. PI tags pulled in via the Web API don&rsquo;t add cost — they&rsquo;re simply mapped into the asset record. For inspection-led organizations, the economics typically favor Atlantis by 40–60% over a comparable PI + IDMS stack.</p>
+                    <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS — not per-tag. A starter tier covers one complex asset with 25 users; an enterprise tier covers unlimited assets and users with the full FFS/RBI engine. PI tags pulled in via the Web API don&rsquo;t add cost — they&rsquo;re simply mapped into the asset record. For inspection-led organizations, the economics typically favor Atlantis materially over a comparable PI + IDMS stack. Pricing varies by region and scope — contact us for a tailored quote.</p>
 
                     <h2>Migration paths</h2>
                     <h3>Path 1 — Replace</h3>

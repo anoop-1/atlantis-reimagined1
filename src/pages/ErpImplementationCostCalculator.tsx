@@ -72,8 +72,8 @@ export default function ErpImplementationCostCalculator() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT ERP Cost Calculator 2026 — Atlantis $18K vs SAP $2M+"
-                description="Free 2026 NDT ERP TCO calculator: Atlantis regional pricing vs SAP S/4HANA, Oracle Fusion, IBM Maximo Year-1 & 5-year totals. License, implementation, integration, training. Try free."
+                title="NDT ERP Cost Calculator 2026 — Affordable, Fully Customizable vs Enterprise Tier"
+                description="Free 2026 NDT ERP TCO calculator: Atlantis (affordable, fully customizable) vs SAP S/4HANA, Oracle Fusion, IBM Maximo Year-1 & 5-year totals. License, implementation, integration, training. Try free."
                 canonical="https://atlantisndt.com/erp-implementation-cost-calculator"
                 structuredData={structuredData}
             />
@@ -154,7 +154,8 @@ export default function ErpImplementationCostCalculator() {
 
                     <h2>What drives the cost</h2>
                     <h3>License</h3>
-                    <p>License cost varies dramatically by vendor and pricing model. Atlantis NDT ERP is tiered SaaS at roughly $800/user/yr loaded for typical inspection-role users. SAP S/4HANA, Oracle Fusion, and IBM Maximo are more expensive on a per-user basis ($2,500–$3,500/user/yr) because they&rsquo;re tier-1 enterprise platforms with much broader functionality than the NDT inspection workflow needs.</p>
+                    <p>License cost varies dramatically by vendor and pricing model. Atlantis NDT ERP is positioned as an affordable, fully customizable SaaS tier — Atlantis-specific pricing varies by region and team size, so the calculator uses a representative planning estimate; <strong>request a tailored quote at info@atlantisndt.com</strong>. SAP S/4HANA, Oracle Fusion, and IBM Maximo are enterprise-tier platforms on a per-user basis because they have much broader functionality than the NDT inspection workflow needs.</p>
+                    <p className="text-xs text-slate-500">Note: the dropdown estimates Atlantis at a planning placeholder for relative comparison only — not a published price.</p>
 
                     <h3>Implementation services</h3>
                     <p>Implementation services typically run 1.5x–3x the license cost in Year 1 depending on vendor and customization scope. Atlantis sits at the low end (1.0x — purpose-built means less custom development). SAP, Oracle, and IBM sit at the high end (2.2x–2.5x) because customizing a general-purpose ERP for NDT inspection workflow is a significant build.</p>

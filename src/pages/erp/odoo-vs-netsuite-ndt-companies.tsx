@@ -8,8 +8,8 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    question: "What does Oracle NetSuite OneWorld actually cost an NDT inspection company in 2026?",
-    answer: "NetSuite OneWorld base subscription plus the SuiteSuccess Professional Services edition for a 50-user inspection firm typically runs $1,300-$2,200 per user per month — approximately $780K-$1.32M/year in licenses. NetSuite implementation by a tier-1 partner (Oracle's own NetSuite Services, Big Bang ERP, RSM, Eide Bailly): $150K-$500K depending on scope. Five-year customization, integration and support: $80K-$280K. Total 5-year TCO for a 50-user mid-market NDT contractor: $4.1M-$7.2M. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) at flat regional pricing totals $90K over 5 years. NetSuite is roughly 45-80× more expensive for the same mid-market scope.",
+    question: "How does Oracle NetSuite OneWorld compare on cost to Atlantis NDT ERP for an inspection company?",
+    answer: "NetSuite OneWorld plus the SuiteSuccess Professional Services edition is per-user enterprise pricing — for a 50-user inspection firm, the combination of license, tier-1 partner implementation (Oracle's own NetSuite Services, Big Bang ERP, RSM, Eide Bailly), customization, integration and support translates into a multi-million-dollar five-year total cost of ownership. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
   },
   {
     question: "Is NetSuite OpenAir / SuiteProjects really better for services firms than Odoo?",
@@ -42,7 +42,7 @@ const FAQS = [
 ];
 
 const comparisonRows = [
-  { capability: "Annual license cost (50 users)", atlantis: "$18,000 flat", netsuite: "$780K–$1.32M", winner: "atlantis" },
+  { capability: "Annual license cost (50 users)", atlantis: "affordable, accessible,", netsuite: "$780K–$1.32M", winner: "atlantis" },
   { capability: "5-year total cost of ownership", atlantis: "$90,000", netsuite: "$4.1M–$7.2M", winner: "atlantis" },
   { capability: "Implementation timeline", atlantis: "4–10 weeks", netsuite: "4–9 months", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", netsuite: "Custom SuiteScript build", winner: "atlantis" },
@@ -67,7 +67,7 @@ const comparisonRows = [
 const caseStudies = [
   {
     title: "Mid-size pipeline integrity contractor (Houston + Tulsa, 42 technicians)",
-    body: "Evaluated NetSuite OneWorld via a tier-1 services-firm partner — quote $620K implementation + $1.04M/year subscription for OneWorld + OpenAir + SuiteCommerce Advanced. Chose Atlantis NDT ERP at $18K flat. API 1160 pipeline integrity management documentation, PHMSA HCA evidence packs and Cushing tank-farm API 653 scheduling all pre-built. Saved approximately $4.8M over 5 years; cleared next PHMSA audit with zero major findings.",
+    body: "Evaluated NetSuite OneWorld via a tier-1 services-firm partner — quote $620K implementation + $1.04M/year subscription for OneWorld + OpenAir + SuiteCommerce Advanced. Chose Atlantis NDT ERP at affordable, accessible flat. API 1160 pipeline integrity management documentation, PHMSA HCA evidence packs and Cushing tank-farm API 653 scheduling all pre-built. Saved approximately $4.8M over 5 years; cleared next PHMSA audit with zero major findings.",
   },
   {
     title: "Calibration laboratory group (multi-site India, 28 technicians)",
@@ -100,8 +100,8 @@ export default function OdooVsNetSuiteNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — $18K vs $780K+ | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, regionally priced) vs Oracle NetSuite OneWorld ($780K-$1.32M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
+        title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — affordable, accessible vs $780K+ | Atlantis NDT"
+        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, affordable, accessible) vs Oracle NetSuite OneWorld ($780K-$1.32M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
         canonical="/erp/odoo-vs-netsuite-ndt-companies"
         faq={FAQS}
         article={{
@@ -118,7 +118,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — $18K vs $80K-$250K+
+            Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — affordable, accessible vs $80K-$250K+
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
             Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat regional pricing) against <span className="text-orange-400 font-semibold">Oracle NetSuite OneWorld</span> — the mid-market services ERP gold standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where NetSuite genuinely wins.

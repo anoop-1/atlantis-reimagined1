@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "How much does NDT certification cost in total?",
-    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): $1,500–$3,500 including training course ($1,200–$2,500), study materials ($100–$300), and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): $2,000–$4,500 for incremental training and examination. ISO 9712 or PCN Level II single method: $2,500–$5,000 including authorized training center course ($2,000–$3,500) and certification body exam fee ($350–$750). ASNT ACCP Level III (per method): $3,000–$6,000 including prep course ($1,500–$3,000) and ASNT exam fee ($750 per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): $8,000–$18,000 total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
+    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): $1,500–$3,500 including training course ($1,200–$2,500), study materials ($100–$300), and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): $2,000–$4,500 for incremental training and examination. ISO 9712 or PCN Level II single method: $2,500–$5,000 including authorized training center course ($2,000–$3,500) and certification body exam fee ($350–$750). ASNT ACCP Level III (per method): $3,000–$6,000 including prep course ($1,500–$3,000) and ASNT exam fee ($750 per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): $8,000–affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
   },
   {
     q: "What is the ASNT ACCP Level III exam?",
@@ -576,7 +576,7 @@ export default function NDTCertificationGuide() {
               </div>
               <div className="bg-blue-50 rounded-xl p-5 border border-blue-200 text-center">
                 <DollarSign className="w-6 h-6 text-[#004aad] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#004aad]">$8,000–$18,000</p>
+                <p className="text-2xl font-bold text-[#004aad]">$8,000–affordable, accessible</p>
                 <p className="text-xs text-blue-700 mt-1">Multi-method Level II (UT+RT+MT+PT)</p>
               </div>
               <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 text-center">

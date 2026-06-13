@@ -19,7 +19,7 @@ const faqs = [
 ];
 
 const roiExamples = [
-  { asset: "Refinery (200K BPD, 10 units)", platformCost: "$200K/yr", fiveYrCost: "$1.0M", fiveYrValue: "$17.7M", roi: "17.7×", payback: "7 months", driver: "2 days/yr avoided downtime × $850K/day; turnaround 28→22 days" },
+  { asset: "Refinery (200K BPD, 10 units)", platformCost: "enterprise tier, accessible", fiveYrCost: "$1.0M", fiveYrValue: "$17.7M", roi: "17.7×", payback: "7 months", driver: "2 days/yr avoided downtime × $850K/day; turnaround 28→22 days" },
   { asset: "FPSO (150K BPD)", platformCost: "$400K/yr", fiveYrCost: "$2.0M", fiveYrValue: "$43.4M", roi: "21.7×", payback: "4 months", driver: "1 day/yr avoided × $2.2M; deferred hull-replacement capex" },
   { asset: "Transmission Pipeline (800 mi)", platformCost: "$300K/yr", fiveYrCost: "$1.5M", fiveYrValue: "$4-15M", roi: "3-10×", payback: "11-18 months", driver: "ILI data fusion → avoided 4 unnecessary digs/yr × $180K" },
   { asset: "Combined-Cycle Power Plant (700 MW)", platformCost: "$250K/yr", fiveYrCost: "$1.25M", fiveYrValue: "$21.2M", roi: "17×", payback: "5 months", driver: "3 forced outages/yr avoided × 18 hr × $35K/hr; HRSG tube life extended" },
@@ -267,7 +267,7 @@ export default function DigitalTwinROICalculatorExamples2026() {
 
           <section className="bg-gradient-to-br from-cyan-700 to-blue-900 text-white p-10 rounded-2xl mb-12">
             <h2 className="text-3xl font-bold mb-4">Run the Numbers for Your Asset</h2>
-            <p className="text-cyan-100 text-lg mb-6">Atlantis NDT digital twin platform — $200K/year for typical refinery, FPSO, pipeline, or power-plant deployments. 5-year NPV typically 5-20× cost.</p>
+            <p className="text-cyan-100 text-lg mb-6">Atlantis NDT digital twin platform — enterprise tier/year for typical refinery, FPSO, pipeline, or power-plant deployments. 5-year NPV typically 5-20× cost.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/digital-twin-roi-calculator" className="bg-white text-cyan-900 px-6 py-3 rounded-lg font-semibold hover:bg-cyan-50 flex items-center gap-2">Use ROI Calculator <ArrowRight className="w-4 h-4" /></Link>
               <Link to="/contact" className="bg-cyan-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-cyan-500 flex items-center gap-2">Book a Demo <ArrowRight className="w-4 h-4" /></Link>

@@ -8,8 +8,8 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    question: "How much does SAP S/4HANA actually cost an NDT inspection company in 2026?",
-    answer: "Realistic 5-year total cost of ownership for a 50-user mid-size NDT inspection contractor: SAP S/4HANA Public Cloud RISE subscription is approximately $1,500-2,200 per user per month for an enterprise edition with full Plant Maintenance, Quality Management, Project Systems and HR — about $900K-$1.32M/year in licenses alone. Add SAP implementation by a tier-1 SI (Deloitte, Accenture, IBM, Capgemini): $400K-$900K. Five-year customization, integration and support: $250K-$500K. Total 5-year TCO: $5.7M-$10.4M. Atlantis NDT ERP at flat regional pricing covers the same user base, same module breadth, and pre-built NDT industry overlay — total 5-year cost: $90K. The factor is roughly 60-100× cheaper.",
+    question: "How does SAP S/4HANA compare on cost to Atlantis NDT ERP for an inspection company?",
+    answer: "SAP S/4HANA Public Cloud RISE is enterprise-tier licensing — typical 5-year total cost of ownership for a 50-user mid-size NDT inspection contractor falls in the multi-million-dollar range once licenses, tier-1 SI implementation (Deloitte, Accenture, IBM, Capgemini), customization, integration and ongoing support are accounted for. Atlantis NDT ERP is affordable, accessible, fully customizable SaaS covering the same user base, the same module breadth, and a pre-built NDT industry overlay. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
   },
   {
     question: "Will SAP S/4HANA give me functionality Odoo does not have?",
@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: "What about SAP's NDT-industry expertise — does SAP work with NDT companies?",
-    answer: "SAP S/4HANA is a horizontal ERP. SAP has reference customers in NDT-adjacent verticals — refining (Saudi Aramco, ExxonMobil, Shell), engineering services (Worley, Fluor, KBR), industrial inspection (TÜV SÜD, Bureau Veritas at parent-company level) — but no NDT-industry-specific accelerator package. Implementing SAP for an NDT contractor means building the inspection-method library, technician certification workflow, API 510/570/653 inspection scheduling, NACE MR0175 corrosion trending, ASNT written-practice tracking and PSM 29 CFR 1910.119 evidence assembly from scratch — typically $300K-$700K of additional SI work on top of base SAP. Atlantis NDT ERP ships this overlay out-of-the-box. Net result: an NDT contractor spending $5-10M over five years on SAP gets approximately the same NDT-specific operating capability as a contractor spending $90K on Atlantis NDT ERP.",
+    answer: "SAP S/4HANA is a horizontal ERP. SAP has reference customers in NDT-adjacent verticals — refining (Saudi Aramco, ExxonMobil, Shell), engineering services (Worley, Fluor, KBR), industrial inspection (TÜV SÜD, Bureau Veritas at parent-company level) — but no NDT-industry-specific accelerator package. Implementing SAP for an NDT contractor means building the inspection-method library, technician certification workflow, API 510/570/653 inspection scheduling, NACE MR0175 corrosion trending, ASNT written-practice tracking and PSM 29 CFR 1910.119 evidence assembly from scratch — typically a multi-hundred-thousand-dollar block of additional SI work on top of base SAP. Atlantis NDT ERP ships this overlay out-of-the-box. Net result: an NDT contractor on enterprise-tier SAP gets approximately the same NDT-specific operating capability that Atlantis NDT ERP delivers as affordable, accessible, fully customizable SaaS.",
   },
   {
     question: "Which is better for multi-country NDT operations — SAP or Atlantis NDT ERP?",
@@ -42,8 +42,8 @@ const FAQS = [
 ];
 
 const comparisonRows = [
-  { capability: "Annual license cost (50 users)", atlantis: "$18,000 flat", sap: "$900K–$1.32M", winner: "atlantis" },
-  { capability: "5-year total cost of ownership", atlantis: "$90,000", sap: "$5.7M–$10.4M", winner: "atlantis" },
+  { capability: "Annual license cost (50 users)", atlantis: "Affordable SaaS", sap: "Enterprise tier", winner: "atlantis" },
+  { capability: "5-year total cost of ownership", atlantis: "Affordable SaaS", sap: "Enterprise tier", winner: "atlantis" },
   { capability: "Implementation timeline", atlantis: "4–10 weeks", sap: "9–15 months (Public Cloud)", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", sap: "Custom build required", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", sap: "Custom build required", winner: "atlantis" },
@@ -67,31 +67,31 @@ const comparisonRows = [
 const caseStudies = [
   {
     title: "Gulf Coast inspection contractor (Houston, 45 technicians)",
-    body: "Operating across ExxonMobil Baytown, Shell Deer Park and Marathon Galveston Bay turnarounds, the contractor evaluated SAP S/4HANA RISE Public Cloud with a tier-1 SI quote of $1.65M implementation + $1.1M/year license. Chose Atlantis NDT ERP at $18K flat. Saved $4.9M over 5 years. API 510 inspection-report turnaround dropped from 4 days to 30 minutes. Cleared first OSHA Region VI PSM audit post-go-live with zero recordables.",
+    body: "Operating across ExxonMobil Baytown, Shell Deer Park and Marathon Galveston Bay turnarounds, the contractor evaluated SAP S/4HANA RISE Public Cloud with a tier-1 SI quote in the multi-million-dollar range over the five-year horizon. Chose Atlantis NDT ERP — affordable, accessible, fully customizable. API 510 inspection-report turnaround dropped from 4 days to 30 minutes. Cleared first OSHA Region VI PSM audit post-go-live with zero recordables.",
   },
   {
     title: "Saudi Aramco-approved inspection firm (Dammam, 60 technicians)",
-    body: "Initial SAP S/4HANA quote from a regional SAP partner: SAR 7.2M (~$1.92M) over 5 years for Aramco SAEP-1112 evidence-pack automation. Chose Atlantis NDT ERP — Aramco APQS / VQIP vendor portal integration ships pre-built. Cleared next SAEP-1112 surveillance audit with zero findings (baseline: 6 per cycle). Reclaimed approximately SAR 1.8M/year of QA engineer time previously spent on manual evidence assembly.",
+    body: "Initial SAP S/4HANA quote from a regional SAP partner: enterprise-tier licensing in the multi-million-SAR range over 5 years for Aramco SAEP-1112 evidence-pack automation. Chose Atlantis NDT ERP — Aramco APQS / VQIP vendor portal integration ships pre-built, affordable, accessible, fully customizable. Cleared next SAEP-1112 surveillance audit with zero findings (baseline: 6 per cycle). Reclaimed approximately SAR 1.8M/year of QA engineer time previously spent on manual evidence assembly.",
   },
   {
     title: "Multi-region inspection group (UAE + KSA + India, 80 technicians)",
-    body: "Evaluated SAP S/4HANA Public Cloud for multi-country consolidation. Atlantis NDT ERP demonstrated the same consolidation across 3 legal entities (Dubai DMCC, Aramco-region Saudi LLC, Hyderabad Pvt Ltd) with intercompany invoicing, FX revaluation and parallel ADNOC Tejari / Aramco APQS portal evidence. 5-year TCO: $90K vs SAP's $3.2M quote. Implemented in 9 weeks vs SAP's 13-month timeline.",
+    body: "Evaluated SAP S/4HANA Public Cloud for multi-country consolidation. Atlantis NDT ERP demonstrated the same consolidation across 3 legal entities (Dubai DMCC, Aramco-region Saudi LLC, Hyderabad Pvt Ltd) with intercompany invoicing, FX revaluation and parallel ADNOC Tejari / Aramco APQS portal evidence. Affordable, accessible, fully customizable — versus SAP's enterprise-tier multi-million-dollar quote. Implemented in 9 weeks vs SAP's 13-month timeline.",
   },
   {
     title: "UK / Aberdeen offshore inspection contractor (35 technicians)",
-    body: "PCN/BINDT certification tracking, Lloyd's Register vendor-qualification portal integration, PSSR 2000 written scheme of examination and offshore Safety Case evidence — all delivered in Atlantis NDT ERP within 6 weeks. SAP S/4HANA quote for equivalent scope: £840K implementation + £450K/year. Atlantis NDT ERP £14,400/year. Saved approximately £2.1M over 5 years; cleared next UKAS surveillance audit with zero non-conformances.",
+    body: "PCN/BINDT certification tracking, Lloyd's Register vendor-qualification portal integration, PSSR 2000 written scheme of examination and offshore Safety Case evidence — all delivered in Atlantis NDT ERP within 6 weeks. SAP S/4HANA quote for equivalent scope: enterprise-tier licensing in the multi-hundred-thousand-GBP-per-year range. Atlantis NDT ERP delivered the same scope as affordable, accessible, fully customizable SaaS; cleared next UKAS surveillance audit with zero non-conformances.",
   },
   {
     title: "Indian aerospace NDT supplier (Bangalore, 30 technicians)",
-    body: "Serving HAL, GE Aviation India, Pratt & Whitney India and Boeing supplier-base inspection work, the contractor needed NAS 410 Rev 5 currency tracking, NADCAP audit-pack export and DGCA Form CA-39 generation. SAP S/4HANA Public Cloud quote: INR 6.5 crore over 5 years. Atlantis NDT ERP INR 15 lakh/year. Saved approximately INR 5.7 crore over 5 years; cleared NADCAP MAUP audit with zero findings.",
+    body: "Serving HAL, GE Aviation India, Pratt & Whitney India and Boeing supplier-base inspection work, the contractor needed NAS 410 Rev 5 currency tracking, NADCAP audit-pack export and DGCA Form CA-39 generation. SAP S/4HANA Public Cloud quote: enterprise-tier licensing in the multi-crore-INR range over 5 years. Atlantis NDT ERP delivered the same scope as affordable, accessible, fully customizable SaaS; cleared NADCAP MAUP audit with zero findings.",
   },
   {
     title: "Canadian oil-sands inspection contractor (Edmonton, 38 technicians)",
-    body: "ABSA pressure-equipment registration, CGSB 48.9712 certification tracking, AER Directive 056/077 evidence and Suncor / Imperial Oil contractor-portal integration. SAP S/4HANA quote: CAD 1.95M over 5 years with a Calgary-based SI. Atlantis NDT ERP CAD 24,500/year. Saved approximately CAD 1.8M over 5 years; cleared next ABSA surveillance audit with zero recordables; reduced cold-weather mobilization paperwork from 2 days to 4 hours per crew.",
+    body: "ABSA pressure-equipment registration, CGSB 48.9712 certification tracking, AER Directive 056/077 evidence and Suncor / Imperial Oil contractor-portal integration. SAP S/4HANA quote: enterprise-tier licensing in the multi-million-CAD range over 5 years with a Calgary-based SI. Atlantis NDT ERP delivered the same scope as affordable, accessible, fully customizable SaaS; cleared next ABSA surveillance audit with zero recordables; reduced cold-weather mobilization paperwork from 2 days to 4 hours per crew.",
   },
   {
     title: "European inspection group (Rotterdam-headquartered, 55 technicians)",
-    body: "PED 2014/68/EU conformity packs, Seveso III major-hazard evidence, RvA ISO 17020 audit trails and Vopak / Koole tank-farm portal integration. SAP S/4HANA Public Cloud quote in EUR: €1.34M over 5 years. Atlantis NDT ERP €16,500/year. Saved approximately €1.26M over 5 years; cleared next ILT statutory inspection cycle with zero non-conformances; bilingual Dutch/English reporting eliminated the dual-format admin overhead that previously consumed 30% of QA engineer time.",
+    body: "PED 2014/68/EU conformity packs, Seveso III major-hazard evidence, RvA ISO 17020 audit trails and Vopak / Koole tank-farm portal integration. SAP S/4HANA Public Cloud quote in EUR: enterprise-tier licensing in the multi-hundred-thousand-euro-per-year range. Atlantis NDT ERP delivered the same scope as affordable, accessible, fully customizable SaaS; cleared next ILT statutory inspection cycle with zero non-conformances; bilingual Dutch/English reporting eliminated the dual-format admin overhead that previously consumed 30% of QA engineer time.",
   },
 ];
 
@@ -100,8 +100,8 @@ export default function OdooVsSAPNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Atlantis NDT (Odoo) vs SAP S/4HANA for NDT Companies — $18K vs $250K+ | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18 base, regional pricing flat) vs SAP S/4HANA Cloud ($900K-$1.32M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 case studies, implementation timelines."
+        title="Atlantis NDT (Odoo) vs enterprise-tier SAP for NDT Companies | Atlantis NDT"
+        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18 base — affordable, accessible, fully customizable) vs SAP S/4HANA Cloud (enterprise-tier licensing). 20-row capability matrix, 5-year TCO framing, 7 case studies, implementation timelines."
         canonical="/erp/odoo-vs-sap-ndt-companies"
         faq={FAQS}
         article={{
@@ -118,20 +118,20 @@ export default function OdooVsSAPNdtCompanies() {
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Atlantis NDT (Odoo) vs SAP S/4HANA for NDT Inspection Companies — $18K vs $250K+
+            Atlantis NDT (Odoo) vs enterprise-tier SAP S/4HANA for NDT Inspection Companies
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            An honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat regional pricing) against <span className="text-blue-400 font-semibold">SAP S/4HANA Cloud</span> — the global enterprise ERP gold-standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT inspection case studies and honest commentary on where SAP genuinely wins.
+            An honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay — affordable, accessible, fully customizable) against <span className="text-blue-400 font-semibold">SAP S/4HANA Cloud</span> — the global enterprise ERP gold-standard. 20-row capability matrix, qualitative 5-year total cost of ownership framing, 7 real NDT inspection case studies and honest commentary on where SAP genuinely wins.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">regional pricing</span>
+              <span className="font-semibold">Affordable. Accessible. Fully Customizable.</span>
               <span className="text-emerald-200/70 text-sm">Atlantis NDT ERP</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">$900K–$1.32M / year</span>
+              <span className="font-semibold">Enterprise tier</span>
               <span className="text-blue-200/70 text-sm">SAP S/4HANA (50 users)</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 rounded-lg px-4 py-2 text-purple-300">
@@ -158,10 +158,10 @@ export default function OdooVsSAPNdtCompanies() {
           <h2 className="text-3xl font-bold mb-5">Executive summary</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              SAP S/4HANA is the most capable enterprise ERP in the world. It dominates the Fortune 500. It is also the most expensive: a 50-user mid-market NDT inspection contractor spending five years on SAP S/4HANA Cloud will pay between $5.7M and $10.4M all-in across licenses, implementation, customization, integration, support and the average tier-1 SI overhead. Atlantis NDT ERP — built on Odoo 18 with a deep NDT-industry overlay (ASNT, ISO 9712, PCN, CSWIP, API 510/570/653, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112, ADNOC AIM) — costs $90,000 over the same 5 years. That is approximately 60-100× cheaper for what, in functional terms, is the same operating capability for an NDT contractor.
+              SAP S/4HANA is the most capable enterprise ERP in the world. It dominates the Fortune 500. It is also enterprise-tier in cost: a 50-user mid-market NDT inspection contractor spending five years on SAP S/4HANA Cloud will incur enterprise-tier licensing in the multi-million-dollar range across licenses, implementation, customization, integration, support and tier-1 SI overhead. Atlantis NDT ERP — built on Odoo 18 with a deep NDT-industry overlay (ASNT, ISO 9712, PCN, CSWIP, API 510/570/653, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112, ADNOC AIM) — is affordable, accessible, fully customizable SaaS over the same 5 years. The same operating capability for an NDT contractor at a fraction of the enterprise cost.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              The honest distinction: SAP genuinely wins when an inspection group exceeds roughly $500M revenue, operates in 20+ countries with parallel multi-GAAP reporting requirements, runs configure-to-order manufacturing or holds defense contracts requiring DCAA cost accounting. For everyone else — including most NDT inspection contractors between 5 and 500 technicians — Atlantis NDT ERP delivers the same outcome at 1-2% of the cost.
+              The honest distinction: SAP genuinely wins when an inspection group is at large enterprise scale, operates in 20+ countries with parallel multi-GAAP reporting requirements, runs configure-to-order manufacturing or holds defense contracts requiring DCAA cost accounting. For everyone else — including most NDT inspection contractors between 5 and 500 technicians — Atlantis NDT ERP delivers the same outcome at a fraction of the enterprise spend. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.
             </p>
           </div>
         </section>
@@ -199,37 +199,37 @@ export default function OdooVsSAPNdtCompanies() {
 
         {/* PRICING BREAKDOWN */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-5">Pricing breakdown — 5-year total cost of ownership (50 users)</h2>
+          <h2 className="text-3xl font-bold mb-5">Cost framing — 5-year total cost of ownership (50 users)</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-emerald-900/30 border border-emerald-500/30 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-emerald-300 mb-3">Atlantis NDT ERP</h3>
-              <p className="text-4xl font-bold text-white mb-4">$90,000</p>
-              <p className="text-sm text-emerald-200 mb-4">over 5 years, flat</p>
+              <p className="text-3xl font-bold text-white mb-4">Affordable SaaS</p>
+              <p className="text-sm text-emerald-200 mb-4">Affordable. Accessible. Fully Customizable.</p>
               <ul className="space-y-2 text-slate-200 text-sm">
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: regional pricing — contact us — all apps included</li>
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Implementation: $15K-$45K one-off (typical scope)</li>
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Customization: $10K-$30K (NDT overlay pre-built)</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: tailored to your region and team — all apps included</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Implementation: scoped to your workflow</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Customization: NDT overlay pre-built; further customization available</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Support + upgrades: included</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Mobile, training, hosting: included</li>
               </ul>
             </div>
             <div className="bg-blue-900/30 border border-blue-500/30 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-blue-300 mb-3">SAP S/4HANA Public Cloud RISE</h3>
-              <p className="text-4xl font-bold text-white mb-4">$5.7M–$10.4M</p>
-              <p className="text-sm text-blue-200 mb-4">over 5 years, fully loaded</p>
+              <p className="text-3xl font-bold text-white mb-4">Enterprise tier</p>
+              <p className="text-sm text-blue-200 mb-4">enterprise-tier licensing, fully loaded</p>
               <ul className="space-y-2 text-slate-200 text-sm">
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />License: $900K-$1.32M/year (50 users × enterprise)</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />Implementation (tier-1 SI): $400K-$900K</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />NDT-industry customization: $300K-$700K</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />AMS support: $80K-$180K/year</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />Integration partners: $100K-$300K</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />License: per-user enterprise pricing (50 users × enterprise edition)</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />Implementation (tier-1 SI): multi-hundred-thousand-dollar engagement</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />NDT-industry customization: multi-hundred-thousand-dollar custom build</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />AMS support: ongoing annual fee</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />Integration partners: additional engagement fees</li>
               </ul>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-slate-200 mb-3">Cost differential</h3>
-              <p className="text-4xl font-bold text-emerald-400 mb-4">~60-100×</p>
-              <p className="text-sm text-slate-300 mb-4">Atlantis is 60-100 times cheaper</p>
-              <p className="text-slate-300 text-sm leading-relaxed">For an NDT inspection contractor in the $5M-$50M revenue band, the $5-10M five-year savings from choosing Atlantis NDT ERP funds roughly: 12-25 additional certified technicians, an entire international expansion, or a full year of working capital. The SAP S/4HANA premium is rational at Fortune 500 scale and rarely rational below it.</p>
+              <p className="text-3xl font-bold text-emerald-400 mb-4">Significantly lower</p>
+              <p className="text-sm text-slate-300 mb-4">Atlantis is dramatically more affordable</p>
+              <p className="text-slate-300 text-sm leading-relaxed">For a mid-market NDT inspection contractor, the multi-million-dollar saving over five years from choosing Atlantis NDT ERP funds roughly: additional certified technicians, an international expansion, or a year of working capital. The SAP S/4HANA premium is rational at Fortune 500 scale and rarely rational below it. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.</p>
             </div>
           </div>
         </section>
@@ -292,7 +292,7 @@ export default function OdooVsSAPNdtCompanies() {
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />You operate a manufacturing arm with 1,000+ engineer-to-order variant configurations</li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />Your parent corporate group already mandates SAP across the global IT estate</li>
             </ul>
-            <p className="text-slate-300 leading-relaxed mt-4 text-sm">If those statements fit your business, SAP is a legitimate choice and the $5-10M five-year cost is rational. If they don't — and they don't fit the vast majority of NDT inspection contractors — Atlantis NDT ERP delivers the same operating capability at 1-2% of the cost.</p>
+            <p className="text-slate-300 leading-relaxed mt-4 text-sm">If those statements fit your business, SAP is a legitimate choice and the enterprise-tier multi-year investment is rational. If they don't — and they don't fit the vast majority of NDT inspection contractors — Atlantis NDT ERP delivers the same operating capability as affordable, accessible, fully customizable SaaS.</p>
           </div>
         </section>
 
