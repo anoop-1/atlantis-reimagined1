@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, X, AlertTriangle, Shield } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const faqs = [
     { question: "What is the difference between radiography (RT) and ultrasonic testing (UT)?", answer: "RT and UT both detect internal defects but use different physics. Radiography uses X-rays or gamma rays to penetrate material and create a permanent radiographic image showing density variations (voids, porosity, inclusions). Ultrasonic Testing uses sound waves (1-5 MHz) that reflect back from defects; the technician interprets echoes on a display (A-scan, C-scan format). Key differences: RT shows spatial distribution of porosity; UT shows defect depth and can measure wall thickness. RT requires radiation safety procedures and licensing; UT has no radiation hazard. RT is slower (film processing, positioning); UT is faster. For weld inspection, UT detects cracks better; RT shows porosity patterns better." },
     { question: "When should you use RT vs UT for weld inspection?", answer: "General guideline: Use UT as primary weld inspection method (faster, better crack detection), use RT as confirmatory method for critical findings. Specific applications: Use UT for: tight cracks (UT is superior), thin walls (<2mm), internal defects in thick sections, production volume (speed matters). Use RT for: planar defects parallel to beam (cracks parallel to weld surface), porosity distribution visualization, creation of permanent film record (legal requirement), when defect size/shape characterization is critical. Best practice in critical applications: perform UT scan, if indication found, follow with RT to definitively characterize. This combined approach provides speed + confirmation." },
@@ -465,8 +466,46 @@ export default function RTvsUTCompleteComparison() {
                 </div>
                     <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
       </article>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "UT vs RT Comparison (short)",
+                    "href": "/blog/ut-vs-rt-comparison",
+                    "description": "Quick decision matrix",
+                    "icon": "blog"
+              },
+              {
+                    "title": "Visual Testing (VT) Guide",
+                    "href": "/blog/visual-testing",
+                    "description": "ASNT Level II VT prep + procedures",
+                    "icon": "blog"
+              },
+              {
+                    "title": "Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "3D UT/PAUT overlay on asset model",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Quality Management ERP",
+                    "href": "/erp/quality-management-for-ndt-companies",
+                    "description": "ISO 9001 / 17020 / 17025 ready",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III breakdown",
+                    "icon": "cert"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Code interpretation + procedure development",
+                    "icon": "consulting"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

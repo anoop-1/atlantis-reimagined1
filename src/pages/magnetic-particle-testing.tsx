@@ -2,6 +2,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { Link } from "react-router-dom";
 import { CheckCircle, Magnet, Shield, Zap, Settings, Search, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
@@ -517,8 +518,46 @@ export default function MagneticParticleTesting() {
           </div>
         </aside>
       </div>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "MT Complete Guide",
+                    "href": "/blog/magnetic-particle-testing-complete-guide",
+                    "description": "Wet vs dry, yoke vs prods, ASNT Level II prep",
+                    "icon": "blog"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "MT Level I/II/III breakdown",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Inspection Procedures Software",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Author MT procedures",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "Surface crack overlay on asset model",
+                    "icon": "dt"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "MT method consultation",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 653 Tank Inspector",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "MT-heavy tank inspection programs",
+                    "icon": "consulting"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

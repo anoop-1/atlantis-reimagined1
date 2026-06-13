@@ -10,6 +10,7 @@ import { CheckCircle, AlertTriangle, Clock, Award, ArrowRight } from "lucide-rea
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import ClusterNav from "@/components/ClusterNav";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema653TankGuide = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -251,8 +252,46 @@ export default function API653TankInspectionGuide() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema653TankGuide) }}
             />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 653 Certification 2026",
+                    "href": "/api-653-certification",
+                    "description": "Pass the API 653 exam",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 653 Tank Inspector Services",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "Outsourced inspector-of-record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 510 Certification",
+                    "href": "/api-510-certification",
+                    "description": "Pressure vessel inspector prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Inspection Procedures Software",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Version-control NDT procedures",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin for Storage Tanks",
+                    "href": "/digital-twins/storage-tank",
+                    "description": "Bottom-plate MFL + API 653 RBI overlay",
+                    "icon": "dt"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III breakdown",
+                    "icon": "cert"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

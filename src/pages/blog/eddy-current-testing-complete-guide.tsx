@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle, TrendingUp, Zap } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema } from "@/data/author-schema";
 
 const faqs = [
@@ -574,8 +575,46 @@ export default function EddyCurrentTestingCompleteGuide() {
                 </div>
                     <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
       </article>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "Eddy Current Testing Method",
+                    "href": "/eddy-current-testing",
+                    "description": "ET hub page",
+                    "icon": "blog"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "ET Level II prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Inspection Procedures Software",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Author & version-control ET procedures",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "ET-data-overlay on asset model",
+                    "icon": "dt"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "ET method consultation",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Quality Management ERP",
+                    "href": "/erp/quality-management-for-ndt-companies",
+                    "description": "Affordable, accessible QMS",
+                    "icon": "erp"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

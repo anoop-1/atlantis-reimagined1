@@ -11,6 +11,7 @@ import { useState } from "react";
 import { buildTechArticleSchema } from "@/data/author-schema";
 import ClusterNav from "@/components/ClusterNav";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema653Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -594,7 +595,46 @@ export default function API653Certification() {
                     />
                 </div>
             </section>
-            <ContactDetails />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 653 Tank Inspector Services",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "RBI bottom-plate + settlement FFS programs",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 510 Certification",
+                    "href": "/api-510-certification",
+                    "description": "Pressure vessel inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 570 Certification",
+                    "href": "/api-570-certification",
+                    "description": "Piping inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 653 Tank Inspection Guide",
+                    "href": "/blog/api-653-tank-inspection-guide",
+                    "description": "Complete checklist + intervals",
+                    "icon": "blog"
+              },
+              {
+                    "title": "CMMS for Inspection Companies",
+                    "href": "/erp/cmms-for-inspection-companies",
+                    "description": "Affordable, accessible asset & cert tracking",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin for Tanks",
+                    "href": "/digital-twins/storage-tank",
+                    "description": "API 653-aligned tank digital twin",
+                    "icon": "dt"
+              }
+        ]} />
+
+        <ContactDetails />
         </div>
     );
 }

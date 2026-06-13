@@ -11,6 +11,7 @@ import { useState } from "react";
 import { buildTechArticleSchema } from "@/data/author-schema";
 import ClusterNav from "@/components/ClusterNav";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema510Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -446,7 +447,46 @@ export default function API510Certification() {
                     />
                 </div>
             </section>
-            <ContactDetails />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 510 Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "Outsourced inspector-of-record + FFS per API 579",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 570 Certification",
+                    "href": "/api-570-certification",
+                    "description": "Piping inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 653 Certification",
+                    "href": "/api-653-certification",
+                    "description": "Tank inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III breakdown",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Inspection Procedures Software",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Version-control & approve NDT procedures",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin for Asset Integrity",
+                    "href": "/digital-twins",
+                    "description": "UT/PAUT 3D overlay + API 579 FFS",
+                    "icon": "dt"
+              }
+        ]} />
+
+        <ContactDetails />
         </div>
     );
 }

@@ -19,6 +19,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const faqs = [
   {
     q: "What is the average NDT technician salary in the USA?",
@@ -755,7 +756,46 @@ export default function NDTTechnicianSalary() {
           </div>
         </div>
       </section>
-      <ContactDetails />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "NDT Salary Guide 2026 Global",
+                    "href": "/blog/ndt-salary-guide-2026-global",
+                    "description": "Country, method, level breakdown",
+                    "icon": "blog"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 510 / 570 / 653 Certifications",
+                    "href": "/api-510-certification",
+                    "description": "Authorized inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Career path to Level III consultant",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "HR & Payroll for NDT Companies",
+                    "href": "/erp/hr-payroll-for-ndt-companies",
+                    "description": "Affordable HR with cert expiry tracking",
+                    "icon": "erp"
+              },
+              {
+                    "title": "NDT Industry Statistics 2026",
+                    "href": "/ndt-industry-statistics",
+                    "description": "Market size, jobs, trends",
+                    "icon": "blog"
+              }
+        ]} />
+
+        <ContactDetails />
     </div>
   );
 }

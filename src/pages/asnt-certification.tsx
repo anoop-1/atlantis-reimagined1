@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Award, Clock, DollarSign, Users, FileText } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema } from "@/data/author-schema";
 
 const levels = [
@@ -336,7 +337,46 @@ export default function ASNTCertification() {
                     />
                 </div>
             </section>
-            <ContactDetails />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 510 Pressure Vessel Inspector",
+                    "href": "/api-510-certification",
+                    "description": "In-service pressure vessel inspection cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 570 Piping Inspector",
+                    "href": "/api-570-certification",
+                    "description": "Process piping inspection cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 653 Tank Inspector",
+                    "href": "/api-653-certification",
+                    "description": "Aboveground storage tank inspection prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "ASNT Level III Consulting Services",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "SNT-TC-1A Requirements Guide",
+                    "href": "/blog/asnt-snt-tc-1a-certification-requirements",
+                    "description": "2024 employer-based cert deep dive",
+                    "icon": "blog"
+              },
+              {
+                    "title": "CMMS for Inspection Companies",
+                    "href": "/erp/cmms-for-inspection-companies",
+                    "description": "Affordable certification + asset tracking",
+                    "icon": "erp"
+              }
+        ]} />
+
+        <ContactDetails />
         </div>
     );
 }

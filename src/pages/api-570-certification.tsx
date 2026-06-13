@@ -11,6 +11,7 @@ import { useState } from "react";
 import { buildTechArticleSchema } from "@/data/author-schema";
 import ClusterNav from "@/components/ClusterNav";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema570Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -399,7 +400,46 @@ export default function API570Certification() {
                     />
                 </div>
             </section>
-            <ContactDetails />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 570 Piping Inspector Services",
+                    "href": "/consulting/api-570-piping-inspector-services",
+                    "description": "CUI program design + RBI per API 581",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 510 Certification",
+                    "href": "/api-510-certification",
+                    "description": "Pressure vessel inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 653 Certification",
+                    "href": "/api-653-certification",
+                    "description": "Tank inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III breakdown",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Quality Management for NDT",
+                    "href": "/erp/quality-management-for-ndt-companies",
+                    "description": "ISO 9001 / 17025 / 17020 ready",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "Inspection-data-native asset integrity",
+                    "icon": "dt"
+              }
+        ]} />
+
+        <ContactDetails />
         </div>
     );
 }
