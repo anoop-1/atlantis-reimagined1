@@ -1518,6 +1518,24 @@ const BlogBestAffordableERPComparison = lazy(() => import("./pages/blog/best-aff
 const BlogOdooERPPricing = lazy(() => import("./pages/blog/odoo-erp-pricing-explained-2026"));
 const BlogAtlantisVsZohoVsMonday = lazy(() => import("./pages/blog/atlantis-vs-zoho-vs-monday-erp-comparison"));
 // === END ERP day-2 expansion 2026-05-25 ===
+// === Day-3 Phase 3 expansion 2026-06-13 — 7 Odoo pillars + 5 EC hubs + 4 consulting service pages ===
+const AiMarketingForNdtCompanies = lazy(() => import("./pages/erp/ai-marketing-for-ndt-companies"));
+const NdtReportsSoftwareForInspectionCompanies = lazy(() => import("./pages/erp/ndt-reports-software-for-inspection-companies"));
+const InspectionProceduresManagementSoftware = lazy(() => import("./pages/erp/inspection-procedures-management-software"));
+const NdtCertificatesManagementSoftware = lazy(() => import("./pages/erp/ndt-certificates-management-software"));
+const ElearningPlatformForNdtTraining = lazy(() => import("./pages/erp/elearning-platform-for-ndt-training"));
+const SurveysSoftwareForNdtCompanies = lazy(() => import("./pages/erp/surveys-software-for-ndt-companies"));
+const DashboardsAndKpisForNdtCompanies = lazy(() => import("./pages/erp/dashboards-and-kpis-for-ndt-companies"));
+const ConstructionErpSingapore = lazy(() => import("./pages/erp/construction-erp-singapore"));
+const OilGasErpMalaysia = lazy(() => import("./pages/erp/oil-gas-erp-malaysia"));
+const CoatingIndustryErp = lazy(() => import("./pages/erp/coating-industry-erp"));
+const NdtInspectionSoftwareComparison = lazy(() => import("./pages/erp/ndt-inspection-software-comparison"));
+const WorkOrderManagementSingapore = lazy(() => import("./pages/erp/work-order-management-singapore"));
+const AsntLevelIiiConsultingServices = lazy(() => import("./pages/consulting/AsntLevelIiiConsultingServices"));
+const Api653TankInspectorServices = lazy(() => import("./pages/consulting/Api653TankInspectorServices"));
+const Api570PipingInspectorServices = lazy(() => import("./pages/consulting/Api570PipingInspectorServices"));
+const Api510PressureVesselInspectorServices = lazy(() => import("./pages/consulting/Api510PressureVesselInspectorServices"));
+// === END Day-3 Phase 3 expansion 2026-06-13 ===
 const NDTErp_maharashtra = lazy(() => import("./pages/ndt-erp-maharashtra"));
 const NDTErp_gujarat = lazy(() => import("./pages/ndt-erp-gujarat"));
 const NDTErp_tamil_nadu = lazy(() => import("./pages/ndt-erp-tamil-nadu"));
@@ -4356,6 +4374,24 @@ const App = () => (
                   <Route path="/blog/odoo-erp-pricing-explained-2026" element={<LazyRoute Component={BlogOdooERPPricing} />} />
                   <Route path="/blog/atlantis-vs-zoho-vs-monday-erp-comparison" element={<LazyRoute Component={BlogAtlantisVsZohoVsMonday} />} />
                   {/* === END ERP day-2 expansion 2026-05-25 === */}
+                  {/* === Day-3 Phase 3 expansion 2026-06-13 === */}
+                  <Route path="/erp/ai-marketing-for-ndt-companies" element={<LazyRoute Component={AiMarketingForNdtCompanies} />} />
+                  <Route path="/erp/ndt-reports-software-for-inspection-companies" element={<LazyRoute Component={NdtReportsSoftwareForInspectionCompanies} />} />
+                  <Route path="/erp/inspection-procedures-management-software" element={<LazyRoute Component={InspectionProceduresManagementSoftware} />} />
+                  <Route path="/erp/ndt-certificates-management-software" element={<LazyRoute Component={NdtCertificatesManagementSoftware} />} />
+                  <Route path="/erp/elearning-platform-for-ndt-training" element={<LazyRoute Component={ElearningPlatformForNdtTraining} />} />
+                  <Route path="/erp/surveys-software-for-ndt-companies" element={<LazyRoute Component={SurveysSoftwareForNdtCompanies} />} />
+                  <Route path="/erp/dashboards-and-kpis-for-ndt-companies" element={<LazyRoute Component={DashboardsAndKpisForNdtCompanies} />} />
+                  <Route path="/erp/construction-erp-singapore" element={<LazyRoute Component={ConstructionErpSingapore} />} />
+                  <Route path="/erp/oil-gas-erp-malaysia" element={<LazyRoute Component={OilGasErpMalaysia} />} />
+                  <Route path="/erp/coating-industry-erp" element={<LazyRoute Component={CoatingIndustryErp} />} />
+                  <Route path="/erp/ndt-inspection-software-comparison" element={<LazyRoute Component={NdtInspectionSoftwareComparison} />} />
+                  <Route path="/erp/work-order-management-singapore" element={<LazyRoute Component={WorkOrderManagementSingapore} />} />
+                  <Route path="/consulting/asnt-level-iii-consulting-services" element={<LazyRoute Component={AsntLevelIiiConsultingServices} />} />
+                  <Route path="/consulting/api-653-tank-inspector-services" element={<LazyRoute Component={Api653TankInspectorServices} />} />
+                  <Route path="/consulting/api-570-piping-inspector-services" element={<LazyRoute Component={Api570PipingInspectorServices} />} />
+                  <Route path="/consulting/api-510-pressure-vessel-inspector-services" element={<LazyRoute Component={Api510PressureVesselInspectorServices} />} />
+                  {/* === END Day-3 Phase 3 expansion 2026-06-13 === */}
                   <Route path="/erp/crm-for-ndt-companies" element={<LazyRoute Component={CrmForNdtCompanies} />} />
                   <Route path="/erp/email-marketing-software-for-ndt" element={<LazyRoute Component={EmailMarketingSoftwareForNdt} />} />
                   <Route path="/erp/marketing-automation-for-ndt-companies" element={<LazyRoute Component={MarketingAutomationForNdtCompanies} />} />

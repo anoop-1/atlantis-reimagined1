@@ -255,8 +255,8 @@ export default function UltimateGuideAPIInspection() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="API Inspector Guide 2026 | API 510 vs 570 vs 653 Comparison | Atlantis NDT"
-        description="Complete API inspector guide: API 510 vs 570 vs 653 side-by-side comparison, prerequisites, exam preparation strategy, career path from entry to senior."
+        title="API Inspector Guide — Become a Certified 510/570/653 Inspector"
+        description="Complete API inspector roadmap — 510/570/653 + ICP exams, prep time, cost, salary uplift. Step-by-step from beginner to certified. Updated 2026."
         keywords="api inspector guide, api 510 vs 570 vs 653, api certification comparison, api inspector salary, api 510 exam prep, api 570 exam prep, api 653 exam prep, pressure vessel inspector, piping inspector, tank inspector, api inspector career"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/api-inspector-guide"

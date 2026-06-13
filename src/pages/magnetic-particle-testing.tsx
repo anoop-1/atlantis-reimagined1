@@ -186,8 +186,8 @@ export default function MagneticParticleTesting() {
       <Navigation />
 
       <SEOHead
-        title="Magnetic Particle Testing (MT): Wet vs Dry, Yoke vs Prod — Complete Guide [2026]"
-        description="Master magnetic particle inspection: wet fluorescent vs dry powder, yoke vs prod vs coil techniques, demagnetization. ASME V Article 7, AWS D1.1 acceptance."
+        title="Magnetic Particle Testing (MT) — Inspection Method Guide"
+        description="Magnetic particle testing for ferromagnetic materials — methods, equipment, defect indications, ASNT MT Level II. Free MT procedure template download."
         keywords="magnetic particle testing, MT NDT, magnetic particle inspection, MPI testing, wet fluorescent magnetic particle, ASME Section V Article 7, API 650 tank inspection, MT certification, ferromagnetic material testing, surface crack detection, near-surface defect, yoke method MT, prod method MT, MT Level II, MT Level III"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/magnetic-particle-testing"

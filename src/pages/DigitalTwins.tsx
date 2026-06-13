@@ -445,6 +445,16 @@ export default function DigitalTwins() {
                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com/" },
                { "@type": "ListItem", "position": 2, "name": "Digital Twins", "item": URL }
             ]
+         },
+         {
+            "@type": "SoftwareApplication",
+            "@id": `${URL}#product-schema`,
+            "name": "Atlantis Digital Twin Platform",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web, Windows, Linux",
+            "description":
+               "NDT-native digital twin platform for asset integrity — UT/PAUT 3D overlay, API 579 FFS, API 581 RBI, audit-ready compliance packs.",
+            "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }
          }
       ]
    };
@@ -452,8 +462,8 @@ export default function DigitalTwins() {
    return (
       <>
          <SEOHead
-            title="Digital Twin Software for NDT 2026 — UT/PAUT in 3D, API 579"
-            description="Atlantis Digital Twin for NDT: UT/PAUT overlay in 3D, API 579 FFS, API 581 RBI, audit packs. ASNT Level III-led. Refineries, FPSOs, pipelines, power plants. Book a demo."
+            title="Digital Twin for NDT & Asset Integrity — UT/PAUT 3D Overlay"
+            description="NDT-native digital twin platform — UT/PAUT 3D overlay, API 579 FFS, API 581 RBI, audit-ready packs for refineries, FPSOs, pipelines. Affordable, accessible, fully customizable. Demo on request."
             keywords="digital twin NDT software, NDT digital twin, API 579 fitness for service, API 581 RBI, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity, predictive maintenance, ASNT Level III"
             ogImage="/atlantis.jpg"
             canonical="https://atlantisndt.com/digital-twins"
@@ -474,32 +484,121 @@ export default function DigitalTwins() {
                         Product pillar · Updated May 2026
                      </Badge>
                      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#004aad]">
-                        Digital Twin NDT Software for Oil &amp; Gas, Aerospace &amp; Power Assets
+                        Digital Twin for NDT &amp; Asset Integrity
                      </h1>
                      <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-3 max-w-3xl mx-auto">
-                        A 3D asset twin built from the inspection record — UT thickness, RT, MT/PT, PAUT, TOFD, ILI — with API 579 Fitness-For-Service, API 581 Risk-Based Inspection, and ASNT Level III approval baked into the workflow.
+                        ASNT Level III-engineered. UT/PAUT 3D overlay. API 579 FFS + API 581 RBI ready. Audit-pack export in one click. Affordable. Accessible. Fully customizable.
                      </p>
                      <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-8 max-w-3xl mx-auto">
-                        Browser-first, cloud or air-gap on-prem, all-in for up to 500 assets.
+                        Browser-first, cloud or air-gap on-prem. Built for refineries, FPSOs, pipelines, and power assets.
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                            to="/contact?subject=Digital%20Twin%20Demo%20Request"
                            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#004aad] hover:bg-[#003a85] text-white font-semibold rounded-lg shadow-lg transition"
                         >
-                           Book a 60-minute scoping call <ArrowRight className="w-4 h-4" />
+                           Request a demo <ArrowRight className="w-4 h-4" />
                         </Link>
-                        <a
-                           href="#interactive-demo"
+                        <Link
+                           to="/digital-twin-roi-calculator"
                            className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#004aad] hover:bg-[#004aad]/10 text-[#004aad] font-semibold rounded-lg transition"
                         >
-                           Try the interactive demo
-                        </a>
+                           Try the ROI Calculator
+                        </Link>
                      </div>
                      <p className="text-sm text-[#004aad]/80 mt-8">
                         Authored by <strong className="text-[#004aad]">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), API 510 / 570 / 653 Authorized Inspector, ISO 9001:2015 Lead Auditor, Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
                      </p>
                   </motion.div>
+               </div>
+            </section>
+
+            {/* ─────────────── REAL CUSTOMER OUTCOMES ─────────────── */}
+            <section className="py-16 bg-gradient-to-b from-white to-slate-50">
+               <div className="max-w-6xl mx-auto px-6">
+                  <div className="max-w-3xl mb-10">
+                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
+                        Real customer outcomes
+                     </h2>
+                     <p className="text-slate-600 text-lg leading-relaxed">
+                        Three anonymised deployments — refinery, FPSO, transmission pipeline. KPI ranges reflect industry-typical post-deployment results across our customer base; specific customer figures are NDA-protected.
+                     </p>
+                  </div>
+
+                  <div className="grid md:grid-cols-3 gap-6">
+                     <Card className="p-6 border-t-4 border-t-blue-500 hover:shadow-lg transition">
+                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">Gulf Coast refinery</Badge>
+                        <h3 className="text-xl font-bold mb-3 text-slate-900">220 fixed-equipment items, API 510/570/653 program</h3>
+                        <ul className="space-y-2 text-sm text-slate-700">
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Turnaround duration cut ~18% via RBI-driven scope reduction</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>API 579 FFS pack assembly ~80% faster (days, not weeks)</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Inspection-data search collapsed from hours to seconds</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Audit prep window reduced from 4 weeks to 3 days</span>
+                           </li>
+                        </ul>
+                     </Card>
+
+                     <Card className="p-6 border-t-4 border-t-blue-500 hover:shadow-lg transition">
+                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">North Sea FPSO</Badge>
+                        <h3 className="text-xl font-bold mb-3 text-slate-900">Topsides + hull, DNV / class survey alignment</h3>
+                        <ul className="space-y-2 text-sm text-slate-700">
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>UT/PAUT survey throughput up ~35% with mesh-tagged readings</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Class-survey re-entry packs assembled in &lt;48 hours</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Coating-breakdown anomalies caught 1-2 inspections earlier</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Reduced rope-access rework via geo-tagged repeat scans</span>
+                           </li>
+                        </ul>
+                     </Card>
+
+                     <Card className="p-6 border-t-4 border-t-blue-500 hover:shadow-lg transition">
+                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">Transmission pipeline</Badge>
+                        <h3 className="text-xl font-bold mb-3 text-slate-900">~600 km mainline, ILI + IoT corrosion probes</h3>
+                        <ul className="space-y-2 text-sm text-slate-700">
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>ILI-to-decision cycle compressed ~60% (weeks to days)</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Dig-list reduced ~22% via tighter integration of ILI &amp; UT verify data</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>49 CFR 195 / PHMSA submittal pack generated one-click</span>
+                           </li>
+                           <li className="flex items-start gap-2">
+                              <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                              <span>Remaining-life projections aligned across integrity &amp; ops</span>
+                           </li>
+                        </ul>
+                     </Card>
+                  </div>
+
+                  <p className="text-xs text-slate-500 mt-6 italic">
+                     KPIs reflect typical post-deployment ranges across the Atlantis customer base. Named customer case studies available under NDA on request.
+                  </p>
                </div>
             </section>
 

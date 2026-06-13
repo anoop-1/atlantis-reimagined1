@@ -97,8 +97,8 @@ export default function EddyCurrentTestingCompleteGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Eddy Current Testing 2026: 7 ECT Types, Skin-Depth Physics, $15K–enterprise tier Equipment"
-                description="ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, IRIS), skin-depth formula δ=√(2/ωμσ), ASTM E309/E426/E2338, aerospace fatigue POD, tubing."
+                title="Eddy Current Testing — Complete Practical Guide (ET 2026)"
+                description="Eddy current testing principles, applications, ET Level II prep, calibration, defect signal interpretation. Aerospace, tubing, weld inspection examples."
                 keywords="eddy current testing, ECT, eddy current inspection, ECL, pulsed eddy current, PEC, ASTM E309, E426, bobbin coil, pancake coil, aerospace NDT, pipeline inspection, corrosion under insulation, CUI detection, eddy current probe, ECT equipment"
                 canonical="https://atlantisndt.com/blog/eddy-current-testing-complete-guide"
                 structuredData={structuredData}

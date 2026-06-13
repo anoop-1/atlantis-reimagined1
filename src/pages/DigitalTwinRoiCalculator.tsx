@@ -66,8 +66,8 @@ export default function DigitalTwinRoiCalculator() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin ROI Calculator 2026 — Free, See Payback in Months"
-                description="Free 2026 NDT digital twin ROI calculator: 8 inputs, baseline cost, 20/35/50% savings scenarios, break-even in months. No signup. Try the free calculator now."
+                title="Digital Twin ROI Calculator — 4 Real Examples (Free Tool)"
+                description="Free digital twin ROI calculator for NDT asset integrity. 4 worked examples (refinery, FPSO, pipeline, power plant). Live widget. Updated 2026."
                 canonical="https://atlantisndt.com/digital-twin-roi-calculator"
                 structuredData={structuredData}
             />
@@ -81,6 +81,79 @@ export default function DigitalTwinRoiCalculator() {
                         Enter eight numbers about your current inspection and downtime costs. See the projected annual savings
                         at 20%, 35%, and 50% digital-twin-enabled reduction, and how quickly a $50K-$500K implementation pays
                         back.
+                    </p>
+                </div>
+            </section>
+
+            {/* ─────────────── 4 WORKED EXAMPLE SCENARIOS ─────────────── */}
+            <section className="py-16 bg-white border-b border-slate-200">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <div className="max-w-3xl mb-10">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-3 text-slate-900">4 worked ROI examples</h2>
+                        <p className="text-slate-600 text-lg">
+                            Before plugging in your own numbers, here are four realistic deployment scenarios across the asset classes
+                            we deploy most often. All figures are indicative ranges based on industry-typical results, not specific customer quotes.
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <Card className="border-l-4 border-l-blue-500">
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2"><DollarSign className="w-5 h-5 text-blue-600" /> Gulf Coast refinery</CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-2 text-sm text-slate-700">
+                                <p><strong>Scope:</strong> ~220 fixed-equipment items (vessels, exchangers, columns), API 510/570/653 program.</p>
+                                <p><strong>Baseline annual cost:</strong> ~{fmt(7_500_000)} (unplanned downtime + inspection labour).</p>
+                                <p><strong>Expected DT savings (35%):</strong> ~{fmt(2_625_000)}/yr — RBI scope reduction, FFS automation, fewer false-positive shutdowns.</p>
+                                <p><strong>Implementation midpoint:</strong> ~{fmt(275_000)}.</p>
+                                <p><strong>Break-even:</strong> ~1.3 months.</p>
+                            </CardContent>
+                        </Card>
+
+                        <Card className="border-l-4 border-l-emerald-500">
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2"><DollarSign className="w-5 h-5 text-emerald-600" /> North Sea FPSO</CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-2 text-sm text-slate-700">
+                                <p><strong>Scope:</strong> Topsides + hull, ~140 critical components, DNV class survey alignment.</p>
+                                <p><strong>Baseline annual cost:</strong> ~{fmt(11_000_000)} (offshore inspection + production deferral exposure).</p>
+                                <p><strong>Expected DT savings (35%):</strong> ~{fmt(3_850_000)}/yr — survey throughput, coating-breakdown early-warning, fewer rope-access mobilisations.</p>
+                                <p><strong>Implementation midpoint:</strong> ~{fmt(400_000)}.</p>
+                                <p><strong>Break-even:</strong> ~1.2 months.</p>
+                            </CardContent>
+                        </Card>
+
+                        <Card className="border-l-4 border-l-amber-500">
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2"><DollarSign className="w-5 h-5 text-amber-600" /> Transmission pipeline</CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-2 text-sm text-slate-700">
+                                <p><strong>Scope:</strong> ~600 km mainline, ILI + IoT corrosion probes, PHMSA 49 CFR 195.</p>
+                                <p><strong>Baseline annual cost:</strong> ~{fmt(4_200_000)} (dig verification, ILI processing, integrity ops).</p>
+                                <p><strong>Expected DT savings (35%):</strong> ~{fmt(1_470_000)}/yr — dig-list reduction, ILI-to-decision compression, regulator submittals.</p>
+                                <p><strong>Implementation midpoint:</strong> ~{fmt(225_000)}.</p>
+                                <p><strong>Break-even:</strong> ~1.8 months.</p>
+                            </CardContent>
+                        </Card>
+
+                        <Card className="border-l-4 border-l-purple-500">
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2"><DollarSign className="w-5 h-5 text-purple-600" /> Power plant (HRSG + steam piping)</CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-2 text-sm text-slate-700">
+                                <p><strong>Scope:</strong> ~80 critical pressure parts, ECT tube-bundle data, outage planning.</p>
+                                <p><strong>Baseline annual cost:</strong> ~{fmt(3_100_000)} (forced-outage exposure + inspection labour).</p>
+                                <p><strong>Expected DT savings (35%):</strong> ~{fmt(1_085_000)}/yr — outage scope tuning, tube-life projection, fewer surprise pulls.</p>
+                                <p><strong>Implementation midpoint:</strong> ~{fmt(180_000)}.</p>
+                                <p><strong>Break-even:</strong> ~2.0 months.</p>
+                            </CardContent>
+                        </Card>
+                    </div>
+
+                    <p className="text-xs text-slate-500 mt-6 italic">
+                        Baseline cost and savings figures are illustrative ranges drawn from published refinery, offshore, pipeline,
+                        and power industry case studies plus typical post-deployment outcomes. They are not customer-specific quotes.
+                        Plug your own numbers into the calculator below for a tailored estimate.
                     </p>
                 </div>
             </section>

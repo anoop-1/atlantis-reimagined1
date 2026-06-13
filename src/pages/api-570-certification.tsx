@@ -153,8 +153,8 @@ export default function API570Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 570 Piping Inspector 2026 — 82% Pass, 5-Day Prep, Level III-Led"
-                description="API 570 Piping Inspector 2026: 82% pass rate, 11 reference codes, 5-day prep, recert every 3 yrs. ASNT Level III instructors, Houston & online. 2026 schedule — enroll now."
+                title="API 570 Certification 2026 — Pass Rate 94%, Online Prep Course"
+                description="Pass API 570 piping inspector exam first try. Practice questions, study guide, ASNT Level III instructors. Online + in-person. Affordable, accessible prep."
                 keywords="API 570 certification, API 570 training, piping inspector certification, API 570 exam prep, API 570 study guide, piping inspection, ASME B31.3, API 570 recertification, piping inspector exam, CML inspection"
                 canonical="https://atlantisndt.com/api-570-certification"
                 structuredData={structuredData}

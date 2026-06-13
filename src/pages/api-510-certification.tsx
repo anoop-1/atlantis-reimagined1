@@ -157,8 +157,8 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Pressure Vessel Inspector 2026 — 84% Pass, Level III-Led"
-                description="API 510 Pressure Vessel Inspector 2026: 84% pass rate, 9 reference codes (ASME VIII/IX, API 571/579), 5-day prep with ASNT Level III instructors. 2026 schedule — enroll now."
+                title="API 510 Pressure Vessel Inspector — 2026 Cert Prep & Pass Plan"
+                description="API 510 certification 2026 — study plan, practice questions, ASNT Level III instructors. Accessible online prep, in-person workshops. Get certified faster."
                 keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}

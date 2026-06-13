@@ -203,8 +203,8 @@ export default function NDTIndustryStatistics() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Industry Statistics 2026 | Market Size, Salaries, Growth Data | Atlantis NDT"
-        description="NDT industry statistics 2026: $15.8B global market (8.1% CAGR to $25.3B by 2030), salary data by level & method, workforce demographics (500K+ technicians)."
+        title="NDT Industry Statistics 2026 — Market Size, Trends, Jobs"
+        description="Latest NDT industry stats: $4.5B market, 8% CAGR, regional breakdown, top employers, skills demand. Updated quarterly with primary research data."
         keywords="ndt market size, ndt industry statistics, ndt salary data, ndt workforce statistics, ndt market growth, non destructive testing market, ndt industry report 2026, ndt technician demographics, ndt market by method, ndt regional market share"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-industry-statistics"

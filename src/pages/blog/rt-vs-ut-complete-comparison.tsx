@@ -106,8 +106,8 @@ export default function RTvsUTCompleteComparison() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="RT vs UT 2026: Proven Comparison of Radiography & Ultrasonic Testing"
-                description="RT vs UT 2026: costs, POD rates, safety, code fit, weld accuracy side-by-side. ASNT Level III verdict on which to pick. Free decision matrix inside."
+                title="RT vs UT Testing — Side-by-Side Comparison Guide 2026"
+                description="Radiographic vs ultrasonic testing — pros, cons, cost, defect detection, safety. ASME-aligned comparison table + when each wins. Real Level III examples."
                 keywords="RT vs UT, radiographic vs ultrasonic testing, radiography, ultrasonic testing, UT comparison, RT comparison, weld inspection, defect detection, penetrant testing, magnetic particle testing"
                 canonical="https://atlantisndt.com/blog/rt-vs-ut-complete-comparison"
                 structuredData={structuredData}

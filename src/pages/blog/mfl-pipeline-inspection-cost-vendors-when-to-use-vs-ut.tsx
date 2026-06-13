@@ -121,8 +121,8 @@ export default function MFLPipelineInspectionCostVendorsGuide() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="MFL Pipeline Inspection 2026: Cost per km, Top Vendors, MFL vs UT Decision Matrix"
-                description="MFL pipeline inspection cost $2-5/m, vendor comparison (Rosen, BHGE, NDT Global, TDW), MFL vs UT ILI decision matrix. Pick the right ILI tool. Updated May 2026."
+                title="MFL vs UT Pipeline Inspection — Cost, Vendors, When to Use"
+                description="MFL vs UT pipeline inspection — defect detection, vendor comparison, cost ranges, when each wins. Operator-specific selection matrix."
                 keywords="MFL pipeline inspection, magnetic flux leakage pipeline inspection, MFL ILI cost, MFL vs UT pipeline, MFL inline inspection, HR-MFL, TFI inspection, pipeline integrity, Rosen MFL, NDT Global, TD Williamson SpirALL, PHMSA 49 CFR 192.493, ASME B31.8S, API 1163"
                 canonical="https://atlantisndt.com/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut"
                 structuredData={structuredData}

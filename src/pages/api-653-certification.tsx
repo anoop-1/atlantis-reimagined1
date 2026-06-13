@@ -175,8 +175,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Tank Inspector 2026 — 85% Pass, 5-Day Prep, Level III-Led"
-                description="API 653 Storage Tank Inspector 2026: 85% pass rate, 10 reference codes (API 650/651/652/575/577), 5-day prep, recert every 3 yrs. ASNT Level III instructors. Enroll."
+                title="API 653 Aboveground Tank Inspector Certification 2026 Prep"
+                description="Pass API 653 storage tank inspector exam. Full curriculum, practice papers, ASNT Level III instructors. Accessible, fully customizable training programs."
                 keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}
