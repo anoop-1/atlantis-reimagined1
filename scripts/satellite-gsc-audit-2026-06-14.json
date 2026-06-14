@@ -1,0 +1,840 @@
+{
+  "generated": "2026-06-14T07:02:48.940Z",
+  "results": [
+    {
+      "name": "advanced-ndt-techniques",
+      "host": "advanced-ndt-techniques.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "aerospace-ndt-standards",
+      "host": "aerospace-ndt-standards.vercel.app",
+      "site": "https://aerospace-ndt-standards.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 393,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-12T20:06:37Z",
+        "canonical": "https://aerospace-ndt-standards.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://aerospace-ndt-standards.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-12T20:06:37Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "api-certification-guide",
+      "host": "api-certification-guide.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "asset-integrity-hub",
+      "host": "asset-integrity-hub.vercel.app",
+      "site": "https://asset-integrity-hub.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 156,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-12T11:33:30Z",
+        "canonical": "https://asset-integrity-hub.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://asset-integrity-hub.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-09T04:27:56.297Z",
+          "contents": [
+            {
+              "type": "web",
+              "submitted": "12",
+              "indexed": "0"
+            }
+          ],
+          "errors": "0",
+          "warnings": "0",
+          "isPending": false,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://asset-integrity-hub.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-12T11:33:30Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "coating-inspection-guide",
+      "host": "coating-inspection-guide.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "composite-testing-hub",
+      "host": "composite-testing-hub.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "construction-ndt-guide",
+      "host": "construction-ndt-guide.vercel.app",
+      "site": "https://construction-ndt-guide.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 60,
+      "pagesWithImp": 2,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-08T08:29:03Z",
+        "canonical": "https://construction-ndt-guide.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://construction-ndt-guide.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-08T08:29:03Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://construction-ndt-guide.vercel.app/structural/steel-structures",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-03T00:34:53Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "corrosion-management-ndt",
+      "host": "corrosion-management-ndt.vercel.app",
+      "site": "https://corrosion-management-ndt.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 8,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-05T07:18:16Z",
+        "canonical": "https://corrosion-management-ndt.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://corrosion-management-ndt.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-05T07:18:16Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "heat-exchanger-ndt",
+      "host": "heat-exchanger-ndt.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "industrial-inspection-resources",
+      "host": "industrial-inspection-resources.vercel.app",
+      "site": "https://industrial-inspection-resources.vercel.app/",
+      "clicks30d": 6,
+      "imp30d": 668,
+      "pagesWithImp": 2,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-06T00:09:58Z",
+        "canonical": "https://industrial-inspection-resources.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://industrial-inspection-resources.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-09T04:27:55.565Z",
+          "contents": [
+            {
+              "type": "web",
+              "submitted": "13",
+              "indexed": "0"
+            }
+          ],
+          "errors": "0",
+          "warnings": "0",
+          "isPending": false,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://industrial-inspection-resources.vercel.app/standards",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-06T07:00:31Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://industrial-inspection-resources.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-06T00:09:58Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "lng-inspection-hub",
+      "host": "lng-inspection-hub.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "manufacturing-ndt-quality",
+      "host": "manufacturing-ndt-quality.vercel.app",
+      "site": "https://manufacturing-ndt-quality.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 22,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-09T17:23:20Z",
+        "canonical": "https://manufacturing-ndt-quality.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://manufacturing-ndt-quality.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-09T17:23:20Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "marine-offshore-ndt",
+      "host": "marine-offshore-ndt.vercel.app",
+      "site": "https://marine-offshore-ndt.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 93,
+      "pagesWithImp": 2,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-11T13:35:09Z",
+        "canonical": "https://marine-offshore-ndt.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://marine-offshore-ndt.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-11T13:35:09Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://marine-offshore-ndt.vercel.app/vessels",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-03T19:51:36Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "middle-east-ndt-resource",
+      "host": "middle-east-ndt-resource.vercel.app",
+      "site": "https://middle-east-ndt-resource.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 45,
+      "pagesWithImp": 2,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-05T09:50:02Z",
+        "canonical": "https://middle-east-ndt-resource.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://middle-east-ndt-resource.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-09T04:51:33.068Z",
+          "contents": [
+            {
+              "type": "web",
+              "submitted": "21",
+              "indexed": "0"
+            }
+          ],
+          "errors": "0",
+          "warnings": "0",
+          "isPending": false,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://middle-east-ndt-resource.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-05T09:50:02Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://middle-east-ndt-resource.vercel.app/career",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-05T04:14:12Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "mining-ndt-hub",
+      "host": "mining-ndt-hub.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "ndt-automation-future",
+      "host": "ndt-automation-future.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "ndt-careers-portal",
+      "host": "ndt-careers-portal.vercel.app",
+      "site": "https://ndt-careers-portal.vercel.app/",
+      "clicks30d": 1,
+      "imp30d": 191,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-09T02:30:25Z",
+        "canonical": "https://ndt-careers-portal.vercel.app/",
+        "userCanonical": "https://ndtcareersportal.com/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://ndt-careers-portal.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-09T04:27:57.708Z",
+          "contents": [],
+          "errors": "0",
+          "warnings": "0",
+          "isPending": true,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://ndt-careers-portal.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-09T02:30:25Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "ndt-equipment-reviews",
+      "host": "ndt-equipment-reviews.vercel.app",
+      "site": "https://ndt-equipment-reviews.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 17,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-07T09:53:20Z",
+        "canonical": "https://ndt-equipment-reviews.vercel.app/",
+        "userCanonical": "https://ndt-equipment-reviews.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://ndt-equipment-reviews.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-24T10:54:01.811Z",
+          "contents": [],
+          "errors": "1",
+          "warnings": "0",
+          "isPending": true,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://ndt-equipment-reviews.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-07T09:53:20Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "ndt-knowledge-hub",
+      "host": "ndt-knowledge-hub.vercel.app",
+      "site": "https://ndt-knowledge-hub.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 423,
+      "pagesWithImp": 6,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-05-31T07:08:50Z",
+        "canonical": "https://ndt-knowledge-hub.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://ndt-knowledge-hub.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-17T13:13:18.735Z",
+          "contents": [
+            {
+              "type": "web",
+              "submitted": "21",
+              "indexed": "0"
+            }
+          ],
+          "errors": "0",
+          "warnings": "0",
+          "isPending": false,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://ndt-knowledge-hub.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-31T07:08:50Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://ndt-knowledge-hub.vercel.app/certifications",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-31T09:40:55Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://ndt-knowledge-hub.vercel.app/guides",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-31T07:36:33Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "ndt-safety-compliance",
+      "host": "ndt-safety-compliance.vercel.app",
+      "site": "https://ndt-safety-compliance.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 20,
+      "pagesWithImp": 6,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-05-31T12:56:06Z",
+        "canonical": "https://ndt-safety-compliance.vercel.app/",
+        "userCanonical": "https://ndt-safety-compliance.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://ndt-safety-compliance.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-24T10:54:01.014Z",
+          "contents": [],
+          "errors": "1",
+          "warnings": "0",
+          "isPending": true,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://ndt-safety-compliance.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-31T12:56:06Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://ndt-safety-compliance.vercel.app/safety-heat-stress",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-31T01:24:13Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://ndt-safety-compliance.vercel.app/safety-procedure-writing",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-02T09:22:35Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "ndt-software-solutions",
+      "host": "ndt-software-solutions.vercel.app",
+      "site": "https://ndt-software-solutions.vercel.app/",
+      "clicks30d": 1,
+      "imp30d": 165,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-05T09:50:28Z",
+        "canonical": "https://ndt-software-solutions.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://ndt-software-solutions.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-05T09:50:28Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "ndt-standards-library",
+      "host": "ndt-standards-library.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "ndt-training-academy",
+      "host": "ndt-training-academy.vercel.app",
+      "site": "https://ndt-training-academy.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 358,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-01T01:32:44Z",
+        "canonical": "https://ndt-training-academy.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://ndt-training-academy.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-09T04:27:56.981Z",
+          "contents": [
+            {
+              "type": "web",
+              "submitted": "13",
+              "indexed": "0"
+            }
+          ],
+          "errors": "0",
+          "warnings": "0",
+          "isPending": false,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://ndt-training-academy.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-01T01:32:44Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "nuclear-ndt-resource",
+      "host": "nuclear-ndt-resource.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "oil-gas-inspection-guide",
+      "host": "oil-gas-inspection-guide.vercel.app",
+      "site": "https://oil-gas-inspection-guide.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 25,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-05T09:50:12Z",
+        "canonical": "https://oil-gas-inspection-guide.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://oil-gas-inspection-guide.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-05T09:50:12Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "petrochemical-ndt-hub",
+      "host": "petrochemical-ndt-hub.vercel.app",
+      "site": "https://petrochemical-ndt-hub.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 35,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-02T09:54:57Z",
+        "canonical": "https://petrochemical-ndt-hub.vercel.app/"
+      },
+      "sitemaps": [
+        {
+          "path": "https://petrochemical-ndt-hub.vercel.app/sitemap.xml",
+          "lastSubmitted": "2026-03-17T14:07:52.619Z",
+          "contents": [],
+          "errors": "1",
+          "warnings": "0",
+          "isPending": true,
+          "isSitemapsIndex": false
+        }
+      ],
+      "articleSamples": [
+        {
+          "url": "https://petrochemical-ndt-hub.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-02T09:54:57Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "pipeline-integrity-guide",
+      "host": "pipeline-integrity-guide.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "power-generation-ndt",
+      "host": "power-generation-ndt.vercel.app",
+      "site": "https://power-generation-ndt.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 216,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-05T09:50:32Z",
+        "canonical": "https://power-generation-ndt.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://power-generation-ndt.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-05T09:50:32Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "pressure-vessel-ndt",
+      "host": "pressure-vessel-ndt.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "rail-ndt-resource",
+      "host": "rail-ndt-resource.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "renewable-energy-ndt",
+      "host": "renewable-energy-ndt.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "subsea-inspection-guide",
+      "host": "subsea-inspection-guide.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "tank-inspection-resource",
+      "host": "tank-inspection-resource.vercel.app",
+      "site": "https://tank-inspection-resource.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 436,
+      "pagesWithImp": 1,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-04-05T07:18:14Z",
+        "canonical": "https://tank-inspection-resource.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://tank-inspection-resource.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-04-05T07:18:14Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    },
+    {
+      "name": "weld-quality-resource",
+      "host": "weld-quality-resource.vercel.app",
+      "error": "not verified in any variant"
+    },
+    {
+      "name": "welding-inspection-hub",
+      "host": "welding-inspection-hub.vercel.app",
+      "site": "https://welding-inspection-hub.vercel.app/",
+      "clicks30d": 0,
+      "imp30d": 12,
+      "pagesWithImp": 2,
+      "homepage": {
+        "coverage": "Submitted and indexed",
+        "verdict": "PASS",
+        "robotsTxt": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-06-08T16:31:46Z",
+        "canonical": "https://welding-inspection-hub.vercel.app/"
+      },
+      "sitemaps": [],
+      "articleSamples": [
+        {
+          "url": "https://welding-inspection-hub.vercel.app/",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-06-08T16:31:46Z",
+          "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "url": "https://welding-inspection-hub.vercel.app/processes",
+          "coverage": "Submitted and indexed",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-05-14T13:58:19Z",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      ]
+    }
+  ]
+}

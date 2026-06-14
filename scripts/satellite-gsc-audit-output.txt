@@ -1,0 +1,138 @@
+[1/35] auditing advanced-ndt-techniques...
+  ERROR: not verified in any variant
+[2/35] auditing aerospace-ndt-standards...
+  clicks30d=0 imp30d=393 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://aerospace-ndt-standards.vercel.app/
+[3/35] auditing api-certification-guide...
+  ERROR: not verified in any variant
+[4/35] auditing asset-integrity-hub...
+  clicks30d=0 imp30d=156 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://asset-integrity-hub.vercel.app/sitemap.xml: submitted=012 indexed=00 errors=0
+    article Submitted and indexed / PASS / SUCCESSFUL https://asset-integrity-hub.vercel.app/
+[5/35] auditing coating-inspection-guide...
+  ERROR: not verified in any variant
+[6/35] auditing composite-testing-hub...
+  ERROR: not verified in any variant
+[7/35] auditing construction-ndt-guide...
+  clicks30d=0 imp30d=60 pagesWithImp=2
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://construction-ndt-guide.vercel.app/
+    article Submitted and indexed / PASS / SUCCESSFUL https://construction-ndt-guide.vercel.app/structural/steel-structures
+[8/35] auditing corrosion-management-ndt...
+  clicks30d=0 imp30d=8 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://corrosion-management-ndt.vercel.app/
+[9/35] auditing heat-exchanger-ndt...
+  ERROR: not verified in any variant
+[10/35] auditing industrial-inspection-resources...
+  clicks30d=6 imp30d=668 pagesWithImp=2
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://industrial-inspection-resources.vercel.app/sitemap.xml: submitted=013 indexed=00 errors=0
+    article Submitted and indexed / PASS / SUCCESSFUL https://industrial-inspection-resources.vercel.app/standards
+    article Submitted and indexed / PASS / SUCCESSFUL https://industrial-inspection-resources.vercel.app/
+[11/35] auditing lng-inspection-hub...
+  ERROR: not verified in any variant
+[12/35] auditing manufacturing-ndt-quality...
+  clicks30d=0 imp30d=22 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://manufacturing-ndt-quality.vercel.app/
+[13/35] auditing marine-offshore-ndt...
+  clicks30d=0 imp30d=93 pagesWithImp=2
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://marine-offshore-ndt.vercel.app/
+    article Submitted and indexed / PASS / SUCCESSFUL https://marine-offshore-ndt.vercel.app/vessels
+[14/35] auditing middle-east-ndt-resource...
+  clicks30d=0 imp30d=45 pagesWithImp=2
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://middle-east-ndt-resource.vercel.app/sitemap.xml: submitted=021 indexed=00 errors=0
+    article Submitted and indexed / PASS / SUCCESSFUL https://middle-east-ndt-resource.vercel.app/
+    article Submitted and indexed / PASS / SUCCESSFUL https://middle-east-ndt-resource.vercel.app/career
+[15/35] auditing mining-ndt-hub...
+  ERROR: not verified in any variant
+[16/35] auditing ndt-automation-future...
+  ERROR: not verified in any variant
+[17/35] auditing ndt-careers-portal...
+  clicks30d=1 imp30d=191 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://ndt-careers-portal.vercel.app/sitemap.xml: submitted=0 indexed=0 errors=0
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-careers-portal.vercel.app/
+[18/35] auditing ndt-equipment-reviews...
+  clicks30d=0 imp30d=17 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://ndt-equipment-reviews.vercel.app/sitemap.xml: submitted=0 indexed=0 errors=1
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-equipment-reviews.vercel.app/
+[19/35] auditing ndt-knowledge-hub...
+  clicks30d=0 imp30d=423 pagesWithImp=6
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://ndt-knowledge-hub.vercel.app/sitemap.xml: submitted=021 indexed=00 errors=0
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-knowledge-hub.vercel.app/
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-knowledge-hub.vercel.app/certifications
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-knowledge-hub.vercel.app/guides
+[20/35] auditing ndt-safety-compliance...
+  clicks30d=0 imp30d=20 pagesWithImp=6
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://ndt-safety-compliance.vercel.app/sitemap.xml: submitted=0 indexed=0 errors=1
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-safety-compliance.vercel.app/
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-safety-compliance.vercel.app/safety-heat-stress
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-safety-compliance.vercel.app/safety-procedure-writing
+[21/35] auditing ndt-software-solutions...
+  clicks30d=1 imp30d=165 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-software-solutions.vercel.app/
+[22/35] auditing ndt-standards-library...
+  ERROR: not verified in any variant
+[23/35] auditing ndt-training-academy...
+  clicks30d=0 imp30d=358 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://ndt-training-academy.vercel.app/sitemap.xml: submitted=013 indexed=00 errors=0
+    article Submitted and indexed / PASS / SUCCESSFUL https://ndt-training-academy.vercel.app/
+[24/35] auditing nuclear-ndt-resource...
+  ERROR: not verified in any variant
+[25/35] auditing oil-gas-inspection-guide...
+  clicks30d=0 imp30d=25 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://oil-gas-inspection-guide.vercel.app/
+[26/35] auditing petrochemical-ndt-hub...
+  clicks30d=0 imp30d=35 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  sitemap https://petrochemical-ndt-hub.vercel.app/sitemap.xml: submitted=0 indexed=0 errors=1
+    article Submitted and indexed / PASS / SUCCESSFUL https://petrochemical-ndt-hub.vercel.app/
+[27/35] auditing pipeline-integrity-guide...
+  ERROR: not verified in any variant
+[28/35] auditing power-generation-ndt...
+  clicks30d=0 imp30d=216 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://power-generation-ndt.vercel.app/
+[29/35] auditing pressure-vessel-ndt...
+  ERROR: not verified in any variant
+[30/35] auditing rail-ndt-resource...
+  ERROR: not verified in any variant
+[31/35] auditing renewable-energy-ndt...
+  ERROR: not verified in any variant
+[32/35] auditing subsea-inspection-guide...
+  ERROR: not verified in any variant
+[33/35] auditing tank-inspection-resource...
+  clicks30d=0 imp30d=436 pagesWithImp=1
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://tank-inspection-resource.vercel.app/
+[34/35] auditing weld-quality-resource...
+  ERROR: not verified in any variant
+[35/35] auditing welding-inspection-hub...
+  clicks30d=0 imp30d=12 pagesWithImp=2
+  homepage: coverage=Submitted and indexed verdict=PASS pageFetch=SUCCESSFUL
+  NO SITEMAPS SUBMITTED
+    article Submitted and indexed / PASS / SUCCESSFUL https://welding-inspection-hub.vercel.app/
+    article Submitted and indexed / PASS / SUCCESSFUL https://welding-inspection-hub.vercel.app/processes
+
+Saved → scripts/satellite-gsc-audit-2026-06-14.json
