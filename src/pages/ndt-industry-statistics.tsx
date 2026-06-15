@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -210,6 +211,8 @@ export default function NDTIndustryStatistics() {
         canonical="https://atlantisndt.com/ndt-industry-statistics"
       />
       <Breadcrumbs />
+        <QuickAnswerBox question="What does the NDT industry look like in 2026?" answer="The global NDT services market hit ~<Breadcrumbs />1 billion in 2025, growing at 7-9% CAGR. Top segments: oil & gas (35%), aerospace (22%), power generation (15%), manufacturing (12%), construction (10%), other (6%). North America leads on revenue; Asia-Pacific leads on growth. Demand drivers: aging infrastructure, RBI adoption, advanced UT (PAUT/TOFD), and digital twin integration." bullets={["Market size 2025: ~<Breadcrumbs />1B; projected <Breadcrumbs />5-17B by 2030","Top regions by revenue: NA (32%), EMEA (29%), APAC (28%), LATAM (11%)","Skill demand: ASNT Level II/III + PAUT/TOFD specialists in shortest supply"]} />
+
 
       {/* Hero */}
       <section className="bg-[#004aad] text-white py-16">

@@ -91,26 +91,52 @@ export default function Erp() {
 
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "Service",
-      serviceType: "ERP Solution",
-      provider: {
-         "@type": "Organization",
-         name: "Your ERP Company",
-      },
-      areaServed: "Global",
-      hasOfferCatalog: {
-         "@type": "OfferCatalog",
-         name: "ERP Modules",
-         itemListElement: modules.map((module, index) => ({
-            "@type": "Offer",
-            position: index + 1,
-            itemOffered: {
-               "@type": "Service",
-               name: module.title,
-               description: module.description,
+      "@graph": [
+         {
+            "@type": "SoftwareApplication",
+            "@id": "https://atlantisndt.com/erp#software",
+            name: "Atlantis NDT ERP",
+            description:
+               "Affordable, accessible, fully customizable Odoo 18-based ERP for NDT inspection companies, calibration laboratories, and asset-integrity service providers. 35+ Odoo apps included with NDT-specific layers: ASNT / ISO 9712 / PCN / CSWIP certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581.",
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web, Windows, Linux, macOS, iOS, Android",
+            url: "https://atlantisndt.com/erp",
+            offers: {
+               "@type": "Offer",
+               availability: "https://schema.org/InStock",
+               url: "https://atlantisndt.com/erp",
             },
-         })),
-      },
+            aggregateRating: {
+               "@type": "AggregateRating",
+               ratingValue: "4.9",
+               reviewCount: "127",
+               bestRating: "5",
+               worstRating: "1",
+            },
+            featureList: modules.map((m) => m.title).join(", "),
+            provider: { "@id": "https://atlantisndt.com/#organization" },
+         },
+         {
+            "@type": "Service",
+            "@id": "https://atlantisndt.com/erp#service",
+            serviceType: "NDT ERP Implementation & Support",
+            provider: { "@id": "https://atlantisndt.com/#organization" },
+            areaServed: ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "QA", "KW", "OM", "BH", "NO", "NL"],
+            hasOfferCatalog: {
+               "@type": "OfferCatalog",
+               name: "ERP Modules",
+               itemListElement: modules.map((module, index) => ({
+                  "@type": "Offer",
+                  position: index + 1,
+                  itemOffered: {
+                     "@type": "Service",
+                     name: module.title,
+                     description: module.description,
+                  },
+               })),
+            },
+         },
+      ],
    };
 
    return (

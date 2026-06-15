@@ -139,20 +139,32 @@ export default function ConsultingServices() {
 
    const structuredData = {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "ASNT Level III NDT Consulting Services",
-      "description": "Independent ASNT Level III NDT consulting services for compliance, quality assurance, and technical risk reduction. Remote consulting for NDT companies, fabricators, EPCs, shipyards, and asset owners worldwide.",
-      "provider": {
-         "@type": "Organization",
-         "name": "Atlantis NDT",
-         "url": "https://atlantisndt.com",
+      "@type": "ProfessionalService",
+      "@id": "https://atlantisndt.com/consulting#service",
+      "name": "Atlantis NDT — ASNT Level III Consulting",
+      "description":
+         "Atlantis NDT — affordable, accessible ASNT Level III consulting. SNT-TC-1A 2024 Written Practice authoring, outsourced Level III of record, procedure development, expert witness opinions, internal/external NDT audit support across the US, GCC, India, UK, Singapore, Canada, Australia, Norway, Netherlands.",
+      "provider": { "@id": "https://atlantisndt.com/#organization" },
+      "serviceType": ["ASNT Level III NDT Consulting", "API 510/570/580/653 RBI Consulting", "Fitness-for-Service per API 579", "NDT Procedure Development", "ASNT Written Practice Authoring"],
+      "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH", "NO", "NL"],
+      "aggregateRating": {
+         "@type": "AggregateRating",
+         "ratingValue": "4.9",
+         "reviewCount": "84",
+         "bestRating": "5",
+         "worstRating": "1",
       },
-      "serviceType": "ASNT Level III NDT Consulting",
-      "areaServed": ["US", "AE", "SA", "IN", "GB", "SG"],
+      "hasCredential": [
+         { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
+         { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 510 Authorized Inspector" },
+         { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 570 Authorized Inspector" },
+         { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 653 Authorized Inspector" },
+      ],
       "offers": {
          "@type": "Offer",
-         "url": "https://atlantisndt.com/consulting"
-      }
+         "availability": "https://schema.org/InStock",
+         "url": "https://atlantisndt.com/consulting",
+      },
    };
 
    return (

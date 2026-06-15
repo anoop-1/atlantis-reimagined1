@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { Link } from "react-router-dom";
 import {
   CheckCircle,
@@ -165,6 +166,8 @@ export default function MagneticFluxLeakageTesting() {
         canonical="https://atlantisndt.com/magnetic-flux-leakage-testing"
       />
       <Breadcrumbs />
+        <QuickAnswerBox question="What is magnetic flux leakage (MFL) testing?" answer="Magnetic Flux Leakage (MFL) is a fast, contactless NDT method for ferromagnetic materials — primarily long-distance pipelines, tank floors, and storage-tank shells. A strong magnetic field is applied; leakage at defect locations (corrosion pits, cracks, wall-thinning) is detected by Hall-effect or coil sensors. Used in in-line inspection (ILI) campaigns and external aboveground tank bottom-plate scanning." bullets={["Best for: general metal loss in pipeline + tank bottom-plates","Limitations: less sensitive to axial cracks; needs ferromagnetic material","Standards: API 1163 (ILI), API 653 Annex G (tank floor MFL)"]} />
+
 
       {/* Hero */}
       <section className="bg-[#004aad] text-white py-16">
