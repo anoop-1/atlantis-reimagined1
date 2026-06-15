@@ -43,6 +43,9 @@ Every audit cycle pushes ALL 4 segments (Training, Consulting, ERP, Digital Twin
 **Additive-only rule** (memory: `feedback_no_undo_prior_work.md`):
 SEO work is additive — never strip existing pages/content/features when iterating. New content only.
 
+**🚫 NO PRICING ON THE WEBSITE — HARD RULE** (memory: `feedback_no_pricing_rule.md`):
+Never mention price of any Atlantis product or service anywhere on atlantisndt.com, satellites, marketing assets, or schemas. Positioning words: **Affordable. Accessible. Fully Customizable.** CTAs: "Demo on request" / "Quote on request" / "Free trial". Forbidden tokens (audit before every commit): `$18,000/yr`, `$18K`, `$200K/yr`, `$200,000`, `$250K+`, `$180K+`, `$80K+`, plus local-currency equivalents (`SAR 67,500`, `AED 66,000`, `INR 15 lakh`, `CAD 24,500`, `AUD 27,300`, `GBP 14,400`, `EUR 16,400`, `BHD 6,800`, `KWD 5,500`, `OMR 6,900`, `MYR 84,500`, `NOK 195,000`, `QAR 65,500`, `BRL 92,000`, `MXN 360,000`, `IDR 290,000,000`, `NGN 27,000,000`, `SGD 24,300`). NEVER put `price` / `priceCurrency` inside any Schema.org `Offer` block — only `"availability": "https://schema.org/InStock"`. Use qualitative labels for competitor pricing: "enterprise-license SAP", "enterprise-tier Oracle". Customer ROI / savings figures + industry salary ranges + third-party equipment costs are still allowed (not Atlantis pricing). Deterministic strip: `scripts/strip-pricing.mjs` (run before every commit if subagents wrote content).
+
 **Tracker:** `node scripts/gsc-30day-tracker.mjs` — daily site-wide + per-segment breakdown vs 30k goal. Output → `scripts/30day-tracker-snapshots/{date}.json`. Manual run required until Windows Scheduled Task is registered (see §10).
 
 ---
