@@ -1,0 +1,58 @@
+{
+  "generated": "2026-06-15T07:26:15.320Z",
+  "source": "Batch 2 schema + QuickAnswer",
+  "urls": [
+    {
+      "url": "https://atlantisndt.com/erp",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-industry-statistics",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/magnetic-flux-leakage-testing",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ut-vs-rt-comparison",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-level-iii-certification-requirements-guide",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/forging-defect-detection-and-assessment",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asme-b31-3-process-piping-requirements",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/cwi-certification-requirements-cost-career-impact",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/magnetic-particle-testing-complete-guide",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut",
+      "tier": "A"
+    }
+  ]
+}

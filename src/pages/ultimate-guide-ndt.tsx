@@ -21,6 +21,7 @@ import {
   TrendingUp,
   Clock,
   CheckCircle,
+  DollarSign,
 } from "lucide-react";
 
 /* ─── NDT Methods Data ─── */
