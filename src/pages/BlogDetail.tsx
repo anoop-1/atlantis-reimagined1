@@ -10,6 +10,7 @@ import { useEffect, useState, useMemo } from 'react';
 import { RelatedArticles } from '@/components/RelatedArticles';
 import { RelatedProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
+import QuickAnswerBox from '@/components/QuickAnswerBox';
 
 /**
  * Pick a contextually-relevant Odoo-app pillar URL for a blog slug.
@@ -254,6 +255,13 @@ export default function BlogDetail() {
           <div className="container mx-auto px-6 max-w-4xl">
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 md:p-12">
+                {blog.quickAnswer && (
+                  <QuickAnswerBox
+                    question={blog.quickAnswer.question}
+                    answer={blog.quickAnswer.answer}
+                    bullets={blog.quickAnswer.bullets}
+                  />
+                )}
                 <motion.div
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
