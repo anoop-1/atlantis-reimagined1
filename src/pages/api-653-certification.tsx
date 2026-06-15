@@ -12,6 +12,7 @@ import { buildTechArticleSchema } from "@/data/author-schema";
 import ClusterNav from "@/components/ClusterNav";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 const breadcrumbSchema653Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -184,6 +185,8 @@ export default function API653Certification() {
                 faq={faqs}
             />
             <Breadcrumbs />
+        <QuickAnswerBox question="What is API 653 tank inspector certification?" answer="API 653 is the Authorized Aboveground Storage Tank Inspector certification covering in-service inspection, repair, alteration, and reconstruction of welded storage tanks per the API 653 code. The 7.75-hour exam covers API 650, API 651, API 652, API 653, API 571, and ASME Section V. Required for owner-operator tank inspections at terminals, refineries, and bulk distribution facilities." bullets={["Body of knowledge: API 650, 651, 652, 653, 571, ASME V","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) tank inspection experience","Recertification: every 3 years online"]} />
+
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-amber-600 to-orange-700 text-white pt-24 pb-16">

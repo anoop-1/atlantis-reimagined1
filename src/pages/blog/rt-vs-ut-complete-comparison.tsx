@@ -10,6 +10,7 @@ import { CheckCircle, X, AlertTriangle, Shield } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 const faqs = [
     { question: "What is the difference between radiography (RT) and ultrasonic testing (UT)?", answer: "RT and UT both detect internal defects but use different physics. Radiography uses X-rays or gamma rays to penetrate material and create a permanent radiographic image showing density variations (voids, porosity, inclusions). Ultrasonic Testing uses sound waves (1-5 MHz) that reflect back from defects; the technician interprets echoes on a display (A-scan, C-scan format). Key differences: RT shows spatial distribution of porosity; UT shows defect depth and can measure wall thickness. RT requires radiation safety procedures and licensing; UT has no radiation hazard. RT is slower (film processing, positioning); UT is faster. For weld inspection, UT detects cracks better; RT shows porosity patterns better." },
     { question: "When should you use RT vs UT for weld inspection?", answer: "General guideline: Use UT as primary weld inspection method (faster, better crack detection), use RT as confirmatory method for critical findings. Specific applications: Use UT for: tight cracks (UT is superior), thin walls (<2mm), internal defects in thick sections, production volume (speed matters). Use RT for: planar defects parallel to beam (cracks parallel to weld surface), porosity distribution visualization, creation of permanent film record (legal requirement), when defect size/shape characterization is critical. Best practice in critical applications: perform UT scan, if indication found, follow with RT to definitively characterize. This combined approach provides speed + confirmation." },
@@ -114,6 +115,8 @@ export default function RTvsUTCompleteComparison() {
                 structuredData={structuredData}
             />
             <Breadcrumbs />
+        <QuickAnswerBox question="RT or UT — which inspection method should you choose?" answer="Choose Radiographic Testing (RT) for permanent records, full volumetric coverage, and inspections of complex weld geometries. Choose Ultrasonic Testing (UT) for safer field deployment, real-time results, deep-section penetration (up to ~10 m), and automated scan capabilities. Most modern asset-integrity programs use both — UT for production weld inspection, RT for fitness-for-service evidence." bullets={["RT pros: permanent film/CR/DR record, defect type clear, all materials","UT pros: no radiation safety zone, deeper penetration, automated/encoded scanning","Cost: UT is 50-70% cheaper per linear foot of weld"]} />
+
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-cyan-700 to-blue-900 text-white pt-24 pb-16">

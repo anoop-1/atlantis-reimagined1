@@ -27,6 +27,7 @@ import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
 import { SEOHead } from "@/components/SEOHead";
 
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 export default function ConsultingServices() {
    // Core consulting services data
    const consultingServices = [
@@ -157,6 +158,8 @@ export default function ConsultingServices() {
    return (
       <div className="min-h-screen pt-20 bg-gray-50">
          <Navigation />
+        <QuickAnswerBox question="What is ASNT Level III NDT consulting?" answer="ASNT Level III NDT consulting provides the senior technical authority that NDT inspection programs require under SNT-TC-1A — written practice authoring, procedure approval, personnel qualification sign-off, audit defence, and expert witness opinions. An outsourced Level III consultant replaces full-time hire cost while delivering the same code-required authority. Affordable, accessible engagements." bullets={["Outsourced Level III of record — signs procedures, attends audits","Written Practice authoring per SNT-TC-1A 2024 / CP-189 / ACCP / ISO 9712","Expert witness, audit defence, FFS argument support"]} />
+
          <SEOHead
             title="NDT Consulting 2026: Expert ASNT Level III Authority in 48 Hours"
             description="Proven ASNT Level III NDT consulting: RBI (API 580/581), API 579 fitness-for-service, procedure development, audits & code compliance. Remote technical authority worldwide — signed & stamped, same-week start."

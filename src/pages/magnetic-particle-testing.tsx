@@ -3,6 +3,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { Link } from "react-router-dom";
 import { CheckCircle, Magnet, Shield, Zap, Settings, Search, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
@@ -194,6 +195,8 @@ export default function MagneticParticleTesting() {
         canonical="https://atlantisndt.com/magnetic-particle-testing"
       />
       <Breadcrumbs />
+        <QuickAnswerBox question="What is magnetic particle testing (MT)?" answer="Magnetic particle testing (MT or MPI) is a surface and near-surface NDT method for ferromagnetic materials. The part is magnetized; iron-oxide particles applied to the surface accumulate at flux leakage points, revealing cracks, seams, laps, and inclusions. Used in pipeline weld inspection, casting QC, forging inspection, and aircraft landing-gear inspection." bullets={["Best for: surface + near-surface cracks (≤2 mm deep) in steel, iron, nickel alloys","Wet vs dry methods; AC for surface, DC for near-surface; yoke / coil / prods","Standards: ASTM E709, ASME Section V Art. 7, ASNT SNT-TC-1A MT Level II"]} />
+
 
       {/* Hero */}
       <section className="bg-[#004aad] text-white py-16">

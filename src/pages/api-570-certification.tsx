@@ -12,6 +12,7 @@ import { buildTechArticleSchema } from "@/data/author-schema";
 import ClusterNav from "@/components/ClusterNav";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 const breadcrumbSchema570Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -162,6 +163,8 @@ export default function API570Certification() {
                 faq={faqs}
             />
             <Breadcrumbs />
+        <QuickAnswerBox question="What is API 570 piping inspector certification?" answer="API 570 is the Authorized Piping Inspector certification covering in-service inspection of process piping under the API 570 Piping Inspection Code. The 7.75-hour exam is administered four times per year and covers ASME B31.3, API 570/571/574/578, ASME Section V. Required for owner-operator inspector-of-record duties in refineries, petrochemical plants, and gas processing." bullets={["Body of knowledge: ASME B31.3, API 570, API 571, API 574","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) piping inspection experience","Recertification: every 3 years via 25-question online exam"]} />
+
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-blue-700 to-indigo-800 text-white pt-24 pb-16">

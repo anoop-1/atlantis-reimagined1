@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle, TrendingUp, Zap } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { buildTechArticleSchema } from "@/data/author-schema";
 
 const faqs = [
@@ -105,6 +106,8 @@ export default function EddyCurrentTestingCompleteGuide() {
                 structuredData={structuredData}
             />
             <Breadcrumbs />
+        <QuickAnswerBox question="What is eddy current testing (ET) and when do you use it?" answer="Eddy current testing (ET) is an electromagnetic NDT method that detects surface and near-surface defects in electrically conductive materials. A coil induces eddy currents in the part; defects disrupt the current and shift the coil impedance. Used in aerospace airframe inspection, heat-exchanger tubing (IRIS / NFA), bolt-hole inspection, and conductivity / coating-thickness measurement." bullets={["Best for: surface/near-surface cracks in non-magnetic conductors","Limitations: depth < 5 mm typical, requires conductive material","Standards: ASTM E309, EN ISO 15549, ASNT SNT-TC-1A ET Level II"]} />
+
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white pt-24 pb-16">

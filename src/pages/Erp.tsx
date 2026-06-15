@@ -15,6 +15,7 @@ import { Navigation } from "@/components/Navigation";
 import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
 
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 export default function Erp() {
    const modules = [
       {
@@ -115,6 +116,8 @@ export default function Erp() {
    return (
       <div className="min-h-screen pt-20">
          <Navigation />
+        <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Operator portal integrations: Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld"]} />
+
          <SEOHead
             title="Affordable ERP — Fully Customizable, All 30+ Odoo Apps Included"
             description="Atlantis ERP — Affordable. Accessible. Fully Customizable. All 30+ Odoo 18 apps included: inventory, CRM, accounting, HR, projects. Beats SAP/NetSuite on flexibility. Demo: info@atlantisndt.com"

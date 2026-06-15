@@ -10,6 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 const faqs = [
     { question: "What is the average NDT technician salary in 2026?", answer: "The median NDT Level II technician salary in the USA ranges from $55,000-$80,000 annually, depending on method specialization, industry, and experience. This is significantly higher than the Bureau of Labor Statistics general 'Quality Control Inspectors' average ($44,000) because NDT technicians with specialized methods (PAUT, TOFD, RT) command premium rates. Salary variation by method is dramatic: MT/PT technicians earn $50,000-$65,000, while PAUT/TOFD specialists earn $80,000-$110,000 - a 50-80% premium. Advanced methods (AUT, corrosion mapping) push salaries to $85,000-$115,000. Overtime is substantial in oil & gas (~10-20% annual bonus in onshore roles; 30-50% in offshore roles)." },
     { question: "What NDT methods pay the highest salaries?", answer: "Highest-paying NDT specializations in 2026: (1) Automated Ultrasonic Testing (AUT) and corrosion mapping: $85,000-$115,000 Level II; $130,000-$180,000 Level III. (2) Phased Array UT (PAUT): $80,000-$110,000 Level II onshore; $100,000-$140,000 offshore. (3) TOFD: $75,000-$100,000 Level II; $120,000-$160,000 Level III. The premium for advanced UT methods over conventional MT/PT is approximately 40-80%. Reason: advanced methods have steeper learning curves, fewer qualified technicians available, and serve higher-value applications (aerospace, offshore oil & gas). Basic MT/PT serve lower-value manufacturing roles with fewer earning opportunities." },
@@ -137,6 +138,8 @@ export default function NDTSalaryGuide2026() {
                 structuredData={structuredData}
             />
             <Breadcrumbs />
+        <QuickAnswerBox question="What does an NDT technician earn in 2026?" answer="Median 2026 NDT technician salaries range from $52,000–$95,000 in the USA, £38,000–£68,000 in the UK, AED 140,000–280,000 in the UAE, and ₹4.5–18 lakh in India — driven by certification level (ASNT Level I/II/III), method (UT/PAUT/RT pay highest), industry (oil & gas tops aerospace and power), and offshore vs onshore." bullets={["ASNT Level III pays 60–120% above Level II in the same country","PAUT, TOFD and Phased Array specialists earn 25–40% above conventional UT","Offshore + sour-service work pays 30–50% above onshore industrial NDT"]} />
+
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-green-700 to-emerald-900 text-white pt-24 pb-16">

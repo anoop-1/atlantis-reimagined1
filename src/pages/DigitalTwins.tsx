@@ -34,6 +34,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 
 const URL = "https://atlantisndt.com/digital-twins";
@@ -470,6 +471,8 @@ export default function DigitalTwins() {
             structuredData={structuredData}
          />
          <Navigation />
+        <QuickAnswerBox question="What is a digital twin for NDT and asset integrity?" answer="A digital twin for NDT is a 3D model of an asset (refinery vessel, pipeline, FPSO, heat exchanger) overlaid with live inspection data — UT thickness readings, PAUT scans, corrosion rates, weld inspection results. It runs API 581 RBI calculations, API 579 fitness-for-service evaluations, and generates audit-ready evidence packs. Affordable, accessible, fully customizable." bullets={["Overlays UT/PAUT/TOFD scan data on 3D asset geometry","Runs API 579 FFS and API 581 RBI workflows in real time","Exports audit packs for insurer, regulator, and Jurisdictional inspector review"]} />
+
 
          <div className="w-full min-h-screen flex flex-col bg-white">
             {/* ─────────────── HERO ─────────────── */}

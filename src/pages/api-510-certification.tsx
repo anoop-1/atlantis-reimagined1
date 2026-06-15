@@ -12,6 +12,7 @@ import { buildTechArticleSchema } from "@/data/author-schema";
 import ClusterNav from "@/components/ClusterNav";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 const breadcrumbSchema510Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -166,6 +167,8 @@ export default function API510Certification() {
                 faq={faqs}
             />
             <Breadcrumbs />
+        <QuickAnswerBox question="What is API 510 certification and how do you get it?" answer="API 510 is the Authorized Pressure Vessel Inspector certification from the American Petroleum Institute. It qualifies you to perform in-service inspection of pressure vessels under the API 510 Pressure Vessel Inspection Code. The exam is 8.5 hours, covers ASME Section V/VIII, API 510/571/572/576/577, and is administered four times per year worldwide via the API ICP program." bullets={["Body of knowledge: API 510, API 571, ASME Section V & VIII","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) inspection experience","Recertification: every 3 years via 25-question online exam"]} />
+
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-red-700 to-rose-800 text-white pt-24 pb-16">

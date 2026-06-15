@@ -20,6 +20,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 const faqs = [
   {
     q: "What is the average NDT technician salary in the USA?",
@@ -201,6 +202,8 @@ export default function NDTTechnicianSalary() {
         canonical="https://atlantisndt.com/ndt-technician-salary"
       />
       <Breadcrumbs />
+        <QuickAnswerBox question="What does an NDT technician earn?" answer="NDT technician salaries depend on certification level, method, country, and industry. In 2026 the median ASNT Level II NDT technician earns $62,000 in the USA, $52,000 in Canada, £42,000 in the UK, AED 168,000 in the UAE, and ₹6.5 lakh in India. Specialist methods (PAUT, TOFD, IRIS) and offshore/sour-service work add 25-50% premiums." bullets={["Level I (entry): $40-55K USA, ₹2.5-4.5 lakh India","Level II (technician): $55-85K USA, ₹4.5-12 lakh India","Level III (technical authority): $95-150K+ USA, ₹15-35 lakh India"]} />
+
 
       {/* Hero */}
       <section className="bg-[#004aad] text-white py-16">
