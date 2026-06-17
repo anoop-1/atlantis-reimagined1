@@ -1,0 +1,935 @@
+{
+  "generated": "2026-06-17T03:24:28.971Z",
+  "source": "Day-7 stuck-pages force-recrawl (232 Day-0 ERP pages — blank-shell damage 2026-05-23 to 05-29)",
+  "count": 232,
+  "urls": [
+    {
+      "url": "https://atlantisndt.com/ndt-erp-baytown",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-pasadena-texas",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-texas-city",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-deer-park",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-la-porte",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-channelview",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-sugar-land",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-pearland",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-conroe",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-galveston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-port-arthur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-freeport-texas",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-orange-texas",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-long-beach",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-carson",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-wilmington-california",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-torrance",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-el-segundo",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-vernon",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-richmond-california",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-martinez",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-benicia",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-joliet",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-hammond",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-east-chicago",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-trainer",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-marcus-hook",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-paulsboro",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-linden-nj",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-dearborn",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-monaca",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-clairton",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-jebel-ali",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-mussafah",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ruwais",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-fujairah",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-khobar",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ras-tanura",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-khurais",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-shaybah",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-abqaiq",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-riyadh",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-duqm",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-salalah",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ras-laffan",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-mesaieed",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-al-zour",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-pune",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-vadodara",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-surat",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-visakhapatnam",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-balikpapan",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-cilacap",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-bontang",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-pengerang",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-bintulu",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-kerteh",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-kemaman",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-miri",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-jurong-island",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-port-hedland",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-port-kembla",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-whyalla",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-grangemouth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-stanlow",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-fawley",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-immingham",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-teesside",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-mongstad",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-karsto",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-trondheim",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-sarnia",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-hamilton-ontario",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-fort-saskatchewan",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-lloydminster",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-texas",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-louisiana",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-california",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-alaska",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-north-dakota",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ohio",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-pennsylvania",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-alberta",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ontario",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-iraq",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-kazakhstan",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-azerbaijan",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-turkey",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-greece",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-cyprus",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-israel",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-tunisia",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-mozambique",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-tanzania",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ghana",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-gabon",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-senegal",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ivory-coast",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-suriname",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-guyana",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-panama",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-ecuador",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-bangladesh",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-sri-lanka",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-pakistan",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-myanmar",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/ndt-erp-mongolia",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-software-for-ndt",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/marketing-automation-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/sales-management-for-inspection-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-software-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/invoicing-software-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-erp-for-fabrication-shops",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-for-inspection-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/maintenance-management-for-ndt",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/quality-management-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/document-control-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/procurement-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/timesheet-software-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/expense-tracking-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/ecommerce-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/pos-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-management-for-ndt",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/subscription-management-for-ndt",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/no-code-customization-odoo-studio-for-ndt",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/approvals-workflows-for-ndt-companies",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/events-management-for-ndt-conferences",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/crm-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/email-marketing-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/inventory-management-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/accounting-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/project-management-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/manufacturing-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/helpdesk-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/field-service-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/hr-payroll-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-houston",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-dubai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-abu-dhabi",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-mumbai",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-london",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-singapore",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-calgary",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-perth",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-doha",
+      "tier": "A-RECRAWL"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/cmms-ndt-inspection-companies-kuala-lumpur",
+      "tier": "A-RECRAWL"
+    }
+  ]
+}

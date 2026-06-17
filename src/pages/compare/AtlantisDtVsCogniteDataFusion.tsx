@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable, accessible, fully customizable SaaS — quote on request", competitor: "Subscription per workspace + data-volume + named users — typically enterprise-tier ($300K–$1.8M/yr range industry-wide)" },
     { factor: "Deployment options", atlantis: "Cloud, on-prem, hybrid, air-gapped", competitor: "Cloud-first (Azure/AWS/GCP); on-prem is custom engagement" },
@@ -63,7 +65,8 @@ export default function AtlantisDtVsCogniteDataFusion() {
                 structuredData={structuredData}
                 faq={faqs}
             />
-            <Breadcrumbs />
+                    <TableOfContents items={[{ id: "overview", label: "Comparison Overview" }, { id: "matrix", label: "Feature Matrix" }, { id: "verdict", label: "When Each Wins" }, { id: "faq", label: "FAQ" }]} />
+        <Breadcrumbs />
 
             <section className="bg-gradient-to-br from-blue-700 to-indigo-800 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-6xl px-6">
@@ -269,8 +272,46 @@ export default function AtlantisDtVsCogniteDataFusion() {
                     </div>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+  {
+    "title": "Atlantis Digital Twin Platform",
+    "href": "/digital-twins",
+    "description": "Atlantis DT platform hub",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin ROI Calculator",
+    "href": "/digital-twin-roi-calculator",
+    "description": "Worked examples",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin Readiness Quiz",
+    "href": "/digital-twin-readiness-quiz",
+    "description": "Maturity assessment",
+    "icon": "dt"
+  },
+  {
+    "title": "ASNT Level III Consulting",
+    "href": "/consulting/asnt-level-iii-consulting-services",
+    "description": "Outsourced Level III of record",
+    "icon": "consulting"
+  },
+  {
+    "title": "Atlantis NDT ERP Hub",
+    "href": "/erp",
+    "description": "Affordable Odoo-based ERP",
+    "icon": "erp"
+  },
+  {
+    "title": "ASNT Certification Path",
+    "href": "/asnt-certification",
+    "description": "Level I/II/III prep",
+    "icon": "cert"
+  }
+]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

@@ -13,6 +13,8 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Globe, Award, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const compareRows = [
     { factor: "Governing standard", asnt: "SNT-TC-1A (recommended practice) or CP-189 (mandatory standard) or ANSI/ASNT CP-105", pcn: "ISO 9712:2021 (international) — PCN is the UK certification scheme operated by BINDT" },
     { factor: "Certification model", asnt: "Employer-based — your employer&apos;s written practice + their Level III certify you", pcn: "Central / third-party — independent body (BINDT) certifies you, portable between employers" },
@@ -71,7 +73,8 @@ export default function AsntVsPcn() {
                 structuredData={structuredData}
                 faq={faqs}
             />
-            <Breadcrumbs />
+                    <TableOfContents items={[{ id: "overview", label: "Comparison Overview" }, { id: "matrix", label: "Feature Matrix" }, { id: "verdict", label: "When Each Wins" }, { id: "faq", label: "FAQ" }]} />
+        <Breadcrumbs />
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-indigo-700 to-purple-700 text-white pt-24 pb-16">
@@ -284,8 +287,46 @@ export default function AsntVsPcn() {
                     </div>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+  {
+    "title": "Atlantis Digital Twin Platform",
+    "href": "/digital-twins",
+    "description": "Atlantis DT platform hub",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin ROI Calculator",
+    "href": "/digital-twin-roi-calculator",
+    "description": "Worked examples",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin Readiness Quiz",
+    "href": "/digital-twin-readiness-quiz",
+    "description": "Maturity assessment",
+    "icon": "dt"
+  },
+  {
+    "title": "ASNT Level III Consulting",
+    "href": "/consulting/asnt-level-iii-consulting-services",
+    "description": "Outsourced Level III of record",
+    "icon": "consulting"
+  },
+  {
+    "title": "Atlantis NDT ERP Hub",
+    "href": "/erp",
+    "description": "Affordable Odoo-based ERP",
+    "icon": "erp"
+  },
+  {
+    "title": "ASNT Certification Path",
+    "href": "/asnt-certification",
+    "description": "Level I/II/III prep",
+    "icon": "cert"
+  }
+]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

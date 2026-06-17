@@ -361,6 +361,34 @@ export default function Erp() {
               }
         ]} />
 
+        {/* Country-page link cascade — internal-link authority to 25 LocalBusiness-enabled country ERP pages */}
+        <section id="country-coverage" className="container mx-auto px-6 py-12">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">NDT ERP — country coverage</h2>
+          <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
+            Atlantis NDT ERP ships pre-configured for the regulators, currencies, and operator portals of every major NDT market. Affordable. Accessible. Fully customizable.
+          </p>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-sm">
+            {[
+              { c: 'Saudi Arabia', s: 'saudi-arabia' },
+              { c: 'UAE', s: 'uae' },
+              { c: 'India', s: 'india' },
+              { c: 'Malaysia', s: 'malaysia' },
+              { c: 'Singapore', s: 'singapore' },
+            ].map(({ c, s }) => (
+              <div key={s} className="space-y-1.5">
+                <h3 className="font-semibold text-slate-900">{c}</h3>
+                <ul className="space-y-1 text-slate-700">
+                  <li><Link to={`/erp/crm-erp-for-${s}`} className="hover:text-primary hover:underline">CRM ERP</Link></li>
+                  <li><Link to={`/erp/cmms-for-${s}`} className="hover:text-primary hover:underline">CMMS</Link></li>
+                  <li><Link to={`/erp/inventory-management-erp-for-${s}`} className="hover:text-primary hover:underline">Inventory</Link></li>
+                  <li><Link to={`/erp/project-management-erp-for-${s}`} className="hover:text-primary hover:underline">Project Mgmt</Link></li>
+                  <li><Link to={`/erp/accounting-erp-for-${s}`} className="hover:text-primary hover:underline">Accounting</Link></li>
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <ContactDetails />
       </div>
    );

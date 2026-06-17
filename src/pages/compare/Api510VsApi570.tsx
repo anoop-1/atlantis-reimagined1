@@ -13,6 +13,8 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Award, ArrowRight, DollarSign } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const compareRows = [
     { factor: "Full title", a510: "API 510 Pressure Vessel Inspector", a570: "API 570 Piping Inspector" },
     { factor: "Governing code", a510: "API 510 (in-service inspection of pressure vessels) + ASME Section VIII", a570: "API 570 (in-service inspection of process piping) + ASME B31.3" },
@@ -75,7 +77,8 @@ export default function Api510VsApi570() {
                 structuredData={structuredData}
                 faq={faqs}
             />
-            <Breadcrumbs />
+                    <TableOfContents items={[{ id: "overview", label: "Comparison Overview" }, { id: "matrix", label: "Feature Matrix" }, { id: "verdict", label: "When Each Wins" }, { id: "faq", label: "FAQ" }]} />
+        <Breadcrumbs />
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-amber-600 to-red-700 text-white pt-24 pb-16">
@@ -289,8 +292,46 @@ export default function Api510VsApi570() {
                     </div>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+  {
+    "title": "Atlantis Digital Twin Platform",
+    "href": "/digital-twins",
+    "description": "Atlantis DT platform hub",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin ROI Calculator",
+    "href": "/digital-twin-roi-calculator",
+    "description": "Worked examples",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin Readiness Quiz",
+    "href": "/digital-twin-readiness-quiz",
+    "description": "Maturity assessment",
+    "icon": "dt"
+  },
+  {
+    "title": "ASNT Level III Consulting",
+    "href": "/consulting/asnt-level-iii-consulting-services",
+    "description": "Outsourced Level III of record",
+    "icon": "consulting"
+  },
+  {
+    "title": "Atlantis NDT ERP Hub",
+    "href": "/erp",
+    "description": "Affordable Odoo-based ERP",
+    "icon": "erp"
+  },
+  {
+    "title": "ASNT Certification Path",
+    "href": "/asnt-certification",
+    "description": "Level I/II/III prep",
+    "icon": "cert"
+  }
+]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import { ArrowRight, BarChart3 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const compareRows = [
     { factor: "Primary purpose", atlantis: "Operational asset-integrity platform: continuous data accumulation, inspection workflow, FFS / RBI calculations, decision support across the asset lifecycle", competitor: "Static geometric representation: as-built reference, design intent, clash detection, visualisation. Frozen at a point in time." },
     { factor: "Data flow", atlantis: "Bidirectional &mdash; inspection data and operational telemetry in, work-order recommendations and FFS decisions out", competitor: "One-way and discrete &mdash; the CAD model is exported, viewed, sometimes red-lined, but rarely written back to in a meaningful way" },
@@ -64,7 +66,8 @@ export default function DigitalTwinVs3dCad() {
                 structuredData={structuredData}
                 faq={faqs}
             />
-            <Breadcrumbs />
+                    <TableOfContents items={[{ id: "overview", label: "Comparison Overview" }, { id: "matrix", label: "Feature Matrix" }, { id: "verdict", label: "When Each Wins" }, { id: "faq", label: "FAQ" }]} />
+        <Breadcrumbs />
 
             <section className="bg-gradient-to-br from-purple-700 to-indigo-900 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-6xl px-6">
@@ -247,8 +250,46 @@ export default function DigitalTwinVs3dCad() {
                     </div>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+  {
+    "title": "Atlantis Digital Twin Platform",
+    "href": "/digital-twins",
+    "description": "Atlantis DT platform hub",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin ROI Calculator",
+    "href": "/digital-twin-roi-calculator",
+    "description": "Worked examples",
+    "icon": "dt"
+  },
+  {
+    "title": "Digital Twin Readiness Quiz",
+    "href": "/digital-twin-readiness-quiz",
+    "description": "Maturity assessment",
+    "icon": "dt"
+  },
+  {
+    "title": "ASNT Level III Consulting",
+    "href": "/consulting/asnt-level-iii-consulting-services",
+    "description": "Outsourced Level III of record",
+    "icon": "consulting"
+  },
+  {
+    "title": "Atlantis NDT ERP Hub",
+    "href": "/erp",
+    "description": "Affordable Odoo-based ERP",
+    "icon": "erp"
+  },
+  {
+    "title": "ASNT Certification Path",
+    "href": "/asnt-certification",
+    "description": "Level I/II/III prep",
+    "icon": "cert"
+  }
+]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }
