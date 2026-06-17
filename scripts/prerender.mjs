@@ -777,21 +777,21 @@ const corePages = [
     title: 'ASNT Certification [2026]: Level I/II/III Exam Cost, Requirements & Salary',
     description: 'Pass your ASNT exam first try: SNT-TC-1A vs ACCP differences, exam costs ($200-$750), Level I/II/III requirements, and salary expectations ($35K-$150K+). Step-by-step study plan included.',
     bodyH1: 'ASNT NDT Certification Guide 2026',
-    bodyText: 'Complete ASNT certification guide covering SNT-TC-1A, CP-189 and ACCP programs for NDT Level I, II and III across all methods — UT, PAUT, RT, MT, PT, ET and VT. Understand eligibility, training-hour and experience requirements, exam structure, fees and recertification, with a 95% first-attempt pass rate on prep courses taught by ASNT Level III instructors. We also provide independent <a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a> for written practices and procedure approval. Compare schemes in our <a href="/compare/asnt-vs-pcn">ASNT vs PCN</a> guide or start with <a href="/training">NDT training</a>.',
+    bodyText: 'Complete ASNT certification guide covering <a href="/blog/asnt-snt-tc-1a-certification-requirements">SNT-TC-1A</a>, CP-189 and ACCP programs for NDT Level I, II and III across all methods — UT, PAUT, RT, MT, PT, ET and VT. Understand eligibility, training-hour and experience requirements, exam structure, fees and recertification, with a 96% first-attempt pass rate on prep courses taught by ASNT Level III instructors. Atlantis NDT proof: ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts — see the schedule on request. We also provide independent <a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a> for written practices and procedure approval. Pair ASNT with code-body certs: <a href="/api-510-certification">API 510 Pressure Vessel</a>, <a href="/api-570-certification">API 570 Piping</a>, or <a href="/api-653-certification">API 653 Tank</a>. Compare schemes in our <a href="/compare/asnt-vs-pcn">ASNT vs PCN</a> guide or start with <a href="/training">NDT training</a>.',
   },
   {
     path: '/api-510-certification',
     title: 'API 510 Certification [2026]: Pass the Exam (68% Fail) — Cost & Study Plan',
     description: 'API 510 exam has a 68% fail rate. Beat it with our guide: 170 questions, 7.5 hrs open-book format, required codes (ASME VIII, API 572/576/579), cost ($3K-$6K). Salary: $75K-$150K+.',
     bodyH1: 'API 510 Pressure Vessel Inspector Certification',
-    bodyText: 'API 510 Pressure Vessel Inspector certification preparation from experienced ASNT Level III instructors. Exam prep covers ASME Section VIII pressure vessel design, API 510, API 572, API 576, API 571 damage mechanisms, API 577 welding, and API 579 fitness-for-service, plus RBI per API 580/581, inspection intervals and open-book exam strategy. Available classroom, online and in-house with a high first-attempt pass rate. See <a href="/api-510-training">API 510 training</a>, <a href="/api-510-india">API 510 in India</a> or <a href="/api-570-certification">API 570 certification</a>.',
+    bodyText: 'API 510 Pressure Vessel Inspector certification preparation from experienced ASNT Level III instructors. Exam prep covers ASME Section VIII pressure vessel design, API 510, API 572, API 576, API 571 damage mechanisms, API 577 welding, and API 579 <a href="/consulting/api-579-fitness-for-service-services">FFS (fitness-for-service)</a>, plus <a href="/consulting/rbi-program-design">RBI per API 580/581</a>, inspection intervals and open-book exam strategy. Available classroom, online and in-house with a 96% first-attempt pass rate. Atlantis NDT proof: ASNT Level III-led prep, 96% pass rate, 2026 cohorts. See <a href="/api-510-training">API 510 training</a>, <a href="/api-510-india">API 510 in India</a>, <a href="/api-570-certification">API 570 piping</a>, or <a href="/api-653-certification">API 653 tank</a> certification.',
   },
   {
     path: '/api-570-certification',
     title: 'API 570 Certification [2026]: Piping Inspector Exam Guide & $80K-$120K Salary',
     description: 'API 570 piping inspector exam: 170 questions, 8 required codes, $3K-$5K total cost. Get our code navigation tips, formula sheets, and study plan. Salary: $80K-$120K+.',
     bodyH1: 'API 570 Piping Inspector Certification',
-    bodyText: 'Comprehensive API 570 Piping Inspector certification exam preparation. Open-book format covering ASME B31.3, API 570/571/574/577, remaining life calculations, and RBI. Dubai, Houston, India, and online.',
+    bodyText: 'Comprehensive API 570 Piping Inspector certification exam preparation. Open-book format covering ASME B31.3, API 570/571/574/577, <a href="/blog/corrosion-under-insulation">CUI (corrosion under insulation)</a> programs, remaining-life calculations, and <a href="/consulting/rbi-program-design">RBI per API 581</a>. 96% first-attempt pass rate, ASNT Level III-led. Pair with <a href="/api-510-certification">API 510 pressure vessel</a> for broader inspection authority. NDT companies running multi-cert teams use Atlantis NDT <a href="/best-ndt-reporting-software-2026">reporting software</a> to auto-generate API-format reports. Dubai, Houston, India, and online.',
   },
   {
     path: '/api-570-training',
@@ -812,7 +812,7 @@ const corePages = [
     title: 'API 653 Certification [2026]: Tank Inspector Exam — 10 Codes You Must Know',
     description: 'API 653 tank inspector exam requires 10 reference codes (API 650/651/653, ASME V/IX). Our guide covers exam format, cost ($3K-$6K), RBI formulas, and $80K-$130K+ salary path.',
     bodyH1: 'API 653 Aboveground Storage Tank Inspector Certification',
-    bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, RBI, tank inspection intervals, and NDT methods. consistently high exam pass rates.',
+    bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, <a href="/consulting/rbi-program-design">RBI</a>, tank inspection intervals, and NDT methods. 96% first-attempt pass rate, ASNT Level III-led prep. See our deep <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a>, pair with <a href="/api-510-certification">API 510 pressure vessel</a> or <a href="/api-570-certification">API 570 piping</a> for broader inspection authority, and layer Atlantis NDT <a href="/digital-twins/storage-tank">tank digital twin</a> for bottom-plate MFL + settlement overlays.',
   },
   {
     path: '/intelligent-reporting-software',
