@@ -9,6 +9,8 @@ export default function CrmErpForMalaysia() {
       industry="Malaysia inspection and engineering services"
       breadcrumbLabel="CRM ERP for Malaysia"
       trustBadge="DOSH / AELB / PETRONAS PTS / SIRIM ready"
+      countrySlug="malaysia"
+      countryLabel="Malaysia"
       metaDescription="Atlantis NDT ERP CRM for Malaysia — DOSH PMA certification, AELB radiography licensing, PETRONAS PTS standards, SIRIM QAS accreditation, MyInvois e-invoice. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CRM pre-configured for Malaysian inspection firms — DOSH (Department of Occupational Safety and Health) PMA certification tracking, AELB (Atomic Energy Licensing Board) radiography licensing, PETRONAS Technical Standards (PTS) awareness, SIRIM QAS accreditation, and MyInvois e-invoicing. Affordable, accessible, and fully customizable."
       whatItIs={[

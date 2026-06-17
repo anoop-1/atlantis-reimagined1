@@ -9,6 +9,8 @@ export default function InventoryManagementErpForUae() {
       industry="UAE inspection and industrial operations"
       breadcrumbLabel="Inventory Management for UAE"
       trustBadge="ADNOC AGES / FANR / FTA ready"
+      countrySlug="uae"
+      countryLabel="UAE"
       metaDescription="Atlantis NDT ERP Inventory Management for UAE — multi-warehouse ADNOC-aligned stock control, FANR radioactive-source tracking, FTA e-invoicing, bilingual Arabic/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for UAE — multi-warehouse stock control across ADNOC / ENOC / SNOC / EGA-aligned consumables, FANR radioactive-source chain-of-custody, FTA e-invoicing, bilingual Arabic/English UI, and EIAC/ENAS/DAC-aligned ISO 17025 calibration lot management. Affordable, accessible, and fully customizable."
       whatItIs={[

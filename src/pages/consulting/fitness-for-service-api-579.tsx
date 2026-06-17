@@ -7,6 +7,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import {
     Shield,
     Target,
@@ -99,7 +101,8 @@ export default function FitnessForServiceApi579() {
                 canonical="https://atlantisndt.com/consulting/fitness-for-service-api-579"
                 structuredData={structuredData}
             />
-            <Breadcrumbs />
+                  <TableOfContents items={[{ id: "overview", label: "FFS API 579 Overview" }, { id: "deliverables", label: "What We Deliver" }, { id: "methodology", label: "Methodology" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs />
 
             <section className="bg-gradient-to-br from-emerald-800 to-emerald-950 text-white pt-24 pb-16">
                 <div className="container mx-auto px-6">
@@ -278,8 +281,46 @@ export default function FitnessForServiceApi579() {
                     <Link to="/contact"><Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">Book a Consulting Call <ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 510 Pressure Vessel Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "Vessel FFS engagements",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 570 Piping Inspector Services",
+                    "href": "/consulting/api-570-piping-inspector-services",
+                    "description": "Piping FFS engagements",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 653 Tank Inspector Services",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "Tank FFS engagements",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Senior technical authority",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis NDT Digital Twin",
+                    "href": "/digital-twins",
+                    "description": "UT/PAUT 3D + API 579 FFS overlay",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Inspection Procedures Management",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Procedure depth for FFS assessments",
+                    "icon": "erp"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

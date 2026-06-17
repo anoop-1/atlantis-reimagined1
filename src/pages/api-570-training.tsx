@@ -8,6 +8,7 @@ import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 import ClusterNav from '@/components/ClusterNav';
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema570Training = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -165,8 +166,46 @@ export default function API570Training() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema570Training) }}
       />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 570 Certification Prep 2026",
+                    "href": "/api-570-certification",
+                    "description": "Piping inspector exam prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 510 Pressure Vessel Training",
+                    "href": "/api-510-training",
+                    "description": "Pressure vessel inspector prep",
+                    "icon": "training"
+              },
+              {
+                    "title": "API 653 Tank Inspector Training",
+                    "href": "/api-653-training",
+                    "description": "Storage tank inspector prep",
+                    "icon": "training"
+              },
+              {
+                    "title": "API 570 Piping Inspector Services",
+                    "href": "/consulting/api-570-piping-inspector-services",
+                    "description": "CUI + RBI program design",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Quality Management ERP",
+                    "href": "/erp/quality-management-for-ndt-companies",
+                    "description": "Affordable QMS for inspection firms",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Atlantis NDT Digital Twin",
+                    "href": "/digital-twins",
+                    "description": "UT/PAUT 3D overlay + FFS",
+                    "icon": "dt"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

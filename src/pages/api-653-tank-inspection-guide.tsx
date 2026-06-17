@@ -12,6 +12,7 @@ import ClusterNav from "@/components/ClusterNav";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import GetCertifiedCTA from "@/components/GetCertifiedCTA";
 const breadcrumbSchema653TankGuide = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -92,6 +93,7 @@ export default function API653TankInspectionGuide() {
         <QuickAnswerBox question="What is an API 653 tank inspection?" answer="An API 653 inspection is a code-mandated in-service evaluation of aboveground welded storage tanks. It includes external visual + UT thickness surveys at intervals up to 5 years, internal inspections every 10–20 years (extended via risk-based inspection per API 581), and out-of-service repairs per API 653 Part 9. Performed by an API 653 Authorized Inspector for refineries, terminals, and chemical plants." bullets={["External: visual + UT shell readings — interval up to 5 years","Internal: bottom plate MFL + shell UT — interval extended via RBI","Repair: NBIC + ASME PCC-2 — signed by Authorized Inspector"]} />
 
 
+      <GetCertifiedCTA cert="API 653" href="/api-653-certification" benefit="Authorized Tank Inspector" />
             {/* Hero */}
             <section className="bg-gradient-to-br from-amber-700 to-orange-800 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-4xl px-6">

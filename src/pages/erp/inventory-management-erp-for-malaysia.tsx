@@ -9,6 +9,8 @@ export default function InventoryManagementErpForMalaysia() {
       industry="Malaysia inspection and industrial operations"
       breadcrumbLabel="Inventory Management for Malaysia"
       trustBadge="DOSH / AELB / SIRIM / MyInvois ready"
+      countrySlug="malaysia"
+      countryLabel="Malaysia"
       metaDescription="Atlantis NDT ERP Inventory Management for Malaysia — multi-warehouse PETRONAS-aligned stock control, AELB radioactive-source tracking, MyInvois e-invoicing, bilingual Bahasa Melayu/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for Malaysia — multi-warehouse stock control across PETRONAS / MLNG / RAPID / Sarawak Petchem-aligned consumables, AELB radioactive-source chain-of-custody, LHDN MyInvois e-invoicing, bilingual Bahasa Melayu/English UI, and SIRIM QAS-aligned ISO 17025 calibration lot management. Affordable, accessible, and fully customizable."
       whatItIs={[

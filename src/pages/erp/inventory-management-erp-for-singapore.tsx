@@ -9,6 +9,8 @@ export default function InventoryManagementErpForSingapore() {
       industry="Singapore inspection and industrial operations"
       breadcrumbLabel="Inventory Management for Singapore"
       trustBadge="MOM / NEA / SAC-SINGLAS / InvoiceNow ready"
+      countrySlug="singapore"
+      countryLabel="Singapore"
       metaDescription="Atlantis NDT ERP Inventory Management for Singapore — multi-warehouse Jurong Island-aligned stock control, NEA radioactive-source tracking, InvoiceNow PEPPOL e-invoicing. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for Singapore — multi-warehouse stock control across ExxonMobil / Shell / PCS / Sembcorp / ST Engineering-aligned consumables, NEA RPNS radioactive-source chain-of-custody, InvoiceNow PEPPOL e-invoicing, and SAC-SINGLAS-aligned ISO 17025 calibration lot management. Affordable, accessible, and fully customizable."
       whatItIs={[

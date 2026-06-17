@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { Link } from 'react-router-dom';
 
 export default function ASNTLevelIIITraining() {
@@ -119,8 +120,46 @@ export default function ASNTLevelIIITraining() {
           </div>
         </div>
       </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III route + pass-rates",
+                    "icon": "cert"
+              },
+              {
+                    "title": "ASNT Level III Consulting Services",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 510 / 570 / 653 Certifications",
+                    "href": "/api-510-certification",
+                    "description": "Authorized inspector cert prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Inspection Procedures Management",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Author + version-control NDT procedures",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin for NDT Asset Integrity",
+                    "href": "/digital-twins",
+                    "description": "ASNT Level III-engineered platform",
+                    "icon": "dt"
+              },
+              {
+                    "title": "NDT Salary Guide 2026",
+                    "href": "/blog/ndt-salary-guide-2026-global",
+                    "description": "Level III salary breakdown",
+                    "icon": "blog"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

@@ -4,6 +4,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { BookOpen, Scale } from "lucide-react";
 
 type Row = { clause: string; requirement: string; twinSatisfies: string };
@@ -74,7 +76,8 @@ export default function DigitalTwinApiMapping() {
                 canonical="https://atlantisndt.com/digital-twin-api-510-570-580-mapping"
                 structuredData={structuredData}
             />
-            <Breadcrumbs />
+                  <TableOfContents items={[{ id: "overview", label: "Digital Twin API Mapping Overview" }, { id: "mapping", label: "API Mapping" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs />
 
             <section className="bg-gradient-to-br from-[#004aad] to-blue-800 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-6xl px-6">
@@ -172,8 +175,46 @@ export default function DigitalTwinApiMapping() {
                     </div>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "Digital Twin Platform Hub",
+                    "href": "/digital-twins",
+                    "description": "Atlantis DT platform features",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Digital Twin ROI Calculator",
+                    "href": "/digital-twin-roi-calculator",
+                    "description": "Worked examples",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Digital Twins NDT Guide 2026",
+                    "href": "/digital-twins-ndt-guide-2026",
+                    "description": "Implementation roadmap",
+                    "icon": "blog"
+              },
+              {
+                    "title": "API 510 / 570 / 653 Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "API code consulting",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "ERP + DT integration",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Senior technical authority",
+                    "icon": "consulting"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

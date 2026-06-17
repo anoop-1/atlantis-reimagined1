@@ -9,6 +9,8 @@ export default function AccountingErpForUae() {
       industry="UAE inspection and engineering services"
       breadcrumbLabel="Accounting ERP for UAE"
       trustBadge="FTA / WPS / AAOIFI / Corporate Tax ready"
+      countrySlug="uae"
+      countryLabel="UAE"
       metaDescription="Atlantis NDT ERP Accounting for UAE — FTA e-invoicing PEPPOL, IFRS / AAOIFI chart of accounts, VAT 5%, UAE Corporate Tax 9%, WPS (Wage Protection System), MoHRE compliance. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Accounting pre-configured for UAE — FTA (Federal Tax Authority) e-invoicing on PEPPOL-aligned UBL, IFRS chart of accounts with AAOIFI Islamic-finance overlay, VAT 5% standard / 0% exports / exempt residential / out-of-scope DZIT, UAE Corporate Tax 9% (introduced June 2023), and WPS (Wage Protection System) integration. Affordable, accessible, and fully customizable."
       whatItIs={[

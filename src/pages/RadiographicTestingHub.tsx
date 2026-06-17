@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
 import { AlertTriangle, CheckCircle, FileSearch, MapPin, ShieldAlert, Zap } from "lucide-react";
 
 const faqs = [
@@ -81,6 +82,7 @@ export default function RadiographicTestingHub() {
         structuredData={structuredData}
         faq={faqs}
       />
+            <TableOfContents items={[{ id: "overview", label: "Radiographic Testing Overview" }, { id: "applications", label: "Applications" }, { id: "certification", label: "Certification" }, { id: "faq", label: "FAQ" }]} />
       <Breadcrumbs />
 
       {/* HERO */}

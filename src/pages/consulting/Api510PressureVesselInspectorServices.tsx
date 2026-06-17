@@ -3,6 +3,8 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { CheckCircle, ArrowRight, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
@@ -29,7 +31,8 @@ export default function Api510PressureVesselInspectorServices() {
       />
       <Navigation />
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-6xl">
-        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Consulting", href: "/consulting" }, { label: "API 510 Pressure Vessel Inspector Services" }]} />
+              <TableOfContents items={[{ id: "overview", label: "API 510 Service Overview" }, { id: "deliverables", label: "What We Deliver" }, { id: "methodology", label: "Methodology" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Consulting", href: "/consulting" }, { label: "API 510 Pressure Vessel Inspector Services" }]} />
 
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">API 510 Pressure Vessel Inspector Services</h1>
@@ -85,6 +88,44 @@ export default function Api510PressureVesselInspectorServices() {
             ))}
           </div>
         </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 510 Certification Prep 2026",
+                    "href": "/api-510-certification",
+                    "description": "Pressure vessel inspector exam prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 570 Piping Inspector Services",
+                    "href": "/consulting/api-570-piping-inspector-services",
+                    "description": "Sister service line — piping",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 653 Tank Inspector Services",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "Sister service line — tanks",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Fitness for Service per API 579",
+                    "href": "/consulting/fitness-for-service-api-579",
+                    "description": "Defect FFS assessments",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Digital Twin for Pressure Vessels",
+                    "href": "/digital-twins/pressure-vessel",
+                    "description": "UT/PAUT overlay + API 579",
+                    "icon": "dt"
+              }
+        ]} />
 
         <ContactDetails />
       </main>

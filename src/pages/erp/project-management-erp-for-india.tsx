@@ -9,6 +9,8 @@ export default function ProjectManagementErpForIndia() {
       industry="India inspection projects and turnarounds"
       breadcrumbLabel="Project Management for India"
       trustBadge="PESO / AERB / OISD / IBR / ISNT ready"
+      countrySlug="india"
+      countryLabel="India"
       metaDescription="Atlantis NDT ERP Project Management for India — IOCL/HPCL/BPCL/Reliance turnaround scheduling, PESO Form XVI/XIV per project, AERB radiography per inspector, bilingual English/Hindi. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Project Management pre-configured for Indian inspection projects — IOCL / HPCL / BPCL / Reliance / Nayara / ONGC turnaround scheduling, PESO Form XVI/XIV statutory submission per project, AERB radiography licensing per inspector, and bilingual English/Hindi UI. Affordable, accessible, and fully customizable."
       whatItIs={[

@@ -6,6 +6,8 @@ import CustomerLogosBlock from "@/components/CustomerLogosBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { Building2, ArrowRight, Mail } from "lucide-react";
 
 const industries = [
@@ -45,6 +47,7 @@ export default function ErpIndustriesHub() {
         canonical={url}
         structuredData={structuredData}
       />
+            <TableOfContents items={[{ id: "overview", label: "ERP by Industry Overview" }, { id: "industries", label: "Industries Served" }, { id: "faq", label: "FAQ" }]} />
       <Breadcrumbs />
 
       <section className="bg-gradient-to-br from-blue-700 to-indigo-800 text-white pt-24 pb-16">
@@ -95,8 +98,46 @@ export default function ErpIndustriesHub() {
           </div>
         </div>
       </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "ERP Modules",
+                    "href": "/erp-modules",
+                    "description": "Full 35+ Odoo apps catalog",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "All-in-one product hub",
+                    "icon": "erp"
+              },
+              {
+                    "title": "NDT vs Generic ERP",
+                    "href": "/ndt-erp-vs-generic-erp",
+                    "description": "Why NDT-specific config wins",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 510 Pressure Vessel Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "Industry consulting",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "Asset integrity overlay",
+                    "icon": "dt"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

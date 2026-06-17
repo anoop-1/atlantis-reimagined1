@@ -9,6 +9,8 @@ export default function InventoryManagementErpForIndia() {
       industry="India inspection and industrial operations"
       breadcrumbLabel="Inventory Management for India"
       trustBadge="PESO / AERB / BIS / GST e-invoice ready"
+      countrySlug="india"
+      countryLabel="India"
       metaDescription="Atlantis NDT ERP Inventory Management for India — multi-warehouse IOCL/HPCL/BPCL/Reliance-aligned stock, AERB radioactive-source tracking, GST e-invoice IRN, bilingual English/Hindi. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for India — multi-warehouse stock control across IOCL / HPCL / BPCL / Reliance / Nayara / ONGC-aligned consumables, AERB radioactive-source chain-of-custody, GST e-invoice IRN, bilingual English/Hindi UI, and NABL-aligned ISO 17025 calibration lot management. Affordable, accessible, and fully customizable."
       whatItIs={[

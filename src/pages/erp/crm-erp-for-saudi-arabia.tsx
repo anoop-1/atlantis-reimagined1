@@ -9,6 +9,8 @@ export default function CrmErpForSaudiArabia() {
       industry="Saudi Arabia inspection and engineering services"
       breadcrumbLabel="CRM ERP for Saudi Arabia"
       trustBadge="SAEP-1112 / SACS-002 / NRRC ready"
+      countrySlug="saudi-arabia"
+      countryLabel="Saudi Arabia"
       metaDescription="Atlantis NDT ERP CRM for Saudi Arabia — Aramco SAEP-1112 qualification mapping, SACS-002 cybersecurity-aligned data residency, bilingual Arabic/English pipeline, Aramco APQS/VQIP vendor-portal evidence export. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CRM pre-configured for Saudi Arabian inspection firms — Aramco SAEP-1112-aware opportunity scoring, SACS-002 cybersecurity data residency, NRRC radiography licensing awareness, parallel Aramco / SABIC / SATORP / YASREF / Maaden pipeline tracking, and bilingual Arabic/English CRM output. Affordable, accessible, and fully customizable."
       whatItIs={[

@@ -9,6 +9,8 @@ export default function ProjectManagementErpForSaudiArabia() {
       industry="Saudi Arabia inspection projects and turnarounds"
       breadcrumbLabel="Project Management for Saudi Arabia"
       trustBadge="SAEP-1112 / Aramco / Vision 2030 ready"
+      countrySlug="saudi-arabia"
+      countryLabel="Saudi Arabia"
       metaDescription="Atlantis NDT ERP Project Management for Saudi Arabia — Aramco turnaround scheduling, SAEP-1112 inspector mobilization, Vision 2030 mega-project tagging, bilingual Arabic/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Project Management pre-configured for Saudi inspection projects — Aramco turnaround scheduling, SAEP-1112-aware inspector mobilization, Vision 2030 mega-project portfolio tracking (NEOM, Red Sea, Qiddiya, SPARK), and bilingual Arabic/English UI with Hijri/Gregorian dual dating. Affordable, accessible, and fully customizable."
       whatItIs={[

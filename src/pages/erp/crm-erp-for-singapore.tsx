@@ -9,6 +9,8 @@ export default function CrmErpForSingapore() {
       industry="Singapore inspection and engineering services"
       breadcrumbLabel="CRM ERP for Singapore"
       trustBadge="MOM CERT / NEA / SAC / BCA ready"
+      countrySlug="singapore"
+      countryLabel="Singapore"
       metaDescription="Atlantis NDT ERP CRM for Singapore — MOM CERT NDT-personnel certification, NEA Radiation Protection licensing, SAC ISO 17020/17025 accreditation, BCA building inspection, InvoiceNow PEPPOL e-invoice. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CRM pre-configured for Singapore inspection firms — MOM (Ministry of Manpower) CERT NDT-personnel certification, NEA (National Environment Agency) Radiation Protection licensing, SAC (Singapore Accreditation Council) ISO 17020/17025 accreditation, BCA-graded contractor status, and InvoiceNow PEPPOL e-invoicing. Affordable, accessible, and fully customizable."
       whatItIs={[

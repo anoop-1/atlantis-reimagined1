@@ -9,6 +9,8 @@ export default function InventoryManagementErpForSaudiArabia() {
       industry="Saudi Arabia inspection and industrial operations"
       breadcrumbLabel="Inventory Management for Saudi Arabia"
       trustBadge="SAEP-1112 / ZATCA / SAC ready"
+      countrySlug="saudi-arabia"
+      countryLabel="Saudi Arabia"
       metaDescription="Atlantis NDT ERP Inventory Management for Saudi Arabia — multi-warehouse Aramco/SABIC/RCJY-aligned stock control, NACE MR0175 consumables tracking, ZATCA e-invoicing, bilingual Arabic/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Inventory Management pre-configured for Saudi Arabia — multi-warehouse stock control across Aramco / SABIC / RCJY-aligned consumables, NACE MR0175 sour-service-grade material tracking, ZATCA Phase 2 e-invoicing, bilingual Arabic/English UI, and SAC-aligned ISO 17025 calibration lot management. Affordable, accessible, and fully customizable."
       whatItIs={[

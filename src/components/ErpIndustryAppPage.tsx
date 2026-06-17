@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 import { CheckCircle, Zap, ArrowRight, DollarSign, Globe, Shield, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import { buildLocalBusiness } from "@/data/city-profiles";
 
 export interface ErpIndustryAppPageProps {
   /** e.g. "CMMS for Aerospace Quality Control" */
@@ -35,10 +36,23 @@ export interface ErpIndustryAppPageProps {
   pricingNote?: string;
   /** Trust badge subtitle e.g. "ASNT / NAS 410 / NADCAP ready" */
   trustBadge?: string;
+  /** Country slug for LocalBusiness JSON-LD (e.g. "saudi-arabia") — emits country-level LocalBusiness when present */
+  countrySlug?: string;
+  /** Display country label e.g. "Saudi Arabia" — used for LocalBusiness city + country mapping */
+  countryLabel?: string;
 }
 
 export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
+
+  const lb = props.countrySlug && props.countryLabel
+    ? buildLocalBusiness(
+        props.countrySlug,
+        props.countryLabel,
+        props.countryLabel,
+        `Atlantis NDT ERP — ${props.appName}`,
+      )
+    : undefined;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
@@ -47,6 +61,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
         description={props.metaDescription}
         canonical={`/erp/${props.slug}`}
         faq={props.faqs}
+        localBusiness={lb}
       />
       <Navigation />
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-6xl">

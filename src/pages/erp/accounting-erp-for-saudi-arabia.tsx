@@ -9,6 +9,8 @@ export default function AccountingErpForSaudiArabia() {
       industry="Saudi Arabia inspection and engineering services"
       breadcrumbLabel="Accounting ERP for Saudi Arabia"
       trustBadge="ZATCA Phase 2 / SOCPA / GOSI ready"
+      countrySlug="saudi-arabia"
+      countryLabel="Saudi Arabia"
       metaDescription="Atlantis NDT ERP Accounting for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV, SOCPA-aligned chart of accounts, VAT 15% / WHT, GOSI / Mudad / Wage Protection. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Accounting pre-configured for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV encoding, SOCPA (Saudi Organization for Chartered Public Accountants)-aligned chart of accounts, VAT 15% / WHT (withholding tax), GOSI workforce reporting, and Mudad / Wage Protection System integration. Affordable, accessible, and fully customizable."
       whatItIs={[

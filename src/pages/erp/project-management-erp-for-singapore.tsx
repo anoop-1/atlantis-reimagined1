@@ -9,6 +9,8 @@ export default function ProjectManagementErpForSingapore() {
       industry="Singapore inspection projects and turnarounds"
       breadcrumbLabel="Project Management for Singapore"
       trustBadge="MOM CERT / NEA / SAC-SINGLAS / BCA ready"
+      countrySlug="singapore"
+      countryLabel="Singapore"
       metaDescription="Atlantis NDT ERP Project Management for Singapore — Jurong Island turnaround scheduling, MOM CERT per inspector, NEA RPNS radiography per project, InvoiceNow PEPPOL per invoice. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Project Management pre-configured for Singapore inspection projects — Jurong Island operator-tenant turnaround scheduling, MOM CERT inspector mobilization, NEA RPNS radiography per project, and IMDA InvoiceNow PEPPOL e-invoicing. Affordable, accessible, and fully customizable."
       whatItIs={[

@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+import TableOfContents from "@/components/TableOfContents";
 const faqs = [
     { question: "When is the next API 510 exam in 2026?", answer: "The next API 510 paper-based test (PBT) window in 2026 is the Q2 administration running May 5-23, 2026, with application deadlines closing approximately March 18, 2026 (about 7 weeks before the exam window opens). After that, candidates can target the Q3 window of August 4-22, 2026 (apply by June 17, 2026) or the Q4 window of November 3-21, 2026 (apply by September 16, 2026). API ICP also offers Computer-Based Testing (CBT) at Prometric centers with rolling monthly availability for candidates who need faster scheduling. Always verify final dates at api.org as API has historically adjusted windows by 1-2 weeks." },
     { question: "What is the API 570 exam schedule for 2026?", answer: "API 570 follows the same three paper-based windows as the rest of the ICP family in 2026: May 5-23, August 4-22, and November 3-21. Applications typically open 12-14 weeks before each window and close 6-8 weeks before. For the August 2026 window, plan to submit your application package (including experience verification and PSM-101 affidavit) by mid-June 2026. CBT delivery for API 570 is also available year-round at Prometric centers, though seat availability tightens within 30 days of popular windows. Results are released approximately 8-10 weeks after the close of each PBT window — expect August 2026 results in early November 2026." },
@@ -103,7 +104,8 @@ export default function API510570653ExamSchedule2026() {
                 canonical="https://atlantisndt.com/blog/api-510-570-653-exam-schedule-2026"
                 structuredData={structuredData}
             />
-            <Breadcrumbs />
+                  <TableOfContents items={[{ id: "overview", label: "API Exam Schedule 2026" }, { id: "api-510", label: "API 510 Dates" }, { id: "api-570", label: "API 570 Dates" }, { id: "api-653", label: "API 653 Dates" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs />
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-amber-700 to-orange-900 text-white pt-24 pb-16">

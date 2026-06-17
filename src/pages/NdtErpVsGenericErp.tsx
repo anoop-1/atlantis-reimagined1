@@ -7,6 +7,8 @@ import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { Link } from 'react-router-dom';
 
 export default function NdtErpVsGenericErp() {
@@ -83,7 +85,8 @@ export default function NdtErpVsGenericErp() {
         faq={faq}
       />
       <div className="container mx-auto px-6 pt-4">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'NDT ERP', href: '/ndt-erp-solution' }, { label: 'NDT ERP vs Generic ERP' }]} />
+              <TableOfContents items={[{ id: "overview", label: "NDT ERP vs Generic ERP" }, { id: "comparison", label: "Comparison Matrix" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'NDT ERP', href: '/ndt-erp-solution' }, { label: 'NDT ERP vs Generic ERP' }]} />
       </div>
 
       <motion.section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
@@ -339,8 +342,46 @@ export default function NdtErpVsGenericErp() {
           </div>
         </div>
       </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "All-in-one product hub",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ERP by Industry",
+                    "href": "/erp-industries",
+                    "description": "Industry-specific configurations",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ERP Modules",
+                    "href": "/erp-modules",
+                    "description": "Full 35+ Odoo apps catalog",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Best NDT Reporting Software 2026",
+                    "href": "/best-ndt-reporting-software-2026",
+                    "description": "Vendor comparison",
+                    "icon": "blog"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis Digital Twin",
+                    "href": "/digital-twins",
+                    "description": "Asset integrity overlay",
+                    "icon": "dt"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

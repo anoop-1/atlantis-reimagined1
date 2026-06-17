@@ -9,6 +9,8 @@ export default function AccountingErpForIndia() {
       industry="India inspection and engineering services"
       breadcrumbLabel="Accounting ERP for India"
       trustBadge="GST e-invoice IRN / TDS / TCS / MCA ready"
+      countrySlug="india"
+      countryLabel="India"
       metaDescription="Atlantis NDT ERP Accounting for India — GST e-invoice IRN via NIC IRP, TDS / TCS / PF / ESI / PT, Ind AS / Indian GAAP chart of accounts, MCA XBRL filing, bilingual English/Hindi. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Accounting pre-configured for India — GST e-invoice IRN via NIC IRP (Invoice Registration Portal), TDS / TCS / PF / ESI / Professional Tax auto-deduction, Ind AS / Indian GAAP chart of accounts, MCA XBRL filing, and bilingual English/Hindi UI. Affordable, accessible, and fully customizable."
       whatItIs={[

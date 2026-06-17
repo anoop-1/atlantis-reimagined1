@@ -9,6 +9,8 @@ export default function ProjectManagementErpForUae() {
       industry="UAE inspection projects and turnarounds"
       breadcrumbLabel="Project Management for UAE"
       trustBadge="ADNOC AGES / FANR / OSHAD ready"
+      countrySlug="uae"
+      countryLabel="UAE"
       metaDescription="Atlantis NDT ERP Project Management for UAE — ADNOC turnaround scheduling, AGES inspector mobilization, FANR radiography, OSHAD-SF HSE compliance, bilingual Arabic/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Project Management pre-configured for UAE inspection projects — ADNOC group turnaround scheduling, AGES (Asset Integrity Group Engineering Standards)-aware inspector mobilization, OSHAD-SF HSE compliance, and bilingual Arabic/English UI. Affordable, accessible, and fully customizable."
       whatItIs={[

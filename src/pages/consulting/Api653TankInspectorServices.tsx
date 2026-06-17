@@ -7,6 +7,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import {
     Shield,
     CheckCircle,
@@ -114,7 +116,8 @@ export default function Api653TankInspectorServices() {
                 canonical="https://atlantisndt.com/consulting/api-653-tank-inspector-services"
                 structuredData={structuredData}
             />
-            <Breadcrumbs />
+                  <TableOfContents items={[{ id: "overview", label: "API 653 Service Overview" }, { id: "deliverables", label: "What We Deliver" }, { id: "methodology", label: "Methodology" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs />
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-slate-800 to-slate-950 text-white pt-24 pb-16">
@@ -352,8 +355,46 @@ export default function Api653TankInspectorServices() {
                     </Link>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 653 Certification Prep 2026",
+                    "href": "/api-653-certification",
+                    "description": "Tank inspector exam prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 510 Pressure Vessel Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "Sister service line — vessels",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 570 Piping Inspector Services",
+                    "href": "/consulting/api-570-piping-inspector-services",
+                    "description": "Sister service line — piping",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Fitness for Service per API 579",
+                    "href": "/consulting/fitness-for-service-api-579",
+                    "description": "Tank settlement + bottom FFS",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Digital Twin for Storage Tanks",
+                    "href": "/digital-twins/storage-tank",
+                    "description": "Bottom-plate corrosion overlay",
+                    "icon": "dt"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

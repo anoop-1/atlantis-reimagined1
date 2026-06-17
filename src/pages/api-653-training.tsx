@@ -8,6 +8,7 @@ import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 import ClusterNav from '@/components/ClusterNav';
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema653Training = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -135,8 +136,46 @@ export default function API653Training() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema653Training) }}
       />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 653 Certification Prep 2026",
+                    "href": "/api-653-certification",
+                    "description": "Tank inspector exam prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 510 Pressure Vessel Training",
+                    "href": "/api-510-training",
+                    "description": "Pressure vessel inspector prep",
+                    "icon": "training"
+              },
+              {
+                    "title": "API 570 Piping Inspector Training",
+                    "href": "/api-570-training",
+                    "description": "Process piping inspector prep",
+                    "icon": "training"
+              },
+              {
+                    "title": "API 653 Tank Inspector Services",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "Bottom-plate RBI + settlement FFS",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Asset Management for Tank Farms",
+                    "href": "/erp/cmms-for-inspection-companies",
+                    "description": "Tank interval tracking + RBI integration",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin for Storage Tanks",
+                    "href": "/digital-twins/storage-tank",
+                    "description": "Bottom-plate corrosion overlay",
+                    "icon": "dt"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

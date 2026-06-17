@@ -7,6 +7,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import {
     Shield,
     CheckCircle,
@@ -120,7 +122,8 @@ export default function AsntLevelIiiConsultingServices() {
                 canonical="https://atlantisndt.com/consulting/asnt-level-iii-consulting-services"
                 structuredData={structuredData}
             />
-            <Breadcrumbs />
+                  <TableOfContents items={[{ id: "overview", label: "ASNT Level III Service Overview" }, { id: "deliverables", label: "What We Deliver" }, { id: "methodology", label: "Methodology" }, { id: "case-studies", label: "Case Studies" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs />
 
             {/* Hero */}
             <section className="bg-gradient-to-br from-slate-800 to-slate-950 text-white pt-24 pb-16">
@@ -358,8 +361,46 @@ export default function AsntLevelIiiConsultingServices() {
                     </Link>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 510 Pressure Vessel Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "In-service vessel programs + RBI",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 570 Piping Inspector Services",
+                    "href": "/consulting/api-570-piping-inspector-services",
+                    "description": "CUI + RBI program design",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "API 653 Tank Inspector Services",
+                    "href": "/consulting/api-653-tank-inspector-services",
+                    "description": "Bottom-plate RBI + FFS",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Fitness for Service per API 579",
+                    "href": "/consulting/fitness-for-service-api-579",
+                    "description": "Level 1/2/3 FFS assessments",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Inspection Procedures Management",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Procedure version-control + approval",
+                    "icon": "erp"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

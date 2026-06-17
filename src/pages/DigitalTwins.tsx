@@ -35,6 +35,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 
 const URL = "https://atlantisndt.com/digital-twins";
@@ -471,7 +473,8 @@ export default function DigitalTwins() {
             structuredData={structuredData}
          />
          <Navigation />
-        <QuickAnswerBox question="What is a digital twin for NDT and asset integrity?" answer="A digital twin for NDT is a 3D model of an asset (refinery vessel, pipeline, FPSO, heat exchanger) overlaid with live inspection data — UT thickness readings, PAUT scans, corrosion rates, weld inspection results. It runs API 581 RBI calculations, API 579 fitness-for-service evaluations, and generates audit-ready evidence packs. Affordable, accessible, fully customizable." bullets={["Overlays UT/PAUT/TOFD scan data on 3D asset geometry","Runs API 579 FFS and API 581 RBI workflows in real time","Exports audit packs for insurer, regulator, and Jurisdictional inspector review"]} />
+              <TableOfContents items={[{ id: "overview", label: "Digital Twin Platform Overview" }, { id: "use-cases", label: "Use Cases" }, { id: "integrations", label: "Integrations" }, { id: "faq", label: "FAQ" }]} />
+      <QuickAnswerBox question="What is a digital twin for NDT and asset integrity?" answer="A digital twin for NDT is a 3D model of an asset (refinery vessel, pipeline, FPSO, heat exchanger) overlaid with live inspection data — UT thickness readings, PAUT scans, corrosion rates, weld inspection results. It runs API 581 RBI calculations, API 579 fitness-for-service evaluations, and generates audit-ready evidence packs. Affordable, accessible, fully customizable." bullets={["Overlays UT/PAUT/TOFD scan data on 3D asset geometry","Runs API 579 FFS and API 581 RBI workflows in real time","Exports audit packs for insurer, regulator, and Jurisdictional inspector review"]} />
 
 
          <div className="w-full min-h-screen flex flex-col bg-white">
@@ -1084,8 +1087,46 @@ export default function DigitalTwins() {
                     />
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "Digital Twin ROI Calculator",
+                    "href": "/digital-twin-roi-calculator",
+                    "description": "Worked refinery/FPSO/pipeline examples",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Digital Twin Readiness Quiz",
+                    "href": "/digital-twin-readiness-quiz",
+                    "description": "5-minute maturity assessment",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Digital Twins NDT Guide 2026",
+                    "href": "/digital-twins-ndt-guide-2026",
+                    "description": "Implementation roadmap",
+                    "icon": "blog"
+              },
+              {
+                    "title": "API 510 / 570 / 653 Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "FFS + RBI consulting",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "Inspection workflow + reporting",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "Level I/II/III prep",
+                    "icon": "cert"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
          </div>
       </>
    );

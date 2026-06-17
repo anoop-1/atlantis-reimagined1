@@ -9,6 +9,8 @@ export default function CmmsForIndia() {
       industry="India industrial maintenance operations"
       breadcrumbLabel="CMMS for India"
       trustBadge="PESO / AERB / IBR / OISD / BIS ready"
+      countrySlug="india"
+      countryLabel="India"
       metaDescription="Atlantis NDT ERP CMMS for India — PESO Form XVI/XIV submission, AERB radiography, IBR boiler regulations, OISD-141 asset integrity, BIS IS 2825 pressure vessels. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Indian industrial-maintenance operations — PESO Form XVI/XIV submission, AERB (Atomic Energy Regulatory Board) radiography licensing, IBR (Indian Boiler Regulations) 1950, OISD-141 asset-integrity, BIS IS 2825 pressure-vessel codes, and bilingual English/Hindi asset registers. Affordable, accessible, and fully customizable."
       whatItIs={[

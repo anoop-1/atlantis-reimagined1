@@ -6,6 +6,8 @@ import CustomerLogosBlock from "@/components/CustomerLogosBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { Package, ArrowRight, Mail } from "lucide-react";
 
 const modules = [
@@ -44,6 +46,7 @@ export default function ErpModulesHub() {
         canonical={url}
         structuredData={structuredData}
       />
+            <TableOfContents items={[{ id: "overview", label: "ERP Modules Overview" }, { id: "modules", label: "Module Catalog" }, { id: "faq", label: "FAQ" }]} />
       <Breadcrumbs />
 
       <section className="bg-gradient-to-br from-blue-700 to-indigo-800 text-white pt-24 pb-16">
@@ -111,8 +114,46 @@ export default function ErpModulesHub() {
       </section>
 
       <CustomerLogosBlock />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "ERP by Industry",
+                    "href": "/erp-industries",
+                    "description": "Industry-specific configurations",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "All-in-one product hub",
+                    "icon": "erp"
+              },
+              {
+                    "title": "NDT vs Generic ERP",
+                    "href": "/ndt-erp-vs-generic-erp",
+                    "description": "Why NDT-specific config wins",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Best NDT Reporting Software 2026",
+                    "href": "/best-ndt-reporting-software-2026",
+                    "description": "Vendor comparison",
+                    "icon": "blog"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "Asset integrity overlay",
+                    "icon": "dt"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

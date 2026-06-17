@@ -9,6 +9,8 @@ export default function AccountingErpForMalaysia() {
       industry="Malaysia inspection and engineering services"
       breadcrumbLabel="Accounting ERP for Malaysia"
       trustBadge="LHDN MyInvois / SST / MFRS / EPF / SOCSO ready"
+      countrySlug="malaysia"
+      countryLabel="Malaysia"
       metaDescription="Atlantis NDT ERP Accounting for Malaysia — LHDN MyInvois e-invoicing, SST 8%, MFRS chart of accounts, EPF (KWSP) / SOCSO / EIS / PCB auto-calc, bilingual Bahasa Melayu/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Accounting pre-configured for Malaysia — LHDN MyInvois e-invoicing, SST 8% (Sales and Service Tax), MFRS (Malaysian Financial Reporting Standards) chart of accounts, EPF (KWSP) / SOCSO (PERKESO) / EIS / PCB auto-calculation, and bilingual Bahasa Melayu/English invoices. Affordable, accessible, and fully customizable."
       whatItIs={[

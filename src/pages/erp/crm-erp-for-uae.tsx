@@ -9,6 +9,8 @@ export default function CrmErpForUae() {
       industry="UAE inspection and engineering services"
       breadcrumbLabel="CRM ERP for UAE"
       trustBadge="ADNOC AGES / FANR / OSHAD ready"
+      countrySlug="uae"
+      countryLabel="UAE"
       metaDescription="Atlantis NDT ERP CRM for UAE — ADNOC AGES qualification mapping, FANR radiography licensing, OSHAD-SF HSE compliance, EIAC/ENAS accreditation tracking, bilingual Arabic/English pipeline. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CRM pre-configured for UAE inspection firms — ADNOC AGES (Asset Integrity Group Engineering Standards) opportunity scoring, FANR radiography licensing awareness, OSHAD-SF HSE framework alignment, EIAC / ENAS / DAC accreditation tracking, and bilingual Arabic/English CRM output. Affordable, accessible, and fully customizable."
       whatItIs={[

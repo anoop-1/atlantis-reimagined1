@@ -9,6 +9,8 @@ export default function AccountingErpForSingapore() {
       industry="Singapore inspection and engineering services"
       breadcrumbLabel="Accounting ERP for Singapore"
       trustBadge="InvoiceNow PEPPOL / GST / IRAS / CPF ready"
+      countrySlug="singapore"
+      countryLabel="Singapore"
       metaDescription="Atlantis NDT ERP Accounting for Singapore — IMDA InvoiceNow PEPPOL e-invoicing, GST 9%, SFRS chart of accounts, CPF / SDL / FWL auto-calc, IRAS e-filing. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Accounting pre-configured for Singapore — IMDA InvoiceNow PEPPOL e-invoicing (mandatory November 2025 Phase 2), GST 9% (raised from 8% effective January 2024), SFRS (Singapore Financial Reporting Standards) / SFRS(I) chart of accounts, and CPF / SDL / FWL auto-calculation. Affordable, accessible, and fully customizable."
       whatItIs={[

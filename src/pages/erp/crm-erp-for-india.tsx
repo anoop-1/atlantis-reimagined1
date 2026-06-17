@@ -9,6 +9,8 @@ export default function CrmErpForIndia() {
       industry="India inspection and engineering services"
       breadcrumbLabel="CRM ERP for India"
       trustBadge="PESO / AERB / ISNT / BIS / OISD ready"
+      countrySlug="india"
+      countryLabel="India"
       metaDescription="Atlantis NDT ERP CRM for India — PESO Form XVI/XIV submission, AERB radiography licensing, ISNT/ASNT/PCN parallel certification, GST e-invoice IRN, bilingual English/Hindi pipeline. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CRM pre-configured for Indian inspection firms — PESO (Petroleum and Explosives Safety Organisation) Form XVI/XIV statutory submission, AERB (Atomic Energy Regulatory Board) radiography licensing, ISNT/ASNT/PCN parallel certification tracking, OISD asset-integrity awareness, and GST e-invoice IRN integration. Affordable, accessible, and fully customizable."
       whatItIs={[

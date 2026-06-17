@@ -9,6 +9,8 @@ export default function CmmsForUae() {
       industry="UAE industrial maintenance operations"
       breadcrumbLabel="CMMS for UAE"
       trustBadge="ADNOC AGES / FANR / OSHAD ready"
+      countrySlug="uae"
+      countryLabel="UAE"
       metaDescription="Atlantis NDT ERP CMMS for UAE — ADNOC AGES asset-integrity, FANR radiography licensing, OSHAD-SF HSE, EIAC/ENAS accreditation, bilingual Arabic/English asset registers. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CMMS pre-configured for UAE industrial-maintenance operations — ADNOC AGES (Asset Integrity Group Engineering Standards) RBI / damage-mechanism management, FANR radiography licensing, OSHAD-SF HSE compliance, and bilingual Arabic/English asset registers. Affordable, accessible, and fully customizable."
       whatItIs={[

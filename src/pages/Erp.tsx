@@ -16,6 +16,8 @@ import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
 
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 export default function Erp() {
    const modules = [
       {
@@ -142,7 +144,8 @@ export default function Erp() {
    return (
       <div className="min-h-screen pt-20">
          <Navigation />
-        <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Operator portal integrations: Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld"]} />
+              <TableOfContents items={[{ id: "overview", label: "Atlantis NDT ERP Overview" }, { id: "modules", label: "Modules" }, { id: "industries", label: "Industries" }, { id: "faq", label: "FAQ" }]} />
+      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Operator portal integrations: Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld"]} />
 
          <SEOHead
             title="Affordable ERP — Fully Customizable, All 30+ Odoo Apps Included"
@@ -319,7 +322,46 @@ export default function Erp() {
          </section>
 
          {/* Contact / Footer Details */}
-         <ContactDetails />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "ERP by Industry",
+                    "href": "/erp-industries",
+                    "description": "Industry-specific configurations",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ERP Modules",
+                    "href": "/erp-modules",
+                    "description": "Full 35+ Odoo apps catalog",
+                    "icon": "erp"
+              },
+              {
+                    "title": "NDT vs Generic ERP",
+                    "href": "/ndt-erp-vs-generic-erp",
+                    "description": "Why NDT-specific config wins",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Best NDT Reporting Software 2026",
+                    "href": "/best-ndt-reporting-software-2026",
+                    "description": "Vendor comparison",
+                    "icon": "blog"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis Digital Twin Platform",
+                    "href": "/digital-twins",
+                    "description": "Asset integrity overlay",
+                    "icon": "dt"
+              }
+        ]} />
+
+        <ContactDetails />
       </div>
    );
 }

@@ -9,6 +9,8 @@ export default function CmmsForMalaysia() {
       industry="Malaysia industrial maintenance operations"
       breadcrumbLabel="CMMS for Malaysia"
       trustBadge="DOSH / AELB / PETRONAS PTS / SIRIM ready"
+      countrySlug="malaysia"
+      countryLabel="Malaysia"
       metaDescription="Atlantis NDT ERP CMMS for Malaysia — DOSH PMA certification, AELB radiography, PETRONAS PTS standards, SIRIM QAS accreditation, bilingual Bahasa Melayu/English asset registers. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Malaysian industrial-maintenance operations — DOSH PMA (Person-in-Charge for Pressure Vessels) certification, AELB Class A/B/C radiography licensing, PETRONAS Technical Standards (PTS) compliance, and bilingual Bahasa Melayu/English asset registers. Affordable, accessible, and fully customizable."
       whatItIs={[

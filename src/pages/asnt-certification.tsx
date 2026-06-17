@@ -9,6 +9,7 @@ import { CheckCircle, Award, Clock, DollarSign, Users, FileText } from "lucide-r
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import TableOfContents from "@/components/TableOfContents";
 import { buildTechArticleSchema } from "@/data/author-schema";
 
 const levels = [
@@ -128,7 +129,8 @@ export default function ASNTCertification() {
                 faq={faqs}
             />
             <Breadcrumbs />
-        <QuickAnswerBox question="How do you get ASNT certified in 2026?" answer="ASNT certification is employer-administered under SNT-TC-1A or centrally administered under ANSI/ASNT CP-189 / ACCP. You qualify at Level I, II, or III in each NDT method (UT, RT, MT, PT, ET, VT) by combining classroom training hours, on-the-job experience, a vision test, and a written + practical examination. Level III is the senior technical authority — set procedures, approve personnel, sign reports." bullets={["Level I: 40 hrs training + 210-1,200 hrs experience per method","Level II: 40+ additional training hrs + 630-3,600 hrs experience","Level III: Method-specific exam + 4 yrs experience (or degree + 1 yr)"]} />
+              <TableOfContents items={[{ id: "overview", label: "ASNT Certification Overview" }, { id: "levels", label: "Level I / II / III Requirements" }, { id: "methods", label: "NDT Methods Covered" }, { id: "training", label: "Training Path & Pass Rates" }, { id: "faq", label: "FAQ" }]} />
+      <QuickAnswerBox question="How do you get ASNT certified in 2026?" answer="ASNT certification is employer-administered under SNT-TC-1A or centrally administered under ANSI/ASNT CP-189 / ACCP. You qualify at Level I, II, or III in each NDT method (UT, RT, MT, PT, ET, VT) by combining classroom training hours, on-the-job experience, a vision test, and a written + practical examination. Level III is the senior technical authority — set procedures, approve personnel, sign reports." bullets={["Level I: 40 hrs training + 210-1,200 hrs experience per method","Level II: 40+ additional training hrs + 630-3,600 hrs experience","Level III: Method-specific exam + 4 yrs experience (or degree + 1 yr)"]} />
 
 
             <section className="bg-gradient-to-br from-[#004aad] to-blue-800 text-white pt-24 pb-16">

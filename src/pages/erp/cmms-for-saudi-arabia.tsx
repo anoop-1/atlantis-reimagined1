@@ -9,6 +9,8 @@ export default function CmmsForSaudiArabia() {
       industry="Saudi Arabia industrial maintenance operations"
       breadcrumbLabel="CMMS for Saudi Arabia"
       trustBadge="SAEP-1112 / Aramco AIM / NACE MR0175 ready"
+      countrySlug="saudi-arabia"
+      countryLabel="Saudi Arabia"
       metaDescription="Atlantis NDT ERP CMMS for Saudi Arabia — Aramco SAEP-1119 RBI, NACE MR0175 sour-service, SAC-002 cybersecurity data residency, bilingual Arabic/English asset registers. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Saudi Arabia industrial-maintenance operations — Saudi Aramco SAEP-1119 RBI / damage-mechanism management, NACE MR0175 sour-service tracking, SACS-002 cybersecurity data residency, and bilingual Arabic/English asset registers. Affordable, accessible, and fully customizable."
       whatItIs={[

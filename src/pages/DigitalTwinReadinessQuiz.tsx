@@ -5,6 +5,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { ClipboardCheck, RefreshCcw } from "lucide-react";
 
 type Answer = { label: string; score: number };
@@ -162,7 +164,8 @@ export default function DigitalTwinReadinessQuiz() {
                 canonical="https://atlantisndt.com/digital-twin-readiness-quiz"
                 structuredData={structuredData}
             />
-            <Breadcrumbs />
+                  <TableOfContents items={[{ id: "overview", label: "Digital Twin Readiness Quiz Overview" }, { id: "quiz", label: "Take the Quiz" }, { id: "faq", label: "FAQ" }]} />
+      <Breadcrumbs />
 
             <section className="bg-gradient-to-br from-[#004aad] to-blue-800 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-4xl px-6">
@@ -238,8 +241,46 @@ export default function DigitalTwinReadinessQuiz() {
                     </div>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "Digital Twin Platform Hub",
+                    "href": "/digital-twins",
+                    "description": "Atlantis DT platform features",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Digital Twin ROI Calculator",
+                    "href": "/digital-twin-roi-calculator",
+                    "description": "Worked examples",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Digital Twins NDT Guide 2026",
+                    "href": "/digital-twins-ndt-guide-2026",
+                    "description": "Implementation roadmap",
+                    "icon": "blog"
+              },
+              {
+                    "title": "Fitness for Service per API 579",
+                    "href": "/consulting/fitness-for-service-api-579",
+                    "description": "DT-FFS workflows",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "ERP + DT integration",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Senior technical authority",
+                    "icon": "consulting"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }

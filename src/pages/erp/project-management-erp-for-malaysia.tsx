@@ -9,6 +9,8 @@ export default function ProjectManagementErpForMalaysia() {
       industry="Malaysia inspection projects and turnarounds"
       breadcrumbLabel="Project Management for Malaysia"
       trustBadge="DOSH / AELB / PETRONAS PTS / SIRIM ready"
+      countrySlug="malaysia"
+      countryLabel="Malaysia"
       metaDescription="Atlantis NDT ERP Project Management for Malaysia — PETRONAS / MLNG / RAPID turnaround scheduling, DOSH PMA per inspector, JKKP Form JKKP-G per project, bilingual Bahasa Melayu/English. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP Project Management pre-configured for Malaysian inspection projects — PETRONAS / MLNG / RAPID turnaround scheduling, DOSH PMA inspector mobilization, JKKP Form JKKP-G statutory submission per project, and bilingual Bahasa Melayu/English UI. Affordable, accessible, and fully customizable."
       whatItIs={[

@@ -9,6 +9,8 @@ export default function CmmsForSingapore() {
       industry="Singapore industrial maintenance operations"
       breadcrumbLabel="CMMS for Singapore"
       trustBadge="MOM CERT / NEA / SAC-SINGLAS / BCA ready"
+      countrySlug="singapore"
+      countryLabel="Singapore"
       metaDescription="Atlantis NDT ERP CMMS for Singapore — MOM CERT NDT certification, NEA RPNS radiography, SAC-SINGLAS accreditation, BCA-graded contractor, InvoiceNow PEPPOL. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Singapore industrial-maintenance operations — MOM CERT NDT-personnel certification, NEA RPNS (Radiation Protection and Nuclear Safety) radiography licensing, SAC-SINGLAS ISO 17020/17025 accreditation, and English / multilingual asset registers. Affordable, accessible, and fully customizable."
       whatItIs={[

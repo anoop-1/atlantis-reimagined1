@@ -9,6 +9,7 @@ import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 import ClusterNav from '@/components/ClusterNav';
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const breadcrumbSchema510Training = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -434,8 +435,46 @@ export default function API510Training() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema510Training) }}
       />
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "API 510 Certification Prep 2026",
+                    "href": "/api-510-certification",
+                    "description": "Practice questions + ASNT Level III-led prep",
+                    "icon": "cert"
+              },
+              {
+                    "title": "API 570 Piping Inspector Training",
+                    "href": "/api-570-training",
+                    "description": "Process piping inspection prep",
+                    "icon": "training"
+              },
+              {
+                    "title": "API 653 Tank Inspector Training",
+                    "href": "/api-653-training",
+                    "description": "Aboveground storage tank prep",
+                    "icon": "training"
+              },
+              {
+                    "title": "API 510 Pressure Vessel Inspector Services",
+                    "href": "/consulting/api-510-pressure-vessel-inspector-services",
+                    "description": "Outsourced inspector-of-record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "CMMS for Inspection Companies",
+                    "href": "/erp/cmms-for-inspection-companies",
+                    "description": "Cert tracking + interval automation",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Digital Twin for Asset Integrity",
+                    "href": "/digital-twins",
+                    "description": "API 579 FFS + RBI per API 581",
+                    "icon": "dt"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

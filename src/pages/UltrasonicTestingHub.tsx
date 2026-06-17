@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
 import { Activity, CheckCircle, MapPin, Settings, ShieldCheck, Waves } from "lucide-react";
 
 const faqs = [
@@ -91,6 +92,7 @@ export default function UltrasonicTestingHub() {
         structuredData={structuredData}
         faq={faqs}
       />
+            <TableOfContents items={[{ id: "overview", label: "Ultrasonic Testing Overview" }, { id: "applications", label: "Applications" }, { id: "certification", label: "Certification" }, { id: "faq", label: "FAQ" }]} />
       <Breadcrumbs />
 
       {/* HERO */}

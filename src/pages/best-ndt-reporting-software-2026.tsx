@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, FileText, Star, AlertCircle, ArrowRight, Database, Cog, Shield } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TableOfContents from "@/components/TableOfContents";
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 
 const URL = "https://atlantisndt.com/best-ndt-reporting-software-2026";
@@ -364,6 +366,7 @@ export default function BestNDTReportingSoftware2026() {
         canonical={URL}
         structuredData={structuredData}
       />
+            <TableOfContents items={[{ id: "overview", label: "Best NDT Reporting Software 2026" }, { id: "comparison", label: "Vendor Comparison" }, { id: "criteria", label: "Selection Criteria" }, { id: "faq", label: "FAQ" }]} />
       <Breadcrumbs />
 
       <section className="bg-gradient-to-br from-slate-900 to-primary text-white pt-24 pb-16">
@@ -599,8 +602,46 @@ export default function BestNDTReportingSoftware2026() {
           </section>
         </div>
       </article>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "Atlantis NDT ERP Hub",
+                    "href": "/erp",
+                    "description": "All-in-one Odoo-based platform",
+                    "icon": "erp"
+              },
+              {
+                    "title": "NDT Reports Software",
+                    "href": "/erp/ndt-reports-software-for-inspection-companies",
+                    "description": "1-click report generation",
+                    "icon": "erp"
+              },
+              {
+                    "title": "Inspection Procedures Management",
+                    "href": "/erp/inspection-procedures-management-software",
+                    "description": "Procedure version-control",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Outsourced Level III of record",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Atlantis Digital Twin",
+                    "href": "/digital-twins",
+                    "description": "API 579 FFS + UT/PAUT overlay",
+                    "icon": "dt"
+              },
+              {
+                    "title": "NDT Salary Guide 2026",
+                    "href": "/blog/ndt-salary-guide-2026-global",
+                    "description": "Industry salary data",
+                    "icon": "blog"
+              }
+        ]} />
 
-      <ContactDetails />
+        <ContactDetails />
     </div>
   );
 }

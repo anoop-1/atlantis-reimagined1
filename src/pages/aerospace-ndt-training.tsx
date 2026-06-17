@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Award, GraduationCap, Plane, Factory, Gauge, Clock, Users } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const courses = [
     { name: "Ultrasonic Testing (UT)", levels: "Level I, II, III", duration: "40-80 hours", focus: "Composite inspection, bonding" },
     { name: "Radiographic Testing (RT)", levels: "Level I, II, III", duration: "40-80 hours", focus: "Weld and casting inspection" },
@@ -117,8 +118,46 @@ export default function AerospaceNDTTraining() {
                     <Link to="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition">Enroll Now</Link>
                 </div>
             </section>
+        <RelatedGuidesBlock links={[
+              {
+                    "title": "ASNT Certification Path",
+                    "href": "/asnt-certification",
+                    "description": "NAS 410 + SNT-TC-1A alignment",
+                    "icon": "cert"
+              },
+              {
+                    "title": "Aerospace Corporate Training",
+                    "href": "/corporate-training/aerospace",
+                    "description": "NADCAP AC7114-aligned programs",
+                    "icon": "training"
+              },
+              {
+                    "title": "Aerospace Quality Control ERP",
+                    "href": "/erp/quality-management-for-ndt-companies",
+                    "description": "Nadcap-ready QMS",
+                    "icon": "erp"
+              },
+              {
+                    "title": "ASNT Level III Consulting",
+                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "description": "Aerospace MRO audit-defence",
+                    "icon": "consulting"
+              },
+              {
+                    "title": "Digital Twin for Aerospace",
+                    "href": "/digital-twins",
+                    "description": "UT/PAUT 3D + NAS 410 traceability",
+                    "icon": "dt"
+              },
+              {
+                    "title": "Eddy Current Testing Guide",
+                    "href": "/blog/eddy-current-testing-complete-guide",
+                    "description": "ET method deep-dive",
+                    "icon": "blog"
+              }
+        ]} />
 
-            <ContactDetails />
+        <ContactDetails />
         </div>
     );
 }
