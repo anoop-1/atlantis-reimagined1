@@ -195,7 +195,7 @@ export default function API653Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-amber-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification Training</h1>
-        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        {/* INLINE_PROOF_INJECTED_v1 */}
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
           <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
           {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">See the API 653 schedule →</a>

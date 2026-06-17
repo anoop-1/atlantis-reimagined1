@@ -150,7 +150,7 @@ export default function NDTSalaryGuide2026() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="text-green-200 mb-4">Salary Guide • March 2026 • 16 min read</div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Salary Guide 2026: Global Compensation by Level & Method</h1>
-        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        {/* INLINE_PROOF_INJECTED_v1 */}
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
           <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
           {' '}<a href="/asnt-certification" className="text-primary underline underline-offset-2 hover:opacity-80">See your cert pathway →</a>

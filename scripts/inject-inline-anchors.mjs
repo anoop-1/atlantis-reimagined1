@@ -102,7 +102,10 @@ function injectAnchors(src, anchors) {
   let totalWrapped = 0;
   for (const a of anchors) {
     let count = 0;
-    const phraseRe = new RegExp(`(>[^<]*?)\\b(${escapeRegExp(a.phrase)})\\b([^<]*?<)`, 'g');
+    // Hardened regex: NO newlines in pre/post (prevents spans across object-literal
+    // string properties that don't contain real JSX). Also rejects matches inside
+    // double-quoted strings or JSX expression containers.
+    const phraseRe = new RegExp(`(>[^<\\n"{}]*?)\\b(${escapeRegExp(a.phrase)})\\b([^<\\n"{}]*?<)`, 'g');
     src = src.replace(phraseRe, (m, pre, mid, post) => {
       if (count >= a.max) return m;
       if (pre.includes('<a ') || pre.includes('href=') || pre.includes('className=')) return m;
@@ -115,14 +118,15 @@ function injectAnchors(src, anchors) {
 }
 
 function injectProofLine(src, href, label) {
-  if (src.includes(PROOF_MARKER)) return null;
+  if (src.includes('INLINE_PROOF_INJECTED_v1')) return null;
   if (!/<h1[\s>]/.test(src)) return null;
-  // Match the first </h1> tag and insert proof line right after it
+  // Match the first </h1> tag and insert proof line right after it.
+  // JSX comments wrap content with {/* */} — DO NOT nest /* */ inside that.
   let inserted = false;
   const out = src.replace(/(<\/h1>)/, (m) => {
     if (inserted) return m;
     inserted = true;
-    return `${m}\n        {/* ${PROOF_MARKER} */}${PROOF_LINE(href, label)}`;
+    return `${m}\n        {/* INLINE_PROOF_INJECTED_v1 */}${PROOF_LINE(href, label)}`;
   });
   return inserted ? out : null;
 }

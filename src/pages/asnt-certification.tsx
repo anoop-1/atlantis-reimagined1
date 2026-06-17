@@ -101,7 +101,7 @@ export default function ASNTCertification() {
                 "credentialCategory": "Professional Certification",
                 "educationalLevel": "Professional",
                 "recognizedBy": { "@type": "Organization", "name": "American Society for Nondestructive Testing", "url": "https://www.asnt.org" },
-                "competencyRequired": "Training hours and experience per <a href="/blog/asnt-snt-tc-1a-certification-requirements" className="text-primary underline underline-offset-2 hover:opacity-80">SNT-TC-1A</a> or ACCP requirements"
+                "competencyRequired": "Training hours and experience per SNT-TC-1A or ACCP requirements"
             },
             {
                 "@type": "HowTo",
@@ -139,7 +139,7 @@ export default function ASNTCertification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification & ACCP Guide 2026</h1>
-        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        {/* INLINE_PROOF_INJECTED_v1 */}
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
           <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
           {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to an ASNT Level III →</a>
@@ -291,9 +291,9 @@ export default function ASNTCertification() {
                     <h2 className="text-3xl font-bold text-center mb-8">Related Certification & Training Pages</h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
-                            { name: "<a href="/api-510-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 510</a> Certification", path: "/api-510-certification" },
-                            { name: "<a href="/api-570-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 570</a> Certification", path: "/api-570-certification" },
-                            { name: "<a href="/api-653-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 653</a> Certification", path: "/api-653-certification" },
+                            { name: "API 510 Certification", path: "/api-510-certification" },
+                            { name: "API 570 Certification", path: "/api-570-certification" },
+                            { name: "API 653 Certification", path: "/api-653-certification" },
                             { name: "NDT Certification Guide", path: "/ndt-certification-guide" },
                             { name: "NDT Career Guide", path: "/ndt-career-guide" },
                             { name: "NDT Salary Guide", path: "/ndt-technician-salary" },
