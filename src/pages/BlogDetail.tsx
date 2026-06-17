@@ -11,6 +11,7 @@ import { RelatedArticles } from '@/components/RelatedArticles';
 import { RelatedProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 import QuickAnswerBox from '@/components/QuickAnswerBox';
+import { buildTechArticleSchema } from '@/data/author-schema';
 
 /**
  * Pick a contextually-relevant Odoo-app pillar URL for a blog slug.
@@ -123,46 +124,23 @@ export default function BlogDetail() {
     return steps;
   }, [blog?.content, isGuidePost]);
 
-  // Generate rich structured data with Article + optional HowTo
+  // Generate rich structured data with TechArticle (Person author) + optional HowTo
+  // Day-8: cascade ATLANTIS_AUTHOR_ANOOP Person schema for YMYL E-E-A-T signal.
   const articleSchema = useMemo(() => {
     if (!blog) return null;
     const isoPublished = blog.createdAt || toISODate(blog.date);
     const isoModified = blog.updatedAt || isoPublished;
     const graph: any[] = [
-      {
-        "@type": "TechArticle",
-        "headline": blog.title,
-        "description": blog.metaDescription || blog.snippet,
-        "datePublished": isoPublished,
-        "dateModified": isoModified,
-        "author": {
-          "@type": "Organization",
-          "name": "Atlantis NDT",
-          "url": "https://atlantisndt.com"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Atlantis NDT",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://atlantisndt.com/favicon-96x96.jpg",
-            "width": 96,
-            "height": 96
-          }
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": `https://atlantisndt.com/blog/${blog.slug}`
-        },
-        "image": blog.image || "https://atlantisndt.com/og-image.jpg",
-        "keywords": `NDT, ${blog.title}, non-destructive testing`,
-        "about": {
-          "@type": "Thing",
-          "name": "Non-Destructive Testing"
-        },
-        "inLanguage": "en-US",
-        "isAccessibleForFree": true
-      }
+      buildTechArticleSchema({
+        url: `https://atlantisndt.com/blog/${blog.slug}`,
+        headline: blog.title,
+        description: blog.metaDescription || blog.snippet,
+        image: blog.image || "https://atlantisndt.com/og-image.jpg",
+        datePublished: isoPublished,
+        dateModified: isoModified,
+        section: blog.category || "NDT Technical",
+        keywords: `NDT, ${blog.title}, non-destructive testing`,
+      })
     ];
 
     // Add HowTo schema for guide-type posts
@@ -207,6 +185,14 @@ export default function BlogDetail() {
         keywords={`${blog.title}, NDT, non-destructive testing, blog, ${blog.slug}`}
         canonical={`https://atlantisndt.com/blog/${blog.slug}`}
         structuredData={articleSchema}
+        article={{
+          headline: blog.title,
+          datePublished: blog.createdAt || toISODate(blog.date),
+          dateModified: blog.updatedAt || blog.createdAt || toISODate(blog.date),
+          author: blog.author || 'Anoop Rayavarapu',
+          image: blog.image,
+          section: blog.category,
+        }}
       />
 
       <motion.div

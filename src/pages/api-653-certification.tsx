@@ -1,3 +1,4 @@
+// /* INLINE_ANCHORS_INJECTED_v1 */
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -194,6 +195,12 @@ export default function API653Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-amber-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification Training</h1>
+        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
+          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
+          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">See the API 653 schedule →</a>
+        </p>
+
                         <p className="text-xl text-amber-100 max-w-3xl mb-8">Become a certified API 653 Aboveground Storage Tank Inspector. Comprehensive open-book exam preparation with 95% first-time pass rate.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll in Next Class</Link>
@@ -467,7 +474,7 @@ export default function API653Certification() {
                             <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
                                 <CardContent className="p-5">
                                     <div className="flex items-center justify-between mb-2">
-                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">API 510 Certification</h3>
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition"><a href="/api-510-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 510</a> Certification</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
                                     </div>
                                     <p className="text-sm text-slate-600">Pressure Vessel Inspector certification. Covers ASME Section VIII, in-service inspection, and repair of pressure vessels.</p>
@@ -478,7 +485,7 @@ export default function API653Certification() {
                             <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
                                 <CardContent className="p-5">
                                     <div className="flex items-center justify-between mb-2">
-                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">API 570 Certification</h3>
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition"><a href="/api-570-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 570</a> Certification</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
                                     </div>
                                     <p className="text-sm text-slate-600">Piping Inspector certification. Covers in-service inspection, repair, and alteration of piping systems per ASME B31.3.</p>

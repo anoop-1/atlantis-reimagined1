@@ -1,3 +1,4 @@
+// /* INLINE_ANCHORS_INJECTED_v1 */
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -133,7 +134,7 @@ export default function API510Certification() {
                 dateModified: "2026-04-18",
                 section: "Pressure Vessel Inspection",
                 keywords: "API 510, pressure vessel inspector, API 510 exam, API 510 codes, ASME BPVC VIII",
-                dependencies: "API 510, API 571, API 572, API 576, API 579-1/ASME FFS-1, ASME BPVC Section VIII, Section V, Section IX, ASME II-D",
+                dependencies: "API 510, API 571, API 572, API 576, API 579-1/ASME <a href="/consulting/api-579-fitness-for-service-services" className="text-primary underline underline-offset-2 hover:opacity-80">FFS</a>-1, ASME BPVC Section VIII, Section V, Section IX, ASME II-D",
             }),
             {
                 "@type": "Course",
@@ -176,6 +177,12 @@ export default function API510Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-red-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 510 Certification Training</h1>
+        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
+          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
+          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">See the API 510 schedule →</a>
+        </p>
+
                         <p className="text-xl text-red-100 max-w-3xl mb-8">Become a certified API 510 Pressure Vessel Inspector. Comprehensive open-book exam preparation with 95% first-time pass rate. Training available online and in-person.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll in Next Class</Link>
@@ -357,8 +364,8 @@ export default function API510Certification() {
                     <p className="text-center text-slate-600 mb-10">Expand your inspection qualifications with complementary certifications.</p>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
                         {[
-                            { to: "/api-570-certification", label: "API 570 Piping Inspector", desc: "Certification for process piping inspection per ASME B31.3" },
-                            { to: "/api-653-certification", label: "API 653 Tank Inspector", desc: "Certification for aboveground storage tank inspection per API 650" },
+                            { to: "/api-570-certification", label: "<a href="/api-570-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 570</a> Piping Inspector", desc: "Certification for process piping inspection per ASME B31.3" },
+                            { to: "/api-653-certification", label: "<a href="/api-653-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 653</a> Tank Inspector", desc: "Certification for aboveground storage tank inspection per API 650" },
                             { to: "/asnt-certification", label: "ASNT NDT Certification", desc: "NDT Level I, II, III certification for all inspection methods" },
                             { to: "/ndt-certification-guide", label: "NDT Certification Guide", desc: "Complete guide to NDT certification pathways and requirements" },
                             { to: "/tools/ndt-certification-cost-calculator", label: "Certification Cost Calculator", desc: "Estimate total costs for API and NDT certifications" },

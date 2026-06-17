@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
+import { buildCityHreflang } from "@/lib/build-hreflang";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
@@ -680,12 +681,8 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 
-    // Generate hreflang links for multi-regional SEO
-    const hreflangLinks = [
-        { hreflang: `en-${location.country}`, href: canonical },
-        { hreflang: 'x-default', href: canonical },
-        { hreflang: 'en', href: canonical }
-    ];
+    // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
+    const hreflangLinks = buildCityHreflang(canonical, location.country);
 
     const faqs = [
         {

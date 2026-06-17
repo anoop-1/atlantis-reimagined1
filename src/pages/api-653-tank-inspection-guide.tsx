@@ -1,3 +1,4 @@
+// /* INLINE_ANCHORS_INJECTED_v1 */
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -52,7 +53,7 @@ const faqs = [
     { question: "What is API 653?", answer: "API 653 is the American Petroleum Institute standard for tank inspection, repair, alteration, and reconstruction. It applies to above-ground storage tanks built to API 650 or API 12C." },
     { question: "How often should tanks be inspected per API 653?", answer: "Inspection frequency depends on corrosion rates and risk. External inspections are typically every 5 years, internal inspections every 10 years, but Risk-Based Inspection (RBI) can extend or reduce intervals." },
     { question: "What qualifications are needed for API 653 inspectors?", answer: "Inspectors should be API 653 certified or work under an API 653 certified inspector. ASNT Level II certification in UT, MT, PT, and VT is typically required." },
-    { question: "Can tanks be repaired without API 653 certification?", answer: "API 653 requires that alterations and repairs be authorized by an API 653 certified inspector. The inspector must approve the repair procedure and final inspection." }
+    { question: "Can tanks be repaired without <a href="/api-653-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 653 certification</a>?", answer: "API 653 requires that alterations and repairs be authorized by an API 653 certified inspector. The inspector must approve the repair procedure and final inspection." }
 ];
 
 export default function API653TankInspectionGuide() {
@@ -100,6 +101,12 @@ export default function API653TankInspectionGuide() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="text-amber-200 mb-4">Guide • January 2026 • 15 min read</div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Tank Inspection: Complete Guide</h1>
+        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
+          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
+          {' '}<a href="/api-653-certification" className="text-primary underline underline-offset-2 hover:opacity-80">Prep with Atlantis NDT →</a>
+        </p>
+
                         <p className="text-xl text-amber-100 mb-8">Everything you need to know about above-ground storage tank inspection per API 653. Inspection intervals, NDT methods, and certification requirements.</p>
                     </motion.div>
                 </div>

@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
+import { buildCityHreflang } from "@/lib/build-hreflang";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
@@ -185,12 +186,8 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
     const pageDesc = `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets.slice(0, 2).join(", ")} and more. API 510/570/653 compliant reporting. Corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`;
     const canonical = `https://atlantisndt.com/${slug}`;
 
-    // Generate hreflang links for multi-regional SEO
-    const hreflangLinks = [
-        { hreflang: `en-${country}`, href: canonical },
-        { hreflang: 'x-default', href: canonical },
-        { hreflang: 'en', href: canonical }
-    ];
+    // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
+    const hreflangLinks = buildCityHreflang(canonical, country);
 
     const structuredData = {
         "@context": "https://schema.org",

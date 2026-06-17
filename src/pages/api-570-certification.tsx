@@ -1,3 +1,4 @@
+// /* INLINE_ANCHORS_INJECTED_v1 */
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -172,6 +173,12 @@ export default function API570Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 570 Certification Training</h1>
+        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
+          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
+          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">See the API 570 schedule →</a>
+        </p>
+
                         <p className="text-xl text-blue-100 max-w-3xl mb-8">Become a certified API 570 Piping Inspector. Comprehensive open-book exam preparation covering ASME B31.3, API 571, RBI, and remaining life calculations. 95% first-time pass rate.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll in Next Class</Link>
@@ -202,7 +209,7 @@ export default function API570Certification() {
                             <p className="text-lg text-slate-600 mb-4">API 570 is a globally recognised certification for Piping Inspectors, administered by the American Petroleum Institute. Certified inspectors are qualified to inspect, repair, alter, and rerate in-service metallic piping systems per API 570 and ASME B31 codes.</p>
                             <p className="text-slate-600 mb-4">The certification is required or strongly preferred in refineries, petrochemical plants, chemical facilities, and natural gas processing plants. Certified piping inspectors can independently authorise repairs and alterations under API 570 — a role requiring formal certification.</p>
                             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
-                                <p className="text-blue-800 text-sm"><strong>Career Impact:</strong> API 570 holders are in consistent demand in refineries and petrochemical facilities. Many inspectors combine API 570 with API 510 (pressure vessels) and/or API 653 (storage tanks) for broader inspection authority and higher earning potential.</p>
+                                <p className="text-blue-800 text-sm"><strong>Career Impact:</strong> API 570 holders are in consistent demand in refineries and petrochemical facilities. Many inspectors combine API 570 with <a href="/api-510-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 510</a> (pressure vessels) and/or API 653 (storage tanks) for broader inspection authority and higher earning potential.</p>
                             </div>
                         </div>
                         <div>

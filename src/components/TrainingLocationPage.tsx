@@ -40,6 +40,7 @@ import {
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { buildCityHreflang } from "@/lib/build-hreflang";
 import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -343,6 +344,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
         keywords={`NDT training ${profile.city}, NDT certification ${profile.city}, ASNT training ${profile.city}, ${profile.primaryCert} training ${profile.city}, NDT Level II ${profile.city}, ultrasonic testing training ${profile.city}, NDT courses ${profile.country}, NDT jobs ${profile.city}`}
         canonical={canonical}
         structuredData={structuredData}
+        hreflangLinks={buildCityHreflang(canonical, profile.country)}
       />
       <Breadcrumbs />
 

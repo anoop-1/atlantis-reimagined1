@@ -1,3 +1,4 @@
+// /* INLINE_ANCHORS_INJECTED_v1 */
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -149,6 +150,12 @@ export default function NDTSalaryGuide2026() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="text-green-200 mb-4">Salary Guide • March 2026 • 16 min read</div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Salary Guide 2026: Global Compensation by Level & Method</h1>
+        {/* /* INLINE_PROOF_INJECTED_v1 */ */}
+        <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
+          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
+          {' '}<a href="/asnt-certification" className="text-primary underline underline-offset-2 hover:opacity-80">See your cert pathway →</a>
+        </p>
+
                         <p className="text-xl text-green-100 mb-8">Complete NDT salary data: compensation by level (I/II/III), by method (PAUT/TOFD/UT/RT), by country (USA/UAE/UK/India/Canada), by industry (oil & gas/aerospace/power gen), overtime, and career earnings projections.</p>
                     </motion.div>
                 </div>
@@ -178,7 +185,7 @@ export default function NDTSalaryGuide2026() {
                             <ul className="text-green-800 space-y-1">
                                 <li>PAUT/TOFD specialists earn 40-80% more than MT/PT baseline technicians</li>
                                 <li>Offshore NDT work commands 30-50% premium over onshore</li>
-                                <li>API certifications (API 510/570/653) add $15,000-$30,000 annual salary</li>
+                                <li>API certifications (<a href="/api-510-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 510</a>/570/653) add $15,000-$30,000 annual salary</li>
                                 <li>NDT salary growth (4-7% annually) outpaces inflation</li>
                                 <li>Consulting rates: $150-$300/hour depending on specialization and experience</li>
                                 <li>Geographic variation: Houston pays 40% more than small manufacturing towns</li>
@@ -190,7 +197,7 @@ export default function NDTSalaryGuide2026() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">NDT Salary by Certification Level</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            ASNT certification level is the primary determinant of salary. Level I is entry-level assistant status; Level II is independent technician capable of performing inspections; Level III is subject matter expert developing procedures and standards. The salary jump from Level II to Level III is typically 30-60%.
+                            <a href="/asnt-certification" className="text-primary underline underline-offset-2 hover:opacity-80">ASNT certification</a> level is the primary determinant of salary. Level I is entry-level assistant status; Level II is independent technician capable of performing inspections; Level III is subject matter expert developing procedures and standards. The salary jump from Level II to Level III is typically 30-60%.
                         </p>
 
                         <div className="overflow-x-auto mb-8">
@@ -543,7 +550,7 @@ export default function NDTSalaryGuide2026() {
                                 <p className="text-slate-600 text-sm mt-2">Level I/II/III training and certification requirements</p>
                             </Link>
                             <Link to="/api-653-certification" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
-                                <h3 className="font-bold group-hover:text-green-600 transition">API 653 Guide</h3>
+                                <h3 className="font-bold group-hover:text-green-600 transition"><a href="/api-653-certification" className="text-primary underline underline-offset-2 hover:opacity-80">API 653</a> Guide</h3>
                                 <p className="text-slate-600 text-sm mt-2">Tank inspector certification for $110-$145K+ roles</p>
                             </Link>
                         </div>

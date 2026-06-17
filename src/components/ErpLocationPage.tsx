@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
+import { buildCityHreflang } from "@/lib/build-hreflang";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -1791,12 +1792,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   const pageTitle = `Affordable NDT ERP in ${city} — Fully Customizable, All 30+ Odoo Apps Included`;
   const pageDescription = `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all 30+ Odoo apps included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com`;
 
-  // Generate hreflang links for multi-regional SEO
-  const hreflangLinks = [
-    { hreflang: `en-${country}`, href: canonicalUrl },
-    { hreflang: 'x-default', href: canonicalUrl },
-    { hreflang: 'en', href: canonicalUrl }
-  ];
+  // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
+  const hreflangLinks = buildCityHreflang(canonicalUrl, country);
 
   const structuredData = {
     "@context": "https://schema.org",
