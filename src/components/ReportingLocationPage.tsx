@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
+import MarineReportFormatBlock from "@/components/MarineReportFormatBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -1011,6 +1012,9 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
           </motion.div>
         </div>
       </section>
+
+      {/* ── Marine / Maritime report format (globally accepted IACS sequence) ── */}
+      <MarineReportFormatBlock city={city} country={country} />
 
       {/* ── Sibling-city cross-links (Digital Twin / ERP / Training / Consulting) ── */}
       <section className="py-8 bg-background border-t border-border">

@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
+import MarineReportFormatBlock from "@/components/MarineReportFormatBlock";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -640,6 +641,8 @@ export default function BestNDTReportingSoftware2026() {
                     "icon": "blog"
               }
         ]} />
+
+        <MarineReportFormatBlock />
 
         <ContactDetails />
     </div>

@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import MarineReportFormatBlock from "@/components/MarineReportFormatBlock";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -549,6 +550,8 @@ export default function IntelligentReportingSoftware() {
                     </p>
                 </div>
             </section>
+
+            <MarineReportFormatBlock />
 
             <ContactDetails />
         </div>

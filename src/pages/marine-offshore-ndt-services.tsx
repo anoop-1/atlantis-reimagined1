@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
+import MarineReportFormatBlock from '@/components/MarineReportFormatBlock';
 import { Link } from 'react-router-dom';
 
 export default function MarineOffshoreNdtServices() {
@@ -91,6 +92,8 @@ export default function MarineOffshoreNdtServices() {
           </Button>
         </div>
       </section>
+
+      <MarineReportFormatBlock />
 
       <ContactDetails />
     </div>
