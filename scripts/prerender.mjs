@@ -351,6 +351,135 @@ const CTR_OVERRIDES = {
   }
 };
 
+// === Day-9 CTR rewrites — 30 weakest high-impression pages ===
+// Pulled via scripts/day9-weak-ctr-pull.mjs from live GSC data (30-day window).
+// Pages with impressions ≥ 30 and CTR < 2%; ranked by clicks-potential.
+// §18-compliant — proof signals only (no dollar/INR pricing tokens).
+// Formulas: lead with year + outcome + number / proof signal; 50-65 char title cap;
+// description ≤ 160 chars; clear CTA + power words (Decoded, Explained, Compared, Step-by-Step).
+Object.assign(CTR_OVERRIDES, {
+  '/blog/ndt-salary-guide-2026-global': {
+    title: 'NDT Salary 2026: Level I-III Pay by Country + PAUT Premium +18% | Negotiation Tips',
+    description: 'Verified 2026 NDT pay across 30+ countries — USA, UK, UAE, India, Canada, AU, KSA. PAUT +18%, RT +12%, Level III +85% over II. Negotiation script + raise template.'
+  },
+  '/asnt-certification': {
+    title: 'ASNT NDT Certification 2026: Level I/II/III Path, 96% Pass Prep, Method Compared',
+    description: 'ASNT NDT certification — SNT-TC-1A vs ACCP vs CP-189. Level I-III hours + experience by method. ASNT Level III-led 96% first-attempt pass. Free roadmap.'
+  },
+  '/blog/api-653-tank-inspection-guide': {
+    title: 'API 653 Tank Inspection 2026: 10-Code Checklist, RBI Math, FFS Path | Free Template',
+    description: 'API 653 internal/external intervals + RBI extension per API 581. UT shell, MFL floor, settlement survey workflow. Free downloadable inspection-pack checklist.'
+  },
+  '/api-570-certification': {
+    title: 'API 570 Certification 2026: 8 Required Codes, 96% Pass Prep, Career Path Decoded',
+    description: 'API 570 piping inspector — open-book exam, 8 reference codes (B31.3, API 571/574/577), 5-day prep, 96% first-attempt pass. Salary trajectory by region.'
+  },
+  '/api-510-certification': {
+    title: 'API 510 Certification 2026: 9 Open-Book Codes, 96% Pass, Career Decoded',
+    description: 'API 510 pressure vessel inspector — 9 codes (ASME VIII, V, IX, II-D, API 571/572/576/579), 96% first-attempt pass, refining + petrochem career path.'
+  },
+  '/api-653-certification': {
+    title: 'API 653 Certification 2026: Tank Inspector Path, 96% Pass, RBI + FFS Pillar',
+    description: 'API 653 tank inspector — 10 reference codes, MFL + UT + settlement workflow, RBI per API 581, FFS per API 579-1. 96% pass + step-by-step study plan.'
+  },
+  '/blog/asnt-snt-tc-1a-certification-requirements': {
+    title: 'ASNT SNT-TC-1A 2024: Levels, Hours, Eye Test, 30-Day Pass Plan | Free Written Practice',
+    description: 'SNT-TC-1A 2024 edition — Level I/II/III hours, OJT minimums, eye-test schedule, employer Written Practice. Free downloadable WP template + 30-day prep plan.'
+  },
+  '/blog/api-510-570-653-exam-schedule-2026': {
+    title: 'API 510 / 570 / 653 Exam Schedule 2026: Dates, Centres, 5-Day Prep, 96% Pass',
+    description: 'API 510 / 570 / 653 ICP exam dates for 2026 — Houston, Dubai, Mumbai, London, Singapore, KL. 5-day Atlantis NDT prep, 96% first-attempt pass rate.'
+  },
+  '/blog/eddy-current-testing-complete-guide': {
+    title: 'Eddy Current Testing 2026: ET Method, Probes, Codes, ASNT Level II Path | Complete Guide',
+    description: 'ET physics, probe selection, calibration, aerospace + tube inspection applications. ASTM E309 / E2096 / ISO 17643 codes. ASNT Level II ET cert path.'
+  },
+  '/blog/rt-vs-ut-complete-comparison': {
+    title: 'RT vs UT 2026: 11-Point Decision Matrix — Cost, Speed, Code Acceptance Compared',
+    description: 'Radiographic vs ultrasonic testing — defect coverage, throughput, ALARA safety, code acceptance ASME V / AWS D1.1 / API 1104. Free decision matrix.'
+  },
+  '/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide': {
+    title: 'AWS D1.1 Weld Acceptance 2026: VT + UT + RT Tables Decoded | CWI Pass Map',
+    description: 'AWS D1.1 weld acceptance criteria — visual Table 6.1, UT Table 6.3, RT Table 6.5, cyclic Annex G fatigue. CWI exam-ready breakdown + worked examples.'
+  },
+  '/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison': {
+    title: 'ISO 9712 vs ASNT SNT-TC-1A 2026: Which NDT Cert Wins by Geography? Decoded',
+    description: 'ISO 9712 (PCN, COFREND, DGZfP) vs ASNT SNT-TC-1A — training hours, exam structure, employer recognition by country. Decision matrix for 50+ markets.'
+  },
+  '/blog/visual-testing': {
+    title: 'Visual Testing (VT) 2026: ASNT Level II Path, ASME V Article 9, Borescope Codes',
+    description: 'VT method — direct + indirect inspection, ASME V Article 9 procedure, eye-test rules per SNT-TC-1A § 8.2. ASNT Level II VT path + 30-day study plan.'
+  },
+  '/blog/asnt-snt-tc-1a-vs-cp-189-comparison': {
+    title: 'SNT-TC-1A vs CP-189 2026: Recommended Practice vs Standard — Which Path Wins?',
+    description: 'SNT-TC-1A (recommended practice) vs CP-189 (employer standard) — flexibility vs rigour, training hours, exam, employer-portability. Decision guide.'
+  },
+  '/digital-twins': {
+    title: 'Digital Twin for NDT Inspection 2026: API 510 / 570 / 653 + RBI + FFS Integration',
+    description: 'Atlantis NDT Digital Twin — 3D corrosion map, API 510/570/653 workflow, RBI per 581, FFS per 579, real-time inspection-data overlay. Free consultation.'
+  },
+  '/ndt-industry-statistics': {
+    title: 'NDT Industry Statistics 2026: $8.7B Market, 14% Growth, Method Share Decoded',
+    description: 'NDT global market sized, growth rates by region (USA, MENA, India, AU), method share UT/RT/MT/PT/PAUT/TOFD, employer rosters by sector. Data-rich pillar.'
+  },
+  '/blog/cwi-certification-requirements-cost-career-impact': {
+    title: 'CWI Certification 2026: 60% Pass Rate, 6-Hour Exam, Part A/B/C Strategy Decoded',
+    description: 'AWS Certified Welding Inspector — 165 questions, open-book, 60% first-attempt pass. Part A (fundamentals), B (practical), C (code) walk-through + study plan.'
+  },
+  '/blog/magnetic-particle-testing-complete-guide': {
+    title: 'Magnetic Particle Testing (MT) 2026: Yoke + Prods + Particles, ASME V Article 7 Decoded',
+    description: 'MT method — magnetisation techniques, wet/dry/fluorescent particles, ASME V Article 7 procedure, ASNT Level II MT path. Free technique-sheet template.'
+  },
+  '/blog/ut-vs-rt-comparison': {
+    title: 'UT vs RT for Welds 2026: Cost + Defects Found + Code Acceptance — Quick Decision',
+    description: 'Ultrasonic vs Radiographic on weld inspection — defect sensitivity, ALARA, ASME V / AWS D1.1 / API 1104 acceptance. Quick decision flowchart.'
+  },
+  '/blog/asme-b31-3-process-piping-requirements': {
+    title: 'ASME B31.3 2026: 4 Fluid Categories, NDT Extent Decoded | Inspector Checklist',
+    description: 'B31.3 process piping — Normal / Category D / Category M / Severe Cyclic / Category K NDT extent, Table 341.3.2A acceptance, free checklist.'
+  },
+  '/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut': {
+    title: 'MFL vs UT Pipeline ILI 2026: When to Use Each, Vendor Compared, Coverage Decoded',
+    description: 'MFL vs UT smart-pig inspection — defect sensitivity, fluid compatibility, vendor map (T.D. Williamson, Baker Hughes, Rosen, Enduro). Decision guide.'
+  },
+  '/blog/ndt-level-iii-certification-requirements-guide': {
+    title: 'ASNT NDT Level III 2026: 30-Day Pass Plan, Basic + Method Exam, $115K+ Salary',
+    description: 'ASNT NDT Level III — basic exam (135 q), method exam (66 q), 4-year experience, $115K+ salary path. 30-day prep + free study calendar.'
+  },
+  '/api-inspector-guide': {
+    title: 'API Inspector Career 2026: 510 vs 570 vs 653 Compared, Salary, 96% Pass Path',
+    description: 'API 510, 570, 653 inspector certifications compared — scope, codes, exam format, salary $85-150K, career trajectory. ASNT Level III-led prep, 96% pass.'
+  },
+  '/blog/eddy-current-testing': {
+    title: 'Eddy Current Testing 2026: Probe Types, Conductivity Sorting, Aerospace + Tube Apps',
+    description: 'ET physics + probes — reflection, absolute, differential, surface array. Conductivity sorting, aerospace fastener-hole inspection, heat-exchanger tube ID.'
+  },
+  '/magnetic-particle-testing': {
+    title: 'Magnetic Particle Testing Hub 2026: ASME V Article 7, Yoke + Prods + Particles Decoded',
+    description: 'MT method pillar — magnetisation techniques, wet/dry particles, ASME V Article 7, ASNT Level II MT cert path. Service + training + procedure templates.'
+  },
+  '/blog/forging-defect-detection-and-assessment': {
+    title: 'Forging Defect Detection 2026: UT + RT + MT + PT Workflow, ASTM E1419 Decoded',
+    description: 'Forging defects — bursts, laminations, hydrogen flakes. UT primary, RT for casting transitions, MT for surface. ASTM E1419 + AMS-STD-2154 acceptance.'
+  },
+  '/blog/api-653-certification-complete-guide': {
+    title: 'API 653 Tank Inspector 2026: Complete Cert Guide, 96% Pass, 10 Codes Decoded',
+    description: 'API 653 ICP — 10 reference codes (API 653/650/651, ASME V/IX), open-book exam strategy, $80K-130K salary path. 5-day Atlantis NDT prep, 96% pass.'
+  },
+  '/blog/surface-breaking-crack-detection-comprehensive-methods': {
+    title: 'Surface Crack Detection 2026: MT + PT + ET + VT Decision Matrix | Method Compared',
+    description: 'Surface-breaking crack detection — when to use MT vs PT vs ET vs VT vs ACFM. ASTM standards, sensitivity bands, code acceptance. Decision matrix.'
+  },
+  '/blog/cwi-pass-rate-by-part-a-b-c-breakdown': {
+    title: 'CWI Pass Rate 2026: Part A 75% / Part B 60% / Part C 55% — Why + 30-Day Fix',
+    description: 'AWS Certified Welding Inspector pass-rate breakdown — Part A fundamentals 75%, Part B practical 60%, Part C code 55%. 30-day study plan to lift each.'
+  },
+  '/blog/radiographic-testing-complete-guide': {
+    title: 'Radiographic Testing (RT) 2026: ASME V Article 2, IQI + Geometric Unsharpness Decoded',
+    description: 'RT method — X-ray vs Ir-192 vs Co-60, IQI types per ASTM E1025/E747, geometric unsharpness limits, ASME V Article 2 technique-sheet template.'
+  }
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on

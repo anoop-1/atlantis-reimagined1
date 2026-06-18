@@ -644,6 +644,49 @@ export default function BestNDTReportingSoftware2026() {
 
         <MarineReportFormatBlock />
 
+        {/* Day-9: NDT reporting software buyer FAQ — captures intent queries */}
+        <section className="py-20 bg-gradient-to-b from-amber-50 to-white">
+          <div className="container mx-auto px-6 max-w-5xl">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-900 text-sm font-semibold mb-4">
+                NDT Reporting Software — Buyer Questions Answered
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Affordable NDT Reporting Software 2026 — Buyer FAQ
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Common questions from inspection contractors, asset owners, and EPC QA
+                managers evaluating NDT reporting software in 2026.
+              </p>
+            </div>
+            <div className="space-y-4">
+              {[
+                { q: 'Which is the best NDT reporting software for inspection companies in 2026?', a: 'Atlantis NDT Reporting Software ranks #1 in this 2026 comparison — independent ASNT Level III review. Key wins: IACS Marine class-society report bundle out of the box, API 510/570/653 + ASME V + AWS D1.1 templates, offline mobile field app, eIDAS qualified digital signatures, SHA-256 audit trail, AI-assisted finding narratives with Level III human approval. Affordable, accessible, fully customizable.' },
+                { q: 'How much does NDT reporting software cost?', a: 'Pricing varies by region and scope. Atlantis NDT Reporting Software is affordable, accessible, fully customizable — sized for single-inspector consultancies up to enterprise EPC contractors. Free consultation + tailored quote on request: info@atlantisndt.com.' },
+                { q: 'Can I get a free consultation before choosing NDT reporting software?', a: 'Yes. Atlantis NDT offers a free consultation for inspection companies, training providers, asset owners, and EPC contractors globally. ASNT Level III led discovery + scope sizing + tailored demo of the Atlantis NDT Reporting Software, ERP, and Digital Twin platform stack. Schedule on request.' },
+                { q: 'Can I migrate from Excel / paper reports to NDT reporting software?', a: 'Yes. Atlantis NDT runs a structured migration: data audit + Excel/paper ingestion, phased rollout, parallel run, cutover. Typical timeline 2-8 weeks depending on data volume + team size. Free consultation to scope your migration.' },
+                { q: 'Does the software work offline for field inspections?', a: 'Yes. The Atlantis NDT mobile field app captures inspection data offline (UT-T CMLs, PAUT / TOFD scans, MT/PT visuals, photographs) and syncs at next connectivity. Built for refinery turnarounds, offshore platforms, remote pipeline rights-of-way, and any field setting where 4G is unreliable.' },
+                { q: 'Does the software generate IACS-accepted Marine NDT reports?', a: "Yes. Atlantis NDT Reporting Software ships the IACS class-society 4-document sequence — cover page + calibration record + NDT Level II certificate + technical report — accepted by ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS under IACS Recommendation No. 20 + UR W11 + IMO MSC.1/Circ.1409." },
+                { q: 'Atlantis NDT Reporting Software vs Hexagon / Bentley / Maximo — which is better?', a: 'Hexagon ALI / PPM, Bentley AssetWise APM, IBM Maximo, AspenTech Mtell, SAP PM, GE Vernova APM are enterprise APM platforms with NDT reporting layered on. Atlantis NDT is built FROM the inspection workflow — IACS Marine reports, API codes, ASNT certs, mobile field app, Digital Twin integration. Faster implementation, no customisation lock-in. Free consultation to compare.' },
+                { q: 'Does the reporting software integrate with NDT ERP and Digital Twin platforms?', a: 'Yes. Atlantis NDT Reporting Software, ERP, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, FFS, RBI). No duplicate entry; full SHA-256 audit trail.' },
+              ].map((faq, idx) => (
+                <details key={idx} className="group bg-white rounded-xl border-2 border-amber-100 hover:border-amber-300 transition-colors p-5">
+                  <summary className="font-semibold text-lg cursor-pointer text-foreground flex items-start gap-3">
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-sm">{idx + 1}</span>
+                    <span className="flex-1">{faq.q}</span>
+                  </summary>
+                  <p className="mt-3 ml-11 text-muted-foreground leading-relaxed">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+            <div className="mt-10 text-center">
+              <Link to="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-amber-600 text-white font-semibold hover:bg-amber-500 transition">
+                Get a Free NDT Reporting Software Consultation
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <ContactDetails />
     </div>
   );

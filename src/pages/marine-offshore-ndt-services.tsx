@@ -95,6 +95,49 @@ export default function MarineOffshoreNdtServices() {
 
       <MarineReportFormatBlock />
 
+      {/* Day-9: Marine buyer-intent FAQ — captures "best marine NDT software / class society / IACS / cost" intent */}
+      <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
+        <div className="container mx-auto px-6 max-w-5xl">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-900 text-sm font-semibold mb-4">
+              Marine &amp; Offshore — Buyer Questions Answered
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Marine NDT Inspection &amp; Software — FAQ
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              The questions shipyards, FPSO operators, jack-up rigs, and offshore wind
+              integrators ask before choosing a marine NDT services and software partner.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {[
+              { q: 'What is the globally accepted marine NDT report format for class submissions?', a: "All IACS members (ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS, PRS, RS) require the same 4-document sequence: cover page → calibration record → NDT Level II certificate → NDT report. Set out in IACS Recommendation No. 20 + UR W11 + UR Z23 + IMO MSC.1/Circ.1409. Atlantis NDT Reporting Software ships this bundle out of the box." },
+              { q: 'How much does marine NDT inspection software cost?', a: 'Pricing varies by region and scope. Atlantis NDT Reporting Software is affordable, accessible, and fully customizable — sized for single-vessel surveyors up to multi-yard EPC contractors. Free consultation + free quote on request: info@atlantisndt.com.' },
+              { q: 'Can I get a free consultation for marine NDT services or software?', a: 'Yes. Atlantis NDT offers a free consultation for shipyards, FPSO operators, drydocks, offshore wind integrators, and marine EPC contractors globally. ASNT NDT Level III + API 653 led discovery + scope sizing + tailored demo. Schedule on request.' },
+              { q: 'Which class societies accept Atlantis NDT reports?', a: "All IACS members — ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS, PRS, RS. Reports follow IACS Recommendation No. 20 + UR W11 + UR Z23 sequence. Also accepted by flag-state authorities and offshore-platform operators on the NORSOK / API RP 2A standards path." },
+              { q: 'Do you cover offshore wind monopile + jacket inspection?', a: 'Yes. Atlantis NDT runs UT thickness + PAUT + TOFD + MFL inspection on offshore wind monopiles, transition pieces, jacket sub-structures, and floating-foundation tendons. DNV-SE-0190 + DNVGL-ST-0126 + IECRE OD-501 compliance.' },
+              { q: 'How does Atlantis NDT support API 653 + IACS combined inspection on FPSO storage tanks?', a: 'FPSO cargo + slop tanks fall under both API 653 (storage tank inspection) and the FPSO class society. We run combined API 653 internal inspection + IACS-aligned reporting in a single workflow. Output: a single audit-ready report bundle accepted by both regulators.' },
+              { q: 'Can the marine NDT software work offline at sea or on drydock?', a: 'Yes. The Atlantis NDT mobile field app captures inspection data offline (UT-T, PAUT scans, MT/PT visuals, photographs) and syncs at next connectivity. Built for FPSO topsides, drydock cradles, jack-up legs, and any remote marine inspection setting.' },
+              { q: 'What does Atlantis NDT marine inspection cost vs DNV or Lloyd\'s in-house?', a: 'Pricing varies by scope, vessel size, and survey type. Atlantis NDT is affordable and accessible compared to class-society in-house surveyors for routine UT shell + structural inspection; the class society retains the surveyor role for the actual class submission. Free consultation + quote on request.' },
+            ].map((faq, idx) => (
+              <details key={idx} className="group bg-white rounded-xl border-2 border-blue-100 hover:border-blue-300 transition-colors p-5">
+                <summary className="font-semibold text-lg cursor-pointer text-foreground flex items-start gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">{idx + 1}</span>
+                  <span className="flex-1">{faq.q}</span>
+                </summary>
+                <p className="mt-3 ml-11 text-muted-foreground leading-relaxed">{faq.a}</p>
+              </details>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link to="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-500 transition">
+              Get a Free Marine NDT Consultation
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <ContactDetails />
     </div>
   );
