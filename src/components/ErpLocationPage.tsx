@@ -1685,6 +1685,61 @@ const erpModules = [
 
 // ─── FAQs ──────────────────────────────────────────────────────────────────
 
+// Day-9: universal ERP buyer-intent FAQ — cascades to all 290 city pages.
+// Captures "affordable ERP / free consultation / fully customizable" buyer queries
+// NDT inspection companies type into Google. § 18 compliant — no numeric pricing,
+// only proof signals + "Quote on request" + "Free consultation".
+const buildErpBuyerFAQ = (city: string, country: string) => [
+  {
+    question: `What ERP do NDT inspection companies in ${city} use?`,
+    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, 30+ Odoo apps included. Free consultation: info@atlantisndt.com.`,
+  },
+  {
+    question: `How much does an affordable NDT ERP cost in ${city}?`,
+    answer: `Pricing varies by region and scope. Atlantis NDT ERP is affordable, accessible, fully customizable — sized for small inspection shops up to multi-site contractor fleets. Request a free quote scoped to your team size, NDT methods covered, and integration needs. Free consultation: info@atlantisndt.com.`,
+  },
+  {
+    question: `Can I get a free ERP consultation for my NDT company in ${city}?`,
+    answer: `Yes. Atlantis NDT offers a free consultation for NDT inspection companies, training providers, and asset owners in ${city} and globally. ASNT NDT Level III led discovery, scope sizing, integration mapping, and a tailored demo of the Atlantis NDT ERP, Reporting Software, and Digital Twin platform. Schedule on request: info@atlantisndt.com.`,
+  },
+  {
+    question: `Is Atlantis NDT ERP fully customizable for ${city} operations?`,
+    answer: `Yes. Atlantis NDT ERP is built on Odoo 18 with 30+ apps included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 / 510-vs-570 comparison, ASME Section V Articles 2 / 4 / 5 / 6 / 7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, calibration management, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`,
+  },
+  {
+    question: `How does Atlantis ERP track ASNT certifications and expiries for ${city} inspectors?`,
+    answer: `Atlantis NDT ERP maintains a certified-personnel register with method (UT / RT / MT / PT / ET / VT / PAUT / TOFD), level (I / II / III), certifying body (ASNT SNT-TC-1A, ISO 9712 / PCN, NAS 410, ACCP, CSWIP), expiry date, annual eye-test record (Jaeger J1 + Ishihara), and Level III approval. Auto-alerts 90 / 60 / 30 days before expiry. Integrated with the inspection-scheduling module so expired certs cannot be assigned to jobs.`,
+  },
+  {
+    question: `Does the ERP generate IACS-accepted Marine NDT reports for ${city} shipyards and FPSO operators?`,
+    answer: `Yes. Atlantis NDT Reporting Software (bundled with the ERP) ships the IACS class-society 4-document sequence — cover page + calibration record + NDT Level II certificate + technical NDT report — accepted by ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS under IACS Recommendation No. 20, UR W11 / Z23, and IMO MSC.1/Circ.1409. See our Marine &amp; Offshore NDT services page.`,
+  },
+  {
+    question: `Can the ERP work offline for field NDT inspections in ${city} remote sites?`,
+    answer: `Yes. Atlantis NDT mobile field app captures inspection data offline (UT-T CMLs, PAUT / TOFD scans, MT/PT visuals, photographs) and syncs when connectivity returns. Built for refinery turnarounds, offshore platforms, remote pipeline rights-of-way, and any field condition where 4G is unreliable.`,
+  },
+  {
+    question: `How do I migrate from Excel / Tally / QuickBooks to a proper NDT ERP in ${city}?`,
+    answer: `Atlantis NDT runs a structured 4-step migration: (1) data audit + cleanup of your current spreadsheets / Tally / QuickBooks / paper records; (2) phased ingestion into the Atlantis NDT ERP modules (CRM → projects → inspections → invoicing → HR); (3) parallel run for 30-60 days; (4) cutover. Typical timeline: 4-12 weeks depending on data volume. Free consultation to scope.`,
+  },
+  {
+    question: `What modules does the affordable NDT ERP include for ${city} companies?`,
+    answer: `All 30+ Odoo apps included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, RBI, FFS, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
+  },
+  {
+    question: `Atlantis NDT ERP vs SAP / Maximo / NetSuite — which is better for inspection companies in ${city}?`,
+    answer: `SAP / Maximo / NetSuite are enterprise platforms that require six-figure NDT customisation projects. Atlantis NDT ERP comes NDT-ready — ASNT / API / ASME / IACS workflows built in, mobile field app, IACS Marine report engine, Digital Twin integration. Faster implementation (weeks not months), no customisation lock-in, fully accessible to small + mid-size inspection contractors. Free consultation to compare against your current stack.`,
+  },
+  {
+    question: `Does the ERP integrate with NDT digital twins and reporting software for ${city} operators?`,
+    answer: `Yes. Atlantis NDT ERP, Reporting Software, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, FFS, RBI). No duplicate entry; full audit trail SHA-256 hashed.`,
+  },
+  {
+    question: `How long does ERP implementation take for a ${city} NDT inspection company?`,
+    answer: `Typical implementation: 4 weeks for a small inspection shop (≤ 20 staff, 1-2 NDT methods, basic CRM + invoicing); 8-12 weeks for a mid-size contractor (50-200 staff, multi-method, multi-site, ASNT + ISO 9712 dual cert tracking); 12-20 weeks for an enterprise (≥ 200 staff, refinery / offshore / aerospace verticals, API 581 RBI + API 579 FFS integration). Phased rollout possible. Free scoping consultation: info@atlantisndt.com.`,
+  },
+];
+
 const faqs = [
   {
     question: "What NDT-specific features does Atlantis ERP offer that generic ERP systems do not?",
@@ -1786,7 +1841,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   // Merge city-specific FAQs (top of accordion) with the generic product FAQs so every
   // page has ≥4 unique Q&A blocks on top of the shared 8.
   const cityFaqs = profile?.faqs ?? [];
-  const mergedFaqs = [...cityFaqs, ...faqs];
+  const buyerFaqs = buildErpBuyerFAQ(city, country);
+  const mergedFaqs = [...cityFaqs, ...buyerFaqs, ...faqs];
 
   const canonicalUrl = `https://atlantisndt.com/${slug}`;
   const pageTitle = `Affordable NDT ERP in ${city} — Fully Customizable, All 30+ Odoo Apps Included`;
@@ -2741,6 +2797,51 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
             citySlug={cityKey}
             city={city}
           />
+        </div>
+      </section>
+
+      {/* ── Day-9: ERP buyer-intent FAQ — affordable + free consultation + fully customizable ── */}
+      <section className="py-20 bg-gradient-to-b from-amber-50 to-white">
+        <div className="container mx-auto px-6 max-w-5xl">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-900 text-sm font-semibold mb-4">
+              NDT Inspection Company — Buyer FAQ
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Affordable NDT ERP in {city} — Buyer Questions Answered
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Real questions NDT inspection companies in {city}, {country} ask before
+              choosing an ERP. Affordable. Accessible. Fully Customizable. Free consultation
+              for every prospect.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {buyerFaqs.map((faq, idx) => (
+              <details
+                key={idx}
+                className="group bg-white rounded-xl border-2 border-amber-100 hover:border-amber-300 transition-colors p-5"
+              >
+                <summary className="font-semibold text-lg cursor-pointer text-foreground flex items-start gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-sm">
+                    {idx + 1}
+                  </span>
+                  <span className="flex-1">{faq.question}</span>
+                </summary>
+                <p className="mt-3 ml-11 text-muted-foreground leading-relaxed">
+                  {faq.answer}
+                </p>
+              </details>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-amber-600 text-white font-semibold hover:bg-amber-500 transition"
+            >
+              Get a Free ERP Consultation for {city}
+            </Link>
+          </div>
         </div>
       </section>
 
