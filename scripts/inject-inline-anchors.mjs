@@ -96,6 +96,38 @@ const PROOF_TARGETS = [
   { file: 'src/pages/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country.tsx', href: '/asnt-certification', label: 'Prep with Atlantis NDT' },
 ];
 
+// Day-10: US-anchored microcopy band for US-impression-heavy pages.
+// Marker: INLINE_PROOF_US_INJECTED_v1. Inject after first </h1>.
+const PROOF_LINE_US = (href, label) => `
+        <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
+          <strong>USA cohorts (Houston, Beaumont, Tulsa, Pasadena, Mobile):</strong> ASNT NDT Level III-led 5-day prep, 96% first-attempt pass, refining-major employer roster (ExxonMobil, Marathon, Phillips 66, Shell). 2026 schedule.
+          {' '}<a href="${href}" className="${ANCHOR_CLASS}">${label} →</a>
+        </p>
+`;
+
+const PROOF_TARGETS_US = [
+  { file: 'src/pages/asnt-certification.tsx',                  href: '/contact', label: 'Free USA consultation' },
+  { file: 'src/pages/api-510-certification.tsx',               href: '/contact', label: 'Free USA consultation' },
+  { file: 'src/pages/api-570-certification.tsx',               href: '/contact', label: 'Free USA consultation' },
+  { file: 'src/pages/api-653-certification.tsx',               href: '/contact', label: 'Free USA consultation' },
+  { file: 'src/pages/api-653-tank-inspection-guide.tsx',       href: '/api-653-certification', label: 'Prep with Atlantis NDT USA' },
+  { file: 'src/pages/blog/ndt-salary-guide-2026-global.tsx',   href: '/asnt-certification', label: 'US cert pathway' },
+  { file: 'src/pages/blog/rt-vs-ut-complete-comparison.tsx',   href: '/asnt-certification', label: 'Get ASNT Level II / III' },
+  { file: 'src/pages/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country.tsx', href: '/asnt-certification', label: 'Prep with Atlantis NDT' },
+];
+
+function injectProofLineUs(src, href, label) {
+  if (src.includes('INLINE_PROOF_US_INJECTED_v1')) return null;
+  if (!/<h1[\s>]/.test(src)) return null;
+  let inserted = false;
+  const out = src.replace(/(<\/h1>)/, (m) => {
+    if (inserted) return m;
+    inserted = true;
+    return `${m}\n        {/* INLINE_PROOF_US_INJECTED_v1 */}${PROOF_LINE_US(href, label)}`;
+  });
+  return inserted ? out : null;
+}
+
 function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
 function injectAnchors(src, anchors) {
@@ -160,6 +192,22 @@ if (!isUsCtr) {
 }
 
 // ─── Pass B: US-CTR proof line ───────────────────────────────────────────
+const isUsProof = process.argv.includes('--us-proof');
+let patchedProofUs = 0;
+if (isUsProof) {
+  for (const t of PROOF_TARGETS_US) {
+    if (onlyFile && onlyFile !== t.file) continue;
+    const p = join(ROOT, t.file);
+    if (!existsSync(p)) { failures.push({ file: t.file, err: 'not found (us-proof)' }); continue; }
+    let src = readFileSync(p, 'utf-8');
+    const out = injectProofLineUs(src, t.href, t.label);
+    if (!out) { failures.push({ file: t.file, err: 'us-proof: no <h1> or marker present' }); continue; }
+    writeFileSync(p, out, 'utf-8');
+    patchedProofUs++;
+    console.log(`us-proof injected: ${t.file}`);
+  }
+  console.log(`US proof pass: ${patchedProofUs} files patched.`);
+}
 if (isUsCtr || args.includes('--proof')) {
   for (const t of PROOF_TARGETS) {
     if (onlyFile && onlyFile !== t.file) continue;

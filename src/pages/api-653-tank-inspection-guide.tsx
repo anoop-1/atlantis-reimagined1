@@ -101,6 +101,12 @@ export default function API653TankInspectionGuide() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="text-amber-200 mb-4">Guide • January 2026 • 15 min read</div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Tank Inspection: Complete Guide</h1>
+        {/* INLINE_PROOF_US_INJECTED_v1 */}
+        <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
+          <strong>USA cohorts (Houston, Beaumont, Tulsa, Pasadena, Mobile):</strong> ASNT NDT Level III-led 5-day prep, 96% first-attempt pass, refining-major employer roster (ExxonMobil, Marathon, Phillips 66, Shell). 2026 schedule.
+          {' '}<a href="/api-653-certification" className="text-primary underline underline-offset-2 hover:opacity-80">Prep with Atlantis NDT USA →</a>
+        </p>
+
         {/* INLINE_PROOF_INJECTED_v1 */}
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
           <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.

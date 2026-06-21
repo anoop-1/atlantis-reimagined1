@@ -480,6 +480,58 @@ Object.assign(CTR_OVERRIDES, {
   }
 });
 
+// === Day-10 CTR rewrites — striking-distance pos 3-15 zero-CTR fixes ===
+// Pulled live from GSC 2026-06-21 (window 2026-05-19 → 2026-06-18). Replaces
+// Day-9 + earlier overrides for these 8 pages with sharper, query-match titles.
+// Each title targets the EXACT striking-distance query that is ranking but not
+// converting (per GSC top-queries-by-page). §18 compliant — proof signals only.
+Object.assign(CTR_OVERRIDES, {
+  '/api-510-certification': {
+    title: 'API 510 Certification 2026: Exam Schedule, 9 Codes, 96% Pass Prep | Atlantis NDT',
+    description: 'API 510 Pressure Vessel Inspector 2026 — exam dates Houston / Dubai / Mumbai / London, 9 reference codes (ASME VIII, V, IX, II-D, API 571/572/576/579), 5-day prep, 96% first-attempt pass. Free consultation + quote on request.'
+  },
+  '/api-570-certification': {
+    title: 'API 570 Certification 2026: Exam Schedule, 8 Codes, 96% Pass Prep | Atlantis NDT',
+    description: 'API 570 Piping Inspector 2026 — exam dates Houston / Dubai / Mumbai / London, 8 reference codes (B31.3, API 571/574/577/579), 5-day prep, 96% first-attempt pass. Free consultation + quote on request.'
+  },
+  '/api-653-certification': {
+    title: 'API 653 Certification 2026: Tank Inspector Exam Schedule, 10 Codes, 96% Pass',
+    description: 'API 653 Aboveground Storage Tank Inspector 2026 — exam dates + 10 reference codes (API 653/650/651, ASME V/IX), MFL + UT + settlement + RBI workflow, 96% first-attempt pass. Free consultation.'
+  },
+  '/blog/asnt-snt-tc-1a-certification-requirements': {
+    title: 'ASNT SNT-TC-1A 2024 Requirements: Levels, Hours, Written Practice + 30-Day Pass Plan',
+    description: 'ASNT SNT-TC-1A 2024 edition explained — Level I/II/III training hours, OJT minimums, annual eye test (Jaeger J1 + Ishihara), employer Written Practice template, 30-day pass plan.'
+  },
+  '/blog/api-510-570-653-exam-schedule-2026': {
+    title: 'API 510 / 570 / 653 Exam Schedule 2026: All 2026 Dates + 6 Cities + Prep Path',
+    description: 'Full 2026 API ICP exam schedule — API 510 / 570 / 653 dates across Houston, Dubai, Mumbai, London, Singapore, KL. 5-day Atlantis NDT prep, 96% first-attempt pass.'
+  },
+  '/blog/ndt-level-iii-certification-requirements-guide': {
+    title: 'ASNT Level III 2026: Basic + Method Exam Structure, Experience Path, 30-Day Prep',
+    description: 'ASNT NDT Level III 2026 — Basic exam (135 q), Method exam (66 q), 4-year experience minimum, recertification cycle. Free 30-day study calendar + mock-exam access on request.'
+  },
+  '/asnt-certification': {
+    title: 'ASNT NDT Certification 2026: SNT-TC-1A vs ACCP, Level I/II/III, 96% Pass | Atlantis',
+    description: 'ASNT certification 2026 — SNT-TC-1A vs ACCP vs CP-189. Level I/II/III training hours, exam structure, annual eye test, 96% first-attempt pass. Free roadmap + consultation.'
+  },
+  '/digital-twins': {
+    title: 'Digital Twin for NDT 2026: API 510/570/653 + RBI + FFS Integrated | Free Consultation',
+    description: 'Atlantis NDT Digital Twin platform 2026 — 3D corrosion map, API 510/570/653 inspection workflow, API 581 RBI, API 579 FFS, mobile field-app integration. Affordable, accessible, fully customizable. Free consultation.'
+  },
+  '/consulting': {
+    title: 'NDT Consulting 2026: ASNT Level III + API 579 FFS + RBI + Code Audits | Free Quote',
+    description: 'Atlantis NDT consulting 2026 — ASNT Level III SME of record (with SLA), API 579 fitness-for-service, API 580/581 RBI, AWS D1.1 / ASME Section V code audits. Free consultation.'
+  },
+  '/api-inspector-guide': {
+    title: 'API Inspector Career 2026: 510 vs 570 vs 653 Compared, Salary, 96% Pass Path',
+    description: 'API 510, 570, 653 inspector certifications compared — scope, codes, exam format, salary trajectory, career path. 5-day Atlantis NDT prep, 96% first-attempt pass rate.'
+  },
+  '/best-ndt-reporting-software-2026': {
+    title: 'Best NDT Reporting Software 2026: Top 10 Compared + IACS Marine Format | Free Quote',
+    description: 'Top 10 NDT reporting software 2026 — Atlantis NDT (#1), Hexagon, Bentley, Maximo, AspenTech, SAP PM compared. IACS Marine report bundle, API 510/570/653 templates. Free quote.'
+  }
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
@@ -941,7 +993,7 @@ const corePages = [
     title: 'API 653 Certification [2026]: Tank Inspector Exam — 10 Codes You Must Know',
     description: 'API 653 tank inspector exam requires 10 reference codes (API 650/651/653, ASME V/IX). Our guide covers exam format, cost ($3K-$6K), RBI formulas, and $80K-$130K+ salary path.',
     bodyH1: 'API 653 Aboveground Storage Tank Inspector Certification',
-    bodyText: 'Comprehensive API 653 Aboveground Storage Tank Inspector certification exam preparation. Open-book format covering API 653/650/651, <a href="/consulting/rbi-program-design">RBI</a>, tank inspection intervals, and NDT methods. 96% first-attempt pass rate, ASNT Level III-led prep. See our deep <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a>, pair with <a href="/api-510-certification">API 510 pressure vessel</a> or <a href="/api-570-certification">API 570 piping</a> for broader inspection authority, and layer Atlantis NDT <a href="/digital-twins/storage-tank">tank digital twin</a> for bottom-plate MFL + settlement overlays.',
+    bodyText: 'API 653 — the API Aboveground Storage Tank Inspector certification — is the dominant tank-inspection credential globally. The 2026 API 653 exam is open-book, 170 questions, 7.5 hours, with 10 reference codes (API 653 / 650 / 651, ASME Section V / IX, API 571 damage mechanisms, API 575 / 576 / 577 / 578 / 579 / 581 RBI, API 12C). Required for any Authorised Tank Inspector role at refining, midstream, terminals, LNG, and marine cargo-tank operators. Atlantis NDT runs 5-day intensive API 653 prep with 96% first-attempt pass rate, ASNT Level III-led, with mock exams, code-navigation drills, and 12-month material access. See our deep <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a> + new <a href="/blog/api-653-body-of-knowledge-2026-changes-explained">2026 Body of Knowledge changes</a>. Pair with <a href="/api-510-certification">API 510 pressure vessel</a> or <a href="/api-570-certification">API 570 piping</a> for broader inspection authority. Combine with Atlantis NDT <a href="/digital-twins/storage-tank">Tank Digital Twin</a> for bottom-plate MFL + settlement overlays. Free consultation + quote on request — pricing varies by region and scope.',
   },
   {
     path: '/intelligent-reporting-software',
