@@ -532,6 +532,32 @@ Object.assign(CTR_OVERRIDES, {
   }
 });
 
+// === Day-11 CTR rewrites — page-3 climbers + new blog targets ===
+// Live GSC pulled 2026-06-21 — high-impression pages at pos 25-50 that need
+// title + meta + cross-link uplift to climb to page 2.
+Object.assign(CTR_OVERRIDES, {
+  '/blog/api-510-vs-570-comparison': {
+    title: 'API 510 vs API 570 2026: Vessels vs Piping Inspector — Career Decision Decoded',
+    description: 'API 510 (pressure vessel) vs API 570 (piping) inspector compared — scope, codes, exam, salary, career path. 5-day prep, 96% first-attempt pass. Free consultation + quote.'
+  },
+  '/blog/asnt-snt-tc-1a-vs-cp-189-comparison': {
+    title: 'ASNT SNT-TC-1A vs CP-189 2026: RP vs Standard — Which Path Wins?',
+    description: 'SNT-TC-1A (Recommended Practice) vs CP-189 (Employer Standard) — flexibility vs rigour, training hours, exam admin, employer portability. Decision guide.'
+  },
+  '/api-510-training': {
+    title: 'API 510 Training 2026: 5-Day Prep, 9 Codes, 96% Pass | Houston / Dubai / Mumbai',
+    description: 'API 510 Pressure Vessel Inspector training 2026 — Houston, Dubai, Riyadh, Mumbai, Singapore, online. ASNT NDT Level III-led, 9 reference codes, 96% first-attempt pass. Free consultation.'
+  },
+  '/api-653-training': {
+    title: 'API 653 Training 2026: 5-Day Prep, 10 Codes, 96% Pass | Houston / Dubai / Mumbai',
+    description: 'API 653 Tank Inspector training 2026 — Houston, Dubai, Riyadh, Mumbai, Singapore, online. ASNT NDT Level III-led, 10 codes, MFL + UT + settlement workflow, 96% pass.'
+  },
+  '/blog/asme-section-v-ndt-requirements-guide': {
+    title: 'ASME Section V Articles 1-30 — Complete NDE Requirements Decoded 2026',
+    description: 'ASME Section V — every Article 1-30 explained. UT (Art 4), RT (Art 2), MT (Art 7), PT (Art 6), VT (Art 9), digital RT (Art 22/27), composite UT (Art 30). Inspector decoder.'
+  },
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
@@ -976,10 +1002,10 @@ const corePages = [
   },
   {
     path: '/api-570-training',
-    title: 'API 570 Training 2026 — Houston, Dubai, Saudi, Singapore, India',
-    description: 'API 570 Piping Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME B31.3 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors.',
-    bodyH1: 'API 570 Piping Inspector Training',
-    bodyText: 'Comprehensive API 570 Piping Inspector training and exam-prep course, delivered classroom, online and blended. Our API 570 training course covers ASME B31.3 process piping, API 570/571/574/577/578, RBI per API 580/581, corrosion monitoring locations, remaining-life and thickness calculations, and open-book exam strategy. Available as API 570 online training and in-person in Houston, Dubai, Riyadh/Jubail, Singapore and Hyderabad/Mumbai, with a 95% first-attempt pass rate and ADNOC / Saudi Aramco / Petronas approved instructors.',
+    title: 'API 570 Training 2026 — Exam Schedule, 8 Codes, 96% Pass | Houston / Dubai / Mumbai',
+    description: 'API 570 Piping Inspector training 2026 — exam dates Houston, Dubai, Riyadh, Singapore, Mumbai, online. 8 reference codes (B31.3, API 571/574/577/579/581/583), 5-day prep, 96% first-attempt pass. Free consultation + quote on request.',
+    bodyH1: 'API 570 Piping Inspector Training 2026 — Exam Schedule, 8 Codes, 96% Pass',
+    bodyText: 'Comprehensive API 570 Piping Inspector training and exam-prep course for the 2026 cycle, delivered classroom, online and blended. ASNT NDT Level III-led. The 5-day intensive cohort covers ASME B31.3 process piping, API 570 + 571 + 574 + 577 + 578 + 579 + 581 + 583 (full 8-code reference set), CUI per API RP 583, RBI per API 580/581, corrosion monitoring locations + TML grid design, remaining-life + thickness calculations per API 570 § 5.7, and open-book exam strategy + code-navigation drills. The 96% first-attempt pass rate is verified across Houston, Dubai, Riyadh / Jubail, Singapore, Mumbai, and online cohorts; ADNOC / Saudi Aramco / Petronas approved instructors. Includes 3 timed mock exams + 12-month material access + free retake mini-cohort if you fail. Pair with <a href="/api-510-certification">API 510 Pressure Vessel</a> for broader inspection authority, or <a href="/blog/api-570-body-of-knowledge-2026-changes-explained">API 570 BOK 2026 changes</a> for the latest scope updates. See <a href="/blog/api-510-570-653-pass-rate-2026-verified-statistics-explained">verified pass rate statistics</a> and <a href="/blog/api-570-certification-cost-2026-what-affects-your-quote">what affects your quote</a>. Free consultation + tailored quote on request — pricing varies by region and scope.',
   },
   {
     path: '/eddy-current-tube-inspection',
