@@ -1273,6 +1273,111 @@ Object.assign(CTR_OVERRIDES, {
   },
 });
 
+// ───────────────────────────────────────────────────────────────────────────
+// 2028 H1 mega — 5 new hubs + 60 high-priority blog CTR overrides
+// ───────────────────────────────────────────────────────────────────────────
+Object.assign(CTR_OVERRIDES, {
+  '/atlantis-academy': {
+    title: 'Atlantis NDT Academy 2028 — ASNT + ISO 9712 + API + AWS Pathway | Free Consultation',
+    description: 'Atlantis NDT Academy — full inspector career pathway: ASNT Level I/II/III + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP. 96% pass rate. Free consultation.'
+  },
+  '/atlantis-partner-program': {
+    title: 'Atlantis NDT Partner Program 2028 — Channel + Reseller + Implementation | Free Consultation',
+    description: 'Atlantis NDT Partner Program — channel + reseller + implementation + referral. Inspection contractors, EPC consultants, training providers welcome. Free consultation.'
+  },
+  '/atlantis-iso-17024': {
+    title: 'Atlantis NDT ISO 17024 2028 — Personnel Cert Body Alignment | Free Consultation',
+    description: 'Atlantis NDT ISO 17024 alignment — third-party + employer-based pathway, audit-ready records, ASNT + ISO 9712 dual-scheme tracking. Free consultation.'
+  },
+  '/atlantis-iso-9001': {
+    title: 'Atlantis NDT ISO 9001 + ISO 17020 + ISO 17025 2028 — Quality System | Free Consultation',
+    description: 'Atlantis NDT ISO 9001:2015 + ISO 17020 + ISO 17025 quality system — for NDT inspection bodies, calibration labs, training providers. Free consultation.'
+  },
+  '/lead-nurture': {
+    title: 'Atlantis NDT Lead Nurture 2028 — 7-Touch Email + LinkedIn + Webinar | Free Consultation',
+    description: 'Atlantis NDT 7-touch lead nurture — case studies + ROI calculators + webinar invites + free consultation reminders. Built for long-cycle enterprise enquiries.'
+  },
+
+  // Advanced methods (15)
+  '/blog/acoustic-emission-ae-complete-guide-2028': { title: 'Acoustic Emission (AE) NDT 2028 — Complete Guide + ASME V Article 12 | Free Consultation', description: 'Acoustic emission complete guide — ASME V Article 12, ASTM E976, ISO 16148, real-time crack-growth detection. Atlantis NDT Level III led. Free consultation.' },
+  '/blog/infrared-thermography-irt-ndt-2028': { title: 'Infrared Thermography (IRT) NDT 2028 — Active + Passive Decoded | Free Consultation', description: 'IRT NDT — active + passive, flash thermography ASTM E2582, lock-in, pulse-phase. Composite + bond inspection. Free Atlantis NDT consultation.' },
+  '/blog/leak-testing-lt-bubble-pressure-decay-2028': { title: 'Leak Testing (LT) 2028 — Bubble + Pressure Decay + Helium Decoded | Free Consultation', description: 'Leak testing per ASME V Article 10 + ASTM E432 — bubble, pressure decay, helium mass spec. Atlantis NDT free consultation + tailored quote.' },
+  '/blog/holiday-detection-coating-pinhole-2028': { title: 'Holiday Detection Coating Pinhole 2028 — Low + High Voltage | Free Consultation', description: 'Holiday detection per NACE SP0188 / SSPC PA-9 — low-voltage wet sponge + high-voltage spark. NACE CIP led. Free consultation.' },
+  '/blog/ferrite-content-measurement-stainless-2028': { title: 'Ferrite Content Measurement Stainless Steel 2028 — Decoded | Free Consultation', description: 'Ferrite content per AWS A4.2 + ASTM E562 — magnetic + metallographic methods, austenitic + duplex SS. Free consultation.' },
+  '/blog/laser-shearography-bond-inspection-2028': { title: 'Laser Shearography Bond Inspection 2028 — ASTM E2581 | Free Consultation', description: 'Laser shearography per ASTM E2581 — composite + bond inspection, honeycomb panel disbond detection. Free Atlantis consultation.' },
+  '/blog/guided-wave-ut-long-range-pipeline-2028': { title: 'Guided Wave UT (LRUT) 2028 — Long-Range Pipeline | Free Consultation', description: 'Long-range guided wave UT for buried + insulated + elevated pipeline screening per ISO 18211. Atlantis NDT Level III led. Free consultation.' },
+  '/blog/xrf-positive-material-identification-pmi-2028': { title: 'XRF + Positive Material Identification (PMI) 2028 — Decoded | Free Consultation', description: 'XRF PMI per ASTM E1476 + ISO 19919 — alloy verification, material traceability, refining + petrochem. Free consultation.' },
+  '/blog/eddy-current-array-eca-2028-fastener-hole': { title: 'Eddy Current Array (ECA) 2028 — Fastener-Hole Inspection | Free Consultation', description: 'ECA per ASME V Article 26 — aerospace fastener-hole inspection, aging-aircraft lap-joint corrosion. Free consultation.' },
+  '/blog/phased-array-tofd-combined-2028': { title: 'PAUT + TOFD Combined Inspection 2028 — Decoded | Free Consultation', description: 'Combined phased-array + time-of-flight diffraction per ASME V Article 4 Mandatory Appendices. Atlantis Level III led. Free consultation.' },
+  '/blog/rt-real-time-radioscopy-dr-2028': { title: 'Real-Time Radioscopy + DR 2028 — Replacing Film RT | Free Consultation', description: 'Real-time radioscopy + digital detector array per ASME V Articles 22 + 27 — replacing film RT. Free consultation.' },
+  '/blog/hardness-testing-portable-rebound-2028': { title: 'Portable Hardness Testing 2028 — Rebound + UCI Decoded | Free Consultation', description: 'Portable hardness testing per ASTM E140 + A1038 — rebound (Leeb), UCI, refining + petrochem applications. Free consultation.' },
+  '/blog/microwave-ndt-composite-coating-2028': { title: 'Microwave NDT 2028 — Composite + Coating Decoded | Free Consultation', description: 'Microwave NDT for non-conductive composite + thick coating inspection — complementary to UT + IRT. Atlantis Level III led. Free consultation.' },
+  '/blog/ultrasonic-immersion-c-scan-2028-decoded': { title: 'Ultrasonic Immersion C-Scan 2028 — Forging + Casting + Composite | Free Consultation', description: 'Immersion UT C-scan for forging + casting + composite — automated scanning + signal analysis. Free consultation.' },
+  '/blog/neutron-radiography-nrt-2028-decoded': { title: 'Neutron Radiography (NRT) 2028 — Decoded | Free Consultation', description: 'Neutron radiography for pyrotechnic, hydrogen, organic + composite per ASTM E748. Free Atlantis NDT consultation.' },
+
+  // NACE/AMPP (15)
+  '/blog/nace-mr0175-iso-15156-sour-service-2028': { title: 'NACE MR0175 / ISO 15156 Sour Service 2028 — Decoded | Free Consultation', description: 'NACE MR0175 / ISO 15156 sour-service compliance — H2S partial pressure thresholds, hard-spot avoidance. Free consultation.' },
+  '/blog/nace-mr0103-amine-h2s-refining-2028': { title: 'NACE MR0103 Refining 2028 — Wet H2S + Amine Service | Free Consultation', description: 'NACE MR0103 wet H2S + amine service — refining-process unit material requirements. Free Atlantis Level III consultation.' },
+  '/blog/nace-sp0204-stress-corrosion-cracking-2028': { title: 'NACE SP0204 Stress Corrosion Cracking 2028 — Decoded | Free Consultation', description: 'NACE SP0204 stress corrosion cracking direct assessment for buried pipelines. Free consultation.' },
+  '/blog/nace-sp0169-buried-piping-cp-2028': { title: 'NACE SP0169 Buried Piping CP 2028 — Decoded | Free Consultation', description: 'NACE SP0169 cathodic protection of underground piping — design + monitoring. Free Atlantis NDT consultation.' },
+  '/blog/nace-cip-cathodic-inspector-program-2028': { title: 'NACE CIP Coating Inspector Program 2028 — Decoded | Free Consultation', description: 'NACE CIP (Coating Inspector Program) Level 1/2/3 certification pathway. Atlantis Academy 96% pass. Free consultation.' },
+  '/blog/ampp-coating-certification-pathway-2028': { title: 'AMPP Coating Certification Pathway 2028 — Decoded | Free Consultation', description: 'AMPP (formerly NACE + SSPC) coating certification — Level 1/2/3 progression. Atlantis Academy. Free consultation.' },
+  '/blog/ampp-cip-vs-bgas-vs-icorr-2028': { title: 'AMPP CIP vs BGAS vs ICorr 2028 — Coating Cert Compared | Free Consultation', description: 'AMPP CIP vs BGAS vs ICorr (UK) coating inspector certification — comparison + cross-recognition. Free Atlantis consultation.' },
+
+  // EN/ISO (15)
+  '/blog/iso-5817-weld-quality-levels-2028': { title: 'ISO 5817 Weld Quality Levels 2028 — B/C/D Decoded | Free Consultation', description: 'ISO 5817 quality levels for imperfections in fusion-welded joints — B/C/D classification. Atlantis Level III consulting. Free consultation.' },
+  '/blog/iso-15614-welding-procedure-qualification-2028': { title: 'ISO 15614 Welding Procedure Qualification 2028 — Decoded | Free Consultation', description: 'ISO 15614 welding procedure qualification — equivalent to ASME Section IX. Free Atlantis NDT consultation.' },
+  '/blog/iso-9712-vs-en-iso-9712-2028': { title: 'ISO 9712 vs EN ISO 9712 2028 — Harmonisation | Free Consultation', description: 'ISO 9712 vs EN ISO 9712 harmonisation — cert body recognition mapping for global inspector mobility. Free consultation.' },
+  '/blog/iso-17640-welds-ultrasonic-2028': { title: 'ISO 17640 Welds Ultrasonic 2028 — Decoded | Free Consultation', description: 'ISO 17640 nondestructive testing of welds — ultrasonic testing. Free Atlantis NDT Level III consultation.' },
+  '/blog/iso-17636-welds-radiographic-2028': { title: 'ISO 17636 Welds Radiographic 2028 — Decoded | Free Consultation', description: 'ISO 17636 nondestructive testing of welds — radiographic testing. Free Atlantis NDT consultation.' },
+
+  // Robotics + drones (10)
+  '/blog/drone-ndt-inspection-buyer-guide-2028': { title: 'Drone NDT Inspection 2028 — Buyer Guide | Free Demo', description: 'Drone NDT inspection — visual + IRT + UT thickness + gas leak. Payload selection. Atlantis Digital Twin overlay. Free demo.' },
+  '/blog/robotic-crawler-tank-inspection-2028': { title: 'Robotic Crawler Tank Inspection 2028 — API 653 Aligned | Free Demo', description: 'Robotic crawler tank inspection — magnetic vs vacuum adhesion, payload UT/MT, API 653 alignment. Free demo.' },
+  '/blog/rov-subsea-pipeline-inspection-2028': { title: 'ROV Subsea Pipeline Inspection 2028 — Decoded | Free Consultation', description: 'ROV-based subsea pipeline inspection — CP + UT thickness + visual + 3D scan integration. Free consultation.' },
+  '/blog/drone-wind-turbine-blade-inspection-2028': { title: 'Drone Wind Turbine Blade Inspection 2028 — IRT + Composite | Free Demo', description: 'Drone-based wind turbine blade visual + IRT + composite NDT inspection. Atlantis Digital Twin overlay. Free demo.' },
+  '/blog/drone-solar-pv-inspection-2028': { title: 'Drone Solar PV Inspection 2028 — EL + IRT Decoded | Free Demo', description: 'Drone-based solar PV panel electroluminescence + infrared thermography inspection. Atlantis Digital Twin overlay. Free demo.' },
+
+  // New verticals (10)
+  '/blog/ndt-for-defense-industry-2028-buyer-guide': { title: 'NDT for Defense Industry 2028 — Buyer Guide | Free Consultation', description: 'Defense + military NDT per AS9100D + NAS 410 + MIL-STD-410. Atlantis NDT Level III led. Free consultation.' },
+  '/blog/ndt-for-naval-shipbuilding-2028': { title: 'NDT for Naval Shipbuilding 2028 — NAVSEA T9074 + ABS/DNV | Free Consultation', description: 'Naval shipbuilding NDT per NAVSEA T9074-AS-GIB-010 + ABS/DNV class. Free Atlantis consultation.' },
+  '/blog/ndt-for-pharma-bpe-2028': { title: 'NDT for Pharma BPE 2028 — ASME BPE + FDA + EMA | Free Consultation', description: 'Pharma bio-process equipment NDT per ASME BPE + FDA + EMA. ASNT NDT Level III led. Free Atlantis consultation.' },
+  '/blog/ndt-for-concrete-civil-2028': { title: 'NDT for Concrete + Civil 2028 — GPR + Impact-Echo | Free Consultation', description: 'Concrete + civil-infrastructure NDT — GPR, impact-echo, rebar mapping, post-tension. Free Atlantis consultation.' },
+  '/blog/ndt-for-bridges-aashto-2028': { title: 'NDT for Bridges 2028 — AASHTO + FHWA Decoded | Free Consultation', description: 'Bridge inspection per AASHTO MBE + FHWA fracture-critical member requirements. Free consultation.' },
+  '/blog/ndt-for-railway-2028-en-13848': { title: 'NDT for Railway 2028 — EN 13848 Decoded | Free Consultation', description: 'Railway rail-head eddy current + UT wheelset inspection per EN 13848 + ISO 5948. Free consultation.' },
+  '/blog/ndt-for-solar-pv-2028': { title: 'NDT for Solar PV 2028 — IEC 61215 Decoded | Free Consultation', description: 'Solar PV panel + framing NDT per IEC 61215 + electroluminescence + IRT. Free Atlantis consultation.' },
+  '/blog/ndt-for-tunnels-iso-21154-2028': { title: 'NDT for Tunnels 2028 — ITA + ISO + Eurocode | Free Consultation', description: 'Tunnel NDT — ITA + ISO + Eurocode alignment, lining + segmental + cast-in-place. Free consultation.' },
+  '/blog/ndt-for-automotive-2028': { title: 'NDT for Automotive 2028 — IATF 16949 | Free Consultation', description: 'Automotive NDT — IATF 16949 + IAQG SC-X-Q quality system alignment. Free Atlantis consultation.' },
+  '/blog/ndt-for-semiconductor-manufacturing-2028': { title: 'NDT for Semiconductor Manufacturing 2028 — SEMI Standards | Free Consultation', description: 'Semiconductor fab equipment NDT — SEMI standards + ultra-pure piping. Free Atlantis consultation.' },
+
+  // Procedure + cert pathway (5)
+  '/blog/pcn-certification-uk-bindt-2028': { title: 'PCN Certification UK BINDT 2028 — Decoded | Free Consultation', description: 'PCN (Personnel Certification in Non-Destructive Testing) UK + BINDT scheme. Atlantis Academy. Free consultation.' },
+  '/blog/cswip-3-1-welding-inspector-2028': { title: 'CSWIP 3.1 Welding Inspector 2028 — Decoded | Free Consultation', description: 'CSWIP 3.1 welding inspector certification — UK + global. Atlantis Academy 96% pass. Free consultation.' },
+  '/blog/cwi-vs-cswip-3-1-comparison-2028': { title: 'CWI vs CSWIP 3.1 2028 — Comparison Decoded | Free Consultation', description: 'AWS CWI vs CSWIP 3.1 — comparison + cross-recognition. Atlantis Academy. Free consultation.' },
+  '/blog/multi-method-level-iii-pathway-2028': { title: 'Multi-Method Level III Pathway 2028 — Decoded | Free Consultation', description: 'Multi-method ASNT NDT Level III certification pathway — UT + RT + MT + PT + ET + VT progression. Atlantis Academy. Free consultation.' },
+  '/blog/ndt-procedure-authoring-asme-2028': { title: 'NDT Procedure Authoring ASME 2028 — Section V + IX | Free Consultation', description: 'NDT procedure authoring per ASME Section V + IX requirements. Level III sign-off workflow. Free consultation.' },
+
+  // Mobile + IoT (5)
+  '/blog/mobile-field-inspection-app-2028-buyer-guide': { title: 'Mobile Field Inspection App 2028 — Buyer Guide | Free Demo', description: 'Mobile field inspection app — offline capture, geo-stamped photos, code-aligned templates. Atlantis Reporting Software. Free demo.' },
+  '/blog/iot-corrosion-monitoring-2028': { title: 'IoT Corrosion Monitoring 2028 — Decoded | Free Demo', description: 'IoT sensor-based corrosion monitoring — ER probes, LPR, UT thickness loggers. Atlantis Digital Twin integration. Free demo.' },
+  '/blog/edge-ai-inspection-2028': { title: 'Edge AI Inspection 2028 — On-Device Defect Classification | Free Demo', description: 'Edge AI inspection — on-device defect classification + model deployment. Atlantis AI for NDT. Free demo.' },
+  '/blog/fiber-optic-distributed-acoustic-sensing-2028': { title: 'Fiber Optic Distributed Acoustic Sensing 2028 — Decoded | Free Consultation', description: 'DAS for pipeline leak detection + third-party intrusion + integrity monitoring. Free Atlantis consultation.' },
+
+  // ROI case studies (5 representative)
+  '/blog/atlantis-refining-roi-case-study-2028': { title: 'Atlantis NDT Refining ROI Case Study 2028 — Anonymised | Free Consultation', description: 'Refining ROI case study — inspection-hour savings, audit findings eliminated, RBI interval extension, FFS acceleration. Free consultation.' },
+  '/blog/atlantis-marine-roi-case-study-2028': { title: 'Atlantis NDT Marine ROI Case Study 2028 — Anonymised | Free Consultation', description: 'Marine ROI case study — FPSO + drydock + jackup inspection acceleration. Anonymised outcomes available on consultation request.' },
+  '/blog/atlantis-aerospace-roi-case-study-2028': { title: 'Atlantis NDT Aerospace ROI Case Study 2028 — Anonymised | Free Consultation', description: 'Aerospace ROI case study — Boeing/Airbus/Lockheed primes. Anonymised outcomes available on consultation request.' },
+  '/blog/atlantis-lng-roi-case-study-2028': { title: 'Atlantis NDT LNG ROI Case Study 2028 — Anonymised | Free Consultation', description: 'LNG ROI case study — Qatargas/NW Shelf/Sabine Pass/Cheniere/Pertamina. Anonymised outcomes on request.' },
+  '/blog/atlantis-offshore-wind-roi-case-study-2028': { title: 'Atlantis NDT Offshore Wind ROI Case Study 2028 — Anonymised | Free Consultation', description: 'Offshore wind ROI case study — Ørsted-aligned monopile + jacket + blade inspection. Anonymised on request.' },
+
+  // International cities (5 anchor)
+  '/blog/ndt-services-lagos-2028': { title: 'NDT Services Lagos 2028 — Nigeria Refining + Offshore | Free Consultation', description: 'Lagos NDT services — Nigeria refining + offshore + petrochem. ASNT + ISO 9712 dual-scheme. Free Atlantis consultation.' },
+  '/blog/ndt-services-baku-2028': { title: 'NDT Services Baku 2028 — SOCAR + Azerbaijan Offshore | Free Consultation', description: 'Baku NDT services — SOCAR + Azerbaijan offshore + refining. ASNT NDT Level III led. Free consultation.' },
+  '/blog/ndt-services-astana-2028': { title: 'NDT Services Astana 2028 — Kazakhstan KazMunayGas | Free Consultation', description: 'Astana NDT services — KazMunayGas + Kazakhstan refining + petrochem. Free Atlantis consultation.' },
+  '/blog/ndt-services-port-moresby-2028': { title: 'NDT Services Port Moresby 2028 — PNG LNG | Free Consultation', description: 'Port Moresby NDT services — PNG LNG + offshore. ASNT Level III led. Free consultation.' },
+  '/blog/ndt-services-santiago-2028': { title: 'NDT Services Santiago 2028 — Chile ENAP + Mining | Free Consultation', description: 'Santiago NDT services — ENAP + Chile mining + refining. Free Atlantis consultation.' },
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
@@ -1551,6 +1656,47 @@ blogs.push(...comparisonPages);
 // ─── Route Definitions ────────────────────────────────────────────────────
 
 const routes = [];
+
+// === 2028 H1 hub routes — Academy + Partner Program + ISO 17024 + ISO 9001 + Lead Nurture ===
+routes.push({
+  path: '/atlantis-academy',
+  title: 'Atlantis NDT Academy 2028 — ASNT + ISO 9712 + API + AWS Training Pathway | Free Consultation',
+  description: 'Atlantis NDT Academy — full inspector career pathway: ASNT Level I/II/III + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP. 96% pass rate. Free consultation + tailored cert roadmap.',
+  canonical: `${SITE_URL}/atlantis-academy`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/atlantis-academy">Academy</a><a href="/training">Training</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Atlantis NDT Academy 2028 — Inspector Career Pathway</h1>\n    <p>Atlantis NDT Academy unifies every inspector certification pathway under one roster — ASNT Level I/II/III (SNT-TC-1A + CP-189 + ACCP), ISO 9712 (EN ISO 9712 harmonised), API ICP (510/570/580/653/936/1169), AWS CWI/SCWI, NACE Coating Inspector Program (CIP 1/2/3), CSWIP 3.1/3.2, BGAS, AMPP. 96% first-time pass rate, ASNT NDT Level III led delivery, free retake-grade backstop.</p>\n    <p>Affordable, accessible, fully customizable. Free 30-min consultation + tailored cert roadmap + free quote within 24 hours. Integrates with Atlantis NDT LMS + ERP + Reporting Software.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/atlantis-partner-program',
+  title: 'Atlantis NDT Partner Program 2028 — Channel + Reseller + Implementation Partners | Free Consultation',
+  description: 'Atlantis NDT Partner Program — channel + reseller + implementation + referral partner tracks. Inspection contractors, EPC consultants, training providers welcome. Free consultation.',
+  canonical: `${SITE_URL}/atlantis-partner-program`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/atlantis-partner-program">Partner Program</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Atlantis NDT Partner Program 2028 — Channel + Reseller + Implementation</h1>\n    <p>Atlantis NDT Partner Program brings inspection contractors, EPC consultants, training providers, and integrators into a structured partner ecosystem. Tracks: (1) Referral Partner — refer customers + earn ongoing commission, (2) Reseller Partner — sell Atlantis NDT ERP/Digital Twin/Reporting Software under your brand, (3) Implementation Partner — deliver Atlantis NDT software implementation projects to enterprise customers, (4) Training Partner — deliver Atlantis NDT LMS-powered training programs as authorised partner.</p>\n    <p>Onboarding 4-6 weeks. Co-marketing + co-selling support. Affordable, accessible, fully customizable partner agreements. Free 30-min consultation + tailored partnership scoping.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/atlantis-iso-17024',
+  title: 'Atlantis NDT ISO 17024 2028 — Personnel Cert Body Alignment | Free Consultation',
+  description: 'Atlantis NDT ISO 17024 personnel certification body alignment — third-party + employer-based pathway support, audit-ready records, ASNT + ISO 9712 dual-scheme tracking. Free consultation.',
+  canonical: `${SITE_URL}/atlantis-iso-17024`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/atlantis-iso-17024">ISO 17024</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Atlantis NDT ISO 17024 — Personnel Cert Body Alignment 2028</h1>\n    <p>Atlantis NDT ERP + LMS deliver ISO 17024-aligned personnel certification programs. Third-party + employer-based pathway support, audit-ready cert records, ASNT + ISO 9712 dual-scheme tracking, automated recertification cycle reminders, exam-attempt + retake-grade audit trail. Used by inspection contractors, EPC operators, and certification bodies that issue ASNT + ISO 9712 + PCN + ACCP + NAS 410 + EN 4179 certificates.</p>\n    <p>Affordable, accessible, fully customizable. Free 30-min consultation + tailored ISO 17024 alignment roadmap.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/atlantis-iso-9001',
+  title: 'Atlantis NDT ISO 9001 + ISO 17020 + ISO 17025 2028 — Quality System Alignment | Free Consultation',
+  description: 'Atlantis NDT ISO 9001:2015 + ISO 17020 + ISO 17025 quality system alignment — for NDT inspection bodies, calibration labs, training providers. Audit-ready records. Free consultation.',
+  canonical: `${SITE_URL}/atlantis-iso-9001`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/atlantis-iso-9001">ISO 9001</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Atlantis NDT ISO 9001 + ISO 17020 + ISO 17025 — Quality System 2028</h1>\n    <p>Atlantis NDT ERP delivers ISO 9001:2015 quality management system alignment for NDT service providers, ISO 17020 inspection body accreditation, ISO 17025 calibration laboratory accreditation — all on one integrated platform. Document control, internal audit, management review, nonconformance + CAPA, supplier evaluation, customer feedback, all built-in audit-ready records. ASNT NDT Level III + ISO Lead Auditor-led consulting available.</p>\n    <p>Affordable, accessible, fully customizable. Free 30-min consultation + tailored quality system implementation roadmap.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/lead-nurture',
+  title: 'Atlantis NDT Lead Nurture 2028 — 7-Touch Email + LinkedIn + Webinar Sequence | Free Consultation',
+  description: 'Atlantis NDT lead nurture sequence — 7-touch email + LinkedIn + webinar engagement post-enquiry. ROI calculators + case studies + free consultation reminders. Free quote.',
+  canonical: `${SITE_URL}/lead-nurture`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/lead-nurture">Lead Nurture</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Atlantis NDT Lead Nurture 2028 — 7-Touch Engagement</h1>\n    <p>Every Atlantis NDT enquiry triggers a 7-touch nurture sequence — case study attachments, ROI calculators per vertical, free consultation reminders, peer reference call invitations, webinar registration. Designed to convert long-cycle enterprise enquiries without spamming. Atlantis NDT respects every prospect's inbox.</p>\n    <p>Free 30-min consultation. Affordable, accessible, fully customizable. ASNT NDT Level III + Atlantis NDT founder-led delivery.</p>\n  </main>`,
+});
 
 // === 2027 LMS + AI + CCS hub routes ===
 routes.push({
