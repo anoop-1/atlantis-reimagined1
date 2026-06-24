@@ -1,0 +1,261 @@
+#!/usr/bin/env node
+/**
+ * Month 2 — Satellite round-3 angles. 175 article topics × 35 satellite sites.
+ *
+ * Each satellite gets 5 new articles in round-3. Topics chosen to extend the
+ * backlink graph + cover gaps not addressed in round-1 + round-2.
+ *
+ * Run together with scripts/satellite-enrich.mjs --round3 to generate content
+ * + push to satellites.
+ */
+export const ROUND3_ANGLES = {
+  'advanced-ndt-techniques': [
+    'Phased Array UT vs TOFD — When Each Method Wins in 2026',
+    'Acoustic Emission Monitoring for Pressure Vessel Hydrotest',
+    'Long-Range Guided Wave UT for Pipeline Screening',
+    'Computer Radiography (CR) vs Digital Detector Array (DDA) — 2026 Decision Matrix',
+    'Robotic Crawler-Based UT — In-Service Inspection of Tall Vessels',
+  ],
+  'aerospace-ndt-standards': [
+    'NAS 410 vs EN 4179 — Aerospace NDT Cert Cross-Recognition',
+    'Boeing D1-9000 + Pratt & Whitney Procedural Overlays Decoded',
+    'Composite UT C-Scan for Wing-Skin Inspection',
+    'Eddy Current Array (ECA) for Fastener-Hole Inspection',
+    'Flash Thermography for Bonded Panel Inspection',
+  ],
+  'api-certification-guide': [
+    'API 510/570/653 Exam Strategy — Open-Book Code Navigation',
+    'API ICP Recertification Pathways — Re-Exam vs Continuing Experience',
+    'API 580/581 RBI Practitioner Certification',
+    'API 579-1/ASME FFS-1 Engineer Qualification',
+    'API CWQI vs AWS CWI Comparison',
+  ],
+  'asset-integrity-hub': [
+    'Asset-Integrity-Management Framework — ISO 55000 Adoption',
+    'KPI Dashboard for Asset-Integrity Programs',
+    'Damage-Mechanism Susceptibility Matrix Authoring',
+    'RBI + FFS Integration in a Single Workflow',
+    'CMMS Selection for Asset-Integrity Teams',
+  ],
+  'coating-inspection-guide': [
+    'NACE Coating Inspector Certification Levels',
+    'Tank Lining Holiday Detection — Equipment Selection',
+    'Dry-Film Thickness Calibration per SSPC PA-2',
+    'Cathodic Protection + Coating Defect Correlation',
+    'CUI Insulation Inspection Strategy',
+  ],
+  'composite-testing-hub': [
+    'CFRP vs GFRP Inspection Methods',
+    'Honeycomb Panel Disbond Detection',
+    'Boeing Composite Wing-Skin Inspection',
+    'Wind-Turbine Blade Composite Inspection',
+    'Composite Repair Patch Bond Verification',
+  ],
+  'construction-ndt-guide': [
+    'AWS D1.1 Structural Weld Inspection Workflow',
+    'AISC Steel Erection Inspection Records',
+    'Bridge Weld Inspection per AWS D1.5',
+    'Pre-Stressed Concrete NDT Methods',
+    'Construction Quality Manager Toolkit',
+  ],
+  'corrosion-management-ndt': [
+    'External Corrosion Direct Assessment (ECDA) per NACE SP0502',
+    'CUI Insulation Removal + Inspection Strategy',
+    'Atmospheric Corrosion Monitoring with Probes',
+    'Soil Corrosion Survey for Buried Tanks',
+    'Sour-Service NACE MR0175 Compliance',
+  ],
+  'heat-exchanger-ndt': [
+    'Eddy Current Tube Inspection Workflow',
+    'IRIS UT for Shell-Side Inspection',
+    'Bobbin vs Array Probe Selection',
+    'Tube Plugging + Sleeving Procedures',
+    'Heat-Exchanger Reliability Programs',
+  ],
+  'industrial-inspection-resources': [
+    'OSHA PSM Mechanical Integrity Compliance',
+    'EPA RMP Compliance for Pressure Equipment',
+    'API 510/570/653 Recordkeeping Audit Prep',
+    'ISO 17020 Inspection-Body Accreditation',
+    'ISO 17025 Calibration-Lab Accreditation',
+  ],
+  'lng-inspection-hub': [
+    'LNG Tank Inspection — API 620 / 625 Compliance',
+    'Cryogenic Vessel NDT Methods',
+    'BOG Compressor Inspection',
+    'LNG Pipeline Integrity (B31.3 Severe Cyclic)',
+    'LNG Loading Arm Inspection',
+  ],
+  'manufacturing-ndt-quality': [
+    'ISO 9001:2015 NDT Document Control',
+    'AS9100D Aerospace Quality Management',
+    'IATF 16949 Automotive QMS Integration',
+    'Forging + Casting Inspection Workflow',
+    'Tube Mill QA/QC Inspector Path',
+  ],
+  'marine-offshore-ndt': [
+    'FPSO Hull Inspection per ABS / DNV / LR',
+    'Offshore Wind Monopile Inspection',
+    'Jack-Up Rig Leg Inspection',
+    'Semisubmersible MODU Pontoon Inspection',
+    'Subsea Pipeline Inspection (DNV-OS-F101)',
+  ],
+  'middle-east-ndt-resource': [
+    'Saudi Aramco SAEP-1112 Compliance',
+    'ADNOC ACS-01 Procedure Library',
+    'QatarEnergy NFPS Standards',
+    'Kuwait Oil Co. + ENOC Operator Procedures',
+    'Bahrain + Oman + Yemen NDT Markets',
+  ],
+  'mining-ndt-hub': [
+    'BHP + Rio Tinto + Vale Operator Specs',
+    'Mining Haul-Truck Frame Inspection',
+    'Conveyor + Crusher Inspection',
+    'Tailings Dam Structural Inspection',
+    'Mining-Equipment Crack Detection',
+  ],
+  'ndt-automation-future': [
+    'AI Defect Classification — Current State',
+    'Robotic Crawler + Drone Inspection',
+    'Automated UT Corrosion Mapping',
+    'Machine Vision for Visual Inspection',
+    'Predictive Maintenance via Digital Twin',
+  ],
+  'ndt-careers-portal': [
+    'NDT Career Path Map — Level I to Level III',
+    'Salary Negotiation for NDT Inspectors',
+    'NDT Resume Template + Cover Letter Bank',
+    'NDT Interview Prep — Top 30 Questions',
+    'NDT Career Transitions — Industry → Inspection',
+  ],
+  'ndt-equipment-reviews': [
+    'Olympus EPOCH 650 vs OmniScan X3',
+    'Sonatest vs GE USM Comparison',
+    'Magnaflux Y-7 Yoke Hands-On Review',
+    'Spotcheck Penetrant Kit Comparison',
+    'Drone-Based NDT Equipment Selection',
+  ],
+  'ndt-knowledge-hub': [
+    'ASNT Recommended Practice Library',
+    'API ICP Code Reference Catalogue',
+    'ISO 9712 Implementation Workflow',
+    'NACE Inspector Cert Crosswalk',
+    'AWS CWI Resource Library',
+  ],
+  'ndt-safety-compliance': [
+    'Radiation Safety for RT Inspectors',
+    'Chemical Hazards in PT + MT',
+    'Confined-Space Entry per OSHA',
+    'Working-at-Height Safety',
+    'NDT Inspector PPE Selection',
+  ],
+  'ndt-software-solutions': [
+    'NDT Reporting Software Comparison',
+    'Inspection Management ERP Selection',
+    'Mobile Field App Requirements',
+    'Digital-Twin Platform Selection',
+    'AI-Assisted NDT Software',
+  ],
+  'ndt-standards-library': [
+    'ASME Section V Articles 1-30 Index',
+    'ISO 17635 + 17636 + 17640 Crosswalk',
+    'ASTM E165 + E709 + E1417 + E1444',
+    'EN 1330 NDT Terminology',
+    'API Recommended Practice Index',
+  ],
+  'ndt-training-academy': [
+    'ASNT Level I Curriculum',
+    'ASNT Level II Method-Specific Tracks',
+    'ASNT Level III Multi-Method Path',
+    'API ICP 5-Day Intensive',
+    'CWI / SCWI Prep',
+  ],
+  'nuclear-ndt-resource': [
+    'ASME Section III Class 1/2/3 Requirements',
+    'ASME Section XI In-Service Inspection',
+    'NRC 10 CFR 50 Appendix B QA',
+    'NEI 03-08 Steam Generator Integrity',
+    'Nuclear Inspector Qualification',
+  ],
+  'oil-gas-inspection-guide': [
+    'Refinery Turnaround Inspection',
+    'Petrochemical Plant Inspection',
+    'Upstream Wellhead + Christmas Tree',
+    'Midstream Pipeline Integrity',
+    'Downstream Marketing Terminal Tanks',
+  ],
+  'petrochemical-ndt-hub': [
+    'Olefins Cracker Inspection',
+    'Steam Reformer + Ammonia Plant NDT',
+    'PE/PP Polymer Plant Inspection',
+    'Sulfur Recovery Unit Inspection',
+    'Aromatics Complex Inspection',
+  ],
+  'pipeline-integrity-guide': [
+    'In-Line Inspection (ILI) Tools',
+    'MFL vs UT vs EMAT Smart Pig',
+    'CIPS + DCVG Survey for Buried Pipelines',
+    'ECDA + ICDA + SCCDA Direct Assessment',
+    '49 CFR 192/195 Compliance',
+  ],
+  'power-generation-ndt': [
+    'Boiler Tube Inspection per ASME Section I',
+    'Steam Turbine Rotor Inspection',
+    'Heat Recovery Steam Generator (HRSG)',
+    'Cooling Tower + Condenser Inspection',
+    'Generator Stator + Rotor Inspection',
+  ],
+  'pressure-vessel-ndt': [
+    'API 510 Inspection Workflow',
+    'ASME VIII Div 1 Inspector Path',
+    'FFS Level 1 Screening Walk-Through',
+    'In-Service vs External Inspection',
+    'Pressure-Relieving Device Inspection',
+  ],
+  'rail-ndt-resource': [
+    'Rail-Head Eddy Current Inspection',
+    'Wheelset UT Inspection',
+    'Tank-Wagon Inspection',
+    'Bridge + Tunnel Structural NDT',
+    'Locomotive Engine Inspection',
+  ],
+  'renewable-energy-ndt': [
+    'Solar PV Panel EL Inspection',
+    'Wind Turbine Blade Composite UT',
+    'Geothermal Pipeline Inspection',
+    'Hydro Penstock Inspection',
+    'Tidal + Wave Turbine NDT',
+  ],
+  'subsea-inspection-guide': [
+    'ROV-Based Subsea Inspection',
+    'Subsea Pipeline FE',
+    'Riser + Flowline Inspection',
+    'Christmas Tree + Manifold NDT',
+    'Subsea Wellhead Integrity',
+  ],
+  'tank-inspection-resource': [
+    'API 653 External Inspection',
+    'MFL Floor Plate Scan',
+    'Settlement Survey per API 653',
+    'Tank Bottom Cathodic Protection',
+    'Tank Lining Inspection per API 652',
+  ],
+  'weld-quality-resource': [
+    'AWS D1.1 Acceptance Criteria',
+    'ASME VIII UW-51 Weld Inspection',
+    'API 1104 Pipeline Weld Inspection',
+    'AWS D1.5 Bridge Weld Inspection',
+    'AWS D1.6 Stainless Weld Inspection',
+  ],
+  'welding-inspection-hub': [
+    'CWI Exam Strategy',
+    'SCWI Senior Path',
+    'CSWIP Cross-Recognition',
+    'Welder Continuity Log Tracking',
+    'WPS / PQR Authoring',
+  ],
+};
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  console.log(`Round-3 angles defined: ${Object.keys(ROUND3_ANGLES).length} satellites × 5 articles each = ${Object.values(ROUND3_ANGLES).reduce((a,v)=>a+v.length,0)} total angles`);
+}

@@ -676,7 +676,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     };
 
     // Cascade CTR formula — applies to all consulting city pages without an explicit titleMap entry
-    const pageTitle = titleMap[location.slug] || `NDT Consulting in ${location.name} — ASNT Level III, API 510/570/580/653 RBI, FFS Audits | Atlantis NDT`;
+    const pageTitle = titleMap[location.slug] || `NDT Consulting ${location.name} 2026 — ASNT Level III + API 579 FFS + RBI | Free Consultation`;
     const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, API RBI program design, fitness-for-service per API 579, code consulting. Trusted by ${location.industries[0].toLowerCase()} operators. Quote: info@atlantisndt.com`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;

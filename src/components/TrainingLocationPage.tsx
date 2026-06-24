@@ -250,7 +250,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 
   // ─── Schema ──────────────────────────────────────────────────────────
   const canonical = `https://atlantisndt.com/ndt-training-${profile.slug}`;
-  const pageTitle = `NDT Training in ${profile.city} ${currentYear} — 95% Pass Rate, ASNT/${profile.primaryCert} Approved, 5 Day Course | Atlantis NDT`;
+  const pageTitle = `NDT Training ${profile.city} ${currentYear} — 96% Pass, ASNT Level III-Led, Free Consultation`;
   const pageDescription = `ASNT Level III-led NDT training in ${profile.city}. UT/RT/MT/PT/VT/ET methods per ASNT SNT-TC-1A + ${profile.primaryCert}${
     profile.secondaryCert ? " + " + profile.secondaryCert : ""
   }. 95% pass rate. Salary band ${profile.salary.usdReference}. Enroll: enroll@atlantisndt.com`;

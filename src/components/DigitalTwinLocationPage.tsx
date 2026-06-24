@@ -182,7 +182,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         "Marine & Offshore"
     ];
 
-    const pageTitle = `Digital Twin NDT ${city} | 3D Inspection Visualization | Atlantis NDT`;
+    const pageTitle = `Digital Twin ${city} 2026 — API 510/570/653 + RBI + FFS Integrated | Free Demo`;
     const pageDesc = `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets.slice(0, 2).join(", ")} and more. API 510/570/653 compliant reporting. Corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`;
     const canonical = `https://atlantisndt.com/${slug}`;
 

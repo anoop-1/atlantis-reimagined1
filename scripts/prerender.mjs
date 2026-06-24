@@ -996,6 +996,187 @@ Object.assign(CTR_OVERRIDES, {
   },
 });
 
+// === Day-19-30 + Month 2 CTR rewrites — 50 more pages ===
+// Tier-3/4 weak pages + key Day-15 new blog routes pre-optimized.
+Object.assign(CTR_OVERRIDES, {
+  '/blog/rt-level-2-practice-questions-2026-free-mock-exam': {
+    title: 'RT Level II Practice Questions 2026 — Free 50-Q Mock Exam (ASME V Art 2)',
+    description: 'RT Level II free practice — 50+ questions ASME V Article 2 aligned. IQI, geometric unsharpness, density, technique sheet. ASNT NDT Level III authored.'
+  },
+  '/blog/ut-level-2-practice-questions-2026-free-mock-exam': {
+    title: 'UT Level II Practice Questions 2026 — Free 50-Q Mock Exam (ASME V Art 4)',
+    description: 'UT Level II free practice — 50+ questions ASME V Article 4 aligned. DAC, calibration block, angle beam, scanning pattern. ASNT Level III authored.'
+  },
+  '/blog/mt-level-2-practice-questions-2026-free-mock-exam': {
+    title: 'MT Level II Practice Questions 2026 — Free 50-Q Mock Exam (ASME V Art 7)',
+    description: 'MT Level II free practice — 50+ questions ASME V Article 7 aligned. Yoke, prods, particles, pie-gauge. ASNT NDT Level III authored.'
+  },
+  '/blog/pt-level-2-practice-questions-2026-free-mock-exam': {
+    title: 'PT Level II Practice Questions 2026 — Free 50-Q Mock Exam (ASME V Art 6)',
+    description: 'PT Level II free practice — 50+ questions ASME V Article 6 aligned. Type I/II × Method A/B/C, dwell, developer, lighting. ASNT Level III authored.'
+  },
+  '/blog/paut-level-2-practice-questions-2026-free-mock-exam': {
+    title: 'PAUT Level II Practice Questions 2026 — Free 50-Q Mock Exam (ASME V Art 4)',
+    description: 'PAUT Level II free practice — 50+ questions ASME V Article 4 + Mandatory Appendices. Angle steering, focal law, DAC + TCG. ASNT Level III authored.'
+  },
+  '/blog/tofd-level-2-practice-questions-2026-free-mock-exam': {
+    title: 'TOFD Level II Practice Questions 2026 — Free 50-Q Mock Exam (ASME V Art 4)',
+    description: 'TOFD Level II free practice — 50+ questions ASME V Article 4 + Mandatory Appendix. Paired probes, through-wall sizing, dead zones. ASNT Level III authored.'
+  },
+  '/blog/api-581-rbi-quantitative-method-explained-2026': {
+    title: 'API 581 Quantitative RBI 2026 — PoF + CoF Calc Decoded (Free Worked Example)',
+    description: 'API 581 quantitative RBI — PoF + CoF numeric calc, damage-factor calibration, inspection-effectiveness category, target risk. Free Atlantis consultation.'
+  },
+  '/blog/api-581-rbi-qualitative-method-explained-2026': {
+    title: 'API 581 Qualitative RBI 2026 — Risk Matrix Decoded (Free Decision Guide)',
+    description: 'API 581 qualitative RBI — risk matrix, susceptibility ratings, screening approach for low-data context. ASNT NDT Level III authored. Free consultation.'
+  },
+  '/blog/api-579-ffs-level-1-screening-assessment-2026': {
+    title: 'API 579 FFS Level 1 Screening 2026 — Step-by-Step Decoder + Free Worksheet',
+    description: 'API 579-1 / ASME FFS-1 Level 1 screening — general thinning, local thin areas, blisters, dents, gouges. Free downloadable Level 1 worksheet.'
+  },
+  '/blog/api-579-ffs-crack-like-flaw-assessment-2026': {
+    title: 'API 579 FFS Crack-Like Flaw 2026 — Failure Assessment Diagram Decoded',
+    description: 'API 579 crack-like flaw assessment — FAD curves, K_I + K_IC + reference stress. ASNT NDT Level III + Level 2/3 practitioner authored. Free consultation.'
+  },
+  '/blog/corrosion-under-insulation-cui-api-rp-583-2026-decoded': {
+    title: 'Corrosion Under Insulation (CUI) 2026 — API RP 583 Decoded + Free Inspection Plan',
+    description: 'CUI per API RP 583 — temperature bands 0-175°C, susceptibility matrix, inspection strategy. Free inspection plan template + ASNT Level III consultation.'
+  },
+  '/blog/high-temperature-hydrogen-attack-htha-api-rp-941-2026': {
+    title: 'HTHA 2026 — API RP 941 Nelson Curve Decoded + Free Susceptibility Matrix',
+    description: 'High-temperature hydrogen attack per API RP 941 — Nelson curve, hydrogen + temperature exposure, advanced wave UT detection. Free susceptibility matrix.'
+  },
+  '/blog/asme-b31-4-liquid-pipeline-code-2026-decoded': {
+    title: 'ASME B31.4 Liquid Pipeline 2026 — Inspection Requirements Decoded (Free Checklist)',
+    description: 'ASME B31.4 — liquid pipeline transportation systems, NDE methods, weld acceptance, 49 CFR 195 integration. Free downloadable inspection checklist.'
+  },
+  '/blog/asme-b31-8-gas-pipeline-code-2026-decoded': {
+    title: 'ASME B31.8 Gas Pipeline 2026 — Inspection Requirements Decoded (Free Checklist)',
+    description: 'ASME B31.8 — gas transmission + distribution piping, NDE, weld acceptance, 49 CFR 192 integration. Free downloadable inspection checklist.'
+  },
+  '/blog/asme-section-iii-nuclear-construction-code-2026-decoded': {
+    title: 'ASME Section III Nuclear 2026 — Class 1/2/3 Inspection Decoded',
+    description: 'ASME Section III nuclear construction — Class 1/2/3 piping + vessels, NRC 10 CFR 50 Appendix B QA, NEI 03-08. Inspector decoder + ASNT consultation.'
+  },
+  '/blog/asme-section-xi-in-service-nuclear-inspection-code-2026-decoded': {
+    title: 'ASME Section XI Nuclear In-Service 2026 — ISI Requirements Decoded',
+    description: 'ASME Section XI in-service inspection — operating reactor ISI program, NRC compliance, NEI 03-08 steam-generator integrity. ASNT NDT Level III consultation.'
+  },
+  '/blog/compare-atlantis-dt-vs-bentley-itwin-2026': {
+    title: 'Atlantis Digital Twin vs Bentley iTwin 2026 — Inspection-Native Decoded',
+    description: 'Atlantis NDT Digital Twin (inspection-native, API 510/570/653 + RBI + FFS) vs Bentley iTwin (engineering-twin). Feature comparison + free demo.'
+  },
+  '/blog/compare-api-510-570-653-which-cert-first-2026': {
+    title: 'API 510 vs 570 vs 653 2026 — Which Cert First? Free Decision Guide',
+    description: 'API 510 (vessel) vs 570 (piping) vs 653 (tank) — which to pursue first based on your sector + career goals. ASNT NDT Level III decision matrix.'
+  },
+  '/blog/ndt-software-for-refining-industry-2026-buyer-guide': {
+    title: 'NDT Software for Refining 2026 — Aramco / ADNOC / ExxonMobil Buyer Guide',
+    description: 'NDT software for refining inspection companies — Aramco SAEP-1112, ADNOC ACS-01, ExxonMobil GP 19-01 aligned. Atlantis NDT affordable + Level III led.'
+  },
+  '/blog/ndt-software-for-marine-industry-2026-buyer-guide': {
+    title: 'NDT Software for Marine 2026 — IACS Class Society Buyer Guide + Free Demo',
+    description: 'NDT software for marine inspection — IACS 4-doc Marine report bundle (ABS / DNV / Lloyd\'s / BV / RINA / ClassNK / KR). Atlantis NDT only platform with native bundle.'
+  },
+  '/blog/ndt-software-for-aerospace-industry-2026-buyer-guide': {
+    title: 'NDT Software for Aerospace 2026 — NAS 410 + Boeing / Airbus Buyer Guide',
+    description: 'NDT software for aerospace MRO + OEM — NAS 410 / EN 4179 cert tracking + Boeing D1-9000 procedural alignment. Atlantis NDT affordable + accessible.'
+  },
+  '/blog/ndt-software-for-power-generation-2026-buyer-guide': {
+    title: 'NDT Software for Power Generation 2026 — Coal / Gas / Nuclear / Hydro Guide',
+    description: 'NDT software for power generation — ASME Section I + III + XI, boiler tube inspection, steam turbine, HRSG. Atlantis NDT affordable + ASNT NDT Level III led.'
+  },
+  '/blog/ndt-software-for-lng-2026-buyer-guide': {
+    title: 'NDT Software for LNG 2026 — Qatargas / NW Shelf / Sabine Pass Guide',
+    description: 'NDT software for LNG inspection — API 620/625 tank inspection, cryogenic vessel NDT, BOG compressor. Atlantis NDT affordable + accessible + customizable.'
+  },
+  '/blog/ndt-software-for-mining-2026-buyer-guide': {
+    title: 'NDT Software for Mining 2026 — BHP / Rio Tinto / Vale / Glencore Guide',
+    description: 'NDT software for mining inspection — haul-truck frame, conveyor, crusher, tailings dam inspection. Atlantis NDT affordable + accessible + customizable.'
+  },
+  '/blog/ndt-software-for-offshore-wind-2026-buyer-guide': {
+    title: 'NDT Software for Offshore Wind 2026 — Ørsted / Vestas / Siemens Gamesa Guide',
+    description: 'NDT software for offshore wind — monopile, transition piece, jacket sub-structure, floating-foundation. Atlantis NDT affordable + ASNT NDT Level III led.'
+  },
+  '/blog/ndt-software-for-construction-2026-buyer-guide': {
+    title: 'NDT Software for Construction 2026 — Infrastructure + BIM Buyer Guide',
+    description: 'NDT software for construction inspection — AWS D1.1 + AISC + heavy civil + BIM integration. Atlantis NDT affordable + accessible + fully customizable.'
+  },
+  '/blog/ndt-software-for-hydrogen-economy-2026-buyer-guide': {
+    title: 'NDT Software for Hydrogen 2026 — Green + Blue + Grey Buyer Guide',
+    description: 'NDT software for hydrogen economy — HTHA per API RP 941, electrolyser inspection, hydrogen pipeline integrity. Atlantis NDT affordable + Level III led.'
+  },
+  '/blog/cathodic-protection-api-651-impressed-current-2026-decoded': {
+    title: 'CP API 651 Impressed Current 2026 — Tank Bottom Decoded (Free Checklist)',
+    description: 'Impressed-current CP per API 651 — anodes, potentials, CIPS surveys, NACE SP0169 alignment. Free tank-bottom CP inspection checklist.'
+  },
+  '/blog/asme-section-ix-wps-pqr-welder-qualification-2026-decoded': {
+    title: 'ASME Section IX 2026 — WPS + PQR + Welder Qualification Decoded',
+    description: 'ASME Section IX welding qualification — WPS essential variables, PQR mechanical testing, welder performance qualification. Free continuity log template.'
+  },
+  '/blog/pwht-post-weld-heat-treatment-hardness-mapping-2026': {
+    title: 'PWHT 2026 — Cycle, Hardness Mapping + Code Requirements Decoded',
+    description: 'Post-weld heat treatment — cycle design, hardness mapping (241 HV max on Cr-Mo) per ASME VIII + B31.1 + B31.3. Free PWHT chart template.'
+  },
+  '/blog/cr-mo-p91-grade-91-fabrication-inspection-2026': {
+    title: 'Cr-Mo P91 / Grade 91 Inspection 2026 — Type IV Cracking Decoded',
+    description: 'Cr-Mo P91 fabrication + welding + PWHT + inspection — Type IV cracking risk, hardness control, creep monitoring per API 579 Part 10. Free consultation.'
+  },
+  '/blog/asme-pcc-3-in-service-inspection-planning-2026-decoded': {
+    title: 'ASME PCC-3 In-Service Inspection Planning 2026 — Decoded (Free Plan Template)',
+    description: 'ASME PCC-3 inspection planning — risk-based + condition-based + calendar-based, integration with API 510/570/653. Free downloadable plan template.'
+  },
+  '/blog/asme-pcc-2-repair-of-pressure-equipment-2026-decoded': {
+    title: 'ASME PCC-2 Repair of Pressure Equipment 2026 — Decoded',
+    description: 'ASME PCC-2 repair article suite — leak repair clamps, fillet weld patches, hot tap, alteration vs repair. Free Atlantis NDT Level III consultation.'
+  },
+  '/blog/national-board-nb-23-inspection-code-2026-decoded': {
+    title: 'NB-23 Inspection Code 2026 — R-Stamp + NB-Stamp Decoded',
+    description: 'National Board NB-23 — repair/alteration registration, R-stamp + NB stamp, state jurisdictional integration. Free Atlantis Level III consultation.'
+  },
+  '/blog/pipeline-integrity-management-pim-49-cfr-192-195-2026': {
+    title: 'Pipeline Integrity Management 2026 — 49 CFR 192/195 Decoded',
+    description: 'PIM — HCA assessment, ILI/CIPS/DCVG integration, repair criteria per 49 CFR 192/195. Atlantis NDT affordable + accessible + fully customizable.'
+  },
+  '/blog/iso-55000-asset-management-ndt-integration-2026': {
+    title: 'ISO 55000 Asset Management 2026 — NDT Integration Decoded',
+    description: 'ISO 55000/55001/55002 — asset-management standard integration with NDT + RBI + FFS programs, AMS architecture. Free Atlantis consultation.'
+  },
+  '/blog/reliability-centered-maintenance-rcm-vs-rbi-2026-decoded': {
+    title: 'RCM vs RBI 2026 — Reliability Maintenance + Risk-Based Inspection Decoded',
+    description: 'RCM (reliability-centred maintenance) vs RBI (risk-based inspection) — complementary frameworks, integration, when each applies. Free Atlantis consultation.'
+  },
+  '/blog/remaining-useful-life-rul-calc-pressure-equipment-2026': {
+    title: 'Remaining Useful Life (RUL) 2026 — Pressure Equipment Decoded (Free Calculator)',
+    description: 'RUL calc for pressure equipment — corrosion rate, T-min, fatigue cycles, creep accumulation. Free RUL calculator + Atlantis Level III consultation.'
+  },
+  '/blog/turnaround-shutdown-inspection-planning-2026-decoded': {
+    title: 'Turnaround Inspection Planning 2026 — Shutdown Scope + Schedule Decoded',
+    description: 'Turnaround / shutdown inspection planning — scope-of-work, critical-path schedule, contractor selection, inspector roster, RBI integration. Free consultation.'
+  },
+  '/blog/atlantis-ndt-erp-implementation-case-study-template-2026': {
+    title: 'Atlantis NDT ERP Implementation 2026 — Customer Case Study + ROI Outcomes',
+    description: 'Atlantis NDT ERP customer implementation case studies — refining + petrochem + marine + aerospace + mining + LNG. Free consultation + reference call.'
+  },
+  '/blog/atlantis-digital-twin-rollout-case-study-template-2026': {
+    title: 'Atlantis Digital Twin Rollout 2026 — Case Study + ROI Outcomes',
+    description: 'Atlantis NDT Digital Twin customer rollout case studies — tank-fleet, vessel-fleet, pipeline-circuit, FPSO, offshore-wind. Free consultation + ROI calc.'
+  },
+  '/blog/atlantis-marine-iacs-report-bundle-case-study-2026': {
+    title: 'IACS Marine Report Bundle 2026 — Customer Success Stories + Free Demo',
+    description: 'IACS Marine 4-doc report bundle customer success stories — shipyard + drydock + FPSO + offshore operators. Free demo + ASNT NDT Level III consultation.'
+  },
+  '/blog/atlantis-api-prep-cohort-customer-success-2026': {
+    title: 'Atlantis API 510/570/653 Prep Cohort 2026 — Customer Success Stories',
+    description: 'Atlantis API ICP prep cohort customer success — 96% first-attempt pass rate, refining + offshore + petrochem operators. Free roadmap + 5-day cohort.'
+  },
+  '/blog/atlantis-asnt-level-iii-consulting-engagement-2026': {
+    title: 'Atlantis ASNT Level III Consulting 2026 — Engagement Patterns + SLA',
+    description: 'Atlantis NDT outsourced ASNT Level III consulting engagement patterns — written practice, procedure approval, audit defence, multi-method. SLA-backed.'
+  },
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
