@@ -1177,6 +1177,102 @@ Object.assign(CTR_OVERRIDES, {
   },
 });
 
+// === 2027 — LMS + AI + CCS hubs + 30 representative 2027 blog CTR overrides ===
+Object.assign(CTR_OVERRIDES, {
+  '/lms': {
+    title: 'Atlantis NDT LMS 2027 — Enterprise NDT Training Platform | Free Consultation',
+    description: 'Atlantis NDT LMS — enterprise NDT corporate training, ISO 17024 aligned, ASNT cert tracking integration, SCORM/xAPI authoring, multi-site rollout. Free consultation + tailored quote.'
+  },
+  '/ai-ndt-defect-detection': {
+    title: 'AI for NDT Defect Detection 2027 — Atlantis AI Platform | Free Demo',
+    description: 'Atlantis AI for NDT — machine learning defect detection for PAUT + RT + UT, human-in-the-loop Level III approval, ASME-compliant model validation. Free demo + consultation.'
+  },
+  '/ccs-inspection': {
+    title: 'CCS Inspection Services 2027 — Carbon Capture + Storage NDT | Free Consultation',
+    description: 'Atlantis NDT CCS inspection — dense-phase CO2 pipeline integrity, injection well, storage cavern monitoring, amine absorber tower corrosion. ASNT Level III led. Free consultation.'
+  },
+  '/blog/lms-ndt-corporate-training-2027-buyer-guide': {
+    title: 'LMS for NDT Corporate Training 2027 — Buyer Guide + Free Demo',
+    description: 'LMS for NDT corporate training 2027 — ISO 17024 aligned, ASNT cert tracking integration, role-based learning paths, SCORM/xAPI. Atlantis NDT LMS free demo.'
+  },
+  '/blog/ai-ndt-defect-detection-2027-buyer-guide': {
+    title: 'AI for NDT Defect Detection 2027 — Buyer Guide + Free Model Demo',
+    description: 'AI for NDT defect detection — PAUT + RT + UT machine learning models, human-in-the-loop, regulatory acceptance pathways. Atlantis AI free demo.'
+  },
+  '/blog/ccs-inspection-2027-buyer-guide': {
+    title: 'CCS Inspection 2027 — Carbon Capture + Storage Buyer Guide',
+    description: 'CCS inspection — capture + transport + injection workflow, dense-phase CO2 pipeline, amine absorber corrosion, regulatory framework. Free Atlantis consultation.'
+  },
+  '/blog/hydrogen-pipeline-integrity-2027-decoded': {
+    title: 'Hydrogen Pipeline Integrity 2027 — ASME B31.12 + Embrittlement Decoded',
+    description: 'Hydrogen pipeline integrity per ASME B31.12 — embrittlement risk, material selection, in-service monitoring. ASNT NDT Level III + Atlantis consultation.'
+  },
+  '/blog/ndt-services-sao-paulo-2027-petrobras-aligned': {
+    title: 'NDT Services São Paulo 2027 — Petrobras + Vale + Embraer Aligned',
+    description: 'São Paulo NDT inspection services — Petrobras + Vale + Embraer aligned. ASNT NDT Level III led. Free consultation + tailored quote.'
+  },
+  '/blog/ndt-services-jakarta-2027-pertamina': {
+    title: 'NDT Services Jakarta 2027 — Pertamina Aligned + Free Consultation',
+    description: 'Jakarta NDT services — Pertamina + Indonesia refining + petrochem aligned. ASNT NDT Level III + ISO 9712 dual-scheme. Free consultation + quote.'
+  },
+  '/blog/ndt-services-cairo-2027-egypt-refining': {
+    title: 'NDT Services Cairo 2027 — Egypt Refining + Petrochem | Free Consultation',
+    description: 'Cairo NDT services — Egypt refining + Suez Mediterranean offshore + petrochem. ASNT + ISO 9712 dual-scheme. Free consultation + quote.'
+  },
+  '/blog/atlantis-ndt-annual-report-2027': {
+    title: 'Atlantis NDT Annual Report 2027 — Industry Insights + Trends Decoded',
+    description: 'Atlantis NDT 2027 annual industry report — market trends, technology adoption, regulatory updates, salary survey, software trends. Free PDF download.'
+  },
+  '/blog/ndt-market-size-2027-by-region': {
+    title: 'NDT Market Size 2027 — By Region + Method + Sector Decoded',
+    description: 'Global NDT market size + growth by region (US, MENA, India, EU, AU, LATAM, Africa), method (UT/RT/MT/PT/PAUT/TOFD), sector. Industry data + analysis.'
+  },
+  '/blog/ndt-salary-survey-2027-by-region-method': {
+    title: 'NDT Salary Survey 2027 — Real Pay by Region, Method, Cert Decoded',
+    description: 'Verified 2027 NDT salary survey — Level I $48-68K, Level II $58-90K, Level III $85-150K+ by country, method, multi-cert. Negotiation tips.'
+  },
+  '/blog/atlantis-erp-free-demo-2027-what-to-expect': {
+    title: 'Atlantis NDT ERP Free Demo 2027 — What to Expect + Book Yours',
+    description: 'Free 30-min Atlantis NDT ERP demo — scope sizing, custom workflow, tailored quote within 24 hours. ASNT NDT Level III led. Book yours.'
+  },
+  '/blog/atlantis-dt-free-demo-2027-what-to-expect': {
+    title: 'Atlantis Digital Twin Free Demo 2027 — What to Expect + Book Yours',
+    description: 'Free 30-min Atlantis Digital Twin demo — asset-class scoping, ROI walk-through, custom demo. ASNT NDT Level III led. Book yours.'
+  },
+  '/blog/ndt-roi-calculator-refining-2027': {
+    title: 'NDT ROI Calculator Refining 2027 — Worked Examples + Free Calc',
+    description: 'Refining NDT ROI — inspection-hour savings 30-60%, RBI interval extension 1-3 years, FFS acceleration 2-4 weeks. Free Atlantis NDT calculator + consultation.'
+  },
+  '/blog/ndt-roi-calculator-marine-2027': {
+    title: 'NDT ROI Calculator Marine 2027 — Worked Examples + Free Calc',
+    description: 'Marine NDT ROI — IACS Marine report automation + drydock-delay-day savings. Free Atlantis NDT calculator + consultation.'
+  },
+  '/blog/atlantis-case-study-aramco-refining-2027': {
+    title: 'Atlantis Case Study — Saudi Aramco Refining 2027 (Anonymised Outcomes)',
+    description: 'Anonymised Saudi Aramco-region refining inspection customer outcomes — inspection-hour savings, RBI extension, FFS acceleration. Free reference call request.'
+  },
+  '/blog/atlantis-case-study-petrobras-fpso-2027': {
+    title: 'Atlantis Case Study — Petrobras FPSO Inspection 2027 (Anonymised)',
+    description: 'Anonymised Petrobras FPSO inspection customer outcomes — IACS Marine bundle automation, class-survey acceptance, drydock-day savings. Free reference call.'
+  },
+  '/blog/ndt-software-rfp-template-2027-decoded': {
+    title: 'NDT Software RFP Template 2027 — Free Download + Decoded',
+    description: 'Free NDT inspection software RFP template — functional, technical, compliance, integration, support, pricing sections. Decision matrix included.'
+  },
+  '/blog/ndt-software-implementation-timeline-2027': {
+    title: 'NDT Software Implementation Timeline 2027 — Decoded by Team Size',
+    description: 'NDT software implementation timeline by team size + scope + integrations — SMB 4 weeks, mid-size 8-12 weeks, enterprise 12-20 weeks. Free scoping.'
+  },
+  '/blog/atlantis-ndt-2028-roadmap-preview': {
+    title: 'Atlantis NDT 2028 Roadmap Preview — New Products, Verticals, Regions',
+    description: 'Atlantis NDT 2028 roadmap — new product releases, new vertical expansion (hydrogen + CCS + offshore wind scale), new regions, AI productisation.'
+  },
+  '/blog/ndt-2028-predictions': {
+    title: 'NDT 2028 Predictions — AI, Hydrogen, CCS, Offshore Wind Decoded',
+    description: 'NDT 2028 predictions — AI adoption growth, hydrogen economy scale, CCS commercialisation, offshore wind expansion. Industry trends + analysis.'
+  },
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
@@ -1455,6 +1551,31 @@ blogs.push(...comparisonPages);
 // ─── Route Definitions ────────────────────────────────────────────────────
 
 const routes = [];
+
+// === 2027 LMS + AI + CCS hub routes ===
+routes.push({
+  path: '/lms',
+  title: 'Atlantis NDT LMS 2027 — Enterprise NDT Training Platform | Free Consultation',
+  description: 'Atlantis NDT LMS — enterprise NDT corporate training, ISO 17024 aligned, ASNT cert tracking integration, SCORM/xAPI authoring, multi-site rollout. Free consultation.',
+  canonical: `${SITE_URL}/lms`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/lms">LMS</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Atlantis NDT LMS — Enterprise NDT Corporate Training Platform 2027</h1>\n    <p>Atlantis NDT LMS delivers enterprise-grade NDT corporate training — ISO 17024-aligned, ASNT certification tracking integration, role-based learning paths, SCORM + xAPI content authoring, multi-site rollout. Built for inspection contractors, EPC operators, and asset owners running in-house NDT training programs across multiple regions and methods.</p>\n    <p>Affordable, accessible, fully customizable. Free 30-min consultation + tailored quote within 24 hours. ASNT NDT Level III-led implementation. Integrates with Atlantis NDT ERP + Reporting Software + Digital Twin platform.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/ai-ndt-defect-detection',
+  title: 'AI for NDT Defect Detection 2027 — Atlantis AI Platform | Free Demo',
+  description: 'Atlantis AI for NDT — machine learning defect detection for PAUT + RT + UT, human-in-the-loop Level III approval, ASME-compliant model validation. Free demo + consultation.',
+  canonical: `${SITE_URL}/ai-ndt-defect-detection`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/ai-ndt-defect-detection">AI for NDT</a><a href="/digital-twins">Digital Twin</a><a href="/contact">Free Demo</a></nav></header>\n  <main>\n    <h1>Atlantis AI for NDT Defect Detection 2027 — Machine Learning Models</h1>\n    <p>Atlantis AI for NDT delivers machine learning defect detection for phased-array UT (PAUT), radiographic testing (RT), conventional ultrasonic testing (UT), and time-of-flight diffraction (TOFD). Human-in-the-loop workflow with mandatory ASNT NDT Level III approval. ASME PCC-3 + API 581 + IACS-aligned model validation framework. Bias-mitigated training data, repeatable + reproducible per ASTM E2491.</p>\n    <p>Use cases: refining + petrochem + marine + offshore wind + LNG + nuclear + aerospace. Affordable, accessible, fully customizable. Free 30-min demo + custom model evaluation with your data. ASNT NDT Level III-led validation.</p>\n  </main>`,
+});
+
+routes.push({
+  path: '/ccs-inspection',
+  title: 'CCS Inspection Services 2027 — Carbon Capture + Storage NDT | Free Consultation',
+  description: 'Atlantis NDT CCS inspection — dense-phase CO2 pipeline integrity, injection well, storage cavern monitoring, amine absorber tower corrosion. ASNT Level III led. Free consultation.',
+  canonical: `${SITE_URL}/ccs-inspection`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/ccs-inspection">CCS Inspection</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>CCS Inspection Services 2027 — Carbon Capture + Storage NDT</h1>\n    <p>Atlantis NDT CCS inspection services cover the full carbon capture + storage value chain: amine absorber tower corrosion monitoring per NACE MR0103, dense-phase / super-critical CO2 pipeline integrity per ASME B31.4, injection well integrity per API + NRC + EPA Class VI requirements, storage cavern geomechanical + microseismic + NDT integrity monitoring. ASNT NDT Level III led, API 579 FFS practitioner authored.</p>\n    <p>Regulatory frameworks: EPA Class VI (US), EU CCS Directive, UK NSTA, Australia DCCEEW. Material selection guidance for super-critical CO2 service (13Cr, duplex, nickel alloy). RBI per API 581 for CCS capture units. Affordable, accessible, fully customizable. Free 30-min consultation + tailored quote.</p>\n  </main>`,
+});
 
 // ── Static core pages ────────────────────────────────────────────────────
 const corePages = [
