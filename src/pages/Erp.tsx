@@ -14,6 +14,7 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Navigation } from "@/components/Navigation";
 import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
@@ -388,6 +389,8 @@ export default function Erp() {
             ))}
           </div>
         </section>
+
+        <EnquiryCaptureForm variant="erp" />
 
         <ContactDetails />
       </div>

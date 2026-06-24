@@ -558,6 +558,60 @@ Object.assign(CTR_OVERRIDES, {
   },
 });
 
+// === Day-12 CTR rewrites — page-1 ZERO-CTR rescue (URGENT) + ERP/DT hub refresh ===
+// Live GSC 2026-06-24 — 3D scanning Aberdeen + Glasgow at pos 2-3 with 0% CTR;
+// /erp ranking pos 3 for "erp inspector" with 0 cl. The single biggest unlock.
+Object.assign(CTR_OVERRIDES, {
+  '/3d-scanning-aberdeen': {
+    title: '3D Scanning Aberdeen 2026: LiDAR + Drone + Photogrammetry | Same-Day Quote',
+    description: '3D scanning services in Aberdeen — survey-grade LiDAR laser scanning, photogrammetry, drone-based reality capture. Oil & gas decommissioning, FPSO, refinery, structural. ASNT NDT Level III led. Same-day quote.'
+  },
+  '/3d-scanning-glasgow': {
+    title: '3D Scanning Glasgow 2026: LiDAR + Drone + Photogrammetry | Same-Day Quote',
+    description: '3D scanning services in Glasgow — survey-grade LiDAR, photogrammetry, drone-based reality capture. Marine, shipbuilding, structural, BIM, digital twin integration. ASNT NDT Level III led. Same-day quote.'
+  },
+  '/3d-scanning-singapore': {
+    title: '3D Scanning Singapore 2026: LiDAR + Drone + Photogrammetry | Marine + Refinery',
+    description: '3D scanning Singapore — survey-grade LiDAR, photogrammetry, drone capture for Jurong Island refining, marine + offshore (Keppel, Sembcorp), FPSO, structural. ASNT NDT Level III led. Free consultation.'
+  },
+  '/3d-scanning-cape-town': {
+    title: '3D Scanning Cape Town 2026: LiDAR + Drone + Photogrammetry | Marine + Refinery',
+    description: '3D scanning Cape Town — survey-grade LiDAR, drone-based reality capture, marine + offshore + refinery deformation surveys. ASNT NDT Level III led. Same-day quote.'
+  },
+  '/3d-scanning-perth': {
+    title: '3D Scanning Perth 2026: LiDAR + Drone + Photogrammetry | LNG + Mining + Offshore',
+    description: '3D scanning Perth Western Australia — LNG (Gorgon, Wheatstone, Pluto), mining, offshore Karratha + Dampier reality capture. Drone-based + LiDAR + photogrammetry. ASNT NDT Level III led.'
+  },
+  '/3d-scanning-dubai': {
+    title: '3D Scanning Dubai 2026: LiDAR + Drone + Photogrammetry | ADNOC + Marine + Construction',
+    description: '3D scanning Dubai UAE — survey-grade LiDAR, drone-based reality capture for ADNOC-aligned refinery, marine + offshore, construction BIM, structural. ASNT NDT Level III led. Free consultation.'
+  },
+  '/3d-scanning-sydney': {
+    title: '3D Scanning Sydney 2026: LiDAR + Drone + Photogrammetry | Marine + Infrastructure',
+    description: '3D scanning Sydney NSW — survey-grade LiDAR, drone-based reality capture, marine + offshore + infrastructure + heritage scanning. ASNT NDT Level III led. Same-day quote.'
+  },
+  '/3d-scanning-brisbane': {
+    title: '3D Scanning Brisbane 2026: LiDAR + Drone + Photogrammetry | LNG + Mining + Port',
+    description: '3D scanning Brisbane QLD — LNG (Curtis Island), mining, port + heavy-industry reality capture. Drone + LiDAR + photogrammetry. ASNT NDT Level III led. Free consultation.'
+  },
+  '/3d-scanning-london': {
+    title: '3D Scanning London 2026: LiDAR + Drone + Photogrammetry | Infrastructure + Heritage',
+    description: '3D scanning London — survey-grade LiDAR, drone capture, infrastructure + heritage + construction BIM + structural deformation. ASNT NDT Level III led. Same-day quote.'
+  },
+  '/3d-scanning-melbourne': {
+    title: '3D Scanning Melbourne 2026: LiDAR + Drone + Photogrammetry | Refinery + Port + Infrastructure',
+    description: '3D scanning Melbourne VIC — survey-grade LiDAR, drone capture, refinery (Altona, Geelong), port, infrastructure, heritage. ASNT NDT Level III led. Free consultation.'
+  },
+  '/erp': {
+    title: 'Atlantis NDT ERP 2026: Affordable Inspection Management Software | Free Consultation',
+    description: 'Atlantis NDT ERP for inspection companies — affordable, accessible, fully customizable. 30+ Odoo apps + ASNT/ISO 9712 cert tracking + API 510/570/653 scheduling + IACS Marine reports + Digital Twin integration. Free consultation + free quote on request.'
+  },
+  '/intelligent-reporting-software': {
+    title: 'NDT Reporting Software 2026: IACS Marine Format + API Templates | Free Demo',
+    description: 'Atlantis NDT Reporting Software — IACS-accepted Marine NDT report bundle (cover + cal cert + Level II cert + report), API 510/570/653 templates, mobile field app, SHA-256 audit. Free demo + quote on request.'
+  },
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
@@ -9205,15 +9259,54 @@ const hasFaqPage = (sd) => {
     description: 'Atlantis NDT 3D scanning services: survey-grade LiDAR, photogrammetry and drone-based capture for as-built models, tank & vessel deformation surveys, corrosion mapping, BIM and digital twins. ASNT Level III led.',
     bodyContent: '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/consulting">NDT Consulting</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>3D Scanning Services — LiDAR, Photogrammetry &amp; Drone-Based Reality Capture</h1>\n    <p>Atlantis NDT delivers survey-grade 3D scanning and reality-capture services that turn physical assets into accurate, measurable digital models. We combine LiDAR laser scanning, photogrammetry and drone-based (UAV) capture with ASNT Level III inspection expertise.</p>\n    <p>Applications: as-built capture and dimensional control, tank and pressure-vessel deformation surveys (API 653, API 510), corrosion and coating mapping, BIM and digital-twin model creation, reverse engineering, clash detection and turnaround scoping for oil &amp; gas, petrochemical, power, marine and infrastructure assets worldwide.</p>\n  </main>',
   });
+  // Day-12: per-city deep-content map for 8 high-impression-low-position 3D scan
+  // city pages identified in GSC 2026-06-24 (Singapore 141 imp pos 38, Cape Town
+  // 52/30, Perth 36/47, Dubai 31/48, Sydney 21/58, Brisbane 21/50, London 20/24,
+  // Melbourne 15/47). Each city gets context-specific industry references +
+  // free-consultation CTA + sample-deliverable list.
+  const DEEP_3D_SCAN = {
+    'singapore': { hook: 'the global crossroads for refining, marine, and offshore EPC', industries: 'Jurong Island refining (ExxonMobil, Shell, Singapore Refining Co.), marine + offshore (Keppel Shipyard, Sembcorp Marine), FPSO conversion, Tuas mega-port construction, Changi airport infrastructure', deliverables: 'survey-grade point cloud (LAS, E57, RCP, RCS), as-built CAD (Revit, AutoCAD), BIM (IFC), DT-ready models, corrosion-mapping reports, API 653 settlement surveys, API 510 vessel deformation, FPSO classification surveys' },
+    'cape-town': { hook: 'South Africa\'s gateway to deep-water energy and marine fabrication', industries: 'Sapref + Engen refining context, Saldanha steel + bulk port, deep-water offshore conversion + decommissioning, structural heritage, BIM municipal infrastructure', deliverables: 'survey-grade point cloud, as-built CAD, BIM, DT-ready models, marine + offshore deformation surveys, structural integrity, port + container terminal scans' },
+    'perth': { hook: 'the LNG + mining capital of Western Australia', industries: 'North West Shelf LNG (Karratha, Dampier, Pluto, Wheatstone, Gorgon), iron ore + lithium + nickel mining, Pilbara port reality capture, offshore platform decommissioning + asset management', deliverables: 'survey-grade point cloud, drone capture for tailings + open-pit, BIM + as-built CAD, DT-ready models, LNG asset deformation surveys, mining infrastructure scans, offshore platform integrity' },
+    'dubai': { hook: 'the Middle East\'s leading construction + offshore + marine hub', industries: 'ADNOC + ENOC refining context, Jebel Ali port + DP World container terminals, marine + offshore + FPSO, Burj/skyscraper construction BIM, heritage + cultural scanning, DEWA + DUBAL infrastructure', deliverables: 'survey-grade point cloud, as-built CAD, BIM (IFC), DT-ready models, construction + structural deformation, marine + offshore + container terminal scans, refinery turnaround scoping' },
+    'sydney': { hook: 'Australia\'s commercial + marine + infrastructure capital', industries: 'Sydney Harbour marine + naval, Botany Bay port + refinery context, heritage scanning (Opera House, Harbour Bridge), Sydney Metro tunnel BIM, structural integrity surveys, container terminal reality capture', deliverables: 'survey-grade point cloud, BIM (IFC + Revit), heritage scans, structural integrity, marine + tunnel + infrastructure deformation surveys' },
+    'brisbane': { hook: 'Queensland\'s LNG + mining + port industrial gateway', industries: 'Curtis Island LNG (Gladstone), Bowen Basin coal + Galilee Basin mining, Port of Brisbane container terminals, refinery context (Lytton), heavy infrastructure + bridge structural surveys', deliverables: 'survey-grade point cloud, drone + LiDAR capture, BIM + as-built CAD, DT-ready models, LNG + port + mining deformation surveys, heavy infrastructure integrity' },
+    'london': { hook: 'the UK\'s infrastructure + heritage + financial-services centre', industries: 'Crossrail / Elizabeth Line tunnel BIM, Thames Tideway + Thames Water infrastructure, heritage scanning (Tower Bridge, St Paul\'s, Victoria + Albert), commercial high-rise construction, Network Rail station surveys', deliverables: 'survey-grade point cloud, BIM (IFC + Revit), heritage scans, structural integrity, infrastructure + tunnel + heritage deformation surveys' },
+    'melbourne': { hook: 'Victoria\'s refinery + port + infrastructure hub', industries: 'Altona + Geelong refining (Viva Energy / ExxonMobil), Port of Melbourne + container terminals, Metro Tunnel BIM, heritage scanning, Yallourn + Loy Yang power infrastructure', deliverables: 'survey-grade point cloud, BIM + as-built CAD, DT-ready models, refinery turnaround scoping, port + container terminal scans, infrastructure + power deformation surveys' },
+  };
   let _n = 0;
   for (const city of _cities) {
     if (city === 'services') continue;
     const name = _tc(city);
+    const deep = DEEP_3D_SCAN[city];
+    let body;
+    if (deep) {
+      body = '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/digital-twins">Digital Twins</a><a href="/consulting">NDT Consulting</a><a href="/contact">Free Consultation</a></nav></header>\n' +
+        '  <main>\n' +
+        '    <h1>3D Scanning Services in ' + name + ' 2026 — LiDAR + Drone + Photogrammetry</h1>\n' +
+        '    <p><strong>Atlantis NDT</strong> delivers survey-grade 3D scanning services in ' + name + ' — ' + deep.hook + '. We combine high-density LiDAR laser scanning (Leica RTC360, Faro Focus, Riegl VZ-400), photogrammetry, drone-based (UAV) reality capture, and tactile probe metrology for accurate, measurable digital models that integrate with BIM, CAD, and digital-twin workflows.</p>\n' +
+        '    <h2>Industries Served in ' + name + '</h2>\n' +
+        '    <p>' + deep.industries + '. Our ASNT NDT Level III-led inspection team brings code-aware delivery — API 653 tank settlement surveys, API 510 pressure-vessel deformation, ASME Section V Article 4 cross-checks, FPSO classification surveys for IACS class societies (ABS / DNV / Lloyd&apos;s Register / Bureau Veritas).</p>\n' +
+        '    <h2>Deliverables We Ship in ' + name + '</h2>\n' +
+        '    <p>' + deep.deliverables + '. Output formats: LAS, E57, RCP, RCS, PLY, OBJ, FBX, Revit, IFC, AutoCAD DWG. SHA-256 hashed deliverable bundles with full audit trail.</p>\n' +
+        '    <h2>Why Atlantis NDT for 3D Scanning in ' + name + '</h2>\n' +
+        '    <ul>\n' +
+        '      <li><strong>ASNT NDT Level III led</strong> — every scan delivery reviewed by Level III</li>\n' +
+        '      <li><strong>Same-day quote</strong> — free consultation + tailored quote within 24 hours</li>\n' +
+        '      <li><strong>Affordable + accessible</strong> — sized for single-site surveys up to multi-asset enterprise programs</li>\n' +
+        '      <li><strong>Digital Twin integrated</strong> — scans feed directly into Atlantis NDT <a href="/digital-twins">Digital Twin platform</a> for live asset monitoring</li>\n' +
+        '      <li><strong>IACS Marine accepted</strong> — for FPSO, drydock, offshore platform classification surveys</li>\n' +
+        '    </ul>\n' +
+        '    <p><a href="/contact"><strong>Get a free 3D scanning consultation for ' + name + '</strong></a> — info@atlantisndt.com. Pricing varies by scope (asset size, point density, deliverable format) — request a tailored quote. See also <a href="/3d-scanning-services">3D Scanning Services hub</a>, <a href="/digital-twins">Digital Twin platform</a>, and <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>.</p>\n' +
+        '  </main>';
+    } else {
+      body = '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/consulting">NDT Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry &amp; Drone Surveys</h1>\n    <p>Atlantis NDT provides survey-grade 3D scanning and reality-capture services in ' + name + ', combining LiDAR laser scanning, photogrammetry and drone-based (UAV) capture to turn plants, tanks, vessels, structures and components into accurate, measurable digital models.</p>\n    <p>Backed by our ASNT Level III inspection team, scans captured in ' + name + ' feed into as-built CAD, BIM and digital-twin workflows and support API 653 / API 510 tank and vessel deformation surveys, corrosion and coating mapping, clash detection, reverse engineering, and turnaround planning.</p>\n  </main>';
+    }
     routes.push({
       path: '/3d-scanning-' + city,
       title: '3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry & Drone Surveys | Atlantis NDT',
       description: 'Atlantis NDT 3D scanning in ' + name + ': survey-grade LiDAR laser scanning, photogrammetry and drone-based reality capture for as-built models, tank & vessel deformation surveys, corrosion mapping, BIM and digital twins. ASNT Level III led.',
-      bodyContent: '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/consulting">NDT Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry &amp; Drone Surveys</h1>\n    <p>Atlantis NDT provides survey-grade 3D scanning and reality-capture services in ' + name + ', combining LiDAR laser scanning, photogrammetry and drone-based (UAV) capture to turn plants, tanks, vessels, structures and components into accurate, measurable digital models.</p>\n    <p>Backed by our ASNT Level III inspection team, scans captured in ' + name + ' feed into as-built CAD, BIM and digital-twin workflows and support API 653 / API 510 tank and vessel deformation surveys, corrosion and coating mapping, clash detection, reverse engineering, and turnaround planning.</p>\n  </main>',
+      bodyContent: body,
     });
     _n++;
   }

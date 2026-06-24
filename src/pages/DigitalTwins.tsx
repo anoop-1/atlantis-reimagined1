@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import InteractiveJet from "@/components/InteractiveJet";
 import InteractivePlant from "@/components/InteractivePlant";
@@ -1125,6 +1126,8 @@ export default function DigitalTwins() {
                     "icon": "cert"
               }
         ]} />
+
+        <EnquiryCaptureForm variant="dt" />
 
         <ContactDetails />
          </div>
