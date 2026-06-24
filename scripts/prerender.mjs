@@ -870,6 +870,132 @@ Object.assign(CTR_OVERRIDES, {
   },
 });
 
+// === Day-14 Tier-3 CTR rewrites — pages with 50-200 imp + 0-2% CTR ===
+// Live GSC 2026-06-24, sorted by potential = imp × (6% - current CTR).
+// §18 compliant: proof signals only. Power-words: Decoded, Compared, Free Roadmap.
+Object.assign(CTR_OVERRIDES, {
+  '/blog/asme-section-v-ndt-requirements-guide': {
+    title: 'ASME Section V — All Articles 1-30 Decoded 2026 (Free Inspector Cheat-Sheet)',
+    description: 'ASME Section V — Article 2 RT, 4 UT, 5 UT-T, 6 PT, 7 MT, 9 VT, 12 AE, 22/27 digital RT, 30 composite UT. Inspector decoder + free cheat-sheet download.'
+  },
+  '/3d-scanning-netherlands': {
+    title: '3D Scanning Netherlands 2026 — Rotterdam + Amsterdam | LiDAR + Drone + Free Quote',
+    description: '3D scanning Netherlands — Rotterdam refinery (Shell Pernis, BP Europoort), Amsterdam port, marine + offshore. Survey-grade LiDAR + drone + photogrammetry. Same-day quote.'
+  },
+  '/ndt-standards-comparison': {
+    title: 'NDT Standards 2026 Compared — ASME V vs ISO 17635 vs ASTM vs EN | Free Decoder',
+    description: 'NDT standards side-by-side — ASME V Articles 2/4/5/6/7, ISO 17635/17636/17640, ASTM E165/E709/E1444, EN 1330. Inspector cross-reference + free decoder.'
+  },
+  '/blog/api-570-inspector-salary-2026-by-region-experience': {
+    title: 'API 570 Inspector Salary 2026 — Real Pay by Region + Experience (Free Data)',
+    description: 'Verified 2026 API 570 inspector salary — by region (US, UK, UAE, India, KSA, AU), experience tier, multi-cert premium. Negotiation tips + free roadmap.'
+  },
+  '/ndt-erp-solution': {
+    title: 'NDT ERP Solution 2026 — Affordable, Fully Customizable, 30+ Apps | Free Consultation',
+    description: 'Atlantis NDT ERP — affordable, accessible, fully customizable. 30+ Odoo apps + ASNT cert tracking + API 510/570/653 + IACS Marine reports + mobile field app. Free consultation.'
+  },
+  '/blog/aerospace-composite-inspection-ndt-methods-guide': {
+    title: 'Aerospace Composite Inspection 2026 — 7 NDT Methods Compared (UT, IRT, Bond)',
+    description: 'Aerospace composite NDT — Phased Array UT, thermography, bond tester, shearography for CFRP / GFRP. Defect detection rates + Boeing / Airbus spec references.'
+  },
+  '/blog/ndt-level-iii-consulting-services-guide': {
+    title: 'NDT Level III Consulting 2026 — Outsourced Level III with SLA (Free Consultation)',
+    description: 'Outsourced ASNT NDT Level III consulting — written practice, procedure approval, audit defence, multi-method coverage. SLA-backed. Free consultation + tailored quote.'
+  },
+  '/contact': {
+    title: 'Contact Atlantis NDT 2026 — Free Consultation + Quote on Request (24-Hr Response)',
+    description: 'Get a free consultation with Atlantis NDT — ASNT Level III led discovery, scope sizing, tailored quote. ERP + Digital Twin + Reporting + Training + Consulting. 24-hr response.'
+  },
+  '/compare/atlantis-dt-vs-siemens-mindsphere': {
+    title: 'Atlantis Digital Twin vs Siemens MindSphere 2026 — Inspection-Native Decoded',
+    description: 'Atlantis NDT Digital Twin (inspection-native, API 510/570/653 + RBI + FFS) vs Siemens MindSphere (IoT-first). Feature, integration + cost compared. Free demo.'
+  },
+  '/blog/penetrant-testing-complete-guide': {
+    title: 'Liquid Penetrant Testing (PT) 2026 — ASME V Article 6 Decoded + Level II Path',
+    description: 'PT — Type I/II × Method A/B/C, dwell time, developer, lighting per ASME V Article 6. ASNT Level II PT cert path + free technique-sheet template.'
+  },
+  '/blog/ndt-level-iii-career-path-complete-guide': {
+    title: 'ASNT Level III Career Path 2026 — Complete Roadmap, Salary, 96% Pass Prep',
+    description: 'ASNT NDT Level III career roadmap — multi-method path, Basic + Method exam strategy, salary outcomes, recertification cycle. 96% pass prep + free consultation.'
+  },
+  '/corrosion-mapping': {
+    title: 'Corrosion Mapping 2026 — UT C-Scan + PA + ASME V Article 5 (Free Consultation)',
+    description: 'Corrosion mapping services — automated UT C-scan, phased array, MFL, B-scan. API 510/570/653 + ASME V Article 5 traceable. Refining + petrochem + offshore. Free quote.'
+  },
+  '/api-510-india': {
+    title: 'API 510 Training India 2026 — Mumbai + Hyderabad + Chennai + Delhi | 96% Pass',
+    description: 'API 510 Pressure Vessel Inspector training in India — Mumbai, Hyderabad, Chennai, Delhi, Bangalore exam centres. 5-day prep, 96% first-attempt pass. Free consultation.'
+  },
+  '/training/asnt-level-iii-training-san-diego': {
+    title: 'ASNT Level III Training San Diego 2026 — Multi-Method Cohort | 96% Pass',
+    description: 'ASNT NDT Level III training San Diego — UT, RT, MT, PT, ET, VT multi-method cohorts. Basic + Method exam prep. 96% first-attempt pass. Free consultation + cohort schedule.'
+  },
+  '/blog/iso-9934-magnetic-particle-testing-standards': {
+    title: 'ISO 9934 Magnetic Particle Testing 2026 — All 3 Parts Decoded (Free Cheat-Sheet)',
+    description: 'ISO 9934-1 (general principles), 9934-2 (detection media), 9934-3 (equipment). MT inspector decoder + ASME V Article 7 cross-reference + free cheat-sheet.'
+  },
+  '/resources/ndt-inspection-checklist': {
+    title: 'NDT Inspection Checklist 2026 — Free Download (UT, RT, MT, PT, VT, PAUT, TOFD)',
+    description: 'Free downloadable NDT inspection checklist — all 7 methods, ASME V + API + AWS code-aligned, ISO 17020 / 17025 audit-ready. ASNT NDT Level III authored.'
+  },
+  '/blog/automated-ut-aut-systems-complete-overview': {
+    title: 'Automated UT (AUT) Systems 2026 — Equipment, Codes + Pipeline Workflow Decoded',
+    description: 'AUT — encoded UT scanning, PAUT + TOFD integration, ASME V Article 4 Mandatory Appendices, API 1104 acceptance. Pipeline girth weld + vessel applications.'
+  },
+  '/compare/atlantis-dt-vs-aveva-pi-system': {
+    title: 'Atlantis DT vs AVEVA PI System 2026 — Inspection-Native vs Historian Decoded',
+    description: 'Atlantis NDT Digital Twin (inspection-native, API 510/570/653 + FFS) vs AVEVA PI (process historian). Integration paths + free comparison + demo.'
+  },
+  '/about': {
+    title: 'About Atlantis NDT — ASNT Level III-Led, 30+ Live Deployments | Free Consultation',
+    description: 'Atlantis NDT — led by Anoop Rayavarapu (ASNT NDT Level III, API 653, ISO 9001). NDT software + training + consulting + digital twin platform. 30+ live deployments globally.'
+  },
+  '/blog': {
+    title: 'Atlantis NDT Blog 2026 — ASNT, API, ASME + Industry Code Decoder (250+ Posts)',
+    description: 'Atlantis NDT Blog — ASNT certification, API 510/570/653, ASME Section V, AWS D1.1, IACS Marine, digital twin guides. 250+ technical posts by ASNT NDT Level III.'
+  },
+  '/api-653-india': {
+    title: 'API 653 Training India 2026 — Mumbai + Hyderabad + Chennai | 96% Pass',
+    description: 'API 653 Tank Inspector training in India — Mumbai, Hyderabad, Chennai, Delhi, Bangalore exam centres. 5-day prep, 96% first-attempt pass. Free consultation + cohort schedule.'
+  },
+  '/blog/ndt-inspector-continuing-education-requirements': {
+    title: 'NDT Inspector Continuing Education 2026 — ASNT, API, AWS Recert Decoded',
+    description: 'NDT inspector continuing education — ASNT recert cycle, API ICP recertification (3-year), AWS CWI 9-year. Annual eye test + training hours. Free roadmap.'
+  },
+  '/blog/heat-exchanger-tube-inspection-methods-procedures': {
+    title: 'Heat Exchanger Tube Inspection 2026 — ECT, IRIS, UT + Acoustic Pulse Decoded',
+    description: 'HX tube inspection methods — eddy current, IRIS UT, acoustic pulse, RFEC for ferrous. API 510 + ASME V references. ASNT Level II ET path + free consultation.'
+  },
+  '/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide': {
+    title: 'UT Thickness Measurement 2026 — ASME V Article 5 + CML Grid Design Decoded',
+    description: 'UT thickness measurement — calibration, transducer selection, CML grid, corrosion rate calc per ASME V Article 5 + API 510/570/653. Free technique-sheet template.'
+  },
+  '/blog/ai-in-ndt-machine-learning-for-defect-detection': {
+    title: 'AI in NDT 2026 — Machine Learning for Defect Detection + Human-In-The-Loop',
+    description: 'AI / ML in NDT — defect classification, automated UT signal analysis, image recognition. ASNT Level III + Atlantis approach. Free consultation + demo.'
+  },
+  '/training': {
+    title: 'NDT Training 2026 — ASNT, API, AWS + ISO 9712 Methods | 96% Pass + Free Roadmap',
+    description: 'NDT training — UT, RT, MT, PT, ET, VT, PAUT, TOFD + ASNT Level III. Houston, Dubai, Mumbai, London, Singapore + online. 96% first-attempt pass + free roadmap.'
+  },
+  '/blog/api-570-piping-inspector-exam-requirements': {
+    title: 'API 570 Exam Requirements 2026 — 8 Codes, Eligibility, 96% Pass Strategy',
+    description: 'API 570 Piping Inspector — 8 reference codes (B31.3, API 571/574/577/579/581/583), eligibility tiers, open-book format. 96% pass strategy + free consultation.'
+  },
+  '/tools': {
+    title: 'Atlantis NDT Tools 2026 — Free Calculators, Checklists + Decision Matrices',
+    description: 'Free Atlantis NDT tools — DT ROI calculator, NDT method selector, corrosion-rate calc, FFS Level 1 worksheet, RBI risk score. Inspector resources + free download.'
+  },
+  '/blog/api-510-pressure-vessel-inspection-code': {
+    title: 'API 510 Code 2026 — Pressure Vessel Inspection Intervals Decoded (Free Checklist)',
+    description: 'API 510 inspection intervals (external 5-yr, internal 10-yr or 1/2 remaining life), corrosion rate calc, FFS Level 1/2. Free downloadable inspection checklist.'
+  },
+  '/blog/shear-wave-ut-for-thick-section-inspection': {
+    title: 'Shear Wave UT 2026 — Thick-Section Weld Inspection + ASME V Article 4 Decoded',
+    description: 'Shear-wave ultrasonic — 45° + 60° + 70° angle beam, DAC + DGS calibration, weld inspection per ASME V Article 4. ASNT Level II UT path + free template.'
+  },
+});
+
 // === PSEO NOINDEX 2026-05-09 ===
 // Load the dead-page noindex list produced by scripts/pseo-audit.mjs.
 // Routes in this Set get <meta name="robots" content="noindex,follow"> on
