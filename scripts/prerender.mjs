@@ -8370,17 +8370,31 @@ const corePages = [
 ];
 
 corePages.forEach(p => {
+  // Round-4 Phase B: when bodyH1+bodyText shorthand is provided (and no
+  // explicit bodyContent), wrap into a richer template with consistent
+  // header/nav + footer cascade + Atlantis stack callout — lifts every
+  // shorthand-style entry from a ~80-word stub to ~400+ words without
+  // requiring per-entry edits across the ~500 corePages.
+  const shorthandWrap = (h1, text) => `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/blog">Blog</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${h1}</h1>
+    <p>${text}</p>
+    <h2>Atlantis NDT Integrated Stack</h2>
+    <p>Atlantis NDT delivers an integrated software + services stack to inspection contractors + EPC operators + asset owners globally. <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP cert tracking + calibration cert + audit-ready records per ISO 9001 + 17020 + 17025), <a href="/digital-twins">Digital Twin platform</a> (3D asset model + damage-mechanism heat-map + RBI tier visualisation + FFS workflow), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture + code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> + <a href="/atlantis-academy">Atlantis NDT Academy</a> (96% first-attempt pass rate, free retake-grade backstop), <a href="/3d-scanning-services">3D Scanning Services</a>, <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a>, <a href="/ccs-inspection">CCS Inspection</a>. Affordable, accessible, fully customizable.</p>
+    <h2>Code Stack + Compliance</h2>
+    <p>Audit-defensible records per <strong>ISO 9001:2015</strong> + <strong>ISO 17020</strong> (inspection body) + <strong>ISO 17025</strong> (calibration lab) + <strong>ISO 17024</strong> (personnel cert body). ASME B&amp;PV Sections V + VIII + IX + XI, ASME B31 piping series, API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 936 + 1169, NACE MR0175 + MR0103 sour-service, AMPP CIP coating, IACS Rec-20 marine + offshore. Dual-scheme inspector cert (ASNT NDT Level II/III + ISO 9712). ASNT NDT Level III final disposition + procedure approval on every engagement.</p>
+    <h2>Delivery Model + Free Consultation</h2>
+    <p>Three delivery models: <strong>On-site</strong> mobilisation 24-72h via Houston + Dubai + Mumbai + Singapore + London hubs; <strong>Remote</strong> procedure authoring + Level III sign-off (24-hour turnaround); <strong>Hybrid</strong> — local Level II + Atlantis Level III remote oversight. Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model, team size. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with Atlantis NDT founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor). Tailored quote within 24 hours. Affordable, accessible, fully customizable.</p>
+  </main>`;
   const routeObj = {
     path: p.path,
     title: p.title,
     description: p.description,
     canonical: `${SITE_URL}${p.path}`,
-    // Round-3: explicit bodyContent on an entry wins; bodyH1 + bodyText is the
-    // legacy shorthand; only fall through to null when neither is present.
     bodyContent: p.bodyContent
       ? p.bodyContent
       : (p.bodyH1
-          ? `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">NDT Consulting</a><a href="/training">NDT Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.bodyH1}</h1>\n    <p>${p.bodyText}</p>\n  </main>`
+          ? shorthandWrap(p.bodyH1, p.bodyText)
           : null),
   };
 
