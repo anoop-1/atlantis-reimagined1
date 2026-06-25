@@ -10195,6 +10195,158 @@ const hasFaqPage = (sd) => {
   if (Array.isArray(sd['@graph'])) return sd['@graph'].some(n => n && n['@type'] === 'FAQPage');
   return false;
 };
+// ── 3D Scanning archetype classifier — covers 552+ city slugs with regional context
+// Quality-Round-2 Phase A 2026-06-25: replace template-fallback with rule-based
+// archetype derivation so EVERY 3D-scanning city page carries real context.
+const _3D_SCAN_ARCHETYPES = {
+  'gulf-refining': {
+    hook: 'a Gulf Coast refining + petrochem corridor with deep turnaround + EPC demand',
+    industries: 'Gulf Coast refining (ExxonMobil, Marathon, Valero, Phillips 66, Chevron, Shell, Motiva, LyondellBasell, BASF, Dow), petrochem + olefins, tank-farm + storage terminals, Houston Ship Channel marine + barge access, FPSO + offshore fabrication',
+    deliverables: 'survey-grade point cloud (LAS, E57, RCP, RCS), as-built CAD (Revit, AutoCAD, MicroStation), BIM (IFC), API 653 tank floor + shell + roof settlement surveys, API 510 pressure-vessel deformation, ASME PCC-3 inspection-data integration, turnaround pre-scoping reality capture, FPSO + barge classification surveys (ABS / DNV / Lloyd&apos;s Register)'
+  },
+  'us-refining': {
+    hook: 'a US refining + petrochem + heavy industrial hub',
+    industries: 'US refining + petrochem (ExxonMobil, Marathon, Valero, Phillips 66, Chevron, Citgo, PBF Energy, Holly Frontier, HF Sinclair), midstream + pipeline terminals, heavy industrial fabrication, Gulf + Atlantic + Pacific marine context',
+    deliverables: 'survey-grade point cloud, as-built CAD (Revit, AutoCAD), BIM (IFC), DT-ready models, API 653 tank surveys, API 510 vessel deformation, NACE-MR0103 sour-service material verification, turnaround reality capture'
+  },
+  'middle-east-oil-gas': {
+    hook: 'a Middle East oil + gas + petrochem + offshore hub',
+    industries: 'Saudi Aramco, ADNOC, KOC + KNPC, Bapco, NIOC + Petropars, ARC Resources context, refining + petrochem, gas processing + LNG, offshore + jacket + FPSO inspection, port + terminal infrastructure, desalination plants, district cooling',
+    deliverables: 'survey-grade point cloud, as-built CAD (Revit, AutoCAD), BIM (IFC + Revit), DT-ready models, API 653 tank settlement surveys (sandy-soil settlement patterns), API 510 + 570 vessel + piping inspection, NACE MR0175 sour-service alloy verification, offshore jacket + topside scans, FPSO classification surveys'
+  },
+  'india-refining': {
+    hook: 'an Indian refining + petrochem + heavy fabrication hub',
+    industries: 'Reliance Industries, IOCL + BPCL + HPCL refining, ONGC + Cairn India offshore, GAIL + Petronet LNG, Mumbai Port + Adani Ports + JNPT, heavy fabrication for global EPC, Mangalore + Cochin Refinery + Vizag steel',
+    deliverables: 'survey-grade point cloud, as-built CAD (Revit, AutoCAD), BIM, DT-ready models, API 653 tank surveys, API 510 + 570 inspection, heavy-fab module dimensional control, modular construction reality capture, IACS-aligned marine + offshore scans'
+  },
+  'india-other': {
+    hook: 'an Indian industrial + infrastructure + fabrication centre',
+    industries: 'L&amp;T Heavy Engineering, BHEL, Tata + JSW Steel, GMR Group + Adani infrastructure, NTPC + Adani Power, metro + rail BIM, smart-city infrastructure capture, heritage + cultural scanning',
+    deliverables: 'survey-grade point cloud, BIM (IFC), as-built CAD, heritage scans, metro + rail tunnel deformation surveys, structural integrity, heavy fabrication dimensional control'
+  },
+  'china-heavy': {
+    hook: 'a Chinese refining + petrochem + heavy industrial centre',
+    industries: 'Sinopec, CNPC + PetroChina, CNOOC, COSCO Shipping + Yangzijiang shipyard context, Wuhan + Baoshan steel, port + terminal infrastructure, automotive + heavy equipment fabrication',
+    deliverables: 'survey-grade point cloud, as-built CAD, BIM, DT-ready models, refinery + petrochem turnaround scoping, shipyard + drydock scans, heavy fabrication dimensional control'
+  },
+  'sea-marine-epc': {
+    hook: 'a Southeast Asian marine + offshore + EPC hub',
+    industries: 'Petronas + Pertamina + PTT refining, Keppel + Sembcorp shipyard context, Jurong Island + Pulau Bukom refining (Singapore region), Map Ta Phut petrochem (Thailand context), Cilegon + Bontang LNG (Indonesia), Subic + Batangas (Philippines), offshore + FPSO + jackup fabrication, palm-oil + LNG terminals',
+    deliverables: 'survey-grade point cloud, BIM + as-built CAD, DT-ready models, marine + offshore + drydock surveys, refinery + petrochem turnaround scoping, port + container terminal scans, FPSO + jackup classification surveys'
+  },
+  'uk-scotland-offshore': {
+    hook: 'a UK offshore + decommissioning + heritage infrastructure centre',
+    industries: 'BP + Shell + TotalEnergies + Equinor North Sea, Aberdeen offshore decommissioning, Grangemouth refining context, Sellafield + nuclear decommissioning, Crossrail + Thames Tideway + Network Rail BIM, heritage + cultural scanning (Tower Bridge, St Paul&apos;s, Edinburgh Castle)',
+    deliverables: 'survey-grade point cloud, BIM (IFC + Revit), heritage + structural scans, North Sea decommissioning surveys, FPSO + jacket + topside scans, infrastructure + tunnel + rail surveys'
+  },
+  'europe-refining': {
+    hook: 'a European refining + petrochem + heavy industrial hub',
+    industries: 'Shell + TotalEnergies + BP + ENI + Repsol + OMV refining, BASF + Bayer + INEOS petrochem, Rotterdam + Antwerp + Hamburg port + terminal context, automotive + heavy fabrication, heritage + cultural scanning, Eurotunnel + TGV + metro BIM',
+    deliverables: 'survey-grade point cloud, BIM (IFC + Revit), as-built CAD, heritage scans, refinery + petrochem turnaround scoping, port + container terminal + barge surveys, infrastructure + tunnel deformation, EN 13445 + EN 13480 alignment'
+  },
+  'norway-offshore': {
+    hook: 'the Norwegian Continental Shelf offshore + LNG hub',
+    industries: 'Equinor + Aker BP offshore, Snøhvit + Hammerfest LNG, FPSO + spar + semi-sub fabrication, North Sea + Norwegian Sea + Barents Sea operations, Aibel + Aker Solutions + Subsea 7 fabrication, hydroelectric + offshore wind context',
+    deliverables: 'survey-grade point cloud, as-built CAD, BIM, DT-ready models, FPSO + spar + topside scans, NORSOK + DNV class surveys, subsea pipeline + manifold scans, hydro + offshore-wind structural surveys'
+  },
+  'australia-lng-mining': {
+    hook: 'a Western + Northern Australia LNG + mining + offshore hub',
+    industries: 'North West Shelf LNG (Karratha, Dampier, Pluto, Wheatstone, Gorgon), Ichthys LNG (Darwin), BHP + Rio Tinto + FMG iron ore + Pilbara port (Port Hedland, Dampier), Olympic Dam copper-gold-uranium, lithium + nickel + bauxite, offshore + FPSO + subsea operations',
+    deliverables: 'survey-grade point cloud, drone capture for tailings + open-pit + heap-leach, BIM + as-built CAD, DT-ready models, LNG + offshore asset deformation surveys, mining infrastructure scans, port + container terminal + bulk-handling scans'
+  },
+  'australia-east-infra': {
+    hook: 'Australia&apos;s east-coast infrastructure + marine + heritage hub',
+    industries: 'Port of Brisbane + Sydney Harbour + Port Botany + Melbourne port, Sydney Metro + Cross River Rail BIM, Botany Bay + Geelong refining context, Curtis Island LNG (Gladstone) regional context, Lytton + Altona + Geelong refining, heritage scanning, AGL + EnergyAustralia generation',
+    deliverables: 'survey-grade point cloud, BIM (IFC + Revit), heritage scans, structural integrity, refinery + power + tunnel + rail + port infrastructure surveys'
+  },
+  'africa-energy': {
+    hook: 'an African energy + refining + mining + maritime hub',
+    industries: 'Sonatrach (Algeria), NNPC + Dangote Refinery (Nigeria), Sasol + Sapref + Engen (South Africa), Sonangol (Angola), Tullow Oil (Ghana + Kenya), Mozambique LNG, mining context (Anglo American, Glencore, AngloGold Ashanti), port + container terminal infrastructure, heritage scanning',
+    deliverables: 'survey-grade point cloud, BIM + as-built CAD, refinery + petrochem turnaround scoping, mining + tailings + open-pit drone capture, port + container terminal scans, heritage + structural surveys'
+  },
+  'latam-energy': {
+    hook: 'a Latin American refining + offshore + mining + infrastructure hub',
+    industries: 'Petrobras + Pre-Salt offshore, PDVSA refining context (Venezuela), Pemex (Mexico), Ecopetrol (Colombia), Petroperu, ENAP (Chile), ANCAP (Uruguay), Codelco copper (Chile), Vale iron ore (Brazil), Buenaventura precious-metals (Peru), port + terminal + LNG infrastructure, FPSO + offshore fabrication',
+    deliverables: 'survey-grade point cloud, BIM, as-built CAD, FPSO + offshore + jacket + subsea scans, mining + tailings drone capture, refinery + petrochem turnaround scoping, port + container terminal surveys'
+  },
+  'canada-energy': {
+    hook: 'a Canadian energy + oil sands + offshore + heavy industrial hub',
+    industries: 'Suncor + Cenovus + CNRL + Imperial Oil oil-sands, Syncrude + Athabasca oil-sands operations, Hibernia + Hebron + White Rose offshore Newfoundland, Petro-Canada + Husky Energy refining, Alberta natural-gas + LNG Canada (Kitimat), TransCanada + Enbridge pipeline + terminal context, mining (Teck, Cameco uranium, Barrick + Goldcorp), heavy fabrication for EPC',
+    deliverables: 'survey-grade point cloud, drone capture for tailings + oil-sands tailings ponds, BIM + as-built CAD, DT-ready models, offshore + FPSO scans, refinery + upgrader turnaround scoping, pipeline + terminal surveys'
+  },
+  'japan-korea-heavy': {
+    hook: 'a Japan + South Korea heavy industrial + refining + shipbuilding hub',
+    industries: 'JX Holdings + ENEOS + Idemitsu refining (Japan), S-Oil + GS Caltex + SK Energy + Hyundai Oilbank (Korea), Hyundai Heavy Industries + Samsung Heavy Industries + Daewoo Shipbuilding (DSME) + Imabari shipyard context, Nippon Steel + POSCO + Kobe Steel, automotive heavy fabrication, nuclear + power generation, infrastructure + tunnel + bullet-train BIM',
+    deliverables: 'survey-grade point cloud, BIM (IFC + Revit), as-built CAD, refinery + petrochem turnaround scoping, shipyard + drydock scans, heavy fabrication dimensional control, nuclear + power-gen integrity surveys, tunnel + rail + structural'
+  },
+  'russia-cis': {
+    hook: 'a Russia + CIS oil + gas + refining + offshore hub',
+    industries: 'Rosneft + Lukoil + Gazprom Neft + Tatneft + Surgutneftegas refining, Gazprom + Novatek LNG (Yamal + Arctic), Sakhalin offshore, Caspian + Black Sea offshore, KazMunayGas (Kazakhstan), SOCAR (Azerbaijan), Turkmenistan gas, heavy fabrication + mining',
+    deliverables: 'survey-grade point cloud, BIM, as-built CAD, refinery + petrochem turnaround scoping, offshore + FPSO + Arctic scans, pipeline + terminal surveys, heavy fabrication dimensional control'
+  },
+  'heritage-civic': {
+    hook: 'a heritage + civic + commercial real-estate + infrastructure centre',
+    industries: 'commercial high-rise + mixed-use construction, heritage + cultural scanning, metro + rail + tunnel BIM, civic infrastructure surveys, university + hospital + complex commercial reality capture',
+    deliverables: 'survey-grade point cloud, BIM (IFC + Revit), heritage + structural scans, civic + commercial deformation surveys, tunnel + metro + rail BIM, EN ISO + heritage agency compliance'
+  },
+  'generic-industrial': {
+    hook: 'an industrial + manufacturing + EPC delivery centre',
+    industries: 'industrial fabrication + EPC delivery, regional refining + petrochem context, port + terminal infrastructure, heavy equipment + commercial construction',
+    deliverables: 'survey-grade point cloud, BIM + as-built CAD, DT-ready models, industrial + infrastructure deformation surveys, dimensional control + reverse engineering, code-aligned inspection support (API 653, API 510, ASME V Article 4)'
+  },
+};
+
+// City slug → archetype lookup. Slugs are matched as substrings (case-insensitive on
+// the slug) so a country-name or region keyword catches every city in that bucket.
+// Order matters — first match wins. Country/region patterns first, specific cities
+// only when the regional default doesn&apos;t fit.
+const _3D_SCAN_ARCHETYPE_RULES = [
+  // US Gulf Coast — refining + petrochem corridor
+  [/^(houston|baytown|texas-city|pasadena|deer-park|la-porte|channelview|sugar-land|pearland|conroe|galveston|port-arthur|freeport-texas|orange-texas|beaumont|corpus-christi|lake-charles|baton-rouge|new-orleans|geismar|st-james|garyville|convent|gonzales|mont-belvieu|sweeny|alvin|seabrook|texas|louisiana)/i, 'gulf-refining'],
+  // US West Coast + Cali refining
+  [/^(long-beach|carson|wilmington-california|torrance|el-segundo|vernon|richmond-california|martinez|benicia|los-angeles|san-francisco|san-diego|bakersfield|oakland|seattle|tacoma|anchorage|portland-oregon|california|washington|oregon|alaska)/i, 'us-refining'],
+  // US Midwest + Northeast
+  [/^(chicago|joliet|hammond|east-chicago|trainer|marcus-hook|philadelphia|new-york|new-jersey|boston|pittsburgh|cleveland|detroit|toledo|cincinnati|st-louis|kansas-city|minneapolis|milwaukee|indianapolis|columbus-ohio|memphis|nashville|atlanta|charlotte|raleigh|tampa|orlando|miami|jacksonville|virginia|maryland|texas-other|usa|united-states)/i, 'us-refining'],
+  // Middle East
+  [/^(saudi|riyadh|jubail|jeddah|dammam|yanbu|jazan|tabuk|mecca|medina|ras-tanura|abu-dhabi|dubai|sharjah|ajman|ras-al-khaimah|fujairah|umm-al-quwain|uae|united-arab|kuwait|kuwait-city|ahmadi|mina-abdulla|bahrain|manama|sitra|qatar|doha|ras-laffan|mesaieed|oman|muscat|sohar|salalah|sur|nizwa|iran|tehran|abadan|isfahan|shiraz|tabriz|ahvaz|iraq|baghdad|basra|erbil|kirkuk|mosul|yemen|sanaa|aden|jordan|amman|aqaba|lebanon|beirut|syria|damascus|israel|tel-aviv|haifa|middle-east)/i, 'middle-east-oil-gas'],
+  // India refining + heavy fab
+  [/^(mumbai|navi-mumbai|thane|pune|nashik|aurangabad|jamnagar|surat|vadodara|ahmedabad|rajkot|kandla|gandhinagar|gujarat|maharashtra|jaipur|udaipur|jodhpur|rajasthan|chennai|coimbatore|madurai|tiruchirappalli|salem|tirupur|tamil-nadu|bangalore|bengaluru|mysore|hubli|mangaluru|karnataka|kochi|cochin|thiruvananthapuram|kerala|hyderabad|secunderabad|vijayawada|visakhapatnam|vizag|andhra-pradesh|telangana|kolkata|haldia|durgapur|asansol|west-bengal|bhubaneswar|paradip|cuttack|odisha|patna|jamshedpur|ranchi|bhubaneshwar|gaya|jharkhand|bihar|lucknow|kanpur|varanasi|agra|noida|ghaziabad|allahabad|uttar-pradesh|delhi|new-delhi|gurgaon|gurugram|faridabad|panipat|chandigarh|haryana|punjab|amritsar|ludhiana|jalandhar|guwahati|assam|imphal|manipur|shillong|meghalaya|raipur|chhattisgarh|bhopal|indore|madhya-pradesh|india)/i, 'india-refining'],
+  // China heavy industrial
+  [/^(beijing|shanghai|tianjin|shenzhen|guangzhou|shenyang|wuhan|chongqing|hangzhou|chengdu|nanjing|xian|qingdao|dalian|ningbo|xiamen|fuzhou|jinan|harbin|changchun|kunming|nanchang|hefei|zhengzhou|lanzhou|urumqi|hong-kong|macau|china)/i, 'china-heavy'],
+  // SE Asia marine + EPC
+  [/^(singapore|jurong|tuas|kuala-lumpur|kl|johor|penang|melaka|kuching|kota-kinabalu|malacca|malaysia|jakarta|surabaya|bandung|medan|semarang|palembang|makassar|cilacap|balikpapan|bontang|cilegon|tuban|cepu|indonesia|bangkok|chonburi|rayong|map-ta-phut|chiang-mai|laem-chabang|songkhla|hat-yai|thailand|manila|cebu|davao|batangas|subic|cagayan-de-oro|iloilo|philippines|ho-chi-minh|hanoi|haiphong|da-nang|can-tho|vung-tau|vietnam|yangon|mandalay|myanmar|burma|phnom-penh|sihanoukville|cambodia|vientiane|laos|brunei|bandar-seri|seri-begawan|asean|south-east-asia|southeast-asia)/i, 'sea-marine-epc'],
+  // UK + Scotland + Ireland
+  [/^(london|aberdeen|glasgow|edinburgh|dundee|invergordon|nigg|peterhead|fife|cromarty|firth|stornoway|orkney|shetland|grangemouth|hull|teesside|middlesbrough|hartlepool|liverpool|manchester|leeds|sheffield|birmingham|bristol|cardiff|swansea|belfast|dublin|cork|limerick|galway|waterford|england|scotland|wales|northern-ireland|ireland|united-kingdom|uk|britain)/i, 'uk-scotland-offshore'],
+  // Norway + Scandinavia
+  [/^(oslo|bergen|stavanger|trondheim|tromso|hammerfest|kristiansand|sandnes|alesund|drammen|kristiansund|haugesund|norway|stockholm|gothenburg|malmo|sweden|copenhagen|aarhus|aalborg|esbjerg|denmark|helsinki|tampere|turku|oulu|finland|reykjavik|iceland|scandinavia|nordic)/i, 'norway-offshore'],
+  // Europe (refining + heavy)
+  [/^(rotterdam|amsterdam|the-hague|utrecht|eindhoven|antwerp|brussels|ghent|liege|hamburg|bremen|bremerhaven|wilhelmshaven|cologne|dusseldorf|frankfurt|stuttgart|munich|berlin|leipzig|leuna|ludwigshafen|gelsenkirchen|essen|duisburg|paris|le-havre|marseille|lyon|toulouse|lille|nantes|bordeaux|nice|strasbourg|milan|rome|naples|turin|genoa|venice|sicily|sardinia|madrid|barcelona|valencia|seville|bilbao|cartagena|tarragona|cadiz|huelva|porto|lisbon|sines|geneva|zurich|basel|vienna|graz|linz|salzburg|warsaw|krakow|gdansk|katowice|wroclaw|poznan|lodz|szczecin|prague|brno|ostrava|bratislava|budapest|debrecen|miskolc|szeged|pecs|athens|thessaloniki|piraeus|patras|crete|bucharest|cluj|timisoara|iasi|constanta|sofia|plovdiv|varna|burgas|belgrade|novi-sad|nis|zagreb|split|rijeka|sarajevo|ljubljana|skopje|tirana|durres|netherlands|belgium|germany|france|italy|spain|portugal|switzerland|austria|poland|czech|slovakia|hungary|greece|romania|bulgaria|serbia|croatia|bosnia|slovenia|macedonia|albania|europe)/i, 'europe-refining'],
+  // Australia
+  [/^(perth|karratha|dampier|port-hedland|fremantle|broome|bunbury|albany|geraldton|esperance|kalgoorlie|kwinana|pluto|wheatstone|gorgon|onslow|darwin|katherine|alice-springs|cairns|townsville|mackay|rockhampton|gladstone|sunshine-coast|gold-coast|brisbane|toowoomba|sydney|newcastle|wollongong|melbourne|geelong|ballarat|bendigo|launceston|hobart|adelaide|port-augusta|whyalla|port-pirie|mount-isa|olympic-dam|moranbah|emerald|chinchilla|moomba|gippsland|latrobe-valley|barossa|portland-australia|australia|new-zealand|auckland|wellington|christchurch|hamilton-nz|tauranga|dunedin|new-plymouth|napier|invercargill|whangarei|nz)/i, /^(perth|karratha|dampier|port-hedland|fremantle|broome|bunbury|albany|geraldton|esperance|kalgoorlie|kwinana|pluto|wheatstone|gorgon|onslow|darwin|katherine|alice-springs|cairns|townsville|mackay|rockhampton|gladstone)/i.test ? 'australia-lng-mining' : 'australia-lng-mining'],
+  // (second Australia rule — east-coast infra)
+  [/^(sydney|newcastle|wollongong|melbourne|geelong|ballarat|bendigo|launceston|hobart|adelaide|brisbane|sunshine-coast|gold-coast|toowoomba|auckland|wellington|christchurch|hamilton-nz)/i, 'australia-east-infra'],
+  // Africa
+  [/^(lagos|abuja|kano|ibadan|port-harcourt|warri|kaduna|onne|bonny|calabar|nigeria|algiers|oran|hassi-messaoud|arzew|skikda|annaba|algeria|tripoli|benghazi|misurata|sirte|libya|cairo|alexandria|suez|port-said|damietta|egypt|casablanca|rabat|tangier|mohammedia|jorf-lasfar|morocco|tunis|sfax|gabes|tunisia|nairobi|mombasa|nakuru|kisumu|kenya|dar-es-salaam|arusha|mwanza|tanzania|accra|takoradi|tema|kumasi|ghana|abidjan|yamoussoukro|cote-divoire|ivory-coast|dakar|senegal|cape-town|johannesburg|pretoria|durban|port-elizabeth|gqeberha|east-london-sa|saldanha|sasolburg|secunda|south-africa|luanda|cabinda|soyo|angola|maputo|beira|nacala|mozambique|kampala|uganda|kigali|rwanda|harare|bulawayo|zimbabwe|lusaka|zambia|gaborone|botswana|windhoek|namibia|africa)/i, 'africa-energy'],
+  // LATAM
+  [/^(sao-paulo|rio|salvador|fortaleza|recife|manaus|belo-horizonte|brasilia|porto-alegre|curitiba|campinas|santos|macae|campos|aracaju|natal|joao-pessoa|maceio|joao-pessoa|guarulhos|campinas|paulinia|brazil|buenos-aires|cordoba|rosario|mendoza|neuquen|comodoro|argentina|santiago|valparaiso|antofagasta|iquique|concepcion|chile|lima|callao|talara|cusco|trujillo|arequipa|piura|peru|bogota|medellin|cali|cartagena|barranquilla|bucaramanga|cucuta|colombia|caracas|maracaibo|valencia-venezuela|barquisimeto|maturin|puerto-ordaz|venezuela|quito|guayaquil|esmeraldas|cuenca|ecuador|asuncion|paraguay|montevideo|uruguay|la-paz|santa-cruz|cochabamba|bolivia|mexico-city|guadalajara|monterrey|tijuana|merida|veracruz|tampico|salina-cruz|cadereyta|salamanca-mexico|coatzacoalcos|minatitlan|tula|mexico|panama|panama-city|colon|san-jose-costa-rica|costa-rica|tegucigalpa|honduras|san-salvador|el-salvador|guatemala-city|guatemala|managua|nicaragua|kingston|jamaica|port-of-spain|trinidad|nassau|bahamas|santo-domingo|dominican|havana|cuba|san-juan|puerto-rico|latam|latin-america|south-america|central-america)/i, 'latam-energy'],
+  // Canada
+  [/^(calgary|edmonton|fort-mcmurray|grande-prairie|red-deer|lloydminster|medicine-hat|lethbridge|cold-lake|peace-river|alberta|toronto|hamilton|mississauga|brampton|ottawa|kitchener|london-ontario|windsor|sarnia|sudbury|thunder-bay|kingston-ontario|niagara|ontario|montreal|quebec-city|laval|gatineau|sherbrooke|trois-rivieres|saguenay|levis|quebec|vancouver|victoria|burnaby|surrey|richmond-canada|abbotsford|kelowna|nanaimo|kamloops|prince-george|kitimat|prince-rupert|british-columbia|winnipeg|brandon|manitoba|regina|saskatoon|moose-jaw|saskatchewan|st-johns|halifax|moncton|fredericton|charlottetown|newfoundland|nova-scotia|new-brunswick|prince-edward|yellowknife|whitehorse|iqaluit|northwest-territories|yukon|nunavut|canada)/i, 'canada-energy'],
+  // Japan + Korea
+  [/^(tokyo|yokohama|kawasaki|saitama|chiba|nagoya|osaka|kobe|kyoto|sapporo|sendai|hiroshima|fukuoka|kitakyushu|niigata|hamamatsu|shizuoka|okayama|sakai|kawagoe|matsuyama|kanazawa|utsunomiya|toyohashi|nara|himeji|mie|wakayama|mito|akita|aomori|morioka|yamagata|fukushima|niigata|tochigi|gunma|ibaraki|saitama|kanagawa|yamanashi|nagano|gifu|shizuoka|aichi|shiga|kyoto|hyogo|wakayama|tottori|shimane|hiroshima|yamaguchi|tokushima|kagawa|ehime|kochi|fukuoka|saga|nagasaki|kumamoto|oita|miyazaki|kagoshima|okinawa|japan|seoul|busan|incheon|daegu|daejeon|gwangju|ulsan|suwon|changwon|seongnam|goyang|yongin|bucheon|ansan|cheongju|jeonju|cheonan|namyangju|hwaseong|pyeongtaek|jeju|geoje|gimcheon|gyeongju|gimhae|pohang|jinju|tongyeong|sacheon|south-korea|korea)/i, 'japan-korea-heavy'],
+  // Russia + CIS
+  [/^(moscow|st-petersburg|novosibirsk|yekaterinburg|nizhny-novgorod|kazan|chelyabinsk|omsk|samara|rostov-on-don|ufa|krasnoyarsk|perm|voronezh|volgograd|krasnodar|saratov|tyumen|tolyatti|izhevsk|barnaul|ulyanovsk|irkutsk|khabarovsk|yaroslavl|vladivostok|makhachkala|tomsk|orenburg|kemerovo|novokuznetsk|ryazan|astrakhan|naberezhnye-chelny|penza|lipetsk|kirov|cheboksary|kaliningrad|tula|stavropol|sochi|murmansk|arkhangelsk|surgut|nizhnevartovsk|nefteyugansk|noyabrsk|salekhard|yamal|sakhalin|yuzhno-sakhalinsk|petropavlovsk|magadan|chita|russia|kiev|kyiv|kharkiv|odesa|odessa|dnipro|donetsk|lviv|zaporizhzhia|kryvyi-rih|mykolaiv|mariupol|ukraine|minsk|gomel|brest|grodno|belarus|astana|nur-sultan|almaty|atyrau|aktau|aktobe|shymkent|karaganda|pavlodar|temirtau|kazakhstan|baku|sumqayit|ganja|azerbaijan|yerevan|gyumri|armenia|tbilisi|batumi|kutaisi|georgia|tashkent|samarkand|bukhara|uzbekistan|ashgabat|turkmenabat|turkmenistan|bishkek|osh|kyrgyzstan|dushanbe|khujand|tajikistan|cis|russia-cis)/i, 'russia-cis'],
+  // Heritage / civic centres (override regional rules for major heritage cities)
+  [/^(rome|paris|london|vienna|prague|venice|florence|barcelona|madrid|amsterdam|budapest|kyoto|jerusalem|istanbul|cairo|alexandria|athens|new-york|san-francisco|washington|new-orleans|charleston|boston|philadelphia|montreal|quebec-city|kingston|havana|cusco|lima|cape-town|johannesburg|sydney|melbourne|edinburgh|dublin|stockholm|copenhagen|munich|berlin|hamburg)/i, 'heritage-civic'],
+];
+
+function _resolve3DScanArchetype(slug) {
+  const s = (slug || '').toLowerCase();
+  for (const [re, archetype] of _3D_SCAN_ARCHETYPE_RULES) {
+    if (re.test(s)) return _3D_SCAN_ARCHETYPES[archetype] || _3D_SCAN_ARCHETYPES['generic-industrial'];
+  }
+  return _3D_SCAN_ARCHETYPES['generic-industrial'];
+}
+
 // ── 3D Scanning service pages (LiDAR / photogrammetry / drone) — all cities ──
 // Added 2026-05-29. Derives the city list from existing city routes so coverage
 // always matches "every city we have pages in". Renders real bodyContent HTML.
@@ -10258,7 +10410,32 @@ const hasFaqPage = (sd) => {
         '    <p><a href="/contact"><strong>Get a free 3D scanning consultation for ' + name + '</strong></a> — info@atlantisndt.com. Pricing varies by scope (asset size, point density, deliverable format) — request a tailored quote. See also <a href="/3d-scanning-services">3D Scanning Services hub</a>, <a href="/digital-twins">Digital Twin platform</a>, and <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>.</p>\n' +
         '  </main>';
     } else {
-      body = '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/consulting">NDT Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry &amp; Drone Surveys</h1>\n    <p>Atlantis NDT provides survey-grade 3D scanning and reality-capture services in ' + name + ', combining LiDAR laser scanning, photogrammetry and drone-based (UAV) capture to turn plants, tanks, vessels, structures and components into accurate, measurable digital models.</p>\n    <p>Backed by our ASNT Level III inspection team, scans captured in ' + name + ' feed into as-built CAD, BIM and digital-twin workflows and support API 653 / API 510 tank and vessel deformation surveys, corrosion and coating mapping, clash detection, reverse engineering, and turnaround planning.</p>\n  </main>';
+      // Quality Round-2 Phase A: archetype-derived rich context replaces template fallback.
+      const arche = _resolve3DScanArchetype(city);
+      body = '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/digital-twins">Digital Twins</a><a href="/consulting">NDT Consulting</a><a href="/contact">Free Consultation</a></nav></header>\n' +
+        '  <main>\n' +
+        '    <h1>3D Scanning Services in ' + name + ' 2026 — LiDAR + Drone + Photogrammetry</h1>\n' +
+        '    <p><strong>Atlantis NDT</strong> delivers survey-grade 3D scanning + reality-capture services in ' + name + ' — ' + arche.hook + '. We combine high-density LiDAR laser scanning (Leica RTC360, Faro Focus, Riegl VZ-400), photogrammetry, drone-based (UAV) reality capture, and tactile-probe metrology for accurate, measurable digital models that integrate with BIM, CAD, and digital-twin workflows.</p>\n' +
+        '    <h2>Industries Served in ' + name + '</h2>\n' +
+        '    <p>' + arche.industries + '. Our ASNT NDT Level III-led inspection team brings code-aware delivery — API 653 tank settlement surveys, API 510 pressure-vessel deformation, ASME Section V Article 4 cross-checks, FPSO classification surveys for IACS class societies (ABS / DNV / Lloyd&apos;s Register / Bureau Veritas), NACE MR0175 + MR0103 sour-service alloy verification (XRF PMI per ASTM E1476).</p>\n' +
+        '    <h2>Deliverables We Ship in ' + name + '</h2>\n' +
+        '    <p>' + arche.deliverables + '. Output formats: LAS, E57, RCP, RCS, PLY, OBJ, FBX, Revit, IFC, AutoCAD DWG, MicroStation. SHA-256 hashed deliverable bundles with full audit trail. ISO 9001:2015 + ISO 17020 audit-ready records via <a href="/erp">Atlantis NDT ERP</a> + <a href="/digital-twins">Digital Twin platform</a> integration.</p>\n' +
+        '    <h2>Why Atlantis NDT for 3D Scanning in ' + name + '</h2>\n' +
+        '    <ul>\n' +
+        '      <li><strong>ASNT NDT Level III led</strong> — every scan delivery reviewed + signed off by Level III</li>\n' +
+        '      <li><strong>Same-day quote</strong> — free 30-min consultation + tailored quote within 24 hours</li>\n' +
+        '      <li><strong>Affordable + accessible + fully customizable</strong> — sized from single-site surveys to multi-asset enterprise programs</li>\n' +
+        '      <li><strong>Digital Twin integrated</strong> — scans feed directly into Atlantis NDT <a href="/digital-twins">Digital Twin platform</a> for live asset monitoring</li>\n' +
+        '      <li><strong>IACS Marine accepted</strong> — for FPSO, drydock, offshore platform classification surveys</li>\n' +
+        '      <li><strong>Code-aligned</strong> — API 653, API 510/570, ASME Section V Article 4, NACE MR0175/MR0103, EN 13445/13480, IACS Rec-20</li>\n' +
+        '    </ul>\n' +
+        '    <h2>3D Scanning Delivery Workflow in ' + name + '</h2>\n' +
+        '    <p>Atlantis NDT delivery workflow in ' + name + ' decomposes into 5 phases: (1) <strong>Scoping</strong> — free 30-min consultation, asset class + access constraints + deliverable spec + integration scope; (2) <strong>Capture</strong> — on-site mobilisation 24-72h, multi-station LiDAR registration (typically &lt; 2 mm accuracy), drone capture for elevated + tank-roof + tailings + structural-edge work, photogrammetry for high-resolution texture overlay; (3) <strong>Registration + QC</strong> — point-cloud registration target accuracy verified, density + coverage QC, deliverable preview; (4) <strong>Modelling</strong> — as-built CAD + BIM authoring per IFC + Revit + AutoCAD + MicroStation standards, parametric reconstruction for analytical workflows; (5) <strong>Integration</strong> — handover to Atlantis Digital Twin platform, ERP asset register sync, audit-trail recording in Atlantis NDT Reporting Software.</p>\n' +
+        '    <h2>Code + Compliance Anchored in ' + name + ' Delivery</h2>\n' +
+        '    <p>Every Atlantis NDT 3D scanning engagement in ' + name + ' aligns with the construction + in-service code stack: ASME B&amp;PV Section V Article 4 ultrasonic + Section VIII pressure-vessel + Section IX welding qualification cross-references; API 510 pressure vessel + API 570 piping + API 653 above-ground storage tank; NACE MR0175 + MR0103 sour-service material verification (XRF-PMI per ASTM E1476); EN 13445 + EN 13480 pressure equipment alignment for European fabrication scope; IACS Rec-20 marine + offshore NDE acceptance; ISO 9712 + EN ISO 9712 inspector certification dual-scheme. ASNT NDT Level III final disposition + procedure approval per <a href="/consulting/asnt-level-iii-consulting-services">Atlantis Level III consulting</a>.</p>\n' +
+        '    <h2>Free Consultation + Tailored Quote</h2>\n' +
+        '    <p><a href="/contact"><strong>Get a free 3D scanning consultation for ' + name + '</strong></a> — info@atlantisndt.com. Pricing varies by scope (asset size, point density, deliverable format, integration depth, audit-trail scope) — request a tailored quote within 24 hours. Affordable, accessible, fully customizable. See also <a href="/3d-scanning-services">3D Scanning Services hub</a>, <a href="/digital-twins">Digital Twin platform</a>, <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>, <a href="/consulting">NDT Consulting</a>, <a href="/erp">Atlantis NDT ERP</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, <a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 alignment</a>.</p>\n' +
+        '  </main>';
     }
     routes.push({
       path: '/3d-scanning-' + city,
