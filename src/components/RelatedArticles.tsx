@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import blogsData from '@/data/blogs.json';
 
 interface Article {
     title: string;
@@ -10,71 +11,125 @@ interface Article {
 
 interface RelatedArticlesProps {
     currentSlug?: string;
-    category?: 'ndt-methods' | 'training' | 'consulting' | 'digital-twins';
+    category?: string;
     maxArticles?: number;
     className?: string;
 }
 
-// Define all articles grouped by category
-const articlesByCategory: Record<string, Article[]> = {
-    'ndt-methods': [
-        { title: 'Ultrasonic Testing (UT) Guide', href: '/blog/ultrasonic-testing', description: 'High-frequency sound wave inspection for welds and thickness measurement.' },
-        { title: 'Radiographic Testing (RT) Guide', href: '/blog/radiographic-testing', description: 'X-ray and gamma ray imaging for internal defect detection.' },
-        { title: 'Magnetic Particle Testing (MT) Guide', href: '/blog/magnetic-particle-testing', description: 'Surface and near-surface defect detection in ferromagnetic materials.' },
-        { title: 'Penetrant Testing (PT) Guide', href: '/blog/penetrant-testing', description: 'Liquid dye inspection for surface-breaking defects.' },
-        { title: 'Eddy Current Testing (ET) Guide', href: '/blog/eddy-current-testing', description: 'Electromagnetic inspection for tubing and conductivity testing.' },
-        { title: 'Visual Testing (VT) Guide', href: '/blog/visual-testing', description: 'Direct visual and remote inspection methods.' },
-    ],
-    'training': [
-        { title: 'NDT Training Complete Guide', href: '/blog/ndt-training-complete-guide-courses-certification-global', description: 'Comprehensive guide to NDT training and certification.' },
-        { title: 'NDT Career Guide 2025', href: '/blog/ndt-career-top-choice-2025-global-market-trends', description: 'Career opportunities in non-destructive testing.' },
-        { title: 'NDT Training vs Certification', href: '/blog/ndt-training-vs-certification-2025-oil-gas-expectations', description: 'Understanding the difference between training and certification.' },
-        { title: 'NDT Salary Guide', href: '/blog/ndt-salary-guide-2025-global-level-1-2-3', description: 'Salary expectations for NDT professionals worldwide.' },
-    ],
-    'consulting': [
-        { title: 'ASNT Level III Consulting Guide', href: '/blog/asnt-level-iii-ndt-consulting-guide', description: 'Expert guide to Level III consulting services.' },
-        { title: 'NDT Level III Services Guide', href: '/blog/ndt-level-iii-consulting-services-guide', description: 'Comprehensive Level III consulting overview.' },
-        { title: 'NDT Consulting Q&A', href: '/blog/ndt-consulting-questions-answered-by-level-iii-expert', description: 'Common questions answered by Level III experts.' },
-    ],
-    'digital-twins': [
-        { title: 'Digital Twins for NDT Reporting', href: '/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity', description: 'How digital twins transform NDT reporting.' },
-        { title: 'Digital Twins Reduce Turnaround Time', href: '/blog/digital-twins-reduce-refinery-turnaround-time', description: 'Using digital twins for faster refinery turnarounds.' },
-        { title: 'Ultimate Guide to NDT Digital Twins', href: '/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025', description: 'Complete guide to implementing digital twins for NDT.' },
-        { title: 'Digital Twin Roadmap', href: '/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity', description: 'Implementation roadmap for oil and gas companies.' },
-    ],
-};
+/**
+ * Round-3 Phase 6 — slug-keyword classifier-driven Related Articles.
+ *
+ * Replaces the prior 24-article hand-coded category map (which left 250+
+ * blogs falling through to a default UT-only bucket showing irrelevant
+ * suggestions). Now classifies every blog by slug + title + category
+ * keywords into one of ~20 topic clusters, then picks 3 siblings from the
+ * same cluster.
+ *
+ * Falls back to `general` cluster (sampling across all blogs) if the
+ * cluster has no other entries.
+ */
 
-// Determine category from slug
-const getCategoryFromSlug = (slug: string): string => {
-    const ndtMethods = ['ultrasonic', 'radiographic', 'magnetic', 'penetrant', 'eddy', 'visual'];
-    if (ndtMethods.some(method => slug.includes(method))) return 'ndt-methods';
-    if (slug.includes('training') || slug.includes('career') || slug.includes('salary')) return 'training';
-    if (slug.includes('consulting') || slug.includes('level-iii')) return 'consulting';
-    if (slug.includes('digital-twin')) return 'digital-twins';
-    return 'ndt-methods'; // default
-};
+type ClusterKey =
+    | 'asnt-cert'
+    | 'api-code'
+    | 'cswip-aws'
+    | 'nace-coating'
+    | 'method-ut'
+    | 'method-rt'
+    | 'method-mt-pt-vt-et'
+    | 'consulting'
+    | 'rbi-ffs'
+    | 'digital-twin'
+    | 'erp-reporting'
+    | 'marine-offshore'
+    | 'aerospace'
+    | 'refining-petrochem'
+    | 'lng-hydrogen-ccs'
+    | 'power-gen'
+    | 'mining'
+    | 'training-career'
+    | 'roi-case-study'
+    | 'compare'
+    | 'general';
+
+function classify(slug: string, title: string = '', category: string = ''): ClusterKey {
+    const s = (slug + ' ' + title + ' ' + category).toLowerCase();
+
+    if (/asnt|snt-tc-1a|cp-189|level\s*(i|ii|iii|3)/.test(s)) return 'asnt-cert';
+    if (/api[- ]?(510|570|580|581|579|653|571|936|1169|icp)/.test(s)) return 'api-code';
+    if (/cswip|cwi|scwi|aws[- ]?d/.test(s)) return 'cswip-aws';
+    if (/nace|ampp|cip|sp02|sour|mr0175|mr0103|coating|bgas/.test(s)) return 'nace-coating';
+    if (/paut|tofd|ultrasonic|\but\b|lrut|immersion|guided[- ]wave|eca/.test(s)) return 'method-ut';
+    if (/radiograph|\brt\b|gamma|x-?ray|iqi/.test(s)) return 'method-rt';
+    if (/magnetic[- ]particle|\bmt\b|penetrant|\bpt\b|visual\s+(test|inspec)|\bvt\b|eddy[- ]current|\bet\b|acoustic[- ]emission|\bae\b|leak[- ]test|irt|thermograph|holiday/.test(s)) return 'method-mt-pt-vt-et';
+    if (/consulting|level\s*iii\s*consult|outsourced[- ]?level/.test(s)) return 'consulting';
+    if (/\brbi\b|api\s*581|fitness[- ]for[- ]service|\bffs\b|api\s*579|damage[- ]mechanism|api\s*571/.test(s)) return 'rbi-ffs';
+    if (/digital[- ]twin|3d[- ]model|3d[- ]scan|lidar|photogrammet/.test(s)) return 'digital-twin';
+    if (/\berp\b|inspection[- ]software|reporting[- ]software|cmms|eam|atlantis[- ]ndt/.test(s)) return 'erp-reporting';
+    if (/marine|offshore|fpso|drydock|jackup|subsea|iacs|class[- ]society/.test(s)) return 'marine-offshore';
+    if (/aerospace|aviation|aircraft|airbus|boeing|nas[- ]?410|en[- ]?4179/.test(s)) return 'aerospace';
+    if (/refining|refinery|petrochem|fcc|cracker|reformer|amine/.test(s)) return 'refining-petrochem';
+    if (/\blng\b|hydrogen|electrolys|\bccs\b|carbon[- ]capture|co2/.test(s)) return 'lng-hydrogen-ccs';
+    if (/power[- ]gen|boiler|hrsg|condens|turbine|nuclear/.test(s)) return 'power-gen';
+    if (/mining|haul[- ]?truck|drag[- ]?line|tailings/.test(s)) return 'mining';
+    if (/training|cohort|exam|course|career|salary/.test(s)) return 'training-career';
+    if (/case[- ]?study|roi|outcomes|customer/.test(s)) return 'roi-case-study';
+    if (/\bvs\b|compare|comparison|versus|compared/.test(s)) return 'compare';
+    return 'general';
+}
+
+// Build cluster index once from the imported blogs.json
+const ALL_BLOGS = (blogsData as any[]).filter(b => b && b.slug && b.title);
+
+const CLUSTER_INDEX: Partial<Record<ClusterKey, Article[]>> = {};
+for (const b of ALL_BLOGS) {
+    const k = classify(b.slug, b.title || '', b.category || '');
+    if (!CLUSTER_INDEX[k]) CLUSTER_INDEX[k] = [];
+    CLUSTER_INDEX[k]!.push({
+        title: b.title.replace(/\s*\|\s*Atlantis.*$/i, '').trim(),
+        href: `/blog/${b.slug}`,
+        description: (b.metaDescription || b.snippet || '').slice(0, 140),
+    });
+}
+
+// Build general fallback by sampling across the 5 largest non-general clusters
+const GENERAL_FALLBACK: Article[] = (() => {
+    const sortedClusters = (Object.keys(CLUSTER_INDEX) as ClusterKey[])
+        .filter(k => k !== 'general')
+        .sort((a, b) => (CLUSTER_INDEX[b]?.length || 0) - (CLUSTER_INDEX[a]?.length || 0))
+        .slice(0, 5);
+    const out: Article[] = [];
+    for (const k of sortedClusters) {
+        const items = CLUSTER_INDEX[k] || [];
+        if (items.length > 0) out.push(items[0]);
+    }
+    return out;
+})();
 
 export const RelatedArticles: React.FC<RelatedArticlesProps> = ({
     currentSlug = '',
     category,
     maxArticles = 3,
-    className = ''
+    className = '',
 }) => {
-    // Determine category from prop or infer from currentSlug
-    const effectiveCategory = category || getCategoryFromSlug(currentSlug);
-
-    // Get articles for category and filter out current article
-    const articles = (articlesByCategory[effectiveCategory] || articlesByCategory['ndt-methods'])
-        .filter(article => !article.href.includes(currentSlug))
+    const cluster = (category as ClusterKey) || classify(currentSlug);
+    const pool = CLUSTER_INDEX[cluster] || [];
+    const articles = pool
+        .filter(a => !a.href.endsWith('/' + currentSlug))
         .slice(0, maxArticles);
 
-    if (articles.length === 0) return null;
+    // Fallback to general pool if cluster too thin
+    const finalArticles = articles.length >= maxArticles
+        ? articles
+        : [...articles, ...GENERAL_FALLBACK.filter(a => !a.href.endsWith('/' + currentSlug))].slice(0, maxArticles);
+
+    if (finalArticles.length === 0) return null;
 
     return (
         <section className={`bg-slate-100 rounded-xl p-6 ${className}`}>
             <h3 className="text-xl font-bold mb-4 text-slate-900">Related Articles</h3>
             <ul className="space-y-4">
-                {articles.map((article, index) => (
+                {finalArticles.map((article, index) => (
                     <li key={index}>
                         <Link
                             to={article.href}
