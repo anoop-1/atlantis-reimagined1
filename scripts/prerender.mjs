@@ -10629,7 +10629,19 @@ advancedMethodSlugs.forEach(method => {
           ]}
         ]
       },
-      bodyContent: `  <header><nav><a href="/">Home</a><a href="/ndt-methods">Services</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${method.name} in ${city.name}</h1>\n    <p>Professional ${method.name} services in ${city.name}. ASNT Level III certified ${method.shortName} inspectors delivering advanced NDT inspection with code-compliant reporting.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
+      bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/ndt-methods">Methods</a><a href="/verticals">Verticals</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${method.name} (${method.shortName}) Services in ${city.name} 2026 — Atlantis NDT</h1>
+    <p><strong>Atlantis NDT</strong> delivers ${method.name} (${method.shortName}) services in ${city.name}. ASNT NDT Level III + API ICP-certified ${method.shortName} inspectors. ${localIndustries ? localIndustries.replace(/<\/?p>/g, '') : ''} ${localCerts ? localCerts.replace(/<\/?p>/g, '') : `Our ${city.name} ${method.shortName} inspectors hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs.`}</p>
+    <h2>${method.shortName} Method Overview</h2>
+    <p>${method.name} (${method.shortName}) is an advanced NDT technique. Atlantis NDT Level III approves the Procedure + signs off final disposition. Calibration block + reference standards traceable to NIST/NPL/PTB. Per ASME Section V applicable Article + ASTM E-series + ISO 17635/17636/17640. Atlantis NDT integrates ${method.shortName} data into <a href="/digital-twins">Digital Twin platform</a> 3D defect overlay.</p>
+    <h2>Code + Compliance in ${city.name}</h2>
+    <p>${method.shortName} delivery aligns with: ASME B&amp;PV V + VIII + IX; ASME B31 piping; API 510 + 570 + 571 + 579 + 580 + 581 + 653; ASTM E-series; ISO 17635/17636/17640; NACE MR0175/MR0103; AWS D1.1/3.6; IACS Rec-20. Audit-ready records per ISO 9001 + 17020 + 17025 via <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <h2>Atlantis NDT Stack Integration</h2>
+    <p>${method.shortName} inspection in ${city.name} integrates with <a href="/erp">Atlantis NDT ERP</a> + <a href="/digital-twins">Digital Twin platform</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">Atlantis NDT LMS</a> + <a href="/atlantis-academy">Atlantis NDT Academy</a> + <a href="/3d-scanning-services">3D Scanning Services</a> + <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a>.</p>
+    <h2>Free Consultation</h2>
+    <p>Atlantis NDT publishes no pricing — varies by region + scope. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a>. Tailored ${city.name} ${method.shortName} quote within 24 hours. Affordable, accessible, fully customizable. See also <a href="/ndt-methods">methods hub</a>, <a href="/ndt-erp-${city.slug}">${city.name} ERP</a>, <a href="/ndt-training-${city.slug}">${city.name} training</a>, <a href="/consulting/ndt-consulting-${city.slug}">${city.name} consulting</a>.</p>
+  </main>`,
     });
     programmaticCount++;
   });
@@ -10670,7 +10682,19 @@ industrySlugs.forEach(industry => {
           ]}
         ]
       },
-      bodyContent: `  <header><nav><a href="/">Home</a><a href="/industry">Industries</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${industry.name} in ${city.name}</h1>\n    <p>Comprehensive NDT inspection services for ${industryShort} facilities in ${city.name}. ASNT Level III certified inspectors delivering UT, RT, MT, PT, VT, and advanced methods.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
+      bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/industry">Industries</a><a href="/verticals">Verticals</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${industry.name} in ${city.name} 2026 — ASNT Level III Led</h1>
+    <p><strong>Atlantis NDT</strong> delivers ${industry.name.toLowerCase()} in ${city.name}. ASNT NDT Level III + API ICP-certified inspectors. ${localIndustries ? localIndustries.replace(/<\/?p>/g, '') : ''} ${localCerts ? localCerts.replace(/<\/?p>/g, '') : `Our ${city.name} inspectors hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs for ${industryShort} facility inspections.`}</p>
+    <h2>${industryShort} Inspection Scope in ${city.name}</h2>
+    <p>Comprehensive NDT inspection for ${industryShort} facilities: pressure vessels (API 510), piping (API 570), above-ground storage tanks (API 653), heat exchangers + columns, fired heaters + furnaces, offshore platforms + FPSOs (where applicable), turnaround + EPC project support, RBI per API 581, FFS per API 579. Methods: UT (incl. PAUT + TOFD + LRUT), RT (DR + CR + real-time), MT (wet-fluorescent + dry-visible), PT, ET (incl. ECA), VT, AE, IRT, LT.</p>
+    <h2>Code + Compliance</h2>
+    <p>${industryShort} facility inspections per: ASME B&amp;PV Sections V + VIII + IX + XI; ASME B31 piping series; API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 936 + 1169; NACE MR0175 + MR0103 sour-service; ASTM E-series; ISO 17635/17636/17640; AWS D1.1/3.6; IACS Rec-20 marine. Audit-ready records per ISO 9001:2015 + ISO 17020 + ISO 17025 retained via <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <h2>Atlantis NDT Stack Integration</h2>
+    <p>${industryShort} inspection in ${city.name} integrates with <a href="/erp">Atlantis NDT ERP</a> + <a href="/digital-twins">Digital Twin platform</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">Atlantis NDT LMS</a> + <a href="/atlantis-academy">Atlantis NDT Academy</a> + <a href="/3d-scanning-services">3D Scanning Services</a> + <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a>. Affordable, accessible, fully customizable.</p>
+    <h2>Free Consultation in ${city.name}</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region + scope + delivery model. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor). Tailored ${city.name} ${industryShort} quote within 24 hours. See also <a href="/verticals">verticals</a>, <a href="/consulting">consulting</a>, <a href="/ndt-erp-${city.slug}">${city.name} ERP</a>, <a href="/ndt-training-${city.slug}">${city.name} training</a>.</p>
+  </main>`,
     });
     programmaticCount++;
   });
@@ -10706,7 +10730,19 @@ inspectionSlugs.forEach(service => {
           ]}
         ]
       },
-      bodyContent: `  <header><nav><a href="/">Home</a><a href="/ndt-methods">Services</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${service.name} in ${city.name}</h1>\n    <p>Professional ${service.name.toLowerCase()} in ${city.name}. Expert NDT inspectors using UT, RT, MT, PT, and advanced methods for comprehensive inspection coverage with code-compliant reporting.</p>\n    ${localIndustries}${localCerts}\n  </main>`,
+      bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/ndt-methods">Methods</a><a href="/verticals">Verticals</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${service.name} in ${city.name} 2026 — ASNT Level III Led</h1>
+    <p><strong>Atlantis NDT</strong> delivers ${service.name.toLowerCase()} in ${city.name}. Expert ASNT NDT Level II + III certified inspectors using UT (incl. PAUT + TOFD + LRUT), RT (incl. DR + CR + real-time), MT (wet-fluorescent + dry-visible), PT, ET (incl. ECA), VT, AE, IRT, LT — comprehensive inspection coverage with code-compliant reporting. ${localIndustries ? localIndustries.replace(/<\/?p>/g, '') : ''} ${localCerts ? localCerts.replace(/<\/?p>/g, '') : ''}</p>
+    <h2>${service.name} Scope</h2>
+    <p>${service.name} covers: weld inspection per AWS D1.1 + ASME Section IX; tank shell + floor + roof per API 653; pipeline integrity per API 570 + B31.4/B31.8; corrosion mapping per API 571 damage mechanisms + RBI per API 581; FFS per API 579 (Part 4-12); plus ASTM E-series volumetric methods. Atlantis NDT Level III approves every Procedure + signs off final disposition + audit-ready records via <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <h2>Code + Compliance</h2>
+    <p>${service.name} per: ASME B&amp;PV Sections V + VIII + IX + XI; ASME B31 piping series; API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 1104 + 1169; ASTM E-series; ISO 17635/17636/17640; AWS D1.1/3.6; IACS Rec-20 marine; NACE MR0175 + MR0103 sour-service. Audit-ready records per ISO 9001:2015 + ISO 17020 + ISO 17025.</p>
+    <h2>Atlantis NDT Stack Integration in ${city.name}</h2>
+    <p>${service.name} in ${city.name} integrates with the full Atlantis NDT stack: <a href="/erp">ERP</a> + <a href="/digital-twins">Digital Twin platform</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">LMS</a> + <a href="/atlantis-academy">Academy</a> + <a href="/3d-scanning-services">3D Scanning</a>. Affordable, accessible, fully customizable.</p>
+    <h2>Free Consultation</h2>
+    <p>Atlantis NDT publishes no pricing — varies by region + scope. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a>. Tailored ${city.name} quote within 24 hours. See also <a href="/verticals">verticals</a>, <a href="/ndt-erp-${city.slug}">${city.name} ERP</a>, <a href="/ndt-training-${city.slug}">${city.name} training</a>, <a href="/consulting/ndt-consulting-${city.slug}">${city.name} consulting</a>.</p>
+  </main>`,
     });
     programmaticCount++;
   });
