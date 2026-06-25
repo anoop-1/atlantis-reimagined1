@@ -3,6 +3,7 @@ import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { buildCityHreflang } from "@/lib/build-hreflang";
 import ContactDetails from "@/components/ContactDetails";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -3010,6 +3011,12 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
               Get a Free ERP Consultation for {city}
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <EnquiryCaptureForm variant="erp" />
         </div>
       </section>
 

@@ -29,6 +29,7 @@ import { SEOHead } from "@/components/SEOHead";
 
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 export default function ConsultingServices() {
    // Core consulting services data
    const consultingServices = [
@@ -819,6 +820,11 @@ export default function ConsultingServices() {
             </motion.div>
          </section>
 
+         <section className="py-12 bg-background">
+           <div className="container mx-auto px-4 max-w-4xl">
+             <EnquiryCaptureForm variant="consulting" />
+           </div>
+         </section>
          <ContactDetails />
       </div>
    );

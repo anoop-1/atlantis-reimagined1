@@ -10,7 +10,7 @@ import { useState, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 
 interface Props {
-  variant: "erp" | "dt";
+  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy";
 }
 
 const COPY = {
@@ -42,6 +42,96 @@ const COPY = {
       "ASNT NDT Level III led implementation",
       "IACS Marine accepted for FPSO + drydock",
       "Free consultation + ROI calc + tailored quote",
+    ],
+  },
+  consulting: {
+    badge: "Asset Owner — Free ASNT Level III Consulting Scoping",
+    title: "Request a Free ASNT Level III Consulting Scoping Call",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III + API ICP-certified consultants. RBI, FFS, code consulting, audit prep, written practice authoring. Free consultation + tailored quote on request.",
+    subject: "Consulting Enquiry — Atlantis NDT (from /consulting)",
+    usecasePlaceholder: "API 510/570/653 audit prep, RBI per API 581, FFS per API 579, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
+    submitLabel: "Request My Free Consulting Call",
+    trustSignals: [
+      "ASNT NDT Level III + API ICP certified",
+      "RBI / FFS / Audit / Written Practice — all in-house",
+      "ISO 17020 + ISO 17025 + ISO 9001 framework",
+      "On-site + remote + hybrid delivery models",
+      "Free consultation + tailored quote on request",
+    ],
+  },
+  training: {
+    badge: "Inspector — Free Training Pathway Consultation",
+    title: "Book Your Free Training Pathway Consultation",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III-led training. 96% first-pass rate. Free retake-grade backstop. ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP pathways.",
+    subject: "Training Enquiry — Atlantis NDT (from /training)",
+    usecasePlaceholder: "ASNT Level I/II/III (UT/RT/MT/PT/VT/ET/PAUT/TOFD), API 510/570/580/653/936/1169, AWS CWI/SCWI, NACE CIP, CSWIP 3.1/3.2, PCN UK, ACCP, NAS 410, EN 4179 aerospace…",
+    submitLabel: "Book My Free Pathway Call",
+    trustSignals: [
+      "ASNT NDT Level III-led delivery",
+      "96% first-pass rate across cohorts since 2019",
+      "Free retake-grade backstop on every paid course",
+      "Online + on-site + hybrid models supported",
+      "Free consultation + tailored cert roadmap",
+    ],
+  },
+  "3d-scanning": {
+    badge: "Asset Owner — Free 3D Scanning Project Scoping",
+    title: "Request a Free 3D Scanning Project Scoping Call",
+    sub: "Affordable. Accessible. Fully Customizable. Survey-grade LiDAR + photogrammetry + drone capture. ASNT NDT Level III led. API 653 + 510 + ASME V code-aligned. Free consultation + tailored quote on request.",
+    subject: "3D Scanning Enquiry — Atlantis NDT (from /3d-scanning-services)",
+    usecasePlaceholder: "Tank settlement (API 653), pressure-vessel deformation (API 510), as-built BIM (IFC + Revit + AutoCAD), FPSO drydock + classification, refinery turnaround pre-scoping, heritage scan…",
+    submitLabel: "Request My Free 3D Scan Quote",
+    trustSignals: [
+      "Survey-grade LiDAR + photogrammetry + drone",
+      "ASNT NDT Level III led every delivery",
+      "Output: LAS, E57, RCP, RCS, Revit, IFC, AutoCAD",
+      "Same-day quote (within 24 hours)",
+      "IACS marine + API code-aligned",
+    ],
+  },
+  reporting: {
+    badge: "Inspection Lead — Free Reporting Software Demo",
+    title: "Get a Free 30-Min Reporting Software Demo",
+    sub: "Affordable. Accessible. Fully Customizable. Mobile + offline capture. IACS Marine + API 510/570/653 templates. ASNT NDT Level III led. Free consultation + tailored quote on request.",
+    subject: "Reporting Software Enquiry — Atlantis NDT (from /best-ndt-reporting-software-2026)",
+    usecasePlaceholder: "Mobile + offline field capture, IACS Marine reports, API 510/570/653 templates, NACE CIP coating inspection, custom client formats, EmailJS / SAP / Maximo integration…",
+    submitLabel: "Get My Free Reporting Demo",
+    trustSignals: [
+      "Mobile + offline-first field capture",
+      "IACS Marine + API + ASME V templates",
+      "ASNT NDT Level III led implementation",
+      "Custom format + multi-language support",
+      "Free consultation + tailored quote",
+    ],
+  },
+  lms: {
+    badge: "Training Lead — Free Atlantis NDT LMS Demo",
+    title: "Schedule a Free Atlantis NDT LMS Demo",
+    sub: "Affordable. Accessible. Fully Customizable. ISO 17024 aligned. SCORM + xAPI + Cmi5 content authoring. Multi-site + multi-language rollout. Free consultation + tailored quote on request.",
+    subject: "LMS Enquiry — Atlantis NDT (from /lms)",
+    usecasePlaceholder: "Enterprise inspector training program, cohort tracking, ISO 17024 cert-body alignment, multi-site rollout, SCORM/xAPI content migration, SAP SuccessFactors / Workday / Cornerstone integration…",
+    submitLabel: "Schedule My Free LMS Demo",
+    trustSignals: [
+      "ISO 17024 personnel cert body aligned",
+      "SCORM + xAPI + Cmi5 content authoring",
+      "Multi-site + multi-tenant + on-prem options",
+      "Native ATS / ERP / HRIS integration",
+      "Free consultation + tailored quote",
+    ],
+  },
+  academy: {
+    badge: "Inspector — Free Atlantis NDT Academy Consultation",
+    title: "Book Your Free Atlantis NDT Academy Consultation",
+    sub: "Affordable. Accessible. Fully Customizable. Full ASNT + ISO 9712 + API + AWS + NACE + CSWIP pathway. 96% first-pass rate. Free retake-grade backstop on every paid course.",
+    subject: "Academy Enquiry — Atlantis NDT (from /atlantis-academy)",
+    usecasePlaceholder: "ASNT Level I/II/III pathway, API ICP recertification, AWS CWI/SCWI, NACE CIP, CSWIP 3.1/3.2, PCN, ACCP, NAS 410, EN 4179 aerospace cert pathway scoping…",
+    submitLabel: "Book My Free Academy Call",
+    trustSignals: [
+      "Full multi-scheme pathway (ASNT/ISO/API/AWS/NACE)",
+      "96% first-pass rate across cohorts",
+      "Free retake-grade backstop",
+      "ASNT NDT Level III led delivery",
+      "Online + on-site + hybrid models",
     ],
   },
 } as const;

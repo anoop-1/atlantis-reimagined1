@@ -4,6 +4,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { buildCityHreflang } from "@/lib/build-hreflang";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Users, FileText, Shield, Award, Target, MapPin, Building, Globe, AlertTriangle, Briefcase, BookOpen, Phone, Clock, Star } from "lucide-react";
@@ -1303,6 +1304,12 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                         relevantAppHref="/erp/project-management-for-ndt-companies"
                     />
                 </div>
+            </section>
+
+            <section className="py-12 bg-background">
+              <div className="container mx-auto px-4 max-w-4xl">
+                <EnquiryCaptureForm variant="consulting" />
+              </div>
             </section>
 
             <ContactDetails />

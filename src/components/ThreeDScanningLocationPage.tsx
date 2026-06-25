@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 
 function titleCase(slug: string): string {
   return slug
@@ -67,6 +68,9 @@ export default function ThreeDScanningLocationPage({ citySlug }: { citySlug: str
           <h2 className="text-2xl font-bold mb-3">3D Scanning in {city}</h2>
           <p className="mb-6 opacity-90">LiDAR, photogrammetry and drone capture — mobilised to your {city} site.</p>
           <a href="mailto:info@atlantisndt.com" className="inline-block bg-white text-[#004aad] font-semibold px-6 py-3 rounded-lg hover:bg-slate-100 transition">Request a Quote</a>
+        </div>
+        <div className="mt-10">
+          <EnquiryCaptureForm variant="3d-scanning" />
         </div>
       </main>
       <ContactDetails />

@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 
 const modalities = [
   {
@@ -80,6 +81,9 @@ export default function ThreeDScanning() {
           <h2 className="text-2xl font-bold mb-3">Need a 3D scan, point cloud or as-built model?</h2>
           <p className="mb-6 opacity-90">We mobilise LiDAR, photogrammetry and drone crews globally — across every region we serve.</p>
           <a href="mailto:info@atlantisndt.com" className="inline-block bg-white text-[#004aad] font-semibold px-6 py-3 rounded-lg hover:bg-slate-100 transition">Request a 3D Scanning Quote</a>
+        </div>
+        <div className="mt-12">
+          <EnquiryCaptureForm variant="3d-scanning" />
         </div>
       </main>
       <ContactDetails />

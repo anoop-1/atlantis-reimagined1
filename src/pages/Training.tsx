@@ -9,6 +9,7 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
+import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
 export default function Training() {
    const courses = [
       {
@@ -749,6 +750,11 @@ export default function Training() {
                   </div>
                </motion.div>
             </div>
+         </section>
+         <section className="py-12 bg-background">
+           <div className="container mx-auto px-4 max-w-4xl">
+             <EnquiryCaptureForm variant="training" />
+           </div>
          </section>
          <ContactDetails />
       </div>

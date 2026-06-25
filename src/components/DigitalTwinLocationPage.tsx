@@ -4,6 +4,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { buildCityHreflang } from "@/lib/build-hreflang";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -988,6 +989,12 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         city={city}
                     />
                 </div>
+            </section>
+
+            <section className="py-12 bg-background">
+              <div className="container mx-auto px-4 max-w-4xl">
+                <EnquiryCaptureForm variant="dt" />
+              </div>
             </section>
 
             <ContactDetails />
