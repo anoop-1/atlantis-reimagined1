@@ -8296,13 +8296,46 @@ blogs.forEach(blog => {
     ]
   };
 
+  // Round-3 critical fix: inject FULL blog.content into the static HTML so
+  // Google sees the substantive 800-2,000w article body — not just a 13-word
+  // title+snippet shell. The React BlogDetail page still hydrates on top of
+  // this server-rendered body for client interactivity.
+  const blogContentHtml = (blog.content || '')
+    .replace(/<!DOCTYPE[^>]*>/gi, '')
+    .replace(/<\/?html[^>]*>/gi, '')
+    .replace(/<\/?head[^>]*>/gi, '')
+    .replace(/<\/?body[^>]*>/gi, '');
+  const fullBody = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <article>
+      <h1>${blog.title}</h1>
+      <p class="snippet">${blog.snippet || blog.excerpt || ''}</p>
+      <div class="meta">
+        <span>By Anoop Rayavarapu, ASNT NDT Level III</span> ·
+        <time datetime="${isoDate}">${blog.date || isoDate}</time>
+        ${blog.category ? ` · <span class="category">${blog.category}</span>` : ''}
+      </div>
+      <div class="blog-content">
+${blogContentHtml}
+      </div>
+      <nav class="post-footer" aria-label="Related Atlantis NDT pages">
+        <a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a> ·
+        <a href="/atlantis-academy">Atlantis NDT Academy</a> ·
+        <a href="/erp">Atlantis NDT ERP</a> ·
+        <a href="/digital-twins">Digital Twin platform</a> ·
+        <a href="/best-ndt-reporting-software-2026">Reporting Software</a> ·
+        <a href="/contact">Free consultation</a>
+      </nav>
+    </article>
+  </main>`;
+
   routes.push({
     path: `/blog/${blog.slug}`,
     title: `${blog.title} | Atlantis NDT`,
     description: blogDesc,
     canonical: blogCanonical,
     structuredData: blogStructuredData,
-    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <article>\n      <h1>${blog.title}</h1>\n      <p>${blog.snippet || blog.excerpt || ''}</p>\n    </article>\n  </main>`,
+    bodyContent: fullBody,
   });
 });
 

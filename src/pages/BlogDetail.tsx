@@ -12,6 +12,7 @@ import { RelatedProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 import QuickAnswerBox from '@/components/QuickAnswerBox';
 import { buildTechArticleSchema, buildFAQPageSchema, buildBreadcrumbListSchema } from '@/data/author-schema';
+import blogsData from '@/data/blogs.json';
 
 /**
  * Pick a contextually-relevant Odoo-app pillar URL for a blog slug.
@@ -73,9 +74,19 @@ function cleanBlogContent(content: string): string {
 export default function BlogDetail() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
-  const [blog, setBlog] = useState<any>(null);
+
+  // Round-3 fix: load synchronously from imported JSON so react-snap captures
+  // full content on first render. Previously a useState/useEffect async pattern
+  // left every blog rendered as a blank shell with only the title visible.
+  const initialBlog = useMemo(
+    () => (slug ? (blogsData as any[]).find(b => b.slug === slug) || null : null),
+    [slug],
+  );
+  const [blog, setBlog] = useState<any>(initialBlog);
 
   useEffect(() => {
+    if (initialBlog) return; // already resolved synchronously
+    // Fallback: try the async service path (for any future API-driven scenario)
     const fetchBlog = async () => {
       if (slug) {
         const foundBlog = await blogService.getBlogBySlug(slug);
@@ -86,7 +97,7 @@ export default function BlogDetail() {
       }
     };
     fetchBlog();
-  }, [slug, navigate]);
+  }, [slug, navigate, initialBlog]);
 
   // Clean the blog content
   const cleanedContent = useMemo(() => {
