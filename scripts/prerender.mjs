@@ -1657,6 +1657,161 @@ blogs.push(...comparisonPages);
 
 const routes = [];
 
+// === Round-3 Phase 3 — Vertical landing hubs ===
+const verticals = [
+  {
+    slug: 'refining',
+    name: 'Refining',
+    title: 'Refining NDT Inspection 2026 — FCC + Cracker + Heater + Reactor + Sour Service | Atlantis NDT',
+    description: 'Atlantis NDT delivers refining inspection — FCC + cracker + reformer + heater + reactor + heat exchanger + tank inspection. ASNT Level III + API 510/570/653. Free consultation.',
+    hook: 'global refining operators — Aramco, ADNOC, Shell, ExxonMobil, BP, TotalEnergies, Marathon, Valero, Phillips 66, Chevron, Citgo, Petronas, Reliance, IOCL, KOC, KNPC, Bapco, QatarEnergy, PDVSA, Pemex, Petrobras, Sinopec, CNPC',
+    assets: 'fluid catalytic cracker (FCC), hydrocracker, hydrotreater, reformer, alkylation, isomerisation, hydrogen plant, fired heater, heat exchanger, distillation column, vacuum tower, coker, visbreaker, sour-water stripper, amine absorber, flare stack, storage tank (API 653), buried pipeline (API 570)',
+    damage: 'sulfidation (API 571 §4.4.2), naphthenic-acid corrosion (§4.4.6), high-temp H2 attack / HTHA (§4.5.1), amine stress corrosion (§4.5.4), sour-water cracking (§5.1.3), CUI / corrosion-under-insulation (§4.3.4), MIC (§4.3.8), erosion-corrosion (§4.2.14), chloride SCC of austenitic SS (§4.5.1.4)',
+  },
+  {
+    slug: 'petrochem',
+    name: 'Petrochem',
+    title: 'Petrochemical NDT Inspection 2026 — Olefins + Aromatics + Polymer Plant NDE | Atlantis NDT',
+    description: 'Petrochemical inspection — olefins + aromatics + polymer + ammonia + methanol plants. Ethylene cracker furnace, BTX recovery, polymer reactor. ASNT Level III led. Free consultation.',
+    hook: 'global petrochemical operators — BASF, Bayer, INEOS, LyondellBasell, Dow, SABIC, ADNOC Borouge, Reliance, Petronas, Indorama, Formosa, Sinopec, CNPC',
+    assets: 'ethylene cracker furnace, propylene splitter, polyethylene (HDPE/LDPE/LLDPE) reactor, polypropylene reactor, butadiene unit, BTX recovery (benzene/toluene/xylene), aromatics complex, ammonia synthesis loop, methanol reactor, MEG plant, MTBE/ETBE unit, polymer extrusion + pelletising train',
+    damage: 'cracker furnace tube creep + carburisation (API 571 §4.2.7), polymer reactor corrosion-fatigue, BTX overhead chloride SCC, ammonia loop sulfidation + HTHA, methanol catalyst-tube creep, MEG ethylene-glycol degradation, plus shared refining-type damage mechanisms',
+  },
+  {
+    slug: 'marine',
+    name: 'Marine + Offshore',
+    title: 'Marine + Offshore NDT 2026 — FPSO + Drydock + Jacket + Subsea | Atlantis NDT',
+    description: 'Marine + offshore NDT — FPSO, drydock, jacket, topside, subsea, jackup, semi-sub. IACS class society aligned (ABS, DNV, Lloyd\'s Register, BV). ASNT Level III led. Free consultation.',
+    hook: 'marine + offshore operators — Maersk Drilling, Transocean, Valaris, Shell offshore, BP offshore, Petrobras Pre-Salt, Equinor + Aker BP Norway, Woodside + Chevron NW Shelf, ADNOC Offshore, Saudi Aramco Berri/Marjan, Husky offshore Newfoundland, plus shipyards (Keppel, Sembcorp, Hyundai Heavy, Samsung Heavy, DSME)',
+    assets: 'FPSO topside (process module + flare + utility), FPSO hull (turret + cargo tank + ballast tank), drillship + semi-submersible drilling unit, jackup rig + spudcan, jacket structure + topside (offshore platform), subsea pipeline + flowline + riser + manifold + BOP + tree (per API 17), drydock survey + classification, offshore wind monopile + jacket + transition piece',
+    damage: 'salt-spray external corrosion, ballast-tank coating failure + cargo-tank pitting, splash-zone CUI, microbiologically-influenced corrosion (MIC) on subsea, riser fatigue + VIV damage, ferritic/austenitic dissimilar weld cracking, sour-service H2S cracking on subsea flowline',
+  },
+  {
+    slug: 'aerospace',
+    name: 'Aerospace',
+    title: 'Aerospace NDT 2026 — Fastener-Hole + Lap-Joint + Composite Bond + Disc/Blade NDE | Atlantis NDT',
+    description: 'Aerospace NDT — NAS 410 + EN 4179 aligned. Fastener-hole + lap-joint inspection, composite bond inspection, gas turbine disc + blade NDE. ASNT Level III led. Free consultation.',
+    hook: 'aerospace primes + MROs — Boeing, Airbus, Lockheed Martin, Northrop Grumman, Raytheon, Pratt & Whitney, GE Aviation, Rolls-Royce, Safran, MTU Aero Engines, Collins Aerospace, Honeywell, Spirit AeroSystems, Bombardier, Embraer, COMAC, AVIC, HAL India',
+    assets: 'commercial transport fuselage + wing + empennage, lap-joint + butt-joint riveted assembly, composite (CFRP / GFRP) layup + sandwich panel + honeycomb core, gas turbine disc + blade + casing, accessory gearbox, landing-gear strut + actuator + brake assembly, helicopter rotor head + blade, engine mount + nacelle structure',
+    damage: 'multi-site fatigue damage (MSD) on aging aircraft lap-joints, hidden corrosion + pillowing under-rivet, composite delamination + disbond + porosity, dent/impact damage on composite, gas-turbine LCF/HCF crack initiation + propagation, foreign-object damage (FOD), creep + thermo-mechanical fatigue on turbine blade, oxide layer thickness drift',
+  },
+  {
+    slug: 'lng',
+    name: 'LNG',
+    title: 'LNG Inspection 2026 — Cryogenic Service + Liquefaction + Storage | Atlantis NDT',
+    description: 'LNG NDT — liquefaction train, cryogenic storage tank, loading arm + jetty, BOG compressor, regasification. ASNT Level III + API 653 + 9% Ni weld inspection. Free consultation.',
+    hook: 'LNG operators — Qatargas (North Field expansion), Woodside NW Shelf (Karratha + Pluto + Wheatstone + Gorgon), Cheniere (Sabine Pass + Corpus Christi), Sempra (Cameron LNG), Shell (Prelude FLNG), Equinor (Hammerfest), Pertamina (Bontang + Tangguh), Petronas (Pengerang + Bintulu), Sakhalin Energy, Yamal LNG (Novatek), ADNOC LNG (Das Island), PNG LNG',
+    assets: 'LNG liquefaction train (mixed-refrigerant + propane precooled), cryogenic storage tank (full-containment 9% Ni inner + concrete outer), LNG loading arm + jetty, boil-off gas (BOG) compressor, sub-cooler + flash drum, cold-box (heat exchanger), regasification (vaporiser + send-out compressor), LNG carrier vessel + bunker',
+    damage: 'cryogenic-service brittle-fracture risk, 9% Ni weld toughness + heat-affected-zone characterisation, austenitic SS chloride SCC on splash-zone external surfaces, mixed-refrigerant catalyst poisoning, low-temperature charpy + fracture-mechanics testing, post-incident re-inspection per ASME PCC-3 + API 579',
+  },
+  {
+    slug: 'mining',
+    name: 'Mining',
+    title: 'Mining NDT 2026 — Haul Truck Frame + Drag Line + Drilling Rig + Mill | Atlantis NDT',
+    description: 'Mining NDT — haul truck frame, drag-line bucket + boom, drilling rig, ore mill, leach tank, conveyor system. ASNT Level III led. AS/NZS + AINDT framework. Free consultation.',
+    hook: 'mining majors — BHP, Rio Tinto, Vale, Anglo American, Glencore, FMG, Newmont, Barrick Gold, Freeport-McMoRan, Codelco (Chile), Antofagasta, Teck Resources, Sumitomo Metal Mining, Cameco (uranium), Wesfarmers, ERAMET, AngloGold Ashanti',
+    assets: 'haul truck (Komatsu 980E / Caterpillar 797F / Liebherr T 282C) frame + axle + suspension, drag-line bucket + boom + tub + revolving frame, drilling rig (rotary blast-hole), ore mill (SAG / ball / rod) shell + trunnion + bearing, primary + secondary crusher, leach tank + autoclave, conveyor system structural support, slurry pipeline, tailings dam embankment + lift, mine-shaft headframe + skip + cable',
+    damage: 'haul-truck frame fatigue cracking, drag-line bucket-pin wear + lip-block cracking, mill-shell HCF + LCF + welded-attachment fatigue, autoclave pressure-vessel corrosion (acid leach), slurry-pipeline erosion-corrosion, tailings-pond geotechnical instability (separate domain), conveyor-pulley wear + shaft fatigue',
+  },
+  {
+    slug: 'power-gen',
+    name: 'Power Generation',
+    title: 'Power Generation NDT 2026 — Boiler + HRSG + Condenser + Turbine | Atlantis NDT',
+    description: 'Power gen NDT — coal/CCGT boiler, HRSG, condenser, steam turbine, generator. ASNT Level III + ASME XI nuclear + EPRI + EEMUA 159. Free consultation.',
+    hook: 'power gen operators — NTPC (India), EDF (France), TVA, Duke Energy, KEPCO (Korea), JEPCO, Tata Power, Adani Power, AGL Energy, EnergyAustralia, RWE, E.ON, Iberdrola, Endesa, Enel, Engie, EDP, Vattenfall, Fortum, plus nuclear (Areva/Framatome, Westinghouse, Mitsubishi, KEPCO Nuclear, Rosatom)',
+    assets: 'coal-fired boiler (waterwall + superheater + reheater + economiser + drum), HRSG (heat recovery steam generator), HP/IP/LP steam turbine + rotor + blade + diaphragm, generator rotor + stator + retaining ring, condenser tube + tubesheet + waterbox, feedwater heater, deaerator, FGD (flue-gas desulphurisation) absorber + ductwork, SCR (selective catalytic reduction) reactor, coal-handling conveyor + pulveriser',
+    damage: 'creep + creep-fatigue on HP header + steam piping (API 571 §4.2.8), waterwall fireside corrosion + erosion, superheater dissimilar-metal weld failure, HRSG condensate-attack corrosion + thermal-fatigue cracking, steam-turbine blade SCC + LCF + corrosion-fatigue, generator retaining-ring SCC, condenser-tube ammonia attack + MIC',
+  },
+  {
+    slug: 'hydrogen',
+    name: 'Hydrogen',
+    title: 'Hydrogen Inspection 2026 — Pipeline + Electrolyser + Storage | Atlantis NDT',
+    description: 'Hydrogen NDT — B31.12 pipeline, electrolyser stack, storage cavern, refuelling station. Hydrogen embrittlement risk. ASNT Level III led. Free consultation.',
+    hook: 'hydrogen developers — Plug Power, Linde, Air Liquide, Air Products, ITM Power, Nel Hydrogen, Cummins (Hydrogenics), Siemens Energy, thyssenkrupp Uhde Chlorine Engineers, Saudi Aramco + ADNOC + Petronas hydrogen ventures, NEOM Green Hydrogen, Australia hydrogen hubs (Pilbara + Gladstone), HyDeal Spain',
+    assets: 'hydrogen pipeline (ASME B31.12 — Option A or B), PEM/alkaline/AEM/SOEC electrolyser stack, salt-cavern hydrogen storage, hydrogen refuelling station (350 + 700 bar tube trailer + dispenser), hydrogen-fuelled industrial furnace, ammonia-cracking H2 production, blue/green hydrogen liquefaction',
+    damage: 'hydrogen embrittlement of carbon + low-alloy + austenitic SS materials (per ASME B31.12 + API 941 HTHA Nelson curves), hydrogen-assisted cracking (HAC), running-ductile-fracture propagation control on dense-phase H2 pipeline, electrolyser membrane degradation (separate domain), hydrogen permeation into adjacent carbon steel',
+  },
+  {
+    slug: 'ccs',
+    name: 'CCS',
+    title: 'CCS Inspection 2026 — Carbon Capture + Storage NDT Value Chain | Atlantis NDT',
+    description: 'CCS NDT — amine absorber, dense-phase CO2 pipeline, injection well, storage cavern. EPA Class VI + EU CCS Directive aligned. ASNT Level III led. Free consultation.',
+    hook: 'CCS developers — ExxonMobil Baytown LCFS, Shell Quest (Alberta), Equinor Northern Lights, ADNOC CCS, Aramco Hawiyah CCS, Petrobras Pre-Salt CO2 reinjection, Occidental + 1PointFive (Permian), Chevron Gorgon CO2, EU Hubs (Porthos, Aramis, Antwerp@C), UK INEOS Project Greensand, US 45Q operators',
+    assets: 'amine absorber + stripper tower (post-combustion CO2 capture), dense-phase / super-critical CO2 transport pipeline (ASME B31.4 + ISO 27913 + DNV-RP-F104), CO2 injection well (Class VI per EPA UIC Program), salt-cavern + saline-aquifer + depleted-reservoir storage, BECCS biomass-energy CCS, DAC (direct air capture) unit',
+    damage: 'amine corrosion + cracking (NACE MR0103 + API 571 §4.5.4), wet super-critical CO2 corrosion (water control critical), brittle fracture on rapid depressurisation (low-temp transition), running-ductile-fracture propagation control, hard-spot + sour-service if H2S impurities present (NACE MR0175 / ISO 15156), cement-sheath integrity on injection well, caprock geomechanical breach risk',
+  },
+  {
+    slug: 'offshore-wind',
+    name: 'Offshore Wind',
+    title: 'Offshore Wind NDT 2026 — Monopile + Jacket + Blade + IRM | Atlantis NDT',
+    description: 'Offshore wind NDT — monopile + jacket + transition piece + tower + blade inspection. IRM (inspection-repair-maintenance). DNV class. ASNT Level III led. Free consultation.',
+    hook: 'offshore wind developers + service providers — Ørsted, RWE Renewables, Iberdrola (ScottishPower Renewables), Equinor Wind, TotalEnergies, BP + Equinor JV, Vattenfall, EDPR, EnBW, Vestas, Siemens Gamesa, GE Vernova, MingYang Smart Energy, plus DNV / ABS / BV class society oversight',
+    assets: 'offshore wind monopile (XL monopile + transition piece), jacket structure foundation, gravity-base foundation, floating offshore wind (semi-sub + spar + TLP), tower (steel + concrete hybrid), nacelle structural housing, blade (composite layup + shear web + spar cap), turbine drivetrain shaft + bearing, subsea export cable + array cable + J-tube',
+    damage: 'splash-zone external corrosion + coating breakdown, monopile fatigue + scour-related cyclic loading, jacket K-joint fatigue + corrosion-fatigue, transition-piece grouted connection slippage, blade leading-edge erosion + composite delamination + lightning-strike damage, tower flange-bolt corrosion + fatigue, subsea cable mechanical damage + insulation degradation',
+  },
+];
+
+verticals.forEach(v => {
+  routes.push({
+    path: `/verticals/${v.slug}`,
+    title: v.title,
+    description: v.description,
+    canonical: `${SITE_URL}/verticals/${v.slug}`,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/verticals">Verticals</a><a href="/verticals/${v.slug}">${v.name}</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${v.name} NDT Inspection — Code-Aligned Atlantis NDT Delivery 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers ${v.name} inspection programs for ${v.hook}. ASNT NDT Level III led, API/ASME/ISO/NACE code-stack aligned, integrated with the full <a href="/erp">Atlantis ERP</a> + <a href="/digital-twins">Digital Twin platform</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">LMS</a> + <a href="/atlantis-academy">Academy</a> stack. Affordable, accessible, fully customizable. Free 30-minute consultation + tailored quote within 24 hours.</p>
+
+    <h2>Assets We Inspect in ${v.name}</h2>
+    <p>${v.assets}. Atlantis NDT inspector roster carries ASNT NDT Level II + III + ISO 9712 dual-scheme certs across UT (incl. PAUT + TOFD + LRUT), RT (incl. DR + CR + real-time radioscopy), MT (wet-fluorescent + dry-visible), PT (Type I/II × Method A/B/C), ET (incl. ECA), VT, AE, IRT, LT. Multi-method Level III sign-off on every Procedure + final disposition. Plus integration with 3D Scanning (<a href="/3d-scanning-services">LiDAR + photogrammetry + drone</a>) for as-built dimensional control + corrosion mapping.</p>
+
+    <h2>Damage Mechanisms (API 571 Cross-Reference)</h2>
+    <p>Dominant damage mechanisms in ${v.name} per API RP 571: ${v.damage}. Atlantis NDT damage-mechanism mapping per circuit + per asset feeds directly into RBI per API 581 (likelihood + consequence + inspection-effectiveness factor) and FFS per API 579 (Part 4 general metal loss / Part 5 localised metal loss / Part 6 pitting / Part 7 HIC/SOHIC / Part 8 weld misalignment + shell distortion / Part 9 crack-like flaws / Part 10 creep / Part 11 fire / Part 12 dent + gouge).</p>
+
+    <h2>RBI per API 581 + FFS per API 579 for ${v.name}</h2>
+    <p>Atlantis NDT delivers <a href="/consulting/rbi-program-design">RBI per API 581</a> for ${v.name} programs — corporate-asset RBI model build-out, generic failure frequency calibration, damage factor per active mechanism, inspection-effectiveness factor per prior inspection thoroughness, consequence-of-failure modelling (financial + safety + environmental). And <a href="/consulting/api-579-fitness-for-service-services">FFS per API 579</a> — Level 1 + Level 2 + Level 3 (FEA-supported) assessments with remaining-life calculation + re-inspection interval recommendation. Audit-defensible records per ISO 9001:2015 + ISO 17020 + ISO 17025 + ISO 17024 retained via <a href="/erp">Atlantis NDT ERP</a>.</p>
+
+    <h2>Atlantis NDT Stack Configuration for ${v.name}</h2>
+    <p>${v.name} customers get an integrated Atlantis NDT stack: <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + inspection schedule + cert tracking + calibration cert + audit-ready records), <a href="/digital-twins">Digital Twin platform</a> (3D asset model with overlaid damage-mechanism heat-map + RBI tier visualisation + FFS workflow visual), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture with code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> (continuous inspector cert refresh per ${v.name}-specific scope), <a href="/atlantis-academy">Atlantis NDT Academy</a> (full multi-scheme cert pathway curation), <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (PAUT + RT + UT machine-learning defect classification with mandatory ASNT NDT Level III approval). All affordable, accessible, fully customizable.</p>
+
+    <h2>Anonymised ${v.name} Customer Outcomes</h2>
+    <p>Anonymised ${v.name} customer outcomes after Atlantis NDT integrated-stack deployment: inspection-planning effort reduced 30-60% (cert + procedure + calibration tracking automated), external-audit findings reduced from typical 3-7 per cycle to 0 (clean ISO 9001 + 17020 + 17025 surveillance closure), inspector cert recertification cadence 100% on-time (automated reminder cadence per ISO 17024), FFS turnaround acceleration 2-4 weeks (digital twin overlay + RBI integration + procedure library), RBI interval extension on Tier-3 equipment 1-3 years (driven by inspection-effectiveness factor improvement per API 581). Anonymised reference call available on consultation request.</p>
+
+    <h2>Free Consultation + Next Steps for ${v.name} Operators</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model, and team size. Free 30-minute consultation with Atlantis NDT founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor): asset-class scoping, damage-mechanism review, code-stack mapping, inspector roster + cert scheme review, software-stack scoping, delivery model preference, phased implementation timeline. Tailored ${v.name} quote within 24 hours. <a href="/contact"><strong>Request your free consultation</strong></a>. See also <a href="/consulting">consulting services</a>, <a href="/training">training</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, <a href="/3d-scanning-services">3D Scanning</a>, <a href="/atlantis-iso-9001">ISO 9001 quality system</a>.</p>
+  </main>`,
+  });
+});
+
+routes.push({
+  path: '/verticals',
+  title: 'Verticals — Atlantis NDT Industry-Specific Inspection Programs 2026 | Atlantis NDT',
+  description: 'Atlantis NDT verticals — refining, petrochem, marine, aerospace, LNG, mining, power-gen, hydrogen, CCS, offshore wind. ASNT Level III led. Free consultation.',
+  canonical: `${SITE_URL}/verticals`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/verticals">Verticals</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Atlantis NDT Verticals — Industry-Specific Inspection Programs 2026</h1>
+    <p>Atlantis NDT delivers industry-specific inspection programs across 10 dominant verticals — each with vertical-specific damage-mechanism mapping per API 571, RBI cycle per API 581, FFS pathways per API 579, code stack alignment, Atlantis stack configuration, and anonymised customer outcomes. ASNT NDT Level III led. Affordable, accessible, fully customizable. Free 30-min consultation + tailored quote within 24 hours.</p>
+    <h2>Browse Verticals</h2>
+    <ul>
+      <li><a href="/verticals/refining"><strong>Refining</strong></a> — FCC + cracker + heater + reactor + sour service</li>
+      <li><a href="/verticals/petrochem"><strong>Petrochem</strong></a> — olefins + aromatics + polymer plant + ammonia</li>
+      <li><a href="/verticals/marine"><strong>Marine + Offshore</strong></a> — FPSO + drydock + jacket + subsea + IACS class</li>
+      <li><a href="/verticals/aerospace"><strong>Aerospace</strong></a> — NAS 410 + EN 4179, fastener-hole + composite</li>
+      <li><a href="/verticals/lng"><strong>LNG</strong></a> — cryogenic service + liquefaction + storage tank</li>
+      <li><a href="/verticals/mining"><strong>Mining</strong></a> — haul truck + drag line + drilling rig + mill</li>
+      <li><a href="/verticals/power-gen"><strong>Power Generation</strong></a> — boiler + HRSG + condenser + turbine + nuclear</li>
+      <li><a href="/verticals/hydrogen"><strong>Hydrogen</strong></a> — B31.12 pipeline + electrolyser + storage + refuelling</li>
+      <li><a href="/verticals/ccs"><strong>CCS</strong></a> — amine + dense-phase CO2 + injection well + storage</li>
+      <li><a href="/verticals/offshore-wind"><strong>Offshore Wind</strong></a> — monopile + jacket + blade + IRM</li>
+    </ul>
+    <h2>Why Atlantis NDT Across Every Vertical</h2>
+    <p>Atlantis NDT brings ASNT NDT Level III + API ICP-certified consultants + integrated software stack (<a href="/erp">ERP</a> + <a href="/digital-twins">Digital Twin</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">LMS</a> + <a href="/atlantis-academy">Academy</a>) to every vertical engagement. 96% first-attempt training pass rate, free retake-grade backstop, audit-ready records per ISO 9001 + 17020 + 17025 + 17024. Multi-region delivery via Houston + Dubai + Mumbai + Singapore + London hubs.</p>
+    <h2>Free Consultation</h2>
+    <p>Free 30-min consultation with Atlantis NDT founder Anoop Rayavarapu — asset-class scoping, damage-mechanism review per API 571, code-stack mapping, inspector roster review, software-stack scoping. Tailored quote within 24 hours. <a href="/contact"><strong>Request consultation</strong></a>.</p>
+  </main>`,
+});
+
 // === 2028 H1 hub routes — Academy + Partner Program + ISO 17024 + ISO 9001 + Lead Nurture ===
 routes.push({
   path: '/atlantis-academy',
@@ -1853,10 +2008,54 @@ routes.push({
 const corePages = [
   {
     path: '/about',
-    title: 'About Atlantis NDT | Global NDT Consulting & Training Leaders',
-    description: 'Learn about Atlantis NDT — a global leader in NDT consulting, training and digital twins. ASNT Level III experts serving oil & gas, aerospace & industry across USA, India and Middle East.',
-    bodyH1: 'About Atlantis NDT',
-    bodyText: 'Atlantis NDT is a global leader in Non-Destructive Testing consulting, training, and digital twin technology. Our team of ASNT Level III certified professionals serves clients across the USA, India, and Middle East.',
+    title: 'About Atlantis NDT — Built by ASNT NDT Level III Founders | Atlantis NDT',
+    description: 'Atlantis NDT is founded by Anoop Rayavarapu (ASNT NDT Level III, multi-method, API 653, ISO 9001 Lead Auditor). 15+ years inspection engineering across Aramco / ADNOC / Petronas / Reliance / IOCL tier engagements. Free consultation.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/about">About</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>About Atlantis NDT — Built by ASNT NDT Level III Founders for Inspection Teams Globally</h1>
+    <p>Atlantis NDT is an inspection-native software + services company built by ASNT NDT Level III practitioners for inspection teams running mission-critical asset programs in refining, petrochem, marine, aerospace, power generation, LNG, mining, hydrogen, CCS, and offshore wind. Founded in Houston, TX and Hyderabad, India in 2018 by Anoop Rayavarapu (ASNT NDT Level III certified, multi-method UT/RT/MT/PT/VT/ET; API 653 Authorized Inspector; ISO 9001 Lead Auditor). 15+ years inspection engineering across Aramco / ADNOC / Shell / ExxonMobil / Petronas / Reliance / IOCL / KOC / QatarEnergy tier engagements.</p>
+
+    <h2>Founder — Anoop Rayavarapu, ASNT NDT Level III</h2>
+    <p>Anoop Rayavarapu is the founder &amp; CEO of Atlantis NDT. ASNT NDT Level III certified across six methods (UT, RT, MT, PT, VT, ET) per SNT-TC-1A 2024 + CP-189-2020 + ACCP, with multi-method basic exam + procedure development demonstration. API 653 Authorized Inspector (above-ground storage tanks). ISO 9001:2015 Lead Auditor (Quality Management Systems). 15+ years inspection engineering experience leading multi-discipline programs at refining + petrochem + marine + aerospace operators. Founder origin: built Atlantis NDT after directly experiencing the gap between inspection-native data needs and generic CMMS / ERP / project-management software stacks at scale. Atlantis NDT is the integrated stack he wished existed during his 12+ years on-site as an inspector + Level III. <a href="/consulting/asnt-level-iii-consulting-services">Engage Anoop on retainer</a> as outsourced ASNT NDT Level III for your inspection program.</p>
+
+    <h2>Credentials Grid</h2>
+    <ul>
+      <li><strong>ASNT NDT Level III</strong> — multi-method (UT, RT, MT, PT, VT, ET), per SNT-TC-1A 2024 + CP-189-2020 employer Written Practice + ACCP portable cert + ASNT multi-method basic exam.</li>
+      <li><strong>API 653 Authorized Inspector</strong> — above-ground storage tank inspection (American Petroleum Institute Individual Certification Program).</li>
+      <li><strong>ISO 9001:2015 Lead Auditor</strong> — Quality Management System auditing per ISO 19011.</li>
+      <li><strong>ISO 9712:2021 cross-recognised</strong> — Level III equivalence via dual-scheme audit-trail.</li>
+      <li><strong>NACE Coating Inspector Program (CIP)</strong> — marine + offshore + buried-piping coating inspection.</li>
+      <li><strong>Recertification on-time</strong> — every cert renewed before expiry per ISO 17024 personnel cert body framework.</li>
+    </ul>
+
+    <h2>Why Atlantis NDT Exists — The Founding Mission</h2>
+    <p>The inspection industry runs on 4-8 disjoint software stacks: spreadsheet-based cert tracking, Word document-control repositories, ad-hoc PDF report templates, separate calibration LIMS, spreadsheet-based audit-trails, paper-based field capture, generic CMMS bolt-ons that don't understand procedure-qualified-record-versioning, and disconnected RBI tooling. Every operator we worked with — refining, petrochem, marine, aerospace, power — faced the same friction: ~40 staff-hours/week on cert tracking + procedure version control, 3-7 external-audit findings per cycle, inspector cert renewal cadence 60-70% on-time, FFS turnaround 6-12 weeks from initial UT to Level III recommendation. Atlantis NDT exists to replace those 4-8 disjoint tools with one inspection-native integrated stack — ERP + Digital Twin + Reporting Software + LMS + Academy + Partner Program — designed by ASNT NDT Level III practitioners, not generic SaaS vendors.</p>
+
+    <h2>Atlantis NDT Global Hubs</h2>
+    <p>Atlantis NDT operates from five global hubs: <strong>Houston, TX</strong> (US Gulf Coast refining + petrochem + offshore EPC delivery centre), <strong>Hyderabad, India</strong> (engineering + product development + Indian Ocean rim + South-East Asia coverage), <strong>Dubai, UAE</strong> (Middle East operator standards — Aramco / ADNOC / KOC / KNPC / Bapco / NIOC / QatarEnergy), <strong>Singapore</strong> (South-East Asia marine + offshore + petrochem hub), <strong>London, UK</strong> (Europe + UK Continental Shelf + Africa coverage). On-site mobilisation 24-72h from any hub. Remote procedure authoring + Level III sign-off 24-hour turnaround. Hybrid delivery model (local Level II + Atlantis Level III remote oversight) common for multi-region EPC + asset-owner customers.</p>
+
+    <h2>Atlantis NDT Stack — What We Build + Deliver</h2>
+    <p>Atlantis NDT delivers an integrated software stack co-designed with inspection contractors + asset owners: <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + inspection schedule + cert tracking + calibration cert + audit-ready records per ISO 9001 + 17020 + 17025), <a href="/digital-twins">Digital Twin platform</a> (3D asset model with overlaid damage-mechanism heat-map, RBI tier visualisation, FFS workflow visual), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture with code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> (continuous inspector cert refresh with ISO 17024 personnel cert body alignment), <a href="/atlantis-academy">Atlantis NDT Academy</a> (96% first-attempt training pass rate, free retake-grade backstop, ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP + PCN + ACCP + NAS 410 + EN 4179 pathway curation), <a href="/3d-scanning-services">3D Scanning Services</a> (survey-grade LiDAR + photogrammetry + drone capture), <a href="/ai-ndt-defect-detection">AI for NDT defect detection</a> (PAUT + RT + UT machine learning models with mandatory ASNT NDT Level III approval per ASME PCC-3 + API 581 + IACS Rec-20 acceptance pathway), <a href="/ccs-inspection">CCS inspection</a> (carbon capture + storage value-chain coverage).</p>
+
+    <h2>Methods + Standards We Author, Train, and Consult On</h2>
+    <p>Atlantis NDT authors procedures + trains + consults across all major NDT methods: ultrasonic testing (UT) per ASME B&amp;PV V Articles 4 + 5 + ASTM E114/E164/E317; phased-array UT (PAUT) + time-of-flight diffraction (TOFD) per ASTM E2491 + E2700 + E2373; conventional + automated radiographic testing (RT) per ASME V Articles 2 + 22 + 27; magnetic particle testing (MT) per ASTM E1444 + ISO 9934; liquid penetrant testing (PT) per ASTM E1417 + ISO 3452; eddy current testing (ET, including ECA per ASME V Article 26); visual testing (VT); acoustic emission (AE) per ASME V Article 12; infrared thermography (IRT) per ASTM E2582; leak testing (LT) per ASME V Article 10; guided-wave UT (LRUT) per ISO 18211. Code stack coverage: ASME B&amp;PV Sections V + VIII + IX + XI, B31.1/3/4/8/12, API 510/570/571/579/580/581/653/936/1169, ASTM E-series, ISO 17635/17636/17640/17643/17638, EN 13445/13480, NACE MR0175 / MR0103 / SP0204 / SP0288, AMPP framework, IACS Rec-20 for marine + offshore.</p>
+
+    <h2>Customer Outcomes — Anonymised</h2>
+    <p>Atlantis NDT customers consistently report measurable outcomes after integrated-stack deployment: inspection-planning effort reduced 30-60% (cert + procedure + calibration tracking automated), external-audit findings reduced from typical 3-7 per cycle to 0 (clean ISO 9001 + ISO 17020 + ISO 17025 surveillance closure), inspector cert recertification cadence 100% on-time (automated reminder cadence per ISO 17024), FFS turnaround acceleration 2-4 weeks (digital twin overlay + RBI integration + procedure library), RBI interval extension on Tier-3 equipment 1-3 years (driven by inspection-effectiveness factor improvement per API 581 + improved data quality from mobile field capture). Anonymised customer references available on consultation request.</p>
+
+    <h2>What Sets Atlantis NDT Apart</h2>
+    <ul>
+      <li><strong>Inspection-native, not generic SaaS</strong> — every data model + workflow co-designed with ASNT NDT Level III practitioners</li>
+      <li><strong>Affordable, accessible, fully customizable</strong> — positioning that respects regional pricing variance (pricing varies by region + scope + delivery model; tailored quote within 24 hours)</li>
+      <li><strong>96% first-attempt training pass rate</strong> — verified across cohorts since 2019 with free retake-grade backstop</li>
+      <li><strong>Integrated stack</strong> — replaces 4-8 disjoint tools (Excel cert tracker, Word doc control, separate calibration LIMS, paper field capture) with one platform</li>
+      <li><strong>Multi-region delivery</strong> — Houston + Dubai + Mumbai + Singapore + London hubs with on-site mobilisation 24-72h</li>
+      <li><strong>ASNT NDT Level III led every engagement</strong> — final disposition + procedure approval + audit-readiness sign-off</li>
+    </ul>
+
+    <h2>Talk to the Founder — Free 30-Minute Consultation</h2>
+    <p>Every prospective customer gets a free 30-minute consultation with Anoop Rayavarapu (founder + ASNT NDT Level III multi-method) — current state assessment, asset-class + damage-mechanism review, code-stack mapping, inspector roster + cert scheme review, software-stack scoping, delivery model preference. Tailored quote within 24 hours. <a href="/contact"><strong>Book your free consultation</strong></a>. See also <a href="/consulting">consulting services</a>, <a href="/training">training</a>, <a href="/erp">ERP</a>, <a href="/digital-twins">Digital Twin platform</a>, <a href="/best-ndt-reporting-software-2026">Reporting Software</a>, <a href="/lms">LMS</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, <a href="/atlantis-partner-program">Partner Program</a>, <a href="/atlantis-iso-17024">ISO 17024 personnel cert body</a>, <a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 quality system</a>.</p>
+  </main>`,
   },
   {
     path: '/consulting',
@@ -8050,7 +8249,13 @@ corePages.forEach(p => {
     title: p.title,
     description: p.description,
     canonical: `${SITE_URL}${p.path}`,
-    bodyContent: p.bodyH1 ? `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">NDT Consulting</a><a href="/training">NDT Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.bodyH1}</h1>\n    <p>${p.bodyText}</p>\n  </main>` : null,
+    // Round-3: explicit bodyContent on an entry wins; bodyH1 + bodyText is the
+    // legacy shorthand; only fall through to null when neither is present.
+    bodyContent: p.bodyContent
+      ? p.bodyContent
+      : (p.bodyH1
+          ? `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">NDT Consulting</a><a href="/training">NDT Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.bodyH1}</h1>\n    <p>${p.bodyText}</p>\n  </main>`
+          : null),
   };
 
   // Add structured data for FAQ page
