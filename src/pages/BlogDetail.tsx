@@ -11,7 +11,7 @@ import { RelatedArticles } from '@/components/RelatedArticles';
 import { RelatedProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 import QuickAnswerBox from '@/components/QuickAnswerBox';
-import { buildTechArticleSchema } from '@/data/author-schema';
+import { buildTechArticleSchema, buildFAQPageSchema, buildBreadcrumbListSchema } from '@/data/author-schema';
 
 /**
  * Pick a contextually-relevant Odoo-app pillar URL for a blog slug.
@@ -158,6 +158,24 @@ export default function BlogDetail() {
         "totalTime": `PT${Math.max(10, howToSteps.length * 3)}M`
       });
     }
+
+    // Quality Round-2 Phase C: emit FAQPage schema parsed from blog content
+    // (the content-quality upgrader writes <h3>Q1:..<h3>QN: structure on every
+    // post-upgrade blog). Defensive — returns null on malformed FAQ + skipped.
+    const faqSchema = buildFAQPageSchema({
+      url: `https://atlantisndt.com/blog/${blog.slug}`,
+      content: blog.content || "",
+    });
+    if (faqSchema) graph.push(faqSchema);
+
+    // Quality Round-2 Phase C: emit BreadcrumbList schema (Home → Blog →
+    // Category → Article) for every post — improves Google rich-result snippet
+    // eligibility.
+    graph.push(buildBreadcrumbListSchema({
+      url: `https://atlantisndt.com/blog/${blog.slug}`,
+      title: blog.title,
+      category: blog.category,
+    }));
 
     return {
       "@context": "https://schema.org",
