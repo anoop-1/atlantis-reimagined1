@@ -2225,10 +2225,45 @@ const corePages = [
   },
   {
     path: '/blog',
-    title: 'NDT Blog | Insights on Testing, Inspection & Certification | Atlantis NDT',
-    description: 'Expert NDT insights on ultrasonic testing, radiographic testing, digital twins, ASNT certification, and NDT industry trends. Written by ASNT Level III professionals.',
-    bodyH1: 'NDT Blog & Resources',
-    bodyText: 'Expert insights on NDT methods, industry trends, ASNT certification, and digital twin technology. Written by ASNT Level III professionals at Atlantis NDT.',
+    title: 'NDT Blog 2026 — 699 Articles on Testing, Inspection, Certification | Atlantis NDT',
+    description: 'Atlantis NDT Blog — 699 articles on UT/RT/MT/PT/ET/VT/PAUT/TOFD methods, ASNT/ISO 9712/API/AWS/NACE/CSWIP certification, RBI per API 581, FFS per API 579, digital twins, AI for NDT, CCS, hydrogen, marine, aerospace, refining. Written by ASNT NDT Level III professionals.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/about">About</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Atlantis NDT Blog — 699 Expert Articles on NDT Methods, Codes, Certification, and Digital Stack</h1>
+    <p>The <strong>Atlantis NDT Blog</strong> is an authoritative reference library for inspection contractors, EPC operators, and asset owners. 699 in-depth articles authored by Anoop Rayavarapu (ASNT NDT Level III, multi-method, API 653, ISO 9001 Lead Auditor) + the Atlantis Level III team. Every article carries TechArticle + FAQPage + BreadcrumbList JSON-LD schema. 5-link internal anchor cascade to money pages on every article.</p>
+    <h2>Topic Clusters (21 Categories)</h2>
+    <p>The blog corpus spans 21 topic clusters:</p>
+    <ul>
+      <li><strong>ASNT certification</strong> — Level I/II/III pathway, SNT-TC-1A 2024, CP-189-2020, ACCP portable, recertification cycles</li>
+      <li><strong>API code series</strong> — API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 936 + 1169 + ICP recertification</li>
+      <li><strong>CSWIP + AWS welding inspection</strong> — CSWIP 3.1/3.2, AWS CWI/SCWI, NACE CIP coating inspector</li>
+      <li><strong>NACE + AMPP standards</strong> — MR0175 sour service, MR0103 amine + wet H2S, SP0204 SCCDA, SP0288 wet fluorescent MT, coating inspection</li>
+      <li><strong>Method UT</strong> — conventional, PAUT, TOFD, LRUT, immersion C-scan, EMAT, ECA</li>
+      <li><strong>Method RT</strong> — film, DR, CR, gamma (Ir-192/Co-60/Se-75), real-time radioscopy</li>
+      <li><strong>Method MT + PT + VT + ET</strong> — surface + near-surface defect detection methods</li>
+      <li><strong>Consulting</strong> — ASNT Level III outsourced retainer, written-practice authoring, procedure development</li>
+      <li><strong>RBI + FFS</strong> — API 581 RBI program design, API 579 fitness-for-service Levels 1/2/3</li>
+      <li><strong>Digital twin</strong> — 3D asset visualisation, inspection data overlay, ROI calculator, vertical-specific use cases</li>
+      <li><strong>ERP + reporting software</strong> — Atlantis NDT ERP, integrated stack, software comparison, audit-ready records</li>
+      <li><strong>Marine + offshore</strong> — FPSO, drydock, jacket, subsea, IACS class society, monopile + offshore wind</li>
+      <li><strong>Aerospace</strong> — NAS 410 + EN 4179, fastener-hole, composite bond, gas turbine disc + blade</li>
+      <li><strong>Refining + petrochem</strong> — FCC, cracker, heater, reactor, sour service, naphthenic acid, HTHA</li>
+      <li><strong>LNG + hydrogen + CCS</strong> — cryogenic, electrolyser, dense-phase CO2, injection well</li>
+      <li><strong>Power gen + nuclear</strong> — boiler, HRSG, condenser, turbine blade, RPV, SG tube</li>
+      <li><strong>Mining</strong> — haul truck frame, drag-line bucket, drilling rig, mill, tailings</li>
+      <li><strong>Training + career</strong> — cohort planning, salary guides, career-path navigation</li>
+      <li><strong>ROI case studies</strong> — anonymised customer outcomes per vertical</li>
+      <li><strong>Comparisons</strong> — vs SAP, Maximo, Cognite, AVEVA, Bentley iTwin, ASNT vs PCN, etc.</li>
+    </ul>
+    <h2>Editorial Standards</h2>
+    <p>Every Atlantis NDT blog article meets the following editorial standards: (1) Minimum 800 words of substantive content; (2) Author byline + Person schema for Anoop Rayavarapu (ASNT NDT Level III credentialed); (3) TechArticle + FAQPage + BreadcrumbList structured data; (4) 3-5 contextual inline anchors to relevant money pages; (5) Related-articles cluster at end (3 sibling articles from same topic cluster); (6) Internal-link footer cluster (6 sibling money pages); (7) Mandatory no-pricing rule (positioning: affordable, accessible, fully customizable; CTAs: free consultation / tailored quote on request); (8) Code references explicit (ASME B&amp;PV Sections, API codes, ISO/EN/NACE/AMPP standards, AWS/IACS Rec) — no hand-wavy citations.</p>
+    <h2>Browse Top Authoritative Articles</h2>
+    <p>Highest-traffic blog articles: <a href="/blog/ndt-salary-guide-2026-global">NDT salary guide 2026</a>, <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a>, <a href="/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country">ISO 9712 vs ASNT decision flowchart</a>, <a href="/blog/rt-vs-ut-complete-comparison">RT vs UT complete comparison</a>, <a href="/blog/api-579-fitness-for-service-guide">API 579 FFS guide</a>, <a href="/blog/risk-based-inspection-rbi-implementation-guide">RBI implementation guide</a>, <a href="/blog/cwi-certification-requirements-cost-career-impact">CWI certification guide</a>, <a href="/blog/asme-section-v-article-4-ut-requirements-explained">ASME V Article 4 UT explained</a>.</p>
+    <h2>Atlantis NDT Author Credentials</h2>
+    <p>Primary author: Anoop Rayavarapu, founder + CEO of Atlantis NDT. ASNT NDT Level III certified across six methods (UT/RT/MT/PT/VT/ET) per SNT-TC-1A 2024 + CP-189-2020 + ACCP. API 653 Authorized Inspector. ISO 9001:2015 Lead Auditor. 15+ years inspection engineering across Aramco / ADNOC / Shell / ExxonMobil / Petronas / Reliance / IOCL / KOC / QatarEnergy tier engagements. See <a href="/about">/about</a> for full credentials.</p>
+    <h2>Free Consultation</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with the founder. Tailored quote within 24 hours. See also <a href="/consulting">consulting</a>, <a href="/training">training</a>, <a href="/erp">ERP</a>, <a href="/digital-twins">Digital Twin platform</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, <a href="/verticals">verticals</a>.</p>
+  </main>`,
   },
   {
     path: '/case-studies',
@@ -8157,8 +8192,31 @@ const corePages = [
     path: '/eddy-current-testing',
     title: 'Eddy Current Testing (ECT) 2026: Tube Inspection, ECA, RFT Services',
     description: 'Eddy current testing for heat exchangers, welds, coatings & aerospace. Conventional ECT, ECA, RFT, NFA. ASME V Article 8, ASTM E309. ASNT Level II/III.',
-    bodyH1: 'Eddy Current Testing (ECT) 2026: Tubes, Welds, Aerospace & Coatings',
-    bodyText: 'ECT pillar hub — electromagnetic NDT for conductive materials. Conventional ECT, Eddy Current Array (ECA), Remote Field Testing (RFT), Near-Field Array (NFA), MFL, and pulsed ECT. Heat exchanger tube inspection, aerospace fastener-hole inspection, non-ferrous weld inspection, and conductivity/thickness measurement. ASME V Article 8, ASTM E309/E571/E3052, NAS 410, ISO 15549 compliant.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/eddy-current-testing">ET</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Eddy Current Testing (ECT) 2026 — Tube + Weld + Aerospace + Coating Inspection</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete eddy current testing curriculum + consulting stack — conventional ECT, eddy current array (ECA), remote field testing (RFT), near-field array (NFA), magnetic flux leakage (MFL), and pulsed eddy current (PEC). ASME Section V Article 8 + Article 26 (ECA), ASTM E309 + E571 + E3052, NAS 410 aerospace, ISO 15549 + ISO 17643 EU weld ECT, NACE SP0102 compliant. ASNT NDT Level I/II/III ET training (96% first-pass) + outsourced Level III ET consulting.</p>
+    <h2>ECT Method Physics + Variants</h2>
+    <p>ECT exploits electromagnetic induction in conductive materials. A coil energised with AC current induces eddy currents in the test object; discontinuities perturb the eddy-current flow, registered as impedance change. Variants: <strong>Conventional ECT</strong> — single-coil pencil probe for surface defects + bolt-hole inspection; <strong>ECA</strong> — multi-element array per ASME V Article 26, faster coverage + visualisation; <strong>RFT</strong> — through-wall sizing on heat exchanger tubes + buried/insulated pipe; <strong>NFA</strong> — internal tube inspection (compact); <strong>MFL</strong> — through-wall corrosion mapping on storage tank floors + buried pipe; <strong>PEC</strong> — through-coating corrosion-under-insulation (CUI) detection on insulated piping.</p>
+    <h2>Heat Exchanger Tube Inspection (HX Tube ECT)</h2>
+    <p>Heat exchanger tube ECT is the dominant application: bobbin coil + array probes for stainless + brass + copper-nickel + titanium tubes. Detection of: ID/OD pitting, wall-loss general thinning, baffle-cut wear, vibration fatigue cracking, IGSCC chloride cracking on austenitic SS, ammonia attack on copper alloys. Atlantis NDT delivers HX tube inspection per API 510 + EEMUA 159 + EPRI Heat Exchanger Inspection Guide. Reporting via mobile capture in <a href="/best-ndt-reporting-software-2026">Atlantis Reporting Software</a>, 3D bundle overlay in <a href="/digital-twins">Digital Twin platform</a>.</p>
+    <h2>Aerospace Fastener-Hole ECT (ECA)</h2>
+    <p>ECA per ASME V Article 26 + NAS 410 + EN 4179 aerospace standard — fastener-hole inspection on aging-aircraft lap joints, multi-site fatigue damage (MSD) detection, hidden corrosion + pillowing under-rivet. Boeing + Airbus + Lockheed + Northrop + Pratt &amp; Whitney + Safran aerospace prime acceptance per applicable customer spec (e.g. Boeing D6-XXXXX). Atlantis Academy NAS 410 + EN 4179 pathway available — 96% first-pass.</p>
+    <h2>Code + Acceptance Criteria</h2>
+    <p>ECT acceptance per: <strong>ASME Section V Article 8</strong> (general ECT) + <strong>Article 26</strong> (ECA); <strong>ASTM E309</strong> standard practice + <strong>E571</strong> ECT non-ferrous tube + <strong>E3052</strong> ECA surface; <strong>ISO 15549</strong> + <strong>ISO 17643</strong> EU; <strong>NAS 410</strong> + <strong>EN 4179</strong> aerospace; <strong>NACE SP0102</strong> in-line inspection; <strong>API 510 + 570 + 653</strong> in-service. Acceptance: defect amplitude % FSH, phase angle, length, depth threshold per service criticality.</p>
+    <h2>Atlantis NDT ECT Procedure Pack</h2>
+    <p>Turn-key ECT pack: written procedure (ASME V Articles 8 + 26 aligned), technique sheet (per defect class + material + coil), reference standard verification log (NIST/NPL traceable), ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis Academy</a>), free retake-grade backstop. Integrated with <a href="/erp">Atlantis NDT ERP</a> for cert + calibration tracking, <a href="/best-ndt-reporting-software-2026">Reporting Software</a> for mobile field capture + 3D bundle map, <a href="/digital-twins">Digital Twin</a> for through-wall sizing overlay.</p>
+    <h2>ECT Frequently Asked Questions</h2>
+    <h3>Q1: When should we use ECA vs conventional ECT vs RFT?</h3>
+    <p><strong>A:</strong> ECA — surface + near-surface coverage of large area, multi-element parallel coverage, faster than pencil-probe scan; Conventional ECT — single-spot inspection (fastener hole, weld toe); RFT — through-wall sizing on tube + buried-pipe inspection. Atlantis NDT Level III selects per defect class + access.</p>
+    <h3>Q2: Does ECT work on ferromagnetic carbon steel?</h3>
+    <p><strong>A:</strong> Conventional ECT is limited on carbon steel due to permeability variability. Use ECA + MFL + RFT instead. Or use MT/PT for surface defect detection on ferritic materials.</p>
+    <h3>Q3: How is HX tube ECT data presented?</h3>
+    <p><strong>A:</strong> Tube-by-tube data map with defect class + depth + location annotation, integrated into 3D tube-bundle model in Atlantis Digital Twin platform. Inspection history retained per tube via <a href="/erp">Atlantis NDT ERP</a> asset register.</p>
+    <h3>Q4: ASNT cert level for ECT?</h3>
+    <p><strong>A:</strong> Level II independent acquisition + interpretation; Level III procedure authoring + final disposition + multi-method oversight. SNT-TC-1A 2024 + CP-189-2020 + ISO 9712:2021. <a href="/atlantis-academy">Atlantis Academy</a> 96% first-pass.</p>
+    <p><a href="/contact"><strong>Get a free ECT consultation</strong></a>. See also <a href="/training">ET training</a>, <a href="/asnt-certification">ASNT</a>, <a href="/ultrasonic-testing">UT</a>, <a href="/magnetic-particle-testing">MT</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+  </main>`,
   },
   // ── 7 new pages added 2026-05-03. CTR_OVERRIDES at top of file rewrites
   // these titles/descriptions during render — bodyText here is fallback only.
@@ -8935,49 +8993,208 @@ methodPages.forEach(m => {
   });
 });
 
-// ── Ultrasonic Testing pillar page override (replaces generic methodPages entry) ──
+// ── Ultrasonic Testing pillar page override (Round-4 Phase A: rich body) ──
 routes.push({
   path: '/ultrasonic-testing',
   title: 'Ultrasonic Testing (UT) | PAUT, TOFD, AUT Guide | ASME V Art 4 | Atlantis NDT',
   description: 'Complete guide to ultrasonic testing: conventional UT, phased array (PAUT), TOFD, AUT, guided wave. ASME V Article 4, API 5L, AWS D1.1. Level I-III UT training and Level III consulting.',
   canonical: `${SITE_URL}/ultrasonic-testing`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Ultrasonic Testing (UT) | Complete Guide to UT NDT Methods</h1>\n    <p>Complete guide to ultrasonic testing (UT): conventional pulse-echo, phased array UT (PAUT), TOFD, automated UT, guided wave testing, and immersion UT. ASME Section V Article 4, API 5L, API 1104, AWS D1.1 compliant. ASNT Level I–III UT training and Level III consulting from Atlantis NDT.</p>\n  </main>`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/ultrasonic-testing">UT</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Ultrasonic Testing (UT) — Complete Guide to UT NDT Methods 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete ultrasonic testing curriculum + consulting stack — conventional pulse-echo UT, phased array UT (PAUT), time-of-flight diffraction (TOFD), automated UT (AUT), guided wave UT (LRUT), immersion UT C-scan, and electromagnetic acoustic transducer (EMAT). ASME Section V Article 4, API 5L, API 1104, AWS D1.1, ISO 17640 compliant. ASNT NDT Level I/II/III UT training (96% first-pass) and outsourced Level III consulting from Atlantis NDT.</p>
+    <h2>UT Method Physics + Equipment</h2>
+    <p>UT exploits high-frequency sound wave propagation (typically 0.5-25 MHz) through metallic + non-metallic materials. Pulse-echo mode: a piezoelectric transducer emits an ultrasonic pulse, listens for reflections from discontinuities + back wall. Pitch-catch + through-transmission for tandem configurations. Phased array (PAUT) uses 16/32/64/128-element probes with electronic beam steering + focusing (sector S-scan, electronic E-scan, sectorial scans). TOFD uses paired probes at fixed PCS for through-wall sizing via crack-tip diffraction. Atlantis NDT inspectors run Olympus OmniScan X3, Zetec TOPAZ, Eddyfi M2M, and conventional UT instruments (Olympus EPOCH 650/1000, GE USM Go+).</p>
+    <h2>Calibration + Reference Standards</h2>
+    <p>Calibration blocks: IIW V1 + V2 (ISO 7963), DSC, NPL, ASME basic calibration block per Section V Article 4 Mandatory Appendix III. PAUT focal-law calibration via DAC/TCG, angle-gain wedge correction, encoder calibration. TOFD lateral wave + back-wall reference verification per ASTM E2373. Reference standards traceable to NIST (US) / NPL (UK) / PTB (DE). Calibration cadence: pre-job, every 4 hours, after major adjustment, end of shift. Audit-ready via <a href="/erp">Atlantis NDT ERP</a> calibration cert tracking.</p>
+    <h2>Defect Sizing + Through-Wall Resolution</h2>
+    <p>Sizing techniques: amplitude-based (DGS, AVG, DAC), echo-dynamics (sliding gate), tip-diffraction (TOFD), pulse-echo time-of-flight, satellite-pulse method, focal-law-corrected for PAUT. Through-wall resolution typically λ/2 to λ for the chosen frequency + material velocity combo. Surface-breaking vs embedded discrimination via tandem probe + TOFD parallel beam + EDM notch reference. Sizing accuracy: ±1-2 mm typical for PAUT + TOFD on carbon steel weld inspection. Atlantis Digital Twin platform overlays UT sizing data on 3D asset model for change-tracking across inspection cycles.</p>
+    <h2>Code + Acceptance Criteria</h2>
+    <p>UT acceptance criteria per: <strong>ASME Section V Article 4</strong> (general UT) + Mandatory Appendices I-XII; <strong>API 510</strong> + <strong>API 570</strong> + <strong>API 653</strong> in-service inspection; <strong>API 1104</strong> + <strong>AWS D1.1</strong> + <strong>AWS D1.6</strong> + <strong>ASME B&amp;PV Section VIII Div 1/2</strong> + <strong>Section IX</strong> welding qualification; <strong>ISO 17640</strong> + <strong>ISO 17643</strong> EU weld UT; <strong>ASTM E2491</strong> PAUT performance + <strong>ASTM E2700</strong> PAUT weld + <strong>ASTM E2373</strong> TOFD; <strong>IACS Rec-20</strong> marine + offshore. NACE MR0175/MR0103 for sour-service material verification with XRF-PMI per ASTM E1476.</p>
+    <h2>Atlantis NDT UT Procedure Pack + 96% First-Pass Training</h2>
+    <p>Atlantis NDT delivers turn-key UT procedure pack: written procedure (ASME Section V + IX aligned), technique sheet (per defect class), calibration sheet, qualification block, ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis NDT Academy</a>), free retake-grade backstop. Integrated with <a href="/erp">Atlantis NDT ERP</a> (audit-ready records per ISO 9712 + 17024 + 9001 + 17020 + 17025), <a href="/digital-twins">Digital Twin platform</a> (3D defect localisation + RBI overlay), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline capture), <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (PAUT/RT/UT machine-learning defect classification with mandatory Level III approval per ASME PCC-3).</p>
+    <h2>UT Frequently Asked Questions</h2>
+    <h3>Q1: When should we use PAUT vs TOFD vs conventional UT?</h3>
+    <p><strong>A:</strong> PAUT — complex geometry + automated coverage + full-volume scan; TOFD — through-wall sizing precision + crack-tip diffraction; Conventional UT — simple weld geometry + sizing not required. Atlantis NDT procedure pack specifies combo per ASME V Article 4 Mandatory Appendices.</p>
+    <h3>Q2: What ASNT cert level performs UT?</h3>
+    <p><strong>A:</strong> Level I — assist, gather data, follow procedure; Level II — independent setup + acquisition + interpretation; Level III — procedure authoring + final disposition + multi-method oversight per SNT-TC-1A 2024 + CP-189-2020 + ISO 9712:2021.</p>
+    <h3>Q3: What's the typical UT calibration cadence?</h3>
+    <p><strong>A:</strong> Pre-job, every 4 hours, after any major adjustment, end of shift, and on temperature change &gt; 14°C. Records timestamped + Level III signed via <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <h3>Q4: How does Atlantis AI for NDT integrate with UT?</h3>
+    <p><strong>A:</strong> Atlantis AI runs first-pass PAUT/UT defect classification + sizing; inspector reviews + accepts/overrides; Level III signs off final disposition. ASME PCC-3 + API 581 + IACS Rec-20 acceptance pathway. See <a href="/ai-ndt-defect-detection">/ai-ndt-defect-detection</a>.</p>
+    <h3>Q5: Pricing for UT training + consulting?</h3>
+    <p><strong>A:</strong> Atlantis NDT publishes no pricing — varies by region + scope. Free 30-min consultation + tailored quote within 24 hours. Affordable, accessible, fully customizable.</p>
+    <p><a href="/contact"><strong>Get a free UT consultation + tailored quote</strong></a>. See also <a href="/training">UT training pathway</a>, <a href="/asnt-certification">ASNT certification</a>, <a href="/phased-array-ut">PAUT pillar</a>, <a href="/tofd-testing">TOFD pillar</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+  </main>`,
 });
 
-// ── Magnetic Particle Testing pillar page override ──────────────────────────
+// ── Magnetic Particle Testing pillar page override (Round-4 Phase A: rich body) ──
 routes.push({
   path: '/magnetic-particle-testing',
   title: 'Magnetic Particle Testing (MT/MPI) | Surface Defect Detection | ASME V Art 7 | Atlantis NDT',
   description: 'Complete guide to magnetic particle testing (MT/MPI): wet fluorescent, dry powder, yoke and prod methods. ASME V Article 7, API 650, AWS D1.1. Level I-III MT training and Level III consulting.',
   canonical: `${SITE_URL}/magnetic-particle-testing`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Magnetic Particle Testing (MT/MPI) | Surface &amp; Near-Surface Defect Detection</h1>\n    <p>Complete guide to magnetic particle testing (MT/MPI): wet fluorescent MT (WFMT), dry powder MT, yoke method, prod method, and coil/central conductor technique. ASME Section V Article 7, API 650, API 570, AWS D1.1 compliant. ASNT Level I–III MT training and Level III consulting from Atlantis NDT.</p>\n  </main>`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/magnetic-particle-testing">MT</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Magnetic Particle Testing (MT/MPI) — Surface + Near-Surface Defect Detection 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete MT/MPI curriculum + consulting stack — wet fluorescent MT (WFMT), wet visible MT, dry powder MT, yoke method, prod method, central conductor + coil technique. ASME Section V Article 7, API 650 + API 570 in-service, AWS D1.1, ISO 17638, ASTM E1444 compliant. ASNT NDT Level I/II/III MT training (96% first-pass) and outsourced Level III consulting from Atlantis NDT.</p>
+    <h2>MT Method Physics + Process</h2>
+    <p>MT relies on magnetic flux leakage at discontinuities in ferromagnetic materials (carbon steel, low-alloy steel, ferritic SS). Process: (1) magnetise the part — AC/DC/half-wave DC longitudinal (coil/cable wrap), circular (head shot/prod), or yoke; (2) apply ferromagnetic particles — wet fluorescent suspension (Type I per ASTM E1444), wet visible (Type II), or dry powder; (3) inspect under UV-A light (WFMT, 1000+ µW/cm² at 15") or white light (visible). Indications form at surface-breaking + near-surface discontinuities (typically ≤ 6 mm depth). Post-inspection: demagnetise.</p>
+    <h2>Calibration + Reference Standards</h2>
+    <p>System verification per ASTM E1444 + ASME V Article 7: pie indicator (8-pie Castrol), Burmah-Castrol shim (B/30 sensitivity), portable yoke lift test (4.5 kg AC / 18 kg DC), magnetic-field-strength indicator (Hall-effect Gaussmeter), bath concentration centrifuge tube (0.1-0.4 mL/100 mL for WFMT, 1.2-2.4 mL/100 mL for visible). Atlantis NDT ERP automates verification cadence + cert renewal + audit-trail recording. UV-A meter calibrated per ASTM E2297.</p>
+    <h2>Code + Acceptance Criteria</h2>
+    <p>MT acceptance per: <strong>ASME Section V Article 7</strong> (general MT) + Mandatory Appendices; <strong>API 650</strong> + <strong>API 653</strong> storage tank; <strong>API 570</strong> piping in-service; <strong>AWS D1.1</strong> + <strong>D1.5</strong> + <strong>D1.6</strong> structural welding; <strong>ISO 17638</strong> EU weld MT; <strong>ASTM E1444</strong> standard practice; <strong>NACE SP0288</strong> wet fluorescent MT per NACE specification (sour-service). Acceptance level B/C/D per ISO 5817 imperfection classification. Surface preparation per SSPC-SP (commercial blast Sa 2½ typical).</p>
+    <h2>MT Limitations + Complementary Methods</h2>
+    <p>Limitations: ferromagnetic materials ONLY (not 300-series austenitic SS); surface-breaking + near-surface (≤ 6 mm); paint/coating ≤ 50 µm DFT (above: false rejection); requires demagnetisation post-test for service-critical parts. Complementary methods where MT misses: PT (austenitic SS surface), UT (volumetric), ECA (thin-wall stainless), RT (subsurface volumetric). Atlantis Level III selects method-pair per damage mechanism per <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+    <h2>Atlantis NDT MT Procedure Pack</h2>
+    <p>Turn-key MT pack: written procedure (ASME V + ISO 17638 aligned), technique sheet, calibration verification log, ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis Academy</a>), free retake-grade backstop. Integrated with <a href="/erp">Atlantis NDT ERP</a> for cert + calibration tracking, <a href="/best-ndt-reporting-software-2026">Reporting Software</a> for mobile field capture, <a href="/digital-twins">Digital Twin</a> for 3D indication overlay.</p>
+    <h2>MT Frequently Asked Questions</h2>
+    <h3>Q1: When should we use WFMT vs dry powder vs visible MT?</h3>
+    <p><strong>A:</strong> WFMT — highest sensitivity, indoor + dark booth setup; dry powder — field/site work + hot service (above 60°C); visible MT — outdoor work + no UV-A availability + dirty environment. Atlantis NDT procedure pack scopes selection per inspection location + access.</p>
+    <h3>Q2: What's the minimum yoke lift test?</h3>
+    <p><strong>A:</strong> 4.5 kg minimum lift in AC mode + 18 kg in DC mode per ASTM E1444 + ASME V Article 7 Mandatory Appendix III. Verified pre-job + every 4 hours.</p>
+    <h3>Q3: Does MT work on austenitic stainless steel?</h3>
+    <p><strong>A:</strong> No — 300-series austenitic SS is non-magnetic. Use PT instead per ASTM E1417 or ECA per ASME V Article 26 for surface defect detection.</p>
+    <h3>Q4: What ASNT cert is needed for MT inspection?</h3>
+    <p><strong>A:</strong> Level II independent acquisition + interpretation; Level III procedure authoring + final disposition. SNT-TC-1A 2024 + CP-189-2020 + ISO 9712:2021 paths. <a href="/atlantis-academy">Atlantis Academy</a> 96% first-pass.</p>
+    <h3>Q5: How does MT integrate with Atlantis NDT stack?</h3>
+    <p><strong>A:</strong> Mobile field capture in Reporting Software, calibration + cert tracking in ERP, 3D indication overlay in Digital Twin, AI-assisted indication classification via Atlantis AI for NDT (with mandatory Level III approval per ASME PCC-3).</p>
+    <p><a href="/contact"><strong>Get a free MT consultation</strong></a>. See also <a href="/training">MT training</a>, <a href="/asnt-certification">ASNT</a>, <a href="/penetrant-testing">PT</a>, <a href="/eddy-current-testing">ET</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+  </main>`,
 });
 
-// ── Liquid Penetrant Testing pillar page override ───────────────────────────
+// ── Liquid Penetrant Testing pillar page override (Round-4 Phase A) ──
 routes.push({
   path: '/penetrant-testing',
   title: 'Liquid Penetrant Testing (PT/FPI) | Surface Crack Detection | ASME V Art 6 | Atlantis NDT',
   description: 'Complete guide to liquid penetrant testing: visible dye, fluorescent FPI, water washable, post-emulsifiable. ASME V Article 6, AMS 2644, ASTM E1417. Level I-III PT training and consulting.',
   canonical: `${SITE_URL}/penetrant-testing`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Liquid Penetrant Testing (PT/FPI) | Surface Defect Detection | Any Material</h1>\n    <p>Complete guide to liquid penetrant testing (PT/FPI): visible dye penetrant, fluorescent penetrant inspection (FPI), water washable PT, and post-emulsifiable PT. AMS 2644 sensitivity levels 1/2 through 4. ASME Section V Article 6, AMS 2644, ASTM E1417, API 570 compliant. ASNT Level I–III PT training and Level III consulting from Atlantis NDT.</p>\n  </main>`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/penetrant-testing">PT</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Liquid Penetrant Testing (PT/FPI) — Surface Defect Detection on Any Material 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete liquid penetrant curriculum + consulting stack — visible dye penetrant (Type II), fluorescent penetrant inspection (FPI, Type I), water-washable (Method A), post-emulsifiable lipophilic (Method B), solvent-removable (Method C), post-emulsifiable hydrophilic (Method D), and dual-mode penetrant. AMS 2644 sensitivity levels ½/1/2/3/4. ASME Section V Article 6, ASTM E1417 + E165, API 570 + 653 in-service, ISO 3452 EU, NAS 410 + EN 4179 aerospace compliant. ASNT Level I/II/III PT training (96% first-pass) + outsourced Level III consulting.</p>
+    <h2>PT Method Physics + Process Variants</h2>
+    <p>PT uses capillary action to draw a low-viscosity penetrant into surface-breaking discontinuities. Process: (1) <strong>Pre-clean</strong> — degrease + remove paint/scale per SSPC-SP; (2) <strong>Apply penetrant</strong> — dwell 5-30 min per AMS 2644 sensitivity level; (3) <strong>Remove excess</strong> — water spray (Method A), emulsifier + water (Method B/D), solvent-wipe (Method C); (4) <strong>Apply developer</strong> — dry powder (Form a), wet aqueous (Form b/c), non-aqueous wet (Form d), water-soluble (Form e); (5) <strong>Develop + inspect</strong> — dwell 10-60 min, inspect under white light (visible PT) or UV-A (FPI, 1000+ µW/cm² at 15"); (6) <strong>Post-clean</strong>.</p>
+    <h2>AMS 2644 Sensitivity Levels + Reference Panels</h2>
+    <p>AMS 2644 classifies penetrant systems by sensitivity (½ = ultra-low, 1 = low, 2 = medium, 3 = high, 4 = ultra-high). Reference: TAM panels (low-cycle fatigue) + NiCr-plated panels per Pratt &amp; Whitney spec PWA 9610. Atlantis NDT inspectors verify panel sensitivity pre-job + every shift change. Verification logged + Level III signed via <a href="/erp">Atlantis NDT ERP</a> calibration tracking.</p>
+    <h2>Code + Acceptance Criteria</h2>
+    <p>PT acceptance per: <strong>ASME Section V Article 6</strong> (general PT) + Mandatory Appendices; <strong>ASTM E1417</strong> standard practice + <strong>ASTM E165</strong> standard test method; <strong>AMS 2644</strong> sensitivity classification; <strong>NAS 410 + EN 4179</strong> aerospace inspector certification; <strong>API 570</strong> piping in-service; <strong>API 653</strong> storage tank; <strong>ASME B&amp;PV Section VIII Div 1/2</strong>; <strong>AWS D1.1/D1.6</strong> structural; <strong>ISO 3452</strong> + <strong>ISO 12706</strong> EU penetrant systems. Acceptance: round indications ≤ 3/16" + linear indications per pre-defined L/W ratio criteria per applicable construction code.</p>
+    <h2>PT Limitations + Method Selection</h2>
+    <p>Limitations: surface-breaking ONLY (no subsurface detection); requires clean, smooth surface; sensitive to paint/coating (max ≤ 25 µm DFT typically); temperature 5-50°C operating range typical (extended range with special penetrants); contamination drift on porous materials. Where PT fails: use MT (ferromagnetic surface), ECA (thin-wall conductive), UT (volumetric), RT (volumetric).</p>
+    <h2>Atlantis NDT PT Procedure Pack</h2>
+    <p>Atlantis NDT delivers turn-key PT pack: written procedure (ASME V Article 6 + ASTM E1417 aligned), technique sheet (per defect class), TAM panel verification log, ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis Academy</a>), free retake-grade backstop. Integrated with <a href="/erp">Atlantis NDT ERP</a> for cert + calibration tracking, <a href="/best-ndt-reporting-software-2026">Reporting Software</a> for mobile field capture, <a href="/digital-twins">Digital Twin</a> for indication overlay.</p>
+    <h2>PT Frequently Asked Questions</h2>
+    <h3>Q1: When is fluorescent PT (FPI) required over visible dye?</h3>
+    <p><strong>A:</strong> Aerospace + nuclear + critical-fatigue components per NAS 410 + EN 4179 + ASME XI typically require Type I (FPI) Level 3-4 sensitivity. Visible dye Type II is acceptable for general structural welding per AWS D1.1.</p>
+    <h3>Q2: What temperature range works for PT?</h3>
+    <p><strong>A:</strong> Standard penetrants 5-50°C. Cold-weather penetrants below 5°C. Hot-service penetrants up to 175°C (specialised). Outside range — qualify alternate procedure per ASME V Article 6 Mandatory Appendix or use MT/ECA.</p>
+    <h3>Q3: Why is post-cleaning critical?</h3>
+    <p><strong>A:</strong> Residual penetrant can contaminate subsequent processes (welding, anodising, painting), reduce corrosion resistance on austenitic SS, and create false-positive findings on later inspections. Per ASTM E1417 §10 + applicable customer specification.</p>
+    <h3>Q4: ASNT cert level for PT?</h3>
+    <p><strong>A:</strong> Level II — acquisition + interpretation; Level III — procedure authoring + final disposition. <a href="/atlantis-academy">Atlantis Academy</a> 96% first-pass via SNT-TC-1A + ISO 9712 + NAS 410 pathway.</p>
+    <p><a href="/contact"><strong>Get a free PT consultation</strong></a>. See also <a href="/training">PT training</a>, <a href="/asnt-certification">ASNT</a>, <a href="/magnetic-particle-testing">MT</a>, <a href="/eddy-current-testing">ET</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+  </main>`,
 });
 
-// ── Radiographic Testing pillar page override ────────────────────────────
+// ── Radiographic Testing pillar page override (Round-4 Phase A) ──
 routes.push({
   path: '/radiographic-testing',
   title: 'Radiographic Testing (RT) | X-Ray, Gamma & Digital Radiography | ASME V Art 2 | Atlantis NDT',
   description: 'Complete guide to radiographic testing: film RT, digital radiography, gamma (Ir-192, Co-60), computed radiography. ASME V Article 2, API 1104, AWS D1.1. Level I-III RT training and consulting.',
   canonical: `${SITE_URL}/radiographic-testing`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Radiographic Testing (RT) | X-Ray, Gamma &amp; Digital Radiography | ASME V Art 2</h1>\n    <p>Complete guide to radiographic testing (RT): film radiography, digital radiography (DR), computed radiography (CR), and gamma radiography with Ir-192, Co-60, Se-75. ASME Section V Article 2, API 1104 pipeline radiography, AWS D1.1. ASNT Level I–III RT training, radiation safety consulting, and Level III RT consulting from Atlantis NDT.</p>\n  </main>`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/radiographic-testing">RT</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Radiographic Testing (RT) — X-Ray, Gamma + Digital Radiography 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete radiographic testing curriculum + consulting stack — film radiography, digital radiography (DR), computed radiography (CR), and gamma radiography with Ir-192, Co-60, Se-75, Yb-169 isotopes. Real-time radioscopy (RTR) + digital detector array (DDA) per ASME V Articles 22 + 27. ASME Section V Article 2, API 1104 pipeline radiography, ISO 17636-1/2, AWS D1.1, AWS D17.1 aerospace welding compliant. ASNT NDT Level I/II/III RT training (96% first-pass) + radiation safety officer consulting + outsourced Level III RT consulting.</p>
+    <h2>RT Method Physics + Source Selection</h2>
+    <p>RT uses ionising radiation (X-ray or gamma) penetrating the test object to produce a 2D radiograph showing density variations from internal discontinuities. Source selection per material thickness: <strong>X-ray (constant potential 100-450 kV)</strong> — high resolution, thin sections, controllable; <strong>Ir-192 gamma (0.6 MeV avg)</strong> — most common field use, 12-75 mm steel; <strong>Co-60 gamma (1.25 MeV avg)</strong> — thick sections 50-200 mm steel; <strong>Se-75 gamma (low-energy)</strong> — thin sections 5-25 mm steel with better contrast; <strong>Yb-169</strong> — ultra-thin + small-diameter pipe. Digital detectors (DDA) replace film with 14-bit grey-scale + SNR per ASME V Article 27.</p>
+    <h2>IQI + Sensitivity + Exposure Geometry</h2>
+    <p>Image quality indicators (IQI) verify technique sensitivity: <strong>ASTM E1025 hole-type</strong> (1T/2T/4T penetrameter) or <strong>ASTM E747 wire-type</strong> (ISO + EN preferred). Sensitivity typically 2% (2T/wire essential per Code). Exposure geometry per ASME V Article 2 Mandatory Appendix: single-wall single-image (SWSI), double-wall single-image (DWSI), double-wall double-image (DWDI elliptical for small-diameter pipe per ASME V T-275). Source-to-film distance + geometric unsharpness Ug = source × thickness / SFD calculation.</p>
+    <h2>Code + Acceptance Criteria</h2>
+    <p>RT acceptance per: <strong>ASME Section V Article 2</strong> (general RT) + Mandatory Appendices; <strong>ASME Section VIII Div 1 + 2 Mandatory Appendix 4</strong> pressure vessel acceptance; <strong>ASME B31.3</strong> piping acceptance; <strong>API 1104</strong> pipeline welding; <strong>AWS D1.1</strong> + <strong>D17.1</strong> aerospace; <strong>ISO 17636-1/2</strong> EU weld RT; <strong>ASTM E94</strong> standard guide + <strong>E747</strong> + <strong>E1025</strong> IQI; <strong>IACS Rec-20</strong> marine. Indication classification: porosity, slag inclusion, incomplete fusion, incomplete penetration, crack, undercut, concavity. Acceptance level dependent on material thickness, weld type, service.</p>
+    <h2>Radiation Safety + Regulatory</h2>
+    <p>RT involves ionising-radiation hazard requiring strict safety: NRC + state licensing in US, IAEA + national-regulator licensing internationally, controlled-area survey, source-pit shielding, radiation-area dose-rate calculation, personnel TLD + electronic dosimeter, transport per IAEA TS-R-1, source-change-out per manufacturer + regulatory. Atlantis NDT delivers radiation safety officer (RSO) consulting per applicable jurisdiction. <a href="/consulting">See consulting</a> for RSO scoping.</p>
+    <h2>Atlantis NDT RT Procedure Pack</h2>
+    <p>Turn-key RT pack: written procedure (ASME V Article 2 + ISO 17636 aligned), technique sheet (per source + thickness + geometry), film density + IQI sensitivity log, ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis Academy</a>), free retake-grade backstop. Plus RSO + radiation safety procedure pack. Integrated with <a href="/erp">Atlantis NDT ERP</a> for source-cert + cert tracking, <a href="/best-ndt-reporting-software-2026">Reporting Software</a> for digital radiograph archival, <a href="/digital-twins">Digital Twin</a> for 3D defect overlay, <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (DR/CR defect classification with mandatory Level III approval).</p>
+    <h2>RT Frequently Asked Questions</h2>
+    <h3>Q1: When should we use DR/CR vs film RT?</h3>
+    <p><strong>A:</strong> DR/CR replaces film for most applications: instant image review, no chemicals, archivable digital records, real-time radioscopy possible. Film RT still preferred for: extreme thickness (Co-60 + thick concrete), legacy customer specifications, regulatory carry-over. ASME V Articles 22 + 27 govern DR/CR acceptance.</p>
+    <h3>Q2: What's the minimum sensitivity required?</h3>
+    <p><strong>A:</strong> 2% (2T/2T essential, or appropriate wire size) per ASME V Article 2 Mandatory Appendix. Achieved via IQI per ASTM E1025 (hole-type) or E747 (wire-type).</p>
+    <h3>Q3: How is gamma source replaced?</h3>
+    <p><strong>A:</strong> Per manufacturer + NRC/regulator change-out procedure with shielded transport, hot-cell receipt, dose-rate survey. Atlantis NDT delivers full source-change-out compliance consulting via RSO.</p>
+    <h3>Q4: What ASNT cert is required for RT inspection?</h3>
+    <p><strong>A:</strong> Level II independent acquisition + interpretation; Level III procedure authoring + final disposition + multi-method oversight. Plus radiation-safety officer (RSO) certification per applicable regulator. <a href="/atlantis-academy">Atlantis Academy</a> covers all.</p>
+    <h3>Q5: Pricing for RT consulting + training?</h3>
+    <p><strong>A:</strong> No published pricing — varies by region + scope + radiation-safety jurisdiction. Free 30-min consultation + tailored quote. Affordable, accessible, fully customizable.</p>
+    <p><a href="/contact"><strong>Get a free RT consultation</strong></a>. See also <a href="/training">RT training</a>, <a href="/asnt-certification">ASNT</a>, <a href="/ultrasonic-testing">UT pillar</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>, <a href="/ai-ndt-defect-detection">AI for NDT</a>.</p>
+  </main>`,
 });
 
-// ── Visual Testing pillar page override ──────────────────────────────────
+// ── Visual Testing pillar page override (Round-4 Phase A) ──
 routes.push({
   path: '/visual-testing',
   title: 'Visual Testing (VT) | Direct & Remote Visual Inspection | ASME V Art 9 | Atlantis NDT',
   description: 'Complete guide to visual testing: direct VT, borescope inspection, remote visual (RVI), drone NDT. ASME V Article 9, AWS D1.1. Level I-III VT training and certification. Atlantis NDT.',
   canonical: `${SITE_URL}/visual-testing`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/blog">Blog</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Visual Testing (VT) | Direct &amp; Remote Visual Inspection | ASME V Art 9</h1>\n    <p>Complete guide to visual testing (VT): direct visual examination, remote visual inspection (RVI), rigid borescope inspection, flexible videoscope inspection, and drone/UAV NDT. ASME Section V Article 9, AWS D1.1 weld visual acceptance criteria. ASNT Level I–III VT training, AWS CWI preparation, and Level III VT consulting from Atlantis NDT.</p>\n  </main>`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/visual-testing">VT</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Visual Testing (VT) — Direct + Remote Visual Inspection 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete visual testing curriculum + consulting stack — direct visual examination (DVT), remote visual inspection (RVI), rigid borescope inspection, flexible videoscope inspection, and drone/UAV-based VT. ASME Section V Article 9, AWS D1.1 weld visual acceptance, API 510/570/653 in-service visual inspection compliant. ASNT NDT Level I/II/III VT training + AWS CWI/SCWI preparation + outsourced Level III VT consulting.</p>
+    <h2>VT Method + Equipment</h2>
+    <p>VT is the first-line NDT method — performed before any other method to identify obvious surface conditions. Equipment: visual aids (5-10× magnifier, illuminated loupe, ring light), inspection mirror, borescope (rigid/flexible 4-10 mm OD, articulating tip), videoscope (digital recording, measurement function), drone/UAV (DJI M300/M600 + Zenmuse cameras for elevated visual + IRT). Direct VT requires inspector within 600 mm of surface with light intensity ≥ 1000 lux (per ASME V T-952), eye acuity Jaeger J1 + colour vision verified annually.</p>
+    <h2>Acceptance Criteria + Code</h2>
+    <p>VT acceptance per: <strong>ASME Section V Article 9</strong> (general VT); <strong>AWS D1.1</strong> + <strong>D1.6</strong> Table 6.1 visual weld acceptance (undercut, crater crack, porosity, undersize); <strong>API 510 + 570 + 653</strong> in-service visual inspection; <strong>ASME PCC-2</strong> repair acceptance; <strong>ISO 17637</strong> EU weld visual; <strong>NACE SP0188</strong> coating visual + holiday detection. Defect types: porosity, slag, undercut, overlap, incomplete fusion, crater crack, arc strike, weld profile, dimensional non-conformance, surface finish (Ra/Rz).</p>
+    <h2>Remote Visual Inspection (RVI) + Borescope</h2>
+    <p>RVI applies where direct access is impossible: in-service pressure vessel internal, boiler internal, heat exchanger tube bundle (with extension probes), turbine + engine internal inspection, pipe/conduit internal scan. Borescope selection: rigid (best resolution, straight line of sight), flexible video (articulating, internal tortuous path), pan-tilt-zoom remote camera (large vessel internals). Measurement function: stereo + grid + shadow + phase-measurement methods. Atlantis NDT RVI delivery via certified inspector + Level III sign-off + recorded video archived in <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <h2>Drone + UAV-Based VT</h2>
+    <p>Drone VT extends inspector reach on flare stacks, refinery columns, offshore platforms, transmission towers, wind turbines, ship hull externals, large storage tanks (external + roof). Pilot certification: FAA Part 107 (US), CAA (UK), CASA (AU), local regulator. Code-acceptance per ASME V Article 1 — drone-collected visual data accepted when (a) procedure written + qualified + Level III approved, (b) pilot trained, (c) Level III final disposition. Atlantis Digital Twin platform integrates drone capture into 3D asset model for change-tracking + RBI overlay.</p>
+    <h2>Atlantis NDT VT Procedure Pack + CWI Path</h2>
+    <p>Turn-key VT + CWI pack: written procedure (ASME V Article 9 + AWS D1.1 aligned), technique sheet (per defect class), lighting + magnification verification log, ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis Academy</a>) + AWS CWI/SCWI exam prep, free retake-grade backstop. Plus drone pilot certification consulting + RVI equipment specification + borescope operator training.</p>
+    <h2>VT Frequently Asked Questions</h2>
+    <h3>Q1: What's the minimum illumination required for direct VT?</h3>
+    <p><strong>A:</strong> 1000 lux at the surface per ASME V T-952. Verified with calibrated light meter pre-job. Higher intensity needed for fine surface defect detection.</p>
+    <h3>Q2: How is drone VT data accepted under code?</h3>
+    <p><strong>A:</strong> Per ASME V Article 1 — drone-collected data is acceptable when procedure is qualified, pilot trained, Level III signs off final disposition. ASME Section V Subgroup on Computed Imaging has endorsed UAV-based VT for external visual inspection.</p>
+    <h3>Q3: AWS CWI vs ASNT Level II VT — what's the difference?</h3>
+    <p><strong>A:</strong> CWI is a welding-specific certification covering visual weld inspection (AWS D1.1/D1.6 acceptance). ASNT VT Level II is broader NDT method certification covering all visual inspection scenarios. Many inspectors hold both. <a href="/atlantis-academy">Atlantis Academy</a> trains both paths.</p>
+    <h3>Q4: What's the typical eye-exam requirement?</h3>
+    <p><strong>A:</strong> Annual near visual acuity per Jaeger J1 + colour vision (Ishihara) per SNT-TC-1A 2024 + CP-189-2020 + ISO 9712:2021. Records retained in inspector cert file in <a href="/erp">Atlantis ERP</a>.</p>
+    <p><a href="/contact"><strong>Get a free VT consultation</strong></a>. See also <a href="/training">VT training</a>, <a href="/asnt-certification">ASNT</a>, <a href="/magnetic-particle-testing">MT</a>, <a href="/penetrant-testing">PT</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+  </main>`,
+});
+
+// ── Eddy Current Testing pillar page override (Round-4 Phase A) ──
+routes.push({
+  path: '/eddy-current-testing',
+  title: 'Eddy Current Testing (ECT) 2026 — Tube + Weld + Aerospace + Coating | Atlantis NDT',
+  description: 'Eddy current testing for heat exchangers, welds, coatings & aerospace. Conventional ECT, ECA, RFT, NFA, MFL, PEC. ASME V Article 8 + 26, NAS 410. ASNT Level II/III training + consulting.',
+  canonical: `${SITE_URL}/eddy-current-testing`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/eddy-current-testing">ET</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Eddy Current Testing (ECT) 2026 — Tube + Weld + Aerospace + Coating Inspection</h1>
+    <p><strong>Atlantis NDT</strong> delivers the complete eddy current testing curriculum + consulting stack — conventional ECT, eddy current array (ECA), remote field testing (RFT), near-field array (NFA), magnetic flux leakage (MFL), and pulsed eddy current (PEC). ASME Section V Article 8 + Article 26 (ECA), ASTM E309 + E571 + E3052, NAS 410 aerospace, ISO 15549 + ISO 17643 EU weld ECT, NACE SP0102 compliant. ASNT NDT Level I/II/III ET training (96% first-pass) + outsourced Level III ET consulting.</p>
+    <h2>ECT Method Physics + Variants</h2>
+    <p>ECT exploits electromagnetic induction in conductive materials. A coil energised with AC current induces eddy currents in the test object; discontinuities perturb the eddy-current flow, registered as impedance change. Variants: <strong>Conventional ECT</strong> — single-coil pencil probe for surface defects + bolt-hole inspection; <strong>ECA</strong> — multi-element array per ASME V Article 26, faster coverage; <strong>RFT</strong> — through-wall sizing on heat exchanger tubes + buried/insulated pipe; <strong>NFA</strong> — internal tube inspection; <strong>MFL</strong> — through-wall corrosion mapping on storage tank floors + buried pipe; <strong>PEC</strong> — through-coating CUI detection.</p>
+    <h2>Heat Exchanger Tube Inspection (HX Tube ECT)</h2>
+    <p>HX tube ECT is the dominant application: bobbin coil + array probes for stainless + brass + copper-nickel + titanium tubes. Detection of: ID/OD pitting, wall-loss general thinning, baffle-cut wear, vibration fatigue cracking, IGSCC chloride cracking on austenitic SS, ammonia attack on copper alloys. Atlantis delivers HX tube inspection per API 510 + EEMUA 159 + EPRI Heat Exchanger Inspection Guide.</p>
+    <h2>Aerospace Fastener-Hole ECT (ECA)</h2>
+    <p>ECA per ASME V Article 26 + NAS 410 + EN 4179 — fastener-hole inspection on aging-aircraft lap joints, multi-site fatigue damage (MSD) detection, hidden corrosion + pillowing under-rivet. Boeing + Airbus + Lockheed + Northrop + Pratt &amp; Whitney + Safran aerospace prime acceptance. Atlantis Academy NAS 410 + EN 4179 pathway available — 96% first-pass.</p>
+    <h2>Code + Acceptance Criteria</h2>
+    <p>ECT acceptance per: <strong>ASME Section V Article 8</strong> (general ECT) + <strong>Article 26</strong> (ECA); <strong>ASTM E309</strong> standard practice + <strong>E571</strong> ECT non-ferrous tube + <strong>E3052</strong> ECA surface; <strong>ISO 15549</strong> + <strong>ISO 17643</strong> EU; <strong>NAS 410</strong> + <strong>EN 4179</strong> aerospace; <strong>NACE SP0102</strong> in-line inspection; <strong>API 510 + 570 + 653</strong> in-service. Acceptance: defect amplitude % FSH, phase angle, length, depth threshold per service criticality.</p>
+    <h2>Atlantis NDT ECT Procedure Pack</h2>
+    <p>Turn-key ECT pack: written procedure (ASME V Articles 8 + 26 aligned), technique sheet (per defect class + material + coil), reference standard verification log (NIST/NPL traceable), ASNT NDT Level III sign-off, inspector training (96% first-pass via <a href="/atlantis-academy">Atlantis Academy</a>), free retake-grade backstop. Integrated with <a href="/erp">Atlantis NDT ERP</a> for cert + calibration tracking, <a href="/best-ndt-reporting-software-2026">Reporting Software</a> for mobile field capture + 3D bundle map, <a href="/digital-twins">Digital Twin</a> for through-wall sizing overlay.</p>
+    <h2>ECT Frequently Asked Questions</h2>
+    <h3>Q1: When should we use ECA vs conventional ECT vs RFT?</h3>
+    <p><strong>A:</strong> ECA — surface + near-surface coverage of large area; Conventional ECT — single-spot (fastener hole, weld toe); RFT — through-wall sizing on tube + buried-pipe.</p>
+    <h3>Q2: Does ECT work on ferromagnetic carbon steel?</h3>
+    <p><strong>A:</strong> Conventional ECT is limited on carbon steel. Use ECA + MFL + RFT instead, or MT/PT for surface defect on ferritic.</p>
+    <h3>Q3: How is HX tube ECT data presented?</h3>
+    <p><strong>A:</strong> Tube-by-tube data map with defect class + depth + location annotation, integrated into 3D tube-bundle model in Atlantis Digital Twin platform.</p>
+    <h3>Q4: ASNT cert level for ECT?</h3>
+    <p><strong>A:</strong> Level II independent acquisition + interpretation; Level III procedure authoring + final disposition. <a href="/atlantis-academy">Atlantis Academy</a> 96% first-pass.</p>
+    <p><a href="/contact"><strong>Get a free ECT consultation</strong></a>. See also <a href="/training">ET training</a>, <a href="/asnt-certification">ASNT</a>, <a href="/ultrasonic-testing">UT</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>.</p>
+  </main>`,
 });
 
 // ── Phased Array UT pillar page ──────────────────────────────────────────
@@ -10119,13 +10336,92 @@ const industryServicePages = [
   { path: '/construction-ndt-services', title: 'Construction NDT Services | Structural Steel & Weld Inspection | Atlantis NDT', description: 'NDT services for construction: structural steel weld inspection, concrete assessment, rebar scanning. AWS D1.1, AISC certified inspectors.', h1: 'Construction NDT Services' },
 ];
 
+// Round-4 Phase A — service-line vertical pages now ship substantive rich body
+// content with vertical-specific damage mechanisms, code stack, operator roster,
+// Atlantis NDT stack integration, and free consultation CTA. Replaces the
+// 30-word stub that was rendering to Googlebot.
+const VERTICAL_SERVICE_CONTENT = {
+  '/oil-gas-ndt-services': {
+    operators: 'Saudi Aramco, ADNOC, Shell, ExxonMobil, BP, TotalEnergies, Chevron, ConocoPhillips, Phillips 66, Marathon, Petrobras, Equinor, Petronas, Reliance, ONGC, IOCL, BPCL, KOC, KNPC, Bapco, QatarEnergy, PDVSA, Pemex, Sinopec, CNPC',
+    assets: 'pipeline integrity (API 570 + API 1104), refinery inspection (API 510 + API 653 + API 579 FFS), offshore platforms + FPSOs, pressure vessels + storage tanks, heat exchangers + columns, fired heaters + furnaces, midstream + downstream terminals',
+    damage: 'sulfidation (API 571 §4.4.2), naphthenic-acid corrosion (§4.4.6), HTHA (§4.5.1), sour-water cracking (§5.1.3), CUI (§4.3.4), MIC (§4.3.8), chloride SCC (§4.5.1.4)',
+    codes: 'ASME B&amp;PV V + VIII + IX + XI; ASME B31.3/4/8 piping; API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 1104; NACE MR0175/MR0103; ISO 17635/17636/17640; IACS Rec-20',
+  },
+  '/aerospace-ndt-services': {
+    operators: 'Boeing, Airbus, Lockheed Martin, Northrop Grumman, Raytheon, Pratt & Whitney, GE Aviation, Rolls-Royce, Safran, MTU Aero Engines, Collins Aerospace, Honeywell, Spirit AeroSystems, Bombardier, Embraer, HAL India',
+    assets: 'commercial transport fuselage + wing + empennage, lap-joint + butt-joint riveted assembly, composite (CFRP/GFRP) layup + sandwich panel + honeycomb core, gas turbine disc + blade + casing, landing-gear strut + actuator + brake, helicopter rotor head + blade, engine mount + nacelle structure',
+    damage: 'multi-site fatigue damage (MSD) on aging-aircraft lap-joints, hidden corrosion + pillowing under-rivet, composite delamination + disbond + porosity, gas-turbine LCF/HCF + creep + thermo-mechanical fatigue, foreign-object damage (FOD), oxide layer drift',
+    codes: 'NAS 410 + EN 4179 personnel cert (Boeing/Lockheed/Northrop/Raytheon/P&W + Airbus/Safran/MTU/Rolls/Collins acceptance); AS9100D quality; NADCAP NDT accreditation; AMS 2644 PT sensitivity; ASTM E1417/E1444/E2491; ASNT NDT Level III multi-method',
+  },
+  '/power-generation-ndt-services': {
+    operators: 'NTPC (India), EDF (France), TVA, Duke Energy, KEPCO (Korea), JEPCO, Tata Power, Adani Power, AGL Energy, EnergyAustralia, RWE, E.ON, Iberdrola, Endesa, Enel, Engie, EDP, Vattenfall, Fortum, plus nuclear (Areva/Framatome, Westinghouse, Mitsubishi, KEPCO Nuclear, Rosatom)',
+    assets: 'coal-fired boiler (waterwall + superheater + reheater + economiser + drum), HRSG (heat recovery steam generator), HP/IP/LP steam turbine + rotor + blade + diaphragm, generator rotor + stator + retaining ring, condenser tube + tubesheet + waterbox, feedwater heater, deaerator, FGD absorber, SCR reactor, nuclear reactor vessel + steam generator + RPV head per ASME XI',
+    damage: 'creep + creep-fatigue on HP header (API 571 §4.2.8), waterwall fireside corrosion + erosion, superheater dissimilar-metal weld failure, HRSG condensate-attack + thermal-fatigue, turbine blade SCC + LCF + corrosion-fatigue, generator retaining-ring SCC, condenser-tube ammonia attack + MIC',
+    codes: 'ASME B&amp;PV I + III + XI (nuclear); ASME B31.1 power piping; EPRI guidelines; EEMUA 159; API 571 damage mechanisms; NACE SP0204; ISO 17640; NRC + IAEA + ONR nuclear regulatory framework',
+  },
+  '/petrochemical-ndt-services': {
+    operators: 'BASF, Bayer, INEOS, LyondellBasell, Dow, SABIC, ADNOC Borouge, Reliance, Petronas, Indorama, Formosa Plastics, Sinopec, CNPC, ExxonMobil Chemical, Shell Chemicals, TotalEnergies Petrochemicals',
+    assets: 'ethylene cracker furnace, propylene splitter, polyethylene (HDPE/LDPE/LLDPE) reactor, polypropylene reactor, butadiene unit, BTX recovery, aromatics complex, ammonia synthesis loop, methanol reactor, MEG plant, polymer extrusion train, distillation columns, heat exchangers, fired heaters',
+    damage: 'cracker furnace tube creep + carburisation (API 571 §4.2.7), polymer reactor corrosion-fatigue, BTX overhead chloride SCC, ammonia loop sulfidation + HTHA, methanol catalyst-tube creep, MEG glycol degradation, sour-service H2S cracking',
+    codes: 'ASME B&amp;PV V + VIII; ASME B31.3 process piping; API 510/570/579/581/653/571; NACE MR0103 amine + wet H2S; ISO 17635/17636/17640; EN 13445; OSHA PSM',
+  },
+  '/pipeline-inspection-services': {
+    operators: 'Enbridge, TransCanada (TC Energy), Williams, Kinder Morgan, ONEOK, Plains All American, Magellan, Buckeye, Saudi Aramco pipeline, ADNOC pipeline, Gazprom, Petrobras transpetro, Transneft, Tokyo Gas, Tokyo Electric',
+    assets: 'cross-country crude + product + gas pipelines (API 570 + B31.4/B31.8), gathering systems, midstream terminals + station piping, subsea pipelines + flowlines + risers (API 17), buried + insulated pipe (CUI), distribution mains',
+    damage: 'external corrosion + CP-related (NACE SP0502 ECDA), internal corrosion (NACE SP0775 ICDA), SCC + IGSCC + EAC (NACE SP0204 SCCDA), MIC, third-party intrusion damage, fatigue + cyclic-load damage, dent + gouge (API 579 Part 12)',
+    codes: 'ASME B31.4 (liquid pipeline) + B31.8 (gas) + B31.12 (hydrogen); API 570 + 1104 + 1163 ILI + 5L X70/X80; NACE SP0169 CP + SP0502 ECDA + SP0775 ICDA; ISO 18211 LRUT; PHMSA 49 CFR Part 192/195',
+  },
+  '/marine-offshore-ndt-services': {
+    operators: 'FPSO operators (Petrobras, Modec, SBM Offshore, BW Offshore, Yinson), shipyards (Keppel, Sembcorp Marine, Hyundai Heavy, Samsung Heavy, DSME, Imabari), offshore platform operators (Woodside, Equinor, Aker BP, Shell offshore, Chevron offshore), IACS class societies (ABS, DNV, Lloyd&apos;s Register, BV, RINA, ClassNK, KR, CCS)',
+    assets: 'FPSO topside + hull, drillship + semi-sub drilling unit, jackup rig + spudcan, jacket structure + topside, subsea pipeline + flowline + riser + manifold + BOP + tree (API 17), drydock survey + classification, offshore wind monopile + jacket + transition piece + tower + blade',
+    damage: 'salt-spray external corrosion, ballast/cargo-tank pitting, splash-zone CUI, subsea MIC, riser fatigue + VIV, ferritic/austenitic dissimilar weld cracking, sour-service H2S on flowline, scour-related cyclic loading on offshore wind monopile',
+    codes: 'IACS Rec-20 + UR W11 + UR Z23 (NDE acceptance); IMO MSC.1/Circ.1409; MARPOL Annex I tank inspection; DNV-OS-C401 fabrication; ABS Steel Vessel Rules; NORSOK; API 17 subsea + API 2X offshore structure; ISO 19901 offshore',
+  },
+  '/nuclear-ndt-services': {
+    operators: 'Westinghouse, Framatome (Areva), Mitsubishi Heavy Industries, KEPCO Nuclear, Rosatom (Russia), China General Nuclear (CGN), Doosan Heavy, EDF (France), TVA (US), Bruce Power, Ontario Power Generation, Eskom Koeberg',
+    assets: 'reactor pressure vessel (RPV) + RPV head + control-rod drive mechanism (CRDM), steam generator (SG) tube + tubesheet, pressuriser, primary + secondary piping (RCP loop + main steam + feedwater), containment liner + concrete, spent-fuel pool, control rods + fuel-rod cladding, valves + pumps + heat exchangers',
+    damage: 'irradiation embrittlement of RPV, IGSCC + IASCC on austenitic SS (BWR + PWR), thermal fatigue on mixing tee, dissimilar metal weld (DMW) cracking, alloy 600/690 SCC, baffle-former bolt cracking, FAC (flow-accelerated corrosion) on carbon-steel piping, IGA + IASCC on SG tube',
+    codes: 'ASME Section XI in-service inspection (mandatory rule); ASME Section III construction; 10 CFR Part 50 + 52 (NRC); IAEA Safety Standards Series; ISO 9712 inspector cert; EN ISO 9712 EU acceptance',
+  },
+  '/construction-ndt-services': {
+    operators: 'Tier-1 construction primes (Bechtel, Fluor, Kiewit, McDermott, Skanska, Bouygues, Vinci, Hyundai E&C, Samsung C&T, L&T, Reliance, Larsen & Toubro), structural steel fabricators, ASME Code shops, building owners + EPC firms',
+    assets: 'structural steel weld inspection (AWS D1.1 buildings + D1.5 bridges), high-strength bolt installation (AISC + RCSC), concrete rebar scanning (GPR + EM), concrete strength + cover (impact-echo + ultrasonic pulse velocity), pre-stressed tendon integrity, embedded plates + connections, anchor bolt installation',
+    damage: 'weld defects (porosity, slag, incomplete fusion, undercut, crater crack), bolt installation defects (over-torque + under-torque), concrete cover defects, rebar corrosion (ASTM C876 half-cell), tendon-cable corrosion, expansion-joint failure, fire-damaged concrete (ASTM E119)',
+    codes: 'AWS D1.1 structural steel welding + D1.5 bridge welding + D1.6 SS welding; AISC 360 + 341; AASHTO Standard Specifications for Highway Bridges; ASME PCC-2 repair; ACI 318 concrete; ASTM C876 + ASTM C1383 + ASTM E119; FHWA + State DOT requirements',
+  },
+};
+
 industryServicePages.forEach(p => {
+  const c = VERTICAL_SERVICE_CONTENT[p.path] || {};
+  const operators = c.operators || 'global operators across oil &amp; gas, petrochem, marine, aerospace, power generation, mining, LNG, hydrogen, CCS, and offshore wind';
+  const assets = c.assets || 'pressure vessels, piping systems, storage tanks, offshore structures, rotating equipment, heat exchangers, columns, fired heaters';
+  const damage = c.damage || 'corrosion, fatigue, creep, stress corrosion cracking, hydrogen embrittlement, sulfidation, naphthenic-acid attack, MIC, CUI per API 571';
+  const codes = c.codes || 'ASME B&amp;PV V + VIII + IX + XI; ASME B31 piping series; API 510/570/571/579/580/581/653; NACE MR0175/MR0103; ISO 17635/17636/17640; IACS Rec-20';
+  const richBody = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/verticals">Verticals</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${p.h1} — Atlantis NDT Code-Aligned Vertical Delivery 2026</h1>
+    <p><strong>Atlantis NDT</strong> delivers ${p.h1.toLowerCase()} for ${operators}. ASNT NDT Level III led, multi-scheme cert roster (ASNT + ISO 9712 + API ICP + NACE CIP + CSWIP + PCN + NAS 410 + EN 4179 aerospace), integrated software stack (<a href="/erp">ERP</a> + <a href="/digital-twins">Digital Twin</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">LMS</a> + <a href="/atlantis-academy">Academy</a>). Affordable, accessible, fully customizable. Free 30-minute consultation + tailored quote within 24 hours.</p>
+    <h2>Assets We Inspect</h2>
+    <p>${assets}. Atlantis NDT inspector roster carries ASNT + ISO 9712 dual-scheme certs across UT (incl. PAUT + TOFD + LRUT), RT (incl. DR + CR + real-time radioscopy), MT (wet-fluorescent + dry-visible), PT (Type I/II × Method A/B/C), ET (incl. ECA), VT, AE, IRT, LT. Multi-method ASNT NDT Level III sign-off on every Procedure + final disposition. Plus integration with <a href="/3d-scanning-services">3D Scanning</a> for as-built dimensional control + corrosion mapping.</p>
+    <h2>Damage Mechanisms + API 571 Cross-Reference</h2>
+    <p>Dominant damage mechanisms per API RP 571: ${damage}. Atlantis NDT damage-mechanism mapping per circuit + per asset feeds directly into <a href="/consulting/rbi-program-design">RBI per API 581</a> (likelihood + consequence + inspection-effectiveness factor) and <a href="/consulting/api-579-fitness-for-service-services">FFS per API 579</a> (Level 1/2/3 fitness-for-service with remaining-life calculation + re-inspection interval).</p>
+    <h2>Code + Compliance Framework</h2>
+    <p>${codes}. Audit-defensible records per ISO 9001:2015 + ISO 17020 (inspection body) + ISO 17025 (calibration laboratory) + ISO 17024 (personnel cert body) retained via <a href="/erp">Atlantis NDT ERP</a>. Dual-scheme cert roster — ASNT NDT Level II/III (employer-based per SNT-TC-1A 2024 + CP-189-2020) + ISO 9712 (third-party). Plus customer-specific qualification (Saudi Aramco SAEP, ADNOC Company Standards, Boeing D6-XXXXX, Airbus AITM, etc).</p>
+    <h2>Atlantis NDT Integrated Stack Configuration</h2>
+    <p>Customers get: <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + cert tracking + calibration cert + audit-ready records), <a href="/digital-twins">Digital Twin platform</a> (3D asset model with overlaid damage-mechanism heat-map + RBI tier visualisation + FFS workflow), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture with code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> (continuous inspector cert refresh), <a href="/atlantis-academy">Atlantis NDT Academy</a> (full multi-scheme cert pathway curation), <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (PAUT + RT + UT machine learning with mandatory ASNT NDT Level III approval per ASME PCC-3 + API 581 + IACS Rec-20).</p>
+    <h2>Delivery Model</h2>
+    <p>Three delivery models: (a) On-site mobilisation 24-72h via Houston + Dubai + Mumbai + Singapore + London hubs; (b) Remote procedure authoring + Level III sign-off, 24-hour turnaround; (c) Hybrid — local Level II + Atlantis Level III remote oversight. Free 30-min discovery call scopes asset class + damage mechanisms + code stack + cert scheme + delivery model preference.</p>
+    <h2>Anonymised Customer Outcomes</h2>
+    <p>Anonymised customer outcomes: inspection-planning effort -30-60%, audit findings reduced from typical 3-7 per cycle to 0, FFS turnaround acceleration 2-4 weeks, RBI interval extension 1-3 years on Tier-3 equipment, inspector cert recertification 100% on-time. Anonymised reference call available on request.</p>
+    <h2>Free Consultation + Tailored Quote</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model, team size. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor). Tailored quote within 24 hours. See also <a href="/consulting">consulting services</a>, <a href="/verticals">verticals</a>, <a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 alignment</a>.</p>
+  </main>`;
   routes.push({
     path: p.path,
     title: p.title,
     description: p.description,
     canonical: `${SITE_URL}${p.path}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${p.h1}</h1>\n    <p>${p.description}</p>\n  </main>`,
+    bodyContent: richBody,
   });
 });
 
