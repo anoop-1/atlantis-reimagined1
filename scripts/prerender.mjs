@@ -8559,6 +8559,23 @@ consultingCities.forEach(citySlug => {
     ]
   };
 
+  // Round-3 critical fix: substantive 700-1000 word body replaces 70-word stub
+  const richBody = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/consulting/asnt-level-iii-consulting-services">Level III</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>NDT Consulting in ${cityName} — ASNT Level III + API RBI + FFS + Code Consulting</h1>
+    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III consulting in ${cityName}${diff ? ` across ${diff.industries}` : ' across oil &amp; gas, petrochem, marine, aerospace, and power-gen sectors'}. ${diff ? `Our local team holds ${diff.certs} cert rosters.` : 'Our consultants hold ASNT + ISO 9712 + API ICP dual-scheme cert rosters.'} Engagements span outsourced Level III on retainer, RBI per API 581 + FFS per API 579 + code consulting per ASME + API + ISO + NACE + EN framework, written-practice authoring per SNT-TC-1A + CP-189, procedure development + Level III approval workflow, third-party inspection per ISO 17020, and expert-witness support.</p>
+    <h2>Scope of Atlantis NDT Consulting in ${cityName}</h2>
+    <p>Atlantis NDT consulting in ${cityName} covers: (1) <a href="/consulting/asnt-level-iii-consulting-services">ASNT NDT Level III consulting</a> — outsourced Level III on retainer or per-project, with method-specific (UT, RT, MT, PT, VT, ET, PAUT, TOFD) procedure authoring and final disposition; (2) <a href="/consulting/rbi-program-design">RBI per API 581</a> — risk-based inspection program design, damage-mechanism mapping per API 571, inspection-effectiveness factor calibration; (3) <a href="/consulting/api-579-fitness-for-service-services">FFS per API 579</a> — Level 1 + 2 + 3 fitness-for-service assessments (general metal loss, localised metal loss, pitting, HIC/SOHIC, crack-like flaws, creep, fire damage); (4) Written-practice authoring per SNT-TC-1A 2024 + CP-189-2020 + ISO 9712:2021; (5) Procedure qualification record (PQR) authoring per ASME Section IX + AWS D1.1; (6) ISO 17020 + ISO 17025 + ISO 9001 inspection-body + cal-lab + QMS alignment + audit prep.</p>
+    <h2>Industries Served + Local Context</h2>
+    <p>${diff ? `Atlantis NDT serves ${cityName} customers in ${diff.industries}. ${diff.usp}.` : `Atlantis NDT consultants in ${cityName} serve refining + petrochem + marine + aerospace + power-gen + LNG + mining + hydrogen + CCS operators.`} Local code-stack: ASME B&amp;PV Sections V (NDE) + VIII (pressure vessel) + IX (welding) + XI (in-service nuclear) + B31 piping series; API 510 pressure vessel + API 570 piping + API 571 damage mechanisms + API 579 FFS + API 580/581 RBI + API 653 storage tank; NACE MR0175 + MR0103 sour-service; ISO 9712 + EN ISO 9712 + PCN UK + ACCP US inspector cert; IACS Rec-20 for marine + offshore. Atlantis NDT inspector roster maintains all schemes — global mobility for clients with multi-region asset portfolios.</p>
+    <h2>Atlantis NDT Stack Configuration for ${cityName}</h2>
+    <p>Atlantis NDT delivers an integrated stack to ${cityName} customers: <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + inspection schedule + cert tracking + calibration cert + audit-ready records per ISO 9001 + 17020 + 17025), <a href="/digital-twins">Digital Twin platform</a> (3D asset model with overlaid damage-mechanism heat-map, RBI tier visualisation, FFS workflow visual), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture with code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> (continuous inspector cert refresh per ${cityName}-specific scope), and <a href="/atlantis-academy">Atlantis NDT Academy</a> (96% first-pass training pass rate, free retake-grade backstop). All affordable, accessible, fully customizable.</p>
+    <h2>Delivery Model + Mobilisation in ${cityName}</h2>
+    <p>Atlantis NDT supports three delivery models in ${cityName}: (a) <strong>On-site</strong> mobilisation 24-72h via Houston + Dubai + Mumbai + Singapore + London hubs; (b) <strong>Remote</strong> procedure authoring + Level III sign-off with 24-hour turnaround; (c) <strong>Hybrid</strong> — local Level II + Atlantis Level III remote oversight, the common pattern for multi-region EPC + asset-owner customers. Free 30-min discovery call scopes asset class + damage mechanisms + code stack + cert scheme + delivery model preference. Tailored quote within 24 hours.</p>
+    <h2>Free Consultation + Next Steps in ${cityName}</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model, and team size. Positioning: affordable, accessible, fully customizable. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> — Anoop Rayavarapu (ASNT NDT Level III, multi-method, API 653, ISO 9001 Lead Auditor) calls back within 24 hours. See also <a href="/consulting">Atlantis consulting hub</a>, <a href="/consulting/asnt-level-iii-consulting-services">Level III consulting</a>, <a href="/consulting/rbi-program-design">RBI program design</a>, <a href="/consulting/api-579-fitness-for-service-services">API 579 FFS</a>, <a href="/atlantis-academy">Atlantis Academy</a>, <a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 quality system</a>.</p>
+  </main>`;
+
   routes.push({
     path: `/consulting/ndt-consulting-${citySlug}`,
     title,
@@ -8566,7 +8583,7 @@ consultingCities.forEach(citySlug => {
     canonical,
     hreflangLinks,
     structuredData,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting ${cityName}</h1>\n    <p>ASNT Level III NDT consulting services in ${cityName}${diff ? ` for ${diff.industries}` : ''}. Expert procedure development, program audits, SNT-TC-1A compliance, and written practice development${diff ? `. ${diff.usp}` : ' for oil & gas, petrochemical, and industrial facilities'}.</p>\n    ${diff ? `<p>Our ${cityName} consulting team holds ${diff.certs} qualifications. We provide on-site Level III support, procedure writing, and personnel certification programs tailored to ${cityName}'s ${diff.industries} industry requirements.</p>` : `<p>Our consulting team provides on-site Level III support, procedure writing, and personnel certification programs for industrial facilities in ${cityName}.</p>`}\n  </main>`,
+    bodyContent: richBody,
   });
 });
 
@@ -9163,12 +9180,29 @@ const digitalTwinCities = [
 ];
 
 digitalTwinCities.forEach(({ slug, city, country, assets }) => {
+  // Round-3 critical fix: substantive rich body (was ~70-word stub)
+  const richBody = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/erp">ERP</a><a href="/3d-scanning-services">3D Scanning</a><a href="/contact">Free Demo</a></nav></header>
+  <main>
+    <h1>Digital Twin NDT in ${city} 2026 — 3D Asset Visualisation + RBI + FFS Integration</h1>
+    <p><strong>Atlantis NDT Digital Twin platform</strong> delivers 3D asset visualisation for ${city}, ${country}-based operators. Transforms inspection data from UT + PAUT + TOFD + RT + MT + PT + ET + IRT + LRUT into a live colour-coded 3D model overlaying ${assets}. Real-time corrosion monitoring, API 579 fitness-for-service calculations, automated API 510/570/653 regulatory reporting, RBI per API 581. Integrates with Atlantis NDT ERP + Reporting Software + LMS + Academy. Affordable, accessible, fully customizable.</p>
+    <h2>Atlantis Digital Twin Workflow for ${city} Customers</h2>
+    <p>Workflow: (1) 3D capture via <a href="/3d-scanning-services">Atlantis NDT 3D Scanning</a> (LiDAR + photogrammetry + drone) or import existing BIM/CAD; (2) inspection data ingestion via REST API + webhook from any NDT instrument; (3) damage-mechanism overlay per API 571 (CUI, MIC, sour cracking, sulfidation, HTHA, naphthenic, hydrogen embrittlement, chloride SCC); (4) RBI tier visualisation per API 581 (Tier 1/2/3 colour-coded), FFS workflow per API 579 Part 5 (localised metal loss) + Part 9 (crack-like flaws); (5) audit-ready record retention per ISO 9001 + 17020 + 17025; (6) integrated with <a href="/erp">Atlantis NDT ERP</a> for work-order + cert + calibration tracking.</p>
+    <h2>Code Coverage + Operator Integration in ${city}</h2>
+    <p>Atlantis Digital Twin platform aligns with: ASME B&amp;PV Sections V + VIII + IX + XI; API 510/570/571/579/580/581/653/936/1169; NACE MR0175/MR0103/SP0204/SP0288; ISO 17635/17636/17640; EN 13445/13480; IACS Rec-20 marine. Operator-stack integrations: SAP PM, Oracle eAM, IBM Maximo, ServiceNow, Cognite, AVEVA, Bentley iTwin, PTC ThingWorx. Native connectors for ${country} regulatory frameworks where applicable.</p>
+    <h2>Asset Classes Supported in ${city}</h2>
+    <p>${city} customer asset classes covered: ${assets}. Plus general industrial asset types — pressure vessels (API 510), piping (API 570), above-ground storage tanks (API 653), heat exchangers, columns, fired heaters, FCC + cracker + reactor units, offshore platforms (jacket + topside + FPSO), marine vessels (drydock + IACS class), LNG cryogenic vessels, hydrogen storage, CCS injection wells, mining tailings + open-pit + heap-leach.</p>
+    <h2>Atlantis Stack Integration in ${city}</h2>
+    <p>Atlantis Digital Twin natively integrates with the full Atlantis stack: <a href="/erp">ERP</a> (work order + cert + calibration), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture), <a href="/lms">Atlantis NDT LMS</a> (inspector training), <a href="/atlantis-academy">Atlantis Academy</a> (cert pathway), <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (PAUT + RT + UT defect classification), <a href="/ccs-inspection">CCS inspection</a> (dense-phase CO2 pipeline + injection well + storage cavern). All affordable, accessible, fully customizable.</p>
+    <h2>Free Demo + Tailored Quote in ${city}</h2>
+    <p>Free 30-minute Digital Twin demo with your actual asset class + workflow + integration stack walked through. ASNT NDT Level III + Atlantis founder Anoop Rayavarapu co-presenter. Pricing varies by region, scope, asset count, integration depth — request tailored quote within 24 hours. <a href="/contact">Schedule your free demo</a>. Affordable, accessible, fully customizable.</p>
+  </main>`;
+
   routes.push({
     path: `/digital-twin-${slug}`,
     title: `Digital Twin NDT ${city} | 3D Inspection Visualization | Atlantis NDT`,
     description: `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets}. API 510/570/653 compliant reporting, corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`,
     canonical: `${SITE_URL}/digital-twin-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/digital-twins">Digital Twins</a><a href="/digital-twin-reporting">Reporting Platform</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>Digital Twin Solutions ${city} | 3D Asset Inspection Visualisation</h1>\n    <p>Atlantis NDT delivers digital twin inspection solutions in ${city}, ${country}. Our platform transforms NDT data from ultrasonic testing, TOFD, and phased array into a live colour-coded 3D model of your assets — including ${assets}. Real-time corrosion monitoring, API 579 fitness-for-service calculations, and automated API 510/570/653 regulatory reporting. Book a demonstration today.</p>\n  </main>`,
+    bodyContent: richBody,
   });
 });
 
@@ -9577,12 +9611,29 @@ const trainingCityPages = [
 ];
 
 trainingCityPages.forEach(({ slug, city, region, detail }) => {
+  // Round-3 critical fix: rich body content (was 46-word stub)
+  const richBody = `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/atlantis-academy">Academy</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>NDT Training in ${city} 2026 — ASNT Level I/II/III, ISO 9712, API ICP, CSWIP</h1>
+    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III-led training in ${city}, ${region}. ${detail} ASNT NDT Level I + II + III + ISO 9712:2021 + EN ISO 9712 + API ICP (510 / 570 / 580 / 653 / 936 / 1169) + AWS CWI/SCWI + NACE CIP 1/2/3 + CSWIP 3.1/3.2 + PCN UK + ACCP US + NAS 410 + EN 4179 aerospace pathways. 96% first-attempt training pass rate across cohorts since 2019. Free retake-grade backstop on every paid course.</p>
+    <h2>Methods + Level Pathway Covered in ${city}</h2>
+    <p>Atlantis NDT ${city} cohorts cover all major NDT methods: ultrasonic testing (UT, including PAUT + TOFD + LRUT guided wave + immersion C-scan), radiographic testing (RT, including DR + CR + real-time radioscopy per ASME V Articles 22 + 27), magnetic particle testing (MT, including wet-fluorescent + dry-visible per ASTM E1444 + ISO 9934), liquid penetrant testing (PT per ASTM E1417 + ISO 3452), eddy current testing (ET, including ECA per ASME V Article 26), visual testing (VT), acoustic emission (AE), infrared thermography (IRT), leak testing (LT). Level I (40-80h classroom + 3-6 months OJE per method), Level II (3-12 months L1 experience + method-specific exam), Level III (18-36 months L2 experience + multi-method basic exam + procedure development demonstration).</p>
+    <h2>Code Coverage + Inspector Cert Schemes</h2>
+    <p>Atlantis NDT curriculum cross-references every dominant code stack: ASME B&amp;PV Sections V (NDE) + VIII Div 1+2 (pressure vessels) + IX (welding) + XI (in-service nuclear), B31.1/3/4/8/12 piping series, API 510/570/571/579/580/581/653/936/1169, ASTM E114/E164/E317/E747/E1025/E1417/E1444/E2491/E2700/E2373, ISO 17635/17636/17640/17643/17638, EN 13445/13480 + EN 1330 NDT terminology, NACE MR0175/MR0103/SP0204/SP0288, AMPP CIP framework, IACS Rec-20 marine NDE. Inspectors graduate fluent in code interchange — critical for global EPC + multi-region operator delivery.</p>
+    <h2>Atlantis Academy + LMS Integration</h2>
+    <p>Atlantis ${city} cohorts integrate with <a href="/atlantis-academy">Atlantis NDT Academy</a> (full multi-scheme pathway curation) + <a href="/lms">Atlantis NDT LMS</a> (ongoing cohort tracking + recertification reminders + multi-site rollout for enterprise customers). ASNT NDT Level III instructors — active practitioners, not retired instructors with outdated procedure. Online + on-site + hybrid delivery models. Per-method Written Practice template included in every Level III course.</p>
+    <h2>Why Atlantis NDT vs Self-Study or Vendor Bootcamps in ${city}</h2>
+    <p>Differentiators: (a) ASNT NDT Level III instructors with active inspection practice; (b) Free retake-grade backstop — fail the cert exam, retake at no charge until pass; (c) Procedure pack + Written Practice template included in every Level III course; (d) 96% first-attempt pass rate verified across cohorts since 2019; (e) Multi-method pathway pricing model (qualitative — affordable, fully customizable) avoids the typical 4× cost of stacking separate vendor bootcamps. Integration with <a href="/erp">Atlantis NDT ERP</a> for employer-side cert tracking + audit-ready records per ISO 9712 + ISO 17024.</p>
+    <h2>Free Consultation + Custom Cert Roadmap in ${city}</h2>
+    <p>Every prospective ${city} cohort gets a free 30-minute consultation with Atlantis NDT founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor): current cert state assessment, recertification cycle audit, gap analysis vs target scheme (ASNT vs ISO 9712 vs PCN vs ACCP vs NAS 410/EN 4179), tailored cert roadmap (typically 6-24 months for Level II → III progression). Affordable, accessible, fully customizable. <a href="/contact">Book your free consultation</a>. See also <a href="/asnt-certification">ASNT cert</a>, <a href="/api-510-certification">API 510</a>, <a href="/api-570-certification">API 570</a>, <a href="/api-653-certification">API 653</a>.</p>
+  </main>`;
+
   routes.push({
     path: `/ndt-training-${slug}`,
     title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
     description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} consistently high exam pass rates. Enrol today.`,
     canonical: `${SITE_URL}/ndt-training-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}. ${detail} Level I, II, and III certification for all major NDT methods with consistently high exam pass rates.</p>\n  </main>`,
+    bodyContent: richBody,
   });
 });
 
@@ -10182,7 +10233,19 @@ globalTrainingCities.forEach(({ slug, city, region, detail }) => {
       "locationCreated": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": city } },
       "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "onsite", "courseWorkload": "PT40H" }
     },
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Training in ${city}</h1>\n    <p>Professional ASNT-aligned NDT training in ${city}, ${region}. ${detail} Level I, II, and III certification for all major NDT methods with consistently high exam pass rates.</p>\n  </main>`,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/atlantis-academy">Academy</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>NDT Training in ${city} 2026 — ASNT Level I/II/III, ISO 9712, API ICP, CSWIP</h1>
+    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III-led training in ${city}, ${region}. ${detail} Curriculum covers ASNT NDT Level I + II + III + ISO 9712 + EN ISO 9712 + API ICP (510/570/580/653/936/1169) + AWS CWI + NACE CIP + CSWIP 3.1/3.2 + PCN UK + ACCP US + NAS 410/EN 4179 aerospace pathways. 96% first-attempt pass rate. Free retake-grade backstop.</p>
+    <h2>Methods + Cert Schemes Available in ${city}</h2>
+    <p>All major methods — UT (incl. PAUT + TOFD + LRUT), RT (incl. DR/CR/real-time), MT (wet-fluorescent + dry-visible), PT (Type I/II × Method A/B/C), ET (incl. ECA), VT, AE, IRT, LT. Dual-scheme cert rosters: ASNT (SNT-TC-1A 2024 + CP-189 + ACCP) + ISO 9712:2021 (third-party). PCN UK + NAS 410 aerospace + EN 4179 European aerospace + CSWIP 3.1/3.2 welding inspector all available on request.</p>
+    <h2>Code Coverage in ${city} Cohorts</h2>
+    <p>Cross-references every dominant code: ASME B&amp;PV V + VIII + IX + XI, ASME B31.1/3/4/8/12, API 510/570/571/579/580/581/653/936/1169, ASTM E-series, ISO 17635/17636/17640/17643/17638, EN 13445/13480 + EN 1330, NACE MR0175/MR0103, AMPP CIP, IACS Rec-20.</p>
+    <h2>Atlantis Academy + LMS in ${city}</h2>
+    <p>${city} cohorts integrate with <a href="/atlantis-academy">Atlantis NDT Academy</a> for the full multi-scheme career path and <a href="/lms">Atlantis NDT LMS</a> for ongoing cert refresh + multi-site rollout. ASNT NDT Level III instructors deliver onsite + remote + hybrid models.</p>
+    <h2>Free Consultation + Custom Cert Roadmap</h2>
+    <p>Free 30-min consultation with Atlantis founder Anoop Rayavarapu (ASNT NDT Level III, multi-method, API 653, ISO 9001 Lead Auditor) scopes your ${city} cohort + recertification calendar + gap analysis vs target scheme. Affordable, accessible, fully customizable. <a href="/contact">Book your consultation</a>.</p>
+  </main>`,
   });
   programmaticCount++;
 });
