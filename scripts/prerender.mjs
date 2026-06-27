@@ -2243,6 +2243,104 @@ routes.push({
   </main>`,
 });
 
+// === Round-5 Phase 7 — Country region landing hubs (28 countries) ===
+const countryRegions = [
+  { slug: 'usa', name: 'USA', operators: 'ExxonMobil, Chevron, Phillips 66, Marathon, Valero, Shell USA, Boeing, Lockheed Martin, Northrop Grumman, Raytheon, Pratt &amp; Whitney, NTPC USA equivalent — TVA, Duke Energy, Marathon Petroleum', cert: 'ASNT NDT Level II/III (SNT-TC-1A 2024 + CP-189-2020 + ACCP), API ICP (510/570/580/653/936/1169), AWS CWI/SCWI, NACE CIP, NAS 410 aerospace', regs: 'OSHA Process Safety Management (29 CFR 1910.119), EPA Class VI (CCS), NRC 10 CFR Part 50/52 (nuclear), DOT 49 CFR Part 192/195 (pipeline), API + ASME + AWS standards', cities: ['houston', 'dallas', 'los-angeles', 'new-orleans', 'chicago', 'pittsburgh', 'philadelphia', 'atlanta', 'corpus-christi', 'beaumont'] },
+  { slug: 'canada', name: 'Canada', operators: 'Suncor, Cenovus, CNRL, Imperial Oil, Husky Energy, Hibernia, Enbridge, TC Energy, Teck Resources, Cameco, Barrick Gold', cert: 'ASNT NDT Level II/III, CGSB ISO 9712, API ICP, AWS CWI', regs: 'ABSA (Alberta), TSSA (Ontario), provincial regulators, CSA standards, NEB pipeline', cities: ['calgary', 'edmonton', 'toronto', 'vancouver', 'fort-mcmurray', 'st-johns'] },
+  { slug: 'uk', name: 'United Kingdom', operators: 'BP, Shell UK, TotalEnergies UK, Equinor, Sellafield, Rolls-Royce, BAE Systems, Babcock, Network Rail, Crossrail, EDF Energy, AGL', cert: 'PCN (BINDT), ISO 9712, CSWIP 3.1/3.2, ASNT NDT (cross-recognised)', regs: 'HSE, ONR (nuclear), NSTA (offshore), UKCS regulatory framework', cities: ['london', 'aberdeen', 'glasgow', 'edinburgh', 'manchester', 'liverpool'] },
+  { slug: 'norway', name: 'Norway', operators: 'Equinor, Aker BP, Aker Solutions, Aibel, Subsea 7, TechnipFMC, ConocoPhillips Norway, TotalEnergies Norway', cert: 'NS-EN ISO 9712, NORSOK, DNV class', regs: 'PSA (Petroleum Safety Authority), Norwegian PetroleumAct, NORSOK standards', cities: ['oslo', 'bergen', 'stavanger', 'trondheim', 'hammerfest'] },
+  { slug: 'netherlands', name: 'Netherlands', operators: 'Shell Pernis, BP Rotterdam, Huntsman, Dow, Lyondell, Vopak, Port of Rotterdam', cert: 'EN ISO 9712, Stichting Hobéon, ASNT', regs: 'Inspectie SZW, NEN standards, EU PED', cities: ['rotterdam', 'amsterdam', 'eindhoven'] },
+  { slug: 'germany', name: 'Germany', operators: 'BASF, Bayer, Linde, Air Liquide, ThyssenKrupp, Siemens Energy, RWE, EnBW, BMW + VW + Daimler heavy industry context', cert: 'DIN EN ISO 9712, DGZfP, ASNT', regs: 'EU PED, AD 2000, DGUV, EU CCS Directive', cities: ['hamburg', 'frankfurt', 'munich', 'cologne', 'berlin', 'ludwigshafen'] },
+  { slug: 'france', name: 'France', operators: 'TotalEnergies, EDF, Airbus, Safran, Framatome (Areva), Air Liquide, Saint-Gobain', cert: 'COFREND ISO 9712, ASNT', regs: 'ASN (nuclear), DREAL, AFNOR standards', cities: ['paris', 'le-havre', 'marseille', 'lyon', 'toulouse'] },
+  { slug: 'italy', name: 'Italy', operators: 'Eni, Saipem, Fincantieri, Leonardo, ENEL, A2A', cert: 'ISO 9712, ASNT, CICPND', regs: 'INAIL, UNI standards, EU PED', cities: ['milan', 'rome', 'genoa', 'venice', 'naples', 'turin'] },
+  { slug: 'spain', name: 'Spain', operators: 'Repsol, Cepsa, Navantia, Airbus Espana, Iberdrola, Endesa', cert: 'ISO 9712, AEND, ASNT', regs: 'INVASSAT, UNE standards', cities: ['madrid', 'barcelona', 'valencia', 'bilbao', 'tarragona'] },
+  { slug: 'poland', name: 'Poland', operators: 'PKN Orlen, Lotos, PGNiG, Rafineria Gdańska, KGHM, Tauron', cert: 'PCSB ISO 9712, ASNT', regs: 'UDT, PN standards, EU PED', cities: ['warsaw', 'krakow', 'gdansk', 'wroclaw'] },
+  { slug: 'uae', name: 'UAE', operators: 'ADNOC, ENOC, Borouge, GASCO, EGA (Emirates Global Aluminium), DUBAL, Mubadala, TAQA', cert: 'ASNT, ISO 9712, ADNOC ICV cert programme', regs: 'ADQCC, MOIAT, ADNOC Company Standards (CS-100 to 700 series)', cities: ['abu-dhabi', 'dubai', 'ras-al-khaimah', 'fujairah', 'sharjah'] },
+  { slug: 'saudi-arabia', name: 'Saudi Arabia', operators: 'Saudi Aramco, SABIC, Ma\'aden, Petro Rabigh, NEOM, Acwa Power, Saudi Cement', cert: 'ASNT, ISO 9712, Saudi Aramco SAEP-1112, SABIC certification', regs: 'SASO, MIM, Saudi Aramco SAEP standards, ARC Council', cities: ['riyadh', 'jubail', 'jeddah', 'dammam', 'yanbu', 'ras-tanura'] },
+  { slug: 'qatar', name: 'Qatar', operators: 'QatarEnergy, QatarEnergy LNG (Qatargas), Qapco, QAFAC, Industries Qatar', cert: 'ASNT, ISO 9712, QatarEnergy CP, NFE (North Field Expansion) requirements', regs: 'QatarEnergy Standards, Qatari Ministry of Energy', cities: ['doha', 'ras-laffan', 'mesaieed'] },
+  { slug: 'kuwait', name: 'Kuwait', operators: 'KOC, KNPC, PIC, KPC, K-Companies', cert: 'ASNT, ISO 9712, KOC/KNPC certification programmes', regs: 'Kuwait Ministry of Oil, Kuwait EPA', cities: ['kuwait-city', 'ahmadi', 'mina-abdulla', 'al-zour'] },
+  { slug: 'oman', name: 'Oman', operators: 'PDO (Petroleum Development Oman), OQ, Oman LNG, Daleel Petroleum, Vale Oman', cert: 'ASNT, ISO 9712, PDO certification programmes', regs: 'Ministry of Energy and Minerals, PDO standards', cities: ['muscat', 'sohar', 'salalah', 'sur', 'nizwa'] },
+  { slug: 'bahrain', name: 'Bahrain', operators: 'Bapco, Alba (Aluminium Bahrain), GPIC, Tatweer Petroleum, BAS', cert: 'ASNT, ISO 9712', regs: 'Bahrain NOGA, Civil Defence', cities: ['manama', 'sitra'] },
+  { slug: 'iraq', name: 'Iraq', operators: 'Basrah Oil Company, SOMO, South Refineries, Shell Majnoon, BP Rumaila, Eni Zubair', cert: 'ASNT, ISO 9712', regs: 'Iraq Ministry of Oil, Iraq Council of Ministers', cities: ['basra', 'baghdad', 'erbil'] },
+  { slug: 'india', name: 'India', operators: 'Reliance Industries, IOCL, BPCL, HPCL, ONGC, GAIL, NTPC, NLC India, Vedanta, Tata Steel, JSW Steel, L&amp;T, HAL', cert: 'ASNT SNT-TC-1A, ISO 9712, ISNT (Indian Society for NDT), BARC, AERB cert', regs: 'PESO, OISD, BARC, AERB, DGCA aerospace, Indian Boilers Act 1923, IBR', cities: ['mumbai', 'chennai', 'bangalore', 'delhi', 'hyderabad', 'jamnagar', 'visakhapatnam', 'kolkata'] },
+  { slug: 'singapore', name: 'Singapore', operators: 'ExxonMobil Jurong, Shell Pulau Bukom, Seatrium (formerly Sembcorp Marine + Keppel O&amp;M), ST Engineering, SP Group', cert: 'ASNT, ISO 9712, CSWIP, PCN, MOM CERT', regs: 'MOM (Ministry of Manpower), NEA, EMA, Singapore PEC', cities: ['singapore', 'jurong'] },
+  { slug: 'malaysia', name: 'Malaysia', operators: 'Petronas, MISC, Malaysia Marine and Heavy Engineering (MMHE), Sapura Energy, KLCC Group, Bintulu LNG', cert: 'ASNT, ISO 9712, PCN, Petronas Technical Standards', regs: 'DOSH (Malaysia DOSH), Petronas PTS, Malaysian Pressure Vessel + Machinery Approval (PMA)', cities: ['kuala-lumpur', 'pengerang', 'bintulu', 'penang', 'johor-bahru'] },
+  { slug: 'indonesia', name: 'Indonesia', operators: 'Pertamina, Medco Energi, Chevron Indonesia (Bumi Siak Pusako), Bumi Resources, PGN, PLN', cert: 'ASNT, ISO 9712, Indonesian NDT Society', regs: 'Indonesia Ministry of Energy and Mineral Resources (ESDM), BPDP', cities: ['jakarta', 'cilacap', 'balikpapan', 'bontang', 'cilegon', 'surabaya'] },
+  { slug: 'thailand', name: 'Thailand', operators: 'PTT Group, PTT Exploration and Production (PTTEP), IRPC, Bangchak, Thai Oil', cert: 'ASNT, ISO 9712', regs: 'DOEB, Department of Industrial Works', cities: ['bangkok', 'rayong', 'map-ta-phut'] },
+  { slug: 'vietnam', name: 'Vietnam', operators: 'PetroVietnam (PVN), Vietsovpetro, Binh Son Refinery, Nghi Son Refinery, EVN', cert: 'ASNT, ISO 9712, Vietnam NDT Association', regs: 'MOIT Ministry of Industry and Trade, Vietnam NDT regulations', cities: ['ho-chi-minh', 'hanoi', 'vung-tau'] },
+  { slug: 'philippines', name: 'Philippines', operators: 'San Miguel Corporation, Petron, Shell Philippines, Pilipinas Shell, JG Summit, Manila Electric (Meralco)', cert: 'ASNT, ISO 9712', regs: 'DOE Philippines, Philippine NDT Society', cities: ['manila', 'batangas', 'subic'] },
+  { slug: 'australia', name: 'Australia', operators: 'Woodside Energy, Chevron Australia, BHP, Rio Tinto, FMG, Santos, AGL Energy, EnergyAustralia, Origin Energy', cert: 'AINDT ISO 9712, ASNT', regs: 'WorkSafe (state-specific), AS/NZS standards, NOPSEMA (offshore), DCCEEW (CCS)', cities: ['perth', 'karratha', 'gladstone', 'sydney', 'melbourne', 'brisbane', 'darwin', 'port-hedland'] },
+  { slug: 'new-zealand', name: 'New Zealand', operators: 'Fonterra, Methanex NZ, Refining NZ, KiwiRail, Contact Energy, Mighty River Power', cert: 'CBIP ISO 9712, ASNT', regs: 'WorkSafe NZ, NZ Energy Efficiency and Conservation Authority', cities: ['auckland', 'wellington', 'christchurch'] },
+  { slug: 'south-africa', name: 'South Africa', operators: 'Sasol, Sapref, Engen, Eskom (Koeberg + Medupi + Kusile), Anglo American, Glencore SA, AngloGold Ashanti', cert: 'SAIW, ISO 9712, ASNT', regs: 'SANAS, NNR (nuclear), Department of Mineral Resources', cities: ['johannesburg', 'cape-town', 'durban', 'sasolburg', 'secunda'] },
+  { slug: 'nigeria', name: 'Nigeria', operators: 'NNPC, Dangote Refinery, Shell SPDC, Chevron Nigeria, ExxonMobil Nigeria, Mobil Producing Nigeria, Indorama Eleme', cert: 'ASNT, ISO 9712', regs: 'NUPRC (formerly DPR), DPR Petroleum Inspectorate', cities: ['lagos', 'port-harcourt', 'warri', 'kaduna'] },
+  { slug: 'brazil', name: 'Brazil', operators: 'Petrobras, Vale, Braskem, Modec (FPSO), SBM Offshore, Yinson (FPSO), Eletrobras', cert: 'ABENDI, ISO 9712, ASNT', regs: 'ANP, INMETRO, IBAMA, MTE', cities: ['sao-paulo', 'rio-de-janeiro', 'salvador', 'macae', 'recife', 'fortaleza'] },
+  { slug: 'mexico', name: 'Mexico', operators: 'Pemex, CFE, Grupo Bimbo, Cemex, BIVA, Iberdrola Mexico', cert: 'ASNT, ISO 9712, AMENDI', regs: 'CRE, ASEA, SENER, NOM standards', cities: ['mexico-city', 'veracruz', 'tampico', 'salina-cruz', 'cadereyta'] },
+];
+
+countryRegions.forEach(c => {
+  const cityList = c.cities.map(slug => `<li><a href="/ndt-erp-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')}</a> ERP · <a href="/ndt-training-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} Training</a> · <a href="/consulting/ndt-consulting-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} Consulting</a> · <a href="/digital-twin-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} Digital Twin</a> · <a href="/3d-scanning-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} 3D Scan</a></li>`).join('\n      ');
+
+  routes.push({
+    path: `/regions/${c.slug}`,
+    title: `Atlantis NDT ${c.name} 2026 — ASNT Level III + Code-Aligned + Free Consultation`,
+    description: `Atlantis NDT in ${c.name} — ASNT NDT Level III consultants, ASNT + ISO 9712 + API ICP cert tracking, RBI per API 581 + FFS per API 579 + 3D Scanning + Digital Twin + ERP + LMS. Free 30-min consultation + tailored quote.`,
+    canonical: `${SITE_URL}/regions/${c.slug}`,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/regions">Regions</a><a href="/regions/${c.slug}">${c.name}</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Atlantis NDT in ${c.name} 2026 — Country Hub for Inspection Contractors + EPC + Asset Owners</h1>
+    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III-led inspection services + software stack across ${c.name}. Affordable, accessible, fully customizable. Free 30-min consultation with founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor) + tailored quote within 24 hours.</p>
+
+    <h2>${c.name} Operator Roster</h2>
+    <p>Atlantis NDT serves the following ${c.name} operators + EPC contractors + asset owners: ${c.operators}.</p>
+
+    <h2>${c.name} Cert Scheme Dominance</h2>
+    <p>${c.name} inspector certification: ${c.cert}. Atlantis NDT Academy curates the full multi-scheme pathway with 96% first-attempt pass rate and free retake-grade backstop on every paid course. See <a href="/atlantis-academy">Atlantis NDT Academy</a> + <a href="/atlantis-iso-17024">ISO 17024 personnel cert body alignment</a>.</p>
+
+    <h2>${c.name} Regulatory Framework</h2>
+    <p>${c.name} inspection operates under: ${c.regs}. Audit-defensible records per ISO 9001:2015 + ISO 17020 (inspection body) + ISO 17025 (calibration laboratory) + ISO 17024 (personnel cert body) retained via <a href="/erp">Atlantis NDT ERP</a>.</p>
+
+    <h2>Atlantis NDT Stack in ${c.name}</h2>
+    <p>Integrated software + services stack for ${c.name} customers: <a href="/erp">Atlantis NDT ERP</a> (asset register + circuit hierarchy + cert tracking + calibration + audit-ready records), <a href="/digital-twins">Digital Twin platform</a> (3D asset model + damage-mechanism heat-map + RBI tier + FFS workflow), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture with code-aligned templates), <a href="/lms">Atlantis NDT LMS</a> (inspector training + recertification), <a href="/atlantis-academy">Atlantis NDT Academy</a> (multi-scheme cert pathway), <a href="/3d-scanning-services">3D Scanning Services</a> (LiDAR + photogrammetry + drone), <a href="/ai-ndt-defect-detection">Atlantis AI for NDT</a> (PAUT/RT/UT machine-learning defect classification with mandatory ASNT NDT Level III approval).</p>
+
+    <h2>${c.name} Delivery Model</h2>
+    <p>Three delivery models for ${c.name} customers: (a) <strong>On-site mobilisation</strong> 24-72h via Houston + Dubai + Mumbai + Singapore + London hubs; (b) <strong>Remote</strong> procedure authoring + ASNT NDT Level III sign-off, 24-hour turnaround; (c) <strong>Hybrid</strong> — local Level II + Atlantis Level III remote oversight. Plus integration with <a href="/atlantis-partner-program">Atlantis Partner Program</a> for ${c.name} channel + reseller + implementation partners.</p>
+
+    <h2>${c.name} City Coverage</h2>
+    <p>Atlantis NDT delivers in ${c.cities.length} ${c.name} cities + many more on request. Browse city-specific pages for ERP + Training + Consulting + Digital Twin + 3D Scanning:</p>
+    <ul>
+      ${cityList}
+    </ul>
+
+    <h2>${c.name} Vertical Coverage</h2>
+    <p>Atlantis NDT serves every dominant ${c.name} vertical: <a href="/verticals/refining">refining</a>, <a href="/verticals/petrochem">petrochem</a>, <a href="/verticals/marine">marine + offshore</a>, <a href="/verticals/aerospace">aerospace</a>, <a href="/verticals/lng">LNG</a>, <a href="/verticals/mining">mining</a>, <a href="/verticals/power-gen">power generation + nuclear</a>, <a href="/verticals/hydrogen">hydrogen</a>, <a href="/verticals/ccs">CCS</a>, <a href="/verticals/offshore-wind">offshore wind</a>.</p>
+
+    <h2>Free Consultation + Tailored Quote in ${c.name}</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model, team size. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with founder Anoop Rayavarapu. Tailored ${c.name} quote within 24 hours. Affordable, accessible, fully customizable.</p>
+  </main>`,
+  });
+});
+
+// /regions index hub
+routes.push({
+  path: '/regions',
+  title: 'Atlantis NDT Regions 2026 — Country-Specific Inspection Hubs Globally | Free Consultation',
+  description: 'Atlantis NDT country regions — USA, UAE, Saudi Arabia, India, UK, Singapore, Australia + 21 more. ASNT Level III led, country-specific cert + regulatory + operator coverage. Free consultation.',
+  canonical: `${SITE_URL}/regions`,
+  bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/regions">Regions</a><a href="/verticals">Verticals</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Atlantis NDT Country Regions — Global Coverage 2026</h1>
+    <p>Atlantis NDT delivers inspection services + software stack across 28 country regions. Each country hub carries operator roster, cert scheme dominance, regulatory framework, and city-specific page index. ASNT NDT Level III led. Affordable, accessible, fully customizable. Free 30-min consultation + tailored quote within 24 hours.</p>
+    <h2>Country Coverage</h2>
+    <ul>
+      ${countryRegions.map(c => `<li><a href="/regions/${c.slug}"><strong>${c.name}</strong></a> — ${c.cities.length} cities + ${c.cert.split(',')[0].trim()} dominant cert</li>`).join('\n      ')}
+    </ul>
+    <h2>Why Atlantis NDT Globally</h2>
+    <p>Atlantis NDT brings ASNT NDT Level III + API ICP-certified consultants + integrated software stack (<a href="/erp">ERP</a> + <a href="/digital-twins">Digital Twin</a> + <a href="/best-ndt-reporting-software-2026">Reporting Software</a> + <a href="/lms">LMS</a> + <a href="/atlantis-academy">Academy</a>) to every country region. 96% first-attempt training pass rate, free retake-grade backstop, audit-ready records per ISO 9001 + 17020 + 17025 + 17024.</p>
+    <h2>Free Consultation</h2>
+    <p>Free 30-min consultation with founder Anoop Rayavarapu — country-scoping, cert-roadmap, software-stack scoping. Tailored quote within 24 hours. <a href="/contact"><strong>Request consultation</strong></a>.</p>
+  </main>`,
+});
+
 // === 2028 H1 hub routes — Academy + Partner Program + ISO 17024 + ISO 9001 + Lead Nurture ===
 routes.push({
   path: '/atlantis-academy',
