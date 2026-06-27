@@ -1653,6 +1653,437 @@ const comparisonPagesRaw = readFileSync(join(ROOT, 'src/data/comparison-pages.js
 const comparisonPages = JSON.parse(comparisonPagesRaw);
 blogs.push(...comparisonPages);
 
+
+// === Round-5 CTR cascade — top opportunity pages ===
+// 106 top-opportunity pages identified by Phase 1 GSC audit.
+// Title formula: {Primary KW} {City/Year} — {Proof} + {Code} | Free {CTA}
+Object.assign(CTR_OVERRIDES, {
+  '/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained': {
+    title: 'ASME Section V Article 6 Liquid Penetrant PT Requirements 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'ASME Section V Article 6 Liquid Penetrant PT Requirements — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/api-icp-pass-rates-510-vs-570-vs-653-2026': {
+    title: 'API Icp Pass Rates 510 vs 570 vs 653 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'API Icp Pass Rates 510 vs 570 vs 653 — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/cwi-exam-cost-2026-total-investment-calculator': {
+    title: 'CWI Exam Cost 2026 Total Investment Calculator 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'CWI Exam Cost 2026 Total Investment Calculator — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/api-653-current-edition-2026-vs-bok-window-explained': {
+    title: 'API 653 Current Edition 2026 vs Bok Window 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'API 653 Current Edition 2026 vs Bok Window — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/compression-wave-vs-shear-wave-technical-differences': {
+    title: 'Compression Wave vs Shear Wave Technical Differences 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Compression Wave vs Shear Wave Technical Differences — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-oman': {
+    title: '3D Scanning Oman 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Oman. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/compare/vs-meridium': {
+    title: 'vs Meridium 2026 — Decision Matrix + ROI + Free Demo | Atlantis NDT',
+    description: 'Atlantis NDT vs Meridium — 8-dimension decision matrix, code coverage, ROI comparison, anonymised customer outcomes. Free 30-min demo.'
+  },
+  '/ndt-training-saudi-arabia': {
+    title: 'NDT Training Saudi Arabia 2026 — 96% Pass, ASNT Level III-Led + Free Retake | Monthly Batches',
+    description: 'Atlantis NDT training in Saudi Arabia — 96% first-attempt pass rate, ASNT Level III instructors, free retake-grade backstop. ASNT + ISO 9712 + API + AWS CWI + NACE CIP pathway. Monthly cohorts.'
+  },
+  '/blog/conventional-ut-vs-phased-array-which-method-to-choose': {
+    title: 'Conventional UT vs Phased Array Which Method to Choose 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Conventional UT vs Phased Array Which Method to Choose — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/consulting/ndt-consulting-abu-dhabi': {
+    title: 'NDT Consulting Abu Dhabi 2026 — ASNT Level III + API 581 RBI + 579 FFS | Free Consultation',
+    description: 'Atlantis NDT consulting in Abu Dhabi — ASNT NDT Level III + API ICP certified. RBI per API 581, FFS per API 579, written-practice authoring, code consulting. Free 30-min consultation.'
+  },
+  '/ndt-training-hyderabad': {
+    title: 'NDT Training Hyderabad 2026 — 96% Pass, ASNT Level III-Led + Free Retake | Monthly Batches',
+    description: 'Atlantis NDT training in Hyderabad — 96% first-attempt pass rate, ASNT Level III instructors, free retake-grade backstop. ASNT + ISO 9712 + API + AWS CWI + NACE CIP pathway. Monthly cohorts.'
+  },
+  '/blog/ultrasonic-testing-ultimate-guide': {
+    title: 'Ultrasonic Testing Ultimate 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Ultrasonic Testing Ultimate — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/iso-9712-certification-process-step-by-step-guide': {
+    title: 'ISO 9712 Certification Process Step By Step 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'ISO 9712 Certification Process Step By Step — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/wind-turbine-blade-inspection-and-monitoring': {
+    title: 'Wind Turbine Blade Inspection and Monitoring 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Wind Turbine Blade Inspection and Monitoring — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/ship-hull-and-propulsion-system-inspection': {
+    title: 'Ship Hull and Propulsion System Inspection 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Ship Hull and Propulsion System Inspection — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/ultrasonic-testing-singapore': {
+    title: 'Ultrasonic testing Singapore 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Ultrasonic testing services in Singapore — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/ndt-for-oil-gas': {
+    title: 'NDT for Oil Gas 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT NDT for Oil Gas services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/magnetic-flux-leakage-testing': {
+    title: 'Magnetic Flux Leakage Testing 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Magnetic Flux Leakage Testing services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/consulting/ndt-consulting-corpus-christi': {
+    title: 'NDT Consulting Corpus Christi 2026 — ASNT Level III + API 581 RBI + 579 FFS | Free Consultation',
+    description: 'Atlantis NDT consulting in Corpus Christi — ASNT NDT Level III + API ICP certified. RBI per API 581, FFS per API 579, written-practice authoring, code consulting. Free 30-min consultation.'
+  },
+  '/ndt-connect/': {
+    title: 'NDT Connect 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT NDT Connect services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/3d-scanning-abu-dhabi': {
+    title: '3D Scanning Abu Dhabi 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Abu Dhabi. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/ndt-reporting-software-comparison': {
+    title: 'NDT Reporting Software Comparison 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT NDT Reporting Software Comparison services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/blog/weld-inspection-ndt-methods-guide': {
+    title: 'Weld Inspection NDT Methods 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Weld Inspection NDT Methods — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/eddy-current-testing-dubai': {
+    title: 'Eddy Current testing Dubai 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Eddy Current testing services in Dubai — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/eddy-current-testing-complete-beginner-guide': {
+    title: 'Eddy Current Testing Complete Beginner 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Eddy Current Testing Complete Beginner — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/defect-sizing-techniques-in-ultrasonic-inspection': {
+    title: 'Defect Sizing Techniques in Ultrasonic Inspection 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Defect Sizing Techniques in Ultrasonic Inspection — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-louisville': {
+    title: '3D Scanning Louisville 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Louisville. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/3d-scanning-services': {
+    title: '3d Scanning Services 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT 3d Scanning Services services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/ultrasonic-testing-chicago': {
+    title: 'Ultrasonic testing Chicago 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Ultrasonic testing services in Chicago — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/ndt-inspector-continuing-education-requirements/': {
+    title: 'NDT Inspector Continuing Education Requirements 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'NDT Inspector Continuing Education Requirements — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/asnt-snt-tc-1a-vs-iso-9712-which-certification-wins-2026': {
+    title: 'ASNT SNT TC 1a vs ISO 9712 Which Certification Wins 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'ASNT SNT TC 1a vs ISO 9712 Which Certification Wins — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/ped-directive-for-european-pressure-equipment': {
+    title: 'Ped Directive for European Pressure Equipment 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Ped Directive for European Pressure Equipment — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/penetrant-testing-los-angeles': {
+    title: 'Penetrant testing Los Angeles 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Penetrant testing services in Los Angeles — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/ultrasonic-testing-netherlands': {
+    title: 'Ultrasonic testing Netherlands 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Ultrasonic testing services in Netherlands — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/3d-scanning-toronto': {
+    title: '3D Scanning Toronto 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Toronto. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/consulting/ndt-consulting-calgary': {
+    title: 'NDT Consulting Calgary 2026 — ASNT Level III + API 581 RBI + 579 FFS | Free Consultation',
+    description: 'Atlantis NDT consulting in Calgary — ASNT NDT Level III + API ICP certified. RBI per API 581, FFS per API 579, written-practice authoring, code consulting. Free 30-min consultation.'
+  },
+  '/blog/magnetic-particle-level-ii-certification-guide': {
+    title: 'Magnetic Particle Level Ii Certification 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Magnetic Particle Level Ii Certification — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-san-francisco': {
+    title: '3D Scanning San Francisco 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in San Francisco. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/magnetic-particle-testing-charlotte': {
+    title: 'Magnetic Particle testing Charlotte 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Magnetic Particle testing services in Charlotte — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/underwater-infrastructure-inspection-techniques': {
+    title: 'Underwater Infrastructure Inspection Techniques 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Underwater Infrastructure Inspection Techniques — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/boiler-tube-and-heat-exchanger-inspection-methods': {
+    title: 'Boiler Tube and Heat Exchanger Inspection Methods 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Boiler Tube and Heat Exchanger Inspection Methods — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/training/cwi-training-washington-dc': {
+    title: 'Training 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Training services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/resources/calibration-certificate-template': {
+    title: 'Resources 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Resources services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/3d-scanning-san-antonio': {
+    title: '3D Scanning San Antonio 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in San Antonio. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/magnetic-particle-testing-oman': {
+    title: 'Magnetic Particle testing Oman 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Magnetic Particle testing services in Oman — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/best-ndt-training-providers-and-programs': {
+    title: 'Best NDT Training Providers and Programs 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Best NDT Training Providers and Programs — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-austin': {
+    title: '3D Scanning Austin 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Austin. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/ndt-equipment-guide': {
+    title: 'NDT Equipment Guide 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT NDT Equipment Guide services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/services/paut-inspection-singapore': {
+    title: 'Services 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Services services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/3d-scanning-uk': {
+    title: '3D Scanning UK 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in UK. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/corrosion-under-insulation-cui-detection-guide': {
+    title: 'Corrosion Under Insulation CUI Detection 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Corrosion Under Insulation CUI Detection — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/dnvgl-rules-for-offshore-structures': {
+    title: 'Dnvgl Rules for Offshore Structures 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Dnvgl Rules for Offshore Structures — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/phased-array-ultrasonic-testing-complete-technical-guide': {
+    title: 'Phased Array Ultrasonic Testing Complete Technical 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Phased Array Ultrasonic Testing Complete Technical — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/guided-wave-testing': {
+    title: 'Guided Wave Testing 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Guided Wave Testing services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/3d-scanning-denver': {
+    title: '3D Scanning Denver 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Denver. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/3d-scanning-wellington': {
+    title: '3D Scanning Wellington 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Wellington. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/ut-level-ii-certification-exam-preparation': {
+    title: 'UT Level Ii Certification Exam Preparation 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'UT Level Ii Certification Exam Preparation — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-kansas-city': {
+    title: '3D Scanning Kansas City 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Kansas City. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements': {
+    title: 'ASME Section V Article 5 Ultrasonic Thickness Measurement Requirements 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'ASME Section V Article 5 Ultrasonic Thickness Measurement Requirements — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/food-processing-equipment-ndt-and-sanitation': {
+    title: 'Food Processing Equipment NDT and Sanitation 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Food Processing Equipment NDT and Sanitation — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/case-studies': {
+    title: 'Case Studies 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Case Studies services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/phased-array-ut': {
+    title: 'Phased Array UT 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Phased Array UT services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/press': {
+    title: 'Press 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Press services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/blog/singapore-ndt-services-and-offshore-sector': {
+    title: 'Singapore NDT Services and Offshore Sector 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Singapore NDT Services and Offshore Sector — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-north-carolina': {
+    title: '3D Scanning North Carolina 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in North Carolina. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/api-571-damage-mechanisms-complete-industry-guide': {
+    title: 'API 571 Damage Mechanisms Complete Industry 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'API 571 Damage Mechanisms Complete Industry — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-virginia': {
+    title: '3D Scanning Virginia 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Virginia. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/radiographic-testing-netherlands': {
+    title: 'Radiographic testing Netherlands 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Radiographic testing services in Netherlands — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/visual-testing-johannesburg': {
+    title: 'Visual testing Johannesburg 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Visual testing services in Johannesburg — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/3d-scanning-philippines': {
+    title: '3D Scanning Philippines 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Philippines. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/eddy-current-testing-singapore': {
+    title: 'Eddy Current testing Singapore 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Eddy Current testing services in Singapore — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/3d-scanning-phoenix': {
+    title: '3D Scanning Phoenix 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Phoenix. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/eddy-current-testing-dallas': {
+    title: 'Eddy Current testing Dallas 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Eddy Current testing services in Dallas — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/lloyds-register-classification-standards': {
+    title: 'Lloyds Register Classification Standards 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Lloyds Register Classification Standards — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/radiographic-testing-nigeria': {
+    title: 'Radiographic testing Nigeria 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Radiographic testing services in Nigeria — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/stress-corrosion-cracking-scc-detection-methods': {
+    title: 'Stress Corrosion Cracking Scc Detection Methods 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Stress Corrosion Cracking Scc Detection Methods — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/corporate-ndt-training/kuwait': {
+    title: 'Corporate NDT Training 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Corporate NDT Training services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/blog/casting-quality-control-with-ndt-methods': {
+    title: 'Casting Quality Control With NDT Methods 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Casting Quality Control With NDT Methods — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/pressure-system-safety-during-hydrostatic-testing': {
+    title: 'Pressure System Safety During Hydrostatic Testing 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Pressure System Safety During Hydrostatic Testing — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/real-time-3d-imaging-in-ndt-inspection': {
+    title: 'Real Time 3d Imaging in NDT Inspection 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Real Time 3d Imaging in NDT Inspection — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/ndt-connect': {
+    title: 'NDT Connect 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT NDT Connect services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/ndt-training-houston': {
+    title: 'NDT Training Houston 2026 — 96% Pass, ASNT Level III-Led + Free Retake | Monthly Batches',
+    description: 'Atlantis NDT training in Houston — 96% first-attempt pass rate, ASNT Level III instructors, free retake-grade backstop. ASNT + ISO 9712 + API + AWS CWI + NACE CIP pathway. Monthly cohorts.'
+  },
+  '/ultrasonic-testing-kuwait': {
+    title: 'Ultrasonic testing Kuwait 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Ultrasonic testing services in Kuwait — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/3d-scanning-dallas': {
+    title: '3D Scanning Dallas 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Dallas. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/nuclear-power-plant-ndt-strict-standards-compliance': {
+    title: 'Nuclear Power Plant NDT Strict Standards Compliance 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Nuclear Power Plant NDT Strict Standards Compliance — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/3d-scanning-darwin': {
+    title: '3D Scanning Darwin 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Darwin. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/penetrant-testing': {
+    title: 'Penetrant Testing 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Penetrant Testing — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/magnetic-particle-inspection-procedure-interpretation': {
+    title: 'Magnetic Particle Inspection Procedure Interpretation 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Magnetic Particle Inspection Procedure Interpretation — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/erp-industries/construction-quality-assurance-singapore': {
+    title: 'Erp Industries 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Erp Industries services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained': {
+    title: 'ASME Section V Article 7 Magnetic Particle MT Requirements 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'ASME Section V Article 7 Magnetic Particle MT Requirements — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/eddy-current-testing/': {
+    title: 'Eddy Current Testing 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Eddy Current Testing services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/3d-scanning-colorado': {
+    title: '3D Scanning Colorado 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Colorado. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/3d-scanning-new-york': {
+    title: '3D Scanning New York 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in New York. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/blog/aws-d1-1-structural-welding-code-2026-explained': {
+    title: 'AWS D1 1 Structural Welding Code 2026 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'AWS D1 1 Structural Welding Code 2026 — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/consulting-me': {
+    title: 'Consulting Me 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Consulting Me services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+  '/ultrasonic-testing-bahrain': {
+    title: 'Ultrasonic testing Bahrain 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Ultrasonic testing services in Bahrain — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/blog/inclusion-detection-in-steel-forgings': {
+    title: 'Inclusion Detection in Steel Forgings 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Inclusion Detection in Steel Forgings — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/ndt-training-los-angeles': {
+    title: 'NDT Training Los Angeles 2026 — 96% Pass, ASNT Level III-Led + Free Retake | Monthly Batches',
+    description: 'Atlantis NDT training in Los Angeles — 96% first-attempt pass rate, ASNT Level III instructors, free retake-grade backstop. ASNT + ISO 9712 + API + AWS CWI + NACE CIP pathway. Monthly cohorts.'
+  },
+  '/blog/composite-laminate-delamination-detection': {
+    title: 'Composite Laminate Delamination Detection 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Composite Laminate Delamination Detection — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/compare/vs-ge-vernova-apm': {
+    title: 'vs Ge Vernova Apm 2026 — Decision Matrix + ROI + Free Demo | Atlantis NDT',
+    description: 'Atlantis NDT vs Ge Vernova Apm — 8-dimension decision matrix, code coverage, ROI comparison, anonymised customer outcomes. Free 30-min demo.'
+  },
+  '/radiographic-testing-bahrain': {
+    title: 'Radiographic testing Bahrain 2026 — ASNT Level III + Code-Aligned | Free Quote 24h',
+    description: 'Atlantis NDT Radiographic testing services in Bahrain — ASNT Level III led, ASME V + API code-aligned, free 30-min consultation + tailored quote within 24h. 2026 cohort + on-site mobilisation.'
+  },
+  '/3d-scanning-halifax': {
+    title: '3D Scanning Halifax 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
+    description: 'Atlantis NDT 3D scanning services in Halifax. Survey-grade LiDAR + photogrammetry + drone + BIM-ready models. ASNT Level III led. Free 30-min consultation + same-day quote.'
+  },
+  '/digital-twin-ras-al-khaimah': {
+    title: 'Digital Twin NDT Ras Al Khaimah 2026 — API 510/570/653 + RBI + FFS Integrated | Free Demo',
+    description: 'Atlantis NDT Digital Twin platform in Ras Al Khaimah — 3D asset visualisation + API 510/570/653 + API 581 RBI + API 579 FFS integration. ASNT Level III authored. Free 30-min demo.'
+  },
+  '/blog/highest-paying-ndt-specializations-in-2026': {
+    title: 'Highest Paying NDT Specializations in 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'Highest Paying NDT Specializations in — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/blog/ndt-career-progression-from-technician-to-manager': {
+    title: 'NDT Career Progression From Technician to Manager 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
+    description: 'NDT Career Progression From Technician to Manager — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
+  },
+  '/erp-modules/audit-management-for-pipeline-integrity-services': {
+    title: 'Erp Modules 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
+    description: 'Atlantis NDT Erp Modules services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+  },
+});
+
 // ─── Route Definitions ────────────────────────────────────────────────────
 
 const routes = [];
@@ -8861,12 +9292,10 @@ consultingCities.forEach(citySlug => {
   const diff = regionDifferentiators[citySlug];
   const canonical = `${SITE_URL}/consulting/ndt-consulting-${citySlug}`;
   const countryCode = cityCountryMap[citySlug] || 'US';
-  const title = diff
-    ? `NDT Consulting ${cityName} | ${diff.certs} | ${diff.usp} | Atlantis NDT`
-    : `NDT Consulting ${cityName} | ASNT Level III Experts | Free Quote | Atlantis NDT`;
+  const title = `NDT Consulting ${cityName} 2026 — ASNT Level III + API 581 RBI + 579 FFS | Free Consultation`;
   const desc = diff
-    ? `Expert NDT consulting in ${cityName} for ${diff.industries}. ${diff.certs} professionals. Procedure writing, program audits, SNT-TC-1A compliance & expert witness. ${diff.usp}. Get a free quote.`
-    : `Top-rated NDT consulting in ${cityName}: ASNT Level III procedure writing, program audits, SNT-TC-1A compliance, and expert witness. 50+ certified consultants. Get a free quote today.`;
+    ? `Atlantis NDT consulting in ${cityName} for ${diff.industries} — ASNT Level III + ${diff.certs} certified. RBI per API 581, FFS per API 579, procedure authoring, code consulting. Free 30-min consultation.`
+    : `Atlantis NDT consulting in ${cityName} — ASNT NDT Level III + API ICP certified. RBI per API 581, FFS per API 579, written-practice authoring, code consulting. Free 30-min consultation.`;
 
   // Hreflang for geo-targeting
   const hreflangLinks = [
@@ -8999,7 +9428,7 @@ methodPages.forEach(m => {
     const localCerts = diff.certs ? `Our ${cityName} inspectors hold ${diff.certs} qualifications, ensuring compliance with local + international standards.` : `Our ${cityName} inspectors hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs.`;
     routes.push({
       path: `/${m.slug}-${citySlug}`,
-      title: `${m.method} ${cityName} | ${m.short} Inspection Services | Atlantis NDT`,
+      title: `${m.method} ${cityName} 2026 — ${m.short} ASNT Level III + Code-Aligned | Free Quote 24h`,
       description: `Professional ${m.method} (${m.short}) services in ${cityName}. ASNT Level II & III certified inspectors for ${m.detail}. Serving oil & gas, aerospace & industrial clients.`,
       canonical: `${SITE_URL}/${m.slug}-${citySlug}`,
       bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/${m.slug}">${m.short}</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
@@ -9717,8 +10146,8 @@ digitalTwinCities.forEach(({ slug, city, country, assets }) => {
 
   routes.push({
     path: `/digital-twin-${slug}`,
-    title: `Digital Twin NDT ${city} | 3D Inspection Visualization | Atlantis NDT`,
-    description: `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets}. API 510/570/653 compliant reporting, corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`,
+    title: `Digital Twin NDT ${city} 2026 — API 510/570/653 + RBI + FFS Integrated | Free Demo`,
+    description: `Atlantis NDT Digital Twin in ${city}, ${country} — 3D asset visualisation for ${assets}, API 581 RBI + API 579 FFS workflows, ASNT Level III authored. Free 30-min demo + tailored quote.`,
     canonical: `${SITE_URL}/digital-twin-${slug}`,
     bodyContent: richBody,
   });
@@ -10105,7 +10534,7 @@ methodPages.forEach(m => {
     const cityName = toTitleCase(citySlug);
     routes.push({
       path: `/${m.slug}-${citySlug}`,
-      title: `${m.method} ${cityName} | ${m.short} Inspection Services | Atlantis NDT`,
+      title: `${m.method} ${cityName} 2026 — ${m.short} ASNT Level III + Code-Aligned | Free Quote 24h`,
       description: `Professional ${m.method} (${m.short}) services in ${cityName}. ASNT Level II & III certified inspectors for ${m.detail}. Serving oil & gas, aerospace & industrial clients in ${cityName}.`,
       canonical: `${SITE_URL}/${m.slug}-${citySlug}`,
       bodyContent: `  <header><nav><a href="/">Home</a><a href="/${m.slug}">${m.method}</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>${m.method} Services in ${cityName}</h1>\n    <p>Professional ${m.method} (${m.short}) inspection services in ${cityName}. ASNT Level II & III certified inspectors specializing in ${m.detail} for oil & gas, aerospace, power generation, and manufacturing industries.</p>\n    <h2>Why Choose Atlantis NDT for ${m.short} in ${cityName}?</h2>\n    <p>Atlantis NDT provides certified ${m.method} inspectors in ${cityName} with expertise in API 510/570/653 compliance, ASME Section V procedures, and AWS D1.1 weld inspection. Contact us for a free quote.</p>\n  </main>`,
@@ -10148,8 +10577,8 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
 
   routes.push({
     path: `/ndt-training-${slug}`,
-    title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
-    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} consistently high exam pass rates. Enrol today.`,
+    title: `NDT Training ${city} 2026 — 96% Pass + ASNT Level III-Led + Free Retake | Monthly Batches`,
+    description: `Atlantis NDT training in ${city}, ${region} — 96% first-attempt pass rate, ASNT NDT Level III instructors, free retake-grade backstop. ASNT + ISO 9712 + API + AWS CWI + NACE CIP pathways. ${detail} Monthly cohorts.`,
     canonical: `${SITE_URL}/ndt-training-${slug}`,
     bodyContent: richBody,
   });
@@ -10615,7 +11044,7 @@ advancedMethodSlugs.forEach(method => {
     const localCerts = diff.certs ? `<p>Our ${city.name} ${method.shortName} inspectors hold ${diff.certs} qualifications for full regulatory compliance.</p>` : '';
     routes.push({
       path,
-      title: `${method.name} in ${city.name} | ${method.shortName} Services | Atlantis NDT`,
+      title: `${method.name} ${city.name} 2026 — ${method.shortName} ASNT Level III + Code-Aligned | Free Quote 24h`,
       description: `Professional ${method.name} services in ${city.name}. ASNT Level III certified ${method.shortName} inspectors for ${city.name} industries. Advanced NDT inspection, code-compliant reporting.`,
       canonical: `${SITE_URL}${path}`,
       structuredData: {
@@ -10668,7 +11097,7 @@ industrySlugs.forEach(industry => {
     const localCerts = diff.certs ? `<p>Our ${city.name} inspectors hold ${diff.certs} qualifications for ${industryShort} facility inspections.</p>` : '';
     routes.push({
       path,
-      title: `${industry.name} in ${city.name} | NDT Inspection | Atlantis NDT`,
+      title: `${industry.name} ${city.name} 2026 — API Compliant + ASNT Level III | Free Consultation`,
       description: `${industry.name} in ${city.name}. Comprehensive NDT inspection for ${industryShort} facilities. ASNT Level III certified inspectors.`,
       canonical: `${SITE_URL}${path}`,
       structuredData: {
@@ -10716,7 +11145,7 @@ inspectionSlugs.forEach(service => {
     const localCerts = diff.certs ? `<p>Our ${city.name} inspection team holds ${diff.certs} qualifications.</p>` : '';
     routes.push({
       path,
-      title: `${service.name} in ${city.name} | NDT Inspection | Atlantis NDT`,
+      title: `${service.name} ${city.name} 2026 — Audit-Ready + ASNT Level III | Free Quote 24h`,
       description: `Professional ${service.name.toLowerCase()} in ${city.name}. Expert NDT inspectors using advanced methods for comprehensive inspection coverage. Code-compliant results.`,
       canonical: `${SITE_URL}${path}`,
       structuredData: {
@@ -10764,7 +11193,7 @@ certSlugs.forEach(cert => {
     const localInfo = diff.industries ? `<p>Professionals in ${city.name}'s ${diff.industries} sectors benefit from ${cert.name} to advance their NDT careers. ${diff.usp || ''}.</p>` : '';
     routes.push({
       path,
-      title: `${cert.name} in ${city.name} | Atlantis NDT`,
+      title: `${cert.name} ${city.name} 2026 — 96% Pass + ASNT Level III-Led + Free Retake | Monthly`,
       description: `${cert.name} courses in ${city.name}. Expert-led preparation with consistently high exam pass rates. Classroom and online options available. Enrol today.`,
       canonical: `${SITE_URL}${path}`,
       structuredData: {
@@ -10868,8 +11297,8 @@ globalTrainingCities.forEach(({ slug, city, region, detail }) => {
 
   routes.push({
     path: `/ndt-training-${slug}`,
-    title: `NDT Training ${city} | ASNT Level I-III Certification | Atlantis NDT`,
-    description: `ASNT-aligned NDT training in ${city}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} consistently high exam pass rates.`,
+    title: `NDT Training ${city} 2026 — 96% Pass + ASNT Level III-Led + Free Retake | Monthly Batches`,
+    description: `Atlantis NDT training in ${city}, ${region} — 96% first-attempt pass rate, ASNT NDT Level III instructors, free retake-grade backstop. ASNT + ISO 9712 + API + AWS CWI + NACE CIP pathways. ${detail} Monthly cohorts.`,
     canonical: `${SITE_URL}/ndt-training-${slug}`,
     structuredData: {
       "@context": "https://schema.org",
@@ -11187,7 +11616,7 @@ function _resolve3DScanArchetype(slug) {
     }
     routes.push({
       path: '/3d-scanning-' + city,
-      title: '3D Scanning Services in ' + name + ' — LiDAR, Photogrammetry & Drone Surveys | Atlantis NDT',
+      title: '3D Scanning ' + name + ' 2026 — Survey-Grade LiDAR + Drone + BIM | Same-Day Quote',
       description: 'Atlantis NDT 3D scanning in ' + name + ': survey-grade LiDAR laser scanning, photogrammetry and drone-based reality capture for as-built models, tank & vessel deformation surveys, corrosion mapping, BIM and digital twins. ASNT Level III led.',
       bodyContent: body,
     });
