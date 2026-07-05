@@ -86,6 +86,48 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(200).json({ ok: true });
   } catch (err: any) {
     console.error('Contact form SMTP error:', err);
+
+    // Attempt EmailJS fallback (server-side) if SMTP failed.
+    const emailjsService = process.env.EMAILJS_SERVICE_ID || process.env.VITE_EMAILJS_SERVICE_ID;
+    const emailjsTemplate = process.env.EMAILJS_TEMPLATE_ID || process.env.VITE_EMAILJS_TEMPLATE_ID;
+    const emailjsUser = process.env.EMAILJS_PUBLIC_KEY || process.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    if (emailjsService && emailjsTemplate && emailjsUser) {
+      try {
+        const payload = {
+          service_id: emailjsService,
+          template_id: emailjsTemplate,
+          user_id: emailjsUser,
+          template_params: {
+            from_name: `${firstName} ${lastName}`,
+            from_email: email,
+            phone: phone || '(not provided)',
+            company: company || '(not provided)',
+            service: service || '(not selected)',
+            message,
+            subject,
+            to_email: to,
+          },
+        };
+
+        const r = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        if (r.ok) {
+          console.info('Contact form delivered via EmailJS fallback');
+          return res.status(200).json({ ok: true, fallback: 'emailjs' });
+        }
+
+        const textErr = await r.text().catch(() => 'unknown');
+        console.error('EmailJS fallback failed:', r.status, textErr);
+      } catch (ejErr: any) {
+        console.error('EmailJS fallback exception:', ejErr);
+      }
+    }
+
     return res.status(502).json({ error: 'Mail delivery failed' });
   }
 }
