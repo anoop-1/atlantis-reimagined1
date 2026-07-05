@@ -97,21 +97,25 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (emailjsService && emailjsTemplate && emailjsUser) {
       try {
-        const payload = {
-          service_id: emailjsService,
-          template_id: emailjsTemplate,
-          user_id: emailjsUser,
-          template_params: {
-            from_name: `${firstName} ${lastName}`,
-            from_email: email,
-            phone: phone || '(not provided)',
-            company: company || '(not provided)',
-            service: service || '(not selected)',
-            message,
-            subject,
-            to_email: to,
-          },
-        };
+            const payload: any = {
+              service_id: emailjsService,
+              template_id: emailjsTemplate,
+              template_params: {
+                from_name: `${firstName} ${lastName}`,
+                from_email: email,
+                phone: phone || '(not provided)',
+                company: company || '(not provided)',
+                service: service || '(not selected)',
+                message,
+                subject,
+                to_email: to,
+              },
+            };
+
+            // Include public key if present (required), and include private key when available for strict mode.
+            if (emailjsUser) payload.user_id = emailjsUser;
+            const emailjsPrivate = process.env.EMAILJS_PRIVATE_KEY;
+            if (emailjsPrivate) payload.accessToken = emailjsPrivate;
 
         const r = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
           method: 'POST',
