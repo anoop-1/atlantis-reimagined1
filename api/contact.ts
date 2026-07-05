@@ -41,16 +41,19 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   // info@atlantisndt.com is forwarded on VPS to anoop@atlantisinspection.com
   const fromAddress = process.env.CONTACT_FROM || 'info@atlantisndt.com';
 
-  if (!host || !user || !pass) {
+  if (!host) {
     return res.status(500).json({ error: 'Mail service not configured' });
   }
 
-  const transport = nodemailer.createTransport({
+  // Allow unauthenticated SMTP (e.g. local MTA on 127.0.0.1:25).
+  const transportOptions: any = {
     host,
     port,
     secure: port === 465,
-    auth: { user, pass },
-  });
+  };
+  if (user && pass) transportOptions.auth = { user, pass };
+
+  const transport = nodemailer.createTransport(transportOptions);
 
   const subject = `Contact form: ${firstName} ${lastName}${service ? ` — ${service}` : ''}`;
   const text =
