@@ -131,6 +131,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     }
 
-    return res.status(502).json({ error: 'Mail delivery failed' });
+    // Temporary: return SMTP error message for debugging deployment issues.
+    const reason = err && (err.message || JSON.stringify(err)) ? (err.message || JSON.stringify(err)) : 'unknown';
+    return res.status(502).json({ error: 'Mail delivery failed', reason });
   }
 }
