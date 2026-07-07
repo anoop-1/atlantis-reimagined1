@@ -33,13 +33,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Message too long' });
   }
 
+  const getEnv = (value: string | undefined, fallback: string) =>
+    value && value.trim() ? value.trim() : fallback;
+
   const host = process.env.SMTP_HOST;
   const port = Number(process.env.SMTP_PORT || 465);
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
-  const to = process.env.CONTACT_TO || 'info@atlantisndt.com';
-  // info@atlantisndt.com is forwarded on VPS to anoop@atlantisinspection.com
-  const fromAddress = process.env.CONTACT_FROM || 'info@atlantisndt.com';
+  const to = getEnv(process.env.CONTACT_TO, 'info@atlantisndt.com');
+  const fromAddress = getEnv(process.env.CONTACT_FROM, 'info@atlantisndt.com');
 
   if (!host) {
     return res.status(500).json({ error: 'Mail service not configured' });
@@ -97,25 +99,44 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (emailjsService && emailjsTemplate && emailjsUser) {
       try {
-            const payload: any = {
-              service_id: emailjsService,
-              template_id: emailjsTemplate,
-              template_params: {
-                from_name: `${firstName} ${lastName}`,
-                from_email: email,
-                phone: phone || '(not provided)',
-                company: company || '(not provided)',
-                service: service || '(not selected)',
-                message,
-                subject,
-                to_email: to,
-              },
-            };
+        // decide final recipient for EmailJS to avoid routing through the VPS
+        const emailjsFallbackTo = process.env.EMAILJS_FALLBACK_TO || process.env.CONTACT_TO || to;
 
-            // Include public key if present (required), and include private key when available for strict mode.
-            if (emailjsUser) payload.user_id = emailjsUser;
-            const emailjsPrivate = process.env.EMAILJS_PRIVATE_KEY;
-            if (emailjsPrivate) payload.accessToken = emailjsPrivate;
+        const detailedMessage =
+          `Contact Details:\n` +
+          `Name: ${firstName} ${lastName}\n` +
+          `Email: ${email}\n` +
+          `Phone: ${phone || '(not provided)'}\n` +
+          `Company: ${company || '(not provided)'}\n` +
+          `Service: ${service || '(not selected)'}\n\n` +
+          `Message:\n${message}`;
+
+        const payload: any = {
+          service_id: emailjsService,
+          template_id: emailjsTemplate,
+          template_params: {
+            // CamelCase versions for templates expecting them
+            firstName,
+            lastName,
+            email,
+
+            // Snake case versions or fallback keys
+            from_name: `${firstName} ${lastName}`,
+            from_email: email,
+            phone: phone || '(not provided)',
+            company: company || '(not provided)',
+            service: service || '(not selected)',
+            message: detailedMessage,
+            full_message: text,
+            subject,
+            to_email: emailjsFallbackTo,
+          },
+        };
+
+        // Include public key if present (required), and include private key when available for strict mode.
+        if (emailjsUser) payload.user_id = emailjsUser;
+        const emailjsPrivate = process.env.EMAILJS_PRIVATE_KEY;
+        if (emailjsPrivate) payload.accessToken = emailjsPrivate;
 
         const r = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
           method: 'POST',
@@ -135,8 +156,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     }
 
-    // Temporary: return SMTP error message for debugging deployment issues.
-    const reason = err && (err.message || JSON.stringify(err)) ? (err.message || JSON.stringify(err)) : 'unknown';
-    return res.status(502).json({ error: 'Mail delivery failed', reason });
+    // Generic error response to avoid leaking internal error details.
+    return res.status(502).json({ error: 'Mail delivery failed' });
   }
 }
