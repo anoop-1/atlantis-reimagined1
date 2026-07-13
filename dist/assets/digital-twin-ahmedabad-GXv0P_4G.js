@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-BaE92hYU.js";import{D as t}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function e(){return i.jsx(t,{city:"Ahmedabad",country:"India",slug:"digital-twin-ahmedabad"})}export{e as default};

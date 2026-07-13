@@ -1,0 +1,112 @@
+[
+{"created":1781680799123,"date":1781680799123,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680799123061529191800000","text":"Running build in Washington, D.C., USA (East) – iad1","type":"stdout","serial":"1781680799123061529191800000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680799126,"date":1781680799126,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680799126061529191800000","text":"Build machine configuration: 2 cores, 8 GB","type":"stdout","serial":"1781680799126061529191800000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680799441,"date":1781680799441,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680799441061529191800000","text":"Cloning github.com/anoop-1/atlantis-reimagined1 (Branch: main, Commit: 1aea612)","type":"stdout","serial":"1781680799441061529191800000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680814830,"date":1781680814830,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680814830061529191800000","text":"Cloning completed: 15.388s","type":"stdout","serial":"1781680814830061529191800000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680816896,"date":1781680816896,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680816896061529191800000","text":"Restored build cache from previous deployment (3yk6QqKDhy2TSAVz2F2zaewRF6SE)","type":"stdout","serial":"1781680816896061529191800000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680817921,"date":1781680817921,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680817921539032072500000","text":"Running \"vercel build\"","type":"stdout","serial":"1781680817921539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680817941,"date":1781680817941,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680817941539032072500000","text":"Vercel CLI 54.14.0","type":"stderr","serial":"1781680817941539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680819130,"date":1781680819130,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680819130539032072500000","text":"WARNING! When using Next.js, it is recommended to place JavaScript Functions inside of the `pages/api` (provided by Next.js) directory instead of `api` (provided by Vercel). Other languages (Python, Go, etc) should still go in the `api` directory.","type":"stderr","serial":"1781680819130539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"warning"}
+,
+{"created":1781680819131,"date":1781680819131,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680819131539032072500000","text":"Learn More: https://nextjs.org/docs/api-routes/introduction","type":"stderr","serial":"1781680819131539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680820271,"date":1781680820271,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680820271539032072500000","text":"Running \"install\" command: `bun install`...","type":"stdout","serial":"1781680820271539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680820918,"date":1781680820918,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680820918539032072500000","text":"bun install v1.3.12 (700fc117)","type":"stdout","serial":"1781680820918539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824255,"date":1781680824255,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824255539032072500000","text":"","type":"stdout","serial":"1781680824255539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824255,"date":1781680824255,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824255539032072500001","text":"+ @vercel/node@5.8.4","type":"stdout","serial":"1781680824255539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824255,"date":1781680824255,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824255539032072500002","text":"+ lovable-tagger@1.1.10","type":"stdout","serial":"1781680824255539032072500002","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824255,"date":1781680824255,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824255539032072500003","text":"+ @rollup/rollup-linux-x64-gnu@4.60.4","type":"stdout","serial":"1781680824255539032072500003","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824255,"date":1781680824255,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824255539032072500004","text":"+ @splinetool/runtime@1.12.95","type":"stdout","serial":"1781680824255539032072500004","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824256,"date":1781680824256,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824256539032072500000","text":"+ nodemailer@8.0.8","type":"stdout","serial":"1781680824256539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824256,"date":1781680824256,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824256539032072500001","text":"","type":"stdout","serial":"1781680824256539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824256,"date":1781680824256,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824256539032072500002","text":"131 packages installed [3.72s]","type":"stdout","serial":"1781680824256539032072500002","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824373,"date":1781680824373,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824373539032072500000","text":"Running \"npm run build\"","type":"stdout","serial":"1781680824373539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824544,"date":1781680824544,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824544539032072500000","text":"","type":"stdout","serial":"1781680824544539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824544,"date":1781680824544,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824544539032072500001","text":"> vite_react_shadcn_ts@0.0.0 build","type":"stdout","serial":"1781680824544539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824545,"date":1781680824545,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824545539032072500000","text":"> vite build && node scripts/prerender.mjs","type":"stdout","serial":"1781680824545539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824545,"date":1781680824545,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824545539032072500001","text":"","type":"stdout","serial":"1781680824545539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824778,"date":1781680824778,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824778539032072500000","text":"\u001b[36mvite v5.4.19 \u001b[32mbuilding for production...\u001b[36m\u001b[39m","type":"stdout","serial":"1781680824778539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680824842,"date":1781680824842,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680824842539032072500000","text":"transforming...","type":"stdout","serial":"1781680824842539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680825161,"date":1781680825161,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680825161539032072500000","text":"Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:","type":"stderr","serial":"1781680825161539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680825161,"date":1781680825161,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680825161539032072500001","text":"  npx update-browserslist-db@latest","type":"stderr","serial":"1781680825161539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680825162,"date":1781680825162,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680825162539032072500000","text":"  Why you should do it regularly: https://github.com/browserslist/update-db#readme","type":"stderr","serial":"1781680825162539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832871,"date":1781680832871,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832871539032072500000","text":"\u001b[32m✓\u001b[39m 116 modules transformed.","type":"stdout","serial":"1781680832871539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832872,"date":1781680832872,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832872539032072500000","text":"\u001b[31mx\u001b[39m Build failed in 8.07s","type":"stderr","serial":"1781680832872539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500000","text":"\u001b[31merror during build:","type":"stderr","serial":"1781680832873539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500001","text":"\u001b[31m[vite:esbuild] Transform failed with 1 error:","type":"stderr","serial":"1781680832873539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500002","text":"/vercel/path0/src/pages/api-653-tank-inspection-guide.tsx:56:78: ERROR: Expected \"}\" but found \"\\\" className=\\\"\"\u001b[31m","type":"stderr","serial":"1781680832873539032072500002","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500003","text":"file: \u001b[36m/vercel/path0/src/pages/api-653-tank-inspection-guide.tsx:56:78\u001b[31m","type":"stderr","serial":"1781680832873539032072500003","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500004","text":"\u001b[33m","type":"stderr","serial":"1781680832873539032072500004","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500005","text":"\u001b[33mExpected \"}\" but found \"\\\" className=\\\"\"\u001b[33m","type":"stderr","serial":"1781680832873539032072500005","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832873,"date":1781680832873,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832873539032072500006","text":"54 |      { question: \"How often should tanks be inspected per API 653?\", answer: \"Inspection frequency depends on corrosion rates and risk. External inspections are typically every 5 years, internal inspections every 10 years, but Risk-Based Inspection (RBI) can extend or reduce intervals.\" },","type":"stderr","serial":"1781680832873539032072500006","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832874,"date":1781680832874,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832874539032072500000","text":"55 |      { question: \"What qualifications are needed for API 653 inspectors?\", answer: \"Inspectors should be API 653 certified or work under an API 653 certified inspector. ASNT Level II certification in UT, MT, PT, and VT is typically required.\" },","type":"stderr","serial":"1781680832874539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832874,"date":1781680832874,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832874539032072500001","text":"56 |      { question: \"Can tanks be repaired without <a href=\"/api-653-certification\" className=\"text-primary underline underline-offset-2 hover:opacity-80\">API 653 certification</a>?\", answer: \"API 653 requires that alterations and repairs be authorized by an API 653 certified inspector. The inspector must approve the repair procedure and final inspection.\" }","type":"stderr","serial":"1781680832874539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832874,"date":1781680832874,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832874539032072500002","text":"   |                                                                                ^","type":"stderr","serial":"1781680832874539032072500002","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832874,"date":1781680832874,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832874539032072500003","text":"57 |  ];","type":"stderr","serial":"1781680832874539032072500003","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832874,"date":1781680832874,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832874539032072500004","text":"58 |  ","type":"stderr","serial":"1781680832874539032072500004","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+,
+{"created":1781680832874,"date":1781680832874,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832874539032072500005","text":"\u001b[31m","type":"stderr","serial":"1781680832874539032072500005","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832875,"date":1781680832875,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832875539032072500000","text":"    at failureErrorWithLog (/vercel/path0/node_modules/vite/node_modules/esbuild/lib/main.js:1472:15)","type":"stderr","serial":"1781680832875539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832875,"date":1781680832875,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832875539032072500001","text":"    at /vercel/path0/node_modules/vite/node_modules/esbuild/lib/main.js:755:50","type":"stderr","serial":"1781680832875539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832875,"date":1781680832875,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832875539032072500002","text":"    at responseCallbacks.<computed> (/vercel/path0/node_modules/vite/node_modules/esbuild/lib/main.js:622:9)","type":"stderr","serial":"1781680832875539032072500002","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832875,"date":1781680832875,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832875539032072500003","text":"    at handleIncomingPacket (/vercel/path0/node_modules/vite/node_modules/esbuild/lib/main.js:677:12)","type":"stderr","serial":"1781680832875539032072500003","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832875,"date":1781680832875,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832875539032072500004","text":"    at Socket.readFromStdout (/vercel/path0/node_modules/vite/node_modules/esbuild/lib/main.js:600:7)","type":"stderr","serial":"1781680832875539032072500004","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832875,"date":1781680832875,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832875539032072500005","text":"    at Socket.emit (node:events:509:28)","type":"stderr","serial":"1781680832875539032072500005","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832876,"date":1781680832876,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832876539032072500000","text":"    at addChunk (node:internal/streams/readable:563:12)","type":"stderr","serial":"1781680832876539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832876,"date":1781680832876,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832876539032072500001","text":"    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)","type":"stderr","serial":"1781680832876539032072500001","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832876,"date":1781680832876,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832876539032072500002","text":"    at Readable.push (node:internal/streams/readable:394:5)","type":"stderr","serial":"1781680832876539032072500002","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832876,"date":1781680832876,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832876539032072500003","text":"    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)\u001b[39m","type":"stderr","serial":"1781680832876539032072500003","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."}}
+,
+{"created":1781680832983,"date":1781680832983,"deploymentId":"dpl_DiJHkDNNg2ypjSSkoz62tpWyBpKa","id":"1781680832983539032072500000","text":"Error: Command \"npm run build\" exited with 1","type":"stderr","serial":"1781680832983539032072500000","info":{"type":"build","name":"bld_hg477bsl5","entrypoint":"."},"level":"error"}
+]
+

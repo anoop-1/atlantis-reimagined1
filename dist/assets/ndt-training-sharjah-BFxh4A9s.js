@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-BaE92hYU.js";import{g as t,T as a}from"./TrainingLocationPage-d9AzDB4O.js";import"./RelatedProducts-xqCJSnRU.js";import"./erp-pages-BhbgqGxr.js";function f(){const r=t("sharjah");return r?i.jsx(a,{profile:r}):null}export{f as default};

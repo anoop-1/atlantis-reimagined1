@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-BaE92hYU.js";import{g as o,T as t}from"./TrainingLocationPage-d9AzDB4O.js";import"./RelatedProducts-xqCJSnRU.js";import"./erp-pages-BhbgqGxr.js";function g(){const i=o("lagos");return i?r.jsx(t,{profile:i}):null}export{g as default};

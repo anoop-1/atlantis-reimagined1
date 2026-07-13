@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-BaE92hYU.js";import{g as a,T as o}from"./TrainingLocationPage-d9AzDB4O.js";import"./RelatedProducts-xqCJSnRU.js";import"./erp-pages-BhbgqGxr.js";function f(){const r=a("vadodara");return r?i.jsx(o,{profile:r}):null}export{f as default};

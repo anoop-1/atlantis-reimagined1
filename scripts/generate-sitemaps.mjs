@@ -37,6 +37,7 @@ const SITEMAP_FILES = [
   'sitemap-digital-twins.xml',
   'sitemap-methods.xml',
   'sitemap-other.xml',
+  'sitemap-glossary.xml',
 ];
 
 function isStale(dateStr) {

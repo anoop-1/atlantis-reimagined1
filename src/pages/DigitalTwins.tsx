@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
-import InteractiveJet from "@/components/InteractiveJet";
-import InteractivePlant from "@/components/InteractivePlant";
-import InteractivePipe from "@/components/InteractivePipe";
+// Lazy-loaded so three.js + the multi-MB GLB models are NOT shipped on first paint.
+// They load only when the visitor clicks "Launch 3D demo" (LCP + Vercel transfer win).
+const InteractiveJet = lazy(() => import("@/components/InteractiveJet"));
+const InteractivePlant = lazy(() => import("@/components/InteractivePlant"));
+const InteractivePipe = lazy(() => import("@/components/InteractivePipe"));
 import { SEOHead } from "@/components/SEOHead";
 import { Link } from "react-router-dom";
 import {
@@ -321,6 +323,7 @@ const models = [
 
 export default function DigitalTwins() {
    const [selectedModel, setSelectedModel] = useState(models[0]);
+   const [demoLaunched, setDemoLaunched] = useState(false);
    const SelectedComponent = selectedModel.component;
 
    // ──────────────────────────────────────────────────────────────────────────
@@ -466,8 +469,8 @@ export default function DigitalTwins() {
    return (
       <>
          <SEOHead
-            title="Digital Twin for NDT & Asset Integrity — UT/PAUT 3D Overlay"
-            description="NDT-native digital twin platform — UT/PAUT 3D overlay, API 579 FFS, API 581 RBI, audit-ready packs for refineries, FPSOs, pipelines. Affordable, accessible, fully customizable. Demo on request."
+            title="Digital Twin for NDT 2026 — 3D Asset Integrity, API 581 RBI + API 579 FFS Overlay"
+            description="NDT-native digital twin platform — UT/PAUT 3D overlay, API 579 FFS, API 581 RBI, API 510/570/653 workflows, audit-ready packs for refineries, FPSOs, pipelines. Affordable, accessible, fully customizable. Book a free demo."
             keywords="digital twin NDT software, NDT digital twin, API 579 fitness for service, API 581 RBI, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity, predictive maintenance, ASNT Level III"
             ogImage="/atlantis.jpg"
             canonical="https://atlantisndt.com/digital-twins"
@@ -491,7 +494,7 @@ export default function DigitalTwins() {
                         Product pillar · Updated May 2026
                      </Badge>
                      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#004aad]">
-                        Digital Twin for NDT &amp; Asset Integrity
+                        Digital Twin for NDT &amp; Asset Integrity — 3D UT/PAUT Overlay with API 581 RBI + API 579 FFS
                      </h1>
                      <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-3 max-w-3xl mx-auto">
                         ASNT Level III-engineered. UT/PAUT 3D overlay. API 579 FFS + API 581 RBI ready. Audit-pack export in one click. Affordable. Accessible. Fully customizable.
@@ -779,11 +782,64 @@ export default function DigitalTwins() {
                   </div>
 
                   <div className="w-full h-[500px] lg:h-[600px] rounded-xl shadow-xl overflow-hidden bg-slate-800">
-                     <SelectedComponent modelPath={selectedModel.path} />
+                     {demoLaunched ? (
+                        <Suspense
+                           fallback={
+                              <div className="w-full h-full flex flex-col items-center justify-center text-slate-300 gap-3">
+                                 <div className="w-10 h-10 border-4 border-slate-600 border-t-blue-500 rounded-full animate-spin" />
+                                 <span className="text-sm">Loading 3D asset…</span>
+                              </div>
+                           }
+                        >
+                           <SelectedComponent modelPath={selectedModel.path} />
+                        </Suspense>
+                     ) : (
+                        <button
+                           onClick={() => setDemoLaunched(true)}
+                           className="group w-full h-full flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-slate-800 via-slate-900 to-blue-950 hover:from-slate-700 transition"
+                           aria-label="Launch the interactive 3D digital twin demo"
+                        >
+                           <span className="w-20 h-20 rounded-full bg-blue-500/90 flex items-center justify-center shadow-2xl group-hover:scale-110 transition">
+                              <Layers className="w-9 h-9 text-white" />
+                           </span>
+                           <span className="text-xl font-semibold text-white">Launch interactive 3D demo</span>
+                           <span className="text-sm text-slate-400 max-w-sm text-center">
+                              Loads the WebGL engine and the {selectedModel.name} asset on demand — kept off the initial page load for speed.
+                           </span>
+                        </button>
+                     )}
                   </div>
                   <p className="text-slate-400 text-sm text-center mt-4 max-w-2xl mx-auto">
                      {selectedModel.description}
                   </p>
+               </div>
+            </section>
+
+            {/* ─────────────── MID-PAGE DEMO CTA ─────────────── */}
+            <section className="py-14 bg-white">
+               <div className="max-w-4xl mx-auto px-6">
+                  <div className="rounded-2xl bg-[#004aad] p-8 md:p-10 text-center text-white shadow-xl">
+                     <h2 className="text-2xl md:text-3xl font-bold mb-3">Book your Digital Twin demo</h2>
+                     <p className="text-base md:text-lg opacity-90 mb-6 max-w-2xl mx-auto">
+                        See your own refinery, FPSO, or pipeline as a live 3D twin with UT/PAUT overlay,
+                        API 581 RBI, and API 579 FFS. We'll tailor the walkthrough to your assets.
+                     </p>
+                     <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                        <Link
+                           to="/contact?subject=Digital%20Twin%20Demo%20Request"
+                           className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#004aad] font-semibold rounded-lg shadow hover:bg-white/90 transition"
+                        >
+                           Book Your Digital Twin Demo <ArrowRight className="w-4 h-4" />
+                        </Link>
+                        <Link
+                           to="/digital-twin-roi-calculator"
+                           className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/80 text-white font-semibold rounded-lg hover:bg-white/10 transition"
+                        >
+                           Try the ROI Calculator
+                        </Link>
+                     </div>
+                     <p className="text-sm opacity-80 mt-4">Affordable. Accessible. Fully customizable. Quote on request.</p>
+                  </div>
                </div>
             </section>
 
@@ -847,7 +903,7 @@ export default function DigitalTwins() {
                         Pricing — custom enterprise quote, no hidden seat licenses
                      </h2>
                      <p className="text-slate-700 text-lg leading-relaxed">
-                        Single SKU, single price, single seller. We publish our pricing because we believe procurement teams should not have to file an NDA to see a number. Volume discounting is available for multi-tenant enterprises and government accounts.
+                        One platform, one relationship, no per-seat surprises. Because we serve clients globally with local currencies and compliance needs, we scope a region-specific quote when you contact us — no NDA required to start the conversation. Volume arrangements are available for multi-tenant enterprises and government accounts.
                      </p>
                   </div>
 

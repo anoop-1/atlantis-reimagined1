@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-BaE92hYU.js";import o from"./MethodLocationPage-2f018dwL.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";function e(){return t.jsx(o,{methodSlug:"ultrasonic-testing",locationSlug:"kansas-city"})}export{e as default};

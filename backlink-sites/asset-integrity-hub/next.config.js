@@ -3,10 +3,11 @@ const nextConfig = {
   typescript: { ignoreBuildErrors: true },
   eslint: { ignoreDuringBuilds: true },
 
-  output: 'standalone',
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true,
     formats: ['image/avif', 'image/webp'],
   },
 };

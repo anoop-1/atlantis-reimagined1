@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-BaE92hYU.js";import{D as i}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function c(){return t.jsx(i,{city:"France",country:"France",slug:"digital-twin-france"})}export{c as default};

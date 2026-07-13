@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-BaE92hYU.js";import{E as a}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function s(){return r.jsx(a,{city:"Jamnagar",country:"India",slug:"ndt-erp-jamnagar"})}export{s as default};

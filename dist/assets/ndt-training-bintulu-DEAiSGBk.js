@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Br50gGHk.js";import{g as t,T as n}from"./TrainingLocationPage-CdR_POKv.js";import"./build-hreflang-CViNgX-s.js";import"./compare-pages-DdHzJJD8.js";import"./RelatedProducts-ChoXjA9g.js";import"./erp-pages-rSQ7VMqL.js";function s(){const i=t("bintulu");return i?r.jsx(n,{profile:i}):null}export{s as default};

@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-BaE92hYU.js";import{R as t}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function g(){return r.jsx(t,{city:"Bergen",country:"Norway",slug:"ndt-reporting-bergen"})}export{g as default};

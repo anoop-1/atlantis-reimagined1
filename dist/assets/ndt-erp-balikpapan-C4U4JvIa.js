@@ -1,1 +1,0 @@
-import{j as p}from"./blog-pages-BaE92hYU.js";import{E as a}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function s(){return p.jsx(a,{city:"Balikpapan",country:"Indonesia",slug:"ndt-erp-balikpapan"})}export{s as default};

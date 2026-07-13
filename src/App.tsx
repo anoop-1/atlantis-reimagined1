@@ -2383,6 +2383,7 @@ const DigitalTwinReadinessQuiz = lazy(() => import("./pages/DigitalTwinReadiness
 const DigitalTwinVendorComparison = lazy(() => import("./pages/DigitalTwinVendorComparison"));
 const DigitalTwinApiMapping = lazy(() => import("./pages/DigitalTwinApiMapping"));
 const NdtErpVsGenericErp = lazy(() => import("./pages/NdtErpVsGenericErp"));
+const CompareAtlantisErpVsFloodlight = lazy(() => import("./pages/compare/AtlantisErpVsFloodlight"));
 const NdtErpIntegrationMatrix = lazy(() => import("./pages/NdtErpIntegrationMatrix"));
 const NdtErpRoiCalculator = lazy(() => import("./pages/NdtErpRoiCalculator"));
 const NdtErpImplementationTimeline = lazy(() => import("./pages/NdtErpImplementationTimeline"));
@@ -4925,6 +4926,7 @@ const App = () => (
                   <Route path="/ndt-software-features" element={<LazyRoute Component={NdtSoftwareFeatures} />} />
                   <Route path="/ndt-data-management" element={<LazyRoute Component={NdtDataManagement} />} />
                   <Route path="/ndt-erp-vs-generic-erp" element={<LazyRoute Component={NdtErpVsGenericErp} />} />
+                  <Route path="/compare/atlantis-erp-vs-floodlight" element={<LazyRoute Component={CompareAtlantisErpVsFloodlight} />} />
                   <Route path="/ndt-erp-integration-matrix" element={<LazyRoute Component={NdtErpIntegrationMatrix} />} />
                   <Route path="/ndt-erp-roi-calculator" element={<LazyRoute Component={NdtErpRoiCalculator} />} />
                   <Route path="/ndt-erp-implementation-timeline" element={<LazyRoute Component={NdtErpImplementationTimeline} />} />

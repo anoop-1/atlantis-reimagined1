@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-BaE92hYU.js";import i from"./MethodLocationPage-2f018dwL.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";function c(){return t.jsx(i,{methodSlug:"magnetic-particle-testing",locationSlug:"cincinnati"})}export{c as default};

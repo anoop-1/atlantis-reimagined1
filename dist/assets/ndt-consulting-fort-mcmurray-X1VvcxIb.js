@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-BaE92hYU.js";import{C as r}from"./ConsultingLocationPage-CCmCuZAI.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function p(){return o.jsx(r,{locationSlug:"fort-mcmurray"})}export{p as default};

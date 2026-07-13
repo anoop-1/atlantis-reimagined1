@@ -1,0 +1,507 @@
+{
+  "generated": "2026-06-25T07:29:36.055019+00:00",
+  "source": "Round-3 quality upgrade",
+  "count": 125,
+  "urls": [
+    {
+      "url": "https://atlantisndt.com/verticals/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/refining/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/petrochem/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/marine/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/aerospace/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/lng/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/mining/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/power-gen/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/hydrogen/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/ccs/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/verticals/offshore-wind/",
+      "tier": "A-R3-VERT"
+    },
+    {
+      "url": "https://atlantisndt.com/about/",
+      "tier": "A-R3-HUB"
+    },
+    {
+      "url": "https://atlantisndt.com/training/",
+      "tier": "A-R3-HUB"
+    },
+    {
+      "url": "https://atlantisndt.com/consulting/",
+      "tier": "A-R3-HUB"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/",
+      "tier": "A-R3-HUB"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/",
+      "tier": "A-R3-HUB"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-services/",
+      "tier": "A-R3-HUB"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/corrosion-under-insulation-cui-detection-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asme-section-v-ndt-requirements-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-paut-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-pipeline-integrity-inspection-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/weld-inspection-ndt-methods-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-level-iii-certification-requirements-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-579-fitness-for-service-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-procedure-writing-guide-asme-section-v/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asnt-snt-tc-1a-vs-cp-189-comparison/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-consulting-costs-pricing-guide-2025/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asnt-level-iii-ndt-consulting-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ultrasonic-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/magnetic-particle-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/visual-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/radiographic-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/eddy-current-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/penetrant-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-level-iii-consulting-services-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-training-complete-guide-courses-certification-global/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-career-top-choice-2025-global-market-trends/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/digital-twins-ndt-reporting-oil-gas-asset-integrity/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/digital-twins-reduce-refinery-turnaround-time/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-consulting-questions-answered-by-level-iii-expert/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/best-ndt-reporting-software-oil-gas-digital-twin/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/future-of-ndt-oil-gas-digital-twins-ai/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-salary-guide-2025-global-level-1-2-3/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asset-integrity-management-guide-2025-rbi-digital-twins/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-training-vs-certification-2025-oil-gas-expectations/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asme-section-v-ndt-procedure-rejection-causes/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/pdf-ndt-reports-vs-digital-twin-asset-integrity/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/phased-array-ultrasonic-testing-complete-technical-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/tofd-inspection-time-of-flight-diffraction-explained/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/guided-wave-testing-for-pipeline-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/acoustic-emission-testing-principles-industrial-applications/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/eddy-current-testing-complete-beginner-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/magnetic-particle-inspection-procedure-interpretation/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/liquid-penetrant-inspection-surface-crack-detection-methods/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/visual-inspection-and-borescopy-best-practices/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/radiography-vs-digital-radiography-complete-comparison/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/thermography-and-infrared-inspection-techniques/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/conventional-ut-vs-phased-array-which-method-to-choose/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/immersion-ultrasonic-testing-for-complex-components/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/high-frequency-eddy-current-for-thin-wall-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/surface-breaking-crack-detection-comprehensive-methods/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/subsurface-defect-detection-with-advanced-ut/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/shear-wave-ut-for-thick-section-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/compression-wave-vs-shear-wave-technical-differences/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/multi-group-phased-array-scanning-techniques/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/weld-defect-classification-and-detection-methods/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/corrosion-mapping-with-multiple-ndt-methods/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/combined-ndt-approaches-for-comprehensive-assessment/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/real-time-ndt-data-acquisition-and-analysis-systems/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/automated-ultrasonic-testing-systems-overview-benefits/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ndt-equipment-calibration-and-maintenance-best-practices/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/reference-standards-and-block-calibration-in-ut/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/probe-selection-and-frequency-optimization/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/signal-processing-and-noise-filtering-in-ut/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/defect-sizing-techniques-in-ultrasonic-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/three-dimensional-ndt-mapping-techniques/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/lng-plant-inspection-ndt-requirements-and-procedures/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/aerospace-composite-inspection-ndt-methods-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/nuclear-power-plant-ndt-strict-standards-compliance/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/petrochemical-refinery-ndt-comprehensive-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/offshore-platform-inspection-subsea-ndt-challenges/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/power-generation-equipment-inspection-requirements/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/automotive-welded-components-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/pressure-vessel-inspection-and-compliance/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/boiler-tube-and-heat-exchanger-inspection-methods/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/pipeline-corrosion-and-mechanical-damage-assessment/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/bridge-and-structural-steel-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/medical-device-manufacturing-ndt-requirements/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/food-processing-equipment-ndt-and-sanitation/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/rail-and-locomotive-inspection-procedures/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/wind-turbine-blade-inspection-and-monitoring/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/underwater-infrastructure-inspection-techniques/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/mining-equipment-weld-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/chemical-plant-safety-inspection-requirements/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/water-treatment-facility-inspection-standards/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/aircraft-engine-component-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ship-hull-and-propulsion-system-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/casting-quality-control-with-ndt-methods/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/forging-defect-detection-and-assessment/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/fiber-optic-cable-integrity-testing/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/renewable-energy-infrastructure-inspection/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asme-section-v-article-4-ut-requirements-explained/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-571-damage-mechanisms-complete-industry-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/api-579-fitness-for-service-assessment-procedures/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/iso-11699-radiography-film-and-processing-standards/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/astm-e165-radiographic-examination-standards/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/en-1030-radiographic-documentation-and-reporting/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/blog/ped-directive-for-european-pressure-equipment/",
+      "tier": "A-R3-BLOG"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-singapore/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-cape-town/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-perth/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-dubai/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-sydney/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-brisbane/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-london/",
+      "tier": "A-R3-3DSCAN"
+    },
+    {
+      "url": "https://atlantisndt.com/3d-scanning-melbourne/",
+      "tier": "A-R3-3DSCAN"
+    }
+  ]
+}

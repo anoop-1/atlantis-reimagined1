@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-BaE92hYU.js";import{E as o}from"./ErpLocationPage-B7roBl3J.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function m(){return t.jsx(o,{city:"Wellington",country:"New Zealand",slug:"ndt-erp-wellington"})}export{m as default};

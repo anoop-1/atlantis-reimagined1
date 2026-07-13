@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-BaE92hYU.js";import{g as t,T as o}from"./TrainingLocationPage-d9AzDB4O.js";import"./RelatedProducts-xqCJSnRU.js";import"./erp-pages-BhbgqGxr.js";function p(){const i=t("corpus-christi");return i?r.jsx(o,{profile:i}):null}export{p as default};

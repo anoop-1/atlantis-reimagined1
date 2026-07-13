@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-BaE92hYU.js";import{C as o}from"./ConsultingLocationPage-CCmCuZAI.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function a(){return i.jsx(o,{locationSlug:"philippines"})}export{a as default};

@@ -1,1 +1,0 @@
-import{j as a}from"./blog-pages-BaE92hYU.js";import{D as i}from"./DigitalTwinLocationPage-B_aHNwzU.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function s(){return a.jsx(i,{city:"Manama",country:"Bahrain",slug:"digital-twin-manama"})}export{s as default};

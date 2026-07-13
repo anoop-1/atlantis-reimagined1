@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-BaE92hYU.js";import{g as i,T as n}from"./TrainingLocationPage-d9AzDB4O.js";import"./RelatedProducts-xqCJSnRU.js";import"./erp-pages-BhbgqGxr.js";function s(){const r=i("norfolk");return r?o.jsx(n,{profile:r}):null}export{s as default};

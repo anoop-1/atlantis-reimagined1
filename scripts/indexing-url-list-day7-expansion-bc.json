@@ -1,0 +1,118 @@
+{
+  "generated": "2026-06-17T06:33:24.022Z",
+  "source": "Day-7 expansion B+C",
+  "urls": [
+    {
+      "url": "https://atlantisndt.com/digital-twins/refinery/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/fpso/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/offshore-platform/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/pipeline/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/storage-tank/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/nuclear-plant/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/heat-exchanger/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/pressure-vessel/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/subsea/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/data-center/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/petrochemical-complex/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/wind-farm/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/solar-farm/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/battery-storage/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/hydrogen-electrolyzer/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/ammonia-plant/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/digital-twins/lng-terminal/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-aspen-mtell/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-aveva-pi-system/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-bentley-itwin/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-cognite-data-fusion/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-ge-predix/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-hexagon-eam/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-ibm-maximo/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-microsoft-azure-digital-twins/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-osisoft-pi/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/compare/atlantis-dt-vs-ptc-thingworx/",
+      "tier": "A"
+    },
+    {
+      "url": "https://atlantisndt.com/erp/",
+      "tier": "A"
+    }
+  ]
+}

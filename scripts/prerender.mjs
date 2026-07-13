@@ -2725,6 +2725,26 @@ const corePages = [
   </main>`,
   },
   {
+    path: '/compare/atlantis-erp-vs-floodlight',
+    title: 'Atlantis vs Floodlight 2026 — NDT Reporting Software Alternative with Full ERP',
+    description: 'Atlantis NDT ERP vs Floodlight Software: same method-by-method inspection reporting, plus certification tracking, equipment calibration, API 510/570/653 automation, RBI, and full ERP — ASNT Level III-built. Free demo + tailored quote.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>Atlantis vs Floodlight — the NDT reporting software alternative with a full ERP built in</h1>
+    <p><strong>Floodlight Software</strong> is a focused NDT inspection-reporting tool. <strong>Atlantis NDT ERP</strong> gives you the same method-by-method inspection reporting (UT, RT, MT, PT, VT, ET, PAUT, TOFD) <strong>plus</strong> the full business system around it — certification tracking, equipment calibration, work orders, RBI per API 581, FFS per API 579, invoicing, HR, and CRM — as one affordable, accessible, fully customizable platform built and supported by an ASNT NDT Level III team. Where Floodlight covers the report, Atlantis covers the whole inspection business.</p>
+    <h2>Where Atlantis goes beyond a standalone reporting tool</h2>
+    <p>All 30+ Odoo apps are bundled — no per-module licence gating — and layered with NDT-specific workflows: ASNT / ISO 9712 / PCN / CSWIP certification tracking per technician per method with expiry and recert alerts; API 510/570/653 inspection-interval automation driven by RBI per API 581; equipment and probe calibration registries with due-date alerts; ISO 9001 document and procedure/WPS control with Level III sign-off; and inspection report generation per ASME Section V and API 510/570/653. Teams replace 4–8 disjoint tools (spreadsheet cert trackers, Word doc control, paper field capture, standalone calibration logs) with one system of record.</p>
+    <h2>Method-by-method — with the governing standard</h2>
+    <p>UT (ASME V Art. 4 · ASTM E114/E164), RT (ASME V Art. 2 · ISO 17636), MT (ASTM E1444 · ASME V Art. 7), PT (ASTM E1417 · ASME V Art. 6), VT (ASME V Art. 9 · AWS D1.1), ET (ASTM E1004 · ASME V Art. 8), plus PAUT/TOFD (ISO 13588) and API 510/570/653 Authorized Inspector endorsements. Every method has its own report templates, procedure control, and per-technician certification tracking mapped to the code it is inspected under.</p>
+    <h2>Capability comparison</h2>
+    <p>Compared with Floodlight, Atlantis adds: certification tracking per method, equipment calibration registries, API 510/570/653 inspection-interval automation, RBI per API 581 and FFS per API 579, a full ERP (CRM, projects, inventory, accounting, HR), work orders and field-service dispatch, ISO 9001 document control, digital-twin integration for 3D asset overlay, ASNT Level III authorship and support, and air-gapped on-prem deployment — all fully customizable to your workflow.</p>
+    <h2>The hours-saved ROI</h2>
+    <p>Once inspection reporting, certification tracking, and work orders live in one system, Atlantis customers typically report roughly 24 admin hours saved per inspector per month, ~60% faster inspection-report turnaround, ~90% fewer transcription and data-entry errors, and zero lapsed certifications through automated expiry alerts. Anonymised reference call on request.</p>
+    <h2>Free demo + tailored quote</h2>
+    <p>Atlantis NDT publishes no pricing — it varies by region, crew size, module scope, and integration depth. <a href="/contact"><strong>Book your free ERP demo</strong></a> with Anoop Rayavarapu (founder · ASNT NDT Level III multi-method): we configure the walkthrough to your methods and client portals and return a tailored quote within 24 hours. See also <a href="/erp">Atlantis NDT ERP</a>, <a href="/best-ndt-reporting-software-2026">Best NDT Reporting Software 2026</a>, <a href="/ndt-erp-vs-generic-erp">NDT ERP vs Generic ERP</a>, and the <a href="/digital-twins">Digital Twin platform</a>.</p>
+  </main>`,
+  },
+  {
     path: '/ndt-methods',
     title: 'NDT Methods Guide | UT MT PT RT ET VT Explained | Atlantis NDT',
     description: 'Complete guide to all major NDT methods: Ultrasonic Testing (UT), Magnetic Particle Testing (MT), Penetrant Testing (PT), Radiographic Testing (RT), Eddy Current (ET), Visual Testing (VT).',
@@ -12155,16 +12175,8 @@ const PRODUCT_SCHEMAS = {
     "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
     "offers": {
       "@type": "Offer",
-      "price": "200000",
-      "priceCurrency": "USD",
-      "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": "200000",
-        "priceCurrency": "USD",
-        "unitCode": "ANN",
-        "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "ANN" }
-      },
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "url": `${SITE_URL}/digital-twins`
     },
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "47", "bestRating": "5" }
   },
@@ -12180,16 +12192,8 @@ const PRODUCT_SCHEMAS = {
     "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
     "offers": {
       "@type": "Offer",
-      "price": "18000",
-      "priceCurrency": "USD",
-      "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": "18000",
-        "priceCurrency": "USD",
-        "unitCode": "ANN",
-        "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "ANN" }
-      },
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "url": `${SITE_URL}/erp`
     },
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "62", "bestRating": "5" }
   },
@@ -12205,16 +12209,8 @@ const PRODUCT_SCHEMAS = {
     "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
     "offers": {
       "@type": "Offer",
-      "price": "50000",
-      "priceCurrency": "USD",
-      "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": "50000",
-        "priceCurrency": "USD",
-        "unitCode": "ANN",
-        "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "ANN" }
-      },
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "url": `${SITE_URL}/digital-twin-reporting`
     },
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "38", "bestRating": "5" }
   }
@@ -12429,6 +12425,8 @@ function buildSitemapByCategory(routeList, category) {
     '/consulting': '0.95',
     '/training': '0.95',
     '/digital-twins': '0.90',
+    '/erp': '0.90',
+    '/compare/atlantis-erp-vs-floodlight': '0.80',
     '/contact': '0.80',
     '/blog': '0.85',
   };
@@ -12489,6 +12487,8 @@ function buildLegacySitemap(routeList) {
     '/consulting': '0.95',
     '/training': '0.95',
     '/digital-twins': '0.90',
+    '/erp': '0.90',
+    '/compare/atlantis-erp-vs-floodlight': '0.80',
     '/contact': '0.80',
     '/blog': '0.85',
   };
@@ -12698,6 +12698,12 @@ categories.forEach(category => {
     sitemapUrls.push(`/${filename}`);
   }
 });
+
+// Include the standalone glossary sitemap (219 URLs) in the index — it is not one
+// of the route-derived categories, so without this it stays orphaned from the index.
+if (existsSync(join(ROOT, 'public', 'sitemap-glossary.xml'))) {
+  sitemapUrls.push('/sitemap-glossary.xml');
+}
 
 // Generate sitemap index
 const indexXml = buildSitemapIndex(sitemapUrls);

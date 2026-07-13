@@ -1,0 +1,28 @@
+echo '---SHOW TABLES---'
+mysql -D vmail -sNe 'SHOW TABLES;'
+echo '---DESCRIBE MAILBOX---'
+mysql -D vmail -sNe 'DESCRIBE mailbox;'
+echo '---DESCRIBE FORWARDINGS---'
+mysql -D vmail -sNe 'DESCRIBE forwardings;'
+echo '---DESCRIBE ALIAS---'
+mysql -D vmail -sNe 'DESCRIBE alias;'
+echo '---DESCRIBE RECIPIENT_BCC_USER---'
+mysql -D vmail -sNe 'DESCRIBE recipient_bcc_user;'
+echo '---DESCRIBE RECIPIENT_BCC_DOMAIN---'
+mysql -D vmail -sNe 'DESCRIBE recipient_bcc_domain;'
+echo '---SELECT FORWARDINGS INFO---'
+mysql -D vmail -sNe 'SELECT * FROM forwardings WHERE address="info@atlantisndt.com" OR forwarding LIKE "%info@atlantisndt.com%" OR forwarding LIKE "%anoop@atlantisinspection.com%";'
+echo '---SELECT ALIAS INFO---'
+mysql -D vmail -sNe 'SELECT * FROM alias WHERE address="info@atlantisndt.com" OR goto LIKE "%info@atlantisndt.com%" OR goto LIKE "%anoop@atlantisinspection.com%";'
+echo '---SELECT RECIPIENT_BCC_USER INFO---'
+mysql -D vmail -sNe 'SELECT * FROM recipient_bcc_user WHERE username="info" AND domain="atlantisndt.com";'
+echo '---SELECT RECIPIENT_BCC_DOMAIN INFO---'
+mysql -D vmail -sNe 'SELECT * FROM recipient_bcc_domain WHERE domain="atlantisndt.com";'
+echo '---SELECT ALIAS_DOMAIN INFO---'
+mysql -D vmail -sNe 'SELECT * FROM alias_domain WHERE alias_domain="atlantisndt.com" OR target_domain="atlantisndt.com";'
+
+echo '---POSTFIX MYSQL FILES---'
+for f in /etc/postfix/mysql/*.cf; do echo "FILE:$f"; cat "$f"; echo; done
+
+echo '---GREP INFO ADDRESS---'
+grep -R "info@atlantisndt.com" /etc/postfix /etc/dovecot 2>/dev/null | tail -n 200

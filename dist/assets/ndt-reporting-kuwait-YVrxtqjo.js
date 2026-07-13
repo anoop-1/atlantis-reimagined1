@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-BaE92hYU.js";import{R as i}from"./ReportingLocationPage-D6JM1l2e.js";import"./PillarHubNav-BUfVTfVy.js";import"./badge-CSbEQKzz.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function m(){return t.jsx(i,{city:"Kuwait",country:"Kuwait",slug:"ndt-reporting-kuwait"})}export{m as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Br50gGHk.js";import o from"./MethodLocationPage-RuGDv5VM.js";import"./PillarHubNav-CWYtneEp.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-rSQ7VMqL.js";function s(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"kansas-city"})}export{s as default};

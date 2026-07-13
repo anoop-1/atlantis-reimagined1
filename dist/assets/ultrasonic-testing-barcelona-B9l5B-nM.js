@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Br50gGHk.js";import t from"./MethodLocationPage-RuGDv5VM.js";import"./PillarHubNav-CWYtneEp.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-rSQ7VMqL.js";function m(){return o.jsx(t,{methodSlug:"ultrasonic-testing",locationSlug:"barcelona"})}export{m as default};

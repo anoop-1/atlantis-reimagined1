@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-BaE92hYU.js";import o from"./MethodLocationPage-2f018dwL.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";function p(){return i.jsx(o,{methodSlug:"radiographic-testing",locationSlug:"miami"})}export{p as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-BaE92hYU.js";import{C as o}from"./ConsultingLocationPage-CCmCuZAI.js";import"./PillarHubNav-BUfVTfVy.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhbgqGxr.js";import"./RelatedProducts-xqCJSnRU.js";function u(){return t.jsx(o,{locationSlug:"australia"})}export{u as default};

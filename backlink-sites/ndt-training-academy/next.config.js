@@ -3,12 +3,14 @@ const nextConfig = {
   typescript: { ignoreBuildErrors: true },
   eslint: { ignoreDuringBuilds: true },
 
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   compress: true,
   productionBrowserSourceMaps: false,
   optimizeFonts: true,
   images: {
+    unoptimized: true,
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {

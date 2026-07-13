@@ -5,6 +5,7 @@ const data = {
     service_id: 'service_eq87vtd',
     template_id: 'template_x94fhmp',
     user_id: 'mqEdxmDRFVVoxCXrv',
+    accessToken: 'WPBJYxZeR2SLLF3AsYiL3',
     template_params: {
         firstName: 'Test',
         lastName: 'User',
