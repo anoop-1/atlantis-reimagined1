@@ -1,0 +1,1 @@
+import{r as o,Y as s}from"./blog-pages-DdTodome.js";import{d as u}from"./index-D_U7S1Fg.js";var i=s[" useId ".trim().toString()]||(()=>{}),d=0;function f(r){const[t,e]=o.useState(i());return u(()=>{e(a=>a??String(d++))},[r]),t?`radix-${t}`:""}export{f as u};

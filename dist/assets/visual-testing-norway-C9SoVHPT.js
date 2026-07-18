@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-DdTodome.js";import t from"./MethodLocationPage-5Xi3-b4_.js";import"./PillarHubNav-CTZ03rWM.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BbmZvkM-.js";function n(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"norway"})}export{n as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Br50gGHk.js";import o from"./MethodLocationPage-RuGDv5VM.js";import"./PillarHubNav-CWYtneEp.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-rSQ7VMqL.js";function u(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"uk"})}export{u as default};

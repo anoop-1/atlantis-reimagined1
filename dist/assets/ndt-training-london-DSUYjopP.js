@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-DdTodome.js";import{g as r,T as n}from"./TrainingLocationPage-Bt9fQuf2.js";import"./build-hreflang-CViNgX-s.js";import"./compare-pages-DXJsGP7R.js";import"./RelatedProducts-B2NNq4Yo.js";import"./erp-pages-BbmZvkM-.js";function f(){const o=r("london");return o?i.jsx(n,{profile:o}):null}export{f as default};

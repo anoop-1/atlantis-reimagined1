@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Br50gGHk.js";import r from"./MethodLocationPage-RuGDv5VM.js";import"./PillarHubNav-CWYtneEp.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-rSQ7VMqL.js";function d(){return t.jsx(r,{methodSlug:"eddy-current-testing",locationSlug:"edinburgh"})}export{d as default};

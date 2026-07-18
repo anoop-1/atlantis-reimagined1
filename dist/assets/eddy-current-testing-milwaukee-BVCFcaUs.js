@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Br50gGHk.js";import e from"./MethodLocationPage-RuGDv5VM.js";import"./PillarHubNav-CWYtneEp.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-rSQ7VMqL.js";function u(){return t.jsx(e,{methodSlug:"eddy-current-testing",locationSlug:"milwaukee"})}export{u as default};

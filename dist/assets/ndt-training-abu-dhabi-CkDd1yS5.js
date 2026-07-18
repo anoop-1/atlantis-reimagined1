@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Br50gGHk.js";import{g as t,T as o}from"./TrainingLocationPage-CdR_POKv.js";import"./build-hreflang-CViNgX-s.js";import"./compare-pages-DdHzJJD8.js";import"./RelatedProducts-ChoXjA9g.js";import"./erp-pages-rSQ7VMqL.js";function u(){const i=t("abu-dhabi");return i?r.jsx(o,{profile:i}):null}export{u as default};

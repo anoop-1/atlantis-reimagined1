@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-DdTodome.js";import{g as t,T as o}from"./TrainingLocationPage-Bt9fQuf2.js";import"./build-hreflang-CViNgX-s.js";import"./compare-pages-DXJsGP7R.js";import"./RelatedProducts-B2NNq4Yo.js";import"./erp-pages-BbmZvkM-.js";function l(){const r=t("kuala-lumpur");return r?i.jsx(o,{profile:r}):null}export{l as default};

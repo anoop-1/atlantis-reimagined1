@@ -9,6 +9,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -65,7 +66,7 @@ const CTR_OVERRIDES = {
   // injects targeted titles/descriptions instead of generic fallbacks.
   '/services/mfl-pipeline-inspection': {
     title: 'MFL Pipeline Inspection Service 2026 — In-Line Pigging, Cost & Coverage',
-    description: 'MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, $8K–$45K/mile typical. ASNT Level III oversight.'
+    description: 'MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, scoped per mile — tailored quote in 24h. ASNT Level III oversight.'
   },
   '/compare/asnt-vs-pcn': {
     title: 'ASNT vs PCN / ISO 9712 — Which NDT Cert Wins in 2026?',
@@ -77,7 +78,7 @@ const CTR_OVERRIDES = {
   },
   '/compare/ndt-consulting-vs-in-house': {
     title: 'NDT Consulting vs In-House Team — 2026 Cost Breakdown & When to Hire',
-    description: 'NDT consulting vs in-house Level III team — fully-loaded cost analysis ($180K–$320K/yr in-house vs $1.5K–$3.5K/day consulting). Hybrid model that wins.'
+    description: 'NDT consulting vs in-house Level III team — fully-loaded cost analysis — in-house salary, benefits and overhead vs engagement-based consulting. Hybrid model that wins.'
   },
   '/api-510-india': {
     title: 'API 510 India 2026 — Exam Centres, ₹65K Fee, ₹15L–₹35L Salary Guide',
@@ -247,7 +248,7 @@ const CTR_OVERRIDES = {
   // === ERP/DT PRODUCT HUB 2026-05-09 ===
   '/compare/atlantis-dt-vs-aveva-pi-system': {
     title: 'Atlantis Digital Twin vs AVEVA PI System 2026: NDT-Native vs Time-Series',
-    description: 'Atlantis DT vs AVEVA PI System compared: NDT-native data model vs time-series historian, $200K vs $50K-$500K pricing, deployment time, integrations, when each wins.'
+    description: 'Atlantis DT vs AVEVA PI System compared: NDT-native data model vs time-series historian, affordable accessible tier vs enterprise-license historian pricing, deployment time, integrations, when each wins.'
   },
   '/compare/atlantis-dt-vs-osisoft-pi': {
     title: 'Atlantis Digital Twin vs OSIsoft PI 2026: NDT Overlay vs Process Historian',
@@ -255,7 +256,7 @@ const CTR_OVERRIDES = {
   },
   '/compare/atlantis-dt-vs-hexagon-eam': {
     title: 'Atlantis Digital Twin vs Hexagon EAM 2026: NDT-First vs Asset-Maint Platform',
-    description: 'Atlantis DT vs Hexagon EAM: NDT-first 3D digital twin vs full enterprise asset management. Inspection workflow, RBI/RCM integration, $200K vs $400K+ TCO.'
+    description: 'Atlantis DT vs Hexagon EAM: NDT-first 3D digital twin vs full enterprise asset management. Inspection workflow, RBI/RCM integration, affordable accessible tier vs enterprise-license TCO.'
   },
   '/compare/atlantis-dt-vs-siemens-mindsphere': {
     title: 'Atlantis Digital Twin vs Siemens MindSphere 2026: NDT Asset vs IIoT Platform',
@@ -263,7 +264,7 @@ const CTR_OVERRIDES = {
   },
   '/compare/atlantis-dt-vs-ge-predix': {
     title: 'Atlantis Digital Twin vs GE Predix APM 2026: NDT-Specific vs Generic APM',
-    description: 'Atlantis DT vs GE Vernova APM (Predix): NDT-specific data model vs generic asset performance. Integration with PAUT/RT/MT data, $200K vs $300K-$1M, deployment time.'
+    description: 'Atlantis DT vs GE Vernova APM (Predix): NDT-specific data model vs generic asset performance. Integration with PAUT/RT/MT data, affordable accessible tier vs enterprise-license APM, deployment time.'
   },
   '/compare/atlantis-dt-vs-ibm-maximo': {
     title: 'Atlantis Digital Twin vs IBM Maximo 2026: NDT 3D vs CMMS Work Order',
@@ -303,7 +304,7 @@ const CTR_OVERRIDES = {
   },
   '/digital-twins/refinery': {
     title: 'Digital Twin for Refineries 2026: NDT Overlay, RBI per API 581, FFS per API 579',
-    description: '3D refinery digital twin with NDT inspection overlay (UT thickness, RT defects, MT/PT indications), RBI per API 581, FFS per API 579-1, $200K/yr typical. 6-12 month ROI.'
+    description: '3D refinery digital twin with NDT inspection overlay (UT thickness, RT defects, MT/PT indications), RBI per API 581, FFS per API 579-1, fully customizable. 6-12 month typical ROI.'
   },
   '/digital-twins/fpso': {
     title: 'Digital Twin for FPSOs 2026: Hull, Process, Mooring NDT in One 3D View',
@@ -2672,7 +2673,7 @@ const corePages = [
   {
     path: '/training-me',
     title: 'NDT Training Dubai & Middle East [2026]: ASNT + ISO 9712, Level I-III (Monthly Batches)',
-    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, consistently high exam pass rates, ADNOC & Aramco recognized. Cost: $2K-$6K per level. Enrol for March/April 2026 batches.',
+    description: 'NDT training in Dubai, UAE, Saudi Arabia, Qatar & Kuwait. ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, consistently high exam pass rates, ADNOC & Aramco recognized. Affordable, accessible fees — tailored quote on enquiry. Enrol for March/April 2026 batches.',
     bodyH1: 'NDT Training Middle East',
     bodyText: 'NDT training across the Middle East — UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain. ASNT SNT-TC-1A and ISO 9712 Level I, II and III certification for UT, PAUT, RT, MT, PT, ET and VT, with ADNOC, Saudi Aramco and QatarEnergy aligned content, plus API 510, API 570 and API 653 inspector exam preparation. See <a href="/asnt-certification">ASNT certification</a> and <a href="/api-570-training">API 570 training</a>.',
   },
@@ -2894,7 +2895,7 @@ const corePages = [
   {
     path: '/ndt-erp-solution',
     title: 'NDT ERP Software 2026 — Atlantis vs SAP, Maximo, Dynamics, NetSuite | Atlantis NDT',
-    description: 'Compare top NDT ERP platforms 2026 — Atlantis (Odoo-based), SAP S/4HANA, Maximo, Dynamics 365, NetSuite, Zoho. Pre-configured ASNT SNT-TC-1A, ISO 9712, ASTM E797 calibration. $18,000/yr full suite. ASNT Level III authored. Updated May 2026.',
+    description: 'Compare top NDT ERP platforms 2026 — Atlantis (Odoo-based), SAP S/4HANA, Maximo, Dynamics 365, NetSuite, Zoho. Pre-configured ASNT SNT-TC-1A, ISO 9712, ASTM E797 calibration. Affordable full suite — tailored quote in 24h. ASNT Level III authored. Updated May 2026.',
     bodyH1: 'NDT ERP Software 2026 — Compared, Costed, Audited',
     bodyText: 'Independent ASNT Level III authored comparison of NDT ERP solutions across personnel certification tracking (ASNT SNT-TC-1A, ISO 9712, NAS 410), equipment calibration (ASTM E797 + ISO 17025), project + financial control, and audit readiness for ISO 9001 / 17020 / API Q1. Six core modules: Personnel Management, Equipment Calibration Tracking, Project + Work Order Management, Procedure + Document Control, Financial Management + Invoicing, Client + Subcontractor Portal. Eight platforms compared: Atlantis NDT ERP, SAP S/4HANA, IBM Maximo, Microsoft Dynamics 365, NetSuite, Salesforce Field Service, Zoho One, and the QuickBooks + Excel status quo. Twelve buyer FAQs. By Anoop Rayavarapu, ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001:2015 Lead Auditor.',
   },
@@ -2928,8 +2929,8 @@ const corePages = [
   },
   {
     path: '/ndt-training-dubai',
-    title: 'NDT Training Dubai [2026]: ASNT & ISO 9712 Level I-III, $2K-$6K, 95% Pass Rate [Monthly]',
-    description: 'NDT training in Dubai, UAE [2026]: ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Cost: $2K-$6K per level, monthly batches, consistently high exam pass rates, ADNOC & Aramco recognized. Tax-free NDT career in UAE earning $45K-$120K+. Next batch: March 2026. Enrol now.',
+    title: 'NDT Training Dubai [2026]: ASNT & ISO 9712 Level I-III, 95% Pass Rate [Monthly Batches]',
+    description: 'NDT training in Dubai, UAE [2026]: ASNT SNT-TC-1A + ISO 9712 Level I/II/III certification. UT, RT, MT, PT, ET, VT. Monthly batches, consistently high exam pass rates, ADNOC & Aramco recognized. Tax-free NDT career in UAE earning $45K-$120K+. Next batch: March 2026. Enrol now.',
     bodyH1: 'NDT Training Dubai & UAE',
     bodyText: 'Professional NDT training in Dubai, Abu Dhabi, and across UAE. ASNT SNT-TC-1A and ISO 9712 Level I, II, III certification for oil & gas industry professionals. CSWIP preparation available. ADNOC and Aramco contractor recognised. Tax-free career in UAE. Monthly class starts.',
   },
@@ -5330,21 +5331,21 @@ const corePages = [
   {
     path: "/compare/vs-maximo",
     title: "Atlantis NDT ERP vs IBM Maximo 2026 — Honest TCO, Features & When Maximo Wins",
-    description: "IBM Maximo Application Suite vs Atlantis NDT ERP: tier-1 EAM vs NDT-native ERP. $200K-$1M Maximo vs $18K-$120K Atlantis, MAS Health/Predict, mobile, API 510/570/653, RBI. When each platform actually wins for inspection companies.",
+    description: "IBM Maximo Application Suite vs Atlantis NDT ERP: tier-1 EAM vs NDT-native ERP. enterprise-license Maximo vs affordable accessible Atlantis, MAS Health/Predict, mobile, API 510/570/653, RBI. When each platform actually wins for inspection companies.",
     bodyH1: "Atlantis NDT ERP vs IBM Maximo 2026",
     bodyText: "IBM Maximo Application Suite (MAS) is genuinely tier-1 enterprise asset management software with a 35-year refinery, utility, transit and defense reference base.",
   },
   {
     path: "/compare/vs-sap-pm",
     title: "Atlantis NDT ERP vs SAP S/4HANA Asset Management (SAP PM) 2026 — Honest Comparison",
-    description: "SAP S/4HANA Asset Management / SAP PM vs Atlantis NDT ERP. Enterprise SAP-ecosystem fit vs NDT-native deployment, $500K+ vs $18K-$120K, ABAP customization vs SaaS configuration. When each wins.",
+    description: "SAP S/4HANA Asset Management / SAP PM vs Atlantis NDT ERP. Enterprise SAP-ecosystem fit vs NDT-native deployment, enterprise-license SAP vs affordable accessible Atlantis, ABAP customization vs SaaS configuration. When each wins.",
     bodyH1: "Atlantis NDT ERP vs SAP S/4HANA Asset Management (SAP PM) 2026 — Honest Comparison",
     bodyText: "SAP S/4HANA Asset Management (the modern successor to SAP PM) is the right choice when SAP is already your ERP backbone. The integrated financial, procurement, and HR data flow is genuinely valuable for refineries, EPCs, and manufacturers running SAP end-to-end. The honest read: SAP PM wins where SAP is already the system of record and the inspection workflow is a small fraction of overall plant operations. Atlantis NDT ERP wins for pure-play inspection / NDT / calibration / welding service comp",
   },
   {
     path: "/compare/vs-meridium",
     title: "Atlantis NDT ERP vs Hexagon Meridium APM 2026 — Honest RBI, FFS & APM Comparison",
-    description: "Hexagon Meridium APM vs Atlantis NDT ERP: refinery RBI / FFS leader vs NDT-native ERP. Meridium $400K-$2M vs Atlantis $18K-$120K, mature damage-mechanism library vs operator-template approach.",
+    description: "Hexagon Meridium APM vs Atlantis NDT ERP: refinery RBI / FFS leader vs NDT-native ERP. enterprise-license Meridium vs affordable accessible Atlantis, mature damage-mechanism library vs operator-template approach.",
     bodyH1: "Atlantis NDT ERP vs Hexagon Meridium APM 2026 — Honest RBI, FFS & APM Comparison",
     bodyText: "Hexagon Meridium APM (formerly GE / Bently Nevada / Meridium) is the industry standard for refinery Asset Performance Management. Its API 581 RBI engine, API 579 FFS calculators, and damage-mechanism library are mature, validated by decades of refinery deployments, and supported by Hexagon's services team. Atlantis NDT ERP does not pretend to replace Meridium where Meridium genuinely wins — at $5B+ refinery operators with established RBI programs. Atlantis wins for inspection service companies a",
   },
@@ -8772,9 +8773,9 @@ const corePages = [
   {
     path: '/services/mfl-pipeline-inspection',
     title: 'MFL Pipeline Inspection Service 2026 — In-Line Pigging, Cost & Coverage',
-    description: 'MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, $8K–$45K/mile typical. ASNT Level III oversight.',
+    description: 'MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, scoped per mile — tailored quote in 24h. ASNT Level III oversight.',
     bodyH1: 'MFL Pipeline Inspection Services 2026',
-    bodyText: 'Magnetic Flux Leakage (MFL) in-line inspection for transmission and gathering pipelines 4-inch through 56-inch diameter. Detects ID/OD wall loss, pitting, gouges, and dent-with-metal-loss. 100% bore coverage with axial and circumferential MFL tools. ASNT Level III oversight on every project. Typical cost $8K–$45K per mile inspected.',
+    bodyText: 'Magnetic Flux Leakage (MFL) in-line inspection for transmission and gathering pipelines 4-inch through 56-inch diameter. Detects ID/OD wall loss, pitting, gouges, and dent-with-metal-loss. 100% bore coverage with axial and circumferential MFL tools. ASNT Level III oversight on every project. Scope and cost are quoted per mile and access conditions — tailored quote within 24 hours.',
   },
   {
     path: '/compare/asnt-vs-pcn',
@@ -8793,9 +8794,9 @@ const corePages = [
   {
     path: '/compare/ndt-consulting-vs-in-house',
     title: 'NDT Consulting vs In-House Team — 2026 Cost Breakdown & When to Hire',
-    description: 'NDT consulting vs in-house Level III team — fully-loaded cost analysis ($180K–$320K/yr in-house vs $1.5K–$3.5K/day consulting). Hybrid model that wins.',
+    description: 'NDT consulting vs in-house Level III team — fully-loaded cost analysis — in-house salary, benefits and overhead vs engagement-based consulting. Hybrid model that wins.',
     bodyH1: 'NDT Consulting vs In-House Team — When Each Model Wins',
-    bodyText: 'Should you hire ASNT Level III consultants or build an in-house NDT team? This decision guide compares fully-loaded cost ($180K-$320K/year for an in-house Level III with benefits and overhead vs $1,500-$3,500 per day for consulting engagements), procedure quality, regulatory exposure, and which hybrid models work for small, mid-sized, and enterprise inspection programs.',
+    bodyText: 'Should you hire ASNT Level III consultants or build an in-house NDT team? This decision guide compares fully-loaded cost (in-house Level III salary, benefits and overhead vs engagement-based consulting scoped to your program), procedure quality, regulatory exposure, and which hybrid models work for small, mid-sized, and enterprise inspection programs.',
   },
   {
     path: '/api-510-india',
@@ -8890,11 +8891,11 @@ const corePages = [
     bodyText: 'Defense primes, naval shipyards, military aviation depots, and ground-vehicle MRO corporate training. NAS 410, MIL-STD-2154, MIL-STD-1907, NAVSEA TP248 / TP271, T.O. 33B-1-1 USAF NDI, and customer-platform written-practice bridging for NAVAIR, NAVSEA, AMC, AFMC.',
   },
   // === ERP/DT PRODUCT HUB 2026-05-09 — 26 routes (8 compare + 6 integrations + 12 usecases) ===
-  { path: '/compare/atlantis-dt-vs-aveva-pi-system', title: 'Atlantis Digital Twin vs AVEVA PI System 2026: NDT-Native vs Time-Series', description: 'Atlantis DT vs AVEVA PI System compared: NDT-native data model vs time-series historian, $200K vs $50K-$500K pricing, deployment time, integrations.', bodyH1: 'Atlantis Digital Twin vs AVEVA PI System', bodyText: 'Side-by-side comparison of Atlantis Digital Twin and AVEVA PI System for asset integrity programs. NDT-native vs time-series historian data models, deployment timeline, and total cost of ownership for inspection-heavy operations.' },
+  { path: '/compare/atlantis-dt-vs-aveva-pi-system', title: 'Atlantis Digital Twin vs AVEVA PI System 2026: NDT-Native vs Time-Series', description: 'Atlantis DT vs AVEVA PI System compared: NDT-native data model vs time-series historian, affordable accessible tier vs enterprise-license historian pricing, deployment time, integrations.', bodyH1: 'Atlantis Digital Twin vs AVEVA PI System', bodyText: 'Side-by-side comparison of Atlantis Digital Twin and AVEVA PI System for asset integrity programs. NDT-native vs time-series historian data models, deployment timeline, and total cost of ownership for inspection-heavy operations.' },
   { path: '/compare/atlantis-dt-vs-osisoft-pi', title: 'Atlantis Digital Twin vs OSIsoft PI 2026: NDT Overlay vs Process Historian', description: 'Atlantis DT vs OSIsoft PI: 3D NDT-overlay platform vs process historian. Asset integrity coverage, RBI/FFS workflows, integration cost, deployment timeline compared.', bodyH1: 'Atlantis Digital Twin vs OSIsoft PI', bodyText: 'Atlantis DT and OSIsoft PI serve different parts of the asset integrity stack. PI captures process data; Atlantis layers NDT findings onto a 3D model. Joint deployment patterns, integration cost, and TCO compared.' },
-  { path: '/compare/atlantis-dt-vs-hexagon-eam', title: 'Atlantis Digital Twin vs Hexagon EAM 2026: NDT-First vs Asset-Maint Platform', description: 'Atlantis DT vs Hexagon EAM: NDT-first 3D digital twin vs full enterprise asset management. Inspection workflow, RBI/RCM integration, $200K vs $400K+ TCO.', bodyH1: 'Atlantis Digital Twin vs Hexagon EAM', bodyText: 'Atlantis DT focuses on NDT-overlay 3D visualisation; Hexagon EAM is a full enterprise asset management platform. Comparison of inspection workflow, RBI/RCM integration, and total cost.' },
+  { path: '/compare/atlantis-dt-vs-hexagon-eam', title: 'Atlantis Digital Twin vs Hexagon EAM 2026: NDT-First vs Asset-Maint Platform', description: 'Atlantis DT vs Hexagon EAM: NDT-first 3D digital twin vs full enterprise asset management. Inspection workflow, RBI/RCM integration, affordable accessible tier vs enterprise-license TCO.', bodyH1: 'Atlantis Digital Twin vs Hexagon EAM', bodyText: 'Atlantis DT focuses on NDT-overlay 3D visualisation; Hexagon EAM is a full enterprise asset management platform. Comparison of inspection workflow, RBI/RCM integration, and total cost.' },
   { path: '/compare/atlantis-dt-vs-siemens-mindsphere', title: 'Atlantis Digital Twin vs Siemens MindSphere 2026: NDT vs IIoT Platform', description: 'Atlantis DT vs Siemens MindSphere: NDT-data-rich vs IIoT-sensor-rich digital twin. API 579 FFS, RBI workflows, integration cost, when each wins.', bodyH1: 'Atlantis Digital Twin vs Siemens MindSphere', bodyText: 'Atlantis DT is NDT-data-rich; Siemens MindSphere is IIoT-sensor-rich. Both are valid digital twin patterns. Comparison of fit for inspection-heavy vs sensor-heavy assets.' },
-  { path: '/compare/atlantis-dt-vs-ge-predix', title: 'Atlantis Digital Twin vs GE Vernova APM 2026: NDT-Specific vs Generic APM', description: 'Atlantis DT vs GE Vernova APM (formerly Predix): NDT-specific data model vs generic asset performance. Integration with PAUT/RT/MT data, $200K vs $300K-$1M, deployment.', bodyH1: 'Atlantis Digital Twin vs GE Vernova APM', bodyText: 'Atlantis DT models NDT findings natively; GE Vernova APM (formerly Predix) is generic asset performance management. Comparison of inspection data fit, integration architecture, and cost.' },
+  { path: '/compare/atlantis-dt-vs-ge-predix', title: 'Atlantis Digital Twin vs GE Vernova APM 2026: NDT-Specific vs Generic APM', description: 'Atlantis DT vs GE Vernova APM (formerly Predix): NDT-specific data model vs generic asset performance. Integration with PAUT/RT/MT data, affordable accessible tier vs enterprise-license APM, deployment.', bodyH1: 'Atlantis Digital Twin vs GE Vernova APM', bodyText: 'Atlantis DT models NDT findings natively; GE Vernova APM (formerly Predix) is generic asset performance management. Comparison of inspection data fit, integration architecture, and cost.' },
   { path: '/compare/atlantis-dt-vs-ibm-maximo', title: 'Atlantis Digital Twin vs IBM Maximo 2026: NDT 3D vs CMMS Work Order', description: 'Atlantis DT vs IBM Maximo: 3D NDT visualization vs work-order CMMS. How they complement (vs replace) each other, integration architecture, cost model.', bodyH1: 'Atlantis Digital Twin vs IBM Maximo', bodyText: 'Atlantis DT and IBM Maximo are complementary, not competitive. Atlantis provides 3D NDT-overlay visualization; Maximo manages work orders and asset master data. Recommended joint architecture.' },
   { path: '/compare/atlantis-dt-vs-bentley-itwin', title: 'Atlantis Digital Twin vs Bentley iTwin 2026: NDT Inspection vs Engineering DT', description: 'Atlantis DT vs Bentley iTwin: NDT-data-rich inspection digital twin vs engineering/BIM digital twin. Different buyer, different workflow, integration possibilities.', bodyH1: 'Atlantis Digital Twin vs Bentley iTwin', bodyText: 'Atlantis DT is an inspection / asset-integrity digital twin; Bentley iTwin is an engineering / BIM digital twin. Both serve different buyers. Comparison of fit and joint deployment patterns.' },
   { path: '/compare/atlantis-dt-vs-aspen-mtell', title: 'Atlantis DT vs AspenTech Mtell 2026: NDT vs Predictive Maintenance ML', description: 'Atlantis DT vs AspenTech Mtell: NDT-data 3D twin vs ML-driven predictive maintenance. How they integrate, cost vs benefit, recommended stack for asset integrity programs.', bodyH1: 'Atlantis Digital Twin vs AspenTech Mtell', bodyText: 'Atlantis DT focuses on NDT-overlay visualization; AspenTech Mtell focuses on ML-based anomaly prediction. They are complementary. Joint deployment recommendations.' },
@@ -8904,7 +8905,7 @@ const corePages = [
   { path: '/integrations/aspen-mtell', title: 'Atlantis DT AspenTech Mtell Integration 2026: NDT Data → ML Prediction', description: 'AspenTech Mtell integration: NDT condition data feeds Mtell ML training, anomaly predictions surfaced in Atlantis 3D twin, joint dashboards for inspection + reliability teams.', bodyH1: 'Atlantis Digital Twin AspenTech Mtell Integration', bodyText: 'NDT condition data from Atlantis flows to AspenTech Mtell for ML training. Anomaly predictions surface back in the Atlantis 3D twin for joint inspection + reliability workflows.' },
   { path: '/integrations/ge-vernova-apm', title: 'Atlantis DT GE Vernova APM Integration 2026: Asset Hierarchy + Inspection Sync', description: 'GE Vernova APM (formerly Meridium) integration: full asset hierarchy mirror, RBI/FFS data exchange, inspection findings push, 8-12 week deployment.', bodyH1: 'Atlantis Digital Twin GE Vernova APM Integration', bodyText: 'GE Vernova APM (formerly Meridium) integration. Asset hierarchy fully mirrored; RBI / FFS data exchange in both directions; inspection findings pushed.' },
   { path: '/integrations/oracle-erp-cloud', title: 'Atlantis DT Oracle ERP Cloud Integration 2026: REST API + EAM Bridge', description: 'Oracle ERP Cloud + Oracle EAM integration: REST API connector, work-order + asset master sync, NDT findings flow as Oracle service requests, 8-10 week deployment.', bodyH1: 'Atlantis Digital Twin Oracle ERP Cloud Integration', bodyText: 'Oracle ERP Cloud and Oracle EAM integration via REST API. Work orders, asset master records sync; NDT findings flow as Oracle service requests.' },
-  { path: '/digital-twins/refinery', title: 'Digital Twin for Refineries 2026: NDT Overlay, RBI per API 581, FFS per API 579', description: '3D refinery digital twin with NDT inspection overlay (UT thickness, RT defects, MT/PT indications), RBI per API 581, FFS per API 579-1, $200K/yr typical. 6-12 month ROI.', bodyH1: 'Digital Twin for Refineries', bodyText: '3D refinery digital twin with full NDT inspection overlay — UT thickness mapping, RT defect localisation, MT and PT indications, RBI per API 581 and fitness-for-service per API 579-1. Atlantis builds a living model of every unit, vessel and pipe circuit, fusing inspection history, corrosion rates and remaining-life so engineers see risk on the asset rather than in spreadsheets, and plan turnarounds with predictive, data-driven asset integrity. See the <a href="/digital-twins">digital twin platform</a> and our <a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a>.' },
+  { path: '/digital-twins/refinery', title: 'Digital Twin for Refineries 2026: NDT Overlay, RBI per API 581, FFS per API 579', description: '3D refinery digital twin with NDT inspection overlay (UT thickness, RT defects, MT/PT indications), RBI per API 581, FFS per API 579-1, fully customizable. 6-12 month typical ROI.', bodyH1: 'Digital Twin for Refineries', bodyText: '3D refinery digital twin with full NDT inspection overlay — UT thickness mapping, RT defect localisation, MT and PT indications, RBI per API 581 and fitness-for-service per API 579-1. Atlantis builds a living model of every unit, vessel and pipe circuit, fusing inspection history, corrosion rates and remaining-life so engineers see risk on the asset rather than in spreadsheets, and plan turnarounds with predictive, data-driven asset integrity. See the <a href="/digital-twins">digital twin platform</a> and our <a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a>.' },
   { path: '/digital-twins/fpso', title: 'Digital Twin for FPSOs 2026: Hull, Process, Mooring NDT in One 3D View', description: 'FPSO digital twin: hull thickness UT mapping, process piping RBI, mooring chain integrity, helideck NDT. ABS/DNV/Bureau Veritas class compliance. 12-18 month deployment.', bodyH1: 'Digital Twin for FPSOs', bodyText: 'FPSO digital twin combining hull thickness UT, process piping RBI, mooring chain integrity and helideck NDT, with ABS, DNV and Bureau Veritas class compliance throughout. The model unifies topsides and marine inspection data into one asset-integrity picture for corrosion-under-insulation, ballast tanks and turret systems, reducing class-survey cost and unplanned downtime through predictive maintenance. See the <a href="/digital-twins">digital twin platform</a>.' },
   { path: '/digital-twins/storage-tank', title: 'Digital Twin for Storage Tanks 2026: API 653 In-Service, Floor MFL, Shell UT', description: 'Above-ground storage tank digital twin: API 653 inspection schedule, floor MFL maps, shell UT thickness grids, settlement monitoring. ROI 9-18 months for 50+ tank fleets.', bodyH1: 'Digital Twin for Storage Tanks', bodyText: 'Above-ground storage tank digital twin per API 653 — floor MFL maps, shell UT thickness grids, settlement monitoring and repair-history tracking in one 3D model. Visualise corrosion rates and remaining life across the floor, shell courses and roof, schedule internal inspections by risk, and keep an auditable record for API 653 compliance. Pair it with our <a href="/api-653-certification">API 653 inspection</a> and <a href="/3d-scanning-services">3D scanning</a> services, or see the <a href="/digital-twins">digital twin platform</a>.' },
   { path: '/digital-twins/pipeline', title: 'Digital Twin for Pipelines 2026: ILI MFL/UT Integration, API 1163, Class Location', description: 'Pipeline digital twin: ILI MFL/UT/CIPS data overlay, API 1163 in-line inspection compliance, class location updates, repair tracking. 4-12 inch through 56-inch transmission.', bodyH1: 'Digital Twin for Pipelines', bodyText: 'Transmission and gathering pipeline digital twin — ILI MFL, UT and CIPS data overlay, API 1163 compliance, class-location and HCA updates, and repair tracking on a geospatial model. Fuse in-line inspection runs with corrosion growth and dig results to prioritise integrity digs and validate remaining life, moving from run-to-run snapshots to continuous predictive pipeline integrity. See the <a href="/digital-twins">digital twin platform</a>.' },
@@ -9220,6 +9221,10 @@ ${blogContentHtml}
         <a href="/best-ndt-reporting-software-2026">Reporting Software</a> ·
         <a href="/contact">Free consultation</a>
       </nav>
+      <section class="products-services" aria-label="Atlantis NDT products and services">
+        <h2>Atlantis NDT Products &amp; Services</h2>
+        <p>Atlantis NDT pairs field expertise with software: <a href="/erp">NDT inspection management software — Atlantis ERP</a> (certification tracking, work orders, method-specific reporting on 30+ apps), a <a href="/digital-twins">digital twin platform for asset integrity</a> (3D corrosion mapping, API 581 RBI, API 579 FFS), and <a href="/best-ndt-reporting-software-2026">NDT reporting software</a>. Build your team with <a href="/training">NDT training &amp; certification</a> (ASNT, API 510/570/653 — 96% first-attempt pass rate) and <a href="/asnt-certification">ASNT certification pathways</a>, or bring in <a href="/consulting">ASNT Level III consulting</a> for RBI, FFS, and written practices. Capture as-built reality with <a href="/3d-scanning-services">3D laser scanning services</a>. Affordable, accessible, fully customizable — <a href="/contact">book a free consultation</a>.</p>
+      </section>
     </article>
   </main>`;
 
@@ -12128,6 +12133,30 @@ for (const r of routes) {
 console.log('🎓 Round-6 body overrides applied: ' + Object.keys(ROUND6_BODY_OVERRIDES).length + ' routes');
 // === /Round-6 body overrides ===
 
+// === Round-7 body/meta overrides (2026-07-18) ===
+// Thin-page bodyContent parity for top-traffic pages + ERP/DT upgrades + CTR
+// metas + cannibalization canonicals. Data lives in round7-body-overrides.mjs.
+{
+  let r7applied = 0;
+  const r7missing = [];
+  for (const r of routes) {
+    const o = ROUND7_BODY_OVERRIDES[r.path];
+    if (!o) continue;
+    if (o.title) r.title = o.title;
+    if (o.description) r.description = o.description;
+    if (o.canonical) r.canonical = o.canonical;
+    if (o.bodyContent) r.bodyContent = o.bodyContent;
+    r7applied++;
+  }
+  const routePaths = new Set(routes.map(r => r.path));
+  for (const p of Object.keys(ROUND7_BODY_OVERRIDES)) {
+    if (!routePaths.has(p)) r7missing.push(p);
+  }
+  console.log('🚀 Round-7 body overrides applied: ' + r7applied + ' route hits (' + Object.keys(ROUND7_BODY_OVERRIDES).length + ' defined)');
+  if (r7missing.length) console.warn('⚠️  Round-7 paths with NO matching route: ' + r7missing.join(', '));
+}
+// === /Round-7 body overrides ===
+
 routes.forEach(route => {
   const faq = faqSchemas[route.path];
   if (!faq) return;
@@ -12541,7 +12570,20 @@ ${urls}
 
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
 const routeMap = new Map();
-routes.forEach(route => routeMap.set(route.path, route));
+// 2026-07-18 fix: later duplicate entries used to CLOBBER earlier ones wholesale,
+// silently dropping bodyContent/structuredData added by blogs.forEach or override
+// rounds (root cause of top-traffic pages shipping ~78-word empty shells).
+// Now: later entry still wins per-field, but bodyContent/structuredData/canonical
+// are preserved from the earlier entry when the later one lacks them.
+routes.forEach(route => {
+  const prev = routeMap.get(route.path);
+  if (prev) {
+    if (!route.bodyContent && prev.bodyContent) route.bodyContent = prev.bodyContent;
+    if (!route.structuredData && prev.structuredData) route.structuredData = prev.structuredData;
+    if (!route.canonical && prev.canonical) route.canonical = prev.canonical;
+  }
+  routeMap.set(route.path, route);
+});
 let dedupedRoutes = [...routeMap.values()];
 const dupesRemoved = routes.length - dedupedRoutes.length;
 if (dupesRemoved > 0) console.log(`🔄 Deduplicated: removed ${dupesRemoved} duplicate routes (${routes.length} → ${dedupedRoutes.length})`);
@@ -12606,7 +12648,17 @@ routes.forEach(route => {
     // Apply CTR overrides for tuned high-impression / low-CTR pages.
     // We replace the title + description (and let injectMeta cascade those
     // into og:title, og:description, twitter:title, twitter:description).
-    const override = CTR_OVERRIDES[route.path];
+    // 2026-07-18: Round-7 title/desc take precedence over legacy CTR_OVERRIDES
+    // (Round-7 entries are newer, GSC-audit-tuned, and pricing-policy-clean).
+    const r7 = ROUND7_BODY_OVERRIDES[route.path];
+    const override = (r7 && (r7.title || r7.description)) ? null : CTR_OVERRIDES[route.path];
+    if (r7 && (r7.title || r7.description)) {
+      route = {
+        ...route,
+        ...(r7.title ? { title: r7.title, ogTitle: r7.title } : {}),
+        ...(r7.description ? { description: r7.description, ogDesc: r7.description } : {}),
+      };
+    }
     if (override) {
       route = {
         ...route,
@@ -12675,7 +12727,9 @@ try {
     <h2>Digital Twins &amp; Reporting</h2>
     <p>Interactive 3D digital twins that overlay UT, PAUT, and corrosion-mapping data with API 579 fitness-for-service and API 581 risk-based inspection for asset-integrity management.</p>
   </main>`;
-  homeHtml = homeHtml.replace(/(<div id="root">)[\s\S]*?(<\/div>\s*<\/body>)/, (_m,o,c)=>`${o}\n${HOME_BODY}\n${c}`);
+  // 2026-07-18: prefer the Round-7 rich homepage body (products & services links)
+  const HOME_BODY_FINAL = (ROUND7_BODY_OVERRIDES['/'] && ROUND7_BODY_OVERRIDES['/'].bodyContent) || HOME_BODY;
+  homeHtml = homeHtml.replace(/(<div id="root">)[\s\S]*?(<\/div>\s*<\/body>)/, (_m,o,c)=>`${o}\n${HOME_BODY_FINAL}\n${c}`);
   writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
   console.log('🏠 dist/index.html refreshed (rotated review dates + keywords stripped)');
 } catch (err) {

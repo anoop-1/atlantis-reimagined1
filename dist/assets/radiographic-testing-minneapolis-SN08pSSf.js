@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Br50gGHk.js";import i from"./MethodLocationPage-RuGDv5VM.js";import"./PillarHubNav-CWYtneEp.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-rSQ7VMqL.js";function p(){return o.jsx(i,{methodSlug:"radiographic-testing",locationSlug:"minneapolis"})}export{p as default};
