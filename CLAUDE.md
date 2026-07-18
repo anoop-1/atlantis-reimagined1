@@ -497,3 +497,24 @@ Scheduled task created (see scheduler): each day, pull GSC, pick top OFI per seg
 - Cost-intent queries ("api 510 cost", "ndt inspection cost") are still valuable: rank for them but answer with "cost depends on region/scope -> get a tailored quote" + value framing, NOT numbers.
 - When editing/generating any page or FAQ: strip cost/fee/price figures; convert "how much does X cost" FAQs into value / contact-for-quote framing.
 - Legacy price-built pages (asnt-level-3-fees, cwi-exam-cost, ndt-inspection-cost-by-method, odoo-erp-pricing, affordable/cheapest ERP) must be **repurposed to the quote model, not deleted** (preserve their query rankings).
+
+---
+
+## 19. Round-7: empty-shell fix + ERP/DT link cascade — 2026-07-18
+
+Full report: `E:\software\Atlantis\Atlantis-SEO-Round7-Report-2026-07-18.md`. Commit `291000f9`.
+
+### 19.1 Root cause found (CRITICAL, recurring)
+The route dedupe in `prerender.mjs` (`routeMap.set(path, route)` — last wins) **clobbered bodyContent** whenever a later title/desc-only entry existed for the same path. Result: ~31 of the TOP-traffic pages (salary guide 36k impr/90d, rt-vs-ut, api-653-tank-guide, exam-schedule, /resources/*, method pages) shipped ~78-word empty shells = ~30% of all site impressions. **Fixed permanently:** dedupe now merges bodyContent/structuredData/canonical from the earlier entry when the later one lacks them.
+
+### 19.2 What shipped
+- `scripts/round7-body-overrides.mjs` — 40 pages of rich prerender bodyContent (800–1,500 words each, FAQ, contextual links into ERP/DT/Training/Consulting/3D-Scanning/Reporting). Applied after ROUND6; **Round-7 titles/descs take precedence over legacy CTR_OVERRIDES.**
+- Homepage bodyContent upgraded 169→638 words with links to all hubs (wired via `HOME_BODY_FINAL`).
+- Products & Services block appended to all 699 JSON-blog pages (keyword-rich ERP/DT anchors).
+- ERP/DT upgrades: ndt-erp-vs-generic-erp, atlantis-dt-vs-ge-predix (600 impr 0 clicks), construction-ERP-Singapore + oilfield-ERP-KL (real Malaysia/Singapore query demand), offshore-platform DT, ndt-reporting-software-comparison; CTR metas on /digital-twins, /ndt-erp-london, /ndt-erp-solution.
+- Pricing-policy cleanup (§18): stripped ALL remaining Atlantis price tokens from prerender.mjs titles/descs/bodyText ($200K DT, $18K ERP, $2K–$6K Dubai training, $8K–$45K/mile MFL, consulting day rates, competitor $ figures → qualitative). NOTE: `strip-pricing.mjs` only scans `src/` + `docs/marketing/` — it never covered `scripts/prerender.mjs`; grep prerender.mjs before every commit.
+- Cannibalization: `/blog/ut-vs-rt-comparison` canonical → rt-vs-ut-complete-comparison (salary/eddy dups were already 301'd via vercel.json).
+- 92 updated URLs submitted: Google Indexing API (10 SAs, 0 failed) + IndexNow (92 accepted).
+
+### 19.3 GSC/GA4 trend snapshot (2026-07-18 pull)
+Clicks/mo: Jan 40 → May 646 → Jun 1,279 → Jul 1,027 in 17 days (~2× June pace). Blog = 59% of clicks; ASME/AWS code posts surging. ERP last28: 17→40 clicks after Jul-13 work. DT CTR 0.34% at pos ~8 (snippet fixed this round). USA 100k impr/90d at 0.63% CTR = still the biggest prize. GA4: new Paid Search channel (3,666 sessions/28d); "AI Assistant" channel growing (95 sessions/28d). Cert pages (API 510/653, ASNT, Dubai) dipped ~30% 28d-over-28d — watch next cycle.
