@@ -3,6 +3,7 @@
 // without dead-linking to non-existent pages.
 
 export const DT_CITY_PAGE_SLUGS = new Set([
+  'adelaide','geelong','kwinana','port-hedland','mackay','wollongong','new-plymouth','whangarei','tauranga','saint-john','regina','saskatoon','nanticoke','fort-saskatchewan','hamilton-ontario','lloydminster','sarnia','whyalla', // AU/NZ/CA add 2026-07-24
   'aberdeen','abu-dhabi','anchorage','auckland','bakersfield','basrah','beaumont',
   'bergen','calgary','charlotte','chennai','christchurch','cincinnati','cleveland',
   'darwin','denver','doha','dubai','edmonton','fort-mcmurray','genoa','gladstone',
@@ -16,6 +17,7 @@ export const DT_CITY_PAGE_SLUGS = new Set([
 
 /** Cities that have an /ndt-erp-{slug} page. */
 export const ERP_CITY_PAGE_SLUGS = new Set([
+  'adelaide','geelong','kwinana','mackay','wollongong','new-plymouth','whangarei','tauranga','saint-john','regina','saskatoon','nanticoke', // AU/NZ/CA add 2026-07-24
   'aberdeen','abu-dhabi','accra','ahmedabad','algeria','anchorage','angola','argentina',
   'atlanta','auckland','austin','australia','bahrain','bakersfield','bangalore','bangkok',
   'basrah','baton-rouge','beaumont','beijing','belgium','bergen','bogota','brazil',

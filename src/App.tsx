@@ -1906,6 +1906,24 @@ const DigitalTwinSingapore = lazy(() => import("./pages/digital-twin-singapore")
 const DigitalTwinMumbai = lazy(() => import("./pages/digital-twin-mumbai"));
 const DigitalTwinLondon = lazy(() => import("./pages/digital-twin-london"));
 const DigitalTwinPerth = lazy(() => import("./pages/digital-twin-perth"));
+const DigitalTwinAunz_adelaide = lazy(() => import("./pages/digital-twin-adelaide"));
+const DigitalTwinAunz_geelong = lazy(() => import("./pages/digital-twin-geelong"));
+const DigitalTwinAunz_kwinana = lazy(() => import("./pages/digital-twin-kwinana"));
+const DigitalTwinAunz_port_hedland = lazy(() => import("./pages/digital-twin-port-hedland"));
+const DigitalTwinAunz_mackay = lazy(() => import("./pages/digital-twin-mackay"));
+const DigitalTwinAunz_wollongong = lazy(() => import("./pages/digital-twin-wollongong"));
+const DigitalTwinAunz_new_plymouth = lazy(() => import("./pages/digital-twin-new-plymouth"));
+const DigitalTwinAunz_whangarei = lazy(() => import("./pages/digital-twin-whangarei"));
+const DigitalTwinAunz_tauranga = lazy(() => import("./pages/digital-twin-tauranga"));
+const DigitalTwinAunz_saint_john = lazy(() => import("./pages/digital-twin-saint-john"));
+const DigitalTwinAunz_regina = lazy(() => import("./pages/digital-twin-regina"));
+const DigitalTwinAunz_saskatoon = lazy(() => import("./pages/digital-twin-saskatoon"));
+const DigitalTwinAunz_nanticoke = lazy(() => import("./pages/digital-twin-nanticoke"));
+const DigitalTwinAunz_fort_saskatchewan = lazy(() => import("./pages/digital-twin-fort-saskatchewan"));
+const DigitalTwinAunz_hamilton_ontario = lazy(() => import("./pages/digital-twin-hamilton-ontario"));
+const DigitalTwinAunz_lloydminster = lazy(() => import("./pages/digital-twin-lloydminster"));
+const DigitalTwinAunz_sarnia = lazy(() => import("./pages/digital-twin-sarnia"));
+const DigitalTwinAunz_whyalla = lazy(() => import("./pages/digital-twin-whyalla"));
 const DigitalTwinDoha = lazy(() => import("./pages/digital-twin-doha"));
 const DigitalTwinKuwait = lazy(() => import("./pages/digital-twin-kuwait"));
 const DigitalTwinAberdeen = lazy(() => import("./pages/digital-twin-aberdeen"));
@@ -2073,6 +2091,18 @@ const NDTErpSingapore = lazy(() => import("./pages/ndt-erp-singapore"));
 const NDTErpMumbai = lazy(() => import("./pages/ndt-erp-mumbai"));
 const NDTErpLondon = lazy(() => import("./pages/ndt-erp-london"));
 const NDTErpPerth = lazy(() => import("./pages/ndt-erp-perth"));
+const NDTErpAunz_adelaide = lazy(() => import("./pages/ndt-erp-adelaide"));
+const NDTErpAunz_geelong = lazy(() => import("./pages/ndt-erp-geelong"));
+const NDTErpAunz_kwinana = lazy(() => import("./pages/ndt-erp-kwinana"));
+const NDTErpAunz_mackay = lazy(() => import("./pages/ndt-erp-mackay"));
+const NDTErpAunz_wollongong = lazy(() => import("./pages/ndt-erp-wollongong"));
+const NDTErpAunz_new_plymouth = lazy(() => import("./pages/ndt-erp-new-plymouth"));
+const NDTErpAunz_whangarei = lazy(() => import("./pages/ndt-erp-whangarei"));
+const NDTErpAunz_tauranga = lazy(() => import("./pages/ndt-erp-tauranga"));
+const NDTErpAunz_saint_john = lazy(() => import("./pages/ndt-erp-saint-john"));
+const NDTErpAunz_regina = lazy(() => import("./pages/ndt-erp-regina"));
+const NDTErpAunz_saskatoon = lazy(() => import("./pages/ndt-erp-saskatoon"));
+const NDTErpAunz_nanticoke = lazy(() => import("./pages/ndt-erp-nanticoke"));
 const NDTErpDoha = lazy(() => import("./pages/ndt-erp-doha"));
 const NDTErpKuwait = lazy(() => import("./pages/ndt-erp-kuwait"));
 const NDTErpMuscat = lazy(() => import("./pages/ndt-erp-muscat"));
@@ -3925,6 +3955,24 @@ const App = () => (
                   <Route path="/digital-twin-mumbai" element={<LazyRoute Component={DigitalTwinMumbai} />} />
                   <Route path="/digital-twin-london" element={<LazyRoute Component={DigitalTwinLondon} />} />
                   <Route path="/digital-twin-perth" element={<LazyRoute Component={DigitalTwinPerth} />} />
+                  <Route path="/digital-twin-adelaide" element={<LazyRoute Component={DigitalTwinAunz_adelaide} />} />
+                  <Route path="/digital-twin-geelong" element={<LazyRoute Component={DigitalTwinAunz_geelong} />} />
+                  <Route path="/digital-twin-kwinana" element={<LazyRoute Component={DigitalTwinAunz_kwinana} />} />
+                  <Route path="/digital-twin-port-hedland" element={<LazyRoute Component={DigitalTwinAunz_port_hedland} />} />
+                  <Route path="/digital-twin-mackay" element={<LazyRoute Component={DigitalTwinAunz_mackay} />} />
+                  <Route path="/digital-twin-wollongong" element={<LazyRoute Component={DigitalTwinAunz_wollongong} />} />
+                  <Route path="/digital-twin-new-plymouth" element={<LazyRoute Component={DigitalTwinAunz_new_plymouth} />} />
+                  <Route path="/digital-twin-whangarei" element={<LazyRoute Component={DigitalTwinAunz_whangarei} />} />
+                  <Route path="/digital-twin-tauranga" element={<LazyRoute Component={DigitalTwinAunz_tauranga} />} />
+                  <Route path="/digital-twin-saint-john" element={<LazyRoute Component={DigitalTwinAunz_saint_john} />} />
+                  <Route path="/digital-twin-regina" element={<LazyRoute Component={DigitalTwinAunz_regina} />} />
+                  <Route path="/digital-twin-saskatoon" element={<LazyRoute Component={DigitalTwinAunz_saskatoon} />} />
+                  <Route path="/digital-twin-nanticoke" element={<LazyRoute Component={DigitalTwinAunz_nanticoke} />} />
+                  <Route path="/digital-twin-fort-saskatchewan" element={<LazyRoute Component={DigitalTwinAunz_fort_saskatchewan} />} />
+                  <Route path="/digital-twin-hamilton-ontario" element={<LazyRoute Component={DigitalTwinAunz_hamilton_ontario} />} />
+                  <Route path="/digital-twin-lloydminster" element={<LazyRoute Component={DigitalTwinAunz_lloydminster} />} />
+                  <Route path="/digital-twin-sarnia" element={<LazyRoute Component={DigitalTwinAunz_sarnia} />} />
+                  <Route path="/digital-twin-whyalla" element={<LazyRoute Component={DigitalTwinAunz_whyalla} />} />
                   <Route path="/digital-twin-doha" element={<LazyRoute Component={DigitalTwinDoha} />} />
                   <Route path="/digital-twin-kuwait" element={<LazyRoute Component={DigitalTwinKuwait} />} />
                   <Route path="/digital-twin-aberdeen" element={<LazyRoute Component={DigitalTwinAberdeen} />} />
@@ -4079,6 +4127,18 @@ const App = () => (
                   <Route path="/ndt-erp-mumbai" element={<LazyRoute Component={NDTErpMumbai} />} />
                   <Route path="/ndt-erp-london" element={<LazyRoute Component={NDTErpLondon} />} />
                   <Route path="/ndt-erp-perth" element={<LazyRoute Component={NDTErpPerth} />} />
+                  <Route path="/ndt-erp-adelaide" element={<LazyRoute Component={NDTErpAunz_adelaide} />} />
+                  <Route path="/ndt-erp-geelong" element={<LazyRoute Component={NDTErpAunz_geelong} />} />
+                  <Route path="/ndt-erp-kwinana" element={<LazyRoute Component={NDTErpAunz_kwinana} />} />
+                  <Route path="/ndt-erp-mackay" element={<LazyRoute Component={NDTErpAunz_mackay} />} />
+                  <Route path="/ndt-erp-wollongong" element={<LazyRoute Component={NDTErpAunz_wollongong} />} />
+                  <Route path="/ndt-erp-new-plymouth" element={<LazyRoute Component={NDTErpAunz_new_plymouth} />} />
+                  <Route path="/ndt-erp-whangarei" element={<LazyRoute Component={NDTErpAunz_whangarei} />} />
+                  <Route path="/ndt-erp-tauranga" element={<LazyRoute Component={NDTErpAunz_tauranga} />} />
+                  <Route path="/ndt-erp-saint-john" element={<LazyRoute Component={NDTErpAunz_saint_john} />} />
+                  <Route path="/ndt-erp-regina" element={<LazyRoute Component={NDTErpAunz_regina} />} />
+                  <Route path="/ndt-erp-saskatoon" element={<LazyRoute Component={NDTErpAunz_saskatoon} />} />
+                  <Route path="/ndt-erp-nanticoke" element={<LazyRoute Component={NDTErpAunz_nanticoke} />} />
                   <Route path="/ndt-erp-doha" element={<LazyRoute Component={NDTErpDoha} />} />
                   <Route path="/ndt-erp-kuwait" element={<LazyRoute Component={NDTErpKuwait} />} />
                   <Route path="/ndt-erp-muscat" element={<LazyRoute Component={NDTErpMuscat} />} />
