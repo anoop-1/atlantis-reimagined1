@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -165,7 +166,8 @@ export default function AtlantisDtVsHexagonEam() {
                     </div>
                 </div>
             </section>
-        <RelatedGuidesBlock links={[
+        <CompetitorDeepDive slug="hexagon-eam" />
+            <RelatedGuidesBlock links={[
   {
     "title": "Atlantis Digital Twin Platform",
     "href": "/digital-twins",

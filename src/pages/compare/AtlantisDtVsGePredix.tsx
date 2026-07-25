@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-asset + per-application — $100K–$700K/yr typical" },
@@ -79,7 +80,8 @@ export default function AtlantisDtVsGePredix() {
 
                     <h2>Migration realities</h2>
                     <p>A typical APM-to-Atlantis migration is 10–14 weeks. Equipment master and asset hierarchy migrate via APM REST API. CML registers, inspection history, and RBI library export via APM&rsquo;s standard data export. FFS calculations recompute natively in Atlantis (we don&rsquo;t trust historical FFS without re-running the calc). 3D twin is built fresh from your engineering models — APM didn&rsquo;t have a real 3D twin so there&rsquo;s nothing to migrate there. Most customers see TCO drop 40–60% and inspector adoption climb sharply within 90 days of cutover.</p>
-                </>
+                <CompetitorDeepDive slug="ge-predix" />
+            </>
             }
         />
     );

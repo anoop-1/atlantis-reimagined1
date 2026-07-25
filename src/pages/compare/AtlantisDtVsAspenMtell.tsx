@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "AspenTech Subscription — typically $150K–$700K/yr depending on rotating equipment count" },
@@ -67,7 +68,8 @@ export default function AtlantisDtVsAspenMtell() {
 
                     <h2>Integration architecture</h2>
                     <p>The standard integration is bi-directional REST. Mtell anomaly events on rotating equipment near a fixed asset (e.g. a feed pump on a reactor inlet) flow into the corresponding Atlantis asset record so integrity engineers see the operating-severity context when reviewing fixed-equipment risk. Atlantis FFS/RBI risk-band changes flow back to Mtell so reliability engineers see when the connected fixed equipment is in elevated risk and can prioritize rotating-equipment work accordingly. Implementation is 4–6 weeks of build.</p>
-                </>
+                <CompetitorDeepDive slug="aspen-mtell" />
+            </>
             }
         />
     );

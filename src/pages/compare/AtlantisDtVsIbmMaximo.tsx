@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "IBM Maximo Application Suite — per-user + per-asset, enterprise tier–$1M+/yr" },
@@ -76,7 +77,8 @@ export default function AtlantisDtVsIbmMaximo() {
 
                     <h2>Integration architecture</h2>
                     <p>The standard integration is bi-directional REST via Maximo&rsquo;s OSLC and REST APIs. Asset hierarchy, equipment master, locations, and PM job plans flow Maximo → Atlantis (Maximo is the system of record). Inspection findings, FFS/RBI risk changes, recommended corrective work, and integrity status changes flow Atlantis → Maximo as Service Requests or Notifications which then route into the standard Maximo work order workflow. Cost actuals and work completion data flow back to close the loop in Atlantis. Implementation is 3–4 weeks of integration build once both sides have a project sponsor.</p>
-                </>
+                <CompetitorDeepDive slug="ibm-maximo" />
+            </>
             }
         />
     );

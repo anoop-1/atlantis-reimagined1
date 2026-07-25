@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Subscription tiered by data volume + connected assets — $80K–$600K/yr typical" },
@@ -76,7 +77,8 @@ export default function AtlantisDtVsSiemensMindsphere() {
 
                     <h2>Coexistence pattern (most common)</h2>
                     <p>Operators with significant Siemens automation footprint plus an active inspection integrity program typically run both. Atlantis pulls severity-relevant tags from Insights Hub via REST (operating pressure, temperature, fluid composition trends) and uses them in RBI scoring. Atlantis pushes integrity events back to Insights Hub so they appear alongside process telemetry on the operations dashboards. Each platform does what it&rsquo;s designed for.</p>
-                </>
+                <CompetitorDeepDive slug="siemens-mindsphere" />
+            </>
             }
         />
     );

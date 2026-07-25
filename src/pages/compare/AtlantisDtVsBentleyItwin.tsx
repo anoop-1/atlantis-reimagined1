@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "iTwin Platform usage-based + per-user; Bentley OpenPlant per-seat. $80K–$500K/yr typical for an integrity-scope deployment" },
@@ -75,7 +76,8 @@ export default function AtlantisDtVsBentleyItwin() {
 
                     <h2>Coexistence pattern</h2>
                     <p>Large infrastructure and industrial owners commonly run both. iTwin holds the federated engineering model and the reality-capture data. Atlantis pulls the geometry and asset hierarchy from iTwin (via glTF or IFC export), captures and stores the operating inspection record, and pushes inspection events and integrity status changes back to iTwin so they appear on the federated owner view. This pattern delivers the best of both: engineering CAD lineage from Bentley plus operating integrity workflow from Atlantis.</p>
-                </>
+                <CompetitorDeepDive slug="bentley-itwin" />
+            </>
             }
         />
     );

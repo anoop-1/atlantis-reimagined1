@@ -7,6 +7,8 @@ import { CheckCircle, Zap, ArrowRight, DollarSign, Globe, Shield, ChevronDown } 
 import { useState } from "react";
 import { buildLocalBusiness } from "@/data/city-profiles";
 
+import { appKnowledge } from "@/data/erp-app-knowledge";
+
 export interface ErpIndustryAppPageProps {
   /** e.g. "CMMS for Aerospace Quality Control" */
   pageTitle: string;
@@ -113,6 +115,49 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
             ))}
           </div>
         </section>
+
+        {/* APP KNOWLEDGE DEEP-DIVE */}
+        {(() => {
+          const appSlug = props.slug.replace(/-for-[a-z-]+$/, "").replace(/-erp$/, "");
+          const k = appKnowledge[appSlug];
+          if (!k) return null;
+          return (
+            <>
+              <section className="mb-16">
+                <h2 className="text-3xl font-bold mb-5">{k.headline}</h2>
+                <div className="prose prose-invert prose-lg max-w-none">
+                  <p className="text-slate-300 leading-relaxed">{k.overview}</p>
+                  <p className="text-slate-300 leading-relaxed mt-4">{k.ndtAngle}</p>
+                </div>
+                <h3 className="text-2xl font-semibold mt-8 mb-3">How it works in an inspection workflow</h3>
+                <p className="text-slate-300 leading-relaxed max-w-3xl">{k.workflow}</p>
+              </section>
+
+              <section className="mb-16">
+                <h2 className="text-3xl font-bold mb-5">Core capabilities</h2>
+                <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
+                  {k.capabilities.map((c, idx) => (
+                    <li key={idx} className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>{c}</span></li>
+                  ))}
+                </ul>
+                <div className="grid md:grid-cols-2 gap-8 mt-8">
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3">Standards &amp; compliance</h3>
+                    <ul className="space-y-2 text-slate-300">{k.compliance.map((c, idx) => (<li key={idx} className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-1" />{c}</li>))}</ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3">Integrates with</h3>
+                    <ul className="space-y-2 text-slate-300">{k.integrations.map((c, idx) => (<li key={idx} className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-1" />{c}</li>))}</ul>
+                  </div>
+                </div>
+                <div className="mt-8 p-6 bg-emerald-500/10 border border-emerald-500/30 rounded-lg">
+                  <h3 className="text-xl font-semibold mb-2 text-emerald-300">Measurable outcomes</h3>
+                  <p className="text-slate-200 leading-relaxed">{k.roi}</p>
+                </div>
+              </section>
+            </>
+          );
+        })()}
 
         {/* USE CASES */}
         <section className="mb-16">
