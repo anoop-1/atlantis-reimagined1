@@ -16,6 +16,158 @@
  */
 
 export const digitalTwinLocationContext = {
+  "accra": "Accra is Ghana's oil and gas administrative center, anchored by the Tema Oil Refinery (TOR) — Ghana's sole domestic refinery, running decades-old process units that require rigorous corrosion-under-insulation and thickness monitoring under FFS/API 579 assessments. Offshore, the Jubilee and TEN fields feed the FPSO Kwame Nkrumah and FPSO John Agyekum Kufuor, floating production vessels operated by Tullow Oil, Eni, and Kosmos Energy that demand continuous hull, riser, and topside integrity tracking far from shore. The Atuabo Gas Processing Plant run by Ghana Gas adds high-pressure gas-handling vessels to the region's asset base, all overseen by Ghana's Petroleum Commission life-extension and safety case requirements. Digital twins let TOR, Ghana Gas, and offshore operators consolidate UT/RBI inspection history onto 3D models, cutting costly helicopter and vessel mobilizations for routine visual verification.",
+  "gabon": "Gabon's oil industry centers on Port-Gentil, the coastal hub for Gabon Oil Company (GOC), Assala Energy, Perenco, and Vaalco Energy, which operate mature offshore and onshore fields including Rabi-Kounga, Etame, and the Dussafu block through ageing platforms and pipelines well past original design life. Inland, Comilog's manganese operations at Moanda — one of the world's largest manganese mines, operated by Eramet — run extensive ore-processing and materials-handling vessels and structures. Gabon's petroleum code and environmental ministry increasingly require documented integrity and life-extension assessments (FFS per API 579) as offshore infrastructure ages past 30-40 years of service. Digital twins give Gabon's oil majors and mining operators a single 3D reference for RBI and thickness data across remote, logistically difficult offshore and jungle-interior sites.",
+  "ghana": "Beyond Accra's refinery and offshore FPSOs, Ghana's broader energy and mining sector includes the Eni-operated Sankofa Gye Nyame gas fields feeding the Onshore Receiving Facility, the Volta River Authority's Akosombo and Bui hydroelectric dams, and gold mining giants Newmont (Ahafo) and AngloGold Ashanti (Obuasi) running large-scale ore-processing plants. These assets span offshore gas infrastructure, hydroelectric civil structures, and mineral-processing vessels, each governed by Ghana's Minerals Commission or Energy Commission integrity and safety-case requirements. Ageing gold-processing circuits and hydro infrastructure built decades ago increasingly need FFS-driven life extension rather than costly replacement. A national digital-twin layer lets Ghana's power, gas, and mining operators standardize NDT-backed 3D asset records across geographically dispersed sites.",
+  "ivory-coast": "Abidjan is Ivory Coast's petroleum hub, home to the Societe Ivoirienne de Raffinage (SIR), West Africa's oldest refinery, whose decades-old distillation and cracking units require ongoing corrosion mapping and FFS assessment to stay compliant with the Ministry of Petroleum's safety directives. Offshore, Eni's CI-27 and CI-40 blocks — including the deepwater Baleine field, Africa's first net-zero emissions oil and gas development — bring modern FPSO and subsea infrastructure alongside SIR's legacy plant. Thermal power generation at the Vridi and Azito plants, which supply much of Abidjan's grid, adds high-temperature pressure vessels and turbines to the regional asset mix. Digital twins integrating NDT thickness and RBI data help SIR and CI-block operators manage both ageing refinery risk and new deepwater asset commissioning from a single 3D platform.",
+  "mozambique": "Mozambique's Cabo Delgado province hosts one of Africa's largest LNG developments — TotalEnergies' Mozambique LNG project at Afungi and Eni's Coral South floating LNG facility — bringing cryogenic liquefaction trains and FLNG hull/topside structures into a country with limited prior heavy-industry inspection infrastructure. Onshore, Sasol's Pande and Temane gas fields feed the Central Processing Facility and the Republic of Mozambique Pipeline Investments Company (ROMPCO) export line to South Africa, requiring sustained pipeline and pressure-vessel integrity monitoring. Coal mining at Moatize, near Beira and Nacala ports, adds large-scale ore-handling and processing equipment to the country's industrial base. Mozambique's National Petroleum Institute (INP) oversees safety-case and life-extension requirements as these mega-projects mature, making 3D digital twins with integrated NDT data critical for managing both nascent LNG assets and established gas infrastructure across a geographically dispersed, high-security operating environment.",
+  "nairobi": "Nairobi is East Africa's oil and gas engineering hub, hosting the headquarters of Kenya Pipeline Company (KPC), which operates the national fuel pipeline network and storage depots feeding the region, alongside KenGen's geothermal fields at Olkaria — one of the world's largest geothermal complexes, with wellhead separators and turbines requiring continuous corrosion and erosion monitoring. Tullow Oil's South Lokichar development in the Turkana basin, though remote, is managed and engineered out of Nairobi, bringing early-stage upstream production infrastructure into the country's asset base. The former Kenya Petroleum Refineries (KPRL) site in Mombasa, now converted to storage, plus Mombasa's growing port and pipeline infrastructure, round out Kenya's downstream footprint under the Energy and Petroleum Regulatory Authority's (EPRA) integrity oversight. Digital twins let Nairobi-based engineering teams manage geothermal, pipeline, and remote upstream assets from a centralized 3D platform without constant site travel to Turkana or the Rift Valley.",
+  "senegal": "Dakar is anchored by the Societe Africaine de Raffinage (SAR), Senegal's sole refinery, whose ageing process units are undergoing life-extension work as national fuel demand grows under the Ministry of Petroleum and Energy's oversight. Offshore, Woodside Energy's Sangomar field — Senegal's first offshore oil development, delivering first oil in 2024 — introduced FPSO and subsea production infrastructure requiring rigorous baseline and in-service integrity data from day one. To the north, the BP- and Kosmos Energy-operated Greater Tortue Ahmeyim (GTA) LNG project spans the Senegal-Mauritania maritime border, combining an FPSO with a nearshore floating LNG facility in a technically complex cross-border cryogenic environment. Digital twins integrated with NDT thickness and RBI data give Senegal's newly established offshore operators and SAR a unified 3D reference for both legacy refinery risk and rapidly scaling deepwater/LNG assets.",
+  "tanzania": "Dar es Salaam anchors Tanzania's energy sector through the Tanzania International Petroleum Reserves Limited (TIPER) refinery-turned-storage terminal and TANESCO's Kinyerezi gas-fired power plants, which rely on turbines and gas-handling vessels fed by domestic offshore production. Offshore Lindi and Mtwara, Shell, Equinor, and ExxonMobil hold deepwater gas blocks underpinning the planned Tanzania LNG project at Likong'o, a mega-development that will bring cryogenic liquefaction infrastructure to a coastline with little prior heavy-industry inspection capacity. Inland, gold mining operators Barrick (North Mara, Bulyanhulu) and AngloGold Ashanti (Geita) run large-scale ore-processing plants requiring sustained vessel and structural integrity monitoring under the Ministry of Minerals and PURA (Petroleum Upstream Regulatory Authority) oversight. Digital twins let Tanzania's gas, power, and mining operators consolidate NDT-backed 3D asset records ahead of the country's LNG buildout and across dispersed inland mine sites.",
+  "balikpapan": "Balikpapan is East Kalimantan's oil and gas capital, anchored by Pertamina's RU V refinery and the ongoing RDMP Balikpapan upgrade project, alongside Pertamina Hulu Mahakam's onshore and offshore gas facilities in Balikpapan Bay. Ageing refinery process units, marine terminal jetties, and offshore platform topsides operating in a tropical, high-corrosion environment demand continuous thickness monitoring and life-extension assessment under API 510/570 and FFS per API 579. SKK Migas oversight of upstream operations and Pertamina's downstream compliance obligations push operators toward digital asset registers that tie 3D geometry directly to UT/RBI inspection history. Remote site logistics across the bay and limited turnaround windows make virtual walkdowns and digital twin-based inspection planning a direct cost and safety lever.",
+  "bangladesh": "Bangladesh's energy infrastructure centers on Chattogram (Chittagong), home to the state-run Eastern Refinery Limited, the Karnaphuli river port terminals, and Summit's Moheshkhali floating storage regasification unit (FSRU) that regasifies imported LNG for the national grid. Onshore gas fields such as Bibiyana, operated historically by Chevron and now Sinopec-affiliated interests, alongside Petrobangla's ageing pipeline and compressor network, face growing FFS and RBI scrutiny as national gas reserves decline and import dependency rises. The Bangladesh Energy Regulatory Commission (BERC) and Department of Explosives set inspection and safety compliance requirements for pressure vessels and storage tanks across an infrastructure base with limited digital asset records. Cyclone exposure and dispersed field locations make 3D digital twin visualization valuable for remote inspection planning and asset handover documentation.",
+  "bintulu": "Bintulu is home to the Petronas LNG Complex, one of the world's largest single-site LNG facilities with the MLNG Satu, Dua, and Tiga trains, alongside the Shell MDS gas-to-liquids plant and Petronas Chemicals' fertilizer and methanol units. Cryogenic LNG storage tanks, liquefaction train cold boxes, and high-pressure gas processing vessels operating continuously at scale create constant demand for corrosion-under-insulation monitoring, RBI, and API 510/570 compliance across Sarawak Shell's feed gas supply chain. Malaysia's Department of Occupational Safety and Health (DOSH) and Petronas' internal integrity standards drive rigorous inspection cycles on assets that cannot easily be taken offline. Bintulu's isolated Sarawak location and reliance on marine and air logistics make 3D digital twin-based turnaround planning and virtual inspection critical to minimizing costly plant downtime.",
+  "bontang": "Bontang is East Kalimantan's LNG and fertilizer hub, built around Badak LNG (PT Badak NGL), one of Indonesia's founding liquefaction plants, and Pupuk Kaltim's large-scale ammonia and urea production complex. Feed gas from VICO Indonesia and other Mahakam-area producers supplies Badak's liquefaction trains, where cryogenic storage tanks, heat exchangers, and compressor trains require continuous corrosion and thickness monitoring as the facility ages beyond four decades of operation. SKK Migas upstream oversight and Pertamina/Pupuk Indonesia downstream integrity programs increasingly call for FFS assessment per API 579 on ageing pressure equipment. Coastal marine exposure and the plant's remote East Kalimantan location make digital twin-based virtual inspection and turnaround planning a practical way to cut logistics costs and inspection downtime.",
+  "cilacap": "Cilacap on Java's south coast hosts Pertamina's RU IV refinery, Indonesia's largest at roughly 348,000 barrels per day, alongside Solusi Bangun Indonesia's (Holcim-affiliated) cement plant and a busy oil import/export marine terminal. Decades-old distillation, cracking, and hydrotreating units at RU IV operate under continuous throughput pressure, making corrosion monitoring, RBI, and API 510/570-driven turnaround planning central to Pertamina's downstream integrity program. Indonesia's Ministry of Energy and Mineral Resources (ESDM) and Pertamina's internal HSSE standards require documented inspection history on pressure equipment nearing or exceeding original design life, pushing FFS assessment per API 579 for continued run decisions. Java's seismic activity and Cilacap's coastal exposure add urgency to structural and foundation monitoring that 3D digital twin visualization can consolidate alongside NDT thickness data.",
+  "jurong-island": "Jurong Island is Singapore's purpose-built energy and chemicals hub, home to ExxonMobil's integrated refining and petrochemical complex, Shell's Pulau Bukom refinery, Singapore Refining Company, Chevron Oronite, Sumitomo Chemical, and dozens of specialty chemical producers connected by shared pipeline racks and the Jurong Rock Caverns underground liquid hydrocarbon storage facility. The island's density of cracking units, cryogenic storage, and high-pressure reactors — many operating at or beyond original design life — makes corrosion monitoring, RBI, and API 510/570/653 compliance a constant operational priority under National Environment Agency (NEA) and Energy Market Authority oversight. Singapore's push toward the Sustainable Jurong Island 2030 vision adds pressure for digital asset management that links inspection data to decarbonization and life-extension planning. With over 100 companies operating on a single reclaimed island with limited expansion space, 3D digital twin visualization is critical for shared-infrastructure coordination, turnaround scheduling, and virtual inspection across congested plant boundaries.",
+  "kemaman": "Kemaman serves as Terengganu's offshore oil and gas support base, anchored by the Kemaman Supply Base, Vopak's independent storage terminal, and the Kemaman Bitumen Company plant, all feeding Peninsular Malaysia's offshore production and the wider Kertih-Kemaman petrochemical corridor. Offshore platform topsides serviced out of Kemaman, alongside bulk liquid storage tanks and bitumen processing vessels, require RBI and API 510/570 inspection programs to manage corrosion in a humid, marine tropical environment. Petronas' integrity standards and Malaysia's DOSH regulations govern pressure equipment inspection cycles across the base, while offshore logistics costs from Kemaman's supply vessels make virtual inspection planning a meaningful efficiency gain. The corridor's role supporting Terengganu's offshore fields makes digital twin visualization valuable for coordinating topside inspection data with onshore storage and terminal integrity records.",
+  "kerteh": "Kerteh is the anchor site of Petronas' integrated petrochemical complex, hosting Petronas Chemicals Group's ethylene, polyethylene, and aromatics plants, the Optimal Chemicals joint venture, and gas processing facilities receiving offshore feed gas via the Kertih gas terminal. Continuous cracking, polymerization, and gas separation operations across ageing high-pressure reactors and storage spheres demand rigorous RBI and API 510/570 inspection programs to sustain throughput and manage corrosion in Terengganu's coastal climate. Petronas' internal asset integrity management system and Malaysia's DOSH oversight require documented inspection history across an interconnected complex where a single unit's downtime cascades across shared utilities. The scale and complexity of Kerteh's petrochemical cluster make digital twin visualization valuable for coordinating turnaround schedules and consolidating NDT data across dozens of interlinked process units.",
+  "miri": "Miri is the birthplace of Malaysia's oil industry, site of the historic 1910 Canada Hill well, and remains Sarawak Shell Berhad's operational base for offshore exploration and production feeding gas via pipeline to the Bintulu LNG complex. Ageing offshore platforms and subsea pipeline infrastructure in the Sarawak basin, some operating well beyond original design life, require sustained RBI, API 570, and FFS per API 579 assessment to justify continued operation under Petronas and Sarawak Shell integrity programs. Malaysia's DOSH and Petronas' upstream compliance standards govern inspection cycles on platform topsides, risers, and subsea structures serviced out of Miri's supply base. Offshore logistics costs and the difficulty of physically accessing remote platforms make 3D digital twin-based virtual inspection planning a direct operational efficiency gain for Sarawak's mature offshore fields.",
+  "mongolia": "Mongolia's industrial base centers on large-scale mineral extraction — Rio Tinto and Turquoise Hill's Oyu Tolgoi copper-gold mine, the Tavan Tolgoi coal complex, and Erdenet's copper-molybdenum operations — where crushers, conveyors, mineral processing vessels, and tailings infrastructure operate in an extreme continental climate with severe temperature swings. As a landlocked country with limited domestic refining, Mongolia imports fuel and relies on operators like Petrovis and MonPetrol for storage and distribution, while its mining sector under the Mineral Resources and Petroleum Authority of Mongolia (MRPAM) drives most industrial asset integrity demand. Thermal cycling stress on structural steel and processing equipment, combined with remote mine site locations far from Ulaanbaatar, makes corrosion and structural fatigue monitoring essential to safe operation. Digital twin visualization paired with NDT data is particularly valuable for mining operators managing dispersed, hard-to-access processing infrastructure across Mongolia's steppe and desert terrain.",
+  "myanmar": "Myanmar's offshore gas sector centers on the Yadana and Yetagun fields in the Andaman Sea, historically developed by TotalEnergies, PTTEP, and Chevron, alongside the Shwe gas field off Rakhine State feeding a pipeline network to China via MOGE and POSCO-affiliated operators. Ageing offshore platforms, subsea pipelines, and the Thanlyin refinery near Yangon operate under increasingly limited international technical support, making rigorous RBI and API 570/579 fitness-for-service assessment critical to sustaining safe operation with reduced foreign operator presence. Myanmar's Ministry of Electricity and Energy and the state-owned Myanma Oil and Gas Enterprise (MOGE) hold primary regulatory and operating responsibility across a sector facing sanctions-driven divestment by major Western operators. The combination of ageing offshore infrastructure, reduced technical oversight, and remote field locations makes digital twin-based virtual inspection planning valuable for maintaining asset integrity records amid a transitioning operator landscape.",
+  "pakistan": "Pakistan's energy infrastructure spans Karachi's coastal refining cluster — PARCO Mid-Country Refinery, National Refinery Limited, and Cnergyico's Hub refinery in Balochistan — alongside Engro Elengy's LNG import terminal at Port Qasim and the giant Sui gas field operated by Pakistan Petroleum Limited, one of the country's oldest and largest producing fields. Decades-old refining units, gas processing trains, and LNG regasification infrastructure require sustained RBI and API 510/570/653 inspection programs as Pakistan's Oil and Gas Regulatory Authority (OGRA) pushes for improved integrity compliance amid chronic energy supply constraints. Ageing pipeline networks distributing Sui and imported gas across the country, combined with seismic and coastal cyclone exposure at Karachi's port facilities, add urgency to FFS assessment per API 579 for continued-run decisions. Dispersed field and refinery locations across Sindh, Punjab, and Balochistan make 3D digital twin visualization valuable for consolidating inspection data and planning turnarounds across a geographically spread asset base.",
+  "sri-lanka": "Sri Lanka's downstream oil sector centers on the Ceylon Petroleum Corporation's Sapugaskanda Refinery near Colombo and the Trincomalee China Bay tank farm, a strategic 99-tank storage facility now under a Lanka IOC-CPC joint redevelopment with Indian government backing. Decades-old refinery units and WWII-era storage tanks at Trincomalee require extensive corrosion assessment, RBI, and FFS per API 579 evaluation before recommissioning, given many tanks have sat idle or under-maintained for years. The Public Utilities Commission of Sri Lanka (PUCSL) and Ceylon Petroleum Corporation's integrity standards govern inspection requirements across a fuel supply chain critical to national energy security following recent economic crises. Colombo Port's marine terminal operations and the scale of the Trincomalee tank farm redevelopment make digital twin-based virtual inspection and asset condition documentation particularly valuable for planning phased recommissioning work.",
+  "cyprus": "Cyprus is emerging as an eastern Mediterranean energy hub, anchored by the Vasiliko Energy Center on the south coast — home to the VTTV crude and product storage terminal, Vassiliko Cement, and Cyprus's planned LNG import terminal — alongside offshore exploration blocks operated by ExxonMobil/QatarEnergy, Eni, and TotalEnergies targeting the Aphrodite and Cronos gas discoveries in Cyprus's Exclusive Economic Zone. The mix of onshore storage tanks, an LNG import facility under construction, and future subsea tie-backs from offshore gas fields creates an integrity landscape spanning both traditional terminal infrastructure and emerging deepwater subsea assets. Cyprus's Ministry of Energy oversees safety and environmental compliance across this rapidly developing sector, where minimizing costly offshore mobilization is a priority given the island's remote Mediterranean location. 3D digital twins integrating UT/PAUT thickness data let Vasiliko-area operators plan tank and pipeline inspection campaigns while offshore developers model subsea infrastructure ahead of installation.",
+  "fawley": "Fawley, near Southampton, is home to ExxonMobil's Fawley Refinery — the UK's largest oil refinery with over a century of continuous operation and an integrated petrochemical plant producing base oils and aromatics. The site's dense network of ageing pressure vessels, distillation columns, and crude/product pipelines sits alongside Southampton Water marine terminals handling crude and product tankers. UK HSE and COMAH regulations demand rigorous asset integrity management on equipment decades past original design life, making FFS assessment per API 579 and RBI-driven inspection planning essential. 3D digital twins let ExxonMobil's integrity teams overlay UT/PAUT thickness survey history directly onto plant models to prioritize turnaround scope on the highest-risk vessels and piping circuits.",
+  "grangemouth": "Grangemouth on the Firth of Forth is Scotland's principal industrial energy hub, historically home to the Petroineos refinery (a joint venture of PetroChina and Ineos) alongside the adjacent Ineos Grangemouth petrochemical complex — olefins, polymers, and the INEOS FPS Kinneil terminal that processes Forties Pipeline System crude and gas from over 80 North Sea fields. With the refinery transitioning to a fuel import terminal and the site under scrutiny from Scottish Government re-industrialization planning, integrity teams face a complex mix of decommissioning, life-extension, and repurposing decisions across thousands of vessels and pipeline circuits. Digital twins integrated with UT/PAUT thickness data let Petroineos and Ineos model FFS scenarios per API 579 for units being kept in service versus those being mothballed, supporting HSE-regulated COMAH site risk management through the transition.",
+  "greece": "Greece's refining and gas infrastructure is concentrated around Hellenic Petroleum's (HELPE) refineries at Aspropyrgos and Elefsina near Athens and Thessaloniki in the north, alongside Motor Oil Hellas's refinery at Corinth and DESFA's Revithoussa LNG import terminal, one of the busiest in the eastern Mediterranean. Greece is also a key landfall point for the Trans Adriatic Pipeline (TAP), bringing Caspian gas into Europe, and hosts growing offshore exploration interest in the Ionian Sea and south of Crete. This combination of decades-old refining assets, a high-throughput LNG terminal, and new cross-border pipeline infrastructure creates a demanding integrity environment regulated by Greece's Ministry of Environment and Energy. Digital twins integrating UT/PAUT thickness survey data and RBI programs let HELPE and Motor Oil Hellas integrity teams plan turnarounds on ageing distillation and cracking units while DESFA manages LNG terminal tank and jetty inspection schedules.",
+  "immingham": "Immingham on the Humber Estuary is the UK's largest port by tonnage and a critical energy import hub, hosting the Prax Lindsey Oil Refinery, the VPI Immingham combined heat and power plant, and vast bulk terminals for biomass, LNG, and refined products, with the Phillips 66 Humber Refinery at nearby South Killingholme feeding the same industrial corridor. The Humber region's ambition to become a net-zero industrial cluster (Humber Zero, East Coast Cluster) is layering new carbon capture and hydrogen infrastructure onto an estate of ageing refining and power assets. HSE COMAH regulation and the scale of marine, storage, and process infrastructure make asset visibility across operators and site boundaries a major integrity challenge. 3D digital twins integrating UT/PAUT thickness data and RBI programs let operators plan turnarounds around the tight jetty and berth schedules that keep the port's crude and product flows moving.",
+  "karsto": "Kårstø on Norway's west coast hosts Equinor's Kårstø gas processing plant, one of Europe's largest, receiving rich gas via pipeline from major North Sea fields including Åsgard, Kvitebjørn, and Heimdal, then separating it into dry gas, NGL, and condensate for export. The plant's dense array of cryogenic fractionation columns, high-pressure separators, and export pipeline infrastructure operates continuously under Norway's Petroleum Safety Authority (Ptil) integrity regime, where life-extension decisions on ageing process equipment carry direct consequences for North Sea gas supply reliability to Europe. Harsh coastal weather and the plant's role as a critical energy security asset make minimizing unplanned downtime a national priority. 3D digital twins integrating UT/PAUT thickness data and RBI-driven inspection scheduling let Equinor's integrity engineers plan turnarounds on cryogenic and high-pressure vessels with minimal disruption to gas throughput.",
+  "mongstad": "Mongstad on Norway's west coast is home to Equinor's Mongstad refinery, the largest in Scandinavia, alongside the CO2 Technology Centre Mongstad (TCM), the world's largest facility for testing and improving carbon capture technologies, and a major crude oil terminal supporting North Sea production. The refinery's mix of distillation, catalytic cracking, and desulfurization units — many decades old — sits directly beside cutting-edge post-combustion capture pilot plants, creating a site where legacy asset integrity and next-generation decarbonization technology must be managed in parallel. Norway's Petroleum Safety Authority (Ptil) enforces stringent integrity requirements on both the refinery and terminal infrastructure given the site's role in national energy supply and crude export logistics. Digital twins integrating UT/PAUT thickness survey history with RBI and FFS-per-API-579 assessments let Equinor's engineers manage turnaround planning across refining units while TCM's pilot infrastructure continues independent testing campaigns.",
+  "stanlow": "Stanlow Manufacturing Complex on the Manchester Ship Canal near Ellesmere Port is the UK's second-largest refinery, operated by Essar Oil UK and central to the HyNet North West hydrogen and carbon capture cluster — one of the UK's flagship industrial decarbonization projects. The site's dense concentration of distillation, hydrocracking, and hydrotreating units sits alongside new blue hydrogen production and CO2 capture infrastructure being built in parallel with continued live refining operations. UK HSE COMAH oversight and the pressure to extend asset life while simultaneously integrating new low-carbon units make coordinated 3D visualization of legacy and greenfield assets critical. Digital twins let Essar's integrity engineers combine RBI-driven UT/PAUT inspection data on decades-old vessels with construction-sequencing models for the HyNet hydrogen plant, reducing clashes and inspection downtime during the transition.",
+  "teesside": "Teesside on the Tees Estuary is one of the UK's oldest and densest chemical clusters, home to SABIC UK Petrochemicals' olefins complex, Huntsman's manufacturing plants, the Sembcorp-managed Wilton International site, and the Eni-operated CATS gas terminal that processes North Sea gas for onward distribution. The region is now also the site of Net Zero Teesside, one of the UK's largest carbon capture and storage projects, layering new CO2 gathering pipelines and compression infrastructure onto an estate of process plants dating back decades. UK HSE COMAH oversight and the scale of interconnected pipework between operators make cross-site asset visibility essential, particularly as ageing units approach end-of-design-life alongside brand-new CCS infrastructure. Digital twins combining UT/PAUT thickness survey data with RBI programs let Teesside operators manage FFS assessments per API 579 on legacy vessels while sequencing construction of the new CCS pipeline network without disrupting live production.",
+  "trondheim": "Trondheim is Norway's subsea and offshore engineering capital, anchored by SINTEF's ocean and energy research programs, NTNU's marine technology faculty, and Equinor's Rotvoll research center, which together drive innovation in subsea processing, pipeline integrity, and digital field-of-the-future technology for the Norwegian Continental Shelf. Rather than hosting a single refinery or terminal, Trondheim's industry is built around engineering and validating the subsea manifolds, pipelines, and riser systems that connect offshore fields like Åsgard and Ormen Lange to onshore processing plants, work that increasingly depends on high-fidelity 3D models to simulate subsea intervention and inspection scenarios before costly offshore deployment. Norway's Petroleum Safety Authority (Ptil) integrity standards and the extreme cost of subsea vessel access make virtual planning through digital twins a critical risk-reduction tool. Digital twin platforms integrated with UT/PAUT and subsea inspection data let Trondheim-based engineering teams validate FFS-per-API-579 scenarios and plan ROV inspection campaigns before mobilizing offshore assets.",
+  "turkey": "Turkey's petrochemical and refining backbone runs through Tüpraş's four refineries — İzmit, İzmir/Aliağa, Kırıkkale, and Batman — alongside SOCAR's STAR Refinery and the adjacent Petkim petrochemical complex at Aliağa, and BOTAŞ's extensive crude and gas pipeline network including the Ceyhan terminal, terminus of the Baku-Tbilisi-Ceyhan (BTC) pipeline and a key node for the TANAP natural gas corridor bringing Caspian gas into Europe. This scale of interconnected refining, petrochemical, and cross-border pipeline infrastructure — much of it decades old and expanding rapidly with new capacity — creates one of the most demanding integrity environments in the eastern Mediterranean, regulated under Turkey's Energy Market Regulatory Authority (EPDK). Digital twins integrating UT/PAUT thickness data and RBI-driven inspection scheduling let Tüpraş, SOCAR, and BOTAŞ integrity teams manage FFS-per-API-579 assessments across refinery units, petrochemical plants, and thousands of kilometers of pipeline infrastructure without disrupting Turkey's role as a regional energy transit hub.",
+  "gujarat": "Gujarat is India's petrochemical and refining powerhouse, anchored by Reliance Industries' Jamnagar complex — the world's largest refining hub combining two refineries and integrated petrochemical crackers — alongside Nayara Energy's Vadinar refinery, IOCL's Koyali refinery near Vadodara, and the Dahej petrochemical corridor run by ONGC, GAIL, and Reliance. The state's dense concentration of catalytic crackers, hydrocrackers, cryogenic ethylene storage, and offshore-fed gas processing trains creates continuous demand for API 510/570/653 fitness-for-service work, and operators are turning to 3D digital twins to manage turnaround planning and corrosion-under-insulation risk across sprawling, decades-old process units. With Gujarat Maritime Board ports (Mundra, Kandla) also handling LNG and hazardous cargo, integrating NDT thickness data into a live 3D model helps engineering teams justify life extension to PESO and OISD auditors without shutting down production.",
+  "maharashtra": "Maharashtra hosts India's oldest and busiest refining and port infrastructure, with HPCL's and BPCL's adjacent Mumbai refineries, ONGC's offshore Mumbai High platforms feeding onshore terminals, and JNPT alongside Mumbai Port handling dense hazardous-cargo traffic. Decades of continuous operation on tightly packed coastal real estate mean these refineries and offshore platforms face aggressive corrosion, congested piping, and limited turnaround windows, all under OISD and PESO oversight. Digital twins let inspection and reliability teams overlay UT/PAUT thickness and RBI data directly onto 3D models of crowded process units and platform topsides, cutting the site-walk time needed to plan next inspection intervals in a metro location where access is costly.",
+  "tamil-nadu": "Tamil Nadu's oil and gas backbone runs through Chennai Petroleum Corporation Limited's (CPCL) Manali refinery and adjoining Manali petrochemical complex, alongside ONGC's Cauvery Basin onshore gas fields around Narimanam and Karaikal and the Ennore LNG and coal terminals. Coastal humidity and salt-laden air accelerate external corrosion on CPCL's process columns and Cauvery Basin wellhead and gathering infrastructure, driving frequent API 570 piping and API 653 tank inspections. A 3D digital twin tied to live thickness data gives CPCL and ONGC reliability engineers a single reference model to track corrosion trends across scattered onshore fields and a congested refinery site without repeated manual walk-downs.",
+  "karnataka": "Karnataka's coastal energy hub centers on Mangalore Refinery and Petrochemicals Limited (MRPL), a major HPCL-linked refinery and integrated petrochemical unit at New Mangalore Port, supported by ONGC's Mangalore operations and the port's crude and LPG import terminals. MRPL's high-conversion units and adjacent petrochemical crackers run continuously in a humid coastal environment that accelerates corrosion under insulation, making API 510/570 pressure vessel and piping inspection a constant priority under PESO and OISD rules. Digital twins let MRPL's inspection teams visualize accumulated UT and RBI data across dense unit layouts, supporting turnaround scoping and life-extension justification for units now several decades old.",
+  "kerala": "Kerala is home to BPCL's Kochi Refinery, India's largest single-location refinery after its expansion to over 15 million tonnes per year, alongside Petronet LNG's Kochi import terminal, Cochin Shipyard's fabrication and repair yards, and FACT's Cochin fertilizer complex. The scale-up of Kochi Refinery's secondary processing units, combined with cryogenic LNG storage and heavy shipbuilding structures on the same industrial corridor, has created a dense cluster of high-consequence assets requiring rigorous API 510/653 and FFS assessment under PESO oversight. A unified 3D digital twin lets BPCL and Petronet engineers track thickness trends and RBI priorities across newly commissioned and legacy units alike, reducing the physical access burden in a humid, monsoon-prone coastal environment.",
+  "telangana": "Telangana's industrial base is less refinery-heavy than its coastal neighbors but carries significant process-hazard exposure through Hyderabad's dense pharmaceutical and bulk-drug manufacturing corridor (Dr. Reddy's, Divi's Labs and others), IOCL's LPG bottling and storage terminals, and NTPC and Genco thermal power stations supplying the state grid. High-pressure reactors, solvent storage, and boiler pressure parts across these pharma and power assets fall under Telangana State Pollution Control Board and PESO oversight for periodic fitness-for-service review. Digital twins give reliability teams at pharma manufacturing sites and power stations a single 3D reference to track vessel and pipeline thickness data, which matters most where a single API 510 vessel failure can halt a regulated bulk-drug production line.",
+  "andhra-pradesh": "Andhra Pradesh's energy sector centers on HPCL's Visakhapatnam refinery and the Krishna-Godavari (KG) Basin, where Reliance's KG-D6 offshore gas fields and ONGC's onshore and shallow-water assets feed processing and gathering infrastructure along the coast. The combination of an ageing coastal refinery, offshore platforms, and gas gathering stations under high-pressure, high-temperature conditions makes API 510/570/653 inspection and fitness-for-service assessment continuous work for both HPCL and the KG Basin operators. A 3D digital twin integrating UT/PAUT data helps engineering teams at Visakhapatnam and across the KG Basin plan turnarounds and justify life extension to PESO and DGH regulators without repeated costly offshore or refinery access.",
+  "west-bengal": "West Bengal's oil and gas infrastructure is anchored by IOCL's Haldia refinery and the adjoining Haldia Petrochemicals complex, both sited along the Hooghly River estuary near Kolkata Port and Haldia Dock — one of eastern India's busiest hazardous-cargo corridors. Decades of continuous refining and petrochemical cracking in a humid, tidal river environment accelerate external corrosion on tanks, piping, and structural steel, keeping API 570 piping and API 653 tank inspection a constant priority for IOCL under OISD and PESO rules. Digital twins give Haldia's reliability engineers a 3D reference model tying thickness and RBI data to specific vessels and pipe runs, useful for prioritizing turnaround scope across a large, congested industrial site with restricted river-side access.",
+  "visakhapatnam": "Visakhapatnam is Andhra Pradesh's coastal industrial anchor, home to HPCL's major refinery, the Rashtriya Ispat Nigam Limited (RINL) Vizag Steel Plant, ONGC's regional operations base supporting Krishna-Godavari Basin offshore platforms, and Vizag Port's crude, LPG, and planned LNG import terminals. The city's dense mix of an ageing refinery, integrated steel plant, and offshore-support infrastructure operating in a humid, cyclone-exposed coastal climate drives constant API 510/570/653 inspection demand under PESO and OISD oversight. A 3D digital twin integrating NDT thickness data lets HPCL, RINL, and ONGC engineering teams manage corrosion and turnaround planning across a compact but asset-dense port city where facility footprints leave little room for prolonged outages.",
+  "abqaiq": "Abqaiq hosts Saudi Aramco's Abqaiq Plants, the world's largest crude oil stabilization and processing complex, handling roughly half of Saudi Arabia's crude output through its gas-oil separation plants (GOSPs), stabilizer columns, and desalting trains before export via Ras Tanura and Yanbu. Much of the original process infrastructure dates to the 1940s-50s with continuous debottlenecking since, and the facility's post-2019 drone-strike rebuild accelerated Aramco's push toward digital asset integrity monitoring across sour-crude stabilizers, amine units, and high-pressure separator vessels. Sour service (H2S) drives aggressive API 510/570/579 fitness-for-service and RBI programs, and the sheer density of interconnected piping and pressure vessels across the plant footprint makes 3D digital twins essential for visualizing corrosion-under-insulation, sulfide stress cracking, and inspection history without shutting down critical trains. Aramco's enterprise-wide asset integrity digitalization mandate makes Abqaiq a flagship site for NDT-integrated twin deployment.",
+  "al-zour": "Al-Zour is Kuwait's newest and largest industrial energy complex, anchored by KIPIC's Al-Zour Refinery, one of the largest single-site grassroots refineries in the world at over 615,000 bpd, alongside the adjacent Al-Zour LNG import terminal and Al-Zour North independent power and water plant. The refinery's fully integrated CDU/VDU, FCC, hydrocracker, and deep desulfurization units run alongside cryogenic LNG storage tanks and regasification trains, creating a facility where hydrocarbon processing risk and cryogenic containment risk sit side by side. As a newly commissioned mega-asset, KIPIC and the Kuwait Environment Public Authority require rigorous baseline integrity documentation and RBI-driven inspection planning from day one, making 3D digital twins with embedded UT/PAUT thickness data critical for tracking corrosion trends against as-built baselines across thousands of new pressure vessels and piping circuits. The scale and complexity of Al-Zour make manual paper-based inspection tracking effectively unworkable.",
+  "duqm": "Duqm is Oman's flagship Special Economic Zone (SEZAD), built around the greenfield Duqm Refinery operated by OQ8, a joint venture between Oman's OQ and Kuwait Petroleum International designed to process heavy and sour crude blends at 230,000 bpd, alongside the Duqm Port, dry dock, and a planned petrochemical complex. As a newly built refinery and industrial city rising in a previously undeveloped coastal desert location, Duqm's operators face the challenge of establishing digital-first asset integrity programs from first oil rather than retrofitting legacy paper systems, with Oman's Ministry of Energy and Minerals pushing RBI and FFS compliance across new pressure vessel and piping populations. The dry dock and marine fabrication yards add offshore structure and hull inspection needs on top of refinery process units, while remote location and limited local technical labor make virtual 3D inspection planning and remote NDT data review a practical necessity rather than a convenience.",
+  "fujairah": "Fujairah is the Arabian Gulf's principal oil storage and bunkering hub, strategically positioned outside the Strait of Hormuz within the Fujairah Oil Industry Zone (FOIZ), where terminal operators VTTI, Vopak, and Independent Petroleum Group (IPG) run dense clusters of atmospheric storage tanks alongside ADNOC's Fujairah crude oil pipeline terminal, the Gulf's bypass route for Abu Dhabi crude exports. The city also hosts the Fujairah F3 independent power and water plant and one of the world's busiest ship-to-ship bunkering anchorages, meaning tank floor and shell corrosion, corrosion-under-insulation on piping racks, and jetty structural integrity are constant operational concerns across a dense multi-operator tank farm landscape. Fujairah Municipality and UAE federal regulators increasingly require documented tank inspection and RBI programs across the FOIZ, and because storage capacity there directly affects Gulf crude trading flexibility, digital twins that overlay UT thickness and tank settlement survey data onto 3D terminal models let operators plan API 653 tank inspections without idling revenue-generating storage capacity.",
+  "iraq": "Iraq's oil sector centers on the giant Rumaila and West Qurna fields near Basra, operated through partnerships involving BP, ExxonMobil, and PetroChina alongside the state's Basra Oil Company and South Refineries Company, with crude exported through offshore single-point mooring (SPM) terminals in the Persian Gulf and processed at the Basra and Shuaiba refineries. Decades of underinvestment, conflict damage, and deferred maintenance have left much of Iraq's upstream and downstream infrastructure operating well past original design life, making fitness-for-service assessment and life-extension inspection programs a national priority as international operators push RBI-based integrity management under production-sharing and technical service contracts. The Basrah Gas Company's associated gas capture project adds cryogenic NGL and gas processing assets to an already complex inspection landscape spanning onshore GOSPs, export pipelines, and offshore mooring systems. With scarce local NDT technical capacity and high security/logistics costs for site access, 3D digital twins that consolidate historical inspection data and support remote engineering review are a high-value tool for operators managing Iraq's aging, sprawling asset base.",
+  "israel": "Israel's energy infrastructure is built around the offshore Leviathan and Tamar gas fields in the Eastern Mediterranean, operated by Chevron and NewMed Energy, which feed onshore processing and the INGL national gas pipeline grid, while the Haifa Bay refining complex run by Bazan Group and the Ashdod Oil Refineries Ltd. handle the country's crude processing and petrochemical output. Offshore platform topsides, subsea pipelines, and floating production infrastructure in Leviathan and Tamar's deepwater fields face harsh Mediterranean weather and corrosion exposure far from shore-based maintenance crews, while Haifa and Ashdod's refinery and petrochemical units require ongoing API 510/570 mechanical integrity work on process infrastructure with a multi-decade operating history. Israel's Ministry of Energy and Petroleum Commissioner increasingly expect documented RBI and FFS programs for both offshore platforms and onshore refining assets, and the geographic separation between offshore gas infrastructure, onshore pipeline networks, and refinery units makes a unified 3D digital twin valuable for coordinating inspection planning and NDT data across the full asset chain.",
+  "khurais": "Khurais is home to Saudi Aramco's Khurais field, one of the largest oil fields in the world with sustained production capacity above 1 million bpd, supported by an extensive network of gas-oil separation plants (GOSPs), water injection facilities, and the Khurais Producing Department's central processing and pipeline links to Abqaiq. The field's associated gas is also central to Aramco's Central Arabia gas expansion, adding sales gas compression and processing trains alongside the crude-handling GOSPs. Aramco's company-wide RBI and mechanical integrity standards apply uniformly across Khurais's dispersed processing facilities, but the field's sheer geographic spread across the central Arabian desert makes physical site access for inspection planning and data review logistically expensive, positioning 3D digital twins with embedded UT thickness and corrosion trend data as a practical way to centralize integrity oversight across a highly distributed asset base without constant field travel.",
+  "mesaieed": "Mesaieed Industrial City is Qatar's primary petrochemical and heavy-industry hub south of Doha, home to QatarEnergy's Mesaieed Refinery, Qatar Petrochemical Company (QAPCO), Qatar Fuel Additives Company (QAFAC), the ORYX GTL gas-to-liquids plant, and Qatar Steel's electric arc furnace operations, all clustered along a dense industrial coastline with dedicated port facilities. The mix of refining, olefins/polyethylene petrochemical production, methanol/MTBE synthesis, and gas-to-liquids conversion means Mesaieed's inspection landscape spans high-temperature cracking furnaces, cryogenic and pressurized storage, and reactive-service piping systems, all requiring coordinated API 510/570/653 and RBI programs under Qatar's Ministry of Environment and Climate Change industrial safety oversight. QatarEnergy's broader digitalization push across its downstream portfolio makes Mesaieed a natural candidate for 3D digital twins that unify inspection data across the multiple co-located but separately operated plants sharing utilities and pipe racks.",
+  "mussafah": "Mussafah is Abu Dhabi's dense industrial and fabrication district, home to National Petroleum Construction Company (NPCC) and other major offshore platform and pipeline fabrication yards that build topside modules, jackets, and subsea structures for ADNOC's offshore field developments, alongside the Musaffah Port and a broad base of steel fabrication, manufacturing, and heavy engineering facilities. Because Mussafah's fabrication yards construct pressure vessels, piping spools, and platform structures that must pass stringent pre-installation NDT (RT, UT, MT, PT) before shipment offshore, quality assurance and weld inspection traceability are core to the district's value proposition to ADNOC and international operators. ADNOC's local content and quality standards push fabricators toward digital documentation of inspection records tied to specific weld joints and vessel components, making 3D digital twins that map NDT results directly onto as-built fabrication models valuable for both quality control during construction and lifecycle handover to the eventual offshore operator.",
+  "ras-laffan": "Ras Laffan Industrial City is the world's largest LNG export hub, home to QatarEnergy LNG's (formerly Qatargas/RasGas) massive cryogenic LNG trains drawing on the North Field, the world's largest natural gas field, alongside the Shell Pearl GTL gas-to-liquids plant and the Laffan Refinery processing condensate. The North Field expansion project is adding new liquefaction trains and associated gas processing capacity, making Ras Laffan one of the most active LNG construction and integrity-management sites globally, with cryogenic storage tanks, liquefaction cold boxes, and high-pressure gas processing separators all requiring rigorous FFS and RBI programs under Qatar's Ministry of Environment and Climate Change. QatarEnergy's scale of operations across dozens of parallel LNG trains and processing units makes centralized 3D digital twin visualization of inspection history essential for planning turnarounds and prioritizing NDT resources across an enormous, continuously expanding industrial city.",
+  "salalah": "Salalah in southern Oman combines the Port of Salalah, one of the region's largest transshipment ports, with the Salalah Free Zone's petrochemical and methanol production, anchored by Salalah Methanol Company's world-scale methanol plant supplying regional and export markets. The methanol plant's high-pressure synthesis loops, reformers, and cryogenic-adjacent storage require rigorous API 510/570 mechanical integrity programs, while the port's fuel bunkering and product storage terminals add tank and pipeline inspection scope under Oman's Ministry of Energy and Minerals oversight. Salalah's role as a logistics gateway for southern Oman and its relative distance from Muscat's technical resource base makes remote inspection planning and digital documentation of NDT data particularly valuable for operators managing turnaround schedules without constant on-site technical staff presence.",
+  "shaybah": "Shaybah is Saudi Aramco's remote oil field deep in the Rub' al Khali (Empty Quarter), one of the most logistically demanding production environments in the world, producing high-quality Arabian Extra Light crude through gas-oil separation plants and an integrated NGL recovery and gas processing complex, with all production and personnel access requiring dedicated pipeline, road, or air logistics across hundreds of kilometers of open desert. The field's extreme remoteness, sand encroachment, and thermal cycling create unique asset integrity challenges for pressure vessels, gas processing trains, and export pipelines, while flying in inspection crews and physically transporting historical inspection records is costly and slow. This logistics profile makes Shaybah one of the clearest cases in Aramco's portfolio for 3D digital twins paired with remote NDT data review, letting engineers in Dhahran assess corrosion trends and plan turnaround inspection scope without deploying teams to one of the most isolated oil fields on earth.",
+  "tunisia": "Tunisia's hydrocarbon sector is centered on the STIR refinery (Société Tunisienne des Industries de Raffinage) in Bizerte, the country's only refinery, alongside offshore and onshore gas production from fields such as Miskar, El Borma, and the OMV/ETAP-operated Nawara gas development in the south, all overseen by the state's Entreprise Tunisienne d'Activités Pétrolières (ETAP). Much of Tunisia's process infrastructure, particularly the Bizerte refinery, has decades of continuous operation with limited capital reinvestment, making fitness-for-service assessment and corrosion life-extension studies central to keeping units running safely, while offshore platforms in the Gulf of Gabès face harsh marine corrosion exposure with limited local offshore inspection capacity. Tunisia's Ministry of Industry, Mines and Energy is pushing greater safety and environmental compliance across aging assets, and the combination of legacy refinery infrastructure, offshore platforms, and remote southern gas fields makes 3D digital twins valuable for consolidating inspection history across a geographically and technically diverse asset base with constrained local NDT resources.",
+  "alberta": "Alberta is the heart of Canada's oil sands and industrial heartland, anchored by Suncor, Syncrude, Canadian Natural Resources, and Imperial Oil's massive bitumen extraction and upgrading operations around Fort McMurray and Cold Lake, alongside the Fort Saskatchewan petrochemical cluster (Dow, Nutrien, Shell Scotford) and the Lloydminster heavy-oil upgrader. Aging upgraders, coker units, extraction vessels, and thousands of kilometers of Enbridge and TC Energy pipeline infrastructure fall under Alberta Energy Regulator (AER) integrity mandates requiring rigorous corrosion and fitness-for-service monitoring. The scale and remoteness of oil sands sites make 3D digital twins essential for planning turnarounds, tracking coker and upgrader wall-thickness data, and reducing site-visit costs across sprawling, cold-climate facilities.",
+  "azerbaijan": "Azerbaijan's Caspian Sea oil and gas sector is dominated by SOCAR and the BP-operated Azeri-Chirag-Guneshli (ACG) and Shah Deniz projects, with the Sangachal Terminal and the Baku-Tbilisi-Ceyhan (BTC) pipeline forming critical export infrastructure. Offshore platforms, subsea pipelines, and terminal storage tanks operate in a harsh Caspian marine environment where corrosion, fatigue, and structural integrity are constant concerns for operators and Azerbaijan's hydrocarbon regulatory bodies. Digital twins integrated with UT/PAUT thickness data let BP, SOCAR, and their partners plan offshore inspection campaigns, manage platform life extension, and reduce costly helicopter and vessel mobilizations to remote Caspian assets.",
+  "ecuador": "Ecuador's oil economy centers on state operator Petroecuador, whose Esmeraldas refinery — the country's largest — processes crude piped from Amazon basin oil fields around Lago Agrio and Sacha via the SOTE and privately-operated OCP pipelines to the Pacific coast. Decades-old refining units, storage tank farms, and pipeline infrastructure crossing environmentally sensitive Amazon and Andean terrain face intense regulatory and life-extension scrutiny from Ecuador's hydrocarbons authority. 3D digital twins let Petroecuador and pipeline operators plan inspection and turnaround work remotely, integrate corrosion and thickness data across geographically dispersed assets, and support life-extension decisions on aging Amazon-basin production facilities.",
+  "guyana": "Guyana has become one of the world's fastest-growing offshore oil provinces through ExxonMobil's Stabroek Block, where a fleet of FPSOs — Liza Destiny, Liza Unity, Prosperity, and One Guyana — process crude from deepwater subsea wells in a young, rapidly scaling basin with no legacy onshore infrastructure. The complexity of FPSO topsides, subsea production systems, and turret mooring in Atlantic deepwater conditions makes structural integrity monitoring and NDT-informed life extension planning critical from day one of operations. Digital twins give ExxonMobil, its partners, and local regulators a way to visualize FPSO asset condition, track hull and topside thickness data, and plan inspection campaigns for a fleet operating far offshore Georgetown with no onshore refining or pipeline network to fall back on.",
+  "kazakhstan": "Kazakhstan hosts some of the world's largest and most technically demanding oil fields — Tengizchevroil's (TCO) Tengiz field, the NCOC-operated Kashagan field beneath the Caspian seabed, and KazMunayGas's (KMG) Karachaganak and Atyrau refinery operations — all defined by extreme sour-gas conditions, high pressure, and harsh continental climate. The Caspian Pipeline Consortium (CPC) moves crude from Tengiz to Novorossiysk, while Kashagan's man-made islands and subsea infrastructure represent some of the most complex and expensive assets in the industry, driving intense API 579 fitness-for-service and RBI programs. Digital twins let TCO, NCOC, and KMG integrate PAUT thickness data across sprawling sour-service process trains and remote Caspian infrastructure, cutting the cost and risk of physical inspection in a region with extreme temperature swings and limited site access.",
+  "ontario": "Ontario's industrial base spans Sarnia's Chemical Valley — home to Imperial Oil, Shell, NOVA Chemicals, and Suncor petrochemical and refining operations — alongside Hamilton's Stelco and ArcelorMittal Dofasco steelmaking complexes and the province's nuclear generating fleet at Bruce Power, Darlington, and Pickering operated under CNSC oversight. Aging refinery and petrochemical process units in Sarnia, blast furnaces and continuous casters in Hamilton, and nuclear steam generators and pressure vessels all require rigorous integrity monitoring under decades-long life-extension and refurbishment programs. Digital twins integrated with UT/PAUT and RBI data let Ontario's petrochemical, steel, and nuclear operators plan turnarounds, track wall-thickness trends across long-lived assets, and support the province's major nuclear refurbishment megaprojects.",
+  "panama": "Panama's strategic position drives major infrastructure investment around the Panama Canal, the Balboa and Cristobal container ports, and AES Panama's Costa Norte LNG import terminal supplying Central America's growing gas-fired power fleet, alongside the large-scale Cobre Panama copper mining and processing complex. Canal lock gates, LNG cryogenic storage and regasification equipment, and mineral processing vessels all demand rigorous structural and corrosion integrity programs given Panama's humid tropical environment and the assets' critical role in regional trade and energy supply. Digital twins let port authorities, LNG terminal operators, and mining companies visualize asset condition, integrate NDT thickness data across dispersed infrastructure, and plan maintenance without disrupting continuous canal and terminal operations.",
+  "port-kembla": "Port Kembla is home to BlueScope's integrated steelworks — one of Australia's two remaining blast-furnace steel mills — alongside a coal export terminal, grain terminal, legacy copper smelter infrastructure, and Australia's newest LNG import terminal developed to supply gas into the east-coast market. Blast furnaces, coke ovens, continuous casters, and cryogenic LNG storage and regasification equipment sit within a compact industrial precinct where NSW regulators demand tight integrity monitoring on ageing steelmaking assets alongside brand-new LNG infrastructure. Digital twins let BlueScope and the LNG terminal operator integrate thickness and RBI data across blast furnace shells, ladles, and cryogenic tanks, supporting both life-extension of legacy steel assets and commissioning-stage integrity baselines for new gas infrastructure.",
+  "suriname": "Suriname's offshore Block 58 — operated by TotalEnergies and APA Corporation with major discoveries at Sapakara and Krabdagu — is rapidly emerging as a new deepwater oil province alongside state operator Staatsolie's onshore refining near Paramaribo, Newmont's Merian gold mine, and the country's legacy bauxite/alumina processing heritage from the former Suralco operations. As Suriname moves from exploration toward FPSO-based production, subsea infrastructure, floating production vessels, and onshore refining and gold-processing equipment all require early-stage integrity baselines and ongoing NDT monitoring in a challenging equatorial, high-rainfall environment. Digital twins give TotalEnergies, APA, Staatsolie, and Newmont a way to visualize asset condition across dispersed onshore and offshore operations, track corrosion and thickness trends from first oil onward, and plan inspection logistics in a country with limited industrial infrastructure.",
+  "alaska": "Alaska's oil economy centers on the North Slope, where ConocoPhillips operates the Kuparuk and Alpine fields alongside legacy Prudhoe Bay production run by Hilcorp, all feeding the 800-mile Trans-Alaska Pipeline System (TAPS) operated by Alyeska Pipeline Service Company to the Valdez Marine Terminal. Arctic conditions, permafrost foundation stress, and extreme logistics costs make in-person inspection of remote wellhead facilities, pump stations, and the pipeline itself enormously expensive, so digital twins that fuse UT/PAUT thickness data with 3D models let engineers plan turnarounds and corrosion-under-insulation surveys without repeat mobilizations. Alyeska and North Slope operators answer to PHMSA pipeline-integrity rules and Alaska DEC spill-prevention requirements that demand documented fitness-for-service per API 579. Petro Star's North Pole and Valdez refineries add further asset classes needing lifecycle digital-twin tracking in one of the most remote industrial environments in North America.",
+  "california": "California hosts one of the densest refining corridors in the US, including Chevron's El Segundo and Richmond refineries, Marathon's Los Angeles Refinery spanning Carson, Valero's Benicia and Wilmington refineries, PBF Energy's Torrance Refinery, and the independently-operated Martinez refinery (formerly Shell), alongside legacy offshore platforms in the Santa Barbara Channel now moving through plugging-and-abandonment. CARB and the California Geologic Energy Management Division (CalGEM) impose some of the strictest emissions, seismic, and well-integrity oversight in the country, pushing operators toward continuous fitness-for-service documentation under API 510/570/653 and API 579 FFS. Seismic risk adds a structural-integrity dimension unique to California assets, making 3D digital twins that overlay UT/PAUT thickness data and RBI schedules essential for demonstrating compliance and planning turnarounds across this refining-dense, high-regulation state. Aging platform and refinery infrastructure statewide is driving demand for lifecycle digital-twin records ahead of decommissioning and life-extension decisions.",
+  "clairton": "Clairton, Pennsylvania is home to U.S. Steel's Clairton Coke Works, the largest coke-producing facility in North America and the anchor of U.S. Steel's Mon Valley Works integrated steelmaking complex. Coke oven batteries, quench towers, and byproduct recovery vessels operate under continuous high-temperature thermal cycling that accelerates refractory wear and shell degradation, driving a steady cadence of UT thickness surveys and visual/PT inspection on structural steel. U.S. Steel's ongoing environmental consent decrees and Allegheny County Health Department air-quality mandates require tight asset-integrity documentation, and 3D digital twins that tie inspection history to specific batteries and byproduct units let engineers plan outages around aging, difficult-to-access coke oven infrastructure. Life-extension decisions on decades-old batteries make digital fitness-for-service records a growing priority for the plant.",
+  "conroe": "Conroe, Texas sits atop the historic Conroe oil field — one of the largest US oil discoveries of the 1930s — and today anchors a corridor of oilfield equipment manufacturers and services companies supplying the Permian, Eagle Ford, and Gulf Coast basins. Pressure vessels, tank batteries, and fabricated wellhead/artificial-lift equipment produced and serviced in the Conroe/Montgomery County corridor require API 510/653 inspection before shipment and during field service life, and manufacturers use 3D digital twins to track UT/PAUT thickness data across fabrication batches and warranty life. Proximity to Houston's inspection and engineering workforce makes Conroe a natural hub for digital-twin-enabled quality assurance on oilfield equipment destined for remote well sites. As legacy Conroe-field production assets age, operators increasingly need fitness-for-service documentation to justify continued run life.",
+  "detroit": "Detroit is anchored by Marathon Petroleum's Detroit refinery — the only refinery in Michigan — which processes heavy Canadian crude, alongside Cleveland-Cliffs' Dearborn Works integrated steel mill and DTE Energy's fossil and nuclear generating fleet. Heavy-crude processing units run higher corrosion and fouling rates than light-crude refineries, driving frequent UT/PAUT thickness monitoring and RBI-scheduled turnarounds under API 510/570 for Marathon's coker, hydrotreating, and sulfur-recovery units. Michigan EGLE environmental oversight and the region's aging automotive-era industrial infrastructure make digital-twin-based lifecycle tracking valuable for both refining and steel assets navigating life-extension and modernization decisions.",
+  "florida": "Florida has no oil refineries, but its industrial-integrity market centers on Mosaic Company's phosphate mining and chemical-processing complexes in Bartow, Mulberry, and Riverview — among the largest phosphate fertilizer operations in the world — plus fuel-import terminal infrastructure at Port Tampa Bay and Port Everglades and nuclear generating stations at Turkey Point and St. Lucie operated by Florida Power & Light. Phosphoric acid and sulfuric acid processing vessels face severe corrosion environments requiring frequent UT thickness surveys and FFS assessment per API 579, while FPL's nuclear and gas fleet operates under NRC and FDEP oversight demanding rigorous structural documentation. Hurricane exposure statewide adds a structural-resilience dimension that makes 3D digital twins valuable for pre/post-storm asset condition comparison across Florida's chemical, terminal, and power infrastructure.",
+  "hammond": "Hammond, Indiana sits in the heart of the Lake Michigan industrial corridor alongside BP's Whiting Refinery — the largest refinery in the Midwest — and Cleveland-Cliffs' Indiana Harbor steel complex in neighboring East Chicago, making Hammond a logistics and service hub for some of the country's heaviest process and steel infrastructure. BP Whiting's coker and heavy-crude processing units require continuous UT/PAUT thickness monitoring and RBI-driven turnaround planning under API 510/570, while Indiana Harbor's blast furnaces and rolling mills demand structural inspection on decades-old steel assets. IDEM environmental oversight and the corridor's dense concentration of aging heavy industry make 3D digital twins integrating inspection history across refinery and steel assets a high-value tool for Northwest Indiana operators.",
+  "joliet": "Joliet, Illinois is bracketed by two major refineries — ExxonMobil's Joliet Refinery in nearby Channahon and CITGO's Lemont Refinery — both critical suppliers to the Chicago metro fuel market, alongside Joliet's role as one of the largest inland rail and intermodal freight hubs in North America. Refinery process units running continuous crude throughput require UT/PAUT thickness surveys, RBI-scheduled turnarounds, and API 510/570/653 fitness-for-service documentation, while the region's rail and warehouse infrastructure adds tank car and bulk storage assets to the integrity picture. Illinois EPA oversight and the operational importance of these refineries to Midwest fuel supply make digital-twin-based turnaround planning valuable for minimizing unplanned downtime.",
+  "long-beach": "Long Beach's oil legacy runs deep — the offshore THUMS islands (Island Grissom, White, Chaffee, and Freeman) were built to produce the giant Long Beach/Wilmington oil field discreetly within the harbor, while the Port of Long Beach anchors massive fuel and bulk-liquid tank farm infrastructure serving Southern California's refining corridor. THUMS platforms and the artificial islands' wellhead and processing equipment operate under California Geologic Energy Management Division (CalGEM) oversight requiring rigorous well and structural integrity documentation, and decades-old production infrastructure increasingly needs FFS assessment per API 579 to support continued operation or plugging decisions. Port-side tank farms and marine terminal piping add further UT/PAUT thickness-monitoring demand, making 3D digital twins valuable for both legacy offshore production assets and Long Beach's dense marine fuel-logistics infrastructure.",
+  "martinez": "Martinez, California is home to the Martinez Refining Company (formerly Shell, now independently operated), a major Bay Area refinery processing crude into transportation fuels for Northern California, alongside significant marine terminal and pipeline infrastructure along the Carquinez Strait. Recent operational incidents and Contra Costa County/Bay Area Air Quality Management District scrutiny have intensified regulatory focus on mechanical integrity, requiring rigorous UT/PAUT thickness surveys and API 510/570/653 fitness-for-service documentation across process units. Aging refinery infrastructure combined with heightened community and regulatory oversight make 3D digital twins that provide auditable, real-time asset condition records especially valuable for demonstrating compliance and planning turnarounds at Martinez.",
+  "new-york-state": "New York State has no active oil refineries, but its industrial-integrity market centers on crude-by-rail and petroleum terminal infrastructure at the Port of Albany operated by Global Partners and Buckeye Partners, the Niagara Falls chemical manufacturing corridor anchored by Occidental Chemical and other legacy producers, and the state's nuclear and gas power generation fleet including Constellation's Nine Mile Point station. Albany's crude-by-rail terminals handle Bakken and Canadian crude requiring rigorous tank and piping integrity documentation under PHMSA and NYSDEC oversight, while Niagara Falls' chemical vessels face corrosive service demanding frequent UT thickness surveys and FFS assessment per API 579. The state's aging industrial and power infrastructure, combined with strict NYSDEC environmental enforcement, makes 3D digital twins valuable for documenting asset condition across terminal, chemical, and power generation assets.",
+  "ohio": "Ohio's refining and steel corridor includes Marathon Petroleum's Canton refinery, Cenovus/BP's Toledo Refinery joint venture, PBF Energy's Toledo Refinery, and Cleveland-Cliffs' integrated steelmaking at Cleveland Works, alongside Nucor's electric-arc steel operations statewide. Refinery coker, hydrotreating, and crude units running continuous throughput require UT/PAUT thickness surveys and RBI-scheduled turnarounds under API 510/570, while Cleveland-Cliffs' blast furnaces and casting equipment demand structural inspection on aging steel infrastructure. Ohio EPA oversight and the state's dense concentration of legacy heavy industry make 3D digital twins integrating inspection history across refining and steelmaking assets valuable for turnaround planning and life-extension decisions statewide.",
+  "pasadena-texas": "Pasadena, Texas anchors a dense petrochemical corridor along the Houston Ship Channel, home to Chevron's Pasadena Refinery (the former Petrobras/PRSI facility) and Chevron Phillips Chemical's Pasadena Plastics Complex, alongside specialty chemical manufacturers like Kemira feeding downstream plastics, olefins, and water-treatment chemical markets. Ship Channel petrochemical units run continuous high-pressure, corrosive service demanding rigorous UT/PAUT thickness monitoring, RBI-scheduled turnarounds, and API 510/570/653 fitness-for-service documentation, while TCEQ air-quality and process-safety oversight following several Ship Channel incidents has sharpened regulatory scrutiny of mechanical integrity programs. Dense, aging petrochemical infrastructure packed into a tight industrial footprint makes 3D digital twins especially valuable in Pasadena for turnaround planning and cross-facility asset condition visibility.",
+  "pennsylvania": "Pennsylvania's refining and heavy-industry base includes Monroe Energy's Trainer Refinery (a Delta Air Lines subsidiary), United Refining's Warren refinery, Energy Transfer/Sunoco's Marcus Hook natural gas liquids export terminal, and U.S. Steel's Mon Valley Works — including the Edgar Thomson and Irvin Works — feeding from the Clairton Coke Works. Refinery and NGL export terminal units require UT/PAUT thickness surveys and API 510/570/653 fitness-for-service documentation, while Mon Valley's blast furnace and rolling mill infrastructure demands structural inspection on decades-old steel assets. Pennsylvania DEP oversight, the legacy of the 2019 Philadelphia Energy Solutions refinery closure, and the state's mix of aging refining, NGL export, and integrated steel infrastructure make 3D digital twins valuable for documenting asset condition and planning life-extension across these facilities.",
+  "sugar-land": "Sugar Land, Texas built its industrial identity on Imperial Sugar's historic cane-sugar refinery, one of the oldest continuously operated processing complexes in Texas, and today hosts a cluster of oilfield engineering, equipment, and technology companies including Schlumberger and Fluor Corporation campuses serving Gulf Coast and international upstream operations. Sugar processing vessels and evaporators face corrosive, high-temperature service requiring periodic UT thickness surveys, while oilfield equipment engineered and tested in Sugar Land needs fitness-for-service documentation per API 510 before deployment to remote well sites worldwide. The city's role as a corporate engineering hub rather than a production site makes 3D digital twins particularly valuable for pre-deployment quality assurance and lifecycle tracking of equipment before it reaches the field.",
+  "torrance": "Torrance, California is home to PBF Energy's Torrance Refinery, one of the largest refineries in the LA Basin, acquired from ExxonMobil in 2016 — a year after the facility's 2015 explosion intensified regulatory scrutiny of its mechanical integrity program under CalGEM, CARB, and South Coast AQMD. Aging FCC (fluid catalytic cracking) and alkylation units require rigorous UT/PAUT thickness monitoring, RBI-scheduled turnarounds, and API 510/570 fitness-for-service documentation to prevent repeat incidents, while California's strict seismic and emissions standards add further structural-integrity requirements. The refinery's incident history makes 3D digital twins integrating auditable inspection records especially valuable for demonstrating continuous compliance to regulators and the surrounding community.",
+  "wilmington-california": "Wilmington, California sits atop the historic Wilmington oil field — one of the largest oil fields in the continental US — and hosts Phillips 66's Los Angeles Refinery Wilmington processing units, Valero's Wilmington Refinery, and dense Port of Los Angeles marine terminal and tank farm infrastructure. Decades of continuous production from the Wilmington field, operated under CalGEM oversight by the City of Long Beach and private operators, has left aging wellhead, gathering, and surface production equipment requiring FFS assessment per API 579, while refinery coker and hydrotreating units demand ongoing UT/PAUT thickness monitoring and API 510/570 turnaround planning. The concentration of legacy oil field production, active refining, and marine fuel logistics within a single dense port community makes 3D digital twins valuable for coordinating inspection data across operator boundaries.",
+  "baytown": "Baytown sits on the Houston Ship Channel and is anchored by the ExxonMobil Baytown refining and petrochemical complex, one of the largest integrated refining/olefins operations in the world, alongside the Baytown Olefins Plant and Chevron Phillips Chemical's Cedar Bayou complex nearby. Decades-old crude units, cokers, and high-pressure olefins reactors run under API 510/570/653 fitness-for-service programs, with turnaround planning driving constant thickness-mapping and RBI workloads. Hurricane exposure and dense ship-channel congestion make 3D digital twins valuable for remote inspection review, turnaround sequencing, and emergency response planning without pulling technicians onto live units. Integrating UT/PAUT corrosion data directly into the 3D model lets integrity engineers track wall-loss trends across thousands of CMLs on aging vessels and piping.",
+  "carson": "Carson is home to two of the largest refineries on the US West Coast, the Phillips 66 Los Angeles Refinery (Carson/Wilmington complex) and the Marathon Petroleum Los Angeles Refinery (formerly Tesoro), supplying the majority of Southern California's gasoline and jet fuel. California's strict CARB fuel specs and South Coast AQMD emissions rules keep these units running at tight tolerances, and aging FCC units, alkylation trains, and crude towers require rigorous API 510/570/653 inspection regimes. Dense urban surroundings and limited laydown space make 3D digital twins especially useful for turnaround planning and scaffolding/access simulation before crews mobilize. Linking historical UT thickness data to the 3D model helps integrity teams justify run-length extensions on units that can't easily be taken offline.",
+  "colorado": "Colorado's industrial base centers on the Suncor Energy Commerce City refinery near Denver, the state's only refinery and a frequent target of Colorado Department of Public Health & Environment enforcement, plus the dense oil and gas infrastructure of the DJ Basin in Weld County, where thousands of wellheads, separators, and midstream gathering pipelines require corrosion monitoring. The state's hardrock mining sector, including Freeport-McMoRan's Climax molybdenum mine and Newmont's Cripple Creek & Victor gold operation, runs mineral-processing vessels and tailings infrastructure that benefit from lifecycle digital-twin tracking. High-altitude, remote well sites and processing facilities across the DJ Basin make virtual inspection planning a meaningful cost and safety win versus dispatching crews to scattered locations. NDT-integrated 3D twins help operators consolidate FFS data across a geographically dispersed asset base into a single visual system.",
+  "dearborn": "Dearborn is the historic home of Ford Motor Company, anchored by the Ford Rouge Complex, a fully integrated manufacturing site that once ran its own blast furnace and today includes the Dearborn Truck Plant and Rouge Electric Vehicle Center, alongside the Cleveland-Cliffs Dearborn Works integrated steel mill just downriver, whose blast furnace and coke ovens have run continuously for decades. Marathon Petroleum's Detroit refinery sits nearby along the same industrial corridor, adding pressure vessels and piping systems to the region's inspection load. Steelmaking assets like blast furnace shells, coke oven batteries, and continuous caster vessels are prime candidates for digital-twin lifecycle tracking given their age and the safety consequences of unplanned failure. Automotive supply-chain reliability pressure makes minimizing unplanned downtime through predictive, twin-integrated inspection data a priority for both the steel mill and the refinery.",
+  "east-chicago": "East Chicago anchors the Indiana Harbor works of Cleveland-Cliffs, the largest integrated steelmaking complex in North America, with blast furnaces, basic oxygen furnaces, and coke batteries running around the clock on Lake Michigan's southern shore, just miles from BP's Whiting refinery, one of the largest refineries in the Midwest. Decades of continuous operation on both the steel and refining sides mean extensive corrosion, creep, and fatigue histories that Indiana's IDEM and OSHA PSM programs require operators to document rigorously. The scale of Indiana Harbor's blast furnace shells, hot metal transfer cars, and coke oven batteries makes 3D digital twins valuable for visualizing structural condition across assets too large and hazardous to fully walk down regularly. Combining UT thickness data with the 3D model helps engineers prioritize which vessels and structural members need repair before the next scheduled outage.",
+  "freeport-texas": "Freeport is home to Dow Chemical's largest integrated manufacturing site in the world, alongside BASF's Freeport complex and the Freeport LNG export terminal, one of the largest LNG export facilities in the US, creating a dense concentration of cryogenic storage, high-pressure reactors, and petrochemical piping along the Texas Gulf Coast. Freeport LNG's cryogenic tanks and loading arms sit alongside Dow's ethylene and chlor-alkali units, all exposed to hurricane risk and salt-air corrosion that accelerate degradation on carbon steel piping and vessels. API 620/625 cryogenic tank integrity and API 570 piping programs generate constant inspection data that digital twins help consolidate into a single visual reference for turnaround planning. Remote offshore-adjacent siting and storm evacuation protocols make virtual walk-downs through 3D twins a practical way to keep inspection programs moving when site access is restricted.",
+  "huntsville": "Huntsville is the heart of US space and missile propulsion engineering, home to NASA's Marshall Space Flight Center and Redstone Arsenal, where Boeing, Aerojet Rocketdyne, and dozens of aerospace primes design, test, and qualify cryogenic propellant tanks, rocket engine test stands, and pressure vessels under NASA and DoD structural integrity standards. Unlike refinery-heavy cities, Huntsville's digital-twin demand centers on test-stand structural monitoring, cryogenic tank fatigue tracking, and weld integrity on flight hardware and ground support equipment where failure margins are extremely tight. High-value, low-volume assets like static test stands and propellant tank farms benefit from 3D digital-twin models that integrate UT and radiographic weld inspection data for design verification and structural life management. The concentration of federal aerospace contractors also drives demand for digital twins that support configuration management and traceability across long qualification programs.",
+  "la-porte": "La Porte sits on the Houston Ship Channel amid one of the densest petrochemical corridors in the US, hosting INEOS's La Porte complex, LyondellBasell's Bayport facility, Air Products' hydrogen production units, and ExxonMobil's Bayport polymers plant, all running high-pressure reactors, cryogenic storage, and extensive piping racks. The channel's chemical plants operate under Texas TCEQ and federal PSM oversight, with FFS assessments per API 579 routinely required to keep aging vessels and piping in service between turnarounds. Congested plot space and 24/7 operations across neighboring facilities make 3D digital twins valuable for coordinating scaffold access, isolation planning, and inspection scheduling across shared infrastructure corridors. Twin-integrated UT/PAUT data lets integrity teams track thinning trends on high-cycle piping systems that see frequent process swings.",
+  "louisiana": "Louisiana's Mississippi River petrochemical corridor between Baton Rouge and New Orleans, anchored by ExxonMobil's Baton Rouge refinery, one of the largest in the country, plus Shell Norco, Marathon Garyville, and Dow's Plaquemine and St. Charles complexes, runs alongside the state's Lake Charles chemical hub, home to Citgo, Phillips 66, and Sasol's massive ethane cracker complex. LNG export capacity adds another dimension, with Cheniere's Sabine Pass terminal, Cameron LNG, and the newer Calcasieu Pass and Plaquemines LNG facilities operating cryogenic storage tanks under API 625 and Coast Guard oversight. Hurricane exposure across the entire coastal corridor and the sheer density of ageing refining and petrochemical assets make 3D digital twins a critical tool for turnaround planning, storm-readiness documentation, and RBI-driven inspection prioritization across the state's industrial base. Louisiana's DEQ and federal PSM requirements keep FFS and thickness-monitoring programs continuously active across this corridor.",
+  "michigan": "Michigan's heavy industrial base spans the Dearborn/Detroit corridor, where Cleveland-Cliffs' Dearborn Works integrated steel mill and Marathon Petroleum's Detroit refinery operate alongside Ford's Rouge manufacturing complex, plus DTE Energy's coal and gas-fired power generation fleet across the state. Automotive stamping and assembly plants run by Ford, GM, and Stellantis add large-scale structural steel and pressure equipment inventories that require ongoing integrity management under Michigan EGLE and OSHA oversight. Aging blast furnace shells, coke ovens, and refinery process units in the Detroit corridor carry decades of thermal cycling and corrosion history that digital twins help visualize alongside UT and RT inspection records. Statewide, the mix of legacy steelmaking, refining, and power generation assets makes a consolidated 3D digital-twin approach valuable for prioritizing capital and turnaround spend across the industrial base.",
+  "norfolk": "Norfolk anchors the largest concentration of US Navy assets in the world, including Naval Station Norfolk and the adjacent Norfolk Naval Shipyard in Portsmouth, where aircraft carriers, submarines, and surface combatants undergo hull, piping, and pressure vessel inspection during extended maintenance availabilities. The Port of Virginia's container and bulk terminals sit alongside this naval infrastructure, and Dominion Energy's Coastal Virginia Offshore Wind project, the first commercial-scale offshore wind farm in US federal waters, is adding subsea foundations and turbine structures to the region's asset base. Naval vessel hulls, piping systems, and pressure vessels face intense structural integrity requirements under NAVSEA standards, while offshore wind foundations require ongoing subsea corrosion and structural monitoring in a harsh marine environment. 3D digital twins help both naval maintenance planners and offshore wind operators visualize inspection history across complex, safety-critical structures that are expensive and time-consuming to access physically.",
+  "orange-texas": "Orange sits within the Beaumont-Port Arthur-Orange chemical corridor along the Sabine River, home to Chevron Phillips Chemical's Orange facility and INVISTA's massive nylon intermediates plant, with Motiva's Port Arthur refinery, the largest refinery in North America, just across the corridor. High-pressure nitric acid and nylon process units at INVISTA, combined with Chevron Phillips's olefins derivatives units, generate extensive piping and vessel inventories operating under Texas TCEQ and federal PSM oversight. Hurricane exposure along the Sabine-Neches Waterway and the corrosive chemical service in nylon intermediates production make thickness-monitoring and FFS programs continuous priorities for plant integrity teams. Digital twins integrated with UT/PAUT data help these facilities plan turnarounds and prioritize repairs on aging process piping without extended unit shutdowns.",
+  "paulsboro": "Paulsboro is home to PBF Energy's Paulsboro Refining Company complex on the Delaware River, a specialty refinery producing lubricants, asphalt, and specialty products alongside conventional fuels, plus the nearby Repauno rail and marine terminal handling NGLs and refined products. The refinery's aging crude and vacuum distillation units, combined with specialty lube processing trains, require rigorous API 510/570/653 inspection programs to manage decades of corrosion and thermal cycling. Delaware River tidal exposure and dense Northeast fuel-market logistics make continuous operation a priority, pushing PBF toward inspection strategies that minimize unplanned downtime. 3D digital twins integrated with UT thickness data give integrity engineers a consolidated view of vessel and piping condition to plan turnarounds around the refinery's tight production schedule.",
+  "phoenix": "Phoenix's industrial base centers on advanced manufacturing and power rather than refining. Intel's Ocotillo campus and TSMC's new Arizona fabs in nearby Chandler are investing tens of billions in semiconductor manufacturing infrastructure, while the Palo Verde Nuclear Generating Station west of the city is the largest nuclear power plant in the US by generation. Freeport-McMoRan, headquartered in Phoenix, operates copper mining and processing assets across Arizona including the Morenci mine, adding mineral-processing vessels and heap-leach infrastructure to the region's asset base. Semiconductor fabs require ultra-high-purity piping and cleanroom infrastructure with exacting structural tolerances, while Palo Verde's reactor containment and cooling systems operate under NRC oversight requiring rigorous structural integrity documentation. Digital twins help both semiconductor fabs and power generation facilities manage complex, high-value infrastructure where unplanned downtime carries enormous cost.",
+  "texas": "Texas hosts the largest concentration of refining and petrochemical capacity in the United States, spanning the Houston Ship Channel, Port Arthur/Beaumont, Corpus Christi, Texas City, and Baytown, with facilities including Motiva Port Arthur, the largest refinery in North America, ExxonMobil Baytown, and Valero and Flint Hills complexes in Corpus Christi feeding both domestic fuel markets and growing LNG and crude export terminals like Cheniere's Corpus Christi LNG. The state's Permian Basin oil and gas production adds thousands of miles of gathering pipelines, compressor stations, and processing plants requiring corrosion monitoring across a vast and often remote footprint. Statewide, TCEQ and federal PSM oversight of an enormous inventory of ageing crude units, cokers, and cryogenic LNG infrastructure makes RBI-driven inspection prioritization essential, and Gulf Coast hurricane exposure adds urgency to virtual inspection and turnaround planning. Texas's scale, from Gulf Coast refining megasites to Permian Basin midstream infrastructure, makes it the largest addressable digital-twin market for industrial asset integrity in the country.",
+  "trainer": "Trainer, Pennsylvania is home to Monroe Energy's Trainer Refinery on the Delaware River, a Delta Air Lines subsidiary that converted the former ConocoPhillips/Phillips 66 refinery into a dedicated jet fuel production facility supplying Delta's Northeast hub operations. The refinery's crude distillation, catalytic reforming, and hydrotreating units run under tight jet-fuel specification requirements, with API 510/570/653 inspection programs managing corrosion on process piping and vessels that have operated for decades under multiple owners. Delaware River tidal and marine terminal exposure adds environmental loading considerations to the refinery's structural integrity program. Digital twins integrated with UT thickness data help Monroe Energy's integrity team track wall-loss trends and plan turnarounds around the refinery's jet-fuel supply commitments to Delta's fleet.",
+  "benicia": "Benicia sits on the Carquinez Strait as the site of the Valero Benicia Refinery, a roughly 170,000 barrel-per-day facility with cokers, hydrocrackers, and a dense network of pressure vessels and piping that has operated for over a century. Bay Area Air Quality Management District and Cal/OSHA process safety oversight, combined with California's aggressive refinery inspection and turnaround reporting requirements, push operators toward tighter integration of UT/PAUT thickness data with asset models. Aging coker and crude unit metallurgy, corrosion-under-insulation risk near the strait's marine environment, and compressed turnaround windows make 3D digital twins linked to API 510/570 inspection history essential for planning shutdowns without idling the refinery longer than necessary.",
+  "channelview": "Channelview anchors a stretch of the Houston Ship Channel dominated by LyondellBasell's Channelview petrochemical complex, Enterprise Products' Channelview terminal, and Lubrizol's specialty chemical operations, forming one of the densest concentrations of olefins, polymers, and lubricant-additive units in the United States. TCEQ air permitting and Harris County's proximity to residential areas keep mechanical integrity and leak-detection programs under constant scrutiny, while the channel's humid, corrosive marine air accelerates piping and vessel degradation. Digital twins that fuse PAUT thickness mapping, RBI data, and FFS assessments onto 3D plant models let these operators plan turnarounds and prioritize inspection dollars across thousands of circuits without shutting down adjacent units unnecessarily.",
+  "colorado-springs": "Colorado Springs blends power generation and aerospace/defense manufacturing rather than heavy oil and gas processing — Colorado Springs Utilities operates the Ray Nixon coal-fired plant and has decommissioned the downtown Martin Drake plant, while Lockheed Martin, Boeing, and Northrop Grumman run precision aerospace and space-systems manufacturing tied to the nearby Space Force and Space Command installations. Boiler and turbine pressure-part integrity at the utility plants falls under ASME Boiler and Pressure Vessel Code and NBIC jurisdictional inspection, while aerospace suppliers face AS9100 traceability demands that reward digitized inspection records. A digital twin approach lets utilities model boiler tube and drum wear over decommissioning timelines and lets aerospace manufacturers link component NDT results (radiography, penetrant) to as-built 3D geometry for lifecycle traceability.",
+  "deer-park": "Deer Park is home to Shell's fully-owned Deer Park refining and chemicals complex, a roughly 340,000 barrel-per-day integrated refinery and petrochemical site on the Houston Ship Channel, alongside LyondellBasell's nearby Bayport operations. TCEQ air quality permitting and Harris County's dense residential proximity make process safety management and mechanical integrity top priorities after the site's history of major incidents, driving strict API 510/570/653 inspection cadences across thousands of vessels and miles of piping. Digital twins that overlay UT/PAUT corrosion mapping and RBI risk scores onto 3D plant geometry let Shell's integrity teams sequence turnaround scope, track FFS per API 579 on flagged circuits, and defend inspection intervals to regulators with auditable 3D evidence.",
+  "el-segundo": "El Segundo hosts the Chevron El Segundo Refinery, the largest refinery on the U.S. West Coast at roughly 290,000 barrels per day, running FCC, alkylation, and coking units that have operated for more than a century on a constrained coastal footprint. South Coast Air Quality Management District (SCAQMD) rules — among the strictest in the nation — combined with California's refinery-specific process safety regulations force Chevron to run continuous mechanical integrity programs across aging metallurgy exposed to marine air. Digital twins linking PAUT thickness surveys and RBI data to 3D unit models let inspection teams plan turnarounds in a tightly permitted, land-locked site where every day of unplanned downtime carries outsized regulatory and supply consequences.",
+  "galveston": "Galveston functions as a key offshore oil and gas support hub on Galveston Bay, staging jack-up rigs, supply vessels, and crew transfers for Gulf of Mexico operators, alongside proximity to the Texas City and Freeport refining and petrochemical corridor just across the bay. BOEM and BSEE offshore inspection requirements, plus the corrosive marine environment of hull and topside structures, make asset integrity data a constant operational concern for support-base operators and the refineries they feed. Digital twins that combine subsea and topside NDT inspection history with 3D vessel and platform models let operators plan mobilization windows and track structural fatigue across assets that spend most of their service life offshore and out of direct sight.",
+  "illinois": "Illinois carries a broad industrial base spanning ExxonMobil's Joliet Refinery, CITGO's Lemont Refinery, Marathon's Robinson Refinery downstate, ADM's massive grain and chemical processing complex in Decatur, and legacy steelmaking at U.S. Steel Granite City Works along the Mississippi. Illinois EPA air and water permitting, combined with the state's mix of aging Rust Belt steel infrastructure and modern petrochemical/refining assets, creates wide-ranging mechanical integrity needs — from blast furnace and coke oven structures to refinery FCC units and agricultural processing vessels. Digital twins give statewide operators a way to standardize RBI-driven inspection programs and API 510/570/653 compliance tracking across geographically dispersed, asset-type-diverse facilities under one integrity framework.",
+  "linden-nj": "Linden is home to Phillips 66's Bayway Refinery, the largest refinery in the U.S. Northeast at roughly 258,000 barrels per day, sited on the Arthur Kill waterway with dense crude distillation, FCC, and alkylation infrastructure feeding the New York metro fuel market. New Jersey DEP's strict air and water permitting, combined with the refinery's constrained urban-industrial footprint and aging Northeast refining metallurgy, keeps mechanical integrity and turnaround planning under continuous pressure. Digital twins linking PAUT corrosion surveys and API 510/570 inspection records to 3D unit geometry let Phillips 66's integrity teams sequence work across a site with little room for laydown space or extended outages.",
+  "marcus-hook": "Marcus Hook is home to the Energy Transfer Marcus Hook Industrial Complex, a former Sunoco refinery converted into a major natural gas liquids processing and export terminal that receives ethane, propane, and butane from the Marcellus and Utica shale plays via the Mariner East pipeline system. Pennsylvania DEP oversight of both the legacy refinery infrastructure and the newer NGL export/fractionation units means operators manage two generations of asset integrity risk — aging refining metallurgy alongside high-pressure NGL storage and loading systems. Digital twins that map PAUT thickness data and FFS assessments onto 3D terminal models help Energy Transfer prioritize inspection on repurposed legacy vessels while tracking newer NGL infrastructure under a single integrity program.",
+  "monaca": "Monaca is the site of Shell Polymers Monaca, a roughly $6 billion ethane cracker complex that opened in 2022 to convert Marcellus and Utica shale ethane into polyethylene, representing one of the newest and most heavily instrumented petrochemical assets in the country. Pennsylvania DEP air permitting and the plant's scale — including a massive cracking furnace train and polyethylene reactor units — make baseline 3D asset documentation and inspection data integration a priority from day one of operations rather than a retrofit exercise. Digital twins built on as-built construction models let Shell track early-life corrosion trends, plan first major turnarounds with precision, and maintain FFS-ready records across a plant designed to run for decades.",
+  "north-dakota": "North Dakota's oil and gas sector centers on the Bakken shale formation in the western part of the state, supported by Marathon Petroleum's Mandan Refinery, Dakota Gasification Company's Great Plains Synfuels coal gasification plant near Beulah, and an extensive network of gas processing plants and gathering pipelines operated by ONEOK and Hess. The North Dakota Industrial Commission regulates well integrity and midstream infrastructure across a landscape where extreme winter temperatures, remote well pads, and long pipeline runs make in-person inspection logistics costly and time-sensitive. Digital twins that consolidate UT thickness data and pipeline integrity records across dispersed Bakken assets let operators prioritize inspection travel and plan maintenance windows around the state's short field-access seasons.",
+  "orlando": "Orlando's industrial base centers on power generation and aerospace/defense manufacturing rather than oil and gas — Duke Energy and the Orlando Utilities Commission operate the Stanton Energy Center's natural gas and coal-fired units, while Lockheed Martin's Missiles and Fire Control facility and the region's military simulation and training industry (anchored by NAWCTSD) drive precision manufacturing demand. ASME Boiler and Pressure Vessel Code inspection requirements govern the power plants, while aerospace and defense suppliers operate under AS9100 traceability standards that reward digitized, auditable NDT records. Digital twins let utility operators track boiler and turbine component wear over multi-decade plant lifecycles and let aerospace manufacturers tie radiographic and penetrant inspection results to as-built 3D models for full-lifecycle component traceability.",
+  "pearland": "Pearland sits just south of Houston within the Gulf Coast petrochemical corridor, serving as a corporate and engineering base for oilfield services firms and EPC contractors that support nearby Freeport LNG, Phillips 66's Sweeny complex, and the Chocolate Bayou petrochemical operations run by INEOS and Dow. Its role is less about hosting a single mega-facility and more about the concentration of engineering, procurement, and inspection service providers that keep the surrounding refining, LNG, and petrochemical assets running under TCEQ and API mechanical integrity requirements. Digital twins matter to Pearland-based engineering and inspection firms because they need a scalable way to manage 3D asset data and NDT records across multiple client facilities scattered throughout the Gulf Coast corridor.",
+  "richmond-california": "Richmond is home to the Chevron Richmond Refinery, a roughly 245,000 barrel-per-day facility on San Francisco Bay whose 2012 processing unit fire made mechanical integrity and corrosion-under-insulation detection a defining regulatory and public-trust issue for the site. Bay Area Air Quality Management District oversight and California's post-incident refinery process safety regulations now require some of the most rigorous inspection and reporting standards in the country, with Contra Costa County closely tracking turnaround and mechanical integrity performance. Digital twins that overlay PAUT thickness mapping and FFS per API 579 assessments onto 3D unit models give Chevron's integrity team the auditable, traceable inspection record that regulators and the surrounding community now expect as baseline practice.",
+  "texas-city": "Texas City hosts the Marathon Galveston Bay Refinery (formerly BP Texas City, site of the 2005 explosion that reshaped U.S. process safety regulation) alongside the Valero Texas City Refinery and nearby INEOS petrochemical operations, making it one of the most inspection-scrutinized refining clusters in the country. TCEQ enforcement and the enduring legacy of Chemical Safety Board recommendations following the 2005 incident mean mechanical integrity, isolation procedures, and inspection documentation face intense regulatory and legal scrutiny. Digital twins that link PAUT/UT thickness data and RBI risk scoring to 3D plant models give Texas City operators the defensible, auditable inspection trail that both regulators and insurers now expect as a baseline requirement rather than a best practice.",
+  "vernon": "Vernon is one of Los Angeles County's most densely industrial cities, built around steel and metal fabrication, cold storage, and a legacy of heavy manufacturing that includes the site of the former Exide Technologies battery recycling plant whose contamination cleanup remains a regulatory focus for the state. South Coast Air Quality Management District (SCAQMD) rules — among the strictest in the country — govern the city's remaining metal processing, plating, and industrial manufacturing operations, most of which run older pressure equipment and storage vessels in a tightly packed urban-industrial footprint. Digital twins help Vernon's metal fabrication and processing operators document vessel and tank integrity for regulators and manage inspection records across small industrial parcels where facility footprints and access are highly constrained.",
+  "map-ta-phut": "Map Ta Phut, in Rayong province, is Thailand's largest petrochemical and refining complex, hosting SCG Chemicals, PTT Global Chemical, Dow Chemical Thailand, Vinythai and IRPC across dozens of integrated crackers, aromatics trains and cryogenic LPG/olefins storage. Many units have been running for 30+ years, pushing operators toward API 579 fitness-for-service and DIW-mandated pressure-vessel life extension rather than replacement. Cyclone- and monsoon-exposed cryogenic storage and dense process piping make 3D digital-twin visualization tied to PAUT thickness and RBI data essential for planning shutdown scope and prioritizing corrosion-under-insulation inspection across the estate.",
+  "rayong": "Rayong province is Thailand's industrial heartland, combining the Map Ta Phut petrochemical estate with IRPC's standalone refining complex and the Eastern Economic Corridor's expanding manufacturing base, all within reach of PTT Exploration and Production's onshore support infrastructure for Gulf of Thailand gas fields. Decades-old crackers, reformers and cryogenic storage across SCG, PTTGC, Dow Thailand and IRPC sites are approaching or exceeding original design life, and DIW-mandated pressure-vessel reinspection cycles are pushing operators toward API 579 fitness-for-service assessment. A humid, monsoon- and cyclone-exposed coastal environment accelerates corrosion under insulation, making digital-twin visualization of thickness-mapping and RBI data critical to prioritizing turnaround scope across the province's dense industrial estates.",
+  "ulsan": "Ulsan is anchored by SK Energy's Ulsan Complex, the world's largest single-site refinery, alongside S-Oil's Onsan refinery, Hyundai Heavy Industries' shipbuilding and offshore-platform fabrication yards, and Lotte Chemical's petrochemical units. The city's dense mix of ageing refining columns, high-pressure reformers, cryogenic storage, and offshore topside structures under fabrication makes 3D digital-twin visualization tied to PAUT thickness data and RBI programs critical for both in-service life extension and pre-delivery structural verification. KGS-mandated high-pressure gas facility reinspection cycles and KOSHA process-safety oversight are driving operators toward API 579 fitness-for-service assessment as refining assets pass 40 years of continuous operation.",
+  "yeosu": "Yeosu is South Korea's second-largest refining and petrochemical hub, centered on GS Caltex's Yeosu refinery and the Yeochun NCC (YNCC), LG Chem and Lotte Chemical naphtha-cracker complexes, with POSCO's Gwangyang steelworks across the bay. Decades-old cracking furnaces, high-pressure separators, and coastal cryogenic storage tanks are approaching extended-life thresholds, and KGS-mandated reinspection cycles are pushing operators toward API 579 fitness-for-service assessment rather than premature replacement. Typhoon exposure and dense tank-farm layouts make digital-twin visualization tied to PAUT thickness and RBI data valuable for prioritizing turnaround inspection scope across the complex.",
+  "daesan": "Daesan, on Chungcheongnam-do's reclaimed coastline, is anchored by Hanwha TotalEnergies Petrochemical's integrated refining and naphtha-cracker complex alongside Lotte Chemical's Daesan NCC and KCC's silicone plant. The cluster's naphtha crackers, high-pressure reactors, and coastal storage tank farms sit on land reclaimed from the Yellow Sea, where soil settlement and marine corrosion add structural-integrity risk on top of standard process-equipment ageing. KGS-mandated reinspection cycles and KOSHA process-safety oversight are pushing operators toward API 579 fitness-for-service assessment, and digital-twin visualization tied to PAUT thickness and RBI data helps prioritize turnaround scope across the tightly clustered complex.",
+  "kawasaki": "Kawasaki's Keihin industrial belt combines ENEOS's refining and logistics complex, JFE Steel's East Japan Works, Resonac's chemical plant, and Tokyo Gas's Ogishima LNG import terminal — one of Japan's busiest LNG receiving points. Much of the belt's process infrastructure dates to the 1960s-70s, and Nankai Trough earthquake risk drives both seismic structural assessment and KHK-mandated high-pressure gas facility reinspection under the High Pressure Gas Safety Act. Cryogenic LNG storage, ageing steelworks vessels, and dense waterfront piping make 3D digital-twin visualization tied to PAUT thickness data and RBI programs critical for coordinating shutdown scope and seismic fitness-for-service assessment across the industrial belt.",
+  "yokkaichi": "The Yokkaichi Petrochemical Complex, established in the 1950s as one of Japan's first integrated petrochemical zones, centers on ENEOS's Yokkaichi refinery alongside Mitsubishi Chemical and Tosoh Corporation's crackers and specialty-chemical units. With much of the complex now over 60 years old, KHK-mandated reinspection under the High Pressure Gas Safety Act and Nankai Trough seismic risk are driving operators toward API 579 fitness-for-service assessment and structural seismic evaluation rather than wholesale rebuild. Dense, ageing process piping and cryogenic storage across the complex make 3D digital-twin visualization tied to PAUT thickness data and RBI programs essential for prioritizing turnaround and life-extension scope.",
+  "mailiao": "Mailiao is home to Formosa Petrochemical Corporation's Sixth Naphtha Cracker complex, an integrated refining, olefins, and cogeneration site built largely on reclaimed land along Taiwan's typhoon-exposed western coast. The complex's scale — spanning multiple crackers, a deep-water port, and captive power plants — combined with recurring typhoon and seismic exposure, makes structural-integrity monitoring and corrosion tracking a continuous priority. OSHA Taiwan's Boiler and Pressure Vessel Safety Rules drive statutory reinspection cycles, and 3D digital-twin visualization tied to PAUT thickness mapping and RBI data helps Formosa Plastics Group prioritize turnaround scope across one of the world's largest single-site petrochemical complexes.",
+  "karachi": "Karachi's industrial belt centers on Pakistan Refinery Limited, Cnergyico Petroleum's refining operations, National Refinery Limited, and Engro Polymer & Chemicals at Port Qasim, alongside PSO's coastal storage terminals. Decades-old refining units combined with the Arabian Sea's hot, humid, salt-laden marine environment accelerate corrosion under insulation and external corrosion on storage tanks and piping, making aggressive RBI programs and 3D digital-twin visualization of thickness-mapping data critical for turnaround planning. Statutory reinspection cycles under the Sindh Boilers Act push operators toward API 579 fitness-for-service assessment as refining assets age past original design life.",
+  "colombo": "Colombo's industrial backbone runs through the Ceylon Petroleum Corporation's Sapugaskanda Refinery, operating since 1969, alongside Ceylon Electricity Board thermal plants at Kelanitissa and Kerawalapitiya, Colombo Dockyard's ship-repair yards, and the Sri Lanka Ports Authority's expanding container-terminal infrastructure. The refinery's ageing process units, combined with Colombo's tropical, salt-laden coastal climate, drive persistent corrosion-under-insulation and external corrosion challenges that statutory reinspection under the Factories Ordinance alone cannot fully address. 3D digital-twin visualization tied to PAUT thickness-mapping and RBI data helps CPC and CEB prioritize fitness-for-service assessment and turnaround scope as assets extend well beyond original design life.",
+  "antwerp": "Antwerp anchors the Port of Antwerp-Bruges, Europe's largest integrated petrochemical cluster, home to TotalEnergies and ExxonMobil refineries, BASF's second-largest Verbund site worldwide, and INEOS, Borealis and Covestro production units. The dense grid of ageing steam crackers, cryogenic ethylene and propylene storage, and pipe-rack corridors running through a highly built-up port zone makes 3D digital-twin visualization critical for turnaround planning and space-constrained maintenance access. Seveso III upper-tier status across the cluster drives rigorous PED-compliant inspection and life-extension programs, and integrating UT/PAUT thickness data and API 579 fitness-for-service assessments directly into a spatial asset model lets operators plan complex, multi-contractor shutdowns without costly site walkdowns.",
+  "wilhelmshaven": "Wilhelmshaven is Germany's only deepwater port and its newest energy-import gateway, home to the NWO crude oil pipeline terminal, Hestya Energy's tank storage and former refinery site, and Uniper's LNG import terminal with the FSRU Höegh Esperanza, commissioned in December 2022 as Germany's first LNG import facility. The mix of ageing crude storage tanks, high-pressure LNG regasification piping and cryogenic ship-to-shore transfer arms creates a technically demanding integrity environment where digital twins let operators visualize API 653 tank inspection history and thickness data spatially. With Germany racing to build out LNG import capacity under tight regulatory and Seveso III oversight, 3D digital-twin integration with NDT data shortens commissioning inspection cycles and supports long-term life extension of the terminal's crude infrastructure.",
+  "ludwigshafen": "Ludwigshafen is home to BASF's Ludwigshafen Verbund site, the world's largest integrated chemical complex at roughly 10 km² with about 200 interconnected production plants and thousands of kilometers of pipe racks. The sheer density and interdependency of steam crackers, reactors, and process piping running through a century-old brownfield site makes 3D digital-twin modeling essential for turnaround sequencing, corrosion-under-insulation tracking and space-constrained maintenance planning. BetrSichV-mandated inspection cycles and Seveso III upper-tier obligations drive continuous UT/PAUT thickness monitoring, and a spatial digital twin lets BASF and its inspection partners visualize decades of NDT history against the plant's evolving Verbund configuration.",
+  "leuna": "Leuna hosts the TotalEnergies Raffinerie Mitteldeutschland, a roughly 10-million-tonne-per-year refinery, alongside the InfraLeuna chemical park, one of eastern Germany's largest industrial parks with tenants including DOMO Chemicals and Linde. Much of the refinery and surrounding chemical infrastructure was rebuilt after German reunification, but ageing pipe racks and pressure vessels across the shared chemical park still require rigorous BetrSichV-driven inspection. Digital-twin visualization lets TotalEnergies and InfraLeuna tenants coordinate NDT thickness data and turnaround planning across a multi-operator industrial park where infrastructure and inspection responsibility span several companies.",
+  "tarragona": "Tarragona's Camp de Tarragona chemical park is Spain's largest petrochemical cluster, anchored by the Repsol Tarragona refinery and Repsol Química alongside BASF, Dow Chemical, LyondellBasell and INEOS production units along the Mediterranean coast. The combination of ageing refinery units, high-pressure petrochemical reactors and coastal tank storage exposed to marine corrosion makes digital-twin visualization valuable for both turnaround planning and long-term asset life extension under Spain's RD 709/2015 pressure equipment regime. Integrating PAUT thickness mapping and API 579 fitness-for-service data into a 3D model lets multi-operator Camp de Tarragona sites coordinate shared inspection schedules and track corrosion trends across the coastal cluster.",
+  "sines": "Sines hosts Galp's Sines refinery, Portugal's largest and only remaining refinery, alongside a deepwater port that is one of Iberia's most important, and the Sines LNG terminal operated by REN Atlântico. The site's combination of an ageing refinery, cryogenic LNG storage and a heavily used deepwater port creates significant asset-integrity complexity, with DGEG-driven life-extension requirements and Seveso III oversight. A 3D digital twin integrating UT thickness data and API 653 tank inspection history helps Galp and port operators plan shutdowns and virtual inspections across a facility where port congestion makes physical site access costly.",
+  "porvoo": "Porvoo's Kilpilahti industrial area hosts Neste's Porvoo refinery, the largest oil refinery in the Nordic countries and a major global producer of renewable diesel and sustainable aviation fuel, alongside Borealis Porvoo's polyolefin plants. The dual mission of running a conventional crude refinery while scaling up renewable-fuel process units creates a technically layered asset base where digital twins help track both legacy pressure-vessel integrity and new hydroprocessing equipment. Tukes-driven inspection cycles and Finland's harsh coastal winter climate add urgency to virtual inspection planning, letting Neste and Borealis integrate NDT thickness data into a 3D model to reduce on-site exposure during cold-weather turnarounds.",
+  "gdansk": "Gdańsk hosts the ORLEN Gdańsk refinery (formerly Grupa LOTOS, merged into PKN Orlen in 2022), one of Poland's two major refineries, situated alongside the Baltic Hub container terminal and the historic Gdańsk shipyard complex. Ageing Soviet-era and post-privatization refinery infrastructure requires UDT-regulated inspection cycles, and the port's dual role as both an energy import/export gateway and a major container hub adds logistics pressure to turnaround scheduling. Digital-twin integration of PAUT thickness mapping and API 570 piping inspection data helps ORLEN Gdańsk and port operators plan shutdowns efficiently in a facility where Baltic winter conditions and port congestion make physical access costly.",
+  "schwechat": "Schwechat, just outside Vienna, is home to the OMV Schwechat refinery, Austria's only refinery and the anchor of OMV's petrochemicals, lubricants and aviation-fuel operations serving nearby Vienna International Airport. The refinery's decades of continuous operation and its expanding petrochemical integration make asset-integrity tracking under Austria's Druckgeräteverordnung and Seveso III framework a continuous priority. A 3D digital twin integrating UT/PAUT thickness data and API 579 fitness-for-service assessments lets OMV and its inspection partners visualize corrosion trends across the refinery's pressure-vessel and piping inventory without repeated physical walkdowns.",
+  "le-havre": "Le Havre anchors Normandy's petrochemical corridor along the Seine estuary, home to the TotalEnergies Gonfreville-l'Orcher refinery, France's largest, alongside ExxonMobil's Port-Jérôme refinery/petrochemical complex and Yara and Borealis production units, all served by the Port of Le Havre. The cluster's ageing coastal refinery infrastructure, exposed to Channel weather and estuarine corrosion, operates under France's CODAP pressure equipment code and Seveso III oversight, driving continuous UT/PAUT thickness monitoring. Digital-twin visualization lets TotalEnergies, ExxonMobil and their COFREND-certified inspection partners coordinate turnaround planning and long-term fitness-for-service assessments across a multi-operator estuary corridor.",
+  "jazan": "Jazan hosts Saudi Aramco's Jazan Refinery and Terminal within Jazan Economic City, paired with the Jazan IGCC — one of the world's largest integrated gasification combined-cycle plants, converting refinery residue into syngas for power generation. High-pressure gasifiers, cryogenic units, and dense piping racks at this remote Red Sea coastal site make 3D digital twin visualization essential to compress turnaround planning and reduce costly crew mobilization to the site. FFS assessments per API 579 on residue-upgrading units, combined with Aramco's SAEP-1112 NDE documentation requirements, drive demand for digital-twin-integrated inspection records that let engineers in Dhahran or Riyadh review Jazan asset condition remotely.",
+  "rabigh": "Petro Rabigh integrates a major refinery with an ethylene/polyethylene petrochemical complex on the Red Sea coast — one of the largest single-site refining-petrochemical integrations globally, with the Rabigh II expansion adding ethylene crackers, aromatics units and specialty chemical trains. Cryogenic ethylene storage, high-temperature cracker furnaces, and dense brownfield piping create asset integrity challenges tracked via API 570/510 programs; digital twins let Petro Rabigh and its EPC partners visualize FFS assessments and RBI data across a sprawling integrated site without repeated site walks through hazardous cracker areas.",
+  "sitra": "Sitra is home to Bapco Energies' Sitra Refinery, transformed by the multi-billion-dollar Bapco Modernization Program (BMP) into one of the region's most complex greenfield-plus-brownfield refining integrations, adding a new crude distillation unit, hydrocracker and sulfur recovery trains alongside decades-old process units. The mix of newly commissioned high-pressure hydroprocessing equipment and legacy piping across Bahrain's compact island footprint makes digital twin visualization valuable for reconciling as-built BMP data with historical inspection records and planning API 510/570 turnarounds in tightly congested unit boundaries.",
+  "skikda": "Skikda hosts Sonatrach's RA1K refinery and the GL1K LNG complex — rebuilt with expanded capacity after a catastrophic 2004 explosion — plus an associated petrochemical/methanol complex, making it one of Algeria's most asset-dense hydrocarbon hubs. Cryogenic LNG storage tanks, ageing refinery distillation units, and post-incident-rebuilt liquefaction trains create a mix of new and legacy assets where FFS assessments and RBI-driven inspection planning benefit heavily from 3D digital twin visualization, especially given Sonatrach's push to modernize asset integrity practices since the 2004 incident.",
+  "arzew": "Arzew is Algeria's largest LNG production hub, anchored by Sonatrach's GL1Z, GL2Z and GL3Z liquefaction trains alongside the RA1Z refinery and Fertial's ammonia/urea fertilizer complex — a concentration of cryogenic, high-pressure and corrosive-service assets unmatched elsewhere in North Africa. GL3Z, commissioned as one of the world's largest single LNG trains, sits alongside decades-old GL1Z/GL2Z infrastructure, creating exactly the mixed brownfield/greenfield environment where digital twins add the most value for reconciling inspection history, planning FFS assessments on ageing cryogenic tanks, and coordinating turnarounds across a congested industrial zone.",
+  "mohammedia": "Mohammedia was long defined by Morocco's only crude oil refinery, operated by SAMIR until its 2015 shutdown and ongoing receivership, alongside ONEE's Mohammedia thermal and combined-cycle power plants and a dense corridor of process industry — Cosumar sugar refining and Lafarge Holcim cement — between Casablanca and Rabat. Idled refinery assets require FFS-driven decisions on mothballing, restart or decommissioning, while ONEE's operating power units and neighboring process plants continue routine RBI and API 510/570-aligned inspection; digital twins let asset owners and site administrators visualize integrity data across both live and idled infrastructure without extended, repeated site walks.",
+  "mangalore": "Mangalore's coastal industrial belt runs MRPL's crude distillation and delayed coker units, OMPL's aromatics reactors, and New Mangalore Port's crude, LPG and POL storage terminals under near-continuous monsoon salt-air exposure that accelerates external corrosion. PESO and OISD-141 statutory life-extension reviews drive frequent API 510/570/653 fitness-for-service assessments across ageing refinery and terminal assets. A 3D digital twin integrating UT thickness-mapping and RBI data lets MRPL, OMPL and port terminal operators plan turnaround inspection scopes and corrosion-loop reviews virtually, cutting site walk-downs on live process units. Mangalore Chemicals & Fertilizers' ammonia/urea storage adds another high-consequence asset class benefiting from real-time integrity visualization.",
+  "paradip": "Paradip's industrial cluster combines IOCL's Indmax-configuration refinery, Paradip Port's coal, iron-ore and crude berths, and IFFCO's ammonia-urea fertiliser complex — all sited on a cyclone-exposed Odisha coastline where structural and storage-tank resilience is a recurring integrity concern. OISD-driven statutory fitness-for-service reviews on ageing coker, CDU and fertiliser storage assets make virtual turnaround planning valuable for minimizing exposure during live shutdowns. A digital twin integrating UT thickness data and RBI scoring lets IOCL, IFFCO and Paradeep Phosphates plan inspection scopes and corrosion-loop reviews before mobilizing technicians into cyclone-season weather windows. Port terminal jetty and pipeline structures add a marine-asset dimension to the twin's integrity dataset.",
+  "panipat": "Panipat's industrial corridor pairs IOCL's integrated refinery and PX-PTA naphtha cracker petrochemical complex with the coal-fired Panipat Thermal Power Station, creating a dense mix of high-pressure reactors, cryogenic-adjacent storage and ageing boiler tube banks. OISD-141/129-driven fitness-for-service reviews and periodic statutory boiler inspections make virtual turnaround planning valuable for scheduling scarce specialist NDT crews across two major asset classes at once. A digital twin combining UT thickness data, RBI scoring and boiler tube inspection history lets IOCL and the thermal power station coordinate integrity planning before mobilizing technicians for shutdown windows. Petrochemical reactor and cracker furnace assets add high-temperature, high-consequence inspection scope to the twin dataset.",
+  "dahej": "Dahej is India's premier LNG and petrochemical hub — Petronet's Dahej terminal runs the country's largest cryogenic LNG storage capacity, OPaL operates a dual-feed cracker complex, and Reliance's Dahej manufacturing division and GACL's chlor-alkali plant round out a dense SEZ of high-pressure, cryogenic and corrosive-service assets. PESO and OISD-116 statutory reviews on cryogenic tank integrity and cracker furnace tube banks make virtual inspection planning valuable given the safety exposure of live LNG and petrochemical operations. A digital twin integrating UT thickness data, RBI scoring and cryogenic tank inspection history lets Petronet and OPaL coordinate turnaround and tank-out scopes before mobilizing specialist NDT crews. Gujarat's coastal SEZ growth continues adding new cryogenic and reactor assets to the region's inspection scope.",
+  "cartagena": "Cartagena's Reficar refinery — post its ~$8B mega-expansion — now runs a modern hydrocracker, delayed coker and high-severity FCC alongside the Mamonal petrochemical corridor's tank farms and reactor trains, all operating in Caribbean coastal humidity that accelerates external corrosion on carbon-steel piping and storage. Colombia's ANH-driven fitness-for-service expectations on ageing Mamonal-zone tankage make virtual turnaround planning valuable for coordinating scarce PAUT and RBI specialist crews. A digital twin integrating UT thickness mapping and RBI scoring lets Reficar and Mamonal operators plan inspection scopes and corrosion-loop reviews before mobilizing technicians into humid, high-consequence process areas. The Sociedad Portuaria Regional de Cartagena's liquid bulk terminal adds marine jetty and pipeline structures to the region's integrity dataset.",
+  "talara": "Talara's Petroperú refinery underwent a ~$5B modernization (PMRT) that added new hydrocracking, delayed coking and FCC units, replacing legacy processing infrastructure and creating a mix of brand-new and decades-old assets under the same OSINERGMIN inspection regime. Fitness-for-service reviews on the older tank farm and marine terminal infrastructure sit alongside commissioning-phase integrity data on the new PMRT units, making a unified digital twin valuable for tracking both asset generations. A digital twin integrating UT thickness data and RBI scoring lets Petroperú plan turnaround and tank-out scopes across the modernized refinery before mobilizing specialist crews. The Talara marine terminal's crude and product export infrastructure adds coastal pipeline and jetty structures to the integrity dataset.",
+  "esmeraldas": "Esmeraldas anchors Ecuador's crude export chain — Refinería Estatal Esmeraldas processes roughly 110,000 bpd while the Balao marine terminal loads crude gathered from the Amazon basin via the SOTE and OCP pipelines, creating a concentration of ageing CDU/FCC process units and coastal storage tankage under ARCERNNR's fitness-for-service oversight. Ecuador's seismic exposure and decades-old refinery infrastructure make life-extension inspection planning a recurring integrity priority. A digital twin integrating UT thickness data and RBI scoring lets Petroecuador plan turnaround and tank-out scopes across the refinery and terminal before mobilizing specialist NDT crews. Balao's crude storage and loading infrastructure adds marine jetty and pipeline structures to the region's integrity dataset.",
+  "tula": "Tula's industrial corridor pairs Pemex's Refinería Miguel Hidalgo — one of Mexico's largest refineries — with CFE's Pérez Ríos thermoelectric plant, together forming a dense concentration of ageing high-pressure process units and coal/fuel-oil boiler tube banks under ASEA's fitness-for-service oversight. Decades of continuous operation at both facilities have driven recurring API 510/570/653-style life-extension assessments as core integrity priorities. A digital twin integrating UT thickness data, RBI scoring and boiler tube inspection history lets Pemex and CFE coordinate turnaround planning across two major asset classes before mobilizing scarce specialist NDT crews. The region's high-altitude central Mexico climate adds thermal-cycling considerations to structural integrity planning.",
+  "salina-cruz": "Salina Cruz's Refinería Antonio Dovalí Jaime and its Pacific-coast marine terminal sit in the seismically active Isthmus of Tehuantepec, where earthquake exposure adds structural fitness-for-service urgency to ASEA-driven inspection cycles on ageing CDU, FCC and storage tank assets. The refinery's decades of continuous operation and the terminal's exposure to strong Tehuantepec wind events make virtual inspection planning valuable for coordinating scarce specialist NDT crews across both process and marine infrastructure. A digital twin integrating UT thickness data and RBI scoring lets Pemex plan turnaround and tank-out scopes before mobilizing technicians into seismic-zone process areas. The marine terminal's crude and product loading infrastructure adds jetty and pipeline structures to the region's integrity dataset.",
+  "mombasa": "Mombasa is East Africa's principal fuel import gateway — KPRL's converted storage terminal, KPC's pipeline pumping station, and the Kenya Ports Authority's Kilindini Harbour oil jetty and SPM handle the crude and refined product supply for Kenya and landlocked neighbors, all operating in a humid coastal environment that accelerates external corrosion on storage tanks and jetty piping. EPRA's statutory storage-tank and pipeline inspection framework makes fitness-for-service assessment a recurring priority given the terminal's role as a single point of national fuel-supply failure risk. A digital twin integrating UT thickness data and RBI scoring lets KPC and Kenya Ports Authority plan tank-out and jetty inspection scopes before mobilizing technicians into humid, high-consequence marine terminal areas. The pipeline pumping station's ageing infrastructure adds pump and valve integrity data to the region's twin dataset.",
+  "pointe-noire": "Pointe-Noire is the operational base for the Republic of Congo's deepwater oil industry — TotalEnergies' Moho Nord FPU, Eni's and Perenco's offshore platforms, and the Djeno crude export terminal all depend on integrity data from complex subsea and topside infrastructure operating in a harsh offshore West African environment. CORAF's onshore refinery adds an ageing downstream asset class requiring fitness-for-service review following historical operational disruptions. A digital twin integrating UT/PAUT thickness data and RBI scoring lets international operators plan offshore topside and Djeno terminal inspection scopes remotely, reducing costly helicopter and vessel mobilizations to platforms far offshore. Limited local inspection capacity makes remote visualization and virtual scope planning especially valuable for coordinating specialist crews flown in from Europe or elsewhere in Africa.",
+  "whiting": "Whiting's BP refinery — the largest in the US Midwest — runs heavy Canadian crude through a complex coker, FCC and hydrotreating configuration on the shore of Lake Michigan, where decades of continuous operation drive frequent API 510/570/653 fitness-for-service reviews across ageing process units and storage tankage. Indiana OSHA and IDEM regulatory pressure around Process Safety Management make integrity documentation and turnaround planning a persistent operational priority. A digital twin integrating UT/PAUT thickness data and RBI scoring lets BP plan turnaround and tank-out scopes across the sprawling refinery footprint before mobilizing technicians into live process units. The refinery's Lake Michigan-adjacent tank farm adds lakeside corrosion and structural integrity considerations to the twin dataset.",
+  "garyville": "Garyville's Marathon refinery — the third-largest in the US — runs an extensive coker, FCC and hydrocracking complex along the Mississippi River, where Gulf Coast hurricane exposure and dense petrochemical-corridor Process Safety Management scrutiny drive frequent API 510/570/653 fitness-for-service reviews. LDEQ and OSHA Region VI regulatory pressure makes integrity documentation and structural resilience planning a persistent operational priority ahead of storm season. A digital twin integrating UT/PAUT thickness data and RBI scoring lets Marathon plan turnaround and tank-out scopes across the sprawling refinery footprint before mobilizing technicians into live process units. The refinery's Mississippi River marine terminal adds dock and pipeline structural integrity considerations to the twin dataset.",
+  "toledo-ohio": "Toledo's PBF Energy refinery — formerly the BP/Husky-Cenovus joint venture — runs a mid-continent crude processing complex on the Maumee River near Lake Erie, where decades of continuous Rust Belt operation drive frequent API 510/570/653 fitness-for-service reviews across ageing process units and storage tankage. Ohio EPA and OSHA Region V regulatory oversight make integrity documentation and turnaround planning a persistent operational priority following the 2022 ownership transition. A digital twin integrating UT/PAUT thickness data and RBI scoring lets PBF Energy plan turnaround and tank-out scopes across the refinery footprint before mobilizing technicians into live process units. The refinery's Lake Erie-adjacent tank farm adds Great Lakes corrosion and structural integrity considerations to the twin dataset.",
   "adelaide": "Adelaide anchors South Australia's energy and defence-industrial base — Santos runs its Cooper Basin gas operations and LNG-linked infrastructure from its Adelaide headquarters, while the Osborne Naval Shipyard builds and sustains the Collins-class submarines and Hunter-class frigates under the AUKUS and Attack-class programs. The mix of ageing gas processing plant, high-value naval steel hulls, and pressure vessels demands rigorous asset integrity tracking that satisfies both process safety expectations and Defence quality standards. 3D digital twins let Santos and shipbuilders overlay UT/PAUT thickness and weld inspection history directly onto vessel and hull geometry, supporting fitness-for-service decisions across decades-long asset and vessel life. With Adelaide's defence build program running for 30+ years, traceable digital records of every inspection are becoming a contractual expectation, not a nice-to-have.",
   "geelong": "Geelong is home to the Viva Energy Geelong Refinery, Victoria's only remaining oil refinery and a critical piece of the state's fuel security, alongside the Port of Geelong's bulk liquid and grain terminals and GrainCorp processing infrastructure. Decades-old refinery units, crude and product storage tanks, and high-pressure piping at Viva Energy require continuous corrosion-under-insulation and thickness monitoring to extend asset life safely under major hazard facility regulation. A 3D digital twin lets inspection teams visualize UT/RBI data directly on refinery unit geometry, prioritizing FFS assessments on the highest-risk vessels rather than working blind from spreadsheets and 2D drawings. As Geelong's industrial base diversifies toward renewable fuels and offshore wind support, integrated asset visualization is becoming central to how operators plan turnarounds and life extension.",
   "kwinana": "Kwinana is Western Australia's largest heavy industrial strip, built around the former BP Kwinana Refinery site, Alcoa's Kwinana Alumina Refinery, CSBP's ammonia and fertiliser plant, and BOC industrial gas facilities, all clustered along Cockburn Sound south of Fremantle. The strip's ageing alumina digestion vessels, ammonia synthesis loops, and bulk storage tanks operate under major hazard facility rules, where corrosion, cracking, and thickness loss must be tracked rigorously to avoid unplanned shutdowns. 3D digital twins give Kwinana operators a single visual reference that fuses UT/PAUT inspection history, RBI scores, and FFS-per-API-579 assessments across a site with multiple co-located, interdependent plants. As several Kwinana facilities pursue green hydrogen and ammonia conversion projects, digital twins are also becoming the baseline model for new-build integrity planning.",
@@ -202,6 +354,1070 @@ export const digitalTwinLocationContext = {
 // ─── Asset type data per city ─────────────────────────────────────────────────
 
 export const digitalTwinAssets = {
+  "accra": [
+    "Tema Oil Refinery (TOR) process units",
+    "FPSO Kwame Nkrumah (Jubilee field) hull and topsides",
+    "FPSO John Agyekum Kufuor (TEN field)",
+    "Atuabo Gas Processing Plant vessels",
+    "Offshore subsea pipelines and risers"
+  ],
+  "gabon": [
+    "Perenco/Assala offshore production platforms",
+    "Onshore Rabi-Kounga and Etame field pipelines",
+    "Comilog Moanda manganese processing and ore-handling structures",
+    "Port-Gentil crude storage and export terminal",
+    "Ageing offshore risers and subsea infrastructure"
+  ],
+  "ghana": [
+    "Sankofa Gye Nyame offshore gas platform and onshore receiving facility",
+    "Akosombo and Bui hydroelectric dam structures",
+    "Newmont Ahafo gold processing plant",
+    "AngloGold Ashanti Obuasi mine infrastructure",
+    "Ghana Gas Atuabo NGL processing trains"
+  ],
+  "ivory-coast": [
+    "SIR Abidjan refinery distillation and cracking units",
+    "Eni Baleine field FPSO and subsea infrastructure",
+    "Vridi thermal power plant pressure vessels",
+    "Azito combined-cycle power plant turbines",
+    "Abidjan port fuel storage terminals"
+  ],
+  "mozambique": [
+    "TotalEnergies Mozambique LNG (Afungi) liquefaction trains",
+    "Eni Coral South FLNG hull and topsides",
+    "Sasol Pande/Temane Central Processing Facility",
+    "ROMPCO gas export pipeline",
+    "Moatize coal mining and ore-handling structures"
+  ],
+  "nairobi": [
+    "KenGen Olkaria geothermal wellhead separators and turbines",
+    "Kenya Pipeline Company fuel storage depots and pipeline network",
+    "Tullow Oil South Lokichar (Turkana) production facilities",
+    "Former KPRL Mombasa storage terminal",
+    "Mombasa port fuel import/export infrastructure"
+  ],
+  "senegal": [
+    "SAR Dakar refinery process units",
+    "Woodside Sangomar FPSO and subsea infrastructure",
+    "Greater Tortue Ahmeyim (GTA) FLNG facility",
+    "GTA FPSO hull and topsides",
+    "Dakar port fuel storage terminals"
+  ],
+  "tanzania": [
+    "TIPER Dar es Salaam storage terminal",
+    "TANESCO Kinyerezi gas-fired power plant turbines",
+    "Planned Tanzania LNG (Likong'o) liquefaction infrastructure",
+    "Barrick North Mara/Bulyanhulu gold processing plants",
+    "AngloGold Ashanti Geita mine processing structures"
+  ],
+  "balikpapan": [
+    "Pertamina RU V refinery process units",
+    "RDMP Balikpapan new distillation and hydrocracker units",
+    "Pertamina Hulu Mahakam offshore platform topsides",
+    "Balikpapan Bay marine terminal jetties and pipelines",
+    "Onshore gas gathering and separator stations"
+  ],
+  "bangladesh": [
+    "Eastern Refinery Limited process units",
+    "Moheshkhali FSRU and LNG import terminal",
+    "Bibiyana gas field production facilities",
+    "Petrobangla gas transmission compressor stations",
+    "Chattogram port fuel storage tank farms"
+  ],
+  "bintulu": [
+    "MLNG Satu/Dua/Tiga liquefaction trains and cryogenic storage",
+    "Shell MDS gas-to-liquids reactors",
+    "Petronas Chemicals fertilizer and methanol plant vessels",
+    "LNG jetty and marine loading arms",
+    "High-pressure gas feed and compression trains"
+  ],
+  "bontang": [
+    "Badak LNG liquefaction trains and cryogenic storage tanks",
+    "Pupuk Kaltim ammonia and urea reactor vessels",
+    "VICO Indonesia gas gathering and separator facilities",
+    "LNG marine loading jetty and berths",
+    "Gas compression and heat exchanger trains"
+  ],
+  "cilacap": [
+    "Pertamina RU IV crude distillation and hydrocracker units",
+    "Refinery storage tank farm",
+    "Marine import/export jetty and pipelines",
+    "Solusi Bangun Indonesia cement plant vessels and kilns",
+    "Cooling water and utility piping systems"
+  ],
+  "jurong-island": [
+    "ExxonMobil Jurong integrated refining/petrochemical units",
+    "Shell Pulau Bukom refinery process vessels",
+    "Jurong Rock Caverns underground storage",
+    "Chemical tank farms and pipeline racks",
+    "Ethylene cracker and polymer reactor trains"
+  ],
+  "kemaman": [
+    "Offshore platform topsides serviced from Kemaman base",
+    "Vopak Terminal Kemaman storage tanks",
+    "Kemaman Bitumen Company process vessels",
+    "Kemaman Supply Base marine jetties",
+    "Crude and product pipeline systems"
+  ],
+  "kerteh": [
+    "Petronas Chemicals ethylene cracker and polyethylene reactors",
+    "Kertih Aromatics complex vessels",
+    "Optimal Chemicals process units",
+    "Gas processing terminal receiving offshore feed gas",
+    "Pressurized product storage spheres"
+  ],
+  "miri": [
+    "Sarawak Shell offshore platform topsides",
+    "Subsea pipeline infrastructure to Bintulu",
+    "Offshore riser and wellhead structures",
+    "Miri supply base storage and marine facilities",
+    "Legacy onshore well and gathering infrastructure"
+  ],
+  "mongolia": [
+    "Oyu Tolgoi copper-gold mineral processing plant",
+    "Tavan Tolgoi coal handling and conveyor systems",
+    "Erdenet copper-molybdenum concentrator vessels",
+    "Mine site crushing and grinding circuits",
+    "Fuel storage and distribution terminals"
+  ],
+  "myanmar": [
+    "Yadana and Yetagun offshore platform topsides",
+    "Shwe gas field production facilities",
+    "Offshore-to-China export pipeline infrastructure",
+    "Thanlyin refinery process units",
+    "Onshore gas gathering and compression stations"
+  ],
+  "pakistan": [
+    "PARCO Mid-Country Refinery process units",
+    "Engro Elengy LNG import terminal and regasification units",
+    "Sui gas field production and compression facilities",
+    "Karachi coastal refinery storage tank farms",
+    "National gas transmission pipeline network"
+  ],
+  "sri-lanka": [
+    "Sapugaskanda Refinery process units",
+    "Trincomalee China Bay tank farm storage tanks",
+    "Colombo Port fuel import/export terminal",
+    "Refinery pipeline and loading infrastructure",
+    "Marine jetty and berthing structures"
+  ],
+  "cyprus": [
+    "Vasiliko Energy Center crude and product storage tanks (VTTV terminal)",
+    "Cyprus LNG import terminal infrastructure (under development)",
+    "Offshore Aphrodite gas field subsea infrastructure",
+    "Vasiliko marine jetty and pipeline network",
+    "Offshore exploration platform topsides"
+  ],
+  "fawley": [
+    "ExxonMobil Fawley Refinery distillation and cracking units",
+    "Fawley aromatics and base oils petrochemical plant",
+    "Crude and product storage tank farm",
+    "Southampton Water marine jetties and pipelines",
+    "Ageing pressure vessels and piping circuits under FFS review"
+  ],
+  "grangemouth": [
+    "Petroineos Grangemouth refinery process units",
+    "Ineos Grangemouth olefins and polymers plant",
+    "INEOS FPS Kinneil terminal (Forties Pipeline System)",
+    "Firth of Forth crude and product storage tanks",
+    "North Sea gas processing and NGL separation vessels"
+  ],
+  "greece": [
+    "Hellenic Petroleum Aspropyrgos and Elefsina refinery units",
+    "Motor Oil Hellas Corinth refinery",
+    "DESFA Revithoussa LNG import terminal storage tanks",
+    "Trans Adriatic Pipeline (TAP) landfall and metering infrastructure",
+    "Offshore exploration blocks (Ionian Sea, south of Crete)"
+  ],
+  "immingham": [
+    "Prax Lindsey Oil Refinery process units",
+    "VPI Immingham combined heat and power plant",
+    "Phillips 66 Humber Refinery units (South Killingholme)",
+    "Humber Estuary marine jetties and bulk storage terminals",
+    "LNG and biomass import terminal infrastructure"
+  ],
+  "karsto": [
+    "Kårstø gas processing and fractionation columns",
+    "NGL and condensate storage and export terminal",
+    "High-pressure gas separator vessels",
+    "Cryogenic gas processing piping and cold boxes",
+    "North Sea gas import pipeline risers and manifolds"
+  ],
+  "mongstad": [
+    "Equinor Mongstad refinery distillation and cracking units",
+    "CO2 Technology Centre Mongstad (TCM) carbon capture pilot plant",
+    "Mongstad crude oil terminal and storage tanks",
+    "Desulfurization and catalytic reforming units",
+    "Marine jetties and crude export pipeline infrastructure"
+  ],
+  "stanlow": [
+    "Essar Stanlow refinery distillation and hydrocracking units",
+    "HyNet blue hydrogen production plant (under construction)",
+    "CO2 capture and compression infrastructure",
+    "Manchester Ship Canal marine terminal and pipelines",
+    "Crude and product storage tank farm"
+  ],
+  "teesside": [
+    "SABIC UK Petrochemicals olefins complex",
+    "CATS gas terminal (Eni-operated North Sea gas processing)",
+    "Wilton International chemical manufacturing site",
+    "Net Zero Teesside CO2 capture and compression infrastructure",
+    "Tees Estuary marine jetties and storage tanks"
+  ],
+  "trondheim": [
+    "Subsea manifolds and pipeline riser systems (Norwegian Continental Shelf)",
+    "Subsea processing modules for offshore gas fields",
+    "Equinor Rotvoll research and digital field-of-the-future infrastructure",
+    "SINTEF/NTNU subsea test and simulation facilities",
+    "Offshore field pipeline and tie-back infrastructure"
+  ],
+  "turkey": [
+    "Tüpraş İzmit and İzmir/Aliağa refinery units",
+    "SOCAR STAR Refinery and Petkim petrochemical complex (Aliağa)",
+    "BOTAŞ Ceyhan crude oil terminal (BTC pipeline terminus)",
+    "TANAP natural gas pipeline compressor and metering stations",
+    "Crude and product pipeline network (BOTAŞ)"
+  ],
+  "gujarat": [
+    "Reliance Jamnagar refinery and cracker units",
+    "Nayara Energy Vadinar refinery vessels",
+    "IOCL Koyali refinery process units",
+    "Dahej petrochemical complex reactors and pipelines",
+    "GSPC/GAIL cryogenic LNG storage tanks"
+  ],
+  "maharashtra": [
+    "HPCL and BPCL Mumbai refinery process units",
+    "ONGC Mumbai High offshore platform topsides",
+    "JNPT hazardous cargo storage tanks",
+    "Reliance Patalganga petrochemical vessels",
+    "RCF Trombay fertilizer plant piping"
+  ],
+  "tamil-nadu": [
+    "CPCL Manali refinery distillation and cracking units",
+    "Manali petrochemical complex reactors",
+    "ONGC Cauvery Basin wellhead and gathering stations",
+    "Ennore LNG terminal storage tanks",
+    "Chennai Petroleum tank farm"
+  ],
+  "karnataka": [
+    "MRPL Mangalore refinery process and cracking units",
+    "New Mangalore Port crude oil storage tanks",
+    "MRPL petrochemical complex reactors",
+    "LPG import terminal spheres",
+    "ONGC Mangalore operations piping"
+  ],
+  "kerala": [
+    "BPCL Kochi Refinery process and secondary units",
+    "Petronet LNG Kochi cryogenic storage tanks",
+    "Cochin Shipyard hull and structural fabrication",
+    "FACT Cochin fertilizer plant vessels",
+    "Kochi Refinery crude and product tank farm"
+  ],
+  "telangana": [
+    "Hyderabad pharmaceutical bulk-drug reactor vessels",
+    "IOCL LPG bottling plant storage spheres",
+    "NTPC/Genco thermal power station boiler pressure parts",
+    "Bulk-drug manufacturing solvent storage tanks",
+    "Hyderabad industrial corridor process piping"
+  ],
+  "andhra-pradesh": [
+    "HPCL Visakhapatnam refinery process units",
+    "Reliance KG-D6 offshore platform topsides",
+    "ONGC KG Basin onshore gathering stations",
+    "Nagarjuna Fertilizers process vessels",
+    "Visakhapatnam port crude storage tanks"
+  ],
+  "west-bengal": [
+    "IOCL Haldia refinery process and cracking units",
+    "Haldia Petrochemicals complex reactors",
+    "Haldia Dock hazardous cargo storage tanks",
+    "Kolkata Port fuel storage terminal",
+    "Durgapur steel plant process vessels"
+  ],
+  "visakhapatnam": [
+    "HPCL Visakhapatnam refinery process units",
+    "RINL Vizag Steel Plant blast furnace and vessels",
+    "ONGC KG Basin offshore support base piping",
+    "Vizag Port crude and LPG storage tanks",
+    "Visakhapatnam LNG import terminal infrastructure"
+  ],
+  "abqaiq": [
+    "Crude stabilization towers and stabilizer columns",
+    "Gas-oil separation plant (GOSP) vessels",
+    "Sour-crude desalter trains",
+    "High-pressure separator and amine treating units",
+    "Export pipeline manifolds and pump stations"
+  ],
+  "al-zour": [
+    "Refinery CDU/VDU and hydrocracker units",
+    "LNG cryogenic storage tanks and regasification trains",
+    "Deep desulfurization and FCC units",
+    "Al-Zour North power plant boiler and turbine systems",
+    "Marine jetty and crude/product loading infrastructure"
+  ],
+  "duqm": [
+    "Duqm Refinery crude and vacuum distillation units",
+    "Heavy/sour crude hydrocracking and desulfurization trains",
+    "Dry dock and offshore fabrication structures",
+    "Product storage tank farm",
+    "Marine loading jetties and port infrastructure"
+  ],
+  "fujairah": [
+    "Atmospheric crude and product storage tanks",
+    "ADNOC Fujairah crude pipeline terminal",
+    "Ship-to-ship bunkering jetties and loading arms",
+    "Fujairah F3 power plant piping and pressure equipment",
+    "Tank farm pipe racks and manifold systems"
+  ],
+  "iraq": [
+    "Rumaila and West Qurna field gas-oil separation plants",
+    "Offshore single-point mooring (SPM) export terminals",
+    "Basra and Shuaiba refinery process units",
+    "Basrah Gas Company NGL/gas processing trains",
+    "Crude export pipeline network and pump stations"
+  ],
+  "israel": [
+    "Leviathan and Tamar offshore platform topsides",
+    "Subsea pipelines and gas processing risers",
+    "Haifa Bay refinery distillation and cracking units",
+    "Ashdod refinery process and storage infrastructure",
+    "INGL national gas pipeline compressor stations"
+  ],
+  "khurais": [
+    "Gas-oil separation plant (GOSP) trains",
+    "Water injection facility pressure vessels and piping",
+    "Central Arabia gas compression and processing units",
+    "Crude export pipeline links to Abqaiq",
+    "Wellhead manifold and gathering system piping"
+  ],
+  "mesaieed": [
+    "Mesaieed Refinery distillation and cracking units",
+    "QAPCO ethylene/polyethylene production trains",
+    "ORYX GTL Fischer-Tropsch reactors and processing units",
+    "QAFAC methanol/MTBE synthesis plant",
+    "Qatar Steel electric arc furnace and rolling mill equipment"
+  ],
+  "mussafah": [
+    "Offshore platform topside modules under fabrication",
+    "Subsea pipeline spools and jacket structures",
+    "Pressure vessel fabrication shops",
+    "Structural steel fabrication and welding bays",
+    "Musaffah Port load-out and marine transport facilities"
+  ],
+  "ras-laffan": [
+    "LNG cryogenic storage tanks and liquefaction trains",
+    "Shell Pearl GTL Fischer-Tropsch reactors",
+    "Laffan Refinery condensate processing units",
+    "High-pressure gas separators and dehydration units",
+    "LNG jetty and marine loading infrastructure"
+  ],
+  "salalah": [
+    "Salalah Methanol Company synthesis reactors and reformers",
+    "Methanol storage and loading terminal tanks",
+    "Port of Salalah bunkering and fuel storage infrastructure",
+    "Free zone petrochemical process piping",
+    "Marine loading jetties and pipeline manifolds"
+  ],
+  "shaybah": [
+    "Gas-oil separation plant (GOSP) trains",
+    "NGL recovery and gas processing units",
+    "Export pipeline pump stations",
+    "Produced water handling and injection systems",
+    "Central processing facility pressure vessels"
+  ],
+  "tunisia": [
+    "STIR Bizerte refinery distillation and cracking units",
+    "Offshore Gulf of Gabès platform topsides",
+    "Nawara gas processing and treatment plant",
+    "El Borma onshore production facilities",
+    "Gas pipeline network and compression stations"
+  ],
+  "alberta": [
+    "Oil sands upgrader and coker units (Fort McMurray/Cold Lake)",
+    "Fort Saskatchewan petrochemical process vessels",
+    "Lloydminster heavy-oil upgrader equipment",
+    "Enbridge and TC Energy pipeline compressor/pump stations",
+    "Bitumen extraction and tailings processing vessels"
+  ],
+  "azerbaijan": [
+    "ACG offshore platform topsides and jackets",
+    "Shah Deniz subsea and topside gas infrastructure",
+    "Sangachal Terminal storage tanks and process units",
+    "BTC pipeline pump stations",
+    "SOCAR onshore refining and processing units"
+  ],
+  "ecuador": [
+    "Esmeraldas refinery process units and storage tanks",
+    "Amazon basin oil field production facilities (Lago Agrio, Sacha)",
+    "SOTE and OCP pipeline pump stations",
+    "Balao export terminal storage and loading systems",
+    "Amazon crude gathering and separation vessels"
+  ],
+  "guyana": [
+    "Liza Destiny, Liza Unity, Prosperity FPSO hulls and topsides",
+    "One Guyana FPSO production systems",
+    "Subsea wellhead and manifold systems (Stabroek Block)",
+    "FPSO turret mooring and riser systems",
+    "Offshore process and storage vessels"
+  ],
+  "kazakhstan": [
+    "Tengiz field sour-gas process trains (TCO)",
+    "Kashagan artificial island production facilities (NCOC)",
+    "CPC pipeline pump stations and terminal",
+    "Atyrau refinery process units (KMG)",
+    "Karachaganak gas-condensate processing vessels"
+  ],
+  "ontario": [
+    "Sarnia Chemical Valley refining and petrochemical units (Imperial Oil, Shell, NOVA)",
+    "Hamilton blast furnace and steelmaking vessels (Stelco, Dofasco)",
+    "Bruce Power and Darlington nuclear steam generators/pressure vessels",
+    "Petrochemical storage tank farms (Sarnia)",
+    "Pickering nuclear reactor containment and piping systems"
+  ],
+  "panama": [
+    "Panama Canal lock gates and hydraulic structures",
+    "Costa Norte LNG terminal cryogenic storage and regasification units",
+    "Balboa and Cristobal port cranes and structural infrastructure",
+    "Cobre Panama copper processing and concentrator vessels",
+    "LNG-fired power plant pressure equipment"
+  ],
+  "port-kembla": [
+    "BlueScope Port Kembla blast furnace and steelmaking vessels",
+    "Port Kembla LNG import terminal cryogenic storage/regasification",
+    "Coal and grain export terminal structures",
+    "Continuous casting and coke oven infrastructure",
+    "Port crane and berth structural assets"
+  ],
+  "suriname": [
+    "Block 58 subsea production systems (TotalEnergies/APA)",
+    "FPSO topsides and hull structures (Sapakara/Krabdagu development)",
+    "Staatsolie Tout Lui Faut refinery process units",
+    "Newmont Merian gold processing plant vessels",
+    "Legacy bauxite/alumina processing infrastructure"
+  ],
+  "alaska": [
+    "Trans-Alaska Pipeline System (TAPS) pipeline segments",
+    "Valdez Marine Terminal storage tanks",
+    "Prudhoe Bay and Kuparuk wellhead/production modules",
+    "Petro Star North Pole refinery process units",
+    "North Slope pump stations"
+  ],
+  "california": [
+    "Chevron El Segundo and Richmond refinery process units",
+    "Marathon Los Angeles Refinery vessels and piping",
+    "Santa Barbara Channel offshore platforms (decommissioning)",
+    "PBF Torrance refinery tankage",
+    "Valero Benicia refinery storage and process vessels"
+  ],
+  "clairton": [
+    "Coke oven battery structures and doors",
+    "Quench towers",
+    "Byproduct recovery plant vessels (tar, ammonia, light oil)",
+    "Coal handling and blending equipment",
+    "Combustion stacks and flues"
+  ],
+  "conroe": [
+    "Storage tank batteries (Conroe field legacy production)",
+    "Fabricated pressure vessels for oilfield service",
+    "Artificial lift and wellhead equipment",
+    "Pipeline gathering system segments",
+    "Skid-mounted process equipment"
+  ],
+  "detroit": [
+    "Marathon Detroit refinery coker and hydrotreating units",
+    "Marathon heavy-crude storage tankage",
+    "Cleveland-Cliffs Dearborn Works blast furnace and casting equipment",
+    "DTE Energy power plant boilers and piping",
+    "Sulfur recovery units"
+  ],
+  "florida": [
+    "Mosaic phosphoric/sulfuric acid processing vessels (Bartow, Riverview)",
+    "Port Tampa Bay and Port Everglades fuel storage tank farms",
+    "FPL Turkey Point and St. Lucie power generation structures",
+    "Phosphate rock beneficiation equipment",
+    "Marine fuel terminal piping and jetties"
+  ],
+  "hammond": [
+    "BP Whiting Refinery coker and crude units",
+    "Cleveland-Cliffs Indiana Harbor blast furnace structures",
+    "Hammond rail and marine terminal tank farms",
+    "Refinery sulfur recovery and hydrotreating units",
+    "Steel rolling mill process equipment"
+  ],
+  "joliet": [
+    "ExxonMobil Joliet Refinery crude and coker units",
+    "CITGO Lemont Refinery process vessels and tankage",
+    "Refinery hydrotreating and sulfur recovery units",
+    "Rail terminal bulk storage tanks",
+    "Pipeline interconnect and metering stations"
+  ],
+  "long-beach": [
+    "THUMS Long Beach offshore islands wellhead/processing equipment",
+    "Port of Long Beach fuel and bulk-liquid tank farms",
+    "Long Beach oil field surface production facilities",
+    "Marine terminal piping and loading arms",
+    "Pipeline gathering infrastructure"
+  ],
+  "martinez": [
+    "Martinez Refining Company crude and coker units",
+    "Refinery hydrotreating and catalytic cracking units",
+    "Carquinez Strait marine terminal piping and berths",
+    "Refinery storage tank farm",
+    "Flare and relief system piping"
+  ],
+  "new-york-state": [
+    "Port of Albany crude-by-rail terminal tank farms",
+    "Niagara Falls chemical processing vessels",
+    "Constellation Nine Mile Point nuclear plant structures",
+    "Petroleum pipeline interconnects and metering stations",
+    "Rail unloading racks and piping"
+  ],
+  "ohio": [
+    "Marathon Canton refinery process units",
+    "Cenovus/BP Toledo Refinery coker and crude units",
+    "PBF Toledo Refinery storage tankage",
+    "Cleveland-Cliffs Cleveland Works blast furnace structures",
+    "Nucor electric-arc furnace equipment"
+  ],
+  "pasadena-texas": [
+    "Chevron Pasadena Refinery crude and coker units",
+    "Chevron Phillips Pasadena Plastics Complex reactors",
+    "Kemira Pasadena chemical process vessels",
+    "Ship Channel marine terminal piping and berths",
+    "Refinery storage tank farm"
+  ],
+  "pennsylvania": [
+    "Monroe Energy Trainer Refinery process units",
+    "Marcus Hook NGL export terminal storage and piping",
+    "U.S. Steel Mon Valley blast furnace and rolling mill structures",
+    "United Refining Warren refinery tankage",
+    "Pipeline interconnect and metering stations"
+  ],
+  "sugar-land": [
+    "Imperial Sugar refinery processing vessels and evaporators",
+    "Schlumberger-engineered oilfield equipment and pressure vessels",
+    "Fluor-designed process modules and skids",
+    "Bulk sugar storage silos",
+    "Rail and truck loading infrastructure"
+  ],
+  "torrance": [
+    "PBF Torrance Refinery FCC unit",
+    "Alkylation unit process vessels (modified HF alkylation)",
+    "Crude and coker units",
+    "Refinery storage tank farm",
+    "Flare and relief system piping"
+  ],
+  "wilmington-california": [
+    "Phillips 66 Los Angeles Refinery Wilmington process units",
+    "Valero Wilmington Refinery crude and coker units",
+    "Wilmington oil field wellhead and gathering equipment",
+    "Port of Los Angeles marine terminal tank farms",
+    "Pipeline interconnects and loading arms"
+  ],
+  "baytown": [
+    "ExxonMobil Baytown refinery crude and coker units",
+    "Baytown Olefins Plant high-pressure reactors",
+    "Chevron Phillips Cedar Bayou petrochemical vessels",
+    "Houston Ship Channel marine terminal piping",
+    "Baytown Chemical Plant storage and process piping"
+  ],
+  "carson": [
+    "Phillips 66 Los Angeles Refinery Carson crude units",
+    "Marathon Carson FCC and alkylation units",
+    "Refinery crude and vacuum distillation towers",
+    "Hydrotreater and hydrocracker reactors",
+    "Product storage tank farms"
+  ],
+  "colorado": [
+    "Suncor Commerce City refinery crude and coker units",
+    "DJ Basin gathering pipelines and separators",
+    "Climax molybdenum mine processing vessels",
+    "Cripple Creek & Victor gold ore processing circuits",
+    "Midstream gas compressor stations"
+  ],
+  "dearborn": [
+    "Cleveland-Cliffs Dearborn Works blast furnace and coke ovens",
+    "Ford Rouge Complex manufacturing infrastructure",
+    "Marathon Detroit refinery process units",
+    "Continuous caster and rolling mill structures",
+    "River-side bulk material handling structures"
+  ],
+  "east-chicago": [
+    "Cleveland-Cliffs Indiana Harbor blast furnaces",
+    "Indiana Harbor coke oven batteries",
+    "BP Whiting refinery crude and coker units",
+    "Basic oxygen furnace vessels",
+    "Lake Michigan bulk material handling docks"
+  ],
+  "freeport-texas": [
+    "Freeport LNG cryogenic storage tanks",
+    "Dow Freeport ethylene cracker units",
+    "BASF Freeport chemical process vessels",
+    "LNG loading arms and marine jetty piping",
+    "Chlor-alkali and derivatives process piping"
+  ],
+  "huntsville": [
+    "Marshall Space Flight Center rocket test stands",
+    "Redstone Arsenal propellant storage tanks",
+    "Aerojet Rocketdyne engine test facilities",
+    "Cryogenic propellant transfer piping",
+    "Flight hardware pressure vessel weldments"
+  ],
+  "la-porte": [
+    "INEOS La Porte process reactors and piping",
+    "LyondellBasell Bayport polymer vessels",
+    "Air Products hydrogen production units",
+    "ExxonMobil Bayport polymers plant piping",
+    "Houston Ship Channel marine terminal infrastructure"
+  ],
+  "louisiana": [
+    "ExxonMobil Baton Rouge refinery process units",
+    "Sasol Lake Charles ethane cracker complex",
+    "Cheniere Sabine Pass LNG cryogenic storage",
+    "Shell Norco and Dow Plaquemine petrochemical vessels",
+    "Mississippi River marine terminal piping"
+  ],
+  "michigan": [
+    "Cleveland-Cliffs Dearborn Works blast furnace",
+    "Marathon Detroit refinery process units",
+    "DTE Energy fossil power generation boilers",
+    "Ford Rouge Complex manufacturing structures",
+    "Automotive stamping plant structural steel"
+  ],
+  "norfolk": [
+    "Norfolk Naval Shipyard vessel hulls and piping",
+    "Naval Station Norfolk ship maintenance structures",
+    "Dominion CVOW offshore wind turbine foundations",
+    "Port of Virginia bulk terminal infrastructure",
+    "Submarine and surface combatant pressure systems"
+  ],
+  "orange-texas": [
+    "INVISTA Orange nylon intermediates process units",
+    "Chevron Phillips Orange chemical vessels",
+    "Sabine-Neches Waterway marine terminal piping",
+    "Nitric acid production reactors",
+    "High-pressure process piping racks"
+  ],
+  "paulsboro": [
+    "PBF Paulsboro crude and vacuum distillation units",
+    "Specialty lube oil processing trains",
+    "Repauno marine and rail terminal piping",
+    "Delaware River dock and loading infrastructure",
+    "Asphalt and specialty products storage tanks"
+  ],
+  "phoenix": [
+    "Palo Verde Nuclear Generating Station reactor containment",
+    "TSMC Arizona fab cleanroom piping systems",
+    "Intel Ocotillo semiconductor process infrastructure",
+    "Freeport-McMoRan copper processing vessels",
+    "Salt River Project power generation infrastructure"
+  ],
+  "texas": [
+    "Motiva Port Arthur refinery crude and coker units",
+    "ExxonMobil Baytown refining/petrochemical complex",
+    "Cheniere Corpus Christi LNG cryogenic storage",
+    "Permian Basin gathering pipelines and compressor stations",
+    "Houston Ship Channel petrochemical process units"
+  ],
+  "trainer": [
+    "Monroe Energy Trainer Refinery crude distillation units",
+    "Catalytic reformer and hydrotreater vessels",
+    "Jet fuel production and blending infrastructure",
+    "Delaware River marine terminal piping",
+    "Product storage tank farm"
+  ],
+  "benicia": [
+    "Valero Benicia Refinery crude distillation and coker units",
+    "Hydrocracker and hydrotreater pressure vessels",
+    "Refinery tank farm and marine terminal piping",
+    "FCC unit reactor-regenerator structures",
+    "Cooling water and heat exchanger networks"
+  ],
+  "channelview": [
+    "LyondellBasell olefins cracker piping and exchangers",
+    "Enterprise Products NGL fractionation and storage",
+    "Lubrizol specialty chemical reactor vessels",
+    "Ship channel dock and pipeline manifold systems",
+    "Polymer/polyethylene reactor trains"
+  ],
+  "colorado-springs": [
+    "Ray Nixon coal plant boiler and turbine systems",
+    "Utility steam drum and header piping",
+    "Aerospace precision-machined structural components",
+    "Space systems pressure vessel hardware",
+    "Natural gas pipeline compressor infrastructure"
+  ],
+  "deer-park": [
+    "Shell Deer Park crude and vacuum distillation units",
+    "Integrated petrochemical steam cracker and derivatives units",
+    "Refinery tank farm and ship channel dock piping",
+    "FCC and alkylation unit vessels",
+    "High-pressure hydroprocessing reactors"
+  ],
+  "el-segundo": [
+    "Chevron El Segundo FCC and alkylation units",
+    "Crude and vacuum distillation towers",
+    "Coker unit drums and piping",
+    "Refinery tank farm and marine offloading systems",
+    "Hydrotreater and hydrocracker vessels"
+  ],
+  "galveston": [
+    "Offshore support vessel hulls and topside structures",
+    "Jack-up rig legs and deck equipment",
+    "Port of Galveston dock and mooring infrastructure",
+    "Subsea pipeline and riser systems",
+    "Offshore platform topside piping (Gulf of Mexico)"
+  ],
+  "illinois": [
+    "ExxonMobil Joliet Refinery process units",
+    "CITGO Lemont Refinery vessels and piping",
+    "Marathon Robinson Refinery distillation units",
+    "ADM Decatur grain/chemical processing vessels",
+    "U.S. Steel Granite City Works blast furnace and coke ovens"
+  ],
+  "linden-nj": [
+    "Phillips 66 Bayway crude and vacuum distillation units",
+    "FCC and alkylation unit vessels",
+    "Refinery tank farm and Arthur Kill marine terminal",
+    "Hydrotreater and reformer piping systems",
+    "Refinery cooling water and heat exchanger networks"
+  ],
+  "marcus-hook": [
+    "NGL fractionation trains and refrigerated storage",
+    "Marine loading docks for propane/ethane export",
+    "Repurposed former refinery process piping",
+    "Mariner East pipeline terminus and manifold systems",
+    "Pressurized LPG/NGL spheres and bullets"
+  ],
+  "monaca": [
+    "Shell Polymers Monaca ethane cracking furnaces",
+    "Polyethylene reactor and extrusion trains",
+    "Ethane feedstock storage and pipeline receiving",
+    "Cracker unit heat exchanger and piping networks",
+    "Pelletizing and rail/marine loadout systems"
+  ],
+  "north-dakota": [
+    "Bakken shale gathering pipelines and wellpad equipment",
+    "Marathon Mandan Refinery process units",
+    "Great Plains Synfuels coal gasification vessels",
+    "Gas processing plant separators and compressors",
+    "Crude-by-rail and pipeline terminal infrastructure"
+  ],
+  "orlando": [
+    "OUC Stanton Energy Center boiler and turbine systems",
+    "Duke Energy gas-fired combustion turbine units",
+    "Lockheed Martin precision-machined defense components",
+    "Steam drum and header piping (power generation)",
+    "Military simulation hardware structural assemblies"
+  ],
+  "pearland": [
+    "Freeport LNG cryogenic storage and liquefaction trains (client asset)",
+    "Phillips 66 Sweeny complex process units (client asset)",
+    "Chocolate Bayou petrochemical vessels (INEOS/Dow, client asset)",
+    "Oilfield services equipment and fabrication yards",
+    "EPC-managed pipeline and terminal infrastructure"
+  ],
+  "richmond-california": [
+    "Chevron Richmond crude and vacuum distillation units",
+    "Hydrocracker and hydrotreater vessels",
+    "Refinery piping subject to corrosion-under-insulation monitoring",
+    "San Francisco Bay marine terminal and tank farm",
+    "FCC and alkylation unit structures"
+  ],
+  "texas-city": [
+    "Marathon Galveston Bay Refinery process units",
+    "Valero Texas City Refinery distillation and cracking units",
+    "INEOS petrochemical reactor vessels",
+    "Refinery tank farm and Galveston Bay marine terminal",
+    "High-pressure hydroprocessing and alkylation units"
+  ],
+  "vernon": [
+    "Steel and metal fabrication plant structural equipment",
+    "Industrial storage tanks and pressure vessels",
+    "Metal plating and processing line equipment",
+    "Cold storage facility refrigeration piping systems",
+    "Legacy industrial site remediation infrastructure"
+  ],
+  "map-ta-phut": [
+    "SCG Chemicals olefins cracker units",
+    "PTTGC aromatics complex vessels",
+    "Dow Chemical Thailand cryogenic LPG storage spheres",
+    "IRPC refinery process piping and columns",
+    "Vinythai VCM/PVC production vessels"
+  ],
+  "rayong": [
+    "IRPC refinery-petrochemical integrated complex",
+    "Map Ta Phut cracker and aromatics units",
+    "PTTEP onshore gas-processing support facilities",
+    "Cryogenic LPG/olefins storage across the estate",
+    "Coastal jetty and marine-loading infrastructure"
+  ],
+  "ulsan": [
+    "SK Energy Ulsan Complex refining columns",
+    "S-Oil Onsan refinery reformer and cracker units",
+    "Hyundai Heavy Industries offshore-platform topside structures",
+    "Lotte Chemical Ulsan petrochemical vessels",
+    "Korea Zinc Onsan smelter process equipment"
+  ],
+  "yeosu": [
+    "GS Caltex Yeosu refinery cracking units",
+    "YNCC naphtha cracker and olefins vessels",
+    "Lotte Chemical Yeosu petrochemical storage tanks",
+    "LG Chem Yeosu process piping and reactors",
+    "Coastal cryogenic storage tank farms"
+  ],
+  "daesan": [
+    "Hanwha TotalEnergies Petrochemical refining and cracker units",
+    "Lotte Chemical Daesan naphtha cracker vessels",
+    "KCC silicone production reactors",
+    "Coastal storage tank farms on reclaimed land",
+    "High-pressure petrochemical process piping"
+  ],
+  "kawasaki": [
+    "ENEOS Kawasaki refining and logistics complex units",
+    "Tokyo Gas Ogishima LNG cryogenic storage tanks",
+    "JFE Steel East Japan Works process vessels",
+    "Resonac Kawasaki chemical plant reactors",
+    "Waterfront pipe racks and marine-loading infrastructure"
+  ],
+  "yokkaichi": [
+    "ENEOS Yokkaichi refinery process units",
+    "Mitsubishi Chemical Yokkaichi cracker vessels",
+    "Tosoh Corporation specialty-chemical reactors",
+    "Ageing cryogenic and pressurized storage tanks",
+    "Dense inter-plant pipe-rack infrastructure"
+  ],
+  "mailiao": [
+    "FPCC Sixth Naphtha Cracker process units",
+    "Formosa Plastics Corporation PVC/olefins vessels",
+    "Nan Ya Plastics production reactors",
+    "Captive cogeneration power-plant boilers",
+    "Deep-water port and marine-loading jetties"
+  ],
+  "karachi": [
+    "Pakistan Refinery Limited process units",
+    "Cnergyico Petroleum refining columns",
+    "National Refinery Limited storage and process vessels",
+    "Engro Polymer & Chemicals Port Qasim reactors",
+    "PSO coastal storage tank farms"
+  ],
+  "colombo": [
+    "Ceylon Petroleum Corporation Sapugaskanda Refinery units",
+    "Ceylon Electricity Board Kelanitissa thermal power plant",
+    "CEB Kerawalapitiya power-plant vessels",
+    "Colombo Dockyard ship-repair structural assets",
+    "Colombo Port container-terminal marine infrastructure"
+  ],
+  "antwerp": [
+    "TotalEnergies Antwerp refinery process units",
+    "ExxonMobil Antwerp steam cracker and tank farm",
+    "BASF Antwerp Verbund site pipe racks and reactors",
+    "INEOS Antwerp cryogenic ethylene/propylene storage",
+    "Borealis Kallo polyolefin plant vessels"
+  ],
+  "wilhelmshaven": [
+    "Uniper LNG terminal FSRU jetty and regasification piping",
+    "Hestya Energy crude storage tank farm",
+    "NWO Nord-West Oelleitung pipeline terminal",
+    "Vopak terminal storage tanks",
+    "LNG cryogenic ship-to-shore transfer arms"
+  ],
+  "ludwigshafen": [
+    "BASF Ludwigshafen steam cracker units",
+    "BASF Verbund site pipe rack network",
+    "Ammonia and fertilizer production reactors",
+    "Process piping under insulation (CUI-prone)",
+    "On-site tank farm storage vessels"
+  ],
+  "leuna": [
+    "TotalEnergies Leuna refinery process units",
+    "InfraLeuna chemical park shared pipe infrastructure",
+    "DOMO Chemicals caprolactam plant vessels",
+    "Linde industrial gas production units",
+    "Refinery tank farm storage"
+  ],
+  "tarragona": [
+    "Repsol Tarragona refinery process units",
+    "Repsol Química petrochemical reactors",
+    "Dow Chemical Tarragona production plant",
+    "LyondellBasell polyolefin units",
+    "Vopak coastal tank storage terminal"
+  ],
+  "sines": [
+    "Galp Sines refinery process units",
+    "REN Atlântico LNG terminal cryogenic storage",
+    "Sines petrochemical complex reactors and piping",
+    "Deepwater port jetty and mooring infrastructure",
+    "Refinery tank farm storage"
+  ],
+  "porvoo": [
+    "Neste Porvoo crude refinery process units",
+    "Neste renewable diesel/SAF hydroprocessing units",
+    "Borealis Porvoo polyolefin reactors",
+    "Refinery tank farm storage",
+    "Kilpilahti industrial area pipe rack network"
+  ],
+  "gdansk": [
+    "ORLEN Gdańsk refinery process units",
+    "Refinery crude and product tank farm",
+    "Baltic Hub port terminal infrastructure",
+    "Shipyard-adjacent industrial piping",
+    "Refinery pipe rack network"
+  ],
+  "schwechat": [
+    "OMV Schwechat refinery process units",
+    "OMV petrochemical production reactors",
+    "Refinery tank farm storage",
+    "Aviation fuel storage and pipeline infrastructure",
+    "Refinery pipe rack network"
+  ],
+  "le-havre": [
+    "TotalEnergies Gonfreville-l'Orcher refinery process units",
+    "ExxonMobil Port-Jérôme refinery/petrochemical units",
+    "Borealis Le Havre production units",
+    "Seine estuary port jetty and tank storage",
+    "Refinery pipe rack network"
+  ],
+  "jazan": [
+    "Jazan Refinery residue upgrading and delayed coker units",
+    "Jazan IGCC gasifier trains",
+    "Jazan Economic City marine terminal storage tanks",
+    "Refinery high-pressure piping racks and pressure vessels",
+    "IGCC heat recovery steam generators"
+  ],
+  "rabigh": [
+    "Petro Rabigh ethylene cracker furnaces",
+    "Rabigh II aromatics complex vessels",
+    "Crude distillation units",
+    "Cryogenic ethylene/polyethylene storage spheres and tanks",
+    "Marine export terminal piping and loading arms"
+  ],
+  "sitra": [
+    "Sitra Refinery hydrocracker unit",
+    "BMP crude distillation unit train",
+    "Sulfur recovery units",
+    "Legacy refinery piping racks",
+    "Marine jetty and tank farm storage"
+  ],
+  "skikda": [
+    "GL1K LNG cryogenic storage tanks",
+    "GL1K liquefaction train equipment",
+    "RA1K refinery distillation units",
+    "Skikda petrochemical/methanol complex vessels",
+    "Marine LNG and product export jetties"
+  ],
+  "arzew": [
+    "GL1Z/GL2Z/GL3Z LNG cryogenic storage and liquefaction trains",
+    "RA1Z refinery process units",
+    "Fertial ammonia/urea reactors",
+    "Marine LNG export jetties",
+    "High-pressure gas treatment trains"
+  ],
+  "mohammedia": [
+    "SAMIR refinery crude distillation and cracking units (idled)",
+    "ONEE Mohammedia thermal/CCGT power plant boilers and turbines",
+    "Cosumar sugar refinery process vessels",
+    "Lafarge Holcim cement kiln structures",
+    "Mohammedia port and marine terminal tankage"
+  ],
+  "mangalore": [
+    "MRPL crude distillation and delayed coker units",
+    "OMPL aromatics complex reactors and columns",
+    "New Mangalore Port crude oil and LPG storage tanks",
+    "MCFL ammonia and urea storage vessels",
+    "Coastal crude/product pipeline corridors"
+  ],
+  "paradip": [
+    "IOCL Paradip Refinery Indmax and delayed coker units",
+    "IFFCO Paradip ammonia and urea storage spheres",
+    "Paradeep Phosphates sulphuric acid plant vessels",
+    "Paradip Port crude oil and iron-ore terminal structures",
+    "Coastal jetty and pipeline infrastructure"
+  ],
+  "panipat": [
+    "IOCL Panipat Refinery CDU/VDU units",
+    "Panipat Naphtha Cracker Complex PX-PTA reactors",
+    "Panipat Thermal Power Station boiler tube banks",
+    "Refinery and petrochemical storage tank farms",
+    "Cracker furnace and pipe-rack infrastructure"
+  ],
+  "dahej": [
+    "Petronet LNG Dahej cryogenic storage tanks",
+    "OPaL dual-feed cracker furnace and reactor units",
+    "Reliance Dahej manufacturing division process vessels",
+    "GACL chlor-alkali plant reactors",
+    "SEZ product pipeline and storage tank farms"
+  ],
+  "cartagena": [
+    "Reficar hydrocracker and delayed coker units",
+    "Mamonal petrochemical tank farms (Dow, Ajover)",
+    "Reficar high-severity FCC unit",
+    "Cartagena port liquid bulk storage terminals",
+    "Coastal product pipeline corridors"
+  ],
+  "talara": [
+    "Petroperú Talara hydrocracker unit (PMRT)",
+    "Delayed coker and FCC units",
+    "Legacy crude and product storage tank farm",
+    "Talara marine terminal export infrastructure",
+    "Coastal crude pipeline corridors"
+  ],
+  "esmeraldas": [
+    "Refinería Estatal Esmeraldas CDU and FCC units",
+    "Balao marine terminal crude storage tanks",
+    "SOTE and OCP pipeline terminal infrastructure",
+    "Refinery product storage tank farm",
+    "Coastal loading jetty structures"
+  ],
+  "tula": [
+    "Pemex Refinería Miguel Hidalgo CDU/coker units",
+    "CFE Pérez Ríos boiler tube banks",
+    "Refinery product storage tank farm",
+    "Petroleum pipeline and pipe-rack infrastructure",
+    "Power plant cooling and stack structures"
+  ],
+  "salina-cruz": [
+    "Pemex Refinería Antonio Dovalí Jaime CDU/FCC units",
+    "Refinery and terminal product storage tank farm",
+    "Salina Cruz marine terminal loading infrastructure",
+    "Seismic-zone pipe-rack and structural steel",
+    "Crude and product pipeline corridors"
+  ],
+  "mombasa": [
+    "KPRL crude and product storage tanks",
+    "KPC Mombasa-Nairobi pipeline pumping station",
+    "Kilindini Harbour oil jetty and SPM infrastructure",
+    "Coastal product pipeline corridors",
+    "Port terminal storage tank farm"
+  ],
+  "pointe-noire": [
+    "TotalEnergies Moho Nord FPU topside structures",
+    "Offshore platform topsides (Eni, Perenco Congo)",
+    "Djeno crude export terminal storage tanks",
+    "CORAF Pointe-Noire refinery process units",
+    "Subsea pipeline and riser infrastructure"
+  ],
+  "whiting": [
+    "BP Whiting Refinery coker and FCC units",
+    "Heavy crude hydrotreating and hydrocracking units",
+    "Lake Michigan-adjacent storage tank farm",
+    "Refinery pipe-rack and structural steel infrastructure",
+    "Crude and product pipeline corridors"
+  ],
+  "garyville": [
+    "Marathon Garyville Refinery coker and FCC units",
+    "Hydrocracking and hydrotreating units",
+    "Mississippi River marine terminal docks",
+    "Refinery storage tank farm",
+    "Pipe-rack and structural steel infrastructure"
+  ],
+  "toledo-ohio": [
+    "PBF Energy Toledo Refinery crude distillation unit",
+    "FCC and hydrotreating units",
+    "Lake Erie/Maumee River-adjacent storage tank farm",
+    "Refinery pipe-rack and structural steel infrastructure",
+    "Crude and product pipeline corridors"
+  ],
   "adelaide": ["Santos Cooper Basin gas processing vessels","Osborne Naval Shipyard submarine and frigate hulls","LNG-linked gas compression trains","Onshore gas pipeline infrastructure","Naval pressure vessel and piping systems"],
   "geelong": ["Viva Energy Geelong Refinery crude and vacuum units","Refinery product and crude storage tanks","Port of Geelong bulk liquid berths and pipelines","Refinery high-pressure piping and heat exchangers","GrainCorp bulk storage and conveyor structures"],
   "kwinana": ["Alcoa Kwinana Alumina Refinery digestion and precipitation vessels","CSBP ammonia synthesis and storage plant","Former BP Kwinana Refinery site infrastructure","Bulk liquid and gas storage tanks","Cockburn Sound marine loading jetties"],
@@ -338,6 +1554,1020 @@ export const digitalTwinAssets = {
 // ─── Industry pairs per city ──────────────────────────────────────────────────
 
 export const digitalTwinIndustries = {
+  "accra": [
+    "Oil refining",
+    "Offshore oil & gas (FPSO)",
+    "Gas processing",
+    "Petrochemical",
+    "Marine/port infrastructure"
+  ],
+  "gabon": [
+    "Offshore oil & gas",
+    "Onshore oil production",
+    "Manganese mining",
+    "Port/export terminal operations",
+    "Pipeline transport"
+  ],
+  "ghana": [
+    "Gas production",
+    "Hydroelectric power",
+    "Gold mining/processing",
+    "Gas processing",
+    "Power transmission infrastructure"
+  ],
+  "ivory-coast": [
+    "Oil refining",
+    "Offshore/deepwater oil & gas",
+    "Thermal power generation",
+    "Port/storage terminal operations",
+    "Petrochemical"
+  ],
+  "mozambique": [
+    "LNG export",
+    "Onshore gas processing",
+    "Coal mining",
+    "Pipeline transport",
+    "Offshore oil & gas"
+  ],
+  "nairobi": [
+    "Geothermal power",
+    "Pipeline transport",
+    "Upstream oil production",
+    "Fuel storage/downstream",
+    "Port infrastructure"
+  ],
+  "senegal": [
+    "Oil refining",
+    "Offshore oil & gas",
+    "LNG export",
+    "Port/storage terminal operations",
+    "Subsea infrastructure"
+  ],
+  "tanzania": [
+    "Gas-fired power generation",
+    "LNG export (planned)",
+    "Offshore gas exploration",
+    "Gold mining/processing",
+    "Fuel storage/downstream"
+  ],
+  "balikpapan": [
+    "Oil refining",
+    "Offshore oil & gas",
+    "Marine terminal & logistics",
+    "Gas processing",
+    "Petrochemical"
+  ],
+  "bangladesh": [
+    "Oil refining",
+    "LNG import & regasification",
+    "Gas production",
+    "Marine terminal & logistics",
+    "Power generation"
+  ],
+  "bintulu": [
+    "LNG export",
+    "Gas-to-liquids processing",
+    "Petrochemical & fertilizer",
+    "Marine terminal & logistics",
+    "Gas processing"
+  ],
+  "bontang": [
+    "LNG export",
+    "Fertilizer & ammonia production",
+    "Gas processing",
+    "Marine terminal & logistics",
+    "Petrochemical"
+  ],
+  "cilacap": [
+    "Oil refining",
+    "Cement manufacturing",
+    "Marine terminal & logistics",
+    "Petrochemical",
+    "Power generation"
+  ],
+  "jurong-island": [
+    "Oil refining",
+    "Petrochemical",
+    "Specialty chemicals",
+    "Marine terminal & logistics",
+    "Energy storage"
+  ],
+  "kemaman": [
+    "Offshore oil & gas",
+    "Marine terminal & logistics",
+    "Bitumen & specialty products",
+    "Petrochemical",
+    "Oilfield services"
+  ],
+  "kerteh": [
+    "Petrochemical",
+    "Gas processing",
+    "Polymer manufacturing",
+    "Marine terminal & logistics",
+    "Oil & gas services"
+  ],
+  "miri": [
+    "Offshore oil & gas",
+    "Gas production",
+    "Oilfield services",
+    "Marine terminal & logistics",
+    "Pipeline transport"
+  ],
+  "mongolia": [
+    "Copper & gold mining",
+    "Coal mining",
+    "Mineral processing",
+    "Fuel storage & distribution",
+    "Heavy industrial equipment"
+  ],
+  "myanmar": [
+    "Offshore oil & gas",
+    "Gas production & export",
+    "Oil refining",
+    "Pipeline transport",
+    "Power generation"
+  ],
+  "pakistan": [
+    "Oil refining",
+    "LNG import & regasification",
+    "Gas production",
+    "Pipeline transport",
+    "Power generation"
+  ],
+  "sri-lanka": [
+    "Oil refining",
+    "Fuel storage & terminal operations",
+    "Marine terminal & logistics",
+    "Petrochemical",
+    "Power generation"
+  ],
+  "cyprus": [
+    "Crude and product storage terminal operations",
+    "LNG import",
+    "Offshore gas exploration and production",
+    "Energy infrastructure development"
+  ],
+  "fawley": [
+    "Oil refining",
+    "Petrochemical",
+    "Marine/tanker terminal operations",
+    "Base oils and lubricants manufacturing"
+  ],
+  "grangemouth": [
+    "Oil refining and fuel import terminal",
+    "Petrochemical manufacturing",
+    "North Sea gas processing",
+    "Olefins and polymers production"
+  ],
+  "greece": [
+    "Oil refining",
+    "LNG import and regasification",
+    "Natural gas pipeline transmission",
+    "Offshore gas exploration",
+    "Petrochemical"
+  ],
+  "immingham": [
+    "Oil refining",
+    "Power generation",
+    "Bulk marine terminal operations",
+    "LNG and biomass import",
+    "Petrochemical"
+  ],
+  "karsto": [
+    "Natural gas processing",
+    "NGL fractionation and export",
+    "Gas terminal operations",
+    "Energy export infrastructure"
+  ],
+  "mongstad": [
+    "Oil refining",
+    "Carbon capture technology testing",
+    "Crude oil terminal and export",
+    "Petrochemical"
+  ],
+  "stanlow": [
+    "Oil refining",
+    "Hydrogen production",
+    "Carbon capture and storage",
+    "Petrochemical",
+    "Marine terminal operations"
+  ],
+  "teesside": [
+    "Petrochemical manufacturing",
+    "North Sea gas processing",
+    "Carbon capture and storage",
+    "Chemical manufacturing",
+    "Marine terminal operations"
+  ],
+  "trondheim": [
+    "Subsea engineering and R&D",
+    "Offshore oil & gas",
+    "Marine technology research",
+    "Digital field-of-the-future development"
+  ],
+  "turkey": [
+    "Oil refining",
+    "Petrochemical manufacturing",
+    "Crude oil pipeline transport and terminal operations",
+    "Natural gas pipeline transmission",
+    "Energy transit infrastructure"
+  ],
+  "gujarat": [
+    "Petroleum refining",
+    "Petrochemical manufacturing",
+    "LNG import & storage",
+    "Offshore & onshore gas processing",
+    "Chemical manufacturing"
+  ],
+  "maharashtra": [
+    "Petroleum refining",
+    "Offshore oil & gas",
+    "Fertilizer & chemical manufacturing",
+    "Port & marine terminal operations",
+    "Petrochemical"
+  ],
+  "tamil-nadu": [
+    "Petroleum refining",
+    "Onshore oil & gas production",
+    "Petrochemical manufacturing",
+    "LNG import",
+    "Port & terminal operations"
+  ],
+  "karnataka": [
+    "Petroleum refining",
+    "Petrochemical manufacturing",
+    "Port & terminal operations",
+    "LPG import & storage",
+    "Oil & gas"
+  ],
+  "kerala": [
+    "Petroleum refining",
+    "LNG import & regasification",
+    "Shipbuilding & marine fabrication",
+    "Fertilizer manufacturing",
+    "Petrochemical"
+  ],
+  "telangana": [
+    "Pharmaceutical & bulk-drug manufacturing",
+    "Power generation",
+    "LPG storage & distribution",
+    "Chemical processing",
+    "Industrial manufacturing"
+  ],
+  "andhra-pradesh": [
+    "Petroleum refining",
+    "Offshore & onshore oil & gas",
+    "Fertilizer manufacturing",
+    "Gas processing",
+    "Port & terminal operations"
+  ],
+  "west-bengal": [
+    "Petroleum refining",
+    "Petrochemical manufacturing",
+    "Port & terminal operations",
+    "Steel manufacturing",
+    "Chemical processing"
+  ],
+  "visakhapatnam": [
+    "Petroleum refining",
+    "Steel manufacturing",
+    "Offshore oil & gas support",
+    "Port & terminal operations",
+    "LNG import"
+  ],
+  "abqaiq": [
+    "Crude oil processing",
+    "Oil & gas midstream",
+    "Sour service / H2S processing",
+    "Petroleum export infrastructure"
+  ],
+  "al-zour": [
+    "Refining",
+    "LNG import & regasification",
+    "Power generation",
+    "Petrochemical"
+  ],
+  "duqm": [
+    "Refining",
+    "Petrochemical",
+    "Marine fabrication & dry dock",
+    "Port & logistics infrastructure"
+  ],
+  "fujairah": [
+    "Oil storage & terminalling",
+    "Ship bunkering",
+    "Power generation",
+    "Pipeline & crude export infrastructure"
+  ],
+  "iraq": [
+    "Upstream oil & gas production",
+    "Refining",
+    "Gas processing & NGL recovery",
+    "Crude export & pipeline infrastructure"
+  ],
+  "israel": [
+    "Offshore gas production",
+    "Refining",
+    "Gas pipeline transmission",
+    "Petrochemical"
+  ],
+  "khurais": [
+    "Crude oil production",
+    "Gas processing & compression",
+    "Water injection / reservoir management",
+    "Pipeline infrastructure"
+  ],
+  "mesaieed": [
+    "Refining",
+    "Petrochemical",
+    "Gas-to-liquids (GTL)",
+    "Steel manufacturing",
+    "Fertilizer & fuel additives"
+  ],
+  "mussafah": [
+    "Offshore structure fabrication",
+    "Steel manufacturing",
+    "Pipeline & pressure vessel manufacturing",
+    "Marine & port infrastructure"
+  ],
+  "ras-laffan": [
+    "LNG export",
+    "Gas-to-liquids (GTL)",
+    "Condensate refining",
+    "Gas processing"
+  ],
+  "salalah": [
+    "Methanol production",
+    "Petrochemical",
+    "Port & marine logistics",
+    "Fuel storage & bunkering"
+  ],
+  "shaybah": [
+    "Crude oil production",
+    "NGL recovery & gas processing",
+    "Pipeline infrastructure",
+    "Remote desert operations logistics"
+  ],
+  "tunisia": [
+    "Refining",
+    "Offshore & onshore gas production",
+    "Gas processing",
+    "Pipeline transmission"
+  ],
+  "alberta": [
+    "Oil sands extraction",
+    "Heavy-oil upgrading",
+    "Petrochemical",
+    "Pipeline transportation",
+    "Refining"
+  ],
+  "azerbaijan": [
+    "Offshore oil & gas",
+    "Gas processing",
+    "Pipeline transportation",
+    "Terminal/storage",
+    "Petrochemical"
+  ],
+  "ecuador": [
+    "Refining",
+    "Upstream oil production",
+    "Pipeline transportation",
+    "Petrochemical",
+    "Terminal/storage"
+  ],
+  "guyana": [
+    "Offshore oil & gas",
+    "FPSO operations",
+    "Subsea production",
+    "Deepwater exploration",
+    "Marine/offshore support"
+  ],
+  "kazakhstan": [
+    "Sour-gas processing",
+    "Offshore/onshore oil production",
+    "Refining",
+    "Pipeline transportation",
+    "Petrochemical"
+  ],
+  "ontario": [
+    "Petrochemical",
+    "Refining",
+    "Steel manufacturing",
+    "Nuclear power generation",
+    "Chemical processing"
+  ],
+  "panama": [
+    "LNG import/regasification",
+    "Port & maritime infrastructure",
+    "Mining/mineral processing",
+    "Power generation",
+    "Canal/transportation infrastructure"
+  ],
+  "port-kembla": [
+    "Steel manufacturing",
+    "LNG import",
+    "Bulk export terminal",
+    "Port & maritime infrastructure",
+    "Heavy industrial processing"
+  ],
+  "suriname": [
+    "Offshore oil & gas exploration/production",
+    "Refining",
+    "Gold mining/processing",
+    "Bauxite/alumina processing",
+    "FPSO operations"
+  ],
+  "alaska": [
+    "Oil & gas production",
+    "Pipeline transportation",
+    "Refining",
+    "Arctic/remote asset management"
+  ],
+  "california": [
+    "Refining",
+    "Offshore oil & gas",
+    "Petrochemical",
+    "Power generation",
+    "Marine terminal operations"
+  ],
+  "clairton": [
+    "Steel/coke production",
+    "Heavy manufacturing",
+    "Industrial byproduct processing"
+  ],
+  "conroe": [
+    "Oilfield equipment manufacturing",
+    "Oil & gas production",
+    "Oilfield services",
+    "Fabrication/pressure vessel manufacturing"
+  ],
+  "detroit": [
+    "Refining",
+    "Steel manufacturing",
+    "Power generation",
+    "Automotive supply chain manufacturing"
+  ],
+  "florida": [
+    "Phosphate/fertilizer processing",
+    "Power generation (nuclear & gas)",
+    "Fuel terminal/marine logistics",
+    "Chemical processing"
+  ],
+  "hammond": [
+    "Refining",
+    "Steel manufacturing",
+    "Rail/marine logistics",
+    "Petrochemical"
+  ],
+  "joliet": [
+    "Refining",
+    "Rail/intermodal logistics",
+    "Petrochemical",
+    "Bulk fuel storage"
+  ],
+  "long-beach": [
+    "Offshore oil & gas production",
+    "Marine terminal/port logistics",
+    "Bulk fuel storage",
+    "Oil field production"
+  ],
+  "martinez": [
+    "Refining",
+    "Marine terminal operations",
+    "Petrochemical",
+    "Pipeline transportation"
+  ],
+  "new-york-state": [
+    "Petroleum terminal/rail logistics",
+    "Chemical manufacturing",
+    "Power generation (nuclear & gas)",
+    "Pipeline transportation"
+  ],
+  "ohio": [
+    "Refining",
+    "Steel manufacturing",
+    "Petrochemical",
+    "Power generation"
+  ],
+  "pasadena-texas": [
+    "Petrochemical manufacturing",
+    "Refining",
+    "Plastics/polymer production",
+    "Marine terminal/ship channel logistics"
+  ],
+  "pennsylvania": [
+    "Refining",
+    "NGL export/petrochemical logistics",
+    "Steel manufacturing",
+    "Pipeline transportation"
+  ],
+  "sugar-land": [
+    "Food/sugar processing",
+    "Oilfield engineering & equipment manufacturing",
+    "Industrial engineering services",
+    "Bulk material handling"
+  ],
+  "torrance": [
+    "Refining",
+    "Petrochemical",
+    "Fuel distribution/logistics"
+  ],
+  "wilmington-california": [
+    "Refining",
+    "Oil field production",
+    "Marine terminal/port logistics",
+    "Petrochemical"
+  ],
+  "baytown": [
+    "Petroleum refining",
+    "Petrochemical/olefins",
+    "Marine terminal operations",
+    "Chemical manufacturing"
+  ],
+  "carson": [
+    "Petroleum refining",
+    "Fuel distribution",
+    "Petrochemical",
+    "Marine terminal operations"
+  ],
+  "colorado": [
+    "Petroleum refining",
+    "Oil & gas production",
+    "Hardrock mining",
+    "Midstream pipelines"
+  ],
+  "dearborn": [
+    "Integrated steelmaking",
+    "Automotive manufacturing",
+    "Petroleum refining",
+    "Heavy industrial fabrication"
+  ],
+  "east-chicago": [
+    "Integrated steelmaking",
+    "Petroleum refining",
+    "Bulk marine terminal operations",
+    "Heavy industrial fabrication"
+  ],
+  "freeport-texas": [
+    "LNG export",
+    "Petrochemical manufacturing",
+    "Chemical manufacturing",
+    "Marine terminal operations"
+  ],
+  "huntsville": [
+    "Aerospace & defense manufacturing",
+    "Rocket propulsion testing",
+    "Government/federal facilities",
+    "Precision fabrication"
+  ],
+  "la-porte": [
+    "Petrochemical manufacturing",
+    "Industrial gas production",
+    "Polymer manufacturing",
+    "Marine terminal operations"
+  ],
+  "louisiana": [
+    "Petroleum refining",
+    "LNG export",
+    "Petrochemical manufacturing",
+    "Marine terminal operations",
+    "Chemical manufacturing"
+  ],
+  "michigan": [
+    "Integrated steelmaking",
+    "Petroleum refining",
+    "Power generation",
+    "Automotive manufacturing"
+  ],
+  "norfolk": [
+    "Naval shipbuilding & repair",
+    "Offshore wind energy",
+    "Marine port operations",
+    "Defense/government facilities"
+  ],
+  "orange-texas": [
+    "Petrochemical manufacturing",
+    "Chemical manufacturing",
+    "Marine terminal operations",
+    "Industrial fabrication"
+  ],
+  "paulsboro": [
+    "Petroleum refining",
+    "Specialty lubricants manufacturing",
+    "Marine/rail terminal operations",
+    "Fuel distribution"
+  ],
+  "phoenix": [
+    "Semiconductor manufacturing",
+    "Nuclear power generation",
+    "Copper mining & processing",
+    "Advanced manufacturing"
+  ],
+  "texas": [
+    "Petroleum refining",
+    "LNG export",
+    "Petrochemical manufacturing",
+    "Oil & gas production",
+    "Midstream pipelines"
+  ],
+  "trainer": [
+    "Petroleum refining",
+    "Jet fuel production",
+    "Marine terminal operations",
+    "Fuel distribution"
+  ],
+  "benicia": [
+    "Petroleum refining",
+    "Petrochemical",
+    "Marine terminal operations",
+    "Process safety / regulatory compliance",
+    "Industrial inspection services"
+  ],
+  "channelview": [
+    "Petrochemical",
+    "Olefins / polymers manufacturing",
+    "NGL fractionation and storage",
+    "Specialty chemicals",
+    "Marine terminal operations"
+  ],
+  "colorado-springs": [
+    "Power generation",
+    "Aerospace & defense manufacturing",
+    "Space systems",
+    "Pipeline infrastructure",
+    "Industrial inspection services"
+  ],
+  "deer-park": [
+    "Petroleum refining",
+    "Petrochemical",
+    "Chemicals manufacturing",
+    "Marine terminal operations",
+    "Process safety / regulatory compliance"
+  ],
+  "el-segundo": [
+    "Petroleum refining",
+    "Petrochemical",
+    "Process safety / regulatory compliance",
+    "Marine terminal operations",
+    "Industrial inspection services"
+  ],
+  "galveston": [
+    "Offshore oil & gas",
+    "Marine / port operations",
+    "Offshore support services",
+    "Petroleum refining (regional)",
+    "Industrial inspection services"
+  ],
+  "illinois": [
+    "Petroleum refining",
+    "Steel manufacturing",
+    "Agricultural / chemical processing",
+    "Petrochemical",
+    "Industrial inspection services"
+  ],
+  "linden-nj": [
+    "Petroleum refining",
+    "Petrochemical",
+    "Marine terminal operations",
+    "Process safety / regulatory compliance",
+    "Industrial inspection services"
+  ],
+  "marcus-hook": [
+    "NGL processing and export",
+    "Petrochemical feedstock logistics",
+    "Marine terminal operations",
+    "Pipeline infrastructure",
+    "Industrial inspection services"
+  ],
+  "monaca": [
+    "Petrochemical (ethane cracking)",
+    "Polymers / polyethylene manufacturing",
+    "Pipeline infrastructure",
+    "Rail and marine logistics",
+    "Industrial inspection services"
+  ],
+  "north-dakota": [
+    "Upstream oil & gas (Bakken)",
+    "Gas processing",
+    "Pipeline infrastructure",
+    "Coal gasification / synfuels",
+    "Petroleum refining"
+  ],
+  "orlando": [
+    "Power generation",
+    "Aerospace & defense manufacturing",
+    "Military simulation & training systems",
+    "Industrial inspection services",
+    "Utility infrastructure"
+  ],
+  "pearland": [
+    "Oilfield services / EPC",
+    "Petrochemical (regional)",
+    "LNG export (regional)",
+    "Engineering & inspection services",
+    "Pipeline infrastructure"
+  ],
+  "richmond-california": [
+    "Petroleum refining",
+    "Process safety / regulatory compliance",
+    "Marine terminal operations",
+    "Petrochemical",
+    "Industrial inspection services"
+  ],
+  "texas-city": [
+    "Petroleum refining",
+    "Petrochemical",
+    "Process safety / regulatory compliance",
+    "Marine terminal operations",
+    "Industrial inspection services"
+  ],
+  "vernon": [
+    "Steel / metal manufacturing",
+    "Industrial fabrication",
+    "Cold storage / food processing",
+    "Environmental remediation",
+    "Industrial inspection services"
+  ],
+  "map-ta-phut": [
+    "Petrochemical",
+    "Refining",
+    "Olefins/aromatics production",
+    "LNG/LPG storage",
+    "Plastics manufacturing"
+  ],
+  "rayong": [
+    "Petrochemical",
+    "Refining",
+    "Oil & gas onshore support",
+    "Automotive-adjacent manufacturing",
+    "Marine terminal operations"
+  ],
+  "ulsan": [
+    "Refining",
+    "Petrochemical",
+    "Shipbuilding & offshore fabrication",
+    "Non-ferrous metal smelting",
+    "Automotive manufacturing"
+  ],
+  "yeosu": [
+    "Refining",
+    "Petrochemical",
+    "Olefins production",
+    "Steel manufacturing (adjacent Gwangyang)",
+    "Marine terminal operations"
+  ],
+  "daesan": [
+    "Refining",
+    "Petrochemical",
+    "Naphtha cracking / olefins",
+    "Specialty chemicals (silicones)",
+    "Marine terminal operations"
+  ],
+  "kawasaki": [
+    "Refining & logistics",
+    "LNG import terminal operations",
+    "Steel manufacturing",
+    "Chemical manufacturing",
+    "Marine terminal operations"
+  ],
+  "yokkaichi": [
+    "Refining",
+    "Petrochemical",
+    "Specialty chemicals",
+    "Chlor-alkali manufacturing",
+    "Marine terminal operations"
+  ],
+  "mailiao": [
+    "Petrochemical",
+    "Refining",
+    "Olefins/plastics manufacturing",
+    "Cogeneration power",
+    "Marine terminal operations"
+  ],
+  "karachi": [
+    "Refining",
+    "Petrochemical",
+    "Fuel storage & distribution",
+    "Port/marine terminal operations",
+    "Polymer manufacturing"
+  ],
+  "colombo": [
+    "Refining",
+    "Power generation",
+    "Ship repair & marine engineering",
+    "Port/container-terminal operations",
+    "Fuel storage & distribution"
+  ],
+  "antwerp": [
+    "Petrochemical",
+    "Oil refining",
+    "Chemical manufacturing",
+    "Port & tank storage logistics",
+    "Offshore wind O&M"
+  ],
+  "wilhelmshaven": [
+    "LNG import",
+    "Crude oil storage & pipeline logistics",
+    "Oil refining (legacy)",
+    "Port terminal operations",
+    "Energy infrastructure"
+  ],
+  "ludwigshafen": [
+    "Chemical manufacturing",
+    "Petrochemical",
+    "Fertilizer production",
+    "Pipeline & process piping integrity",
+    "Industrial site logistics"
+  ],
+  "leuna": [
+    "Oil refining",
+    "Chemical manufacturing",
+    "Industrial gas production",
+    "Multi-tenant chemical park logistics",
+    "Pipeline integrity"
+  ],
+  "tarragona": [
+    "Oil refining",
+    "Petrochemical",
+    "Chemical manufacturing",
+    "Port & tank storage logistics",
+    "Coastal asset corrosion management"
+  ],
+  "sines": [
+    "Oil refining",
+    "LNG import",
+    "Petrochemical",
+    "Deepwater port logistics",
+    "Energy infrastructure"
+  ],
+  "porvoo": [
+    "Oil refining",
+    "Renewable fuels production",
+    "Petrochemical",
+    "Chemical manufacturing",
+    "Cold-climate asset integrity"
+  ],
+  "gdansk": [
+    "Oil refining",
+    "Port & container terminal logistics",
+    "Petrochemical",
+    "Shipbuilding-adjacent industry",
+    "Energy infrastructure"
+  ],
+  "schwechat": [
+    "Oil refining",
+    "Petrochemical",
+    "Aviation fuel supply",
+    "Lubricants manufacturing",
+    "Energy infrastructure"
+  ],
+  "le-havre": [
+    "Oil refining",
+    "Petrochemical",
+    "Port & tank storage logistics",
+    "Chemical manufacturing",
+    "Coastal asset corrosion management"
+  ],
+  "jazan": [
+    "Refining",
+    "Integrated gasification power generation",
+    "Petrochemical",
+    "Marine terminal/storage",
+    "Heavy industry (Jazan Economic City)"
+  ],
+  "rabigh": [
+    "Refining",
+    "Petrochemical (ethylene/polyethylene)",
+    "Aromatics",
+    "Marine export terminal",
+    "Specialty chemicals"
+  ],
+  "sitra": [
+    "Refining",
+    "Petrochemical feedstock",
+    "Marine terminal/storage",
+    "Power/utilities (refinery cogeneration)",
+    "Oil & gas services"
+  ],
+  "skikda": [
+    "LNG export",
+    "Refining",
+    "Petrochemical",
+    "Marine export terminal",
+    "Oil & gas midstream"
+  ],
+  "arzew": [
+    "LNG export",
+    "Refining",
+    "Fertilizer/ammonia production",
+    "Marine export terminal",
+    "Gas processing"
+  ],
+  "mohammedia": [
+    "Refining (idled/legacy)",
+    "Power generation",
+    "Cement",
+    "Food processing (sugar refining)",
+    "Marine terminal/storage"
+  ],
+  "mangalore": [
+    "Refining",
+    "Petrochemicals",
+    "Port and marine terminal operations",
+    "Fertilizer manufacturing",
+    "Oil and gas storage & distribution"
+  ],
+  "paradip": [
+    "Refining",
+    "Fertilizer manufacturing",
+    "Port and marine terminal operations",
+    "Chemical processing",
+    "Bulk commodity handling"
+  ],
+  "panipat": [
+    "Refining",
+    "Petrochemicals",
+    "Thermal power generation",
+    "Chemical processing",
+    "Industrial storage & distribution"
+  ],
+  "dahej": [
+    "LNG import & regasification",
+    "Petrochemicals",
+    "Chemical manufacturing",
+    "Industrial gas storage & distribution",
+    "SEZ manufacturing"
+  ],
+  "cartagena": [
+    "Refining",
+    "Petrochemicals",
+    "Port and marine terminal operations",
+    "Chemical manufacturing",
+    "Bulk liquid storage & distribution"
+  ],
+  "talara": [
+    "Refining",
+    "Marine terminal & crude export",
+    "Petrochemicals",
+    "Oil and gas storage & distribution",
+    "Industrial engineering & construction"
+  ],
+  "esmeraldas": [
+    "Refining",
+    "Crude oil export & marine terminal operations",
+    "Pipeline transport",
+    "Oil and gas storage & distribution",
+    "Industrial engineering & construction"
+  ],
+  "tula": [
+    "Refining",
+    "Thermal power generation",
+    "Petrochemicals",
+    "Industrial storage & distribution",
+    "Industrial engineering & construction"
+  ],
+  "salina-cruz": [
+    "Refining",
+    "Marine terminal & crude/product export",
+    "Petrochemicals",
+    "Oil and gas storage & distribution",
+    "Industrial engineering & construction"
+  ],
+  "mombasa": [
+    "Petroleum storage & import terminal operations",
+    "Pipeline transport",
+    "Port and marine terminal operations",
+    "Oil and gas distribution",
+    "Industrial engineering & construction"
+  ],
+  "pointe-noire": [
+    "Offshore oil & gas production",
+    "Crude oil export & marine terminal operations",
+    "Refining",
+    "Subsea infrastructure",
+    "Industrial engineering & construction"
+  ],
+  "whiting": [
+    "Refining",
+    "Heavy crude processing",
+    "Petrochemicals",
+    "Oil and gas storage & distribution",
+    "Industrial engineering & construction"
+  ],
+  "garyville": [
+    "Refining",
+    "Petrochemicals",
+    "Marine terminal operations",
+    "Oil and gas storage & distribution",
+    "Industrial engineering & construction"
+  ],
+  "toledo-ohio": [
+    "Refining",
+    "Petrochemicals",
+    "Oil and gas storage & distribution",
+    "Marine/river terminal operations",
+    "Industrial engineering & construction"
+  ],
   "adelaide": ["Oil & gas processing","Defence shipbuilding","Naval sustainment","Pipeline infrastructure","Marine fabrication"],
   "geelong": ["Oil refining","Bulk liquid storage","Port & marine terminal","Fuel distribution","Agribusiness processing"],
   "kwinana": ["Alumina processing","Ammonia & fertiliser production","Industrial gas","Bulk liquid storage","Marine loading & export"],

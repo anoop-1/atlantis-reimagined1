@@ -1906,6 +1906,158 @@ const DigitalTwinSingapore = lazy(() => import("./pages/digital-twin-singapore")
 const DigitalTwinMumbai = lazy(() => import("./pages/digital-twin-mumbai"));
 const DigitalTwinLondon = lazy(() => import("./pages/digital-twin-london"));
 const DigitalTwinPerth = lazy(() => import("./pages/digital-twin-perth"));
+const DtScale_accra = lazy(() => import("./pages/digital-twin-accra"));
+const DtScale_gabon = lazy(() => import("./pages/digital-twin-gabon"));
+const DtScale_ghana = lazy(() => import("./pages/digital-twin-ghana"));
+const DtScale_ivory_coast = lazy(() => import("./pages/digital-twin-ivory-coast"));
+const DtScale_mozambique = lazy(() => import("./pages/digital-twin-mozambique"));
+const DtScale_nairobi = lazy(() => import("./pages/digital-twin-nairobi"));
+const DtScale_senegal = lazy(() => import("./pages/digital-twin-senegal"));
+const DtScale_tanzania = lazy(() => import("./pages/digital-twin-tanzania"));
+const DtScale_balikpapan = lazy(() => import("./pages/digital-twin-balikpapan"));
+const DtScale_bangladesh = lazy(() => import("./pages/digital-twin-bangladesh"));
+const DtScale_bintulu = lazy(() => import("./pages/digital-twin-bintulu"));
+const DtScale_bontang = lazy(() => import("./pages/digital-twin-bontang"));
+const DtScale_cilacap = lazy(() => import("./pages/digital-twin-cilacap"));
+const DtScale_jurong_island = lazy(() => import("./pages/digital-twin-jurong-island"));
+const DtScale_kemaman = lazy(() => import("./pages/digital-twin-kemaman"));
+const DtScale_kerteh = lazy(() => import("./pages/digital-twin-kerteh"));
+const DtScale_miri = lazy(() => import("./pages/digital-twin-miri"));
+const DtScale_mongolia = lazy(() => import("./pages/digital-twin-mongolia"));
+const DtScale_myanmar = lazy(() => import("./pages/digital-twin-myanmar"));
+const DtScale_pakistan = lazy(() => import("./pages/digital-twin-pakistan"));
+const DtScale_sri_lanka = lazy(() => import("./pages/digital-twin-sri-lanka"));
+const DtScale_cyprus = lazy(() => import("./pages/digital-twin-cyprus"));
+const DtScale_fawley = lazy(() => import("./pages/digital-twin-fawley"));
+const DtScale_grangemouth = lazy(() => import("./pages/digital-twin-grangemouth"));
+const DtScale_greece = lazy(() => import("./pages/digital-twin-greece"));
+const DtScale_immingham = lazy(() => import("./pages/digital-twin-immingham"));
+const DtScale_karsto = lazy(() => import("./pages/digital-twin-karsto"));
+const DtScale_mongstad = lazy(() => import("./pages/digital-twin-mongstad"));
+const DtScale_stanlow = lazy(() => import("./pages/digital-twin-stanlow"));
+const DtScale_teesside = lazy(() => import("./pages/digital-twin-teesside"));
+const DtScale_trondheim = lazy(() => import("./pages/digital-twin-trondheim"));
+const DtScale_turkey = lazy(() => import("./pages/digital-twin-turkey"));
+const DtScale_gujarat = lazy(() => import("./pages/digital-twin-gujarat"));
+const DtScale_maharashtra = lazy(() => import("./pages/digital-twin-maharashtra"));
+const DtScale_tamil_nadu = lazy(() => import("./pages/digital-twin-tamil-nadu"));
+const DtScale_karnataka = lazy(() => import("./pages/digital-twin-karnataka"));
+const DtScale_kerala = lazy(() => import("./pages/digital-twin-kerala"));
+const DtScale_telangana = lazy(() => import("./pages/digital-twin-telangana"));
+const DtScale_andhra_pradesh = lazy(() => import("./pages/digital-twin-andhra-pradesh"));
+const DtScale_west_bengal = lazy(() => import("./pages/digital-twin-west-bengal"));
+const DtScale_visakhapatnam = lazy(() => import("./pages/digital-twin-visakhapatnam"));
+const DtScale_abqaiq = lazy(() => import("./pages/digital-twin-abqaiq"));
+const DtScale_al_zour = lazy(() => import("./pages/digital-twin-al-zour"));
+const DtScale_duqm = lazy(() => import("./pages/digital-twin-duqm"));
+const DtScale_fujairah = lazy(() => import("./pages/digital-twin-fujairah"));
+const DtScale_iraq = lazy(() => import("./pages/digital-twin-iraq"));
+const DtScale_israel = lazy(() => import("./pages/digital-twin-israel"));
+const DtScale_khurais = lazy(() => import("./pages/digital-twin-khurais"));
+const DtScale_mesaieed = lazy(() => import("./pages/digital-twin-mesaieed"));
+const DtScale_mussafah = lazy(() => import("./pages/digital-twin-mussafah"));
+const DtScale_ras_laffan = lazy(() => import("./pages/digital-twin-ras-laffan"));
+const DtScale_salalah = lazy(() => import("./pages/digital-twin-salalah"));
+const DtScale_shaybah = lazy(() => import("./pages/digital-twin-shaybah"));
+const DtScale_tunisia = lazy(() => import("./pages/digital-twin-tunisia"));
+const DtScale_alberta = lazy(() => import("./pages/digital-twin-alberta"));
+const DtScale_azerbaijan = lazy(() => import("./pages/digital-twin-azerbaijan"));
+const DtScale_ecuador = lazy(() => import("./pages/digital-twin-ecuador"));
+const DtScale_guyana = lazy(() => import("./pages/digital-twin-guyana"));
+const DtScale_kazakhstan = lazy(() => import("./pages/digital-twin-kazakhstan"));
+const DtScale_ontario = lazy(() => import("./pages/digital-twin-ontario"));
+const DtScale_panama = lazy(() => import("./pages/digital-twin-panama"));
+const DtScale_port_kembla = lazy(() => import("./pages/digital-twin-port-kembla"));
+const DtScale_suriname = lazy(() => import("./pages/digital-twin-suriname"));
+const DtScale_alaska = lazy(() => import("./pages/digital-twin-alaska"));
+const DtScale_california = lazy(() => import("./pages/digital-twin-california"));
+const DtScale_clairton = lazy(() => import("./pages/digital-twin-clairton"));
+const DtScale_conroe = lazy(() => import("./pages/digital-twin-conroe"));
+const DtScale_detroit = lazy(() => import("./pages/digital-twin-detroit"));
+const DtScale_florida = lazy(() => import("./pages/digital-twin-florida"));
+const DtScale_hammond = lazy(() => import("./pages/digital-twin-hammond"));
+const DtScale_joliet = lazy(() => import("./pages/digital-twin-joliet"));
+const DtScale_long_beach = lazy(() => import("./pages/digital-twin-long-beach"));
+const DtScale_martinez = lazy(() => import("./pages/digital-twin-martinez"));
+const DtScale_new_york_state = lazy(() => import("./pages/digital-twin-new-york-state"));
+const DtScale_ohio = lazy(() => import("./pages/digital-twin-ohio"));
+const DtScale_pasadena_texas = lazy(() => import("./pages/digital-twin-pasadena-texas"));
+const DtScale_pennsylvania = lazy(() => import("./pages/digital-twin-pennsylvania"));
+const DtScale_sugar_land = lazy(() => import("./pages/digital-twin-sugar-land"));
+const DtScale_torrance = lazy(() => import("./pages/digital-twin-torrance"));
+const DtScale_wilmington_california = lazy(() => import("./pages/digital-twin-wilmington-california"));
+const DtScale_baytown = lazy(() => import("./pages/digital-twin-baytown"));
+const DtScale_carson = lazy(() => import("./pages/digital-twin-carson"));
+const DtScale_colorado = lazy(() => import("./pages/digital-twin-colorado"));
+const DtScale_dearborn = lazy(() => import("./pages/digital-twin-dearborn"));
+const DtScale_east_chicago = lazy(() => import("./pages/digital-twin-east-chicago"));
+const DtScale_freeport_texas = lazy(() => import("./pages/digital-twin-freeport-texas"));
+const DtScale_huntsville = lazy(() => import("./pages/digital-twin-huntsville"));
+const DtScale_la_porte = lazy(() => import("./pages/digital-twin-la-porte"));
+const DtScale_louisiana = lazy(() => import("./pages/digital-twin-louisiana"));
+const DtScale_michigan = lazy(() => import("./pages/digital-twin-michigan"));
+const DtScale_norfolk = lazy(() => import("./pages/digital-twin-norfolk"));
+const DtScale_orange_texas = lazy(() => import("./pages/digital-twin-orange-texas"));
+const DtScale_paulsboro = lazy(() => import("./pages/digital-twin-paulsboro"));
+const DtScale_phoenix = lazy(() => import("./pages/digital-twin-phoenix"));
+const DtScale_texas = lazy(() => import("./pages/digital-twin-texas"));
+const DtScale_trainer = lazy(() => import("./pages/digital-twin-trainer"));
+const DtScale_benicia = lazy(() => import("./pages/digital-twin-benicia"));
+const DtScale_channelview = lazy(() => import("./pages/digital-twin-channelview"));
+const DtScale_colorado_springs = lazy(() => import("./pages/digital-twin-colorado-springs"));
+const DtScale_deer_park = lazy(() => import("./pages/digital-twin-deer-park"));
+const DtScale_el_segundo = lazy(() => import("./pages/digital-twin-el-segundo"));
+const DtScale_galveston = lazy(() => import("./pages/digital-twin-galveston"));
+const DtScale_illinois = lazy(() => import("./pages/digital-twin-illinois"));
+const DtScale_linden_nj = lazy(() => import("./pages/digital-twin-linden-nj"));
+const DtScale_marcus_hook = lazy(() => import("./pages/digital-twin-marcus-hook"));
+const DtScale_monaca = lazy(() => import("./pages/digital-twin-monaca"));
+const DtScale_north_dakota = lazy(() => import("./pages/digital-twin-north-dakota"));
+const DtScale_orlando = lazy(() => import("./pages/digital-twin-orlando"));
+const DtScale_pearland = lazy(() => import("./pages/digital-twin-pearland"));
+const DtScale_richmond_california = lazy(() => import("./pages/digital-twin-richmond-california"));
+const DtScale_texas_city = lazy(() => import("./pages/digital-twin-texas-city"));
+const DtScale_vernon = lazy(() => import("./pages/digital-twin-vernon"));
+const DtScale_map_ta_phut = lazy(() => import("./pages/digital-twin-map-ta-phut"));
+const DtScale_rayong = lazy(() => import("./pages/digital-twin-rayong"));
+const DtScale_ulsan = lazy(() => import("./pages/digital-twin-ulsan"));
+const DtScale_yeosu = lazy(() => import("./pages/digital-twin-yeosu"));
+const DtScale_daesan = lazy(() => import("./pages/digital-twin-daesan"));
+const DtScale_kawasaki = lazy(() => import("./pages/digital-twin-kawasaki"));
+const DtScale_yokkaichi = lazy(() => import("./pages/digital-twin-yokkaichi"));
+const DtScale_mailiao = lazy(() => import("./pages/digital-twin-mailiao"));
+const DtScale_karachi = lazy(() => import("./pages/digital-twin-karachi"));
+const DtScale_colombo = lazy(() => import("./pages/digital-twin-colombo"));
+const DtScale_antwerp = lazy(() => import("./pages/digital-twin-antwerp"));
+const DtScale_wilhelmshaven = lazy(() => import("./pages/digital-twin-wilhelmshaven"));
+const DtScale_ludwigshafen = lazy(() => import("./pages/digital-twin-ludwigshafen"));
+const DtScale_leuna = lazy(() => import("./pages/digital-twin-leuna"));
+const DtScale_tarragona = lazy(() => import("./pages/digital-twin-tarragona"));
+const DtScale_sines = lazy(() => import("./pages/digital-twin-sines"));
+const DtScale_porvoo = lazy(() => import("./pages/digital-twin-porvoo"));
+const DtScale_gdansk = lazy(() => import("./pages/digital-twin-gdansk"));
+const DtScale_schwechat = lazy(() => import("./pages/digital-twin-schwechat"));
+const DtScale_le_havre = lazy(() => import("./pages/digital-twin-le-havre"));
+const DtScale_jazan = lazy(() => import("./pages/digital-twin-jazan"));
+const DtScale_rabigh = lazy(() => import("./pages/digital-twin-rabigh"));
+const DtScale_sitra = lazy(() => import("./pages/digital-twin-sitra"));
+const DtScale_skikda = lazy(() => import("./pages/digital-twin-skikda"));
+const DtScale_arzew = lazy(() => import("./pages/digital-twin-arzew"));
+const DtScale_mohammedia = lazy(() => import("./pages/digital-twin-mohammedia"));
+const DtScale_mangalore = lazy(() => import("./pages/digital-twin-mangalore"));
+const DtScale_paradip = lazy(() => import("./pages/digital-twin-paradip"));
+const DtScale_panipat = lazy(() => import("./pages/digital-twin-panipat"));
+const DtScale_dahej = lazy(() => import("./pages/digital-twin-dahej"));
+const DtScale_cartagena = lazy(() => import("./pages/digital-twin-cartagena"));
+const DtScale_talara = lazy(() => import("./pages/digital-twin-talara"));
+const DtScale_esmeraldas = lazy(() => import("./pages/digital-twin-esmeraldas"));
+const DtScale_tula = lazy(() => import("./pages/digital-twin-tula"));
+const DtScale_salina_cruz = lazy(() => import("./pages/digital-twin-salina-cruz"));
+const DtScale_mombasa = lazy(() => import("./pages/digital-twin-mombasa"));
+const DtScale_pointe_noire = lazy(() => import("./pages/digital-twin-pointe-noire"));
+const DtScale_whiting = lazy(() => import("./pages/digital-twin-whiting"));
+const DtScale_garyville = lazy(() => import("./pages/digital-twin-garyville"));
+const DtScale_toledo_ohio = lazy(() => import("./pages/digital-twin-toledo-ohio"));
 const DigitalTwinAunz_adelaide = lazy(() => import("./pages/digital-twin-adelaide"));
 const DigitalTwinAunz_geelong = lazy(() => import("./pages/digital-twin-geelong"));
 const DigitalTwinAunz_kwinana = lazy(() => import("./pages/digital-twin-kwinana"));
@@ -2091,6 +2243,46 @@ const NDTErpSingapore = lazy(() => import("./pages/ndt-erp-singapore"));
 const NDTErpMumbai = lazy(() => import("./pages/ndt-erp-mumbai"));
 const NDTErpLondon = lazy(() => import("./pages/ndt-erp-london"));
 const NDTErpPerth = lazy(() => import("./pages/ndt-erp-perth"));
+const ErpScale_map_ta_phut = lazy(() => import("./pages/ndt-erp-map-ta-phut"));
+const ErpScale_rayong = lazy(() => import("./pages/ndt-erp-rayong"));
+const ErpScale_ulsan = lazy(() => import("./pages/ndt-erp-ulsan"));
+const ErpScale_yeosu = lazy(() => import("./pages/ndt-erp-yeosu"));
+const ErpScale_daesan = lazy(() => import("./pages/ndt-erp-daesan"));
+const ErpScale_kawasaki = lazy(() => import("./pages/ndt-erp-kawasaki"));
+const ErpScale_yokkaichi = lazy(() => import("./pages/ndt-erp-yokkaichi"));
+const ErpScale_mailiao = lazy(() => import("./pages/ndt-erp-mailiao"));
+const ErpScale_karachi = lazy(() => import("./pages/ndt-erp-karachi"));
+const ErpScale_colombo = lazy(() => import("./pages/ndt-erp-colombo"));
+const ErpScale_antwerp = lazy(() => import("./pages/ndt-erp-antwerp"));
+const ErpScale_wilhelmshaven = lazy(() => import("./pages/ndt-erp-wilhelmshaven"));
+const ErpScale_ludwigshafen = lazy(() => import("./pages/ndt-erp-ludwigshafen"));
+const ErpScale_leuna = lazy(() => import("./pages/ndt-erp-leuna"));
+const ErpScale_tarragona = lazy(() => import("./pages/ndt-erp-tarragona"));
+const ErpScale_sines = lazy(() => import("./pages/ndt-erp-sines"));
+const ErpScale_porvoo = lazy(() => import("./pages/ndt-erp-porvoo"));
+const ErpScale_gdansk = lazy(() => import("./pages/ndt-erp-gdansk"));
+const ErpScale_schwechat = lazy(() => import("./pages/ndt-erp-schwechat"));
+const ErpScale_le_havre = lazy(() => import("./pages/ndt-erp-le-havre"));
+const ErpScale_jazan = lazy(() => import("./pages/ndt-erp-jazan"));
+const ErpScale_rabigh = lazy(() => import("./pages/ndt-erp-rabigh"));
+const ErpScale_sitra = lazy(() => import("./pages/ndt-erp-sitra"));
+const ErpScale_skikda = lazy(() => import("./pages/ndt-erp-skikda"));
+const ErpScale_arzew = lazy(() => import("./pages/ndt-erp-arzew"));
+const ErpScale_mohammedia = lazy(() => import("./pages/ndt-erp-mohammedia"));
+const ErpScale_mangalore = lazy(() => import("./pages/ndt-erp-mangalore"));
+const ErpScale_paradip = lazy(() => import("./pages/ndt-erp-paradip"));
+const ErpScale_panipat = lazy(() => import("./pages/ndt-erp-panipat"));
+const ErpScale_dahej = lazy(() => import("./pages/ndt-erp-dahej"));
+const ErpScale_cartagena = lazy(() => import("./pages/ndt-erp-cartagena"));
+const ErpScale_talara = lazy(() => import("./pages/ndt-erp-talara"));
+const ErpScale_esmeraldas = lazy(() => import("./pages/ndt-erp-esmeraldas"));
+const ErpScale_tula = lazy(() => import("./pages/ndt-erp-tula"));
+const ErpScale_salina_cruz = lazy(() => import("./pages/ndt-erp-salina-cruz"));
+const ErpScale_mombasa = lazy(() => import("./pages/ndt-erp-mombasa"));
+const ErpScale_pointe_noire = lazy(() => import("./pages/ndt-erp-pointe-noire"));
+const ErpScale_whiting = lazy(() => import("./pages/ndt-erp-whiting"));
+const ErpScale_garyville = lazy(() => import("./pages/ndt-erp-garyville"));
+const ErpScale_toledo_ohio = lazy(() => import("./pages/ndt-erp-toledo-ohio"));
 const NDTErpAunz_adelaide = lazy(() => import("./pages/ndt-erp-adelaide"));
 const NDTErpAunz_geelong = lazy(() => import("./pages/ndt-erp-geelong"));
 const NDTErpAunz_kwinana = lazy(() => import("./pages/ndt-erp-kwinana"));
@@ -3955,6 +4147,158 @@ const App = () => (
                   <Route path="/digital-twin-mumbai" element={<LazyRoute Component={DigitalTwinMumbai} />} />
                   <Route path="/digital-twin-london" element={<LazyRoute Component={DigitalTwinLondon} />} />
                   <Route path="/digital-twin-perth" element={<LazyRoute Component={DigitalTwinPerth} />} />
+                  <Route path="/digital-twin-accra" element={<LazyRoute Component={DtScale_accra} />} />
+                  <Route path="/digital-twin-gabon" element={<LazyRoute Component={DtScale_gabon} />} />
+                  <Route path="/digital-twin-ghana" element={<LazyRoute Component={DtScale_ghana} />} />
+                  <Route path="/digital-twin-ivory-coast" element={<LazyRoute Component={DtScale_ivory_coast} />} />
+                  <Route path="/digital-twin-mozambique" element={<LazyRoute Component={DtScale_mozambique} />} />
+                  <Route path="/digital-twin-nairobi" element={<LazyRoute Component={DtScale_nairobi} />} />
+                  <Route path="/digital-twin-senegal" element={<LazyRoute Component={DtScale_senegal} />} />
+                  <Route path="/digital-twin-tanzania" element={<LazyRoute Component={DtScale_tanzania} />} />
+                  <Route path="/digital-twin-balikpapan" element={<LazyRoute Component={DtScale_balikpapan} />} />
+                  <Route path="/digital-twin-bangladesh" element={<LazyRoute Component={DtScale_bangladesh} />} />
+                  <Route path="/digital-twin-bintulu" element={<LazyRoute Component={DtScale_bintulu} />} />
+                  <Route path="/digital-twin-bontang" element={<LazyRoute Component={DtScale_bontang} />} />
+                  <Route path="/digital-twin-cilacap" element={<LazyRoute Component={DtScale_cilacap} />} />
+                  <Route path="/digital-twin-jurong-island" element={<LazyRoute Component={DtScale_jurong_island} />} />
+                  <Route path="/digital-twin-kemaman" element={<LazyRoute Component={DtScale_kemaman} />} />
+                  <Route path="/digital-twin-kerteh" element={<LazyRoute Component={DtScale_kerteh} />} />
+                  <Route path="/digital-twin-miri" element={<LazyRoute Component={DtScale_miri} />} />
+                  <Route path="/digital-twin-mongolia" element={<LazyRoute Component={DtScale_mongolia} />} />
+                  <Route path="/digital-twin-myanmar" element={<LazyRoute Component={DtScale_myanmar} />} />
+                  <Route path="/digital-twin-pakistan" element={<LazyRoute Component={DtScale_pakistan} />} />
+                  <Route path="/digital-twin-sri-lanka" element={<LazyRoute Component={DtScale_sri_lanka} />} />
+                  <Route path="/digital-twin-cyprus" element={<LazyRoute Component={DtScale_cyprus} />} />
+                  <Route path="/digital-twin-fawley" element={<LazyRoute Component={DtScale_fawley} />} />
+                  <Route path="/digital-twin-grangemouth" element={<LazyRoute Component={DtScale_grangemouth} />} />
+                  <Route path="/digital-twin-greece" element={<LazyRoute Component={DtScale_greece} />} />
+                  <Route path="/digital-twin-immingham" element={<LazyRoute Component={DtScale_immingham} />} />
+                  <Route path="/digital-twin-karsto" element={<LazyRoute Component={DtScale_karsto} />} />
+                  <Route path="/digital-twin-mongstad" element={<LazyRoute Component={DtScale_mongstad} />} />
+                  <Route path="/digital-twin-stanlow" element={<LazyRoute Component={DtScale_stanlow} />} />
+                  <Route path="/digital-twin-teesside" element={<LazyRoute Component={DtScale_teesside} />} />
+                  <Route path="/digital-twin-trondheim" element={<LazyRoute Component={DtScale_trondheim} />} />
+                  <Route path="/digital-twin-turkey" element={<LazyRoute Component={DtScale_turkey} />} />
+                  <Route path="/digital-twin-gujarat" element={<LazyRoute Component={DtScale_gujarat} />} />
+                  <Route path="/digital-twin-maharashtra" element={<LazyRoute Component={DtScale_maharashtra} />} />
+                  <Route path="/digital-twin-tamil-nadu" element={<LazyRoute Component={DtScale_tamil_nadu} />} />
+                  <Route path="/digital-twin-karnataka" element={<LazyRoute Component={DtScale_karnataka} />} />
+                  <Route path="/digital-twin-kerala" element={<LazyRoute Component={DtScale_kerala} />} />
+                  <Route path="/digital-twin-telangana" element={<LazyRoute Component={DtScale_telangana} />} />
+                  <Route path="/digital-twin-andhra-pradesh" element={<LazyRoute Component={DtScale_andhra_pradesh} />} />
+                  <Route path="/digital-twin-west-bengal" element={<LazyRoute Component={DtScale_west_bengal} />} />
+                  <Route path="/digital-twin-visakhapatnam" element={<LazyRoute Component={DtScale_visakhapatnam} />} />
+                  <Route path="/digital-twin-abqaiq" element={<LazyRoute Component={DtScale_abqaiq} />} />
+                  <Route path="/digital-twin-al-zour" element={<LazyRoute Component={DtScale_al_zour} />} />
+                  <Route path="/digital-twin-duqm" element={<LazyRoute Component={DtScale_duqm} />} />
+                  <Route path="/digital-twin-fujairah" element={<LazyRoute Component={DtScale_fujairah} />} />
+                  <Route path="/digital-twin-iraq" element={<LazyRoute Component={DtScale_iraq} />} />
+                  <Route path="/digital-twin-israel" element={<LazyRoute Component={DtScale_israel} />} />
+                  <Route path="/digital-twin-khurais" element={<LazyRoute Component={DtScale_khurais} />} />
+                  <Route path="/digital-twin-mesaieed" element={<LazyRoute Component={DtScale_mesaieed} />} />
+                  <Route path="/digital-twin-mussafah" element={<LazyRoute Component={DtScale_mussafah} />} />
+                  <Route path="/digital-twin-ras-laffan" element={<LazyRoute Component={DtScale_ras_laffan} />} />
+                  <Route path="/digital-twin-salalah" element={<LazyRoute Component={DtScale_salalah} />} />
+                  <Route path="/digital-twin-shaybah" element={<LazyRoute Component={DtScale_shaybah} />} />
+                  <Route path="/digital-twin-tunisia" element={<LazyRoute Component={DtScale_tunisia} />} />
+                  <Route path="/digital-twin-alberta" element={<LazyRoute Component={DtScale_alberta} />} />
+                  <Route path="/digital-twin-azerbaijan" element={<LazyRoute Component={DtScale_azerbaijan} />} />
+                  <Route path="/digital-twin-ecuador" element={<LazyRoute Component={DtScale_ecuador} />} />
+                  <Route path="/digital-twin-guyana" element={<LazyRoute Component={DtScale_guyana} />} />
+                  <Route path="/digital-twin-kazakhstan" element={<LazyRoute Component={DtScale_kazakhstan} />} />
+                  <Route path="/digital-twin-ontario" element={<LazyRoute Component={DtScale_ontario} />} />
+                  <Route path="/digital-twin-panama" element={<LazyRoute Component={DtScale_panama} />} />
+                  <Route path="/digital-twin-port-kembla" element={<LazyRoute Component={DtScale_port_kembla} />} />
+                  <Route path="/digital-twin-suriname" element={<LazyRoute Component={DtScale_suriname} />} />
+                  <Route path="/digital-twin-alaska" element={<LazyRoute Component={DtScale_alaska} />} />
+                  <Route path="/digital-twin-california" element={<LazyRoute Component={DtScale_california} />} />
+                  <Route path="/digital-twin-clairton" element={<LazyRoute Component={DtScale_clairton} />} />
+                  <Route path="/digital-twin-conroe" element={<LazyRoute Component={DtScale_conroe} />} />
+                  <Route path="/digital-twin-detroit" element={<LazyRoute Component={DtScale_detroit} />} />
+                  <Route path="/digital-twin-florida" element={<LazyRoute Component={DtScale_florida} />} />
+                  <Route path="/digital-twin-hammond" element={<LazyRoute Component={DtScale_hammond} />} />
+                  <Route path="/digital-twin-joliet" element={<LazyRoute Component={DtScale_joliet} />} />
+                  <Route path="/digital-twin-long-beach" element={<LazyRoute Component={DtScale_long_beach} />} />
+                  <Route path="/digital-twin-martinez" element={<LazyRoute Component={DtScale_martinez} />} />
+                  <Route path="/digital-twin-new-york-state" element={<LazyRoute Component={DtScale_new_york_state} />} />
+                  <Route path="/digital-twin-ohio" element={<LazyRoute Component={DtScale_ohio} />} />
+                  <Route path="/digital-twin-pasadena-texas" element={<LazyRoute Component={DtScale_pasadena_texas} />} />
+                  <Route path="/digital-twin-pennsylvania" element={<LazyRoute Component={DtScale_pennsylvania} />} />
+                  <Route path="/digital-twin-sugar-land" element={<LazyRoute Component={DtScale_sugar_land} />} />
+                  <Route path="/digital-twin-torrance" element={<LazyRoute Component={DtScale_torrance} />} />
+                  <Route path="/digital-twin-wilmington-california" element={<LazyRoute Component={DtScale_wilmington_california} />} />
+                  <Route path="/digital-twin-baytown" element={<LazyRoute Component={DtScale_baytown} />} />
+                  <Route path="/digital-twin-carson" element={<LazyRoute Component={DtScale_carson} />} />
+                  <Route path="/digital-twin-colorado" element={<LazyRoute Component={DtScale_colorado} />} />
+                  <Route path="/digital-twin-dearborn" element={<LazyRoute Component={DtScale_dearborn} />} />
+                  <Route path="/digital-twin-east-chicago" element={<LazyRoute Component={DtScale_east_chicago} />} />
+                  <Route path="/digital-twin-freeport-texas" element={<LazyRoute Component={DtScale_freeport_texas} />} />
+                  <Route path="/digital-twin-huntsville" element={<LazyRoute Component={DtScale_huntsville} />} />
+                  <Route path="/digital-twin-la-porte" element={<LazyRoute Component={DtScale_la_porte} />} />
+                  <Route path="/digital-twin-louisiana" element={<LazyRoute Component={DtScale_louisiana} />} />
+                  <Route path="/digital-twin-michigan" element={<LazyRoute Component={DtScale_michigan} />} />
+                  <Route path="/digital-twin-norfolk" element={<LazyRoute Component={DtScale_norfolk} />} />
+                  <Route path="/digital-twin-orange-texas" element={<LazyRoute Component={DtScale_orange_texas} />} />
+                  <Route path="/digital-twin-paulsboro" element={<LazyRoute Component={DtScale_paulsboro} />} />
+                  <Route path="/digital-twin-phoenix" element={<LazyRoute Component={DtScale_phoenix} />} />
+                  <Route path="/digital-twin-texas" element={<LazyRoute Component={DtScale_texas} />} />
+                  <Route path="/digital-twin-trainer" element={<LazyRoute Component={DtScale_trainer} />} />
+                  <Route path="/digital-twin-benicia" element={<LazyRoute Component={DtScale_benicia} />} />
+                  <Route path="/digital-twin-channelview" element={<LazyRoute Component={DtScale_channelview} />} />
+                  <Route path="/digital-twin-colorado-springs" element={<LazyRoute Component={DtScale_colorado_springs} />} />
+                  <Route path="/digital-twin-deer-park" element={<LazyRoute Component={DtScale_deer_park} />} />
+                  <Route path="/digital-twin-el-segundo" element={<LazyRoute Component={DtScale_el_segundo} />} />
+                  <Route path="/digital-twin-galveston" element={<LazyRoute Component={DtScale_galveston} />} />
+                  <Route path="/digital-twin-illinois" element={<LazyRoute Component={DtScale_illinois} />} />
+                  <Route path="/digital-twin-linden-nj" element={<LazyRoute Component={DtScale_linden_nj} />} />
+                  <Route path="/digital-twin-marcus-hook" element={<LazyRoute Component={DtScale_marcus_hook} />} />
+                  <Route path="/digital-twin-monaca" element={<LazyRoute Component={DtScale_monaca} />} />
+                  <Route path="/digital-twin-north-dakota" element={<LazyRoute Component={DtScale_north_dakota} />} />
+                  <Route path="/digital-twin-orlando" element={<LazyRoute Component={DtScale_orlando} />} />
+                  <Route path="/digital-twin-pearland" element={<LazyRoute Component={DtScale_pearland} />} />
+                  <Route path="/digital-twin-richmond-california" element={<LazyRoute Component={DtScale_richmond_california} />} />
+                  <Route path="/digital-twin-texas-city" element={<LazyRoute Component={DtScale_texas_city} />} />
+                  <Route path="/digital-twin-vernon" element={<LazyRoute Component={DtScale_vernon} />} />
+                  <Route path="/digital-twin-map-ta-phut" element={<LazyRoute Component={DtScale_map_ta_phut} />} />
+                  <Route path="/digital-twin-rayong" element={<LazyRoute Component={DtScale_rayong} />} />
+                  <Route path="/digital-twin-ulsan" element={<LazyRoute Component={DtScale_ulsan} />} />
+                  <Route path="/digital-twin-yeosu" element={<LazyRoute Component={DtScale_yeosu} />} />
+                  <Route path="/digital-twin-daesan" element={<LazyRoute Component={DtScale_daesan} />} />
+                  <Route path="/digital-twin-kawasaki" element={<LazyRoute Component={DtScale_kawasaki} />} />
+                  <Route path="/digital-twin-yokkaichi" element={<LazyRoute Component={DtScale_yokkaichi} />} />
+                  <Route path="/digital-twin-mailiao" element={<LazyRoute Component={DtScale_mailiao} />} />
+                  <Route path="/digital-twin-karachi" element={<LazyRoute Component={DtScale_karachi} />} />
+                  <Route path="/digital-twin-colombo" element={<LazyRoute Component={DtScale_colombo} />} />
+                  <Route path="/digital-twin-antwerp" element={<LazyRoute Component={DtScale_antwerp} />} />
+                  <Route path="/digital-twin-wilhelmshaven" element={<LazyRoute Component={DtScale_wilhelmshaven} />} />
+                  <Route path="/digital-twin-ludwigshafen" element={<LazyRoute Component={DtScale_ludwigshafen} />} />
+                  <Route path="/digital-twin-leuna" element={<LazyRoute Component={DtScale_leuna} />} />
+                  <Route path="/digital-twin-tarragona" element={<LazyRoute Component={DtScale_tarragona} />} />
+                  <Route path="/digital-twin-sines" element={<LazyRoute Component={DtScale_sines} />} />
+                  <Route path="/digital-twin-porvoo" element={<LazyRoute Component={DtScale_porvoo} />} />
+                  <Route path="/digital-twin-gdansk" element={<LazyRoute Component={DtScale_gdansk} />} />
+                  <Route path="/digital-twin-schwechat" element={<LazyRoute Component={DtScale_schwechat} />} />
+                  <Route path="/digital-twin-le-havre" element={<LazyRoute Component={DtScale_le_havre} />} />
+                  <Route path="/digital-twin-jazan" element={<LazyRoute Component={DtScale_jazan} />} />
+                  <Route path="/digital-twin-rabigh" element={<LazyRoute Component={DtScale_rabigh} />} />
+                  <Route path="/digital-twin-sitra" element={<LazyRoute Component={DtScale_sitra} />} />
+                  <Route path="/digital-twin-skikda" element={<LazyRoute Component={DtScale_skikda} />} />
+                  <Route path="/digital-twin-arzew" element={<LazyRoute Component={DtScale_arzew} />} />
+                  <Route path="/digital-twin-mohammedia" element={<LazyRoute Component={DtScale_mohammedia} />} />
+                  <Route path="/digital-twin-mangalore" element={<LazyRoute Component={DtScale_mangalore} />} />
+                  <Route path="/digital-twin-paradip" element={<LazyRoute Component={DtScale_paradip} />} />
+                  <Route path="/digital-twin-panipat" element={<LazyRoute Component={DtScale_panipat} />} />
+                  <Route path="/digital-twin-dahej" element={<LazyRoute Component={DtScale_dahej} />} />
+                  <Route path="/digital-twin-cartagena" element={<LazyRoute Component={DtScale_cartagena} />} />
+                  <Route path="/digital-twin-talara" element={<LazyRoute Component={DtScale_talara} />} />
+                  <Route path="/digital-twin-esmeraldas" element={<LazyRoute Component={DtScale_esmeraldas} />} />
+                  <Route path="/digital-twin-tula" element={<LazyRoute Component={DtScale_tula} />} />
+                  <Route path="/digital-twin-salina-cruz" element={<LazyRoute Component={DtScale_salina_cruz} />} />
+                  <Route path="/digital-twin-mombasa" element={<LazyRoute Component={DtScale_mombasa} />} />
+                  <Route path="/digital-twin-pointe-noire" element={<LazyRoute Component={DtScale_pointe_noire} />} />
+                  <Route path="/digital-twin-whiting" element={<LazyRoute Component={DtScale_whiting} />} />
+                  <Route path="/digital-twin-garyville" element={<LazyRoute Component={DtScale_garyville} />} />
+                  <Route path="/digital-twin-toledo-ohio" element={<LazyRoute Component={DtScale_toledo_ohio} />} />
                   <Route path="/digital-twin-adelaide" element={<LazyRoute Component={DigitalTwinAunz_adelaide} />} />
                   <Route path="/digital-twin-geelong" element={<LazyRoute Component={DigitalTwinAunz_geelong} />} />
                   <Route path="/digital-twin-kwinana" element={<LazyRoute Component={DigitalTwinAunz_kwinana} />} />
@@ -4127,6 +4471,46 @@ const App = () => (
                   <Route path="/ndt-erp-mumbai" element={<LazyRoute Component={NDTErpMumbai} />} />
                   <Route path="/ndt-erp-london" element={<LazyRoute Component={NDTErpLondon} />} />
                   <Route path="/ndt-erp-perth" element={<LazyRoute Component={NDTErpPerth} />} />
+                  <Route path="/ndt-erp-map-ta-phut" element={<LazyRoute Component={ErpScale_map_ta_phut} />} />
+                  <Route path="/ndt-erp-rayong" element={<LazyRoute Component={ErpScale_rayong} />} />
+                  <Route path="/ndt-erp-ulsan" element={<LazyRoute Component={ErpScale_ulsan} />} />
+                  <Route path="/ndt-erp-yeosu" element={<LazyRoute Component={ErpScale_yeosu} />} />
+                  <Route path="/ndt-erp-daesan" element={<LazyRoute Component={ErpScale_daesan} />} />
+                  <Route path="/ndt-erp-kawasaki" element={<LazyRoute Component={ErpScale_kawasaki} />} />
+                  <Route path="/ndt-erp-yokkaichi" element={<LazyRoute Component={ErpScale_yokkaichi} />} />
+                  <Route path="/ndt-erp-mailiao" element={<LazyRoute Component={ErpScale_mailiao} />} />
+                  <Route path="/ndt-erp-karachi" element={<LazyRoute Component={ErpScale_karachi} />} />
+                  <Route path="/ndt-erp-colombo" element={<LazyRoute Component={ErpScale_colombo} />} />
+                  <Route path="/ndt-erp-antwerp" element={<LazyRoute Component={ErpScale_antwerp} />} />
+                  <Route path="/ndt-erp-wilhelmshaven" element={<LazyRoute Component={ErpScale_wilhelmshaven} />} />
+                  <Route path="/ndt-erp-ludwigshafen" element={<LazyRoute Component={ErpScale_ludwigshafen} />} />
+                  <Route path="/ndt-erp-leuna" element={<LazyRoute Component={ErpScale_leuna} />} />
+                  <Route path="/ndt-erp-tarragona" element={<LazyRoute Component={ErpScale_tarragona} />} />
+                  <Route path="/ndt-erp-sines" element={<LazyRoute Component={ErpScale_sines} />} />
+                  <Route path="/ndt-erp-porvoo" element={<LazyRoute Component={ErpScale_porvoo} />} />
+                  <Route path="/ndt-erp-gdansk" element={<LazyRoute Component={ErpScale_gdansk} />} />
+                  <Route path="/ndt-erp-schwechat" element={<LazyRoute Component={ErpScale_schwechat} />} />
+                  <Route path="/ndt-erp-le-havre" element={<LazyRoute Component={ErpScale_le_havre} />} />
+                  <Route path="/ndt-erp-jazan" element={<LazyRoute Component={ErpScale_jazan} />} />
+                  <Route path="/ndt-erp-rabigh" element={<LazyRoute Component={ErpScale_rabigh} />} />
+                  <Route path="/ndt-erp-sitra" element={<LazyRoute Component={ErpScale_sitra} />} />
+                  <Route path="/ndt-erp-skikda" element={<LazyRoute Component={ErpScale_skikda} />} />
+                  <Route path="/ndt-erp-arzew" element={<LazyRoute Component={ErpScale_arzew} />} />
+                  <Route path="/ndt-erp-mohammedia" element={<LazyRoute Component={ErpScale_mohammedia} />} />
+                  <Route path="/ndt-erp-mangalore" element={<LazyRoute Component={ErpScale_mangalore} />} />
+                  <Route path="/ndt-erp-paradip" element={<LazyRoute Component={ErpScale_paradip} />} />
+                  <Route path="/ndt-erp-panipat" element={<LazyRoute Component={ErpScale_panipat} />} />
+                  <Route path="/ndt-erp-dahej" element={<LazyRoute Component={ErpScale_dahej} />} />
+                  <Route path="/ndt-erp-cartagena" element={<LazyRoute Component={ErpScale_cartagena} />} />
+                  <Route path="/ndt-erp-talara" element={<LazyRoute Component={ErpScale_talara} />} />
+                  <Route path="/ndt-erp-esmeraldas" element={<LazyRoute Component={ErpScale_esmeraldas} />} />
+                  <Route path="/ndt-erp-tula" element={<LazyRoute Component={ErpScale_tula} />} />
+                  <Route path="/ndt-erp-salina-cruz" element={<LazyRoute Component={ErpScale_salina_cruz} />} />
+                  <Route path="/ndt-erp-mombasa" element={<LazyRoute Component={ErpScale_mombasa} />} />
+                  <Route path="/ndt-erp-pointe-noire" element={<LazyRoute Component={ErpScale_pointe_noire} />} />
+                  <Route path="/ndt-erp-whiting" element={<LazyRoute Component={ErpScale_whiting} />} />
+                  <Route path="/ndt-erp-garyville" element={<LazyRoute Component={ErpScale_garyville} />} />
+                  <Route path="/ndt-erp-toledo-ohio" element={<LazyRoute Component={ErpScale_toledo_ohio} />} />
                   <Route path="/ndt-erp-adelaide" element={<LazyRoute Component={NDTErpAunz_adelaide} />} />
                   <Route path="/ndt-erp-geelong" element={<LazyRoute Component={NDTErpAunz_geelong} />} />
                   <Route path="/ndt-erp-kwinana" element={<LazyRoute Component={NDTErpAunz_kwinana} />} />

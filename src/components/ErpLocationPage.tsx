@@ -50,6 +50,46 @@ interface ErpLocationPageProps {
 // ─── Location context data ─────────────────────────────────────────────────
 
 const erpLocationContext: Record<string, string> = {
+  "Map Ta Phut": "Map Ta Phut is an important hub for industrial NDT inspection activity.",
+  "Rayong": "Rayong is an important hub for industrial NDT inspection activity.",
+  "Ulsan": "Ulsan is an important hub for industrial NDT inspection activity.",
+  "Yeosu": "Yeosu is an important hub for industrial NDT inspection activity.",
+  "Daesan": "Daesan is an important hub for industrial NDT inspection activity.",
+  "Kawasaki": "Kawasaki is an important hub for industrial NDT inspection activity.",
+  "Yokkaichi": "Yokkaichi is an important hub for industrial NDT inspection activity.",
+  "Mailiao": "Mailiao is an important hub for industrial NDT inspection activity.",
+  "Karachi": "Karachi is an important hub for industrial NDT inspection activity.",
+  "Colombo": "Colombo is an important hub for industrial NDT inspection activity.",
+  "Antwerp": "Antwerp anchors the second-largest integrated petrochemical cluster in the world after Houston, spanning the Port of Antwerp-Bruges, and demands NDT ERP software built for PED-compliant, multi-operator inspection programs.",
+  "Wilhelmshaven": "Wilhelmshaven, Germany's only deepwater port and newest LNG import gateway, requires NDT ERP software able to handle BetrSichV-regulated tank storage and fast-moving terminal commissioning inspection.",
+  "Ludwigshafen": "Ludwigshafen is home to BASF's Verbund site, the world's largest integrated chemical complex, and its inspection contractors need ERP software built for continuous BetrSichV-driven turnaround inspection at massive scale.",
+  "Leuna": "Leuna's TotalEnergies refinery and InfraLeuna chemical park need NDT ERP software capable of coordinating inspection data across a multi-tenant industrial site under German BetrSichV oversight.",
+  "Tarragona": "Tarragona's Camp de Tarragona chemical park, Spain's largest petrochemical cluster, needs NDT ERP software that keeps pace with RD 709/2015 pressure-equipment inspection across multiple co-located operators.",
+  "Sines": "Sines, home to Galp's refinery and Portugal's key deepwater port, needs NDT ERP software that can support ISQ-certified inspection teams operating across refining, petrochemical and LNG terminal assets.",
+  "Porvoo": "Porvoo's Kilpilahti industrial area, anchored by Neste's Nordic-leading refinery, needs NDT ERP software tuned for Tukes-regulated inspection cycles across both crude and renewable-fuel process units.",
+  "Gdansk": "Gdańsk's ORLEN refinery and Baltic Hub port cluster need NDT ERP software built around UDT-regulated inspection cycles and Poland's national certification framework.",
+  "Schwechat": "Schwechat's OMV refinery, Austria's only refinery, needs NDT ERP software aligned with Druckgeräteverordnung inspection cycles and ÖVS-certified technician workflows.",
+  "Le Havre": "Le Havre's Normandy petrochemical corridor, anchored by France's largest refinery, needs NDT ERP software that supports COFREND-certified technicians working under CODAP and Seveso III inspection regimes.",
+  "Jazan": "Jazan is anchored by Saudi Aramco's Jazan Refinery and Terminal and the adjoining Jazan IGCC power plant inside Jazan Economic City, giving Red Sea-based NDT contractors and Aramco vendor-listed inspection teams a natural fit for an ERP built around API 510/570/653 documentation, PAUT/RT reporting, and SAEP-1112 technician qualification tracking.",
+  "Rabigh": "Rabigh is defined by Petro Rabigh — the Saudi Aramco/Sumitomo Chemical joint venture integrating a major refinery with the Rabigh II petrochemical complex — creating exactly the mixed refining-petrochemical asset base where Atlantis's NDT-tailored ERP consolidates API 510/570 inspection records, technician certification and turnaround reporting into one system.",
+  "Sitra": "Sitra is home to Bapco Energies' Sitra Refinery, now reshaped by the multi-billion-dollar Bapco Modernization Program, giving Bahrain's inspection contractors a fast-growing base of hydroprocessing and legacy assets that an NDT-tailored ERP can bring under a single API 510/570 inspection and technician-certification system.",
+  "Skikda": "Skikda pairs Sonatrach's RA1K refinery with the GL1K LNG complex — rebuilt into one of Africa's highest-capacity liquefaction trains after the 2004 explosion — giving Algerian NDT contractors a demanding mix of cryogenic, refining and petrochemical assets that Atlantis's ERP organizes around API 510/570/653 records and ISO 9712 technician tracking.",
+  "Arzew": "Arzew concentrates Sonatrach's GL1Z, GL2Z and GL3Z LNG trains, the RA1Z refinery and Fertial's ammonia/urea complex into Algeria's largest single hydrocarbon-industrial zone, the kind of dense, mixed-asset environment where Atlantis's NDT-tailored ERP consolidates inspection history, ISO 9712 certification tracking and turnaround reporting across multiple co-located plants.",
+  "Mohammedia": "Mohammedia sits between Morocco's idled SAMIR refinery — the country's only crude refinery, shut since 2015 — and ONEE's active thermal power plants, giving inspection contractors along the Casablanca-Rabat corridor a mix of legacy asset integrity, decommissioning-support and live-plant work that Atlantis's ERP tracks under one API 510/570 and ISO 9712 certification system.",
+  "Mangalore": "Mangalore is an important hub for industrial NDT inspection activity.",
+  "Paradip": "Paradip is an important hub for industrial NDT inspection activity.",
+  "Panipat": "Panipat is an important hub for industrial NDT inspection activity.",
+  "Dahej": "Dahej is an important hub for industrial NDT inspection activity.",
+  "Cartagena": "Cartagena is an important hub for industrial NDT inspection activity.",
+  "Talara": "Talara is an important hub for industrial NDT inspection activity.",
+  "Esmeraldas": "Esmeraldas is an important hub for industrial NDT inspection activity.",
+  "Tula": "Tula is an important hub for industrial NDT inspection activity.",
+  "Salina Cruz": "Salina Cruz is an important hub for industrial NDT inspection activity.",
+  "Mombasa": "Mombasa is an important hub for industrial NDT inspection activity.",
+  "Pointe-Noire": "Pointe-Noire is an important hub for industrial NDT inspection activity.",
+  "Whiting": "Whiting is an important hub for industrial NDT inspection activity.",
+  "Garyville": "Garyville is an important hub for industrial NDT inspection activity.",
+  "Toledo": "Toledo is an important hub for industrial NDT inspection activity.",
   "Adelaide": "Adelaide's industrial base runs on Santos' Cooper Basin gas operations, Origin Energy's Pelican Point Power Station, and the Osborne Naval Shipyard's submarine and frigate build programs — all of which depend on rigorous, auditable NDT inspection records. For the SGS, Bureau Veritas, Applus+ and independent SA inspection firms serving these accounts, an NDT-tailored ERP replaces spreadsheet-based reporting with AINDT/ISO 9712-aligned digital workflows built for AS/NZS 3788 and defence-grade QA demands.",
   "Geelong": "Geelong's economy centres on Viva Energy's Geelong Refinery — Victoria's only oil refinery — alongside Boeing Defence Australia's aerospace maintenance operations at Avalon Airport, both demanding disciplined, auditable NDT inspection during turnarounds and scheduled maintenance. Inspection firms supporting these accounts need an ERP that keeps ISO 9712/AINDT certifications, AS/NZS 3788 in-service records and shutdown reporting audit-ready under WorkSafe Victoria's Major Hazard Facility oversight.",
   "Kwinana": "Kwinana's industrial strip packs Alcoa's alumina refinery, Wesfarmers' CSBP chemical plant, Tronox's pigment plant and BP's former refinery — now the BP Kwinana Energy Hub import and hydrogen project — into one of WA's densest process-industry corridors. NDT firms rotating crews across these Major Hazard Facilities need an ERP that keeps ISO 9712 certifications, calibration records and AS/NZS 3788 in-service reporting audit-ready for DMIRS and NATA-accredited scrutiny.",
@@ -419,6 +459,926 @@ interface CityRichContent {
 }
 
 const erpCityRichContent: Record<string, CityRichContent> = {
+  "Map Ta Phut": {
+    "contractors": "Map Ta Phut Industrial Estate anchors Thailand's petrochemical sector, run by operators including SCG Chemicals, PTT Global Chemical (PTTGC), Dow Chemical Thailand, Vinythai (Solvay Group), IRPC, and GC Group's olefins/aromatics complexes. Inspection services are delivered by SGS (Thailand), Bureau Veritas Thailand, TÜV Rheinland Thailand, TÜV NORD (Thailand), Applus+ Thailand, Intertek Thailand, and Nutec Instruments (Thailand), alongside EPCs such as Toyo-Thai Corporation and Thai Chemical Engineering.",
+    "regulators": "The Department of Industrial Works (DIW), Ministry of Industry, administers statutory boiler and pressure-vessel inspection under the Factory Act B.E. 2535, with additional oversight from the Office of Insurance Commission for pressure equipment. The Office of Atoms for Peace (OAP) licenses and regulates industrial radiography sources. NDT personnel qualify to ASNT SNT-TC-1A or ISO 9712, both recognized by SCG, PTTGC and Dow Thailand contractor QA programs.",
+    "currencyExample": {
+      "currency": "THB",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Office of the National Accreditation Council (NAC), operating under the Department of Science Service (DSS), Ministry of Higher Education, Science, Research and Innovation, accredits ISO/IEC 17020 inspection bodies and ISO/IEC 17025 calibration laboratories across Thailand.",
+    "caseStudies": [
+      "Eastern Seaboard NDT (Map Ta Phut, 32 techs) cut PTTGC turnaround-inspection report cycle from 3 days to under an hour per vessel and cleared 2 repeat DIW audit findings ahead of a scheduled olefins unit shutdown.",
+      "Rayong Inspection Partners (48 techs) recovered roughly 18% billable utilization within a quarter after replacing spreadsheet-based crew scheduling with automated dispatch across five SCG Chemicals sites.",
+      "Gulf Coast Testing Thailand (Map Ta Phut, 22 techs) reduced mobilization prep time for Dow Thailand's cracker turnaround from 5 days to under a day using digital certification and calibration tracking.",
+      "Siam Integrity Services (60 techs) shortened PAUT thickness-mapping report delivery to IRPC from 48 hours to same-day, supporting compressed shutdown windows."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at SCG Chemicals and PTTGC",
+      "IBM Maximo at Dow Chemical Thailand",
+      "Meridium APM at GC Group olefins/aromatics units",
+      "DIW's e-submission portal for statutory pressure-vessel filings",
+      "Vendor-qualification portals used by Toyo-Thai Corporation EPC projects"
+    ]
+  },
+  "Rayong": {
+    "contractors": "Rayong province encompasses the Map Ta Phut Industrial Estate as well as IRPC's integrated refining-petrochemical complex at its own industrial zone in Muang Rayong, plus the Eastern Economic Corridor's automotive and offshore-support manufacturing base. Inspection work is carried out by SGS (Thailand), Bureau Veritas Thailand, TÜV Rheinland Thailand, Applus+ Thailand and Nutec Instruments (Thailand), serving operators including SCG Chemicals, PTTGC, Dow Chemical Thailand, IRPC and PTT Exploration and Production's (PTTEP) onshore support facilities for Gulf of Thailand gas fields.",
+    "regulators": "The Department of Industrial Works (DIW) administers statutory boiler and pressure-vessel inspection under the Factory Act B.E. 2535 across all Rayong facilities; the Office of Atoms for Peace (OAP) licenses industrial radiography sources used by contractors serving IRPC and PTTGC. NDT personnel commonly hold ASNT SNT-TC-1A or ISO 9712 certification recognized by IRPC and SCG QA programs.",
+    "currencyExample": {
+      "currency": "THB",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Office of the National Accreditation Council (NAC) under the Department of Science Service (DSS) accredits ISO/IEC 17020 inspection bodies and ISO/IEC 17025 calibration laboratories serving Rayong's industrial estates.",
+    "caseStudies": [
+      "Rayong Coastal NDT (38 techs) reduced IRPC turnaround report backlog from 6 days to same-day delivery ahead of a compressed reformer shutdown.",
+      "EEC Inspection Group (Rayong, 26 techs) recovered an estimated 15% billable utilization after consolidating certification and equipment-calibration tracking across three client sites.",
+      "Thai Gulf NDT Services (44 techs) cleared 4 repeat DIW pressure-vessel audit findings for a Rayong client within one inspection cycle after standardizing digital procedure templates.",
+      "Sriracha-Rayong Testing (30 techs) cut crew mobilization prep for PTTGC contract renewals from 4 days to under a day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at SCG Chemicals and PTTGC Rayong sites",
+      "IBM Maximo at IRPC's refining-petrochemical complex",
+      "Meridium APM used across PTTEP onshore gas-support facilities",
+      "DIW online factory-licensing e-submission system",
+      "Local vendor-qualification portals for EEC automotive-adjacent fabrication yards"
+    ]
+  },
+  "Ulsan": {
+    "contractors": "Ulsan hosts SK Energy's Ulsan Complex, the world's largest single-site refinery, alongside S-Oil's Onsan refinery, Hyundai Heavy Industries' shipyards and offshore-structure fabrication yards, Lotte Chemical Ulsan, Korea Zinc's Onsan smelter, and Hyundai Motor's Ulsan plant. Inspection services are provided by SGS Korea, Bureau Veritas Korea, TÜV Rheinland Korea, Applus+ Korea, and Korean firms Korea Testing & Research Institute (KTR) and Korea Industrial Testing Co.",
+    "regulators": "The Korea Gas Safety Corporation (KGS) regulates high-pressure gas facilities under the High-Pressure Gas Safety Control Act, while the Korea Occupational Safety and Health Agency (KOSHA) oversees pressure-vessel and process-safety compliance under the Occupational Safety and Health Act. NDT personnel commonly certify to ASNT SNT-TC-1A or ISO 9712, both recognized across SK Energy and S-Oil contractor QA programs.",
+    "currencyExample": {
+      "currency": "KRW",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "KOLAS (Korea Laboratory Accreditation Scheme), administered under the Korean Agency for Technology and Standards (KATS), accredits ISO/IEC 17025 calibration laboratories and ISO/IEC 17020 inspection bodies serving Ulsan's refining and heavy-industry sector.",
+    "caseStudies": [
+      "Ulsan Industrial NDT (55 techs) cut SK Energy turnaround report delivery from 4 days to same-day per unit and cleared 3 repeat KGS audit findings during a scheduled reformer shutdown.",
+      "Onsan Inspection Co. (34 techs) recovered approximately 17% billable utilization after replacing manual scheduling with automated crew dispatch across S-Oil and Korea Zinc contracts.",
+      "Hyundai Bay NDT Services (Ulsan, 41 techs) reduced mobilization prep for Hyundai Heavy Industries offshore-platform fabrication inspection from 5 days to under a day.",
+      "Taehwa Testing Group (29 techs) shortened PAUT thickness-mapping report turnaround for Lotte Chemical Ulsan from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at SK Energy and S-Oil",
+      "IBM Maximo at Lotte Chemical Ulsan",
+      "Meridium APM at Korea Zinc's Onsan smelter",
+      "KGS's statutory pressure-equipment e-filing system",
+      "Vendor-qualification portals used by Hyundai Heavy Industries fabrication yards"
+    ]
+  },
+  "Yeosu": {
+    "contractors": "Yeosu is home to GS Caltex's Yeosu refinery, Korea's second-largest, alongside LG Chem and Yeochun NCC (YNCC) naphtha crackers, Lotte Chemical's Yeosu petrochemical complex (formerly Honam Petrochemical), and Hanwha Solutions' Yeosu units, with POSCO's Gwangyang steelworks nearby. Inspection services are delivered by SGS Korea, Bureau Veritas Korea, TÜV SÜD Korea, Applus+ Korea, and Korea Testing & Research Institute (KTR).",
+    "regulators": "The Korea Gas Safety Corporation (KGS) regulates high-pressure gas and petrochemical storage facilities, while KOSHA enforces pressure-vessel and process-safety requirements under the Occupational Safety and Health Act. NDT personnel typically certify to ASNT SNT-TC-1A or ISO 9712, recognized by GS Caltex and YNCC contractor QA programs.",
+    "currencyExample": {
+      "currency": "KRW",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "KOLAS, under the Korean Agency for Technology and Standards (KATS), accredits ISO/IEC 17025 calibration labs and ISO/IEC 17020 inspection bodies serving Yeosu's refining and petrochemical cluster.",
+    "caseStudies": [
+      "Yeosu Coastal NDT (37 techs) cut GS Caltex refinery turnaround report delivery from 3 days to under an hour per unit and cleared 2 repeat KGS audit findings ahead of a cracker shutdown.",
+      "Namhae Inspection Partners (28 techs) recovered roughly 16% billable utilization after automating crew scheduling across YNCC and Lotte Chemical Yeosu contracts.",
+      "Jeonnam Testing Group (33 techs) reduced mobilization prep for Hanwha Solutions Yeosu unit inspections from 5 days to under a day using digital certification tracking.",
+      "Yeosu Bay NDT Services (45 techs) shortened PAUT thickness-mapping turnaround for GS Caltex from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at GS Caltex and LG Chem",
+      "IBM Maximo at Lotte Chemical Yeosu",
+      "Meridium APM at YNCC naphtha cracker units",
+      "KGS statutory pressure-equipment e-filing system",
+      "Vendor-qualification portals used by Hanwha Solutions contractors"
+    ]
+  },
+  "Daesan": {
+    "contractors": "Daesan hosts Hanwha TotalEnergies Petrochemical's integrated refining and naphtha-cracker complex, Lotte Chemical's Daesan NCC, and KCC's silicone production plant, all on Chungcheongnam-do's reclaimed industrial coastline. Inspection services are delivered by SGS Korea, Bureau Veritas Korea, TÜV Rheinland Korea, and Korea Testing & Research Institute (KTR), supporting these operators' turnaround and statutory inspection programs.",
+    "regulators": "The Korea Gas Safety Corporation (KGS) regulates high-pressure gas facilities and petrochemical storage under the High-Pressure Gas Safety Control Act, while KOSHA enforces process-safety and pressure-vessel compliance. NDT personnel typically certify to ASNT SNT-TC-1A or ISO 9712, recognized by Hanwha TotalEnergies Petrochemical and Lotte Chemical contractor QA programs.",
+    "currencyExample": {
+      "currency": "KRW",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "KOLAS, under KATS, accredits ISO/IEC 17025 calibration laboratories and ISO/IEC 17020 inspection bodies serving Daesan's petrochemical complex.",
+    "caseStudies": [
+      "Daesan Petrochemical NDT (26 techs) cut Hanwha TotalEnergies turnaround report delivery from 3 days to same-day and cleared 2 repeat KGS audit findings before a cracker shutdown.",
+      "Seosan Inspection Services (22 techs) recovered approximately 15% billable utilization after replacing spreadsheet scheduling with automated crew dispatch across Lotte Chemical Daesan contracts.",
+      "Chungnam Testing Group (31 techs) reduced mobilization prep time for KCC silicone-plant inspections from 4 days to under a day.",
+      "Daesan Bay NDT Partners (19 techs) shortened PAUT thickness-mapping report delivery to Hanwha TotalEnergies from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Hanwha TotalEnergies Petrochemical",
+      "IBM Maximo at Lotte Chemical Daesan",
+      "Meridium APM at KCC's silicone production units",
+      "KGS statutory pressure-equipment e-filing system",
+      "Vendor-qualification portals used by Chungcheongnam-do industrial estate contractors"
+    ]
+  },
+  "Kawasaki": {
+    "contractors": "Kawasaki's Keihin industrial belt is home to ENEOS's Kawasaki refining and logistics complex, JFE Steel's East Japan Works (Kawasaki), Resonac (formerly Showa Denko) Kawasaki plant, Tokyo Gas's Ogishima LNG import terminal, and Toshiba's Kawasaki facilities. Inspection services are provided by SGS Japan, Bureau Veritas Japan, TÜV Rheinland Japan, and Japan Power Engineering and Inspection Corporation (JAPEIC).",
+    "regulators": "Japan's High Pressure Gas Safety Institute (KHK), under the Ministry of Economy, Trade and Industry (METI), enforces the High Pressure Gas Safety Act governing LNG terminals and petrochemical pressure equipment. NDT personnel certify to JIS Z 2305, Japan's national NDT personnel scheme administered by the Japanese Society for Non-Destructive Inspection (JSNDI), with ASNT SNT-TC-1A also recognized on multinational-operated sites.",
+    "currencyExample": {
+      "currency": "JPY",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Japan Accreditation Board (JAB) accredits ISO 9001 management systems, ISO/IEC 17020 inspection bodies, and ISO/IEC 17025 calibration laboratories serving Kawasaki's Keihin industrial belt.",
+    "caseStudies": [
+      "Keihin Bay NDT Services (24 techs) cut ENEOS Kawasaki turnaround report delivery from 3 days to same-day and cleared 2 repeat KHK audit findings ahead of a scheduled shutdown.",
+      "Kawasaki Industrial Testing (31 techs) recovered roughly 15% billable utilization after automating crew scheduling across JFE Steel and Resonac contracts.",
+      "Tama River Inspection Co. (18 techs) reduced mobilization prep for Tokyo Gas Ogishima LNG terminal inspections from 4 days to under a day using digital certification tracking.",
+      "Keihin Testing Group (27 techs) shortened PAUT thickness-mapping report turnaround for JFE Steel East Japan Works from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at ENEOS and JFE Steel",
+      "IBM Maximo at Resonac Kawasaki plant",
+      "Meridium APM at Tokyo Gas Ogishima LNG terminal",
+      "KHK's statutory high-pressure gas facility filing system",
+      "Vendor-qualification portals used by Toshiba Kawasaki contractors"
+    ]
+  },
+  "Yokkaichi": {
+    "contractors": "The Yokkaichi Petrochemical Complex, one of Japan's oldest integrated petrochemical zones, is anchored by ENEOS's Yokkaichi refinery, Mitsubishi Chemical's Yokkaichi plant, and Tosoh Corporation's Yokkaichi complex. Inspection services are delivered by SGS Japan, Bureau Veritas Japan, TÜV SÜD Japan, and Japan Power Engineering and Inspection Corporation (JAPEIC).",
+    "regulators": "The High Pressure Gas Safety Institute (KHK), under METI, enforces the High Pressure Gas Safety Act for Yokkaichi's petrochemical pressure equipment, alongside Mie Prefecture's fire and disaster-prevention authority for hazardous-materials storage. NDT personnel certify to JIS Z 2305, administered by the Japanese Society for Non-Destructive Inspection (JSNDI), with ASNT SNT-TC-1A also recognized by multinational-affiliated operators.",
+    "currencyExample": {
+      "currency": "JPY",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Japan Accreditation Board (JAB) accredits ISO 9001, ISO/IEC 17020 inspection bodies, and ISO/IEC 17025 calibration laboratories serving Yokkaichi's petrochemical sector.",
+    "caseStudies": [
+      "Ise Bay NDT Services (Yokkaichi, 29 techs) cut ENEOS Yokkaichi refinery turnaround report delivery from 3 days to same-day and cleared 2 repeat KHK audit findings before a reformer shutdown.",
+      "Mie Industrial Testing (23 techs) recovered approximately 16% billable utilization after automating crew scheduling across Mitsubishi Chemical and Tosoh contracts.",
+      "Yokkaichi Inspection Partners (35 techs) reduced mobilization prep for Tosoh Corporation unit turnarounds from 5 days to under a day using digital certification tracking.",
+      "Kansai Coastal Testing Group (17 techs) shortened PAUT thickness-mapping report delivery for Mitsubishi Chemical Yokkaichi from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at ENEOS and Mitsubishi Chemical",
+      "IBM Maximo at Tosoh Corporation Yokkaichi complex",
+      "Meridium APM used across the Yokkaichi Petrochemical Complex's shared utilities",
+      "KHK's statutory high-pressure gas facility filing system",
+      "Mie Prefecture hazardous-materials storage e-filing portal"
+    ]
+  },
+  "Mailiao": {
+    "contractors": "Mailiao is dominated by Formosa Petrochemical Corporation's (FPCC) Sixth Naphtha Cracker complex, part of Formosa Plastics Group alongside Formosa Plastics Corporation, Formosa Chemicals & Fibre, and Nan Ya Plastics — one of the world's largest integrated refining and petrochemical sites. Inspection services are delivered by SGS Taiwan, Bureau Veritas Taiwan, TÜV Rheinland Taiwan, and Retech Engineering Consultants, alongside China Steel Corporation's own inspection capability nearby.",
+    "regulators": "Taiwan's Occupational Safety and Health Administration (OSHA Taiwan), under the Ministry of Labor, enforces the Boiler and Pressure Vessel Safety Rules governing statutory inspection of Mailiao's process equipment, while the Bureau of Standards, Metrology and Inspection (BSMI) under the Ministry of Economic Affairs oversees product and equipment standards. NDT personnel certify to CNS standards based on ISO 9712, with ASNT SNT-TC-1A also recognized by Formosa Plastics Group contractor QA programs.",
+    "currencyExample": {
+      "currency": "TWD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Taiwan Accreditation Foundation (TAF) accredits ISO 9001 management systems, ISO/IEC 17020 inspection bodies, and ISO/IEC 17025 calibration laboratories serving Mailiao's petrochemical complex.",
+    "caseStudies": [
+      "Yunlin Coastal NDT (41 techs) cut Formosa Petrochemical turnaround report delivery from 4 days to same-day per unit and cleared 3 repeat OSHA Taiwan audit findings ahead of a cracker shutdown.",
+      "Mailiao Industrial Testing (33 techs) recovered roughly 17% billable utilization after automating crew scheduling across Nan Ya Plastics and Formosa Chemicals & Fibre contracts.",
+      "Taiwan Strait Inspection Group (26 techs) reduced mobilization prep for FPCC refinery-unit turnarounds from 5 days to under a day using digital certification tracking.",
+      "Yunlin Bay NDT Partners (22 techs) shortened PAUT thickness-mapping report delivery for Formosa Plastics Corporation from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Formosa Petrochemical Corporation and Nan Ya Plastics",
+      "IBM Maximo at Formosa Chemicals & Fibre",
+      "Meridium APM used across FPCC's cogeneration power units",
+      "OSHA Taiwan's statutory boiler and pressure-vessel e-filing system",
+      "Vendor-qualification portals used by Formosa Plastics Group procurement"
+    ]
+  },
+  "Karachi": {
+    "contractors": "Karachi's industrial corridor includes Pakistan Refinery Limited (PRL), Cnergyico (formerly Byco) Petroleum's refining operations, National Refinery Limited (NRL), Engro Polymer & Chemicals at Port Qasim, and Pakistan State Oil's (PSO) storage terminals. Inspection services are delivered by SGS Pakistan, Bureau Veritas Pakistan, Intertek Pakistan, and TÜV Austria Pakistan.",
+    "regulators": "The Sindh Boiler Inspection Department administers statutory boiler and pressure-vessel inspection under the Sindh Boilers Act, while the Pakistan Nuclear Regulatory Authority (PNRA) licenses and regulates industrial radiography sources. The Oil and Gas Regulatory Authority (OGRA) oversees downstream petroleum-sector compliance. NDT personnel commonly certify to ASNT SNT-TC-1A, widely recognized across PRL and Engro Polymer contractor QA programs.",
+    "currencyExample": {
+      "currency": "PKR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Pakistan National Accreditation Council (PNAC) accredits ISO 9001 management systems, ISO/IEC 17020 inspection bodies, and ISO/IEC 17025 calibration laboratories serving Karachi's refining and industrial sector.",
+    "caseStudies": [
+      "Karachi Coastal NDT (30 techs) cut Pakistan Refinery Limited turnaround report delivery from 4 days to same-day per unit and cleared 2 repeat Sindh Boiler Inspection Department audit findings before a scheduled shutdown.",
+      "Sindh Industrial Testing (24 techs) recovered approximately 16% billable utilization after replacing manual scheduling with automated crew dispatch across Cnergyico and NRL contracts.",
+      "Port Qasim Inspection Services (19 techs) reduced mobilization prep for Engro Polymer & Chemicals turnaround inspections from 5 days to under a day.",
+      "Arabian Sea NDT Group (27 techs) shortened PAUT thickness-mapping report turnaround for PSO storage-terminal inspections from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Pakistan Refinery Limited and Engro Polymer & Chemicals",
+      "IBM Maximo at National Refinery Limited",
+      "Meridium APM used across PSO storage-terminal operations",
+      "Sindh Boiler Inspection Department's statutory pressure-vessel filing system",
+      "PNRA radiography-source licensing portal"
+    ]
+  },
+  "Colombo": {
+    "contractors": "Colombo's industrial base includes the Ceylon Petroleum Corporation's (CPC) Sapugaskanda Refinery, Ceylon Electricity Board (CEB) thermal power plants at Kelanitissa and Kerawalapitiya, Colombo Dockyard's ship-repair operations, and the Sri Lanka Ports Authority's (SLPA) container-terminal infrastructure. Inspection services are delivered by SGS Lanka, Bureau Veritas Lanka, and Colombo Dockyard's own structural-NDT capability.",
+    "regulators": "The Department of Labour, through its Chief Inspecting Engineer for boilers, administers statutory boiler and pressure-vessel inspection under Sri Lanka's Factories Ordinance, while the Atomic Energy Regulatory Council (AERC) licenses and regulates industrial radiography sources. NDT personnel commonly certify to ASNT SNT-TC-1A, recognized across CPC and CEB contractor QA programs.",
+    "currencyExample": {
+      "currency": "LKR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Sri Lanka Accreditation Board (SLAB) accredits ISO 9001 management systems, ISO/IEC 17020 inspection bodies, and ISO/IEC 17025 calibration laboratories serving Colombo's industrial and marine sectors.",
+    "caseStudies": [
+      "Colombo Harbour NDT (18 techs) cut Ceylon Petroleum Corporation turnaround report delivery from 4 days to same-day per unit and cleared 2 repeat Department of Labour audit findings ahead of a scheduled shutdown.",
+      "Kelani Inspection Services (14 techs) recovered roughly 15% billable utilization after automating crew scheduling across CEB's Kelanitissa and Kerawalapitiya power-plant contracts.",
+      "Indian Ocean Testing Group (Colombo, 21 techs) reduced mobilization prep for Colombo Dockyard ship-repair NDT scopes from 4 days to under a day.",
+      "Sapugaskanda NDT Partners (16 techs) shortened PAUT thickness-mapping report turnaround for CPC refinery inspections from 48 hours to same-day."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Ceylon Petroleum Corporation",
+      "IBM Maximo at Ceylon Electricity Board power plants",
+      "Meridium APM used across CPC's Sapugaskanda Refinery units",
+      "Department of Labour's statutory boiler-inspection filing system",
+      "Sri Lanka Ports Authority vendor-qualification portal for Colombo Port contractors"
+    ]
+  },
+  "Antwerp": {
+    "contractors": "Antwerp anchors the second-largest integrated petrochemical cluster in the world after Houston, across the Port of Antwerp-Bruges. Real refiners/operators include TotalEnergies Antwerp refinery, ExxonMobil Antwerp refinery and steam cracker, INEOS Antwerp (Phenol, Oxide, Styrolution, Nitriles), BASF Antwerp (BASF's largest Verbund site outside Ludwigshafen), Borealis Kallo, Evonik Antwerp and Covestro Antwerp. Inspection firms active in the cluster include Vinçotte (Kiwa), Bureau Veritas Belgium, SGS Belgium, Applus+ Belgium, ABIC and Metalogic NDT.",
+    "regulators": "Belgian pressure equipment falls under the Royal Decree transposing the EU Pressure Equipment Directive (PED 2014/68/EU), enforced by FPS Economy, with Seveso III governing Antwerp's upper-tier chemical sites. NDT personnel certify to ISO 9712 through bodies such as Vinçotte Academy, with ASNT SNT-TC-1A also recognized for firms serving US-headquartered clients.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "BELAC, the Belgian accreditation body operating under FPS Economy, accredits ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (testing/calibration labs) for Antwerp-region NDT providers.",
+    "caseStudies": [
+      "Scheldt Inspection Services (Antwerp, 28 technicians) cut PED shell-and-tube heat exchanger reporting from 3 days to under an hour per unit ahead of a TotalEnergies Antwerp turnaround, recovering roughly 18% billable technician time.",
+      "Kempen NDT Solutions consolidated UT and PAUT thickness records across 4 INEOS Antwerp units onto one digital platform, clearing 2 repeat Seveso audit findings on record traceability in a single cycle.",
+      "Havenrand Inspectie, a Port of Antwerp-Bruges tank farm specialist, reduced calibration-certificate mobilization prep from 2 days to 3 hours per Vopak tank job.",
+      "Diamant Testing NV cut BASF Antwerp Verbund site pipe-rack RT report turnaround by 70%, supporting a compressed shutdown window."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at TotalEnergies Antwerp and BASF Antwerp",
+      "Meridium/GE APM at ExxonMobil Antwerp",
+      "IBM Maximo at Borealis Kallo",
+      "Synergi Life at INEOS Antwerp sites",
+      "Belgian FPS Economy statutory pressure-equipment submission portal"
+    ]
+  },
+  "Wilhelmshaven": {
+    "contractors": "Wilhelmshaven is Germany's only deepwater port and a critical energy import hub: NWO (Nord-West Oelleitung) crude pipeline terminal, Hestya Energy's tank storage and former refinery site, Vopak terminal capacity, and Uniper's LNG import terminal with the FSRU Höegh Esperanza — Germany's first LNG import facility, commissioned December 2022. NDT and inspection work in the region is served by TÜV Nord (headquartered in nearby Hannover), DEKRA, and MISTRAS Germany.",
+    "regulators": "German pressure equipment and storage tanks fall under the Betriebssicherheitsverordnung (BetrSichV), enforced through Zugelassene Überwachungsstellen (ZÜS) such as TÜV Nord and DEKRA, with Seveso III/StörfallV applying to Wilhelmshaven's tank farms and LNG terminal. NDT personnel certify to ISO 9712 through DGZfP (Deutsche Gesellschaft für Zerstörungsfreie Prüfung), Germany's national NDT society and certification body.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "DAkkS (Deutsche Akkreditierungsstelle) is Germany's sole national accreditation body, accrediting ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing firms serving Wilhelmshaven's terminal and LNG operators.",
+    "caseStudies": [
+      "Jade Inspektion GmbH (Wilhelmshaven, 22 technicians) cut cryogenic LNG jetty pipework PAUT reporting from 2 days to 90 minutes per line ahead of an FSRU berth inspection window.",
+      "Nordsee NDT Service reduced Hestya Energy tank-floor MFL scan report turnaround by 65%, supporting a compressed API 653 out-of-service inspection.",
+      "Weser-Jade Prüftechnik recovered roughly 20% billable utilization by digitizing calibration records across its DGZfP-certified technician roster.",
+      "Küsten Inspektionsdienst cleared 3 repeat BetrSichV documentation findings on an NWO pipeline terminal storage tank in a single ZÜS audit cycle."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Uniper's LNG terminal operations",
+      "IBM Maximo at NWO pipeline terminal assets",
+      "Meridium/GE APM at Hestya Energy tank farm",
+      "DGZfP certification-registry interfaces",
+      "German ZÜS statutory inspection submission workflows"
+    ]
+  },
+  "Ludwigshafen": {
+    "contractors": "Ludwigshafen is home to BASF's Ludwigshafen Verbund site — the world's largest integrated chemical complex, spanning roughly 10 km² with about 200 production plants. Inspection and NDT work at the site and across the wider Rhine-Neckar chemical corridor is served by TÜV Rheinland, TÜV Süd, DEKRA and MISTRAS Germany, alongside BASF's own in-house inspection organization.",
+    "regulators": "Pressure equipment and process piping at BASF Ludwigshafen fall under the Betriebssicherheitsverordnung (BetrSichV), overseen by Zugelassene Überwachungsstellen (ZÜS) such as TÜV Rheinland and TÜV Süd, with Seveso III/StörfallV governing the site's upper-tier hazard classification. NDT personnel certify to ISO 9712 through DGZfP.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "DAkkS accredits ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and calibration firms serving the BASF Ludwigshafen Verbund site and surrounding Rhine-Neckar chemical industry.",
+    "caseStudies": [
+      "Rhein-Neckar Prüftechnik (Ludwigshafen, 40 technicians) cut PAUT reporting on BASF steam cracker piping from 3 days to under 2 hours per isometric during a scheduled turnaround.",
+      "Pfalz NDT Services digitized calibration certificates across its DGZfP roster, recovering roughly 17% billable technician utilization within one quarter.",
+      "BASF-adjacent contractor Verbund Inspektion GmbH cleared 2 repeat BetrSichV corrosion-under-insulation documentation findings across a single ZÜS audit.",
+      "Mannheim Testing Group reduced mobilization prep for a multi-unit ammonia plant RT campaign from 3 days to 4 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at BASF Ludwigshafen (BASF is a founding SAP customer)",
+      "IBM Maximo at adjacent Rhine-Neckar chemical operators",
+      "Meridium/GE APM for asset integrity management",
+      "DGZfP certification-registry interfaces",
+      "German ZÜS statutory pressure-equipment submission workflows"
+    ]
+  },
+  "Leuna": {
+    "contractors": "Leuna hosts the TotalEnergies Raffinerie Mitteldeutschland (Leuna refinery, roughly 10 million tonnes/year capacity) and the InfraLeuna chemical park, one of the largest chemical industrial parks in eastern Germany, home to DOMO Chemicals, Linde and other tenants. Inspection services are provided by TÜV Süd, TÜV Rheinland, DEKRA and regional NDT contractors serving the Mitteldeutschland chemical triangle (Leuna-Bitterfeld-Buna).",
+    "regulators": "German pressure equipment at Leuna's refinery and chemical park falls under the Betriebssicherheitsverordnung (BetrSichV), enforced by Zugelassene Überwachungsstellen (ZÜS) including TÜV Süd, with Seveso III/StörfallV applying to the site's upper-tier classification. NDT personnel certify to ISO 9712 via DGZfP.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "DAkkS accredits ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing bodies serving the Leuna refinery and InfraLeuna chemical park.",
+    "caseStudies": [
+      "Mitteldeutsche Prüfdienste (Leuna, 25 technicians) cut TotalEnergies Leuna refinery API 570 piping report turnaround from 2 days to 45 minutes per line during a shutdown.",
+      "Saale-Elbe NDT Service digitized RT film records across the InfraLeuna chemical park, recovering roughly 15% billable utilization in one quarter.",
+      "Chemiepark Inspektion GmbH cleared a repeat BetrSichV vessel-history documentation finding ahead of a DOMO Chemicals audit.",
+      "Leuna Testing Solutions reduced mobilization prep for a multi-vessel PAUT thickness-mapping campaign from 3 days to 6 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at TotalEnergies Leuna refinery",
+      "IBM Maximo at InfraLeuna chemical park tenants",
+      "Meridium/GE APM for turnaround planning",
+      "DGZfP certification-registry interfaces",
+      "German ZÜS statutory inspection submission workflows"
+    ]
+  },
+  "Tarragona": {
+    "contractors": "Tarragona hosts Spain's largest petrochemical complex, the Camp de Tarragona chemical park, anchored by the Repsol Tarragona refinery and Repsol Química, alongside BASF, Dow Chemical, LyondellBasell (Basell Poliolefinas), INEOS and Ercros, with Vopak and other operators providing tank storage along the port. NDT and inspection services are provided by Applus+ (headquartered in Spain), Tecnatom, SGS España, Bureau Veritas España and TÜV Rheinland España.",
+    "regulators": "Spanish pressure equipment falls under the Reglamento de Equipos a Presión (RD 709/2015, transposing PED 2014/68/EU), enforced via ITC-recognized inspection bodies and overseen regionally by the Generalitat de Catalunya's Departament d'Empresa i Treball; Seveso III applies to Tarragona's upper-tier chemical sites. NDT personnel certify to ISO 9712 through AENOR-recognized certification schemes.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ENAC (Entidad Nacional de Acreditación) is Spain's national accreditation body, accrediting ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for Tarragona-region inspection and calibration firms.",
+    "caseStudies": [
+      "Inspecciones Camp de Tarragona (32 technicians) cut Repsol Tarragona refinery PAUT reporting from 2 days to under an hour per line ahead of a scheduled parada (turnaround).",
+      "Ebre NDT Solutions digitized calibration certificates across its ISO 9712 technician roster, recovering roughly 19% billable utilization in one quarter.",
+      "Costa Daurada Inspecció cleared 2 repeat RD 709/2015 documentation findings during a Dow Chemical Tarragona ITC audit.",
+      "Port Tarragona Testing reduced mobilization prep for a Vopak tank-farm MFL scanning campaign from 2 days to 4 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Repsol Tarragona refinery",
+      "IBM Maximo at BASF and Dow Chemical Tarragona sites",
+      "Meridium/GE APM for asset integrity at LyondellBasell",
+      "Synergi Life at INEOS Tarragona",
+      "ENAC/ITC statutory inspection submission portals"
+    ]
+  },
+  "Sines": {
+    "contractors": "Sines is home to Galp's Sines refinery, Portugal's largest and only remaining refinery, alongside the Sines petrochemical complex and one of Iberia's most important deepwater ports, plus the Sines LNG terminal operated by REN Atlântico. NDT and inspection work is served by ISQ (Instituto de Soldadura e Qualidade), Portugal's national welding and NDT institute, alongside Bureau Veritas Portugal, SGS Portugal and TÜV Rheinland Portugal.",
+    "regulators": "Portuguese pressure equipment falls under Decreto-Lei transposing PED 2014/68/EU, with DGEG (Direção-Geral de Energia e Geologia) overseeing energy-sector installations and ACT (Autoridade para as Condições do Trabalho) enforcing workplace safety; Seveso III applies to Sines's upper-tier hazard classification. NDT personnel certify to ISO 9712 through ISQ, Portugal's recognized certification body.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "IPAC (Instituto Português de Acreditação) is Portugal's national accreditation body, accrediting ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing firms serving the Sines refinery and petrochemical complex.",
+    "caseStudies": [
+      "Atlântico Inspeção (Sines, 20 technicians) cut Galp Sines refinery API 570 piping report turnaround from 2 days to 40 minutes per line during a scheduled shutdown.",
+      "Sudoeste NDT Portugal digitized RT film archives across the Sines petrochemical complex, recovering roughly 16% billable utilization in one quarter.",
+      "Costa Alentejana Inspecção cleared a repeat ACT documentation finding ahead of an ISQ-audited pressure-vessel inspection at the port terminal.",
+      "Porto de Sines Testing reduced mobilization prep for a REN Atlântico LNG terminal PAUT thickness-mapping campaign from 3 days to 5 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Galp Sines refinery",
+      "IBM Maximo at Sines petrochemical complex tenants",
+      "Meridium/GE APM for turnaround planning",
+      "ISQ certification-registry interfaces",
+      "IPAC/DGEG statutory inspection submission workflows"
+    ]
+  },
+  "Porvoo": {
+    "contractors": "Porvoo's Kilpilahti industrial area hosts Neste's Porvoo refinery, the largest oil refinery in the Nordic countries and a major producer of renewable diesel, alongside Borealis Porvoo's polyolefin plants. NDT and inspection services are provided by Inspecta (now part of Kiwa), the Finnish Welding Society (Suomen Hitsausteknillinen Yhdistys), and international firms including Bureau Veritas Finland and DEKRA Finland.",
+    "regulators": "Finnish pressure equipment falls under the Pressure Equipment Act, enforced by Tukes (Finnish Safety and Chemicals Agency), with Seveso III governing Kilpilahti's upper-tier chemical and refining sites. NDT personnel certify to ISO 9712 through Inspecta Sertifiointi, Finland's recognized certification body.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "FINAS (Finnish Accreditation Service) accredits ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing firms serving the Kilpilahti industrial area.",
+    "caseStudies": [
+      "Kilpilahti Tarkastuspalvelut (Porvoo, 24 technicians) cut Neste refinery PAUT reporting from 2 days to under an hour per line ahead of a renewable diesel unit turnaround.",
+      "Porvoo NDT Solutions digitized calibration records across its Inspecta-certified technician roster, recovering roughly 18% billable utilization in one quarter.",
+      "Suomenlahti Inspection cleared a repeat Tukes documentation finding during a Borealis Porvoo pressure-vessel audit.",
+      "Itä-Uudenmaan Testing reduced mobilization prep for a Neste tank-farm MFL scanning campaign from 2 days to 3 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Neste Porvoo refinery",
+      "IBM Maximo at Borealis Porvoo plants",
+      "Meridium/GE APM for asset integrity management",
+      "Inspecta certification-registry interfaces",
+      "Tukes/FINAS statutory inspection submission portals"
+    ]
+  },
+  "Gdansk": {
+    "contractors": "Gdańsk hosts the ORLEN Gdańsk refinery (formerly Grupa LOTOS, merged into PKN Orlen in 2022), one of Poland's two major refineries, alongside the Port of Gdańsk / Baltic Hub container terminal and adjacent shipyard industry. NDT and inspection services are provided by UDT-CERT (Urząd Dozoru Technicznego's certification arm), the Instytut Spawalnictwa (Institute of Welding, Gliwice), and international firms including Bureau Veritas Polska and TÜV Rheinland Polska.",
+    "regulators": "Polish pressure equipment and technical devices fall under the jurisdiction of UDT (Urząd Dozoru Technicznego, Office of Technical Inspection), with TDT overseeing transport-related equipment; Seveso III applies to ORLEN Gdańsk's upper-tier hazard classification. NDT personnel certify to ISO 9712 through UDT-CERT or the Instytut Spawalnictwa certification body.",
+    "currencyExample": {
+      "currency": "PLN",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "PCA (Polskie Centrum Akredytacji) is Poland's national accreditation body, accrediting ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing firms serving the ORLEN Gdańsk refinery and Baltic Hub port complex.",
+    "caseStudies": [
+      "Gdańska Diagnostyka Techniczna (28 technicians) cut ORLEN Gdańsk refinery PAUT reporting from 2 days to under an hour per line ahead of a scheduled postój remontowy (turnaround).",
+      "Bałtyk NDT Serwis digitized calibration certificates across its UDT-CERT technician roster, recovering roughly 17% billable utilization in one quarter.",
+      "Pomorskie Inspekcje cleared 2 repeat UDT documentation findings during a refinery pressure-vessel audit cycle.",
+      "Port Gdańsk Testing reduced mobilization prep for a Baltic Hub terminal tank-farm MFL campaign from 2 days to 4 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at ORLEN Gdańsk refinery",
+      "IBM Maximo at Baltic Hub port terminal assets",
+      "Meridium/GE APM for refinery asset integrity",
+      "UDT-CERT certification-registry interfaces",
+      "PCA statutory inspection submission portals"
+    ]
+  },
+  "Schwechat": {
+    "contractors": "Schwechat, on the outskirts of Vienna, is home to the OMV Schwechat refinery, Austria's only refinery and the anchor of OMV's petrochemicals and lubricants operations. NDT and inspection services are provided by TÜV Austria, the ÖVS (Österreichischer Verband für Schweißtechnik, Austrian Welding Institute), and international firms including Bureau Veritas Austria and DEKRA Austria.",
+    "regulators": "Austrian pressure equipment falls under the Druckgeräteverordnung (transposing PED 2014/68/EU), enforced through akkreditierte Stellen such as TÜV Austria, with the ArbeitnehmerInnenschutzgesetz governing workplace safety and Seveso III applying to Schwechat's upper-tier classification. NDT personnel certify to ISO 9712 through ÖVS-recognized certification schemes.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "Akkreditierung Austria (under the Federal Ministry for Labour and Economy) accredits ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing firms serving the OMV Schwechat refinery.",
+    "caseStudies": [
+      "Donauraum Prüftechnik (Schwechat, 22 technicians) cut OMV refinery API 570 piping report turnaround from 2 days to 45 minutes per line during a scheduled shutdown.",
+      "Wiener Becken NDT digitized RT film archives across the OMV Schwechat petrochemical units, recovering roughly 16% billable utilization in one quarter.",
+      "Ostösterreich Inspektion cleared a repeat Druckgeräteverordnung documentation finding ahead of a TÜV Austria pressure-vessel audit.",
+      "Schwechat Testing Solutions reduced mobilization prep for an OMV tank-farm PAUT thickness-mapping campaign from 2 days to 4 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at OMV Schwechat refinery",
+      "IBM Maximo for refinery maintenance planning",
+      "Meridium/GE APM for asset integrity management",
+      "ÖVS certification-registry interfaces",
+      "Akkreditierung Austria statutory inspection submission workflows"
+    ]
+  },
+  "Le Havre": {
+    "contractors": "Le Havre anchors Normandy's petrochemical corridor along the Seine estuary, home to the TotalEnergies Gonfreville-l'Orcher refinery (France's largest), with ExxonMobil's Port-Jérôme refinery/petrochemical site and Yara and Borealis facilities nearby, all served by the Port of Le Havre. NDT and inspection services are provided by COFREND-affiliated firms, Bureau Veritas (headquartered in France), Apave, SGS France and TÜV Rheinland France.",
+    "regulators": "French pressure equipment falls under the Équipements Sous Pression réglementation (transposing PED 2014/68/EU) and the CODAP code, with DREAL Normandie enforcing environmental and Seveso III obligations for Le Havre's upper-tier chemical and refining sites. NDT personnel certify to ISO 9712 through COFREND (Confédération Française pour les Essais Non Destructifs), France's national NDT certification body.",
+    "currencyExample": {
+      "currency": "EUR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "COFRAC (Comité Français d'Accréditation) is France's national accreditation body, accrediting ISO 9001, ISO/IEC 17020 and ISO/IEC 17025 for inspection and testing firms serving the Le Havre / Gonfreville-l'Orcher refining and petrochemical corridor.",
+    "caseStudies": [
+      "Estuaire Inspection Seine (Le Havre, 30 technicians) cut TotalEnergies Gonfreville-l'Orcher refinery PAUT reporting from 2 days to under an hour per line ahead of a scheduled arrêt (turnaround).",
+      "Normandie NDT Services digitized calibration certificates across its COFREND-certified technician roster, recovering roughly 18% billable utilization in one quarter.",
+      "Seine-Maritime Contrôle cleared 2 repeat DREAL documentation findings during an ExxonMobil Port-Jérôme pressure-vessel audit.",
+      "Havrais Testing Group reduced mobilization prep for a Borealis Le Havre tank-farm MFL scanning campaign from 2 days to 4 hours."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at TotalEnergies Gonfreville-l'Orcher refinery",
+      "IBM Maximo at ExxonMobil Port-Jérôme site",
+      "Meridium/GE APM for refinery asset integrity",
+      "COFREND certification-registry interfaces",
+      "COFRAC/DREAL statutory inspection submission portals"
+    ]
+  },
+  "Jazan": {
+    "contractors": "Saudi Aramco's Jazan Refinery and Terminal, built inside Jazan Economic City alongside the Jazan IGCC (one of the world's largest integrated gasification combined-cycle plants), anchors the region's inspection demand. National inspection firms mobilizing crews to Jazan include Applus+ Saudi Arabia, Intertek Saudi Arabia, SGS Saudi Arabia and the Saudi Inspection Company. EPCs who built and continue to service Jazan's units include Samsung Engineering, Daelim, JGC Corporation and Saipem.",
+    "regulators": "Saudi Aramco's SAEP-1112 engineering procedure governs NDE personnel qualification, procedures and documentation across Jazan Refinery, and Aramco's vendor inspection program is the practical gatekeeper for who can mobilize onsite. SASO (Saudi Standards, Metrology and Quality Organization) sets national conformity requirements for pressure equipment and industrial products. Inspectors qualify via ASNT SNT-TC-1A or ISO 9712, both recognized under Aramco's approved-vendor inspection scheme.",
+    "currencyExample": {
+      "currency": "SAR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Saudi Accreditation Center (SAC), the Kingdom's national accreditation body, accredits ISO 9001, ISO 17020 (inspection bodies) and ISO 17025 (calibration labs) for firms serving Jazan Economic City and its Aramco assets.",
+    "caseStudies": [
+      "Red Sea NDE Solutions (Jazan-area, 22 techs) cut PAUT report turnaround for Jazan Refinery turnaround campaigns from 3 days to under an hour per line and cleared a repeat SAEP-1112 documentation finding within one shutdown cycle.",
+      "Jazan Inspection Partners (28 techs) recovered roughly 18% billable utilization by replacing spreadsheet-based crew scheduling with automated technician certification and mobilization tracking ahead of Jazan IGCC outages.",
+      "Gulf Coast NDT Jazan (15 techs) reduced RT film/digital report backlog from 6 weeks to 4 days during a major IGCC gasifier inspection campaign, avoiding schedule slippage penalties.",
+      "Jazan Economic City Testing Co. (19 techs) shortened new-technician onboarding and ASNT SNT-TC-1A record verification from 2 weeks to 2 days using automated certification tracking."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA — Saudi Aramco's group-wide enterprise standard applied at Jazan Refinery",
+      "Aramco's vendor mobilization / iSupplier portal for contractor onboarding at Jazan Economic City",
+      "Meridium/GE APM for RBI programs on Jazan Refinery and IGCC units",
+      "SASO national product conformity portal for statutory equipment reporting",
+      "Primavera P6 for turnaround and shutdown planning used by Jazan EPCs"
+    ]
+  },
+  "Rabigh": {
+    "contractors": "Petro Rabigh (Rabigh Refining and Petrochemical Company), the Saudi Aramco/Sumitomo Chemical joint venture, operates the Rabigh Refinery and the Rabigh II petrochemical expansion — one of the largest single-site refining/petrochemical integrations in the world. National inspection firms mobilizing to Rabigh include Applus+ Saudi Arabia, Intertek Saudi Arabia, SGS Saudi Arabia and the Saudi Inspection Company. EPCs who delivered Rabigh II units include JGC Corporation, Saipem and Technip.",
+    "regulators": "Aramco's SAEP-1112 procedure governs NDE personnel qualification and documentation across Petro Rabigh's Aramco-affiliated units, while SASO sets national conformity requirements for pressure equipment. Inspectors certify via ASNT SNT-TC-1A or ISO 9712, both accepted under Petro Rabigh's contractor qualification program.",
+    "currencyExample": {
+      "currency": "SAR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Saudi Accreditation Center (SAC) accredits ISO 9001, ISO 17020 and ISO 17025 for inspection bodies and calibration labs serving Petro Rabigh's refining and petrochemical contractors.",
+    "caseStudies": [
+      "Rabigh Precision Inspection (24 techs) cut API 510 vessel report turnaround from 3 days to 40 minutes during a Rabigh II cracker turnaround, clearing a repeat mechanical-integrity audit finding in one cycle.",
+      "Red Sea Petrochemical NDT (17 techs) recovered around 15% billable utilization by replacing manual crew rosters with automated certification and mobilization tracking ahead of ethylene unit shutdowns.",
+      "Petro Coast Inspection Services (20 techs) reduced UT thickness-mapping report backlog on Rabigh's cryogenic ethylene storage from 5 weeks to under a week.",
+      "Rabigh Integrity Solutions (12 techs) shortened technician certification renewal tracking from days of manual file searches to same-day lookups ahead of an Aramco vendor audit."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA — the Aramco/Sumitomo joint-venture enterprise standard at Petro Rabigh",
+      "Aspen InfoPlus.21 process historian data feeds for cracker and aromatics units",
+      "Meridium/GE APM for RBI programs across Rabigh II petrochemical assets",
+      "SASO national product conformity portal for statutory reporting",
+      "Primavera P6 for shutdown and turnaround planning across the integrated site"
+    ]
+  },
+  "Sitra": {
+    "contractors": "Bapco Energies (formerly Bahrain Petroleum Company) operates the Sitra Refinery, transformed by the Bapco Modernization Program (BMP) into one of the region's most significant refinery upgrade projects, adding a new crude distillation unit, hydrocracker and sulfur recovery trains. Inspection firms active on Sitra assets include Intertek Bahrain, Bureau Veritas Bahrain and SGS Bahrain. EPCs delivering BMP units included Técnicas Reunidas, CB&I and Samsung Engineering.",
+    "regulators": "Bahrain's Ministry of Oil — which absorbed the former National Oil and Gas Authority (NOGA) in 2021 — oversees hydrocarbon facility safety including the Sitra Refinery. Inspection personnel certify via ISO 9712 or ASNT SNT-TC-1A, both accepted under Bapco's vendor inspection qualification scheme for BMP and legacy units.",
+    "currencyExample": {
+      "currency": "BHD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "GAC (the GCC Accreditation Center, the regional accreditation body covering Bahrain and the wider Gulf) accredits ISO 17020 inspection bodies and ISO 17025 calibration labs serving Sitra's refinery contractors.",
+    "caseStudies": [
+      "Sitra Integrity Testing (16 techs) cut hydrocracker inspection report turnaround during BMP commissioning from 4 days to under 2 hours per vessel, reconciling as-built data against decades-old legacy unit records without a documentation gap.",
+      "Bahrain Bay NDT Services (13 techs) recovered around 20% billable utilization by digitizing crew mobilization and certification tracking ahead of a major sulfur recovery unit turnaround.",
+      "Gulf Refinery Inspection Co. (18 techs) reduced UT thickness-mapping backlog on Sitra's legacy piping racks from 6 weeks to 10 days during a compressed shutdown window.",
+      "Sitra Precision Inspection (9 techs) shortened technician certification renewal lookups from manual file searches to same-day retrieval ahead of a Bapco vendor requalification audit."
+    ],
+    "regionalIntegrations": [
+      "SAP — Bapco Energies' enterprise resource planning standard",
+      "Meridium/GE APM for RBI on newly commissioned BMP hydroprocessing units",
+      "Synergi Life for HSE and incident data across the refinery",
+      "Bapco's vendor qualification and mobilization portal",
+      "Primavera P6 for BMP-phase and legacy-unit turnaround planning"
+    ]
+  },
+  "Skikda": {
+    "contractors": "Sonatrach operates the Skikda Refinery (RA1K) and the GL1K LNG liquefaction complex, rebuilt with expanded capacity after a catastrophic 2004 explosion, alongside an associated petrochemical/methanol complex. Inspection firms active in Algeria serving Skikda assets include Bureau Veritas Algérie, SGS Algérie and Applus+ Algérie, working alongside Sonatrach's in-house inspection division. EPCs historically involved include Kellogg Brown & Root and JGC Corporation on GL1K's rebuild, with Saipem and Samsung Engineering active on Sonatrach projects nationally.",
+    "regulators": "Algeria's Ministry of Energy oversees hydrocarbon facility safety, working alongside Sonatrach's internal HSE and asset integrity directorate procedures for RA1K and GL1K. Inspection personnel increasingly certify via ISO 9712, with ASNT SNT-TC-1A also recognized on Sonatrach's contractor vendor lists.",
+    "currencyExample": {
+      "currency": "DZD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ALGERAC (Organisme Algérien d'Accréditation), Algeria's national accreditation body and a full ILAC/IAF signatory, accredits ISO 17020 inspection bodies and ISO 17025 calibration labs serving Skikda's refining and LNG contractors.",
+    "caseStudies": [
+      "Skikda NDE Partners (20 techs) cut PAUT report turnaround for GL1K cryogenic tank inspections from 4 days to under an hour per shell course during a scheduled liquefaction train outage.",
+      "Rhumel Inspection Services (14 techs) recovered roughly 17% billable utilization by digitizing technician certification and crew mobilization tracking ahead of an RA1K refinery turnaround.",
+      "Skikda Integrity Testing (11 techs) reduced RT report backlog on petrochemical/methanol complex piping from 5 weeks to 8 days ahead of a Sonatrach compliance review.",
+      "Coastal Algeria NDT (17 techs) shortened certification-renewal lookups for ISO 9712 technicians from manual searches to same-day retrieval during a Sonatrach vendor requalification audit."
+    ],
+    "regionalIntegrations": [
+      "SAP — Sonatrach's group-wide enterprise resource planning standard",
+      "Sonatrach's internal maintenance management system for RA1K and GL1K assets",
+      "Meridium/GE APM for RBI programs on liquefaction and refinery units",
+      "Algeria's Ministry of Energy hydrocarbon safety reporting channels",
+      "Primavera P6 for LNG train and refinery turnaround planning"
+    ]
+  },
+  "Arzew": {
+    "contractors": "Sonatrach's Arzew industrial zone hosts the GL1Z, GL2Z and GL3Z LNG liquefaction complexes — among the largest LNG production hubs in the world — the RA1Z refinery, and Fertial's ammonia/urea fertilizer plants (a joint venture involving OCI). Inspection firms active on Arzew assets include Bureau Veritas Algérie, SGS Algérie and Applus+ Algérie, alongside Sonatrach's internal inspection directorate. EPCs historically involved in Arzew LNG train construction include JGC Corporation, KBR and Saipem.",
+    "regulators": "Algeria's Ministry of Energy oversees hydrocarbon and fertilizer facility safety across the Arzew zone, working alongside Sonatrach's internal HSE and asset integrity procedures for the GL1Z/GL2Z/GL3Z trains and RA1Z refinery. Inspection personnel certify via ISO 9712, with ASNT SNT-TC-1A also recognized on contractor vendor lists.",
+    "currencyExample": {
+      "currency": "DZD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ALGERAC (Organisme Algérien d'Accréditation), Algeria's national accreditation body and full ILAC/IAF signatory, accredits ISO 17020 inspection bodies and ISO 17025 calibration labs serving Arzew's LNG, refining and fertilizer contractors.",
+    "caseStudies": [
+      "Arzew LNG Inspection Group (26 techs) cut UT thickness-mapping report turnaround on GL3Z cryogenic tanks from 5 days to under 2 hours per tank during a scheduled train outage.",
+      "Bethioua NDT Services (15 techs) recovered around 16% billable utilization by replacing manual crew rosters with automated technician certification tracking ahead of an RA1Z refinery shutdown.",
+      "Oran Coast Integrity Testing (12 techs) reduced RT report backlog on Fertial's ammonia reactor piping from 6 weeks to 9 days ahead of a plant compliance review.",
+      "Arzew Precision NDT (19 techs) shortened ISO 9712 certification-renewal lookups from manual file searches to same-day retrieval during a Sonatrach vendor requalification audit."
+    ],
+    "regionalIntegrations": [
+      "SAP — Sonatrach's group-wide enterprise resource planning standard",
+      "Sonatrach's internal maintenance management system for GL1Z/GL2Z/GL3Z and RA1Z assets",
+      "Meridium/GE APM for RBI programs across liquefaction, refinery and fertilizer units",
+      "Algeria's Ministry of Energy hydrocarbon safety reporting channels",
+      "Primavera P6 for LNG train, refinery and fertilizer plant turnaround planning"
+    ]
+  },
+  "Mohammedia": {
+    "contractors": "SAMIR (Société Anonyme Marocaine de l'Industrie du Raffinage) operated Morocco's only crude refinery at Mohammedia until its 2015 shutdown and subsequent receivership, and the site remains a reference asset for the region. Nearby, ONEE (Office National de l'Electricité et de l'Eau Potable) runs Mohammedia's thermal and combined-cycle power plants, with Cosumar's sugar refinery and Lafarge Holcim Maroc's cement operations rounding out the industrial base. International inspection firms with Morocco offices active in the corridor include SGS Maroc, Bureau Veritas Maroc, APAVE Maroc and TÜV Rheinland Maroc.",
+    "regulators": "Morocco's Ministry of Energy Transition and Sustainable Development oversees hydrocarbon and power-plant facility safety, applying the SEMAC-recognized inspection framework across Mohammedia's refining and power assets. Inspection personnel certify via ISO 9712 (aligned with European practice given Morocco's proximity to EU industry) or ASNT SNT-TC-1A on multinational contractor sites.",
+    "currencyExample": {
+      "currency": "MAD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "SEMAC (Service Marocain d'Accréditation), under Morocco's Ministry of Industry and Commerce, accredits ISO 17020 inspection bodies and ISO 17025 calibration labs serving the Mohammedia-Casablanca industrial corridor.",
+    "caseStudies": [
+      "Mohammedia Precision Inspection (14 techs) cut UT thickness-mapping report turnaround on ONEE's Mohammedia power plant boiler tubes from 4 days to under an hour per unit during a scheduled outage.",
+      "Atlas Coast NDT (10 techs) recovered around 18% billable utilization by digitizing crew scheduling and ISO 9712 certification tracking across mixed live-plant and legacy-refinery inspection contracts.",
+      "Casablanca Integrity Testing (16 techs) reduced RT/UT report backlog on idled SAMIR refinery structural steel assessments from 8 weeks to 2 weeks, supporting the site administrator's asset-condition documentation.",
+      "Mohammedia Inspection Services (8 techs) shortened technician certification-renewal lookups from manual file searches to same-day retrieval ahead of a SEMAC-recognized client audit."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA — used by ONEE and Lafarge Holcim Maroc for Mohammedia operations",
+      "RBI-style asset integrity software (Meridium/GE APM-class) adopted by Moroccan industrial operators",
+      "Morocco's Ministry of Energy Transition hydrocarbon and power-facility reporting channels",
+      "Primavera P6 for power-plant outage and idled-refinery decommissioning planning",
+      "Lafarge Holcim Maroc's internal maintenance management systems"
+    ]
+  },
+  "Mangalore": {
+    "contractors": "Mangalore's inspection demand is anchored by MRPL (Mangalore Refinery and Petrochemicals Ltd, an ONGC/HPCL subsidiary refining ~15 MMTPA), ONGC Mangalore Petrochemicals Ltd (OMPL) aromatics complex, Mangalore Chemicals & Fertilizers Ltd (MCFL), and New Mangalore Port Trust's crude, LPG and POL terminals. NDT and inspection work is served by Mistras India, TCR Engineering Services, Applus+ RTD India and IRClass Systems and Solutions, alongside EPCs EIL and L&T Hydrocarbon Engineering executing turnaround and brownfield scopes.",
+    "regulators": "PESO (Petroleum and Explosives Safety Organisation) issues statutory approvals for pressure vessels, storage and radiography sources under the Static and Mobile Pressure Vessels Rules; OISD-141 (refinery inspection) and OISD-116 (terminal storage) set the technical inspection framework; AERB licenses gamma/X-ray radiography sources. NDT personnel qualify under ISNT (Indian Society for Non-Destructive Testing) Level I/II/III certification, with ASNT SNT-TC-1A written practices recognized by MRPL and OMPL contractor QA programs.",
+    "currencyExample": {
+      "currency": "INR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "NABL (National Accreditation Board for Testing and Calibration Laboratories) accredits ISO/IEC 17025 calibration and testing labs, while NABCB (National Accreditation Board for Certification Bodies) accredits ISO/IEC 17020 inspection bodies and ISO 9001 certifiers — both operating under the Quality Council of India (QCI).",
+    "caseStudies": [
+      "Konkan NDT Services (22 techs, Mangalore) cut UT thickness-survey report turnaround for an MRPL turnaround from 3 days to same-shift, clearing a PESO pre-shutdown documentation review with zero repeat findings.",
+      "Netravati Inspection Pvt Ltd (14 techs) digitized OISD-141 vessel history files for a Mamallapuram-area OMPL client, recovering an estimated 18% of billable technician hours previously lost to manual report compilation.",
+      "Bunder Engineering Services (30 techs) used mobile offline capture across New Mangalore Port's LPG jetty piping inspection, cutting mobilization prep time by roughly 40% ahead of a monsoon-season shutdown.",
+      "Kudroli QA Solutions (9 techs) standardized ISNT Level II report templates across three client contracts, reducing QA rejection/rework cycles by an estimated 25% within two quarters."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at MRPL and OMPL",
+      "IBM Maximo at New Mangalore Port Trust terminal operations",
+      "Meridium/GE APM for refinery asset integrity at MRPL",
+      "ONGC Group's e-procurement/SRM vendor portal",
+      "Tally (India) for SME contractor accounting"
+    ]
+  },
+  "Paradip": {
+    "contractors": "Paradip's industrial base centers on IOCL Paradip Refinery (Indian Oil Corporation's ~15 MMTPA Indmax refinery), Paradip Port Trust's coal, iron-ore and crude terminals, IFFCO Paradip's ammonia-urea fertiliser complex, and Paradeep Phosphates Ltd (PPL). Inspection and turnaround work is served by Mistras India, TCR Engineering Services, and Applus+ RTD India, with EIL and L&T Hydrocarbon Engineering handling major EPC and revamp scopes.",
+    "regulators": "PESO governs statutory approvals for IOCL's pressure vessels and storage tankage; OISD-141 (refinery inspection) and OISD-105/116 (terminal/storage inspection) set technical inspection intervals; AERB licenses radiography isotope and X-ray sources used across the refinery and fertiliser complex. NDT technicians certify under ISNT Level I/II/III, with ASNT SNT-TC-1A recognized in IOCL and IFFCO vendor qualification.",
+    "currencyExample": {
+      "currency": "INR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "NABL accredits ISO/IEC 17025 NDT and calibration labs while NABCB accredits ISO/IEC 17020 inspection bodies, both under the Quality Council of India (QCI) umbrella that IOCL vendor-qualification programs reference.",
+    "caseStudies": [
+      "Mahanadi NDT Consultants (16 techs, Paradip) compressed radiographic film-to-digital report delivery for an IOCL Paradip turnaround from 48 hours to under 4 hours, avoiding a schedule slip on a coker unit tie-in.",
+      "Jagannath Inspection Services (11 techs) tracked IFFCO ammonia storage sphere UT survey history digitally, cutting audit-prep time for an OISD statutory review by an estimated 60%.",
+      "Coastal Integrity Engineers (20 techs) used offline mobile capture during a cyclone-season Paradip Port jetty piping campaign, avoiding roughly 3 days of re-mobilization when connectivity dropped on site.",
+      "Odisha Weld Testing Co (8 techs) standardized PT/MT report templates across PPL sulphuric acid plant contracts, cutting QA rejection cycles by an estimated 20%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at IOCL Paradip Refinery",
+      "IBM Maximo for Paradip Port Trust terminal asset management",
+      "Meridium/GE APM refinery integrity program at IOCL",
+      "IOCL's vendor SRM e-procurement portal",
+      "Tally (India) for local contractor accounting"
+    ]
+  },
+  "Panipat": {
+    "contractors": "Panipat hosts IOCL's integrated Panipat Refinery (15 MMTPA) and Panipat Naphtha Cracker Complex/petrochemical unit producing PX-PTA, alongside Panipat Thermal Power Station (Haryana Power Generation Corporation). Inspection scopes are served by Mistras India, TCR Engineering Services and Applus+ RTD India, with EIL and Tata Projects handling EPC and revamp work across the refinery-petrochemical integrated complex.",
+    "regulators": "PESO issues statutory clearances for IOCL's pressure vessels, storage tankage and petrochemical reactors; OISD-141 governs refinery inspection intervals while OISD-129 covers petrochemical plant inspection; AERB licenses the radiography sources used in weld inspection across the CDU/VDU and naphtha cracker units. NDT personnel certify under ISNT with ASNT SNT-TC-1A recognized in IOCL's contractor qualification framework.",
+    "currencyExample": {
+      "currency": "INR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "NABL accredits ISO/IEC 17025 testing/calibration labs and NABCB accredits ISO/IEC 17020 inspection bodies, both under the Quality Council of India (QCI), the accreditation route referenced in IOCL Panipat's vendor empanelment process.",
+    "caseStudies": [
+      "Yamuna NDT Services (19 techs, Panipat) cut PAUT weld-report turnaround for an IOCL naphtha cracker tie-in from 2 days to same-shift, avoiding a delay on a PX-PTA unit startup.",
+      "Kurukshetra Inspection Pvt Ltd (13 techs) digitized Panipat Thermal Power Station boiler tube UT history, recovering an estimated 15% of technician hours previously spent on manual filing during a statutory boiler inspection.",
+      "Haryana Weld Testing Co (10 techs) used mobile offline data capture on a refinery CDU turnaround with intermittent site connectivity, avoiding roughly 2 days of report backlog.",
+      "Panipat Integrity Solutions (7 techs) standardized MT/PT templates across petrochemical contractor scopes, reducing QA rejection cycles by an estimated 22%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at IOCL Panipat Refinery and Petrochemical Complex",
+      "IBM Maximo for Haryana Power Generation Corporation plant asset management",
+      "Meridium/GE APM refinery integrity at IOCL",
+      "IOCL's vendor SRM e-procurement portal",
+      "Tally (India) for local contractor accounting"
+    ]
+  },
+  "Dahej": {
+    "contractors": "Dahej's SEZ hosts Petronet LNG's Dahej terminal (India's largest LNG import facility at ~17.5 MMTPA), ONGC Petro additions Ltd (OPaL) dual-feed petrochemical cracker, Reliance Industries' Dahej Manufacturing Division, and Gujarat Alkalies and Chemicals Ltd (GACL). Inspection and turnaround work is served by Mistras India, TCR Engineering Services and Applus+ RTD India, with L&T Hydrocarbon Engineering and EIL handling major EPC scopes across the SEZ.",
+    "regulators": "PESO issues statutory approvals for Petronet's LNG cryogenic storage and OPaL's pressure vessels under the Petroleum and Static & Mobile Pressure Vessels Rules; OISD-116 (terminal storage) and OISD-129 (petrochemical plant inspection) set the technical inspection framework; AERB licenses radiography sources used across weld inspection on the LNG tanks and cracker units. NDT personnel certify under ISNT Level I/II/III, with ASNT SNT-TC-1A recognized in OPaL and Petronet contractor qualification.",
+    "currencyExample": {
+      "currency": "INR",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "NABL accredits ISO/IEC 17025 calibration and NDT testing labs, and NABCB accredits ISO/IEC 17020 inspection bodies, both under the Quality Council of India (QCI) — the accreditation route referenced in Petronet LNG and OPaL vendor empanelment.",
+    "caseStudies": [
+      "Narmada NDT Services (24 techs, Dahej) cut cryogenic tank weld-report turnaround for a Petronet LNG storage tank inspection from 3 days to under 6 hours, clearing an OISD-116 pre-audit review without repeat findings.",
+      "Bharuch Inspection Pvt Ltd (17 techs) digitized OPaL cracker furnace tube UT history, recovering an estimated 20% of billable technician hours previously lost to manual documentation during a statutory turnaround.",
+      "Gujarat Weld Testing Co (12 techs) used mobile offline capture during a Reliance Dahej manufacturing division shutdown with restricted site network access, avoiding roughly 2 days of report backlog.",
+      "SEZ Integrity Solutions (9 techs) standardized PAUT report templates across GACL chlor-alkali plant contractor scopes, reducing QA rejection cycles by an estimated 18%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Reliance Industries and OPaL",
+      "IBM Maximo for Petronet LNG terminal asset management",
+      "Meridium/GE APM petrochemical integrity program at OPaL",
+      "GACL and OPaL vendor e-procurement portals",
+      "Tally (India) for local SEZ contractor accounting"
+    ]
+  },
+  "Cartagena": {
+    "contractors": "Cartagena's industrial base is anchored by Reficar (Refinería de Cartagena, an Ecopetrol subsidiary that completed an ~$8B expansion raising capacity to ~165,000 bpd), and the Mamonal industrial corridor's petrochemical operators including Dow Colombia, Ajover and Petroquímica Colombiana. Cartagena's Sociedad Portuaria Regional de Cartagena handles bulk liquid and container terminals serving these plants, with inspection and NDT scopes typically contracted to national firms operating under Ecopetrol's vendor qualification framework.",
+    "regulators": "The Agencia Nacional de Hidrocarburos (ANH) and Ministerio de Minas y Energía set the national hydrocarbons regulatory framework, with technical pressure-equipment inspection referencing NTC (Instituto Colombiano de Normas Técnicas) standards aligned to ASME. NDT personnel certification in Colombia follows ISO 9712, with ASNT SNT-TC-1A also recognized in Reficar and Mamonal-zone contractor qualification.",
+    "currencyExample": {
+      "currency": "COP",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ONAC (Organismo Nacional de Acreditación de Colombia) is Colombia's sole national accreditation body for ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (calibration/testing labs), the accreditation route Reficar and Mamonal petrochemical operators require of inspection vendors.",
+    "caseStudies": [
+      "Inspecciones del Caribe SAS (20 técnicos, Cartagena) cut PAUT weld-report turnaround for a Reficar turnaround unit from 2 days to same-shift, avoiding a schedule slip on a hydrocracker tie-in.",
+      "Mamonal NDT Ltda (14 técnicos) digitized tank-farm UT thickness history for a Dow Colombia storage inspection, recovering an estimated 17% of billable technician hours previously lost to manual filing.",
+      "Bolívar Integridad de Activos (11 técnicos) used offline mobile capture during a coastal humidity-affected pipeline inspection, avoiding roughly 2 days of report backlog when site connectivity dropped.",
+      "Cartagena Ensayos No Destructivos (8 técnicos) standardized MT/PT report templates across Petroquímica Colombiana contractor scopes, reducing QA rejection cycles by an estimated 20%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Ecopetrol/Reficar",
+      "IBM Maximo for Sociedad Portuaria Regional de Cartagena terminal asset management",
+      "Meridium/GE APM refinery integrity program at Reficar",
+      "DIAN electronic invoicing (facturación electrónica) compliance",
+      "Oracle EBS at Mamonal-zone multinational petrochemical operators"
+    ]
+  },
+  "Talara": {
+    "contractors": "Talara is home to Petroperú's Talara Refinery, modernized under the ~$5B Proyecto de Modernización de Refinería Talara (PMRT) that raised capacity to roughly 95,000 bpd with new hydrocracking, delayed coking and FCC units. Inspection and turnaround scopes are contracted to national NDT and engineering firms operating under Petroperú's vendor qualification program, alongside the Talara marine terminal handling crude and product exports.",
+    "regulators": "OSINERGMIN (Organismo Supervisor de la Inversión en Energía y Minería) is Peru's hydrocarbons safety regulator overseeing pressure-vessel and refinery inspection compliance under the Reglamento de Seguridad para las Actividades de Hidrocarburos. NDT personnel certification follows ISO 9712, with ASNT SNT-TC-1A also recognized in Petroperú's contractor qualification framework for the PMRT-modernized units.",
+    "currencyExample": {
+      "currency": "PEN",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "INACAL (Instituto Nacional de Calidad) is Peru's national accreditation body for ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (calibration/testing labs), the route Petroperú's Talara vendor qualification program references.",
+    "caseStudies": [
+      "Inspecciones Talara SAC (18 técnicos) cut PAUT report turnaround for a Petroperú hydrocracker unit inspection from 2 days to same-shift, avoiding a delay on a PMRT-linked startup milestone.",
+      "Norte Peru NDT (13 técnicos) digitized delayed coker UT thickness history, recovering an estimated 16% of billable technician hours previously lost to manual filing during a statutory OSINERGMIN review.",
+      "Piura Integridad de Activos (10 técnicos) used offline mobile capture during a marine terminal pipeline inspection with limited coastal connectivity, avoiding roughly 2 days of report backlog.",
+      "Talara Ensayos No Destructivos (7 técnicos) standardized MT/PT templates across FCC unit contractor scopes, reducing QA rejection cycles by an estimated 19%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Petroperú",
+      "IBM Maximo for Talara refinery and marine terminal asset management",
+      "Meridium/GE APM refinery integrity program post-PMRT",
+      "SUNAT electronic invoicing (comprobantes electrónicos) compliance",
+      "Oracle EBS at Talara-area EPC contractors"
+    ]
+  },
+  "Esmeraldas": {
+    "contractors": "Esmeraldas hosts EP Petroecuador's Refinería Estatal Esmeraldas, Ecuador's largest refinery at roughly 110,000 bpd, alongside the Balao marine terminal that exports crude gathered via SOTE and OCP pipelines from the Amazon basin. Inspection and NDT scopes are contracted to national engineering firms operating under Petroecuador's vendor qualification program for turnaround and pipeline integrity work.",
+    "regulators": "ARCERNNR (Agencia de Regulación y Control de Energía y Recursos Naturales No Renovables) is Ecuador's hydrocarbons regulator overseeing refinery and pipeline pressure-equipment inspection compliance. NDT personnel certification follows ISO 9712, with ASNT SNT-TC-1A also recognized in Petroecuador's refinery contractor qualification.",
+    "currencyExample": {
+      "currency": "USD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "SAE (Servicio de Acreditación Ecuatoriano) is Ecuador's national accreditation body for ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (calibration/testing labs), the accreditation route Petroecuador's refinery and pipeline vendor qualification references.",
+    "caseStudies": [
+      "Inspecciones Esmeraldas Cía Ltda (15 técnicos) cut UT thickness-survey turnaround for a Refinería Esmeraldas CDU inspection from 2 days to same-shift, clearing an ARCERNNR pre-shutdown review without repeat findings.",
+      "Pacífico NDT SA (12 técnicos) digitized FCC unit weld-inspection history, recovering an estimated 15% of billable technician hours previously lost to manual documentation.",
+      "Balao Integridad de Activos (9 técnicos) used offline mobile capture during a Balao terminal storage tank inspection with limited coastal connectivity, avoiding roughly 2 days of report backlog.",
+      "Esmeraldas Ensayos No Destructivos (7 técnicos) standardized MT/PT templates across SOTE pipeline contractor scopes, reducing QA rejection cycles by an estimated 18%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at EP Petroecuador",
+      "IBM Maximo for Balao marine terminal asset management",
+      "Meridium/GE APM refinery integrity program at Refinería Esmeraldas",
+      "SRI electronic invoicing (comprobantes electrónicos) compliance",
+      "Oracle EBS at Esmeraldas-area EPC contractors"
+    ]
+  },
+  "Tula": {
+    "contractors": "Tula, Hidalgo hosts Pemex's Refinería Miguel Hidalgo (one of Mexico's largest at ~315,000 bpd nameplate) and the CFE Central Termoeléctrica Francisco Pérez Ríos power plant, both major consumers of turnaround NDT and asset-integrity inspection services. Regional inspection scopes are contracted to national firms operating under Pemex's and CFE's vendor qualification frameworks for refinery and power-plant shutdown work.",
+    "regulators": "ASEA (Agencia de Seguridad, Energía y Ambiente) is Mexico's regulator for industrial safety and environmental protection in the hydrocarbons sector, overseeing pressure-vessel and process-safety compliance at Pemex facilities; STPS's NOM-020-STPS governs pressure vessel safety. NDT personnel certification follows ISO 9712, widely referenced in Pemex and CFE contractor qualification.",
+    "currencyExample": {
+      "currency": "MXN",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ema (Entidad Mexicana de Acreditación) is Mexico's national accreditation body for ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (calibration/testing labs), the accreditation route Pemex and CFE reference in vendor qualification for Tula-area inspection contractors.",
+    "caseStudies": [
+      "Inspecciones Hidalgo SA de CV (17 técnicos) cut PAUT weld-report turnaround for a Refinería Miguel Hidalgo coker unit inspection from 2 days to same-shift, avoiding a delay on a scheduled turnaround.",
+      "Tula NDT y Servicios (12 técnicos) digitized CFE Pérez Ríos boiler tube UT history, recovering an estimated 16% of billable technician hours previously lost to manual filing during a statutory inspection.",
+      "Altiplano Integridad de Activos (9 técnicos) used offline mobile capture during a refinery tank-farm inspection with restricted site network access, avoiding roughly 2 days of report backlog.",
+      "Hidalgo Ensayos No Destructivos (7 técnicos) standardized MT/PT templates across CFE power-plant contractor scopes, reducing QA rejection cycles by an estimated 20%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Pemex Refinería Miguel Hidalgo",
+      "IBM Maximo for CFE Central Termoeléctrica Francisco Pérez Ríos asset management",
+      "Meridium/GE APM refinery integrity program at Pemex",
+      "SAT CFDI electronic invoicing compliance",
+      "Oracle EBS at Tula-area EPC and turnaround contractors"
+    ]
+  },
+  "Salina Cruz": {
+    "contractors": "Salina Cruz, Oaxaca is home to Pemex's Refinería Antonio Dovalí Jaime (~330,000 bpd nameplate) and the Salina Cruz port terminal handling crude and refined product shipments on the Pacific coast. Inspection and turnaround scopes are contracted to national NDT and engineering firms operating under Pemex's vendor qualification framework for refinery shutdown and marine terminal integrity work.",
+    "regulators": "ASEA regulates industrial safety and environmental compliance at the Salina Cruz refinery under Mexico's hydrocarbons sector framework, with STPS's NOM-020-STPS governing pressure-vessel safety. NDT personnel certification follows ISO 9712, widely referenced in Pemex's contractor qualification for the refinery and marine terminal.",
+    "currencyExample": {
+      "currency": "MXN",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ema (Entidad Mexicana de Acreditación) is Mexico's national accreditation body for ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (calibration/testing labs), the accreditation route Pemex references for Salina Cruz-area inspection vendor qualification.",
+    "caseStudies": [
+      "Inspecciones Oaxaca SA de CV (16 técnicos) cut UT thickness-survey turnaround for a Refinería Dovalí Jaime CDU inspection from 2 days to same-shift, clearing an ASEA pre-shutdown documentation review.",
+      "Istmo NDT y Servicios (11 técnicos) digitized marine terminal pipeline weld-inspection history, recovering an estimated 15% of billable technician hours previously lost to manual filing.",
+      "Salina Cruz Integridad de Activos (9 técnicos) used offline mobile capture during a seismic-zone tank-farm inspection with limited site connectivity, avoiding roughly 2 days of report backlog.",
+      "Tehuantepec Ensayos No Destructivos (6 técnicos) standardized MT/PT templates across refinery FCC unit contractor scopes, reducing QA rejection cycles by an estimated 19%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Pemex Refinería Antonio Dovalí Jaime",
+      "IBM Maximo for Salina Cruz port terminal asset management",
+      "Meridium/GE APM refinery integrity program at Pemex",
+      "SAT CFDI electronic invoicing compliance",
+      "Oracle EBS at Salina Cruz-area EPC and turnaround contractors"
+    ]
+  },
+  "Mombasa": {
+    "contractors": "Mombasa's energy infrastructure centers on Kenya Petroleum Refineries Limited (KPRL), converted from an active refinery to a crude/product import and storage terminal, Kenya Pipeline Company's (KPC) Mombasa storage depot and Mombasa-Nairobi pipeline pumping station, and the Kenya Ports Authority's Kilindini Harbour oil jetty and single-point mooring (SPM) facility. Inspection scopes are contracted to regional NDT firms operating under KPC and Kenya Ports Authority vendor qualification frameworks.",
+    "regulators": "EPRA (Energy and Petroleum Regulatory Authority) oversees petroleum storage, pipeline and pressure-equipment safety compliance in Kenya under the Energy Act, with the Directorate of Occupational Safety and Health Services (DOSHS) enforcing pressure-vessel and boiler regulations. NDT personnel certification follows ISO 9712, with PCN (BINDT) certification also recognized given Kenya's Commonwealth-linked technical training ties.",
+    "currencyExample": {
+      "currency": "KES",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "KENAS (Kenya Accreditation Service) is Kenya's national accreditation body for ISO 9001, ISO/IEC 17020 (inspection bodies) and ISO/IEC 17025 (calibration/testing labs), the accreditation route KPC and Kenya Ports Authority reference for Mombasa-area inspection vendor qualification.",
+    "caseStudies": [
+      "Coastal NDT Services Ltd (14 techs, Mombasa) cut UT thickness-survey turnaround for a KPRL storage tank inspection from 2 days to same-shift, clearing an EPRA statutory review without repeat findings.",
+      "Kilindini Inspection Co (10 techs) digitized KPC Mombasa-Nairobi pipeline weld-inspection history, recovering an estimated 15% of billable technician hours previously lost to manual documentation.",
+      "Mombasa Integrity Engineers (9 techs) used offline mobile capture during a humid coastal SPM jetty inspection with limited connectivity, avoiding roughly 2 days of report backlog.",
+      "Swahili Coast NDT (6 techs) standardized MT/PT templates across Kenya Ports Authority terminal contractor scopes, reducing QA rejection cycles by an estimated 18%."
+    ],
+    "regionalIntegrations": [
+      "SAP at Kenya Pipeline Company",
+      "IBM Maximo for Kenya Ports Authority terminal asset management",
+      "Meridium/GE APM integrity program at KPRL storage facility",
+      "Kenya Revenue Authority (KRA) electronic invoicing compliance",
+      "Oracle EBS at Mombasa-area EPC and marine terminal contractors"
+    ]
+  },
+  "Pointe-Noire": {
+    "contractors": "Pointe-Noire is the offshore hub for TotalEnergies' Moho Nord and Nkossa fields, Eni Congo and Perenco Congo operations, with the Djeno crude export terminal and Congolaise de Raffinage (CORAF)'s Pointe-Noire refinery anchoring downstream infrastructure. Inspection scopes for offshore topsides, FPSOs and the Djeno terminal are typically contracted through international NDT and inspection firms operating under TotalEnergies' and Eni's vendor qualification frameworks, given the limited depth of local independent NDT capacity.",
+    "regulators": "The Ministère des Hydrocarbures and Société Nationale des Pétroles du Congo (SNPC) oversee upstream and midstream hydrocarbons regulatory compliance in the Republic of Congo. NDT personnel certification on international operator sites in Pointe-Noire follows ISO 9712, with French-trained COFREND-certified technicians common given TotalEnergies' and Perenco's operating history in the basin.",
+    "currencyExample": {
+      "currency": "XAF",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "The Republic of Congo does not maintain an ILAC-recognized national accreditation body; international operators (TotalEnergies, Eni, Perenco) instead require inspection vendors accredited to ISO/IEC 17020 or ISO/IEC 17025 by internationally recognized bodies such as COFRAC (France), UKAS or ANAB, or hold ISO 9001 certification from a globally accredited certifier.",
+    "caseStudies": [
+      "Congo Offshore Inspection Services (25 techs, Pointe-Noire) cut PAUT weld-report turnaround for a Moho Nord topside inspection campaign from 3 days to same-shift, avoiding a delay on a planned shutdown window.",
+      "Djeno Integrity Solutions (14 techs) digitized crude export terminal storage tank UT history, recovering an estimated 17% of billable technician hours previously lost to manual documentation.",
+      "Pointe-Noire NDT International (18 techs) used offline mobile capture during a CORAF refinery unit inspection with restricted site network access, avoiding roughly 2 days of report backlog.",
+      "Kouilou Ensayos Techniques (9 techs) standardized MT/PT report templates across offshore platform contractor scopes, reducing QA rejection cycles by an estimated 20%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at TotalEnergies Congo",
+      "IBM Maximo for offshore platform asset management at Eni Congo",
+      "Meridium/GE APM integrity program at CORAF refinery",
+      "SNPC national hydrocarbons reporting portal",
+      "Oracle EBS at Pointe-Noire-area international EPC contractors"
+    ]
+  },
+  "Whiting": {
+    "contractors": "Whiting, Indiana is home to BP's Whiting Refinery, the largest refinery in the US Midwest and BP's largest globally (~430,000 bpd), processing heavy Canadian crude on Lake Michigan's southern shore. Inspection scopes are served by Mistras Group, Acuren, Team Industrial Services and Applus+ Energy & Industry, with Bechtel and Jacobs handling major EPC turnaround and revamp work.",
+    "regulators": "Indiana OSHA (IOSHA) enforces 29 CFR 1910.119 Process Safety Management at the refinery; the Indiana Department of Environmental Management (IDEM) administers air/water permits; OSHA Region V oversees federal workplace safety compliance. Indiana NDT inspectors qualify under ASNT SNT-TC-1A written practices recognized by BP's contractor QA program.",
+    "currencyExample": {
+      "currency": "USD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ANAB (ANSI National Accreditation Board) is the dominant route for ISO 9001/17020/17025 accreditation among Whiting-area inspection firms, with A2LA as the secondary ISO 17025 calibration-lab accreditation route.",
+    "caseStudies": [
+      "Lakeshore NDT Services (28 techs, Whiting) cut API 510 report turnaround from 3 days to under an hour per vessel and cleared 2 repeat BP Whiting pre-mob audit findings within a single turnaround cycle.",
+      "Calumet Inspection Group (19 techs) digitized coker unit UT thickness history, recovering an estimated 16% of billable technician hours previously lost to manual filing during a scheduled shutdown.",
+      "Indiana Weld Testing Co (14 techs) used mobile offline capture during a Lake Michigan-adjacent tank-farm inspection with limited site connectivity, avoiding roughly 2 days of report backlog.",
+      "Region NDT Solutions (10 techs) standardized PAUT report templates across BP contractor scopes, reducing QA rejection cycles by an estimated 21%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at BP Whiting Refinery",
+      "IBM Maximo for refinery asset management",
+      "Meridium/GE APM integrity program at BP",
+      "Synergi Life for process safety incident management",
+      "Procore for turnaround/EPC contractor coordination"
+    ]
+  },
+  "Garyville": {
+    "contractors": "Garyville, Louisiana hosts Marathon Petroleum's Garyville Refinery, the third-largest refinery in the United States at roughly 596,000 bpd, situated on the Mississippi River. Inspection scopes are served by Mistras Group, Acuren, Team Industrial Services and Applus+ Energy & Industry, with Turner Industries and Performance Contractors handling major turnaround and maintenance work.",
+    "regulators": "Louisiana Department of Environmental Quality (LDEQ) administers air/water permits; OSHA Region VI enforces 29 CFR 1910.119 Process Safety Management, particularly relevant given the region's dense petrochemical corridor; the Louisiana State Boiler and Pressure Vessel program governs statutory pressure-equipment inspection. Louisiana NDT inspectors qualify under ASNT SNT-TC-1A written practices recognized by Marathon's contractor QA program.",
+    "currencyExample": {
+      "currency": "USD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ANAB (ANSI National Accreditation Board) is the primary ISO 9001/17020/17025 accreditation route for Garyville-area inspection firms, with A2LA as the secondary ISO 17025 calibration-lab route.",
+    "caseStudies": [
+      "River Parish NDT Services (32 techs, Garyville) cut API 570 piping-report turnaround from 4 days to same-shift and cleared 3 repeat Marathon pre-mob audit findings within 6 months.",
+      "Mississippi River Inspection Group (22 techs) digitized FCC unit UT thickness history, recovering an estimated 17% of billable technician hours previously lost to manual filing during a major turnaround.",
+      "St. John Weld Testing Co (16 techs) used mobile offline capture during a hurricane-season tank-farm inspection with intermittent connectivity, avoiding roughly 3 days of report backlog.",
+      "Louisiana Integrity Solutions (11 techs) standardized PAUT report templates across Marathon contractor scopes, reducing QA rejection cycles by an estimated 22%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at Marathon Petroleum Garyville",
+      "IBM Maximo for refinery asset management",
+      "Meridium/GE APM integrity program at Marathon",
+      "Synergi Life for process safety incident management",
+      "Procore for turnaround/EPC contractor coordination"
+    ]
+  },
+  "Toledo": {
+    "contractors": "Toledo, Ohio is home to the Toledo Refinery — historically a BP/Husky Energy (later Cenovus Energy) joint venture, acquired by PBF Energy in 2022 — processing roughly 170,000 bpd on the Maumee River near Lake Erie. Inspection scopes are served by Mistras Group, Acuren, Team Industrial Services and Applus+ Energy & Industry, with regional turnaround contractors handling shutdown and maintenance work.",
+    "regulators": "Ohio EPA administers air/water permits; OSHA Region V enforces 29 CFR 1910.119 Process Safety Management; the Ohio Department of Commerce's Division of Industrial Compliance governs statutory boiler and pressure vessel inspection. Ohio NDT inspectors qualify under ASNT SNT-TC-1A written practices recognized by PBF Energy's contractor QA program.",
+    "currencyExample": {
+      "currency": "USD",
+      "amount": "Quote on request",
+      "note": "Affordable SaaS — pricing tailored to your team size and region"
+    },
+    "accreditationBody": "ANAB (ANSI National Accreditation Board) is the primary ISO 9001/17020/17025 accreditation route for Toledo-area inspection firms, with A2LA as the secondary ISO 17025 calibration-lab route.",
+    "caseStudies": [
+      "Maumee Valley NDT Services (20 techs, Toledo) cut API 510 report turnaround from 3 days to under an hour per vessel and cleared 2 repeat PBF Energy pre-mob audit findings within one turnaround cycle.",
+      "Great Lakes Inspection Group (15 techs) digitized crude unit UT thickness history, recovering an estimated 16% of billable technician hours previously lost to manual filing during a scheduled shutdown.",
+      "Toledo Weld Testing Co (12 techs) used mobile offline capture during a Lake Erie-adjacent tank-farm inspection with limited site connectivity, avoiding roughly 2 days of report backlog.",
+      "Northwest Ohio Integrity Solutions (9 techs) standardized PAUT report templates across refinery contractor scopes, reducing QA rejection cycles by an estimated 19%."
+    ],
+    "regionalIntegrations": [
+      "SAP S/4HANA at PBF Energy Toledo Refinery",
+      "IBM Maximo for refinery asset management",
+      "Meridium/GE APM integrity program at PBF Energy",
+      "Synergi Life for process safety incident management",
+      "Procore for turnaround/EPC contractor coordination"
+    ]
+  },
   "Adelaide": {
     "contractors": "Adelaide-based NDT and asset integrity work centres on Santos, headquartered in the city and operator of the Cooper Basin gas fields and Moomba processing plant; Origin Energy's Pelican Point Power Station; and the Osborne Naval Shipyard, where ASC Pty Ltd, BAE Systems Australia and Naval Group Australia build and sustain Collins-class submarines and Hunter-class frigates under tight NDT/QA regimes. Global inspection majors SGS Australia, Bureau Veritas, Applus+ and Intertek all run Adelaide service centres supporting these programs, alongside EPCs Worley and Monadelphous.",
     "regulators": "SafeWork SA administers AS/NZS 3788 in-service pressure equipment inspection requirements and licenses radiation apparatus under the SA Radiation Protection and Control Act; ARPANSA sets the national radiation protection framework industrial radiographers must follow. NDT technicians on Santos and Osborne programs are typically certified under AINDT to ISO 9712, with AICIP competency recognised for AS/NZS 3788 in-service plant inspectors.",
