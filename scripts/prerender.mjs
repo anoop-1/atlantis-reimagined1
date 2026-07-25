@@ -2085,6 +2085,40 @@ Object.assign(CTR_OVERRIDES, {
   },
 });
 
+// ─── Digital Twin money-page CTR rewrites — 2026-07-24 (Wave 2 demand capture) ───
+// These pages rank pos 2-3 on high-intent DT queries but shipped generic/weak titles
+// (near-zero CTR). Query-led titles + benefit descriptions to convert impressions.
+Object.assign(CTR_OVERRIDES, {
+  '/digital-twins': {
+    title: 'Digital Twin Platform for NDT & Asset Integrity 2026 — Live 3D + UT/RBI/FFS | Atlantis',
+    description: 'Atlantis Digital Twin platform: a live 3D model of your asset with native NDT data — UT/PAUT thickness, CMLs, RBI and API 579 FFS in one place. Replace Predix, MindSphere, PI. Affordable, fully customizable. Book a 30-min demo.',
+  },
+  '/blog/digital-twin-platform-roi-calculator-examples-2026': {
+    title: 'Digital Twin Platform ROI Calculator 2026 — 6 Worked Examples + Payback Numbers',
+    description: 'Digital twin platform ROI, worked out: 6 real refinery, tank-farm and pipeline examples with payback timelines, avoided-downtime and turnaround-scope savings. Free interactive calculator + methodology. No spreadsheets.',
+  },
+  '/blog/digital-twin-platform-api-access-integration-guide': {
+    title: 'Digital Twin Platform with API Access 2026 — REST, Historian/PI & EAM Integration Guide',
+    description: 'How to connect a digital twin platform via API: REST endpoints, OSIsoft/AVEVA PI and historian connectors, SAP/Maximo EAM sync, and NDT data ingestion. Integration patterns, auth, and a worked reference architecture.',
+  },
+  '/blog/digital-twin-corrosion-monitoring-vendors-comparison': {
+    title: 'Digital Twin Corrosion Monitoring 2026 — Vendor Comparison (Predix, Cognite, AVEVA, Atlantis)',
+    description: 'Who offers digital twins for corrosion monitoring? 2026 vendor comparison across GE Vernova APM, Cognite, AVEVA PI, Hexagon and Atlantis — CML trending, remaining-life, RBI feed and API 510/570/653 fit. Honest breakdown.',
+  },
+  '/blog/digital-twin-implementation-roadmap-oil-gas-2026': {
+    title: 'Digital Twin Implementation Roadmap for Oil & Gas 2026 — Phased 12-Month Plan',
+    description: 'A practical digital twin implementation roadmap for oil & gas: unit-by-unit phasing, data capture (LiDAR/CML), historian/EAM integration, and go-live milestones. First unit live in 10-14 weeks. Free scoping.',
+  },
+  '/blog/asset-integrity-digital-twin-guide-2026': {
+    title: 'Asset Integrity Digital Twin Guide 2026 — RBI, FFS & CML Data in One 3D Model',
+    description: 'The asset integrity digital twin explained: how a live 3D model unifies UT/PAUT thickness, CMLs, RBI scoring and API 579 fitness-for-service so integrity engineers defer capex and cut turnaround scope. Worked examples.',
+  },
+  '/blog/ndt-roi-calculator-digital-twin-vs-spreadsheet-2027': {
+    title: 'Digital Twin vs Spreadsheet ROI for NDT 2026 — Calculator + Worked Numbers',
+    description: 'Digital twin vs spreadsheet for NDT inspection data: side-by-side ROI with worked numbers on report turnaround, audit prep, data loss and remaining-life accuracy. Free calculator. See the payback for your team size.',
+  },
+});
+
 // ─── Route Definitions ────────────────────────────────────────────────────
 
 const routes = [];
