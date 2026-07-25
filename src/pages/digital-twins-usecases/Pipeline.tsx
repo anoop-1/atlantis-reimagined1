@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset scope (typical operator)", atlantis: "Hundreds to thousands of miles of pipeline + above-ground stations", competitor: "—" },
@@ -83,6 +84,7 @@ export default function PipelineUseCase() {
                         <li><strong>Regulatory and audit efficiency:</strong> Structured record = dramatically faster audit response and lower regulatory risk.</li>
                         <li><strong>ILI re-inspection optimization:</strong> RBI-driven re-inspection intervals can defer some ILI runs (each enterprise tier–$2M depending on length and tool type).</li>
                     </ul>
+                <UsecaseDeepDive slug="pipeline" />
                 </>
             }
         />

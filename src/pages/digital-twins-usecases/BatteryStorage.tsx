@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical utility BESS)", atlantis: "20–600 battery enclosures + PCS (power conversion system) + transformers + HVAC + fire suppression + DC cabling", competitor: "—" },
@@ -95,6 +96,7 @@ export default function BatteryStorageUseCase() {
 
                     <h2>Implementation path for a BESS deployment</h2>
                     <p>First site live in 8–12 weeks. Subsequent sites (typically the same OEM enclosure and BMS design across a portfolio) typically 3–4 weeks each given the templates, integrations, and OEM data flow built in the first deployment. Most developers deploy the first site as a reference and roll the same configuration across the pipeline portfolio. Coexistence with the OEM BMS, the EMS (energy management system), and the site SCADA is the rule.</p>
+                <UsecaseDeepDive slug="battery-storage" />
                 </>
             }
         />

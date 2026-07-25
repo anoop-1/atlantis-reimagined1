@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical farm)", atlantis: "20–200 turbines per farm + balance-of-plant", competitor: "—" },
@@ -76,6 +77,7 @@ export default function WindFarmUseCase() {
                         <li><strong>Warranty defensibility:</strong> Structured record of all inspections supports warranty claims against OEMs. Recovered warranty value can dwarf the platform cost.</li>
                         <li><strong>Repower / refurbishment decisions:</strong> Multi-year integrity record enables defensible repower vs replace decisions as turbines approach end of design life.</li>
                     </ul>
+                <UsecaseDeepDive slug="wind-farm" />
                 </>
             }
         />

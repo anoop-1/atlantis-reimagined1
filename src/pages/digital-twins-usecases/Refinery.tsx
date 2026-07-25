@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical refinery)", atlantis: "1,500–8,000 vessels + piping circuits", competitor: "—" },
@@ -91,6 +92,7 @@ export default function RefineryUseCase() {
 
                     <h2>Implementation path for a refinery deployment</h2>
                     <p>First process unit live in 10–14 weeks. Subsequent units typically 4–6 weeks each given the templates, integrations, and team familiarity built in the first deployment. Most refineries deploy unit-by-unit over 6–12 months rather than big-bang — this preserves integrity team capacity and lets the platform earn trust before it&rsquo;s the only system of record. Coexistence with existing PI / APM / EAM is the rule, not the exception.</p>
+                <UsecaseDeepDive slug="refinery" />
                 </>
             }
         />

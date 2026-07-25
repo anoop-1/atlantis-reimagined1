@@ -8,6 +8,7 @@ import { CheckCircle, MapPin, ArrowRight, Mail, AlertTriangle } from "lucide-rea
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { buildLocalBusiness } from "@/data/city-profiles";
 import { isCuratedCity } from "@/data/curated-cities";
+import { industryKnowledge } from "@/data/erp-industry-knowledge";
 
 export interface ErpIndustryCityProps {
   industrySlug: string;
@@ -125,6 +126,51 @@ export default function ErpIndustryCityPage(p: ErpIndustryCityProps) {
         </div>
       </section>
 
+      {industryKnowledge[p.industrySlug] && (() => {
+        const k = industryKnowledge[p.industrySlug];
+        return (
+          <>
+            <section className="py-16 bg-white">
+              <div className="container mx-auto max-w-4xl px-6">
+                <h2 className="text-3xl font-bold mb-4">{k.headline}</h2>
+                <p className="text-lg text-slate-700 leading-relaxed mb-6">{k.overview}</p>
+                <p className="text-slate-700 leading-relaxed mb-8">{k.ndtAngle}</p>
+                <h3 className="text-2xl font-semibold mb-3">How {p.industryName} teams run inspection &amp; quality on Atlantis</h3>
+                <p className="text-slate-700 leading-relaxed">{k.workflow}</p>
+              </div>
+            </section>
+
+            <section className="py-16">
+              <div className="container mx-auto max-w-6xl px-6">
+                <h2 className="text-3xl font-bold mb-8">Built for {p.industryName} — core capabilities</h2>
+                <div className="grid md:grid-cols-2 gap-3">
+                  {k.capabilities.map((c, i) => (
+                    <div key={i} className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
+                      <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-slate-700">{c}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="grid md:grid-cols-2 gap-12 mt-10">
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3">Standards &amp; codes covered</h3>
+                    <ul className="space-y-2">{k.compliance.map((c, i) => (<li key={i} className="flex items-center gap-2 text-slate-700"><CheckCircle className="w-4 h-4 text-blue-600 flex-shrink-0" />{c}</li>))}</ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3">Integrates with</h3>
+                    <ul className="space-y-2">{k.integrations.map((c, i) => (<li key={i} className="flex items-center gap-2 text-slate-700"><CheckCircle className="w-4 h-4 text-blue-600 flex-shrink-0" />{c}</li>))}</ul>
+                  </div>
+                </div>
+                <div className="mt-10 p-6 bg-emerald-50 border-l-4 border-emerald-500 rounded">
+                  <h3 className="text-xl font-semibold mb-2">Measurable outcomes for {p.cityName} {p.industryName.toLowerCase()} teams</h3>
+                  <p className="text-slate-700 leading-relaxed">{k.roi}</p>
+                </div>
+              </div>
+            </section>
+          </>
+        );
+      })()}
+
       <section className="py-16 bg-white">
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold mb-2">
@@ -198,7 +244,7 @@ export default function ErpIndustryCityPage(p: ErpIndustryCityProps) {
             Frequently Asked Questions — {p.industryName} ERP in {p.cityName}
           </h2>
           <div className="space-y-4">
-            {p.faqs.map(([q, a], i) => (
+            {[...p.faqs, ...((industryKnowledge[p.industrySlug]?.faqs) || [])].map(([q, a], i) => (
               <Card key={i}>
                 <CardHeader>
                   <CardTitle className="text-lg">{q}</CardTitle>

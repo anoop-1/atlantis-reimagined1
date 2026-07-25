@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, MapPin, ArrowRight, Mail, AlertTriangle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { moduleKnowledge } from "@/data/erp-module-knowledge";
 
 export interface ErpModuleCityProps {
   moduleSlug: string;
@@ -97,6 +98,51 @@ export default function ErpModuleCityPage(p: ErpModuleCityProps) {
         </div>
       </section>
 
+      {moduleKnowledge[p.moduleSlug] && (() => {
+        const k = moduleKnowledge[p.moduleSlug];
+        return (
+          <>
+            <section className="py-16 bg-white">
+              <div className="container mx-auto max-w-4xl px-6">
+                <h2 className="text-3xl font-bold mb-4">{k.headline}</h2>
+                <p className="text-lg text-slate-700 leading-relaxed mb-6">{k.overview}</p>
+                <p className="text-slate-700 leading-relaxed mb-8">{k.ndtAngle}</p>
+                <h3 className="text-2xl font-semibold mb-3">How {p.moduleName} works inside an inspection workflow</h3>
+                <p className="text-slate-700 leading-relaxed">{k.workflow}</p>
+              </div>
+            </section>
+
+            <section className="py-16">
+              <div className="container mx-auto max-w-6xl px-6">
+                <h2 className="text-3xl font-bold mb-8">{p.moduleName} — core capabilities</h2>
+                <div className="grid md:grid-cols-2 gap-3">
+                  {k.capabilities.map((c, i) => (
+                    <div key={i} className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
+                      <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-slate-700">{c}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="grid md:grid-cols-2 gap-12 mt-10">
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3">Standards &amp; compliance</h3>
+                    <ul className="space-y-2">{k.compliance.map((c, i) => (<li key={i} className="flex items-center gap-2 text-slate-700"><CheckCircle className="w-4 h-4 text-blue-600 flex-shrink-0" />{c}</li>))}</ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3">Integrates with</h3>
+                    <ul className="space-y-2">{k.integrations.map((c, i) => (<li key={i} className="flex items-center gap-2 text-slate-700"><CheckCircle className="w-4 h-4 text-blue-600 flex-shrink-0" />{c}</li>))}</ul>
+                  </div>
+                </div>
+                <div className="mt-10 p-6 bg-emerald-50 border-l-4 border-emerald-500 rounded">
+                  <h3 className="text-xl font-semibold mb-2">Measurable outcomes for {p.cityName} inspection teams</h3>
+                  <p className="text-slate-700 leading-relaxed">{k.roi}</p>
+                </div>
+              </div>
+            </section>
+          </>
+        );
+      })()}
+
       <section className="py-16 bg-white">
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold mb-2">{p.moduleName} — Configured for {p.cityName}</h2>
@@ -160,7 +206,7 @@ export default function ErpModuleCityPage(p: ErpModuleCityProps) {
         <div className="container mx-auto max-w-4xl px-6">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
           <div className="space-y-4">
-            {p.faqs.map(([q, a], i) => (
+            {[...p.faqs, ...((moduleKnowledge[p.moduleSlug]?.faqs) || [])].map(([q, a], i) => (
               <Card key={i}>
                 <CardHeader><CardTitle className="text-lg">{q}</CardTitle></CardHeader>
                 <CardContent><p className="text-slate-600 leading-relaxed">{a}</p></CardContent>

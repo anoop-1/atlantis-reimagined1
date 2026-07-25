@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset scope", atlantis: "Subsea trees, manifolds, jumpers, flowlines, risers, umbilicals, structures", competitor: "—" },
@@ -79,6 +80,7 @@ export default function SubseaUseCase() {
 
                     <h2>Umbilical and flexible riser integrity</h2>
                     <p>Umbilicals and flexibles have specific failure modes — armor wire fatigue, hydrogen embrittlement, end-fitting integrity, polymer aging. Atlantis ships templates per API 17B / 17J / 17K with tube-specific records and end-fitting inspection event tracking. End-fitting inspection is a major intervention requiring specialist contractors — the structured record supports defensible scope definition and contractor handover.</p>
+                <UsecaseDeepDive slug="subsea" />
                 </>
             }
         />

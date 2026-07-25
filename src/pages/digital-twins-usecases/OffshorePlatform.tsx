@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical platform)", atlantis: "600–2,000 fixed-equipment items + jacket / topsides structure + risers", competitor: "—" },
@@ -79,6 +80,7 @@ export default function OffshorePlatformUseCase() {
                         <li><strong>Class survey / regulatory efficiency:</strong> Structured record reduces preparation effort for class society and national regulator audits.</li>
                         <li><strong>Life extension defensibility:</strong> Many platforms operate past original design life — the integrity record is the defensible basis for life extension applications.</li>
                     </ul>
+                <UsecaseDeepDive slug="offshore-platform" />
                 </>
             }
         />

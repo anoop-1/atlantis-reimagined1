@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical utility solar farm)", atlantis: "100,000–4,000,000 PV modules + 50–600 inverter skids + tracker drive trains + MV transformers + DC and AC cabling", competitor: "—" },
@@ -95,6 +96,7 @@ export default function SolarFarmUseCase() {
 
                     <h2>Implementation path for a solar farm deployment</h2>
                     <p>First site live in 6–10 weeks. Subsequent sites (typically the same OEM module, inverter, and tracker design across a portfolio) typically 2–3 weeks each given the templates, integrations, and drone-service-provider flow built in the first deployment. Most developers deploy the first site as a reference and roll the same configuration across the pipeline portfolio.</p>
+                <UsecaseDeepDive slug="solar-farm" />
                 </>
             }
         />

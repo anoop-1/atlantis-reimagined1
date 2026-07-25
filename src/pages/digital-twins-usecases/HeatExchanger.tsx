@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical refinery)", atlantis: "150–600 heat exchangers + air coolers", competitor: "—" },
@@ -83,6 +84,7 @@ export default function HeatExchangerUseCase() {
                         <li><strong>Tube failure avoidance:</strong> Better-targeted inspection catches failure precursors before tube rupture causes unplanned shutdown.</li>
                         <li><strong>Inspection efficiency:</strong> Structured workflow reduces post-inspection data wrangling time by 30–50%.</li>
                     </ul>
+                <UsecaseDeepDive slug="heat-exchanger" />
                 </>
             }
         />

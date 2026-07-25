@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical green H2 plant)", atlantis: "5–80 electrolyzer stacks + balance-of-plant pressure vessels + H2 storage + compression + piping circuits", competitor: "—" },
@@ -90,6 +91,7 @@ export default function HydrogenElectrolyzerUseCase() {
 
                     <h2>Implementation path for a hydrogen plant deployment</h2>
                     <p>First facility live in 8–12 weeks. Subsequent facilities (typically the same OEM stack and balance-of-plant design across a portfolio) typically 3–5 weeks each given the templates, integrations, and OEM data flow built in the first deployment. Most developers deploy the first plant as a reference and roll the same configuration across the pipeline portfolio.</p>
+                <UsecaseDeepDive slug="hydrogen-electrolyzer" />
                 </>
             }
         />

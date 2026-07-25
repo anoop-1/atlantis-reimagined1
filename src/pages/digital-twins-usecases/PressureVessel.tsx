@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical refinery)", atlantis: "200–800 pressure vessels", competitor: "—" },
@@ -83,6 +84,7 @@ export default function PressureVesselUseCase() {
 
                     <h2>Multi-decade vessel record</h2>
                     <p>Pressure vessels run for decades. The integrity team that&rsquo;s running the vessel today is rarely the team that built it. Atlantis maintains the multi-decade record — every inspection, every FFS, every RBI assessment, every repair, every re-rate — with the same data quality standard. New integrity engineers on the team have a defensible historical baseline; old hands have their judgment captured in structured data. The vessel record outlives the people who maintain it.</p>
+                <UsecaseDeepDive slug="pressure-vessel" />
                 </>
             }
         />

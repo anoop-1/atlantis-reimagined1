@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical tank farm)", atlantis: "20–200 tanks per terminal", competitor: "—" },
@@ -81,6 +82,7 @@ export default function StorageTankUseCase() {
                         <li><strong>Insurance and regulatory:</strong> Defensible integrity program is increasingly important for tank farm insurance discussions.</li>
                     </ul>
                     <p>Net: $300K&ndash;$1.5M/yr in measurable value per tank farm on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request.</p>
+                <UsecaseDeepDive slug="storage-tank" />
                 </>
             }
         />

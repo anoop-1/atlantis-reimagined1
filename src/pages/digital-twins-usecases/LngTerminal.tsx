@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical LNG terminal)", atlantis: "1–8 LNG storage tanks + 2–6 liquefaction or regasification trains + jetty + 200–600 cryogenic piping circuits", competitor: "—" },
@@ -93,6 +94,7 @@ export default function LngTerminalUseCase() {
 
                     <h2>Implementation path for an LNG terminal deployment</h2>
                     <p>First train and first tank live in 12–18 weeks. Subsequent trains and tanks typically 4–6 weeks each given the templates, integrations, and team familiarity built in the first deployment. Most operators deploy train-by-train, tank-by-tank rather than big-bang — this preserves integrity team capacity and lets the platform earn trust before it&rsquo;s the only system of record. Coexistence with existing IDMS (Antea, Meridium, GE APM), construction-vintage paper records, and operating-side DCS/PI is the rule, not the exception.</p>
+                <UsecaseDeepDive slug="lng-terminal" />
                 </>
             }
         />

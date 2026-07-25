@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical FPSO)", atlantis: "800–2,500 fixed-equipment items + 200–600 piping circuits + hull structure", competitor: "—" },
@@ -81,6 +82,7 @@ export default function FpsoUseCase() {
 
                     <h2>Implementation path</h2>
                     <p>First FPSO live in 12–16 weeks. Slightly longer than a refinery process unit because of the hull / ballast tank / mooring scope and the class survey alignment work. Second and third FPSOs in a fleet typically 6–8 weeks each. Implementation runs offshore where access permits and remote where it doesn&rsquo;t — most setup and configuration is done remotely.</p>
+                <UsecaseDeepDive slug="fpso" />
                 </>
             }
         />

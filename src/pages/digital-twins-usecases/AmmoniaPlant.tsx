@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical world-scale NH3 plant)", atlantis: "1–2 primary reformers + secondary reformer + HT/LT shift converters + CO2 removal + methanator + synthesis loop + 1–4 storage tanks + 400–1,200 piping circuits", competitor: "—" },
@@ -94,6 +95,7 @@ export default function AmmoniaPlantUseCase() {
 
                     <h2>Implementation path for an ammonia plant deployment</h2>
                     <p>First plant live in 12–16 weeks. Subsequent plants (typically the same OEM reformer and synthesis-loop design across a portfolio) typically 4–6 weeks each given the templates, integrations, and team familiarity built in the first deployment. Most operators deploy the first plant as a reference and roll the same configuration across the portfolio. Coexistence with existing IDMS, the operator&rsquo;s historian/DCS, and the reformer OEM&rsquo;s LOTIS data flow is the rule, not the exception.</p>
+                <UsecaseDeepDive slug="ammonia-plant" />
                 </>
             }
         />

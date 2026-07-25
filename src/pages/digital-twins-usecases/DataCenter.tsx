@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical hyperscale DC)", atlantis: "Hundreds to thousands of fixed-equipment items — chillers, CRACs, generators, switchgear, BMS panels, cooling tower fill, fire system", competitor: "—" },
@@ -74,6 +75,7 @@ export default function DataCenterUseCase() {
 
                     <h2>Coexistence with DCIM</h2>
                     <p>Data Center Infrastructure Management platforms (Schneider EcoStruxure IT, Sunbird, Nlyte) handle real-time monitoring, capacity planning, and asset tracking. Atlantis covers the inspection integrity workflow alongside. The two integrate via REST — DCIM&rsquo;s real-time data flows into Atlantis as operating context for inspection planning; Atlantis&rsquo; inspection findings flow into DCIM&rsquo;s asset records. Together they cover the full operational and integrity workload.</p>
+                <UsecaseDeepDive slug="data-center" />
                 </>
             }
         />

@@ -1,4 +1,5 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
+import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 
 const compareRows = [
     { factor: "Asset count (typical NPP)", atlantis: "5,000–25,000 safety-related + balance-of-plant components", competitor: "—" },
@@ -75,6 +76,7 @@ export default function NuclearPlantUseCase() {
 
                     <h2>ROI in nuclear</h2>
                     <p>Nuclear ROI calculation differs from oil &amp; gas. The biggest values are: (1) outage scope efficiency — better-prepared inspection plans reduce critical-path outage time, and an outage day is worth $1M–$3M+ in revenue; (2) reduced rework — better data quality on the first inspection avoids the dispute-and-re-inspect cycle that consumes outage time; (3) audit and INPO defensibility — a structured, queryable integrity record dramatically reduces audit response time and audit findings. Specific dollar ROI varies by plant but the structural value is clear: the platform pays for itself in one good outage cycle.</p>
+                <UsecaseDeepDive slug="nuclear-plant" />
                 </>
             }
         />
