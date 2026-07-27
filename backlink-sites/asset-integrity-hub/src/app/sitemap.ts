@@ -22,6 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/inspection-data-quality-when-it-quietly-fails-rbi`, lastModified: '2025-09-09', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/turnaround-readiness-review-30-day-window`, lastModified: '2025-12-21', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/integrity-management-software-pitfalls-buyers-miss`, lastModified: '2026-03-04', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/closing-the-loop-from-ndt-finding-to-integrity-action`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/closing-the-loop-from-ndt-finding-to-integrity-action`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/asset-integrity-digital-twin-rbi-in-3d-model`, lastModified: '2025-09-14', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/ndt-erp-for-asset-integrity-programs-2026`, lastModified: '2026-02-03', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

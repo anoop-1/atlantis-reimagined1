@@ -29,6 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/practice/masonry-and-stone-structure-ndt-techniques`, lastModified: '2025-09-08', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/practice/post-fire-concrete-inspection-strategy`, lastModified: '2025-12-04', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/practice/high-strength-bolt-inspection-on-structural-connections`, lastModified: '2026-03-15', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/practice/tunnel-lining-inspection-impact-echo-and-radar`, lastModified: '2026-05-06', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/practice/tunnel-lining-inspection-impact-echo-and-radar`, lastModified: '2026-05-06', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/construction-qa-qc-erp-for-weld-inspection`, lastModified: '2024-11-04', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/digital-twin-for-structural-integrity-monitoring`, lastModified: '2026-01-22', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

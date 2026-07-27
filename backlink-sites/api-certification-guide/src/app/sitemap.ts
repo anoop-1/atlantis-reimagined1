@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/study/api-580-rbi-prep-from-an-actual-exam-taker`, lastModified: '2025-09-07', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/study/api-579-fitness-for-service-personnel-cert`, lastModified: '2025-12-09', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/study/api-source-inspection-personnel-program-explained`, lastModified: '2026-03-02', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/study/study-plan-for-passing-multiple-api-exams-in-12-months`, lastModified: '2026-05-08', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/study/study-plan-for-passing-multiple-api-exams-in-12-months`, lastModified: '2026-05-08', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/certification-tracking-software-api-510-570-653`, lastModified: '2025-02-11', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/digital-twin-for-api-510-pressure-vessel-inspection`, lastModified: '2025-06-18', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

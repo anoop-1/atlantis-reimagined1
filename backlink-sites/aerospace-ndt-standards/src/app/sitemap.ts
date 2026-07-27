@@ -28,6 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/standards/ndt-on-titanium-airframe-structure-considerations`, lastModified: '2025-09-04', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/standards/magnetic-particle-on-landing-gear-components`, lastModified: '2025-12-11', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/standards/aerospace-ndt-data-record-retention-2026`, lastModified: '2026-03-01', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/standards/engine-blade-tip-inspection-eddy-current-vs-fpi`, lastModified: '2026-05-13', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/standards/engine-blade-tip-inspection-eddy-current-vs-fpi`, lastModified: '2026-05-13', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/nadcap-compliance-with-ndt-inspection-erp`, lastModified: '2025-03-11', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/aerospace-digital-twin-for-fleet-integrity`, lastModified: '2025-09-04', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

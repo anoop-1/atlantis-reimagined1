@@ -31,6 +31,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/guides/practical-vt-checklist-for-new-level-i-inspectors`, lastModified: '2025-09-14', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/guides/reading-ut-a-scans-without-getting-fooled`, lastModified: '2025-12-02', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/guides/building-a-personal-ndt-study-library-2026`, lastModified: '2026-02-19', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/guides/practical-rt-film-interpretation-from-density-to-defect`, lastModified: '2026-05-12', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/guides/practical-rt-film-interpretation-from-density-to-defect`, lastModified: '2026-05-12', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/what-is-a-digital-twin-for-ndt-2026`, lastModified: '2025-05-21', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/ndt-inspection-software-buyers-guide-2026`, lastModified: '2026-04-09', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

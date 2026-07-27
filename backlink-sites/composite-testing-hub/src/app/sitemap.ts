@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/techniques/visual-inspection-of-composite-tooling-cure-defects`, lastModified: '2025-08-31', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/techniques/wind-blade-trailing-edge-bond-line-inspection`, lastModified: '2025-11-27', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/techniques/composite-overwrapped-pressure-vessel-copv-inspection`, lastModified: '2026-03-08', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/techniques/composite-repair-patch-inspection-and-validation`, lastModified: '2026-05-03', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/techniques/composite-repair-patch-inspection-and-validation`, lastModified: '2026-05-03', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/managing-composite-inspection-data-in-erp`, lastModified: '2024-11-19', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/digital-twin-for-composite-structure-integrity`, lastModified: '2025-06-27', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }

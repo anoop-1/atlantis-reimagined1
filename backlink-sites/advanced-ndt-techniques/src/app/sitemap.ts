@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad`, lastModified: '2025-09-25', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/deepdives/industrial-ct-scanning-buyers-mindset`, lastModified: '2025-12-23', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses`, lastModified: '2026-03-06', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe`, lastModified: '2026-05-14', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe`, lastModified: '2026-05-14', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/managing-paut-tofd-data-in-a-digital-twin`, lastModified: '2024-11-05', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/automating-ndt-reporting-with-inspection-erp`, lastModified: '2025-09-02', changeFrequency: 'monthly' as const, priority: 0.7 }
   ];
 }
