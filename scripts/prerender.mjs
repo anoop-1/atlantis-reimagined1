@@ -14,6 +14,7 @@ import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRout
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
+import { upgradeThinPages } from './thin-page-upgrade.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -12911,6 +12912,26 @@ if (pseoNoindexApplied > 0) {
 //   121 URLs shared a title or description with another page
 //   244 pages under 300 words, concentrated in method x city permutations
 {
+  // ── THIN-PAGE UPGRADE 2026-07-28 ──────────────────────────────────────
+  // 198 sitemap URLs still rendered under 400 words. Thin pages at that scale
+  // are a site-level quality signal, not just 198 weak URLs. Each cluster gets
+  // real substance: method physics and detection capability, governing codes,
+  // the evidence chain an audit tests, and local industrial context drawn from
+  // the same research the DT/ERP pages render. Purely additive.
+  {
+    let corporateCities = null;
+    try {
+      const ct = await import('./.tsdata/data_corporate-training-seo.mjs').catch(() => null);
+      corporateCities = ct?.CORPORATE_TRAINING_CITIES || null;
+    } catch { /* optional */ }
+    const up = await upgradeThinPages(routes, { corporateCities });
+    console.log(
+      `📗 Thin-page upgrade: ${up.services} service · ${up.corporate} corporate-training · ` +
+      `${up.consulting} consulting · ${up.caseStudies} case-study · ${up.tools} tool · ` +
+      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler pages deepened`
+    );
+  }
+
   const methodEnriched = enrichMethodCityPages(routes);
   if (methodEnriched) console.log(`🔬 Method-page enrichment: ${methodEnriched} thin method/city pages given method-specific detail`);
 
