@@ -587,3 +587,23 @@ Two causes, both fixed. **Schema is only ever derived from Q&A the page actually
 **Off-page — `scripts/satellite-money-page-articles.mjs` + `scripts/satellite-blog-index.mjs`.** One substantive article on each of the 8 git-linked satellites, linking contextually to the money pages. Anti-footprint: own angle, author, date and anchor phrasing per article; links inside the argument not in a footer; 2–3 links max; each piece stands on its own.
 Also fixed: 7 of the 8 satellites published `/blog/{slug}` articles and sitemapped them but had **no `/blog` index page** — those articles were orphans inside their own sites. Each now has a real index built from the articles' own metadata.
 **Satellites are git-linked with `git diff --quiet HEAD^ HEAD -- backlink-sites/<name>` as the ignore-build command (§17.1), so they rebuild only when their own folder changes.**
+
+### 20.9 Noindex audit + recovery, and thin content across the WHOLE corpus — 2026-07-28 (commit `654960109`)
+
+**Why 349 pages were noindexed.** 275 from `scripts/pseo-noindex-list.json` (generated **2026-05-16** as a doorway-page defence when those pages were thin permutations); 74 from the reconciler's uniqueness gate + curated-city list.
+
+**Two defects in that state:**
+1. **The list was stale.** It noindexed `/ndt-erp-india` (1,443 words, 15 impr + 2 clicks/90d) and `/ndt-erp-malaysia`, `/ndt-erp-oman`, `/ndt-erp-nigeria` — **the region hubs built 2026-07-27**. Excluded by a decision made two months before their content existed. **455 impressions/90d were landing on noindexed pages.**
+2. **The thin ones stayed thin.** Every thin-page generator skipped `noindex` routes, so 146 noindexed pages under 400 words were never upgraded — crawl budget spent on 322-word permutations.
+
+**Fix — `scripts/noindex-recovery.mjs`:**
+- Real content for `/industry/{sector}-ndt-{city}` (8 sectors: aerospace, construction, manufacturing, marine, oil-gas, petrochemical, pipeline, power-generation — assets, damage mechanisms, methods, codes, what makes the sector different), `/inspection/{type}-services-{city}` (4 types) and `/training/{cert}-training-{city}` (4 certs).
+- **Hard-coded list replaced by a measurement on shipped content.** Re-index only if ≥650 words AND word-shingle Jaccard vs family siblings < 0.55. **Threshold is calibrated, not arbitrary:** median intra-family similarity is 0.02–0.20 where real per-city research exists, 0.41–0.54 where it does not.
+- **A city-permutation page with no city-specific research keeps noindex whatever its length** — a template with a name swapped in is still a doorway page.
+- All thin-page generators now run on noindex routes too (they are crawled regardless).
+
+**Result:** noindex 349 → **223**. Re-indexed 126; kept 223 with recorded reasons (near-duplicate 193, no city research 29, thin 1). Sitemap 4,972 → **5,098**.
+**Across all 5,321 prerendered pages: 1 page under 400 words** (`/embed/ndt-reference`, a 141-word embed widget, correctly noindexed). Average **884 words**.
+980 recovered/upgraded URLs sent to IndexNow; **GSC daily quota was exhausted (2,000/day across 10 SAs) — resubmit `scripts/indexing-url-list-2026-07-28-noindex-recovery.json` on the next day.**
+
+**Rule:** do not hand-maintain a noindex list. `reindexQualifiedPages()` decides from the content that actually ships, every build.
