@@ -607,3 +607,21 @@ Also fixed: 7 of the 8 satellites published `/blog/{slug}` articles and sitemapp
 980 recovered/upgraded URLs sent to IndexNow; **GSC daily quota was exhausted (2,000/day across 10 SAs) — resubmit `scripts/indexing-url-list-2026-07-28-noindex-recovery.json` on the next day.**
 
 **Rule:** do not hand-maintain a noindex list. `reindexQualifiedPages()` decides from the content that actually ships, every build.
+
+### 20.10 ERP repositioning + lead-funnel fix — 2026-07-29 (commit `c6fe16a73`)
+Full assessment: `E:\software\Atlantis\Atlantis-ERP-CRO-and-SEO-Assessment-2026-07-29.md`.
+
+**THE FUNNEL LEAK (GA4 property 517088706, 28d).** `/erp` is the **largest landing page on the site — 7,638 sessions**, 79% bounce. Site-wide funnel: **392 `erp_demo_request_click` → 66 `form_start` → 34 `generate_lead`.** Five of six who clicked a CTA never started a form.
+**Cause:** every ERP CTA sent visitors to `/contact?subject=ERP%20Demo%20Request`, which rendered a **blank form that never read the query string**, and **ERP was not even in the Service Interest dropdown**.
+**Fixed:** `/contact` honours `?service=` and `?subject=` (preselect + seed message) · dropdown gains ERP, 3D Scanning and "Something else" · **inline enquiry form directly under the `/erp` hero** · three CTA bands, each led by **"Reach Us Now"** anchored on-page (`#erp-enquiry`), demo booking secondary.
+
+**REPOSITIONING (owner direction).** ERP pages now read as a **business management platform**, not an NDT product — the market for "run my business on one system" dwarfs "NDT ERP", and paid traffic was already being bought against that wider audience.
+- `scripts/erp-generic-positioning.mjs` — hub metas + a generic positioning section appended to **every** ERP-family page.
+- City pages keep the term they earn impressions on; they are broadened by the added framing, **not** by discarding their targeting.
+- Inspection/testing named as the sector we go deepest in, not the whole product.
+
+**NO NUMBERS — HARD RULE, wider than the pricing rule.** No app counts, percentages, hour claims or timelines anywhere in ERP copy. `assertNoNumbersInErpHubMeta()` **fails the build** if a numeral returns to hub copy. ERP city title template de-numbered at source (`prerender.mjs` ~line 10618). Also removed a per-weld price pair from `/ut-vs-rt-comparison` (outright pricing-policy breach).
+
+**GA4 read:** Paid Search 10,108 sessions @ 22% engaged vs Organic 3,671 @ **52%** (organic +78% PoP). India 10,956 @ 25% and Singapore 2,388 @ 14% dominate; US 1,299 @ **45%**, Canada 58%, Brazil 57%. Mobile 64% of sessions @ 25%. **Judge paid on `generate_lead`, not sessions, and re-weight geography.**
+
+**GSC read:** site **+67% clicks / +40% impressions** PoP. Declines are localised: two anomalous impression collapses predating this week (`/blog/asnt-snt-tc-1a-vs-cp-189-comparison`, `/blog/api-653-tank-inspection-guide` — both verified 200 + self-canonical, so Google-side); two expected (intentional 301 sources); one genuine competitive slide on the **API certification cluster**, second cycle running — needs attention next.
