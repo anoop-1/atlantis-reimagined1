@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/integrity-management-software-pitfalls-buyers-miss`, lastModified: '2026-03-04', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/closing-the-loop-from-ndt-finding-to-integrity-action`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/asset-integrity-digital-twin-rbi-in-3d-model`, lastModified: '2025-09-14', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/ndt-erp-for-asset-integrity-programs-2026`, lastModified: '2026-02-03', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/ndt-erp-for-asset-integrity-programs-2026`, lastModified: '2026-02-03', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/why-rbi-programmes-drift-and-how-to-tell-early`, lastModified: '2026-07-16', changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 }

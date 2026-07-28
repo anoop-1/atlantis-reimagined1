@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/inspections/tank-internal-lining-inspection-acceptance-criteria`, lastModified: '2026-02-27', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/inspections/pipe-coating-fbe-vs-3lpe-vs-3lpp-when-each-fits`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/managing-coating-inspection-data-with-erp`, lastModified: '2025-02-11', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/corrosion-and-coating-in-a-digital-twin`, lastModified: '2025-06-19', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/corrosion-and-coating-in-a-digital-twin`, lastModified: '2025-06-19', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/coating-inspection-records-that-survive-a-warranty-dispute`, lastModified: '2026-07-14', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
   ];
 }

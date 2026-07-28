@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/techniques/composite-overwrapped-pressure-vessel-copv-inspection`, lastModified: '2026-03-08', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/techniques/composite-repair-patch-inspection-and-validation`, lastModified: '2026-05-03', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/managing-composite-inspection-data-in-erp`, lastModified: '2024-11-19', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/digital-twin-for-composite-structure-integrity`, lastModified: '2025-06-27', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/digital-twin-for-composite-structure-integrity`, lastModified: '2025-06-27', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/why-composite-inspection-records-are-harder-than-metal`, lastModified: '2026-07-06', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
   ];
 }

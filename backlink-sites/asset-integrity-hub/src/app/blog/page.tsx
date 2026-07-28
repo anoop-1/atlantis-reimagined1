@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const articles = [
     {
+      title: "Why RBI Programmes Drift, and How to Tell Early",
+      excerpt: "Risk-based inspection programmes rarely fail loudly. They drift — default corrosion rates replace measured ones, CML identity blurs, and the ranking stops reflecting condition. Six early indicators, and what each one costs.",
+      date: "July 2026",
+      readTime: "11 min read",
+      href: "/blog/why-rbi-programmes-drift-and-how-to-tell-early",
+      category: "Risk-Based Inspection",
+    },
+    {
       title: 'Digital Twin ROI Calculator: How to Calculate Return on Investment',
       excerpt: 'Learn how to calculate the actual financial return from digital twin implementations. Real examples and calculation methodologies for asset-intensive industries. Discover typical ROI timelines and identify key cost-benefit drivers.',
       date: 'March 2026',

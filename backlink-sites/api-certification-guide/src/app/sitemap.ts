@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/study/api-source-inspection-personnel-program-explained`, lastModified: '2026-03-02', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/study/study-plan-for-passing-multiple-api-exams-in-12-months`, lastModified: '2026-05-08', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/certification-tracking-software-api-510-570-653`, lastModified: '2025-02-11', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/digital-twin-for-api-510-pressure-vessel-inspection`, lastModified: '2025-06-18', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/digital-twin-for-api-510-pressure-vessel-inspection`, lastModified: '2025-06-18', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/certification-currency-is-an-operations-problem-not-an-hr-one`, lastModified: '2026-07-11', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
   ];
 }

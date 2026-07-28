@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses`, lastModified: '2026-03-06', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe`, lastModified: '2026-05-14', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/managing-paut-tofd-data-in-a-digital-twin`, lastModified: '2024-11-05', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/automating-ndt-reporting-with-inspection-erp`, lastModified: '2025-09-02', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/automating-ndt-reporting-with-inspection-erp`, lastModified: '2025-09-02', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/encoded-paut-data-is-worthless-without-location-identity`, lastModified: '2026-07-22', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
   ];
 }

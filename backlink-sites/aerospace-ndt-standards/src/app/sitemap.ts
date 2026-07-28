@@ -30,6 +30,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/standards/aerospace-ndt-data-record-retention-2026`, lastModified: '2026-03-01', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/standards/engine-blade-tip-inspection-eddy-current-vs-fpi`, lastModified: '2026-05-13', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/nadcap-compliance-with-ndt-inspection-erp`, lastModified: '2025-03-11', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/aerospace-digital-twin-for-fleet-integrity`, lastModified: '2025-09-04', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/blog/aerospace-digital-twin-for-fleet-integrity`, lastModified: '2025-09-04', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/what-nadcap-auditors-look-at-before-they-look-at-your-technique`, lastModified: '2026-07-08', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
   ];
 }
