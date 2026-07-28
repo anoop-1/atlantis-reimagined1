@@ -574,3 +574,16 @@ Phase-5 overrides intentionally win over Round-7 and legacy `CTR_OVERRIDES` on o
 - `/glossary` was 107 words **and** `noindex` while sitting in sitemap-glossary.xml — contradictory signal, now indexed with 870+ words.
 746 upgraded URLs resubmitted to GSC + IndexNow (0 failed).
 **Rule going forward: no page ships under ~400 rendered words.** If a generator cannot produce that much genuine substance, the page should not exist.
+
+### 20.8 FAQ coverage + off-page for the money pages — 2026-07-28 (commits `828fc0664`, `cfd271e04`)
+
+**FAQ schema: 857 pages now emit FAQPage (was ~580).** Pages with 150+ impr/90d and no FAQ schema: 69 → 18 (remainder are /contact, /about, hub indexes and glossary entries carrying DefinedTerm instead — FAQ is not the right format there).
+Two causes, both fixed. **Schema is only ever derived from Q&A the page actually renders** — never fabricated.
+1. **Extraction.** Three visible Q&A conventions exist on this site; only one was parsed. All three now are:
+   `<h3>Q?</h3><p>A</p>` · `<p><strong>1. Q?</strong> A</p>` · `<p><strong>Q1: Q?</strong></p><p>A: A</p>`
+   Missing the latter two left `/blog/aerospace-composite-inspection-ndt-methods-guide` (1,234 impr) and `/blog/heat-exchanger-tube-inspection-methods-procedures` (1,066) rendering full Q&A with no schema.
+2. **Authored content** — `scripts/faq-content.mjs`. 14 hand-written sets (visual testing 6,012 impr; PAUT guide; ship hull inspection — "ship hull inspection" 550 impr at pos 52; API 579; CUI; forging defects; ASME Section V; procedure writing; Level III; /ndt-for-oil-gas) plus parameterised families for 3D-scanning city, training city and method×city. Questions taken from each page's actual top GSC queries.
+
+**Off-page — `scripts/satellite-money-page-articles.mjs` + `scripts/satellite-blog-index.mjs`.** One substantive article on each of the 8 git-linked satellites, linking contextually to the money pages. Anti-footprint: own angle, author, date and anchor phrasing per article; links inside the argument not in a footer; 2–3 links max; each piece stands on its own.
+Also fixed: 7 of the 8 satellites published `/blog/{slug}` articles and sitemapped them but had **no `/blog` index page** — those articles were orphans inside their own sites. Each now has a real index built from the articles' own metadata.
+**Satellites are git-linked with `git diff --quiet HEAD^ HEAD -- backlink-sites/<name>` as the ignore-build command (§17.1), so they rebuild only when their own folder changes.**
