@@ -31,6 +31,7 @@ import { resolve, dirname } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { upgradeStragglerPages } from './thin-page-stragglers.mjs';
 import { addAuthoredFaqs } from './faq-content.mjs';
+import { loadCityContext, upgradeIndustryPages, upgradeInspectionPages, upgradeCertTrainingPages } from './noindex-recovery.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SRC = resolve(HERE, '../src');
@@ -225,7 +226,7 @@ export function upgradeServicePages(routes) {
   let n = 0;
   for (const r of routes) {
     const m = r.path.match(SERVICE_RE);
-    if (!m || r.noindex) continue;
+    if (!m ) continue;
     const method = METHODS[m[1]];
     if (!method) continue;
     if ((r.bodyContent || '').length > 5200) continue;
@@ -280,7 +281,7 @@ export function upgradeCorporateTraining(routes) {
   let n = 0;
   for (const r of routes) {
     const m = r.path.match(/^\/corporate-ndt-training\/([a-z0-9-]+)$/);
-    if (!m || r.noindex) continue;
+    if (!m ) continue;
     if ((r.bodyContent || '').length > 5200) continue;
     const c = bySlug.get(m[1]);
     const place = c?.city || label(m[1]);
@@ -365,7 +366,7 @@ export function upgradeConsultingPages(routes) {
   let n = 0;
   for (const r of routes) {
     const m = r.path.match(/^\/ndt-consulting-([a-z0-9-]+)$/) || r.path.match(/^\/consulting\/ndt-consulting-([a-z0-9-]+)$/);
-    if (!m || r.noindex) continue;
+    if (!m ) continue;
     if (m[1] === 'level-iii') continue; // hand-written hub, handled separately
     if ((r.bodyContent || '').length > 5200) continue;
     append(r, CONSULTING_BODY(label(m[1]), contextFor(m[1])));
@@ -385,7 +386,7 @@ export function upgradeConsultingPages(routes) {
 export function upgradeCaseStudies(routes) {
   let n = 0;
   for (const r of routes) {
-    if (!/^\/case-studies\/[a-z0-9-]+$/.test(r.path) || r.noindex) continue;
+    if (!/^\/case-studies\/[a-z0-9-]+$/.test(r.path) ) continue;
     if ((r.bodyContent || '').length > 4500) continue;
     const topic = label(r.path.split('/').pop());
 
@@ -424,7 +425,7 @@ export function upgradeCaseStudies(routes) {
 export function upgradeTools(routes) {
   let n = 0;
   for (const r of routes) {
-    if (!/^\/(tools\/[a-z0-9-]+|ndt-erp-roi-calculator|digital-twin-readiness-quiz)$/.test(r.path) || r.noindex) continue;
+    if (!/^\/(tools\/[a-z0-9-]+|ndt-erp-roi-calculator|digital-twin-readiness-quiz)$/.test(r.path) ) continue;
     if ((r.bodyContent || '').length > 4500) continue;
     const topic = label(r.path.split('/').pop());
 
@@ -461,7 +462,7 @@ export function upgradeTools(routes) {
 export function upgradeStandardsPages(routes) {
   let n = 0;
   for (const r of routes) {
-    if (!/^\/standards\/[a-z0-9-]+$/.test(r.path) || r.noindex) continue;
+    if (!/^\/standards\/[a-z0-9-]+$/.test(r.path) ) continue;
     if ((r.bodyContent || '').length > 4200) continue;
     const code = label(r.path.split('/').pop()).replace(/\bE(\d)/, 'E$1');
 
@@ -572,7 +573,7 @@ export function upgradeMethodStragglers(routes) {
   let n = 0;
   for (const r of routes) {
     const key = PRODUCT_STRAGGLERS[r.path];
-    if (!key || r.noindex) continue;
+    if (!key ) continue;
     const method = METHODS[key];
     if (!method || (r.bodyContent || '').length > 5000) continue;
     append(r, `
@@ -600,6 +601,7 @@ export function upgradeMethodStragglers(routes) {
 
 export async function upgradeThinPages(routes, { corporateCities } = {}) {
   await loadContext();
+  await loadCityContext();
   if (corporateCities) setCorporateCities(corporateCities);
   return {
     services: upgradeServicePages(routes),
@@ -614,6 +616,13 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // Authored Q&A for pages with real demand that render none of their own.
     // The SEO post-pass derives FAQPage schema from this visible content, so
     // the page and its structured data can never disagree.
+    // The /industry, /inspection and /training permutation families were left
+    // thin because every generator skipped noindex routes. They are crawled
+    // regardless, and the re-index decision downstream now runs on the content
+    // that actually ships — so they get real content either way.
+    industry: upgradeIndustryPages(routes, append),
+    inspection: upgradeInspectionPages(routes, append),
+    certTraining: upgradeCertTrainingPages(routes, append),
     faqs: addAuthoredFaqs(routes, append, DEMAND_SNAPSHOT),
   };
 }

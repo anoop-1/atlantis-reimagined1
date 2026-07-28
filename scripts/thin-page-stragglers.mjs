@@ -213,7 +213,7 @@ export function upgradeStragglerPages(routes, append) {
   let n = 0;
   for (const r of routes) {
     const c = STRAGGLER_CONTENT[r.path];
-    if (!c || r.noindex) continue;
+    if (!c) continue;
     append(r, `
     <section aria-label="${esc(c.h)}">
       <h2>${esc(c.h)}</h2>

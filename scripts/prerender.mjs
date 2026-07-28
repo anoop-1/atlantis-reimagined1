@@ -15,6 +15,7 @@ import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
+import { reindexQualifiedPages } from './noindex-recovery.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -12934,6 +12935,26 @@ if (pseoNoindexApplied > 0) {
 
   const methodEnriched = enrichMethodCityPages(routes);
   if (methodEnriched) console.log(`🔬 Method-page enrichment: ${methodEnriched} thin method/city pages given method-specific detail`);
+
+  // ── NOINDEX RE-EVALUATION 2026-07-28 ──────────────────────────────────
+  // 349 pages carried noindex, 275 of them from a hard-coded list generated
+  // 2026-05-16 when those pages were thin permutations. That list is stale:
+  // it noindexes /ndt-erp-india (1,443 words, 15 impr and 2 clicks/90d) and
+  // several of the region hubs built on 2026-07-27. 455 impressions/90d were
+  // landing on noindexed pages.
+  //
+  // The list is replaced by a measurement on the content that actually ships:
+  // a page is re-indexed only when it is both substantial and genuinely
+  // differentiated from its own family siblings (word-shingle similarity).
+  // Near-duplicates keep noindex — the original doorway-page concern was right
+  // and is preserved, it is simply enforced by evidence now.
+  {
+    const dec = reindexQualifiedPages(routes, SEO_DEMAND);
+    console.log(
+      `🔓 Noindex re-evaluation: ${dec.reindexed} pages re-indexed · ${dec.kept} kept noindex ` +
+      `(too thin ${dec.reasons.thin} · near-duplicate ${dec.reasons.duplicate} · no city-specific research ${dec.reasons.generic})`
+    );
+  }
 
   const meta = disambiguateMeta(routes);
   if (meta.fixedTitles || meta.fixedDescs) console.log(`🏷️  Meta disambiguation: ${meta.fixedTitles} duplicate titles + ${meta.fixedDescs} duplicate descriptions made unique`);
