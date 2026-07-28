@@ -10,9 +10,10 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
-import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes } from './route-reconcile.mjs';
+import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes, extractFromTsx, propsFromPageFile, extractAppRoutes } from './route-reconcile.mjs';
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
+import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -12901,6 +12902,37 @@ if (pseoNoindexApplied > 0) {
   console.log(`🚫 pSEO noindex applied to ${pseoNoindexApplied} routes (excluded from sitemap, rendered with <meta robots="noindex,follow">)`);
 }
 // === END PSEO NOINDEX 2026-05-09 ===
+
+// ─── SEO POST-PASS 2026-07-28 (round-2 OFIs) ───────────────────────────────
+// Runs on the final route list, after every generator and override, so it acts
+// on exactly what ships. Findings quantified in the post-deploy re-audit:
+//   296 high-demand pages emitted no FAQPage schema despite visible Q&A
+//   3,760 sitemap URLs had zero inbound internal links (1,972 already ranking)
+//   121 URLs shared a title or description with another page
+//   244 pages under 300 words, concentrated in method x city permutations
+{
+  const methodEnriched = enrichMethodCityPages(routes);
+  if (methodEnriched) console.log(`🔬 Method-page enrichment: ${methodEnriched} thin method/city pages given method-specific detail`);
+
+  const meta = disambiguateMeta(routes);
+  if (meta.fixedTitles || meta.fixedDescs) console.log(`🏷️  Meta disambiguation: ${meta.fixedTitles} duplicate titles + ${meta.fixedDescs} duplicate descriptions made unique`);
+
+  // Lift FAQs that live only in the React component into the static body, so
+  // both the visible Q&A and the schema below reflect what the page renders.
+  const fileByPath = new Map();
+  for (const ar of extractAppRoutes()) {
+    const ap = ar.path.replace(/\/$/, '') || '/';
+    if (ar.file) fileByPath.set(ap, ar.file);
+  }
+  const faqSynced = syncComponentFaqs(routes, { extractFromTsx, propsFromPageFile, fileByPath });
+  if (faqSynced) console.log(`💬 Component FAQ sync: ${faqSynced} pages had FAQs only in React; now rendered in static HTML too`);
+
+  const orphan = rescueOrphans(routes);
+  console.log(`🔗 Orphan rescue: ${orphan.orphansLinked}/${orphan.orphansBefore} orphan pages now linked from ${orphan.donors} donor pages`);
+
+  const faqAdded = addMissingFaqSchema(routes);
+  if (faqAdded) console.log(`❓ FAQ schema: added to ${faqAdded} pages that render visible Q&A but emitted none`);
+}
 
 // ─── Generate files ────────────────────────────────────────────────────────
 
