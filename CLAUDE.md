@@ -565,3 +565,12 @@ Phase-5 overrides intentionally win over Round-7 and legacy `CTR_OVERRIDES` on o
 3. 57 thin pages remain (20 consulting state, 15 /consulting/*, 10 case studies, 4 tools). Low demand.
 4. Reality-capture cluster: 4,667 impr/90d at 0.04% CTR on generic US-metro 3D-scanning queries. These are AEC/surveying searchers, not NDT buyers — keep industrial/energy-hub scanning pages, stop investing in generic US-metro terms.
 5. Re-pull GSC 2026-08-11 and 2026-08-25 to measure recovery of the 1,083 pages.
+
+### 20.7 Thin-page upgrade — 2026-07-28 (commit `63034f311`)
+198 sitemap URLs still rendered under 400 words. Now **0 under 400, 0 under 300, average 841 words across all 4,972 sitemap URLs.**
+`scripts/thin-page-upgrade.mjs` + `scripts/thin-page-stragglers.mjs`, run inside the SEO post-pass block:
+- **435** `/services/{method}-inspection-{city}` — method physics, what each detects, **what each will not do**, governing codes, evidence chain. Method knowledge for TOFD, PAUT, guided wave, acoustic emission, MFL and UT lives in `METHODS` in thin-page-upgrade.mjs; extend that map rather than writing per-page copy.
+- **168** consulting state/city · **67** corporate-training city (uses `CORPORATE_TRAINING_CITIES` anchor industries + named employers) · **33** standards · **23** case studies (methodology only — existing client claims untouched, no new claims) · **9** tools · **5** hubs · **9** hand-written stragglers.
+- `/glossary` was 107 words **and** `noindex` while sitting in sitemap-glossary.xml — contradictory signal, now indexed with 870+ words.
+746 upgraded URLs resubmitted to GSC + IndexNow (0 failed).
+**Rule going forward: no page ships under ~400 rendered words.** If a generator cannot produce that much genuine substance, the page should not exist.
