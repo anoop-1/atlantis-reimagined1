@@ -518,3 +518,50 @@ The route dedupe in `prerender.mjs` (`routeMap.set(path, route)` — last wins) 
 
 ### 19.3 GSC/GA4 trend snapshot (2026-07-18 pull)
 Clicks/mo: Jan 40 → May 646 → Jun 1,279 → Jul 1,027 in 17 days (~2× June pace). Blog = 59% of clicks; ASME/AWS code posts surging. ERP last28: 17→40 clicks after Jul-13 work. DT CTR 0.34% at pos ~8 (snippet fixed this round). USA 100k impr/90d at 0.63% CTR = still the biggest prize. GA4: new Paid Search channel (3,666 sessions/28d); "AI Assistant" channel growing (95 sessions/28d). Cert pages (API 510/653, ASNT, Dubai) dipped ~30% 28d-over-28d — watch next cycle.
+
+---
+
+## 20. ERP + DT programme: homepage-canonical fix + buyer-intent rebuild — 2026-07-27/28
+
+Full audit: `E:\software\Atlantis\Atlantis-SEO-ERP-DT-Audit-and-Upgrade-Plan-2026-07-27.md`.
+Execution report: `E:\software\Atlantis\Atlantis-SEO-ERP-DT-Execution-Report-2026-07-28.md`.
+Commits `fb7efbed0` + `92cec3257`.
+
+### 20.1 ROOT CAUSE — 1,083 pages were canonicalising to the homepage (CRITICAL, recurring class)
+Any route declared in `src/App.tsx` but absent from prerender's hand-maintained arrays shipped the SPA shell: homepage `<title>`, homepage `<h1>`, `canonical="https://atlantisndt.com/"`. Google dropped them as duplicates. Four sub-classes:
+- **642** App.tsx routes with no prerender entry — 291 of 381 DT routes (76%), 184 ERP, 113 training, 44 consulting, 37 blogs. Every DT city page from the 2026-07-24 sprint was in this state.
+- **218 glossary + 33 standards** pages behind `/:slug` dynamic patterns — invisible to any route-list check. `/glossary/cswip` was earning 211 impr/90d at pos 8.3 while deindexed.
+- **190** routes shipped with no `canonical` field at all (mostly 3D-scanning cities); `injectMeta` only rewrites canonical when given one.
+
+**Permanent fixes now in the build:**
+- `scripts/route-reconcile.mjs` rebuilds any missing route from the same data the React component renders.
+- **Canonical safety net** in `prerender.mjs` — every route defaults to its own URL.
+- **`assertNoDrift()` build guard — the build FAILS if an App.tsx route has no prerendered HTML.** Do not set `PRERENDER_ALLOW_DRIFT=1` except for a documented, intentional exception.
+
+### 20.2 ROOT CAUSE — keyword targeting had no search volume
+133 ERP/DT pages ranked top-15 with **zero clicks over 90 days**; the top query on many was `site:atlantisndt.com`. Whole-quarter demand: DT cluster 207 impressions, ERP 332. `"ndt erp {city}"` and `"digital twin {city}"` are not searches. **Do not generate more (product × city) permutations.** New pages only where a query with evidence of volume exists.
+
+### 20.3 What shipped
+- **5 money pages** (`src/data/money-pages.ts` + `MoneyPageTemplate.tsx`): /ndt-inspection-software, /inspection-management-software, /asset-integrity-management-software, /erp-oil-gas-malaysia, /erp-construction-singapore. Additive upgrade to /best-ndt-reporting-software-2026.
+- **5 competitor pages** (Antea, Cenosco, Metegrity, Sphera, SAP APM) — comparison pages are the best-performing DT asset class (atlantis-dt-vs-ge-predix: 663 impr/90d @ pos 11.4).
+- **28 region hubs** (`scripts/region-hubs.mjs`) — existing country URLs promoted, not new URLs. Named operators + jurisdictional regulators + link spine to member cities.
+- **13 BOFU posts** (`src/data/bofu-posts.ts`) for the buying committee, not exam candidates.
+- **Buyer-intent CTA** on 365 blog/method pages, topic-matched.
+- **36 CTR rewrites** (`scripts/phase5-ctr-overrides.mjs`) matched to each page's actual top GSC query.
+- **Demand-based sitemap tiering** from `scripts/seo-demand-90d.json` (committed GSC snapshot; regenerate with `gsc-analytics.mjs --export`).
+- **Round 2** (`scripts/seo-postpass.mjs`): 3,761 orphans → 0; FAQ schema on 176 pages (derived from visible Q&A only, never invented); duplicate titles/descriptions → 0/0; 180 method×city pages enriched; 94 shell pages rebuilt (worst: 109 → 3,028 words on a page with 2,110 impr/90d).
+
+### 20.4 Verified after build (4,972 sitemap URLs)
+0 missing prerendered files · 0 homepage canonicals · 0 homepage titles · 0 empty titles · 0 duplicate titles · 0 duplicate descriptions · 0 orphans · 57 thin pages (was 244) · 0 Atlantis price figures · drift guard PASS.
+Submitted 1,122 URLs to the Google Indexing API (0 failed) + 1,129 IndexNow.
+
+### 20.5 Order of operations in prerender.mjs — do not reorder casually
+generators → route reconciliation → glossary/standards → region hubs → thin-body enrichment → canonical safety net → Round-6/7 overrides → Phase-5 CTR overrides → SEO post-pass → dedupe → drift guard → sitemaps.
+Phase-5 overrides intentionally win over Round-7 and legacy `CTR_OVERRIDES` on overlapping paths.
+
+### 20.6 Open items for the next cycle
+1. Off-page for the money pages — the "best NDT software" SERP is owned by listicle aggregators (wifitalents, gitnux, zipdo, SourceForge, OneStopNDT). Getting listed there beats another on-page revision.
+2. 238 high-demand pages still lack FAQ schema because they have no Q&A content to derive it from — that is a content task; do not fabricate schema.
+3. 57 thin pages remain (20 consulting state, 15 /consulting/*, 10 case studies, 4 tools). Low demand.
+4. Reality-capture cluster: 4,667 impr/90d at 0.04% CTR on generic US-metro 3D-scanning queries. These are AEC/surveying searchers, not NDT buyers — keep industrial/energy-hub scanning pages, stop investing in generic US-metro terms.
+5. Re-pull GSC 2026-08-11 and 2026-08-25 to measure recovery of the 1,083 pages.
