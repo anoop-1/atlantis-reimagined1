@@ -625,3 +625,15 @@ Full assessment: `E:\software\Atlantis\Atlantis-ERP-CRO-and-SEO-Assessment-2026-
 **GA4 read:** Paid Search 10,108 sessions @ 22% engaged vs Organic 3,671 @ **52%** (organic +78% PoP). India 10,956 @ 25% and Singapore 2,388 @ 14% dominate; US 1,299 @ **45%**, Canada 58%, Brazil 57%. Mobile 64% of sessions @ 25%. **Judge paid on `generate_lead`, not sessions, and re-weight geography.**
 
 **GSC read:** site **+67% clicks / +40% impressions** PoP. Declines are localised: two anomalous impression collapses predating this week (`/blog/asnt-snt-tc-1a-vs-cp-189-comparison`, `/blog/api-653-tank-inspection-guide` — both verified 200 + self-canonical, so Google-side); two expected (intentional 301 sources); one genuine competitive slide on the **API certification cluster**, second cycle running — needs attention next.
+
+### 20.11 URL Inspection results + correction — 2026-07-29
+**CORRECTION.** The "two catastrophic impression collapses" reported earlier this session (`/blog/asnt-snt-tc-1a-vs-cp-189-comparison` 2,052→2, `/blog/api-653-tank-inspection-guide` 3,368→22) were **an artefact of the analysis script, not a real event.** The script stripped trailing slashes when keying pages into a Map, so `/page/` and `/page` collided and the tiny slashed row overwrote the real one. Actual figures:
+- `/blog/asnt-snt-tc-1a-vs-cp-189-comparison`: 2,052→**2,710 impr**, 23→**35 clicks**, pos 6.7→**5.8** — improved on every measure.
+- `/blog/api-653-tank-inspection-guide`: 3,368→3,144 impr — broadly flat.
+**Lesson for future analysis scripts: never collapse trailing-slash variants into one Map key. Sum them, or keep them separate and inspect both.**
+
+**URL Inspection (targeted, 5 URLs):** every one returns *Submitted and indexed* · PASS · robots ALLOWED · fetch SUCCESSFUL · Google canonical == user canonical · crawled within the week. `/api-510-certification`, `/api-653-certification` and `/magnetic-particle-testing` are therefore **genuine competitive ranking losses, not technical faults** — second cycle running; this cluster needs content/authority work, not another audit.
+
+**INDEX COVERAGE IS THE REAL CEILING.** Deep sweep of 496 URLs: **166 indexed, 313 not indexed, 17 errors = 33% index rate**, with **6,886 URLs still queued (~35 days at daily quota)**. Publishing more pages does not help until this moves. Prioritise submission of pages with measured demand over breadth.
+
+**Trailing-slash duplicates:** 19 URLs earn impressions with a trailing slash, 10 have a non-slash twin also earning (278 impr, 1 click on the duplicate form). Both forms 200, **but the slashed form already canonicals to the non-slash form**, so Google consolidates on its own. Do **not** touch the SPA catch-all rewrite to force redirects (see §13) — monitor instead.
