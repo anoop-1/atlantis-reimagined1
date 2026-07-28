@@ -30,9 +30,16 @@ import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { upgradeStragglerPages } from './thin-page-stragglers.mjs';
+import { addAuthoredFaqs } from './faq-content.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SRC = resolve(HERE, '../src');
+
+/** Committed GSC snapshot — decides which pages are worth authoring FAQs for. */
+let DEMAND_SNAPSHOT = {};
+try {
+  DEMAND_SNAPSHOT = JSON.parse(readFileSync(resolve(HERE, 'seo-demand-90d.json'), 'utf-8')).pages || {};
+} catch { /* optional */ }
 
 const esc = (s) =>
   String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -604,5 +611,9 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     hubs: upgradeHubPages(routes),
     methods: upgradeMethodStragglers(routes),
     stragglers: upgradeStragglerPages(routes, append),
+    // Authored Q&A for pages with real demand that render none of their own.
+    // The SEO post-pass derives FAQPage schema from this visible content, so
+    // the page and its structured data can never disagree.
+    faqs: addAuthoredFaqs(routes, append, DEMAND_SNAPSHOT),
   };
 }

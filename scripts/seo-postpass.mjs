@@ -54,10 +54,25 @@ const textOf = (html) => String(html || '').replace(/<[^>]+>/g, ' ').replace(/\s
 function extractVisibleFaqs(bodyContent) {
   if (!bodyContent) return [];
   const faqs = [];
-  const re = /<(h3|h4)[^>]*>([\s\S]*?)<\/\1>\s*((?:<p[^>]*>[\s\S]*?<\/p>\s*){1,3})/g;
-  for (const m of bodyContent.matchAll(re)) {
-    const q = textOf(m[2]);
-    const a = textOf(m[3]);
+  // Two visible Q&A conventions exist on this site and both must be recognised:
+  //   1. <h3>Question?</h3><p>Answer</p>            — the newer generators
+  //   2. <p><strong>1. Question?</strong> Answer</p> — the older blog generator
+  // Missing (2) left pages such as
+  // /blog/aerospace-composite-inspection-ndt-methods-guide (1,234 impressions/90d)
+  // rendering six Q&A pairs with no FAQ schema at all.
+  const pairs = [];
+  const reHeading = /<(h3|h4)[^>]*>([\s\S]*?)<\/\1>\s*((?:<p[^>]*>[\s\S]*?<\/p>\s*){1,3})/g;
+  for (const m of bodyContent.matchAll(reHeading)) pairs.push([m[2], m[3]]);
+  const reInline = /<p[^>]*>\s*<strong>\s*(?:\d+[.)]\s*)?([\s\S]{8,180}?)<\/strong>\s*([\s\S]*?)<\/p>/g;
+  for (const m of bodyContent.matchAll(reInline)) pairs.push([m[1], m[2]]);
+  //   3. <p><strong>Q1: Question?</strong></p><p>A: Answer</p> — question and
+  //      answer in separate paragraphs, used by the older long-form guides.
+  const reSplit = /<p[^>]*>\s*<strong>\s*(?:Q\s*\d*\s*[:.)]\s*)?([\s\S]{8,180}?)<\/strong>\s*<\/p>\s*<p[^>]*>\s*(?:A\s*[:.)]\s*)?([\s\S]*?)<\/p>/g;
+  for (const m of bodyContent.matchAll(reSplit)) pairs.push([m[1], m[2]]);
+
+  for (const [rawQ, rawA] of pairs) {
+    const q = textOf(rawQ);
+    const a = textOf(rawA);
     if (!q || !a) continue;
     if (!/\?$/.test(q) && !/^(what|how|why|when|which|who|where|can|do|does|is|are|should|will)\b/i.test(q)) continue;
     if (a.length < 60 || a.length > 1800) continue;
