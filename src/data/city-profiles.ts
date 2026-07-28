@@ -672,7 +672,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "An Edmonton NDT contractor consolidated nine Excel trackers into Atlantis NDT ERP and cleared its next ABSA surveillance audit with zero findings.",
   },
   'basrah': {
-    uniqueLocalROI: "Basrah inspection firms supporting Rumaila, West Qurna and Majnoon asset integrity typically cut technician mobilisation prep from 5 days to 1 using Atlantis NDT ERP, with ~USD 180-240k/yr recovered on a 35-technician operation.",
+    uniqueLocalROI: "Basrah inspection firms supporting Rumaila, West Qurna and Majnoon asset integrity typically cut technician mobilisation prep from 5 days to 1 using Atlantis NDT ERP, recovering a substantial share of a 35-technician operation's annual non-billable hours.",
     localIndustryUseCases: [
       "Rumaila / West Qurna oilfield gathering-system API 570 piping inspection with BP/ExxonMobil/Lukoil client formats.",
       "Basrah Gas Company sour-service pipeline corrosion trending with NACE MR0175-aware models.",

@@ -10,12 +10,125 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
+import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes } from './route-reconcile.mjs';
+import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
+import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DIST = join(ROOT, 'dist');
 const PUBLIC_DIR = join(ROOT, 'public');
 const SITE_URL = 'https://atlantisndt.com';
+
+// ─── DEMAND-BASED SITEMAP TIERING 2026-07-27 (Phase 3) ─────────────────────
+// The site ships ~4,700 sitemap URLs against ~2,000 clicks/28d. Flat priorities
+// spread crawl budget evenly over pages Google will never rank. seo-demand-90d.json
+// is a committed snapshot of GSC page-level impressions (2026-04-25..07-24) so the
+// build stays reproducible offline. Priority now follows proven demand:
+//   >=200 impr -> 0.90 | >=50 -> 0.85 | >=10 -> 0.70 | >=1 -> 0.50 | unseen -> 0.35
+// New money pages, product hubs and region hubs are pinned high regardless of
+// history, because they have none yet.
+let SEO_DEMAND = {};
+try {
+  SEO_DEMAND = JSON.parse(readFileSync(join(__dirname, 'seo-demand-90d.json'), 'utf-8')).pages || {};
+  console.log(`Demand snapshot loaded: ${Object.keys(SEO_DEMAND).length} pages with GSC history`);
+} catch {
+  console.warn('  seo-demand-90d.json missing - sitemap priorities fall back to path heuristics');
+}
+
+const PINNED_HIGH_PRIORITY = new Set([
+  '/ndt-inspection-software',
+  '/inspection-management-software',
+  '/asset-integrity-management-software',
+  '/erp-oil-gas-malaysia',
+  '/erp-construction-singapore',
+  '/best-ndt-reporting-software-2026',
+  '/digital-twin-vendor-comparison',
+  '/digital-twin-roi-calculator',
+]);
+
+function demandPriority(path) {
+  if (PINNED_HIGH_PRIORITY.has(path)) return '0.90';
+  if (/^\/compare\/atlantis-dt-vs-/.test(path)) return '0.85';
+  const d = SEO_DEMAND[path];
+  if (!d) return null;
+  if (d.i >= 200) return '0.90';
+  if (d.i >= 50) return '0.85';
+  if (d.i >= 10) return '0.70';
+  if (d.i >= 1) return '0.50';
+  return '0.35';
+}
+
+// ─── BLOG -> MONEY PAGE ROUTING 2026-07-27 (Phase 4) ───────────────────────
+// 61% of site clicks land on blog posts serving exam candidates and job seekers.
+// A meaningful slice of that audience are inspectors and QA/ops managers INSIDE
+// NDT service companies — the actual ERP/DT buying committee — but the top blogs
+// carried no in-body links to any money page, only the global nav. This router
+// appends ONE topic-matched, genuinely relevant block per post. Matching is by
+// subject so the link is contextual rather than a blanket footer ad; posts that
+// match nothing get no block rather than an irrelevant one.
+const BLOG_INTENT_ROUTES = [
+  {
+    test: /api[- ]?(510|570|653)|fitness[- ]for[- ]service|api[- ]?579|rbi|risk[- ]based|corrosion|cui|remaining life|thickness|tank inspection|pressure vessel/i,
+    heading: 'Running this as a programme, not a one-off',
+    body: 'If you are responsible for an inspection programme rather than a single job, the recurring problem is rarely the code — it is keeping measured thickness, damage-mechanism assignment and next-inspection dates in one defensible place. <a href="/asset-integrity-management-software">Asset integrity management software</a> covers how RBI under API 580/581 and fitness-for-service under API 579 behave when they run on measured corrosion rates per CML instead of default rates, and what changes for the integrity team.',
+  },
+  {
+    test: /snt-tc-1a|iso 9712|nas 410|certification|certified|level (i{1,3}|1|2|3)\b|qualification|written practice|recertif/i,
+    heading: 'For the people managing everyone else&rsquo;s certifications',
+    body: 'Tracking one certification is easy; tracking two hundred across five methods, with vision exams, on-the-job hours and client-specific approvals, is where inspection companies lose client audits. <a href="/erp-modules/certification-tracking">Certification tracking</a> and the wider <a href="/inspection-management-software">inspection management software</a> guide cover how currency is enforced at dispatch so a lapsed technician simply cannot be assigned to a job.',
+  },
+  {
+    test: /calibration|reference block|step wedge|equipment (check|verification)|iso 17025|instrument/i,
+    heading: 'Calibration control at company scale',
+    body: 'Instrument, probe, wedge and reference-block calibration is the second thing a client audit tests after personnel qualification. <a href="/erp-modules/calibration-management">Calibration management</a> covers interval control, certificate storage and ISO 17025 traceability chains, including hard lockout so an out-of-calibration instrument cannot be dispatched.',
+  },
+  {
+    test: /report|reporting|documentation|record keeping|audit trail|deliverable/i,
+    heading: 'When report turnaround is the bottleneck',
+    body: 'Most inspection companies lose more hours to report formatting than to inspection. <a href="/best-ndt-reporting-software-2026">NDT reporting software</a> compares the options for issuing the same dataset in several client formats without re-keying, and the <a href="/ndt-inspection-software">NDT inspection software buyer&rsquo;s guide</a> separates the four product categories that all get called &ldquo;NDT software&rdquo;.',
+  },
+  {
+    test: /digital twin|3d model|predictive maintenance|asset performance|point cloud|scan/i,
+    heading: 'Putting this data on the asset model',
+    body: 'Inspection data is far more useful bound to a location on the asset than filed as a report. The <a href="/digital-twins">Atlantis Digital Twin</a> maps every reading to its CML so corrosion rates trend automatically, and the <a href="/digital-twin-vendor-comparison">vendor comparison</a> covers how the major platforms differ on inspection-data depth.',
+  },
+  {
+    test: /salary|career|job|hiring|recruit|workforce|technician shortage/i,
+    heading: 'For the companies doing the hiring',
+    body: 'If you are on the employer side of this market, the operational constraint is usually not headcount but utilisation — knowing who is currently qualified for which method and getting them dispatched without a compliance gap. <a href="/inspection-management-software">Inspection management software</a> covers how crew scheduling, certification currency and job costing interact.',
+  },
+  {
+    test: /ultrasonic|radiograph|magnetic particle|penetrant|eddy current|visual testing|phased array|paut|tofd|ut|rt|mt|pt|et|inspection method|ndt method/i,
+    heading: 'Where the results from this method end up',
+    body: 'A method is only as useful as the record it leaves behind. Inspection companies running this method at scale need the result tied to the asset, the technician’s certification state and the instrument’s calibration status at the time of test — that bundle is what a client audit asks for. The <a href="/ndt-inspection-software">NDT inspection software buyer’s guide</a> and <a href="/inspection-management-software">inspection management software</a> cover how that record is held as structured data instead of filed PDFs.',
+  },
+  {
+    test: /weld|welding|wps|pqr|aws d1|fabricat/i,
+    heading: 'Keeping the weld quality record defensible',
+    body: 'WPS, PQR and welder qualification continuity, NDT results tied to specific joints, and material traceability by heat number are what a fabrication audit actually examines. <a href="/erp-industries/welding-fabrication-shops">ERP for welding and fabrication shops</a> and <a href="/inspection-management-software">inspection management software</a> cover holding that record as structured data rather than attached PDFs.',
+  },
+];
+
+function blogIntentBlock(blog) {
+  const haystack = `${blog.title || ''} ${blog.slug || ''} ${blog.snippet || ''}`;
+  const match = BLOG_INTENT_ROUTES.find(r => r.test.test(haystack));
+  if (!match) return '';
+  return `      <section class="buyer-intent" aria-label="For inspection company owners and managers">
+        <h2>${match.heading}</h2>
+        <p>${match.body}</p>
+      </section>`;
+}
+
+function demandChangefreq(path) {
+  if (PINNED_HIGH_PRIORITY.has(path)) return 'weekly';
+  const d = SEO_DEMAND[path];
+  if (!d) return null;
+  if (d.i >= 200) return 'weekly';
+  if (d.i >= 10) return 'monthly';
+  return 'yearly';
+}
+
 
 // ─── CTR Overrides ──────────────────────────────────────────────────────────
 // Per-route title/description rewrites tuned against GSC CTR data (2026-05).
@@ -9255,6 +9368,7 @@ ${blogContentHtml}
         <a href="/best-ndt-reporting-software-2026">Reporting Software</a> ·
         <a href="/contact">Free consultation</a>
       </nav>
+${blogIntentBlock(blog)}
       <section class="products-services" aria-label="Atlantis NDT products and services">
         <h2>Atlantis NDT Products &amp; Services</h2>
         <p>Atlantis NDT pairs field expertise with software: <a href="/erp">NDT inspection management software — Atlantis ERP</a> (certification tracking, work orders, method-specific reporting on 30+ apps), a <a href="/digital-twins">digital twin platform for asset integrity</a> (3D corrosion mapping, API 581 RBI, API 579 FFS), and <a href="/best-ndt-reporting-software-2026">NDT reporting software</a>. Build your team with <a href="/training">NDT training &amp; certification</a> (ASNT, API 510/570/653 — 96% first-attempt pass rate) and <a href="/asnt-certification">ASNT certification pathways</a>, or bring in <a href="/consulting">ASNT Level III consulting</a> for RBI, FFS, and written practices. Capture as-built reality with <a href="/3d-scanning-services">3D laser scanning services</a>. Affordable, accessible, fully customizable — <a href="/contact">book a free consultation</a>.</p>
@@ -12179,7 +12293,16 @@ console.log('🎓 Round-6 body overrides applied: ' + Object.keys(ROUND6_BODY_OV
     if (o.title) r.title = o.title;
     if (o.description) r.description = o.description;
     if (o.canonical) r.canonical = o.canonical;
-    if (o.bodyContent) r.bodyContent = o.bodyContent;
+    if (o.bodyContent) {
+      // Phase 4 (2026-07-27): Round-7 overrides replace bodyContent wholesale on
+      // the site's HIGHEST-traffic pages (salary guide, API exam schedules, ASME
+      // articles) — precisely the pages that most needed a buyer-intent link and
+      // were losing it to the override. Append the topic-matched block here too.
+      const intent = blogIntentBlock({ title: o.title || r.title || '', slug: r.path, snippet: o.description || r.description || '' });
+      r.bodyContent = intent ? o.bodyContent.replace(/<\/main>\s*$/, `${intent}
+  </main>`) : o.bodyContent;
+      if (intent && !r.bodyContent.includes('buyer-intent')) r.bodyContent = o.bodyContent + intent;
+    }
     r7applied++;
   }
   const routePaths = new Set(routes.map(r => r.path));
@@ -12496,6 +12619,8 @@ function buildSitemapByCategory(routeList, category) {
 
   const changefreqMap = (path) => {
     if (path === '/' || path === '/consulting' || path === '/training') return 'weekly';
+    const demandCf = demandChangefreq(path);
+    if (demandCf) return demandCf;
     if (path.startsWith('/blog/')) return 'monthly';
     if (path.startsWith('/consulting/')) return 'monthly';
     return 'monthly';
@@ -12503,6 +12628,9 @@ function buildSitemapByCategory(routeList, category) {
 
   const getPriority = (path) => {
     if (priorityMap[path]) return priorityMap[path];
+    // Demand tiering (2026-07-27) takes precedence over path heuristics.
+    const demand = demandPriority(path);
+    if (demand) return demand;
     if (path === '/tools') return '0.85';
     if (path.startsWith('/tools/')) return '0.80';
     if (path.startsWith('/resources/')) return '0.75';
@@ -12559,6 +12687,8 @@ function buildLegacySitemap(routeList) {
   const changefreqMap = (path) => {
     if (path === '/') return 'weekly';
     if (path === '/consulting' || path === '/training') return 'weekly';
+    const demandCf = demandChangefreq(path);
+    if (demandCf) return demandCf;
     if (path.startsWith('/blog/')) return 'monthly';
     if (path.startsWith('/consulting/')) return 'monthly';
     return 'monthly';
@@ -12566,6 +12696,9 @@ function buildLegacySitemap(routeList) {
 
   const getPriority = (path) => {
     if (priorityMap[path]) return priorityMap[path];
+    // Demand tiering (2026-07-27) takes precedence over path heuristics.
+    const demand = demandPriority(path);
+    if (demand) return demand;
     if (path === '/tools') return '0.85';
     if (path.startsWith('/tools/')) return '0.80';
     if (path.startsWith('/resources/')) return '0.75';
@@ -12600,6 +12733,112 @@ function buildLegacySitemap(routeList) {
   <!-- Generated by prerender.mjs — ${routeList.filter(r => !r.path.includes(':')).length} pages — ${today} -->
 ${urls}
 </urlset>`;
+}
+
+// ─── ROUTE RECONCILIATION 2026-07-27 (Phase 0) ─────────────────────────────
+// Every route declared in src/App.tsx that this script does not already emit
+// would ship as the SPA shell: homepage <title>, homepage <h1>, and
+// canonical="https://atlantisndt.com/". The 2026-07-27 audit found 656 such
+// URLs — 291 of 381 Digital Twin routes, 184 ERP routes, 113 training, 44
+// consulting — all silently deindexed by Google as homepage duplicates.
+//
+// buildReconciledRoutes() closes the gap using the SAME data the React
+// components render (dt-city-data, city-profiles, erp-*-knowledge,
+// dt-competitor/usecase-knowledge, training-cities), so static HTML and the
+// hydrated view agree. Pages without genuinely unique local research are still
+// prerendered with a correct self-canonical but marked noindex,follow — that
+// stops the homepage-duplicate signal without adding thin pages to the index.
+{
+  const existingPaths = new Set(routes.map(r => r.path.replace(/\/$/, '') || '/'));
+  const { routes: reconciled, report } = await buildReconciledRoutes(existingPaths);
+  routes.push(...reconciled);
+  console.log(
+    `🩹 Route reconciliation: +${report.generated} routes recovered ` +
+    `(${report.indexed} index,follow · ${report.noindexed} noindex,follow · ` +
+    `${report.skipped} dynamic/admin skipped)`
+  );
+  if (report.unresolved.length) {
+    console.log(`   ⚠️  ${report.unresolved.length} route(s) had no content source: ${report.unresolved.slice(0, 10).join(', ')}`);
+  }
+}
+
+// ─── DYNAMIC-ROUTE DATA PAGES 2026-07-28 ───────────────────────────────────
+// Second instance of the homepage-canonical bug. `/glossary/:slug` and
+// `/standards/:slug` are dynamic patterns, so the drift guard skips them — but
+// the 219 concrete glossary URLs are in sitemap-glossary.xml and were live-
+// verified serving the SPA shell with canonical="https://atlantisndt.com/".
+// /glossary/cswip alone was earning 211 impressions/90d at position 8.3 while
+// being deindexed as a homepage duplicate.
+{
+  const glossary = buildGlossaryRoutes();
+  const standards = buildStandardsRoutes();
+  routes.push(...glossary, ...standards);
+  console.log(`📖 Data-driven dynamic routes: ${glossary.length} glossary + ${standards.length} standards pages prerendered (were canonicalising to the homepage)`);
+}
+
+// ─── REGION HUBS 2026-07-27 (Phase 3) ──────────────────────────────────────
+// The (product × city) permutation produced ~1,100 URLs chasing keywords with no
+// search volume. Rather than delete pages (additive-only rule), the existing
+// country/region URLs are promoted into real hubs — named operators, the
+// regulators and codes that actually govern inspection in that jurisdiction, and
+// a link spine down to every member city page. Pushed AFTER reconciliation so
+// these bodies win over both the generic city template and the reconciler.
+{
+  const hubs = await buildRegionHubRoutes();
+  routes.push(...hubs);
+  console.log(`🌍 Region hubs: ${hubs.length} ERP/DT country-level pages upgraded to regional hubs`);
+}
+
+// ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────
+// Routes pushed with a title/description but a near-empty bodyContent ship as
+// ~100-word shells even though the React page renders a full article. Rebuild
+// only those bodies from the component's own content. Runs before the Round-7
+// and Phase-5 override passes so hand-written bodies always win.
+{
+  const enriched = enrichThinRoutes(routes);
+  if (enriched) console.log(`📝 Thin-body enrichment: ${enriched} shell pages rebuilt from their own component content`);
+}
+
+// ─── CANONICAL SAFETY NET 2026-07-28 ───────────────────────────────────────
+// injectMeta only rewrites the canonical when the route object supplies one, so
+// any generator that forgets `canonical:` ships the shell's homepage canonical.
+// The 3D-scanning generator did exactly that for 189 city pages — including
+// /3d-scanning-singapore, which was earning 701 impressions/90d while being
+// deindexed as a homepage duplicate. Default every route to its own URL so this
+// class of bug cannot recur regardless of which generator adds the route.
+{
+  let defaulted = 0;
+  for (const r of routes) {
+    if (!r.canonical && !r.path.includes(':') && !r.path.includes('*')) {
+      r.canonical = `${SITE_URL}${r.path === '/' ? '/' : r.path}`;
+      defaulted++;
+    }
+  }
+  if (defaulted) console.log(`🔗 Canonical safety net: self-canonical added to ${defaulted} routes that shipped without one`);
+}
+
+// ─── PHASE 5 CTR OVERRIDES 2026-07-28 ──────────────────────────────────────
+// 215 pages sit at position 8-40 with >=90 impressions and under 1% CTR. In
+// nearly every case the page ranks for a query that does not appear in its
+// title. These rewrites are hand-written against each page's actual top query
+// from GSC page x query data. Applied last so they win over Round-6/7 and the
+// legacy CTR_OVERRIDES on any overlapping path. Title/description only — no
+// content is removed and no page's topic is changed.
+{
+  let applied = 0;
+  const missing = [];
+  const seen = new Set();
+  for (const r of routes) {
+    const o = PHASE5_CTR_OVERRIDES[r.path];
+    if (!o) continue;
+    if (o.title) { r.title = o.title; r.ogTitle = o.title; }
+    if (o.description) { r.description = o.description; r.ogDesc = o.description; }
+    seen.add(r.path);
+    applied++;
+  }
+  for (const p of Object.keys(PHASE5_CTR_OVERRIDES)) if (!seen.has(p)) missing.push(p);
+  console.log(`🎯 Phase-5 CTR overrides applied: ${applied} route hits (${Object.keys(PHASE5_CTR_OVERRIDES).length} defined)`);
+  if (missing.length) console.warn(`   ⚠️  Phase-5 paths with NO matching route: ${missing.join(', ')}`);
 }
 
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
@@ -12684,8 +12923,14 @@ routes.forEach(route => {
     // into og:title, og:description, twitter:title, twitter:description).
     // 2026-07-18: Round-7 title/desc take precedence over legacy CTR_OVERRIDES
     // (Round-7 entries are newer, GSC-audit-tuned, and pricing-policy-clean).
-    const r7 = ROUND7_BODY_OVERRIDES[route.path];
-    const override = (r7 && (r7.title || r7.description)) ? null : CTR_OVERRIDES[route.path];
+    // Phase-5 (2026-07-28) title/desc rewrites are the newest, GSC-query-matched
+    // layer and must not be clobbered by the older Round-7 or legacy CTR maps.
+    const p5 = PHASE5_CTR_OVERRIDES[route.path];
+    const r7raw = ROUND7_BODY_OVERRIDES[route.path];
+    const r7 = p5 && r7raw
+      ? { ...r7raw, title: p5.title || r7raw.title, description: p5.description || r7raw.description }
+      : r7raw;
+    const override = p5 ? null : (r7 && (r7.title || r7.description)) ? null : CTR_OVERRIDES[route.path];
     if (r7 && (r7.title || r7.description)) {
       route = {
         ...route,
@@ -12802,6 +13047,29 @@ writeFileSync(join(ROOT, 'public', 'sitemap-index.xml'), indexXml, 'utf-8');
 const legacySitemapXml = buildLegacySitemap(routes);
 writeFileSync(join(DIST, 'sitemap.xml'), legacySitemapXml, 'utf-8');
 writeFileSync(join(ROOT, 'public', 'sitemap.xml'), legacySitemapXml, 'utf-8');
+
+// ─── BUILD GUARD 2026-07-27 ────────────────────────────────────────────────
+// Fail the build if any src/App.tsx route ships without prerendered HTML.
+// Prevents recurrence of the 656-route homepage-canonical regression.
+// Set PRERENDER_ALLOW_DRIFT=1 only for a deliberate, documented exception.
+{
+  const emitted = new Set(routes.filter(r => !r.path.includes(':')).map(r => r.path.replace(/\/$/, '') || '/'));
+  emitted.add('/');
+  // Intentional 301 sources are excluded from prerender on purpose.
+  const allow = [...REDIRECT_SOURCE_PATHS];
+  try {
+    assertNoDrift(emitted, { allow });
+    console.log('🛡️  Route drift guard: PASS — every App.tsx route has prerendered HTML');
+  } catch (err) {
+    if (process.env.PRERENDER_ALLOW_DRIFT === '1') {
+      console.warn(`⚠️  Route drift guard bypassed (PRERENDER_ALLOW_DRIFT=1):\n${err.message}`);
+    } else {
+      cleanupTsCache();
+      throw err;
+    }
+  }
+}
+cleanupTsCache();
 
 console.log(`\n✅ Pre-render complete: ${generated} pages generated, ${skipped} skipped`);
 console.log(`🗺️  Sitemap index generated: ${sitemapUrls.length} sub-sitemaps`);

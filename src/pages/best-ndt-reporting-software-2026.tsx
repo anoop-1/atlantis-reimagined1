@@ -687,6 +687,69 @@ export default function BestNDTReportingSoftware2026() {
           </div>
         </section>
 
+        {/* === Phase 1 additive upgrade 2026-07-27 — buyer-intent routing =========
+            The 2026-07-27 GSC audit put "ndt reporting software" at pos 15.1 with
+            162 impr/90d — the closest winnable head term on the site. Reporting is
+            one layer of a wider stack, and buyers searching it are usually also
+            evaluating inspection management and asset integrity. This block gives
+            that intent somewhere to go instead of bouncing. Additive only. */}
+        <section className="py-14 bg-slate-50">
+          <div className="container mx-auto max-w-4xl px-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
+              Where reporting software sits in the wider stack
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-4">
+              Reporting is the layer that turns an inspection into a document a client will accept.
+              It is not, on its own, the system that decides whether the technician was certified to
+              perform that inspection, whether the instrument was in calibration, when the next
+              inspection is due, or what the job cost. Most companies evaluating reporting software
+              are really evaluating three adjacent things at once, so it is worth being explicit
+              about which problem you are solving first.
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-slate-100">
+                  <tr>
+                    <th className="px-4 py-3 font-semibold text-slate-900">Layer</th>
+                    <th className="px-4 py-3 font-semibold text-slate-900">Question it answers</th>
+                    <th className="px-4 py-3 font-semibold text-slate-900">Start here if</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-slate-200 align-top">
+                    <td className="px-4 py-3 font-medium">Reporting software</td>
+                    <td className="px-4 py-3 text-slate-700">Can I issue an audit-grade report in the client&apos;s format, fast, without re-keying?</td>
+                    <td className="px-4 py-3 text-slate-700">Report turnaround and formatting is the bottleneck.</td>
+                  </tr>
+                  <tr className="border-t border-slate-200 align-top">
+                    <td className="px-4 py-3 font-medium">
+                      <Link to="/inspection-management-software" className="text-blue-700 underline">Inspection management</Link>
+                    </td>
+                    <td className="px-4 py-3 text-slate-700">Who is certified, what is calibrated, what is scheduled, what did the job cost?</td>
+                    <td className="px-4 py-3 text-slate-700">Certification lapses, calibration misses or audit prep are the pain.</td>
+                  </tr>
+                  <tr className="border-t border-slate-200 align-top">
+                    <td className="px-4 py-3 font-medium">
+                      <Link to="/asset-integrity-management-software" className="text-blue-700 underline">Asset integrity</Link>
+                    </td>
+                    <td className="px-4 py-3 text-slate-700">What condition is the equipment in, what is the risk, how long can it run?</td>
+                    <td className="px-4 py-3 text-slate-700">You own the assets and need RBI and fitness-for-service on measured data.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-slate-700 leading-relaxed mt-5">
+              If you are still deciding which category you are actually shopping for, the{" "}
+              <Link to="/ndt-inspection-software" className="text-blue-700 underline">
+                NDT inspection software buyer&apos;s guide
+              </Link>{" "}
+              separates the four product types that all get called &quot;NDT software&quot; and sets
+              out the eleven capabilities that decide the purchase. All three layers run on one
+              platform at Atlantis, so starting with reporting does not mean re-platforming later.
+            </p>
+          </div>
+        </section>
+
         <ContactDetails />
     </div>
   );

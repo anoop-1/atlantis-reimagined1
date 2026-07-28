@@ -2740,6 +2740,50 @@ const CorporateTrainingAmmoniaPlants = lazy(() => import("./pages/corporate-trai
 const CorporateTrainingBatteryManufacturing = lazy(() => import("./pages/corporate-training/BatteryManufacturing"));
 const CorporateTrainingDataCenters = lazy(() => import("./pages/corporate-training/DataCenters"));
 const CorporateTrainingRailInfrastructure = lazy(() => import("./pages/corporate-training/RailInfrastructure"));
+
+// === Phase 1 buyer-intent money pages 2026-07-27 ===
+// Head-term destinations for the demand clusters the 2026-07-27 GSC audit found
+// unranked or landing on the wrong page ("ndt software", "inspection management
+// software", "asset integrity management software", "erp oil and gas malaysia",
+// "construction erp singapore"). Content lives in src/data/money-pages.ts.
+const NdtInspectionSoftware = lazy(() => import("./pages/ndt-inspection-software"));
+const InspectionManagementSoftware = lazy(() => import("./pages/inspection-management-software"));
+const AssetIntegrityManagementSoftware = lazy(() => import("./pages/asset-integrity-management-software"));
+const ErpOilGasMalaysia = lazy(() => import("./pages/erp-oil-gas-malaysia"));
+const ErpConstructionSingapore = lazy(() => import("./pages/erp-construction-singapore"));
+// === END Phase 1 buyer-intent money pages 2026-07-27 ===
+
+// === Phase 2 competitor-comparison expansion 2026-07-27 ===
+// Competitor comparisons are the best-performing DT asset class in GSC
+// (atlantis-dt-vs-ge-predix: 663 impr/90d at pos 11.4) because the searcher
+// already has a shortlist. Extending to the integrity-specialist and enterprise
+// vendors that appear on real shortlists but had no page.
+const AtlantisDtVsAnteaIms = lazy(() => import("./pages/compare/AtlantisDtVsAnteaIms"));
+const AtlantisDtVsCenoscoIms = lazy(() => import("./pages/compare/AtlantisDtVsCenoscoIms"));
+const AtlantisDtVsMetegrityVisions = lazy(() => import("./pages/compare/AtlantisDtVsMetegrityVisions"));
+const AtlantisDtVsSpheraAssetIntegrity = lazy(() => import("./pages/compare/AtlantisDtVsSpheraAssetIntegrity"));
+const AtlantisDtVsSapApm = lazy(() => import("./pages/compare/AtlantisDtVsSapApm"));
+// === END Phase 2 competitor-comparison expansion 2026-07-27 ===
+
+// === Phase 4 BOFU buyer posts 2026-07-27 ===
+// 61% of site clicks land on blog content written for exam candidates and job
+// seekers. These posts are written for the ERP/DT buying committee instead —
+// QA managers, operations managers and integrity engineers inside inspection
+// companies. Content lives in src/data/bofu-posts.ts.
+const BofuTrackingAsntCertificationExpiryAtScale = lazy(() => import("./pages/blog/tracking-asnt-certification-expiry-at-scale"));
+const BofuCalibrationComplianceIso17025InspectionLabs = lazy(() => import("./pages/blog/calibration-compliance-iso-17025-inspection-labs"));
+const BofuPassingAnApi653ClientAuditEvidencePack = lazy(() => import("./pages/blog/passing-an-api-653-client-audit-evidence-pack"));
+const BofuMultiCrewInspectionSchedulingWithoutDoubleBooking = lazy(() => import("./pages/blog/multi-crew-inspection-scheduling-without-double-booking"));
+const BofuWhatToLookForInNdtReportingSoftware = lazy(() => import("./pages/blog/what-to-look-for-in-ndt-reporting-software"));
+const BofuReplacingSpreadsheetsInAnInspectionBusiness = lazy(() => import("./pages/blog/replacing-spreadsheets-in-an-inspection-business"));
+const BofuInspectionJobCostingWhyContractsLookProfitable = lazy(() => import("./pages/blog/inspection-job-costing-why-contracts-look-profitable"));
+const BofuOfflineFieldDataCaptureForInspectionCrews = lazy(() => import("./pages/blog/offline-field-data-capture-for-inspection-crews"));
+const BofuDocumentControlForNdtProceduresAndWrittenPractices = lazy(() => import("./pages/blog/document-control-for-ndt-procedures-and-written-practices"));
+const BofuBuildingACmlRegisterThatSurvivesTenYears = lazy(() => import("./pages/blog/building-a-cml-register-that-survives-ten-years"));
+const BofuCmmsVsEamVsInspectionManagementSoftware = lazy(() => import("./pages/blog/cmms-vs-eam-vs-inspection-management-software"));
+const BofuOperatorPreMobilisationChecksWhatTheyAskFor = lazy(() => import("./pages/blog/operator-pre-mobilisation-checks-what-they-ask-for"));
+const BofuProvingRbiInspectionIntervalsToARegulator = lazy(() => import("./pages/blog/proving-rbi-inspection-intervals-to-a-regulator"));
+// === END Phase 4 BOFU buyer posts 2026-07-27 ===
 // === /Training day-2 expansion 2026-05-25 ===
 
 const queryClient = new QueryClient();
@@ -5478,6 +5522,32 @@ const App = () => (
                   <Route path="/compare/digital-twin-vs-cmms" element={<LazyRoute Component={CompareDigitalTwinVsCmms} />} />
                   {/* === END DT day-2 expansion 2026-05-25 === */}
                      <Route path="/3d-scanning-services" element={<LazyRoute Component={ThreeDScanning} />} />
+                     {/* === Phase 4 BOFU buyer posts 2026-07-27 === */}
+                     <Route path="/blog/tracking-asnt-certification-expiry-at-scale" element={<LazyRoute Component={BofuTrackingAsntCertificationExpiryAtScale} />} />
+                     <Route path="/blog/calibration-compliance-iso-17025-inspection-labs" element={<LazyRoute Component={BofuCalibrationComplianceIso17025InspectionLabs} />} />
+                     <Route path="/blog/passing-an-api-653-client-audit-evidence-pack" element={<LazyRoute Component={BofuPassingAnApi653ClientAuditEvidencePack} />} />
+                     <Route path="/blog/multi-crew-inspection-scheduling-without-double-booking" element={<LazyRoute Component={BofuMultiCrewInspectionSchedulingWithoutDoubleBooking} />} />
+                     <Route path="/blog/what-to-look-for-in-ndt-reporting-software" element={<LazyRoute Component={BofuWhatToLookForInNdtReportingSoftware} />} />
+                     <Route path="/blog/replacing-spreadsheets-in-an-inspection-business" element={<LazyRoute Component={BofuReplacingSpreadsheetsInAnInspectionBusiness} />} />
+                     <Route path="/blog/inspection-job-costing-why-contracts-look-profitable" element={<LazyRoute Component={BofuInspectionJobCostingWhyContractsLookProfitable} />} />
+                     <Route path="/blog/offline-field-data-capture-for-inspection-crews" element={<LazyRoute Component={BofuOfflineFieldDataCaptureForInspectionCrews} />} />
+                     <Route path="/blog/document-control-for-ndt-procedures-and-written-practices" element={<LazyRoute Component={BofuDocumentControlForNdtProceduresAndWrittenPractices} />} />
+                     <Route path="/blog/building-a-cml-register-that-survives-ten-years" element={<LazyRoute Component={BofuBuildingACmlRegisterThatSurvivesTenYears} />} />
+                     <Route path="/blog/cmms-vs-eam-vs-inspection-management-software" element={<LazyRoute Component={BofuCmmsVsEamVsInspectionManagementSoftware} />} />
+                     <Route path="/blog/operator-pre-mobilisation-checks-what-they-ask-for" element={<LazyRoute Component={BofuOperatorPreMobilisationChecksWhatTheyAskFor} />} />
+                     <Route path="/blog/proving-rbi-inspection-intervals-to-a-regulator" element={<LazyRoute Component={BofuProvingRbiInspectionIntervalsToARegulator} />} />
+                     {/* === Phase 2 competitor-comparison expansion 2026-07-27 === */}
+                     <Route path="/compare/atlantis-dt-vs-antea-ims" element={<LazyRoute Component={AtlantisDtVsAnteaIms} />} />
+                     <Route path="/compare/atlantis-dt-vs-cenosco-ims" element={<LazyRoute Component={AtlantisDtVsCenoscoIms} />} />
+                     <Route path="/compare/atlantis-dt-vs-metegrity-visions" element={<LazyRoute Component={AtlantisDtVsMetegrityVisions} />} />
+                     <Route path="/compare/atlantis-dt-vs-sphera-asset-integrity" element={<LazyRoute Component={AtlantisDtVsSpheraAssetIntegrity} />} />
+                     <Route path="/compare/atlantis-dt-vs-sap-apm" element={<LazyRoute Component={AtlantisDtVsSapApm} />} />
+                     {/* === Phase 1 buyer-intent money pages 2026-07-27 === */}
+                     <Route path="/ndt-inspection-software" element={<LazyRoute Component={NdtInspectionSoftware} />} />
+                     <Route path="/inspection-management-software" element={<LazyRoute Component={InspectionManagementSoftware} />} />
+                     <Route path="/asset-integrity-management-software" element={<LazyRoute Component={AssetIntegrityManagementSoftware} />} />
+                     <Route path="/erp-oil-gas-malaysia" element={<LazyRoute Component={ErpOilGasMalaysia} />} />
+                     <Route path="/erp-construction-singapore" element={<LazyRoute Component={ErpConstructionSingapore} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>

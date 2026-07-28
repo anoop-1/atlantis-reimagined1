@@ -770,5 +770,361 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "Yes. Azure Digital Twins can continue serving its original broader IoT/twin-graph purpose while Atlantis handles fixed-equipment integrity specifically, with API integration pulling relevant telemetry between the two."
       ]
     ]
+  },
+
+  // === Phase 2 vendor expansion 2026-07-27 ===
+  // Integrity-specialist and enterprise vendors that show up on real buyer
+  // shortlists but had no comparison page. Competitor comparisons are the
+  // best-performing DT asset class on the site (atlantis-dt-vs-ge-predix:
+  // 663 impr/90d at pos 11.4), so the pattern is extended, not invented.
+  "antea-ims": {
+    "competitorName": "Antea (Antea IMS)",
+    "positioning": "Antea is a European-origin asset-integrity software vendor whose IMS product is built around a 3D-model-centred inspection data management system (IDMS) for process plant. It is positioned at owner-operators in oil, gas, chemicals and power who want inspection history, corrosion monitoring locations and risk-based inspection consolidated against a navigable 3D representation of the plant, and it is usually sold alongside an implementation and data-population service.",
+    "whereCompetitorWins": [
+      "Established European install base in refining and petrochemicals, with local implementation teams and language coverage",
+      "Mature 3D-model-led navigation of inspection data for owner-operators who have already invested in laser-scanned plant models",
+      "Bundled data-population services for operators who want a vendor to reconcile a legacy CML register on their behalf",
+      "A good fit where the buyer is an asset owner running a single fixed estate rather than a contractor working across many client sites"
+    ],
+    "whereAtlantisWins": "Atlantis is built for the inspection side of the relationship as well as the ownership side. The same platform runs the inspection company's certification currency, calibration traceability, crew scheduling and job costing, and the operator's CML trending, RBI scoring and API 579 fitness-for-service - which matters because the data quality problem in most integrity programmes starts in the field, not in the model. Deployment is measured in weeks per unit, geometry can come from LiDAR, photogrammetry, drone survey or existing BIM/CAD rather than requiring a specific capture route, and full REST API plus documented bulk export is available from day one rather than negotiated at renewal.",
+    "ndtGaps": [
+      "No personnel qualification model - SNT-TC-1A / ISO 9712 / NAS 410 currency and dispatch lockout are outside the product's scope",
+      "No instrument, probe and reference-block calibration register with ISO 17025 traceability",
+      "No multi-client separation for inspection contractors working across several operators",
+      "No work-order costing, progress billing or contract margin visibility",
+      "Field capture is oriented to the owner's inspectors rather than to a contractor's mobile crews working offline"
+    ],
+    "migrationPath": "Where an operator already runs Antea IMS, the common pattern is not replacement but division of labour: Antea retains the owner-side integrity record while Atlantis runs the inspection execution layer for the contractors feeding it, pushing validated thickness readings, indications and reports across by API. Where an operator is consolidating, historical CML registers, thickness histories and inspection documents import in bulk, and the CML identity reconciliation - always the longest task - is done once and reused by both systems during the transition.",
+    "comparisonRows": [
+      {
+        "factor": "Primary buyer",
+        "atlantis": "Both the inspection contractor and the asset owner, on one platform",
+        "competitor": "Asset owner / operator integrity department"
+      },
+      {
+        "factor": "Personnel qualification",
+        "atlantis": "Native SNT-TC-1A / ISO 9712 / NAS 410 currency with dispatch lockout on lapse",
+        "competitor": "Not in scope"
+      },
+      {
+        "factor": "Calibration traceability",
+        "atlantis": "Instruments, probes, wedges and reference blocks with ISO 17025 chains",
+        "competitor": "Not in scope"
+      },
+      {
+        "factor": "Geometry source",
+        "atlantis": "LiDAR, photogrammetry, drone survey, or imported BIM/CAD and isometrics",
+        "competitor": "3D model-led; typically assumes a scanned or supplied plant model"
+      },
+      {
+        "factor": "RBI and FFS",
+        "atlantis": "API 580/581 RBI and API 579 Level 1-2 native on measured thickness",
+        "competitor": "RBI supported; FFS depth varies by configuration and engagement"
+      },
+      {
+        "factor": "Multi-client operation",
+        "atlantis": "Native - separate client asset registers, per-client report templates",
+        "competitor": "Single-owner orientation"
+      },
+      {
+        "factor": "Data ownership",
+        "atlantis": "Documented schema, full bulk export available at any time",
+        "competitor": "Export scope typically defined per contract"
+      }
+    ],
+    "faqs": [
+      [
+        "Is Atlantis a replacement for Antea IMS?",
+        "Not necessarily. If you are an asset owner whose integrity record already lives in Antea and works, the higher-value move is usually to fix the inspection execution layer feeding it - certification currency, calibration traceability, offline field capture and report provenance - and integrate. If you are consolidating platforms, or you are an inspection contractor rather than an owner, Atlantis covers both layers on one system."
+      ],
+      [
+        "Can inspection data move between the two?",
+        "Yes. Validated thickness readings, indications, inspection reports and their provenance metadata move by REST API or structured bulk import, and CML identity is preserved so trending stays continuous across the boundary."
+      ],
+      [
+        "Which is faster to deploy?",
+        "Atlantis typically has a first process unit live in ten to fourteen weeks, largely because geometry is not on the critical path - you can start from isometrics and P&IDs and add scan-derived geometry later. Model-led deployments are gated by the capture and model-preparation step."
+      ]
+    ]
+  },
+  "cenosco-ims": {
+    "competitorName": "Cenosco IMS",
+    "positioning": "Cenosco is a Netherlands-based software vendor whose IMS suite grew out of an operator environment and is strongly associated with pressure-equipment integrity, risk-based inspection and integrity operating windows. It is positioned at owner-operator integrity departments in oil, gas and chemicals that want a rigorous, engineering-led mechanical integrity system of record, and it is generally regarded as strong on the engineering discipline of integrity management.",
+    "whereCompetitorWins": [
+      "Deep pressure-equipment integrity and integrity-operating-window discipline, developed in an operator context rather than retro-fitted",
+      "Well-regarded RBI methodology support for owner-operators running formal, audited integrity programmes",
+      "Strong fit where the customer already has a mature integrity engineering function and wants software that matches its rigour",
+      "European operator install base with domain-experienced implementation staff"
+    ],
+    "whereAtlantisWins": "Atlantis closes the loop between the integrity engineer's model and the inspection that populates it. Certification currency, calibration traceability, offline field capture and report provenance are native, so the data arriving in the RBI engine carries the evidence that it was collected by a qualified inspector using a calibrated instrument under an approved procedure revision - the thing an audit actually tests. It also serves the contractor side of the relationship with multi-client asset registers, per-client reporting and job costing, and it deploys per unit in weeks rather than as an enterprise programme.",
+    "ndtGaps": [
+      "No personnel certification currency model or dispatch lockout",
+      "No calibration register with ISO 17025 traceability for instruments, probes and reference blocks",
+      "No contractor-side capabilities - multi-client separation, per-client report templates, job costing",
+      "Field data capture assumes owner-side inspectors rather than mobile contractor crews working offline",
+      "Inspection-evidence provenance (procedure revision, inspector certification state, instrument calibration state at time of test) is not carried end-to-end"
+    ],
+    "migrationPath": "Operators running Cenosco IMS most often keep it as the owner-side integrity record and add Atlantis underneath as the inspection execution and evidence layer, with validated results flowing in by API. Where full consolidation is intended, equipment and circuit registers, CML registers, thickness histories and inspection documents are migrated in bulk; the CML reconciliation is the long pole and is scoped explicitly rather than assumed.",
+    "comparisonRows": [
+      {
+        "factor": "Origin",
+        "atlantis": "Built from NDT and inspection execution outward",
+        "competitor": "Built from operator-side mechanical integrity engineering outward"
+      },
+      {
+        "factor": "Personnel qualification",
+        "atlantis": "Native, with dispatch lockout on lapse",
+        "competitor": "Not in scope"
+      },
+      {
+        "factor": "Calibration control",
+        "atlantis": "Native, with ISO 17025 traceability chains",
+        "competitor": "Not in scope"
+      },
+      {
+        "factor": "Inspection evidence provenance",
+        "atlantis": "Procedure revision, inspector certification state and instrument calibration state captured at time of test",
+        "competitor": "Results captured; upstream provenance generally external"
+      },
+      {
+        "factor": "RBI depth",
+        "atlantis": "API 580/581 on measured thickness trends per CML",
+        "competitor": "Strong, engineering-led RBI and integrity operating windows"
+      },
+      {
+        "factor": "Contractor use",
+        "atlantis": "Native multi-client, per-client reporting, job costing",
+        "competitor": "Owner-operator orientation"
+      },
+      {
+        "factor": "Time to first unit live",
+        "atlantis": "Typically 10-14 weeks",
+        "competitor": "Enterprise programme timescales"
+      }
+    ],
+    "faqs": [
+      [
+        "Is Cenosco IMS better than Atlantis for RBI?",
+        "For a large owner-operator with a mature integrity engineering function and a formal audited RBI programme, Cenosco's engineering depth is a genuine strength and may well be the better fit. Atlantis's advantage is that its RBI runs on measured thickness trends carried with full inspection provenance, and that the same platform manages the inspection execution producing that data. Many sites benefit from both."
+      ],
+      [
+        "Can Atlantis feed an existing Cenosco deployment?",
+        "Yes. The common pattern is Atlantis as the inspection execution and evidence layer, pushing validated readings and indications with their provenance into the owner-side integrity record by API."
+      ],
+      [
+        "We are an inspection contractor, not an operator. Which fits?",
+        "Contractor requirements - multi-client asset separation, per-client report templates, technician certification currency, calibration control, crew dispatch and job costing - sit outside an owner-operator integrity product's scope. That is the case Atlantis is designed for."
+      ]
+    ]
+  },
+  "metegrity-visions": {
+    "competitorName": "Metegrity Visions Enterprise",
+    "positioning": "Metegrity is a Calgary-based vendor whose Visions Enterprise product is a long-established inspection data management and mechanical integrity system, widely used across North American refining, midstream and petrochemicals. It is positioned at owner-operators managing large fixed-equipment estates who need a defensible, auditable inspection record and inspection planning against API 510, API 570 and API 653.",
+    "whereCompetitorWins": [
+      "Long track record and deep familiarity among North American refining and midstream integrity teams",
+      "Mature inspection data management and planning workflows aligned to API 510/570/653 practice",
+      "Established reporting and audit-evidence patterns that many US and Canadian operators already run their programmes around",
+      "A sensible default where the buyer wants an incumbent, well-understood IDMS and has an internal integrity team to run it"
+    ],
+    "whereAtlantisWins": "Atlantis adds the 3D twin and the execution layer around the same integrity discipline: condition rendered spatially rather than only tabularly, damage mechanisms assigned per API RP 571 against actual process service, API 579 Level 1 and Level 2 assessments run against the stored thickness grid, and - critically - the inspection that produced the data managed on the same platform, with certification currency, calibration traceability and offline field capture. It also serves inspection contractors directly, which an owner-side IDMS does not attempt.",
+    "ndtGaps": [
+      "No native 3D asset twin with spatially rendered condition and remaining-life views",
+      "No personnel certification currency with dispatch lockout",
+      "No calibration register with ISO 17025 traceability",
+      "No contractor-side multi-client operation, per-client reporting or job costing",
+      "Damage-mechanism assignment and FFS workflow depth vary by configuration rather than being native to the core model"
+    ],
+    "migrationPath": "Migration from an established IDMS is mostly a data-quality exercise rather than a technical one. Equipment and circuit registers, CML registers with their identities, thickness histories and inspection documents export cleanly in tabular form and import in bulk; the work is reconciling CML identity and confirming which historical readings are trustworthy enough to drive corrosion rates. That reconciliation is scoped as an explicit workstream, and the two systems are commonly run in parallel for one inspection cycle before cutover.",
+    "comparisonRows": [
+      {
+        "factor": "Core strength",
+        "atlantis": "3D twin plus inspection execution and integrity assessment on one platform",
+        "competitor": "Established owner-side inspection data management and planning"
+      },
+      {
+        "factor": "Spatial condition view",
+        "atlantis": "Native 3D twin with colour-coded remaining life and FFS zones",
+        "competitor": "Primarily tabular and drawing-based"
+      },
+      {
+        "factor": "Personnel and calibration control",
+        "atlantis": "Native certification currency and ISO 17025 calibration traceability",
+        "competitor": "Not in scope"
+      },
+      {
+        "factor": "FFS (API 579)",
+        "atlantis": "Level 1 and Level 2 native against the stored thickness grid",
+        "competitor": "Typically external or configuration-dependent"
+      },
+      {
+        "factor": "Contractor operation",
+        "atlantis": "Native multi-client, per-client templates, job costing",
+        "competitor": "Owner-operator orientation"
+      },
+      {
+        "factor": "Migration",
+        "atlantis": "Bulk import of registers, CMLs, thickness history and documents",
+        "competitor": "n/a - usually the source system"
+      },
+      {
+        "factor": "Data ownership",
+        "atlantis": "Documented schema, full export any time",
+        "competitor": "Export supported; scope per contract"
+      }
+    ],
+    "faqs": [
+      [
+        "Should we replace Visions Enterprise with Atlantis?",
+        "Only if you want something it does not do - a 3D twin, native API 579 assessment against the stored thickness grid, or management of the inspection execution itself. If your Visions deployment is well-populated and your integrity team is happy with it, the higher-return move is usually to fix the data-collection layer feeding it and integrate."
+      ],
+      [
+        "How hard is the data migration?",
+        "Technically straightforward, practically a data-quality exercise. Registers, CMLs, thickness history and documents import in bulk. The real work is reconciling CML identity and deciding which historical readings are trustworthy enough to drive corrosion rates - budget for that explicitly and run both systems in parallel for one cycle."
+      ],
+      [
+        "Does Atlantis support API 510, 570 and 653 planning the same way?",
+        "Yes, with the difference that next-inspection dates are computed from measured corrosion rates per CML rather than from fixed intervals, and the resulting plan renders spatially on the twin as well as in the inspection schedule."
+      ]
+    ]
+  },
+  "sphera-asset-integrity": {
+    "competitorName": "Sphera Asset Integrity & Operational Risk",
+    "positioning": "Sphera is a large ESG, operational-risk and process-safety software vendor whose portfolio includes asset integrity and operational risk management, strengthened by its acquisition of PAS Global. It is positioned at enterprise buyers who want process safety, operational risk, control-system integrity and asset integrity governed under one vendor relationship, and it is typically bought by corporate HSE and risk functions as much as by plant integrity teams.",
+    "whereCompetitorWins": [
+      "Breadth across process safety, operational risk, ESG reporting and control-system integrity under a single vendor",
+      "Strong fit where a corporate HSE or risk function is the buyer and enterprise governance is the primary requirement",
+      "Established enterprise commercial and support structures for very large multi-site organisations",
+      "Control-system and OT asset visibility inherited from the PAS Global side of the portfolio"
+    ],
+    "whereAtlantisWins": "Atlantis is narrower and deeper. It concentrates on fixed-equipment mechanical integrity driven by measured inspection data - CML-resolution thickness trending, damage mechanisms per API RP 571, RBI under API 580/581 and fitness-for-service under API 579 - and on the inspection execution that produces that data. For a plant integrity team whose problem is that inspection data is scattered, unprovenanced and not driving the inspection plan, that focus delivers faster than an enterprise risk platform, and it deploys per unit in weeks rather than as a corporate programme.",
+    "ndtGaps": [
+      "Fixed-equipment condition data at CML resolution is not the centre of the product model",
+      "No personnel certification currency or dispatch lockout for NDT methods",
+      "No calibration register with ISO 17025 traceability for inspection instruments and reference blocks",
+      "API 579 fitness-for-service assessment against a stored thickness grid is not a native workflow",
+      "No contractor-side operation for inspection service providers"
+    ],
+    "migrationPath": "These products usually coexist rather than compete directly. Corporate process-safety and operational-risk governance stays where it is; Atlantis provides the fixed-equipment integrity evidence and inspection execution beneath it, and pushes integrity status, overdue inspections and FFS outcomes upward through API so the enterprise risk picture stays current without integrity engineers re-keying it.",
+    "comparisonRows": [
+      {
+        "factor": "Scope",
+        "atlantis": "Deep on fixed-equipment integrity and inspection execution",
+        "competitor": "Broad across process safety, operational risk, ESG and control-system integrity"
+      },
+      {
+        "factor": "Typical buyer",
+        "atlantis": "Plant integrity team or inspection contractor",
+        "competitor": "Corporate HSE, risk or governance function"
+      },
+      {
+        "factor": "Condition data resolution",
+        "atlantis": "CML and TML level with full thickness time series",
+        "competitor": "Generally equipment and risk-register level"
+      },
+      {
+        "factor": "FFS (API 579)",
+        "atlantis": "Level 1 and Level 2 native",
+        "competitor": "Not a native workflow"
+      },
+      {
+        "factor": "Inspection execution",
+        "atlantis": "Certification, calibration, scheduling, offline field capture, reporting",
+        "competitor": "Out of scope"
+      },
+      {
+        "factor": "Deployment",
+        "atlantis": "Per unit, typically 10-14 weeks to first unit live",
+        "competitor": "Enterprise programme"
+      },
+      {
+        "factor": "Coexistence",
+        "atlantis": "Designed to feed enterprise risk platforms by API",
+        "competitor": "Consumes integrity status from underlying systems"
+      }
+    ],
+    "faqs": [
+      [
+        "Do Atlantis and Sphera compete?",
+        "Rarely head-on. Sphera is usually bought by a corporate risk or HSE function for enterprise governance; Atlantis is bought by a plant integrity team or an inspection contractor for fixed-equipment condition and inspection execution. The common arrangement is Atlantis feeding integrity status and overdue-inspection data upward into the enterprise risk picture."
+      ],
+      [
+        "Which one owns the inspection plan?",
+        "In practice, the system holding CML-resolution thickness data should drive the inspection plan, because next-inspection dates under API 510, 570 and 653 depend on measured corrosion rates. Enterprise risk platforms consume that outcome rather than compute it."
+      ],
+      [
+        "Can integrity status be reported upward automatically?",
+        "Yes - integrity status, overdue inspections, RBI ranking changes and FFS outcomes are exposed by REST API and can be pushed on a schedule or on change into an enterprise risk or ESG reporting layer."
+      ]
+    ]
+  },
+  "sap-apm": {
+    "competitorName": "SAP Asset Performance Management (SAP APM)",
+    "positioning": "SAP APM is SAP's asset performance management offering, positioned as the analytics and strategy layer above SAP Plant Maintenance and S/4HANA - covering asset health indicators, failure-mode and reliability strategy, and predictive maintenance for organisations already standardised on SAP. Its centre of gravity is maintenance strategy and reliability driven by sensor and maintenance-history data.",
+    "whereCompetitorWins": [
+      "Native integration with SAP S/4HANA and SAP Plant Maintenance, including master data, notifications, orders and cost objects",
+      "Single-vendor governance and existing enterprise support for organisations already committed to SAP group-wide",
+      "Reliability strategy tooling - FMEA, criticality and maintenance strategy development sitting close to the work-management system",
+      "Sensible default when the primary requirement is maintenance and reliability across a large owned estate rather than inspection-driven integrity"
+    ],
+    "whereAtlantisWins": "Atlantis models what SAP APM does not: inspection at CML resolution. Thickness time series per corrosion monitoring location, indications tied to specific welds, damage mechanisms per API RP 571, RBI under API 580/581 computed from measured rather than assumed corrosion rates, and API 579 fitness-for-service against the stored thickness grid. It also manages the inspection execution - technician certification currency, instrument calibration traceability, offline field capture, procedure revision control and report provenance - which determines whether the data in any integrity system can be defended in an audit.",
+    "ndtGaps": [
+      "No CML or TML data model, so thickness trending per location is not native",
+      "No structured NDT result model for UT, PAUT, TOFD, RT, MT, PT or ET indications",
+      "No API 579 fitness-for-service engine",
+      "Damage-mechanism assignment per API RP 571 is not part of the core model",
+      "No inspection-personnel qualification or instrument calibration control"
+    ],
+    "migrationPath": "This is an integration story, not a replacement story. SAP remains the system of record for work management, materials and cost; Atlantis holds inspection and integrity data and pushes findings back as notifications and work orders in SAP PM, with equipment master data flowing the other way so the two registers stay aligned. Operators that have tried to model CMLs in SAP characteristics generally find the maintenance burden unsustainable, and the usual outcome is to move that data to a purpose-built integrity layer while keeping SAP authoritative for work and cost.",
+    "comparisonRows": [
+      {
+        "factor": "Centre of gravity",
+        "atlantis": "Inspection-driven fixed-equipment integrity",
+        "competitor": "Maintenance strategy and reliability above SAP PM"
+      },
+      {
+        "factor": "CML thickness trending",
+        "atlantis": "Native time series per CML with computed corrosion rates",
+        "competitor": "Not modelled natively"
+      },
+      {
+        "factor": "NDT result model",
+        "atlantis": "UT, PAUT, TOFD, RT, MT, PT, ET results structured and tied to welds and CMLs",
+        "competitor": "Not modelled natively"
+      },
+      {
+        "factor": "FFS (API 579)",
+        "atlantis": "Level 1 and Level 2 native",
+        "competitor": "Not offered"
+      },
+      {
+        "factor": "RBI (API 580/581)",
+        "atlantis": "Native, driven by measured corrosion rates",
+        "competitor": "Strategy and criticality tooling rather than API 581 RBI on measured thickness"
+      },
+      {
+        "factor": "Work management",
+        "atlantis": "Integrates - raises notifications and orders in SAP PM",
+        "competitor": "Native, and should stay authoritative"
+      },
+      {
+        "factor": "Best arrangement",
+        "atlantis": "Integrity and inspection layer beneath SAP",
+        "competitor": "Enterprise work, materials and cost system of record"
+      }
+    ],
+    "faqs": [
+      [
+        "Can we just model CMLs in SAP instead of buying another system?",
+        "It is technically possible using characteristics and measuring points, and some operators have done it. The recurring problem is maintenance burden: CML registers change constantly, thickness readings arrive in bulk from contractors, and corrosion-rate computation and API 579 assessment are not native. Most sites that try it eventually move the inspection data to a purpose-built layer while keeping SAP authoritative for work and cost."
+      ],
+      [
+        "How does Atlantis integrate with SAP PM?",
+        "Two-way. Equipment master data and functional locations flow from SAP so the registers stay aligned; inspection findings raise notifications and work orders back in SAP PM with traceability to the inspection report that generated them."
+      ],
+      [
+        "Does this duplicate our SAP APM investment?",
+        "No, because they operate on different data. SAP APM works from sensor and maintenance history to drive reliability strategy; Atlantis works from measured inspection data to drive integrity and remaining-life decisions on fixed equipment. Rotating equipment and fixed equipment genuinely need different models."
+      ]
+    ]
   }
 };

@@ -71,7 +71,7 @@ const caseStudies = [
   },
   {
     title: "Calibration laboratory group (multi-site India, 28 technicians)",
-    body: "NABL ISO 17025 calibration laboratory operating across Mumbai, Bangalore and Hyderabad. NetSuite OneWorld quote: INR 4.8 crore over 5 years for multi-entity consolidation. Atlantis NDT ERP INR 15 lakh/year. ISO 17025 calibration record tracking, uncertainty budget calculations, NABL CIPM-aligned audit trails and PESO Form XVI/XIV statutory submissions all pre-built. Saved approximately INR 4.05 crore over 5 years.",
+    body: "NABL ISO 17025 calibration laboratory operating across Mumbai, Bangalore and Hyderabad. NetSuite OneWorld quote: INR 4.8 crore over 5 years for multi-entity consolidation. Atlantis NDT ERP on affordable flat regional pricing. ISO 17025 calibration record tracking, uncertainty budget calculations, NABL CIPM-aligned audit trails and PESO Form XVI/XIV statutory submissions all pre-built. Saved approximately INR 4.05 crore over 5 years.",
   },
   {
     title: "Aerospace quality-control inspection firm (Bangalore + Toulouse, 36 technicians)",
@@ -83,15 +83,15 @@ const caseStudies = [
   },
   {
     title: "Welding fabrication shop with QA/QC arm (Vadodara, 25 technicians + 80 welders)",
-    body: "L&T Heavy Engineering and Reliance Hazira supplier work — AWS D1.1 welder qualification tracking, ASME Section IX PQR/WPS management, IS 2825 pressure-vessel code conformity. NetSuite Manufacturing OneWorld quote: INR 3.2 crore over 5 years. Atlantis NDT ERP INR 15 lakh/year. Welder qualification database, NDE traveler integration with L&T Heavy Engineering portal and bilingual English/Gujarati documentation all delivered in 7 weeks.",
+    body: "L&T Heavy Engineering and Reliance Hazira supplier work — AWS D1.1 welder qualification tracking, ASME Section IX PQR/WPS management, IS 2825 pressure-vessel code conformity. NetSuite Manufacturing OneWorld quote: INR 3.2 crore over 5 years. Atlantis NDT ERP on affordable flat regional pricing. Welder qualification database, NDE traveler integration with L&T Heavy Engineering portal and bilingual English/Gujarati documentation all delivered in 7 weeks.",
   },
   {
     title: "Field-service NDT contractor (Edmonton, 31 technicians)",
-    body: "Alberta oil-sands FIFO operations to Fort McMurray, Kearl, Horizon and Cold Lake. NetSuite OneWorld + Field Service Management quote: CAD 980K over 5 years. Atlantis NDT ERP CAD 24,500/year. ABSA CRN tracking, CGSB 48.9712 currency monitoring, FIFO roster automation and cold-weather mobilization packs all delivered in 8 weeks. Saved approximately CAD 855K over 5 years; eliminated days of pre-deployment paperwork on oil-sands turnaround projects.",
+    body: "Alberta oil-sands FIFO operations to Fort McMurray, Kearl, Horizon and Cold Lake. NetSuite OneWorld + Field Service Management quote: CAD 980K over 5 years. Atlantis NDT ERP on affordable flat regional pricing. ABSA CRN tracking, CGSB 48.9712 currency monitoring, FIFO roster automation and cold-weather mobilization packs all delivered in 8 weeks. Saved approximately CAD 855K over 5 years; eliminated days of pre-deployment paperwork on oil-sands turnaround projects.",
   },
   {
     title: "Construction quality assurance firm (Dubai + Abu Dhabi, 40 technicians)",
-    body: "Serving ADNOC Ruwais expansion, Etihad Rail, Masdar City and Dubai South Aviation City construction QA — concrete cylinder testing, soil testing, structural welding inspection, MEP commissioning. NetSuite OneWorld quote: AED 2.3M over 5 years. Atlantis NDT ERP AED 66,000/year. Construction-specific work-order management, FANR radiography licensing tracking, EIAC ISO 17020 audit-trail compliance and Tejari evidence-pack export all pre-built. Saved approximately AED 1.97M over 5 years.",
+    body: "Serving ADNOC Ruwais expansion, Etihad Rail, Masdar City and Dubai South Aviation City construction QA — concrete cylinder testing, soil testing, structural welding inspection, MEP commissioning. NetSuite OneWorld quote: AED 2.3M over 5 years. Atlantis NDT ERP on affordable flat regional pricing. Construction-specific work-order management, FANR radiography licensing tracking, EIAC ISO 17020 audit-trail compliance and Tejari evidence-pack export all pre-built. Saved approximately AED 1.97M over 5 years.",
   },
 ];
 
@@ -244,7 +244,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">2. Flat-fee vs per-user pricing</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">NetSuite charges per user — growing from 50 to 100 users approximately doubles your license cost. Atlantis NDT ERP is flat regional pricing for the first 25 users with additional users at $50/user/month — growing from 50 to 100 users adds approximately $30K/year, not $500K-$700K/year. Inspection contractors with seasonal scaling (turnaround crews, FIFO rotations, project-based hiring) save meaningfully on flat pricing.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">NetSuite charges per named user, so doubling headcount roughly doubles the licence cost. Atlantis NDT ERP uses a flat regional band that covers a core team, with additional users added incrementally rather than at full per-seat rate — so scaling a crew does not scale the licence proportionally. Inspection contractors with seasonal swings (turnaround crews, FIFO rotations, project-based hiring) benefit most from that shape. Pricing varies by region and team size — request a tailored quote.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Open-source flexibility</h3>
