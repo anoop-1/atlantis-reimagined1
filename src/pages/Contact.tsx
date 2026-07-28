@@ -10,7 +10,8 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Navigation } from "@/components/Navigation";
 import { Users, CheckCircle2, Cpu, Award } from "lucide-react";
 import ContactDetails from "@/components/ContactDetails";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 
 export default function Contact() {
    const contactInfo = [
@@ -80,15 +81,51 @@ export default function Contact() {
       },
    };
 
+   // 2026-07-29 CRO fix. GA4 for the last 28 days: 392 erp_demo_request_click
+   // events but only 66 form_start and 34 generate_lead. Visitors were arriving
+   // at /contact?subject=ERP%20Demo%20Request and finding a completely blank
+   // form with no indication that their intent had carried across, so most of
+   // them left. Deep-linked intent is now honoured: ?service= preselects the
+   // dropdown and ?subject= seeds the message, so the visitor lands on a form
+   // that already knows why they are there.
+   const [searchParams] = useSearchParams();
+   const presetService = (searchParams.get("service") || "").toLowerCase();
+   const presetSubject = searchParams.get("subject") || "";
+
+   const inferService = () => {
+      if (presetService) return presetService;
+      const s = presetSubject.toLowerCase();
+      if (s.includes("erp")) return "erp";
+      if (s.includes("twin")) return "digital-twins";
+      if (s.includes("scan")) return "3d-scanning";
+      if (s.includes("train")) return "training";
+      if (s.includes("consult")) return "consulting";
+      if (s.includes("inspect")) return "inspection";
+      return "";
+   };
+
    const [formData, setFormData] = useState({
       firstName: "",
       lastName: "",
       email: "",
       phone: "",
       company: "",
-      service: "",
-      message: "",
+      service: inferService(),
+      message: presetSubject ? `${presetSubject} — ` : "",
    });
+
+   // Keep the form in step if the visitor arrives via an in-app link that only
+   // changes the query string (React Router will not remount the component).
+   useEffect(() => {
+      const svc = inferService();
+      if (!svc && !presetSubject) return;
+      setFormData((prev) => ({
+         ...prev,
+         service: prev.service || svc,
+         message: prev.message || (presetSubject ? `${presetSubject} — ` : ""),
+      }));
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+   }, [presetService, presetSubject]);
    const [loading, setLoading] = useState(false);
    const [success, setSuccess] = useState("");
    const formRef = useRef<HTMLFormElement>(null);
@@ -320,7 +357,21 @@ export default function Contact() {
                                     value={formData.service}
                                     onChange={handleChange}
                                  >
+                                    {/* 2026-07-29: ERP and 3D Scanning added. GA4 shows /erp is the
+                                        single largest landing page on the site (7,638 sessions/28d)
+                                        and ERP demo requests arrive at /contact?subject=ERP Demo
+                                        Request — but ERP was not selectable here, so those enquiries
+                                        were being filed against a blank or unrelated service. */}
                                     <option value="">Select a service</option>
+                                    <option value="erp">
+                                       ERP &amp; Business Management Software
+                                    </option>
+                                    <option value="digital-twins">
+                                       Digital Twins &amp; Asset Integrity
+                                    </option>
+                                    <option value="3d-scanning">
+                                       3D Scanning &amp; Reality Capture
+                                    </option>
                                     <option value="inspection">
                                        Inspection Services
                                     </option>
@@ -330,8 +381,8 @@ export default function Contact() {
                                     <option value="consulting">
                                        Consulting
                                     </option>
-                                    <option value="digital-twins">
-                                       Digital Twins
+                                    <option value="other">
+                                       Something else
                                     </option>
                                  </select>
                               </div>

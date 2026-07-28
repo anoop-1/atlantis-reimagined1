@@ -14,19 +14,26 @@ interface Props {
 }
 
 const COPY = {
+  // 2026-07-29 rewrite. Previously this copy spoke only to NDT inspection
+  // companies and led with product internals and figures. The ERP is a general
+  // business management platform — inspection is one of the industries it
+  // serves, not its ceiling — and per owner direction the copy carries no
+  // numbers of any kind. Positioning: affordable, accessible, fully
+  // customizable; call to action is always a conversation, never a price.
   erp: {
-    badge: "NDT Inspection Company — Free ERP Consultation",
-    title: "Get a Free 30-Min ERP Consultation for Your Inspection Company",
-    sub: "Affordable. Accessible. Fully Customizable. 30+ Odoo apps included. ASNT Level III led. Free consultation + tailored quote on request.",
-    subject: "ERP Enquiry — Atlantis NDT (from /erp)",
-    usecasePlaceholder: "Cert tracking, work orders, calibration, IACS Marine reports, mobile field app, RBI / FFS, migration from Excel / Tally / SAP / Maximo / NetSuite…",
-    submitLabel: "Get My Free ERP Consultation",
+    badge: "Free consultation — no obligation",
+    title: "Run Your Whole Business on One Affordable, Fully Customizable Platform",
+    sub: "Sales, projects, people, stock, field teams, quality and accounts — joined up, and shaped around the way you already work. Affordable. Accessible. Fully customizable. Book a free consultation and we will show you it running on your own workflow.",
+    subject: "ERP Enquiry — Atlantis (from /erp)",
+    usecasePlaceholder: "What are you trying to fix? Quoting and sales, projects and job costing, field teams, stock, compliance records, or moving off spreadsheets…",
+    submitLabel: "Book My Free Consultation",
     trustSignals: [
-      "Affordable, accessible, fully customizable",
-      "30+ Odoo apps included out of the box",
-      "ASNT NDT Level III led implementation",
-      "IACS Marine + API 510/570/653 templates ready",
-      "Free consultation + tailored quote on request",
+      "Affordable, accessible and fully customizable — built around your process, not the other way round",
+      "One joined-up platform instead of disconnected tools that never agree with each other",
+      "Every business app you need included — sales, CRM, projects, inventory, HR, accounts, field service and more",
+      "Configured for your industry before you ever log in, then tailored further as you grow",
+      "Your data stays yours: open export, documented structure, no lock-in",
+      "Free consultation and a quote tailored to your region, team size and scope",
     ],
   },
   dt: {
@@ -197,7 +204,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
 
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Why operators pick Atlantis NDT</h3>
+            <h3 className="text-xl font-bold mb-4">Why businesses choose Atlantis</h3>
             <ul className="space-y-3">
               {c.trustSignals.map((t, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -207,15 +214,15 @@ export default function EnquiryCaptureForm({ variant }: Props) {
               ))}
             </ul>
             <p className="mt-6 text-sm text-muted-foreground">
-              <strong>Led by Anoop Rayavarapu</strong> — ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor. 30+ live deployments worldwide.
+              <strong>Led by Anoop Rayavarapu</strong> — founder, ISO 9001 Lead Auditor, with live deployments across the Americas, Europe, the Middle East, Africa and Asia-Pacific.
             </p>
           </div>
 
           {status === "sent" ? (
             <div className={`p-6 rounded-xl border-2 border-${color}-300 bg-white`}>
-              <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — we&apos;ll be in touch within 24 hours</h3>
+              <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — we&apos;ll be in touch shortly</h3>
               <p className="text-muted-foreground">
-                Thanks for the enquiry. Your dedicated consultant will reach out within 1 business day with a tailored quote + a calendar link for your free 30-min consultation.
+                Thanks for reaching out. A consultant will contact you shortly with a tailored quote and a calendar link for your free consultation — no obligation, and nothing to install first.
               </p>
             </div>
           ) : (
@@ -226,11 +233,11 @@ export default function EnquiryCaptureForm({ variant }: Props) {
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-1">Work email *</label>
-                <input required value={email} onChange={e => setEmail(e.target.value)} type="email" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="you@inspectionco.com" />
+                <input required value={email} onChange={e => setEmail(e.target.value)} type="email" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="you@yourcompany.com" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-1">Company *</label>
-                <input required value={company} onChange={e => setCompany(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Your inspection company / EPC / operator" />
+                <input required value={company} onChange={e => setCompany(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Your company" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-1">Use case</label>
@@ -238,7 +245,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-1">Anything else?</label>
-                <textarea value={message} onChange={e => setMessage(e.target.value)} rows={3} className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Region, team size, current stack, target timeline…" />
+                <textarea value={message} onChange={e => setMessage(e.target.value)} rows={3} className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Where you are based, roughly how big the team is, what you use today, and when you would like to move…" />
               </div>
               <button type="submit" disabled={status === "sending"} className={`w-full px-6 py-3 rounded-lg bg-${color}-600 text-white font-semibold hover:bg-${color}-500 transition disabled:opacity-60`}>
                 {status === "sending" ? "Sending…" : c.submitLabel}
@@ -250,7 +257,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
                 </p>
               )}
               <p className="text-xs text-muted-foreground text-center">
-                Free consultation + tailored quote. Pricing varies by region and scope.
+                Free consultation and a tailored quote. Pricing depends on your region, team size and scope — tell us the shape of it and we will come back with a figure that fits.
               </p>
             </form>
           )}

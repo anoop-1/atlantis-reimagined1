@@ -1,0 +1,63 @@
+{
+  "generated": "2026-07-13T10:11:37.966Z",
+  "total": 6,
+  "summary": {
+    "ready": 6
+  },
+  "results": [
+    {
+      "name": "corrosion-management-ndt",
+      "status": "ready",
+      "hadLink": true,
+      "projectId": "prj_nzXWh3Vew6x73nC0zPnY3faskQxO",
+      "orgId": "team_RvIKW6PFuuliC77dktstAJmQ",
+      "deployUrl": "https://corrosion-management-a6dos49rh-anoops-projects-776b2b4a.vercel.app",
+      "attempt": 1
+    },
+    {
+      "name": "industrial-inspection-resources",
+      "status": "ready",
+      "hadLink": true,
+      "projectId": "prj_OPKgkMmKW3Ivq5oZhsBcVUbHrsnN",
+      "orgId": "team_RvIKW6PFuuliC77dktstAJmQ",
+      "deployUrl": "https://industrial-inspection-resources-i480n4if1.vercel.app",
+      "attempt": 1
+    },
+    {
+      "name": "manufacturing-ndt-quality",
+      "status": "ready",
+      "hadLink": true,
+      "projectId": "prj_DAAqn17lyH2SRMyMfoeMkFX7dBDe",
+      "orgId": "team_RvIKW6PFuuliC77dktstAJmQ",
+      "deployUrl": "https://manufacturing-ndt-quality-12gkgbyy5-anoops-projects-776b2b4a.vercel.app",
+      "attempt": 1
+    },
+    {
+      "name": "marine-offshore-ndt",
+      "status": "ready",
+      "hadLink": true,
+      "projectId": "prj_WMerlFeybOEZX8woLIbsVR2Q5a7A",
+      "orgId": "team_RvIKW6PFuuliC77dktstAJmQ",
+      "deployUrl": "https://marine-offshore-qdjvu46nq-anoops-projects-776b2b4a.vercel.app",
+      "attempt": 1
+    },
+    {
+      "name": "middle-east-ndt-resource",
+      "status": "ready",
+      "hadLink": true,
+      "projectId": "prj_6Lwt1VnNqejZbPDjO0WYcN6wt44A",
+      "orgId": "team_RvIKW6PFuuliC77dktstAJmQ",
+      "deployUrl": "https://middle-east-ndt-resource-pkjbrrefp-anoops-projects-776b2b4a.vercel.app",
+      "attempt": 1
+    },
+    {
+      "name": "ndt-careers-portal",
+      "status": "ready",
+      "hadLink": true,
+      "projectId": "prj_EK30okelrmeHgVhO8SfydlBhwfP5",
+      "orgId": "team_RvIKW6PFuuliC77dktstAJmQ",
+      "deployUrl": "https://ndt-careers-portal-2gb0obu21-anoops-projects-776b2b4a.vercel.app",
+      "attempt": 1
+    }
+  ]
+}

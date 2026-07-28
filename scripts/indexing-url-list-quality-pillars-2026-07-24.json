@@ -1,0 +1,166 @@
+{
+ "generated": "2026-07-24",
+ "source": "ultra-quality upgrade: DT usecases + ERP module/industry hubs",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/digital-twins/refinery/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/fpso/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/storage-tank/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/pipeline/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/nuclear-plant/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/wind-farm/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/offshore-platform/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/petrochemical-complex/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/heat-exchanger/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/pressure-vessel/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/subsea/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/data-center/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/lng-terminal/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/hydrogen-electrolyzer/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/ammonia-plant/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/battery-storage/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twins/solar-farm/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/asset-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/audit-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/calibration-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/certification-tracking/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/corrosion-tracking/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/document-control/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/inspection-scheduling/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/inventory-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/project-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/quality-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-modules/work-order-management/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/aerospace-quality-control/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/calibration-laboratories/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/construction-quality-assurance/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/environmental-testing-labs/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/geotechnical-engineering/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/industrial-coatings-inspection/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/marine-survey-companies/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/metrology-laboratories/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/ndt-inspection-companies/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/oilfield-services/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/pipeline-integrity-services/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/erp-industries/welding-fabrication-shops/",
+   "tier": "A"
+  }
+ ]
+}

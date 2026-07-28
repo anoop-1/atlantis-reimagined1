@@ -59,7 +59,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title={`${props.pageTitle} — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT`}
+        title={`${props.pageTitle} — Fully Customizable, All Every Business App You Need Included | Atlantis NDT`}
         description={props.metaDescription}
         canonical={`/erp/${props.slug}`}
         faq={props.faqs}

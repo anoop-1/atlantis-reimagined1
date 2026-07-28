@@ -7115,7 +7115,7 @@ const erpModules = [
 const buildErpBuyerFAQ = (city: string, country: string) => [
   {
     question: `What ERP do NDT inspection companies in ${city} use?`,
-    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, 30+ Odoo apps included. Free consultation: info@atlantisndt.com.`,
+    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, every business app you need included. Free consultation: info@atlantisndt.com.`,
   },
   {
     question: `How much does an affordable NDT ERP cost in ${city}?`,
@@ -7127,7 +7127,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `Is Atlantis NDT ERP fully customizable for ${city} operations?`,
-    answer: `Yes. Atlantis NDT ERP is built on Odoo 18 with 30+ apps included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 / 510-vs-570 comparison, ASME Section V Articles 2 / 4 / 5 / 6 / 7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, calibration management, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`,
+    answer: `Yes. Atlantis NDT ERP is built on Odoo 18 with every business app you need included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 / 510-vs-570 comparison, ASME Section V Articles 2 / 4 / 5 / 6 / 7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, calibration management, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`,
   },
   {
     question: `How does Atlantis ERP track ASNT certifications and expiries for ${city} inspectors?`,
@@ -7147,7 +7147,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `What modules does the affordable NDT ERP include for ${city} companies?`,
-    answer: `All 30+ Odoo apps included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, RBI, FFS, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
+    answer: `All every business app you need included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, RBI, FFS, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
   },
   {
     question: `Atlantis NDT ERP vs SAP / Maximo / NetSuite — which is better for inspection companies in ${city}?`,
@@ -7268,8 +7268,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   const mergedFaqs = [...cityFaqs, ...buyerFaqs, ...faqs];
 
   const canonicalUrl = `https://atlantisndt.com/${slug}`;
-  const pageTitle = `Affordable NDT ERP in ${city} — Fully Customizable, All 30+ Odoo Apps Included`;
-  const pageDescription = `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all 30+ Odoo apps included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com`;
+  const pageTitle = `Affordable NDT ERP in ${city} — Fully Customizable, All Every Business App You Need Included`;
+  const pageDescription = `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all every business app you need included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com`;
 
   // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
   const hreflangLinks = buildCityHreflang(canonicalUrl, country);

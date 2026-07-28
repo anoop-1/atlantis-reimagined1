@@ -32,6 +32,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 import { upgradeStragglerPages } from './thin-page-stragglers.mjs';
 import { addAuthoredFaqs } from './faq-content.mjs';
 import { loadCityContext, upgradeIndustryPages, upgradeInspectionPages, upgradeCertTrainingPages } from './noindex-recovery.mjs';
+import { applyErpGenericPositioning, assertNoNumbersInErpHubMeta } from './erp-generic-positioning.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SRC = resolve(HERE, '../src');
@@ -624,5 +625,9 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     inspection: upgradeInspectionPages(routes, append),
     certTraining: upgradeCertTrainingPages(routes, append),
     faqs: addAuthoredFaqs(routes, append, DEMAND_SNAPSHOT),
+    // 2026-07-29 owner direction: ERP pages must read as a business management
+    // platform rather than an NDT product, must carry the affordable /
+    // accessible / fully customizable positioning, and must contain no numbers.
+    erp: (assertNoNumbersInErpHubMeta(), applyErpGenericPositioning(routes, append)),
   };
 }

@@ -1,0 +1,774 @@
+{
+ "generated": "2026-07-24",
+ "source": "scale wave: 152 DT + 40 ERP new city pages",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/digital-twin-abqaiq/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-accra/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-al-zour/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-alaska/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-alberta/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-andhra-pradesh/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-azerbaijan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-balikpapan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-bangladesh/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-baytown/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-benicia/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-bintulu/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-bontang/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-california/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-carson/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-channelview/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-cilacap/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-clairton/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-colorado/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-colorado-springs/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-conroe/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-cyprus/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-dearborn/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-deer-park/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-detroit/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-duqm/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-east-chicago/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ecuador/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-el-segundo/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-fawley/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-florida/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-freeport-texas/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-fujairah/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-gabon/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-galveston/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ghana/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-grangemouth/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-greece/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-gujarat/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-guyana/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-hammond/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-huntsville/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-illinois/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-immingham/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-iraq/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-israel/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ivory-coast/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-joliet/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-jurong-island/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-karnataka/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-karsto/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-kazakhstan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-kemaman/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-kerala/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-kerteh/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-khurais/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-la-porte/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-linden-nj/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-long-beach/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-louisiana/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-maharashtra/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-marcus-hook/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-martinez/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mesaieed/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-michigan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-miri/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-monaca/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mongolia/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mongstad/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mozambique/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mussafah/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-myanmar/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-nairobi/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-new-york-state/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-norfolk/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-north-dakota/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ohio/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ontario/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-orange-texas/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-orlando/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-pakistan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-panama/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-pasadena-texas/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-paulsboro/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-pearland/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-pennsylvania/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-phoenix/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-port-kembla/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ras-laffan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-richmond-california/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-salalah/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-senegal/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-shaybah/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-sri-lanka/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-stanlow/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-sugar-land/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-suriname/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-tamil-nadu/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-tanzania/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-teesside/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-telangana/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-texas/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-texas-city/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-torrance/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-trainer/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-trondheim/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-tunisia/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-turkey/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-vernon/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-visakhapatnam/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-west-bengal/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-wilmington-california/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-map-ta-phut/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-map-ta-phut/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-rayong/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-rayong/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ulsan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-ulsan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-yeosu/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-yeosu/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-daesan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-daesan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-kawasaki/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-kawasaki/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-yokkaichi/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-yokkaichi/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mailiao/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-mailiao/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-karachi/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-karachi/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-colombo/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-colombo/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-antwerp/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-antwerp/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-wilhelmshaven/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-wilhelmshaven/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-ludwigshafen/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-ludwigshafen/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-tarragona/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-tarragona/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-sines/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-sines/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-porvoo/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-porvoo/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-gdansk/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-gdansk/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-schwechat/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-schwechat/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-le-havre/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-le-havre/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-leuna/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-leuna/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-jazan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-jazan/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-rabigh/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-rabigh/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-sitra/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-sitra/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-skikda/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-skikda/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-arzew/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-arzew/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mohammedia/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-mohammedia/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mangalore/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-mangalore/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-paradip/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-paradip/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-panipat/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-panipat/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-dahej/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-dahej/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-cartagena/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-cartagena/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-talara/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-talara/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-esmeraldas/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-esmeraldas/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-tula/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-tula/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-salina-cruz/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-salina-cruz/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-mombasa/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-mombasa/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-pointe-noire/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-pointe-noire/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-whiting/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-whiting/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-garyville/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-garyville/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-toledo-ohio/",
+   "tier": "A"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-erp-toledo-ohio/",
+   "tier": "A"
+  }
+ ]
+}

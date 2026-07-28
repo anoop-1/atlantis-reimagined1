@@ -36,11 +36,20 @@ function ErpDemoCTA({ heading, sub }: { heading: string; sub: string }) {
                <h2 className="text-2xl md:text-3xl font-bold mb-3">{heading}</h2>
                <p className="text-base md:text-lg opacity-90 mb-6 max-w-2xl mx-auto">{sub}</p>
                <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <Link
-                     to="/contact?subject=ERP%20Demo%20Request"
+                  {/* 2026-07-29: primary action keeps the visitor on the page they
+                      already chose. Sending them to /contact was losing most of the
+                      intent between the click and the form. */}
+                  <a
+                     href="#erp-enquiry"
                      className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow hover:bg-white/90 transition"
                   >
-                     Book Your ERP Demo <ArrowRight className="w-4 h-4" />
+                     Reach Us Now <ArrowRight className="w-4 h-4" />
+                  </a>
+                  <Link
+                     to="/contact?service=erp&subject=ERP%20Demo%20Request"
+                     className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/80 text-white font-semibold rounded-lg hover:bg-white/10 transition"
+                  >
+                     Book a Free Demo
                   </Link>
                   <a
                      href="https://odoo.atlantisndt.com/"
@@ -50,7 +59,7 @@ function ErpDemoCTA({ heading, sub }: { heading: string; sub: string }) {
                   </a>
                </div>
                <p className="text-sm opacity-80 mt-4">
-                  Affordable. Accessible. Fully customizable. Region-specific quote on request.
+                  Affordable. Accessible. Fully customizable. Free consultation, and a quote shaped to your region, team size and scope.
                </p>
             </div>
          </div>
@@ -88,7 +97,7 @@ export default function Erp() {
          icon: ClipboardCheck,
          title: "Certification & Competency Tracking",
          description:
-            "ASNT / ISO 9712 / PCN / CSWIP certification records per technician per method, with expiry and recert reminders.",
+            "Qualification and licence records per person and per skill, with expiry and renewal reminders — including the method-level certification and recertification tracking inspection and testing businesses are audited on.",
          features: [
             "Per-method cert matrix",
             "Expiry & recert reminders",
@@ -148,10 +157,12 @@ export default function Erp() {
 
    // Quantified hours-saved ROI (operational outcomes, not Atlantis pricing — allowed).
    const roiStats = [
-      { icon: Clock, stat: "~24 hrs", label: "admin time saved per inspector / month" },
-      { icon: FileText, stat: "60% faster", label: "inspection report turnaround" },
-      { icon: Shield, stat: "90% fewer", label: "transcription & data-entry errors" },
-      { icon: Award, stat: "0 lapsed", label: "certifications via automated expiry alerts" },
+      // 2026-07-29: numeric claims removed per owner direction. Outcome
+      // statements carry the same message without a figure to defend.
+      { icon: Clock, stat: "Hours back", label: "every week, from admin nobody was paid to do" },
+      { icon: FileText, stat: "Faster", label: "quotes out, jobs closed, invoices raised" },
+      { icon: Shield, stat: "Fewer errors", label: "because nothing is typed in twice" },
+      { icon: Award, stat: "Nothing lapses", label: "renewals and expiries flag themselves in advance" },
    ];
 
    const industries = [
@@ -172,7 +183,7 @@ export default function Erp() {
       },
       {
          q: "How many apps are included?",
-         a: "All 30+ Odoo apps are included — CRM, Sales, Projects, Quality, Inventory, Accounting, HR, Field Service, Helpdesk, Document control, and more. There is no per-module licence gating; you get the whole suite plus the NDT layer.",
+         a: "Every business app is included — CRM, sales and quoting, projects and job costing, quality, inventory and purchasing, manufacturing, accounting, HR and payroll, field service, helpdesk and document control. There is no per-module licence gating and nothing is held back for a higher tier: you get the whole suite, configured for your industry, and customized further from there.",
       },
       {
          q: "Which NDT methods does the certification tracking cover?",
@@ -275,7 +286,7 @@ export default function Erp() {
 
          <SEOHead
             title="Atlantis NDT ERP — All-in-One Inspection Management Software for NDT Companies"
-            description="NDT-specific ERP for inspection companies — 30+ Odoo apps included, ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, equipment calibration. Affordable, accessible, fully customizable. Book a demo."
+            description="NDT-specific ERP for inspection companies — every business app you need included, ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, equipment calibration. Affordable, accessible, fully customizable. Book a demo."
             keywords="ndt erp, ndt inspection software, inspection management software, ndt reporting software, certification tracking software, Odoo ERP for NDT, calibration management, RBI software, asset integrity ERP"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/erp"
@@ -295,22 +306,35 @@ export default function Erp() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.8 }}
                >
+                  {/* 2026-07-29 repositioning. GA4 shows /erp is the single largest
+                      landing page on the site, but the page spoke only to NDT inspection
+                      companies and led with product internals. Widened to the business
+                      the platform actually serves — any operations-heavy company — with
+                      inspection named as one of the industries rather than the ceiling.
+                      Per owner direction the copy carries no numbers of any kind. */}
                   <h1 id="overview" className="text-4xl md:text-6xl font-bold mb-6">
-                     Atlantis NDT ERP —{" "}
-                     <span className="gradient-text">All-in-One Inspection Management Software for NDT Companies</span>
+                     Run Your Entire Business on One{" "}
+                     <span className="gradient-text">Affordable, Fully Customizable Platform</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                     The Odoo 18 ERP built for NDT service providers, calibration labs, and
-                     asset-integrity firms. All 30+ apps included, plus ASNT/ISO 9712
-                     certification tracking, API 510/570/653 inspection-interval automation,
-                     RBI per API 581, and equipment calibration. Affordable. Accessible. Fully customizable.
+                     Sales, quotes, projects, field teams, stock, purchasing, people, quality
+                     and accounts — connected, in one place, and shaped around the way your
+                     business already works. Every app you need is included, configured for
+                     your industry before you log in, and customized further as you grow.
+                     <strong className="text-foreground"> Affordable. Accessible. Fully customizable.</strong>
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">
-                     <Link
-                        to="/contact?subject=ERP%20Demo%20Request"
+                     <a
+                        href="#erp-enquiry"
                         className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
                      >
-                        Book Your ERP Demo <ArrowRight className="w-4 h-4" />
+                        Reach Us Now <ArrowRight className="w-4 h-4" />
+                     </a>
+                     <Link
+                        to="/contact?service=erp&subject=ERP%20Demo%20Request"
+                        className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-foreground text-background font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
+                     >
+                        Book a Free Demo
                      </Link>
                      <a
                         href="https://odoo.atlantisndt.com/"
@@ -320,11 +344,21 @@ export default function Erp() {
                      </a>
                   </div>
                   <p className="text-sm text-muted-foreground mt-5">
-                     ASNT Level III-built · ISO 9001 document control · region-specific quote on request
+                     Free consultation · no obligation · a quote shaped to your region, team size and scope
                   </p>
                </motion.div>
             </div>
          </motion.section>
+
+         {/* 2026-07-29 CRO fix — inline enquiry, high on the page.
+             GA4 for the last 28 days: 392 erp_demo_request_click events against only
+             66 form_start and 34 generate_lead. The page's only form sat at the very
+             bottom and every CTA above it pushed the visitor off to /contact, where
+             most of them left. The form now sits immediately under the hero, on the
+             page the visitor already chose to be on. */}
+         <div id="erp-enquiry" className="scroll-mt-24">
+            <EnquiryCaptureForm variant="erp" />
+         </div>
 
          {/* ERP Modules */}
          <section id="modules" className="py-20">
@@ -337,11 +371,13 @@ export default function Erp() {
                   transition={{ duration: 0.8 }}
                >
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Key ERP Modules for NDT & Inspection
+                     Everything Your Business Runs On, In One Place
                   </h2>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     A complete suite of integrated modules — certification tracking, equipment
-                     calibration, work orders, quality, finance, and HR — tuned for inspection workflows.
+                     Sales and CRM, quoting, projects and job costing, field service, purchasing,
+                     inventory, manufacturing, HR and payroll, accounting, document control and
+                     quality — one connected platform instead of tools that never quite agree with
+                     each other. Every module is customizable, and you switch on only what you need.
                   </p>
                </motion.div>
 
@@ -387,15 +423,25 @@ export default function Erp() {
          </section>
 
          {/* NDT Method-by-Method */}
+         {/* Mid-page CTA. GA4 average time on /erp is short, so a visitor who is
+             convinced by the module list should not have to scroll to the footer
+             to act on it. */}
+         <ErpDemoCTA
+            heading="Like what you see? Let's shape it around your business."
+            sub="A short, no-obligation conversation. We look at how you work today, show you the platform doing it, and send a quote that fits your size and region."
+         />
+
          <section id="methods" className="py-20 bg-secondary/30">
             <div className="container mx-auto px-6">
                <div className="text-center mb-14">
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Built method-by-method — with the governing standard
+                     Configured For Your Industry Before You Log In
                   </h2>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Every NDT method has its own report templates, procedure control, and
-                     per-technician certification tracking — mapped to the code it's inspected under.
+                     Whatever your sector, the templates, workflows and compliance records that
+                     matter to it are already in place — including the specialist depth inspection
+                     and testing businesses need, where certification currency, equipment
+                     calibration and audit-ready records decide whether you keep the contract.
                   </p>
                </div>
                <div className="grid md:grid-cols-2 gap-4 max-w-5xl mx-auto">
@@ -417,11 +463,13 @@ export default function Erp() {
             <div className="container mx-auto px-6">
                <div className="text-center mb-14">
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     The hours-saved ROI of an NDT-specific ERP
+                     What Changes Once It Is All In One System
                   </h2>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Typical operational outcomes once inspection reporting, certification tracking,
-                     and work orders live in one system instead of spreadsheets.
+                     The hours that disappear into re-keying, chasing records and rebuilding the
+                     same report come back. Quotes go out faster, jobs get costed while they are
+                     still running, and the paperwork an audit asks for is an export rather than
+                     an afternoon.
                   </p>
                </div>
                <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
@@ -458,8 +506,9 @@ export default function Erp() {
                      Industries We Serve
                   </h2>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Trusted by NDT service providers and asset owners across the industries that
-                     depend on inspection integrity.
+                     Service businesses, contractors, manufacturers, laboratories, trading and
+                     distribution companies, and asset owners — including the inspection and
+                     testing sector, where we started and still go deepest.
                   </p>
                </motion.div>
 
@@ -490,7 +539,7 @@ export default function Erp() {
          <section id="faq" className="py-20">
             <div className="container mx-auto px-6 max-w-4xl">
                <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-                  NDT ERP — frequently asked questions
+                  Frequently asked questions
                </h2>
                <div className="space-y-4">
                   {faqs.map((f) => (
@@ -520,7 +569,7 @@ export default function Erp() {
               {
                     "title": "ERP Modules",
                     "href": "/erp-modules",
-                    "description": "Full 35+ Odoo apps catalog",
+                    "description": "The full app catalog",
                     "icon": "erp"
               },
               {
@@ -545,9 +594,9 @@ export default function Erp() {
 
         {/* Country-page link cascade — internal-link authority to 25 LocalBusiness-enabled country ERP pages */}
         <section id="country-coverage" className="container mx-auto px-6 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">NDT ERP — country coverage</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Where we deploy</h2>
           <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Atlantis NDT ERP ships pre-configured for the regulators, currencies, and operator portals of every major NDT market. Affordable. Accessible. Fully customizable.
+            Configured for the tax rules, currencies, languages and reporting formats of the market you operate in — and adjusted again if you operate across several. Affordable. Accessible. Fully customizable.
           </p>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-sm">
             {[
@@ -573,8 +622,8 @@ export default function Erp() {
 
         {/* Final demo CTA + enquiry form */}
         <ErpDemoCTA
-           heading="Ready to run your inspection business on one system?"
-           sub="Tell us your methods, crew size, and client portals — we'll tailor a demo and a region-specific quote."
+           heading="Ready to run your business on one system?"
+           sub="Tell us how you work today and what is getting in the way. We will show you the platform running on your own workflow and send a quote shaped to your region, team size and scope."
         />
 
         <EnquiryCaptureForm variant="erp" />

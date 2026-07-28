@@ -16,6 +16,7 @@ import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
+import { ERP_HUB_META } from './erp-generic-positioning.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -721,7 +722,7 @@ Object.assign(CTR_OVERRIDES, {
   },
   '/erp': {
     title: 'Atlantis NDT ERP 2026: Affordable Inspection Management Software | Free Consultation',
-    description: 'Atlantis NDT ERP for inspection companies — affordable, accessible, fully customizable. 30+ Odoo apps + ASNT/ISO 9712 cert tracking + API 510/570/653 scheduling + IACS Marine reports + Digital Twin integration. Free consultation + free quote on request.'
+    description: 'Atlantis NDT ERP for inspection companies — affordable, accessible, fully customizable. every business app you need + ASNT/ISO 9712 cert tracking + API 510/570/653 scheduling + IACS Marine reports + Digital Twin integration. Free consultation + free quote on request.'
   },
   '/intelligent-reporting-software': {
     title: 'NDT Reporting Software 2026: IACS Marine Format + API Templates | Free Demo',
@@ -732,7 +733,7 @@ Object.assign(CTR_OVERRIDES, {
 // === Day-13 FAT CTR rewrites — target CTR 6%+ on top 60 high-impression weak pages ===
 // Live GSC 2026-06-24 — 263 pages flagged as CTR<6% with >=10 imp. This block
 // rewrites the top 60 (collectively ~80% of impression share). §18 compliant —
-// proof signals only (96% pass, 9 codes, free consultation, 30+ apps, salary
+// proof signals only (96% pass, 9 codes, free consultation, every business app you need, salary
 // outcomes are industry data not Atlantis pricing).
 // Formula: lead with year + outcome/number; <= 65 char title; description carries
 // proof + free CTA. Power-words: Decoded, Step-by-Step, Compared, Real Stats.
@@ -1008,8 +1009,8 @@ Object.assign(CTR_OVERRIDES, {
     description: 'Verified 2026 API 570 inspector salary — by region (US, UK, UAE, India, KSA, AU), experience tier, multi-cert premium. Negotiation tips + free roadmap.'
   },
   '/ndt-erp-solution': {
-    title: 'NDT ERP Solution 2026 — Affordable, Fully Customizable, 30+ Apps | Free Consultation',
-    description: 'Atlantis NDT ERP — affordable, accessible, fully customizable. 30+ Odoo apps + ASNT cert tracking + API 510/570/653 + IACS Marine reports + mobile field app. Free consultation.'
+    title: 'All-in-One Business Software — Affordable, Accessible, Fully Customizable | Atlantis',
+    description: 'Atlantis NDT ERP — affordable, accessible, fully customizable. every business app you need + ASNT cert tracking + API 510/570/653 + IACS Marine reports + mobile field app. Free consultation.'
   },
   '/blog/aerospace-composite-inspection-ndt-methods-guide': {
     title: 'Aerospace Composite Inspection 2026 — 7 NDT Methods Compared (UT, IRT, Bond)',
@@ -1064,8 +1065,8 @@ Object.assign(CTR_OVERRIDES, {
     description: 'Atlantis NDT Digital Twin (inspection-native, API 510/570/653 + FFS) vs AVEVA PI (process historian). Integration paths + free comparison + demo.'
   },
   '/about': {
-    title: 'About Atlantis NDT — ASNT Level III-Led, 30+ Live Deployments | Free Consultation',
-    description: 'Atlantis NDT — led by Anoop Rayavarapu (ASNT NDT Level III, API 653, ISO 9001). NDT software + training + consulting + digital twin platform. 30+ live deployments globally.'
+    title: 'About Atlantis NDT — ASNT Level III-Led, Live Deployments Worldwide | Free Consultation',
+    description: 'Atlantis NDT — led by Anoop Rayavarapu (ASNT NDT Level III, API 653, ISO 9001). NDT software + training + consulting + digital twin platform. live deployments worldwide globally.'
   },
   '/blog': {
     title: 'Atlantis NDT Blog 2026 — ASNT, API, ASME + Industry Code Decoder (250+ Posts)',
@@ -2858,9 +2859,9 @@ const corePages = [
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>Atlantis NDT ERP — All-in-One Inspection Management Software for NDT Companies</h1>
-    <p><strong>Atlantis NDT ERP</strong> is an affordable, all-in-one inspection management platform purpose-built for NDT inspection contractors, EPC operators, and asset owners. 30+ integrated Odoo apps for work orders, ASNT + ISO 9712 + API ICP certification tracking, equipment + calibration management, RBI per API 581, FFS per API 579, inspection reporting, invoicing, and CRM. Affordable, accessible, fully customizable. Replaces 4-8 disjoint tools (Excel cert tracker + Word doc control + paper field capture + spreadsheet audit-trail + standalone calibration LIMS).</p>
+    <p><strong>Atlantis NDT ERP</strong> is an affordable, all-in-one inspection management platform purpose-built for NDT inspection contractors, EPC operators, and asset owners. every integrated Odoo apps for work orders, ASNT + ISO 9712 + API ICP certification tracking, equipment + calibration management, RBI per API 581, FFS per API 579, inspection reporting, invoicing, and CRM. Affordable, accessible, fully customizable. Replaces 4-8 disjoint tools (Excel cert tracker + Word doc control + paper field capture + spreadsheet audit-trail + standalone calibration LIMS).</p>
     <h2>Modules + Features</h2>
-    <p>30+ pre-configured modules for NDT inspection operations: inspector cert tracking (ASNT + ISO 9712 dual-scheme + ACCP + PCN + NAS 410 + EN 4179 aerospace + API ICP + AWS CWI + NACE CIP + CSWIP), equipment + calibration cert tracking (NIST + UKAS + NPL traceability), work-order management, field-service dispatch, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client format), RBI engine (API 581-aligned), FFS engine (API 579-aligned), document control (ISO 9001 + 17020 + 17025), procedure library + Level III sign-off workflow, audit-trail recording, invoicing + accounting + multi-currency, payroll + HR, time-sheet, project management, fleet management, CRM, e-commerce + B2B portal.</p>
+    <p>pre-configured modules for NDT inspection operations: inspector cert tracking (ASNT + ISO 9712 dual-scheme + ACCP + PCN + NAS 410 + EN 4179 aerospace + API ICP + AWS CWI + NACE CIP + CSWIP), equipment + calibration cert tracking (NIST + UKAS + NPL traceability), work-order management, field-service dispatch, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client format), RBI engine (API 581-aligned), FFS engine (API 579-aligned), document control (ISO 9001 + 17020 + 17025), procedure library + Level III sign-off workflow, audit-trail recording, invoicing + accounting + multi-currency, payroll + HR, time-sheet, project management, fleet management, CRM, e-commerce + B2B portal.</p>
     <h2>Integrations</h2>
     <p>Native connectors for SAP PM + EAM + MM + SD, Oracle eAM + EBS + Fusion, IBM Maximo, Microsoft Dynamics, NetSuite, ServiceNow, Salesforce, HubSpot, Meridium APM, AspenTech Mtell, GE Vernova APM, Hexagon HxGN EAM, OSIsoft PI Asset Framework. REST API + webhook + Kafka/MQTT/AMQP for real-time inspection-data feeds.</p>
     <h2>Code + Compliance Framework</h2>
@@ -2884,7 +2885,7 @@ const corePages = [
     <h1>Atlantis vs Floodlight — the NDT reporting software alternative with a full ERP built in</h1>
     <p><strong>Floodlight Software</strong> is a focused NDT inspection-reporting tool. <strong>Atlantis NDT ERP</strong> gives you the same method-by-method inspection reporting (UT, RT, MT, PT, VT, ET, PAUT, TOFD) <strong>plus</strong> the full business system around it — certification tracking, equipment calibration, work orders, RBI per API 581, FFS per API 579, invoicing, HR, and CRM — as one affordable, accessible, fully customizable platform built and supported by an ASNT NDT Level III team. Where Floodlight covers the report, Atlantis covers the whole inspection business.</p>
     <h2>Where Atlantis goes beyond a standalone reporting tool</h2>
-    <p>All 30+ Odoo apps are bundled — no per-module licence gating — and layered with NDT-specific workflows: ASNT / ISO 9712 / PCN / CSWIP certification tracking per technician per method with expiry and recert alerts; API 510/570/653 inspection-interval automation driven by RBI per API 581; equipment and probe calibration registries with due-date alerts; ISO 9001 document and procedure/WPS control with Level III sign-off; and inspection report generation per ASME Section V and API 510/570/653. Teams replace 4–8 disjoint tools (spreadsheet cert trackers, Word doc control, paper field capture, standalone calibration logs) with one system of record.</p>
+    <p>Every business app is bundled — no per-module licence gating — and layered with NDT-specific workflows: ASNT / ISO 9712 / PCN / CSWIP certification tracking per technician per method with expiry and recert alerts; API 510/570/653 inspection-interval automation driven by RBI per API 581; equipment and probe calibration registries with due-date alerts; ISO 9001 document and procedure/WPS control with Level III sign-off; and inspection report generation per ASME Section V and API 510/570/653. Teams replace 4–8 disjoint tools (spreadsheet cert trackers, Word doc control, paper field capture, standalone calibration logs) with one system of record.</p>
     <h2>Method-by-method — with the governing standard</h2>
     <p>UT (ASME V Art. 4 · ASTM E114/E164), RT (ASME V Art. 2 · ISO 17636), MT (ASTM E1444 · ASME V Art. 7), PT (ASTM E1417 · ASME V Art. 6), VT (ASME V Art. 9 · AWS D1.1), ET (ASTM E1004 · ASME V Art. 8), plus PAUT/TOFD (ISO 13588) and API 510/570/653 Authorized Inspector endorsements. Every method has its own report templates, procedure control, and per-technician certification tracking mapped to the code it is inspected under.</p>
     <h2>Capability comparison</h2>
@@ -9374,7 +9375,7 @@ ${blogContentHtml}
 ${blogIntentBlock(blog)}
       <section class="products-services" aria-label="Atlantis NDT products and services">
         <h2>Atlantis NDT Products &amp; Services</h2>
-        <p>Atlantis NDT pairs field expertise with software: <a href="/erp">NDT inspection management software — Atlantis ERP</a> (certification tracking, work orders, method-specific reporting on 30+ apps), a <a href="/digital-twins">digital twin platform for asset integrity</a> (3D corrosion mapping, API 581 RBI, API 579 FFS), and <a href="/best-ndt-reporting-software-2026">NDT reporting software</a>. Build your team with <a href="/training">NDT training &amp; certification</a> (ASNT, API 510/570/653 — 96% first-attempt pass rate) and <a href="/asnt-certification">ASNT certification pathways</a>, or bring in <a href="/consulting">ASNT Level III consulting</a> for RBI, FFS, and written practices. Capture as-built reality with <a href="/3d-scanning-services">3D laser scanning services</a>. Affordable, accessible, fully customizable — <a href="/contact">book a free consultation</a>.</p>
+        <p>Atlantis NDT pairs field expertise with software: <a href="/erp">NDT inspection management software — Atlantis ERP</a> (certification tracking, work orders, method-specific reporting on every business app you need), a <a href="/digital-twins">digital twin platform for asset integrity</a> (3D corrosion mapping, API 581 RBI, API 579 FFS), and <a href="/best-ndt-reporting-software-2026">NDT reporting software</a>. Build your team with <a href="/training">NDT training &amp; certification</a> (ASNT, API 510/570/653 — 96% first-attempt pass rate) and <a href="/asnt-certification">ASNT certification pathways</a>, or bring in <a href="/consulting">ASNT Level III consulting</a> for RBI, FFS, and written practices. Capture as-built reality with <a href="/3d-scanning-services">3D laser scanning services</a>. Affordable, accessible, fully customizable — <a href="/contact">book a free consultation</a>.</p>
       </section>
     </article>
   </main>`;
@@ -9951,7 +9952,7 @@ routes.push({
 const extraPages = [
   // REMOVED: /digital-twins-ndt-guide → redirects to /digital-twins
   // REMOVED: /digital-twins-oil-gas → content consolidated into /digital-twins
-  { path: '/ut-vs-rt-comparison', title: 'UT vs RT: Which Weld Inspection Method Wins? [2026 Comparison]', description: 'UT costs $800/weld vs RT at $1,500 — but RT catches defects UT misses. Side-by-side comparison: cost, speed, safety, accuracy, and ASME/AWS code requirements. Free decision matrix.' },
+  { path: '/ut-vs-rt-comparison', title: 'UT vs RT — Which Weld Inspection Method to Specify | Atlantis NDT', description: 'Ultrasonic versus radiographic weld examination compared on defect type detected, access and safety constraints, speed, permanent-record value and the ASME and AWS code requirements that govern each. Includes a decision matrix.' },
   { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection [2026]: Intervals, Floor Scan & Free Checklist', description: 'API 653 inspection intervals: external every 5 yr, internal every 10 yr (RBI-adjustable). Covers floor UT/MFL scanning, shell thickness, hot-tap repair criteria. Download free checklist.' },
   // REMOVED: /blog/ndt-career-guide → redirects to /blog/ndt-salary-guide-2025-global-level-1-2-3
   { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT for Welds [2026]: Cost, Safety & Accuracy — Which to Choose?', description: 'Choosing UT or RT for weld inspection? Compare cost ($800 vs $1,500+/weld), radiation safety, defect sensitivity, and ASME/AWS requirements. Includes decision matrix and expert picks.' },
@@ -10595,15 +10596,15 @@ const erpCities = [
 // proof terms NDT inspection companies search. §18 compliant — no numeric pricing tokens.
 function erpBuyerFAQHtml(city, country) {
   const qa = [
-    [`What ERP do NDT inspection companies in ${city} use?`, `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, 30+ Odoo apps included. Free consultation: info@atlantisndt.com.`],
+    [`What ERP do NDT inspection companies in ${city} use?`, `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, every business app you need included. Free consultation: info@atlantisndt.com.`],
     [`How much does an affordable NDT ERP cost in ${city}?`, `Pricing varies by region and scope. Atlantis NDT ERP is affordable, accessible, fully customizable — sized for small inspection shops up to multi-site contractor fleets. Request a free quote scoped to your team size, NDT methods covered, and integration needs. Free consultation: info@atlantisndt.com.`],
     [`Can I get a free ERP consultation for my NDT company in ${city}?`, `Yes. Atlantis NDT offers a free consultation for NDT inspection companies, training providers, and asset owners in ${city} and globally. ASNT NDT Level III led discovery, scope sizing, integration mapping, and a tailored demo of the Atlantis NDT ERP, Reporting Software, and Digital Twin platform. Schedule on request.`],
-    [`Is Atlantis NDT ERP fully customizable for ${city} operations?`, `Yes. Atlantis NDT ERP is built on Odoo 18 with 30+ apps included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V Article 2/4/5/6/7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`],
+    [`Is Atlantis NDT ERP fully customizable for ${city} operations?`, `Yes. Atlantis NDT ERP is built on Odoo 18 with every business app you need included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V Article 2/4/5/6/7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`],
     [`How does Atlantis ERP track ASNT certifications and expiries for ${city} inspectors?`, `Atlantis NDT ERP maintains a certified-personnel register with method, level, certifying body, expiry date, annual eye-test record per ISO 9712 §7.4, and Level III approval. Auto-alerts 90 / 60 / 30 days before expiry. Integrated with inspection scheduling so expired certs cannot be assigned to jobs.`],
     [`Does the ERP generate IACS-accepted Marine NDT reports for ${city} shipyards?`, `Yes. Atlantis NDT Reporting Software ships the IACS 4-document sequence — cover page + calibration record + NDT Level II certificate + technical report — accepted by ABS, DNV, Lloyd's, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS under IACS Recommendation No. 20.`],
     [`Can the ERP work offline for field NDT inspections in ${city}?`, `Yes. Atlantis NDT mobile field app captures inspection data offline (UT-T CMLs, PAUT / TOFD scans, MT/PT visuals, photographs) and syncs when connectivity returns. Built for refinery turnarounds, offshore platforms, remote pipeline rights-of-way.`],
     [`How do I migrate from Excel / Tally / QuickBooks to a proper NDT ERP in ${city}?`, `Atlantis NDT runs a structured 4-step migration: data audit + cleanup, phased ingestion, 30-60 day parallel run, cutover. Typical timeline 4-12 weeks. Free consultation to scope.`],
-    [`What modules does the affordable NDT ERP include for ${city} companies?`, `All 30+ Odoo apps included — CRM, Sales, Inventory, Manufacturing, CMMS, Quality, Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, eLearning, Mobile, Studio, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, RBI, FFS, IACS Marine report engine, Atlantis Digital Twin integration.`],
+    [`What modules does the affordable NDT ERP include for ${city} companies?`, `All every business app you need included — CRM, Sales, Inventory, Manufacturing, CMMS, Quality, Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, eLearning, Mobile, Studio, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, RBI, FFS, IACS Marine report engine, Atlantis Digital Twin integration.`],
     [`Atlantis NDT ERP vs SAP / Maximo / NetSuite — which is better for inspection companies in ${city}?`, `SAP / Maximo / NetSuite require six-figure NDT customisation projects. Atlantis NDT ERP comes NDT-ready — ASNT / API / ASME / IACS workflows built in, mobile field app, IACS Marine report engine, Digital Twin integration. Faster implementation, no customisation lock-in, accessible to small + mid-size inspection contractors. Free consultation to compare.`],
     [`Does the ERP integrate with NDT digital twins and reporting software for ${city} operators?`, `Yes. Atlantis NDT ERP, Reporting Software, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP → Reporting Software → Digital Twin. No duplicate entry; SHA-256 audit trail.`],
     [`How long does ERP implementation take for a ${city} NDT inspection company?`, `Typical: 4 weeks for a small shop, 8-12 weeks for mid-size contractor, 12-20 weeks for enterprise. Phased rollout possible. Free scoping consultation: info@atlantisndt.com.`],
@@ -10614,10 +10615,10 @@ function erpBuyerFAQHtml(city, country) {
 erpCities.forEach(({ city, country, slug, industries }) => {
   routes.push({
     path: `/ndt-erp-${slug}`,
-    title: `NDT ERP ${city} 2026 — Affordable, Fully Customizable, 30+ Apps | Free Consultation`,
-    description: `Affordable NDT ERP for inspection companies in ${city}, ${country}. 30+ Odoo apps + ASNT cert tracking + API 510/570/653 scheduling + IACS Marine bundle + mobile field app + Digital Twin integration. Free consultation + tailored quote.`,
+    title: `Business Management Software in ${city} — Affordable, Accessible, Fully Customizable`,
+    description: `Affordable NDT ERP for inspection companies in ${city}, ${country}. every business app you need + ASNT cert tracking + API 510/570/653 scheduling + IACS Marine bundle + mobile field app + Digital Twin integration. Free consultation + tailored quote.`,
     canonical: `${SITE_URL}/ndt-erp-${slug}`,
-    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/consulting">Consulting</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/digital-twins">Digital Twin</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Affordable NDT ERP in ${city} — Fully Customizable, 30+ Apps Included</h1>\n    <p>Purpose-built NDT ERP software for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable. Manage ASNT, ISO 9712, NAS 410, and PCN certification tracking with automated expiry alerts; API 510/570/653 inspection scheduling; ASME Section V Article 2/4/5/6/7 + AWS D1.1 + B31.1/B31.3 procedure libraries; corrosion-rate trending; IACS-accepted Marine NDT report bundle (cover page → calibration → Level II cert → report) for ABS / DNV / Lloyd's / BV / RINA / ClassNK acceptance; offline mobile field app for refinery turnarounds and remote pipeline work; integration with Atlantis NDT Digital Twin and Reporting Software. Serving ${industries}. <a href="/contact">Free consultation</a> on request. Quote on request — pricing varies by region and scope.</p>\n    <h2>Frequently Asked Questions from ${city} NDT Inspection Companies</h2>\n    ${erpBuyerFAQHtml(city, country)}\n    <p><strong>Get a Free ERP Consultation for ${city}.</strong> Atlantis NDT is led by Anoop Rayavarapu (ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor). <a href="/contact">Request a demo</a>. See also <a href="/erp">Atlantis NDT ERP hub</a>, <a href="/best-ndt-reporting-software-2026">Top 10 NDT Reporting Software 2026</a>, <a href="/digital-twins">Atlantis Digital Twin platform</a>, and <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>.</p>\n  </main>`,
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/consulting">Consulting</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/digital-twins">Digital Twin</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Affordable NDT ERP in ${city} — Fully Customizable, Every Business App You Need Included</h1>\n    <p>Purpose-built NDT ERP software for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable. Manage ASNT, ISO 9712, NAS 410, and PCN certification tracking with automated expiry alerts; API 510/570/653 inspection scheduling; ASME Section V Article 2/4/5/6/7 + AWS D1.1 + B31.1/B31.3 procedure libraries; corrosion-rate trending; IACS-accepted Marine NDT report bundle (cover page → calibration → Level II cert → report) for ABS / DNV / Lloyd's / BV / RINA / ClassNK acceptance; offline mobile field app for refinery turnarounds and remote pipeline work; integration with Atlantis NDT Digital Twin and Reporting Software. Serving ${industries}. <a href="/contact">Free consultation</a> on request. Quote on request — pricing varies by region and scope.</p>\n    <h2>Frequently Asked Questions from ${city} NDT Inspection Companies</h2>\n    ${erpBuyerFAQHtml(city, country)}\n    <p><strong>Get a Free ERP Consultation for ${city}.</strong> Atlantis NDT is led by Anoop Rayavarapu (ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor). <a href="/contact">Request a demo</a>. See also <a href="/erp">Atlantis NDT ERP hub</a>, <a href="/best-ndt-reporting-software-2026">Top 10 NDT Reporting Software 2026</a>, <a href="/digital-twins">Atlantis Digital Twin platform</a>, and <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>.</p>\n  </main>`,
   });
 });
 
@@ -12142,15 +12143,15 @@ for (const _r of _day8StuckBackfill) {
   // delivery model + free consultation sections.
   routes.push({
     path: _r.path,
-    title: `Affordable NDT ERP in ${_r.city} — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT`,
-    description: `Atlantis NDT ERP for inspection companies in ${_r.city}. Affordable, accessible, fully customizable — all 30+ Odoo apps included. ASNT/ISO 9712 certification tracking, work orders, RBI software, calibration management, invoicing, CRM, payroll. Demo on request: info@atlantisndt.com.`,
+    title: `Affordable NDT ERP in ${_r.city} — Fully Customizable, All every business app Apps Included | Atlantis NDT`,
+    description: `Atlantis NDT ERP for inspection companies in ${_r.city}. Affordable, accessible, fully customizable — all every business app you need included. ASNT/ISO 9712 certification tracking, work orders, RBI software, calibration management, invoicing, CRM, payroll. Demo on request: info@atlantisndt.com.`,
     canonical: `${SITE_URL}${_r.path}`,
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/digital-twins">Digital Twins</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
-    <h1>Affordable NDT ERP in ${_r.city} — Fully Customizable, All 30+ Odoo Apps Included</h1>
-    <p><strong>Atlantis NDT ERP</strong> — affordable, accessible, fully customizable. All 30+ integrated Odoo apps included out-of-the-box. Built for NDT inspection companies in ${_r.city}: ASNT NDT + ISO 9712 + API ICP + AWS CWI + NACE CIP dual-scheme certification tracking, work orders + dispatch, RBI software per API 581, calibration management with NIST/NPL traceability, invoicing + multi-currency accounting, CRM + sales pipeline, payroll + HR, document control per ISO 9001 + 17020 + 17025, mobile + offline field capture, audit-ready records.</p>
+    <h1>Affordable NDT ERP in ${_r.city} — Fully Customizable, All every business app Apps Included</h1>
+    <p><strong>Atlantis NDT ERP</strong> — affordable, accessible, fully customizable. All every integrated Odoo apps included out-of-the-box. Built for NDT inspection companies in ${_r.city}: ASNT NDT + ISO 9712 + API ICP + AWS CWI + NACE CIP dual-scheme certification tracking, work orders + dispatch, RBI software per API 581, calibration management with NIST/NPL traceability, invoicing + multi-currency accounting, CRM + sales pipeline, payroll + HR, document control per ISO 9001 + 17020 + 17025, mobile + offline field capture, audit-ready records.</p>
     <h2>Modules + Features for ${_r.city} Inspection Companies</h2>
-    <p>30+ pre-configured modules: inspector cert tracking (ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP + PCN + ACCP + NAS 410 + EN 4179 aerospace + JSNDI/KSNT/AINDT/ABENDI/ISNT regional schemes), equipment + calibration cert tracking (NIST + UKAS + NPL + PTB + BAM traceability), work-order management + dispatch, field-service mobile + offline app, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client formats), RBI engine (API 581 aligned with damage-mechanism mapping per API 571), FFS engine (API 579 Levels 1/2/3), document control + procedure library + Level III sign-off workflow, audit-trail recording, multi-currency invoicing + accounting, payroll + HR + time-sheet + project management + fleet management + CRM + e-commerce B2B portal.</p>
+    <p>pre-configured modules: inspector cert tracking (ASNT + ISO 9712 + API ICP + AWS CWI + NACE CIP + CSWIP + PCN + ACCP + NAS 410 + EN 4179 aerospace + JSNDI/KSNT/AINDT/ABENDI/ISNT regional schemes), equipment + calibration cert tracking (NIST + UKAS + NPL + PTB + BAM traceability), work-order management + dispatch, field-service mobile + offline app, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client formats), RBI engine (API 581 aligned with damage-mechanism mapping per API 571), FFS engine (API 579 Levels 1/2/3), document control + procedure library + Level III sign-off workflow, audit-trail recording, multi-currency invoicing + accounting, payroll + HR + time-sheet + project management + fleet management + CRM + e-commerce B2B portal.</p>
     <h2>Code + Compliance Framework</h2>
     <p>Audit-defensible records per <strong>ISO 9001:2015</strong> + <strong>ISO 17020</strong> (inspection body) + <strong>ISO 17025</strong> (calibration laboratory) + <strong>ISO 17024</strong> (personnel cert body). Every inspection + procedure revision + inspector cert + calibration cert timestamped + ASNT NDT Level III-signed. ASME B&amp;PV V + VIII + IX + XI; ASME B31.1/3/4/8/12 piping; API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 936 + 1169; NACE MR0175 + MR0103 sour-service; ASTM E-series; ISO 17635/17636/17640; EN 13445/13480; IACS Rec-20 marine. Dual-scheme cert (ASNT + ISO 9712) for global mobility.</p>
     <h2>Integrations</h2>
@@ -12844,6 +12845,50 @@ ${urls}
   if (missing.length) console.warn(`   ⚠️  Phase-5 paths with NO matching route: ${missing.join(', ')}`);
 }
 
+// ─── ERP HUB META, APPLIED LAST 2026-07-29 ─────────────────────────────────
+// Round-7 and the legacy CTR map both carry older NDT-framed titles for /erp and
+// /ndt-erp-solution and run after the thin-page pass, so the repositioned copy
+// has to be applied here to survive. Owner direction: ERP reads as a business
+// management platform, carries affordable / accessible / fully customizable, and
+// contains no numbers.
+{
+  let n = 0;
+  for (const r of routes) {
+    const m = ERP_HUB_META[r.path];
+    if (!m) continue;
+    r.title = m.title; r.ogTitle = m.title;
+    r.description = m.description; r.ogDesc = m.description;
+    n++;
+  }
+  if (n) console.log(`🏷️  ERP hub repositioning: ${n} hub titles/descriptions rewritten (generic, no numbers)`);
+}
+
+// ─── ERP CITY TITLES — STRIP NUMBERS 2026-07-29 ────────────────────────────
+// The ERP location-page generator emits titles like "... Every Business App You Need ...". Owner
+// direction forbids numbers in ERP copy, and the app count is a product-internal
+// detail rather than a reason for anyone to click.
+{
+  let n = 0;
+  for (const r of routes) {
+    if (!/^\/ndt-erp-/.test(r.path) || !r.title) continue;
+    const before = r.title;
+    r.title = r.title
+      .replace(/\s*[—–-]?\s*\d+\+?\s*(Odoo\s*)?Apps?(\s*Included)?/gi, '')
+      .replace(/\d+\+\s*/g, '')
+      .replace(/\s{2,}/g, ' ')
+      .replace(/,\s*,/g, ',')
+      .replace(/\s+\|/, ' |')
+      .trim();
+    if (r.title !== before) { r.ogTitle = r.title; n++; }
+    if (r.description) {
+      const d0 = r.description;
+      r.description = r.description.replace(/\d+\+?\s*(Odoo\s*)?apps?(\s*included)?/gi, 'every business app you need');
+      if (r.description !== d0) r.ogDesc = r.description;
+    }
+  }
+  if (n) console.log(`🔢 ERP city titles de-numbered: ${n}`);
+}
+
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
 const routeMap = new Map();
 // 2026-07-18 fix: later duplicate entries used to CLOBBER earlier ones wholesale,
@@ -13021,6 +13066,29 @@ routes.forEach(route => {
         ogDesc: override.description,
       };
       ctrOverridesApplied++;
+    }
+
+    // ── ERP repositioning wins over every older override 2026-07-29 ──────
+    // Round-7 and the legacy CTR map still hold NDT-framed ERP titles and are
+    // applied here at render time, so the repositioned copy is re-asserted last.
+    // Owner direction: ERP reads as a business management platform, carries the
+    // affordable / accessible / fully customizable positioning, and contains no
+    // numbers of any kind.
+    {
+      const hub = ERP_HUB_META[route.path];
+      if (hub) {
+        route = { ...route, title: hub.title, ogTitle: hub.title, description: hub.description, ogDesc: hub.description };
+      } else if (/^\/ndt-erp-/.test(route.path) && route.title) {
+        const t = route.title
+          .replace(/\s*[,—–-]?\s*\d+\+?\s*(Odoo\s*)?Apps?(\s*Included)?/gi, '')
+          .replace(/\s{2,}/g, ' ')
+          .replace(/\s+([,|])/g, '$1')
+          .replace(/,\s*\|/g, ' |')
+          .trim();
+        const d = (route.description || '')
+          .replace(/\d+\+?\s*(Odoo\s*)?apps?(\s*included)?/gi, 'every business app you need');
+        route = { ...route, title: t, ogTitle: t, description: d, ogDesc: d };
+      }
     }
 
     // === PSEO NOINDEX 2026-05-09 ===
