@@ -207,6 +207,28 @@ export const STRAGGLER_CONTENT = {
       <p>Decide first what condition data will be attached to the geometry, and at what resolution it needs to be located. Scanning an entire plant at high density before that decision is the most common way to overspend on reality capture: the constraint on a digital twin programme is almost always reconciling the corrosion monitoring location register, not capturing geometry. Scope the scan to the units where the condition data justifies it.</p>
       <p>Related: <a href="/digital-twins">Digital Twin platform</a> · <a href="/digital-twin-vs-3d-model-ndt">digital twin vs 3D model</a> · <a href="/asset-integrity-management-software">asset integrity management software</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Scope a capture programme</a>.</p>`,
   },
+  '/ut-vs-rt-comparison': {
+    h: 'Choosing between ultrasonics and radiography',
+    body: `<p>Both methods examine the volume of a weld, and on many joints either would be acceptable to the code. The choice is usually decided by four things that have nothing to do with which method is "better": the defect type you are most concerned about, the access you have, whether a radiation exclusion zone is tolerable, and whether the client needs a reviewable image on file.</p>
+      <h2>What each finds best</h2>
+      <ul>
+        <li><strong>Radiography</strong> is strong on volumetric defects — porosity, slag, incomplete penetration — and produces a permanent, reviewable image that a third party can re-interpret years later.</li>
+        <li><strong>Ultrasonics</strong> is strong on planar defects such as lack of fusion and cracking, gives through-wall depth information radiography cannot, and needs access to one surface only.</li>
+        <li><strong>Neither is universal.</strong> Amplitude-based ultrasonic sizing is orientation-sensitive; radiography can miss a tight planar flaw that is not aligned to the beam. On critical joints the two are often used together for that reason.</li>
+      </ul>
+      <h2>The constraints that usually decide it</h2>
+      <ul>
+        <li><strong>Radiation safety.</strong> Radiography needs an exclusion zone, which on a live plant frequently means night shifts or a production stop. That cost alone moves many projects to ultrasonics.</li>
+        <li><strong>Access.</strong> Radiography needs both sides of the joint for most techniques; ultrasonics does not.</li>
+        <li><strong>Thickness and material.</strong> Coarse-grained and austenitic materials scatter ultrasound badly. Very thick sections favour ultrasonics on practicality.</li>
+        <li><strong>Turnaround.</strong> Ultrasonic results are immediate; film processing is not, although digital radiography narrows that gap.</li>
+      </ul>
+      <h2>When phased array replaces radiography</h2>
+      <p>Encoded phased array is now routinely accepted in lieu of radiography, which removes the exclusion zone entirely. The substitution is a code question rather than a preference: ASME Section V Article 4 Mandatory Appendices and ASME Code Case 2235 set out the framework, and the justification rests on a documented scan plan demonstrating coverage of the required weld volume — not on an assertion that the method is equivalent.</p>
+      <h2>What the code actually requires</h2>
+      <p>Acceptance criteria come from the construction code governing the item — ASME Section VIII, ASME B31.3, AWS D1.1 or API 1104 — and they differ by examination method, so a weld can legitimately pass one and fail the other. Establish the governing code and edition before the examination is specified, and record both against the result so the disposition can be reconstructed later.</p>
+      <p>Related: <a href="/blog/rt-vs-ut-complete-comparison">the full RT vs UT comparison</a> · <a href="/ultrasonic-testing">ultrasonic testing</a> · <a href="/radiographic-testing">radiographic testing</a> · <a href="/phased-array-ut">phased array</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Ask which to specify for your scope</a>.</p>`,
+  },
 };
 
 export function upgradeStragglerPages(routes, append) {

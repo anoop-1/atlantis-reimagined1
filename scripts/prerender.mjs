@@ -13,6 +13,7 @@ import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
 import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes, extractFromTsx, propsFromPageFile, extractAppRoutes } from './route-reconcile.mjs';
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
+import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -12845,6 +12846,17 @@ ${urls}
   if (missing.length) console.warn(`   ⚠️  Phase-5 paths with NO matching route: ${missing.join(', ')}`);
 }
 
+// ─── CTR WAVE 2 COVERAGE CHECK 2026-07-29 ──────────────────────────────────
+// The fresh audit found 71 pages ranking top-10 with <3% CTR, worth roughly
+// 7,156 clicks/90d at a 5% CTR against a site currently earning ~2,000
+// clicks/28d. Warn loudly if a wave-2 path stops existing.
+{
+  const paths = new Set(routes.map(r => r.path));
+  const missing = Object.keys(CTR_WAVE2_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 2: ${Object.keys(CTR_WAVE2_OVERRIDES).length - missing.length}/${Object.keys(CTR_WAVE2_OVERRIDES).length} target pages present`);
+  if (missing.length) console.warn(`   ⚠️  wave-2 paths with no matching route: ${missing.join(', ')}`);
+}
+
 // ─── ERP HUB META, APPLIED LAST 2026-07-29 ─────────────────────────────────
 // Round-7 and the legacy CTR map both carry older NDT-framed titles for /erp and
 // /ndt-erp-solution and run after the thin-page pass, so the repositioned copy
@@ -13044,7 +13056,10 @@ routes.forEach(route => {
     // (Round-7 entries are newer, GSC-audit-tuned, and pricing-policy-clean).
     // Phase-5 (2026-07-28) title/desc rewrites are the newest, GSC-query-matched
     // layer and must not be clobbered by the older Round-7 or legacy CTR maps.
-    const p5 = PHASE5_CTR_OVERRIDES[route.path];
+    // Wave 2 (2026-07-29) is the newest, query-matched layer and outranks wave 1,
+    // Round-7 and the legacy CTR map on any path they share.
+    const w2 = CTR_WAVE2_OVERRIDES[route.path];
+    const p5 = w2 || PHASE5_CTR_OVERRIDES[route.path];
     const r7raw = ROUND7_BODY_OVERRIDES[route.path];
     const r7 = p5 && r7raw
       ? { ...r7raw, title: p5.title || r7raw.title, description: p5.description || r7raw.description }
@@ -13066,6 +13081,21 @@ routes.forEach(route => {
         ogDesc: override.description,
       };
       ctrOverridesApplied++;
+    }
+
+    // ── Apply the newest CTR layer explicitly ────────────────────────────
+    // BUG FIX 2026-07-29: wave-1 and wave-2 overrides were only reaching the
+    // page when a Round-7 entry also existed for that path — the merge above
+    // is inside `if (r7 …)`, and `override` is nulled when p5 exists, so a page
+    // with a wave override and no Round-7 entry silently kept its old title.
+    // That affected most of the wave-2 targets, which are exactly the pages
+    // with the worst measured CTR. Apply the layer directly instead.
+    if (p5 && (p5.title || p5.description)) {
+      route = {
+        ...route,
+        ...(p5.title ? { title: p5.title, ogTitle: p5.title } : {}),
+        ...(p5.description ? { description: p5.description, ogDesc: p5.description } : {}),
+      };
     }
 
     // ── ERP repositioning wins over every older override 2026-07-29 ──────
