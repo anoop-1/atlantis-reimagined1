@@ -669,3 +669,24 @@ Segments (clicks): Blog 977 · Training/Cert 598 · Other 292 · DT+Scan 58 (dow
 3. ERP Track B — deepen Malaysia / Singapore / Aberdeen / UAE intersection pages, **not** more cities.
 4. ERP Track A — buyer-facing assets linked from the highest-traffic blog posts; measure via `template_download` / `generate_lead`.
 5. Indexing backlog (33% index rate, 6,886 queued, ~35 days).
+
+### 21.7 Strategy executed — 2026-07-29 (commit `ae443b158`)
+
+**Priority 1 — CTR harvest complete.** `scripts/ctr-wave3-overrides.mjs` adds 33 query-matched rewrites, finishing the 71 top-10 / sub-3%-CTR pages (≈7,156 clicks/90d at 5% CTR vs a site earning ~2,000/28d). Includes the zero-click pages `/blog/weld-inspection-acceptance-criteria-aws-vs-asme` (443i, 0c) and `/blog/ai-in-ndt-machine-learning-for-defect-detection` (356i, 0c). Wave 3 also **de-cannibalises** siblings competing on the same term (ASME Section V articles, the two B31.3 pages, API salary/cost pages) by differentiating on angle.
+**Override precedence is now: wave 3 → wave 2 → wave 1 → Round-7 → legacy CTR map.**
+
+**Priority 2 — cert cluster defence.** `scripts/cert-cluster-defence.mjs`. The 4 hubs were NOT thin (~2,000w) and NOT link-poor (500–700 inbound) and are indexed and healthy — the loss is competitive. What is gaining is question-shaped content (exam schedule 27→63 clicks, BOK changes 7→31, pass rates, study guides), so each hub now answers those operational questions directly and routes to the detail pages, becoming the centre of the cluster that is winning.
+
+**Priority 3 — ERP Track B.** `scripts/erp-intersection-boost.mjs`. **No new pages.** 11 feeder pages holding the impressions now point at the destination; both destinations (`/erp-oil-gas-malaysia`, `/erp-construction-singapore`) gained local specificity — licensing/competency evidence, multi-site and multi-currency reality, the quality record Singapore projects are audited on, migration sequence. Both now ~2,700 words.
+
+### 21.8 BUG — the committed demand snapshot had the same slash defect
+`scripts/seo-demand-90d.json` was built by stripping the trailing slash when keying and letting the last row win, so a tiny `/page/` row could overwrite the real one. **16 entries were materially wrong**, including `/api-570-certification` recorded at **1 impression instead of 8,669** and `/blog/api-653-tank-inspection-guide` at **22 instead of 10,374**.
+That snapshot gates **sitemap priority AND the FAQ / authored-content thresholds**, so those pages were demoted in the sitemap and skipped for FAQ schema — `/api-570-certification` had none while its three siblings did. Regenerated with variants **summed**; it now carries FAQ schema and 3,339 words.
+**Rule: when regenerating seo-demand-90d.json, SUM trailing-slash variants. Never collapse them into one key.** Third defect from this single pattern — see also §20.11.
+
+### 21.9 Remaining, in order
+1. **ERP Track A** — buyer-facing downloadable assets linked from the highest-traffic blog posts; measurable immediately via `template_download` / `generate_lead`.
+2. **Indexing backlog** — 33% index rate, 6,886 URLs queued (~35 days at quota). Prioritise by measured demand.
+3. **Aggregator listings** for the money pages — owner action.
+4. **ERP thank-you page URL** so Google Ads can optimise on leads rather than clicks — owner action.
+5. Re-pull GSC ~2026-08-12 and measure against §21 targets: site clicks 2,600+, top-10 sub-3%-CTR pages under 45, ERP clicks 70+, `generate_lead` 60+.
