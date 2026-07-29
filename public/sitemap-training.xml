@@ -100,8 +100,8 @@
   <url>
     <loc>https://atlantisndt.com/power-generation-ndt-training</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/corporate-training/oil-gas</loc>
@@ -1030,8 +1030,8 @@
   <url>
     <loc>https://atlantisndt.com/training/asnt-level-iii-training-portland</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/training/asnt-level-iii-training-salt-lake-city</loc>
@@ -1162,8 +1162,8 @@
   <url>
     <loc>https://atlantisndt.com/training/cwi-training-milwaukee</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/training/cwi-training-cincinnati</loc>
@@ -1336,8 +1336,8 @@
   <url>
     <loc>https://atlantisndt.com/ndt-training-kuwait</loc>
     <lastmod>2026-07-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/ndt-training-qatar</loc>
@@ -1715,7 +1715,7 @@
     <loc>https://atlantisndt.com/ndt-training-south-korea</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/ndt-training-uae</loc>

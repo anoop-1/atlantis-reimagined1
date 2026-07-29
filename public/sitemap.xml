@@ -394,13 +394,13 @@
   <url>
     <loc>https://atlantisndt.com/ndt-connect</loc>
     <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -442,8 +442,8 @@
   <url>
     <loc>https://atlantisndt.com/api-570-certification</loc>
     <lastmod>2026-07-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/api-570-training</loc>
@@ -4648,8 +4648,8 @@
   <url>
     <loc>https://atlantisndt.com/erp-industries/oilfield-services-calgary</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/erp-industries/oilfield-services-perth</loc>
@@ -5422,8 +5422,8 @@
   <url>
     <loc>https://atlantisndt.com/power-generation-ndt-training</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/ndt-connect-platform</loc>
@@ -5788,8 +5788,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/asnt-snt-tc-1a-vs-cp-189-comparison</loc>
     <lastmod>2026-07-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/ndt-consulting-costs-pricing-guide-2025</loc>
@@ -5824,8 +5824,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/100-questions-answers-ndt-atlantis-global-guide</loc>
     <lastmod>2026-07-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/ndt-level-iii-consulting-services-guide</loc>
@@ -5866,14 +5866,14 @@
   <url>
     <loc>https://atlantisndt.com/blog/ndt-consulting-questions-answered-by-level-iii-expert</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/best-ndt-reporting-software-oil-gas-digital-twin</loc>
     <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/future-of-ndt-oil-gas-digital-twins-ai</loc>
@@ -5998,8 +5998,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/shear-wave-ut-for-thick-section-inspection</loc>
     <lastmod>2026-06-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/compression-wave-vs-shear-wave-technical-differences</loc>
@@ -6022,8 +6022,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/corrosion-mapping-with-multiple-ndt-methods</loc>
     <lastmod>2026-07-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/combined-ndt-approaches-for-comprehensive-assessment</loc>
@@ -6262,8 +6262,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/api-579-fitness-for-service-assessment-procedures</loc>
     <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/iso-11699-radiography-film-and-processing-standards</loc>
@@ -6514,8 +6514,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/pipe-wall-thickness-inspection-ut-procedures</loc>
     <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/bolted-joint-integrity-assessment-techniques</loc>
@@ -7036,8 +7036,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/aws-d1-1-structural-welding-code-2026-explained</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/asme-b31-1-power-piping-code-explained</loc>
@@ -7361,7 +7361,7 @@
     <loc>https://atlantisndt.com/blog/asme-b31-9-building-services-piping-code-2026-decoded</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/asme-b31-11-slurry-pipeline-code-2026-decoded</loc>
@@ -7468,8 +7468,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/ndt-software-for-lng-2026-buyer-guide</loc>
     <lastmod>2026-07-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/ndt-software-for-offshore-wind-2026-buyer-guide</loc>
@@ -7523,7 +7523,7 @@
     <loc>https://atlantisndt.com/blog/coating-holiday-detection-asnt-sspc-2026-decoded</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/coating-adhesion-pull-off-astm-d4541-2026-decoded</loc>
@@ -7720,8 +7720,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/lms-ndt-vs-traditional-classroom-2027</loc>
     <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/ai-ndt-defect-detection-2027-buyer-guide</loc>
@@ -8908,8 +8908,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/nace-sp0288-wet-fluorescent-magnetic-particle-2028</loc>
     <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/nace-sp0177-stray-current-mitigation-2028</loc>
@@ -8974,8 +8974,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/ampp-certified-protective-coating-specialist-2028</loc>
     <lastmod>2026-07-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/astm-e114-contact-pulse-echo-ut-2028</loc>
@@ -9046,8 +9046,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/astm-e2373-tofd-examination-2028</loc>
     <lastmod>2026-07-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/astm-e165-pt-standard-test-method-2028</loc>
@@ -9232,8 +9232,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/drone-power-line-inspection-2028</loc>
     <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/rov-offshore-platform-inspection-2028</loc>
@@ -9502,8 +9502,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/ndt-services-tripoli-2028</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/ndt-services-luanda-2028</loc>
@@ -10468,8 +10468,8 @@
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-sao-paulo</loc>
     <lastmod>2026-03-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-rio-de-janeiro</loc>
@@ -11578,8 +11578,8 @@
   <url>
     <loc>https://atlantisndt.com/radiographic-testing-norway</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/radiographic-testing-germany</loc>
@@ -12106,8 +12106,8 @@
   <url>
     <loc>https://atlantisndt.com/magnetic-particle-testing-south-korea</loc>
     <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/magnetic-particle-testing-japan</loc>
@@ -12485,7 +12485,7 @@
     <loc>https://atlantisndt.com/penetrant-testing-portland</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/penetrant-testing-salt-lake-city</loc>
@@ -12820,8 +12820,8 @@
   <url>
     <loc>https://atlantisndt.com/penetrant-testing-marseille</loc>
     <lastmod>2026-07-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/penetrant-testing-milan</loc>
@@ -12947,7 +12947,7 @@
     <loc>https://atlantisndt.com/eddy-current-testing-seattle</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/eddy-current-testing-dallas</loc>
@@ -13006,8 +13006,8 @@
   <url>
     <loc>https://atlantisndt.com/eddy-current-testing-miami</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/eddy-current-testing-washington-dc</loc>
@@ -13510,8 +13510,8 @@
   <url>
     <loc>https://atlantisndt.com/visual-testing-los-angeles</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/visual-testing-new-orleans</loc>
@@ -13751,7 +13751,7 @@
     <loc>https://atlantisndt.com/visual-testing-bahrain</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/visual-testing-oman</loc>
@@ -13858,8 +13858,8 @@
   <url>
     <loc>https://atlantisndt.com/visual-testing-vietnam</loc>
     <lastmod>2026-07-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/visual-testing-south-korea</loc>
@@ -14104,8 +14104,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/api-653-tank-inspection-guide</loc>
     <lastmod>2026-07-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/ut-vs-rt-comparison</loc>
@@ -14326,8 +14326,8 @@
   <url>
     <loc>https://atlantisndt.com/weld-inspection</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/acoustic-emission-testing</loc>
@@ -15808,8 +15808,8 @@
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-austin</loc>
     <lastmod>2026-03-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-san-antonio</loc>
@@ -15820,8 +15820,8 @@
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-fort-worth</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-midland</loc>
@@ -15880,8 +15880,8 @@
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-raleigh</loc>
     <lastmod>2026-03-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/consulting/ndt-consulting-nashville</loc>
@@ -16522,8 +16522,8 @@
   <url>
     <loc>https://atlantisndt.com/blog/api-icp-pass-rates-510-vs-570-vs-653-2026</loc>
     <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/blog/asnt-level-3-fees-2026-complete-pricing-table</loc>
@@ -16588,8 +16588,8 @@
   <url>
     <loc>https://atlantisndt.com/resources</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/industry</loc>
@@ -18286,8 +18286,8 @@
   <url>
     <loc>https://atlantisndt.com/services/acoustic-emission-inspection-houston</loc>
     <lastmod>2026-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/services/acoustic-emission-inspection-los-angeles</loc>
@@ -19522,8 +19522,8 @@
   <url>
     <loc>https://atlantisndt.com/industry/aerospace-ndt-tampa</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/industry/aerospace-ndt-charlotte</loc>
@@ -20134,8 +20134,8 @@
   <url>
     <loc>https://atlantisndt.com/industry/marine-ndt-new-orleans</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/industry/marine-ndt-chicago</loc>
@@ -22252,8 +22252,8 @@
   <url>
     <loc>https://atlantisndt.com/training/asnt-level-iii-training-portland</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/training/asnt-level-iii-training-salt-lake-city</loc>
@@ -22384,8 +22384,8 @@
   <url>
     <loc>https://atlantisndt.com/training/cwi-training-milwaukee</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/training/cwi-training-cincinnati</loc>
@@ -23704,8 +23704,8 @@
   <url>
     <loc>https://atlantisndt.com/ndt-erp-texas-city</loc>
     <lastmod>2026-03-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/ndt-erp-deer-park</loc>
@@ -28120,8 +28120,8 @@
   <url>
     <loc>https://atlantisndt.com/ndt-training-kuwait</loc>
     <lastmod>2026-07-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/ndt-training-qatar</loc>
@@ -28499,7 +28499,7 @@
     <loc>https://atlantisndt.com/ndt-training-south-korea</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/ndt-training-uae</loc>
@@ -29074,8 +29074,8 @@
   <url>
     <loc>https://atlantisndt.com/glossary/ultrasonic-testing</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/radiographic-testing</loc>
@@ -29105,7 +29105,7 @@
     <loc>https://atlantisndt.com/glossary/visual-testing</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/acoustic-emission</loc>
@@ -29261,13 +29261,13 @@
     <loc>https://atlantisndt.com/glossary/distance-gain-size-dgs</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/time-corrected-gain-tcg</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/beam-spread</loc>
@@ -29987,7 +29987,7 @@
     <loc>https://atlantisndt.com/glossary/api-1104</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/api-1163</loc>
@@ -30035,7 +30035,7 @@
     <loc>https://atlantisndt.com/glossary/iso-17640</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/iso-9934</loc>
@@ -30257,7 +30257,7 @@
     <loc>https://atlantisndt.com/glossary/mawp</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/maximum-allowable-working-pressure</loc>
@@ -30299,7 +30299,7 @@
     <loc>https://atlantisndt.com/glossary/fpso</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/riser</loc>
@@ -30371,7 +30371,7 @@
     <loc>https://atlantisndt.com/glossary/butt-weld</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/glossary/socket-weld</loc>

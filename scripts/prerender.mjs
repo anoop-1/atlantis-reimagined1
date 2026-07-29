@@ -14,6 +14,7 @@ import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRout
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
+import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -12855,6 +12856,9 @@ ${urls}
   const missing = Object.keys(CTR_WAVE2_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 2: ${Object.keys(CTR_WAVE2_OVERRIDES).length - missing.length}/${Object.keys(CTR_WAVE2_OVERRIDES).length} target pages present`);
   if (missing.length) console.warn(`   ⚠️  wave-2 paths with no matching route: ${missing.join(', ')}`);
+  const m3 = Object.keys(CTR_WAVE3_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 3: ${Object.keys(CTR_WAVE3_OVERRIDES).length - m3.length}/${Object.keys(CTR_WAVE3_OVERRIDES).length} target pages present`);
+  if (m3.length) console.warn(`   ⚠️  wave-3 paths with no matching route: ${m3.join(', ')}`);
 }
 
 // ─── ERP HUB META, APPLIED LAST 2026-07-29 ─────────────────────────────────
@@ -13058,7 +13062,8 @@ routes.forEach(route => {
     // layer and must not be clobbered by the older Round-7 or legacy CTR maps.
     // Wave 2 (2026-07-29) is the newest, query-matched layer and outranks wave 1,
     // Round-7 and the legacy CTR map on any path they share.
-    const w2 = CTR_WAVE2_OVERRIDES[route.path];
+    const w3 = CTR_WAVE3_OVERRIDES[route.path];
+    const w2 = w3 || CTR_WAVE2_OVERRIDES[route.path];
     const p5 = w2 || PHASE5_CTR_OVERRIDES[route.path];
     const r7raw = ROUND7_BODY_OVERRIDES[route.path];
     const r7 = p5 && r7raw

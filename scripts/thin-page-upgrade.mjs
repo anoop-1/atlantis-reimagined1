@@ -33,6 +33,8 @@ import { upgradeStragglerPages } from './thin-page-stragglers.mjs';
 import { addAuthoredFaqs } from './faq-content.mjs';
 import { loadCityContext, upgradeIndustryPages, upgradeInspectionPages, upgradeCertTrainingPages } from './noindex-recovery.mjs';
 import { applyErpGenericPositioning, assertNoNumbersInErpHubMeta } from './erp-generic-positioning.mjs';
+import { applyCertClusterDefence } from './cert-cluster-defence.mjs';
+import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SRC = resolve(HERE, '../src');
@@ -629,5 +631,12 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // platform rather than an NDT product, must carry the affordable /
     // accessible / fully customizable positioning, and must contain no numbers.
     erp: (assertNoNumbersInErpHubMeta(), applyErpGenericPositioning(routes, append)),
+    // API/ASNT certification cluster has lost position three cycles running.
+    // Not thin, not link-poor, indexed and healthy — competitive loss. Turn each
+    // hub into the centre of the question-shaped cluster that IS gaining.
+    certDefence: applyCertClusterDefence(routes, append),
+    // ERP Track B: consolidate the winnable intersection (Malaysia oil & gas,
+    // Singapore construction) rather than adding more permutations.
+    erpIntersection: applyErpIntersectionBoost(routes, append),
   };
 }

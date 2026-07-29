@@ -1744,8 +1744,8 @@
   <url>
     <loc>https://atlantisndt.com/radiographic-testing-norway</loc>
     <lastmod>2026-07-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/radiographic-testing-germany</loc>
@@ -2272,8 +2272,8 @@
   <url>
     <loc>https://atlantisndt.com/magnetic-particle-testing-south-korea</loc>
     <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/magnetic-particle-testing-japan</loc>
@@ -2645,7 +2645,7 @@
     <loc>https://atlantisndt.com/penetrant-testing-portland</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/penetrant-testing-salt-lake-city</loc>
@@ -2980,8 +2980,8 @@
   <url>
     <loc>https://atlantisndt.com/penetrant-testing-marseille</loc>
     <lastmod>2026-07-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/penetrant-testing-milan</loc>
@@ -3107,7 +3107,7 @@
     <loc>https://atlantisndt.com/eddy-current-testing-seattle</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/eddy-current-testing-dallas</loc>
@@ -3166,8 +3166,8 @@
   <url>
     <loc>https://atlantisndt.com/eddy-current-testing-miami</loc>
     <lastmod>2026-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/eddy-current-testing-washington-dc</loc>
@@ -3664,8 +3664,8 @@
   <url>
     <loc>https://atlantisndt.com/visual-testing-los-angeles</loc>
     <lastmod>2026-07-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/visual-testing-new-orleans</loc>
@@ -3905,7 +3905,7 @@
     <loc>https://atlantisndt.com/visual-testing-bahrain</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/visual-testing-oman</loc>
@@ -4012,8 +4012,8 @@
   <url>
     <loc>https://atlantisndt.com/visual-testing-vietnam</loc>
     <lastmod>2026-07-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/visual-testing-south-korea</loc>
@@ -5956,8 +5956,8 @@
   <url>
     <loc>https://atlantisndt.com/services/acoustic-emission-inspection-houston</loc>
     <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/services/acoustic-emission-inspection-los-angeles</loc>
@@ -7192,8 +7192,8 @@
   <url>
     <loc>https://atlantisndt.com/industry/aerospace-ndt-tampa</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/industry/aerospace-ndt-charlotte</loc>
@@ -7804,8 +7804,8 @@
   <url>
     <loc>https://atlantisndt.com/industry/marine-ndt-new-orleans</loc>
     <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://atlantisndt.com/industry/marine-ndt-chicago</loc>
