@@ -637,3 +637,35 @@ Full assessment: `E:\software\Atlantis\Atlantis-ERP-CRO-and-SEO-Assessment-2026-
 **INDEX COVERAGE IS THE REAL CEILING.** Deep sweep of 496 URLs: **166 indexed, 313 not indexed, 17 errors = 33% index rate**, with **6,886 URLs still queued (~35 days at daily quota)**. Publishing more pages does not help until this moves. Prioritise submission of pages with measured demand over breadth.
 
 **Trailing-slash duplicates:** 19 URLs earn impressions with a trailing slash, 10 have a non-slash twin also earning (278 impr, 1 click on the duplicate form). Both forms 200, **but the slashed form already canonicals to the non-slash form**, so Google consolidates on its own. Do **not** touch the SPA catch-all rewrite to force redirects (see §13) — monitor instead.
+
+---
+
+## 21. Full audit + ERP growth plan — 2026-07-29 (commit `bbbd99773`)
+Full document: `E:\software\Atlantis\Atlantis-SEO-Audit-and-ERP-Growth-Plan-2026-07-29.md`.
+
+### 21.1 CRITICAL BUG — CTR overrides were never applying
+**32 of 36 wave-1 CTR overrides shipped 2026-07-28 never reached the page.** The wave map was merged only inside the `if (r7 …)` Round-7 branch, and `override` was nulled whenever a wave entry existed — so any path with a wave override and **no** Round-7 entry silently kept its old title. Affected `/asnt-certification` (14,963 impr/90d), `/api-570-certification`, `/api-510-certification`, `/api-653-certification`, `/consulting`, the 3D-scanning city pages and 26 more. **Part of why the API cert cluster kept sliding while apparently being fixed.** Now applied directly in the render loop.
+**Rule: after adding any override layer, verify the built HTML — do not trust the "applied: N" counter, which counted merges that were then discarded.**
+
+### 21.2 Fresh numbers (28d to 2026-07-26 vs prior 28d)
+Site **clicks 1,176 → 1,996 (+70%)**, impressions 99,276 → 141,587 (+43%), CTR 1.18% → 1.41%.
+Segments (clicks): Blog 977 · Training/Cert 598 · Other 292 · DT+Scan 58 (down from 69) · **ERP 34** (up from 23, from **578 pages**) · **Glossary 21 (from 0 — the canonical fix working, 6,266 impr from zero)** · Consulting 16.
+
+### 21.3 THE ERP DIAGNOSIS — read before commissioning any more ERP pages
+90 days: **875 ERP pages → 7,256 impressions → 75 clicks.** Only **180 distinct queries** reach any ERP page, and the single largest is **`site:atlantisndt.com` at 267 impressions — us**.
+**Business-software demand reaching the site: 38 queries, 374 impressions, 1 click per quarter.** We are not losing ERP traffic — **we are absent from the category.** Positions where we do appear: "erp system oil and gas malaysia" p39, "construction erp software singapore" p34, "erp software london" p87, "cmms software uae" p66.
+**DO NOT add more ERP city/module/industry permutations, and do not chase "erp software" head terms from this link profile.** Three ways ERP grows, in order of certainty: **(A) harvest the 141k impressions/month we already have** — that audience *is* the ERP buying committee; **(B) win the winnable intersection** (Malaysia oil & gas, Singapore construction, Aberdeen, UAE — already at p20–40); **(C) build category authority slowly** with non-NDT content that earns links.
+
+### 21.4 THE BIGGEST OPPORTUNITY IS NOT ERP
+**71 pages rank top-10 with ≥200 impressions and <3% CTR — worth ≈7,156 clicks/90d at a 5% CTR**, against a site earning ~2,000 clicks/28d. Worst: `/blog/cwi-certification-requirements-cost-career-impact` 2,399i @ **0.17%**, `/blog/ndt-technician-salary-guide-2026-industry-report` 1,017i @ **0.10%**, `/blog/aerospace-composite-inspection-ndt-methods-guide` 1,181i @ **0.08%**, `/compare/atlantis-dt-vs-ge-predix` 675i @ **0.00%**.
+`scripts/ctr-wave2-overrides.mjs` — 26 query-matched rewrites shipped this cycle.
+
+### 21.5 Still declining
+`/api-570-certification` 39→20 clicks (p9.3→12.4), `/api-510-certification` 22→7 (p13.4→18.8), `/blog/eddy-current-testing-complete-guide` 28→19. URL Inspection: all *Submitted and indexed*, PASS — **genuine competitive losses, third cycle.** This cluster funds the site; defending it is Priority 2.
+
+### 21.6 Next cycle order
+1. Finish CTR harvest (remaining ~45 of the 71) + route that traffic to ERP/DT.
+2. Defend the API certification cluster.
+3. ERP Track B — deepen Malaysia / Singapore / Aberdeen / UAE intersection pages, **not** more cities.
+4. ERP Track A — buyer-facing assets linked from the highest-traffic blog posts; measure via `template_download` / `generate_lead`.
+5. Indexing backlog (33% index rate, 6,886 queued, ~35 days).
