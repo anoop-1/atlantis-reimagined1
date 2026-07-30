@@ -690,3 +690,16 @@ That snapshot gates **sitemap priority AND the FAQ / authored-content thresholds
 3. **Aggregator listings** for the money pages — owner action.
 4. **ERP thank-you page URL** so Google Ads can optimise on leads rather than clicks — owner action.
 5. Re-pull GSC ~2026-08-12 and measure against §21 targets: site clicks 2,600+, top-10 sub-3%-CTR pages under 45, ERP clicks 70+, `generate_lead` 60+.
+
+### 21.10 ERP Track A + indexing backlog — 2026-07-30 (commit `c821c92c5`)
+
+**ERP Track A shipped.** `src/data/business-resources.ts` + `src/components/BusinessResourcePage.tsx` — five buyer-facing resources at `/resources/*`, 1,345–1,545 words each, FAQ schema, all live:
+`business-software-evaluation-checklist` · `spreadsheet-to-system-migration-plan` · `qualification-and-calibration-register` · `contract-margin-worksheet` · `client-audit-evidence-pack-checklist`
+
+**Why this vehicle:** the `/resources` cluster converts at roughly **5% CTR** (`/resources` 75 clicks from 1,490 impr; calibration certificate template 53 from 973) and already fires `template_download`, so the ERP funnel is **measurable from day one** rather than inferred. Each resource is useful whether or not the reader buys — that is what earns the download — and each **qualifies** the reader by what they chose to download.
+
+**Routing:** the topic-matched blog block now points at the relevant resource as well as the money page — **112 blog pages link to the qualification/calibration register, 14 to the evaluation checklist**. Every resource CTA goes to `/contact?service=erp`, which preselects ERP.
+
+**Indexing backlog.** 5,103 sitemap URLs · 2,099 confirmed indexed · **3,703 queued, of which 1,898 already have measured impressions**. Submitted a **demand-prioritised** batch of 2,000 (highest measured impressions first, not breadth) to the Indexing API and IndexNow. **Repeat this daily until the queue clears — the list generator is in the commit; regenerate rather than reusing the file, since `alreadyIndexed` grows.**
+
+**Watch next (re-pull ~2026-08-12):** site clicks 2,600+ · top-10 sub-3%-CTR pages under 45 · ERP clicks 70+ · `generate_lead` 60+ · `template_download` trend on the five new resources · API certification cluster flat or recovering.
