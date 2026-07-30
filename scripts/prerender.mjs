@@ -82,17 +82,17 @@ const BLOG_INTENT_ROUTES = [
   {
     test: /snt-tc-1a|iso 9712|nas 410|certification|certified|level (i{1,3}|1|2|3)\b|qualification|written practice|recertif/i,
     heading: 'For the people managing everyone else&rsquo;s certifications',
-    body: 'Tracking one certification is easy; tracking two hundred across five methods, with vision exams, on-the-job hours and client-specific approvals, is where inspection companies lose client audits. <a href="/erp-modules/certification-tracking">Certification tracking</a> and the wider <a href="/inspection-management-software">inspection management software</a> guide cover how currency is enforced at dispatch so a lapsed technician simply cannot be assigned to a job.',
+    body: 'Tracking one certification is easy; tracking two hundred across five methods, with vision exams, on-the-job hours and client-specific approvals, is where inspection companies lose client audits. <a href="/erp-modules/certification-tracking">Certification tracking</a> and the wider <a href="/inspection-management-software">inspection management software</a> guide cover how currency is enforced at dispatch so a lapsed technician simply cannot be assigned to a job. There is also a free <a href="/resources/qualification-and-calibration-register">qualification and calibration register</a> you can start using today.',
   },
   {
     test: /calibration|reference block|step wedge|equipment (check|verification)|iso 17025|instrument/i,
     heading: 'Calibration control at company scale',
-    body: 'Instrument, probe, wedge and reference-block calibration is the second thing a client audit tests after personnel qualification. <a href="/erp-modules/calibration-management">Calibration management</a> covers interval control, certificate storage and ISO 17025 traceability chains, including hard lockout so an out-of-calibration instrument cannot be dispatched.',
+    body: 'Instrument, probe, wedge and reference-block calibration is the second thing a client audit tests after personnel qualification. <a href="/erp-modules/calibration-management">Calibration management</a> covers interval control, certificate storage and ISO 17025 traceability chains, including hard lockout so an out-of-calibration instrument cannot be dispatched — and the free <a href="/resources/qualification-and-calibration-register">calibration register template</a> covers the accessories that are usually the missing item in an audit.',
   },
   {
     test: /report|reporting|documentation|record keeping|audit trail|deliverable/i,
     heading: 'When report turnaround is the bottleneck',
-    body: 'Most inspection companies lose more hours to report formatting than to inspection. <a href="/best-ndt-reporting-software-2026">NDT reporting software</a> compares the options for issuing the same dataset in several client formats without re-keying, and the <a href="/ndt-inspection-software">NDT inspection software buyer&rsquo;s guide</a> separates the four product categories that all get called &ldquo;NDT software&rdquo;.',
+    body: 'Most inspection companies lose more hours to report formatting than to inspection. <a href="/best-ndt-reporting-software-2026">NDT reporting software</a> compares the options for issuing the same dataset in several client formats without re-keying, the <a href="/ndt-inspection-software">NDT inspection software buyer&rsquo;s guide</a> separates the four product categories that all get called &ldquo;NDT software&rdquo;, and the free <a href="/resources/business-software-evaluation-checklist">evaluation checklist</a> sets out the tests that actually separate marketing from capability.',
   },
   {
     test: /digital twin|3d model|predictive maintenance|asset performance|point cloud|scan/i,
@@ -102,7 +102,7 @@ const BLOG_INTENT_ROUTES = [
   {
     test: /salary|career|job|hiring|recruit|workforce|technician shortage/i,
     heading: 'For the companies doing the hiring',
-    body: 'If you are on the employer side of this market, the operational constraint is usually not headcount but utilisation — knowing who is currently qualified for which method and getting them dispatched without a compliance gap. <a href="/inspection-management-software">Inspection management software</a> covers how crew scheduling, certification currency and job costing interact.',
+    body: 'If you are on the employer side of this market, the operational constraint is usually not headcount but utilisation — knowing who is currently qualified for which method and getting them dispatched without a compliance gap. <a href="/inspection-management-software">Inspection management software</a> covers how crew scheduling, certification currency and job costing interact, and the free <a href="/resources/contract-margin-worksheet">contract margin worksheet</a> shows where the money actually goes on a job.',
   },
   {
     test: /ultrasonic|radiograph|magnetic particle|penetrant|eddy current|visual testing|phased array|paut|tofd|ut|rt|mt|pt|et|inspection method|ndt method/i,

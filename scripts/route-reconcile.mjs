@@ -71,7 +71,7 @@ async function loadTs(relPath) {
 }
 
 export async function loadKnowledge() {
-  const [apps, industries, modules, competitors, usecases, cityProfiles, trainingCities, curated, money, bofu, dtCity] =
+  const [apps, industries, modules, competitors, usecases, cityProfiles, trainingCities, curated, money, bofu, bizRes, dtCity] =
     await Promise.all([
       loadTs('data/erp-app-knowledge.ts'),
       loadTs('data/erp-industry-knowledge.ts'),
@@ -83,6 +83,7 @@ export async function loadKnowledge() {
       loadTs('data/curated-cities.ts'),
       loadTs('data/money-pages.ts'),
       loadTs('data/bofu-posts.ts'),
+      loadTs('data/business-resources.ts'),
       import(pathToFileURL(resolve(SRC, 'data/dt-city-data.mjs')).href),
     ]);
 
@@ -107,6 +108,30 @@ export async function loadKnowledge() {
     TRAINING_CITY_PAGE_SLUGS: curated.TRAINING_CITY_PAGE_SLUGS,
     CONSULTING_CITY_PAGE_SLUGS: curated.CONSULTING_CITY_PAGE_SLUGS,
     MONEY_PAGES_BY_SLUG: { ...money.MONEY_PAGES_BY_SLUG, ...bofu.BOFU_POSTS_BY_SLUG },
+    // ERP Track A resources, reshaped into the money-page contract so the
+    // existing generator renders their full content into the static HTML.
+    BUSINESS_RESOURCES: Object.fromEntries(
+      (bizRes.BUSINESS_RESOURCES || []).map((r) => [
+        `resources/${r.slug}`,
+        {
+          slug: `resources/${r.slug}`,
+          title: r.title,
+          description: r.description,
+          keywords: r.keywords,
+          h1: r.h1,
+          eyebrow: r.badge,
+          subhead: r.lede,
+          intro: r.overview.join(' '),
+          enquiryVariant: 'erp',
+          sections: [
+            { h2: 'What it covers', bullets: r.sections },
+            { h2: 'How to use it', paragraphs: r.howToUse.map((h) => `${h.h}: ${h.p}`) },
+          ],
+          faqs: r.faqs,
+          related: r.related,
+        },
+      ]),
+    ),
     dtContext: dtCity.digitalTwinLocationContext,
     dtAssets: dtCity.digitalTwinAssets,
     dtIndustries: dtCity.digitalTwinIndustries,
@@ -706,7 +731,7 @@ function buildOne(k, path, appRoute) {
   let curatedSet = null;
 
   // ── Phase 1 buyer-intent money pages ─────────────────────────────────
-  const money = k.MONEY_PAGES_BY_SLUG?.[path.slice(1)];
+  const money = k.MONEY_PAGES_BY_SLUG?.[path.slice(1)] || k.BUSINESS_RESOURCES?.[path.slice(1)];
   if (money) {
     gen = moneyPageBody(money);
     title = money.title;

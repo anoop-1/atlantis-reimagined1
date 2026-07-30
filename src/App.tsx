@@ -2784,6 +2784,20 @@ const BofuCmmsVsEamVsInspectionManagementSoftware = lazy(() => import("./pages/b
 const BofuOperatorPreMobilisationChecksWhatTheyAskFor = lazy(() => import("./pages/blog/operator-pre-mobilisation-checks-what-they-ask-for"));
 const BofuProvingRbiInspectionIntervalsToARegulator = lazy(() => import("./pages/blog/proving-rbi-inspection-intervals-to-a-regulator"));
 // === END Phase 4 BOFU buyer posts 2026-07-27 ===
+
+// === ERP Track A business resources 2026-07-30 ===
+// The 2026-07-29 audit concluded ERP cannot win generic business-software search
+// from this link profile. Track A instead harvests the audience already on the
+// site (~141k impressions/month on inspection and certification content, read by
+// the people who actually buy this software). The /resources cluster is the
+// proven vehicle — it converts at roughly a 5% CTR and already fires
+// template_download, so the funnel is measurable from day one.
+const ResBusinessSoftwareEvaluationChecklist = lazy(() => import("./pages/resources/business-software-evaluation-checklist"));
+const ResSpreadsheetToSystemMigrationPlan = lazy(() => import("./pages/resources/spreadsheet-to-system-migration-plan"));
+const ResQualificationAndCalibrationRegister = lazy(() => import("./pages/resources/qualification-and-calibration-register"));
+const ResContractMarginWorksheet = lazy(() => import("./pages/resources/contract-margin-worksheet"));
+const ResClientAuditEvidencePackChecklist = lazy(() => import("./pages/resources/client-audit-evidence-pack-checklist"));
+// === END ERP Track A business resources 2026-07-30 ===
 // === /Training day-2 expansion 2026-05-25 ===
 
 const queryClient = new QueryClient();
@@ -5522,6 +5536,12 @@ const App = () => (
                   <Route path="/compare/digital-twin-vs-cmms" element={<LazyRoute Component={CompareDigitalTwinVsCmms} />} />
                   {/* === END DT day-2 expansion 2026-05-25 === */}
                      <Route path="/3d-scanning-services" element={<LazyRoute Component={ThreeDScanning} />} />
+                     {/* === ERP Track A business resources 2026-07-30 === */}
+                     <Route path="/resources/business-software-evaluation-checklist" element={<LazyRoute Component={ResBusinessSoftwareEvaluationChecklist} />} />
+                     <Route path="/resources/spreadsheet-to-system-migration-plan" element={<LazyRoute Component={ResSpreadsheetToSystemMigrationPlan} />} />
+                     <Route path="/resources/qualification-and-calibration-register" element={<LazyRoute Component={ResQualificationAndCalibrationRegister} />} />
+                     <Route path="/resources/contract-margin-worksheet" element={<LazyRoute Component={ResContractMarginWorksheet} />} />
+                     <Route path="/resources/client-audit-evidence-pack-checklist" element={<LazyRoute Component={ResClientAuditEvidencePackChecklist} />} />
                      {/* === Phase 4 BOFU buyer posts 2026-07-27 === */}
                      <Route path="/blog/tracking-asnt-certification-expiry-at-scale" element={<LazyRoute Component={BofuTrackingAsntCertificationExpiryAtScale} />} />
                      <Route path="/blog/calibration-compliance-iso-17025-inspection-labs" element={<LazyRoute Component={BofuCalibrationComplianceIso17025InspectionLabs} />} />
