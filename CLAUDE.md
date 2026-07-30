@@ -702,4 +702,10 @@ That snapshot gates **sitemap priority AND the FAQ / authored-content thresholds
 
 **Indexing backlog.** 5,103 sitemap URLs · 2,099 confirmed indexed · **3,703 queued, of which 1,898 already have measured impressions**. Submitted a **demand-prioritised** batch of 2,000 (highest measured impressions first, not breadth) to the Indexing API and IndexNow. **Repeat this daily until the queue clears — the list generator is in the commit; regenerate rather than reusing the file, since `alreadyIndexed` grows.**
 
+**Indexing run result 2026-07-30:** full daily quota used — **2,000 / 2,000 submitted, 0 failed** across 10 service accounts (batch A 1,444 + batch B 536). Batch A's 556 shortfall was **dedup against `submittedUrls`, not quota**; check `.gsc-multi-state.json` `perAccount` before assuming quota is gone.
+**Carry-over for the next run (submit these FIRST):** the five ERP Track A resources were below the demand cut and are still pending in GSC (they are in IndexNow):
+`/resources/business-software-evaluation-checklist` · `/resources/spreadsheet-to-system-migration-plan` · `/resources/qualification-and-calibration-register` · `/resources/contract-margin-worksheet` · `/resources/client-audit-evidence-pack-checklist`
+List saved at `scripts/indexing-url-list-2026-07-30-new-resources.json`.
+**Queue state after this run:** 5,103 sitemap URLs · 2,099 confirmed indexed · ~229 never-submitted remaining (all zero-impression tail) · 5,927 URLs tracked as submitted. **New pages are ranked last by the demand sort, so submit them explicitly before running the demand-prioritised batch.**
+
 **Watch next (re-pull ~2026-08-12):** site clicks 2,600+ · top-10 sub-3%-CTR pages under 45 · ERP clicks 70+ · `generate_lead` 60+ · `template_download` trend on the five new resources · API certification cluster flat or recovering.
