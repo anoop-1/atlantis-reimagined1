@@ -12,6 +12,7 @@ import { Users, CheckCircle2, Cpu, Award } from "lucide-react";
 import ContactDetails from "@/components/ContactDetails";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
    const contactInfo = [
@@ -142,14 +143,60 @@ export default function Contact() {
       setSuccess("");
 
       try {
-         const res = await fetch("/api/contact", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
-         });
-         if (!res.ok) {
-            const data = await res.json().catch(() => ({}));
-            throw new Error(data?.error || `HTTP ${res.status}`);
+         // Primary path: the serverless function, which relays through our own
+         // mail server. If it is unavailable or not configured with SMTP
+         // credentials on this host, fall back to EmailJS from the browser —
+         // the same path EnquiryCaptureForm already uses successfully. Without
+         // this fallback a host with no SMTP env vars silently loses every
+         // enquiry, which is exactly what the 2026-07-29 funnel audit found.
+         let delivered = false;
+         try {
+            const res = await fetch("/api/contact", {
+               method: "POST",
+               headers: { "Content-Type": "application/json" },
+               body: JSON.stringify(formData),
+            });
+            if (res.ok) delivered = true;
+            else if (res.status >= 400 && res.status < 500 && res.status !== 404) {
+               // A validation rejection is the server telling us the input is
+               // wrong; retrying elsewhere would not help.
+               const data = await res.json().catch(() => ({}));
+               throw new Error(data?.error || `HTTP ${res.status}`);
+            }
+         } catch (apiErr: any) {
+            if (apiErr?.message && !/failed to fetch|networkerror/i.test(apiErr.message) && !/^HTTP 5/.test(apiErr.message)) {
+               throw apiErr;
+            }
+            console.warn("Contact API unavailable, falling back to EmailJS:", apiErr);
+         }
+
+         if (!delivered) {
+            const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
+            const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;
+            const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined;
+            if (!serviceId || !templateId || !publicKey) {
+               throw new Error("Mail service unavailable");
+            }
+            await emailjs.send(
+               serviceId,
+               templateId,
+               {
+                  from_name: `${formData.firstName} ${formData.lastName}`.trim(),
+                  from_email: formData.email,
+                  company: formData.company || "(not provided)",
+                  usecase: formData.service || "(not selected)",
+                  message:
+                     `Name: ${formData.firstName} ${formData.lastName}\n` +
+                     `Email: ${formData.email}\n` +
+                     `Phone: ${formData.phone || "(not provided)"}\n` +
+                     `Company: ${formData.company || "(not provided)"}\n` +
+                     `Service: ${formData.service || "(not selected)"}\n\n` +
+                     formData.message,
+                  subject: `Contact form: ${formData.firstName} ${formData.lastName}${formData.service ? ` — ${formData.service}` : ""}`,
+                  to_email: "info@atlantisndt.com",
+               },
+               { publicKey },
+            );
          }
 
          if (typeof window !== 'undefined' && (window as any).gtag) {
