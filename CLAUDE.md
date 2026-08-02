@@ -814,3 +814,88 @@ corrosion-engineering-guide, pressure-vessel-inspection, weld-inspection-pro,
 pipeline-integrity-hub, ndt-career-portal, tank-inspection-guide,
 industrial-coating-inspection, rt-testing-hub, ut-testing-academy). They were
 left untouched — their source needs locating before they can be moved.
+
+---
+
+## 23. SEO audit + depth where the data says it is missing — 2026-08-02
+
+### 23.1 The finding that contradicts the assumption
+**ERP is not thin.** 1,271 indexable pages, average **1,084 words, zero under 650**.
+Digital Twin averages 887. The thin mass is elsewhere. Measure before authoring.
+
+Site baseline at audit: 5,103 indexable pages, average 965 words, 0 under 300.
+
+| Segment | Pages | Avg words | Under 650 | No FAQ schema |
+|---|---:|---:|---:|---:|
+| ERP | 1,271 | 1,084 | **0** | 1,089 |
+| Digital Twin | 389 | 887 | 80 | 83 |
+| **Glossary** | 219 | **500** | **213** | 219 |
+| **Methods** | 495 | **549** | **476** | 479 |
+| Services | 881 | 906 | 0 | 880 |
+| Training | 258 | 683 | 164 | 127 |
+
+**Thin AND already earning: 642 pages · 22,335 impressions · 391 clicks.**
+Ranked: Glossary 190 pages/7,924 impr · Methods 261/4,763 · Other 100/4,340 ·
+Training 40/1,767.
+
+### 23.2 ERP and DT: the constraint is demand, not depth
+90d to 2026-07-30: **ERP 76 clicks / 6,960 impr; DT 22 clicks / 4,313 impr.**
+- ERP: 437 of 1,271 pages earn zero impressions. `/ndt-erp-solution` (the top ERP
+  page, 420 impr) returns **7 named queries totalling 14 impressions**, the
+  largest being `site:atlantisndt.com` — us. Confirms 21.3: **absent from the
+  category, not losing in it.**
+- DT: **331 of 389 pages earn zero impressions.** `/digital-twins` shows 2,135
+  impressions but only **201 across 30 named queries**, and those are brand
+  (`atlantis platforms` p29) or `site:` operators; `asset integrity digital twin`
+  sits at **p63**.
+- **The exception is the comparison pages** — genuine third-party intent
+  (`predix digital twin` 91i, `predix alternatives` 16i, `ge predix apm` 15i).
+  Reconfirms 20.3. That is where DT investment belongs.
+
+⚠️ **GSC query API does not sort by impressions when clicks are zero.** It
+returned alphabetical rows, which reads as a head-of-demand list and is not one.
+Always sort client-side — see `scratchpad/page-queries.mjs` pattern.
+
+### 23.3 What shipped
+- **`scripts/glossary-depth.mjs`** — authored depth for **60 terms covering 78%
+  of glossary impressions**, avg +290 words: how it works · what it finds ·
+  **what it will not find** · how it is actually done · governing codes · where
+  it goes wrong. Terms without researched facts are **left short, not padded** —
+  padding produced the p40–78 pages, and the similarity gate suppresses it anyway.
+  Google's treatment splits exactly on substance: specific terms p6–17
+  (flat-bottom-hole p6, cswip p8, astm-e165 p7), name-restating terms p40–78
+  (ultrasonic-testing p64, eddy-current p72, hydrogen-embrittlement p78).
+- **`scripts/dt-depth-2026-08-02.mjs`** — 6 competitor comparisons + FPSO +
+  heat-exchanger + the ROI calculator (**position 4.7 on 388 words**, best DT
+  position on the site → 1,107w). Comparison pages lead with what the rival is
+  genuinely good at; a page that only flatters its owner is seen through by the
+  buyer it targets. **The 331 silent city permutations are deliberately untouched
+  (20.2).**
+- **`scripts/erp-faq-2026-08-02.mjs`** — buyer Q&A on **1,015 ERP pages**
+  (migration, spreadsheets, lock-in, unusual process, data exit), generic-first
+  per 20.10. **No numerals at all**; `assertNoNumbersInErpFaq()` fails the build
+  if one returns.
+
+**Verified:** 5,326 pages · 5,104 sitemap URLs · drift guard PASS · 0 under 300w ·
+site avg **965 → 1,075** · ERP avg **1,084 → 1,506** · glossary thin 213 → 158 ·
+FAQ schema reached 309 more pages. FAQ injection stays demand-gated at 30
+impressions, so low-demand pages gain visible Q&A without schema spam.
+
+### 23.4 ⚠️ VERCEL HOBBY DEPLOY CEILING — 100 per 24 hours
+Migrating 35 satellites consumed the quota. **Three pushes afterwards created no
+deployment at all** — Vercel does not record a failed deployment, it simply makes
+none, so the dashboard looks idle and the site silently serves an older build.
+A manual API trigger returns `402 payment_required`,
+`api-deployments-young-hobby-team-24h`, with `remaining: 0` and a reset epoch.
+**Check `/v6/deployments` for the deployed commit SHA before claiming anything is
+live.** Pro removes the limit.
+
+### 23.5 Remaining, in order
+1. **Methods cluster** — 495 pages, avg 549 words, 476 under 650, **4,763
+   impressions**. Second-biggest thin cluster; needs the same per-method
+   knowledge-map treatment the glossary got.
+2. 158 glossary terms still unauthored (the 22% tail of demand).
+3. Deploy the 2026-08-02 content when the Vercel window resets, then submit
+   changed URLs to the Indexing API + IndexNow.
+4. `oil-gas-inspection-guide.vercel.app` needs claiming in Bing Webmaster Tools
+   (IndexNow 403 `UserForbiddedToAccessSite`; Google unaffected).
