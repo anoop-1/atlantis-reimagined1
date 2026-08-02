@@ -1,0 +1,2740 @@
+{
+ "urls": [
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/automation",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/phased-array",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/software",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/paut-vs-tofd-when-to-combine",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/guided-wave-screening-program-design",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/eddy-current-array-for-heat-exchanger-tubes",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/digital-radiography-cr-vs-dr-which-system",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/automated-ut-scanner-deployment-2026",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/full-matrix-capture-fmc-tfm-when-it-justifies-its-cost",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/industrial-ct-scanning-buyers-mindset",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/blog/managing-paut-tofd-data-in-a-digital-twin",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/blog/automating-ndt-reporting-with-inspection-erp",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/blog/encoded-paut-data-is-worthless-without-location-identity",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://advanced-ndt-techniques.vercel.app/blog",
+   "site": "advanced-ndt-techniques"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/applications",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/applications/composite-inspection",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/applications/engine-overhaul",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/applications/fuselage-fatigue",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/applications/landing-gear",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/applications/turbine-blade",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/career",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/career/mro-vs-oem",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/career/salary-guide",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/methods",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/methods/digital-radiography-aviation",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/methods/eddy-current-aircraft",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/methods/phased-array-aerospace",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/methods/thermography-composites",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/nas-410-vs-en-4179-aerospace-certification-paths",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/composite-aircraft-structure-ndt-cfrp-inspection",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/engine-disk-bore-inspection-eddy-current-array",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/nadcap-audit-readiness-aerospace-ndt-shop",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/fluorescent-penetrant-inspection-fpi-aerospace-process-control",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/shot-peening-inspection-and-coverage-verification",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/ndt-on-titanium-airframe-structure-considerations",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/magnetic-particle-on-landing-gear-components",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/aerospace-ndt-data-record-retention-2026",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/standards/engine-blade-tip-inspection-eddy-current-vs-fpi",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/blog/nadcap-compliance-with-ndt-inspection-erp",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/blog/aerospace-digital-twin-for-fleet-integrity",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/blog/what-nadcap-auditors-look-at-before-they-look-at-your-technique",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://aerospace-ndt-standards.vercel.app/blog",
+   "site": "aerospace-ndt-standards"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/api-510",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-570-piping-inspector-study-plan-2026",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-653-aboveground-tank-inspector-prep",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-510-vs-api-570-which-cert-first",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-icp-recertification-2-cycle-cycle",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/open-book-questions-api-510-test-strategy",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-936-refractory-personnel-prep-real-syllabus",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-580-rbi-prep-from-an-actual-exam-taker",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-579-fitness-for-service-personnel-cert",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/api-source-inspection-personnel-program-explained",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/study/study-plan-for-passing-multiple-api-exams-in-12-months",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/blog/certification-tracking-software-api-510-570-653",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/blog/digital-twin-for-api-510-pressure-vessel-inspection",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/blog/certification-currency-is-an-operations-problem-not-an-hr-one",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://api-certification-guide.vercel.app/blog",
+   "site": "api-certification-guide"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/digital-twins",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/digital-twins/oil-gas",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/digital-twins/predictive-maintenance",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/erp-solutions",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/erp-solutions/implementation-guide",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/ndt-software",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/ndt-software/ndtconnect-review",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/ndt-software/reporting-tools",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/risk-based-inspection-vs-time-based-which-cuts-cost-more",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/building-an-asset-integrity-management-system-12-month-roadmap",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/fitness-for-service-api-579-when-to-use-which-level",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/measuring-asset-integrity-kpis-that-actually-matter",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/integrity-operating-windows-ow-best-practices-refineries",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/damage-mechanism-review-dmr-step-by-step",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/inspection-data-quality-when-it-quietly-fails-rbi",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/turnaround-readiness-review-30-day-window",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/integrity-management-software-pitfalls-buyers-miss",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/closing-the-loop-from-ndt-finding-to-integrity-action",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/asset-integrity-digital-twin-rbi-in-3d-model",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/ndt-erp-for-asset-integrity-programs-2026",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://asset-integrity-hub.vercel.app/blog/why-rbi-programmes-drift-and-how-to-tell-early",
+   "site": "asset-integrity-hub"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/defects",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/methods",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/standards",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/ssp-sp10-vs-sp5-blast-profile-decisions",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/wet-film-thickness-vs-dry-film-thickness-when-each-fails",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/holiday-detection-low-voltage-vs-high-voltage",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/tsa-thermal-spray-aluminum-inspection-cui",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/coating-failure-modes-osmotic-blistering-cathodic-disbondment",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/ndt-coating-inspector-day-one-jobsite-kit",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/dew-point-vs-substrate-temp-painting-decision-rule",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/fiber-glass-and-frp-coating-inspection-considerations",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/tank-internal-lining-inspection-acceptance-criteria",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/inspections/pipe-coating-fbe-vs-3lpe-vs-3lpp-when-each-fits",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/blog/managing-coating-inspection-data-with-erp",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/blog/corrosion-and-coating-in-a-digital-twin",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/blog/coating-inspection-records-that-survive-a-warranty-dispute",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://coating-inspection-guide.vercel.app/blog",
+   "site": "coating-inspection-guide"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/defects",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/methods",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/cfrp-phased-array-vs-thermography-which-finds-disbonds",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/wind-blade-inspection-from-rope-access-to-drones",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/sandwich-panel-honeycomb-core-defects-and-detection",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/shearography-on-composite-pressure-vessels",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/pulse-thermography-vs-lock-in-thermography-quick-decision-guide",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/composite-bolted-joint-inspection-aerospace",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/visual-inspection-of-composite-tooling-cure-defects",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/wind-blade-trailing-edge-bond-line-inspection",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/composite-overwrapped-pressure-vessel-copv-inspection",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/techniques/composite-repair-patch-inspection-and-validation",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/blog/managing-composite-inspection-data-in-erp",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/blog/digital-twin-for-composite-structure-integrity",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/blog/why-composite-inspection-records-are-harder-than-metal",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://composite-testing-hub.vercel.app/blog",
+   "site": "composite-testing-hub"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/applications",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/applications/dams",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/applications/high-rise",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/applications/tunnels",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/career",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/methods",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/methods/gpr",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/methods/impact-echo",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/methods/upv",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/standards",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/structural",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/structural/bridges",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/structural/concrete",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/structural/rebar",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/structural/steel-structures",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/gpr-vs-rebar-locator-when-which",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/concrete-strength-with-rebound-hammer-vs-ut-velocity",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/bridge-deck-deterioration-mapping-methods",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/post-tensioned-cable-inspection-impact-echo-and-ut",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/steel-structure-weld-inspection-aws-d1-5",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/concrete-cover-meter-vs-gpr-accuracy-realities",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/masonry-and-stone-structure-ndt-techniques",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/post-fire-concrete-inspection-strategy",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/high-strength-bolt-inspection-on-structural-connections",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/practice/tunnel-lining-inspection-impact-echo-and-radar",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/blog/construction-qa-qc-erp-for-weld-inspection",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/blog/digital-twin-for-structural-integrity-monitoring",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/blog/the-quality-record-is-what-gets-audited-not-the-programme",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://construction-ndt-guide.vercel.app/blog",
+   "site": "construction-ndt-guide"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/industry",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/industry/pipeline",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/industry/refinery",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/ndt-methods",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/ndt-methods/guided-wave",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/ndt-methods/mfl",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/ndt-methods/ut-thickness",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/standards",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/standards/nace",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/types",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/types/cui",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/types/erosion",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/types/mic",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/types/pitting",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/types/scc",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/cui-inspection-strategy-when-to-strip-insulation",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/ph-monitoring-vs-corrosion-coupons-which-data-trust",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/msl-stress-corrosion-cracking-austenitic-stainless",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/inhibitor-injection-program-effectiveness-monitoring",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/building-corrosion-management-program-iso-55000",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/sweet-vs-sour-corrosion-inspection-program-design",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/microbiologically-influenced-corrosion-mic-detection",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/erosion-corrosion-vs-flow-accelerated-corrosion",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/galvanic-corrosion-prevention-design-and-inspection",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://corrosion-management-ndt.vercel.app/management/corrosion-rate-vs-thickness-trends-what-the-data-says",
+   "site": "corrosion-management-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tube-inspection",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/iris-vs-ecit-vs-rfet-tube-inspection-decision",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/cleaning-tubes-before-ndt-why-it-decides-everything",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/air-cooler-tube-bundle-inspection-program",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/fouling-vs-corrosion-tube-signal-interpretation",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/plugging-vs-retubing-heat-exchanger-economics",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/shell-and-tube-vs-plate-frame-inspection-realities",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/tube-bundle-extraction-and-rebundling-decisions",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/air-cooler-header-box-inspection-for-cracks",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/tube-to-tubesheet-weld-inspection-techniques",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://heat-exchanger-ndt.vercel.app/tubes/expansion-joint-inspection-on-shell-and-tube-exchangers",
+   "site": "heat-exchanger-ndt"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/case-studies",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/industries",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/industries/aerospace-inspection",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/industries/oil-gas-inspection",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/industries/power-generation-inspection",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/standards",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/standards/api-inspection-codes",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/standards/asme-codes-ndt",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/technology",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/technology/digital-twins-asset-management",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/technology/erp-for-inspection-companies",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/technology/ndt-reporting-software",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/cross-sector-ndt-program-benchmarks-2026",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/building-an-in-house-vs-outsourced-ndt-program",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/integrity-data-management-platforms-buyer-guide",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/training-budget-allocation-ndt-team",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/iso-9712-vs-asnt-snt-tc-1a-multi-region-teams",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/multi-method-ndt-team-staffing-model",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/inspection-contract-clauses-that-protect-the-owner",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/mobilization-demobilization-cost-discipline",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/standard-operating-procedures-for-cross-discipline-teams",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://industrial-inspection-resources.vercel.app/topics/benchmarking-cost-per-weld-inspected-2026",
+   "site": "industrial-inspection-resources"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/equipment",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/safety",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/terminals",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/cryogenic-tank-inspection-9-percent-nickel-steel",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/lng-loading-arm-inspection-program",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/lng-piping-weld-acceptance-criteria",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/small-scale-lng-asset-integrity-program",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/bog-compressor-inspection-and-monitoring",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/lng-storage-tank-roof-inspection-from-inside-and-outside",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/lng-vaporizer-and-srv-inspection-program",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/lng-trailer-and-isotainer-inspection-checklist",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/gravity-base-structure-gbs-lng-inspection-considerations",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://lng-inspection-hub.vercel.app/guides/lng-spill-protection-systems-inspection-and-test",
+   "site": "lng-inspection-hub"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/automation",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/automation/ai-defect-detection",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/automation/inline-testing",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/automation/robotic-inspection",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/career",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/career/qc-inspector",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/industries",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/industries/automotive",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/industries/electronics",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/industries/heavy-equipment",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/industries/semiconductor",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/processes",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/processes/additive-manufacturing",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/processes/casting-inspection",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/processes/forging-ndt",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/standards",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/inline-ut-on-tube-mills-defect-detection",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/casting-radiography-acceptance-by-grade",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/supplier-quality-audit-ndt-shop",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/additive-manufactured-parts-ndt-cap-cct-vs-ut",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/in-process-quality-control-vs-final-ndt-trade-offs",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/forging-ndt-acceptance-criteria-by-grade",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/phased-array-ut-on-thick-wall-monobloc-forgings",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/plate-mill-ndt-screening-during-rolling",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/first-article-inspection-fai-with-ndt-integration",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://manufacturing-ndt-quality.vercel.app/practices/magnetic-particle-on-castings-fluorescent-vs-dry",
+   "site": "manufacturing-ndt-quality"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/career",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/career/offshore-salary",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/components",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/components/ballast-tank",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/components/hull-thickness",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/components/mooring-chain",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/standards",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/standards/dnv",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/standards/iacs",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/techniques",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/techniques/acfm",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/techniques/mfl-pipeline",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/vessels",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/vessels/container-ship",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/vessels/lng-carrier",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/vessels/tanker-hull",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/class-survey-ndt-scope-abs-dnv-lloyd",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/tanker-ballast-tank-inspection-coating-and-thickness",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/jacket-platform-girth-weld-inspection-from-rope-access",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/flexible-riser-inspection-techniques-emerging",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/in-water-survey-vs-drydock-survey-ndt-coverage",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/fpso-turret-inspection-and-swivel-stack",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/subsea-flowline-rigid-vs-flexible-inspection",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/cargo-tank-coating-inspection-on-chemical-tankers",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/mooring-chain-inspection-onshore-vs-in-situ",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://marine-offshore-ndt.vercel.app/offshore/ballast-water-treatment-system-ndt-considerations",
+   "site": "marine-offshore-ndt"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/career",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/career/salary-guide",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/career/work-visa",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/certification",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/certification/cswip-middle-east",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/cities",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/cities/abu-dhabi",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/cities/doha",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/cities/dubai",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/cities/jubail",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/cities/riyadh",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/countries",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/countries/kuwait",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/countries/oman",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/countries/qatar",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/countries/saudi-arabia",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/countries/uae",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/industry",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/industry/adnoc",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/industry/aramco",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/aramco-cssp-vs-adnoc-mp-getting-approved-vendor",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/desert-pipeline-cui-aramco-saes-l",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/gcc-welder-qualification-recognition-across-borders",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/sour-service-h2s-inspection-program-gcc",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/inspection-procurement-the-gcc-way",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/aramco-saes-w-welding-and-ndt-deep-dive",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/gcc-tank-inspection-saes-d-vs-api-653",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/gcc-inspection-mobilization-visa-permits-and-customs",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/saes-l-inspection-of-buried-pipeline-coatings-update",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://middle-east-ndt-resource.vercel.app/region/aramco-ipd-stage-gate-vendor-readiness-checklist",
+   "site": "middle-east-ndt-resource"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/equipment",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/safety",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/haul-truck-frame-crack-inspection-program",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/mill-shell-girth-weld-inspection-sag-ball",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/conveyor-pulley-inspection-mt-ut-vt",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/tailings-dam-instrumentation-and-ndt-overlap",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/underground-mining-shaft-rope-inspection",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/crusher-and-mill-liner-bolt-inspection-strategies",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/dragline-boom-and-bucket-inspection-program",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/mine-conveyor-belt-splice-inspection",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/haul-truck-tray-and-tub-crack-mapping",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://mining-ndt-hub.vercel.app/mining/mine-thickener-and-tank-inspection-mining-tailings",
+   "site": "mining-ndt-hub"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/implementation",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/technologies",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/trends",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/ai-defect-detection-on-rt-films-state-of-art",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/robotic-crawler-pipeline-inspection-trends",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/digital-twin-for-ndt-data-architecture-2026",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/auto-paut-data-interpretation-where-its-reliable",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/cloud-vs-on-prem-ndt-data-the-2026-decision",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/edge-computing-for-real-time-paut-data-2026",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/autonomous-drone-inspection-of-tanks-and-flares",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/crawler-localization-without-gps-underground",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/mlops-for-ndt-data-from-experiment-to-production",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-automation-future.vercel.app/future/human-in-the-loop-validation-of-automated-ndt-results",
+   "site": "ndt-automation-future"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/careers",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/careers/level-iii-consultant",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/careers/ndt-inspector",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/consulting-guide",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/job-markets",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/job-markets/asia-pacific",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/job-markets/houston",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/job-markets/middle-east",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/resources",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/salary",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/salary/by-location",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/salary/by-method",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/ndt-salary-by-method-and-region-2026",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/transitioning-from-welder-to-ndt-inspector",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/remote-ndt-jobs-are-they-real",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/offshore-vs-onshore-ndt-careers-financial-and-lifestyle",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/building-a-level-iii-consulting-practice",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/ndt-resume-templates-that-actually-pass-screening",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/interviewing-for-an-ndt-supervisor-role",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/side-income-options-for-a-working-ndt-inspector",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/mid-career-pivot-from-field-ndt-to-software",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-careers-portal.vercel.app/paths/visa-and-relocation-for-international-ndt-work",
+   "site": "ndt-careers-portal"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/ultrasonic",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/epoch-6lt-vs-epoch-650-real-world-comparison",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/omniscan-x3-vs-x3-64-which-channel-count-fits",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/crawler-vs-handheld-aut-for-pipeline-girths",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/calibration-blocks-buying-guide-2026",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/digital-rt-detectors-flat-panel-vs-line-scan",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/rt-source-projector-comparison-iridium-vs-selenium",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/phased-array-probe-buying-guide-frequency-and-aperture",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/magnetic-particle-yoke-vs-prod-vs-coil-real-world",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/thermal-imaging-cameras-for-industrial-ndt-2026",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-equipment-reviews.vercel.app/reviews/ut-couplant-glycerin-vs-gel-vs-paste-when-each-fits",
+   "site": "ndt-equipment-reviews"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/certifications",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/certifications/api-510",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/certifications/api-570",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/certifications/api-653",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/certifications/asnt-level-iii",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/glossary",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods/eddy-current-testing",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods/liquid-penetrant-testing",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods/magnetic-particle-testing",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods/radiographic-testing",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods/ultrasonic-testing",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/methods/visual-testing",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/resources",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/software-reviews",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/software-reviews/digital-twin-technology",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/software-reviews/ndt-erp-systems",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/ndt-method-selection-decision-framework-2026",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/how-to-pass-asnt-level-iii-basic-exam-study-plan",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/reading-ndt-procedures-asme-section-v-walkthrough",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/common-ndt-acronyms-explained-glossary-2026",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/ndt-career-paths-from-level-i-to-level-iii-engineer",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/ndt-procedure-writing-from-blank-page-to-approved-doc",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/practical-vt-checklist-for-new-level-i-inspectors",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/reading-ut-a-scans-without-getting-fooled",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/building-a-personal-ndt-study-library-2026",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/guides/practical-rt-film-interpretation-from-density-to-defect",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/blog/what-is-a-digital-twin-for-ndt-2026",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/blog/ndt-inspection-software-buyers-guide-2026",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/blog/four-things-called-ndt-software-and-why-buyers-confuse-them",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-knowledge-hub.vercel.app/blog",
+   "site": "ndt-knowledge-hub"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/certifications",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/regulations",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/industrial-radiography-safety-program-essentials",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/transport-of-ndt-sources-iata-imdg",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/incident-investigation-after-ndt-source-loss",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/lockout-tagout-for-ut-and-mt-on-rotating-equipment",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/inspector-fatigue-and-pod-the-data-no-one-shares",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/iso-45001-and-ndt-safety-program-alignment",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/fume-control-during-magnetic-particle-and-penetrant",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/confined-space-entry-for-ndt-permits-and-rescue",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/crew-rotation-fatigue-and-fitness-for-duty-ndt",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-safety-compliance.vercel.app/compliance/incident-reporting-near-miss-culture-for-ndt-teams",
+   "site": "ndt-safety-compliance"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/buyer-guide",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/buyer-guide/implementation",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/buyer-guide/roi-calculator",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/comparisons",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/comparisons/digital-twin-platforms",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/comparisons/erp-software",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/comparisons/reporting-software",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/features",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/features/ai-defect-detection",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/features/automated-reports",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/features/inspection-dashboards",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/features/mobile-data-collection",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/industry",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/industry/aerospace",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/industry/oil-gas",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/resources",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/resources/paper-to-digital",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/ndt-reporting-software-buyer-checklist-2026",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/on-prem-vs-saas-ndt-platforms-trade-offs",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/integrating-ndt-data-with-cmms-sap-pm-maximo",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/mobile-data-capture-offline-inspection-apps",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/data-retention-policy-for-ndt-files-7-years-or-life-of-asset",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/integrating-paut-files-into-an-integrity-platform",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/role-based-access-control-for-inspection-data",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/api-first-ndt-software-evaluation-criteria",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/inspection-photo-management-best-practices",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-software-solutions.vercel.app/solutions/choosing-a-cmms-aware-ndt-platform-2026",
+   "site": "ndt-software-solutions"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/api",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/asme",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/international",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/asme-section-v-2025-edition-changes",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/iso-9712-vs-en-iso-vs-asnt-cross-recognition",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/choosing-the-right-pipe-code-asme-b31-1-vs-b31-3-vs-b31-8",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/aws-d1-1-vs-aws-d1-5-vs-aws-d1-6-pick-the-correct-code",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/api-vs-asme-vs-iso-pressure-equipment-rules-quick-map",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/asme-bpvc-section-ix-welding-requirements-walkthrough",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/astm-e2375-bulk-ultrasonic-examination-of-pipe",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/asme-section-viii-div-2-vs-div-1-ndt-comparison",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/iso-17640-vs-en-iso-17640-piping-paut",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-standards-library.vercel.app/library/european-pressure-equipment-directive-ped-ndt-rules",
+   "site": "ndt-standards-library"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/career",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/certifications",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/certifications/api-exam-prep",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/certifications/asnt-study-guide",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/regional",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/regional/india",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/regional/middle-east",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/regional/usa",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/training",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/training/mt-pt-training",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/training/rt-training",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/training/ut-training",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/designing-a-level-ii-ut-course-syllabus",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/practical-vs-theory-hours-snt-tc-1a-vs-cp-189",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/building-an-ndt-school-business-model",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/online-vs-in-person-ndt-courses-where-each-wins",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/eye-exam-jaeger-near-vision-ndt-acceptance",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/designing-a-paut-level-ii-practical-program",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/mt-and-pt-practical-stations-for-classroom-courses",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/how-to-write-an-snt-tc-1a-employer-written-practice",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/scheduling-and-tracking-on-the-job-training-hours",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://ndt-training-academy.vercel.app/curriculum/pcn-vs-cswip-vs-asnt-for-european-students",
+   "site": "ndt-training-academy"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/reactor-systems",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/regulatory",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/asme-section-xi-isi-program-essentials",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/reactor-vessel-head-penetration-inspection-pdi-qualification",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/piping-weld-inspection-class-1-vs-class-2-rules",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/small-modular-reactor-smr-ndt-emerging-considerations",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/phased-array-qualification-for-nuclear-applications",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/asme-section-xi-iwe-iwl-containment-inspection",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/steam-generator-tube-inspection-eddy-current-strategies",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/reactor-coolant-pump-inspection-asme-xi-rules",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/spent-fuel-pool-liner-leak-detection-and-inspection",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://nuclear-ndt-resource.vercel.app/techniques/pdi-paut-procedure-qualification-deep-dive-2026",
+   "site": "nuclear-ndt-resource"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes/api-510-pressure-vessels",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes/api-570-piping",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes/api-571-damage-mechanisms",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes/api-579-fitness-for-service",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes/api-580-rbi",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/api-codes/api-653-complete-guide",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/downstream",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/downstream/boiler-inspection",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/downstream/heat-exchanger-tubes",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/downstream/refinery-turnaround",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/downstream/storage-tank-inspection",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/resources/api-code-comparison",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/resources/glossary",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/standards",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/standards/asme-section-v",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/standards/aws-d1-1",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/technology",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/technology/automated-ut-pipelines",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/technology/digital-twins-oil-gas",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/technology/drone-inspection",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/upstream",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/upstream/fpso-inspection",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/upstream/offshore-platform-ndt",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/upstream/subsea-pipeline",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/upstream-midstream-downstream-inspection-budget-allocation",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/crude-oil-storage-tank-inspection-api-653-walkthrough",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/gathering-system-pipeline-inspection-cost-effective",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/wellhead-inspection-and-pressure-testing",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/lact-skid-and-meter-prover-inspection",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/gas-processing-plant-inspection-priority-units",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/subsurface-safety-valve-inspection-essentials",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/separator-and-knockout-drum-inspection",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/midstream-station-yard-inspection-pump-compressor",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://oil-gas-inspection-guide.vercel.app/sectors/lease-tank-battery-inspection-program",
+   "site": "oil-gas-inspection-guide"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/equipment",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/safety",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/high-temperature-hydrogen-attack-htha-inspection-strategy",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/fcc-unit-inspection-priority-equipment-and-damage-mechanisms",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/amine-unit-corrosion-monitoring-and-ut-strategies",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/sulfidation-corrosion-crude-units-monitoring-program",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/turnaround-inspection-planning-petrochemical-shutdown",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/naphthenic-acid-corrosion-inspection-strategy",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/hydroprocessing-reactor-internals-inspection-2026",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/coker-drum-inspection-program-bulge-and-crack",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/crude-furnace-tube-inspection-laser-and-paut",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://petrochemical-ndt-hub.vercel.app/processes/sru-and-tail-gas-unit-inspection-corrosion-realities",
+   "site": "petrochemical-ndt-hub"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/methods",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/standards",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/in-line-inspection-tool-selection-mfl-vs-ut-vs-emat",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/direct-assessment-eca-dca-ica-which-when",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/crack-management-program-pipeline-asme-b31-8s",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/pipeline-coating-disbondment-detection-tools",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/ili-data-validation-workflow-anomaly-truth-table",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/pipeline-girth-weld-quality-management-eca-strain",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/class-location-changes-mop-and-the-inspector-implications",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://pipeline-integrity-guide.vercel.app/case-studies/integrity-verification-process-post-spike-hydrotest",
+   "site": "pipeline-integrity-guide"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/career/salary-guide",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/components",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/components/boiler-tubes",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/components/condenser-tubes",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/components/hrsg",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/components/steam-turbine",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant-types",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant-types/boiler",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant-types/gas-turbine",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant-types/nuclear",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant-types/wind-turbine",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/standards",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/technology",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/technology/digital-twins-power",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/technology/rbi-power-plants",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/boiler-tube-inspection-program-for-fossil-plants",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/turbine-blade-root-inspection-eddy-current-and-paut",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/gas-turbine-hot-section-inspection-borescope-and-fpi",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/condenser-tube-inspection-for-power-plants",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/inspection-of-wind-turbine-tower-flange-bolts",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/hrsg-tube-inspection-for-combined-cycle-plants",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/steam-piping-creep-damage-monitoring-program",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/cooling-tower-structural-inspection-fiberglass-and-concrete",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/generator-stator-and-rotor-ndt-techniques",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://power-generation-ndt.vercel.app/plant/solar-pv-tracker-and-mounting-structure-inspection",
+   "site": "power-generation-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/design",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/fabrication",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/api-510-internal-vs-external-inspection-decision",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/asme-section-viii-fabrication-ndt-requirements-walkthrough",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/reformer-tubes-creep-damage-monitoring-strategies",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/corrosion-monitoring-locations-cml-selection-guide",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/long-range-ut-screening-pressure-vessels",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/pressure-vessel-nozzle-weld-inspection-deep-dive",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/on-stream-inspection-with-pulsed-eddy-current",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/pressure-vessel-thermal-relief-valve-and-prv-tie-ins",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/low-temperature-vessel-impact-test-requirements",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://pressure-vessel-ndt.vercel.app/operation/rerating-pressure-vessels-when-it-is-worth-it",
+   "site": "pressure-vessel-ndt"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/methods",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/track-assessment",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/wheel-inspection",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-flaw-detection-vehicle-types-and-tradeoffs",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rolling-stock-wheel-set-ndt-paut-and-mt",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/thermite-weld-inspection-on-continuous-welded-rail",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-corrosion-fatigue-detection-rcf-cracking",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-bridge-truss-inspection-aar-mra",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-track-bolt-and-fishplate-inspection",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-axle-ultrasonic-inspection-procedure",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/frog-and-switch-component-inspection-on-mainline-rail",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-coach-and-locomotive-shell-inspection",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://rail-ndt-resource.vercel.app/rail/rail-bearing-and-axlebox-ndt-program",
+   "site": "rail-ndt-resource"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/geothermal",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/solar",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/wind",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/wind-turbine-foundation-grout-inspection-offshore",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/green-hydrogen-pipeline-inspection-considerations",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/csp-receiver-tube-inspection-concentrated-solar",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/geothermal-well-casing-corrosion-and-inspection",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/wind-blade-leading-edge-erosion-detection-and-repair",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/floating-offshore-wind-inspection-emerging-practice",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/hydrogen-storage-vessel-inspection-considerations",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/pv-module-electroluminescence-and-infrared-inspection",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/wind-turbine-gearbox-and-bearing-condition-monitoring",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://renewable-energy-ndt.vercel.app/renewables/tidal-and-wave-energy-asset-inspection-introduction",
+   "site": "renewable-energy-ndt"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/certification",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/materials",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/rov-inspection-class-iii-vs-class-iv-which-tooling",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/subsea-pipeline-fjellsiganger-inspection-flooded-member",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/cathodic-protection-survey-deepwater-cp-monitoring",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/subsea-weld-flaw-sizing-with-paut-and-tofd",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/fpso-hull-inspection-program-class-survey-coordination",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/subsea-jumper-and-spool-inspection-2026-workflow",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/subsea-manifold-anode-program-design",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/rov-pilot-handoff-from-vessel-to-onshore-team",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/mattress-and-stabilization-cover-inspection-pipelines",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://subsea-inspection-guide.vercel.app/deepwater/subsea-bolts-inspection-and-replacement-strategy",
+   "site": "subsea-inspection-guide"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/above-ground",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/maintenance",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/underground",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/api-653-out-of-service-internal-inspection-checklist",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/tank-floor-mfl-vs-paut-which-fits-the-job",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/tank-shell-thickness-program-with-out-of-service-inspection",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/floating-roof-seal-inspection-and-leak-detection",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/soil-side-corrosion-on-tank-floors-and-detection",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/tank-roof-pontoon-leak-detection-vacuum-box",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/tank-secondary-containment-inspection-and-integrity",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/api-650-construction-ndt-acceptance-walkthrough",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/asphalt-and-fuel-oil-tank-inspection-considerations",
+   "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://tank-inspection-resource.vercel.app/tanks/tank-relocation-and-reerection-ndt-rules",
+   "site": "tank-inspection-resource"
+  }
+ ]
+}
