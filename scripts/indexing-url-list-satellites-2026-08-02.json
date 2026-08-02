@@ -2735,6 +2735,182 @@
   {
    "url": "https://tank-inspection-resource.vercel.app/tanks/tank-relocation-and-reerection-ndt-rules",
    "site": "tank-inspection-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/defects",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/phased-array-vs-radiography-girth-welds-which-finds-more",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/visual-weld-inspection-vt-pitfalls-cwi-experience",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/welder-qualification-vs-procedure-qualification-records",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/orbital-welding-inspection-semiconductor-pharma-piping",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/weld-mapping-as-a-quality-discipline",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/weld-repair-vs-replace-decisions-on-pressure-piping",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/duplex-stainless-weld-inspection-watchouts",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/weld-distortion-vs-residual-stress-different-problems",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://weld-quality-resource.vercel.app/methods/weld-inspection-for-cryogenic-services-9-percent-nickel",
+   "site": "weld-quality-resource"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/career",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/career/cwi",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/career/salary",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/defects",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/defects/cracks",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/defects/lack-of-fusion",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/defects/porosity",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/ndt-methods",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/ndt-methods/mt-weld",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/ndt-methods/paut-weld",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/ndt-methods/rt-weld",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/ndt-methods/tofd-weld",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/ndt-methods/ut-weld",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/processes",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/processes/smaw-ndt",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/standards",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/standards/api-1104",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/standards/asme-ix",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/standards/aws-d1-1",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/cwi-vs-cswip-vs-iwi-which-cert-for-which-market",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/visual-weld-acceptance-by-code-asme-vs-aws",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/weld-procedure-qualification-record-pqr-from-zero",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/welding-distortion-control-on-thin-plate-fabrication",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/macro-etch-test-on-welds-what-it-actually-shows",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/aws-d17-1-aerospace-fusion-welding-walkthrough",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/iwip-and-iwip-c-paths-vs-cwi-comparison",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/gtaw-vs-gmaw-process-influence-on-weld-quality",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/underwater-welding-inspection-class-and-standard",
+   "site": "welding-inspection-hub"
+  },
+  {
+   "url": "https://welding-inspection-hub.vercel.app/inspect/weld-acceptance-on-coated-and-cladded-components",
+   "site": "welding-inspection-hub"
   }
  ]
 }
