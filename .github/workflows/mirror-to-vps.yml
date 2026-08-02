@@ -59,7 +59,12 @@ jobs:
           mkdir -p ~/.ssh
           printf '%s\n' "${{ secrets.VPS_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "${{ secrets.VPS_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+          # Non-fatal: the runner IP is not always able to reach the host for a
+          # keyscan (rate limiting and intermittent refusals have both been seen),
+          # and under `bash -e` a non-zero exit here killed the whole mirror even
+          # though the sync steps set StrictHostKeyChecking=no and do not need it.
+          ssh-keyscan -H "${{ secrets.VPS_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null || \
+            echo "keyscan unavailable — proceeding with StrictHostKeyChecking=no"
 
       - name: Sync dist to the VPS docroot
         # No --delete: the standby is additive (CLAUDE.md additive-only rule), and
