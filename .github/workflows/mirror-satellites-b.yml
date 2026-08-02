@@ -1,0 +1,72 @@
+# Mirror the overflow satellites to anoop-1/atlantis-satellites-b.
+#
+# Vercel caps how many projects may be git-linked to one repository. This repo
+# reached that cap at 24 (the main site plus 23 satellites), so eleven
+# satellites live in a second repo purely to get their own link slots.
+#
+# Source of truth stays here, under backlink-sites/<name>. This workflow copies
+# any change to the second repo, and that push is what triggers the Vercel build
+# for the affected satellite. Nobody should ever edit the second repo directly.
+name: Mirror overflow satellites
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'backlink-sites/oil-gas-inspection-guide/**'
+      - 'backlink-sites/petrochemical-ndt-hub/**'
+      - 'backlink-sites/pipeline-integrity-guide/**'
+      - 'backlink-sites/power-generation-ndt/**'
+      - 'backlink-sites/pressure-vessel-ndt/**'
+      - 'backlink-sites/rail-ndt-resource/**'
+      - 'backlink-sites/renewable-energy-ndt/**'
+      - 'backlink-sites/subsea-inspection-guide/**'
+      - 'backlink-sites/tank-inspection-resource/**'
+      - 'backlink-sites/weld-quality-resource/**'
+      - 'backlink-sites/welding-inspection-hub/**'
+  workflow_dispatch:
+
+concurrency:
+  group: mirror-satellites-b
+  cancel-in-progress: true
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy the eleven satellites into a checkout of the target repo
+        env:
+          TOKEN: ${{ secrets.SATELLITE_REPO_TOKEN }}
+        run: |
+          set -euo pipefail
+          SATS="oil-gas-inspection-guide petrochemical-ndt-hub pipeline-integrity-guide
+                power-generation-ndt pressure-vessel-ndt rail-ndt-resource
+                renewable-energy-ndt subsea-inspection-guide tank-inspection-resource
+                weld-quality-resource welding-inspection-hub"
+
+          git clone --depth 1 "https://x-access-token:${TOKEN}@github.com/anoop-1/atlantis-satellites-b.git" target
+
+          for s in $SATS; do
+            # --delete here is correct and is not an exception to the additive
+            # rule: the target is a derived copy, so a file removed upstream must
+            # disappear downstream or the satellite ships content that no longer
+            # exists in source.
+            rsync -a --delete \
+              --exclude node_modules --exclude .next --exclude out --exclude '*.tsbuildinfo' \
+              "backlink-sites/$s/" "target/$s/"
+          done
+
+          cd target
+          git config user.name  "atlantis-mirror[bot]"
+          git config user.email "anu.anoop485@gmail.com"
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "no satellite changes to mirror"
+            exit 0
+          fi
+          git add -A
+          git commit -m "mirror: satellites from atlantis-reimagined1@${GITHUB_SHA::7}
+
+Automated copy from backlink-sites/ in the source repo. Do not edit here."
+          git push origin main
