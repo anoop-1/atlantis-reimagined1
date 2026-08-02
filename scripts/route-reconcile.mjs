@@ -915,6 +915,8 @@ function loadJson(rel) {
   }
 }
 
+import { buildGlossaryDepth, glossaryFaqs, glossaryDepthCoverage } from './glossary-depth.mjs';
+
 const asArray = (data) => (Array.isArray(data) ? data : data && typeof data === 'object' ? Object.values(data)[0] : []);
 
 /** Strip HTML that lives inside the JSON definition fields, keeping the text. */
@@ -949,8 +951,13 @@ export function buildGlossaryRoutes() {
         .map((s) => `<a href="/blog/${s}">${esc(s.replace(/-/g, ' '))}</a>`)
         .join(' · ');
       const definition = e.definition || '';
+      // Authored, term-specific depth. Empty for terms with no researched facts —
+      // padding is what put these pages at position 60 in the first place.
+      const depth = buildGlossaryDepth(e);
       const faqs = [
         { question: `What does ${e.term.split('(')[0].trim()} mean in NDT?`, answer: stripTags(e.shortDefinition || definition).slice(0, 900) },
+        // Only Q&A that the page actually renders (CLAUDE.md 20.8).
+        ...glossaryFaqs(e),
       ];
       const body = `${H.nav(GLOSSARY_NAV)}
   <main>
@@ -958,6 +965,7 @@ export function buildGlossaryRoutes() {
       <h1>${esc(e.term)}</h1>
       <p><strong>${esc(e.shortDefinition || '')}</strong></p>
       ${definition}
+      ${depth}
       ${related ? `<h2>Related terms</h2><ul>${related}</ul>` : ''}
       ${blogs ? `<h2>Further reading</h2><p>${blogs}</p>` : ''}
       ${siblings ? `<h2>More ${esc(e.category || 'NDT')} terms</h2><p>${siblings}</p>` : ''}

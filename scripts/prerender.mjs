@@ -12990,7 +12990,7 @@ if (pseoNoindexApplied > 0) {
     console.log(
       `📗 Thin-page upgrade: ${up.services} service · ${up.corporate} corporate-training · ` +
       `${up.consulting} consulting · ${up.caseStudies} case-study · ${up.tools} tool · ` +
-      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler pages deepened`
+      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler · ${up.dtDepth} digital-twin pages deepened · ${up.erpFaqs} ERP pages given buyer Q&A`
     );
   }
 

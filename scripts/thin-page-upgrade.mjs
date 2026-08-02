@@ -34,6 +34,8 @@ import { addAuthoredFaqs } from './faq-content.mjs';
 import { loadCityContext, upgradeIndustryPages, upgradeInspectionPages, upgradeCertTrainingPages } from './noindex-recovery.mjs';
 import { applyErpGenericPositioning, assertNoNumbersInErpHubMeta } from './erp-generic-positioning.mjs';
 import { applyCertClusterDefence } from './cert-cluster-defence.mjs';
+import { applyDtDepth } from './dt-depth-2026-08-02.mjs';
+import { applyErpFaqs } from './erp-faq-2026-08-02.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -638,5 +640,19 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // ERP Track B: consolidate the winnable intersection (Malaysia oil & gas,
     // Singapore construction) rather than adding more permutations.
     erpIntersection: applyErpIntersectionBoost(routes, append),
+    // Digital Twin: 331 of 389 DT pages earn zero impressions, so this
+    // deliberately skips the city permutations (CLAUDE.md 20.2) and deepens only
+    // pages with measured demand — the comparison pages, which query data shows
+    // are the one DT asset class with genuine third-party intent, plus the ROI
+    // calculator, which holds the strongest DT position on the site on 388 words.
+    dtDepth: applyDtDepth(routes, append),
+    // ERP is not thin — it averages over a thousand words with none under 650 —
+    // but 1,089 of its pages rendered no Q&A and therefore emitted no FAQ
+    // schema. Buyers of business software arrive with a fixed set of anxieties
+    // (migration, disruption, lock-in, whether an odd process fits) and a page
+    // that ignores them loses the reader however much it explains the product.
+    // Copy contains no numerals at all, per owner direction; the module fails
+    // the build if one returns.
+    erpFaqs: applyErpFaqs(routes, append),
   };
 }
