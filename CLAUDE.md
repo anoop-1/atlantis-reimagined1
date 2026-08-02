@@ -709,3 +709,108 @@ List saved at `scripts/indexing-url-list-2026-07-30-new-resources.json`.
 **Queue state after this run:** 5,103 sitemap URLs · 2,099 confirmed indexed · ~229 never-submitted remaining (all zero-impression tail) · 5,927 URLs tracked as submitted. **New pages are ranked last by the demand sort, so submit them explicitly before running the demand-prioritised batch.**
 
 **Watch next (re-pull ~2026-08-12):** site clicks 2,600+ · top-10 sub-3%-CTR pages under 45 · ERP clicks 70+ · `generate_lead` 60+ · `template_download` trend on the five new resources · API certification cluster flat or recovering.
+
+---
+
+## 22. Vercel account migration + satellite rescue — 2026-08-02
+
+### 22.1 What happened
+The Vercel account hosting atlantisndt.com began returning **HTTP 402
+`DEPLOYMENT_DISABLED`** and the site went down. Everything moved to a **new
+Vercel account**: user `anuanoop485-7876` (anu.anoop485@gmail.com), team
+**`atlantis15`** (`team_Q8oRvd5bzGEOuy0W5CleWy5m`), **hobby** plan.
+
+| Thing | Value |
+|---|---|
+| Main project | `atlantis-reimagined1` = `prj_OXCYeYbDgSY1q5VL5li9DXs1bVo4` |
+| Git link | `anoop-1/atlantis-reimagined1`, branch `main` → **push = auto-deploy** |
+| Build | framework vite · install `bun install` · output `dist` |
+| Old account (still administrable via its token) | `anoop-4270`, team `anoops-projects-776b2b4a` |
+
+**Domain move needed no A-record change.** Apex A = 76.76.21.21 and `www` CNAME
+to apex are still valid Vercel targets. Moving a domain between Vercel accounts
+required only two TXT records at `_vercel.atlantisndt.com` (one per hostname),
+then `POST /v9/projects/{id}/domains/{name}/verify`.
+
+### 22.2 THE SATELLITE RESCUE — read before ever moving accounts again
+Every satellite hardcodes `https://<name>.vercel.app` as its canonical, in
+sitemaps, JSON-LD and internal links (~54 occurrences per site). Losing those
+hostnames would have meant a codemod across all 35 sites and restarting each
+one's authority from zero.
+
+**A `.vercel.app` hostname can be released without deleting the project holding
+it:**
+1. OLD account: `DELETE /v9/projects/{name}/domains/{name}.vercel.app` → 200.
+   The old project survives — reversible, deployments intact.
+2. NEW account: create a project with the **same name**; Vercel auto-assigns
+   `<name>.vercel.app` because the name is now free. A subsequent explicit
+   domain-add returns 409 `duplicate-team-registration`, which means *already
+   attached*, not failure.
+
+Skip step 1 and the claim fails with 409 `owned-on-other-team`.
+**All 35 satellites kept their exact URLs. No backlink was broken.**
+
+### 22.3 Per-repo git-link cap is 24, not 10 (§5.2 was wrong)
+`400 repo_links_exceeded_limit` fires at 24 projects linked to one repo.
+`atlantis-reimagined1` holds the main site + 23 satellites. The remaining **11
+satellites live in `anoop-1/atlantis-satellites-b`** purely for link slots:
+oil-gas-inspection-guide, petrochemical-ndt-hub, pipeline-integrity-guide,
+power-generation-ndt, pressure-vessel-ndt, rail-ndt-resource,
+renewable-energy-ndt, subsea-inspection-guide, tank-inspection-resource,
+weld-quality-resource, welding-inspection-hub.
+
+**Source of truth stays `backlink-sites/<name>` here.**
+`.github/workflows/mirror-satellites-b.yml` copies those folders across on push
+(secret `SATELLITE_REPO_TOKEN`); that mirror push triggers their builds. **Never
+edit `atlantis-satellites-b` directly.**
+
+Each satellite keeps `commandForIgnoringBuildStep = git diff --quiet HEAD^ HEAD
+-- <path>` so a push rebuilds only what changed. **That rule also skips the
+first build** — clear it, deploy, restore it. Hobby builds run one at a time, so
+deploying all 35 is sequential.
+
+### 22.4 Contact form
+`/api/contact` returns 500 on any host without `SMTP_*` env vars, and the new
+project has none — every submission would have been silently lost, the exact
+failure §20.10 was written about. `src/pages/Contact.tsx` now falls back to
+**EmailJS in the browser** (commit `a4a658eed`), the same path
+`EnquiryCaptureForm` already used. Verified end-to-end on the live domain:
+submitted through the real form, traced to `status=sent (delivered via dovecot)`
+into the **info@atlantisndt.com** mailbox.
+To restore the server path, set `SMTP_HOST/PORT/USER/PASS` on the Vercel project
+— it takes priority again automatically.
+NOTE: info@ does **not** forward to anoop@atlantisinspection.com (§ elsewhere in
+this file says it does — that is stale). Mail sits in the mailbox.
+
+### 22.5 VPS is now a warm standby
+`.github/workflows/mirror-to-vps.yml` rebuilds and rsyncs `dist/` to
+`/var/www/atlantisndt.com` on every push, and **refuses to ship a build with
+under 4,000 prerendered pages** so a collapsed build cannot overwrite a good
+standby. nginx config is **generated** from `vercel.json` by
+`scripts/gen-nginx-config.mjs` (47 redirects + cache/security headers) — do not
+hand-edit it. The contact API runs as `atlantis-contact.service` on **port 3021**
+(3001 belongs to ndt-connect's Next.js server), relaying through local Postfix.
+Verified 41/41 checks before cutover was even needed.
+
+⚠️ The box terminates TLS behind an nginx **`stream` block on :443** that
+SNI-routes to `127.0.0.1:4443`. A new vhost listens **there**, not on :443, and
+uses `listen … ssl http2;` (this nginx predates `http2 on;`). Every HTTPS request
+arrives with a **loopback client IP** — no PROXY protocol — so per-IP rate
+limiting at that layer is meaningless.
+
+**To fail over:** point the apex A record at **148.230.122.172**.
+Cloudflare-based automatic failover was designed and **deliberately deferred** by
+the owner.
+
+### 22.6 Scope decisions (owner, 2026-08-02)
+Only **atlantisndt.com and its 35 satellites** go on the new Vercel account.
+**ndt-connect.com stays on the VPS** — do not deploy it to Vercel. **visapath and
+its satellites: do not deploy at all.**
+
+Note: the old account also holds 13 further satellite-looking projects whose
+source is **not** in `backlink-sites/` (ndt-standards-reference,
+offshore-ndt-guide, ndt-digital-technology, aerospace-ndt-center,
+corrosion-engineering-guide, pressure-vessel-inspection, weld-inspection-pro,
+pipeline-integrity-hub, ndt-career-portal, tank-inspection-guide,
+industrial-coating-inspection, rt-testing-hub, ut-testing-academy). They were
+left untouched — their source needs locating before they can be moved.
