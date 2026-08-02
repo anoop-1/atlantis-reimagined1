@@ -66,7 +66,10 @@ jobs:
             exit 0
           fi
           git add -A
-          git commit -m "mirror: satellites from atlantis-reimagined1@${GITHUB_SHA::7}
-
-Automated copy from backlink-sites/ in the source repo. Do not edit here."
+          # Two -m flags rather than a multi-line string: inside a YAML block
+          # scalar every line must stay indented, and an unindented continuation
+          # line silently makes the whole workflow unparseable.
+          git commit \
+            -m "mirror: satellites from atlantis-reimagined1@${GITHUB_SHA::7}" \
+            -m "Automated copy from backlink-sites/ in the source repo. Do not edit here."
           git push origin main
