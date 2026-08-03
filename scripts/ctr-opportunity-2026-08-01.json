@@ -1,0 +1,6149 @@
+{
+ "range": {
+  "start": "2026-05-03",
+  "end": "2026-08-01"
+ },
+ "totalRecoverable": 751,
+ "excluded": {
+  "impressions": 8067,
+  "reasons": {
+   "navigational brand — already knows where to go": 1497,
+   "file-seeking intent — clicks the PDF, not the page": 622,
+   "AI-assistant phrasing — answered in the assistant, rarely clicked": 2742,
+   "site: operator — us auditing our own index": 2572,
+   "non-English variant — no commercial intent for this site": 634
+  }
+ },
+ "pages": [
+  {
+   "page": "/blog/ndt-salary-guide-2026-global",
+   "lost": 147.34100000000004,
+   "impressions": 4717,
+   "clicks": 17,
+   "queries": [
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt technician salary",
+     "impressions": 303,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.217821782178218,
+     "expected": 0.0496039603960396,
+     "lost": 15.03
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 3 salary",
+     "impressions": 415,
+     "clicks": 3,
+     "ctr": 0.007228915662650603,
+     "position": 7.52289156626506,
+     "expected": 0.0303855421686747,
+     "lost": 9.610000000000001
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "salry of ndt inspector in australia",
+     "impressions": 283,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.406360424028269,
+     "expected": 0.030968197879858658,
+     "lost": 8.764
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt technician",
+     "impressions": 78,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.0128205128205128,
+     "expected": 0.09961538461538462,
+     "lost": 7.7700000000000005
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 3 salary in gulf",
+     "impressions": 131,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.709923664122138,
+     "expected": 0.05722137404580152,
+     "lost": 7.4959999999999996
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt inspector salary",
+     "impressions": 243,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.769547325102881,
+     "expected": 0.029152263374485596,
+     "lost": 7.084
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 2 salary in gulf",
+     "impressions": 257,
+     "clicks": 1,
+     "ctr": 0.0038910505836575876,
+     "position": 7.412451361867705,
+     "expected": 0.030937743190661476,
+     "lost": 6.951
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "salary",
+     "impressions": 61,
+     "clicks": 2,
+     "ctr": 0.03278688524590164,
+     "position": 2.5737704918032787,
+     "expected": 0.12131147540983607,
+     "lost": 5.4
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "non destructive testing salary",
+     "impressions": 140,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.6571428571428575,
+     "expected": 0.035742857142857146,
+     "lost": 5.0040000000000004
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 2 salary",
+     "impressions": 143,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.888111888111888,
+     "expected": 0.033895104895104895,
+     "lost": 4.847
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt offshore salary",
+     "impressions": 133,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.015037593984962,
+     "expected": 0.03292481203007519,
+     "lost": 4.3790000000000004
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt salary",
+     "impressions": 137,
+     "clicks": 1,
+     "ctr": 0.0072992700729927005,
+     "position": 6.45985401459854,
+     "expected": 0.03732116788321168,
+     "lost": 4.113
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "paut technician salary",
+     "impressions": 99,
+     "clicks": 1,
+     "ctr": 0.010101010101010102,
+     "position": 5.424242424242424,
+     "expected": 0.04733333333333334,
+     "lost": 3.6860000000000004
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 3 salary in india",
+     "impressions": 117,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.555555555555555,
+     "expected": 0.025777777777777778,
+     "lost": 3.016
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 2 salary in india",
+     "impressions": 146,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.253424657534246,
+     "expected": 0.01973287671232877,
+     "lost": 2.8810000000000002
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "gaji ndt level 2",
+     "impressions": 59,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.711864406779661,
+     "expected": 0.04416949152542373,
+     "lost": 2.6060000000000003
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "level 2 ndt technician salary",
+     "impressions": 91,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.197802197802197,
+     "expected": 0.027208791208791213,
+     "lost": 2.4760000000000004
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "gaji ndt level 1",
+     "impressions": 50,
+     "clicks": 1,
+     "ctr": 0.02,
+     "position": 4.12,
+     "expected": 0.06784,
+     "lost": 2.3919999999999995
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt salary level 3",
+     "impressions": 130,
+     "clicks": 1,
+     "ctr": 0.007692307692307693,
+     "position": 8.592307692307692,
+     "expected": 0.02563076923076923,
+     "lost": 2.332
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt salary level 4",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.375,
+     "expected": 0.047875,
+     "lost": 2.298
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt engineer salary",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.446808510638298,
+     "expected": 0.04708510638297873,
+     "lost": 2.213
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 3 salary in saudi arabia",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.1454545454545455,
+     "expected": 0.039836363636363635,
+     "lost": 2.191
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 1 salary",
+     "impressions": 75,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.186666666666667,
+     "expected": 0.02725333333333333,
+     "lost": 2.0439999999999996
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt specialist salary",
+     "impressions": 65,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.769230769230769,
+     "expected": 0.029153846153846155,
+     "lost": 1.895
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt salary level 1",
+     "impressions": 66,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.893939393939394,
+     "expected": 0.02853030303030303,
+     "lost": 1.883
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "level 3 ndt salary",
+     "impressions": 65,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.015384615384615,
+     "expected": 0.02793846153846154,
+     "lost": 1.816
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 2 salary in saudi arabia",
+     "impressions": 64,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.25,
+     "expected": 0.027,
+     "lost": 1.728
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt pay",
+     "impressions": 59,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.915254237288136,
+     "expected": 0.02842372881355932,
+     "lost": 1.6769999999999998
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 3 salary in dubai",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.935483870967742,
+     "expected": 0.05316129032258064,
+     "lost": 1.648
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt",
+     "impressions": 37,
+     "clicks": 2,
+     "ctr": 0.05405405405405406,
+     "position": 3.108108108108108,
+     "expected": 0.09675675675675677,
+     "lost": 1.5800000000000003
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "level 3 ndt technician salary",
+     "impressions": 60,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.483333333333334,
+     "expected": 0.02606666666666666,
+     "lost": 1.5639999999999996
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt salary level 2",
+     "impressions": 83,
+     "clicks": 1,
+     "ctr": 0.012048192771084338,
+     "position": 8.132530120481928,
+     "expected": 0.02746987951807229,
+     "lost": 1.28
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ut level 2 salary",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.3076923076923075,
+     "expected": 0.031461538461538464,
+     "lost": 1.227
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt certification salary",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.104166666666666,
+     "expected": 0.023687500000000004,
+     "lost": 1.1370000000000002
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "how much do ndt technicians make",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.684210526315789,
+     "expected": 0.029578947368421055,
+     "lost": 1.124
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt radiography salary",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.684210526315789,
+     "expected": 0.029578947368421055,
+     "lost": 1.124
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt oil and gas salary",
+     "impressions": 53,
+     "clicks": 1,
+     "ctr": 0.018867924528301886,
+     "position": 6.226415094339623,
+     "expected": 0.03918867924528302,
+     "lost": 1.0770000000000002
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 3 salary per month",
+     "impressions": 63,
+     "clicks": 1,
+     "ctr": 0.015873015873015872,
+     "position": 7.063492063492063,
+     "expected": 0.03268253968253969,
+     "lost": 1.0590000000000004
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "how much do ndt inspectors make",
+     "impressions": 49,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.020408163265307,
+     "expected": 0.020897959183673466,
+     "lost": 1.0239999999999998
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "how much do ndt techs make",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.76923076923077,
+     "expected": 0.02492307692307692,
+     "lost": 0.9719999999999999
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt pay scale",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.9393939393939394,
+     "expected": 0.028303030303030302,
+     "lost": 0.9339999999999999
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "aerospace ndt salary",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.92,
+     "expected": 0.03364,
+     "lost": 0.8410000000000001
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt tech salary",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.352941176470589,
+     "expected": 0.022941176470588236,
+     "lost": 0.78
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "gaji ndt inspector",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.36,
+     "expected": 0.0312,
+     "lost": 0.7799999999999999
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt level 1 salary in india",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.657142857142857,
+     "expected": 0.022028571428571432,
+     "lost": 0.7710000000000001
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "phased array technician salary",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.6,
+     "expected": 0.030000000000000002,
+     "lost": 0.7500000000000001
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "advanced non destructive testing technician salary",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9,
+     "expected": 0.024,
+     "lost": 0.744
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt ut level 2 salary",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.814814814814815,
+     "expected": 0.02474074074074074,
+     "lost": 0.668
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "paut technician salary in india",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.36,
+     "expected": 0.026560000000000004,
+     "lost": 0.6640000000000001
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt trainee salary",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.807692307692308,
+     "expected": 0.021576923076923077,
+     "lost": 0.5609999999999999
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt tarkastaja palkka",
+     "impressions": 113,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.29203539823009,
+     "expected": 0.004,
+     "lost": 0.452
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "asnt level 3 salary",
+     "impressions": 44,
+     "clicks": 1,
+     "ctr": 0.022727272727272728,
+     "position": 7.340909090909091,
+     "expected": 0.03129545454545455,
+     "lost": 0.37700000000000017
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "offshore ndt technician salary",
+     "impressions": 38,
+     "clicks": 1,
+     "ctr": 0.02631578947368421,
+     "position": 7.131578947368421,
+     "expected": 0.032342105263157894,
+     "lost": 0.22900000000000004
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt tarkastaja palkka,,not yet checked,not in top 30,not in top 30,18,,,,,not in top 30,not in top 30,17,,3,not in top 30,8,https://www.ndtaura.fi/,23%,0%,42%",
+     "impressions": 42,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 67.64285714285714,
+     "expected": 0.004,
+     "lost": 0.168
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt-tarkastaja palkka",
+     "impressions": 29,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 28.655172413793103,
+     "expected": 0.004,
+     "lost": 0.116
+    },
+    {
+     "page": "/blog/ndt-salary-guide-2026-global",
+     "query": "ndt tarkastajan palkka,,not yet checked,not in top 30,not in top 30,15,aio rank (0),not in top 30,not in top 30,not in top 30,not in top 30,not in top 30,17,\"aio mentions (0), aio rank (0)\",3,not in top 30,5,https://www.ndtaura.fi/,23%,0%,47%",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 31.185185185185187,
+     "expected": 0.004,
+     "lost": 0.108
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-510-570-653-exam-schedule-2026",
+   "lost": 85.34299999999999,
+   "impressions": 2958,
+   "clicks": 56,
+   "queries": [
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 exam schedule 2026",
+     "impressions": 205,
+     "clicks": 2,
+     "ctr": 0.00975609756097561,
+     "position": 3.8341463414634145,
+     "expected": 0.07497560975609757,
+     "lost": 13.370000000000003
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api exam schedule",
+     "impressions": 483,
+     "clicks": 5,
+     "ctr": 0.010351966873706004,
+     "position": 6.679089026915114,
+     "expected": 0.03556728778467909,
+     "lost": 12.179
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api exam schedule 2026",
+     "impressions": 402,
+     "clicks": 16,
+     "ctr": 0.03980099502487562,
+     "position": 4.460199004975125,
+     "expected": 0.06171641791044776,
+     "lost": 8.81
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api schedule 2026",
+     "impressions": 194,
+     "clicks": 2,
+     "ctr": 0.010309278350515464,
+     "position": 5.469072164948454,
+     "expected": 0.04684020618556701,
+     "lost": 7.087
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 510 exam schedule",
+     "impressions": 200,
+     "clicks": 2,
+     "ctr": 0.01,
+     "position": 6.44,
+     "expected": 0.03748,
+     "lost": 5.4959999999999996
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 510 exam schedule 2026",
+     "impressions": 183,
+     "clicks": 9,
+     "ctr": 0.04918032786885246,
+     "position": 3.8743169398907105,
+     "expected": 0.07377049180327869,
+     "lost": 4.5
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 653 exam schedule",
+     "impressions": 88,
+     "clicks": 1,
+     "ctr": 0.011363636363636364,
+     "position": 4.795454545454545,
+     "expected": 0.05568181818181819,
+     "lost": 3.900000000000001
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api schedule",
+     "impressions": 119,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.873949579831932,
+     "expected": 0.028630252100840338,
+     "lost": 3.407
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 bok 2026",
+     "impressions": 60,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.833333333333333,
+     "expected": 0.042833333333333334,
+     "lost": 2.5700000000000003
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 653 exam fees",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.863636363636363,
+     "expected": 0.05445454545454546,
+     "lost": 2.396
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 exam schedule",
+     "impressions": 91,
+     "clicks": 1,
+     "ctr": 0.01098901098901099,
+     "position": 6.802197802197802,
+     "expected": 0.034582417582417584,
+     "lost": 2.147
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 schedule 2026",
+     "impressions": 68,
+     "clicks": 2,
+     "ctr": 0.029411764705882353,
+     "position": 4.514705882352941,
+     "expected": 0.06073529411764706,
+     "lost": 2.1300000000000003
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api fees and schedule",
+     "impressions": 63,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.333333333333333,
+     "expected": 0.03133333333333334,
+     "lost": 1.9740000000000002
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 653 exam schedule 2026",
+     "impressions": 111,
+     "clicks": 7,
+     "ctr": 0.06306306306306306,
+     "position": 3.7117117117117115,
+     "expected": 0.07864864864864866,
+     "lost": 1.7300000000000024
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 schedule",
+     "impressions": 43,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.534883720930233,
+     "expected": 0.03672093023255814,
+     "lost": 1.579
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api icp schedule",
+     "impressions": 107,
+     "clicks": 3,
+     "ctr": 0.028037383177570093,
+     "position": 5.906542056074766,
+     "expected": 0.04202803738317758,
+     "lost": 1.4970000000000008
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 510 body of knowledge 2026",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.857142857142857,
+     "expected": 0.04257142857142858,
+     "lost": 1.4900000000000002
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 510 schedule",
+     "impressions": 46,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.130434782608695,
+     "expected": 0.03234782608695652,
+     "lost": 1.488
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 510 test dates",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.2272727272727275,
+     "expected": 0.031863636363636365,
+     "lost": 1.4020000000000001
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 exam fees",
+     "impressions": 57,
+     "clicks": 1,
+     "ctr": 0.017543859649122806,
+     "position": 6.105263157894737,
+     "expected": 0.04015789473684211,
+     "lost": 1.2890000000000001
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 570 test dates",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.264705882352941,
+     "expected": 0.0316764705882353,
+     "lost": 1.0770000000000002
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api schedule and fees",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.866666666666666,
+     "expected": 0.02866666666666667,
+     "lost": 0.8600000000000001
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 510 exam fees",
+     "impressions": 73,
+     "clicks": 2,
+     "ctr": 0.0273972602739726,
+     "position": 6.260273972602739,
+     "expected": 0.038917808219178084,
+     "lost": 0.8410000000000002
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api exam fees",
+     "impressions": 47,
+     "clicks": 1,
+     "ctr": 0.02127659574468085,
+     "position": 6.468085106382978,
+     "expected": 0.03725531914893618,
+     "lost": 0.7510000000000003
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 653 schedule",
+     "impressions": 43,
+     "clicks": 1,
+     "ctr": 0.023255813953488372,
+     "position": 6.255813953488372,
+     "expected": 0.03895348837209303,
+     "lost": 0.6750000000000004
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "what actually changed with api icp exam delivery after september 2024? i heard remote proproctor was discontinued for 510, 570, 653, and 1169, and i want to make sure our team plans recerts accordingly.",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.928571428571429,
+     "expected": 0.00907142857142857,
+     "lost": 0.254
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "api 2026 schedule",
+     "impressions": 32,
+     "clicks": 1,
+     "ctr": 0.03125,
+     "position": 6.34375,
+     "expected": 0.03825,
+     "lost": 0.22399999999999998
+    },
+    {
+     "page": "/blog/api-510-570-653-exam-schedule-2026",
+     "query": "are remote-proctored api icp exams still available for our field personnel, or did api discontinue proproctor for 510, 570, 653, and 1169? need to know whether to plan around prometric sites only.",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.142857142857142,
+     "expected": 0.007857142857142858,
+     "lost": 0.22000000000000003
+    }
+   ]
+  },
+  {
+   "page": "/asnt-certification",
+   "lost": 46.05100000000001,
+   "impressions": 1954,
+   "clicks": 7,
+   "queries": [
+    {
+     "page": "/asnt-certification",
+     "query": "asnt certification",
+     "impressions": 786,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.374045801526718,
+     "expected": 0.031129770992366412,
+     "lost": 24.468
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level 3",
+     "impressions": 114,
+     "clicks": 1,
+     "ctr": 0.008771929824561403,
+     "position": 5.280701754385965,
+     "expected": 0.048912280701754386,
+     "lost": 4.5760000000000005
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "ndt level 3 course fees",
+     "impressions": 75,
+     "clicks": 3,
+     "ctr": 0.04,
+     "position": 3.1733333333333333,
+     "expected": 0.09480000000000001,
+     "lost": 4.11
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level 3 exam fees",
+     "impressions": 118,
+     "clicks": 1,
+     "ctr": 0.00847457627118644,
+     "position": 6.033898305084746,
+     "expected": 0.040728813559322036,
+     "lost": 3.8060000000000005
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt accp",
+     "impressions": 45,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.111111111111111,
+     "expected": 0.03244444444444445,
+     "lost": 1.4600000000000002
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level 3 fees",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.035714285714286,
+     "expected": 0.04071428571428572,
+     "lost": 1.1400000000000001
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt snt-tc-1a",
+     "impressions": 72,
+     "clicks": 1,
+     "ctr": 0.013888888888888888,
+     "position": 7.722222222222222,
+     "expected": 0.029388888888888888,
+     "lost": 1.116
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level ii certification employer based snt-tc-1a official",
+     "impressions": 45,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.755555555555556,
+     "expected": 0.021733333333333334,
+     "lost": 0.978
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level 3 exam fees in india",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.115384615384615,
+     "expected": 0.03242307692307693,
+     "lost": 0.8430000000000002
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "snt-tc-1a",
+     "impressions": 79,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.278481012658226,
+     "expected": 0.008721518987341774,
+     "lost": 0.6890000000000002
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt certification nationwide contracts",
+     "impressions": 92,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.51086956521739,
+     "expected": 0.007489130434782609,
+     "lost": 0.6890000000000001
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt snt tc 1a",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.212121212121213,
+     "expected": 0.009787878787878786,
+     "lost": 0.32299999999999995
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt",
+     "impressions": 163,
+     "clicks": 1,
+     "ctr": 0.006134969325153374,
+     "position": 17.687116564417177,
+     "expected": 0.008,
+     "lost": 0.304
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level iii",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.58823529411765,
+     "expected": 0.008,
+     "lost": 0.272
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level 2",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.944444444444443,
+     "expected": 0.007055555555555557,
+     "lost": 0.25400000000000006
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "ndt level 3 requirements",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.5,
+     "expected": 0.0075,
+     "lost": 0.22499999999999998
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level iii consulting",
+     "impressions": 51,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 59.8235294117647,
+     "expected": 0.004,
+     "lost": 0.20400000000000001
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt tc 1a",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.56,
+     "expected": 0.007440000000000001,
+     "lost": 0.18600000000000003
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt level 3 online training",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 29.333333333333332,
+     "expected": 0.004,
+     "lost": 0.14400000000000002
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt ndt level 3 preparatory course",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.8235294117647,
+     "expected": 0.004,
+     "lost": 0.136
+    },
+    {
+     "page": "/asnt-certification",
+     "query": "asnt ndt level iii certification program",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 22.6875,
+     "expected": 0.004,
+     "lost": 0.128
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-653-tank-inspection-guide",
+   "lost": 31.051999999999996,
+   "impressions": 3965,
+   "clicks": 10,
+   "queries": [
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653",
+     "impressions": 1021,
+     "clicks": 5,
+     "ctr": 0.004897159647404506,
+     "position": 12.604309500489716,
+     "expected": 0.012791380999020567,
+     "lost": 8.06
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "653 tank inspection",
+     "impressions": 323,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.647058823529411,
+     "expected": 0.012705882352941178,
+     "lost": 4.104
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank inspection",
+     "impressions": 461,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.906724511930584,
+     "expected": 0.008093275488069417,
+     "lost": 3.731000000000001
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api653",
+     "impressions": 84,
+     "clicks": 1,
+     "ctr": 0.011904761904761904,
+     "position": 4.9523809523809526,
+     "expected": 0.05285714285714285,
+     "lost": 3.4399999999999995
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 inspection",
+     "impressions": 366,
+     "clicks": 1,
+     "ctr": 0.00273224043715847,
+     "position": 16.44535519125683,
+     "expected": 0.00855464480874317,
+     "lost": 2.1310000000000002
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 inspection services",
+     "impressions": 211,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.492890995260666,
+     "expected": 0.008507109004739334,
+     "lost": 1.7949999999999995
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank inspection company",
+     "impressions": 153,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 14.941176470588236,
+     "expected": 0.010058823529411764,
+     "lost": 1.539
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank inspection repair alteration reconstruction official api",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.851063829787234,
+     "expected": 0.024595744680851062,
+     "lost": 1.156
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 requirements",
+     "impressions": 183,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 20.863387978142075,
+     "expected": 0.004,
+     "lost": 0.732
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank",
+     "impressions": 104,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 19,
+     "expected": 0.007,
+     "lost": 0.728
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank inspection companies",
+     "impressions": 117,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 34.504273504273506,
+     "expected": 0.004,
+     "lost": 0.468
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "what is api 653",
+     "impressions": 51,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.784313725490197,
+     "expected": 0.008215686274509804,
+     "lost": 0.419
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api tank inspection",
+     "impressions": 311,
+     "clicks": 3,
+     "ctr": 0.00964630225080386,
+     "position": 14.102893890675242,
+     "expected": 0.010897106109324758,
+     "lost": 0.3889999999999994
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank inspection frequency",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 19.81578947368421,
+     "expected": 0.007,
+     "lost": 0.266
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "tank inspection api 653",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 19.68421052631579,
+     "expected": 0.007,
+     "lost": 0.266
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "653 api",
+     "impressions": 62,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 23.14516129032258,
+     "expected": 0.004,
+     "lost": 0.248
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 inspection frequency",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 23.020833333333332,
+     "expected": 0.004,
+     "lost": 0.192
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "in service tank inspection",
+     "impressions": 45,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 48.51111111111111,
+     "expected": 0.004,
+     "lost": 0.18
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 inspections",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.692307692307693,
+     "expected": 0.004,
+     "lost": 0.156
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "terminal tank inspection",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 47.69444444444444,
+     "expected": 0.004,
+     "lost": 0.14400000000000002
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank inspection checklist",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 22.794117647058822,
+     "expected": 0.004,
+     "lost": 0.136
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 tank repair",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 30.029411764705884,
+     "expected": 0.004,
+     "lost": 0.136
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "\"tank inspection, repair, alteration, and reconstruction\"",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 30.606060606060606,
+     "expected": 0.004,
+     "lost": 0.132
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 certification",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25,
+     "expected": 0.004,
+     "lost": 0.132
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 compliant tank repair",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.818181818181817,
+     "expected": 0.004,
+     "lost": 0.132
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api-653 tank inspection",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 26.903225806451612,
+     "expected": 0.004,
+     "lost": 0.124
+    },
+    {
+     "page": "/blog/api-653-tank-inspection-guide",
+     "query": "api 653 storage tank inspection",
+     "impressions": 29,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 29.03448275862069,
+     "expected": 0.004,
+     "lost": 0.116
+    }
+   ]
+  },
+  {
+   "page": "/api-570-certification",
+   "lost": 26.328999999999997,
+   "impressions": 1305,
+   "clicks": 7,
+   "queries": [
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 certification",
+     "impressions": 191,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.727748691099476,
+     "expected": 0.04399476439790576,
+     "lost": 8.403
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 body of knowledge 2026",
+     "impressions": 221,
+     "clicks": 3,
+     "ctr": 0.013574660633484163,
+     "position": 5.909502262443439,
+     "expected": 0.04199547511312217,
+     "lost": 6.280999999999999
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 exam schedule 2026",
+     "impressions": 215,
+     "clicks": 3,
+     "ctr": 0.013953488372093023,
+     "position": 8.065116279069766,
+     "expected": 0.027739534883720936,
+     "lost": 2.9640000000000013
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 exam",
+     "impressions": 45,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.68888888888889,
+     "expected": 0.02524444444444444,
+     "lost": 1.136
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api exam schedule 2026",
+     "impressions": 46,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.282608695652174,
+     "expected": 0.02315217391304348,
+     "lost": 1.065
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 effectivity sheet 2026",
+     "impressions": 43,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.976744186046512,
+     "expected": 0.024093023255813955,
+     "lost": 1.036
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 bok 2026",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.933333333333334,
+     "expected": 0.028333333333333332,
+     "lost": 0.85
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 schedule 2026",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.375,
+     "expected": 0.0265,
+     "lost": 0.848
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 course fee in india",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.714285714285714,
+     "expected": 0.02942857142857143,
+     "lost": 0.8240000000000001
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 piping inspection specialist certification",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.342857142857143,
+     "expected": 0.02297142857142857,
+     "lost": 0.8039999999999999
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 course fee",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 11.340909090909092,
+     "expected": 0.015318181818181818,
+     "lost": 0.6739999999999999
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 training",
+     "impressions": 124,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 45.70967741935484,
+     "expected": 0.004,
+     "lost": 0.496
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 inspection",
+     "impressions": 69,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.57971014492754,
+     "expected": 0.004,
+     "lost": 0.276
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 online",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.477272727272727,
+     "expected": 0.004,
+     "lost": 0.176
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "interpret api 570 piping inspection interval requirements for class 1 hydrocarbon service at a midstream facility, including external visual, cui, and thickness measurement frequencies.",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 41.94285714285714,
+     "expected": 0.004,
+     "lost": 0.14
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 piping inspection code",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 28.242424242424242,
+     "expected": 0.004,
+     "lost": 0.132
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "api 570 exam fees",
+     "impressions": 42,
+     "clicks": 1,
+     "ctr": 0.023809523809523808,
+     "position": 8.380952380952381,
+     "expected": 0.026476190476190476,
+     "lost": 0.11200000000000004
+    },
+    {
+     "page": "/api-570-certification",
+     "query": "what inspector certifications are oil majors and big midstream operators actually requiring on offshore and onshore contracts in 2026? i'm trying to get ahead of bid eligibility on the api icp side for my team.",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 32.35714285714286,
+     "expected": 0.004,
+     "lost": 0.112
+    }
+   ]
+  },
+  {
+   "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+   "lost": 24.657000000000004,
+   "impressions": 341,
+   "clicks": 14,
+   "queries": [
+    {
+     "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+     "query": "asme sec v article 6",
+     "impressions": 70,
+     "clicks": 2,
+     "ctr": 0.02857142857142857,
+     "position": 2.557142857142857,
+     "expected": 0.12214285714285715,
+     "lost": 6.550000000000001
+    },
+    {
+     "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+     "query": "asme section 5 article 6",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.1153846153846154,
+     "expected": 0.09653846153846155,
+     "lost": 5.0200000000000005
+    },
+    {
+     "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+     "query": "asme section v article 6",
+     "impressions": 97,
+     "clicks": 8,
+     "ctr": 0.08247422680412371,
+     "position": 2.3711340206185567,
+     "expected": 0.13144329896907217,
+     "lost": 4.750000000000001
+    },
+    {
+     "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+     "query": "asme v article 6",
+     "impressions": 63,
+     "clicks": 4,
+     "ctr": 0.06349206349206349,
+     "position": 2.333333333333333,
+     "expected": 0.13333333333333336,
+     "lost": 4.400000000000002
+    },
+    {
+     "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+     "query": "asme sec 5 article 6",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3,
+     "expected": 0.1,
+     "lost": 2.6
+    },
+    {
+     "page": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+     "query": "pt acceptance criteria asme",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.0606060606060606,
+     "expected": 0.04051515151515152,
+     "lost": 1.3370000000000002
+    }
+   ]
+  },
+  {
+   "page": "/blog/rt-vs-ut-complete-comparison",
+   "lost": 23.63,
+   "impressions": 518,
+   "clicks": 3,
+   "queries": [
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "ut vs rt",
+     "impressions": 61,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.442622950819672,
+     "expected": 0.08672131147540985,
+     "lost": 5.290000000000001
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "rt vs ut weld inspection",
+     "impressions": 45,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.311111111111111,
+     "expected": 0.09066666666666667,
+     "lost": 4.08
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "difference between ut and rt testing",
+     "impressions": 46,
+     "clicks": 1,
+     "ctr": 0.021739130434782608,
+     "position": 2.8478260869565215,
+     "expected": 0.10760869565217393,
+     "lost": 3.9500000000000006
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "ut and rt testing",
+     "impressions": 49,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.204081632653061,
+     "expected": 0.0663265306122449,
+     "lost": 3.25
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "ut rt",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.212121212121212,
+     "expected": 0.049666666666666665,
+     "lost": 1.639
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "rt vs ut",
+     "impressions": 104,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.89423076923077,
+     "expected": 0.01221153846153846,
+     "lost": 1.2699999999999998
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "rt ut welding",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.933333333333334,
+     "expected": 0.04173333333333333,
+     "lost": 1.252
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "rt ut",
+     "impressions": 51,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.352941176470589,
+     "expected": 0.022941176470588236,
+     "lost": 1.17
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "difference between ultrasonic testing and radiographic testing",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.125,
+     "expected": 0.032375,
+     "lost": 1.036
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "rt and ut test",
+     "impressions": 29,
+     "clicks": 2,
+     "ctr": 0.06896551724137931,
+     "position": 3.586206896551724,
+     "expected": 0.08241379310344828,
+     "lost": 0.39000000000000007
+    },
+    {
+     "page": "/blog/rt-vs-ut-complete-comparison",
+     "query": "radiography vs ultrasonic testing",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.026315789473685,
+     "expected": 0.007973684210526315,
+     "lost": 0.303
+    }
+   ]
+  },
+  {
+   "page": "/api-653-certification",
+   "lost": 22.718000000000004,
+   "impressions": 2318,
+   "clicks": 3,
+   "queries": [
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 certification",
+     "impressions": 325,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.987692307692308,
+     "expected": 0.01606153846153846,
+     "lost": 5.22
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 body of knowledge 2026",
+     "impressions": 119,
+     "clicks": 1,
+     "ctr": 0.008403361344537815,
+     "position": 6.159663865546219,
+     "expected": 0.03972268907563025,
+     "lost": 3.727
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 certification cost",
+     "impressions": 78,
+     "clicks": 1,
+     "ctr": 0.01282051282051282,
+     "position": 4.833333333333334,
+     "expected": 0.054999999999999986,
+     "lost": 3.2899999999999987
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 exam fees",
+     "impressions": 96,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.114583333333333,
+     "expected": 0.032427083333333336,
+     "lost": 3.1130000000000004
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 exam schedule 2026",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9,
+     "expected": 0.024,
+     "lost": 1.1280000000000001
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 course",
+     "impressions": 187,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 39.87700534759358,
+     "expected": 0.004,
+     "lost": 0.748
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 effectivity sheet 2026",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.185185185185185,
+     "expected": 0.02725925925925926,
+     "lost": 0.736
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 requirements",
+     "impressions": 171,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 44.74269005847953,
+     "expected": 0.004,
+     "lost": 0.684
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 inspection",
+     "impressions": 149,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 59.57046979865772,
+     "expected": 0.004,
+     "lost": 0.596
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "653 api",
+     "impressions": 127,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 38.23622047244095,
+     "expected": 0.004,
+     "lost": 0.508
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 tank inspection",
+     "impressions": 121,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 65.12396694214875,
+     "expected": 0.004,
+     "lost": 0.484
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 inspection services",
+     "impressions": 107,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 61.71028037383178,
+     "expected": 0.004,
+     "lost": 0.428
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api tank inspection",
+     "impressions": 100,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 71.33,
+     "expected": 0.004,
+     "lost": 0.4
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "653 tank inspection",
+     "impressions": 96,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 57.125,
+     "expected": 0.004,
+     "lost": 0.384
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 tank inspection company",
+     "impressions": 93,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 71.26881720430107,
+     "expected": 0.004,
+     "lost": 0.372
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653",
+     "impressions": 327,
+     "clicks": 1,
+     "ctr": 0.0030581039755351682,
+     "position": 43.584097859327215,
+     "expected": 0.004,
+     "lost": 0.308
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 tank inspection companies",
+     "impressions": 59,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 80.77966101694915,
+     "expected": 0.004,
+     "lost": 0.23600000000000002
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 tank",
+     "impressions": 49,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 52.244897959183675,
+     "expected": 0.004,
+     "lost": 0.196
+    },
+    {
+     "page": "/api-653-certification",
+     "query": "api 653 training",
+     "impressions": 40,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 39.625,
+     "expected": 0.004,
+     "lost": 0.16
+    }
+   ]
+  },
+  {
+   "page": "/api-510-certification",
+   "lost": 21.968999999999998,
+   "impressions": 1293,
+   "clicks": 4,
+   "queries": [
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 exam pass rate",
+     "impressions": 91,
+     "clicks": 1,
+     "ctr": 0.01098901098901099,
+     "position": 4.087912087912088,
+     "expected": 0.06841758241758243,
+     "lost": 5.226000000000001
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 exam schedule 2026",
+     "impressions": 125,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.008,
+     "expected": 0.03296,
+     "lost": 4.12
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 certification cost",
+     "impressions": 131,
+     "clicks": 1,
+     "ctr": 0.007633587786259542,
+     "position": 7.854961832061068,
+     "expected": 0.02872519083969466,
+     "lost": 2.7630000000000003
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 body of knowledge 2026",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.51063829787234,
+     "expected": 0.03691489361702128,
+     "lost": 1.735
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 certification",
+     "impressions": 110,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.690909090909091,
+     "expected": 0.012618181818181817,
+     "lost": 1.388
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 bok 2026",
+     "impressions": 38,
+     "clicks": 1,
+     "ctr": 0.02631578947368421,
+     "position": 4.421052631578947,
+     "expected": 0.06242105263157896,
+     "lost": 1.3720000000000006
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 exam fees",
+     "impressions": 86,
+     "clicks": 1,
+     "ctr": 0.011627906976744186,
+     "position": 8.174418604651162,
+     "expected": 0.02730232558139535,
+     "lost": 1.348
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510",
+     "impressions": 293,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.24914675767918,
+     "expected": 0.004,
+     "lost": 1.172
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 schedule 2026",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.037037037037037,
+     "expected": 0.03281481481481482,
+     "lost": 0.8860000000000001
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 course fee",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.553191489361701,
+     "expected": 0.012893617021276598,
+     "lost": 0.6060000000000001
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 exam",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.633333333333333,
+     "expected": 0.009366666666666667,
+     "lost": 0.281
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 inspection",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 51.0625,
+     "expected": 0.004,
+     "lost": 0.192
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 course",
+     "impressions": 42,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.357142857142854,
+     "expected": 0.004,
+     "lost": 0.168
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "pressure vessel certification training",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 42.432432432432435,
+     "expected": 0.004,
+     "lost": 0.148
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 pressure vessel inspector",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.34375,
+     "expected": 0.004,
+     "lost": 0.128
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api pressure vessel",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 53.87096774193548,
+     "expected": 0.004,
+     "lost": 0.124
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "api 510 training",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.785714285714285,
+     "expected": 0.004,
+     "lost": 0.112
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "pressure vessel inspector salary",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.92,
+     "expected": 0.004,
+     "lost": 0.1
+    },
+    {
+     "page": "/api-510-certification",
+     "query": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance? want to understand how chevron and shell have approached this.",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.16,
+     "expected": 0.004,
+     "lost": 0.1
+    }
+   ]
+  },
+  {
+   "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+   "lost": 21.113000000000003,
+   "impressions": 1230,
+   "clicks": 6,
+   "queries": [
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "asnt snt-tc-1a",
+     "impressions": 315,
+     "clicks": 3,
+     "ctr": 0.009523809523809525,
+     "position": 6.085714285714285,
+     "expected": 0.04031428571428572,
+     "lost": 9.699000000000002
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "snt-tc-1a latest edition",
+     "impressions": 68,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.426470588235294,
+     "expected": 0.037588235294117645,
+     "lost": 2.556
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "asnt-snt-tc-1a",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.933333333333333,
+     "expected": 0.07200000000000001,
+     "lost": 2.16
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "asnt snt tc 1a",
+     "impressions": 105,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 11.371428571428572,
+     "expected": 0.015257142857142856,
+     "lost": 1.6019999999999999
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "asnt snt-tc-1a latest edition",
+     "impressions": 51,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.764705882352941,
+     "expected": 0.029176470588235297,
+     "lost": 1.4880000000000002
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "snt tc 1a",
+     "impressions": 118,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 14.728813559322035,
+     "expected": 0.010271186440677964,
+     "lost": 1.2119999999999997
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "asnt tc 1a",
+     "impressions": 86,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.453488372093023,
+     "expected": 0.013093023255813954,
+     "lost": 1.1260000000000001
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "snt-tc-1a",
+     "impressions": 397,
+     "clicks": 2,
+     "ctr": 0.005037783375314861,
+     "position": 19.408060453400505,
+     "expected": 0.007,
+     "lost": 0.7790000000000001
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "snt-tc-1a 2024",
+     "impressions": 35,
+     "clicks": 1,
+     "ctr": 0.02857142857142857,
+     "position": 6.514285714285714,
+     "expected": 0.036885714285714286,
+     "lost": 0.29100000000000004
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-certification-requirements",
+     "query": "snc tc 1a training and certification",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.28,
+     "expected": 0.008,
+     "lost": 0.2
+    }
+   ]
+  },
+  {
+   "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+   "lost": 20.096000000000004,
+   "impressions": 689,
+   "clicks": 49,
+   "queries": [
+    {
+     "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+     "query": "asme sec 5 article 4",
+     "impressions": 119,
+     "clicks": 6,
+     "ctr": 0.05042016806722689,
+     "position": 2.8319327731092434,
+     "expected": 0.10840336134453783,
+     "lost": 6.900000000000002
+    },
+    {
+     "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+     "query": "asme sec v article 4",
+     "impressions": 147,
+     "clicks": 11,
+     "ctr": 0.07482993197278912,
+     "position": 2.7687074829931975,
+     "expected": 0.11156462585034013,
+     "lost": 5.3999999999999995
+    },
+    {
+     "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+     "query": "asme v article 4",
+     "impressions": 74,
+     "clicks": 3,
+     "ctr": 0.04054054054054054,
+     "position": 2.77027027027027,
+     "expected": 0.11148648648648649,
+     "lost": 5.25
+    },
+    {
+     "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+     "query": "asme section 5 article 4",
+     "impressions": 209,
+     "clicks": 19,
+     "ctr": 0.09090909090909091,
+     "position": 3.0956937799043063,
+     "expected": 0.09712918660287082,
+     "lost": 1.2999999999999998
+    },
+    {
+     "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+     "query": "asme section v nondestructive examination ultrasonic thickness measurement",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.6,
+     "expected": 0.0222,
+     "lost": 0.666
+    },
+    {
+     "page": "/blog/asme-section-v-article-4-ut-requirements-explained",
+     "query": "asme section v article 4",
+     "impressions": 110,
+     "clicks": 10,
+     "ctr": 0.09090909090909091,
+     "position": 3.1272727272727274,
+     "expected": 0.09618181818181819,
+     "lost": 0.5800000000000004
+    }
+   ]
+  },
+  {
+   "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+   "lost": 16.311,
+   "impressions": 269,
+   "clicks": 2,
+   "queries": [
+    {
+     "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+     "query": "iso 9712 vs asnt",
+     "impressions": 75,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.1333333333333333,
+     "expected": 0.096,
+     "lost": 7.2
+    },
+    {
+     "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+     "query": "asnt snt-tc-1a",
+     "impressions": 77,
+     "clicks": 1,
+     "ctr": 0.012987012987012988,
+     "position": 4.467532467532468,
+     "expected": 0.061584415584415575,
+     "lost": 3.741999999999999
+    },
+    {
+     "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+     "query": "iso 9712",
+     "impressions": 42,
+     "clicks": 1,
+     "ctr": 0.023809523809523808,
+     "position": 2.833333333333333,
+     "expected": 0.10833333333333335,
+     "lost": 3.5500000000000007
+    },
+    {
+     "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+     "query": "snt-tc-1a",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.522727272727273,
+     "expected": 0.02243181818181818,
+     "lost": 0.987
+    },
+    {
+     "page": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+     "query": "asnt 9712",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.29032258064516,
+     "expected": 0.02683870967741936,
+     "lost": 0.8320000000000001
+    }
+   ]
+  },
+  {
+   "page": "/ndt-technician-salary",
+   "lost": 14.095,
+   "impressions": 398,
+   "clicks": 1,
+   "queries": [
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt level 3 salary in gulf",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.625,
+     "expected": 0.05875,
+     "lost": 2.82
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt technician salary",
+     "impressions": 86,
+     "clicks": 1,
+     "ctr": 0.011627906976744186,
+     "position": 6.465116279069767,
+     "expected": 0.037279069767441865,
+     "lost": 2.2060000000000004
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt level 2 salary in dubai",
+     "impressions": 57,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.842105263157895,
+     "expected": 0.03426315789473684,
+     "lost": 1.953
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt salary in dubai",
+     "impressions": 49,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.714285714285714,
+     "expected": 0.03528571428571429,
+     "lost": 1.729
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt level 3 salary in saudi arabia",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.592592592592593,
+     "expected": 0.059333333333333335,
+     "lost": 1.602
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt technician salary in dubai",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.390243902439025,
+     "expected": 0.031048780487804878,
+     "lost": 1.273
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt technician salary in uae",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.884615384615385,
+     "expected": 0.04226923076923077,
+     "lost": 1.099
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt level 2 salary in india",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.444444444444445,
+     "expected": 0.02266666666666667,
+     "lost": 0.8160000000000001
+    },
+    {
+     "page": "/ndt-technician-salary",
+     "query": "ndt level 3 salary in india",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.892857142857142,
+     "expected": 0.021321428571428575,
+     "lost": 0.5970000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+   "lost": 12.777,
+   "impressions": 708,
+   "clicks": 8,
+   "queries": [
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "cp-189",
+     "impressions": 78,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.064102564102564,
+     "expected": 0.04048717948717949,
+     "lost": 3.1580000000000004
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "cp 189",
+     "impressions": 70,
+     "clicks": 1,
+     "ctr": 0.014285714285714285,
+     "position": 6.542857142857143,
+     "expected": 0.03665714285714286,
+     "lost": 1.5660000000000003
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "cp-189 latest edition",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.111111111111111,
+     "expected": 0.04011111111111112,
+     "lost": 1.4440000000000002
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "snt tc 1a",
+     "impressions": 53,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.622641509433961,
+     "expected": 0.022132075471698116,
+     "lost": 1.173
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "snt-tc-1a latest edition",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.6,
+     "expected": 0.030000000000000002,
+     "lost": 1.05
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "snt-tc-1a",
+     "impressions": 156,
+     "clicks": 1,
+     "ctr": 0.00641025641025641,
+     "position": 12.846153846153847,
+     "expected": 0.012307692307692308,
+     "lost": 0.92
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "cp 189 latest edition",
+     "impressions": 45,
+     "clicks": 1,
+     "ctr": 0.022222222222222223,
+     "position": 6.088888888888889,
+     "expected": 0.040288888888888895,
+     "lost": 0.8130000000000003
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "asnt snt-tc-1a",
+     "impressions": 73,
+     "clicks": 3,
+     "ctr": 0.0410958904109589,
+     "position": 5.054794520547945,
+     "expected": 0.051397260273972595,
+     "lost": 0.7519999999999996
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "asnt snt tc 1a",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.6,
+     "expected": 0.018000000000000002,
+     "lost": 0.6300000000000001
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "asnt cp-189",
+     "impressions": 52,
+     "clicks": 1,
+     "ctr": 0.019230769230769232,
+     "position": 7.653846153846154,
+     "expected": 0.02973076923076923,
+     "lost": 0.5459999999999999
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "ansi asnt cp-189",
+     "impressions": 42,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.380952380952381,
+     "expected": 0.009619047619047619,
+     "lost": 0.404
+    },
+    {
+     "page": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+     "query": "ansi/asnt cp-189",
+     "impressions": 33,
+     "clicks": 1,
+     "ctr": 0.030303030303030304,
+     "position": 6.121212121212121,
+     "expected": 0.040030303030303034,
+     "lost": 0.3210000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+   "lost": 10.148000000000001,
+   "impressions": 398,
+   "clicks": 16,
+   "queries": [
+    {
+     "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+     "query": "api 510 body of knowledge 2026",
+     "impressions": 219,
+     "clicks": 11,
+     "ctr": 0.0502283105022831,
+     "position": 3.675799086757991,
+     "expected": 0.07972602739726027,
+     "lost": 6.46
+    },
+    {
+     "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+     "query": "api 510 latest edition",
+     "impressions": 65,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.753846153846155,
+     "expected": 0.024984615384615383,
+     "lost": 1.6239999999999999
+    },
+    {
+     "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+     "query": "api 510 bok",
+     "impressions": 46,
+     "clicks": 1,
+     "ctr": 0.021739130434782608,
+     "position": 5.282608695652174,
+     "expected": 0.048891304347826084,
+     "lost": 1.2489999999999999
+    },
+    {
+     "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+     "query": "api 510 body of knowledge",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.32,
+     "expected": 0.0314,
+     "lost": 0.7849999999999999
+    },
+    {
+     "page": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+     "query": "api 510 bok 2026",
+     "impressions": 43,
+     "clicks": 4,
+     "ctr": 0.09302325581395349,
+     "position": 3.2093023255813953,
+     "expected": 0.09372093023255815,
+     "lost": 0.030000000000000387
+    }
+   ]
+  },
+  {
+   "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+   "lost": 9.547000000000002,
+   "impressions": 404,
+   "clicks": 8,
+   "queries": [
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "aws d1.1 acceptance criteria",
+     "impressions": 180,
+     "clicks": 5,
+     "ctr": 0.027777777777777776,
+     "position": 5.288888888888889,
+     "expected": 0.048822222222222225,
+     "lost": 3.7880000000000007
+    },
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "acceptance criteria aws d1.1",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.621621621621621,
+     "expected": 0.058810810810810826,
+     "lost": 2.1760000000000006
+    },
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "d1.1 acceptance criteria",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.157894736842105,
+     "expected": 0.03973684210526316,
+     "lost": 1.51
+    },
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "aws acceptance criteria",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.225806451612903,
+     "expected": 0.03919354838709678,
+     "lost": 1.215
+    },
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "welding inspection levels and acceptance criteria",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.82857142857143,
+     "expected": 0.021514285714285715,
+     "lost": 0.753
+    },
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "aws d1.1 rt acceptance criteria",
+     "impressions": 44,
+     "clicks": 2,
+     "ctr": 0.045454545454545456,
+     "position": 5.4772727272727275,
+     "expected": 0.04675,
+     "lost": 0.05699999999999994
+    },
+    {
+     "page": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+     "query": "aws d1.1 visual inspection acceptance criteria",
+     "impressions": 39,
+     "clicks": 1,
+     "ctr": 0.02564102564102564,
+     "position": 8.282051282051281,
+     "expected": 0.026871794871794877,
+     "lost": 0.04800000000000023
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-617-centrifugal-compressor-inspection",
+   "lost": 7.232000000000002,
+   "impressions": 520,
+   "clicks": 6,
+   "queries": [
+    {
+     "page": "/blog/api-617-centrifugal-compressor-inspection",
+     "query": "api 617",
+     "impressions": 487,
+     "clicks": 6,
+     "ctr": 0.012320328542094456,
+     "position": 8.657084188911703,
+     "expected": 0.025371663244353186,
+     "lost": 6.356000000000002
+    },
+    {
+     "page": "/blog/api-617-centrifugal-compressor-inspection",
+     "query": "api617",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.363636363636363,
+     "expected": 0.026545454545454546,
+     "lost": 0.876
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-aberdeen",
+   "lost": 7.1499999999999995,
+   "impressions": 54,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-aberdeen",
+     "query": "\"3d scanning aberdeen\"",
+     "impressions": 54,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 2.351851851851852,
+     "expected": 0.1324074074074074,
+     "lost": 7.1499999999999995
+    }
+   ]
+  },
+  {
+   "page": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+   "lost": 6.703,
+   "impressions": 727,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+     "query": "surface crack detection services",
+     "impressions": 73,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.465753424657534,
+     "expected": 0.046876712328767126,
+     "lost": 3.422
+    },
+    {
+     "page": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+     "query": "crack inspection technology",
+     "impressions": 504,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 36.232142857142854,
+     "expected": 0.004,
+     "lost": 2.016
+    },
+    {
+     "page": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+     "query": "surface crack detection methods",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.48,
+     "expected": 0.0306,
+     "lost": 0.765
+    },
+    {
+     "page": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+     "query": "crack detection, ndt testing",
+     "impressions": 92,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 34.358695652173914,
+     "expected": 0.004,
+     "lost": 0.368
+    },
+    {
+     "page": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+     "query": "surface crack test",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 32.27272727272727,
+     "expected": 0.004,
+     "lost": 0.132
+    }
+   ]
+  },
+  {
+   "page": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+   "lost": 6.372,
+   "impressions": 206,
+   "clicks": 2,
+   "queries": [
+    {
+     "page": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+     "query": "asnt level 3 exam fees",
+     "impressions": 89,
+     "clicks": 2,
+     "ctr": 0.02247191011235955,
+     "position": 5.078651685393258,
+     "expected": 0.05113483146067416,
+     "lost": 2.551
+    },
+    {
+     "page": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+     "query": "asnt membership fees",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6,
+     "expected": 0.041,
+     "lost": 1.968
+    },
+    {
+     "page": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+     "query": "asnt level 3 exam schedule 2026",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.818181818181818,
+     "expected": 0.024727272727272726,
+     "lost": 1.0879999999999999
+    },
+    {
+     "page": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+     "query": "ndt level 3 course fees",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.48,
+     "expected": 0.0306,
+     "lost": 0.765
+    }
+   ]
+  },
+  {
+   "page": "/blog/visual-testing",
+   "lost": 5.922,
+   "impressions": 450,
+   "clicks": 3,
+   "queries": [
+    {
+     "page": "/blog/visual-testing",
+     "query": "asme v article 9",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.909090909090909,
+     "expected": 0.053636363636363635,
+     "lost": 2.9499999999999997
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "asme section v article 9",
+     "impressions": 66,
+     "clicks": 3,
+     "ctr": 0.045454545454545456,
+     "position": 4.712121212121212,
+     "expected": 0.05718181818181819,
+     "lost": 0.7740000000000004
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "direct visual testing dvt",
+     "impressions": 50,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.9,
+     "expected": 0.011099999999999999,
+     "lost": 0.5549999999999999
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "visual inspection ndt",
+     "impressions": 116,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 29.689655172413794,
+     "expected": 0.004,
+     "lost": 0.464
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "vt pipe inspection",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.973684210526315,
+     "expected": 0.011026315789473684,
+     "lost": 0.419
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "vt inspection",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.37037037037037,
+     "expected": 0.00962962962962963,
+     "lost": 0.26
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "remote visual testing rvt",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.703703703703702,
+     "expected": 0.008,
+     "lost": 0.216
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "ndt visual inspection",
+     "impressions": 46,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 31.956521739130434,
+     "expected": 0.004,
+     "lost": 0.184
+    },
+    {
+     "page": "/blog/visual-testing",
+     "query": "visual testing ndt",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.76,
+     "expected": 0.004,
+     "lost": 0.1
+    }
+   ]
+  },
+  {
+   "page": "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+   "lost": 5.774,
+   "impressions": 63,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+     "query": "ndt inspection cost",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 1.972972972972973,
+     "expected": 0.15324324324324323,
+     "lost": 5.67
+    },
+    {
+     "page": "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+     "query": "non destructive testing price list",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.73076923076923,
+     "expected": 0.004,
+     "lost": 0.10400000000000001
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-dubai",
+   "lost": 5.347999999999999,
+   "impressions": 307,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-dubai",
+     "query": "aerial lidar scanning in dubai",
+     "impressions": 95,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.421052631578948,
+     "expected": 0.047368421052631574,
+     "lost": 4.499999999999999
+    },
+    {
+     "page": "/3d-scanning-dubai",
+     "query": "aerial 3d laser scanning services",
+     "impressions": 78,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 52.97435897435897,
+     "expected": 0.004,
+     "lost": 0.312
+    },
+    {
+     "page": "/3d-scanning-dubai",
+     "query": "3d scanning dubai",
+     "impressions": 57,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 49.19298245614035,
+     "expected": 0.004,
+     "lost": 0.228
+    },
+    {
+     "page": "/3d-scanning-dubai",
+     "query": "terrestrial scanning services in uae",
+     "impressions": 40,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 68.4,
+     "expected": 0.004,
+     "lost": 0.16
+    },
+    {
+     "page": "/3d-scanning-dubai",
+     "query": "lidar drone mapping company uae",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 79.48648648648648,
+     "expected": 0.004,
+     "lost": 0.148
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-glasgow",
+   "lost": 5.140000000000001,
+   "impressions": 58,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-glasgow",
+     "query": "\"3d scanning glasgow\"",
+     "impressions": 58,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.3793103448275863,
+     "expected": 0.08862068965517242,
+     "lost": 5.140000000000001
+    }
+   ]
+  },
+  {
+   "page": "/ndt-industry-statistics",
+   "lost": 5.127999999999999,
+   "impressions": 773,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "ndt industry workforce reports",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.425531914893617,
+     "expected": 0.04731914893617021,
+     "lost": 2.2239999999999998
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "non-destructive testing services market",
+     "impressions": 175,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 53.61142857142857,
+     "expected": 0.004,
+     "lost": 0.7000000000000001
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "ndt inspection service market",
+     "impressions": 145,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 56.86896551724138,
+     "expected": 0.004,
+     "lost": 0.58
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "us non-destructive testing services market",
+     "impressions": 101,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 66.82178217821782,
+     "expected": 0.004,
+     "lost": 0.404
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "us non-destructive medical technologies market",
+     "impressions": 78,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 63.12820512820513,
+     "expected": 0.004,
+     "lost": 0.312
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "ndt equipment market",
+     "impressions": 76,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 60.80263157894737,
+     "expected": 0.004,
+     "lost": 0.304
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "us non destructive inspection equipment market",
+     "impressions": 65,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 67.29230769230769,
+     "expected": 0.004,
+     "lost": 0.26
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "non-destructive inspection equipment market",
+     "impressions": 57,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 67.24561403508773,
+     "expected": 0.004,
+     "lost": 0.228
+    },
+    {
+     "page": "/ndt-industry-statistics",
+     "query": "ndt weld inspection market",
+     "impressions": 29,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 75.48275862068965,
+     "expected": 0.004,
+     "lost": 0.116
+    }
+   ]
+  },
+  {
+   "page": "/api-570-india",
+   "lost": 5.091,
+   "impressions": 172,
+   "clicks": 1,
+   "queries": [
+    {
+     "page": "/api-570-india",
+     "query": "api 570 exam fees",
+     "impressions": 84,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.940476190476191,
+     "expected": 0.03347619047619048,
+     "lost": 2.8120000000000003
+    },
+    {
+     "page": "/api-570-india",
+     "query": "api 570 exam fees in india",
+     "impressions": 62,
+     "clicks": 1,
+     "ctr": 0.016129032258064516,
+     "position": 5.741935483870968,
+     "expected": 0.04383870967741935,
+     "lost": 1.718
+    },
+    {
+     "page": "/api-570-india",
+     "query": "api 570 course fees in india",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.807692307692308,
+     "expected": 0.021576923076923077,
+     "lost": 0.5609999999999999
+    }
+   ]
+  },
+  {
+   "page": "/blog/ut-vs-rt-comparison",
+   "lost": 4.789000000000001,
+   "impressions": 174,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ut-vs-rt-comparison",
+     "query": "rt vs ut",
+     "impressions": 88,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.886363636363637,
+     "expected": 0.02134090909090909,
+     "lost": 1.8780000000000001
+    },
+    {
+     "page": "/blog/ut-vs-rt-comparison",
+     "query": "ut vs rt",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.193548387096774,
+     "expected": 0.04987096774193549,
+     "lost": 1.546
+    },
+    {
+     "page": "/blog/ut-vs-rt-comparison",
+     "query": "rt vs ut weld inspection",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.5,
+     "expected": 0.037000000000000005,
+     "lost": 1.11
+    },
+    {
+     "page": "/blog/ut-vs-rt-comparison",
+     "query": "rt ut",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 14.8,
+     "expected": 0.010199999999999999,
+     "lost": 0.25499999999999995
+    }
+   ]
+  },
+  {
+   "page": "/glossary/flat-bottom-hole-fbh",
+   "lost": 4.677999999999999,
+   "impressions": 118,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/flat-bottom-hole-fbh",
+     "query": "fbh meaning",
+     "impressions": 118,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.169491525423729,
+     "expected": 0.039644067796610165,
+     "lost": 4.677999999999999
+    }
+   ]
+  },
+  {
+   "page": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+   "lost": 4.361,
+   "impressions": 252,
+   "clicks": 2,
+   "queries": [
+    {
+     "page": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+     "query": "asme section viii division 1",
+     "impressions": 117,
+     "clicks": 1,
+     "ctr": 0.008547008547008548,
+     "position": 8.47008547008547,
+     "expected": 0.02611965811965812,
+     "lost": 2.056
+    },
+    {
+     "page": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+     "query": "asme sec viii div 1",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.26923076923077,
+     "expected": 0.02692307692307692,
+     "lost": 1.4
+    },
+    {
+     "page": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+     "query": "asme viii div 1",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 11.81081081081081,
+     "expected": 0.01437837837837838,
+     "lost": 0.532
+    },
+    {
+     "page": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+     "query": "asme section viii div 1",
+     "impressions": 46,
+     "clicks": 1,
+     "ctr": 0.021739130434782608,
+     "position": 7.630434782608695,
+     "expected": 0.029847826086956523,
+     "lost": 0.37300000000000005
+    }
+   ]
+  },
+  {
+   "page": "/compare/asnt-vs-pcn",
+   "lost": 4.236000000000001,
+   "impressions": 74,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/compare/asnt-vs-pcn",
+     "query": "asnt vs pcn",
+     "impressions": 42,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.761904761904762,
+     "expected": 0.07714285714285715,
+     "lost": 3.24
+    },
+    {
+     "page": "/compare/asnt-vs-pcn",
+     "query": "iso 9712 vs asnt",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.375,
+     "expected": 0.031125,
+     "lost": 0.996
+    }
+   ]
+  },
+  {
+   "page": "/ndt-connect",
+   "lost": 4.073,
+   "impressions": 202,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-connect",
+     "query": "ntd connect",
+     "impressions": 101,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.584158415841584,
+     "expected": 0.03632673267326733,
+     "lost": 3.6690000000000005
+    },
+    {
+     "page": "/ndt-connect",
+     "query": "ndt software",
+     "impressions": 53,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 62.81132075471698,
+     "expected": 0.004,
+     "lost": 0.212
+    },
+    {
+     "page": "/ndt-connect",
+     "query": "ndt software",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 65.83333333333333,
+     "expected": 0.004,
+     "lost": 0.192
+    }
+   ]
+  },
+  {
+   "page": "/services/paut-inspection-singapore",
+   "lost": 4.002000000000001,
+   "impressions": 105,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/services/paut-inspection-singapore",
+     "query": "paut inspection",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.1515151515151514,
+     "expected": 0.09545454545454546,
+     "lost": 3.1500000000000004
+    },
+    {
+     "page": "/services/paut-inspection-singapore",
+     "query": "paut and tofd inspection singapore",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.35135135135135,
+     "expected": 0.019243243243243245,
+     "lost": 0.7120000000000001
+    },
+    {
+     "page": "/services/paut-inspection-singapore",
+     "query": "paut tank inspection",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 65.6,
+     "expected": 0.004,
+     "lost": 0.14
+    }
+   ]
+  },
+  {
+   "page": "/blog/eddy-current-testing-complete-guide",
+   "lost": 3.563,
+   "impressions": 392,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "astm e309",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.424242424242424,
+     "expected": 0.03760606060606061,
+     "lost": 1.241
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "ect inspection",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.933333333333334,
+     "expected": 0.03353333333333333,
+     "lost": 1.006
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "eddy current testing",
+     "impressions": 140,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 70.97857142857143,
+     "expected": 0.004,
+     "lost": 0.56
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "electromagnetic testing",
+     "impressions": 87,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 65.34482758620689,
+     "expected": 0.004,
+     "lost": 0.34800000000000003
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "eddy current inspection",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 70.48717948717949,
+     "expected": 0.004,
+     "lost": 0.156
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "eddy current testing standards",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 23.685714285714287,
+     "expected": 0.004,
+     "lost": 0.14
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-guide",
+     "query": "surface eddy current testing",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 56.142857142857146,
+     "expected": 0.004,
+     "lost": 0.112
+    }
+   ]
+  },
+  {
+   "page": "/blog/ship-hull-and-propulsion-system-inspection",
+   "lost": 3.492,
+   "impressions": 827,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ship-hull-and-propulsion-system-inspection",
+     "query": "ship hull inspection",
+     "impressions": 611,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 51.62847790507365,
+     "expected": 0.004,
+     "lost": 2.444
+    },
+    {
+     "page": "/blog/ship-hull-and-propulsion-system-inspection",
+     "query": "hull inspection",
+     "impressions": 191,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 60.35602094240838,
+     "expected": 0.004,
+     "lost": 0.764
+    },
+    {
+     "page": "/blog/ship-hull-and-propulsion-system-inspection",
+     "query": "ship hull ndt inspection company",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.64,
+     "expected": 0.011359999999999999,
+     "lost": 0.284
+    }
+   ]
+  },
+  {
+   "page": "/glossary/phased-array-ultrasonic-testing-paut",
+   "lost": 3.452,
+   "impressions": 362,
+   "clicks": 1,
+   "queries": [
+    {
+     "page": "/glossary/phased-array-ultrasonic-testing-paut",
+     "query": "paut",
+     "impressions": 284,
+     "clicks": 1,
+     "ctr": 0.0035211267605633804,
+     "position": 11.711267605633802,
+     "expected": 0.014577464788732395,
+     "lost": 3.14
+    },
+    {
+     "page": "/glossary/phased-array-ultrasonic-testing-paut",
+     "query": "phased array ultrasonic testing",
+     "impressions": 78,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 42.87179487179487,
+     "expected": 0.004,
+     "lost": 0.312
+    }
+   ]
+  },
+  {
+   "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+   "lost": 3.3870000000000005,
+   "impressions": 622,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut equipment",
+     "impressions": 119,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.445378151260504,
+     "expected": 0.011554621848739495,
+     "lost": 1.3749999999999998
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "phased array ultrasonic testing",
+     "impressions": 165,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 71.66060606060606,
+     "expected": 0.004,
+     "lost": 0.66
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut",
+     "impressions": 130,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 54.09230769230769,
+     "expected": 0.004,
+     "lost": 0.52
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut inspection",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 54.457142857142856,
+     "expected": 0.004,
+     "lost": 0.14
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut ndt testing",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 34.205882352941174,
+     "expected": 0.004,
+     "lost": 0.136
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut instrument",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 22.5,
+     "expected": 0.004,
+     "lost": 0.128
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut software",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 27.821428571428573,
+     "expected": 0.004,
+     "lost": 0.112
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut phased array ultrasonic testing",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 35.74074074074074,
+     "expected": 0.004,
+     "lost": 0.108
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "paut testing",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.407407407407405,
+     "expected": 0.004,
+     "lost": 0.108
+    },
+    {
+     "page": "/blog/phased-array-ultrasonic-testing-paut-guide",
+     "query": "what is paut in ndt",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 50.76,
+     "expected": 0.004,
+     "lost": 0.1
+    }
+   ]
+  },
+  {
+   "page": "/blog/radiographic-testing-complete-guide",
+   "lost": 3.325,
+   "impressions": 428,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/radiographic-testing-complete-guide",
+     "query": "rt procedure",
+     "impressions": 91,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.758241758241759,
+     "expected": 0.021725274725274725,
+     "lost": 1.9769999999999999
+    },
+    {
+     "page": "/blog/radiographic-testing-complete-guide",
+     "query": "radiographic testing",
+     "impressions": 281,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 28.17437722419929,
+     "expected": 0.004,
+     "lost": 1.124
+    },
+    {
+     "page": "/blog/radiographic-testing-complete-guide",
+     "query": "radiography testing",
+     "impressions": 56,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 30.946428571428573,
+     "expected": 0.004,
+     "lost": 0.224
+    }
+   ]
+  },
+  {
+   "page": "/glossary/cswip",
+   "lost": 3.225,
+   "impressions": 105,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/cswip",
+     "query": "cswip",
+     "impressions": 105,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.457142857142857,
+     "expected": 0.030714285714285715,
+     "lost": 3.225
+    }
+   ]
+  },
+  {
+   "page": "/blog/visual-testing#asme-article-9",
+   "lost": 3.224,
+   "impressions": 80,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/visual-testing#asme-article-9",
+     "query": "asme section v article 9",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6,
+     "expected": 0.041,
+     "lost": 1.681
+    },
+    {
+     "page": "/blog/visual-testing#asme-article-9",
+     "query": "asme v article 9",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.17948717948718,
+     "expected": 0.03956410256410257,
+     "lost": 1.5430000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/visual-testing#equipment",
+   "lost": 3.224,
+   "impressions": 80,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/visual-testing#equipment",
+     "query": "asme section v article 9",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6,
+     "expected": 0.041,
+     "lost": 1.681
+    },
+    {
+     "page": "/blog/visual-testing#equipment",
+     "query": "asme v article 9",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.17948717948718,
+     "expected": 0.03956410256410257,
+     "lost": 1.5430000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/visual-testing#how-vt-works",
+   "lost": 3.224,
+   "impressions": 80,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/visual-testing#how-vt-works",
+     "query": "asme section v article 9",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6,
+     "expected": 0.041,
+     "lost": 1.681
+    },
+    {
+     "page": "/blog/visual-testing#how-vt-works",
+     "query": "asme v article 9",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.17948717948718,
+     "expected": 0.03956410256410257,
+     "lost": 1.5430000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/visual-testing#vt-methods",
+   "lost": 3.224,
+   "impressions": 80,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/visual-testing#vt-methods",
+     "query": "asme section v article 9",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6,
+     "expected": 0.041,
+     "lost": 1.681
+    },
+    {
+     "page": "/blog/visual-testing#vt-methods",
+     "query": "asme v article 9",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.17948717948718,
+     "expected": 0.03956410256410257,
+     "lost": 1.5430000000000001
+    }
+   ]
+  },
+  {
+   "page": "/eddy-current-testing-bahrain",
+   "lost": 2.74,
+   "impressions": 34,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/eddy-current-testing-bahrain",
+     "query": "eddy current tube inspection in bahrain",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 3.6470588235294117,
+     "expected": 0.08058823529411765,
+     "lost": 2.74
+    }
+   ]
+  },
+  {
+   "page": "/blog/affordable-oil-gas-erp-malaysia-inspection-companies-2026",
+   "lost": 2.652,
+   "impressions": 129,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/affordable-oil-gas-erp-malaysia-inspection-companies-2026",
+     "query": "erp oil and gas malaysia",
+     "impressions": 40,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 4.7,
+     "expected": 0.0574,
+     "lost": 2.296
+    },
+    {
+     "page": "/blog/affordable-oil-gas-erp-malaysia-inspection-companies-2026",
+     "query": "erp solution for oil and gas malaysia",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.39393939393939,
+     "expected": 0.004,
+     "lost": 0.132
+    },
+    {
+     "page": "/blog/affordable-oil-gas-erp-malaysia-inspection-companies-2026",
+     "query": "erp system oil and gas malaysia",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 34.8,
+     "expected": 0.004,
+     "lost": 0.12
+    },
+    {
+     "page": "/blog/affordable-oil-gas-erp-malaysia-inspection-companies-2026",
+     "query": "erp software provider for oil and gas malaysia",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.5,
+     "expected": 0.004,
+     "lost": 0.10400000000000001
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-singapore",
+   "lost": 2.6100000000000003,
+   "impressions": 548,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-singapore",
+     "query": "3d scanning services singapore",
+     "impressions": 329,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 34.82674772036474,
+     "expected": 0.004,
+     "lost": 1.316
+    },
+    {
+     "page": "/3d-scanning-singapore",
+     "query": "photogrammetry singapore",
+     "impressions": 69,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 14.942028985507246,
+     "expected": 0.010057971014492755,
+     "lost": 0.6940000000000001
+    },
+    {
+     "page": "/3d-scanning-singapore",
+     "query": "3d scanning singapore",
+     "impressions": 94,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 42.329787234042556,
+     "expected": 0.004,
+     "lost": 0.376
+    },
+    {
+     "page": "/3d-scanning-singapore",
+     "query": "industrial measurement scanning services",
+     "impressions": 56,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 84.16071428571429,
+     "expected": 0.004,
+     "lost": 0.224
+    }
+   ]
+  },
+  {
+   "page": "/api-510-india",
+   "lost": 2.374,
+   "impressions": 86,
+   "clicks": 1,
+   "queries": [
+    {
+     "page": "/api-510-india",
+     "query": "api 510 exam fees in india",
+     "impressions": 42,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.285714285714286,
+     "expected": 0.038714285714285715,
+     "lost": 1.6260000000000001
+    },
+    {
+     "page": "/api-510-india",
+     "query": "api 510 course fee in india",
+     "impressions": 44,
+     "clicks": 1,
+     "ctr": 0.022727272727272728,
+     "position": 6.159090909090909,
+     "expected": 0.03972727272727273,
+     "lost": 0.748
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-653-certification-complete-guide",
+   "lost": 2.362,
+   "impressions": 308,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/api-653-certification-complete-guide",
+     "query": "api 653",
+     "impressions": 151,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.192052980132452,
+     "expected": 0.008,
+     "lost": 1.208
+    },
+    {
+     "page": "/blog/api-653-certification-complete-guide",
+     "query": "api 653 requirements",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.707317073170731,
+     "expected": 0.011292682926829268,
+     "lost": 0.46299999999999997
+    },
+    {
+     "page": "/blog/api-653-certification-complete-guide",
+     "query": "api 653 certification",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.90625,
+     "expected": 0.01109375,
+     "lost": 0.355
+    },
+    {
+     "page": "/blog/api-653-certification-complete-guide",
+     "query": "api 653 tank inspection",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 26.78787878787879,
+     "expected": 0.004,
+     "lost": 0.132
+    },
+    {
+     "page": "/blog/api-653-certification-complete-guide",
+     "query": "api 653 inspection",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 27.346153846153847,
+     "expected": 0.004,
+     "lost": 0.10400000000000001
+    },
+    {
+     "page": "/blog/api-653-certification-complete-guide",
+     "query": "653 api",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 22.52,
+     "expected": 0.004,
+     "lost": 0.1
+    }
+   ]
+  },
+  {
+   "page": "/glossary/lack-of-penetration-lop",
+   "lost": 2.346,
+   "impressions": 66,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/lack-of-penetration-lop",
+     "query": "lack of penetration",
+     "impressions": 66,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.681818181818182,
+     "expected": 0.03554545454545455,
+     "lost": 2.346
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-abu-dhabi",
+   "lost": 2.208,
+   "impressions": 552,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "aerial 3d laser scanning services",
+     "impressions": 101,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 72.82178217821782,
+     "expected": 0.004,
+     "lost": 0.404
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "aerial lidar scanning in dubai",
+     "impressions": 92,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 64.22826086956522,
+     "expected": 0.004,
+     "lost": 0.368
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "3d scanning services in abu dhabi",
+     "impressions": 64,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 31.03125,
+     "expected": 0.004,
+     "lost": 0.256
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "terrestrial scanning services in abu dhabi",
+     "impressions": 61,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 30.524590163934427,
+     "expected": 0.004,
+     "lost": 0.244
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "mobile mapping survey in abu dhabi",
+     "impressions": 57,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 56.98245614035088,
+     "expected": 0.004,
+     "lost": 0.228
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "aerial mapping services in abu dhabi",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 46.18181818181818,
+     "expected": 0.004,
+     "lost": 0.22
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "radio detection surveys in abu dhabi",
+     "impressions": 50,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 46.16,
+     "expected": 0.004,
+     "lost": 0.2
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "terrestrial scanning services in uae",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 83.21621621621621,
+     "expected": 0.004,
+     "lost": 0.148
+    },
+    {
+     "page": "/3d-scanning-abu-dhabi",
+     "query": "lidar drone mapping company uae",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 62.371428571428574,
+     "expected": 0.004,
+     "lost": 0.14
+    }
+   ]
+  },
+  {
+   "page": "/blog/ut-level-2-practice-questions",
+   "lost": 2.103,
+   "impressions": 66,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ut-level-2-practice-questions",
+     "query": "ut exam",
+     "impressions": 66,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.2272727272727275,
+     "expected": 0.031863636363636365,
+     "lost": 2.103
+    }
+   ]
+  },
+  {
+   "page": "/blog/pipe-wall-thickness-inspection-ut-procedures",
+   "lost": 1.943,
+   "impressions": 388,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/pipe-wall-thickness-inspection-ut-procedures",
+     "query": "ut corrosion inspection pipeline",
+     "impressions": 300,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.046666666666667,
+     "expected": 0.004,
+     "lost": 1.2
+    },
+    {
+     "page": "/blog/pipe-wall-thickness-inspection-ut-procedures",
+     "query": "ut corrosion inspection pipeline",
+     "impressions": 88,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.55681818181818,
+     "expected": 0.00844318181818182,
+     "lost": 0.7430000000000002
+    }
+   ]
+  },
+  {
+   "page": "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements",
+   "lost": 1.8199999999999998,
+   "impressions": 67,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements",
+     "query": "asme section v nondestructive examination ultrasonic thickness measurement",
+     "impressions": 67,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.208955223880597,
+     "expected": 0.02716417910447761,
+     "lost": 1.8199999999999998
+    }
+   ]
+  },
+  {
+   "page": "/magnetic-flux-leakage-testing",
+   "lost": 1.812,
+   "impressions": 453,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/magnetic-flux-leakage-testing",
+     "query": "mfl corrosion inspection pipeline",
+     "impressions": 304,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 50.358552631578945,
+     "expected": 0.004,
+     "lost": 1.216
+    },
+    {
+     "page": "/magnetic-flux-leakage-testing",
+     "query": "magnetic flux leakage tank inspection",
+     "impressions": 95,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 44.03157894736842,
+     "expected": 0.004,
+     "lost": 0.38
+    },
+    {
+     "page": "/magnetic-flux-leakage-testing",
+     "query": "pipeline corrosion detection mfl",
+     "impressions": 54,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 56.27777777777778,
+     "expected": 0.004,
+     "lost": 0.216
+    }
+   ]
+  },
+  {
+   "page": "/services/paut-inspection-oman",
+   "lost": 1.795,
+   "impressions": 36,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/services/paut-inspection-oman",
+     "query": "paut and tofd inspection in oman",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 5.194444444444445,
+     "expected": 0.049861111111111106,
+     "lost": 1.795
+    }
+   ]
+  },
+  {
+   "page": "/api-inspector-guide",
+   "lost": 1.7819999999999998,
+   "impressions": 149,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/api-inspector-guide",
+     "query": "api inspector",
+     "impressions": 49,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.959183673469388,
+     "expected": 0.02820408163265306,
+     "lost": 1.382
+    },
+    {
+     "page": "/api-inspector-guide",
+     "query": "inspection api",
+     "impressions": 58,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 41.327586206896555,
+     "expected": 0.004,
+     "lost": 0.232
+    },
+    {
+     "page": "/api-inspector-guide",
+     "query": "rig api certified inspections",
+     "impressions": 42,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 40.69047619047619,
+     "expected": 0.004,
+     "lost": 0.168
+    }
+   ]
+  },
+  {
+   "page": "/best-ndt-reporting-software-2026",
+   "lost": 1.485,
+   "impressions": 155,
+   "clicks": 3,
+   "queries": [
+    {
+     "page": "/best-ndt-reporting-software-2026",
+     "query": "ndt reporting software",
+     "impressions": 155,
+     "clicks": 3,
+     "ctr": 0.01935483870967742,
+     "position": 7.812903225806451,
+     "expected": 0.028935483870967744,
+     "lost": 1.485
+    }
+   ]
+  },
+  {
+   "page": "/glossary/calibration-block",
+   "lost": 1.459,
+   "impressions": 123,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/calibration-block",
+     "query": "calibration block",
+     "impressions": 89,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.696629213483146,
+     "expected": 0.012606741573033708,
+     "lost": 1.122
+    },
+    {
+     "page": "/glossary/calibration-block",
+     "query": "calibration blocks",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.088235294117647,
+     "expected": 0.009911764705882353,
+     "lost": 0.33699999999999997
+    }
+   ]
+  },
+  {
+   "page": "/blog/eddy-current-testing-complete-beginner-guide",
+   "lost": 1.452,
+   "impressions": 363,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/eddy-current-testing-complete-beginner-guide",
+     "query": "eddy current testing",
+     "impressions": 261,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 77.40613026819923,
+     "expected": 0.004,
+     "lost": 1.044
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-beginner-guide",
+     "query": "eddy current inspection",
+     "impressions": 63,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 87,
+     "expected": 0.004,
+     "lost": 0.252
+    },
+    {
+     "page": "/blog/eddy-current-testing-complete-beginner-guide",
+     "query": "eddy current ndt",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 74.33333333333333,
+     "expected": 0.004,
+     "lost": 0.156
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-louisville",
+   "lost": 1.447,
+   "impressions": 229,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-louisville",
+     "query": "point cloud scanning louisville",
+     "impressions": 177,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 19.785310734463277,
+     "expected": 0.007,
+     "lost": 1.239
+    },
+    {
+     "page": "/3d-scanning-louisville",
+     "query": "trimble 3d scanning louisville",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 44.30769230769231,
+     "expected": 0.004,
+     "lost": 0.20800000000000002
+    }
+   ]
+  },
+  {
+   "page": "/glossary/astm-e165",
+   "lost": 1.423,
+   "impressions": 46,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/astm-e165",
+     "query": "astm e165",
+     "impressions": 46,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.413043478260869,
+     "expected": 0.030934782608695654,
+     "lost": 1.423
+    }
+   ]
+  },
+  {
+   "page": "/blog/forging-defect-detection-and-assessment",
+   "lost": 1.389,
+   "impressions": 74,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/forging-defect-detection-and-assessment",
+     "query": "forging lap defect",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.484848484848484,
+     "expected": 0.037121212121212124,
+     "lost": 1.225
+    },
+    {
+     "page": "/blog/forging-defect-detection-and-assessment",
+     "query": "nde aerospace forgings",
+     "impressions": 41,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 30.70731707317073,
+     "expected": 0.004,
+     "lost": 0.164
+    }
+   ]
+  },
+  {
+   "page": "/tools",
+   "lost": 1.3800000000000003,
+   "impressions": 62,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/tools",
+     "query": "ndt calculator",
+     "impressions": 62,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.580645161290322,
+     "expected": 0.022258064516129036,
+     "lost": 1.3800000000000003
+    }
+   ]
+  },
+  {
+   "page": "/blog/corrosion-under-insulation-cui-detection-guide",
+   "lost": 1.364,
+   "impressions": 314,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/corrosion-under-insulation-cui-detection-guide",
+     "query": "corrosion under insulation pipeline inspection",
+     "impressions": 235,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.625531914893614,
+     "expected": 0.004,
+     "lost": 0.9400000000000001
+    },
+    {
+     "page": "/blog/corrosion-under-insulation-cui-detection-guide",
+     "query": "subsea cui inspection",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.48148148148148,
+     "expected": 0.008,
+     "lost": 0.216
+    },
+    {
+     "page": "/blog/corrosion-under-insulation-cui-detection-guide",
+     "query": "cui insulation",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.826923076923077,
+     "expected": 0.004,
+     "lost": 0.20800000000000002
+    }
+   ]
+  },
+  {
+   "page": "/glossary/astm-e709",
+   "lost": 1.3599999999999999,
+   "impressions": 55,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/astm-e709",
+     "query": "astm e709",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.818181818181818,
+     "expected": 0.024727272727272726,
+     "lost": 1.3599999999999999
+    }
+   ]
+  },
+  {
+   "page": "/glossary/api-570",
+   "lost": 1.3400000000000003,
+   "impressions": 52,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/api-570",
+     "query": "api 570",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.557692307692307,
+     "expected": 0.025769230769230773,
+     "lost": 1.3400000000000003
+    }
+   ]
+  },
+  {
+   "page": "/training-india",
+   "lost": 1.3319999999999999,
+   "impressions": 57,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/training-india",
+     "query": "asnt india",
+     "impressions": 57,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.210526315789474,
+     "expected": 0.023368421052631577,
+     "lost": 1.3319999999999999
+    }
+   ]
+  },
+  {
+   "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+   "lost": 1.3000000000000003,
+   "impressions": 122,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+     "query": "ut shear wave",
+     "impressions": 29,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.758620689655173,
+     "expected": 0.021724137931034483,
+     "lost": 0.63
+    },
+    {
+     "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+     "query": "ultrasonic shear wave inspection",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.47222222222222,
+     "expected": 0.008527777777777778,
+     "lost": 0.307
+    },
+    {
+     "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+     "query": "shear wave ultrasonic testing",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16,
+     "expected": 0.009,
+     "lost": 0.243
+    },
+    {
+     "page": "/blog/shear-wave-ut-for-thick-section-inspection",
+     "query": "shear wave ut",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.866666666666667,
+     "expected": 0.004,
+     "lost": 0.12
+    }
+   ]
+  },
+  {
+   "page": "/resources/calibration-certificate-template",
+   "lost": 1.292,
+   "impressions": 70,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/resources/calibration-certificate-template",
+     "query": "calibration certificate format word",
+     "impressions": 43,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.116279069767442,
+     "expected": 0.027534883720930232,
+     "lost": 1.184
+    },
+    {
+     "page": "/resources/calibration-certificate-template",
+     "query": "iso 17025 calibration certificate",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 71.33333333333333,
+     "expected": 0.004,
+     "lost": 0.108
+    }
+   ]
+  },
+  {
+   "page": "/services/mfl-pipeline-inspection",
+   "lost": 1.28,
+   "impressions": 320,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/services/mfl-pipeline-inspection",
+     "query": "mfl corrosion inspection pipeline",
+     "impressions": 320,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 44.60625,
+     "expected": 0.004,
+     "lost": 1.28
+    }
+   ]
+  },
+  {
+   "page": "/glossary/awwa-d100",
+   "lost": 1.259,
+   "impressions": 35,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/awwa-d100",
+     "query": "awwa d100",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.628571428571429,
+     "expected": 0.03597142857142857,
+     "lost": 1.259
+    }
+   ]
+  },
+  {
+   "page": "/guided-wave-testing",
+   "lost": 1.2400000000000002,
+   "impressions": 45,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/guided-wave-testing",
+     "query": "gwt - lrut tools",
+     "impressions": 45,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 8.11111111111111,
+     "expected": 0.02755555555555556,
+     "lost": 1.2400000000000002
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-netherlands",
+   "lost": 1.12,
+   "impressions": 280,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-netherlands",
+     "query": "3d laser scanning netherlands",
+     "impressions": 207,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 40.84057971014493,
+     "expected": 0.004,
+     "lost": 0.8280000000000001
+    },
+    {
+     "page": "/3d-scanning-netherlands",
+     "query": "3d measurement netherlands",
+     "impressions": 73,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 45.16438356164384,
+     "expected": 0.004,
+     "lost": 0.292
+    }
+   ]
+  },
+  {
+   "page": "/blog/real-time-3d-imaging-in-ndt-inspection",
+   "lost": 1.114,
+   "impressions": 71,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/real-time-3d-imaging-in-ndt-inspection",
+     "query": "ndt 3d imaging",
+     "impressions": 71,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 11.154929577464788,
+     "expected": 0.015690140845070425,
+     "lost": 1.114
+    }
+   ]
+  },
+  {
+   "page": "/blog/ndt-level-iii-consulting-services-guide",
+   "lost": 1.109,
+   "impressions": 97,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ndt-level-iii-consulting-services-guide",
+     "query": "asnt level iii consulting",
+     "impressions": 60,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12.1,
+     "expected": 0.013800000000000002,
+     "lost": 0.8280000000000001
+    },
+    {
+     "page": "/blog/ndt-level-iii-consulting-services-guide",
+     "query": "ndt level 3 consulting services",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.405405405405407,
+     "expected": 0.007594594594594593,
+     "lost": 0.2809999999999999
+    }
+   ]
+  },
+  {
+   "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+   "lost": 1.0839999999999999,
+   "impressions": 271,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+     "query": "heat exchanger inspection",
+     "impressions": 115,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.02608695652174,
+     "expected": 0.004,
+     "lost": 0.46
+    },
+    {
+     "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+     "query": "heat exchanger testing",
+     "impressions": 71,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 66.46478873239437,
+     "expected": 0.004,
+     "lost": 0.28400000000000003
+    },
+    {
+     "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+     "query": "heat exchanger tube inspection",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 49.145833333333336,
+     "expected": 0.004,
+     "lost": 0.192
+    },
+    {
+     "page": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+     "query": "twisted tube inspection",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 59.86486486486486,
+     "expected": 0.004,
+     "lost": 0.148
+    }
+   ]
+  },
+  {
+   "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+   "lost": 1.064,
+   "impressions": 266,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+     "query": "wind turbine blade inspection",
+     "impressions": 86,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 47.72093023255814,
+     "expected": 0.004,
+     "lost": 0.34400000000000003
+    },
+    {
+     "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+     "query": "blade inspection",
+     "impressions": 80,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.175,
+     "expected": 0.004,
+     "lost": 0.32
+    },
+    {
+     "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+     "query": "wind turbine blade ndt inspection",
+     "impressions": 73,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 29.876712328767123,
+     "expected": 0.004,
+     "lost": 0.292
+    },
+    {
+     "page": "/blog/wind-turbine-blade-inspection-and-monitoring",
+     "query": "wind blade inspection",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 42.666666666666664,
+     "expected": 0.004,
+     "lost": 0.108
+    }
+   ]
+  },
+  {
+   "page": "/glossary/ultrasonic-testing",
+   "lost": 1.036,
+   "impressions": 259,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/ultrasonic-testing",
+     "query": "ultrasonic testing",
+     "impressions": 259,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 70.58687258687259,
+     "expected": 0.004,
+     "lost": 1.036
+    }
+   ]
+  },
+  {
+   "page": "/blog/boiler-tube-and-heat-exchanger-inspection-methods",
+   "lost": 1.013,
+   "impressions": 146,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/boiler-tube-and-heat-exchanger-inspection-methods",
+     "query": "boiler tube weld inspection",
+     "impressions": 58,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.017241379310345,
+     "expected": 0.007982758620689655,
+     "lost": 0.463
+    },
+    {
+     "page": "/blog/boiler-tube-and-heat-exchanger-inspection-methods",
+     "query": "boiler ndt inspection equipment",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 15.64864864864865,
+     "expected": 0.00935135135135135,
+     "lost": 0.3459999999999999
+    },
+    {
+     "page": "/blog/boiler-tube-and-heat-exchanger-inspection-methods",
+     "query": "boiler ndt preparation",
+     "impressions": 51,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 53.333333333333336,
+     "expected": 0.004,
+     "lost": 0.20400000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/magnetic-particle-testing-complete-guide",
+   "lost": 0.974,
+   "impressions": 125,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/magnetic-particle-testing-complete-guide",
+     "query": "magnetic particle testing,,not yet checked,not in top 30,not in top 30,not in top 30,,,,,not in top 30,not in top 30,not in top 30,,not in top 30,not in top 30,not in top 30,,0%,0%,0%",
+     "impressions": 66,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.863636363636363,
+     "expected": 0.007136363636363637,
+     "lost": 0.47100000000000003
+    },
+    {
+     "page": "/blog/magnetic-particle-testing-complete-guide",
+     "query": "mt ndt test",
+     "impressions": 32,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 16.03125,
+     "expected": 0.00896875,
+     "lost": 0.287
+    },
+    {
+     "page": "/blog/magnetic-particle-testing-complete-guide",
+     "query": "magnetic particle testing mt",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.555555555555557,
+     "expected": 0.008,
+     "lost": 0.216
+    }
+   ]
+  },
+  {
+   "page": "/api-653-india",
+   "lost": 0.9690000000000001,
+   "impressions": 25,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/api-653-india",
+     "query": "api 653 certification cost",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 6.28,
+     "expected": 0.03876,
+     "lost": 0.9690000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/power-generation-equipment-inspection-requirements",
+   "lost": 0.9109999999999999,
+   "impressions": 68,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/power-generation-equipment-inspection-requirements",
+     "query": "modern ndt instruments power generation inspections",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.212121212121213,
+     "expected": 0.02336363636363636,
+     "lost": 0.7709999999999999
+    },
+    {
+     "page": "/blog/power-generation-equipment-inspection-requirements",
+     "query": "power generation ndt",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 66.68571428571428,
+     "expected": 0.004,
+     "lost": 0.14
+    }
+   ]
+  },
+  {
+   "page": "/ultrasonic-testing-singapore",
+   "lost": 0.908,
+   "impressions": 227,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ultrasonic-testing-singapore",
+     "query": "ndt testing singapore",
+     "impressions": 118,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 47.567796610169495,
+     "expected": 0.004,
+     "lost": 0.47200000000000003
+    },
+    {
+     "page": "/ultrasonic-testing-singapore",
+     "query": "non destructive testing price list",
+     "impressions": 109,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 67.62385321100918,
+     "expected": 0.004,
+     "lost": 0.436
+    }
+   ]
+  },
+  {
+   "page": "/consulting",
+   "lost": 0.872,
+   "impressions": 218,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/consulting",
+     "query": "asnt level iii consulting",
+     "impressions": 102,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.754901960784313,
+     "expected": 0.004,
+     "lost": 0.40800000000000003
+    },
+    {
+     "page": "/consulting",
+     "query": "ndt level 3 consulting services",
+     "impressions": 63,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 56.507936507936506,
+     "expected": 0.004,
+     "lost": 0.252
+    },
+    {
+     "page": "/consulting",
+     "query": "ndt level 3 consultant",
+     "impressions": 53,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 49.83018867924528,
+     "expected": 0.004,
+     "lost": 0.212
+    }
+   ]
+  },
+  {
+   "page": "/magnetic-particle-testing",
+   "lost": 0.806,
+   "impressions": 84,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/magnetic-particle-testing",
+     "query": "wfmt inspection",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.4,
+     "expected": 0.0228,
+     "lost": 0.5700000000000001
+    },
+    {
+     "page": "/magnetic-particle-testing",
+     "query": "astm e709",
+     "impressions": 59,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 43.52542372881356,
+     "expected": 0.004,
+     "lost": 0.23600000000000002
+    }
+   ]
+  },
+  {
+   "page": "/ndt-training-denver",
+   "lost": 0.792,
+   "impressions": 198,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-training-denver",
+     "query": "ndt certification near me",
+     "impressions": 82,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 51.98780487804878,
+     "expected": 0.004,
+     "lost": 0.328
+    },
+    {
+     "page": "/ndt-training-denver",
+     "query": "asnt training near me",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 28.615384615384617,
+     "expected": 0.004,
+     "lost": 0.20800000000000002
+    },
+    {
+     "page": "/ndt-training-denver",
+     "query": "non destructive testing training near me",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 90.89189189189189,
+     "expected": 0.004,
+     "lost": 0.148
+    },
+    {
+     "page": "/ndt-training-denver",
+     "query": "ndt training program",
+     "impressions": 27,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 77.74074074074075,
+     "expected": 0.004,
+     "lost": 0.108
+    }
+   ]
+  },
+  {
+   "page": "/blog/cwi-pass-rate-by-part-a-b-c-breakdown",
+   "lost": 0.79,
+   "impressions": 25,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/cwi-pass-rate-by-part-a-b-c-breakdown",
+     "query": "\"aws does not publish\" \"pass rates\" certification",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 7.28,
+     "expected": 0.0316,
+     "lost": 0.79
+    }
+   ]
+  },
+  {
+   "page": "/glossary/digital-radiography-dr",
+   "lost": 0.78,
+   "impressions": 195,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/digital-radiography-dr",
+     "query": "direct radiography",
+     "impressions": 170,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 68.59411764705882,
+     "expected": 0.004,
+     "lost": 0.68
+    },
+    {
+     "page": "/glossary/digital-radiography-dr",
+     "query": "digitaalinen radiografia dr",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 39.2,
+     "expected": 0.004,
+     "lost": 0.1
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-toronto",
+   "lost": 0.7700000000000001,
+   "impressions": 125,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-toronto",
+     "query": "drone scanning services toronto",
+     "impressions": 69,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 18.08695652173913,
+     "expected": 0.007913043478260872,
+     "lost": 0.5460000000000002
+    },
+    {
+     "page": "/3d-scanning-toronto",
+     "query": "point cloud scanning toronto",
+     "impressions": 56,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 33.44642857142857,
+     "expected": 0.004,
+     "lost": 0.224
+    }
+   ]
+  },
+  {
+   "page": "/blog/ndt-inspection-software-2026-best-platforms-compared",
+   "lost": 0.768,
+   "impressions": 96,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ndt-inspection-software-2026-best-platforms-compared",
+     "query": "ndt inspection software",
+     "impressions": 96,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 17.770833333333332,
+     "expected": 0.008,
+     "lost": 0.768
+    }
+   ]
+  },
+  {
+   "page": "/ndt-reporting-software-comparison",
+   "lost": 0.752,
+   "impressions": 188,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-reporting-software-comparison",
+     "query": "ndt software",
+     "impressions": 155,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 70.26451612903226,
+     "expected": 0.004,
+     "lost": 0.62
+    },
+    {
+     "page": "/ndt-reporting-software-comparison",
+     "query": "ndt reporting software",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 36.878787878787875,
+     "expected": 0.004,
+     "lost": 0.132
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-570-inspector-salary-2026-by-region-experience",
+   "lost": 0.7380000000000001,
+   "impressions": 33,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/api-570-inspector-salary-2026-by-region-experience",
+     "query": "api 570 inspector salary",
+     "impressions": 33,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.545454545454545,
+     "expected": 0.022363636363636367,
+     "lost": 0.7380000000000001
+    }
+   ]
+  },
+  {
+   "page": "/glossary/eddy-current-testing",
+   "lost": 0.736,
+   "impressions": 184,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/eddy-current-testing",
+     "query": "eddy current testing",
+     "impressions": 117,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 78.27350427350427,
+     "expected": 0.004,
+     "lost": 0.468
+    },
+    {
+     "page": "/glossary/eddy-current-testing",
+     "query": "eddy current",
+     "impressions": 39,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 71.8974358974359,
+     "expected": 0.004,
+     "lost": 0.156
+    },
+    {
+     "page": "/glossary/eddy-current-testing",
+     "query": "eddy current ndt",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 86.64285714285714,
+     "expected": 0.004,
+     "lost": 0.112
+    }
+   ]
+  },
+  {
+   "page": "/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide",
+   "lost": 0.728,
+   "impressions": 182,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide",
+     "query": "ultrasonic corrosion",
+     "impressions": 182,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 50.285714285714285,
+     "expected": 0.004,
+     "lost": 0.728
+    }
+   ]
+  },
+  {
+   "page": "/blog/api-570-piping-inspection-code-requirements",
+   "lost": 0.676,
+   "impressions": 36,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/api-570-piping-inspection-code-requirements",
+     "query": "api 570 piping inspection code official api",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.444444444444445,
+     "expected": 0.01877777777777778,
+     "lost": 0.676
+    }
+   ]
+  },
+  {
+   "page": "/ultrasonic-testing-bahrain",
+   "lost": 0.661,
+   "impressions": 55,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ultrasonic-testing-bahrain",
+     "query": "ut scanning services in bahrain",
+     "impressions": 29,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.89655172413793,
+     "expected": 0.01651724137931035,
+     "lost": 0.4790000000000001
+    },
+    {
+     "page": "/ultrasonic-testing-bahrain",
+     "query": "pulsed array ultrasonic testing bahrain",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 19.153846153846153,
+     "expected": 0.007,
+     "lost": 0.182
+    }
+   ]
+  },
+  {
+   "page": "/eddy-current-testing-singapore",
+   "lost": 0.6600000000000001,
+   "impressions": 31,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/eddy-current-testing-singapore",
+     "query": "eddy current tube inspection in singapore",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.903225806451612,
+     "expected": 0.021290322580645164,
+     "lost": 0.6600000000000001
+    }
+   ]
+  },
+  {
+   "page": "/blog/asme-b31-3-process-piping-requirements",
+   "lost": 0.648,
+   "impressions": 162,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/asme-b31-3-process-piping-requirements",
+     "query": "asme b31 3",
+     "impressions": 46,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 37,
+     "expected": 0.004,
+     "lost": 0.184
+    },
+    {
+     "page": "/blog/asme-b31-3-process-piping-requirements",
+     "query": "asme 31.3",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 36.72222222222222,
+     "expected": 0.004,
+     "lost": 0.14400000000000002
+    },
+    {
+     "page": "/blog/asme-b31-3-process-piping-requirements",
+     "query": "minimum distance between welds asme b31 3",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 36.7,
+     "expected": 0.004,
+     "lost": 0.12
+    },
+    {
+     "page": "/blog/asme-b31-3-process-piping-requirements",
+     "query": "asme b31.3 compliant filters",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.56,
+     "expected": 0.004,
+     "lost": 0.1
+    },
+    {
+     "page": "/blog/asme-b31-3-process-piping-requirements",
+     "query": "b31.3",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.96,
+     "expected": 0.004,
+     "lost": 0.1
+    }
+   ]
+  },
+  {
+   "page": "/glossary/asme-section-viii",
+   "lost": 0.6280000000000001,
+   "impressions": 157,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/asme-section-viii",
+     "query": "asme section viii",
+     "impressions": 58,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 42.741379310344826,
+     "expected": 0.004,
+     "lost": 0.232
+    },
+    {
+     "page": "/glossary/asme-section-viii",
+     "query": "asme viii",
+     "impressions": 52,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 42.98076923076923,
+     "expected": 0.004,
+     "lost": 0.20800000000000002
+    },
+    {
+     "page": "/glossary/asme-section-viii",
+     "query": "asme code section 8",
+     "impressions": 47,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 48.659574468085104,
+     "expected": 0.004,
+     "lost": 0.188
+    }
+   ]
+  },
+  {
+   "page": "/glossary/leak-testing",
+   "lost": 0.624,
+   "impressions": 156,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/leak-testing",
+     "query": "leak testing",
+     "impressions": 83,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 63.42168674698795,
+     "expected": 0.004,
+     "lost": 0.332
+    },
+    {
+     "page": "/glossary/leak-testing",
+     "query": "leak test",
+     "impressions": 73,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 74.75342465753425,
+     "expected": 0.004,
+     "lost": 0.292
+    }
+   ]
+  },
+  {
+   "page": "/blog/food-processing-equipment-ndt-and-sanitation",
+   "lost": 0.622,
+   "impressions": 76,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/food-processing-equipment-ndt-and-sanitation",
+     "query": "food manufacturing ndt",
+     "impressions": 40,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 13.05,
+     "expected": 0.011949999999999999,
+     "lost": 0.478
+    },
+    {
+     "page": "/blog/food-processing-equipment-ndt-and-sanitation",
+     "query": "food non-destructive testing (ndt) systems",
+     "impressions": 36,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 65.88888888888889,
+     "expected": 0.004,
+     "lost": 0.14400000000000002
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-denver",
+   "lost": 0.6160000000000001,
+   "impressions": 154,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-denver",
+     "query": "lidar scanning denver",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 26.90909090909091,
+     "expected": 0.004,
+     "lost": 0.22
+    },
+    {
+     "page": "/3d-scanning-denver",
+     "query": "3d laser scanning denver co",
+     "impressions": 50,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 60.5,
+     "expected": 0.004,
+     "lost": 0.2
+    },
+    {
+     "page": "/3d-scanning-denver",
+     "query": "3d laser scanning denver",
+     "impressions": 49,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 38,
+     "expected": 0.004,
+     "lost": 0.196
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-cape-town",
+   "lost": 0.612,
+   "impressions": 153,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-cape-town",
+     "query": "3d scanning cape town",
+     "impressions": 153,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 28.104575163398692,
+     "expected": 0.004,
+     "lost": 0.612
+    }
+   ]
+  },
+  {
+   "page": "/glossary/asme-b31-8",
+   "lost": 0.5970000000000001,
+   "impressions": 25,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/asme-b31-8",
+     "query": "asme b31.8",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.04,
+     "expected": 0.023880000000000002,
+     "lost": 0.5970000000000001
+    }
+   ]
+  },
+  {
+   "page": "/consulting/ndt-consulting-corpus-christi",
+   "lost": 0.588,
+   "impressions": 147,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/consulting/ndt-consulting-corpus-christi",
+     "query": "irisndt corpus christi",
+     "impressions": 60,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 26.966666666666665,
+     "expected": 0.004,
+     "lost": 0.24
+    },
+    {
+     "page": "/consulting/ndt-consulting-corpus-christi",
+     "query": "ndt level 3 consultant",
+     "impressions": 56,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 62.05357142857143,
+     "expected": 0.004,
+     "lost": 0.224
+    },
+    {
+     "page": "/consulting/ndt-consulting-corpus-christi",
+     "query": "ndt level 3 consulting services",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 87.45161290322581,
+     "expected": 0.004,
+     "lost": 0.124
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-hyderabad",
+   "lost": 0.5850000000000001,
+   "impressions": 25,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-hyderabad",
+     "query": "3d scanning services in hyderabad",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.2,
+     "expected": 0.023400000000000004,
+     "lost": 0.5850000000000001
+    }
+   ]
+  },
+  {
+   "page": "/glossary/iso-13588",
+   "lost": 0.5730000000000001,
+   "impressions": 26,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/iso-13588",
+     "query": "13588",
+     "impressions": 26,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 9.653846153846153,
+     "expected": 0.02203846153846154,
+     "lost": 0.5730000000000001
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-san-francisco",
+   "lost": 0.536,
+   "impressions": 134,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-san-francisco",
+     "query": "lidar scanning san francisco",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.90909090909091,
+     "expected": 0.004,
+     "lost": 0.22
+    },
+    {
+     "page": "/3d-scanning-san-francisco",
+     "query": "lidar scanning services san francisco",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 25.583333333333332,
+     "expected": 0.004,
+     "lost": 0.192
+    },
+    {
+     "page": "/3d-scanning-san-francisco",
+     "query": "lidar scanning bay area",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 54.41935483870968,
+     "expected": 0.004,
+     "lost": 0.124
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-vs-3d-model-ndt",
+   "lost": 0.518,
+   "impressions": 37,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-vs-3d-model-ndt",
+     "query": "ndt lidar 3d",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 12,
+     "expected": 0.014,
+     "lost": 0.518
+    }
+   ]
+  },
+  {
+   "page": "/glossary/radiographic-testing",
+   "lost": 0.452,
+   "impressions": 113,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/radiographic-testing",
+     "query": "radiographic testing",
+     "impressions": 113,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 77.78761061946902,
+     "expected": 0.004,
+     "lost": 0.452
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-london",
+   "lost": 0.44,
+   "impressions": 110,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-london",
+     "query": "\"3d scanning london\"",
+     "impressions": 62,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 24.758064516129032,
+     "expected": 0.004,
+     "lost": 0.248
+    },
+    {
+     "page": "/3d-scanning-london",
+     "query": "lidar scanning london",
+     "impressions": 48,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 38.270833333333336,
+     "expected": 0.004,
+     "lost": 0.192
+    }
+   ]
+  },
+  {
+   "page": "/ndt-training-atlanta",
+   "lost": 0.43600000000000005,
+   "impressions": 109,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-training-atlanta",
+     "query": "ndt training near me",
+     "impressions": 40,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 72.5,
+     "expected": 0.004,
+     "lost": 0.16
+    },
+    {
+     "page": "/ndt-training-atlanta",
+     "query": "ndt certification near me",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 76.4,
+     "expected": 0.004,
+     "lost": 0.14
+    },
+    {
+     "page": "/ndt-training-atlanta",
+     "query": "ndt courses near me",
+     "impressions": 34,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 77.55882352941177,
+     "expected": 0.004,
+     "lost": 0.136
+    }
+   ]
+  },
+  {
+   "page": "/blog/aerospace-composite-inspection-ndt-methods-guide",
+   "lost": 0.428,
+   "impressions": 107,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/blog/aerospace-composite-inspection-ndt-methods-guide",
+     "query": "aerospace composite inspection",
+     "impressions": 107,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 37.86915887850467,
+     "expected": 0.004,
+     "lost": 0.428
+    }
+   ]
+  },
+  {
+   "page": "/ndt-training-dubai",
+   "lost": 0.428,
+   "impressions": 107,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-training-dubai",
+     "query": "ndt training in uae",
+     "impressions": 63,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 20.238095238095237,
+     "expected": 0.004,
+     "lost": 0.252
+    },
+    {
+     "page": "/ndt-training-dubai",
+     "query": "ndt testing dubai",
+     "impressions": 44,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 65.54545454545455,
+     "expected": 0.004,
+     "lost": 0.176
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-austin",
+   "lost": 0.42700000000000005,
+   "impressions": 85,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-austin",
+     "query": "point cloud services austin",
+     "impressions": 56,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 36.55357142857143,
+     "expected": 0.004,
+     "lost": 0.224
+    },
+    {
+     "page": "/3d-scanning-austin",
+     "query": "survey scanning austin",
+     "impressions": 29,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 19.03448275862069,
+     "expected": 0.007,
+     "lost": 0.203
+    }
+   ]
+  },
+  {
+   "page": "/glossary/attenuation",
+   "lost": 0.412,
+   "impressions": 103,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/attenuation",
+     "query": "attenuation",
+     "impressions": 75,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 69.53333333333333,
+     "expected": 0.004,
+     "lost": 0.3
+    },
+    {
+     "page": "/glossary/attenuation",
+     "query": "attenuation meaning",
+     "impressions": 28,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 48.214285714285715,
+     "expected": 0.004,
+     "lost": 0.112
+    }
+   ]
+  },
+  {
+   "page": "/glossary/hydrogen-induced-cracking-hic",
+   "lost": 0.40800000000000003,
+   "impressions": 102,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/glossary/hydrogen-induced-cracking-hic",
+     "query": "what is hic test",
+     "impressions": 37,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 74.35135135135135,
+     "expected": 0.004,
+     "lost": 0.148
+    },
+    {
+     "page": "/glossary/hydrogen-induced-cracking-hic",
+     "query": "hic test procedure",
+     "impressions": 35,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 71.25714285714285,
+     "expected": 0.004,
+     "lost": 0.14
+    },
+    {
+     "page": "/glossary/hydrogen-induced-cracking-hic",
+     "query": "hic testing",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 76.2,
+     "expected": 0.004,
+     "lost": 0.12
+    }
+   ]
+  },
+  {
+   "page": "/3d-scanning-oman",
+   "lost": 0.4049999999999999,
+   "impressions": 25,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/3d-scanning-oman",
+     "query": "3d laser scanning services in oman",
+     "impressions": 25,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 10.96,
+     "expected": 0.016199999999999996,
+     "lost": 0.4049999999999999
+    }
+   ]
+  },
+  {
+   "page": "/ndt-for-oil-gas",
+   "lost": 0.396,
+   "impressions": 99,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ndt-for-oil-gas",
+     "query": "ndt oil and gas",
+     "impressions": 38,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 46.18421052631579,
+     "expected": 0.004,
+     "lost": 0.152
+    },
+    {
+     "page": "/ndt-for-oil-gas",
+     "query": "ndt services for oil and gas",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 60.516129032258064,
+     "expected": 0.004,
+     "lost": 0.124
+    },
+    {
+     "page": "/ndt-for-oil-gas",
+     "query": "oil & gas ndt solutions",
+     "impressions": 30,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 48.1,
+     "expected": 0.004,
+     "lost": 0.12
+    }
+   ]
+  },
+  {
+   "page": "/training/asnt-level-iii-training-san-diego",
+   "lost": 0.392,
+   "impressions": 98,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/training/asnt-level-iii-training-san-diego",
+     "query": "asnt level iii consulting",
+     "impressions": 55,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 81.45454545454545,
+     "expected": 0.004,
+     "lost": 0.22
+    },
+    {
+     "page": "/training/asnt-level-iii-training-san-diego",
+     "query": "ndt level 3 consultant",
+     "impressions": 43,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 85.30232558139535,
+     "expected": 0.004,
+     "lost": 0.17200000000000001
+    }
+   ]
+  },
+  {
+   "page": "/ultrasonic-testing-chicago",
+   "lost": 0.388,
+   "impressions": 97,
+   "clicks": 0,
+   "queries": [
+    {
+     "page": "/ultrasonic-testing-chicago",
+     "query": "ultrasonic testing training",
+     "impressions": 66,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 50.07575757575758,
+     "expected": 0.004,
+     "lost": 0.264
+    },
+    {
+     "page": "/ultrasonic-testing-chicago",
+     "query": "ultrasonic testing level 1 training",
+     "impressions": 31,
+     "clicks": 0,
+     "ctr": 0,
+     "position": 68.58064516129032,
+     "expected": 0.004,
+     "lost": 0.124
+    }
+   ]
+  }
+ ]
+}
