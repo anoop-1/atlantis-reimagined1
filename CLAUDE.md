@@ -899,3 +899,98 @@ live.** Pro removes the limit.
    changed URLs to the Indexing API + IndexNow.
 4. `oil-gas-inspection-guide.vercel.app` needs claiming in Bing Webmaster Tools
    (IndexNow 403 `UserForbiddedToAccessSite`; Google unaffected).
+
+---
+
+## 24. Training cluster audit + CTR wave 4 — 2026-08-04
+
+### 24.1 THE BIGGEST LEVER ON THIS SITE IS SNIPPETS, NOT CONTENT
+**66 page+query pairs rank at position <=15 with >=80 impressions and <=2
+clicks: 9,627 impressions producing 30 clicks over 90 days.** At a CTR normal
+for those positions that is roughly 700-800 clicks a quarter, against a site
+earning about 4,200. The rankings already exist.
+
+| Page | Query | Impr | Pos | Clicks |
+|---|---|---:|---:|---:|
+| /blog/ndt-salary-guide-2026-global | 15 queries incl. "ndt technician salary" p5.2 | 2,427 | 5–10 | ~0 |
+| /asnt-certification | "asnt certification" | 776 | **7.4** | **0** |
+| /blog/api-510-570-653-exam-schedule-2026 | 6 queries | 897 | 3.8–7.9 | 6 |
+| /api-653-certification | "api 653 certification" | 322 | 10.9 | 0 |
+| /api-570-certification | "api 570 certification" | 182 | 6.0 | 0 |
+| /glossary/phased-array-ultrasonic-testing-paut | "paut" | 284 | 11.7 | 1 |
+
+**Diagnosis:** titles led with the entity and the code.
+`ASNT Certification 2026 — SNT-TC-1A + CP-189 Pathway` is accurate and reads
+like a standards document; at position seven beneath asnt.org, accuracy is not
+the differentiator. `scripts/ctr-wave4-overrides.mjs` rewrites 11 pages to lead
+with what the searcher wants. **Wave 4 sits above waves 1–3.** Titles verified
+in the built HTML, never from the counter (21.1).
+
+⚠️ Some of these impressions are unwinnable regardless — `asnt sertifiointi`
+(Finnish), `sbp.9712 pdf`, and the AI-assistant-style queries hitting `/` at
+p1.6–3.2 with 0 clicks. Do not model the whole 9,627 as recoverable.
+
+### 24.2 TRAINING CITY PAGES LOSE ON PROXIMITY INTENT, NOT CITY INTENT
+Queries actually reaching `/ndt-training-*`:
+
+| Query | Impr | Pos |
+|---|---:|---:|
+| ndt training near me | 156 | 49.8 |
+| ndt certification near me | 123 | 57.6 |
+| asnt training near me | 104 | 37.5 |
+| ndt courses near me | 80 | 56.4 |
+| **ndt training houston** | **18** | 41.8 |
+
+**Near-me outweighs city-name roughly 8:1.** 47 US city pages, **29 earn zero
+impressions**; the performers rank badly (Denver p45 on 1,015 words, Atlanta
+p34.6, Houston p33.3) so more words alone has demonstrably not worked.
+
+**"Near me" cannot be won on-page.** It resolves through Google's local pack,
+populated from **Google Business Profile** entities with verified addresses. A
+national page competes only for organic results below the pack. **One verified
+GBP for Houston would likely outperform all 47 city pages for Gulf Coast
+proximity queries.** Owner action — requires address verification.
+
+`scripts/training-city-depth.mjs` localises 29 US focus cities with verifiable
+substance (industrial base, asset types, level pathway). Denver 1,015 -> 1,918
+words, Detroit 493 -> 1,375.
+
+🚫 **NO fabricated local presence.** No claimed classroom, address or
+LocalBusiness schema where Atlantis has none — only Houston is marked a genuine
+base. Pages state plainly that delivery is on-site at the customer facility.
+Fabricated location data is what Google spam policy targets and would not
+survive the first phone call.
+
+### 24.3 GA4 read (28d to 2026-08-03)
+18,765 sessions · Paid Search 10,305 @ 22% engaged · Organic 4,150 @ **53%**.
+
+- **Geography is commercially wrong.** India 11,149 sessions, Singapore 2,728,
+  **US 1,522 (8%)** — for a US training and ERP business the paid spend is in
+  the wrong market. Campaign setting, not an SEO problem.
+- **`/training` is the best-converting page on the site and almost nobody sees
+  it**: 254 views, **87% engagement, 155s**. `/erp` gets 10,053 views at 22%.
+  Routing internal and paid traffic to `/training` likely beats any ranking
+  change for qualified enquiries.
+
+### 24.4 Methods cluster — DIFFERENT from ERP, do not apply 20.2 blindly
+5 methods x ~98 cities = 487 permutations. **Unlike ERP and DT, these earn:
+7,814 impressions, 115 clicks, 272 of 487 earning.** Two populations exist:
+- **enriched ~860 words → earning** (the 180 enriched in 20.7)
+- **un-enriched ~510 words → mostly silent** (~215)
+
+**So the Methods cluster IS worth upgrading** — the enrichment that already
+happened demonstrably correlates with earning. This is the largest remaining
+thin block and the next content job.
+
+⚠️ **Cannibalisation found:** `/radiographic-testing`, `/ultrasonic-testing` and
+`/visual-testing` base pages earn **zero impressions** despite 750–870 words,
+while `/glossary/ultrasonic-testing` takes 497. The glossary page is outranking
+the money page for the method term. Resolve before enriching further.
+
+### 24.5 Next
+1. Methods cluster enrichment (~300 un-enriched permutations) + fix the
+   base-page vs glossary cannibalisation.
+2. Course schema on training city pages — did not attach because those routes
+   already carry `structuredData`; needs emitting as an additional JSON-LD block.
+3. Owner: Google Business Profile for Houston; re-weight paid to US/Canada/Gulf.
+4. Re-pull GSC ~2026-08-18 and judge wave 4 on clicks for the 11 target pages.
