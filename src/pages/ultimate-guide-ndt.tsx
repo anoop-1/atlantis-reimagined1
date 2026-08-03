@@ -581,7 +581,7 @@ export default function UltimateGuideNDT() {
                 NDT Career Guide <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
-                to="/ndt-technician-salary"
+                to="/blog/ndt-salary-guide-2026-global"
                 className="inline-flex items-center gap-1 text-sm font-semibold text-[#004aad] hover:underline"
               >
                 NDT Salary Guide <ArrowRight className="w-4 h-4" />

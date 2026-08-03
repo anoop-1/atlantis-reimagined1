@@ -302,7 +302,7 @@ export default function ASNTCertification() {
                             { name: "API 653 Certification", path: "/api-653-certification" },
                             { name: "NDT Certification Guide", path: "/ndt-certification-guide" },
                             { name: "NDT Career Guide", path: "/ndt-career-guide" },
-                            { name: "NDT Salary Guide", path: "/ndt-technician-salary" },
+                            { name: "NDT Salary Guide", path: "/blog/ndt-salary-guide-2026-global" },
                             { name: "NDT Training USA", path: "/ndt-training-usa" },
                             { name: "NDT Training Dubai", path: "/ndt-training-dubai" },
                         ].map(link => (

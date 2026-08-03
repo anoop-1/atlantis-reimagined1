@@ -101,7 +101,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
         title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — affordable, accessible vs $780K+ | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, affordable, accessible) vs Oracle NetSuite OneWorld ($780K-$1.32M/yr for 50 users). 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
+        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, affordable, accessible) vs enterprise-tier Oracle NetSuite OneWorld. 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
         canonical="/erp/odoo-vs-netsuite-ndt-companies"
         faq={FAQS}
         article={{

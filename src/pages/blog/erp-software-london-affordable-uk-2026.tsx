@@ -42,7 +42,7 @@ export default function ERPSoftwareLondonAffordableUK2026() {
       <Navigation />
       <SEOHead
         title="ERP Software London & Aberdeen 2026: Affordable UK Buyer Guide"
-        description="ERP software London + Aberdeen 2026 compared. SAP £450K vs Sage £45K vs Atlantis NDT ERP £14.5K/yr. MTD VAT, CIS, PSSR 2000, North Sea OPITO. Honest UK SME buyer guide."
+        description="ERP software for London and Aberdeen compared for 2026: enterprise-licence SAP, mid-market Sage, and Atlantis — affordable, accessible, fully customizable. MTD VAT, CIS, PSSR 2000 and North Sea OPITO context. Honest UK SME buyer guide."
         keywords="erp software london, erp provider aberdeen, erp software for small business aberdeen, affordable erp uk, mtd vat erp uk, pssr 2000 software, north sea erp aberdeen, london engineering erp"
         canonical="https://atlantisndt.com/blog/erp-software-london-affordable-uk-2026"
         article={{

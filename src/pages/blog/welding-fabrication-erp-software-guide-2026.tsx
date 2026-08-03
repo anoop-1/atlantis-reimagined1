@@ -42,7 +42,7 @@ export default function WeldingFabricationERPGuide2026() {
       <Navigation />
       <SEOHead
         title="Welding & Fabrication ERP Software 2026: WPS, AWS D1.1, ASME IX Guide"
-        description="Welding and fabrication ERP 2026 compared. WPS / PQR / WPQR tracking, welder continuity, AWS D1.1, ASME Section IX, ISO 3834. SAP $380K vs Epicor vs Atlantis NDT ERP regional pricing."
+        description="Welding and fabrication ERP 2026 compared. WPS / PQR / WPQR tracking, welder continuity, AWS D1.1, ASME Section IX, ISO 3834. enterprise-licence SAP vs Epicor vs Atlantis — regional pricing."
         keywords="welding and fabrication erp, welding erp software, fabrication erp software, wps pqr tracking software, welder continuity software, aws d1.1 erp, asme section ix erp, iso 3834 erp"
         canonical="https://atlantisndt.com/blog/welding-fabrication-erp-software-guide-2026"
         article={{

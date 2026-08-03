@@ -37,6 +37,7 @@ import { applyCertClusterDefence } from './cert-cluster-defence.mjs';
 import { applyDtDepth } from './dt-depth-2026-08-02.mjs';
 import { applyErpFaqs } from './erp-faq-2026-08-02.mjs';
 import { applyTrainingCityDepth } from './training-city-depth.mjs';
+import { applyConsolidation } from './consolidation-2026-08.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -661,5 +662,10 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // schema, NOT more words. No LocalBusiness schema and no claimed classroom
     // where Atlantis has no presence.
     trainingCities: applyTrainingCityDepth(routes, append).deepened,
+    // 2026-08-04 consolidation: give the cluster winners the body content their
+    // new titles promise, stop two city pages ranking nationally for the Level
+    // III term, and put a direct 40-55 word answer at the TOP of the pages that
+    // sit at p<=8 with 0% CTR because a snippet answers above them.
+    consolidation: applyConsolidation(routes, append),
   };
 }

@@ -250,7 +250,9 @@ export default function API653TankInspectionGuide() {
                                 <h3 className="font-bold group-hover:text-amber-600 transition">NDT for Oil & Gas</h3>
                                 <p className="text-slate-600 text-sm mt-2">Complete guide to oil & gas NDT services</p>
                             </Link>
-                            <Link to="/blog/digital-twins-oil-gas" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            {/* /blog/digital-twins-oil-gas 301s to this URL — link the destination
+                                directly so the client-side router does not bounce through a redirect. */}
+                            <Link to="/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
                                 <h3 className="font-bold group-hover:text-amber-600 transition">Digital Twins for Oil & Gas</h3>
                                 <p className="text-slate-600 text-sm mt-2">3D visualization for tank integrity</p>
                             </Link>

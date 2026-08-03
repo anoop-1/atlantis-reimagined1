@@ -235,7 +235,7 @@ export default function NDTIndustryStatistics() {
                 Complete NDT Guide
               </Link>
               <Link
-                to="/ndt-technician-salary"
+                to="/blog/ndt-salary-guide-2026-global"
                 className="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition"
               >
                 NDT Salary Guide

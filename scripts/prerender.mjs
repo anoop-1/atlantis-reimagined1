@@ -16,6 +16,7 @@ import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
 import { CTR_WAVE4_OVERRIDES } from './ctr-wave4-overrides.mjs';
+import { CTR_WAVE5_OVERRIDES, assertNoPricesInWave5 } from './ctr-wave5-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -10287,7 +10288,7 @@ routes.push({
   title: 'NDT Industry Statistics 2026 | Market Size, Salaries, Growth Data | Atlantis NDT',
   description: 'NDT industry data: $15.8B market (2024) growing to $25.3B (2030), salary ranges by method and level, workforce statistics, certification demographics, and regional market share.',
   canonical: `${SITE_URL}/ndt-industry-statistics`,
-  bodyContent: `  <header><nav><a href="/">Home</a><a href="/blog">Blog</a><a href="/ndt-technician-salary">Salary Guide</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Industry Statistics 2026</h1>\n    <p>Comprehensive NDT industry data with interactive charts. Global market size, growth projections, salary statistics by method and level, workforce demographics, and regional market share analysis.</p>\n  </main>`,
+  bodyContent: `  <header><nav><a href="/">Home</a><a href="/blog">Blog</a><a href="/blog/ndt-salary-guide-2026-global">Salary Guide</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Industry Statistics 2026</h1>\n    <p>Comprehensive NDT industry data with interactive charts. Global market size, growth projections, salary statistics by method and level, workforce demographics, and regional market share analysis.</p>\n  </main>`,
 });
 
 routes.push({
@@ -12857,6 +12858,9 @@ ${urls}
   const missing = Object.keys(CTR_WAVE2_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 2: ${Object.keys(CTR_WAVE2_OVERRIDES).length - missing.length}/${Object.keys(CTR_WAVE2_OVERRIDES).length} target pages present`);
   if (missing.length) console.warn(`   ⚠️  wave-2 paths with no matching route: ${missing.join(', ')}`);
+  assertNoPricesInWave5();
+  const m5 = Object.keys(CTR_WAVE5_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 5: ${Object.keys(CTR_WAVE5_OVERRIDES).length - m5.length}/${Object.keys(CTR_WAVE5_OVERRIDES).length} target pages present` + (m5.length ? ` — MISSING: ${m5.join(', ')}` : ''));
   const m4 = Object.keys(CTR_WAVE4_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 4: ${Object.keys(CTR_WAVE4_OVERRIDES).length - m4.length}/${Object.keys(CTR_WAVE4_OVERRIDES).length} target pages present` + (m4.length ? ` — MISSING: ${m4.join(', ')}` : ''));
   const m3 = Object.keys(CTR_WAVE3_OVERRIDES).filter(p => !paths.has(p));
@@ -12930,18 +12934,42 @@ if (dupesRemoved > 0) console.log(`🔄 Deduplicated: removed ${dupesRemoved} du
 
 // 2026-05-07: drop URLs that 301-redirect at the edge so they don't pollute
 // the sitemap (Google flags "Page with redirect" against the source URL).
-// Audit confirms these are stable redirect destinations.
-const REDIRECT_SOURCE_PATHS = new Set([
-  '/ndt-training',
-  '/blog/ultrasonic-testing',
-  '/blog/magnetic-particle-testing',
-  '/blog/eddy-current-testing',
-  '/blog/ndt-career-top-choice-2025-global-market-trends',
-  '/blog/digital-twin-roadmap-oil-gas-companies-asset-integrity',
-  '/blog/ndt-salary-guide-2025-global-level-1-2-3',
-  '/blog/eddy-current-testing-complete-beginner-guide',
-  '/blog/ndt-technician-salary-guide-2026-industry-report',
-]);
+//
+// 2026-08-04: DERIVED FROM vercel.json RATHER THAN HAND-MAINTAINED.
+// This was a hard-coded Set of 9 paths sitting next to a vercel.json that
+// declares 48 redirects. The two drifted, and three URLs — /blog/ndt-career-guide,
+// /blog/digital-twins-oil-gas and /blog/digital-twins-ndt-guide — were 301ing at
+// the edge while still shipping prerendered HTML with a SELF-canonical, sitting
+// in sitemap.xml and sitemap-blog.xml, and receiving 22 internal links between
+// them. Google was being handed sitemap entries that redirect.
+//
+// vercel.json is the single source of truth for "this URL is retired": it is
+// what the edge actually enforces and what scripts/gen-nginx-config.mjs reads
+// for the VPS. Deriving from it means the two can no longer disagree.
+//
+// Only literal sources are taken. Wildcard and enum rules (/wp-admin/:path*,
+// /ndt-consulting-:city(...)) are patterns, not retired pages, and several
+// legitimately match live routes.
+const REDIRECT_SOURCE_PATHS = (() => {
+  const set = new Set();
+  try {
+    const vercelCfg = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf-8'));
+    for (const r of vercelCfg.redirects || []) {
+      const src = r.source || '';
+      // Skip host-conditional rules (www -> apex): they retire nothing.
+      if (Array.isArray(r.has) && r.has.length) continue;
+      if (src.includes(':') || src.includes('*')) continue;
+      set.add(src.replace(/\/$/, '') || '/');
+    }
+  } catch (err) {
+    console.warn(`⚠️  Could not derive redirect sources from vercel.json (${err.message}) — falling back to the literal list`);
+  }
+  // '/ndt-training' is covered by the /ndt-training/:path* wildcard rather than
+  // a literal entry, so it is retained explicitly.
+  set.add('/ndt-training');
+  set.delete('/');   // never drop the homepage, whatever a rule says
+  return set;
+})();
 const beforeRedirectFilter = dedupedRoutes.length;
 dedupedRoutes = dedupedRoutes.filter(r => !REDIRECT_SOURCE_PATHS.has(r.path));
 const redirectsRemoved = beforeRedirectFilter - dedupedRoutes.length;
@@ -12993,7 +13021,7 @@ if (pseoNoindexApplied > 0) {
     console.log(
       `📗 Thin-page upgrade: ${up.services} service · ${up.corporate} corporate-training · ` +
       `${up.consulting} consulting · ${up.caseStudies} case-study · ${up.tools} tool · ` +
-      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler · ${up.dtDepth} digital-twin pages deepened · ${up.erpFaqs} ERP pages given buyer Q&A · ${up.trainingCities} US training-city pages localised`
+      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler · ${up.dtDepth} digital-twin pages deepened · ${up.erpFaqs} ERP pages given buyer Q&A · ${up.trainingCities} US training-city pages localised · consolidation: ${JSON.stringify(up.consolidation)}`
     );
   }
 
@@ -13068,7 +13096,11 @@ routes.forEach(route => {
     // Wave 4 (2026-08-04) targets the 66 page+query pairs sitting at position
     // <=15 with 9,627 impressions and 30 clicks — a snippet problem, not a
     // ranking problem. Newest layer, so it wins on any shared path.
-    const w4 = CTR_WAVE4_OVERRIDES[route.path];
+    // Wave 5 (2026-08-04) is the newest layer: de-cannibalisation by title,
+    // buyer-intent service queries, and removal of an Atlantis day rate that
+    // was sitting in a title tag (CLAUDE.md 18).
+    const w5 = CTR_WAVE5_OVERRIDES[route.path];
+    const w4 = w5 || CTR_WAVE4_OVERRIDES[route.path];
     const w3 = w4 || CTR_WAVE3_OVERRIDES[route.path];
     const w2 = w3 || CTR_WAVE2_OVERRIDES[route.path];
     const p5 = w2 || PHASE5_CTR_OVERRIDES[route.path];
