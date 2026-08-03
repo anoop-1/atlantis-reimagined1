@@ -994,3 +994,109 @@ the money page for the method term. Resolve before enriching further.
    already carry `structuredData`; needs emitting as an additional JSON-LD block.
 3. Owner: Google Business Profile for Houston; re-weight paid to US/Canada/Gulf.
 4. Re-pull GSC ~2026-08-18 and judge wave 4 on clicks for the 11 target pages.
+
+---
+
+## 25. Consolidation + CTR wave 5 + pricing auditor — 2026-08-04
+
+### 25.1 🔴 DRIFT DEFECT — two hand-maintained redirect lists had diverged
+`REDIRECT_SOURCE_PATHS` in `prerender.mjs` was a hard-coded Set of 9 paths next
+to a `vercel.json` declaring 48 redirects. Three URLs were **301ing at the edge
+while still shipping prerendered HTML with a SELF-canonical**, sitting in
+`sitemap.xml` and `sitemap-blog.xml`, and receiving **35 internal links**:
+`/blog/ndt-career-guide` · `/blog/digital-twins-oil-gas` · `/blog/digital-twins-ndt-guide`.
+
+**Fixed permanently: the Set is now DERIVED from `vercel.json`** (literal sources
+only; wildcards and enum rules are patterns, not retirements). The two can no
+longer disagree.
+
+**Retiring a URL takes FOUR coordinated edits** — verified, and missing any one
+leaves a half-retired URL:
+1. `vercel.json` redirects[] — `gen-nginx-config.mjs` reads it for the VPS too
+2. `REDIRECT_SOURCE_PATHS` — now automatic
+3. **`src/data/blogs.json`** — `RelatedArticles.tsx` builds its link index from
+   every record, so a retired slug stays link-eligible until removed here
+4. grep hardcoded `href=`/`to=` in scripts and `src/pages/**`
+
+⚠️ **Orphan rescue links only from the live `routes` array**, so fixing (2)
+removed 26 of the 35 bad links automatically.
+
+⚠️ **Dead code:** `blogs.json.canonical` (3 records) is read by nothing.
+Cross-canonicals only work through `ROUND7_BODY_OVERRIDES` (`prerender.mjs`
+~12302).
+
+### 25.2 Cannibalisation — 66 queries, 16,697 impressions, mostly NOT merges
+Page-level inspection showed most groups needed **differentiation, not merging**.
+Only two pages retired, both verified near-duplicates where the survivor is
+longer and stronger:
+
+| Retired | → Winner |
+|---|---|
+| `/ndt-technician-salary` (1,040w) | `/blog/ndt-salary-guide-2026-global` |
+| `/blog/api-653-certification-complete-guide` (1,530w) | `/api-653-certification` |
+
+**Level III cluster** — 4 pages on "asnt level iii consulting" (268 impr, 0
+clicks), two of them **CITY pages ranking for a national service term** (San
+Diego p81.5, Corpus Christi p62.1). Resolved by: title separation
+(`/consulting` conceded the term), 665→1,570 words on the winner, and explicit
+"this page covers {city}" framing on the two city pages.
+
+**Already handled:** `/blog/eddy-current-testing-complete-beginner-guide` was
+already 301'd — so "eddy current testing" at p71/77/78 is an **authority**
+problem, not cannibalisation.
+
+### 25.3 CTR wave 5 — 12 rewrites, above wave 4
+De-cannibalisation by title (`/consulting` vs Level III; SNT-TC-1A document vs
+ASNT pathway; PAUT glossary/blog/service), buyer-intent service queries, and
+`/radiographic-testing` — the last page still carrying a keyword-stuffed
+pipe-separated title while being outweighed 7:1 by its own blog.
+
+### 25.4 Featured-snippet capture
+Four pages at **position 2.4–3.4 with 0% CTR** — an AI Overview answers above
+them. Each now **opens** with an `<h2>` restating the query verbatim plus a
+40–55 word direct answer. A snippet answer below the fold is not what Google
+lifts.
+⚠️ **FAQ/HowTo rich results were withdrawn for most sites in 2023** — FAQ schema
+is not a CTR lever. Do not model it as one.
+
+### 25.5 ⚠️ PRICING AUDITOR — and why blanket-stripping is wrong
+`scripts/pricing-audit.mjs` scans **built** titles/descriptions and
+**classifies**: FORBIDDEN (Atlantis service price) vs permitted (§18 explicitly
+allows industry salary data, third-party exam fees, customer ROI, market size).
+A blanket strip would destroy the salary cluster, among the highest-impression
+content on the site.
+
+It found **3 genuine breaches an eyeball scan missed**, including
+**`Atlantis NDT ERP £14.5K/yr` in a live meta description**. The first version of
+the classifier missed it because the rate pattern lacked `/yr` — *a false
+positive costs a manual look; a false negative publishes a price.* Competitor
+figures replaced with the qualitative labels §18 asks for. Now **0 forbidden**.
+
+Run `node scripts/pricing-audit.mjs --strict` to fail a build on any breach.
+
+### 25.6 ⚠️ LESSON — never bulk-replace a bare quoted string in a config module
+Rewriting internal links with a naive `'/old-path'` → `'/new-path'` replace also
+rewrote **object keys and a route `path:`**, creating duplicate keys where the
+last silently wins. It would have applied the old NDT Career Guide title
+(carrying `$45K → $140K`) to the salary guide. Caught by diffing keys rather
+than trusting the edit; all four lines restored.
+**Scope such replacements to `to=`/`href=`/`path:` attributes, and diff the keys
+afterwards.** Also write files with `newline=''` — rewriting CRLF as LF produced
+1,600-line diffs that masked one-line changes.
+
+### 25.7 Verified LIVE — 25 assertions
+Drift 301s ✅3/3 · consolidation 301s ✅2/2 · wave 5 titles ✅8/8 · no price in
+Level III title ✅ · content depth ✅5/5 (Level III 1,570w · RT 1,546w · ship hull
+1,739w · crack detection 2,605w · **MFL 984→1,367w after the first pass failed
+this check**) · snippet blocks ✅4/4 · city framing ✅2/2.
+Build: 5,321 pages · 5,099 sitemap URLs · drift guard PASS · 0 forbidden prices ·
+no redirect source prerendered or sitemapped (29 checked).
+
+### 25.8 Next
+1. **Methods cluster** — ~300 un-enriched permutations (§24.4); these DO earn.
+2. Base method pages vs glossary cannibalisation (`/ultrasonic-testing` etc.
+   earn zero while glossary ranks).
+3. 90 "review" pricing hits — unclassified, worth a manual pass.
+4. **Re-run `node scripts/ctr-opportunity-engine.mjs --days 28` ~2026-09-01**:
+   total recoverable should fall from 751, and Tier A queries should show
+   single-page ownership rather than 3–4 competing.
