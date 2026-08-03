@@ -15,6 +15,7 @@ import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
+import { CTR_WAVE4_OVERRIDES } from './ctr-wave4-overrides.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -12856,6 +12857,8 @@ ${urls}
   const missing = Object.keys(CTR_WAVE2_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 2: ${Object.keys(CTR_WAVE2_OVERRIDES).length - missing.length}/${Object.keys(CTR_WAVE2_OVERRIDES).length} target pages present`);
   if (missing.length) console.warn(`   ⚠️  wave-2 paths with no matching route: ${missing.join(', ')}`);
+  const m4 = Object.keys(CTR_WAVE4_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 4: ${Object.keys(CTR_WAVE4_OVERRIDES).length - m4.length}/${Object.keys(CTR_WAVE4_OVERRIDES).length} target pages present` + (m4.length ? ` — MISSING: ${m4.join(', ')}` : ''));
   const m3 = Object.keys(CTR_WAVE3_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 3: ${Object.keys(CTR_WAVE3_OVERRIDES).length - m3.length}/${Object.keys(CTR_WAVE3_OVERRIDES).length} target pages present`);
   if (m3.length) console.warn(`   ⚠️  wave-3 paths with no matching route: ${m3.join(', ')}`);
@@ -12990,7 +12993,7 @@ if (pseoNoindexApplied > 0) {
     console.log(
       `📗 Thin-page upgrade: ${up.services} service · ${up.corporate} corporate-training · ` +
       `${up.consulting} consulting · ${up.caseStudies} case-study · ${up.tools} tool · ` +
-      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler · ${up.dtDepth} digital-twin pages deepened · ${up.erpFaqs} ERP pages given buyer Q&A`
+      `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler · ${up.dtDepth} digital-twin pages deepened · ${up.erpFaqs} ERP pages given buyer Q&A · ${up.trainingCities} US training-city pages localised`
     );
   }
 
@@ -13062,7 +13065,11 @@ routes.forEach(route => {
     // layer and must not be clobbered by the older Round-7 or legacy CTR maps.
     // Wave 2 (2026-07-29) is the newest, query-matched layer and outranks wave 1,
     // Round-7 and the legacy CTR map on any path they share.
-    const w3 = CTR_WAVE3_OVERRIDES[route.path];
+    // Wave 4 (2026-08-04) targets the 66 page+query pairs sitting at position
+    // <=15 with 9,627 impressions and 30 clicks — a snippet problem, not a
+    // ranking problem. Newest layer, so it wins on any shared path.
+    const w4 = CTR_WAVE4_OVERRIDES[route.path];
+    const w3 = w4 || CTR_WAVE3_OVERRIDES[route.path];
     const w2 = w3 || CTR_WAVE2_OVERRIDES[route.path];
     const p5 = w2 || PHASE5_CTR_OVERRIDES[route.path];
     const r7raw = ROUND7_BODY_OVERRIDES[route.path];

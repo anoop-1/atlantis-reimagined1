@@ -36,6 +36,7 @@ import { applyErpGenericPositioning, assertNoNumbersInErpHubMeta } from './erp-g
 import { applyCertClusterDefence } from './cert-cluster-defence.mjs';
 import { applyDtDepth } from './dt-depth-2026-08-02.mjs';
 import { applyErpFaqs } from './erp-faq-2026-08-02.mjs';
+import { applyTrainingCityDepth } from './training-city-depth.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -654,5 +655,11 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // Copy contains no numerals at all, per owner direction; the module fails
     // the build if one returns.
     erpFaqs: applyErpFaqs(routes, append),
+    // US training cities. The queries reaching these pages are proximity intent
+    // ("ndt training near me" 156i at p49.8), not city-name intent ("ndt training
+    // houston" 18i) — so the fix is verifiable local substance plus Course
+    // schema, NOT more words. No LocalBusiness schema and no claimed classroom
+    // where Atlantis has no presence.
+    trainingCities: applyTrainingCityDepth(routes, append).deepened,
   };
 }
