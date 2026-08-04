@@ -74,6 +74,21 @@ export const CTR_WAVE5_OVERRIDES = {
       'RT carried out to ASME Section V Article 2 and ISO 17636: source and technique selection for your wall thickness, IQI-proven sensitivity, film or digital capture, and an interpreted report with the images retained and retrievable for audit.',
   },
 
+  // 2026-08-04 second pass: /ultrasonic-testing and /visual-testing earn zero
+  // impressions while their glossary counterparts rank — the same
+  // keyword-stuffed pipe titles /radiographic-testing carried. Service intent,
+  // matching the service bodies added in consolidation-2026-08.mjs.
+  '/ultrasonic-testing': {
+    title: 'Ultrasonic Testing Services — Thickness, Weld Examination and PAUT',
+    description:
+      'UT delivered to ASME Section V and ISO 17640: thickness surveys at defined CMLs feeding remaining-life calculation, shear-wave and phased array weld examination, corrosion mapping, and reporting with the calibration and procedure evidence an audit asks for.',
+  },
+  '/visual-testing': {
+    title: 'Visual Testing Services — Weld Acceptance, Condition Surveys and Remote VT',
+    description:
+      'Visual examination done as the code defines it — measured illumination, verified acuity, recorded conditions — for weld acceptance to AWS D1.1, in-service condition under API 510/570/653, and borescope and crawler work where entry is costly.',
+  },
+
   // Commercial PAUT intent; the glossary keeps the definition and the blog keeps
   // equipment and setup.
   '/phased-array-ut': {

@@ -119,6 +119,66 @@ const RT_SERVICE_BODY = `
       <p>Related: <a href="/blog/radiographic-testing-complete-guide">the full RT technical guide</a> · <a href="/ultrasonic-testing">ultrasonic testing</a> · <a href="/blog/rt-vs-ut-complete-comparison">RT vs UT</a> · <a href="/contact?service=inspection">request an inspection</a>.</p>
     </section>`;
 
+/* ── 2b. UT and VT base pages — same cannibalisation fix RT received ────────
+ * 2026-08-04 (second pass): /ultrasonic-testing and /visual-testing earn ZERO
+ * impressions while their glossary counterparts rank (glossary UT takes 497).
+ * Same disease as /radiographic-testing, same cure: the commercial page claims
+ * SERVICE intent — what a client receives — leaving the explainer role to the
+ * blog and the definition to the glossary.
+ */
+
+const UT_SERVICE_BODY = `
+    <section aria-label="Ultrasonic testing service detail">
+      <h2>What you receive from an ultrasonic examination</h2>
+      <p>A UT report is only worth what can be reconstructed from it later. Every Atlantis examination is delivered with the readings located against the component — not a bare list of numbers — together with the instrument, probe and calibration block identities, the velocity and temperature corrections applied, and the procedure revision the work was performed to. For thickness surveys, readings land at defined condition monitoring locations so the next campaign measures the same metal and the corrosion rate is real rather than an artefact of moved probes.</p>
+
+      <h2>Thickness and corrosion mapping</h2>
+      <p>The commonest UT engagement is establishing remaining wall: single-point thickness at CMLs feeding API 510, 570 and 653 remaining-life calculation, and scanned corrosion mapping where the damage is localised and a grid would miss it. The deliverable that matters is not the reading but the trend — which is why location discipline and instrument-to-instrument consistency get more attention in our procedures than the gauge brand does.</p>
+
+      <h2>Weld examination — conventional, phased array and TOFD</h2>
+      <p>Shear-wave examination finds the planar flaws radiography struggles with — lack of fusion, cracking — and reports their depth. Where coverage must be demonstrable or the geometry is demanding, <a href="/phased-array-ut">phased array</a> sweeps a range of angles from one position and records everything for later re-analysis, and TOFD adds sizing accuracy on the flaws that matter most. Which technique a weld actually needs is a scoping decision we will argue honestly, because specifying PAUT where conventional UT suffices spends your budget on data nobody will use.</p>
+
+      <h2>What UT will not do, said plainly</h2>
+      <p>Ultrasonics needs a transmitting surface — heavy scale, loose coatings and very rough profiles degrade or defeat it. Flaws oriented parallel to the beam return little whatever the technique, coarse-grained austenitic welds scatter sound badly enough to demand specialist approaches, and the near surface sits in a dead zone that a complementary surface method should cover. A provider who never mentions these limits is selling coverage they cannot deliver.</p>
+
+      <h2>Codes and the evidence chain</h2>
+      <p>Work is performed to ASME Section V Articles 4 and 5, ISO 17640 and ISO 16810 as the contract requires, with acceptance from the governing construction or in-service code. Technician certification under SNT-TC-1A or ISO 9712, calibration traceability and procedure control travel with every report — the bundle an auditor actually asks for, assembled at the time rather than reconstructed afterwards.</p>
+
+      <h2>Frequently asked questions</h2>
+      <h3>Can UT be done in service, without a shutdown?</h3>
+      <p>Mostly yes — thickness and much weld examination proceed on live equipment, and high-temperature techniques with appropriate couplants and delay lines work on surfaces conventional probes cannot touch. What genuinely needs an outage is internal access and anything insulation must come off for at scale.</p>
+      <h3>UT or RT for our welds?</h3>
+      <p>They find different things: RT images volumetric flaws and leaves a picture; UT finds tight planar flaws and gives depth. Codes increasingly permit UT in place of RT for thick sections, but the honest answer depends on the flaw types your process makes credible — see the full <a href="/blog/rt-vs-ut-complete-comparison">RT vs UT comparison</a>.</p>
+
+      <p>Related: <a href="/blog/ultrasonic-testing-ultimate-guide">the complete UT technical guide</a> · <a href="/phased-array-ut">phased array services</a> · <a href="/glossary/ultrasonic-testing">UT definition</a> · <a href="/contact?service=inspection">request an examination</a>.</p>
+    </section>`;
+
+const VT_SERVICE_BODY = `
+    <section aria-label="Visual testing service detail">
+      <h2>Why visual examination is a procedure, not a glance</h2>
+      <p>Visual testing fails audits more often than any other method — not because looking is hard, but because the code makes it measurable and most providers do not treat it that way. ASME Section V Article 9 sets minimum illumination at the surface, maximum viewing distance and angle, and demonstrated visual acuity re-tested on a schedule. An Atlantis visual examination records all of it, which is the difference between an inspection and an opinion.</p>
+
+      <h2>What a visual campaign delivers</h2>
+      <p>Direct visual examination covers weld acceptance to AWS D1.1 and construction-code criteria — profile, undercut, reinforcement, arc strikes — and in-service condition: corrosion under insulation evidence, coating breakdown, support and foundation condition, and the mechanical damage that walkdowns exist to find. Remote visual inspection extends the same discipline through borescopes and crawlers into vessels, tubes and spaces where entry is costly or unsafe, with imagery retained so a finding can be re-examined without re-mobilising.</p>
+
+      <h2>Where VT sits in an inspection programme</h2>
+      <p>Visual examination is the scoping method: it decides where the volumetric budget goes. A disciplined visual campaign in front of a turnaround routinely reshapes the UT and RT scope — dropping locations that show nothing and adding ones the desk plan missed. Treating VT as a checkbox forfeits exactly that value.</p>
+
+      <h2>What visual examination cannot do</h2>
+      <p>Nothing subsurface, and nothing the eye cannot resolve at the specified distance and lighting — tight fatigue cracks are routinely invisible until a surface method opens them up. Where cracking is credible, VT identifies the locations and <a href="/magnetic-particle-testing">magnetic particle</a> or penetrant confirms; pretending a visual pass rules cracking out is how findings get missed.</p>
+
+      <h2>Codes and records</h2>
+      <p>Work runs to ASME Section V Article 9, AWS D1.1 for structural welds, and API 510, 570 and 653 in-service visual requirements, with examiner acuity records, illumination verification and procedure control retained against audit. Findings are reported located and photographed, and can feed the client's own system or a <a href="/digital-twins">3D asset model</a> so condition history accumulates against the component rather than in scattered PDFs.</p>
+
+      <h2>Frequently asked questions</h2>
+      <h3>Is certified VT really necessary if our engineers already walk the plant?</h3>
+      <p>Walkdowns are valuable and are not examinations. When acceptance is being declared against a code — weld acceptance, in-service condition supporting a run decision — the examiner's certification, vision records and the lighting and distance conditions become part of the evidence, and their absence is a finding in itself.</p>
+      <h3>Can remote visual replace vessel entry?</h3>
+      <p>Often, and increasingly. Where the code or the damage mechanism requires close-up coverage, crawler and borescope work with recorded imagery can satisfy it without entry — but the equivalence has to be established per case, not assumed, and we will say plainly when entry is still the right call.</p>
+
+      <p>Related: <a href="/blog/visual-testing-complete-guide">the complete VT guide</a> · <a href="/glossary/visual-testing">VT definition</a> · <a href="/magnetic-particle-testing">magnetic particle testing</a> · <a href="/contact?service=inspection">request an inspection</a>.</p>
+    </section>`;
+
 /* ── 3. Tier B — buyer-intent service depth ───────────────────────────────── */
 
 const TIER_B = {
@@ -260,6 +320,12 @@ export function applyConsolidation(routes, append) {
 
   const rt = byPath.get('/radiographic-testing');
   if (rt) { append(rt, RT_SERVICE_BODY); out.rt++; }
+
+  // Second pass 2026-08-04: UT and VT base pages, same cure as RT.
+  const ut = byPath.get('/ultrasonic-testing');
+  if (ut) { append(ut, UT_SERVICE_BODY); out.rt++; }
+  const vt = byPath.get('/visual-testing');
+  if (vt) { append(vt, VT_SERVICE_BODY); out.rt++; }
 
   for (const [path, t] of Object.entries(TIER_B)) {
     const r = byPath.get(path);

@@ -38,6 +38,7 @@ import { applyDtDepth } from './dt-depth-2026-08-02.mjs';
 import { applyErpFaqs } from './erp-faq-2026-08-02.mjs';
 import { applyTrainingCityDepth } from './training-city-depth.mjs';
 import { applyConsolidation } from './consolidation-2026-08.mjs';
+import { applyMethodCityDepth, assertNoPricesInMethodCityDepth } from './method-city-depth.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -667,5 +668,11 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // III term, and put a direct 40-55 word answer at the TOP of the pages that
     // sit at p<=8 with 0% CTR because a snippet answers above them.
     consolidation: applyConsolidation(routes, append),
+    // Method x city: 12 pages with city research earn 215 impr/page; 473 with
+    // generic blocks earn 10. This composes authored city-industry knowledge
+    // (~40 markets = 89% of demand) with per-industry method usage, so each
+    // (method, city) page discusses the method against the industries that
+    // actually exist there. The similarity gate remains the referee.
+    methodCities: (assertNoPricesInMethodCityDepth(), applyMethodCityDepth(routes, append)),
   };
 }
