@@ -167,16 +167,37 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         setStatus("sent");
         return;
       }
+      // The EmailJS template renders {{name}} and {{message}} — NOT from_name,
+      // from_email, company or usecase. Enquiries were arriving with an empty
+      // sender line and no contact details at all, so a real lead on 2026-08-04
+      // could not be replied to. Every field is therefore ALSO written into
+      // `message`, which is the one variable the template is known to render, and
+      // the common aliases are sent so the template can be improved later without
+      // another code change.
+      const details =
+        `Name:    ${name}\n` +
+        `Email:   ${email}\n` +
+        `Company: ${company || "(not provided)"}\n` +
+        `Use case:${usecase ? ` ${usecase}` : " (not provided)"}\n` +
+        `Source:  ${typeof window !== "undefined" ? window.location.pathname : "(unknown page)"}\n\n` +
+        `Message:\n${message || "(none)"}`;
+
       await emailjs.send(
         serviceId,
         templateId,
         {
+          // Aliases so whichever variable the template uses is populated.
+          name,
           from_name: name,
+          user_name: name,
+          email,
           from_email: email,
+          user_email: email,
+          reply_to: email,          // makes Reply go to the client, not to ourselves
           company,
           usecase,
-          message,
-          subject: c.subject,
+          subject: `${c.subject} — ${name}${company ? ` (${company})` : ""}`,
+          message: details,         // full details inside the rendered variable
           to_email: "info@atlantisndt.com",
         },
         { publicKey },
@@ -229,7 +250,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
             <form onSubmit={onSubmit} className={`p-6 rounded-xl border-2 border-${color}-200 bg-white space-y-4`}>
               <div>
                 <label className="block text-sm font-semibold mb-1">Your name *</label>
-                <input required value={name} onChange={e => setName(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Anoop Rayavarapu" />
+                <input required value={name} onChange={e => setName(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="John Doe" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-1">Work email *</label>

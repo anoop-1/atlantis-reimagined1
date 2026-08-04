@@ -177,22 +177,33 @@ export default function Contact() {
             if (!serviceId || !templateId || !publicKey) {
                throw new Error("Mail service unavailable");
             }
+            // The EmailJS template renders {{name}} and {{message}} only, so
+            // every alias is sent and the full details are repeated inside
+            // `message`. reply_to is what makes the reply reach the client —
+            // without it, both From and To are info@atlantisndt.com and the
+            // enquiry is unanswerable.
+            const fullName = `${formData.firstName} ${formData.lastName}`.trim();
             await emailjs.send(
                serviceId,
                templateId,
                {
-                  from_name: `${formData.firstName} ${formData.lastName}`.trim(),
+                  name: fullName,
+                  from_name: fullName,
+                  user_name: fullName,
+                  email: formData.email,
                   from_email: formData.email,
+                  user_email: formData.email,
+                  reply_to: formData.email,
                   company: formData.company || "(not provided)",
                   usecase: formData.service || "(not selected)",
                   message:
-                     `Name: ${formData.firstName} ${formData.lastName}\n` +
-                     `Email: ${formData.email}\n` +
-                     `Phone: ${formData.phone || "(not provided)"}\n` +
+                     `Name:    ${fullName}\n` +
+                     `Email:   ${formData.email}\n` +
+                     `Phone:   ${formData.phone || "(not provided)"}\n` +
                      `Company: ${formData.company || "(not provided)"}\n` +
                      `Service: ${formData.service || "(not selected)"}\n\n` +
-                     formData.message,
-                  subject: `Contact form: ${formData.firstName} ${formData.lastName}${formData.service ? ` — ${formData.service}` : ""}`,
+                     `Message:\n${formData.message}`,
+                  subject: `Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
                   to_email: "info@atlantisndt.com",
                },
                { publicKey },
