@@ -1100,3 +1100,66 @@ no redirect source prerendered or sitemapped (29 checked).
 4. **Re-run `node scripts/ctr-opportunity-engine.mjs --days 28` ~2026-09-01**:
    total recoverable should fall from 751, and Tier A queries should show
    single-page ownership rather than 3–4 competing.
+
+---
+
+## 26. Method-city depth + UT/VT service split + contact-form fix — 2026-08-04
+
+### 26.1 THE 22x FINDING — city research earns, generic method prose does not
+485 /{method}-{city} pages, 90d: **12 pages with city-specific research earn
+215 impr/page; 473 with only the generic method block earn 10.** The thin 473
+ALREADY carried `enrichMethodCityPages` generic content — more of it is proven
+not to work. Confirms 20.9 from the demand side.
+
+**Shipped: `scripts/method-city-depth.mjs`** — 40 markets (89% of cluster
+demand) with unique per-market prose (industrial base, assets, governing regime:
+Aramco SAES, ADNOC AGES/ICV, NOPSEMA, ABSA/CSA B51, SAQCC-NDT, COFREND, KSNT,
+JSNDI, TSSA, Migas, IBR/PESO…) × METHOD_IN_INDUSTRY matrix (5 methods × 13
+industries). **188 pages localised**; the 12 already-researched pages are in
+`ALREADY_ENRICHED` and skipped. Inter-city shingle similarity 0.18–0.49 vs the
+0.55 gate. Honesty rule as 24.2: mobilised-teams model stated plainly, no fake
+local presence. Judge on impressions at the ~2026-09-01 pull.
+
+### 26.2 UT/VT base pages — same cure as RT (25.2)
+`/ultrasonic-testing` (919→**1,446w**) and `/visual-testing` (806→**1,282w**)
+earned zero impressions on keyword-stuffed pipe titles while glossary
+counterparts ranked (glossary UT: 497 impr). Service-intent bodies in
+`consolidation-2026-08.mjs`, wave-5 titles (now 14/14). Division of labour:
+**service page = what a client receives · blog = explainer · glossary =
+definition.**
+
+### 26.3 🔴 CONTACT FORMS WERE LOSING LEAD IDENTITY — fixed and verified
+A real lead (Victoria, Australia, 2026-08-04 01:33 UTC) arrived with a blank
+sender, From/To both info@, and no name/email/company anywhere. **Root cause:
+the EmailJS template renders {{name}} and {{message}} only; the code sent
+from_name/from_email/company/usecase — silently discarded.** This predates all
+2026-08 work; EnquiryCaptureForm has done this since it was built.
+
+Fix (commit `ff1d50b61`, both forms): `reply_to` = client email (makes Reply
+answerable — From/To being the connected account is inherent to EmailJS), all
+fields written INTO `message`, every alias sent (name/from_name/user_name etc.),
+subject carries name+company, source page included. **Verified live**: test
+submission through the real form → mailbox shows `Reply-To: <client>` and full
+details. Placeholder "Anoop Rayavarapu" → "John Doe".
+
+**Lost-lead recovery: EmailJS dashboard → Email History retains all template
+parameters even when unrendered.** The Victoria lead's email/name exist ONLY
+there. Historic enquiries likely recoverable the same way — owner action.
+
+### 26.4 Also this session
+- VPS mirror workflow REMOVED (owner direction — Vercel auto-deploys; VPS now
+  stale, failover = manual build+sync per 22.5 runbook).
+- Site-wide price strip attempted twice and **REVERTED** — regex approach
+  corrupted a salary range ("pricing on request–…$225,000") and could not
+  converge without eating retained salary data. Real scale: **289 pages, 4,681
+  non-salary figures.** Owner keeps salary figures. Next approach must be
+  batched page-level rewrites with verification between batches, not a global
+  regex. `strip-all-pricing.mjs` retained as scanner only.
+- Submitted: 202 URLs IndexNow (0 failed), 120 Google (0 failed; rest deduped).
+
+### 26.5 Next
+1. Pricing batches (owner steer pending): ~20 price-built pages repurposed to
+   quote model first, then ERP/CRM comparisons, then the technical-guide tail.
+2. Glossary tail (158 unauthored terms), Course schema as extra JSON-LD block.
+3. ~2026-09-01: ctr-opportunity-engine --days 28 (recoverable <751?), wave 4/5
+   clicks, method-city impressions vs the 10/page baseline.
