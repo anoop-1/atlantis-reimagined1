@@ -1158,8 +1158,18 @@ there. Historic enquiries likely recoverable the same way — owner action.
 - Submitted: 202 URLs IndexNow (0 failed), 120 Google (0 failed; rest deduped).
 
 ### 26.5 Next
-1. Pricing batches (owner steer pending): ~20 price-built pages repurposed to
-   quote model first, then ERP/CRM comparisons, then the technical-guide tail.
+1. ✅ **Pricing batch 1 DONE 2026-08-05** (commit `7263e7c16`): the seven
+   price-built pages repurposed to the quote model — asnt-level-3-fees,
+   ndt-inspection-cost matrix, mfl-cost, cwi-exam-cost, affordable-crm (carried
+   an ATLANTIS price in a live table), cheapest-cmms, ndt-consulting-costs.
+   ~340 figures removed, salary retained, live-verified 0 non-salary figures.
+   Lessons: mechanical replacement mangles arithmetic-shaped sentences — always
+   readability-spot-check and rewrite as prose; a segment replacement ate a JSX
+   tag (stray `</Link>`) and broke the build — check tags after prose surgery.
+   **Batch 2 remaining:** ~90-page technical-guide tail (incidental equipment
+   costs) + erp-london / welding-fab comparison bodies. Scanner totals overstate
+   — table-cell salary rows misclassify when the header is outside the context
+   window; work the list page-by-page.
 2. Glossary tail (158 unauthored terms), Course schema as extra JSON-LD block.
 3. ~2026-09-01: ctr-opportunity-engine --days 28 (recoverable <751?), wave 4/5
    clicks, method-city impressions vs the 10/page baseline.
