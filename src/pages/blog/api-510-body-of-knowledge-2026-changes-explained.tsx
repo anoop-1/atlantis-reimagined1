@@ -303,7 +303,7 @@ export default function API510BodyOfKnowledge2026() {
                         <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-amber-500">
                             <h4 className="font-bold text-lg mb-3 text-amber-900">Sourcing tip</h4>
                             <p className="text-slate-700">
-                                ASME publications are typically purchased as PDF + print bundles from asme.org; API publications are sold via api.org/publications. Total cost to acquire all 12 references new is approximately $3,800-$4,400 USD. Many employers reimburse references when employees are sponsored for certification. Used current-edition references can be sourced from the API forum and r/NDT, but verify the edition matches the BoK before purchase - "API 510 11th edition" without the "1st Addendum" is incomplete.
+                                ASME publications are typically purchased as PDF + print bundles from asme.org; API publications are sold via api.org/publications. Total cost to acquire all 12 references new is a four-figure outlay. Many employers reimburse references when employees are sponsored for certification. Used current-edition references can be sourced from the API forum and r/NDT, but verify the edition matches the BoK before purchase - "API 510 11th edition" without the "1st Addendum" is incomplete.
                             </p>
                         </div>
                     </section>
