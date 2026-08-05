@@ -54,22 +54,22 @@ const standards = [
 ];
 
 const comparisonMethods = [
-    { method: "ECT", speed: "Fast (500-1000 mm/s)", coverage: "Broad (large coils)", depth: "Shallow (1-5mm)", cost: "Moderate ($50-100/hr)", industries: "Aerospace, manufacturing" },
-    { method: "Magnetic Particle (MT)", speed: "Moderate (100-300 mm/s)", coverage: "Moderate", depth: "Very shallow (<1mm)", cost: "Low ($30-60/hr)", industries: "Steel welds, castings" },
-    { method: "Penetrant Testing (PT)", speed: "Slow (requires drying)", coverage: "Excellent (opens cracks)", depth: "Very shallow", cost: "Moderate ($40-80/hr)", industries: "All metals, castings" },
-    { method: "Ultrasonic Testing (UT)", speed: "Slow (point measurement)", coverage: "Point scans", depth: "Very deep (100mm+)", cost: "High ($80-150/hr)", industries: "Welds, pipe thickness" },
-    { method: "Radiography (RT)", speed: "Very slow (setup intensive)", coverage: "Excellent (internal defects)", depth: "Complete penetration", cost: "Very high ($150-300/hr)", industries: "Aerospace, critical welds" }
+    { method: "ECT", speed: "Fast (500-1000 mm/s)", coverage: "Broad (large coils)", depth: "Shallow (1-5mm)", cost: "Moderate (a scoped, quoted figure100/hr)", industries: "Aerospace, manufacturing" },
+    { method: "Magnetic Particle (MT)", speed: "Moderate (100-300 mm/s)", coverage: "Moderate", depth: "Very shallow (<1mm)", cost: "Low (a scoped, quoted figure60/hr)", industries: "Steel welds, castings" },
+    { method: "Penetrant Testing (PT)", speed: "Slow (requires drying)", coverage: "Excellent (opens cracks)", depth: "Very shallow", cost: "Moderate (a scoped, quoted figure80/hr)", industries: "All metals, castings" },
+    { method: "Ultrasonic Testing (UT)", speed: "Slow (point measurement)", coverage: "Point scans", depth: "Very deep (100mm+)", cost: "High (a scoped, quoted figure150/hr)", industries: "Welds, pipe thickness" },
+    { method: "Radiography (RT)", speed: "Very slow (setup intensive)", coverage: "Excellent (internal defects)", depth: "Complete penetration", cost: "Very high (a scoped, quoted figure300/hr)", industries: "Aerospace, critical welds" }
 ];
 
 const costGuide = [
-    { item: "Equipment (Single Probe System)", cost: "$15,000-$40,000" },
-    { item: "Multi-Channel System (4-8 probes)", cost: "$40,000-$100,000" },
-    { item: "Pulsed Eddy Current System", cost: "$30,000-$60,000" },
-    { item: "Automated ECT Scanner (tube inspection)", cost: "$100,000-$200,000" },
-    { item: "Inspection Labor (Level II technician)", cost: "$50-$100/hour" },
-    { item: "Probe Replacement/Maintenance", cost: "$2,000-$5,000/year" },
-    { item: "Calibration Standards/Block", cost: "$500-$2,000" },
-    { item: "Training (Level II ASNT)", cost: "$2,000-$4,000" }
+    { item: "Equipment (Single Probe System)", cost: "a scoped, quoted figure" },
+    { item: "Multi-Channel System (4-8 probes)", cost: "a scoped, quoted figure" },
+    { item: "Pulsed Eddy Current System", cost: "a scoped, quoted figure" },
+    { item: "Automated ECT Scanner (tube inspection)", cost: "a scoped, quoted figure" },
+    { item: "Inspection Labor (Level II technician)", cost: "a scoped, quoted figure" },
+    { item: "Probe Replacement/Maintenance", cost: "a scoped, quoted figure" },
+    { item: "Calibration Standards/Block", cost: "a scoped, quoted figure" },
+    { item: "Training (Level II ASNT)", cost: "a scoped, quoted figure" }
 ];
 
 export default function EddyCurrentTestingCompleteGuide() {
@@ -78,8 +78,8 @@ export default function EddyCurrentTestingCompleteGuide() {
         "@graph": [
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/blog/eddy-current-testing-complete-guide",
-                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment $15K-enterprise tier, Applications",
-                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment $15K-enterprise tier, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
+                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment a scoped, quoted figureenterprise tier, Applications",
+                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment a scoped, quoted figureenterprise tier, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2026-03-09",
                 dateModified: "2026-04-18",
                 section: "NDT Methods — Electromagnetic",
@@ -387,22 +387,22 @@ export default function EddyCurrentTestingCompleteGuide() {
                             <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-500">
                                 <h4 className="font-bold mb-2">Portable/Handheld Systems</h4>
                                 <p className="text-slate-600 text-sm mb-3">Field-deployable equipment with single or dual probes. Examples: Olympus NORTEC, Eddyfi Cyclone, GE Phasor.</p>
-                                <p className="text-sm"><strong>Cost:</strong> $15,000-$40,000 | <strong>Probes:</strong> 1-2 | <strong>Channels:</strong> Single</p>
+                                <p className="text-sm"><strong>Cost:</strong> a scoped, quoted figure | <strong>Probes:</strong> 1-2 | <strong>Channels:</strong> Single</p>
                             </div>
                             <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-500">
                                 <h4 className="font-bold mb-2">Multi-Channel Systems</h4>
                                 <p className="text-slate-600 text-sm mb-3">Laboratory and production systems with 4-8 simultaneous measurement channels. Examples: Eddyfi Shark, GE Compact Tube Inspector.</p>
-                                <p className="text-sm"><strong>Cost:</strong> $40,000-$100,000 | <strong>Probes:</strong> 4-8 | <strong>Channels:</strong> Multiple simultaneous</p>
+                                <p className="text-sm"><strong>Cost:</strong> a scoped, quoted figure | <strong>Probes:</strong> 4-8 | <strong>Channels:</strong> Multiple simultaneous</p>
                             </div>
                             <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-500">
                                 <h4 className="font-bold mb-2">Pulsed Eddy Current (PEC) Systems</h4>
                                 <p className="text-slate-600 text-sm mb-3">Specialized for CUI detection and thick coating inspection. Examples: Eddyfi Lyra, Applied Signal Technology.</p>
-                                <p className="text-sm"><strong>Cost:</strong> $30,000-$60,000 | <strong>Probes:</strong> 1-2 | <strong>Depth:</strong> 10-25mm</p>
+                                <p className="text-sm"><strong>Cost:</strong> a scoped, quoted figure | <strong>Probes:</strong> 1-2 | <strong>Depth:</strong> 10-25mm</p>
                             </div>
                             <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-500">
                                 <h4 className="font-bold mb-2">Automated ECT Scanners</h4>
                                 <p className="text-slate-600 text-sm mb-3">Production systems for tube inspection, ACFM scanning. Fully automated with robotic positioning.</p>
-                                <p className="text-sm"><strong>Cost:</strong> $100,000-$200,000+ | <strong>Throughput:</strong> 100+ tubes/day</p>
+                                <p className="text-sm"><strong>Cost:</strong> a scoped, quoted figure+ | <strong>Throughput:</strong> 100+ tubes/day</p>
                             </div>
                         </div>
 
@@ -428,7 +428,7 @@ export default function EddyCurrentTestingCompleteGuide() {
 
                         <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded">
                             <p className="text-amber-900">
-                                <strong>Cost Considerations:</strong> A single-channel portable ECT system represents an initial investment of $20,000-$35,000 but enables immediate cost recovery through inspections (typically $50-$100/hour labor billable). Multi-channel and automated systems require higher capital investment but dramatically reduce per-inspection cost for high-volume work. For tube inspection, automated systems can process 100+ tubes daily versus 10-20 tubes with portable systems, making automation ROI-positive in 1-2 years for high-throughput facilities.
+                                <strong>Cost Considerations:</strong> A single-channel portable ECT system represents an initial investment of a scoped, quoted figure but enables immediate cost recovery through inspections (typically a scoped, quoted figure labor billable). Multi-channel and automated systems require higher capital investment but dramatically reduce per-inspection cost for high-volume work. For tube inspection, automated systems can process 100+ tubes daily versus 10-20 tubes with portable systems, making automation ROI-positive in 1-2 years for high-throughput facilities.
                             </p>
                         </div>
                     </section>
@@ -457,7 +457,7 @@ export default function EddyCurrentTestingCompleteGuide() {
                                 </li>
                                 <li className="flex gap-3">
                                     <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span><strong>Certification Cost:</strong> $2,000-$4,000 for training; $300-$600 for exam fees</span>
+                                    <span><strong>Certification Cost:</strong> training and exam fees per the certifying body’s current schedule</span>
                                 </li>
                             </ul>
                         </div>

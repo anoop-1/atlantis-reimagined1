@@ -21,7 +21,7 @@ const FAQS = [
   },
   {
     question: "Can NetSuite track ASNT / ISO 9712 / PCN certifications out of the box?",
-    answer: "No. NetSuite OneWorld is a horizontal services ERP — it covers accounting, CRM, project management, inventory, procurement and HR very well but ships zero NDT-industry pre-configuration. Implementing ASNT SNT-TC-1A written-practice tracking, ISO 9712 NDT method libraries, PCN/CSWIP certification schemes, API 510/570/653 inspection-interval scheduling, NACE MR0175 corrosion trending or Aramco SAEP-1112 qualification mapping in NetSuite is custom SuiteScript / SuiteApp development — typically $80K-$250K per overlay area, plus ongoing maintenance. Atlantis NDT ERP ships every one of these out-of-the-box. The NDT-industry overlay is the core reason Atlantis NDT ERP exists.",
+    answer: "No. NetSuite OneWorld is a horizontal services ERP — it covers accounting, CRM, project management, inventory, procurement and HR very well but ships zero NDT-industry pre-configuration. Implementing ASNT SNT-TC-1A written-practice tracking, ISO 9712 NDT method libraries, PCN/CSWIP certification schemes, API 510/570/653 inspection-interval scheduling, NACE MR0175 corrosion trending or Aramco SAEP-1112 qualification mapping in NetSuite is custom SuiteScript / SuiteApp development — typically a scoped, quoted figure per overlay area, plus ongoing maintenance. Atlantis NDT ERP ships every one of these out-of-the-box. The NDT-industry overlay is the core reason Atlantis NDT ERP exists.",
   },
   {
     question: "Why would an NDT contractor still pick NetSuite over Atlantis NDT ERP?",
@@ -42,8 +42,8 @@ const FAQS = [
 ];
 
 const comparisonRows = [
-  { capability: "Annual license cost (50 users)", atlantis: "affordable, accessible,", netsuite: "$780K–$1.32M", winner: "atlantis" },
-  { capability: "5-year total cost of ownership", atlantis: "$90,000", netsuite: "$4.1M–$7.2M", winner: "atlantis" },
+  { capability: "Annual license cost (50 users)", atlantis: "affordable, accessible,", netsuite: "a scoped, quoted figure", winner: "atlantis" },
+  { capability: "5-year total cost of ownership", atlantis: "a scoped, quoted figure", netsuite: "a scoped, quoted figure", winner: "atlantis" },
   { capability: "Implementation timeline", atlantis: "4–10 weeks", netsuite: "4–9 months", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", netsuite: "Custom SuiteScript build", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", netsuite: "Custom build required", winner: "atlantis" },
@@ -67,7 +67,7 @@ const comparisonRows = [
 const caseStudies = [
   {
     title: "Mid-size pipeline integrity contractor (Houston + Tulsa, 42 technicians)",
-    body: "Evaluated NetSuite OneWorld via a tier-1 services-firm partner — quote $620K implementation + $1.04M/year subscription for OneWorld + OpenAir + SuiteCommerce Advanced. Chose Atlantis NDT ERP at affordable, accessible flat. API 1160 pipeline integrity management documentation, PHMSA HCA evidence packs and Cushing tank-farm API 653 scheduling all pre-built. Saved approximately $4.8M over 5 years; cleared next PHMSA audit with zero major findings.",
+    body: "Evaluated NetSuite OneWorld via a tier-1 services-firm partner — quote implementation plus subscription separately for OneWorld + OpenAir + SuiteCommerce Advanced. Chose Atlantis NDT ERP at affordable, accessible flat. API 1160 pipeline integrity management documentation, PHMSA HCA evidence packs and Cushing tank-farm API 653 scheduling all pre-built. Saved approximately a scoped, quoted figure over 5 years; cleared next PHMSA audit with zero major findings.",
   },
   {
     title: "Calibration laboratory group (multi-site India, 28 technicians)",
@@ -75,11 +75,11 @@ const caseStudies = [
   },
   {
     title: "Aerospace quality-control inspection firm (Bangalore + Toulouse, 36 technicians)",
-    body: "Serving GE Aviation, Pratt & Whitney, Safran, Honeywell Aerospace and Boeing supplier-base work, the contractor needed NAS 410 Rev 5 currency tracking, NADCAP MAUP audit-pack export, DGCA Form CA-39 and EASA Part-145 documentation across two legal entities. NetSuite quote: $620K over 5 years. Atlantis NDT ERP $25K over 5 years (multi-entity premium). Cleared next NADCAP MAUP audit with zero findings.",
+    body: "Serving GE Aviation, Pratt & Whitney, Safran, Honeywell Aerospace and Boeing supplier-base work, the contractor needed NAS 410 Rev 5 currency tracking, NADCAP MAUP audit-pack export, DGCA Form CA-39 and EASA Part-145 documentation across two legal entities. NetSuite quote: a scoped, quoted figure over 5 years. Atlantis NDT ERP a scoped, quoted figure over 5 years (multi-entity premium). Cleared next NADCAP MAUP audit with zero findings.",
   },
   {
     title: "Marine survey company (Singapore + Dubai, 22 technicians)",
-    body: "ABS / Lloyd's Register / DNV / IRClass classification-society inspection work across Singapore Jurong Island, Sembcorp Marine and Dubai Drydocks World. NetSuite OneWorld quote: $410K over 5 years for two-entity OneWorld setup. Atlantis NDT ERP $90K over 5 years. IACS classification-society survey-pack export, MPA / DM marine-jetty inspection scheduling and bilingual English/Arabic / English/Bahasa reporting all pre-built.",
+    body: "ABS / Lloyd's Register / DNV / IRClass classification-society inspection work across Singapore Jurong Island, Sembcorp Marine and Dubai Drydocks World. NetSuite OneWorld quote: a scoped, quoted figure over 5 years for two-entity OneWorld setup. Atlantis NDT ERP a scoped, quoted figure over 5 years. IACS classification-society survey-pack export, MPA / DM marine-jetty inspection scheduling and bilingual English/Arabic / English/Bahasa reporting all pre-built.",
   },
   {
     title: "Welding fabrication shop with QA/QC arm (Vadodara, 25 technicians + 80 welders)",
@@ -100,7 +100,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — affordable, accessible vs $780K+ | Atlantis NDT"
+        title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — affordable, accessible vs a scoped, quoted figure | Atlantis NDT"
         description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, affordable, accessible) vs enterprise-tier Oracle NetSuite OneWorld. 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
         canonical="/erp/odoo-vs-netsuite-ndt-companies"
         faq={FAQS}
@@ -118,7 +118,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — affordable, accessible vs $80K-$250K+
+            Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — affordable, accessible vs a scoped, quoted figure+
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
             Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat regional pricing) against <span className="text-orange-400 font-semibold">Oracle NetSuite OneWorld</span> — the mid-market services ERP gold standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where NetSuite genuinely wins.
@@ -131,7 +131,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             </div>
             <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 rounded-lg px-4 py-2 text-orange-300">
               <DollarSign className="w-4 h-4" />
-              <span className="font-semibold">$780K–$1.32M / year</span>
+              <span className="font-semibold">a scoped, quoted figure</span>
               <span className="text-orange-200/70 text-sm">NetSuite OneWorld (50 users)</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 rounded-lg px-4 py-2 text-purple-300">
@@ -158,10 +158,10 @@ export default function OdooVsNetSuiteNdtCompanies() {
           <h2 className="text-3xl font-bold mb-5">Executive summary</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              Oracle NetSuite is the default mid-market cloud ERP. NetSuite OneWorld + OpenAir is the standard recommendation that every services-firm management consultant and most CFO advisory groups will put on the shortlist when an NDT inspection contractor asks "what ERP should we use?". It is a genuinely strong platform — but its cost basis (typically $4-7M over five years for a 50-user mid-market firm) reflects Oracle's enterprise pricing strategy, not the functional gap between NetSuite and Atlantis NDT ERP.
+              Oracle NetSuite is the default mid-market cloud ERP. NetSuite OneWorld + OpenAir is the standard recommendation that every services-firm management consultant and most CFO advisory groups will put on the shortlist when an NDT inspection contractor asks "what ERP should we use?". It is a genuinely strong platform — but its cost basis (typically a scoped, quoted figure7M over five years for a 50-user mid-market firm) reflects Oracle's enterprise pricing strategy, not the functional gap between NetSuite and Atlantis NDT ERP.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Odoo 18 base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability at $90,000 over the same 5 years. NetSuite genuinely wins when the contractor operates 20+ legal entities globally with deep parallel-GAAP requirements, or when the parent corporate group already runs on the Oracle Cloud ecosystem. Outside those scenarios, the cost premium is hard to justify.
+              For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Odoo 18 base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability at a scoped, quoted figure over the same 5 years. NetSuite genuinely wins when the contractor operates 20+ legal entities globally with deep parallel-GAAP requirements, or when the parent corporate group already runs on the Oracle Cloud ecosystem. Outside those scenarios, the cost premium is hard to justify.
             </p>
           </div>
         </section>
@@ -203,33 +203,33 @@ export default function OdooVsNetSuiteNdtCompanies() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-emerald-900/30 border border-emerald-500/30 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-emerald-300 mb-3">Atlantis NDT ERP</h3>
-              <p className="text-4xl font-bold text-white mb-4">$90,000</p>
+              <p className="text-4xl font-bold text-white mb-4">a scoped, quoted figure</p>
               <p className="text-sm text-emerald-200 mb-4">over 5 years, flat</p>
               <ul className="space-y-2 text-slate-200 text-sm">
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />License: regional pricing — contact us — all apps included</li>
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Implementation: $15K-$45K one-off</li>
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Customization: $10K-$30K (NDT overlay pre-built)</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Implementation: a scoped, quoted figure one-off</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Customization: a scoped, quoted figure (NDT overlay pre-built)</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Support + upgrades: included</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />Mobile, training, hosting: included</li>
               </ul>
             </div>
             <div className="bg-orange-900/30 border border-orange-500/30 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-orange-300 mb-3">NetSuite OneWorld + OpenAir</h3>
-              <p className="text-4xl font-bold text-white mb-4">$4.1M–$7.2M</p>
+              <p className="text-4xl font-bold text-white mb-4">a scoped, quoted figure</p>
               <p className="text-sm text-orange-200 mb-4">over 5 years, fully loaded</p>
               <ul className="space-y-2 text-slate-200 text-sm">
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />License: $780K-$1.32M/year (50 users)</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />Implementation (tier-1 partner): $150K-$500K</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />NDT-industry customization: $80K-$250K</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />License: a scoped, quoted figure (50 users)</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />Implementation (tier-1 partner): a scoped, quoted figure</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />NDT-industry customization: a scoped, quoted figure</li>
                 <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />Support + SuiteSupport: included in subscription</li>
-                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />SuiteApps + integrations: $40K-$180K</li>
+                <li className="flex items-start gap-2"><DollarSign className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />SuiteApps + integrations: a scoped, quoted figure</li>
               </ul>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-slate-200 mb-3">Cost differential</h3>
               <p className="text-4xl font-bold text-emerald-400 mb-4">~45-80×</p>
               <p className="text-sm text-slate-300 mb-4">Atlantis is 45-80 times cheaper</p>
-              <p className="text-slate-300 text-sm leading-relaxed">For an NDT inspection contractor in the $3M-$30M revenue band, the $4-7M five-year savings from choosing Atlantis NDT ERP funds roughly: 10-18 additional certified technicians, a multi-region office expansion, or 18-24 months of CAPEX-grade phased-array UT equipment investment. NetSuite is the standard mid-market recommendation — Atlantis NDT ERP is the NDT-industry-specific recommendation.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">For an NDT inspection contractor in the a scoped, quoted figure revenue band, the a scoped, quoted figure7M five-year savings from choosing Atlantis NDT ERP funds roughly: 10-18 additional certified technicians, a multi-region office expansion, or 18-24 months of CAPEX-grade phased-array UT equipment investment. NetSuite is the standard mid-market recommendation — Atlantis NDT ERP is the NDT-industry-specific recommendation.</p>
             </div>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             <p className="text-slate-200 leading-relaxed mb-4">NetSuite genuinely wins for NDT inspection contractors when:</p>
             <ul className="space-y-2 text-slate-200">
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />You operate 20+ legal entities across multiple regions with deep OneWorld consolidation requirements</li>
-              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />You require ASC 606 / IFRS 15 percent-of-completion revenue recognition on multi-year EPC contracts above $25M each</li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />You require ASC 606 / IFRS 15 percent-of-completion revenue recognition on multi-year EPC contracts above a scoped, quoted figure each</li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />Your parent corporate group already runs on Oracle Cloud HCM, Oracle CX or Oracle E-Business Suite</li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />You need OpenAir's mature resource-utilization analytics across 200+ billable consultants</li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />Your CFO has prior NetSuite experience and prefers the platform on familiarity grounds</li>

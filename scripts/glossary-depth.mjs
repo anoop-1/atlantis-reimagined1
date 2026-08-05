@@ -30,6 +30,8 @@
  * for Q&A actually rendered on the page (20.8).
  */
 
+import { TERM_FACTS_TAIL } from './glossary-depth-tail.mjs';
+
 const esc = (s) =>
   String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -884,3 +886,6 @@ export function glossaryDepthCoverage(entries) {
   const have = entries.filter((e) => TERM_FACTS[e.slug]).length;
   return { authored: have, total: entries.length };
 }
+
+// 2026-08-05 tail extension (~30 terms, next half of remaining demand)
+Object.assign(TERM_FACTS, TERM_FACTS_TAIL);

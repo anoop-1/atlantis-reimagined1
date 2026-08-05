@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "How much does NDT certification cost in total?",
-    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): $1,500–$3,500 including training course ($1,200–$2,500), study materials ($100–$300), and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): $2,000–$4,500 for incremental training and examination. ISO 9712 or PCN Level II single method: $2,500–$5,000 including authorized training center course ($2,000–$3,500) and certification body exam fee ($350–$750). ASNT ACCP Level III (per method): $3,000–$6,000 including prep course ($1,500–$3,000) and ASNT exam fee ($750 per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): $8,000–affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
+    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): a scoped, quoted figure including training course (a significant cost item), study materials (a significant cost item), and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): a scoped, quoted figure for incremental training and examination. ISO 9712 or PCN Level II single method: a scoped, quoted figure including authorized training center course (a significant cost item) and certification body exam fee (a significant cost item). ASNT ACCP Level III (per method): a scoped, quoted figure including prep course (a significant cost item) and ASNT exam fee (a scoped, quoted figure per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): a scoped, quoted figureaffordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
   },
   {
     q: "What is the ASNT ACCP Level III exam?",
@@ -81,7 +81,7 @@ const certSchemes = [
     scope: "Employer-based",
     recognition: "USA, Americas, Middle East (ASME/API work)",
     examFormat: "Written + practical (employer-administered)",
-    costRange: "$1,500–$4,500 per method",
+    costRange: "a scoped, quoted figure per method",
     validity: "Per employer written practice (3–5 yr typical)",
     portability: "Not portable between employers",
   },
@@ -90,7 +90,7 @@ const certSchemes = [
     scope: "Third-party, ASNT-administered",
     recognition: "USA, global (major IOCs)",
     examFormat: "Basic exam + method exams (written only)",
-    costRange: "$750 per exam + prep course $1,500–$3,000",
+    costRange: "a scoped, quoted figure per exam + prep course a scoped, quoted figure",
     validity: "5 years (renewal by exam or CE points)",
     portability: "Fully portable",
   },
@@ -99,7 +99,7 @@ const certSchemes = [
     scope: "International standard, third-party body",
     recognition: "Europe, Middle East, Asia, Africa, South America",
     examFormat: "General + specific + practical (certification body)",
-    costRange: "$2,500–$5,000 per method (Level II)",
+    costRange: "a scoped, quoted figure per method (Level II)",
     validity: "5 years (10-year recertification by exam)",
     portability: "Fully portable internationally",
   },
@@ -108,7 +108,7 @@ const certSchemes = [
     scope: "UK-based, ISO 9712 compliant",
     recognition: "UK, Middle East, Australia, Southeast Asia",
     examFormat: "General + specific + practical at BINDT centres",
-    costRange: "£350–£600 per exam + training £1,500–£2,500",
+    costRange: "a scoped, quoted figure per exam + training a scoped, quoted figure",
     validity: "5 years (10-year recertification by exam)",
     portability: "Fully portable (ISO 9712 aligned)",
   },
@@ -117,7 +117,7 @@ const certSchemes = [
     scope: "Welding & inspection personnel",
     recognition: "UK, Middle East, offshore, global",
     examFormat: "Written + practical at TWI centres",
-    costRange: "£400–£700 exam + training £1,000–£3,000",
+    costRange: "a scoped, quoted figure exam + training a scoped, quoted figure",
     validity: "5 years (renewal by CPD evidence)",
     portability: "Fully portable",
   },
@@ -214,16 +214,16 @@ const methodCertDetails = [
 
 /* ─── Cost Breakdown Data ─── */
 const costBreakdown = [
-  { item: "Level I training course (single method)", cost: "$1,200–$2,500", notes: "40-hour classroom + practical, includes materials" },
-  { item: "Level II training course (single method)", cost: "$1,500–$3,000", notes: "Additional 40 hours, more advanced practical exercises" },
-  { item: "ASNT Level I/II exam materials (ASNT Questions & Answers book)", cost: "$100–$200", notes: "Per method; recommended for exam preparation" },
-  { item: "Employer-administered exam (SNT-TC-1A)", cost: "$0–$500", notes: "Many employers administer at no cost to the candidate" },
-  { item: "ISO 9712 / PCN certification exam fee", cost: "$350–$750", notes: "Per method, per level; paid to certification body" },
-  { item: "ASNT ACCP Level III Basic exam", cost: "$750", notes: "Prerequisite for all ACCP method exams" },
-  { item: "ASNT ACCP Level III Method exam", cost: "$500–$750", notes: "Per method; separate from Basic exam" },
-  { item: "Level III prep course", cost: "$1,500–$3,000", notes: "5-day intensive review course; highly recommended" },
-  { item: "Certification renewal (5-year, ISO 9712/ACCP)", cost: "$200–$500", notes: "Plus continuing education costs" },
-  { item: "Vision acuity test (annual)", cost: "$50–$150", notes: "Required annually by most schemes" },
+  { item: "Level I training course (single method)", cost: "a scoped, quoted figure", notes: "40-hour classroom + practical, includes materials" },
+  { item: "Level II training course (single method)", cost: "a scoped, quoted figure", notes: "Additional 40 hours, more advanced practical exercises" },
+  { item: "ASNT Level I/II exam materials (ASNT Questions & Answers book)", cost: "a scoped, quoted figure", notes: "Per method; recommended for exam preparation" },
+  { item: "Employer-administered exam (SNT-TC-1A)", cost: "a scoped, quoted figure", notes: "Many employers administer at no cost to the candidate" },
+  { item: "ISO 9712 / PCN certification exam fee", cost: "a scoped, quoted figure", notes: "Per method, per level; paid to certification body" },
+  { item: "ASNT ACCP Level III Basic exam", cost: "a scoped, quoted figure", notes: "Prerequisite for all ACCP method exams" },
+  { item: "ASNT ACCP Level III Method exam", cost: "a scoped, quoted figure", notes: "Per method; separate from Basic exam" },
+  { item: "Level III prep course", cost: "a scoped, quoted figure", notes: "5-day intensive review course; highly recommended" },
+  { item: "Certification renewal (5-year, ISO 9712/ACCP)", cost: "a scoped, quoted figure", notes: "Plus continuing education costs" },
+  { item: "Vision acuity test (annual)", cost: "a scoped, quoted figure", notes: "Required annually by most schemes" },
 ];
 
 /* ─── Global Recognition Data ─── */
@@ -337,7 +337,7 @@ export default function NDTCertificationGuide() {
         "@type": "Article",
         headline: "NDT Certification Guide 2026 | Complete Pathway from Level I to III",
         description:
-          "Complete NDT certification guide: ASNT SNT-TC-1A vs ISO 9712 vs PCN comparison, Level I/II/III requirements, exam costs ($200-$750), training hours, and career salary progression.",
+          "Complete NDT certification guide: ASNT SNT-TC-1A vs ISO 9712 vs PCN comparison, Level I/II/III requirements, exam costs (a significant cost item), training hours, and career salary progression.",
         author: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
         publisher: {
           "@type": "Organization",
@@ -384,7 +384,7 @@ export default function NDTCertificationGuide() {
               NDT Certification Guide 2026 | Complete Pathway from Level I to III
             </h1>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Everything you need to know about NDT certification: ASNT vs ISO 9712 vs PCN vs CSWIP comparison, Level I/II/III requirements, training hours, exam costs ($200-$750), and the career pathway from entry-level technician to Level III expert. Based on real industry data and current 2026 requirements.
+              Everything you need to know about NDT certification: ASNT vs ISO 9712 vs PCN vs CSWIP comparison, Level I/II/III requirements, training hours, exam costs (a significant cost item), and the career pathway from entry-level technician to Level III expert. Based on real industry data and current 2026 requirements.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -410,7 +410,7 @@ export default function NDTCertificationGuide() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { label: "Certification Schemes Compared", value: "5 Major" },
-              { label: "Exam Cost Range", value: "$200–$750" },
+              { label: "Exam Cost Range", value: "a scoped, quoted figure" },
               { label: "Level II Timeline", value: "12–24 Months" },
               { label: "Level III USA Salary", value: "$80K–$160K+" },
             ].map((s) => (
@@ -546,7 +546,7 @@ export default function NDTCertificationGuide() {
               NDT Certification Cost Breakdown
             </h2>
             <p className="text-slate-700 leading-relaxed mb-5">
-              NDT certification is an investment that pays for itself within 1-3 years through increased earning potential. The costs below cover the major expense categories. Many employers cover training and certification costs entirely — choosing an employer with a strong training program can save $5,000-$15,000 in out-of-pocket certification expenses.
+              NDT certification is an investment that pays for itself within 1-3 years through increased earning potential. The costs below cover the major expense categories. Many employers cover training and certification costs entirely — choosing an employer with a strong training program can save a substantial share of out-of-pocket certification expenses.
             </p>
             <div className="overflow-x-auto rounded-xl border border-slate-200 shadow">
               <table className="w-full text-sm">
@@ -571,17 +571,17 @@ export default function NDTCertificationGuide() {
             <div className="mt-5 grid sm:grid-cols-3 gap-4">
               <div className="bg-green-50 rounded-xl p-5 border border-green-200 text-center">
                 <DollarSign className="w-6 h-6 text-green-700 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-green-800">$1,500–$4,500</p>
+                <p className="text-2xl font-bold text-green-800">a scoped, quoted figure</p>
                 <p className="text-xs text-green-700 mt-1">Single method, Level I to Level II</p>
               </div>
               <div className="bg-blue-50 rounded-xl p-5 border border-blue-200 text-center">
                 <DollarSign className="w-6 h-6 text-[#004aad] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#004aad]">$8,000–affordable, accessible</p>
+                <p className="text-2xl font-bold text-[#004aad]">a scoped, quoted figureaffordable, accessible</p>
                 <p className="text-xs text-blue-700 mt-1">Multi-method Level II (UT+RT+MT+PT)</p>
               </div>
               <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 text-center">
                 <DollarSign className="w-6 h-6 text-amber-700 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-amber-800">$3,000–$6,000</p>
+                <p className="text-2xl font-bold text-amber-800">a scoped, quoted figure</p>
                 <p className="text-xs text-amber-700 mt-1">ASNT ACCP Level III (per method)</p>
               </div>
             </div>
@@ -812,8 +812,8 @@ export default function NDTCertificationGuide() {
               {[
                 { label: "Level II Training", value: "80 hrs/method" },
                 { label: "Level II Experience", value: "1,200+ hrs" },
-                { label: "Exam Fee (ISO 9712)", value: "$350–$750" },
-                { label: "ACCP Level III Fee", value: "$750/exam" },
+                { label: "Exam Fee (ISO 9712)", value: "a scoped, quoted figure" },
+                { label: "ACCP Level III Fee", value: "a scoped, quoted figure" },
                 { label: "Certification Validity", value: "5 years" },
                 { label: "Vision Requirement", value: "Jaeger J2" },
               ].map((item) => (

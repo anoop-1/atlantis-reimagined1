@@ -39,6 +39,7 @@ import { applyErpFaqs } from './erp-faq-2026-08-02.mjs';
 import { applyTrainingCityDepth } from './training-city-depth.mjs';
 import { applyConsolidation } from './consolidation-2026-08.mjs';
 import { applyMethodCityDepth, assertNoPricesInMethodCityDepth } from './method-city-depth.mjs';
+import { applyTrainingCityIntl, assertNoPricesInTrainingIntl } from './training-city-intl.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -674,5 +675,10 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // (method, city) page discusses the method against the industries that
     // actually exist there. The similarity gate remains the referee.
     methodCities: (assertNoPricesInMethodCityDepth(), applyMethodCityDepth(routes, append)),
+    // International training cities: the biggest training-city pages are not
+    // American (/ndt-training-dubai 1,435 impr is the largest in the family).
+    // Reuses the 40-market industrial map to compose training-specific advice —
+    // which methods the local work pulls, which scheme employers name.
+    trainingIntl: (assertNoPricesInTrainingIntl(), applyTrainingCityIntl(routes, append)),
   };
 }

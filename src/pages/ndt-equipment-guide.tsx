@@ -27,7 +27,7 @@ const utEquipment = [
     brand: "Olympus (Evident)",
     models: "OmniScan X3, OmniScan MX2, Epoch 650",
     type: "PAUT & Conventional UT",
-    priceRange: "$15,000 - $65,000",
+    priceRange: "Significant capital — quote from vendors",
     bestFor: "Weld inspection (PAUT), corrosion mapping, general UT",
     notes: "Market leader in PAUT. OmniScan X3 is the industry standard for advanced weld inspection. Epoch 650 is the standard conventional flaw detector.",
   },
@@ -35,7 +35,7 @@ const utEquipment = [
     brand: "Eddyfi Technologies",
     models: "Gekko, Mantis, M2M Gekko",
     type: "PAUT & TFM/FMC",
-    priceRange: "$25,000 - $80,000",
+    priceRange: "Significant capital — quote from vendors",
     bestFor: "Advanced PAUT, Total Focusing Method (TFM), research",
     notes: "Leading in advanced imaging technology (TFM/FMC). Gekko is popular for high-end weld inspection and R&D applications.",
   },
@@ -43,7 +43,7 @@ const utEquipment = [
     brand: "Baker Hughes (Waygate)",
     models: "Mentor UT, USM Go+, Phasor XS",
     type: "Conventional & PAUT",
-    priceRange: "$8,000 - $55,000",
+    priceRange: "Significant capital — quote from vendors",
     bestFor: "Thickness gauging, general flaw detection, industrial inspection",
     notes: "Strong presence in oil & gas. Mentor UT offers a robust field-ready platform. USM Go+ is a popular conventional flaw detector.",
   },
@@ -51,7 +51,7 @@ const utEquipment = [
     brand: "Sonatest",
     models: "Veo+, Prisma, D-series",
     type: "PAUT & Conventional",
-    priceRange: "$12,000 - $45,000",
+    priceRange: "Significant capital — quote from vendors",
     bestFor: "Cost-effective PAUT, training, general inspection",
     notes: "UK-based manufacturer. Competitive pricing. Veo+ is a capable mid-range PAUT instrument. Good for training facilities.",
   },
@@ -59,7 +59,7 @@ const utEquipment = [
     brand: "Proceq (Screening Eagle)",
     models: "Pundit series, UT instruments",
     type: "Concrete & Specialized UT",
-    priceRange: "$5,000 - $30,000",
+    priceRange: "Significant capital — quote from vendors",
     bestFor: "Concrete inspection, civil infrastructure, specialized applications",
     notes: "Specialized in concrete NDT. Pundit series uses ultrasonic pulse velocity for concrete quality assessment.",
   },
@@ -70,8 +70,8 @@ const rtComparison = [
   { factor: "Image Quality", film: "Excellent (reference standard)", cr: "Very Good", dr: "Excellent (high resolution panels)" },
   { factor: "Exposure Time", film: "Standard (minutes)", cr: "Standard (uses existing sources)", dr: "Reduced (higher sensitivity)" },
   { factor: "Processing Time", film: "15-30 min (wet darkroom)", cr: "2-5 min (phosphor plate scan)", dr: "Immediate (real-time)" },
-  { factor: "Per-Shot Cost", film: "$15-$50 (film + chemicals)", cr: "$0.50-$2 (plate reuse)", dr: "$0 (panel reuse)" },
-  { factor: "Initial Investment", film: "$5,000-$15,000", cr: "$30,000-$80,000", dr: "$80,000-$250,000" },
+  { factor: "Per-Shot Cost", film: "a scoped, quoted figure (film + chemicals)", cr: "a scoped, quoted figure (plate reuse)", dr: "a scoped, quoted figure (panel reuse)" },
+  { factor: "Initial Investment", film: "a scoped, quoted figure", cr: "a scoped, quoted figure", dr: "a scoped, quoted figure" },
   { factor: "Portability", film: "Excellent", cr: "Good (scanner needed)", dr: "Moderate (panels fragile)" },
   { factor: "Environmental Impact", film: "High (chemicals, silver waste)", cr: "Low", dr: "Very Low" },
   { factor: "Storage/Archival", film: "Physical film storage required", cr: "Digital files", dr: "Digital files" },
@@ -92,19 +92,19 @@ const equipByApplication = [
 
 /* ─── Budget Guide ─── */
 const budgetGuide = [
-  { category: "Visual Testing (VT)", basic: "$500 - $2,000", midRange: "$2,000 - $10,000", professional: "$10,000 - $50,000", includes: "Basic: magnifiers, lights, gauges. Mid: borescopes, video cameras. Pro: drone-based VT systems." },
-  { category: "Liquid Penetrant (PT)", basic: "$100 - $500", midRange: "$500 - $3,000", professional: "$3,000 - $15,000", includes: "Basic: spray kits. Mid: fluorescent kits + UV lamps. Pro: automated spray lines, test panels." },
-  { category: "Magnetic Particle (MT)", basic: "$500 - $3,000", midRange: "$3,000 - $15,000", professional: "$15,000 - $100,000+", includes: "Basic: AC yoke + dry powder. Mid: AC/DC yoke + wet fluorescent. Pro: bench units, coils, demagnetizers." },
-  { category: "Ultrasonic Testing (UT)", basic: "$3,000 - $10,000", midRange: "$10,000 - $40,000", professional: "$40,000 - $100,000+", includes: "Basic: thickness gauge. Mid: conventional flaw detector. Pro: PAUT/TOFD instrument + probes." },
-  { category: "Eddy Current (ET)", basic: "$5,000 - $15,000", midRange: "$15,000 - $40,000", professional: "$40,000 - $120,000+", includes: "Basic: single-frequency instrument. Mid: multi-frequency with recording. Pro: array probes, automated systems." },
-  { category: "Radiographic Testing (RT)", basic: "$5,000 - $20,000", midRange: "$30,000 - $80,000", professional: "$80,000 - $300,000+", includes: "Basic: film + source rental. Mid: CR system + IP plates. Pro: DR flat panel + X-ray generator." },
+  { category: "Visual Testing (VT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure", includes: "Basic: magnifiers, lights, gauges. Mid: borescopes, video cameras. Pro: drone-based VT systems." },
+  { category: "Liquid Penetrant (PT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure", includes: "Basic: spray kits. Mid: fluorescent kits + UV lamps. Pro: automated spray lines, test panels." },
+  { category: "Magnetic Particle (MT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: AC yoke + dry powder. Mid: AC/DC yoke + wet fluorescent. Pro: bench units, coils, demagnetizers." },
+  { category: "Ultrasonic Testing (UT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: thickness gauge. Mid: conventional flaw detector. Pro: PAUT/TOFD instrument + probes." },
+  { category: "Eddy Current (ET)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: single-frequency instrument. Mid: multi-frequency with recording. Pro: array probes, automated systems." },
+  { category: "Radiographic Testing (RT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: film + source rental. Mid: CR system + IP plates. Pro: DR flat panel + X-ray generator." },
 ];
 
 /* ─── FAQ ─── */
 const faqs = [
   {
     q: "What is the best NDT equipment for beginners?",
-    a: "For beginners entering the NDT field, start with equipment appropriate for your certification method. For UT, the Olympus Epoch 650 or Sonatest D-series are excellent conventional flaw detectors with intuitive interfaces. For MT, a good AC yoke (Magnaflux Y-6, Y-7, or Y-8) with wet fluorescent particles and a UV lamp is the standard field kit. For PT, a basic visible dye penetrant kit (Magnaflux Spotcheck) costs under $100 and is sufficient for training and basic work. The key principle is to master the fundamentals on basic equipment before investing in advanced instruments — a skilled operator with a basic instrument will outperform a novice with a $65,000 PAUT unit.",
+    a: "For beginners entering the NDT field, start with equipment appropriate for your certification method. For UT, the Olympus Epoch 650 or Sonatest D-series are excellent conventional flaw detectors with intuitive interfaces. For MT, a good AC yoke (Magnaflux Y-6, Y-7, or Y-8) with wet fluorescent particles and a UV lamp is the standard field kit. For PT, a basic visible dye penetrant kit (Magnaflux Spotcheck) costs under a scoped, quoted figure and is sufficient for training and basic work. The key principle is to master the fundamentals on basic equipment before investing in advanced instruments — a skilled operator with a basic instrument will outperform a novice with a a scoped, quoted figure PAUT unit.",
   },
   {
     q: "Is Olympus or Eddyfi better for PAUT?",
@@ -112,11 +112,11 @@ const faqs = [
   },
   {
     q: "How much does a PAUT system cost?",
-    a: "A complete PAUT system for weld inspection typically costs $30,000-$80,000 depending on the instrument and probe configuration. The instrument alone (e.g., Olympus OmniScan X3 64:128) costs $40,000-$65,000. Phased array probes cost $1,500-$5,000 each (you need multiple probes for different applications). Wedges and scanners add $500-$3,000 per setup. Software licenses for analysis (Olympus TomoView, Eddyfi Capture) add $5,000-$15,000. Total first-year investment for a single PAUT inspection capability: $50,000-$100,000 including training. Many NDT companies lease equipment or purchase certified pre-owned instruments to reduce initial investment.",
+    a: "A complete PAUT system for weld inspection typically costs vary with scope depending on the instrument and probe configuration. The instrument alone (e.g., Olympus OmniScan X3 64:128) costs vary with scope. Phased array probes costs vary with scope each (you need multiple probes for different applications). Wedges and scanners add a scoped, quoted figure per setup. Software licenses for analysis (Olympus TomoView, Eddyfi Capture) add a scoped, quoted figure. Total first-year investment for a single PAUT inspection capability: a scoped, quoted figure including training. Many NDT companies lease equipment or purchase certified pre-owned instruments to reduce initial investment.",
   },
   {
     q: "Should I buy film RT, computed radiography (CR), or digital radiography (DR)?",
-    a: "The choice depends on your inspection volume and budget. Film RT has the lowest initial investment ($5,000-$15,000 excluding source) but the highest per-shot cost ($15-$50 per exposure for film + chemicals + processing) and environmental concerns. Computed Radiography (CR) eliminates film and chemicals — phosphor imaging plates are reusable and produce digital images — with moderate initial investment ($30,000-$80,000) and very low per-shot cost. Digital Radiography (DR) provides immediate real-time images with the highest initial investment ($80,000-$250,000) but zero per-shot consumable cost. For high-volume operations (>50 exposures/day), DR has the lowest total cost of ownership. For moderate volume, CR offers the best balance. Film is only cost-effective for very low volume or where digital systems are not code-accepted.",
+    a: "The choice depends on your inspection volume and budget. Film RT has the lowest initial investment (a scoped, quoted figure excluding source) but the highest per-shot cost (a scoped, quoted figure per exposure for film + chemicals + processing) and environmental concerns. Computed Radiography (CR) eliminates film and chemicals — phosphor imaging plates are reusable and produce digital images — with moderate initial investment (a significant cost item) and very low per-shot cost. Digital Radiography (DR) provides immediate real-time images with the highest initial investment (a significant cost item) but zero per-shot consumable cost. For high-volume operations (>50 exposures/day), DR has the lowest total cost of ownership. For moderate volume, CR offers the best balance. Film is only cost-effective for very low volume or where digital systems are not code-accepted.",
   },
   {
     q: "What calibration equipment do I need?",
@@ -157,7 +157,7 @@ export default function NDTEquipmentGuide() {
         "@type": "Article",
         headline: "NDT Equipment Guide 2026 | Top Brands & Instrument Comparison",
         description:
-          "Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes comparison, PAUT system costs ($30K-$80K), film vs CR vs DR radiography, equipment by application, and budget guide for every NDT method.",
+          "Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes comparison, PAUT system costs (a significant cost item), film vs CR vs DR radiography, equipment by application, and budget guide for every NDT method.",
         author: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
         publisher: {
           "@type": "Organization",
@@ -187,7 +187,7 @@ export default function NDTEquipmentGuide() {
       <Navigation />
       <SEOHead
         title="NDT Equipment Guide 2026 | Top Brands & Instrument Comparison | Atlantis NDT"
-        description="Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes UT comparison, PAUT costs ($30K-$80K), film vs CR vs DR radiography, MT/PT/ET equipment."
+        description="Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes UT comparison, PAUT costs (a significant cost item), film vs CR vs DR radiography, MT/PT/ET equipment."
         keywords="ndt equipment guide, paut equipment, olympus omniscan, eddyfi gekko, ut flaw detector, ndt instrument comparison, ndt equipment cost, radiography equipment, mt equipment, pt equipment, eddy current instrument, ndt calibration equipment"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-equipment-guide"
@@ -238,7 +238,7 @@ export default function NDTEquipmentGuide() {
               NDT Equipment Market Overview
             </h2>
             <p className="text-lg text-slate-700 leading-relaxed mb-4">
-              The global NDT equipment market is valued at approximately $4.5 billion (2024) and is growing at 7-9% CAGR. The market is dominated by a handful of major manufacturers: <strong>Olympus/Evident</strong> (UT/PAUT leader), <strong>Baker Hughes/Waygate Technologies</strong> (RT/industrial CT), <strong>Eddyfi Technologies</strong> (advanced UT/ET), and <strong>Magnaflux</strong> (MT/PT consumables). Equipment costs range from under $100 for a basic PT kit to over $300,000 for a digital radiography system.
+              The global NDT equipment market is valued at approximately a scoped, quoted figure billion (2024) and is growing at 7-9% CAGR. The market is dominated by a handful of major manufacturers: <strong>Olympus/Evident</strong> (UT/PAUT leader), <strong>Baker Hughes/Waygate Technologies</strong> (RT/industrial CT), <strong>Eddyfi Technologies</strong> (advanced UT/ET), and <strong>Magnaflux</strong> (MT/PT consumables). Equipment costs range from under a scoped, quoted figure for a basic PT kit to over a scoped, quoted figure for a digital radiography system.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
               Key trends driving equipment innovation include: digital transformation (cloud connectivity, AI-assisted analysis), miniaturization (smaller, lighter field instruments), advanced imaging (TFM/FMC for UT, digital RT), automation (robotic scanners, drone-based inspection), and interoperability (standardized data formats, digital twin integration).
@@ -256,7 +256,7 @@ export default function NDTEquipmentGuide() {
               Ultrasonic Testing (UT) Equipment
             </h2>
             <p className="text-slate-700 leading-relaxed mb-5">
-              UT represents the largest segment of the NDT equipment market. Equipment ranges from simple thickness gauges ($3,000-$8,000) to advanced PAUT/TFM instruments ($40,000-$80,000). The choice of instrument depends on the application, required technique (conventional, PAUT, TOFD, TFM), and budget.
+              UT represents the largest segment of the NDT equipment market. Equipment ranges from simple thickness gauges (a significant cost item) to advanced PAUT/TFM instruments (a significant cost item). The choice of instrument depends on the application, required technique (conventional, PAUT, TOFD, TFM), and budget.
             </p>
             <div className="overflow-x-auto rounded-xl border border-slate-200 shadow">
               <table className="w-full text-sm">
@@ -338,7 +338,7 @@ export default function NDTEquipmentGuide() {
                   <h3 className="text-lg font-bold text-[#004aad]">Magnetic Particle Testing (MT) Equipment</h3>
                 </div>
                 <p className="text-slate-700 leading-relaxed mb-3 text-sm">
-                  MT equipment ranges from portable AC yokes (Magnaflux Y-6/Y-7/Y-8, Parker Research DA-200) for field use to stationary wet horizontal bench units for workshop inspection. Key accessories include UV-A lamps (for fluorescent MT), magnetic particles (dry powder or wet fluorescent), and field indicators (pie gauge, Ketos ring). AC yokes are the most common field equipment, costing $500-$3,000. Bench units for high-volume inspection cost $15,000-$100,000+.
+                  MT equipment ranges from portable AC yokes (Magnaflux Y-6/Y-7/Y-8, Parker Research DA-200) for field use to stationary wet horizontal bench units for workshop inspection. Key accessories include UV-A lamps (for fluorescent MT), magnetic particles (dry powder or wet fluorescent), and field indicators (pie gauge, Ketos ring). AC yokes are the most common field equipment, costing a scoped, quoted figure. Bench units for high-volume inspection costs vary with scope+.
                 </p>
                 <p className="text-sm text-slate-600"><strong>Key Brands:</strong> Magnaflux, Parker Research, Western Instruments, Helling</p>
               </div>
@@ -348,7 +348,7 @@ export default function NDTEquipmentGuide() {
                   <h3 className="text-lg font-bold text-[#004aad]">Liquid Penetrant Testing (PT) Equipment</h3>
                 </div>
                 <p className="text-slate-700 leading-relaxed mb-3 text-sm">
-                  PT equipment is the most affordable NDT method. Portable kits include penetrant, cleaner/remover, and developer in spray cans (Magnaflux Spotcheck, Sherwin-Williams) for $30-$100. Fluorescent penetrant systems (for higher sensitivity) require UV-A lamps and are used in aerospace and critical applications. Automated penetrant lines for production environments cost $50,000-$500,000+. PT materials are classified by ASTM E1417 and qualified per AMS 2644 for aerospace.
+                  PT equipment is the most affordable NDT method. Portable kits include penetrant, cleaner/remover, and developer in spray cans (Magnaflux Spotcheck, Sherwin-Williams) for a scoped, quoted figure. Fluorescent penetrant systems (for higher sensitivity) require UV-A lamps and are used in aerospace and critical applications. Automated penetrant lines for production environments costs vary with scope+. PT materials are classified by ASTM E1417 and qualified per AMS 2644 for aerospace.
                 </p>
                 <p className="text-sm text-slate-600"><strong>Key Brands:</strong> Magnaflux, Sherwin-Williams (Ardrox), Met-L-Chek, Helling</p>
               </div>
@@ -529,12 +529,12 @@ export default function NDTEquipmentGuide() {
             <h3 className="text-lg font-bold mb-3 text-green-800">Price Quick Reference</h3>
             <ul className="space-y-3 text-sm text-green-800">
               {[
-                { label: "UT Thickness Gauge", value: "$3K-$8K" },
-                { label: "PAUT System", value: "$30K-$80K" },
-                { label: "CR System", value: "$30K-$80K" },
-                { label: "DR Panel System", value: "$80K-$250K" },
-                { label: "ET Instrument", value: "$8K-$60K" },
-                { label: "MT Yoke (AC)", value: "$500-$3K" },
+                { label: "UT Thickness Gauge", value: "a scoped, quoted figure" },
+                { label: "PAUT System", value: "a scoped, quoted figure" },
+                { label: "CR System", value: "a scoped, quoted figure" },
+                { label: "DR Panel System", value: "a scoped, quoted figure" },
+                { label: "ET Instrument", value: "a scoped, quoted figure" },
+                { label: "MT Yoke (AC)", value: "a scoped, quoted figure" },
               ].map((item) => (
                 <li key={item.label} className="flex justify-between items-center border-b border-green-200 pb-2">
                   <span>{item.label}</span>

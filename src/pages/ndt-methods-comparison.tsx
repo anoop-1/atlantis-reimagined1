@@ -26,7 +26,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const comparisonTable = [
   { factor: "Detection Type", ut: "Volumetric (internal)", rt: "Volumetric (internal)", mt: "Surface / near-surface", pt: "Surface only", et: "Surface / near-surface", vt: "Surface only" },
   { factor: "Material Requirement", ut: "Most metals & composites", rt: "Most materials", mt: "Ferromagnetic only", pt: "All non-porous materials", et: "Conductive materials", vt: "Any material" },
-  { factor: "Typical Cost per Test", ut: "$150 - $500", rt: "$300 - $800", mt: "$80 - $250", pt: "$60 - $200", et: "$200 - $600", vt: "$50 - $150" },
+  { factor: "Typical Cost per Test", ut: "Varies by scope", rt: "Varies by scope", mt: "Varies by scope", pt: "Varies by scope", et: "Varies by scope", vt: "a scoped, quoted figure" },
   { factor: "Inspection Speed", ut: "Fast (real-time)", rt: "Slow (exposure + processing)", mt: "Fast", pt: "Moderate (dwell time)", et: "Very fast (automated)", vt: "Very fast" },
   { factor: "Accuracy / Sensitivity", ut: "High (sub-mm sizing)", rt: "Moderate to High", mt: "High for surface cracks", pt: "Moderate", et: "Very High", vt: "Low to Moderate" },
   { factor: "Safety Concerns", ut: "None", rt: "Radiation hazard", mt: "Electrical / magnetic", pt: "Chemical handling", et: "None", vt: "None" },
@@ -57,7 +57,7 @@ const methodCards = [
     strengths: ["Precise thickness measurement", "Excellent defect sizing", "No radiation hazard", "Portable field equipment", "Real-time results"],
     limitations: ["Requires couplant", "Operator-dependent", "Difficult on rough surfaces", "Limited on thin materials (<3mm)"],
     certHours: "40 hrs (Level I) / 80 hrs (Level II)",
-    avgCost: "$150 - $500 per inspection",
+    avgCost: "a scoped, quoted figure per inspection",
   },
   {
     name: "Radiographic Testing (RT)",
@@ -68,7 +68,7 @@ const methodCards = [
     strengths: ["Permanent film/digital record", "Good for complex geometries", "Less operator-dependent", "Detects porosity well", "Wide code acceptance"],
     limitations: ["Radiation safety required", "Area evacuation needed", "Slow (exposure + processing)", "Cannot size depth accurately", "Environmental concerns (film)"],
     certHours: "40 hrs (Level I) / 80 hrs (Level II)",
-    avgCost: "$300 - $800 per exposure",
+    avgCost: "a scoped, quoted figure per exposure",
   },
   {
     name: "Magnetic Particle Testing (MT)",
@@ -79,7 +79,7 @@ const methodCards = [
     strengths: ["Very sensitive to surface cracks", "Detects near-surface defects (~3mm)", "Fast application", "Low cost", "Immediate results"],
     limitations: ["Ferromagnetic materials only", "Requires magnetization", "Surface preparation needed", "Demagnetization may be required", "Cannot detect deep internal defects"],
     certHours: "16 hrs (Level I) / 40 hrs (Level II)",
-    avgCost: "$80 - $250 per inspection",
+    avgCost: "a scoped, quoted figure per inspection",
   },
   {
     name: "Liquid Penetrant Testing (PT)",
@@ -90,7 +90,7 @@ const methodCards = [
     strengths: ["Works on any non-porous material", "Simple process", "Low equipment cost", "Good for complex shapes", "Detects very fine surface cracks"],
     limitations: ["Surface-breaking defects only", "Surface must be clean and dry", "Dwell time required (10-30 min)", "Chemical handling required", "Temperature sensitive"],
     certHours: "16 hrs (Level I) / 24 hrs (Level II)",
-    avgCost: "$60 - $200 per inspection",
+    avgCost: "a scoped, quoted figure per inspection",
   },
   {
     name: "Eddy Current Testing (ET)",
@@ -101,7 +101,7 @@ const methodCards = [
     strengths: ["Very fast (automated)", "No couplant needed", "Detects surface and near-surface", "Excellent for tube inspection", "Sensitive to small cracks"],
     limitations: ["Conductive materials only", "Limited penetration depth", "Sensitive to lift-off", "Complex signal interpretation", "Reference standards needed"],
     certHours: "40 hrs (Level I) / 80 hrs (Level II)",
-    avgCost: "$200 - $600 per inspection",
+    avgCost: "a scoped, quoted figure per inspection",
   },
   {
     name: "Visual Testing (VT)",
@@ -112,7 +112,7 @@ const methodCards = [
     strengths: ["Simplest method", "Lowest cost", "No special equipment required", "Real-time assessment", "Mandatory first step per all codes"],
     limitations: ["Surface defects only", "Subjective interpretation", "Requires adequate lighting", "Cannot detect internal defects", "Limited sensitivity"],
     certHours: "16 hrs (Level I) / 24 hrs (Level II)",
-    avgCost: "$50 - $150 per inspection",
+    avgCost: "a scoped, quoted figure per inspection",
   },
 ];
 
@@ -133,12 +133,12 @@ const industryMatrix = [
 ];
 
 const costComparison = [
-  { method: "Visual Testing (VT)", equipCost: "$500 - $5,000", perTest: "$50 - $150", annual: "$10,000 - $30,000", training: "$500 - $1,500" },
-  { method: "Liquid Penetrant (PT)", equipCost: "$200 - $3,000", perTest: "$60 - $200", annual: "$15,000 - $40,000", training: "$800 - $2,000" },
-  { method: "Magnetic Particle (MT)", equipCost: "$2,000 - $15,000", perTest: "$80 - $250", annual: "$20,000 - $50,000", training: "$1,000 - $2,500" },
-  { method: "Ultrasonic Testing (UT)", equipCost: "$5,000 - $80,000", perTest: "$150 - $500", annual: "$40,000 - $100,000", training: "$2,000 - $5,000" },
-  { method: "Eddy Current (ET)", equipCost: "$8,000 - $60,000", perTest: "$200 - $600", annual: "$50,000 - $120,000", training: "$2,500 - $5,000" },
-  { method: "Radiographic Testing (RT)", equipCost: "$15,000 - $200,000", perTest: "$300 - $800", annual: "$60,000 - $150,000", training: "$3,000 - $6,000" },
+  { method: "Visual Testing (VT)", equipCost: "a scoped, quoted figure", perTest: "a scoped, quoted figure", annual: "a scoped, quoted figure", training: "a scoped, quoted figure" },
+  { method: "Liquid Penetrant (PT)", equipCost: "a scoped, quoted figure", perTest: "a scoped, quoted figure", annual: "a scoped, quoted figure", training: "a scoped, quoted figure" },
+  { method: "Magnetic Particle (MT)", equipCost: "a scoped, quoted figure", perTest: "a scoped, quoted figure", annual: "a scoped, quoted figure", training: "a scoped, quoted figure" },
+  { method: "Ultrasonic Testing (UT)", equipCost: "a scoped, quoted figure", perTest: "a scoped, quoted figure", annual: "a scoped, quoted figure", training: "a scoped, quoted figure" },
+  { method: "Eddy Current (ET)", equipCost: "a scoped, quoted figure", perTest: "a scoped, quoted figure", annual: "a scoped, quoted figure", training: "a scoped, quoted figure" },
+  { method: "Radiographic Testing (RT)", equipCost: "a scoped, quoted figure", perTest: "a scoped, quoted figure", annual: "a scoped, quoted figure", training: "a scoped, quoted figure" },
 ];
 
 const faqs = [
@@ -152,7 +152,7 @@ const faqs = [
   },
   {
     q: "What is the cheapest NDT method?",
-    a: "Visual Testing (VT) is the lowest-cost method, requiring minimal equipment — adequate lighting, magnification, and measurement tools. Liquid Penetrant Testing (PT) is the next most affordable surface method, with consumable costs typically under $50 per test. However, selecting an NDT method based solely on cost is inappropriate — the method must be capable of detecting the defects of concern. A cheap method that misses critical defects provides zero value. Method selection should be driven by the governing code, defect type, and technical capability.",
+    a: "Visual Testing (VT) is the lowest-cost method, requiring minimal equipment — adequate lighting, magnification, and measurement tools. Liquid Penetrant Testing (PT) is the next most affordable surface method, with consumable costs typically under a scoped, quoted figure per test. However, selecting an NDT method based solely on cost is inappropriate — the method must be capable of detecting the defects of concern. A cheap method that misses critical defects provides zero value. Method selection should be driven by the governing code, defect type, and technical capability.",
   },
   {
     q: "Which NDT method is best for weld inspection?",
@@ -284,7 +284,7 @@ export default function NDTMethodsComparison() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { label: "Primary NDT Methods", value: "6" },
-              { label: "Global NDT Market (2026)", value: "$18.2B" },
+              { label: "Global NDT Market (2026)", value: "a scoped, quoted figureB" },
               { label: "Avg. Cost Difference", value: "5-10x" },
               { label: "Factors Compared", value: "10+" },
             ].map((s) => (

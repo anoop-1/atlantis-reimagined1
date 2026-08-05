@@ -11,15 +11,15 @@ import { buildTechArticleSchema } from "@/data/author-schema";
 
 const faqs = [
     { question: "What is Ultrasonic Testing (UT)?", answer: "Ultrasonic Testing (UT) is an NDT method that uses high-frequency sound waves (typically 1-5 MHz) to detect internal and subsurface defects in materials. A transducer sends ultrasonic pulses through the material; defects (cracks, voids, laminations) reflect sound waves back to the transducer as echoes. Transit time between sending and receiving the echo indicates defect depth. UT detects internal defects up to 300mm+ deep, making it essential for weld inspection, thickness measurement, and fatigue crack detection in thick sections." },
-    { question: "What is the difference between conventional UT and Phased Array UT (PAUT)?", answer: "Conventional UT uses a single transducer that sends one beam at a time. Phased Array UT (PAUT) uses 32-256 elements in an array that fire in precise time sequences, steering and focusing the beam without moving the probe. PAUT advantages: faster scanning (covers large areas in seconds vs minutes), better defect characterization (multiple angles simultaneously), superior small flaw detection, and reduced operator dependency. PAUT disadvantages: higher equipment cost ($40,000-$100,000+) and requires specialized training. Both detect identical defect types but PAUT offers 3-5x faster coverage and better defect sizing." },
+    { question: "What is the difference between conventional UT and Phased Array UT (PAUT)?", answer: "Conventional UT uses a single transducer that sends one beam at a time. Phased Array UT (PAUT) uses 32-256 elements in an array that fire in precise time sequences, steering and focusing the beam without moving the probe. PAUT advantages: faster scanning (covers large areas in seconds vs minutes), better defect characterization (multiple angles simultaneously), superior small flaw detection, and reduced operator dependency. PAUT disadvantages: higher equipment cost (a substantial capital investment) and requires specialized training. Both detect identical defect types but PAUT offers 3-5x faster coverage and better defect sizing." },
     { question: "What is TOFD (Time-of-Flight Diffraction)?", answer: "TOFD is an advanced UT technique using diffraction from defect edges rather than reflection from defect faces. Two angled transducers bracket a weld; sound diffracts off flaw edges, providing extremely accurate depth sizing. Advantages: superior depth accuracy (±0.5mm on 25mm thickness), detects very tight cracks, and provides quantitative defect characterization. Disadvantages: slower than PAUT (requires careful positioning), complex interpretation, and limited to weld inspection. TOFD is preferred when high-accuracy defect sizing is critical; PAUT is preferred for speed and general defect detection." },
     { question: "How does ultrasonic wall thickness measurement work?", answer: "Pulse-echo UT directly measures remaining material thickness by calculating distance based on echo return time: Thickness = (Sound Velocity × Time) / 2. The transducer sends a pulse that reflects from the back surface; the return time indicates material thickness. This works through coatings/paint, does not require surface prep, and is non-destructive. Accuracy is ±0.1-0.5mm depending on surface roughness and material. Used extensively for pipeline corrosion assessment, storage tank floor scanning, heat exchanger tubing, and pressure vessel inspections where thickness degradation indicates remaining safe operating life." },
     { question: "What materials can be inspected with ultrasonic testing?", answer: "UT requires sound-conducting materials with consistent sound velocity. Works excellently on: ferrous metals (steel, cast iron), non-ferrous metals (aluminum, titanium, copper), stainless steel, and composites (if properly set up). Does NOT work well on: polymers (sound scatters), rubbers, composites with high fiber-matrix disbonds. UT is less effective (but possible) on coarse-grained materials (large castings) and austenitic stainless steel (high sound attenuation due to grain size). Material sound velocity varies: steel ~5,850 m/s, aluminum ~6,400 m/s, titanium ~6,100 m/s. Technician must account for these differences when interpreting echo timing." },
     { question: "What weld defects can UT detect?", answer: "UT detects internal weld defects: porosity (gas pores), lack of fusion (incomplete melting between passes), lack of penetration (incomplete fusion at root), inclusions (slag, oxide), tungsten (in GTAW welds), and cracks (including hydrogen-induced delayed cracking). UT is limited for surface-breaking defects—Penetrant or Magnetic Particle testing is better for stress relief cracking and lamellar tears that break the surface. UT is the primary standard for structural steel weld inspection (bridges, buildings, pressure vessels) and pipeline girth weld inspection. Acceptance criteria come from ASME Section V, AWS D1.1, and API 650/1104 depending on application." },
     { question: "How often should pipelines be UT thickness-scanned?", answer: "UT thickness scanning frequency depends on corrosion rate and service. Most operators scan critical sections every 3-5 years; risk-based inspection (RBI) can extend intervals to 7-10 years for low-corrosion services or reduce to 1-2 years for high-corrosion seawater/H2S exposure. Scan spacing: typically 25-50mm intervals perpendicular to flow direction, with circumferential scans at 4-6 inch heights. API 579 (fitness-for-service) provides framework for determining inspection intervals based on historical thickness loss rate. A pipeline showing 0.5mm/year corrosion rate requires scanning every 2-3 years if remaining thickness is 5mm and minimum allowable is 2mm." },
-    { question: "What is the difference between UT and Radiography (RT)?", answer: "Both UT and RT detect internal defects but use different physics. UT uses sound waves, RT uses electromagnetic radiation (X-rays, gamma). UT advantages: no radiation hazard, faster (no film development), better crack detection (especially tight cracks), through-transmission works on thick sections. RT advantages: detects density variations (porosity patterns), provides permanent radiographic image record, better for planar defects parallel to beam. Cost: UT ~$60-100/hour; RT ~$150-300/hour (includes radiation safety). For weld inspection, UT is typically primary method; RT confirms critical findings. For casting inspection, both are often used together. Modern digital radiography (DRT) is faster than film RT but UT still offers superior portability and defect sensitivity." },
+    { question: "What is the difference between UT and Radiography (RT)?", answer: "Both UT and RT detect internal defects but use different physics. UT uses sound waves, RT uses electromagnetic radiation (X-rays, gamma). UT advantages: no radiation hazard, faster (no film development), better crack detection (especially tight cracks), through-transmission works on thick sections. RT advantages: detects density variations (porosity patterns), provides permanent radiographic image record, better for planar defects parallel to beam. Cost: UT bills materially below RT per crew-hour; RT carries source-handling overhead (includes radiation safety). For weld inspection, UT is typically primary method; RT confirms critical findings. For casting inspection, both are often used together. Modern digital radiography (DRT) is faster than film RT but UT still offers superior portability and defect sensitivity." },
     { question: "What are UT coupling agents and how do they affect inspection?", answer: "Coupling agents (couplants) enable acoustic energy transfer between transducer and material surface, since sound doesn't transmit through air gaps. Common couplants: water (0-50°C), glycerin/gel (50-200°C), honey/molasses (200-400°C), and specialized high-temp couplants (>400°C). Selection affects results: water couplant is cheapest but evaporates in sun; gel couplant is most common for field work (sticks to vertical surfaces); high-temp couplants are mandatory for hot piping. Poor coupling reduces echo amplitude by 50-90%, causing missed defects. Technicians must maintain proper coupling and validate before inspection begins. Surface roughness >0.8 microns requires smoothing or extra couplant application." },
-    { question: "What training and certifications are needed for UT?", answer: "ASNT Level II UT certification requires: 120-160 hours formal training + 1,000-1,500 field hours + passing written/practical/oral exams. SNT-TC-1A pathway typically takes 3-5 years of active work. Cost: $2,500-$5,000 for training + $300-$600 exam fees. Specialized certifications include: ASME Section V (welds), API RP 578 (pipelines), AWS D1.1 (structural welding). Advanced techniques: PAUT Level II requires additional 100+ hours training; TOFD requires specialized training. Level III certification for UT requires 3+ years Level II experience + advanced exam. Aerospace qualifications (Boeing, Airbus) layer on top of ASNT, requiring type certifications and recertification every 12-24 months. UT Level III + PAUT + API 510 certification typically commands $120,000-$180,000/year salary." }
+    { question: "What training and certifications are needed for UT?", answer: "ASNT Level II UT certification requires: 120-160 hours formal training + 1,000-1,500 field hours + passing written/practical/oral exams. SNT-TC-1A pathway typically takes 3-5 years of active work. Cost: scoped and quoted for training + a scoped, quoted figure exam fees. Specialized certifications include: ASME Section V (welds), API RP 578 (pipelines), AWS D1.1 (structural welding). Advanced techniques: PAUT Level II requires additional 100+ hours training; TOFD requires specialized training. Level III certification for UT requires 3+ years Level II experience + advanced exam. Aerospace qualifications (Boeing, Airbus) layer on top of ASNT, requiring type certifications and recertification every 12-24 months. UT Level III + PAUT + API 510 certification typically commands a scoped, quoted figure salary." }
 ];
 
 const utMethods = [
@@ -58,21 +58,21 @@ const utVsRt = [
     { criterion: "Depth Accuracy", ut: "Very good (±0.5-1mm on 25mm)", rt: "Fair (±2-5mm, cannot determine depth)" },
     { criterion: "Speed", ut: "Fast (large areas in minutes)", rt: "Slow (film processing, positioning)" },
     { criterion: "Safety", ut: "No hazard", rt: "Radiation hazard, licensing required" },
-    { criterion: "Cost/Hour", ut: "$60-$100/hr", rt: "$150-$300/hr" },
+    { criterion: "Cost/Hour", ut: "a scoped, quoted figure", rt: "a scoped, quoted figure" },
     { criterion: "Tight Cracks", ut: "Superior detection", rt: "Poor detection (tight cracks pass through)" },
     { criterion: "Material Thickness Limits", ut: "Excellent (0.5-300mm)", rt: "Limited (requires equal access both sides)" },
     { criterion: "Permanent Record", ut: "Digital waveforms (searchable)", rt: "Film/digital image (visual interpretation)" }
 ];
 
 const costGuide = [
-    { item: "Conventional UT System (A-scan)", cost: "$8,000-$20,000" },
-    { item: "Phased Array UT System (PAUT)", cost: "$35,000-$100,000" },
-    { item: "Automated Tank Floor Scanner (AUT)", cost: "$80,000-$150,000" },
-    { item: "TOFD Equipment Package", cost: "$25,000-$50,000" },
-    { item: "Inspection Labor (Level II technician)", cost: "$60-$100/hour" },
-    { item: "Transducer Replacement", cost: "$500-$2,000 each" },
-    { item: "Calibration Blocks", cost: "$500-$3,000" },
-    { item: "Training (ASNT Level II UT)", cost: "$2,500-$5,000" }
+    { item: "Conventional UT System (A-scan)", cost: "a scoped, quoted figure" },
+    { item: "Phased Array UT System (PAUT)", cost: "a scoped, quoted figure" },
+    { item: "Automated Tank Floor Scanner (AUT)", cost: "a scoped, quoted figure" },
+    { item: "TOFD Equipment Package", cost: "a scoped, quoted figure" },
+    { item: "Inspection Labor (Level II technician)", cost: "a scoped, quoted figure" },
+    { item: "Transducer Replacement", cost: "a scoped, quoted figure each" },
+    { item: "Calibration Blocks", cost: "a scoped, quoted figure" },
+    { item: "Training (ASNT Level II UT)", cost: "a scoped, quoted figure" }
 ];
 
 export default function UltrasonicTestingUltimateGuide() {
@@ -258,7 +258,7 @@ export default function UltrasonicTestingUltimateGuide() {
                         <h3 className="text-2xl font-bold mb-4">Phased Array UT (PAUT)</h3>
                         <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
                             <p className="text-slate-700 mb-3">Revolutionary advancement. An array of 32-256 transducer elements fires in precise time sequences, electronically steering and focusing the beam without moving the probe. Simultaneously inspects at multiple angles (typically 35-70° in 5-10° increments) while maintaining single probe contact position.</p>
-                            <p className="text-slate-700 mb-3">Advantages: 5-10x faster than conventional (covers large welds in seconds), superior small flaw detection, multi-angle data enables better defect characterization, reduced operator dependency. Disadvantages: higher cost ($50,000-$100,000 equipment), requires specialized training, more complex interpretation.</p>
+                            <p className="text-slate-700 mb-3">Advantages: 5-10x faster than conventional (covers large welds in seconds), superior small flaw detection, multi-angle data enables better defect characterization, reduced operator dependency. Disadvantages: higher cost (a scoped, quoted figure equipment), requires specialized training, more complex interpretation.</p>
                             <p className="text-slate-700">Applications: Pipeline girth welds (gold standard), pressure vessel inspections, structural welds. Industry adoption: PAUT is now standard in oil & gas; API 1104 requires PAUT for critical pipelines.</p>
                         </div>
 
@@ -266,13 +266,13 @@ export default function UltrasonicTestingUltimateGuide() {
                         <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
                             <p className="text-slate-700 mb-3">Advanced technique using diffraction physics. Two angled transducers bracket a weld (one sends, one receives). Sound diffracts off defect edges rather than reflects from faces. The diffraction arrival time indicates defect depth with exceptional accuracy (±0.5mm on 25mm thickness).</p>
                             <p className="text-slate-700 mb-3">Advantages: Superior depth accuracy, detects very tight cracks ({'<'}0.1mm), provides quantitative defect sizing, less affected by defect orientation. Disadvantages: slower (requires careful transducer positioning), complex interpretation, limited to weld inspection.</p>
-                            <p className="text-slate-700">Applications: Critical welds where high-accuracy defect sizing is mandatory (aerospace, pressure vessels, nuclear). Cost: $25,000-$50,000 equipment + specialized operator training (6-12 months).</p>
+                            <p className="text-slate-700">Applications: Critical welds where high-accuracy defect sizing is mandatory (aerospace, pressure vessels, nuclear). Cost: scoped and quoted equipment + specialized operator training (6-12 months).</p>
                         </div>
 
                         <h3 className="text-2xl font-bold mb-4">Automated Ultrasonic Testing (AUT)</h3>
                         <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
                             <p className="text-slate-700 mb-3">Robotic scanning systems that automatically position transducers and scan large areas. Bobbin coil probes scan tube internals; multi-probe arrays scan pipe walls and tank floors. Produces 3D datasets (C-scans) showing defect location and depth in graphical format.</p>
-                            <p className="text-slate-700 mb-3">Advantages: Consistent results (eliminates operator variability), extremely fast (scans 100+ linear meters/hour), produces permanent digital records, excellent for production screening. Disadvantages: high capital cost ($80,000-$200,000), requires setup/qualification, less flexibility than manual scanning.</p>
+                            <p className="text-slate-700 mb-3">Advantages: Consistent results (eliminates operator variability), extremely fast (scans 100+ linear meters/hour), produces permanent digital records, excellent for production screening. Disadvantages: high capital cost (a significant cost item), requires setup/qualification, less flexibility than manual scanning.</p>
                             <p className="text-slate-700">Applications: Storage tank floor scanning (detects corrosion loss), steam generator tube inspection, pipeline wall inspection, production quality control.</p>
                         </div>
 
@@ -462,7 +462,7 @@ export default function UltrasonicTestingUltimateGuide() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">UT Equipment and Cost Analysis</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            UT equipment ranges from simple handheld thickness gauges ($1,000-$3,000) to sophisticated phased array systems ($50,000-$100,000+). Equipment selection depends on application complexity and required defect detection sensitivity.
+                            UT equipment ranges from simple handheld thickness gauges (a significant cost item) to sophisticated phased array systems (a scoped, quoted figure+). Equipment selection depends on application complexity and required defect detection sensitivity.
                         </p>
                         <div className="overflow-x-auto mb-8">
                             <table className="w-full bg-white rounded-lg shadow-sm">
@@ -497,7 +497,7 @@ export default function UltrasonicTestingUltimateGuide() {
                                 <h4 className="font-bold text-lg mb-2">Training Requirements</h4>
                                 <ul className="space-y-2 text-slate-700">
                                     <li>120-160 hours formal instruction covering: UT physics, instrument operation, transducer types, coupling, standards, weld defect interpretation</li>
-                                    <li>Cost: $2,500-$5,000 depending on provider</li>
+                                    <li>Cost: scoped and quoted depending on provider</li>
                                 </ul>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
@@ -514,7 +514,7 @@ export default function UltrasonicTestingUltimateGuide() {
                                     <li>Written exam (120 minutes, 100 questions) on UT theory and standards</li>
                                     <li>Practical exam with unknown defects - must detect and size flaws</li>
                                     <li>Oral exam by ASNT certified examiner</li>
-                                    <li>Cost: $300-$600 exam fees</li>
+                                    <li>Cost: scoped and quoted exam fees</li>
                                 </ul>
                             </div>
                         </div>
@@ -524,12 +524,12 @@ export default function UltrasonicTestingUltimateGuide() {
                             <div className="bg-white p-4 rounded-lg shadow-sm">
                                 <h4 className="font-bold mb-2">PAUT Certification</h4>
                                 <p className="text-slate-600 text-sm mb-3">Advanced training in phased array equipment, multi-angle beam steering, sector scanning.</p>
-                                <p className="text-sm"><strong>Time:</strong> 100+ hours | <strong>Cost:</strong> $3,000-$6,000 | <strong>Salary impact:</strong> +40-70% premium</p>
+                                <p className="text-sm"><strong>Time:</strong> 100+ hours | <strong>Cost:</strong> a scoped, quoted figure | <strong>Salary impact:</strong> +40-70% premium</p>
                             </div>
                             <div className="bg-white p-4 rounded-lg shadow-sm">
                                 <h4 className="font-bold mb-2">TOFD Certification</h4>
                                 <p className="text-slate-600 text-sm mb-3">Diffraction physics, high-accuracy depth sizing, tight crack detection.</p>
-                                <p className="text-sm"><strong>Time:</strong> 150+ hours | <strong>Cost:</strong> $4,000-$7,000 | <strong>Salary impact:</strong> +35-55% premium</p>
+                                <p className="text-sm"><strong>Time:</strong> 150+ hours | <strong>Cost:</strong> a scoped, quoted figure | <strong>Salary impact:</strong> +35-55% premium</p>
                             </div>
                         </div>
                     </section>
