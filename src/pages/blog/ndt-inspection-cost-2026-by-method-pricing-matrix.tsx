@@ -9,42 +9,38 @@ import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const faqs = [
-    { question: "How are NDT day rates structured for field crews?", answer: "Field NDT crews in the USA bill at three pricing models. Day rate: Level II technician with truck and standard equipment $850-$1,450/day; senior Level II or Level III $1,250-$1,950/day; helper or assistant $450-$650/day; full crew (1 L2 + 1 helper + truck + equipment package) $1,650-$2,400/day baseline plus mobilization. PAUT specialist crew (1 PAUT-certified L2 + helper + equipment) $2,800-$4,400/day. Piece-rate: charged per inspection unit (per film, per joint, per square meter) — better for predictable scopes. Unit-rate: hybrid model with minimum day rate plus per-unit billing once a threshold is hit. Overtime premiums: 1.5x for hours 9-12, 2.0x for hours 13+, 2.0x weekends, 2.5-3.0x holidays. Night-shift premium 20-35%. Hot-work or confined-space premium 15-25%. Offshore day rates carry 60-110% uplift over onshore. Turnaround mobilization at refineries with strict gate procedures and badge cycles adds 1-2 hours unbillable per day, baked into elevated turnaround rates." },
+    { question: "How are NDT day rates structured for field crews?", answer: "Field NDT crews bill under three models. Day rate: a crew (technician, helper, truck, equipment package) is priced per day, with the rate rising with certification level and equipment carried — a PAUT specialist crew costs materially more per day than a conventional UT crew. Piece rate: charged per inspection unit (per film, per joint, per square metre) — better for predictable scopes. Unit rate: a hybrid with a minimum day charge plus per-unit billing once a threshold is hit. The premiums are where budgets slip: overtime typically bills around 1.5x for extended hours and 2x beyond that and at weekends, holidays higher still; night shift, hot-work and confined-space each add their own percentage; offshore day rates commonly carry a large uplift over onshore; and refinery turnarounds with strict gate procedures bake unbillable badge-cycle time into elevated rates. Ask any bidder to state their premium structure in writing — that, more than the headline day rate, decides what you actually pay." },
     { question: "How should I structure an RFP for NDT inspection services?", answer: "A well-structured NDT RFP reduces quoted prices by 15-30% by eliminating contractor risk premiums. Required elements: (1) Asset scope — exact equipment list with dimensions, materials, design pressure/temperature, photos. (2) Inspection scope — methods required by specification (UT, PAUT, MT, PT, RT), applicable code (ASME V, API 510, EN 17640), acceptance criteria. (3) Volume estimate — number of welds, square meters of vessel surface, number of components, with tolerance band. (4) Schedule — start date, daily window, total duration, weekend/night work flag. (5) Site conditions — access (scaffolded? rope? insulated?), hot work permits, confined-space, radiation considerations, security clearance time. (6) Deliverables — report format (client template? PDF? digital data export?), turnaround time, retention. (7) Certifications required — ASNT Level II/III with specific method, PCN, EN ISO 9712, client-specific qualification. (8) Pricing model — day rate vs piece-rate vs lump sum with line items. (9) Mobilization and demob — separately quoted. (10) Insurance, safety stats (TRIR, EMR), references. Vague RFPs invite contingency loading; specific RFPs invite competitive pricing." },
     { question: "What cheap NDT pitfalls should buyers avoid?", answer: "Low-bid NDT pitfalls that destroy total cost of ownership: (1) Uncalibrated or expired equipment — calibration certificates must be within 12 months for UT/PAUT instruments and within validity for reference blocks. Demand certificates with each crew. (2) Expired radiographic film — film loses sensitivity past expiration, producing under-density images that hide defects. Verify film batch numbers and expiry. (3) Couplant contamination — recycled or contaminated couplant alters UT amplitude readings; ensure fresh sealed containers. (4) Unverified technician certifications — request copy of ASNT/PCN/EN certificates, verify on issuing body's database. (5) No second-party review — single-technician interpretation has reported error rates of 8-22%; require independent Level III sign-off on interpretation. (6) Missing procedure qualification — written procedure must be reviewed and approved by client Level III or AI before fieldwork; absent procedures mean re-shoots later. (7) Bottom-of-market bidder with no QA program — fewer than 1 in 10 cheapest bidders maintain documented procedures, calibration records, and personnel qualification logs. (8) No POD (Probability of Detection) data for PAUT — vendors who can't show validation studies for their PAUT setup are guessing. True cost of cheap NDT is re-inspection, missed defects causing failures, and warranty repair work — typically 3-8x the original inspection saving." }
 ];
 
 const methodPricingMatrix = [
-    { method: "Ultrasonic Thickness (UT)", unit: "$/m² grid scan", low: "$0.40", high: "$0.75", notes: "Standard 100x100mm grid; dense grid 1.5-2x" },
-    { method: "Phased Array (PAUT)", unit: "$/hour crew", low: "$250", high: "$450", notes: "Manual scan with encoder; AUT higher" },
-    { method: "PAUT per Weld", unit: "$/joint (6\" pipe)", low: "$185", high: "$295", notes: "Scales 1.6x at 12\", 2.4x at 24\"" },
-    { method: "RT-Film Conventional", unit: "$/14x17 film", low: "$35", high: "$55", notes: "Includes source, dev, interpret" },
-    { method: "RT-Digital (DR)", unit: "$/exposure", low: "$45", high: "$75", notes: "Faster; zero chemistry waste" },
-    { method: "RT-Computed (CR)", unit: "$/exposure", low: "$32", high: "$48", notes: "Imaging plates, no wet processing" },
-    { method: "Magnetic Particle (MT)", unit: "$/hour crew", low: "$95", high: "$165", notes: "Wet fluorescent adds 10-15%" },
-    { method: "Liquid Penetrant (PT)", unit: "$/hour crew", low: "$85", high: "$145", notes: "Plus consumables $90-140/kit" },
-    { method: "Visual Testing (VT)", unit: "$/hour inspector", low: "$75", high: "$125", notes: "ASNT VT Level II; CWI premium" },
-    { method: "TOFD", unit: "$/joint (6\" pipe)", low: "$135", high: "$210", notes: "Often paired with PAUT" },
-    { method: "PAUT + TOFD Hybrid", unit: "$/joint (6\" pipe)", low: "$240", high: "$385", notes: "Standard for high-pressure pipe" },
-    { method: "Eddy Current (ET)", unit: "$/hour crew", low: "$140", high: "$240", notes: "Tube inspection higher" },
-    { method: "MFL (Magnetic Flux Leakage)", unit: "$/m of pipeline", low: "$8", high: "$22", notes: "In-line tool; tank floor $15-35/m²" },
-    { method: "Acoustic Emission (AE)", unit: "$/vessel day", low: "$2,800", high: "$5,500", notes: "Sensor array + analyst" },
-    { method: "Guided Wave UT (LRUT)", unit: "$/test location", low: "$650", high: "$1,200", notes: "30-50m range per location" }
+    { method: "Ultrasonic Thickness (UT)", unit: "per m² of grid", low: "Grid density", high: "Access + surface prep", notes: "Standard 100x100mm grid; dense grids multiply effort 1.5-2x" },
+    { method: "Phased Array (PAUT)", unit: "per crew-hour", low: "Setup + scan plan", high: "Encoder + data review", notes: "Manual encoded scan; automated (AUT) sits higher" },
+    { method: "PAUT per Weld", unit: "per joint", low: "Pipe diameter", high: "Bevel geometry", notes: "Effort scales roughly 1.6x at 12 inch, 2.4x at 24 inch vs 6 inch" },
+    { method: "RT-Film Conventional", unit: "per film", low: "Source + chemistry", high: "Exclusion-zone control", notes: "Includes source handling, development, interpretation" },
+    { method: "RT-Digital (DR)", unit: "per exposure", low: "Detector time", high: "Panel capital recovery", notes: "Faster; zero chemistry waste" },
+    { method: "RT-Computed (CR)", unit: "per exposure", low: "Plate handling", high: "Scanner throughput", notes: "Imaging plates, no wet processing" },
+    { method: "Magnetic Particle (MT)", unit: "per crew-hour", low: "Surface prep", high: "Two-direction coverage", notes: "Wet fluorescent adds a modest premium" },
+    { method: "Liquid Penetrant (PT)", unit: "per crew-hour", low: "Dwell discipline", high: "Consumables", notes: "Consumable kits are a real per-job line" },
+    { method: "Visual Testing (VT)", unit: "per inspector-hour", low: "Access", high: "Documentation depth", notes: "ASNT VT Level II; CWI carries a premium" },
+    { method: "TOFD", unit: "per joint", low: "Setup", high: "Analysis time", notes: "Often paired with PAUT" },
+    { method: "PAUT + TOFD Hybrid", unit: "per joint", low: "Dual setup", high: "Combined analysis", notes: "Standard for high-pressure pipe" },
+    { method: "Eddy Current (ET)", unit: "per crew-hour", low: "Probe + reference std", high: "Tube count", notes: "Heat-exchanger tube campaigns priced by bundle" },
+    { method: "MFL (Magnetic Flux Leakage)", unit: "per metre / per m²", low: "Tool mobilisation", high: "UT verification digs", notes: "Screening rate is low; verification is where budget goes" },
+    { method: "Acoustic Emission (AE)", unit: "per vessel-day", low: "Sensor array size", high: "Analyst interpretation", notes: "Specialist analyst drives the rate" },
+    { method: "Guided Wave UT (LRUT)", unit: "per test location", low: "Ring set-up", high: "Coverage per location", notes: "Tens of metres of screening range per location" }
 ];
 
 const geographyModifiers = [
-    { region: "USA", baseline: "1.00x", labor: "$45-85/hr L2", market: "Mature ASNT market, oil&gas concentrated Gulf Coast" },
-    { region: "Canada", baseline: "0.95-1.10x", labor: "CAD $55-95/hr L2", market: "CGSB or ASNT; oil sands premium 1.15x" },
-    { region: "UK", baseline: "1.05-1.20x", labor: "£35-70/hr L2", market: "PCN certification; Aberdeen offshore premium" },
-    { region: "Western EU", baseline: "1.10-1.30x", labor: "€45-90/hr L2", market: "EN ISO 9712; strong unions, high social charges" },
-    { region: "Saudi Arabia", baseline: "0.85-1.00x", labor: "SAR 130-280/hr L2", market: "Aramco-approved vendor pool; expat premium" },
-    { region: "UAE", baseline: "0.90-1.05x", labor: "AED 140-300/hr L2", market: "More vendor competition than KSA" },
-    { region: "Qatar/Kuwait/Oman", baseline: "0.90-1.10x", labor: "Similar to KSA", market: "QP/KOC/PDO approval pools control access" },
-    { region: "India", baseline: "0.25-0.40x", labor: "₹450-1,200/hr L2", market: "ISO 9712-trained; major outsourcing hub" },
-    { region: "SE Asia", baseline: "0.30-0.45x", labor: "Varies by country", market: "MY/TH/VN; Singapore at 0.75-0.95x" },
-    { region: "China", baseline: "0.35-0.55x", labor: "Varies by tier city", market: "Variable QA; export-quality vendors at 0.6-0.8x" },
-    { region: "Australia", baseline: "1.15-1.35x", labor: "AUD $75-140/hr L2", market: "AINDT certification; mining and offshore" },
-    { region: "Brazil/LATAM", baseline: "0.45-0.70x", labor: "Varies", market: "ABENDI cert in Brazil; Petrobras approved" }
+    { region: "USA", baseline: "1.00x", labor: "Reference market", market: "Mature ASNT market, oil & gas concentrated Gulf Coast" },
+    { region: "Canada", baseline: "0.95-1.10x", labor: "Comparable to USA", market: "CGSB or ASNT; oil sands premium ~1.15x" },
+    { region: "UK / North Sea", baseline: "1.10-1.30x", labor: "Above USA", market: "PCN/CSWIP; offshore certification stack" },
+    { region: "Middle East (GCC)", baseline: "0.75-0.95x", labor: "Below USA", market: "Aramco/ADNOC approval gates; mobilisation dominates" },
+    { region: "India", baseline: "0.30-0.50x", labor: "Well below USA", market: "Deep ASNT/ISNT talent pool; export fabrication hub" },
+    { region: "Southeast Asia", baseline: "0.40-0.65x", labor: "Well below USA", market: "Singapore premium over the region" },
+    { region: "Australia", baseline: "1.15-1.35x", labor: "Above USA", market: "AINDT certification; mining and offshore" },
+    { region: "Europe (EU)", baseline: "1.05-1.25x", labor: "Above USA", market: "EN/ISO 9712; notified-body involvement" }
 ];
 
 const pricingModels = [
@@ -56,28 +52,28 @@ const pricingModels = [
 ];
 
 const crewCompositions = [
-    { crew: "1 Level II + Truck + Standard Kit", dayCost: "$1,650-$2,400", scope: "Conventional UT thickness, MT, PT, VT — single inspector tasks" },
-    { crew: "1 Level II + 1 Helper + Truck + Kit", dayCost: "$2,100-$3,000", scope: "Most field NDT work; helper assists with prep, cleanup, safety standby" },
-    { crew: "1 PAUT L2 + 1 Helper + PAUT Equipment", dayCost: "$2,800-$4,400", scope: "Phased array UT inspection of welds, vessels, tank floors" },
-    { crew: "RT Crew: 1 Radiographer + 1 Asst + Source", dayCost: "$2,400-$3,600", scope: "Gamma radiography with Ir-192 or Se-75; barricading takes 30-40% of shift" },
-    { crew: "AUT Pipeline Crew (2 techs + tractor)", dayCost: "$6,500-$11,000", scope: "Automated PAUT pipeline crawler; 40-80 welds/day throughput" },
-    { crew: "Level III Consultant Only (no equipment)", dayCost: "$1,500-$2,500", scope: "Procedure qualification, interpretation oversight, audit, expert witness" },
-    { crew: "Rope Access NDT (IRATA L2 + IRATA L3)", dayCost: "$3,200-$5,400", scope: "Wind turbine, flare stack, offshore structure inspection" }
+    { crew: "1 Level II + Truck + Standard Kit", dayCost: "Baseline field crew", scope: "Conventional UT thickness, MT, PT, VT — single inspector tasks" },
+    { crew: "1 Level II + 1 Helper + Truck + Kit", dayCost: "Baseline + helper premium", scope: "Most field NDT work; helper assists with prep, cleanup, safety watch" },
+    { crew: "1 PAUT L2 + 1 Helper + PAUT Equipment", dayCost: "Specialist-equipment tier", scope: "Phased array UT inspection of welds, vessels, tank floors" },
+    { crew: "RT Crew: 1 Radiographer + 1 Asst + Source", dayCost: "Source-handling tier", scope: "Gamma radiography with Ir-192 or Se-75; barricading takes time" },
+    { crew: "AUT Pipeline Crew (2 techs + tractor)", dayCost: "Highest equipment tier", scope: "Automated PAUT pipeline crawler; 40-80 welds/day throughput" },
+    { crew: "Level III Consultant Only (no equipment)", dayCost: "Priced per engagement — quote on request", scope: "Procedure qualification, interpretation oversight, audit, expert witness" },
+    { crew: "Rope Access NDT (IRATA L2 + IRATA L3)", dayCost: "Access-certification premium", scope: "Wind turbine, flare stack, offshore structure inspection" }
 ];
 
 const hiddenCosts = [
-    { category: "Report Fees", cost: "$150-$500 per report; rush 24hr +50-100%", note: "Client-format reports require additional admin time; ask if included" },
-    { category: "Calibration Block Use", cost: "$50-$300/day rental; custom $1,200-$8,000", note: "Asset-specific reference blocks may need fabrication ahead of mobilization" },
-    { category: "Consumables — Couplant", cost: "$25-$45/gallon; 2-5 gal/job typical", note: "High-temp couplant 3-5x standard price" },
-    { category: "Consumables — Penetrant Kit", cost: "$90-$140/kit", note: "Type II visible-dye; Type I fluorescent 30-50% more" },
-    { category: "Consumables — RT Film", cost: "$4-$7/sheet (14x17)", note: "Plus developer/fixer $80-$120 per 5-gal set" },
-    { category: "Hazardous Waste Disposal", cost: "$150-$400/drum film+chemistry", note: "Silver-bearing fixer regulated; EU/CA stricter" },
-    { category: "Source Magazine & Transport", cost: "$200-$500 setup + daily monitoring", note: "Bonded storage required for Ir-192/Co-60" },
-    { category: "Safety Standby", cost: "$400-$800/day (fire/hole/bottle watch)", note: "Confined-space and hot-work jobs always" },
-    { category: "Per-diem & Lodging", cost: "$150-$275/day per technician", note: "Out-of-town work; offshore higher" },
-    { category: "Mobilization", cost: "$350-$1,200 regional; $3,500-$15,000 remote/offshore", note: "Round-trip; charge both ways" },
-    { category: "Standby/Wait Time", cost: "Full day rate during client delays", note: "Scaffolding delays, permit waits, weather" },
-    { category: "Procedure Development", cost: "$800-$3,500 per written procedure", note: "Job-specific procedures; one-time fee" }
+    { category: "Report Fees", cost: "Per report; rush turnaround carries a premium", note: "Client-format reports require additional admin time; ask up front" },
+    { category: "Calibration Block Use", cost: "Daily rental; custom blocks are a real capital item", note: "Asset-specific reference blocks may need fabrication lead time" },
+    { category: "Consumables — Couplant", cost: "Per gallon, several per job", note: "High-temp couplant costs a multiple of standard" },
+    { category: "Consumables — Penetrant Kit", cost: "Per kit", note: "Type I fluorescent costs more than Type II visible-dye" },
+    { category: "Consumables — RT Film", cost: "Per sheet plus chemistry", note: "Silver-bearing fixer is regulated waste" },
+    { category: "Hazardous Waste Disposal", cost: "Per drum of film + chemistry", note: "EU and Canada stricter than US in practice" },
+    { category: "Source Magazine & Transport", cost: "Setup plus daily monitoring", note: "Bonded storage required for Ir-192/Co-60" },
+    { category: "Safety Standby", cost: "Per day of fire/hole/bottle watch", note: "Confined-space and hot-work jobs always carry it" },
+    { category: "Per-diem & Lodging", cost: "Per technician per day away", note: "Offshore rates higher" },
+    { category: "Mobilization", cost: "Regional vs remote/offshore differ by an order of magnitude", note: "Charged both ways" },
+    { category: "Equipment Standby", cost: "Charged when site delays idle the crew", note: "Turnaround slippage lands here" },
+    { category: "Procedure Development", cost: "Per written procedure — one-time", note: "Job-specific procedures approved before fieldwork" }
 ];
 
 const rfpChecklist = [
@@ -111,7 +107,7 @@ export default function NDTInspectionCost2026() {
             {
                 "@type": "Article",
                 "headline": "NDT Inspection Cost 2026: Method × Region Pricing Matrix (UT, RT, PAUT, MT, PT)",
-                "description": "Complete 2026 NDT inspection pricing matrix by method and region. UT $0.50/m², RT $35-55/film, PAUT $250-450/hr. Day rates, mobilization, hidden fees, per-joint pipeline pricing.",
+                "description": "How NDT inspection is actually priced: what each method is billed by, what drives the rate up, regional multipliers, crew compositions, the hidden lines that surprise buyers, and how to write an RFP that gets comparable bids. Updated 2026.",
                 "author": { "@type": "Organization", "name": "Atlantis NDT" },
                 "publisher": { "@type": "Organization", "name": "Atlantis NDT" },
                 "datePublished": "2026-05-17",
@@ -133,7 +129,7 @@ export default function NDTInspectionCost2026() {
             <Navigation />
             <SEOHead
                 title="NDT Inspection Cost 2026: Method × Region Pricing Matrix (UT, RT, PAUT, MT, PT)"
-                description="NDT inspection cost 2026: UT $0.50/m², RT $35-55/film, PAUT $250-450/hr. Full method × region matrix. Day rates, mobilization, hidden fees. Updated May 2026."
+                description="What NDT inspection really costs — and why: billing units by method, regional multipliers, crew compositions, mobilization and the hidden lines that move a quote. Free RFP checklist, and a tailored figure on request."
                 keywords="ndt inspection cost, ndt testing cost, ultrasonic testing cost, radiographic testing cost, PAUT cost, MT cost, PT cost, NDT day rate, NDT per joint, NDT pricing 2026"
                 canonical="https://atlantisndt.com/blog/ndt-inspection-cost-2026-by-method-pricing-matrix"
                 structuredData={structuredData}
@@ -195,8 +191,7 @@ export default function NDTInspectionCost2026() {
 
                         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                             <p className="text-blue-900">
-                                <strong>How to use this table:</strong> Take the USA baseline rate, multiply by your regional modifier (next section), add mobilization, per-diem, and access costs. Most NDT campaigns total $4,500-$28,000 per crew-week onshore, with offshore and turnaround work commanding 1.4-2.1x premiums. For pipeline projects, use per-joint pricing in the dedicated section below.
-                            </p>
+                                <strong>How to use this table:</strong> the unit each method is billed by, and the two factors that most move its rate. Multiply by your regional modifier (next section), add mobilization, then the premiums for shift pattern and access. For a figure on your actual scope, send the scope sheet through the contact page and we will price it properly.</p>
                         </div>
                     </section>
 
@@ -266,19 +261,19 @@ export default function NDTInspectionCost2026() {
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
                                 <h4 className="font-bold mb-2">Mobilization Fees</h4>
                                 <ul className="text-slate-600 text-sm space-y-1">
-                                    <li>Regional (under 100 miles): $350-$750</li>
-                                    <li>Long-haul (100-500 miles): $750-$1,800</li>
-                                    <li>Remote site/offshore helicopter: $3,500-$15,000</li>
-                                    <li>International with visas/permits: $5,000-$25,000+</li>
+                                    <li>Regional (under 100 miles): the smallest line on the quote</li>
+                                    <li>Long-haul (100-500 miles): roughly double regional</li>
+                                    <li>Remote site / offshore helicopter: an order of magnitude above regional</li>
+                                    <li>International with visas and permits: the largest and least compressible line</li>
                                 </ul>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
                                 <h4 className="font-bold mb-2">Callout Fees (Emergency)</h4>
                                 <ul className="text-slate-600 text-sm space-y-1">
                                     <li>4-hour minimum bill at 1.5x day rate</li>
-                                    <li>After-hours callout: $850-$1,800 plus rate</li>
+                                    <li>After-hours callout: a fixed premium on top of the rate</li>
                                     <li>Holiday callout: 2.0-3.0x day rate, 4hr min</li>
-                                    <li>Same-day mob: $500-$1,500 premium</li>
+                                    <li>Same-day mobilization: carries its own premium</li>
                                 </ul>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
@@ -315,18 +310,18 @@ export default function NDTInspectionCost2026() {
                                 <thead className="bg-blue-100">
                                     <tr>
                                         <th className="px-3 py-2 text-left font-semibold">Method</th>
-                                        <th className="px-3 py-2 text-left font-semibold">6" Weld Cost</th>
+                                        <th className="px-3 py-2 text-left font-semibold">Relative Cost per Weld</th>
                                         <th className="px-3 py-2 text-left font-semibold">Throughput</th>
                                         <th className="px-3 py-2 text-left font-semibold">Best For</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="border-t"><td className="px-3 py-2 font-medium">RT-Film (Ir-192)</td><td className="px-3 py-2 font-semibold text-blue-700">$145-$215</td><td className="px-3 py-2 text-xs">15-25 welds/day</td><td className="px-3 py-2 text-xs">Small jobs under 100 welds; remote sites</td></tr>
-                                    <tr className="border-t"><td className="px-3 py-2 font-medium">RT-Digital (DR)</td><td className="px-3 py-2 font-semibold text-blue-700">$165-$245</td><td className="px-3 py-2 text-xs">25-40 welds/day</td><td className="px-3 py-2 text-xs">Where instant review beats film cost</td></tr>
-                                    <tr className="border-t"><td className="px-3 py-2 font-medium">PAUT (manual encoder)</td><td className="px-3 py-2 font-semibold text-blue-700">$185-$295</td><td className="px-3 py-2 text-xs">12-20 welds/day</td><td className="px-3 py-2 text-xs">100-500 weld scope; radiation-restricted sites</td></tr>
-                                    <tr className="border-t"><td className="px-3 py-2 font-medium">TOFD only</td><td className="px-3 py-2 font-semibold text-blue-700">$135-$210</td><td className="px-3 py-2 text-xs">15-25 welds/day</td><td className="px-3 py-2 text-xs">Through-wall sizing; often paired</td></tr>
-                                    <tr className="border-t"><td className="px-3 py-2 font-medium">PAUT + TOFD Hybrid</td><td className="px-3 py-2 font-semibold text-blue-700">$240-$385</td><td className="px-3 py-2 text-xs">10-18 welds/day</td><td className="px-3 py-2 text-xs">High-pressure pipelines; default in EU</td></tr>
-                                    <tr className="border-t"><td className="px-3 py-2 font-medium">Automated AUT (crawler)</td><td className="px-3 py-2 font-semibold text-blue-700">$95-$165</td><td className="px-3 py-2 text-xs">40-80 welds/day</td><td className="px-3 py-2 text-xs">Mainline new construction, 500+ welds</td></tr>
+                                    <tr className="border-t"><td className="px-3 py-2 font-medium">RT-Film (Ir-192)</td><td className="px-3 py-2 font-semibold text-blue-700">Mid — chemistry + exclusion zone</td><td className="px-3 py-2 text-xs">15-25 welds/day</td><td className="px-3 py-2 text-xs">Small jobs under 100 welds; remote sites</td></tr>
+                                    <tr className="border-t"><td className="px-3 py-2 font-medium">RT-Digital (DR)</td><td className="px-3 py-2 font-semibold text-blue-700">Mid-high — detector premium</td><td className="px-3 py-2 text-xs">25-40 welds/day</td><td className="px-3 py-2 text-xs">Where instant review beats film cost</td></tr>
+                                    <tr className="border-t"><td className="px-3 py-2 font-medium">PAUT (manual encoder)</td><td className="px-3 py-2 font-semibold text-blue-700">High — encoded data + analysis</td><td className="px-3 py-2 text-xs">12-20 welds/day</td><td className="px-3 py-2 text-xs">100-500 weld scope; radiation-restricted sites</td></tr>
+                                    <tr className="border-t"><td className="px-3 py-2 font-medium">TOFD only</td><td className="px-3 py-2 font-semibold text-blue-700">Mid — pairs with PAUT</td><td className="px-3 py-2 text-xs">15-25 welds/day</td><td className="px-3 py-2 text-xs">Through-wall sizing; often paired</td></tr>
+                                    <tr className="border-t"><td className="px-3 py-2 font-medium">PAUT + TOFD Hybrid</td><td className="px-3 py-2 font-semibold text-blue-700">Highest per weld — dual technique</td><td className="px-3 py-2 text-xs">10-18 welds/day</td><td className="px-3 py-2 text-xs">High-pressure pipelines; default in EU</td></tr>
+                                    <tr className="border-t"><td className="px-3 py-2 font-medium">Automated AUT (crawler)</td><td className="px-3 py-2 font-semibold text-blue-700">Lowest per weld at volume</td><td className="px-3 py-2 text-xs">40-80 welds/day</td><td className="px-3 py-2 text-xs">Mainline new construction, 500+ welds</td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -371,8 +366,7 @@ export default function NDTInspectionCost2026() {
 
                         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                             <p className="text-blue-900">
-                                <strong>The standard equation:</strong> 1 Level II technician + 1 helper + truck + standard equipment package = $1,650-$2,400/day baseline in the USA. Add mobilization on day one, per-diem if out-of-town, and any premium for shift, environment, or specialty equipment. This is the unit economics most refineries use for shutdown planning.
-                            </p>
+                                <strong>The standard equation:</strong> one Level II technician plus a helper, truck and standard equipment package is the baseline field crew everything else is priced relative to. Add mobilization on day one, per-diem if out-of-town, and any premium for shift pattern or access — those modifiers, not the base crew, are what separate two quotes for the same scope.</p>
                         </div>
                     </section>
 
@@ -433,8 +427,7 @@ export default function NDTInspectionCost2026() {
 
                         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                             <p className="text-blue-900">
-                                <strong>The digital transition economics:</strong> CR (Computed Radiography) typically costs $32-$48 per exposure, DR (Direct Digital Radiography) $45-$75 per exposure. Both eliminate film stock, developer/fixer chemistry, hazardous-waste disposal, and lengthy processing time. For repeat work at the same site, DR pays back capital cost in 600-1,200 exposures. For PAUT as RT replacement, weld-by-weld pricing often matches RT while eliminating radiation hazard entirely — increasingly the default for high-pressure pipeline construction.
-                            </p>
+                                <strong>The digital transition economics:</strong> CR sits below DR on per-exposure cost, and both eliminate film stock, developer and fixer chemistry, and hazardous-waste disposal — lines that quietly accumulate on film jobs. On throughput alone, digital usually wins the campaign-level comparison even where the per-exposure figure looks higher.</p>
                         </div>
                     </section>
 

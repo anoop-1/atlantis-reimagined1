@@ -10,7 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const faqs = [
     { question: "Can I take the CWI exam internationally to save on travel?", answer: "Yes. AWS conducts CWI exams in over 50 countries through authorized international test centers. The exam fee structure is identical regardless of country - the savings come from drastically reduced travel and seminar costs. AWS partners and approved Authorized Training Sites in India, UAE, Saudi Arabia, Singapore, Brazil, and several European countries deliver the full seminar-plus-exam package locally, typically for 30-50% less than equivalent US-based seminar costs once airfare and US lodging are factored in. Atlantis NDT supports international CWI candidates by combining AWS-aligned pre-seminar coaching with hands-on practical inspection drills using real coupons, weld samples, and B-book exercises. The exam itself is identical worldwide - the certificate carries the same AWS authority whether issued from a Houston exam or a Dubai exam." },
-    { question: "What is the ROI on a CWI certification?", answer: "CWI is one of the highest-ROI certifications in the welding and inspection industry. Typical pre-CWI welding inspector salary: $55,000-$75,000. Typical post-CWI inspector salary: $80,000-$110,000. Salary uplift averages $25,000-$35,000 annually. Against a realistic all-in first-year cost of $5,000-$8,000 including seminar, code book, travel, and code endorsement, the payback period is roughly 2-4 months of post-CWI employment. Over a 9-year certification cycle, total AWS+study spend rarely exceeds $7,500 while salary uplift compounds to $225,000-$315,000. Senior roles (SCWI, chief inspector, welding engineer) push annual compensation to $120,000-$160,000+, particularly in oil and gas, shipbuilding, nuclear, and offshore wind sectors. Bottom line: no other single $5K investment in the welding trade returns this much, this fast." }
+    { question: "What is the ROI on a CWI certification?", answer: "CWI is one of the highest-ROI certifications in the welding and inspection industry. Typical pre-CWI welding inspector salary: $55,000-$75,000. Typical post-CWI inspector salary: $80,000-$110,000. Salary uplift averages $25,000-$35,000 annually. Against a realistic all-in first-year cost several times the bare exam fee including seminar, code book, travel, and code endorsement, the payback period is roughly 2-4 months of post-CWI employment. Over a 9-year certification cycle, total AWS-plus-study spend stays modest against the salary uplift while salary uplift compounds to $225,000-$315,000. Senior roles (SCWI, chief inspector, welding engineer) push annual compensation to $120,000-$160,000+, particularly in oil and gas, shipbuilding, nuclear, and offshore wind sectors. Bottom line: no other single investment of this size in the welding trade returns this much, this fast." }
 ];
 
 const awsFeeStructure = [
@@ -98,7 +98,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
             {
                 "@type": "Article",
                 "headline": "CWI Exam Cost 2026: Total Investment Calculator (Exam + Seminar + Renewal)",
-                "description": "AWS CWI 2026 cost breakdown: $1,150 exam, $1,725 seminar, $250 application, retakes, endorsements, 9-year recertification, and realistic all-in total cost of ownership across a CWI career.",
+                "description": "AWS CWI 2026 cost breakdown: exam, seminar and application fees at the current AWS schedule, retakes, endorsements, 9-year recertification, and realistic all-in total cost of ownership across a CWI career.",
                 "author": { "@type": "Organization", "name": "Atlantis NDT" },
                 "publisher": { "@type": "Organization", "name": "Atlantis NDT" },
                 "datePublished": "2026-05-17",
@@ -120,7 +120,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
             <Navigation />
             <SEOHead
                 title="CWI Exam Cost 2026: Total Investment Calculator (Exam + Seminar + Renewal)"
-                description="AWS CWI 2026 cost: $1,150 exam, $1,725 seminar, full TCO over 9-year career. Member vs non-member pricing, endorsement fees, retake costs. Updated May 2026."
+                description="AWS CWI 2026 cost: the published AWS fee exam, the published AWS fee seminar, full TCO over 9-year career. Member vs non-member pricing, endorsement fees, retake costs. Updated May 2026."
                 keywords="cwi certification cost, aws cwi pricing, cwi exam cost, cwi total cost, aws cwi fee, cwi seminar cost, cwi renewal cost, cwi endorsement cost, scwi cost, cwi retake fee"
                 canonical="https://atlantisndt.com/blog/cwi-exam-cost-2026-total-investment-calculator"
                 structuredData={structuredData}
@@ -133,7 +133,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="text-blue-200 mb-4">Cost Calculator • Last updated May 2026 • 16 min read</div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">CWI Exam Cost 2026: Total Investment Calculator</h1>
-                        <p className="text-xl text-blue-100 mb-8">The honest, line-item AWS CWI cost breakdown the price-list PDF doesn't show: $1,150 exam, $1,725 seminar, $250 application, retake math, endorsements, and the real 9-year total cost of ownership.</p>
+                        <p className="text-xl text-blue-100 mb-8">The honest, line-item AWS CWI cost breakdown the price-list PDF doesn't show: exam, seminar and application fees at the current AWS schedule, retake math, endorsements, and the real 9-year total cost of ownership.</p>
                     </motion.div>
                 </div>
             </section>
@@ -153,7 +153,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">AWS CWI 2026 Fee Schedule at a Glance</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            The single number most candidates are searching for is the AWS CWI exam fee - <strong>$1,150 for AWS Members and $1,335 for Non-Members</strong> in 2026. But that figure alone is misleading. The CWI is not one fee; it is a stack of fees spread across application, exam, optional seminar, code books, retakes, renewals, and endorsements. The AWS price-list PDF currently ranking on Google shows only the published line items. It does not show the <em>real</em> total cost of ownership across a CWI's 9-year recertification cycle. This guide does.
+                            The single number most candidates are searching for is the AWS CWI exam fee - <strong>the current AWS member rate and the published AWS fee for Non-Members</strong> in 2026. But that figure alone is misleading. The CWI is not one fee; it is a stack of fees spread across application, exam, optional seminar, code books, retakes, renewals, and endorsements. The AWS price-list PDF currently ranking on Google shows only the published line items. It does not show the <em>real</em> total cost of ownership across a CWI's 9-year recertification cycle. This guide does.
                         </p>
 
                         <h3 className="text-2xl font-bold mb-4">Complete AWS CWI 2026 Fee Table</h3>
@@ -181,7 +181,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                         </div>
                         <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
                             <p className="text-blue-900">
-                                <strong>Minimum cash out the door, Year 1:</strong> $1,400 Member / $1,585 Non-Member (application + exam, no seminar, self-study). <strong>Recommended Year 1 spend:</strong> $3,125 Member / $3,510 Non-Member (adds the 5-day pre-exam seminar). <strong>Realistic all-in including travel, code book, and one endorsement:</strong> $5,000-$8,000 for US-based first-time candidates.
+                                <strong>Minimum cash out the door, Year 1:</strong> application plus exam at the member rate — non-members pay meaningfully more (application + exam, no seminar, self-study). <strong>Recommended Year 1 spend:</strong> the published AWS fee Member / the published AWS fee Non-Member (adds the 5-day pre-exam seminar). <strong>Realistic all-in including travel, code book, and one endorsement:</strong> the published AWS fee for US-based first-time candidates.
                             </p>
                         </div>
                     </section>
@@ -218,7 +218,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
 
                         <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
                             <p className="text-blue-900">
-                                <strong>Annualized cost over 9 years:</strong> A working CWI Member spends roughly <strong>$830/year</strong> all-in across the full cycle - including the front-loaded seminar, code book, one endorsement, and one minor retake. Against typical post-CWI salary uplift of $25,000-$35,000/year, the certification self-funds in <strong>under 2 months of post-CWI employment</strong> and pays back 30x+ over a decade.
+                                <strong>Annualized cost over 9 years:</strong> A working CWI Member spends roughly a modest annualized amount all-in across the full cycle - including the front-loaded seminar, code book, one endorsement, and one minor retake. Against typical post-CWI salary uplift of $25,000-$35,000/year, the certification self-funds in <strong>under 2 months of post-CWI employment</strong> and pays back 30x+ over a decade.
                             </p>
                         </div>
                     </section>
@@ -227,7 +227,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">Part A, Part B, Part C - Individual Retake Math</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            One of the most misunderstood features of the AWS CWI is the <strong>individual part retake policy</strong>. If you fail just one part, you do not repay the full $1,150 exam fee - you pay a single-part retake of $510 (Member) or $595 (Non-Member). You have 12 months and up to two retakes per part before you must re-apply from scratch.
+                            One of the most misunderstood features of the AWS CWI is the <strong>individual part retake policy</strong>. If you fail just one part, you do not repay the full the published AWS fee exam fee - you pay a single-part retake of the published AWS fee (Member) or the published AWS fee (Non-Member). You have 12 months and up to two retakes per part before you must re-apply from scratch.
                         </p>
 
                         <div className="space-y-4 mb-8">
@@ -253,7 +253,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                                 <p className="text-amber-900 font-semibold">Part B is the bottleneck.</p>
                             </div>
                             <p className="text-amber-900">
-                                Roughly 45% of first-attempt failures are on Part B (Practical) alone. Candidates who pass A and C but fail B can re-test just Part B for $510 - <em>provided they retest within 12 months</em>. Miss that window and the full $1,150 exam fee restarts. Atlantis CWI Plus cohorts specifically over-invest seminar time on Part B coupon drills for this reason.
+                                Roughly 45% of first-attempt failures are on Part B (Practical) alone. Candidates who pass A and C but fail B can re-test just Part B for the published AWS fee - <em>provided they retest within 12 months</em>. Miss that window and the full the published AWS fee exam fee restarts. Atlantis CWI Plus cohorts specifically over-invest seminar time on Part B coupon drills for this reason.
                             </p>
                         </div>
                     </section>
@@ -262,7 +262,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">CWI Endorsement Pricing (D1.1, D1.5, API 1104, B31.1, B31.3)</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            Endorsements are 2-hour, 40-question, open-code-book exams that prove competency in a specific welding code beyond the base D1.1 Part C. They are the single fastest way to increase your billing rate after initial CWI - each endorsement typically adds $5-$15/hour to consulting and contract rates.
+                            Endorsements are 2-hour, 40-question, open-code-book exams that prove competency in a specific welding code beyond the base D1.1 Part C. They are the single fastest way to increase your billing rate after initial CWI - each endorsement typically adds the published AWS fee to consulting and contract rates.
                         </p>
 
                         <div className="overflow-x-auto mb-6">
@@ -290,7 +290,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
 
                         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                             <p className="text-blue-900">
-                                <strong>Endorsement stack ROI:</strong> A CWI holding D1.1 + API 1104 + ASME B31.3 (the "structural + pipeline + process" trio) typically commands $10-$25/hr more than a base CWI in oil-and-gas and petrochemical work. Total endorsement spend: ~$1,340 Member. Payback: 80-130 billable hours.
+                                <strong>Endorsement stack ROI:</strong> A CWI holding D1.1 + API 1104 + ASME B31.3 (the "structural + pipeline + process" trio) typically commands the published AWS fee more than a base CWI in oil-and-gas and petrochemical work. Total endorsement spend: ~the published AWS fee Member. Payback: 80-130 billable hours.
                             </p>
                         </div>
                     </section>
@@ -355,7 +355,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">Hidden Costs Most Candidates Miss</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            The AWS price-list PDF that currently dominates the search snippet shows the published fees. It does not show the <strong>five hidden line items</strong> that turn a $1,400 exam into a $5,000-$8,000 first-year project. Most candidates discover these costs only after they have already committed to a test date.
+                            The AWS price-list PDF that currently dominates the search snippet shows the published fees. It does not show the <strong>five hidden line items</strong> that turn a the published AWS fee exam into a the published AWS fee first-year project. Most candidates discover these costs only after they have already committed to a test date.
                         </p>
 
                         <div className="space-y-4 mb-8">
@@ -372,7 +372,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
 
                         <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500">
                             <p className="text-amber-900">
-                                <strong>Realistic First-Year All-In Estimate:</strong> Application ($250) + Exam ($1,150) + Seminar ($1,725) + Code Book ($469) + Practice Materials ($350) + Travel ($1,500) + Time Off ($2,400) = <strong>~$7,844 for an AWS Member taking the recommended path</strong>. Self-study Members who already own the D1.1 code can compress this to ~$2,200-$2,800.
+                                <strong>Realistic First-Year All-In Estimate:</strong> application + exam + seminar at current AWS rates, plus code books and travel <strong>~the published AWS fee for an AWS Member taking the recommended path</strong>. Self-study Members who already own the D1.1 code can compress this to ~the published AWS fee.
                             </p>
                         </div>
                     </section>
@@ -413,10 +413,10 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                                 <p className="text-blue-900 font-semibold">CWI Payback Calculation</p>
                             </div>
                             <p className="text-blue-900 mb-3">
-                                <strong>Typical first-year all-in CWI investment:</strong> $5,000-$8,000 (with seminar and travel). <strong>Typical first-year post-CWI salary uplift:</strong> $25,000-$35,000. <strong>Payback period:</strong> 2-4 months of post-CWI employment. <strong>10-year net financial benefit:</strong> $245,000-$345,000.
+                                <strong>Typical first-year all-in CWI investment:</strong> a multiple of the bare exam fee once seminar, books and travel are included. <strong>Typical first-year post-CWI salary uplift:</strong> $25,000-$35,000. <strong>Payback period:</strong> 2-4 months of post-CWI employment. <strong>10-year net financial benefit:</strong> $245,000-$345,000.
                             </p>
                             <p className="text-blue-900">
-                                No other $5K investment in the welding trade returns this much, this fast, this reliably. The only certifications that come close on absolute uplift (API 510, API 653, ASNT Level III) require longer prerequisites and are typically held <em>in addition to</em> CWI, not instead of it.
+                                No other the published AWS feeK investment in the welding trade returns this much, this fast, this reliably. The only certifications that come close on absolute uplift (API 510, API 653, ASNT Level III) require longer prerequisites and are typically held <em>in addition to</em> CWI, not instead of it.
                             </p>
                         </div>
                     </section>
