@@ -400,6 +400,56 @@ export const CITIES = {
     scheme: 'AS/NZS standards and AINDT certification are the baseline, with Queensland\'s coal mining safety legislation adding site competency requirements; LNG operators run integrated turnaround regimes where NDT slots are booked far ahead.',
     assets: 'LNG trains on Curtis Island, upstream compression and gathering, draglines and CHPP plant in the Bowen Basin, coal rail infrastructure, and power stations',
   },
+  /* ── 2026-08-05 additions — markets earning training/method impressions
+        that the first 40 missed (doha 252i, jubail 196i, hyderabad 188i…) ── */
+  doha: {
+    name: 'Doha', industries: ['lng', 'refining', 'fabrication', 'marine'],
+    base: 'Qatar\'s inspection economy is built around Ras Laffan — the world\'s largest LNG export complex, now expanding again under the North Field projects — with QatarEnergy\'s Mesaieed refining and petrochemical zone, dense EPC fabrication for those expansions, and Hamad Port\'s marine work rounding out the demand.',
+    scheme: 'QatarEnergy approval governs work on its assets, layered over Qatar Construction Specification requirements for the wider industrial base; personnel certification in contracts is typically ASNT SNT-TC-1A or PCN, and the North Field EPC packages import each contractor\'s qualified-welder and NDT regimes wholesale.',
+    assets: 'LNG trains and storage at Ras Laffan, GTL and condensate processing, Mesaieed refinery and petrochemical units, expansion-project fabrication, and port and marine structures',
+  },
+  jubail: {
+    name: 'Jubail', industries: ['petrochemical', 'refining', 'power', 'fabrication'],
+    base: 'Jubail is the largest industrial city in the world by petrochemical concentration: SABIC affiliate complexes side by side along the Royal Commission grid, the SATORP refinery, Marafiq\'s power and desalination utilities, and the fabrication yards that feed them all — a turnaround somewhere in Jubail nearly every month of the year.',
+    scheme: 'Saudi Aramco SAES standards and contractor approval govern Aramco-linked work, while SABIC engineering standards run their own vendor and inspector approval for the affiliate plants; Royal Commission requirements sit over construction, and certification in practice means ASNT-based schemes with operator-specific endorsement.',
+    assets: 'crackers and derivative units across the SABIC complexes, SATORP refinery equipment, utility boilers and desalination plant, tank farms, and structural fabrication',
+  },
+  dammam: {
+    name: 'Dammam', industries: ['refining', 'offshore', 'fabrication', 'marine'],
+    base: 'The Dammam–Dhahran–Khobar corridor is Saudi Aramco\'s home ground: the company is headquartered next door in Dhahran, Ras Tanura\'s refinery and terminal sit up the coast, offshore field logistics stage through the area, and King Abdulaziz Port brings steady marine and cargo-gear examination alongside the fabrication yards serving Aramco programmes.',
+    scheme: 'Aramco SAES standards and its inspector/vendor approval system dominate — an unapproved technician does not touch Aramco work regardless of certificate — with ASNT SNT-TC-1A the underlying personnel scheme and port and classification-society rules governing the marine side.',
+    assets: 'refinery and terminal equipment at Ras Tanura, offshore platform components staged onshore, fabrication-yard weldments, port cranes and marine structures',
+  },
+  'ras-al-khaimah': {
+    name: 'Ras Al Khaimah', industries: ['fabrication', 'marine', 'power', 'mining'],
+    base: 'RAK\'s industrial base is heavier than its size suggests: cement and lime plants working the Hajar quarries, RAK Gas processing, ceramics manufacturing at world scale, free-zone metal fabrication, and a working port with ship repair — quarrying and bulk handling equipment adding a genuine mining-style inspection load.',
+    scheme: 'UAE federal requirements and free-zone authority rules govern statutory plant, with insurers and classification societies driving marine and lifting examination; contracts typically specify ASNT-based certification, and Emirati operators increasingly ask for ISO 9712 as well.',
+    assets: 'rotary kilns and mills in the cement plants, gas processing equipment, quarry crushers and conveyors, fabricated structures from the free zones, and port and ship-repair steel',
+  },
+  hyderabad: {
+    name: 'Hyderabad', industries: ['aviation', 'fabrication', 'power', 'automotive'],
+    base: 'Hyderabad has become India\'s aerospace manufacturing city: Tata\'s aerostructure joint ventures build fuselage and wing assemblies for global OEMs, Safran and GE run engine-component plants, and defence programmes cluster around the DRDO missile complex — all of it under aerospace NDT rules — alongside pharma equipment fabrication and the NTPC power belt to the north.',
+    scheme: 'Aerospace work runs under NAS 410 / EN 4179 personnel requirements with OEM (Nadcap-audited) special-process approval — a different regime from industrial NDT entirely; industrial plant follows IBR for boilers and ISNT (NCB) or ASNT certification in contracts.',
+    assets: 'aerostructure assemblies and engine components, defence hardware, pharmaceutical process equipment, boiler and power plant components, and precision castings and forgings',
+  },
+  surat: {
+    name: 'Surat', industries: ['petrochemical', 'steel', 'fabrication', 'lng'],
+    base: 'Surat\'s inspection demand comes from the Hazira belt on its doorstep: Reliance\'s Hazira petrochemical complex, ONGC\'s gas processing terminal, AM/NS India\'s flat steel works, L&T\'s heavy engineering yard — which fabricates reactors and defence hulls few other Indian yards can — and Shell\'s Hazira LNG terminal.',
+    scheme: 'IBR governs boilers and steam systems, PESO the pressurised gas side, and the operators layer their own approval on top — Reliance and L&T both run demanding vendor and NDT-agency qualification; personnel certification is ISNT (NCB) or ASNT, with EN/ISO 9712 appearing on export fabrication.',
+    assets: 'cracker and polymer units at Hazira, gas terminal and LNG regasification equipment, steel mill plant, heavy fabricated reactors and vessels, and marine outfall and jetty structures',
+  },
+  vizag: {
+    name: 'Visakhapatnam', industries: ['refining', 'steel', 'marine', 'power'],
+    base: 'Visakhapatnam combines four inspection-heavy industries in one harbour city: HPCL\'s Visakh refinery mid-expansion, the Rashtriya Ispat steel plant, India\'s eastern naval dockyard plus Hindustan Shipyard, and a major port — refinery turnarounds, mill maintenance and survey-driven marine work all drawing on the same technician pool.',
+    scheme: 'IBR and PESO cover statutory plant, classification societies and naval standards govern the shipyard side, and HPCL and RINL run their own inspection-agency approvals; ISNT (NCB) certification is the domestic baseline with ASNT specified on refinery contract work.',
+    assets: 'refinery columns, heaters and exchangers, blast furnace and rolling mill equipment, ship hulls and naval steel in the yards, port cranes, and captive power plant',
+  },
+  kolkata: {
+    name: 'Kolkata', industries: ['refining', 'marine', 'steel', 'power'],
+    base: 'Kolkata anchors eastern India\'s industrial corridor: IOCL\'s Haldia refinery and the petrochemical complex beside it downriver, Garden Reach\'s warship building, the Kolkata and Haldia port systems, and the Durgapur–Burnpur steel belt inland — an old industrial base whose ageing plant needs more examination, not less.',
+    scheme: 'IBR governs the boiler stock, classification societies and naval rules the shipbuilding, and IOCL and SAIL their own agency approvals; personnel certification is ISNT (NCB) — whose national office sits in Kolkata — or ASNT where contracts import it.',
+    assets: 'refinery and petrochemical equipment at Haldia, warship and commercial hulls at Garden Reach, port infrastructure and cargo gear, blast furnaces and mills in the steel belt, and legacy thermal power plant',
+  },
 };
 
 /* ── Composition ──────────────────────────────────────────────────────────── */
