@@ -1173,3 +1173,82 @@ there. Historic enquiries likely recoverable the same way — owner action.
 2. Glossary tail (158 unauthored terms), Course schema as extra JSON-LD block.
 3. ~2026-09-01: ctr-opportunity-engine --days 28 (recoverable <751?), wave 4/5
    clicks, method-city impressions vs the 10/page baseline.
+
+---
+
+## 27. Pricing complete + intl training cities + glossary tail — 2026-08-05
+
+### 27.1 Pricing removal FINISHED (batches 2–3, commits `5651298d9` + `d1b98dbd1`)
+Owner decision stands: **strip every price/fee/cost figure (Atlantis,
+competitor, third-party exam, equipment); KEEP industry salary/earnings.**
+- Batch 2: blogs.json 2,651 → 397 money tokens; every survivor verified
+  salary-context. Batches 2i/2j/2k caught what the context-window classifier
+  missed: fee TABLES whose header sits >90 chars from the cell (ASNT exam-fee
+  table incl. a bold "Total Per Method" row that didn't contain the word
+  "Fee"), bulk-discount and tuition figures, a recert program fee, and an MT
+  "Level III review fee ($120-$250/hr)". **Earnings kept by design:** consultant
+  rates ($200-$400/hr income), lifetime-earnings comparisons, salary tables.
+- Batch 3: 8 TSX guide pages (equipment guide, methods comparison, cert guide,
+  rt-vs-ut, cwi pass-rate, UT ultimate, odoo-vs-netsuite, eddy guide). A
+  blanket `M.sub` wiped 9 `salary:` fields in cert-guide — restored from
+  `git show HEAD` by field position. **Lesson: never blanket-sub a file after a
+  targeted pass; enumerate remaining matches first.**
+- Escape-layer trap: a needle containing `\n` passed through Bash-tool JSON +
+  heredoc mangles unpredictably — build needles with `chr(92)+'n'` in a Write-
+  tool script, never inline in `python - <<'PY'` when backslashes matter.
+
+### 27.2 International training cities — the biggest training page was thin
+`/ndt-training-dubai` is the **largest training-city page on the site (1,435
+impr/90d)** and the US-only pass (§24.2) left it generic. New
+`scripts/training-city-intl.mjs` REUSES the method-city 40-market map:
+training-priority advice composed from each market's industries (INDUSTRY_
+METHODS matrix), scheme guidance from `city.scheme`, honest delivery model
+(no walk-in centre claimed, no LocalBusiness schema). **28 intl pages
+localised** after the map grew.
+
+### 27.3 City map extended to 48 markets (commit `c4f5e967d`)
+Demand-pull found 8 earning markets the first 40 missed: **doha 252i, jubail
+196i, hyderabad 188i, surat 90i, ras-al-khaimah, dammam, vizag, kolkata**.
+Hand-written entries (QatarEnergy/QCS, Aramco SAES + SABIC standards, NAS
+410/EN 4179 Hyderabad aerospace, IBR/PESO + ISNT NCB India). Feeds method-city
+(188→208) and training-intl (21→28) automatically. **Pattern: one map, many
+generators — extend the map, never fork per-cluster city data.**
+
+### 27.4 Glossary tail: 91 terms authored (was 60)
+`scripts/glossary-depth-tail.mjs` (+30 by measured demand: aws-d1-1, iso-3452,
+en-12668, shear-wave, penetrant-testing, api-510/579/581, level-ii/iii,
+cp-189, impedance-plane, pitting, SDH, SFD…) ≈ half the remaining tail.
+Merged via `Object.assign(TERM_FACTS, TERM_FACTS_TAIL)`.
+
+### 27.5 Thin audit on the shipped build (5,098 sitemap URLs, avg 1,099w)
+842 pages under 650w (site standard remains ≥400w; 650 is the stretch bar).
+Demand-ranked leftovers for the NEXT cycle:
+- `/blog/ut-vs-rt-comparison` 1,427i @ 556w — **already canonicals to
+  rt-vs-ut-complete-comparison; do NOT upgrade a canonical donor.**
+- Home 622w/1,682i · `/consulting` 616w/677i · `/ndt-connect` 441w/476i ·
+  `/contact` 423i — hand-page work, not generator work.
+- `/training/asnt-level-iii-training-{san-diego 330i, cincinnati 151i, tampa,
+  dc}` — city-framed pages (§25.2); deepen WITH the city framing kept.
+- Methods thin tail: 399 pages but only 1,982i total (~5i/page) — the
+  demand-bearing ones are now mapped; the rest are the silent tail (§20.2:
+  do not bulk-pad).
+- `/regions:25`, resources templates (12 pages/488i), tools/case-studies.
+
+### 27.6 Verified 2026-08-05
+- 21/21 dist assertions PASS (intl blocks, glossary >600w, 0 fee-context
+  tokens, salary intact, no redirect source shipped).
+- d1b98dbd1 READY + live-verified (dubai/abu-dhabi blocks, glossary depth,
+  career-path fee table gone, salary present).
+- ⚠️ Deploy monitors: `.vt` scratchpad file holds `VERCEL_TOKEN=vcp_…` — parse
+  with `grep -o 'vcp_[A-Za-z0-9]*'`, not `cat`, or the API silently 403s and a
+  READY deploy looks like NO-DEPLOYMENT-YET.
+- 93 changed URLs listed in
+  `scripts/indexing-url-list-2026-08-05-batch23-intl-glossary.json`; submit
+  after c4f5e967d is READY (IndexNow + Google, ≤2,000/day).
+
+### 27.7 Next
+1. Hand-deepen: home, /consulting, /ndt-connect, Level III city-framed pages,
+   resources templates.
+2. Course schema (extra JSON-LD block) on training city pages — still open.
+3. ~2026-09-01 measurement (§25.8 / §26.5): ctr engine <751 recoverable?,
+   wave 4/5 clicks, method-city + intl-training impressions vs baseline.
