@@ -1345,3 +1345,19 @@ sitemaps, do not try to push them through IndexNow.
 ~2026-09-01, same-window engine run: recoverable/28d should fall from 380;
 watch the five snippet pages' CTR specifically, plus erp-us family
 impressions (54-URL list) and the head terms (reporting software p9 → top 5?).
+
+### 29.4 Also this cycle (pending same deploy)
+- Early 7d wave read: exam-schedule page CTR 1.0%→2.2% (13→25 clicks) — first
+  hard evidence wave 4 works. Method base pages (UT/RT/VT) still zero
+  impressions post-cure — recrawl lag, re-check ~2026-08-20.
+- §27.5 backlog depth shipped (`backlog-depth-2026-08-06.mjs`): /consulting
+  985w, /ndt-connect 724w, 4 L3 city pages, 11 resources templates, Course
+  JSON-LD (no offers) on all /ndt-training-* pages.
+- Glossary tail round 3 (+25 → 116 authored). Remaining tail ~102 terms/~700i
+  — diminishing returns; stop here unless demand shifts.
+- Software head pages carry 1,500–5,300 internal links — internal linking is
+  NOT their constraint; off-page is (satellite rounds 1+2 address it).
+- ⚠️ FOUR commits pending deploy behind the 100/24h quota (resets 08-07 02:10
+  UTC). Session cron 80f0f90b auto-deploys + verifies + submits; if the
+  session dies first, the next push after reset carries everything — verify
+  deployed SHA before claiming live (§23.4).
