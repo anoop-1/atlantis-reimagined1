@@ -1,0 +1,163 @@
+CTR opportunity — 2026-07-07 → 2026-08-04
+pairs analysed: 8114 · scored: 330 · pages with upside: 126
+
+TOTAL RECOVERABLE CLICKS (vs position benchmark): 380
+EXCLUDED as structurally unwinnable: 4711 impressions, 51 clicks
+     1876 impr — site: operator — us auditing our own index
+     1352 impr — AI-assistant phrasing — answered in the assistant, rarely clicked
+      707 impr — navigational brand — already knows where to go
+      512 impr — file-seeking intent — clicks the PDF, not the page
+      264 impr — non-English variant — no commercial intent for this site
+
+══ TOP 25 PAGES BY RECOVERABLE CLICKS ══
+
+/blog/ndt-salary-guide-2026-global
+   recoverable ~77 clicks · 2356 impr · 8 clicks now
+       262i p  7.3 · actual 0.0% vs expected 3.1% → ~8 clicks · "salry of ndt inspector in australia"
+       155i p  5.4 · actual 0.0% vs expected 4.8% → ~7 clicks · "ndt technician salary"
+        55i p  3.0 · actual 0.0% vs expected 9.9% → ~5 clicks · "ndt technician"
+       174i p  8.3 · actual 0.0% vs expected 2.7% → ~5 clicks · "ndt inspector salary"
+
+/blog/api-510-570-653-exam-schedule-2026
+   recoverable ~51 clicks · 1867 impr · 39 clicks now
+       136i p  4.0 · actual 0.7% vs expected 6.9% → ~8 clicks · "api 570 exam schedule 2026"
+       316i p  6.2 · actual 1.3% vs expected 3.9% → ~8 clicks · "api exam schedule"
+       123i p  5.6 · actual 0.8% vs expected 4.6% → ~5 clicks · "api schedule 2026"
+       130i p  6.2 · actual 0.8% vs expected 3.9% → ~4 clicks · "api 510 exam schedule"
+
+/blog/api-653-tank-inspection-guide
+   recoverable ~36 clicks · 1571 impr · 3 clicks now
+       506i p  7.5 · actual 0.2% vs expected 3.0% → ~14 clicks · "api 653"
+        43i p  2.8 · actual 0.0% vs expected 11.0% → ~5 clicks · "api653"
+       180i p  9.1 · actual 0.0% vs expected 2.4% → ~4 clicks · "653 tank inspection"
+       167i p  8.8 · actual 0.0% vs expected 2.5% → ~4 clicks · "api 653 tank inspection"
+
+/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained
+   recoverable ~27 clicks · 295 impr · 11 clicks now
+        68i p  2.3 · actual 2.9% vs expected 13.3% → ~7 clicks · "asme sec v article 6"
+        90i p  2.1 · actual 6.7% vs expected 14.3% → ~7 clicks · "asme section v article 6"
+        53i p  3.2 · actual 0.0% vs expected 9.4% → ~5 clicks · "asme section 5 article 6"
+        55i p  2.3 · actual 5.5% vs expected 13.6% → ~5 clicks · "asme v article 6"
+
+/ndt-technician-salary
+   recoverable ~12 clicks · 383 impr · 2 clicks now
+        49i p  4.7 · actual 0.0% vs expected 5.7% → ~3 clicks · "ndt level 3 salary in gulf"
+        85i p  6.5 · actual 1.2% vs expected 3.7% → ~2 clicks · "ndt technician salary"
+        51i p  6.8 · actual 0.0% vs expected 3.5% → ~2 clicks · "ndt level 2 salary in dubai"
+        45i p  7.4 · actual 0.0% vs expected 3.1% → ~1 clicks · "ndt technician salary in dubai"
+
+/blog/asme-section-v-article-4-ut-requirements-explained
+   recoverable ~11 clicks · 175 impr · 10 clicks now
+        53i p  2.6 · actual 5.7% vs expected 12.2% → ~3 clicks · "asme sec v article 4"
+        46i p  2.4 · actual 6.5% vs expected 12.8% → ~3 clicks · "asme section v article 4"
+        38i p  2.7 · actual 5.3% vs expected 11.7% → ~2 clicks · "asme v article 4"
+        38i p  2.8 · actual 5.3% vs expected 11.2% → ~2 clicks · "asme sec 5 article 4"
+
+/asnt-certification
+   recoverable ~10 clicks · 265 impr · 0 clicks now
+        37i p  2.2 · actual 0.0% vs expected 13.8% → ~5 clicks · "ndt level 3 course fees"
+        51i p  4.4 · actual 0.0% vs expected 6.3% → ~3 clicks · "asnt level 3"
+        80i p 10.8 · actual 0.0% vs expected 1.7% → ~1 clicks · "asnt certification"
+        36i p 16.9 · actual 0.0% vs expected 0.8% → ~0 clicks · "asnt"
+
+/glossary/flat-bottom-hole-fbh
+   recoverable ~9 clicks · 165 impr · 0 clicks now
+       139i p  6.2 · actual 0.0% vs expected 3.9% → ~5 clicks · "fbh meaning"
+        26i p  2.0 · actual 0.0% vs expected 15.5% → ~4 clicks · "fbh"
+
+/blog/api-617-centrifugal-compressor-inspection
+   recoverable ~8 clicks · 567 impr · 6 clicks now
+       531i p  8.7 · actual 1.1% vs expected 2.5% → ~7 clicks · "api 617"
+        36i p  8.4 · actual 0.0% vs expected 2.6% → ~1 clicks · "api617"
+
+/blog/asnt-snt-tc-1a-certification-requirements
+   recoverable ~8 clicks · 321 impr · 0 clicks now
+        87i p  6.0 · actual 0.0% vs expected 4.1% → ~4 clicks · "asnt snt-tc-1a"
+        42i p  6.8 · actual 0.0% vs expected 3.5% → ~1 clicks · "snt-tc-1a latest edition"
+        36i p  8.3 · actual 0.0% vs expected 2.7% → ~1 clicks · "asnt snt-tc-1a latest edition"
+        45i p 11.3 · actual 0.0% vs expected 1.5% → ~1 clicks · "asnt snt tc 1a"
+
+/api-653-certification
+   recoverable ~7 clicks · 695 impr · 1 clicks now
+        63i p  5.2 · actual 0.0% vs expected 5.0% → ~3 clicks · "api 653 body of knowledge 2026"
+       124i p  9.4 · actual 0.8% vs expected 2.3% → ~2 clicks · "api 653 certification"
+       112i p 33.3 · actual 0.0% vs expected 0.4% → ~0 clicks · "api 653"
+        65i p 36.6 · actual 0.0% vs expected 0.4% → ~0 clicks · "api 653 course"
+
+/blog/api-510-body-of-knowledge-2026-changes-explained
+   recoverable ~6 clicks · 268 impr · 11 clicks now
+       160i p  3.8 · actual 5.0% vs expected 7.7% → ~4 clicks · "api 510 body of knowledge 2026"
+        56i p  9.0 · actual 0.0% vs expected 2.4% → ~1 clicks · "api 510 latest edition"
+        27i p  5.3 · actual 3.7% vs expected 4.9% → ~0 clicks · "api 510 bok"
+        25i p  3.4 · actual 8.0% vs expected 8.7% → ~0 clicks · "api 510 bok 2026"
+
+/blog/asnt-level-3-fees-2026-complete-pricing-table
+   recoverable ~6 clicks · 182 impr · 2 clicks now
+        98i p  5.2 · actual 2.0% vs expected 5.0% → ~3 clicks · "asnt level 3 exam fees"
+        43i p  6.1 · actual 0.0% vs expected 4.0% → ~2 clicks · "asnt membership fees"
+        41i p  8.9 · actual 0.0% vs expected 2.4% → ~1 clicks · "asnt level 3 exam schedule 2026"
+
+/blog/asnt-snt-tc-1a-vs-cp-189-comparison
+   recoverable ~4 clicks · 246 impr · 2 clicks now
+        37i p  5.7 · actual 0.0% vs expected 4.4% → ~2 clicks · "cp-189"
+        25i p  5.9 · actual 0.0% vs expected 4.2% → ~1 clicks · "cp 189"
+        36i p 10.2 · actual 0.0% vs expected 2.0% → ~1 clicks · "snt tc 1a"
+        94i p 10.9 · actual 1.1% vs expected 1.7% → ~1 clicks · "snt-tc-1a"
+
+/blog/ndt-inspection-cost-2026-by-method-pricing-matrix
+   recoverable ~4 clicks · 31 impr · 0 clicks now
+        31i p  2.2 · actual 0.0% vs expected 14.2% → ~4 clicks · "ndt inspection cost"
+
+/blog/rt-vs-ut-complete-comparison
+   recoverable ~4 clicks · 28 impr · 0 clicks now
+        28i p  2.0 · actual 0.0% vs expected 15.0% → ~4 clicks · "ut vs rt"
+
+/api-570-certification
+   recoverable ~4 clicks · 367 impr · 2 clicks now
+        63i p  8.0 · actual 0.0% vs expected 2.8% → ~2 clicks · "api 570 certification"
+        90i p  6.4 · actual 2.2% vs expected 3.8% → ~1 clicks · "api 570 body of knowledge 2026"
+        96i p 22.4 · actual 0.0% vs expected 0.4% → ~0 clicks · "api 570"
+        35i p 30.3 · actual 0.0% vs expected 0.4% → ~0 clicks · "api 570 inspection"
+
+/glossary/phased-array-ultrasonic-testing-paut
+   recoverable ~4 clicks · 420 impr · 1 clicks now
+       331i p 12.1 · actual 0.3% vs expected 1.4% → ~4 clicks · "paut"
+        89i p 43.5 · actual 0.0% vs expected 0.4% → ~0 clicks · "phased array ultrasonic testing"
+
+/api-570-india
+   recoverable ~4 clicks · 136 impr · 1 clicks now
+        83i p  7.2 · actual 0.0% vs expected 3.2% → ~3 clicks · "api 570 exam fees"
+        53i p  5.9 · actual 1.9% vs expected 4.2% → ~1 clicks · "api 570 exam fees in india"
+
+/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide
+   recoverable ~4 clicks · 137 impr · 4 clicks now
+       110i p  4.7 · actual 2.7% vs expected 5.7% → ~3 clicks · "aws d1.1 acceptance criteria"
+        27i p  4.6 · actual 3.7% vs expected 5.9% → ~1 clicks · "aws d1.1 rt acceptance criteria"
+
+/blog/radiographic-testing-complete-guide
+   recoverable ~3 clicks · 382 impr · 0 clicks now
+       108i p  9.9 · actual 0.0% vs expected 2.1% → ~2 clicks · "rt procedure"
+       222i p 28.4 · actual 0.0% vs expected 0.4% → ~1 clicks · "radiographic testing"
+        52i p 31.1 · actual 0.0% vs expected 0.4% → ~0 clicks · "radiography testing"
+
+/glossary/cswip
+   recoverable ~3 clicks · 105 impr · 0 clicks now
+       105i p  7.5 · actual 0.0% vs expected 3.1% → ~3 clicks · "cswip"
+
+/best-ndt-reporting-software-2026
+   recoverable ~3 clicks · 100 impr · 0 clicks now
+       100i p  7.6 · actual 0.0% vs expected 3.0% → ~3 clicks · "ndt reporting software"
+
+/blog/visual-testing
+   recoverable ~3 clicks · 69 impr · 1 clicks now
+        31i p  4.6 · actual 0.0% vs expected 5.8% → ~2 clicks · "asme v article 9"
+        38i p  4.8 · actual 2.6% vs expected 5.5% → ~1 clicks · "asme section v article 9"
+
+/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison
+   recoverable ~3 clicks · 39 impr · 1 clicks now
+        39i p  3.1 · actual 2.6% vs expected 9.7% → ~3 clicks · "asnt snt-tc-1a"
+
+══ FEATURED-SNIPPET CANDIDATES (question intent, p<=8) ══
+These usually lose the click to a snippet box. Answer the question in
+40-55 words immediately under a heading that restates it verbatim.
+     38i p  7.9 0.0%  "how much do ndt technicians make"  → /blog/ndt-salary-guide-2026-global

@@ -1312,3 +1312,36 @@ pre-existing related-links nav, not new copy).
 "Do not add ERP city permutations" stands as the DEFAULT; this push is an
 owner-directed exception executed as market research pages (the only city-page
 form that has ever earned — §26.1), not name-swap permutations.
+
+---
+
+## 29. CTR engine interim + snippet round 2 + off-page round 2 — 2026-08-06
+
+### 29.1 Engine reading (28d to 2026-08-04 — waves 4/5 mostly NOT in window yet)
+`scripts/ctr-engine-snapshot-2026-08-06.txt`. **380 recoverable clicks/28d**
+(the 751 baseline was a 90d window — compare same-window at ~2026-09-01).
+Dominant pattern unchanged: position 2–8 at ~0% CTR = snippet/AI-overview
+capture. Top offenders → all now carry §25.4-style direct-answer blocks:
+salary guide (~77 recov.), exam schedule (~51), tank guide (~36), ASME V
+Art.4 (Art.6 already had one), /asnt-certification ("ndt level 3 course
+fees" p2.2 answered with quote framing, §18-compliant).
+⚠️ The salary-guide snippet carries retained salary figures — it is the ONE
+exemption in `assertNoPricesInConsolidation` (SALARY_EXEMPT set). Do not
+widen that set casually.
+
+### 29.2 Off-page round 2 — `scripts/satellite-erp-us-articles.mjs`
+Five standalone technical articles on git-linked satellites, each 2–3
+contextual links into the software head pages (+1 city page where natural):
+offline-first field capture (ndt-knowledge-hub) · owner data demands
+(asset-integrity-hub) · national-contract certification records
+(api-certification-guide) · fab-shop report turnaround
+(construction-ndt-guide) · PAUT data management (advanced-ndt-techniques).
+Round-1 anti-footprint discipline maintained. Satellites auto-build on push
+(folder-diff ignore command). NOTE: `indexnow-ping.mjs` is hardcoded to the
+atlantisndt.com host — satellite articles are discovered via their own
+sitemaps, do not try to push them through IndexNow.
+
+### 29.3 Next measurement
+~2026-09-01, same-window engine run: recoverable/28d should fall from 380;
+watch the five snippet pages' CTR specifically, plus erp-us family
+impressions (54-URL list) and the head terms (reporting software p9 → top 5?).
