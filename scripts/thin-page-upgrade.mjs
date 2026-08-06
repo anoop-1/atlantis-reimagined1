@@ -43,6 +43,7 @@ import { applyTrainingCityIntl, assertNoPricesInTrainingIntl } from './training-
 import { applyErpUsMarketDepth, assertErpUsNoNumbers } from './erp-us-market-depth.mjs';
 import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boost-2026-08-06.mjs';
 import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth-2026-08-06.mjs';
+import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-06.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -694,5 +695,8 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // §27.5 backlog: consulting hub, ndt-connect, L3 city pages (framing
     // kept), 11 resources templates, Course JSON-LD on training city pages.
     backlog: (assertNoPricesInBacklogDepth(), JSON.stringify(applyBacklogDepth(routes, append))),
+    // Thin sweep: 12 compare pages, 13 corporate-training verticals, and the
+    // earning singles (tofd, api-570-training, consulting-me, contact, press, faq).
+    thinSweep: (assertNoPricesInThinSweep(), JSON.stringify(applyThinSweep(routes, append))),
   };
 }

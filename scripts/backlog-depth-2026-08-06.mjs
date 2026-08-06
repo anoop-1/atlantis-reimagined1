@@ -154,9 +154,12 @@ export function applyBacklogDepth(routes, append) {
     }
   }
 
+  const resourceCloser = `
+      <h2>Where this document sits in the wider system</h2>
+      <p>Templates fail as loose files and work as parts of a system: this document should cross-reference the records that feed it and the decisions it feeds, carry a revision history like any controlled document, and live where the whole team retrieves the CURRENT version — not the copy someone improved privately last year. Companies running their inspection operations on a single system of record generate most of these documents from live data rather than filling them by hand; that is the practical difference between <a href="/ndt-erp-solution">managed records</a> and managed paperwork. Browse <a href="/resources">all templates and resources</a>, or <a href="/contact?service=erp">ask how the generated version works</a>.</p>`;
   for (const [slug, body] of Object.entries(RESOURCE_DEPTH)) {
     const r = byPath.get(`/resources/${slug}`);
-    if (r) { append(r, `<section aria-label="Using this template well">${body}</section>`); out.resources++; }
+    if (r) { append(r, `<section aria-label="Using this template well">${body}${resourceCloser}</section>`); out.resources++; }
   }
 
   // Course schema: every /ndt-training-{slug} page, name derived from the H1

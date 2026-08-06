@@ -1361,3 +1361,41 @@ impressions (54-URL list) and the head terms (reporting software p9 → top 5?).
   UTC). Session cron 80f0f90b auto-deploys + verifies + submits; if the
   session dies first, the next push after reset carries everything — verify
   deployed SHA before claiming live (§23.4).
+
+---
+
+## 30. Thin-content sweep + PT-method bug — 2026-08-06
+
+### 30.1 🔴 BUG — penetrant-testing was missing from the method-city METHODS map
+The 48-market map covered UT/RT/MT/**ET**/VT — but the live route family is
+UT/RT/MT/**PT**/VT/ET (both PT and ET exist). ~97 /penetrant-testing-{city}
+pages never received market blocks, including the family's top thin earner
+(/penetrant-testing-toronto, 103i). Fixed: PT added to METHODS + a PT line in
+all 13 METHOD_IN_INDUSTRY industries. Method-city localised 208 → **252**.
+**Lesson: when a generator keys off a method list, diff that list against the
+actual route families in dist — a missing key fails silently.**
+
+### 30.2 Thin sweep (`thin-sweep-2026-08-06.mjs`) — 31 pages, ~900i
+- 12 /compare/* pages (~370i): each per the §23.3 rule — credit the rival
+  honestly first (GE Vernova APM, SAP PM, ETQ, Maximo ×2, NetSuite, Procore,
+  QuickBooks, Aspen Mtell, Bentley AssetWise, Floodlight, consulting-vs-in-house).
+- 13 /corporate-training/* verticals (~340i): real per-vertical competency
+  content + shared programme-mechanics closer (identical process is honest).
+- Singles: /tofd-testing 764w · /api-570-training 837w · /consulting-me 684w
+  (operator-regime framing: SAES/ADNOC/QE) · /contact 719w · /press 651w ·
+  /faq 730w.
+- Resources closer pushed all 11 templates ≥650w.
+
+### 30.3 Thin state after sweep (build: 5,111 sitemap URLs, avg 1,113w)
+787 → **~700**, and the remainder is deliberate:
+- methods 338 / glossary 104 / dt 82 / training 102 — the SILENT tail
+  (~2-6i/page). §20.2/§23.3 rules hold: no padding without demand or research.
+- home (1,682i @ 622w) — deliberately untouched; homepage depth ≠ SEO text dump.
+- /blog/ut-vs-rt-comparison — canonical donor, never upgrade.
+All demand-bearing thin pages (>40i) are now ≥650w with authored content.
+
+### 30.4 Pending deploy (quota)
+FIVE commits queued behind the 100/24h ceiling; session cron 80f0f90b fires
+after 2026-08-07 02:10 UTC reset → deploy HEAD, verify, submit. URL list for
+this sweep: compare (12) + corporate-training (13) + singles (6) + resources
+(11) + /penetrant-testing-{mapped-city} pages.

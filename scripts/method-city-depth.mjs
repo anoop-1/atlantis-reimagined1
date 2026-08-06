@@ -51,6 +51,10 @@ const METHODS = {
     name: 'Magnetic Particle Testing', short: 'MT',
     codes: 'ASME Section V Article 7, ASTM E709 and E1444, and the ISO 9934 series, with acceptance from the governing construction code',
   },
+  'penetrant-testing': {
+    name: 'Penetrant Testing', short: 'PT',
+    codes: 'ASME Section V Article 6, ASTM E165 and E1417, and the ISO 3452 series, with acceptance from the referencing construction code',
+  },
   'eddy-current-testing': {
     name: 'Eddy Current Testing', short: 'ET',
     codes: 'ASME Section V Article 8 and its tubing appendices, ISO 15548, and ASTM E243 for tube examination',
@@ -69,6 +73,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Refinery turnarounds pull radiography for weld acceptance on piping tie-ins and vessel repairs, where a permanent image is required before insulation and fireproofing close the work.',
     'magnetic-particle-testing': 'MT is the workhorse for surface cracking on refinery equipment — nozzle welds, skirt attachments and internally on vessels during turnaround entry, particularly where wet H2S service makes surface breaking cracks credible.',
     'eddy-current-testing': 'Refinery exchanger bundles are examined with eddy current at every major turnaround — bobbin screening for wall loss across thousands of non-ferrous tubes, with array or rotating probes on the indications that matter.',
+    'penetrant-testing': "Penetrant testing carries the refinery's non-magnetic work: austenitic overlay and cladding checks, stainless and alloy piping welds, and threaded or machined components where MT cannot be applied — with high-sensitivity penetrants on hydrogen-service equipment.",
     'visual-testing': 'Every refinery inspection starts visual: external corrosion under insulation evidence, support and foundation condition, and internal vessel entry examinations that decide what the rest of the scope becomes.',
   },
   petrochemical: {
@@ -76,6 +81,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'New unit construction and revamp tie-ins in petrochemical plants specify radiography for closure welds where hydrotest is impractical, and film or digital records are retained for the unit life.',
     'magnetic-particle-testing': 'Petrochemical reactors and high-pressure equipment take MT on weld overlays and nozzle repairs, where surface-breaking indications must be found before hydrogen service resumes.',
     'eddy-current-testing': 'Cracker and polymer plant exchangers carry large non-ferrous bundles where bobbin eddy current is the only practical way to establish tube condition inside a shutdown window.',
+    'penetrant-testing': "PT is the surface method for the stainless and nickel-alloy circuits petrochemical services demand — dye and fluorescent examination of alloy welds, flare components and machined sealing faces where ferromagnetic methods are off the table.",
     'visual-testing': 'Visual examination governs petrochemical turnaround scope — refractory condition, tray and internals damage, and coating breakdown are all visual calls that steer the volumetric work.',
   },
   lng: {
@@ -83,6 +89,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'LNG construction is radiography-heavy: tank shell courses, cryogenic piping and module fabrication welds are examined to demanding acceptance criteria with records kept for the facility life.',
     'magnetic-particle-testing': 'Carbon steel structures around LNG trains — pipe racks, module steel, tank bases — take MT on their welds, while the cryogenic alloys themselves fall to penetrant instead.',
     'eddy-current-testing': 'LNG plant exchangers and the fin-fan fleet supporting liquefaction take eddy current examination between runs, where tube failure means capacity loss on a scheduled cargo.',
+    'penetrant-testing': "Cryogenic plant is austenitic almost throughout, which makes penetrant testing the default surface method — stainless piping welds, aluminium exchanger repairs and nickel-steel transitions all take PT to demanding acceptance classes.",
     'visual-testing': 'Perlite settlement evidence, outer-tank condition and pipework support checks make visual examination a scheduled activity across any LNG facility.',
   },
   offshore: {
@@ -90,6 +97,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Offshore fabrication yards radiograph structural and piping welds before load-out; in-service, radiography is used selectively where habitat access and source control can be arranged.',
     'magnetic-particle-testing': 'Fatigue is the offshore mechanism, and MT finds it — node welds, conductor guides and crane pedestals are examined on rotation because cyclic loading never stops.',
     'eddy-current-testing': 'Offshore MT gives way to eddy current and ACFM where coatings must stay intact — weld toes on primary structure can be examined through paint, saving the blast-and-recoat cycle.',
+    'penetrant-testing': "Offshore, PT handles what MT cannot: duplex and super-duplex welds, clad connections and non-magnetic fittings, examined between weather windows with solvent-removable technique where washdown is impractical.",
     'visual-testing': 'General visual inspection programmes on platforms feed the anomaly register that drives everything else — coating breakdown, anode depletion, dropped-object damage and seafastening condition.',
   },
   pipeline: {
@@ -97,6 +105,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Girth weld radiography under API 1104 remains the default on new pipeline construction in most jurisdictions, with acceptance criteria that differ genuinely from plant codes.',
     'magnetic-particle-testing': 'Pipeline dig sites use MT on exposed weld seams and dents where cracking is suspected, and on repair sleeves before recoating and backfill.',
     'eddy-current-testing': 'Above-ground pipeline facilities — pump and compressor stations — bring exchanger and cooler bundles into eddy current scope alongside the mainline programme.',
+    'penetrant-testing': "On pipelines PT serves the fittings and stations more than the line pipe — valve bodies, machined faces and stainless instrument tie-ins, plus weld repairs where a surface method must confirm complete excavation of a flaw.",
     'visual-testing': 'Coating condition, CP test-post readings context and dent or gouge assessment at dig sites are visual work that determines whether a pipeline anomaly needs anything more.',
   },
   marine: {
@@ -104,6 +113,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Shipyard new-building and major steel renewal use radiography on butt welds in primary hull structure, to class society acceptance.',
     'magnetic-particle-testing': 'Class surveys call MT on hatch corners, crane pedestals, rudder horns and other fatigue-prone details, where the finding decides steel renewal scope.',
     'eddy-current-testing': 'Marine diesel engine components, turbocharger parts and shaft tapers are examined with eddy current during overhaul, where a missed crack ends up as a tow.',
+    'penetrant-testing': "Shipyard PT concentrates on the non-magnetic scope — aluminium superstructures, propeller and shaft components, and stainless systems — where dye penetrant fits survey and repair work without magnetisation concerns.",
     'visual-testing': 'Every class survey is anchored in visual examination — structure, coatings in ballast tanks, and the close-up surveys that scaffolding and rafting exist to enable.',
   },
   aviation: {
@@ -111,6 +121,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Aircraft radiography examines castings, honeycomb water ingress and closed structure where disassembly is uneconomic, under NAS 410 / EN 4179 personnel requirements.',
     'magnetic-particle-testing': 'Landing gear and engine components in martensitic steels are magnetic particle territory — high-strength parts where grinding cracks and fatigue must be found at overhaul.',
     'eddy-current-testing': 'Eddy current is aviation\'s surface method of choice — fastener hole inspection with rotating probes, surface cracks at radii, and conductivity sorting after fire or heat damage.',
+    'penetrant-testing': "Fluorescent penetrant inspection is aerospace's signature process: engine and airframe components pass through controlled FPI lines under NAS 410 personnel and Nadcap process audit, at sensitivity levels field methods never reach.",
     'visual-testing': 'Detailed visual inspection under an approved maintenance programme is the most performed aircraft inspection of all, with borescope work extending it inside engines and closed bays.',
   },
   power: {
@@ -118,6 +129,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'High-energy piping welds in power stations are radiographed at construction and selectively in service, with records retained against creep-life assessment.',
     'magnetic-particle-testing': 'Turbine components, boiler headers and structural welds take MT during outages — surface cracking at stub welds and attachment details is a known header mechanism.',
     'eddy-current-testing': 'Condenser and feedwater heater tubing is eddy current\'s core power-generation work — full-bundle screening each major outage with plugging decisions made tube by tube.',
+    'penetrant-testing': "Power-plant PT covers turbine blading, stainless welds in feedwater and steam chemistry systems, and repair excavation checks during outages — fluorescent technique in the shops, visible dye at the machine.",
     'visual-testing': 'Boiler internal inspections, casing and duct condition, and remote visual work in headers and drums set the volumetric scope for every outage.',
   },
   mining: {
@@ -125,6 +137,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Fabrication of mining structures and pressure equipment for processing plants uses radiography at the workshop stage, where access is still easy.',
     'magnetic-particle-testing': 'Ground-engaging tools, crane and dragline structural welds and winder components are examined with MT on maintenance cycles driven by fatigue history.',
     'eddy-current-testing': 'Wire ropes on winders and draglines are examined electromagnetically, and processing-plant exchangers bring conventional eddy current into mining scope.',
+    'penetrant-testing': "In mining plant PT examines the machined and non-magnetic scope — shaft journals, manganese components and repair welds on equipment where surface cracking decides service life between rebuilds.",
     'visual-testing': 'Structural visual inspection across conveyors, bins and headframes feeds the defect register that maintenance planning runs on.',
   },
   fabrication: {
@@ -132,6 +145,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Shop radiography remains the reference for coded vessel and spool fabrication — the image travels with the data book the client audits.',
     'magnetic-particle-testing': 'In-process MT on fit-ups, tack repairs and completed structural welds catches surface defects while rework is cheap.',
     'eddy-current-testing': 'Material verification and sorting — mixed stock, heat-treat condition checks — bring eddy current into fabrication QA alongside dedicated weld techniques.',
+    'penetrant-testing': "Fab-shop PT clears the stainless and alloy production MT cannot touch — pressure-part welds, food-and-pharma finishes and machined components — usually visible dye at the bench and fluorescent where the class demands it.",
     'visual-testing': 'CWI-style visual acceptance is the first gate on every production weld: profile, undercut and reinforcement checked before any volumetric method is spent.',
   },
   automotive: {
@@ -139,6 +153,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Safety-critical castings — steering knuckles, suspension components — are radiographed on sampling plans tied to process control.',
     'magnetic-particle-testing': 'Crankshafts, axles and forged steel components pass through MT benches as a production step, with demagnetisation controlled before assembly.',
     'eddy-current-testing': 'Eddy current earns its place in automotive as an inline method — hardness and structure verification, crack detection on machined surfaces, at line speed.',
+    'penetrant-testing': "Automotive plants run penetrant lines on non-ferrous castings and machined safety components — fluorescent examination at production rate, with process controls per E1417 keeping bath sensitivity honest.",
     'visual-testing': 'Weld and coating visual inspection at defined stations, increasingly camera-assisted, is the volume NDT of any vehicle plant.',
   },
   steel: {
@@ -146,6 +161,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Heavy fabrication attached to steelworks — ladles, furnace shells, structural rebuilds — draws radiography for coded welds.',
     'magnetic-particle-testing': 'Rolls, couplings, hooks and lifting equipment in a steel plant are examined with MT on statutory and maintenance cycles.',
     'eddy-current-testing': 'Hot and cold mill product inspection uses eddy current for surface defect detection at line speed, where a missed defect becomes a claim.',
+    'penetrant-testing': "Steel-plant PT works the finishing end: machined rolls, non-magnetic fittings and weld repairs on austenitic furnace components, where dye penetrant confirms surface integrity before parts return to line.",
     'visual-testing': 'Refractory, shell and structural condition assessment across furnaces and casters is visual work under severe access constraints.',
   },
   rail: {
@@ -153,6 +169,7 @@ const METHOD_IN_INDUSTRY = {
     'radiographic-testing': 'Thermite and flash-butt weld examination on track uses radiography where the geometry defeats other methods.',
     'magnetic-particle-testing': 'Wheelsets, axles and bogie frames pass through MT during overhaul, where fatigue cracking is the dominant find.',
     'eddy-current-testing': 'Rolling-contact fatigue on the railhead is screened with eddy current from inspection vehicles, complementing the ultrasonic programme.',
+    'penetrant-testing': "Rail workshops apply PT to the non-magnetic and machined scope — axle journals during overhaul, aluminium body repairs and stainless brake components — beside the MT that owns the ferromagnetic parts.",
     'visual-testing': 'Track patrol and workshop visual examination remain the first detection layer for the whole railway inspection system.',
   },
 };
