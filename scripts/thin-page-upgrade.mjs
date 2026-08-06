@@ -40,6 +40,8 @@ import { applyTrainingCityDepth } from './training-city-depth.mjs';
 import { applyConsolidation } from './consolidation-2026-08.mjs';
 import { applyMethodCityDepth, assertNoPricesInMethodCityDepth } from './method-city-depth.mjs';
 import { applyTrainingCityIntl, assertNoPricesInTrainingIntl } from './training-city-intl.mjs';
+import { applyErpUsMarketDepth, assertErpUsNoNumbers } from './erp-us-market-depth.mjs';
+import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boost-2026-08-06.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -680,5 +682,13 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // Reuses the 40-market industrial map to compose training-specific advice —
     // which methods the local work pulls, which scheme employers name.
     trainingIntl: (assertNoPricesInTrainingIntl(), applyTrainingCityIntl(routes, append)),
+    // US ERP push (owner-directed 2026-08-06): market-depth for NDT service
+    // provider companies on /ndt-erp-{city} US pages. No numerals outside
+    // standards designations (assert), no pricing.
+    erpUs: (assertErpUsNoNumbers(), applyErpUsMarketDepth(routes, append)),
+    // USA head-term boost: additive sections on the pages that OWN the target
+    // queries (ndt reporting software p9, inspection software, api 653 tank
+    // companies, asnt nationwide contracts).
+    headterms: (assertNoPricesInHeadterm(), applyHeadtermBoost(routes, append)),
   };
 }

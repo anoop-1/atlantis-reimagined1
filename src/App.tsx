@@ -2235,6 +2235,19 @@ const ResourcesDownloads = lazy(() => import("./pages/resources-downloads"));
 const PressMedia = lazy(() => import("./pages/press-media"));
 // ERP Location Pages
 const NDTErpHouston = lazy(() => import("./pages/ndt-erp-houston"));
+// === ERP US push 2026-08-06 ===
+const NDTErpBirmingham = lazy(() => import("./pages/ndt-erp-birmingham"));
+const NDTErpPortland = lazy(() => import("./pages/ndt-erp-portland"));
+const NDTErpNewark = lazy(() => import("./pages/ndt-erp-newark"));
+const NDTErpBillings = lazy(() => import("./pages/ndt-erp-billings"));
+const NDTErpCasper = lazy(() => import("./pages/ndt-erp-casper"));
+const NDTErpWilliston = lazy(() => import("./pages/ndt-erp-williston"));
+const NDTErpSaltLakeCity = lazy(() => import("./pages/ndt-erp-salt-lake-city"));
+const NDTErpFreeport = lazy(() => import("./pages/ndt-erp-freeport"));
+const NDTErpGary = lazy(() => import("./pages/ndt-erp-gary"));
+const NDTErpTampa = lazy(() => import("./pages/ndt-erp-tampa"));
+const NDTErpJacksonville = lazy(() => import("./pages/ndt-erp-jacksonville"));
+
 const NDTErpDubai = lazy(() => import("./pages/ndt-erp-dubai"));
 const NDTErpAbuDhabi = lazy(() => import("./pages/ndt-erp-abu-dhabi"));
 const NDTErpSaudiArabia = lazy(() => import("./pages/ndt-erp-saudi-arabia"));
@@ -4521,6 +4534,17 @@ const App = () => (
                   <Route path="/digital-twin-taiwan" element={<LazyRoute Component={DigitalTwinTaiwanCountry} />} />
                   {/* ERP Location Pages */}
                   <Route path="/ndt-erp-houston" element={<LazyRoute Component={NDTErpHouston} />} />
+                  <Route path="/ndt-erp-birmingham" element={<LazyRoute Component={NDTErpBirmingham} />} />
+                  <Route path="/ndt-erp-portland" element={<LazyRoute Component={NDTErpPortland} />} />
+                  <Route path="/ndt-erp-newark" element={<LazyRoute Component={NDTErpNewark} />} />
+                  <Route path="/ndt-erp-billings" element={<LazyRoute Component={NDTErpBillings} />} />
+                  <Route path="/ndt-erp-casper" element={<LazyRoute Component={NDTErpCasper} />} />
+                  <Route path="/ndt-erp-williston" element={<LazyRoute Component={NDTErpWilliston} />} />
+                  <Route path="/ndt-erp-salt-lake-city" element={<LazyRoute Component={NDTErpSaltLakeCity} />} />
+                  <Route path="/ndt-erp-freeport" element={<LazyRoute Component={NDTErpFreeport} />} />
+                  <Route path="/ndt-erp-gary" element={<LazyRoute Component={NDTErpGary} />} />
+                  <Route path="/ndt-erp-tampa" element={<LazyRoute Component={NDTErpTampa} />} />
+                  <Route path="/ndt-erp-jacksonville" element={<LazyRoute Component={NDTErpJacksonville} />} />
                   <Route path="/ndt-erp-dubai" element={<LazyRoute Component={NDTErpDubai} />} />
                   <Route path="/ndt-erp-abu-dhabi" element={<LazyRoute Component={NDTErpAbuDhabi} />} />
                   <Route path="/ndt-erp-saudi-arabia" element={<LazyRoute Component={NDTErpSaudiArabia} />} />

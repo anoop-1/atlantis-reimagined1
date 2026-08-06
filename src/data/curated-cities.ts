@@ -350,6 +350,7 @@ export const DT_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have an /ndt-erp-{slug} page. */
 export const ERP_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'birmingham','portland','newark','billings','casper','williston','salt-lake-city','freeport','gary','tampa','jacksonville', // ERP US push 2026-08-06
   'map-ta-phut','rayong','ulsan','yeosu','daesan','kawasaki','yokkaichi','mailiao','karachi','colombo','antwerp','wilhelmshaven','ludwigshafen','leuna','tarragona','sines','porvoo','gdansk','schwechat','le-havre','jazan','rabigh','sitra','skikda','arzew','mohammedia','mangalore','paradip','panipat','dahej','cartagena','talara','esmeraldas','tula','salina-cruz','mombasa','pointe-noire','whiting','garyville','toledo-ohio', // scale add 2026-07-24
   'adelaide','geelong','kwinana','mackay','wollongong','new-plymouth','whangarei','tauranga','saint-john','regina','saskatoon','nanticoke', // AU/NZ/CA add 2026-07-24
   'aberdeen','abu-dhabi','accra','ahmedabad','algeria','anchorage','angola','argentina',

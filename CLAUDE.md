@@ -1252,3 +1252,63 @@ Demand-ranked leftovers for the NEXT cycle:
 2. Course schema (extra JSON-LD block) on training city pages — still open.
 3. ~2026-09-01 measurement (§25.8 / §26.5): ctr engine <751 recoverable?,
    wave 4/5 clicks, method-city + intl-training impressions vs baseline.
+
+---
+
+## 28. US ERP push — market depth + head-term boost — 2026-08-06 (owner-directed)
+
+### 28.1 The keyword truth for US ERP (fresh GSC API pull, USA-only, 90d)
+`scripts/gsc-usa-90d-2026-08-06.json` (country-filtered query + query-page
+pulls; pattern in scratchpad gsc-usa-pull.mjs). USA total: ~26.7k impr, 85
+clicks, 0.32% CTR. Segments: training 6,692i · codes 3,618i · methods 3,528i ·
+services 1,091i · **software/ERP 1,069i** · salary 1,017i.
+
+**There are NO city-level ERP queries in the US.** The software demand is
+national head terms:
+| Query | Impr | Pos | Owning page |
+|---|---:|---:|---|
+| ndt reporting software | 96 | **9** | /best-ndt-reporting-software-2026 |
+| ndt inspection software | 128 | 19 | /blog/ndt-inspection-software-2026-… |
+| ndt software | 128 | 62 | (authority gap) |
+| ndt inspection management software | 20 | 45 | landing on /ndt-connect (wrong page) |
+| api 653 tank inspection companies | 135 | 35 | /blog/api-653-tank-inspection-guide |
+| asnt certification nationwide contracts | 94 | 18 | /asnt-certification |
+
+City pages therefore serve LONG-TAIL + CONVERSION (visitors the head pages
+send), not rankings — the head pages carry the ranking fight. Both were built.
+
+### 28.2 What shipped
+- **`scripts/erp-us-market-depth.mjs`** — 49 hand-written US NDT markets
+  (base / work / anchor per market + ERP-fit prose per market TYPE ×7 +
+  type-varied capability leads). Audience = NDT service-provider owners.
+  Applied to /ndt-erp-{slug}; min 1,728w, avg 2,077w across the family.
+  `assertErpUsNoNumbers()`: digits only inside standards designations
+  (SNT-TC-1A, CP-189, ISO 17025, API 5xx, NAS 410, ISO 9712) — strip
+  `<[^>]+>` BEFORE the digit scan or `<h2>` false-positives.
+- **11 new city pages** (routes + wrappers + curated-cities): birmingham,
+  portland, newark, billings, casper, williston, salt-lake-city, freeport,
+  gary, tampa, jacksonville. NOTE: 'toledo' is slug `toledo-ohio`.
+- **`scripts/us-headterm-boost-2026-08-06.mjs`** — additive sections on the 5
+  OWNING pages (reporting-software snippet answer + buyer checklist;
+  provider-first shortlist criteria on the blog comparison; US-providers
+  section with city links on /ndt-erp-solution; "choose an API 653 tank
+  inspection company" on the tank guide; "nationwide contracts" on
+  /asnt-certification).
+
+### 28.3 Similarity reality on the ERP city family
+Whole-page shingle Jaccard between same-type siblings: 0.77–0.82 WITH the new
+depth vs **0.84–0.86 family baseline without it** — the shared
+ErpLocationPage template dominates the page mass. The depth blocks reduce
+similarity; they cannot beat the template. If the family ever needs to pass a
+0.55-style gate, the template itself must be varied, not the appended content.
+
+### 28.4 Verified (build 5,112 URLs, drift PASS)
+49/49 depth blocks · 5/5 head-term blocks · new pages canonical-clean,
+indexable, sitemapped 11/11 · no pricing (strict audit: 0 forbidden) · no
+numerals outside standards in ERP copy (the one flagged digit is a
+pre-existing related-links nav, not new copy).
+
+### 28.5 §20.2 note
+"Do not add ERP city permutations" stands as the DEFAULT; this push is an
+owner-directed exception executed as market research pages (the only city-page
+form that has ever earned — §26.1), not name-swap permutations.
