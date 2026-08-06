@@ -31,6 +31,7 @@
  */
 
 import { TERM_FACTS_TAIL } from './glossary-depth-tail.mjs';
+import { TERM_FACTS_TAIL2 } from './glossary-depth-tail2.mjs';
 
 const esc = (s) =>
   String(s == null ? '' : s)
@@ -888,4 +889,4 @@ export function glossaryDepthCoverage(entries) {
 }
 
 // 2026-08-05 tail extension (~30 terms, next half of remaining demand)
-Object.assign(TERM_FACTS, TERM_FACTS_TAIL);
+Object.assign(TERM_FACTS, TERM_FACTS_TAIL, TERM_FACTS_TAIL2);
