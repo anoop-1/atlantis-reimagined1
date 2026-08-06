@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const articles = [
     {
+      title: "What Asset Owners Should Demand From Their Inspection Contractor’s Data",
+      excerpt: "A PDF report is a photograph of data that lives somewhere else. What owners should require of contractor examination records — structure, attribution, exportability — and why the contractor’s own systems determine whether you can have it.",
+      date: "August 2026",
+      readTime: "10 min read",
+      href: "/blog/what-owners-should-demand-from-inspection-contractor-data",
+      category: "Data & Integrity",
+    },
+    {
       title: "Why RBI Programmes Drift, and How to Tell Early",
       excerpt: "Risk-based inspection programmes rarely fail loudly. They drift — default corrosion rates replace measured ones, CML identity blurs, and the ranking stops reflecting condition. Six early indicators, and what each one costs.",
       date: "July 2026",

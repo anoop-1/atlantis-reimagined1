@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+    {
+      title: "Certification Records Are a System, Not a Filing Cabinet: What National Contracts Now Require",
+      excerpt: "Master service agreements increasingly demand auditable personnel certification across every crew and every state. Why branch-by-branch record keeping fails national audits, and what centralised written-practice administration looks like.",
+      date: "August 2026",
+      readTime: "8 min read",
+      href: "/blog/certification-records-national-contracts",
+      category: "Certification & Compliance",
+    },
   {
     "title": "Certification Currency Is an Operations Problem, Not an HR One",
     "description": "Expired certifications are almost never discovered by the company that holds them — they are discovered at a client gate. The reason is structural: the record lives somewhere the dispatch decision never looks.",

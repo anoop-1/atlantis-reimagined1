@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+    {
+      title: "PAUT’s Quiet Bottleneck Is Data Management, Not Data Acquisition",
+      excerpt: "Phased array instruments produce gigabytes per shift; most companies still manage the output like radiographs in a filing cabinet. Encoded-scan files, analyst workflow and deliverables — where advanced UT programmes actually lose time.",
+      date: "August 2026",
+      readTime: "9 min read",
+      href: "/blog/paut-data-management-bottleneck",
+      category: "Advanced Ultrasonics",
+    },
   {
     "title": "Automating Advanced NDT Reporting with an Inspection ERP",
     "description": "How inspection companies use ERP-driven templates and workflows to automate PAUT, TOFD, and advanced method report generation and QA review.",

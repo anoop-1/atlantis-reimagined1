@@ -34,5 +34,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/digital-twin-for-structural-integrity-monitoring`, lastModified: '2026-01-22', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/the-quality-record-is-what-gets-audited-not-the-programme`, lastModified: '2026-07-24', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/fab-shop-inspection-reporting-speed`, lastModified: '2026-08-02', changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 }

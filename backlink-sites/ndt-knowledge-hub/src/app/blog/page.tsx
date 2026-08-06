@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+    {
+      title: "Offline-First Field Data Capture: The Feature Inspection Crews Discover They Needed Too Late",
+      excerpt: "Dig sites, tank farms and compressor stations are connectivity dead zones. Why offline-first capture beats feature lists when inspection data has to survive the trip back to the office — and what re-keyed field sheets actually cost.",
+      date: "August 2026",
+      readTime: "9 min read",
+      href: "/blog/field-data-capture-offline-first-inspection",
+      category: "Inspection Technology",
+    },
   {
     "title": "Four Different Things Are Called \"NDT Software\" — and Buyers Keep Confusing Them",
     "description": "Instrument acquisition suites, simulation packages, generic CMMS and inspection business management systems all get returned for the same search. Buying the wrong category is the most expensive mistake in this market.",

@@ -20,5 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/digital-twin-for-api-510-pressure-vessel-inspection`, lastModified: '2025-06-18', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/certification-currency-is-an-operations-problem-not-an-hr-one`, lastModified: '2026-07-11', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/certification-records-national-contracts`, lastModified: '2026-08-03', changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 }

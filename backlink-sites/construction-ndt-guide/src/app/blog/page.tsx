@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+    {
+      title: "In Fab-Shop NDT, Report Turnaround Is the Product",
+      excerpt: "The shop cannot ship until the report exists. Why inspection companies serving fabricators win or lose on documentation speed, and where the hours actually go between probe-off and report-issued.",
+      date: "August 2026",
+      readTime: "8 min read",
+      href: "/blog/fab-shop-inspection-reporting-speed",
+      category: "Fabrication & Welding",
+    },
   {
     "title": "Digital Twin for Structural Integrity Monitoring in Construction",
     "description": "How structural engineers use asset digital twins to track weld condition, deflection, and inspection history across buildings, bridges, and civil structures.",

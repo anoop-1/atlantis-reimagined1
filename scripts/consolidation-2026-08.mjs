@@ -268,6 +268,28 @@ const SNIPPETS = {
     q: 'What is SNT-TC-1A?',
     a: 'SNT-TC-1A is an ASNT recommended practice, not a standard. It gives an employer the framework to write its own Written Practice covering training hours, experience, examinations and vision requirements for certifying NDT personnel. Because it recommends rather than mandates, auditors ask to see the employer\'s Written Practice.',
   },
+  /* ── 2026-08-06 additions — ctr-opportunity-engine 28d: p2–8 queries at ~0%
+        CTR, the snippet/AI-overview capture pattern (§25.4). ─────────────── */
+  '/blog/ndt-salary-guide-2026-global': {
+    q: 'How much does an NDT technician make?',
+    a: 'In the United States an NDT technician typically earns $45,000–$70,000 a year at Level II, rising to $70,000–$120,000+ at Level III, with entry-level Level I roles starting around $35,000–$50,000. Method mix, industry and travel move the number substantially — aerospace, rope access and turnaround work pay above the base ranges.',
+  },
+  '/blog/api-510-570-653-exam-schedule-2026': {
+    q: 'When are the API 510, 570 and 653 exams held?',
+    a: 'API runs its ICP examinations in scheduled windows across the year rather than on fixed single dates, with computer-based testing booked through its testing partner. Applications close well before each window opens, so the practical deadline is the application cut-off — not the exam date. The full window-by-window schedule and application deadlines are below.',
+  },
+  '/blog/api-653-tank-inspection-guide': {
+    q: 'What is API 653?',
+    a: 'API 653 is the standard governing inspection, repair, alteration and reconstruction of aboveground storage tanks after they enter service. It sets internal and external inspection intervals from measured corrosion rates, requires a certified API 653 inspector to evaluate findings, and defines when a tank must be repaired, re-rated or retired.',
+  },
+  '/blog/asme-section-v-article-4-ut-requirements-explained': {
+    q: 'What does ASME Section V Article 4 cover?',
+    a: 'Article 4 governs ultrasonic examination of welds: instrument and search-unit requirements, calibration on basic calibration blocks, scanning technique and coverage, and how indications are recorded. It defines the method only — acceptance criteria come from the referencing code section, such as ASME VIII or B31.3.',
+  },
+  '/asnt-certification': {
+    q: 'How much does NDT Level III certification cost?',
+    a: 'The total depends on the route and the number of methods: examination fees per method to the certifying body, training or preparation per method, and renewal over the certificate\'s life. Fees change on the certifying body\'s published schedule, so budget from their current fee list — and weigh the cost against Level III salary premiums, which typically repay it within the first year.',
+  },
 };
 
 /* ── rendering ────────────────────────────────────────────────────────────── */
@@ -345,10 +367,14 @@ export function applyConsolidation(routes, append) {
 
 /** No Atlantis price may appear in any of this copy (CLAUDE.md §18). */
 export function assertNoPricesInConsolidation() {
+  // Industry salary figures are RETAINED by owner decision (2026-08-04, §27.1)
+  // — only the salary-guide snippet may carry money tokens; everything else
+  // stays under the full §18 scan.
+  const SALARY_EXEMPT = new Set(['/blog/ndt-salary-guide-2026-global']);
   const blobs = [
     LEVEL_III_BODY, RT_SERVICE_BODY,
     ...Object.values(TIER_B).flatMap((t) => [...t.body.flat(), ...t.faq.flat()]),
-    ...Object.values(SNIPPETS).flatMap((s) => [s.q, s.a]),
+    ...Object.entries(SNIPPETS).filter(([p]) => !SALARY_EXEMPT.has(p)).flatMap(([, s]) => [s.q, s.a]),
   ].join(' ');
   const m = blobs.match(/[$£€₹]\s?\d[\d,]*|\b\d+\s?(?:USD|EUR|GBP|SAR|AED|INR)\b|per day|\/day|per hour|\/hour/gi);
   if (m) {
