@@ -42,6 +42,7 @@ import { applyMethodCityDepth, assertNoPricesInMethodCityDepth } from './method-
 import { applyTrainingCityIntl, assertNoPricesInTrainingIntl } from './training-city-intl.mjs';
 import { applyErpUsMarketDepth, assertErpUsNoNumbers } from './erp-us-market-depth.mjs';
 import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boost-2026-08-06.mjs';
+import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth-2026-08-06.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -690,5 +691,8 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // queries (ndt reporting software p9, inspection software, api 653 tank
     // companies, asnt nationwide contracts).
     headterms: (assertNoPricesInHeadterm(), applyHeadtermBoost(routes, append)),
+    // §27.5 backlog: consulting hub, ndt-connect, L3 city pages (framing
+    // kept), 11 resources templates, Course JSON-LD on training city pages.
+    backlog: (assertNoPricesInBacklogDepth(), JSON.stringify(applyBacklogDepth(routes, append))),
   };
 }
