@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Cba4hDr6.js";import o from"./MethodLocationPage-CBXdBlou.js";import"./PillarHubNav-DYiypIRQ.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DI4PcLb3.js";function e(){return t.jsx(o,{methodSlug:"ultrasonic-testing",locationSlug:"tampa"})}export{e as default};

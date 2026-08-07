@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Cba4hDr6.js";import{D as o}from"./DigitalTwinLocationPage-7nNMRE79.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function e(){return t.jsx(o,{city:"Baytown",country:"USA",slug:"digital-twin-baytown"})}export{e as default};

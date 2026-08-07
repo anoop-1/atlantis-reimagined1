@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import e from"./MethodLocationPage-B5ga4tJr.js";import"./PillarHubNav-DYiypIRQ.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhM3z9LW.js";function m(){return t.jsx(e,{methodSlug:"penetrant-testing",locationSlug:"milwaukee"})}export{m as default};

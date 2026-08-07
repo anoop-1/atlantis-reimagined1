@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import{D as o}from"./DigitalTwinLocationPage-BcPVxw35.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function l(){return t.jsx(o,{city:"Stanlow",country:"UK",slug:"digital-twin-stanlow"})}export{l as default};

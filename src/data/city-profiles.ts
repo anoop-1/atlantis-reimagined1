@@ -1039,6 +1039,200 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCompliance: ["DGAQA (Directorate General of Aeronautical Quality Assurance)", "ISNT", "BIS", "ISO 9712", "ASNT SNT-TC-1A"],
     localCaseStudy: "A Nashik-based inspection firm supporting HAL's Ozar Division aerospace-component programme replaced manual DGAQA evidence-pack assembly with Atlantis NDT ERP and cut pre-audit documentation prep from 4 days to under 1.",
   },
+  // === US ERP market-depth extension 2026-08-07 — 19 additional US markets
+  // (Colorado Springs already covered; Odessa + Beaumont substituted per
+  // owner direction). Real named employers/regulators per market, matching
+  // the CLAUDE.md §28 style and depth bar established by houston/accra/nairobi.
+  'tulsa': {
+    uniqueLocalROI: "Tulsa-based inspection firms serving HF Sinclair's twin Tulsa refineries, ONEOK's midstream gathering and processing network, and American Airlines' Tulsa Maintenance Base (the carrier's largest MRO facility) using Atlantis NDT ERP typically cut OSHA PSM and FAA repair-station audit-evidence prep from days to hours, saving a meaningful share of a technician crew's non-billable admin time — commonly quoted at $150-220k/yr on a 25-technician mixed refining/aerospace operation.",
+    localIndustryUseCases: [
+      "HF Sinclair Tulsa refinery (East and West plants) turnaround pressure-vessel and piping inspection work-order routing with API 510/570 evidence export.",
+      "ONEOK midstream gathering, fractionation and NGL pipeline-integrity inspection scheduling across the Mid-Continent gathering network dispatched from Tulsa.",
+      "American Airlines Tulsa Maintenance Base NAS 410/FAA Part 145-aligned technician qualification and eddy-current/UT inspection-record tracking for airframe and engine component work.",
+    ],
+    localCompliance: ["OSHA PSM (29 CFR 1910.119)", "Oklahoma DEQ", "API 510/570/653", "NAS 410", "FAA Part 145", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Tulsa-based inspection firm serving HF Sinclair's refinery turnarounds and American Airlines' Maintenance Base replaced two separate certification trackers — one for API-code technicians, one for NAS 410 aerospace inspectors — with a single Atlantis NDT ERP roster and cleared its next FAA repair-station audit with zero qualification findings.",
+  },
+  'detroit': {
+    uniqueLocalROI: "Detroit-area inspection firms serving General Motors' Factory ZERO, Ford's Rouge Complex, Stellantis' Jefferson North and Mack assembly plants, and Cleveland-Cliffs' Dearborn Works integrated steel mill using Atlantis NDT ERP typically cut automotive-OEM supplier-quality evidence prep from days to hours, saving an estimated $180-260k/yr on a 30-technician crew spanning stamping-die, weld-robot cell and blast-furnace pressure-equipment scopes.",
+    localIndustryUseCases: [
+      "Stellantis Jefferson North and Mack Assembly weld-robot cell and stamping-die crack inspection scheduling with OEM supplier-quality evidence export.",
+      "Cleveland-Cliffs Dearborn Works blast furnace, coke battery and pressure-vessel inspection with API 510-aligned corrosion trending.",
+      "Ford Rouge Complex and GM Factory ZERO body-shop and press-line structural weld inspection-crew certification tracking across multiple shift rotations.",
+    ],
+    localCompliance: ["EGLE (Michigan Dept of Environment, Great Lakes and Energy)", "OSHA PSM (29 CFR 1910.119)", "API 510/570/653", "AWS D1.1", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Detroit-based inspection firm supporting Stellantis' Jefferson North plant and Cleveland-Cliffs' Dearborn Works consolidated separate automotive-plant and steel-mill certification logs into Atlantis NDT ERP and cut cross-site technician mobilisation prep from a multi-day exercise to a same-day roster pull.",
+  },
+  'phoenix': {
+    uniqueLocalROI: "Phoenix-area inspection firms serving Intel's Ocotillo campus, TSMC Arizona's North Phoenix fabs, and Honeywell Aerospace's Phoenix facilities using Atlantis NDT ERP typically cut semiconductor-fab and NAS 410 aerospace evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew split between cleanroom piping and aerospace component scopes.",
+    localIndustryUseCases: [
+      "Intel Ocotillo and TSMC Arizona ultra-high-purity gas and chemical delivery piping weld inspection with ASME B31.3 and semiconductor-fab damage-mechanism tracking.",
+      "Honeywell Aerospace Phoenix and Boeing Mesa (Apache helicopter) NAS 410-aligned technician qualification and RT/PT component-inspection record tracking.",
+      "Salt River Valley industrial-park pressure-vessel and structural-steel inspection scheduling for Phoenix's growing advanced-manufacturing corridor.",
+    ],
+    localCompliance: ["ADEQ (Arizona Department of Environmental Quality)", "OSHA PSM (29 CFR 1910.119)", "ASME B31.3", "NAS 410", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Phoenix-based inspection firm serving TSMC Arizona's fab-construction phase and Honeywell Aerospace replaced parallel spreadsheets for cleanroom-piping and NAS 410 aerospace technicians with a single Atlantis NDT ERP roster, cutting cross-client audit-pack assembly from days to a single afternoon.",
+  },
+  'milwaukee': {
+    uniqueLocalROI: "Milwaukee-area inspection firms serving Rockwell Automation's Milwaukee campus, Harley-Davidson's Menomonee Falls powertrain plant, and the heavy-equipment manufacturers descended from the former Bucyrus mining-shovel works using Atlantis NDT ERP typically cut AWS-code weld-inspection evidence prep from days to hours, saving an estimated $140-200k/yr on a 20-technician crew serving Wisconsin's industrial corridor.",
+    localIndustryUseCases: [
+      "Harley-Davidson Menomonee Falls powertrain-plant casting and weld inspection scheduling with AWS D1.1-aligned evidence export.",
+      "Rockwell Automation and A.O. Smith Milwaukee-area pressure-vessel and control-panel enclosure structural-weld inspection-crew certification tracking.",
+      "Caterpillar (former Bucyrus) mining-shovel and heavy-equipment fabrication inspection with large-casting UT and MT damage-mechanism profiles.",
+    ],
+    localCompliance: ["WDNR (Wisconsin Department of Natural Resources)", "OSHA PSM (29 CFR 1910.119)", "AWS D1.1", "API 510/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Milwaukee-based inspection firm serving Harley-Davidson's Menomonee Falls plant and a Caterpillar mining-equipment supplier consolidated two separate weld-qualification logs into Atlantis NDT ERP and eliminated a recurring AWS D1.1 currency gap flagged in back-to-back client audits.",
+  },
+  'minneapolis': {
+    uniqueLocalROI: "Minneapolis-area inspection firms serving Medtronic's Fridley and Mounds View manufacturing campuses, Cargill's Minnetonka-headquartered food-processing network, and General Mills' Minneapolis facilities using Atlantis NDT ERP typically cut FDA-adjacent medical-device traceability and food-grade pressure-vessel evidence prep from days to hours, saving an estimated $160-230k/yr on a 20-technician crew split between medical-device and food-processing scopes.",
+    localIndustryUseCases: [
+      "Medtronic Fridley and Mounds View titanium and welded-component radiographic inspection with FDA design-history-file-aligned traceability.",
+      "Cargill and General Mills food-grade pressure-vessel and piping inspection scheduling with USDA/FDA sanitary-standard evidence export.",
+      "Twin Cities medical-device and food-manufacturing supplier weld and casting inspection-crew certification tracking across a dense industrial-park network.",
+    ],
+    localCompliance: ["MPCA (Minnesota Pollution Control Agency)", "FDA 21 CFR 820 (design-history traceability)", "USDA/FDA sanitary standards", "API 510", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Minneapolis-based inspection firm supporting a Medtronic component supplier and a Cargill food-processing plant replaced a shared paper log with Atlantis NDT ERP, separating medical-device and food-grade documentation streams and cutting cross-client audit-pack assembly from a multi-day task to same-day.",
+  },
+  'nashville': {
+    uniqueLocalROI: "Nashville-area inspection firms serving Nissan North America's Smyrna assembly plant, Bridgestone Americas' Nashville headquarters, and HCA Healthcare's regional facility-maintenance network using Atlantis NDT ERP typically cut automotive-OEM and healthcare-facility pressure-equipment evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew spanning automotive and healthcare-facility scopes.",
+    localIndustryUseCases: [
+      "Nissan Smyrna assembly-plant weld-robot cell and stamping-die crack inspection scheduling with OEM supplier-quality evidence export.",
+      "Bridgestone Americas Nashville-area tire-plant pressure-vessel and boiler inspection with API 510-aligned corrosion trending.",
+      "HCA Healthcare regional-facility boiler and medical-gas piping inspection-crew certification tracking across Middle Tennessee's dense hospital network.",
+    ],
+    localCompliance: ["TDEC (Tennessee Department of Environment and Conservation)", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "ASME BPVC Section VIII", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Nashville-based inspection firm serving Nissan's Smyrna plant and a regional HCA-affiliated hospital campus replaced separate automotive and healthcare-facility qualification trackers with a single Atlantis NDT ERP roster, cutting cross-client audit-pack assembly from days to hours.",
+  },
+  'louisville': {
+    uniqueLocalROI: "Louisville-area inspection firms serving Ford's Louisville Assembly and Kentucky Truck plants, GE Appliances' Appliance Park, and UPS's Worldport global air-cargo hub using Atlantis NDT ERP typically cut automotive-OEM and logistics-facility evidence prep from days to hours, saving an estimated $160-220k/yr on a 25-technician crew spanning assembly-plant and logistics-infrastructure scopes.",
+    localIndustryUseCases: [
+      "Ford Kentucky Truck Plant and Louisville Assembly weld-robot cell and stamping-die crack inspection scheduling with OEM supplier-quality evidence export.",
+      "GE Appliances Appliance Park pressure-vessel, boiler and sheet-metal fabrication inspection with API 510-aligned evidence tracking.",
+      "UPS Worldport structural-steel, conveyor-support and fuel-system pressure-equipment inspection-crew certification tracking for the airport's round-the-clock sort operation.",
+    ],
+    localCompliance: ["Kentucky Energy and Environment Cabinet (KY DEP)", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "AWS D1.1", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Louisville-based inspection firm serving Ford's Kentucky Truck Plant and a UPS Worldport facilities contractor consolidated automotive and logistics-infrastructure inspection records into Atlantis NDT ERP and cut technician mobilisation prep between the two client sites from a full day to under an hour.",
+  },
+  'kansas-city': {
+    uniqueLocalROI: "Kansas City-area inspection firms serving Honeywell Federal Manufacturing and Technologies' Kansas City National Security Campus, General Motors' Fairfax Assembly plant, and Cargill's regional protein and grain-processing facilities using Atlantis NDT ERP typically cut NNSA-contractor and food-processing evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew spanning defence-manufacturing and food-processing scopes.",
+    localIndustryUseCases: [
+      "Honeywell FM&T Kansas City National Security Campus non-nuclear component RT/UT inspection with NNSA-contractor traceability and technician-clearance tracking.",
+      "General Motors Fairfax Assembly weld-robot cell and stamping-die crack inspection scheduling with OEM supplier-quality evidence export.",
+      "Cargill regional grain-elevator and protein-processing pressure-vessel inspection with USDA/FDA sanitary-standard evidence tracking.",
+    ],
+    localCompliance: ["Missouri DNR / Kansas DHE", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "AWS D1.1", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Kansas City-based inspection firm serving a Honeywell FM&T subcontractor and GM's Fairfax Assembly plant replaced two disconnected certification spreadsheets with Atlantis NDT ERP and cleared its next defence-contractor facility-security audit with zero technician-clearance discrepancies.",
+  },
+  'salt-lake-city': {
+    uniqueLocalROI: "Salt Lake City-area inspection firms serving Rio Tinto Kennecott's Bingham Canyon copper mine and smelter/refinery complex, and the North Salt Lake refining row (HF Sinclair, Chevron and Marathon refineries) using Atlantis NDT ERP typically cut mine-safety and refinery-turnaround evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew spanning mining and refining scopes.",
+    localIndustryUseCases: [
+      "Rio Tinto Kennecott Bingham Canyon smelter and refinery pressure-vessel and structural-steel inspection with MSHA-aligned evidence export.",
+      "North Salt Lake refinery row (HF Sinclair, Chevron, Marathon) turnaround pressure-vessel and piping inspection with API 510/570 evidence tracking.",
+      "Salt Lake Valley biotech and medical-device supplier (near ARUP Laboratories and Merit Medical) welded-component inspection-crew certification tracking.",
+    ],
+    localCompliance: ["Utah DEQ / Division of Air Quality", "MSHA (mine safety)", "OSHA PSM (29 CFR 1910.119)", "API 510/570/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Salt Lake City-based inspection firm serving Kennecott's Bingham Canyon refinery and a North Salt Lake refinery-row turnaround client replaced a mine-site paper log with Atlantis NDT ERP and cut MSHA-format evidence assembly from days to a single sitting.",
+  },
+  'portland': {
+    uniqueLocalROI: "Portland-area inspection firms serving Intel's Hillsboro 'Silicon Forest' campuses, Precision Castparts Corp's aerospace-casting operations, and Vigor Industrial's Swan Island shipyard using Atlantis NDT ERP typically cut semiconductor-fab and aerospace-casting evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew spanning cleanroom-piping, casting and marine scopes.",
+    localIndustryUseCases: [
+      "Intel Hillsboro ultra-high-purity gas and chemical delivery piping weld inspection with ASME B31.3 and semiconductor-fab damage-mechanism tracking.",
+      "Precision Castparts Corp aerospace-casting RT and PT inspection with NAS 410-aligned technician qualification tracking.",
+      "Vigor Industrial Swan Island shipyard hull-plate and structural-weld inspection-crew certification tracking for Columbia River vessel-repair work.",
+    ],
+    localCompliance: ["Oregon DEQ", "OSHA PSM (29 CFR 1910.119)", "ASME B31.3", "NAS 410", "AWS D1.1", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Portland-based inspection firm serving a Precision Castparts aerospace-casting supplier and Vigor Industrial's Swan Island shipyard replaced separate NAS 410 and AWS D1.1 qualification logs with a single Atlantis NDT ERP roster and cut cross-client audit-pack assembly from days to hours.",
+  },
+  'tampa': {
+    uniqueLocalROI: "Tampa-area inspection firms serving Port Tampa Bay's bulk and liquid-cargo terminals and the Mosaic Company's Central Florida phosphate-mining and fertilizer-processing complex using Atlantis NDT ERP typically cut FDEP phosphate-facility and port-terminal evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew spanning port and phosphate-processing scopes.",
+    localIndustryUseCases: [
+      "Port Tampa Bay liquid-bulk terminal and jetty structural-steel inspection scheduling with API 653 tank-farm evidence export.",
+      "Mosaic Company phosphoric-acid and sulfuric-acid plant pressure-vessel and piping inspection with FDEP-format corrosion-trending evidence.",
+      "Tampa-area power-generation (TECO Energy) boiler and pressure-equipment inspection-crew certification tracking.",
+    ],
+    localCompliance: ["FDEP (Florida Department of Environmental Protection)", "OSHA PSM (29 CFR 1910.119)", "API 510/570/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Tampa-based inspection firm serving a Mosaic Company phosphate-processing plant and a Port Tampa Bay terminal operator replaced a shared paper log with Atlantis NDT ERP, separating phosphate-plant and port-terminal documentation streams and cutting cross-client audit-pack assembly to same-day.",
+  },
+  'jacksonville': {
+    uniqueLocalROI: "Jacksonville-area inspection firms serving JAXPORT's container and bulk terminals and Naval Air Station Jacksonville's Fleet Readiness Center Southeast using Atlantis NDT ERP typically cut Navy-contractor and port-terminal evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew spanning defence-MRO and port scopes.",
+    localIndustryUseCases: [
+      "JAXPORT Blount Island and Talleyrand terminal crane, jetty and structural-steel inspection scheduling with API 653 tank-farm evidence export.",
+      "Naval Air Station Jacksonville Fleet Readiness Center Southeast aircraft-component RT/ET inspection with NAVAIR-contractor traceability and technician-clearance tracking.",
+      "CSX rail-yard and Rayonier Advanced Materials industrial-park pressure-vessel inspection-crew certification tracking.",
+    ],
+    localCompliance: ["FDEP (Florida Department of Environmental Protection)", "OSHA PSM (29 CFR 1910.119)", "NAVAIR contractor traceability standards", "API 510/653", "NAS 410", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Jacksonville-based inspection firm serving a Fleet Readiness Center Southeast subcontractor and a JAXPORT terminal operator replaced two disconnected certification spreadsheets with Atlantis NDT ERP and cleared its next Navy-contractor facility audit with zero technician-clearance discrepancies.",
+  },
+  'charlotte': {
+    uniqueLocalROI: "Charlotte-area inspection firms serving Duke Energy's headquarters-region generating fleet (including the McGuire Nuclear Station) and Honeywell's Charlotte manufacturing and technology campuses using Atlantis NDT ERP typically cut nuclear-contractor and industrial-manufacturing evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew spanning power-generation and manufacturing scopes.",
+    localIndustryUseCases: [
+      "Duke Energy McGuire Nuclear Station and regional fossil-fleet pressure-vessel and piping inspection with NRC 10 CFR 50 Appendix B-aligned contractor-qualification tracking.",
+      "Honeywell Charlotte manufacturing-campus pressure-equipment and structural-weld inspection scheduling with API 510-aligned evidence export.",
+      "Charlotte-region industrial-park and logistics-facility fabrication inspection-crew certification tracking for the Piedmont's growing manufacturing base.",
+    ],
+    localCompliance: ["NC DEQ (Division of Air Quality)", "NRC 10 CFR 50 Appendix B", "OSHA PSM (29 CFR 1910.119)", "API 510/570", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Charlotte-based inspection firm serving a Duke Energy McGuire Nuclear Station subcontractor and a Honeywell manufacturing supplier replaced separate NRC 10 CFR 50 Appendix B and API 510 qualification logs with a single Atlantis NDT ERP roster, cutting cross-client audit-pack assembly from days to hours.",
+  },
+  'st-louis': {
+    uniqueLocalROI: "St. Louis-area inspection firms serving Boeing Defense, Space and Security's St. Louis fighter-jet production complex (F-15 and F/A-18 lines) and Bayer Crop Science's Creve Coeur and Chesterfield research campuses (the former Monsanto sites) using Atlantis NDT ERP typically cut aerospace-defence and chemical-facility evidence prep from days to hours, saving an estimated $180-250k/yr on a 25-technician crew spanning aerospace and chemical-processing scopes.",
+    localIndustryUseCases: [
+      "Boeing St. Louis F-15/F/A-18 airframe and component RT/UT/ET inspection with NAS 410-aligned technician qualification and DCMA-contractor traceability.",
+      "Bayer Crop Science Creve Coeur and Chesterfield chemical-process pressure-vessel and piping inspection with EPA RMP-aligned evidence export.",
+      "St. Louis rail and barge-terminal structural-steel inspection-crew certification tracking along the Mississippi River industrial corridor.",
+    ],
+    localCompliance: ["Missouri DNR", "EPA RMP (Risk Management Program)", "NAS 410", "OSHA PSM (29 CFR 1910.119)", "API 510/570", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A St. Louis-based inspection firm serving a Boeing Defense subcontractor and a Bayer Crop Science chemical-plant client replaced separate NAS 410 and EPA RMP evidence trackers with a single Atlantis NDT ERP roster, cutting cross-client audit-pack assembly from days to hours.",
+  },
+  'cleveland': {
+    uniqueLocalROI: "Cleveland-area inspection firms serving Cleveland-Cliffs' Cleveland Works integrated steel mill and Parker Hannifin's Cleveland-headquartered manufacturing operations using Atlantis NDT ERP typically cut heavy-manufacturing and pressure-equipment evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew spanning steel-mill and precision-manufacturing scopes.",
+    localIndustryUseCases: [
+      "Cleveland-Cliffs Cleveland Works blast furnace, coke battery and pressure-vessel inspection with API 510-aligned corrosion trending.",
+      "Parker Hannifin Cleveland-area hydraulic and pneumatic component casting and weld inspection scheduling with AWS D1.1-aligned evidence export.",
+      "Lake Erie industrial-corridor fabrication-shop and Cuyahoga River terminal structural-steel inspection-crew certification tracking.",
+    ],
+    localCompliance: ["Ohio EPA", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "AWS D1.1", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Cleveland-based inspection firm serving Cleveland-Cliffs' Cleveland Works and a Parker Hannifin component supplier consolidated a paper-based blast-furnace inspection log into Atlantis NDT ERP and cut per-shutdown documentation prep from a multi-day task to a single afternoon.",
+  },
+  'cincinnati': {
+    uniqueLocalROI: "Cincinnati-area inspection firms serving GE Aviation's Evendale jet-engine manufacturing campus using Atlantis NDT ERP typically cut NAS 410 and Nadcap aerospace-evidence prep from days to hours, saving an estimated $160-230k/yr on a 20-technician crew focused on turbine-component inspection work.",
+    localIndustryUseCases: [
+      "GE Aviation Evendale turbine-disk and blade RT/FPI/ET inspection with NAS 410-aligned technician qualification and Nadcap-scope traceability.",
+      "Cincinnati-area precision-machining and casting suppliers (descended from the region's Cincinnati Milacron machine-tool cluster) weld and casting inspection scheduling.",
+      "Ohio River barge-terminal and chemical-storage pressure-vessel inspection-crew certification tracking for Cincinnati's industrial waterfront.",
+    ],
+    localCompliance: ["Ohio EPA", "NAS 410", "Nadcap special-process audits", "OSHA PSM (29 CFR 1910.119)", "API 510/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Cincinnati-based inspection firm serving a GE Aviation Evendale subcontractor replaced a paper Nadcap-audit binder with Atlantis NDT ERP and passed its next Nadcap special-process audit with zero procedure-currency findings.",
+  },
+  'newark': {
+    uniqueLocalROI: "Newark-area inspection firms serving Port Newark-Elizabeth Marine Terminal and the New Jersey refining corridor (Phillips 66's Bayway Refinery in nearby Linden) using Atlantis NDT ERP typically cut port-terminal and refinery-turnaround evidence prep from days to hours, saving an estimated $170-240k/yr on a 25-technician crew spanning port and petrochemical scopes.",
+    localIndustryUseCases: [
+      "Port Newark-Elizabeth Marine Terminal crane, jetty and structural-steel inspection scheduling with API 653 tank-farm evidence export.",
+      "Phillips 66 Bayway Refinery (Linden) turnaround pressure-vessel and piping inspection with API 510/570 and NJDEP-format evidence tracking.",
+      "Newark Bay petrochemical-storage and pipeline-corridor corrosion trending for the NJ Turnpike industrial belt's dense terminal network.",
+    ],
+    localCompliance: ["NJDEP (New Jersey Department of Environmental Protection)", "OSHA PSM (29 CFR 1910.119)", "API 510/570/653", "NBIC", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Newark-based inspection firm serving a Port Newark-Elizabeth terminal operator and a Bayway Refinery turnaround contractor replaced a shared paper log with Atlantis NDT ERP, separating port-terminal and refinery documentation streams and cutting cross-client audit-pack assembly to same-day.",
+  },
+  'odessa': {
+    uniqueLocalROI: "Odessa-based inspection firms serving Permian Basin upstream operators (ExxonMobil, Diamondback Energy, Occidental) using Atlantis NDT ERP typically cut Railroad Commission of Texas and TCEQ upstream-facility evidence prep from days to hours, saving an estimated $180-250k/yr on a 30-technician crew supporting wellhead, gathering and gas-processing scopes across the West Texas patch.",
+    localIndustryUseCases: [
+      "Wellhead, separator and gathering-line API 570 piping inspection scheduling for Permian Basin operators dispatched from Odessa and Midland yards.",
+      "Gas-processing plant (cryogenic and amine-treating unit) pressure-vessel inspection with Railroad Commission of Texas statutory evidence export.",
+      "Remote-pad and multi-well-site crew mobilisation tracking across the sprawling Permian Basin footprint, with technician certification and equipment-calibration currency checked before each dispatch.",
+    ],
+    localCompliance: ["Railroad Commission of Texas", "TCEQ", "OSHA PSM (29 CFR 1910.119)", "API 510/570/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Odessa-based inspection firm serving a Permian Basin gas-processing operator replaced a paper wellsite dispatch log with Atlantis NDT ERP and cut technician-mobilisation prep across a multi-county gathering footprint from a full day to under an hour.",
+  },
+  'beaumont': {
+    uniqueLocalROI: "Beaumont-area inspection firms serving ExxonMobil's Beaumont Refinery (one of the largest in the United States) and the greater Beaumont-Port Arthur Gulf Coast refining corridor using Atlantis NDT ERP typically cut OSHA PSM and TCEQ refinery-turnaround evidence prep from days to hours, saving an estimated $200-280k/yr on a 35-technician crew supporting major turnaround cycles.",
+    localIndustryUseCases: [
+      "ExxonMobil Beaumont Refinery turnaround pressure-vessel and piping inspection work-order routing with API 510/570 evidence export.",
+      "Beaumont-Port Arthur refining-corridor (including Motiva's nearby Port Arthur refinery) crew mobilisation tracking across overlapping turnaround windows.",
+      "Sabine-Neches Waterway terminal and jetty structural-steel inspection with API 653 tank-farm evidence tracking.",
+    ],
+    localCompliance: ["OSHA PSM (29 CFR 1910.119)", "TCEQ", "API 510/570/653", "NBIC", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Beaumont-based inspection firm supporting ExxonMobil's Beaumont Refinery turnaround migrated off spreadsheet-based crew rosters into Atlantis NDT ERP and cut certification-lapse incidents during a major turnaround to zero across a 35-technician mobilisation.",
+  },
 };
 
 for (const [slug, partial] of Object.entries(COMPACT_ERP_DEFAULTS)) {

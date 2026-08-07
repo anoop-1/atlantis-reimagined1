@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Cba4hDr6.js";import{E as t}from"./ErpLocationPage--AT2udDX.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function s(){return r.jsx(t,{city:"Midland",country:"USA",slug:"ndt-erp-midland"})}export{s as default};

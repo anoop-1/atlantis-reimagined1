@@ -143,6 +143,24 @@ export const CTR_WAVE5_OVERRIDES = {
     description:
       'Choosing between magnetic particle, penetrant, eddy current and ACFM for surface-breaking cracks: what each detects, where each fails, whether coatings and ferromagnetism rule one out, and what sensitivity you can evidence afterwards.',
   },
+
+  /* ── US-filtered GSC pull, 2026-08-07: task/module phrasing beats "erp" ─── */
+
+  // 91i US, 0 clicks. The buying query is "pipeline audit preparation services" —
+  // this path was previously shadowed by a stale legacy CTR_OVERRIDES entry
+  // ("Erp Modules 2026...") that had lost the pipeline/audit topic entirely.
+  '/erp-modules/audit-management-for-pipeline-integrity-services': {
+    title: 'Pipeline Audit Preparation Services — Compliance Management for ILI Providers | Atlantis NDT ERP',
+    description:
+      'Pipeline audit preparation services built into your ERP: API 1163 ILI qualification, API 1160 integrity management, and ASME B31.4/B31.8 audit evidence assembled and ready before the auditor asks. Affordable, accessible, fully customizable. Demo: info@atlantisndt.com',
+  },
+
+  // 33i US, 0 clicks. The buying query is "environmental calibrations lab".
+  '/erp-modules/calibration-management-for-environmental-testing-labs': {
+    title: 'Environmental Calibrations Lab Software — ISO 17025 Calibration Management | Atlantis NDT ERP',
+    description:
+      'Environmental calibrations lab software built for ISO/IEC 17025 accreditation: instrument traceability, uncertainty budgets, and calibration certificates for environmental testing laboratories under NELAP/TNI and EPA methods. Affordable, accessible, fully customizable. Demo: info@atlantisndt.com',
+  },
 };
 
 /**

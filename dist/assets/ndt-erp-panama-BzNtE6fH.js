@@ -1,1 +1,0 @@
-import{j as a}from"./blog-pages-Cba4hDr6.js";import{E as r}from"./ErpLocationPage--AT2udDX.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function e(){return a.jsx(r,{city:"Panama",country:"Panama",slug:"ndt-erp-panama"})}export{e as default};

@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Cba4hDr6.js";import{D as t}from"./DigitalTwinLocationPage-BcPVxw35.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function s(){return i.jsx(t,{city:"Denver",country:"USA",slug:"digital-twin-denver"})}export{s as default};

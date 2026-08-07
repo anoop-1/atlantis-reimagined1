@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Cba4hDr6.js";import{E as i}from"./ErpLocationPage-CJlf4Ymp.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function e(){return o.jsx(i,{city:"Yokkaichi",country:"Japan",slug:"ndt-erp-yokkaichi"})}export{e as default};

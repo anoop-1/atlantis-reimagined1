@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import i from"./MethodLocationPage-B5ga4tJr.js";import"./PillarHubNav-DYiypIRQ.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BhM3z9LW.js";function s(){return t.jsx(i,{methodSlug:"visual-testing",locationSlug:"miami"})}export{s as default};

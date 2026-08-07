@@ -38,9 +38,16 @@ const esc = (s) =>
 
 export const ERP_HUB_META = {
   '/erp': {
-    title: 'Cloud-Based ERP for Testing & Inspection Companies — and Every Business You Run | Atlantis',
+    // 2026-08-07 second pass: fresh US-filtered GSC pull shows zero US queries
+    // containing the literal word "erp" earning impressions, while the task/
+    // module pages earn real US impressions for exact phrases like "compliance
+    // tracking," "calibration management" and "audit preparation." /erp itself
+    // ranks pos ~10 in the US at 0% CTR — a snippet problem. Widened positioning
+    // from the first pass is kept (still "and every business you run"); the
+    // lead now names the terms that demonstrably earn impressions elsewhere.
+    title: 'Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis',
     description:
-      'One cloud-based platform for testing and inspection companies — and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
+      'Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
   },
   '/ndt-erp-solution': {
     title: 'NDT Technician Certification Tracking & Calibration Management Software | Atlantis',

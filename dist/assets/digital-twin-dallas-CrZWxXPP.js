@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Cba4hDr6.js";import{D as t}from"./DigitalTwinLocationPage-7nNMRE79.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function p(){return i.jsx(t,{city:"Dallas",country:"USA",slug:"digital-twin-dallas"})}export{p as default};

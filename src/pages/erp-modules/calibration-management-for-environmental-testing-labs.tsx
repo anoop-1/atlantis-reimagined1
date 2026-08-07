@@ -4,8 +4,8 @@ const data = {
   "moduleName": "Calibration Management",
   "industrySlug": "environmental-testing-labs",
   "industryName": "Environmental Testing Laboratories",
-  "title": "Calibration Management for Environmental Testing Laboratories",
-  "desc": "Calibration Management for Environmental Testing Laboratories — purpose-configured module from Atlantis NDT ERP. ISO/IEC 17025:2017, NELAP / TNI standard (US), US EPA methods (SW-846, 600 series, 500 series). Demo: info@atlantisndt.com.",
+  "title": "Environmental Calibrations Lab Software — ISO 17025 Calibration Management",
+  "desc": "Environmental calibrations lab software built for ISO/IEC 17025 accreditation: instrument traceability, uncertainty budgets, and calibration certificates for environmental testing laboratories under NELAP/TNI and EPA methods. Affordable, accessible, fully customizable. Demo: info@atlantisndt.com.",
   "intro": "Every gauge, meter, probe, and instrument used to make a measurement-of-record must be calibrated against traceable standards on a defined interval. For a calibration laboratory under ISO/IEC 17025 accreditation this is the entire business.\n\nFor environmental testing laboratories, the calibration management module is configured around the codes, regulators, and operator-specific requirements you face every day: ISO/IEC 17025:2017, NELAP / TNI standard (US), US EPA methods (SW-846, 600 series, 500 series), ASTM water / soil methods, EN ISO water-method series. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from SGS — global testing, Eurofins — environmental, ALS Limited — environmental, Bureau Veritas — environmental so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Per-asset calibration interval per ISO 17025 §6.4.7 with manufacturer-recommended overrides",

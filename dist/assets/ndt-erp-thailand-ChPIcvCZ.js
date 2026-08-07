@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import{E as r}from"./ErpLocationPage-CJlf4Ymp.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function d(){return t.jsx(r,{city:"Thailand",country:"Thailand",slug:"ndt-erp-thailand"})}export{d as default};

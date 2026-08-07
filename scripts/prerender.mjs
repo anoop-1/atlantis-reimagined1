@@ -2858,11 +2858,14 @@ const corePages = [
   },
   {
     path: '/erp',
-    title: 'Cloud-Based ERP for Testing & Inspection Companies — and Every Business You Run | Atlantis',
-    description: 'One cloud-based platform for testing and inspection companies — and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
+    // Kept in sync with ERP_HUB_META['/erp'] in scripts/erp-generic-positioning.mjs,
+    // which is applied at render time and wins on this path — this base entry is
+    // the source read before that override runs, so it must carry the same copy.
+    title: 'Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis',
+    description: 'Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
-    <h1>Cloud-Based ERP for Testing &amp; Inspection Companies — and Every Business You Run</h1>
+    <h1>Compliance Tracking, Calibration Management &amp; Audit Preparation ERP — and Every Business You Run</h1>
     <p><strong>Atlantis NDT ERP</strong> is a cloud-based business management platform that goes deepest on testing and inspection companies — NDT technician certification tracking software that flags expiring credentials automatically, calibration management software for NDT equipment, and inspection company scheduling and crew dispatch — while running the rest of the business (work orders, RBI per API 581, FFS per API 579, inspection reporting, invoicing, and CRM) on the same platform. Affordable, accessible, fully customizable. Replaces disjoint tools (Excel cert tracker + Word doc control + paper field capture + spreadsheet audit-trail + standalone calibration LIMS).</p>
     <h2>Modules + Features</h2>
     <p>pre-configured modules for NDT inspection operations: inspector cert tracking (ASNT + ISO 9712 dual-scheme + ACCP + PCN + NAS 410 + EN 4179 aerospace + API ICP + AWS CWI + NACE CIP + CSWIP), equipment + calibration cert tracking (NIST + UKAS + NPL traceability), work-order management, field-service dispatch, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client format), RBI engine (API 581-aligned), FFS engine (API 579-aligned), document control (ISO 9001 + 17020 + 17025), procedure library + Level III sign-off workflow, audit-trail recording, invoicing + accounting + multi-currency, payroll + HR, time-sheet, project management, fleet management, CRM, e-commerce + B2B portal.</p>
@@ -10614,6 +10617,25 @@ erpCities.forEach(({ city, country, slug, industries }) => {
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">NDT ERP</a><a href="/consulting">Consulting</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/digital-twins">Digital Twin</a><a href="/contact">Free Consultation</a></nav></header>\n  <main>\n    <h1>Affordable NDT ERP in ${city} — Fully Customizable, Every Business App You Need Included</h1>\n    <p>Purpose-built NDT ERP software for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable. Manage ASNT, ISO 9712, NAS 410, and PCN certification tracking with automated expiry alerts; API 510/570/653 inspection scheduling; ASME Section V Article 2/4/5/6/7 + AWS D1.1 + B31.1/B31.3 procedure libraries; corrosion-rate trending; IACS-accepted Marine NDT report bundle (cover page → calibration → Level II cert → report) for ABS / DNV / Lloyd's / BV / RINA / ClassNK acceptance; offline mobile field app for refinery turnarounds and remote pipeline work; integration with Atlantis NDT Digital Twin and Reporting Software. Serving ${industries}. <a href="/contact">Free consultation</a> on request. Quote on request — pricing varies by region and scope.</p>\n    <h2>Frequently Asked Questions from ${city} NDT Inspection Companies</h2>\n    ${erpBuyerFAQHtml(city, country)}\n    <p><strong>Get a Free ERP Consultation for ${city}.</strong> Atlantis NDT is led by Anoop Rayavarapu (ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor). <a href="/contact">Request a demo</a>. See also <a href="/erp">Atlantis NDT ERP hub</a>, <a href="/best-ndt-reporting-software-2026">Top 10 NDT Reporting Software 2026</a>, <a href="/digital-twins">Atlantis Digital Twin platform</a>, and <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>.</p>\n  </main>`,
   });
 });
+
+// ── Houston ERP page retarget — 2026-08-07 US GSC pass ─────────────────────
+// /ndt-erp-houston is the most-developed US ERP city page and is confirmed
+// indexed (URL Inspection: PASS) but earns zero US impressions — the generic
+// "Business Management Software in Houston" / "NDT ERP in Houston" framing
+// above (shared by all 290+ erpCities entries) doesn't match what US buyers
+// actually search. This overwrites only the already-pushed Houston route
+// object in place; every other erpCities-generated page is untouched.
+{
+  const houstonRoute = routes.find(r => r.path === '/ndt-erp-houston');
+  if (houstonRoute) {
+    houstonRoute.title = 'Compliance Tracking & Calibration Management ERP for Houston Inspection Companies | Atlantis NDT';
+    houstonRoute.description = "Atlantis NDT ERP for Houston Gulf Coast refining and petrochemical inspection companies — compliance tracking, calibration management, technician certification tracking, and audit preparation for API 510/570/653 turnarounds. Affordable, accessible, fully customizable. Demo: info@atlantisndt.com";
+    houstonRoute.bodyContent = houstonRoute.bodyContent.replace(
+      /<h1>Affordable NDT ERP in Houston — Fully Customizable, Every Business App You Need Included<\/h1>/,
+      '<h1>Compliance Tracking &amp; Calibration Management ERP for Houston Gulf Coast Inspection Companies</h1>'
+    );
+  }
+}
 
 // ── NDT Reporting Software — city pages (April 2026) ─────────────────────
 

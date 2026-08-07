@@ -4,8 +4,8 @@ const data = {
   "moduleName": "Audit & Compliance Management",
   "industrySlug": "pipeline-integrity-services",
   "industryName": "Pipeline Integrity & ILI Services",
-  "title": "Audit & Compliance Management for Pipeline Integrity & ILI Services",
-  "desc": "Audit & Compliance Management for Pipeline Integrity & ILI Services — purpose-configured module from Atlantis NDT ERP. API 1163 (ILI qualification), API 1160 (pipeline IMP), ASME B31.4 / B31.8 / B31.8S (pipeline). Demo: info@atlantisndt.com.",
+  "title": "Pipeline Audit Preparation Services — Compliance Management for ILI Providers",
+  "desc": "Pipeline audit preparation services built into your ERP: API 1163 ILI qualification, API 1160 integrity management, and ASME B31.4/B31.8 audit evidence assembled and ready before the auditor asks. Affordable, accessible, fully customizable. Demo: info@atlantisndt.com.",
   "intro": "An inspection company faces audits from three directions: internal (your own QMS), external (client and regulator), and accreditation (ISO 17025, AS9100, ISO 9001). Failing any audit can mean lost contracts, suspended accreditations, regulatory penalties, and damaged reputation.\n\nFor pipeline integrity & ili services, the audit & compliance management module is configured around the codes, regulators, and operator-specific requirements you face every day: API 1163 (ILI qualification), API 1160 (pipeline IMP), ASME B31.4 / B31.8 / B31.8S (pipeline), API 1104 (welding), DOT PHMSA 49 CFR 192 / 195. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Enbridge — North American pipelines, TC Energy / TransCanada, Kinder Morgan — products, Energy Transfer — gathering / transmission so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Multi-standard audit checklist library: ISO 9001:2015, ISO/IEC 17025:2017, ISO 45001:2018, ISO 14001:2015, AS9100D, IATF 16949, API Q1/Q2, OSHA PSM, ISA-95",

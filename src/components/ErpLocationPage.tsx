@@ -7246,6 +7246,29 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
+// ─── Per-city SEO override (title/description/H1) ─────────────────────────
+// 2026-08-07: fresh US-filtered GSC pull shows /ndt-erp-houston is indexed
+// (URL Inspection: PASS) but earns zero US impressions — the generic
+// "NDT ERP Software in {City}" framing doesn't match what US buyers search.
+// This overrides only the pages listed here, keyed by the bare city slug
+// (`cityKey`, e.g. "houston"); every other city keeps the generic template
+// below untouched. Additive only — do not remove entries.
+interface ErpCitySeoOverride {
+  title: string;
+  description: string;
+  h1: string;
+  h1Sub: string;
+}
+const erpCitySeoOverrides: Record<string, ErpCitySeoOverride> = {
+  houston: {
+    title: "Compliance Tracking & Calibration Management ERP for Houston Inspection Companies | Atlantis NDT",
+    description:
+      "Atlantis NDT ERP for Houston Gulf Coast refining and petrochemical inspection companies — compliance tracking, calibration management, technician certification tracking, and audit preparation for API 510/570/653 turnarounds. Affordable, accessible, fully customizable. Demo: info@atlantisndt.com",
+    h1: "Compliance Tracking & Calibration Management ERP",
+    h1Sub: "For Houston Gulf Coast Inspection Companies",
+  },
+};
+
 // ─── Main component ────────────────────────────────────────────────────────
 
 export default function ErpLocationPage({ city, country, slug }: ErpLocationPageProps) {
@@ -7268,8 +7291,9 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   const mergedFaqs = [...cityFaqs, ...buyerFaqs, ...faqs];
 
   const canonicalUrl = `https://atlantisndt.com/${slug}`;
-  const pageTitle = `Affordable NDT ERP in ${city} — Fully Customizable, All Every Business App You Need Included`;
-  const pageDescription = `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all every business app you need included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com`;
+  const seoOverride = erpCitySeoOverrides[cityKey];
+  const pageTitle = seoOverride?.title ?? `Affordable NDT ERP in ${city} — Fully Customizable, All Every Business App You Need Included`;
+  const pageDescription = seoOverride?.description ?? `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all every business app you need included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com`;
 
   // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
   const hreflangLinks = buildCityHreflang(canonicalUrl, country);
@@ -7379,12 +7403,24 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
                 NDT Inspection Management Software
               </Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                NDT ERP Software in{" "}
-                <span className="gradient-text">{city}</span>
-                <br />
-                <span className="text-3xl md:text-4xl font-semibold text-muted-foreground">
-                  Inspection Management System
-                </span>
+                {seoOverride ? (
+                  <>
+                    {seoOverride.h1}
+                    <br />
+                    <span className="text-3xl md:text-4xl font-semibold text-muted-foreground">
+                      {seoOverride.h1Sub}
+                    </span>
+                  </>
+                ) : (
+                  <>
+                    NDT ERP Software in{" "}
+                    <span className="gradient-text">{city}</span>
+                    <br />
+                    <span className="text-3xl md:text-4xl font-semibold text-muted-foreground">
+                      Inspection Management System
+                    </span>
+                  </>
+                )}
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto mb-8">
                 Purpose-built ERP for NDT inspection companies in {city}. Automate ASNT

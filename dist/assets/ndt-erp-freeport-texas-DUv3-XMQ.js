@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Cba4hDr6.js";import{E as t}from"./ErpLocationPage-CJlf4Ymp.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function n(){return r.jsx(t,{city:"Freeport",country:"USA",slug:"ndt-erp-freeport-texas"})}export{n as default};

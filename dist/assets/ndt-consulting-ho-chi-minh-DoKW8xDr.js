@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Cba4hDr6.js";import{C as i}from"./ConsultingLocationPage-Du7_c6Ip.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function u(){return o.jsx(i,{locationSlug:"ho-chi-minh"})}export{u as default};
