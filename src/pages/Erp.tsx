@@ -285,9 +285,9 @@ export default function Erp() {
       <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Operator portal integrations: Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld"]} />
 
          <SEOHead
-            title="Atlantis NDT ERP — All-in-One Inspection Management Software for NDT Companies"
-            description="NDT-specific ERP for inspection companies — every business app you need included, ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, equipment calibration. Affordable, accessible, fully customizable. Book a demo."
-            keywords="ndt erp, ndt inspection software, inspection management software, ndt reporting software, certification tracking software, Odoo ERP for NDT, calibration management, RBI software, asset integrity ERP"
+            title="Cloud-Based ERP for Testing & Inspection Companies — and Every Business You Run | Atlantis"
+            description="One cloud-based platform for testing and inspection companies — and any operations-heavy business. NDT technician certification tracking that flags expiring credentials automatically, equipment calibration management, and crew scheduling, alongside sales, projects, stock, people and accounts. Affordable, accessible, fully customizable. Book a demo."
+            keywords="cloud-based erp for testing and inspection companies, ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, ndt erp, ndt inspection software, inspection management software, certification tracking software, Odoo ERP for NDT, asset integrity ERP"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/erp"
          />
@@ -313,14 +313,16 @@ export default function Erp() {
                       inspection named as one of the industries rather than the ceiling.
                       Per owner direction the copy carries no numbers of any kind. */}
                   <h1 id="overview" className="text-4xl md:text-6xl font-bold mb-6">
-                     Run Your Entire Business on One{" "}
-                     <span className="gradient-text">Affordable, Fully Customizable Platform</span>
+                     Cloud-Based ERP for Testing &amp; Inspection Companies{" "}
+                     <span className="gradient-text">— and Every Business You Run</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                      Sales, quotes, projects, field teams, stock, purchasing, people, quality
                      and accounts — connected, in one place, and shaped around the way your
-                     business already works. Every app you need is included, configured for
-                     your industry before you log in, and customized further as you grow.
+                     business already works. For testing and inspection companies specifically,
+                     that means NDT technician certification tracking that flags expiring
+                     credentials automatically, equipment calibration management, and crew
+                     scheduling, built in alongside every other app you need.
                      <strong className="text-foreground"> Affordable. Accessible. Fully customizable.</strong>
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">

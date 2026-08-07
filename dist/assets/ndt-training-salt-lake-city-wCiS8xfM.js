@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import{g as r,T as o}from"./TrainingLocationPage-CG2rH8yI.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DfjVdcQg.js";import"./erp-pages-DI4PcLb3.js";function m(){const i=r("salt-lake-city");return i?t.jsx(o,{profile:i}):null}export{m as default};

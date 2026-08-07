@@ -92,11 +92,16 @@ export const CTR_WAVE3_OVERRIDES = {
       'The practical difference between longitudinal and shear wave ultrasonics: velocity and wavelength, mode conversion at the interface, why angle beam uses shear, and which mode to specify for thickness, laminations and weld defects.',
   },
 
-  // 456i @ 1.54%, p10.3 — brand-heavy; make the hub earn its click
+  // 456i @ 1.54%, p10.3 — brand-heavy; make the hub earn its click.
+  // 2026-08-07: retargeted onto specific buyer-stage course terms (GSC 90-day
+  // pull showed the page absent from "ASNT Level 2 UT online course", "PAUT
+  // Level 2 training course", "TOFD training and certification course") while
+  // keeping every previously-ranking term (ASNT, ISO 9712, method list, API
+  // 510/570/653 inspector prep, delivery-mode language) intact.
   '/training': {
-    title: 'NDT Training and Certification — Methods, Levels and Delivery Options',
+    title: 'NDT Training Courses — ASNT Level 2 UT Online, PAUT & TOFD Certification',
     description:
-      'ASNT and ISO 9712 aligned training across UT, RT, MT, PT, VT, ET and advanced methods, plus API 510, 570 and 653 inspector preparation — as public cohorts, on-site corporate programmes, or blended online theory with supervised practical.',
+      'ASNT and ISO 9712 aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods, plus API 510, 570 and 653 inspector preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical.',
   },
 
   // 451i @ 2.00% — differentiate from the Article-specific pages

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Cba4hDr6.js";import{g as t,T as o}from"./TrainingLocationPage-CG2rH8yI.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DfjVdcQg.js";import"./erp-pages-DI4PcLb3.js";function p(){const i=t("khurais");return i?r.jsx(o,{profile:i}):null}export{p as default};

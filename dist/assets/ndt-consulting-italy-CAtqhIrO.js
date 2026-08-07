@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import{C as o}from"./ConsultingLocationPage-Du7_c6Ip.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function l(){return t.jsx(o,{locationSlug:"italy"})}export{l as default};

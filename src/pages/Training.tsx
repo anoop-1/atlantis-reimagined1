@@ -126,7 +126,15 @@ export default function Training() {
          "name": "Do you offer online NDT training?",
          "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Atlantis NDT offers online theory courses for all major NDT methods. Online training covers theoretical knowledge, while practical hands-on training is available at our centers in Houston, Dubai, and Hyderabad."
+            "text": "Yes, Atlantis NDT offers online theory courses for all major NDT methods. Online training covers theoretical knowledge, while practical hands-on training is delivered on-site at a partner facility near you, or at our Houston and Hyderabad bases."
+         }
+      },
+      {
+         "@type": "Question",
+         "name": "Do you offer NDT Level 2 recertification or renewal training?",
+         "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — we run a dedicated NDT Level 2 recertification / renewal course for inspectors approaching their 5-year SNT-TC-1A or CP-189 cycle, covering technique refreshers, current code editions, and vision-test documentation ahead of the renewal exam. Available as a public cohort, an online refresher, or bundled into a corporate group NDT training contract for inspection company staff."
          }
       }
    ];
@@ -203,9 +211,9 @@ export default function Training() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT Training 2026: Proven Level I, II, III Certification with 95% Pass Rate"
-            description="Expert ASNT SNT-TC-1A NDT training in USA, India & Middle East. Level I, II, III in UT, MT, PT, RT, ET. 95% first-attempt pass rate. Enroll in 48 hrs."
-            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East`}
+            title="NDT Training Courses — ASNT Level 2 UT Online, PAUT & TOFD Certification"
+            description="ASNT and ISO 9712 aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods, plus API 510, 570 and 653 inspector preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical."
+            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East, ASNT Level 2 UT online course, PAUT Level 2 training course, TOFD training and certification course, NDT Level 2 recertification course, onsite NDT training for technicians`}
             structuredData={structuredData}
             canonical="https://atlantisndt.com/training"
          />
@@ -235,6 +243,18 @@ export default function Training() {
             </div>
          </motion.section>
 
+         {/* 2026-08-07 CRO fix — inline enquiry, high on the page, mirroring the
+             /erp fix from 2026-07-29. The page's only working lead form (this
+             same EnquiryCaptureForm) sat 7+ sections down, past the FAQ and
+             VR/AR content, and the two most-clicked CTAs on the page (course
+             card "Enquiry Form" buttons, the mid-page "Contact Us Today" band)
+             linked out to an external Microsoft Form with no tie to this site,
+             to info@atlantisndt.com, or to any tracking — both now point here
+             instead. The form now sits immediately under the hero. */}
+         <div id="training-enquiry" className="scroll-mt-24">
+            <EnquiryCaptureForm variant="training" />
+         </div>
+
          {/* Keywords / Topics summary for SEO (naturally written) */}
          <section className="py-6">
             <div className="container mx-auto px-6 max-w-4xl">
@@ -251,6 +271,24 @@ export default function Training() {
                         practical courses on test planning, reporting, and
                         quality assurance to prepare candidates for industry
                         certification and real-world inspections.
+                        <br /><br />
+                        Popular course searches we cover directly: the ASNT
+                        Level 2 UT online course for candidates who want the
+                        theory portion remotely, the PAUT Level 2 training
+                        course and TOFD training and certification course for
+                        technicians moving into advanced ultrasonic methods,
+                        and the eddy current (ET) Level 2 certification course
+                        for tube and surface-inspection specialists. For
+                        working inspectors approaching their 5-year cycle we
+                        run a dedicated NDT Level 2 recertification / renewal
+                        course, and for employers we deliver onsite NDT
+                        training for technicians as well as group NDT training
+                        for inspection company staff — see our{" "}
+                        <Link to="/corporate-ndt-training" className="text-primary underline">
+                           corporate NDT technician training contracts
+                        </Link>{" "}
+                        for cohort sizing, method mix, and delivery-mode
+                        options.
                      </p>
                   </CardContent>
                </Card>
@@ -343,11 +381,7 @@ export default function Training() {
                                  asChild
                                  className="btn-primary w-full group-hover:shadow-lg transition-all duration-300"
                               >
-                                 <a
-                                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                 >
+                                 <a href="#training-enquiry">
                                     Enquiry Form
                                  </a>
                               </Button>
@@ -401,6 +435,23 @@ export default function Training() {
                            Yes — we schedule training sessions in India and can
                            provide customized on-site corporate programs. Contact
                            our team for details and schedules.
+                        </p>
+                     </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="q4">
+                     <AccordionTrigger>
+                        Do you offer NDT Level 2 recertification or renewal training?
+                     </AccordionTrigger>
+                     <AccordionContent>
+                        <p className="text-muted-foreground">
+                           Yes — our NDT Level 2 recertification / renewal
+                           course refreshes technique, current code editions,
+                           and vision-test documentation ahead of your 5-year
+                           SNT-TC-1A or CP-189 cycle. Available as a public
+                           cohort, an online refresher, or as part of a
+                           corporate NDT technician training contract for
+                           inspection company staff.
                         </p>
                      </AccordionContent>
                   </AccordionItem>
@@ -740,10 +791,7 @@ export default function Training() {
                         className="bg-transparent border-primary text-primary hover:bg-primary hover:text-white"
                      >
                         {" "}
-                        <a
-                           href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u"
-                           target="_blank"
-                        >
+                        <a href="#training-enquiry">
                            Contact Us Today
                         </a>
                      </Button>

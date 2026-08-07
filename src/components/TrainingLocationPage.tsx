@@ -188,7 +188,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `Can I take NDT training in ${profile.city} part-time or online?`,
-      answer: `Yes. We offer three formats: (1) intensive classroom 5-day sprints; (2) evening / weekend cohorts spread over 4 to 8 weeks; and (3) blended online theory (self-paced or live virtual) with practical labs delivered at our ${profile.city} or partner-site facilities. The certification you receive is identical across formats.`,
+      answer: `Yes. We offer three formats: (1) intensive classroom 5-day sprints; (2) evening / weekend cohorts spread over 4 to 8 weeks; and (3) blended online theory (self-paced or live virtual) with practical labs delivered at a partner facility in ${profile.city} or via blended online/on-site format. The certification you receive is identical across formats.`,
     },
     {
       question: `What jobs can I get after NDT certification in ${profile.country}?`,
@@ -563,9 +563,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               Upcoming Cohorts in {profile.city}
             </h2>
             <p className="text-muted-foreground">
-              Next three classroom-led cohorts scheduled at our {profile.city}{" "}
-              training centre or partner facility. Contact us to reserve a seat
-              or request a custom date.
+              Next three cohorts available for {profile.city} — delivered
+              on-site at a partner facility or via classroom/online formats.
+              Contact us to reserve a seat or request a custom date.
             </p>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-4">

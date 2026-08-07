@@ -3645,6 +3645,354 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "singapore", label: "Singapore" },
     ],
   },
+
+  // === Training expansion 2026-08-07 — verified gap cities (owner-directed, CLAUDE.md §28-class exception) ===
+  {
+    slug: "ras-laffan",
+    city: "Ras Laffan",
+    country: "Qatar",
+    lat: 25.9153, lng: 51.5308,
+    localContext:
+      "Ras Laffan Industrial City is the operational core of QatarEnergy LNG's North Field Expansion — the world's largest LNG mega-train build-out — alongside Pearl GTL (Shell), Oryx GTL, and the Ras Laffan condensate refinery. Turnaround and construction-phase demand pulls thousands of mobile UT, RT and PAUT technicians through Doha-based contractors during peak train commissioning windows.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "QatarEnergy LNG contractor specifications default to ASNT SNT-TC-1A for personnel qualification, with ISO 9712 increasingly accepted for European EPC packages (Chiyoda, Technip, Saipem) on the North Field Expansion trains. CSWIP 3.1 is required for cryogenic and stainless-steel welding inspection roles.",
+    salary: {
+      currency: "QAR",
+      levelI: "QAR 5,500–8,500/month (tax-free)",
+      levelII: "QAR 9,500–17,000/month (tax-free)",
+      levelIII: "QAR 19,000–34,000/month (tax-free)",
+      usdReference: "USD 2,600–4,650 (Level II take-home)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Doha (Ras Laffan site liaison)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV Rheinland Doha", bodies: ["ASNT", "ISO 9712", "PCN"] },
+    ],
+    siblings: [
+      { slug: "mesaieed", label: "Mesaieed" },
+      { slug: "doha", label: "Doha" },
+      { slug: "qatar", label: "Qatar" },
+      { slug: "dubai", label: "Dubai" },
+      { slug: "abu-dhabi", label: "Abu Dhabi" },
+    ],
+  },
+  {
+    slug: "mesaieed",
+    city: "Mesaieed",
+    country: "Qatar",
+    lat: 24.9927, lng: 51.5433,
+    localContext:
+      "Mesaieed Industrial City (historically Umm Said) hosts QAPCO (Qatar Petrochemical Company), QAFCO — the world's largest single-site urea and ammonia complex — QAFAC methanol/MTBE production, Qatar Steel, and the Mesaieed refinery. Continuous petrochemical turnarounds and fertiliser-plant shutdowns keep multi-method NDT crews rotating year-round.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "QAPCO and QAFCO contractor qualification follows ASNT SNT-TC-1A as the accepted baseline, with ISO 9712 recognised for European-affiliated EPC packages. CSWIP 3.1 is standard for ammonia-reactor and cryogenic-storage welding inspection.",
+    salary: {
+      currency: "QAR",
+      levelI: "QAR 5,500–8,500/month (tax-free)",
+      levelII: "QAR 9,500–16,500/month (tax-free)",
+      levelIII: "QAR 18,500–33,000/month (tax-free)",
+      usdReference: "USD 2,600–4,550 (Level II take-home)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Doha (Mesaieed site liaison)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Applus+ Velosi Qatar (Mesaieed)", bodies: ["ASNT", "PCN", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "ras-laffan", label: "Ras Laffan" },
+      { slug: "doha", label: "Doha" },
+      { slug: "qatar", label: "Qatar" },
+      { slug: "dubai", label: "Dubai" },
+      { slug: "abu-dhabi", label: "Abu Dhabi" },
+    ],
+  },
+  {
+    slug: "ulsan",
+    city: "Ulsan",
+    country: "South Korea",
+    lat: 35.5384, lng: 129.3114,
+    localContext:
+      "Ulsan hosts SK Energy's Ulsan Complex — the world's largest single-site refinery — alongside S-Oil's Onsan refinery, Hyundai Heavy Industries' main shipyard, Lotte Chemical Ulsan, and the Hyundai Motor Ulsan assembly plant. The combination of refining, petrochemical and heavy shipbuilding makes Ulsan Korea's densest multi-method NDT demand centre outside Geoje.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Korean shipyards and refiners run dual-track KS (Korean Standards) personnel qualification alongside ASNT SNT-TC-1A. SK Energy and S-Oil turnarounds require ASNT + API 510/570/653; Hyundai Heavy Industries hull and topside welding inspection commonly requires CSWIP 3.1 for export vessels.",
+    salary: {
+      currency: "KRW",
+      levelI: "KRW 40M–58M/year",
+      levelII: "KRW 65M–96M/year",
+      levelIII: "KRW 110M–172M/year",
+      usdReference: "USD 49,000–73,000 (Level II)",
+    },
+    examCenters: [
+      { name: "KSNT (Korean Society for NDT) Ulsan Examination Centre", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV NORD Korea Ulsan", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Busan (Ulsan-serving)", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "busan", label: "Busan" },
+      { slug: "south-korea", label: "South Korea" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "shanghai", label: "Shanghai" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+    ],
+  },
+  {
+    slug: "jurong-island",
+    city: "Jurong Island",
+    country: "Singapore",
+    lat: 1.2649, lng: 103.6959,
+    localContext:
+      "Jurong Island is Singapore's purpose-built petrochemical and refining complex — ExxonMobil's largest integrated refining and petrochemical site outside the US, Shell's Energy and Chemicals Park, Chevron Oronite, and dozens of specialty-chemical plants operating under JTC oversight. Continuous turnaround cycles and marine-adjacent fabrication drive steady demand for UT, RT, PAUT and TOFD technicians.",
+    primaryCert: "ASNT",
+    secondaryCert: "PCN",
+    otherCerts: ["ISO 9712", "CSWIP"],
+    certPathwayNote:
+      "ExxonMobil and Shell Jurong Island turnarounds default to ASNT SNT-TC-1A for US-affiliated operators, with PCN and ISO 9712 required by UK/EU-led EPC packages. CSWIP 3.1 dominates hiring for structural and piping-weld inspection roles.",
+    salary: {
+      currency: "SGD",
+      levelI: "SGD 3,200–4,800/month",
+      levelII: "SGD 5,500–9,000/month",
+      levelIII: "SGD 12,000–22,000/month",
+      usdReference: "USD 4,100–6,700 (Level II take-home)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Singapore (Jurong Island)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Applus+ RTD Singapore", bodies: ["ASNT", "PCN", "ISO 9712"] },
+      { name: "TWI Singapore", bodies: ["CSWIP", "PCN"] },
+    ],
+    siblings: [
+      { slug: "singapore", label: "Singapore" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "batam", label: "Batam" },
+      { slug: "pengerang", label: "Pengerang" },
+      { slug: "jakarta", label: "Jakarta" },
+    ],
+  },
+  {
+    slug: "karratha",
+    city: "Karratha",
+    country: "Australia",
+    lat: -20.7364, lng: 116.8460,
+    localContext:
+      "Karratha is the operational base for Woodside Energy's North West Shelf and Pluto LNG projects, and the gateway to the Pilbara's iron-ore export network (Rio Tinto, BHP). FIFO (fly-in-fly-out) crews rotate continuously between Perth and Karratha for LNG train turnarounds, offshore platform inspection, and iron-ore port and rail infrastructure NDT.",
+    primaryCert: "AINDT",
+    secondaryCert: "ASNT",
+    otherCerts: ["ISO 9712", "PCN", "CSWIP"],
+    certPathwayNote:
+      "Woodside's North West Shelf and Pluto contractor specifications accept AINDT (ISO 9712) and ASNT SNT-TC-1A interchangeably. Rio Tinto and BHP Pilbara iron-ore infrastructure inspection follows AS 3669/AS 4037 with AINDT qualification; PCN and CSWIP appear on UK-led offshore EPC packages (Subsea 7, Saipem).",
+    salary: {
+      currency: "AUD",
+      levelI: "AUD 78,000–108,000/year (FIFO)",
+      levelII: "AUD 120,000–185,000/year (FIFO + offshore rotation premium)",
+      levelIII: "AUD 185,000–280,000/year",
+      usdReference: "USD 78,000–120,000 (Level II)",
+    },
+    examCenters: [
+      { name: "AINDT Karratha/Pilbara Examination Centre", bodies: ["AINDT", "ISO 9712"] },
+      { name: "Bureau Veritas Perth (Karratha-serving)", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "perth", label: "Perth" },
+      { slug: "australia", label: "Australia" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "jurong-island", label: "Jurong Island" },
+      { slug: "brisbane", label: "Brisbane" },
+    ],
+  },
+  {
+    slug: "busan",
+    city: "Busan",
+    country: "South Korea",
+    lat: 35.1796, lng: 129.0756,
+    localContext:
+      "Busan is South Korea's largest port city and a major shipbuilding centre — HJ Shipbuilding & Construction's Yeongdo shipyard, Busan Port Authority's container-terminal infrastructure, and continuous inspection-crew rotation supporting the HD Hyundai / Hyundai Heavy Industries shipyard cluster an hour north in Ulsan. Marine hull, port-structure and container-crane NDT drive local demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Korean shipyards run dual-track KS (Korean Standards) personnel qualification alongside ASNT SNT-TC-1A for export-vessel work. HJ Shipbuilding hull and structural weld inspection commonly requires CSWIP 3.1; port-authority crane and structural inspection follows ISO 9712.",
+    salary: {
+      currency: "KRW",
+      levelI: "KRW 38M–55M/year",
+      levelII: "KRW 62M–92M/year",
+      levelIII: "KRW 105M–165M/year",
+      usdReference: "USD 47,000–70,000 (Level II)",
+    },
+    examCenters: [
+      { name: "KSNT (Korean Society for NDT) Busan Examination Centre", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Busan", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Lloyd's Register Busan", bodies: ["PCN", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "ulsan", label: "Ulsan" },
+      { slug: "south-korea", label: "South Korea" },
+      { slug: "shanghai", label: "Shanghai" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "dalian", label: "Dalian" },
+    ],
+  },
+  {
+    slug: "dalian",
+    city: "Dalian",
+    country: "China",
+    lat: 38.9140, lng: 121.6147,
+    localContext:
+      "Dalian is northeast China's principal shipbuilding and refining hub — PetroChina's Dalian Petrochemical complex, Dalian Shipbuilding Industry Company (DSIC, one of China's largest state shipbuilders), Dalian West Pacific Petrochemical, and COSCO Shipping Heavy Industry's Dalian yard. Refinery turnarounds and continuous newbuild hull inspection keep multi-method NDT crews busy year-round.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Dalian shipyards run dual-track CCS (China Classification Society) personnel qualification alongside ASNT SNT-TC-1A for export-vessel work. PetroChina Dalian Petrochemical turnarounds require ASNT + Chinese GB/SY code familiarity; ISO 9712 is increasingly required by foreign-flagged vessel owners.",
+    salary: {
+      currency: "CNY",
+      levelI: "CNY 7,500–13,000/month",
+      levelII: "CNY 15,000–26,000/month",
+      levelIII: "CNY 30,000–55,000/month",
+      usdReference: "USD 2,100–3,600 (Level II)",
+    },
+    examCenters: [
+      { name: "China Special Equipment Inspection (CSEI) Dalian", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV SUD Dalian", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Dalian", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "busan", label: "Busan" },
+      { slug: "shanghai", label: "Shanghai" },
+      { slug: "south-korea", label: "South Korea" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+    ],
+  },
+  {
+    slug: "batam",
+    city: "Batam",
+    country: "Indonesia",
+    lat: 1.0456, lng: 104.0305,
+    localContext:
+      "Batam, just south of Singapore across the strait, is Indonesia's principal offshore-fabrication and shipyard hub — PT McDermott Indonesia's Batam yard, Drydocks World Graha Batam, Sembcorp Marine-affiliated fabricators, and the Batamindo Industrial Park's electronics and light-manufacturing base. Offshore-platform module fabrication and marine repair drive continuous UT, RT and MT demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "BNSP",
+    otherCerts: ["ISO 9712", "CSWIP"],
+    certPathwayNote:
+      "McDermott and Drydocks World Batam fabrication yards require ASNT SNT-TC-1A alongside BNSP (Badan Nasional Sertifikasi Profesi) for Indonesian-national NDT competency recognition. CSWIP 3.1 is mandatory for structural and pipeline weld inspection on export-bound offshore modules.",
+    salary: {
+      currency: "IDR",
+      levelI: "IDR 7M–12M/month",
+      levelII: "IDR 14M–24M/month",
+      levelIII: "IDR 28M–48M/month",
+      usdReference: "USD 10,500–18,500",
+    },
+    examCenters: [
+      { name: "PT Petrolog Indah Indonesia (Batam)", bodies: ["ASNT", "BNSP"] },
+      { name: "TUV NORD Indonesia (Batam branch)", bodies: ["ASNT", "ISO 9712", "CSWIP"] },
+    ],
+    siblings: [
+      { slug: "singapore", label: "Singapore" },
+      { slug: "jurong-island", label: "Jurong Island" },
+      { slug: "jakarta", label: "Jakarta" },
+      { slug: "kuala-lumpur", label: "Kuala Lumpur" },
+      { slug: "balikpapan", label: "Balikpapan" },
+    ],
+  },
+  {
+    slug: "point-lisas",
+    city: "Point Lisas",
+    country: "Trinidad and Tobago",
+    lat: 10.4167, lng: -61.4667,
+    localContext:
+      "Point Lisas Industrial Estate, on Trinidad's west coast near Couva, is the Caribbean's largest petrochemical and LNG-adjacent industrial complex — Atlantic LNG's liquefaction trains, the National Gas Company (NGC) pipeline network, Methanol Holdings Trinidad Limited's methanol/ammonia plants, and Yara Trinidad's ammonia production. Continuous ammonia-reactor and pipeline turnarounds drive steady multi-method NDT demand distinct from Trinidad's wider upstream sector.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN"],
+    certPathwayNote:
+      "Atlantic LNG, NGC and the Point Lisas ammonia/methanol plants apply ASNT SNT-TC-1A as the baseline personnel-qualification standard, with ISO 9712 recognised for European-affiliated EPC turnaround contractors. PCN appears on UK-led plant-integrity packages.",
+    salary: {
+      currency: "TTD",
+      levelI: "TTD 6,000–9,000/month",
+      levelII: "TTD 10,000–16,000/month",
+      levelIII: "TTD 18,000–28,000/month",
+      usdReference: "USD 1,500–2,400 (Level II take-home)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Trinidad (Point Lisas)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Applus+ Trinidad (Point Lisas Estate)", bodies: ["ASNT", "PCN"] },
+    ],
+    siblings: [
+      { slug: "trinidad", label: "Trinidad" },
+      { slug: "houston", label: "Houston" },
+      { slug: "new-orleans", label: "New Orleans" },
+      { slug: "lagos", label: "Lagos" },
+      { slug: "port-harcourt", label: "Port Harcourt" },
+    ],
+  },
+  {
+    slug: "antofagasta",
+    city: "Antofagasta",
+    country: "Chile",
+    lat: -23.6509, lng: -70.3975,
+    localContext:
+      "Antofagasta is the logistics and technical-services capital of the world's largest copper-mining region — BHP/Rio Tinto's Escondida (the world's largest copper mine), Codelco's Chuquicamata and Radomiro Tomic operations, and Antofagasta Minerals' Grupo Luksic mine portfolio. Slurry pipelines, concentrate-processing pressure vessels and mine-site structural steel drive NDT demand across the Atacama Desert corridor.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN"],
+    certPathwayNote:
+      "BHP Escondida and Codelco contractor qualification frameworks accept ASNT SNT-TC-1A as the default personnel standard, with ISO 9712 recognised for European engineering-firm packages (SGS, Bureau Veritas Chile). Mine-site pressure-equipment inspection follows ASME code stacks referenced in Chilean SERNAGEOMIN mining-safety regulation.",
+    salary: {
+      currency: "CLP",
+      levelI: "CLP 900,000–1,400,000/month",
+      levelII: "CLP 1,600,000–2,600,000/month",
+      levelIII: "CLP 3,000,000–5,000,000/month",
+      usdReference: "USD 1,700–2,750 (Level II take-home)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Chile (Antofagasta)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "SGS Chile (Antofagasta mining division)", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "santiago", label: "Santiago" },
+      { slug: "lima", label: "Lima" },
+      { slug: "bogota", label: "Bogota" },
+      { slug: "houston", label: "Houston" },
+      { slug: "sao-paulo", label: "Sao Paulo" },
+    ],
+  },
+  {
+    slug: "nashik",
+    city: "Nashik",
+    country: "India",
+    lat: 19.9975, lng: 73.7898,
+    localContext:
+      "Nashik anchors a distinct aerospace and defence manufacturing corridor separate from Pune's automotive base — Hindustan Aeronautics Limited's Nashik (Ozar) Division, which license-builds Sukhoi Su-30MKI airframe and engine components, alongside Mahindra's Nashik plant and multiple ordnance-linked precision manufacturers. Aerospace-grade NDT (RT film + digital, PAUT, ET) sits alongside conventional automotive-fabrication inspection.",
+    primaryCert: "ISNT",
+    secondaryCert: "ASNT",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "HAL Nashik aerospace-component inspection requires ASNT SNT-TC-1A with NADCAP-aligned procedure control layered on top of ISNT Level I-III (India's ISO 9712-aligned national scheme) for the broader Nashik manufacturing base. Export-oriented Mahindra suppliers require ASNT for ASME-stamped fabrication.",
+    salary: {
+      currency: "INR",
+      levelI: "INR 2.6–4.4 LPA",
+      levelII: "INR 5.2–9.8 LPA",
+      levelIII: "INR 12–24 LPA",
+      usdReference: "USD 6,200–11,800",
+    },
+    examCenters: [
+      { name: "ISNT Nashik Chapter", bodies: ["ISNT"] },
+      { name: "QUEST Pune (ASNT-recognized, Nashik-serving)", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Pune (Nashik-serving)", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "pune", label: "Pune" },
+      { slug: "mumbai", label: "Mumbai" },
+      { slug: "vadodara", label: "Vadodara" },
+      { slug: "bangalore", label: "Bangalore" },
+      { slug: "surat", label: "Surat" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

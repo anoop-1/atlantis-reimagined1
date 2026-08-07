@@ -38,14 +38,14 @@ const esc = (s) =>
 
 export const ERP_HUB_META = {
   '/erp': {
-    title: 'Business Management Software — Affordable, Accessible, Fully Customizable | Atlantis',
+    title: 'Cloud-Based ERP for Testing & Inspection Companies — and Every Business You Run | Atlantis',
     description:
-      'Run sales, projects, field teams, stock, people and accounts on one connected platform, configured for your industry and customized around the way you already work. Affordable, accessible, fully customizable. Book a free consultation.',
+      'One cloud-based platform for testing and inspection companies — and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
   },
   '/ndt-erp-solution': {
-    title: 'All-in-One Business Software for Service and Inspection Companies | Atlantis',
+    title: 'NDT Technician Certification Tracking & Calibration Management Software | Atlantis',
     description:
-      'One platform for quoting, projects, job costing, field teams, compliance records and accounts — with the depth inspection and testing businesses need built in. Affordable, accessible, fully customizable. Free consultation.',
+      'Software built for testing and inspection companies — technician certification tracking that flags expiring credentials automatically, equipment calibration management, and document control under ISO quality standards, alongside quoting, projects, job costing and accounts. Affordable, accessible, fully customizable. Free consultation.',
   },
   '/erp-modules': {
     title: 'Business Software Modules — Sales, Projects, Stock, People, Quality | Atlantis',

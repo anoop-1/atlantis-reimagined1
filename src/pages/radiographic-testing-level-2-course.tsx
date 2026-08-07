@@ -1,0 +1,121 @@
+import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+
+const data: MethodCourseData = {
+  slug: "radiographic-testing-level-2-course",
+  seoTitle: "Radiographic Testing (RT) Level 2 Course — Film Interpretation | Atlantis NDT",
+  seoDescription:
+    "Radiographic testing (RT) Level 2 course with a dedicated film interpretation practicum: IQI sensitivity, density reading, weld discontinuity ID. SNT-TC-1A pathway. Free consultation.",
+  keywords:
+    "radiographic testing Level 2 course film interpretation, RT Level 2 certification, RT film interpretation course, radiographic testing certification course",
+  h1: "Radiographic Testing (RT) Level 2 Course",
+  badgeLabel: "RT Level II Certification — Film Interpretation Focus",
+  heroSubtitle:
+    "Radiographic Testing (RT) Level II training with a dedicated film-interpretation practicum — source selection, IQI sensitivity, density reading, and weld-discontinuity identification against code acceptance criteria.",
+  methodName: "Radiographic Testing (RT)",
+  levelLabel: "Level II",
+  hoursLabel:
+    "≈80 classroom hours for Level II, with a dedicated film/digital-interpretation practicum, per SNT-TC-1A recommended training-hour guidance.",
+  stats: [
+    { label: "Certification Level", value: "Level II" },
+    { label: "Typical Hours", value: "≈80 hrs" },
+    { label: "Recert Cycle", value: "5 Years" },
+    { label: "Delivery", value: "Online + On-site" },
+  ],
+  overview: [
+    "Radiographic Testing (RT) uses X-ray or gamma radiation to produce an image — on film, or increasingly on a digital detector — showing internal discontinuities as density or greyscale variation. A Level II radiographer works independently: selecting source and technique, verifying image quality with an IQI (image quality indicator), reading film density against the required range, and identifying and classifying discontinuities like porosity, slag, lack of fusion, lack of penetration and cracking.",
+    "Film interpretation is the skill that separates a competent Level II radiographer from one who merely operates equipment. Reading a radiograph well means recognizing the visual signature of each discontinuity type, distinguishing genuine indications from processing artifacts and geometric unsharpness, and applying the correct code-based acceptance criteria — ASME Section V Article 2 for technique, ASME VIII or B31.3 for accept/reject — with confidence and consistency.",
+    "This RT Level 2 course puts that film-interpretation practicum at the center of the curriculum, alongside the source-selection, exposure-technique and radiation-safety fundamentals every Level II radiographer needs, and covers digital and computed radiography basics so the skillset transfers as facilities modernize their imaging chain.",
+  ],
+  highlightTitle: "Why Film Interpretation Is the Hard Part",
+  highlightBody:
+    "Anyone can be taught to make an exposure. What takes real practice is reading the result — telling a genuine lack-of-fusion indication apart from a processing artifact, judging whether porosity clustering exceeds the applicable code limit, and doing it consistently under time pressure. That's the skill this course is built around.",
+  curriculum: [
+    "Radiation physics and source selection (Ir-192, Se-75, Co-60, X-ray)",
+    "Exposure technique and geometric factors (SFD, focal spot, unsharpness)",
+    "Film types, processing chemistry and density (H&D curve)",
+    "IQI selection, placement and sensitivity verification",
+    "Digital and computed radiography (CR/DR) basics",
+    "Discontinuity identification — porosity, slag, lack of fusion, lack of penetration, cracks, undercut",
+    "Code acceptance criteria per ASME VIII Division 1 and B31.3",
+    "Radiation safety, exclusion zones and dosimetry basics",
+    "Report writing and film/image retention requirements",
+  ],
+  pathwaySteps: [
+    {
+      title: "Eligibility & vision screening",
+      detail:
+        "Confirm RT Level I certification (or equivalent documented experience) and complete a current near-vision and colour-vision screening — critical for accurate film reading.",
+    },
+    {
+      title: "Formal Level II training",
+      detail:
+        "Complete online theory on radiation physics, exposure technique and code acceptance criteria, then the on-site film-interpretation practicum reading real and reference radiographs.",
+    },
+    {
+      title: "General, specific and practical examination",
+      detail:
+        "Sit the written and practical (film-reading) exam per your employer's SNT-TC-1A written practice.",
+    },
+    {
+      title: "Certification issued and documented",
+      detail:
+        "Level II RT certification is recorded with training hours, exam results, and vision-test documentation.",
+    },
+    {
+      title: "5-year recertification cycle",
+      detail:
+        "RT certification runs on the standard 5-year SNT-TC-1A/CP-189 cycle, with the annual vision test on its own shorter clock — non-negotiable for a method this dependent on visual acuity.",
+    },
+  ],
+  faqs: [
+    {
+      question: "Does this course cover digital radiography, or only film?",
+      answer:
+        "Both. The core interpretation practicum is film-based because that's still the industry baseline and the skill transfers directly, but the course also covers computed radiography (CR) and digital radiography (DR) basics, since most facilities are running a mix of both today.",
+    },
+    {
+      question: "What's the hardest part of the RT Level 2 exam?",
+      answer:
+        "Almost universally, it's the practical film-interpretation component — correctly identifying discontinuity type, judging severity against code acceptance limits, and doing it consistently under exam time pressure. That's why this course weights its practical hours toward guided film reading rather than just exposure technique.",
+    },
+    {
+      question: "Do I need RT Level I certification first?",
+      answer:
+        "Yes — Level II builds on Level I. You'll need current RT Level I certification, or equivalent documented training and experience accepted under your employer's written practice.",
+    },
+    {
+      question: "Is radiation safety covered in this course?",
+      answer:
+        "Yes, radiation safety fundamentals — exclusion zones, exposure device handling, and dosimetry basics — are built into the Level II curriculum. Site-specific radiation safety officer (RSO) certification, where required, is typically a separate regulatory qualification beyond NDT Level II scope.",
+    },
+    {
+      question: "How is RT Level 2 certification renewed?",
+      answer:
+        "On the standard 5-year SNT-TC-1A/CP-189 cycle, with an annual vision test required separately — for a method this dependent on reading fine detail, staying current on your vision documentation matters more than for most other methods.",
+    },
+  ],
+  relatedLinks: [
+    { to: "/magnetic-particle-testing-certification-course", label: "Magnetic Particle Testing Course", desc: "Surface/near-surface weld discontinuity detection" },
+    { to: "/asnt-level-2-ut-online-course", label: "ASNT Level 2 UT Online Course", desc: "Volumetric weld inspection alternative to RT" },
+    { to: "/asnt-certification", label: "ASNT Certification Guide", desc: "Full Level I/II/III pathway across all methods" },
+  ],
+  courseName: "RT Level II Radiographic Testing Course — Film Interpretation",
+  courseDescription:
+    "Radiographic Testing Level II training with a dedicated film-interpretation practicum: source selection, IQI sensitivity, density reading, weld-discontinuity identification and code acceptance criteria per ASME Section V Article 2 and ASME VIII/B31.3.",
+  courseTeaches:
+    "X-ray and gamma source selection, image-quality-indicator (IQI) sensitivity, film density and densitometer use, weld-discontinuity identification, and code-based acceptance/rejection per ASME Section V Article 2 and ASME VIII / B31.3",
+  coursePrerequisites:
+    "RT Level I certification (or equivalent documented experience) plus current vision screening",
+  educationalCredentialAwarded: "Level II Radiographic Testing certificate of training completion",
+  educationalLevel: "Professional",
+  durationISO: "PT80H",
+  articleHeadline: "Radiographic Testing (RT) Level 2 Course: Film Interpretation Curriculum & Pathway",
+  articleDescription:
+    "What the RT Level 2 course covers with its film-interpretation focus — IQI sensitivity, density reading, discontinuity ID — and the SNT-TC-1A certification pathway.",
+  articleSection: "NDT Training",
+  articleKeywords: "radiographic testing Level 2, RT film interpretation, IQI, radiographic testing certification",
+};
+
+export default function RadiographicTestingLevel2Course() {
+  return <MethodCoursePage data={data} />;
+}

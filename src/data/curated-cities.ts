@@ -274,6 +274,8 @@ export const CURATED_CITY_SLUGS: Set<string> = new Set([
   // === Comparison + Industry + State expansion 2026-05-23 ===
   'maharashtra', 'gujarat', 'tamil-nadu', 'karnataka', 'telangana', 'andhra-pradesh', 'kerala', 'west-bengal',
   'new-york-state', 'florida', 'illinois', 'michigan', 'colorado',
+  // === ERP/Training expansion 2026-08-07 — verified gap cities ===
+  'busan', 'dalian', 'batam', 'point-lisas', 'antofagasta', 'nashik',
 ]);
 
 /**
@@ -379,6 +381,8 @@ export const ERP_CITY_PAGE_SLUGS: Set<string> = new Set([
   // === Comparison + Industry + State expansion 2026-05-23 ===
   'maharashtra','gujarat','tamil-nadu','karnataka','telangana','andhra-pradesh','kerala','west-bengal',
   'new-york-state','florida','illinois','michigan','colorado',
+  // === ERP expansion 2026-08-07 — verified gap cities ===
+  'busan','dalian','batam','point-lisas','antofagasta','nashik','stavanger',
 ]);
 
 /** Cities that have an /ndt-reporting-{slug} page. */
@@ -425,6 +429,8 @@ export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'kerteh','manila','bangkok','balikpapan','cilacap','pengerang','bintulu',
   // === Training day-2 enrichment 2026-05-25 — vizag alias slug for DynamicTrainingPage ===
   'vizag','kochi','jubail','yanbu','dammam',
+  // === Training expansion 2026-08-07 — verified gap cities ===
+  'ras-laffan','mesaieed','ulsan','jurong-island','karratha','busan','dalian','batam','point-lisas','antofagasta','nashik',
 ]);
 
 /** Cities that have a /consulting/ndt-consulting-{slug} page. Matches CONSULTING_CITY_SLUGS in city-profiles.ts. */

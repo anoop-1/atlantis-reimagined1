@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Cba4hDr6.js";import{g as o,T as n}from"./TrainingLocationPage-CG2rH8yI.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DfjVdcQg.js";import"./erp-pages-DI4PcLb3.js";function s(){const i=o("ho-chi-minh");return i?r.jsx(n,{profile:i}):null}export{s as default};

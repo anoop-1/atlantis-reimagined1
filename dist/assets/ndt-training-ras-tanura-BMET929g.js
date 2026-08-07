@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Cba4hDr6.js";import{g as t,T as a}from"./TrainingLocationPage-CG2rH8yI.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DfjVdcQg.js";import"./erp-pages-DI4PcLb3.js";function p(){const r=t("ras-tanura");return r?i.jsx(a,{profile:r}):null}export{p as default};

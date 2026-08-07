@@ -209,6 +209,16 @@ const API570Certification = lazy(() => import("./pages/api-570-certification"));
 const API570Training = lazy(() => import("./pages/api-570-training"));
 const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
+// === training method course pages 2026-08-07 ===
+const AsntLevel2UtOnlineCourse = lazy(() => import("./pages/asnt-level-2-ut-online-course"));
+const PautLevel2TrainingCourse = lazy(() => import("./pages/paut-level-2-training-course"));
+const TofdTrainingCertificationCourse = lazy(() => import("./pages/tofd-training-certification-course"));
+const EddyCurrentTestingLevel2Course = lazy(() => import("./pages/eddy-current-testing-level-2-course"));
+const RadiographicTestingLevel2Course = lazy(() => import("./pages/radiographic-testing-level-2-course"));
+const MagneticParticleTestingCertificationCourse = lazy(() => import("./pages/magnetic-particle-testing-certification-course"));
+const LiquidPenetrantTestingLevel1Course = lazy(() => import("./pages/liquid-penetrant-testing-level-1-course"));
+const NdtLevel2RecertificationCourse = lazy(() => import("./pages/ndt-level-2-recertification-course"));
+// === End training method course pages 2026-08-07 ===
 // New 2026-05 SEO pages: service / comparison / regional
 const MflPipelineInspection = lazy(() => import("./pages/services/MflPipelineInspection"));
 const CompareAsntVsPcn = lazy(() => import("./pages/compare/AsntVsPcn"));
@@ -2368,6 +2378,14 @@ const NDTErpDarwin = lazy(() => import("./pages/ndt-erp-darwin"));
 const NDTErpAuckland = lazy(() => import("./pages/ndt-erp-auckland"));
 const NDTErpWellington = lazy(() => import("./pages/ndt-erp-wellington"));
 const NDTErpChristchurch = lazy(() => import("./pages/ndt-erp-christchurch"));
+// === erp expansion 2026-08-07 ===
+const NDTErpBusan = lazy(() => import("./pages/ndt-erp-busan"));
+const NDTErpDalian = lazy(() => import("./pages/ndt-erp-dalian"));
+const NDTErpBatam = lazy(() => import("./pages/ndt-erp-batam"));
+const NDTErpPointLisas = lazy(() => import("./pages/ndt-erp-point-lisas"));
+const NDTErpAntofagasta = lazy(() => import("./pages/ndt-erp-antofagasta"));
+const NDTErpNashik = lazy(() => import("./pages/ndt-erp-nashik"));
+const NDTErpStavanger = lazy(() => import("./pages/ndt-erp-stavanger"));
 // Reporting — tier-3 expansion (April 2026)
 const NDTReportingTulsa = lazy(() => import("./pages/ndt-reporting-tulsa"));
 const NDTReportingBeaumont = lazy(() => import("./pages/ndt-reporting-beaumont"));
@@ -2748,6 +2766,18 @@ const NDTTrainingBalikpapan = lazy(() => import("./pages/ndt-training-balikpapan
 const NDTTrainingCilacap = lazy(() => import("./pages/ndt-training-cilacap"));
 const NDTTrainingPengerang = lazy(() => import("./pages/ndt-training-pengerang"));
 const NDTTrainingBintulu = lazy(() => import("./pages/ndt-training-bintulu"));
+// === training expansion 2026-08-07 ===
+const NDTTrainingRasLaffan = lazy(() => import("./pages/ndt-training-ras-laffan"));
+const NDTTrainingMesaieed = lazy(() => import("./pages/ndt-training-mesaieed"));
+const NDTTrainingUlsan = lazy(() => import("./pages/ndt-training-ulsan"));
+const NDTTrainingJurongIsland = lazy(() => import("./pages/ndt-training-jurong-island"));
+const NDTTrainingKarratha = lazy(() => import("./pages/ndt-training-karratha"));
+const NDTTrainingBusan = lazy(() => import("./pages/ndt-training-busan"));
+const NDTTrainingDalian = lazy(() => import("./pages/ndt-training-dalian"));
+const NDTTrainingBatam = lazy(() => import("./pages/ndt-training-batam"));
+const NDTTrainingPointLisas = lazy(() => import("./pages/ndt-training-point-lisas"));
+const NDTTrainingAntofagasta = lazy(() => import("./pages/ndt-training-antofagasta"));
+const NDTTrainingNashik = lazy(() => import("./pages/ndt-training-nashik"));
 const CorporateTrainingHydrogenEconomy = lazy(() => import("./pages/corporate-training/HydrogenEconomy"));
 const CorporateTrainingAmmoniaPlants = lazy(() => import("./pages/corporate-training/AmmoniaPlants"));
 const CorporateTrainingBatteryManufacturing = lazy(() => import("./pages/corporate-training/BatteryManufacturing"));
@@ -2936,6 +2966,16 @@ const App = () => (
                   <Route path="/api-570-training" element={<LazyRoute Component={API570Training} />} />
                   <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
+                  {/* === training method course pages 2026-08-07 === */}
+                  <Route path="/asnt-level-2-ut-online-course" element={<LazyRoute Component={AsntLevel2UtOnlineCourse} />} />
+                  <Route path="/paut-level-2-training-course" element={<LazyRoute Component={PautLevel2TrainingCourse} />} />
+                  <Route path="/tofd-training-certification-course" element={<LazyRoute Component={TofdTrainingCertificationCourse} />} />
+                  <Route path="/eddy-current-testing-level-2-course" element={<LazyRoute Component={EddyCurrentTestingLevel2Course} />} />
+                  <Route path="/radiographic-testing-level-2-course" element={<LazyRoute Component={RadiographicTestingLevel2Course} />} />
+                  <Route path="/magnetic-particle-testing-certification-course" element={<LazyRoute Component={MagneticParticleTestingCertificationCourse} />} />
+                  <Route path="/liquid-penetrant-testing-level-1-course" element={<LazyRoute Component={LiquidPenetrantTestingLevel1Course} />} />
+                  <Route path="/ndt-level-2-recertification-course" element={<LazyRoute Component={NdtLevel2RecertificationCourse} />} />
+                  {/* === End training method course pages 2026-08-07 === */}
                   {/* Standards Reference Hub (2026-05) */}
                   <Route path="/standards" element={<LazyRoute Component={StandardsHub} />} />
                   <Route path="/standards/:slug" element={<LazyRoute Component={StandardDetail} />} />
@@ -4665,6 +4705,14 @@ const App = () => (
                   <Route path="/ndt-erp-auckland" element={<LazyRoute Component={NDTErpAuckland} />} />
                   <Route path="/ndt-erp-wellington" element={<LazyRoute Component={NDTErpWellington} />} />
                   <Route path="/ndt-erp-christchurch" element={<LazyRoute Component={NDTErpChristchurch} />} />
+                  {/* === erp expansion 2026-08-07 === */}
+                  <Route path="/ndt-erp-busan" element={<LazyRoute Component={NDTErpBusan} />} />
+                  <Route path="/ndt-erp-dalian" element={<LazyRoute Component={NDTErpDalian} />} />
+                  <Route path="/ndt-erp-batam" element={<LazyRoute Component={NDTErpBatam} />} />
+                  <Route path="/ndt-erp-point-lisas" element={<LazyRoute Component={NDTErpPointLisas} />} />
+                  <Route path="/ndt-erp-antofagasta" element={<LazyRoute Component={NDTErpAntofagasta} />} />
+                  <Route path="/ndt-erp-nashik" element={<LazyRoute Component={NDTErpNashik} />} />
+                  <Route path="/ndt-erp-stavanger" element={<LazyRoute Component={NDTErpStavanger} />} />
                   {/* === ERP Expansion 2026-05-23 routes === */}
                   <Route path="/ndt-erp-baytown" element={<LazyRoute Component={NDTErp_baytown} />} />
                   <Route path="/ndt-erp-pasadena-texas" element={<LazyRoute Component={NDTErp_pasadena_texas} />} />
@@ -5427,6 +5475,18 @@ const App = () => (
                   <Route path="/ndt-training-cilacap" element={<LazyRoute Component={NDTTrainingCilacap} />} />
                   <Route path="/ndt-training-pengerang" element={<LazyRoute Component={NDTTrainingPengerang} />} />
                   <Route path="/ndt-training-bintulu" element={<LazyRoute Component={NDTTrainingBintulu} />} />
+                  {/* === training expansion 2026-08-07 === */}
+                  <Route path="/ndt-training-ras-laffan" element={<LazyRoute Component={NDTTrainingRasLaffan} />} />
+                  <Route path="/ndt-training-mesaieed" element={<LazyRoute Component={NDTTrainingMesaieed} />} />
+                  <Route path="/ndt-training-ulsan" element={<LazyRoute Component={NDTTrainingUlsan} />} />
+                  <Route path="/ndt-training-jurong-island" element={<LazyRoute Component={NDTTrainingJurongIsland} />} />
+                  <Route path="/ndt-training-karratha" element={<LazyRoute Component={NDTTrainingKarratha} />} />
+                  <Route path="/ndt-training-busan" element={<LazyRoute Component={NDTTrainingBusan} />} />
+                  <Route path="/ndt-training-dalian" element={<LazyRoute Component={NDTTrainingDalian} />} />
+                  <Route path="/ndt-training-batam" element={<LazyRoute Component={NDTTrainingBatam} />} />
+                  <Route path="/ndt-training-point-lisas" element={<LazyRoute Component={NDTTrainingPointLisas} />} />
+                  <Route path="/ndt-training-antofagasta" element={<LazyRoute Component={NDTTrainingAntofagasta} />} />
+                  <Route path="/ndt-training-nashik" element={<LazyRoute Component={NDTTrainingNashik} />} />
                   <Route path="/corporate-training/hydrogen-economy" element={<LazyRoute Component={CorporateTrainingHydrogenEconomy} />} />
                   <Route path="/corporate-training/ammonia-plants" element={<LazyRoute Component={CorporateTrainingAmmoniaPlants} />} />
                   <Route path="/corporate-training/battery-manufacturing" element={<LazyRoute Component={CorporateTrainingBatteryManufacturing} />} />

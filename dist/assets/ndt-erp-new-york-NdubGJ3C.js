@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Cba4hDr6.js";import{E as o}from"./ErpLocationPage--AT2udDX.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function a(){return r.jsx(o,{city:"New York",country:"USA",slug:"ndt-erp-new-york"})}export{a as default};

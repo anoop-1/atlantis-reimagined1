@@ -137,15 +137,6 @@ export default function API510Certification() {
                 dependencies: "API 510, API 571, API 572, API 576, API 579-1/ASME FFS-1, ASME BPVC Section VIII, Section V, Section IX, ASME II-D",
             }),
             {
-                "@type": "Course",
-                "name": "API 510 Pressure Vessel Inspector Certification Training",
-                "description": "Comprehensive API 510 certification exam preparation. Open-book format training covering API 510, ASME BPVC Section VIII, ASME Section V, IX, II, API 572, API 576, API 571, and API 579-1 for pressure vessel inspectors.",
-                "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-                "courseMode": ["online", "onsite", "blended"],
-                "educationalLevel": "Professional",
-                "teaches": "API 510 Pressure Vessel Inspector Certification"
-            },
-            {
                 "@type": "FAQPage",
                 "mainEntity": faqs.map(faq => ({
                     "@type": "Question",
@@ -177,21 +168,23 @@ export default function API510Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-red-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 510 Certification Training</h1>
-        {/* INLINE_PROOF_US_INJECTED_v1 */}
+        {/* 2026-08-07 — Atlantis does not offer an API 510 exam-prep course;
+            this box previously claimed a scheduled USA cohort. Reframed to
+            what Atlantis actually does: ASNT Level III consulting for the
+            employers who hire API 510 inspectors, not a class we run. */}
         <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
-          <strong>USA cohorts (Houston, Beaumont, Tulsa, Pasadena, Mobile):</strong> ASNT NDT Level III-led 5-day prep, 96% first-attempt pass, refining-major employer roster (ExxonMobil, Marathon, Phillips 66, Shell). 2026 schedule.
-          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Free USA consultation →</a>
+          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants work with refining-sector employers (ExxonMobil, Marathon, Phillips 66, Shell) on inspection programs and written-practice support — not an API 510 exam-prep class.
+          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a consultant →</a>
         </p>
 
-        {/* INLINE_PROOF_INJECTED_v1 */}
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
-          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
-          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">See the API 510 schedule →</a>
+          <strong>Written by an ASNT Level III:</strong> this guide is authored and maintained by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III multi-method.
+          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Get exam-prep guidance →</a>
         </p>
 
-                        <p className="text-xl text-red-100 max-w-3xl mb-8">Become a certified API 510 Pressure Vessel Inspector. Comprehensive open-book exam preparation with 95% first-time pass rate. Training available online and in-person.</p>
+                        <p className="text-xl text-red-100 max-w-3xl mb-8">Everything you need to become a certified API 510 Pressure Vessel Inspector — eligibility, exam structure, reference codes, and a study path candidates use to reach a 95% first-time pass rate.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll in Next Class</Link>
+                            <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get Exam-Prep Guidance</Link>
                             <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
                         </div>
                     </motion.div>
@@ -402,9 +395,9 @@ export default function API510Certification() {
             <section className="py-16 bg-gradient-to-r from-red-700 to-rose-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Ready to Get API 510 Certified?</h2>
-                    <p className="text-red-100 mb-8 text-lg">Join our next training class. Dubai, Houston, India, and online options available.</p>
+                    <p className="text-red-100 mb-8 text-lg">Get free, personalized guidance on your API 510 exam prep — wherever you're based.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
+                        <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Consultation</Link>
                         <Link to="/api-570-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 570 Certification</Link>
                         <Link to="/api-653-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 653 Certification</Link>
                     </div>

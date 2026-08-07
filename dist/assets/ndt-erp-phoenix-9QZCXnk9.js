@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Cba4hDr6.js";import{E as r}from"./ErpLocationPage--AT2udDX.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function x(){return o.jsx(r,{city:"Phoenix",country:"USA",slug:"ndt-erp-phoenix"})}export{x as default};

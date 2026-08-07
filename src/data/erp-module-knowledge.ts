@@ -127,8 +127,8 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
     "roi": "Firms report eliminating out-of-calibration equipment incidents entirely once checkout is hard-blocked against expired instruments, removing a top cause of client-rejected reports and rework. Calibration-related audit findings — historically among the most common NDT accreditation nonconformances — drop close to zero when every instrument's traceability chain is a stored, retrievable certificate rather than a filing-cabinet search. Administrative time spent chasing overdue calibrations across a multi-technician fleet is cut substantially with automated escalation replacing manual spreadsheet review.",
     "faqs": [
       [
-        "Can it manage calibration for both in-house reference blocks and third-party accredited lab calibrations?",
-        "Yes. In-house calibrations against traceable reference standards auto-generate a certificate with the full traceability chain, while externally performed calibrations are logged with the receiving lab's certificate attached and validated against its accreditation scope."
+        "What does calibration management software for NDT companies need to handle — in-house reference blocks, third-party accredited lab calibrations, or both?",
+        "Both. In-house calibrations against traceable reference standards auto-generate a certificate with the full traceability chain, while externally performed calibrations are logged with the receiving lab's certificate attached and validated against its accreditation scope."
       ],
       [
         "What happens if a technician tries to use an instrument that's overdue for calibration?",
@@ -174,12 +174,12 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
     "roi": "Companies eliminate the client-facing risk of assigning a technician with a lapsed certification once dispatch eligibility is enforced automatically rather than checked manually before mobilization. Vendor prequalification audits (ISNetworld, Avetta) that historically took days to compile technician credential evidence are reduced to a same-day export. Firms also report faster recertification turnaround because expiry alerts reach both the technician and supervisor weeks ahead of the deadline instead of being discovered the week a job requires that credential.",
     "faqs": [
       [
-        "Can the system distinguish between ASNT, PCN, and CSWIP certification for the same technician and method?",
+        "Is there NDT technician certification tracking software that keeps ASNT, PCN, and CSWIP records separate for the same technician and method?",
         "Yes. Each certifying scheme is stored as a separate record with its own number, expiry, and scope, so a technician with both ASNT Level II UT and PCN Level 2 UT shows both credentials distinctly rather than merged into one generic \"UT certified\" flag."
       ],
       [
-        "Does it track the annual vision test requirement, or only the multi-year certification expiry?",
-        "Both are tracked independently. A technician can show a current, unexpired certification while the vision-test field flags overdue, and the dispatch filter treats either lapse as disqualifying for job assignment."
+        "Is there software that flags expired NDT certifications automatically, including the annual vision test and not just multi-year expiry?",
+        "Yes, both are tracked independently. A technician can show a current, unexpired certification while the vision-test field flags overdue, and the dispatch filter treats either lapse as disqualifying for job assignment."
       ],
       [
         "How does this support ISNetworld or Avetta vendor prequalification renewals?",
@@ -267,7 +267,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
     "roi": "Firms eliminate the recurring audit finding of technicians working from outdated procedure revisions once access is restricted to current-approved documents only, removing one of the most common ISO/IEC 17020 nonconformances. Time spent locating a specific historical procedure revision during a client dispute or audit drops from hours of folder searching to a direct pull from the version archive. Report traceability disputes — where a client questions which procedure revision governed a given inspection — are resolved immediately because every report is permanently stamped with its governing revision at time of issue.",
     "faqs": [
       [
-        "What happens to an old procedure revision when a new one is approved?",
+        "How does ISO 9001 document control software for NDT companies handle an old procedure revision when a new one is approved?",
         "It is archived, not deleted. The system preserves the full revision history with approval dates and superseding revision references, which auditors specifically look for during ISO/IEC 17020 or ISO 9001 surveillance visits."
       ],
       [
@@ -313,8 +313,8 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
     "roi": "Firms scheduling turnarounds through the module report fewer missed inspection windows because RBI-driven due dates populate the calendar automatically instead of depending on a planner remembering to check a spreadsheet. Certification-matched assignment eliminates the risk of dispatching an unqualified technician, a common source of client-rejected jobs and rework. Crew utilization improves measurably during multi-site operation because overlapping demand is visible on one master calendar, letting schedulers rebalance technicians across sites rather than over-booking one location while another sits under-resourced.",
     "faqs": [
       [
-        "Does the scheduler actually check technician certification before allowing an assignment?",
-        "Yes. Assignment pulls live from the certification tracking module, so a technician whose PAUT certification has lapsed or who lacks the specific scheme (ASNT vs. PCN vs. CSWIP) a client specification requires simply won't appear as an eligible option for that job."
+        "What should inspection company scheduling and crew dispatch software check before allowing a technician assignment?",
+        "Certification, at minimum. Assignment pulls live from the certification tracking module, so a technician whose PAUT certification has lapsed or who lacks the specific scheme (ASNT vs. PCN vs. CSWIP) a client specification requires simply won't appear as an eligible option for that job."
       ],
       [
         "How does it handle the radiography exclusion-zone conflict during a turnaround?",
@@ -405,7 +405,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
     "roi": "Project managers report catching margin erosion during execution rather than at invoicing once real-time cost roll-up replaces end-of-project reconciliation, allowing corrective staffing or scope decisions while the project is still active. Change order discipline — logging scope additions before work proceeds rather than after — reduces disputed billing with clients and improves realized margin on expanded-scope turnaround work. Multi-site visibility also reduces crew double-booking incidents during peak turnaround season, when several concurrent projects compete for the same certified technicians.",
     "faqs": [
       [
-        "Can it track both time-and-materials and lump-sum contracts within the same portfolio?",
+        "Does inspection company invoicing and project profitability software handle both time-and-materials and lump-sum contracts in the same portfolio?",
         "Yes. Each project is configured with its billing type at setup, and cost roll-up, invoicing triggers, and margin reporting apply the correct logic for that contract structure independently of how other concurrent projects are billed."
       ],
       [
@@ -460,8 +460,8 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
         "Yes. Repeat-finding trend analysis is filterable by technician, method, and nonconformance type, surfacing patterns that indicate a need for targeted retraining rather than isolated one-off corrective actions."
       ],
       [
-        "Does the quality dashboard help specifically during API Spec Q1 or Q2 certification audits?",
-        "Yes. The compiled KPI history, CAPA closure evidence, and management review records map directly to the documented-evidence expectations of an API Spec Q1/Q2 audit, replacing the manual compilation typically needed to prepare for that assessment."
+        "What should NDT quality management system software cover for an API Spec Q1 or Q2 certification audit?",
+        "A compiled KPI history, CAPA closure evidence, and management review records that map directly to the documented-evidence expectations of an API Spec Q1/Q2 audit, replacing the manual compilation typically needed to prepare for that assessment."
       ]
     ]
   },

@@ -29,14 +29,14 @@
   <meta property="og:title" content="Atlantis Digital Twin SAP PM Integration 2026: Bi-Directional NDT Data Sync" />
   <meta property="og:description" content="Native SAP PM integration: bi-directional notification/work-order sync, equipment master alignment, NDT findings flowed to SAP, 8-12 week deployment, OData + SAP RFC connectors." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://atlantisndt.com/og/home.png" />
+  <meta property="og:image" content="https://atlantisndt.com/atlantis.jpg" />
   <meta property="og:url" content="https://atlantisndt.com/integrations/sap-pm" />
   <meta property="og:site_name" content="Atlantis NDT" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Atlantis Digital Twin SAP PM Integration 2026: Bi-Directional NDT Data Sync" />
   <meta name="twitter:description" content="Native SAP PM integration: bi-directional notification/work-order sync, equipment master alignment, NDT findings flowed to SAP, 8-12 week deployment, OData + SAP RFC connectors." />
-  <meta name="twitter:image" content="https://atlantisndt.com/og/home.png" />
+  <meta name="twitter:image" content="https://atlantisndt.com/atlantis.jpg" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-96x96.jpg" />
 
   <!-- CLS prevention + font display -->
@@ -94,11 +94,11 @@
   }
   </script>
 
-  <script type="module" crossorigin src="/assets/index-D_U7S1Fg.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/blog-pages-DdTodome.js">
-  <link rel="modulepreload" crossorigin href="/assets/dt-3d-models-i2fBhJ70.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-CHwZoqbb.css">
-  <script type="application/ld+json">{"@type":"BreadcrumbList","@id":"https://atlantisndt.com/integrations/sap-pm#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://atlantisndt.com"},{"@type":"ListItem","position":2,"name":"Integrations","item":"https://atlantisndt.com/integrations"},{"@type":"ListItem","position":3,"name":"Sap Pm","item":"https://atlantisndt.com/integrations/sap-pm"}]}</script>
+  <script type="module" crossorigin src="/assets/index-CRbQqXC0.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/blog-pages-Cba4hDr6.js">
+  <link rel="modulepreload" crossorigin href="/assets/dt-3d-models-CYquM3AD.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-nuAm7pMO.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https://atlantisndt.com/integrations/sap-pm#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://atlantisndt.com"},{"@type":"ListItem","position":2,"name":"Integrations","item":"https://atlantisndt.com/integrations"},{"@type":"ListItem","position":3,"name":"Sap Pm","item":"https://atlantisndt.com/integrations/sap-pm"}]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does Atlantis use BAPI/IDoc or REST for SAP integration?","acceptedAnswer":{"@type":"Answer","text":"Both, depending on your SAP landscape and preference. The default and recommended path is REST via SAP Gateway / OData — it&amp;rsquo;s lighter, faster to deploy, easier to debug, and supported across S/4HANA and ECC 6.0. For customers with established PI/PO middleware investments, we also support BAPI/IDoc via the standard PI/PO adapters. The data model is the same; only the transport differs."}},{"@type":"Question","name":"Which SAP PM objects do you sync?","acceptedAnswer":{"@type":"Answer","text":"Equipment master (EQUI), Functional Location (FL), Notification (PM Notification — typically type M2 or M3), Maintenance Order (Work Order), Maintenance Plan, Job Plan, Cost Center, and Customer/Supplier where relevant. Inspection findings flow Atlantis → SAP as Notifications which then route into the standard Maintenance Order workflow. We do not directly create Maintenance Orders from Atlantis — that breaks the SAP planning workflow. The Notification path is correct and what SAP customers expect."}},{"@type":"Question","name":"How do FFS/RBI results flow into SAP?","acceptedAnswer":{"@type":"Answer","text":"API 579 FFS results and API 581 RBI risk band changes flow into SAP as Notifications with structured long-text containing the calculation summary and a link back to the full Atlantis record. Risk-band escalations (e.g. Medium → High) trigger automatic Notification creation; risk de-escalations are logged but typically not auto-created as Notifications. Risk-driven inspection interval changes flow into the SAP Maintenance Plan to update the next due date."}},{"@type":"Question","name":"What about SAP authorizations?","acceptedAnswer":{"@type":"Answer","text":"We work with your SAP Basis team to define a service user with the minimum authorizations required: read on EQUI / FL / Maintenance Plan, write on Notification, read on Maintenance Order. We do not require dialog-user privileges and do not require SAP_ALL or any broad authorizations. The full authorization matrix is documented in the integration specification and reviewed during scoping."}},{"@type":"Question","name":"Can this work with SAP S/4HANA Cloud?","acceptedAnswer":{"@type":"Answer","text":"Yes. S/4HANA Cloud uses the same OData services as on-prem S/4HANA but with cloud authentication patterns (typically OAuth2 client credentials via SAP Cloud Identity). Implementation is generally faster (4 weeks typical) because there&amp;rsquo;s no Basis side custom transport request management. We have customers running this in production."}}]}]}</script>
 </head>
 
 <body>
@@ -131,6 +131,20 @@
     <p>Audit-defensible records per <strong>ISO 9001:2015</strong> + <strong>ISO 17020</strong> (inspection body) + <strong>ISO 17025</strong> (calibration lab) + <strong>ISO 17024</strong> (personnel cert body). ASME B&amp;PV Sections V + VIII + IX + XI, ASME B31 piping series, API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 936 + 1169, NACE MR0175 + MR0103 sour-service, AMPP CIP coating, IACS Rec-20 marine + offshore. Dual-scheme inspector cert (ASNT NDT Level II/III + ISO 9712). ASNT NDT Level III final disposition + procedure approval on every engagement.</p>
     <h2>Delivery Model + Free Consultation</h2>
     <p>Three delivery models: <strong>On-site</strong> mobilisation 24-72h via Houston + Dubai + Mumbai + Singapore + London hubs; <strong>Remote</strong> procedure authoring + Level III sign-off (24-hour turnaround); <strong>Hybrid</strong> — local Level II + Atlantis Level III remote oversight. Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model, team size. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with Atlantis NDT founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor). Tailored quote within 24 hours. Affordable, accessible, fully customizable.</p>
+  
+    <section aria-label="Frequently asked questions">
+      <h2>Frequently Asked Questions</h2>
+      <div><h3>Does Atlantis use BAPI/IDoc or REST for SAP integration?</h3><p>Both, depending on your SAP landscape and preference. The default and recommended path is REST via SAP Gateway / OData — it&amp;rsquo;s lighter, faster to deploy, easier to debug, and supported across S/4HANA and ECC 6.0. For customers with established PI/PO middleware investments, we also support BAPI/IDoc via the standard PI/PO adapters. The data model is the same; only the transport differs.</p></div>
+      <div><h3>Which SAP PM objects do you sync?</h3><p>Equipment master (EQUI), Functional Location (FL), Notification (PM Notification — typically type M2 or M3), Maintenance Order (Work Order), Maintenance Plan, Job Plan, Cost Center, and Customer/Supplier where relevant. Inspection findings flow Atlantis → SAP as Notifications which then route into the standard Maintenance Order workflow. We do not directly create Maintenance Orders from Atlantis — that breaks the SAP planning workflow. The Notification path is correct and what SAP customers expect.</p></div>
+      <div><h3>How do FFS/RBI results flow into SAP?</h3><p>API 579 FFS results and API 581 RBI risk band changes flow into SAP as Notifications with structured long-text containing the calculation summary and a link back to the full Atlantis record. Risk-band escalations (e.g. Medium → High) trigger automatic Notification creation; risk de-escalations are logged but typically not auto-created as Notifications. Risk-driven inspection interval changes flow into the SAP Maintenance Plan to update the next due date.</p></div>
+      <div><h3>What about SAP authorizations?</h3><p>We work with your SAP Basis team to define a service user with the minimum authorizations required: read on EQUI / FL / Maintenance Plan, write on Notification, read on Maintenance Order. We do not require dialog-user privileges and do not require SAP_ALL or any broad authorizations. The full authorization matrix is documented in the integration specification and reviewed during scoping.</p></div>
+      <div><h3>Can this work with SAP S/4HANA Cloud?</h3><p>Yes. S/4HANA Cloud uses the same OData services as on-prem S/4HANA but with cloud authentication patterns (typically OAuth2 client credentials via SAP Cloud Identity). Implementation is generally faster (4 weeks typical) because there&amp;rsquo;s no Basis side custom transport request management. We have customers running this in production.</p></div>
+    </section>
+  
+    <nav class="related-pages" aria-label="Related Atlantis NDT pages">
+      <h2>Related reading</h2>
+      <ul><li><a href="/ndt-reporting-hyderabad">NDT Reporting Software Hyderabad 2026 — IACS Marine Bundle + API Templates</a></li><li><a href="/services/paut-inspection-philadelphia">Phased Array UT (PAUT) Inspection Philadelphia 2026 — PAUT ASNT Level III + Code</a></li><li><a href="/services/tofd-inspection-denver">TOFD Inspection Denver 2026 — TOFD ASNT Level III + Code-Aligned</a></li><li><a href="/services/guided-wave-inspection-seattle">Guided Wave Testing Seattle 2026 — GWT ASNT Level III + Code-Aligned</a></li><li><a href="/erp/field-service-ndt-inspection-companies-perth">Affordable NDT ERP in /erp/field Service Ndt Inspection Companies Perth — Fully </a></li><li><a href="/erp/field-service-ndt-inspection-companies-kuala-lumpur">Affordable NDT ERP in /erp/field Service Ndt Inspection Companies Kuala Lumpur —</a></li></ul>
+    </nav>
   </main>
   <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/ndt-training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>
 </div>

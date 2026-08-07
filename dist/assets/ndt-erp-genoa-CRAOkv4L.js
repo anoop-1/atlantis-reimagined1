@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Cba4hDr6.js";import{E as t}from"./ErpLocationPage--AT2udDX.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function s(){return o.jsx(t,{city:"Genoa",country:"Italy",slug:"ndt-erp-genoa"})}export{s as default};

@@ -211,10 +211,22 @@ export default function Contact() {
          }
 
          if (typeof window !== 'undefined' && (window as any).gtag) {
+            // 2026-08-07 — page_location/page_path added: this is a client-routed
+            // SPA with no page_view emitter on navigation, so an event without
+            // these params attributes to whichever page loaded the app shell,
+            // not the page the visitor actually submitted from (same fix as
+            // EnquiryCaptureForm.tsx's trackEnquiryConversion).
             (window as any).gtag('event', 'generate_lead', {
                'event_category': 'Contact Form',
                'event_label': formData.service || 'General Inquiry',
+               'page_location': window.location.href,
+               'page_path': window.location.pathname,
                'value': 1
+            });
+            (window as any).gtag('event', 'form_submit', {
+               'form_id': 'contact',
+               'page_location': window.location.href,
+               'page_path': window.location.pathname,
             });
          }
 

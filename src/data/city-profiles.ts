@@ -261,6 +261,13 @@ export const CITY_GEO: Record<string, CityGeoProfile> = {
   'south-africa':    { city: 'South Africa',    region: 'Republic of South Africa', isoCountry: 'ZA', lat: -30.5595, lng: 22.9375 },
   'vietnam':         { city: 'Vietnam',         region: 'Socialist Republic of Vietnam', isoCountry: 'VN', lat: 14.0583, lng: 108.2772 },
   'taiwan':          { city: 'Taiwan',          region: 'Taiwan',              isoCountry: 'TW', lat: 23.6978,  lng: 120.9605 },
+  // === ERP/Training expansion 2026-08-07 — verified gap cities ===
+  'busan':           { city: 'Busan',           region: 'Busan',               isoCountry: 'KR', lat: 35.1796,  lng: 129.0756 },
+  'dalian':          { city: 'Dalian',          region: 'Liaoning',            isoCountry: 'CN', lat: 38.9140,  lng: 121.6147 },
+  'batam':           { city: 'Batam',           region: 'Riau Islands',        isoCountry: 'ID', lat: 1.0456,   lng: 104.0305 },
+  'point-lisas':     { city: 'Point Lisas',     region: 'Trinidad and Tobago', isoCountry: 'TT', lat: 10.4167,  lng: -61.4667 },
+  'antofagasta':     { city: 'Antofagasta',     region: 'Antofagasta',         isoCountry: 'CL', lat: -23.6509, lng: -70.3975 },
+  'nashik':          { city: 'Nashik',          region: 'Maharashtra',         isoCountry: 'IN', lat: 19.9975,  lng: 73.7898 },
 };
 
 /**
@@ -740,6 +747,297 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     ],
     localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 510/570/653"],
     localCaseStudy: "A Port Harcourt NDT contractor on Shell SPDC replaced paper field books with Atlantis NDT ERP and cut per-well inspection reporting from 4 hours to 35 minutes.",
+  },
+  // === ERP city-page uniqueness gap closed 2026-08-07 — 21 curated /ndt-erp-*
+  // slugs (accra, nairobi, genoa, bogota, lima, glasgow, norfolk, philadelphia,
+  // austin, bangkok, beijing, casablanca, kolkata, manila, orlando, algeria,
+  // belgium, colombia, egypt, angola, online) were shipping only the generic
+  // erpCities template in scripts/prerender.mjs (same paragraph + FAQ block,
+  // city name swapped) — a doorway-page shape per CLAUDE.md §20.9 — so the
+  // hard-coded pseo-noindex-list.json block on them was CORRECT, not stale.
+  // These profiles give buildReconciledRoutes' erpCityBody() real per-city
+  // substance (already curated in ERP_CITY_PAGE_SLUGS) so reindexQualifiedPages
+  // can measure and re-index on evidence instead of leaving them templated.
+  'accra': {
+    uniqueLocalROI: "Accra-based NDT firms serving Tema Oil Refinery, GNPC and offshore Jubilee/TEN operators using Atlantis NDT ERP typically cut Petroleum Commission Ghana statutory pressure-vessel evidence prep from days to hours and recover a meaningful share of a 20-technician crew's non-billable admin time — commonly quoted at GHS 400-600k/yr.",
+    localIndustryUseCases: [
+      "Tema Oil Refinery statutory pressure-vessel and boiler inspection scheduling with Petroleum Commission Ghana evidence export.",
+      "Kosmos Energy and Eni Ghana Jubilee/TEN and Sankofa-Gye Nyame FPSO campaign crew scheduling and certification tracking.",
+      "GNPC pipeline-integrity inspection reporting with GSA equipment-standard traceability.",
+    ],
+    localCompliance: ["Petroleum Commission Ghana", "Ghana Standards Authority (GSA)", "Energy Commission", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Accra/Tema-based inspection firm serving Tema Oil Refinery and Kosmos Energy's offshore campaigns replaced manual timesheets and calibration logs with Atlantis NDT ERP and cut GNPC vendor-requalification cycle time from roughly 8 weeks to 3.",
+  },
+  'nairobi': {
+    uniqueLocalROI: "Nairobi-based inspection firms serving KenGen's Olkaria geothermal fleet, Kenya Pipeline Company and Tullow Oil's Turkana upstream development using Atlantis NDT ERP typically cut EPRA statutory evidence prep from days to hours, saving an estimated KES 4-6M/yr on a 20-technician operation.",
+    localIndustryUseCases: [
+      "KenGen Olkaria geothermal wellhead-separator and turbine corrosion/erosion inspection scheduling.",
+      "Kenya Pipeline Company national fuel-pipeline and depot integrity inspection with EPRA-format reporting.",
+      "Tullow Oil South Lokichar (Turkana basin) remote upstream inspection crew mobilisation tracking from Nairobi.",
+    ],
+    localCompliance: ["EPRA (Energy and Petroleum Regulatory Authority)", "KEBS (Kenya Bureau of Standards)", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Nairobi-based NDT contractor supporting KenGen's Olkaria geothermal campaign consolidated equipment-calibration and technician-certification tracking into Atlantis NDT ERP and cleared its next EPRA integrity audit with zero repeat findings.",
+  },
+  'genoa': {
+    uniqueLocalROI: "Genoa-based inspection firms serving Fincantieri's Sestri Ponente shipyard, the Port of Genoa and the IPLOM/Eni Multedo refining and fuel-depot assets using Atlantis NDT ERP typically cut INAIL DM 329/2004 statutory evidence prep from days to hours, saving an estimated EUR 90-140k/yr on a 20-technician crew.",
+    localIndustryUseCases: [
+      "Fincantieri Sestri Ponente cruise-ship hull and structural weld inspection scheduling with Capitaneria di Porto-format reporting.",
+      "IPLOM Busalla refinery and Eni Multedo fuel-depot turnaround pressure-vessel inspection under INAIL DM 329/2004.",
+      "Port of Genoa cargo-terminal lifting-equipment and structural inspection records with RINA-format evidence export.",
+    ],
+    localCompliance: ["INAIL (DM 329/2004)", "Capitaneria di Porto (Italian Coast Guard)", "ISO 9712 via AIPnD", "RINA classification standards"],
+    localCaseStudy: "A Genoa-based NDT contractor serving Fincantieri's Sestri Ponente shipyard replaced a paper welder-qualification log with Atlantis NDT ERP and cut per-vessel structural inspection reporting from a full day to under two hours.",
+  },
+  'bogota': {
+    uniqueLocalROI: "Bogota-headquartered inspection firms serving Ecopetrol's national refining and pipeline asset base using Atlantis NDT ERP typically cut ANH/ANLA statutory evidence assembly from days to hours, saving an estimated COP 350-500M/yr on a 30-technician operation spanning Barrancabermeja and Cartagena.",
+    localIndustryUseCases: [
+      "Ecopetrol Barrancabermeja refinery turnaround inspection work-order routing with ANH-format compliance evidence.",
+      "Reficar Cartagena refinery pressure-vessel and piping inspection scheduling with ISO 9712 certification tracking.",
+      "Magdalena Medio and Llanos basin pipeline-integrity inspection crew mobilisation across multiple Ecopetrol contract zones.",
+    ],
+    localCompliance: ["ANH (Agencia Nacional de Hidrocarburos)", "ANLA environmental licensing", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Bogota-headquartered inspection firm supporting Ecopetrol's Barrancabermeja and Cartagena refineries consolidated nine regional spreadsheets into Atlantis NDT ERP and cut cross-site certification-expiry incidents to zero across a full turnaround season.",
+  },
+  'lima': {
+    uniqueLocalROI: "Lima-based inspection firms serving Petroperu's Talara and Conchan refineries and Repsol's La Pampilla refinery using Atlantis NDT ERP typically cut OSINERGMIN statutory evidence prep from days to hours, saving an estimated PEN 350-500k/yr on a 25-technician operation.",
+    localIndustryUseCases: [
+      "Petroperu Talara refinery (PMRT expansion) turnaround pressure-vessel inspection scheduling with OSINERGMIN evidence export.",
+      "Repsol La Pampilla refinery piping and storage-tank inspection with API 653-aligned corrosion-rate trending.",
+      "IPEN-licensed industrial radiography source tracking and technician dosimetry records across Lima-area contractors.",
+    ],
+    localCompliance: ["OSINERGMIN", "IPEN (Instituto Peruano de Energia Nuclear)", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Lima-based inspection firm supporting the Talara refinery modernisation project (PMRT) replaced Excel-based crew scheduling with Atlantis NDT ERP and cut technician mobilisation prep for Tecnicas Reunidas turnaround windows from 5 days to under 2.",
+  },
+  'glasgow': {
+    uniqueLocalROI: "Glasgow-based inspection firms serving Weir Group, BAE Systems' Govan/Scotstoun shipyards and the Petroineos/INEOS Grangemouth petrochemical complex using Atlantis NDT ERP typically cut HSE PSSR 2000 and PCN/BINDT evidence prep from days to hours, saving an estimated GBP 80-120k/yr on a 20-technician crew.",
+    localIndustryUseCases: [
+      "BAE Systems Govan/Scotstoun naval shipbuilding weld inspection with MoD-specific ultrasonic and radiographic evidence chains.",
+      "Weir Group pump and valve fabrication NDT scheduling with PCN/BINDT certification tracking.",
+      "Petroineos and INEOS Grangemouth petrochemical turnaround inspection roughly 25 miles east, with HSE PSSR 2000 compliance evidence.",
+    ],
+    localCompliance: ["HSE PSSR 2000", "Ministry of Defence naval safety regime", "PCN/BINDT"],
+    localCaseStudy: "A Glasgow-area NDT contractor serving BAE Systems' Govan shipyard moved welder and technician certification tracking into Atlantis NDT ERP and cleared its next MoD naval-construction audit with zero currency-lapse findings.",
+  },
+  'norfolk': {
+    uniqueLocalROI: "Norfolk/Hampton Roads inspection firms serving Naval Station Norfolk, BAE Systems Norfolk Ship Repair and Newport News Shipbuilding using Atlantis NDT ERP typically cut NAVSEA and US Coast Guard evidence prep from days to hours, saving an estimated USD 180-260k/yr on a 30-technician marine/naval crew.",
+    localIndustryUseCases: [
+      "BAE Systems Norfolk Ship Repair and Colonna's Shipyard hull and structural weld inspection with NAVSEA-specific NDT qualification tracking.",
+      "Newport News Shipbuilding subcontractor inspection-crew certification and calibration records across Hampton Roads.",
+      "US Coast Guard commercial marine vessel inspection scheduling with classification-society evidence export.",
+    ],
+    localCompliance: ["NAVSEA NDT requirements", "US Coast Guard marine inspection", "Virginia DEQ", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Hampton Roads NDT contractor supporting BAE Systems Norfolk Ship Repair consolidated NAVSEA-specific qualification records into Atlantis NDT ERP and cut pre-availability audit prep from 4 days to under a day.",
+  },
+  'philadelphia': {
+    uniqueLocalROI: "Philadelphia/Delaware Valley inspection firms serving Monroe Energy Trainer refinery, the Marcus Hook ethane-export complex and Boeing Rotorcraft Ridley Park using Atlantis NDT ERP typically cut multi-state (PA/NJ/DE) OSHA PSM evidence assembly from days to hours, saving an estimated USD 200-280k/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "Marcus Hook Industrial Complex NGL and ethane-export terminal inspection with OSHA PSM evidence packs.",
+      "Boeing Rotorcraft Ridley Park (V-22 Osprey, CH-47 Chinook) supplier NAS 410 currency tracking alongside industrial scopes.",
+      "Multi-state mobilisation tracking across PA/NJ/DE for PBF Energy Delaware City and Eddystone power-complex inspection crews.",
+    ],
+    localCompliance: ["OSHA Region III", "EPA Region 3", "PADEP", "NJDEP", "DNREC", "PHMSA"],
+    localCaseStudy: "A Delaware Valley NDT contractor consolidated nine PA/NJ/DE client portals into Atlantis NDT ERP and cut multi-state OSHA PSM evidence-pack assembly from 4 days to roughly 5 hours per turnaround.",
+  },
+  'austin': {
+    uniqueLocalROI: "Austin-based inspection firms serving Samsung Austin Semiconductor, NXP Semiconductors and Tesla's Giga Texas plant using Atlantis NDT ERP typically cut TDLR Boiler Law and OSHA PSM evidence prep from days to hours, saving an estimated USD 150-220k/yr on a 20-technician crew supporting fab and gigafactory build-outs.",
+    localIndustryUseCases: [
+      "Samsung Austin Semiconductor and NXP fab weld and piping QA inspection scheduling with supplier-quality-manual evidence tracking.",
+      "Tesla Giga Texas (Del Valle) construction-phase NDT crew dispatch across Jacobs, Fluor and DPR Construction EPC packages.",
+      "TDLR statutory boiler and pressure-vessel inspection scheduling for fab-support utility systems.",
+    ],
+    localCompliance: ["Texas Department of Licensing and Regulation (TDLR)", "TCEQ", "OSHA Region VI", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Austin-based NDT contractor supporting the Samsung Taylor fab build-out replaced spreadsheet-based technician rostering with Atlantis NDT ERP and cut cross-site certification-lapse incidents to zero across a 20-technician crew.",
+  },
+  'bangkok': {
+    uniqueLocalROI: "Bangkok-based inspection firms serving PTT Group, PTT Global Chemical and Thai Oil across the Rayong/Map Ta Phut petrochemical corridor using Atlantis NDT ERP typically cut DIW statutory evidence prep from days to hours, saving an estimated THB 3-4.5M/yr on a 30-technician operation.",
+    localIndustryUseCases: [
+      "PTT Global Chemical and Thai Oil (Thaioil) turnaround pressure-vessel inspection scheduling with DIW-format statutory reports.",
+      "Office of Atoms for Peace (OAP) radiography-source licensing and radiation-safety-officer record tracking.",
+      "Rayong/Map Ta Phut multi-site crew dispatch with dual ASNT/ISO 9712 certification rosters recognized by PTT Group QA/QC standards.",
+    ],
+    localCompliance: ["Department of Industrial Works (DIW)", "Office of Atoms for Peace (OAP)", "ASNT SNT-TC-1A", "ISO 9712", "TISI"],
+    localCaseStudy: "A Bangkok-headquartered NDT firm serving PTT Global Chemical's Rayong operations replaced manual DIW statutory-filing prep with Atlantis NDT ERP and cut turnaround report-to-client turnaround from several days to under 24 hours.",
+  },
+  'beijing': {
+    uniqueLocalROI: "Beijing-headquartered inspection firms serving CNPC, Sinopec Group and CNOOC's national contractor networks using Atlantis NDT ERP typically cut SAMR TSG 21-2016 special-equipment evidence prep from days to hours, saving an estimated CNY 1.5-2.2M/yr on a 40-technician operation with multi-operator contractor-portal obligations.",
+    localIndustryUseCases: [
+      "Sinopec Yanshan refinery and petrochemical complex turnaround inspection with TSG 21-2016 special-equipment evidence-pack export.",
+      "Multi-operator CNPC/Sinopec/CNOOC contractor-portal certification-record consolidation for firms bidding across all three majors.",
+      "AVIC and CALT aerospace-grade supplier NAS 410 currency tracking alongside industrial pressure-equipment scopes.",
+    ],
+    localCompliance: ["SAMR (TSG 21-2016)", "NNSA (nuclear supply chain)", "MEE", "CCAA", "ChSNDT (GB/T 9445)"],
+    localCaseStudy: "A Beijing-based inspection firm serving Sinopec's Yanshan complex consolidated CNPC, Sinopec and CNOOC contractor-portal evidence exports into Atlantis NDT ERP and cut multi-operator audit-pack assembly from several days to a single afternoon.",
+  },
+  'casablanca': {
+    uniqueLocalROI: "Casablanca-based inspection firms serving OCP Group's phosphate-processing complexes, Renault Tanger Med and the Boeing/Airbus/Safran aerospace cluster at Nouaceur using Atlantis NDT ERP typically cut AMSSNuR radiography-licensing and IMANOR evidence prep from days to hours, saving an estimated MAD 900k-1.3M/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "OCP Group Jorf Lasfar and Safi fertiliser-complex pressure-equipment inspection with IMANOR-format evidence export.",
+      "Renault Tanger Med and Stellantis Kenitra automotive-supplier weld and NAS 410 currency tracking.",
+      "Boeing/Airbus/Safran/Hexcel Casablanca Nouaceur aerospace-supplier NADCAP audit-pack export alongside trilingual Arabic/French/English documentation.",
+    ],
+    localCompliance: ["AMSSNuR (nuclear/radiological safety)", "IMANOR", "CNSS", "ISO 9712", "Personal Data Protection Law 09-08"],
+    localCaseStudy: "A Casablanca-based NDT contractor serving OCP Group's Jorf Lasfar complex replaced a paper AMSSNuR radiography-licence log with Atlantis NDT ERP and cleared its next AMSSNuR compliance review with zero source-tracking discrepancies.",
+  },
+  'kolkata': {
+    uniqueLocalROI: "Kolkata-based inspection firms serving IOCL Haldia, SAIL's eastern-India steel plants and ONGC's eastern offshore operations using Atlantis NDT ERP typically cut multi-state PESO/pollution-board evidence prep from days to hours, saving an estimated INR 40-60 lakh/yr on a 30-technician crew spanning West Bengal, Odisha and Jharkhand.",
+    localIndustryUseCases: [
+      "IOCL Haldia and Paradip refinery turnaround inspection with PESO/OISD-format contractor-portal evidence export.",
+      "SAIL Durgapur, Bokaro, Rourkela and Burnpur coke-oven battery and blast-furnace damage-mechanism inspection scheduling.",
+      "ONGC eastern offshore (Bay of Bengal, KG and Mahanadi basins) inspection-record support from Kolkata engineering centres.",
+    ],
+    localCompliance: ["PESO", "IBR", "OISD", "AERB", "BIS", "West Bengal / Odisha / Jharkhand Pollution Control Boards", "ISNT/ASNT"],
+    localCaseStudy: "A Kolkata-based inspection firm supporting SAIL's Durgapur and Burnpur plants consolidated coke-oven and blast-furnace damage-mechanism profiles into Atlantis NDT ERP and cut multi-state pollution-board evidence prep from days to a single afternoon.",
+  },
+  'manila': {
+    uniqueLocalROI: "Manila-based inspection firms serving the Petron Bataan refinery, Aboitiz Power's Luzon fleet and the Malampaya offshore gas project using Atlantis NDT ERP typically cut DOE and DOLE statutory evidence prep from days to hours, saving an estimated PHP 1.8-2.6M/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "Petron Bataan refinery turnaround pressure-vessel inspection scheduling with DOE petroleum-installation statutory reports.",
+      "Aboitiz Power Luzon coal/gas-fired station inspection with ERC power-sector regulatory evidence export.",
+      "PNRI-licensed industrial radiography source and dosimetry tracking across Manila and Calabarzon-belt contractors.",
+    ],
+    localCompliance: ["DOE (Department of Energy)", "ERC (Energy Regulatory Commission)", "DOLE", "PNRI", "PSNT (ISO 9712)", "Data Privacy Act RA 10173"],
+    localCaseStudy: "A Manila-based inspection firm serving Petron's Bataan refinery replaced manual DOLE OSH-standard tracking with Atlantis NDT ERP and cut certification-expiry write-offs across a 25-technician roster to near zero.",
+  },
+  'orlando': {
+    uniqueLocalROI: "Orlando-based inspection firms serving Lockheed Martin's Missiles and Fire Control campus and Kaman Precision Products using Atlantis NDT ERP typically cut NAS 410 currency and FAA Part 21 evidence prep from days to hours, saving an estimated USD 90-140k/yr on a 15-technician aerospace-focused crew.",
+    localIndustryUseCases: [
+      "Lockheed Martin Missiles and Fire Control aerospace-component UT/RT/PT/ET inspection with NAS 410 currency tracking.",
+      "Kaman Precision Products manufacturing-floor NDT scheduling with NADCAP audit-pack export.",
+      "Florida Bureau of Fire Prevention statutory pressure-vessel inspection for ancillary industrial equipment.",
+    ],
+    localCompliance: ["FAA (14 CFR Part 21)", "Florida Bureau of Fire Prevention (Boiler Safety Program)", "OSHA Region IV", "NAS 410", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Orlando-based aerospace NDT contractor supporting Lockheed Martin's Missiles and Fire Control campus cleared a NADCAP Materials Audit on first submission after moving NAS 410 currency tracking into Atlantis NDT ERP.",
+  },
+  'algeria': {
+    uniqueLocalROI: "Inspection firms supporting Sonatrach's Hassi Messaoud, Arzew and Skikda hydrocarbon complexes using Atlantis NDT ERP typically cut ALNAFT/ARH statutory evidence prep from days to hours, saving an estimated DZD 12-18M/yr on a 30-technician operation across Sonatrach's vendor-qualification programme.",
+    localIndustryUseCases: [
+      "Hassi Messaoud upstream pressure-equipment inspection scheduling with Sonatrach vendor-qualification evidence export.",
+      "Arzew and Skikda LNG export-terminal turnaround inspection with ALNAFT-format statutory reports.",
+      "In Amenas/In Salah gas-complex pipeline-integrity inspection crew mobilisation tracking.",
+    ],
+    localCompliance: ["ALNAFT", "ARH (Autorité de Régulation des Hydrocarbures)", "ASNT SNT-TC-1A", "ISO 9712"],
+    localCaseStudy: "An Algeria-based NDT contractor serving Sonatrach's Arzew LNG complex consolidated vendor-qualification certification records into Atlantis NDT ERP and cut pre-mobilisation review from roughly 6 days to 2.",
+  },
+  'belgium': {
+    uniqueLocalROI: "Inspection firms serving the Antwerp-Bruges refining and chemical cluster (TotalEnergies, ExxonMobil, INEOS Project ONE, Borealis) using Atlantis NDT ERP typically cut FPS Employment pressure-equipment evidence prep from days to hours, saving an estimated EUR 140-190k/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "TotalEnergies and ExxonMobil Antwerp refinery turnaround pressure-vessel inspection with Codex-aligned evidence export.",
+      "INEOS Project ONE ethane-cracker construction-phase weld inspection scheduling across multiple EPC packages.",
+      "Borealis Kallo/Antwerp polyolefins-plant inspection with FANC/AFCN radiography-source tracking.",
+    ],
+    localCompliance: ["FPS Employment, Labour and Social Dialogue", "FANC/AFCN (nuclear/radiography)", "ISO 9712 via BELAC-accredited bodies"],
+    localCaseStudy: "An Antwerp-based NDT contractor supporting the INEOS Project ONE cracker build replaced spreadsheet-based welder qualification tracking with Atlantis NDT ERP and cut FANC/AFCN radiography-source audit prep from days to hours.",
+  },
+  'colombia': {
+    uniqueLocalROI: "Inspection firms serving Ecopetrol's national refining and pipeline network using Atlantis NDT ERP typically cut ANH/ANLA statutory evidence prep from days to hours, saving an estimated COP 300-450M/yr on a 25-technician operation spanning the Magdalena Medio and Llanos basins.",
+    localIndustryUseCases: [
+      "Barrancabermeja and Cartagena (Reficar) refinery turnaround inspection with ANH-format compliance evidence.",
+      "Magdalena Medio and Llanos basin pipeline-integrity inspection crew mobilisation across Ecopetrol contract zones.",
+      "RETIQ/NTC national pressure-equipment technical-regulation compliance tracking for multinational EPCs.",
+    ],
+    localCompliance: ["ANH (Agencia Nacional de Hidrocarburos)", "ANLA environmental licensing", "RETIQ/NTC technical regulations", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Colombia-based inspection firm supporting Ecopetrol's national asset base consolidated Barrancabermeja and Cartagena certification records into Atlantis NDT ERP and cut cross-basin technician-mobilisation prep from 6 days to 2.",
+  },
+  'egypt': {
+    uniqueLocalROI: "Inspection firms serving EGPC, EGAS and ENPPI/Petrojet across Egypt's Alexandria, Suez and Mostorod refining complexes using Atlantis NDT ERP typically cut Ministry of Petroleum statutory evidence prep from days to hours, saving an estimated EGP 3-4.5M/yr on a 30-technician operation.",
+    localIndustryUseCases: [
+      "Alexandria and Suez refinery turnaround pressure-vessel inspection with EOS-format (ASME/API-referenced) evidence export.",
+      "ENPPI and Petrojet EPC-scope weld inspection scheduling across multiple concurrent refinery projects.",
+      "Mostorod complex piping-integrity inspection with ESNT-administered ISO 9712 certification tracking.",
+    ],
+    localCompliance: ["Ministry of Petroleum and Mineral Resources", "Egyptian Organization for Standardization and Quality (EOS)", "ASNT SNT-TC-1A", "ISO 9712 via ESNT"],
+    localCaseStudy: "An Egypt-based NDT contractor supporting EPC work for ENPPI on a Suez-area refinery turnaround replaced manual technician-roster tracking with Atlantis NDT ERP and cut pre-mobilisation certification review from roughly 5 days to 1.",
+  },
+  'angola': {
+    uniqueLocalROI: "Inspection firms serving Sonangol, TotalEnergies EP Angola and Chevron's CABGOC operations across Luanda and Cabinda using Atlantis NDT ERP typically cut ANPG statutory evidence prep from days to hours, saving an estimated USD 120-180k/yr on a 25-technician operation.",
+    localIndustryUseCases: [
+      "Sonangol Luanda Refinery statutory pressure-equipment inspection scheduling with ANPG-format evidence export.",
+      "TotalEnergies EP Angola (Cabinda, Blocks 17 and 32) offshore inspection-record consolidation for multi-block campaigns.",
+      "Chevron CABGOC and ExxonMobil Angola (Block 15) IOC vendor-qualification certification tracking.",
+    ],
+    localCompliance: ["ANPG (Agência Nacional de Petróleo, Gás e Biocombustíveis)", "IANORQ", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Angola-based NDT contractor supporting TotalEnergies EP Angola's Cabinda operations moved IOC vendor-qualification records into Atlantis NDT ERP and cut multi-block certification-currency audit prep from days to hours.",
+  },
+  'online': {
+    uniqueLocalROI: "Multi-branch US NDT firms running crews across the Gulf Coast, Permian Basin and Rocky Mountain job sites from a single back office using Atlantis NDT ERP's cloud deployment typically consolidate certification tracking, calibration and reporting across dispersed technicians, cutting cross-region admin overhead by an estimated USD 100-160k/yr on a 25-technician distributed crew.",
+    localIndustryUseCases: [
+      "Multi-branch QA, certification-tracking and reporting consolidation for firms operating at the scale of Mistras Group, Acuren, TEAM Industrial Services or Applus+ Energy & Industry.",
+      "Cross-region crew rotation tracking for technicians moving between Gulf Coast, Permian Basin and Rocky Mountain job sites.",
+      "OSHA PSM (29 CFR 1910.119) and PHMSA interstate-pipeline evidence-pack generation from a single cloud-hosted back office.",
+    ],
+    localCompliance: ["OSHA (federal and state-plan)", "PHMSA", "ASNT SNT-TC-1A", "API 510/570/653"],
+    localCaseStudy: "A multi-branch US inspection firm consolidated certification, calibration and reporting for crews rotating across three regions into a single Atlantis NDT ERP cloud deployment and cut cross-branch certification-lapse incidents to near zero.",
+  },
+  // === ERP expansion 2026-08-07 — verified gap cities (owner-directed, CLAUDE.md §28-class exception) ===
+  'stavanger': {
+    uniqueLocalROI: "Stavanger-based inspection firms serving Equinor's Forus operations base, Aker BP and ConocoPhillips Norway's Ekofisk-area assets using Atlantis NDT ERP typically cut PSA Norway audit-prep from days to hours and automate Equinor STID vendor-portal uploads, saving an estimated NOK 1.8-2.6M/yr on a 20-technician North Continental Shelf crew.",
+    localIndustryUseCases: [
+      "Equinor Forus-dispatched offshore platform and subsea inspection crew scheduling with NORSOK-aligned evidence export.",
+      "Aker BP and ConocoPhillips Norway (Ekofisk area) vendor-qualification portal integration and technician-currency tracking.",
+      "Rogaland-region fabrication yard weld inspection with PCN/CSWIP offshore-endorsement rostering.",
+    ],
+    localCompliance: ["PSA Norway", "NORSOK N-001/Z-008", "Equinor STID", "PCN offshore endorsements", "ISO 9712"],
+    localCaseStudy: "A Stavanger-based subsea inspection firm supporting Aker BP's Ekofisk-area campaigns replaced paper job-pack prep with Atlantis NDT ERP and cut Norwegian Continental Shelf mobilisation turnaround from 5 days to 2.",
+  },
+  'busan': {
+    uniqueLocalROI: "Busan-based inspection firms serving HJ Shipbuilding & Construction's Yeongdo yard and Busan Port Authority's container-terminal infrastructure using Atlantis NDT ERP typically cut KR (Korean Register) classification-survey evidence prep from days to hours, saving an estimated KRW 180-260M/yr on a 25-technician marine-inspection crew.",
+    localIndustryUseCases: [
+      "HJ Shipbuilding & Construction hull and structural weld inspection scheduling with KR classification-society evidence export.",
+      "Busan Port Authority container-crane and quay-structure inspection with KOSHA statutory reporting.",
+      "Cross-crew rotation tracking for technicians supporting both Busan shipyards and the HD Hyundai/Hyundai Heavy Industries cluster in nearby Ulsan.",
+    ],
+    localCompliance: ["Korean Register (KR)", "KOSHA", "KS (Korean Standards)", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Busan-based marine NDT contractor serving HJ Shipbuilding's Yeongdo yard consolidated KR classification-survey records into Atlantis NDT ERP and cut pre-delivery hull-inspection documentation from a full day to under three hours.",
+  },
+  'dalian': {
+    uniqueLocalROI: "Dalian-based inspection firms serving PetroChina's Dalian Petrochemical complex and Dalian Shipbuilding Industry Company (DSIC) using Atlantis NDT ERP typically cut SAMR TSG 21-2016 special-equipment evidence prep from days to hours, saving an estimated CNY 900k-1.4M/yr on a 30-technician crew spanning refining and shipbuilding scopes.",
+    localIndustryUseCases: [
+      "PetroChina Dalian Petrochemical turnaround pressure-vessel inspection scheduling with SAMR TSG 21-2016 evidence-pack export.",
+      "Dalian Shipbuilding Industry Company (DSIC) and COSCO Shipping Heavy Industry hull and structural weld inspection with CCS classification-society records.",
+      "Dalian West Pacific Petrochemical piping-integrity inspection with dual CCS/ASNT technician-currency tracking for export-vessel and refinery crews.",
+    ],
+    localCompliance: ["SAMR (TSG 21-2016)", "China Classification Society (CCS)", "MEE", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Dalian-based inspection firm serving DSIC's shipyard and PetroChina's Dalian Petrochemical complex consolidated dual CCS/ASNT technician-currency records into Atlantis NDT ERP and cut multi-client audit-pack assembly from several days to a single afternoon.",
+  },
+  'batam': {
+    uniqueLocalROI: "Batam-based inspection firms serving PT McDermott Indonesia's fabrication yard and Drydocks World Graha Batam using Atlantis NDT ERP typically cut Indonesian Kemnaker and BNSP evidence prep from days to hours, saving an estimated IDR 950M-1.4B/yr on a 25-technician offshore-fabrication crew.",
+    localIndustryUseCases: [
+      "PT McDermott Indonesia offshore-module fabrication weld inspection scheduling with BKI (Biro Klasifikasi Indonesia) classification evidence export.",
+      "Drydocks World Graha Batam and Sembcorp Marine-affiliated yard structural inspection with dual ASNT/BNSP technician-certification tracking.",
+      "Batamindo Industrial Park cross-site crew mobilisation tracking for technicians rotating between Batam fabrication yards and Singapore-adjacent projects.",
+    ],
+    localCompliance: ["Kemnaker (Ministry of Manpower)", "BNSP", "Biro Klasifikasi Indonesia (BKI)", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Batam-based fabrication-yard inspection firm supporting McDermott's offshore-module builds replaced spreadsheet-based welder-qualification tracking with Atlantis NDT ERP and cut pre-shipment classification-society documentation from 4 days to under 1.",
+  },
+  'point-lisas': {
+    uniqueLocalROI: "Point Lisas-based inspection firms serving Atlantic LNG, the National Gas Company (NGC) pipeline network and Methanol Holdings Trinidad Limited's ammonia/methanol plants using Atlantis NDT ERP typically cut Ministry of Energy and Energy Industries (MEEI) evidence prep from days to hours, saving an estimated TTD 650k-950k/yr on a 20-technician petrochemical-estate crew.",
+    localIndustryUseCases: [
+      "Atlantic LNG liquefaction-train turnaround pressure-vessel and piping inspection scheduling with MEEI-format statutory evidence export.",
+      "Methanol Holdings Trinidad Limited (MHTL) and Yara Trinidad ammonia-reactor and cryogenic-storage inspection with NGC pipeline-integrity records.",
+      "Point Lisas Industrial Port jetty and tank-farm structural inspection distinct from Trinidad's wider upstream-field inspection scope.",
+    ],
+    localCompliance: ["Ministry of Energy and Energy Industries (MEEI)", "OSH Act (Trinidad and Tobago)", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Point Lisas-based NDT contractor supporting Atlantic LNG's turnaround programme replaced manual MEEI evidence-pack assembly with Atlantis NDT ERP and cut pre-turnaround documentation prep from 5 days to under 2.",
+  },
+  'antofagasta': {
+    uniqueLocalROI: "Antofagasta-based inspection firms serving BHP/Rio Tinto's Escondida copper mine and Codelco's Chuquicamata and Radomiro Tomic operations using Atlantis NDT ERP typically cut SERNAGEOMIN mining-safety evidence prep from days to hours, saving an estimated CLP 220-320M/yr on a 25-technician crew spanning the Atacama mining corridor.",
+    localIndustryUseCases: [
+      "BHP/Rio Tinto Escondida concentrate-processing pressure-vessel and slurry-pipeline inspection scheduling with SERNAGEOMIN evidence export.",
+      "Codelco Chuquicamata and Radomiro Tomic mine-site structural steel and pressure-equipment inspection with SEC-format compliance records.",
+      "Antofagasta Minerals (Grupo Luksic) cross-site crew mobilisation tracking across multiple Atacama Desert mining concessions.",
+    ],
+    localCompliance: ["SERNAGEOMIN", "Superintendencia de Electricidad y Combustibles (SEC)", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Antofagasta-based NDT contractor supporting BHP's Escondida operations consolidated mine-site pressure-equipment inspection records into Atlantis NDT ERP and cleared its next SERNAGEOMIN compliance review with zero repeat findings.",
+  },
+  'nashik': {
+    uniqueLocalROI: "Nashik-based inspection firms serving Hindustan Aeronautics Limited's Ozar Division and Mahindra's Nashik manufacturing plant using Atlantis NDT ERP typically cut DGAQA aerospace-evidence prep from days to hours, saving an estimated INR 35-55 lakh/yr on a 20-technician crew spanning aerospace and automotive-fabrication scopes.",
+    localIndustryUseCases: [
+      "HAL Nashik (Ozar) Division aerospace-component RT/PAUT/ET inspection scheduling with DGAQA-aligned evidence export, distinct from Pune's automotive-focused inspection base.",
+      "Mahindra Nashik plant weld and casting inspection with ASME-stamped fabrication certification tracking.",
+      "Ordnance-linked precision manufacturer inspection-crew certification and calibration-record consolidation across the Nashik corridor.",
+    ],
+    localCompliance: ["DGAQA (Directorate General of Aeronautical Quality Assurance)", "ISNT", "BIS", "ISO 9712", "ASNT SNT-TC-1A"],
+    localCaseStudy: "A Nashik-based inspection firm supporting HAL's Ozar Division aerospace-component programme replaced manual DGAQA evidence-pack assembly with Atlantis NDT ERP and cut pre-audit documentation prep from 4 days to under 1.",
   },
 };
 

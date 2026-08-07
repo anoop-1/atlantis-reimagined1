@@ -37,6 +37,14 @@ const HUB_FAQS = [
     question: "How do we book a site visit to assess corporate training needs?",
     answer: "Contact us and we'll schedule a 30-minute discovery call within 2 business days. For engagements over 40 trainees we offer a no-cost onsite competence-gap assessment (typically half a day at your facility) before we quote.",
   },
+  {
+    question: "What does a corporate NDT technician training contract actually cover?",
+    answer: "A standing training contract specifies cohort size (typically 6-25 technicians per batch), the method mix and level (UT, PAUT, TOFD, RT, MT, PT, ET, VT — each scoped independently), delivery mode (onsite, online, or blended), and a recertification cadence written into the contract term so Level II technicians renew on schedule rather than lapsing mid-assignment. We scope this against your written practice, not a generic syllabus.",
+  },
+  {
+    question: "We're an NDT inspection company, not an asset owner — can you run group training for our own technician staff?",
+    answer: "Yes — group NDT training for inspection company staff is one of our most common engagement types. Instead of training a single client's maintenance crew, we build bench strength across your roster of technicians who get deployed to multiple clients, structured as a standing contract with agreed cohort cadence, method coverage, and recertification scheduling rather than one-off bookings.",
+  },
 ];
 
 export default function CorporateNDTTraining() {
@@ -51,12 +59,12 @@ export default function CorporateNDTTraining() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Corporate NDT Training 2026 | Onsite & Online | 55+ Cities"
-        description="Expert corporate NDT training — onsite at your facility, online for distributed teams, or blended. ASNT, PCN, ISO 9712 schemes across 55+ cities. Book now."
+        title="Corporate NDT Training Contracts | Group Technician Training for Inspection Companies | 55+ Cities"
+        description="Corporate NDT technician training contracts for inspection companies and asset owners — group cohorts of your own bench staff, onsite at your facility, online for distributed crews, or blended. ASNT, PCN, ISO 9712 schemes, recertification built into the contract term, across 55+ cities. Book now."
         canonical="/corporate-ndt-training"
         course={{
-          name: "Atlantis NDT — Corporate NDT Training",
-          description: "Corporate NDT training delivered onsite at your facility, online for distributed teams, or blended. Covers ASNT Level I/II/III, PCN, ISO 9712, CGSB-48.9712, and local scheme variants across 55+ cities worldwide. Methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD, ACFM, plus API 510/570/653 inspector certification.",
+          name: "Atlantis NDT — Corporate NDT Technician Training Contracts",
+          description: "Corporate NDT technician training contracts delivered onsite at your facility, online for distributed teams, or blended — for asset owners training their own crew and for NDT inspection companies running group NDT training for inspection company staff. Covers ASNT Level I/II/III, PCN, ISO 9712, CGSB-48.9712, and local scheme variants across 55+ cities worldwide. Methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD, ACFM, plus API 510/570/653 inspector certification. Recertification cadence built into the contract term.",
           deliveryMode: ['onsite', 'online', 'blended'],
           provider: 'Atlantis NDT',
           educationalCredentialAwarded: 'ASNT Level I/II/III (or parallel scheme) with digital competence record',
@@ -251,6 +259,57 @@ export default function CorporateNDTTraining() {
                   <span className="text-muted-foreground text-xs ml-1">({c.country})</span>
                 </Link>
               ))}
+            </div>
+          </section>
+
+          {/* Training contracts for NDT inspection companies */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6">
+              Corporate NDT technician training contracts — built for inspection companies
+            </h2>
+            <p className="text-muted-foreground mb-6 max-w-3xl">
+              Two different buyers land on this page. Asset owners (refineries, EPCs, fabrication
+              yards) train their own maintenance and inspection staff for a specific turnaround or
+              an ongoing program. NDT inspection service companies run <strong>group NDT training
+              for inspection company staff</strong> — building bench strength across a roster of
+              technicians who get deployed to multiple clients. For that second group, we structure
+              the engagement as a standing <strong>corporate NDT technician training contract</strong>{" "}
+              rather than a one-off course booking, so cohort cadence, method coverage, and
+              recertification are agreed once and then run on a schedule.
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-lg"><Users className="w-5 h-5 text-primary" /> Cohort sizing</CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm">
+                  <p>Contracts typically run 4-25 technicians per batch, scaled to your bench strength rather than a fixed class size. Specialist methods (PAUT, ACFM) usually run smaller batches than standard Level I/II UT/MT/PT cohorts.</p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-lg"><Building2 className="w-5 h-5 text-primary" /> Methods covered</CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm">
+                  <p>UT, PAUT, TOFD, RT, MT, PT, ET, VT, MFL and ACFM, each independently scoped by level (I/II/III), so a contract can mix a Level II PAUT specialist track with a broader Level I UT/MT/PT intake in the same cohort round.</p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-lg"><GraduationCap className="w-5 h-5 text-primary" /> Onsite vs online</CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm">
+                  <p>Onsite technician training at your facility when the equipment or specimen geometry is the point of the exercise; online for technicians already deployed across multiple client sites; blended when the crew needs both without the full onsite cost.</p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-lg"><BriefcaseBusiness className="w-5 h-5 text-primary" /> Recertification cycles</CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm">
+                  <p>A recertification / renewal cadence is written into the contract term itself — typically aligned to the 5-year SNT-TC-1A or CP-189 cycle plus annual vision checks — so technicians renew on schedule instead of lapsing mid-assignment.</p>
+                </CardContent>
+              </Card>
             </div>
           </section>
 

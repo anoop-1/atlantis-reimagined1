@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Cba4hDr6.js";import e from"./MethodLocationPage-CBXdBlou.js";import"./PillarHubNav-DYiypIRQ.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DI4PcLb3.js";function m(){return t.jsx(e,{methodSlug:"magnetic-particle-testing",locationSlug:"aberdeen"})}export{m as default};

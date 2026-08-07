@@ -143,6 +143,33 @@ const COPY = {
   },
 } as const;
 
+// 2026-08-07 — form_submit/generate_lead were not firing anywhere on the site
+// (confirmed 0 events sitewide in a 28-day GA4 pull), and Contact.tsx's own
+// generate_lead call attributes every submission to whatever page loaded the
+// SPA shell rather than the page the visitor actually submitted from, because
+// this is a client-routed app with no page_view emitter on navigation. Passing
+// page_location/page_path explicitly on the event itself is the fix.
+function trackEnquiryConversion(variant: Props["variant"], method: "emailjs" | "mailto_fallback") {
+  if (typeof window === "undefined") return;
+  const gtag = (window as any).gtag;
+  if (typeof gtag !== "function") return;
+  const pageLocation = window.location.href;
+  const pagePath = window.location.pathname;
+  gtag("event", "generate_lead", {
+    event_category: `${variant} Enquiry Form`,
+    event_label: method,
+    page_location: pageLocation,
+    page_path: pagePath,
+    value: 1,
+  });
+  gtag("event", "form_submit", {
+    form_id: `enquiry-${variant}`,
+    method,
+    page_location: pageLocation,
+    page_path: pagePath,
+  });
+}
+
 export default function EnquiryCaptureForm({ variant }: Props) {
   const c = COPY[variant];
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
@@ -164,6 +191,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         window.location.href = `mailto:info@atlantisndt.com?subject=${encodeURIComponent(c.subject)}&body=${encodeURIComponent(
           `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nUse case: ${usecase}\nMessage: ${message}`,
         )}`;
+        trackEnquiryConversion(variant, "mailto_fallback");
         setStatus("sent");
         return;
       }
@@ -202,6 +230,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         },
         { publicKey },
       );
+      trackEnquiryConversion(variant, "emailjs");
       setStatus("sent");
       setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage("");
     } catch (err) {

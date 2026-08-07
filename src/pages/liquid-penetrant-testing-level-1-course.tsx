@@ -1,0 +1,121 @@
+import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+
+const data: MethodCourseData = {
+  slug: "liquid-penetrant-testing-level-1-course",
+  seoTitle: "Liquid Penetrant Testing (PT) Level 1 Course | Atlantis NDT",
+  seoDescription:
+    "Liquid penetrant testing (PT) Level 1 course: capillary-action penetrant process, dye types and methods, surface-discontinuity recognition. Entry-level SNT-TC-1A pathway. Free consultation.",
+  keywords:
+    "liquid penetrant testing Level 1 course, PT Level 1 certification, penetrant testing training, dye penetrant inspection course, PT certification entry level",
+  h1: "Liquid Penetrant Testing (PT) Level 1 Course",
+  badgeLabel: "PT Level I Certification — Entry-Level Pathway",
+  heroSubtitle:
+    "Liquid Penetrant Testing (PT) Level I training — the most common entry point into NDT, covering capillary-action penetrant process, dye and method selection, and surface-discontinuity recognition on any non-porous material.",
+  methodName: "Liquid Penetrant Testing (PT)",
+  levelLabel: "Level I",
+  hoursLabel: "≈40 classroom hours for Level I, per SNT-TC-1A recommended training-hour guidance.",
+  stats: [
+    { label: "Certification Level", value: "Level I" },
+    { label: "Typical Hours", value: "≈40 hrs" },
+    { label: "Recert Cycle", value: "5 Years" },
+    { label: "Delivery", value: "Online + On-site" },
+  ],
+  overview: [
+    "Liquid Penetrant Testing (PT) detects discontinuities that are open to the surface — cracks, porosity, laps, seams — on any non-porous material, ferrous or not. A low-viscosity penetrant liquid is applied to the cleaned surface and drawn into any surface-breaking flaw by capillary action; after a controlled dwell time, excess penetrant is removed from the surface, and a developer draws the trapped penetrant back out, creating a visible indication far larger than the actual flaw.",
+    "Because PT works on virtually any solid, non-porous material — carbon steel, stainless steel, aluminium, titanium, most plastics and ceramics — and requires comparatively simple equipment, it's one of the two most common entry points into an NDT career, alongside VT (visual testing) and MT for ferromagnetic work. Getting the process discipline right — clean, dwell, remove, develop, inspect, in that order and on the correct timing — is most of what separates a reliable PT technician from an unreliable one.",
+    "This PT Level 1 course covers the full process sequence, the Type/Method decision tree (fluorescent vs visible dye; water-washable, post-emulsifiable, or solvent-removable), and the lighting and interpretation skills needed to recognize genuine surface discontinuities against processing artifacts.",
+  ],
+  highlightTitle: "A Genuine Entry Point Into NDT",
+  highlightBody:
+    "No prior NDT certification is required to start PT Level I. It's frequently the first method a new technician certifies in, both because the process is teachable in a compact timeframe and because PT crews are in constant demand across fabrication, casting, forging and turnaround work.",
+  curriculum: [
+    "Capillary action and penetrant physics",
+    "Penetrant types — Type I fluorescent, Type II visible dye",
+    "Methods — A (water-washable), B (post-emulsifiable lipophilic), C (solvent-removable), D (post-emulsifiable hydrophilic)",
+    "Process sequencing and dwell-time control",
+    "Developer application — dry, wet (aqueous), non-aqueous wet",
+    "Lighting requirements — UV-A intensity for fluorescent, white-light levels for visible dye",
+    "Surface-discontinuity recognition and false-indication elimination",
+    "Applicable materials — ferrous and non-ferrous, metallic and non-metallic",
+    "Pre-cleaning and post-cleaning requirements",
+    "Documentation and reporting",
+  ],
+  pathwaySteps: [
+    {
+      title: "No prior certification required",
+      detail:
+        "PT Level I is a genuine entry point — you'll need to meet your employer's SNT-TC-1A written practice minimum education/experience (typically high-school level or documented equivalent) plus current vision and colour-vision screening.",
+    },
+    {
+      title: "Formal Level I training",
+      detail:
+        "Complete online theory on penetrant types, methods and process sequencing, then on-site hands-on practical performing the full clean-apply-dwell-remove-develop-inspect sequence on real test pieces.",
+    },
+    {
+      title: "General, specific and practical examination",
+      detail:
+        "Sit the written and practical exam per your employer's SNT-TC-1A written practice — this exam covers correct method/type selection and indication recognition.",
+    },
+    {
+      title: "Certification issued and documented",
+      detail:
+        "Your PT Level I certification is documented with training hours, exam results, and vision-test results.",
+    },
+    {
+      title: "5-year recertification cycle",
+      detail:
+        "PT certification runs on the standard 5-year SNT-TC-1A/CP-189 cycle, with the annual vision test tracked on its own shorter clock.",
+    },
+  ],
+  faqs: [
+    {
+      question: "Is PT Level 1 a good starting point for a new NDT career?",
+      answer:
+        "Yes — it's one of the two most common entry points into NDT, alongside VT and MT. No prior certification is required, the process is teachable in roughly 40 classroom hours, and PT crews are in steady demand across fabrication, casting, forging and turnaround inspection work.",
+    },
+    {
+      question: "What's the difference between the four PT methods (A, B, C, D)?",
+      answer:
+        "They differ in how excess penetrant is removed. Method A (water-washable) rinses off directly with water — fast, but less sensitive. Method C (solvent-removable) uses a solvent wipe — the most portable, common for spot field checks. Methods B and D (post-emulsifiable) require a separate emulsifier step before rinsing — more sensitive and more process-controlled, typically used where higher-sensitivity inspection is specified.",
+    },
+    {
+      question: "Does PT work on aluminium and stainless steel?",
+      answer:
+        "Yes — unlike MT, PT is not limited to ferromagnetic materials. It works on any non-porous solid, which makes it the standard surface-inspection method for aluminium, stainless steel, titanium, and most non-metallic materials where MT isn't an option.",
+    },
+    {
+      question: "How long does PT Level 1 certification take?",
+      answer:
+        "SNT-TC-1A recommended training-hour guidance puts PT Level I at roughly 40 classroom hours, plus documented on-the-job experience hours specified in your employer's written practice.",
+    },
+    {
+      question: "What comes after PT Level 1?",
+      answer:
+        "Many technicians pair PT Level I with VT and/or MT early on, then progress to PT Level II (independent technique selection and reporting) and, over time, add volumetric methods like UT or RT. See our full training catalogue for the broader Level I–III pathway.",
+    },
+  ],
+  relatedLinks: [
+    { to: "/magnetic-particle-testing-certification-course", label: "Magnetic Particle Testing Course", desc: "Common companion method for ferromagnetic materials" },
+    { to: "/asnt-level-2-ut-online-course", label: "ASNT Level 2 UT Online Course", desc: "Common next step after entry-level surface methods" },
+    { to: "/asnt-certification", label: "ASNT Certification Guide", desc: "Full Level I/II/III pathway across all methods" },
+  ],
+  courseName: "PT Level I Liquid Penetrant Testing Course",
+  courseDescription:
+    "Liquid Penetrant Testing Level I training covering capillary-action penetrant principles, Type/Method selection, process sequencing, and surface-discontinuity recognition on non-porous materials.",
+  courseTeaches:
+    "Capillary-action penetrant principles, penetrant Type/Method selection (fluorescent vs visible dye; water-washable, post-emulsifiable, solvent-removable), process sequencing, and surface-discontinuity recognition on non-porous materials",
+  coursePrerequisites:
+    "Entry-level — no prior NDT certification required; meets employer's SNT-TC-1A written practice minimum education/experience plus vision and colour-vision screening",
+  educationalCredentialAwarded: "Level I Liquid Penetrant Testing certificate of training completion",
+  educationalLevel: "Beginner",
+  durationISO: "PT40H",
+  articleHeadline: "Liquid Penetrant Testing (PT) Level 1 Course: Entry-Level Curriculum & Pathway",
+  articleDescription:
+    "What the PT Level 1 course covers as an entry point into NDT — process sequencing, dye/method selection, discontinuity recognition — and the SNT-TC-1A certification pathway.",
+  articleSection: "NDT Training",
+  articleKeywords: "liquid penetrant testing Level 1, PT certification, dye penetrant inspection, entry-level NDT",
+};
+
+export default function LiquidPenetrantTestingLevel1Course() {
+  return <MethodCoursePage data={data} />;
+}

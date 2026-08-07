@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Cba4hDr6.js";import{C as t}from"./ConsultingLocationPage-Du7_c6Ip.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DI4PcLb3.js";import"./RelatedProducts-DfjVdcQg.js";function e(){return o.jsx(t,{locationSlug:"mexico-city"})}export{e as default};

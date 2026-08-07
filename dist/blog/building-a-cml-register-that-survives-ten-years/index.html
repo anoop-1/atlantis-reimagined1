@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) — GA4 property 517088706 stream Atlantis1 (bare domain) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQZQGSF245"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XQZQGSF245');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="afbI_z9kdB5yg6Sm11tqhvzz0M2iOo7Fb7jYCkgB460" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://atlantisndt.com/blog/building-a-cml-register-that-survives-ten-years" />
+  <title>Building a CML Register That Survives Ten Years</title>
+  <meta name="description" content="Corrosion monitoring location registers decay silently and take corrosion-rate accuracy with them. How to establish stable CML identity, place locations against damage mechanisms, and keep the register trustworthy across contractors and decades." />
+  <meta name="author" content="Atlantis NDT" />
+  <!-- DNS prefetch & preconnect for external resources -->
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://upload.wikimedia.org" />
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+
+  <!-- Preload critical assets for faster LCP -->
+  <link rel="preload" href="/atlantis.png" as="image" type="image/png" />
+
+  <meta property="og:title" content="Building a CML Register That Survives Ten Years" />
+  <meta property="og:description" content="Corrosion monitoring location registers decay silently and take corrosion-rate accuracy with them. How to establish stable CML identity, place locations against damage mechanisms, and keep the register trustworthy across contractors and decades." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://atlantisndt.com/atlantis.jpg" />
+  <meta property="og:url" content="https://atlantisndt.com/blog/building-a-cml-register-that-survives-ten-years" />
+  <meta property="og:site_name" content="Atlantis NDT" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Building a CML Register That Survives Ten Years" />
+  <meta name="twitter:description" content="Corrosion monitoring location registers decay silently and take corrosion-rate accuracy with them. How to establish stable CML identity, place locations against damage mechanisms, and keep the register trustworthy across contractors and decades." />
+  <meta name="twitter:image" content="https://atlantisndt.com/atlantis.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-96x96.jpg" />
+
+  <!-- CLS prevention + font display -->
+  <style>
+    body { margin: 0; }
+    #root { min-height: 100vh; }
+    @font-face { font-display: swap; }
+  </style>
+
+  <!-- Organization + WebSite schema for sitelinks searchbox -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://atlantisndt.com/#organization",
+        "name": "Atlantis NDT",
+        "url": "https://atlantisndt.com",
+        "logo": { "@type": "ImageObject", "url": "https://atlantisndt.com/atlantis.png", "width": 512, "height": 512 },
+        "description": "Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals.",
+        "foundingDate": "2018",
+        "telephone": "+1-281-840-8969",
+        "email": "info@atlantisndt.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Houston", "addressRegion": "TX", "postalCode": "77001", "addressCountry": "US" },
+        "sameAs": ["https://www.linkedin.com/company/atlantis-ndt"],
+        "areaServed": [
+          {"@type": "Country", "name": "United States"},
+          {"@type": "Country", "name": "United Arab Emirates"},
+          {"@type": "Country", "name": "Saudi Arabia"},
+          {"@type": "Country", "name": "India"},
+          {"@type": "Country", "name": "United Kingdom"},
+          {"@type": "Country", "name": "Canada"},
+          {"@type": "Country", "name": "Singapore"},
+          {"@type": "Country", "name": "Australia"},
+          {"@type": "Country", "name": "Qatar"},
+          {"@type": "Country", "name": "Kuwait"}
+        ],
+        "knowsAbout": ["Non-Destructive Testing", "Ultrasonic Testing", "Radiographic Testing", "Magnetic Particle Testing", "Liquid Penetrant Testing", "Eddy Current Testing", "Visual Testing", "ASNT Certification", "API 510 Certification", "API 570 Certification", "API 653 Certification", "Digital Twin Technology", "Asset Integrity Management", "Risk-Based Inspection", "Fitness-for-Service"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://atlantisndt.com/#website",
+        "name": "Atlantis NDT",
+        "url": "https://atlantisndt.com",
+        "publisher": {"@id": "https://atlantisndt.com/#organization"},
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {"@type": "EntryPoint", "urlTemplate": "https://atlantisndt.com/blog?q={search_term_string}"},
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="module" crossorigin src="/assets/index-CRbQqXC0.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/blog-pages-Cba4hDr6.js">
+  <link rel="modulepreload" crossorigin href="/assets/dt-3d-models-CYquM3AD.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-nuAm7pMO.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many CMLs should a circuit have?","acceptedAnswer":{"@type":"Answer","text":"Enough to represent the credible damage mechanisms, which is a technical judgement rather than a formula. What consistently goes wrong is uniform placement — the same number of locations per circuit regardless of susceptibility — which over-inspects benign circuits and under-inspects the ones that will actually fail. Placement driven by API RP 571 mechanism assignment gives better coverage for the same or less effort."}},{"@type":"Question","name":"What do we do with a register we no longer trust?","acceptedAnswer":{"@type":"Answer","text":"Re-baseline deliberately and document it. Identify which historical readings can be confidently attributed to a specific physical location, retire ambiguous identifiers rather than reusing them, and record the date and rationale for the baseline. Auditors accept a documented re-baseline; they do not accept corrosion rates computed across locations that may not be the same place."}},{"@type":"Question","name":"Should CML data live with the contractor or the owner?","acceptedAnswer":{"@type":"Answer","text":"With the owner, always. The register outlives any inspection contract, and registers that live with successive contractors are how near-duplicate locations and broken time series get created. Contractors should read from and write to the owner's register rather than maintaining their own copy."}},{"@type":"Question","name":"How does the register relate to a digital twin?","acceptedAnswer":{"@type":"Answer","text":"The twin is what makes the register spatial rather than tabular: each CML sits at a location on the asset model with its thickness history, computed corrosion rate and governing damage mechanism attached. That changes both trend interpretation and inspection planning, because clustering and spatial pattern become visible in a way a spreadsheet of identifiers never shows."}}]}</script>
+</head>
+
+<body>
+  <!-- Critical CSS to prevent FOUC - hides static content until React loads -->
+  <style>
+    /* Hide static SEO fallback content - these are direct children without classes */
+    #root>header:not([class]),
+    #root>main:not([class]),
+    #root>footer:not([class]) {
+      display: none !important;
+    }
+  </style>
+  <noscript>
+    <style>
+      #root>header,
+      #root>main,
+      #root>footer {
+        display: block !important;
+      }
+    </style>
+  </noscript>
+  <div id="root">
+  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/ndt-inspection-software">Inspection Software</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Free Demo</a></nav></header>
+  <main>
+    <h1>Building a CML Register That Is Still Trustworthy in Ten Years</h1>
+    <p><strong>A corrosion rate computed from two readings that were not taken at the same place is not a corrosion rate. It is a number with a unit.</strong></p>
+    <p>The corrosion monitoring location register is the foundation every integrity decision rests on, and it is almost always the weakest part of the programme. Locations get added inconsistently by successive contractors, identifiers get reused, physical marking fades, and within a few inspection cycles the thickness history is a set of readings that cannot be proven to share a location. Everything downstream — corrosion rates, remaining life, next inspection interval, fitness-for-service — inherits that uncertainty.</p>
+    <section>
+      <h2>Identity is the property that matters most</h2>
+      <p>A CML identifier has to be unique, permanent and never reused. That sounds trivial and is routinely violated: identifiers get renumbered when a circuit is re-drawn, reused after a component is replaced, or duplicated across units because the numbering restarts per drawing. Once identity is ambiguous, the time series is broken and no amount of software fixes it retrospectively.</p>
+      <p>Practical rules that hold up: allocate identifiers centrally rather than per contractor, never renumber, retire rather than reuse when a component is replaced, and record the physical location precisely enough that a different technician can find the same spot without the previous one present — which usually means a description plus a measured offset from a permanent feature, not just a paint mark.</p>
+      
+      
+    </section>
+    <section>
+      <h2>Placement should follow the damage mechanism</h2>
+      
+      <ul><li>Assign the credible damage mechanisms per API RP 571 for the circuit before placing locations, not after.</li><li>Place against mechanism-specific susceptibility: elbows and tees for erosion-corrosion, dead legs and low points for under-deposit and MIC, insulation penetrations and terminations for CUI, hot zones for sulfidation and HTHA.</li><li>Distinguish CMLs intended for trending from examination points used for one-off condition assessment; mixing them corrupts the trend.</li><li>Record the measurement grid at each location, not just a single reading, where the mechanism is localised.</li><li>Revisit placement when process service changes — a circuit that changed feedstock has different credible mechanisms.</li></ul>
+      
+    </section>
+    <section>
+      <h2>Surviving contractor turnover</h2>
+      <p>Most CML registers degrade at contractor handover. The incoming contractor cannot find the locations, so they place new ones nearby, and the register grows a parallel set of near-duplicates. Preventing that requires the register to belong to the asset owner rather than to whoever holds the inspection contract, with location descriptions good enough to be found by someone who has never been on the site.</p>
+      <p>Where a register has already degraded, the honest fix is a documented re-baseline: identify which historical readings can be confidently attributed, retire the ambiguous ones, and record the decision and its date. That is defensible. Continuing to compute corrosion rates across ambiguous locations is not.</p>
+      
+      
+    </section>
+    <section>
+      <h2>Keeping it trustworthy</h2>
+      
+      <ul><li>Store readings against the CML, never against a report file or a drawing revision.</li><li>Compute corrosion rates from the full time series with outlier flagging, not from first and last readings.</li><li>Flag statistically implausible readings for review rather than silently averaging them away.</li><li>Retain the instrument, technician and procedure provenance per reading so a suspect trend can be investigated.</li><li>Audit the register annually — a percentage of locations physically re-found and verified, not just reviewed on screen.</li></ul>
+      
+    </section>
+    <section aria-label="Frequently asked questions">
+      <h2>Frequently Asked Questions</h2>
+      <div><h3>How many CMLs should a circuit have?</h3><p>Enough to represent the credible damage mechanisms, which is a technical judgement rather than a formula. What consistently goes wrong is uniform placement — the same number of locations per circuit regardless of susceptibility — which over-inspects benign circuits and under-inspects the ones that will actually fail. Placement driven by API RP 571 mechanism assignment gives better coverage for the same or less effort.</p></div>
+      <div><h3>What do we do with a register we no longer trust?</h3><p>Re-baseline deliberately and document it. Identify which historical readings can be confidently attributed to a specific physical location, retire ambiguous identifiers rather than reusing them, and record the date and rationale for the baseline. Auditors accept a documented re-baseline; they do not accept corrosion rates computed across locations that may not be the same place.</p></div>
+      <div><h3>Should CML data live with the contractor or the owner?</h3><p>With the owner, always. The register outlives any inspection contract, and registers that live with successive contractors are how near-duplicate locations and broken time series get created. Contractors should read from and write to the owner's register rather than maintaining their own copy.</p></div>
+      <div><h3>How does the register relate to a digital twin?</h3><p>The twin is what makes the register spatial rather than tabular: each CML sits at a location on the asset model with its thickness history, computed corrosion rate and governing damage mechanism attached. That changes both trend interpretation and inspection planning, because clustering and spatial pattern become visible in a way a spreadsheet of identifiers never shows.</p></div>
+    </section>
+    <section>
+      <h2>See it running on your own workflow</h2>
+      <p>Thirty minutes, your job types and your reporting formats, co-presented by an ASNT NDT Level III. Affordable, accessible, fully customizable — <a href="/contact">request a demo and a tailored quote</a>.</p>
+      <p>Related: <a href="/asset-integrity-management-software">Asset integrity management software</a> · <a href="/digital-twins">Atlantis Digital Twin platform</a> · <a href="/erp-modules/corrosion-tracking">Corrosion tracking module</a> · <a href="/api-570-certification">API 570 certification guide</a></p>
+    </section>
+  
+    <nav class="related-pages" aria-label="Related Atlantis NDT pages">
+      <h2>Related reading</h2>
+      <ul><li><a href="/blog/ndt-technology-trends-2027">NDT Technology Trends 2027 — AI, Digital Twin, Robotics</a></li><li><a href="/blog/ndt-2027-best-buyer-guides-curated">NDT 2027 Best Buyer Guides Curated</a></li><li><a href="/blog/nace-mr0103-amine-h2s-refining-2028">NACE MR0103 Refining 2028 — Wet H2S + Amine Service Decoded</a></li><li><a href="/blog/nace-sp0288-wet-fluorescent-magnetic-particle-2028">NACE SP0288 Wet Fluorescent MT 2028 — Decoded</a></li><li><a href="/eddy-current-testing-nashville">Eddy Current Testing Nashville 2026 — ET ASNT Level III + Code-Aligned</a></li><li><a href="/eddy-current-testing-cleveland">Eddy Current Testing Cleveland 2026 — ET ASNT Level III + Code-Aligned</a></li></ul>
+    </nav>
+  </main>
+  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/ndt-training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>
+</div>
+</body>
+
+</html>

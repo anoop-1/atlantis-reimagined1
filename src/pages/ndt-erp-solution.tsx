@@ -127,16 +127,16 @@ const industries = [
 // ─── Competitor comparison data (links to /compare/vs-*) ──────────────────
 
 const competitorLinks = [
-    { slug: "sap-pm",         vendor: "SAP PM",                native: "No",          certTracking: "Add-on (SuccessFactors)", deploy: "12-24 months", cost: "$1M+/yr", hosted: "Hosted / On-prem" },
+    { slug: "sap-pm",         vendor: "SAP PM",                native: "No",          certTracking: "Add-on (SuccessFactors)", deploy: "12-24 months", cost: "Enterprise-license SAP", hosted: "Hosted / On-prem" },
     { slug: "maximo",         vendor: "IBM Maximo",            native: "No",          certTracking: "Talent Mgmt add-on",      deploy: "9-18 months",  cost: "Enterprise tier", hosted: "Hosted / OpenShift" },
-    { slug: "meridium",       vendor: "GE Meridium APM",       native: "Partial",     certTracking: "Limited",                 deploy: "9-15 months",  cost: "$300K+/yr",     hosted: "Hosted" },
-    { slug: "ge-vernova-apm", vendor: "GE Vernova APM",        native: "Partial",     certTracking: "Limited",                 deploy: "9-15 months",  cost: "$350K+/yr",     hosted: "Hosted" },
+    { slug: "meridium",       vendor: "GE Meridium APM",       native: "Partial",     certTracking: "Limited",                 deploy: "9-15 months",  cost: "Enterprise-tier APM",     hosted: "Hosted" },
+    { slug: "ge-vernova-apm", vendor: "GE Vernova APM",        native: "Partial",     certTracking: "Limited",                 deploy: "9-15 months",  cost: "Enterprise-tier APM",     hosted: "Hosted" },
     { slug: "aspentech-mtell",vendor: "AspenTech Mtell",       native: "No (RBI/AI)", certTracking: "None",                    deploy: "6-12 months",  cost: "Enterprise tier",     hosted: "Hosted" },
-    { slug: "bentley-assetwise", vendor: "Bentley AssetWise",  native: "No",          certTracking: "None",                    deploy: "6-12 months",  cost: "$150K+/yr",     hosted: "Hosted" },
-    { slug: "etq-reliance",   vendor: "ETQ Reliance",          native: "No (QMS)",    certTracking: "Generic competency",      deploy: "4-9 months",   cost: "$120K+/yr",     hosted: "Hosted" },
-    { slug: "netsuite",       vendor: "NetSuite",              native: "No",          certTracking: "Third-party SuiteApp",    deploy: "6-12 months",  cost: "$60K-$300K/yr", hosted: "Hosted" },
-    { slug: "procore",        vendor: "Procore",               native: "No (constr.)",certTracking: "None",                    deploy: "1-3 months",   cost: "$25K-$100K/yr", hosted: "Hosted" },
-    { slug: "quickbooks",     vendor: "QuickBooks + Excel",    native: "No",          certTracking: "Manual spreadsheet",      deploy: "Day 1 (limited)", cost: "$1K-$3K/yr",     hosted: "Hosted" }
+    { slug: "bentley-assetwise", vendor: "Bentley AssetWise",  native: "No",          certTracking: "None",                    deploy: "6-12 months",  cost: "Enterprise-tier AssetWise",     hosted: "Hosted" },
+    { slug: "etq-reliance",   vendor: "ETQ Reliance",          native: "No (QMS)",    certTracking: "Generic competency",      deploy: "4-9 months",   cost: "Enterprise-tier QMS",     hosted: "Hosted" },
+    { slug: "netsuite",       vendor: "NetSuite",              native: "No",          certTracking: "Third-party SuiteApp",    deploy: "6-12 months",  cost: "Mid-to-enterprise tier", hosted: "Hosted" },
+    { slug: "procore",        vendor: "Procore",               native: "No (constr.)",certTracking: "None",                    deploy: "1-3 months",   cost: "Mid-tier construction ERP", hosted: "Hosted" },
+    { slug: "quickbooks",     vendor: "QuickBooks + Excel",    native: "No",          certTracking: "Manual spreadsheet",      deploy: "Day 1 (limited)", cost: "Small-business tier",     hosted: "Hosted" }
 ];
 
 // ─── 15+ NDT-specific Atlantis add-on modules ─────────────────────────────
@@ -246,9 +246,9 @@ export default function NDTERPSolution() {
         "@graph": [
             buildTechArticleSchema({
                 url: URL,
-                headline: "NDT ERP Software for Inspection Companies (2026 Guide + Pricing)",
+                headline: "NDT Technician Certification Tracking & Calibration Management Software",
                 description:
-                    "Atlantis NDT ERP — the 2026 buyer's guide. 8 NDT-purpose modules (project management, scheduling, certification tracking, calibration, reporting, inventory, invoicing, ISO 9001 document control), vendor comparison vs SAP PM, Maximo, Meridium, GE Vernova APM, NetSuite, Procore, QuickBooks. Affordable, fully customizable.",
+                    "Atlantis NDT ERP — the 2026 buyer's guide. NDT-purpose modules covering project management, inspection company scheduling and crew dispatch, technician certification tracking that flags expired certifications automatically, equipment calibration management, reporting, inventory, invoicing and project profitability, and ISO 9001 document control, with a vendor comparison vs SAP PM, Maximo, Meridium, GE Vernova APM, NetSuite, Procore, QuickBooks. Affordable, fully customizable.",
                 datePublished: "2026-04-22",
                 dateModified: "2026-05-16",
                 section: "NDT ERP — Buyer's Guide",
@@ -334,9 +334,9 @@ export default function NDTERPSolution() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Affordable NDT ERP — Fully Customizable, All Odoo Apps Included"
-                description="Atlantis NDT ERP — Affordable. Accessible. Fully Customizable. All 30+ Odoo 18 apps included. ASNT/ISO 9712/PCN tracking, API 510/570/653 reporting, 4-week deployment. Demo: info@atlantisndt.com"
-                keywords="NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking software, NDT scheduling, NDT business software, Odoo NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
+                title="NDT Technician Certification Tracking & Calibration Management Software | Atlantis"
+                description="Software built for testing and inspection companies — NDT technician certification tracking that flags expiring credentials automatically, equipment calibration management, and document control under ISO quality standards, alongside quoting, projects, job costing and accounts. Affordable, accessible, fully customizable. Free consultation."
+                keywords="ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, iso 9001 document control software for ndt companies, ndt quality management system software, software that flags expired ndt certifications automatically, inspection company invoicing and project profitability software, NDT ERP software, NDT ERP solution, inspection company ERP, Odoo NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
                 canonical={URL}
                 ogImage="/atlantis.jpg"
                 structuredData={structuredData}
@@ -352,16 +352,18 @@ export default function NDTERPSolution() {
                             <span className="text-sm">Buyer's Guide — Updated May 2026</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                            NDT ERP Software for Inspection Companies (2026 Guide + Pricing)
+                            NDT Technician Certification Tracking &amp; Calibration Management Software
                         </h1>
                         <p className="text-xl text-orange-50 mb-4 leading-relaxed">
-                            Atlantis NDT ERP runs your inspection business end-to-end — ASNT, ISO 9712, PCN
-                            and NAS 410 certification tracking, API 510/570/653 reporting, calibration,
-                            scheduling, invoicing, ISO 9001 document control — on an Odoo 18 backbone.
+                            Atlantis NDT ERP runs your inspection business end-to-end — NDT technician
+                            certification tracking that flags expiring credentials automatically (ASNT,
+                            ISO 9712, PCN, NAS 410), equipment calibration management, inspection company
+                            scheduling and crew dispatch, invoicing, and ISO 9001 document control — on
+                            an Odoo 18 backbone.
                         </p>
                         <p className="text-xl text-orange-50 mb-6 leading-relaxed">
-                            One platform replaces 5-7 disconnected tools. Affordable. Accessible.
-                            Fully Customizable. Four-week deployment. Authored by an ASNT Level III who
+                            One platform replaces disconnected spreadsheets and standalone tools.
+                            Affordable. Accessible. Fully Customizable. Authored by an ASNT Level III who
                             runs an inspection company on the same software.
                         </p>
                         <div className="flex flex-wrap gap-3 mt-6">
