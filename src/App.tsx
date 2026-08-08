@@ -96,6 +96,7 @@ const CompareDigitalTwinVsCmms = lazy(() => import("./pages/compare/DigitalTwinV
 const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const Training = lazy(() => import("./pages/Training"));
+const BuyNow = lazy(() => import("./pages/BuyNow"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
@@ -2859,6 +2860,7 @@ const App = () => (
                   <Route path="/about" element={<About />} />
                   <Route path="/industry" element={<LazyRoute Component={IndustrialAnimation} />} />
                   <Route path="/training" element={<Training />} />
+                  <Route path="/buy-now" element={<BuyNow />} />
                   <Route path="/training-usa" element={<TrainingUSA />} />
                   <Route path="/training-me" element={<TrainingMiddleEast />} />
                   <Route path="/training-india" element={<TrainingIndia />} />

@@ -255,6 +255,21 @@ export default function Training() {
             <EnquiryCaptureForm variant="training" />
          </div>
 
+         {/* 2026-08-08 — Buy Now entry point. Ready to enroll without a
+             consultation call first? Route straight to checkout. */}
+         <section className="py-12 bg-secondary/10">
+            <div className="container mx-auto px-6 text-center">
+               <h2 className="text-2xl font-bold mb-3">Ready to Enroll?</h2>
+               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+                  Buy a Level 1 or Level 2 course bundle now — all 5 methods
+                  (RT, UT, MT, PT, VT) included, instant access after checkout.
+               </p>
+               <Button asChild size="lg">
+                  <Link to="/buy-now">Buy Now</Link>
+               </Button>
+            </div>
+         </section>
+
          {/* Keywords / Topics summary for SEO (naturally written) */}
          <section className="py-6">
             <div className="container mx-auto px-6 max-w-4xl">
