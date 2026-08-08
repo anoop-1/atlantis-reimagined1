@@ -265,7 +265,7 @@ export default function Training() {
                   (RT, UT, MT, PT, VT) included, instant access after checkout.
                </p>
                <Button asChild size="lg">
-                  <Link to="/buy-now">Buy Now</Link>
+                  <Link to="/training/buy-now">Buy Now</Link>
                </Button>
             </div>
          </section>
@@ -813,11 +813,6 @@ export default function Training() {
                   </div>
                </motion.div>
             </div>
-         </section>
-         <section className="py-12 bg-background">
-           <div className="container mx-auto px-4 max-w-4xl">
-             <EnquiryCaptureForm variant="training" />
-           </div>
          </section>
          <ContactDetails />
       </div>

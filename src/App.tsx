@@ -2860,7 +2860,7 @@ const App = () => (
                   <Route path="/about" element={<About />} />
                   <Route path="/industry" element={<LazyRoute Component={IndustrialAnimation} />} />
                   <Route path="/training" element={<Training />} />
-                  <Route path="/buy-now" element={<BuyNow />} />
+                  <Route path="/training/buy-now" element={<BuyNow />} />
                   <Route path="/training-usa" element={<TrainingUSA />} />
                   <Route path="/training-me" element={<TrainingMiddleEast />} />
                   <Route path="/training-india" element={<TrainingIndia />} />

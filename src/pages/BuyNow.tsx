@@ -67,7 +67,7 @@ export default function BuyNow() {
             title="Buy NDT Training Course Bundles — Level 1 & Level 2 | Atlantis NDT"
             description="Purchase an Atlantis NDT training course bundle — Level 1 or Level 2, covering RT, UT, MT, PT, and VT. Instant access via our eLearning portal after checkout."
             structuredData={structuredData}
-            canonical="https://atlantisndt.com/buy-now"
+            canonical="https://atlantisndt.com/training/buy-now"
          />
 
          {/* Hero */}

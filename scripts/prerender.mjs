@@ -2812,7 +2812,7 @@ const corePages = [
   </main>`,
   },
   {
-    path: '/buy-now',
+    path: '/training/buy-now',
     title: 'Buy NDT Training Course Bundles — Level 1 & Level 2 | Atlantis NDT',
     description: 'Purchase an Atlantis NDT training course bundle — Level 1 or Level 2, covering RT, UT, MT, PT, and VT. Instant access via our eLearning portal after checkout.',
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/asnt-certification">ASNT</a><a href="/contact">Contact</a></nav></header>

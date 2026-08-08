@@ -355,6 +355,11 @@
       "source": "/blog/api-653-certification-complete-guide",
       "destination": "/api-653-certification",
       "statusCode": 301
+    },
+    {
+      "source": "/buy-now",
+      "destination": "/training/buy-now",
+      "statusCode": 301
     }
   ],
   "rewrites": [
