@@ -1413,6 +1413,37 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "salt-lake-city", label: "Salt Lake City" },
     ],
   },
+  {
+    slug: "new-york",
+    city: "New York",
+    country: "USA",
+    lat: 40.7128, lng: -74.0060,
+    localContext:
+      "New York City's NDT demand centres on critical infrastructure rather than heavy process industry: MTA / NYC Transit capital construction (East Side Access, Second Avenue Subway extension, and ongoing bridge and tunnel rehabilitation), the Port Authority of NY & NJ's crossings (George Washington Bridge, Lincoln and Holland Tunnels), Con Edison's steam and power distribution network, and NYC DEP's City Water Tunnel No. 3 programme. Marine repair and fabrication in the harbor region (Bayonne Dry Dock, Kearny Point) add hull and structural-steel inspection scope.",
+    primaryCert: "ASNT",
+    secondaryCert: "CSWIP",
+    otherCerts: ["ISO 9712"],
+    certPathwayNote:
+      "New York infrastructure and utility work qualifies personnel under ASNT SNT-TC-1A. AWS CWI is the dominant credential for structural-steel weld inspection on bridge and transit projects; API 510/570 applies to Con Edison steam-system piping.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year",
+      levelII: "USD 68,000–96,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 68,000–96,000",
+    },
+    examCenters: [
+      { name: "Acuren New York / New Jersey", bodies: ["ASNT"] },
+      { name: "MISTRAS Group New York Metro", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "boston", label: "Boston" },
+      { slug: "philadelphia", label: "Philadelphia" },
+      { slug: "washington-dc", label: "Washington DC" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "pittsburgh", label: "Pittsburgh" },
+    ],
+  },
 
   // ──────── Canada ────────────────────────────────────────────────
   {

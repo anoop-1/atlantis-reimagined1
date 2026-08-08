@@ -60,7 +60,7 @@ const COURSES = [
     levelI: "40 hrs",
     levelII: "80 hrs",
     examStructure: "General + Specific + Practical",
-    indicativeCost: "USD 1,200–2,600 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "Basic math & physics; vision check",
   },
   {
@@ -69,7 +69,7 @@ const COURSES = [
     levelI: "40 hrs",
     levelII: "80 hrs",
     examStructure: "General + Specific + Practical + RSO module",
-    indicativeCost: "USD 1,400–3,200 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "Radiation safety awareness; vision check",
   },
   {
@@ -78,7 +78,7 @@ const COURSES = [
     levelI: "16 hrs",
     levelII: "24 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
-    indicativeCost: "USD 600–1,400 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "Vision check (Jaeger J-2)",
   },
   {
@@ -87,7 +87,7 @@ const COURSES = [
     levelI: "16 hrs",
     levelII: "24 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
-    indicativeCost: "USD 550–1,300 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "Vision check",
   },
   {
@@ -96,7 +96,7 @@ const COURSES = [
     levelI: "8 hrs",
     levelII: "16 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
-    indicativeCost: "USD 450–1,100 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "Vision check (Jaeger J-2 + colour)",
   },
   {
@@ -105,7 +105,7 @@ const COURSES = [
     levelI: "40 hrs",
     levelII: "40 hrs",
     examStructure: "General + Specific + Practical",
-    indicativeCost: "USD 1,100–2,400 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "Basic electricity & magnetism",
   },
   {
@@ -114,7 +114,7 @@ const COURSES = [
     levelI: "40 hrs",
     levelII: "80 hrs",
     examStructure: "General + Specific + Practical (S-scan + TFM)",
-    indicativeCost: "USD 1,800–3,800 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "UT Level II recommended",
   },
   {
@@ -123,7 +123,7 @@ const COURSES = [
     levelI: "40 hrs",
     levelII: "40 hrs",
     examStructure: "General + Specific + Practical",
-    indicativeCost: "USD 1,500–3,200 (Level II)",
+    indicativeCost: "Quote on request",
     prerequisites: "UT Level II recommended",
   },
 ];
@@ -158,7 +158,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
   return [
     {
       question: `How much does NDT Level II training cost in ${profile.city}?`,
-      answer: `NDT Level II training in ${profile.city} typically costs between USD 1,200 and USD 3,800 per method depending on the method and certification body. Ultrasonic and radiographic testing are at the upper end; magnetic particle and penetrant testing at the lower end. Atlantis NDT offers all major methods aligned to ${certString}. Contact our team for a current quote, group rates, and corporate bundles.`,
+      answer: `Pricing for NDT Level II training in ${profile.city} depends on method and certification body — ultrasonic and radiographic testing typically involve more instructor and equipment time than magnetic particle or penetrant testing. Atlantis NDT offers all major methods aligned to ${certString}. Contact our team for a current quote, group rates, and corporate bundles.`,
     },
     {
       question: `How long does it take to complete NDT Level II in ${profile.city}?`,
@@ -421,6 +421,54 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
         </div>
       </section>
 
+      {/* Candidate-angle addition — 2026-08-08. GSC showed these pages skew
+          corporate/buyer-framed while "how do I become an NDT technician
+          here" intent goes unanswered. Template-level so it applies to every
+          city rendered through this component in one change. Delivery-model
+          language ("online + on-site + hybrid") matches EnquiryCaptureForm's
+          training copy; "partner-facility network" matches the no-fabricated
+          -presence framing used elsewhere on this page — no claimed
+          classroom/office beyond the genuine Houston base. */}
+      <section className="py-16">
+        <div className="container mx-auto max-w-4xl px-6">
+          <motion.div
+            initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Starting an NDT career in {profile.city}? Here's what local
+              employers look for
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              If you're entering the field rather than sourcing training for a
+              team, the path is straightforward. Most employers hiring in{" "}
+              {profile.city} qualify personnel against ASNT SNT-TC-1A, so a
+              recognised Level I or Level II certification — not a particular
+              school — is what gets you considered. Training is available
+              online + on-site + hybrid: theory can be completed remotely, and
+              technicians can complete practical evaluation through a
+              partner-facility network in {profile.city} or at your
+              employer's own site. Entry requirements are set out in
+              SNT-TC-1A: a high-school education or equivalent industrial
+              experience, a Jaeger J-2 near-vision check plus colour-vision
+              screening, and the method-specific classroom and
+              on-the-job-training hours. Most people entering the field start
+              in one method — commonly PT, MT, or UT — and add methods as
+              employer demand requires. See the full{" "}
+              <Link to="/training" className="text-primary underline">
+                training pathway
+              </Link>{" "}
+              or the{" "}
+              <Link to="/asnt-certification" className="text-primary underline">
+                ASNT certification guide
+              </Link>{" "}
+              for the complete Level I → III route.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Certification Pathway */}
       <section className="py-16 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
@@ -512,7 +560,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
                     Exam structure
                   </th>
                   <th className="text-left p-3 font-semibold border border-border">
-                    Indicative cost
+                    Pricing
                   </th>
                 </tr>
               </thead>

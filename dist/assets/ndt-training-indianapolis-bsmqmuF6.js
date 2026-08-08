@@ -1,1 +1,0 @@
-import{j as n}from"./blog-pages-Cba4hDr6.js";import{g as r,T as o}from"./TrainingLocationPage-BqdK7mYx.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BiK96I5W.js";import"./erp-pages-BhM3z9LW.js";function m(){const i=r("indianapolis");return i?n.jsx(o,{profile:i}):null}export{m as default};

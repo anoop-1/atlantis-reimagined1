@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Cba4hDr6.js";import{g as n,T as t}from"./TrainingLocationPage-CYLLIU08.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BiK96I5W.js";import"./erp-pages-BhM3z9LW.js";function s(){const i=n("dalian");return i?r.jsx(t,{profile:i}):null}export{s as default};

@@ -56,6 +56,13 @@ const faqs = [
     { question: "What is the ASNT Level III exam format?", answer: "The ASNT NDT Level III exam consists of: (1) Basic exam — 135 questions on materials science, NDT processes, and quality management; (2) Method exam — 66 questions on a specific NDT method; (3) Specific exam (optional, employer-based) — questions on codes, standards, and specifications relevant to your industry." },
     { question: 'What does SNT-TC-1A require in 2024?', answer: 'SNT-TC-1A is a recommended practice that each employer implements through its own Written Practice. Every edition, including the current 2024-era revision, sets minimum training hours, on-the-job experience, near-vision and colour-perception checks, and Level III oversight for each method and level. Because it is employer-based, the exact requirements follow your company Written Practice rather than a single fixed standard.' }, /*kw-embed*/
     { question: 'Is SNT-TC-1A the same as a certification?', answer: 'No. SNT-TC-1A is the guideline. Your employer Written Practice, together with your documented training, experience, and exam results, is what makes you certified. ACCP and ISO 9712 differ because a third party issues the certificate directly.' }, /*kw-embed*/
+    { question: 'What are the NDT Level 3 / ASNT Level 3 requirements?', answer: "ASNT NDT Level III (or ACCP Professional Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test." },
+    { question: 'How do you become an ASNT Level II NDT technician? Requirements', answer: "Becoming an ASNT Level II NDT technician means first holding Level I certification in that method, completing roughly 40 additional classroom hours (about 80 hours total through Level II), logging the method's required on-the-job experience hours under supervision, passing a written and practical exam, and keeping your annual vision test current." },
+    { question: 'What are the NDT Level 1 requirements?', answer: 'NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam.' },
+    { question: 'How long does it take to get ASNT certified?', answer: "Level I typically takes about 40 classroom hours plus several weeks of logged on-the-job experience. Level II adds roughly another 40 hours — about 80 hours total — plus additional experience hours, so most technicians reach Level II within 6-12 months. Level III requires several years of experience plus passing ASNT's Basic and Method exams." },
+    { question: 'Is a college degree required for ASNT certification?', answer: 'No degree is required for ASNT NDT Level I or Level II — a high-school education plus the required training hours and documented experience is enough. At Level III, a qualifying engineering or science degree is optional: it reduces the minimum documented-experience requirement from about 12,600 hours (high-school diploma path) to about 4,200 hours (degree path).' },
+    { question: 'What is the ASNT Level 3 salary?', answer: 'ASNT Level III pay varies significantly by industry, method scope, and staff vs. consulting role — see the salary ranges by certification level in the table above. For a full regional and method-by-method breakdown across UT, RT, PAUT, TOFD and more, see our dedicated NDT Salary Guide.' },
+    { question: 'ASNT vs PCN — which certification do you need?', answer: 'ASNT (SNT-TC-1A, CP-189, and ACCP) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — see our full ASNT vs PCN comparison for a side-by-side breakdown.' },
 ];
 
 export default function ASNTCertification() {
@@ -130,7 +137,7 @@ export default function ASNTCertification() {
                 faq={faqs}
             />
             <Breadcrumbs />
-              <TableOfContents items={[{ id: "overview", label: "ASNT Certification Overview" }, { id: "levels", label: "Level I / II / III Requirements" }, { id: "methods", label: "NDT Methods Covered" }, { id: "training", label: "Training Path & Pass Rates" }, { id: "faq", label: "FAQ" }]} />
+              <TableOfContents items={[{ id: "overview", label: "ASNT Certification Overview" }, { id: "levels", label: "Level I / II / III Requirements" }, { id: "how-to-become-certified", label: "How to Become ASNT Certified" }, { id: "methods", label: "NDT Methods Covered" }, { id: "training", label: "Training Path & Pass Rates" }, { id: "faq", label: "FAQ" }]} />
       <QuickAnswerBox question="How do you get ASNT certified in 2026?" answer="ASNT certification is employer-administered under SNT-TC-1A or centrally administered under ANSI/ASNT CP-189 / ACCP. You qualify at Level I, II, or III in each NDT method (UT, RT, MT, PT, ET, VT) by combining classroom training hours, on-the-job experience, a vision test, and a written + practical examination. Level III is the senior technical authority — set procedures, approve personnel, sign reports." bullets={["Level I: 40 hrs training + 210-1,200 hrs experience per method","Level II: 40+ additional training hrs + 630-3,600 hrs experience","Level III: Method-specific exam + 4 yrs experience (or degree + 1 yr)"]} />
 
 
@@ -219,6 +226,44 @@ export default function ASNTCertification() {
                                 </CardContent>
                             </Card>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* How to Become ASNT Certified — requirements deep-dive, additive 2026-08-08 */}
+            <section id="how-to-become-certified" className="py-16 bg-white">
+                <div className="container mx-auto max-w-4xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">How to Become ASNT Certified</h2>
+                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">Direct answers to the requirements, timeline, and career questions candidates ask most about ASNT NDT Level I, II, and III certification.</p>
+                    <div className="space-y-10">
+                        <div>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">How to Become an ASNT Level II NDT Technician: Requirements</h3>
+                            <p className="text-slate-700">Becoming an ASNT Level II NDT technician means first holding Level I certification in that method, completing roughly 40 additional classroom hours (about 80 hours total through Level II), logging the method's required on-the-job experience hours under supervision, passing a written and practical exam, and keeping your annual vision test current.</p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 1 Requirements</h3>
+                            <p className="text-slate-700">NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam.</p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 3 / ASNT Level 3 Requirements</h3>
+                            <p className="text-slate-700">ASNT NDT Level III (or ACCP Professional Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test.</p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">How Long Does It Take to Get ASNT Certified?</h3>
+                            <p className="text-slate-700">Level I typically takes about 40 classroom hours plus several weeks of logged on-the-job experience. Level II adds roughly another 40 hours — about 80 hours total — plus additional experience hours, so most technicians reach Level II within 6-12 months. Level III requires several years of documented experience plus passing ASNT's Basic and Method exams.</p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">Is a College Degree Required for ASNT Certification?</h3>
+                            <p className="text-slate-700">No degree is required for ASNT NDT Level I or Level II — a high-school education plus the required training hours and documented experience is enough. At Level III, a qualifying engineering or science degree is optional: it reduces the minimum documented-experience requirement from about 12,600 hours (high-school diploma path) to about 4,200 hours (degree path).</p>
+                        </div>
+                        <div className="rounded-lg border-l-4 border-emerald-600 bg-emerald-50 p-6">
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">What Is the ASNT Level III Salary?</h3>
+                            <p className="text-slate-700">ASNT Level III pay varies significantly by industry, method scope, and staff vs. consulting role — see the salary ranges by certification level in the table above. For a full regional and method-by-method breakdown across UT, RT, PAUT, TOFD and more, see our <Link to="/blog/ndt-salary-guide-2026-global" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">NDT Salary Guide 2026 →</Link></p>
+                        </div>
+                        <div className="rounded-lg border-l-4 border-[#004aad] bg-blue-50 p-6">
+                            <h3 className="text-2xl font-bold text-slate-900 mb-2">Comparing ASNT to PCN or ISO 9712?</h3>
+                            <p className="text-slate-700">ASNT (SNT-TC-1A, CP-189, and ACCP) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — <Link to="/compare/asnt-vs-pcn" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">see our full ASNT vs PCN comparison →</Link></p>
+                        </div>
                     </div>
                 </div>
             </section>

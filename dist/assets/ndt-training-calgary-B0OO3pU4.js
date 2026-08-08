@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Cba4hDr6.js";import{g as t,T as o}from"./TrainingLocationPage-CYLLIU08.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BiK96I5W.js";import"./erp-pages-BhM3z9LW.js";function p(){const r=t("calgary");return r?i.jsx(o,{profile:r}):null}export{p as default};
