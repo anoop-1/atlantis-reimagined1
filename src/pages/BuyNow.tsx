@@ -6,7 +6,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
 
-const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/cNi00l3WRgi3cv4cInbjW00";
+const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/28EeVf50V9TFamWbEjbjW01";
 const MS_FORM_LINK =
    "https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u";
 
