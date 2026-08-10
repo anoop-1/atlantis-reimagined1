@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Cba4hDr6.js";import{D as i}from"./DigitalTwinLocationPage-BcPVxw35.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function u(){return t.jsx(i,{city:"Tulsa",country:"USA",slug:"digital-twin-tulsa"})}export{u as default};

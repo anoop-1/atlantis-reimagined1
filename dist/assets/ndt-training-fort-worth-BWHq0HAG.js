@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import{g as o,T as i}from"./TrainingLocationPage-CTaxDmGv.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BjZGo5OE.js";import"./erp-pages-Gzw25Cre.js";function p(){const r=o("fort-worth");return r?t.jsx(i,{profile:r}):null}export{p as default};

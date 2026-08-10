@@ -1,0 +1,1 @@
+import{j as e}from"./blog-pages-Be79NB64.js";import{g as r,B as t}from"./business-resources-DDVb7jX_.js";function i(){const s=r("business-software-evaluation-checklist");return s?e.jsx(t,{resource:s}):null}export{i as default};

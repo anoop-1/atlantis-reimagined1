@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Cba4hDr6.js";import{E as t}from"./ErpLocationPage-CJlf4Ymp.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function g(){return r.jsx(t,{city:"Pengerang",country:"Malaysia",slug:"ndt-erp-pengerang"})}export{g as default};

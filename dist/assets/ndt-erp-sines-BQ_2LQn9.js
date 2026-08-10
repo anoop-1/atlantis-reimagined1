@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Cba4hDr6.js";import{E as t}from"./ErpLocationPage-CJlf4Ymp.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function a(){return r.jsx(t,{city:"Sines",country:"Portugal",slug:"ndt-erp-sines"})}export{a as default};

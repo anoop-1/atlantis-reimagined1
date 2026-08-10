@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import t from"./MethodLocationPage-A1EayOoQ.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Gzw25Cre.js";function a(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"denver"})}export{a as default};

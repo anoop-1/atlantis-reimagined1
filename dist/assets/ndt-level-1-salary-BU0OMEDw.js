@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import{S as e,a as r}from"./salary-level-pages-DbZ5ILUp.js";const o=r.find(a=>a.path==="/ndt-level-1-salary");function f(){return t.jsx(e,{config:o})}export{f as default};

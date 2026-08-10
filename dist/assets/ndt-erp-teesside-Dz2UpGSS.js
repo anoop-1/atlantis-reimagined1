@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import{E as r}from"./ErpLocationPage-DG-eRzdH.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-Gzw25Cre.js";import"./RelatedProducts-BjZGo5OE.js";function a(){return t.jsx(r,{city:"Teesside",country:"UK",slug:"ndt-erp-teesside"})}export{a as default};

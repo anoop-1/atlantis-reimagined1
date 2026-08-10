@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import{D as i}from"./DigitalTwinLocationPage-DpU6sjd_.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-Gzw25Cre.js";import"./RelatedProducts-BjZGo5OE.js";function l(){return o.jsx(i,{city:"London",country:"UK",slug:"digital-twin-london"})}export{l as default};

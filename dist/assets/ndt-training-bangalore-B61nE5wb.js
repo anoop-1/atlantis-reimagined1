@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{g as o,T as n}from"./TrainingLocationPage-CTaxDmGv.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BjZGo5OE.js";import"./erp-pages-Gzw25Cre.js";function p(){const r=o("bangalore");return r?i.jsx(n,{profile:r}):null}export{p as default};

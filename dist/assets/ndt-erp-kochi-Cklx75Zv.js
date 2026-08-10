@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Cba4hDr6.js";import{E as r}from"./ErpLocationPage-CJlf4Ymp.js";import"./PillarHubNav-DYiypIRQ.js";import"./build-hreflang-CViNgX-s.js";import"./badge-CKYDyVwk.js";import"./erp-pages-BhM3z9LW.js";import"./RelatedProducts-BiK96I5W.js";function s(){return o.jsx(r,{city:"Kochi",country:"India",slug:"ndt-erp-kochi"})}export{s as default};

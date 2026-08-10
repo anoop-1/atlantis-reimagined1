@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Be79NB64.js";import{g as t,T as o}from"./TrainingLocationPage-CTaxDmGv.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BjZGo5OE.js";import"./erp-pages-Gzw25Cre.js";function s(){const i=t("brazil");return i?r.jsx(o,{profile:i}):null}export{s as default};

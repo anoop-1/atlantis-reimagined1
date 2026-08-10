@@ -1399,3 +1399,142 @@ FIVE commits queued behind the 100/24h ceiling; session cron 80f0f90b fires
 after 2026-08-07 02:10 UTC reset → deploy HEAD, verify, submit. URL list for
 this sweep: compare (12) + corporate-training (13) + singles (6) + resources
 (11) + /penetrant-testing-{mapped-city} pages.
+
+---
+
+## 31. US audit + site-wide pricing gate + salary-cluster rebuild — 2026-08-09
+
+### 31.1 THE NUMBER THAT SHOULD DRIVE THE NEXT SIX MONTHS
+Fresh pull (`scripts/gsc-us-deepdive-2026-08-09.mjs`, summary committed at
+`scripts/us-deepdive-summary-2026-08-09.json`). Impressions per page, 90d, by
+family — computed against the 5,133-URL sitemap:
+
+| Family | Pages | Impressions | **Per page** |
+|---|---:|---:|---:|
+| blog | 773 | 227,813 | **295** |
+| resources | 23 | 5,642 | **245** |
+| compare | 35 | 4,830 | **138** |
+| glossary | 219 | 13,350 | 61 |
+| 3d-scanning | 172 | 9,239 | 54 |
+| ndt-training | 151 | 6,846 | 45 |
+| method-city | 591 | 9,430 | 16 |
+| digital-twin | 369 | 3,090 | 8 |
+| ndt-erp | 293 | 2,022 | 7 |
+| erp (all) | 653 | 4,222 | 6.5 |
+| erp-modules | 348 | 1,928 | 5.5 |
+
+**A blog page earns 45x what an ERP city page earns.** The ERP+DT families are
+1,663 pages — 32% of the site — producing 2.5% of its impressions. §20.2 already
+said "no more ERP city permutations"; this quantifies it. **44% of all built URLs
+(2,277) earned zero impressions in 90 days.** Stop adding pages to the low-yield
+families. Content effort belongs in blog/resources/compare shapes.
+
+### 31.2 The US is a POSITION problem, not a CTR problem
+USA: 886 clicks / 120,339 impressions / 0.74% CTR / **avg position 15.0**.
+India: 746 clicks / 38,262 impressions / 1.95% CTR / **avg position 7.4**.
+The US has 3x India's impressions and fewer clicks because we rank twice as deep.
+Do not "fix US CTR" — at position 15 there is no CTR to fix. Either rank the
+page or pick a query where we already rank.
+
+⚠️ **GSC country-filtered pulls are anonymisation-limited.** The `country=usa`
+page/query dimensions return only ~26% of the true US total (31,699 of 120,339
+impressions). Use the country dimension for TOTALS and the filtered pulls for
+SHAPE only. A previous session's "US baseline" numbers differ from this one for
+exactly this reason — neither was wrong, they measured different things.
+
+### 31.3 Three US clusters carry ~5,100 impressions at ~0% CTR
+1. **Salary — 2,304 impr, 177 queries, 5 clicks (0.22%).** 1,928 of those land on
+   ONE page, `/blog/ndt-salary-guide-2026-global`, at position ~8-9. A global
+   overview answering "ndt level 3 salary" (207 impr, pos 9.4) can neither win
+   the snippet nor beat the AI overview. **Shipped:** `/ndt-level-1-salary`,
+   `/ndt-level-2-salary`, `/ndt-level-3-salary`, `/ndt-inspector-salary` —
+   one page per query head, config in `src/data/salary-level-pages.ts`.
+2. **"Near me" — 883 impr, pos 45-90.** Google was resolving national "ndt
+   training near me" to `/ndt-training-denver` because no national hub existed.
+   Counter-evidence that the cluster converts when the page fits: "ndt school
+   near me" pos 6.6 with clicks; "ndt technician training near me" pos 2.5 with
+   clicks. **Shipped:** `/ndt-training-near-me`, a US location index.
+3. **Conversational / AI-style queries — 133 distinct, 1,915 impr.** Full-sentence
+   queries are now a measurable demand shape ("should we mandate api 510, 570 and
+   653 as the minimum certifications…" 126 impr). GA4 confirms the channel:
+   **AI Assistant 239 sessions at 51% engagement.** Not yet addressed — next cycle.
+
+### 31.4 🔴 PRICING — the recurring failure, now gated
+Seven sweep rounds, ~145 fixes, in **eight layers**, every one previously
+undetected despite four prior sweeps:
+1. SERP overrides in `prerender.mjs` — 3 Singapore method page TITLES carried day
+   rates (`$400/day`), plus the L3 consulting title and the training description.
+2. Nine regional training pages with per-student prices in live meta descriptions.
+3. 15 corporate-training verticals rendering a 60-cell per-head price TABLE,
+   which also fed `Offer.description`.
+4. Schema: `price: '15000'`, `price: "800"`, and `priceSpecification`
+   min/maxPrice `INR 35,000-85,000 per participant` on 3 India pages.
+5. Named forbidden tokens still live: `INR 15 lakh` (15 pages), `SAR 67,500` (5).
+6. Four Atlantis DT platform licence figures in the ROI-examples blog.
+7. A latent `SEOHead` code path that would emit a Course price if ever passed one.
+8. **~20 CORRUPTED SENTENCES** from an earlier blanket strip — live, reader-visible
+   nonsense on money pages: *"Average salary increase of affordable,
+   accessible-$30,000"*, *"Maximo at enterprise tier-$1M"*, *"enterprise tier,
+   enterprise tier-2M/year"*. This is §25.6 damage that shipped and sat there.
+
+**→ `scripts/assert-no-atlantis-pricing.mjs` is now the standing gate.** Checks
+all eight layers, carries a reviewed exception list (competitor prices, customer
+ROI, salary data, grant caps), and currently **PASSES on 2,964 files**.
+**Run it before every commit.** Ad-hoc greps have now failed five times running;
+they miss because each layer expresses a price differently.
+
+Note round 6→7: fixing `INR 15 lakh` by exact string left `SAR 67,500` alive,
+because the same sentence is emitted per region with a per-region currency.
+**Fix the pattern, not the instance.**
+
+### 31.5 The 60 noindexed ERP pages — do NOT "unblock" them
+All 60 are substantial (1,260–2,070w) and non-generic, failing purely on sibling
+similarity. But a word-diff of the worst pair (ahmedabad vs bangalore) found
+**1,395 of 1,423 words identical** — a 566-word shared leadership/links block.
+Split:
+* **49 never received per-city research.** They are name-swap permutations and
+  earn **59 impressions between them in 90 days**. They stay noindexed. Varying
+  boilerplate to slip them past the gate manufactures doorway pages for no
+  traffic — precisely what the gate exists to prevent.
+* **11 US metros DID get real research** (`erp-us-market-depth.mjs`) but collide
+  on that script's shared per-market-TYPE block (chicago↔detroit 0.756).
+  For these the similarity is an artefact masking real differences.
+  **Shipped:** `scripts/erp-us-city-texture-2026-08-09.mjs` — ~320 words of
+  hand-written per-metro operating texture each, sized from the actual Jaccard
+  arithmetic (~440 unique words needed at 0.756 on ~685 shingles).
+
+Family-wide median similarity is 0.031, not the "0.77–0.82" §28.3 implies — that
+figure described the un-researched subset, not the family.
+
+### 31.6 GA4 — a conversion leak larger than any SEO gain here
+90d, property 517088706: 29,786 sessions. Organic 8,609 @ 55% engagement;
+Paid Search 10,390 @ **22%** engagement, 68s, nearly all landing on `/erp`.
+Events: **`erp_demo_request_click` 746 → `generate_lead` 61.** ~8% completion.
+`/training` by contrast runs **91% engagement, 351s** — the highest-intent page
+on the site. EmailJS keys ARE present in prod, so the form is not broken; this is
+a funnel problem, not a bug. **Worth more than any ranking change in this cycle.**
+
+### 31.7 What shipped, and what is owner-action
+Shipped to disk and verified (pricing gate PASS, `tsc` clean on all new files,
+all new/edited files carry no new type errors):
+5 new pages + routes · 7 pricing sweep scripts · the standing gate · ERP city
+texture module wired into `thin-page-upgrade.mjs` · GSC deep-dive tooling + a
+44KB committed summary (5MB raw pull gitignored).
+
+⚠️ **NOT deployed.** The analysis sandbox mounts this repo through FUSE without
+unlink permission, so `git` cannot rewrite its index, and `node_modules` holds
+Windows esbuild binaries so `vite build` cannot run there either. `node_modules`
+was deliberately left untouched. **Runbook: `scripts/DEPLOY-2026-08-09.md`** —
+commit, push, verify deployed SHA, then submit
+`scripts/indexing-queue-2026-08-09.txt` (72 URLs, dry-run verified against all
+10 service accounts, 67 submittable, well inside the 2,000/day cap).
+An empty `.git/__probe` file was left behind and cannot be deleted from the
+sandbox — `del .git\__probe`.
+
+### 31.8 Next cycle, in order
+1. Deploy + submit (§31.7 runbook) and confirm the noindex count moves 60 → ~49.
+2. The `/erp` paid-traffic funnel (§31.6) — 746 → 61 is the biggest number here.
+3. Answer blocks for the conversational cluster (§31.3.3); AI Assistant is a real
+   channel at 51% engagement.
+4. Re-measure **2026-09-06** against `us-deepdive-summary-2026-08-09.json`.
+5. Content effort into blog/resources/compare shapes ONLY (§31.1).
