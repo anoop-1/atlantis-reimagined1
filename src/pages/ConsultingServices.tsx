@@ -393,11 +393,12 @@ export default function ConsultingServices() {
                   transition={{ duration: 0.8 }}
                >
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     What Is <span className="gradient-text">Level III NDT Consulting</span>?
+                     What Is <span className="gradient-text">Level III (Level 3) NDT Consulting</span>?
                   </h2>
                   <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-                     ASNT Level III NDT consulting provides senior technical oversight across nondestructive
-                     testing activities, ensuring inspections are:
+                     ASNT Level III NDT consulting — also searched as "NDT Level 3 consulting" or an "NDT Level 3
+                     consultant," since Level III and Level 3 are the same certification tier — provides senior
+                     technical oversight across nondestructive testing activities, ensuring inspections are:
                   </p>
                </motion.div>
 

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Z7F7z73W.js";import{E as o}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function s(){return r.jsx(o,{city:"Bangalore",country:"India",slug:"ndt-erp-bangalore"})}export{s as default};

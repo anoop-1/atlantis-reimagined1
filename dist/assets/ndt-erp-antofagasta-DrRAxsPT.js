@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Z7F7z73W.js";import{E as o}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function e(){return t.jsx(o,{city:"Antofagasta",country:"Chile",slug:"ndt-erp-antofagasta"})}export{e as default};

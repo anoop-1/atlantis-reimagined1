@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Be79NB64.js";import{g as r,T as t}from"./TrainingLocationPage-QyXKzFV4.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-EOlQp_hb.js";import"./erp-pages-0f-1VdC2.js";function s(){const i=r("oklahoma-city");return i?o.jsx(t,{profile:i}):null}export{s as default};

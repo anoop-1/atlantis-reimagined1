@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Be79NB64.js";import{g as t,T as o}from"./TrainingLocationPage-QyXKzFV4.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-EOlQp_hb.js";import"./erp-pages-0f-1VdC2.js";function m(){const i=t("marseille");return i?r.jsx(o,{profile:i}):null}export{m as default};

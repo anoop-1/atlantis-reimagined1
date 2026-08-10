@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Z7F7z73W.js";import{g as o,T as t}from"./TrainingLocationPage-CQCJsGTq.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-Kq7gj8Kf.js";import"./erp-pages-qHlpnUF5.js";function s(){const i=o("iowa");return i?r.jsx(t,{profile:i}):null}export{s as default};

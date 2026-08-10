@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Be79NB64.js";import{E as t}from"./ErpLocationPage-C5QtiSvq.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-0f-1VdC2.js";import"./RelatedProducts-EOlQp_hb.js";function n(){return r.jsx(t,{city:"Jebel Ali",country:"UAE",slug:"ndt-erp-jebel-ali"})}export{n as default};

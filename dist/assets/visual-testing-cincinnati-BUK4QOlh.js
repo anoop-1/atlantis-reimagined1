@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Z7F7z73W.js";import i from"./MethodLocationPage-CAzVgJ_z.js";import"./PillarHubNav-DCXRjden.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-qHlpnUF5.js";function m(){return t.jsx(i,{methodSlug:"visual-testing",locationSlug:"cincinnati"})}export{m as default};

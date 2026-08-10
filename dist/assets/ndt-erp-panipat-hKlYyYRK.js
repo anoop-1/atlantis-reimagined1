@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Z7F7z73W.js";import{E as p}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function s(){return t.jsx(p,{city:"Panipat",country:"India",slug:"ndt-erp-panipat"})}export{s as default};

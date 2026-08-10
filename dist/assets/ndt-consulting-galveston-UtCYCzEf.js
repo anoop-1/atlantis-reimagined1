@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Be79NB64.js";import{C as t}from"./ConsultingLocationPage-BaxpY7YI.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-0f-1VdC2.js";import"./RelatedProducts-EOlQp_hb.js";function e(){return o.jsx(t,{locationSlug:"galveston"})}export{e as default};

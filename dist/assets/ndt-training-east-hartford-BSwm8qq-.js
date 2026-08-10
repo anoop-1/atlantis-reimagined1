@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Z7F7z73W.js";import{g as i,T as o}from"./TrainingLocationPage-CQCJsGTq.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-Kq7gj8Kf.js";import"./erp-pages-qHlpnUF5.js";function m(){const r=i("east-hartford");return r?t.jsx(o,{profile:r}):null}export{m as default};

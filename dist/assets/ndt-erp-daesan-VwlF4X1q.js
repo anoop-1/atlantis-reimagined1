@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Z7F7z73W.js";import{E as t}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function s(){return r.jsx(t,{city:"Daesan",country:"South Korea",slug:"ndt-erp-daesan"})}export{s as default};

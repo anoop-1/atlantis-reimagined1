@@ -67,9 +67,9 @@ export default function ASNTLevelIIIStudyGuide() {
               <FileText className="w-5 h-5" />
               <span>Free Resource - Study Guide</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT Level III Study Guide</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT Level III (Level 3) Study Guide</h1>
             <p className="text-xl text-blue-100 max-w-3xl mb-8">
-              A comprehensive exam preparation overview for the ASNT Level III certification. Covers exam format, topic areas for all six major NDT methods, key standards to study, preparation strategies, common failure areas, and exam-day tips.
+              A comprehensive exam preparation overview for the ASNT Level III (also written "ASNT Level 3") certification. Covers exam format, topic areas for all six major NDT methods, key standards to study, preparation strategies, common failure areas, and exam-day tips.
             </p>
             <div className="flex flex-wrap gap-4">
               <a

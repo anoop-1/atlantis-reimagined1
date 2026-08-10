@@ -203,7 +203,7 @@ export default function NDTSalaryGuide2026() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">NDT Salary by Certification Level</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            <a href="/asnt-certification" className="text-primary underline underline-offset-2 hover:opacity-80">ASNT certification</a> level is the primary determinant of salary. Level I is entry-level assistant status; Level II is independent technician capable of performing inspections; Level III is subject matter expert developing procedures and standards. The salary jump from Level II to Level III is typically 30-60%.
+                            <a href="/asnt-certification" className="text-primary underline underline-offset-2 hover:opacity-80">ASNT certification</a> level is the primary determinant of salary. Level I (Level 1) is entry-level assistant status; Level II (Level 2) is independent technician capable of performing inspections; Level III (Level 3) is subject matter expert developing procedures and standards. The salary jump from Level II to Level III is typically 30-60%. "Level 1," "Level 2" and "Level 3" are the numeral forms of the same ASNT/ISO 9712 certification tiers used interchangeably with Level I, Level II and Level III throughout this guide.
                         </p>
 
                         <div className="overflow-x-auto mb-8">
@@ -236,17 +236,17 @@ export default function NDTSalaryGuide2026() {
                         <h3 className="text-2xl font-bold mb-4">Level-by-Level Salary Progression</h3>
                         <div className="space-y-4">
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
-                                <h4 className="font-bold text-lg mb-2">NDT Level I: $40,000-$55,000 (USA)</h4>
+                                <h4 className="font-bold text-lg mb-2">NDT Level I (Level 1) Salary: $40,000-$55,000 (USA)</h4>
                                 <p className="text-slate-600 mb-2">Entry-level technician assisting with inspections. Works under Level II/III supervision. Follows written procedures, records data, marks indications but does not interpret results. Requires 40-80 hours formal training per method.</p>
                                 <p className="text-slate-600"><strong>Career progression:</strong> Most Level I technicians spend 2-3 years gaining experience before attempting Level II certification.</p>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
-                                <h4 className="font-bold text-lg mb-2">NDT Level II: $55,000-$80,000 (USA baseline)</h4>
+                                <h4 className="font-bold text-lg mb-2">NDT Level II (Level 2) Salary: $55,000-$80,000 (USA baseline)</h4>
                                 <p className="text-slate-600 mb-2">Independent technician capable of setting up equipment, calibrating, performing examination, interpreting results, and writing reports. Can supervise Level I technicians. The baseline for professional NDT technicians. Requires 160-240 hours training + 800-1,200 hours field experience per method.</p>
                                 <p className="text-slate-600"><strong>Variation:</strong> Advanced methods command premiums - PAUT Level II: $80,000-$110,000; MT/PT Level II: $50,000-$65,000.</p>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
-                                <h4 className="font-bold text-lg mb-2">NDT Level III: $80,000-$130,000 (USA staff position)</h4>
+                                <h4 className="font-bold text-lg mb-2">NDT Level III (Level 3) Salary: $80,000-$130,000 (USA staff position)</h4>
                                 <p className="text-slate-600 mb-2">Subject matter expert developing procedures, establishing examination techniques, interpreting codes/standards, and approving NDT instructions. Can serve as expert witness. Typical role: NDT department manager or senior specialist. Requires Level II in one method plus 3+ years professional experience + advanced examination.</p>
                                 <p className="text-slate-600"><strong>Consulting Level III:</strong> $150-$250/hour = $300,000-$500,000 annualized (realistically 60-70% utilization = $180,000-$350,000).</p>
                             </div>

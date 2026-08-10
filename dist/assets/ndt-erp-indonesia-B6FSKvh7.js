@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Z7F7z73W.js";import{E as i}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function m(){return o.jsx(i,{city:"Indonesia",country:"Indonesia",slug:"ndt-erp-indonesia"})}export{m as default};

@@ -709,6 +709,10 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
         {
             question: "What certifications do your consultants hold?",
             answer: "Our consultants hold ASNT Level III certifications in multiple NDT methods including UT, RT, MT, PT, ET, and VT. Many also hold additional credentials including API 510/570/653 certifications, AWS CWI, CSWIP, and PCN qualifications. All consultants meet or exceed the experience requirements specified in SNT-TC-1A for their respective certification levels."
+        },
+        {
+            question: `Is an "NDT Level 3 consultant" in ${location.name} the same as an NDT Level III consultant?`,
+            answer: `Yes — "Level 3" and "Level III" describe the identical ASNT/ISO 9712 certification tier, used interchangeably across the industry. An NDT Level 3 consultant and an NDT Level III consultant in ${location.name} hold the same qualification and provide the same scope of consulting services listed above.`
         }
     ];
 

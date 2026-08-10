@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Be79NB64.js";import{g as n,T as t}from"./TrainingLocationPage-QyXKzFV4.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-EOlQp_hb.js";import"./erp-pages-0f-1VdC2.js";function m(){const r=n("sugar-land");return r?i.jsx(t,{profile:r}):null}export{m as default};

@@ -1,0 +1,1 @@
+import{j as a}from"./blog-pages-Z7F7z73W.js";import{E as o}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function s(){return a.jsx(o,{city:"Casablanca",country:"Morocco",slug:"ndt-erp-casablanca"})}export{s as default};

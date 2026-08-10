@@ -1,0 +1,1 @@
+import{j as o,b$ as r}from"./blog-pages-Z7F7z73W.js";import{g as t}from"./money-pages-Czr_Irc5.js";function s(){const e=t("erp-construction-singapore");return e?o.jsx(r,{page:e}):null}export{s as default};

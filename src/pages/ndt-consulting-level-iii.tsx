@@ -267,6 +267,11 @@ const faqs = [
         answer:
             "Yes. We provide full NAS 410 / EN 4179 aerospace NDE certification program development and compliance consulting. This includes developing the employer-specific written practice that meets NAS 410 mandatory requirements (which are more prescriptive than SNT-TC-1A), creating training curricula aligned with NAS 410 minimum hour requirements for each method and level, developing qualification examination banks (written general, written specific, and practical), establishing the required Responsible Level III authority structure, and supporting NADCAP (National Aerospace and Defense Contractors Accreditation Program) audit preparation and response. Our aerospace Level III consultants have direct experience with major aerospace OEMs and MRO facilities, and understand the specific requirements of Pratt & Whitney, GE Aviation, Rolls-Royce, Boeing, and Airbus supplier quality specifications.",
     },
+    {
+        question: "Is an \"NDT Level 3 consultant\" the same as an NDT Level III consultant?",
+        answer:
+            "Yes — \"NDT Level 3\" and \"NDT Level III\" are the same ASNT/ISO 9712 certification tier, written interchangeably as the numeral or the Roman numeral. Whether your team searches for an \"NDT Level 3 consultant\" or \"NDT Level III consultant,\" the qualification, scope of work, and every service described on this page are identical.",
+    },
 ];
 
 /* ─── Related Pages ─── */

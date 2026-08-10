@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Z7F7z73W.js";import{E as r}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function c(){return o.jsx(r,{city:"Colombia",country:"Colombia",slug:"ndt-erp-colombia"})}export{c as default};

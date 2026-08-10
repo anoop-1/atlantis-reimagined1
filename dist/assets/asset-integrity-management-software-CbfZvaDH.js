@@ -1,1 +1,0 @@
-import{j as t,b$ as a}from"./blog-pages-Be79NB64.js";import{g as n}from"./money-pages-Czr_Irc5.js";function o(){const e=n("asset-integrity-management-software");return e?t.jsx(a,{page:e}):null}export{o as default};
