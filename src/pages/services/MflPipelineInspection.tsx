@@ -213,7 +213,7 @@ export default function MflPipelineInspection() {
                                 <tr className="border-t"><td className="px-5 py-3 font-medium">Tool speed</td><td className="px-5 py-3 text-sm">Faster — typical 1–4 m/s</td><td className="px-5 py-3 text-sm">Slower — must hold 0.5–2 m/s for clean data</td></tr>
                                 <tr className="border-t bg-slate-50"><td className="px-5 py-3 font-medium">Cracks (axial)</td><td className="px-5 py-3 text-sm">Standard MFL: blind. TFI: yes.</td><td className="px-5 py-3 text-sm">UT-CD (crack-detection) tools: yes</td></tr>
                                 <tr className="border-t"><td className="px-5 py-3 font-medium">Laminations</td><td className="px-5 py-3 text-sm">Marginal</td><td className="px-5 py-3 text-sm">Excellent</td></tr>
-                                <tr className="border-t bg-slate-50"><td className="px-5 py-3 font-medium">Cost / mile (HR)</td><td className="px-5 py-3 text-sm">affordable, accessible–$45K (with TFI combo)</td><td className="px-5 py-3 text-sm">$25K–$70K typical</td></tr>
+                                <tr className="border-t bg-slate-50"><td className="px-5 py-3 font-medium">Cost / mile (HR)</td><td className="px-5 py-3 text-sm">Quote on request (TFI combo available)</td><td className="px-5 py-3 text-sm">$25K–$70K typical</td></tr>
                                 <tr className="border-t"><td className="px-5 py-3 font-medium">Best fit</td><td className="px-5 py-3 text-sm">Gas transmission, gathering, screening</td><td className="px-5 py-3 text-sm">Liquid lines, sizing-critical, crack threats</td></tr>
                             </tbody>
                         </table>

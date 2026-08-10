@@ -29,10 +29,10 @@ const config: VerticalConfig = {
       { role: "BESS Commissioning Inspector", progression: "Level II VT + UT thickness + leak-testing methods", coreMethods: "VT, UT thickness, leak testing", hoursTotal: "120–160 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,300–$2,500 per head", notes: "Standard wind / hydrogen QC methods; emerging-code mapping included." },
-      { headcount: "25–49 engineers", perHead: "$1,100–$2,200 per head", notes: "Multi-method tracks across wind + hydrogen + BESS." },
-      { headcount: "50–99 engineers", perHead: "$950–$1,950 per head", notes: "Multi-site renewable EPC programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $800–$1,650 per head", notes: "Multi-asset annual contract; OEM-specific written-practice bridging on request." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard wind / hydrogen QC methods; emerging-code mapping included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across wind + hydrogen + BESS." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site renewable EPC programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-asset annual contract; OEM-specific written-practice bridging on request." },
    ],
    deliveryNote:
       "Renewable energy cohorts skew hybrid — theory on the LMS to manage geographically dispersed wind and solar O&amp;M crews, on-site practicals concentrated at OEM blade plants, hydrogen production sites, or wind installer mobilisation bases. Drone-based inspection modules are delivered on-site with the customer's own UAV fleet so essential-variable transfer is genuine, not theoretical.",

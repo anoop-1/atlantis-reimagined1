@@ -31,10 +31,10 @@ const config: VerticalConfig = {
       { role: "Hydrogen Project HSE-NDT Lead", progression: "Level II VT + UT thickness + leak testing + ISO/TR 15916 module", coreMethods: "VT, UT thickness, helium leak", hoursTotal: "160–200 instructor-led + commissioning shadow" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,400–$2,600 per head", notes: "Hydrogen-specific methods; B31.12 bridging module included." },
-      { headcount: "25–49 engineers", perHead: "$1,200–$2,300 per head", notes: "Multi-method tracks across production + transport + storage." },
-      { headcount: "50–99 engineers", perHead: "$1,050–$2,050 per head", notes: "Multi-site hydrogen EPC programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $880–$1,750 per head", notes: "Multi-asset hydrogen mega-project annual contract; offtaker-specific written-practice bridging included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Hydrogen-specific methods; B31.12 bridging module included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across production + transport + storage." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site hydrogen EPC programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-asset hydrogen mega-project annual contract; offtaker-specific written-practice bridging included." },
    ],
    deliveryNote:
       "Hydrogen cohorts are dominated by hybrid delivery. Theory on the LMS during EPC mobilisation, on-site practicals at the electrolyzer OEM stack-test facility or the EPC's hydrogen-service spool fabrication shop two to four weeks before commissioning. PAUT calibration on hydrogen-specific reference blocks (representative of vessel base metal + cladding combinations) is delivered on the customer's own coupons so essential-variable transfer is genuine. Pure on-site delivery is reserved for radiography (regulatory licensing, source storage) and high-pressure helium leak testing.",

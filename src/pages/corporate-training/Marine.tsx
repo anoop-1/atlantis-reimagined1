@@ -29,10 +29,10 @@ const config: VerticalConfig = {
       { role: "ROV / Subsea Inspection Lead", progression: "Visual + CSWIP 3.4U underwater inspector pathway", coreMethods: "VT, ACFM, FMD, CSWIP underwater", hoursTotal: "120–160 instructor-led + supervised dives" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,400–$2,800 per head", notes: "Standard hull and topsides methods; class-society alignment included." },
-      { headcount: "25–49 engineers", perHead: "$1,200–$2,400 per head", notes: "Add ACFM, AUT, or CSWIP welding inspector prep." },
-      { headcount: "50–99 engineers", perHead: "$1,000–$2,100 per head", notes: "Multi-yard or fleet-wide programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $850–$1,750 per head", notes: "Multi-vessel annual contract, named programme manager, class-society liaison support." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard hull and topsides methods; class-society alignment included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Add ACFM, AUT, or CSWIP welding inspector prep." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-yard or fleet-wide programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-vessel annual contract, named programme manager, class-society liaison support." },
    ],
    deliveryNote:
       "Marine cohorts split between yard-side delivery (concentrated headcount, fixed location, easy on-site practical access) and FPSO / fleet delivery (dispersed headcount, hybrid LMS-plus-on-site is the only viable economic model). For shipyard newbuild programs, on-site dominates; for operating fleets and FPSO leaseholders, hybrid wins.",

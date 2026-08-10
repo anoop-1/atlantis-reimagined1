@@ -56,8 +56,7 @@ const structuredData = {
     "Calculate corrosion rate, remaining life, and fitness-for-service based on original and current thickness measurements.",
   offers: {
     "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD"
+    availability: "https://schema.org/InStock"
   },
   publisher: {
     "@type": "Organization",

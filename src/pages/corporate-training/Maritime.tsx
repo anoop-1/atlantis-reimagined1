@@ -29,10 +29,10 @@ const config: VerticalConfig = {
       { role: "Port Infrastructure Inspector", progression: "Level II UT + MT + ACFM, then port-structures bridging", coreMethods: "UT, MT, ACFM, structures", hoursTotal: "180–220 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,250–$2,400 per head", notes: "Standard ship-repair methods + IACS Rec 84 overlay; ISM Code awareness included." },
-      { headcount: "25–49 engineers", perHead: "$1,050–$2,100 per head", notes: "Multi-method yard tracks + UTM grid methodology." },
-      { headcount: "50–99 engineers", perHead: "$900–$1,850 per head", notes: "Multi-yard or fleet-wide programme; dedicated lead instructor; class-society liaison support." },
-      { headcount: "100+ engineers", perHead: "POA — typically $750–$1,550 per head", notes: "Fleet-wide annual contract; multi-flag bridging; CSWIP exam administration." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard ship-repair methods + IACS Rec 84 overlay; ISM Code awareness included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method yard tracks + UTM grid methodology." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-yard or fleet-wide programme; dedicated lead instructor; class-society liaison support." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Fleet-wide annual contract; multi-flag bridging; CSWIP exam administration." },
    ],
    deliveryNote:
       "Maritime cohorts split between ship-repair yard delivery (dense headcount, fixed yard location) and shipping-company delivery (dispersed crews, hybrid LMS-plus-port-call practicals). UTM and tank-top thickness training requires real plating access, so we run those modules during scheduled dry-docking windows or at instructor-staffed yard training centres.",

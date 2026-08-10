@@ -199,8 +199,7 @@ const structuredData = {
     "Interactive wizard that recommends the best NDT method based on material type, defect type, access conditions, surface condition, and industry standards.",
   offers: {
     "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD"
+    availability: "https://schema.org/InStock"
   },
   publisher: {
     "@type": "Organization",

@@ -496,15 +496,14 @@ export const SEOHead = ({
       if (course.coursePrerequisites) coursePayload.coursePrerequisites = course.coursePrerequisites;
       if (course.educationalCredentialAwarded) coursePayload.educationalCredentialAwarded = course.educationalCredentialAwarded;
       if (course.educationalLevel) coursePayload.educationalLevel = course.educationalLevel;
-      if (course.price && course.priceCurrency) {
-        coursePayload.offers = {
-          "@type": "Offer",
-          "price": course.price,
-          "priceCurrency": course.priceCurrency,
-          "availability": "https://schema.org/InStock",
-          "url": finalCanonical,
-        };
-      }
+      // CLAUDE.md §18 — never emit price/priceCurrency in an Offer. The
+      // course.price/priceCurrency props are deliberately ignored so that a
+      // future caller passing them cannot reintroduce a pricing violation.
+      coursePayload.offers = {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "url": finalCanonical,
+      };
       cScript.textContent = JSON.stringify(coursePayload);
     } else {
       document.querySelector('script[data-sd="course"]')?.remove();

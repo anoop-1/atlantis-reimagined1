@@ -76,7 +76,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "What does CRM cost for an NDT inspection company in Hyderabad?",
-      "CRM is bundled inside the standard affordable, accessible (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription — there is no per-module licence fee. For Hyderabad customers, invoicing is supported in INR or USD with daily FX update. The subscription covers cloud hosting (with optional India data residency), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support."
+      "CRM is bundled inside the standard Atlantis NDT ERP subscription — affordable, accessible and fully customizable, quote on request — there is no per-module licence fee. For Hyderabad customers, invoicing is supported in INR or USD with daily FX update. The subscription covers cloud hosting (with optional India data residency), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support."
     ],
     [
       "Does CRM handle NAS 410 Rev 5 for HAL / BDL aerospace supplier work?",

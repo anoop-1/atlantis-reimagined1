@@ -31,10 +31,10 @@ const config: VerticalConfig = {
       { role: "Data Center Commissioning + IR Lead", progression: "Level II VT + UT thickness + IR thermography + leak testing", coreMethods: "VT, UT thickness, IR thermography, leak testing", hoursTotal: "140–180 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,250–$2,400 per head", notes: "Structural + electrical + cooling methods; AWS CWI prep included." },
-      { headcount: "25–49 engineers", perHead: "$1,050–$2,100 per head", notes: "Multi-method tracks across structural + electrical + cooling + commissioning." },
-      { headcount: "50–99 engineers", perHead: "$900–$1,850 per head", notes: "Multi-site hyperscale EPC programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $750–$1,600 per head", notes: "Multi-region hyperscale annual contract; operator-specific written-practice bridging included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Structural + electrical + cooling methods; AWS CWI prep included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across structural + electrical + cooling + commissioning." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site hyperscale EPC programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-region hyperscale annual contract; operator-specific written-practice bridging included." },
    ],
    deliveryNote:
       "Data center cohorts are dominated by hybrid delivery, with structural-steel and bus-bar practicals running at the EPC's fabrication shop and commissioning practicals running on-site at the data center during pre-IST (integrated systems test). Theory on the LMS during design + procurement, practicals scheduled against the EPC critical path. AWS CWI prep is delivered as a 5-day intensive timed to the candidate's CWI exam window.",

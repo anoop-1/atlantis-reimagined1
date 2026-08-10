@@ -132,7 +132,7 @@ export default function DigitalTwinROICalculatorExamples2026() {
               Asset profile: mid-size refinery, 200,000 barrels per day throughput, 10 process units including CDU (Crude Distillation Unit), VDU, FCC, hydrotreaters, alkylation, and isomerization. Historical baseline: 4 unplanned shutdown days per year, 28-day major turnaround every 4 years, $850,000/day downtime cost (lost margin + restart cost).
             </p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Atlantis NDT digital twin deployment: $200,000/year platform license, $25,000 one-time onboarding (waived after Y1 if multi-year contract signed). 5-year cost: $1.0M.
+              Atlantis NDT digital twin deployment: annual platform licence plus a one-time onboarding fee (onboarding waived after Y1 on a multi-year contract). Quote on request.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
               Value drivers (5-year):
@@ -153,7 +153,7 @@ export default function DigitalTwinROICalculatorExamples2026() {
               Asset profile: 150,000 BPD FPSO operating in 1,500m water depth, 12-year vessel age (8 years remaining design life), $2.2M/day production loss, $25K-$80K per inspection campaign due to rope access / scaffold / ROV deployment cost.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Atlantis NDT digital twin deployment: $400,000/year platform license (heavier than onshore due to subsea, turret, and hull modeling complexity), $50,000 one-time onboarding. 5-year cost: $2.0M.
+              Atlantis NDT digital twin deployment: annual platform licence scoped above the onshore case (subsea, turret and hull modelling complexity), plus one-time onboarding. Quote on request.
             </p>
             <ul className="space-y-2 text-slate-700 text-lg mb-6 list-disc list-inside">
               <li><strong>Avoided downtime:</strong> 1 unplanned shutdown event/year × 3 days × $2.2M = $6.6M/year × 5 = <span className="text-cyan-700 font-semibold">$33M</span></li>
@@ -174,7 +174,7 @@ export default function DigitalTwinROICalculatorExamples2026() {
               Asset profile: 800-mile high-pressure natural-gas transmission pipeline, 30-year asset age, 4 historical dig excavations per year at $180K each, MFL + ultrasonic ILI runs every 5 years.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Atlantis NDT digital twin deployment: $300,000/year platform license (lighter than offshore but adds CP monitoring and ILI data fusion modules), 5-year cost: $1.5M.
+              Atlantis NDT digital twin deployment: annual platform licence scoped below the offshore case, adding CP monitoring and ILI data-fusion modules. Quote on request.
             </p>
             <ul className="space-y-2 text-slate-700 text-lg mb-6 list-disc list-inside">
               <li><strong>Avoided unnecessary dig excavations:</strong> ILI data fusion identifies false positives and prioritizes real anomalies; 4 avoided digs/year × $180K = $720K/year × 5 = <span className="text-cyan-700 font-semibold">$3.6M</span></li>
@@ -191,7 +191,7 @@ export default function DigitalTwinROICalculatorExamples2026() {
               Asset profile: 700 MW combined-cycle gas turbine plant (2× 220 MW GT + 1× 260 MW ST with two HRSGs), 12-year-old plant, 5-7 forced outages per year historically driven by HRSG tube failures, $35,000/hour lost generation revenue.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Atlantis NDT digital twin deployment: $250,000/year platform license including HRSG creep-fatigue analysis module, 5-year cost: $1.25M.
+              Atlantis NDT digital twin deployment: annual platform licence including the HRSG creep-fatigue analysis module. Quote on request.
             </p>
             <ul className="space-y-2 text-slate-700 text-lg mb-6 list-disc list-inside">
               <li><strong>Avoided forced outages:</strong> 3 forced outages/year avoided × 18 hours × $35K = $1.89M/year × 5 = <span className="text-cyan-700 font-semibold">$9.5M</span></li>

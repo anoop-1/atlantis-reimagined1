@@ -34,7 +34,7 @@ export default function VsBentleyAssetwise() {
                       {
                                 "dim": "TCO Year 1",
                                 "atlantis": "Contact for pricing",
-                                "competitor": "enterprise tier-$800K (license + Bentley services)"
+                                "competitor": "enterprise-tier licensing plus Bentley services"
                       },
                       {
                                 "dim": "Implementation time",
@@ -108,7 +108,7 @@ export default function VsBentleyAssetwise() {
             faqs={[
                       {
                                 "question": "Is Atlantis cheaper than Bentley AssetWise for a mid-size inspection company?",
-                                "answer": "Yes — typically 3-5x lower TCO for industrial inspection use cases. Bentley for a 50-100 user industrial inspection company lands at enterprise tier-$400K/year. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
+                                "answer": "Yes — typically 3-5x lower TCO for industrial inspection use cases. Bentley for a 50-100 user industrial inspection company lands in enterprise-tier licensing territory. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Can Atlantis integrate with Bentley AssetWise?",

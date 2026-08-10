@@ -41,6 +41,7 @@ import { applyConsolidation } from './consolidation-2026-08.mjs';
 import { applyMethodCityDepth, assertNoPricesInMethodCityDepth } from './method-city-depth.mjs';
 import { applyTrainingCityIntl, assertNoPricesInTrainingIntl } from './training-city-intl.mjs';
 import { applyErpUsMarketDepth, assertErpUsNoNumbers } from './erp-us-market-depth.mjs';
+import { applyErpUsCityTexture, assertCityTextureClean } from './erp-us-city-texture-2026-08-09.mjs';
 import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boost-2026-08-06.mjs';
 import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth-2026-08-06.mjs';
 import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-06.mjs';
@@ -688,6 +689,17 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // provider companies on /ndt-erp-{city} US pages. No numerals outside
     // standards designations (assert), no pricing.
     erpUs: (assertErpUsNoNumbers(), applyErpUsMarketDepth(routes, append)),
+    // 2026-08-09: the 11 US ERP city pages that received market depth above but
+    // STILL failed the similarity gate, because that script shares one ERP-fit
+    // block per market TYPE and same-type US cities collide on it
+    // (chicago↔detroit 0.756). Adds genuine per-metro operating texture so the
+    // real differences stop being masked. Must run AFTER applyErpUsMarketDepth.
+    // The other 49 noindexed ERP pages are deliberately NOT touched — they have
+    // no per-city research and belong behind the gate (see that module's header).
+    erpUsTexture: ((() => {
+      const problems = assertCityTextureClean();
+      if (problems.length) throw new Error(`erp-us-city-texture: ${problems.join('; ')}`);
+    })(), applyErpUsCityTexture(routes, append)),
     // USA head-term boost: additive sections on the pages that OWN the target
     // queries (ndt reporting software p9, inspection software, api 653 tank
     // companies, asnt nationwide contracts).

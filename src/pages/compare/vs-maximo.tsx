@@ -9,9 +9,9 @@ export default function VsMaximo() {
             competitorVendor="IBM"
             competitorUrl="https://www.ibm.com/products/maximo"
             metaTitle="Atlantis NDT ERP vs IBM Maximo 2026 — Honest TCO, Features & When Maximo Wins"
-            metaDescription="IBM Maximo Application Suite vs Atlantis NDT ERP: tier-1 EAM vs NDT-native ERP. enterprise tier–$1M Maximo vs affordable, accessible, fully customizable Atlantis SaaS, MAS Health/Predict, mobile, API 510/570/653, RBI. When each platform actually wins for inspection companies."
+            metaDescription="IBM Maximo Application Suite vs Atlantis NDT ERP: tier-1 EAM vs NDT-native ERP. enterprise-tier licensing Maximo vs affordable, accessible, fully customizable Atlantis SaaS, MAS Health/Predict, mobile, API 510/570/653, RBI. When each platform actually wins for inspection companies."
             keywords="ibm maximo alternative, atlantis ndt erp vs maximo, maximo for ndt, mas health ndt, ibm maximo comparison, maximo vs ndt erp, maximo inspection module, mas inspection"
-            intro="IBM Maximo Application Suite (MAS) is genuinely tier-1 enterprise asset management software with a 35-year refinery, utility, transit and defense reference base. If your parent organization is a super-major and Maximo is already the system of record, you should not rip it out. The honest read is that Atlantis NDT ERP wins for pure-play inspection companies under $200M revenue where Maximo's enterprise tier–$1M annual license, 6–18 month implementation cycle, and generic inspection module are a poor fit — and Maximo wins everywhere else."
+            intro="IBM Maximo Application Suite (MAS) is genuinely tier-1 enterprise asset management software with a 35-year refinery, utility, transit and defense reference base. If your parent organization is a super-major and Maximo is already the system of record, you should not rip it out. The honest read is that Atlantis NDT ERP wins for pure-play inspection companies under $200M revenue where Maximo's enterprise-tier licensing annual license, 6–18 month implementation cycle, and generic inspection module are a poor fit — and Maximo wins everywhere else."
             competitorWinsTitle="When IBM Maximo is the right choice"
             competitorWinsLead="Maximo is the right answer in five common situations. We have lost deals to all of them, and we agree with the buyer when we do."
             competitorWins={[
@@ -31,7 +31,7 @@ export default function VsMaximo() {
                 "You want native API 510/570/653 inspection scheduling, API 581 RBI, API 579 FFS, and operator template libraries (Saudi Aramco SAEP, ADNOC ACS, Petronas PTS) out of the box.",
             ]}
             comparisonRows={[
-                { dim: "Total cost of ownership (Year 1)", atlantis: "Affordable SaaS — quote on request", competitor: "enterprise tier–$1M+ (MAS license + implementation services)" },
+                { dim: "Total cost of ownership (Year 1)", atlantis: "Affordable SaaS — quote on request", competitor: "enterprise-tier licensing (MAS license + implementation services)" },
                 { dim: "Implementation time", atlantis: "30–90 days configuration-led", competitor: "6–18 months typical enterprise rollout" },
                 { dim: "NDT-native features (ASNT cert, ASME V, API 510/570/653)", atlantis: "Pre-configured out of the box", competitor: "Generic inspection module; deep NDT typically requires Maximo Health + custom Z-app build" },
                 { dim: "Industry configs (NDT, calibration lab, welding, marine survey)", atlantis: "12 inspection vertical configs pre-loaded", competitor: "Maximo Oil & Gas, Utilities, Transportation industry solutions; not NDT-specific" },

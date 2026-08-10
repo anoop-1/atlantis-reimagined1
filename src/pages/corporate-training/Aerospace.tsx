@@ -29,10 +29,10 @@ const config: VerticalConfig = {
       { role: "Nadcap audit lead / Quality engineer", progression: "Level II foundation in dominant method + Nadcap AC7114 procedure-writing workshop", coreMethods: "Method of choice + procedures", hoursTotal: "120–160 instructor-led + audit shadow" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,800–$3,400 per head", notes: "Aerospace per-head premium reflects NAS 410 hours, customer-specific written practice integration, and exam complexity." },
-      { headcount: "25–49 engineers", perHead: "$1,500–$2,900 per head", notes: "Multi-method tracks across composite + engine + structures." },
-      { headcount: "50–99 engineers", perHead: "$1,300–$2,500 per head", notes: "Dedicated NAS 410 Level III on-site for the duration; Nadcap audit prep included." },
-      { headcount: "100+ engineers", perHead: "POA — typically $1,050–$2,100 per head", notes: "Multi-site OEM/MRO contract, customer-specific BAC / AITM bridging modules included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Aerospace per-head premium reflects NAS 410 hours, customer-specific written practice integration, and exam complexity." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across composite + engine + structures." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Dedicated NAS 410 Level III on-site for the duration; Nadcap audit prep included." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-site OEM/MRO contract, customer-specific BAC / AITM bridging modules included." },
    ],
    deliveryNote:
       "Aerospace cohorts skew on-site for any practical method touching CFRP, GFRP, engine components, or fastener-hole inspection — the reference standards and customer-specific essential variables are too sensitive to ship. LMS handles theory and recurrent NAS 410 written-practice refreshers. Hybrid is the norm for multi-site OEMs with both airframe and engine sites.",

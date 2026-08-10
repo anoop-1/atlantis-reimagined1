@@ -62,8 +62,7 @@ const structuredData = {
     "Interactive 6-step quiz that recommends the best NDT method for your inspection scenario based on material, defect type, access, governing code, priority, and volume.",
   offers: {
     "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD"
+    availability: "https://schema.org/InStock"
   },
   publisher: {
     "@type": "Organization",

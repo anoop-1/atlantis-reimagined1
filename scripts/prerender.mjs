@@ -281,19 +281,19 @@ const CTR_OVERRIDES = {
     description: 'NDT salaries 2026 verified by state (US), method premium (PAUT +18%, RT +8%), industry (aerospace +22%, oil & gas +14%). OT averages, sign-on bonuses, contractor day-rates.'
   },
   '/consulting/ndt-consulting-level-iii': {
-    title: 'ASNT Level III Consulting 2026: $1,500–$3,500/day Independent Approval',
-    description: 'Independent ASNT Level III consulting: written-practice authoring, procedure approval, audit support (ADNOC, Aramco, QatarEnergy, NRC). $1,500-$3,500/day depending on method + travel. Free 30-min discovery call.'
+    title: 'ASNT Level III Consulting 2026: Independent Written-Practice + Procedure Approval',
+    description: 'Independent ASNT Level III consulting: written-practice authoring, procedure approval, audit support (ADNOC, Aramco, QatarEnergy, NRC). Scoped per method + travel. Free 30-min discovery call, quote on request.'
   },
   '/magnetic-particle-testing-singapore': {
-    title: 'Magnetic Particle Testing Singapore 2026: ISO 9712 + ASNT, $400/day, Same-Week Mobilisation',
+    title: 'Magnetic Particle Testing Singapore 2026: ISO 9712 + ASNT, Same-Week Mobilisation',
     description: 'MT inspection services in Singapore — ASNT Level II + ISO 9712 certified, AC/DC yokes, fluorescent + visible particles. Same-week mobilisation across Jurong, Tuas, Sembawang. ISO 9934 compliant.'
   },
   '/penetrant-testing-singapore': {
-    title: 'Penetrant Testing Singapore 2026: ASTM E1417 + ISO 3452, $350/day, ASNT Level II',
+    title: 'Penetrant Testing Singapore 2026: ASTM E1417 + ISO 3452, ASNT Level II',
     description: 'PT (dye penetrant) inspection in Singapore: solvent-removable, water-washable, post-emulsifiable. ASTM E1417 / ISO 3452-1 compliant. Same-week deployment Jurong/Tuas/Sembawang.'
   },
   '/radiographic-testing-singapore': {
-    title: 'Radiographic Testing Singapore 2026: Ir-192/Se-75/X-Ray, NEA-Licensed, $600–$1500/day',
+    title: 'Radiographic Testing Singapore 2026: Ir-192/Se-75/X-Ray, NEA-Licensed, ASME V',
     description: 'RT inspection Singapore — Ir-192, Se-75, X-ray. NEA radiation license, ASME V/AWS D1.1/ISO 17636 compliant. Pipeline, pressure vessel, structural welds across Jurong/Tuas/Sembawang.'
   },
   '/ndt-training-usa': {
@@ -8889,7 +8889,7 @@ const corePages = [
   {
     path: '/ndt-training',
     title: 'NDT Training & Certification 2026: UT, RT, MT, PT, VT, ET',
-    description: 'ASNT Level I/II/III training across 6 NDT methods + PAUT/TOFD. Online, onsite, blended. $800–$3,000 per course. 91% first-attempt pass rate.',
+    description: 'ASNT Level I/II/III training across 6 NDT methods + PAUT/TOFD. Online, onsite, blended. 91% first-attempt pass rate. Quote on request.',
     bodyH1: 'NDT Training & Certification 2026',
     bodyText: 'Pillar hub for NDT training — six ASNT methods (UT, RT, MT, PT, VT, ET) across Level I, II, and III. SNT-TC-1A, ACCP, and ISO 9712 pathways. Online, onsite, and blended delivery in Houston, Dubai, Hyderabad, and Riyadh. 91% first-attempt pass rate, 1,200+ graduates since 2018.',
   },
@@ -11651,7 +11651,7 @@ const faqSchemas = {
     "@type": "FAQPage",
     "mainEntity": [
       { "@type": "Question", "name": "What does an NDT Level III consultant do?", "acceptedAnswer": { "@type": "Answer", "text": "An ASNT NDT Level III consultant develops and approves NDT procedures, qualifies personnel, interprets codes and standards (ASME, API, AWS), performs technical audits, and serves as the technical authority for NDT programs. They can also provide expert witness services." }},
-      { "@type": "Question", "name": "How much does NDT consulting cost?", "acceptedAnswer": { "@type": "Answer", "text": "NDT consulting rates vary by project scope. Level III day rates typically range from $1,200-$2,500/day depending on method, industry (aerospace vs oil & gas), and location. Procedure development packages start from $3,000. Contact Atlantis NDT for a free quote." }},
+      { "@type": "Question", "name": "How much does NDT consulting cost?", "acceptedAnswer": { "@type": "Answer", "text": "NDT consulting rates vary by project scope. Level III day rates typically range from $1,200-$2,500/day depending on method, industry (aerospace vs oil & gas), and location. Procedure development is scoped per package. Contact Atlantis NDT for a free quote." }},
       { "@type": "Question", "name": "What industries need NDT consulting?", "acceptedAnswer": { "@type": "Answer", "text": "Oil & gas (refineries, pipelines, offshore), aerospace (aircraft, engines, composites), power generation (turbines, boilers), nuclear, marine, manufacturing, and infrastructure all require NDT consulting for code compliance and asset integrity." }},
       { "@type": "Question", "name": "What is SNT-TC-1A compliance?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT SNT-TC-1A is the recommended practice for qualifying and certifying NDT personnel. Compliance means your written practice, training hours, examination requirements, and personnel records meet ASNT guidelines — which most industry codes require." }}
     ]

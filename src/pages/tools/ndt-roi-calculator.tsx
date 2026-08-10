@@ -67,8 +67,7 @@ const structuredData = {
     "Calculate the return on investment from switching to risk-based inspection (RBI) vs traditional time-based inspection. Compare annual costs, failure prevention, and 5-year cumulative savings.",
   offers: {
     "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD"
+    availability: "https://schema.org/InStock"
   },
   publisher: {
     "@type": "Organization",

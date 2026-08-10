@@ -39,7 +39,7 @@ export default function NdtErpIntegrationMatrix() {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
         description: 'NDT ERP with 10+ native integrations to SAP S/4HANA, Oracle Fusion, IBM Maximo, Microsoft Dynamics 365, QuickBooks, Xero, HubSpot, Salesforce, Zapier, and custom REST/GraphQL.',
-        offers: { '@type': 'Offer', price: '15000', priceCurrency: 'USD' },
+        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
       },
       {

@@ -39,7 +39,7 @@ export default function NdtErpImplementationTimeline() {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web, iOS, Android',
         description: 'Purpose-built NDT ERP with 30/60/90-day go-live implementation methodology. Proven across 100+ inspection company deployments.',
-        offers: { '@type': 'Offer', price: '15000', priceCurrency: 'USD' },
+        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
       },
       {

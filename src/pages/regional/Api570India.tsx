@@ -27,7 +27,7 @@ const examCenters = [
 const costBreakdown = [
     { item: "API 570 exam fee (member)", inr: "₹60,000 – ₹65,000", usd: "~$730", note: "Paid in USD; same fee structure as API 510 / 653" },
     { item: "API 570 exam fee (non-member)", inr: "₹78,000 – ₹85,000", usd: "~$930", note: "API membership ~$185/yr — worth it for 2+ certs" },
-    { item: "5-day classroom prep (India)", inr: "₹35,000 – ₹85,000", usd: "$420 – $1,025", note: "Atlantis NDT, ARC, IIW, Quality Austria" },
+    { item: "5-day classroom prep (India)", inr: "Quote on request", usd: "Quote on request", note: "Atlantis NDT, ARC, IIW, Quality Austria" },
     { item: "Online self-paced prep", inr: "₹15,000 – ₹35,000", usd: "$180 – $420", note: "Recorded video + B31.3 walkthrough + mock exams" },
     { item: "Code books (incl. ASME B31.3)", inr: "₹45,000 – ₹1,00,000", usd: "$540 – $1,200", note: "B31.3 is the heavyweight; B16.5 flange tables included" },
     { item: "Re-take exam fee", inr: "₹42,000 – ₹50,000", usd: "$510 – $605", note: "Discounted within 6 months of failed attempt" },
@@ -73,13 +73,6 @@ export default function Api570India() {
                 "audience": { "@type": "BusinessAudience", "audienceType": "Piping inspectors, refinery / petrochemical / EPC candidates" },
                 "offers": {
                     "@type": "Offer",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "INR",
-                        "minPrice": "35000",
-                        "maxPrice": "85000",
-                        "unitText": "5-day classroom training (per participant)"
-                    },
                     "availability": "https://schema.org/InStock"
                 }
             },

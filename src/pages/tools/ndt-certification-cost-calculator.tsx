@@ -48,8 +48,7 @@ const structuredData = {
     "Calculate the true cost of NDT certification including exam fees, training, materials, and travel. Compare ASNT, ISO 9712, and API certifications with 5-year ROI projection.",
   offers: {
     "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD"
+    availability: "https://schema.org/InStock"
   },
   publisher: {
     "@type": "Organization",

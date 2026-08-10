@@ -177,8 +177,7 @@ export const ERPSoftwareCityPage: React.FC<ERPSoftwareCityPageProps> = ({ pageTy
     },
     offers: {
       "@type": "Offer",
-      priceCurrency: "USD",
-      price: "Contact for pricing",
+      availability: "https://schema.org/InStock",
       url: canonical
     }
   };

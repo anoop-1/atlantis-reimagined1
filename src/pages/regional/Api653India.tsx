@@ -27,7 +27,7 @@ const examCenters = [
 const costBreakdown = [
     { item: "API 653 exam fee (member)", inr: "₹60,000 – ₹65,000", usd: "~$730", note: "Paid in USD; same fee schedule as API 510 / 570" },
     { item: "API 653 exam fee (non-member)", inr: "₹78,000 – ₹85,000", usd: "~$930", note: "API membership ~$185/yr useful for multi-cert candidates" },
-    { item: "5-day classroom prep (India)", inr: "₹35,000 – ₹85,000", usd: "$420 – $1,025", note: "Atlantis NDT, ARC, IIW, Quality Austria, regional providers" },
+    { item: "5-day classroom prep (India)", inr: "Quote on request", usd: "Quote on request", note: "Atlantis NDT, ARC, IIW, Quality Austria, regional providers" },
     { item: "Online self-paced prep", inr: "₹15,000 – ₹35,000", usd: "$180 – $420", note: "Recorded video + Appendix C walkthrough + mock exams" },
     { item: "Code books (10 codes incl. API 650)", inr: "₹50,000 – ₹1,10,000", usd: "$600 – $1,325", note: "API 650/651/652/653/571/579 + ASME V/VIII/IX — heaviest stack" },
     { item: "Re-take exam fee", inr: "₹42,000 – ₹50,000", usd: "$510 – $605", note: "Discounted within 6 months of failed attempt" },
@@ -75,13 +75,6 @@ export default function Api653India() {
                 "audience": { "@type": "BusinessAudience", "audienceType": "Storage tank inspectors, terminal / refinery / LNG candidates" },
                 "offers": {
                     "@type": "Offer",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "INR",
-                        "minPrice": "35000",
-                        "maxPrice": "85000",
-                        "unitText": "5-day classroom training (per participant)"
-                    },
                     "availability": "https://schema.org/InStock"
                 }
             },

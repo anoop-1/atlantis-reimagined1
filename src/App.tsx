@@ -236,6 +236,16 @@ const WeldInspection = lazy(() => import("./pages/weld-inspection"));
 const AcousticEmissionTesting = lazy(() => import("./pages/acoustic-emission-testing"));
 const MagneticFluxLeakageTesting = lazy(() => import("./pages/magnetic-flux-leakage-testing"));
 const NDTTechnicianSalary = lazy(() => import("./pages/ndt-technician-salary"));
+// 2026-08-09 — level/role-specific salary landing pages. The US salary cluster
+// is 2,304 impressions across 177 queries returning 5 clicks, because they all
+// funnel into one global guide at position ~9. See src/data/salary-level-pages.ts.
+const NdtLevel1Salary = lazy(() => import("./pages/ndt-level-1-salary"));
+const NdtLevel2Salary = lazy(() => import("./pages/ndt-level-2-salary"));
+const NdtLevel3Salary = lazy(() => import("./pages/ndt-level-3-salary"));
+const NdtInspectorSalary = lazy(() => import("./pages/ndt-inspector-salary"));
+// 2026-08-09 — national "near me" hub. 883 US impressions were resolving to
+// /ndt-training-denver at position 45-90 because no national page existed.
+const NdtTrainingNearMe = lazy(() => import("./pages/ndt-training-near-me"));
 const NDTMethodsComparison = lazy(() => import("./pages/ndt-methods-comparison"));
 const NDTCertificationGuide = lazy(() => import("./pages/ndt-certification-guide"));
 // Tools
@@ -2997,6 +3007,11 @@ const App = () => (
                   <Route path="/acoustic-emission-testing" element={<LazyRoute Component={AcousticEmissionTesting} />} />
                   <Route path="/magnetic-flux-leakage-testing" element={<LazyRoute Component={MagneticFluxLeakageTesting} />} />
                   <Route path="/ndt-technician-salary" element={<LazyRoute Component={NDTTechnicianSalary} />} />
+                  <Route path="/ndt-level-1-salary" element={<LazyRoute Component={NdtLevel1Salary} />} />
+                  <Route path="/ndt-level-2-salary" element={<LazyRoute Component={NdtLevel2Salary} />} />
+                  <Route path="/ndt-level-3-salary" element={<LazyRoute Component={NdtLevel3Salary} />} />
+                  <Route path="/ndt-inspector-salary" element={<LazyRoute Component={NdtInspectorSalary} />} />
+                  <Route path="/ndt-training-near-me" element={<LazyRoute Component={NdtTrainingNearMe} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />

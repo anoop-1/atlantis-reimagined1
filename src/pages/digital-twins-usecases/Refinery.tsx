@@ -83,7 +83,7 @@ export default function RefineryUseCase() {
                     <h2>ROI in real numbers</h2>
                     <p>For a single-site refinery with 25,000 CMLs across 3 process units, typical Atlantis Digital Twin enterprise deployment (affordable, accessible, fully customizable SaaS &mdash; quote on request) pays back through:</p>
                     <ul>
-                        <li><strong>Avoided unplanned downtime:</strong> 1–3 events/year averted at enterprise tier–$2M each = $1M–$3M/yr value.</li>
+                        <li><strong>Avoided unplanned downtime:</strong> 1–3 events/year averted at major-incident scale each = $1M–$3M/yr value.</li>
                         <li><strong>Inspection labor reduction:</strong> 15–25% of $2M–$5M/yr inspection cost = $300K–$1.25M/yr.</li>
                         <li><strong>Turnaround scope optimization:</strong> 5–15% turnaround cost reduction × $20M–$80M turnaround = $1M–$12M every 4–5 years.</li>
                         <li><strong>Insurance &amp; regulatory:</strong> Defensible integrity program cuts insurance premiums and regulatory friction (PHMSA, EPA, OSHA PSM compliance).</li>

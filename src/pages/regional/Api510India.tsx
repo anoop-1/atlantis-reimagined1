@@ -27,7 +27,7 @@ const examCenters = [
 const costBreakdown = [
     { item: "API 510 exam fee (member)", inr: "₹60,000 – ₹65,000", usd: "~$730", note: "Paid directly to API in USD; Indian membership ~$185/yr" },
     { item: "API 510 exam fee (non-member)", inr: "₹78,000 – ₹85,000", usd: "~$930", note: "Add API membership separately if planning multiple certs" },
-    { item: "5-day classroom prep (India)", inr: "₹35,000 – ₹85,000", usd: "$420 – $1,025", note: "Atlantis NDT, ARC, Indian Institute of Welding, Quality Austria" },
+    { item: "5-day classroom prep (India)", inr: "Quote on request", usd: "Quote on request", note: "Atlantis NDT, ARC, Indian Institute of Welding, Quality Austria" },
     { item: "Online self-paced prep", inr: "₹15,000 – ₹35,000", usd: "$180 – $420", note: "Recorded video + PDF + mock exams; 12-month access" },
     { item: "Code books (printed set)", inr: "₹40,000 – ₹95,000", usd: "$480 – $1,150", note: "Imported from API USA via local distributors; can be shared" },
     { item: "Re-take exam fee", inr: "₹42,000 – ₹50,000", usd: "$510 – $605", note: "Discounted for failed first attempt within 6 months" },
@@ -72,13 +72,6 @@ export default function Api510India() {
                 "audience": { "@type": "BusinessAudience", "audienceType": "Pressure vessel inspectors, refinery & petrochemical inspectors" },
                 "offers": {
                     "@type": "Offer",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "INR",
-                        "minPrice": "35000",
-                        "maxPrice": "85000",
-                        "unitText": "5-day classroom training (per participant)"
-                    },
                     "availability": "https://schema.org/InStock"
                 }
             },

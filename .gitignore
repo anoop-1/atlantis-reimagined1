@@ -41,3 +41,6 @@ scripts/gsc-accounts/*.json
 !scripts/gsc-accounts/README.md
 /atlantis-gsc-*.json
 /*gsc*.json
+
+# Raw GSC deep-dive pulls (regenerable, multi-MB) — commit the summary instead
+scripts/us-deepdive-2026-08-09.json

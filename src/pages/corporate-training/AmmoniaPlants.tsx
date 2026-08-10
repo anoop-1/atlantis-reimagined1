@@ -31,10 +31,10 @@ const config: VerticalConfig = {
       { role: "Authorised Pressure-Vessel Inspector candidate (API 510)", progression: "Level II UT + RT prerequisite, then API 510 prep + exam", coreMethods: "UT, RT + API 510 body of knowledge", hoursTotal: "140–180 instructor-led + 5-day API 510 prep" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,350–$2,500 per head", notes: "Standard methods + reformer-specific module + API 510 prep." },
-      { headcount: "25–49 engineers", perHead: "$1,150–$2,200 per head", notes: "Multi-method tracks across reformers + synthesis loop + urea." },
-      { headcount: "50–99 engineers", perHead: "$980–$1,950 per head", notes: "Multi-site ammonia operator programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $820–$1,650 per head", notes: "Multi-asset annual contract; reformer-specific written-practice bridging included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard methods + reformer-specific module + API 510 prep." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across reformers + synthesis loop + urea." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site ammonia operator programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-asset annual contract; reformer-specific written-practice bridging included." },
    ],
    deliveryNote:
       "Ammonia plant cohorts are dominated by hybrid delivery, with reformer-integrity practicals running as a separate on-site workshop during planned outages. Theory on the LMS during the build-up to a turnaround; practicals on-site in the 2–4 weeks before shutdown; reformer LOTIS / ECT / replication workshops scheduled to coincide with reformer tube-pull events. AWS D1.1 + B31.3 + ASME VIII inspection is delivered on the operator's own coupons and weld test plates so essential-variable transfer is genuine.",

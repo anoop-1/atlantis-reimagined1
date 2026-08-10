@@ -31,10 +31,10 @@ const config: VerticalConfig = {
       { role: "Wayside / On-Line Surveillance Engineer", progression: "Level II UT + acoustic emission + ECT for wheel surveillance", coreMethods: "UT, AE, ECT", hoursTotal: "160–200 instructor-led + wayside shadow" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,200–$2,400 per head", notes: "Standard methods + rail-specific written practice + EN 14587 / EN 13261 module." },
-      { headcount: "25–49 engineers", perHead: "$1,050–$2,100 per head", notes: "Multi-method tracks across track + wheelset + rolling stock." },
-      { headcount: "50–99 engineers", perHead: "$900–$1,850 per head", notes: "Multi-depot operator programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $750–$1,600 per head", notes: "Multi-region infrastructure-manager annual contract; operator-specific written-practice bridging included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard methods + rail-specific written practice + EN 14587 / EN 13261 module." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across track + wheelset + rolling stock." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-depot operator programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-region infrastructure-manager annual contract; operator-specific written-practice bridging included." },
    ],
    deliveryNote:
       "Rail cohorts are dominated by hybrid delivery, with on-track and wayside practicals run as separate workshops during pre-planned possession windows. Theory on the LMS during the planning quarter, wheelset shop practicals at the operator's own depot, on-track UT data-interpretation sessions on actual rail surveillance data sets supplied under NDA by the customer. EN 14730 aluminothermic-weld practicals run on the customer's spec rail in a controlled welding bay so essential-variable transfer is genuine.",

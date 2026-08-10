@@ -108,7 +108,7 @@ export default function VsGeVernovaApm() {
             faqs={[
                       {
                                 "question": "Is Atlantis cheaper than GE Vernova APM for a mid-size inspection company?",
-                                "answer": "Yes — typically 4-8x lower TCO. GE Vernova for a 50-100 user inspection consultancy lands at enterprise tier-$450K/year plus $300K-$700K implementation. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
+                                "answer": "Yes — typically 4-8x lower TCO. GE Vernova for a 50-100 user inspection consultancy lands in enterprise-tier licensing territory, plus a substantial separate implementation engagement. Atlantis is an affordable SaaS with a much lower onboarding spend — pricing varies by region and scope, so contact us for a tailored quote."
                       },
                       {
                                 "question": "Does Atlantis integrate with GE Vernova APM if we want to keep both?",

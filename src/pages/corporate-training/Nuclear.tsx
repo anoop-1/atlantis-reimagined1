@@ -30,10 +30,10 @@ const config: VerticalConfig = {
       { role: "Decommissioning Characterisation Inspector", progression: "Level II UT + RT + radiation safety bridging", coreMethods: "UT, RT, characterisation methods", hoursTotal: "180–240 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$2,400–$4,200 per head", notes: "Nuclear premium reflects CP-189 documentation overhead, PDI prep, and ASME XI specificity." },
-      { headcount: "25–49 engineers", perHead: "$2,000–$3,800 per head", notes: "Multi-method outage-readiness cohorts; includes EPRI guideline mapping." },
-      { headcount: "50–99 engineers", perHead: "$1,750–$3,400 per head", notes: "Dedicated Level III on-site for the duration; PDI demonstration coordination." },
-      { headcount: "100+ engineers", perHead: "POA — typically $1,500–$2,900 per head", notes: "Utility-wide multi-station programme, NQA-1 compliant training records, regulator-ready evidence pack." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Nuclear premium reflects CP-189 documentation overhead, PDI prep, and ASME XI specificity." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method outage-readiness cohorts; includes EPRI guideline mapping." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Dedicated Level III on-site for the duration; PDI demonstration coordination." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Utility-wide multi-station programme, NQA-1 compliant training records, regulator-ready evidence pack." },
    ],
    deliveryNote:
       "Nuclear cohorts run almost exclusively on-site or at qualified training facilities — radiation-controlled work, PDI demonstration coupons, and the QA program require a controlled environment that cannot be replicated through pure LMS delivery. LMS handles theory and recurrent CP-189 written-practice refreshers. Hybrid is standard, with on-site practicals scheduled around outage windows so engineers are current when the unit comes down.",

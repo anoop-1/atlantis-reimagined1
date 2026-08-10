@@ -96,7 +96,7 @@ export default function NdtErpRoiCalculator() {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
         description: 'Interactive ROI calculator for NDT ERP investment. Model report labor savings, admin overhead reduction, and payback period for your inspection business.',
-        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
       },
       {

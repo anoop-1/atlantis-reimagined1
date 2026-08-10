@@ -31,10 +31,10 @@ const config: VerticalConfig = {
       { role: "PAUT / TOFD Specialist", progression: "Level II UT prerequisite → PAUT Level II → TOFD Level II → optional Level III", coreMethods: "PAUT, TOFD, ECA", hoursTotal: "160–200 instructor-led + applied scans on coupons" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,250–$2,400 per head", notes: "Standard methods (UT/MT/PT/VT), Level I or II, on-site or LMS, exams included." },
-      { headcount: "25–49 engineers", perHead: "$1,050–$2,100 per head", notes: "Add RT, PAUT, or API inspector prep. On-site delivery typically optimal." },
-      { headcount: "50–99 engineers", perHead: "$880–$1,750 per head", notes: "Multi-cohort scheduling across turnarounds, dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $720–$1,500 per head", notes: "Multi-site annual contract, named programme manager, quarterly governance review." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard methods (UT/MT/PT/VT), Level I or II, on-site or LMS, exams included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Add RT, PAUT, or API inspector prep. On-site delivery typically optimal." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-cohort scheduling across turnarounds, dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-site annual contract, named programme manager, quarterly governance review." },
    ],
    deliveryNote:
       "Oil &amp; gas cohorts are dominated by hybrid delivery. Theory is delivered on the LMS during the build-up to a turnaround; practicals run on-site in the 2–4 weeks before shutdown so engineers are current when the unit comes down. Pure on-site is reserved for radiography (regulatory licensing, source storage) and PAUT calibration on owner-specific specimens.",

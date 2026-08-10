@@ -330,8 +330,6 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
         url: canonicalUrl,
         offers: {
           "@type": "Offer",
-          price: "Contact for pricing",
-          priceCurrency: "USD",
           availability: "https://schema.org/InStock"
         },
         aggregateRating: {

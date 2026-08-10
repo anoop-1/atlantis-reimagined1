@@ -30,10 +30,10 @@ const config: VerticalConfig = {
       { role: "Hydroprocessing Reactor Specialist", progression: "Level II UT + PAUT + AUT, then HTHA / creep / brittle-fracture damage-mechanism workshop", coreMethods: "UT, PAUT, AUT, API 941, API 571", hoursTotal: "180–220 instructor-led + reactor-shadow week" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,400–$2,700 per head", notes: "Standard methods + damage-mechanism overlay; HTHA awareness included." },
-      { headcount: "25–49 engineers", perHead: "$1,200–$2,400 per head", notes: "Add PAUT, API 510/570 prep, API 579 Level 1/2." },
-      { headcount: "50–99 engineers", perHead: "$1,050–$2,100 per head", notes: "Multi-site programme, dedicated lead instructor, RBI rollout support." },
-      { headcount: "100+ engineers", perHead: "POA — typically $880–$1,800 per head", notes: "Multi-complex annual contract; RBI governance + FFS workflow rollout included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard methods + damage-mechanism overlay; HTHA awareness included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Add PAUT, API 510/570 prep, API 579 Level 1/2." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site programme, dedicated lead instructor, RBI rollout support." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-complex annual contract; RBI governance + FFS workflow rollout included." },
    ],
    deliveryNote:
       "Petrochemical cohorts run hybrid by default. Theory and damage-mechanism modules deliver on the LMS during the inter-turnaround quarter; PAUT, AUT, and TOFD practicals concentrate on-site immediately before turnaround. RBI workshops are run as 3-day on-site intensives with the customer's actual inspection history as the working dataset.",

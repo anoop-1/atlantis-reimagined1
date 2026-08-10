@@ -29,10 +29,10 @@ const config: VerticalConfig = {
       { role: "Quality Assurance Specialist (QAS) / Procedure Author", progression: "Level II foundation + procedure-writing workshop per NAS 410 / MIL-STD-1907", coreMethods: "Procedure writing + audit support", hoursTotal: "120–160 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,800–$3,400 per head", notes: "Defense premium reflects MIL-STD documentation overhead, customer-platform bridging, and security-cleared instructor sourcing." },
-      { headcount: "25–49 engineers", perHead: "$1,500–$2,950 per head", notes: "Multi-method depot-readiness cohorts; customer-platform written practice integration." },
-      { headcount: "50–99 engineers", perHead: "$1,300–$2,600 per head", notes: "Multi-site programme; dedicated lead instructor; audit-cycle integration." },
-      { headcount: "100+ engineers", perHead: "POA — typically $1,100–$2,250 per head", notes: "Depot-wide annual contract; cleared instructor bench; audit governance support." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Defense premium reflects MIL-STD documentation overhead, customer-platform bridging, and security-cleared instructor sourcing." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method depot-readiness cohorts; customer-platform written practice integration." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site programme; dedicated lead instructor; audit-cycle integration." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Depot-wide annual contract; cleared instructor bench; audit governance support." },
    ],
    deliveryNote:
       "Defense cohorts run on-site by default — most depot work is on cleared sites with controlled-access inspection equipment and customer-furnished specimens that cannot leave the facility. LMS handles theory and recurrent NAS 410 / MIL-STD written-practice refreshers where the content is releasable. Hybrid is standard for multi-depot commands with a centralised QA function and dispersed depot floors. Where security-cleared instructors are required we surface a cleared-bench option through partner arrangements.",

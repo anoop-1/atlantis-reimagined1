@@ -170,7 +170,7 @@ export default function NDTTrainingHouston() {
       <Navigation />
       <SEOHead
         title="NDT Training Houston 2026 — 95% Pass Rate, ASNT/API Approved, 5 Day Course | Atlantis NDT"
-        description="ASNT Level III-led NDT training in Houston. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. $1,500 per student. 95% pass rate. 500+ Gulf Coast technicians trained. Enroll: enroll@atlantisndt.com"
+        description="ASNT Level III-led NDT training in Houston. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. 95% pass rate. 500+ Gulf Coast technicians trained. Enroll: enroll@atlantisndt.com"
         keywords="NDT training Houston, ASNT certification Houston, NDT courses Houston TX, ultrasonic testing training Houston, radiographic testing Houston, pipeline inspection training, oil gas NDT Houston, Level II certification Houston, Level III NDT Houston, ndt technician training Houston"
         canonical="https://atlantisndt.com/ndt-training-houston"
         structuredData={structuredData}

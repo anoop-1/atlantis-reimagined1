@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is Inventory configured for NDT inspection companies operating in Hyderabad?", "Yes. The Inventory module is pre-loaded with consumable certification requirements per ASNT / ISO 9712 / ISNT, customer-specific approved-consumable lists from BHEL, HPCL, BDL, HAL, and AERB radiography source register requirements."],
     ["Which Hyderabad regulators does Inventory align with?", "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana State Pollution Control Board (TSPCB), CDSCO. The unusually wide industrial mix in Hyderabad is reflected in cross-sector consumable templates."],
     ["Can Hyderabad NDT inspection companies integrate Inventory with vendor-managed inventory (VMI)?", "Yes. The platform supports VMI integration with major NDE distributors (Magnaflux, Met-L-Chek, Olympus, Sonatech), enabling replenishment-before-stockout for field-NDT consumables."],
-    ["What does Inventory cost for an NDT inspection company in Hyderabad?", "Inventory is bundled inside the standard affordable, accessible (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
+    ["What does Inventory cost for an NDT inspection company in Hyderabad?", "Inventory is bundled inside the standard Atlantis NDT ERP subscription — affordable, accessible and fully customizable, quote on request. Invoicing is supported in INR or USD with daily FX update."],
     ["Does Inventory enforce ASME / ASTM shelf-life rules?", "Yes. PT penetrant 24-month, MT wet particles 36-month, RT film batch shelf-life, calibration block reflectivity 36-month — all enforced per ASME Section V Article 6 / ASTM E165 / ASTM E709."]
   ]
 } as ErpTripleCrossProps;

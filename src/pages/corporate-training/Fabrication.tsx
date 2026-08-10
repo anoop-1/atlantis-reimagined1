@@ -29,10 +29,10 @@ const config: VerticalConfig = {
       { role: "EN 1090 / ISO 3834 Compliance Lead", progression: "Level II foundation + EN 1090-2 / ISO 3834 implementation workshop", coreMethods: "EN / ISO welding QA framework", hoursTotal: "80–120 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,150–$2,300 per head", notes: "Standard shop methods + CWI / CSWIP prep available as add-on." },
-      { headcount: "25–49 engineers", perHead: "$1,000–$1,950 per head", notes: "Multi-method tracks across visual + UT + RT + procedure-qualification support." },
-      { headcount: "50–99 engineers", perHead: "$850–$1,700 per head", notes: "Multi-shop programme; dedicated lead instructor; EN 1090 / ISO 3834 implementation included." },
-      { headcount: "100+ engineers", perHead: "POA — typically $720–$1,500 per head", notes: "Multi-yard annual contract; CWI exam administration support; owner-spec bridging modules." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard shop methods + CWI / CSWIP prep available as add-on." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across visual + UT + RT + procedure-qualification support." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-shop programme; dedicated lead instructor; EN 1090 / ISO 3834 implementation included." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-yard annual contract; CWI exam administration support; owner-spec bridging modules." },
    ],
    deliveryNote:
       "Fabrication cohorts skew on-site. Shop welding QC is a hands-on discipline and the equipment, specimens, and procedure documents are all in the shop. LMS delivery is reserved for the underlying code theory (AWS D1.1, ASME IX, EN 1090) and CWI / CSWIP exam preparation. Hybrid is the norm for multi-shop fabricators with a centralised QA team and dispersed shop floors.",

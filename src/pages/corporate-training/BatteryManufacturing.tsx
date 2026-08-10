@@ -31,10 +31,10 @@ const config: VerticalConfig = {
       { role: "Electrolyte Tank + Containment Inspector", progression: "Level II UT + MT + PT for stainless / aluminium tank welds", coreMethods: "UT, MT, PT", hoursTotal: "140–180 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,300–$2,500 per head", notes: "Standard methods; battery-specific defect-library module included." },
-      { headcount: "25–49 engineers", perHead: "$1,100–$2,200 per head", notes: "Multi-method tracks across cell production + BESS." },
-      { headcount: "50–99 engineers", perHead: "$950–$1,950 per head", notes: "Multi-site gigafactory programme; dedicated lead instructor." },
-      { headcount: "100+ engineers", perHead: "POA — typically $800–$1,650 per head", notes: "Multi-gigafactory annual contract; OEM-specific written-practice bridging on request." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard methods; battery-specific defect-library module included." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across cell production + BESS." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site gigafactory programme; dedicated lead instructor." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-gigafactory annual contract; OEM-specific written-practice bridging on request." },
    ],
    deliveryNote:
       "Battery cohorts skew hybrid — theory on the LMS to manage geographically dispersed gigafactory and BESS commissioning crews, on-site practicals concentrated at the customer's own cell-production line during ramp-up phases. X-ray CT modules are delivered as separate residencies at the customer's CT lab or, where the customer does not yet have CT capability, at a partnered CT vendor facility so the essential-variable transfer is genuine and not lecture-room theoretical.",

@@ -30,10 +30,10 @@ const config: VerticalConfig = {
       { role: "Reliability / FFS Engineer", progression: "Level II foundation → API 579-1 Level 1/2 workshop → EPRI life-assessment", coreMethods: "API 579-1, EPRI life assessment, replication", hoursTotal: "120–160 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "$1,400–$2,700 per head", notes: "Standard outage methods + ASME B31.1 / Section I overlay." },
-      { headcount: "25–49 engineers", perHead: "$1,200–$2,300 per head", notes: "Add PAUT, ET array, FFS Level 1/2." },
-      { headcount: "50–99 engineers", perHead: "$1,000–$2,000 per head", notes: "Multi-station programme; dedicated lead instructor; outage scheduling integrated." },
-      { headcount: "100+ engineers", perHead: "POA — typically $850–$1,750 per head", notes: "Utility-wide annual contract; OEM-specific bridging modules; FFS workflow rollout." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard outage methods + ASME B31.1 / Section I overlay." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Add PAUT, ET array, FFS Level 1/2." },
+      { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-station programme; dedicated lead instructor; outage scheduling integrated." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Utility-wide annual contract; OEM-specific bridging modules; FFS workflow rollout." },
    ],
    deliveryNote:
       "Power generation cohorts are organised around outage windows. Theory delivers on the LMS during normal operation; practicals concentrate during planned outages so engineers train on the actual equipment they will inspect, not on substitutes. Hybrid is universal in this vertical — pure on-site is rarely affordable across a multi-station fleet.",

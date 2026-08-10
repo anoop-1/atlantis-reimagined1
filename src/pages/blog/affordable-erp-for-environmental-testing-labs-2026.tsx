@@ -46,7 +46,7 @@ export default function AffordableERPForEnvironmentalTestingLabs2026() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6">Why Environmental Labs Need ERP + LIMS in One Stack</h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Environmental laboratories run two systems in parallel: the LIMS (sample receipt, analysis, QC, results, certificate of analysis) and the ERP (quotes, customer portal, multi-currency invoicing, accounting, accreditation evidence). Major LIMS vendors (LabWare, Thermo, STARLIMS, LabVantage) are LIMS-only — driving labs to run a separate ERP at additional $20-80K/year cost. Atlantis NDT ERP bundles both in the flat affordable, accessible/year fee.
+              Environmental laboratories run two systems in parallel: the LIMS (sample receipt, analysis, QC, results, certificate of analysis) and the ERP (quotes, customer portal, multi-currency invoicing, accounting, accreditation evidence). Major LIMS vendors (LabWare, Thermo, STARLIMS, LabVantage) are LIMS-only — driving labs to run a separate ERP at additional $20-80K/year cost. Atlantis NDT ERP bundles both in one flat annual subscription fee.
             </p>
           </section>
 

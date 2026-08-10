@@ -71,8 +71,7 @@ const structuredData = {
     "Calculate material thickness using ultrasonic testing (UT) measurements. Enter sound velocity and transit time to get precise thickness in mm and inches.",
   offers: {
     "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD"
+    availability: "https://schema.org/InStock"
   },
   publisher: {
     "@type": "Organization",

@@ -44,7 +44,7 @@ export interface TrainingTrack {
 
 export interface PricingTier {
    headcount: string;    // e.g. "10–24 engineers"
-   perHead: string;      // e.g. "$1,250 per head"
+   perHead: string;      // cohort delivery model — NEVER a price (CLAUDE.md §18)
    notes: string;        // what's included
 }
 
@@ -124,8 +124,8 @@ export default function VerticalTemplate({ config }: Props) {
       "offers": config.pricing.map(p => ({
          "@type": "Offer",
          "name": `${p.headcount} cohort`,
-         "description": `${p.perHead}. ${p.notes}`,
-         "priceCurrency": "USD",
+         "description": p.notes,
+         "availability": "https://schema.org/InStock",
       })),
    };
 
@@ -290,7 +290,7 @@ export default function VerticalTemplate({ config }: Props) {
                      <thead className="bg-slate-100">
                         <tr>
                            <th className="px-4 py-3">Cohort Size</th>
-                           <th className="px-4 py-3">Per-Head Indicative Price</th>
+                           <th className="px-4 py-3">Cohort Delivery Model</th>
                            <th className="px-4 py-3">What's Included</th>
                         </tr>
                      </thead>

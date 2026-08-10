@@ -1,0 +1,3352 @@
+{
+ "generatedAt": "2026-08-09T14:47:18.237Z",
+ "windows": {
+  "w90": {
+   "startDate": "2026-05-08",
+   "endDate": "2026-08-06"
+  },
+  "w28": {
+   "startDate": "2026-07-09",
+   "endDate": "2026-08-06"
+  }
+ },
+ "note": "Compact summary of the 2026-08-09 US deep dive. Raw 5MB pull is regenerable via scripts/gsc-us-deepdive-2026-08-09.mjs and is deliberately not committed.",
+ "totals": {
+  "globalPages90": {
+   "c": 4718,
+   "i": 365805
+  },
+  "usPages90": {
+   "c": 95,
+   "i": 31699
+  },
+  "countries90": [
+   {
+    "k": [
+     "usa"
+    ],
+    "c": 886,
+    "i": 120339,
+    "pos": 15
+   },
+   {
+    "k": [
+     "ind"
+    ],
+    "c": 746,
+    "i": 38262,
+    "pos": 7.4
+   },
+   {
+    "k": [
+     "sau"
+    ],
+    "c": 219,
+    "i": 12647,
+    "pos": 8.2
+   },
+   {
+    "k": [
+     "can"
+    ],
+    "c": 173,
+    "i": 12499,
+    "pos": 10.1
+   },
+   {
+    "k": [
+     "are"
+    ],
+    "c": 272,
+    "i": 12230,
+    "pos": 11.5
+   },
+   {
+    "k": [
+     "gbr"
+    ],
+    "c": 129,
+    "i": 11947,
+    "pos": 22.7
+   },
+   {
+    "k": [
+     "sgp"
+    ],
+    "c": 102,
+    "i": 7064,
+    "pos": 16.8
+   },
+   {
+    "k": [
+     "idn"
+    ],
+    "c": 130,
+    "i": 6576,
+    "pos": 7.3
+   },
+   {
+    "k": [
+     "aus"
+    ],
+    "c": 102,
+    "i": 5919,
+    "pos": 19.2
+   },
+   {
+    "k": [
+     "mys"
+    ],
+    "c": 125,
+    "i": 5838,
+    "pos": 7.7
+   },
+   {
+    "k": [
+     "nld"
+    ],
+    "c": 20,
+    "i": 5393,
+    "pos": 12.3
+   },
+   {
+    "k": [
+     "deu"
+    ],
+    "c": 52,
+    "i": 4922,
+    "pos": 11.4
+   },
+   {
+    "k": [
+     "bra"
+    ],
+    "c": 26,
+    "i": 4769,
+    "pos": 8.1
+   },
+   {
+    "k": [
+     "zaf"
+    ],
+    "c": 100,
+    "i": 4213,
+    "pos": 8.6
+   },
+   {
+    "k": [
+     "kor"
+    ],
+    "c": 67,
+    "i": 3900,
+    "pos": 7.8
+   },
+   {
+    "k": [
+     "tha"
+    ],
+    "c": 76,
+    "i": 3888,
+    "pos": 11.1
+   },
+   {
+    "k": [
+     "phl"
+    ],
+    "c": 45,
+    "i": 3764,
+    "pos": 7.8
+   },
+   {
+    "k": [
+     "nga"
+    ],
+    "c": 109,
+    "i": 3479,
+    "pos": 6.3
+   },
+   {
+    "k": [
+     "vnm"
+    ],
+    "c": 34,
+    "i": 3364,
+    "pos": 12.9
+   },
+   {
+    "k": [
+     "qat"
+    ],
+    "c": 99,
+    "i": 3311,
+    "pos": 7.5
+   },
+   {
+    "k": [
+     "pak"
+    ],
+    "c": 62,
+    "i": 3276,
+    "pos": 8.1
+   },
+   {
+    "k": [
+     "ita"
+    ],
+    "c": 46,
+    "i": 3052,
+    "pos": 7
+   },
+   {
+    "k": [
+     "mex"
+    ],
+    "c": 31,
+    "i": 2977,
+    "pos": 7.5
+   },
+   {
+    "k": [
+     "fra"
+    ],
+    "c": 51,
+    "i": 2507,
+    "pos": 10.2
+   },
+   {
+    "k": [
+     "tur"
+    ],
+    "c": 34,
+    "i": 2117,
+    "pos": 8.8
+   }
+  ]
+ },
+ "usTopQueries90": [
+  {
+   "k": [
+    "asnt certification"
+   ],
+   "c": 0,
+   "i": 318,
+   "pos": 8.6
+  },
+  {
+   "k": [
+    "eddy current testing"
+   ],
+   "c": 0,
+   "i": 315,
+   "pos": 74.8
+  },
+  {
+   "k": [
+    "direct radiography"
+   ],
+   "c": 0,
+   "i": 223,
+   "pos": 69
+  },
+  {
+   "k": [
+    "ndt level 3 salary"
+   ],
+   "c": 3,
+   "i": 207,
+   "pos": 9.4
+  },
+  {
+   "k": [
+    "api 653"
+   ],
+   "c": 1,
+   "i": 206,
+   "pos": 39.5
+  },
+  {
+   "k": [
+    "api 653 tank inspection"
+   ],
+   "c": 0,
+   "i": 199,
+   "pos": 26.3
+  },
+  {
+   "k": [
+    "point cloud scanning louisville"
+   ],
+   "c": 0,
+   "i": 195,
+   "pos": 21.2
+  },
+  {
+   "k": [
+    "sbp.9712 pdf"
+   ],
+   "c": 0,
+   "i": 185,
+   "pos": 7.4
+  },
+  {
+   "k": [
+    "asnt level iii consulting"
+   ],
+   "c": 0,
+   "i": 181,
+   "pos": 16.8
+  },
+  {
+   "k": [
+    "radiographic testing"
+   ],
+   "c": 0,
+   "i": 168,
+   "pos": 45.5
+  },
+  {
+   "k": [
+    "ndt training near me"
+   ],
+   "c": 4,
+   "i": 159,
+   "pos": 34.3
+  },
+  {
+   "k": [
+    "ultrasonic testing"
+   ],
+   "c": 0,
+   "i": 143,
+   "pos": 73
+  },
+  {
+   "k": [
+    "api 653 certification"
+   ],
+   "c": 0,
+   "i": 138,
+   "pos": 19.5
+  },
+  {
+   "k": [
+    "api 653 tank inspection companies"
+   ],
+   "c": 0,
+   "i": 136,
+   "pos": 40.5
+  },
+  {
+   "k": [
+    "ndt inspection software"
+   ],
+   "c": 0,
+   "i": 132,
+   "pos": 27.3
+  },
+  {
+   "k": [
+    "ndt software"
+   ],
+   "c": 0,
+   "i": 130,
+   "pos": 62.1
+  },
+  {
+   "k": [
+    "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance?"
+   ],
+   "c": 0,
+   "i": 126,
+   "pos": 25.9
+  },
+  {
+   "k": [
+    "api 617"
+   ],
+   "c": 0,
+   "i": 113,
+   "pos": 9.6
+  },
+  {
+   "k": [
+    "ndt certification near me"
+   ],
+   "c": 0,
+   "i": 109,
+   "pos": 46.4
+  },
+  {
+   "k": [
+    "site:atlantisndt.com"
+   ],
+   "c": 0,
+   "i": 109,
+   "pos": 66.8
+  },
+  {
+   "k": [
+    "ndt salary level 3"
+   ],
+   "c": 0,
+   "i": 106,
+   "pos": 9.7
+  },
+  {
+   "k": [
+    "ultrasonic testing training"
+   ],
+   "c": 0,
+   "i": 104,
+   "pos": 50.2
+  },
+  {
+   "k": [
+    "ndt inspector salary"
+   ],
+   "c": 1,
+   "i": 102,
+   "pos": 9.3
+  },
+  {
+   "k": [
+    "snt-tc-1a"
+   ],
+   "c": 1,
+   "i": 101,
+   "pos": 16.9
+  },
+  {
+   "k": [
+    "api 653 inspection"
+   ],
+   "c": 0,
+   "i": 101,
+   "pos": 29.4
+  },
+  {
+   "k": [
+    "ndt reporting software"
+   ],
+   "c": 1,
+   "i": 100,
+   "pos": 13.7
+  },
+  {
+   "k": [
+    "eddy current inspection"
+   ],
+   "c": 0,
+   "i": 99,
+   "pos": 80.1
+  },
+  {
+   "k": [
+    "hull inspection"
+   ],
+   "c": 0,
+   "i": 99,
+   "pos": 61.4
+  },
+  {
+   "k": [
+    "paut equipment"
+   ],
+   "c": 0,
+   "i": 98,
+   "pos": 17.7
+  },
+  {
+   "k": [
+    "mfl corrosion inspection pipeline"
+   ],
+   "c": 0,
+   "i": 96,
+   "pos": 55
+  },
+  {
+   "k": [
+    "phased array ultrasonic testing"
+   ],
+   "c": 0,
+   "i": 96,
+   "pos": 55.2
+  },
+  {
+   "k": [
+    "asme b31.3"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 46
+  },
+  {
+   "k": [
+    "asme section v nondestructive examination ultrasonic thickness measurement"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 8.7
+  },
+  {
+   "k": [
+    "asnt certification nationwide contracts"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 17.9
+  },
+  {
+   "k": [
+    "predix digital twin"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 22.4
+  },
+  {
+   "k": [
+    "pipeline audit preparation services"
+   ],
+   "c": 0,
+   "i": 93,
+   "pos": 31.5
+  },
+  {
+   "k": [
+    "api 570"
+   ],
+   "c": 0,
+   "i": 89,
+   "pos": 21.7
+  },
+  {
+   "k": [
+    "electromagnetic testing"
+   ],
+   "c": 0,
+   "i": 86,
+   "pos": 66
+  },
+  {
+   "k": [
+    "level 2 ndt technician salary"
+   ],
+   "c": 0,
+   "i": 85,
+   "pos": 8.3
+  },
+  {
+   "k": [
+    "ndt level 3 consultant"
+   ],
+   "c": 0,
+   "i": 85,
+   "pos": 34.4
+  },
+  {
+   "k": [
+    "api tank inspection"
+   ],
+   "c": 0,
+   "i": 82,
+   "pos": 30.4
+  },
+  {
+   "k": [
+    "paut"
+   ],
+   "c": 0,
+   "i": 82,
+   "pos": 35.4
+  },
+  {
+   "k": [
+    "asnt"
+   ],
+   "c": 0,
+   "i": 81,
+   "pos": 19.8
+  },
+  {
+   "k": [
+    "ndt inspection service market"
+   ],
+   "c": 0,
+   "i": 81,
+   "pos": 62.4
+  },
+  {
+   "k": [
+    "ndt level 3 consulting services"
+   ],
+   "c": 0,
+   "i": 81,
+   "pos": 24.4
+  },
+  {
+   "k": [
+    "ship hull inspection"
+   ],
+   "c": 0,
+   "i": 80,
+   "pos": 57.7
+  },
+  {
+   "k": [
+    "liquid penetrant testing services"
+   ],
+   "c": 0,
+   "i": 79,
+   "pos": 56.4
+  },
+  {
+   "k": [
+    "ultrasonic corrosion"
+   ],
+   "c": 0,
+   "i": 79,
+   "pos": 56.9
+  },
+  {
+   "k": [
+    "eddy current ndt"
+   ],
+   "c": 0,
+   "i": 73,
+   "pos": 73.5
+  },
+  {
+   "k": [
+    "do we accept asnt ndt level iii in lieu of api qute for ut-related scopes on our turnaround contracts, or do we hold the line on qute specifically?"
+   ],
+   "c": 0,
+   "i": 71,
+   "pos": 41.8
+  },
+  {
+   "k": [
+    "corrosion under insulation pipeline inspection"
+   ],
+   "c": 0,
+   "i": 70,
+   "pos": 37
+  },
+  {
+   "k": [
+    "ndt salary level 2"
+   ],
+   "c": 0,
+   "i": 70,
+   "pos": 9.1
+  },
+  {
+   "k": [
+    "us non-destructive testing services market"
+   ],
+   "c": 0,
+   "i": 69,
+   "pos": 69.3
+  },
+  {
+   "k": [
+    "asnt snt-tc-1a"
+   ],
+   "c": 1,
+   "i": 68,
+   "pos": 5.2
+  },
+  {
+   "k": [
+    "api 510 body of knowledge 2026"
+   ],
+   "c": 0,
+   "i": 68,
+   "pos": 4.8
+  },
+  {
+   "k": [
+    "non-destructive testing services market"
+   ],
+   "c": 0,
+   "i": 68,
+   "pos": 65.5
+  },
+  {
+   "k": [
+    "crack inspection technology"
+   ],
+   "c": 0,
+   "i": 67,
+   "pos": 49.7
+  },
+  {
+   "k": [
+    "ultrasonic testing services"
+   ],
+   "c": 0,
+   "i": 67,
+   "pos": 69.1
+  },
+  {
+   "k": [
+    "surface crack detection services"
+   ],
+   "c": 0,
+   "i": 66,
+   "pos": 4.7
+  },
+  {
+   "k": [
+    "irisndt corpus christi"
+   ],
+   "c": 0,
+   "i": 65,
+   "pos": 27.2
+  },
+  {
+   "k": [
+    "ndt technician salary"
+   ],
+   "c": 0,
+   "i": 62,
+   "pos": 7.5
+  },
+  {
+   "k": [
+    "aerospace composite inspection"
+   ],
+   "c": 0,
+   "i": 61,
+   "pos": 42.1
+  },
+  {
+   "k": [
+    "lidar scanning denver"
+   ],
+   "c": 0,
+   "i": 61,
+   "pos": 27.7
+  },
+  {
+   "k": [
+    "ndt salary"
+   ],
+   "c": 0,
+   "i": 61,
+   "pos": 7.2
+  },
+  {
+   "k": [
+    "survey scanning new york"
+   ],
+   "c": 0,
+   "i": 61,
+   "pos": 40.6
+  },
+  {
+   "k": [
+    "is getting an api 510 certification still worth the time and cost in 2026, given the salary bump and the way the oil and gas inspection market is heading?"
+   ],
+   "c": 0,
+   "i": 60,
+   "pos": 22.2
+  },
+  {
+   "k": [
+    "point cloud services austin"
+   ],
+   "c": 0,
+   "i": 60,
+   "pos": 36.5
+  },
+  {
+   "k": [
+    "pro magnetic inspection program"
+   ],
+   "c": 0,
+   "i": 60,
+   "pos": 53.1
+  },
+  {
+   "k": [
+    "ultrasonic testing level 1 training"
+   ],
+   "c": 0,
+   "i": 60,
+   "pos": 60.2
+  },
+  {
+   "k": [
+    "what's the practical difference between holding an asnt ndt level ii and holding a code inspector certification like a pressure vessel or piping inspector cert?"
+   ],
+   "c": 0,
+   "i": 60,
+   "pos": 29.8
+  },
+  {
+   "k": [
+    "api 653 inspections"
+   ],
+   "c": 0,
+   "i": 59,
+   "pos": 37.8
+  },
+  {
+   "k": [
+    "ndt level 2 salary"
+   ],
+   "c": 0,
+   "i": 59,
+   "pos": 9.1
+  },
+  {
+   "k": [
+    "lidar scanning san francisco"
+   ],
+   "c": 0,
+   "i": 58,
+   "pos": 26
+  },
+  {
+   "k": [
+    "api 510"
+   ],
+   "c": 0,
+   "i": 57,
+   "pos": 30.5
+  },
+  {
+   "k": [
+    "astm e709"
+   ],
+   "c": 0,
+   "i": 57,
+   "pos": 38.7
+  },
+  {
+   "k": [
+    "ndt courses near me"
+   ],
+   "c": 1,
+   "i": 56,
+   "pos": 43.6
+  },
+  {
+   "k": [
+    "653 tank inspection"
+   ],
+   "c": 0,
+   "i": 56,
+   "pos": 36.2
+  },
+  {
+   "k": [
+    "ndt certification"
+   ],
+   "c": 0,
+   "i": 56,
+   "pos": 23.6
+  },
+  {
+   "k": [
+    "api 653 inspection frequency"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 33.1
+  },
+  {
+   "k": [
+    "asnt training near me"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 25.9
+  },
+  {
+   "k": [
+    "direct visual testing dvt"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 17.9
+  },
+  {
+   "k": [
+    "ndt salary level 1"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 8.7
+  },
+  {
+   "k": [
+    "shear wave ndt"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 15
+  },
+  {
+   "k": [
+    "uav lidar scanning services"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 60.2
+  },
+  {
+   "k": [
+    "3d laser scanning services in kansas"
+   ],
+   "c": 0,
+   "i": 54,
+   "pos": 37.7
+  },
+  {
+   "k": [
+    "lidar scanning phoenix"
+   ],
+   "c": 0,
+   "i": 54,
+   "pos": 24.8
+  },
+  {
+   "k": [
+    "snt tc 1a"
+   ],
+   "c": 0,
+   "i": 54,
+   "pos": 20.6
+  },
+  {
+   "k": [
+    "lidar scanning services san francisco"
+   ],
+   "c": 0,
+   "i": 53,
+   "pos": 27.5
+  },
+  {
+   "k": [
+    "ndt pay"
+   ],
+   "c": 0,
+   "i": 53,
+   "pos": 8.5
+  },
+  {
+   "k": [
+    "3d laser scanning dallas"
+   ],
+   "c": 0,
+   "i": 52,
+   "pos": 43.8
+  },
+  {
+   "k": [
+    "3d laser scanning denver"
+   ],
+   "c": 0,
+   "i": 52,
+   "pos": 38
+  },
+  {
+   "k": [
+    "3d laser scanning denver co"
+   ],
+   "c": 0,
+   "i": 52,
+   "pos": 60.6
+  },
+  {
+   "k": [
+    "trimble 3d scanning louisville"
+   ],
+   "c": 0,
+   "i": 52,
+   "pos": 44.3
+  },
+  {
+   "k": [
+    "what is api 653"
+   ],
+   "c": 0,
+   "i": 52,
+   "pos": 25.6
+  },
+  {
+   "k": [
+    "3d laser scanning north carolina"
+   ],
+   "c": 0,
+   "i": 51,
+   "pos": 36.8
+  },
+  {
+   "k": [
+    "between api 510 (pressure vessel inspector) and api 570 (piping inspector), which one tends to pay better for a brand-new inspector, and which has more steady work on the gulf coast?"
+   ],
+   "c": 0,
+   "i": 51,
+   "pos": 28.4
+  },
+  {
+   "k": [
+    "heat exchanger tube inspection"
+   ],
+   "c": 0,
+   "i": 51,
+   "pos": 49.5
+  },
+  {
+   "k": [
+    "asnt snt tc 1a"
+   ],
+   "c": 0,
+   "i": 50,
+   "pos": 23.4
+  },
+  {
+   "k": [
+    "how much do ndt inspectors make"
+   ],
+   "c": 0,
+   "i": 50,
+   "pos": 9.6
+  },
+  {
+   "k": [
+    "level 3 ndt technician salary"
+   ],
+   "c": 0,
+   "i": 49,
+   "pos": 9.8
+  },
+  {
+   "k": [
+    "ndt certification salary"
+   ],
+   "c": 0,
+   "i": 49,
+   "pos": 9.5
+  },
+  {
+   "k": [
+    "what's the difference between pcn and asnt ndt courses?"
+   ],
+   "c": 0,
+   "i": 49,
+   "pos": 6.3
+  },
+  {
+   "k": [
+    "asnt ndt"
+   ],
+   "c": 0,
+   "i": 48,
+   "pos": 17.6
+  },
+  {
+   "k": [
+    "florida laser scanning"
+   ],
+   "c": 0,
+   "i": 48,
+   "pos": 53.1
+  },
+  {
+   "k": [
+    "non destructive testing training near me"
+   ],
+   "c": 0,
+   "i": 48,
+   "pos": 89
+  },
+  {
+   "k": [
+    "what code governs external inspection intervals for atmospheric storage tanks in petroleum service, and how does api 653 frame those intervals in practice?"
+   ],
+   "c": 0,
+   "i": 48,
+   "pos": 34.6
+  },
+  {
+   "k": [
+    "ansi asnt cp-189"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 16.8
+  },
+  {
+   "k": [
+    "eddy current testing services"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 80.7
+  },
+  {
+   "k": [
+    "ndt industry workforce reports"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 5.4
+  },
+  {
+   "k": [
+    "ndt level 1 salary"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 9.2
+  },
+  {
+   "k": [
+    "ndt salary level 4"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 5.8
+  },
+  {
+   "k": [
+    "ndt services in huntsville al"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 78
+  },
+  {
+   "k": [
+    "non-destructive testing medical devices"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 68.3
+  },
+  {
+   "k": [
+    "vt pipe inspection"
+   ],
+   "c": 0,
+   "i": 47,
+   "pos": 24.3
+  },
+  {
+   "k": [
+    "3d laser scanning louisiana"
+   ],
+   "c": 0,
+   "i": 46,
+   "pos": 36
+  },
+  {
+   "k": [
+    "asnt level ii certification employer based snt-tc-1a official"
+   ],
+   "c": 0,
+   "i": 46,
+   "pos": 9.7
+  },
+  {
+   "k": [
+    "non destructive testing level 3 consulting services"
+   ],
+   "c": 0,
+   "i": 46,
+   "pos": 36
+  },
+  {
+   "k": [
+    "ut corrosion inspection pipeline"
+   ],
+   "c": 0,
+   "i": 46,
+   "pos": 39
+  },
+  {
+   "k": [
+    "what does api std 653 require for out-of-service internal inspection intervals on aboveground welded steel storage tanks, and what factors extend or shorten that interval?"
+   ],
+   "c": 0,
+   "i": 46,
+   "pos": 30.2
+  },
+  {
+   "k": [
+    "api 653 tank inspection frequency"
+   ],
+   "c": 1,
+   "i": 45,
+   "pos": 33.1
+  },
+  {
+   "k": [
+    "aws cwi vs a code welding inspector cert (like api 577) for a mid-sized contracting outfit. which one gives better roi when you factor in bid eligibility, pay bumps, and operator acceptance?"
+   ],
+   "c": 0,
+   "i": 45,
+   "pos": 32.7
+  },
+  {
+   "k": [
+    "gwt - lrut tools"
+   ],
+   "c": 0,
+   "i": 45,
+   "pos": 8.7
+  },
+  {
+   "k": [
+    "ndt inspection cost"
+   ],
+   "c": 0,
+   "i": 45,
+   "pos": 3.2
+  },
+  {
+   "k": [
+    "api 510 pressure vessel inspector versus a national board nbic commissioned inspector for in-service pressure vessel work at a midstream facility. which one is more appropriate to specify in our rfps, and where do they actually overlap?"
+   ],
+   "c": 0,
+   "i": 44,
+   "pos": 60.6
+  },
+  {
+   "k": [
+    "pipeline corrosion detection mfl"
+   ],
+   "c": 0,
+   "i": 44,
+   "pos": 56.7
+  },
+  {
+   "k": [
+    "tank inspection api 653"
+   ],
+   "c": 0,
+   "i": 44,
+   "pos": 29
+  },
+  {
+   "k": [
+    "twisted tube inspection"
+   ],
+   "c": 0,
+   "i": 44,
+   "pos": 61.7
+  },
+  {
+   "k": [
+    "us non-destructive medical technologies market"
+   ],
+   "c": 0,
+   "i": 44,
+   "pos": 65.4
+  },
+  {
+   "k": [
+    "atlantis ndt"
+   ],
+   "c": 26,
+   "i": 43,
+   "pos": 1
+  },
+  {
+   "k": [
+    "api 570 body of knowledge 2026"
+   ],
+   "c": 0,
+   "i": 43,
+   "pos": 6.7
+  },
+  {
+   "k": [
+    "api 936 (refractory inspector) versus api 653 (storage tank inspector) for getting started in inspection. which is more realistic for a welder with no inspection time logged yet?"
+   ],
+   "c": 0,
+   "i": 43,
+   "pos": 43
+  },
+  {
+   "k": [
+    "asnt tc 1a"
+   ],
+   "c": 0,
+   "i": 43,
+   "pos": 22.6
+  },
+  {
+   "k": [
+    "ut and paut services"
+   ],
+   "c": 0,
+   "i": 43,
+   "pos": 30.3
+  },
+  {
+   "k": [
+    "what's the realistic all-in cost to sponsor one of our field guys through an api 510 pressure vessel inspector certification, including prep course, exam fees, and travel to a prometric center?"
+   ],
+   "c": 0,
+   "i": 43,
+   "pos": 30.9
+  },
+  {
+   "k": [
+    "calibration certificate template"
+   ],
+   "c": 1,
+   "i": 42,
+   "pos": 16.7
+  },
+  {
+   "k": [
+    "\"tank inspection, repair, alteration, and reconstruction\""
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 34.4
+  },
+  {
+   "k": [
+    "3d laser scanning services in colorado"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 36.4
+  },
+  {
+   "k": [
+    "api 570 online"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 25
+  },
+  {
+   "k": [
+    "asnt-tc-1a"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 18.6
+  },
+  {
+   "k": [
+    "level 3 ndt salary"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 9.2
+  },
+  {
+   "k": [
+    "ndt equipment market"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 63.6
+  },
+  {
+   "k": [
+    "shear wave ut"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 35.5
+  },
+  {
+   "k": [
+    "what does api 510 (specifically clause 6.3 and related sections) say about external inspection intervals for pressure vessels in sour service, and how should that interact with our 30 cfr alignment for offshore-adjacent assets?"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 47.5
+  },
+  {
+   "k": [
+    "what does api 510 say about external and on-stream inspection intervals for pressure vessels in wet h2s service, and does the standard treat sour service as a separate damage mechanism for interval setting?"
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 53.3
+  },
+  {
+   "k": [
+    "what inspector certifications are oil majors and big midstream operators actually requiring on offshore and onshore contracts in 2026? i'm trying to get ahead of bid eligibility on the api icp side for my team."
+   ],
+   "c": 0,
+   "i": 42,
+   "pos": 21
+  },
+  {
+   "k": [
+    "3d laser scanning kansas"
+   ],
+   "c": 0,
+   "i": 41,
+   "pos": 36.6
+  },
+  {
+   "k": [
+    "3d laser scanning virginia"
+   ],
+   "c": 0,
+   "i": 41,
+   "pos": 45
+  },
+  {
+   "k": [
+    "api 510 test dates"
+   ],
+   "c": 0,
+   "i": 41,
+   "pos": 7.1
+  },
+  {
+   "k": [
+    "d1.1 acceptance criteria"
+   ],
+   "c": 0,
+   "i": 41,
+   "pos": 6.1
+  },
+  {
+   "k": [
+    "food manufacturing ndt"
+   ],
+   "c": 0,
+   "i": 41,
+   "pos": 13.5
+  }
+ ],
+ "usTopPages90": [
+  {
+   "k": [
+    "/blog/ndt-salary-guide-2026-global"
+   ],
+   "c": 7,
+   "i": 2314,
+   "pos": 7.8
+  },
+  {
+   "k": [
+    "/asnt-certification"
+   ],
+   "c": 5,
+   "i": 1539,
+   "pos": 21.7
+  },
+  {
+   "k": [
+    "/blog/api-653-tank-inspection-guide"
+   ],
+   "c": 1,
+   "i": 1439,
+   "pos": 35
+  },
+  {
+   "k": [
+    "/api-653-certification"
+   ],
+   "c": 1,
+   "i": 814,
+   "pos": 47.3
+  },
+  {
+   "k": [
+    "/api-510-certification"
+   ],
+   "c": 2,
+   "i": 766,
+   "pos": 37.7
+  },
+  {
+   "k": [
+    "/blog/eddy-current-testing-complete-guide"
+   ],
+   "c": 0,
+   "i": 684,
+   "pos": 62.8
+  },
+  {
+   "k": [
+    "/api-570-certification"
+   ],
+   "c": 2,
+   "i": 656,
+   "pos": 27.6
+  },
+  {
+   "k": [
+    "/ndt-industry-statistics"
+   ],
+   "c": 0,
+   "i": 581,
+   "pos": 59.8
+  },
+  {
+   "k": [
+    "/ndt-training-denver"
+   ],
+   "c": 5,
+   "i": 567,
+   "pos": 54.5
+  },
+  {
+   "k": [
+    "/blog/phased-array-ultrasonic-testing-paut-guide"
+   ],
+   "c": 0,
+   "i": 486,
+   "pos": 44.2
+  },
+  {
+   "k": [
+    "/blog/api-510-570-653-exam-schedule-2026"
+   ],
+   "c": 4,
+   "i": 460,
+   "pos": 9.4
+  },
+  {
+   "k": [
+    "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison"
+   ],
+   "c": 1,
+   "i": 413,
+   "pos": 9.4
+  },
+  {
+   "k": [
+    "/blog/asme-b31-3-process-piping-requirements"
+   ],
+   "c": 0,
+   "i": 396,
+   "pos": 37.8
+  },
+  {
+   "k": [
+    "/blog/asnt-snt-tc-1a-certification-requirements"
+   ],
+   "c": 1,
+   "i": 395,
+   "pos": 20.8
+  },
+  {
+   "k": [
+    "/blog/api-653-certification-complete-guide"
+   ],
+   "c": 0,
+   "i": 388,
+   "pos": 24.1
+  },
+  {
+   "k": [
+    "/blog/eddy-current-testing-complete-beginner-guide"
+   ],
+   "c": 0,
+   "i": 373,
+   "pos": 78.2
+  },
+  {
+   "k": [
+    "/blog/visual-testing"
+   ],
+   "c": 0,
+   "i": 356,
+   "pos": 20.3
+  },
+  {
+   "k": [
+    "/glossary/ultrasonic-testing"
+   ],
+   "c": 0,
+   "i": 337,
+   "pos": 69.9
+  },
+  {
+   "k": [
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison"
+   ],
+   "c": 2,
+   "i": 316,
+   "pos": 16.5
+  },
+  {
+   "k": [
+    "/consulting"
+   ],
+   "c": 0,
+   "i": 307,
+   "pos": 34.9
+  },
+  {
+   "k": [
+    "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+   ],
+   "c": 3,
+   "i": 274,
+   "pos": 16.5
+  },
+  {
+   "k": [
+    "/api-inspector-guide"
+   ],
+   "c": 0,
+   "i": 255,
+   "pos": 25.9
+  },
+  {
+   "k": [
+    "/3d-scanning-louisville"
+   ],
+   "c": 0,
+   "i": 249,
+   "pos": 24.7
+  },
+  {
+   "k": [
+    "/glossary/digital-radiography-dr"
+   ],
+   "c": 0,
+   "i": 245,
+   "pos": 68.6
+  },
+  {
+   "k": [
+    "/blog/api-510-body-of-knowledge-2026-changes-explained"
+   ],
+   "c": 0,
+   "i": 244,
+   "pos": 35
+  },
+  {
+   "k": [
+    "/glossary/eddy-current-testing"
+   ],
+   "c": 0,
+   "i": 241,
+   "pos": 78.4
+  },
+  {
+   "k": [
+    "/blog/surface-breaking-crack-detection-comprehensive-methods"
+   ],
+   "c": 0,
+   "i": 233,
+   "pos": 29.1
+  },
+  {
+   "k": [
+    "/ndt-training-atlanta"
+   ],
+   "c": 3,
+   "i": 229,
+   "pos": 63.4
+  },
+  {
+   "k": [
+    "/consulting/ndt-consulting-corpus-christi"
+   ],
+   "c": 0,
+   "i": 215,
+   "pos": 49.3
+  },
+  {
+   "k": [
+    "/blog/ship-hull-and-propulsion-system-inspection"
+   ],
+   "c": 0,
+   "i": 206,
+   "pos": 53.7
+  },
+  {
+   "k": [
+    "/glossary/phased-array-ultrasonic-testing-paut"
+   ],
+   "c": 0,
+   "i": 205,
+   "pos": 35.8
+  },
+  {
+   "k": [
+    "/blog/radiographic-testing-complete-guide"
+   ],
+   "c": 0,
+   "i": 203,
+   "pos": 27
+  },
+  {
+   "k": [
+    "/3d-scanning-denver"
+   ],
+   "c": 0,
+   "i": 198,
+   "pos": 40.4
+  },
+  {
+   "k": [
+    "/blog/heat-exchanger-tube-inspection-methods-procedures"
+   ],
+   "c": 0,
+   "i": 192,
+   "pos": 54.5
+  },
+  {
+   "k": [
+    "/3d-scanning-san-francisco"
+   ],
+   "c": 0,
+   "i": 182,
+   "pos": 37.9
+  },
+  {
+   "k": [
+    "/3d-scanning-services"
+   ],
+   "c": 0,
+   "i": 182,
+   "pos": 62.3
+  },
+  {
+   "k": [
+    "/blog/cwi-pass-rate-by-part-a-b-c-breakdown"
+   ],
+   "c": 0,
+   "i": 179,
+   "pos": 14.3
+  },
+  {
+   "k": [
+    "/blog/corrosion-under-insulation-cui-detection-guide"
+   ],
+   "c": 0,
+   "i": 177,
+   "pos": 34.8
+  },
+  {
+   "k": [
+    "/ndt-for-oil-gas"
+   ],
+   "c": 0,
+   "i": 177,
+   "pos": 54.2
+  },
+  {
+   "k": [
+    "/training/asnt-level-iii-training-san-diego"
+   ],
+   "c": 0,
+   "i": 177,
+   "pos": 70.5
+  },
+  {
+   "k": [
+    "/ultrasonic-testing-detroit"
+   ],
+   "c": 0,
+   "i": 175,
+   "pos": 70.1
+  },
+  {
+   "k": [
+    "/blog/rt-vs-ut-complete-comparison"
+   ],
+   "c": 1,
+   "i": 173,
+   "pos": 7.2
+  },
+  {
+   "k": [
+    "/ndt-training-houston"
+   ],
+   "c": 0,
+   "i": 166,
+   "pos": 50.6
+  },
+  {
+   "k": [
+    "/blog/shear-wave-ut-for-thick-section-inspection"
+   ],
+   "c": 0,
+   "i": 159,
+   "pos": 20.4
+  },
+  {
+   "k": [
+    "/compare/atlantis-dt-vs-ge-predix"
+   ],
+   "c": 0,
+   "i": 155,
+   "pos": 22.7
+  },
+  {
+   "k": [
+    "/resources/calibration-certificate-template"
+   ],
+   "c": 1,
+   "i": 148,
+   "pos": 38.1
+  },
+  {
+   "k": [
+    "/ndt-training-new-york"
+   ],
+   "c": 1,
+   "i": 145,
+   "pos": 58.8
+  },
+  {
+   "k": [
+    "/best-ndt-reporting-software-2026"
+   ],
+   "c": 2,
+   "i": 140,
+   "pos": 13.9
+  },
+  {
+   "k": [
+    "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix"
+   ],
+   "c": 0,
+   "i": 140,
+   "pos": 13.7
+  },
+  {
+   "k": [
+    "/magnetic-flux-leakage-testing"
+   ],
+   "c": 0,
+   "i": 129,
+   "pos": 60.1
+  },
+  {
+   "k": [
+    "/blog/food-processing-equipment-ndt-and-sanitation"
+   ],
+   "c": 0,
+   "i": 126,
+   "pos": 27.9
+  },
+  {
+   "k": [
+    "/ndt-reporting-software-comparison"
+   ],
+   "c": 0,
+   "i": 126,
+   "pos": 66.1
+  },
+  {
+   "k": [
+    "/ultrasonic-testing-chicago"
+   ],
+   "c": 0,
+   "i": 126,
+   "pos": 51.7
+  },
+  {
+   "k": [
+    "/penetrant-testing-los-angeles"
+   ],
+   "c": 0,
+   "i": 125,
+   "pos": 53.3
+  },
+  {
+   "k": [
+    "/blog/api-617-centrifugal-compressor-inspection"
+   ],
+   "c": 0,
+   "i": 124,
+   "pos": 10.4
+  },
+  {
+   "k": [
+    "/3d-scanning-austin"
+   ],
+   "c": 0,
+   "i": 123,
+   "pos": 32.8
+  },
+  {
+   "k": [
+    "/glossary/attenuation"
+   ],
+   "c": 0,
+   "i": 118,
+   "pos": 65.7
+  },
+  {
+   "k": [
+    "/blog/asme-section-viii-division-1-pressure-vessel-ndt"
+   ],
+   "c": 0,
+   "i": 115,
+   "pos": 21.6
+  },
+  {
+   "k": [
+    "/blog/ndt-level-iii-consulting-services-guide"
+   ],
+   "c": 0,
+   "i": 115,
+   "pos": 14.8
+  },
+  {
+   "k": [
+    "/blog/pipe-wall-thickness-inspection-ut-procedures"
+   ],
+   "c": 0,
+   "i": 115,
+   "pos": 42.6
+  },
+  {
+   "k": [
+    "/blog/api-570-inspector-salary-2026-by-region-experience"
+   ],
+   "c": 1,
+   "i": 108,
+   "pos": 7.6
+  },
+  {
+   "k": [
+    "/blog/aerospace-composite-inspection-ndt-methods-guide"
+   ],
+   "c": 0,
+   "i": 105,
+   "pos": 40.3
+  },
+  {
+   "k": [
+    "/3d-scanning-kansas-city"
+   ],
+   "c": 0,
+   "i": 103,
+   "pos": 36.6
+  },
+  {
+   "k": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "c": 0,
+   "i": 103,
+   "pos": 63.7
+  },
+  {
+   "k": [
+    "/glossary/hydrogen-induced-cracking-hic"
+   ],
+   "c": 0,
+   "i": 101,
+   "pos": 73.8
+  },
+  {
+   "k": [
+    "/blog/cwi-certification-requirements-cost-career-impact"
+   ],
+   "c": 0,
+   "i": 100,
+   "pos": 13.6
+  },
+  {
+   "k": [
+    "/blog/ndt-inspection-software-2026-best-platforms-compared"
+   ],
+   "c": 0,
+   "i": 100,
+   "pos": 21.2
+  },
+  {
+   "k": [
+    "/training/asnt-level-iii-training-cincinnati"
+   ],
+   "c": 0,
+   "i": 100,
+   "pos": 53.4
+  },
+  {
+   "k": [
+    "/magnetic-particle-testing"
+   ],
+   "c": 0,
+   "i": 98,
+   "pos": 42.5
+  },
+  {
+   "k": [
+    "/3d-scanning-north-carolina"
+   ],
+   "c": 0,
+   "i": 97,
+   "pos": 37.2
+  },
+  {
+   "k": [
+    "/3d-scanning-new-york"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 48.6
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 8.4
+  },
+  {
+   "k": [
+    "/glossary/radiographic-testing"
+   ],
+   "c": 0,
+   "i": 95,
+   "pos": 75
+  },
+  {
+   "k": [
+    "/3d-scanning-phoenix"
+   ],
+   "c": 0,
+   "i": 92,
+   "pos": 31.4
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-4-ut-requirements-explained"
+   ],
+   "c": 3,
+   "i": 91,
+   "pos": 8.8
+  },
+  {
+   "k": [
+    "/blog/wind-turbine-blade-inspection-and-monitoring"
+   ],
+   "c": 0,
+   "i": 91,
+   "pos": 48.9
+  },
+  {
+   "k": [
+    "/blog/compression-wave-vs-shear-wave-technical-differences"
+   ],
+   "c": 0,
+   "i": 90,
+   "pos": 43.6
+  },
+  {
+   "k": [
+    "/consulting/ndt-consulting-seattle"
+   ],
+   "c": 0,
+   "i": 89,
+   "pos": 49.6
+  },
+  {
+   "k": [
+    "/3d-scanning-san-antonio"
+   ],
+   "c": 0,
+   "i": 88,
+   "pos": 29.1
+  },
+  {
+   "k": [
+    "/erp-modules/audit-management-for-pipeline-integrity-services"
+   ],
+   "c": 0,
+   "i": 88,
+   "pos": 31.3
+  },
+  {
+   "k": [
+    "/contact"
+   ],
+   "c": 0,
+   "i": 87,
+   "pos": 9.9
+  },
+  {
+   "k": [
+    "/blog/asnt-level-3-fees-2026-complete-pricing-table"
+   ],
+   "c": 0,
+   "i": 86,
+   "pos": 14.1
+  },
+  {
+   "k": [
+    "/blog/magnetic-particle-testing-complete-guide"
+   ],
+   "c": 0,
+   "i": 86,
+   "pos": 24.9
+  },
+  {
+   "k": [
+    "/ndt-training-new-orleans"
+   ],
+   "c": 4,
+   "i": 85,
+   "pos": 36.4
+  },
+  {
+   "k": [
+    "/3d-scanning-colorado"
+   ],
+   "c": 0,
+   "i": 84,
+   "pos": 35.1
+  },
+  {
+   "k": [
+    "/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide"
+   ],
+   "c": 0,
+   "i": 84,
+   "pos": 56
+  },
+  {
+   "k": [
+    "/magnetic-particle-testing-chicago"
+   ],
+   "c": 0,
+   "i": 81,
+   "pos": 42.2
+  },
+  {
+   "k": [
+    "/3d-scanning-virginia"
+   ],
+   "c": 0,
+   "i": 80,
+   "pos": 46
+  },
+  {
+   "k": [
+    "/glossary/asme-section-viii"
+   ],
+   "c": 0,
+   "i": 80,
+   "pos": 50.3
+  },
+  {
+   "k": [
+    "/blog/forging-defect-detection-and-assessment"
+   ],
+   "c": 0,
+   "i": 79,
+   "pos": 33.2
+  },
+  {
+   "k": [
+    "/glossary/co-60"
+   ],
+   "c": 0,
+   "i": 79,
+   "pos": 63.2
+  },
+  {
+   "k": [
+    "/ultrasonic-testing-denver"
+   ],
+   "c": 0,
+   "i": 79,
+   "pos": 51.6
+  },
+  {
+   "k": [
+    "/"
+   ],
+   "c": 23,
+   "i": 78,
+   "pos": 19.7
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained"
+   ],
+   "c": 3,
+   "i": 78,
+   "pos": 5.4
+  },
+  {
+   "k": [
+    "/glossary/magnetic-flux-leakage-mfl"
+   ],
+   "c": 0,
+   "i": 76,
+   "pos": 57.6
+  },
+  {
+   "k": [
+    "/magnetic-particle-testing-charlotte"
+   ],
+   "c": 0,
+   "i": 74,
+   "pos": 82.4
+  },
+  {
+   "k": [
+    "/training"
+   ],
+   "c": 2,
+   "i": 73,
+   "pos": 12.9
+  },
+  {
+   "k": [
+    "/consulting/ndt-consulting-houston"
+   ],
+   "c": 0,
+   "i": 73,
+   "pos": 80.1
+  },
+  {
+   "k": [
+    "/services/mfl-pipeline-inspection"
+   ],
+   "c": 0,
+   "i": 72,
+   "pos": 53.6
+  },
+  {
+   "k": [
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert"
+   ],
+   "c": 0,
+   "i": 71,
+   "pos": 19.1
+  },
+  {
+   "k": [
+    "/compare/asnt-vs-pcn"
+   ],
+   "c": 0,
+   "i": 71,
+   "pos": 10.9
+  },
+  {
+   "k": [
+    "/3d-scanning-dallas"
+   ],
+   "c": 0,
+   "i": 70,
+   "pos": 43.3
+  },
+  {
+   "k": [
+    "/ndt-training-dallas"
+   ],
+   "c": 2,
+   "i": 69,
+   "pos": 23.5
+  },
+  {
+   "k": [
+    "/blog/ultrasonic-testing-ultimate-guide"
+   ],
+   "c": 0,
+   "i": 69,
+   "pos": 39
+  },
+  {
+   "k": [
+    "/glossary/wellhead"
+   ],
+   "c": 0,
+   "i": 69,
+   "pos": 46.7
+  },
+  {
+   "k": [
+    "/ndt-technician-salary"
+   ],
+   "c": 1,
+   "i": 65,
+   "pos": 9.1
+  },
+  {
+   "k": [
+    "/blog/ut-vs-rt-comparison"
+   ],
+   "c": 0,
+   "i": 65,
+   "pos": 15.2
+  },
+  {
+   "k": [
+    "/3d-scanning-florida"
+   ],
+   "c": 0,
+   "i": 63,
+   "pos": 52.6
+  },
+  {
+   "k": [
+    "/glossary/automated-ultrasonic-testing-aut"
+   ],
+   "c": 0,
+   "i": 63,
+   "pos": 42.8
+  },
+  {
+   "k": [
+    "/glossary/leak-testing"
+   ],
+   "c": 0,
+   "i": 62,
+   "pos": 55.5
+  },
+  {
+   "k": [
+    "/ndt-equipment-guide"
+   ],
+   "c": 0,
+   "i": 59,
+   "pos": 33.7
+  },
+  {
+   "k": [
+    "/resources/asnt-level-iii-study-guide"
+   ],
+   "c": 0,
+   "i": 58,
+   "pos": 49.9
+  },
+  {
+   "k": [
+    "/ndt-connect"
+   ],
+   "c": 0,
+   "i": 57,
+   "pos": 56
+  },
+  {
+   "k": [
+    "/about"
+   ],
+   "c": 0,
+   "i": 56,
+   "pos": 2.5
+  },
+  {
+   "k": [
+    "/glossary/calibration-block"
+   ],
+   "c": 0,
+   "i": 56,
+   "pos": 20.5
+  },
+  {
+   "k": [
+    "/training/asnt-level-iii-training-washington-dc"
+   ],
+   "c": 0,
+   "i": 56,
+   "pos": 73.2
+  },
+  {
+   "k": [
+    "/3d-scanning-new-jersey"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 42.4
+  },
+  {
+   "k": [
+    "/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut"
+   ],
+   "c": 0,
+   "i": 55,
+   "pos": 49.2
+  },
+  {
+   "k": [
+    "/compare/api-510-vs-api-570"
+   ],
+   "c": 0,
+   "i": 53,
+   "pos": 15.6
+  },
+  {
+   "k": [
+    "/digital-twins"
+   ],
+   "c": 0,
+   "i": 53,
+   "pos": 36.8
+  }
+ ],
+ "globalTopPages90": [
+  {
+   "k": [
+    "/blog/ndt-salary-guide-2026-global"
+   ],
+   "c": 375,
+   "i": 45425,
+   "pos": 5.9
+  },
+  {
+   "k": [
+    "/asnt-certification"
+   ],
+   "c": 112,
+   "i": 15158,
+   "pos": 9.1
+  },
+  {
+   "k": [
+    "/blog/asnt-snt-tc-1a-certification-requirements"
+   ],
+   "c": 96,
+   "i": 12193,
+   "pos": 8
+  },
+  {
+   "k": [
+    "/blog/rt-vs-ut-complete-comparison"
+   ],
+   "c": 111,
+   "i": 10238,
+   "pos": 6
+  },
+  {
+   "k": [
+    "/blog/api-653-tank-inspection-guide"
+   ],
+   "c": 54,
+   "i": 10026,
+   "pos": 14
+  },
+  {
+   "k": [
+    "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+   ],
+   "c": 135,
+   "i": 9769,
+   "pos": 7.2
+  },
+  {
+   "k": [
+    "/blog/api-510-570-653-exam-schedule-2026"
+   ],
+   "c": 136,
+   "i": 9490,
+   "pos": 5.8
+  },
+  {
+   "k": [
+    "/blog/asme-section-viii-division-1-pressure-vessel-ndt"
+   ],
+   "c": 148,
+   "i": 8813,
+   "pos": 6.7
+  },
+  {
+   "k": [
+    "/api-570-certification"
+   ],
+   "c": 79,
+   "i": 8508,
+   "pos": 10.2
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-4-ut-requirements-explained"
+   ],
+   "c": 206,
+   "i": 7802,
+   "pos": 5.8
+  },
+  {
+   "k": [
+    "/blog/asme-b31-3-process-piping-requirements"
+   ],
+   "c": 89,
+   "i": 7524,
+   "pos": 9.1
+  },
+  {
+   "k": [
+    "/blog/visual-testing"
+   ],
+   "c": 78,
+   "i": 6998,
+   "pos": 7.6
+  },
+  {
+   "k": [
+    "/api-510-certification"
+   ],
+   "c": 50,
+   "i": 6864,
+   "pos": 14.8
+  },
+  {
+   "k": [
+    "/api-653-certification"
+   ],
+   "c": 47,
+   "i": 6605,
+   "pos": 20.9
+  },
+  {
+   "k": [
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison"
+   ],
+   "c": 83,
+   "i": 6462,
+   "pos": 6.3
+  },
+  {
+   "k": [
+    "/blog/eddy-current-testing-complete-guide"
+   ],
+   "c": 60,
+   "i": 6405,
+   "pos": 18.8
+  },
+  {
+   "k": [
+    "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison"
+   ],
+   "c": 106,
+   "i": 6107,
+   "pos": 5.7
+  },
+  {
+   "k": [
+    "/ndt-technician-salary"
+   ],
+   "c": 48,
+   "i": 5319,
+   "pos": 5.9
+  },
+  {
+   "k": [
+    "/blog/radiographic-testing-complete-guide"
+   ],
+   "c": 42,
+   "i": 5125,
+   "pos": 10.2
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained"
+   ],
+   "c": 144,
+   "i": 4976,
+   "pos": 3.6
+  },
+  {
+   "k": [
+    "/blog/magnetic-particle-testing-complete-guide"
+   ],
+   "c": 31,
+   "i": 4506,
+   "pos": 9.3
+  },
+  {
+   "k": [
+    "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix"
+   ],
+   "c": 60,
+   "i": 3589,
+   "pos": 6.5
+  },
+  {
+   "k": [
+    "/ndt-industry-statistics"
+   ],
+   "c": 17,
+   "i": 3089,
+   "pos": 25.4
+  },
+  {
+   "k": [
+    "/blog/api-653-certification-complete-guide"
+   ],
+   "c": 14,
+   "i": 2912,
+   "pos": 10.7
+  },
+  {
+   "k": [
+    "/blog/api-510-body-of-knowledge-2026-changes-explained"
+   ],
+   "c": 51,
+   "i": 2708,
+   "pos": 10.2
+  },
+  {
+   "k": [
+    "/blog/pipe-wall-thickness-inspection-ut-procedures"
+   ],
+   "c": 33,
+   "i": 2631,
+   "pos": 10.3
+  },
+  {
+   "k": [
+    "/blog/ut-level-2-practice-questions"
+   ],
+   "c": 156,
+   "i": 2374,
+   "pos": 6.5
+  },
+  {
+   "k": [
+    "/blog/ultrasonic-testing-ultimate-guide"
+   ],
+   "c": 18,
+   "i": 2362,
+   "pos": 9.2
+  },
+  {
+   "k": [
+    "/blog/asnt-level-3-fees-2026-complete-pricing-table"
+   ],
+   "c": 67,
+   "i": 2312,
+   "pos": 5.9
+  },
+  {
+   "k": [
+    "/blog/phased-array-ultrasonic-testing-paut-guide"
+   ],
+   "c": 20,
+   "i": 2228,
+   "pos": 27.8
+  },
+  {
+   "k": [
+    "/blog/cwi-certification-requirements-cost-career-impact"
+   ],
+   "c": 4,
+   "i": 2219,
+   "pos": 8.9
+  },
+  {
+   "k": [
+    "/digital-twins"
+   ],
+   "c": 14,
+   "i": 2161,
+   "pos": 8.9
+  },
+  {
+   "k": [
+    "/compare/asnt-vs-pcn"
+   ],
+   "c": 18,
+   "i": 2134,
+   "pos": 5.7
+  },
+  {
+   "k": [
+    "/"
+   ],
+   "c": 132,
+   "i": 1779,
+   "pos": 8
+  },
+  {
+   "k": [
+    "/resources"
+   ],
+   "c": 78,
+   "i": 1633,
+   "pos": 6.9
+  },
+  {
+   "k": [
+    "/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut"
+   ],
+   "c": 25,
+   "i": 1623,
+   "pos": 8.7
+  },
+  {
+   "k": [
+    "/api-inspector-guide"
+   ],
+   "c": 7,
+   "i": 1606,
+   "pos": 12.9
+  },
+  {
+   "k": [
+    "/blog/cwi-pass-rate-by-part-a-b-c-breakdown"
+   ],
+   "c": 21,
+   "i": 1599,
+   "pos": 7.7
+  },
+  {
+   "k": [
+    "/blog/ut-vs-rt-comparison"
+   ],
+   "c": 7,
+   "i": 1444,
+   "pos": 7.3
+  },
+  {
+   "k": [
+    "/resources/calibration-certificate-template"
+   ],
+   "c": 76,
+   "i": 1427,
+   "pos": 9.8
+  },
+  {
+   "k": [
+    "/ndt-training-dubai"
+   ],
+   "c": 47,
+   "i": 1411,
+   "pos": 8.9
+  },
+  {
+   "k": [
+    "/blog/heat-exchanger-tube-inspection-methods-procedures"
+   ],
+   "c": 11,
+   "i": 1365,
+   "pos": 25.3
+  },
+  {
+   "k": [
+    "/blog/api-617-centrifugal-compressor-inspection"
+   ],
+   "c": 19,
+   "i": 1362,
+   "pos": 8.4
+  },
+  {
+   "k": [
+    "/best-ndt-reporting-software-2026"
+   ],
+   "c": 17,
+   "i": 1310,
+   "pos": 8.1
+  },
+  {
+   "k": [
+    "/resources/asnt-level-iii-study-guide"
+   ],
+   "c": 64,
+   "i": 1305,
+   "pos": 11.8
+  },
+  {
+   "k": [
+    "/blog/iso-9712-certification-process-step-by-step-guide"
+   ],
+   "c": 17,
+   "i": 1300,
+   "pos": 10.7
+  },
+  {
+   "k": [
+    "/blog/ndt-level-iii-certification-requirements-guide"
+   ],
+   "c": 12,
+   "i": 1277,
+   "pos": 10.1
+  },
+  {
+   "k": [
+    "/blog/api-570-inspector-salary-2026-by-region-experience"
+   ],
+   "c": 10,
+   "i": 1211,
+   "pos": 6.3
+  },
+  {
+   "k": [
+    "/blog/surface-breaking-crack-detection-comprehensive-methods"
+   ],
+   "c": 3,
+   "i": 1200,
+   "pos": 26.6
+  },
+  {
+   "k": [
+    "/blog/forging-defect-detection-and-assessment"
+   ],
+   "c": 18,
+   "i": 1184,
+   "pos": 8.8
+  },
+  {
+   "k": [
+    "/magnetic-particle-testing"
+   ],
+   "c": 1,
+   "i": 1165,
+   "pos": 18
+  },
+  {
+   "k": [
+    "/blog/defect-sizing-techniques-in-ultrasonic-inspection"
+   ],
+   "c": 16,
+   "i": 1112,
+   "pos": 11.1
+  },
+  {
+   "k": [
+    "/blog/ship-hull-and-propulsion-system-inspection"
+   ],
+   "c": 4,
+   "i": 1020,
+   "pos": 44.6
+  },
+  {
+   "k": [
+    "/3d-scanning-singapore"
+   ],
+   "c": 11,
+   "i": 919,
+   "pos": 30
+  },
+  {
+   "k": [
+    "/glossary/phased-array-ultrasonic-testing-paut"
+   ],
+   "c": 2,
+   "i": 886,
+   "pos": 23.4
+  },
+  {
+   "k": [
+    "/training-me"
+   ],
+   "c": 9,
+   "i": 834,
+   "pos": 8.5
+  },
+  {
+   "k": [
+    "/api-653-india"
+   ],
+   "c": 24,
+   "i": 811,
+   "pos": 5.9
+  },
+  {
+   "k": [
+    "/3d-scanning-abu-dhabi"
+   ],
+   "c": 3,
+   "i": 797,
+   "pos": 50.8
+  },
+  {
+   "k": [
+    "/blog/corrosion-under-insulation-cui-detection-guide"
+   ],
+   "c": 4,
+   "i": 777,
+   "pos": 27
+  },
+  {
+   "k": [
+    "/blog/wind-turbine-blade-inspection-and-monitoring"
+   ],
+   "c": 2,
+   "i": 769,
+   "pos": 25.5
+  },
+  {
+   "k": [
+    "/blog/ndt-technician-salary-guide-2026-industry-report"
+   ],
+   "c": 1,
+   "i": 766,
+   "pos": 7.3
+  },
+  {
+   "k": [
+    "/glossary/ultrasonic-testing"
+   ],
+   "c": 0,
+   "i": 757,
+   "pos": 65
+  },
+  {
+   "k": [
+    "/ndt-training-denver"
+   ],
+   "c": 19,
+   "i": 751,
+   "pos": 44.6
+  },
+  {
+   "k": [
+    "/compare/atlantis-dt-vs-ge-predix"
+   ],
+   "c": 0,
+   "i": 736,
+   "pos": 12
+  },
+  {
+   "k": [
+    "/blog/aerospace-composite-inspection-ndt-methods-guide"
+   ],
+   "c": 1,
+   "i": 732,
+   "pos": 14.8
+  },
+  {
+   "k": [
+    "/api-570-india"
+   ],
+   "c": 14,
+   "i": 723,
+   "pos": 6.1
+  },
+  {
+   "k": [
+    "/blog/shear-wave-ut-for-thick-section-inspection"
+   ],
+   "c": 2,
+   "i": 714,
+   "pos": 11.1
+  },
+  {
+   "k": [
+    "/ultrasonic-testing-singapore"
+   ],
+   "c": 10,
+   "i": 713,
+   "pos": 38.7
+  },
+  {
+   "k": [
+    "/consulting"
+   ],
+   "c": 3,
+   "i": 710,
+   "pos": 21.4
+  },
+  {
+   "k": [
+    "/blog/eddy-current-testing-complete-beginner-guide"
+   ],
+   "c": 4,
+   "i": 665,
+   "pos": 70.3
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained"
+   ],
+   "c": 21,
+   "i": 660,
+   "pos": 5.2
+  },
+  {
+   "k": [
+    "/resources/ndt-inspection-checklist"
+   ],
+   "c": 27,
+   "i": 650,
+   "pos": 7.5
+  },
+  {
+   "k": [
+    "/training-india"
+   ],
+   "c": 14,
+   "i": 644,
+   "pos": 7.8
+  },
+  {
+   "k": [
+    "/blog/api-579-fitness-for-service-assessment-procedures"
+   ],
+   "c": 6,
+   "i": 596,
+   "pos": 30.4
+  },
+  {
+   "k": [
+    "/api-510-india"
+   ],
+   "c": 7,
+   "i": 592,
+   "pos": 5.8
+  },
+  {
+   "k": [
+    "/blog/ndt-procedure-writing-guide-asme-section-v"
+   ],
+   "c": 11,
+   "i": 591,
+   "pos": 8.1
+  },
+  {
+   "k": [
+    "/blog/compression-wave-vs-shear-wave-technical-differences"
+   ],
+   "c": 7,
+   "i": 590,
+   "pos": 13.6
+  },
+  {
+   "k": [
+    "/blog/asme-b31-1-power-piping-code-explained"
+   ],
+   "c": 9,
+   "i": 581,
+   "pos": 8
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements"
+   ],
+   "c": 10,
+   "i": 578,
+   "pos": 5.8
+  },
+  {
+   "k": [
+    "/compare/api-510-vs-api-570"
+   ],
+   "c": 4,
+   "i": 563,
+   "pos": 9.3
+  },
+  {
+   "k": [
+    "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026"
+   ],
+   "c": 5,
+   "i": 523,
+   "pos": 8.3
+  },
+  {
+   "k": [
+    "/magnetic-flux-leakage-testing"
+   ],
+   "c": 0,
+   "i": 513,
+   "pos": 47.7
+  },
+  {
+   "k": [
+    "/ndt-for-oil-gas"
+   ],
+   "c": 10,
+   "i": 502,
+   "pos": 35.4
+  },
+  {
+   "k": [
+    "/training"
+   ],
+   "c": 11,
+   "i": 491,
+   "pos": 10.3
+  },
+  {
+   "k": [
+    "/blog/api-570-piping-inspection-code-requirements"
+   ],
+   "c": 1,
+   "i": 491,
+   "pos": 8.9
+  },
+  {
+   "k": [
+    "/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide"
+   ],
+   "c": 4,
+   "i": 477,
+   "pos": 26.2
+  },
+  {
+   "k": [
+    "/blog/cwi-exam-cost-2026-total-investment-calculator"
+   ],
+   "c": 2,
+   "i": 474,
+   "pos": 7.4
+  },
+  {
+   "k": [
+    "/glossary/eddy-current-testing"
+   ],
+   "c": 0,
+   "i": 461,
+   "pos": 73.3
+  },
+  {
+   "k": [
+    "/blog/asme-section-v-ndt-requirements-guide"
+   ],
+   "c": 9,
+   "i": 453,
+   "pos": 6.1
+  },
+  {
+   "k": [
+    "/3d-scanning-dubai"
+   ],
+   "c": 4,
+   "i": 451,
+   "pos": 43.5
+  },
+  {
+   "k": [
+    "/ndt-erp-solution"
+   ],
+   "c": 4,
+   "i": 439,
+   "pos": 11.6
+  },
+  {
+   "k": [
+    "/blog/eddy-current-testing"
+   ],
+   "c": 2,
+   "i": 432,
+   "pos": 22.1
+  },
+  {
+   "k": [
+    "/ndt-training-atlanta"
+   ],
+   "c": 22,
+   "i": 431,
+   "pos": 37.5
+  },
+  {
+   "k": [
+    "/contact"
+   ],
+   "c": 2,
+   "i": 410,
+   "pos": 13.3
+  },
+  {
+   "k": [
+    "/services/mfl-pipeline-inspection"
+   ],
+   "c": 3,
+   "i": 409,
+   "pos": 39.5
+  },
+  {
+   "k": [
+    "/blog/visual-testing#asme-article-9"
+   ],
+   "c": 0,
+   "i": 409,
+   "pos": 6
+  },
+  {
+   "k": [
+    "/blog/visual-testing#how-vt-works"
+   ],
+   "c": 0,
+   "i": 409,
+   "pos": 6
+  },
+  {
+   "k": [
+    "/blog/visual-testing#vt-methods"
+   ],
+   "c": 0,
+   "i": 409,
+   "pos": 6
+  },
+  {
+   "k": [
+    "/blog/asme-b31-3-process-piping-code-explained"
+   ],
+   "c": 8,
+   "i": 395,
+   "pos": 7.7
+  },
+  {
+   "k": [
+    "/glossary/half-value-layer-hvl"
+   ],
+   "c": 0,
+   "i": 385,
+   "pos": 12.6
+  },
+  {
+   "k": [
+    "/glossary/digital-radiography-dr"
+   ],
+   "c": 0,
+   "i": 379,
+   "pos": 59.8
+  },
+  {
+   "k": [
+    "/blog/visual-testing#equipment"
+   ],
+   "c": 0,
+   "i": 377,
+   "pos": 6
+  },
+  {
+   "k": [
+    "/consulting/ndt-consulting-corpus-christi"
+   ],
+   "c": 2,
+   "i": 365,
+   "pos": 33.6
+  },
+  {
+   "k": [
+    "/glossary/flat-bottom-hole-fbh"
+   ],
+   "c": 2,
+   "i": 365,
+   "pos": 6.1
+  },
+  {
+   "k": [
+    "/corrosion-mapping"
+   ],
+   "c": 1,
+   "i": 364,
+   "pos": 10.8
+  },
+  {
+   "k": [
+    "/3d-scanning-netherlands"
+   ],
+   "c": 4,
+   "i": 362,
+   "pos": 38.6
+  },
+  {
+   "k": [
+    "/blog"
+   ],
+   "c": 3,
+   "i": 358,
+   "pos": 11.3
+  },
+  {
+   "k": [
+    "/blog/api-579-fitness-for-service-guide"
+   ],
+   "c": 2,
+   "i": 356,
+   "pos": 20.7
+  },
+  {
+   "k": [
+    "/blog/api-icp-pass-rates-510-vs-570-vs-653-2026"
+   ],
+   "c": 3,
+   "i": 343,
+   "pos": 6.9
+  },
+  {
+   "k": [
+    "/blog/api-510-pressure-vessel-inspection-code"
+   ],
+   "c": 1,
+   "i": 342,
+   "pos": 9.4
+  },
+  {
+   "k": [
+    "/phased-array-ut"
+   ],
+   "c": 1,
+   "i": 340,
+   "pos": 11.3
+  },
+  {
+   "k": [
+    "/ndt-connect"
+   ],
+   "c": 4,
+   "i": 337,
+   "pos": 20.4
+  },
+  {
+   "k": [
+    "/compare/atlantis-dt-vs-siemens-mindsphere"
+   ],
+   "c": 2,
+   "i": 337,
+   "pos": 9
+  },
+  {
+   "k": [
+    "/glossary/calibration-block"
+   ],
+   "c": 0,
+   "i": 337,
+   "pos": 17.3
+  },
+  {
+   "k": [
+    "/training/asnt-level-iii-training-san-diego"
+   ],
+   "c": 6,
+   "i": 336,
+   "pos": 42.1
+  },
+  {
+   "k": [
+    "/glossary/leak-testing"
+   ],
+   "c": 0,
+   "i": 336,
+   "pos": 60.2
+  },
+  {
+   "k": [
+    "/glossary/attenuation"
+   ],
+   "c": 0,
+   "i": 332,
+   "pos": 53.6
+  },
+  {
+   "k": [
+    "/blog/ndt-inspection-software-2026-best-platforms-compared"
+   ],
+   "c": 4,
+   "i": 322,
+   "pos": 11.5
+  },
+  {
+   "k": [
+    "/3d-scanning-cape-town"
+   ],
+   "c": 7,
+   "i": 319,
+   "pos": 21.5
+  },
+  {
+   "k": [
+    "/blog/weld-inspection-acceptance-criteria-aws-vs-asme"
+   ],
+   "c": 0,
+   "i": 314,
+   "pos": 7.9
+  }
+ ]
+}

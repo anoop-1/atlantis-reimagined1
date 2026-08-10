@@ -18,7 +18,7 @@ const faqs = [
 ];
 
 const ndtSoftwareMatrix = [
-  { software: "Atlantis NDT ERP+Reporting", price: "affordable, accessible-50K/yr flat", methods: "All", instrumentFiles: "Olympus, M2M, Eddyfi, DICONDE", mobile: "Native iOS+Android offline", multiTenant: "Yes", bestFor: "Small-mid NDT vendors, ISO 9712 / ASNT certified shops" },
+  { software: "Atlantis NDT ERP+Reporting", price: "Quote on request — flat annual", methods: "All", instrumentFiles: "Olympus, M2M, Eddyfi, DICONDE", mobile: "Native iOS+Android offline", multiTenant: "Yes", bestFor: "Small-mid NDT vendors, ISO 9712 / ASNT certified shops" },
   { software: "MISTRAS PCMS Cloud", price: "$40-120K/yr typical", methods: "All", instrumentFiles: "Olympus + own formats", mobile: "Field-Inspect app offline", multiTenant: "Yes (vendor-side)", bestFor: "Mid-large inspection service companies" },
   { software: "Acuren ASSET", price: "$50-180K/yr typical", methods: "All", instrumentFiles: "Olympus + own", mobile: "ASSET Mobile offline", multiTenant: "Yes (vendor-side)", bestFor: "Acuren-aligned vendors, large customers" },
   { software: "Bentley AssetWise APM Reliability", price: "$80-300K/yr", methods: "Inspection module + 3rd-party", instrumentFiles: "Partner integration", mobile: "Field Supervisor app", multiTenant: "Limited", bestFor: "Owner-operators, pipeline operators" },

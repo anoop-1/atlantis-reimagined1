@@ -47,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Is CMMS configured for NDT inspection companies operating in Chennai?", "Yes. The CMMS module is pre-loaded with codes and operator flow-downs that Chennai NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, AERB SC/IR-1, automotive Q/A frameworks (Hyundai, BMW, Renault-Nissan, Daimler), plus operator-specific quality clauses from CPCL Manali, ONGC, BARC Kalpakkam."],
     ["Which Chennai regulators does CMMS align with?", "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Tamil Nadu Pollution Control Board (TNPCB). The AERB Chennai office specifically covers Kalpakkam nuclear inspection authorizations."],
     ["Can Chennai NDT inspection companies integrate CMMS with automotive OEM portals?", "Yes. The platform supports vendor-portal flow with Hyundai, BMW India, Renault-Nissan, Daimler India and the major automotive supplier-Q/A systems."],
-    ["What does CMMS cost for an NDT inspection company in Chennai?", "CMMS is bundled inside the standard affordable, accessible (contact us; approximately INR 15 lakh) Atlantis NDT ERP subscription. Invoicing is supported in INR or USD with daily FX update."],
+    ["What does CMMS cost for an NDT inspection company in Chennai?", "CMMS is bundled inside the standard Atlantis NDT ERP subscription — affordable, accessible and fully customizable, quote on request. Invoicing is supported in INR or USD with daily FX update."],
     ["Does CMMS support nuclear-grade BARC / AERB calibration intervals for Kalpakkam supplier work?", "Yes. Nuclear-grade calibration intervals per BARC / AERB SC/IR-1 are tracked alongside generic ISO 17025 / ISO 10012 intervals for non-nuclear work."]
   ]
 } as ErpTripleCrossProps;

@@ -33,7 +33,7 @@ export default function AtlantisVsZohoVsMondayERPComparison() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="text-rose-200 mb-4">Atlantis vs Zoho vs monday.com • May 2026 • 11 min read</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Atlantis NDT ERP vs Zoho One vs monday.com Work OS</h1>
-            <p className="text-xl text-rose-100 mb-8">An honest 2026 comparison of Atlantis NDT ERP (regional pricing flat), Zoho One ($37/user/mo bundle of 45+ apps), and monday.com Work OS ($24-72/user/mo). 5-year TCO at 5, 25 and 50-user team sizes, CRM depth, accounting depth, project management, and NDT-vertical fit.</p>
+            <p className="text-xl text-rose-100 mb-8">An honest 2026 comparison of Atlantis NDT ERP (flat annual, quote on request), Zoho One ($37/user/mo bundle of 45+ apps), and monday.com Work OS ($24-72/user/mo). 5-year TCO at 5, 25 and 50-user team sizes, CRM depth, accounting depth, project management, and NDT-vertical fit.</p>
           </motion.div>
         </div>
       </section>

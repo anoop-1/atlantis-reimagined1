@@ -2,7 +2,7 @@ import ProductPageLayout from "@/components/ProductPageLayout";
 import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 
 const compareRows = [
-    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "IBM Maximo Application Suite — per-user + per-asset, enterprise tier–$1M+/yr" },
+    { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "IBM Maximo Application Suite — per-user + per-asset, enterprise-tier licensing+/yr" },
     { factor: "Primary use case", atlantis: "Inspection integrity twin (NDT, FFS, RBI, 3D)", competitor: "EAM + APM — work orders, PM, MRO, condition monitoring, IoT" },
     { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, FFS, RBI, RT/UT/PAUT scans", competitor: "Inspection module is generic; deep NDT typically requires Maximo Health + custom" },
     { factor: "FFS / RBI", atlantis: "Built-in API 579 + API 581", competitor: "Maximo APM Health + Predict; FFS via partner" },
@@ -32,7 +32,7 @@ export default function AtlantisDtVsIbmMaximo() {
     return (
         <ProductPageLayout
             title="Atlantis Digital Twin vs IBM Maximo: Inspection Integrity vs EAM [2026 Features Guide]"
-            description="IBM Maximo (MAS) vs Atlantis Digital Twin: tier-1 EAM vs inspection integrity twin. Maximo at enterprise tier-$1M vs Atlantis affordable accessible fully customizable SaaS, FFS/RBI native, when to run both. Honest 2026 guide."
+            description="IBM Maximo (MAS) vs Atlantis Digital Twin: tier-1 EAM vs inspection integrity twin. Maximo at enterprise-tier licensing vs Atlantis affordable, accessible, fully customizable SaaS, FFS/RBI native, when to run both. Honest 2026 guide."
             canonical="https://atlantisndt.com/compare/atlantis-dt-vs-ibm-maximo"
             eyebrow="Digital Twin vs IBM Maximo"
             h1="Atlantis Digital Twin vs IBM Maximo: Inspection Integrity vs EAM [2026]"
