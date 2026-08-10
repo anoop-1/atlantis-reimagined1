@@ -7971,7 +7971,30 @@
     "https://atlantisndt.com/ar/ndt-erp-riyadh",
     "https://atlantisndt.com/es/ndt-erp-mexico-city",
     "https://atlantisndt.com/es/ndt-erp-buenos-aires",
-    "https://atlantisndt.com/es/ndt-erp-solution"
+    "https://atlantisndt.com/es/ndt-erp-solution",
+    "https://atlantisndt.com/corporate-training/ammonia-plants",
+    "https://atlantisndt.com/corporate-training/data-centers",
+    "https://atlantisndt.com/ndt-level-1-salary",
+    "https://atlantisndt.com/blog/erp-software-london-affordable-uk-2026",
+    "https://atlantisndt.com/ndt-inspector-salary",
+    "https://atlantisndt.com/ndt-level-2-salary",
+    "https://atlantisndt.com/corporate-training/battery-manufacturing",
+    "https://atlantisndt.com/corporate-training/rail-infrastructure",
+    "https://atlantisndt.com/corporate-training/hydrogen-economy",
+    "https://atlantisndt.com/ndt-level-3-salary",
+    "https://atlantisndt.com/blog/best-erp-software-singapore-construction-2026",
+    "https://atlantisndt.com/blog/atlantis-vs-zoho-vs-monday-erp-comparison",
+    "https://atlantisndt.com/blog/affordable-erp-for-environmental-testing-labs-2026",
+    "https://atlantisndt.com/services/mfl-pipeline-inspection",
+    "https://atlantisndt.com/blog/digital-twin-platform-roi-calculator-examples-2026",
+    "https://atlantisndt.com/blog/ndt-inspection-software-comparison-2026",
+    "https://atlantisndt.com/blog/api-570-inspector-salary-2026-by-region-experience",
+    "https://atlantisndt.com/blog/welding-fabrication-erp-software-guide-2026",
+    "https://atlantisndt.com/blog/digital-twin-implementation-roadmap-oil-gas-2026",
+    "https://atlantisndt.com/blog/affordable-cmms-for-small-business-inspection-2026",
+    "https://atlantisndt.com/api-510-india",
+    "https://atlantisndt.com/api-570-india",
+    "https://atlantisndt.com/api-653-india"
   ],
   "failed": [],
   "runs": [
@@ -9840,7 +9863,88 @@
           "rateLimited": false
         }
       ]
+    },
+    {
+      "date": "2026-08-10",
+      "time": "2026-08-10T18:04:25.467Z",
+      "accounts": 10,
+      "submitted": 23,
+      "failed": 0,
+      "skipped": 0,
+      "elapsed": "3.8s",
+      "perAccount": [
+        {
+          "account": "account-0-legacy",
+          "ok": 3,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-10",
+          "ok": 3,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-2",
+          "ok": 3,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-3",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-4",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-5",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-6",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-7",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-8",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        },
+        {
+          "account": "account-9",
+          "ok": 2,
+          "fail": 0,
+          "skipped": 0,
+          "rateLimited": false
+        }
+      ]
     }
   ],
-  "totalSubmitted": 7972
+  "totalSubmitted": 7995
 }
