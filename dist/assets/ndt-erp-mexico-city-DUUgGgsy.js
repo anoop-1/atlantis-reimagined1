@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Be79NB64.js";import{E as o}from"./ErpLocationPage-DCw_uFvi.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-C-oAx_1X.js";import"./RelatedProducts-DLWmyZ44.js";function n(){return t.jsx(o,{city:"Mexico City",country:"Mexico",slug:"ndt-erp-mexico-city"})}export{n as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Be79NB64.js";import{D as o}from"./DigitalTwinLocationPage-C9HMvEj_.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-C-oAx_1X.js";import"./RelatedProducts-DLWmyZ44.js";function e(){return t.jsx(o,{city:"Gabon",country:"Gabon",slug:"digital-twin-gabon"})}export{e as default};

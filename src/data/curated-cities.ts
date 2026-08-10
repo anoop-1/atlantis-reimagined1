@@ -278,6 +278,8 @@ export const CURATED_CITY_SLUGS: Set<string> = new Set([
   'busan', 'dalian', 'batam', 'point-lisas', 'antofagasta', 'nashik',
   // === Training expansion 2026-08-11 — US aerospace/shipbuilding/nuclear gap cities ===
   'wichita', 'east-hartford', 'north-charleston', 'aiken', 'pascagoula', 'groton', 'bath-maine',
+  // === Training/ERP state-level expansion 2026-08-11 — 13 zero-presence states ===
+  'arkansas', 'delaware', 'hawaii', 'idaho', 'iowa', 'nebraska', 'nevada', 'new-hampshire', 'new-mexico', 'rhode-island', 'south-dakota', 'vermont', 'west-virginia',
 ]);
 
 /**
@@ -387,6 +389,8 @@ export const ERP_CITY_PAGE_SLUGS: Set<string> = new Set([
   'busan','dalian','batam','point-lisas','antofagasta','nashik','stavanger',
   // === ERP/Training parity gap cities 2026-08-11 ===
   'wichita','east-hartford','north-charleston','aiken','pascagoula','groton','bath-maine',
+  // === ERP/Training state-level expansion 2026-08-11 — 13 zero-presence states ===
+  'arkansas','delaware','hawaii','idaho','iowa','nebraska','nevada','new-hampshire','new-mexico','rhode-island','south-dakota','vermont','west-virginia',
 ]);
 
 /** Cities that have an /ndt-reporting-{slug} page. */
@@ -437,6 +441,8 @@ export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'ras-laffan','mesaieed','ulsan','jurong-island','karratha','busan','dalian','batam','point-lisas','antofagasta','nashik',
   // === Training expansion 2026-08-11 — US aerospace/shipbuilding/nuclear gap cities ===
   'wichita','east-hartford','north-charleston','savannah','aiken','pascagoula','groton','bath-maine',
+  // === Training state-level expansion 2026-08-11 — 13 zero-presence states ===
+  'arkansas','delaware','hawaii','idaho','iowa','nebraska','nevada','new-hampshire','new-mexico','rhode-island','south-dakota','vermont','west-virginia',
 ]);
 
 /** Cities that have a /consulting/ndt-consulting-{slug} page. Matches CONSULTING_CITY_SLUGS in city-profiles.ts. */

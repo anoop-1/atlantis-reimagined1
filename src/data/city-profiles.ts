@@ -276,6 +276,20 @@ export const CITY_GEO: Record<string, CityGeoProfile> = {
   'pascagoula':      { city: 'Pascagoula',      region: 'MS', isoCountry: 'US', lat: 30.3658,  lng: -88.5561 },
   'groton':          { city: 'Groton',          region: 'CT', isoCountry: 'US', lat: 41.3501,  lng: -72.0787 },
   'bath-maine':      { city: 'Bath',            region: 'ME', isoCountry: 'US', lat: 43.9101,  lng: -69.8214 },
+  // === Training/ERP state-level expansion 2026-08-11 — 13 zero-presence states ===
+  'arkansas':        { city: 'Arkansas',        region: 'AR', isoCountry: 'US', lat: 34.7465,  lng: -92.2896 },
+  'delaware':        { city: 'Delaware',        region: 'DE', isoCountry: 'US', lat: 39.7447,  lng: -75.5484 },
+  'hawaii':          { city: 'Hawaii',          region: 'HI', isoCountry: 'US', lat: 21.3069,  lng: -157.8583 },
+  'idaho':           { city: 'Idaho',           region: 'ID', isoCountry: 'US', lat: 43.6150,  lng: -116.2023 },
+  'iowa':            { city: 'Iowa',            region: 'IA', isoCountry: 'US', lat: 41.5868,  lng: -93.6250 },
+  'nebraska':        { city: 'Nebraska',        region: 'NE', isoCountry: 'US', lat: 41.2565,  lng: -95.9345 },
+  'nevada':          { city: 'Nevada',          region: 'NV', isoCountry: 'US', lat: 39.5296,  lng: -119.8138 },
+  'new-hampshire':   { city: 'New Hampshire',   region: 'NH', isoCountry: 'US', lat: 42.9956,  lng: -71.4548 },
+  'new-mexico':      { city: 'New Mexico',      region: 'NM', isoCountry: 'US', lat: 35.0844,  lng: -106.6504 },
+  'rhode-island':    { city: 'Rhode Island',    region: 'RI', isoCountry: 'US', lat: 41.8240,  lng: -71.4128 },
+  'south-dakota':    { city: 'South Dakota',    region: 'SD', isoCountry: 'US', lat: 43.5460,  lng: -96.7313 },
+  'vermont':         { city: 'Vermont',         region: 'VT', isoCountry: 'US', lat: 44.4759,  lng: -73.2121 },
+  'west-virginia':   { city: 'West Virginia',   region: 'WV', isoCountry: 'US', lat: 38.3498,  lng: -81.6326 },
 };
 
 /**
@@ -1314,6 +1328,137 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     ],
     localCompliance: ["NAVSEA 250-1500-1", "AWS D1.1", "ASNT SNT-TC-1A", "ASME Section XI"],
     localCaseStudy: "A Bath-based inspection firm supporting Bath Iron Works' destroyer program replaced a paper weld-procedure binder with Atlantis NDT ERP and cut per-hull documentation prep from a multi-day task to a single afternoon ahead of a Navy inspection milestone.",
+  },
+  // === ERP state-level expansion 2026-08-11 — 13 zero-presence states ===
+  'arkansas': {
+    uniqueLocalROI: "Arkansas inspection firms serving Arkansas Nuclear One, Lockheed Martin's Camden missile plant, and Nucor-Yamato Steel using Atlantis NDT ERP typically cut NRC/ASME Section XI and MIL-STD evidence prep from days to hours, saving an estimated USD 140-200k/yr on a 20-technician crew split across nuclear, defense, and steel-mill scopes.",
+    localIndustryUseCases: [
+      "Arkansas Nuclear One in-service inspection scheduling under ASME Section XI with NRC-format evidence export.",
+      "Lockheed Martin Camden PAC-3 missile-body radiographic and ultrasonic inspection work-order routing with DoD security-clearance tracking alongside ASNT qualification.",
+      "Nucor-Yamato Steel and Delek US El Dorado refinery weld and pressure-vessel inspection scheduling with AWS D1.1 and API 510/570/653 records.",
+    ],
+    localCompliance: ["NRC (Arkansas Nuclear One)", "Arkansas Dept. of Labor and Licensing Boiler Inspection Division", "MIL-STD-2132 / DoD clearance tracking", "API 510/570/653"],
+    localCaseStudy: "An Arkansas inspection contractor supporting the Camden missile plant replaced a shared clearance spreadsheet with Atlantis NDT ERP and cut new-technician qualification-and-clearance-evidence assembly from a full day to under 30 minutes per hire.",
+  },
+  'delaware': {
+    uniqueLocalROI: "Delaware inspection firms serving the PBF Energy Delaware City Refinery using Atlantis NDT ERP typically cut API 510/570/653 turnaround evidence prep from days to hours, saving an estimated USD 110-160k/yr on a 15-technician crew.",
+    localIndustryUseCases: [
+      "Delaware City Refinery (PBF Energy) turnaround pressure-vessel and piping inspection scheduling with API 510/570/653 records.",
+      "Chemours Wilmington and Croda Newark specialty-chemical pressure-system inspection with DNREC statutory evidence export.",
+      "Port of Wilmington crane and berth structural inspection scheduling under AWS D1.1 practice.",
+    ],
+    localCompliance: ["DNREC Boiler Safety Program", "API 510/570/653", "OSHA (federal — no state plan)", "AWS D1.1"],
+    localCaseStudy: "A Wilmington-area inspection firm on the Delaware City Refinery turnaround replaced paper job packs with Atlantis NDT ERP and cut per-shutdown documentation prep by roughly 60%.",
+  },
+  'hawaii': {
+    uniqueLocalROI: "Hawaii inspection firms supporting Pearl Harbor Naval Shipyard's submarine-maintenance program using Atlantis NDT ERP typically cut NAVSEA and DoD clearance evidence prep from days to hours, saving an estimated USD 130-190k/yr on a 20-technician crew.",
+    localIndustryUseCases: [
+      "Pearl Harbor Naval Shipyard submarine hull and structural-weld inspection work-order routing under NAVSEA 250-1500-1 with DoD clearance tracking.",
+      "Par Hawaii Kapolei refinery pressure-vessel and piping inspection scheduling with API 510/570/653 records.",
+      "Joint Base Pearl Harbor-Hickam structural and pressure-equipment inspection scheduling across Oahu installations.",
+    ],
+    localCompliance: ["NAVSEA 250-1500-1", "HIOSH (Hawaii state OSHA plan)", "Hawaii Dept. of Health", "API 510/570/653"],
+    localCaseStudy: "An Oahu-based inspection firm supporting Pearl Harbor Naval Shipyard's dry-dock program consolidated technician clearance and qualification tracking into Atlantis NDT ERP and cut per-hire clearance-evidence assembly from a full day to under 30 minutes.",
+  },
+  'idaho': {
+    uniqueLocalROI: "Idaho inspection firms serving Idaho National Laboratory and Micron's Boise fab expansion using Atlantis NDT ERP typically cut DOE clearance and semiconductor-tool evidence prep from days to hours, saving an estimated USD 120-175k/yr on an 18-technician crew.",
+    localIndustryUseCases: [
+      "Idaho National Laboratory nuclear-research facility inspection scheduling under DOE Order 426.2 with Q/L-clearance tracking alongside ASNT qualification.",
+      "Micron Technology Boise fab-expansion tool and process-equipment inspection work-order routing during active construction phases.",
+      "Simplot phosphate-processing (Smoky Canyon, Pocatello) pressure-vessel inspection scheduling with Idaho DEQ statutory evidence.",
+    ],
+    localCompliance: ["DOE Order 426.2 (INL)", "Idaho DEQ", "OSHA (federal — no state plan)", "ASME Section VIII"],
+    localCaseStudy: "A Boise-area inspection firm supporting Micron's fab expansion replaced Excel-based equipment-calibration tracking with Atlantis NDT ERP and cut construction-phase inspection reporting from 4 hours to 35 minutes per work order.",
+  },
+  'iowa': {
+    uniqueLocalROI: "Iowa inspection firms serving TPI Composites' Newton blade plant and John Deere's Waterloo and Dubuque facilities using Atlantis NDT ERP typically cut weld and composite-inspection evidence prep from days to hours, saving an estimated USD 130-185k/yr on a 20-technician crew.",
+    localIndustryUseCases: [
+      "TPI Composites Newton wind-turbine-blade UT and PAUT composite-laminate defect inspection scheduling for GE Vernova supply contracts.",
+      "John Deere Waterloo and Dubuque manufacturing weld inspection work-order routing under AWS D1.1 with multi-plant crew dispatch.",
+      "Duane Arnold Energy Center restart-phase inspection-program setup ahead of the target Q1 2029 NRC-licensed return to service.",
+    ],
+    localCompliance: ["Iowa Div. of Labor Boiler and Pressure Vessel Program (Iowa Code Ch. 89)", "Iowa DNR", "AWS D1.1", "NRC (Duane Arnold, pending restart)"],
+    localCaseStudy: "A Des Moines-area inspection firm serving TPI Composites' reopened Newton plant replaced manual blade-defect logs with Atlantis NDT ERP and cut per-blade inspection reporting from a full shift to under an hour.",
+  },
+  'nebraska': {
+    uniqueLocalROI: "Nebraska inspection firms serving Cooper Nuclear Station and Nucor Steel Norfolk using Atlantis NDT ERP typically cut ASME Section XI and AWS weld-evidence prep from days to hours, saving an estimated USD 100-150k/yr on a 15-technician crew.",
+    localIndustryUseCases: [
+      "Cooper Nuclear Station in-service inspection scheduling under ASME Section XI with NRC-format evidence export ahead of the state's license-renewal filing.",
+      "Nucor Steel Norfolk and Vulcraft fabrication weld and plate inspection work-order routing under AWS D1.1.",
+      "Tyson Fresh Meats and JBS agricultural-processing boiler and pressure-vessel inspection scheduling under ASME Section I/VIII.",
+    ],
+    localCompliance: ["NRC (Cooper Nuclear Station)", "Nebraska DWEE", "AWS D1.1", "ASME Section I/VIII"],
+    localCaseStudy: "An Omaha-area inspection firm supporting Cooper Nuclear Station's license-renewal filing consolidated in-service-inspection records into Atlantis NDT ERP and cut ASME Section XI evidence-pack prep from a week to a day.",
+  },
+  'nevada': {
+    uniqueLocalROI: "Nevada inspection firms serving the Tesla Gigafactory and Nevada Gold Mines using Atlantis NDT ERP typically cut weld-evidence and MSHA-format audit prep from days to hours, saving an estimated USD 150-220k/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "Tesla Gigafactory Sparks/Storey County battery-enclosure and Semi-truck chassis weld inspection scheduling on fast-growing production lines.",
+      "Nevada Gold Mines (Barrick/Newmont JV) processing-plant pressure-vessel inspection scheduling with MSHA safety-training tracking.",
+      "Thacker Pass lithium-project construction-phase structural and pressure-system inspection work-order routing.",
+    ],
+    localCompliance: ["MSHA", "Nevada Division of Environmental Protection (NDEP)", "Nevada Division of Minerals", "AWS D1.1/D1.6"],
+    localCaseStudy: "A Reno/Sparks-based inspection firm on the Gigafactory expansion replaced paper weld-inspection logs with Atlantis NDT ERP and cut per-shift documentation prep from 3 hours to 20 minutes.",
+  },
+  'new-hampshire': {
+    uniqueLocalROI: "New Hampshire inspection firms serving Seabrook Station and BAE Systems' Nashua Trusted Foundry using Atlantis NDT ERP typically cut NRC and DoD-clearance evidence prep from days to hours, saving an estimated USD 120-175k/yr on a 15-technician crew.",
+    localIndustryUseCases: [
+      "Seabrook Station in-service inspection scheduling under ASME Section XI with NRC-format evidence export.",
+      "BAE Systems Nashua Trusted Foundry defense-microelectronics package inspection work-order routing with DoD security-clearance tracking alongside ASNT qualification.",
+      "Merrimack Valley precision-machining supplier weld and dimensional inspection scheduling across multi-client contracts.",
+    ],
+    localCompliance: ["NRC (Seabrook Station)", "NH Dept. of Environmental Services", "DoD Trusted Foundry security requirements", "NAS 410 / Nadcap AC7114"],
+    localCaseStudy: "A Nashua-area inspection firm supporting BAE Systems' Trusted Foundry modernization replaced a shared clearance spreadsheet with Atlantis NDT ERP and cut new-technician qualification-and-clearance-evidence assembly from a full day to under 30 minutes per hire.",
+  },
+  'new-mexico': {
+    uniqueLocalROI: "New Mexico inspection firms serving Los Alamos, Sandia, WIPP, and Permian Basin operators using Atlantis NDT ERP typically cut DOE-clearance and statutory evidence prep from days to hours, saving an estimated USD 180-260k/yr on a 30-technician crew spanning national-lab and oilfield scopes.",
+    localIndustryUseCases: [
+      "Los Alamos and Sandia National Laboratories nuclear-research facility inspection scheduling under DOE Order 426.2 with Q/L-clearance tracking.",
+      "WIPP transuranic-waste repository facility inspection work-order routing under DOE nuclear-facility procedures.",
+      "Permian Basin (Lea County) upstream and HF Sinclair Navajo Refinery pressure-vessel inspection scheduling with API 510/570/653 records.",
+    ],
+    localCompliance: ["DOE Order 426.2 / NNSA (national labs, WIPP)", "NM Environment Dept. / Oil Conservation Division", "API 510/570/653", "ASNT SNT-TC-1A"],
+    localCaseStudy: "An Albuquerque-based inspection firm supporting Sandia National Laboratories consolidated technician clearance and qualification tracking into Atlantis NDT ERP and cleared its next DOE facility audit with zero repeat findings.",
+  },
+  'rhode-island': {
+    uniqueLocalROI: "Rhode Island inspection firms supporting Electric Boat's Quonset Point submarine-module facility using Atlantis NDT ERP typically cut NAVSEA and DoD-clearance evidence prep from days to hours, saving an estimated USD 160-230k/yr on a 25-technician crew.",
+    localIndustryUseCases: [
+      "Electric Boat Quonset Point Columbia- and Virginia-class submarine hull-module weld inspection work-order routing under NAVSEA 250-1500-1 with DoD clearance tracking.",
+      "Naval Undersea Warfare Center Division Newport test-and-evaluation facility inspection scheduling.",
+      "Ørsted Revolution Wind offshore-wind foundation and turbine-tower structural inspection scheduling at the Quonset Point operations hub.",
+    ],
+    localCompliance: ["NAVSEA 250-1500-1", "RI Dept. of Environmental Management", "DoD security-clearance tracking", "API RP 2A (offshore wind structural)"],
+    localCaseStudy: "A Quonset Point-area inspection firm scaling crew size for Electric Boat's hiring surge replaced a shared clearance spreadsheet with Atlantis NDT ERP and cut new-technician qualification-and-clearance-evidence assembly from a full day to under 30 minutes per hire.",
+  },
+  'south-dakota': {
+    uniqueLocalROI: "South Dakota inspection firms serving the Ellsworth AFB B-21 buildout and the Wharf gold mine using Atlantis NDT ERP typically cut USAF-format and MSHA audit-pack prep from days to hours, saving an estimated USD 90-135k/yr on a 15-technician crew.",
+    localIndustryUseCases: [
+      "Ellsworth AFB B-21 Raider infrastructure-buildout structural and weld inspection work-order routing under USAF facility-construction standards.",
+      "Wharf Mine (Coeur Mining) processing-plant pressure-vessel inspection scheduling with MSHA safety-training tracking.",
+      "Smithfield Foods Sioux Falls boiler and pressure-vessel inspection scheduling under ASME Section I/VIII.",
+    ],
+    localCompliance: ["MSHA", "SD Dept. of Agriculture and Natural Resources (DANR)", "SD Dept. of Labor Boiler Inspection Program", "ASME Section I/VIII"],
+    localCaseStudy: "A Rapid City-area inspection firm on the Ellsworth AFB B-21 infrastructure buildout replaced paper inspection logs with Atlantis NDT ERP and cut per-project documentation prep by roughly half.",
+  },
+  'vermont': {
+    uniqueLocalROI: "Vermont inspection firms serving GlobalFoundries' Essex Junction fab and the Vermont Yankee decommissioning using Atlantis NDT ERP typically cut semiconductor-tool and NRC-format evidence prep from days to hours, saving an estimated USD 110-160k/yr on a 15-technician crew.",
+    localIndustryUseCases: [
+      "GlobalFoundries Essex Junction fab tool and process-equipment inspection work-order routing during the multibillion-dollar NY/VT expansion.",
+      "Vermont Yankee decommissioning cask and facility inspection scheduling under DOE/NRC nuclear-facility procedures.",
+      "Collins Aerospace Vergennes and BETA Technologies South Burlington precision-manufacturing weld and dimensional inspection scheduling.",
+    ],
+    localCompliance: ["NRC / VT Nuclear Decommissioning Citizens Advisory Panel (NDCAP)", "VT Agency of Natural Resources", "NAS 410 / Nadcap AC7114", "SEMI equipment standards"],
+    localCaseStudy: "A Burlington-area inspection firm supporting GlobalFoundries' Essex Junction expansion replaced spreadsheet-based tool-qualification tracking with Atlantis NDT ERP and cut equipment-requalification cycle time by roughly half.",
+  },
+  'west-virginia': {
+    uniqueLocalROI: "West Virginia inspection firms serving the Kanawha Valley chemical corridor and Marcellus/Utica shale-gas operators using Atlantis NDT ERP typically cut PHMSA pipeline-integrity and API evidence prep from days to hours, saving an estimated USD 140-200k/yr on a 20-technician crew.",
+    localIndustryUseCases: [
+      "Union Carbide (Dow) South Charleston chemical-plant pressure-vessel and piping inspection scheduling with API 510/570/653 records.",
+      "Marcellus/Utica shale gas-gathering and transmission pipeline weld inspection work-order routing with PHMSA-format API 1104 evidence export.",
+      "Nucor Steel West Virginia (Apple Grove) and Commercial Metals Company Berkeley County micro-mill weld inspection scheduling under AWS D1.1.",
+    ],
+    localCompliance: ["WV Dept. of Environmental Protection", "WV Div. of Labor Boiler Inspection Program", "PHMSA / API 1104", "API 510/570/653"],
+    localCaseStudy: "A Charleston, WV-area inspection firm serving the Kanawha Valley chemical corridor replaced paper job packs with Atlantis NDT ERP and cut per-turnaround documentation overhead by roughly 60%.",
   },
 };
 

@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import{D as i}from"./DigitalTwinLocationPage-CC-O9NkT.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-0f-1VdC2.js";import"./RelatedProducts-EOlQp_hb.js";function s(){return t.jsx(i,{city:"Accra",country:"Ghana",slug:"digital-twin-accra"})}export{s as default};

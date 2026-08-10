@@ -1406,6 +1406,20 @@ const NDTErp_louisiana = lazy(() => import("./pages/ndt-erp-louisiana"));
 const NDTErp_california = lazy(() => import("./pages/ndt-erp-california"));
 const NDTErp_alaska = lazy(() => import("./pages/ndt-erp-alaska"));
 const NDTErp_north_dakota = lazy(() => import("./pages/ndt-erp-north-dakota"));
+// === ERP state-level expansion 2026-08-11 — 13 zero-presence states ===
+const NDTErp_arkansas = lazy(() => import("./pages/ndt-erp-arkansas"));
+const NDTErp_delaware = lazy(() => import("./pages/ndt-erp-delaware"));
+const NDTErp_hawaii = lazy(() => import("./pages/ndt-erp-hawaii"));
+const NDTErp_idaho = lazy(() => import("./pages/ndt-erp-idaho"));
+const NDTErp_iowa = lazy(() => import("./pages/ndt-erp-iowa"));
+const NDTErp_nebraska = lazy(() => import("./pages/ndt-erp-nebraska"));
+const NDTErp_nevada = lazy(() => import("./pages/ndt-erp-nevada"));
+const NDTErp_new_hampshire = lazy(() => import("./pages/ndt-erp-new-hampshire"));
+const NDTErp_new_mexico = lazy(() => import("./pages/ndt-erp-new-mexico"));
+const NDTErp_rhode_island = lazy(() => import("./pages/ndt-erp-rhode-island"));
+const NDTErp_south_dakota = lazy(() => import("./pages/ndt-erp-south-dakota"));
+const NDTErp_vermont = lazy(() => import("./pages/ndt-erp-vermont"));
+const NDTErp_west_virginia = lazy(() => import("./pages/ndt-erp-west-virginia"));
 const NDTErp_ohio = lazy(() => import("./pages/ndt-erp-ohio"));
 const NDTErp_pennsylvania = lazy(() => import("./pages/ndt-erp-pennsylvania"));
 const NDTErp_alberta = lazy(() => import("./pages/ndt-erp-alberta"));
@@ -2825,6 +2839,20 @@ const NDTTrainingAiken = lazy(() => import("./pages/ndt-training-aiken"));
 const NDTTrainingPascagoula = lazy(() => import("./pages/ndt-training-pascagoula"));
 const NDTTrainingGroton = lazy(() => import("./pages/ndt-training-groton"));
 const NDTTrainingBathMaine = lazy(() => import("./pages/ndt-training-bath-maine"));
+// === Training state-level expansion 2026-08-11 — 13 zero-presence states ===
+const NDTTrainingArkansas = lazy(() => import("./pages/ndt-training-arkansas"));
+const NDTTrainingDelaware = lazy(() => import("./pages/ndt-training-delaware"));
+const NDTTrainingHawaii = lazy(() => import("./pages/ndt-training-hawaii"));
+const NDTTrainingIdaho = lazy(() => import("./pages/ndt-training-idaho"));
+const NDTTrainingIowa = lazy(() => import("./pages/ndt-training-iowa"));
+const NDTTrainingNebraska = lazy(() => import("./pages/ndt-training-nebraska"));
+const NDTTrainingNevada = lazy(() => import("./pages/ndt-training-nevada"));
+const NDTTrainingNewHampshire = lazy(() => import("./pages/ndt-training-new-hampshire"));
+const NDTTrainingNewMexico = lazy(() => import("./pages/ndt-training-new-mexico"));
+const NDTTrainingRhodeIsland = lazy(() => import("./pages/ndt-training-rhode-island"));
+const NDTTrainingSouthDakota = lazy(() => import("./pages/ndt-training-south-dakota"));
+const NDTTrainingVermont = lazy(() => import("./pages/ndt-training-vermont"));
+const NDTTrainingWestVirginia = lazy(() => import("./pages/ndt-training-west-virginia"));
 const CorporateTrainingHydrogenEconomy = lazy(() => import("./pages/corporate-training/HydrogenEconomy"));
 const CorporateTrainingAmmoniaPlants = lazy(() => import("./pages/corporate-training/AmmoniaPlants"));
 const CorporateTrainingBatteryManufacturing = lazy(() => import("./pages/corporate-training/BatteryManufacturing"));
@@ -4874,6 +4902,20 @@ const App = () => (
                   <Route path="/ndt-erp-california" element={<LazyRoute Component={NDTErp_california} />} />
                   <Route path="/ndt-erp-alaska" element={<LazyRoute Component={NDTErp_alaska} />} />
                   <Route path="/ndt-erp-north-dakota" element={<LazyRoute Component={NDTErp_north_dakota} />} />
+                  {/* === ERP state-level expansion 2026-08-11 — 13 zero-presence states === */}
+                  <Route path="/ndt-erp-arkansas" element={<LazyRoute Component={NDTErp_arkansas} />} />
+                  <Route path="/ndt-erp-delaware" element={<LazyRoute Component={NDTErp_delaware} />} />
+                  <Route path="/ndt-erp-hawaii" element={<LazyRoute Component={NDTErp_hawaii} />} />
+                  <Route path="/ndt-erp-idaho" element={<LazyRoute Component={NDTErp_idaho} />} />
+                  <Route path="/ndt-erp-iowa" element={<LazyRoute Component={NDTErp_iowa} />} />
+                  <Route path="/ndt-erp-nebraska" element={<LazyRoute Component={NDTErp_nebraska} />} />
+                  <Route path="/ndt-erp-nevada" element={<LazyRoute Component={NDTErp_nevada} />} />
+                  <Route path="/ndt-erp-new-hampshire" element={<LazyRoute Component={NDTErp_new_hampshire} />} />
+                  <Route path="/ndt-erp-new-mexico" element={<LazyRoute Component={NDTErp_new_mexico} />} />
+                  <Route path="/ndt-erp-rhode-island" element={<LazyRoute Component={NDTErp_rhode_island} />} />
+                  <Route path="/ndt-erp-south-dakota" element={<LazyRoute Component={NDTErp_south_dakota} />} />
+                  <Route path="/ndt-erp-vermont" element={<LazyRoute Component={NDTErp_vermont} />} />
+                  <Route path="/ndt-erp-west-virginia" element={<LazyRoute Component={NDTErp_west_virginia} />} />
                   <Route path="/ndt-erp-ohio" element={<LazyRoute Component={NDTErp_ohio} />} />
                   <Route path="/ndt-erp-pennsylvania" element={<LazyRoute Component={NDTErp_pennsylvania} />} />
                   <Route path="/ndt-erp-alberta" element={<LazyRoute Component={NDTErp_alberta} />} />
@@ -5576,6 +5618,20 @@ const App = () => (
                   <Route path="/ndt-training-pascagoula" element={<LazyRoute Component={NDTTrainingPascagoula} />} />
                   <Route path="/ndt-training-groton" element={<LazyRoute Component={NDTTrainingGroton} />} />
                   <Route path="/ndt-training-bath-maine" element={<LazyRoute Component={NDTTrainingBathMaine} />} />
+                  {/* === Training state-level expansion 2026-08-11 — 13 zero-presence states === */}
+                  <Route path="/ndt-training-arkansas" element={<LazyRoute Component={NDTTrainingArkansas} />} />
+                  <Route path="/ndt-training-delaware" element={<LazyRoute Component={NDTTrainingDelaware} />} />
+                  <Route path="/ndt-training-hawaii" element={<LazyRoute Component={NDTTrainingHawaii} />} />
+                  <Route path="/ndt-training-idaho" element={<LazyRoute Component={NDTTrainingIdaho} />} />
+                  <Route path="/ndt-training-iowa" element={<LazyRoute Component={NDTTrainingIowa} />} />
+                  <Route path="/ndt-training-nebraska" element={<LazyRoute Component={NDTTrainingNebraska} />} />
+                  <Route path="/ndt-training-nevada" element={<LazyRoute Component={NDTTrainingNevada} />} />
+                  <Route path="/ndt-training-new-hampshire" element={<LazyRoute Component={NDTTrainingNewHampshire} />} />
+                  <Route path="/ndt-training-new-mexico" element={<LazyRoute Component={NDTTrainingNewMexico} />} />
+                  <Route path="/ndt-training-rhode-island" element={<LazyRoute Component={NDTTrainingRhodeIsland} />} />
+                  <Route path="/ndt-training-south-dakota" element={<LazyRoute Component={NDTTrainingSouthDakota} />} />
+                  <Route path="/ndt-training-vermont" element={<LazyRoute Component={NDTTrainingVermont} />} />
+                  <Route path="/ndt-training-west-virginia" element={<LazyRoute Component={NDTTrainingWestVirginia} />} />
                   <Route path="/corporate-training/hydrogen-economy" element={<LazyRoute Component={CorporateTrainingHydrogenEconomy} />} />
                   <Route path="/corporate-training/ammonia-plants" element={<LazyRoute Component={CorporateTrainingAmmoniaPlants} />} />
                   <Route path="/corporate-training/battery-manufacturing" element={<LazyRoute Component={CorporateTrainingBatteryManufacturing} />} />

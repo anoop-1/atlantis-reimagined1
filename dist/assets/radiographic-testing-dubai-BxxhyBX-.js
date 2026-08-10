@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import t from"./MethodLocationPage-VIF0pH2x.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-0f-1VdC2.js";function p(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"dubai"})}export{p as default};

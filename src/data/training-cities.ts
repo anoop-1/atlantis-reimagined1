@@ -4274,6 +4274,415 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "east-hartford", label: "East Hartford" },
     ],
   },
+
+  // ──────── State-level expansion 2026-08-11 — 13 states with zero prior
+  // Training/ERP presence (Consulting-only until now). State name used in the
+  // `city` field, same pattern as the existing state-level /ndt-erp-* pages
+  // (e.g. ndt-erp-alaska). lat/lng anchored on each state's largest or most
+  // industrially relevant city. ────────
+  {
+    slug: "arkansas",
+    city: "Arkansas",
+    country: "USA",
+    lat: 34.7465, lng: -92.2896,
+    localContext:
+      "Arkansas Nuclear One in Russellville, operated by Entergy, is the state's only nuclear plant and supplies roughly 20% of Arkansas electricity — both units are pursuing NRC license extensions through 2054 and 2058. Lockheed Martin's Camden facility is the sole US producer of PAC-3 interceptor missiles and is tripling output under a new Munitions Acceleration Center and Pentagon production agreements. Nucor-Yamato Steel in Blytheville is one of the largest structural-steel mills in the world at 2.5M+ tons/year of electric-arc-furnace capacity, and Delek US's El Dorado refinery processes roughly 75,000 barrels a day. Between nuclear, missile production, steel, and refining, Arkansas supports a genuinely diverse — if geographically spread out — base of ASME, MIL-STD, and API inspection demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Arkansas Nuclear One and Delek's El Dorado refinery qualify personnel under ASNT SNT-TC-1A with ASME Section XI (nuclear) or API 510/570/653 (refining) overlays; Lockheed Martin's Camden missile plant applies MIL-STD-2132 and NAS 410-aligned radiographic and ultrasonic procedures for interceptor-body inspection, and most roles there require a DoD security clearance.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–90,000/year (clearance premium at Camden)",
+      levelIII: "USD 105,000–150,000/year",
+      usdReference: "USD 64,000–90,000",
+    },
+    examCenters: [
+      { name: "Acuren Little Rock", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Little Rock", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "kansas-city", label: "Kansas City" },
+      { slug: "tulsa", label: "Tulsa" },
+      { slug: "st-louis", label: "St. Louis" },
+      { slug: "oklahoma-city", label: "Oklahoma City" },
+      { slug: "baton-rouge", label: "Baton Rouge" },
+    ],
+  },
+  {
+    slug: "delaware",
+    city: "Delaware",
+    country: "USA",
+    lat: 39.7447, lng: -75.5484,
+    localContext:
+      "The Delaware City Refinery, owned by PBF Energy, is one of the largest and most complex refineries on the East Coast at roughly 190,000 barrels a day, running continuous API 510/570/653 turnaround inspection. Chemours is headquartered in Wilmington with an active R&D campus — part of Delaware's DuPont-founded chemical-manufacturing legacy — and Croda operates a specialty-chemical manufacturing site in the Newark/New Castle area. The Port of Wilmington, the largest port on the Delaware River, adds structural inspection demand for cranes, berths, and marine infrastructure. Delaware's industrial base is smaller than neighboring states, but the refinery anchor alone supports a real, if modestly scoped, technician pipeline.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "The Delaware City Refinery and Croda's Newark specialty-chemical site qualify personnel under ASNT SNT-TC-1A with API 510/570/653 inspector overlays; Port of Wilmington structural and lifting-equipment work follows AWS D1.1 practice.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 62,000–88,000/year",
+      levelIII: "USD 100,000–145,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "Acuren Philadelphia / Wilmington", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Philadelphia", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "philadelphia", label: "Philadelphia" },
+      { slug: "pittsburgh", label: "Pittsburgh" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "washington-dc", label: "Washington DC" },
+      { slug: "new-york", label: "New York" },
+    ],
+  },
+  {
+    slug: "hawaii",
+    city: "Hawaii",
+    country: "USA",
+    lat: 21.3069, lng: -157.8583,
+    localContext:
+      "Pearl Harbor Naval Shipyard is undergoing a multibillion-dollar infrastructure optimization program with four dry docks operating and a fifth under construction, backed by a 5,000+ civilian workforce performing submarine maintenance and overhaul — the largest concentration of NDT-relevant work in the state. Par Hawaii's Kapolei refinery, Hawaii's last remaining refinery, is now co-located with a new sustainable-aviation-fuel biorefinery. 'The Forge,' a DoD advanced-manufacturing facility at Schofield Barracks, provides precision machining and additive manufacturing supporting Army installations, and Joint Base Pearl Harbor-Hickam's associated installations require ongoing structural and pressure-equipment inspection across Oahu. Hawaii's NDT demand is real but narrow — concentrated almost entirely around the shipyard and a single refinery — so training pathways here lean heavily toward naval and marine-structure inspection.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Pearl Harbor Naval Shipyard qualifies personnel under ASNT SNT-TC-1A plus NAVSEA 250-1500-1 for submarine hull and structural welds, and most shipyard NDT roles require a DoD security clearance; Par Hawaii's refinery applies API 510/570/653 for its process piping and pressure vessels.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year (island cost-of-living + clearance premium)",
+      levelII: "USD 70,000–98,000/year",
+      levelIII: "USD 115,000–162,000/year",
+      usdReference: "USD 70,000–98,000",
+    },
+    examCenters: [
+      { name: "Acuren Honolulu", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Honolulu", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "seattle", label: "Seattle" },
+      { slug: "san-diego", label: "San Diego" },
+      { slug: "anchorage", label: "Anchorage" },
+      { slug: "groton", label: "Groton" },
+      { slug: "norfolk", label: "Norfolk" },
+    ],
+  },
+  {
+    slug: "idaho",
+    city: "Idaho",
+    country: "USA",
+    lat: 43.6150, lng: -116.2023,
+    localContext:
+      "Idaho National Laboratory, managed by Battelle Energy Alliance for the US Department of Energy, is the nation's lead nuclear research and reactor-development laboratory, based near Idaho Falls. Micron Technology's Boise campus is undergoing a multibillion-dollar fab expansion as part of the company's 17,000-job national investment in semiconductor manufacturing. Simplot's southeast Idaho phosphate operations (Smoky Canyon, Pocatello) account for roughly 22-25% of US phosphate supply, and the state's #1-in-the-nation potato industry supports large-scale frozen-food processing plants requiring boiler and pressure-vessel inspection. Idaho's industrial base is thinner than most states with a training presence elsewhere on this site, but INL's nuclear-research mission and Micron's fast-growing fab construction support a real, modestly scoped technician pipeline.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Idaho National Laboratory qualifies NDT personnel under ASNT SNT-TC-1A combined with DOE Order 426.2 nuclear-safety requirements, and most INL technician roles require a DOE security clearance; Micron's Boise fab qualifies personnel under SEMI-standard and ASNT-aligned procedures for tool and process-equipment inspection.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 47,000–62,000/year (clearance premium at INL)",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–152,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Acuren Boise", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Boise / Idaho Falls", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "denver", label: "Denver" },
+      { slug: "seattle", label: "Seattle" },
+      { slug: "portland", label: "Portland" },
+      { slug: "aiken", label: "Aiken" },
+    ],
+  },
+  {
+    slug: "iowa",
+    city: "Iowa",
+    country: "USA",
+    lat: 41.5868, lng: -93.6250,
+    localContext:
+      "TPI Composites in Newton reopened in 2025 to supply wind-turbine blades to GE Vernova, part of Iowa's #1-in-the-nation wind-generation profile — wind supplies more than 64% of the state's electricity from over 12,200 MW of installed capacity. John Deere manufactures engines and tractors in Waterloo, construction equipment in Dubuque, and hay/forage equipment in Ottumwa. Iowa is the nation's top ethanol producer at roughly 4.5 billion gallons a year, adding pressure-vessel and piping inspection demand, and the Duane Arnold Energy Center — idle since 2020 — is being restarted by NextEra with NRC license-transfer approval, targeting full operation in Q1 2029. A reopened wind-blade plant, a major agricultural-equipment manufacturer, and a multi-year nuclear restart together support solid, diversifying NDT demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "TPI Composites qualifies blade-inspection technicians under ASNT SNT-TC-1A with UT and PAUT specific to composite-laminate defect detection; John Deere's manufacturing plants apply AWS D1.1 weld-inspection practice, and the restarting Duane Arnold plant will return to ASME Section XI in-service inspection under NRC oversight.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 45,000–59,000/year",
+      levelII: "USD 61,000–86,000/year",
+      levelIII: "USD 100,000–144,000/year",
+      usdReference: "USD 61,000–86,000",
+    },
+    examCenters: [
+      { name: "Acuren Des Moines", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Cedar Rapids", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "minneapolis", label: "Minneapolis" },
+      { slug: "milwaukee", label: "Milwaukee" },
+      { slug: "kansas-city", label: "Kansas City" },
+      { slug: "st-louis", label: "St. Louis" },
+      { slug: "chicago", label: "Chicago" },
+    ],
+  },
+  {
+    slug: "nebraska",
+    city: "Nebraska",
+    country: "USA",
+    lat: 41.2565, lng: -95.9345,
+    localContext:
+      "Cooper Nuclear Station near Brownville, operated by Nebraska Public Power District, is pursuing a 20-year subsequent license renewal filed with the NRC in 2026. Nucor Steel Nebraska in Norfolk operates an electric-arc-furnace mill with an associated Vulcraft fabrication division requiring weld and plate inspection, and Offutt Air Force Base in Bellevue hosts US Strategic Command headquarters and multiple Air Force wings. Major agricultural processors including Tyson Fresh Meats (Dakota City) and JBS (Grand Island) require pressure-vessel and boiler inspection at scale. Nebraska's classic-NDT industrial base is thinner than most — no aerospace, shipbuilding, or refining — but a real operating nuclear plant, an active steel mill, and large ag-processing operations support an honest, modest technician pipeline.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Cooper Nuclear Station qualifies personnel under ASNT SNT-TC-1A with ASME Section XI in-service inspection procedures under NRC oversight; Nucor's Norfolk mill and Vulcraft fabrication apply AWS D1.1, and food-processing pressure-vessel and boiler inspection follows ASME Section I/VIII.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–84,000/year",
+      levelIII: "USD 98,000–140,000/year",
+      usdReference: "USD 60,000–84,000",
+    },
+    examCenters: [
+      { name: "Acuren Omaha", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Omaha", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "kansas-city", label: "Kansas City" },
+      { slug: "minneapolis", label: "Minneapolis" },
+      { slug: "st-louis", label: "St. Louis" },
+      { slug: "wichita", label: "Wichita" },
+      { slug: "milwaukee", label: "Milwaukee" },
+    ],
+  },
+  {
+    slug: "nevada",
+    city: "Nevada",
+    country: "USA",
+    lat: 39.5296, lng: -119.8138,
+    localContext:
+      "The Tesla Gigafactory in Sparks/Storey County is expanding battery and Semi-truck production toward a 50,000-truck annual target and employs roughly 11,000 people, driving sustained demand for structural and pressure-system inspection on fast-growing manufacturing lines. Nevada Gold Mines, a joint venture between Barrick and Newmont, is the largest gold-mining complex in the US, and the Thacker Pass lithium project (Lithium Americas) is under active construction as part of Nevada's emerging role in US battery-material supply chains. The Nevada Test and Training Range and Creech Air Force Base support extensive unmanned-aircraft and weapons-systems testing infrastructure. Nevada has no meaningful oil refining or nuclear power, but the Gigafactory and the largest gold-mining complex in the country are two genuinely strong pillars for structural, pressure-vessel, and precision-manufacturing NDT.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "The Tesla Gigafactory qualifies weld and structural-inspection personnel under ASNT SNT-TC-1A with AWS D1.1/D1.6 overlays for battery-enclosure and Semi-truck chassis fabrication; Nevada Gold Mines' processing plants apply ASME Section VIII pressure-vessel practice, with MSHA safety training layered on top.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–94,000/year",
+      levelIII: "USD 105,000–150,000/year",
+      usdReference: "USD 66,000–94,000",
+    },
+    examCenters: [
+      { name: "Acuren Reno / Sparks", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Las Vegas", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "los-angeles", label: "Los Angeles" },
+      { slug: "san-diego", label: "San Diego" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "denver", label: "Denver" },
+      { slug: "seattle", label: "Seattle" },
+    ],
+  },
+  {
+    slug: "new-hampshire",
+    city: "New Hampshire",
+    country: "USA",
+    lat: 42.9956, lng: -71.4548,
+    localContext:
+      "Seabrook Station, operated by NextEra Energy, is New Hampshire's only nuclear plant and is licensed to operate through 2050. BAE Systems' Nashua microelectronics center is a DoD-designated Trusted Foundry producing defense and satellite chips, with a CHIPS Act-funded modernization underway. Portsmouth Naval Shipyard, physically located across the river in Kittery, Maine, draws more than 3,100 New Hampshire residents into its submarine-maintenance workforce — a real workforce story rather than an in-state facility claim — and the Merrimack Valley hosts a diversified cluster of precision-machining and advanced-manufacturing suppliers. New Hampshire's industrial base is narrower than most states with an established training presence, but Seabrook and BAE's Trusted Foundry are genuine, verifiable anchors.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Seabrook Station qualifies personnel under ASNT SNT-TC-1A with ASME Section XI in-service inspection under NRC oversight; BAE Systems' Nashua Trusted Foundry applies NAS 410 and Nadcap AC7114 overlays for defense-microelectronics package inspection, with most roles requiring a DoD security clearance.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–65,000/year (clearance premium at BAE)",
+      levelII: "USD 68,000–96,000/year",
+      levelIII: "USD 110,000–158,000/year",
+      usdReference: "USD 68,000–96,000",
+    },
+    examCenters: [
+      { name: "Acuren Boston / New England", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Boston", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "boston", label: "Boston" },
+      { slug: "east-hartford", label: "East Hartford" },
+      { slug: "groton", label: "Groton" },
+      { slug: "bath-maine", label: "Bath" },
+      { slug: "new-york", label: "New York" },
+    ],
+  },
+  {
+    slug: "new-mexico",
+    city: "New Mexico",
+    country: "USA",
+    lat: 35.0844, lng: -106.6504,
+    localContext:
+      "Los Alamos National Laboratory (operated by Triad National Security) and Sandia National Laboratories (operated by Honeywell's NTESS) conduct nuclear-weapons and national-security R&D requiring extensive radiographic and ultrasonic inspection of precision-machined and nuclear components. The Waste Isolation Pilot Plant (WIPP) near Carlsbad is the nation's only operating deep-geologic transuranic waste repository, with over 14,000 shipments received since 1999. Lea County is the #1 oil-producing county in the US, and southeastern New Mexico's Permian Basin operations account for a major share of national output, while HF Sinclair's Navajo Refinery — split between Artesia and Lovington — processes roughly 100,000 barrels a day. New Mexico is one of the strongest states in this expansion — a nuclear-weapons research complex, the nation's only operating deep-geologic nuclear-waste repository, and heavy Permian Basin oil, gas, and refining infrastructure together generate substantial, verifiable NDT demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Los Alamos and Sandia National Laboratories qualify NDT personnel under ASNT SNT-TC-1A combined with DOE Order 426.2 and NNSA nuclear-safety requirements, and nearly all laboratory technician roles require a DOE Q- or L-level security clearance; WIPP applies DOE nuclear-facility procedures, while Permian Basin and refinery work follows API 510/570/653.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 49,000–65,000/year (clearance premium at the labs)",
+      levelII: "USD 70,000–98,000/year",
+      levelIII: "USD 112,000–160,000/year",
+      usdReference: "USD 70,000–98,000",
+    },
+    examCenters: [
+      { name: "Acuren Albuquerque", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Albuquerque / Carlsbad", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "midland", label: "Midland" },
+      { slug: "odessa", label: "Odessa" },
+      { slug: "denver", label: "Denver" },
+      { slug: "aiken", label: "Aiken" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+    ],
+  },
+  {
+    slug: "rhode-island",
+    city: "Rhode Island",
+    country: "USA",
+    lat: 41.8240, lng: -71.4128,
+    localContext:
+      "General Dynamics Electric Boat's Quonset Point facility in North Kingstown fabricates submarine hull modules for the Columbia- and Virginia-class programs, employing 7,000+ under a landmark 2025 Navy submarine-construction contract. Naval Undersea Warfare Center Division Newport conducts submarine and undersea-weapons research, development, and test with a substantial nine-figure annual budget, and Naval Station Newport is home to the Naval War College and roughly 50 tenant commands. Quonset Point also serves as an operations hub for Ørsted's Revolution Wind project, which began delivering power to the regional grid in 2026. Rhode Island's NDT demand is deep but narrow — nearly all of it concentrates around submarine-module manufacturing and undersea-warfare R&D, with a growing offshore-wind component.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Electric Boat's Quonset Point module facility qualifies personnel under ASNT SNT-TC-1A plus NAVSEA 250-1500-1 for submarine hull-module welds, with most roles requiring a DoD security clearance; offshore-wind foundation and turbine-tower inspection at Quonset Point follows AWS D1.1 and API RP 2A structural-steel practice.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 51,000–67,000/year (clearance premium)",
+      levelII: "USD 71,000–99,000/year",
+      levelIII: "USD 116,000–166,000/year",
+      usdReference: "USD 71,000–99,000",
+    },
+    examCenters: [
+      { name: "Acuren Providence", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Providence / Quonset Point", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "groton", label: "Groton" },
+      { slug: "bath-maine", label: "Bath" },
+      { slug: "boston", label: "Boston" },
+      { slug: "east-hartford", label: "East Hartford" },
+      { slug: "new-york", label: "New York" },
+    ],
+  },
+  {
+    slug: "south-dakota",
+    city: "South Dakota",
+    country: "USA",
+    lat: 43.5460, lng: -96.7313,
+    localContext:
+      "Ellsworth Air Force Base, near Rapid City, is being developed as the first operational base for the B-21 Raider bomber, backed by a multibillion-dollar infrastructure overhaul. The Wharf Mine (Coeur Mining) near Lead is the only active large-scale mine in the Black Hills, producing roughly 97,000 ounces of gold in 2025, and Smithfield Foods' Sioux Falls plant is one of the largest pork-processing facilities in the world, requiring boiler and pressure-vessel inspection. Multiple ethanol plants across the state process South Dakota's corn crop, adding pressure-vessel and piping NDT demand. South Dakota is genuinely thinner industrially than most states with a training presence elsewhere on this site — no nuclear power, refining, or shipbuilding — but Ellsworth's B-21 buildout, active gold mining, and large-scale food processing support a real, modestly scoped technician pipeline.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Ellsworth AFB's B-21 infrastructure buildout qualifies structural and weld-inspection personnel under ASNT SNT-TC-1A with USAF facility-construction standards; the Wharf Mine's processing plant applies ASME Section VIII pressure-vessel practice with MSHA safety training, and Smithfield's Sioux Falls plant follows ASME Section I/VIII for boiler and pressure-vessel inspection.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 43,000–57,000/year",
+      levelII: "USD 58,000–82,000/year",
+      levelIII: "USD 96,000–138,000/year",
+      usdReference: "USD 58,000–82,000",
+    },
+    examCenters: [
+      { name: "Acuren Sioux Falls", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Rapid City", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "minneapolis", label: "Minneapolis" },
+      { slug: "kansas-city", label: "Kansas City" },
+      { slug: "milwaukee", label: "Milwaukee" },
+      { slug: "denver", label: "Denver" },
+      { slug: "nebraska", label: "Nebraska" },
+    ],
+  },
+  {
+    slug: "vermont",
+    city: "Vermont",
+    country: "USA",
+    lat: 44.4759, lng: -73.2121,
+    localContext:
+      "GlobalFoundries' Essex Junction fab is Vermont's largest private employer, part of a multibillion-dollar combined New York/Vermont investment expanding chip production. Vermont Yankee's physical decommissioning, led by NorthStar, is nearing completion — years ahead of its original 2030 schedule — and still requires ongoing NDE-relevant cask and facility inspection. Collins Aerospace's Vergennes facility and a cluster of precision-machining suppliers support commercial and defense aircraft components, and BETA Technologies in South Burlington is developing and testing electric vertical-takeoff-and-landing (eVTOL) aircraft. Vermont's industrial base is smaller and more niche than most states with a training presence elsewhere on this site, but the semiconductor fab, the finishing nuclear-decommissioning project, and an emerging aerospace/eVTOL cluster support a real, modestly scoped pipeline.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "GlobalFoundries' Essex Junction fab qualifies tool and process-equipment inspection personnel under SEMI-standard and ASNT-aligned procedures; Vermont Yankee's decommissioning applies DOE/NRC nuclear-facility procedures, and Collins Aerospace's Vergennes plant qualifies personnel under ASNT SNT-TC-1A with NAS 410 aerospace overlay.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 63,000–88,000/year",
+      levelIII: "USD 102,000–145,000/year",
+      usdReference: "USD 63,000–88,000",
+    },
+    examCenters: [
+      { name: "Acuren Burlington", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Boston / Burlington", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "boston", label: "Boston" },
+      { slug: "east-hartford", label: "East Hartford" },
+      { slug: "groton", label: "Groton" },
+      { slug: "bath-maine", label: "Bath" },
+      { slug: "new-york", label: "New York" },
+    ],
+  },
+  {
+    slug: "west-virginia",
+    city: "West Virginia",
+    country: "USA",
+    lat: 38.3498, lng: -81.6326,
+    localContext:
+      "Union Carbide, a Dow subsidiary, operates its South Charleston site as part of West Virginia's long-standing Kanawha Valley chemical corridor. West Virginia set a state production record of 3.6 Tcf of natural gas in 2025 from the Marcellus and Utica shales, making it the 5th-largest gas producer in the US, and Nucor Steel West Virginia (Apple Grove) alongside a major new Commercial Metals Company micro mill in Berkeley County represent active, modernizing steel capacity. The state's coal- and gas-fired power plants require ongoing boiler and pressure-system inspection under ASME Section I and V. West Virginia's active petrochemical corridor, record-setting shale-gas production, and modernizing steel capacity together generate real, verifiable demand for pipeline, pressure-vessel, and structural-weld NDT technicians.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Union Carbide's South Charleston site and the Kanawha Valley chemical corridor qualify personnel under ASNT SNT-TC-1A with API 510/570/653 overlays; Marcellus/Utica gas-gathering and transmission pipeline inspection follows PHMSA-aligned API 1104 weld-inspection practice, and the state's steel mills apply AWS D1.1.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–85,000/year",
+      levelIII: "USD 98,000–140,000/year",
+      usdReference: "USD 60,000–85,000",
+    },
+    examCenters: [
+      { name: "Acuren Charleston (WV) / Pittsburgh", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Pittsburgh", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "pittsburgh", label: "Pittsburgh" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "washington-dc", label: "Washington DC" },
+      { slug: "philadelphia", label: "Philadelphia" },
+      { slug: "cincinnati", label: "Cincinnati" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

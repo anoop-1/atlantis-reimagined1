@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{g as t,T as o}from"./TrainingLocationPage-QyXKzFV4.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-EOlQp_hb.js";import"./erp-pages-0f-1VdC2.js";function p(){const r=t("surat");return r?i.jsx(o,{profile:r}):null}export{p as default};

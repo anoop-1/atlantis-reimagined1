@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import t from"./MethodLocationPage-VIF0pH2x.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-0f-1VdC2.js";function u(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"houston"})}export{u as default};

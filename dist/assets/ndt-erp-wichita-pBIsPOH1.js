@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import{E as i}from"./ErpLocationPage-C5QtiSvq.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-0f-1VdC2.js";import"./RelatedProducts-EOlQp_hb.js";function s(){return t.jsx(i,{city:"Wichita",country:"USA",slug:"ndt-erp-wichita"})}export{s as default};

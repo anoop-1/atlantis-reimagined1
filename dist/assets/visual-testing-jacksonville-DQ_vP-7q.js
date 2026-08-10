@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Be79NB64.js";import t from"./MethodLocationPage-pKIfBWah.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-C-oAx_1X.js";function l(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"jacksonville"})}export{l as default};

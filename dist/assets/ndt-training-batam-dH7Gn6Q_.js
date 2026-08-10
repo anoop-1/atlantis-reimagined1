@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Be79NB64.js";import{g as t,T as o}from"./TrainingLocationPage-cADDFd8L.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DLWmyZ44.js";import"./erp-pages-C-oAx_1X.js";function s(){const i=t("batam");return i?r.jsx(o,{profile:i}):null}export{s as default};
