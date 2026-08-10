@@ -1802,6 +1802,24 @@ const NDTConsultingAlabamaState = lazy(() => import("./pages/ndt-consulting-alab
 const NDTConsultingOklahomaState = lazy(() => import("./pages/ndt-consulting-oklahoma-state"));
 const NDTConsultingMinnesotaState = lazy(() => import("./pages/ndt-consulting-minnesota-state"));
 const NDTConsultingWisconsinState = lazy(() => import("./pages/ndt-consulting-wisconsin-state"));
+const NDTConsultingArkansasState = lazy(() => import("./pages/ndt-consulting-arkansas-state"));
+const NDTConsultingConnecticutState = lazy(() => import("./pages/ndt-consulting-connecticut-state"));
+const NDTConsultingDelawareState = lazy(() => import("./pages/ndt-consulting-delaware-state"));
+const NDTConsultingHawaiiState = lazy(() => import("./pages/ndt-consulting-hawaii-state"));
+const NDTConsultingIdahoState = lazy(() => import("./pages/ndt-consulting-idaho-state"));
+const NDTConsultingIowaState = lazy(() => import("./pages/ndt-consulting-iowa-state"));
+const NDTConsultingKansasState = lazy(() => import("./pages/ndt-consulting-kansas-state"));
+const NDTConsultingMaineState = lazy(() => import("./pages/ndt-consulting-maine-state"));
+const NDTConsultingMississippiState = lazy(() => import("./pages/ndt-consulting-mississippi-state"));
+const NDTConsultingNebraskaState = lazy(() => import("./pages/ndt-consulting-nebraska-state"));
+const NDTConsultingNevadaState = lazy(() => import("./pages/ndt-consulting-nevada-state"));
+const NDTConsultingNewHampshireState = lazy(() => import("./pages/ndt-consulting-new-hampshire-state"));
+const NDTConsultingNewMexicoState = lazy(() => import("./pages/ndt-consulting-new-mexico-state"));
+const NDTConsultingRhodeIslandState = lazy(() => import("./pages/ndt-consulting-rhode-island-state"));
+const NDTConsultingSouthCarolinaState = lazy(() => import("./pages/ndt-consulting-south-carolina-state"));
+const NDTConsultingSouthDakotaState = lazy(() => import("./pages/ndt-consulting-south-dakota-state"));
+const NDTConsultingVermontState = lazy(() => import("./pages/ndt-consulting-vermont-state"));
+const NDTConsultingWestVirginiaState = lazy(() => import("./pages/ndt-consulting-west-virginia-state"));
 
 const NDTConsultingBahrain = lazy(() => import("./pages/ndt-consulting-bahrain"));
 const NDTConsultingOman = lazy(() => import("./pages/ndt-consulting-oman"));
@@ -4072,6 +4090,24 @@ const App = () => (
                   <Route path="/ndt-consulting-oklahoma" element={<LazyRoute Component={NDTConsultingOklahomaState} />} />
                   <Route path="/ndt-consulting-minnesota" element={<LazyRoute Component={NDTConsultingMinnesotaState} />} />
                   <Route path="/ndt-consulting-wisconsin" element={<LazyRoute Component={NDTConsultingWisconsinState} />} />
+                  <Route path="/ndt-consulting-arkansas" element={<LazyRoute Component={NDTConsultingArkansasState} />} />
+                  <Route path="/ndt-consulting-connecticut" element={<LazyRoute Component={NDTConsultingConnecticutState} />} />
+                  <Route path="/ndt-consulting-delaware" element={<LazyRoute Component={NDTConsultingDelawareState} />} />
+                  <Route path="/ndt-consulting-hawaii" element={<LazyRoute Component={NDTConsultingHawaiiState} />} />
+                  <Route path="/ndt-consulting-idaho" element={<LazyRoute Component={NDTConsultingIdahoState} />} />
+                  <Route path="/ndt-consulting-iowa" element={<LazyRoute Component={NDTConsultingIowaState} />} />
+                  <Route path="/ndt-consulting-kansas" element={<LazyRoute Component={NDTConsultingKansasState} />} />
+                  <Route path="/ndt-consulting-maine" element={<LazyRoute Component={NDTConsultingMaineState} />} />
+                  <Route path="/ndt-consulting-mississippi" element={<LazyRoute Component={NDTConsultingMississippiState} />} />
+                  <Route path="/ndt-consulting-nebraska" element={<LazyRoute Component={NDTConsultingNebraskaState} />} />
+                  <Route path="/ndt-consulting-nevada" element={<LazyRoute Component={NDTConsultingNevadaState} />} />
+                  <Route path="/ndt-consulting-new-hampshire" element={<LazyRoute Component={NDTConsultingNewHampshireState} />} />
+                  <Route path="/ndt-consulting-new-mexico" element={<LazyRoute Component={NDTConsultingNewMexicoState} />} />
+                  <Route path="/ndt-consulting-rhode-island" element={<LazyRoute Component={NDTConsultingRhodeIslandState} />} />
+                  <Route path="/ndt-consulting-south-carolina" element={<LazyRoute Component={NDTConsultingSouthCarolinaState} />} />
+                  <Route path="/ndt-consulting-south-dakota" element={<LazyRoute Component={NDTConsultingSouthDakotaState} />} />
+                  <Route path="/ndt-consulting-vermont" element={<LazyRoute Component={NDTConsultingVermontState} />} />
+                  <Route path="/ndt-consulting-west-virginia" element={<LazyRoute Component={NDTConsultingWestVirginiaState} />} />
 
                   <Route path="/consulting/ndt-consulting-bahrain" element={<LazyRoute Component={NDTConsultingBahrain} />} />
                   <Route path="/consulting/ndt-consulting-oman" element={<LazyRoute Component={NDTConsultingOman} />} />
