@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Be79NB64.js";import{g as t,T as o}from"./TrainingLocationPage-C1etwd-P.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DKzBDfQQ.js";import"./erp-pages-BvjWIKXS.js";function p(){const i=t("galveston");return i?r.jsx(o,{profile:i}):null}export{p as default};

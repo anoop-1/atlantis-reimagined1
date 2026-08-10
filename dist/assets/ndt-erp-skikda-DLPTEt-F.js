@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Be79NB64.js";import{E as t}from"./ErpLocationPage-DG-eRzdH.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-Gzw25Cre.js";import"./RelatedProducts-BjZGo5OE.js";function n(){return r.jsx(t,{city:"Skikda",country:"Algeria",slug:"ndt-erp-skikda"})}export{n as default};

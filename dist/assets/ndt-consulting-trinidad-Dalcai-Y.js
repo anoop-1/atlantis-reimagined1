@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Be79NB64.js";import{C as t}from"./ConsultingLocationPage-D5yEIdHv.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Gzw25Cre.js";import"./RelatedProducts-BjZGo5OE.js";function u(){return o.jsx(t,{locationSlug:"trinidad"})}export{u as default};

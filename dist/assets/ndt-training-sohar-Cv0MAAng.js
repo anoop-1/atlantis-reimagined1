@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{g as o,T as t}from"./TrainingLocationPage-C1etwd-P.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DKzBDfQQ.js";import"./erp-pages-BvjWIKXS.js";function p(){const r=o("sohar");return r?i.jsx(t,{profile:r}):null}export{p as default};

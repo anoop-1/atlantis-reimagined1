@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{g as t,T as o}from"./TrainingLocationPage-C1etwd-P.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DKzBDfQQ.js";import"./erp-pages-BvjWIKXS.js";function e(){const r=t("kuala-lumpur");return r?i.jsx(o,{profile:r}):null}export{e as default};

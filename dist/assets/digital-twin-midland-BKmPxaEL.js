@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{D as t}from"./DigitalTwinLocationPage-B1VdljiX.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-BvjWIKXS.js";import"./RelatedProducts-DKzBDfQQ.js";function l(){return i.jsx(t,{city:"Midland",country:"USA",slug:"digital-twin-midland"})}export{l as default};

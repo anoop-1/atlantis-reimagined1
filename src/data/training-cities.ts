@@ -4024,6 +4024,256 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "surat", label: "Surat" },
     ],
   },
+
+  // ──────── US aerospace, shipbuilding & nuclear gap cities 2026-08-11 ────────
+  {
+    slug: "wichita",
+    city: "Wichita",
+    country: "USA",
+    lat: 37.6872, lng: -97.3301,
+    localContext:
+      "Wichita is the historic 'Air Capital of the World' — Textron Aviation (Cessna and Beechcraft general-aviation manufacturing) is headquartered here, and Spirit AeroSystems' Wichita plant, source of 737 fuselages and major 787/777 structures, became part of Boeing Commercial Airplanes when Boeing completed its $8.4B acquisition of Spirit in December 2025. Bombardier converted its former Learjet final-assembly site into its US headquarters, flight-test center and Bombardier Defense operation after ending Learjet production in March 2022, retaining more than 1,200 jobs across seven service-center hangars. The city's dense aerostructures supply chain keeps demand high for RT, UT, ET and PT technicians qualified to aerospace NAS 410 standards.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Textron Aviation and the former Spirit AeroSystems plant (now integrated into Boeing Commercial Airplanes) qualify personnel under ASNT SNT-TC-1A with a NAS 410 and Nadcap AC7114 aerospace overlay; Bombardier's Wichita defense and MRO operation applies the same basis. ASNT Level II is the standard hire; Level III sign-off additionally requires NAS 410 employer certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–60,000/year",
+      levelII: "USD 64,000–88,000/year",
+      levelIII: "USD 104,000–148,000/year",
+      usdReference: "USD 64,000–88,000",
+    },
+    examCenters: [
+      { name: "Acuren Wichita", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Wichita", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "fort-worth", label: "Fort Worth" },
+      { slug: "tulsa", label: "Tulsa" },
+      { slug: "cincinnati", label: "Cincinnati" },
+      { slug: "kansas-city", label: "Kansas City" },
+      { slug: "seattle", label: "Seattle" },
+    ],
+  },
+  {
+    slug: "east-hartford",
+    city: "East Hartford",
+    country: "USA",
+    lat: 41.7662, lng: -72.6120,
+    localContext:
+      "East Hartford is the world headquarters and primary US manufacturing site of Pratt & Whitney, which builds the F135 fighter engine (F-35) alongside commercial GTF and legacy military engines and employs roughly 11,000 people locally — about 82% of the division's work is done at this one site. Twenty minutes south in Stratford, Sikorsky (a Lockheed Martin company) builds the CH-53K heavy-lift helicopter under a $10.9B, up-to-99-aircraft Navy contract running through 2033. RTX sibling Collins Aerospace runs avionics and actuation manufacturing nearby in Windsor Locks. Between them, the corridor supports an estimated 21,000 Connecticut jobs tied to engine and rotorcraft production.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Pratt & Whitney and RTX sibling Collins Aerospace qualify personnel under ASNT SNT-TC-1A with NAS 410 and Nadcap AC7114 overlay for engine and avionics work; F135 fighter-engine production adds ITAR-controlled radiography and eddy current procedures specific to defense contracts. Sikorsky in Stratford applies the same NAS 410 basis for rotorcraft structure inspection.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 52,000–68,000/year",
+      levelII: "USD 70,000–98,000/year",
+      levelIII: "USD 115,000–165,000/year",
+      usdReference: "USD 70,000–98,000",
+    },
+    examCenters: [
+      { name: "Acuren Hartford", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Hartford / Windsor", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "groton", label: "Groton" },
+      { slug: "boston", label: "Boston" },
+      { slug: "new-york", label: "New York" },
+      { slug: "cincinnati", label: "Cincinnati" },
+      { slug: "norfolk", label: "Norfolk" },
+    ],
+  },
+  {
+    slug: "north-charleston",
+    city: "North Charleston",
+    country: "USA",
+    lat: 32.8546, lng: -79.9748,
+    localContext:
+      "North Charleston is home to Boeing South Carolina's 787 Dreamliner final assembly campus, which broke ground on a $1B, 1.2-million-square-foot expansion in November 2025 to push production toward 10 aircraft a month and is consolidating the remaining 787 production-engineering work from Washington State onto this site. The Naval Nuclear Power Training Command, on Joint Base Charleston in nearby Goose Creek, trains roughly 2,500 US Navy nuclear-propulsion students at a time through Nuclear Power School and Nuclear Field 'A' School — a distinct but locally overlapping pool of nuclear-qualified technical talent. SC Ports' North Charleston Terminal adds container-crane and heavy-lift structural inspection scope.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Boeing South Carolina qualifies personnel under ASNT SNT-TC-1A with NAS 410 and Nadcap AC7114 overlay for 787 structure and systems inspection. The Naval Nuclear Power Training Command trains active-duty Navy reactor operators on a separate military qualification track rather than civilian ASNT certification, but the base draws a steady pool of instructors and technicians with naval nuclear backgrounds into the regional civilian NDT workforce after service.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 108,000–152,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Acuren Charleston", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Charleston", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "savannah", label: "Savannah" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "jacksonville", label: "Jacksonville" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "seattle", label: "Seattle" },
+    ],
+  },
+  {
+    slug: "savannah",
+    city: "Savannah",
+    country: "USA",
+    lat: 32.0809, lng: -81.0912,
+    localContext:
+      "Savannah is the headquarters and primary manufacturing home of Gulfstream Aerospace (General Dynamics), which builds the G500, G600 and G700 business-jet family and has completed a Savannah precision-manufacturing expansion backed by roughly $150M and about 1,600 new jobs. Hyundai Metaplant America, a large EV and battery-pack assembly plant in neighboring Bryan County, began production in 2025. Georgia Ports Authority's Garden City Terminal — one of the largest single-container terminals in North America — adds structural and lifting-equipment inspection scope, and Plant Vogtle's AP1000 nuclear units near Waynesboro, about 90 minutes inland, draw on the same regional Level III bench.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["CSWIP"],
+    certPathwayNote:
+      "Gulfstream qualifies airframe and engine inspection personnel under ASNT SNT-TC-1A with NAS 410 and Nadcap AC7114 overlay. Hyundai Metaplant's stamping, chassis and battery-pack welds are inspected under AWS D1.1/D8.1 by ASNT-qualified technicians. Port and marine-terminal structural work follows API and AWS practice rather than an aerospace overlay.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–61,000/year",
+      levelII: "USD 64,000–89,000/year",
+      levelIII: "USD 105,000–148,000/year",
+      usdReference: "USD 64,000–89,000",
+    },
+    examCenters: [
+      { name: "Acuren Savannah", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Savannah", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "north-charleston", label: "North Charleston" },
+      { slug: "aiken", label: "Aiken" },
+      { slug: "jacksonville", label: "Jacksonville" },
+      { slug: "mobile", label: "Mobile" },
+      { slug: "huntsville", label: "Huntsville" },
+    ],
+  },
+  {
+    slug: "aiken",
+    city: "Aiken",
+    country: "USA",
+    lat: 33.5604, lng: -81.7196,
+    localContext:
+      "Aiken sits beside the Savannah River Site, a roughly 310-square-mile US Department of Energy nuclear complex whose management-and-operations contractors — Savannah River Nuclear Solutions and Savannah River Mission Completion — employ around 12,000 people, a workforce projected to grow toward 18,000 as the Savannah River Plutonium Processing Facility (SRPPF) ramps toward roughly 2,100 permanent operations staff. Plant Vogtle's four-unit nuclear station, across the Savannah River near Waynesboro, GA, draws on the same cross-border technical labor market. Most SRS technician roles require a DOE security clearance, and NDT work follows ASME Section XI and DOE nuclear-facility procedures rather than commercial-plant practice alone.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Savannah River Site contractors qualify NDT personnel under ASNT SNT-TC-1A combined with DOE Order 426.2 nuclear safety requirements and ASME Section XI / Section III procedures specific to nuclear-material processing facilities. Most inspector roles additionally require a DOE Q- or L-level security clearance, which lengthens onboarding relative to commercial-plant NDT hiring.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year (clearance premium)",
+      levelII: "USD 70,000–98,000/year (clearance premium)",
+      levelIII: "USD 115,000–165,000/year",
+      usdReference: "USD 70,000–98,000",
+    },
+    examCenters: [
+      { name: "MISTRAS Group Augusta / Aiken", bodies: ["ASNT"] },
+      { name: "Team Industrial Services Augusta", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "savannah", label: "Savannah" },
+      { slug: "north-charleston", label: "North Charleston" },
+      { slug: "kansas-city", label: "Kansas City" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "huntsville", label: "Huntsville" },
+    ],
+  },
+  {
+    slug: "pascagoula",
+    city: "Pascagoula",
+    country: "USA",
+    lat: 30.3658, lng: -88.5561,
+    localContext:
+      "Pascagoula is home to Huntington Ingalls' Ingalls Shipbuilding, Mississippi's largest manufacturing employer at more than 11,000 workers and the sole builder of Navy San Antonio-class (LPD-17) amphibious ships alongside Arleigh Burke-class (DDG-51) destroyers and America-class (LHA) amphibious assault ships — 13 ships were under construction or modernization in 2026 with 11 more under contract. The Chevron Pascagoula refinery, one of the largest refineries in the US at roughly 330,000 barrels a day, runs continuous API 510/570/653 turnaround inspection alongside the shipyard's structural-weld NDT demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["CSWIP"],
+    certPathwayNote:
+      "Ingalls Shipbuilding qualifies personnel under ASNT SNT-TC-1A plus NAVSEA 250-1500-1 and MIL-STD-2132 for Navy hull, deck and structural-steel welds. The adjacent Chevron refinery applies API 510/570/653 for its process piping and pressure-vessel turnarounds, so technicians who cross-qualify in both API and Navy weld-inspection procedures have the widest local hiring pool.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 62,000–86,000/year",
+      levelIII: "USD 100,000–142,000/year",
+      usdReference: "USD 62,000–86,000",
+    },
+    examCenters: [
+      { name: "Acuren Pascagoula / Mobile", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Gulfport", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "mobile", label: "Mobile" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "baton-rouge", label: "Baton Rouge" },
+      { slug: "lake-charles", label: "Lake Charles" },
+      { slug: "groton", label: "Groton" },
+    ],
+  },
+  {
+    slug: "groton",
+    city: "Groton",
+    country: "USA",
+    lat: 41.3501, lng: -72.0787,
+    localContext:
+      "Groton is the submarine-shipbuilding home of General Dynamics Electric Boat, which in July 2026 won the largest contract in its 127-year history — $76.6B covering nine Virginia-class attack submarines and five Columbia-class ballistic-missile submarines — and is hiring toward 8,000 new employees (more than 4,000 already added in 2026), with a further $5B allocated to renovate the Groton shipyard itself. Naval Submarine Base New London, the US Navy's primary East Coast submarine base, sits directly across the Thames River in Groton and adds a second concentration of naval nuclear-adjacent technical work. Structural, weld and radiographic inspection under Navy nuclear-submarine procedures drives sustained Level II/III demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Electric Boat qualifies personnel under ASNT SNT-TC-1A combined with NAVSEA 250-1500-1 and Navy nuclear-submarine-specific weld and NDT procedures. Roles supporting Columbia-class and Virginia-class hull work typically require a DoD security clearance, and Level III sign-off follows ASME Section III (nuclear) in addition to Section XI.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 52,000–68,000/year (clearance premium)",
+      levelII: "USD 72,000–100,000/year (clearance premium)",
+      levelIII: "USD 118,000–168,000/year",
+      usdReference: "USD 72,000–100,000",
+    },
+    examCenters: [
+      { name: "Acuren New London / Groton", bodies: ["ASNT"] },
+      { name: "MISTRAS Group New London", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "bath-maine", label: "Bath" },
+      { slug: "east-hartford", label: "East Hartford" },
+      { slug: "boston", label: "Boston" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "new-york", label: "New York" },
+    ],
+  },
+  {
+    slug: "bath-maine",
+    city: "Bath",
+    country: "USA",
+    lat: 43.9101, lng: -69.8214,
+    localContext:
+      "Bath is a one-company shipbuilding town: General Dynamics' Bath Iron Works employs more than 6,900 Mainers — about 15% of all Maine manufacturing employment — and is the lead yard for the Navy's Arleigh Burke-class (DDG-51) destroyer program, currently building toward its multiyear-contract ships with a new $40M Pier Support Center completed to speed hull production. Washburn & Doughty, a smaller vessel builder twelve miles away in East Boothbay, adds tugboat and workboat fabrication to the region's marine NDT scope. Portsmouth Naval Shipyard's submarine-overhaul workforce in Kittery, about an hour south, and Pratt & Whitney's North Berwick engine-component plant round out Maine's wider defense-manufacturing labor pool.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Bath Iron Works qualifies personnel under ASNT SNT-TC-1A plus NAVSEA 250-1500-1 for Arleigh Burke-class destroyer hull and structural welds. Level II hires typically come up through AWS-certified welding inspection before adding UT and RT; Level III sign-off follows NAVSEA procedures in addition to ASNT SNT-TC-1A.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–63,000/year",
+      levelII: "USD 66,000–92,000/year",
+      levelIII: "USD 106,000–150,000/year",
+      usdReference: "USD 66,000–92,000",
+    },
+    examCenters: [
+      { name: "Acuren Portland (Maine)", bodies: ["ASNT"] },
+      { name: "MISTRAS Group Portland (Maine)", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "groton", label: "Groton" },
+      { slug: "pascagoula", label: "Pascagoula" },
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "boston", label: "Boston" },
+      { slug: "east-hartford", label: "East Hartford" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

@@ -276,6 +276,8 @@ export const CURATED_CITY_SLUGS: Set<string> = new Set([
   'new-york-state', 'florida', 'illinois', 'michigan', 'colorado',
   // === ERP/Training expansion 2026-08-07 — verified gap cities ===
   'busan', 'dalian', 'batam', 'point-lisas', 'antofagasta', 'nashik',
+  // === Training expansion 2026-08-11 — US aerospace/shipbuilding/nuclear gap cities ===
+  'wichita', 'east-hartford', 'north-charleston', 'aiken', 'pascagoula', 'groton', 'bath-maine',
 ]);
 
 /**
@@ -431,6 +433,8 @@ export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'vizag','kochi','jubail','yanbu','dammam',
   // === Training expansion 2026-08-07 — verified gap cities ===
   'ras-laffan','mesaieed','ulsan','jurong-island','karratha','busan','dalian','batam','point-lisas','antofagasta','nashik',
+  // === Training expansion 2026-08-11 — US aerospace/shipbuilding/nuclear gap cities ===
+  'wichita','east-hartford','north-charleston','savannah','aiken','pascagoula','groton','bath-maine',
 ]);
 
 /** Cities that have a /consulting/ndt-consulting-{slug} page. Matches CONSULTING_CITY_SLUGS in city-profiles.ts. */

@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import t from"./MethodLocationPage-BzM3ewRY.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BvjWIKXS.js";function g(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"washington-dc"})}export{g as default};

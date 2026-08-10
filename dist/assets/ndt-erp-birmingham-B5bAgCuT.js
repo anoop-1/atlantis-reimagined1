@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Be79NB64.js";import{E as i}from"./ErpLocationPage-Bs42rr7c.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-BvjWIKXS.js";import"./RelatedProducts-DKzBDfQQ.js";function e(){return r.jsx(i,{city:"Birmingham",country:"USA",slug:"ndt-erp-birmingham"})}export{e as default};

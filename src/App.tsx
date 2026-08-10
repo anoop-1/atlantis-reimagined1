@@ -2808,6 +2808,15 @@ const NDTTrainingBatam = lazy(() => import("./pages/ndt-training-batam"));
 const NDTTrainingPointLisas = lazy(() => import("./pages/ndt-training-point-lisas"));
 const NDTTrainingAntofagasta = lazy(() => import("./pages/ndt-training-antofagasta"));
 const NDTTrainingNashik = lazy(() => import("./pages/ndt-training-nashik"));
+// === Training expansion 2026-08-11 — US aerospace/shipbuilding/nuclear gap cities ===
+const NDTTrainingWichita = lazy(() => import("./pages/ndt-training-wichita"));
+const NDTTrainingEastHartford = lazy(() => import("./pages/ndt-training-east-hartford"));
+const NDTTrainingNorthCharleston = lazy(() => import("./pages/ndt-training-north-charleston"));
+const NDTTrainingSavannah = lazy(() => import("./pages/ndt-training-savannah"));
+const NDTTrainingAiken = lazy(() => import("./pages/ndt-training-aiken"));
+const NDTTrainingPascagoula = lazy(() => import("./pages/ndt-training-pascagoula"));
+const NDTTrainingGroton = lazy(() => import("./pages/ndt-training-groton"));
+const NDTTrainingBathMaine = lazy(() => import("./pages/ndt-training-bath-maine"));
 const CorporateTrainingHydrogenEconomy = lazy(() => import("./pages/corporate-training/HydrogenEconomy"));
 const CorporateTrainingAmmoniaPlants = lazy(() => import("./pages/corporate-training/AmmoniaPlants"));
 const CorporateTrainingBatteryManufacturing = lazy(() => import("./pages/corporate-training/BatteryManufacturing"));
@@ -5542,6 +5551,15 @@ const App = () => (
                   <Route path="/ndt-training-point-lisas" element={<LazyRoute Component={NDTTrainingPointLisas} />} />
                   <Route path="/ndt-training-antofagasta" element={<LazyRoute Component={NDTTrainingAntofagasta} />} />
                   <Route path="/ndt-training-nashik" element={<LazyRoute Component={NDTTrainingNashik} />} />
+                  {/* === Training expansion 2026-08-11 — US aerospace/shipbuilding/nuclear gap cities === */}
+                  <Route path="/ndt-training-wichita" element={<LazyRoute Component={NDTTrainingWichita} />} />
+                  <Route path="/ndt-training-east-hartford" element={<LazyRoute Component={NDTTrainingEastHartford} />} />
+                  <Route path="/ndt-training-north-charleston" element={<LazyRoute Component={NDTTrainingNorthCharleston} />} />
+                  <Route path="/ndt-training-savannah" element={<LazyRoute Component={NDTTrainingSavannah} />} />
+                  <Route path="/ndt-training-aiken" element={<LazyRoute Component={NDTTrainingAiken} />} />
+                  <Route path="/ndt-training-pascagoula" element={<LazyRoute Component={NDTTrainingPascagoula} />} />
+                  <Route path="/ndt-training-groton" element={<LazyRoute Component={NDTTrainingGroton} />} />
+                  <Route path="/ndt-training-bath-maine" element={<LazyRoute Component={NDTTrainingBathMaine} />} />
                   <Route path="/corporate-training/hydrogen-economy" element={<LazyRoute Component={CorporateTrainingHydrogenEconomy} />} />
                   <Route path="/corporate-training/ammonia-plants" element={<LazyRoute Component={CorporateTrainingAmmoniaPlants} />} />
                   <Route path="/corporate-training/battery-manufacturing" element={<LazyRoute Component={CorporateTrainingBatteryManufacturing} />} />

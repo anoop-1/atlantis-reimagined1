@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Be79NB64.js";import{E as o}from"./ErpLocationPage-DG-eRzdH.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-Gzw25Cre.js";import"./RelatedProducts-BjZGo5OE.js";function c(){return t.jsx(o,{city:"Cape Town",country:"South Africa",slug:"ndt-erp-cape-town"})}export{c as default};

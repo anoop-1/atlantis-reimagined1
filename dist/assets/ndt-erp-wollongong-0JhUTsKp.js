@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import{E as r}from"./ErpLocationPage-Bs42rr7c.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-BvjWIKXS.js";import"./RelatedProducts-DKzBDfQQ.js";function g(){return o.jsx(r,{city:"Wollongong",country:"Australia",slug:"ndt-erp-wollongong"})}export{g as default};

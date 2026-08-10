@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Be79NB64.js";import o from"./MethodLocationPage-A1EayOoQ.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Gzw25Cre.js";function n(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"kuwait"})}export{n as default};

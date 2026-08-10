@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Be79NB64.js";import{E as r}from"./ErpLocationPage-Bs42rr7c.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-BvjWIKXS.js";import"./RelatedProducts-DKzBDfQQ.js";function e(){return o.jsx(r,{city:"Hammond",country:"USA",slug:"ndt-erp-hammond"})}export{e as default};

@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{g as t,T as n}from"./TrainingLocationPage-C1etwd-P.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DKzBDfQQ.js";import"./erp-pages-BvjWIKXS.js";function m(){const r=t("stavanger");return r?i.jsx(n,{profile:r}):null}export{m as default};

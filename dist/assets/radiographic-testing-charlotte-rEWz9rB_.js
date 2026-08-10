@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import o from"./MethodLocationPage-BzM3ewRY.js";import"./PillarHubNav-S7LtgJI8.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-BvjWIKXS.js";function p(){return t.jsx(o,{methodSlug:"radiographic-testing",locationSlug:"charlotte"})}export{p as default};

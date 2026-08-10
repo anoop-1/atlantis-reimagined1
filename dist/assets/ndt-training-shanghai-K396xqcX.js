@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Be79NB64.js";import{g as n,T as t}from"./TrainingLocationPage-CTaxDmGv.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BjZGo5OE.js";import"./erp-pages-Gzw25Cre.js";function m(){const i=n("shanghai");return i?r.jsx(t,{profile:i}):null}export{m as default};

@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Be79NB64.js";import{g as o,T as t}from"./TrainingLocationPage-CTaxDmGv.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-BjZGo5OE.js";import"./erp-pages-Gzw25Cre.js";function s(){const i=o("mobile");return i?r.jsx(t,{profile:i}):null}export{s as default};
