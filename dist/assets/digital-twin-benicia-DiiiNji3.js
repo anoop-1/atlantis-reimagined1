@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Be79NB64.js";import{D as t}from"./DigitalTwinLocationPage-C9HMvEj_.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-C-oAx_1X.js";import"./RelatedProducts-DLWmyZ44.js";function c(){return i.jsx(t,{city:"Benicia",country:"USA",slug:"digital-twin-benicia"})}export{c as default};

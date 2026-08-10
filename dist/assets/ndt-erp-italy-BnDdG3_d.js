@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Be79NB64.js";import{E as r}from"./ErpLocationPage-DCw_uFvi.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-C-oAx_1X.js";import"./RelatedProducts-DLWmyZ44.js";function e(){return t.jsx(r,{city:"Italy",country:"Italy",slug:"ndt-erp-italy"})}export{e as default};

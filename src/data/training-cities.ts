@@ -4032,7 +4032,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 37.6872, lng: -97.3301,
     localContext:
-      "Wichita is the historic 'Air Capital of the World' — Textron Aviation (Cessna and Beechcraft general-aviation manufacturing) is headquartered here, and Spirit AeroSystems' Wichita plant, source of 737 fuselages and major 787/777 structures, became part of Boeing Commercial Airplanes when Boeing completed its $8.4B acquisition of Spirit in December 2025. Bombardier converted its former Learjet final-assembly site into its US headquarters, flight-test center and Bombardier Defense operation after ending Learjet production in March 2022, retaining more than 1,200 jobs across seven service-center hangars. The city's dense aerostructures supply chain keeps demand high for RT, UT, ET and PT technicians qualified to aerospace NAS 410 standards.",
+      "Wichita is the historic 'Air Capital of the World' — Textron Aviation (Cessna and Beechcraft general-aviation manufacturing) is headquartered here, and Spirit AeroSystems' Wichita plant, source of 737 fuselages and major 787/777 structures, became part of Boeing Commercial Airplanes when Boeing completed its $4.7B acquisition of Spirit in December 2025. Bombardier converted its former Learjet final-assembly site into its US headquarters, flight-test center and Bombardier Defense operation after ending Learjet production in March 2022, retaining more than 1,200 jobs across seven service-center hangars. The city's dense aerostructures supply chain keeps demand high for RT, UT, ET and PT technicians qualified to aerospace NAS 410 standards.",
     primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
     otherCerts: [],

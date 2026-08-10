@@ -1302,6 +1302,14 @@ const NDTErp_san_francisco = lazy(() => import("./pages/ndt-erp-san-francisco"))
 const NDTErp_santiago = lazy(() => import("./pages/ndt-erp-santiago"));
 const NDTErp_sao_paulo = lazy(() => import("./pages/ndt-erp-sao-paulo"));
 const NDTErp_savannah = lazy(() => import("./pages/ndt-erp-savannah"));
+// === ERP/Training parity gap cities 2026-08-11 ===
+const NDTErp_wichita = lazy(() => import("./pages/ndt-erp-wichita"));
+const NDTErp_east_hartford = lazy(() => import("./pages/ndt-erp-east-hartford"));
+const NDTErp_north_charleston = lazy(() => import("./pages/ndt-erp-north-charleston"));
+const NDTErp_aiken = lazy(() => import("./pages/ndt-erp-aiken"));
+const NDTErp_pascagoula = lazy(() => import("./pages/ndt-erp-pascagoula"));
+const NDTErp_groton = lazy(() => import("./pages/ndt-erp-groton"));
+const NDTErp_bath_maine = lazy(() => import("./pages/ndt-erp-bath-maine"));
 const NDTErp_scotland = lazy(() => import("./pages/ndt-erp-scotland"));
 const NDTErp_seattle = lazy(() => import("./pages/ndt-erp-seattle"));
 const NDTErp_shanghai = lazy(() => import("./pages/ndt-erp-shanghai"));
@@ -3981,6 +3989,14 @@ const App = () => (
                   <Route path="/ndt-erp-santiago" element={<LazyRoute Component={NDTErp_santiago} />} />
                   <Route path="/ndt-erp-sao-paulo" element={<LazyRoute Component={NDTErp_sao_paulo} />} />
                   <Route path="/ndt-erp-savannah" element={<LazyRoute Component={NDTErp_savannah} />} />
+                  {/* === ERP/Training parity gap cities 2026-08-11 === */}
+                  <Route path="/ndt-erp-wichita" element={<LazyRoute Component={NDTErp_wichita} />} />
+                  <Route path="/ndt-erp-east-hartford" element={<LazyRoute Component={NDTErp_east_hartford} />} />
+                  <Route path="/ndt-erp-north-charleston" element={<LazyRoute Component={NDTErp_north_charleston} />} />
+                  <Route path="/ndt-erp-aiken" element={<LazyRoute Component={NDTErp_aiken} />} />
+                  <Route path="/ndt-erp-pascagoula" element={<LazyRoute Component={NDTErp_pascagoula} />} />
+                  <Route path="/ndt-erp-groton" element={<LazyRoute Component={NDTErp_groton} />} />
+                  <Route path="/ndt-erp-bath-maine" element={<LazyRoute Component={NDTErp_bath_maine} />} />
                   <Route path="/ndt-erp-scotland" element={<LazyRoute Component={NDTErp_scotland} />} />
                   <Route path="/ndt-erp-seattle" element={<LazyRoute Component={NDTErp_seattle} />} />
                   <Route path="/ndt-erp-shanghai" element={<LazyRoute Component={NDTErp_shanghai} />} />

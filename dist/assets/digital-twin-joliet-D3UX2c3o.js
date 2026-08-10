@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Be79NB64.js";import{D as i}from"./DigitalTwinLocationPage-B1VdljiX.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-BvjWIKXS.js";import"./RelatedProducts-DKzBDfQQ.js";function n(){return t.jsx(i,{city:"Joliet",country:"USA",slug:"digital-twin-joliet"})}export{n as default};

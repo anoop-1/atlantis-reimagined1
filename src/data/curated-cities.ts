@@ -385,6 +385,8 @@ export const ERP_CITY_PAGE_SLUGS: Set<string> = new Set([
   'new-york-state','florida','illinois','michigan','colorado',
   // === ERP expansion 2026-08-07 — verified gap cities ===
   'busan','dalian','batam','point-lisas','antofagasta','nashik','stavanger',
+  // === ERP/Training parity gap cities 2026-08-11 ===
+  'wichita','east-hartford','north-charleston','aiken','pascagoula','groton','bath-maine',
 ]);
 
 /** Cities that have an /ndt-reporting-{slug} page. */

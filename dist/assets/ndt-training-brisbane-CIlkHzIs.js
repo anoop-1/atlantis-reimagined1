@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Be79NB64.js";import{g as n,T as t}from"./TrainingLocationPage-cADDFd8L.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DLWmyZ44.js";import"./erp-pages-C-oAx_1X.js";function p(){const i=n("brisbane");return i?r.jsx(t,{profile:i}):null}export{p as default};

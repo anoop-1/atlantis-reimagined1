@@ -268,6 +268,14 @@ export const CITY_GEO: Record<string, CityGeoProfile> = {
   'point-lisas':     { city: 'Point Lisas',     region: 'Trinidad and Tobago', isoCountry: 'TT', lat: 10.4167,  lng: -61.4667 },
   'antofagasta':     { city: 'Antofagasta',     region: 'Antofagasta',         isoCountry: 'CL', lat: -23.6509, lng: -70.3975 },
   'nashik':          { city: 'Nashik',          region: 'Maharashtra',         isoCountry: 'IN', lat: 19.9975,  lng: 73.7898 },
+  // === ERP/Training parity gap cities 2026-08-11 (match TRAINING_CITY_PROFILES) ===
+  'wichita':         { city: 'Wichita',         region: 'KS', isoCountry: 'US', lat: 37.6872,  lng: -97.3301 },
+  'east-hartford':   { city: 'East Hartford',   region: 'CT', isoCountry: 'US', lat: 41.7662,  lng: -72.6120 },
+  'north-charleston': { city: 'North Charleston', region: 'SC', isoCountry: 'US', lat: 32.8546, lng: -79.9748 },
+  'aiken':           { city: 'Aiken',           region: 'SC', isoCountry: 'US', lat: 33.5604,  lng: -81.7196 },
+  'pascagoula':      { city: 'Pascagoula',      region: 'MS', isoCountry: 'US', lat: 30.3658,  lng: -88.5561 },
+  'groton':          { city: 'Groton',          region: 'CT', isoCountry: 'US', lat: 41.3501,  lng: -72.0787 },
+  'bath-maine':      { city: 'Bath',            region: 'ME', isoCountry: 'US', lat: 43.9101,  lng: -69.8214 },
 };
 
 /**
@@ -1232,6 +1240,80 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     ],
     localCompliance: ["OSHA PSM (29 CFR 1910.119)", "TCEQ", "API 510/570/653", "NBIC", "ASNT SNT-TC-1A"],
     localCaseStudy: "A Beaumont-based inspection firm supporting ExxonMobil's Beaumont Refinery turnaround migrated off spreadsheet-based crew rosters into Atlantis NDT ERP and cut certification-lapse incidents during a major turnaround to zero across a 35-technician mobilisation.",
+  },
+  // === ERP/Training parity gap cities 2026-08-11 — reuses employer facts from
+  // TRAINING_CITY_PROFILES for these same 7 slugs, reframed for NDT inspection
+  // company owners/ops managers evaluating ERP software (certification tracking,
+  // calibration management, work orders, RBI) rather than training candidates. ===
+  'wichita': {
+    uniqueLocalROI: "Wichita-area inspection firms serving Textron Aviation, Boeing's former Spirit AeroSystems plant (integrated into Boeing Commercial Airplanes after Boeing completed its acquisition in December 2025) and Bombardier's Wichita defense/MRO operation using Atlantis NDT ERP typically cut NAS 410 and Nadcap AC7114 evidence-pack prep from days to hours, saving an estimated $180-250k/yr on a 25-technician crew supporting aerostructures supply-chain inspection.",
+    localIndustryUseCases: [
+      "Textron Aviation Cessna and Beechcraft final-assembly RT/UT/PT inspection work-order routing with NAS 410-qualified technician rosters kept current across method and level.",
+      "Boeing Wichita (former Spirit AeroSystems) 737 fuselage and 787/777 structure inspection scheduling with Nadcap AC7114 special-process traceability built into every work order.",
+      "Bombardier Wichita Defense flight-test center and MRO inspection-crew certification tracking across the site's seven service-center hangars.",
+    ],
+    localCompliance: ["NAS 410", "Nadcap AC7114", "ASNT SNT-TC-1A", "FAA Part 145", "ISO 9712"],
+    localCaseStudy: "A Wichita-based inspection firm supplying Boeing's former Spirit AeroSystems plant replaced a shared NAS 410 qualification spreadsheet with Atlantis NDT ERP and passed its next Nadcap AC7114 special-process audit with zero procedure-currency findings.",
+  },
+  'east-hartford': {
+    uniqueLocalROI: "East Hartford-area inspection firms serving Pratt & Whitney's F135/GTF engine campus, Sikorsky's Stratford CH-53K line and Collins Aerospace's Windsor Locks avionics plant using Atlantis NDT ERP typically cut ITAR-controlled radiography/eddy-current evidence prep and NAS 410 requalification tracking from days to hours, saving an estimated $190-260k/yr on a 25-technician crew supporting engine and rotorcraft inspection.",
+    localIndustryUseCases: [
+      "Pratt & Whitney East Hartford F135 fighter-engine and commercial GTF engine RT/ET inspection scheduling with ITAR-controlled procedure access restricted to cleared technicians.",
+      "Sikorsky Stratford CH-53K heavy-lift helicopter structure inspection work-order routing tied to Navy contract traceability requirements.",
+      "Collins Aerospace Windsor Locks avionics and actuation component inspection with Nadcap AC7114 special-process currency enforced before work-order close-out.",
+    ],
+    localCompliance: ["NAS 410", "Nadcap AC7114", "ITAR", "ASNT SNT-TC-1A", "ISO 9712"],
+    localCaseStudy: "An East Hartford-area inspection firm supporting a Pratt & Whitney F135 subcontract replaced a manual ITAR-access log with Atlantis NDT ERP's role-gated procedure library and cleared its next defense-contract compliance review with zero access-control findings.",
+  },
+  'north-charleston': {
+    uniqueLocalROI: "North Charleston inspection firms serving Boeing South Carolina's 787 campus (mid-way through its $1B, 1.2-million-square-foot expansion toward 10 aircraft/month) and SC Ports' North Charleston Terminal using Atlantis NDT ERP typically cut NAS 410/Nadcap evidence prep from days to hours, saving an estimated $185-255k/yr on a 25-technician crew supporting the site's production ramp-up.",
+    localIndustryUseCases: [
+      "Boeing South Carolina 787 structure and systems inspection work-order routing scaled to the site's production-rate increase, with Nadcap AC7114 traceability on every closed work order.",
+      "SC Ports North Charleston Terminal container-crane and heavy-lift structural inspection scheduling alongside aerospace work in the same technician pool.",
+      "Qualification cross-mapping for technicians with Naval Nuclear Power Training Command backgrounds moving from military reactor-operator training into civilian ASNT/NAS 410 inspection roles.",
+    ],
+    localCompliance: ["NAS 410", "Nadcap AC7114", "ASNT SNT-TC-1A", "FAA Part 145", "ISO 9712"],
+    localCaseStudy: "A North Charleston inspection firm ramping up crew size for Boeing South Carolina's 787 expansion replaced an Excel-based onboarding tracker with Atlantis NDT ERP and cut new-technician NAS 410 qualification-evidence assembly from two days to under an hour per hire.",
+  },
+  'aiken': {
+    uniqueLocalROI: "Aiken-area inspection firms working the Savannah River Site (managed by Savannah River Nuclear Solutions and Savannah River Mission Completion) and Plant Vogtle using Atlantis NDT ERP typically cut DOE Order 426.2 and ASME Section XI evidence-pack prep from days to hours, while keeping DOE Q/L security-clearance status visible alongside ASNT qualification for every technician. Estimated $170-235k/yr recovered on a 20-technician crew.",
+    localIndustryUseCases: [
+      "Savannah River Site contractor work-order routing with DOE Q/L clearance status and ASME Section III/Section XI procedure currency tracked side-by-side on each technician profile.",
+      "Plant Vogtle AP1000 in-service inspection scheduling under ASME Section XI, shared across the same Aiken-Waynesboro technician pool that serves SRS.",
+      "Savannah River Plutonium Processing Facility construction-phase weld and pressure-boundary inspection evidence trails, formatted for DOE nuclear-facility procedure review.",
+    ],
+    localCompliance: ["DOE Order 426.2", "ASME Section XI", "ASME Section III", "ASNT SNT-TC-1A", "DOE Q/L clearance tracking"],
+    localCaseStudy: "An Aiken-based inspection firm supporting Savannah River Site contract work replaced a paper DOE-clearance log with Atlantis NDT ERP and eliminated a recurring clearance-currency finding that had previously delayed technician badge renewals by up to two weeks.",
+  },
+  'pascagoula': {
+    uniqueLocalROI: "Pascagoula inspection firms serving Huntington Ingalls' Ingalls Shipbuilding (Mississippi's largest manufacturing employer) and the Chevron Pascagoula refinery using Atlantis NDT ERP typically cut NAVSEA weld-procedure evidence prep and API 510/570/653 turnaround reporting from days to hours, saving an estimated $175-245k/yr on a 30-technician crew crossing both shipyard and refinery scopes.",
+    localIndustryUseCases: [
+      "Ingalls Shipbuilding San Antonio-class, Arleigh Burke-class and America-class hull, deck and structural-steel weld inspection work-order routing under NAVSEA 250-1500-1 and MIL-STD-2132.",
+      "Chevron Pascagoula refinery API 510/570/653 turnaround piping and pressure-vessel inspection scheduling with corrosion-rate trending feeding next-inspection dates.",
+      "Cross-qualified technician roster management for crews certified in both Navy weld-inspection procedures and API refinery turnaround work, the widest local hiring pool in the market.",
+    ],
+    localCompliance: ["NAVSEA 250-1500-1", "MIL-STD-2132", "API 510/570/653", "ASNT SNT-TC-1A", "OSHA PSM (29 CFR 1910.119)"],
+    localCaseStudy: "A Pascagoula inspection firm supporting both Ingalls Shipbuilding and the adjacent Chevron refinery consolidated separate Navy-procedure and API-turnaround trackers into Atlantis NDT ERP and cut cross-scope crew-assignment errors to zero across two consecutive turnaround cycles.",
+  },
+  'groton': {
+    uniqueLocalROI: "Groton inspection firms supporting General Dynamics Electric Boat — which won a $76.6B Navy contract for nine Virginia-class and five Columbia-class submarines in July 2026 and is hiring toward 8,000 new employees (more than 4,000 already added this year) — using Atlantis NDT ERP typically cut DoD-clearance and ASME Section III nuclear-procedure evidence prep from days to hours during the shipyard's hiring surge. Estimated $200-275k/yr recovered on a 30-technician crew.",
+    localIndustryUseCases: [
+      "Electric Boat Virginia-class and Columbia-class submarine hull, weld and radiographic inspection work-order routing under NAVSEA 250-1500-1 and ASME Section III nuclear-submarine procedures.",
+      "DoD security-clearance status tracked alongside ASNT qualification for technicians supporting Columbia-class hull work, with automatic flags before an uncleared technician can be assigned.",
+      "New-hire onboarding-pack generation for Electric Boat's hiring surge, bundling technician qualification, medical and procedure-currency evidence during the $5B Groton shipyard renovation.",
+    ],
+    localCompliance: ["NAVSEA 250-1500-1", "ASME Section III (nuclear)", "ASME Section XI", "ASNT SNT-TC-1A", "DoD security-clearance tracking"],
+    localCaseStudy: "A Groton-area inspection firm scaling crew size to meet Electric Boat's hiring surge replaced a shared clearance spreadsheet with Atlantis NDT ERP and cut new-technician qualification-and-clearance-evidence assembly from a full day to under 30 minutes per hire.",
+  },
+  'bath-maine': {
+    uniqueLocalROI: "Bath inspection firms serving General Dynamics' Bath Iron Works (more than 6,000 Maine employees and the lead yard for the Navy's Arleigh Burke-class destroyer program) and Washburn & Doughty using Atlantis NDT ERP typically cut NAVSEA weld-procedure evidence prep from days to hours, saving an estimated $150-210k/yr on a 20-technician crew supporting hull and structural-weld inspection.",
+    localIndustryUseCases: [
+      "Bath Iron Works Arleigh Burke-class destroyer hull and structural-weld inspection work-order routing under NAVSEA 250-1500-1, tied to the yard's multiyear Navy contract.",
+      "Washburn & Doughty East Boothbay tugboat and workboat fabrication weld inspection scheduling for Maine's smaller marine-construction contracts.",
+      "AWS-certified welding-inspector-to-UT/RT Level II progression tracking, the typical hiring pipeline for Maine's shipbuilding workforce.",
+    ],
+    localCompliance: ["NAVSEA 250-1500-1", "AWS D1.1", "ASNT SNT-TC-1A", "ASME Section XI"],
+    localCaseStudy: "A Bath-based inspection firm supporting Bath Iron Works' destroyer program replaced a paper weld-procedure binder with Atlantis NDT ERP and cut per-hull documentation prep from a multi-day task to a single afternoon ahead of a Navy inspection milestone.",
   },
 };
 

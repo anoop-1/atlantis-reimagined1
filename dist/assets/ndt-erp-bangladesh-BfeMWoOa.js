@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Be79NB64.js";import{E as t}from"./ErpLocationPage-DCw_uFvi.js";import"./PillarHubNav-S7LtgJI8.js";import"./build-hreflang-CViNgX-s.js";import"./badge-B6cadMPh.js";import"./erp-pages-C-oAx_1X.js";import"./RelatedProducts-DLWmyZ44.js";function m(){return r.jsx(t,{city:"Bangladesh",country:"Bangladesh",slug:"ndt-erp-bangladesh"})}export{m as default};
