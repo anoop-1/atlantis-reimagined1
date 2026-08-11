@@ -298,7 +298,7 @@ const CTR_OVERRIDES = {
   },
   '/ndt-training-usa': {
     title: 'NDT Training USA 2026: ASNT Level I/II/III, 40-80 hr Courses, Free Quote',
-    description: 'NDT training across USA — ASNT SNT-TC-1A + ACCP Level I/II/III. UT, RT, MT, PT, ET, VT. Online + onsite (Houston, Dallas, Pittsburgh, Anchorage). consistently high exam pass rates, OJT logs included.'
+    description: 'NDT training across USA — ASNT SNT-TC-1A + ACCP Level I/II/III. UT, RT, MT, PT, ET, VT. Online + on-site delivery nationwide. Consistently high exam pass rates, OJT logs included.'
   },
   // OFI 2026-05-09 — top remaining CTR bleeders not yet covered.
   // /blog/magnetic-particle-testing alone losing ~70 cl/mo at pos 15 with 1342 impr.
@@ -2800,7 +2800,7 @@ const corePages = [
     <h2>Cert Schemes Available</h2>
     <p>Atlantis NDT trains across every scheme: ASNT (employer-based + ACCP portable), ISO 9712 (third-party — Lloyd's Register, TUV, BV, DNV), PCN UK (BINDT), API Individual Certification Program (API 510 pressure vessel, API 570 piping, API 580 RBI, API 653 storage tank, API 936 refractory, API 1169 pipeline construction), AWS CWI + Senior CWI, NACE CIP Coating Inspector Program (Level 1/2/3), CSWIP 3.1 + 3.2 welding inspector, BGAS-CSWIP painting inspector, AMPP CPCS, NAS 410 (Boeing/Lockheed/Northrop/Raytheon/Pratt) + EN 4179 (Airbus/Safran/MTU/Rolls/Collins) aerospace, JSNDI (Japan), KSNT (Korea), AINDT (Australia), ABENDI (Brazil), ISNT (India).</p>
     <h2>Delivery Models</h2>
-    <p>Online + on-site + hybrid. Atlantis NDT delivery hubs: Houston TX, Hyderabad India, Dubai UAE, Singapore, London UK. Regional pages: <a href="/training-usa">Training USA</a>, <a href="/training-india">Training India</a>, <a href="/training-me">Training Middle East</a>. Plus 122+ city-specific training pages with local employer + exam centre + cert pathway context.</p>
+    <p>Online + on-site + hybrid, delivered nationwide and internationally — theory online, hands-on practical at a partner facility or your own site. Regional pages: <a href="/training-usa">Training USA</a>, <a href="/training-india">Training India</a>, <a href="/training-me">Training Middle East</a>. Plus 122+ city-specific training pages with local employer + exam centre + cert pathway context.</p>
     <h2>Atlantis Academy + LMS Integration</h2>
     <p>Training programs integrate with <a href="/atlantis-academy">Atlantis NDT Academy</a> (full multi-scheme career path curation) and <a href="/lms">Atlantis NDT LMS</a> (cohort tracking + recertification reminders + multi-site enterprise rollout). ASNT NDT Level III instructors are active practitioners — not retired teachers with outdated procedure.</p>
     <h2>Code Stack Coverage</h2>
@@ -2829,10 +2829,10 @@ const corePages = [
   },
   {
     path: '/training-usa',
-    title: 'NDT Training USA | ASNT Certification Courses Houston | Atlantis NDT',
-    description: 'ASNT-aligned NDT training courses in the USA. Level I, II & III certification for UT, MT, PT, RT, ET, VT. Houston training center with online options. consistently high exam pass rates.',
+    title: 'NDT Training USA | ASNT Certification Courses | Atlantis NDT',
+    description: 'ASNT-aligned NDT training courses in the USA. Level I, II & III certification for UT, MT, PT, RT, ET, VT. Online + on-site delivery nationwide. Consistently high exam pass rates.',
     bodyH1: 'NDT Training USA',
-    bodyText: 'Professional NDT training in the USA from Houston-based ASNT Level III instructors. ASNT SNT-TC-1A Level I, II and III certification across UT, PAUT, RT, MT, PT, ET and VT, plus API 510, API 570 and API 653 inspector exam preparation. Classroom, online and on-site corporate training with high first-attempt pass rates for oil and gas, petrochemical, aerospace and power clients. See <a href="/asnt-certification">ASNT certification</a> and <a href="/api-653-training">API 653 training</a>.',
+    bodyText: 'Professional NDT training delivered online and on-site nationwide across the USA by ASNT Level III instructors. ASNT SNT-TC-1A Level I, II and III certification across UT, PAUT, RT, MT, PT, ET and VT, plus API 510, API 570 and API 653 inspector exam preparation. Classroom, online and on-site corporate training with high first-attempt pass rates for oil and gas, petrochemical, aerospace and power clients. See <a href="/asnt-certification">ASNT certification</a> and <a href="/api-653-training">API 653 training</a>.',
   },
   {
     path: '/training-india',
@@ -3089,10 +3089,10 @@ const corePages = [
   },
   {
     path: '/ndt-training-usa',
-    title: 'NDT Training USA | ASNT Certification Houston | SNT-TC-1A & CP-189 | Atlantis NDT',
-    description: 'NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. consistently high exam pass rates.',
+    title: 'NDT Training USA | ASNT Certification | SNT-TC-1A & CP-189 | Atlantis NDT',
+    description: 'NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Online + on-site delivery nationwide. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. Consistently high exam pass rates.',
     bodyH1: 'NDT Training USA',
-    bodyText: 'Professional NDT training in the USA. ASNT SNT-TC-1A and CP-189 certification courses in Houston, TX and online. Level I, II, and III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410 preparation available. consistently high exam pass rates.',
+    bodyText: 'Professional NDT training in the USA. ASNT SNT-TC-1A and CP-189 certification courses delivered online and on-site nationwide. Level I, II, and III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410 preparation available. Consistently high exam pass rates.',
   },
   {
     path: '/ndt-training-india',
@@ -9230,7 +9230,7 @@ corePages.forEach(p => {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "NDT Training USA - ASNT Level I, II, III Certification",
-      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with consistently high exam pass rates. UT, MT, PT, RT, ET, VT methods.",
+      "description": "Professional NDT training in the USA, delivered online and on-site nationwide. ASNT certification courses for Level I, II, and III with consistently high exam pass rates. UT, MT, PT, RT, ET, VT methods.",
       "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
       "educationalLevel": "Professional",
       "courseCode": "NDT-USA",
@@ -9302,7 +9302,7 @@ corePages.forEach(p => {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "NDT Training USA - ASNT Level I, II, III Certification",
-      "description": "Professional NDT training in the USA. Houston-based ASNT certification courses for Level I, II, and III with consistently high exam pass rates. UT, MT, PT, RT, ET, VT methods.",
+      "description": "Professional NDT training in the USA, delivered online and on-site nationwide. ASNT certification courses for Level I, II, and III with consistently high exam pass rates. UT, MT, PT, RT, ET, VT methods.",
       "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
       "educationalLevel": "Professional",
       "courseCode": "NDT-USA",

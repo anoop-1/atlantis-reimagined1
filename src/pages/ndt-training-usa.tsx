@@ -94,10 +94,8 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Houston, TX (Main Center)", link: "/training-usa" },
-    { name: "Los Angeles, CA", link: "/training-usa" },
-    { name: "New Orleans, LA", link: "/training-usa" },
-    { name: "Online/Virtual (Nationwide)", link: "/ndt-training-online" }
+    { name: "Online/Virtual (Nationwide)", link: "/ndt-training-online" },
+    { name: "On-site / In-person (Nationwide)", link: "/ndt-training-near-me" }
 ];
 
 const certifications = ["ASNT SNT-TC-1A", "ASNT CP-189", "NAS-410 (Aerospace)", "Employer-based programs"];
@@ -120,8 +118,8 @@ const whyUSA = [
     },
     {
         icon: Building2,
-        title: "Houston Training Center",
-        description: "Our Houston, TX training center is in the heart of the world's largest petrochemical complex. Fully equipped lab with ASNT reference specimens, portable UT, MT, PT, RT and ET equipment. Classes run monthly with flexible scheduling for working professionals."
+        title: "Online + On-Site Delivery Nationwide",
+        description: "Theory and exam preparation delivered online, with hands-on practical training available on-site — either at your facility or a partner facility near you, anywhere in the USA. Flexible monthly scheduling for working professionals."
     }
 ];
 
@@ -150,9 +148,9 @@ const industries = [
 
 const certificationPath = [
     { step: 1, title: "Apply & Confirm Eligibility", description: "Submit application with educational background and NDT work experience record. ASNT SNT-TC-1A requires a specific number of hours of NDT work experience before certification can be issued — training hours and work experience are separate requirements." },
-    { step: 2, title: "Attend Training Course", description: "Complete classroom theory and practical sessions in Houston or online. ASNT SNT-TC-1A minimum training hours are strictly observed. All course materials, reference specimens, and practice questions are included in your course fee." },
+    { step: 2, title: "Attend Training Course", description: "Complete classroom theory online, with hands-on practical sessions delivered on-site — at a partner facility near you or your employer's site. ASNT SNT-TC-1A minimum training hours are strictly observed. All course materials, reference specimens, and practice questions are included in your course fee." },
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written examination covering NDT theory, equipment principles, and applicable codes & standards. Minimum 70% pass mark required. Covers ASME Section V, API codes, and method-specific standards." },
-    { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference test specimens. Must meet written practice acceptance criteria. Conducted at our Houston lab or at an approved employer facility." },
+    { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference test specimens. Must meet written practice acceptance criteria. Conducted on-site at a partner facility or at an approved employer facility." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test per ASNT SNT-TC-1A Section 8. Required before any certification is issued. Colour vision tests may be required for some methods. Valid optician or doctor certificate needed." },
     { step: 6, title: "Employer Certification", description: "Your employer issues the formal Level I or Level II certification letter aligned to their written practice per SNT-TC-1A. For CP-189, ASNT directly issues the certification after the candidate passes the ASNT examination. Atlantis NDT can act as third-party certifier." },
     { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years (Level I & II) or 5 years (Level III). CP-189 and ACCP have their own renewal schedules. Continuing education credits and re-examination may be required depending on your employer's written practice." }
@@ -165,7 +163,7 @@ const faqs = [
     },
     {
         question: "Is online training available?",
-        answer: "Yes! We offer live virtual training with the same curriculum as our in-person Houston courses. Online training covers the full theory component. Practical examinations require in-person attendance at our Houston facility or at an approved employer location. Online training works well for candidates who want to pre-study before attending a practical block."
+        answer: "Yes! We offer live virtual training with the same curriculum as our in-person courses. Online training covers the full theory component. Practical examinations require in-person attendance at a partner facility or an approved employer location. Online training works well for candidates who want to pre-study before attending a practical block."
     },
     {
         question: "What's included in the training?",
@@ -184,8 +182,8 @@ const faqs = [
         answer: "The Level II written examination follows ASNT guidelines and typically consists of 40–80 multiple-choice questions covering NDT theory (principles of the method), practical knowledge (equipment setup, calibration, scanning technique), and codes & standards (ASME Section V, API codes, AWS D1.1 for structural, etc.). Minimum pass mark is 70%. Our course includes full-length practice examinations in the same format."
     },
     {
-        question: "What is the Houston training schedule?",
-        answer: "Houston classes run monthly for the most popular methods (UT, MT, PT). RT, ET, and PAUT classes run quarterly. The schedule is published on our website and updated monthly. Corporate on-site classes can be scheduled at any time with sufficient notice. Contact us for the next available date for your specific method and level."
+        question: "What is the training schedule?",
+        answer: "Cohorts run monthly nationwide for the most popular methods (UT, MT, PT). RT, ET, and PAUT classes run quarterly. The schedule is published on our website and updated monthly. Corporate on-site classes can be scheduled at any time with sufficient notice. Contact us for the next available date for your specific method and level."
     },
     {
         question: "Can I get Level III certification without having Level II?",
@@ -213,12 +211,11 @@ export default function NDTTrainingUSA() {
                 "@type": "Course",
                 "name": "NDT Training Courses USA",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "ASNT SNT-TC-1A and CP-189 NDT certification training in the USA. Houston TX training center. Level I, II, III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410.",
+                "description": "ASNT SNT-TC-1A and CP-189 NDT certification training delivered online and on-site nationwide across the USA. Level I, II, III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": ["onsite", "online"],
-                    "inLanguage": "en",
-                    "location": { "@type": "Place", "name": "Houston, Texas, USA" }
+                    "inLanguage": "en"
                 },
                 "educationalCredentialAwarded": "ASNT SNT-TC-1A Certification / ASNT CP-189 Certification"
             },
@@ -230,8 +227,8 @@ export default function NDTTrainingUSA() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training USA | ASNT Certification Houston | SNT-TC-1A & CP-189 | Atlantis NDT"
-                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Houston training center. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95%."
+                title="NDT Training USA | ASNT Certification | SNT-TC-1A & CP-189 | Atlantis NDT"
+                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Online + on-site delivery nationwide. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95%."
                 keywords="NDT training USA, ASNT certification, NDT courses USA, ultrasonic testing training, NDT certification Houston, NDT training online, ASNT CP-189, NDT training Texas, NAS-410 training, aerospace NDT training USA, NDT Level II Houston, NDT Level III USA"
                 canonical="https://atlantisndt.com/training-usa"
                 structuredData={structuredData}
@@ -260,7 +257,7 @@ export default function NDTTrainingUSA() {
                             NDT Training Courses in <span className="gradient-text">USA</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A and CP-189 certification training in Houston, TX and online. Level I, II, and III for all major NDT methods. Aerospace NAS-410 preparation available. 95% pass rate.
+                            ASNT SNT-TC-1A and CP-189 certification training, delivered online and on-site nationwide. Level I, II, and III for all major NDT methods. Aerospace NAS-410 preparation available. 95% pass rate.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">
@@ -280,7 +277,7 @@ export default function NDTTrainingUSA() {
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div><div className="text-4xl font-bold text-primary mb-2">95%</div><div className="text-muted-foreground">Pass Rate</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">8+</div><div className="text-muted-foreground">NDT Methods</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">4</div><div className="text-muted-foreground">US Locations</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">50</div><div className="text-muted-foreground">States Served</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">50+</div><div className="text-muted-foreground">Expert Instructors</div></div>
                     </div>
                 </div>
@@ -600,7 +597,7 @@ export default function NDTTrainingUSA() {
             <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
                 <div className="container mx-auto max-w-4xl px-6 text-center">
                     <h2 className="text-3xl font-bold mb-4">Ready to Start Your NDT Training?</h2>
-                    <p className="text-muted-foreground mb-8 text-lg">Enrol in our next Houston class or request a custom corporate training quote. Classes run monthly.</p>
+                    <p className="text-muted-foreground mb-8 text-lg">Enrol in our next available cohort or request a custom corporate training quote. Classes run monthly.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact">
                             <Button size="lg">Enrol Now</Button>

@@ -95,7 +95,7 @@ export default function TrainingUSA() {
       <Navigation />
       <SEOHead
         title="NDT Training USA 2026 — 95% Pass Rate, ASNT SNT-TC-1A Approved, 5 Day Course | Atlantis NDT"
-        description="ASNT Level III-led NDT training across Houston, Dallas, Chicago, Los Angeles, New Orleans, Denver. UT/RT/MT/PT/VT/ET methods. 95% pass rate. 3,200+ US technicians trained. Enroll: enroll@atlantisndt.com"
+        description="ASNT Level III-led NDT training, delivered online and on-site nationwide across the USA. UT/RT/MT/PT/VT/ET methods. 95% pass rate. Enroll: info@atlantisndt.com"
         keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
         canonical="https://atlantisndt.com/training-usa"
         structuredData={courseSchema}
@@ -126,10 +126,10 @@ export default function TrainingUSA() {
               Advanced programs in Phased Array, TOFD, and digital radiography for aerospace and industrial sectors.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" className="btn-primary bg-blue-600 hover:bg-blue-700">
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
+              <Button size="lg" className="btn-primary bg-blue-600 hover:bg-blue-700" asChild>
+                <Link to="/training#training-enquiry">
                   Enroll in ASNT Level III Program
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline">
                 <Link to="/consulting-usa">View Consulting Services</Link>
@@ -227,100 +227,6 @@ export default function TrainingUSA() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-6">
-          <motion.div
-            className="text-center mb-12"
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              What Our USA Clients Say
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Hear from NDT professionals who advanced their careers with Atlantis training
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <motion.div
-              initial={{ y: 30, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <Card className="h-full">
-                <CardContent className="pt-6">
-                  <div className="flex items-center gap-1 mb-4">
-                    {[1, 2, 3, 4, 5].map(i => (
-                      <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground mb-4 italic">
-                    "The PAUT and TOFD training at Atlantis was exceptional. The hands-on practice with real aerospace components prepared me perfectly for my Level III certification exam."
-                  </p>
-                  <div className="font-semibold">Michael R.</div>
-                  <div className="text-sm text-muted-foreground">NDT Level III, Houston, Texas</div>
-                </CardContent>
-              </Card>
-            </motion.div>
-
-            <motion.div
-              initial={{ y: 30, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-            >
-              <Card className="h-full">
-                <CardContent className="pt-6">
-                  <div className="flex items-center gap-1 mb-4">
-                    {[1, 2, 3, 4, 5].map(i => (
-                      <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground mb-4 italic">
-                    "After completing my UT Level II certification through Atlantis, I received multiple job offers within two weeks. Their ASNT-aligned curriculum is industry-leading."
-                  </p>
-                  <div className="font-semibold">Sarah K.</div>
-                  <div className="text-sm text-muted-foreground">QC Inspector, Los Angeles, California</div>
-                </CardContent>
-              </Card>
-            </motion.div>
-
-            <motion.div
-              initial={{ y: 30, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-            >
-              <Card className="h-full">
-                <CardContent className="pt-6">
-                  <div className="flex items-center gap-1 mb-4">
-                    {[1, 2, 3, 4, 5].map(i => (
-                      <svg key={i} className="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 20 20">
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground mb-4 italic">
-                    "The instructors at Atlantis have real-world NAS410 and aerospace experience. Their Level III training program gave me the confidence to pass my ASNT exam on the first attempt."
-                  </p>
-                  <div className="font-semibold">James T.</div>
-                  <div className="text-sm text-muted-foreground">Senior NDT Technician, Seattle, Washington</div>
-                </CardContent>
-              </Card>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-6">
@@ -410,10 +316,10 @@ export default function TrainingUSA() {
             <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
               Earn ASNT SNT-TC-1A training and advance your NDT career in aerospace and advanced manufacturing.
             </p>
-            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50">
-              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50" asChild>
+              <Link to="/training#training-enquiry">
                 Enroll Now
-              </a>
+              </Link>
             </Button>
           </motion.div>
         </div>
