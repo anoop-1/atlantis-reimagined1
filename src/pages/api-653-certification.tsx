@@ -178,6 +178,7 @@ export default function API653Certification() {
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 653 tank inspector certification?" answer="API 653 is the Authorized Aboveground Storage Tank Inspector certification covering in-service inspection, repair, alteration, and reconstruction of welded storage tanks per the API 653 code. The 7.75-hour exam covers API 650, API 651, API 652, API 653, API 571, and ASME Section V. Required for owner-operator tank inspections at terminals, refineries, and bulk distribution facilities." bullets={["Body of knowledge: API 650, 651, 652, 653, 571, ASME V","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) tank inspection experience","Recertification: every 3 years online"]} />
+        <QuickAnswerBox question="How much does API 653 certification cost?" answer="API 653 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status, region, and prep-course format — check the current fee schedule at api.org for exact figures. Atlantis's own tank-inspector prep and consulting fees depend on cohort format and region; contact us for a tailored quote." />
 
 
             {/* Hero */}

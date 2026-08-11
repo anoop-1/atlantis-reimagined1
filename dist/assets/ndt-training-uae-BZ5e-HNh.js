@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CPaMOKsP.js";import{g as t,T as o}from"./TrainingLocationPage-_qXsd2Cs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function s(){const i=t("uae");return i?r.jsx(o,{profile:i}):null}export{s as default};

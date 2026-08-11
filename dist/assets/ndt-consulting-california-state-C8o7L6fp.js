@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Bhdy2a24.js";import{S as a}from"./StateConsultingPage-Dund-Ndq.js";function n(){return t.jsx(a,{stateSlug:"california"})}export{n as default};

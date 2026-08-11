@@ -156,6 +156,7 @@ export default function API570Certification() {
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 570 piping inspector certification?" answer="API 570 is the Authorized Piping Inspector certification covering in-service inspection of process piping under the API 570 Piping Inspection Code. The 7.75-hour exam is administered four times per year and covers ASME B31.3, API 570/571/574/578, ASME Section V. Required for owner-operator inspector-of-record duties in refineries, petrochemical plants, and gas processing." bullets={["Body of knowledge: ASME B31.3, API 570, API 571, API 574","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) piping inspection experience","Recertification: every 3 years via 25-question online exam"]} />
+        <QuickAnswerBox question="How much does API 570 certification cost?" answer="API 570 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status, region, and prep-course format — check the current fee schedule at api.org for exact figures. Atlantis's own piping-inspector prep and consulting fees depend on cohort format and region; contact us for a tailored quote." />
 
 
             {/* Hero */}

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CPaMOKsP.js";import{E as i}from"./ErpLocationPage-D22JRulP.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-C1kpl1wD.js";import"./RelatedProducts-DELRFtLf.js";function e(){return r.jsx(i,{city:"Miri",country:"Malaysia",slug:"ndt-erp-miri"})}export{e as default};

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CPaMOKsP.js";import{E as t}from"./ErpLocationPage-D22JRulP.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-C1kpl1wD.js";import"./RelatedProducts-DELRFtLf.js";function n(){return r.jsx(t,{city:"Adelaide",country:"Australia",slug:"ndt-erp-adelaide"})}export{n as default};

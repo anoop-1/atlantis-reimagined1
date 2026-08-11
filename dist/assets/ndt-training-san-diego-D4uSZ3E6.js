@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CPaMOKsP.js";import{g as o,T as n}from"./TrainingLocationPage-_qXsd2Cs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function m(){const i=o("san-diego");return i?r.jsx(n,{profile:i}):null}export{m as default};

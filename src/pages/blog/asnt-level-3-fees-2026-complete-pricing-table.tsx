@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 
 const faqs = [
     { question: "Do I need to pay the ASNT Basic Exam fee for every method?", answer: "No. The Basic Exam is a one-time, lifetime requirement. You pay the Basic Exam fee once — at the current rate on the ASNT published schedule, with a member discount — pass it, and it covers you forever — regardless of how many method certifications you add over your career. This is one of the most cost-efficient parts of the ASNT Level III pathway. Many candidates strategically take the Basic Exam first, then add UT, RT, MT, PT, and other methods sequentially over several years. The Basic Exam does NOT require renewal as long as you maintain at least one active Method certification at all times." },
@@ -110,6 +111,10 @@ export default function ASNTLevel3Fees2026CompletePricingTable() {
                     </motion.div>
                 </div>
             </section>
+
+            <div className="container mx-auto max-w-4xl px-6">
+                <QuickAnswerBox question="How much are ASNT membership fees?" answer="ASNT individual membership is an annual fee set and published on asnt.org, separate from exam and certification fees — members receive a discount on Basic and Method Exam fees plus applications, so the membership typically pays for itself within a single exam cycle. Check the current schedule at asnt.org for exact figures." />
+            </div>
 
             {/* Social Share */}
             <div className="py-6 bg-white border-b">

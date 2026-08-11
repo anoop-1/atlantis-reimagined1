@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import QuickAnswerBox from "@/components/QuickAnswerBox";
 
 const faqs = [
     { question: "How are NDT day rates structured for field crews?", answer: "Field NDT crews bill under three models. Day rate: a crew (technician, helper, truck, equipment package) is priced per day, with the rate rising with certification level and equipment carried — a PAUT specialist crew costs materially more per day than a conventional UT crew. Piece rate: charged per inspection unit (per film, per joint, per square metre) — better for predictable scopes. Unit rate: a hybrid with a minimum day charge plus per-unit billing once a threshold is hit. The premiums are where budgets slip: overtime typically bills around 1.5x for extended hours and 2x beyond that and at weekends, holidays higher still; night shift, hot-work and confined-space each add their own percentage; offshore day rates commonly carry a large uplift over onshore; and refinery turnarounds with strict gate procedures bake unbillable badge-cycle time into elevated rates. Ask any bidder to state their premium structure in writing — that, more than the headline day rate, decides what you actually pay." },
@@ -146,6 +147,10 @@ export default function NDTInspectionCost2026() {
                     </motion.div>
                 </div>
             </section>
+
+            <div className="container mx-auto max-w-4xl px-6">
+                <QuickAnswerBox question="How much does NDT inspection cost?" answer="NDT inspection cost depends on method (day-rate, per-joint, or per-metre billing), region, crew composition, and site access — not a single number. UT, MT, and PT typically price lower than PAUT, RT, or automated crawler work; offshore and turnaround premiums add further. Request a scoped quote against your asset list and code requirements." />
+            </div>
 
             {/* Social Share */}
             <div className="py-6 bg-white border-b">

@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Bhdy2a24.js";import t from"./MethodLocationPage-D_KpJj6R.js";import"./PillarHubNav-DX4b9s1z.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Bz0qh-_I.js";function m(){return i.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"cincinnati"})}export{m as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Bhdy2a24.js";import o from"./MethodLocationPage-D_KpJj6R.js";import"./PillarHubNav-DX4b9s1z.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Bz0qh-_I.js";function a(){return t.jsx(o,{methodSlug:"eddy-current-testing",locationSlug:"miami"})}export{a as default};

@@ -1,1 +1,0 @@
-import{j as n}from"./blog-pages-Bhdy2a24.js";import{g as r,T as t}from"./TrainingLocationPage-CuFZAjJC.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CKQFF4Is.js";import"./erp-pages-Bz0qh-_I.js";function s(){const i=r("chennai");return i?n.jsx(t,{profile:i}):null}export{s as default};

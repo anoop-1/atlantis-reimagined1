@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-CPaMOKsP.js";import{g as n,T as t}from"./TrainingLocationPage-_qXsd2Cs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function m(){const r=n("pengerang");return r?i.jsx(t,{profile:r}):null}export{m as default};

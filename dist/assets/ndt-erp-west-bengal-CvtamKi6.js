@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CPaMOKsP.js";import{E as r}from"./ErpLocationPage-D22JRulP.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-C1kpl1wD.js";import"./RelatedProducts-DELRFtLf.js";function s(){return t.jsx(r,{city:"West Bengal",country:"India",slug:"ndt-erp-west-bengal"})}export{s as default};

@@ -160,6 +160,7 @@ export default function API510Certification() {
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 510 certification and how do you get it?" answer="API 510 is the Authorized Pressure Vessel Inspector certification from the American Petroleum Institute. It qualifies you to perform in-service inspection of pressure vessels under the API 510 Pressure Vessel Inspection Code. The exam is 8.5 hours, covers ASME Section V/VIII, API 510/571/572/576/577, and is administered four times per year worldwide via the API ICP program." bullets={["Body of knowledge: API 510, API 571, ASME Section V & VIII","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) inspection experience","Recertification: every 3 years via 25-question online exam"]} />
+        <QuickAnswerBox question="How much does API 510 certification cost?" answer="API 510 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status, region, and prep-course format — check the current fee schedule at api.org for exact figures. Atlantis's own pressure-vessel-inspector prep and consulting fees depend on cohort format and region; contact us for a tailored quote." />
 
 
             {/* Hero */}

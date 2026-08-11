@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-Bhdy2a24.js";import{E as t}from"./ErpLocationPage-pBcrM6FO.js";import"./PillarHubNav-DX4b9s1z.js";import"./build-hreflang-CViNgX-s.js";import"./badge-iM67T618.js";import"./erp-pages-Bz0qh-_I.js";import"./RelatedProducts-CKQFF4Is.js";function u(){return r.jsx(t,{city:"Salina Cruz",country:"Mexico",slug:"ndt-erp-salina-cruz"})}export{u as default};

@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Bhdy2a24.js";import{g as r,T as a}from"./TrainingLocationPage-CuFZAjJC.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CKQFF4Is.js";import"./erp-pages-Bz0qh-_I.js";function g(){const t=r("antofagasta");return t?i.jsx(a,{profile:t}):null}export{g as default};

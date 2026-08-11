@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Bhdy2a24.js";import{g as o,T as i}from"./TrainingLocationPage-CuFZAjJC.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CKQFF4Is.js";import"./erp-pages-Bz0qh-_I.js";function p(){const r=o("north-charleston");return r?t.jsx(i,{profile:r}):null}export{p as default};

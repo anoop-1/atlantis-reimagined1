@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CPaMOKsP.js";import{E as p}from"./ErpLocationPage-D22JRulP.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-C1kpl1wD.js";import"./RelatedProducts-DELRFtLf.js";function e(){return t.jsx(p,{city:"Map Ta Phut",country:"Thailand",slug:"ndt-erp-map-ta-phut"})}export{e as default};

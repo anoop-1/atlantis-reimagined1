@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Bhdy2a24.js";import{C as t}from"./ConsultingLocationPage-CoIQZQDP.js";import"./PillarHubNav-DX4b9s1z.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Bz0qh-_I.js";import"./RelatedProducts-CKQFF4Is.js";function u(){return o.jsx(t,{locationSlug:"manama"})}export{u as default};
