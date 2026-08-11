@@ -1537,4 +1537,223 @@ sandbox — `del .git\__probe`.
 3. Answer blocks for the conversational cluster (§31.3.3); AI Assistant is a real
    channel at 51% engagement.
 4. Re-measure **2026-09-06** against `us-deepdive-summary-2026-08-09.json`.
+
+---
+
+## 32. ⚠️ GEO PRIORITY RESET + US expansion mega-session + conversion fixes — 2026-08-11
+
+### 32.1 🔴 NEW STANDING RULE — read before planning any future SEO cycle
+Owner set an explicit geographic priority order for ALL future SEO work, backed
+by a live GA4 screenshot (Singapore #1 city at 75-125 active users vs San
+Jose, the top US city, at 8-10):
+
+1. **North America — USA and Canada** (top priority, tied)
+2. **Europe**
+3. **Australia & New Zealand**
+4. **Beyond priority, explicitly named** — India, Asia (including Singapore,
+   the geo currently dominating raw traffic)
+
+**This is a standing rule, not a one-cycle instruction.** Default every future
+SEO push to this order unless the owner names a different region for a
+specific task. Memory: `project_seo_geo_priority_order.md`. Related:
+`project_training_usa_only_paying_market.md` — for Training specifically, USA
+is the only market that has ever produced a paying customer; ~1 of ~100
+leads/year. Do not treat India/Singapore/Asia traffic volume as a success
+signal — it has not converted to revenue historically. Additive-only rule
+(§ throughout this file) still applies: do not delete or deprioritize existing
+India/Asia/ME content that already earns traffic; new investment prioritizes
+the four tiers above.
+
+**Immediate focus set the same day:** North American NDT Training built
+around **SNT-TC-1A** specifically (not just ASNT generically), and **custom-
+built ERP solutions** — the "fully customizable" positioning, US/Canada
+audience. Work in progress; see the next cycle's log entry for what shipped.
+
+### 32.2 What this session built (13+ commits, before the geo-priority reset)
+A full US SEO expansion, executed as 6 phases matching the site's proven
+one-phase-one-commit-one-verify discipline, followed by a separate USA-
+Training-specific push once the owner revealed the USA-only-paying-market fact
+mid-session:
+
+**Phase 1** — Consulting pages for the 18 US states with zero Training/ERP/
+Consulting presence (Arkansas, Connecticut, Delaware, Hawaii, Idaho, Iowa,
+Kansas, Maine, Mississippi, Nebraska, Nevada, New Hampshire, New Mexico, Rhode
+Island, South Carolina, South Dakota, Vermont, West Virginia) via the existing
+`StateConsultingPage.tsx` pattern.
+
+**Phase 2** — found and fixed a real bug affecting 232 ERP pages: the
+`_day8StuckBackfill` array's shared template used a raw, un-extracted path
+fragment as `city` for 125 of 232 entries, producing titles like "Affordable
+NDT ERP in /erp/accounting Ndt Inspection Companies Houston". Fixed at the
+source (real city + module names now extracted). Also de-duplicated 16
+genuinely near-identical LA-basin/Bay-Area and Philly/Pittsburgh ERP suburb
+pages (92% word-shingle similarity) with real per-city operating texture,
+following the exact proven pattern from §31.5's `erp-us-city-texture` module.
+
+**Phase 3** — Training pages for 8 major US industrial metros with zero
+coverage: Wichita KS (Textron Aviation/Spirit AeroSystems — Boeing completed
+its acquisition Dec 2025, was pending at time of writing), East Hartford CT
+(Pratt & Whitney/Sikorsky/Collins), North Charleston SC (Boeing 787), Savannah
+GA (Gulfstream — already had ERP), Aiken SC (Savannah River Site — chosen over
+Augusta/Vogtle, ~12,000 workers vs Vogtle's ~2,000), Pascagoula MS (Ingalls
+Shipbuilding), Groton CT (Electric Boat), Bath ME (Bath Iron Works).
+
+**Phase 4** — matching ERP pages for 7 of those 8 metros (Savannah already had
+one), same real employer facts reframed for an ERP-software buyer audience
+instead of a training-candidate audience.
+
+**Phase 5** — Training + ERP state pages for the 13 states still at zero
+presence after Phase 1 (the other 5 got city coverage in Phases 3-4). Reused
+each state's already-verified Consulting-page industrial anchors rather than
+re-deriving facts. ERP state pages use the pre-existing proven pattern (12
+already live pre-session); Training state pages were new for this site
+(Training was 100% city-level before this) — confirmed `TrainingLocationPage`
+reads naturally with a state name in the `city` field before using it.
+
+**Phase 6** — GSC-grounded keyword-embedding pass: a "level 1/2/3" numeral-vs-
+roman-numeral search gap (1,683 impressions, ~0% CTR), and a consulting-intent
+wording gap, fixed on the highest-impression pages only (surgical, not a
+blanket find-replace).
+
+**Owner-directed layout changes to `/training`** mid-session: removed the Buy
+Now CTA section entirely, moved the enquiry form and Level I/II/III course
+cards up next to the hero (previously the form sat under a "Ready to Enroll?"
+Buy Now band; the course-level cards sat much further down the page).
+
+### 32.3 🔴 Compliance finding — fabricated presence + fake testimonials, found and fixed
+Two live pages (`ndt-training-usa.tsx` at `/ndt-training-usa`, `Training-
+USA.tsx` at `/training-usa`) violated the standing no-fabricated-presence rule
+far more seriously than a routine audit had caught: `Training-USA.tsx`
+contained **3 fabricated customer testimonials** — invented named people,
+quotes, job titles, cities ("Michael R., NDT Level III, Houston Texas") — and
+an unsourced "3,200+ US technicians trained" stat. `ndt-training-usa.tsx`
+claimed "our Houston, TX training center" with invented lab/equipment detail,
+a 4-location claim with no basis, and a Course schema.org block asserting a
+physical `Place` in Houston. Fake testimonials are a genuine legal/compliance
+exposure (FTC endorsement rules), not just a style violation — removed
+entirely rather than reworded, since an invented quote cannot be "fixed."
+Both pages' primary CTA also linked to an external, untracked Microsoft Form —
+rerouted to the internal `/training#training-enquiry` form. Same violation
+class found and fixed in three separate `prerender.mjs` static overrides
+(`/training`, `/training-usa`, `/ndt-training-usa`) and two duplicate Course
+JSON-LD blocks.
+
+### 32.4 USA Training SEO push (owner-approved 6-phase plan, real GSC-grounded)
+Full plan published as a Claude Artifact — see chat history if needed; summary
+here. Real finding: **no national page existed for "how do I get NDT Level 1 /
+Level 2 certified"** — pure candidate-path queries ("ndt level 1
+certification" 13i pos 37.2, "how to get ndt level 1 certification" 10i pos
+54.3, etc.) scattered across `/asnt-certification` and stray city pages,
+never a purpose-built page. Level III existed (`/asnt-level-iii-training`) but
+was nearly invisible (16 impr/90d, position 82.8).
+
+**Shipped:**
+- `/ndt-level-1-training`, `/ndt-level-2-training` (new), `/asnt-level-iii-
+  training` (rebuilt in place, same route). Deliberately does NOT target
+  "asnt level iii consulting" / "ndt level 3 consultant" query phrasing —
+  that's buyer intent (hiring a Level III), already owned by
+  `/consulting/ndt-consulting-level-iii`, confirmed untouched.
+- 4 new blog posts (apprenticeship/OJT paths, veterans transitioning into NDT,
+  no-experience-required, which-method-to-learn-first) — deliberately NOT
+  covering "Level 1/2/3 complete path" since the new pages above already own
+  that; would have cannibalized. Plus 1 enrichment (not duplication) of
+  `best-ndt-training-providers-and-programs` with a US-specific vetting
+  section.
+- Internal-linking cluster: the 3 Level pages ↔ near-me hub ↔ online-training
+  page now cross-link each other (none of the three previously linked to the
+  other two at all). `TrainingLocationPage.tsx`'s existing generic Level I/II
+  mention (renders on all ~152 US city pages) now hyperlinks into the 3 Level
+  pages — one shared-template edit, applies site-wide, verified across 8
+  spot-checked cities in different regions + a full 148/148 US-city sweep.
+- **Bug found mid-task:** `/ndt-training-near-me` had no explicit prerender
+  override and was falling through a generic `/ndt-training-{slug}` regex,
+  rendering as a fake city page titled "NDT Training in Near ME" in the
+  crawler-facing HTML while the live React page showed correct content —
+  another instance of the two-layer-drift class this file has documented
+  repeatedly. Fixed.
+- Separate 26-page internal-linking audit (real 90-day worldwide GSC pull,
+  `gsc-report.json`): `/erp` and `/consulting` hub pages plus 8 cert/exam-prep
+  pages plus 14 method-city pages plus 2 training-city pages were missing a
+  contextual link to `/training` despite discussing certification. Fixed.
+
+### 32.5 🔴 Two more bugs found by a full QA sweep of all 13 commits
+1. All **38** Consulting state pages (`/ndt-consulting-{state}`) — the
+   original 20 plus the 18 built in Phase 1 — shipped a static `<title>` that
+   didn't match their own React component's `metaTitle` (the `usStatePages`
+   forEach in `prerender.mjs` auto-generated a generic title instead of
+   reusing the real, state-specific one each page's `StateConsultingPage.tsx`
+   `stateData` entry actually renders). Fixed: `usStatePages` entries now
+   carry the real `metaTitle`/`metaDescription` extracted from `stateData`.
+2. Consulting/ERP state-page family runs 0.69-0.73 word-shingle similarity —
+   above this site's own 0.55 near-duplicate bar. **Not a new regression** —
+   matches the pre-existing pattern from the original 20 states, which have
+   been live and indexed without issue. Flagged for awareness, not fixed.
+Also confirmed (unrelated to this session, pre-existing): a broken link at
+`/consulting/api-579-fitness-for-service-services`, 21 occurrences — not
+touched, outside scope.
+
+### 32.6 🔴 Conversion-tracking assessment — the purchase flow was invisible to GA4
+Deep GA4 (live pull, property 517088706) + GSC assessment, prompted by the
+owner asking where CTR/conversion is lagging beyond ranking. Six real gaps
+found and fixed:
+
+1. **The Stripe purchase flow (`BuyNow.tsx` → `api/stripe-webhook.ts`) fired
+   zero GA4 events anywhere** — the one channel that has ever produced revenue
+   was completely invisible to analytics, both client- and server-side. Fixed:
+   `begin_checkout` on the Buy Now buttons + new `/training/buy-now/thank-you`
+   page firing `purchase`. **Owner action still needed:** set that thank-you
+   URL as the Stripe Payment Link's post-payment redirect in the Stripe
+   dashboard, or the page never receives traffic.
+2. `BusinessResourcePage.tsx` (`/resources/*`, the highest-converting content
+   per §26.1) fired `template_download` with no `page_location`/`page_path`
+   since its creation — same bug class already fixed on `EnquiryCaptureForm`/
+   `Contact.tsx` on 2026-08-07 (§26.3), just missed on this newer component.
+   Same gap fixed in `GA4EventTracker.tsx` (6 event types) and `FreeTrial.tsx`.
+3. **`generate_lead` fired 60 times in 90 days; the custom `form_submit` event
+   fired only once**, despite both being called unconditionally together on
+   every submission. Root cause: `form_submit` is a **reserved GA4 Enhanced-
+   Measurement auto-collected event name** — this site's own forms already
+   fire GA4's native `form_submit` from the real DOM submit event, and reusing
+   that name for a custom event produces undefined dedup behavior. Renamed to
+   `atlantis_form_submit` in both `EnquiryCaptureForm.tsx` and `Contact.tsx`.
+4. `SalaryLevelPage.tsx` (powers the 3 new Level-salary pages) buried its only
+   lead-capture form after 6 sections of content. Added a lightweight above-
+   the-fold CTA right after the direct-answer block rather than moving the
+   full form up — these pages are deliberately structured to win featured
+   snippets on the direct answer (§25.4 pattern), and a form at the very top
+   would compete with that.
+5. **GA4 has zero Key Events configured** despite 60 real `generate_lead` and
+   760 `erp_demo_request_click` events firing — every conversion report,
+   including anything feeding Google Ads, currently shows flat zero. **Owner
+   action:** GA4 Admin → Events → mark `generate_lead`,
+   `erp_demo_request_click`, `template_download` as Key Events.
+6. **US traffic that lands actually engages well** — 48% engagement rate,
+   ~278s average session, beats India (27%, 92s) and Singapore (37%, **7s** —
+   worth the owner's own skepticism, that duration reads more like bot/
+   scraper traffic than real visitors) by a wide margin. This contradicts a
+   "content doesn't match the market" theory: **the constraint is volume and
+   ranking depth for the sessions that never arrive, not relevance for the
+   ones that do.** Paid Search essentially does not reach the US at all — 10
+   of 3,299 US sessions (90d) came from `google/cpc`. Confirms and sharpens
+   §24.3/§31.6's "campaign geo-targeting, not an SEO problem" finding.
+7. Also shipped: direct-answer/snippet blocks for 21 cost-intent US queries at
+   position 2.5-28.7, ~0% CTR (`ndt inspection cost` pos 2.6, `api 510
+   certification cost` pos 7.2, etc.) — same §25.4 pattern, zero dollar
+   figures for Atlantis's own services anywhere (framed as "check
+   api.org/asnt.org" for third-party fees + "tailored quote" for Atlantis).
+
+### 32.7 Next cycle, in order
+1. **North American Training (SNT-TC-1A) + custom-ERP SEO push** — the
+   owner's explicit next focus (§32.1). Plan and execute against the new geo
+   priority order.
+2. Owner actions from §32.6: Stripe redirect URL, GA4 Key Events toggle,
+   Google Ads US/Canada geo-targeting review.
+3. Deferred CTR/snippet pass (§27's original Phase 5 for the USA Training
+   plan) — was held pending live deploy confirmation + crawl time; proceed
+   per owner instruction using best-available reasoning rather than waiting
+   further.
+4. Re-check the Singapore 7-second-average-session anomaly before investing
+   further effort assuming it's real human traffic.
+5. Fix `/consulting/api-579-fitness-for-service-services` (21-occurrence
+   broken link, pre-existing, out of this session's scope).
 5. Content effort into blog/resources/compare shapes ONLY (§31.1).
