@@ -381,6 +381,14 @@ export default function Erp() {
                      quality — one connected platform instead of tools that never quite agree with
                      each other. Every module is customizable, and you switch on only what you need.
                   </p>
+                  <p className="text-base text-muted-foreground max-w-3xl mx-auto mt-4">
+                     The certification-tracking module stays current because the technicians it tracks do too —
+                     see Atlantis's own{" "}
+                     <Link to="/training" className="text-primary hover:underline">
+                        NDT training and certification
+                     </Link>{" "}
+                     programs for the Level I/II/III pathway feeding this data.
+                  </p>
                </motion.div>
 
                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -222,6 +222,9 @@ export default function ConsultingServices() {
             <p className="text-slate-700 leading-relaxed mb-4">
                For owner-operators we also provide <strong>API 510 / 570 / 580 / 581 / 653 / 579 consulting</strong> — see the dedicated service-line pages above. For inspection contractors we audit-defend on <strong>Aramco 9COM, ADNOC AGES, QatarEnergy NFPS, Nadcap NDT AC7114, API Q1, ISO 17020, ISO 17025</strong> and customer-specific quality systems. For aerospace MROs we maintain currency under <strong>NAS 410 Rev 5</strong> + Nadcap AC7114/2-/4-/9- subordinate documents. <strong>Expert witness opinions</strong> available under separate scope-of-work for rejected inspection campaigns, weld disputes, fitness-for-service arguments, and insurer / regulator escalations.
             </p>
+            <p className="text-slate-700 leading-relaxed mb-4">
+               Building the bench that a Level III eventually oversees starts earlier in the certification pathway — see Atlantis's <Link to="/training" className="text-primary underline">NDT training and certification</Link> programs for Level I/II technician development feeding into this consulting model.
+            </p>
             <p className="text-slate-700 leading-relaxed">
                <strong>Affordable. Accessible. Fully customizable.</strong> Engagements scoped to your real workload — not packaged hours. Demo on request, quote on request via <a href="mailto:info@atlantisndt.com" className="text-primary underline">info@atlantisndt.com</a>.
             </p>

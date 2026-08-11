@@ -670,6 +670,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                                 {location.name} is a major industrial hub with significant presence in {location.industries.join(", ")}.
                                 The region hosts leading manufacturers and service providers including {location.companies.slice(0, 2).join(" and ")},
                                 creating abundant opportunities for certified inspection professionals. Training in {location.name} connects you with local industry networks and employment opportunities.
+                                {" "}See the full <Link to="/training" className="text-primary underline">NDT training and certification</Link> catalogue for every method and level Atlantis offers beyond this course.
                             </p>
                             <div className="bg-slate-50 p-4 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-3">Local Industry Leaders:</h3>

@@ -2755,7 +2755,7 @@ const corePages = [
     <h2>Industries Served</h2>
     <p>Atlantis NDT consultants serve refining (Aramco, ADNOC, Shell, ExxonMobil, Marathon, Valero, Phillips 66), petrochem (BASF, INEOS, Dow, LyondellBasell, SABIC), marine + offshore (Petrobras, Woodside, Equinor, Total, FPSO operators), aerospace (Boeing, Airbus, Lockheed, Pratt &amp; Whitney, Safran), power generation (NTPC, EDF, TVA, Duke), LNG (Qatargas, Cheniere, Sempra), mining (BHP, Rio Tinto, Vale), hydrogen developers, CCS projects, and offshore wind (Ørsted, RWE, Iberdrola).</p>
     <h2>Atlantis NDT Integrated Stack</h2>
-    <p>Consulting engagements integrate with the full <a href="/erp">Atlantis NDT ERP</a> (asset register + cert tracking + audit-ready records), <a href="/digital-twins">Digital Twin platform</a> (3D asset model + damage-mechanism overlay), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture), <a href="/lms">Atlantis NDT LMS</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, and <a href="/3d-scanning-services">3D Scanning Services</a>.</p>
+    <p>Consulting engagements integrate with the full <a href="/erp">Atlantis NDT ERP</a> (asset register + cert tracking + audit-ready records), <a href="/digital-twins">Digital Twin platform</a> (3D asset model + damage-mechanism overlay), <a href="/best-ndt-reporting-software-2026">Reporting Software</a> (mobile + offline field capture), <a href="/lms">Atlantis NDT LMS</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, and <a href="/3d-scanning-services">3D Scanning Services</a>. The technicians a Level III eventually signs off on build their pathway through Atlantis <a href="/training">NDT training and certification</a>.</p>
     <h2>Delivery Model</h2>
     <p>Three delivery models: (a) On-site mobilisation 24-72h via Houston + Dubai + Mumbai + Singapore + London hubs; (b) Remote procedure authoring + Level III sign-off, 24-hour turnaround; (c) Hybrid — local Level II + Atlantis Level III remote oversight. Free 30-min discovery call scopes asset class + damage mechanisms + code stack + delivery model preference.</p>
     <h2>Anonymised Customer Outcomes</h2>
@@ -2884,7 +2884,7 @@ const corePages = [
     <h1>Compliance Tracking, Calibration Management &amp; Audit Preparation ERP — and Every Business You Run</h1>
     <p><strong>Atlantis NDT ERP</strong> is a cloud-based business management platform that goes deepest on testing and inspection companies — NDT technician certification tracking software that flags expiring credentials automatically, calibration management software for NDT equipment, and inspection company scheduling and crew dispatch — while running the rest of the business (work orders, RBI per API 581, FFS per API 579, inspection reporting, invoicing, and CRM) on the same platform. Affordable, accessible, fully customizable. Replaces disjoint tools (Excel cert tracker + Word doc control + paper field capture + spreadsheet audit-trail + standalone calibration LIMS).</p>
     <h2>Modules + Features</h2>
-    <p>pre-configured modules for NDT inspection operations: inspector cert tracking (ASNT + ISO 9712 dual-scheme + ACCP + PCN + NAS 410 + EN 4179 aerospace + API ICP + AWS CWI + NACE CIP + CSWIP), equipment + calibration cert tracking (NIST + UKAS + NPL traceability), work-order management, field-service dispatch, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client format), RBI engine (API 581-aligned), FFS engine (API 579-aligned), document control (ISO 9001 + 17020 + 17025), procedure library + Level III sign-off workflow, audit-trail recording, invoicing + accounting + multi-currency, payroll + HR, time-sheet, project management, fleet management, CRM, e-commerce + B2B portal.</p>
+    <p>pre-configured modules for NDT inspection operations: inspector cert tracking (ASNT + ISO 9712 dual-scheme + ACCP + PCN + NAS 410 + EN 4179 aerospace + API ICP + AWS CWI + NACE CIP + CSWIP), equipment + calibration cert tracking (NIST + UKAS + NPL traceability), work-order management, field-service dispatch, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client format), RBI engine (API 581-aligned), FFS engine (API 579-aligned), document control (ISO 9001 + 17020 + 17025), procedure library + Level III sign-off workflow, audit-trail recording, invoicing + accounting + multi-currency, payroll + HR, time-sheet, project management, fleet management, CRM, e-commerce + B2B portal. The cert-tracking module stays accurate because the technicians it tracks keep current through Atlantis <a href="/training">NDT training and certification</a> pathways.</p>
     <h2>Integrations</h2>
     <p>Native connectors for SAP PM + EAM + MM + SD, Oracle eAM + EBS + Fusion, IBM Maximo, Microsoft Dynamics, NetSuite, ServiceNow, Salesforce, HubSpot, Meridium APM, AspenTech Mtell, GE Vernova APM, Hexagon HxGN EAM, OSIsoft PI Asset Framework. REST API + webhook + Kafka/MQTT/AMQP for real-time inspection-data feeds.</p>
     <h2>Code + Compliance Framework</h2>
@@ -11543,7 +11543,7 @@ certSlugs.forEach(cert => {
       bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/atlantis-academy">Academy</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>${cert.name}${isLevelIII ? ' (Level 3)' : ''} in ${city.name} 2026 — Atlantis NDT</h1>
-    <p><strong>Atlantis NDT</strong> delivers ${cert.name} in ${city.name}. ASNT NDT Level III-led training, 96% first-attempt pass rate, free retake-grade backstop. Classroom + online + hybrid delivery models. Cohorts run monthly.${level3Note} ${localInfo ? localInfo.replace(/<\/?p>/g, '') : ''}</p>
+    <p><strong>Atlantis NDT</strong> delivers ${cert.name} in ${city.name}. ASNT NDT Level III-led training, 96% first-attempt pass rate, free retake-grade backstop. Classroom + online + hybrid delivery models. Cohorts run monthly.${level3Note} ${localInfo ? localInfo.replace(/<\/?p>/g, '') : ''} See the full <a href="/training">NDT training and certification</a> catalogue for every method and level Atlantis offers beyond this course.</p>
     <h2>Curriculum Coverage</h2>
     <p>${cert.name} curriculum covers ASNT NDT Level I + II + III pathway alongside complementary schemes — ISO 9712:2021 + EN ISO 9712 (third-party), API ICP (510/570/580/653/936/1169), AWS CWI/SCWI, NACE CIP coating inspector (1/2/3), CSWIP 3.1/3.2 welding inspector, PCN UK (BINDT), ACCP US portable, NAS 410 + EN 4179 aerospace. Cross-references the full code stack: ASME B&amp;PV V + VIII + IX + XI, ASME B31.1/3/4/8/12 piping, API 510/570/571/579/580/581/653, ASTM E-series, ISO 17635/17636/17640, EN 13445/13480, NACE MR0175/MR0103, IACS Rec-20.</p>
     <h2>Methods Available in ${city.name}</h2>
@@ -13094,6 +13094,66 @@ if (pseoNoindexApplied > 0) {
 
   const methodEnriched = enrichMethodCityPages(routes);
   if (methodEnriched) console.log(`🔬 Method-page enrichment: ${methodEnriched} thin method/city pages given method-specific detail`);
+
+  // ── INTERNAL-LINKING AUDIT 2026-08-11 ──────────────────────────────────
+  // Targeted pass over the top-trafficked pages (90d GSC clicks/impressions):
+  // for each, check whether a contextual in-body link to the relevant hub
+  // (/training, /erp, /digital-twins, /consulting) already exists. These
+  // paths are shared-template pages (shorthandWrap() corePages entries or
+  // the base method-city generator) whose static bodyContent lacked a link
+  // that the equivalent React component already carries in most cases —
+  // scoped here rather than editing the shared templates, to keep the change
+  // additive and bounded to the traffic-justified set instead of touching
+  // every low/no-traffic sibling in those families. Each entry appends ONE
+  // short additive sentence with the relevant hub link, only if that hub
+  // link is not already present in the page's body.
+  const INTERNAL_LINK_AUDIT_PATCH = {
+    // Cert pages / country variants — training is the exam-prep pathway.
+    '/api-510-india': { hub: '/training', html: ' Candidates preparing for this exam can start the certification pathway at Atlantis <a href="/training">NDT training and certification</a>.' },
+    '/api-570-india': { hub: '/training', html: ' Candidates preparing for this exam can start the certification pathway at Atlantis <a href="/training">NDT training and certification</a>.' },
+    '/api-653-india': { hub: '/training', html: ' Candidates preparing for this exam can start the certification pathway at Atlantis <a href="/training">NDT training and certification</a>.' },
+    '/api-653-training-saudi-arabia': { hub: '/training', html: ' See the full multi-method ASNT pathway at Atlantis <a href="/training">NDT training and certification</a>.' },
+    '/api-570-training': { hub: '/training', html: ' See the full multi-method ASNT pathway at Atlantis <a href="/training">NDT training and certification</a>.' },
+    '/compare/api-510-vs-api-570': { hub: '/training', html: ' Candidates earlier in the certification pathway can start at Atlantis <a href="/training">NDT training and certification</a>.' },
+    '/ndt-for-oil-gas': { hub: '/training', html: ' Building and maintaining that certified inspector bench runs through Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/ndt-erp-solution': { hub: '/training', html: ' The certification data this software tracks stays accurate because technicians renew it through Atlantis <a href="/training">NDT training and certification</a>.' },
+    // Method-city pages — technicians performing the method need ASNT/ISO
+    // 9712 certification currency; the base template links /erp and
+    // /digital-twins but not /training in-body (only in nav, which the
+    // relevant-hub-link audit does not count).
+    '/ultrasonic-testing-singapore': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-saudi-arabia': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-singapore': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-dubai': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/radiographic-testing-singapore': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/radiographic-testing-chennai': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/radiographic-testing-bahrain': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/visual-testing-calgary': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-thailand': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-kochi': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-nigeria': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-dallas': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-dammam': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+    '/eddy-current-testing-spain': { hub: '/training', html: ' Every technician on the crew carries current ASNT/ISO 9712 certification from Atlantis <a href="/training">NDT training and certification</a> programs.' },
+  };
+  let internalLinkAuditApplied = 0;
+  for (const r of routes) {
+    const patch = INTERNAL_LINK_AUDIT_PATCH[r.path];
+    if (!patch || !r.bodyContent) continue;
+    // Check only the in-body content, not the header/nav — nav-area links
+    // don't satisfy the "contextual in-body link" requirement, and every
+    // one of these templates already puts /training in its header nav.
+    const bodyOnly = r.bodyContent.includes('</nav>')
+      ? r.bodyContent.split('</nav>').slice(1).join('</nav>')
+      : (r.bodyContent.includes('</header>') ? r.bodyContent.split('</header>').slice(1).join('</header>') : r.bodyContent);
+    const hubRe = new RegExp(`href="${patch.hub.replace(/\//g, '\\/')}\\/?"`);
+    if (hubRe.test(bodyOnly)) continue; // already linked in-body — additive-only, skip
+    r.bodyContent = /<\/main>\s*$/.test(r.bodyContent)
+      ? r.bodyContent.replace(/<\/main>\s*$/, `    <p>${patch.html.trim()}</p>\n  </main>`)
+      : `${r.bodyContent}<p>${patch.html.trim()}</p>`;
+    internalLinkAuditApplied++;
+  }
+  if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
   // ── NOINDEX RE-EVALUATION 2026-07-28 ──────────────────────────────────
   // 349 pages carried noindex, 275 of them from a hard-coded list generated
