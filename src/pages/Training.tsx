@@ -243,72 +243,9 @@ export default function Training() {
             </div>
          </motion.section>
 
-         {/* 2026-08-07 CRO fix — inline enquiry, high on the page, mirroring the
-             /erp fix from 2026-07-29. The page's only working lead form (this
-             same EnquiryCaptureForm) sat 7+ sections down, past the FAQ and
-             VR/AR content, and the two most-clicked CTAs on the page (course
-             card "Enquiry Form" buttons, the mid-page "Contact Us Today" band)
-             linked out to an external Microsoft Form with no tie to this site,
-             to info@atlantisndt.com, or to any tracking — both now point here
-             instead. The form now sits immediately under the hero. */}
          <div id="training-enquiry" className="scroll-mt-24">
             <EnquiryCaptureForm variant="training" />
          </div>
-
-         {/* 2026-08-08 — Buy Now entry point. Ready to enroll without a
-             consultation call first? Route straight to checkout. */}
-         <section className="py-12 bg-secondary/10">
-            <div className="container mx-auto px-6 text-center">
-               <h2 className="text-2xl font-bold mb-3">Ready to Enroll?</h2>
-               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  Buy a Level 1 or Level 2 course bundle now — all 5 methods
-                  (RT, UT, MT, PT, VT) included, instant access after checkout.
-               </p>
-               <Button asChild size="lg">
-                  <Link to="/training/buy-now">Buy Now</Link>
-               </Button>
-            </div>
-         </section>
-
-         {/* Keywords / Topics summary for SEO (naturally written) */}
-         <section className="py-6">
-            <div className="container mx-auto px-6 max-w-4xl">
-               <Card className="border-0 shadow-sm">
-                  <CardContent className="p-6">
-                     <p className="text-muted-foreground text-base leading-relaxed">
-                        Our training covers a wide range of inspection methods
-                        and testing topics, including non-destructive testing
-                        (NDT), ultrasonic testing and examination, magnetic
-                        particle testing (MPI), radiography and radiography
-                        testing, eddy current testing, liquid penetrant and
-                        penetrant testing, and both destructive and
-                        non-destructive inspection techniques. We also include
-                        practical courses on test planning, reporting, and
-                        quality assurance to prepare candidates for industry
-                        certification and real-world inspections.
-                        <br /><br />
-                        Popular course searches we cover directly: the ASNT
-                        Level 2 UT online course for candidates who want the
-                        theory portion remotely, the PAUT Level 2 training
-                        course and TOFD training and certification course for
-                        technicians moving into advanced ultrasonic methods,
-                        and the eddy current (ET) Level 2 certification course
-                        for tube and surface-inspection specialists. For
-                        working inspectors approaching their 5-year cycle we
-                        run a dedicated NDT Level 2 recertification / renewal
-                        course, and for employers we deliver onsite NDT
-                        training for technicians as well as group NDT training
-                        for inspection company staff — see our{" "}
-                        <Link to="/corporate-ndt-training" className="text-primary underline">
-                           corporate NDT technician training contracts
-                        </Link>{" "}
-                        for cohort sizing, method mix, and delivery-mode
-                        options.
-                     </p>
-                  </CardContent>
-               </Card>
-            </div>
-         </section>
 
          {/* Training Levels */}
          <section className="py-20">
@@ -405,6 +342,46 @@ export default function Training() {
                      </motion.div>
                   ))}
                </div>
+            </div>
+         </section>
+
+         {/* Keywords / Topics summary for SEO (naturally written) */}
+         <section className="py-6">
+            <div className="container mx-auto px-6 max-w-4xl">
+               <Card className="border-0 shadow-sm">
+                  <CardContent className="p-6">
+                     <p className="text-muted-foreground text-base leading-relaxed">
+                        Our training covers a wide range of inspection methods
+                        and testing topics, including non-destructive testing
+                        (NDT), ultrasonic testing and examination, magnetic
+                        particle testing (MPI), radiography and radiography
+                        testing, eddy current testing, liquid penetrant and
+                        penetrant testing, and both destructive and
+                        non-destructive inspection techniques. We also include
+                        practical courses on test planning, reporting, and
+                        quality assurance to prepare candidates for industry
+                        certification and real-world inspections.
+                        <br /><br />
+                        Popular course searches we cover directly: the ASNT
+                        Level 2 UT online course for candidates who want the
+                        theory portion remotely, the PAUT Level 2 training
+                        course and TOFD training and certification course for
+                        technicians moving into advanced ultrasonic methods,
+                        and the eddy current (ET) Level 2 certification course
+                        for tube and surface-inspection specialists. For
+                        working inspectors approaching their 5-year cycle we
+                        run a dedicated NDT Level 2 recertification / renewal
+                        course, and for employers we deliver onsite NDT
+                        training for technicians as well as group NDT training
+                        for inspection company staff — see our{" "}
+                        <Link to="/corporate-ndt-training" className="text-primary underline">
+                           corporate NDT technician training contracts
+                        </Link>{" "}
+                        for cohort sizing, method mix, and delivery-mode
+                        options.
+                     </p>
+                  </CardContent>
+               </Card>
             </div>
          </section>
 
