@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CKzVvxdf.js";import{E as p}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function s(){return r.jsx(p,{city:"Paradip",country:"India",slug:"ndt-erp-paradip"})}export{s as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CSFOXFVG.js";import{E as o}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function u(){return t.jsx(o,{city:"Saint John",country:"Canada",slug:"ndt-erp-saint-john"})}export{u as default};

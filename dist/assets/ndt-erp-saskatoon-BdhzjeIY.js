@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-CKzVvxdf.js";import{E as t}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function u(){return o.jsx(t,{city:"Saskatoon",country:"Canada",slug:"ndt-erp-saskatoon"})}export{u as default};

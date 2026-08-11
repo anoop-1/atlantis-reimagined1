@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CSFOXFVG.js";import{E as t}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function l(){return r.jsx(t,{city:"Nashville",country:"USA",slug:"ndt-erp-nashville"})}export{l as default};

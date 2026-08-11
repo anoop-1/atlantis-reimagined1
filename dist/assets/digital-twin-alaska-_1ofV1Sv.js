@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CKzVvxdf.js";import{D as a}from"./DigitalTwinLocationPage-ChuydaMn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function n(){return t.jsx(a,{city:"Alaska",country:"USA",slug:"digital-twin-alaska"})}export{n as default};

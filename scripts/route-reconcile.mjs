@@ -485,7 +485,7 @@ function trainingCityBody(k, slug) {
   const body = `${H.nav(NAV_TRAIN)}
   <main>
     <h1>NDT Training and Certification in ${esc(city)}${country ? ` — ${esc(country)}` : ''}</h1>
-    <p>Atlantis NDT delivers ASNT and ISO 9712 aligned NDT training in ${esc(city)}: Level I, Level II and Level III programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing, plus API 510, API 570 and API 653 inspector preparation. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
+    <p>Atlantis NDT delivers ASNT and ISO 9712 aligned NDT training in ${esc(city)}: <a href="/ndt-level-1-training">Level I</a>, <a href="/ndt-level-2-training">Level II</a> and <a href="/asnt-level-iii-training">Level III</a> programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing, plus API 510, API 570 and API 653 inspector preparation. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
 ${p?.localContext ? `    <h2>The ${esc(city)} inspection market</h2>\n    <p>${esc(p.localContext)}</p>` : ''}
 ${p?.primaryCert ? `    <h2>Certifications most in demand in ${esc(city)}</h2>\n    <p>Primary: <strong>${esc(p.primaryCert)}</strong>. Secondary: ${esc(p.secondaryCert || 'API inspector certifications')}. ${p.otherCerts?.length ? `Also frequently requested: ${esc(p.otherCerts.join(', '))}.` : ''}</p>` : ''}
 ${p?.examCenters?.length ? `    <h2>Exam centres and practical facilities</h2>\n    ${H.ul(p.examCenters)}` : ''}
@@ -676,6 +676,16 @@ function tsxBody(extracted, path, nav) {
     ? `<h2>Key points covered</h2><ul>${dataStrings.map((d) => `<li>${esc(sanitizePricing(d))}</li>`).join('')}</ul>`
     : '';
   const enough = paras.join(' ').length + dataStrings.join(' ').length > 400 || faqs.length >= 3;
+  // Phase 4 cluster-linking (2026-08-11): this generic fallback rebuilds body
+  // text straight from <p>/<li> extraction, which drops JSX <Link> elements
+  // (e.g. the RelatedGuidesBlock cards on /asnt-level-iii-training) — add the
+  // same cross-links here for the one path this pass is known to win on, so
+  // the crawler-facing HTML still matches what the live page links to.
+  const extraRelated = path === '/asnt-level-iii-training'
+    ? '<p>See also: <a href="/ndt-level-1-training">NDT Level 1 Training</a> · <a href="/ndt-level-2-training">NDT Level 2 Training</a> · <a href="/asnt-certification">ASNT certification guide</a> · <a href="/ndt-training-online">Online NDT Training</a> · <a href="/ndt-training-near-me">NDT Training Near Me</a>.</p>'
+    : path === '/blog/ndt-salary-guide-2026-global'
+    ? '<p>See also: <a href="/blog/ndt-training-no-experience-what-you-need">NDT training with no experience</a> · <a href="/blog/ndt-apprenticeship-on-the-job-training-paths-us">NDT apprenticeship / on-the-job training paths</a> · <a href="/blog/which-ndt-method-should-you-learn-first">which NDT method to learn first</a>.</p>'
+    : '';
   return {
     body: `${H.nav(nav)}
   <main>
@@ -685,6 +695,7 @@ function tsxBody(extracted, path, nav) {
       ${headHtml ? `<h2>What this page covers</h2><ul>${headHtml}</ul>` : ''}
       ${dataHtml}
 ${H.faq(faqs)}
+      ${extraRelated}
       <p>Related: <a href="/erp">Atlantis NDT ERP</a> · <a href="/digital-twins">Digital Twin platform</a> · <a href="/ndt-inspection-software">NDT inspection software</a> · <a href="/best-ndt-reporting-software-2026">NDT reporting software</a> · <a href="/consulting">ASNT Level III consulting</a> · <a href="/training">NDT training</a>. <a href="/contact">Book a free consultation</a>.</p>
     </article>
   </main>`,

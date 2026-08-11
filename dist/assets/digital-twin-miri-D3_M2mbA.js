@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-CSFOXFVG.js";import{D as t}from"./DigitalTwinLocationPage-CYMViR_z.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function e(){return i.jsx(t,{city:"Miri",country:"Malaysia",slug:"digital-twin-miri"})}export{e as default};

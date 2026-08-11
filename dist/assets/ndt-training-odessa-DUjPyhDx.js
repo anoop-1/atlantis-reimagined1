@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CKzVvxdf.js";import{g as o,T as t}from"./TrainingLocationPage-wPlkQ7VG.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-4Ad83B3H.js";import"./erp-pages-DG8R0QOb.js";function p(){const i=o("odessa");return i?r.jsx(t,{profile:i}):null}export{p as default};

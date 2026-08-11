@@ -1,0 +1,1 @@
+import{j as s}from"./blog-pages-CSFOXFVG.js";import{g as t,B as i}from"./business-resources-CfCer-Ex.js";function n(){const e=t("client-audit-evidence-pack-checklist");return e?s.jsx(i,{resource:e}):null}export{n as default};

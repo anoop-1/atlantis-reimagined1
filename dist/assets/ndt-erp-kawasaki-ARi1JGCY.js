@@ -1,1 +1,0 @@
-import{j as a}from"./blog-pages-CKzVvxdf.js";import{E as r}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function e(){return a.jsx(r,{city:"Kawasaki",country:"Japan",slug:"ndt-erp-kawasaki"})}export{e as default};

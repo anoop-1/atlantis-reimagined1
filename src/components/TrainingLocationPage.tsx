@@ -444,7 +444,15 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               If you're entering the field rather than sourcing training for a
               team, the path is straightforward. Most employers hiring in{" "}
               {profile.city} qualify personnel against ASNT SNT-TC-1A, so a
-              recognised Level I or Level II certification — not a particular
+              recognised{" "}
+              <Link to="/ndt-level-1-training" className="text-primary underline">
+                Level I
+              </Link>{" "}
+              or{" "}
+              <Link to="/ndt-level-2-training" className="text-primary underline">
+                Level II
+              </Link>{" "}
+              certification — not a particular
               school — is what gets you considered. Training is available
               online + on-site + hybrid: theory can be completed remotely, and
               technicians can complete practical evaluation through a
@@ -463,7 +471,19 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               <Link to="/asnt-certification" className="text-primary underline">
                 ASNT certification guide
               </Link>{" "}
-              for the complete Level I → III route.
+              for the complete Level I → III route, including our dedicated{" "}
+              <Link to="/ndt-level-1-training" className="text-primary underline">
+                Level I
+              </Link>
+              ,{" "}
+              <Link to="/ndt-level-2-training" className="text-primary underline">
+                Level II
+              </Link>{" "}
+              and{" "}
+              <Link to="/asnt-level-iii-training" className="text-primary underline">
+                Level III
+              </Link>{" "}
+              training guides.
             </p>
           </motion.div>
         </div>

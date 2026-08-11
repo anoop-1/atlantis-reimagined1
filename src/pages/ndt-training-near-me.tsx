@@ -301,6 +301,10 @@ export default function NdtTrainingNearMe() {
               {[
                 { to: "/training", label: "NDT training programmes and methods" },
                 { to: "/asnt-certification", label: "ASNT certification requirements by level" },
+                { to: "/ndt-level-1-training", label: "NDT Level 1 training: prerequisites and hours" },
+                { to: "/ndt-level-2-training", label: "NDT Level 2 training: ASNT & ACCP pathway" },
+                { to: "/asnt-level-iii-training", label: "ASNT Level III training: the senior authority pathway" },
+                { to: "/ndt-training-online", label: "Online NDT training: theory anywhere, practical in person" },
                 { to: "/blog/what-is-ndt-beginners-guide", label: "What is NDT? A beginner's guide" },
                 { to: "/blog/how-to-become-ndt-technician", label: "How to become an NDT technician" },
                 { to: "/ndt-level-1-salary", label: "NDT Level 1 salary and entry pay" },

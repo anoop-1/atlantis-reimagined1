@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-CSFOXFVG.js";import{E as p}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function n(){return i.jsx(p,{city:"Philadelphia",country:"USA",slug:"ndt-erp-philadelphia"})}export{n as default};

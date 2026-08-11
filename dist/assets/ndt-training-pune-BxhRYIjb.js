@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CSFOXFVG.js";import{g as n,T as t}from"./TrainingLocationPage-DJQZmxrM.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-B-l82BLk.js";import"./erp-pages-B7HjCt1a.js";function s(){const i=n("pune");return i?r.jsx(t,{profile:i}):null}export{s as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CSFOXFVG.js";import o from"./MethodLocationPage-YuIdxw4d.js";import"./PillarHubNav-DMF97Kgh.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-B7HjCt1a.js";function a(){return t.jsx(o,{methodSlug:"penetrant-testing",locationSlug:"antwerp"})}export{a as default};

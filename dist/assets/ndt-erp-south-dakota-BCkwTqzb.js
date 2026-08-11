@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CKzVvxdf.js";import{E as o}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function n(){return t.jsx(o,{city:"South Dakota",country:"USA",slug:"ndt-erp-south-dakota"})}export{n as default};

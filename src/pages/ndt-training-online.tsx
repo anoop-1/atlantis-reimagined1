@@ -507,15 +507,45 @@ export default function NDTTrainingOnline() {
                 </div>
             </section>
 
+            {/* Which level */}
+            <section className="py-12 bg-secondary/30">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-2xl font-bold text-center mb-3">Not Sure Which Level You Need?</h2>
+                    <p className="text-muted-foreground text-center mb-8 max-w-2xl mx-auto">Our online theory courses cover Level I and Level II. Each level has different prerequisites, training hours, and a different exam path — see the full breakdown before you enrol.</p>
+                    <div className="grid md:grid-cols-3 gap-4">
+                        <Link to="/ndt-level-1-training" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
+                            <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
+                            <div className="font-medium text-sm">NDT Level 1 Training</div>
+                            <div className="text-xs text-muted-foreground mt-1">Entry-level prerequisites and hours</div>
+                        </Link>
+                        <Link to="/ndt-level-2-training" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
+                            <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
+                            <div className="font-medium text-sm">NDT Level 2 Training</div>
+                            <div className="text-xs text-muted-foreground mt-1">ASNT Level II + ACCP pathway</div>
+                        </Link>
+                        <Link to="/asnt-level-iii-training" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
+                            <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
+                            <div className="font-medium text-sm">ASNT Level III Training</div>
+                            <div className="text-xs text-muted-foreground mt-1">Senior technical authority pathway</div>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
             {/* Internal Links */}
             <section className="py-12">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-2xl font-bold text-center mb-8">Ready to Train In-Person? Choose a Location</h2>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
                         <Link to="/asnt-certification" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <Award className="w-6 h-6 text-primary mx-auto mb-2" />
                             <div className="font-medium text-sm">ASNT Certification Guide</div>
                             <div className="text-xs text-muted-foreground mt-1">Full SNT-TC-1A overview</div>
+                        </Link>
+                        <Link to="/ndt-training-near-me" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
+                            <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
+                            <div className="font-medium text-sm">NDT Training Near Me</div>
+                            <div className="text-xs text-muted-foreground mt-1">Find a US location or on-site option</div>
                         </Link>
                         <Link to="/ndt-training-usa" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />

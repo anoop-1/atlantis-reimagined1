@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CKzVvxdf.js";import{D as o}from"./DigitalTwinLocationPage-ChuydaMn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function l(){return i.jsx(o,{city:"Oslo",country:"Norway",slug:"digital-twin-oslo"})}export{l as default};

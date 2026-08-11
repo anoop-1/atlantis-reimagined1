@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-CKzVvxdf.js";import{C as t}from"./ConsultingLocationPage-CJzlqv4n.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function u(){return o.jsx(t,{locationSlug:"khobar"})}export{u as default};

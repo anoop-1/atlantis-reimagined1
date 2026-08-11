@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-CKzVvxdf.js";import{E as i}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function u(){return o.jsx(i,{city:"Louisville",country:"USA",slug:"ndt-erp-louisville"})}export{u as default};

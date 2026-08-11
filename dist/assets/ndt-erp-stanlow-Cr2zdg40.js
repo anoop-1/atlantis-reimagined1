@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CSFOXFVG.js";import{E as o}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function e(){return t.jsx(o,{city:"Stanlow",country:"UK",slug:"ndt-erp-stanlow"})}export{e as default};

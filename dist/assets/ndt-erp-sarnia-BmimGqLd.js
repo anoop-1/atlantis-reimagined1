@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CKzVvxdf.js";import{E as t}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function e(){return r.jsx(t,{city:"Sarnia",country:"Canada",slug:"ndt-erp-sarnia"})}export{e as default};

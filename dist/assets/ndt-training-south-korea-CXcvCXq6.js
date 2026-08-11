@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-CSFOXFVG.js";import{g as i,T as t}from"./TrainingLocationPage-DJQZmxrM.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-B-l82BLk.js";import"./erp-pages-B7HjCt1a.js";function p(){const r=i("south-korea");return r?o.jsx(t,{profile:r}):null}export{p as default};

@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CSFOXFVG.js";import{g as o,T as a}from"./TrainingLocationPage-DJQZmxrM.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-B-l82BLk.js";import"./erp-pages-B7HjCt1a.js";function g(){const i=o("pascagoula");return i?r.jsx(a,{profile:i}):null}export{g as default};

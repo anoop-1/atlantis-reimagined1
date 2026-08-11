@@ -316,6 +316,8 @@ export default function ASNTLevelIIITraining() {
         { title: "ASNT Level III Consulting Services", href: "/consulting/ndt-consulting-level-iii", description: "Hiring a Level III? Start here instead", icon: "consulting" },
         { title: "Inspection Procedures Management", href: "/erp/inspection-procedures-management-software", description: "Author + version-control NDT procedures", icon: "erp" },
         { title: "NDT Salary Guide 2026", href: "/blog/ndt-salary-guide-2026-global", description: "Pay by certification level", icon: "blog" },
+        { title: "Online NDT Training", href: "/ndt-training-online", description: "How the online exam-prep + in-person proctored exam model works", icon: "training" },
+        { title: "NDT Training Near Me", href: "/ndt-training-near-me", description: "Find delivery options across the US", icon: "training" },
       ]} />
 
       <ContactDetails />

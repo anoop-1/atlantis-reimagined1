@@ -238,7 +238,7 @@ export default function NDTSalaryGuide2026() {
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
                                 <h4 className="font-bold text-lg mb-2">NDT Level I (Level 1) Salary: $40,000-$55,000 (USA)</h4>
                                 <p className="text-slate-600 mb-2">Entry-level technician assisting with inspections. Works under Level II/III supervision. Follows written procedures, records data, marks indications but does not interpret results. Requires 40-80 hours formal training per method.</p>
-                                <p className="text-slate-600"><strong>Career progression:</strong> Most Level I technicians spend 2-3 years gaining experience before attempting Level II certification.</p>
+                                <p className="text-slate-600"><strong>Career progression:</strong> Most Level I technicians spend 2-3 years gaining experience before attempting Level II certification. New to the field? See what <a href="/blog/ndt-training-no-experience-what-you-need" className="text-primary underline underline-offset-2 hover:opacity-80">NDT training with no experience</a> actually requires, and how an <a href="/blog/ndt-apprenticeship-on-the-job-training-paths-us" className="text-primary underline underline-offset-2 hover:opacity-80">NDT apprenticeship / on-the-job training path</a> can get you there.</p>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
                                 <h4 className="font-bold text-lg mb-2">NDT Level II (Level 2) Salary: $55,000-$80,000 (USA baseline)</h4>
@@ -296,7 +296,7 @@ export default function NDTSalaryGuide2026() {
                             <div className="bg-white p-4 rounded-lg shadow-sm">
                                 <h4 className="font-bold mb-2">Baseline Methods</h4>
                                 <ul className="text-slate-600 text-sm space-y-1">
-                                    <li><strong>MT/PT:</strong> $50-65K II | $75-95K III. Entry-level methods, lower training barriers, manufacturing focus.</li>
+                                    <li><strong>MT/PT:</strong> $50-65K II | $75-95K III. Entry-level methods, lower training barriers, manufacturing focus. Not sure where to start? See <a href="/blog/which-ndt-method-should-you-learn-first" className="text-primary underline underline-offset-2 hover:opacity-80">which NDT method to learn first</a>.</li>
                                     <li><strong>Visual Testing (VT):</strong> $52-70K II | $80-100K III. Modest premium over MT/PT due to CWI expertise.</li>
                                     <li><strong>Radiography (RT):</strong> $65-85K II | $95-130K III. Radiation licensing creates barriers; nuclear applications pay premium.</li>
                                 </ul>

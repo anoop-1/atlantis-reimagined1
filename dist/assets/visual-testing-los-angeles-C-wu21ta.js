@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-CKzVvxdf.js";import t from"./MethodLocationPage-B8mKo_jz.js";import"./PillarHubNav-B5-hpTDP.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DG8R0QOb.js";function n(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"los-angeles"})}export{n as default};

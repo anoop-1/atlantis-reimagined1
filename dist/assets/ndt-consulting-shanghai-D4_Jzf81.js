@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-CSFOXFVG.js";import{C as t}from"./ConsultingLocationPage-QEeDwerl.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function u(){return o.jsx(t,{locationSlug:"shanghai"})}export{u as default};

@@ -517,7 +517,7 @@ export default function NDTIndustryStatistics() {
             <div className="bg-blue-50 border-l-4 border-[#004aad] rounded-r-xl p-6">
               <h3 className="font-bold text-[#004aad] mb-2">Why This Matters</h3>
               <p className="text-sm text-slate-700 leading-relaxed">
-                The projected 15% workforce shortage creates significant career opportunities for new entrants. With 500,000+ positions globally and a growing gap between supply and demand, NDT certification is an increasingly valuable career investment. The average time to fill an NDT Level II position has increased from 30 days to 45+ days over the past five years, indicating strong employer demand.
+                The projected 15% workforce shortage creates significant career opportunities for new entrants. With 500,000+ positions globally and a growing gap between supply and demand, NDT certification is an increasingly valuable career investment. The average time to fill an NDT Level II position has increased from 30 days to 45+ days over the past five years, indicating strong employer demand. Two groups the industry is actively recruiting to close this gap: <Link to="/blog/veterans-transitioning-into-ndt" className="text-[#004aad] underline underline-offset-2 hover:opacity-80">veterans transitioning into NDT</Link>, and candidates asking <Link to="/blog/ndt-training-no-experience-what-you-need" className="text-[#004aad] underline underline-offset-2 hover:opacity-80">what NDT training with no experience actually requires</Link>.
               </p>
             </div>
             <CiteBox stat="There are 500,000+ certified NDT technicians globally. The industry faces a projected 15% workforce shortage by 2028 (average age 45, 8% women)" />

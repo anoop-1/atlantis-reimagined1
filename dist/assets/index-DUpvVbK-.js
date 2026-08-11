@@ -1,0 +1,1 @@
+import{q as o,_ as s}from"./blog-pages-CSFOXFVG.js";import{d as u}from"./index-CTB1cNbD.js";var i=s[" useId ".trim().toString()]||(()=>{}),d=0;function f(r){const[t,e]=o.useState(i());return u(()=>{e(a=>a??String(d++))},[r]),t?`radix-${t}`:""}export{f as u};

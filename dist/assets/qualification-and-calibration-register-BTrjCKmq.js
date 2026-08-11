@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CSFOXFVG.js";import{g as s,B as i}from"./business-resources-CfCer-Ex.js";function n(){const e=s("qualification-and-calibration-register");return e?r.jsx(i,{resource:e}):null}export{n as default};

@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CKzVvxdf.js";import{g as t,T as n}from"./TrainingLocationPage-wPlkQ7VG.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-4Ad83B3H.js";import"./erp-pages-DG8R0QOb.js";function p(){const i=t("nigeria");return i?r.jsx(n,{profile:i}):null}export{p as default};
