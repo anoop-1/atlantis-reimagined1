@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Z7F7z73W.js";import{g as o,T as t}from"./TrainingLocationPage-CQCJsGTq.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-Kq7gj8Kf.js";import"./erp-pages-qHlpnUF5.js";function s(){const r=o("al-zour");return r?i.jsx(t,{profile:r}):null}export{s as default};

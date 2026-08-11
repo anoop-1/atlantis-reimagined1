@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CKzVvxdf.js";import r from"./MethodLocationPage-B8mKo_jz.js";import"./PillarHubNav-B5-hpTDP.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DG8R0QOb.js";function s(){return t.jsx(r,{methodSlug:"eddy-current-testing",locationSlug:"marseille"})}export{s as default};

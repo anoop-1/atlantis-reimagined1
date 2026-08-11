@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CKzVvxdf.js";import{D as i}from"./DigitalTwinLocationPage-ChuydaMn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function u(){return t.jsx(i,{city:"Japan",country:"Japan",slug:"digital-twin-japan"})}export{u as default};

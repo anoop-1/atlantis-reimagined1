@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-CKzVvxdf.js";import{E as t}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function n(){return r.jsx(t,{city:"Kerteh",country:"Malaysia",slug:"ndt-erp-kerteh"})}export{n as default};

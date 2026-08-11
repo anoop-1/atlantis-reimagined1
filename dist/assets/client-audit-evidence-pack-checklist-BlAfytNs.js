@@ -1,1 +1,0 @@
-import{j as s}from"./blog-pages-Z7F7z73W.js";import{g as t,B as i}from"./business-resources-QMA7fKOM.js";function n(){const e=t("client-audit-evidence-pack-checklist");return e?s.jsx(i,{resource:e}):null}export{n as default};

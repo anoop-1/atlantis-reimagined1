@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CKzVvxdf.js";import{S as r,a as o}from"./salary-level-pages-ByoK0vR6.js";const s=o.find(a=>a.path==="/ndt-inspector-salary");function i(){return t.jsx(r,{config:s})}export{i as default};

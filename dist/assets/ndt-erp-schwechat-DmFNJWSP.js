@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CKzVvxdf.js";import{E as r}from"./ErpLocationPage-PqQL9Acn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function s(){return t.jsx(r,{city:"Schwechat",country:"Austria",slug:"ndt-erp-schwechat"})}export{s as default};

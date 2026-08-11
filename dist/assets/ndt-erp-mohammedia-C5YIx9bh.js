@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Z7F7z73W.js";import{E as m}from"./ErpLocationPage-CdE0oEEG.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function n(){return o.jsx(m,{city:"Mohammedia",country:"Morocco",slug:"ndt-erp-mohammedia"})}export{n as default};

@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-CKzVvxdf.js";import{D as t}from"./DigitalTwinLocationPage-ChuydaMn.js";import"./PillarHubNav-B5-hpTDP.js";import"./build-hreflang-CViNgX-s.js";import"./badge-rTcNiiok.js";import"./erp-pages-DG8R0QOb.js";import"./RelatedProducts-4Ad83B3H.js";function s(){return i.jsx(t,{city:"Phoenix",country:"USA",slug:"digital-twin-phoenix"})}export{s as default};

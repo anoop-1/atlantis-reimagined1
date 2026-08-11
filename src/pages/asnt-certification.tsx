@@ -242,7 +242,7 @@ export default function ASNTCertification() {
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 1 Requirements</h3>
-                            <p className="text-slate-700">NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam.</p>
+                            <p className="text-slate-700">NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam. For the full prerequisites, hour-by-method breakdown, and realistic timeline, see our <Link to="/ndt-level-1-training" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">NDT Level 1 training guide →</Link></p>
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 3 / ASNT Level 3 Requirements</h3>
@@ -342,6 +342,7 @@ export default function ASNTCertification() {
                     <h2 className="text-3xl font-bold text-center mb-8">Related Certification & Training Pages</h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
+                            { name: "NDT Level 1 Training", path: "/ndt-level-1-training" },
                             { name: "API 510 Certification", path: "/api-510-certification" },
                             { name: "API 570 Certification", path: "/api-570-certification" },
                             { name: "API 653 Certification", path: "/api-653-certification" },

@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-CKzVvxdf.js";import t from"./MethodLocationPage-B8mKo_jz.js";import"./PillarHubNav-B5-hpTDP.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-DG8R0QOb.js";function m(){return o.jsx(t,{methodSlug:"radiographic-testing",locationSlug:"gdansk"})}export{m as default};

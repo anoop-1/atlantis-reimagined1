@@ -2667,6 +2667,8 @@ const Api510Training = lazy(() => import("./pages/api-510-training"));
 const Api570Training = lazy(() => import("./pages/api-570-training"));
 const Api653Training = lazy(() => import("./pages/api-653-training"));
 const AsntLevelIiiTraining = lazy(() => import("./pages/asnt-level-iii-training"));
+const NdtLevel1Training = lazy(() => import("./pages/ndt-level-1-training"));
+const NdtLevel2Training = lazy(() => import("./pages/ndt-level-2-training"));
 const PhasedArrayTraining = lazy(() => import("./pages/phased-array-training"));
 const OilGasNdtServices = lazy(() => import("./pages/oil-gas-ndt-services"));
 const AerospaceNdtServices = lazy(() => import("./pages/aerospace-ndt-services"));
@@ -5642,6 +5644,8 @@ const App = () => (
                   <Route path="/api-570-training" element={<LazyRoute Component={Api570Training} />} />
                   <Route path="/api-653-training" element={<LazyRoute Component={Api653Training} />} />
                   <Route path="/asnt-level-iii-training" element={<LazyRoute Component={AsntLevelIiiTraining} />} />
+                  <Route path="/ndt-level-1-training" element={<LazyRoute Component={NdtLevel1Training} />} />
+                  <Route path="/ndt-level-2-training" element={<LazyRoute Component={NdtLevel2Training} />} />
                   <Route path="/phased-array-training" element={<LazyRoute Component={PhasedArrayTraining} />} />
                   <Route path="/oil-gas-ndt-services" element={<LazyRoute Component={OilGasNdtServices} />} />
                   <Route path="/aerospace-ndt-services" element={<LazyRoute Component={AerospaceNdtServices} />} />

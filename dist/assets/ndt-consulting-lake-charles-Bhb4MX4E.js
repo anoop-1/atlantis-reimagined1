@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Z7F7z73W.js";import{C as t}from"./ConsultingLocationPage-BB1aIanM.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function p(){return o.jsx(t,{locationSlug:"lake-charles"})}export{p as default};

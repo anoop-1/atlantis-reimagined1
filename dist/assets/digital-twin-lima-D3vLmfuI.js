@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Z7F7z73W.js";import{D as t}from"./DigitalTwinLocationPage-CtEnma8U.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DLtrmD7s.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function u(){return i.jsx(t,{city:"Lima",country:"Peru",slug:"digital-twin-lima"})}export{u as default};

@@ -1,1 +1,0 @@
-import{j as e,b$ as n}from"./blog-pages-Z7F7z73W.js";import{g as o}from"./money-pages-Czr_Irc5.js";function s(){const t=o("ndt-inspection-software");return t?e.jsx(n,{page:t}):null}export{s as default};

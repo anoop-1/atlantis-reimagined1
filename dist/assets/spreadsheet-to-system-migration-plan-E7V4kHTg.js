@@ -1,0 +1,1 @@
+import{j as s}from"./blog-pages-CKzVvxdf.js";import{g as r,B as t}from"./business-resources-BBexwdIj.js";function a(){const e=r("spreadsheet-to-system-migration-plan");return e?s.jsx(t,{resource:e}):null}export{a as default};

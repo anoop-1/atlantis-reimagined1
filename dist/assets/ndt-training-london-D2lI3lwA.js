@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-Z7F7z73W.js";import{g as n,T as r}from"./TrainingLocationPage-CQCJsGTq.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-Kq7gj8Kf.js";import"./erp-pages-qHlpnUF5.js";function s(){const o=n("london");return o?i.jsx(r,{profile:o}):null}export{s as default};

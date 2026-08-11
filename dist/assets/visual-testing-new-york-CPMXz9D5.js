@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Z7F7z73W.js";import t from"./MethodLocationPage-CAzVgJ_z.js";import"./PillarHubNav-DCXRjden.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-qHlpnUF5.js";function s(){return o.jsx(t,{methodSlug:"visual-testing",locationSlug:"new-york"})}export{s as default};

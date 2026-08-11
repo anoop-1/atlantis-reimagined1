@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Z7F7z73W.js";import{C as o}from"./ConsultingLocationPage-BB1aIanM.js";import"./PillarHubNav-DCXRjden.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-qHlpnUF5.js";import"./RelatedProducts-Kq7gj8Kf.js";function e(){return t.jsx(o,{locationSlug:"detroit"})}export{e as default};

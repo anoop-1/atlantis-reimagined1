@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-Z7F7z73W.js";import{g as i,T as t}from"./TrainingLocationPage-CQCJsGTq.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-Kq7gj8Kf.js";import"./erp-pages-qHlpnUF5.js";function s(){const r=i("groton");return r?o.jsx(t,{profile:r}):null}export{s as default};

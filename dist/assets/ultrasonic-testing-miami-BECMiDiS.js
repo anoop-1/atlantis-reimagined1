@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-Z7F7z73W.js";import o from"./MethodLocationPage-CAzVgJ_z.js";import"./PillarHubNav-DCXRjden.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-qHlpnUF5.js";function e(){return t.jsx(o,{methodSlug:"ultrasonic-testing",locationSlug:"miami"})}export{e as default};
