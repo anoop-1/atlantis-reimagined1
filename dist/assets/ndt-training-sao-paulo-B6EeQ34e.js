@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Bhdy2a24.js";import{g as r,T as t}from"./TrainingLocationPage-CuFZAjJC.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CKQFF4Is.js";import"./erp-pages-Bz0qh-_I.js";function m(){const o=r("sao-paulo");return o?i.jsx(t,{profile:o}):null}export{m as default};

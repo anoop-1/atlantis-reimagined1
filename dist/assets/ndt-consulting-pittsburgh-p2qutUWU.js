@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CSFOXFVG.js";import{C as o}from"./ConsultingLocationPage-QEeDwerl.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function a(){return t.jsx(o,{locationSlug:"pittsburgh"})}export{a as default};

@@ -130,7 +130,21 @@ export default function BuyNow() {
                               ))}
                            </ul>
                            <Button asChild className="w-full" size="lg">
-                              <a href={STRIPE_PAYMENT_LINK} target="_blank" rel="noopener noreferrer">
+                              <a
+                                 href={STRIPE_PAYMENT_LINK}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                                 onClick={() => {
+                                    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+                                       window.gtag("event", "begin_checkout", {
+                                          currency: "USD",
+                                          items: [{ item_name: bundle.title, item_category: bundle.level }],
+                                          page_location: window.location.href,
+                                          page_path: window.location.pathname,
+                                       });
+                                    }
+                                 }}
+                              >
                                  Buy {bundle.level} Bundle
                               </a>
                            </Button>

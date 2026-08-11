@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CSFOXFVG.js";import{E as o}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function s(){return i.jsx(o,{city:"Mailiao",country:"Taiwan",slug:"ndt-erp-mailiao"})}export{s as default};

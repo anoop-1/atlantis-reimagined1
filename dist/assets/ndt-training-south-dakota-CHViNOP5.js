@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-Bhdy2a24.js";import{g as i,T as r}from"./TrainingLocationPage-CuFZAjJC.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CKQFF4Is.js";import"./erp-pages-Bz0qh-_I.js";function p(){const t=i("south-dakota");return t?o.jsx(r,{profile:t}):null}export{p as default};

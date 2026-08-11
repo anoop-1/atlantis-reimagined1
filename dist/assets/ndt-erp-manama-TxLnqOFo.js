@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Bhdy2a24.js";import{E as a}from"./ErpLocationPage-pBcrM6FO.js";import"./PillarHubNav-DX4b9s1z.js";import"./build-hreflang-CViNgX-s.js";import"./badge-iM67T618.js";import"./erp-pages-Bz0qh-_I.js";import"./RelatedProducts-CKQFF4Is.js";function e(){return r.jsx(a,{city:"Manama",country:"Bahrain",slug:"ndt-erp-manama"})}export{e as default};

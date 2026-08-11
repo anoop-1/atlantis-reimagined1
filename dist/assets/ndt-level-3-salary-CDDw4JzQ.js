@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Bhdy2a24.js";import{S as e,a as r}from"./salary-level-pages-gngVolv8.js";const o=r.find(a=>a.path==="/ndt-level-3-salary");function f(){return t.jsx(e,{config:o})}export{f as default};

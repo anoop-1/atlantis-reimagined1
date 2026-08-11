@@ -1,0 +1,1 @@
+import{j as r}from"./blog-pages-Bhdy2a24.js";import{g as s,B as i}from"./business-resources-DLqKGBs2.js";function n(){const e=s("qualification-and-calibration-register");return e?r.jsx(i,{resource:e}):null}export{n as default};

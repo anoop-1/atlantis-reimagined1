@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CSFOXFVG.js";import{g as t,T as n}from"./TrainingLocationPage-DJQZmxrM.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-B-l82BLk.js";import"./erp-pages-B7HjCt1a.js";function s(){const i=t("bath-maine");return i?r.jsx(n,{profile:i}):null}export{s as default};

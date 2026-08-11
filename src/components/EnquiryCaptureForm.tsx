@@ -162,7 +162,13 @@ function trackEnquiryConversion(variant: Props["variant"], method: "emailjs" | "
     page_path: pagePath,
     value: 1,
   });
-  gtag("event", "form_submit", {
+  // Named atlantis_form_submit, not form_submit: GA4 Enhanced Measurement
+  // auto-collects its own form_submit from the real DOM submit event on this
+  // same form, and reusing an automatically-collected event name for a custom
+  // event produces undefined dedup/merge behavior (observed: this event was
+  // firing far less often than generate_lead despite both being called
+  // unconditionally together on every submission).
+  gtag("event", "atlantis_form_submit", {
     form_id: `enquiry-${variant}`,
     method,
     page_location: pageLocation,

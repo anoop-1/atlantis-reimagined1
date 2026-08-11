@@ -84,6 +84,18 @@ export default function SalaryLevelPage({ config }: { config: SalaryLevelConfig 
         <div className="max-w-4xl mx-auto px-4 py-10 space-y-12">
           <QuickAnswerBox question={config.h1} answer={config.quickAnswer} />
 
+          {/* Above-the-fold CTA for a visitor who's already decided — the full
+              form stays lower down (§conversion below) so the first screen
+              can still win the featured snippet on the direct answer above. */}
+          <div className="flex justify-center">
+            <a
+              href="#training-enquiry-inline"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition"
+            >
+              Get your certification roadmap <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+
           {/* What moves the number */}
           <section>
             <h2 className="text-2xl font-bold mb-5 flex items-center gap-2">
@@ -191,7 +203,7 @@ export default function SalaryLevelPage({ config }: { config: SalaryLevelConfig 
           </section>
 
           {/* Conversion — no pricing anywhere, enquiry only (CLAUDE.md §18) */}
-          <section className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <section id="training-enquiry-inline" className="bg-blue-50 border border-blue-200 rounded-xl p-6 scroll-mt-24">
             <h2 className="text-2xl font-bold mb-2">Work out which certification changes your number</h2>
             <p className="text-slate-700 mb-5">
               Tell us where you are now — school leaver, welder, graduate, or already certified — and

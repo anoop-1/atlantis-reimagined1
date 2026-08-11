@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CSFOXFVG.js";import{E as o}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function s(){return r.jsx(o,{city:"Singapore",country:"Singapore",slug:"ndt-erp-singapore"})}export{s as default};

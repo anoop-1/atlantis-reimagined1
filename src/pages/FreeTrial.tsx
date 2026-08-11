@@ -61,7 +61,7 @@ export default function FreeTrial() {
     // GA4 event
     try {
       (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag?.("event", "free_trial_request_submit", {
-        company, role, team_size: team, page_path: "/free-trial",
+        company, role, team_size: team, page_path: "/free-trial", page_location: window.location.href,
       });
     } catch { /* noop */ }
     setSubmitted(true);

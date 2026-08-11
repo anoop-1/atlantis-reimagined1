@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CSFOXFVG.js";import i from"./MethodLocationPage-YuIdxw4d.js";import"./PillarHubNav-DMF97Kgh.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-B7HjCt1a.js";function n(){return t.jsx(i,{methodSlug:"magnetic-particle-testing",locationSlug:"miami"})}export{n as default};

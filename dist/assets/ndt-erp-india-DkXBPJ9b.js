@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-Bhdy2a24.js";import{E as r}from"./ErpLocationPage-pBcrM6FO.js";import"./PillarHubNav-DX4b9s1z.js";import"./build-hreflang-CViNgX-s.js";import"./badge-iM67T618.js";import"./erp-pages-Bz0qh-_I.js";import"./RelatedProducts-CKQFF4Is.js";function d(){return i.jsx(r,{city:"India",country:"India",slug:"ndt-erp-india"})}export{d as default};

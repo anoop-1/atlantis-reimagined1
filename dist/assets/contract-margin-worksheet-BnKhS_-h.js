@@ -1,1 +1,0 @@
-import{j as e}from"./blog-pages-CSFOXFVG.js";import{g as s,B as t}from"./business-resources-CfCer-Ex.js";function u(){const r=s("contract-margin-worksheet");return r?e.jsx(t,{resource:r}):null}export{u as default};

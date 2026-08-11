@@ -1,0 +1,1 @@
+import{j as e}from"./blog-pages-Bhdy2a24.js";import{g as s,B as t}from"./business-resources-DLqKGBs2.js";function u(){const r=s("contract-margin-worksheet");return r?e.jsx(t,{resource:r}):null}export{u as default};

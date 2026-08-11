@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Bhdy2a24.js";import{C as o}from"./ConsultingLocationPage-CoIQZQDP.js";import"./PillarHubNav-DX4b9s1z.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Bz0qh-_I.js";import"./RelatedProducts-CKQFF4Is.js";function u(){return t.jsx(o,{locationSlug:"muscat"})}export{u as default};

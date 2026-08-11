@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-CSFOXFVG.js";import{E as r}from"./ErpLocationPage-KkARRLHR.js";import"./PillarHubNav-DMF97Kgh.js";import"./build-hreflang-CViNgX-s.js";import"./badge-BWInRu1H.js";import"./erp-pages-B7HjCt1a.js";import"./RelatedProducts-B-l82BLk.js";function e(){return o.jsx(r,{city:"Bangkok",country:"Thailand",slug:"ndt-erp-bangkok"})}export{e as default};

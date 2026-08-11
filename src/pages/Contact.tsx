@@ -223,7 +223,11 @@ export default function Contact() {
                'page_path': window.location.pathname,
                'value': 1
             });
-            (window as any).gtag('event', 'form_submit', {
+            // Named atlantis_form_submit, not form_submit — GA4 Enhanced
+            // Measurement auto-collects its own form_submit from this form's
+            // real DOM submit event; reusing that name for a custom event
+            // produces undefined dedup behavior (see EnquiryCaptureForm.tsx).
+            (window as any).gtag('event', 'atlantis_form_submit', {
                'form_id': 'contact',
                'page_location': window.location.href,
                'page_path': window.location.pathname,

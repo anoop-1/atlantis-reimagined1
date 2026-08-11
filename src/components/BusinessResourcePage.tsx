@@ -55,6 +55,8 @@ export default function BusinessResourcePage({ resource }: { resource: BusinessR
         event_category: "Business Resources",
         event_label: resource.slug,
         value: 1,
+        page_location: window.location.href,
+        page_path: window.location.pathname,
       });
     }
   };

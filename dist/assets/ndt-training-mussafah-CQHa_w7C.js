@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CSFOXFVG.js";import{g as t,T as o}from"./TrainingLocationPage-DJQZmxrM.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-B-l82BLk.js";import"./erp-pages-B7HjCt1a.js";function m(){const i=t("mussafah");return i?r.jsx(o,{profile:i}):null}export{m as default};

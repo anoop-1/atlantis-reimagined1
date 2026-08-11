@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-Bhdy2a24.js";import r from"./MethodLocationPage-D_KpJj6R.js";import"./PillarHubNav-DX4b9s1z.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-Bz0qh-_I.js";function m(){return t.jsx(r,{methodSlug:"eddy-current-testing",locationSlug:"stavanger"})}export{m as default};

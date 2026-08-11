@@ -18,11 +18,12 @@ declare global {
 
 function track(event: string, params: Record<string, unknown>) {
   try {
+    const enriched = { page_location: window.location.href, ...params };
     if (typeof window.gtag === "function") {
-      window.gtag("event", event, params);
+      window.gtag("event", event, enriched);
     }
     if (Array.isArray(window.dataLayer)) {
-      window.dataLayer.push({ event, ...params });
+      window.dataLayer.push({ event, ...enriched });
     }
   } catch {
     // silent
