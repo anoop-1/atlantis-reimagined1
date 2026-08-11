@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CPaMOKsP.js";import e from"./MethodLocationPage-BrDvJBtm.js";import"./PillarHubNav-Bef1r64A.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-u1FJgmcy.js";function n(){return t.jsx(e,{methodSlug:"magnetic-particle-testing",locationSlug:"milwaukee"})}export{n as default};

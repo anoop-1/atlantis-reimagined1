@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CPaMOKsP.js";import i from"./MethodLocationPage-BrDvJBtm.js";import"./PillarHubNav-Bef1r64A.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-u1FJgmcy.js";function a(){return t.jsx(i,{methodSlug:"eddy-current-testing",locationSlug:"cincinnati"})}export{a as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CPaMOKsP.js";import n from"./MethodLocationPage-YNvvKtco.js";import"./PillarHubNav-Bef1r64A.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-C1kpl1wD.js";function m(){return t.jsx(n,{methodSlug:"penetrant-testing",locationSlug:"cincinnati"})}export{m as default};

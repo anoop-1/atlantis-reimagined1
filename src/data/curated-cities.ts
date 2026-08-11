@@ -239,6 +239,7 @@ export const CURATED_CITY_SLUGS: Set<string> = new Set([
   'usa',
   'vancouver',
   'vietnam',
+  'winnipeg',
   'vizag',
   'wellington',
   'yanbu',
@@ -418,6 +419,7 @@ export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
   'jacksonville','miami','portland','salt-lake-city','san-diego','tampa','washington-dc','baltimore','indianapolis','boston','seattle',
   // Canada
   'calgary','edmonton','fort-mcmurray','halifax','montreal','vancouver','canada',
+  'winnipeg','sarnia','saint-john',
   // India + Asia
   'bangalore','chennai','delhi','kochi','kolkata','mumbai','ho-chi-minh','kuala-lumpur','shanghai',
   'malaysia','philippines','south-korea',

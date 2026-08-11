@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CPaMOKsP.js";import{g as a,T as n}from"./TrainingLocationPage-evY86vSs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function s(){const i=a("balikpapan");return i?r.jsx(n,{profile:i}):null}export{s as default};

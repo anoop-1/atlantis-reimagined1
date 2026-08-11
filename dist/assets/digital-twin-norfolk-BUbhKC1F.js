@@ -1,0 +1,1 @@
+import{j as o}from"./blog-pages-CPaMOKsP.js";import{D as t}from"./DigitalTwinLocationPage-Cd6bkfzm.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function f(){return o.jsx(t,{city:"Norfolk",country:"USA",slug:"digital-twin-norfolk"})}export{f as default};

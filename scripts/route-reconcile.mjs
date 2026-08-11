@@ -488,7 +488,7 @@ function trainingCityBody(k, slug) {
     <p>Atlantis NDT delivers ASNT and ISO 9712 aligned NDT training in ${esc(city)}: <a href="/ndt-level-1-training">Level I</a>, <a href="/ndt-level-2-training">Level II</a> and <a href="/asnt-level-iii-training">Level III</a> programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing, plus API 510, API 570 and API 653 inspector preparation. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
 ${p?.localContext ? `    <h2>The ${esc(city)} inspection market</h2>\n    <p>${esc(p.localContext)}</p>` : ''}
 ${p?.primaryCert ? `    <h2>Certifications most in demand in ${esc(city)}</h2>\n    <p>Primary: <strong>${esc(p.primaryCert)}</strong>. Secondary: ${esc(p.secondaryCert || 'API inspector certifications')}. ${p.otherCerts?.length ? `Also frequently requested: ${esc(p.otherCerts.join(', '))}.` : ''}</p>` : ''}
-${p?.examCenters?.length ? `    <h2>Exam centres and practical facilities</h2>\n    ${H.ul(p.examCenters)}` : ''}
+${p?.examCenters?.length ? `    <h2>Exam centres and practical facilities</h2>\n    ${H.ul(p.examCenters.map((c) => (typeof c === 'string' ? c : `${c.name}${c.bodies?.length ? ` (${c.bodies.join(', ')})` : ''}`)))}` : ''}
 ${p?.certPathwayNote ? `    <h2>Recommended certification pathway</h2>\n    <p>${esc(p.certPathwayNote)}</p>` : ''}
     <h2>Delivery formats</h2>
     <ul>
@@ -496,6 +496,7 @@ ${p?.certPathwayNote ? `    <h2>Recommended certification pathway</h2>\n    <p>$
       <li>On-site corporate training at your facility using your equipment and specimens.</li>
       <li>Blended online theory through <a href="/lms">Atlantis LMS</a> with in-person practical assessment.</li>
     </ul>
+${p?.siblings?.length ? `    <h2>NDT training across ${esc(country || 'the region')}</h2>\n    <p>Atlantis NDT also runs training programmes in these nearby markets:</p>\n    <ul>${p.siblings.map((s) => `<li><a href="/ndt-training-${esc(s.slug)}">${esc(s.label)}</a></li>`).join('')}</ul>` : ''}
 ${H.faq(faqs)}
     <p>Related: <a href="/training">NDT training programmes</a> · <a href="/asnt-certification">ASNT certification guide</a> · <a href="/api-510-certification">API 510</a> · <a href="/api-570-certification">API 570</a> · <a href="/api-653-certification">API 653</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Ask about the next cohort in ${esc(city)}</a>.</p>
   </main>`;

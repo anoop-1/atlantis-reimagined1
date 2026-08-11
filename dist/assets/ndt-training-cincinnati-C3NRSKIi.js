@@ -1,0 +1,1 @@
+import{j as n}from"./blog-pages-CPaMOKsP.js";import{g as r,T as t}from"./TrainingLocationPage-C0X5TrjV.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CbqUmtro.js";import"./erp-pages-u1FJgmcy.js";function s(){const i=r("cincinnati");return i?n.jsx(t,{profile:i}):null}export{s as default};

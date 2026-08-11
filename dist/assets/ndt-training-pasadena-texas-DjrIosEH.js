@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-CPaMOKsP.js";import{g as r,T as t}from"./TrainingLocationPage-C0X5TrjV.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CbqUmtro.js";import"./erp-pages-u1FJgmcy.js";function m(){const a=r("pasadena-texas");return a?i.jsx(t,{profile:a}):null}export{m as default};

@@ -159,6 +159,10 @@ const CANADA_SIBLINGS: SiblingTrainingCity[] = [
   { slug: "fort-mcmurray", label: "Fort McMurray" },
   { slug: "montreal", label: "Montreal" },
   { slug: "halifax", label: "Halifax" },
+  { slug: "vancouver", label: "Vancouver" },
+  { slug: "winnipeg", label: "Winnipeg" },
+  { slug: "sarnia", label: "Sarnia" },
+  { slug: "saint-john", label: "Saint John" },
 ];
 
 const AUSTRALIA_SIBLINGS: SiblingTrainingCity[] = [
@@ -1599,6 +1603,81 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     ],
     siblings: CANADA_SIBLINGS,
   },
+  {
+    slug: "winnipeg",
+    city: "Winnipeg",
+    country: "Canada",
+    lat: 49.8951, lng: -97.1384,
+    localContext:
+      "Winnipeg is home to Boeing Winnipeg, Canada's largest aerospace composites manufacturer — over 1,500 employees across 700,000+ sq ft producing composite parts and assemblies for every in-production Boeing commercial programme, including the 737 MAX acoustic inner barrel and the 787 Dreamliner's main landing gear doors. StandardAero, whose predecessor Standard Machine Works was founded in Winnipeg in 1911, still runs a roughly 1,500-employee engine MRO facility here overhauling GE CF34 and CFM International CFM56 turbofan engines — work built around eddy current, ultrasonic, penetrant and borescope NDT on rotating components. Manitoba Aerospace maintains a dedicated \"NDT — Nondestructive Testers and Inspectors\" occupation page, confirming NDT as a core, certified career track for the province's composite and engine-MRO workforce.",
+    primaryCert: "CGSB",
+    secondaryCert: "ASNT",
+    otherCerts: ["CSWIP", "ISO 9712"],
+    certPathwayNote:
+      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard, though the Canadian General Standards Board itself ceases operations April 1, 2026 under Canada's 2025 federal budget — certification is administered separately by Natural Resources Canada's National NDT Certification Body (NDTCB), which is unaffected by the wind-down. Boeing Winnipeg's composite-structures work and StandardAero's engine-MRO scopes commonly layer NAS 410 / EN 4179 and Nadcap AC7114 on top of CGSB-48.9712; ASNT SNT-TC-1A is accepted on US-affiliated engine programmes.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 50,000–66,000/year",
+      levelII: "CAD 70,000–98,000/year",
+      levelIII: "CAD 112,000–155,000/year",
+      usdReference: "USD 52,000–72,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Hope Aero Winnipeg", bodies: ["CGSB"] },
+      { name: "Paragon Standards Inspection and NDT — Winnipeg", bodies: ["CGSB"] },
+    ],
+    siblings: CANADA_SIBLINGS,
+  },
+  {
+    slug: "sarnia",
+    city: "Sarnia",
+    country: "Canada",
+    lat: 42.9746, lng: -82.4066,
+    localContext:
+      "Sarnia-Lambton is Canada's second-largest petrochemical and refining cluster — nicknamed \"Chemical Valley\" — with three refineries (Imperial Oil, Suncor, Shell) and more than 35 interconnected chemical facilities packed along a roughly 15-mile stretch of the St. Clair River, together representing close to 40% of Canada's petrochemical industry. Imperial Oil's Sarnia site is the country's most integrated fuels-and-chemicals manufacturing and research complex; Suncor runs a refinery here processing tens of thousands of barrels per day. NOVA Chemicals has operated four manufacturing sites in the region — Corunna, Moore, St. Clair River, and the newer Rokeby site — for more than 35 years, tracing back to its 1988 acquisition of Polysar. Continuous turnaround and in-service inspection of crackers, distillation columns and pressure piping makes Sarnia one of Ontario's highest-density NDT markets.",
+    primaryCert: "CGSB",
+    secondaryCert: "ASNT",
+    otherCerts: ["CSWIP", "ISO 9712"],
+    certPathwayNote:
+      "Ontario refining and petrochemical operators apply CAN/CGSB-48.9712 as the baseline personnel standard. Certification is administered by Natural Resources Canada's National NDT Certification Body (NDTCB) — the Canadian General Standards Board that publishes the CGSB-48.9712 document itself ceases operations April 1, 2026 under Canada's 2025 federal budget, but NDTCB certification continues unaffected. API 510/570/653 in-service inspector credentials are mandatory for turnaround and shutdown work across the Imperial Oil, Suncor, Shell and NOVA Chemicals sites.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 54,000–70,000/year",
+      levelII: "CAD 76,000–108,000/year (turnaround OT can push higher)",
+      levelIII: "CAD 118,000–165,000/year",
+      usdReference: "USD 56,000–80,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Acuren Sarnia", bodies: ["ASNT", "CGSB"] },
+      { name: "MISTRAS Group Sarnia", bodies: ["ASNT", "CGSB"] },
+    ],
+    siblings: CANADA_SIBLINGS,
+  },
+  {
+    slug: "saint-john",
+    city: "Saint John",
+    country: "Canada",
+    lat: 45.2733, lng: -66.0633,
+    localContext:
+      "Saint John is home to the Irving Oil Refinery — the largest oil refinery in Canada at over 320,000 barrels per day, built in 1960 and exporting the majority of its output to the United States. The refinery, together with the nearby Canaport LNG import terminal and Saint John's deep-water port infrastructure, drives continuous demand for pressure-vessel, piping and storage-tank NDT inspection. Saint John fills the East Coast gap alongside Halifax: where Irving Shipbuilding's yards in Halifax cover naval fabrication, Saint John covers in-service refinery, tankage and marine-terminal inspection for Atlantic Canada.",
+    primaryCert: "CGSB",
+    secondaryCert: "ASNT",
+    otherCerts: ["CSWIP", "ISO 9712"],
+    certPathwayNote:
+      "New Brunswick refining and marine-terminal work follows CAN/CGSB-48.9712, administered by Natural Resources Canada's National NDT Certification Body (NDTCB) — the Canadian General Standards Board itself ceases operations April 1, 2026 per Canada's 2025 federal budget, but the standard and NDTCB certification continue unaffected. API 510/570/653 in-service inspector certification is required for Irving Oil Refinery turnaround and tankage work; CSA Z662 governs the connecting pipeline and terminal infrastructure.",
+    salary: {
+      currency: "CAD",
+      levelI: "CAD 54,000–70,000/year",
+      levelII: "CAD 76,000–106,000/year",
+      levelIII: "CAD 116,000–160,000/year",
+      usdReference: "USD 56,000–79,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Acuren Saint John", bodies: ["ASNT", "CGSB"] },
+      { name: "MISTRAS Group Saint John", bodies: ["ASNT", "CGSB"] },
+    ],
+    siblings: CANADA_SIBLINGS,
+  },
 
   // ──────── India (City-level) ───────────────────────────────────────
   {
@@ -2465,12 +2544,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 56.1304, lng: -106.3468,
     isCountry: true,
     localContext:
-      "Canada's NDT market is dominated by Alberta oil sands (Suncor, Cenovus, Imperial Oil, CNRL), pipelines (Enbridge, TC Energy), East Coast offshore (Hibernia, White Rose, Hebron), and West Coast LNG (LNG Canada Kitimat). CAN/CGSB-48.9712 — published by the Canadian General Standards Board, certification administered by Natural Resources Canada's NDTCB — governs ISO 9712-equivalent qualification nationally; ASNT widely accepted for US-affiliated operators.",
+      "Canada's NDT market spans nine core industrial hubs, each demanding a different method mix: Alberta oil sands and pipelines around Calgary, Edmonton and Fort McMurray (Suncor, Cenovus, Imperial Oil, CNRL, Enbridge, TC Energy); East Coast shipbuilding and refining around Halifax (Irving Shipbuilding) and Saint John (the Irving Oil Refinery — Canada's largest, at over 320,000 bpd); West Coast LNG and marine work around Vancouver (LNG Canada Kitimat, Seaspan Shipyards); Quebec aerospace around Montreal (Bombardier, Pratt & Whitney Canada); Manitoba aerospace composites and engine MRO around Winnipeg (Boeing Winnipeg, StandardAero); and Ontario's Chemical Valley refining-and-petrochemical cluster around Sarnia (Imperial Oil, Suncor, Shell, NOVA Chemicals) — Canada's second-largest such cluster after Alberta's Industrial Heartland. Every one of these markets certifies personnel to the same national standard.",
     primaryCert: "CGSB",
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "CAN/CGSB-48.9712 is the Canadian implementation of ISO 9712 — the standard document is published by CGSB, but certification is administered by Natural Resources Canada's National NDT Certification Body (NDTCB). ASNT SNT-TC-1A is widely accepted for US-affiliated operators. CSA Z662 pipeline code drives weld inspection nationally.",
+      "CAN/CGSB-48.9712 is Canada's national implementation of ISO 9712 and the standard every employer nationwide certifies against. The standard document is published by the Canadian General Standards Board, but certification itself is administered separately by Natural Resources Canada's National NDT Certification Body (NDTCB) — a distinction that matters more than usual right now: under Canada's 2025 federal budget, the CGSB itself ceases standards-development and conformity-assessment operations on April 1, 2026 as a cost-saving wind-down. That closure affects CGSB the publishing body, not NDTCB certification — technicians already holding or pursuing CAN/CGSB-48.9712 qualification through the NDTCB are unaffected, and the standard document remains freely available through the CGSB catalogue during the transition. ASNT SNT-TC-1A runs as a parallel, widely accepted second scheme for US-affiliated operators and cross-border aerospace/engine-MRO work (Winnipeg, Montreal), so most Canadian technicians end up dual-qualified: CAN/CGSB-48.9712 for the domestic employer base, SNT-TC-1A for US-headquartered or export-facing programmes. CSA Z662 pipeline code drives weld inspection nationally on top of either personnel scheme.",
     salary: {
       currency: "CAD",
       levelI: "CAD 56,000–78,000/year",

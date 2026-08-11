@@ -2748,6 +2748,9 @@ const NDTTrainingFortMcmurray = lazy(() => import("./pages/ndt-training-fort-mcm
 const NDTTrainingHalifax = lazy(() => import("./pages/ndt-training-halifax"));
 const NDTTrainingMontreal = lazy(() => import("./pages/ndt-training-montreal"));
 const NDTTrainingVancouver = lazy(() => import("./pages/ndt-training-vancouver"));
+const NDTTrainingWinnipeg = lazy(() => import("./pages/ndt-training-winnipeg"));
+const NDTTrainingSarnia = lazy(() => import("./pages/ndt-training-sarnia"));
+const NDTTrainingSaintJohn = lazy(() => import("./pages/ndt-training-saint-john"));
 const NDTTrainingBangalore = lazy(() => import("./pages/ndt-training-bangalore"));
 const NDTTrainingChennai = lazy(() => import("./pages/ndt-training-chennai"));
 const NDTTrainingDelhi = lazy(() => import("./pages/ndt-training-delhi"));
@@ -5529,6 +5532,9 @@ const App = () => (
                   <Route path="/ndt-training-halifax" element={<LazyRoute Component={NDTTrainingHalifax} />} />
                   <Route path="/ndt-training-montreal" element={<LazyRoute Component={NDTTrainingMontreal} />} />
                   <Route path="/ndt-training-vancouver" element={<LazyRoute Component={NDTTrainingVancouver} />} />
+                  <Route path="/ndt-training-winnipeg" element={<LazyRoute Component={NDTTrainingWinnipeg} />} />
+                  <Route path="/ndt-training-sarnia" element={<LazyRoute Component={NDTTrainingSarnia} />} />
+                  <Route path="/ndt-training-saint-john" element={<LazyRoute Component={NDTTrainingSaintJohn} />} />
                   <Route path="/ndt-training-bangalore" element={<LazyRoute Component={NDTTrainingBangalore} />} />
                   <Route path="/ndt-training-chennai" element={<LazyRoute Component={NDTTrainingChennai} />} />
                   <Route path="/ndt-training-delhi" element={<LazyRoute Component={NDTTrainingDelhi} />} />

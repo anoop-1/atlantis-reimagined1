@@ -1,0 +1,1 @@
+import{j as t}from"./blog-pages-CPaMOKsP.js";import{D as i}from"./DigitalTwinLocationPage-Cd6bkfzm.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function n(){return t.jsx(i,{city:"Texas",country:"USA",slug:"digital-twin-texas"})}export{n as default};
