@@ -133,7 +133,7 @@ const standardsByCountry = [
   { country: "Australia", primaryCodes: "AS/NZS, ASME (projects)", certScheme: "AINDT (ISO 9712)" },
   { country: "Japan", primaryCodes: "JIS, ASME (projects)", certScheme: "JSNDI" },
   { country: "Singapore", primaryCodes: "ASME, BS EN, SS codes", certScheme: "ASNT, ISO 9712" },
-  { country: "Canada", primaryCodes: "CSA, ASME, API", certScheme: "CGSB, ASNT" },
+  { country: "Canada", primaryCodes: "CSA, ASME, API", certScheme: "NRCan NDTCB (CAN/CGSB-48.9712), ASNT" },
 ];
 
 /* ─── Acceptance Criteria Comparison ─── */

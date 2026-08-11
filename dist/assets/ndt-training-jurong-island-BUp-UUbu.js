@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CPaMOKsP.js";import{g as n,T as o}from"./TrainingLocationPage-_qXsd2Cs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function m(){const r=n("jurong-island");return r?i.jsx(o,{profile:r}):null}export{m as default};

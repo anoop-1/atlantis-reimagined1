@@ -360,6 +360,11 @@
       "source": "/buy-now",
       "destination": "/training/buy-now",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/asnt-snt-tc-1a-vs-iso-9712-which-certification-wins-2026",
+      "destination": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+      "statusCode": 301
     }
   ],
   "rewrites": [

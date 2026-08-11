@@ -211,6 +211,7 @@ const API570Certification = lazy(() => import("./pages/api-570-certification"));
 const API570Training = lazy(() => import("./pages/api-570-training"));
 const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
+const SntTc1aCertification = lazy(() => import("./pages/snt-tc-1a-certification"));
 const AiNdtDefectDetection = lazy(() => import("./pages/ai-ndt-defect-detection"));
 // === training method course pages 2026-08-07 ===
 const AsntLevel2UtOnlineCourse = lazy(() => import("./pages/asnt-level-2-ut-online-course"));
@@ -3046,6 +3047,7 @@ const App = () => (
                   <Route path="/api-570-training" element={<LazyRoute Component={API570Training} />} />
                   <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
+                  <Route path="/snt-tc-1a-certification" element={<LazyRoute Component={SntTc1aCertification} />} />
                   <Route path="/ai-ndt-defect-detection" element={<LazyRoute Component={AiNdtDefectDetection} />} />
                   {/* === training method course pages 2026-08-07 === */}
                   <Route path="/asnt-level-2-ut-online-course" element={<LazyRoute Component={AsntLevel2UtOnlineCourse} />} />

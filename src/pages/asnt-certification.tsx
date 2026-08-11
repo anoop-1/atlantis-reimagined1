@@ -343,6 +343,7 @@ export default function ASNTCertification() {
                     <h2 className="text-3xl font-bold text-center mb-8">Related Certification & Training Pages</h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
+                            { name: "SNT-TC-1A Certification Overview", path: "/snt-tc-1a-certification" },
                             { name: "NDT Level 1 Training", path: "/ndt-level-1-training" },
                             { name: "API 510 Certification", path: "/api-510-certification" },
                             { name: "API 570 Certification", path: "/api-570-certification" },
@@ -426,6 +427,12 @@ export default function ASNTCertification() {
                     "href": "/consulting/asnt-level-iii-consulting-services",
                     "description": "Outsourced Level III of record",
                     "icon": "consulting"
+              },
+              {
+                    "title": "SNT-TC-1A Certification Overview",
+                    "href": "/snt-tc-1a-certification",
+                    "description": "What it is, employer-based model, levels & comparisons",
+                    "icon": "cert"
               },
               {
                     "title": "SNT-TC-1A Requirements Guide",

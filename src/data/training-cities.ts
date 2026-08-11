@@ -1457,7 +1457,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Canada's federal NDT certification is Natural Resources Canada / CGSB (CAN/CGSB-48.9712 — the ISO 9712 implementation). ASNT SNT-TC-1A is the standard for US-headquartered operators (Imperial Oil, Suncor) and for cross-border crews.",
+      "Canada's federal NDT personnel standard is CAN/CGSB-48.9712 (Canada's adoption of ISO 9712) — the document is published by the Canadian General Standards Board, but certification itself is administered by Natural Resources Canada's National NDT Certification Body (NDTCB). ASNT SNT-TC-1A is the standard for US-headquartered operators (Imperial Oil, Suncor) and for cross-border crews.",
     salary: {
       currency: "CAD",
       levelI: "CAD 58,000–75,000/year",
@@ -2465,12 +2465,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 56.1304, lng: -106.3468,
     isCountry: true,
     localContext:
-      "Canada's NDT market is dominated by Alberta oil sands (Suncor, Cenovus, Imperial Oil, CNRL), pipelines (Enbridge, TC Energy), East Coast offshore (Hibernia, White Rose, Hebron), and West Coast LNG (LNG Canada Kitimat). CGSB (Canadian General Standards Board) administers ISO 9712 nationally; ASNT widely accepted for US-affiliated operators.",
+      "Canada's NDT market is dominated by Alberta oil sands (Suncor, Cenovus, Imperial Oil, CNRL), pipelines (Enbridge, TC Energy), East Coast offshore (Hibernia, White Rose, Hebron), and West Coast LNG (LNG Canada Kitimat). CAN/CGSB-48.9712 — published by the Canadian General Standards Board, certification administered by Natural Resources Canada's NDTCB — governs ISO 9712-equivalent qualification nationally; ASNT widely accepted for US-affiliated operators.",
     primaryCert: "CGSB",
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "CAN/CGSB-48.9712 is the Canadian implementation of ISO 9712. ASNT SNT-TC-1A is widely accepted for US-affiliated operators. CSA Z662 pipeline code drives weld inspection nationally.",
+      "CAN/CGSB-48.9712 is the Canadian implementation of ISO 9712 — the standard document is published by CGSB, but certification is administered by Natural Resources Canada's National NDT Certification Body (NDTCB). ASNT SNT-TC-1A is widely accepted for US-affiliated operators. CSA Z662 pipeline code drives weld inspection nationally.",
     salary: {
       currency: "CAD",
       levelI: "CAD 56,000–78,000/year",

@@ -1900,10 +1900,6 @@ Object.assign(CTR_OVERRIDES, {
     title: 'NDT Inspector Continuing Education Requirements 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
     description: 'NDT Inspector Continuing Education Requirements — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
   },
-  '/blog/asnt-snt-tc-1a-vs-iso-9712-which-certification-wins-2026': {
-    title: 'ASNT SNT TC 1a vs ISO 9712 Which Certification Wins 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
-    description: 'ASNT SNT TC 1a vs ISO 9712 Which Certification Wins — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
-  },
   '/blog/ped-directive-for-european-pressure-equipment': {
     title: 'Ped Directive for European Pressure Equipment 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
     description: 'Ped Directive for European Pressure Equipment — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'

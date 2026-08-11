@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CPaMOKsP.js";import{g as n,T as t}from"./TrainingLocationPage-_qXsd2Cs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function s(){const i=n("milan");return i?r.jsx(t,{profile:i}):null}export{s as default};

@@ -1,0 +1,1 @@
+import{j as i}from"./blog-pages-CPaMOKsP.js";import{g as o,T as n}from"./TrainingLocationPage-evY86vSs.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-DELRFtLf.js";import"./erp-pages-C1kpl1wD.js";function s(){const r=o("melbourne");return r?i.jsx(n,{profile:r}):null}export{s as default};
