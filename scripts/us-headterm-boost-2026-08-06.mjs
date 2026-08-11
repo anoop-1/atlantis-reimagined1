@@ -12,6 +12,14 @@
  * Additive sections appended to the OWNING page for each query (never a new
  * page, never moved ownership). Snippet rule (§25.4): the answer block opens
  * with an <h2> restating the query and a direct answer. No pricing (§18).
+ *
+ * EXTENDED 2026-08-11 (Canada ERP phase 3): the /ndt-erp-solution entry below
+ * also carries a second, parallel "Canadian NDT service providers" section —
+ * modest by design given near-zero measured Canada-ERP city demand — linking
+ * the 7 Canada /ndt-erp-{city} pages and tying the CGSB-cessation/NRCan-NDTCB
+ * framing (verified in Phase 1/2 of this push) to the ERP certification
+ * tracking module. This is the ONLY static layer that section renders in;
+ * the matching React-layer copy lives directly in ndt-erp-solution.tsx.
  */
 
 export const HEADTERM_BLOCKS = {
@@ -43,6 +51,11 @@ export const HEADTERM_BLOCKS = {
       <h2>Built for US NDT inspection service companies</h2>
       <p>Across the US market — Gulf Coast turnaround contractors, pipeline integrity crews in the Permian and Bakken, fab-shop inspectors in the Midwest, aerospace NDT houses on the coasts — the operating problem is the same shape: certified people, calibrated equipment and defensible reports, coordinated faster than the competition. Atlantis packages that coordination as cloud NDT software with the business layer attached: certification tracking under SNT-TC-1A and CP-189, calibration registers reviewers accept, offline field capture, code-referenced NDT reporting, and quoting-to-invoice on the same records.</p>
       <p>Where your market concentrates shapes the configuration, not the product: <a href="/ndt-erp-houston">Houston</a> and the <a href="/ndt-erp-beaumont">Golden Triangle</a> run on turnaround surges, <a href="/ndt-erp-midland">the Permian</a> on dispersed field capture, <a href="/ndt-erp-chicago">Chicago</a> and <a href="/ndt-erp-pittsburgh">Pittsburgh</a> on shop-and-mill mix, <a href="/ndt-erp-seattle">Seattle</a> and <a href="/ndt-erp-fort-worth">Fort Worth</a> on aerospace audit regimes, <a href="/ndt-erp-charlotte">Charlotte</a> on outage season. One system of record underneath all of it — that is the point of NDT inspection management software over a stack of spreadsheets.</p>
+    </section>
+    <section aria-label="Canadian NDT service providers">
+      <h2>Built for Canadian NDT inspection service companies</h2>
+      <p>Canada's national NDT personnel certification runs through Natural Resources Canada's National Non-Destructive Testing Certification Body (NRCan NDTCB) under the CAN/CGSB-48.9712 standard — Canada's identical adoption of ISO 9712. The Canadian General Standards Board, which historically published that standard, ceased operations as a cost-saving measure announced in Canada's 2025 federal budget; NRCan NDTCB's certification services and the CAN/CGSB-48.9712 standard itself continue without interruption, so inspection companies working Canadian sites should expect no near-term change to who certifies their technicians or which standard governs the written practice. For a company also holding ASNT SNT-TC-1A accounts, the practical question is less about NRCan NDTCB's role — that stays stable — and more about holding both schemes correctly in one system of record rather than two disconnected ones.</p>
+      <p>Where the work concentrates shapes what that system needs to do: <a href="/ndt-erp-calgary">Calgary</a> and <a href="/ndt-erp-edmonton">Edmonton</a> run on upstream headquarters and refining/petrochemical qualification mixes, <a href="/ndt-erp-fort-mcmurray">Fort McMurray</a> on remote oil-sands turnaround and camp-rotation scheduling, <a href="/ndt-erp-halifax">Halifax</a> on a decades-long shipbuilding programme's structural-weld examination, <a href="/ndt-erp-montreal">Montreal</a> on NAS 410-adjacent civil-aerospace personnel tracking, <a href="/ndt-erp-toronto">Toronto</a> on nuclear-refurbishment documentation discipline, and <a href="/ndt-erp-vancouver">Vancouver</a> on port and marine-terminal statutory inspection cycles. Atlantis NDT ERP's certification tracking module holds CAN/CGSB-48.9712 alongside ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN, CSWIP and NAS 410 as parallel qualification sets per technician, so a company running Canadian and international accounts from one office is not forced to choose which scheme its records are built around.</p>
     </section>`,
 
   '/blog/api-653-tank-inspection-guide': `

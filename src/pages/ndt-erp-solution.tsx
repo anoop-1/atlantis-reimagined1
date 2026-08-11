@@ -729,6 +729,49 @@ export default function NDTERPSolution() {
                         </div>
                     </section>
 
+                    {/* ── 10b. Canadian NDT Service Providers ─────────────── */}
+                    <section className="mb-16 prose prose-lg max-w-none">
+                        <h2 className="text-3xl font-bold mb-6">Built for Canadian NDT Inspection Service Companies</h2>
+                        <p className="text-slate-700 leading-relaxed">
+                            Canada's national NDT personnel certification runs through Natural Resources
+                            Canada's National Non-Destructive Testing Certification Body (NRCan NDTCB)
+                            under the CAN/CGSB-48.9712 standard — Canada's identical adoption of ISO 9712.
+                            The Canadian General Standards Board, which historically published that
+                            standard, ceased operations as a cost-saving measure announced in Canada's
+                            2025 federal budget; NRCan NDTCB's certification services and the
+                            CAN/CGSB-48.9712 standard itself continue without interruption, so inspection
+                            companies working Canadian sites should expect no near-term change to who
+                            certifies their technicians or which standard governs the written practice.
+                            For a company also holding ASNT SNT-TC-1A accounts, the practical question is
+                            less about NRCan NDTCB's role — that stays stable — and more about holding
+                            both schemes correctly in one system of record rather than two disconnected
+                            ones.
+                        </p>
+                        <p className="text-slate-700 leading-relaxed mt-4">
+                            Where the work concentrates shapes what that system needs to do:{" "}
+                            <Link to="/ndt-erp-calgary" className="text-orange-600 hover:underline">Calgary</Link> and{" "}
+                            <Link to="/ndt-erp-edmonton" className="text-orange-600 hover:underline">Edmonton</Link> run
+                            on upstream headquarters and refining/petrochemical qualification mixes,{" "}
+                            <Link to="/ndt-erp-fort-mcmurray" className="text-orange-600 hover:underline">Fort McMurray</Link> on
+                            remote oil-sands turnaround and camp-rotation scheduling,{" "}
+                            <Link to="/ndt-erp-halifax" className="text-orange-600 hover:underline">Halifax</Link> on
+                            a decades-long shipbuilding programme's structural-weld examination,{" "}
+                            <Link to="/ndt-erp-montreal" className="text-orange-600 hover:underline">Montreal</Link> on
+                            NAS 410-adjacent civil-aerospace personnel tracking,{" "}
+                            <Link to="/ndt-erp-toronto" className="text-orange-600 hover:underline">Toronto</Link> on
+                            nuclear-refurbishment documentation discipline, and{" "}
+                            <Link to="/ndt-erp-vancouver" className="text-orange-600 hover:underline">Vancouver</Link> on
+                            port and marine-terminal statutory inspection cycles. Atlantis NDT ERP's{" "}
+                            <Link to="/erp-modules/certification-tracking" className="text-orange-600 hover:underline">
+                                certification tracking module
+                            </Link>{" "}
+                            holds CAN/CGSB-48.9712 alongside ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, PCN,
+                            CSWIP and NAS 410 as parallel qualification sets per technician, so a company
+                            running Canadian and international accounts from one office is not forced to
+                            choose which scheme its records are built around.
+                        </p>
+                    </section>
+
                     {/* ── 11. FAQ ─────────────────────────────────────────── */}
                     <section className="mb-16">
                         <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
