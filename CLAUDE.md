@@ -1947,3 +1947,67 @@ and the audit evidence-pack resource.
 
 **Verified: all 14 posts of 2026-08-12 — 732–908 words, 3–8 inbound links each,
 0 broken outbound links, build 5,251 URLs, drift PASS, pricing gate PASS.**
+
+---
+
+## 35. US training coverage audit — method-training gap found — 2026-08-12
+
+### 35.1 🔴 THE METHOD AXIS HAD NO PAGES AT ALL
+51 method+training queries earn **502 impressions and ZERO clicks**, and every
+one lands on an inspection **services** page — completely wrong intent:
+
+| Query | Impr | Pos | Was landing on |
+|---|---:|---:|---|
+| ultrasonic testing training | 125 | 28 | /ultrasonic-testing-singapore |
+| ultrasonic testing level 1 training | 55 | 56 | /ultrasonic-testing-denver |
+| ultrasonic testing course | 27 | **1** | /ultrasonic-testing-kuwait |
+| eddy current training | 21 | **1** | /eddy-current-testing-singapore |
+| eddy current testing training | 17 | 52 | /eddy-current-testing-pittsburgh |
+| ndt penetrant test training | 12 | 38 | /penetrant-testing-singapore |
+
+Two sit at **position 1 and still earn nothing** — someone searching "ultrasonic
+testing training" wants to learn the method and we answered with a page selling
+UT inspection in Singapore. `/ndt-level-{1,2}-training` cover the LEVEL axis and
+`/training` is the hub; **nothing covered the METHOD axis**, which is how
+candidates and training managers actually search.
+
+**Shipped: `scripts/method-training-pages-2026-08-12.mjs`** — six national pages
+(UT 1,028w · RT 949 · MT 914 · PT 884 · VT 886 · ET 907). Each covers the physics
+training must instil, what Level I/II/III means *in that method*, what the
+practical examination actually tests (where candidates fail), governing codes,
+who employs it, and the honest delivery model. Injected as new prerender routes
+in `prerender.mjs` after the region-hub block.
+
+⚠️ **Hour counts are described structurally, never as invented numbers** — they
+are set by the employer's Written Practice, so a specific figure would be wrong
+for most readers.
+
+### 35.2 US training city coverage — the real distribution
+51 US `/ndt-training-{city}` pages · avg 1,321w · **39 earn ZERO impressions
+(76%)** · 2,370 impressions and 80 clicks across the family. Twelve pages carry
+everything: denver 694i, atlanta 363i, houston 294i, dallas 282i, new-york 261i.
+
+**19 pages sat under 900 words and every one earned nothing.** All 19 upgraded
+with per-market research (§26.1 — researched city pages earn ~22x name-swaps):
+aiken (Savannah River Site), bath-maine + groton + pascagoula + north-charleston
+(shipbuilding/aerospace under NAVSEA and NAS 410), east-hartford (Pratt &
+Whitney cluster), deer-park + pasadena-texas (ship channel), norfolk, baltimore,
+jacksonville, tampa, savannah, portland, salt-lake-city, san-diego,
+indianapolis, orlando, fort-worth. Now 982–1,236w each.
+
+### 35.3 `/ndt-training-near-me` was 535 words
+The hub intended to answer a 484-impression proximity cluster was the thinnest
+page in the family. Rebuilt to 1,136w around the two people who actually make
+that search — an employer who needs a crew qualified without travel, and an
+individual looking for the shortest route — and the fact neither is told
+elsewhere: **under SNT-TC-1A a course does not certify you, an employer does.**
+The local pack remains unwinnable (§34.1, no GBP possible); the organic result
+below it is not.
+
+### 35.4 Missing markets — the honest position
+39 major US NDT markets have no training page (Newport News, Oak Ridge,
+Richland/Hanford, Idaho Falls, Texas City, Billings, Williston, refining towns).
+**But 76% of the 51 that exist earn nothing.** Adding 39 more to a family with
+that hit rate is not the lever — §31.1's per-page yield (ndt-training 45i/page
+vs blog 295i) says the same. Add only markets with a genuinely distinct
+industrial identity that supports real research, and expect most to stay silent.

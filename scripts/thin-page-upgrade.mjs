@@ -48,6 +48,7 @@ import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-
 import { applyGeoInterlink, assertGeoInterlinkClean } from './geo-interlink-2026-08-12.mjs';
 import { applyDecisionMakerAnswers, assertNoPricesInDecisionAnswers } from './decision-maker-answers-2026-08-12.mjs';
 import { applyNewBlogInboundLinks, assertInboundTargetsExist } from './new-blog-inbound-links-2026-08-12.mjs';
+import { applyTrainingCityThinFix, assertNoPricesInThinFix } from './training-city-thin-fix-2026-08-12.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -724,5 +725,8 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // The 8 posts of 2026-08-12 shipped as orphans (0 inbound links). Place
     // contextual links from pages that already have measured demand.
     blogInbound: (assertInboundTargetsExist(routes), JSON.stringify(applyNewBlogInboundLinks(routes, append))),
+    // 19 US training city pages under 900w, all earning ZERO; plus the near-me
+    // hub at 535w answering a 484-impression cluster. Per-market research per §26.1.
+    trainingThin: (assertNoPricesInThinFix(), JSON.stringify(applyTrainingCityThinFix(routes, append))),
   };
 }

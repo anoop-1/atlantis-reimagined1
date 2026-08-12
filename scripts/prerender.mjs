@@ -12,6 +12,7 @@ import { fileURLToPath } from 'url';
 import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
 import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes, extractFromTsx, propsFromPageFile, extractAppRoutes } from './route-reconcile.mjs';
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
+import { methodTrainingRoutes, assertNoPricesInMethodTraining } from './method-training-pages-2026-08-12.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12874,6 +12875,17 @@ ${urls}
   const hubs = await buildRegionHubRoutes();
   routes.push(...hubs);
   console.log(`🌍 Region hubs: ${hubs.length} ERP/DT country-level pages upgraded to regional hubs`);
+}
+
+// ─── METHOD-TRAINING PAGES 2026-08-12 ───────────────────────────────
+// 51 method+training queries earn 502 impressions and ZERO clicks, and every
+// one lands on an inspection SERVICES page ("ultrasonic testing training" ->
+// /ultrasonic-testing-singapore). No method-specific training page existed.
+{
+  assertNoPricesInMethodTraining();
+  const mt = methodTrainingRoutes();
+  routes.push(...mt);
+  console.log(`🎓 Method-training pages: ${mt.length} added (UT/RT/MT/PT/VT/ET)`);
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────
