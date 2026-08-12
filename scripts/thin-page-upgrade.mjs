@@ -47,6 +47,7 @@ import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth
 import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-06.mjs';
 import { applyGeoInterlink, assertGeoInterlinkClean } from './geo-interlink-2026-08-12.mjs';
 import { applyDecisionMakerAnswers, assertNoPricesInDecisionAnswers } from './decision-maker-answers-2026-08-12.mjs';
+import { applyNewBlogInboundLinks, assertInboundTargetsExist } from './new-blog-inbound-links-2026-08-12.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -720,5 +721,8 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // 90d. Decision-maker questions answered directly on the pages that already
     // absorb them (§25.4 form; AI Assistant channel runs 51% engagement).
     decisionAnswers: (assertNoPricesInDecisionAnswers(), JSON.stringify(applyDecisionMakerAnswers(routes, append))),
+    // The 8 posts of 2026-08-12 shipped as orphans (0 inbound links). Place
+    // contextual links from pages that already have measured demand.
+    blogInbound: (assertInboundTargetsExist(routes), JSON.stringify(applyNewBlogInboundLinks(routes, append))),
   };
 }

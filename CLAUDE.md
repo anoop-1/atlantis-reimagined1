@@ -1901,3 +1901,19 @@ Build 5,245 URLs · drift PASS · pricing gate PASS · 8/8 posts 743–922 words
 correct self-canonicals · **37 internal links, 0 broken** (one bad target caught
 by validating every href against `dist/` before build — do this every time; a
 plausible-looking slug from memory does not exist).
+
+### 34.5 🔴 THE ORPHAN CHECK — new posts shipped with ZERO inbound links
+All eight posts of §34.2 built and deployed with **0 internal links pointing at
+them**. An orphan post is crawled late, ranks poorly, and receives none of the
+PageRank already circulating — the same failure class as §20.3's 3,761 orphans,
+reintroduced by simply adding records to `blogs.json`.
+**`scripts/new-blog-inbound-links-2026-08-12.mjs`** places contextual links from
+19 pages chosen by MEASURED demand, not convenience (`/asnt-certification`
+11,820i, the SNT-TC-1A requirements post, the salary guide, `/erp`,
+`/digital-twins`, `/phased-array-ut`, the PAUT glossary entry, MFL services…).
+Result: **3–7 inbound links per new post.**
+Anchor text is varied per source deliberately — the same anchor repeated
+site-wide reads as a footprint.
+
+**STANDING RULE: after adding any record to `blogs.json`, count inbound links
+before declaring the work done.** Creating the page is half the job.
