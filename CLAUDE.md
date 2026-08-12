@@ -1853,3 +1853,51 @@ delivery) the page says so and points at api.org rather than inventing detail
 that goes stale.
 
 **Judge this cluster on assisted/AI-channel sessions and enquiries, not CTR.**
+
+---
+
+## 34. Blog expansion + GBP closed permanently — 2026-08-12
+
+### 34.1 🔴 GOOGLE BUSINESS PROFILE IS PERMANENTLY IMPOSSIBLE
+Owner confirmed: Atlantis is a **remote-office company** and Google will not
+verify a business without a physical US location. **The near-me cluster (~484
+US impressions at positions 42–87) is therefore UNWINNABLE** — those queries
+resolve through the local pack, which is populated only from verified GBP
+entities. `/ndt-training-near-me` plus the proximity blocks (§33.2) are the
+ceiling. **Stop proposing GBP as an action item in future cycles.**
+Memory: `gbp_not_possible_remote_office.md`. Supersedes the §24.2 owner-action.
+
+### 34.2 Blogs are the only shape with proven yield — 8 new posts
+§31.1 measured it: **blog 295 impressions/page vs ERP city 7.** Coverage was
+checked against all 718 existing posts before writing a word:
+* **AI in ERP — ZERO existing posts.** A real gap, and the owner named it.
+* AI in digital twins — 5 posts, all tangential (trends / FFS / APM pieces).
+* VR training — 3 posts, all technology-side; **none made the employer's case**.
+* SNT-TC-1A — 6 posts, all candidate-side or authoring-side; none covered
+  running the programme as an employer.
+
+**Line-of-business (5):** `ai-in-inspection-erp-what-it-actually-does` (what AI
+does, what is theatre, and the one place — acceptance — where letting it decide
+breaks the evidence chain) · `ai-in-digital-twins-for-asset-integrity` (the data
+precondition; why fixed-equipment failure prediction from sensors alone
+overreaches the physics) · `vr-ndt-training-employer-business-case` (specimen
+access, scheduling, repetition — and that **VR time is training hours, never the
+experience hours certification requires**) · `snt-tc-1a-employer-programme-us-guide`
+(the four findings auditors actually write) · `inspection-contractor-spreadsheets-to-system`.
+
+**US query-answering (3), grounded in GSC deep positions:**
+`paut equipment` 98i p18 → PAUT selection guide · `pipeline audit preparation
+services` 97i p31 → audit-prep guide · `ndt inspection service market` 81i p62
+(+ two sibling market queries) → US market-structure piece.
+
+### 34.3 ⚠️ WHAT WAS DELIBERATELY NOT WRITTEN
+`eddy current testing` (317i p75), `radiographic testing` (168i p45) and
+`api 653` (215i p39) are the biggest deep US queries — and each **already has an
+owning page**. A second page targeting them is cannibalisation, not a fix
+(§25.2). Those are authority problems; the answer is off-page, not another post.
+
+### 34.4 Verified
+Build 5,245 URLs · drift PASS · pricing gate PASS · 8/8 posts 743–922 words with
+correct self-canonicals · **37 internal links, 0 broken** (one bad target caught
+by validating every href against `dist/` before build — do this every time; a
+plausible-looking slug from memory does not exist).
