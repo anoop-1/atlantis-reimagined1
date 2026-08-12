@@ -1757,3 +1757,68 @@ found and fixed:
 5. Fix `/consulting/api-579-fitness-for-service-services` (21-occurrence
    broken link, pre-existing, out of this session's scope).
 5. Content effort into blog/resources/compare shapes ONLY (§31.1).
+
+---
+
+## 33. Geo interlinking + Forms lead endpoint + payment removal — 2026-08-12
+
+### 33.1 The Mon/Tue traffic question, answered with data
+Owner reported no significant Training/ERP traffic Mon 10 + Tue 11 Aug.
+GSC daily by segment (Jul 23 – Aug 9, final data):
+* **Training is FLAT, not falling** — 1,000–1,750 impr/day, 20–33 clicks/day
+  every single day. Mon Aug 3 1,583i/30c vs Mon Jul 27 1,735i/30c.
+* **ERP is the real problem** — 48–280 impr/day and **0–2 clicks on most days**.
+* GA4 organic Mon+Tue: 317 sessions total — **Training landings 66 across 36
+  pages, ERP landings 6 across 5 pages.** ERP is effectively invisible.
+
+**USA 28d: Training 3,420 impr / 20 clicks / 611 queries. ERP 176 impr / ZERO
+clicks / 26 queries**, largest being `site:atlantisndt.com`. Reconfirms §21.3
+and §31.1 — ERP is absent from the category, and no city-level ERP query exists.
+
+### 33.2 🔴 CITY PAGES WERE LINK-ISLANDS — the fix with the widest reach
+A training city page emitted 32 unique internal links but only **FOUR** to
+sibling city pages and ONE to `/training`. ~400 geo pages each sat alone, so
+nothing circulated through the tree.
+**`scripts/geo-interlink-2026-08-12.mjs`** builds three structures:
+* **Regional sibling clusters** — 8 US regions + Canada, each with real
+  adjacency and its own industrial note. Houston **4 → 15** sibling links,
+  Chicago 12, Atlanta 8, Denver 6, ERP Houston 15. **118 sibling blocks.**
+* **ERP routing block on 371 ERP pages** — pushes deep `/erp-modules/*` leaves
+  UP to the money pages the head terms should own.
+* **Near-me intent block on 44 US training city pages** — the US near-me
+  cluster is 484 impressions at positions 42–87, all landing on
+  `/ndt-training-atlanta` because nothing pointed at the near-me hub with
+  proximity anchor text.
+
+⚠️ **Build region lists from ACTUAL dist slugs, not assumed city names.** The
+first pass gave Denver 1 sibling because half its region had no training page.
+`southwest` still has zero training pages — the block degrades gracefully
+(needs ≥2 siblings) rather than emitting a stub.
+
+### 33.3 Lead cycle now ends at the Microsoft Form
+Owner directive: no payment link, no Buy Now, no checkout — enquiries only,
+converted by phone.
+* `src/lib/enquiry-endpoint.ts` — single source of truth for the Forms URL
+  (it was hard-coded across 19 pages).
+* `EnquiryCaptureForm` success state now routes to the Form instead of a
+  dead-end "we'll be in touch" message.
+* ⚠️ **The React CTA only exists in a JS chunk** — it was in ZERO prerendered
+  HTML files. The static blocks in geo-interlink carry the Forms CTA too, so
+  it now ships in **1,414 crawlable pages**.
+* **Payment flow deleted** (commit `59166260a`): `/training/buy-now` was still
+  live at HTTP 200, in two sitemaps, with a hardcoded Stripe link — only its
+  button had been removed earlier. Pages, routes, prerender entry and
+  `api/stripe-webhook.ts` gone; both URLs 301 → `/contact?service=training`.
+
+### 33.4 Verified
+Build 5,237 URLs · drift guard PASS · pricing gate PASS on 3,036 files ·
+118 sibling + 371 ERP-routing + 44 near-me blocks · 1,414 pages with the Forms
+CTA in static HTML · buy-now absent from dist and every sitemap.
+
+### 33.5 Next
+1. Measure the interlinking at the ~2026-09-06 pull: sibling-linked city pages
+   should show position movement before impression movement.
+2. ERP remains a demand problem, not a page-count problem — §31.1 stands: put
+   content effort into blog/resources/compare shapes only.
+3. The near-me cluster still needs a Google Business Profile to win the local
+   pack (§24.2) — on-page work can only take it so far.

@@ -8,6 +8,7 @@
  */
 import { useState, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
+import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
   variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy";
@@ -276,9 +277,20 @@ export default function EnquiryCaptureForm({ variant }: Props) {
 
           {status === "sent" ? (
             <div className={`p-6 rounded-xl border-2 border-${color}-300 bg-white`}>
-              <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — we&apos;ll be in touch shortly</h3>
-              <p className="text-muted-foreground">
-                Thanks for reaching out. A consultant will contact you shortly with a tailored quote and a calendar link for your free consultation — no obligation, and nothing to install first.
+              <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — one more step</h3>
+              <p className="text-muted-foreground mb-4">
+                Thanks for reaching out. So we can quote accurately and call you prepared, please complete the short enrolment and requirements form — it takes a couple of minutes and tells us methods, levels, headcount and timing.
+              </p>
+              <a
+                href={MS_FORM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-5 py-3 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 transition-colors"
+              >
+                Complete your enquiry form →
+              </a>
+              <p className="text-sm text-muted-foreground mt-4">
+                Prefer to talk first? A consultant will call you either way — the form simply means the first call is a useful one.
               </p>
             </div>
           ) : (

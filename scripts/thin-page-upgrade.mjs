@@ -45,6 +45,7 @@ import { applyErpUsCityTexture, assertCityTextureClean } from './erp-us-city-tex
 import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boost-2026-08-06.mjs';
 import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth-2026-08-06.mjs';
 import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-06.mjs';
+import { applyGeoInterlink, assertGeoInterlinkClean } from './geo-interlink-2026-08-12.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -710,5 +711,9 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // Thin sweep: 12 compare pages, 13 corporate-training verticals, and the
     // earning singles (tofd, api-570-training, consulting-me, contact, press, faq).
     thinSweep: (assertNoPricesInThinSweep(), JSON.stringify(applyThinSweep(routes, append))),
+    // Geo interlinking: city pages were link-islands (4 sibling links each);
+    // ERP routing pushes deep leaf pages up to the money pages; near-me intent
+    // block points US training cities at the near-me hub.
+    geoLinks: (assertGeoInterlinkClean(), JSON.stringify(applyGeoInterlink(routes, append))),
   };
 }
