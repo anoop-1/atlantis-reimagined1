@@ -1917,3 +1917,33 @@ site-wide reads as a footprint.
 
 **STANDING RULE: after adding any record to `blogs.json`, count inbound links
 before declaring the work done.** Creating the page is half the job.
+
+### 34.6 Second US batch — buyer-decision content (6 posts)
+A US gap pull (90d, country=usa, ≥25 impr, best position >20, zero clicks)
+returned **145 queries / 8,200 impressions** — but almost every one already has
+an owning page ranking deep (eddy current, radiography, API 653, heat-exchanger
+tubes, CUI, aerospace composites). Those are authority problems; more explainers
+there would cannibalise (§34.3). **What had no page at all was the buyer's
+decision**, verified against all 726 posts:
+
+| Topic | Existing coverage | Shipped |
+|---|---|---|
+| build in-house vs contract | **0** | `build-in-house-ndt-team-vs-contracting-us` |
+| vetting an NDT contractor | 0 (the one hit was ERP selection) | `how-to-vet-an-ndt-contractor-us-checklist` |
+| US inspection jurisdiction | 1 (NB-23), no buyer view | `us-pressure-equipment-jurisdiction-who-inspects-what` |
+| liability / who is exposed | **0** | `ndt-liability-chain-who-is-exposed` |
+| turnaround, contractor side | 2, both operational | `refinery-turnaround-ndt-what-contractors-must-deliver` |
+| US data-centre construction | 3, all semiconductor/Korea | `ndt-for-us-data-center-construction` |
+
+The jurisdiction piece is demand-grounded: *"api 510 pressure vessel inspector
+versus a national board…"* earns 51i at p31 — the confusion is real and nothing
+addressed it. The liability piece carries an explicit not-legal-advice line.
+
+**Inbound links placed in the same commit, not after** (§34.5 rule applied):
+10 further source blocks from `/consulting`, `/api-510-certification`, the NB-23
+post, turnaround planning, `/ndt-erp-houston`, `/corporate-training/data-centers`,
+AWS D1.1 guide, workforce-shortage post, `/consulting/ndt-consulting-level-iii`
+and the audit evidence-pack resource.
+
+**Verified: all 14 posts of 2026-08-12 — 732–908 words, 3–8 inbound links each,
+0 broken outbound links, build 5,251 URLs, drift PASS, pricing gate PASS.**

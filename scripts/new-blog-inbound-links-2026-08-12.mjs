@@ -31,6 +31,13 @@ const D = {
   paut: '/blog/paut-equipment-selection-guide-for-inspection-companies',
   pipeline: '/blog/pipeline-audit-preparation-what-operators-check',
   market: '/blog/us-ndt-inspection-services-market-structure',
+  // second batch, 2026-08-12
+  buildVsBuy: '/blog/build-in-house-ndt-team-vs-contracting-us',
+  vetting: '/blog/how-to-vet-an-ndt-contractor-us-checklist',
+  jurisdiction: '/blog/us-pressure-equipment-jurisdiction-who-inspects-what',
+  liability: '/blog/ndt-liability-chain-who-is-exposed',
+  turnaround: '/blog/refinery-turnaround-ndt-what-contractors-must-deliver',
+  dataCenter: '/blog/ndt-for-us-data-center-construction',
 };
 
 /* source path -> block html. Anchor wording differs per source on purpose:
@@ -73,6 +80,25 @@ const BLOCKS = {
   '/consulting/rbi-program-design': `<p>Related: ${L(D.pipeline, 'pipeline audit preparation — the records pulled first')}.</p>`,
 
   '/resources/spreadsheet-to-system-migration-plan': `<p>The narrative version of this plan: ${L(D.migration, 'what actually changes when an inspection contractor leaves spreadsheets behind')}, including what software does not solve.</p>`,
+  '/consulting': `<p>Deciding how to resource inspection at all? ${L(D.buildVsBuy, 'building an in-house NDT team versus contracting it out')} sets out the volume threshold and the obligations each route carries. If you are selecting a contractor, ${L(D.vetting, 'what actually predicts contractor quality')}.</p>`,
+
+  '/api-510-certification': `<p>On authority rather than competence: ${L(D.jurisdiction, 'who actually has authority over pressure equipment in the US')} — API certification, National Board commissions and state jurisdictions are three different things, and the difference decides who may sign.</p>`,
+
+  '/blog/national-board-nb-23-inspection-code-2026-decoded': `<p>The buyer's view of the same landscape: ${L(D.jurisdiction, 'how US pressure-equipment inspection authority is divided')} between jurisdictions, the National Board, API certification and owner-user programmes.</p>`,
+
+  '/blog/turnaround-shutdown-inspection-planning-2026-decoded': `<p>From the contractor's side of the same event: ${L(D.turnaround, 'what a US refinery turnaround demands from an NDT contractor')} — mobilisation without administrative failure, discovery capacity, and reporting inside the critical path.</p>`,
+
+  '/ndt-erp-houston': `<p>Turnaround work is the Gulf Coast's defining rhythm: ${L(D.turnaround, 'what a refinery turnaround actually demands from an NDT contractor')}.</p>`,
+
+  '/corporate-training/data-centers': `<p>The inspection scope behind this training: ${L(D.dataCenter, 'what actually gets inspected on US data-centre construction')}.</p>`,
+
+  '/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide': `<p>Where this code is applied at volume: ${L(D.dataCenter, 'NDT in US data-centre construction')}, one of the fastest-growing structural inspection markets in the country.</p>`,
+
+  '/blog/ndt-technician-workforce-shortage-what-helps': `<p>The resourcing decision this forces: ${L(D.buildVsBuy, 'develop an in-house team or contract it out')}.</p>`,
+
+  '/consulting/ndt-consulting-level-iii': `<p>What the role carries: ${L(D.liability, 'who is actually exposed when an inspection is wrong')} — signing a Written Practice means signing for the competence of everyone certified under it.</p>`,
+
+  '/resources/client-audit-evidence-pack-checklist': `<p>Why this pack matters beyond the audit: ${L(D.liability, 'the NDT liability chain and what the records decide')}. And if you are on the buying side, ${L(D.vetting, 'how to vet a contractor before award')}.</p>`,
 };
 
 export function applyNewBlogInboundLinks(routes, append) {
