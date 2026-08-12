@@ -1822,3 +1822,34 @@ CTA in static HTML · buy-now absent from dist and every sitemap.
    content effort into blog/resources/compare shapes only.
 3. The near-me cluster still needs a Google Business Profile to win the local
    pack (§24.2) — on-page work can only take it so far.
+
+### 33.6 🔴 THE CONVERSATIONAL CLUSTER — 2,778 impressions, ZERO clicks, 90 days
+Measured 2026-08-12 (`scratchpad/convo-queries.mjs` pattern): **414
+conversational query-page pairs, 2,778 impressions, 0 clicks, 0.00% CTR.**
+These are not exam candidates — they are inspection managers setting policy:
+* 98i p23 "should we mandate api 510, 570, and 653 as the minimum
+  certifications for all enterprise in-service inspection roles…"
+* 53i **p6** "what's the difference between pcn and asnt ndt courses?"
+* 46i p37 "do we accept asnt ndt level iii in lieu of api qute for ut-related
+  scopes on our turnaround contracts?"
+* 37i p40 "one of my inspectors just failed api 570 a second time…"
+* 51i **p1** "what are the advantages of using atlantis…" — position ONE, zero clicks.
+
+**Position is not the problem.** Several sit at p1–6 and still earn nothing:
+the answer is consumed inside the AI Overview or assistant. GA4 shows that
+channel is real and high-quality — **AI Assistant 51% engagement** (§31.3).
+The objective is therefore to be the SOURCE the answer is built from, not to
+win a blue link.
+
+**Shipped:** `scripts/decision-maker-answers-2026-08-12.mjs` — 11 decision-grade
+answers in §25.4 form (question verbatim as `<h3>`, specific answer
+immediately after) on the five pages already absorbing the demand
+(api-510/570-certification, asnt-certification, api-inspector-guide,
+api-653-tank-inspection-guide). Answers commit to a position — "mandate by
+scope, not by job title" — because the reader is writing company policy, and a
+hedge is worth nothing to them. FAQ schema fed from the rendered Q&A only
+(§20.8). Where the certifying body owns the answer (fees, retake rules, exam
+delivery) the page says so and points at api.org rather than inventing detail
+that goes stale.
+
+**Judge this cluster on assisted/AI-channel sessions and enquiries, not CTR.**

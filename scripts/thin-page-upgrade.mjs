@@ -46,6 +46,7 @@ import { applyHeadtermBoost, assertNoPricesInHeadterm } from './us-headterm-boos
 import { applyBacklogDepth, assertNoPricesInBacklogDepth } from './backlog-depth-2026-08-06.mjs';
 import { applyThinSweep, assertNoPricesInThinSweep } from './thin-sweep-2026-08-06.mjs';
 import { applyGeoInterlink, assertGeoInterlinkClean } from './geo-interlink-2026-08-12.mjs';
+import { applyDecisionMakerAnswers, assertNoPricesInDecisionAnswers } from './decision-maker-answers-2026-08-12.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -715,5 +716,9 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // ERP routing pushes deep leaf pages up to the money pages; near-me intent
     // block points US training cities at the near-me hub.
     geoLinks: (assertGeoInterlinkClean(), JSON.stringify(applyGeoInterlink(routes, append))),
+    // Conversational cluster: 414 query-page pairs, 2,778 impr, ZERO clicks in
+    // 90d. Decision-maker questions answered directly on the pages that already
+    // absorb them (§25.4 form; AI Assistant channel runs 51% engagement).
+    decisionAnswers: (assertNoPricesInDecisionAnswers(), JSON.stringify(applyDecisionMakerAnswers(routes, append))),
   };
 }
