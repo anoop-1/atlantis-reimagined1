@@ -2011,3 +2011,23 @@ Richland/Hanford, Idaho Falls, Texas City, Billings, Williston, refining towns).
 that hit rate is not the lever — §31.1's per-page yield (ndt-training 45i/page
 vs blog 295i) says the same. Add only markets with a genuinely distinct
 industrial identity that supports real research, and expect most to stay silent.
+
+### 35.5 Eight missing markets added — selectively, with research
+Of the 39 missing markets, **8 were added** — the ones with a genuinely distinct
+industrial identity that supports real research rather than a name swap:
+**newport-news** (only US yard building nuclear carriers) · **oak-ridge** (Y-12
+and ORNL) · **richland** (Hanford cleanup) · **idaho-falls** (INL) ·
+**texas-city** · **san-antonio** (refining + military aviation MRO) ·
+**billings** · **williston** (Bakken). Each carries a hand-written profile in
+`training-cities.ts` plus a market-depth block; 905–1,766 words.
+
+The other 31 were deliberately NOT added. §35.4's arithmetic stands.
+
+⚠️ **New city pages do NOT automatically clear the 900-word bar.** Six of the
+eight landed at 650–673w on the first build because the depth module only knew
+the OLD thin list. **Any new city must be added to BOTH the profile data and
+the depth module** — the profile alone produces a template page.
+
+⚠️ Exam centres in new profiles are listed as on-site corporate delivery rather
+than naming third-party branch offices that cannot be verified (§24.2 honesty
+rule extends to claims about other companies' locations, not just our own).

@@ -4230,6 +4230,246 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     ],
   },
   {
+    slug: "newport-news",
+    city: "Newport News",
+    country: "USA",
+    lat: 36.9788, lng: -76.428,
+    localContext:
+      "Newport News Shipbuilding is the only US shipyard building nuclear-powered aircraft carriers and one of only two building nuclear submarines, employing roughly 25,000 people on the James River — the largest industrial employer in Virginia. Work runs under NAVSEA technical requirements and nuclear-propulsion program standards, which impose procedure qualification, personnel approval and documentation discipline well beyond commercial shipbuilding. The wider Hampton Roads market adds commercial ship repair, the coal and container terminals, and a defense supplier base.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Naval nuclear work qualifies NDT personnel under the shipyard's own program built on ASNT SNT-TC-1A and NAVSEA technical publications, with additional government clearance requirements for propulsion-plant scopes. Commercial ship repair in the same market runs classification-society rules instead, so technicians frequently hold qualification under both regimes.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 48,000–64,000/year",
+      levelII: "USD 68,000–95,000/year",
+      levelIII: "USD 110,000–160,000/year",
+      usdReference: "USD 68,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "norfolk", label: "Norfolk" },
+      { slug: "baltimore", label: "Baltimore" },
+      { slug: "philadelphia", label: "Philadelphia" },
+      { slug: "savannah", label: "Savannah" },
+      { slug: "jacksonville", label: "Jacksonville" },
+    ],
+  },
+  {
+    slug: "oak-ridge",
+    city: "Oak Ridge",
+    country: "USA",
+    lat: 36.0104, lng: -84.2696,
+    localContext:
+      "Oak Ridge exists because of the Manhattan Project and still runs on it: the Y-12 National Security Complex handles enriched uranium for the nuclear weapons stockpile, Oak Ridge National Laboratory is the largest US Department of Energy science laboratory, and a long-running environmental management and decommissioning program generates continuous inspection work. Every scope carries nuclear quality-assurance requirements and, for most roles, a DOE security clearance.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "DOE contractors qualify NDT personnel under ASNT SNT-TC-1A combined with nuclear quality-assurance program requirements (10 CFR 830 / NQA-1) and ASME Section III and XI procedures. Clearance processing lengthens onboarding substantially compared with commercial industrial hiring, so employers plan qualification well ahead of need.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–66,000/year (clearance premium)",
+      levelII: "USD 72,000–100,000/year (clearance premium)",
+      levelIII: "USD 118,000–168,000/year",
+      usdReference: "USD 72,000–100,000 (clearance premium)",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "aiken", label: "Aiken" },
+      { slug: "nashville", label: "Nashville" },
+      { slug: "knoxville", label: "Knoxville" },
+      { slug: "charlotte", label: "Charlotte" },
+      { slug: "indianapolis", label: "Indianapolis" },
+    ],
+  },
+  {
+    slug: "richland",
+    city: "Richland",
+    country: "USA",
+    lat: 46.2857, lng: -119.2845,
+    localContext:
+      "Richland is the Tri-Cities' operational centre for the Hanford Site — one of the largest environmental cleanup programs in the world, where decommissioning legacy plutonium production facilities and commissioning the Waste Treatment and Immobilization Plant employ many thousands of workers. Inspection work spans new construction on the vitrification plant, aging legacy infrastructure and waste-transfer systems, all under nuclear quality-assurance requirements. The Columbia Generating Station adds commercial nuclear work nearby.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Hanford contractors qualify NDT personnel under ASNT SNT-TC-1A within an NQA-1 quality-assurance program, with ASME Section III and XI procedures on nuclear-safety-class systems. Most roles require DOE clearance, and the site's own procedure and training requirements sit on top of the underlying method certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 52,000–68,000/year",
+      levelII: "USD 74,000–102,000/year",
+      levelIII: "USD 120,000–170,000/year",
+      usdReference: "USD 74,000–102,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "seattle", label: "Seattle" },
+      { slug: "portland", label: "Portland" },
+      { slug: "idaho-falls", label: "Idaho Falls" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "anchorage", label: "Anchorage" },
+    ],
+  },
+  {
+    slug: "idaho-falls",
+    city: "Idaho Falls",
+    country: "USA",
+    lat: 43.4917, lng: -112.0339,
+    localContext:
+      "Idaho Falls is the gateway to Idaho National Laboratory, the US Department of Energy's lead nuclear energy research laboratory, where advanced reactor development, spent-fuel handling and legacy facility management all generate examination work. The laboratory is the region's dominant technical employer, and its research reactors and fuel-handling facilities operate under nuclear quality-assurance requirements distinct from commercial power practice.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "INL contractors qualify NDT personnel under ASNT SNT-TC-1A inside an NQA-1 program, with research-reactor and fuel-facility procedures adding requirements no commercial plant carries. Security clearance is typical, and advanced-reactor programs increasingly demand technicians comfortable with unfamiliar materials and geometries rather than standard plant configurations.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–65,000/year",
+      levelII: "USD 70,000–98,000/year",
+      levelIII: "USD 115,000–162,000/year",
+      usdReference: "USD 70,000–98,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "richland", label: "Richland" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "denver", label: "Denver" },
+      { slug: "billings", label: "Billings" },
+      { slug: "casper", label: "Casper" },
+    ],
+  },
+  {
+    slug: "texas-city",
+    city: "Texas City",
+    country: "USA",
+    lat: 29.3838, lng: -94.9027,
+    localContext:
+      "Texas City packs some of the largest refining and petrochemical capacity on the Gulf Coast into a small city — a Marathon refinery among the biggest in the country, chemical manufacture alongside it, and the tank farms and terminals serving both. Inspection demand runs continuously and surges hard during turnarounds, with crews routinely crossing between Texas City, Galveston and the Houston Ship Channel.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Refinery and petrochemical operators qualify inspection personnel under ASNT SNT-TC-1A, with API 510, 570 and 653 certification required for the inspectors of record on vessels, piping and tanks. Site-specific safety and contractor-portal approval gate access, and lapsed records are the most common cause of a technician being turned away during a turnaround mobilisation.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–62,000/year",
+      levelII: "USD 66,000–95,000/year",
+      levelIII: "USD 112,000–158,000/year",
+      usdReference: "USD 66,000–95,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "deer-park", label: "Deer Park" },
+      { slug: "pasadena-texas", label: "Pasadena Texas" },
+      { slug: "beaumont", label: "Beaumont" },
+      { slug: "lake-charles", label: "Lake Charles" },
+    ],
+  },
+  {
+    slug: "san-antonio",
+    city: "San Antonio",
+    country: "USA",
+    lat: 29.4241, lng: -98.4936,
+    localContext:
+      "San Antonio pairs a refinery on its east side and Eagle Ford Shale infrastructure to the south with substantial military aviation maintenance at the former Kelly Air Force Base campus, now Port San Antonio, where depot-level MRO work continues under military and commercial aviation regimes. Automotive assembly south of the city and a growing manufacturing base fill out a genuinely mixed inspection market.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "The market spans two regimes: refinery and Eagle Ford facility work under ASNT SNT-TC-1A with API certification for in-service inspection, and aviation MRO under NAS 410 or EN 4179 personnel requirements with operator or OEM approval per method. Technicians who hold qualification in both are rare and priced accordingly.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 45,000–60,000/year",
+      levelII: "USD 64,000–90,000/year",
+      levelIII: "USD 108,000–152,000/year",
+      usdReference: "USD 64,000–90,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "houston", label: "Houston" },
+      { slug: "dallas", label: "Dallas" },
+      { slug: "fort-worth", label: "Fort Worth" },
+      { slug: "corpus-christi", label: "Corpus Christi" },
+      { slug: "midland", label: "Midland" },
+    ],
+  },
+  {
+    slug: "billings",
+    city: "Billings",
+    country: "USA",
+    lat: 45.7833, lng: -108.5007,
+    localContext:
+      "Billings runs on refining to a degree unusual for its size — refineries in the city and at nearby Laurel process Canadian and Rockies crude — alongside sugar processing, power generation and the agricultural-industrial plant of eastern Montana. Product pipelines converge here, adding integrity work across a service territory measured in hours of driving rather than miles.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Refinery programs qualify inspection personnel under ASNT SNT-TC-1A with API 510, 570 and 653 certification for in-service inspection roles. Pipeline work adds operator qualification for covered tasks, a separate requirement from NDT method certification that catches technicians who assume their ASNT credentials cover it.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 62,000–88,000/year",
+      levelIII: "USD 105,000–148,000/year",
+      usdReference: "USD 62,000–88,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "denver", label: "Denver" },
+      { slug: "casper", label: "Casper" },
+      { slug: "williston", label: "Williston" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+      { slug: "idaho-falls", label: "Idaho Falls" },
+    ],
+  },
+  {
+    slug: "williston",
+    city: "Williston",
+    country: "USA",
+    lat: 48.147, lng: -103.618,
+    localContext:
+      "Williston is the service base for the Bakken — a market that exists because of the play. Gathering systems, gas processing plants, rail loading terminals and tank batteries spread across an enormous footprint, and the defining operational fact is distance: a crew's day is shaped by drive time more than by scope.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Operators qualify inspection contractors under ASNT SNT-TC-1A with API certification where in-service pressure equipment is involved, and pipeline scopes require operator qualification for covered tasks. Field conditions make offline data capture a practical necessity rather than a convenience — connectivity across much of the basin is unreliable.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 50,000–68,000/year",
+      levelII: "USD 72,000–105,000/year",
+      levelIII: "USD 115,000–160,000/year",
+      usdReference: "USD 72,000–105,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "billings", label: "Billings" },
+      { slug: "casper", label: "Casper" },
+      { slug: "denver", label: "Denver" },
+      { slug: "minneapolis", label: "Minneapolis" },
+      { slug: "salt-lake-city", label: "Salt Lake City" },
+    ],
+  },
+  {
     slug: "aiken",
     city: "Aiken",
     country: "USA",

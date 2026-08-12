@@ -27,6 +27,44 @@ const esc = (s) => String(s == null ? '' : s)
 /* Per-market research. Each entry: what the market runs on, who employs
    inspection there, and which methods/codes the work actually demands. */
 export const THIN_CITIES = {
+  /* 2026-08-12 additions — new markets; distinct prose from the profile
+     localContext so the page does not repeat itself. */
+  'newport-news': {
+    name: 'Newport News', state: 'Virginia',
+    base: 'Newport News is a shipbuilding city in the fullest sense: the yard on the James River is the only place in the United States where nuclear-powered aircraft carriers are built, and one of two building nuclear submarines.',
+    work: 'Carrier and submarine construction impose the most demanding weld-examination regime in American industry — pressure-boundary and propulsion-plant work under naval technical requirements, with procedure qualification, personnel approval and record-keeping standards no commercial yard carries. Commercial ship repair across Hampton Roads runs classification-society rules instead, so many technicians hold qualification under both.',
+    methods: 'UT and RT on hull and pressure-boundary welds, MT on structural and fatigue-critical details, PT on the non-magnetic and machined scope, VT throughout as the first examination.',
+  },
+  'oak-ridge': {
+    name: 'Oak Ridge', state: 'Tennessee',
+    base: 'Oak Ridge was built for the Manhattan Project and still runs on nuclear work — enriched uranium operations at Y-12, the largest Department of Energy science laboratory, and a decommissioning programme with decades left in it.',
+    work: 'Nuclear quality assurance changes the job rather than the technique: procedures controlled under NQA-1, personnel qualified to the site programme as well as to SNT-TC-1A, and documentation where a missing signature is a reportable event. Most roles need a security clearance, which lengthens hiring and makes employers train ahead of need rather than recruit on demand.',
+    methods: 'UT on process piping and pressure boundaries, PT on stainless and alloy systems, MT where ferromagnetic material allows, RT under tightly controlled conditions.',
+  },
+  richland: {
+    name: 'Richland', state: 'Washington',
+    base: 'Richland is the working centre of the Hanford cleanup — one of the largest environmental remediation programmes anywhere, combining demolition of legacy plutonium-production facilities with commissioning of a new waste vitrification plant.',
+    work: 'Two inspection populations coexist: new construction on the treatment plant, examined to modern codes at high volume, and legacy infrastructure where the challenge is examining equipment whose history is incomplete. Both run under nuclear quality assurance, and the commercial station nearby adds a third regime.',
+    methods: 'UT on piping and waste-transfer systems, RT on new construction welds, PT on stainless throughout, MT on structural steel and supports.',
+  },
+  'idaho-falls': {
+    name: 'Idaho Falls', state: 'Idaho',
+    base: 'Idaho Falls is the gateway to Idaho National Laboratory, the lead US nuclear energy research laboratory, where advanced reactor development and spent-fuel handling generate work no commercial plant produces.',
+    work: 'Research facilities are the opposite of standardised: unfamiliar alloys, one-off geometries and prototype systems mean techniques are qualified case by case rather than pulled from a shelf. Technicians who can reason from the physics rather than follow a familiar setup are worth disproportionately more here.',
+    methods: 'UT on research-reactor components and fuel-handling systems, PT on stainless and specialty alloys, RT where geometry permits, VT under nuclear documentation discipline.',
+  },
+  billings: {
+    name: 'Billings', state: 'Montana',
+    base: 'Billings carries more refining than any city its size in the northern Rockies — plants in the city and at nearby Laurel processing Canadian and regional crude — with product pipelines converging and an agricultural-industrial base alongside.',
+    work: 'Refinery API programmes set the rhythm, and the surrounding service territory is measured in driving hours rather than miles, so crews cover pipeline and facility work across a wide area between turnarounds. Pipeline scopes add operator qualification, a separate requirement from method certification that catches technicians who assume ASNT credentials cover it.',
+    methods: 'UT thickness and weld examination on refinery circuits, MT on structural and lifting equipment, RT on repair welds, PT on alloy systems.',
+  },
+  williston: {
+    name: 'Williston', state: 'North Dakota',
+    base: 'Williston is the Bakken\'s service base — gathering systems, gas processing, rail loading terminals and tank batteries spread across a footprint where distance defines the working day.',
+    work: 'Everything here is dispersed field work: facility programmes at plants and compression, dig-site examination along the gathering network, and tank batteries reached by long drives. Connectivity is unreliable across much of the basin, which makes offline field data capture a practical necessity rather than a software preference.',
+    methods: 'UT thickness on facility piping and vessels, MT at dig sites and on structures, RT on pipeline girth welds, PT on the non-magnetic scope.',
+  },
   aiken: {
     name: 'Aiken', state: 'South Carolina',
     base: 'Aiken exists in inspection terms because of the Savannah River Site next door — a Department of Energy complex employing thousands, where nuclear materials processing, waste vitrification and decommissioning all generate examination work under a regime stricter than anything in commercial industry.',

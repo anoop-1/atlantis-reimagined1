@@ -407,6 +407,7 @@ export const REPORTING_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have a /ndt-training-{slug} page (individual TSX + DynamicTrainingPage fallback). */
 export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'newport-news','oak-ridge','richland','idaho-falls','texas-city','san-antonio','billings','williston', // training expansion 2026-08-12
   // Hand-built /src/pages/ndt-training-*.tsx files (original 17)
   'atlanta','chicago','dallas','denver','dubai','houston','hyderabad','india','jakarta','los-angeles',
   'new-orleans','new-york','online','philadelphia','pittsburgh','saudi-arabia','singapore','usa',
