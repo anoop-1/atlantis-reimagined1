@@ -2806,24 +2806,6 @@ const corePages = [
   </main>`,
   },
   {
-    path: '/training/buy-now',
-    title: 'Buy NDT Training Course Bundles — Level 1 & Level 2 | Atlantis NDT',
-    description: 'Purchase an Atlantis NDT training course bundle — Level 1 or Level 2, covering RT, UT, MT, PT, and VT. Instant access via our eLearning portal after checkout.',
-    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/asnt-certification">ASNT</a><a href="/contact">Contact</a></nav></header>
-  <main>
-    <h1>Buy Your NDT Course Bundle</h1>
-    <p>Choose Level 1 or Level 2 — each bundle covers all five core methods: Radiographic Testing (RT), Ultrasonic Testing (UT), Magnetic Particle Testing (MT), Penetrant Testing (PT), and Visual Testing (VT). Checkout is handled securely by Stripe; you'll confirm your bundle level during checkout.</p>
-    <h2>Level 1 Course Bundle</h2>
-    <p>Entry-level training across all five core methods — the standard starting pathway for someone new to NDT. Self-paced online access via our eLearning portal, foundational theory for each method, aligned to SNT-TC-1A. <a href="https://buy.stripe.com/28EeVf50V9TFamWbEjbjW01" rel="noopener noreferrer">Buy Level 1 Bundle</a></p>
-    <h2>Level 2 Course Bundle</h2>
-    <p>Advanced training across all five core methods, for candidates progressing from Level 1 or with prior field experience. Self-paced online access via our eLearning portal, advanced interpretation and defect-evaluation content, aligned to SNT-TC-1A. <a href="https://buy.stripe.com/28EeVf50V9TFamWbEjbjW01" rel="noopener noreferrer">Buy Level 2 Bundle</a></p>
-    <h2>What Happens After You Pay</h2>
-    <p>Once your payment is confirmed, we automatically create your learner account using the email address from checkout and enroll you in all 5 methods for your chosen level. You'll receive an email with your login details and course access. Didn't get your access email? Contact <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a> with the email you used at checkout, and our team will set up your account manually.</p>
-    <h2>Only Need One or Two Methods?</h2>
-    <p>These bundles cover all 5 core methods together. If you'd like to select individual methods instead, contact <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a> or fill out our <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" rel="noopener noreferrer">enquiry form</a> and we'll put together the right combination for you.</p>
-  </main>`,
-  },
-  {
     path: '/training-usa',
     title: 'NDT Training USA | ASNT Certification Courses | Atlantis NDT',
     description: 'ASNT-aligned NDT training courses in the USA. Level I, II & III certification for UT, MT, PT, RT, ET, VT. Online + on-site delivery nationwide. Consistently high exam pass rates.',
