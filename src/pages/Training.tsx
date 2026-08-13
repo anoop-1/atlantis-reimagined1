@@ -243,10 +243,6 @@ export default function Training() {
             </div>
          </motion.section>
 
-         <div id="training-enquiry" className="scroll-mt-24">
-            <EnquiryCaptureForm variant="training" />
-         </div>
-
          {/* Training Levels */}
          <section className="py-20">
             <div className="container mx-auto px-6">
@@ -791,6 +787,9 @@ export default function Training() {
                </motion.div>
             </div>
          </section>
+         <div id="training-enquiry" className="scroll-mt-24">
+            <EnquiryCaptureForm variant="training" />
+         </div>
          <ContactDetails />
       </div>
    );
