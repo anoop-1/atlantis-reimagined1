@@ -39,6 +39,25 @@ export default function GA4EventTracker() {
       const href = (target as HTMLAnchorElement).href || "";
       const text = (target.textContent || "").slice(0, 100).trim();
 
+      // Microsoft Form — THE lead channel. Owner converts these by phone, so a
+      // click here is the closest thing the site has to a conversion. It was
+      // invisible in GA4 until now (§38.4): the Form is an external host, so no
+      // pageview, no form_submit, nothing. Checked first, and both hosts are
+      // matched because the URL moved from forms.office.com to
+      // forms.cloud.microsoft — an old cached page must still report.
+      // The link opens in a new tab, so the page never unloads and the event
+      // always has time to send.
+      if (href.includes("forms.cloud.microsoft") || href.includes("forms.office.com")) {
+        track("ms_form_click", {
+          page_path: window.location.pathname,
+          link_text: text,
+          // Which CTA earned it — hero, a level card, or the page footer.
+          referrer_section:
+            target.closest("section")?.querySelector("h2,h1,h3")?.textContent?.slice(0, 80) || "",
+        });
+        return;
+      }
+
       // mailto: clicks
       if (href.startsWith("mailto:")) {
         const subject = (() => {
