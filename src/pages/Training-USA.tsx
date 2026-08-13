@@ -8,6 +8,7 @@ import { SEOHead } from '@/components/SEOHead';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
+import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 export default function TrainingUSA() {
   const certificationLevels = [
@@ -127,9 +128,9 @@ export default function TrainingUSA() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" className="btn-primary bg-blue-600 hover:bg-blue-700" asChild>
-                <Link to="/training#training-enquiry">
+                <a href={MS_FORM_URL} target="_blank" rel="noopener noreferrer">
                   Enroll in ASNT Level III Program
-                </Link>
+                </a>
               </Button>
               <Button size="lg" variant="outline">
                 <Link to="/consulting-usa">View Consulting Services</Link>
@@ -317,9 +318,9 @@ export default function TrainingUSA() {
               Earn ASNT SNT-TC-1A training and advance your NDT career in aerospace and advanced manufacturing.
             </p>
             <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50" asChild>
-              <Link to="/training#training-enquiry">
+              <a href={MS_FORM_URL} target="_blank" rel="noopener noreferrer">
                 Enroll Now
-              </Link>
+              </a>
             </Button>
           </motion.div>
         </div>

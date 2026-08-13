@@ -2142,3 +2142,57 @@ a quote) · the two /resources templates that sat **4 words** under the bar ·
 
 State after this round: 5,265 sitemap URLs, avg 1,152w. Every page earning
 above ~25 impressions now carries authored content.
+
+---
+
+## 38. 🔴 THE MICROSOFT FORM FUNNEL — the lead channel we were not measuring — 2026-08-13
+
+Owner: "I used to have 6-7 Training enquiries on my Microsoft Forms, now not a
+single one." **Every prior investigation this week measured the WRONG form.**
+`generate_lead` tracks `EnquiryCaptureForm` (EmailJS). The owner's actual
+training lead channel is the **external Microsoft Form**, which is untracked in
+GA4 — clicks to it fire no event, so it is invisible in every report we have.
+
+**Lesson: before diagnosing a lead drop, confirm WHICH form the owner reads.**
+Two full analyses (§36 and the country/channel split) were correct about the
+data and answered a question the owner had not asked.
+
+### 38.1 What actually broke
+| # | Finding | When |
+|---|---|---|
+| 1 | `/training-usa` and `/asnt-level-iii-training` had their Microsoft Form CTAs **replaced with internal `/training#training-enquiry` links** | commits `21733331f` + `b1b0f5c41`, **2026-08-11** |
+| 2 | `/training` — the main training page, most traffic — **has never had a one-click route to the Microsoft Form** | always |
+| 3 | Since `e87334dd5` (08-12) the Form link on `/training` appears **only after a successful EmailJS submit** — a two-form funnel | 2026-08-12 |
+
+(1) was collateral from the compliance fix that removed fabricated testimonials
+and the fake "Houston training center" claim. **Removing the fake content was
+correct; rerouting the CTA away from the owner's lead channel was not required
+by it and should not have happened.**
+
+### 38.2 Fixed
+* `Training.tsx` — **direct Microsoft Form CTA in the hero** ("Enquire About
+  Training →"), with "Or send us a message" as the secondary route to the
+  on-page form. One click, above the fold, no submission required first.
+* `Training-USA.tsx` and `asnt-level-iii-training.tsx` — both CTAs each restored
+  to the Microsoft Form via the shared `MS_FORM_URL` constant.
+* All three now import `@/lib/enquiry-endpoint`, so the URL has one definition.
+
+⚠️ The Form URL does not appear in the `Training-*` chunk itself — it resolves
+through the shared chunk the constant lives in. Verify by checking the import
+graph, not by grepping one chunk (this looked like a failure and was not).
+
+### 38.3 Still unknown — needs the owner
+Traffic cannot explain 6-7 → 0 on its own: `/training-usa` earns **0** organic
+impressions, `/asnt-level-iii-training` 39, and US training organic runs 0-4
+clicks/day. Paid Search — which stopped 07-29 — barely touched training
+(`/training-india` 27 sessions, `/ndt-training-hyderabad` 10, `/asnt-certification`
+10 over 13 days).
+**Ask the owner for the response DATES in Microsoft Forms.** If submissions
+stopped on 08-11, cause (1) is confirmed. If they stopped ~07-29, it is the paid
+shutoff. If earlier, something else and the hunt continues. Also worth
+confirming the Form itself is still open for responses.
+
+### 38.4 Standing fix
+**The Microsoft Form is untracked.** Add a GA4 outbound-click event on every
+`MS_FORM_URL` anchor so this channel stops being invisible — until then no
+report can show whether it is working. Next cycle.

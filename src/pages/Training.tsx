@@ -10,6 +10,7 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
+import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 export default function Training() {
    const courses = [
       {
@@ -239,6 +240,22 @@ export default function Training() {
                      career with industry-recognized certifications and hands-on
                      experience.
                   </p>
+                  <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+                     <a
+                        href={MS_FORM_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-8 py-4 rounded-lg bg-primary text-white font-semibold text-lg hover:opacity-90 transition-opacity"
+                     >
+                        Enquire About Training →
+                     </a>
+                     <a
+                        href="#training-enquiry"
+                        className="inline-block px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold text-lg hover:bg-primary/5 transition-colors"
+                     >
+                        Or send us a message
+                     </a>
+                  </div>
                </motion.div>
             </div>
          </motion.section>

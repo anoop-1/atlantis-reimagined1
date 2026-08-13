@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Award, Trophy, Users, Monitor, Building2, RotateCcw, FileText } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 /**
  * /asnt-level-iii-training — REBUILD, 2026-08-11.
@@ -105,7 +106,7 @@ export default function ASNTLevelIIITraining() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
-                <Link to="/training#training-enquiry">Ask About Level III Prep</Link>
+                <a href={MS_FORM_URL} target="_blank" rel="noopener noreferrer">Ask About Level III Prep</a>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <Link to="/asnt-certification">Full ASNT Certification Guide</Link>
@@ -300,7 +301,7 @@ export default function ASNTLevelIIITraining() {
           <p className="text-muted-foreground mb-8">Tell us which method and which certifying path (employer SNT-TC-1A/CP-189 or ASNT-issued) you're working toward, and we'll come back with a preparation plan.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg">
-              <Link to="/training#training-enquiry">Ask About Level III Prep</Link>
+              <a href={MS_FORM_URL} target="_blank" rel="noopener noreferrer">Ask About Level III Prep</a>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link to="/contact">Request Information</Link>
