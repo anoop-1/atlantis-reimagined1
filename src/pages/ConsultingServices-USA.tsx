@@ -148,7 +148,7 @@ export default function ConsultingServicesUSA() {
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
                             <Button size="lg" className="btn-primary bg-blue-600 hover:bg-blue-700">
-                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
+                                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
                                     Request Level III Consultation
                                 </a>
                             </Button>
@@ -313,7 +313,7 @@ export default function ConsultingServicesUSA() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50">
-                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
+                                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
                                     Contact Level III Consultant
                                 </a>
                             </Button>

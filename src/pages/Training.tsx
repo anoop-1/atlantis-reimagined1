@@ -346,7 +346,7 @@ export default function Training() {
                                  asChild
                                  className="btn-primary w-full group-hover:shadow-lg transition-all duration-300"
                               >
-                                 <a href="#training-enquiry">
+                                 <a href={MS_FORM_URL} target="_blank" rel="noopener noreferrer">
                                     Enquiry Form
                                  </a>
                               </Button>
@@ -796,7 +796,7 @@ export default function Training() {
                         className="bg-transparent border-primary text-primary hover:bg-primary hover:text-white"
                      >
                         {" "}
-                        <a href="#training-enquiry">
+                        <a href={MS_FORM_URL} target="_blank" rel="noopener noreferrer">
                            Contact Us Today
                         </a>
                      </Button>

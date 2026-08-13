@@ -127,7 +127,7 @@ export default function TrainingIndia() {
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
                             <Button size="lg" className="btn-primary">
-                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
+                                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
                                     Enroll in Level III Program
                                 </a>
                             </Button>
@@ -411,7 +411,7 @@ export default function TrainingIndia() {
                             Earn ASNT SNT-TC-1A training and become an NDT expert in India's growing manufacturing sector.
                         </p>
                         <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50">
-                            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
+                            <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
                                 Enroll Now
                             </a>
                         </Button>

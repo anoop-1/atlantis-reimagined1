@@ -38,7 +38,7 @@
    (owner directive 2026-08-12; there is no checkout anywhere on the site).
    Mirrors src/lib/enquiry-endpoint.ts so the STATIC prerendered HTML carries
    the CTA too — the React copy only exists in a JS chunk after hydration. */
-const MS_FORM = 'https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
+const MS_FORM = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
 const formCta = (label) =>
   `<p><a href="${MS_FORM}" rel="noopener noreferrer" target="_blank"><strong>${label}</strong></a> — tell us methods, levels, headcount and timing, and a consultant calls you back prepared.</p>`;
 

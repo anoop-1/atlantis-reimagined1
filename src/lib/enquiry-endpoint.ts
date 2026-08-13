@@ -9,7 +9,7 @@
  * means a form change is one edit, not a site-wide grep.
  */
 export const MS_FORM_URL =
-  'https://forms.office.com/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
+  'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
 
 /** Label used on the primary lead CTA. Kept consistent so it is recognisable. */
 export const MS_FORM_LABEL = 'Request a quote / enrol';
