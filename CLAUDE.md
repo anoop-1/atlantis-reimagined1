@@ -2031,3 +2031,65 @@ the depth module** — the profile alone produces a template page.
 ⚠️ Exam centres in new profiles are listed as on-site corporate delivery rather
 than naming third-party branch offices that cannot be verified (§24.2 honesty
 rule extends to claims about other companies' locations, not just our own).
+
+---
+
+## 36. ⚠️ "TRAFFIC HAS COLLAPSED" — it had not. The bot-spike artifact — 2026-08-13
+
+Owner reported traffic "plunged to the bottom of the earth" over five days, from
+GA4 Home. **Nothing was broken and nothing needed fixing.** Recording the
+diagnosis because this will recur and the panic is expensive.
+
+### 36.1 The decisive check: GSC is INDEPENDENT of GA4
+Always verify an apparent GA4 collapse against GSC before touching anything —
+GSC cannot be affected by tagging, bots arriving as Direct, or attribution.
+
+| Date | GSC impressions | GSC clicks |
+|---|---:|---:|
+| Jul 22 | 6,798 | 102 |
+| Aug 5 | 6,500 | 116 |
+| Aug 6 | 6,207 | 102 |
+| Aug 8 *(Sat)* | 3,673 | 56 |
+| Aug 10 | 6,057 | 85 |
+
+**Organic was flat.** 55–116 clicks/day all month. The Aug 8–9 dip is the
+weekend and matches Jul 25–26 (3,643/4,400) precisely.
+
+### 36.2 What the owner was actually seeing — a bot burst ending
+Aug 4–5 carried ~4,600 sessions arriving as **Direct** across six countries at
+once. Quality signature versus normal traffic:
+
+| Window / country | Sessions | "Engaged" | Avg session |
+|---|---:|---:|---:|
+| Spike — Singapore | 3,246 | 70% | **5 s** |
+| Spike — Brazil | 523 | 80% | **13 s** |
+| Spike — Ukraine | 123 | 85% | **14 s** |
+| Spike — Argentina | 115 | 87% | **23 s** |
+| Now — United States | 208 | 29% | **106 s** |
+| Now — India | 105 | 40% | **196 s** |
+
+**70–87% engagement at 5–23 second sessions is a bot fingerprint.** Real humans
+look like the US row. Same Singapore anomaly §32.6 flagged at 7 s.
+The "Singapore −81.1%" in GA4's 7-day comparison is the spike leaving the
+comparison window — an arithmetic artifact, not a loss.
+
+### 36.3 The one real change
+**Paid Search stopped 2026-07-29**: 309 sessions/day → 18, and 4–18/day since.
+Owner-initiated. It was the bulk of raw session volume, so the 30-day chart
+looks dramatic — but it was India/Singapore traffic at ~22% engagement that
+never converted (§31.6, §24.3).
+
+### 36.4 The rule
+**Judge site health on GSC clicks + US engaged sessions, never on GA4 session
+totals.** The totals swing on bot bursts nobody controls. Before investigating
+any reported traffic drop:
+1. Pull GSC daily clicks for the window — if flat, the site is fine.
+2. Pull GA4 sessions/day BY CHANNEL — isolates paid changes from organic.
+3. Pull engagement rate + average session duration BY COUNTRY for the spike
+   window — high engagement + single-digit seconds = bots.
+4. Only then look at the code.
+Pattern script: `scratchpad/drop-investigate.mjs`.
+
+⚠️ Also confirmed this session: the live GA4 tag is **G-XQZQGSF245**, not the
+`G-1EF92RXSVR` recorded in §5.3 — that ID was dead (404) and was deliberately
+swapped in commit `c58ebf9a6`. §5.3 is stale; the tag is healthy and firing.
