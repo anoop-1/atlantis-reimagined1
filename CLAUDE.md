@@ -2093,3 +2093,52 @@ Pattern script: `scratchpad/drop-investigate.mjs`.
 ⚠️ Also confirmed this session: the live GA4 tag is **G-XQZQGSF245**, not the
 `G-1EF92RXSVR` recorded in §5.3 — that ID was dead (404) and was deliberately
 swapped in commit `c58ebf9a6`. §5.3 is stale; the tag is healthy and firing.
+
+---
+
+## 37. Thin sweep round 2 — a silent method-city defect — 2026-08-13
+
+### 37.1 🔴 18 MAPPED method-city pages never received their block
+Audit of all 264 mapped method-city pages: **246 carry depth, 18 do not — and
+the 18 are exactly three cities × six methods: charlotte, boston, new-york.**
+All three are in `CITIES` with valid industry keys and all their routes are
+declared in `App.tsx`, so `applyMethodCityDepth` should reach them. It did not.
+Most likely the §19.1 class (a later prerender entry carrying its own
+bodyContent overwriting the append) — not chased further because appending from
+a second module **worked on all 24 pages**, which is the empirical answer.
+
+**Also found: `houston` was absent from the `CITIES` map entirely** — the
+largest NDT services market in North America was never a mapped method-city
+market. Added.
+
+`scripts/method-city-gap-2026-08-13.mjs` — per-city, per-method research for
+charlotte (Carolinas generating fleet + energy supply chain), boston (marine +
+biotech process + aerospace corridor), new-york (infrastructure/transit before
+industry, and RT constrained by radiation safety in occupied areas), houston
+(ship channel). 24 pages, 346 impressions, all verified ≥800w in dist.
+
+**Lesson: verify a generator's output against dist per family, not by trusting
+its own applied-count.** The build log said "252 method-city pages localised"
+while 18 mapped pages carried nothing — the counter counts appends, not
+survivals. Same trap as §21.1.
+
+### 37.2 Remaining demand-bearing singles upgraded
+`scripts/thin-singles-2026-08-13.mjs` — 9 pages, all verified:
+/3d-scanning-services 639→1,032w (what reality capture delivers, and the honest
+limit — a scan records surfaces, not wall thickness or cracks) · /press 803w ·
+both /tools calculators (~820w each, framed so the estimate is not mistaken for
+a quote) · the two /resources templates that sat **4 words** under the bar ·
+/compare index 666w (how to read a vendor comparison, including ours) ·
+/aerospace-ndt-training 673w (NAS 410 / EN 4179 vs SNT-TC-1A) ·
+/atlantis-academy 793w.
+
+### 37.3 Deliberately NOT upgraded
+* **`/` home — 1,682i @ 622w, the single biggest thin number on the site.** A
+  homepage is not improved by SEO text; depth there costs clarity for the
+  highest-intent visitors. Stands as a decision, not an oversight.
+* **`/blog/ut-vs-rt-comparison` 1,427i** — canonical donor (§27.5), never upgrade.
+* The silent tail (methods ~342 pages at ~4i each, glossary 103, dt 82) —
+  §20.2/§30.3 hold: no padding without demand or research.
+
+State after this round: 5,265 sitemap URLs, avg 1,152w. Every page earning
+above ~25 impressions now carries authored content.

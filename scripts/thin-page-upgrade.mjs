@@ -49,6 +49,8 @@ import { applyGeoInterlink, assertGeoInterlinkClean } from './geo-interlink-2026
 import { applyDecisionMakerAnswers, assertNoPricesInDecisionAnswers } from './decision-maker-answers-2026-08-12.mjs';
 import { applyNewBlogInboundLinks, assertInboundTargetsExist } from './new-blog-inbound-links-2026-08-12.mjs';
 import { applyTrainingCityThinFix, assertNoPricesInThinFix } from './training-city-thin-fix-2026-08-12.mjs';
+import { applyMethodCityGap, assertNoPricesInMethodCityGap } from './method-city-gap-2026-08-13.mjs';
+import { applyThinSingles, assertNoPricesInThinSingles } from './thin-singles-2026-08-13.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -728,5 +730,11 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // 19 US training city pages under 900w, all earning ZERO; plus the near-me
     // hub at 535w answering a 484-impression cluster. Per-market research per §26.1.
     trainingThin: (assertNoPricesInThinFix(), JSON.stringify(applyTrainingCityThinFix(routes, append))),
+    // 18 mapped method-city pages never received their block (charlotte,
+    // boston, new-york x6 methods) and houston was absent from CITIES entirely.
+    methodGap: (assertNoPricesInMethodCityGap(), JSON.stringify(applyMethodCityGap(routes, append))),
+    // Remaining demand-bearing thin singles (3d-scanning hub 256i, press, tools,
+    // two resources 4w short of the bar, /compare index, aerospace training, academy).
+    thinSingles: (assertNoPricesInThinSingles(), JSON.stringify(applyThinSingles(routes, append))),
   };
 }
