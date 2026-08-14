@@ -2196,3 +2196,98 @@ confirming the Form itself is still open for responses.
 **The Microsoft Form is untracked.** Add a GA4 outbound-click event on every
 `MS_FORM_URL` anchor so this channel stops being invisible — until then no
 report can show whether it is working. Next cycle.
+
+---
+
+## 39. Product × city/region audit + authority routing — 2026-08-14
+
+Tooling: `scratchpad/product-geo-audit.mjs` — joins GSC 90d (global + USA
+shape) × GA4 landing sessions × dist word count × **dist inbound-link graph**,
+classified by segment × geo. Raw: `scratchpad/audit-2026-08-14.json` (3,054
+pages with impressions).
+
+### 39.1 ⚠️ THREE MEASUREMENT TRAPS IN THIS AUDIT — do not repeat
+1. **Word count from `<div id="root">…</div>` is unreliable.** The non-greedy
+   match stops at the first nested `</div><script`, so real 2,160-word pages
+   (`/blog/visual-testing`) read as 0w. Use full-body text minus `<script>`.
+2. **`0w` pages are mostly RETIRED 301s still carrying historical impressions**
+   (`/ndt-technician-salary` 5,232i, `/blog/api-653-certification-complete-guide`
+   3,273i). Cross-check `vercel.json` redirects before calling anything thin.
+3. **GA4 engagement per landing page must be AGGREGATED, not assigned.** Taking
+   the last row per page made `/erp` read 0% engagement. Truth: **7,631 of
+   /erp's 7,883 sessions are India Paid Search at 20% engagement / 70s.**
+
+### 39.2 🔴 THE MONEY PAGE DOES NOT RANK FOR ITS OWN METHOD TERM
+Page-level GSC for each head term — the commercial page is **absent** in every
+case, and a *retired 301 source* is the top URL for one of them:
+
+| Term | Who ranks | Money page |
+|---|---|---|
+| ultrasonic testing | glossary **p71** (348i) · netherlands p54 · johannesburg p22 | `/ultrasonic-testing` **ABSENT** |
+| eddy current testing | **301'd blog p77 (261i)** · guide p69 · glossary p79 | `/eddy-current-testing` **ABSENT** |
+| radiographic testing | blog p28 (287i) · glossary p76 · netherlands p61 | `/radiographic-testing` **ABSENT** |
+
+§26.2 tried curing this with content depth on the base pages. **It did not
+work** — they still earn zero for their own terms. Depth was the wrong
+instrument: this is an ownership-signal problem, not a substance problem.
+
+**Shipped `scripts/authority-routing-2026-08-14.mjs`** — exact-anchor uplinks
+from every page that already holds the topic: **591/591 method-city pages**
+(verified per family in dist), the glossary entry (narrowed to definition
+scope, hands commercial intent up), and the complete-guide blog. **679
+exact-anchor links** to the six money pages. Additive — no page stripped.
+
+### 39.3 🔴 THE TRAFFIC ENGINE WAS INTERNALLY ORPHANED
+Inbound internal links vs 90d impressions, before the fix:
+
+| Page | Impr | Inbound |
+|---|---:|---:|
+| /blog/api-510-570-653-exam-schedule-2026 | 10,397 | **6** |
+| /blog/aws-d1-1-weld-acceptance-criteria | 9,984 | **2** |
+| /blog/api-653-tank-inspection-guide | 9,826 | **4** |
+| /blog/asme-section-viii-division-1 | 9,439 | **1** |
+| /blog/asme-b31-3-process-piping | 8,037 | **2** |
+| /blog/asme-section-v-article-4-ut | 7,586 | **5** |
+| — for contrast — `/contact` | — | **15,037** |
+| — for contrast — `/consulting` | — | **13,019** |
+
+Internal PageRank pooled on nav destinations and starved from the pages that
+actually rank, all sitting at p6–19 on five-figure impressions. All 11 targets
+raised (6→11, 2→6, 4→7, 1→4, 2→5, 5→8, 3→6, 2→5, 5→7, 1→3, 5→7).
+
+**Standing rule: audit the inbound-link graph every cycle, not just on new
+pages (§34.5).** Orphaning happens to old high-performers too, silently.
+
+### 39.4 PRODUCT × CITY FAMILY YIELD — priority geo only
+| Family | Pages | Impr | Clicks | Impr/page | Avg pos |
+|---|---:|---:|---:|---:|---:|
+| digitaltwin \| NA-US | 14 | 32 | 0 | **2.3** | 9.1 |
+| erp \| NA-US | 78 | 260 | 1 | **3.3** | 21.7 |
+| erp \| NA-CA | 45 | 187 | 0 | **4.2** | 18.0 |
+| methods \| NA-US | 190 | 2,806 | 47 | 14.8 | **40.8** |
+| consulting \| NA-US | 20 | 908 | 10 | 45.4 | 37.5 |
+| 3dscanning \| NA-US | 42 | 1,955 | 7 | 46.5 | 32.8 |
+| **training \| NA-US** | 68 | 3,970 | **127** | **58.4** | 32.0 |
+| **3dscanning \| NA-CA** | 6 | 416 | 3 | **69.3** | 33.0 |
+
+**ERP and DT city pages in North America are dead** — 137 pages producing 479
+impressions and 1 click per quarter. §20.2/§31.1 confirmed a fourth time.
+**Training and 3D-scanning city pages are the only geo families that earn.**
+
+### 39.5 Next, in order
+1. **`/api-653-certification` — 6,198i at p21**, and "api 653" (526i) at **p32**
+   while `/blog/api-653-tank-inspection-guide` holds p14 on 9,826i. The blog
+   outranks the money page: same cannibalisation shape as §39.2. Decide
+   ownership (guide = explainer, cert page = the credential) and route with
+   exact anchors rather than more words. **Biggest single money-page gap.**
+2. **Retired 301 still ranking** — `/blog/eddy-current-testing-complete-beginner-guide`
+   is the top URL for "eddy current testing" (261i, p77) despite 301ing.
+   Re-submit the redirect source for recrawl; do not re-publish it.
+3. **`/ndt-industry-statistics` 3,086i @ p26** on market-size queries (p54–68),
+   1 inbound before this cycle. Market-research intent is a real US demand
+   shape and nothing else on the site serves it.
+4. Invest geo effort in **training + 3D-scanning cities only**. Stop adding ERP
+   or DT city pages in any geography.
+5. **Measure ~2026-09-14** (4 weeks, allows recrawl): do the six method money
+   pages appear for their own head terms, and do the 11 engine pages move off
+   p6–19? Both are position questions — judge on position before clicks.
