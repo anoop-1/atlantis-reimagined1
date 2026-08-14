@@ -51,6 +51,7 @@ import { applyNewBlogInboundLinks, assertInboundTargetsExist } from './new-blog-
 import { applyTrainingCityThinFix, assertNoPricesInThinFix } from './training-city-thin-fix-2026-08-12.mjs';
 import { applyMethodCityGap, assertNoPricesInMethodCityGap } from './method-city-gap-2026-08-13.mjs';
 import { applyThinSingles, assertNoPricesInThinSingles } from './thin-singles-2026-08-13.mjs';
+import { applyMethodAuthority, applyEngineInboundLinks, assertNoPricesInAuthorityRouting, assertAuthorityTargetsExist } from './authority-routing-2026-08-14.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -736,5 +737,19 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // Remaining demand-bearing thin singles (3d-scanning hub 256i, press, tools,
     // two resources 4w short of the bar, /compare index, aerospace training, academy).
     thinSingles: (assertNoPricesInThinSingles(), JSON.stringify(applyThinSingles(routes, append))),
+
+    // Authority routing (2026-08-14). Two defects the product x geo audit found,
+    // both about where internal authority goes rather than what pages say:
+    //  1. no method money page ranks for its own head term - the glossary entry
+    //     holds it instead ("ultrasonic testing" 348i at p71 on /glossary/...).
+    //     Exact-anchor uplinks from ~591 method-city pages + glossary + guide.
+    //  2. the traffic engine is internally orphaned - eight blog pages carrying
+    //     6k-10k impressions each hold 1-6 inbound links, while /contact holds
+    //     15,037. Inbound links placed from topically adjacent demand pages.
+    authorityRouting: (assertNoPricesInAuthorityRouting(), assertAuthorityTargetsExist(routes),
+      JSON.stringify({
+        method: applyMethodAuthority(routes, append),
+        engine: applyEngineInboundLinks(routes, append),
+      })),
   };
 }
