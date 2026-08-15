@@ -2291,3 +2291,118 @@ impressions and 1 click per quarter. §20.2/§31.1 confirmed a fourth time.
 5. **Measure ~2026-09-14** (4 weeks, allows recrawl): do the six method money
    pages appear for their own head terms, and do the 11 engine pages move off
    p6–19? Both are position questions — judge on position before clicks.
+
+---
+
+## 40. Why US training traffic is not arriving — 2026-08-15
+
+### 40.1 🔴 THE 2026-08-14 COMMITS NEVER DEPLOYED
+Live served entry chunk `index-6YR5U7P9.js` while the local build produced
+`index-BReqnuDO.js`; live carried neither `ms_form_click` nor
+`forms.cloud.microsoft`. **The owner's Microsoft Form fix was not live for a
+full day.** Classic §23.4: over the Hobby 100-deploys/24h ceiling Vercel
+creates NO deployment, so the dashboard looks idle and the site silently serves
+an older build. Cleared by an empty trigger commit; **verified live afterwards**
+(`ms_form_click` present, new Form host present, authority uplinks rendering).
+
+**Rule: verify the live entry-chunk hash against `dist/assets/` before
+believing any "shipped" claim. A green local build proves nothing.**
+
+### 40.2 US training is a POSITION problem — the arithmetic
+USA-only, 28d to 08-14: **653 distinct training queries · 3,724 impressions ·
+20 clicks.** Nothing to fix at the CTR layer because almost nothing is on page
+one:
+
+| Query | Impr | Pos | Pages competing |
+|---|---:|---:|---:|
+| asnt level iii consulting | 244 | p13–88 | **18** |
+| ndt training near me | 132 | p53 | 10 |
+| ndt level 3 consultant | 128 | p18–92 | 8 |
+| ndt level 3 consulting services | 116 | p25–97 | 11 |
+| ndt certification near me | 111 | p57 | 8 |
+
+Site-wide US position IS improving (avg 22.4 on Jul 25 → 13.7–15.3 on Aug
+11–13), so the broader programme is working. Training specifically is not,
+because of what follows.
+
+### 40.3 🔴 THE SMOKING GUN — pages that CAN rank top-3 exist, but Google serves the wrong one
+`"ndt certification near me"`, USA, 28d:
+
+| Page | Impr | Pos |
+|---|---:|---:|
+| /ndt-training-atlanta | 57 | **p69** |
+| /ndt-training-denver | 44 | **p51** |
+| /ndt-training-dallas | 3 | **p3** |
+| /ndt-training-st-louis | 3 | **p3** |
+
+Two pages rank THIRD and receive three impressions each, while the two that
+absorb the impressions sit on page 6–7. This is cannibalisation, not a content
+deficit — and it is the same shape as §39.2's method-term finding. **Splitting
+a term across many URLs does not hedge; it guarantees none of them ranks.**
+
+### 40.4 🔴 THE SITE'S MOST-LINKED DESTINATION WAS A REDIRECT
+`PILLAR_NAV` (`prerender.mjs` ~1727) emitted `href="/ndt-training"` on **5,474
+pages**, and `vercel.json` 301s `/ndt-training/:path*` → `/training`. Every
+internal link to the training hub spent a redirect hop, so **`/training` — the
+page the owner needs ranking — never accumulated the equity those links carried.**
+Repointed the nav and five method hubs. Verified **5,474 → 0** hop links,
+**5,475 direct**. The `App.tsx` Route path is deliberately untouched; only link
+targets moved.
+
+**Class lesson: grep dist for links whose target has no `dist/` directory.
+§25.1 caught 22 of these; this was 5,474 and had been live far longer.**
+
+### 40.5 THE INDEXATION ANSWER — 43.7% of the site has never earned an impression
+5,264 sitemap URLs · **2,963 (56.3%) earned impressions in 90d · 2,301 (43.7%)
+earned zero.**
+
+| Segment | Total | Zero-impr | % dead |
+|---|---:|---:|---:|
+| method-city | 1,218 | 744 | **61%** |
+| digital twin | 369 | 264 | **72%** |
+| other | 671 | 422 | 63% |
+| consulting | 202 | 121 | 60% |
+| training | 275 | 137 | 50% |
+| erp | 1,327 | 386 | 29% |
+| blog | 792 | 175 | 22% |
+| glossary | 219 | 21 | **10%** |
+
+**This is the answer to "why are so many pages not indexed".** Google allocates
+crawl and index budget in proportion to perceived site authority. 5,264 pages
+on a domain earning ~85 clicks/day is far past what that authority supports, so
+Google indexes the pages it values and ignores the rest. **Adding pages makes
+this worse, not better** — each new page competes for the same budget and, in
+the training cluster, for the same query.
+
+### 40.6 AUDIENCE CORRECTION — the near-me cluster is the wrong target twice over
+The four largest US training queries are proximity terms (~440 impressions/mo).
+They are **unwinnable** (local pack, no GBP possible for a remote-office
+company — §34.1) **and the wrong audience** — a candidate wanting a class, not
+an employer certifying a crew. Employer queries already rank far better and had
+**no owning page**:
+
+| Query | Impr | Pos |
+|---|---:|---:|
+| asnt certification nationwide contracts | 30 | **p18** |
+| what's the realistic all-in cost to sponsor on… | 36 | **p27** |
+| one of my inspectors just failed api 570 a second time | 28 | **p33** |
+| do we accept asnt ndt level iii in lieu of api… | 45 | p50 |
+
+**Shipped 5 employer-intent posts** (880–946w, 2–5 inbound each, checked
+against all 732 existing posts for overlap): sponsorship commitment · repeated
+exam failure · multi-state crew certification · in-lieu-of policy · crew build
+sequence. Plus **Level III cluster consolidation** — exact-anchor routing and
+explicit city scoping on seattle/houston/corpus-christi/denver (§25.2 pattern).
+
+### 40.7 Next, in order
+1. **PRUNE — the biggest remaining lever, and it needs an owner decision.**
+   744 dead method-city pages and 264 dead DT pages have earned nothing in 90
+   days while consuming crawl budget. Noindexing them concentrates budget on
+   the ~2,900 that earn. This is the opposite of adding pages and it is what
+   the data supports.
+2. **Do not add training or ERP or DT city pages.** Every new one competes with
+   the cluster it joins (§40.3).
+3. `/api-653-certification` p21 vs its own blog at p14 (§39.5) — unresolved.
+4. **Measure ~2026-09-15**: does `/training` gain position from the 5,475
+   direct links, and does the Level III cluster collapse from 18 competing
+   pages toward one owner? Both are position questions first.
