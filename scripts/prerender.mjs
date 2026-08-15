@@ -1724,7 +1724,7 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
     // internal links to /consulting, /ndt-training, /digital-twins,
     // /best-ndt-reporting-software-2026, /ndt-erp-solution — this funnels
     // head-term link equity into the pillar hubs across all ~2,477 pages.
-    const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/ndt-training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>`;
+    const PILLAR_NAV = `\n  <nav aria-label="NDT solution pillars" class="pillar-hub-nav"><span>Explore NDT solutions:</span> <a href="/consulting">NDT Consulting</a> <a href="/training">NDT Training</a> <a href="/digital-twins">Digital Twin NDT</a> <a href="/best-ndt-reporting-software-2026">NDT Reporting Software</a> <a href="/ndt-erp-solution">NDT ERP Software</a></nav>`;
     const augmentedBody = bodyContent + PILLAR_NAV;
     // The dist template closes #root immediately before </body> with no body
     // <script> tag, so the previous /<\/div>\s*<script/ anchor never matched

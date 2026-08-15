@@ -52,6 +52,8 @@ import { applyTrainingCityThinFix, assertNoPricesInThinFix } from './training-ci
 import { applyMethodCityGap, assertNoPricesInMethodCityGap } from './method-city-gap-2026-08-13.mjs';
 import { applyThinSingles, assertNoPricesInThinSingles } from './thin-singles-2026-08-13.mjs';
 import { applyMethodAuthority, applyEngineInboundLinks, assertNoPricesInAuthorityRouting, assertAuthorityTargetsExist } from './authority-routing-2026-08-14.mjs';
+import { applyLevelIiiConsolidation, assertNoPricesInConsolidation2, assertConsolidationTargets } from './training-consulting-consolidation-2026-08-15.mjs';
+import { applyEmployerBlogInbound, assertNoPricesInEmployerPosts, assertEmployerPostLinks } from './add-blogs-employer-2026-08-15.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -751,5 +753,18 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
         method: applyMethodAuthority(routes, append),
         engine: applyEngineInboundLinks(routes, append),
       })),
+
+    // Level III consulting consolidation (2026-08-15). USA 28d: 653 training
+    // queries, 3,724 impressions, 20 clicks - because every term is split.
+    // "asnt level iii consulting" is 244i across EIGHTEEN pages, the real owner
+    // stuck at p44 while five weaker pages surround it. Exact-anchor routing +
+    // explicit city scoping, the pattern section 25.2 proved.
+    levelIiiConsolidation: (assertNoPricesInConsolidation2(), assertConsolidationTargets(routes),
+      JSON.stringify(applyLevelIiiConsolidation(routes, append))),
+
+    // Inbound links for the five employer-intent posts, in the SAME pass they
+    // ship (section 34.5 - an orphan post is half a job).
+    employerBlogInbound: (assertNoPricesInEmployerPosts(), assertEmployerPostLinks(routes),
+      JSON.stringify(applyEmployerBlogInbound(routes, append))),
   };
 }

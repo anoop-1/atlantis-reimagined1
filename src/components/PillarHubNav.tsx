@@ -33,7 +33,7 @@ const PILLARS = [
   },
   {
     slug: "training",
-    to: "/ndt-training",
+    to: "/training",
     label: "NDT Training",
     icon: GraduationCap,
   },

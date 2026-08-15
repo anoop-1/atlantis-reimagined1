@@ -291,7 +291,7 @@ export default function UltrasonicTestingHub() {
               <CardHeader><CardTitle className="text-lg">Conventional UT Level I → II</CardTitle></CardHeader>
               <CardContent className="text-sm text-slate-700 leading-relaxed space-y-2">
                 <p>40 hrs classroom + 210 hrs OJT for Level I. Another 40 + 630 hrs for Level II. Covers thickness, straight-beam, angle-beam weld exam, calibration blocks, ASME/AWS acceptance criteria.</p>
-                <Link to="/ndt-training" className="text-[#004aad] hover:underline">NDT Training Hub →</Link>
+                <Link to="/training" className="text-[#004aad] hover:underline">NDT Training Hub →</Link>
               </CardContent>
             </Card>
             <Card className="border-l-4 border-blue-500">
@@ -345,7 +345,7 @@ export default function UltrasonicTestingHub() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request a Quote</Link>
-            <Link to="/ndt-training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">UT Training →</Link>
+            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">UT Training →</Link>
           </div>
         </div>
       </section>
