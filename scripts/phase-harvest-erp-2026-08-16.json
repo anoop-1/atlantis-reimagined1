@@ -1,0 +1,1318 @@
+{
+ "segment": "erp",
+ "generated": "2026-08-16",
+ "window": {
+  "startDate": "2026-05-16",
+  "endDate": "2026-08-14"
+ },
+ "days": 90,
+ "caveat": "USA figures are anonymisation-limited SHAPE (~26% of true totals, §31.2). Slash variants summed (§20.11).",
+ "usa": {
+  "totalImpressions": 1459,
+  "totalClicks": 3,
+  "distinctQueries": 142,
+  "buckets": {
+   "head_term": {
+    "queries": 8,
+    "impressions": 337,
+    "clicks": 1,
+    "wtdPos": 46.2,
+    "top": [
+     {
+      "q": "ndt software",
+      "i": 176,
+      "c": 0,
+      "pos": 64.8,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 93,
+        "pos": 71.9
+       },
+       {
+        "p": "/ndt-connect",
+        "i": 47,
+        "pos": 63.6
+       },
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 13,
+        "pos": 30.2
+       }
+      ]
+     },
+     {
+      "q": "ndt reporting software",
+      "i": 118,
+      "c": 1,
+      "pos": 14.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 100,
+        "pos": 9.7
+       },
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 17,
+        "pos": 39.9
+       },
+       {
+        "p": "/blog/what-to-look-for-in-ndt-reporting-software",
+        "i": 1,
+        "pos": 33
+       }
+      ]
+     },
+     {
+      "q": "ndt software solutions",
+      "i": 24,
+      "c": 0,
+      "pos": 65.1,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 17,
+        "pos": 63.3
+       },
+       {
+        "p": "/ndt-connect",
+        "i": 3,
+        "pos": 77
+       },
+       {
+        "p": "/erp/ndt-inspection-software-comparison",
+        "i": 2,
+        "pos": 79.5
+       }
+      ]
+     },
+     {
+      "q": "asset integrity management software",
+      "i": 9,
+      "c": 0,
+      "pos": 49.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asset-integrity-management-software",
+        "i": 9,
+        "pos": 49.9
+       }
+      ]
+     },
+     {
+      "q": "asset integrity software",
+      "i": 6,
+      "c": 0,
+      "pos": 49.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asset-integrity-management-software",
+        "i": 6,
+        "pos": 49.3
+       }
+      ]
+     },
+     {
+      "q": "erp project turnaround services",
+      "i": 2,
+      "c": 0,
+      "pos": 75,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/project-management",
+        "i": 2,
+        "pos": 75
+       }
+      ]
+     },
+     {
+      "q": "erp-mongolia",
+      "i": 1,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-erp-mongolia",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "software iso 17025",
+      "i": 1,
+      "c": 0,
+      "pos": 17,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/calibration-management-software-iso-17025-guide-2026",
+        "i": 1,
+        "pos": 17
+       }
+      ]
+     }
+    ]
+   },
+   "workflow": {
+    "queries": 29,
+    "impressions": 185,
+    "clicks": 1,
+    "wtdPos": 31.6,
+    "top": [
+     {
+      "q": "calibration certificate template",
+      "i": 45,
+      "c": 1,
+      "pos": 17.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 45,
+        "pos": 17.4
+       }
+      ]
+     },
+     {
+      "q": "environmental calibrations lab",
+      "i": 36,
+      "c": 0,
+      "pos": 13.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/calibration-management-for-environmental-testing-labs",
+        "i": 36,
+        "pos": 13.9
+       }
+      ]
+     },
+     {
+      "q": "iso 17025 calibration certificate",
+      "i": 28,
+      "c": 0,
+      "pos": 72.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 28,
+        "pos": 72.6
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate format",
+      "i": 11,
+      "c": 0,
+      "pos": 26.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 11,
+        "pos": 26.2
+       }
+      ]
+     },
+     {
+      "q": "certificate of calibration template",
+      "i": 8,
+      "c": 0,
+      "pos": 9.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 8,
+        "pos": 9.9
+       }
+      ]
+     },
+     {
+      "q": "iso-compliant calibration resource",
+      "i": 8,
+      "c": 0,
+      "pos": 61.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 8,
+        "pos": 61.4
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate format word",
+      "i": 7,
+      "c": 0,
+      "pos": 8.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 7,
+        "pos": 8.1
+       }
+      ]
+     },
+     {
+      "q": "oilfield testing equipment calibration",
+      "i": 6,
+      "c": 0,
+      "pos": 78.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/calibration-management-for-oilfield-services",
+        "i": 6,
+        "pos": 78.8
+       }
+      ]
+     },
+     {
+      "q": "blank calibration certificate template",
+      "i": 3,
+      "c": 0,
+      "pos": 17.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 3,
+        "pos": 17.3
+       }
+      ]
+     },
+     {
+      "q": "free calibration certificate template",
+      "i": 3,
+      "c": 0,
+      "pos": 9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 3,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "iso 17025 calibration certificate example",
+      "i": 3,
+      "c": 0,
+      "pos": 17.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 3,
+        "pos": 17.7
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate format pdf",
+      "i": 2,
+      "c": 0,
+      "pos": 22.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 2,
+        "pos": 22.5
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate template free download",
+      "i": 2,
+      "c": 0,
+      "pos": 5.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 2,
+        "pos": 5.5
+       }
+      ]
+     },
+     {
+      "q": "calibration document",
+      "i": 2,
+      "c": 0,
+      "pos": 57.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 2,
+        "pos": 57.5
+       }
+      ]
+     },
+     {
+      "q": "environmental equipment calibration",
+      "i": 2,
+      "c": 0,
+      "pos": 43.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/calibration-management-for-environmental-testing-labs",
+        "i": 2,
+        "pos": 43.5
+       }
+      ]
+     }
+    ]
+   },
+   "competitor": {
+    "queries": 4,
+    "impressions": 34,
+    "clicks": 0,
+    "wtdPos": 5.1,
+    "top": [
+     {
+      "q": "where can operators compare nde inspection capabilities and pricing?",
+      "i": 31,
+      "c": 0,
+      "pos": 2.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-inspection-software-comparison-2026",
+        "i": 27,
+        "pos": 2.4
+       },
+       {
+        "p": "/erp/ndt-inspection-software-comparison",
+        "i": 3,
+        "pos": 7.3
+       },
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "compare well integrity management software pricing which one better for operations",
+      "i": 1,
+      "c": 0,
+      "pos": 49,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asset-integrity-management-software",
+        "i": 1,
+        "pos": 49
+       }
+      ]
+     },
+     {
+      "q": "how do top nde inspection vendors compare?",
+      "i": 1,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-inspection-software-comparison-2026",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "trackwise vs pilgrim",
+      "i": 1,
+      "c": 0,
+      "pos": 35,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/quality-management",
+        "i": 1,
+        "pos": 35
+       }
+      ]
+     }
+    ]
+   },
+   "buyer": {
+    "queries": 4,
+    "impressions": 20,
+    "clicks": 0,
+    "wtdPos": 11.5,
+    "top": [
+     {
+      "q": "best ndt software",
+      "i": 17,
+      "c": 0,
+      "pos": 12.5,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 14,
+        "pos": 6.5
+       },
+       {
+        "p": "/blog/what-to-look-for-in-ndt-reporting-software",
+        "i": 2,
+        "pos": 60.5
+       },
+       {
+        "p": "/blog/best-ndt-inspection-software-2026-buyers-guide",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "best software for collaborative ct analysis?",
+      "i": 1,
+      "c": 0,
+      "pos": 2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "top 5 asset integrity monitoring solutions with pricing comparison",
+      "i": 1,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-inspection-software-comparison-2026",
+        "i": 1,
+        "pos": 10
+       }
+      ]
+     },
+     {
+      "q": "which company provides the best asset performance management (apm) with remote monitoring and predictive analytics for industrial operations: ge digital, schneider electric, abb, siemens, or honeywell forge? rank by apm platform leadership.",
+      "i": 1,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 1,
+        "pos": 6
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "global": {
+  "totalImpressions": 3440,
+  "totalClicks": 30,
+  "distinctQueries": 357,
+  "buckets": {
+   "head_term": {
+    "queries": 26,
+    "impressions": 765,
+    "clicks": 3,
+    "wtdPos": 43.2,
+    "top": [
+     {
+      "q": "ndt software",
+      "i": 319,
+      "c": 0,
+      "pos": 64.9,
+      "competing": 9,
+      "top": [
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 173,
+        "pos": 69.7
+       },
+       {
+        "p": "/ndt-connect",
+        "i": 97,
+        "pos": 63.5
+       },
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 13,
+        "pos": 30.2
+       }
+      ]
+     },
+     {
+      "q": "ndt reporting software",
+      "i": 218,
+      "c": 3,
+      "pos": 13.2,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 184,
+        "pos": 8.3
+       },
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 27,
+        "pos": 37.8
+       },
+       {
+        "p": "/blog/what-to-look-for-in-ndt-reporting-software",
+        "i": 3,
+        "pos": 31
+       }
+      ]
+     },
+     {
+      "q": "erp system oil and gas malaysia",
+      "i": 42,
+      "c": 0,
+      "pos": 55.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/erp-industries/oilfield-services-kuala-lumpur",
+        "i": 34,
+        "pos": 61.6
+       },
+       {
+        "p": "/erp-industries/pipeline-integrity-services-kuala-lumpur",
+        "i": 6,
+        "pos": 28.3
+       },
+       {
+        "p": "/erp-industries/marine-survey-companies-kuala-lumpur",
+        "i": 2,
+        "pos": 29
+       }
+      ]
+     },
+     {
+      "q": "asset integrity management software",
+      "i": 37,
+      "c": 0,
+      "pos": 50.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asset-integrity-management-software",
+        "i": 37,
+        "pos": 50.7
+       }
+      ]
+     },
+     {
+      "q": "ndt software solutions",
+      "i": 28,
+      "c": 0,
+      "pos": 57.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 17,
+        "pos": 63.3
+       },
+       {
+        "p": "/ndt-erp-software-comparison",
+        "i": 4,
+        "pos": 12.3
+       },
+       {
+        "p": "/ndt-connect",
+        "i": 3,
+        "pos": 77
+       }
+      ]
+     },
+     {
+      "q": "erp construction singapore",
+      "i": 27,
+      "c": 0,
+      "pos": 25.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/erp-industries/construction-quality-assurance-singapore",
+        "i": 19,
+        "pos": 30.6
+       },
+       {
+        "p": "/blog/best-erp-software-singapore-construction-2026",
+        "i": 8,
+        "pos": 13.5
+       }
+      ]
+     },
+     {
+      "q": "erp oil and gas malaysia",
+      "i": 17,
+      "c": 0,
+      "pos": 50.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-industries/oilfield-services-kuala-lumpur",
+        "i": 17,
+        "pos": 50.2
+       }
+      ]
+     },
+     {
+      "q": "asset integrity software",
+      "i": 13,
+      "c": 0,
+      "pos": 51.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asset-integrity-management-software",
+        "i": 13,
+        "pos": 51.1
+       }
+      ]
+     },
+     {
+      "q": "erp inspection",
+      "i": 8,
+      "c": 0,
+      "pos": 6.4,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/erp-industries/ndt-inspection-companies-singapore",
+        "i": 4,
+        "pos": 7.5
+       },
+       {
+        "p": "/erp/manufacturing-ndt-inspection-companies-singapore",
+        "i": 2,
+        "pos": 7.5
+       },
+       {
+        "p": "/erp-modules/inspection-scheduling-singapore",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "erp inspector",
+      "i": 8,
+      "c": 0,
+      "pos": 4.1,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/erp-industries/industrial-coatings-inspection-hyderabad",
+        "i": 4,
+        "pos": 2.8
+       },
+       {
+        "p": "/erp-industries/industrial-coatings-inspection-mumbai",
+        "i": 3,
+        "pos": 3.7
+       },
+       {
+        "p": "/erp-industries/ndt-inspection-companies-mumbai",
+        "i": 1,
+        "pos": 11
+       }
+      ]
+     },
+     {
+      "q": "erp software for oil and gas malaysia",
+      "i": 8,
+      "c": 0,
+      "pos": 27.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/erp-industries/oilfield-services-kuala-lumpur",
+        "i": 7,
+        "pos": 28.6
+       },
+       {
+        "p": "/erp-industries/marine-survey-companies-kuala-lumpur",
+        "i": 1,
+        "pos": 19
+       }
+      ]
+     },
+     {
+      "q": "erp solution for oil and gas malaysia",
+      "i": 7,
+      "c": 0,
+      "pos": 27.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/erp-industries/oilfield-services-kuala-lumpur",
+        "i": 6,
+        "pos": 18.3
+       },
+       {
+        "p": "/erp-industries/pipeline-integrity-services-kuala-lumpur",
+        "i": 1,
+        "pos": 80
+       }
+      ]
+     },
+     {
+      "q": "erp doha",
+      "i": 6,
+      "c": 0,
+      "pos": 11,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/erp-industries/pipeline-integrity-services-doha",
+        "i": 4,
+        "pos": 13.3
+       },
+       {
+        "p": "/erp-industries/construction-quality-assurance-doha",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/erp-industries/welding-fabrication-shops-doha",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "erp bca",
+      "i": 5,
+      "c": 0,
+      "pos": 2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/best-erp-software-singapore-construction-2026",
+        "i": 5,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "erp software provider for oil and gas malaysia",
+      "i": 5,
+      "c": 0,
+      "pos": 88.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/erp-industries/marine-survey-companies-kuala-lumpur",
+        "i": 3,
+        "pos": 88.7
+       },
+       {
+        "p": "/erp-industries/oilfield-services-kuala-lumpur",
+        "i": 2,
+        "pos": 88.5
+       }
+      ]
+     }
+    ]
+   },
+   "workflow": {
+    "queries": 53,
+    "impressions": 437,
+    "clicks": 8,
+    "wtdPos": 22.1,
+    "top": [
+     {
+      "q": "calibration certificate template",
+      "i": 107,
+      "c": 2,
+      "pos": 12.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 107,
+        "pos": 12.1
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate format word",
+      "i": 51,
+      "c": 0,
+      "pos": 8.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 51,
+        "pos": 8.3
+       }
+      ]
+     },
+     {
+      "q": "environmental calibrations lab",
+      "i": 38,
+      "c": 0,
+      "pos": 13.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/calibration-management-for-environmental-testing-labs",
+        "i": 38,
+        "pos": 13.6
+       }
+      ]
+     },
+     {
+      "q": "iso 17025 calibration certificate",
+      "i": 30,
+      "c": 0,
+      "pos": 70.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 30,
+        "pos": 70.9
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate format",
+      "i": 25,
+      "c": 1,
+      "pos": 16.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 25,
+        "pos": 16.3
+       }
+      ]
+     },
+     {
+      "q": "certificate of calibration template",
+      "i": 21,
+      "c": 2,
+      "pos": 8.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 21,
+        "pos": 8.7
+       }
+      ]
+     },
+     {
+      "q": "free calibration certificate template",
+      "i": 18,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 18,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate template free download",
+      "i": 14,
+      "c": 2,
+      "pos": 5.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 14,
+        "pos": 5.9
+       }
+      ]
+     },
+     {
+      "q": "oilfield testing equipment calibration",
+      "i": 12,
+      "c": 0,
+      "pos": 74.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/calibration-management-for-oilfield-services",
+        "i": 12,
+        "pos": 74.7
+       }
+      ]
+     },
+     {
+      "q": "ndt reporting",
+      "i": 10,
+      "c": 0,
+      "pos": 24.2,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/what-to-look-for-in-ndt-reporting-software",
+        "i": 6,
+        "pos": 27
+       },
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 3,
+        "pos": 10.7
+       },
+       {
+        "p": "/ndt-reporting-software-comparison",
+        "i": 1,
+        "pos": 48
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate",
+      "i": 8,
+      "c": 0,
+      "pos": 38.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 8,
+        "pos": 38.4
+       }
+      ]
+     },
+     {
+      "q": "iso-compliant calibration resource",
+      "i": 8,
+      "c": 0,
+      "pos": 61.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 8,
+        "pos": 61.4
+       }
+      ]
+     },
+     {
+      "q": "iso 17025 calibration software",
+      "i": 7,
+      "c": 0,
+      "pos": 9.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/calibration-management-software-iso-17025-guide-2026",
+        "i": 7,
+        "pos": 9.4
+       }
+      ]
+     },
+     {
+      "q": "iso 17025 calibration certificate example",
+      "i": 6,
+      "c": 0,
+      "pos": 16.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 6,
+        "pos": 16.7
+       }
+      ]
+     },
+     {
+      "q": "calibration certificate format pdf",
+      "i": 5,
+      "c": 0,
+      "pos": 14.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/calibration-certificate-template",
+        "i": 5,
+        "pos": 14.2
+       }
+      ]
+     }
+    ]
+   },
+   "competitor": {
+    "queries": 4,
+    "impressions": 34,
+    "clicks": 0,
+    "wtdPos": 5.1,
+    "top": [
+     {
+      "q": "where can operators compare nde inspection capabilities and pricing?",
+      "i": 31,
+      "c": 0,
+      "pos": 2.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-inspection-software-comparison-2026",
+        "i": 27,
+        "pos": 2.4
+       },
+       {
+        "p": "/erp/ndt-inspection-software-comparison",
+        "i": 3,
+        "pos": 7.3
+       },
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "compare well integrity management software pricing which one better for operations",
+      "i": 1,
+      "c": 0,
+      "pos": 49,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asset-integrity-management-software",
+        "i": 1,
+        "pos": 49
+       }
+      ]
+     },
+     {
+      "q": "how do top nde inspection vendors compare?",
+      "i": 1,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-inspection-software-comparison-2026",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "trackwise vs pilgrim",
+      "i": 1,
+      "c": 0,
+      "pos": 35,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/erp-modules/quality-management",
+        "i": 1,
+        "pos": 35
+       }
+      ]
+     }
+    ]
+   },
+   "buyer": {
+    "queries": 8,
+    "impressions": 45,
+    "clicks": 1,
+    "wtdPos": 18,
+    "top": [
+     {
+      "q": "best ndt software",
+      "i": 18,
+      "c": 1,
+      "pos": 11.9,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 15,
+        "pos": 6.1
+       },
+       {
+        "p": "/blog/what-to-look-for-in-ndt-reporting-software",
+        "i": 2,
+        "pos": 60.5
+       },
+       {
+        "p": "/blog/best-ndt-inspection-software-2026-buyers-guide",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "iso 9712 sertifiointi,,not yet checked,not in top 30,not in top 30,not in top 30,,,,,not in top 30,not in top 30,not in top 30,,not in top 30,not in top 30,not in top 30,,0%,0%,0%",
+      "i": 17,
+      "c": 0,
+      "pos": 18.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 17,
+        "pos": 18.1
+       }
+      ]
+     },
+     {
+      "q": "aerospace ndt,,not yet checked,not in top 30,not in top 30,not in top 30,,not in top 30,not in top 30,not in top 30,not in top 30,not in top 30,not in top 30,,not in top 30,not in top 30,not in top 30,,0%,0%,0%",
+      "i": 3,
+      "c": 0,
+      "pos": 81.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 3,
+        "pos": 81.3
+       }
+      ]
+     },
+     {
+      "q": "top ndt",
+      "i": 2,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 2,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "which company provides the best asset performance management (apm) with remote monitoring and predictive analytics for industrial operations: ge digital, schneider electric, abb, siemens, or honeywell forge? rank by apm platform leadership.",
+      "i": 2,
+      "c": 0,
+      "pos": 7.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 2,
+        "pos": 7.5
+       }
+      ]
+     },
+     {
+      "q": "best construction erp software",
+      "i": 1,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/best-erp-software-singapore-construction-2026",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "best software for collaborative ct analysis?",
+      "i": 1,
+      "c": 0,
+      "pos": 2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/best-ndt-reporting-software-2026",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "top 5 asset integrity monitoring solutions with pricing comparison",
+      "i": 1,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-inspection-software-comparison-2026",
+        "i": 1,
+        "pos": 10
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "cannibalised": [
+  {
+   "q": "ndt software",
+   "i": 176,
+   "pages": 7,
+   "detail": [
+    "/ndt-reporting-software-comparison 93i p72",
+    "/ndt-connect 47i p64",
+    "/best-ndt-reporting-software-2026 13i p30",
+    "/erp/ndt-inspection-software-comparison 10i p71",
+    "/ndt-inspection-software 8i p54"
+   ]
+  },
+  {
+   "q": "ndt inspection software",
+   "i": 155,
+   "pages": 5,
+   "detail": [
+    "/blog/ndt-inspection-software-2026-best-platforms-compared 102i p19",
+    "/best-ndt-reporting-software-2026 25i p29",
+    "/ndt-connect 19i p64",
+    "/ndt-inspection-software 8i p24",
+    "/inspection-management-software 1i p73"
+   ]
+  },
+  {
+   "q": "ndt software solutions",
+   "i": 24,
+   "pages": 5,
+   "detail": [
+    "/ndt-reporting-software-comparison 17i p63",
+    "/ndt-connect 3i p77",
+    "/erp/ndt-inspection-software-comparison 2i p80",
+    "/best-ndt-reporting-software-2026 1i p46",
+    "/blog/ndt-inspection-software-2026-best-platforms-compared 1i p50"
+   ]
+  }
+ ]
+}
