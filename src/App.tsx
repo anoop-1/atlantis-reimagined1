@@ -1727,6 +1727,9 @@ const NDTTrainingOnline = lazy(() => import("./pages/ndt-training-online"));
 const NdtSchool = lazy(() => import("./pages/ndt-school"));
 const GePredixAlternatives = lazy(() => import("./pages/ge-predix-alternatives"));
 const IndustryTrainingPage = lazy(() => import("./components/IndustryTrainingPage"));
+const ConsultingIndustryPage = lazy(() => import("./components/ConsultingIndustryPage"));
+// @ts-ignore
+import { CONSULTING_INDUSTRIES as CIM_IND } from "./data/consulting-industry-matrix.mjs";
 // industry x city x region training matrix data (shared with prerender)
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
@@ -4075,6 +4078,10 @@ const App = () => (
                   ))}
                   {Object.keys(ITM_REGIONS).map((reg) => (
                     <Route key={`itm-r-${reg}`} path={`/ndt-training-${reg}`} element={<LazyRoute Component={IndustryTrainingPage} componentProps={{ kind: "region", slug: reg }} />} />
+                  ))}
+                  {/* === consulting x industry nationals 2026-08-16 === */}
+                  {Object.keys(CIM_IND).map((ind) => (
+                    <Route key={`cim-${ind}`} path={`/consulting/${ind}-ndt-consulting`} element={<LazyRoute Component={ConsultingIndustryPage} componentProps={{ slug: ind }} />} />
                   ))}
                   {/* Product/Solution Pages */}
                   <Route path="/digital-twins-oil-gas-assets" element={<LazyRoute Component={DigitalTwinsOilGasAssets} />} />

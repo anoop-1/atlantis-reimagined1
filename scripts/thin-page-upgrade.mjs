@@ -60,6 +60,7 @@ import { applyWelderPostInbound, assertNoPricesInWelderPost, assertWelderPostLin
 import { applyErpHeadtermRouting, assertErpRoutingNoNumbers, assertErpRoutingTargets } from './phase-e-erp-2026-08-16.mjs';
 import { applyDtPhase, assertDtPhaseTargets } from './phase-d-dt-2026-08-16.mjs';
 import { applyIndustryMatrixInbound, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
+import { applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -809,5 +810,14 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // service pages, matching city training pages.
     industryMatrixInbound: (assertIndustryMatrixTargets(routes),
       JSON.stringify(applyIndustryMatrixInbound(routes, append))),
+
+    // Consulting x industry (Phase C): region-page upgrades (the earning-
+    // nothing /consulting-usa/-me/-india + /training-usa promoted, 20.3
+    // pattern), FFS blog->service handoff, nuclear services-vs-consulting
+    // scoping, and inbound links for the five nationals (34.5).
+    consultingIndustry: (assertConsultingIndustryTargets(routes), JSON.stringify({
+      blocks: applyConsultingIndustryBlocks(routes, append),
+      inbound: applyConsultingIndustryInbound(routes, append),
+    })),
   };
 }

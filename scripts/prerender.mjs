@@ -16,6 +16,7 @@ import { methodTrainingRoutes, assertNoPricesInMethodTraining } from './method-t
 import { ndtSchoolRoute, assertNoPricesInNdtSchool } from './ndt-school-page-2026-08-16.mjs';
 import { predixAlternativesRoute, assertNoPricesInDtPhase } from './phase-d-dt-2026-08-16.mjs';
 import { industryMatrixRoutes, applyIndustryMatrixInbound, assertNoPricesInIndustryMatrix, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
+import { consultingIndustryRoutes, applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertNoPricesInConsultingIndustry, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12919,6 +12920,18 @@ ${urls}
   const im = industryMatrixRoutes();
   routes.push(...im);
   console.log(`🏭 Industry-training matrix: ${im.length} routes (nationals+cells+regions)`);
+}
+
+// ─── CONSULTING × INDUSTRY NATIONALS 2026-08-16 (Phase C) ──────────────────
+// Industry-shaped consulting queries land on CITY permutations at p35-60
+// ("maritime ndt services" -> /industry/marine-ndt-new-orleans). Five
+// nationals own that intent; NO consulting x city cells (48i total bucket
+// - the city dimension already ships as researched training cells).
+{
+  assertNoPricesInConsultingIndustry();
+  const ci = consultingIndustryRoutes();
+  routes.push(...ci);
+  console.log(`🏛️  Consulting-industry nationals: ${ci.length} added`);
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────

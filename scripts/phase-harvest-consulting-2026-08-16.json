@@ -1,0 +1,1964 @@
+{
+ "segment": "consulting",
+ "generated": "2026-08-16",
+ "window": {
+  "startDate": "2026-05-16",
+  "endDate": "2026-08-14"
+ },
+ "days": 90,
+ "caveat": "USA figures are anonymisation-limited SHAPE (~26% of true totals, §31.2). Slash variants summed (§20.11).",
+ "usa": {
+  "totalImpressions": 2123,
+  "totalClicks": 2,
+  "distinctQueries": 168,
+  "buckets": {
+   "level_iii": {
+    "queries": 43,
+    "impressions": 1428,
+    "clicks": 1,
+    "wtdPos": 55.4,
+    "top": [
+     {
+      "q": "asnt level iii consulting",
+      "i": 546,
+      "c": 0,
+      "pos": 52,
+      "competing": 25,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 94,
+        "pos": 26.4
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 59,
+        "pos": 11.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 56,
+        "pos": 81.7
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consultant",
+      "i": 277,
+      "c": 0,
+      "pos": 63.6,
+      "competing": 10,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 59,
+        "pos": 52.1
+       },
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 57,
+        "pos": 62.7
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 43,
+        "pos": 85.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consulting services",
+      "i": 267,
+      "c": 0,
+      "pos": 61.5,
+      "competing": 18,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 73,
+        "pos": 57.7
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 37,
+        "pos": 18.4
+       },
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 31,
+        "pos": 87.5
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 training",
+      "i": 42,
+      "c": 0,
+      "pos": 50.9,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 20,
+        "pos": 49.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 11,
+        "pos": 39
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 9,
+        "pos": 64.4
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing level 3 consulting services",
+      "i": 40,
+      "c": 0,
+      "pos": 35.8,
+      "competing": 8,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 17,
+        "pos": 16.9
+       },
+       {
+        "p": "/consulting",
+        "i": 7,
+        "pos": 50.1
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+        "i": 6,
+        "pos": 29.7
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 online training",
+      "i": 27,
+      "c": 0,
+      "pos": 62.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 9,
+        "pos": 55.3
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 8,
+        "pos": 57.4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 4,
+        "pos": 76.5
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consulting",
+      "i": 26,
+      "c": 0,
+      "pos": 55.6,
+      "competing": 9,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 6,
+        "pos": 45.8
+       },
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 5,
+        "pos": 91.2
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+        "i": 4,
+        "pos": 15.3
+       }
+      ]
+     },
+     {
+      "q": "ndt written practice development",
+      "i": 17,
+      "c": 0,
+      "pos": 19.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/resources/ndt-written-practice-template",
+        "i": 15,
+        "pos": 20.4
+       },
+       {
+        "p": "/consulting/written-practice-development",
+        "i": 1,
+        "pos": 13
+       },
+       {
+        "p": "/glossary/written-practice",
+        "i": 1,
+        "pos": 11
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level iii certification program",
+      "i": 15,
+      "c": 0,
+      "pos": 58.4,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 5,
+        "pos": 72.8
+       },
+       {
+        "p": "/blog/ndt-level-iii-certification-requirements-guide",
+        "i": 4,
+        "pos": 25.8
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 4,
+        "pos": 62
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level 3 refresher course",
+      "i": 14,
+      "c": 0,
+      "pos": 61.1,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 7,
+        "pos": 59.6
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 5,
+        "pos": 65.4
+       },
+       {
+        "p": "/blog/ndt-level-iii-certification-requirements-guide",
+        "i": 1,
+        "pos": 31
+       }
+      ]
+     },
+     {
+      "q": "ndt level iii online courses",
+      "i": 14,
+      "c": 0,
+      "pos": 60.1,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 49.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 4,
+        "pos": 64.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 4,
+        "pos": 72.3
+       }
+      ]
+     },
+     {
+      "q": "online ndt level 3 training",
+      "i": 13,
+      "c": 0,
+      "pos": 79.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 7,
+        "pos": 75.1
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 5,
+        "pos": 89
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 1,
+        "pos": 67
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3",
+      "i": 12,
+      "c": 0,
+      "pos": 34.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 38.5
+       },
+       {
+        "p": "/glossary/level-iii",
+        "i": 4,
+        "pos": 12.5
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 2,
+        "pos": 65.5
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 course",
+      "i": 10,
+      "c": 0,
+      "pos": 54.3,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 3,
+        "pos": 45
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 3,
+        "pos": 61.7
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 3,
+        "pos": 48.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level iii consulting services",
+      "i": 10,
+      "c": 0,
+      "pos": 57.9,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 4,
+        "pos": 76.8
+       },
+       {
+        "p": "/consulting",
+        "i": 3,
+        "pos": 47.7
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 2,
+        "pos": 15.5
+       }
+      ]
+     }
+    ]
+   },
+   "service": {
+    "queries": 36,
+    "impressions": 133,
+    "clicks": 0,
+    "wtdPos": 53.3,
+    "top": [
+     {
+      "q": "fitness for service",
+      "i": 19,
+      "c": 0,
+      "pos": 54.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 18,
+        "pos": 56.8
+       },
+       {
+        "p": "/glossary/fitness-for-service-ffs",
+        "i": 1,
+        "pos": 13
+       }
+      ]
+     },
+     {
+      "q": "wind turbine inspection",
+      "i": 11,
+      "c": 0,
+      "pos": 59,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 11,
+        "pos": 59
+       }
+      ]
+     },
+     {
+      "q": "independent corporate technical authority for api 653 and api 570 compliance auditing",
+      "i": 8,
+      "c": 0,
+      "pos": 4.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 8,
+        "pos": 4.8
+       }
+      ]
+     },
+     {
+      "q": "wind turbine blade inspection",
+      "i": 8,
+      "c": 0,
+      "pos": 56.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 8,
+        "pos": 56.5
+       }
+      ]
+     },
+     {
+      "q": "\"api 579-1\"",
+      "i": 7,
+      "c": 0,
+      "pos": 95,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 4,
+        "pos": 95.3
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 3,
+        "pos": 94.7
+       }
+      ]
+     },
+     {
+      "q": "api 579",
+      "i": 6,
+      "c": 0,
+      "pos": 39.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 6,
+        "pos": 39.8
+       }
+      ]
+     },
+     {
+      "q": "api 579 fitness for service",
+      "i": 6,
+      "c": 0,
+      "pos": 56.2,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 4,
+        "pos": 43.5
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 2,
+        "pos": 81.5
+       }
+      ]
+     },
+     {
+      "q": "api 579 fitness for services",
+      "i": 6,
+      "c": 0,
+      "pos": 58.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 5,
+        "pos": 56.8
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 1,
+        "pos": 67
+       }
+      ]
+     },
+     {
+      "q": "api fitness for service",
+      "i": 4,
+      "c": 0,
+      "pos": 39.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 3,
+        "pos": 37
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 1,
+        "pos": 48
+       }
+      ]
+     },
+     {
+      "q": "fitness for service analysis",
+      "i": 4,
+      "c": 0,
+      "pos": 61.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 3,
+        "pos": 60
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 1,
+        "pos": 67
+       }
+      ]
+     },
+     {
+      "q": "fitness for service consulting",
+      "i": 4,
+      "c": 0,
+      "pos": 38.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/glossary/fitness-for-service-ffs",
+        "i": 4,
+        "pos": 38.3
+       }
+      ]
+     },
+     {
+      "q": "fitness for service evaluation",
+      "i": 4,
+      "c": 0,
+      "pos": 68.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 4,
+        "pos": 68.5
+       }
+      ]
+     },
+     {
+      "q": "ndt for wind turbines",
+      "i": 4,
+      "c": 0,
+      "pos": 53.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 4,
+        "pos": 53.8
+       }
+      ]
+     },
+     {
+      "q": "rbi risk based inspection api 581 hydrogen embrittlement he",
+      "i": 4,
+      "c": 0,
+      "pos": 17.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/risk-based-inspection-rbi-implementation-guide",
+        "i": 4,
+        "pos": 17.5
+       }
+      ]
+     },
+     {
+      "q": "turbine blade inspection",
+      "i": 4,
+      "c": 0,
+      "pos": 48.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 4,
+        "pos": 48.3
+       }
+      ]
+     }
+    ]
+   },
+   "industry": {
+    "queries": 11,
+    "impressions": 48,
+    "clicks": 0,
+    "wtdPos": 45.9,
+    "top": [
+     {
+      "q": "oil & gas ndt solutions",
+      "i": 12,
+      "c": 0,
+      "pos": 35.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/oil-gas-ndt-los-angeles",
+        "i": 12,
+        "pos": 35.2
+       }
+      ]
+     },
+     {
+      "q": "maritime ndt services",
+      "i": 11,
+      "c": 0,
+      "pos": 41.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/industry/marine-ndt-new-orleans",
+        "i": 7,
+        "pos": 42.4
+       },
+       {
+        "p": "/industry/marine-ndt-jacksonville",
+        "i": 4,
+        "pos": 38.8
+       }
+      ]
+     },
+     {
+      "q": "aerospace ndt solutions",
+      "i": 10,
+      "c": 0,
+      "pos": 60,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/aerospace-ndt-new-york",
+        "i": 10,
+        "pos": 60
+       }
+      ]
+     },
+     {
+      "q": "aerospace ndt services",
+      "i": 5,
+      "c": 0,
+      "pos": 55.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/aerospace-ndt-chicago",
+        "i": 5,
+        "pos": 55.2
+       }
+      ]
+     },
+     {
+      "q": "powergen ndt solutions",
+      "i": 4,
+      "c": 0,
+      "pos": 22.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/power-generation-ndt-chicago",
+        "i": 4,
+        "pos": 22.3
+       }
+      ]
+     },
+     {
+      "q": "how should an engineer approach fitness-for-service assessments for power piping exhibiting minor defects according to industry best practices",
+      "i": 1,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "marine ndt inspection services gulf coast",
+      "i": 1,
+      "c": 0,
+      "pos": 93,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/marine-ndt-kuwait",
+        "i": 1,
+        "pos": 93
+       }
+      ]
+     },
+     {
+      "q": "ndt power monitoring",
+      "i": 1,
+      "c": 0,
+      "pos": 85,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/power-generation-ndt-chicago",
+        "i": 1,
+        "pos": 85
+       }
+      ]
+     },
+     {
+      "q": "oil & gas ndt inspections",
+      "i": 1,
+      "c": 0,
+      "pos": 95,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/oil-gas-ndt-los-angeles",
+        "i": 1,
+        "pos": 95
+       }
+      ]
+     },
+     {
+      "q": "power generation consulting service",
+      "i": 1,
+      "c": 0,
+      "pos": 78,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/power-generation-ndt-new-york",
+        "i": 1,
+        "pos": 78
+       }
+      ]
+     },
+     {
+      "q": "which ndt certification to choose for aerospace",
+      "i": 1,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 1,
+        "pos": 10
+       }
+      ]
+     }
+    ]
+   },
+   "hire_intent": {
+    "queries": 7,
+    "impressions": 18,
+    "clicks": 0,
+    "wtdPos": 25.6,
+    "top": [
+     {
+      "q": "ndt certification nationwide contracts",
+      "i": 5,
+      "c": 0,
+      "pos": 33.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 4,
+        "pos": 35.5
+       },
+       {
+        "p": "/consulting",
+        "i": 1,
+        "pos": 25
+       }
+      ]
+     },
+     {
+      "q": "ndt consultants",
+      "i": 4,
+      "c": 0,
+      "pos": 6.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-seattle",
+        "i": 3,
+        "pos": 4.3
+       },
+       {
+        "p": "/consulting/ndt-consulting-houston",
+        "i": 1,
+        "pos": 12
+       }
+      ]
+     },
+     {
+      "q": "ndt consulting service",
+      "i": 3,
+      "c": 0,
+      "pos": 40.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 2,
+        "pos": 40.5
+       },
+       {
+        "p": "/consulting-usa",
+        "i": 1,
+        "pos": 40
+       }
+      ]
+     },
+     {
+      "q": "ndt consulting services",
+      "i": 3,
+      "c": 0,
+      "pos": 28.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-chicago",
+        "i": 2,
+        "pos": 26
+       },
+       {
+        "p": "/industry/aerospace-ndt-chicago",
+        "i": 1,
+        "pos": 34
+       }
+      ]
+     },
+     {
+      "q": "asnt certification nationwide contracts",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "independent contractor",
+      "i": 1,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-tampa",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt consultant",
+      "i": 1,
+      "c": 0,
+      "pos": 53,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-seattle",
+        "i": 1,
+        "pos": 53
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "global": {
+  "totalImpressions": 3653,
+  "totalClicks": 18,
+  "distinctQueries": 361,
+  "buckets": {
+   "level_iii": {
+    "queries": 59,
+    "impressions": 1721,
+    "clicks": 10,
+    "wtdPos": 50.7,
+    "top": [
+     {
+      "q": "asnt level iii consulting",
+      "i": 546,
+      "c": 0,
+      "pos": 52,
+      "competing": 25,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 94,
+        "pos": 26.4
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 59,
+        "pos": 11.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 56,
+        "pos": 81.7
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consultant",
+      "i": 277,
+      "c": 0,
+      "pos": 63.6,
+      "competing": 10,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 59,
+        "pos": 52.1
+       },
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 57,
+        "pos": 62.7
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 43,
+        "pos": 85.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consulting services",
+      "i": 267,
+      "c": 0,
+      "pos": 61.5,
+      "competing": 18,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 73,
+        "pos": 57.7
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 37,
+        "pos": 18.4
+       },
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 31,
+        "pos": 87.5
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 training",
+      "i": 42,
+      "c": 0,
+      "pos": 50.9,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 20,
+        "pos": 49.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 11,
+        "pos": 39
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 9,
+        "pos": 64.4
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 online training",
+      "i": 41,
+      "c": 0,
+      "pos": 57.4,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 19,
+        "pos": 49.2
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 12,
+        "pos": 57.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 4,
+        "pos": 76.5
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing level 3 consulting services",
+      "i": 40,
+      "c": 0,
+      "pos": 35.8,
+      "competing": 8,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 17,
+        "pos": 16.9
+       },
+       {
+        "p": "/consulting",
+        "i": 7,
+        "pos": 50.1
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+        "i": 6,
+        "pos": 29.7
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level iii exam preparation",
+      "i": 37,
+      "c": 0,
+      "pos": 20.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 37,
+        "pos": 20.1
+       }
+      ]
+     },
+     {
+      "q": "ndt level iii consulting services",
+      "i": 33,
+      "c": 0,
+      "pos": 48.9,
+      "competing": 11,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 9,
+        "pos": 46.8
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+        "i": 5,
+        "pos": 11.4
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 5,
+        "pos": 11.8
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consulting",
+      "i": 26,
+      "c": 0,
+      "pos": 55.6,
+      "competing": 9,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 6,
+        "pos": 45.8
+       },
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 5,
+        "pos": 91.2
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+        "i": 4,
+        "pos": 15.3
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level iii certification program",
+      "i": 24,
+      "c": 0,
+      "pos": 47,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-certification-requirements-guide",
+        "i": 10,
+        "pos": 19.7
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 5,
+        "pos": 72.8
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 4,
+        "pos": 62
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 study guide",
+      "i": 23,
+      "c": 2,
+      "pos": 8.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 23,
+        "pos": 8.3
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level 3 basic exam preparatory course",
+      "i": 22,
+      "c": 0,
+      "pos": 40.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 22,
+        "pos": 40.5
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 basic study guide pdf",
+      "i": 20,
+      "c": 0,
+      "pos": 6.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 20,
+        "pos": 6.7
+       }
+      ]
+     },
+     {
+      "q": "online ndt level 3 training program",
+      "i": 20,
+      "c": 0,
+      "pos": 80.5,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 11,
+        "pos": 84.1
+       },
+       {
+        "p": "/asnt-level-iii-training",
+        "i": 8,
+        "pos": 74.8
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 1,
+        "pos": 86
+       }
+      ]
+     },
+     {
+      "q": "ndt level iii online courses",
+      "i": 19,
+      "c": 0,
+      "pos": 64.2,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 49.3
+       },
+       {
+        "p": "/asnt-level-iii-training",
+        "i": 5,
+        "pos": 75.4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 4,
+        "pos": 64.3
+       }
+      ]
+     }
+    ]
+   },
+   "service": {
+    "queries": 137,
+    "impressions": 982,
+    "clicks": 1,
+    "wtdPos": 42.9,
+    "top": [
+     {
+      "q": "api 579 analysis",
+      "i": 199,
+      "c": 0,
+      "pos": 36.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 150,
+        "pos": 34.8
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 49,
+        "pos": 41.2
+       }
+      ]
+     },
+     {
+      "q": "wind turbine blade inspection",
+      "i": 86,
+      "c": 0,
+      "pos": 47.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 86,
+        "pos": 47.7
+       }
+      ]
+     },
+     {
+      "q": "wind turbine blade ndt inspection",
+      "i": 80,
+      "c": 0,
+      "pos": 28.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 80,
+        "pos": 28.6
+       }
+      ]
+     },
+     {
+      "q": "api 579 part 11 fire damage assessment",
+      "i": 52,
+      "c": 0,
+      "pos": 27.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 50,
+        "pos": 25.5
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 2,
+        "pos": 68
+       }
+      ]
+     },
+     {
+      "q": "api 579",
+      "i": 39,
+      "c": 1,
+      "pos": 23.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 36,
+        "pos": 21.8
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 3,
+        "pos": 47
+       }
+      ]
+     },
+     {
+      "q": "fitness for service api 579",
+      "i": 38,
+      "c": 0,
+      "pos": 35.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 29,
+        "pos": 34.3
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 9,
+        "pos": 39.4
+       }
+      ]
+     },
+     {
+      "q": "fitness for service",
+      "i": 37,
+      "c": 0,
+      "pos": 44.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 22,
+        "pos": 57.5
+       },
+       {
+        "p": "/glossary/fitness-for-service-ffs",
+        "i": 15,
+        "pos": 25.9
+       }
+      ]
+     },
+     {
+      "q": "turbine blade inspection",
+      "i": 24,
+      "c": 0,
+      "pos": 38.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 24,
+        "pos": 38.5
+       }
+      ]
+     },
+     {
+      "q": "wind turbine inspection",
+      "i": 21,
+      "c": 0,
+      "pos": 61.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/wind-turbine-blade-inspection-and-monitoring",
+        "i": 21,
+        "pos": 61.6
+       }
+      ]
+     },
+     {
+      "q": "fitness for service assessment",
+      "i": 19,
+      "c": 0,
+      "pos": 72.9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 14,
+        "pos": 72.4
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 5,
+        "pos": 74.4
+       }
+      ]
+     },
+     {
+      "q": "fitness for service evaluation",
+      "i": 16,
+      "c": 0,
+      "pos": 65.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 15,
+        "pos": 65.3
+       },
+       {
+        "p": "/glossary/fitness-for-service-ffs",
+        "i": 1,
+        "pos": 68
+       }
+      ]
+     },
+     {
+      "q": "api 579 fitness for service",
+      "i": 13,
+      "c": 0,
+      "pos": 50.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 9,
+        "pos": 46.3
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 4,
+        "pos": 59.3
+       }
+      ]
+     },
+     {
+      "q": "risk based inspection",
+      "i": 13,
+      "c": 0,
+      "pos": 60.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/glossary/risk-based-inspection-rbi",
+        "i": 13,
+        "pos": 60.2
+       }
+      ]
+     },
+     {
+      "q": "\"api 579-1\"",
+      "i": 8,
+      "c": 0,
+      "pos": 94.9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-guide",
+        "i": 5,
+        "pos": 95
+       },
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 3,
+        "pos": 94.7
+       }
+      ]
+     },
+     {
+      "q": "api 579 consultant baton rouge",
+      "i": 8,
+      "c": 0,
+      "pos": 12,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 8,
+        "pos": 12
+       }
+      ]
+     }
+    ]
+   },
+   "industry": {
+    "queries": 12,
+    "impressions": 50,
+    "clicks": 0,
+    "wtdPos": 47.1,
+    "top": [
+     {
+      "q": "oil & gas ndt solutions",
+      "i": 12,
+      "c": 0,
+      "pos": 35.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/oil-gas-ndt-los-angeles",
+        "i": 12,
+        "pos": 35.2
+       }
+      ]
+     },
+     {
+      "q": "maritime ndt services",
+      "i": 11,
+      "c": 0,
+      "pos": 41.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/industry/marine-ndt-new-orleans",
+        "i": 7,
+        "pos": 42.4
+       },
+       {
+        "p": "/industry/marine-ndt-jacksonville",
+        "i": 4,
+        "pos": 38.8
+       }
+      ]
+     },
+     {
+      "q": "aerospace ndt solutions",
+      "i": 10,
+      "c": 0,
+      "pos": 60,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/aerospace-ndt-new-york",
+        "i": 10,
+        "pos": 60
+       }
+      ]
+     },
+     {
+      "q": "aerospace ndt services",
+      "i": 5,
+      "c": 0,
+      "pos": 55.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/aerospace-ndt-chicago",
+        "i": 5,
+        "pos": 55.2
+       }
+      ]
+     },
+     {
+      "q": "powergen ndt solutions",
+      "i": 4,
+      "c": 0,
+      "pos": 22.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/power-generation-ndt-chicago",
+        "i": 4,
+        "pos": 22.3
+       }
+      ]
+     },
+     {
+      "q": "ndt testing services for the maritime industry",
+      "i": 2,
+      "c": 0,
+      "pos": 75,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/marine-ndt-kuwait",
+        "i": 2,
+        "pos": 75
+       }
+      ]
+     },
+     {
+      "q": "how should an engineer approach fitness-for-service assessments for power piping exhibiting minor defects according to industry best practices",
+      "i": 1,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-579-fitness-for-service-assessment-procedures",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "marine ndt inspection services gulf coast",
+      "i": 1,
+      "c": 0,
+      "pos": 93,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/marine-ndt-kuwait",
+        "i": 1,
+        "pos": 93
+       }
+      ]
+     },
+     {
+      "q": "ndt power monitoring",
+      "i": 1,
+      "c": 0,
+      "pos": 85,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/power-generation-ndt-chicago",
+        "i": 1,
+        "pos": 85
+       }
+      ]
+     },
+     {
+      "q": "oil & gas ndt inspections",
+      "i": 1,
+      "c": 0,
+      "pos": 95,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/oil-gas-ndt-los-angeles",
+        "i": 1,
+        "pos": 95
+       }
+      ]
+     },
+     {
+      "q": "power generation consulting service",
+      "i": 1,
+      "c": 0,
+      "pos": 78,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/industry/power-generation-ndt-new-york",
+        "i": 1,
+        "pos": 78
+       }
+      ]
+     },
+     {
+      "q": "which ndt certification to choose for aerospace",
+      "i": 1,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 1,
+        "pos": 10
+       }
+      ]
+     }
+    ]
+   },
+   "hire_intent": {
+    "queries": 8,
+    "impressions": 23,
+    "clicks": 0,
+    "wtdPos": 24.7,
+    "top": [
+     {
+      "q": "ndt consultants",
+      "i": 6,
+      "c": 0,
+      "pos": 7,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-seattle",
+        "i": 3,
+        "pos": 4.3
+       },
+       {
+        "p": "/consulting/ndt-consulting-dubai",
+        "i": 1,
+        "pos": 6
+       },
+       {
+        "p": "/consulting/ndt-consulting-houston",
+        "i": 1,
+        "pos": 12
+       }
+      ]
+     },
+     {
+      "q": "ndt certification nationwide contracts",
+      "i": 5,
+      "c": 0,
+      "pos": 33.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-corpus-christi",
+        "i": 4,
+        "pos": 35.5
+       },
+       {
+        "p": "/consulting",
+        "i": 1,
+        "pos": 25
+       }
+      ]
+     },
+     {
+      "q": "ndt consulting service",
+      "i": 4,
+      "c": 0,
+      "pos": 42.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 2,
+        "pos": 40.5
+       },
+       {
+        "p": "/consulting-usa",
+        "i": 2,
+        "pos": 44.5
+       }
+      ]
+     },
+     {
+      "q": "ndt consulting services",
+      "i": 3,
+      "c": 0,
+      "pos": 28.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-chicago",
+        "i": 2,
+        "pos": 26
+       },
+       {
+        "p": "/industry/aerospace-ndt-chicago",
+        "i": 1,
+        "pos": 34
+       }
+      ]
+     },
+     {
+      "q": "ndt consultant",
+      "i": 2,
+      "c": 0,
+      "pos": 27,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/consulting/ndt-consulting-dubai",
+        "i": 1,
+        "pos": 1
+       },
+       {
+        "p": "/consulting/ndt-consulting-seattle",
+        "i": 1,
+        "pos": 53
+       }
+      ]
+     },
+     {
+      "q": "asnt certification nationwide contracts",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "engineering consultants",
+      "i": 1,
+      "c": 0,
+      "pos": 40,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/consulting",
+        "i": 1,
+        "pos": 40
+       }
+      ]
+     },
+     {
+      "q": "independent contractor",
+      "i": 1,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-tampa",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "cannibalised": [
+  {
+   "q": "asnt level iii consulting",
+   "i": 546,
+   "pages": 25,
+   "detail": [
+    "/consulting 94i p26",
+    "/blog/ndt-level-iii-consulting-services-guide 59i p12",
+    "/training/asnt-level-iii-training-san-diego 56i p82",
+    "/consulting/ndt-consulting-level-iii 52i p51",
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 34i p13"
+   ]
+  },
+  {
+   "q": "ndt level 3 consultant",
+   "i": 277,
+   "pages": 10,
+   "detail": [
+    "/consulting 59i p52",
+    "/consulting/ndt-consulting-corpus-christi 57i p63",
+    "/training/asnt-level-iii-training-san-diego 43i p85",
+    "/consulting/ndt-consulting-seattle 31i p52",
+    "/consulting/ndt-consulting-level-iii 29i p76"
+   ]
+  },
+  {
+   "q": "ndt level 3 consulting services",
+   "i": 267,
+   "pages": 18,
+   "detail": [
+    "/consulting 73i p58",
+    "/blog/ndt-level-iii-consulting-services-guide 37i p18",
+    "/consulting/ndt-consulting-corpus-christi 31i p87",
+    "/consulting/ndt-consulting-houston 26i p86",
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 23i p25"
+   ]
+  },
+  {
+   "q": "ndt consulting",
+   "i": 67,
+   "pages": 8,
+   "detail": [
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 27i p24",
+    "/consulting/ndt-consulting-seattle 10i p61",
+    "/consulting/ndt-consulting-dallas 9i p70",
+    "/consulting/ndt-consulting-houston 9i p61",
+    "/consulting/ndt-consulting-lake-charles 6i p66"
+   ]
+  },
+  {
+   "q": "atlantis ndt",
+   "i": 44,
+   "pages": 6,
+   "detail": [
+    "/consulting 39i p1",
+    "/blog/atlantis-ndt-consulting-free-consultation-2027 1i p1",
+    "/consulting/ndt-consulting-chicago 1i p1",
+    "/consulting/ndt-consulting-dallas 1i p1",
+    "/consulting/ndt-consulting-level-iii 1i p1"
+   ]
+  },
+  {
+   "q": "ndt level 3 training",
+   "i": 42,
+   "pages": 4,
+   "detail": [
+    "/training/asnt-level-iii-training-san-diego 20i p49",
+    "/training/asnt-level-iii-training-cincinnati 11i p39",
+    "/training/asnt-level-iii-training-washington-dc 9i p64",
+    "/training/asnt-level-iii-training-portland 2i p73"
+   ]
+  },
+  {
+   "q": "non destructive testing level 3 consulting services",
+   "i": 40,
+   "pages": 8,
+   "detail": [
+    "/blog/ndt-level-iii-consulting-services-guide 17i p17",
+    "/consulting 7i p50",
+    "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime 6i p30",
+    "/consulting/ndt-consulting-level-iii 3i p42",
+    "/training/asnt-level-iii-training-san-diego 3i p85"
+   ]
+  },
+  {
+   "q": "asnt level 3 online training",
+   "i": 27,
+   "pages": 6,
+   "detail": [
+    "/training/asnt-level-iii-training-cincinnati 9i p55",
+    "/resources/asnt-level-iii-study-guide 8i p57",
+    "/training/asnt-level-iii-training-washington-dc 4i p77",
+    "/training/asnt-level-iii-training-san-diego 3i p63",
+    "/training/asnt-level-iii-training-portland 2i p73"
+   ]
+  },
+  {
+   "q": "ndt level 3 consulting",
+   "i": 26,
+   "pages": 9,
+   "detail": [
+    "/consulting 6i p46",
+    "/consulting/ndt-consulting-corpus-christi 5i p91",
+    "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime 4i p15",
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 3i p20",
+    "/consulting/ndt-consulting-level-iii 2i p57"
+   ]
+  }
+ ]
+}
