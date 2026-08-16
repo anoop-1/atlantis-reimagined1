@@ -15,6 +15,7 @@ import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { methodTrainingRoutes, assertNoPricesInMethodTraining } from './method-training-pages-2026-08-12.mjs';
 import { ndtSchoolRoute, assertNoPricesInNdtSchool } from './ndt-school-page-2026-08-16.mjs';
 import { predixAlternativesRoute, assertNoPricesInDtPhase } from './phase-d-dt-2026-08-16.mjs';
+import { industryMatrixRoutes, applyIndustryMatrixInbound, assertNoPricesInIndustryMatrix, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12907,6 +12908,17 @@ ${urls}
   assertNoPricesInDtPhase();
   routes.push(predixAlternativesRoute());
   console.log('🔀 /compare/ge-predix-alternatives added (alternatives-field owner)');
+}
+
+// ─── INDUSTRY × CITY × REGION TRAINING MATRIX 2026-08-16 (owner directive) ──
+// 7 industry nationals + 27 researched city cells + 8 regions = 42 URLs.
+// Research-gated: every cell reuses employer research verified in
+// training-cities.ts; industries with no researched city ship national-only.
+{
+  assertNoPricesInIndustryMatrix();
+  const im = industryMatrixRoutes();
+  routes.push(...im);
+  console.log(`🏭 Industry-training matrix: ${im.length} routes (nationals+cells+regions)`);
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────

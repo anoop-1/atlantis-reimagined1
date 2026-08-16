@@ -145,9 +145,9 @@ const PageLoader = () => (
 );
 
 // Helper to wrap lazy components with Suspense
-const LazyRoute = ({ Component }: { Component: React.LazyExoticComponent<React.ComponentType<any>> }) => (
+const LazyRoute = ({ Component, componentProps }: { Component: React.LazyExoticComponent<React.ComponentType<any>>; componentProps?: Record<string, unknown> }) => (
    <Suspense fallback={<PageLoader />}>
-      <Component />
+      <Component {...(componentProps || {})} />
    </Suspense>
 );
 
@@ -1726,6 +1726,11 @@ const NDTTrainingIndia = lazy(() => import("./pages/ndt-training-india"));
 const NDTTrainingOnline = lazy(() => import("./pages/ndt-training-online"));
 const NdtSchool = lazy(() => import("./pages/ndt-school"));
 const GePredixAlternatives = lazy(() => import("./pages/ge-predix-alternatives"));
+const IndustryTrainingPage = lazy(() => import("./components/IndustryTrainingPage"));
+// industry x city x region training matrix data (shared with prerender)
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import { INDUSTRY_TRAINING as ITM_IND, CITY_CELLS as ITM_CELLS, TRAINING_REGIONS as ITM_REGIONS } from "./data/industry-training-matrix.mjs";
 // Product/Solution Pages
 const DigitalTwinsOilGasAssets = lazy(() => import("./pages/digital-twins-oil-gas-assets"));
 const NDTConsultingLevelIII = lazy(() => import("./pages/ndt-consulting-level-iii"));
@@ -4061,6 +4066,16 @@ const App = () => (
                   <Route path="/ndt-training-online" element={<LazyRoute Component={NDTTrainingOnline} />} />
                   <Route path="/ndt-school" element={<LazyRoute Component={NdtSchool} />} />
                   <Route path="/compare/ge-predix-alternatives" element={<LazyRoute Component={GePredixAlternatives} />} />
+                  {/* === industry x city x region training matrix 2026-08-16 === */}
+                  {Object.keys(ITM_IND).filter((ind) => !ITM_IND[ind].cellOnly).map((ind) => (
+                    <Route key={`itm-n-${ind}`} path={`/${ind}-ndt-training`} element={<LazyRoute Component={IndustryTrainingPage} componentProps={{ kind: "national", slug: ind }} />} />
+                  ))}
+                  {Object.keys(ITM_CELLS).map((key) => (
+                    <Route key={`itm-c-${key}`} path={`/${key.split("|")[0]}-ndt-training-${key.split("|")[1]}`} element={<LazyRoute Component={IndustryTrainingPage} componentProps={{ kind: "cell", slug: key }} />} />
+                  ))}
+                  {Object.keys(ITM_REGIONS).map((reg) => (
+                    <Route key={`itm-r-${reg}`} path={`/ndt-training-${reg}`} element={<LazyRoute Component={IndustryTrainingPage} componentProps={{ kind: "region", slug: reg }} />} />
+                  ))}
                   {/* Product/Solution Pages */}
                   <Route path="/digital-twins-oil-gas-assets" element={<LazyRoute Component={DigitalTwinsOilGasAssets} />} />
                   <Route path="/consulting/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />

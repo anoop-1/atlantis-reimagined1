@@ -59,6 +59,7 @@ import { applyNdtSchoolInbound } from './ndt-school-page-2026-08-16.mjs';
 import { applyWelderPostInbound, assertNoPricesInWelderPost, assertWelderPostLinks } from './add-blog-welder-2026-08-16.mjs';
 import { applyErpHeadtermRouting, assertErpRoutingNoNumbers, assertErpRoutingTargets } from './phase-e-erp-2026-08-16.mjs';
 import { applyDtPhase, assertDtPhaseTargets } from './phase-d-dt-2026-08-16.mjs';
+import { applyIndustryMatrixInbound, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -802,5 +803,11 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // "asset integrity digital twin" answer on /digital-twins (26i at p68,
     // two cycles unanswered), and the ROI calculator methodology block.
     phaseD: (assertDtPhaseTargets(routes), JSON.stringify(applyDtPhase(routes, append))),
+
+    // Industry x city x region matrix inbound links (2026-08-16), same pass
+    // the 42 pages ship (34.5). Sources: /training, near-me hub, industry
+    // service pages, matching city training pages.
+    industryMatrixInbound: (assertIndustryMatrixTargets(routes),
+      JSON.stringify(applyIndustryMatrixInbound(routes, append))),
   };
 }
