@@ -67,7 +67,7 @@ const METHODS = {
 
 /* ── What each method does per industry ──────────────────────────────────── */
 
-const METHOD_IN_INDUSTRY = {
+export const METHOD_IN_INDUSTRY = {
   refining: {
     'ultrasonic-testing': 'In refining, UT is the backbone of the corrosion programme — thickness monitoring at condition monitoring locations across crude, vacuum and coker circuits, shear-wave and phased array on repair welds, and high-temperature techniques where insulation cannot come off.',
     'radiographic-testing': 'Refinery turnarounds pull radiography for weld acceptance on piping tie-ins and vessel repairs, where a permanent image is required before insulation and fireproofing close the work.',

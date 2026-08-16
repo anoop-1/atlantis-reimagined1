@@ -47,6 +47,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
  *   method-city  — Phase C standalone commit (~744 candidates)
  * Add a family by adding its matcher; nothing outside SCOPES is ever touched.
  */
+/** The 13 industry slugs used by the method x industry family (2026-08-16).
+ *  Kept as a literal rather than an import so the prune module stays
+ *  dependency-free and cannot fail open if the data file moves. */
+const METHOD_INDUSTRY_SLUGS = [
+  'refining', 'petrochemical', 'lng', 'offshore', 'pipeline', 'marine',
+  'aviation', 'power', 'mining', 'fabrication', 'automotive', 'steel', 'rail',
+];
+
 export const SCOPES = {
   'dt-city': {
     enabled: true, // Phase D tranche, enabled 2026-08-16 (owner approved 08-16)
@@ -70,7 +78,10 @@ export const SCOPES = {
     match: (p) =>
       /^\/(ultrasonic|radiographic|magnetic-particle|penetrant|visual|eddy-current)-testing-/.test(p) &&
       !/-testing-training(-|$)/.test(p) &&
-      !/-testing-(services|equipment|standards|guide|cost|training)$/.test(p),
+      !/-testing-(services|equipment|standards|guide|cost|training)$/.test(p) &&
+      // Method x INDUSTRY pages share the method-city slug shape but are a
+      // different family with banked research (2026-08-16). Never prune them.
+      !new RegExp('-testing-(' + METHOD_INDUSTRY_SLUGS.join('|') + ')$').test(p),
     // Verified against dist 2026-08-16: matches exactly the 253 pages carrying
     // a §26.1 market block ("Why {City} generates {XX} demand", from
     // method-city-depth.mjs) or a §37.1 gap block ("what the work actually

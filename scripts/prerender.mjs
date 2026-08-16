@@ -17,6 +17,7 @@ import { ndtSchoolRoute, assertNoPricesInNdtSchool } from './ndt-school-page-202
 import { predixAlternativesRoute, assertNoPricesInDtPhase } from './phase-d-dt-2026-08-16.mjs';
 import { industryMatrixRoutes, applyIndustryMatrixInbound, assertNoPricesInIndustryMatrix, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
 import { consultingIndustryRoutes, applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertNoPricesInConsultingIndustry, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
+import { methodIndustryRoutes, applyMethodIndustryInbound, assertNoPricesInMethodIndustry, assertMethodIndustryTargets } from './method-industry-routes-2026-08-16.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12932,6 +12933,18 @@ ${urls}
   const ci = consultingIndustryRoutes();
   routes.push(...ci);
   console.log(`🏛️  Consulting-industry nationals: ${ci.length} added`);
+}
+
+// ─── METHOD × INDUSTRY 2026-08-16 ─────────────────────────────────────────
+// 78 pages from research banked since section 26.1: METHOD_IN_INDUSTRY holds
+// 13 industries x 6 methods of verified sector content that was only ever
+// emitted as fragments inside city pages. Promoted to real pages here.
+// Slug mirrors the earning method x city family (21.8 impr/indexed page).
+{
+  assertNoPricesInMethodIndustry();
+  const mi = methodIndustryRoutes();
+  routes.push(...mi);
+  console.log(`🧪 Method-industry pages: ${mi.length} added`);
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────

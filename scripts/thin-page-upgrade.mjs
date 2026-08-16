@@ -62,6 +62,7 @@ import { applyDtPhase, assertDtPhaseTargets } from './phase-d-dt-2026-08-16.mjs'
 import { applyIndustryMatrixInbound, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
 import { applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
 import { applyBacklogFixes, applyIndustryFunnel, assertNoPricesInBacklog, assertBacklogTargets } from './backlog-fixes-2026-08-16.mjs';
+import { applyMethodIndustryInbound, assertMethodIndustryTargets } from './method-industry-routes-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -835,5 +836,11 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
       fixes: applyBacklogFixes(routes, append),
       funnel: applyIndustryFunnel(routes, append),
     })),
+
+    // Method x industry inbound (2026-08-16), same pass the 78 pages ship
+    // (34.5): each method service page lists its sectors; each sector
+    // national lists its six methods.
+    methodIndustryInbound: (assertMethodIndustryTargets(routes),
+      JSON.stringify(applyMethodIndustryInbound(routes, append))),
   };
 }
