@@ -1724,6 +1724,7 @@ const ErpTriple_cmms_ndt_inspection_companies_kuala_lumpur = lazy(() => import("
 const NDTTrainingSaudiArabia = lazy(() => import("./pages/ndt-training-saudi-arabia"));
 const NDTTrainingIndia = lazy(() => import("./pages/ndt-training-india"));
 const NDTTrainingOnline = lazy(() => import("./pages/ndt-training-online"));
+const NdtSchool = lazy(() => import("./pages/ndt-school"));
 // Product/Solution Pages
 const DigitalTwinsOilGasAssets = lazy(() => import("./pages/digital-twins-oil-gas-assets"));
 const NDTConsultingLevelIII = lazy(() => import("./pages/ndt-consulting-level-iii"));
@@ -4057,6 +4058,7 @@ const App = () => (
                   <Route path="/ndt-training-saudi-arabia" element={<LazyRoute Component={NDTTrainingSaudiArabia} />} />
                   <Route path="/ndt-training-india" element={<LazyRoute Component={NDTTrainingIndia} />} />
                   <Route path="/ndt-training-online" element={<LazyRoute Component={NDTTrainingOnline} />} />
+                  <Route path="/ndt-school" element={<LazyRoute Component={NdtSchool} />} />
                   {/* Product/Solution Pages */}
                   <Route path="/digital-twins-oil-gas-assets" element={<LazyRoute Component={DigitalTwinsOilGasAssets} />} />
                   <Route path="/consulting/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />

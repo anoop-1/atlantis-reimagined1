@@ -13,6 +13,7 @@ import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
 import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes, extractFromTsx, propsFromPageFile, extractAppRoutes } from './route-reconcile.mjs';
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { methodTrainingRoutes, assertNoPricesInMethodTraining } from './method-training-pages-2026-08-12.mjs';
+import { ndtSchoolRoute, assertNoPricesInNdtSchool } from './ndt-school-page-2026-08-16.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12887,6 +12888,15 @@ ${urls}
   const mt = methodTrainingRoutes();
   routes.push(...mt);
   console.log(`🎓 Method-training pages: ${mt.length} added (UT/RT/MT/PT/VT/ET)`);
+}
+
+// ─── /ndt-school 2026-08-16 (Phase T2) ──────────────────────────────────
+// School-intent cluster ranks p3.5–13 in the USA with clicks and NO owning
+// page — 21 queries scattered across city pages and the salary guide.
+{
+  assertNoPricesInNdtSchool();
+  routes.push(ndtSchoolRoute());
+  console.log('🏫 /ndt-school page added (school-intent owner)');
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────

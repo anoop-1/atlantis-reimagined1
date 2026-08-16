@@ -54,6 +54,9 @@ import { applyThinSingles, assertNoPricesInThinSingles } from './thin-singles-20
 import { applyMethodAuthority, applyEngineInboundLinks, assertNoPricesInAuthorityRouting, assertAuthorityTargetsExist } from './authority-routing-2026-08-14.mjs';
 import { applyLevelIiiConsolidation, assertNoPricesInConsolidation2, assertConsolidationTargets } from './training-consulting-consolidation-2026-08-15.mjs';
 import { applyEmployerBlogInbound, assertNoPricesInEmployerPosts, assertEmployerPostLinks } from './add-blogs-employer-2026-08-15.mjs';
+import { applySalaryTrainingRouting, applyOnlineTrainingDepth, applyNearMeConsolidation, applyLevelIiiRound2, applyMethodTrainingLinks, assertNoPricesInPhaseT, assertPhaseTTargets } from './phase-t-training-2026-08-16.mjs';
+import { applyNdtSchoolInbound } from './ndt-school-page-2026-08-16.mjs';
+import { applyWelderPostInbound, assertNoPricesInWelderPost, assertWelderPostLinks } from './add-blog-welder-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -766,5 +769,23 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // ship (section 34.5 - an orphan post is half a job).
     employerBlogInbound: (assertNoPricesInEmployerPosts(), assertEmployerPostLinks(routes),
       JSON.stringify(applyEmployerBlogInbound(routes, append))),
+
+    // Phase T (2026-08-16): salary->training routing (2,502i captured audience),
+    // online-cluster ownership, near-me absorption fix (denver/atlanta scope
+    // statements), Level III round 2 (best ranker was missed by round 1), and
+    // method money page -> method-training links. State pages were SKIPPED:
+    // measured state-shaped demand was 3 impressions.
+    phaseT: (assertNoPricesInPhaseT(), assertPhaseTTargets(routes), JSON.stringify({
+      salary: applySalaryTrainingRouting(routes, append),
+      online: applyOnlineTrainingDepth(routes, append),
+      nearMe: applyNearMeConsolidation(routes, append),
+      l3round2: applyLevelIiiRound2(routes, append),
+      methodTraining: applyMethodTrainingLinks(routes, append),
+    })),
+
+    // /ndt-school + welder post inbound links, same pass they ship (section 34.5).
+    ndtSchoolInbound: JSON.stringify(applyNdtSchoolInbound(routes, append)),
+    welderInbound: (assertNoPricesInWelderPost(), assertWelderPostLinks(routes),
+      JSON.stringify(applyWelderPostInbound(routes, append))),
   };
 }
