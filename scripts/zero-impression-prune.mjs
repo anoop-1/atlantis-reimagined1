@@ -60,7 +60,7 @@ export const SCOPES = {
     research: /a^/,
   },
   'method-city': {
-    enabled: false,
+    enabled: true, // Phase C tranche, enabled 2026-08-16 (owner approved 08-16)
     match: (p) => /^\/(ultrasonic|radiographic|magnetic-particle|penetrant|visual|eddy-current)-testing-/.test(p),
     // Verified against dist 2026-08-16: matches exactly the 253 pages carrying
     // a §26.1 market block ("Why {City} generates {XX} demand", from
