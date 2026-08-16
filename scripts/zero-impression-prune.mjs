@@ -49,12 +49,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
  */
 export const SCOPES = {
   'dt-city': {
-    enabled: false,
+    enabled: true, // Phase D tranche, enabled 2026-08-16 (owner approved 08-16)
     match: (p) => /^\/digital-twin-/.test(p),
-    // ⚠️ VERIFY THIS MARKER AGAINST dist BEFORE ENABLING (Phase D). It must
-    // match the enriched dt-city-data pages and nothing else — check one
-    // enriched and one generic page by hand first (§37.1 discipline).
-    research: /digitalTwinLocationContext-VERIFY-AT-PHASE-D/,
+    // Verified against dist 2026-08-16 BEFORE enabling: dt-city-data marks 328
+    // cities "enriched" but the context text NEVER SHIPS into the built page
+    // (aberdeen's own context phrase is absent from dist/digital-twin-aberdeen,
+    // 640w template). Shipped research does not exist in this family, so the
+    // research protection is a never-match — the earning-pages protection
+    // (demand.i > 0) is what actually guards the family's live performers.
+    research: /a^/,
   },
   'method-city': {
     enabled: false,

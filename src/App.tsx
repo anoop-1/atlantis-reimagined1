@@ -1725,6 +1725,7 @@ const NDTTrainingSaudiArabia = lazy(() => import("./pages/ndt-training-saudi-ara
 const NDTTrainingIndia = lazy(() => import("./pages/ndt-training-india"));
 const NDTTrainingOnline = lazy(() => import("./pages/ndt-training-online"));
 const NdtSchool = lazy(() => import("./pages/ndt-school"));
+const GePredixAlternatives = lazy(() => import("./pages/ge-predix-alternatives"));
 // Product/Solution Pages
 const DigitalTwinsOilGasAssets = lazy(() => import("./pages/digital-twins-oil-gas-assets"));
 const NDTConsultingLevelIII = lazy(() => import("./pages/ndt-consulting-level-iii"));
@@ -4059,6 +4060,7 @@ const App = () => (
                   <Route path="/ndt-training-india" element={<LazyRoute Component={NDTTrainingIndia} />} />
                   <Route path="/ndt-training-online" element={<LazyRoute Component={NDTTrainingOnline} />} />
                   <Route path="/ndt-school" element={<LazyRoute Component={NdtSchool} />} />
+                  <Route path="/compare/ge-predix-alternatives" element={<LazyRoute Component={GePredixAlternatives} />} />
                   {/* Product/Solution Pages */}
                   <Route path="/digital-twins-oil-gas-assets" element={<LazyRoute Component={DigitalTwinsOilGasAssets} />} />
                   <Route path="/consulting/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />

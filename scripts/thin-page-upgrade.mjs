@@ -57,6 +57,8 @@ import { applyEmployerBlogInbound, assertNoPricesInEmployerPosts, assertEmployer
 import { applySalaryTrainingRouting, applyOnlineTrainingDepth, applyNearMeConsolidation, applyLevelIiiRound2, applyMethodTrainingLinks, assertNoPricesInPhaseT, assertPhaseTTargets } from './phase-t-training-2026-08-16.mjs';
 import { applyNdtSchoolInbound } from './ndt-school-page-2026-08-16.mjs';
 import { applyWelderPostInbound, assertNoPricesInWelderPost, assertWelderPostLinks } from './add-blog-welder-2026-08-16.mjs';
+import { applyErpHeadtermRouting, assertErpRoutingNoNumbers, assertErpRoutingTargets } from './phase-e-erp-2026-08-16.mjs';
+import { applyDtPhase, assertDtPhaseTargets } from './phase-d-dt-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -787,5 +789,18 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     ndtSchoolInbound: JSON.stringify(applyNdtSchoolInbound(routes, append)),
     welderInbound: (assertNoPricesInWelderPost(), assertWelderPostLinks(routes),
       JSON.stringify(applyWelderPostInbound(routes, append))),
+
+    // Phase E (2026-08-16): ERP head-term ownership routing. "ndt software"
+    // 176i lands on a comparison page at p65 while the category page built for
+    // the term is not served. Scope statements + exact anchors; NO new posts
+    // (every planned angle already exists) and NO new geo pages (28.1, fifth
+    // confirmation).
+    phaseE: (assertErpRoutingNoNumbers(), assertErpRoutingTargets(routes),
+      JSON.stringify(applyErpHeadtermRouting(routes, append))),
+
+    // Phase D (2026-08-16): alternatives-field handoff on the vs-page, the
+    // "asset integrity digital twin" answer on /digital-twins (26i at p68,
+    // two cycles unanswered), and the ROI calculator methodology block.
+    phaseD: (assertDtPhaseTargets(routes), JSON.stringify(applyDtPhase(routes, append))),
   };
 }

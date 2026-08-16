@@ -1,0 +1,905 @@
+{
+ "segment": "dt",
+ "generated": "2026-08-16",
+ "window": {
+  "startDate": "2026-05-16",
+  "endDate": "2026-08-14"
+ },
+ "days": 90,
+ "caveat": "USA figures are anonymisation-limited SHAPE (~26% of true totals, §31.2). Slash variants summed (§20.11).",
+ "usa": {
+  "totalImpressions": 370,
+  "totalClicks": 0,
+  "distinctQueries": 50,
+  "buckets": {
+   "vendor": {
+    "queries": 23,
+    "impressions": 197,
+    "clicks": 0,
+    "wtdPos": 22.2,
+    "top": [
+     {
+      "q": "predix digital twin",
+      "i": 102,
+      "c": 0,
+      "pos": 22.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 102,
+        "pos": 22.3
+       }
+      ]
+     },
+     {
+      "q": "predix alternatives",
+      "i": 19,
+      "c": 0,
+      "pos": 24.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 19,
+        "pos": 24.3
+       }
+      ]
+     },
+     {
+      "q": "ge predix apm",
+      "i": 15,
+      "c": 0,
+      "pos": 17.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 15,
+        "pos": 17.1
+       }
+      ]
+     },
+     {
+      "q": "ge predix alternatives",
+      "i": 13,
+      "c": 0,
+      "pos": 37.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 13,
+        "pos": 37.2
+       }
+      ]
+     },
+     {
+      "q": "mindsphere alternative",
+      "i": 7,
+      "c": 0,
+      "pos": 25.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 7,
+        "pos": 25.9
+       }
+      ]
+     },
+     {
+      "q": "ptc thingworx digital twin alternatives for connected equipment monitoring",
+      "i": 5,
+      "c": 0,
+      "pos": 9.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ptc-thingworx",
+        "i": 5,
+        "pos": 9.2
+       }
+      ]
+     },
+     {
+      "q": "ptc thingworx digital twin platform",
+      "i": 5,
+      "c": 0,
+      "pos": 9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ptc-thingworx",
+        "i": 5,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "thingworx vs predix",
+      "i": 5,
+      "c": 0,
+      "pos": 66.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ptc-thingworx",
+        "i": 5,
+        "pos": 66.4
+       }
+      ]
+     },
+     {
+      "q": "how does autodesk tandem compare to bentley itwin or siemens nx digital-twin solutions?",
+      "i": 3,
+      "c": 0,
+      "pos": 7.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 3,
+        "pos": 7.3
+       }
+      ]
+     },
+     {
+      "q": "what does itwin do better than tandem and why?",
+      "i": 3,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 3,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "alternatives to legacy apm suites",
+      "i": 2,
+      "c": 0,
+      "pos": 11,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 2,
+        "pos": 11
+       }
+      ]
+     },
+     {
+      "q": "alternatives to siemens mindsphere",
+      "i": 2,
+      "c": 0,
+      "pos": 10.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 2,
+        "pos": 10.5
+       }
+      ]
+     },
+     {
+      "q": "autodesk tandem vs bentley itwin",
+      "i": 2,
+      "c": 0,
+      "pos": 9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 2,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "curious, is bentley itwin or unity better for infrastructure digital twins?",
+      "i": 2,
+      "c": 0,
+      "pos": 4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 2,
+        "pos": 4
+       }
+      ]
+     },
+     {
+      "q": "ge predix industrial iot platform asset performance management digital twin",
+      "i": 2,
+      "c": 0,
+      "pos": 4.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 2,
+        "pos": 4.5
+       }
+      ]
+     }
+    ]
+   },
+   "alt": {
+    "queries": 6,
+    "impressions": 12,
+    "clicks": 0,
+    "wtdPos": 15.5,
+    "top": [
+     {
+      "q": "digital twin tools that integrate with historian data pi system alternatives",
+      "i": 4,
+      "c": 0,
+      "pos": 9.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-aveva-pi-system",
+        "i": 4,
+        "pos": 9.8
+       }
+      ]
+     },
+     {
+      "q": "iris vs eddy current",
+      "i": 4,
+      "c": 0,
+      "pos": 30,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twins/heat-exchanger",
+        "i": 4,
+        "pos": 30
+       }
+      ]
+     },
+     {
+      "q": "compare digital twin platforms for asset performance management and real time monitoring",
+      "i": 1,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-aveva-pi-system",
+        "i": 1,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "compare digital twin platforms for asset performance management pros cons and cost",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "digital twin pricing models per asset vs per site what is typical",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-aveva-pi-system",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "digital twin tools that support asset twins for rotating equipment and condition monitoring compare features",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     }
+    ]
+   },
+   "use_case": {
+    "queries": 4,
+    "impressions": 34,
+    "clicks": 0,
+    "wtdPos": 54.2,
+    "top": [
+     {
+      "q": "asset integrity digital twin",
+      "i": 26,
+      "c": 0,
+      "pos": 68.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/digital-twins",
+        "i": 23,
+        "pos": 66.8
+       },
+       {
+        "p": "/digital-twin-belgium",
+        "i": 2,
+        "pos": 90
+       },
+       {
+        "p": "/digital-twin-hong-kong",
+        "i": 1,
+        "pos": 59
+       }
+      ]
+     },
+     {
+      "q": "digital twin roi calculator examples",
+      "i": 4,
+      "c": 0,
+      "pos": 8.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twin-roi-calculator",
+        "i": 4,
+        "pos": 8.8
+       }
+      ]
+     },
+     {
+      "q": "how do you estimate roi for a digital twin project",
+      "i": 2,
+      "c": 0,
+      "pos": 11.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twin-roi-calculator",
+        "i": 2,
+        "pos": 11.5
+       }
+      ]
+     },
+     {
+      "q": "top 5 asset integrity monitoring solutions with pricing comparison",
+      "i": 2,
+      "c": 0,
+      "pos": 4.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 2,
+        "pos": 4.5
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "global": {
+  "totalImpressions": 652,
+  "totalClicks": 1,
+  "distinctQueries": 111,
+  "buckets": {
+   "vendor": {
+    "queries": 36,
+    "impressions": 253,
+    "clicks": 0,
+    "wtdPos": 19.2,
+    "top": [
+     {
+      "q": "predix digital twin",
+      "i": 107,
+      "c": 0,
+      "pos": 22.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 107,
+        "pos": 22.4
+       }
+      ]
+     },
+     {
+      "q": "how does cognite data fusion vs ge digital predix compare in features and capabilities for solving your organization's business needs?",
+      "i": 20,
+      "c": 0,
+      "pos": 1.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 20,
+        "pos": 1.6
+       }
+      ]
+     },
+     {
+      "q": "predix alternatives",
+      "i": 19,
+      "c": 0,
+      "pos": 24.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 19,
+        "pos": 24.3
+       }
+      ]
+     },
+     {
+      "q": "ge predix apm",
+      "i": 18,
+      "c": 0,
+      "pos": 16,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 18,
+        "pos": 16
+       }
+      ]
+     },
+     {
+      "q": "ge predix alternatives",
+      "i": 13,
+      "c": 0,
+      "pos": 37.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 13,
+        "pos": 37.2
+       }
+      ]
+     },
+     {
+      "q": "predix",
+      "i": 12,
+      "c": 0,
+      "pos": 2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 12,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "mindsphere alternative",
+      "i": 7,
+      "c": 0,
+      "pos": 25.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 7,
+        "pos": 25.9
+       }
+      ]
+     },
+     {
+      "q": "ptc thingworx digital twin alternatives for connected equipment monitoring",
+      "i": 5,
+      "c": 0,
+      "pos": 9.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ptc-thingworx",
+        "i": 5,
+        "pos": 9.2
+       }
+      ]
+     },
+     {
+      "q": "ptc thingworx digital twin platform",
+      "i": 5,
+      "c": 0,
+      "pos": 9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ptc-thingworx",
+        "i": 5,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "thingworx vs predix",
+      "i": 5,
+      "c": 0,
+      "pos": 66.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ptc-thingworx",
+        "i": 5,
+        "pos": 66.4
+       }
+      ]
+     },
+     {
+      "q": "alternatives to legacy apm suites",
+      "i": 4,
+      "c": 0,
+      "pos": 10.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 4,
+        "pos": 10.8
+       }
+      ]
+     },
+     {
+      "q": "mindsphere übersetzung",
+      "i": 4,
+      "c": 0,
+      "pos": 37.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 4,
+        "pos": 37.8
+       }
+      ]
+     },
+     {
+      "q": "how does autodesk tandem compare to bentley itwin or siemens nx digital-twin solutions?",
+      "i": 3,
+      "c": 0,
+      "pos": 7.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 3,
+        "pos": 7.3
+       }
+      ]
+     },
+     {
+      "q": "what does itwin do better than tandem and why?",
+      "i": 3,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 3,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "alternatives to siemens mindsphere",
+      "i": 2,
+      "c": 0,
+      "pos": 10.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 2,
+        "pos": 10.5
+       }
+      ]
+     }
+    ]
+   },
+   "alt": {
+    "queries": 11,
+    "impressions": 19,
+    "clicks": 0,
+    "wtdPos": 12.7,
+    "top": [
+     {
+      "q": "digital twin tools that integrate with historian data pi system alternatives",
+      "i": 4,
+      "c": 0,
+      "pos": 9.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-aveva-pi-system",
+        "i": 4,
+        "pos": 9.8
+       }
+      ]
+     },
+     {
+      "q": "iris vs eddy current",
+      "i": 4,
+      "c": 0,
+      "pos": 30,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twins/heat-exchanger",
+        "i": 4,
+        "pos": 30
+       }
+      ]
+     },
+     {
+      "q": "meridium (ge vernova) alternatives",
+      "i": 3,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 3,
+        "pos": 10
+       }
+      ]
+     },
+     {
+      "q": "antea vs",
+      "i": 1,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-antea-ims",
+        "i": 1,
+        "pos": 10
+       }
+      ]
+     },
+     {
+      "q": "best alternative to siemens insights hub",
+      "i": 1,
+      "c": 0,
+      "pos": 10,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 1,
+        "pos": 10
+       }
+      ]
+     },
+     {
+      "q": "compare digital twin platforms for asset performance management and real time monitoring",
+      "i": 1,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-aveva-pi-system",
+        "i": 1,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "compare digital twin platforms for asset performance management pros cons and cost",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "digital twin pricing models per asset vs per site what is typical",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-aveva-pi-system",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "digital twin tools that support asset twins for rotating equipment and condition monitoring compare features",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-siemens-mindsphere",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "how does atlantis compare to other top mechanical engineering firms in terms of innovation?. my location is united kingdom.",
+      "i": 1,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-bentley-itwin",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "sine by honeywell vs predictive maintenance by ge: which platform suits manufacturing best for enterprise revenue teams?",
+      "i": 1,
+      "c": 0,
+      "pos": 4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 1,
+        "pos": 4
+       }
+      ]
+     }
+    ]
+   },
+   "use_case": {
+    "queries": 7,
+    "impressions": 41,
+    "clicks": 0,
+    "wtdPos": 53.6,
+    "top": [
+     {
+      "q": "asset integrity digital twin",
+      "i": 30,
+      "c": 0,
+      "pos": 68.6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/digital-twins",
+        "i": 27,
+        "pos": 67.3
+       },
+       {
+        "p": "/digital-twin-belgium",
+        "i": 2,
+        "pos": 90
+       },
+       {
+        "p": "/digital-twin-hong-kong",
+        "i": 1,
+        "pos": 59
+       }
+      ]
+     },
+     {
+      "q": "digital twin roi calculator examples",
+      "i": 4,
+      "c": 0,
+      "pos": 8.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twin-roi-calculator",
+        "i": 4,
+        "pos": 8.8
+       }
+      ]
+     },
+     {
+      "q": "how do you estimate roi for a digital twin project",
+      "i": 2,
+      "c": 0,
+      "pos": 11.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twin-roi-calculator",
+        "i": 2,
+        "pos": 11.5
+       }
+      ]
+     },
+     {
+      "q": "top 5 asset integrity monitoring solutions with pricing comparison",
+      "i": 2,
+      "c": 0,
+      "pos": 4.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/compare/atlantis-dt-vs-ge-predix",
+        "i": 2,
+        "pos": 4.5
+       }
+      ]
+     },
+     {
+      "q": "ai predictive maintenance digital twins aviation ndt",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twins",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "how does atlantis integrate predictive maintenance into its engineering services?. my location is united kingdom.",
+      "i": 1,
+      "c": 0,
+      "pos": 5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twins",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "refinery ffs jubail",
+      "i": 1,
+      "c": 0,
+      "pos": 62,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/digital-twin-saudi-arabia",
+        "i": 1,
+        "pos": 62
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "cannibalised": []
+}

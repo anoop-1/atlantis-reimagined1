@@ -14,6 +14,7 @@ import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRout
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
 import { methodTrainingRoutes, assertNoPricesInMethodTraining } from './method-training-pages-2026-08-12.mjs';
 import { ndtSchoolRoute, assertNoPricesInNdtSchool } from './ndt-school-page-2026-08-16.mjs';
+import { predixAlternativesRoute, assertNoPricesInDtPhase } from './phase-d-dt-2026-08-16.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12897,6 +12898,15 @@ ${urls}
   assertNoPricesInNdtSchool();
   routes.push(ndtSchoolRoute());
   console.log('🏫 /ndt-school page added (school-intent owner)');
+}
+
+// ─── /compare/ge-predix-alternatives 2026-08-16 (Phase D) ──────────────
+// The Predix cluster (149i USA) all resolves to the head-to-head vs-page —
+// wrong shape for "alternatives" intent, which wants the field.
+{
+  assertNoPricesInDtPhase();
+  routes.push(predixAlternativesRoute());
+  console.log('🔀 /compare/ge-predix-alternatives added (alternatives-field owner)');
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────
