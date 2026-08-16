@@ -1,0 +1,117 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/css/18d37cc4b0289d79.css",
+      "static/chunks/app/layout-8ee1f7723d0cf7f9.js"
+    ],
+    "/equipment/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/equipment/page-a94a1f4d25453f12.js"
+    ],
+    "/mining/conveyor-pulley-inspection-mt-ut-vt/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/conveyor-pulley-inspection-mt-ut-vt/page-7c99fe45346df9a0.js"
+    ],
+    "/mining/crusher-and-mill-liner-bolt-inspection-strategies/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/crusher-and-mill-liner-bolt-inspection-strategies/page-e25e125a29e1ecc1.js"
+    ],
+    "/mining/mill-shell-girth-weld-inspection-sag-ball/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/mill-shell-girth-weld-inspection-sag-ball/page-31c7c980cbcc3ee6.js"
+    ],
+    "/mining/dragline-boom-and-bucket-inspection-program/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/dragline-boom-and-bucket-inspection-program/page-2a3a38d46525d3ac.js"
+    ],
+    "/safety/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/safety/page-ced6660a9a301783.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/page-97ec73d64a4969e7.js"
+    ],
+    "/mining/mine-conveyor-belt-splice-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/mine-conveyor-belt-splice-inspection/page-d16d2ebc5f2173dc.js"
+    ],
+    "/mining/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/page-933b993b25245e2c.js"
+    ],
+    "/mining/haul-truck-tray-and-tub-crack-mapping/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/haul-truck-tray-and-tub-crack-mapping/page-d88cbdd9f6b1a640.js"
+    ],
+    "/mining/tailings-dam-instrumentation-and-ndt-overlap/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/tailings-dam-instrumentation-and-ndt-overlap/page-53e960901c31e3a1.js"
+    ],
+    "/mining/mine-thickener-and-tank-inspection-mining-tailings/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/mine-thickener-and-tank-inspection-mining-tailings/page-c4c069c9f819628e.js"
+    ],
+    "/mining/underground-mining-shaft-rope-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/underground-mining-shaft-rope-inspection/page-35f72ae6df58e466.js"
+    ],
+    "/mining/haul-truck-frame-crack-inspection-program/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-12fbac879e4527e6.js",
+      "static/chunks/app/mining/haul-truck-frame-crack-inspection-program/page-d7ddc687995bd27a.js"
+    ]
+  }
+}

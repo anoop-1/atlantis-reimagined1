@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/maintenance/page": "app/maintenance/page.js",
+  "/above-ground/page": "app/above-ground/page.js",
+  "/underground/page": "app/underground/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/tanks/asphalt-and-fuel-oil-tank-inspection-considerations/page": "app/tanks/asphalt-and-fuel-oil-tank-inspection-considerations/page.js",
+  "/tanks/api-653-out-of-service-internal-inspection-checklist/page": "app/tanks/api-653-out-of-service-internal-inspection-checklist/page.js",
+  "/tanks/page": "app/tanks/page.js",
+  "/tanks/soil-side-corrosion-on-tank-floors-and-detection/page": "app/tanks/soil-side-corrosion-on-tank-floors-and-detection/page.js",
+  "/tanks/tank-roof-pontoon-leak-detection-vacuum-box/page": "app/tanks/tank-roof-pontoon-leak-detection-vacuum-box/page.js",
+  "/tanks/tank-secondary-containment-inspection-and-integrity/page": "app/tanks/tank-secondary-containment-inspection-and-integrity/page.js",
+  "/tanks/floating-roof-seal-inspection-and-leak-detection/page": "app/tanks/floating-roof-seal-inspection-and-leak-detection/page.js",
+  "/tanks/api-650-construction-ndt-acceptance-walkthrough/page": "app/tanks/api-650-construction-ndt-acceptance-walkthrough/page.js",
+  "/tanks/tank-floor-mfl-vs-paut-which-fits-the-job/page": "app/tanks/tank-floor-mfl-vs-paut-which-fits-the-job/page.js",
+  "/tanks/tank-shell-thickness-program-with-out-of-service-inspection/page": "app/tanks/tank-shell-thickness-program-with-out-of-service-inspection/page.js",
+  "/tanks/tank-relocation-and-reerection-ndt-rules/page": "app/tanks/tank-relocation-and-reerection-ndt-rules/page.js"
+}

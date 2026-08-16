@@ -1,0 +1,124 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/css/569e4f545aba4cff.css",
+      "static/chunks/app/layout-061c9755a3190636.js"
+    ],
+    "/implementation/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/implementation/page-a9ee62e8d87b189a.js"
+    ],
+    "/technologies/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/technologies/page-ee0e6a855d62ea0e.js"
+    ],
+    "/future/ai-defect-detection-on-rt-films-state-of-art/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/ai-defect-detection-on-rt-films-state-of-art/page-a6b77c13c77e6d64.js"
+    ],
+    "/future/cloud-vs-on-prem-ndt-data-the-2026-decision/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/cloud-vs-on-prem-ndt-data-the-2026-decision/page-d99c5d302d24fd19.js"
+    ],
+    "/future/autonomous-drone-inspection-of-tanks-and-flares/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/autonomous-drone-inspection-of-tanks-and-flares/page-5fab563a1f4918ad.js"
+    ],
+    "/future/auto-paut-data-interpretation-where-its-reliable/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/auto-paut-data-interpretation-where-its-reliable/page-5e771a9e40041c1c.js"
+    ],
+    "/future/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/page-fc86242348e6d9ec.js"
+    ],
+    "/future/crawler-localization-without-gps-underground/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/crawler-localization-without-gps-underground/page-b2bac25cbe468895.js"
+    ],
+    "/future/mlops-for-ndt-data-from-experiment-to-production/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/mlops-for-ndt-data-from-experiment-to-production/page-06d9574ea8bb9efd.js"
+    ],
+    "/future/digital-twin-for-ndt-data-architecture-2026/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/digital-twin-for-ndt-data-architecture-2026/page-58e8914408ef618b.js"
+    ],
+    "/future/edge-computing-for-real-time-paut-data-2026/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/edge-computing-for-real-time-paut-data-2026/page-17dcbc5e1508bee6.js"
+    ],
+    "/trends/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/trends/page-cae6ec5fb5848d87.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/page-e7f1204d7ad35070.js"
+    ],
+    "/future/human-in-the-loop-validation-of-automated-ndt-results/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/human-in-the-loop-validation-of-automated-ndt-results/page-b62a6fa34868845b.js"
+    ],
+    "/future/robotic-crawler-pipeline-inspection-trends/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-fb6430267e6faddc.js",
+      "static/chunks/app/future/robotic-crawler-pipeline-inspection-trends/page-008d2d248494a854.js"
+    ]
+  }
+}

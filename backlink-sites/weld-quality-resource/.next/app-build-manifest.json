@@ -1,0 +1,110 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/css/47f6c78a93578b62.css",
+      "static/chunks/app/layout-646dd515065f4591.js"
+    ],
+    "/defects/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/defects/page-2677e47f42677840.js"
+    ],
+    "/methods/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/page-3e80561061b1601b.js"
+    ],
+    "/methods/phased-array-vs-radiography-girth-welds-which-finds-more/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/phased-array-vs-radiography-girth-welds-which-finds-more/page-39a9ead6dd4f3890.js"
+    ],
+    "/methods/orbital-welding-inspection-semiconductor-pharma-piping/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/orbital-welding-inspection-semiconductor-pharma-piping/page-985cee769d8ae6d0.js"
+    ],
+    "/methods/aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion/page-add45112f710d43b.js"
+    ],
+    "/methods/duplex-stainless-weld-inspection-watchouts/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/duplex-stainless-weld-inspection-watchouts/page-e1ad2105167378d9.js"
+    ],
+    "/methods/weld-mapping-as-a-quality-discipline/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/weld-mapping-as-a-quality-discipline/page-96d1108af5bedb0e.js"
+    ],
+    "/methods/visual-weld-inspection-vt-pitfalls-cwi-experience/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/visual-weld-inspection-vt-pitfalls-cwi-experience/page-114aff5013a079a8.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/page-a180a4e6197d2328.js"
+    ],
+    "/methods/weld-distortion-vs-residual-stress-different-problems/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/weld-distortion-vs-residual-stress-different-problems/page-d5567450c924de14.js"
+    ],
+    "/methods/weld-inspection-for-cryogenic-services-9-percent-nickel/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/weld-inspection-for-cryogenic-services-9-percent-nickel/page-b5a82c7c699d3e65.js"
+    ],
+    "/methods/weld-repair-vs-replace-decisions-on-pressure-piping/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/weld-repair-vs-replace-decisions-on-pressure-piping/page-fe8a911ac2045b99.js"
+    ],
+    "/methods/welder-qualification-vs-procedure-qualification-records/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-17537f6650cc4ed6.js",
+      "static/chunks/app/methods/welder-qualification-vs-procedure-qualification-records/page-b1966840fd590bb4.js"
+    ]
+  }
+}

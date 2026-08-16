@@ -1,0 +1,215 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/css/43690c49eaf3a47c.css",
+      "static/chunks/app/layout-7732ec5ae8816b4a.js"
+    ],
+    "/automation/robotic-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/automation/robotic-inspection/page-bdbf0ead5d1d5234.js"
+    ],
+    "/automation/ai-defect-detection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/automation/ai-defect-detection/page-d59308a8060914ad.js"
+    ],
+    "/automation/inline-testing/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/automation/inline-testing/page-68484c683489ddf1.js"
+    ],
+    "/career/qc-inspector/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/career/qc-inspector/page-6f4a5870c8fa9f90.js"
+    ],
+    "/career/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/career/page-a983919f4b4026f0.js"
+    ],
+    "/automation/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/automation/page-975bbc9c9870810a.js"
+    ],
+    "/industries/electronics/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/industries/electronics/page-6109382bf0e48d82.js"
+    ],
+    "/industries/heavy-equipment/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/industries/heavy-equipment/page-dbbcd8b6f0ecdfd6.js"
+    ],
+    "/industries/semiconductor/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/industries/semiconductor/page-79932ed29d5a9e2b.js"
+    ],
+    "/industries/automotive/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/industries/automotive/page-36c079f111f34f81.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/page-b9f14bd6c5cf8ab7.js"
+    ],
+    "/practices/first-article-inspection-fai-with-ndt-integration/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/first-article-inspection-fai-with-ndt-integration/page-acc860198ec531b6.js"
+    ],
+    "/practices/in-process-quality-control-vs-final-ndt-trade-offs/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/in-process-quality-control-vs-final-ndt-trade-offs/page-eea6ff5536553c07.js"
+    ],
+    "/practices/magnetic-particle-on-castings-fluorescent-vs-dry/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/magnetic-particle-on-castings-fluorescent-vs-dry/page-0c301fcfd7929d37.js"
+    ],
+    "/practices/casting-radiography-acceptance-by-grade/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/casting-radiography-acceptance-by-grade/page-7da9a80b40a4b3c5.js"
+    ],
+    "/practices/inline-ut-on-tube-mills-defect-detection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/inline-ut-on-tube-mills-defect-detection/page-02bcd3d5df8581e4.js"
+    ],
+    "/practices/additive-manufactured-parts-ndt-cap-cct-vs-ut/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/additive-manufactured-parts-ndt-cap-cct-vs-ut/page-17eac7e860ac404d.js"
+    ],
+    "/industries/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/industries/page-def98e92abd01c65.js"
+    ],
+    "/practices/forging-ndt-acceptance-criteria-by-grade/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/forging-ndt-acceptance-criteria-by-grade/page-e5606b0fcad3bb9c.js"
+    ],
+    "/practices/phased-array-ut-on-thick-wall-monobloc-forgings/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/phased-array-ut-on-thick-wall-monobloc-forgings/page-651b97e03dc6bffe.js"
+    ],
+    "/practices/plate-mill-ndt-screening-during-rolling/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/plate-mill-ndt-screening-during-rolling/page-5d59ede2e1d33db5.js"
+    ],
+    "/processes/additive-manufacturing/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/processes/additive-manufacturing/page-14e11c44f3ca2c1e.js"
+    ],
+    "/processes/forging-ndt/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/processes/forging-ndt/page-76e202ac8333cd73.js"
+    ],
+    "/practices/supplier-quality-audit-ndt-shop/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/supplier-quality-audit-ndt-shop/page-ca9f4a8c90d525a6.js"
+    ],
+    "/processes/casting-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/processes/casting-inspection/page-b115915fdb4134e6.js"
+    ],
+    "/processes/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/processes/page-968f86f00d4ed791.js"
+    ],
+    "/practices/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/practices/page-e560783f224280c1.js"
+    ],
+    "/standards/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-6dbcd0dcc683a985.js",
+      "static/chunks/app/standards/page-8037a0d41ea2becd.js"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/css/ab83450f637a9677.css",
+      "static/chunks/app/layout-1322395ce51e979f.js"
+    ],
+    "/api-510/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/api-510/page-ef501fdae84a1ac4.js"
+    ],
+    "/study/api-579-fitness-for-service-personnel-cert/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-579-fitness-for-service-personnel-cert/page-66b84671af4b383f.js"
+    ],
+    "/study/api-510-vs-api-570-which-cert-first/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-510-vs-api-570-which-cert-first/page-3f4991cbdb7e2a7a.js"
+    ],
+    "/study/api-580-rbi-prep-from-an-actual-exam-taker/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-580-rbi-prep-from-an-actual-exam-taker/page-e4d3a204882c8913.js"
+    ],
+    "/study/api-570-piping-inspector-study-plan-2026/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-570-piping-inspector-study-plan-2026/page-027ac2ec8cb1531a.js"
+    ],
+    "/study/api-icp-recertification-2-cycle-cycle/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-icp-recertification-2-cycle-cycle/page-b2e252daafa0fe7c.js"
+    ],
+    "/study/api-936-refractory-personnel-prep-real-syllabus/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-936-refractory-personnel-prep-real-syllabus/page-e6ef480ca1dda15d.js"
+    ],
+    "/study/open-book-questions-api-510-test-strategy/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/open-book-questions-api-510-test-strategy/page-418fc9c07ecb71d8.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/page-792a8bdd15fe6643.js"
+    ],
+    "/study/api-653-aboveground-tank-inspector-prep/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-653-aboveground-tank-inspector-prep/page-d39636336e9c798c.js"
+    ],
+    "/study/api-source-inspection-personnel-program-explained/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/api-source-inspection-personnel-program-explained/page-793068a1dcd7bc59.js"
+    ],
+    "/study/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/page-e6d666a3f78e281b.js"
+    ],
+    "/study/study-plan-for-passing-multiple-api-exams-in-12-months/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-bfa7f94a10482d53.js",
+      "static/chunks/app/study/study-plan-for-passing-multiple-api-exams-in-12-months/page-aa78a297c805766e.js"
+    ]
+  }
+}

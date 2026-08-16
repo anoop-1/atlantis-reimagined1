@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/automation/page": "app/automation/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/deepdives/eddy-current-array-for-heat-exchanger-tubes/page": "app/deepdives/eddy-current-array-for-heat-exchanger-tubes/page.js",
+  "/deepdives/guided-wave-screening-program-design/page": "app/deepdives/guided-wave-screening-program-design/page.js",
+  "/deepdives/digital-radiography-cr-vs-dr-which-system/page": "app/deepdives/digital-radiography-cr-vs-dr-which-system/page.js",
+  "/deepdives/paut-vs-tofd-when-to-combine/page": "app/deepdives/paut-vs-tofd-when-to-combine/page.js",
+  "/deepdives/full-matrix-capture-fmc-tfm-when-it-justifies-its-cost/page": "app/deepdives/full-matrix-capture-fmc-tfm-when-it-justifies-its-cost/page.js",
+  "/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses/page": "app/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses/page.js",
+  "/page": "app/page.js",
+  "/deepdives/industrial-ct-scanning-buyers-mindset/page": "app/deepdives/industrial-ct-scanning-buyers-mindset/page.js",
+  "/phased-array/page": "app/phased-array/page.js",
+  "/deepdives/page": "app/deepdives/page.js",
+  "/deepdives/automated-ut-scanner-deployment-2026/page": "app/deepdives/automated-ut-scanner-deployment-2026/page.js",
+  "/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad/page": "app/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad/page.js",
+  "/software/page": "app/software/page.js",
+  "/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe/page": "app/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe/page.js"
+}

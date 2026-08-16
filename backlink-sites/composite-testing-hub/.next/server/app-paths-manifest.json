@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/defects/page": "app/defects/page.js",
+  "/methods/page": "app/methods/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/techniques/page": "app/techniques/page.js",
+  "/techniques/cfrp-phased-array-vs-thermography-which-finds-disbonds/page": "app/techniques/cfrp-phased-array-vs-thermography-which-finds-disbonds/page.js",
+  "/techniques/composite-repair-patch-inspection-and-validation/page": "app/techniques/composite-repair-patch-inspection-and-validation/page.js",
+  "/techniques/composite-bolted-joint-inspection-aerospace/page": "app/techniques/composite-bolted-joint-inspection-aerospace/page.js",
+  "/techniques/sandwich-panel-honeycomb-core-defects-and-detection/page": "app/techniques/sandwich-panel-honeycomb-core-defects-and-detection/page.js",
+  "/techniques/pulse-thermography-vs-lock-in-thermography-quick-decision-guide/page": "app/techniques/pulse-thermography-vs-lock-in-thermography-quick-decision-guide/page.js",
+  "/techniques/shearography-on-composite-pressure-vessels/page": "app/techniques/shearography-on-composite-pressure-vessels/page.js",
+  "/techniques/visual-inspection-of-composite-tooling-cure-defects/page": "app/techniques/visual-inspection-of-composite-tooling-cure-defects/page.js",
+  "/techniques/composite-overwrapped-pressure-vessel-copv-inspection/page": "app/techniques/composite-overwrapped-pressure-vessel-copv-inspection/page.js",
+  "/techniques/wind-blade-inspection-from-rope-access-to-drones/page": "app/techniques/wind-blade-inspection-from-rope-access-to-drones/page.js",
+  "/techniques/wind-blade-trailing-edge-bond-line-inspection/page": "app/techniques/wind-blade-trailing-edge-bond-line-inspection/page.js"
+}

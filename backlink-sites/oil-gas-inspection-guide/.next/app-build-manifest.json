@@ -1,0 +1,278 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/css/79b9ab30c7709386.css",
+      "static/chunks/app/layout-696efff87007cb8a.js"
+    ],
+    "/api-codes/api-579-fitness-for-service/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/api-579-fitness-for-service/page-2a6dec62ef03bd00.js"
+    ],
+    "/api-codes/api-571-damage-mechanisms/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/api-571-damage-mechanisms/page-d9066c7dd45a98a4.js"
+    ],
+    "/api-codes/api-510-pressure-vessels/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/api-510-pressure-vessels/page-1e99ba96f3ca6401.js"
+    ],
+    "/api-codes/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/page-ca64ed5d230b4ee3.js"
+    ],
+    "/downstream/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/downstream/page-8cbff47f9ea7b3ef.js"
+    ],
+    "/api-codes/api-580-rbi/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/api-580-rbi/page-71b8048ef64be172.js"
+    ],
+    "/downstream/boiler-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/downstream/boiler-inspection/page-2e9ef17d877a25fe.js"
+    ],
+    "/resources/api-code-comparison/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/resources/api-code-comparison/page-8774b74fb8aecc17.js"
+    ],
+    "/downstream/heat-exchanger-tubes/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/downstream/heat-exchanger-tubes/page-d2fe4c964238712c.js"
+    ],
+    "/downstream/storage-tank-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/downstream/storage-tank-inspection/page-cc2947f05ed88c70.js"
+    ],
+    "/resources/glossary/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/resources/glossary/page-8ff445ea86229619.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/page-1ec3e135d72791da.js"
+    ],
+    "/sectors/crude-oil-storage-tank-inspection-api-653-walkthrough/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/crude-oil-storage-tank-inspection-api-653-walkthrough/page-cef9a21e7c95ffed.js"
+    ],
+    "/sectors/gas-processing-plant-inspection-priority-units/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/gas-processing-plant-inspection-priority-units/page-06ade252b8acd5e5.js"
+    ],
+    "/api-codes/api-570-piping/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/api-570-piping/page-38ae924d28e9fc69.js"
+    ],
+    "/sectors/lact-skid-and-meter-prover-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/lact-skid-and-meter-prover-inspection/page-af4c43499c6d63cc.js"
+    ],
+    "/sectors/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/page-f053c3fc4151697f.js"
+    ],
+    "/api-codes/api-653-complete-guide/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/api-codes/api-653-complete-guide/page-5d32e6f3cf37e271.js"
+    ],
+    "/sectors/subsurface-safety-valve-inspection-essentials/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/subsurface-safety-valve-inspection-essentials/page-48708cf6f746496c.js"
+    ],
+    "/sectors/gathering-system-pipeline-inspection-cost-effective/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/gathering-system-pipeline-inspection-cost-effective/page-fd875115717720cc.js"
+    ],
+    "/sectors/separator-and-knockout-drum-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/separator-and-knockout-drum-inspection/page-13628c0bc82f5d20.js"
+    ],
+    "/sectors/upstream-midstream-downstream-inspection-budget-allocation/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/upstream-midstream-downstream-inspection-budget-allocation/page-2664d6ad47ebc6b6.js"
+    ],
+    "/sectors/midstream-station-yard-inspection-pump-compressor/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/midstream-station-yard-inspection-pump-compressor/page-4851b7a3254b65e8.js"
+    ],
+    "/downstream/refinery-turnaround/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/downstream/refinery-turnaround/page-caff2165ac99971f.js"
+    ],
+    "/sectors/lease-tank-battery-inspection-program/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/lease-tank-battery-inspection-program/page-be04a256e1010bc6.js"
+    ],
+    "/sectors/wellhead-inspection-and-pressure-testing/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/sectors/wellhead-inspection-and-pressure-testing/page-dfc002a55a5fcc60.js"
+    ],
+    "/standards/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/standards/page-b82c50cdb3195d74.js"
+    ],
+    "/technology/automated-ut-pipelines/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/technology/automated-ut-pipelines/page-26b341ee9bee504f.js"
+    ],
+    "/technology/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/technology/page-b8f80bb10e4b61b2.js"
+    ],
+    "/technology/digital-twins-oil-gas/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/technology/digital-twins-oil-gas/page-b79fd09d00de534a.js"
+    ],
+    "/standards/aws-d1-1/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/standards/aws-d1-1/page-a1d4822424c66213.js"
+    ],
+    "/technology/drone-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/technology/drone-inspection/page-b0a3b65a44ef4179.js"
+    ],
+    "/standards/asme-section-v/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/standards/asme-section-v/page-0b812c74ce5624ef.js"
+    ],
+    "/upstream/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/upstream/page-2e768842d022d4f2.js"
+    ],
+    "/upstream/fpso-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/upstream/fpso-inspection/page-b8c46c499254a378.js"
+    ],
+    "/upstream/subsea-pipeline/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/upstream/subsea-pipeline/page-6d617de6caf05675.js"
+    ],
+    "/upstream/offshore-platform-ndt/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-801b1601c0617994.js",
+      "static/chunks/app/upstream/offshore-platform-ndt/page-2e88b713d8ba3b6f.js"
+    ]
+  }
+}

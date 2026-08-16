@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://oil-gas-inspection-guide.vercel.app/sitemap.xml

@@ -37,5 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/four-things-called-ndt-software-and-why-buyers-confuse-them`, lastModified: '2026-07-19', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/blog/field-data-capture-offline-first-inspection`, lastModified: '2026-08-05', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/why-sector-decides-your-ndt-qualification-path`, lastModified: '2026-08-16', changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 }

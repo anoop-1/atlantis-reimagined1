@@ -1,0 +1,124 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/css/99b831f832a51c6c.css",
+      "static/chunks/app/layout-7a4ac6dcedafcb38.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/page-ebf5b91fcf3ff5a6.js"
+    ],
+    "/wheel-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/wheel-inspection/page-a15c1ec36500c7c1.js"
+    ],
+    "/track-assessment/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/track-assessment/page-c358b3ec7b85221a.js"
+    ],
+    "/rail/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/page-2fc05ed6b9706a58.js"
+    ],
+    "/rail/rail-bridge-truss-inspection-aar-mra/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-bridge-truss-inspection-aar-mra/page-4f7faed80ed12e44.js"
+    ],
+    "/rail/rail-axle-ultrasonic-inspection-procedure/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-axle-ultrasonic-inspection-procedure/page-26a1f2ef9a34cfe6.js"
+    ],
+    "/rail/rail-track-bolt-and-fishplate-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-track-bolt-and-fishplate-inspection/page-60587d2115f24de0.js"
+    ],
+    "/rail/rail-coach-and-locomotive-shell-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-coach-and-locomotive-shell-inspection/page-f8e20014bce83edc.js"
+    ],
+    "/rail/rolling-stock-wheel-set-ndt-paut-and-mt/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rolling-stock-wheel-set-ndt-paut-and-mt/page-1f324a6cd878a362.js"
+    ],
+    "/rail/thermite-weld-inspection-on-continuous-welded-rail/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/thermite-weld-inspection-on-continuous-welded-rail/page-c487d39b88e64663.js"
+    ],
+    "/rail/rail-flaw-detection-vehicle-types-and-tradeoffs/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-flaw-detection-vehicle-types-and-tradeoffs/page-bdc9d6548126eb18.js"
+    ],
+    "/rail/frog-and-switch-component-inspection-on-mainline-rail/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/frog-and-switch-component-inspection-on-mainline-rail/page-40d1b83acf8026e9.js"
+    ],
+    "/methods/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/methods/page-b30684dc1bb6ef27.js"
+    ],
+    "/rail/rail-corrosion-fatigue-detection-rcf-cracking/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-corrosion-fatigue-detection-rcf-cracking/page-114622ddeb2dc00e.js"
+    ],
+    "/rail/rail-bearing-and-axlebox-ndt-program/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-68f01bece3aedcb9.js",
+      "static/chunks/app/rail/rail-bearing-and-axlebox-ndt-program/page-04e3b2a665bd5cfc.js"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/equipment/page": "app/equipment/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/page": "app/page.js",
+  "/guides/gravity-base-structure-gbs-lng-inspection-considerations/page": "app/guides/gravity-base-structure-gbs-lng-inspection-considerations/page.js",
+  "/guides/lng-loading-arm-inspection-program/page": "app/guides/lng-loading-arm-inspection-program/page.js",
+  "/guides/cryogenic-tank-inspection-9-percent-nickel-steel/page": "app/guides/cryogenic-tank-inspection-9-percent-nickel-steel/page.js",
+  "/guides/bog-compressor-inspection-and-monitoring/page": "app/guides/bog-compressor-inspection-and-monitoring/page.js",
+  "/guides/small-scale-lng-asset-integrity-program/page": "app/guides/small-scale-lng-asset-integrity-program/page.js",
+  "/guides/lng-vaporizer-and-srv-inspection-program/page": "app/guides/lng-vaporizer-and-srv-inspection-program/page.js",
+  "/guides/lng-storage-tank-roof-inspection-from-inside-and-outside/page": "app/guides/lng-storage-tank-roof-inspection-from-inside-and-outside/page.js",
+  "/guides/lng-spill-protection-systems-inspection-and-test/page": "app/guides/lng-spill-protection-systems-inspection-and-test/page.js",
+  "/guides/page": "app/guides/page.js",
+  "/safety/page": "app/safety/page.js",
+  "/terminals/page": "app/terminals/page.js",
+  "/guides/lng-trailer-and-isotainer-inspection-checklist/page": "app/guides/lng-trailer-and-isotainer-inspection-checklist/page.js",
+  "/guides/lng-piping-weld-acceptance-criteria/page": "app/guides/lng-piping-weld-acceptance-criteria/page.js"
+}

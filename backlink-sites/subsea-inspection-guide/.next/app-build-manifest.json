@@ -1,0 +1,117 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/css/00aab175a209a732.css",
+      "static/chunks/app/layout-f041cf8a01f12a62.js"
+    ],
+    "/certification/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/certification/page-64e5e5748a16938f.js"
+    ],
+    "/deepwater/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/page-5b6fc1c87625b38e.js"
+    ],
+    "/deepwater/cathodic-protection-survey-deepwater-cp-monitoring/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/cathodic-protection-survey-deepwater-cp-monitoring/page-c0088456055df863.js"
+    ],
+    "/deepwater/fpso-hull-inspection-program-class-survey-coordination/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/fpso-hull-inspection-program-class-survey-coordination/page-79e04ecf24730dac.js"
+    ],
+    "/deepwater/rov-inspection-class-iii-vs-class-iv-which-tooling/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/rov-inspection-class-iii-vs-class-iv-which-tooling/page-5f4b8732a6ec1e08.js"
+    ],
+    "/deepwater/rov-pilot-handoff-from-vessel-to-onshore-team/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/rov-pilot-handoff-from-vessel-to-onshore-team/page-f2f22e4fc79936fe.js"
+    ],
+    "/deepwater/subsea-manifold-anode-program-design/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/subsea-manifold-anode-program-design/page-8ad8b0c1322a87c1.js"
+    ],
+    "/deepwater/subsea-jumper-and-spool-inspection-2026-workflow/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/subsea-jumper-and-spool-inspection-2026-workflow/page-877445fb9de8d608.js"
+    ],
+    "/materials/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/materials/page-7781e4a47e11a05d.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/page-60a30bf59996b85b.js"
+    ],
+    "/deepwater/mattress-and-stabilization-cover-inspection-pipelines/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/mattress-and-stabilization-cover-inspection-pipelines/page-1028c4d05db5f67d.js"
+    ],
+    "/deepwater/subsea-bolts-inspection-and-replacement-strategy/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/subsea-bolts-inspection-and-replacement-strategy/page-8ee6f2d75a687684.js"
+    ],
+    "/deepwater/subsea-weld-flaw-sizing-with-paut-and-tofd/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/subsea-weld-flaw-sizing-with-paut-and-tofd/page-04ce703a495b16ef.js"
+    ],
+    "/deepwater/subsea-pipeline-fjellsiganger-inspection-flooded-member/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-2fdc1dc9e2361aed.js",
+      "static/chunks/app/deepwater/subsea-pipeline-fjellsiganger-inspection-flooded-member/page-255589063f9a333e.js"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://corrosion-management-ndt.vercel.app/sitemap.xml

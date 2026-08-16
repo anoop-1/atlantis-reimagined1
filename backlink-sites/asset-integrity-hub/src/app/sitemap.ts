@@ -27,5 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/ndt-erp-for-asset-integrity-programs-2026`, lastModified: '2026-02-03', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/why-rbi-programmes-drift-and-how-to-tell-early`, lastModified: '2026-07-16', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/what-owners-should-demand-from-inspection-contractor-data`, lastModified: '2026-08-04', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/level-iii-authority-as-a-contracted-function`, lastModified: '2026-08-16', changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 }

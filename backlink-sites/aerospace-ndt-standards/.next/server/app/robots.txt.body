@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://aerospace-ndt-standards.vercel.app/sitemap.xml

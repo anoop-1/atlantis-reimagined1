@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 
 const articles = [
     {
+      title: "What Employers Consistently Underestimate About Certifying Their Own Technicians",
+      excerpt: "Under SNT-TC-1A the employer certifies, not the school. The four commitments that follow — and the one that actually sets the timeline.",
+      date: "August 2026",
+      readTime: "7 min read",
+      href: "/blog/what-employers-underestimate-about-certifying-technicians",
+      category: "Programme Management",
+    },
+    {
       title: "Certification Records Are a System, Not a Filing Cabinet: What National Contracts Now Require",
       excerpt: "Master service agreements increasingly demand auditable personnel certification across every crew and every state. Why branch-by-branch record keeping fails national audits, and what centralised written-practice administration looks like.",
       date: "August 2026",

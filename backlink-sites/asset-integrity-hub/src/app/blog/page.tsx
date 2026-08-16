@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const articles = [
     {
+      title: "Level III Authority as a Contracted Function: When It Makes Sense",
+      excerpt: "Three situations put companies in the market for outside Level III authority — and the decision is different from hiring, because what is being bought is signature authority with a deadline attached.",
+      date: "August 2026",
+      readTime: "6 min read",
+      href: "/blog/level-iii-authority-as-a-contracted-function",
+      category: "Integrity Management",
+    },
+    {
       title: "What Asset Owners Should Demand From Their Inspection Contractor’s Data",
       excerpt: "A PDF report is a photograph of data that lives somewhere else. What owners should require of contractor examination records — structure, attribution, exportability — and why the contractor’s own systems determine whether you can have it.",
       date: "August 2026",

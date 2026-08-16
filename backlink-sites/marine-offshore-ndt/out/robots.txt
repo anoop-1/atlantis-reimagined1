@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://marine-offshore-ndt.vercel.app/sitemap.xml

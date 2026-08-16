@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tanks/tank-secondary-containment-inspection-and-integrity`, lastModified: '2025-09-30', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/tanks/api-650-construction-ndt-acceptance-walkthrough`, lastModified: '2025-12-15', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/tanks/asphalt-and-fuel-oil-tank-inspection-considerations`, lastModified: '2026-03-17', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/tanks/tank-relocation-and-reerection-ndt-rules`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 0.7 }
+    { url: `${baseUrl}/tanks/tank-relocation-and-reerection-ndt-rules`, lastModified: '2026-05-09', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog/tank-programme-evidence-chain-what-auditors-read`, lastModified: '2026-08-16', changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/blog`, lastModified: '2026-08-16', changeFrequency: 'weekly' as const, priority: 0.8 },
   ];
 }

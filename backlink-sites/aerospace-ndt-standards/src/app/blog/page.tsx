@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+    {
+      title: "Crossing From Industrial NDT Into Aerospace: What Actually Transfers",
+      excerpt: "Moving from an SNT-TC-1A programme into NAS 410 work is routine but never automatic. What carries over, what must be rebuilt, and why manufacturing and MRO differ.",
+      date: "August 2026",
+      readTime: "8 min read",
+      href: "/blog/crossing-from-industrial-ndt-into-aerospace",
+      category: "Aerospace",
+    },
   {
     "title": "Digital Twins for Aircraft Fleet Structural Integrity",
     "description": "Aircraft fleet structural integrity programs generate huge NDT datasets. Learn how digital twins turn inspection history into predictive fleet decisions.",

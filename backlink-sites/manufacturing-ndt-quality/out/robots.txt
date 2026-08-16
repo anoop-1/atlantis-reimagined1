@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://manufacturing-ndt-quality.vercel.app/sitemap.xml

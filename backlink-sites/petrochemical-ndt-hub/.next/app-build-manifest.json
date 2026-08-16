@@ -1,0 +1,117 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/css/f0a6f27ddf81b5f6.css",
+      "static/chunks/app/layout-f5d55dd4ab705ba4.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/page-aa35c935e34037d1.js"
+    ],
+    "/equipment/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/equipment/page-eaf1ac8a2e7ce367.js"
+    ],
+    "/processes/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/page-d8149eb94f5183f9.js"
+    ],
+    "/processes/amine-unit-corrosion-monitoring-and-ut-strategies/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/amine-unit-corrosion-monitoring-and-ut-strategies/page-4df198b02eae24e0.js"
+    ],
+    "/processes/fcc-unit-inspection-priority-equipment-and-damage-mechanisms/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/fcc-unit-inspection-priority-equipment-and-damage-mechanisms/page-fbb7a51bcbaf4e6a.js"
+    ],
+    "/processes/crude-furnace-tube-inspection-laser-and-paut/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/crude-furnace-tube-inspection-laser-and-paut/page-a4cd68fea764d45c.js"
+    ],
+    "/processes/sru-and-tail-gas-unit-inspection-corrosion-realities/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/sru-and-tail-gas-unit-inspection-corrosion-realities/page-72f76c72966745a4.js"
+    ],
+    "/processes/naphthenic-acid-corrosion-inspection-strategy/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/naphthenic-acid-corrosion-inspection-strategy/page-ff54da583e011e43.js"
+    ],
+    "/processes/hydroprocessing-reactor-internals-inspection-2026/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/hydroprocessing-reactor-internals-inspection-2026/page-d7f529ca88b145c3.js"
+    ],
+    "/processes/coker-drum-inspection-program-bulge-and-crack/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/coker-drum-inspection-program-bulge-and-crack/page-ba522e05eb7e699e.js"
+    ],
+    "/safety/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/safety/page-b3d02115b881fce0.js"
+    ],
+    "/processes/high-temperature-hydrogen-attack-htha-inspection-strategy/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/high-temperature-hydrogen-attack-htha-inspection-strategy/page-c97c423a769c4e30.js"
+    ],
+    "/processes/sulfidation-corrosion-crude-units-monitoring-program/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/sulfidation-corrosion-crude-units-monitoring-program/page-3d24551841acc648.js"
+    ],
+    "/processes/turnaround-inspection-planning-petrochemical-shutdown/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-537934dfdbc9662c.js",
+      "static/chunks/app/processes/turnaround-inspection-planning-petrochemical-shutdown/page-419e3696c5881141.js"
+    ]
+  }
+}

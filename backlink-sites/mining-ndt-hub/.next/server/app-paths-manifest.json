@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/equipment/page": "app/equipment/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/mining/conveyor-pulley-inspection-mt-ut-vt/page": "app/mining/conveyor-pulley-inspection-mt-ut-vt/page.js",
+  "/mining/crusher-and-mill-liner-bolt-inspection-strategies/page": "app/mining/crusher-and-mill-liner-bolt-inspection-strategies/page.js",
+  "/mining/mill-shell-girth-weld-inspection-sag-ball/page": "app/mining/mill-shell-girth-weld-inspection-sag-ball/page.js",
+  "/mining/dragline-boom-and-bucket-inspection-program/page": "app/mining/dragline-boom-and-bucket-inspection-program/page.js",
+  "/safety/page": "app/safety/page.js",
+  "/page": "app/page.js",
+  "/mining/mine-conveyor-belt-splice-inspection/page": "app/mining/mine-conveyor-belt-splice-inspection/page.js",
+  "/mining/page": "app/mining/page.js",
+  "/mining/haul-truck-tray-and-tub-crack-mapping/page": "app/mining/haul-truck-tray-and-tub-crack-mapping/page.js",
+  "/mining/tailings-dam-instrumentation-and-ndt-overlap/page": "app/mining/tailings-dam-instrumentation-and-ndt-overlap/page.js",
+  "/mining/mine-thickener-and-tank-inspection-mining-tailings/page": "app/mining/mine-thickener-and-tank-inspection-mining-tailings/page.js",
+  "/mining/underground-mining-shaft-rope-inspection/page": "app/mining/underground-mining-shaft-rope-inspection/page.js",
+  "/mining/haul-truck-frame-crack-inspection-program/page": "app/mining/haul-truck-frame-crack-inspection-program/page.js"
+}

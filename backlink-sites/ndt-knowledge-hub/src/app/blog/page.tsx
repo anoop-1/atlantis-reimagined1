@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 
 const articles = [
     {
+      title: "Why the Sector You Work In Decides Your NDT Qualification Path",
+      excerpt: "SNT-TC-1A, NAS 410, NAVSEA and ASME XI qualify people differently. A practical map of which regime governs where, and what it means for a technician planning a career.",
+      date: "August 2026",
+      readTime: "8 min read",
+      href: "/blog/why-sector-decides-your-ndt-qualification-path",
+      category: "Certification",
+    },
+    {
       title: "Offline-First Field Data Capture: The Feature Inspection Crews Discover They Needed Too Late",
       excerpt: "Dig sites, tank farms and compressor stations are connectivity dead zones. Why offline-first capture beats feature lists when inspection data has to survive the trip back to the office — and what re-keyed field sheets actually cost.",
       date: "August 2026",

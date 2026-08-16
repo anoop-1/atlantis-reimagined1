@@ -1,0 +1,229 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/css/a323bdd32d14b7ab.css",
+      "static/chunks/app/layout-08858453eed404bd.js"
+    ],
+    "/career/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/career/page-b9f25ae25d582d85.js"
+    ],
+    "/components/hull-thickness/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/components/hull-thickness/page-452b22221b085b5a.js"
+    ],
+    "/components/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/components/page-bcb6c9f0a748b89d.js"
+    ],
+    "/offshore/class-survey-ndt-scope-abs-dnv-lloyd/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/class-survey-ndt-scope-abs-dnv-lloyd/page-37a45a4134ace720.js"
+    ],
+    "/career/offshore-salary/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/career/offshore-salary/page-dfe6713f0001227a.js"
+    ],
+    "/components/ballast-tank/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/components/ballast-tank/page-a5410c77ea24d99a.js"
+    ],
+    "/components/mooring-chain/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/components/mooring-chain/page-8a4c20ec09e83c37.js"
+    ],
+    "/offshore/flexible-riser-inspection-techniques-emerging/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/flexible-riser-inspection-techniques-emerging/page-d0305aca3f779240.js"
+    ],
+    "/offshore/cargo-tank-coating-inspection-on-chemical-tankers/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/cargo-tank-coating-inspection-on-chemical-tankers/page-b1b7c6ebc7d4dacd.js"
+    ],
+    "/offshore/fpso-turret-inspection-and-swivel-stack/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/fpso-turret-inspection-and-swivel-stack/page-b65199f94f811895.js"
+    ],
+    "/offshore/jacket-platform-girth-weld-inspection-from-rope-access/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/jacket-platform-girth-weld-inspection-from-rope-access/page-f8eaddc3b9d48b11.js"
+    ],
+    "/offshore/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/page-396d74630e097e46.js"
+    ],
+    "/offshore/mooring-chain-inspection-onshore-vs-in-situ/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/mooring-chain-inspection-onshore-vs-in-situ/page-fabe316b46a55702.js"
+    ],
+    "/offshore/ballast-water-treatment-system-ndt-considerations/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/ballast-water-treatment-system-ndt-considerations/page-99ede00a73e49ca8.js"
+    ],
+    "/offshore/subsea-flowline-rigid-vs-flexible-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/subsea-flowline-rigid-vs-flexible-inspection/page-42ac5e4d2e4e0a90.js"
+    ],
+    "/offshore/underwater-ndt/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/underwater-ndt/page-6a6d3c8b4e92f19a.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/page-41ab95e7e437fd77.js"
+    ],
+    "/standards/dnv/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/standards/dnv/page-d8afbfba5b2e4a89.js"
+    ],
+    "/offshore/tanker-ballast-tank-inspection-coating-and-thickness/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/tanker-ballast-tank-inspection-coating-and-thickness/page-8d9e9571f018260d.js"
+    ],
+    "/offshore/rov-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/rov-inspection/page-5d0d3bebd32cd776.js"
+    ],
+    "/techniques/mfl-pipeline/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/techniques/mfl-pipeline/page-26c83e5cfac01a87.js"
+    ],
+    "/techniques/acfm/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/techniques/acfm/page-0a5e37815c0a74a4.js"
+    ],
+    "/vessels/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/vessels/page-8d2d6c8565e726c2.js"
+    ],
+    "/vessels/lng-carrier/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/vessels/lng-carrier/page-eae2fd0cfbf27a25.js"
+    ],
+    "/standards/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/standards/page-03484e86a48a41c3.js"
+    ],
+    "/standards/iacs/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/standards/iacs/page-8c9663c2017c93c9.js"
+    ],
+    "/vessels/tanker-hull/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/vessels/tanker-hull/page-de49ffd9b12e2907.js"
+    ],
+    "/techniques/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/techniques/page-db30d0f2db629fcc.js"
+    ],
+    "/vessels/container-ship/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/vessels/container-ship/page-77cb961e4e2755b6.js"
+    ],
+    "/offshore/in-water-survey-vs-drydock-survey-ndt-coverage/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-61aaf490ee4ecef0.js",
+      "static/chunks/app/offshore/in-water-survey-vs-drydock-survey-ndt-coverage/page-c5a951f62474af0c.js"
+    ]
+  }
+}

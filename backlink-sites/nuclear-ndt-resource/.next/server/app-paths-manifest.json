@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/reactor-systems/page": "app/reactor-systems/page.js",
+  "/regulatory/page": "app/regulatory/page.js",
+  "/techniques/page": "app/techniques/page.js",
+  "/page": "app/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/techniques/asme-section-xi-isi-program-essentials/page": "app/techniques/asme-section-xi-isi-program-essentials/page.js",
+  "/techniques/pdi-paut-procedure-qualification-deep-dive-2026/page": "app/techniques/pdi-paut-procedure-qualification-deep-dive-2026/page.js",
+  "/techniques/phased-array-qualification-for-nuclear-applications/page": "app/techniques/phased-array-qualification-for-nuclear-applications/page.js",
+  "/techniques/reactor-coolant-pump-inspection-asme-xi-rules/page": "app/techniques/reactor-coolant-pump-inspection-asme-xi-rules/page.js",
+  "/techniques/asme-section-xi-iwe-iwl-containment-inspection/page": "app/techniques/asme-section-xi-iwe-iwl-containment-inspection/page.js",
+  "/techniques/piping-weld-inspection-class-1-vs-class-2-rules/page": "app/techniques/piping-weld-inspection-class-1-vs-class-2-rules/page.js",
+  "/techniques/small-modular-reactor-smr-ndt-emerging-considerations/page": "app/techniques/small-modular-reactor-smr-ndt-emerging-considerations/page.js",
+  "/techniques/spent-fuel-pool-liner-leak-detection-and-inspection/page": "app/techniques/spent-fuel-pool-liner-leak-detection-and-inspection/page.js",
+  "/techniques/reactor-vessel-head-penetration-inspection-pdi-qualification/page": "app/techniques/reactor-vessel-head-penetration-inspection-pdi-qualification/page.js",
+  "/techniques/steam-generator-tube-inspection-eddy-current-strategies/page": "app/techniques/steam-generator-tube-inspection-eddy-current-strategies/page.js"
+}

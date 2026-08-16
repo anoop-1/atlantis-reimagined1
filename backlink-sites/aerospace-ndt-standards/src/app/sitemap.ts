@@ -33,5 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/aerospace-digital-twin-for-fleet-integrity`, lastModified: '2025-09-04', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog/what-nadcap-auditors-look-at-before-they-look-at-your-technique`, lastModified: '2026-07-08', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/blog`, lastModified: '2026-07-28', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/crossing-from-industrial-ndt-into-aerospace`, lastModified: '2026-08-16', changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 }

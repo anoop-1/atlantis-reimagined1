@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/certifications/page": "app/certifications/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/compliance/fume-control-during-magnetic-particle-and-penetrant/page": "app/compliance/fume-control-during-magnetic-particle-and-penetrant/page.js",
+  "/compliance/confined-space-entry-for-ndt-permits-and-rescue/page": "app/compliance/confined-space-entry-for-ndt-permits-and-rescue/page.js",
+  "/compliance/crew-rotation-fatigue-and-fitness-for-duty-ndt/page": "app/compliance/crew-rotation-fatigue-and-fitness-for-duty-ndt/page.js",
+  "/compliance/incident-reporting-near-miss-culture-for-ndt-teams/page": "app/compliance/incident-reporting-near-miss-culture-for-ndt-teams/page.js",
+  "/compliance/page": "app/compliance/page.js",
+  "/compliance/incident-investigation-after-ndt-source-loss/page": "app/compliance/incident-investigation-after-ndt-source-loss/page.js",
+  "/compliance/iso-45001-and-ndt-safety-program-alignment/page": "app/compliance/iso-45001-and-ndt-safety-program-alignment/page.js",
+  "/page": "app/page.js",
+  "/regulations/page": "app/regulations/page.js",
+  "/compliance/lockout-tagout-for-ut-and-mt-on-rotating-equipment/page": "app/compliance/lockout-tagout-for-ut-and-mt-on-rotating-equipment/page.js",
+  "/compliance/transport-of-ndt-sources-iata-imdg/page": "app/compliance/transport-of-ndt-sources-iata-imdg/page.js",
+  "/compliance/industrial-radiography-safety-program-essentials/page": "app/compliance/industrial-radiography-safety-program-essentials/page.js",
+  "/compliance/inspector-fatigue-and-pod-the-data-no-one-shares/page": "app/compliance/inspector-fatigue-and-pod-the-data-no-one-shares/page.js"
+}

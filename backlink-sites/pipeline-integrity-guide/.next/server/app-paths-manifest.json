@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/case-studies/page": "app/case-studies/page.js",
+  "/case-studies/integrity-verification-process-post-spike-hydrotest/page": "app/case-studies/integrity-verification-process-post-spike-hydrotest/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/methods/page": "app/methods/page.js",
+  "/case-studies/crack-management-program-pipeline-asme-b31-8s/page": "app/case-studies/crack-management-program-pipeline-asme-b31-8s/page.js",
+  "/case-studies/direct-assessment-eca-dca-ica-which-when/page": "app/case-studies/direct-assessment-eca-dca-ica-which-when/page.js",
+  "/case-studies/class-location-changes-mop-and-the-inspector-implications/page": "app/case-studies/class-location-changes-mop-and-the-inspector-implications/page.js",
+  "/case-studies/in-line-inspection-tool-selection-mfl-vs-ut-vs-emat/page": "app/case-studies/in-line-inspection-tool-selection-mfl-vs-ut-vs-emat/page.js",
+  "/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve/page": "app/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve/page.js",
+  "/case-studies/ili-data-validation-workflow-anomaly-truth-table/page": "app/case-studies/ili-data-validation-workflow-anomaly-truth-table/page.js",
+  "/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended/page": "app/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended/page.js",
+  "/page": "app/page.js",
+  "/case-studies/pipeline-coating-disbondment-detection-tools/page": "app/case-studies/pipeline-coating-disbondment-detection-tools/page.js",
+  "/standards/page": "app/standards/page.js",
+  "/case-studies/pipeline-girth-weld-quality-management-eca-strain/page": "app/case-studies/pipeline-girth-weld-quality-management-eca-strain/page.js"
+}

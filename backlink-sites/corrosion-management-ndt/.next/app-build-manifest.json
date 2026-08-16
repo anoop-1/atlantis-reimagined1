@@ -1,0 +1,229 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/_not-found/page-eaa53ae320539b27.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/css/08ee0d124a17a526.css",
+      "static/chunks/app/layout-b0ddca04c922666c.js"
+    ],
+    "/industry/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/industry/page-7271536a4f59b296.js"
+    ],
+    "/industry/refinery/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/industry/refinery/page-0f167654867a8092.js"
+    ],
+    "/industry/pipeline/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/industry/pipeline/page-44a0aa174775f550.js"
+    ],
+    "/management/building-corrosion-management-program-iso-55000/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/building-corrosion-management-program-iso-55000/page-f3ce8b398b7f5054.js"
+    ],
+    "/management/inhibitor-injection-program-effectiveness-monitoring/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/inhibitor-injection-program-effectiveness-monitoring/page-8a0af8347481c344.js"
+    ],
+    "/management/microbiologically-influenced-corrosion-mic-detection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/microbiologically-influenced-corrosion-mic-detection/page-a20f25c7c84cd702.js"
+    ],
+    "/management/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/page-3774c445838039a8.js"
+    ],
+    "/management/rbi/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/rbi/page-ccbe1134e15e2ce3.js"
+    ],
+    "/management/msl-stress-corrosion-cracking-austenitic-stainless/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/msl-stress-corrosion-cracking-austenitic-stainless/page-88a97efda1bf78ae.js"
+    ],
+    "/management/galvanic-corrosion-prevention-design-and-inspection/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/galvanic-corrosion-prevention-design-and-inspection/page-760b9e699bbe7094.js"
+    ],
+    "/management/erosion-corrosion-vs-flow-accelerated-corrosion/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/erosion-corrosion-vs-flow-accelerated-corrosion/page-b94a88d63853088a.js"
+    ],
+    "/management/corrosion-rate-vs-thickness-trends-what-the-data-says/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/corrosion-rate-vs-thickness-trends-what-the-data-says/page-768189136a4ac240.js"
+    ],
+    "/management/cui-strategy/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/cui-strategy/page-bdc285aa164474fe.js"
+    ],
+    "/management/cui-inspection-strategy-when-to-strip-insulation/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/cui-inspection-strategy-when-to-strip-insulation/page-662f08aa507a1b33.js"
+    ],
+    "/management/remaining-life/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/remaining-life/page-0d8733dc0a96c584.js"
+    ],
+    "/ndt-methods/mfl/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/ndt-methods/mfl/page-a019fdd3f0932f07.js"
+    ],
+    "/management/sweet-vs-sour-corrosion-inspection-program-design/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/sweet-vs-sour-corrosion-inspection-program-design/page-1cb213d8088ef673.js"
+    ],
+    "/ndt-methods/ut-thickness/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/ndt-methods/ut-thickness/page-35d057ab78b439da.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/page-85609a54fe8fa9a7.js"
+    ],
+    "/standards/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/standards/page-1c3eb2506304f741.js"
+    ],
+    "/ndt-methods/guided-wave/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/ndt-methods/guided-wave/page-fbe2cf3fcd5429cb.js"
+    ],
+    "/standards/nace/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/standards/nace/page-091f6ae960b5f93e.js"
+    ],
+    "/types/erosion/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/types/erosion/page-5e98693144c26cd4.js"
+    ],
+    "/types/cui/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/types/cui/page-9f54fde38a9642a1.js"
+    ],
+    "/ndt-methods/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/ndt-methods/page-77947f43157d65df.js"
+    ],
+    "/types/mic/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/types/mic/page-5f58f68b6a6d0280.js"
+    ],
+    "/types/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/types/page-26778d7eaf65ae5d.js"
+    ],
+    "/types/scc/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/types/scc/page-110c5836a3cd5e33.js"
+    ],
+    "/types/pitting/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/types/pitting/page-bfb46c1cc2162e78.js"
+    ],
+    "/management/ph-monitoring-vs-corrosion-coupons-which-data-trust/page": [
+      "static/chunks/webpack-8658fdbc42bfbbae.js",
+      "static/chunks/fd9d1056-aa94ea5c2eabf904.js",
+      "static/chunks/117-b2ec9b1a6eddcaeb.js",
+      "static/chunks/main-app-cfdaef7f2a764621.js",
+      "static/chunks/app/management/ph-monitoring-vs-corrosion-coupons-which-data-trust/page-53f7bdbe2c3082e8.js"
+    ]
+  }
+}
