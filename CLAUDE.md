@@ -2547,3 +2547,87 @@ broader simultaneously. Submitted: 75 + 18 URLs (Google 10-SA + IndexNow).
    loss from the 449 pruned**.
 3. Off-page remains ERP's constraint (§20.6 aggregator listings — owner) and
    the biggest lever behind every deep-position cluster.
+
+---
+
+## 43. Backlog cleared + off-page round 3 + a self-inflicted deploy lesson — 2026-08-16 (late)
+
+Commits `9cc0b3506` · `531078875` · `e9edb024a` · `862bfb836`.
+
+### 43.1 🔴 A BROKEN INTERNAL LINK ON 693 PAGES — and why §32.5 undercounted it
+`/consulting/api-579-fitness-for-service-services` has never existed; the real
+page is `/consulting/fitness-for-service-api-579`. §32.5 recorded "21
+occurrences, pre-existing, out of scope". The real figure: **943 href rewrites
+across 15 files**, overwhelmingly baked into `blogs.json` post bodies (560
+posts) and the day9–day18 blog generators. Verified in dist: **693 → 0** pages
+linking the 404; 784 now reach the real page. Four links into a *retired 301*
+(`/blog/api-653-certification-complete-guide`) fixed in the same pass.
+
+**Class lesson, third time this week: when a defect is recorded as "N
+occurrences, out of scope", re-measure N before believing it.** §40.4 was 22 →
+5,474; this was 21 → 943.
+
+### 43.2 The API 653 cluster — NOT a merge
+Measured per query: the guide legitimately owns "api 653" (p10, 1,178i) and
+the inspection terms; the cert page owns "api 653 certification" (p10). The
+division is already right. Two real defects: **"api 653 course" (187i) sat on
+the certification page at p41** while `/api-653-training` exists, and a
+**retired 301 still splits both terms** (333i at p11–17) — which content
+cannot fix. Scope statements + exact-anchor routing on all three live pages;
+both retired sources submitted for recrawl so Google drops them.
+
+### 43.3 `/ndt-industry-statistics` — structure, not statistics
+1,049i at p54–75 on market-research queries. The page had figures but no
+market STRUCTURE, which is what an analyst needs: how segments are defined and
+why published totals disagree, who buys, what drives US demand, where the
+structure is shifting. 1,794 → 2,309 words. **No market-size figures invented**
+— §18/§25.5 permit third-party market data, but inventing it is worse than
+omitting it.
+
+### 43.4 `/industry/` family → funnel, not extension
+320 pages earning **218i total (4i/page)**. The plan's nuclear + aviation
+sectors would have added ~80 more at that rate. **Decided against**; instead
+all 320 pages now route up to the researched industry nationals. Pruned pages
+carry `noindex, follow`, so their links still pass equity.
+
+### 43.5 Off-page round 3 — five satellite articles
+Every cluster this cycle touched is a position problem, and §29.4 established
+internal linking is not the constraint. Five standalone articles → maritime +
+nuclear training nationals · `/ndt-school` + sponsorship post · the Level III
+consulting owner · API 653 guide + oil-gas consulting · aerospace consulting +
+aviation training. Anti-footprint discipline maintained. Also fixed a §20.8
+orphan: `tank-inspection-resource` had **no `/blog` index** — created and
+sitemapped, with the `const articles = [` marker future rounds need.
+
+### 43.6 ⚠️ SELF-INFLICTED: committed `.next` artifacts cost 35 spurious rebuilds
+The off-page commit swept in **9,890 files** because satellite `.next/` build
+output is tracked. Each satellite's Vercel ignore-build command is
+`git diff --quiet HEAD^ HEAD -- backlink-sites/<name>` (§17.1), so touching
+those artifacts made **all 35 folders look changed** and queued 35 rebuilds
+against an already-exhausted Hobby quota. §13 called this "harmless bloat" —
+it is not. Fixed: `backlink-sites/.gitignore` (`**/.next/`, `**/node_modules/`)
+plus untracking **7,281 files**.
+⚠️ The first attempt gitignored but did not untrack — the shell glob
+`backlink-sites/*/.next` matched nothing and `git rm` silently reported 0.
+**Verify `git ls-files` after any `git rm --cached`.**
+
+### 43.7 Deploy state at end of session
+**Nothing from the matrix onward is live.** Live still serves the Phase-T-era
+chunk; ~13 commits are pushed and queued behind the 100/24h ceiling (§23.4,
+§40.1). All pushed — Vercel builds HEAD, so the next successful build carries
+everything. **First task next session: check the live entry-chunk hash against
+`dist/assets/`; if still stale, one empty trigger commit.**
+
+### 43.8 Submissions today
+93 URLs earlier (Google 10-SA + IndexNow) · 18 Phase C · 7 backlog including
+both retired-301 sources for recrawl. Google dedupes against 7,684 already
+submitted; IndexNow accepted 100/100 across the three batches.
+
+### 43.9 Next
+1. Verify deploy, then live-spot-check matrix + Phase C + prune.
+2. **Gate measurement ~2026-09-15** — unchanged (§42.6), plus: does the
+   API 653 course term leave the certification page, and do the two retired
+   301 sources drop out of the SERP after recrawl?
+3. Owner actions still open: GA4 Key Events (`ms_form_click`, `generate_lead`,
+   `erp_demo_request_click`, `template_download`) and aggregator listings
+   (§20.6) — the latter remains ERP's real constraint.
