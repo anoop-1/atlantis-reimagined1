@@ -61,7 +61,16 @@ export const SCOPES = {
   },
   'method-city': {
     enabled: true, // Phase C tranche, enabled 2026-08-16 (owner approved 08-16)
-    match: (p) => /^\/(ultrasonic|radiographic|magnetic-particle|penetrant|visual|eddy-current)-testing-/.test(p),
+    // ⚠️ The trailing segment must be a CITY, never a page type. The first
+    // version of this matcher was `-testing-` open-ended, which silently
+    // noindexed all six NATIONAL method-training pages (/ultrasonic-testing-
+    // training et al, §35.1 — built for a 502-impression gap). Excluded
+    // explicitly, and any future `{method}-testing-{pagetype}` family must be
+    // added here too.
+    match: (p) =>
+      /^\/(ultrasonic|radiographic|magnetic-particle|penetrant|visual|eddy-current)-testing-/.test(p) &&
+      !/-testing-training(-|$)/.test(p) &&
+      !/-testing-(services|equipment|standards|guide|cost|training)$/.test(p),
     // Verified against dist 2026-08-16: matches exactly the 253 pages carrying
     // a §26.1 market block ("Why {City} generates {XX} demand", from
     // method-city-depth.mjs) or a §37.1 gap block ("what the work actually
