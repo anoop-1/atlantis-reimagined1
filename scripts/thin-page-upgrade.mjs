@@ -63,6 +63,7 @@ import { applyIndustryMatrixInbound, assertIndustryMatrixTargets } from './indus
 import { applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
 import { applyBacklogFixes, applyIndustryFunnel, assertNoPricesInBacklog, assertBacklogTargets } from './backlog-fixes-2026-08-16.mjs';
 import { applyMethodIndustryInbound, assertMethodIndustryTargets } from './method-industry-routes-2026-08-16.mjs';
+import { applyScanConsultingInbound, assertScanConsultingTargets } from './scanning-industry-routes-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -842,5 +843,11 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     // national lists its six methods.
     methodIndustryInbound: (assertMethodIndustryTargets(routes),
       JSON.stringify(applyMethodIndustryInbound(routes, append))),
+
+    // Scanning x industry + consulting x region inbound, same pass they ship
+    // (34.5): the scanning hub and /digital-twins list the sectors; the
+    // consulting hub and /consulting-usa list the regions.
+    scanConsultingInbound: (assertScanConsultingTargets(routes), JSON.stringify(
+      applyScanConsultingInbound(routes, append, globalThis.__consultingRegionSlugs || []))),
   };
 }

@@ -18,6 +18,7 @@ import { predixAlternativesRoute, assertNoPricesInDtPhase } from './phase-d-dt-2
 import { industryMatrixRoutes, applyIndustryMatrixInbound, assertNoPricesInIndustryMatrix, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
 import { consultingIndustryRoutes, applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertNoPricesInConsultingIndustry, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
 import { methodIndustryRoutes, applyMethodIndustryInbound, assertNoPricesInMethodIndustry, assertMethodIndustryTargets } from './method-industry-routes-2026-08-16.mjs';
+import { scanningIndustryRoutes, consultingRegionRoutes, applyScanConsultingInbound, assertNoPricesInScanConsulting, assertScanConsultingTargets } from './scanning-industry-routes-2026-08-16.mjs';
 import { PHASE5_CTR_OVERRIDES } from './phase5-ctr-overrides.mjs';
 import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
@@ -12945,6 +12946,22 @@ ${urls}
   const mi = methodIndustryRoutes();
   routes.push(...mi);
   console.log(`🧪 Method-industry pages: ${mi.length} added`);
+}
+
+// ─── 3D SCANNING × INDUSTRY + CONSULTING × REGION 2026-08-16 ──────────────
+// Scanning measures 51.8 impressions per indexed page (best city family
+// after blog) but section 20.6 found its traffic is AEC/surveying, not
+// industrial. An industry axis is that correction. Consulting had 3 region
+// pages at 26.0 impr/page while training gained 8 — same spine added.
+{
+  assertNoPricesInScanConsulting();
+  const si = scanningIndustryRoutes();
+  routes.push(...si);
+  const existing = new Set(routes.map((r) => r.path));
+  const cr = consultingRegionRoutes(existing);
+  routes.push(...cr);
+  globalThis.__consultingRegionSlugs = cr.map((r) => r.path.replace('/consulting-', ''));
+  console.log(`📐 Scanning-industry: ${si.length} added · Consulting-region: ${cr.length} added`);
 }
 
 // ─── THIN-BODY ENRICHMENT 2026-07-28 ───────────────────────────────────────
