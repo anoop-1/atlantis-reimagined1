@@ -1,0 +1,9 @@
+# Next.js build artifacts — Vercel rebuilds every satellite from source, so
+# committing these adds ~570 files per site and, worse, makes EVERY satellite's
+# folder look changed on any commit that touches them. Each satellite's
+# ignore-build command is `git diff --quiet HEAD^ HEAD -- backlink-sites/<name>`
+# (CLAUDE.md §17.1), so committed artifacts trigger all 35 satellites to rebuild
+# against the Hobby deploy quota for no reason. Flagged in §13 as cleanup;
+# actioned 2026-08-16 after it cost a full rebuild round.
+**/.next/
+**/node_modules/
