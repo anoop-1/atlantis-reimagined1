@@ -2406,3 +2406,86 @@ explicit city scoping on seattle/houston/corpus-christi/denver (§25.2 pattern).
 4. **Measure ~2026-09-15**: does `/training` gain position from the 5,475
    direct links, and does the Level III cluster collapse from 18 competing
    pages toward one owner? Both are position questions first.
+
+---
+
+## 41. The 4-phase expansion + industry×city×region matrix — 2026-08-16
+
+Owner-approved plan (prune + expand, demand-gated), amended mid-execution by
+owner directive: **industry × city × region pages for all products**. Five
+commits: `83a48d1ec` (Phase 0) · `2461ab59a` (Phase T) · `deb162436` (Phase E)
+· `46cc19d64` (Phase D + DT prune) · `0ac724cd4` (matrix).
+
+### 41.1 Phase 0 — standing infrastructure
+- **`scripts/phase-keyword-harvest.mjs`** — per-segment persona-bucket harvest
+  (`--segment training|erp|dt|consulting`); every phase starts AND gates on it.
+  Bakes in the three recurring measurement defects as rules (sum slash
+  variants §20.11 · USA pulls are shape-only §31.2 · client-side sort §23.2).
+  `--refresh-demand` regenerates `seo-demand-90d.json` (previously had no
+  committed generator).
+- **`scripts/zero-impression-prune.mjs`** — noindex(follow) for zero-impression
+  + no-research pages, tranche-gated in `SCOPES`. Runs AFTER
+  `reindexQualifiedPages`; marked routes carry `prunedByDemand`, which the
+  reindex candidate filter skips — the passes cannot fight.
+
+### 41.2 What the harvests decided (recorded so nobody re-litigates)
+- **Training states: SKIPPED.** Measured state-shaped demand = 3 impressions.
+- **ERP: NO new posts/comparisons/geo.** All planned angles already exist;
+  "{vendor} vs" demand is 1–2i; §21.3 confirmed a fifth time. Routing only.
+- **DT: one new page.** The Predix cluster (149i) is the entire earning class;
+  "alternatives" intent got its field page (`/compare/ge-predix-alternatives`).
+- **Salary is the biggest untapped candidate audience** — 2,502i at wtd p10,
+  now routed to training paths (T1).
+- **School intent ranks p3.5–13 WITH clicks and had no owner** → `/ndt-school`.
+- **L3 split persists at 406i across 17 pages** — round 2 covered the best
+  ranker (p12 blog) that round 1 missed.
+
+### 41.3 🔴 DT-CITY PRUNE EXECUTED (tranche 1): 248 pages noindexed(follow),
+88 earners protected by the demand snapshot, verified per family in dist,
+sitemap 5,272 → 5,025. **Finding: dt-city-data marks 328 cities "enriched"
+but the context text NEVER ships into the built page** (aberdeen's own phrase
+absent from its dist HTML) — §19.1-class, moot for pruned pages, unfixed for
+the 88 earners. Method-city tranche (~338 un-researched) remains DISABLED
+pending its own commit (Phase C).
+
+### 41.4 The industry×city×region matrix (owner directive)
+42 URLs from ONE data file (`src/data/industry-training-matrix.mjs`) imported
+by BOTH the React component (`IndustryTrainingPage.tsx`) and the prerender
+generator — **two-layer drift impossible by construction**:
+- 7 industry nationals `/{industry}-ndt-training` (aerospace pre-existed, not
+  duplicated — `cellOnly` flag pattern);
+- 27 city cells `/{industry}-ndt-training-{city}`, every one on verified
+  employer research (Ingalls, EB, BIW, NNS, Y-12, Hanford, SRS, INL, Textron/
+  Spirit, P&W, Boeing 787, Gulfstream, San Antonio depots, ship channel,
+  Bakken, Duke fleet, Gary steel);
+- 8 regions `/ndt-training-{region}` incl. Canada with CGSB-vs-SNT-TC-1A.
+Verified: 43/43 in dist, self-canonical, sitemapped, words 394–766 (avg 617),
+inbound avg 6.3 with zero orphans, zero broken links. 11 phantom member slugs
+trimmed BEFORE shipping (the guard caught 2 more: charlotte/gary have no base
+training page — cells route to the location index instead).
+**ERP + DT industry axes already exist** (348 `/erp-industries`,
+`/digital-twins/{usecase}`) — upgraded/linked, not duplicated.
+
+### 41.5 Process notes
+- Guard lesson: `/tuition/` matched inside "in**tuition**" — word-bound price
+  tokens.
+- §27.1 escape-layer trap struck again (heredoc with rich quotes) — Write-tool
+  scripts for any content-bearing python.
+- 75 URLs submitted (Google 10-SA rotation + IndexNow 75/75 accepted), list at
+  `scripts/indexing-url-list-2026-08-16-phases.json`. Pruned URLs deliberately
+  NOT submitted.
+- Phase T verified LIVE (salary blocks + /ndt-school content rendering);
+  matrix deploy verified pushed, live-check after Vercel completes.
+
+### 41.6 Next
+1. **Phase C (queued):** consulting harvest → 5 industry consulting nationals
+   (`/consulting/{maritime,aerospace,aviation,nuclear,oil-gas}-ndt-consulting`)
+   + nuclear/aviation `/industry/` sectors (research-gated cells, NOT the
+   uniform top-40 loop) + region-page upgrades + **method-city prune tranche
+   (~338)** as its own commit + finish L3 consolidation (remaining ~5 pages).
+2. **Gate measurement ~2026-09-15** via `phase-keyword-harvest`: Phase T gate
+   (US training 28d clicks ≥60 or all clusters +15 positions; school cluster
+   owned by /ndt-school; online <p30), E gate ("ndt software" <p30), D gate
+   (predix cluster ≤p10; no impression loss from the 248 pruned), matrix
+   (industry nationals earning impressions <p30).
+3. Do not add unresearched matrix cells — the 43.7% dead figure is the reason.
