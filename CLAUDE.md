@@ -2631,3 +2631,98 @@ submitted; IndexNow accepted 100/100 across the three batches.
 3. Owner actions still open: GA4 Key Events (`ms_form_click`, `generate_lead`,
    `erp_demo_request_click`, `template_download`) and aggregator listings
    (§20.6) — the latter remains ERP's real constraint.
+
+---
+
+## 44. Matrix round 2 — method × industry, scanning × industry, consulting × region — 2026-08-16 (late)
+
+Owner directive widened to **Product × City × Region × Industry × Method for all
+products**. Replanned against a full coverage audit rather than building blind.
+Commits `7d2605df2` · `c8fd8e93d` · `9504007b8`.
+
+### 44.1 🔴 THE PRUNE MATCHER HAD NOINDEXED ALL SIX METHOD-TRAINING PAGES
+`/{method}-testing-` open-ended also matches `/ultrasonic-testing-training` and
+its five siblings — the **national method-training pages built for a measured
+502-impression gap (§35.1), two of whose queries sit at position 1**. They
+shipped noindexed in `1f1f1444f`. Found by the coverage audit line reading
+"TRAINING × method(nat): 6 pages, **0 indexed**" — **not by the build**, which
+reported success both times.
+
+**Rule: a prune matcher is a destructive regex. Enumerate what it actually
+matches against the live route list before enabling it, not what you intend it
+to match.** Fixed; prune 201 → 195; all six back in dist and sitemapped.
+
+### 44.2 THE COVERAGE AUDIT — impressions per INDEXED page, every family
+| family | pages | impr/indexed page |
+|---|---:|---:|
+| blog | 798 | **305.8** |
+| DT × compare | 21 | **81.3** |
+| **3D-scan × city** | 190 | **51.8** |
+| training × city | 191 | 44.1 |
+| consulting × region | 3 | **26.0** |
+| **method × city** | 390 | **21.8** |
+| consulting × city | 151 | 13.8 |
+| DT × usecase | 29 | 11.2 |
+| DT × city | 88 | 7.3 |
+| ERP × module/industry | 996 | 6.9 |
+| ERP × city | 326 | 6.1 |
+| /services/* | 450 | 5.5 |
+| **industry × city** | 265 | **0.7** |
+
+This table is the replanning instrument. It says: build on the axes that earn
+(method, industry, scanning, region), never extend `industry × city` (0.7).
+
+### 44.3 METHOD × INDUSTRY — 78 pages from research already banked
+`METHOD_IN_INDUSTRY` in `method-city-depth.mjs` has held **13 industries × 6
+methods = 78 verified cells** since §26.1, emitted only as fragments inside
+city pages. Promoted to real pages at `/{method}-testing-{industry}`, composed
+with per-method physics/limits/codes and per-industry assets/mechanisms/regime
+from the new `src/data/method-industry-matrix.mjs`. **The matrix is imported,
+never forked** (§27.3).
+
+Similarity measured *before* shipping: same-method pairs median **0.154**, p90
+0.375, max 0.480 — comfortably under the 0.55 gate; industry content dominates.
+Verified: 78/78 in dist, 567–659w (avg 609), sitemapped, **inbound avg 12.5,
+zero orphans, zero broken**.
+
+⚠️ Their slug mirrors method × city, so the prune needed an explicit
+`METHOD_INDUSTRY_SLUGS` exclusion — added in the same commit, prune count held.
+
+### 44.4 3D SCANNING × INDUSTRY — the audience correction
+Scanning is the **best-earning city family after blog (51.8/page)**, and §20.6
+recorded why that is misleading: 4,667 impressions at 0.04% CTR because the
+searchers are AEC/surveying, not industrial. **An industry axis is that
+correction.** Seven nationals (refinery, shipyard, power, aerospace,
+fabrication, mining, tank farms), each stating what reality capture is for AND
+**what a scan does not give you** — surfaces, not wall thickness — then routing
+to the matching method × industry page so scanning and inspection read as one
+programme.
+
+### 44.5 CONSULTING × REGION — 4 added, 4 correctly refused
+Consulting's 3 region pages measure **26.0 impressions/page**, its best family.
+Four US/Canada regions added; **four failed the ≥3-member-city gate and were
+skipped rather than shipped as stubs**.
+
+### 44.6 Totals and submissions
+Build **4,965 URLs** (+89 net new pages this round). Submitted 89 to the Google
+Indexing API (0 failed) + 105 IndexNow (0 failed), list at
+`scripts/indexing-url-list-2026-08-16-matrix2.json`.
+
+### 44.7 Where the matrix now stands, and the honest ceiling
+Built: training × {industry, ind×city, region, method-national} · consulting ×
+{industry, region, city} · method × {city, industry} · scanning × {city,
+industry} · ERP × {city, module, industry} · DT × {city, usecase, compare}.
+
+**The remaining cells are refused on evidence, not effort**: `industry × city`
+earns 0.7/page and is a funnel, not a target; ERP and DT city axes earn 6–7 and
+are frozen (§20.2, five confirmations); and any *unresearched* cell in any
+family reproduces the 43.7%-dead problem the prune just spent two tranches
+undoing. **Cells get built when research exists for them — that is the whole
+mechanism behind the 22× finding (§26.1).**
+
+### 44.8 Next
+1. Live-verify this round after Vercel deploys (entry-chunk hash, §40.1).
+2. **Gate ~2026-09-15**, now also: do method × industry pages earn (target
+   >p30 on "{method} {industry}"-shaped queries), and does scanning × industry
+   pull CTR above the 0.04% the generic metro pages produce?
+3. Unchanged owner actions: GA4 Key Events, aggregator listings (§20.6).
