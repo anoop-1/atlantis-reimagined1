@@ -521,7 +521,7 @@ export default function APIICPPassRates510vs570vs6532026() {
                                 <h3 className="font-bold group-hover:text-amber-600 transition">ASNT Level 3 Fees 2026</h3>
                                 <p className="text-slate-600 text-sm mt-2">Complete pricing breakdown for Level III certification</p>
                             </Link>
-                            <Link to="/blog/api-653-certification-complete-guide" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
+                            <Link to="/api-653-certification" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
                                 <h3 className="font-bold group-hover:text-amber-600 transition">API 653 Complete Guide</h3>
                                 <p className="text-slate-600 text-sm mt-2">Tank inspector exam, salary, study timeline</p>
                             </Link>

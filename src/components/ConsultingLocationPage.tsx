@@ -1216,7 +1216,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             <Link to="/blog/eddy-current-testing-complete-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
                                 Eddy Current Testing Guide
                             </Link>
-                            <Link to="/blog/api-653-certification-complete-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
+                            <Link to="/api-653-certification" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">
                                 API 653 Certification Guide
                             </Link>
                             <Link to="/ndt-certification-guide" className="text-sm p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition text-slate-700">

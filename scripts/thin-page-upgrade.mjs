@@ -61,6 +61,7 @@ import { applyErpHeadtermRouting, assertErpRoutingNoNumbers, assertErpRoutingTar
 import { applyDtPhase, assertDtPhaseTargets } from './phase-d-dt-2026-08-16.mjs';
 import { applyIndustryMatrixInbound, assertIndustryMatrixTargets } from './industry-training-routes-2026-08-16.mjs';
 import { applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertConsultingIndustryTargets } from './consulting-industry-routes-2026-08-16.mjs';
+import { applyBacklogFixes, applyIndustryFunnel, assertNoPricesInBacklog, assertBacklogTargets } from './backlog-fixes-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -818,6 +819,21 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     consultingIndustry: (assertConsultingIndustryTargets(routes), JSON.stringify({
       blocks: applyConsultingIndustryBlocks(routes, append),
       inbound: applyConsultingIndustryInbound(routes, append),
+    })),
+
+    // Carried-over backlog (39.5 / 32.5), each measured before building:
+    //  - API 653 cluster (~4,000i): course intent (187i) sat on the cert page
+    //    at p41 while /api-653-training exists; scope statements stop the cert
+    //    page competing on the guide's inspection terms.
+    //  - /ndt-industry-statistics (1,049i at p54-75): market STRUCTURE, which
+    //    is what the analyst needs and what the page lacked. No invented
+    //    market-size figures.
+    //  - /industry/ family (320 pages, 4i/page): NOT extended (the planned
+    //    nuclear+aviation sectors would add ~80 more at that rate). Converted
+    //    to a funnel routing up to the researched industry nationals instead.
+    backlog: (assertNoPricesInBacklog(), assertBacklogTargets(routes), JSON.stringify({
+      fixes: applyBacklogFixes(routes, append),
+      funnel: applyIndustryFunnel(routes, append),
     })),
   };
 }

@@ -64,7 +64,7 @@ const A = {
   rt: '<a href="/radiographic-testing">radiographic testing</a>',
   mt: '<a href="/magnetic-particle-testing">magnetic particle testing</a>',
   pt: '<a href="/penetrant-testing">liquid penetrant testing</a>',
-  ffs: '<a href="/consulting/api-579-fitness-for-service-services">API 579 FFS</a>',
+  ffs: '<a href="/consulting/fitness-for-service-api-579">API 579 FFS</a>',
   rbi: '<a href="/consulting/rbi-program-design">RBI program design</a>',
   contact: '<a href="/contact">request a demo</a>',
 };
