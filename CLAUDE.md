@@ -2489,3 +2489,61 @@ training page — cells route to the location index instead).
    (predix cluster ≤p10; no impression loss from the 248 pruned), matrix
    (industry nationals earning impressions <p30).
 3. Do not add unresearched matrix cells — the 43.7% dead figure is the reason.
+
+---
+
+## 42. Phase C: consulting × industry + method-city prune — 2026-08-16 (later)
+
+Commits `19118b39e` + `1f1f1444f`. Completes the day's phase sequence.
+
+### 42.1 The harvest finding — national intent hitting city permutations
+`phase-harvest-consulting-2026-08-16.json` (USA 90d: 168q / 2,123i / 2c):
+industry-shaped consulting queries land on **/industry/{sector}-ndt-{CITY}**
+pages at p35–60 — "maritime ndt services" → marine-ndt-**new-orleans**,
+"oil & gas ndt solutions" → oil-gas-ndt-**los-angeles**. The §40.3 wrong-page
+shape, industry edition.
+
+**Five nationals now own it:** `/consulting/{maritime,aerospace,aviation,
+nuclear,oil-gas}-ndt-consulting` — data-driven from
+`src/data/consulting-industry-matrix.mjs` (shared React+prerender), each
+covering the sector's programme problem, engagement deliverables, damage
+mechanisms and regime. Nuclear explicitly scoped against
+`/nuclear-ndt-services` (delivery vs authority) with cross-links both ways.
+
+**DECIDED BY THE DATA: no consulting × industry × city cells.** The whole
+industry bucket is 48 impressions; the city dimension already ships as
+researched training cells (§41.4). Duplicating research onto a near-zero
+axis manufactures permutations (§20.2).
+
+### 42.2 Level III — nothing more to write, recrawl will judge
+Fresh 90d window shows 546i across 25 pages, BUT every top-5 splitter of both
+head queries already carries rounds-1/2 routing (shipped 08-15/16). The
+window predates the fix. **No round 3 authored** — measure at the gate.
+
+### 42.3 Region pages promoted, not minted (§20.3)
+`/consulting-usa` (industry spine + jurisdictional framing) · `/consulting-me`
+(operator-standards regime) · `/consulting-india` (IBR/PESO) · `/training-usa`
+(industry + region training spine). Plus the FFS blog→service handoff
+("api 579" family, 52i, landing on the blog).
+
+### 42.4 🔴 METHOD-CITY PRUNE EXECUTED (tranche 2, final): 201 pages
+noindexed(follow); protected: 416 earning + 5 recent + 57 researched-at-zero.
+Verified per family in dist: 201/591 noindexed, 390 indexed, pruned absent
+from sitemaps. **Sitemap 5,069 → 4,868.** Combined prune: **449 pages**
+(248 dt-city + 201 method-city). Both tranches now DONE.
+
+### 42.5 Day summary — eight commits
+`83a48d1ec` Phase 0 · `2461ab59a` T · `deb162436` E · `46cc19d64` D+prune1 ·
+`0ac724cd4` matrix · `f17a07b89` §41 · `19118b39e` C · `1f1f1444f` prune2.
+Site: 5,264 → **4,868 sitemap URLs** while ADDING 90 new pages — leaner and
+broader simultaneously. Submitted: 75 + 18 URLs (Google 10-SA + IndexNow).
+
+### 42.6 Next
+1. Live-verify matrix + Phase C once Vercel finishes (entry-chunk hash, §40.1).
+2. **Gate measurement ~2026-09-15** (`phase-keyword-harvest` per segment):
+   T ≥60 US clicks or +15 positions/cluster · school owned by /ndt-school ·
+   L3 ≤3 pages receiving impressions · "ndt software" <p30 · predix ≤p10 ·
+   industry nationals (training + consulting) earning <p30 · **no impression
+   loss from the 449 pruned**.
+3. Off-page remains ERP's constraint (§20.6 aggregator listings — owner) and
+   the biggest lever behind every deep-position cluster.
