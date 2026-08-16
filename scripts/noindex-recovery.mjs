@@ -377,7 +377,11 @@ const GENERIC_CITY_MARKER = 'is set by the local asset base';
  *  per-city research, and 0.41-0.54 for families that do not. 0.55 separates the
  *  two populations rather than being an arbitrary round number. */
 export function reindexQualifiedPages(routes, demand = {}, { minWords = 650, maxSimilarity = 0.55 } = {}) {
-  const candidates = routes.filter((r) => r.noindex && !r.path.includes(':') && r.bodyContent);
+  // `prunedByDemand` routes were noindexed by zero-impression-prune.mjs — a
+  // crawl-budget decision, not a content-quality one — so content quality must
+  // not resurrect them. Guard here (not just by pass ordering) so the two
+  // mechanisms can never fight regardless of future reordering in prerender.
+  const candidates = routes.filter((r) => r.noindex && !r.prunedByDemand && !r.path.includes(':') && r.bodyContent);
   if (!candidates.length) return { reindexed: 0, kept: 0, reasons: {} };
 
   // Build family buckets from ALL routes so a noindexed page is compared with

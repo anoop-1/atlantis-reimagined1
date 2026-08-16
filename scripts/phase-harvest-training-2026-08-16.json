@@ -1,0 +1,6014 @@
+{
+ "segment": "training",
+ "generated": "2026-08-16",
+ "window": {
+  "startDate": "2026-05-16",
+  "endDate": "2026-08-14"
+ },
+ "days": 90,
+ "caveat": "USA figures are anonymisation-limited SHAPE (~26% of true totals, §31.2). Slash variants summed (§20.11).",
+ "usa": {
+  "totalImpressions": 12173,
+  "totalClicks": 58,
+  "distinctQueries": 1436,
+  "buckets": {
+   "school": {
+    "queries": 21,
+    "impressions": 149,
+    "clicks": 7,
+    "wtdPos": 27.2,
+    "top": [
+     {
+      "q": "ndt school near me",
+      "i": 18,
+      "c": 3,
+      "pos": 6.4,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-dallas",
+        "i": 6,
+        "pos": 9.2
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 5,
+        "pos": 4.4
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 6.3
+       }
+      ]
+     },
+     {
+      "q": "ndt schools near me",
+      "i": 14,
+      "c": 1,
+      "pos": 29.4,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-dallas",
+        "i": 6,
+        "pos": 5.7
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 4,
+        "pos": 63.3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing schools near me",
+      "i": 14,
+      "c": 2,
+      "pos": 3.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 5,
+        "pos": 3.4
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 4,
+        "pos": 5.5
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 1.5
+       }
+      ]
+     },
+     {
+      "q": "ndt school",
+      "i": 13,
+      "c": 0,
+      "pos": 13.5,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 6,
+        "pos": 5
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 3,
+        "pos": 39.3
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 2,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "ndt technician school",
+      "i": 13,
+      "c": 0,
+      "pos": 22.8,
+      "competing": 10,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 4.5
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 84
+       }
+      ]
+     },
+     {
+      "q": "ndt technician school near me",
+      "i": 12,
+      "c": 0,
+      "pos": 4.6,
+      "competing": 8,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 3.5
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 2,
+        "pos": 3.5
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 2,
+        "pos": 9.5
+       }
+      ]
+     },
+     {
+      "q": "ndt training schools",
+      "i": 11,
+      "c": 0,
+      "pos": 58.9,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-houston",
+        "i": 4,
+        "pos": 81
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 78
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 2,
+        "pos": 5.5
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing school",
+      "i": 11,
+      "c": 0,
+      "pos": 22.6,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 4,
+        "pos": 7.3
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 10.3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 89.5
+       }
+      ]
+     },
+     {
+      "q": "ndt schools in houston tx",
+      "i": 10,
+      "c": 0,
+      "pos": 50,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-training-houston",
+        "i": 10,
+        "pos": 50
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing schools",
+      "i": 6,
+      "c": 0,
+      "pos": 43.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 3,
+        "pos": 57
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 2,
+        "pos": 8
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 73
+       }
+      ]
+     },
+     {
+      "q": "ndt schools",
+      "i": 5,
+      "c": 0,
+      "pos": 56.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 69.3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 63
+       }
+      ]
+     },
+     {
+      "q": "non destructive inspection schools",
+      "i": 5,
+      "c": 0,
+      "pos": 75.2,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-new-york",
+        "i": 3,
+        "pos": 65.7
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 99
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 1,
+        "pos": 80
+       }
+      ]
+     },
+     {
+      "q": "nondestructive testing school",
+      "i": 4,
+      "c": 0,
+      "pos": 54.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-houston",
+        "i": 2,
+        "pos": 59.5
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 89
+       }
+      ]
+     },
+     {
+      "q": "nondestructive testing schools",
+      "i": 3,
+      "c": 0,
+      "pos": 55.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 42
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 83
+       }
+      ]
+     },
+     {
+      "q": "certified welding inspector school",
+      "i": 2,
+      "c": 0,
+      "pos": 51.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-washington-dc",
+        "i": 2,
+        "pos": 51.5
+       }
+      ]
+     }
+    ]
+   },
+   "near_me": {
+    "queries": 24,
+    "impressions": 790,
+    "clicks": 9,
+    "wtdPos": 48.1,
+    "top": [
+     {
+      "q": "ndt training near me",
+      "i": 228,
+      "c": 5,
+      "pos": 45.2,
+      "competing": 15,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 106,
+        "pos": 46.8
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 61,
+        "pos": 67.7
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 14,
+        "pos": 6.4
+       }
+      ]
+     },
+     {
+      "q": "ndt certification near me",
+      "i": 180,
+      "c": 0,
+      "pos": 54.2,
+      "competing": 12,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 96,
+        "pos": 52.4
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 65,
+        "pos": 69.7
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 5,
+        "pos": 4.4
+       }
+      ]
+     },
+     {
+      "q": "asnt training near me",
+      "i": 149,
+      "c": 0,
+      "pos": 40.4,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 63,
+        "pos": 29
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 30,
+        "pos": 55.3
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 28,
+        "pos": 39.8
+       }
+      ]
+     },
+     {
+      "q": "ndt courses near me",
+      "i": 105,
+      "c": 1,
+      "pos": 57.2,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 56,
+        "pos": 70.5
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 47,
+        "pos": 43.6
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing training near me",
+      "i": 61,
+      "c": 0,
+      "pos": 86.5,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 40,
+        "pos": 91.2
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 20,
+        "pos": 81.4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt technician training near me",
+      "i": 14,
+      "c": 2,
+      "pos": 1.8,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 6,
+        "pos": 1.8
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 5,
+        "pos": 2.2
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 2,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt program near me",
+      "i": 9,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 4,
+        "pos": 4.5
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 4.5
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "ndt jobs near me",
+      "i": 7,
+      "c": 0,
+      "pos": 3.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 7,
+        "pos": 3.4
+       }
+      ]
+     },
+     {
+      "q": "certified welding inspector services near me",
+      "i": 6,
+      "c": 0,
+      "pos": 19.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 6,
+        "pos": 19.8
+       }
+      ]
+     },
+     {
+      "q": "ndt classes near me",
+      "i": 5,
+      "c": 0,
+      "pos": 28.6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 67
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 2,
+        "pos": 3.5
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "ndt programs near me",
+      "i": 5,
+      "c": 0,
+      "pos": 4.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-austin",
+        "i": 3,
+        "pos": 3.7
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/training/asnt-level-iii-training-tampa",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "ndt certification courses near me",
+      "i": 4,
+      "c": 0,
+      "pos": 2.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 2.5
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "professional ndt training and certification programs near me.",
+      "i": 3,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-chicago",
+        "i": 1,
+        "pos": 7
+       },
+       {
+        "p": "/ndt-training-philadelphia",
+        "i": 1,
+        "pos": 4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-tampa",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "ndt training institute near me",
+      "i": 2,
+      "c": 1,
+      "pos": 40,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 1,
+        "pos": 4
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 76
+       }
+      ]
+     },
+     {
+      "q": "ndt companies near me",
+      "i": 2,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 6
+       }
+      ]
+     }
+    ]
+   },
+   "salary": {
+    "queries": 210,
+    "impressions": 2502,
+    "clicks": 6,
+    "wtdPos": 10.1,
+    "top": [
+     {
+      "q": "ndt level 3 salary",
+      "i": 235,
+      "c": 3,
+      "pos": 9.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 235,
+        "pos": 9.3
+       }
+      ]
+     },
+     {
+      "q": "ndt salary level 3",
+      "i": 116,
+      "c": 0,
+      "pos": 9.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 116,
+        "pos": 9.6
+       }
+      ]
+     },
+     {
+      "q": "ndt inspector salary",
+      "i": 111,
+      "c": 1,
+      "pos": 9.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 111,
+        "pos": 9.3
+       }
+      ]
+     },
+     {
+      "q": "level 2 ndt technician salary",
+      "i": 91,
+      "c": 0,
+      "pos": 8.6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 89,
+        "pos": 8.2
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 1,
+        "pos": 45
+       }
+      ]
+     },
+     {
+      "q": "is getting an api 510 certification still worth the time and cost in 2026, given the salary bump and the way the oil and gas inspection market is heading?",
+      "i": 87,
+      "c": 0,
+      "pos": 30.2,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 34,
+        "pos": 20.1
+       },
+       {
+        "p": "/blog/api-570-inspector-salary-2026-by-region-experience",
+        "i": 30,
+        "pos": 7.5
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 10,
+        "pos": 85.5
+       }
+      ]
+     },
+     {
+      "q": "ndt salary level 2",
+      "i": 78,
+      "c": 0,
+      "pos": 9.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 78,
+        "pos": 9.2
+       }
+      ]
+     },
+     {
+      "q": "ndt level 2 salary",
+      "i": 69,
+      "c": 0,
+      "pos": 8.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 69,
+        "pos": 8.9
+       }
+      ]
+     },
+     {
+      "q": "ndt salary",
+      "i": 68,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 68,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "ndt technician salary",
+      "i": 66,
+      "c": 0,
+      "pos": 7.2,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-technician-salary",
+        "i": 34,
+        "pos": 8.9
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 27,
+        "pos": 5.4
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 3,
+        "pos": 6.7
+       }
+      ]
+     },
+     {
+      "q": "ndt salary level 1",
+      "i": 63,
+      "c": 0,
+      "pos": 8.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 62,
+        "pos": 8.6
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 1,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "level 3 ndt salary",
+      "i": 56,
+      "c": 0,
+      "pos": 8.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 56,
+        "pos": 8.5
+       }
+      ]
+     },
+     {
+      "q": "ndt level 1 salary",
+      "i": 56,
+      "c": 0,
+      "pos": 9.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 55,
+        "pos": 9.2
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 1,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "ndt pay",
+      "i": 56,
+      "c": 0,
+      "pos": 8.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 56,
+        "pos": 8.7
+       }
+      ]
+     },
+     {
+      "q": "ndt salary level 4",
+      "i": 54,
+      "c": 0,
+      "pos": 5.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 54,
+        "pos": 5.6
+       }
+      ]
+     },
+     {
+      "q": "how much do ndt inspectors make",
+      "i": 53,
+      "c": 0,
+      "pos": 10.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 51,
+        "pos": 9.6
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 2,
+        "pos": 30.5
+       }
+      ]
+     }
+    ]
+   },
+   "career_switch": {
+    "queries": 30,
+    "impressions": 172,
+    "clicks": 0,
+    "wtdPos": 38.3,
+    "top": [
+     {
+      "q": "api 936 (refractory inspector) versus api 653 (storage tank inspector) for getting started in inspection. which is more realistic for a welder with no inspection time logged yet?",
+      "i": 38,
+      "c": 0,
+      "pos": 34.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 25,
+        "pos": 19.4
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 13,
+        "pos": 63.1
+       }
+      ]
+     },
+     {
+      "q": "can a welder with no college degree realistically become a certified pressure vessel inspector in the refining world, or is a degree basically required these days?",
+      "i": 35,
+      "c": 0,
+      "pos": 49.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 35,
+        "pos": 49.7
+       }
+      ]
+     },
+     {
+      "q": "what's the easiest api inspection certification to get for someone brand new to the inspection side, like a welder with no prior qc experience?",
+      "i": 32,
+      "c": 0,
+      "pos": 66.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 31,
+        "pos": 65.8
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 1,
+        "pos": 82
+       }
+      ]
+     },
+     {
+      "q": "are there any api inspection certs i could realistically work on while still wrenching as a journeyman welder, or do they all require you to be in an inspection role first?",
+      "i": 8,
+      "c": 0,
+      "pos": 87.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 6,
+        "pos": 88
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 2,
+        "pos": 85
+       }
+      ]
+     },
+     {
+      "q": "aws cwi versus asnt ndt level ii for a journeyman welder. which one opens more doors on the gulf coast refining and fab market?",
+      "i": 7,
+      "c": 0,
+      "pos": 11.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/cwi-certification-requirements-cost-career-impact",
+        "i": 7,
+        "pos": 11.7
+       }
+      ]
+     },
+     {
+      "q": "best accredited nondestructive testing certifications for career advancement.",
+      "i": 7,
+      "c": 0,
+      "pos": 8.9,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/best-ndt-training-providers-and-programs",
+        "i": 5,
+        "pos": 9.4
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 10
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "do i really need an aws cwi before i can chase a pressure vessel inspector certification, or can a welder go straight at the pressure vessel cert?",
+      "i": 5,
+      "c": 0,
+      "pos": 22,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 5,
+        "pos": 22
+       }
+      ]
+     },
+     {
+      "q": "how to become asnt level ii ndt technician requirements",
+      "i": 5,
+      "c": 0,
+      "pos": 24,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 5,
+        "pos": 24
+       }
+      ]
+     },
+     {
+      "q": "how to become asnt ndt level ii technician requirements",
+      "i": 5,
+      "c": 0,
+      "pos": 19,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 5,
+        "pos": 19
+       }
+      ]
+     },
+     {
+      "q": "how to get nondestructive testing certification for career advancement?",
+      "i": 5,
+      "c": 0,
+      "pos": 8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 5,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "how long does it take to become a ndt technician",
+      "i": 2,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "how to become a certified nondestructive testing technician?",
+      "i": 2,
+      "c": 0,
+      "pos": 9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "how to become ndt inspector",
+      "i": 2,
+      "c": 0,
+      "pos": 2,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 2
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "how to become ndt technician",
+      "i": 2,
+      "c": 0,
+      "pos": 3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "is ndt a good career",
+      "i": 2,
+      "c": 0,
+      "pos": 3.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 3.5
+       }
+      ]
+     }
+    ]
+   },
+   "online": {
+    "queries": 26,
+    "impressions": 221,
+    "clicks": 1,
+    "wtdPos": 39.7,
+    "top": [
+     {
+      "q": "api 570 online",
+      "i": 47,
+      "c": 0,
+      "pos": 25.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 47,
+        "pos": 25.6
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 online training",
+      "i": 45,
+      "c": 0,
+      "pos": 50.6,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 18,
+        "pos": 32.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 9,
+        "pos": 55.3
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 8,
+        "pos": 57.4
+       }
+      ]
+     },
+     {
+      "q": "are remote-proctored api icp exams still available for our field personnel, or did api discontinue proproctor for 510, 570, 653, and 1169? need to know whether to plan around prometric sites only.",
+      "i": 37,
+      "c": 0,
+      "pos": 18.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 37,
+        "pos": 18.4
+       }
+      ]
+     },
+     {
+      "q": "ndt level iii online courses",
+      "i": 15,
+      "c": 0,
+      "pos": 61.1,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 49.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 4,
+        "pos": 64.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 4,
+        "pos": 72.3
+       }
+      ]
+     },
+     {
+      "q": "online ndt level 3 training",
+      "i": 13,
+      "c": 0,
+      "pos": 79.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 7,
+        "pos": 75.1
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 5,
+        "pos": 89
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 1,
+        "pos": 67
+       }
+      ]
+     },
+     {
+      "q": "online ndt level 3 training program",
+      "i": 12,
+      "c": 0,
+      "pos": 77.6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 7,
+        "pos": 88.7
+       },
+       {
+        "p": "/ndt-training-online",
+        "i": 4,
+        "pos": 56
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 1,
+        "pos": 86
+       }
+      ]
+     },
+     {
+      "q": "api 570 online training",
+      "i": 8,
+      "c": 0,
+      "pos": 39.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 6,
+        "pos": 39
+       },
+       {
+        "p": "/api-570-training",
+        "i": 2,
+        "pos": 42
+       }
+      ]
+     },
+     {
+      "q": "ndt level 1 certification online",
+      "i": 8,
+      "c": 0,
+      "pos": 42.9,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-new-york",
+        "i": 4,
+        "pos": 67
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 3
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "api 570 online course",
+      "i": 7,
+      "c": 1,
+      "pos": 44.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 7,
+        "pos": 44.1
+       }
+      ]
+     },
+     {
+      "q": "api 570 online training course",
+      "i": 3,
+      "c": 0,
+      "pos": 47,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 2,
+        "pos": 42.5
+       },
+       {
+        "p": "/api-570-training",
+        "i": 1,
+        "pos": 56
+       }
+      ]
+     },
+     {
+      "q": "free ndt certification online",
+      "i": 3,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 5
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 5
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "read api 570 online",
+      "i": 3,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 3,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "api 510 training online",
+      "i": 2,
+      "c": 0,
+      "pos": 47,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 2,
+        "pos": 47
+       }
+      ]
+     },
+     {
+      "q": "api 570 read online free",
+      "i": 2,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 2,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "certified welding inspector online course",
+      "i": 2,
+      "c": 0,
+      "pos": 58.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-washington-dc",
+        "i": 2,
+        "pos": 58.5
+       }
+      ]
+     }
+    ]
+   },
+   "cost": {
+    "queries": 81,
+    "impressions": 416,
+    "clicks": 5,
+    "wtdPos": 24.2,
+    "top": [
+     {
+      "q": "what's the realistic all-in cost to sponsor one of our field guys through an api 510 pressure vessel inspector certification, including prep course, exam fees, and travel to a prometric center?",
+      "i": 62,
+      "c": 0,
+      "pos": 31.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 45,
+        "pos": 43.4
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 17,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "pass rates on api 510 aren't great, and we're looking at $1,500+ all-in per attempt once you add prep, fees, and travel. is it still worth sponsoring at that cost, or should we restructure how we pick candidates?",
+      "i": 50,
+      "c": 0,
+      "pos": 38,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 34,
+        "pos": 29.4
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 14,
+        "pos": 64.1
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 2,
+        "pos": 1.5
+       }
+      ]
+     },
+     {
+      "q": "ndt certification cost",
+      "i": 24,
+      "c": 0,
+      "pos": 18.3,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 20,
+        "pos": 10.8
+       },
+       {
+        "p": "/ndt-training-houston",
+        "i": 2,
+        "pos": 70
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 course fees",
+      "i": 23,
+      "c": 1,
+      "pos": 29.6,
+      "competing": 8,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 10,
+        "pos": 10.2
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 5,
+        "pos": 14.4
+       },
+       {
+        "p": "/blog/asnt-level-3-cost-2026-what-affects-your-quote",
+        "i": 2,
+        "pos": 32
+       }
+      ]
+     },
+     {
+      "q": "api 510 certification cost",
+      "i": 21,
+      "c": 1,
+      "pos": 8.1,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 19,
+        "pos": 8.6
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/blog/api-570-inspector-salary-2026-by-region-experience",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "api 570 certification cost",
+      "i": 16,
+      "c": 1,
+      "pos": 6.9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 15,
+        "pos": 6.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 1,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "api 653 certification cost",
+      "i": 16,
+      "c": 0,
+      "pos": 3.7,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-653-certification",
+        "i": 8,
+        "pos": 2.8
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 6,
+        "pos": 4.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 2,
+        "pos": 4.5
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 certification cost",
+      "i": 12,
+      "c": 0,
+      "pos": 4.9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 7,
+        "pos": 6.9
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 5,
+        "pos": 2.2
+       }
+      ]
+     },
+     {
+      "q": "ndt inspection cost",
+      "i": 11,
+      "c": 0,
+      "pos": 66.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/tools/ndt-certification-cost-calculator",
+        "i": 11,
+        "pos": 66.5
+       }
+      ]
+     },
+     {
+      "q": "asnt membership fees",
+      "i": 9,
+      "c": 0,
+      "pos": 9.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 8,
+        "pos": 7.1
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 30
+       }
+      ]
+     },
+     {
+      "q": "aws cwi exam cost 2026",
+      "i": 9,
+      "c": 0,
+      "pos": 6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/cwi-certification-requirements-cost-career-impact",
+        "i": 5,
+        "pos": 5.8
+       },
+       {
+        "p": "/blog/cwi-exam-cost-2026-total-investment-calculator",
+        "i": 4,
+        "pos": 6.3
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 exam fees",
+      "i": 8,
+      "c": 0,
+      "pos": 5.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 5,
+        "pos": 4.4
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 3,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "api schedule and fees",
+      "i": 7,
+      "c": 1,
+      "pos": 8.9,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 7,
+        "pos": 8.9
+       }
+      ]
+     },
+     {
+      "q": "api 510 course fee",
+      "i": 7,
+      "c": 0,
+      "pos": 15.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 6,
+        "pos": 17.8
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam fees",
+      "i": 6,
+      "c": 0,
+      "pos": 14.2,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 4,
+        "pos": 5.3
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 2,
+        "pos": 32
+       }
+      ]
+     }
+    ]
+   },
+   "method": {
+    "queries": 8,
+    "impressions": 12,
+    "clicks": 0,
+    "wtdPos": 34.6,
+    "top": [
+     {
+      "q": "ultrasonic testing certification",
+      "i": 4,
+      "c": 0,
+      "pos": 2.5,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 2
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "ndt radiography training",
+      "i": 2,
+      "c": 0,
+      "pos": 62,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-training-new-york",
+        "i": 2,
+        "pos": 62
+       }
+      ]
+     },
+     {
+      "q": "eddy current course",
+      "i": 1,
+      "c": 0,
+      "pos": 5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "eddy current testing training",
+      "i": 1,
+      "c": 0,
+      "pos": 79,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/eddy-current-testing-level-2-course",
+        "i": 1,
+        "pos": 79
+       }
+      ]
+     },
+     {
+      "q": "magnetic particle testing training",
+      "i": 1,
+      "c": 0,
+      "pos": 57,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/magnetic-particle-testing-certification-course",
+        "i": 1,
+        "pos": 57
+       }
+      ]
+     },
+     {
+      "q": "magnetic particle testing training and certification",
+      "i": 1,
+      "c": 0,
+      "pos": 51,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/magnetic-particle-testing-certification-course",
+        "i": 1,
+        "pos": 51
+       }
+      ]
+     },
+     {
+      "q": "ut level 1 certification",
+      "i": 1,
+      "c": 0,
+      "pos": 82,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-level-1-training",
+        "i": 1,
+        "pos": 82
+       }
+      ]
+     },
+     {
+      "q": "ut training",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     }
+    ]
+   },
+   "level": {
+    "queries": 114,
+    "impressions": 1493,
+    "clicks": 5,
+    "wtdPos": 44.6,
+    "top": [
+     {
+      "q": "asnt level iii consulting",
+      "i": 406,
+      "c": 0,
+      "pos": 57.3,
+      "competing": 17,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 59,
+        "pos": 11.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 56,
+        "pos": 81.7
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 52,
+        "pos": 50.5
+       }
+      ]
+     },
+     {
+      "q": "do we accept asnt ndt level iii in lieu of api qute for ut-related scopes on our turnaround contracts, or do we hold the line on qute specifically?",
+      "i": 111,
+      "c": 0,
+      "pos": 53.1,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 45,
+        "pos": 37.6
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-certification-requirements",
+        "i": 30,
+        "pos": 68.3
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+        "i": 19,
+        "pos": 82.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consulting services",
+      "i": 110,
+      "c": 0,
+      "pos": 47.4,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 37,
+        "pos": 18.4
+       },
+       {
+        "p": "/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+        "i": 23,
+        "pos": 25
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 21,
+        "pos": 94.4
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consultant",
+      "i": 106,
+      "c": 0,
+      "pos": 67.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 43,
+        "pos": 85.3
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 29,
+        "pos": 75.8
+       },
+       {
+        "p": "/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+        "i": 21,
+        "pos": 18.3
+       }
+      ]
+     },
+     {
+      "q": "what's the practical difference between holding an asnt ndt level ii and holding a code inspector certification like a pressure vessel or piping inspector cert?",
+      "i": 79,
+      "c": 0,
+      "pos": 40.3,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 48,
+        "pos": 34.9
+       },
+       {
+        "p": "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026",
+        "i": 18,
+        "pos": 40.3
+       },
+       {
+        "p": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+        "i": 9,
+        "pos": 86.2
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 training",
+      "i": 51,
+      "c": 0,
+      "pos": 55.8,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 20,
+        "pos": 49.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 11,
+        "pos": 39
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 9,
+        "pos": 64.4
+       }
+      ]
+     },
+     {
+      "q": "asnt level ii certification employer based snt-tc-1a official",
+      "i": 36,
+      "c": 0,
+      "pos": 9.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 35,
+        "pos": 9.5
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "asnt level iii",
+      "i": 30,
+      "c": 0,
+      "pos": 31.2,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 24,
+        "pos": 25
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 56.2
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing level 3 consulting services",
+      "i": 30,
+      "c": 0,
+      "pos": 29,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 17,
+        "pos": 16.9
+       },
+       {
+        "p": "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
+        "i": 6,
+        "pos": 29.7
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 3,
+        "pos": 41.7
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3",
+      "i": 26,
+      "c": 0,
+      "pos": 20.2,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 21,
+        "pos": 15.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 3,
+        "pos": 64
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3",
+      "i": 26,
+      "c": 0,
+      "pos": 26.4,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 9,
+        "pos": 28.4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 38.5
+       },
+       {
+        "p": "/glossary/level-iii",
+        "i": 4,
+        "pos": 12.5
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level iii certification program",
+      "i": 23,
+      "c": 0,
+      "pos": 51.4,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 8,
+        "pos": 38.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 5,
+        "pos": 72.8
+       },
+       {
+        "p": "/blog/ndt-level-iii-certification-requirements-guide",
+        "i": 4,
+        "pos": 25.8
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level 3 refresher course",
+      "i": 21,
+      "c": 0,
+      "pos": 54.2,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 7,
+        "pos": 40.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 7,
+        "pos": 59.6
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 5,
+        "pos": 65.4
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 preparatory course",
+      "i": 21,
+      "c": 0,
+      "pos": 51.2,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 6,
+        "pos": 38.3
+       },
+       {
+        "p": "/ndt-training-houston",
+        "i": 6,
+        "pos": 70
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 4,
+        "pos": 71
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 requirements",
+      "i": 17,
+      "c": 0,
+      "pos": 18.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 16,
+        "pos": 19.6
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-certification-requirements",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     }
+    ]
+   },
+   "employer": {
+    "queries": 12,
+    "impressions": 296,
+    "clicks": 0,
+    "wtdPos": 30.4,
+    "top": [
+     {
+      "q": "asnt certification nationwide contracts",
+      "i": 94,
+      "c": 0,
+      "pos": 18.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 93,
+        "pos": 18.1
+       },
+       {
+        "p": "/training-usa",
+        "i": 1,
+        "pos": 50
+       }
+      ]
+     },
+     {
+      "q": "should we require api 653 for every tank inspector working on enterprise products contracts, or accept equivalent qualifications case-by-case? looking for a defensible position i can put in writing.",
+      "i": 34,
+      "c": 0,
+      "pos": 30.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 25,
+        "pos": 20.4
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 9,
+        "pos": 57.1
+       }
+      ]
+     },
+     {
+      "q": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance? want to understand how chevron and shell have approached this.",
+      "i": 32,
+      "c": 0,
+      "pos": 47.1,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 24,
+        "pos": 43.6
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 6,
+        "pos": 67
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 2,
+        "pos": 29.5
+       }
+      ]
+     },
+     {
+      "q": "sponsoring api 510 versus ampp cip for our offshore inspection group. which one moves the needle more on operator pre-qual and isn profile for gulf of america work?",
+      "i": 29,
+      "c": 0,
+      "pos": 30,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 29,
+        "pos": 30
+       }
+      ]
+     },
+     {
+      "q": "aws cwis nationwide contracts requirements",
+      "i": 27,
+      "c": 0,
+      "pos": 20.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/cwi-certification-requirements-cost-career-impact",
+        "i": 27,
+        "pos": 20.3
+       }
+      ]
+     },
+     {
+      "q": "should our internal qa inspectors hold both a pressure vessel and a piping inspector certification, or is one sufficient if we cross-train? trying to right-size individual cert load versus team coverage.",
+      "i": 24,
+      "c": 0,
+      "pos": 56.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 24,
+        "pos": 56.3
+       }
+      ]
+     },
+     {
+      "q": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance?",
+      "i": 23,
+      "c": 0,
+      "pos": 39,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 10,
+        "pos": 44.4
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 8,
+        "pos": 37.5
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 5,
+        "pos": 30.4
+       }
+      ]
+     },
+     {
+      "q": "ndt certification nationwide contracts",
+      "i": 19,
+      "c": 0,
+      "pos": 42.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/best-ndt-training-providers-and-programs",
+        "i": 16,
+        "pos": 43.1
+       },
+       {
+        "p": "/training",
+        "i": 3,
+        "pos": 41.7
+       }
+      ]
+     },
+     {
+      "q": "hire a certified welding inspector tampa",
+      "i": 4,
+      "c": 0,
+      "pos": 10.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 4,
+        "pos": 10.8
+       }
+      ]
+     },
+     {
+      "q": "hire a certified welding inspector tampa fl",
+      "i": 4,
+      "c": 0,
+      "pos": 13.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 4,
+        "pos": 13.8
+       }
+      ]
+     },
+     {
+      "q": "hire a certified welding inspector florida",
+      "i": 3,
+      "c": 0,
+      "pos": 42.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 3,
+        "pos": 42.3
+       }
+      ]
+     },
+     {
+      "q": "what governance and documentation should an offshore hse function put in place when accepting ampp or asnt certifications in lieu of the primary code certifications for niche inspection scopes? looking for a defensible exception workflow.",
+      "i": 3,
+      "c": 0,
+      "pos": 10,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026",
+        "i": 1,
+        "pos": 28
+       },
+       {
+        "p": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+        "i": 1,
+        "pos": 1
+       },
+       {
+        "p": "/compare/asnt-vs-pcn",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     }
+    ]
+   },
+   "exam": {
+    "queries": 50,
+    "impressions": 344,
+    "clicks": 4,
+    "wtdPos": 14.1,
+    "top": [
+     {
+      "q": "one of my inspectors just failed api 570 a second time. what are the retake rules, mandatory wait periods, and what's the smart next step before he sits a third time?",
+      "i": 48,
+      "c": 0,
+      "pos": 36.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 41,
+        "pos": 40.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 7,
+        "pos": 13.4
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam schedule 2026",
+      "i": 34,
+      "c": 0,
+      "pos": 4.9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 27,
+        "pos": 3.6
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 7,
+        "pos": 9.9
+       }
+      ]
+     },
+     {
+      "q": "api exam schedule",
+      "i": 30,
+      "c": 0,
+      "pos": 8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 30,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "api exam schedule 2026",
+      "i": 26,
+      "c": 1,
+      "pos": 4.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 24,
+        "pos": 3.8
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 2,
+        "pos": 9.5
+       }
+      ]
+     },
+     {
+      "q": "i've got 5 years of fab shop welding (mostly structural and some pressure piping). does that count toward the work experience requirements for the api 510 pressure vessel inspector exam, or do i need refinery inspection time specifically?",
+      "i": 25,
+      "c": 0,
+      "pos": 43.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 25,
+        "pos": 43.2
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam pass rate",
+      "i": 22,
+      "c": 0,
+      "pos": 5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 21,
+        "pos": 5.2
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam schedule",
+      "i": 18,
+      "c": 0,
+      "pos": 14.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 15,
+        "pos": 8.3
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 3,
+        "pos": 45.7
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam schedule 2026",
+      "i": 17,
+      "c": 2,
+      "pos": 4.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 13,
+        "pos": 3.9
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 4,
+        "pos": 7.5
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam dates",
+      "i": 16,
+      "c": 0,
+      "pos": 10.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 15,
+        "pos": 7.7
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 1,
+        "pos": 57
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam schedule",
+      "i": 13,
+      "c": 1,
+      "pos": 3.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 12,
+        "pos": 3.7
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam",
+      "i": 11,
+      "c": 0,
+      "pos": 4.6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 11,
+        "pos": 4.6
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam schedule 2026",
+      "i": 10,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 8,
+        "pos": 3.6
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 2,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam pass rate",
+      "i": 6,
+      "c": 0,
+      "pos": 4.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-653-certification",
+        "i": 4,
+        "pos": 6.3
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 2,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam scheduled june 15 2025 idc training house",
+      "i": 5,
+      "c": 0,
+      "pos": 6.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 5,
+        "pos": 6.4
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam",
+      "i": 5,
+      "c": 0,
+      "pos": 18,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-653-certification",
+        "i": 5,
+        "pos": 18
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "global": {
+  "totalImpressions": 37103,
+  "totalClicks": 316,
+  "distinctQueries": 3047,
+  "buckets": {
+   "school": {
+    "queries": 22,
+    "impressions": 151,
+    "clicks": 7,
+    "wtdPos": 27,
+    "top": [
+     {
+      "q": "ndt school near me",
+      "i": 18,
+      "c": 3,
+      "pos": 6.4,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-dallas",
+        "i": 6,
+        "pos": 9.2
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 5,
+        "pos": 4.4
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 6.3
+       }
+      ]
+     },
+     {
+      "q": "ndt schools near me",
+      "i": 14,
+      "c": 1,
+      "pos": 29.4,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-dallas",
+        "i": 6,
+        "pos": 5.7
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 4,
+        "pos": 63.3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing schools near me",
+      "i": 14,
+      "c": 2,
+      "pos": 3.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 5,
+        "pos": 3.4
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 4,
+        "pos": 5.5
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 1.5
+       }
+      ]
+     },
+     {
+      "q": "ndt school",
+      "i": 13,
+      "c": 0,
+      "pos": 13.5,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 6,
+        "pos": 5
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 3,
+        "pos": 39.3
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 2,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "ndt technician school",
+      "i": 13,
+      "c": 0,
+      "pos": 22.8,
+      "competing": 10,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 4.5
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 84
+       }
+      ]
+     },
+     {
+      "q": "ndt technician school near me",
+      "i": 13,
+      "c": 0,
+      "pos": 5.7,
+      "competing": 9,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 3.5
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 2,
+        "pos": 3.5
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 2,
+        "pos": 9.5
+       }
+      ]
+     },
+     {
+      "q": "ndt training schools",
+      "i": 11,
+      "c": 0,
+      "pos": 58.9,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-houston",
+        "i": 4,
+        "pos": 81
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 78
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 2,
+        "pos": 5.5
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing school",
+      "i": 11,
+      "c": 0,
+      "pos": 22.6,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 4,
+        "pos": 7.3
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 10.3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 89.5
+       }
+      ]
+     },
+     {
+      "q": "ndt schools in houston tx",
+      "i": 10,
+      "c": 0,
+      "pos": 50,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-training-houston",
+        "i": 10,
+        "pos": 50
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing schools",
+      "i": 6,
+      "c": 0,
+      "pos": 43.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 3,
+        "pos": 57
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 2,
+        "pos": 8
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 73
+       }
+      ]
+     },
+     {
+      "q": "ndt schools",
+      "i": 5,
+      "c": 0,
+      "pos": 56.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 3,
+        "pos": 69.3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 63
+       }
+      ]
+     },
+     {
+      "q": "non destructive inspection schools",
+      "i": 5,
+      "c": 0,
+      "pos": 75.2,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-new-york",
+        "i": 3,
+        "pos": 65.7
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 99
+       },
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 1,
+        "pos": 80
+       }
+      ]
+     },
+     {
+      "q": "nondestructive testing school",
+      "i": 4,
+      "c": 0,
+      "pos": 54.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-houston",
+        "i": 2,
+        "pos": 59.5
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 89
+       }
+      ]
+     },
+     {
+      "q": "nondestructive testing schools",
+      "i": 3,
+      "c": 0,
+      "pos": 55.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 2,
+        "pos": 42
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 83
+       }
+      ]
+     },
+     {
+      "q": "certified welding inspector school",
+      "i": 2,
+      "c": 0,
+      "pos": 51.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-washington-dc",
+        "i": 2,
+        "pos": 51.5
+       }
+      ]
+     }
+    ]
+   },
+   "near_me": {
+    "queries": 31,
+    "impressions": 821,
+    "clicks": 9,
+    "wtdPos": 46.5,
+    "top": [
+     {
+      "q": "ndt training near me",
+      "i": 233,
+      "c": 5,
+      "pos": 44.3,
+      "competing": 19,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 106,
+        "pos": 46.8
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 61,
+        "pos": 67.7
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 14,
+        "pos": 6.4
+       }
+      ]
+     },
+     {
+      "q": "ndt certification near me",
+      "i": 180,
+      "c": 0,
+      "pos": 54.2,
+      "competing": 12,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 96,
+        "pos": 52.4
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 65,
+        "pos": 69.7
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 5,
+        "pos": 4.4
+       }
+      ]
+     },
+     {
+      "q": "asnt training near me",
+      "i": 149,
+      "c": 0,
+      "pos": 40.4,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 63,
+        "pos": 29
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 30,
+        "pos": 55.3
+       },
+       {
+        "p": "/ndt-training-dallas",
+        "i": 28,
+        "pos": 39.8
+       }
+      ]
+     },
+     {
+      "q": "ndt courses near me",
+      "i": 111,
+      "c": 1,
+      "pos": 54.5,
+      "competing": 9,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 56,
+        "pos": 70.5
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 48,
+        "pos": 43.3
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing training near me",
+      "i": 61,
+      "c": 0,
+      "pos": 86.5,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-denver",
+        "i": 40,
+        "pos": 91.2
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 20,
+        "pos": 81.4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt technician training near me",
+      "i": 15,
+      "c": 2,
+      "pos": 1.9,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-new-orleans",
+        "i": 6,
+        "pos": 1.8
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 5,
+        "pos": 2.2
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 2,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt jobs near me",
+      "i": 10,
+      "c": 0,
+      "pos": 3.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 10,
+        "pos": 3.3
+       }
+      ]
+     },
+     {
+      "q": "ndt program near me",
+      "i": 9,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 4,
+        "pos": 4.5
+       },
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 4.5
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "certified welding inspector services near me",
+      "i": 6,
+      "c": 0,
+      "pos": 19.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 6,
+        "pos": 19.8
+       }
+      ]
+     },
+     {
+      "q": "ndt classes near me",
+      "i": 6,
+      "c": 0,
+      "pos": 24.3,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 2,
+        "pos": 67
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 2,
+        "pos": 3.5
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "ndt course near me",
+      "i": 6,
+      "c": 0,
+      "pos": 15.3,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-dammam",
+        "i": 3,
+        "pos": 2.7
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 73
+       },
+       {
+        "p": "/ndt-training-dubai",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt programs near me",
+      "i": 5,
+      "c": 0,
+      "pos": 4.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-austin",
+        "i": 3,
+        "pos": 3.7
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/training/asnt-level-iii-training-tampa",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "ndt training institute near me",
+      "i": 4,
+      "c": 1,
+      "pos": 24,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-atlanta",
+        "i": 1,
+        "pos": 4
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 76
+       },
+       {
+        "p": "/ndt-training-doha",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "ndt certification courses near me",
+      "i": 4,
+      "c": 0,
+      "pos": 2.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 2.5
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-training-denver",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "professional ndt training and certification programs near me.",
+      "i": 3,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/ndt-training-chicago",
+        "i": 1,
+        "pos": 7
+       },
+       {
+        "p": "/ndt-training-philadelphia",
+        "i": 1,
+        "pos": 4
+       },
+       {
+        "p": "/training/asnt-level-iii-training-tampa",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     }
+    ]
+   },
+   "salary": {
+    "queries": 409,
+    "impressions": 7385,
+    "clicks": 35,
+    "wtdPos": 7.9,
+    "top": [
+     {
+      "q": "ndt level 3 salary",
+      "i": 508,
+      "c": 4,
+      "pos": 7.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 501,
+        "pos": 7.5
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 7,
+        "pos": 8.3
+       }
+      ]
+     },
+     {
+      "q": "ndt technician salary",
+      "i": 470,
+      "c": 1,
+      "pos": 5.7,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 366,
+        "pos": 5.5
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 95,
+        "pos": 6.5
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 6,
+        "pos": 8.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level 2 salary in gulf",
+      "i": 332,
+      "c": 1,
+      "pos": 7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 290,
+        "pos": 7.1
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 42,
+        "pos": 6.8
+       }
+      ]
+     },
+     {
+      "q": "ndt inspector salary",
+      "i": 315,
+      "c": 2,
+      "pos": 7.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 312,
+        "pos": 7.8
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 3,
+        "pos": 1.7
+       }
+      ]
+     },
+     {
+      "q": "ndt level 2 salary in india",
+      "i": 227,
+      "c": 0,
+      "pos": 9.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 167,
+        "pos": 10
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 60,
+        "pos": 9.2
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 salary in gulf",
+      "i": 210,
+      "c": 0,
+      "pos": 4.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 147,
+        "pos": 4.6
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 63,
+        "pos": 4.8
+       }
+      ]
+     },
+     {
+      "q": "ndt level 2 salary",
+      "i": 182,
+      "c": 0,
+      "pos": 6.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 176,
+        "pos": 6.8
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 6,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 salary in india",
+      "i": 177,
+      "c": 0,
+      "pos": 8.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 132,
+        "pos": 8.4
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 45,
+        "pos": 8.9
+       }
+      ]
+     },
+     {
+      "q": "non destructive testing salary",
+      "i": 173,
+      "c": 0,
+      "pos": 6.3,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 161,
+        "pos": 6.5
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 9,
+        "pos": 4.3
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "ndt salary",
+      "i": 163,
+      "c": 1,
+      "pos": 6.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 158,
+        "pos": 6.2
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 5,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "ndt salary level 3",
+      "i": 152,
+      "c": 1,
+      "pos": 8.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 150,
+        "pos": 8.6
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 2,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "ndt offshore salary",
+      "i": 142,
+      "c": 0,
+      "pos": 8.1,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 132,
+        "pos": 6.9
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 9,
+        "pos": 22.9
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 1,
+        "pos": 31
+       }
+      ]
+     },
+     {
+      "q": "paut technician salary",
+      "i": 116,
+      "c": 1,
+      "pos": 5.6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 105,
+        "pos": 5.4
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 7,
+        "pos": 6.4
+       },
+       {
+        "p": "/blog/paut-technician-salary-2026-region-cert-industry",
+        "i": 4,
+        "pos": 9.5
+       }
+      ]
+     },
+     {
+      "q": "level 2 ndt technician salary",
+      "i": 109,
+      "c": 0,
+      "pos": 8.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 105,
+        "pos": 8
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 3,
+        "pos": 19.3
+       },
+       {
+        "p": "/blog/ndt-technician-salary-guide-2026-industry-report",
+        "i": 1,
+        "pos": 11
+       }
+      ]
+     },
+     {
+      "q": "ndt level 2 salary in dubai",
+      "i": 106,
+      "c": 0,
+      "pos": 5.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/ndt-technician-salary",
+        "i": 67,
+        "pos": 6.7
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 39,
+        "pos": 3.5
+       }
+      ]
+     }
+    ]
+   },
+   "career_switch": {
+    "queries": 36,
+    "impressions": 193,
+    "clicks": 0,
+    "wtdPos": 36,
+    "top": [
+     {
+      "q": "api 936 (refractory inspector) versus api 653 (storage tank inspector) for getting started in inspection. which is more realistic for a welder with no inspection time logged yet?",
+      "i": 38,
+      "c": 0,
+      "pos": 34.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 25,
+        "pos": 19.4
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 13,
+        "pos": 63.1
+       }
+      ]
+     },
+     {
+      "q": "can a welder with no college degree realistically become a certified pressure vessel inspector in the refining world, or is a degree basically required these days?",
+      "i": 35,
+      "c": 0,
+      "pos": 49.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 35,
+        "pos": 49.7
+       }
+      ]
+     },
+     {
+      "q": "what's the easiest api inspection certification to get for someone brand new to the inspection side, like a welder with no prior qc experience?",
+      "i": 35,
+      "c": 0,
+      "pos": 66.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 34,
+        "pos": 66.1
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 1,
+        "pos": 82
+       }
+      ]
+     },
+     {
+      "q": "are there any api inspection certs i could realistically work on while still wrenching as a journeyman welder, or do they all require you to be in an inspection role first?",
+      "i": 8,
+      "c": 0,
+      "pos": 87.3,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 6,
+        "pos": 88
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 2,
+        "pos": 85
+       }
+      ]
+     },
+     {
+      "q": "aws cwi versus asnt ndt level ii for a journeyman welder. which one opens more doors on the gulf coast refining and fab market?",
+      "i": 7,
+      "c": 0,
+      "pos": 11.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/cwi-certification-requirements-cost-career-impact",
+        "i": 7,
+        "pos": 11.7
+       }
+      ]
+     },
+     {
+      "q": "best accredited nondestructive testing certifications for career advancement.",
+      "i": 7,
+      "c": 0,
+      "pos": 8.9,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/best-ndt-training-providers-and-programs",
+        "i": 5,
+        "pos": 9.4
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 10
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "how to become asnt level ii ndt technician requirements",
+      "i": 7,
+      "c": 0,
+      "pos": 22.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 7,
+        "pos": 22.7
+       }
+      ]
+     },
+     {
+      "q": "how to become asnt ndt level ii technician requirements",
+      "i": 6,
+      "c": 0,
+      "pos": 18.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 6,
+        "pos": 18.8
+       }
+      ]
+     },
+     {
+      "q": "do i really need an aws cwi before i can chase a pressure vessel inspector certification, or can a welder go straight at the pressure vessel cert?",
+      "i": 5,
+      "c": 0,
+      "pos": 22,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 5,
+        "pos": 22
+       }
+      ]
+     },
+     {
+      "q": "how to get nondestructive testing certification for career advancement?",
+      "i": 5,
+      "c": 0,
+      "pos": 8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 5,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "how to become ndt inspector",
+      "i": 4,
+      "c": 0,
+      "pos": 2,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 2
+       },
+       {
+        "p": "/blog/asnt-level-3-cost-2026-what-affects-your-quote",
+        "i": 1,
+        "pos": 2
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "how to become ndt technician",
+      "i": 4,
+      "c": 0,
+      "pos": 3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 3
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "how to become a certified nondestructive testing technician?",
+      "i": 3,
+      "c": 0,
+      "pos": 7.7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 3,
+        "pos": 7.7
+       }
+      ]
+     },
+     {
+      "q": "how long does it take to become a ndt technician",
+      "i": 2,
+      "c": 0,
+      "pos": 3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "how to become a ndt technician",
+      "i": 2,
+      "c": 0,
+      "pos": 9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 15
+       },
+       {
+        "p": "/blog/how-long-does-ndt-training-take",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     }
+    ]
+   },
+   "online": {
+    "queries": 35,
+    "impressions": 361,
+    "clicks": 1,
+    "wtdPos": 38.2,
+    "top": [
+     {
+      "q": "asnt level 3 online training",
+      "i": 72,
+      "c": 0,
+      "pos": 45.7,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 31,
+        "pos": 30.2
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 19,
+        "pos": 49.2
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 12,
+        "pos": 57.3
+       }
+      ]
+     },
+     {
+      "q": "api 570 online",
+      "i": 51,
+      "c": 0,
+      "pos": 25.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 51,
+        "pos": 25.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level iii online courses",
+      "i": 43,
+      "c": 0,
+      "pos": 43.8,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/ndt-training-online",
+        "i": 23,
+        "pos": 25.7
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 49.3
+       },
+       {
+        "p": "/asnt-level-iii-training",
+        "i": 5,
+        "pos": 75.4
+       }
+      ]
+     },
+     {
+      "q": "online ndt level 3 training",
+      "i": 39,
+      "c": 0,
+      "pos": 55.5,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/ndt-training-online",
+        "i": 20,
+        "pos": 33.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 9,
+        "pos": 75.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 5,
+        "pos": 89
+       }
+      ]
+     },
+     {
+      "q": "are remote-proctored api icp exams still available for our field personnel, or did api discontinue proproctor for 510, 570, 653, and 1169? need to know whether to plan around prometric sites only.",
+      "i": 38,
+      "c": 0,
+      "pos": 18.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 38,
+        "pos": 18.4
+       }
+      ]
+     },
+     {
+      "q": "online ndt level 3 training program",
+      "i": 37,
+      "c": 0,
+      "pos": 61.5,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/ndt-training-online",
+        "i": 17,
+        "pos": 39.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 11,
+        "pos": 84.1
+       },
+       {
+        "p": "/asnt-level-iii-training",
+        "i": 8,
+        "pos": 74.8
+       }
+      ]
+     },
+     {
+      "q": "ndt level 1 certification online",
+      "i": 14,
+      "c": 0,
+      "pos": 35.3,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 5,
+        "pos": 9.4
+       },
+       {
+        "p": "/ndt-training-new-york",
+        "i": 4,
+        "pos": 67
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "api 570 online training",
+      "i": 9,
+      "c": 0,
+      "pos": 35.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 7,
+        "pos": 33.6
+       },
+       {
+        "p": "/api-570-training",
+        "i": 2,
+        "pos": 42
+       }
+      ]
+     },
+     {
+      "q": "api 570 online course",
+      "i": 7,
+      "c": 1,
+      "pos": 44.1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 7,
+        "pos": 44.1
+       }
+      ]
+     },
+     {
+      "q": "asnt certification online",
+      "i": 7,
+      "c": 0,
+      "pos": 5.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 7,
+        "pos": 5.4
+       }
+      ]
+     },
+     {
+      "q": "api 570 online training course",
+      "i": 3,
+      "c": 0,
+      "pos": 47,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 2,
+        "pos": 42.5
+       },
+       {
+        "p": "/api-570-training",
+        "i": 1,
+        "pos": 56
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 certificate verification online",
+      "i": 3,
+      "c": 0,
+      "pos": 9.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 3,
+        "pos": 9.3
+       }
+      ]
+     },
+     {
+      "q": "free ndt certification online",
+      "i": 3,
+      "c": 0,
+      "pos": 4.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 5
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 5
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "online",
+      "i": 3,
+      "c": 0,
+      "pos": 4.7,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 1,
+        "pos": 1
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-certification-requirements",
+        "i": 1,
+        "pos": 11
+       },
+       {
+        "p": "/ndt-training-uae",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "read api 570 online",
+      "i": 3,
+      "c": 0,
+      "pos": 1,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 3,
+        "pos": 1
+       }
+      ]
+     }
+    ]
+   },
+   "cost": {
+    "queries": 202,
+    "impressions": 2648,
+    "clicks": 35,
+    "wtdPos": 9.7,
+    "top": [
+     {
+      "q": "asnt level 3 exam fees",
+      "i": 273,
+      "c": 4,
+      "pos": 5.9,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 142,
+        "pos": 5.2
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 112,
+        "pos": 5.8
+       },
+       {
+        "p": "/blog/asnt-level-3-cost-2026-what-affects-your-quote",
+        "i": 18,
+        "pos": 8.2
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam fees",
+      "i": 160,
+      "c": 3,
+      "pos": 7.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 97,
+        "pos": 6.8
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 63,
+        "pos": 9.2
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam fees",
+      "i": 157,
+      "c": 1,
+      "pos": 6.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-653-certification",
+        "i": 72,
+        "pos": 7.5
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 67,
+        "pos": 5.2
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 18,
+        "pos": 6.8
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 course fees",
+      "i": 143,
+      "c": 3,
+      "pos": 7.2,
+      "competing": 13,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 95,
+        "pos": 3
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 31,
+        "pos": 7
+       },
+       {
+        "p": "/blog/asnt-level-3-cost-2026-what-affects-your-quote",
+        "i": 3,
+        "pos": 22.3
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam fees",
+      "i": 126,
+      "c": 2,
+      "pos": 6.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 85,
+        "pos": 6.2
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 41,
+        "pos": 7.5
+       }
+      ]
+     },
+     {
+      "q": "api 510 certification cost",
+      "i": 107,
+      "c": 1,
+      "pos": 8.3,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 99,
+        "pos": 8.8
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 4,
+        "pos": 1
+       },
+       {
+        "p": "/blog/api-510-certification-cost-2026-what-affects-your-quote",
+        "i": 2,
+        "pos": 4
+       }
+      ]
+     },
+     {
+      "q": "api fees and schedule",
+      "i": 103,
+      "c": 0,
+      "pos": 7.5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 103,
+        "pos": 7.5
+       }
+      ]
+     },
+     {
+      "q": "api 653 certification cost",
+      "i": 93,
+      "c": 2,
+      "pos": 4.7,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-653-certification",
+        "i": 48,
+        "pos": 4.8
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 31,
+        "pos": 4.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 14,
+        "pos": 4.2
+       }
+      ]
+     },
+     {
+      "q": "api schedule and fees",
+      "i": 76,
+      "c": 1,
+      "pos": 8.2,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 75,
+        "pos": 8.3
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 1,
+        "pos": 2
+       }
+      ]
+     },
+     {
+      "q": "api 570 certification cost",
+      "i": 73,
+      "c": 2,
+      "pos": 7,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 64,
+        "pos": 7.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 8,
+        "pos": 2
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "api exam fees",
+      "i": 64,
+      "c": 2,
+      "pos": 6.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 62,
+        "pos": 6.4
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 1,
+        "pos": 2
+       },
+       {
+        "p": "/blog/api-570-certification-cost-2026-what-affects-your-quote",
+        "i": 1,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "what's the realistic all-in cost to sponsor one of our field guys through an api 510 pressure vessel inspector certification, including prep course, exam fees, and travel to a prometric center?",
+      "i": 64,
+      "c": 0,
+      "pos": 31,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 46,
+        "pos": 42.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 18,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "asnt membership fees",
+      "i": 63,
+      "c": 1,
+      "pos": 6.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 57,
+        "pos": 6.2
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 6,
+        "pos": 12
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 exam fees in india",
+      "i": 63,
+      "c": 0,
+      "pos": 7.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 26,
+        "pos": 7.5
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 25,
+        "pos": 7.2
+       },
+       {
+        "p": "/blog/asnt-level-3-cost-2026-what-affects-your-quote",
+        "i": 12,
+        "pos": 7.7
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 fees",
+      "i": 56,
+      "c": 1,
+      "pos": 6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 27,
+        "pos": 5.9
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 21,
+        "pos": 5.9
+       },
+       {
+        "p": "/blog/asnt-level-3-cost-2026-what-affects-your-quote",
+        "i": 8,
+        "pos": 6.8
+       }
+      ]
+     }
+    ]
+   },
+   "method": {
+    "queries": 14,
+    "impressions": 26,
+    "clicks": 0,
+    "wtdPos": 26.7,
+    "top": [
+     {
+      "q": "pa-ut training",
+      "i": 5,
+      "c": 0,
+      "pos": 31.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/phased-array-training",
+        "i": 5,
+        "pos": 31.4
+       }
+      ]
+     },
+     {
+      "q": "ultrasonic testing certification",
+      "i": 4,
+      "c": 0,
+      "pos": 2.5,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 2,
+        "pos": 2
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 3
+       }
+      ]
+     },
+     {
+      "q": "paut certification",
+      "i": 3,
+      "c": 0,
+      "pos": 6,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 1,
+        "pos": 6
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 6
+       },
+       {
+        "p": "/ndt-technician-salary",
+        "i": 1,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "ndt radiography training",
+      "i": 2,
+      "c": 0,
+      "pos": 62,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-training-new-york",
+        "i": 2,
+        "pos": 62
+       }
+      ]
+     },
+     {
+      "q": "ultrasonic testing course",
+      "i": 2,
+      "c": 0,
+      "pos": 4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 2,
+        "pos": 4
+       }
+      ]
+     },
+     {
+      "q": "ut level 1 certification",
+      "i": 2,
+      "c": 0,
+      "pos": 42.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/ndt-level-1-training",
+        "i": 1,
+        "pos": 82
+       }
+      ]
+     },
+     {
+      "q": "dye penetrant inspection certification",
+      "i": 1,
+      "c": 0,
+      "pos": 82,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/ndt-training-vancouver",
+        "i": 1,
+        "pos": 82
+       }
+      ]
+     },
+     {
+      "q": "eddy current course",
+      "i": 1,
+      "c": 0,
+      "pos": 5,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 5
+       }
+      ]
+     },
+     {
+      "q": "eddy current testing training",
+      "i": 1,
+      "c": 0,
+      "pos": 79,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/eddy-current-testing-level-2-course",
+        "i": 1,
+        "pos": 79
+       }
+      ]
+     },
+     {
+      "q": "magnetic particle inspection certification",
+      "i": 1,
+      "c": 0,
+      "pos": 4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 4
+       }
+      ]
+     },
+     {
+      "q": "magnetic particle testing course",
+      "i": 1,
+      "c": 0,
+      "pos": 6,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 1,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "magnetic particle testing training",
+      "i": 1,
+      "c": 0,
+      "pos": 57,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/magnetic-particle-testing-certification-course",
+        "i": 1,
+        "pos": 57
+       }
+      ]
+     },
+     {
+      "q": "magnetic particle testing training and certification",
+      "i": 1,
+      "c": 0,
+      "pos": 51,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/magnetic-particle-testing-certification-course",
+        "i": 1,
+        "pos": 51
+       }
+      ]
+     },
+     {
+      "q": "ut training",
+      "i": 1,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 1,
+        "pos": 7
+       }
+      ]
+     }
+    ]
+   },
+   "level": {
+    "queries": 192,
+    "impressions": 2921,
+    "clicks": 35,
+    "wtdPos": 28.1,
+    "top": [
+     {
+      "q": "asnt level iii consulting",
+      "i": 406,
+      "c": 0,
+      "pos": 57.3,
+      "competing": 17,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 59,
+        "pos": 11.9
+       },
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 56,
+        "pos": 81.7
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 52,
+        "pos": 50.5
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3",
+      "i": 154,
+      "c": 1,
+      "pos": 6.3,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 119,
+        "pos": 4.5
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 11,
+        "pos": 11.6
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 8,
+        "pos": 6.1
+       }
+      ]
+     },
+     {
+      "q": "do we accept asnt ndt level iii in lieu of api qute for ut-related scopes on our turnaround contracts, or do we hold the line on qute specifically?",
+      "i": 117,
+      "c": 0,
+      "pos": 52.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 47,
+        "pos": 38
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-certification-requirements",
+        "i": 31,
+        "pos": 68.9
+       },
+       {
+        "p": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+        "i": 19,
+        "pos": 82.3
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consulting services",
+      "i": 110,
+      "c": 0,
+      "pos": 47.4,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/blog/ndt-level-iii-consulting-services-guide",
+        "i": 37,
+        "pos": 18.4
+       },
+       {
+        "p": "/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+        "i": 23,
+        "pos": 25
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 21,
+        "pos": 94.4
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 consultant",
+      "i": 106,
+      "c": 0,
+      "pos": 67.5,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 43,
+        "pos": 85.3
+       },
+       {
+        "p": "/consulting/ndt-consulting-level-iii",
+        "i": 29,
+        "pos": 75.8
+       },
+       {
+        "p": "/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+        "i": 21,
+        "pos": 18.3
+       }
+      ]
+     },
+     {
+      "q": "asnt level 3 exam schedule 2026",
+      "i": 85,
+      "c": 0,
+      "pos": 7.8,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 64,
+        "pos": 8.4
+       },
+       {
+        "p": "/asnt-certification",
+        "i": 16,
+        "pos": 5.9
+       },
+       {
+        "p": "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026",
+        "i": 2,
+        "pos": 5.5
+       }
+      ]
+     },
+     {
+      "q": "what's the practical difference between holding an asnt ndt level ii and holding a code inspector certification like a pressure vessel or piping inspector cert?",
+      "i": 81,
+      "c": 0,
+      "pos": 39.8,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 50,
+        "pos": 34.3
+       },
+       {
+        "p": "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026",
+        "i": 18,
+        "pos": 40.3
+       },
+       {
+        "p": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+        "i": 9,
+        "pos": 86.2
+       }
+      ]
+     },
+     {
+      "q": "gaji ndt level 2",
+      "i": 72,
+      "c": 1,
+      "pos": 5.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 72,
+        "pos": 5.8
+       }
+      ]
+     },
+     {
+      "q": "gaji ndt level 1",
+      "i": 71,
+      "c": 1,
+      "pos": 4.2,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 71,
+        "pos": 4.2
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3",
+      "i": 65,
+      "c": 0,
+      "pos": 13.3,
+      "competing": 11,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 23,
+        "pos": 15.8
+       },
+       {
+        "p": "/blog/ndt-salary-guide-2026-global",
+        "i": 13,
+        "pos": 3.1
+       },
+       {
+        "p": "/blog/asnt-level-3-fees-2026-complete-pricing-table",
+        "i": 9,
+        "pos": 3.2
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level iii certification program",
+      "i": 59,
+      "c": 0,
+      "pos": 33.1,
+      "competing": 6,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 35,
+        "pos": 23.5
+       },
+       {
+        "p": "/blog/ndt-level-iii-certification-requirements-guide",
+        "i": 10,
+        "pos": 19.7
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 5,
+        "pos": 72.8
+       }
+      ]
+     },
+     {
+      "q": "ndt level 3 training",
+      "i": 51,
+      "c": 0,
+      "pos": 55.8,
+      "competing": 7,
+      "top": [
+       {
+        "p": "/training/asnt-level-iii-training-san-diego",
+        "i": 20,
+        "pos": 49.3
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 11,
+        "pos": 39
+       },
+       {
+        "p": "/training/asnt-level-iii-training-washington-dc",
+        "i": 9,
+        "pos": 64.4
+       }
+      ]
+     },
+     {
+      "q": "asnt level iii",
+      "i": 50,
+      "c": 0,
+      "pos": 21.3,
+      "competing": 5,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 38,
+        "pos": 18.2
+       },
+       {
+        "p": "/training/asnt-level-iii-training-cincinnati",
+        "i": 6,
+        "pos": 56.2
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 4,
+        "pos": 5.5
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level 3 preparatory course",
+      "i": 50,
+      "c": 0,
+      "pos": 40.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 35,
+        "pos": 36.3
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 15,
+        "pos": 50.6
+       }
+      ]
+     },
+     {
+      "q": "asnt ndt level 3 basic exam preparatory course",
+      "i": 45,
+      "c": 0,
+      "pos": 37,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 23,
+        "pos": 33.8
+       },
+       {
+        "p": "/resources/asnt-level-iii-study-guide",
+        "i": 22,
+        "pos": 40.5
+       }
+      ]
+     }
+    ]
+   },
+   "employer": {
+    "queries": 12,
+    "impressions": 303,
+    "clicks": 0,
+    "wtdPos": 30.2,
+    "top": [
+     {
+      "q": "asnt certification nationwide contracts",
+      "i": 94,
+      "c": 0,
+      "pos": 18.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/asnt-certification",
+        "i": 93,
+        "pos": 18.1
+       },
+       {
+        "p": "/training-usa",
+        "i": 1,
+        "pos": 50
+       }
+      ]
+     },
+     {
+      "q": "should we require api 653 for every tank inspector working on enterprise products contracts, or accept equivalent qualifications case-by-case? looking for a defensible position i can put in writing.",
+      "i": 35,
+      "c": 0,
+      "pos": 29.7,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 26,
+        "pos": 20.2
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 9,
+        "pos": 57.1
+       }
+      ]
+     },
+     {
+      "q": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance? want to understand how chevron and shell have approached this.",
+      "i": 34,
+      "c": 0,
+      "pos": 45.3,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 25,
+        "pos": 43.2
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 6,
+        "pos": 67
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 3,
+        "pos": 20
+       }
+      ]
+     },
+     {
+      "q": "sponsoring api 510 versus ampp cip for our offshore inspection group. which one moves the needle more on operator pre-qual and isn profile for gulf of america work?",
+      "i": 32,
+      "c": 0,
+      "pos": 29.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 32,
+        "pos": 29.4
+       }
+      ]
+     },
+     {
+      "q": "aws cwis nationwide contracts requirements",
+      "i": 27,
+      "c": 0,
+      "pos": 20.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/cwi-certification-requirements-cost-career-impact",
+        "i": 27,
+        "pos": 20.3
+       }
+      ]
+     },
+     {
+      "q": "should our internal qa inspectors hold both a pressure vessel and a piping inspector certification, or is one sufficient if we cross-train? trying to right-size individual cert load versus team coverage.",
+      "i": 24,
+      "c": 0,
+      "pos": 56.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 24,
+        "pos": 56.3
+       }
+      ]
+     },
+     {
+      "q": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance?",
+      "i": 24,
+      "c": 0,
+      "pos": 39,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 11,
+        "pos": 44.1
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 8,
+        "pos": 37.5
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 5,
+        "pos": 30.4
+       }
+      ]
+     },
+     {
+      "q": "ndt certification nationwide contracts",
+      "i": 19,
+      "c": 0,
+      "pos": 42.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/best-ndt-training-providers-and-programs",
+        "i": 16,
+        "pos": 43.1
+       },
+       {
+        "p": "/training",
+        "i": 3,
+        "pos": 41.7
+       }
+      ]
+     },
+     {
+      "q": "hire a certified welding inspector tampa",
+      "i": 4,
+      "c": 0,
+      "pos": 10.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 4,
+        "pos": 10.8
+       }
+      ]
+     },
+     {
+      "q": "hire a certified welding inspector tampa fl",
+      "i": 4,
+      "c": 0,
+      "pos": 13.8,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 4,
+        "pos": 13.8
+       }
+      ]
+     },
+     {
+      "q": "hire a certified welding inspector florida",
+      "i": 3,
+      "c": 0,
+      "pos": 42.3,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/training/cwi-training-tampa",
+        "i": 3,
+        "pos": 42.3
+       }
+      ]
+     },
+     {
+      "q": "what governance and documentation should an offshore hse function put in place when accepting ampp or asnt certifications in lieu of the primary code certifications for niche inspection scopes? looking for a defensible exception workflow.",
+      "i": 3,
+      "c": 0,
+      "pos": 10,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026",
+        "i": 1,
+        "pos": 28
+       },
+       {
+        "p": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+        "i": 1,
+        "pos": 1
+       },
+       {
+        "p": "/compare/asnt-vs-pcn",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     }
+    ]
+   },
+   "exam": {
+    "queries": 88,
+    "impressions": 3429,
+    "clicks": 68,
+    "wtdPos": 7.1,
+    "top": [
+     {
+      "q": "api exam schedule",
+      "i": 646,
+      "c": 7,
+      "pos": 6.4,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 644,
+        "pos": 6.4
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 1,
+        "pos": 3
+       },
+       {
+        "p": "/blog/api-570-inspector-salary-2026-by-region-experience",
+        "i": 1,
+        "pos": 8
+       }
+      ]
+     },
+     {
+      "q": "api exam schedule 2026",
+      "i": 554,
+      "c": 20,
+      "pos": 4.8,
+      "competing": 3,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 506,
+        "pos": 4.4
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 46,
+        "pos": 9.3
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 2,
+        "pos": 6.5
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam schedule 2026",
+      "i": 413,
+      "c": 5,
+      "pos": 5.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 255,
+        "pos": 3.8
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 158,
+        "pos": 8.3
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam schedule 2026",
+      "i": 335,
+      "c": 11,
+      "pos": 5.1,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 219,
+        "pos": 4.1
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 116,
+        "pos": 6.9
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam schedule",
+      "i": 275,
+      "c": 3,
+      "pos": 7.2,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 264,
+        "pos": 6.5
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 11,
+        "pos": 23.2
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam schedule 2026",
+      "i": 202,
+      "c": 8,
+      "pos": 4.8,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 159,
+        "pos": 3.7
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 43,
+        "pos": 9
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam schedule",
+      "i": 140,
+      "c": 3,
+      "pos": 6.9,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 132,
+        "pos": 6.7
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 8,
+        "pos": 11
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam schedule",
+      "i": 109,
+      "c": 2,
+      "pos": 5.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 103,
+        "pos": 4.9
+       },
+       {
+        "p": "/api-653-certification",
+        "i": 6,
+        "pos": 18.7
+       }
+      ]
+     },
+     {
+      "q": "ut exam",
+      "i": 108,
+      "c": 0,
+      "pos": 7,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/ut-level-2-practice-questions",
+        "i": 108,
+        "pos": 7
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam pass rate",
+      "i": 74,
+      "c": 1,
+      "pos": 4.5,
+      "competing": 4,
+      "top": [
+       {
+        "p": "/api-510-certification",
+        "i": 71,
+        "pos": 4
+       },
+       {
+        "p": "/api-570-certification",
+        "i": 1,
+        "pos": 45
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 1,
+        "pos": 1
+       }
+      ]
+     },
+     {
+      "q": "one of my inspectors just failed api 570 a second time. what are the retake rules, mandatory wait periods, and what's the smart next step before he sits a third time?",
+      "i": 50,
+      "c": 0,
+      "pos": 36.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 42,
+        "pos": 41.2
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 8,
+        "pos": 11.9
+       }
+      ]
+     },
+     {
+      "q": "api 570 exam",
+      "i": 46,
+      "c": 0,
+      "pos": 8.6,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-570-certification",
+        "i": 44,
+        "pos": 8.7
+       },
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 2,
+        "pos": 6
+       }
+      ]
+     },
+     {
+      "q": "api exam schedule 2027",
+      "i": 38,
+      "c": 0,
+      "pos": 7.4,
+      "competing": 1,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 38,
+        "pos": 7.4
+       }
+      ]
+     },
+     {
+      "q": "api 510 exam dates",
+      "i": 36,
+      "c": 0,
+      "pos": 9.5,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/blog/api-510-570-653-exam-schedule-2026",
+        "i": 33,
+        "pos": 7.5
+       },
+       {
+        "p": "/api-510-certification",
+        "i": 3,
+        "pos": 32
+       }
+      ]
+     },
+     {
+      "q": "api 653 exam",
+      "i": 35,
+      "c": 1,
+      "pos": 11.4,
+      "competing": 2,
+      "top": [
+       {
+        "p": "/api-653-certification",
+        "i": 27,
+        "pos": 11.7
+       },
+       {
+        "p": "/blog/api-653-certification-complete-guide",
+        "i": 8,
+        "pos": 10.4
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "cannibalised": [
+  {
+   "q": "asnt level iii consulting",
+   "i": 406,
+   "pages": 17,
+   "detail": [
+    "/blog/ndt-level-iii-consulting-services-guide 59i p12",
+    "/training/asnt-level-iii-training-san-diego 56i p82",
+    "/consulting/ndt-consulting-level-iii 52i p51",
+    "/asnt-certification 47i p60",
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 34i p13"
+   ]
+  },
+  {
+   "q": "ndt training near me",
+   "i": 228,
+   "pages": 15,
+   "detail": [
+    "/ndt-training-denver 106i p47",
+    "/ndt-training-atlanta 61i p68",
+    "/ndt-training-dallas 14i p6",
+    "/ndt-training-new-orleans 14i p60",
+    "/training/asnt-level-iii-training-cincinnati 7i p9"
+   ]
+  },
+  {
+   "q": "ndt certification near me",
+   "i": 180,
+   "pages": 12,
+   "detail": [
+    "/ndt-training-denver 96i p52",
+    "/ndt-training-atlanta 65i p70",
+    "/ndt-training-dallas 5i p4",
+    "/asnt-certification 3i p3",
+    "/ndt-training-st-louis 3i p3"
+   ]
+  },
+  {
+   "q": "asnt training near me",
+   "i": 149,
+   "pages": 6,
+   "detail": [
+    "/ndt-training-denver 63i p29",
+    "/ndt-training-atlanta 30i p55",
+    "/ndt-training-dallas 28i p40",
+    "/ndt-training-new-orleans 26i p51",
+    "/ndt-training-detroit 1i p36"
+   ]
+  },
+  {
+   "q": "api 653 certification",
+   "i": 133,
+   "pages": 4,
+   "detail": [
+    "/api-653-certification 93i p19",
+    "/blog/api-653-certification-complete-guide 36i p15",
+    "/blog/api-510-570-653-exam-schedule-2026 3i p3",
+    "/blog/ndt-salary-guide-2026-global 1i p3"
+   ]
+  },
+  {
+   "q": "snt-tc-1a",
+   "i": 114,
+   "pages": 6,
+   "detail": [
+    "/blog/asnt-snt-tc-1a-certification-requirements 73i p18",
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison 30i p19",
+    "/asnt-certification 8i p32",
+    "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison 1i p5",
+    "/glossary/snt-tc-1a 1i p13"
+   ]
+  },
+  {
+   "q": "do we accept asnt ndt level iii in lieu of api qute for ut-related scopes on our turnaround contracts, or do we hold the line on qute specifically?",
+   "i": 111,
+   "pages": 6,
+   "detail": [
+    "/asnt-certification 45i p38",
+    "/blog/asnt-snt-tc-1a-certification-requirements 30i p68",
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison 19i p82",
+    "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026 8i p16",
+    "/consulting/ndt-consulting-level-iii 5i p38"
+   ]
+  },
+  {
+   "q": "ndt level 3 consulting services",
+   "i": 110,
+   "pages": 7,
+   "detail": [
+    "/blog/ndt-level-iii-consulting-services-guide 37i p18",
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 23i p25",
+    "/consulting/ndt-consulting-level-iii 21i p94",
+    "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime 14i p52",
+    "/training/asnt-level-iii-training-san-diego 10i p87"
+   ]
+  },
+  {
+   "q": "ndt level 3 consultant",
+   "i": 106,
+   "pages": 6,
+   "detail": [
+    "/training/asnt-level-iii-training-san-diego 43i p85",
+    "/consulting/ndt-consulting-level-iii 29i p76",
+    "/blog/ndt-consulting-questions-answered-by-level-iii-expert 21i p18",
+    "/training/asnt-level-iii-training-washington-dc 9i p89",
+    "/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime 2i p22"
+   ]
+  },
+  {
+   "q": "ndt courses near me",
+   "i": 105,
+   "pages": 4,
+   "detail": [
+    "/ndt-training-atlanta 56i p70",
+    "/ndt-training-denver 47i p44",
+    "/ndt-training-new-orleans 1i p5",
+    "/ndt-training-new-york 1i p6"
+   ]
+  },
+  {
+   "q": "api 570",
+   "i": 91,
+   "pages": 4,
+   "detail": [
+    "/api-570-certification 85i p24",
+    "/blog/api-510-570-653-exam-schedule-2026 4i p3",
+    "/api-653-certification 1i p1",
+    "/blog/api-570-inspector-salary-2026-by-region-experience 1i p3"
+   ]
+  },
+  {
+   "q": "atlantis ndt",
+   "i": 89,
+   "pages": 8,
+   "detail": [
+    "/training 48i p1",
+    "/training-me 22i p1",
+    "/ndt-training-new-orleans 14i p1",
+    "/ndt-training-midland 1i p1",
+    "/consulting/ndt-consulting-level-iii 1i p1"
+   ]
+  },
+  {
+   "q": "is getting an api 510 certification still worth the time and cost in 2026, given the salary bump and the way the oil and gas inspection market is heading?",
+   "i": 87,
+   "pages": 6,
+   "detail": [
+    "/api-510-certification 34i p20",
+    "/blog/api-570-inspector-salary-2026-by-region-experience 30i p8",
+    "/api-570-certification 10i p86",
+    "/blog/api-510-570-653-exam-schedule-2026 8i p60",
+    "/blog/ndt-salary-guide-2026-global 4i p77"
+   ]
+  },
+  {
+   "q": "asnt",
+   "i": 85,
+   "pages": 6,
+   "detail": [
+    "/asnt-certification 77i p21",
+    "/blog/asnt-level-3-fees-2026-complete-pricing-table 2i p3",
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison 2i p6",
+    "/blog/ndt-salary-guide-2026-global 2i p3",
+    "/blog/asnt-snt-tc-1a-certification-requirements 1i p2"
+   ]
+  },
+  {
+   "q": "what's the practical difference between holding an asnt ndt level ii and holding a code inspector certification like a pressure vessel or piping inspector cert?",
+   "i": 79,
+   "pages": 6,
+   "detail": [
+    "/asnt-certification 48i p35",
+    "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026 18i p40",
+    "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison 9i p86",
+    "/api-510-certification 2i p1",
+    "/api-570-certification 1i p1"
+   ]
+  },
+  {
+   "q": "asnt snt-tc-1a",
+   "i": 72,
+   "pages": 4,
+   "detail": [
+    "/blog/asnt-snt-tc-1a-certification-requirements 35i p6",
+    "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison 21i p2",
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison 14i p10",
+    "/asnt-certification 2i p27"
+   ]
+  },
+  {
+   "q": "ndt technician salary",
+   "i": 66,
+   "pages": 5,
+   "detail": [
+    "/ndt-technician-salary 34i p9",
+    "/blog/ndt-salary-guide-2026-global 27i p5",
+    "/blog/ndt-technician-salary-guide-2026-industry-report 3i p7",
+    "/asnt-certification 1i p3",
+    "/blog/asnt-level-3-fees-2026-complete-pricing-table 1i p3"
+   ]
+  },
+  {
+   "q": "ndt certification",
+   "i": 65,
+   "pages": 14,
+   "detail": [
+    "/blog/ndt-salary-guide-2026-global 18i p3",
+    "/ndt-training-denver 14i p42",
+    "/asnt-certification 12i p22",
+    "/ndt-training-new-york 5i p61",
+    "/ndt-level-1-training 3i p67"
+   ]
+  },
+  {
+   "q": "ndt technician",
+   "i": 55,
+   "pages": 4,
+   "detail": [
+    "/blog/ndt-salary-guide-2026-global 41i p3",
+    "/blog/how-long-does-ndt-training-take 10i p3",
+    "/asnt-certification 2i p3",
+    "/blog/asnt-level-3-fees-2026-complete-pricing-table 2i p3"
+   ]
+  },
+  {
+   "q": "what inspector certifications are oil majors and big midstream operators actually requiring on offshore and onshore contracts in 2026? i'm trying to get ahead of bid eligibility on the api icp side for my team.",
+   "i": 54,
+   "pages": 4,
+   "detail": [
+    "/api-570-certification 27i p35",
+    "/blog/api-570-inspector-salary-2026-by-region-experience 15i p12",
+    "/blog/api-510-570-653-exam-schedule-2026 7i p70",
+    "/api-510-certification 5i p50"
+   ]
+  }
+ ]
+}

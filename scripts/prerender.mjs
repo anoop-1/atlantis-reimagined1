@@ -21,6 +21,7 @@ import { CTR_WAVE5_OVERRIDES, assertNoPricesInWave5 } from './ctr-wave5-override
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
+import { applyZeroImpressionPrune } from './zero-impression-prune.mjs';
 import { ERP_HUB_META } from './erp-generic-positioning.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -13197,6 +13198,19 @@ if (pseoNoindexApplied > 0) {
       `🔓 Noindex re-evaluation: ${dec.reindexed} pages re-indexed · ${dec.kept} kept noindex ` +
       `(too thin ${dec.reasons.thin} · near-duplicate ${dec.reasons.duplicate} · no city-specific research ${dec.reasons.generic})`
     );
+  }
+
+  // ── ZERO-IMPRESSION PRUNE 2026-08-16 (owner-approved) ──────────────────────
+  // Runs AFTER reindexQualifiedPages by design: that pass un-noindexes on
+  // content quality; this one noindexes on demand evidence (43.7% of the
+  // sitemap earned zero impressions in 90d — section 40.5). Marked routes carry
+  // prunedByDemand, which the reindex candidate filter skips, so the two
+  // can never fight. Tranches ship disabled until each is enabled in its
+  // own owner-approved commit (SCOPES in zero-impression-prune.mjs).
+  {
+    const pr = applyZeroImpressionPrune(routes, SEO_DEMAND);
+    if (pr.pruned) console.log(`✂️  Zero-impression prune: ${pr.pruned} pages noindexed (follow) ${JSON.stringify(pr.byFamily)} · protected: ${pr.protectedEarning} earning, ${pr.protectedRecent} recent, ${pr.skippedResearched} researched`);
+    else console.log(`✂️  Zero-impression prune: no tranche enabled (${pr.note || 'idle'})`);
   }
 
   const meta = disambiguateMeta(routes);
