@@ -8,9 +8,12 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs",
+    "build": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && node scripts/lint-citation-spec.mjs",
     "sitemaps": "node scripts/generate-sitemaps.mjs",
-    "build:full": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && npm run sitemaps"
+    "build:full": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && npm run sitemaps",
+    "build:strict": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && node scripts/lint-citation-spec.mjs --strict",
+    "citation:gate": "node scripts/lint-citation-spec.mjs",
+    "citation:panel": "node scripts/track-citations.mjs --report"
   },
   "reactSnap": {
     "inlineCss": false,
