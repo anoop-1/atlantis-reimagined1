@@ -13108,6 +13108,95 @@ ${urls}
   if (n) console.log(`🔢 ERP city titles de-numbered: ${n}`);
 }
 
+// ─── AUTHOR ENTITY 2026-08-18 ──────────────────────────────────────────────
+// Every citation-layer byline links to /authors/anoop-rayavarapu, so this route
+// must exist in the static HTML or each byline resolves to a 404 — worse than
+// carrying no byline. Also the E-E-A-T asset the competitor audit found nobody
+// holds: of ten ASNT Level III consulting competitors fetched, only two named a
+// human being anywhere on the page.
+routes.push({
+  path: '/authors/anoop-rayavarapu',
+  // Person + hasCredential must be in the STATIC HTML. Emitting it only through
+  // React SEOHead leaves the entity invisible to every crawler and retriever,
+  // which is the same two-layer trap the citation blocks hit.
+  structuredData: {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Person',
+        '@id': 'https://atlantisndt.com/#anoop-rayavarapu',
+        name: 'Anoop Rayavarapu',
+        jobTitle: 'Founder & CEO, Atlantis NDT',
+        url: 'https://atlantisndt.com/authors/anoop-rayavarapu',
+        description:
+          'ASNT NDT Level III certified across UT, RT, MT, PT, VT and ET, API 653 aboveground storage tank inspector and ISO 9001:2015 lead auditor. Technical reviewer for Atlantis NDT certification, code and inspection guidance.',
+        knowsAbout: [
+          'Nondestructive testing', 'Ultrasonic testing', 'Radiographic testing',
+          'Magnetic particle testing', 'Liquid penetrant testing', 'Eddy current testing',
+          'ASNT SNT-TC-1A', 'ANSI/ASNT CP-189', 'NAS 410', 'ISO 9712',
+          'API 653', 'API 510', 'API 570', 'ASME Section V', 'AWS D1.1',
+        ],
+        hasCredential: [
+          {
+            '@type': 'EducationalOccupationalCredential',
+            credentialCategory: 'certification',
+            name: 'ASNT NDT Level III (UT, RT, MT, PT, VT, ET)',
+            recognizedBy: { '@type': 'Organization', name: 'American Society for Nondestructive Testing' },
+          },
+          {
+            '@type': 'EducationalOccupationalCredential',
+            credentialCategory: 'certification',
+            name: 'API 653 Aboveground Storage Tank Inspector',
+            recognizedBy: { '@type': 'Organization', name: 'American Petroleum Institute' },
+          },
+          {
+            '@type': 'EducationalOccupationalCredential',
+            credentialCategory: 'certification',
+            name: 'ISO 9001:2015 Lead Auditor',
+            recognizedBy: { '@type': 'Organization', name: 'International Organization for Standardization' },
+          },
+        ],
+        worksFor: { '@type': 'Organization', '@id': 'https://atlantisndt.com/#organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' },
+      },
+      {
+        '@type': 'ProfilePage',
+        '@id': 'https://atlantisndt.com/authors/anoop-rayavarapu#profile',
+        url: 'https://atlantisndt.com/authors/anoop-rayavarapu',
+        mainEntity: { '@id': 'https://atlantisndt.com/#anoop-rayavarapu' },
+      },
+    ],
+  },
+  title: 'Anoop Rayavarapu — ASNT NDT Level III, Technical Reviewer',
+  description:
+    'ASNT NDT Level III certified across UT, RT, MT, PT, VT and ET, API 653 tank inspector and ISO 9001:2015 lead auditor. Technical reviewer for Atlantis NDT certification, code and inspection guidance.',
+  h1: 'Anoop Rayavarapu',
+  bodyContent:
+    '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n' +
+    '  <main>\n' +
+    '    <h1>Anoop Rayavarapu</h1>\n' +
+    '    <p>ASNT NDT Level III · Founder, Atlantis NDT · Technical reviewer</p>\n' +
+    '    <section data-citation-block="answer" aria-label="Direct answer">' +
+    '<p>Anoop Rayavarapu holds ASNT NDT Level III certification across six methods — UT, RT, MT, PT, VT and ET — together with API 653 aboveground storage tank inspector certification and ISO 9001:2015 lead auditor qualification. He reviews the certification, code and inspection guidance published on this site.</p>' +
+    '<p>A Level III is the only level authorised to approve NDT procedures, author or approve an employer written practice, and administer the examinations by which Level I and Level II technicians are qualified under ASNT SNT-TC-1A. That authority is what makes technical review meaningful rather than editorial: the guidance on this site is checked by someone who carries the same responsibility in practice, across oil and gas, petrochemical, aerospace and marine inspection programmes in the United States, the Middle East and India.</p>' +
+    '<p><strong>Source:</strong> ASNT SNT-TC-1A (2024 edition) · API Individual Certification Programs · ISO 9001:2015</p>' +
+    '</section>\n' +
+    '    <figure data-citation-block="table"><table><caption>Held certifications, the body that grants each, and what each authorises</caption>' +
+    '<thead><tr><th scope="col">Certification</th><th scope="col">Granted by</th><th scope="col">Authorises</th></tr></thead>' +
+    '<tbody>' +
+    '<tr><th scope="row">ASNT NDT Level III (UT, RT, MT, PT, VT, ET)</th><td>American Society for Nondestructive Testing</td><td>Approving procedures, authoring written practice, qualifying personnel</td></tr>' +
+    '<tr><th scope="row">API 653</th><td>American Petroleum Institute</td><td>Aboveground storage tank inspection, repair and alteration</td></tr>' +
+    '<tr><th scope="row">ISO 9001:2015 Lead Auditor</th><td>ISO-recognised certification body</td><td>Auditing quality management systems, including NDT programmes</td></tr>' +
+    '</tbody></table></figure>\n' +
+    '    <h2>What is an ASNT NDT Level III authorised to do?</h2><p>A Level III approves NDT procedures, authors or approves the employer written practice, and administers the examinations by which Level I and Level II technicians are qualified. Under SNT-TC-1A the employer certifies its own personnel, and the Level III supplies the technical authority behind that certification.</p>\n' +
+    '    <h2>Which methods is this reviewer certified in?</h2><p>Six: ultrasonic testing, radiographic testing, magnetic particle testing, liquid penetrant testing, visual testing and eddy current testing. Method-specific certification matters because a Level III may only approve procedures and qualify personnel in the methods they themselves hold.</p>\n' +
+    '    <h2>Why does a named technical reviewer matter on NDT guidance?</h2><p>Certification, code and inspection content carries real consequences — a wrong training-hour figure or acceptance criterion propagates into a personnel file or an inspection report. A named reviewer holding the relevant certification is accountable for what the page claims.</p>\n' +
+    '    <h2>Can an outside Level III certify our technicians?</h2><p>No. Under SNT-TC-1A certification is employer-based, so your company issues and signs the certificates. An outside Level III authors or approves the written practice, prepares and grades examinations and approves procedures, while the certifying body remains the employer.</p>\n' +
+    '    <h2>What is API 653 certification?</h2><p>API 653 certifies inspectors to evaluate aboveground storage tanks for integrity, and to specify repairs and alterations. It is granted by the American Petroleum Institute under its Individual Certification Programs and is independent of the ASNT level ladder.</p>\n' +
+    '    <h2>How do I request a technical review or Level III engagement?</h2><p>Atlantis NDT provides outsourced ASNT Level III services — written practice development, procedure approval, examination administration and audit support — for employers without a Level III on staff. Scope and engagement model are quoted on request.</p>\n' +
+    '    <p><a href="/contact?service=consulting&amp;subject=ASNT%20Level%20III%20enquiry">Discuss a Level III engagement</a></p>\n' +
+    '  </main>',
+});
+
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
 const routeMap = new Map();
 // 2026-07-18 fix: later duplicate entries used to CLOBBER earlier ones wholesale,

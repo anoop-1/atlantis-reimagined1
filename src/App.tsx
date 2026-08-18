@@ -247,6 +247,10 @@ const NdtInspectorSalary = lazy(() => import("./pages/ndt-inspector-salary"));
 // 2026-08-09 — national "near me" hub. 883 US impressions were resolving to
 // /ndt-training-denver at position 45-90 because no national page existed.
 const NdtTrainingNearMe = lazy(() => import("./pages/ndt-training-near-me"));
+// 2026-08-18 — author entity. Every citation-layer byline links here, so without
+// this route each byline is a 404. Also the E-E-A-T asset no competitor holds:
+// of ten Level III consulting competitors audited, only two named a human at all.
+const AuthorAnoopRayavarapu = lazy(() => import("./pages/authors/anoop-rayavarapu"));
 const NDTMethodsComparison = lazy(() => import("./pages/ndt-methods-comparison"));
 const NDTCertificationGuide = lazy(() => import("./pages/ndt-certification-guide"));
 // Tools
@@ -3101,6 +3105,7 @@ const App = () => (
                   <Route path="/ndt-level-3-salary" element={<LazyRoute Component={NdtLevel3Salary} />} />
                   <Route path="/ndt-inspector-salary" element={<LazyRoute Component={NdtInspectorSalary} />} />
                   <Route path="/ndt-training-near-me" element={<LazyRoute Component={NdtTrainingNearMe} />} />
+                  <Route path="/authors/anoop-rayavarapu" element={<LazyRoute Component={AuthorAnoopRayavarapu} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />
