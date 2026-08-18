@@ -26,6 +26,7 @@ import { CTR_WAVE4_OVERRIDES } from './ctr-wave4-overrides.mjs';
 import { CTR_WAVE5_OVERRIDES, assertNoPricesInWave5 } from './ctr-wave5-overrides.mjs';
 import { CTR_WAVE6_OVERRIDES, assertNoPricesInWave6, assertNoTitleCollisions } from './ctr-wave6-overrides.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
+import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -13041,16 +13042,17 @@ ${urls}
   // HERE to exist at all. Appended to bodyContent rather than replacing it, so
   // nothing already on the page is lost. Verified by lint-citation-spec.mjs.
   {
+    const ALL_CITATION_LAYERS = { ...CITATION_LAYERS, ...CITATION_LAYERS_BATCH2 };
     let applied = 0;
     const missingCitation = [];
     for (const r of routes) {
-      const layer = CITATION_LAYERS[r.path];
+      const layer = ALL_CITATION_LAYERS[r.path];
       if (!layer) continue;
       r.bodyContent = (r.bodyContent || '') + '\n' + renderCitationLayer(layer);
       applied++;
     }
-    for (const k of Object.keys(CITATION_LAYERS)) if (!paths.has(k)) missingCitation.push(k);
-    console.log(`Citation layers applied: ${applied}/${Object.keys(CITATION_LAYERS).length}` + (missingCitation.length ? ` - MISSING ROUTES: ${missingCitation.join(', ')}` : ''));
+    for (const k of Object.keys(ALL_CITATION_LAYERS)) if (!paths.has(k)) missingCitation.push(k);
+    console.log(`Citation layers applied: ${applied}/${Object.keys(ALL_CITATION_LAYERS).length}` + (missingCitation.length ? ` - MISSING ROUTES: ${missingCitation.join(', ')}` : ''));
   }
 
   const m5 = Object.keys(CTR_WAVE5_OVERRIDES).filter(p => !paths.has(p));
