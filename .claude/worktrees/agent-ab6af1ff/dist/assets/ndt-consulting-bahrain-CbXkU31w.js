@@ -1,1 +1,0 @@
-import{j as o}from"./index-DPOIg50j.js";import{C as t}from"./ConsultingLocationPage-7t7YMvOu.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function s(){return o.jsx(t,{locationSlug:"bahrain"})}export{s as default};

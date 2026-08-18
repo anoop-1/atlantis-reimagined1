@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CPaMOKsP.js";import{g as t,T as n}from"./TrainingLocationPage-C0X5TrjV.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CbqUmtro.js";import"./erp-pages-u1FJgmcy.js";function s(){const r=t("antwerp");return r?i.jsx(n,{profile:r}):null}export{s as default};

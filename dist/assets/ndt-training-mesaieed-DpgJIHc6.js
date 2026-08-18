@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CPaMOKsP.js";import{g as t,T as e}from"./TrainingLocationPage-C0X5TrjV.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CbqUmtro.js";import"./erp-pages-u1FJgmcy.js";function p(){const i=t("mesaieed");return i?r.jsx(e,{profile:i}):null}export{p as default};

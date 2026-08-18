@@ -1,1 +1,0 @@
-import{j as r}from"./index-DPOIg50j.js";import{E as a}from"./ErpLocationPage-Ti-_fVvD.js";import"./file-text-CV4Dgu4d.js";function p(){return r.jsx(a,{city:"Calgary",country:"Canada",slug:"ndt-erp-calgary"})}export{p as default};

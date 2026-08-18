@@ -1,1 +1,0 @@
-import{j as i}from"./index-DPOIg50j.js";import{D as t}from"./DigitalTwinLocationPage-D79q0iCD.js";import"./monitor-BTW9eSAn.js";import"./chart-no-axes-column-DW9rW0MY.js";import"./file-text-CV4Dgu4d.js";function e(){return i.jsx(t,{city:"Hyderabad",country:"India",slug:"digital-twin-hyderabad"})}export{e as default};

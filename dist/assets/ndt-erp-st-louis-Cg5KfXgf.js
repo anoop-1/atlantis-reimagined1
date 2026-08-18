@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CPaMOKsP.js";import{E as o}from"./ErpLocationPage-CFsbFtUI.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function a(){return t.jsx(o,{city:"St. Louis",country:"USA",slug:"ndt-erp-st-louis"})}export{a as default};

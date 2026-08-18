@@ -1,1 +1,0 @@
-import{j as a}from"./index-DPOIg50j.js";import{E as r}from"./ErpLocationPage-Ti-_fVvD.js";import"./file-text-CV4Dgu4d.js";function u(){return a.jsx(r,{city:"Saudi Arabia",country:"Saudi Arabia",slug:"ndt-erp-saudi-arabia"})}export{u as default};

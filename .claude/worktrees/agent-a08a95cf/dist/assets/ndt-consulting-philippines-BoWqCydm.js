@@ -1,1 +1,0 @@
-import{j as i}from"./index-DPOIg50j.js";import{C as o}from"./ConsultingLocationPage-7t7YMvOu.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function s(){return i.jsx(o,{locationSlug:"philippines"})}export{s as default};

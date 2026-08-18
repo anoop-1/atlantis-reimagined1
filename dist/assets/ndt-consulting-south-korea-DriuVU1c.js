@@ -1,1 +1,0 @@
-import{j as o}from"./blog-pages-CPaMOKsP.js";import{C as t}from"./ConsultingLocationPage-92znDWkK.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function u(){return o.jsx(t,{locationSlug:"south-korea"})}export{u as default};

@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CPaMOKsP.js";import{g as t,T as o}from"./TrainingLocationPage-C0X5TrjV.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CbqUmtro.js";import"./erp-pages-u1FJgmcy.js";function s(){const r=t("kerteh");return r?i.jsx(o,{profile:r}):null}export{s as default};

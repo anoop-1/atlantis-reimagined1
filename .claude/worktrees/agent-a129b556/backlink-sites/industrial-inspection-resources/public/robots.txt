@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://industrial-inspection-resources.vercel.app/sitemap.xml

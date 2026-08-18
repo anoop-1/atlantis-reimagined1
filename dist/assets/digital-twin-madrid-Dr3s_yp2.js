@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CPaMOKsP.js";import{D as t}from"./DigitalTwinLocationPage-Cd6bkfzm.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function s(){return i.jsx(t,{city:"Madrid",country:"Spain",slug:"digital-twin-madrid"})}export{s as default};

@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CPaMOKsP.js";import o from"./MethodLocationPage-BrDvJBtm.js";import"./PillarHubNav-Bef1r64A.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-u1FJgmcy.js";function e(){return t.jsx(o,{methodSlug:"ultrasonic-testing",locationSlug:"kuwait"})}export{e as default};

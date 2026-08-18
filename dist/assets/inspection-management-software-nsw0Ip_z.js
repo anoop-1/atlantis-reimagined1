@@ -1,1 +1,0 @@
-import{j as t,b$ as n}from"./blog-pages-CPaMOKsP.js";import{g as a}from"./money-pages-Czr_Irc5.js";function s(){const e=a("inspection-management-software");return e?t.jsx(n,{page:e}):null}export{s as default};

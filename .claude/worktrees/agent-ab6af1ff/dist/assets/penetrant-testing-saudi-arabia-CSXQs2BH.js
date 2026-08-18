@@ -1,1 +1,0 @@
-import{j as t}from"./index-DPOIg50j.js";import{M as a}from"./MethodLocationPage-DCSBcGty.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function n(){return t.jsx(a,{methodSlug:"penetrant-testing",locationSlug:"saudi-arabia"})}export{n as default};

@@ -1,1 +1,0 @@
-import{j as n}from"./blog-pages-CPaMOKsP.js";import{g as r,T as a}from"./TrainingLocationPage-C0X5TrjV.js";import"./build-hreflang-CViNgX-s.js";import"./RelatedProducts-CbqUmtro.js";import"./erp-pages-u1FJgmcy.js";function p(){const i=r("savannah");return i?n.jsx(a,{profile:i}):null}export{p as default};

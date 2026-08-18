@@ -1,1 +1,0 @@
-import{j as r}from"./blog-pages-CPaMOKsP.js";import{E as t}from"./ErpLocationPage-CFsbFtUI.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function f(){return r.jsx(t,{city:"Mussafah",country:"UAE",slug:"ndt-erp-mussafah"})}export{f as default};

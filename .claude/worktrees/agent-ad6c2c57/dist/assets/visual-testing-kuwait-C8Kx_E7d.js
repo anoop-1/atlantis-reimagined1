@@ -1,1 +1,0 @@
-import{j as t}from"./index-DPOIg50j.js";import{M as o}from"./MethodLocationPage-DCSBcGty.js";import"./programmatic-seo-BNa9jy8q.js";import"./file-text-CV4Dgu4d.js";function e(){return t.jsx(o,{methodSlug:"visual-testing",locationSlug:"kuwait"})}export{e as default};

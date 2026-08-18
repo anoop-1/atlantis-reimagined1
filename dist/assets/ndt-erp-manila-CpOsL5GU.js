@@ -1,1 +1,0 @@
-import{j as i}from"./blog-pages-CPaMOKsP.js";import{E as r}from"./ErpLocationPage-CFsbFtUI.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function e(){return i.jsx(r,{city:"Manila",country:"Philippines",slug:"ndt-erp-manila"})}export{e as default};

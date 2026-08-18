@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://asset-integrity-hub.vercel.app/sitemap.xml

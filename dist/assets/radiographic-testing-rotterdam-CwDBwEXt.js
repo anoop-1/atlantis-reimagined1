@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CPaMOKsP.js";import o from"./MethodLocationPage-BrDvJBtm.js";import"./PillarHubNav-Bef1r64A.js";import"./programmatic-seo-DGll7qKc.js";import"./erp-pages-u1FJgmcy.js";function p(){return t.jsx(o,{methodSlug:"radiographic-testing",locationSlug:"rotterdam"})}export{p as default};

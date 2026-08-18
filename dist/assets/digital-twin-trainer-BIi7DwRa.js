@@ -1,1 +1,0 @@
-import{j as t}from"./blog-pages-CPaMOKsP.js";import{D as i}from"./DigitalTwinLocationPage-Cd6bkfzm.js";import"./PillarHubNav-Bef1r64A.js";import"./build-hreflang-CViNgX-s.js";import"./badge-DyJEh5NS.js";import"./erp-pages-u1FJgmcy.js";import"./RelatedProducts-CbqUmtro.js";function s(){return t.jsx(i,{city:"Trainer",country:"USA",slug:"digital-twin-trainer"})}export{s as default};
