@@ -87,6 +87,50 @@ export const CLUSTERS = {
       { path: '/erp/ndt-inspection-software-comparison', anchor: 'NDT inspection software compared' },
     ],
   },
+  // ── Training tree, added 2026-08-18 ────────────────────────────────────────
+  // Split into three clusters rather than one, because the buyers differ. A
+  // candidate choosing a level is not the employer choosing an industry cohort,
+  // and collapsing them into a single 16-link block would dilute every link and
+  // blur what each hub is about.
+  trainingLevels: {
+    hub: { path: '/training', anchor: 'NDT training programmes' },
+    label: 'NDT certification levels',
+    members: [
+      { path: '/ndt-level-1-training', anchor: 'NDT Level I training and what it authorises' },
+      { path: '/ndt-level-2-training', anchor: 'NDT Level II training and interpretation authority' },
+      { path: '/asnt-level-iii-training', anchor: 'ASNT Level III training and procedure approval' },
+      { path: '/blog/ndt-training-hours-requirements-by-method', anchor: 'training hours by method and scheme' },
+      { path: '/blog/ndt-salary-guide-2026-global', anchor: 'what each level pays' },
+    ],
+  },
+  trainingMethods: {
+    hub: { path: '/training', anchor: 'all NDT training programmes' },
+    label: 'NDT method training',
+    members: [
+      { path: '/ultrasonic-testing-training', anchor: 'ultrasonic testing training' },
+      { path: '/radiographic-testing-training', anchor: 'radiographic testing training' },
+      { path: '/magnetic-particle-testing-training', anchor: 'magnetic particle testing training' },
+      { path: '/penetrant-testing-training', anchor: 'liquid penetrant testing training' },
+      { path: '/visual-testing-training', anchor: 'visual testing training' },
+      { path: '/eddy-current-testing-training', anchor: 'eddy current testing training' },
+    ],
+  },
+  trainingIndustries: {
+    // Hubbed on the corporate page rather than /training: the industry buyer is
+    // an employer sponsoring a cohort, and that is the page built for them.
+    hub: { path: '/corporate-ndt-training', anchor: 'employer-sponsored NDT training' },
+    label: 'NDT training by industry',
+    members: [
+      { path: '/oil-gas-ndt-training', anchor: 'oil and gas NDT training' },
+      { path: '/aerospace-ndt-training', anchor: 'aerospace NDT training and NAS 410' },
+      { path: '/aviation-ndt-training', anchor: 'aviation MRO NDT training' },
+      { path: '/nuclear-ndt-training', anchor: 'nuclear NDT training' },
+      { path: '/maritime-ndt-training', anchor: 'maritime and offshore NDT training' },
+      { path: '/manufacturing-ndt-training', anchor: 'manufacturing and fabrication NDT training' },
+      { path: '/training-usa', anchor: 'corporate NDT training in the US' },
+    ],
+  },
+
   certification: {
     hub: { path: '/asnt-certification', anchor: 'the ASNT certification pathway' },
     label: 'NDT certification',
