@@ -27,6 +27,7 @@ import { CTR_WAVE5_OVERRIDES, assertNoPricesInWave5 } from './ctr-wave5-override
 import { CTR_WAVE6_OVERRIDES, assertNoPricesInWave6, assertNoTitleCollisions } from './ctr-wave6-overrides.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
+import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -13042,7 +13043,10 @@ ${urls}
   // HERE to exist at all. Appended to bodyContent rather than replacing it, so
   // nothing already on the page is lost. Verified by lint-citation-spec.mjs.
   {
-    const ALL_CITATION_LAYERS = { ...CITATION_LAYERS, ...CITATION_LAYERS_BATCH2 };
+    // Generated layers first so the two hand-written batches win on any path
+    // they share — those were authored against specific GSC evidence and the
+    // generated set is broader.
+    const ALL_CITATION_LAYERS = { ...CITATION_LAYERS_GENERATED, ...CITATION_LAYERS, ...CITATION_LAYERS_BATCH2 };
     let applied = 0;
     const missingCitation = [];
     for (const r of routes) {
