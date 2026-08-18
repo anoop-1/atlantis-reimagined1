@@ -13,8 +13,8 @@
  *
  * To change a layer, edit the source JSON and re-run the generator.
  *
- * Generated: 2026-08-18T04:42:26.130Z
- * Layers: 17
+ * Generated: 2026-08-18T09:56:31.067Z
+ * Layers: 66
  */
 
 export const CITATION_LAYERS_GENERATED = {
@@ -1525,6 +1525,4269 @@ export const CITATION_LAYERS_GENERATED = {
           {
               "q": "What do you need to sit the API 653 certification exam?",
               "a": "API's Individual Certification Programs sets eligibility by education plus inspection experience — broadly one year with a four-year engineering or technology degree, two years with a two-year degree or certificate, three years with a high school diploma, and five years with none. The examination is part closed-book and part open-book across API 653, API 650 and supporting ASME material, and certification runs on a three-year recertification cycle."
+          }
+      ]
+  },
+
+  "/ndt-level-1-training": {
+      "answer": "NDT Level I qualifies a technician to set up equipment to a written instruction, perform the test, and record results — under the supervision of a certified Level II or Level III. Level I does not interpret or evaluate results against acceptance criteria and does not sign an accept/reject decision. Certification comes from the employer under SNT-TC-1A, not from ASNT.",
+      "expansion": "Level I is the entry certification in the ASNT SNT-TC-1A scheme and the only level with no prior NDT certification prerequisite. A candidate needs a current annual near-vision acuity test (Jaeger 1 or equivalent) and a colour-contrast test, the classroom training hours for the method — 40 hours for UT, RT and ET, 12 for MT, 8 for PT and VT — and 130 to 210 logged on-the-job hours under a certified Level II or III. Certification follows a general written exam, a method written exam and a practical demonstration on reference specimens, all administered against the employer's Written Practice. The authority granted is deliberately narrow: perform the test, record the data, hand the interpretation upward. ASNT's third-party ACCP programme issues no Level I credential at all; it begins at Level II. US Level I roles run $40,000–$55,000.",
+      "source": "ASNT Recommended Practice No. SNT-TC-1A (2020 edition), Personnel Qualification and Certification in Nondestructive Testing — recommended initial training and experience table; ANSI/ASNT CP-189; ASNT Central Certification Program (ACCP) scope. US pay bands cross-referenced from /blog/ndt-salary-guide-2026-global.",
+      "table": {
+          "caption": "NDT Level I authority boundary — which level may perform, interpret and sign each task",
+          "columns": [
+              "Task",
+              "Level I",
+              "Level II",
+              "Level III"
+          ],
+          "rows": [
+              [
+                  "Set up and operate equipment to a written instruction",
+                  "Yes, under supervision",
+                  "Yes, independently",
+                  "Yes"
+              ],
+              [
+                  "Calibrate equipment and select technique parameters",
+                  "No",
+                  "Yes, within an approved procedure",
+                  "Yes, and qualifies the parameters"
+              ],
+              [
+                  "Interpret indications and evaluate against acceptance criteria",
+                  "No",
+                  "Yes",
+                  "Yes"
+              ],
+              [
+                  "Sign the accept/reject disposition on a report",
+                  "No",
+                  "Yes",
+                  "Yes"
+              ],
+              [
+                  "Write a technique sheet under an approved procedure",
+                  "No",
+                  "Yes",
+                  "Yes"
+              ],
+              [
+                  "Write and approve the inspection procedure",
+                  "No",
+                  "No",
+                  "Yes"
+              ],
+              [
+                  "Train, examine and certify Level I and Level II personnel",
+                  "No",
+                  "No",
+                  "Yes"
+              ],
+              [
+                  "Third-party portable credential available (ASNT ACCP)",
+                  "No — ACCP starts at Level II",
+                  "Yes",
+                  "Yes"
+              ]
+          ],
+          "note": "Authority is method-specific: a Level II in MT holds none of these rights in UT. Boundaries follow SNT-TC-1A; an employer's Written Practice can narrow them further and cannot widen them beyond the level held."
+      },
+      "facets": [
+          {
+              "q": "What does an NDT Level I technician get paid in the United States?",
+              "a": "US NDT Level I roles run $40,000–$55,000 a year, against $55,000–$80,000 at Level II and $80,000–$130,000 at Level III. Level I sits at the bottom of the ladder because it carries no interpretation authority — pay rises with the right to sign an accept/reject decision, not with time served. Method mix and travel move the figure. Full bands are in the NDT Salary Guide 2026."
+          },
+          {
+              "q": "Can a Level I technician sign an inspection report?",
+              "a": "No. A Level I records data and hands it to a certified Level II or Level III, who interprets the indications, evaluates them against the acceptance criteria and signs. A report carrying only a Level I signature fails an audit against SNT-TC-1A and against most client quality specifications. Level I output is raw data, not a disposition."
+          },
+          {
+              "q": "How many classroom hours does Level I require for each method?",
+              "a": "Under SNT-TC-1A recommended minimums: Ultrasonic, Radiographic and Eddy Current require 40 classroom hours each; Magnetic Particle requires 12; Liquid Penetrant and Visual Testing require 8 each. Those cover theory only. Logged on-the-job experience of 130 to 210 hours per method, supervised by a certified Level II or III, is separate and additional to the classroom requirement."
+          },
+          {
+              "q": "Does ASNT issue the Level I certificate?",
+              "a": "No. SNT-TC-1A is a recommended practice, not a certifying body. Your employer writes a Written Practice describing how it implements the recommendation and certifies you against that document once training hours, experience hours and exam results are on file. ASNT's third-party ACCP programme issues no Level I credential — it starts at Level II. Changing employers means re-certifying under the new Written Practice."
+          },
+          {
+              "q": "Which method should a new technician certify in first at Level I?",
+              "a": "MT and PT reach Level I fastest — 12 and 8 classroom hours. UT carries 40 classroom hours and the strongest pay trajectory: US MT and PT technicians earn $50,000–$65,000 at Level II, while PAUT and TOFD specialists built on a UT foundation earn $80,000–$110,000. Fabrication and weld shops start technicians on MT and PT; refineries and pipelines want UT."
+          },
+          {
+              "q": "What comes after Level I, and how long does it take to get there?",
+              "a": "Level II in the same method. It adds classroom hours on top of the Level I hours — 40 more for UT, RT and ET, 24 for MT, 16 for PT and VT — plus substantially more logged experience. Technicians with steady exposure to the method reach Level II 6 to 12 months after Level I. Level II is where interpretation authority and the accept/reject signature arrive."
+          }
+      ]
+  },
+
+  "/ndt-level-2-training": {
+      "answer": "NDT Level II is the working certification. The holder calibrates equipment, selects technique parameters within an approved procedure, interprets indications, evaluates them against acceptance criteria, writes technique sheets and signs the accept/reject disposition on a report. Level II requires current Level I in the same method plus additional classroom and logged experience hours. Two routes issue it: employer SNT-TC-1A, or portable ASNT ACCP.",
+      "expansion": "Level II is where an NDT programme's output becomes defensible, because it is the first level permitted to interpret. The prerequisite is current Level I certification in that same method — Level II is method-specific, not a general promotion. Classroom hours stack on the Level I hours: UT, RT and ET add 40 each for 80 cumulative; MT adds 24 for 36 cumulative; PT and VT add 16 each for 24 cumulative. Logged on-the-job experience increases substantially and sets the real timeline. The examination adds calibration, code interpretation and acceptance-criteria judgement to the Level I written and practical format. Two issuing routes exist: an employer certifies against its own Written Practice under SNT-TC-1A, or ASNT certifies directly under ACCP, whose credential is portable between employers. Neither route accepts a fully online pathway. US Level II roles run $55,000–$80,000.",
+      "source": "ASNT Recommended Practice No. SNT-TC-1A (2020 edition) — recommended initial training and experience table; ASNT Central Certification Program (ACCP) Level II requirements; ANSI/ASNT CP-189. US pay bands cross-referenced from /blog/ndt-salary-guide-2026-global.",
+      "table": {
+          "caption": "Level II classroom-hour ladder by method, and the authority the added hours unlock",
+          "columns": [
+              "Method",
+              "Level I classroom hours",
+              "Level II additional hours",
+              "Cumulative through Level II",
+              "Interpretation authority added at Level II"
+          ],
+          "rows": [
+              [
+                  "Ultrasonic (UT)",
+                  "40",
+                  "40",
+                  "80",
+                  "Calibration block setup, DAC/TCG construction, thickness and weld flaw evaluation to code"
+              ],
+              [
+                  "Radiographic (RT)",
+                  "40",
+                  "40",
+                  "80",
+                  "Density and IQI verification, radiograph interpretation and film disposition to code"
+              ],
+              [
+                  "Eddy Current (ET)",
+                  "40",
+                  "40",
+                  "80",
+                  "Reference standard setup, phase and impedance signal interpretation, sizing calls"
+              ],
+              [
+                  "Magnetic Particle (MT)",
+                  "12",
+                  "24",
+                  "36",
+                  "Field direction and technique selection, indication classification, demagnetisation judgement"
+              ],
+              [
+                  "Liquid Penetrant (PT)",
+                  "8",
+                  "16",
+                  "24",
+                  "Penetrant system selection, dwell and developer control, indication evaluation"
+              ],
+              [
+                  "Visual (VT)",
+                  "8",
+                  "16",
+                  "24",
+                  "Weld acceptance criteria evaluation, lighting and equipment verification, direct disposition"
+              ]
+          ],
+          "note": "Classroom hours only. Logged on-the-job experience under a certified Level II or III is separate, rises sharply at Level II, and is the step that sets the calendar. Hours are per method and do not transfer between methods."
+      },
+      "facets": [
+          {
+              "q": "What does an NDT Level II technician earn in the United States?",
+              "a": "US NDT Level II roles run $55,000–$80,000 a year, above the $40,000–$55,000 Level I band and below $80,000–$130,000 at Level III. Method drives the spread: MT and PT technicians sit at $50,000–$65,000, while PAUT and TOFD specialists reach $80,000–$110,000. Offshore rotations add 30–50%. Full segmentation by method, industry and country is in the NDT Salary Guide 2026."
+          },
+          {
+              "q": "What exactly can a Level II sign that a Level I cannot?",
+              "a": "The accept/reject disposition. A Level II calibrates the equipment, selects technique parameters within an approved procedure, interprets indications, evaluates them against the code acceptance criteria, writes technique sheets and signs the report. A Level II also supervises Level I technicians and verifies their recorded data. A Level II cannot write or approve the governing procedure itself — that authority belongs to Level III."
+          },
+          {
+              "q": "Is ACCP Level II worth adding if I already hold SNT-TC-1A Level II?",
+              "a": "Add ACCP when portability has value: multi-site employers, aerospace and government-adjacent contracts prefer or specify a third-party credential. ASNT administers the standardised exam and issues the certificate, so it survives a change of employer. SNT-TC-1A Level II is tied to one employer's Written Practice and is re-issued on every move. ACCP has no Level I tier, so Level II is its entry point."
+          },
+          {
+              "q": "Can NDT Level II training be completed online?",
+              "a": "Theory yes, practical no. Calibration principles, code and standard interpretation and acceptance-criteria evaluation are delivered live-virtual or self-paced under both SNT-TC-1A and ACCP. Equipment setup, calibration on real specimens, indication interpretation and the supervised experience hours require physical equipment and an in-person assessor. No legitimate scheme certifies a Level II from theory alone."
+          },
+          {
+              "q": "Does Level II in one method carry over to another method?",
+              "a": "No. Certification is per method. A technician holding Level II in MT starts a second method at Level I, with that method's own classroom hours, its own logged experience and its own examinations. The annual vision test and general theory background carry across; the method training and experience do not. Adding PT to an existing MT Level II starts with 8 Level I classroom hours."
+          },
+          {
+              "q": "What has to happen before a Level II can move up to Level III?",
+              "a": "Documented experience, measured in years. SNT-TC-1A equivalency provisions set 4,200 hours for a candidate holding a qualifying engineering or science degree and 12,600 hours on the high-school-diploma path, on top of Level II certification in the method. Most Level IIs need 18 to 36 months of further qualifying work before enough hours exist to sit the Basic and Method examinations."
+          }
+      ]
+  },
+
+  "/asnt-level-iii-training": {
+      "answer": "ASNT Level III is the technical-authority certification. The holder writes and approves inspection procedures, selects methods for a given application, authors and owns the employer's Written Practice, and trains, examines and certifies Level I and Level II personnel. Entry requires prior Level II in the method plus documented experience — 4,200 hours with a qualifying engineering or science degree, 12,600 hours without.",
+      "expansion": "Level III is the only level that creates authority rather than exercising it. A Level II works inside an approved procedure; a Level III writes that procedure, qualifies it for a specific material, thickness range and geometry, approves it, and answers for it to an auditor. The same person is named in the employer's Written Practice as the authority who trains, examines and certifies Level I and Level II personnel. Examination has three parts: a Basic exam on materials, processes, discontinuities and the certification schemes, taken once and carried across every method; a Method exam per method sought; and an employer-specific exam where a Written Practice calls for one. Prior Level II certification in the method plus 4,200 documented hours with a qualifying degree, or 12,600 hours without, is the standard route. US Level III roles run $80,000–$130,000.",
+      "source": "ASNT Recommended Practice No. SNT-TC-1A (2020 edition) equivalency provisions; ANSI/ASNT CP-189, Standard for Qualification and Certification of Nondestructive Testing Personnel; ANSI/ASNT CP-105 topical outlines for the Basic and Method examinations; ASNT ACCP Professional Level III. US pay bands cross-referenced from /blog/ndt-salary-guide-2026-global.",
+      "table": {
+          "caption": "Five ways to hold Level III authority — issuer, portability, prerequisite and scope",
+          "columns": [
+              "Level III route",
+              "Issued by",
+              "Portable between employers",
+              "Prerequisite",
+              "Authority it carries"
+          ],
+          "rows": [
+              [
+                  "SNT-TC-1A employer Level III",
+                  "Your employer, under its own Written Practice",
+                  "No — re-appointed on each move",
+                  "Level II in the method, exams and experience per that Written Practice",
+                  "Procedure approval, Written Practice authorship and personnel certification for that employer"
+              ],
+              [
+                  "ANSI/ASNT CP-189 Level III",
+                  "Employer, against a national standard rather than a recommended practice",
+                  "No",
+                  "Level II plus the CP-189 education and experience criteria",
+                  "Same authority, held to a standard an auditor enforces clause by clause"
+              ],
+              [
+                  "ASNT NDT Level III",
+                  "ASNT directly",
+                  "Yes",
+                  "Basic examination plus one Method examination per method sought",
+                  "Third-party evidence of Level III competence; the employer still names the Level III in its Written Practice"
+              ],
+              [
+                  "ACCP Professional Level III",
+                  "ASNT directly",
+                  "Yes",
+                  "Level II experience route plus ASNT examination",
+                  "Portable third-party Level III, preferred in aerospace and government-adjacent work"
+              ],
+              [
+                  "Contract / outsourced Level III of record",
+                  "Engaged from an external provider",
+                  "Held by the provider, not the employer",
+                  "None on your own staff",
+                  "Named technical authority of record who approves procedures and owns the Written Practice from day one"
+              ]
+          ],
+          "note": "The contract route is the only one that delivers Level III authority without first accumulating 4,200 or 12,600 documented hours — see NDT Level III consulting. ASNT-issued routes prove competence; an employer still names a Level III in its own Written Practice."
+      },
+      "facets": [
+          {
+              "q": "What does an ASNT Level III earn in the United States?",
+              "a": "US Level III roles run $80,000–$130,000 a year, a 30–60% step over the $55,000–$80,000 Level II band. The step is paid for authority, not tenure: procedure approval, personnel certification and audit defence are liabilities an employer cannot delegate downward. Consulting-track Level IIIs bill hourly and annualise higher at realistic utilisation. Full bands sit in the NDT Salary Guide 2026."
+          },
+          {
+              "q": "What can a Level III approve that a Level II cannot?",
+              "a": "The procedure itself, and the people. A Level III writes and approves the inspection procedure qualified for a specific material, thickness range and geometry; authors the employer's Written Practice; selects the method for an application; validates techniques; and trains, examines and certifies Level I and Level II personnel. A Level II works inside that procedure and signs individual accept/reject results."
+          },
+          {
+              "q": "How many hours of documented experience does Level III require?",
+              "a": "4,200 hours for a candidate holding a qualifying engineering or science degree, 12,600 hours on the high-school-diploma path, under SNT-TC-1A equivalency provisions. Both figures sit on top of prior Level II certification in the method, not instead of it. A current annual near-vision acuity and colour-contrast test must also be on file at the time of examination."
+          },
+          {
+              "q": "Do I need a separate Level III exam for every method?",
+              "a": "One Basic examination, then one Method examination per method. The Basic covers materials and processes, common discontinuities and the certification schemes themselves; it is taken once and carries across every method added later. Each additional method needs only its own Method examination. A third Specific examination, covering one employer's codes and procedures, applies where that employer's Written Practice calls for it."
+          },
+          {
+              "q": "Can a company use a contract Level III instead of certifying its own?",
+              "a": "Yes. An outsourced Level III is named as the technical authority of record, approves procedures, owns the Written Practice and certifies Level I and II staff — available before an internal candidate has accumulated 4,200 or 12,600 hours. Employers facing a client audit or a contract prerequisite run both tracks: contract Level III now, internal candidate qualifying in parallel. See NDT Level III consulting."
+          },
+          {
+              "q": "Does ASNT Level III certification expire?",
+              "a": "Yes. Recertification runs on a periodic cycle set by ASNT for ASNT-issued Level III and ACCP, or by the employer's Written Practice under SNT-TC-1A and CP-189. Refresher preparation targets what has changed in the relevant codes and standards since the last certification plus a Basic and Method content review, not first-time theory instruction. The annual vision test is separate and must stay current."
+          }
+      ]
+  },
+
+  "/manufacturing-ndt-training": {
+      "answer": "Manufacturing NDT training qualifies fabrication, foundry and mill technicians against construction codes — AWS D1.1 for structural steel, ASME Section VIII and B31.3 for pressure parts. Under ASNT SNT-TC-1A the surface methods certify fastest: PT Level I needs 4 classroom hours and MT Level I needs 12, against 40 hours for UT or RT.",
+      "expansion": "A fabrication shop's NDT programme is built method by method around what the product demands. Visual testing is the first gate on every weld: AWS D1.1/D1.1M:2020 places inspection in Clause 8, with visual acceptance criteria tabulated and a CWI qualified to AWS QC1 making the call. Magnetic particle covers surface and near-surface discontinuities on ferromagnetic structural steel at production pace; penetrant covers the same scope on aluminium, stainless and non-magnetic castings. Ultrasonic and radiographic testing carry volumetric acceptance on complete-joint-penetration welds and on pressure-boundary work under ASME Section VIII and B31.3. ASNT SNT-TC-1A sets the recommended floor for each — 12 classroom hours for MT Level I against 40 for UT Level I — but the employer's written practice is the binding document, and the employer, not the school, issues the certificate. That is why shops buy this training as an on-site cohort run against their own procedures.",
+      "source": "ASNT SNT-TC-1A (2020 edition), recommended initial training and experience levels; AWS D1.1/D1.1M:2020 Structural Welding Code — Steel, Clause 8 (Inspection); AWS QC1 (Certified Welding Inspector); ASME BPVC Section V, Articles 2, 4, 6, 7 and 9.",
+      "table": {
+          "caption": "Manufacturing NDT methods: production role, governing acceptance, and what SNT-TC-1A recommends to certify",
+          "columns": [
+              "Method",
+              "Role on a fab-shop or mill floor",
+              "Governing acceptance",
+              "Classroom hours (L I / L II)",
+              "Experience hours in method (L I / additional for L II)"
+          ],
+          "rows": [
+              [
+                  "VT",
+                  "First gate on every weld; applied to 100% of production",
+                  "AWS D1.1:2020 Clause 8 visual acceptance; CWI per AWS QC1",
+                  "8 / 16",
+                  "70 / 140"
+              ],
+              [
+                  "MT",
+                  "Surface and near-surface cracks on ferromagnetic structural steel, at production pace",
+                  "AWS D1.1:2020 Clause 8; ASME Section V Article 7",
+                  "12 / 8",
+                  "70 / 210"
+              ],
+              [
+                  "PT",
+                  "Same surface scope on aluminium, stainless and non-magnetic castings",
+                  "ASME Section V Article 6; customer specification",
+                  "4 / 8",
+                  "70 / 140"
+              ],
+              [
+                  "UT",
+                  "Volumetric acceptance on complete-joint-penetration welds, forgings, plate and billet",
+                  "AWS D1.1:2020 Clause 8; ASME Section V Articles 4 and 5",
+                  "40 / 40",
+                  "210 / 630"
+              ],
+              [
+                  "RT",
+                  "Internal soundness in castings and pressure-boundary welds",
+                  "ASME Section V Article 2; ASME Section VIII Division 1",
+                  "40 / 40",
+                  "210 / 630"
+              ],
+              [
+                  "ET",
+                  "In-line screening of tube, bar and mill product as part of the production process",
+                  "ASTM E309; customer and mill specification",
+                  "40 / 40",
+                  "210 / 630"
+              ]
+          ],
+          "note": "Hours are the SNT-TC-1A recommended minimums for a high-school-graduate candidate; Level II experience is additional to Level I, and the recommended practice pairs hour counts with minimum elapsed-time requirements. The employer's written practice may set higher figures and is the binding document."
+      },
+      "facets": [
+          {
+              "q": "Does AWS D1.1 require ASNT-certified NDT technicians?",
+              "a": "Yes. AWS D1.1/D1.1M:2020 requires NDT personnel to be qualified under ASNT SNT-TC-1A or an equivalent employer written practice, with Level II performing and interpreting examinations and Level I working under Level II direction. Visual inspection is handled separately: D1.1 accepts an AWS Certified Welding Inspector qualified to AWS QC1, a CWB-qualified inspector, or an individual the Engineer accepts as competent by training and experience."
+          },
+          {
+              "q": "Which NDT method should a fabrication shop certify first?",
+              "a": "Visual testing. It is the first gate on every weld under AWS D1.1/D1.1M:2020 Clause 8, it costs 8 classroom hours at Level I, and it catches profile, undercut and porosity problems before any other method is set up. Magnetic particle and penetrant follow for the surface scope at production volume, then ultrasonics for volumetric acceptance on complete-joint-penetration welds."
+          },
+          {
+              "q": "How long does it take to move a new hire from zero to MT Level II?",
+              "a": "20 classroom hours and 280 documented on-the-job hours in the method. SNT-TC-1A recommends 12 training hours and 70 experience hours for Level I, then 8 further training hours and 210 further experience hours for Level II. The recommended practice pairs those hour counts with minimum elapsed-time requirements, so the calendar governs the schedule as much as the hour log does."
+          },
+          {
+              "q": "Can a welder cross into weld inspection without a degree?",
+              "a": "Yes. SNT-TC-1A sets education, training and experience as alternative qualifying routes rather than imposing a degree requirement, and a welder already reads joint geometry, fit-up and weld sequence — the part that takes newcomers longest to learn. The usual path is VT first against the shop's code, MT or PT next for the surface scope, then UT for volumetric work."
+          },
+          {
+              "q": "Is a Level II certification portable to another fabrication shop?",
+              "a": "No. Under SNT-TC-1A the certificate is issued by the employer against that employer's written practice, so it ends when the employment does. The new shop's Level III may credit documented training and on-the-job hours from the previous file, then examines and certifies the technician afresh. This is why a complete hour log matters more to a career than the certificate itself."
+          },
+          {
+              "q": "What must a shop have in place before an on-site cohort can certify anyone?",
+              "a": "A written practice signed by a Level III, approved written procedures for each method and technique, calibrated equipment, representative specimens containing known discontinuities cut from the shop's own product, and current vision test records for each candidate. Without the specimens the practical examination cannot be run; without the written practice there is nothing to certify against."
+          }
+      ]
+  },
+
+  "/aviation-ndt-training": {
+      "answer": "Aviation MRO NDT training certifies technicians under NAS 410 — a standard whose requirements are mandatory — rather than the general-industry recommended practice SNT-TC-1A. A named Responsible Level 3 approves the training, sets the examinations and signs the certificate, the employer issues it, and it expires at five years. 14 CFR Part 145 governs the repair station wrapped around all of it.",
+      "expansion": "In-service aviation inspection is a different qualification regime from aerospace manufacturing and from general industry. NAS 410, published through the Aerospace Industries Association, states its requirements as shall — the employer writes a written practice that meets them, not one that merely considers them. EN 4179 is its European counterpart and the two are maintained in step. Every method needs a named Responsible Level 3 qualified in that method; candidates sit general, specific and practical examinations; near-vision acuity is tested annually; and certification lapses at five years unless recertified. The FAA does not certify NDI personnel. It certifies the repair station under 14 CFR Part 145 and the mechanic under Part 65, and Advisory Circular 65-31B is where it points operators and stations for the personnel standard. OEM engine and airframe manuals then layer type-specific technique approvals on top, which is why an MRO technician's value compounds with each programme qualification.",
+      "source": "NAS 410, AIA/NAS Certification and Qualification of Nondestructive Test Personnel; EN 4179:2021; ATA Specification 105; FAA Advisory Circular 65-31B; 14 CFR Part 145 Subpart D (Personnel).",
+      "table": {
+          "caption": "Aviation MRO (NAS 410) versus general industry (SNT-TC-1A): what changes when an employer hires across",
+          "columns": [
+              "Qualification element",
+              "Aviation MRO — NAS 410 / EN 4179",
+              "General industry — ASNT SNT-TC-1A",
+              "What the MRO employer must do"
+          ],
+          "rows": [
+              [
+                  "Status of the document",
+                  "Standard; requirements are mandatory",
+                  "Recommended practice; the employer's written practice is what binds",
+                  "Write the practice to meet NAS 410, not around it"
+              ],
+              [
+                  "Who issues the certificate",
+                  "The employer, under a named Responsible Level 3",
+                  "The employer, under a Level III",
+                  "Name the Responsible Level 3 for every method in the practice"
+              ],
+              [
+                  "Level 3 authority",
+                  "NAS 410 Level 3 qualification held or contracted, per method",
+                  "ASNT NDT Level III or an equivalent route defined in the practice",
+                  "Verify the Level 3 covers every method the station is rated for"
+              ],
+              [
+                  "Examination",
+                  "General, specific and practical, per method",
+                  "General, specific and practical, per method",
+                  "Re-examine incoming SNT-TC-1A technicians; scores do not transfer"
+              ],
+              [
+                  "Vision",
+                  "Near-vision acuity tested annually, plus colour contrast differentiation",
+                  "Near-vision acuity tested annually",
+                  "Put vision testing on the same annual cycle as other personnel records"
+              ],
+              [
+                  "Certification life",
+                  "Five years maximum, then recertify",
+                  "Five years recommended, then recertify",
+                  "Track expiry per person per method, not one date per person"
+              ],
+              [
+                  "Portability between employers",
+                  "None; the receiving employer certifies",
+                  "None; the receiving employer certifies",
+                  "Credit documented prior training and OJT, then examine and certify"
+              ],
+              [
+                  "Regulatory wrapper",
+                  "14 CFR Part 145; OEM engine and airframe manuals per type",
+                  "Construction or in-service code — ASME, AWS, API",
+                  "Map every approved technique to the OEM manual that calls for it"
+              ]
+          ],
+          "note": "NAS 410 and EN 4179 are harmonised, but a technician qualified under one is not automatically certified under the other, because certification is always issued by the employer. Aerospace manufacturing keeps the same personnel standard and adds Nadcap accreditation audited to AC7114."
+      },
+      "facets": [
+          {
+              "q": "Does the FAA certify NDT technicians?",
+              "a": "No. The FAA certifies repair stations under 14 CFR Part 145 and mechanics under Part 65; it issues no NDI certificate to an individual. The technician is certified by the employer against NAS 410 or ATA Specification 105, and Advisory Circular 65-31B is where the FAA points operators and repair stations for that personnel standard."
+          },
+          {
+              "q": "Can an SNT-TC-1A Level II from oil and gas move straight into a Part 145 shop?",
+              "a": "Not automatically. The methods transfer; the certification does not. The repair station's Responsible Level 3 reviews documented prior training and on-the-job hours, credits what the records support, then re-examines the candidate general, specific and practical under the station's NAS 410 written practice. Budget the bridge as weeks of examination and technique familiarisation, not a paperwork transfer."
+          },
+          {
+              "q": "What is ATA Specification 105 and how does it relate to NAS 410?",
+              "a": "ATA Specification 105 is the airline industry's guideline for training, qualifying and certifying NDT personnel. It covers the same ground as NAS 410 — written practice, Level 3 authority, three-part examination, vision testing, recertification — from the operator side rather than the manufacturer side. Carrier maintenance programmes commonly cite 105; MRO and OEM-driven work more often cites NAS 410."
+          },
+          {
+              "q": "Which method does an aviation MRO hire for first?",
+              "a": "Fluorescent penetrant and eddy current. The FPI line carries the highest part volume in an engine shop, so it is where new technicians start and where a cohort pays back fastest. Eddy current is aviation's signature method — surface crack detection on discs, blades, wheels and airframe structure at sensitivities general industry never asks for. Ultrasonics follows for structure, bond lines and composites."
+          },
+          {
+              "q": "How does aerospace manufacturing differ from MRO for NDT qualification?",
+              "a": "Same personnel standard, different audit. Manufacturing runs NAS 410 qualification underneath Nadcap accreditation, where the NDT process itself is audited against AC7114 and the prime contractor's own specification. MRO runs NAS 410 underneath 14 CFR Part 145 and the OEM maintenance manual. Manufacturing hunts process escapes in new material; MRO hunts fatigue and corrosion damage accumulated in service."
+          },
+          {
+              "q": "What NDI personnel records must a Part 145 repair station produce on request?",
+              "a": "The written practice itself, the named Responsible Level 3's qualification in each method, and for every technician: education and experience, training hours, documented on-the-job hours, general, specific and practical examination results, a current vision test, the Level 3's signature, and the certification date with its five-year expiry. Auditors read the expiry column first."
+          }
+      ]
+  },
+
+  "/corporate-ndt-training": {
+      "answer": "Corporate NDT training qualifies a whole crew at once, on your equipment, against your written practice. Under ASNT SNT-TC-1A the employer certifies the technician — the trainer never does — so the deliverable is a personnel file per person: training hours, documented OJT, general, specific and practical examination scores, vision test, and the Level III signature.",
+      "expansion": "An employer-sponsored cohort exists because certification in the United States is an employer act, not a school act. SNT-TC-1A is a recommended practice; what binds is the written practice the employer signs, and the certificate carries the employer's name. Training a crew against that document — on the shop's own equipment, its own procedures, and specimens cut from its own product — closes the gap that opens when technicians are sent to public courses one at a time and return certified against somebody else's procedure. The commercial arithmetic follows: no travel and per diem for six to twenty people, no rota gaps while technicians are away, one examination cycle instead of a dozen, and one set of records in one format an auditor can read end to end. Atlantis runs cohorts on-site under ASNT Level III oversight and does not operate walk-in classrooms. Quote on request.",
+      "source": "ASNT SNT-TC-1A (2020 edition) — written practice, training, examination, certification and records; ANSI/ASNT CP-189 where a national standard is contractually required; ISO 9712:2021 for third-party certification.",
+      "table": {
+          "caption": "Cohort types an employer buys, and what each one has to produce",
+          "columns": [
+              "Cohort type",
+              "Who is in it",
+              "SNT-TC-1A classroom hours",
+              "Documented OJT in the method",
+              "What the employer files afterwards"
+          ],
+          "rows": [
+              [
+                  "New-hire Level I, surface methods",
+                  "Hires with no NDT background, going onto MT and PT work",
+                  "MT 12, PT 4",
+                  "MT 70, PT 70",
+                  "Training record, three examination scores per method, vision test, Level III signature"
+              ],
+              [
+                  "New-hire Level I, volumetric methods",
+                  "Hires going onto UT or RT",
+                  "40 per method",
+                  "210 per method",
+                  "Same file, plus the specimen set used in the practical examination"
+              ],
+              [
+                  "Level I to Level II upgrade",
+                  "Certified Level I technicians with hours already logged",
+                  "40 for UT or RT, 8 for MT or PT",
+                  "630 additional for UT or RT; 210 additional for MT",
+                  "Upgrade certificate, cumulative OJT log, practical run on production specimens"
+              ],
+              [
+                  "Cross-method add-on",
+                  "Existing Level II adding a second method",
+                  "From 4 hours (PT Level I) to 40 hours (UT Level I)",
+                  "From 70 hours to 210 hours, by method",
+                  "One file per person per method — never one file per person"
+              ],
+              [
+                  "Recertification cycle",
+                  "Anyone approaching the five-year mark",
+                  "Refresher as set by the written practice",
+                  "Continuous documented activity in the method",
+                  "Re-examination or documented performance, fresh vision test, new expiry date"
+              ],
+              [
+                  "Level III programme authority",
+                  "The person who signs everything above",
+                  "Per the SNT-TC-1A education and experience route",
+                  "Per method held",
+                  "Level III credentials, approved procedures, annual programme review record"
+              ]
+          ],
+          "note": "Hours are SNT-TC-1A recommended minimums for a high-school-graduate candidate; Level II experience is additional to Level I, and a written practice may set higher figures. Batch sizes run 4 to 25 technicians. Atlantis delivers these cohorts on-site under ASNT Level III oversight — scope and quote on request."
+      },
+      "facets": [
+          {
+              "q": "Who certifies the technician — the training provider or the employer?",
+              "a": "The employer. ASNT SNT-TC-1A places certification with the employer, issued against the employer's own written practice and signed by a Level III. A training provider delivers the classroom hours, builds and administers the examinations, and supplies Level III oversight, but the certificate carries the employer's name. That is exactly why a cohort trained on your own procedures is the cleaner route."
+          },
+          {
+              "q": "What does an employer need in place before an on-site cohort starts?",
+              "a": "A written practice, or a Level III engaged to write one; approved procedures for each method and technique; calibrated equipment the crew will use in production; specimens containing known discontinuities cut from your own product; a room that holds the classroom sessions; and a current vision test for every candidate. The specimens are the item most often missing on day one."
+          },
+          {
+              "q": "How many technicians make a workable on-site cohort?",
+              "a": "Four to twenty-five per batch. Below four, the fixed cost of mobilising an instructor and a full examination set is spread too thin. Above twenty-five, the practical stations queue and hands-on time per technician collapses — and hands-on time is what produces a defensible practical examination. Larger crews run as sequential batches on a single mobilisation."
+          },
+          {
+              "q": "Do cohort certifications survive a client audit?",
+              "a": "They survive when the file does. An auditor checks the written practice against SNT-TC-1A or ANSI/ASNT CP-189, then samples technicians for training hours, documented OJT, three examination scores, a current vision test, the Level III signature, and an unexpired certification date. A cohort produces all of that in one format on one date, so sampling closes faster than with piecemeal certifications."
+          },
+          {
+              "q": "If a technician leaves, does the certification go with them?",
+              "a": "No. Employer-based certification ends with the employment. What the technician keeps is the record — training hours, documented on-the-job hours and examination history — which the next employer's Level III can credit before examining and certifying afresh. For the employer, that argues for complete records and for building bench depth rather than single points of failure on a method."
+          },
+          {
+              "q": "SNT-TC-1A or ISO 9712 — which does a US crew need?",
+              "a": "SNT-TC-1A for US work. It is the employer-based route that American clients, AWS D1.1 fabrication and ASME pressure work expect. ISO 9712:2021 is third-party certification issued by an accredited body, valid five years and renewable for a further five. European, Middle East and marine clients ask for it. Crews working both markets carry both, which one cohort programme can sequence."
+          }
+      ]
+  },
+
+  "/oil-gas-ndt-training": {
+      "answer": "Oil and gas NDT training in the US qualifies technicians under ASNT SNT-TC-1A to method certification — UT first, then MT, PT, VT, RT and ET — because refinery, midstream and upstream acceptance answers to API 510, 570 and 653 with ASME Section V supplying the method rules. UT Level II is the hiring trigger; API ICP endorsements come later and are examined by API, not by a training provider.",
+      "expansion": "Oil and gas is the largest NDT employment market in the United States, and its training path is set by the in-service codes rather than by construction work. API 510 governs pressure vessels, API 570 process piping and API 653 aboveground storage tanks; ASME Boiler and Pressure Vessel Code Section V supplies the examination method rules those codes invoke, while Section VIII and the ASME B31 piping series set construction acceptance. Ultrasonic testing carries the volume — thickness readings at condition monitoring locations, corrosion mapping, and shear-wave examination of repair and tie-in welds — with phased array standard on turnaround scopes. Radiography clears welds where a permanent image is contractually required, magnetic particle covers wet H2S cracking service, penetrant covers the stainless and alloy scope, and eddy current runs exchanger bundles every turnaround. A technician certified to ASNT SNT-TC-1A Level II in ultrasonics is hireable; one who understands why a condition monitoring location exists is promotable.",
+      "source": "ASNT SNT-TC-1A (2020 edition), Table 6.3.1A recommended training and experience; ASME BPVC Section V, Article 1; API 510, API 570 and API 653 in-service inspection codes; API RP 583 (Corrosion Under Insulation and Fireproofing); API RP 571 damage mechanisms; 49 CFR Parts 192 and 195.",
+      "table": {
+          "caption": "Oil and gas NDT: what each asset class certifies for",
+          "columns": [
+              "Asset class",
+              "In-service code that governs",
+              "Methods that carry the work",
+              "Credential buyers name in contract",
+              "What the technician produces"
+          ],
+          "rows": [
+              [
+                  "Pressure vessels and columns",
+                  "API 510 (ASME Section VIII construction)",
+                  "UT thickness, UT shear-wave, MT/PT on repair welds",
+                  "ASNT UT Level II; API 510 for the inspector role",
+                  "CML thickness readings feeding remaining-life calculation"
+              ],
+              [
+                  "Process piping and circuits",
+                  "API 570 (ASME B31.3 construction)",
+                  "UT thickness at CMLs, phased array, RT on tie-ins",
+                  "ASNT UT and RT Level II; API 570 for the inspector role",
+                  "Circuit thickness data and weld acceptance records"
+              ],
+              [
+                  "Aboveground storage tanks",
+                  "API 653",
+                  "UT shell course thickness, MFL floor scanning, VT",
+                  "ASNT UT Level II; API 653 for the inspector role",
+                  "Floor MFL map and shell thickness profile"
+              ],
+              [
+                  "Insulated systems with CUI exposure",
+                  "API RP 583 with API RP 571 damage mechanisms",
+                  "Pulsed eddy current, profile and digital radiography, guided wave UT",
+                  "ASNT ET and RT Level II",
+                  "Wall-loss screening through the jacket, insulation-removal targeting"
+              ],
+              [
+                  "Fired heater and boiler tubes",
+                  "API 573",
+                  "UT thickness, RT of tube butt welds, infrared survey",
+                  "ASNT UT Level II",
+                  "Tube wall loss and bulge data for retirement decisions"
+              ],
+              [
+                  "Shell-and-tube exchanger bundles",
+                  "ASME Section VIII with owner exchanger specification",
+                  "Eddy current, remote field, IRIS ultrasonics",
+                  "ASNT ET Level II",
+                  "Tube-by-tube wall-loss report before retubing decisions"
+              ],
+              [
+                  "Transmission pipeline construction",
+                  "ASME B31.4 and B31.8 with 49 CFR 192/195",
+                  "RT and automated UT of girth welds, MT",
+                  "ASNT RT Level II with radiation safety card; API 1169",
+                  "Girth weld acceptance record for the as-built package"
+              ]
+          ],
+          "note": "API ICP credentials (510, 570, 653, 1169) are examined and issued by API against documented inspection experience. Atlantis training covers the ASNT method certification underneath them; Atlantis does not sell API 510, 570 or 653 preparation."
+      },
+      "facets": [
+          {
+              "q": "What certifications do oil and gas employers actually require for NDT technicians?",
+              "a": "ASNT SNT-TC-1A Level II in ultrasonics first — that is the hiring trigger — plus MT, PT and VT for the surface scope, and RT Level II with a state or NRC radiation safety card where shooting is in scope. Refinery and midstream contracts then name API ICP credentials for inspector roles: API 510 for vessels, API 570 for piping, API 653 for tanks, API 1169 for pipeline construction."
+          },
+          {
+              "q": "How many training hours does UT Level II require for refinery work?",
+              "a": "ASNT SNT-TC-1A (2020) recommends 40 hours of classroom training for UT Level I and a further 40 hours for Level II, with 210 hours of in-method experience before Level I certification and 630 cumulative in-method hours before Level II. The employer sets the binding figures in its Written Practice, and that document is what an audit reads."
+          },
+          {
+              "q": "Do I need API 510 or API 570 to work as an NDT technician in a refinery?",
+              "a": "No. API 510 and API 570 are inspector certifications issued by API through its Individual Certification Programs, examined by API and gated on documented inspection experience — a bachelor's degree plus one year, a two-year technical certificate plus two years, a high school diploma plus three years, or five years with no formal education. The technician credential underneath is ASNT method certification."
+          },
+          {
+              "q": "Which NDT methods find corrosion under insulation without stripping the jacket?",
+              "a": "Pulsed eddy current screens wall loss through insulation and thin cladding, profile and digital radiography images the pipe wall through the jacket, and guided wave ultrasonics screens long runs from a single access point. API RP 583 places carbon steel CUI susceptibility between 10°F and 350°F, and external chloride stress corrosion cracking of austenitic stainless between 140°F and 400°F."
+          },
+          {
+              "q": "How does turnaround season change NDT hiring on the Gulf Coast?",
+              "a": "Refinery and petrochemical turnarounds cluster in spring and autumn, and inspection contractors staff against fixed outage windows. UT Level II technicians, phased array operators and RT crews absorb most of that demand, with exchanger bundle eddy current running alongside. Certified supply, not demand, is the constraint, so contractors hire months ahead of the outage schedule and hold crews between windows."
+          },
+          {
+              "q": "Does Atlantis run open-enrolment oil and gas NDT classes?",
+              "a": "No. Atlantis delivers training on site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight, with an examination and records package built to survive an audit. Cohorts for individuals form around employer demand. Atlantis does not sell API 510, 570 or 653 preparation. Request a scoped programme and a quote."
+          }
+      ]
+  },
+
+  "/aerospace-ndt-training": {
+      "answer": "Aerospace NDT training in the US qualifies personnel to NAS 410 Rev 5, not SNT-TC-1A. The employer certifies Level 1 and Level 2 through a designated Responsible Level 3, and Nadcap audits that programme against AC7114 and its method slash sheets. Fluorescent penetrant, eddy current and ultrasonics on composites and forgings carry the work; EN 4179 is the harmonized European equivalent.",
+      "expansion": "Aerospace NDT training is built backwards from the audit. NAS 410, published by the Aerospace Industries Association and current at Revision 5, replaces SNT-TC-1A as the qualification standard across the US aerospace supply chain, and EN 4179 is its harmonized European counterpart. Under NAS 410 the employer certifies Level 1 and Level 2 personnel through a designated Responsible Level 3, who owns the written practice, the examination material and the technique approvals. Nadcap, administered by the Performance Review Institute for SAE, audits that programme to AC7114 and its method slash sheets — AC7114/1 penetrant, AC7114/2 magnetic particle, AC7114/3 ultrasonic, AC7114/4 eddy current — and reads training records, examination results and vision records as closely as the technique itself. Fluorescent penetrant runs as a controlled special process to ASTM E1417 using AMS 2644 qualified materials. Eddy current owns engine and airframe surface inspection. Ultrasonics addresses composite bond lines, disbonds and forgings rather than weld flaws.",
+      "source": "NAS 410 Rev 5 (Aerospace Industries Association, NDT Personnel Qualification and Certification); EN 4179 (ASD-STAN); Nadcap AC7114 audit criteria and method slash sheets (Performance Review Institute / SAE); ASTM E1417 liquid penetrant practice; AMS 2644 penetrant material qualification; ISO 9712 for comparison.",
+      "table": {
+          "caption": "NAS 410 against SNT-TC-1A, EN 4179 and ISO 9712 — what changes when the buyer is aerospace",
+          "columns": [
+              "Requirement",
+              "NAS 410 Rev 5 (US aerospace)",
+              "SNT-TC-1A (US general industry)",
+              "EN 4179 (Europe aerospace)",
+              "ISO 9712 (international)"
+          ],
+          "rows": [
+              [
+                  "Publishing body",
+                  "Aerospace Industries Association",
+                  "ASNT",
+                  "ASD-STAN",
+                  "ISO"
+              ],
+              [
+                  "Document character",
+                  "Contractually mandated by primes and by Nadcap accreditation",
+                  "Recommended practice; the employer writes its own practice",
+                  "Technically harmonized with NAS 410",
+                  "Central certification standard"
+              ],
+              [
+                  "Who certifies Level 1 and 2",
+                  "The employer, through a designated Responsible Level 3",
+                  "The employer, per its Written Practice",
+                  "The employer, under a Level 3 accepted by the national aerospace board",
+                  "An independent certification body accredited to ISO/IEC 17024"
+              ],
+              [
+                  "Level 3 qualification route",
+                  "Outside Agency examination or a National Aerospace NDT Board",
+                  "ASNT Level III examination or employer examination",
+                  "National Aerospace NDT Board",
+                  "Certification body examination"
+              ],
+              [
+                  "Vision requirement",
+                  "Annual near-vision plus colour differentiation, recorded",
+                  "Annual near-vision; colour requirement set by the Written Practice",
+                  "Annual near-vision plus colour differentiation",
+                  "Annual near-vision plus colour differentiation"
+              ],
+              [
+                  "Audit that reads the records",
+                  "Nadcap AC7114 plus prime source audits",
+                  "Customer audit or ISO 9001 surveillance",
+                  "Nadcap plus national aerospace board oversight",
+                  "Accreditation body assessment of the certification body"
+              ],
+              [
+                  "Where it is named in contracts",
+                  "Boeing, Airbus, GE, RTX and their tiers",
+                  "Refinery, pipeline, fabrication and power",
+                  "European aerospace supply chain",
+                  "Markets that recognise ISO personnel certification"
+              ]
+          ],
+          "note": "Atlantis builds and delivers the classroom, OJT and examination package that satisfies a NAS 410 written practice on your site. The certification itself is issued by your company through its Responsible Level 3 — no training provider can issue a NAS 410 certificate on an employer's behalf."
+      },
+      "facets": [
+          {
+              "q": "Does an ASNT Level II certificate qualify me for aerospace NDT work?",
+              "a": "Not on its own. US aerospace qualifies personnel to NAS 410, where the employer certifies Level 1 and Level 2 against its own written practice through a designated Responsible Level 3. Prior SNT-TC-1A training and documented experience count toward that record, but the certification itself is issued by the aerospace employer and audited by Nadcap. Europe applies EN 4179 the same way."
+          },
+          {
+              "q": "What is Nadcap AC7114 and who has to pass it?",
+              "a": "AC7114 is the Nadcap audit criteria for non-destructive testing, administered by the Performance Review Institute for SAE, with method slash sheets covering penetrant (AC7114/1), magnetic particle (AC7114/2), ultrasonic (AC7114/3) and eddy current (AC7114/4), and separate criteria for radiography. Boeing, Airbus, GE, RTX and their supply tiers require Nadcap NDT accreditation from suppliers running those processes. Audit intervals extend on demonstrated merit."
+          },
+          {
+              "q": "Which NDT methods dominate aerospace inspection?",
+              "a": "Fluorescent penetrant inspection carries the largest volume, run as a controlled special process to ASTM E1417 using AMS 2644 qualified materials, with bath concentration, ultraviolet intensity, dark-adaptation and process-control records. Eddy current is the primary surface method on engine discs, blades and fastener holes. Ultrasonics covers composites, bonded structure and forgings. Radiography and computed tomography cover castings and assemblies."
+          },
+          {
+              "q": "How is composite ultrasonic inspection different from weld ultrasonics?",
+              "a": "The target changes. Weld UT hunts crack-like reflectors in steel with shear-wave angle beams. Composite UT hunts delaminations, disbonds, porosity and foreign material inside an attenuative, anisotropic laminate, using low-frequency longitudinal probes, through-transmission setups and phased array C-scans. Acceptance comes from the OEM process specification and reference standards containing engineered defects, not from a welding code."
+          },
+          {
+              "q": "Who is the Responsible Level 3 and why does every aerospace supplier need one?",
+              "a": "NAS 410 requires the employer to designate a Responsible Level 3 who owns the written practice, approves techniques and procedures, sets and grades examinations, and certifies Level 1 and Level 2 personnel. That individual qualifies through an Outside Agency examination or a National Aerospace NDT Board. The role is filled by an employee or by contract, and Nadcap verifies the designation and its scope."
+          },
+          {
+              "q": "Can Atlantis deliver aerospace NDT training at our facility?",
+              "a": "Yes. Atlantis builds the classroom, on-the-job training and examination package to your NAS 410 written practice and approval scope, delivers it on your equipment under ASNT Level III oversight, and hands over records structured for a Nadcap AC7114 audit. Certification remains yours to issue through your Responsible Level 3. Request a scoped programme and a quote."
+          }
+      ]
+  },
+
+  "/nuclear-ndt-training": {
+      "answer": "Nuclear NDT training stacks overlays on top of ordinary method certification. ASME Section XI IWA-2300 sets NDE personnel qualification for inservice inspection, Mandatory Appendix VII adds ultrasonic examiner requirements, and Mandatory Appendix VIII requires performance demonstration on blind flawed specimens. A 10 CFR 50 Appendix B quality programme and unescorted site access sit above all of it. UT Level II is the entry ticket.",
+      "expansion": "Nuclear NDT training is general-industry certification plus four overlays. Method certification comes first, under ASNT SNT-TC-1A or ANSI/ASNT CP-189 as invoked by ASME Boiler and Pressure Vessel Code Section V, Article 1. ASME Section XI then governs inservice inspection at commercial plants: IWA-2300 sets NDE personnel qualification, Mandatory Appendix VII adds ultrasonic examiner requirements, and Mandatory Appendix VIII requires performance demonstration — finding and sizing real flaws in blind specimens, implemented in the US through the EPRI Performance Demonstration Initiative. A 10 CFR 50 Appendix B quality assurance programme, built to ASME NQA-1, governs the paperwork. Unescorted access under 10 CFR 73.56 and fitness for duty under 10 CFR Part 26 govern who reaches the work. Across the DOE complex the overlay is DOE O 414.1D instead of Section XI. Ultrasonics carries the inservice load, eddy current owns steam generator tubing, and visual examination is formalised into VT-1, VT-2 and VT-3 categories.",
+      "source": "ASME BPVC Section XI, IWA-2300 and Mandatory Appendices VII and VIII; ASME BPVC Section V, Article 1; ANSI/ASNT CP-189; 10 CFR 50.55a and 10 CFR Part 50 Appendix B; 10 CFR 73.56; 10 CFR Part 26; ASME NQA-1; EPRI Performance Demonstration Initiative; DOE O 414.1D.",
+      "table": {
+          "caption": "The nuclear qualification stack — what each layer adds above general-industry certification",
+          "columns": [
+              "Layer",
+              "What it requires",
+              "Governing document",
+              "Who imposes it",
+              "When it is needed"
+          ],
+          "rows": [
+              [
+                  "Method certification",
+                  "Classroom hours, in-method experience, general, specific and practical examinations",
+                  "ASNT SNT-TC-1A or ANSI/ASNT CP-189, invoked through ASME Section V Article 1",
+                  "The employer's Written Practice",
+                  "Before performing any examination"
+              ],
+              [
+                  "Inservice inspection qualification",
+                  "Certification written specifically to the ISI scope and its examination categories",
+                  "ASME Section XI, IWA-2300",
+                  "The owner's ISI programme",
+                  "All Section XI work at a commercial plant"
+              ],
+              [
+                  "Ultrasonic examiner augmentation",
+                  "Added ultrasonic training and examination beyond the base Level II",
+                  "ASME Section XI, Mandatory Appendix VII",
+                  "The owner's ISI programme",
+                  "Ultrasonic examination of Class 1 and Class 2 components"
+              ],
+              [
+                  "Performance demonstration",
+                  "Detect and size real flaws in blind test specimens; procedure, equipment and examiner qualified together",
+                  "ASME Section XI, Mandatory Appendix VIII",
+                  "Owner, implemented through EPRI PDI",
+                  "Reactor vessel, piping weld and nozzle ultrasonic scopes"
+              ],
+              [
+                  "Quality assurance indoctrination",
+                  "Documented QA training, procedure adherence, traceable records and corrective action",
+                  "10 CFR 50 Appendix B, implemented to ASME NQA-1",
+                  "Licensee and contractor QA organisations",
+                  "Before badging onto site"
+              ],
+              [
+                  "Unescorted access authorization",
+                  "Background investigation, psychological assessment, fitness-for-duty testing",
+                  "10 CFR 73.56 and 10 CFR Part 26",
+                  "Licensee security organisation",
+                  "Before entering the protected area"
+              ],
+              [
+                  "DOE complex overlay",
+                  "Site quality programme layered over the SNT-TC-1A practice",
+                  "DOE O 414.1D",
+                  "DOE site management and operations contractor",
+                  "Hanford, Savannah River, Idaho and Oak Ridge scopes"
+              ]
+          ],
+          "note": "Appendix VIII performance demonstration qualifies the examination system — procedure, equipment and examiner together — and is scope-specific. It does not transfer automatically between owners or between examination categories."
+      },
+      "facets": [
+          {
+              "q": "What is ASME Section XI Appendix VIII performance demonstration?",
+              "a": "Mandatory Appendix VIII of ASME Section XI qualifies the ultrasonic examination system — procedure, equipment and examiner together — by requiring detection and sizing of real flaws in blind test specimens that mimic plant welds. In the United States it is implemented through the EPRI Performance Demonstration Initiative. Qualification is scope-specific: passing on piping welds does not carry across to reactor vessel examination."
+          },
+          {
+              "q": "Do I need a security clearance for nuclear NDT work?",
+              "a": "Commercial plants require unescorted access authorization rather than a federal clearance: background investigation and psychological assessment under 10 CFR 73.56, plus fitness-for-duty testing under 10 CFR Part 26. DOE complex sites and naval nuclear work add federal clearances — DOE L or Q — above method certification. Access processing runs weeks, so outage contractors start it long before mobilisation."
+          },
+          {
+              "q": "How do outage schedules shape nuclear NDT work?",
+              "a": "US reactors refuel on 18-month and 24-month cycles, and outages cluster in spring and autumn when grid demand is lowest. Inservice inspection under ASME Section XI runs on a 10-year interval divided into three inspection periods, so each outage carries a defined slice of the examination programme. Outage contractors hire against that calendar, and the work is compressed and round-the-clock."
+          },
+          {
+              "q": "Which methods carry the most nuclear NDT work?",
+              "a": "Ultrasonics leads: Class 1 and Class 2 piping welds, nozzle inner radii, reactor vessel shell and bolting under Section XI. Eddy current owns steam generator tubing examination. Visual examination is formalised into VT-1 for surface condition, VT-2 for leakage during system pressure tests, and VT-3 for structural and support integrity. Magnetic particle and penetrant cover the surface scope."
+          },
+          {
+              "q": "Why are nuclear MT and PT consumables different from industrial ones?",
+              "a": "Penetrants, developers, couplants and cleaners used on austenitic stainless steel and nickel alloys carry certified limits on total halogens and sulphur, because chloride and sulphur residues drive stress corrosion cracking in reactor materials. Each batch ships with a certificate of contaminant analysis, and that certificate becomes part of the examination record. ASTM E165 and ASTM E1417 govern the penetrant practice itself."
+          },
+          {
+              "q": "Can Atlantis train our technicians for nuclear work on site?",
+              "a": "Yes. Atlantis delivers method training on your equipment, against your procedures and Written Practice, under ASNT Level III oversight, with examination and records built for a 10 CFR 50 Appendix B audit. Atlantis does not run walk-in classrooms and does not administer Appendix VIII performance demonstration, which the owner and EPRI PDI control. Request a scoped programme and a quote."
+          }
+      ]
+  },
+
+  "/maritime-ndt-training": {
+      "answer": "Maritime NDT training answers to two acceptance regimes. Commercial hull and weld work certifies to classification society rules — ABS, DNV and Lloyd's Register — with service suppliers approved under IACS UR Z17; naval construction and repair answers to NAVSEA technical publications layered over SNT-TC-1A. Ultrasonics and magnetic particle carry the volume on thick-section steel welds, and penetrant covers the aluminium superstructure.",
+      "expansion": "Maritime NDT training splits along the acceptance authority, and the split decides the syllabus. Commercial work answers to classification societies — ABS, DNV, Lloyd's Register — whose surveyors accept examination records only in class-recognisable form; firms performing hull thickness measurement or in-water survey must hold service-supplier approval under IACS UR Z17, which requires operators certified to Level II under a recognised scheme such as SNT-TC-1A or ISO 9712. Tanker and bulk carrier hull surveys run under the IMO 2011 ESP Code, which drives close-up visual and thickness-measurement volume. Naval construction and repair answers instead to NAVSEA technical publications, with NDT requirements layered over SNT-TC-1A and audited harder than anything in general industry. Offshore structural fabrication brings API RP 2X and AWS D1.1 into the same technician's scope. Volumetric weld examination dominates: UT and phased array on hull butts and seams, magnetic particle as the everyday surface method, penetrant on aluminium.",
+      "source": "IACS UR Z17 (Procedural Requirements for Service Suppliers); IMO 2011 ESP Code, adopted by Resolution A.1049(27); ABS Rules for Building and Classing Marine Vessels; NAVSEA T9074-AS-GIB-010/271 (Requirements for Nondestructive Testing Methods); AWS D1.1 Structural Welding Code — Steel; AWS D3.6M Underwater Welding Code; API RP 2X.",
+      "table": {
+          "caption": "Maritime and offshore NDT: which regime you are certifying into",
+          "columns": [
+              "Work stream",
+              "Acceptance authority",
+              "Governing document named in contract",
+              "Personnel qualification the buyer names",
+              "Methods that carry the work"
+          ],
+          "rows": [
+              [
+                  "Commercial newbuild hull welds",
+                  "Attending classification society surveyor",
+                  "Class rules for building and classing marine vessels",
+                  "ASNT SNT-TC-1A or ISO 9712 Level II",
+                  "UT and phased array on butts and seams, MT, RT"
+              ],
+              [
+                  "In-service hull thickness measurement",
+                  "Class-approved service supplier under survey",
+                  "IACS UR Z17",
+                  "Level II operator employed by an approved firm",
+                  "UT thickness gauging, close-up VT"
+              ],
+              [
+                  "Tanker and bulk carrier enhanced survey",
+                  "Classification society with flag state",
+                  "IMO 2011 ESP Code (Res. A.1049(27))",
+                  "Class-approved thickness measurement firm operators",
+                  "UT thickness grids, close-up VT of structure"
+              ],
+              [
+                  "Naval surface and submarine construction",
+                  "NAVSEA and the shipyard technical authority",
+                  "NAVSEA T9074-AS-GIB-010/271",
+                  "SNT-TC-1A Level II plus NAVSEA-specific qualification",
+                  "UT, MT, PT and RT under prescribed techniques"
+              ],
+              [
+                  "Offshore fixed structure fabrication",
+                  "Operator and certifying authority",
+                  "API RP 2X with AWS D1.1",
+                  "Technicians qualified to API RP 2X guidelines",
+                  "UT of tubular node joints, MT of node and brace welds"
+              ],
+              [
+                  "Underwater and in-water survey",
+                  "Class society, accepted in lieu of drydocking",
+                  "Class in-water survey rules with AWS D3.6M",
+                  "CSWIP diver inspector 3.1U and 3.2U",
+                  "Underwater VT, UT thickness, MPI, cathodic protection readings"
+              ],
+              [
+                  "Repair yard weld inspection",
+                  "Owner with class endorsement",
+                  "AWS D1.1 and class repair rules",
+                  "AWS Certified Welding Inspector plus ASNT Level II",
+                  "VT, MT, UT of repair and insert welds"
+              ]
+          ],
+          "note": "Rotation shape follows the stream, not the method. Shipyard NDT is a day-and-night-shift trade on one site; Gulf of Mexico offshore inspection runs 14-and-14 and 21-and-21 with survival and medical prerequisites before mobilisation."
+      },
+      "facets": [
+          {
+              "q": "What certifications do US shipyards require for NDT technicians?",
+              "a": "ASNT SNT-TC-1A Level II, certified by the yard against its own Written Practice: VT and MT first because those carry the volume, then UT for thick-section hull welds. RT adds a state or NRC radiation safety card. Weld inspection roles name the AWS Certified Welding Inspector. Naval yards layer NAVSEA-specific qualification and technical-authority procedure approval over all of it."
+          },
+          {
+              "q": "What is IACS UR Z17 and why does it matter to a technician?",
+              "a": "IACS Unified Requirement Z17 sets approval rules for firms supplying services to classification societies, including hull thickness measurement and in-water survey. Approved firms must employ operators certified to Level II under a recognised scheme — SNT-TC-1A or ISO 9712 — with documented training, supervision and equipment control. Readings taken by an unapproved firm are refused by the attending surveyor."
+          },
+          {
+              "q": "How does naval NDT qualification differ from commercial class work?",
+              "a": "Naval work answers to NAVSEA technical publications, which prescribe examination techniques and personnel requirements above SNT-TC-1A and require procedure approval by the shipyard technical authority, with records audited continuously. Commercial work answers to an independent classification society whose surveyor accepts records in class-recognisable form. One authority is the customer; the other is a third-party certifier acting for underwriters and flag states."
+          },
+          {
+              "q": "Which NDT methods does offshore structural inspection use?",
+              "a": "Ultrasonics on tubular node joints and weld roots, magnetic particle on node and brace welds including underwater MPI, close visual examination through the splash zone, flooded member detection on braces, and cathodic protection potential readings. API RP 2X covers ultrasonic and magnetic examination of offshore structural fabrication and supplies the technician qualification guidelines operators name directly in scopes of work."
+          },
+          {
+              "q": "What does an offshore NDT rotation involve?",
+              "a": "Gulf of Mexico inspection crews work 14-and-14 and 21-and-21 rotations on 12-hour shifts. Access requires offshore survival and helicopter underwater escape training to OPITO standards, a current offshore medical, and drug screening completed before mobilisation. Rope access certification through SPRAT or IRATA is paired with NDT certification on structural scopes, because the inspection point is the access problem."
+          },
+          {
+              "q": "Can Atlantis train our yard's technicians on site?",
+              "a": "Yes. Atlantis delivers method training at your facility on your equipment, written to your Written Practice and to the class or NAVSEA requirements your contracts invoke, under ASNT Level III oversight, with an audit-ready examination and records package. Atlantis does not operate walk-in classrooms; cohorts form around employer demand. Request a scoped programme and a quote."
+          }
+      ]
+  },
+
+  "/ultrasonic-testing-training": {
+      "answer": "In the US, UT certification runs under ASNT SNT-TC-1A, and your employer's Written Practice is the document that binds. SNT-TC-1A recommends 40 hours of formal training plus 210 hours of UT experience for Level I, and 40 further training hours plus 630 cumulative method hours for Level II. Passing general, specific and practical examinations completes certification.",
+      "expansion": "Two certification routes operate in the United States. Under ASNT SNT-TC-1A the employer certifies its own personnel against a Written Practice it authors, and the certification ends when the employment ends. Under ISO 9712 an accredited certification body examines and certifies, and the certificate belongs to the technician. SNT-TC-1A's recommended initial training and experience table lists UT Level I at 40 formal training hours, 210 hours of UT experience and 400 total NDT hours, and UT Level II at 40 further training hours, 630 cumulative UT hours and 1,200 total NDT hours. Level III carries no recommended classroom figure — it is reached through education plus experience comparable to Level II: four years for a high-school graduate, two years with a two-year technical degree, one year with a four-year engineering or science degree. All three routes end in general, specific and practical examinations. US employers write UT work to ASME BPVC Section V Articles 4 and 5 and AWS D1.1 Clause 8.",
+      "source": "ASNT SNT-TC-1A (2020 edition), Recommended Practice for Personnel Qualification and Certification in Nondestructive Testing; ANSI/ASNT CP-189; ASME BPVC Section V, Articles 4 and 5; AWS D1.1/D1.1M Structural Welding Code — Steel, Clause 8; ISO 9712:2021.",
+      "table": {
+          "caption": "ASNT SNT-TC-1A recommended minimums for UT certification, by level",
+          "columns": [
+              "Level",
+              "Formal training hours",
+              "UT experience hours",
+              "Total NDT experience hours",
+              "What that level signs off"
+          ],
+          "rows": [
+              [
+                  "UT Level I",
+                  "40",
+                  "210 in UT",
+                  "400 across all methods",
+                  "Performs calibration and scanning to a written instruction and records results. Signs no interpretation."
+              ],
+              [
+                  "UT Level II",
+                  "40 further (80 cumulative)",
+                  "630 cumulative in UT",
+                  "1,200 across all methods",
+                  "Sets up the technique, interprets, evaluates against the code and signs the examination report."
+              ],
+              [
+                  "UT Level III",
+                  "No recommended classroom figure",
+                  "4 years beyond Level II for a high-school graduate; 2 years with a two-year technical degree; 1 year with a four-year engineering or science degree",
+                  "Counted as time comparable to Level II",
+                  "Writes and approves procedures, qualifies Level I and II personnel, defends contested calls."
+              ],
+              [
+                  "PAUT or TOFD sub-method",
+                  "Set by the employer's Written Practice",
+                  "Documented separately on the sub-method, on top of conventional UT hours",
+                  "Counted within the UT totals",
+                  "Encoded scan plans and sizing, and only where the Written Practice names the sub-method on the certificate."
+              ]
+          ],
+          "note": "These are SNT-TC-1A recommendations, not law. The employer's Written Practice is the binding document and can require more. ANSI/ASNT CP-189, written in mandatory language, removes that latitude when a contract invokes it. Under ISO 9712 the certification body sets the hours instead and the certificate transfers with the technician."
+      },
+      "facets": [
+          {
+              "q": "Does an ASNT UT certificate transfer when I change employers?",
+              "a": "Under SNT-TC-1A, no. The certification is issued by the employer against its own Written Practice and lapses when you leave. Your documented training and experience hours travel with you, and the new employer certifies you against its practice on the strength of that log plus its own examinations. An ISO 9712 certificate is issued to you personally and moves with you."
+          },
+          {
+              "q": "What is the difference between SNT-TC-1A and ANSI/ASNT CP-189?",
+              "a": "SNT-TC-1A is a recommended practice — guidance the employer adapts inside its Written Practice. ANSI/ASNT CP-189 is an American National Standard written in mandatory language, so its requirements bind once a contract invokes it, and it requires the employer's NDT Level III to hold ASNT Level III certification. Contracts naming CP-189 remove the employer's freedom to set lower hours."
+          },
+          {
+              "q": "How long does it take to reach UT Level II from zero experience?",
+              "a": "The experience log sets the pace, not the classroom. 630 cumulative UT hours equals sixteen forty-hour weeks of ultrasonic work alone, and 1,200 total NDT hours must accrue alongside it. A technician employed full time on UT reaches Level II inside a year. One splitting time across five methods takes two years or more. Start the log on day one."
+          },
+          {
+              "q": "Does UT Level II qualify me for phased array or TOFD work?",
+              "a": "No. Phased array and TOFD are sub-methods. The employer's Written Practice names them separately, and qualification requires documented additional training plus a practical demonstration on encoded data before the certificate covers them. ASNT publishes separate topical outlines for UT phased array and UT TOFD. A Level II who cannot read a raw A-scan will not defend a phased-array sizing call."
+          },
+          {
+              "q": "How often must UT certification be renewed?",
+              "a": "SNT-TC-1A recommends recertification at intervals not exceeding five years for every level, by examination or by documented evidence of continuing satisfactory performance. Near-vision acuity is retested annually — Jaeger No. 1 at not less than twelve inches, or an equivalent. ISO 9712 certificates run five years, renew once for a second five years, then require recertification with a practical examination at ten."
+          },
+          {
+              "q": "Which codes does a US UT technician actually work to?",
+              "a": "ASME BPVC Section V Article 4 for weld examination and Article 5 for materials and components, with acceptance criteria drawn from the referencing construction code — Section VIII for pressure vessels, B31.3 for process piping. Structural steel runs to AWS D1.1 Clause 8. In-service thickness data feeds remaining-life calculation under API 510, 570 and 653."
+          }
+      ]
+  },
+
+  "/radiographic-testing-training": {
+      "answer": "US radiography carries two separate qualifications. RT method certification runs under ASNT SNT-TC-1A — 40 training hours and 210 RT hours for Level I, 40 further hours and 630 cumulative hours for Level II. Radiation safety is regulated separately under 10 CFR Part 34 or the equivalent Agreement State rule, and requires certification through a recognised certifying entity.",
+      "expansion": "An RT Level II certificate does not authorise you to operate a gamma source, and a radiation safety card does not qualify you to interpret a radiograph. US employers satisfy both. Method certification follows the employer's SNT-TC-1A Written Practice, or ANSI/ASNT CP-189 where a contract invokes it, or ISO 9712. Industrial radiography operations are licensed under 10 CFR Part 34 by the NRC, or under the equivalent regulation in an Agreement State, which covers the majority of US states. Part 34 requires each radiographer to be certified through a certifying entity recognised under Appendix A to Part 34 — in practice the ASNT Industrial Radiography Radiation Safety Personnel examination — to complete documented training on the licensee's operating and emergency procedures, and to work under a Radiation Safety Officer named on the licence. Occupational dose is capped at 5 rem total effective dose equivalent per year by 10 CFR 20.1201.",
+      "source": "10 CFR Part 34, Licenses for Industrial Radiography and Radiation Safety Requirements for Industrial Radiographic Operations, including 10 CFR 34.43 and Appendix A; 10 CFR 20.1201 and 20.1208; ASNT SNT-TC-1A (2020 edition); ASME BPVC Section V, Article 2; API 1104; ISO 17636-1 and ISO 17636-2.",
+      "table": {
+          "caption": "The two credential tracks a US industrial radiographer must hold",
+          "columns": [
+              "Credential",
+              "Governing document",
+              "Minimum required",
+              "What it authorises"
+          ],
+          "rows": [
+              [
+                  "RT Level I",
+                  "Employer Written Practice per ASNT SNT-TC-1A",
+                  "40 training hours, 210 RT experience hours, 400 total NDT hours",
+                  "Make exposures to a written technique and process the image. No interpretation."
+              ],
+              [
+                  "RT Level II",
+                  "Employer Written Practice per ASNT SNT-TC-1A",
+                  "40 further training hours, 630 cumulative RT hours, 1,200 total NDT hours",
+                  "Develop the technique, interpret the radiograph, evaluate against acceptance criteria and sign the report."
+              ],
+              [
+                  "RT Level III",
+                  "ASNT SNT-TC-1A education-plus-experience route",
+                  "4 years beyond Level II for a high-school graduate; 2 years with a two-year technical degree; 1 year with a four-year engineering or science degree",
+                  "Write and approve procedures and techniques, qualify RT personnel, own the interface with the radiation safety programme."
+              ],
+              [
+                  "Radiographer certification",
+                  "10 CFR 34.43 and Appendix A to 10 CFR Part 34, or the Agreement State equivalent",
+                  "Pass a recognised certifying-entity examination (ASNT IRRSP), plus licensee training on operating and emergency procedures and a documented practical",
+                  "Operate a radiographic exposure device without personal supervision."
+              ],
+              [
+                  "Radiographer's assistant",
+                  "10 CFR Part 34, or the Agreement State equivalent",
+                  "Licensee training and demonstrated competence, documented",
+                  "Assist only under the personal supervision of a certified radiographer."
+              ]
+          ],
+          "note": "The two tracks are independent. Holding one never implies the other. Method certification is granted by the employer under its Written Practice; radiographer certification is a regulatory requirement enforced against the licence, and NRC or Agreement State inspectors audit it directly. Atlantis delivers RT method training; radiation safety certification is issued by the certifying entity."
+      },
+      "facets": [
+          {
+              "q": "Does an ASNT RT Level II certificate allow me to operate a gamma source?",
+              "a": "No. Method certification and radiographer certification are separate. Operating an exposure device requires certification through a certifying entity recognised under Appendix A to 10 CFR Part 34 — in practice the ASNT IRRSP examination — plus documented training on the licensee's operating and emergency procedures. An RT Level III without radiographer certification still cannot make the exposure."
+          },
+          {
+              "q": "What is ASNT IRRSP and who has to hold it?",
+              "a": "IRRSP is ASNT's Industrial Radiography Radiation Safety Personnel certification, the examination that satisfies the certifying-entity requirement in 10 CFR 34.43 and Appendix A to Part 34. Every individual acting as a radiographer on a US industrial radiography licence holds it. Radiographer's assistants work under the personal supervision of a certified radiographer instead. The certification runs on a five-year cycle."
+          },
+          {
+              "q": "What is the annual radiation dose limit for a US industrial radiographer?",
+              "a": "5 rem, or 0.05 sievert, total effective dose equivalent per year, set by 10 CFR 20.1201. A declared pregnant worker's embryo or fetus is limited to 0.5 rem across the entire gestation period under 10 CFR 20.1208. Monitoring requires a film badge or OSL dosimeter processed by an accredited service, plus a direct-reading dosimeter and an alarming ratemeter worn during operations."
+          },
+          {
+              "q": "Can digital radiography replace film on ASME Section V work?",
+              "a": "Yes. ASME BPVC Section V Article 2 carries mandatory appendices covering computed radiography and digital detector arrays, and ISO 17636-2 is the digital counterpart to film's 17636-1. Interpretation qualification does not change — an RT Level II reads either. What changes is the image-quality demonstration, the file integrity chain and long-term storage, all of which the written procedure addresses."
+          },
+          {
+              "q": "What film density does ASME Section V Article 2 require?",
+              "a": "Through the body of the hole-type image quality indicator, transmitted density is 1.8 minimum for X-ray sources and 2.0 minimum for gamma sources, with 4.0 the maximum for single-film viewing. Density through the area of interest holds within minus 15 percent to plus 30 percent of the density measured through the IQI. Density is measured with a densitometer, not judged."
+          },
+          {
+              "q": "How does pipeline radiography under API 1104 differ from ASME work?",
+              "a": "API 1104 governs welding and inspection of pipeline girth welds, and its acceptance criteria for porosity, slag inclusions and incomplete penetration differ from ASME Section VIII and B31.3. Personnel qualification still comes from the employer's written practice under SNT-TC-1A. A radiographer moving from fabrication to pipeline construction relearns acceptance criteria, not technique."
+          }
+      ]
+  },
+
+  "/magnetic-particle-testing-training": {
+      "answer": "MT certification in the US runs under ASNT SNT-TC-1A, which recommends 12 training hours and 70 MT experience hours for Level I, and 8 further training hours with 210 cumulative MT hours for Level II. ASTM E1444/E1444M and ASTM E709 govern how the examination is performed; the ISO 9934 series is the international equivalent.",
+      "expansion": "MT carries the shortest classroom recommendation of the mainstream weld methods and the highest practical failure rate on coverage discipline. SNT-TC-1A's recommended initial training and experience table lists MT Level I at 12 training hours, 70 hours of MT experience and 130 total NDT hours, and MT Level II at 8 further training hours, 210 cumulative MT hours and 400 total NDT hours. Those are recommendations — the employer's Written Practice binds, and aerospace employers working to NAS 410 set their own figures. Two ASTM documents govern the examination and they are not interchangeable: E709 is a Standard Guide, presenting technique options, while E1444/E1444M is a Standard Practice written in mandatory language, and it is the one aerospace and defence contracts invoke. ASME BPVC Section V Article 7 governs pressure equipment. ISO 9934-1, -2 and -3 cover general principles, detection media and equipment. MT applies only to ferromagnetic material.",
+      "source": "ASTM E1444/E1444M Standard Practice for Magnetic Particle Testing; ASTM E709 Standard Guide for Magnetic Particle Testing; ASNT SNT-TC-1A (2020 edition); ASME BPVC Section V, Article 7; ISO 9934-1, ISO 9934-2 and ISO 9934-3; NAS 410 for aerospace personnel qualification.",
+      "table": {
+          "caption": "ASNT SNT-TC-1A recommended minimums for MT certification, and how MT compares with the 40-hour methods",
+          "columns": [
+              "Level",
+              "MT training hours",
+              "MT experience hours",
+              "Total NDT experience hours",
+              "What that level signs off"
+          ],
+          "rows": [
+              [
+                  "MT Level I",
+                  "12",
+                  "70 in MT",
+                  "130 across all methods",
+                  "Performs magnetisation and particle application to a written instruction, verifies field adequacy and records indications."
+              ],
+              [
+                  "MT Level II",
+                  "8 further (20 cumulative)",
+                  "210 cumulative in MT",
+                  "400 across all methods",
+                  "Selects technique and amperage, interprets indications, evaluates against the code and signs the examination report."
+              ],
+              [
+                  "MT Level III",
+                  "No recommended classroom figure",
+                  "4 years beyond Level II for a high-school graduate; 2 years with a two-year technical degree; 1 year with a four-year engineering or science degree",
+                  "Counted as time comparable to Level II",
+                  "Writes and approves procedures, qualifies MT personnel, owns bath and bench process controls."
+              ],
+              [
+                  "Limited MT certification",
+                  "Set by the employer's Written Practice for the named technique",
+                  "Set by the employer's Written Practice",
+                  "Set by the employer's Written Practice",
+                  "Only the specific technique, part family and scope written on the certificate."
+              ],
+              [
+                  "UT, RT or ET Level I, for comparison",
+                  "40",
+                  "210 in the method",
+                  "400 across all methods",
+                  "The same authority as MT Level I. The hours differ by method, not by rank."
+              ]
+          ],
+          "note": "SNT-TC-1A recommends; the employer's Written Practice binds and can require more. MT's 12-hour Level I recommendation reflects equipment simplicity, not a lower standard of competence — coverage discipline is where candidates fail the practical, because a yoke examines a small patch per placement and a weld is a mosaic of overlapping placements in two perpendicular directions."
+      },
+      "facets": [
+          {
+              "q": "What is the difference between ASTM E709 and ASTM E1444?",
+              "a": "E709 is a Standard Guide — it presents magnetic particle techniques and options without mandating any of them. E1444/E1444M is a Standard Practice, written in mandatory language, and it is the document aerospace and defence contracts invoke. A procedure written to E709 alone satisfies a guide. A procedure written to E1444 satisfies an auditor."
+          },
+          {
+              "q": "Can magnetic particle testing be used on stainless steel or aluminum?",
+              "a": "No for austenitic 300-series stainless, aluminum, copper, titanium and nickel alloys — none are ferromagnetic, so no leakage field forms at a discontinuity. Martensitic and ferritic 400-series stainless and duplex grades are ferromagnetic and are examinable. Where the material is non-magnetic, penetrant testing covers surface-breaking flaws and eddy current covers surface and near-surface flaws."
+          },
+          {
+              "q": "How is magnetic field adequacy verified during an MT examination?",
+              "a": "With an artificial flaw shim or a pie-shaped field indicator placed on the part, not with a meter reading alone. ASME BPVC Section V Article 7 also requires a lifting-power check on yokes at the maximum pole spacing to be used: 10 pounds for an alternating-current yoke and 40 pounds for a direct-current or permanent-magnet yoke."
+          },
+          {
+              "q": "When is demagnetisation required after magnetic particle testing?",
+              "a": "When residual magnetism interferes with what happens next — arc blow during subsequent welding, chip adhesion during machining, instrument error on assembled equipment, or a residual-field limit stated on the drawing. The examination procedure names the requirement and the verification method, and a residual field meter records the result. Demagnetisation is a controlled, documented step."
+          },
+          {
+              "q": "How often must MT certification and examiner vision be renewed?",
+              "a": "SNT-TC-1A recommends recertification at intervals not exceeding five years for all levels. Near-vision acuity is retested annually at Jaeger No. 1 or an equivalent, and colour-contrast differentiation is documented. That second test carries more weight in MT than in most methods, because the decision rests on contrast between the particle indication and the contrast-paint background."
+          },
+          {
+              "q": "Do I need MT and PT together to be employable in US fabrication?",
+              "a": "US fabrication and refinery job postings pair MT, PT and VT as a surface-methods set, because MT covers ferromagnetic material and PT covers everything else. The combined SNT-TC-1A Level I classroom recommendation across all three is 24 hours. The experience log, not the coursework, decides how fast a candidate becomes hireable on all three."
+          }
+      ]
+  },
+
+  "/penetrant-testing-training": {
+      "answer": "PT certification in the US runs under ASNT SNT-TC-1A, which recommends 4 training hours and 70 PT experience hours for Level I, and 8 further training hours with 140 cumulative PT hours for Level II. ASTM E1417/E1417M is the governing practice for how the examination is performed and process-controlled.",
+      "expansion": "PT carries the shortest classroom recommendation in NDT — SNT-TC-1A lists 4 training hours for Level I and 8 further hours for Level II, against 70 and 140 hours of PT experience and 130 and 270 total NDT hours. That brevity is why US aerospace does not rely on SNT-TC-1A alone: fluorescent penetrant inspection is a Nadcap-audited special process, personnel qualify under NAS 410 in the US or EN 4179 in Europe, and the employer's NDT Level 3 grants written method approval per person. ASTM E1417/E1417M is the governing document — a Practice, not a guide, so its requirements bind once invoked, covering dwell, removal, developer, process controls and system monitoring. ASTM E165 covers general industry, ASME BPVC Section V Article 6 covers pressure equipment, and ISO 3452-1 through -6 is the international series.",
+      "source": "ASTM E1417/E1417M Standard Practice for Liquid Penetrant Testing; ASTM E165 Standard Practice for Liquid Penetrant Examination for General Industry; SAE AMS 2644 Inspection Material, Penetrant; ASNT SNT-TC-1A (2020 edition); ASME BPVC Section V, Article 6; ISO 3452-1; NAS 410 and EN 4179 for aerospace personnel qualification.",
+      "table": {
+          "caption": "Penetrant systems under ASTM E1417 and AMS 2644 — which one a US employer trains toward",
+          "columns": [
+              "Penetrant type and removal method",
+              "Designation",
+              "What it is chosen for",
+              "Where US employers run it"
+          ],
+          "rows": [
+              [
+                  "Visible dye, solvent removable",
+                  "Type II, Method C",
+                  "Discrete surface-breaking cracks on machined and welded surfaces, examined under white light with no booth",
+                  "Field weld inspection, refinery turnarounds, structural and pressure fabrication"
+              ],
+              [
+                  "Fluorescent, water washable",
+                  "Type I, Method A",
+                  "High-throughput screening of small parts with open, well-formed flaws",
+                  "Casting and forging production lines, general manufacturing"
+              ],
+              [
+                  "Fluorescent, post-emulsifiable lipophilic",
+                  "Type I, Method B",
+                  "Shallow, tight flaws where over-washing empties the indication before it can bleed out",
+                  "Aerospace engine and airframe component manufacture"
+              ],
+              [
+                  "Fluorescent, post-emulsifiable hydrophilic",
+                  "Type I, Method D",
+                  "The tightest fatigue cracks, at the highest sensitivity levels, with controlled emulsifier contact time",
+                  "Nadcap-audited aerospace manufacture and overhaul"
+              ],
+              [
+                  "Fluorescent, solvent removable",
+                  "Type I, Method C",
+                  "Localised examination where immersion processing is impossible",
+                  "In-service and on-wing aircraft inspection, field repair verification"
+              ]
+          ],
+          "note": "Type and Method designations come from ASTM E1417/E1417M and ASTM E165. Fluorescent penetrant sensitivity levels run from ½ (ultra-low) to 4 (ultra-high) under SAE AMS 2644, and the level is specified by the drawing or the referencing code rather than chosen by the technician. SNT-TC-1A training hours do not change with the system selected. The process discipline does."
+      },
+      "facets": [
+          {
+              "q": "How many training hours does ASNT PT Level II require?",
+              "a": "SNT-TC-1A recommends 4 formal training hours and 70 hours of PT experience for Level I against 130 total NDT hours, then 8 further training hours and 140 cumulative PT hours against 270 total NDT hours for Level II. Those are recommendations. The employer's Written Practice is the binding document, and aerospace employers set higher figures under NAS 410."
+          },
+          {
+              "q": "Why does US aerospace use NAS 410 instead of SNT-TC-1A for penetrant?",
+              "a": "Fluorescent penetrant inspection is a Nadcap-audited special process, and the audit checks personnel qualification against NAS 410 in the US or EN 4179 in Europe. Under NAS 410 the employer's NDT Level 3 issues written approval per person per method, examinations follow a controlled format, and the four-hour SNT-TC-1A classroom recommendation is superseded by the employer's written practice."
+          },
+          {
+              "q": "What UV-A intensity does fluorescent penetrant inspection require?",
+              "a": "A minimum of 1,000 microwatts per square centimetre of UV-A at the examination surface, with ambient white light held at 2 foot-candles or less inside the inspection booth. Lamp output is verified on a documented schedule with a calibrated radiometer, and the examiner completes a dark-adaptation period before evaluating. Each of these becomes an audit finding when left undocumented."
+          },
+          {
+              "q": "Can penetrant testing be used after grinding, blasting or shot peening?",
+              "a": "Not without etching first. Machining, grinding, blasting and peening smear metal across flaw openings and close the capillary path the penetrant needs, producing false negatives on real cracks. ASTM E1417 requires an etch step after those processes. Porous materials — unfired ceramics, powder metal, unsealed castings — retain penetrant everywhere and are unsuitable for the method."
+          },
+          {
+              "q": "How long must penetrant dwell before the developer is applied?",
+              "a": "The referencing document sets it, and the technician reads it off a table rather than choosing it. ASME BPVC Section V Article 6 tabulates minimum penetrant and developer dwell by material form, process and temperature, and ASTM E1417 carries its own table for aerospace work. Shortening dwell to save time is the leading cause of a missed indication."
+          },
+          {
+              "q": "Should I train in PT or MT first?",
+              "a": "MT first if you work in fabrication, structural steel or oil and gas, where the material is carbon steel and MT reaches subsurface flaws PT cannot. PT first if you target aerospace, castings, or stainless and nickel alloy work, where the material is non-magnetic and fluorescent penetrant is the dominant surface method. Most US employers want both certifications on one technician."
+          }
+      ]
+  },
+
+  "/visual-testing-training": {
+      "answer": "VT is a certified NDT method, not an informal look. ASNT SNT-TC-1A recommends 8 training hours and 70 VT experience hours for Level I, and 16 further training hours with 140 cumulative VT hours for Level II — more classroom time at Level II than any other surface method. ASME BPVC Section V Article 9 governs the examination.",
+      "expansion": "Visual testing is the method every other method depends on, and the one US employers most often assume needs no certificate. The codes disagree. ASME BPVC Section V Article 9 requires a written procedure, and direct visual examination performed with the eye within 24 inches of the surface at an angle no less than 30 degrees, under a minimum of 100 foot-candles — roughly 1,000 lux — measured at the surface. SNT-TC-1A's recommended table lists VT Level I at 8 training hours, 70 VT hours and 130 total NDT hours, and VT Level II at 16 further training hours, 140 cumulative VT hours and 270 total NDT hours. Every level requires a documented near-vision acuity examination, Jaeger No. 1 at not less than 12 inches or an equivalent, repeated annually, plus colour-contrast differentiation. For structural steel, AWS D1.1 Clause 8 supplies the acceptance criteria a VT Level II applies.",
+      "source": "ASME BPVC Section V, Article 9; AWS D1.1/D1.1M Structural Welding Code — Steel, Clause 8 visual inspection acceptance criteria; ASNT SNT-TC-1A (2020 edition), vision examination and recommended training requirements; API 510, API 570 and API 653 in-service visual requirements.",
+      "table": {
+          "caption": "What US codes require of a visual examination — the parameters a VT Level II must be able to measure",
+          "columns": [
+              "Parameter",
+              "Requirement",
+              "Governing document",
+              "Who verifies and records it"
+          ],
+          "rows": [
+              [
+                  "Illumination, direct visual examination",
+                  "100 foot-candles (about 1,000 lux) minimum, measured at the surface being examined",
+                  "ASME BPVC Section V, Article 9",
+                  "VT Level II, with a calibrated light meter; source and meter recorded"
+              ],
+              [
+                  "Eye position, direct visual examination",
+                  "Within 24 inches (600 mm) of the surface, at an angle of 30 degrees or greater to it",
+                  "ASME BPVC Section V, Article 9",
+                  "VT Level II, recorded on the examination report"
+              ],
+              [
+                  "Remote visual examination",
+                  "Resolution at least equivalent to direct visual examination, demonstrated on the system in use",
+                  "ASME BPVC Section V, Article 9",
+                  "VT Level III on the written procedure, with the demonstration retained"
+              ],
+              [
+                  "Examiner near-vision acuity",
+                  "Jaeger No. 1 type at not less than 12 inches, or an equivalent, one eye or both, natural or corrected",
+                  "ASNT SNT-TC-1A, examined annually",
+                  "Employer, documented per person on the certification file"
+              ],
+              [
+                  "Examiner colour-contrast differentiation",
+                  "Ability to distinguish and differentiate the colours used in the method",
+                  "ASNT SNT-TC-1A",
+                  "Employer, documented per person on the certification file"
+              ],
+              [
+                  "Undercut, statically loaded structural weld",
+                  "1/32 inch maximum, with 1/16 inch permitted for an accumulated 2 inches in any 12 inches of weld",
+                  "AWS D1.1 Clause 8",
+                  "VT Level II or CWI, measured with a gauge"
+              ]
+          ],
+          "note": "VT is the only NDT method whose acceptance decision is made without an instrument reading of the flaw itself, which is exactly why the codes turn the examiner's eyesight, the light level and the viewing geometry into measurable, auditable quantities. Cyclically loaded connections carry tighter undercut limits than the statically loaded values shown. The employer's Written Practice binds on training hours."
+      },
+      "facets": [
+          {
+              "q": "Does an AWS CWI certification replace VT Level II?",
+              "a": "No, and the reverse is also false. A CWI covers welding processes, procedure and welder qualification, and code application. A VT Level II is an NDT method certification issued under the employer's Written Practice, which is what ASME BPVC Section V Article 9 work calls for. Employers running both structural and pressure-equipment work hire people holding both credentials."
+          },
+          {
+              "q": "What lighting does ASME Section V require for visual examination?",
+              "a": "A minimum of 100 foot-candles, roughly 1,000 lux, measured at the surface being examined — not at the workbench, and not estimated. The light source and the calibrated meter used are recorded on the examination report. Remote visual examination using borescopes, mirrors, fibrescopes or cameras is demonstrated to have resolution at least equivalent to direct visual examination."
+          },
+          {
+              "q": "How often is an NDT examiner's vision tested, and to what standard?",
+              "a": "Near-vision acuity is examined annually under SNT-TC-1A: the candidate reads Jaeger No. 1 type at not less than twelve inches, or an equivalent such as Times Roman N-4.5, with one eye or both, natural or corrected. Colour-contrast differentiation is documented separately. Failing the vision examination suspends the certification regardless of how many experience hours are logged."
+          },
+          {
+              "q": "Is visual inspection alone enough to accept a weld under AWS D1.1?",
+              "a": "Yes, unless the contract documents specify otherwise. AWS D1.1 requires visual inspection of all welds and makes additional NDT applicable only where the contract designates it. That places the whole acceptance decision on a VT-qualified examiner measuring undercut, reinforcement, profile, porosity and cracking against Clause 8 criteria with gauges rather than by eye."
+          },
+          {
+              "q": "What is the difference between direct and remote visual examination?",
+              "a": "Direct visual examination places the examiner's eye within 24 inches of the surface at an angle of 30 degrees or greater. Remote visual examination substitutes mirrors, borescopes, fibrescopes or cameras where access prevents that, and the system is demonstrated to have at least equivalent resolution. Internal examination under API 510, 570 and 653 relies heavily on remote visual."
+          },
+          {
+              "q": "Can a VT Level II give final acceptance on an ASME Section VIII vessel?",
+              "a": "A VT Level II performs the examination, evaluates against the acceptance criteria and signs the examination report. Final acceptance of the completed vessel rests with the Authorized Inspector, who signs the Manufacturer's Data Report. The distinction matters on audit: NDT personnel certify examinations, and the Authorized Inspector certifies code compliance of the finished item."
+          }
+      ]
+  },
+
+  "/eddy-current-testing-training": {
+      "answer": "ET certification in the US runs under ASNT SNT-TC-1A, which recommends 40 training hours and 210 ET experience hours for Level I, and 40 further training hours with 630 cumulative ET hours for Level II — the same tier as UT and RT. ASME BPVC Section V Article 8 governs tubular product examination.",
+      "expansion": "Eddy current carries the same 40-hour classroom recommendation as UT and RT because the interpretation is electromagnetic rather than geometric: the technician reads phase angle and amplitude together on the impedance plane, and phase is what separates a through-wall defect from lift-off. SNT-TC-1A's recommended table lists ET Level I at 40 training hours, 210 hours of ET experience and 400 total NDT hours, and ET Level II at 40 further training hours, 630 cumulative ET hours and 1,200 total NDT hours. Test frequency governs what depth is examinable: standard depth of penetration is the depth at which eddy current density falls to about 37 percent of the surface value, and it decreases as frequency, conductivity or permeability rises. US demand concentrates in two places — heat-exchanger and condenser tube inspection across refining, petrochemical and power generation, and aerospace surface and bolt-hole examination under NAS 410.",
+      "source": "ASNT SNT-TC-1A (2020 edition); ASME BPVC Section V, Article 8 and its mandatory appendices for tubular products; ISO 15548-1 and ISO 15548-2 (eddy current equipment characteristics); ASTM E243 Standard Practice for Electromagnetic (Eddy Current) Examination of Copper and Copper-Alloy Tubes; NAS 410 for aerospace personnel qualification.",
+      "table": {
+          "caption": "Eddy current techniques — what each detects, what it cannot, and the US industry that runs it",
+          "columns": [
+              "Technique",
+              "Detects",
+              "Does not detect",
+              "Primary US application"
+          ],
+          "rows": [
+              [
+                  "Bobbin coil, tube",
+                  "Volumetric wall loss, pitting, general thinning and through-wall holes, at full-bundle screening speed",
+                  "Circumferential cracking, and flaws masked at tubesheets and support plates without supplementary probes",
+                  "Heat exchanger and condenser screening across refining, petrochemical and power generation"
+              ],
+              [
+                  "Array probe, tube",
+                  "Axially and circumferentially oriented cracking with positional resolution around the tube circumference",
+                  "Outer-diameter wall loss in ferromagnetic tube without magnetic saturation",
+                  "Prosecution of bobbin indications; air cooler and steam generator tubing"
+              ],
+              [
+                  "Rotating pancake coil",
+                  "Discrete cracks with length and orientation, at the highest spatial resolution of the tube techniques",
+                  "Full-length coverage at production speed — inspection rate is a fraction of bobbin",
+                  "Confirmation of bobbin calls; nuclear steam generator tubing"
+              ],
+              [
+                  "Surface and pencil probe",
+                  "Surface-breaking cracks on non-ferrous, painted and thinly coated components",
+                  "Subsurface flaws beyond a few standard depths of penetration; anything under thick ferromagnetic material",
+                  "Aerospace airframe and engine component inspection"
+              ],
+              [
+                  "Bolt-hole probe",
+                  "Fatigue cracking initiating at fastener holes, with the fastener removed",
+                  "Cracks masked by an interference-fit bushing without a qualified technique",
+                  "Aircraft structural inspection to the OEM NDT manual"
+              ],
+              [
+                  "Remote field testing",
+                  "Wall loss through the full wall of ferromagnetic tube — carbon steel and ferritic stainless",
+                  "Small, sharp surface-breaking cracks; RFT is a volumetric wall-loss technique",
+                  "Boiler, feedwater heater and carbon-steel exchanger tubing"
+              ]
+          ],
+          "note": "Under SNT-TC-1A the employer's Written Practice names which of these techniques a certificate covers. A conventional ET Level II certificate does not automatically authorise array, rotating-probe or remote field work — each is a sub-method requiring documented training and a practical demonstration on that technique's data. ASME BPVC Section V Article 8 covers tubular products, ASTM E243 covers copper and copper-alloy tube, and ISO 15548 covers equipment characteristics."
+      },
+      "facets": [
+          {
+              "q": "Why is eddy current training 40 hours when magnetic particle is 12?",
+              "a": "Because ET interpretation is indirect. MT produces a visible indication at the flaw. ET produces a point moving on an impedance plane, and lift-off, conductivity change, permeability change and a real defect each move it along a different path at a different phase angle. Reading amplitude alone fails the practical examination. The classroom hours buy the theory that makes the display legible."
+          },
+          {
+              "q": "Does an ET Level II certificate cover array probes and remote field testing?",
+              "a": "No. Conventional ET, array eddy current, rotating-probe examination and remote field testing are separate sub-methods. The employer's Written Practice names which techniques a certificate covers, and adding one requires documented training plus a practical demonstration on that technique's data. Nuclear steam generator work layers site-specific performance demonstration on top of that."
+          },
+          {
+              "q": "How do I choose the eddy current test frequency?",
+              "a": "Frequency sets standard depth of penetration, the depth at which current density falls to about 37 percent of the surface value. Penetration falls as frequency, conductivity or permeability rises, so high frequency buys surface resolution and low frequency buys depth. Tube work adds a second constraint: the frequency that cleanly separates outer-diameter from inner-diameter phase response on the reference standard."
+          },
+          {
+              "q": "Can eddy current testing inspect carbon steel?",
+              "a": "Not with conventional ET alone — permeability variation in ferromagnetic material swamps the defect signal. Two routes exist. Magnetic saturation coils suppress the permeability response and let conventional or array ET work on ferritic tube. Remote field testing operates through the wall instead and measures volumetric wall loss in carbon steel and ferritic stainless tubing directly."
+          },
+          {
+              "q": "When is IRIS used instead of eddy current for heat exchanger tubes?",
+              "a": "When absolute wall thickness is required, when the tube is ferromagnetic or thick-walled, and when eddy current indications need quantifying. IRIS is an ultrasonic internal rotary technique: slower, requiring clean tubes and water coupling, but it measures thickness rather than inferring it. Standard practice screens the full bundle with eddy current and prosecutes a sample with IRIS."
+          },
+          {
+              "q": "Is ASNT ET certification accepted in US aerospace?",
+              "a": "Aerospace qualifies personnel under NAS 410 rather than SNT-TC-1A alone, with the employer's NDT Level 3 issuing written method approval per person. On top of that, airframe and engine work requires qualification to the OEM's NDT manual procedure for the specific part and technique — bolt-hole, sliding-probe and conductivity examinations each qualify separately."
+          }
+      ]
+  },
+
+  "/": {
+      "answer": "Atlantis NDT runs four lines from Houston, Texas and Hyderabad, India: NDT training and certification to ASNT SNT-TC-1A and ISO 9712, outsourced ASNT Level III consulting, an inspection-management ERP, and a digital twin platform for asset integrity. Fifty-plus certified Level III specialists cover ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing. Founded 2018 by Anoop Rayavarapu.",
+      "expansion": "Delivery covers the United States, Canada, the UK, the UAE, Saudi Arabia, Qatar, Singapore, Australia and India. Training runs Level I, II and III across UT, RT, MT, PT, ET and VT plus phased array and TOFD, authored by practising ASNT Level III professionals and carrying a 96% first-attempt pass rate. Consulting supplies outsourced Level III of record, written practice development, procedure development and qualification, API risk-based inspection program design, and fitness-for-service work under API 579. Atlantis ERP is built on 30-plus integrated business apps: work orders, technician certification tracking, calibration management, quoting and invoicing. The Digital Twins platform overlays defect maps, corrosion data and predictive analytics on a navigable 3D asset model, delivered by web or VR/AR. Field capability adds corrosion mapping, phased array UT, tank floor MFL and 3D laser scanning with LiDAR, photogrammetry and drone capture. Affordable, accessible, fully customizable — quote on request.",
+      "source": "ASNT SNT-TC-1A (Recommended Practice, Personnel Qualification and Certification in Nondestructive Testing) and ANSI/ASNT CP-189; ISO 9712 (Qualification and Certification of NDT Personnel); ISO 9001:2015 quality management.",
+      "table": {
+          "caption": "Atlantis NDT segments — what each delivers and which standard governs it",
+          "columns": [
+              "Segment",
+              "What it delivers",
+              "Governing framework",
+              "Delivery model",
+              "Buyer"
+          ],
+          "rows": [
+              [
+                  "NDT Training & Certification",
+                  "Level I / II / III in UT, RT, MT, PT, ET, VT, PAUT, TOFD; 96% first-attempt pass rate",
+                  "ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712",
+                  "Classroom (Houston, Hyderabad, Dubai), on-site corporate cohort, blended online theory",
+                  "Inspection contractors, EPCs building crew capability"
+              ],
+              [
+                  "ASNT Level III Consulting",
+                  "Outsourced Level III of record, written practices, procedure development and qualification, RBI design, fitness-for-service",
+                  "ASME, API 579 / 580 / 581, AWS, ISO, EN",
+                  "Remote procedure authoring with Level III sign-off, or on-site",
+                  "Asset owners and contractors without an in-house Level III"
+              ],
+              [
+                  "Atlantis ERP",
+                  "Work orders, technician certification tracking, calibration management, quoting, invoicing, audit-ready records",
+                  "ISO 9001:2015, ISO 17020, ISO 17025, ISO 17024",
+                  "Hosted, built on 30+ integrated business apps",
+                  "NDT service companies running multi-crew operations"
+              ],
+              [
+                  "Digital Twins",
+                  "3D asset visualisation, defect mapping, corrosion overlay, predictive analytics, turnaround planning",
+                  "API 580 / 581 RBI tiers, API 579 FFS workflow",
+                  "Web or VR/AR",
+                  "Refinery, petrochemical and power integrity teams"
+              ],
+              [
+                  "NDT Reporting Software",
+                  "Mobile offline field capture, code-aligned templates, client-ready report generation",
+                  "ASME Section V method articles; ISO / ASNT report content",
+                  "Mobile plus web, offline capable",
+                  "Field crews and report reviewers"
+              ],
+              [
+                  "Inspection Services & 3D Scanning",
+                  "Corrosion mapping, phased array UT, tank floor MFL, LiDAR and drone as-built capture",
+                  "ASME Section V, API 510 / 570 / 653 driven programs",
+                  "Mobilisation from Houston, Dubai, Mumbai, Singapore, London hubs",
+                  "Operators needing field execution, not software"
+              ]
+          ],
+          "note": "Atlantis NDT publishes no pricing. Scope, region, team size and delivery model set the number; a tailored quote follows a free consultation within 24 hours. Affordable. Accessible. Fully customizable."
+      },
+      "facets": [
+          {
+              "q": "Which NDT methods does Atlantis NDT cover?",
+              "a": "Ultrasonic, radiographic, magnetic particle, liquid penetrant, eddy current and visual testing form the base six, with phased array ultrasonic testing and time-of-flight diffraction as advanced methods. Field service adds corrosion mapping, tank floor magnetic flux leakage and 3D laser scanning. Every method is backed by ASNT Level III authorship for procedure writing and final disposition on the engagement."
+          },
+          {
+              "q": "Does Atlantis train to ASNT SNT-TC-1A or to ISO 9712?",
+              "a": "Both. SNT-TC-1A is employer-based: your Level III certifies your people under your own written practice, which is faster and the North American default. ISO 9712 is central certification issued by an accredited third party, so the certificate travels with the technician between employers. Atlantis writes the written practice for the first route and prepares candidates for the examination on the second."
+          },
+          {
+              "q": "Can Atlantis act as our outsourced ASNT Level III of record?",
+              "a": "Yes. Outsourced Level III services cover written practice development, examination administration, procedure development and qualification, and final disposition on inspection results. Remote engagements return procedure authoring and Level III sign-off on a 24-hour turnaround; hybrid engagements pair a local Level II with Atlantis Level III oversight. This is the standard route for a company that has inspection volume but no certified Level III in house."
+          },
+          {
+              "q": "What does the Digital Twins platform do that reporting software does not?",
+              "a": "Reporting software produces the record of one examination. The digital twin binds every examination to the asset it describes: thickness readings land on the 3D model at their condition monitoring location, corrosion overlays show wall loss across the surface, and API 580/581 risk tiers and API 579 fitness-for-service workflows run off measured corrosion rates rather than default assumptions. Turnaround planning uses the same model."
+          },
+          {
+              "q": "Where does Atlantis NDT deliver in North America?",
+              "a": "Houston, Texas is the operating base for United States work, covering Gulf Coast refining, petrochemical and fabrication clients, with delivery across the United States and Canada. Training runs as instructor-led classes in Houston, as on-site corporate cohorts at client facilities, and as blended online theory with in-person practical assessment. Same-week scheduling applies to inspection and consulting engagements."
+          },
+          {
+              "q": "How do I get a quote from Atlantis NDT?",
+              "a": "Book a free consultation. Atlantis publishes no pricing because scope, region, delivery model and team size determine it — an on-site cohort of twenty technicians and a remote procedure package are different engagements entirely. Give headcount, timeline and the codes your contracts name, and a tailored proposal returns within 24 hours. Positioning is affordable, accessible and fully customizable."
+          }
+      ]
+  },
+
+  "/blog/radiographic-testing-complete-guide": {
+      "answer": "Select Se-75 below 30 mm steel, Ir-192 from 20 to 75 mm, Co-60 above 50 mm, and a 4 to 15 MeV linear accelerator above 150 mm. ASME Section V Article 2 governs the technique in North America: film density between 2.0 and 4.0 H&D units, signal-to-noise ratio at or above 130 for digital detector arrays, image quality indicator placed source-side.",
+      "expansion": "Radiography records differential photon attenuation following Beer-Lambert, I = I0 x e^(-ut), so a void or slag pocket transmits more intensity and prints darker than the parent metal. Three parameters decide whether the shot is code-compliant. Geometric unsharpness Ug = F x t / d must hold at or below 0.5 mm for thickness under 50 mm and 0.76 mm above 100 mm. Density must fall between 2.0 and 4.0 H&D units on film, or signal-to-noise ratio above 130 for a digital detector array under ISO 17636-2 class B. Definition is proved by an image quality indicator placed source-side at the area of interest, moved film-side only where source-side access is impossible and then marked with the letter F. Geometry follows access: single-wall single-image for reachable welds, double-wall single-image on 3 to 3.5 inch pipe, double-wall double-image elliptical at 3 inch and below.",
+      "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 2 (Radiographic Examination), with Mandatory Appendix VIII for digital detector arrays; ASTM E94/E94M Standard Guide for Radiographic Examination; ISO 17636-1 (film) and ISO 17636-2 (CR and digital detectors), class A and class B.",
+      "table": {
+          "caption": "Radiation source selection by steel thickness — US practice",
+          "columns": [
+              "Source",
+              "Energy",
+              "Steel thickness range",
+              "Half-life",
+              "Where it wins"
+          ],
+          "rows": [
+              [
+                  "Selenium-75",
+                  "320 keV average",
+                  "Below 30 mm",
+                  "120 days",
+                  "Highest contrast on thin wall; smallest exclusion boundary of the common isotopes"
+              ],
+              [
+                  "Iridium-192",
+                  "380 keV average",
+                  "20 to 75 mm",
+                  "74 days",
+                  "Pipeline girth welds and process piping; a 36-inch panoramic exposure completes in about 4 minutes"
+              ],
+              [
+                  "Cobalt-60",
+                  "1.17 and 1.33 MeV",
+                  "Above 50 mm",
+                  "5.27 years",
+                  "Heavy castings and thick-wall vessels where lower energies will not penetrate"
+              ],
+              [
+                  "X-ray tube, constant potential",
+                  "160 / 300 / 450 kV",
+                  "Up to about 75 mm",
+                  "Not applicable — switchable off",
+                  "Shop and fabrication bays; the source is inert between exposures, which removes source-transport licensing"
+              ],
+              [
+                  "Linear accelerator",
+                  "4, 6, 9 or 15 MeV",
+                  "Above 150 mm, to about 300 mm",
+                  "Not applicable",
+                  "Reactor pressure vessel girth welds, thick castings, concrete"
+              ]
+          ],
+          "note": "Article 2 sets how the radiograph is made. Acceptance comes from the referencing construction code — ASME B31.3 Table 341.3.2, API 1104 Section 9, or AWS D1.1 Clause 10.21. A crack-like indication is rejectable under all three regardless of length."
+      },
+      "facets": [
+          {
+              "q": "Which source do I use on a 25 mm carbon steel pipe weld?",
+              "a": "Iridium-192. The 20 to 75 mm band is its working range, and at 380 keV average energy it holds enough contrast at that wall while completing a panoramic exposure in minutes. Selenium-75 gives better contrast but is a below-30 mm source and sits at the edge of usefulness here. Cobalt-60 at 1.17/1.33 MeV over-penetrates 25 mm and loses the density difference that reveals slag."
+          },
+          {
+              "q": "How do I calculate geometric unsharpness before an exposure?",
+              "a": "Ug = F x t / d, where F is the focal spot or source size, t is the object-to-film distance, and d is the source-to-object distance. Increase the source-to-film distance or reduce the object-to-film gap to bring Ug down. Code-compliant radiography holds Ug at or below 0.5 mm below 50 mm thickness and 0.76 mm above 100 mm. Verify the number before the shot, not after."
+          },
+          {
+              "q": "When is PAUT the better choice than radiography on a weld?",
+              "a": "Above roughly 12 mm wall on pipeline and pressure work. Phased array detects planar flaws — lack of fusion and cracking — that a beam-unfavourable radiograph misses, provides through-wall depth that radiography never gives, needs no evacuation of the area, and scans a 6-inch weld in 1 to 3 minutes against 4 to 10 for RT. Below 8 mm wall and under 4-inch NPS, radiography stays the more economical method."
+          },
+          {
+              "q": "How many training and experience hours does RT Level II require under SNT-TC-1A?",
+              "a": "Radiographic testing carries the highest hour requirement of the common methods. Level I calls for 40 hours classroom plus 210 hours of on-the-job experience. Level II adds a further 40 hours classroom and takes cumulative experience to 630 hours. Level III requires passing basic, method and specific examinations plus four years of documented work history. ISO 9712 asks 80 training hours for Level 2 RT against the same 630-hour experience minimum."
+          },
+          {
+              "q": "What radiation boundary must be posted around an Ir-192 exposure?",
+              "a": "Two boundaries are posted and surveyed: the high-radiation area at 0.02 mSv/h and the restricted area at 0.0025 mSv/h, established with a calibrated survey meter before the source leaves the camera. In field practice this puts the exclusion zone 60 to 100 m out from an Ir-192 source. The radiographer carries triple dosimetry — OSL badge, electronic dosimeter, and an audible alarming dosimeter set at 2 mSv/h."
+          },
+          {
+              "q": "Is digital radiography worth converting to from film?",
+              "a": "For a shop above 4,000 shots per year, the break-even on a four-crew conversion lands at 12 to 20 months. Digital detector arrays remove film, chemistry, darkroom and physical storage, cut consumable spend by about 60% and compress the report cycle by about 70%. Field DR panels image up to 1.5 inch steel in 30 seconds. Computed radiography sits roughly cost-neutral to film while still buying the turnaround gain."
+          }
+      ]
+  },
+
+  "/ndt-training-jubail": {
+      "answer": "ASNT Level II is the working ticket in Jubail: contractor packages cite SAEP-1112, SAES-W-012 and the Saudi Aramco 175-series specifications, and CSWIP 3.1 is required for any welding inspection role. Examination and practical facilities operate at Saudi Aramco Jubail Training Center, TUV NORD Saudi Arabia Jubail branch, and Velosi Jubail. Atlantis delivers on-site corporate cohorts, not a walk-in centre.",
+      "expansion": "Jubail Industrial City concentrates more petrochemical capacity than any comparable site: SABIC affiliates PetroKemya, SAFCO, Saudi Kayan and Yansab sit side by side on the Royal Commission grid, alongside Sadara, the SATORP refinery, Marafiq power and desalination, and the fabrication yards feeding them. A turnaround runs somewhere in Jubail nearly every month, and each one absorbs hundreds of mobile technicians who must hold current certification. Train against the local work: ultrasonic and radiographic testing for construction and revamp welds, eddy current for exchanger campaigns, ultrasonic thickness and phased array for refining assets, magnetic particle during outages. Certification schemes split two ways. SNT-TC-1A is employer-based and faster; ISO 9712 and PCN are central, and the certificate moves with the technician between employers. Aramco-linked work adds SAES standards and operator-specific approval on top of either route.",
+      "source": "ASNT SNT-TC-1A (employer-based written practice route) and ISO 9712 (central certification); Saudi Aramco engineering procedure SAEP-1112 and standard SAES-W-012 as cited in Jubail contractor packages; CSWIP 3.1 issued by TWI.",
+      "table": {
+          "caption": "Certification routes recognised in the Jubail market",
+          "columns": [
+              "Route",
+              "Issued by",
+              "What it qualifies you to do",
+              "Portability between employers",
+              "Where it is named"
+          ],
+          "rows": [
+              [
+                  "ASNT Level II (SNT-TC-1A)",
+                  "Your employer, under a written practice approved by a qualified Level III",
+                  "Set up, calibrate, interpret against the code and sign the report",
+                  "Tied to the employer; re-certification on moving",
+                  "The level Jubail contracts actually specify"
+              ],
+              [
+                  "ASNT Level III",
+                  "ASNT examination plus documented experience",
+                  "Write and approve procedures, qualify Level I and II personnel",
+                  "Held by the individual",
+                  "Required where an inspection function owns its own written practice"
+              ],
+              [
+                  "ISO 9712 Level 2",
+                  "Accredited third-party body after proctored examination",
+                  "Same technical scope as Level II, certified centrally",
+                  "Travels with the technician",
+                  "EPC and international contractor scopes"
+              ],
+              [
+                  "SAEP (Saudi Aramco)",
+                  "Saudi Aramco, via approved training centres",
+                  "Work on Aramco-linked assets and contracts",
+                  "Aramco-specific endorsement",
+                  "SAEP-1112 with the Saudi Aramco 175-series specifications"
+              ],
+              [
+                  "CSWIP 3.1",
+                  "TWI",
+                  "Welding inspection, distinct from NDT method certification",
+                  "Travels with the inspector",
+                  "Mandatory for any welding inspection role in Jubail"
+              ],
+              [
+                  "PCN Level 2",
+                  "BINDT",
+                  "Central NDT method certification, European route",
+                  "Travels with the inspector",
+                  "Alternative central scheme where ISO 9712 is accepted"
+              ]
+          ],
+          "note": "Certification is training hours plus documented experience hours. A candidate already working under supervision progresses faster than a cold start, which is why on-site cohorts sequenced around a shift pattern qualify a crew without stopping the work."
+      },
+      "facets": [
+          {
+              "q": "Where can I sit ASNT examinations in Jubail?",
+              "a": "Three facilities serve the city. Saudi Aramco Jubail Training Center covers ASNT and SAEP. TUV NORD Saudi Arabia, Jubail branch, covers ASNT and ISO 9712. Velosi Jubail covers ASNT, PCN and ISO 9712. Choose on the scheme your target employer names in its contract, not on proximity — an ISO 9712 certificate and an employer-based SNT-TC-1A certificate are not interchangeable at contract award."
+          },
+          {
+              "q": "Does Atlantis run a walk-in training centre in Jubail?",
+              "a": "No. Corporate programmes are delivered on-site at your facility, which is the stronger arrangement for a team because practical specimens can match the crackers and derivative units across the SABIC complexes your people examine. Individuals are served through scheduled cohorts or blended delivery — online theory with supervised practical assessment. For a single candidate on a short timeline, a local provider is sometimes the honest answer."
+          },
+          {
+              "q": "SNT-TC-1A or ISO 9712 for a Jubail contractor role?",
+              "a": "Follow the contract. Aramco-linked work runs on SAES standards and Aramco contractor approval, SABIC affiliate plants run their own vendor and inspector approval, and Royal Commission requirements sit over construction — in each case certification means an ASNT-based scheme with operator-specific endorsement. Where both routes circulate, weigh the central ISO 9712 certificate that moves between employers against the faster employer-based SNT-TC-1A route."
+          },
+          {
+              "q": "Which methods should a Jubail technician certify in first?",
+              "a": "Ultrasonic and radiographic testing for construction and revamp welds, because turnaround and expansion work in the petrochemical complexes is weld-dominated. Eddy current follows for exchanger tube campaigns. Refining scopes add ultrasonic thickness and corrosion monitoring plus phased array on welds. A candidate who certifies against what local employers actually examine is employable months sooner than one spread thinly across every method."
+          },
+          {
+              "q": "Can a whole crew be certified on-site during a turnaround window?",
+              "a": "Yes — that is the core corporate model. Theory and practical are delivered at your site around the shift pattern, examinations are administered under a compliant written practice, and certification records are handed over in a form that survives an audit. Multi-method programmes are sequenced so the crew keeps working while it qualifies. Written practice review and Level III oversight bundle into the same programme."
+          },
+          {
+              "q": "What separates Level I, II and III on a Jubail contract?",
+              "a": "Level I performs calibrations and examinations under supervision and is the entry point, reached in one method first. Level II sets up the technique, interprets against the code and signs the report — the level Jubail contracts specify by name. Level III writes and approves procedures and qualifies the Level I and II personnel, which a growing inspection function eventually has to own or engage from outside."
+          }
+      ]
+  },
+
+  "/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained": {
+      "answer": "ASME Section V Article 7 sets how magnetic particle testing is performed on ferromagnetic materials and defines no acceptance criteria. Acceptance comes from the referencing construction code: ASME Section VIII Division 1 UW-51, ASME B31.3 344.3, AWS D1.1 Clause 8.14, API 1104 Section 9.5. Article 7 recognises seven magnetisation techniques; the yoke lift test is 4.5 kg on AC and 18 kg on DC.",
+      "expansion": "Article 7 applies to ferromagnetic materials only — carbon steel, low-alloy steel, ferritic stainless, ductile iron and nickel-iron alloys. Austenitic stainless and aluminium require liquid penetrant testing under Article 6. Detection reaches surface and slightly subsurface discontinuities, 1 to 6 mm deep depending on current type, frequency and material permeability. Current selection drives that depth: alternating current concentrates at the surface through skin effect, penetrating about 0.3 mm in carbon steel at 60 Hz and producing the highest tangential field for fine fatigue cracks, while direct current and half-wave DC distribute through the section to 3 to 6 mm for just-subsurface flaws. Field strength is verified every shift and in every part orientation using an ASTM E709 pie gauge on the part, a Ketos ring for procedure qualification, or a Hall-effect gaussmeter reading at least 30 gauss tangential at the surface during particle build-up.",
+      "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 7 (Magnetic Particle Examination), paragraphs T-710 through T-776; ASTM E709 Standard Guide for Magnetic Particle Testing; ASTM E1444/E1444M Standard Practice for Magnetic Particle Testing.",
+      "table": {
+          "caption": "Article 7 magnetisation techniques — selection and constraint",
+          "columns": [
+              "Technique",
+              "Article 7 reference",
+              "Current type",
+              "Field produced",
+              "Where it is used",
+              "Main constraint"
+          ],
+          "rows": [
+              [
+                  "Yoke",
+                  "T-721.1",
+                  "AC or DC",
+                  "Longitudinal, between poles spaced 75 to 300 mm",
+                  "The dominant field technique on pressure equipment and in-service welds",
+                  "Lift test must pass: 4.5 kg on AC, 18 kg on DC, verified each shift"
+              ],
+              [
+                  "Prods",
+                  "T-721.2",
+                  "AC, HWDC or DC",
+                  "Circular field around each contact point",
+                  "Heavy fabrication and structural weld work",
+                  "Arc burn risk; copper or brass tips, controlled contact, post-test grinding of contact areas"
+              ],
+              [
+                  "Central conductor",
+                  "T-721.3",
+                  "AC or DC through a non-magnetic bar",
+                  "Circumferential, around the bore",
+                  "Bolts, hollow castings, short pipe sections",
+                  "Part must be hollow and fit over the conductor"
+              ],
+              [
+                  "Cable wrap / coil",
+                  "T-720 series",
+                  "HWDC",
+                  "Longitudinal along the part axis",
+                  "Long pipe lengths and large vessels",
+                  "Field falls off with distance from the coil; multiple shots required"
+              ],
+              [
+                  "Multidirectional",
+                  "T-721.5",
+                  "Sequenced AC and DC",
+                  "Longitudinal and circumferential simultaneously",
+                  "Production bench units in a shop",
+                  "Requires demonstration in every orientation being claimed"
+              ]
+          ],
+          "note": "Field-strength verification under T-754 and T-764 is the most-rejected Article 7 audit point. Verify on every shift and in every part orientation, and record the pie gauge or gaussmeter result with the technique sheet."
+      },
+      "facets": [
+          {
+              "q": "If Article 7 has no acceptance criteria, where do they come from?",
+              "a": "From the construction code that references it. ASME Section VIII Division 1 UW-51 rejects all cracks and permits linear indications to 1/16 inch and rounded to 1/8 inch. ASME B31.3 344.3 with Table 341.3.2A tightens for Category M and Severe Cyclic service. AWS D1.1 Clause 8.14 sets length limits by weld thickness. API 1104 Section 9.5 defines pipeline acceptance per joint thickness."
+          },
+          {
+              "q": "Should I use AC or DC to find a surface fatigue crack?",
+              "a": "AC. Alternating current concentrates near the conductor surface through skin effect, penetrating roughly 0.3 mm in carbon steel at 60 Hz, which drives the tangential field at the surface as high as it goes and makes tight fatigue cracks reveal strongly. DC and half-wave DC spread current through the cross-section to 3 to 6 mm — the right choice for just-subsurface inclusions and incomplete-penetration root flaws, and the wrong one for fine surface cracking."
+          },
+          {
+              "q": "Pie gauge or Ketos ring — which does Article 7 require?",
+              "a": "Both, for different purposes. The ASTM E709 pie gauge verifies the technique on the actual part being examined, every shift and every orientation: all eight slots must reveal particle build-up. The Ketos or Betz ring qualifies the procedure, proving the technique resolves known reference flaws at known depths — commonly three holes for medium sensitivity and five or more for high. Most fabrication specifications call for both."
+          },
+          {
+              "q": "Can I run magnetic particle testing on a stainless steel weld?",
+              "a": "Only on ferritic grades such as 410 and 430. Austenitic 304 and 316 are non-magnetic and will not support a field — use liquid penetrant testing under Article 6 instead. Duplex grades such as 2205 and 2507 are partly ferritic, so MT can produce indications, but penetrant is the defensible choice because field strength across a two-phase microstructure is not reliably demonstrable."
+          },
+          {
+              "q": "What lighting does Article 7 require for fluorescent versus visible particles?",
+              "a": "Visible-particle examination requires 100 foot-candles, equal to 1000 lux, of white light at the examination surface, verified with a photometer. Fluorescent examination requires ambient light at or below 2 foot-candles plus at least 1000 microwatts per square centimetre of UV-A at the surface, verified with a radiometer, and the inspector dark-adapted for five minutes before reading. Record both verifications on the technique sheet."
+          },
+          {
+              "q": "When is demagnetisation mandatory after magnetic particle testing?",
+              "a": "When residual magnetism would interfere with a downstream operation — machining, welding, or assembly where a magnetised part deflects an arc or holds swarf. Methods are AC step-down with a gradually reducing field, DC reversal with step-down, or thermal treatment above the Curie point at 770 C for carbon steel, which is rarely practical. Verify with a field indicator; 3 gauss residual is the common ceiling for parts to be re-welded or machined."
+          }
+      ]
+  },
+
+  "/api-653-india": {
+      "answer": "API 653 examinations in India run through Prometric centres in Mumbai, Hyderabad, Delhi NCR, Chennai, Bangalore, Pune, Kolkata and Ahmedabad. Register on api.org 8 to 12 weeks before your preferred window; Mumbai and Hyderabad hold the best slot availability. Certified tank inspectors earn Rs 8L to Rs 14L at 1 to 3 years post-certification and Rs 22L to Rs 32L at 7 to 12 years.",
+      "expansion": "API 653 covers aboveground storage tanks built to API 650 — low-pressure storage assets where the inspection burden sits on the floor and shell rather than on process internals. Day-to-day work is floor magnetic flux leakage scanning, shell-course ultrasonic thickness, settlement surveys, vacuum-box testing of floor welds, cathodic protection assessment, and remaining-life calculation against API 653 retirement criteria. India's 200-plus MMTPA refining capacity puts thousands of operating tanks across IOCL, BPCL and HPCL marketing terminals, refinery crude and product storage, and third-party tank farms — each on a 5-year external and 10-year internal cycle. That fixed calendar makes API 653 work more schedulable than API 510 vessel or API 570 piping inspection, which run continuously against process units and transfer lines. Senior fixed-equipment roles at refineries holding all three asset classes stack the certifications.",
+      "source": "API 653, Tank Inspection, Repair, Alteration, and Reconstruction, with API 650 as the construction basis; API Individual Certification Programs (ICP), examinations administered through Prometric test centres.",
+      "table": {
+          "caption": "API 653 tank inspector compensation in India by experience band",
+          "columns": [
+              "Experience band",
+              "India permanent (per annum)",
+              "India contract",
+              "Employer tier",
+              "Common certification stack"
+          ],
+          "rows": [
+              [
+                  "Junior, 1 to 3 years post-certification",
+                  "Rs 8L to Rs 14L",
+                  "Rs 40K to Rs 65K per month",
+                  "TPI trainee desks, EPC site inspection",
+                  "API 653 alone"
+              ],
+              [
+                  "Mid-level, 3 to 7 years",
+                  "Rs 14L to Rs 22L",
+                  "Rate negotiated per campaign",
+                  "Terminal and refinery operators, third-party inspection",
+                  "API 653 plus ASNT Level II UT"
+              ],
+              [
+                  "Senior, 7 to 12 years",
+                  "Rs 22L to Rs 32L",
+                  "Rate negotiated per campaign",
+                  "Refinery fixed-equipment teams",
+                  "API 653 with API 510 and/or API 570 stacked"
+              ],
+              [
+                  "Lead / Principal, 12-plus years",
+                  "Rs 32L to Rs 50L and above",
+                  "Rate negotiated per campaign",
+                  "Operator integrity leadership, TPI principal roles",
+                  "API 653 plus API 510/570 plus ASNT Level III"
+              ],
+              [
+                  "Gulf rotation, Indian passport holder",
+                  "USD 80K to USD 135K tax-free plus housing",
+                  "Rotational contract",
+                  "ARAMCO terminal programmes, ADNOC export terminals",
+                  "API 653, often with ASNT Level II or III"
+              ]
+          ],
+          "note": "Figures are market compensation bands for certified inspectors, not Atlantis rates. The Gulf rotation uplift is the single largest step in the table and is the reason experienced Indian tank inspectors leave domestic terminal roles."
+      },
+      "facets": [
+          {
+              "q": "Where can I sit the API 653 examination in India?",
+              "a": "Prometric administers API examinations at centres in Mumbai, Hyderabad, Delhi NCR, Chennai, Bangalore, Pune, Kolkata and Ahmedabad. Register through api.org 8 to 12 weeks ahead of your preferred window, since slots close early — Mumbai and Hyderabad carry the widest availability. Prometric handles ID verification, scratch-pad provision and printed code-book inspection on exam day under API policy."
+          },
+          {
+              "q": "What does an API 653 inspector actually do day to day?",
+              "a": "Floor magnetic flux leakage scanning to find underside corrosion, shell-course ultrasonic thickness readings, settlement surveys against API 653 tolerance, vacuum-box testing of floor lap welds, cathodic protection assessment, and remaining-life calculation against retirement thickness. The output is a disposition: continue in service to a calculated next inspection date, repair, or take out of service. Floor and shell dominate the workload, not internals."
+          },
+          {
+              "q": "Which Indian employers hire API 653 tank inspectors?",
+              "a": "Operator side: Indian Oil, the largest tank-farm operator with 20-plus marketing terminals nationwide, plus BPCL and HPCL terminals, Reliance Jamnagar tank farms, Adani port terminals, Vopak third-party storage, GAIL LPG bullets and Petronet LNG cryogenic tanks. Third-party inspection: Bureau Veritas, TUV India, TUV Rheinland, DNV, Lloyd's Register, SGS, Apave, Velosi. EPC: L&T Hydrocarbon, Tata Projects, Engineers India Ltd, Petrofac India."
+          },
+          {
+              "q": "How much more does a Gulf rotation pay than an India-domestic tank role?",
+              "a": "USD 80K to USD 135K tax-free plus housing on ARAMCO terminal programmes and ADNOC export terminals, against Rs 22L to Rs 32L for the equivalent 7-to-12-year domestic role. The gap is roughly two to four times on a post-tax basis once housing is counted. It is the dominant reason experienced Indian API 653 holders rotate out rather than progress inside a domestic terminal organisation."
+          },
+          {
+              "q": "What are the API 653 external and internal inspection intervals?",
+              "a": "Aboveground storage tanks run a 5-year external inspection cycle and a 10-year internal cycle, with the internal interval extended or shortened by measured corrosion rate and remaining thickness rather than left at the default. That fixed calendar is what makes API 653 work plannable: a terminal knows years ahead which tanks come out of service and when, unlike API 510 vessel and API 570 piping programmes tied to turnaround windows."
+          },
+          {
+              "q": "Should I stack API 510 or API 570 with API 653?",
+              "a": "Stack them for senior fixed-equipment roles at refineries, which hold vessels, piping and tanks in one asset register and prefer one inspector who can disposition all three. API 653 alone is sufficient for marketing terminals and third-party tank farms, where storage is the only asset class. Inspectors at the Rs 22L-and-above band commonly hold API 653 with API 510, API 570, or both."
+          }
+      ]
+  },
+
+  "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained": {
+      "answer": "Article 6 permits six penetrant combinations — Type I fluorescent or Type II visible dye, each removed by Method A water wash, Method B post-emulsifier, or Method C solvent. Minimum penetrant dwell is 5 minutes, doubled below 16 °C; developer dwell never runs shorter than penetrant dwell. Acceptance limits come from the construction code, not Article 6.",
+      "expansion": "US pressure-equipment work runs Type II Method C — solvent-removable visible dye from aerosol cleaner, penetrant and non-aqueous developer — because it needs no water source, no dark booth and no power. Surface temperature must sit between 5 °C and 50 °C; outside that window Article 6 requires a penetrant qualified under Mandatory Appendix III. Excess penetrant is wiped with a lint-free cloth dampened with remover, never sprayed — spraying flushes penetrant out of the crack and produces the false negative that dominates PT failures. Water-washable removal uses a ≤50 psi, ≤43 °C spray at 30° to the surface. Developer goes on as a light uniform coat from 15–30 cm and dwells 7 to 60 minutes. Visible-dye evaluation needs 100 fc (1,000 lux) at the surface; fluorescent evaluation needs ≥1,000 µW/cm² UV-A, ambient white light ≤2 fc, a 5-minute lamp warm-up and 5 minutes of inspector dark adaptation.",
+      "source": "ASME BPVC Section V, Article 6 — Liquid Penetrant Examination, T-610 through T-680, with penetrant families qualified to ASTM E165/E165M. Acceptance criteria from the referencing construction code: ASME BPVC Section VIII Division 1 UW-51, ASME B31.3 para. 344.4 with Table 341.3.2A, AWS D1.1/D1.1M Clause 8 and Annex M.",
+      "table": {
+          "caption": "Article 6 penetrant process combinations — removal, viewing condition and where each is used in US practice",
+          "columns": [
+              "Type × Method",
+              "Excess-penetrant removal",
+              "Viewing condition",
+              "Where it is used (US practice)"
+          ],
+          "rows": [
+              [
+                  "Type II / Method C — visible dye, solvent-removable",
+                  "Lint-free cloth dampened with solvent remover",
+                  "100 fc (1,000 lux) white light at the surface",
+                  "The field workhorse: aerosol kits on B31.3 piping and ASME VIII welds"
+              ],
+              [
+                  "Type I / Method A — fluorescent, water-washable",
+                  "Low-pressure water spray, ≤50 psi (350 kPa), ≤43 °C, 30° to surface",
+                  "UV-A ≥1,000 µW/cm²; ambient white light ≤2 fc",
+                  "High-volume shop lines, castings and forgings"
+              ],
+              [
+                  "Type I / Method B — fluorescent, post-emulsifiable",
+                  "Hydrophilic or lipophilic emulsifier applied after dwell, then water rinse",
+                  "UV-A ≥1,000 µW/cm² in a dark booth",
+                  "Aerospace — highest sensitivity of the six combinations"
+              ],
+              [
+                  "Type I / Method C — fluorescent, solvent-removable",
+                  "Lint-free cloth dampened with solvent remover",
+                  "UV-A ≥1,000 µW/cm² from a portable lamp",
+                  "Field fluorescent work at height and in confined spaces"
+              ],
+              [
+                  "Type II / Method A — visible dye, water-washable",
+                  "Low-pressure water spray",
+                  "100 fc (1,000 lux) white light",
+                  "Shop work with no UV booth available"
+              ],
+              [
+                  "Type II / Method B — visible dye, post-emulsifiable",
+                  "Emulsifier applied after dwell, then water rinse",
+                  "100 fc (1,000 lux) white light",
+                  "Permitted by Article 6; rare in US pressure work"
+              ]
+          ],
+          "note": "Penetrant dwell: 5 minutes minimum, up to 60 minutes for tight fatigue cracks and stress corrosion cracking, doubled below 16 °C. Surface window 5–50 °C; outside it a penetrant qualified under Mandatory Appendix III is required. Dwell must be documented for every shot. Sensitivity level (½ through 4) is a property of the penetrant family under ASTM E165, not of Article 6."
+      },
+      "facets": [
+          {
+              "q": "How long does the developer have to stay on before I read the part?",
+              "a": "7 to 60 minutes, and never less than the penetrant dwell that preceded it. The developer pulls trapped penetrant back out of the discontinuity, and indication width grows with defect depth across that period. Reading early misses tight cracks; reading past 60 minutes lets indications bleed until length measurement against the code limit is unreliable."
+          },
+          {
+              "q": "What UV-A intensity does fluorescent PT require, and how do I prove it?",
+              "a": "1,000 µW/cm² minimum at the examination surface in the 320–400 nm band, measured with a calibrated radiometer after a 5-minute lamp warm-up. Ambient white light stays at or below 2 fc (20 lux), and the inspector dark-adapts for 5 minutes before reading. Light verification is the second most common audit finding, behind missing dwell records."
+          },
+          {
+              "q": "Can PT be performed below 5 °C?",
+              "a": "Yes — with a penetrant qualified for low temperature under Mandatory Appendix III, or by locally heating the surface back into the 5–50 °C window. Between 5 °C and 16 °C a standard penetrant still runs, but the documented dwell doubles because rising viscosity slows capillary flow into tight cracks. The qualification authorises the deviation, not the inspector's judgement."
+          },
+          {
+              "q": "Who decides whether a PT indication is rejectable?",
+              "a": "The construction code, not Article 6. ASME VIII Div 1 UW-51 rejects all cracks, linear indications 1.5 mm and longer, and rounded indications 5 mm and larger. AWS D1.1 rejects cracks and linear indications over 1/16 in. on weld surfaces. B31.3 tightens limits for Severe Cyclic and Category M service. Article 6 governs technique only."
+          },
+          {
+              "q": "What has to be in the PT record for a client audit?",
+              "a": "Penetrant, remover and developer batch and lot numbers; the documented penetrant and developer dwell; surface temperature; white-light or UV-A readings with the meter's calibration certificate; the inspector's SNT-TC-1A or ISO 9712 Level II PT certification; a sketch locating every indication; and the accept/reject call cited against the named construction code clause."
+          },
+          {
+              "q": "Why is over-washing the leading cause of missed cracks?",
+              "a": "Water above 50 psi, above 43 °C, or aimed normal to the surface drives water into the discontinuity and flushes the penetrant back out, so no developer bleed forms and the crack reads clean. Solvent remover sprayed straight onto the part does the same thing. Wiping with a dampened lint-free cloth is the controlled alternative."
+          }
+      ]
+  },
+
+  "/blog/asnt-snt-tc-1a-vs-cp-189-comparison": {
+      "answer": "CP-189 is an ANSI-approved consensus standard written in \"shall\" language and requiring ASNT-administered general and specific examinations. SNT-TC-1A is a recommended practice written in \"should\" language, where the employer writes or selects its own exams. In US oil and gas, API 510, 570 and 653 default to SNT-TC-1A; nuclear NQA-1 and defense programs specify CP-189. Both carry 2020 editions.",
+      "expansion": "The obligation lands on the employer either way: both documents require a written practice, and neither certifies anyone by itself — the employer's Level III does. Under SNT-TC-1A the written practice can depart from the recommendations where the deviation is documented and justified, so two contractors on one refinery can hold different training hours, different exam banks and different experience credits and both be compliant. Under CP-189 every \"shall\" is binding: ASNT supplies the general and specific examinations, the employer supplies only the practical, minimum training hours cannot be reduced, and Level III certification requires ASNT examination. Recertification runs at intervals not exceeding five years under both, but CP-189 makes re-examination mandatory — accumulated experience alone does not renew a certificate. Certifications under either document lapse the moment the holder changes employer, though CP-189's standardised exams make requalification faster.",
+      "source": "ASNT Recommended Practice No. SNT-TC-1A (2020 edition, first published 1966) and ANSI/ASNT CP-189, Standard for Qualification and Certification of Nondestructive Testing Personnel (2020 edition, first published 1991), read against ASME BPVC Section V Article 1, API 510 11th edition, API 570, API 653 and AWS D1.1/D1.1M Clause 8.",
+      "table": {
+          "caption": "Which personnel-qualification document your code or client actually names — US practice first",
+          "columns": [
+              "Referencing code or client program",
+              "Personnel document named",
+              "Who writes the general and specific exams",
+              "Employer latitude"
+          ],
+          "rows": [
+              [
+                  "API 510 / 570 / 653 owner-user inspection programs",
+                  "SNT-TC-1A",
+                  "Employer's NDT Level III",
+                  "High — the written practice sets hours and exam content"
+              ],
+              [
+                  "AWS D1.1 structural welding",
+                  "SNT-TC-1A",
+                  "Employer's NDT Level III",
+                  "High"
+              ],
+              [
+                  "ASME BPVC Section V, Article 1",
+                  "SNT-TC-1A or CP-189, both accepted",
+                  "Employer (TC-1A) or ASNT (CP-189)",
+                  "Set by the referencing construction code or purchase spec"
+              ],
+              [
+                  "ASME Section III with NQA-1 (nuclear)",
+                  "CP-189 or equivalent",
+                  "ASNT",
+                  "None on \"shall\" requirements"
+              ],
+              [
+                  "DoD and defense prime specifications",
+                  "CP-189, increasingly referenced",
+                  "ASNT",
+                  "None on \"shall\" requirements"
+              ],
+              [
+                  "EPC and asset-owner contract specifications",
+                  "Whichever the contract names",
+                  "Per the named document",
+                  "Zero — the contract governs"
+              ]
+          ],
+          "note": "ASNT NDT Level III and ACCP certificates are issued by ASNT and travel with the individual. SNT-TC-1A and CP-189 certificates are issued by the employer and stop at the employer's door. ISO 9712 is the third-party-certification equivalent used outside North America."
+      },
+      "facets": [
+          {
+              "q": "Does CP-189 replace SNT-TC-1A?",
+              "a": "No. Both are current at their 2020 editions and ASME Section V Article 1 accepts either. CP-189 was published in 1991 to answer inconsistent SNT-TC-1A implementation across employers, not to withdraw it. Oil and gas, petrochemical and structural steel stayed on SNT-TC-1A; nuclear and defense moved to CP-189. Employers serving both markets run one written practice satisfying the stricter document."
+          },
+          {
+              "q": "Who is allowed to certify Level I and Level II technicians?",
+              "a": "The employer's NDT Level III, under both documents. Under SNT-TC-1A that Level III can be qualified by employer examination; under CP-189 the Level III must hold ASNT examination results. A Level III can certify only in methods they are themselves qualified in — signing outside your own method list is one of the most frequent audit findings raised against personnel programs."
+          },
+          {
+              "q": "How often do NDT personnel have to be recertified?",
+              "a": "At intervals not exceeding five years under both documents. SNT-TC-1A leaves the mechanism flexible, so continued satisfactory performance plus the Level III's evaluation can renew a certificate. CP-189 requires re-examination — time served does not renew. Near-vision acuity is tested annually under both, and a lapsed vision test invalidates every certificate that depends on it."
+          },
+          {
+              "q": "Can one written practice cover both documents?",
+              "a": "Yes — write to CP-189's mandatory requirements and note where each clause also satisfies SNT-TC-1A. The practice then survives an audit against either. The cost is permanent: ASNT-sourced examinations, fixed minimum training hours and full record retention then apply to every technician, including those working only API and AWS scopes where SNT-TC-1A alone would suffice."
+          },
+          {
+              "q": "Are these certifications portable to a new employer?",
+              "a": "No. Both documents place certification with the employer, so a technician who resigns starts requalification on day one at the new company. CP-189's ASNT-administered general and specific exam results shorten that path because the new employer can credit them. ASNT NDT Level III, ACCP and ISO 9712 certificates are the portable alternatives, since a certifying body issues them."
+          },
+          {
+              "q": "What do auditors keep finding against personnel qualification programs?",
+              "a": "Written practices describing a program the company no longer runs; incomplete or missing training records; vision tests past twelve months; expired certificates still on the dispatch list; exam papers not retained; Level IIIs certifying in methods they are not qualified in; and technicians performing methods they hold no certificate in. Every one is a records failure, not a competence failure."
+          }
+      ]
+  },
+
+  "/blog/api-510-body-of-knowledge-2026-changes-explained": {
+      "answer": "The September 2025 Body of Knowledge governs every API 510 sitting from January 2026 through May 2027. It moved damage mechanisms (API 571) from 12% to 16% and RBI (API 580/581) from 6% to 8%, expanded API 579-1 Part 4 and Part 5 sub-topics, added PAUT and ASME IX QW-322 welder-qualification renewal, and locked ASME VIII Div 1 to the 2023 edition.",
+      "expansion": "150 questions across 6 hours 15 minutes, both parts sat in one session at a Prometric centre: Part 1 closed-book is 70 questions in 2 hours 45 minutes, Part 2 open-book is 80 questions in 3 hours 30 minutes. That is 2 minutes 22 seconds per closed-book question and 2 minutes 37 seconds per open-book question. The twelve permitted references must match the editions the BoK names — API 510 11th edition with 1st Addendum, ASME VIII Div 1 2023, API 571 4th edition, API 579-1/ASME FFS-1 2021 — and a proctor inspects them at check-in. Tabs, highlighting and underlining are allowed; written sticky notes, loose paper and electronics are not. The 2023 ASME VIII Div 1 renumbered paragraphs and consolidated appendices, so tab indexes built on the 2021 edition point at the wrong pages and need eight to ten hours of retabbing before the first timed practice exam.",
+      "source": "API Individual Certification Programs (ICP), API 510 Pressure Vessel Inspector Certification Body of Knowledge, September 2025 edition, effective for exams January 2026 through May 2027; superseding the March 2024 BoK. Effective references include API 510 11th edition (May 2022) + 1st Addendum (May 2024), ASME BPVC Section VIII Division 1 (2023), API RP 571 4th edition (April 2024), API 579-1/ASME FFS-1 (2021).",
+      "table": {
+          "caption": "API 510 2026 exam load by subject area — question counts per part and what the September 2025 BoK changed",
+          "columns": [
+              "Subject area",
+              "Effective reference edition",
+              "Part 1 closed-book Qs",
+              "Part 2 open-book Qs",
+              "Change vs March 2024 BoK"
+          ],
+          "rows": [
+              [
+                  "API 510 in-service code",
+                  "11th ed. (May 2022) + 1st Addendum (May 2024)",
+                  "~15",
+                  "~22",
+                  "Repair/alteration weight down slightly"
+              ],
+              [
+                  "Damage mechanisms",
+                  "API RP 571, 4th ed. (April 2024)",
+                  "~12",
+                  "—",
+                  "12% → 16%; DMW cracking added, HTHA thresholds revised"
+              ],
+              [
+                  "Pressure vessel design",
+                  "ASME BPVC VIII Div 1 (2023)",
+                  "~10",
+                  "~16",
+                  "Appendices consolidated, paragraphs renumbered"
+              ],
+              [
+                  "Fitness-for-service",
+                  "API 579-1/ASME FFS-1 (2021)",
+                  "—",
+                  "~12",
+                  "Part 4 (general metal loss) and Part 5 (local metal loss) expanded"
+              ],
+              [
+                  "NDE methods",
+                  "ASME BPVC Section V (2023)",
+                  "~8",
+                  "~10",
+                  "PAUT added; deprecated acceptance criteria removed"
+              ],
+              [
+                  "Welding and qualification",
+                  "ASME BPVC Section IX (2023); API RP 577 3rd ed. (Dec 2022)",
+                  "~8",
+                  "~8",
+                  "QW-322 welder-qualification renewal added"
+              ],
+              [
+                  "Risk-based inspection",
+                  "API RP 580 4th ed. (Feb 2024); API RP 581 4th ed.",
+                  "—",
+                  "~6",
+                  "6% → 8%"
+              ],
+              [
+                  "Relief devices and PMI",
+                  "API RP 576 4th ed. (Aug 2024); API RP 578 3rd ed. (Oct 2023)",
+                  "—",
+                  "~6",
+                  "Unchanged"
+              ]
+          ],
+          "note": "150 questions total. The closed-book counts above sum to 53; the remaining ~17 closed-book questions cover cross-code interactions. Reported first-attempt pass rates from the January–March 2026 sittings ran 38–42%, against a 45–50% historical range under the March 2024 BoK."
+      },
+      "facets": [
+          {
+              "q": "Can I bring the API 510 10th edition into the exam?",
+              "a": "No. The September 2025 BoK names API 510 11th edition (May 2022) with the 1st Addendum (May 2024), and proctors inspect references at check-in. The 11th edition revised inspection-interval methodology, rerating procedures and hot-tapping requirements; the Addendum clarified Section 5 owner-user program requirements. An 11th edition without the Addendum is an incomplete reference set."
+          },
+          {
+              "q": "What happens if API publishes a new BoK between my registration and my exam date?",
+              "a": "The BoK in force on your sitting date governs, not the one in force when you registered. Reschedule or re-tab — carrying an edition the current BoK does not name is a disqualification at the testing centre. API pre-announces changes 60–90 days ahead through the ICP website and candidate email, and that window is when to decide."
+          },
+          {
+              "q": "Why did pass rates fall under the 2026 BoK?",
+              "a": "Three structural shifts. API 579-1 now carries 12 open-book questions demanding multi-step Part 4 and Part 5 Level 1 and Level 2 work with RSF and tmin calculations, each running 4–6 minutes. API 571 4th edition renumbered mechanisms and revised HTHA threshold data. ASME VIII Div 1 2023 renumbered paragraphs, breaking tab indexes built on the 2021 edition."
+          },
+          {
+              "q": "How many study hours does the 2026 BoK take?",
+              "a": "350–450 hours over 15 weeks: two weeks on API 510 itself, two on ASME VIII Div 1 (UG-22 to UG-45, UCS, UW, Mandatory Appendix 1), two on the top 20 API 571 mechanisms, two on API 579-1 Parts 1, 2, 4, 5 and 9, one on API 576/577/578, one on ASME V and IX, one on API 580/581 and 572, three on timed practice exams, one on tabbing."
+          },
+          {
+              "q": "What separates a closed-book question from an open-book one?",
+              "a": "Closed-book questions test recall — naming the mechanism that produces stepwise cracking in carbon steel in wet H2S service, for instance. Open-book questions test lookup plus arithmetic: applying UG-27(c)(1) to get required shell thickness, or comparing a calculated RSF against RSFa for a Part 5 Level 1 assessment. The 2026 BoK shifted weight toward the calculation format."
+          },
+          {
+              "q": "When does the next API 510 BoK take effect?",
+              "a": "API's publication cycle runs 18–24 months, putting the next BoK at Q2 2027 and effective for sittings from July 2027 forward. The September 2025 BoK governs through May 2027. Sitting before that date avoids re-studying; moving past it means budgeting another 40–60 hours, with API 579-1 and ASME VIII Div 1 absorbing the largest updates between cycles."
+          }
+      ]
+  },
+
+  "/blog/api-570-inspector-salary-2026-by-region-experience": {
+      "answer": "USA median base for an API 570 piping inspector in 2026 is $95,000, on a 10th-to-90th-percentile band of $75,000 to $140,000. The certification adds $25,000–$45,000 a year over an uncertified ASNT Level II doing the same piping work — a 35–50% uplift. Turnaround premiums, per diem and overtime add another 20–50% on top of base.",
+      "expansion": "The premium is structural rather than reputational: API 570 confers authority to approve piping repairs, alterations and re-ratings and to set inspection intervals, and owner-operators must staff that authority. Against annual demand of 5,000–6,000, only 3,500–4,500 new certifications are issued worldwide each year. Canada tracks the US closely at C$85,000 to C$195,000 across the four experience tiers. Within the US, sector matters more than title: offshore platforms pay $125,000–$185,000 and LNG $115,000–$165,000, while midstream, power and onshore upstream sit at $85,000–$125,000. Gulf of Mexico rotations on 14/14 or 21/21 schedules run $130,000–$190,000 plus per diem. The compounding move is the Triple Crown — API 510 plus 570 plus 653 — held by an estimated 8,000–12,000 people worldwide and worth 15–25% over single-certification pay. Sequenced over three to five years, that path returns more per study hour than any other credential in inspection.",
+      "source": "Industry compensation benchmarks compiled across ten regions and four experience tiers from operator, EPC and staffing-agency offers, cross-checked against API Individual Certification Programs (ICP) issuance volumes for API 510, 570 and 653. All figures are third-party industry estimates and do not represent Atlantis NDT pricing.",
+      "table": {
+          "caption": "API 570 piping inspector base pay by experience tier — USA and Canada first, with the multipliers that sit on top",
+          "columns": [
+              "Experience / certification status",
+              "USA base (USD)",
+              "Canada base (CAD)",
+              "Role",
+              "Multiplier that applies"
+          ],
+          "rows": [
+              [
+                  "ASNT Level II, no API 570",
+                  "$58,000–$78,000",
+                  "—",
+                  "NDT Technician",
+                  "None — cannot approve repairs or set intervals"
+              ],
+              [
+                  "0–3 yrs certified",
+                  "$78,000–$95,000",
+                  "C$85,000–C$105,000",
+                  "Inspector II",
+                  "Turnaround overtime and per diem, +20–50%"
+              ],
+              [
+                  "4–7 yrs",
+                  "$95,000–$115,000",
+                  "C$105,000–C$130,000",
+                  "Senior Inspector",
+                  "Offshore rotation, +25–50% over onshore"
+              ],
+              [
+                  "8–15 yrs",
+                  "$115,000–$140,000",
+                  "C$130,000–C$160,000",
+                  "Lead Inspector / Inspection Supervisor",
+                  "LNG and offshore sector premium"
+              ],
+              [
+                  "15+ yrs",
+                  "$140,000–$170,000",
+                  "C$160,000–C$195,000",
+                  "Inspection Manager",
+                  "Asset Integrity Manager track to $240,000+"
+              ],
+              [
+                  "Triple Crown (API 510 + 570 + 653)",
+                  "$130,000–$180,000+",
+                  "—",
+                  "Multi-discipline Authorized Inspector",
+                  "+15–25% over single certification"
+              ]
+          ],
+          "note": "USA distribution detail: 10th percentile $75,000, median $95,000, 75th percentile $118,000, 90th percentile $140,000+, top 5% above $165,000 (Gulf Coast refining, Triple Crown holders, manager track). Base excludes turnaround premiums, per diem, overtime and bonus, which add 20–50% to total compensation. Third-party industry benchmarks, not Atlantis NDT rates."
+      },
+      "facets": [
+          {
+              "q": "How much does API 570 add over an uncertified ASNT Level II?",
+              "a": "$25,000 to $45,000 a year in the USA. An uncertified Level II performing piping inspection earns $58,000–$78,000; the same person holding API 570 commands $85,000–$120,000, a 35–50% uplift. The gap holds because the certificate carries authority no uncertified technician can exercise — approving repairs, alterations and re-ratings, and setting RBI inspection intervals the owner-operator is legally required to staff."
+          },
+          {
+              "q": "Which US sectors pay API 570 inspectors the most?",
+              "a": "Offshore platforms lead at $125,000–$185,000, then LNG at $115,000–$165,000 and petrochemical at $100,000–$145,000. Refining runs $95,000–$135,000. Midstream, power and onshore upstream trail at $85,000–$125,000. Gulf of Mexico rotations on 14/14 or 21/21 schedules reach $130,000–$190,000 with per diem, reflecting rotation logistics and a constrained inspector pool."
+          },
+          {
+              "q": "Do tax-free Gulf packages actually beat US pay?",
+              "a": "For experienced inspectors, yes. Saudi Arabia, UAE and Qatar packages of $110,000–$180,000 USD arrive tax-free, with housing, schooling and flights attached, against a taxed US median of $95,000. Qatar tops the three at $180,000–$225,000 for 15+ year inspectors. The trade is residency, rotation schedule, and the loss of US employer retirement contributions."
+          },
+          {
+              "q": "How does an API 570 inspector clear $250,000?",
+              "a": "By layering income onto a base role instead of chasing a larger salary. Turnaround callouts bill $1,000–$1,500 per day, so a 30–60 day shutdown returns $40,000–$90,000. Expert-witness work bills $400–$800 per hour, training instruction $1,500–$3,500 per day, procedure and RBI review $200–$350 per hour. Two or three streams on a $120,000 base pass $250,000."
+          },
+          {
+              "q": "What do independent API 570 consultants bill?",
+              "a": "$600–$900 per day for standard contract inspection, $900–$1,400 per day as turnaround lead, $1,200–$1,800 per day for RBI program development, and $1,200–$2,200 per day offshore plus per diem. At 60–70% utilisation that spans $130,000–$280,000 a year, with top independents above $300,000. These are third-party industry rates, not Atlantis NDT rates."
+          },
+          {
+              "q": "What does the career progression look like, and how long does it take?",
+              "a": "Inspector II ($75,000–$95,000) to Senior Inspector ($95,000–$120,000) to Lead Inspector ($115,000–$140,000) to Inspection Supervisor ($130,000–$160,000) to Inspection Manager ($150,000–$190,000) to Asset Integrity Manager ($175,000–$240,000+), across 15–20 years. Accelerators: adding API 510 within two years, leading a turnaround, publishing an RBI implementation, earning ASNT Level III, and taking one Gulf or LNG assignment."
+          }
+      ]
+  },
+
+  "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements": {
+      "answer": "T-530 requires the thickness instrument to demonstrate ±0.1 mm (±0.004 in.) accuracy across its operating range, verified on a calibrated step wedge whose steps bracket the expected wall. Two-point calibration is performed at shift start and every two hours during the survey, with material velocity entered explicitly — 5,920 m/s carbon steel, 5,740 m/s austenitic stainless, 6,070 m/s titanium.",
+      "expansion": "Every API 510 external survey, API 570 circuit reading and API 653 shell profile traces to Article 5, because the API in-service codes call out ultrasonic thickness measurement per ASME Section V Article 5 or equivalent. Article 5 measures remaining wall between 0 °C and 540 °C on metallic materials and does nothing else: crack detection and flaw sizing belong to Article 4. Transducer choice drives the error budget. Dual-element 5 MHz probes are required on 3–25 mm wall, corroded surfaces and curved geometry; single-element 5–10 MHz probes suit clean walls above 25 mm; delay-line probes with silicone hot couplant cover 150–540 °C; EMAT works couplant-free on hot, dry or coated surfaces. Coupling on rough or coated steel is the dominant accuracy killer, which is why surface prep to bright metal precedes the calibration shot and every reading.",
+      "source": "ASME BPVC Section V, Article 5 — Ultrasonic Examination Methods for Materials, T-510 through T-590 (equipment qualification T-530, calibration T-561, procedure qualification T-563), with instrument accuracy verified on a step wedge per ASTM E797/E797M. Referenced by API 510 Section 8.3, API 570 Section 8.2 and API 653 Section 12.3; disposition via ASME VIII Div 1 UG-27, ASME B31.3 para. 304, and API 579-1/ASME FFS-1.",
+      "table": {
+          "caption": "Article 5 transducer and technique selection by wall thickness, surface condition and temperature",
+          "columns": [
+              "Condition at the CML",
+              "Transducer",
+              "Frequency",
+              "Couplant / surface prep",
+              "Known limitation"
+          ],
+          "rows": [
+              [
+                  "3–25 mm wall, corroded or curved",
+                  "Dual element (Olympus D790 / D791 / D7227 class)",
+                  "5 MHz",
+                  "Standard gel on wire-brushed bright metal",
+                  "V-path error unless calibrated on matching curvature"
+              ],
+              [
+                  "Clean wall above 25 mm",
+                  "Single element, 0.25 in. element",
+                  "5–10 MHz",
+                  "Standard gel on bright metal",
+                  "Degrades on rough or irregular back-wall geometry"
+              ],
+              [
+                  "Surface 150–540 °C",
+                  "High-temperature delay line",
+                  "Per probe rating",
+                  "Silicone-based hot couplant (IRT-X, Sonotrace HT-260 class)",
+                  "Sound velocity shifts with temperature; correction required"
+              ],
+              [
+                  "Hot, dry or coated surface",
+                  "EMAT (electromagnetic-acoustic)",
+                  "Per probe rating",
+                  "Couplant-free, no surface prep",
+                  "Lower signal-to-noise; conductive/ferromagnetic materials only"
+              ],
+              [
+                  "Coating left in place",
+                  "Dual element, through-coating UT-T",
+                  "5 MHz",
+                  "Coating thickness subtracted from the gross reading",
+                  "Requires documented procedure qualification per T-563"
+              ],
+              [
+                  "Surface above 540 °C",
+                  "Outside Article 5 scope",
+                  "—",
+                  "—",
+                  "Use creep-monitoring techniques per API 579 Part 10"
+              ]
+          ],
+          "note": "Instrument accuracy ±0.1 mm / ±0.004 in., with an in-date ISO/IEC 17025-traceable calibration certificate. Qualified instruments in common use: Olympus 38DL Plus, Olympus EPOCH 650 in thickness mode, Sonatest Master Scan / Sitescan, GE USM Go+, Modsonic Einstein III. Re-calibrate at shift start, every two hours, and after any transducer or cable change. Personnel: SNT-TC-1A Level II UT, ISO 9712 Level 2 UT, or NAS 410 Level 2 UT."
+      },
+      "facets": [
+          {
+              "q": "How often must the gauge be recalibrated during a survey?",
+              "a": "Shift start, every two hours in use, and after any transducer or cable change. T-561 states \"as often as necessary to assure accuracy\" and inspection procedures pin that to two-hour intervals. The two-point calibration must bracket the expected wall — 5 mm and 25 mm steps for 6–20 mm piping — because readings extrapolated outside the bracketed range are not defensible."
+          },
+          {
+              "q": "How many readings does one CML need, and what gets recorded?",
+              "a": "Four readings minimum per CML, with minimum, average and maximum all recorded. API 510 vessels take one CML per square foot of shell, three to five around each nozzle, one at each weld crossing. API 570 piping places CMLs at 10/2, 4/8 and 6/12 o'clock at each TML station, every 50 ft on Class 1 straight runs, intensified at elbows, tees, reducers and valves."
+          },
+          {
+              "q": "How does Article 5 data become a remaining-life number?",
+              "a": "Long-term corrosion rate = (initial − current) / years in service; short-term rate = (previous − current) / interval. Remaining life = (measured thickness − code tmin) / corrosion rate. tmin comes from ASME B31.3 para. 304 for piping, t = PD/(2(SE+PY)), or ASME VIII Div 1 UG-27 for cylindrical shells, t = PR/(SE−0.6P). Inspection interval is the lesser of half the remaining life and the code maximum."
+          },
+          {
+              "q": "Why can a CML read thinner than the metal actually is?",
+              "a": "A mid-wall lamination, hydrogen blister or lamellar crack reflects the beam early, so the gauge reports depth-to-flaw instead of the back wall. Bunched pitting scatters the back-wall echo and drops the reading. Any CML reading suspiciously thin gets confirmed with Article 4 flaw detection before that number is allowed into a corrosion-rate trend."
+          },
+          {
+              "q": "Does Article 5 cover automated corrosion mapping?",
+              "a": "Yes, for thickness-only output. Encoded B-scan and C-scan mapping is accepted under Article 5 where the procedure is qualified per T-563; the same scan used to size a flaw falls under Article 4. Mapping supplements spot readings because a single deep pit can sit between grid points and never be caught by a CML survey."
+          },
+          {
+              "q": "How long must CML data be retained?",
+              "a": "Life of equipment, minimum. A remaining-life calculation is a slope through historical points, so losing a 1990 baseline reading destroys the long-term corrosion rate for that CML permanently and forces a fall back to conservative default rates. The record also carries the calibration certificate, the CML grid sketch and the technician's Level II UT certification for each survey."
+          }
+      ]
+  },
+
+  "/blog/asnt-level-3-fees-2026-complete-pricing-table": {
+      "answer": "ASNT Level III bills as four separate charges, not one figure: an application fee, a one-time Basic Exam, a Method Exam for each method, and recertification every five years. ASNT publishes current amounts in its certification fee schedule at asnt.org, and members pay reduced exam rates. The Basic Exam is charged once in a lifetime.",
+      "expansion": "The ASNT Level III Basic Exam is the structural pivot. You sit it once — SNT-TC-1A and CP-189 content, materials and processes, common discontinuities, all-method fundamentals — and it never renews while you hold one active method certification. Every method added afterwards costs only its application and Method Exam, so stacking UT, RT and MT gets cheaper per credential. Three routes carry different totals. The Method Exam Path leaves certification with your employer under its written practice: lowest outlay, non-portable. ACCP adds ASNT-issued central certification with a practical component and verified experience: higher cost, travels between employers, preferred on EPC and consulting bids. IRRSP is a radiation-safety credential for radiographers, held alongside a Level III rather than instead of one. Non-exam costs decide outcomes — CP-105 topical outlines, the method Recommended Practice, a structured prep course, travel to a test center, and one to two days out of the field.",
+      "source": "ASNT Certification Services fee schedule, asnt.org (current edition); ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ANSI/ASNT CP-189-2020; ASNT CP-105 topical outlines",
+      "table": {
+          "caption": "ASNT Level III fee components — what is charged, when it repeats, and what reduces it",
+          "columns": [
+              "Fee component",
+              "When charged",
+              "Repeats?",
+              "What it covers",
+              "Cost lever"
+          ],
+          "rows": [
+              [
+                  "Application / processing",
+                  "Per application submitted",
+                  "Every application",
+                  "Eligibility review and administration",
+                  "Bundle method applications in one cycle"
+              ],
+              [
+                  "Basic Exam",
+                  "With your first Method Exam",
+                  "Never again",
+                  "SNT-TC-1A, CP-189, materials and processes, common discontinuities, all-method fundamentals",
+                  "Sit it once; it covers every method you ever add"
+              ],
+              [
+                  "Method Exam",
+                  "Once per method (UT, RT, MT, PT, VT, ET, AE, LT, TIR, NR)",
+                  "Per new method",
+                  "Method principles, equipment, codes, interpretation",
+                  "Each added method skips the Basic Exam charge"
+              ],
+              [
+                  "ASNT membership",
+                  "Annual, optional",
+                  "Yearly",
+                  "Discounted exam, application and renewal rates",
+                  "Pays for itself inside one exam cycle"
+              ],
+              [
+                  "5-year recertification",
+                  "Per method, per cycle",
+                  "Every 5 years",
+                  "Renewal by shortened exam or by 25 continuing-education points",
+                  "Points route removes the exam charge entirely"
+              ],
+              [
+                  "Lapsed recertification",
+                  "Missing the window by over 6 months",
+                  "Only on lapse",
+                  "Full re-examination plus penalty",
+                  "Calendar renewal 6 months early"
+              ]
+          ],
+          "note": "ASNT sets and periodically adjusts these amounts; the authoritative figures are the current fee schedule at asnt.org. Atlantis NDT program pricing is region-specific — affordable, accessible, fully customizable — and quoted on request."
+      },
+      "facets": [
+          {
+              "q": "What earns the 25 recertification points ASNT requires?",
+              "a": "Points accrue from work performed in the method, teaching NDT courses, attending ASNT conferences and section meetings, publishing papers, serving on committees, and completing continuing-education units. An active Level III doing normal method work, mentoring Level IIs and attending one annual conference clears 25 points inside a five-year cycle without sitting an exam. Log each activity when it happens rather than reconstructing it at renewal."
+          },
+          {
+              "q": "What happens if my ASNT Level III lapses?",
+              "a": "Missing the renewal window by more than six months forces full recertification by examination plus penalty charges, replacing a points submission that would have cost nothing but paperwork. The certification also stops being claimable on bids and client audits during the gap. Calendar renewal six months before expiry and submit points early — lapsing is the most expensive avoidable mistake in the pathway."
+          },
+          {
+              "q": "Which method should I certify in first for ASNT Level III?",
+              "a": "Certify in the method your current work already documents experience in: UT for fixed equipment and pressure-boundary work, RT where weld radiography dominates, MT or PT in fabrication. The first method carries the one-time Basic Exam, so it costs the most. Later methods need only an application and a Method Exam. UT plus RT plus MT is the classic stack for refinery and pipeline technical authority."
+          },
+          {
+              "q": "Does an ASNT Level III certificate move with me to a new employer?",
+              "a": "ACCP certification is issued by ASNT itself and travels with you. Method Exam Path certification is issued by your employer against its written practice, so a new employer certifies you under its own document. Your passed Basic and Method Exam results carry over as evidence, but the certificate does not. Consultants and technicians bidding EPC work choose ACCP for exactly this reason."
+          },
+          {
+              "q": "What does the ASNT Basic Exam actually test?",
+              "a": "SNT-TC-1A and CP-189 personnel-qualification requirements, materials, fabrication and product technology, common discontinuities and their origins, and the fundamentals of methods other than your own. It is deliberately cross-method: the exam tests whether you can supervise, examine and qualify technicians in methods you do not personally practise. Candidates from a single-method background lose most marks on materials and processes."
+          },
+          {
+              "q": "Is ASNT cheaper to maintain than ISO 9712 Level 3?",
+              "a": "Yes. ASNT allows renewal by 25 continuing-education points with no examination, so an active Level III maintains certification through normal work, teaching and conference attendance. ISO 9712 returns the candidate to the certification body with formal requirements at the end of each five-year cycle. Across a twenty-year career the ASNT points route removes several examination events from the calendar and the budget."
+          }
+      ]
+  },
+
+  "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison": {
+      "answer": "For work inside the United States, SNT-TC-1A is the answer: your employer certifies you against its own written practice, and roughly 95% of US employers accept it. ISO 9712 is issued by an independent certification body, so the certificate belongs to the technician and moves between employers — which is why Europe, the Gulf and most international contracts name it first.",
+      "expansion": "The split is ownership of the certificate. Under ASNT SNT-TC-1A the employer certifies you, so leaving the company ends the certification and the next employer re-qualifies you under its written practice. Under ISO 9712:2021 an accredited certification body examines and certifies you, and that certificate stays valid across employers for five years. Canada accepts both, issuing ISO 9712 as CAN/CGSB-48.9712 through Natural Resources Canada's National NDT Certification Body. The practical sequence for a North American technician is ASNT first — faster, and what US job postings require — then ISO 9712 within one to two years if international work is the goal. Converting is not a paperwork exercise: ISO 9712 examinations are passed separately, though documented ASNT training hours and on-the-job experience count toward eligibility. The examination is also graded by the certification body rather than by your employer, which is what makes the result portable.",
+      "source": "ISO 9712:2021 Non-destructive testing — Qualification and certification of NDT personnel; ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ANSI/ASNT CP-189-2020; CAN/CGSB-48.9712 administered by NRCan's NDTCB",
+      "table": {
+          "caption": "Which certification scheme employers name, by market",
+          "columns": [
+              "Market",
+              "Scheme employers specify",
+              "Certificate issued by",
+              "Moves with the technician",
+              "Validity"
+          ],
+          "rows": [
+              [
+                  "United States",
+                  "SNT-TC-1A; CP-189 where a national standard is contracted",
+                  "Employer, against its written practice",
+                  "No",
+                  "Level I/II 3 years, Level III 5 years"
+              ],
+              [
+                  "Canada",
+                  "Both accepted equally",
+                  "Employer (ASNT) or NRCan NDTCB (CAN/CGSB-48.9712)",
+                  "Yes on the ISO route",
+                  "5 years on the ISO route"
+              ],
+              [
+                  "UK and Europe",
+                  "ISO 9712 and PCN; national bodies such as TWI and TÜV",
+                  "Accredited certification body",
+                  "Yes",
+                  "5 years"
+              ],
+              [
+                  "Middle East (UAE, Saudi, Qatar)",
+                  "ISO 9712 named first, ASNT accepted alongside",
+                  "Accredited body, or employer on the ASNT route",
+                  "Yes on the ISO route",
+                  "5 years on the ISO route"
+              ],
+              [
+                  "Aerospace (US and Europe)",
+                  "NAS 410 and EN 4179",
+                  "Employer, under a Responsible Level 3",
+                  "No",
+                  "Per the employer's written practice"
+              ],
+              [
+                  "US nuclear (ASME Section XI work)",
+                  "SNT-TC-1A or CP-189 as invoked by the owner's program",
+                  "Employer",
+                  "No",
+                  "Per the employer's written practice"
+              ]
+          ],
+          "note": "Validity intervals are recommended maxima. Under SNT-TC-1A the employer's written practice governs and may set shorter intervals. Atlantis NDT trains toward ASNT and ISO 9712 pathways; the certification decision rests with the employer or the certification body."
+      },
+      "facets": [
+          {
+              "q": "Which scheme do Gulf operators name in their inspection contracts?",
+              "a": "Gulf tenders name ISO 9712 first and accept ASNT alongside it. UAE, Saudi and Qatari operators write clauses in the form \"ISO 9712 or equivalent with ASNT Level II/III.\" A technician holding only ASNT is shortlisted less often on those contracts. Aviation MRO work in the region runs separately under NAS 410 or EN 4179 personnel rules, not under either general scheme."
+          },
+          {
+              "q": "Does ISO 9712 require re-examination at renewal?",
+              "a": "ISO 9712 certificates run five years. Renewal turns on documented continuity of work in the method and a current vision examination; recertification at the end of the extended cycle returns the candidate to the certification body for examination. That is the structural cost difference from ASNT, where 25 continuing-education points renew a Level III with no examination at all."
+          },
+          {
+              "q": "How long does it take to add ISO 9712 after an ASNT Level II?",
+              "a": "Six to twelve months for a technician already holding ASNT Level II in that method. The examinations are passed separately — there is no conversion or equivalency letter — but documented ASNT training hours and on-the-job experience count toward ISO 9712 eligibility. The gate becomes exam scheduling with an accredited certification body rather than accumulating fresh experience."
+          },
+          {
+              "q": "What happens to my SNT-TC-1A certification when I change employers?",
+              "a": "It ends. SNT-TC-1A certification is granted by the employer against its written practice and is valid only inside that organisation. The new employer re-certifies you under its own written practice, crediting your documented training hours, OJT records and examination history, so the rebuild is administrative rather than starting from zero. Keep personal copies of every training record, OJT log and vision test."
+          },
+          {
+              "q": "Which scheme does aerospace NDT work run under?",
+              "a": "NAS 410 in the United States and EN 4179 in Europe, which are technically aligned. Both keep certification employer-based under a Responsible Level 3 who is separately qualified, and both are invoked by the prime contractor — Boeing, Airbus, GE — through supplier quality requirements. An ASNT or ISO 9712 certificate on its own does not satisfy an aerospace supplier audit."
+          },
+          {
+              "q": "Is ANSI/ASNT CP-189 different from SNT-TC-1A?",
+              "a": "CP-189 is a consensus national standard stating requirements; SNT-TC-1A is a recommended practice the employer adapts into its own written practice. CP-189 is prescriptive where SNT-TC-1A is advisory, which is why nuclear, defense and some government owners invoke CP-189 by name in their programs. Both draw course content from the ASNT CP-105 topical outlines."
+          }
+      ]
+  },
+
+  "/ndt-training-dubai": {
+      "answer": "Atlantis NDT delivers NDT training in Dubai in two formats: on-site corporate cohorts run at your own facility with your equipment and specimens, and blended cohorts pairing online theory with a supervised practical block. There is no walk-in Dubai training centre. Programmes cover Level I and Level II in UT, RT, MT, PT, VT and ET, led by practising ASNT Level IIIs.",
+      "expansion": "Dubai's inspection demand comes from four asset populations examined on code intervals: Emirates' MRO fleet, the drydocks on the creek and at Jebel Ali, dense structural and pressure-equipment fabrication, and DEWA's power and desalination plant — with ENOC's Jebel Ali refinery adding process work. Each pulls a different method first. Aviation runs eddy current, PT on components and UT on composites under NAS 410 or EN 4179 personnel rules. Marine runs UT thickness gauging at survey scale, MT on fatigue details and disciplined visual survey. Fabrication runs VT to welding-code acceptance, then UT and RT for coded work. Certification scheme follows the same logic: Dubai Municipality and DM-accredited third parties govern statutory equipment, GCAA-approved organisations govern aviation, and multinationals name ASNT or PCN in their contracts. Train toward the scheme your target employers write into contracts before booking any course.",
+      "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ISO 9712:2021; NAS 410 and EN 4179 for aerospace personnel; BINDT PCN scheme documents; Dubai Municipality third-party inspection requirements",
+      "table": {
+          "caption": "Certification schemes named in UAE contracts — who issues them and who accepts them",
+          "columns": [
+              "Scheme",
+              "Certificate issued by",
+              "Where it is named in the UAE",
+              "Moves with the technician",
+              "Renewal"
+          ],
+          "rows": [
+              [
+                  "ASNT SNT-TC-1A",
+                  "Employer, against its written practice",
+                  "Multinational EPC and oil & gas contracts",
+                  "No",
+                  "3 years Level I/II, 5 years Level III per written practice"
+              ],
+              [
+                  "ANSI/ASNT CP-189",
+                  "Employer, against a national standard",
+                  "Owners requiring a prescriptive personnel standard",
+                  "No",
+                  "Per the employer's written practice"
+              ],
+              [
+                  "ISO 9712:2021",
+                  "Accredited third-party certification body",
+                  "Statutory work and most GCC tenders",
+                  "Yes",
+                  "5 years"
+              ],
+              [
+                  "PCN (BINDT)",
+                  "BINDT, to ISO 9712",
+                  "British-linked operators and EPC contractors",
+                  "Yes",
+                  "5 years"
+              ],
+              [
+                  "NAS 410 / EN 4179",
+                  "Employer, under a Responsible Level 3",
+                  "Aviation MRO inside GCAA-approved organisations",
+                  "No",
+                  "Per the employer's written practice"
+              ],
+              [
+                  "AWS CWI",
+                  "AWS, centrally",
+                  "Structural and fabrication welding inspection",
+                  "Yes",
+                  "3-year renewal, 9-year recertification"
+              ]
+          ],
+          "note": "Atlantis NDT delivers ASNT- and ISO 9712-pathway training and prepares candidates for the examinations local operators specify. AWS CWI and the API individual certification programs are administered centrally by AWS and API. Programme scope is affordable, accessible, fully customizable and quoted on request."
+      },
+      "facets": [
+          {
+              "q": "Does Atlantis run a walk-in training centre in Dubai?",
+              "a": "No. Corporate programmes are delivered on-site at your own facility, which lets practical specimens match the components your technicians actually examine, and individuals are served through scheduled cohorts or blended delivery with online theory and a supervised practical block. Send headcount and timeline and Atlantis will state plainly which route fits — including when a local provider is the better answer for one candidate."
+          },
+          {
+              "q": "Which NDT method should a Dubai candidate certify in first?",
+              "a": "Certify in the method local employers examine with. Aviation MRO work runs eddy current first, then PT on components and UT on composites. Marine and drydock work runs UT thickness gauging and MT on fatigue details. Fabrication runs VT to welding-code acceptance, then UT and RT. A candidate matched to local demand is employable months sooner than one spread thinly across every method."
+          },
+          {
+              "q": "What does a UAE employer need to see beyond an exam pass?",
+              "a": "Documented training hours, documented on-the-job experience hours, a general examination, a specific examination on the employer's own procedures, a graded practical examination, and a current near-vision acuity and colour-contrast test. Under SNT-TC-1A the employer certifies against its written practice, so that document is part of the requirement itself — and it is the first thing a client audit asks to see."
+          },
+          {
+              "q": "Will an ISO 9712 certificate earned in the UAE be accepted in Saudi Arabia?",
+              "a": "Yes — an ISO 9712 certificate is issued by an accredited body and is recognised across the GCC. Individual operators run their own approval gates on top: qualification registers, site-specific assessments and contractor approval lists controlled by the operator, not by the certification body. Budget time for that second gate separately from certification, because it is scheduled by the operator."
+          },
+          {
+              "q": "Can the theory be completed online with the practical done in Dubai?",
+              "a": "Yes — that is the blended format. Theory is completed online at the candidate's pace, then the practical block is delivered and supervised in person, which is the part that cannot be remote because it requires specimens, equipment and a graded demonstration. Corporate cohorts run the same split around your shift pattern so the crew keeps working while it qualifies."
+          },
+          {
+              "q": "How long does a first Level II take from a cold start?",
+              "a": "Months rather than weeks. Classroom hours are the fast part; documented on-the-job experience is the binding constraint, and it accumulates alongside the training and examinations rather than after them. A candidate already working under supervision in the method progresses considerably faster than someone entering NDT with no logged hours, because their OJT clock is already running."
+          }
+      ]
+  },
+
+  "/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut": {
+      "answer": "MFL is the default in-line inspection tool for US gas transmission because it needs no coupling fluid: magnetize the wall, and Hall-effect sensors read flux leaking where metal is missing. Choose UT ILI instead when crack detection is mandatory, when wall thickness exceeds 25 mm, or when API 579 needs directly measured thickness. Crack-threat lines run MFL paired with EMAT or UT.",
+      "expansion": "MFL detects volume loss, not planar flaws. External and internal corrosion, pitting, gouges, manufacturing anomalies and new-construction baselines all read cleanly, in gas, dry or liquid product. Tight axial cracks — SCC and seam-weld fatigue — hook cracks in pre-1995 ERW pipe, laminations, HIC, dents without metal loss and sub-threshold pitting are missed or undersized, and non-ferromagnetic material cannot be magnetized at all. Tool selection follows the gap. High-resolution MFL tightens sizing to roughly ±10% of wall thickness against ±15–20% for standard resolution, which is what fitness-for-service work requires. Transverse field inspection rotates the field 90° to catch axially oriented defects; spiral MFL magnetizes helically to catch any orientation in one pass; triax adds three sensor axes for classification. On high-consequence lines the industry default is a combo tool — MFL plus caliper plus IMU, optionally EMAT or UT — because it buys full threat coverage inside one shutdown window.",
+      "source": "API 1163 In-line Inspection Systems Qualification; ASME B31.8S Managing System Integrity of Gas Pipelines; PHMSA 49 CFR Part 192 Subpart O and 49 CFR 195.452; NACE/AMPP SP0102 In-Line Inspection of Pipelines; ASME B31G for remaining strength",
+      "table": {
+          "caption": "Pipeline threat vs tool — what MFL covers and what it hands off",
+          "columns": [
+              "Threat",
+              "MFL result",
+              "Tool that resolves it",
+              "Sizing expectation",
+              "Framework driver"
+          ],
+          "rows": [
+              [
+                  "External and internal corrosion, general metal loss",
+                  "Detected — primary application",
+                  "High-resolution MFL",
+                  "±10% wall (HR), ±15–20% wall (standard)",
+                  "ASME B31.8S metal-loss threat"
+              ],
+              [
+                  "Pitting above detection threshold",
+                  "Detected",
+                  "High-resolution MFL",
+                  "±10% wall",
+                  "ASME B31G remaining strength"
+              ],
+              [
+                  "Axial cracking, SCC, seam-weld fatigue",
+                  "Blind",
+                  "EMAT, UT crack tool, TFI or spiral MFL",
+                  "Depth from the crack tool, never from MFL",
+                  "ASME B31.8S crack threat"
+              ],
+              [
+                  "Hook cracks, pre-1995 ERW seam",
+                  "Metal loss only",
+                  "UT crack tool or EMAT — combo mandatory",
+                  "Crack-tool specification",
+                  "PHMSA seam-threat assessment"
+              ],
+              [
+                  "Dents and geometry with no metal loss",
+                  "Missed",
+                  "Caliper plus IMU",
+                  "Depth as percentage of OD",
+                  "49 CFR 192 and 195 dent criteria"
+              ],
+              [
+                  "Laminations and HIC",
+                  "Missed",
+                  "UT ILI in liquid service",
+                  "Direct wall-thickness measurement",
+                  "API 579 assessment input"
+              ],
+              [
+                  "Heavy wall above 25 mm",
+                  "Sizing accuracy drops",
+                  "UT ILI with liquid coupling",
+                  "Direct thickness",
+                  "API 579 Level 2 input"
+              ]
+          ],
+          "note": "Every sizing figure is a qualified performance claim under API 1163, not a measurement — it holds only when validated by dig verification of the anomaly population. Bid three vendors against a performance specification rather than a named tool. Atlantis NDT works for operators on bid analysis and dig-program oversight, not for tool vendors; scope is quoted on request."
+      },
+      "facets": [
+          {
+              "q": "How far ahead do I need to book an MFL run?",
+              "a": "Top-tier fleets carry four to six month lead times, and the full sequence from contract award to GPS dig sheets spans three to six months on top. Cluster adjacent lines under one mobilization and sign multi-year vendor agreements to hold a place in the schedule. Rush scheduling is one of the largest single cost drivers in an ILI program, entirely by choice."
+          },
+          {
+              "q": "What does a combo tool add over a straight MFL run?",
+              "a": "One launch instead of three. MFL plus caliper plus IMU captures metal loss, geometry and precise anomaly positioning in a single pass, and adding EMAT or UT brings crack threats into the same run. The saving is the shutdown window and the mobilization, not the tool rental — which is why combo configuration is the industry default on high-consequence area pipelines."
+          },
+          {
+              "q": "How do I compare MFL bids that are not quoted the same way?",
+              "a": "Write a performance-based specification against API 1163 — required probability of detection, probability of identification, sizing accuracy and depth threshold — rather than naming a vendor's tool. That forces every bid onto the same axis and opens the bidding to mid-market fleets. Normalize the bids independently of the vendors, then hold the winner to those numbers at dig verification."
+          },
+          {
+              "q": "Can an unpiggable pipeline be inspected with MFL?",
+              "a": "Free-swimming tools cannot traverse multi-diameter, tight-bend or low-flow lines, but tethered MFL tools, robotic crawlers and bidirectional tools do, at a premium over a standard run. Physical modification — installing launchers and receivers, replacing tight bends — converts the line permanently and pays back across repeated assessment cycles. Quest Integrity and similar specialists build their business on these lines."
+          },
+          {
+              "q": "Which vendors run credible MFL fleets?",
+              "a": "ROSEN Group leads on high-resolution MFL and analyst depth; Baker Hughes/PII carries the MagneScan gas transmission heritage; NDT Global runs the strongest MFL-plus-UT combos for liquid lines; T.D. Williamson runs spiral SpirALL. Mid-market and specialty fleets include Onstream for North American gathering, Quest Integrity for unpiggable lines, Enduro for low-pressure systems, and Pipesurvey International for European small diameters."
+          },
+          {
+              "q": "What happens between the tool run and the dig sheet?",
+              "a": "Eight steps: engineering and tool selection, cleaning pig runs, a gauge plate run, tool launch with one to three days of data acquisition, data download and tool performance verification, a Level 1 preliminary report, Level 2 analysis with ASME B31G remaining-strength calculations and GPS dig sheets, then dig verification of five to twenty anomalies to validate the vendor's sizing claims."
+          }
+      ]
+  },
+
+  "/blog/defect-sizing-techniques-in-ultrasonic-inspection": {
+      "answer": "Through-wall height comes from time, not amplitude. Tip diffraction and TOFD time the signal shed by the crack tip and size height to about ±1 mm; 6 dB and 20 dB drop are amplitude methods that size length and systematically undersize any flaw smaller than the beam. Fitness-for-service assessment under API 579 requires a diffraction-based height, not an amplitude estimate.",
+      "expansion": "Ultrasonic sizing splits into three families with three different uses. Amplitude drop — 6 dB for the half-amplitude boundary, 20 dB for the wider beam edge — traces flaw extent by moving the probe until the echo falls a set number of decibels. It is fast, it works for length, and it fails for anything smaller than the beam width because the echo never originates at the flaw edge. Diffraction methods time the low-amplitude signal shed by the flaw tip: tip echo in pulse-echo, and TOFD with separate transmitter and receiver timing lateral wave, tip and backwall arrivals. Height accuracy stops depending on how loud the indication is, which is why TOFD survives awkward flaw orientation. Imaging methods — phased array sectorial scanning, and full matrix capture with total focusing — reconstruct the flaw geometrically and are the practical route where access allows a single side only.",
+      "source": "ASTM E2192 Standard Guide for Planar Flaw Height Sizing by Ultrasonics; ASME BPVC Section V, Article 4 (ultrasonic examination of welds, including its TOFD appendix); ISO 10863 (TOFD technique) and ISO 15626 (TOFD acceptance levels); ISO 16827 (characterization and sizing of discontinuities); API 579-1/ASME FFS-1 Part 9",
+      "table": {
+          "caption": "UT sizing techniques — what each one actually measures",
+          "columns": [
+              "Technique",
+              "What it measures",
+              "Through-wall height accuracy",
+              "Fails when",
+              "Reference"
+          ],
+          "rows": [
+              [
+                  "6 dB drop",
+                  "Length and lateral extent",
+                  "None — no height output",
+                  "The flaw is smaller than the beam width",
+                  "ISO 16827"
+              ],
+              [
+                  "20 dB drop",
+                  "Extent at the wider beam edge",
+                  "None — no height output",
+                  "Coarse grain or attenuation distorts the beam",
+                  "ISO 16827"
+              ],
+              [
+                  "DAC / DGS amplitude comparison",
+                  "Equivalent reflector size against a reference",
+                  "None — no height output",
+                  "Flaw orientation is off-normal to the beam",
+                  "ASME BPVC Section V, Article 4"
+              ],
+              [
+                  "Tip echo / back-diffraction",
+                  "Through-wall height",
+                  "About ±1 mm",
+                  "The tip signal is buried in structural noise",
+                  "ASTM E2192"
+              ],
+              [
+                  "TOFD",
+                  "Through-wall height and depth",
+                  "About ±1 mm",
+                  "Near-surface flaws sit in the lateral-wave dead zone",
+                  "ISO 10863 and ISO 15626"
+              ],
+              [
+                  "Phased array sectorial scan",
+                  "Height, depth and flaw profile",
+                  "Better than amplitude, below TOFD",
+                  "The focal law does not match the geometry",
+                  "ASME BPVC Section V, Article 4"
+              ],
+              [
+                  "FMC with total focusing (TFM)",
+                  "Height and geometric profile",
+                  "Approaches TOFD with a correct velocity model",
+                  "Velocity model or wedge geometry is misassumed",
+                  "Vendor-qualified procedure approved by a Level III"
+              ]
+          ],
+          "note": "Sizing accuracy is a property of the qualified procedure, not of the instrument: it holds only against the reference blocks the technique was demonstrated on, and the procedure must be approved by a Level III. API 579 and BS 7910 assessments consume through-wall height, so an amplitude-only result cannot feed them."
+      },
+      "facets": [
+          {
+              "q": "Why does 6 dB drop undersize small flaws?",
+              "a": "The 6 dB drop method assumes the echo falls by half when the beam centre passes the flaw edge, which holds only when the flaw is larger than the beam at that depth. Below that size the whole flaw sits inside the beam, the echo amplitude reflects reflectivity rather than extent, and the traced boundary is the beam profile — not the flaw. The error is systematic and always non-conservative."
+          },
+          {
+              "q": "When is TOFD the wrong choice for sizing?",
+              "a": "TOFD loses near-surface flaws under the lateral wave dead zone and loses far-surface flaws in the backwall echo, so thin-wall components give it two blind bands and little usable window between them. Coarse-grained austenitic and dissimilar-metal welds scatter the tip signal below the noise floor. Complex geometry that prevents symmetric transmitter-receiver placement removes the timing basis entirely."
+          },
+          {
+              "q": "What sizing accuracy does an API 579 assessment actually need?",
+              "a": "API 579-1/ASME FFS-1 Part 9 evaluates crack-like flaws using through-wall height and length as direct inputs, so the assessment inherits the sizing error. Qualified procedures add the demonstrated sizing uncertainty to the measured height before the assessment is run. An amplitude-based estimate provides no height at all and cannot enter a Part 9 evaluation regardless of how the indication was reported."
+          },
+          {
+              "q": "Can phased array replace TOFD for height sizing?",
+              "a": "Phased array sectorial scanning sizes height and profile better than any amplitude method and produces an image an auditor can read, but it stays amplitude-dependent unless the focal law resolves the tip signal. Coded procedures pair the two: TOFD for through-wall height, phased array for position, profile and coverage mapping. Full matrix capture with total focusing closes much of the gap when the velocity model is correct."
+          },
+          {
+              "q": "What certification is required to size flaws for a code report?",
+              "a": "An SNT-TC-1A Level II or ISO 9712 Level 2 in ultrasonics performs the examination and records the sizing. A Level III writes and approves the sizing procedure and signs the technical disposition — the sizing result is only defensible if a Level III approved the procedure it came from. Advanced techniques such as TOFD, phased array and TFM usually add a separate technique-specific qualification."
+          },
+          {
+              "q": "How do I qualify a sizing procedure so an auditor accepts it?",
+              "a": "Demonstrate the procedure on reference blocks containing flaws of known height and orientation representative of the component, record the measured versus actual heights, and state the resulting sizing error in the procedure itself. Keep the block certification traceable, the operator certification current, and the raw data files timestamped. That evidence chain — not the instrument brand — is what an audit examines."
+          }
+      ]
+  },
+
+  "/blog/vt-level-2-practice-questions-2026-free-mock-exam": {
+      "answer": "VT Level II exams score three things: ASME Section V Article 9 technique rules, the employer's written procedure, and a graded practical. Article 9 direct visual requires the eye within 24 in (600 mm) of the surface, a viewing angle of at least 30° to the surface, and a minimum 100 fc (1000 lux) of illumination — the numbers that appear on almost every paper.",
+      "expansion": "Study the parameters that carry numbers, because those are what an examination can score objectively. Direct visual examination under ASME BPVC Section V, Article 9: eye within 24 in (600 mm) of the surface, viewing angle no less than 30° to the surface, and illumination of at least 100 fc (1000 lux) measured at the examination surface rather than at the lamp. Remote or indirect visual examination — borescope, camera, mirror — must demonstrate resolution at least equivalent to direct visual observation, which is why a compliant procedure includes a resolution check before the examination begins. Personnel requirements sit in SNT-TC-1A: near-vision acuity to Jaeger No. 1 or equivalent at not less than 12 in, examined annually, plus colour-contrast differentiation demonstrated per the employer's written practice. AWS D1.1 sets a separate bar for welding inspectors at Jaeger J2 at 12 in. Every VT procedure requires Level III approval.",
+      "source": "ASME BPVC Section V, Article 9 (Visual Examination); ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ANSI/ASNT CP-189-2020; ASNT CP-105 topical outlines; AWS D1.1 Structural Welding Code — Steel; ASTM E165 (liquid penetrant, referenced in cross-method questions)",
+      "table": {
+          "caption": "VT Level II — the parameters exams actually score",
+          "columns": [
+              "Parameter",
+              "Requirement",
+              "Source",
+              "Common exam trap"
+          ],
+          "rows": [
+              [
+                  "Illumination, direct visual",
+                  "Minimum 100 fc (1000 lux) at the examination surface",
+                  "ASME BPVC Section V, Article 9",
+                  "Measuring at the lamp instead of at the surface"
+              ],
+              [
+                  "Eye-to-surface distance",
+                  "Not more than 24 in (600 mm)",
+                  "ASME BPVC Section V, Article 9",
+                  "Answering in inches when the paper is set in millimetres"
+              ],
+              [
+                  "Viewing angle",
+                  "Not less than 30° to the surface",
+                  "ASME BPVC Section V, Article 9",
+                  "Reading it as 30° from the normal instead of from the surface"
+              ],
+              [
+                  "Remote / indirect visual",
+                  "Resolution at least equivalent to direct visual observation",
+                  "ASME BPVC Section V, Article 9",
+                  "Assuming any borescope automatically qualifies"
+              ],
+              [
+                  "Near-vision acuity",
+                  "Jaeger No. 1 or equivalent at not less than 12 in, annually",
+                  "ASNT SNT-TC-1A (2024)",
+                  "Confusing the annual near-vision test with the colour-test interval"
+              ],
+              [
+                  "Colour-contrast differentiation",
+                  "Demonstrated per the employer's written practice",
+                  "ASNT SNT-TC-1A (2024)",
+                  "Assuming the Ishihara plates are mandated by code"
+              ],
+              [
+                  "Welding inspector vision",
+                  "Jaeger J2 at 12 in (300 mm)",
+                  "AWS D1.1",
+                  "Applying the AWS limit to an ASME Section V examination"
+              ],
+              [
+                  "Procedure approval",
+                  "Written VT procedure approved by a Level III",
+                  "ASME BPVC Section V, Article 9 with SNT-TC-1A",
+                  "Treating the written practice and the procedure as one document"
+              ]
+          ],
+          "note": "Verify every figure against the code edition your employer's written practice invokes — EPC and nuclear contracts sometimes lock an older ASME edition. Under SNT-TC-1A the general, specific and practical examinations are graded separately and composited, and the employer's written practice sets the pass mark."
+      },
+      "facets": [
+          {
+              "q": "How many questions are on the ASNT VT Level II exam?",
+              "a": "The method-specific portion runs around 40 questions, and a candidate sits roughly 140 questions across the general, specific and practical components combined, inside a two to three hour window. Weighting follows the topical outline: technique and procedure carries the largest share, then equipment and calibration, then interpretation and acceptance, with codes and standards close behind."
+          },
+          {
+              "q": "Is the VT Level II exam open book?",
+              "a": "The ASNT method examination is closed book. The specific examination — the employer-authored paper covering its own procedures, equipment and acceptance criteria — is open book where the employer's written practice permits it, because it tests navigation of documents you would have in hand on the job. Confirm which applies before the exam; the two are administered separately."
+          },
+          {
+              "q": "What is the difference between direct and remote visual examination?",
+              "a": "Direct visual is performed with unaided eye or simple aids where access allows the eye within 24 in (600 mm) of the surface at 30° or more. Remote or indirect visual uses mirrors, borescopes, fibre optics or cameras where that access does not exist, and ASME Section V Article 9 requires the remote system to demonstrate resolution at least equivalent to what direct observation would achieve."
+          },
+          {
+              "q": "Which documents should I read before a VT Level II exam?",
+              "a": "ASME BPVC Section V, Article 9 in the edition your employer invokes; your employer's written practice and its VT procedure; SNT-TC-1A (2024 edition) for the qualification and vision requirements. Add AWS D1.1 for structural fabrication work and API 510, 570 or 653 if your role covers in-service equipment. Highlight referenced sections rather than reading each straight through."
+          },
+          {
+              "q": "What does the VT practical examination require?",
+              "a": "Examining specimens under the employer's written procedure and being graded on detection, characterization and reporting — set up the examination, verify illumination, apply the technique, then record the indications against the acceptance criteria. Checkpoints are defined in the employer's written practice. Candidates lose marks on documentation and on verifying conditions before examining, not on spotting the discontinuity."
+          },
+          {
+              "q": "Why do self-study candidates fail on code-navigation questions?",
+              "a": "Code-navigation questions are timed against people who have drilled the document, and a candidate who has read Article 9 once cannot locate the paragraph fast enough to finish the paper. Self-study pass rates sit near 70–75%; the gap closes with timed mock exams, repeated navigation drills against the actual code, and reference-standard interpretation practice rather than more reading."
+          }
+      ]
+  },
+
+  "/blog/asme-b31-3-process-piping-requirements": {
+      "answer": "ASME B31.3 scales weld examination to fluid service, not to pipe size. Normal Fluid Service requires random radiography or ultrasonic examination of at least 5% of circumferential butt and miter groove welds, with every welder represented. Category D requires visual examination only. Severe Cyclic Conditions requires 100% radiography of those welds plus 100% surface examination of fillet and socket welds.",
+      "expansion": "Fluid service is decided in design, before any weld is made. Category D covers nonflammable, nontoxic fluid at design gauge pressure not exceeding 150 psi and design temperature between −20°F and 366°F. Category M covers fluid where a single exposure to a very small leaked quantity can cause serious irreversible harm. High Pressure Fluid Service is Chapter IX, invoked by the owner when pressure exceeds ASME B16.5 Class 2500 limits for that material and design temperature. Everything else is Normal Fluid Service. Under Normal Fluid Service the 5% random radiography sample must include work from every welder and welding operator, and in-process examination per para. 344.7 may be substituted where the engineering design specifies it. When a sampled weld fails, para. 341.3.4 progressive sampling requires two additional welds of the same kind by the same welder; if either fails, two more for each, until the extent of the deficient work is established.",
+      "source": "ASME B31.3 Process Piping (2022 edition) — para. 341.4 Extent of Required Examination, para. 341.3.4 Progressive Sampling for Examination, Table 341.3.2 Acceptance Criteria for Welds, para. 300.2 Definitions, and para. 345 Leak Tests.",
+      "table": {
+          "caption": "ASME B31.3 examination and leak test by fluid service",
+          "columns": [
+              "Fluid service",
+              "Weld examination minimum",
+              "Visual examination",
+              "Leak test",
+              "Code location"
+          ],
+          "rows": [
+              [
+                  "Category D",
+                  "No radiography or ultrasonic examination required",
+                  "Visual examination per para. 344.2",
+                  "Initial service leak test permitted in place of hydrostatic",
+                  "para. 341.4.2"
+              ],
+              [
+                  "Normal Fluid Service",
+                  "At least 5% of circumferential butt and miter groove welds by random RT or UT, every welder represented",
+                  "At least 5% of fabrication; 100% of longitudinal welds not made to a listed specification",
+                  "Hydrostatic at 1.5 × design pressure, corrected by the stress ratio at test temperature",
+                  "para. 341.4.1"
+              ],
+              [
+                  "Severe Cyclic Conditions",
+                  "100% radiography of circumferential butt and miter groove welds; 100% magnetic particle or penetrant on fillet, socket and branch welds",
+                  "100% of fabrication",
+                  "Hydrostatic",
+                  "para. 341.4"
+              ],
+              [
+                  "Category M (Chapter VIII)",
+                  "Chapter VIII raises the Normal Fluid Service requirement; visual coverage goes above the 5% sample",
+                  "Set by Chapter VIII, above the Normal Fluid Service sample",
+                  "Sensitive leak test required in addition to the specified leak test",
+                  "Chapter VIII, para. M341.4 with para. 345.1"
+              ],
+              [
+                  "High Pressure Fluid Service (Chapter IX)",
+                  "100% volumetric examination of welds by radiography or ultrasonics, plus 100% surface examination",
+                  "100%",
+                  "Hydrostatic per Chapter IX",
+                  "Chapter IX, para. K341.4"
+              ]
+          ],
+          "note": "These are code minimums. The engineering design, owner's specification or jurisdiction can raise any of them and frequently does; none of them can be lowered."
+      },
+      "facets": [
+          {
+              "q": "Does ASME B31.3 require 100% radiography of piping welds?",
+              "a": "No. Only Severe Cyclic Conditions and Chapter IX High Pressure Fluid Service demand 100% volumetric examination. Normal Fluid Service stops at 5% random radiography or ultrasonics of circumferential butt and miter groove welds, and Category D needs no volumetric examination at all. Owners who want 100% on a Normal Fluid Service line buy it through the engineering design, not through the code."
+          },
+          {
+              "q": "What hydrostatic test pressure does ASME B31.3 require?",
+              "a": "1.5 times design pressure. When test temperature differs from design temperature, the test pressure is multiplied by the ratio of allowable stress at test temperature to allowable stress at design temperature, capped so the test does not yield the piping. Pneumatic testing is the alternative when hydrostatic is impractical, run at a lower multiple of design pressure with a stepped pressurisation sequence."
+          },
+          {
+              "q": "Who is qualified to perform examinations under ASME B31.3?",
+              "a": "Two separate roles. The examiner works under para. 342: qualified by training and experience under the employer's written practice, with ASNT SNT-TC-1A or ASME BPVC Section V Article 1 as the usual basis. The Owner's Inspector under para. 340.4 is a different person, requiring 10 years of experience in design, fabrication or inspection of industrial pressure piping, with engineering education creditable up to 5 of those years."
+          },
+          {
+              "q": "What happens when a randomly examined weld fails?",
+              "a": "Progressive sampling under para. 341.3.4 takes over. Two additional welds of the same kind made by the same welder or operator must be examined by the same method. If either of those fails, two further welds are examined for each failure. The escalation continues until the extent of the deficient work is established, or the welder's work of that kind is fully examined and repaired."
+          },
+          {
+              "q": "When does ASME B31.3 require post-weld heat treatment?",
+              "a": "Table 331.1.1 sets PWHT by base metal P-Number and nominal wall thickness. P-No. 1 carbon steel requires PWHT above 3/4 in. (19 mm) nominal thickness. Soak time is 1 hour per inch of thickness with a 15-minute minimum, at the metal temperature band listed for that P-Number, with heating and cooling rate limits and recorded thermocouple traces as the audit evidence."
+          },
+          {
+              "q": "How does ASME B31.3 differ from ASME B31.1?",
+              "a": "B31.3 governs process piping in refineries, chemical plants and gas processing, and sets examination by fluid service category. B31.1 governs power piping and boiler external piping, is referenced by ASME BPVC Section I, and sets examination by pipe size, wall thickness and pressure class under state boiler-code jurisdiction. A plant with both a process unit and a steam plant runs both codes on the same site."
+          }
+      ]
+  },
+
+  "/resources/asnt-level-iii-study-guide": {
+      "answer": "The ASNT NDT Level III credential takes two examinations: the Basic exam, 135 multiple-choice questions in 4 hours, passed once and never repeated, and a Method exam for each method certified. Basic covers certification programs (SNT-TC-1A, CP-189, ISO 9712), materials, fabrication and product technology, and general familiarity with the common NDT methods. Adding a method later costs only that Method exam.",
+      "expansion": "Eligibility is settled before a seat is booked: documented education plus NDT experience, verified by an employer or a Level III. The SNT-TC-1A route to Level III is a four-year engineering or science degree plus one year of NDT experience at Level II responsibility, two years of engineering or science study plus two years of experience, or four years of experience in a comparable position. A working plan runs 3 to 6 months at 8 to 12 hours a week: four weeks on materials science and metallurgy, six weeks reading ASME BPVC Section V Articles cover to cover and summarising each, six weeks on method-specific calculations, four weeks of timed practice papers, then a final pass on formulas and code paragraphs. Marks are lost most often on near field, beam spread, geometric unsharpness and Snell's law arithmetic, on shall/should/may code interpretation, and on separating SNT-TC-1A from CP-189 from ISO 9712.",
+      "source": "ASNT SNT-TC-1A-2020 Recommended Practice (Table 6.3.1A education and experience) and ANSI/ASNT CP-189-2020, with method scope per ASME BPVC Section V Articles 1, 2, 4–9 and 23 and AWS D1.1 Clause 6.",
+      "table": {
+          "caption": "ASNT Level III exam structure and what each part tests",
+          "columns": [
+              "Exam",
+              "Questions / time limit",
+              "Core content tested",
+              "Primary reference"
+          ],
+          "rows": [
+              [
+                  "Basic (passed once)",
+                  "135 questions / 4 hours",
+                  "Certification programs and written practices, materials, fabrication and product technology, general familiarity with the common NDT methods",
+                  "SNT-TC-1A, CP-189, ISO 9712"
+              ],
+              [
+                  "Method — Ultrasonic (UT)",
+                  "60–80 questions / 2–3 hours",
+                  "Wave modes, acoustic impedance, Snell's law and mode conversion, near field and beam spread, attenuation, DAC/TCG and DGS, TOFD and phased array, IIW, DSC and V1/V2 blocks",
+                  "ASME BPVC Section V Article 4; AWS D1.1"
+              ],
+              [
+                  "Method — Radiographic (RT)",
+                  "60–80 questions / 2–3 hours",
+                  "Ir-192, Co-60 and Se-75 sources, inverse square law, half-value layers, film and CR/DR, IQIs, geometric unsharpness, exposure calculation, ALARA",
+                  "ASME BPVC Section V Article 2"
+              ],
+              [
+                  "Method — Magnetic Particle (MT)",
+                  "60–80 questions / 2–3 hours",
+                  "Flux density and permeability, hysteresis, yoke, prod, coil and central conductor magnetisation, ampere-turns, continuous versus residual, demagnetisation, Ketos ring, QQI, pie gauge",
+                  "ASME BPVC Section V Article 7"
+              ],
+              [
+                  "Method — Liquid Penetrant (PT)",
+                  "60–80 questions / 2–3 hours",
+                  "Penetrant types and removal methods A–D, sensitivity levels, capillary action, dwell and development times, developer forms, UV-A and white-light levels, TAM and PSM-5 panels",
+                  "ASME BPVC Section V Article 6"
+              ],
+              [
+                  "Method — Eddy Current (ET)",
+                  "60–80 questions / 2–3 hours",
+                  "Electromagnetic induction and standard depth of penetration, impedance plane analysis, frequency selection, lift-off and fill factor, probe types, array, tube inspection, conductivity sorting",
+                  "ASME BPVC Section V Article 8"
+              ],
+              [
+                  "Method — Visual (VT)",
+                  "60–80 questions / 2–3 hours",
+                  "Light measurement to 50 fc / 500 lux, Jaeger near-vision requirement, direct versus remote viewing, weld gauges, discontinuity identification",
+                  "ASME BPVC Section V Article 9; AWS D1.1"
+              ]
+          ],
+          "note": "Computer-based at Prometric or Pearson VUE, closed book, non-programmable calculator permitted. 30-day wait between attempts, three attempts per 12-month period."
+      },
+      "facets": [
+          {
+              "q": "What experience do you need before ASNT will let you sit the Level III exam?",
+              "a": "One of three documented routes under SNT-TC-1A: a four-year college degree in engineering or science plus one year of NDT experience at Level II responsibility; two years of engineering or science study plus two years of that experience; or four years of experience in a comparable Level II position. The employer or a certifying Level III signs the experience record, and ASNT reviews it before scheduling."
+          },
+          {
+              "q": "How long does an ASNT Level III certificate last, and how is it renewed?",
+              "a": "Five years. Renewal runs on documented professional activity and continuing involvement in NDT, with re-examination as the fallback route. Vision is separate and annual: near-vision acuity to Jaeger #2 or equivalent at not less than 12 inches in at least one eye, corrected or uncorrected, plus the ability to distinguish contrast among the colours used in the methods certified."
+          },
+          {
+              "q": "What is the difference between an ASNT Level III certificate and employer certification?",
+              "a": "ASNT issues a personal credential proving Level III knowledge; it travels with the individual. Certification to perform work is still issued by the employer under its own written practice, which cites SNT-TC-1A or CP-189. A client audit looks for both: the ASNT certificate as the technical basis, and the employer's signed certification record showing method, level, examination results and vision date."
+          },
+          {
+              "q": "Which method should you certify in first?",
+              "a": "Ultrasonics. It carries the widest exam scope, the heaviest calculation load, and the interpretive base that phased array and TOFD sit on, so passing UT first makes every later method cheaper in study time. Radiography follows for volumetric coverage. MT, PT and VT are the fastest additions because the Basic exam is already behind you and each needs only its Method paper."
+          },
+          {
+              "q": "Is the ASNT Level III exam open book?",
+              "a": "Closed book. Bring photo ID, the confirmation, and a non-programmable calculator; nothing else enters the room. That means acceptance tables, formula constants and code paragraph numbers have to be memorised, not looked up. Budget roughly 1.8 minutes per Basic question and 2 minutes per Method question, flag hard items, and answer every question because there is no guessing penalty."
+          },
+          {
+              "q": "How does ASNT Level III compare with ISO 9712 Level 3?",
+              "a": "ASNT Level III is an American credential written around SNT-TC-1A and CP-189, where the employer certifies and ASNT supplies the examination. ISO 9712 Level 3 is issued by a third-party certification body accredited to ISO/IEC 17024, scoped to a named product or industrial sector, and recognised across Europe, the Gulf, Asia-Pacific and Canada. Inspectors working internationally hold both."
+          }
+      ]
+  },
+
+  "/resources": {
+      "answer": "Twenty-one NDT documents download free here in editable DOCX or XLSX with no registration: an inspection checklist, API 510, 570 and 653 report templates, an ITP carrying 17 standard QA/QC activities with H/W/R codes, an ASNT Level III study guide, an SNT-TC-1A written practice, an ISO/IEC 17025 calibration certificate, an ASME Section IX WPQR, and an API 581 RBI worksheet.",
+      "expansion": "Each template is built around the record its governing document expects an auditor to find. The API 510 vessel report carries condition monitoring location thickness readings, corrosion rate, remaining life and the next inspection date. The API 570 piping record carries the same chain for piping circuits, with long-term and short-term corrosion rates computed side by side so the more conservative one drives remaining life. The API 653 template splits shell course readings, floor scanning, roof and settlement survey into separate sign-off sheets. The written practice follows the SNT-TC-1A clause order: scope, methods and levels, training and experience, examinations, vision, recertification and audits. The ISO/IEC 17025 calibration certificate carries as-found and as-left results, measurement uncertainty, the decision rule and traceability. The API 581 worksheet scores damage mechanisms into probability and consequence of failure on a 5x5 matrix that then sets inspection scope.",
+      "source": "API 510, API 570 and API 653 in-service inspection codes; API RP 581 Risk-Based Inspection Methodology; ASME BPVC Section V and Section IX; ASNT SNT-TC-1A-2020; ISO/IEC 17025:2017; ISO 9712:2021.",
+      "table": {
+          "caption": "Free template, its governing document, and the record an auditor opens it to find",
+          "columns": [
+              "Template",
+              "Governing document",
+              "Record it must carry",
+              "Format"
+          ],
+          "rows": [
+              [
+                  "NDT Inspection Checklist",
+                  "ASME BPVC Section V Article 1 and the employer's procedure",
+                  "Pre-job planning, equipment and calibration verification, in-process controls, reporting close-out",
+                  "DOCX"
+              ],
+              [
+                  "API 510 Pressure Vessel Inspection Report",
+                  "API 510",
+                  "Cover data, shell UT condition monitoring locations, nozzle and weld inspection, API 579 fitness-for-service screening, recommendations",
+                  "DOCX"
+              ],
+              [
+                  "API 570 Piping Inspection Record",
+                  "API 570",
+                  "CML thickness readings, long-term and short-term corrosion rates, remaining life, RBI risk score",
+                  "XLSX"
+              ],
+              [
+                  "API 653 Tank Inspection Template",
+                  "API 653",
+                  "Shell course readings, floor and annular plate results, roof, settlement survey, sign-off",
+                  "DOCX"
+              ],
+              [
+                  "NDT Written Practice",
+                  "ASNT SNT-TC-1A",
+                  "Scope, methods and levels, training and experience, examination and grading, vision testing, recertification, internal audit",
+                  "DOCX"
+              ],
+              [
+                  "Calibration Certificate",
+                  "ISO/IEC 17025:2017",
+                  "As-found and as-left results, measurement uncertainty, decision rule, metrological traceability, environmental conditions, authorising signature",
+                  "DOCX"
+              ],
+              [
+                  "Welder Qualification Record (WPQR)",
+                  "ASME BPVC Section IX",
+                  "Essential variables, coupon and test position, mechanical test results, welder continuity log",
+                  "DOCX"
+              ],
+              [
+                  "RBI Worksheet",
+                  "API RP 581",
+                  "Damage mechanism screening, probability and consequence of failure, 5x5 risk matrix, resulting inspection plan",
+                  "XLSX"
+              ]
+          ],
+          "note": "A template is a starting structure, not a compliance certificate. Verify every clause reference against the current code edition and the client specification before issue."
+      },
+      "facets": [
+          {
+              "q": "Do you have to register or pay to download these NDT templates?",
+              "a": "No. Every checklist, template and study guide on this page downloads free in editable DOCX or XLSX with no email gate and no account. They can be rebranded with a company logo, renumbered into an existing document control system, and issued on live projects. The only condition is verification against the current code edition before the first controlled issue."
+          },
+          {
+              "q": "Which template do you start with for a new in-service inspection program?",
+              "a": "Start with the NDT Inspection Checklist to fix execution discipline in the field. Add the API 510, 570 or 653 report template that matches the equipment type. Run the API 581 RBI Worksheet to rank equipment so inspection scope goes where risk is, not where access is easy. The SNT-TC-1A Written Practice underpins all of it by making personnel certification defensible."
+          },
+          {
+              "q": "How do you calculate remaining life on the API 570 piping record?",
+              "a": "Remaining life equals actual thickness minus required thickness, divided by the corrosion rate. The long-term rate uses the first and current readings across the full service period; the short-term rate uses the previous and current readings. Both are computed and the inspector applies the more conservative result. The next inspection date falls at half the remaining life or the code interval, whichever comes first."
+          },
+          {
+              "q": "What must a calibration certificate contain to satisfy ISO/IEC 17025?",
+              "a": "Identification of the item and the reference standards used, the calibration date, as-found and as-left results, measurement uncertainty stated with the result, the decision rule applied when conformity is declared, metrological traceability to national or international standards, environmental conditions where they affect the result, and the signature of the person authorising release. Omitting uncertainty or the decision rule is the finding auditors write most often."
+          },
+          {
+              "q": "What does SNT-TC-1A require a written practice to contain?",
+              "a": "Scope and the organisation it covers; each NDT method and level used; training hours and documented experience per method and level; examination content, grading and administration; the certifying agent; vision requirements and their frequency; recertification interval and route; the technical performance evaluation for reinstatement; and internal audit of the program. The written practice is the controlling document, not SNT-TC-1A itself, which is a recommended practice."
+          },
+          {
+              "q": "Are these templates accepted by API and ASME auditors?",
+              "a": "No template carries code approval, because neither API nor ASME certifies forms. An auditor judges the content of the completed record against the code clause it serves. These templates are structured to carry exactly that content, which is why they survive audit; what fails audit is a record missing thickness locations, uncertainty statements, essential variables or signatures, whatever the form it sits on."
+          }
+      ]
+  },
+
+  "/blog/iso-9712-certification-process-step-by-step-guide": {
+      "answer": "ISO 9712 certification runs five fixed steps: complete training with a body the certification body recognises, log the minimum industrial experience for that method and level, pass the vision test, pass the written general, written specific and practical examinations at 70% each, then receive a certificate issued by an ISO/IEC 17024-accredited certification body. North American candidates route through TWI, TÜV or Canada's CAN/CGSB-48.9712 program.",
+      "expansion": "Examination is three parts for Levels 1 and 2: a general written paper on the method's principles, a specific written paper on the codes, equipment and acceptance criteria of the sector, and a practical examination on real specimens with a written report. Level 3 replaces that with a basic examination covering materials and process technology, the certification body's qualification and certification system, and Level 2 general knowledge of four methods the candidate chooses, plus a main method examination that includes drafting an NDT procedure. A minimum grade of 70% is required in each part separately; averaging across parts is not permitted. Certification is granted within a named product or industrial sector, so a Level 2 ultrasonic certificate for welds does not cover castings. The certificate runs five years, is renewed once on evidence of continued work and a current vision test, and is recertified at ten years by examination.",
+      "source": "ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel (third edition), issued by certification bodies accredited to ISO/IEC 17024; Canadian adoption CAN/CGSB-48.9712 administered through NRCan.",
+      "table": {
+          "caption": "ISO 9712:2021 certification, step by step",
+          "columns": [
+              "Step",
+              "What it requires",
+              "Level 3 difference",
+              "Verified by"
+          ],
+          "rows": [
+              [
+                  "1. Training",
+                  "Formal instruction in the method at a training organisation the certification body recognises, with minimum hours set per method and level in ISO 9712 Table 2",
+                  "Adds the basic examination syllabus: materials and process technology plus the certification system",
+                  "Certification body"
+              ],
+              [
+                  "2. Industrial experience",
+                  "Documented on-the-job experience in the method, counted in months against the level sought",
+                  "Requires prior Level 2 experience and Level 2 general knowledge in four methods",
+                  "Employer declaration submitted to the certification body"
+              ],
+              [
+                  "3. Vision test",
+                  "Near vision to Jaeger 1 or Times Roman N4.5 at not less than 30 cm, one or both eyes, corrected or uncorrected, plus colour contrast; repeated annually",
+                  "Same requirement",
+                  "Employer or approved medical practitioner"
+              ],
+              [
+                  "4. Written examination",
+                  "General paper on method principles plus specific paper on the sector's codes, equipment and acceptance criteria",
+                  "Basic examination in three parts plus a main method examination",
+                  "Certification body"
+              ],
+              [
+                  "5. Practical examination",
+                  "Specimens examined, equipment set up and calibrated, results recorded against acceptance criteria",
+                  "Drafting an NDT procedure in place of routine testing",
+                  "Certification body examiner"
+              ],
+              [
+                  "6. Grading",
+                  "Minimum 70% in each part separately",
+                  "Same threshold, applied to each part of the basic and main examinations",
+                  "Certification body"
+              ],
+              [
+                  "7. Certificate",
+                  "Issued for a named method, level and product or industrial sector; valid five years",
+                  "Level 3 certificate carries authority to write and approve procedures",
+                  "ISO/IEC 17024-accredited body"
+              ],
+              [
+                  "8. Renewal and recertification",
+                  "Renewed once at five years on continued activity and current vision; recertified at ten years by practical examination for Levels 1 and 2",
+                  "Level 3 recertifies through a structured credit system or a written examination",
+                  "Certification body"
+              ]
+          ],
+          "note": "The certificate belongs to the individual and is issued by a third-party body, not the employer. That is the structural difference from ASNT SNT-TC-1A, where the employer certifies its own staff."
+      },
+      "facets": [
+          {
+              "q": "Can a US-based inspector get ISO 9712 certified without leaving North America?",
+              "a": "Yes. Certification bodies including TWI, TÜV Rheinland and Bureau Veritas examine candidates at North American venues, and Canada runs its own adoption as CAN/CGSB-48.9712 through NRCan. Before booking, confirm the body's accreditation scope covers the exact method, level and sector wanted, because the certificate's value abroad depends on the ISO/IEC 17024 accreditation behind it."
+          },
+          {
+              "q": "Does ASNT Level II transfer directly to ISO 9712 Level 2?",
+              "a": "No automatic transfer exists. ISO 9712 requires examination by the certification body itself, so the general, specific and practical papers must be sat regardless of an existing ASNT credential. Some bodies grant credit against training hours or documented experience for ASNT-certified candidates, which shortens the route without removing the examination. Confirm the credit policy with the specific body before enrolling."
+          },
+          {
+              "q": "What happens if you fail one part of the ISO 9712 examination?",
+              "a": "Only the failed parts are re-sat; passed parts stand. Re-examination is permitted twice, inside a waiting period and a deadline the standard fixes, after which a candidate who has still not passed must requalify through fresh training and experience before applying again. This is why the practical examination, the part most often failed, is worth rehearsing on real specimens rather than photographs."
+          },
+          {
+              "q": "What is a sector on an ISO 9712 certificate and why does it matter?",
+              "a": "The sector fixes what the certificate authorises. Product sectors include welds, castings, forgings, tubes and pipes, and wrought products; industrial sectors include manufacturing, pre-service and in-service testing, railway maintenance and aerospace. A Level 2 ultrasonic certificate scoped to welds does not authorise casting inspection. Client audits check the sector line, and mismatched scope is a common reason for a technician being turned off site."
+          },
+          {
+              "q": "What is a significant interruption and how does it affect an ISO 9712 certificate?",
+              "a": "An absence from the duties of the certified method and level, long enough to break continuity, invalidates the certificate's continued validity. The holder must be re-examined before resuming work in that method. Employers avoid this by logging method-specific work activity continuously rather than reconstructing it at renewal, since the certification body asks for evidence of continued practice, not an assertion."
+          },
+          {
+              "q": "Does an ISO 9712 certificate by itself authorise a technician to work?",
+              "a": "No. Certification attests competence; the employer still issues written authorisation to operate, naming the equipment, procedures and scope the individual may work to. That split is deliberate and is what audit trails check: a valid third-party certificate, a current annual vision record, and an employer authorisation covering the specific job. Missing any of the three stops the technician at the gate."
+          }
+      ]
+  },
+
+  "/blog/api-617-centrifugal-compressor-inspection": {
+      "answer": "API 617 governs the design, materials, fabrication and shop testing of new axial and centrifugal compressors, not in-service inspection intervals. Its inspection teeth are factory acceptance tests: hydrostatic testing of pressure-containing parts at 1.5 times maximum allowable working pressure, impeller overspeed at 115% of maximum continuous speed, and a four-hour mechanical running test at maximum continuous speed.",
+      "expansion": "API 617 is organised in four parts: general requirements, non-integrally geared centrifugal and axial compressors, integrally geared centrifugal compressors, and expander-compressors. Acceptance in the shop is numeric. Unfiltered vibration during the mechanical running test must stay within A = 25.4 × √(12,000 / N) micrometres peak-to-peak, where N is maximum continuous speed in rpm. Residual unbalance is limited to 4W/N ounce-inches per plane, W being the static journal load in pounds. Thermodynamic performance is verified against ASME PTC 10, and shaft vibration and axial position instrumentation follows API 670. Nothing in API 617 sets a turnaround interval. In the United States the internal inspection frequency for a compressor in a covered process comes from the owner's mechanical integrity program under OSHA 29 CFR 1910.119(j), risk ranking per API RP 581, and the OEM manual. API 617 supplies the acceptance datum those later inspections are measured against.",
+      "source": "API Standard 617, Axial and Centrifugal Compressors and Expander-compressors for Petroleum, Chemical and Gas Industry Services (8th edition and later), Parts 1–4; with ASME PTC 10, API Standard 670 Machinery Protection Systems, API Standard 614 lubrication and sealing systems, and API RP 684 for rotordynamics.",
+      "table": {
+          "caption": "API 617 shop acceptance tests — what a compressor must pass before it ships",
+          "columns": [
+              "Shop test",
+              "Condition",
+              "Acceptance criterion",
+              "Purchaser witness"
+          ],
+          "rows": [
+              [
+                  "Hydrostatic test, pressure-containing parts",
+                  "1.5 × maximum allowable working pressure",
+                  "No visible leakage or weeping after a minimum 30-minute hold at pressure",
+                  "Witnessed"
+              ],
+              [
+                  "Casing gas leak test",
+                  "Gas applied after hydrostatic test with the sealing arrangement in place",
+                  "No detectable leakage across the specified hold period",
+                  "Witnessed"
+              ],
+              [
+                  "Impeller overspeed test",
+                  "115% of maximum continuous speed, held not less than 1 minute",
+                  "No permanent deformation; dimensional check and surface NDE repeated afterwards",
+                  "Witnessed"
+              ],
+              [
+                  "Residual unbalance check",
+                  "Each correction plane after final rotor balance",
+                  "4W/N ounce-inches per plane, W = static journal load in lb, N = maximum continuous speed in rpm",
+                  "Witnessed"
+              ],
+              [
+                  "Mechanical running test",
+                  "4 hours continuous at maximum continuous speed after bearing temperatures and vibration stabilise",
+                  "Unfiltered vibration within 25.4 × √(12,000 / N) micrometres peak-to-peak",
+                  "Witnessed"
+              ],
+              [
+                  "Performance test",
+                  "ASME PTC 10 Type 1 on the specified gas, or Type 2 on an equivalent gas",
+                  "Head, flow and power inside the PTC 10 tolerance bands",
+                  "Purchaser-specified option"
+              ],
+              [
+                  "Auxiliary system check",
+                  "Lube and seal oil console built to API 614",
+                  "Flushing cleanliness verified and function proven before the running test starts",
+                  "Witnessed"
+              ]
+          ],
+          "note": "Every row is a factory acceptance test. API 617 sets no in-service inspection interval; that comes from the owner's mechanical integrity program and risk ranking."
+      },
+      "facets": [
+          {
+              "q": "How often should a centrifugal compressor be opened for internal inspection?",
+              "a": "API 617 sets no interval. For a US process unit covered by OSHA 29 CFR 1910.119, the interval is fixed by the owner's mechanical integrity program under paragraph (j), which requires inspection and testing to follow recognised and generally accepted good engineering practice at a frequency consistent with manufacturer recommendations and prior operating experience. API RP 581 risk ranking and vibration trend data then move individual machines earlier or later."
+          },
+          {
+              "q": "What NDE is required on a compressor impeller?",
+              "a": "Surface examination after final machining — magnetic particle on ferromagnetic materials, liquid penetrant on austenitic and other non-ferromagnetic materials — covering blade roots, fillets and cover-to-blade joints where fatigue initiates. Welded impellers get their welds examined before and after heat treatment. The examination is repeated after the 115% overspeed test, because the point of the overspeed run is to reveal what the machining inspection did not."
+          },
+          {
+              "q": "What vibration level fails a compressor on the shop test?",
+              "a": "Anything above A = 25.4 × √(12,000 / N) micrometres peak-to-peak unfiltered, with N in rpm, measured at the shaft during the four-hour mechanical running test. A 10,000 rpm machine therefore fails above roughly 28 micrometres. Field alarm and trip setpoints on the same machine come from API 670 instrumentation and are set against that shop baseline, not independently of it."
+          },
+          {
+              "q": "What is the difference between API 617, API 618 and API 619?",
+              "a": "API 617 covers axial and centrifugal compressors and expander-compressors — dynamic machines. API 618 covers reciprocating compressors for petroleum, chemical and gas service, with pulsation study requirements API 617 has no equivalent of. API 619 covers rotary-type positive displacement compressors, principally dry and oil-flooded screw machines. Drivers, gears, couplings and control systems sit in API 616, 613, 671 and 670 respectively."
+          },
+          {
+              "q": "Does API 617 apply to a compressor already in service?",
+              "a": "API 617 is a purchase specification, so it binds at procurement, fabrication and factory acceptance. After shipment its numbers keep working as the condition-monitoring datum: the shop vibration plots, residual unbalance record, as-built clearances and PTC 10 performance curve are what later readings are compared against. Rerates, rotor replacements and casing repairs are commonly written to API 617 clauses even decades after the original order."
+          },
+          {
+              "q": "What baseline records do you need before an API 617 machine's first overhaul?",
+              "a": "The as-built clearance record, the residual unbalance report per plane, the mechanical running test vibration data with Bode and polar plots, the rotor lateral analysis including critical speeds and amplification factors, the ASME PTC 10 performance curve, and the API 670 setpoint schedule. Without those, an overhaul measures the machine against nothing and every finding becomes an argument with the OEM."
+          }
+      ]
+  },
+
+  "/blog/asme-section-viii-division-1-pressure-vessel-ndt": {
+      "answer": "Division 1 ties NDE extent to joint efficiency. Table UW-12 pays E = 1.00 on a Type 1 butt weld fully radiographed, 0.85 spot-radiographed, 0.70 unexamined — so the radiography decision sets shell thickness at design. UW-11(a) removes the choice for lethal service, for carbon steel above 1-1/2 in nominal thickness, and for unfired steam boilers above 50 psi.",
+      "expansion": "Three paragraphs of Division 1 carry the NDE program. UW-11 states when radiography is compulsory rather than elective. Table UW-12 prices the election, because joint efficiency multiplies allowable stress in the thickness formula — dropping from full radiography to none costs roughly 40% more shell metal for the same design pressure. UW-51 and UW-52 give the acceptance criteria for full and spot radiography; Mandatory Appendix 4 governs rounded indications. Surface examination runs to Mandatory Appendix 6 for magnetic particle and Appendix 8 for penetrant, both rejecting any crack or linear indication and any rounded indication over 3/16 in. Section V supplies the technique — Article 2 for radiography, Article 4 for ultrasonics, Articles 6 and 7 for penetrant and magnetic particle, Article 9 for visual. UG-116(e) then stamps the extent achieved on the nameplate as RT-1 through RT-4, which is what an inspector reads before opening the manufacturer's data report.",
+      "source": "ASME BPVC Section VIII, Division 1 (2023 Edition) — UW-2(a), UW-11, Table UW-12, UW-51, UW-52, UG-116(e), Mandatory Appendices 4, 6, 8 and 12; ASME BPVC Section V (2023 Edition), Articles 1, 2, 4, 6, 7 and 9; ASME Code Case 2235 (ultrasonic examination in lieu of radiography).",
+      "table": {
+          "caption": "NDE extent versus joint efficiency under ASME Section VIII Division 1",
+          "columns": [
+              "Examination scope",
+              "E — Type 1 butt joint",
+              "E — Type 2 butt joint",
+              "When Division 1 compels it",
+              "Acceptance standard"
+          ],
+          "rows": [
+              [
+                  "Full radiography",
+                  "1.00",
+                  "0.90",
+                  "Lethal service; carbon steel over 1-1/2 in nominal thickness (lower thresholds per UCS-57); unfired steam boilers above 50 psi",
+                  "UW-51 plus Mandatory Appendix 4"
+              ],
+              [
+                  "Spot radiography",
+                  "0.85",
+                  "0.80",
+                  "Elected to buy joint efficiency; one spot per 50 ft increment of weld, 6 in minimum film length",
+                  "UW-52"
+              ],
+              [
+                  "No radiography",
+                  "0.70",
+                  "0.65",
+                  "Barred wherever UW-11(a) applies",
+                  "Visual examination and weld-profile limits only"
+              ],
+              [
+                  "Ultrasonic in lieu of radiography",
+                  "As fully radiographed",
+                  "As fully radiographed",
+                  "Where radiography is impracticable or geometry defeats the image",
+                  "Mandatory Appendix 12 / Code Case 2235"
+              ],
+              [
+                  "Magnetic particle, ferromagnetic surfaces",
+                  "Not applicable",
+                  "Not applicable",
+                  "Where the code, drawing or Authorized Inspector calls for surface examination",
+                  "Appendix 6: no crack or linear indication; rounded indication over 3/16 in rejectable"
+              ],
+              [
+                  "Liquid penetrant, non-ferromagnetic surfaces",
+                  "Not applicable",
+                  "Not applicable",
+                  "Same trigger, non-magnetic materials",
+                  "Appendix 8: indication limits identical to Appendix 6"
+              ]
+          ],
+          "note": "Joint efficiency is a design multiplier, not a quality score. 1.00 against 0.70 is a 43% difference in required shell thickness at the same design pressure, which is why the radiography extent is fixed in the design calculation and stamped on the nameplate under UG-116(e)."
+      },
+      "facets": [
+          {
+              "q": "When does Division 1 require full radiography instead of spot?",
+              "a": "UW-11(a) mandates full radiography for vessels in lethal service, for butt welds where nominal thickness exceeds 1-1/2 in (UCS-57, UNF-57, UHA-33 and UCL-35 set lower thresholds by material), for unfired steam boilers above 50 psi design pressure, and for nozzles and communicating chambers above the size and thickness limits in that paragraph. Everything else is the manufacturer's election against Table UW-12."
+          },
+          {
+              "q": "Can ultrasonic testing replace radiography on a Division 1 vessel?",
+              "a": "Yes, by two routes. Mandatory Appendix 12 covers ultrasonic examination of welds where Division 1 permits it, and ASME Code Case 2235 authorizes ultrasonics in lieu of radiography above a minimum thickness set in the Case. Both require a written procedure demonstrated on representative flaws, personnel qualified to the employer's written practice, and Authorized Inspector concurrence. Acceptance is flaw-based, not image interpretation."
+          },
+          {
+              "q": "What does UW-51 reject on a full radiograph?",
+              "a": "Any crack, and any zone of incomplete fusion or incomplete penetration, unconditionally. Elongated slag inclusions are rejected above 1/4 in where thickness is up to 3/4 in, above t/3 between 3/4 in and 2-1/4 in, and above 3/4 in beyond that. Groups of aligned inclusions are rejected when aggregate length exceeds t within a 12t span. Rounded indications go to Mandatory Appendix 4."
+          },
+          {
+              "q": "Who is allowed to perform and interpret the NDE?",
+              "a": "Personnel qualified under the manufacturer's written practice, which is built on ASNT SNT-TC-1A or ANSI/ASNT CP-189, with Section V Article 1 T-120 setting the baseline. A Level II interprets and evaluates against the acceptance criteria; a Level III writes and approves the procedure. Vision records, training hours and experience hours are part of the evidence an Authorized Inspector audits, alongside the radiographs."
+          },
+          {
+              "q": "What do the RT-1, RT-2, RT-3 and RT-4 nameplate stamps mean?",
+              "a": "UG-116(e) markings for radiography extent. RT-1 means the complete vessel satisfies full radiography under UW-11(a). RT-2 means Category A and D welds are fully radiographed with spot radiography on B and C. RT-3 means the complete vessel is spot radiographed to UW-52. RT-4 means partial radiography of less scope than the above. The stamp fixes which joint efficiency the design was permitted to use."
+          },
+          {
+              "q": "What does lethal service change under UW-2(a)?",
+              "a": "All butt-welded joints are fully radiographed, Category A and B joints are restricted to Type 1 or Type 2 butt welds, and carbon and low-alloy steel vessels are postweld heat treated regardless of thickness. The elective spot-radiography route in Table UW-12 closes entirely. Lethal service is a user designation, so the specification sheet — not the fabricator — triggers it."
+          }
+      ]
+  },
+
+  "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix": {
+      "answer": "Four billing structures set an NDT quote: day rate, piece rate (per joint, per film, per square metre), unit rate with a daily minimum, and lump sum. Method fixes which one applies — ultrasonic thickness prices per area, PAUT and TOFD per joint or crew hour, radiography per exposure, MT, PT and VT per crew hour. Mobilisation, standby and Level III review sit outside the unit rate.",
+      "expansion": "Six variables move an NDT price before any provider's margin enters: method and equipment intensity, certification level required, access, governing code, volume and schedule, and geography. Radiography carries a regulatory cost floor the others do not — US NRC 10 CFR Part 34 requires at least two qualified individuals at a temporary jobsite, licensing covers the source, 49 CFR governs transport, and the area clearance stops production while the crew works. Code scope drives documentation: ASME Section V technique, API 510, 570 or 653 in-service criteria, and AWS D1.1 Clause 8 acceptance each carry different procedure and review burden. Compare bids by converting every pricing model into cost per completed and reported joint or square metre, then check what the cheapest bid removed — calibration certificates, procedure qualification, POD demonstration on PAUT, or Level III review. Atlantis NDT publishes no rate card; scopes are quoted against an asset list, code and access conditions.",
+      "source": "US NRC 10 CFR Part 34 (industrial radiographic operations, including 34.41 on temporary jobsites); 49 CFR Parts 171–180 (radioactive material transport); ASME BPVC Section V (2023 Edition); API 510, API 570, API 653; AWS D1.1/D1.1M:2020 Clause 8; ASNT SNT-TC-1A (2020).",
+      "table": {
+          "caption": "Billing unit, crew and out-of-scope lines by NDT method",
+          "columns": [
+              "Method",
+              "Standard billing unit",
+              "Minimum crew",
+              "Billed as separate lines",
+              "Cost driver buyers miss"
+          ],
+          "rows": [
+              [
+                  "Ultrasonic thickness / corrosion mapping",
+                  "Per square metre or per grid point",
+                  "One Level II",
+                  "Surface prep, insulation removal, scaffold",
+                  "Grid density is set by the CML register, not by the wall area"
+              ],
+              [
+                  "Phased array (PAUT)",
+                  "Per joint or per crew hour",
+                  "Level II with PAUT qualification, plus analyst",
+                  "Procedure qualification, POD demonstration, encoder setup",
+                  "Offline analysis and reporting land after the crew demobilises"
+              ],
+              [
+                  "Radiographic testing (gamma or X-ray)",
+                  "Per exposure or per film",
+                  "Two qualified individuals minimum at a temporary jobsite (10 CFR 34.41)",
+                  "Barricading, area clearance, night-shift premium, source transport",
+                  "Production stopped inside the barricade while shots are taken"
+              ],
+              [
+                  "TOFD",
+                  "Per joint",
+                  "Level II with TOFD qualification",
+                  "Pairing with PAUT or manual UT for near-surface coverage",
+                  "Near-surface dead zone forces a complementary technique"
+              ],
+              [
+                  "Magnetic particle (MT)",
+                  "Per crew hour",
+                  "One Level II",
+                  "Surface prep, demagnetisation, consumables",
+                  "Wet fluorescent needs darkened conditions and light-meter verification"
+              ],
+              [
+                  "Liquid penetrant (PT)",
+                  "Per crew hour",
+                  "One Level II",
+                  "Consumables, inter-stage cleaning, waste handling",
+                  "Dwell times bill as crew time with no production against them"
+              ],
+              [
+                  "Eddy current tube inspection (ET)",
+                  "Per tube or per crew hour",
+                  "Level II plus data analyst",
+                  "Probe sets matched to tube ID, bundle access, prove-up",
+                  "Analysis is priced per tube, so bundle count drives the total"
+              ],
+              [
+                  "MFL tank floor / pipeline",
+                  "Per square metre of floor or per pipeline kilometre",
+                  "Crew plus analyst",
+                  "Cleaning, degassing, entry permits, cleaning runs",
+                  "Every MFL indication needs UT prove-up before it means anything"
+              ]
+          ],
+          "note": "None of these figures is a price. The table fixes what the unit of billing is per method, so competing quotes on different models can be normalised before comparison. Atlantis NDT quotes on scope — asset list, methods, governing code, volume and access."
+      },
+      "facets": [
+          {
+              "q": "How do I compare NDT bids priced on different models?",
+              "a": "Convert each to cost per completed and reported unit — per joint, per square metre, per tube. A day rate hides throughput, a piece rate hides standby, and a lump sum embeds a risk premium sized to how vague your RFP was. Ask every bidder to price the same defined volume under all models they offer, and to break out mobilisation and demobilisation as separate lines."
+          },
+          {
+              "q": "Why does radiography cost more per shift than ultrasonic testing?",
+              "a": "Regulation, not equipment. 10 CFR Part 34 requires a licensed source, a radiation safety programme, and at least two qualified individuals present at a temporary jobsite, while 49 CFR governs transport of the source to site. The barricade clears production personnel from the area, so the plant loses working time the ultrasonic crew never costs it. Night and shutdown scheduling follows from that."
+          },
+          {
+              "q": "Is PAUT more expensive than conventional UT?",
+              "a": "Per crew hour, yes — specialist certification, higher equipment value, encoder scanning and analyst time. Per completed weld, the picture reverses on volume scopes: PAUT covers welds several times faster, characterises flaws rather than just detecting them, and removes the radiation barricade that stops adjacent work. Price the campaign, not the hour, and require POD demonstration before award."
+          },
+          {
+              "q": "What belongs in an NDT RFP to stop contingency loading?",
+              "a": "An asset scope sheet, the exact methods and governing code, a volume estimate with a tolerance band, schedule and shift pattern, access conditions, deliverable format, certification requirements, preferred pricing model, separate mobilisation and demobilisation lines, and safety metrics. Vague RFPs are priced for the worst case the bidder can imagine, and that contingency never comes back to you as a rebate."
+          },
+          {
+              "q": "Which extras are legitimate rather than padding?",
+              "a": "Mobilisation and demobilisation, per diem for out-of-town crews, overtime and shift premiums, offshore and sour-service uplifts, safety standby, calibration blocks and reference standards, consumables, procedure development, rush reporting, and standby during client delays. Each is a real cost. The test is whether it appears in the quote as a named line or arrives later as a change order."
+          },
+          {
+              "q": "What does the cheapest NDT bid usually leave out?",
+              "a": "Current calibration certificates on the instruments, a qualified written procedure for the technique, verified personnel certifications, POD validation on PAUT, Level III review of the results, and a reporting format your integrity system can actually ingest. Every one of those is invisible at award and expensive at audit — re-inspection at best, a missed defect in service at worst."
+          }
+      ]
+  },
+
+  "/visual-testing": {
+      "answer": "ASME Section V Article 9 makes visual examination measurable: 100 fc (1000 lux) minimum at the surface, the eye within 24 in (600 mm), and a viewing angle no flatter than 30 degrees. Examiners hold an annual near-vision test to Jaeger J-1 at 12 in. Remote visual is acceptable once its resolution is demonstrated equivalent to direct viewing.",
+      "expansion": "Visual examination fails audits more often than any other method because the conditions are specified and most providers do not record them. Article 9 sets the illumination, the distance and the angle for direct examination, T-953 sets the equivalence test for remote systems, and T-921 sets the vision requirement for the examiner. Acceptance comes from elsewhere: AWS D1.1 Clause 8 for structural welds, API 510, 570 and 653 for in-service condition, ASME PCC-2 for repairs, ISO 17637 in Europe. Remote visual inspection carries the same discipline through borescopes, videoscopes and crawlers into vessels, tube bundles and spaces where entry costs money or risk, with imagery retained so a finding survives re-examination. Drone capture reaches flare tips, columns and tank roofs under a written, Level III-approved procedure. What visual cannot do is subsurface: tight fatigue cracks stay invisible until magnetic particle or penetrant opens them up.",
+      "source": "ASME BPVC Section V (2023 Edition), Article 9 — T-921 vision requirement, T-952 direct visual, T-953 remote visual, T-954 translucent visual; AWS D1.1/D1.1M:2020 Clause 8 and Table 8.1 (Table 6.1 in editions through 2015); API 510, API 570, API 653; ASNT SNT-TC-1A (2020).",
+      "table": {
+          "caption": "Visual examination modes and the conditions each has to evidence",
+          "columns": [
+              "Mode",
+              "Governing paragraph",
+              "Lighting or resolution requirement",
+              "Access condition",
+              "Primary application"
+          ],
+          "rows": [
+              [
+                  "Direct visual",
+                  "ASME V T-952",
+                  "100 fc (1000 lux) minimum at the surface, verified with a calibrated light meter",
+                  "Eye within 24 in (600 mm) of the surface, viewing angle 30 degrees or steeper",
+                  "Weld acceptance, external walkdown, in-service condition"
+              ],
+              [
+                  "Remote visual",
+                  "ASME V T-953",
+                  "Resolution demonstrated at least equivalent to direct visual examination",
+                  "No entry; borescope, videoscope, crawler or pan-tilt-zoom camera",
+                  "Vessel and boiler internals, tube bundles, turbine and engine internals"
+              ],
+              [
+                  "Translucent visual",
+                  "ASME V T-954",
+                  "Artificial light source directed through the part, supplementing direct visual",
+                  "Direct visual conditions apply in addition",
+                  "Translucent materials where transmitted light reveals the discontinuity"
+              ],
+              [
+                  "Structural weld visual",
+                  "AWS D1.1:2020 Clause 8, Table 8.1",
+                  "Clause 8 lighting and inspector qualification (CWI or equivalent)",
+                  "Contact access to the joint",
+                  "Undercut, profile, porosity, fillet size, arc strikes, cracks"
+              ],
+              [
+                  "In-service visual",
+                  "API 510, API 570, API 653",
+                  "Direct visual conditions at the examined surface",
+                  "Scaffold, rope access, insulation removal or drone",
+                  "External condition, CUI evidence, internal inspection at code interval"
+              ],
+              [
+                  "Drone / UAV visual",
+                  "Written procedure route, ASME V Article 1",
+                  "Camera resolution demonstrated against the acceptance criteria in use",
+                  "Line of sight; FAA Part 107 pilot certification in the US",
+                  "Flare stacks, columns, tank roofs, offshore structures, hull externals"
+              ]
+          ],
+          "note": "Two records decide whether a visual examination survives audit: the light-meter reading taken at the surface, and the examiner's current vision certificate. Their absence is a finding in its own right, whatever the examination reported."
+      },
+      "facets": [
+          {
+              "q": "What is the minimum light level for direct visual examination?",
+              "a": "100 fc, equal to 1000 lux, at the examined surface under ASME Section V T-952 — measured at the surface with a calibrated light meter, not estimated from ambient plant lighting. The reading is recorded with the examination. Fine surface detail and low-contrast conditions warrant more, and the written procedure states the figure used along with the verification method."
+          },
+          {
+              "q": "How often must a visual examiner's eyesight be tested?",
+              "a": "Annually. ASME Section V Article 9 T-921 requires a near-distance acuity test demonstrating the ability to read standard Jaeger J-1 letters at not less than 12 in, with natural or corrected vision. Colour contrast differentiation is set by the employer's written practice under SNT-TC-1A. Both records live in the examiner's certification file and are the first thing an auditor asks for."
+          },
+          {
+              "q": "Can remote visual inspection replace vessel entry?",
+              "a": "Where equivalence is demonstrated, yes. T-953 accepts remote systems whose resolution is at least equivalent to direct visual examination, proven on the actual or a representative surface rather than assumed from a camera specification. Recorded imagery lets a finding be re-examined without re-mobilising. Where the damage mechanism or the code demands close-up coverage of a specific location, entry remains the right call."
+          },
+          {
+              "q": "AWS CWI or ASNT VT Level II — which does weld inspection need?",
+              "a": "The contract decides. CWI is a welding-specific certification issued by AWS and covers visual weld acceptance to D1.1 and D1.6, and Clause 8 names it for structural work. ASNT VT Level II is a broader NDT method certification issued by the employer under SNT-TC-1A and covers visual examination across all scenarios. Many inspectors hold both because their client base names both."
+          },
+          {
+              "q": "What undercut does AWS D1.1 accept?",
+              "a": "On statically loaded structures, undercut is limited to 1/32 in where base metal is under 1 in thick, with 1/16 in permitted over an accumulated length of 2 in in any 12 in of weld; for material 1 in and thicker the limit is 1/16 in. Cyclically loaded members are tighter. Cracks are rejected at any size, in every category."
+          },
+          {
+              "q": "What does visual examination miss?",
+              "a": "Everything subsurface, and anything the eye cannot resolve at the specified distance and lighting. Tight fatigue cracks stay invisible until a surface method opens them, laminations and lack of fusion need volumetric methods, and coating hides the metal entirely. Visual examination is the scoping method: it decides where the ultrasonic and radiographic budget goes, then hands the confirmation to MT or PT."
+          }
+      ]
+  },
+
+  "/ndt-training-malaysia": {
+      "answer": "Petronas Technical Specifications accept ASNT SNT-TC-1A and ISO 9712 interchangeably, so the Malaysian question is portability rather than acceptance. SNT-TC-1A certificates are issued by your employer and stop at the gate; ISO 9712 certificates are issued by an accredited body and travel between employers. Examinations run at PETRONAS Leadership Centre Bangi, TUV NORD Malaysia and Bureau Veritas in Kuala Lumpur.",
+      "expansion": "ASNT SNT-TC-1A is the United States model and it certifies through the employer: the employer writes a written practice, a qualified Level III administers the general, specific and practical examinations, and the certificate is valid inside that company. ISO 9712:2021 inverts it — an accredited certification body examines and certifies, and the certificate follows the technician. Malaysian demand splits along that line. Petronas and its subsidiaries accept either on PTS scopes covering Pengerang RAPID, Petronas Chemicals and Carigali assets. PCN and CSWIP carry weight on UK-led FPSO and offshore packages, and MMHE Pasir Gudang works to ABS and Lloyd's Register protocols under IACS marine NDE acceptance. Radiography adds a second gate no method certificate satisfies: industrial radiography in Malaysia is licensed by the Atomic Energy Licensing Board under the Atomic Energy Licensing Act 1984 (Act 304), covering the source, the facility and the operator.",
+      "source": "ASNT SNT-TC-1A (2020) and ANSI/ASNT CP-189; ISO 9712:2021; Petronas Technical Specifications (PTS) personnel certification requirements; Atomic Energy Licensing Act 1984 (Act 304), administered by the Atomic Energy Licensing Board (AELB); IACS Rec. 20 for marine and offshore NDE.",
+      "table": {
+          "caption": "Certification schemes on Malaysian scopes — who issues the certificate and whether it travels",
+          "columns": [
+              "Scheme",
+              "Certificate issued by",
+              "Portable between employers",
+              "Validity and renewal",
+              "Where it carries weight in Malaysia"
+          ],
+          "rows": [
+              [
+                  "ASNT SNT-TC-1A",
+                  "The employer, against its own written practice",
+                  "No — reissued on change of employer",
+                  "5-year recertification cycle recommended",
+                  "Petronas PTS scopes, US-linked EPC, general onshore work"
+              ],
+              [
+                  "ANSI/ASNT CP-189",
+                  "The employer, but against a standard rather than a recommended practice",
+                  "No",
+                  "5-year cycle",
+                  "Contracts that name a standard instead of a recommended practice"
+              ],
+              [
+                  "ASNT NDT Level III",
+                  "ASNT, centrally examined",
+                  "Yes",
+                  "5-year cycle",
+                  "Level III oversight, written-practice approval, audit defence"
+              ],
+              [
+                  "ISO 9712:2021",
+                  "Accredited third-party certification body",
+                  "Yes",
+                  "Valid 5 years, renewed at 5, recertified at 10",
+                  "PTS scopes, EU and Japanese EPC, most owner approvals"
+              ],
+              [
+                  "PCN",
+                  "BINDT through approved examination centres",
+                  "Yes",
+                  "Valid 5 years, recertification at 10",
+                  "UK-led FPSO and offshore packages"
+              ],
+              [
+                  "CSWIP",
+                  "TWI Certification Ltd",
+                  "Yes",
+                  "5-year cycle",
+                  "Welding inspection and offshore fabrication, including MMHE yard work"
+              ],
+              [
+                  "API ICP (510 / 570 / 653)",
+                  "API, centrally examined",
+                  "Yes",
+                  "3-year recertification cycle",
+                  "Owner-operator inspector roles, not NDT method examination"
+              ]
+          ],
+          "note": "SNT-TC-1A is a recommended practice, not a standard. The binding document is the employer's written practice, which is why a Malaysian employer hiring an ASNT-certified technician re-examines rather than accepts the certificate. ISO 9712 removes that step, and that is the whole basis for choosing between them."
+      },
+      "facets": [
+          {
+              "q": "Does Petronas require ISO 9712, or is ASNT accepted?",
+              "a": "Petronas Technical Specifications accept ASNT SNT-TC-1A and ISO 9712 interchangeably, so an ASNT-certified technician is not shut out of PTS scopes. The practical difference appears on movement: an ASNT certificate is granted by one employer and is re-examined by the next, while an ISO 9712 certificate is granted by a certification body and transfers intact. Contractors rotating crews between operators favour ISO 9712 for that reason."
+          },
+          {
+              "q": "What licence does an industrial radiographer need in Malaysia?",
+              "a": "Authorisation from the Atomic Energy Licensing Board under the Atomic Energy Licensing Act 1984 (Act 304), covering the source, the storage facility and the individual operating it. An RT Level II certificate qualifies the technician to interpret radiographs; it does not authorise possession or use of a radioactive source. Both are required before a gamma crew works a Malaysian site, and the licensing timeline is the longer of the two."
+          },
+          {
+              "q": "Does an ASNT Level II from a US employer transfer to a Malaysian employer?",
+              "a": "The certificate does not; the hours behind it do. Under SNT-TC-1A the new employer certifies against its own written practice, which means fresh general, specific and practical examinations — but documented training hours and on-the-job experience hours carry across and satisfy the prerequisite. Have training records and experience logs in hand at interview. ISO 9712, PCN and CSWIP transfer without re-examination."
+          },
+          {
+              "q": "How long is an ISO 9712 certificate valid?",
+              "a": "Five years. Renewal at the five-year point requires evidence of continued activity in the method without significant interruption and a current vision test. At ten years the holder recertifies, which brings back a practical or structured examination rather than a paperwork check. Missing the renewal window costs far more than meeting it, because lapsed certification restarts the examination sequence."
+          },
+          {
+              "q": "Which method should a Malaysian technician certify in first?",
+              "a": "Ultrasonic testing. It carries the fixed-equipment and piping work that PTS scopes generate across Pengerang, Petronas Chemicals and Carigali assets, and it is the base for PAUT and TOFD progression on MMHE and FPSO fabrication. Magnetic particle and penetrant reach Level II fastest on experience hours and pair well with UT. Radiography is gated by AELB licensing on top of the certification."
+          },
+          {
+              "q": "What must on-site corporate training include to survive an audit?",
+              "a": "A compliant written practice the certifications are issued against, a qualified Level III administering the examinations, method-specific practical work on your own equipment and specimens, the three examination records per candidate, documented training hours, on-the-job experience logs, and current vision records. Auditors examine the written practice and the personnel file, not the course brochure — the training only matters as evidence inside them."
+          }
+      ]
+  },
+
+  "/ndt-training-atlanta": {
+      "answer": "Atlantis delivers NDT training on-site at your facility across Georgia rather than from a classroom in Atlanta. Under ASNT SNT-TC-1A the employer certifies the technician against its own written practice, so a training provider supplies hours, examinations and Level III oversight — never the certificate. Level II ultrasonic recommends 40 hours of Level I training plus 40 at Level II, and 630 documented hours of in-method experience.",
+      "expansion": "Atlanta's inspection demand comes from Southeast power generation, aerospace manufacturing and MRO, structural fabrication, and pressure equipment across Georgia — assets examined on code intervals by people whose qualification can be evidenced. That pulls ultrasonic testing and radiography hardest in fixed equipment, magnetic particle and penetrant in fabrication, and eddy current and fluorescent penetrant in aerospace MRO, where NAS 410 and EN 4179 govern personnel rather than SNT-TC-1A. Two certification models operate in the United States and they are not interchangeable. SNT-TC-1A certification is granted by the employer against its written practice, which is why auditors ask for that document rather than a certificate. ISO 9712, PCN and CSWIP certify through an independent body, so the certificate is portable. ANSI/ASNT CP-189 sits between them as a standard rather than a recommended practice. Which one you need is a contractual question your client base has already answered.",
+      "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A recommended initial training and experience; ANSI/ASNT CP-189; ISO 9712:2021; NAS 410 / EN 4179 for aerospace NDT personnel qualification; ASME BPVC Section V (2023 Edition), Article 1 T-120.",
+      "table": {
+          "caption": "SNT-TC-1A recommended initial training and in-method experience, by method",
+          "columns": [
+              "Method",
+              "Level I training (hours)",
+              "Level II training (additional hours)",
+              "Level I experience in method (hours)",
+              "Level II experience in method (hours)"
+          ],
+          "rows": [
+              [
+                  "Ultrasonic testing (UT)",
+                  "40",
+                  "40",
+                  "210",
+                  "630"
+              ],
+              [
+                  "Radiographic testing (RT)",
+                  "40",
+                  "40",
+                  "210",
+                  "630"
+              ],
+              [
+                  "Eddy current testing (ET)",
+                  "40",
+                  "40",
+                  "210",
+                  "630"
+              ],
+              [
+                  "Magnetic particle testing (MT)",
+                  "12",
+                  "8",
+                  "70",
+                  "210"
+              ],
+              [
+                  "Liquid penetrant testing (PT)",
+                  "4",
+                  "8",
+                  "70",
+                  "140"
+              ],
+              [
+                  "Visual testing (VT)",
+                  "8",
+                  "16",
+                  "70",
+                  "140"
+              ]
+          ],
+          "note": "SNT-TC-1A figures are recommendations. The binding document is the employer's written practice, which raises them on aerospace scopes qualified to NAS 410 or EN 4179 and on many Georgia contracts. Experience hours, not classroom hours, are the constraint on how fast a technician reaches Level II."
+      },
+      "facets": [
+          {
+              "q": "Does Atlantis run a classroom in Atlanta?",
+              "a": "No. Training is delivered on-site at your own facility anywhere in Georgia and the surrounding Southeast, which for a corporate buyer removes travel days and lets the practical specimens match the boilers, steam piping or aerospace components your people actually examine. Individuals are served by scheduled cohorts at other locations or by blended delivery — online theory with supervised practical arranged locally."
+          },
+          {
+              "q": "Who issues the certificate — the training provider or the employer?",
+              "a": "The employer, under SNT-TC-1A. A training provider supplies the classroom hours, administers examinations, and provides the Level III who approves the written practice and signs off — but the certification document is issued by the employing company against its own written practice. That is why an auditor asks to see the written practice first and the certificates second, and why a course completion record alone certifies nobody."
+          },
+          {
+              "q": "What examinations does Level II require, and what counts as a pass?",
+              "a": "Three: a general examination on method principles, a specific examination on the employer's own procedures and equipment, and a practical examination on representative specimens. SNT-TC-1A sets the pass as a composite grade of at least 80% with no individual examination below 70%. Documented training hours, in-method experience hours and a current near-vision and colour-contrast test are prerequisites, not alternatives."
+          },
+          {
+              "q": "Does my Level II transfer if I change employers in Georgia?",
+              "a": "Not as a certificate. The new employer certifies you against its written practice, which means new examinations — but your documented training and experience hours transfer and satisfy the prerequisites, so the sequence is short. Keep the hour logs and examination records yourself rather than leaving them with a former employer. ISO 9712, PCN and CSWIP certificates are portable and skip this entirely."
+          },
+          {
+              "q": "Which methods does Atlanta's industrial base certify in most?",
+              "a": "Ultrasonic testing and radiography for power generation and pressure equipment across Georgia; magnetic particle and penetrant for structural and fabrication work; eddy current and fluorescent penetrant for aerospace manufacturing and MRO, where personnel qualify under NAS 410 or EN 4179 rather than SNT-TC-1A. A Georgia programme built on that demand beats one covering every method thinly."
+          },
+          {
+              "q": "Can we certify our own technicians without an outside body?",
+              "a": "Yes — that is exactly the SNT-TC-1A model, and it requires two things: a compliant written practice, and a qualified Level III to approve procedures and administer examinations. Operators without an in-house Level III use an outsourced one. Close that gap before certifying anyone, because certifications issued without a qualified Level III behind the written practice do not survive a client audit."
+          }
+      ]
+  },
+
+  "/3d-scanning-singapore": {
+      "answer": "Survey-grade terrestrial LiDAR across Jurong Island and the Tuas and Pasir Gudang yards registers to low-millimetre accuracy over a process unit — but the governing figure is registered-network accuracy, not the single-scan number on the instrument datasheet. Deliverables ship as LAS, E57, RCP or RCS point clouds, Revit, IFC or DWG as-builts, deformation comparison, or geometry prepared for a digital twin.",
+      "expansion": "Singapore's scanning demand is refining, marine and offshore EPC: ExxonMobil, Shell and Singapore Refining Company units on Jurong Island, Keppel and Sembcorp Marine yards, FPSO conversion, Tuas port construction. Each attaches the scan to a code deliverable. API 653 Annex B evaluates tank bottom settlement from shell elevation measurements at a minimum of eight equally spaced points no more than 32 ft apart — a single scan captures that plus verticality, roundness and peaking in one mobilisation. API 510 uses the same capture for pressure-vessel deformation, and IACS Rec. 20 governs marine NDE acceptance on classification surveys for ABS, DNV, Lloyd's Register and Bureau Veritas. Specify accuracy and model detail as two separate numbers: the USIBD Level of Accuracy specification for tolerance, the BIMForum Level of Development specification for how much geometry gets modelled. Modelling detail, not capture, dominates schedule and cost.",
+      "source": "API 653 (5th Edition) Annex B, tank bottom settlement evaluation; API 510; ASME BPVC Section V (2023 Edition); USIBD Level of Accuracy (LOA) Specification, Guide C120; BIMForum Level of Development (LOD) Specification; IACS Rec. 20; manufacturer datasheets for Leica RTC360, FARO Focus Premium and RIEGL VZ-400i.",
+      "table": {
+          "caption": "Reality-capture methods on Singapore process and marine assets, by published accuracy",
+          "columns": [
+              "Capture method",
+              "Representative instrument",
+              "Manufacturer-stated accuracy",
+              "Practical range",
+              "Best fit"
+          ],
+          "rows": [
+              [
+                  "Survey-grade terrestrial LiDAR",
+                  "Leica RTC360",
+                  "3D point accuracy 2.9 mm at 20 m",
+                  "Up to 130 m",
+                  "Congested process units, pipe racks, module interfaces"
+              ],
+              [
+                  "Mid-range terrestrial LiDAR",
+                  "FARO Focus Premium",
+                  "Ranging error ±1 mm",
+                  "Up to 350 m",
+                  "Vessels, tank shells, structural steel, plant buildings"
+              ],
+              [
+                  "Long-range terrestrial LiDAR",
+                  "RIEGL VZ-400i",
+                  "5 mm accuracy, 3 mm precision",
+                  "Up to 800 m",
+                  "Flare stacks, jetties, whole-yard control and tie-in"
+              ],
+              [
+                  "Drone / UAV photogrammetry",
+                  "RTK multirotor with 20–45 MP sensor",
+                  "Centimetre class, driven by ground sample distance and ground control",
+                  "Visual line of sight",
+                  "Tank roofs, flare tips, hull externals, elevated structures"
+              ],
+              [
+                  "SLAM mobile scanning",
+                  "Handheld or wearable mobile mapper",
+                  "Centimetre class",
+                  "Walking speed, continuous",
+                  "First-pass coverage, confined spaces, congested routes"
+              ],
+              [
+                  "Tactile metrology",
+                  "Portable arm CMM",
+                  "0.03–0.1 mm volumetric, by arm size",
+                  "Arm envelope",
+                  "Flange faces, machined interfaces, nozzle and seat geometry"
+              ]
+          ],
+          "note": "Instrument accuracy is not deliverable accuracy. Multi-station registration and the control survey tying it together set the number engineering can rely on. State the tolerance the downstream work needs before capture, and require the registration report to ship with the point cloud."
+      },
+      "facets": [
+          {
+              "q": "What accuracy does a laser scan actually deliver on a process unit?",
+              "a": "Low millimetres across a registered network on survey-grade terrestrial scanning — which is a different number from the single-scan specification the instrument manufacturer quotes. Registration error accumulates across stations and is controlled by target placement and a total-station control network. The registration report states the achieved figure, and that is the value engineering tolerances are checked against, not the datasheet."
+          },
+          {
+              "q": "How do I specify accuracy in a scanning contract?",
+              "a": "Use two independent specifications. The USIBD Level of Accuracy specification defines graded tolerance tiers and separates Measured Accuracy — how well the capture matches reality — from Represented Accuracy, how well the delivered model matches the capture. The BIMForum Level of Development specification defines how much geometry is modelled. Naming one without the other is what produces a model that is precise and useless, or detailed and wrong."
+          },
+          {
+              "q": "Can a laser scan satisfy an API 653 settlement survey?",
+              "a": "It captures the measurements. API 653 Annex B evaluates bottom settlement from shell elevations at a minimum of eight equally spaced points spaced no more than 32 ft apart, and a registered scan yields those elevations plus verticality, roundness and peaking from one mobilisation. The evaluation — the cosine-curve fit separating rigid-body tilt from out-of-plane settlement — remains an engineering judgement made against the code."
+          },
+          {
+              "q": "Which deliverable format goes with which downstream tool?",
+              "a": "E57 is the open exchange format and the one to demand as the archival copy. RCP and RCS feed Autodesk products. LAS suits survey and GIS workflows. As-built geometry ships as Revit, IFC, AutoCAD DWG or MicroStation. IFC is the format that survives a change of engineering contractor. Where the scan feeds an integrity programme, geometry is prepared so inspection data binds to locations on the model."
+          },
+          {
+              "q": "How long does scanning a Jurong Island unit take?",
+              "a": "Capture is the short part — a process unit is scanned in days. Registration, quality control and as-built modelling take longer and scale directly with the level of detail requested, which is why agreeing that level against the actual downstream use is the largest single lever on both schedule and cost. Mobilisation on Singapore sites runs within 24 to 72 hours of scope agreement."
+          },
+          {
+              "q": "Should I scan the whole site or start with one unit?",
+              "a": "Start where condition data justifies it. Scanning an entire plant at high density before deciding what data attaches to the geometry is the standard way to overspend on reality capture. On integrity programmes the binding constraint is reconciling the corrosion monitoring location register against the model, not capturing geometry — solve that on one unit, then replicate the pattern across the site."
+          }
+      ]
+  },
+
+  "/resources/calibration-certificate-template": {
+      "answer": "Download the DOCX and issue it unchanged: it carries every ISO/IEC 17025:2017 §7.8 reporting element — certificate number, laboratory and customer identity, instrument under test, environmental conditions, reference standards, as-found and as-left results, expanded uncertainty at k=2, decision rule, traceability statement, and authorised signature. Certificates missing uncertainty, decision rule or traceability are the three that fail audits.",
+      "expansion": "North American certificates are assessed against ISO/IEC 17025:2017 §7.8 by A2LA, ANAB and NVLAP, with metrological traceability carried to NIST through an unbroken chain of comparisons. Three elements fail assessment more than the rest. Expanded uncertainty must be reported with its coverage factor and stated level of confidence — k=2 for a 95 percent interval. The decision rule must be stated whenever the certificate declares in-tolerance or out-of-tolerance, because the uncertainty interval straddles the tolerance limit; guard-banding shrinks the acceptance zone by a defined multiple of uncertainty, simple acceptance does not shrink it at all. As-found data must appear before any adjustment, because that record alone establishes whether thickness readings taken since the previous calibration remain defensible. One more trap: the laboratory cannot print a recommended calibration interval on the certificate unless the customer agreed to it — interval ownership sits with the equipment owner, not the lab.",
+      "source": "ISO/IEC 17025:2017, §7.8 (Reporting of results) and §7.8.6 (Reporting statements of conformity); JCGM 100:2008 (GUM) for uncertainty evaluation; ILAC-G8:09/2019 for decision rules and guard-banding.",
+      "table": {
+          "caption": "The eleven ISO/IEC 17025:2017 §7.8 certificate elements and how each one fails an audit",
+          "columns": [
+              "§7.8 element",
+              "What must appear on the certificate",
+              "How it fails an audit",
+              "NDT example"
+          ],
+          "rows": [
+              [
+                  "Certificate identification",
+                  "Unique number, issue date, page x of y, issuing laboratory and its accreditation number",
+                  "A reissued certificate reuses the original number, breaking the record chain",
+                  "Certificate number cited on the equipment log line of every weld report that used the instrument"
+              ],
+              [
+                  "Customer and item under test",
+                  "Customer identity, plus description, manufacturer, model, serial number, owner asset tag, range and resolution",
+                  "Serial number omitted, so the certificate cannot be tied to the instrument in the field",
+                  "Flaw detector serial recorded alongside the specific probe and wedge serials"
+              ],
+              [
+                  "Environmental conditions",
+                  "Temperature, humidity and pressure where they affect the result",
+                  "Recorded as \"ambient\" with no measured value",
+                  "Thickness gauge calibrated at 21 °C, then used on a hot line without velocity correction"
+              ],
+              [
+                  "Reference standards used",
+                  "Identity, certificate number and traceability chain of each standard",
+                  "Standard listed by name only, with no certificate number to follow upstream",
+                  "IIW V1 block and step wedge, each carrying its own traceable certificate"
+              ],
+              [
+                  "As-found results",
+                  "Measured values and errors recorded before any adjustment",
+                  "Only as-left reported, so work done since the last calibration cannot be judged",
+                  "Gauge found reading high — every survey since the previous calibration is re-evaluated"
+              ],
+              [
+                  "As-left results",
+                  "Measured values after adjustment or repair",
+                  "Reported identical to as-found with no statement that no adjustment was made",
+                  "Post-adjustment step-wedge readings inside stated tolerance"
+              ],
+              [
+                  "Measurement uncertainty",
+                  "Expanded uncertainty with coverage factor and confidence level",
+                  "A bare ± figure with no k value, unusable by the reader",
+                  "Uncertainty stated with k=2 and 95 percent coverage across the gauge working range"
+              ],
+              [
+                  "Decision rule and traceability",
+                  "The rule applied to any conformity statement, plus the SI traceability statement and authorised signature",
+                  "\"Pass\" printed with no rule stated and no named technical signatory",
+                  "Guard-banded acceptance: reject where measured error plus expanded uncertainty crosses the tolerance limit"
+              ]
+          ],
+          "note": "The template covers all eleven §7.8 elements. The four that fail assessment most often are expanded uncertainty, decision rule, traceability and as-found data. Atlantis NDT builds branded, auto-numbered versions with an integrated uncertainty budget and QR-code traceability, and the ERP calibration module issues them automatically with due-date alerts — demo or quote on request."
+      },
+      "facets": [
+          {
+              "q": "How long is a calibration certificate valid?",
+              "a": "The certificate has no expiry. It records the instrument's condition on the calibration date, and the interval that follows belongs to the equipment owner's calibration programme — set from usage, drift history and the consequence of an out-of-tolerance finding. ISO/IEC 17025 bars the laboratory from printing a recommended interval on the certificate unless the customer agreed to it during contract review."
+          },
+          {
+              "q": "What happens when an instrument comes back out of tolerance?",
+              "a": "The as-found data triggers a reverse-traceability review: every measurement made with that instrument since the previous calibration is re-evaluated against the size of the error, and any result that would change an accept or reject decision is reported to the customer. ISO/IEC 17025 handles this under nonconforming work, which requires the action, the decision and the notification to be recorded."
+          },
+          {
+              "q": "What coverage factor should a calibration certificate report?",
+              "a": "k=2, giving a 95 percent coverage interval for a normal distribution — the default across A2LA, UKAS and NABL scopes. The certificate must print the k value beside the uncertainty; a bare ± figure is unusable because the reader cannot tell whether it is one standard uncertainty or two. JCGM 100:2008, the GUM, is the evaluation method behind the number."
+          },
+          {
+              "q": "Who is allowed to sign a calibration certificate?",
+              "a": "An authorised signatory named on the laboratory's scope of accreditation for the specific measurement discipline on the certificate. A2LA, UKAS and NABL assess signatories individually on technical competence, and a certificate signed outside the signatory's approved discipline is invalid even where the measurement itself was correct. The template carries separate calibrated-by and technical-signatory blocks for exactly this reason."
+          },
+          {
+              "q": "Does ASME Section V require accredited calibration for UT equipment?",
+              "a": "ASME Section V requires ultrasonic instruments to be calibrated against reference blocks and linearity standards, and requires those blocks to be traceable. It does not itself mandate an ISO/IEC 17025-accredited laboratory. Owner-user specifications and client audits do, which is why NDT companies pull the accreditation certificate number and the scope of accreditation from every calibration supplier before accepting a certificate."
+          },
+          {
+              "q": "What is guard-banding and when should a laboratory apply it?",
+              "a": "Guard-banding shrinks the acceptance zone inward from the tolerance limit by a multiple of the measurement uncertainty, so a reading sitting close to the limit is declared out of tolerance rather than passed. Apply it where a false accept carries real consequence — safety-critical measurement, code-mandated equipment, aerospace. ILAC-G8:09/2019 sets out the decision-rule options that must be stated on the certificate."
+          }
+      ]
+  },
+
+  "/blog/pipe-wall-thickness-inspection-ut-procedures": {
+      "answer": "Take three to four readings per CML at the 12, 3, 6 and 9 o'clock positions, on bare metal, with the gauge calibrated on a block of the same material and thickness range before and after the survey. Report the minimum reading, not the mean. Accuracy on 3–10 mm carbon steel is ±0.1–0.2 mm — the noise floor every corrosion rate must clear.",
+      "expansion": "API 570 governs in-service piping in US refineries and sets the thickness-measurement interval as the lesser of half the remaining life or the maximum interval for the piping class. Remaining life is current thickness minus minimum required thickness, divided by corrosion rate, and API 570 asks for two rates: long-term, measured from the original or baseline thickness, and short-term, measured from the previous survey. The higher of the two sets the interval. This is why CML locations must repeat to the millimetre between surveys — a 0.15 mm relocation error on a 5 mm wall reads as 0.15 mm of metal loss and doubles an apparent corrosion rate. Fix CMLs with permanent low-stress stamps or weld-attached datum plates, photograph them, and record grid coordinates. Where the wall falls below minimum required thickness, API 579-1/ASME FFS-1 Level 1 screening decides repair, derate or continued service.",
+      "source": "API 570 Piping Inspection Code; ASME B31.3 Process Piping; ASME BPVC Section V Article 4; ASTM E797 (Standard Practice for Measuring Thickness by Manual Ultrasonic Pulse-Echo Contact Method); API 579-1/ASME FFS-1; API RP 583 for corrosion-under-insulation susceptibility ranges.",
+      "table": {
+          "caption": "CML placement by credible damage mechanism — carbon steel process piping",
+          "columns": [
+              "Damage mechanism",
+              "Where it attacks the circuit",
+              "CML placement",
+              "Confirming technique"
+          ],
+          "rows": [
+              [
+                  "Uniform corrosion",
+                  "Whole circuit, even loss at 0.1–0.2 mm/yr in cooling water service",
+                  "Fixed grid on straight runs, one CML per spool",
+                  "Single- or dual-element pulse-echo thickness"
+              ],
+              [
+                  "Erosion-corrosion",
+                  "Elbows, tees, reducers and control-valve outlets above 2–3 m/s",
+                  "Extrados of every elbow, plus 3 to 5 diameters downstream of the valve",
+                  "Dual-element gauge with PAUT corrosion mapping over the affected arc"
+              ],
+              [
+                  "Pitting corrosion",
+                  "Low points, dead legs and water-collecting sections",
+                  "Bottom-of-pipe 6 o'clock plus a scanned patch — never a single point",
+                  "PAUT or automated C-scan; a spot reading walks past a pit"
+              ],
+              [
+                  "Microbiologically influenced corrosion",
+                  "Stagnant dead legs, untreated water circuits, tank drains",
+                  "Full length of every dead leg, root to blind",
+                  "C-scan mapping, confirmed by sampling for sulfate-reducing bacteria"
+              ],
+              [
+                  "Corrosion under insulation",
+                  "Carbon steel from −12 °C to 175 °C per API 583, at damaged jacketing",
+                  "Penetrations, supports, low points and anywhere jacketing is breached",
+                  "Pulsed eddy current to screen, UT to produce the number"
+              ],
+              [
+                  "Thermal fatigue cracking",
+                  "Valve connections, support attachments and weld toes on cycling lines",
+                  "Attachment welds — thickness surveys will not find this mechanism",
+                  "Magnetic particle or shear-wave UT, not thickness gauging"
+              ],
+              [
+                  "Sulfidic and naphthenic corrosion",
+                  "Crude and vacuum unit hot circuits",
+                  "High-velocity, high-temperature elbows named on the corrosion loop drawing",
+                  "UT thickness with high-temperature couplant and dual-element probe"
+              ]
+          ],
+          "note": "Grid density follows the mechanism, not the pipe. Uniform corrosion is served by one CML per spool; localised mechanisms demand a scanned area, because a point reading beside a pit reports full wall. Atlantis NDT holds CML history, damage-mechanism assignment and next-inspection dates as structured data rather than filed PDFs — demo or quote on request."
+      },
+      "facets": [
+          {
+              "q": "How many thickness readings does API 570 require at each CML?",
+              "a": "API 570 fixes no count. The owner-user's written procedure does, and the working convention is three to four readings around the circumference at each CML with the minimum value reported. A single reading is defensible only on a circuit where the credible damage mechanism is uniform corrosion. Anywhere pitting or erosion-corrosion is credible, one point walks past the damage."
+          },
+          {
+              "q": "What corrosion rate do you use when only one thickness survey exists?",
+              "a": "A default rate, set by the owner-user's corrosion specialist from published data for the same material in the same service, from an identical circuit elsewhere in the plant, or from process-fluid modelling. API 570 permits this until two surveys exist. Once a second survey lands, the measured rate replaces the default and the inspection interval is recalculated from it."
+          },
+          {
+              "q": "Short-term or long-term corrosion rate — which one sets the next inspection date?",
+              "a": "The higher of the two. Long-term rate runs from the original or baseline thickness and smooths measurement noise. Short-term rate runs from the previous survey and catches an acceleration the long-term average hides — a chemistry change, a new dead leg, a failed inhibitor programme. When short-term exceeds long-term, the circuit's damage mechanism has changed and the interval shortens."
+          },
+          {
+              "q": "Can wall thickness be measured while the line is hot?",
+              "a": "Yes, with a high-temperature couplant rated for the surface and a dual-element probe carrying a thermal-barrier delay line, lifted between readings so the probe does not heat-soak. Steel velocity shifts 0.3–0.5 percent per 100 °C, so the gauge reads high on a hot line unless velocity is corrected or the reading is normalised against a known-thickness spot at the same temperature."
+          },
+          {
+              "q": "Why use a dual-element probe instead of a single-element probe for corrosion work?",
+              "a": "A corroded internal surface is rough and irregular, and it scatters sound away from a single-element probe. Dual-element probes cross the transmit and receive elements so the pseudo-focus sits inside the wall, recovering a backwall echo off pitted metal, and they carry no interface dead zone — which is what lets them read thin, heavily pitted walls a single-element probe cannot resolve."
+          },
+          {
+              "q": "What triggers a fitness-for-service assessment instead of a straight repair?",
+              "a": "Measured thickness below the minimum required thickness. API 579-1/ASME FFS-1 Level 1 screening runs first — conservative and table-driven, using the remaining thickness ratio and the extent of the thin area. Level 2 uses the actual measured profile and material properties. Level 3 goes to finite element analysis and fracture mechanics. Passing Level 1 keeps the circuit in service on a defined re-inspection interval."
+          }
+      ]
+  },
+
+  "/blog/eddy-current-testing-complete-guide": {
+      "answer": "Frequency sets everything in eddy current testing. Standard depth of penetration falls as one over the square root of frequency, permeability and conductivity, so probes above 100 kHz reach 1–2 mm, mid-frequency reaches 3–5 mm, low frequency reaches 5–10 mm, and pulsed eddy current screens 10–25 mm through insulation. Pick the frequency that puts the flaw inside one standard depth, then read phase, not amplitude.",
+      "expansion": "ASME BPVC Section V Article 8 governs eddy current examination of tubular products in North America, with mandatory appendices covering installed non-ferromagnetic heat-exchanger tubing; ASTM E309, ASTM E426 and ISO 15549 carry the general practice. Calibration decides the result. A reference tube of the same material, outside diameter and wall thickness carries a 100 percent through-wall hole plus flat-bottom holes at graded depths, and the instrument phase is rotated so lift-off runs horizontally across the impedance plane. Depth then reads off phase angle; amplitude reads volume. Carbon and ferritic steel tubing breaks conventional eddy current testing, because permeability variation from stress and microstructure produces signals larger than the flaw — remote field testing, magnetic flux leakage or near-field testing replace it. Coatings, paint and oxide break nothing: eddy current inspects straight through them, which is precisely where it beats magnetic particle testing on coated components.",
+      "source": "ASME BPVC Section V Article 8 (Eddy Current Examination of Tubular Products); ASTM E309 and ASTM E426; ASTM E1004 for conductivity measurement; ISO 15549; ASNT SNT-TC-1A for ET personnel qualification.",
+      "table": {
+          "caption": "ECT probe, frequency and depth reached by inspection task",
+          "columns": [
+              "Inspection task",
+              "Probe type",
+              "Frequency band",
+              "Depth reached",
+              "Governing practice"
+          ],
+          "rows": [
+              [
+                  "Aerospace surface fatigue crack",
+                  "Pencil or differential surface probe",
+                  "100–500 kHz",
+                  "1–2 mm",
+                  "ASTM E309 plus the OEM structural specification"
+              ],
+              [
+                  "Fastener hole crack",
+                  "Rotating bolt-hole probe",
+                  "100–500 kHz",
+                  "Hole wall to 2 mm",
+                  "OEM structural specification"
+              ],
+              [
+                  "Non-ferrous heat-exchanger tubing",
+                  "Bobbin coil",
+                  "20–100 kHz",
+                  "Full wall of thin-wall tube",
+                  "ASME Section V Article 8, ASTM E426"
+              ],
+              [
+                  "Circumferential cracking at supports and expansion transitions",
+                  "Array probe with C-scan output",
+                  "20–100 kHz",
+                  "Full wall",
+                  "ASME Section V Article 8"
+              ],
+              [
+                  "Ferromagnetic tubing",
+                  "Remote field, near-field or magnetic flux leakage",
+                  "Low",
+                  "Full wall",
+                  "Conventional ECT fails here — permeability variation swamps the flaw signal"
+              ],
+              [
+                  "Corrosion under insulation screening",
+                  "Pulsed eddy current",
+                  "0.1–10 kHz",
+                  "10–25 mm of steel through insulation and cladding",
+                  "Screening only; UT produces the thickness number"
+              ],
+              [
+                  "Alloy sorting, conductivity, coating thickness",
+                  "Absolute surface probe",
+                  "60 kHz–2 MHz",
+                  "Surface",
+                  "ASTM E1004"
+              ]
+          ],
+          "note": "Two rows carry the decisions people get wrong most often: bobbin coils are near-blind to circumferential cracking, and conventional eddy current does not work on carbon or ferritic steel tubing without saturation. Atlantis NDT ties every ECT result to the asset, the technician's certification state and the instrument's calibration status at the time of test — demo or quote on request."
+      },
+      "facets": [
+          {
+              "q": "Why does phase angle matter more than signal amplitude in eddy current testing?",
+              "a": "Phase encodes depth. As a flaw sits deeper below the surface, the response lags further, rotating the impedance signal by an angle that maps to depth against a calibration curve. Amplitude encodes volume, but amplitude is also corrupted by lift-off, fill factor and probe wobble. Calibration rotates the display so lift-off runs horizontally, leaving the vertical component readable as flaw response."
+          },
+          {
+              "q": "Can eddy current testing inspect carbon steel welds?",
+              "a": "Not with a conventional probe. Magnetic permeability in ferritic steel changes with stress, heat-affected-zone microstructure and residual field, and that variation produces signals larger than the crack. Two routes work: magnetically saturate the material so permeability stops varying, or switch to alternating current field measurement, which reads surface field distortion and sizes cracks straight through paint and coating."
+          },
+          {
+              "q": "How is a heat-exchanger tube eddy current examination calibrated?",
+              "a": "On a reference tube of the same material, outside diameter and wall thickness as the bundle, machined with a 100 percent through-wall hole plus flat-bottom holes at graded fractions of the wall. The through-wall hole sets the phase reference; the graded holes build the phase-versus-depth curve every indication is read against. The reference tube travels with the crew and is re-run through the shift."
+          },
+          {
+              "q": "When does array eddy current beat a bobbin coil?",
+              "a": "Circumferential cracking. A bobbin coil drives circumferential eddy currents, so a circumferential crack barely disturbs them and the coil reads near nothing — the classic missed defect at tube-to-tubesheet expansion transitions and baffle supports. Array probes drive current in multiple orientations and produce a C-scan image, resolving crack orientation and position around the tube. Bobbin stays faster for general wall loss."
+          },
+          {
+              "q": "What is fill factor and how does it change tube inspection results?",
+              "a": "Fill factor is the ratio of bobbin coil cross-sectional area to tube inside-diameter area, and it drives coupling. A loose coil in an oversized tube loses sensitivity to small flaws and adds wobble noise; a tight coil sticks or scores the tube. Probe diameter is selected against the as-built tube inside diameter, not the nominal, after a gauging pass through the bundle."
+          },
+          {
+              "q": "How many training and experience hours does ASNT recommend for ET Level II?",
+              "a": "ASNT SNT-TC-1A recommends 40 hours of ET training and 210 hours of method experience for Level I, then a further 40 hours of training and 630 cumulative hours of experience for Level II. These are recommendations the employer adopts or modifies in its written practice. ISO 9712 sets 40 hours at each level, with three months of Level 1 and nine months of Level 2 industrial experience."
+          }
+      ]
+  },
+
+  "/blog/ultrasonic-testing-ultimate-guide": {
+      "answer": "Thickness equals velocity times time-of-flight divided by two. Steel carries longitudinal sound at 5,850 m/s, so a 3.4 microsecond round trip is 10.0 mm of wall. That one relation drives every UT output: pulse-echo thickness at ±0.1–0.5 mm, angle-beam weld examination at 45 to 70 degrees, phased array steering 32 to 256 elements, and TOFD sizing crack height to ±0.5 mm on 25 mm sections.",
+      "expansion": "ASME BPVC Section V Article 4 governs ultrasonic examination of pressure equipment in North America, and it controls the procedure rather than the accept-or-reject line — acceptance comes from the construction code: Section VIII Division 1 for vessels, AWS D1.1 for structural welds, API 1104 for pipeline girth welds. Article 4 requires a written procedure listing essential and non-essential variables, instrument linearity verification, calibration on a block matching the part in material, thickness range and surface finish, and it carries mandatory appendices for time-of-flight diffraction and for encoded phased array. Two field corrections decide whether that calibration still holds. Transfer correction adds decibels for the attenuation and roughness difference between block and component. Temperature shifts steel velocity, so a hot component reads thick. Angle-beam wedges at 45, 60 and 70 degrees reach the fusion faces a zero-degree beam never sees.",
+      "source": "ASME BPVC Section V Article 4 (Ultrasonic Examination Methods for Welds) and its TOFD and phased-array appendices; ASME Code Case 2235 for UT in lieu of RT; AWS D1.1; API 1104; ASTM E797 and ASTM E164; ISO 17640; ASNT SNT-TC-1A for UT personnel qualification.",
+      "table": {
+          "caption": "UT technique selected by the question the examination has to answer",
+          "columns": [
+              "Question the examination must answer",
+              "Technique",
+              "Frequency",
+              "Sizing accuracy",
+              "Code reference"
+          ],
+          "rows": [
+              [
+                  "How much wall is left?",
+                  "Pulse-echo thickness, dual-element on corroded backwall",
+                  "2–5 MHz",
+                  "±0.1–0.5 mm",
+                  "ASTM E797, API 570"
+              ],
+              [
+                  "Is this weld acceptable?",
+                  "Angle beam at 45, 60 and 70 degrees, or encoded phased array",
+                  "2–5 MHz",
+                  "Length and amplitude against DAC or DGS",
+                  "ASME Section V Article 4; acceptance in Section VIII, AWS D1.1, API 1104"
+              ],
+              [
+                  "How tall is this crack?",
+                  "TOFD, paired transmit-receive probes bracketing the weld",
+                  "1–2 MHz",
+                  "±0.5 mm on 25 mm sections",
+                  "ASME Section V Article 4 TOFD appendix; feeds API 579"
+              ],
+              [
+                  "Is the whole tank floor sound?",
+                  "Automated UT or MFL floor scanning with follow-up prove-up",
+                  "1–5 MHz",
+                  "Area coverage rather than point accuracy",
+                  "API 653"
+              ],
+              [
+                  "Has this composite disbonded?",
+                  "Through-transmission, or pulse-echo with a delay line",
+                  "1–5 MHz",
+                  "Disbond area and boundary",
+                  "ASTM composite practices"
+              ],
+              [
+                  "Can I inspect this austenitic or dissimilar-metal weld?",
+                  "Low-frequency dual-matrix transmit-receive longitudinal phased array",
+                  "1–2 MHz",
+                  "Reduced by beam skew and attenuation",
+                  "ASME Section V Article 4 with procedure demonstration on a mock-up"
+              ]
+          ],
+          "note": "The technique follows the decision, not the equipment on the truck. Thickness gauging answers remaining life; TOFD answers crack height for fitness-for-service; angle beam and PAUT answer code acceptance. Atlantis NDT structures the resulting records so the calibration state, technician certification and acceptance criteria survive a client audit years later — demo or quote on request."
+      },
+      "facets": [
+          {
+              "q": "DAC or DGS — which sizing curve should the procedure use?",
+              "a": "DAC where the code names it and reference reflectors matching the expected flaw type are available; the curve is drawn from side-drilled holes at increasing sound path in a block matching the part. DGS uses a theoretical diagram tied to the probe's own beam characteristics, needs a single reference reflector, and holds up better on thick sections where a full DAC block becomes impractical to machine and carry."
+          },
+          {
+              "q": "Why does UT miss flaws breaking the scanning surface?",
+              "a": "The initial pulse and the probe near field create a dead zone directly under a zero-degree probe, where a surface-breaking flaw hides inside the main bang. Angle-beam probes solve it by inserting sound at 45 to 70 degrees and reaching the near surface on a skip, and magnetic particle or penetrant testing covers the accessible surface directly. UT and surface methods are complements, not substitutes."
+          },
+          {
+              "q": "What limits ultrasonic testing on austenitic and dissimilar-metal welds?",
+              "a": "Coarse, columnar, anisotropic grain structure. Sound velocity changes with direction through the weld metal, so the beam skews off its nominal angle, splits, and attenuates, while grain boundaries scatter energy back as noise that buries small reflectors. The answer is low-frequency dual-matrix transmit-receive longitudinal phased array, plus procedure demonstration on a mock-up containing the flaw type being sought."
+          },
+          {
+              "q": "What is transfer correction and when is it required?",
+              "a": "Transfer correction is the decibel adjustment compensating for the attenuation and surface-roughness difference between the calibration block and the actual component. It is measured by comparing the same reflector response through both, then added to the reference level. It is required whenever component surface finish, curvature or grain structure differs materially from the block. Skipping it undersizes flaws on rough or attenuative components."
+          },
+          {
+              "q": "Does ASME allow ultrasonic examination in place of radiography?",
+              "a": "Yes. ASME Code Case 2235 permits UT in lieu of RT on welds from 1/2 inch (13 mm) thickness upward, subject to a qualified procedure demonstrated on specimens containing flaws representative of those being sought, and to personnel qualified for the technique. Encoded phased array with permanent data recording is what makes the substitution auditable years after the weld was made."
+          },
+          {
+              "q": "How many training and experience hours does ASNT recommend for UT Level II?",
+              "a": "ASNT SNT-TC-1A recommends 40 hours of UT training and 210 hours of method experience for Level I, then a further 40 hours of training and 630 cumulative hours of experience for Level II. Phased array and TOFD sit on top as separate technique training. ISO 9712 sets 40 hours at each level, with three months of Level 1 and nine months of Level 2 industrial experience."
+          }
+      ]
+  },
+
+  "/blog/magnetic-particle-testing-complete-guide": {
+      "answer": "Magnetise every test area twice, in perpendicular directions. Flux leakage forms only where the field crosses the discontinuity at 30 degrees or more, so a crack lying parallel to the field produces nothing at all. Hold the tangential field at 24–48 A/cm (30–60 gauss) at the surface, apply particles while the current is on, and prove the setup with a pie gauge or QQI shim.",
+      "expansion": "ASME BPVC Section V Article 7 and ASTM E1444/E1444M govern magnetic particle examination in North America; acceptance criteria come from the construction code — Section VIII Division 1 Mandatory Appendix 6 for vessels, AWS D1.1 for structural welds. Four verification steps run before any part is examined. Yoke lift force is proven at maximum pole spacing, with separate acceptance weights for AC and DC yokes. Wet bath concentration is settled in a centrifuge pear tube: 0.1–0.4 mL per 100 mL for fluorescent particles, 1.2–2.4 mL per 100 mL for visible. UV-A irradiance reads at least 1,000 µW/cm² at 380 mm, with ambient white light at or below 20 lux and one minute of dark adaptation before examining. Residual field after demagnetisation reads 3 gauss or less. Skip any one of the four and a false negative looks exactly like a clean weld.",
+      "source": "ASME BPVC Section V Article 7 (Magnetic Particle Examination), including the yoke lift test and lighting requirements; ASTM E1444/E1444M and ASTM E709; ASTM E3022 for UV-A measurement; ISO 9934-1/-2/-3 and ISO 17638; AWS D1.1 Clause 8.14; ASNT SNT-TC-1A for MT personnel qualification.",
+      "table": {
+          "caption": "Magnetising technique by geometry and the crack orientation it actually finds",
+          "columns": [
+              "Technique",
+              "Field produced",
+              "Finds",
+              "Current guidance",
+              "Watch-out"
+          ],
+          "rows": [
+              [
+                  "Yoke, AC or DC electromagnet",
+                  "Longitudinal, pole to pole",
+                  "Cracks perpendicular to the pole axis — rotate 90 degrees for the second shot",
+                  "Lift test at maximum pole spacing before use, with separate AC and DC acceptance weights",
+                  "AC reaches surface only; DC reaches near-surface flaws"
+              ],
+              [
+                  "Prods",
+                  "Circular, around the current path",
+                  "Cracks parallel to the current path",
+                  "100 A per inch of prod spacing, at 75–200 mm spacing",
+                  "Arc burn — prohibited on many critical materials without a written permit"
+              ],
+              [
+                  "Coil, encircling",
+                  "Longitudinal, along the part axis",
+                  "Transverse cracks in shafts, bars and long parts",
+                  "Amp-turns derived from the part length-to-diameter ratio per ASTM E1444",
+                  "Field falls off with distance from the coil; work the part in segments"
+              ],
+              [
+                  "Central conductor",
+                  "Circular, around the bore",
+                  "Longitudinal cracks on tube inside and outside surfaces",
+                  "Current scaled to part diameter per ASTM E1444",
+                  "Conductor must be repositioned around large-diameter parts to keep coverage"
+              ],
+              [
+                  "Head shot, direct contact",
+                  "Circular, through the part",
+                  "Longitudinal cracks in bench work on forgings and castings",
+                  "Amperage per inch of part diameter",
+                  "Contact burn at the head pads where clamping contact is poor"
+              ],
+              [
+                  "Multi-directional bench",
+                  "Rotating vector field, full 360 degrees per cycle",
+                  "All crack orientations in a single 2–3 second energisation",
+                  "Three staggered sources energised together at different frequencies",
+                  "Field verification is harder — QQI shims are the proof of coverage"
+              ]
+          ],
+          "note": "Two perpendicular magnetisations are mandatory on every test area under ASME Section V Article 7, which is exactly what multi-directional benches collapse into one pass. Atlantis NDT replaces hand-drawn indication maps with photo-tagged digital records carrying weld ID, procedure revision and the technician's certification state — demo or quote on request."
+      },
+      "facets": [
+          {
+              "q": "How is field adequacy verified — gaussmeter, pie gauge or QQI shim?",
+              "a": "All three, at different points in the job. A tangential-field Hall-effect gaussmeter reads 24–48 A/cm at the surface and proves field strength numerically. A pie gauge proves strength and direction together at each setup — all eight segments must show particle build-up. A QQI shim etched to a known depth proves the whole procedure detects the smallest specified flaw, and codes require it for procedure qualification."
+          },
+          {
+              "q": "When is demagnetisation actually required after magnetic particle testing?",
+              "a": "Whenever residual magnetism affects what happens next: welding, where residual field deflects the arc; machining, where swarf clings to the surface; assembly into rotating equipment or near instrumentation. Codes call for a residual field of 3 gauss or less measured at the surface. Demagnetisation is skipped only where the part goes on to heat treatment above 760 °C, the Curie point of iron."
+          },
+          {
+              "q": "Wet fluorescent or dry visible particles for field weld inspection?",
+              "a": "Dry visible. Field weld surfaces are rough, ambient light cannot be darkened to the 20 lux fluorescent inspection demands, and there is no bath to maintain or spill. Dry particles also work hot — high-temperature grades run to 315 °C. Wet fluorescent wins where the surface is machined or ground and a darkened booth exists: production castings, forgings, aerospace overhaul."
+          },
+          {
+              "q": "How do you tell magnetic writing from a real crack?",
+              "a": "Demagnetise and re-run the examination. Magnetic writing is local polarisation from mechanical contact — a chain dragged across the part, a magnet set down nearby — and it disappears once the residual field is removed. A real discontinuity produces flux leakage every time the part is magnetised. Writing also reads wide and wandering, ignoring the weld geometry a real crack follows."
+          },
+          {
+              "q": "Can magnetic particle testing be used on 316 stainless or Inconel?",
+              "a": "No. Austenitic 300-series stainless and nickel alloys are non-magnetic, so no flux leakage forms and no indication develops. Ferritic and martensitic 400-series grades and precipitation-hardening alloys after ageing are ferromagnetic and inspect normally. Check with a hand magnet before mobilising. Where the material is non-magnetic, penetrant testing or eddy current testing replaces MT."
+          },
+          {
+              "q": "How many training and experience hours does ASNT recommend for MT Level II?",
+              "a": "ASNT SNT-TC-1A recommends 12 hours of MT training and 70 hours of method experience for Level I, then a further 8 hours of training — 20 cumulative — and 210 cumulative hours of experience for Level II. MT carries the lowest classroom requirement of the major methods and the heaviest reliance on supervised hours, because separating relevant from non-relevant indications is learned on parts."
+          }
+      ]
+  },
+
+  "/ndt-training-nigeria": {
+      "answer": "ASNT SNT-TC-1A is the scheme NNPC, Shell SPDC, Chevron and ExxonMobil name in Nigerian contracts. ISO 9712 sits second, PCN and CSWIP are accepted on UK-led contracting, and Dangote's 650,000 bpd Lekki refinery accepts ASNT and ISO 9712. Examinations run through Lloyd's Register in Lagos and Port Harcourt, Bureau Veritas Lagos and DNV Lagos.",
+      "expansion": "ASNT SNT-TC-1A is employer-based certification: the written practice belongs to the employer, the employer's Level III examines and certifies, and the certificate does not travel to the next company — a technician moving between Nigerian contractors re-qualifies under the new employer's written practice every time. ISO 9712, PCN and CSWIP are central schemes; the certification body holds the record and the certificate moves with the holder, which is why technicians working across NNPC, Shell SPDC, Chevron and TotalEnergies contracts carry both kinds. Demand concentrates in the Niger Delta — offshore platforms and FPSOs, an ageing pipeline network under constant integrity pressure, and the Dangote refinery, which dropped a world-scale process complex into Lagos. That asset mix makes UT thickness and phased array, magnetic particle on fatigue-critical welds, radiography to API 1104 on girth welds, and eddy current through coatings the four methods worth certifying in first.",
+      "source": "ASNT SNT-TC-1A (employer-based qualification and certification); ISO 9712:2021 (central certification of NDT personnel); BINDT PCN and TWI CSWIP scheme documents; API Individual Certification Programs for 510, 570 and 653; Nigerian Oil and Gas Industry Content Development Act 2010, administered by the NCDMB.",
+      "table": {
+          "caption": "Certification schemes recognised in Nigeria — who holds the certificate and whether it travels",
+          "columns": [
+              "Scheme",
+              "Certificate held by",
+              "Travels between employers",
+              "Renewal cycle",
+              "Examined in Nigeria at"
+          ],
+          "rows": [
+              [
+                  "ASNT SNT-TC-1A",
+                  "The employer, under its own written practice",
+                  "No — re-qualification at each new employer",
+                  "Recertification recommended at intervals not exceeding 5 years",
+                  "Bureau Veritas Lagos; employer sites under Level III oversight"
+              ],
+              [
+                  "ISO 9712",
+                  "The certification body",
+                  "Yes",
+                  "5-year validity, renewal at 5, recertification examination at 10",
+                  "Bureau Veritas Lagos, DNV Lagos"
+              ],
+              [
+                  "PCN (BINDT)",
+                  "BINDT",
+                  "Yes",
+                  "5-year renewal, recertification at 10",
+                  "Lloyd's Register Lagos and Port Harcourt"
+              ],
+              [
+                  "CSWIP (TWI)",
+                  "TWI Certification",
+                  "Yes",
+                  "5-year renewal, recertification at 10",
+                  "Lloyd's Register Lagos and Port Harcourt"
+              ],
+              [
+                  "API ICP — 510, 570, 653",
+                  "API",
+                  "Yes",
+                  "3-year recertification cycle administered by API",
+                  "API-administered examination; no training provider issues this certificate"
+              ]
+          ],
+          "note": "The scheme decides the route before any course is booked: train toward what your target employers name in their contracts. Atlantis NDT delivers ASNT and ISO 9712 pathway training in Nigeria as on-site corporate cohorts at your facility and as blended online theory with supervised practical — there is no walk-in Atlantis centre in Nigeria. API ICP examinations are set and administered by API. Ask about the next cohort."
+      },
+      "facets": [
+          {
+              "q": "Which NDT method should a technician in Nigeria certify in first?",
+              "a": "Ultrasonic testing. Niger Delta offshore structures, FPSO hulls, the pipeline network and the Dangote refinery all run on thickness surveys and weld examination, which puts UT Level II on more Nigerian job specifications than any other method. Magnetic particle is the natural second — fatigue-critical weld examination on topsides and structures — and it carries the shortest classroom requirement of the major methods."
+          },
+          {
+              "q": "Does an ASNT SNT-TC-1A certificate transfer when you change employer in Nigeria?",
+              "a": "No. SNT-TC-1A certification is employer-based: the written practice, the examinations and the certificate belong to the company that issued them, and a new employer re-examines and re-certifies under its own written practice. ISO 9712, PCN and CSWIP are held by the certification body and travel with the holder, which is why technicians moving between contractors carry a central certificate alongside the employer one."
+          },
+          {
+              "q": "Can NDT theory be taken online for certification in Nigeria?",
+              "a": "Yes for theory hours, no for practical. Blended delivery puts classroom instruction online through an LMS, then runs supervised practical sessions and the practical examination in person on real specimens. Experience hours are logged under supervision on actual work. PCN and CSWIP examinations run through Lloyd's Register in Lagos and Port Harcourt; ASNT and ISO 9712 through Bureau Veritas Lagos and DNV Lagos."
+          },
+          {
+              "q": "What does Nigerian local content law mean for inspection crew composition?",
+              "a": "The Nigerian Oil and Gas Industry Content Development Act 2010, administered by the NCDMB, requires operators and contractors to give first consideration to Nigerian personnel and to submit content plans for approval. On inspection contracts that pushes work toward locally certified technicians and makes in-country certification of an existing crew cheaper than importing inspectors. NUPRC and NMDPRA frame the upstream and midstream regulatory side."
+          },
+          {
+              "q": "Is API 510, 570 or 653 the same thing as an NDT Level II certificate?",
+              "a": "No, and they do different jobs. ASNT or ISO 9712 Level II qualifies a technician to perform and interpret an examination in a specific method. API ICP certifies an inspector to decide whether in-service equipment stays in service, using examination data someone else produced. API sets and administers the ICP examinations directly — no training provider issues that certificate."
+          },
+          {
+              "q": "How does an operator get an entire crew certified on-site in Nigeria?",
+              "a": "Theory and practical run at the facility around the shift pattern, using the client's own equipment and specimens so the practical maps to the FPSO topsides, hulls or piping the crew actually examines. Examinations are administered under a compliant written practice with ASNT Level III oversight, methods are sequenced so the crew keeps working while it qualifies, and records are handed over in a form that survives an audit."
           }
       ]
   },

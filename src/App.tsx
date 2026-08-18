@@ -3122,6 +3122,13 @@ const App = () => (
                   <Route path="/blog/ndt-training-hours-requirements-by-method" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-software-rfp-requirements-checklist" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/iso-17020-software-for-ndt-inspection-bodies" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ndt-reporting-software-vs-excel" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/offline-ndt-inspection-app" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/ndt-software-roi-calculator" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/api-inspection-contractor-management-software" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/why-digital-twin-projects-fail" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/diconde-ndt-data-standards-digital-twin" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/deliver-twin-ready-ndt-data" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />

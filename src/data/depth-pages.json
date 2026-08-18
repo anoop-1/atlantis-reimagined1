@@ -2030,5 +2030,1386 @@
         "a": "Rewriting the manual is the least useful part of the work. The third edition increases flexibility in how processes, procedures, documented information and organizational responsibilities are expressed, while adding requirements — clause 7.5 on control of data and information, clause 8.4 on actions to address risks and opportunities — that are evidenced by records rather than by text. Start from a clause-to-record gap analysis and revise the manual last."
       }
     ]
+  },
+  {
+    "slug": "/ndt-reporting-software-vs-excel",
+    "title": "NDT Reporting Software vs Excel: Where Each One Actually Breaks",
+    "description": "Where an Excel NDT report template genuinely works, where it breaks — audit trail, concurrent edits, calibration expiry, revisions — and how to migrate in order.",
+    "h1": "When an Excel NDT report template stops being good enough",
+    "answer": "Excel handles NDT reporting well until three things appear at once: more than one technician editing the same job, examination records that must survive an audit years later, and equipment or personnel certificates that expire silently. A spreadsheet stores numbers. It does not enforce who signed, which revision the client received, or whether the probe was in calibration on the examination date.",
+    "expansion": "The honest comparison is not two columns but three. A workbook on a local drive or a shared network folder gives you calculation and layout control and nothing else. The same workbook on OneDrive or SharePoint adds co-authoring and file-level version history — Microsoft's default retention is 500 versions per document — which removes the emailed-copy problem and gives coarse who-saved-when attribution. Purpose-built NDT reporting software adds the things that live below the file: a value tied to a technician, an instrument serial, a calibration status and a procedure revision; a report identity with revisions and an issued-to log; hard blocks when a certificate has expired; and a queryable history that survives template changes. Most NDT companies pass through the middle tier and stay there for years. It works until an accreditation assessment, a client audit or a disputed reading asks a question the file system cannot answer.",
+    "source": "ISO/IEC 17020:2012, clause 7.3 (inspection records) and clause 7.4 (inspection reports and certificates); ASME BPVC Section V, Article 1, T-190 Records/Documentation; API Standard 653 (retention of tank inspection records); Microsoft, \"Excel specifications and limits\" and \"Version history limits for document library and OneDrive\" (Microsoft Learn).",
+    "table": {
+      "caption": "Three tiers of NDT record keeping, and what each tier can actually prove",
+      "columns": [
+        "Requirement",
+        "Excel/Word on a local or network drive",
+        "Excel on OneDrive or SharePoint",
+        "Purpose-built NDT reporting software"
+      ],
+      "rows": [
+        [
+          "Two people working one job at once",
+          "No — copies fork and are merged by hand",
+          "Yes with AutoSave on, but cell overwrites are unguarded",
+          "Yes, with record-level locking and merge"
+        ],
+        [
+          "Who changed this value",
+          "Not recorded",
+          "Who saved the file, and when",
+          "Who entered the field, when, from which device"
+        ],
+        [
+          "Version history depth",
+          "Whatever the backup policy happens to keep",
+          "500 versions per document by default",
+          "Every field change retained for the life of the record"
+        ],
+        [
+          "Calibration or certificate expiry",
+          "A date in a cell; nothing watches it",
+          "A date in a cell; nothing watches it",
+          "Blocks selection of an expired instrument or technician"
+        ],
+        [
+          "Which revision the client holds",
+          "Filename convention",
+          "Filename convention plus file history",
+          "Revision number, reason for revision, issued-to log"
+        ],
+        [
+          "Offline capture in the field",
+          "Yes — the file is local",
+          "No — co-authoring needs a live connection",
+          "Product-dependent; verify it in airplane mode"
+        ],
+        [
+          "Find 7 years of readings on one line",
+          "Open every file",
+          "Search across files with drifting layouts",
+          "One query, provided the schema held"
+        ],
+        [
+          "Hard size ceiling",
+          "1,048,576 rows x 16,384 columns per sheet",
+          "Same, plus sync and upload limits",
+          "Database-bound; never the practical constraint"
+        ]
+      ],
+      "note": "Microsoft's 500-version default is configurable and subject to automatic version trimming, so the depth you assume you have may already have been reduced. Most NDT companies sit in the middle column. The decision is not Excel versus software — it is whether file-level attribution answers the questions your clients and assessors actually ask."
+    },
+    "facets": [
+      {
+        "q": "Is a spreadsheet acceptable evidence to an ISO/IEC 17020 assessor?",
+        "a": "Yes, if the surrounding controls are real. ISO/IEC 17020:2012 clause 7.3 requires a record system that demonstrates the inspection procedures were followed, with primary records made as soon as practicable, and clause 7.4 requires the report to be internally traceable to the inspector who performed the inspection. Nothing there names a technology. Assessors raise findings on uncontrolled copies and unattributed edits, not on the file format."
+      },
+      {
+        "q": "What does Microsoft 365 co-authoring actually fix, and what does it leave?",
+        "a": "It fixes the emailed-copy fork: the workbook lives on OneDrive or SharePoint, AutoSave is on, and several technicians type into one file. It leaves cell-level overwrites unguarded — there is no row locking, and during co-authoring versions are captured periodically rather than on every edit, so a clobbered reading rolls back only to the nearest captured version. Excel for the web also does not run VBA macros."
+      },
+      {
+        "q": "How do you stop an Excel thickness log from silently corrupting CML data?",
+        "a": "Lock the layout and validate at entry. Protect the calculation columns, restrict readings to a numeric range with data validation, keep the CML identifier as a locked key column so rows cannot be inserted freely, and never let a technician re-sort the sheet. That survives disciplined users. It does not survive a paste of a block of values one row out of alignment, which is the most common way thickness histories go wrong."
+      },
+      {
+        "q": "Does leaving Excel mean losing our existing report formats?",
+        "a": "No. Layout is the easiest thing to carry across, because it is presentation rather than data. The work is mapping which cell in your workbook is a stored field, which is a calculation, and which is boilerplate. Client-mandated data sheets usually stay visually identical while the numbers behind them move into a database, and an Excel export stays available for clients who want raw values."
+      },
+      {
+        "q": "What does staying on Excel for another year actually cost?",
+        "a": "Count it in hours, not licences. Time re-keying instrument output into cells, time reconciling which file is current, time assembling records for an audit, time redoing work performed under a lapsed certificate, and time a Level III spends checking arithmetic instead of reviewing indications. Those hours are already being spent. They are simply not on an invoice line, which is exactly why the cost stays invisible."
+      },
+      {
+        "q": "When is Excel still the right answer for an NDT company?",
+        "a": "When one person owns the workbook, job volume is low, no accreditation body inspects your record system, and no client requires a controlled revision history. Engineering calculation sheets — corrosion rate, minimum thickness, remaining life, sampling plans — should stay in Excel permanently. Moving the record of examination into software does not mean removing Excel from the business, and vendors who claim otherwise are overselling."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The three conditions that push a team off Excel",
+        "paragraphs": [
+          "Teams do not leave Excel because the arithmetic is wrong. They leave when three conditions arrive together: two or more people need the same job open at the same time, a client or accreditation body asks for a record from three years ago, and a certificate expires without anyone noticing. Each of those is a governance problem rather than a calculation problem, and each is invisible on a single technician's laptop. Until all three arrive, a well-built workbook is a defensible tool, and replacing it early buys change management and little else.",
+          "The trigger is usually one specific event. An assessor asks which revision of a report the client holds, and the folder contains report_final_v3_REV2_client.xlsx next to two files with the same modified date. A thickness reading is queried and the only proof of who took it is a name typed into a cell that anyone could retype. A probe's calibration certificate turns out to have lapsed two weeks before a job that has already been invoiced. None of these are Excel defects. They are the absence of a system that binds a number to a person, an instrument and a moment.",
+          "The useful question is not whether Excel is good software. It is whether the workbook can answer, without a human reconstructing it, who entered this value, on which equipment, under which procedure revision, and what changed between the draft and the issued report. If the workbook answers that, stay where you are. If a person has to rebuild the answer from memory and email threads, that reconstruction is a cost you are already paying every time it is asked for."
+        ]
+      },
+      {
+        "heading": "Where Excel is genuinely the right tool",
+        "paragraphs": [
+          "Excel is the best engineering calculator most NDT companies will ever own. Corrosion rate from two thickness readings and a date interval, minimum required thickness, remaining life, next inspection interval, statistical sampling plans, weld map coverage percentages, sizing tolerance studies — all of these are better in a spreadsheet than in a rigid form, because the Level III doing them needs to see and change the formula. Purpose-built software that hides the calculation behind a black box is a downgrade for exactly this work, and experienced engineers rightly resist it.",
+          "Excel also wins at low volume. A sole-trader Level III, or a two-technician shop running a handful of jobs a month for clients who accept a PDF, has no coordination problem to solve. There is one author, one copy, one filing convention, and the overhead of implementing software would exceed the time it saves. The same is true of one-off deliverables: a bespoke study, a failure investigation, a client's custom data sheet that will never be issued a second time.",
+          "After migration, Excel keeps earning its place as an interchange format. Clients ask for raw thickness data in a spreadsheet. Analysts pivot years of readings to find outliers. Bid teams model resourcing. The decision in front of you is narrower than \"Excel or software\" — it is whether the spreadsheet remains the system of record for examinations. Removing that one role changes nothing about the other uses."
+        ]
+      },
+      {
+        "heading": "Audit trail: file version history is not an examination record",
+        "paragraphs": [
+          "SharePoint and OneDrive version history is real and useful. It retains up to 500 versions per document by default, shows who saved and when, and lets you roll a file back. That gives you two things: recovery from a bad edit, and coarse attribution at the level of the whole file. For document control of a procedure or a written practice, that is often enough, and it is a genuine improvement over a network share.",
+          "The record an assessor or a client wants during a dispute is finer than that. It is per value: the reading, its unit, the instrument serial number, that instrument's calibration status on the examination date, the procedure and revision applied, the technician and their certification level for the method, and the moment of capture. Restoring a file version gives you a whole workbook from a point in time. It does not tell you which cell changed, who changed it, or why, without someone manually diffing two copies.",
+          "ISO/IEC 17020:2012 clause 7.3 requires a record system that demonstrates the effective fulfilment of the inspection procedures and allows the inspection to be evaluated, with primary records made as soon as practicable. Clause 7.4 requires the inspection report to be internally traceable to the inspector who performed the inspection. Both are achievable with spreadsheets plus procedural discipline. The difference is that the discipline lives in people, and people rotate. Our clause-to-record mapping for inspection bodies is at /erp/iso-17020-software-for-ndt-inspection-bodies."
+        ]
+      },
+      {
+        "heading": "Concurrent editing: what co-authoring fixes and what it leaves",
+        "paragraphs": [
+          "Microsoft 365 co-authoring genuinely solves the worst spreadsheet failure mode. When the workbook lives on OneDrive or SharePoint in .xlsx format with AutoSave enabled, several people can work in it simultaneously and see each other's changes. That removes the emailed-copy fork, where a technician downloads the file, edits offline, and returns a version that has diverged from the one the coordinator has been updating. Any NDT company still emailing report workbooks around should make this change first, before evaluating any software at all.",
+          "What co-authoring does not add is protection at the level of the data. There is no row locking, so two people can overwrite each other's cells. During co-authoring, versions are captured periodically rather than on every keystroke, so an overwritten reading can be recovered only to the nearest captured version, and only if someone notices in time to look. Sheet protection is a shared setting anyone with edit rights can lift. Excel for the web does not run VBA macros, so workbooks that depend on macro-driven validation lose that validation for browser users.",
+          "Co-authoring also assumes a connection. A technician working inside a tank, on a pipe rack or offshore has no live session, so they take a local copy and merge afterwards — which reintroduces exactly the fork the feature was meant to remove. Field capture is the single hardest requirement to retrofit onto a spreadsheet workflow, and it is covered in detail at /offline-ndt-inspection-app."
+        ]
+      },
+      {
+        "heading": "Calibration and certification expiry: the failure that is silent by design",
+        "paragraphs": [
+          "A spreadsheet is passive. It computes when it is opened and does nothing when it is closed. Nothing in a workbook watches the clock, which means every expiry control built in Excel depends on a person opening the right file on the right day. That works for months and then fails once, quietly, on the week that person is on leave or on a shutdown.",
+          "The list of things that expire in an NDT business is longer than most teams track: instrument calibration due dates, reference and calibration block certification, couplant and consumable batches, technician certification renewal under the employer's written practice, the annual near-vision acuity examination and the colour contrast differentiation check that written practices require, client-specific approvals, site inductions, and medical or safety training. Any one of them lapsing invalidates the examination it touched. The discovery point is usually invoicing or audit, by which time the work must be redone at your cost.",
+          "The behaviour that matters in software is blocking, not reporting. A dashboard of amber and red dates is still a report someone has to read. A control that refuses to let an instrument serial be selected on a report whose examination date falls after that instrument's calibration due date, and refuses to name a technician as examiner for a method they are not currently certified in, removes the human step entirely. That is a constraint enforced at the point of entry, and it is the single clearest thing a spreadsheet cannot do against a user in a hurry."
+        ]
+      },
+      {
+        "heading": "Revision control and the report the client actually holds",
+        "paragraphs": [
+          "Excel's revision problem is not versions inside the file — it is versions loose in the world. One examination produces a workbook, an exported PDF, a copy in the client's document management system, an attachment on an email to the site engineer, and often a printout in a turnaround file. Correct one reading and there are now five artefacts, four of them wrong, and no mechanism that reaches out to any of them. Filename conventions are an attempt to solve this with human memory, and they survive precisely until two people use different conventions.",
+          "A reporting system replaces the filename with an identity. The report has a number, a revision, a reason-for-revision field, a status that moves from draft through review to issued, and a log of who it was issued to and when. Superseded revisions are marked as superseded rather than deleted, so the historical record still shows what the client was told at the time and what changed afterwards. When an assessor asks which revision the client received and how you know, the answer is a record rather than a recollection.",
+          "This matters most where the report is derived from instrument output rather than typed. If A-scan or phased array data is exported, re-analysed and re-issued, the chain from raw file to issued revision has to be traceable both ways. That path is described at /omniscan-data-to-inspection-report."
+        ]
+      },
+      {
+        "heading": "Retained records: retrieval in year seven, not storage in year one",
+        "paragraphs": [
+          "Storage is not the constraint. Retention periods in this industry are long by design: API Standard 653 requires the owner-operator to retain tank inspection records for the life of the tank, and ASME BPVC Section V, Article 1, T-190 (Records/Documentation) places responsibility for the required examination records on the Manufacturer, fabricator or installer. Those are horizons measured in decades, over which staff, file servers, Excel versions and template authors all change.",
+          "The binding constraint is retrieval. A realistic future request is not \"send me the 2019 report\" but \"give me every UT reading taken on line 12-P-402 between 2019 and 2026, with the technician, the instrument and the procedure revision for each.\" Answering that from a folder tree means opening hundreds of files whose column layouts differ, because the template changed four times in seven years. Excel's own ceilings — 1,048,576 rows and 16,384 columns per sheet — are almost never what stops you. Template drift is.",
+          "This is the least glamorous argument for a database and the strongest one. A schema forces every reading, from every year, into the same shape, so a query written in 2031 still returns 2019 data. It is also why history import should be selective rather than total: bringing across the CML register and the thickness series is high value, while bringing across a decade of narrative report text usually is not."
+        ]
+      },
+      {
+        "heading": "Data that only becomes valuable once it leaves the spreadsheet",
+        "paragraphs": [
+          "Readings held as structured records can be used again. Corrosion rate per CML computes itself, remaining life updates on every new reading, the next inspection date is derived rather than typed, and a thinning trend on one circuit becomes visible against hundreds of others. The same values sitting in cell G14 of a workbook require a parser and a human before any of that is possible, which is why it usually never happens.",
+          "The visual layer depends entirely on that structure. Painting measured wall thickness onto a 3D model, so a corrosion pattern reads as a shape rather than a column of numbers, needs each reading tied to a located CML — the workflow described at /digital-twins-ndt/ut-thickness-overlay. Whether you need that visual layer at all, or an inspection data management system instead, is worked through at /digital-twin-vs-idms.",
+          "This reframes the decision usefully. Choosing a system of record is choosing whether the next five years of readings become a queryable asset or a searchable archive. Neither choice is wrong, but only one of them compounds, and the cost of switching later is paid on all the data collected in between."
+        ]
+      },
+      {
+        "heading": "A migration order that does not stall",
+        "paragraphs": [
+          "Migrations stall when they start with history. The order that finishes is master data first — technicians with their certifications and expiry dates, instruments with serial numbers and calibration due dates, clients, sites, assets and the CML register. That data is small, high value, and it is what makes expiry blocking and traceability work from day one. Then move the single highest-volume report type, run it in parallel with the spreadsheet for a few weeks, and only then extend to the remaining methods.",
+          "Keep the calculation workbooks. Most teams retain one or two engineering spreadsheets permanently, and that is the correct outcome rather than an incomplete migration. What moves is the record of examination — the values, the attribution, the revisions and the retention. What stays is the maths the Level III wants to be able to see.",
+          "Write your requirements down before you sit through any demonstration, using the buyer-side checklist at /erp/ndt-software-rfp-requirements-checklist. Then ask every vendor, including us, to demonstrate four things on your own data rather than on a sample dataset: field-level audit trail on a single reading, a hard block on an expired certificate, issuing a revision to a named recipient, and full offline capture. Atlantis builds NDT reporting to be affordable, accessible and fully customisable — request a demo or a quote at /contact or info@atlantisndt.com."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can we run Excel and NDT reporting software side by side during the change?",
+        "a": "Yes, and it is the lower-risk path. Run one method or one client's work in the new system while everything else stays in the workbook, compare the two outputs for a few weeks, then extend. Parallel running costs duplicate entry on a limited slice of jobs and buys confidence that acceptance criteria, calculations and layout match before anything client-facing depends on it."
+      },
+      {
+        "q": "Will clients accept a PDF generated by software instead of our Excel template?",
+        "a": "Clients accept the content, the format and the signature, not the tool. Where a client specifies a data sheet layout, that layout is reproduced. Where they accept your house format, the PDF looks the same as before. The practical improvement is that a software-issued PDF carries a report number, a revision and a traceable examiner, which is what document controllers actually check."
+      },
+      {
+        "q": "Who owns the data after we migrate off spreadsheets?",
+        "a": "You should, and it should be verifiable before you sign. Ask for a documented export of every record type in an open format, ask how often you can run it, and ask what happens to your data if the relationship ends. A vendor who can only export PDFs is holding your record system. Atlantis systems are fully customisable and your data stays exportable."
+      },
+      {
+        "q": "Should we import ten years of old Excel reports?",
+        "a": "Import the structured parts and leave the rest as archived files. Thickness series, CML registers, asset lists and inspection dates carry forward well and immediately drive corrosion rates and due dates. Narrative report text and scanned attachments usually do not justify the mapping effort. Keep the original workbooks and PDFs in retained storage so the historical record is intact either way."
+      },
+      {
+        "q": "Does NDT reporting software work in the field where Excel worked offline?",
+        "a": "Only if it was built to. A local spreadsheet is offline by default, so this is one area where Excel starts ahead and cloud software must catch up. Genuine offline capability means a local database on the device, full report creation and signing with no signal, and conflict-aware sync on reconnect. The requirements and a test script are at /offline-ndt-inspection-app."
+      }
+    ]
+  },
+  {
+    "slug": "/offline-ndt-inspection-app",
+    "title": "Offline NDT Inspection App: What Must Work With No Signal",
+    "description": "What true offline NDT field capture must do with zero signal: local-first storage, sync conflict rules, timestamp integrity and signed PDFs generated on site.",
+    "h1": "How offline NDT field capture has to behave when the plant has no signal",
+    "answer": "A field NDT app must write every reading to local storage first and treat the server as a second copy. With no signal the technician still opens the work pack, records thickness readings, attaches photos, captures a signature, and generates the site PDF. On reconnect the app replays queued writes in order, resolves conflicts by record rather than by file, and preserves the original capture timestamp.",
+    "expansion": "Offline is a spectrum, and vendors use the word for very different behaviour. The weakest form caches a read-only work pack so the technician can see drawings and prior readings but captures nothing. The strongest form runs a full local database on the device, treats it as the record of first entry, and synchronises changes upward as an ordered queue when a connection returns. Between those sit apps that queue new records but cannot render a PDF, cannot collect a signature, and cannot reopen a report created earlier the same shift. The distinction only shows up in the field, which is the worst possible place to discover it. Test the claim in airplane mode before purchase: create a job, record readings, attach photos, sign, generate the PDF, force-quit the app, reopen it, then reconnect and confirm nothing duplicated and no timestamp moved.",
+    "source": "ISO/IEC 17020:2012, clause 7.3 (primary records to be made as soon as practicable) and clause 7.4 (report traceable to the inspector); ETSI EN 319 142-1, PAdES baseline profiles; IETF RFC 3161, Time-Stamp Protocol; WebKit, \"Tracking Prevention in WebKit\" (seven-day cap on script-writable storage).",
+    "table": {
+      "caption": "Four levels of offline capability in a field inspection app, and what each survives",
+      "columns": [
+        "Tier",
+        "Works with zero signal",
+        "What is at risk",
+        "Behaviour on reconnect",
+        "Where it holds up"
+      ],
+      "rows": [
+        [
+          "Online-only web form",
+          "Nothing once the session expires",
+          "An entire shift of entries",
+          "Nothing to sync; the data was never stored",
+          "Desk review and office QA only"
+        ],
+        [
+          "Cached read-only pack",
+          "Viewing drawings, procedures and prior readings",
+          "New data goes on paper and is re-keyed later",
+          "Pack refreshes; nothing uploads",
+          "Walkdowns, audits, pre-job planning"
+        ],
+        [
+          "Queue and forward",
+          "Creating new records, but no PDF and no signature",
+          "Queue lost on app reinstall or device wipe",
+          "Queue replays; duplicates appear if retries are not idempotent",
+          "Short outages and patchy coverage"
+        ],
+        [
+          "Offline-first local database",
+          "Create, edit, sign, generate the PDF, reopen earlier jobs",
+          "Device loss before the first sync",
+          "Ordered replay, per-field merge, conflicts surfaced for review",
+          "Turnarounds, offshore, tank and vessel interiors"
+        ],
+        [
+          "Offline-first plus deferred trusted timestamp",
+          "All of the above, with the PDF signed on the device",
+          "Device loss before the first sync",
+          "Document timestamp and revocation data added at sync (PAdES-LT/LTA)",
+          "Records that must still validate decades later"
+        ]
+      ],
+      "note": "These tiers are a buying aid, not a published standard, so no vendor will describe themselves using them. Ask for a demonstration in airplane mode on a real device instead of asking which tier they claim. The line most products fall short of is between tier three and tier four: producing a signed, issuable PDF on site with no connection at all."
+    },
+    "facets": [
+      {
+        "q": "What happens when two technicians edit the same CML while both are offline?",
+        "a": "With record-level sync, readings on different CMLs never collide, because each reading is its own row with its own version. A true collision is the same field of the same record changed twice. Last-write-wins silently destroys one examination result and is unacceptable for readings. The correct behaviour is to surface both values with the technician, device and capture time attached, and let a reviewer decide."
+      },
+      {
+        "q": "Can a report be signed offline in a way that still holds up years later?",
+        "a": "Yes, in two stages. A cryptographic signature can be applied on the device with no network, because signing needs only the private key. A trusted timestamp under RFC 3161 needs a Time-Stamp Authority, which needs connectivity. So the app signs on site, then at sync embeds revocation data and a document timestamp to reach PAdES-LT or LTA, without invalidating the original signature."
+      },
+      {
+        "q": "How does the app stop a reading being back-dated?",
+        "a": "By never trusting a single clock. The record carries device local time with UTC offset, a monotonic elapsed-time value that does not jump when the user changes the clock, and the server's receipt time at sync. If elapsed time between two records is twenty minutes but wall-clock difference is six hours, the clock moved and the system flags it. GNSS supplies a further independent time source with no cellular network."
+      },
+      {
+        "q": "What breaks first when signal is weak rather than absent?",
+        "a": "Everything, because the device reports itself as connected. Requests hang for the full network timeout instead of failing immediately, the interface spins, and the technician taps again — producing duplicate records. Apps that treat connectivity as binary perform worse on one bar than on none. The fix is short timeouts, immediate fallback to the local write path, and background sync that never blocks the form."
+      },
+      {
+        "q": "Can the phone or browser delete offline data on its own?",
+        "a": "Yes, and this is the most overlooked risk. Browser storage is evictable under storage pressure unless persistence is requested, and Safari clears script-writable storage — IndexedDB, localStorage, service worker records — for sites not interacted with in seven days of browser use. Home-screen web apps are exempt from that cap. A browser tab is therefore not a safe container for a week of unsynced examination records."
+      },
+      {
+        "q": "How long can a device stay offline before sync becomes a problem?",
+        "a": "Weeks, if the app stores records locally in a real database and photos are managed rather than accumulated. Three things degrade with time offline: local storage consumed by images and instrument files, the probability that someone else edited the same records, and the exposure window if the device is lost. Sync at every opportunity, even briefly at the gate, rather than once at the end of a swing."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What offline has to mean before a technician trusts it",
+        "paragraphs": [
+          "Adoption in the field is binary. A technician either opens the app inside a tank and starts working, or reaches for a clipboard. One failed attempt and the app is finished: paper comes back, and the software degrades into a re-keying station where someone in the office types up the day's scribbles. That is a worse outcome than never buying it, because you now pay for the licence and the transcription. The requirement is therefore not that the app works offline sometimes — it is that it behaves identically whether or not there is a signal.",
+          "Concretely, that means all of the following work with the radio off: opening a job created last week, creating a new job, entering readings, attaching photos, marking an indication on a sketch or weld map, looking up the applicable procedure and acceptance criteria, seeing the previous thickness recorded at that CML, capturing a signature, and producing the PDF. If any one of them requires a round trip, the technician hits a wall mid-examination, which is the moment trust is lost.",
+          "The reliable tell during a demonstration is what happens to controls that normally fetch from a server. A client dropdown, the next report number, an acceptance criteria table, a technician list. If any of those loads on demand, the form stalls with no signal. All reference data has to be pre-synced with the work pack before the crew leaves, which means someone must be able to define what a work pack contains."
+        ]
+      },
+      {
+        "heading": "Where signal actually disappears in a plant",
+        "paragraphs": [
+          "Coverage maps are drawn for people standing outside. NDT is performed inside. A welded steel tank interior behaves close to a Faraday cage; so do vessel and column internals, boiler houses, cooling tower basins, culverts and trenches, and below-deck spaces on a vessel. Signal also drops under dense pipe racks and grating, in concrete-walled radiography vaults, and in the middle of large tank farms where the nearest mast is a kilometre away and the steel is between you and it.",
+          "Plenty of no-signal situations are administrative rather than physical. Radiography exclusion zones impose controlled entry and, on some sites, radio restrictions. Many client facilities prohibit personal devices, prohibit cameras without a permit, and refuse to let contractor hardware join plant networks. During a turnaround, several thousand contractors share one guest SSID that was sized for a normal week, so the network exists and is functionally unusable — the worst case for any app that assumes a live connection.",
+          "Remote and offshore work adds latency rather than absence. VSAT links are contended and high-latency, and a design that makes one request per field is unusable at 600 ms round trip even though the connection is technically up. This is why offline-first and low-chattiness are the same engineering decision, not two separate features."
+        ]
+      },
+      {
+        "heading": "Local-first storage: the device holds the record of first entry",
+        "paragraphs": [
+          "The architecture that works writes to a local database first and reads from it always. On a native app that is usually SQLite; in a browser-based or progressive web app it is IndexedDB. The server holds a replica that catches up. This inverts the default cloud pattern, where the server is authoritative and the device holds a cache, and the inversion is the whole point: if the server is authoritative, no server means no work.",
+          "This also improves the compliance position rather than weakening it. ISO/IEC 17020:2012 clause 7.3 requires primary records to be made as soon as practicable. A reading typed into the app at the point of examination is a primary record. The same reading written on a glove, transcribed to a notebook, then typed into a spreadsheet that evening is a transcription of a transcription, and every step is an opportunity for a transposed digit that nobody can later detect.",
+          "Storage durability deserves specific attention because it is where browser-based products quietly fail. Browser storage is evictable under device storage pressure unless the app explicitly requests persistence, and Safari's tracking prevention clears script-writable storage — IndexedDB, localStorage and service worker registrations included — for first-party sites the user has not interacted with in seven days of browser use. Home-screen web applications are exempt from that cap. A product making a week-long offline claim must therefore be a native app or an installed home-screen app, and you should confirm which."
+        ]
+      },
+      {
+        "heading": "Sync conflicts: resolve by record and field, never by file",
+        "paragraphs": [
+          "Two technicians working the same job is normal, not an edge case. If sync operates on documents, reconnecting forces a choice between whole files: one person's afternoon wins and the other's is discarded or shunted into a conflict copy nobody reads. If sync operates on records, each reading, indication, photo and signature carries its own identity and version, and two people adding readings at different CMLs never conflict at all. Most apparent conflicts vanish purely by making the unit of sync smaller.",
+          "A genuine conflict is the same field of the same record given two different values. There are three honest resolutions. Last-write-wins is simple and silently destroys an examination result, which makes it acceptable for a cosmetic field like a job note and unacceptable for a measured value. First-write-wins rejects the second edit and tells the technician. Surfacing both values to a reviewer, with technician, device and capture time attached, is slowest and correct for anything that goes on a report. A product that cannot tell you which of these it uses has not thought about it.",
+          "Retry safety is the quiet requirement underneath all of it. Mobile sync retries constantly, and without a client-generated identifier the second attempt after a timeout creates a duplicate report. The device must mint the record identifier — a UUID — while still offline, and the server must treat a repeat of the same identifier as the same record rather than a new one. That same mechanism is what allows a report number to be reserved on the device before anyone knows the server is reachable."
+        ]
+      },
+      {
+        "heading": "Timestamp integrity: capture time, device time and server time",
+        "paragraphs": [
+          "A handset clock is a user setting. Any record whose only timestamp came from the device is disputable, and in a disagreement about when an examination was performed that is precisely the record you need to defend. The answer is to record more than one clock. Store the device's local time with its UTC offset, store a monotonic elapsed-time reading that keeps counting forward regardless of what the user does to the clock, and store the server's receipt time when the record finally arrives.",
+          "Those three values together make manipulation visible. If the monotonic difference between two consecutive records is twenty minutes while the wall-clock difference is six hours, the clock was changed between them, and the system can flag the record rather than silently accepting it. GNSS gives an additional independent reference: a satellite fix carries time and needs no cellular network at all, so a position-stamped reading taken in a tank farm with no signal still has externally sourced time.",
+          "What matters on the finished report is that the examination date comes from the capture, never from the upload. A crew that syncs on Monday morning must not produce reports dated Monday for work performed on Saturday, and the record must retain both facts — when it was taken, when it was received, and that the two differ. That is a stronger evidentiary position than paper, which carries whatever date the technician wrote."
+        ]
+      },
+      {
+        "heading": "Signing and issuing the PDF on site",
+        "paragraphs": [
+          "Clients frequently want a document before the crew leaves the gate. That requires the PDF to be composed on the device: template, fonts, logo, sketches and photographs all embedded locally with no server-side render step. This is the most common place a supposedly offline app fails, because capture was built offline and rendering was left on the server. The technician can enter everything and hand over nothing.",
+          "Signature type matters more than most buyers realise. A captured signature image is a picture of a scribble; it proves very little and can be copied between documents. A cryptographic signature applied on the device binds the document content to a key, so any later alteration is detectable. Signing itself needs no network, because it uses the private key held on the device. The trusted timestamp does need one: RFC 3161 timestamps come from a Time-Stamp Authority over the network.",
+          "The practical resolution is a two-stage signature. The device produces a signed PDF on site under the PAdES baseline profiles defined in ETSI EN 319 142-1, and the technician issues that copy immediately. At sync, the system embeds the certificate chain and revocation data and adds a document timestamp, reaching PAdES-LT or LTA. Further archive timestamps can be added over the years without invalidating the original signature, which is what keeps a record verifiable long after the signing certificate has expired. Where the report is derived from instrument output, the path from raw file to issued document is covered at /omniscan-data-to-inspection-report."
+        ]
+      },
+      {
+        "heading": "Weak signal is worse than no signal",
+        "paragraphs": [
+          "Most apps detect connectivity as a boolean and get it wrong at exactly the wrong moment. With one bar, the operating system reports a working network, the app issues a request, and that request hangs for the full timeout rather than failing fast. The interface shows a spinner, the technician assumes the tap did not register and taps again, and now two records are in flight. Performance on a marginal connection is routinely worse than performance with the radio switched off.",
+          "The design that survives treats the network as unreliable at all times rather than as a state to be checked. Every write goes to the local database first and returns immediately. Sync runs in the background and never blocks the form. Timeouts are short and fall back instantly to the queue. Sync state is shown as a count of pending records with a manual sync control, not as an indeterminate spinner, so the technician always knows how much work is still only on the device.",
+          "Battery is the other casualty of marginal coverage: a radio hunting continuously for an unusable network drains a device far faster than one that has given up. A deliberate field mode that suspends sync attempts until the technician is back at the gate is a legitimate and underrated feature, particularly on a twelve-hour shift where nobody can charge anything."
+        ]
+      },
+      {
+        "heading": "Devices, hazardous areas and what site IT will allow",
+        "paragraphs": [
+          "Area classification decides the hardware before software preferences do. Zone 1 and 21 under ATEX and IECEx, and Class I Division 1 under the North American scheme, require intrinsically safe devices from specialist manufacturers such as Aegex, ecom or Bartec, or a standard device inside a certified enclosure. Zone 2 and 22, and Class I Division 2, are the more common classification for the areas technicians actually work in, and are served by mainstream rugged tablets from Getac, Durabook and Juniper Systems among others. Always take the classification from the site's own hazard assessment rather than from a product page.",
+          "Client IT policy is the second gate and is often the harder one. Many facilities prohibit personal devices airside, require a permit for any camera, and will not permit contractor hardware onto plant networks under any circumstances. An app that never needs the client's network sidesteps that negotiation completely — the crew works offline all day and syncs over the company's own cellular connection or back at the office. That is a commercial advantage during mobilisation, not only a technical one.",
+          "Because the device now holds the primary record before sync, device management becomes part of the quality system. The local database must be encrypted at rest, the device must enforce a screen lock, and remote wipe must exist. Sync frequency is a risk control as much as a convenience: a device that has synced at lunchtime exposes half a shift if it is dropped from scaffolding, and a device that syncs weekly exposes a week."
+        ]
+      },
+      {
+        "heading": "How to test an offline claim in twenty minutes",
+        "paragraphs": [
+          "Run this before you sign anything, on a real device, with the vendor watching. Switch to airplane mode before opening the app, then cold start it. Create a job, enter twenty thickness readings, attach three photographs, mark an indication on a sketch, capture a signature, generate the PDF and open it. Force-quit the app entirely. Reopen it, still offline. Everything must be exactly where you left it, and the PDF must still open. Most products fail somewhere in the second half of that list.",
+          "Then run the harder half. On a second device, also offline, edit the same job — change one of the same readings and add readings at different CMLs. Reconnect both devices and check four things: no duplicate report number was issued, no reading disappeared, the genuine conflict was surfaced to a reviewer rather than silently resolved, and every examination timestamp still shows capture time rather than sync time. Finally, set one device's clock back three hours before syncing and see whether the system notices.",
+          "Turn those steps into written acceptance criteria and put them in your requirements document rather than leaving them as demo-day questions — the buyer-side checklist at /erp/ndt-software-rfp-requirements-checklist is structured for exactly that. If you are still deciding whether the underlying record model needs to change at all, the comparison at /ndt-reporting-software-vs-excel covers what a spreadsheet can and cannot hold. Atlantis builds NDT reporting and field capture to be affordable, accessible and fully customisable; ask us to run the twenty-minute test on your own job types at /contact or info@atlantisndt.com."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do we need rugged or intrinsically safe tablets to use an offline NDT app?",
+        "a": "Only where the area classification requires it. Zone 2 or Class I Division 2 areas are served by mainstream rugged tablets; Zone 1 or Division 1 needs certified intrinsically safe hardware or a certified enclosure. For office, shop and non-classified areas, an ordinary phone in a protective case is adequate. Take the requirement from the site's hazard assessment, not from a vendor recommendation."
+      },
+      {
+        "q": "What happens if a technician's device is lost before the data syncs?",
+        "a": "Unsynced records are lost, which is why sync frequency is a risk control rather than a convenience. Sync opportunistically whenever any connection appears, even briefly at the gate or in the crew vehicle, so exposure is measured in hours rather than in swings. Encryption at rest and remote wipe limit the confidentiality consequence; only frequent sync limits the data-loss consequence."
+      },
+      {
+        "q": "Can the office see partial results before the technician syncs?",
+        "a": "Only what has already reached the server. Records that exist solely on the device are invisible by definition, and any product claiming live visibility from a no-signal area is describing something else. What good systems do provide is a clear pending count on the device and a last-synced timestamp visible to the coordinator, so the office knows how stale its picture is."
+      },
+      {
+        "q": "Does offline behave the same on iOS and Android?",
+        "a": "Not identically. Both operating systems suspend and may terminate backgrounded apps to reclaim memory, and both limit background execution time, so sync should be designed to resume rather than to run continuously. Browser-based apps diverge more sharply: Safari's seven-day cap on script-writable storage applies to sites in Safari but exempts home-screen web apps. Verify the exact deployment model you will use."
+      },
+      {
+        "q": "Is offline capture acceptable under ISO/IEC 17020?",
+        "a": "Yes, and it fits the standard better than paper transcription. Clause 7.3 requires primary records to be made as soon as practicable, which entering readings at the point of examination satisfies directly. Clause 7.4 requires the report to be internally traceable to the inspector who performed it, which device-level attribution and capture timestamps support. The clause-to-record mapping is at /erp/iso-17020-software-for-ndt-inspection-bodies."
+      }
+    ]
+  },
+  {
+    "slug": "/erp/ndt-software-roi-calculator",
+    "title": "NDT Inspection Software ROI: Run the Four-Cost Model Yourself",
+    "description": "Four countable cost lines — report admin, rework, certification lapse, unbilled field hours — with the arithmetic written out so you can run it on your own numbers.",
+    "h1": "Build an NDT software ROI case from four cost lines you already track",
+    "answer": "NDT inspection software ROI resolves into four countable lines: administrative minutes per report, rework on rejected reports, certification and calibration lapse events, and the gap between paid and invoiced field hours. Convert each to hours, multiply by your fully burdened internal labour rate, sum them, and divide your quoted annual software cost into the total. That produces a payback period in months rather than a vendor percentage.",
+    "expansion": "Most NDT software business cases fail internal review because they lead with a vendor percentage instead of a countable quantity. A percentage cannot be audited. Minutes per report can. Every inspection contractor already holds the four inputs this model needs: the number of reports issued last financial year, the median time between a technician finishing on site and the client receiving a signed file, the count of reports the client sent back for revision, and the difference between payroll field hours and invoiced field hours. Those four numbers, multiplied by a fully burdened internal labour rate, produce a defensible annual figure before a single vendor is contacted. The worked model below runs the arithmetic for a twelve-technician firm so you can substitute your own inputs line by line. Nothing in it depends on a software price, which is why it survives contact with a finance director.",
+    "source": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS), SOC 51-9061 Inspectors, Testers, Sorters, Samplers and Weighers — for the wage anchor behind a loaded rate; ASNT Recommended Practice No. SNT-TC-1A (2024 edition, with 2025 addendum); ANSI/ASNT CP-189 (2024); ISO 9712:2021 clause on five-year certificate validity; API Individual Certification Programs, Program Document ICP-PD-102-Inspector, revision date 15 September 2025 (24 CPD hours per three-year certification cycle, plus continued inspection experience and the six-year web quiz).",
+    "table": {
+      "caption": "The four-line NDT software ROI model, worked for a 12-technician contractor issuing 3,200 reports a year",
+      "columns": [
+        "Cost line",
+        "Input you already have",
+        "Worked example (12 technicians, 3,200 reports/yr)",
+        "Annual hours recovered",
+        "Annual value at $65/hr loaded"
+      ],
+      "rows": [
+        [
+          "1. Report assembly and issue",
+          "Median minutes from last field reading to client-accepted file",
+          "45 min falls to 20 min across 3,200 reports (25 min × 3,200 = 80,000 min)",
+          "1,333",
+          "$86,600"
+        ],
+        [
+          "2. Rework on rejected reports",
+          "Share of reports issued at Rev B or higher × minutes per revision cycle",
+          "Reject rate 6% falls to 3%; 96 reports avoided × 90 min",
+          "144",
+          "$9,400"
+        ],
+        [
+          "3. Certification currency chasing",
+          "Coordinator hours per month verifying tickets before mobilisation",
+          "6.0 h/month falls to 0.5 h/month (5.5 × 12)",
+          "66",
+          "$4,300"
+        ],
+        [
+          "4a. Lapse-driven gate turnbacks",
+          "Site-access rejections per year × crew hours lost",
+          "3 events × 16 crew hours",
+          "48",
+          "$3,100"
+        ],
+        [
+          "4b. Out-of-calibration rework",
+          "Jobs re-shot after a recall miss × crew hours lost",
+          "2 events × 24 crew hours",
+          "48",
+          "$3,100"
+        ],
+        [
+          "5. Unbilled field hours",
+          "Payroll field hours minus invoiced field hours, same period",
+          "1.5% of 22,800 paid field hours recovered",
+          "342",
+          "$22,200"
+        ],
+        [
+          "Model total",
+          "—",
+          "Sum of lines 1 to 5",
+          "1,981",
+          "$128,700"
+        ]
+      ],
+      "note": "The $65/hour figure is an illustrative fully burdened internal cost — base wage multiplied by your burden factor for payroll tax, insurance, PPE, vehicle, dosimetry and non-billable overhead. It is not a market rate, not a bill rate, and not an Atlantis price. Substitute your own loaded rate and the whole table re-scales. Lines 1 to 4b are cost avoidance and are correctly valued at cost rate. Line 5 is recoverable revenue and should be valued at your client bill rate, which is higher than your cost rate — valuing it at cost rate, as shown here, is the conservative choice."
+    },
+    "facets": [
+      {
+        "q": "What fully burdened labour rate should I use in an NDT software ROI model?",
+        "a": "Use your own, not a published average. Take the annual payroll cost of the people who actually do the work being displaced — coordinators, document controllers, Level II technicians, the reviewing Level III — add employer tax, insurance, vehicle, PPE, dosimetry and training cost, then divide by productive hours. BLS OEWS SOC 51-9061 is a useful sanity check on the base wage, but the burden multiplier is specific to your company and your region."
+      },
+      {
+        "q": "How do I measure current admin minutes per report without a time-tracking system?",
+        "a": "Take the twenty most recent completed jobs and reconstruct the timeline from timestamps you already hold: the last instrument file write, the email that sent field data to the office, the report file creation date, the Level III signature date, and the client portal upload confirmation. Record the elapsed handling time, not calendar time. Use the median rather than the mean, because a single stalled job distorts an average badly."
+      },
+      {
+        "q": "What counts as a report rework event, and where do I pull the number?",
+        "a": "A rework event is any issued report that had to be reopened, corrected and re-issued for reasons inside your control. The cleanest proxy is your own revision suffix: count reports issued at Rev B or later as a share of total reports. Exclude revisions the client caused through scope change. Your document control resubmission log and client rejection emails give the same number a second way."
+      },
+      {
+        "q": "How should implementation and data migration be treated in the payback calculation?",
+        "a": "They belong in the denominator, expressed in hours and cash, not hidden. Ask any vendor for five written numbers: configuration hours on their side, configuration hours expected from you, migration hours for legacy records, training hours per user role, and the length of parallel running. Convert your internal hours at the same loaded rate used in the benefit lines. A model that counts benefit hours but not effort hours is not credible."
+      },
+      {
+        "q": "What payback period should an NDT software business case target?",
+        "a": "Set the threshold before you build the model, not after. Inspection contractors work on annual or multi-year framework agreements, so a payback the finance function can defend usually sits inside a single contract cycle. Write down your target month count first, then test whether the four lines reach it on conservative inputs. Deciding the threshold afterwards is how business cases become sales documents."
+      },
+      {
+        "q": "Does the model change for a five-technician shop versus a sixty-technician firm?",
+        "a": "The arithmetic is identical; the dominant line moves. A small shop concentrates value in line one, because one coordinator absorbs all report handling and that person is the bottleneck. A large firm concentrates value in line five, because unbilled field hours scale with crew count and become invisible above a certain headcount. Run the same five rows either way and let the totals tell you where to press."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The unit of cost in an NDT business is the report, not the licence",
+        "paragraphs": [
+          "Software business cases are usually built around seat count, because seats are how software is sold. That is the wrong denominator for an inspection business. An NDT contractor's cost structure is driven by how many reports leave the building and how much human handling each one absorbs between the probe coming off the weld and the client's document controller accepting the file. So count reports first. Pull the issued-report count for the last full financial year from your job register, your invoicing system, or the client's acceptance log — whichever is most complete.",
+          "Once you have the annual report count, every other line becomes a rate applied to it. Administrative handling is minutes per report. Rework is a share of reports multiplied by minutes per revision cycle. Certification and calibration failures are events per year expressed as lost crew hours. Unbilled field time is a percentage of paid hours. Four rates against one denominator. That structure is what lets a finance reviewer challenge one input at a time instead of rejecting the entire case as vendor arithmetic.",
+          "It also makes the model portable. A five-inspector shop issuing 700 reports a year and a sixty-inspector firm issuing 18,000 use identical arithmetic at different magnitudes. Nothing in the structure assumes a method mix, a client, or a product. That is deliberate. A business case that only works with one vendor's feature list is a sales document wearing a spreadsheet."
+        ]
+      },
+      {
+        "heading": "Line one: the minutes between field data and an issued report",
+        "paragraphs": [
+          "Define the measurement window precisely or the number will be useless. It starts at the technician's last reading on site and ends when the client's document control system accepts the file. Inside that window sit transcription of instrument output, selection of the correct report template and procedure revision, insertion of calibration references, technical review by the qualified level, signature, PDF assembly, and upload to whatever portal the client mandates. Every one of those steps is a place where a report waits on a human.",
+          "You do not need a time-tracking system to measure it. Take the twenty most recent completed jobs and reconstruct the timeline from timestamps you already hold — instrument file write time, the email that carried field data to the office, report file creation, signature date, upload confirmation. Record handling time rather than calendar time, and use the median. One stalled job caused by a client holiday shutdown will wreck a mean and make your baseline indefensible under challenge.",
+          "Be honest about which minutes software actually removes. Direct instrument-to-report data transfer removes re-keying, transposition checks and template hunting; a structured review queue removes chasing a Level III for a signature; an integration removes manual portal upload. See how that transfer works in practice on our walkthrough of taking [OmniScan data into a client report](/omniscan-data-to-inspection-report). What software does not remove is the technical judgement time of the reviewing Level III. Leave that in the baseline and out of the savings."
+        ]
+      },
+      {
+        "heading": "Line two: rework is the most under-counted number in the model",
+        "paragraphs": [
+          "Rejected reports rarely appear in any system of record, because the correction happens in the same inbox thread that raised it. The coordinator fixes the file, re-issues it, and no one logs an event. That is why rework is the line most companies underestimate by the widest margin, and why it is worth reconstructing carefully rather than estimating from memory.",
+          "There is a reliable proxy hiding in your own numbering convention. Count how many reports were issued at Rev B or later as a share of total reports issued. That share is your reject rate, and it requires no new logging to obtain. Cross-check it against client rejection emails and your document control resubmission log. Then exclude revisions caused by client scope change, because those are billable and do not belong in a savings line.",
+          "Separate the causes before you claim the saving. Mechanical rejections — wrong procedure revision cited, missing calibration block reference, transposed CML identifier, report signed by an unqualified level, incorrect acceptance criteria pulled from the wrong code edition — are the ones a properly configured system prevents at data entry. Interpretive rejections, where the client disputes a call, are not. Split your reject population between the two and only monetise the first half. A model that claims all rework disappears will not survive review."
+        ]
+      },
+      {
+        "heading": "Line three: certification currency, and the cost of finding out at the gate",
+        "paragraphs": [
+          "Certification generates two distinct costs, and they need separate rows. The first is chasing: coordinator hours spent every month confirming that each technician mobilising to a site holds a current ticket, a current vision test, a current site induction and a current medical. The second is lapse: a technician turned back at the gate, a crew standing down, and a client relationship that now carries a mark against it.",
+          "Chasing is easy to count. Ask the coordinator how many hours a month they spend verifying credentials before mobilisation, then multiply by twelve. The underlying schemes make the workload unavoidable — an employer-written practice under ASNT Recommended Practice No. SNT-TC-1A (2024) sets its own recertification intervals, ISO 9712:2021 certificates carry a maximum five-year validity with a defined renewal window, and API's Program Document ICP-PD-102-Inspector requires 24 CPD hours per three-year certification cycle alongside continued inspection experience and a six-year web quiz. Different clocks, one coordinator.",
+          "Lapse is counted as events. Pull the number of site-access rejections in the last twelve months and multiply by the crew hours lost each time — not one technician's hours, the whole crew's, plus travel already incurred. Add any contractual consequence you can document. For the hours and scoring rules behind the schemes themselves, see our [NAS 410 certification requirements](/nas-410-certification-requirements) breakdown and the cross-scheme [NDT training hours matrix](/blog/ndt-training-hours-requirements-by-method)."
+        ]
+      },
+      {
+        "heading": "Line four: the gap between paid field hours and invoiced field hours",
+        "paragraphs": [
+          "This is the line most contractors have never measured, and often the largest one in the model. Take payroll field hours for a defined period and set them against invoiced field hours for the same period and the same crews. The difference is work you paid for and did not bill. It is not fraud and it is not laziness — it is the predictable result of authorising work verbally in a live plant and reconstructing it from memory a fortnight later.",
+          "The gap has consistent hiding places. Standby time during a permit delay that nobody logged. Travel that the contract allows but the timesheet never claimed. Overtime worked before written approval arrived, then written off to keep the client comfortable. Scope added by a supervisor at the workface and never converted into a variation. Each of these is a data-capture failure at the point of work, which is exactly the failure a mobile field capture tool addresses.",
+          "Value this line at your bill rate, not your cost rate, because recovering it produces revenue rather than avoiding expense. The worked table above values it at cost rate deliberately, to keep the total conservative. If you value it correctly it becomes the dominant line for any firm above roughly twenty technicians, which is a useful signal about where your management attention belongs regardless of what software you buy."
+        ]
+      },
+      {
+        "heading": "The arithmetic, written out end to end",
+        "paragraphs": [
+          "Here is the twelve-technician example in full so it can be checked line by line. Inputs: 3,200 reports issued last year; median report handling falling from 45 to 20 minutes; reject rate falling from 6% to 3% at 90 minutes per revision cycle; certification chasing falling from 6.0 to 0.5 coordinator hours per month; three gate turnbacks at 16 crew hours each; two calibration-recall re-shoots at 24 crew hours each; 22,800 paid field hours with 1.5% recovered into invoices.",
+          "The multiplications: 25 minutes × 3,200 reports = 80,000 minutes = 1,333 hours. 96 avoided rejections × 90 minutes = 144 hours. 5.5 hours × 12 months = 66 hours. 3 × 16 = 48 hours. 2 × 24 = 48 hours. 22,800 × 1.5% = 342 hours. Total 1,981 hours. At a loaded internal cost of $65 per hour, that is $128,700 a year, of which $22,200 is recoverable revenue rather than avoided cost.",
+          "Now build the denominator. Take the annual figure the vendor quotes you — subscription plus implementation plus your own internal effort hours converted at the same loaded rate — and divide it into $128,700 to get a payback period in months. Do not accept a model that omits your internal hours. And halve every benefit input before you present it; a case that still clears the threshold at half strength is a case that will not be argued with."
+        ]
+      },
+      {
+        "heading": "The other side of the ledger",
+        "paragraphs": [
+          "A credible model has a cost side with the same level of detail as the benefit side. Ask every vendor for five numbers in writing before you calculate anything: configuration hours on their side, configuration hours expected from your team, migration hours for legacy records, training hours per user role, and the planned length of parallel running. Vendors who will not commit these to writing are telling you something about how the implementation will go.",
+          "Then add the costs no vendor quotes. Someone inside your company has to own the system — writing templates, maintaining the procedure library, keeping the client list and the equipment register current. That is a real fraction of a real person, and it recurs every year. Change management is the other unbudgeted line: technicians who have written reports the same way for fifteen years will need supervised time to switch, and that time is not billable.",
+          "Data migration deserves particular scepticism. Historic thickness readings, CML identifiers and calibration certificates that live in spreadsheets and scanned PDFs do not migrate cleanly, and the cleanup effort is proportional to how disciplined your naming has been. Scope migration explicitly — decide what genuinely needs to come across versus what stays archived and searchable — and cost it. Our [NDT software RFP requirements checklist](/erp/ndt-software-rfp-requirements-checklist) sets out the questions that surface these numbers before contract."
+        ]
+      },
+      {
+        "heading": "Sensitivity: which input actually moves the answer",
+        "paragraphs": [
+          "Run the model three times: at your measured inputs, at 70% of every benefit input, and at 130%. Two things become obvious immediately. Report volume and administrative minutes dominate the total, so those two numbers deserve the most measurement effort and the most scrutiny from your reviewer. Get them from records rather than recollection, and the whole model firms up.",
+          "The certification and calibration lines behave differently. In dollar terms they are small — a few thousand a year in the worked example — but they carry the highest variance, because a single lapse on the wrong contract can cost far more than the modelled crew hours. Do not inflate the dollar figure to reflect that. Present those rows at their honest value and describe the tail risk separately in words. Inflating a small line to make a case is exactly what gets business cases rejected.",
+          "If the model only clears your threshold at 130% of measured inputs, the honest conclusion is that you do not yet have the case. That is a legitimate outcome. It usually means report volume is too low for the admin line to carry the investment, in which case the right next move is to fix data capture at the workface first and revisit the full system when volume grows."
+        ]
+      },
+      {
+        "heading": "What the model deliberately cannot capture",
+        "paragraphs": [
+          "Four real benefits resist honest quantification, and they should be listed rather than monetised. Client retention: a contractor whose reports arrive same-day and never come back for revision gets renewed on terms that a slow contractor does not. Tender qualification: an increasing number of framework agreements require demonstrable data-handover capability, and failing that screen removes you from the bid list entirely, which is a revenue event with no denominator.",
+          "The third is audit posture. When an accreditation body or a client quality auditor asks to trace a specific report back to the technician's certification status on the day of the inspection, the procedure revision in force, and the instrument's calibration record, the answer is either a query or a fortnight of archaeology. Firms holding or seeking accreditation should read that requirement in detail — see [ISO 17020 software for NDT inspection bodies](/erp/iso-17020-software-for-ndt-inspection-bodies) for the clause-to-record mapping.",
+          "The fourth is recruitment and retention. Experienced technicians consistently rank paperwork burden among their reasons for leaving contracting work. Replacing a certified Level II costs recruitment fees, onboarding time and lost billable weeks. You can estimate it, but you cannot defend the estimate, so use these four as tie-breakers between shortlisted options rather than as line items in the total."
+        ]
+      },
+      {
+        "heading": "Baseline for thirty days before you sign anything",
+        "paragraphs": [
+          "The single highest-value action in this whole exercise costs nothing and takes a month. Starting on the first of next month, have your coordinator log four fields for every report: the timestamp field data arrived in the office, the timestamp the file was accepted by the client, whether the report was re-issued at any revision, and any crew hours lost to a credential or calibration problem. Thirty days of that gives you a measured baseline instead of a remembered one.",
+          "That baseline does two jobs. Before purchase, it turns your business case from estimate into evidence, and it lets you challenge any vendor demonstration against your own numbers rather than their reference customer's. After purchase, it becomes the control group — you can rerun the same four fields ninety days post go-live and produce a genuine before-and-after that your finance function will accept, which is the only way software investment gets renewed.",
+          "If you want the model applied to your actual report volume, method mix and client list rather than the illustrative twelve-technician case above, send us those four numbers and we will run it with you and show the working. Atlantis builds NDT reporting, digital twin and Odoo-based ERP systems for inspection contractors — affordable, accessible and fully customisable, with a quote issued against your scope. Reach us at [/contact](/contact) or info@atlantisndt.com."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is an ROI calculator credible if the software vendor built it?",
+        "a": "Only if it exposes the arithmetic and works without a vendor price. This model does both — every input comes from your records, every multiplication is written out, and the software cost sits in the denominator where you supply it. A calculator that hides its formula behind a slider and outputs a percentage is a marketing asset. Judge any vendor tool by whether you can reproduce its result on paper."
+      },
+      {
+        "q": "Can we run this model before we have any inspection software at all?",
+        "a": "Yes, and that is the intended use. All four benefit lines are measured from records a spreadsheet-based contractor already holds: the job register, the invoicing system, payroll hours, and the revision suffix on issued reports. You need nothing installed. If anything, firms running entirely on spreadsheets and email produce the clearest baselines, because the manual handling time is unambiguous and easy to reconstruct."
+      },
+      {
+        "q": "Should the case include ERP modules like invoicing and inventory, or only inspection reporting?",
+        "a": "Scope the case to what you will actually deploy in the first year. Adding invoicing, technician certification tracking, equipment calibration and inventory changes the benefit lines — certification chasing and unbilled hours improve materially once those modules are live — but it also lengthens implementation and increases internal effort hours. Model the phase you are buying, then model the next phase separately when it arrives."
+      },
+      {
+        "q": "How is this different from a digital twin business case?",
+        "a": "Different denominator. A reporting and ERP case is measured per report and per field hour, because those are the units of contractor cost. A digital twin case is measured per asset and per turnaround, because the value sits in inspection planning and remaining-life decisions across many years of history. They are complementary but not interchangeable — see [digital twin vs IDMS](/digital-twin-vs-idms) for where that boundary falls."
+      },
+      {
+        "q": "Who should own the ROI model inside an NDT company?",
+        "a": "The operations manager builds it and the finance function reviews it. Operations holds the report count, the reject history and the mobilisation record; finance holds the loaded labour rate and the threshold the case must clear. If the model is built entirely by whoever wants the software, it will not be believed. If it is built entirely by finance, the operational inputs will be wrong. Build it jointly."
+      },
+      {
+        "q": "What if our report volume is too low for the model to justify anything?",
+        "a": "Then you have your answer, and it is a useful one. Below a certain report count the administrative line cannot carry a full system, and the right investment is field data capture that eliminates re-keying, plus disciplined certification tracking. Revisit the full case when volume, headcount or client data-handover requirements move. Buying ahead of the numbers is how software becomes shelfware."
+      }
+    ]
+  },
+  {
+    "slug": "/erp/api-inspection-contractor-management-software",
+    "title": "IDMS Software Serves the Plant, Not the API Inspection Contractor",
+    "description": "Prometheus/VisualAIM, MISTRAS PCMS and Codeware INSPECT carry deep API code logic for asset owners. Quoting, dispatch, certification currency and client segregation are on you.",
+    "h1": "Inspection management software for API 510, 570 and 653 contractors: what the owner-side systems leave out",
+    "answer": "Software for API 510, 570 and 653 work splits along asset ownership. Owner-side systems — the VisualAIM platform now held by Prometheus Group, MISTRAS PCMS, and Codeware INSPECT — hold code calculations, CML history and risk-based inspection plans for one operator's assets. Contractors need quoting, crew dispatch, inspector certification currency, per-client data segregation and utilisation reporting. None of those systems ship that, so contractors run two.",
+    "expansion": "The API inspection contractor sits in a gap that neither end of the software market addresses. At one end are inspection data management systems built for asset owners, where the organising object is a vessel, a piping circuit or a tank that the buyer owns and will still own in twenty years. At the other end are generic field service platforms that dispatch crews and raise invoices but know nothing about a thickness reading, a corrosion rate or a certified qualification level. The contractor needs both halves at once: enough inspection domain to produce a report a plant's authorised inspector will accept, and enough commercial machinery to quote work, mobilise crews, prove every technician was current on the day, and keep one operator's data from ever appearing next to a competitor's. This page describes what each category actually does, taken from published vendor documentation, and what a contractor still has to solve on its own.",
+    "source": "Prometheus Group acquisition of the VisualAIM business assets, announced 5 August 2026 (asset purchase); MISTRAS Group PCMS and PCMS Mobile published product documentation; Codeware INSPECT published product documentation; API Individual Certification Programs, Program Document ICP-PD-102-Inspector, revision date 15 September 2025; API ICP published certification schedule and fees (2026 exam windows; initial certification $875 member / $1,125 non-member; recertification $745 member / $855 non-member); ISO/IEC 17020:2012; ASNT Recommended Practice No. SNT-TC-1A (2024).",
+    "table": {
+      "caption": "Contractor jobs-to-be-done against what owner-side IDMS and generic field service software actually cover",
+      "columns": [
+        "Job to be done",
+        "Owner-side IDMS (VisualAIM, PCMS, INSPECT)",
+        "Generic field service software",
+        "What the contractor's system must do"
+      ],
+      "rows": [
+        [
+          "Remaining life, tmin and corrosion rate under API 510/570/653",
+          "Core capability, deeply implemented",
+          "Absent",
+          "Reproduce enough of it to defend a recommendation, or hand off to the owner's system"
+        ],
+        [
+          "CML history across successive turnarounds",
+          "Core capability, owned by the asset owner",
+          "Absent",
+          "Read and write the owner's CML identifiers without becoming the system of record"
+        ],
+        [
+          "Risk-based inspection planning to API 580/581",
+          "Core capability where licensed",
+          "Absent",
+          "Not required; the owner plans, the contractor executes"
+        ],
+        [
+          "Quoting and bid turnaround for scoped inspection packages",
+          "Absent — assets are owned, not quoted",
+          "Generic quoting, no method or code awareness",
+          "Price by method, weld count, shift pattern, mobilisation and standby"
+        ],
+        [
+          "Crew dispatch, mobilisation and site access readiness",
+          "Absent",
+          "Present but credential-blind",
+          "Block a mobilisation when a ticket, medical or induction is not current"
+        ],
+        [
+          "Inspector certification currency (API CPD, ASNT, ISO 9712)",
+          "Absent",
+          "Absent or a generic expiry date field",
+          "Track distinct clocks per scheme and per inspector, with evidence attached"
+        ],
+        [
+          "Data segregation between competing client operators",
+          "Single-tenant by design — one owner's plant",
+          "Generic customer records, weak isolation",
+          "Hard partition per client, enforced on records, users and exports"
+        ],
+        [
+          "Technician utilisation and job-level margin",
+          "Absent",
+          "Present in generic form",
+          "Billable versus paid hours by technician, method and contract"
+        ]
+      ],
+      "note": "Capability descriptions reflect each vendor's published product documentation as reviewed in August 2026 and are stated at category level, not feature level — confirm current scope directly with each vendor. Prometheus Group announced the acquisition of the VisualAIM business assets on 5 August 2026, structured as an asset purchase; product positioning may change as that platform is folded into Prometheus Group's asset performance management line. Nothing here is a criticism of these products: they are built for asset owners and they serve asset owners well. The point is that the contractor's job list is a different list."
+    },
+    "facets": [
+      {
+        "q": "Can an API inspection contractor just work inside the client's IDMS?",
+        "a": "For the deliverable, often yes — many operators require findings to land in their system. For running your business, no. The client's IDMS has no record of your quote, your crew roster, your technicians' certification status, your equipment calibration schedule or your job margin, and it will never show you your other clients. It is a delivery destination, not a management system. You need both."
+      },
+      {
+        "q": "What does certification currency mean for an API 510 inspector in software terms?",
+        "a": "It means tracking several independent clocks per person and refusing a mobilisation when any has run out. API's ICP requires 24 CPD hours per three-year certification cycle alongside continued inspection experience and a six-year web quiz, per Program Document ICP-PD-102-Inspector. Layered on that sit ASNT or ISO 9712 method certifications with their own intervals, annual vision tests, site inductions and medicals. Each needs an expiry date, an evidence file and a hard block."
+      },
+      {
+        "q": "How should contractor software handle data segregation between competing clients?",
+        "a": "Partition at the record level, not the report-cover level. A refinery and its direct competitor must never share a searchable index, an attachment store, an export or a user's default scope. Enforce it in three places: role-based access tied to the client entity, exports scoped to a single client by default, and audit logging of every cross-client query. Many master service agreements make this an explicit contractual obligation, not a preference."
+      },
+      {
+        "q": "Do API 510/570/653 contractors need API 579 fitness-for-service calculations in their own system?",
+        "a": "Only if fitness-for-service is a service you sell. Codeware INSPECT performs API 579 assessments alongside API 510 tmin calculations, and firms doing FFS work as a deliverable buy that capability deliberately. A contractor supplying inspection execution and reporting does not need it in the management system — the owner's engineering function or a specialist runs the assessment. Do not pay for code depth you will not use."
+      },
+      {
+        "q": "What changes when a contractor holds ISO/IEC 17020 accreditation?",
+        "a": "Recordkeeping stops being internal housekeeping and becomes evidence an assessor will sample. You must show impartiality controls, documented competence per inspector for each inspection type performed, controlled procedures and revisions, calibrated equipment traceable to each inspection, and complaint and appeal handling. The system has to make any one report traceable to all of that on demand. Our [ISO 17020 software page](/erp/iso-17020-software-for-ndt-inspection-bodies) maps clause to record."
+      },
+      {
+        "q": "Is a generic field service management tool enough for an NDT or API inspection contractor?",
+        "a": "It covers dispatch, timesheets and invoicing competently and nothing above that line. It will not know that a technician's UT Level II expired, that a probe is out of calibration, that a report needs a qualified signature before release, or that this client's data must never surface in that client's export. Contractors who start there almost always end up bolting a spreadsheet onto it for exactly those four things."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The split that decides which software you actually need",
+        "paragraphs": [
+          "Every product in this market is built around an assumption about who owns the asset. Get that assumption right and the shortlist writes itself. If the buyer owns the vessel, the piping circuit or the tank, the software's job is to hold decades of condition history for that specific equipment, calculate remaining life, and plan the next inspection. If the buyer inspects other people's equipment for a fee, the software's job is to win work, mobilise qualified people, capture evidence at the workface, produce an accepted deliverable, and prove afterwards that everyone involved was properly certified.",
+          "Those two jobs share almost no data model. The owner's system is organised by equipment tag and lives forever. The contractor's system is organised by job and client, and each job closes. The owner cares about corrosion rate trending across fifteen years of turnarounds. The contractor cares whether the crew that flew to the site on Tuesday was billable for the full shift and whether the report cleared document control on Thursday.",
+          "This is why so many API inspection contractors end up running two systems and reconciling by hand. It is not a failure of procurement. It is a genuine gap in the market between products built for plants and products built for generic field service, and the mid-market contractor of ten to a hundred inspectors falls squarely into it."
+        ]
+      },
+      {
+        "heading": "What the owner-side systems genuinely do well",
+        "paragraphs": [
+          "Three products define the owner-side category, and each is strong in its lane. The VisualAIM platform — acquired by Prometheus Group in an asset purchase announced on 5 August 2026 — gives fixed-equipment teams a structured system for inspection history, corrosion logic, condition monitoring locations, remaining-life calculation, equipment documentation and risk-based inspection planning, and its published material describes converting AutoCAD P&IDs into structured digital drawings with assets catalogued and linked to their records.",
+          "MISTRAS PCMS is positioned as an inspection data management system for asset integrity, corrosion and inspection data across a facility's equipment, with a risk-based inspection module for prioritising work, a maintenance management link that pushes findings into a CMMS as work orders, and PCMS Mobile for field capture with offline access and synchronisation. It is one of the most established products in the category and it is built to be the operator's system of record.",
+          "Codeware INSPECT approaches the same problem from the calculation side. Its published documentation describes performing API 510 tmin calculations and API 579 fitness-for-service assessments in one platform, supported by full ASME Section VIII Division 1 and Division 2, ASME B31.3, B31.4 and TEMA calculations, with API 653 tank assessment covering shell settlement, floor bulges and patch plates. For run-repair-replace decisions on owned equipment, that depth is exactly right."
+        ]
+      },
+      {
+        "heading": "The contractor jobs none of them cover",
+        "paragraphs": [
+          "Start with the one that comes first chronologically and gets automated last: quoting. An API inspection contractor prices work by method, by weld or component count, by shift pattern, by mobilisation distance, by standby exposure and by the client's rate schedule. None of that exists in an owner-side IDMS, because owners do not quote themselves for inspecting their own tanks. Most contractors quote in a spreadsheet that lives on one estimator's laptop, which is why bid turnaround is the most common bottleneck in the business.",
+          "Then dispatch. Owner-side systems assume the inspector is already there and already qualified, because the operator employs them. A contractor is assembling a specific crew for a specific site with specific access requirements, and the binding constraint is not availability but eligibility. The system has to know that this technician's site induction lapsed last month before the truck leaves the yard, not after they are turned away at the gate.",
+          "Third, the commercial view. Which contracts made money last quarter. Which technicians are billable against paid hours. Which method lines are being underpriced. Which jobs consistently overrun their quoted hours. That is the contractor's only real management dashboard and there is nowhere in an owner's IDMS for it to live, because the owner has no margin to measure."
+        ]
+      },
+      {
+        "heading": "Certification currency is the contractor's highest-frequency failure mode",
+        "paragraphs": [
+          "A plant employing its own inspectors manages a handful of certifications for a stable roster. A contractor manages several per person across a roster that changes, against schemes with different clocks, and every one of those dates is a potential job stoppage. This is the operational problem contractors report most often, and it is almost never solved by the software they bought.",
+          "The clocks are genuinely independent. API's Individual Certification Programs, per Program Document ICP-PD-102-Inspector (revision date 15 September 2025), require 24 continuing professional development hours for every three-year certification cycle, in addition to continued inspection experience and a six-year web quiz — so an API 653 inspector's file has an expiry date, a CPD ledger and a periodic quiz obligation running simultaneously. Under ASNT Recommended Practice No. SNT-TC-1A (2024), method certifications run on the employer's own written practice with its own intervals. ISO 9712:2021 certificates carry a maximum five-year validity with a defined renewal window after expiry.",
+          "Layer on annual vision tests, client-specific site inductions, medicals, confined space and working-at-height tickets, and radiation safety cards where relevant. The software requirement is unglamorous and specific: one record per person per credential, with issue date, expiry date, scanned evidence, and a mobilisation block that fires before the crew is assigned rather than a reminder email that gets filtered. Recertification also has a cash side — API publishes recertification at $745 for members and $855 for non-members against initial certification at $875 and $1,125 — so lapsing into a full re-examination is an avoidable cost as well as an avoidable outage."
+        ]
+      },
+      {
+        "heading": "Quoting and bid turnaround: the money line nobody automates",
+        "paragraphs": [
+          "Contractors lose more revenue to slow quoting than to underpricing. A refinery planner assembling a turnaround scope sends the same enquiry to four contractors on a Monday and shortlists on Wednesday. The contractor whose estimator is on a site visit until Thursday is not in the running, regardless of rate. Speed is a qualification criterion long before price is a decision criterion.",
+          "Quoting for API inspection work is structured enough to be systematised. The inputs repeat: method mix, component or weld count, access provisions, expected standby, mobilisation distance and duration, shift pattern and rotation, consumables, equipment allocation, and the client's negotiated rate schedule where a framework agreement exists. Build those as a template per client and per work type and the estimator's job becomes selecting and adjusting rather than rebuilding from a blank sheet.",
+          "The second-order benefit matters more than the speed. Once quotes are structured data rather than spreadsheet attachments, quoted hours can be compared against actual hours job by job. That comparison is the single most valuable report a contractor can produce, because it tells you which work types you are systematically underpricing — and no owner-side inspection system can generate it, because it has never seen a quote."
+        ]
+      },
+      {
+        "heading": "Dispatch, mobilisation and the site access checklist",
+        "paragraphs": [
+          "Mobilisation is where contractor software either earns its keep or does not. The decision to send a named technician to a named site on a named date depends on availability, method qualification for the scope, current certification under the applicable scheme, valid site induction for that specific facility, current medical, and equipment that is both allocated and in calibration. Six conditions, and every one is a hard stop that a generic scheduler will happily ignore.",
+          "The right behaviour is to make the assignment impossible rather than to warn about it. If a technician's ticket expires before the job ends, the assignment should be refused at the point of scheduling with the reason stated, so the coordinator finds a substitute in the office instead of at the gate. The same logic applies to instruments: an ultrasonic thickness gauge whose calibration expires mid-campaign should not be allocatable to that campaign at all.",
+          "Equipment calibration deserves the same rigour as personnel certification and is usually managed far more loosely. Every instrument needs a calibration certificate, a due date, a traceable record linked to each report it produced, and a recall workflow. When an out-of-calibration instrument is discovered after the fact, the exposure is every report it touched since the last valid certificate — and reconstructing that list from spreadsheets is precisely the kind of week no operations manager has spare."
+        ]
+      },
+      {
+        "heading": "Client data segregation: one contractor, many competing operators",
+        "paragraphs": [
+          "This requirement has no analogue on the owner side, which is why owner-built systems have no answer for it. A contractor working for two refineries in the same market holds corrosion data, weld reject rates and equipment condition for both. That information is commercially sensitive to a degree that few software buyers appreciate until an auditor from one client asks how the other client's data is isolated.",
+          "Segregation has to be structural rather than procedural. Access scoped by client entity and enforced on every query, not just on report headers. Exports and reports that default to a single client and require deliberate action to widen. Attachment stores partitioned so a filename search cannot cross the boundary. Audit logging on every access so that a challenge can be answered with a record rather than an assurance. Anything softer than that is a policy, and policies do not survive staff turnover.",
+          "There is a contractual dimension too. Master service agreements with major operators increasingly specify data handling, retention periods and deletion obligations at contract end. A system that cannot delete or export one client's complete data set cleanly, without disturbing the others, creates a compliance problem at exactly the moment the relationship is ending. Build the requirement into procurement — our [NDT software RFP requirements checklist](/erp/ndt-software-rfp-requirements-checklist) covers how to test it during evaluation rather than after."
+        ]
+      },
+      {
+        "heading": "Writing into the client's system without owning it",
+        "paragraphs": [
+          "The deliverable question decides more implementations than the feature list does. Some operators require findings entered directly into their IDMS by the contractor's inspector. Some require a structured import file in a defined layout. Some accept a signed PDF into a document management portal. Some want all three for different asset classes. A contractor working across five operators is working across five delivery formats, and this cannot be negotiated away.",
+          "The workable architecture is one system of record for the contractor's own work and a mapping layer per client. Capture once in the field, in a structure rich enough to satisfy the most demanding client — CML identifier, nominal and measured thickness, previous reading and date, instrument and calibration reference, technician and certification level, procedure and revision — then render that into whatever each client requires. Capturing to the lowest common denominator and enriching later is how re-keying and transcription errors get built in permanently.",
+          "Getting instrument output into that structure is its own engineering problem, covered in our walkthrough of moving [OmniScan data into a client report](/omniscan-data-to-inspection-report). And where an operator is moving toward 3D asset visualisation rather than tabular records, the boundary between the two categories is worth understanding directly — see [digital twin versus IDMS](/digital-twin-vs-idms) and the [UT thickness overlay](/digital-twins-ndt/ut-thickness-overlay) workflow."
+        ]
+      },
+      {
+        "heading": "Utilisation and job margin: the contractor's real dashboard",
+        "paragraphs": [
+          "Every other section of this page describes avoiding a loss. This one describes finding money. A contractor's economics reduce to a simple question asked at three levels: what fraction of paid technician hours got invoiced, by person, by method line, and by contract. Firms that can answer it weekly price better, staff better and negotiate framework renewals from a position of fact. Firms that cannot are guessing, and usually guessing optimistically.",
+          "The gap between paid and invoiced hours hides in predictable places — standby during permit delays that nobody logged, travel the contract allows but the timesheet never claimed, overtime worked before written approval landed, scope added verbally at the workface and never converted into a variation. Each is a capture failure at the point of work, which means it is fixed at the point of work with mobile capture and supervisor sign-off, not in the office two weeks later.",
+          "Job-level margin is the other half. Quoted hours against actual hours, by work type, tells you which services subsidise which. Contractors routinely discover that one method line has been priced from a rate card written years earlier and has been losing money on every job since. The arithmetic for putting a defensible number on all of this is set out in our [NDT software ROI model](/erp/ndt-software-roi-calculator)."
+        ]
+      },
+      {
+        "heading": "Scoping it: build, buy, or configure",
+        "paragraphs": [
+          "Three routes exist and each fails in a characteristic way. Buying an owner-side IDMS gives you code depth you mostly will not use and none of the commercial machinery, so the spreadsheets survive alongside it. Buying generic field service software gives you dispatch and invoicing and leaves certification currency, calibration traceability, qualified-signature control and client segregation unaddressed. Building from scratch gives you exactly what you want and a maintenance obligation your business is not structured to carry.",
+          "The fourth route is configuring a business platform that already handles projects, people, equipment, quoting, invoicing and document control, and adding the inspection-specific layer on top of it. That is the approach Atlantis takes with an Odoo-based ERP configured for NDT and API inspection contractors — technician certification tracking, equipment calibration recall, per-client data partitioning, method-aware quoting and inspection reporting sitting on a commercial core that already works. Affordable, accessible and fully customisable, quoted against your scope.",
+          "Scope it against your own job list before you talk to anyone. Write down your annual job count, your client count, your inspector count, the certification schemes you hold, and the delivery formats your top three clients demand. That single page determines the answer more reliably than any product comparison. Send it to us at [/contact](/contact) or info@atlantisndt.com and we will tell you which of the four routes fits — including when the answer is that you do not need us."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does Atlantis replace the client's IDMS?",
+        "a": "No, and it should not try. If an operator runs PCMS, VisualAIM or an equivalent as their system of record for owned equipment, that stays. What we build is the contractor's own system — quoting, dispatch, certification currency, field capture, reporting, calibration control and margin reporting — with a mapping layer that delivers findings into whatever format each client requires. Two systems with a clean interface, not one system fighting another."
+      },
+      {
+        "q": "Why build a contractor system on Odoo rather than a purpose-built product?",
+        "a": "Because roughly two-thirds of what an inspection contractor needs is ordinary business software: projects, quotes, timesheets, purchasing, invoicing, HR records, document control. Rebuilding that from scratch is wasted effort. Configuring an established ERP core and adding the inspection-specific layer — certification clocks, calibration recall, qualified-signature control, method-aware quoting, client partitioning — puts the engineering where the domain actually is."
+      },
+      {
+        "q": "How does an API 653 tank inspection differ from general NDT work in the system?",
+        "a": "It is a longer-lived, more structured deliverable. A tank inspection produces a report package with defined content, settlement and floor evaluations, and recommendations that drive a re-inspection interval the owner will hold for years. The system has to keep the full package together, carry forward previous inspection findings, and preserve the inspector's certification status as at the inspection date — not as at today."
+      },
+      {
+        "q": "What has to be migrated from spreadsheets before go-live?",
+        "a": "Less than people assume. Migrate what you will act on: the active client and contract list, the current inspector roster with live certification records and evidence files, the equipment register with current calibration certificates, and open jobs. Historic reports are usually better archived as searchable files than force-fitted into a new data model. Scope the migration explicitly and cost the hours, because it is the line that overruns most often."
+      },
+      {
+        "q": "Does Atlantis provide API 510, 570 or 653 certification training?",
+        "a": "No. Atlantis provides NDT method training at Levels I, II and III, outsourced ASNT Level III consulting, inspection services, and the software described here. API's Individual Certification Programs are administered by API directly, with published exam windows and fees. Our [API 653](/api-653-certification) and [API 570](/api-570-certification) reference pages explain eligibility and the recertification cycle, which is what most contractors are actually trying to track."
+      },
+      {
+        "q": "How do we test data segregation during a software evaluation?",
+        "a": "Ask for a live demonstration, not a policy document. Have the vendor create two client entities, load records into each, then log in as a user scoped to one and attempt a global search, an export, a report run and an attachment lookup that would surface the other. Then ask to see the audit log of what you just did. Anything that cannot be shown in ten minutes will not hold under an operator's audit."
+      }
+    ]
+  },
+  {
+    "slug": "/why-digital-twin-projects-fail",
+    "title": "Digital Twin Projects Fail on Data Ownership, Not Software",
+    "description": "Five real failure modes for industrial digital twin projects: no data owner, as-designed geometry, broken inspection feedback, stalled pilots, undefined decisions.",
+    "h1": "The ways industrial digital twin projects actually fail — and the ones vendors never write about",
+    "answer": "Industrial digital twin projects fail for organisational reasons, not technical ones. Five causes recur: no named owner for the data after go-live, a model built from as-designed drawings instead of as-built reality, inspection results that flow in once and never again, a pilot funded from a budget with no path to production, and no specific decision the twin is supposed to change.",
+    "expansion": "Every vendor page on this topic lists \"data quality\" and \"change management\" and moves on to a demo request. That is not useful. The failures we see on refineries, tank farms and fabrication yards are specific, and they are mostly organisational. A twin dies when nobody in the operating organisation is accountable for keeping it current after the integrator leaves. It dies when the geometry came from as-designed isometrics and the field crew finds the line was rerouted years ago. It dies when inspection data is bulk-loaded at handover and the next campaign's UT readings go into a spreadsheet instead. It dies when the pilot came out of an innovation budget with no operating-budget line waiting for it. And it dies fastest when nobody can name the decision the twin is supposed to change. Replacing the platform fixes none of these, which is why second attempts fail the same way as first attempts.",
+    "source": "World Economic Forum / McKinsey Global Lighthouse Network programme, which named \"pilot purgatory\" as the dominant scaling failure in industrial digital initiatives; ISO 23247 (Digital twin framework for manufacturing) and ISO/IEC 30173 (Digital twin — concepts and terminology) for framework and definitional scope.",
+    "table": {
+      "caption": "Digital twin failure modes by when they surface, what you see, and what actually fixes them",
+      "columns": [
+        "Failure mode",
+        "Surfaces at",
+        "Symptom on site",
+        "Root cause",
+        "Cheapest fix"
+      ],
+      "rows": [
+        [
+          "No owner for the data",
+          "12–24 months after go-live",
+          "Model shows replaced equipment and last-campaign readings; users stop opening it",
+          "Integrator scope ended at acceptance; no year-two role defined",
+          "Name an accountable owner per data layer before contract signature"
+        ],
+        [
+          "As-designed geometry",
+          "First field use",
+          "Technician cannot find the CML on the model; spool configuration differs",
+          "Model built from isometrics and P&IDs, not scanned reality",
+          "Scan-verify the units you actually inspect; flag unverified areas in the model"
+        ],
+        [
+          "Inspection data flows in once",
+          "Next inspection campaign",
+          "New UT readings sit in a PDF and a spreadsheet; twin still shows handover data",
+          "Scope of work asked for a report, not a data deliverable",
+          "Add a data deliverable clause to the inspection scope of work"
+        ],
+        [
+          "Pilot with no production budget",
+          "Pilot success",
+          "Successful pilot quietly ends; no phase two funded",
+          "Funded from innovation or capital budget with no operating line",
+          "Write and sign the production run-cost line before the pilot starts"
+        ],
+        [
+          "No named decision",
+          "Month 6 onward",
+          "Scope grows, nothing gets argued out, no acceptance criterion exists",
+          "Sponsor described visibility rather than a decision",
+          "Name the decision, the decider and the date before procurement"
+        ],
+        [
+          "Fidelity bought over linkage",
+          "Month 3–9",
+          "Beautiful model, inspection results are PDF attachments hung off tags",
+          "Vendor selected on demo quality, not data round-trip",
+          "Require a live instrument-to-CML-to-trend-to-export demonstration"
+        ],
+        [
+          "Data producer excluded from design",
+          "First contractor campaign",
+          "Deliverables technically comply but need manual rework at the client end",
+          "Specification frozen without input from the NDT service provider",
+          "Half-day workshop with two or three regular contractors pre-freeze"
+        ]
+      ],
+      "note": "These modes compound rather than substitute. A project with as-designed geometry and no data owner does not fail twice as fast — it fails at the first field use and never recovers trust, because users attribute the geometry error to the whole system."
+    },
+    "facets": [
+      {
+        "q": "How do you tell a stalled digital twin pilot from a slow one?",
+        "a": "A slow pilot has a dated decision it is working toward and a named person who will make it. A stalled pilot has neither, and its status updates describe activity rather than outcomes — integrations connected, data loaded, users onboarded. Ask what changes on what date. If the answer needs more than one sentence, the pilot has stalled and the remaining question is how long the budget hides it."
+      },
+      {
+        "q": "Who should own digital twin data inside an operating company?",
+        "a": "Split it into three layers and name a separate owner for each. Geometry usually belongs with engineering or the survey function. Inspection results belong with the inspection or integrity department. The mapping between them — which weld, CML or component a reading attaches to — needs its own named owner, because it is the layer nobody claims and the first one to rot. One person can hold two roles; nobody can hold none."
+      },
+      {
+        "q": "Is laser scanning always required, or can drawings be enough?",
+        "a": "Drawings suffice only where the asset has not been modified since construction and modification records are complete. In brownfield process plant that condition rarely holds. Scan the areas you actually inspect rather than the whole plot plan — a twin covering a fifth of the site that matches reality is worth more than full coverage that does not. Where geometry cannot be verified, mark it unverified in the model rather than presenting it at equal confidence."
+      },
+      {
+        "q": "What is the smallest useful digital twin scope?",
+        "a": "One asset class, or one process unit, with three properties: scan-verified geometry, inspection locations that match the register the inspection department already uses, and one recurring decision that the twin supports. Forty pressure vessels with thickness history and a remaining-life calculation is a real scope. A whole refinery with tag-level attributes and document links is a viewer, and viewers do not get phase-two funding."
+      },
+      {
+        "q": "When is a digital twin the wrong tool entirely?",
+        "a": "When location does not drive the decision. Single-asset fleets, short-remaining-life assets, assets with no recurring inspection cycle, and organisations without a maintained tag register all get more value from a disciplined inspection data management system and a clean reporting workflow. Spatial visualisation earns its cost on corrosion mapping, CML placement, weld traceability and congested-area planning. Outside those, it adds cost and an integration to maintain. See /digital-twin-vs-idms."
+      },
+      {
+        "q": "How long before an industrial digital twin shows measurable value?",
+        "a": "Value appears after the second inspection campaign flows through it, not at go-live. The first campaign proves the return path works; the second produces a comparison the twin can compute that a spreadsheet could not. On annual or biennial inspection cycles that puts meaningful evidence between eighteen months and three years out — which is precisely why pilots funded on twelve-month horizons die before they can prove anything."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Failure mode one: nobody owns the data after the integrator leaves",
+        "paragraphs": [
+          "This is the most common terminal failure and it looks like nothing at the time. The project has a sponsor, a budget, an integrator and a go-live date. What it does not have is a named person whose job description includes keeping the twin current in year two. The integrator's scope ends at acceptance. The reliability engineer who championed it gets pulled onto a turnaround or moves to another site. Twelve to eighteen months later the model shows equipment that has been replaced and readings from a campaign that has been superseded.",
+          "The damage is not the stale data itself, it is the trust. An operator who opens the twin, finds one thing wrong and gets caught out in a meeting does not come back after a data refresh. Recovering credibility takes longer than building the twin did, and most projects never get the second chance because the budget conversation happens first.",
+          "Ownership also means three separate things that projects routinely conflate. Someone owns the 3D geometry — usually engineering or a scanning contractor. Someone owns the inspection results — usually the integrity department or a service provider. And someone owns the mapping between them, which is the record of which weld, component or condition monitoring location a given reading belongs to. That third layer is the one nobody claims, and it is the one that decays first. Name all three before procurement, and put the year-two update cadence in the operating budget rather than the capital project."
+        ]
+      },
+      {
+        "heading": "Failure mode two: the model is as-designed and the plant is as-built",
+        "paragraphs": [
+          "A twin assembled from design-office isometrics, P&IDs and equipment drawings will disagree with the plant it represents. Operating units accumulate decades of modification: tie-ins added during turnarounds, temporary repairs that became permanent, valves relocated, supports moved, lines rerouted around later equipment. Redlines that never made it back to the drawing office are the norm rather than the exception, and insulation hides most of the evidence from casual inspection.",
+          "The disagreement is not cosmetic. If geometry is wrong, every location reference anchored to it is wrong, and inspection data attached to wrong locations is actively worse than no data at all — the system will compute confident corrosion rates and remaining life for a component that no longer exists in that configuration. A field technician who cannot find the location the twin describes will improvise a nearby one, and the trend quietly becomes a comparison between two different points on the pipe.",
+          "Laser scanning or photogrammetry of the areas you actually inspect closes the gap, and on most brownfield projects it is the highest-value single line in the budget. The scoping rule that survives is to follow inspection scope rather than plot-plan scope. Where geometry cannot be verified, the honest move is to flag it as unverified inside the model rather than rendering it identically to scanned areas — users calibrate their trust to the weakest thing they catch, so hiding the weak areas costs more than showing them. The mechanics of anchoring readings to verified geometry are covered at /digital-twins-ndt/ut-thickness-overlay."
+        ]
+      },
+      {
+        "heading": "Failure mode three: inspection data flows in once, then stops",
+        "paragraphs": [
+          "This is the quiet failure, and it is close to universal. Handover includes a bulk load of historical thickness data, weld maps and previous reports, and it looks convincing at go-live. Then the next campaign happens. A contractor runs ultrasonic thickness on several hundred condition monitoring locations, produces a PDF report with an Excel appendix, emails it to the inspection coordinator, and none of it reaches the twin because nobody built the return path.",
+          "The reason is mundane and it is not the contractor's fault. The deliverable format was never specified. The scope of work asked for a report, so a report was produced. Nothing in that scope said the readings must carry the client's own identifiers, arrive in a machine-readable file, include the procedure revision and technician certification, and be submitted within a defined window. Service providers deliver what is written into the scope. They are not withholding data — they were never asked for it in a usable shape.",
+          "The fix is a procurement change, not a platform change, and it costs nothing beyond the drafting effort. The inspection scope of work needs a data deliverable clause sitting alongside the reporting clause, naming the identifier scheme, the file format, the required metadata fields and the submission route. Get that clause right once and every subsequent campaign becomes a twin feed by default. The contractor's side of the same clause — what it actually takes to comply — is set out at /deliver-twin-ready-ndt-data."
+        ]
+      },
+      {
+        "heading": "Failure mode four: the pilot came out of the wrong budget",
+        "paragraphs": [
+          "Pilots funded from an innovation, digital transformation or capital project budget carry a structural defect: the money that proved the concept is not the money that runs it. Production operation needs an operating line covering hosting, licences, model updates and somebody's time. If that line does not exist at the moment the pilot succeeds, the pilot ends anyway, and it ends looking like a technical disappointment rather than a budgeting one. This is the mechanism behind what the World Economic Forum and McKinsey's Global Lighthouse work labelled pilot purgatory across industrial manufacturing.",
+          "The tell is visible in the pilot's own design. A pilot built to impress — a full unit, photoreal rendering, a headset walkthrough — is expensive to sustain and produces no measurable saving anyone can defend in an operating budget review. A pilot built to scale is narrow, visually unremarkable and tied to a number that someone already reports on monthly. The second kind survives the review; the first kind gets admired and cancelled.",
+          "Run one test before a pilot starts: write the production business case, including the annual run cost and the name of the person who will sign for that cost line. If nobody will sign it at pilot scale, the pilot is entertainment and should be recognised as such while it is still cheap. This single question kills more unviable twin projects at zero cost than any technical evaluation, and it does so before the organisation has invested reputation in the outcome."
+        ]
+      },
+      {
+        "heading": "Failure mode five: nobody can name the decision the twin changes",
+        "paragraphs": [
+          "Ask the sponsor a direct question: which specific decision will be made differently, by whom, on what date, because this twin exists? Healthy answers are dull and concrete. \"The inspection planner will set the next internal inspection interval for the four crude unit vessels using remaining life computed in the twin instead of the spreadsheet, at the December planning meeting.\" Unhealthy answers describe visibility, alignment, a single source of truth, or a 360-degree view of the asset.",
+          "Without a named decision there is no acceptance criterion, and without an acceptance criterion the project drifts toward whatever demonstrates well in a steering meeting. Scope grows because nothing can be argued out of it — every proposed addition is as justifiable as every other, since none of them are measured against anything. The result is a viewer that everyone admires in the review and nobody opens on a Tuesday morning.",
+          "The named-decision test also sizes the project honestly, which is its underrated benefit. If the decision is interval setting on forty vessels, the requirement is those forty vessels modelled accurately, with thickness history attached and a remaining-life calculation that an inspector will defend to a jurisdictional authority. It is not the whole plant. Almost every twin still running after three years started at roughly this size and grew because a second department asked to be included — which is the only expansion signal that reliably predicts funding."
+        ]
+      },
+      {
+        "heading": "Failure mode six: geometry fidelity was bought instead of data linkage",
+        "paragraphs": [
+          "Procurement evaluations reward whatever demonstrates well inside a forty-five minute session. Vendors compete on polygon counts, rendering quality, headset support and mobile performance because those are immediately visible. Data linkage is invisible in a demo and decides the project: whether a thickness reading can be attached to a specific condition monitoring location, retrieved three years later with its procedure revision and technician certification intact, trended against prior campaigns, and exported back out in a format you can read without that vendor's software.",
+          "The practical consequence of getting this backwards is a beautiful model sitting on a flat attribute layer — equipment tags and document links. Inspection data ends up as PDF attachments hanging off assets, which is a document management system wearing a three-dimensional costume. Users work this out within weeks, because finding a reading still means opening a PDF and reading it, exactly as it did before.",
+          "Evaluate in the opposite direction. Ask each vendor to demonstrate, live, a reading arriving from a real instrument export, attaching to a named location, appearing in a corrosion-rate trend, and leaving again in a non-proprietary file. Vendors who cannot show that end-to-end have not solved the part that determines whether the project survives. Our buyer-side question set is at /erp/ndt-software-rfp-requirements-checklist, and /digital-twin-vs-idms covers the case where the honest conclusion is that an inspection data management system was the right purchase."
+        ]
+      },
+      {
+        "heading": "Failure mode seven: the company generating the data was never in the room",
+        "paragraphs": [
+          "Twin projects get specified by asset owners and platform vendors. The organisation that produces most of the data flowing into the twin — the NDT service provider — typically first learns of its existence when a scope of work lands with an unfamiliar deliverable clause attached. By that point the identifier scheme, the coordinate convention and the file format are frozen, and the contractor either prices around them or complies on paper.",
+          "Two outcomes follow predictably. Either the contractor delivers something that satisfies the clause literally but requires manual rework at the client end, which the client experiences as poor data quality. Or the contractor prices the compliance overhead into the bid without itemising it, and the client concludes that twin-ready data is expensive. Neither party is behaving badly. The specification was designed without the data producer, and the field consequences were invisible to everyone who wrote it.",
+          "Bringing two or three regular service providers into a half-day workshop before the specification is frozen changes the outcome and costs almost nothing. Contractors know which identifiers physically exist in the field, which ones remain legible on an insulated line at height in weather, which coordinate references a technician can actually record with gloves on, and which metadata fields are already captured by their instruments versus which require a second data entry pass. Specifications written without that input generate field workarounds, and field workarounds are how twins silently fill with unreliable data."
+        ]
+      },
+      {
+        "heading": "Where our own products would not help",
+        "paragraphs": [
+          "This section exists because its absence everywhere else is the reason this page is worth reading. If your problem is that nobody owns the data, no software fixes it, including ours. If your geometry is as-designed and unverified, a reporting platform will attach accurate readings to inaccurate locations faster and more consistently than your current process does, which makes the underlying problem harder to detect rather than easier. If there is no named decision behind the twin, adding an ERP or a reporting layer adds licence cost and one more integration to maintain.",
+          "There is also a class of asset where a twin is simply the wrong shape of answer. Single-asset fleets, assets with short remaining life, assets with no recurring inspection cycle, and organisations that do not maintain a reliable tag register will get more from a well-run inspection data management system and a disciplined reporting workflow than from spatial visualisation. Location has to drive the decision for a twin to earn its cost. Corrosion mapping, condition monitoring location placement, weld traceability and congested-area work planning qualify. A great deal of routine inspection does not.",
+          "What a platform genuinely helps with is narrow and worth stating precisely: converting instrument output into structured records without manual transcription, holding identifiers and revisions consistent across campaigns and across contractors, and making the return path from field to model routine rather than dependent on one person's weekend. That is the part we build and the part we will demonstrate against your own data. The organisational work in the preceding sections has to happen first, and no vendor can sell it to you."
+        ]
+      },
+      {
+        "heading": "What a surviving project looks like at month eighteen",
+        "paragraphs": [
+          "The scope is smaller than the original ambition and nobody in the room minds any more. One or two process units, or one asset class across the whole site. Geometry in those areas is scan-verified rather than drawing-derived. The register of inspection locations inside the twin matches the register the inspection department already uses in its day-to-day work, with no parallel numbering scheme running alongside it and no reconciliation spreadsheet keeping the two in step.",
+          "The most recent inspection campaign's data is in the twin, and it arrived through a defined route rather than through somebody's manual entry effort. At least one recurring meeting uses the twin as its working document rather than as a presentation slide. Somebody's job description names it. There is an annual budget line with an owner, and that owner has renewed it at least once without escalation.",
+          "What is conspicuously absent is equally diagnostic: no headsets, no executive dashboard that nobody opens, no roadmap slide listing twelve future integrations. Projects reach month eighteen by refusing scope, not by accumulating it. When expansion requests arrive they come from users who want their area added, which is the only signal that reliably predicts a second phase getting funded — because it is the only one that arrives without anyone lobbying for it."
+        ]
+      },
+      {
+        "heading": "A ninety-minute pre-mortem you can run before signing anything",
+        "paragraphs": [
+          "Before the contract is signed, put five people in a room: the sponsor, the inspection lead, one working field technician, an IT representative and one of your regular contractors. State plainly that the project has failed after two years, and ask each person to write down why, independently, before any discussion begins. The failure modes above will surface within ten minutes, and they will arrive in a form specific to your site rather than as generic risks.",
+          "Then answer four questions in writing, with a name against each. Who owns each data layer in year two. Which geometry is scan-verified and which is not. What the return path is for the next inspection campaign and who is accountable for it. Which named decision changes, made by whom, on what date. Any question that ends without a person's name attached is an open risk, and it should be logged as one rather than closed with a process description.",
+          "Take that document into the vendor evaluation. It converts a demo-driven purchase into a requirements-driven one, and it almost always shrinks the scope, which is the intended effect rather than a side effect. If you want an independent read on the answers before you commit budget, our consulting group works on precisely these questions across refining, tank storage and fabrication — /consulting, or info@atlantisndt.com."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there a published failure rate specifically for digital twin projects?",
+        "a": "No credible method-specific figure exists. Numbers circulating at 70 or 80 percent are borrowed from broader digital transformation and AI project research and reapplied without a defined denominator or a definition of failure. The better-evidenced finding is the World Economic Forum and McKinsey observation that most industrial firms adopting advanced technology never scale beyond pilot. Treat any precise digital twin failure percentage as marketing."
+      },
+      {
+        "q": "Can a failing digital twin be rescued, or does it need rebuilding?",
+        "a": "Rescue is possible when the geometry is sound and the failure is organisational — no owner, no return path, no named decision. Those are fixable without touching the model. Rebuild is the honest answer when the geometry is as-designed and unverified across the areas that matter, because every location reference anchored to it is suspect and remediating them individually costs more than rescanning."
+      },
+      {
+        "q": "Do greenfield and brownfield projects fail differently?",
+        "a": "Yes, and the distinction matters for planning. Greenfield projects usually have accurate as-built data from the construction handover and fail later, on ownership and on the return path once operations takes over. Brownfield projects fail earlier and more visibly, at first field use, because the model disagrees with the plant. Brownfield failure is more expensive to fix but easier to detect before money is committed."
+      },
+      {
+        "q": "Which department should host the digital twin?",
+        "a": "Host it wherever the named decision is made. If the decision is inspection interval setting, integrity or inspection should own it and IT should support it. Engineering-hosted twins drift toward design documentation and away from operating use. IT-hosted twins become platform projects with no decision attached. The hosting question is downstream of the decision question, and answering it first is a reliable early warning sign."
+      },
+      {
+        "q": "How early can you tell a twin project is going to fail?",
+        "a": "Usually before contract signature, from two questions. Ask who owns the data in year two and ask which decision changes on which date. If both answers arrive as roles rather than names, or as capabilities rather than decisions, the project has already acquired the two conditions that produce most failures. Everything after that point makes the failure more expensive without making it less likely."
+      }
+    ]
+  },
+  {
+    "slug": "/diconde-ndt-data-standards-digital-twin",
+    "title": "DICONDE Carries the NDE Image, Not the Asset Location",
+    "description": "ASTM E2339 DICONDE standardises NDE image data and acquisition parameters, not asset tags or 3D coordinates. Where digital twin integrations actually break.",
+    "h1": "DICONDE, ISO 15926 and what actually moves NDT data into a digital twin",
+    "answer": "DICONDE, defined by ASTM E2339, carries NDE image data and acquisition parameters in a DICOM-derived container, so ultrasonic, radiographic and eddy current files open on any conforming workstation. It does not carry plant asset identity, position on a 3D model, or corrosion-rate history. That join is where digital twin integrations break.",
+    "expansion": "The confusion is understandable, because DICONDE solves a problem that looks adjacent to the twin problem. Before it, each vendor's acquisition system wrote its own proprietary file, and an inspection archive was only readable by the software that created it. DICONDE, developed under ASTM Committee E07 and modelled directly on the medical DICOM standard, fixed the archival and display problem: a conforming file carries the image or signal data together with the technique parameters that produced it, and a conforming viewer can render it regardless of which vendor's instrument acquired it. That is a genuine achievement and it is worth specifying. But a digital twin needs three further things that the practice does not supply — which physical asset the file belongs to in the owner's tag register, where on that asset the reading was taken in a coordinate system the model shares, and how this result relates to previous results at the same location. Every real integration failure sits in one of those three gaps.",
+    "source": "ASTM E2339, Standard Practice for Digital Imaging and Communication in Nondestructive Evaluation (DICONDE), maintained by ASTM Committee E07 on Nondestructive Testing, Subcommittee E07.11; modality practices E2663 (ultrasonic), E2738 (computed radiography), E2699 (digital radiography), E2934 (eddy current), E2767 (X-ray computed tomography), E3440 (thermography); ASTM E3147, Standard Practice for Evaluating DICONDE Interoperability of Nondestructive Testing and Inspection Systems; ASTM E3169, Standard Guide for DICONDE.",
+    "table": {
+      "caption": "The DICONDE practice family: what each standard covers and what it leaves to the receiving system",
+      "columns": [
+        "ASTM designation",
+        "Scope",
+        "What the practice contributes",
+        "Left to the receiving system"
+      ],
+      "rows": [
+        [
+          "E2339",
+          "Base DICONDE practice, all NDE modalities",
+          "Harmonises NDE data with the DICOM information model; defines the common container, service classes and data dictionary structure",
+          "Asset tag mapping, spatial position, inspection history linkage"
+        ],
+        [
+          "E2663",
+          "Ultrasonic test methods",
+          "Information object definitions and modules for UT parameters and results, inheriting from E2339",
+          "Which weld or condition monitoring location the scan belongs to"
+        ],
+        [
+          "E2738",
+          "Computed radiography",
+          "Information objects and data dictionary specific to CR acquisition and plate handling",
+          "Shot location on the component, weld map reference"
+        ],
+        [
+          "E2699",
+          "Digital radiography",
+          "Information objects and modules for DR detector and exposure parameters",
+          "Component orientation relative to a plant coordinate system"
+        ],
+        [
+          "E2934",
+          "Eddy current",
+          "Information objects and data dictionary for EC acquisition parameters and results",
+          "Tube or component identity within a bundle or register"
+        ],
+        [
+          "E2767",
+          "X-ray computed tomography",
+          "Information objects for CT reconstruction and volume data",
+          "Registration of the volume against an as-built model"
+        ],
+        [
+          "E3440",
+          "Thermography",
+          "Information objects, modules and data dictionary specific to thermographic test methods",
+          "Surface location and environmental context at time of capture"
+        ],
+        [
+          "E3147",
+          "Interoperability evaluation",
+          "A method for evaluating whether two systems genuinely exchange DICONDE data, rather than merely claiming conformance",
+          "Nothing — this is the standard most buyers omit from their specification"
+        ]
+      ],
+      "note": "Every modality practice inherits from E2339 rather than replacing it, so a conformance claim should always name both the base practice and the modality practice. E3169 is a guide rather than a practice and provides orientation rather than requirements."
+    },
+    "facets": [
+      {
+        "q": "Does DICONDE conformance mean two systems will exchange data successfully?",
+        "a": "No. Conformance means a system implements the information objects and services the practice defines. Interoperability means two specific systems actually exchange usable data between them. ASTM E3147 exists precisely because the gap between the two is real and common — optional modules, differing private-tag usage and partial implementations all produce files that are conformant and still unreadable in practice. Specify an interoperability test with named systems, not a conformance claim."
+      },
+      {
+        "q": "What does ISO 15926 do that DICONDE does not?",
+        "a": "ISO 15926 provides an upper-level ontology and reference data library for process plant lifecycle information — what an asset is, how equipment classes relate, which properties describe them, and how systems exchange that meaning. It describes the plant. DICONDE describes the examination. A digital twin needs both, joined by a persistent identifier, and neither standard specifies how that join is made. CFIHOS narrows ISO 15926 into a practical handover deliverable list."
+      },
+      {
+        "q": "Do current NDT instruments export DICONDE by default?",
+        "a": "Support is uneven and modality-dependent. Radiographic and computed tomography workflows have the strongest DICONDE presence — Waygate Technologies' Rhythm archive stores and transfers DICONDE images, for example. Ultrasonic and eddy current instruments more often write vendor formats first. Evident's OmniScan X3 writes .odat and the newer .nde open format; Eddyfi's UltraVision line uses .uvdata alongside legacy .dat and .rdt. Verify per instrument model and firmware, not per brand."
+      },
+      {
+        "q": "What is the .nde open file format and how does it relate to DICONDE?",
+        "a": "The .nde format is an open file standard published by Evident, built on HDF5 with a JSON-structured description layer, readable without proprietary Evident software. Evident states it offers advantages not available in DICONDE without detailing the comparison. It is an alternative openness route rather than a DICONDE profile, so a receiving system needs to handle either. Both are better than a closed vendor binary."
+      },
+      {
+        "q": "Can you put a DICONDE file directly into a digital twin?",
+        "a": "You can store it and open it from the twin, which most platforms support as an attachment. That is document storage with a 3D index. Making it useful requires extracting the measurement values, attaching them to a location the model recognises, and trending them against prior campaigns. The extraction step is where the practice stops helping, because the identifier linking file to plant location is not part of what DICONDE standardises."
+      },
+      {
+        "q": "Should a specification require DICONDE, .nde, or something else?",
+        "a": "Require non-proprietary machine-readable output and name the acceptable formats rather than mandating one. For radiography and CT, DICONDE per E2339 plus the relevant modality practice is the strongest requirement. For ultrasonic and eddy current, accept DICONDE, .nde, or a documented open export with a published schema. Then add an interoperability test against your actual receiving system, which matters more than the format name."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "DICONDE is DICOM's grammar applied to industrial examination",
+        "paragraphs": [
+          "The design decision that shaped everything else was to harmonise with an existing standard rather than invent one. DICOM had already solved a structurally identical problem in medical imaging: many vendors, many modalities, images that had to be readable decades later on equipment that did not exist when they were acquired, and metadata that had to travel inseparably from the pixels. ASTM Committee E07 adapted that information model to non-destructive evaluation, and E2339 is the result.",
+          "What this inheritance buys is more than file compatibility. It brings a proven information model in which an examination is described as a structured set of information objects — the image or signal data, the equipment that produced it, the technique parameters in force, and the identifiers that bind them together. It also brings a network service model for storing and retrieving those objects between systems, rather than only a file layout. Archive software written against that model does not need modality-specific handling for every new instrument.",
+          "What it does not bring is any concept of a plant. DICOM's identity anchor is a patient, and the medical workflow supplies that identity from a hospital information system before imaging begins. Industrial NDE has no equivalent universal anchor arriving automatically. The nearest analogue is the asset owner's tag register, and nothing in the acquisition chain forces a technician's instrument to know it. That single structural difference explains most of the integration difficulty described further down this page."
+        ]
+      },
+      {
+        "heading": "The modality practices and what inheritance means in practice",
+        "paragraphs": [
+          "E2339 is the base practice, and the modality-specific standards extend it rather than replace it. E2663 covers ultrasonic test methods, defining information modules for UT parameters and results that sit on top of the base practice and the underlying DICOM structures. E2738 covers computed radiography, E2699 digital radiography, E2934 eddy current, E2767 X-ray computed tomography, and E3440 thermography. Each supplies information object definitions, modules and dictionary entries appropriate to how that modality actually produces data.",
+          "The practical consequence for a specification writer is that a conformance claim naming only E2339 is incomplete for any specific inspection. A supplier stating DICONDE conformance for phased array ultrasonic work should be able to name E2663 alongside the base practice, and a supplier delivering computed tomography volumes should name E2767. Asking which designations apply is a fast and non-adversarial way to establish whether the claim has substance behind it.",
+          "There is also a guide, E3169, which orients readers to the family as a whole rather than imposing requirements, and an evaluation practice, E3147, which addresses interoperability between systems rather than conformance of one system. E3147 is the standard most frequently missing from procurement documents and the one that most directly predicts whether an integration will work. It exists because the industry discovered that mutual conformance does not guarantee mutual comprehension."
+        ]
+      },
+      {
+        "heading": "What a DICONDE file actually carries",
+        "paragraphs": [
+          "A conforming file holds the examination data itself — the radiograph, the ultrasonic A-scan or volumetric dataset, the eddy current signal, the thermographic sequence — together with the parameters that produced it. For ultrasonic work that includes the acquisition configuration in the terms the modality uses. For radiography it includes the exposure and detector parameters. This is the standard's core value: the technique record travels with the data and cannot be separated from it by a file copy, a system migration or an archive restore.",
+          "It also carries structural identifiers inherited from the DICOM model — hierarchical identity for a study, series and instance, plus equipment and component-level fields. These are genuinely useful for organising an archive and for retrieving related examinations together. Where they cause trouble is when integrators assume they map cleanly onto plant asset structures, which they do not without explicit configuration decided in advance and applied consistently by every acquiring party.",
+          "The result is a strong archival and interpretive layer. Ten years after acquisition, a conforming file still tells a competent analyst exactly how the data was produced, which is precisely what a proprietary vendor binary from a discontinued product line does not. For fitness-for-service work, litigation, and jurisdictional review, that property alone justifies specifying DICONDE where the modality supports it well."
+        ]
+      },
+      {
+        "heading": "What DICONDE deliberately does not carry",
+        "paragraphs": [
+          "It does not carry the owner's asset tag. There is no field whose defined meaning is \"this examination belongs to vessel V-2104 in the owner's equipment register\", enforced in a way that a receiving system can rely on. Integrators overload component identification fields to hold tags, which works within one organisation that agreed a convention and fails the moment a second contractor with a different convention delivers data into the same archive.",
+          "It does not carry position on a three-dimensional model. The standard describes an examination, not a location in a plant coordinate system. Where a scan sat on a vessel wall, which weld a shot covered, how a corrosion map registers against as-built geometry — none of that is in scope. Any digital twin that shows an examination in the right place is holding that relationship somewhere outside the DICONDE file, and how well it holds it determines whether the twin is trustworthy.",
+          "It does not carry inspection history or derived integrity results. Corrosion rate, remaining life, minimum required thickness, next inspection date and the comparison against prior campaigns are integrity management outputs, computed from a series of examinations rather than contained in any one. Expecting a file format to supply them is a category error that appears surprisingly often in requirements documents, usually phrased as a request for DICONDE support to deliver corrosion trending."
+        ]
+      },
+      {
+        "heading": "Where asset context lives instead: ISO 15926 and CFIHOS",
+        "paragraphs": [
+          "The layer DICONDE leaves empty is occupied by plant information standards. ISO 15926 provides an upper-level ontology and reference data library for process plant lifecycle information, giving a common semantic basis for what equipment classes exist, which properties describe them, and how systems can exchange that meaning without agreeing on a single database schema. It is the vocabulary layer for the plant itself rather than for any examination of it.",
+          "CFIHOS — the Capital Facilities Information Handover Specification, which originated under USPI and moved to IOGP governance as Joint Industry Project 36 — narrows that ontology into something a project can actually contract for. It specifies which structured asset data and documents must be delivered at handover, how equipment attributes should be named, and which reference data describes equipment classes. Major operators including Shell, bp, Equinor and TotalEnergies participate in its governance, which is why it appears in handover specifications across the sector.",
+          "Neither standard says anything about how an examination result attaches to the asset it describes. That join — a persistent identifier shared between the inspection record and the asset register, plus a location reference within the asset — is left to the implementing organisation. It is unglamorous, it appears in no vendor datasheet, and it is the single most important design decision in a digital twin integration. Get it wrong and every conforming file in your archive is still orphaned."
+        ]
+      },
+      {
+        "heading": "Conformance is not interoperability, and E3147 exists because of it",
+        "paragraphs": [
+          "Two systems can both conform to E2339 and still fail to exchange usable data. The mechanisms are well understood from DICOM's longer history. Optional modules that one system writes and the other ignores. Private data elements holding information the writer considers essential and the reader cannot interpret. Differing interpretations of how hierarchical identifiers should be populated. Partial implementations covering the modalities a vendor sells and no others. All of these are compatible with a truthful conformance claim.",
+          "ASTM E3147 addresses this by providing a practice for evaluating DICONDE interoperability between actual nondestructive testing and inspection systems, rather than assessing one system in isolation. The practical implication for a buyer is direct: a conformance statement in a datasheet is an input to your evaluation, not a conclusion from it. The question worth asking a vendor is not whether their system is DICONDE conformant but whether it has been interoperability-tested against the specific systems in your chain.",
+          "In procurement terms, the cheapest protection is a test rather than a clause. Take a real file from each instrument model your contractors actually use, send it through the proposed receiving system, and confirm that the parameters you care about survive the round trip and are retrievable afterwards. This takes a day. Discovering the same information after go-live takes a change order and a credibility loss."
+        ]
+      },
+      {
+        "heading": "What the instrument vendors actually export today",
+        "paragraphs": [
+          "The honest position is that support varies by modality and by product line, and the safest assumption is that it varies within a brand as well. Radiographic and computed tomography workflows have the strongest DICONDE presence in the field, reflecting where the standard family started and where the medical analogy is closest. Waygate Technologies' Rhythm software suite stores images with DICONDE information and transfers files using the DICONDE protocol, which makes radiographic archives a comparatively solved problem.",
+          "Ultrasonic and eddy current instruments more commonly write native formats first. Evident's OmniScan X3 flaw detector produces .odat files and, on more recent onboard software, the newer .nde format, with WeldSight and OmniPC on the analysis side. Eddyfi Technologies' UltraVision family works in .uvdata and .beamdata alongside legacy .dat and .rdt files, and has extended its ability to open acquisition files from associated instrument lines. Zetec now sits within the Eddyfi group, which has consolidated some of this landscape.",
+          "The operational conclusion for anyone specifying a twin integration is to verify at the level of instrument model and firmware version rather than at brand level, and to write the verification into the mobilisation checklist. A contractor arriving with an older unit that cannot produce the specified export is a problem discovered on site, at the worst possible moment, and it is entirely preventable by asking the question during the bid."
+        ]
+      },
+      {
+        "heading": "The .nde open format and what it signals",
+        "paragraphs": [
+          "Evident introduced .nde as an open file standard built on HDF5, the widely used hierarchical scientific data format, with a JSON-structured description layer. The stated design intent is that data files can be accessed without proprietary Evident software, opening the way for third-party developers and other NDT providers to read and potentially adopt the same format. On the OmniScan X3 line it sits alongside the legacy .odat format, with setup files unchanged.",
+          "Evident's published position is that .nde has advantages not available in DICONDE, without publishing a detailed technical comparison. Reading that fairly rather than defensively: HDF5 with a JSON schema layer is a modern, tooling-rich foundation that a software team can consume with standard libraries, whereas DICONDE requires a DICOM-family implementation. For an organisation building its own ingestion pipeline, that difference is significant in engineering effort.",
+          "The strategic signal matters more than the format choice. A major instrument vendor publishing an openly readable format is a direct response to owner pressure for data portability, and it means a receiving system should be built to handle multiple open formats rather than betting on one. A specification that names DICONDE per the relevant modality practice, .nde, or any documented open export with a published schema, and then tests each one against the real receiving system, is more robust than a specification naming a single winner."
+        ]
+      },
+      {
+        "heading": "The three joins where twin integration actually breaks",
+        "paragraphs": [
+          "The first is instrument to identifier. A technician's instrument records a file name, a scan number and sometimes a free-text description. The twin needs the owner's asset tag and location identifier. Bridging that gap either happens at acquisition, by loading the register onto the instrument or into the field application, or it happens afterwards through manual matching, which is where transcription errors enter and where the same physical location acquires two identities across two campaigns.",
+          "The second is identifier to geometry. Having the correct location identifier does not tell the model where that location sits in space. Someone must have registered the identifier against a point, patch or component in the as-built geometry, and that registration must survive model updates when equipment is replaced or rescanned. Projects that treat this registration as a one-time setup task rather than a maintained dataset find their overlays drifting silently over successive campaigns.",
+          "The third is result to history. A single reading has almost no integrity value. Its value comes from comparison with the reading taken at the same point in the previous campaign, which requires that both campaigns agreed the point was the same. This is why identifier discipline matters more than file format elegance — a perfectly conformant file at a location nobody can match to last cycle's location contributes nothing to a corrosion rate. Our contractor-side guidance for closing all three joins at source is at /deliver-twin-ready-ndt-data."
+        ]
+      },
+      {
+        "heading": "What to write into a data specification",
+        "paragraphs": [
+          "Name the standards precisely and pair them. For radiographic and computed tomography deliverables, require the base practice E2339 together with the applicable modality practice — E2699 or E2738 for radiography, E2767 for computed tomography. For ultrasonic and eddy current work, require either the relevant DICONDE modality practice, an open published format such as .nde, or a documented export with a schema you have reviewed. Never accept an undocumented vendor binary as an archival deliverable.",
+          "Then specify the layer the standards do not cover, because that is where the value is created. State the identifier scheme every result must carry and confirm it matches the register the client already maintains. State the location reference convention and the datum. State the required metadata: procedure and revision, equipment and calibration status, technician identity and certification level, date and campaign. State the submission route and the window. These lines are short and they determine whether the archive is usable.",
+          "Finally, require an interoperability demonstration rather than a conformance statement, referencing E3147 as the evaluation basis, and run it against the actual receiving system before mobilisation. If the twin platform, the archive and the instrument fleet have never been tested together, the specification is a statement of intent. Our buyer-side checklist at /erp/ndt-software-rfp-requirements-checklist covers the surrounding commercial questions, and /contact reaches our team if you want the technical clauses reviewed against your own instrument fleet."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is DICONDE a free standard?",
+        "a": "No. ASTM standards including E2339 and the modality practices are copyrighted publications sold through ASTM and authorised resellers. The underlying DICOM standard that DICONDE harmonises with is published by NEMA and is freely available, which means a development team can study the information model at no cost before purchasing the NDE-specific practices they need to implement."
+      },
+      {
+        "q": "Which ASTM committee maintains DICONDE?",
+        "a": "ASTM Committee E07 on Nondestructive Testing holds jurisdiction, with development and maintenance handled through Subcommittee E07.11 on Digital Imaging and Communication in Nondestructive Evaluation. The subcommittee has extended the family over time, adding modality practices for ultrasonic, computed and digital radiography, eddy current, computed tomography and thermography, plus the interoperability evaluation practice and the overview guide."
+      },
+      {
+        "q": "Does DICONDE apply to phased array and TFM data?",
+        "a": "Ultrasonic test methods fall under E2663, which extends the base practice with ultrasonic-specific information modules. Whether a given advanced technique is fully represented in a particular vendor's implementation is a separate question from whether the practice covers the modality. Verify against the actual instrument and analysis software rather than assuming coverage, and ask for a sample file you can open in your own receiving system."
+      },
+      {
+        "q": "If we already use a proprietary format successfully, why change?",
+        "a": "The risk is not present operation, it is archival readability. A proprietary binary is readable only while the vendor supports the product line and the software runs on a current operating system. Integrity records for pressure equipment often need to be interpretable for decades. Open or standardised formats remove the dependency on one vendor's product lifecycle, which is the argument that has driven owner pressure toward both DICONDE and .nde."
+      },
+      {
+        "q": "Does ISO 15926 replace the need for DICONDE?",
+        "a": "No, they occupy different layers and neither substitutes for the other. ISO 15926 describes the plant and its equipment semantically across the lifecycle. DICONDE describes an examination and the technique that produced it. A working digital twin holds both and joins them with a persistent identifier that neither standard defines. Projects that adopt one and assume it covers the other discover the gap during the first data load."
+      }
+    ]
+  },
+  {
+    "slug": "/deliver-twin-ready-ndt-data",
+    "title": "Twin-Ready NDT Data: What Contractors Must Actually Deliver",
+    "description": "The identifier scheme, location reference, file formats and metadata an NDT service provider must supply for inspection results to load into a client's digital twin.",
+    "h1": "How an inspection contractor delivers twin-ready NDT data without rebuilding the workflow",
+    "answer": "Twin-ready NDT data is a normal inspection result plus four additions: a persistent asset or condition monitoring location identifier that matches the client's own register, a location reference that resolves to a point on their 3D model, machine-readable results in a non-proprietary file, and metadata covering datum, units, procedure revision, equipment calibration and technician certification. Supply those four and a report becomes a twin feed.",
+    "expansion": "Every page ranking for digital twin inspection data is written for the asset owner choosing a platform. Almost none address the company that generates the data. That is the gap this page fills, because the contractor is where twin-ready data is either created correctly at source or lost permanently. Once a technician has written a thickness reading against your internal scan number rather than the client's condition monitoring location identifier, no downstream software recovers the link reliably — somebody matches them by hand, and the errors that introduces are invisible until a corrosion rate looks wrong three years later. The good news for service providers is that the additional work is front-loaded into setup rather than spread across the campaign, and most of it is agreed once per client rather than once per job. The bad news is that it has to be agreed before mobilisation, because retrofitting identifiers after a crew has demobilised is the most expensive way to comply.",
+    "source": "API 570 (piping inspection) and API 653 (aboveground storage tank inspection) for condition monitoring location practice and the CML terminology that superseded independent TML designation; ASTM E2339 and its modality practices for DICONDE deliverables; CFIHOS (IOGP Joint Industry Project 36), Capital Facilities Information Handover Specification, for structured handover data expectations.",
+    "table": {
+      "caption": "The twin-ready payload: required fields, where each comes from, and what breaks without it",
+      "columns": [
+        "Field",
+        "Typical form",
+        "Source",
+        "What breaks if missing"
+      ],
+      "rows": [
+        [
+          "Client asset tag",
+          "Equipment or line number from the owner's register",
+          "Client tag register, supplied before mobilisation",
+          "Result cannot be attached to any asset; lands in an unallocated queue"
+        ],
+        [
+          "Location identifier",
+          "CML, weld or component identifier",
+          "Client inspection register, not the contractor's scan numbering",
+          "Reading cannot be trended against prior campaigns; corrosion rate uncomputable"
+        ],
+        [
+          "Location reference",
+          "Coordinates, station and clock position, or grid cell reference",
+          "Field record against an agreed convention",
+          "Reading attaches to the asset but not to a point; no spatial overlay possible"
+        ],
+        [
+          "Measured value and unit",
+          "Thickness, amplitude, indication size with explicit units",
+          "Instrument output",
+          "Unit ambiguity between metric and imperial; silent errors in remaining-life calculations"
+        ],
+        [
+          "Datum and reference point",
+          "Named origin and direction convention for the location reference",
+          "Agreed in the handover specification before work starts",
+          "Positions are internally consistent but unregisterable against the model"
+        ],
+        [
+          "Method, procedure and revision",
+          "Method code plus procedure number and revision in force",
+          "Contractor quality system",
+          "Result cannot be defended in a jurisdictional or fitness-for-service review"
+        ],
+        [
+          "Personnel and certification",
+          "Technician identity, method, level and expiry status at time of examination",
+          "Contractor certification records",
+          "Acceptance risk; result may be rejected on audit years later"
+        ],
+        [
+          "Campaign and timestamp",
+          "Campaign identifier plus examination date and time",
+          "Contractor job control",
+          "Readings from different campaigns collapse together; interval calculations fail"
+        ]
+      ],
+      "note": "The first three rows do most of the work. A deliverable carrying the client's asset tag, the client's location identifier and an agreed location reference is usable even if the remaining fields arrive imperfectly. A deliverable missing those three is unusable no matter how complete the rest is."
+    },
+    "facets": [
+      {
+        "q": "What does a client actually mean when they ask for twin-ready data?",
+        "a": "Almost always they mean results that load into their system without manual matching. The phrase is rarely defined in the scope of work, so ask three questions before quoting: which identifier scheme results must carry, which file format their receiving system ingests, and what location reference they expect. Those three answers define the entire obligation. Everything else in a twin-ready clause is usually standard reporting you already do."
+      },
+      {
+        "q": "Can you deliver twin-ready data without owning a digital twin platform?",
+        "a": "Yes, and most contractors should. The obligation is to produce correctly identified, correctly located, machine-readable results — a structured file with the right fields. The client's platform does the visualisation. Buying a twin to satisfy a client's twin requirement is a common and expensive misreading of the scope. What you may need is a field data capture workflow that can hold the client's register and enforce the identifier at entry."
+      },
+      {
+        "q": "Who supplies the condition monitoring location register, the client or the contractor?",
+        "a": "The client, and this should be settled in writing before mobilisation. The register is the client's integrity record and their numbering is authoritative. Where a contractor is establishing new locations — a first campaign, or new coverage — the numbering convention must still be agreed with the client and issued back to them, otherwise two parallel schemes emerge and reconciling them later costs more than the original survey."
+      },
+      {
+        "q": "How do you handle locations that exist in the field but not on the model?",
+        "a": "Record them fully, flag them as unregistered, and return them to the client as a discrepancy list rather than discarding them or inventing coordinates. Unregistered locations are valuable information about model accuracy, and clients discovering that a contractor silently guessed positions is a significant trust event. A discrepancy list attached to the deliverable converts a data problem into a service you provided."
+      },
+      {
+        "q": "Does twin-ready data change how field crews work?",
+        "a": "The change is at data entry, not at examination. The technician still performs the same examination to the same procedure. What changes is that the location identifier comes from the client's register rather than being generated on the sheet, and the location reference must be recorded against an agreed convention. Crews absorb this quickly when the register is loaded into their capture device. They resist it when it means transcribing from a printed list."
+      },
+      {
+        "q": "What happens if the client changes their tag register between campaigns?",
+        "a": "Tags get superseded when equipment is replaced or renumbered, and this breaks trending unless someone tracks the supersession. Ask the client for the current register at each mobilisation rather than reusing the last one, and report any identifier in your previous deliverable that no longer appears. That report is cheap to produce and it protects both parties, because the alternative is a corrosion trend that silently spans two different components."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why the request arrived, and what it usually means",
+        "paragraphs": [
+          "Asset owners investing in digital twins reach a predictable moment roughly a year in. The model exists, the handover data is loaded, and then the first live inspection campaign produces a PDF report and a spreadsheet that nobody can load into it. The response is a new clause in the next inspection scope of work, and that clause is where most contractors first encounter the words twin-ready. It is frequently written by someone who has not run a field campaign, which is why it is often vague.",
+          "In practice the requirement decomposes into three concrete questions, and it is worth extracting them before pricing anything. Which identifier scheme must every result carry, and who issues it. Which file format does the receiving system ingest, and can you see a working example. What location reference does the client expect, in what coordinate convention and against what datum. Answers to those three define the whole obligation, and they are usually answerable in one call with the client's integrity engineer.",
+          "Everything else in a typical twin-ready clause is work you already perform. Procedure references, technician certification records, calibration status and campaign dating are standard elements of a defensible inspection record under any quality system. The novelty is not the metadata, it is that the metadata must arrive in a structured field rather than in a sentence on page four of a PDF. That distinction is worth explaining to clients who assume the request is larger than it is."
+        ]
+      },
+      {
+        "heading": "The payload: what a twin-ready result contains",
+        "paragraphs": [
+          "Start from the deliverable rather than from the software. A twin-ready result is a row of data with a defined set of fields, however it is transported. It carries the client's asset tag so the system knows which equipment it belongs to. It carries the client's location identifier — condition monitoring location, weld number, component identifier — so the result can be compared to previous results at the same place. It carries a location reference so the result can be positioned in space rather than only associated with an asset.",
+          "It carries the measured value with an explicit unit, because unit ambiguity between metric and imperial is a silent and dangerous failure in remaining-life calculations. It carries the method, the procedure number and the revision in force at the time of examination, which is what makes the result defensible in a fitness-for-service or jurisdictional review years later. It carries the technician's identity, method, level and certification validity at the time of the examination.",
+          "And it carries the campaign identifier and the examination timestamp, which is what allows a system to distinguish this year's readings from last year's rather than collapsing them into an undated set. Eight fields, most of which your existing report already contains somewhere in prose. The engineering task is making them structured and consistent, not inventing new information. That reframing is usually what unlocks the internal conversation at a service provider, because it converts an intimidating request into a data entry design problem."
+        ]
+      },
+      {
+        "heading": "Asset identity: use the client's register, never your job number",
+        "paragraphs": [
+          "This is the single most common failure and it is worth being blunt about. Contractors number things for their own operational purposes — job number, scan sequence, report section, drawing sheet. Those numbers are internally coherent and completely meaningless to the client's integrity system. A deliverable identified by contractor scan numbers requires someone at the client end to map each row to their register by hand, and that manual mapping is where errors enter and where the same physical location acquires two identities across two campaigns.",
+          "The correct approach is to obtain the client's register before mobilisation and carry their identifiers as the primary key throughout, keeping your own numbering as a secondary reference. Both can coexist in the deliverable and both are useful — yours for your traceability and theirs for their system. What cannot happen is yours being the only identifier present, because that shifts the reconciliation burden onto the party least able to do it accurately.",
+          "Where new locations are being established, the numbering convention still has to be agreed with the client rather than invented. Under API 570 and API 653 practice, condition monitoring locations are the client's integrity record, and prior editions' independent thickness measurement location designation has been folded into the CML concept in current code. Issuing new identifiers back to the client for incorporation into their register is part of the deliverable, and a contractor who does this reliably becomes materially harder to replace."
+        ]
+      },
+      {
+        "heading": "Location referencing: four methods and when each survives the field",
+        "paragraphs": [
+          "The first and most robust method is the identifier itself, where the client's register already ties each condition monitoring location to a known position on the model. Here the contractor's job is simply to use the identifier faithfully, and no coordinate work is needed. This covers most recurring thickness monitoring on registered equipment and it is the method to prefer whenever it is available, because it makes the contractor's obligation trivial and the client's ingestion automatic.",
+          "The second is a component-relative convention: station along a line from a named origin, plus clock position around the circumference, plus elevation where relevant. This is how field crews already describe locations verbally, it survives insulation and access constraints, and it requires no instrumentation. Its weakness is that the origin and the direction convention must be agreed and recorded, because station 4.2 metres means nothing without knowing which end is zero and which way is positive.",
+          "The third is grid referencing on a mapped surface — corrosion mapping on a tank floor or shell course, where a grid is established, marked and photographed. The fourth is direct coordinate capture using survey equipment or a scanner's own registration, which is the most precise and the least practical for routine campaigns because of equipment, time and access cost. Most real programmes use the first two, reserve the third for mapping work, and use the fourth only where a scan is already being performed for other reasons. Deciding which applies per work type, in advance, prevents crews improvising."
+        ]
+      },
+      {
+        "heading": "Datums and conventions: the quiet source of unusable data",
+        "paragraphs": [
+          "Location data fails more often through convention mismatch than through measurement error. A crew records clock positions viewing the line from the north end; the model was built with the convention that clock positions are viewed in the direction of flow. Every position is now mirrored, and the error is undetectable in the data itself because the numbers look entirely reasonable. It surfaces months later when a corrosion pattern appears on the wrong side of a line and somebody investigates.",
+          "The preventable version of this is a short written convention statement agreed before mobilisation and reproduced on the deliverable itself. It should name the origin for station measurements on each line or vessel, state the direction of increasing station, define how clock position is referenced and from which viewpoint, state the elevation datum, and state the units. Half a page, agreed once per client per asset type, and it eliminates an entire class of silent error.",
+          "Reproducing the convention statement inside the deliverable matters as much as agreeing it. Data outlives the people who created it, and a file arriving at an integrity engineer's desk three years later with positions but no stated convention is guesswork. Contractors who embed the convention in every submission are protecting themselves as much as the client, because the party asked to explain an anomalous reading years later is usually the one who took it."
+        ]
+      },
+      {
+        "heading": "File formats: what to hand over alongside the report",
+        "paragraphs": [
+          "The PDF report does not go away. It remains the certified, signed, human-readable record and clients still need it for their own quality file. What changes is that it is accompanied by a machine-readable file carrying the same results in structured form. Trying to replace the report with data, or to make the client parse the PDF, both fail — the first for compliance reasons and the second because PDF extraction is unreliable enough to be a liability.",
+          "For the structured file, follow the client's receiving system rather than a general preference. A defined CSV or Excel schema with agreed column names is entirely legitimate and is what most working programmes actually use; there is nothing unprofessional about it if the schema is agreed and stable. Where the modality and the client's archive support it, DICONDE per ASTM E2339 and the relevant modality practice is the stronger archival deliverable, particularly for radiographic and computed tomography work. Open instrument formats such as Evident's HDF5-based .nde also satisfy the portability requirement.",
+          "Include the native instrument files as well, and say so in the deliverable list. Clients increasingly want the raw acquisition data retained for re-analysis, and supplying it costs the contractor almost nothing while materially strengthening the handover. The format landscape across instrument vendors is uneven enough that it deserves its own treatment — /diconde-ndt-data-standards-digital-twin covers which standards apply per modality and where interoperability actually breaks between conforming systems."
+        ]
+      },
+      {
+        "heading": "Metadata that keeps a reading defensible three years later",
+        "paragraphs": [
+          "A thickness reading with no procedure reference is a number. A thickness reading with the procedure number, the revision in force, the equipment used, its calibration status, the technician's name and their certification level at the time of examination is evidence. The difference matters at exactly the moment when it is impossible to recover — during a fitness-for-service assessment, a jurisdictional review, or an incident investigation, when the campaign is years past and the crew has moved on.",
+          "Capturing this structurally rather than in prose is a modest change to a field workflow and a substantial improvement to the deliverable. Procedure and revision come from your quality system and change rarely. Equipment identity and calibration status come from your asset register. Certification status comes from your personnel records. All three are already maintained; the work is connecting them to the result record automatically rather than transcribing them per report.",
+          "There is a commercial dimension worth noticing. Clients running integrity programmes under recognised codes are audited on exactly these records, and a contractor whose deliverables carry them in structured form removes work from the client's audit preparation. That is a differentiator that survives price comparison, because it changes what the client's own team has to do rather than what they pay. Our reporting and ERP work with service providers is built around capturing these fields once and reusing them — /consulting or info@atlantisndt.com if you want the workflow reviewed."
+        ]
+      },
+      {
+        "heading": "The handover specification: agree it before mobilisation, not after",
+        "paragraphs": [
+          "The document that prevents almost all of the failures on this page is short and should be produced before a crew leaves. It states the identifier scheme and who issues it. It states the location referencing method per work type, with the datum and convention. It lists the deliverable files, their formats and their schemas. It lists the required metadata fields. It states the submission route and the window. It names the person at each end who accepts the deliverable.",
+          "Producing it is a contractor advantage rather than an overhead, because the party that drafts the specification defines what compliance means. A contractor who arrives at kick-off with a draft handover specification is demonstrating capability that competitors are not, and is simultaneously ensuring that the obligation is achievable with the workflow they actually have. Clients rarely refuse a well-drafted one, because it removes work from them.",
+          "Test it before it matters. Run three or four representative results through the whole chain during mobilisation — capture, export, submission, ingestion at the client end — and confirm they arrive correctly positioned and correctly identified. A one-day test at mobilisation is the difference between discovering a convention mismatch on day one and discovering it after a crew has demobilised, when every fix requires a return visit that somebody has to pay for."
+        ]
+      },
+      {
+        "heading": "What this costs a contractor, honestly",
+        "paragraphs": [
+          "The cost is front-loaded and it is mostly setup rather than per-reading effort. Obtaining and loading the client's register, agreeing the referencing convention, defining the export schema and running the mobilisation test consume time before the campaign starts. Once that is done, the marginal cost per reading is close to zero if the identifier is selected from a loaded list rather than typed, which is why field data capture that holds the client register pays for itself on the first substantial campaign.",
+          "The cost rises sharply in two situations, and both are avoidable. Retrofitting identifiers to data already captured against contractor numbering requires manual matching, which is slow, error-prone and unbillable if the clause was in the original scope. And complying by transcription — technicians reading identifiers off a printed list and typing them onto a sheet — imposes a permanent per-reading overhead and introduces exactly the errors the exercise was meant to prevent.",
+          "The realistic planning position is that the first campaign for a given client carries genuine setup effort and the second carries almost none, because the register mapping, the convention and the export schema are reusable. Contractors who price the first campaign as though the overhead recurs every time will lose bids to those who understand it does not. Contractors who price it as though it is free will absorb the setup and resent the client."
+        ]
+      },
+      {
+        "heading": "Why twin-ready deliverables change what work you win",
+        "paragraphs": [
+          "The commercial logic is straightforward once the technical work is done. Asset owners who have invested in a digital twin have a standing problem: most of their inspection supply chain cannot feed it. A contractor who can, without the client building an ingestion workaround, becomes materially easier to award work to and materially harder to displace at renewal. The switching cost is not the inspection — it is re-establishing the data chain with a new provider.",
+          "It also changes the conversation at bid stage. Price comparison between technically identical NDT scopes is brutal and rewards nobody. A bid that includes a draft handover specification, a sample structured deliverable and evidence of a completed ingestion test is not comparable to a bid that does not, and it moves the discussion away from unit rate toward what the client's integrity team will actually have to do afterwards. That is a better conversation to be in.",
+          "The requirement is spreading from major operators outward, because the specifications originate with owners running digital twin programmes and propagate through their contractor base. Building the capability once, against one demanding client, produces a reusable asset that qualifies you for the rest. If you want the handover specification and export schema reviewed against your current field workflow before your next bid, /contact or info@atlantisndt.com reaches our team directly."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does delivering twin-ready data mean giving up ownership of our inspection data?",
+        "a": "No, and the two questions should be separated in the contract. Data ownership and access rights are commercial terms negotiated in the master services agreement. Twin-ready is a format and identifier requirement about how contractually deliverable results are structured. Contractors sometimes conflate the two and resist a formatting requirement on ownership grounds, which weakens their position on both."
+      },
+      {
+        "q": "Our client asked for twin-ready data but has no digital twin yet. Is this premature?",
+        "a": "It is sensible preparation rather than premature. Data captured with correct identifiers, an agreed location reference and structured metadata is more useful in any system, including a spreadsheet-based programme. The requirement costs little once set up and it avoids the situation where a twin arrives later and several years of historical campaigns cannot be loaded into it."
+      },
+      {
+        "q": "Can we charge more for twin-ready deliverables?",
+        "a": "The setup effort for a new client is real work and belongs in the commercial discussion, itemised so the client understands it is non-recurring. The stronger position is competitive rather than premium: it wins scopes that competitors cannot serve and it raises the cost of replacing you at renewal. Positioning it purely as a surcharge invites the client to shop for someone who will absorb it."
+      },
+      {
+        "q": "What if different clients want different identifier schemes and formats?",
+        "a": "They will, and the workflow has to accommodate that rather than standardise it away. Design your capture system so the register and schema are configuration per client, not code. Contractors who force every client onto their internal numbering create exactly the reconciliation problem this page describes, only at the client end where they cannot see the consequences until a complaint arrives."
+      },
+      {
+        "q": "How do we handle subcontracted scope within a twin-ready deliverable?",
+        "a": "Flow the specification down verbatim and test the subcontractor's output before it reaches the client, exactly as you would a weld procedure. A single non-conforming subcontractor file breaks the ingestion for the whole submission, and the client experiences that as your failure. Include the subcontractor in the mobilisation test rather than assuming compliance from a signed acknowledgement."
+      },
+      {
+        "q": "Does this apply to one-off inspections, or only to recurring programmes?",
+        "a": "The full payload matters most for recurring programmes, where trending depends on identifier continuity between campaigns. For genuine one-off work the asset tag, location reference and structured metadata still add value and cost little. The field that carries the most weight in recurring work, the location identifier, is the one with least value in a true one-off, so scale the requirement to the work type."
+      }
+    ]
   }
 ]
