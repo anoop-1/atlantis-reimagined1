@@ -70,8 +70,8 @@ const rtComparison = [
   { factor: "Image Quality", film: "Excellent (reference standard)", cr: "Very Good", dr: "Excellent (high resolution panels)" },
   { factor: "Exposure Time", film: "Standard (minutes)", cr: "Standard (uses existing sources)", dr: "Reduced (higher sensitivity)" },
   { factor: "Processing Time", film: "15-30 min (wet darkroom)", cr: "2-5 min (phosphor plate scan)", dr: "Immediate (real-time)" },
-  { factor: "Per-Shot Cost", film: "a scoped, quoted figure (film + chemicals)", cr: "a scoped, quoted figure (plate reuse)", dr: "a scoped, quoted figure (panel reuse)" },
-  { factor: "Initial Investment", film: "a scoped, quoted figure", cr: "a scoped, quoted figure", dr: "a scoped, quoted figure" },
+  { factor: "Per-Shot Cost", film: "quoted by supplier (film + chemicals)", cr: "quoted by supplier (plate reuse)", dr: "quoted by supplier (panel reuse)" },
+  { factor: "Initial Investment", film: "quoted by supplier", cr: "quoted by supplier", dr: "quoted by supplier" },
   { factor: "Portability", film: "Excellent", cr: "Good (scanner needed)", dr: "Moderate (panels fragile)" },
   { factor: "Environmental Impact", film: "High (chemicals, silver waste)", cr: "Low", dr: "Very Low" },
   { factor: "Storage/Archival", film: "Physical film storage required", cr: "Digital files", dr: "Digital files" },
@@ -92,19 +92,19 @@ const equipByApplication = [
 
 /* ─── Budget Guide ─── */
 const budgetGuide = [
-  { category: "Visual Testing (VT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure", includes: "Basic: magnifiers, lights, gauges. Mid: borescopes, video cameras. Pro: drone-based VT systems." },
-  { category: "Liquid Penetrant (PT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure", includes: "Basic: spray kits. Mid: fluorescent kits + UV lamps. Pro: automated spray lines, test panels." },
-  { category: "Magnetic Particle (MT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: AC yoke + dry powder. Mid: AC/DC yoke + wet fluorescent. Pro: bench units, coils, demagnetizers." },
-  { category: "Ultrasonic Testing (UT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: thickness gauge. Mid: conventional flaw detector. Pro: PAUT/TOFD instrument + probes." },
-  { category: "Eddy Current (ET)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: single-frequency instrument. Mid: multi-frequency with recording. Pro: array probes, automated systems." },
-  { category: "Radiographic Testing (RT)", basic: "a scoped, quoted figure", midRange: "a scoped, quoted figure", professional: "a scoped, quoted figure+", includes: "Basic: film + source rental. Mid: CR system + IP plates. Pro: DR flat panel + X-ray generator." },
+  { category: "Visual Testing (VT)", basic: "quoted by supplier", midRange: "quoted by supplier", professional: "quoted by supplier", includes: "Basic: magnifiers, lights, gauges. Mid: borescopes, video cameras. Pro: drone-based VT systems." },
+  { category: "Liquid Penetrant (PT)", basic: "quoted by supplier", midRange: "quoted by supplier", professional: "quoted by supplier", includes: "Basic: spray kits. Mid: fluorescent kits + UV lamps. Pro: automated spray lines, test panels." },
+  { category: "Magnetic Particle (MT)", basic: "quoted by supplier", midRange: "quoted by supplier", professional: "quoted by supplier+", includes: "Basic: AC yoke + dry powder. Mid: AC/DC yoke + wet fluorescent. Pro: bench units, coils, demagnetizers." },
+  { category: "Ultrasonic Testing (UT)", basic: "quoted by supplier", midRange: "quoted by supplier", professional: "quoted by supplier+", includes: "Basic: thickness gauge. Mid: conventional flaw detector. Pro: PAUT/TOFD instrument + probes." },
+  { category: "Eddy Current (ET)", basic: "quoted by supplier", midRange: "quoted by supplier", professional: "quoted by supplier+", includes: "Basic: single-frequency instrument. Mid: multi-frequency with recording. Pro: array probes, automated systems." },
+  { category: "Radiographic Testing (RT)", basic: "quoted by supplier", midRange: "quoted by supplier", professional: "quoted by supplier+", includes: "Basic: film + source rental. Mid: CR system + IP plates. Pro: DR flat panel + X-ray generator." },
 ];
 
 /* ─── FAQ ─── */
 const faqs = [
   {
     q: "What is the best NDT equipment for beginners?",
-    a: "For beginners entering the NDT field, start with equipment appropriate for your certification method. For UT, the Olympus Epoch 650 or Sonatest D-series are excellent conventional flaw detectors with intuitive interfaces. For MT, a good AC yoke (Magnaflux Y-6, Y-7, or Y-8) with wet fluorescent particles and a UV lamp is the standard field kit. For PT, a basic visible dye penetrant kit (Magnaflux Spotcheck) costs under a scoped, quoted figure and is sufficient for training and basic work. The key principle is to master the fundamentals on basic equipment before investing in advanced instruments — a skilled operator with a basic instrument will outperform a novice with a a scoped, quoted figure PAUT unit.",
+    a: "For beginners entering the NDT field, start with equipment appropriate for your certification method. For UT, the Olympus Epoch 650 or Sonatest D-series are excellent conventional flaw detectors with intuitive interfaces. For MT, a good AC yoke (Magnaflux Y-6, Y-7, or Y-8) with wet fluorescent particles and a UV lamp is the standard field kit. For PT, a basic visible dye penetrant kit (Magnaflux Spotcheck) costs under quoted by supplier and is sufficient for training and basic work. The key principle is to master the fundamentals on basic equipment before investing in advanced instruments — a skilled operator with a basic instrument will outperform a novice with a quoted by supplier PAUT unit.",
   },
   {
     q: "Is Olympus or Eddyfi better for PAUT?",
@@ -112,11 +112,11 @@ const faqs = [
   },
   {
     q: "How much does a PAUT system cost?",
-    a: "A complete PAUT system for weld inspection typically costs vary with scope depending on the instrument and probe configuration. The instrument alone (e.g., Olympus OmniScan X3 64:128) costs vary with scope. Phased array probes costs vary with scope each (you need multiple probes for different applications). Wedges and scanners add a scoped, quoted figure per setup. Software licenses for analysis (Olympus TomoView, Eddyfi Capture) add a scoped, quoted figure. Total first-year investment for a single PAUT inspection capability: a scoped, quoted figure including training. Many NDT companies lease equipment or purchase certified pre-owned instruments to reduce initial investment.",
+    a: "A complete PAUT system for weld inspection typically costs vary with scope depending on the instrument and probe configuration. The instrument alone (e.g., Olympus OmniScan X3 64:128) costs vary with scope. Phased array probes costs vary with scope each (you need multiple probes for different applications). Wedges and scanners add quoted by supplier per setup. Software licenses for analysis (Olympus TomoView, Eddyfi Capture) add quoted by supplier. Total first-year investment for a single PAUT inspection capability: quoted by supplier including training. Many NDT companies lease equipment or purchase certified pre-owned instruments to reduce initial investment.",
   },
   {
     q: "Should I buy film RT, computed radiography (CR), or digital radiography (DR)?",
-    a: "The choice depends on your inspection volume and budget. Film RT has the lowest initial investment (a scoped, quoted figure excluding source) but the highest per-shot cost (a scoped, quoted figure per exposure for film + chemicals + processing) and environmental concerns. Computed Radiography (CR) eliminates film and chemicals — phosphor imaging plates are reusable and produce digital images — with moderate initial investment and very low per-shot cost. Digital Radiography (DR) provides immediate real-time images with the highest initial investment but zero per-shot consumable cost. For high-volume operations (>50 exposures/day), DR has the lowest total cost of ownership. For moderate volume, CR offers the best balance. Film is only cost-effective for very low volume or where digital systems are not code-accepted.",
+    a: "The choice depends on your inspection volume and budget. Film RT has the lowest initial investment (quoted by supplier excluding source) but the highest per-shot cost (quoted by supplier per exposure for film + chemicals + processing) and environmental concerns. Computed Radiography (CR) eliminates film and chemicals — phosphor imaging plates are reusable and produce digital images — with moderate initial investment and very low per-shot cost. Digital Radiography (DR) provides immediate real-time images with the highest initial investment but zero per-shot consumable cost. For high-volume operations (>50 exposures/day), DR has the lowest total cost of ownership. For moderate volume, CR offers the best balance. Film is only cost-effective for very low volume or where digital systems are not code-accepted.",
   },
   {
     q: "What calibration equipment do I need?",
@@ -238,7 +238,7 @@ export default function NDTEquipmentGuide() {
               NDT Equipment Market Overview
             </h2>
             <p className="text-lg text-slate-700 leading-relaxed mb-4">
-              The global NDT equipment market is valued at approximately a scoped, quoted figure billion (2024) and is growing at 7-9% CAGR. The market is dominated by a handful of major manufacturers: <strong>Olympus/Evident</strong> (UT/PAUT leader), <strong>Baker Hughes/Waygate Technologies</strong> (RT/industrial CT), <strong>Eddyfi Technologies</strong> (advanced UT/ET), and <strong>Magnaflux</strong> (MT/PT consumables). Equipment costs range from under a scoped, quoted figure for a basic PT kit to over a scoped, quoted figure for a digital radiography system.
+              The global NDT equipment market is valued at approximately quoted by supplier billion (2024) and is growing at 7-9% CAGR. The market is dominated by a handful of major manufacturers: <strong>Olympus/Evident</strong> (UT/PAUT leader), <strong>Baker Hughes/Waygate Technologies</strong> (RT/industrial CT), <strong>Eddyfi Technologies</strong> (advanced UT/ET), and <strong>Magnaflux</strong> (MT/PT consumables). Equipment costs range from under quoted by supplier for a basic PT kit to over quoted by supplier for a digital radiography system.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
               Key trends driving equipment innovation include: digital transformation (cloud connectivity, AI-assisted analysis), miniaturization (smaller, lighter field instruments), advanced imaging (TFM/FMC for UT, digital RT), automation (robotic scanners, drone-based inspection), and interoperability (standardized data formats, digital twin integration).
@@ -338,7 +338,7 @@ export default function NDTEquipmentGuide() {
                   <h3 className="text-lg font-bold text-[#004aad]">Magnetic Particle Testing (MT) Equipment</h3>
                 </div>
                 <p className="text-slate-700 leading-relaxed mb-3 text-sm">
-                  MT equipment ranges from portable AC yokes (Magnaflux Y-6/Y-7/Y-8, Parker Research DA-200) for field use to stationary wet horizontal bench units for workshop inspection. Key accessories include UV-A lamps (for fluorescent MT), magnetic particles (dry powder or wet fluorescent), and field indicators (pie gauge, Ketos ring). AC yokes are the most common field equipment, costing a scoped, quoted figure. Bench units for high-volume inspection costs vary with scope+.
+                  MT equipment ranges from portable AC yokes (Magnaflux Y-6/Y-7/Y-8, Parker Research DA-200) for field use to stationary wet horizontal bench units for workshop inspection. Key accessories include UV-A lamps (for fluorescent MT), magnetic particles (dry powder or wet fluorescent), and field indicators (pie gauge, Ketos ring). AC yokes are the most common field equipment, costing quoted by supplier. Bench units for high-volume inspection costs vary with scope+.
                 </p>
                 <p className="text-sm text-slate-600"><strong>Key Brands:</strong> Magnaflux, Parker Research, Western Instruments, Helling</p>
               </div>
@@ -348,7 +348,7 @@ export default function NDTEquipmentGuide() {
                   <h3 className="text-lg font-bold text-[#004aad]">Liquid Penetrant Testing (PT) Equipment</h3>
                 </div>
                 <p className="text-slate-700 leading-relaxed mb-3 text-sm">
-                  PT equipment is the most affordable NDT method. Portable kits include penetrant, cleaner/remover, and developer in spray cans (Magnaflux Spotcheck, Sherwin-Williams) for a scoped, quoted figure. Fluorescent penetrant systems (for higher sensitivity) require UV-A lamps and are used in aerospace and critical applications. Automated penetrant lines for production environments costs vary with scope+. PT materials are classified by ASTM E1417 and qualified per AMS 2644 for aerospace.
+                  PT equipment is the most affordable NDT method. Portable kits include penetrant, cleaner/remover, and developer in spray cans (Magnaflux Spotcheck, Sherwin-Williams) for quoted by supplier. Fluorescent penetrant systems (for higher sensitivity) require UV-A lamps and are used in aerospace and critical applications. Automated penetrant lines for production environments costs vary with scope+. PT materials are classified by ASTM E1417 and qualified per AMS 2644 for aerospace.
                 </p>
                 <p className="text-sm text-slate-600"><strong>Key Brands:</strong> Magnaflux, Sherwin-Williams (Ardrox), Met-L-Chek, Helling</p>
               </div>
@@ -529,12 +529,12 @@ export default function NDTEquipmentGuide() {
             <h3 className="text-lg font-bold mb-3 text-green-800">Price Quick Reference</h3>
             <ul className="space-y-3 text-sm text-green-800">
               {[
-                { label: "UT Thickness Gauge", value: "a scoped, quoted figure" },
-                { label: "PAUT System", value: "a scoped, quoted figure" },
-                { label: "CR System", value: "a scoped, quoted figure" },
-                { label: "DR Panel System", value: "a scoped, quoted figure" },
-                { label: "ET Instrument", value: "a scoped, quoted figure" },
-                { label: "MT Yoke (AC)", value: "a scoped, quoted figure" },
+                { label: "UT Thickness Gauge", value: "quoted by supplier" },
+                { label: "PAUT System", value: "quoted by supplier" },
+                { label: "CR System", value: "quoted by supplier" },
+                { label: "DR Panel System", value: "quoted by supplier" },
+                { label: "ET Instrument", value: "quoted by supplier" },
+                { label: "MT Yoke (AC)", value: "quoted by supplier" },
               ].map((item) => (
                 <li key={item.label} className="flex justify-between items-center border-b border-green-200 pb-2">
                   <span>{item.label}</span>

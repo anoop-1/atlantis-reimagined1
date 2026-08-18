@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "How much does NDT certification cost in total?",
-    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): a scoped, quoted figure including training course, study materials, and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): a scoped, quoted figure for incremental training and examination. ISO 9712 or PCN Level II single method: a scoped, quoted figure including authorized training center course and certification body exam fee. ASNT ACCP Level III (per method): a scoped, quoted figure including prep course and ASNT exam fee (a scoped, quoted figure per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): a scoped, quoted figure. Affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
+    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): set by the certifying body including training course, study materials, and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): set by the certifying body for incremental training and examination. ISO 9712 or PCN Level II single method: set by the certifying body including authorized training center course and certification body exam fee. ASNT ACCP Level III (per method): set by the certifying body including prep course and ASNT exam fee (set by the certifying body per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): set by the certifying body. Affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
   },
   {
     q: "What is the ASNT ACCP Level III exam?",
@@ -81,7 +81,7 @@ const certSchemes = [
     scope: "Employer-based",
     recognition: "USA, Americas, Middle East (ASME/API work)",
     examFormat: "Written + practical (employer-administered)",
-    costRange: "a scoped, quoted figure per method",
+    costRange: "set by the certifying body per method",
     validity: "Per employer written practice (3–5 yr typical)",
     portability: "Not portable between employers",
   },
@@ -90,7 +90,7 @@ const certSchemes = [
     scope: "Third-party, ASNT-administered",
     recognition: "USA, global (major IOCs)",
     examFormat: "Basic exam + method exams (written only)",
-    costRange: "a scoped, quoted figure per exam + prep course a scoped, quoted figure",
+    costRange: "set by the certifying body per exam + prep course set by the certifying body",
     validity: "5 years (renewal by exam or CE points)",
     portability: "Fully portable",
   },
@@ -99,7 +99,7 @@ const certSchemes = [
     scope: "International standard, third-party body",
     recognition: "Europe, Middle East, Asia, Africa, South America",
     examFormat: "General + specific + practical (certification body)",
-    costRange: "a scoped, quoted figure per method (Level II)",
+    costRange: "set by the certifying body per method (Level II)",
     validity: "5 years (10-year recertification by exam)",
     portability: "Fully portable internationally",
   },
@@ -108,7 +108,7 @@ const certSchemes = [
     scope: "UK-based, ISO 9712 compliant",
     recognition: "UK, Middle East, Australia, Southeast Asia",
     examFormat: "General + specific + practical at BINDT centres",
-    costRange: "a scoped, quoted figure per exam + training a scoped, quoted figure",
+    costRange: "set by the certifying body per exam + training set by the certifying body",
     validity: "5 years (10-year recertification by exam)",
     portability: "Fully portable (ISO 9712 aligned)",
   },
@@ -117,7 +117,7 @@ const certSchemes = [
     scope: "Welding & inspection personnel",
     recognition: "UK, Middle East, offshore, global",
     examFormat: "Written + practical at TWI centres",
-    costRange: "a scoped, quoted figure exam + training a scoped, quoted figure",
+    costRange: "set by the certifying body exam + training set by the certifying body",
     validity: "5 years (renewal by CPD evidence)",
     portability: "Fully portable",
   },
@@ -214,16 +214,16 @@ const methodCertDetails = [
 
 /* ─── Cost Breakdown Data ─── */
 const costBreakdown = [
-  { item: "Level I training course (single method)", cost: "a scoped, quoted figure", notes: "40-hour classroom + practical, includes materials" },
-  { item: "Level II training course (single method)", cost: "a scoped, quoted figure", notes: "Additional 40 hours, more advanced practical exercises" },
-  { item: "ASNT Level I/II exam materials (ASNT Questions & Answers book)", cost: "a scoped, quoted figure", notes: "Per method; recommended for exam preparation" },
-  { item: "Employer-administered exam (SNT-TC-1A)", cost: "a scoped, quoted figure", notes: "Many employers administer at no cost to the candidate" },
-  { item: "ISO 9712 / PCN certification exam fee", cost: "a scoped, quoted figure", notes: "Per method, per level; paid to certification body" },
-  { item: "ASNT ACCP Level III Basic exam", cost: "a scoped, quoted figure", notes: "Prerequisite for all ACCP method exams" },
-  { item: "ASNT ACCP Level III Method exam", cost: "a scoped, quoted figure", notes: "Per method; separate from Basic exam" },
-  { item: "Level III prep course", cost: "a scoped, quoted figure", notes: "5-day intensive review course; highly recommended" },
-  { item: "Certification renewal (5-year, ISO 9712/ACCP)", cost: "a scoped, quoted figure", notes: "Plus continuing education costs" },
-  { item: "Vision acuity test (annual)", cost: "a scoped, quoted figure", notes: "Required annually by most schemes" },
+  { item: "Level I training course (single method)", cost: "set by the certifying body", notes: "40-hour classroom + practical, includes materials" },
+  { item: "Level II training course (single method)", cost: "set by the certifying body", notes: "Additional 40 hours, more advanced practical exercises" },
+  { item: "ASNT Level I/II exam materials (ASNT Questions & Answers book)", cost: "set by the certifying body", notes: "Per method; recommended for exam preparation" },
+  { item: "Employer-administered exam (SNT-TC-1A)", cost: "set by the certifying body", notes: "Many employers administer at no cost to the candidate" },
+  { item: "ISO 9712 / PCN certification exam fee", cost: "set by the certifying body", notes: "Per method, per level; paid to certification body" },
+  { item: "ASNT ACCP Level III Basic exam", cost: "set by the certifying body", notes: "Prerequisite for all ACCP method exams" },
+  { item: "ASNT ACCP Level III Method exam", cost: "set by the certifying body", notes: "Per method; separate from Basic exam" },
+  { item: "Level III prep course", cost: "set by the certifying body", notes: "5-day intensive review course; highly recommended" },
+  { item: "Certification renewal (5-year, ISO 9712/ACCP)", cost: "set by the certifying body", notes: "Plus continuing education costs" },
+  { item: "Vision acuity test (annual)", cost: "set by the certifying body", notes: "Required annually by most schemes" },
 ];
 
 /* ─── Global Recognition Data ─── */
@@ -410,7 +410,7 @@ export default function NDTCertificationGuide() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { label: "Certification Schemes Compared", value: "5 Major" },
-              { label: "Exam Cost Range", value: "a scoped, quoted figure" },
+              { label: "Exam Cost Range", value: "set by the certifying body" },
               { label: "Level II Timeline", value: "12–24 Months" },
               { label: "Level III USA Salary", value: "$80K–$160K+" },
             ].map((s) => (
@@ -571,17 +571,17 @@ export default function NDTCertificationGuide() {
             <div className="mt-5 grid sm:grid-cols-3 gap-4">
               <div className="bg-green-50 rounded-xl p-5 border border-green-200 text-center">
                 <DollarSign className="w-6 h-6 text-green-700 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-green-800">a scoped, quoted figure</p>
+                <p className="text-2xl font-bold text-green-800">set by the certifying body</p>
                 <p className="text-xs text-green-700 mt-1">Single method, Level I to Level II</p>
               </div>
               <div className="bg-blue-50 rounded-xl p-5 border border-blue-200 text-center">
                 <DollarSign className="w-6 h-6 text-[#004aad] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#004aad]">a scoped, quoted figure. Affordable, accessible</p>
+                <p className="text-2xl font-bold text-[#004aad]">set by the certifying body. Affordable, accessible</p>
                 <p className="text-xs text-blue-700 mt-1">Multi-method Level II (UT+RT+MT+PT)</p>
               </div>
               <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 text-center">
                 <DollarSign className="w-6 h-6 text-amber-700 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-amber-800">a scoped, quoted figure</p>
+                <p className="text-2xl font-bold text-amber-800">set by the certifying body</p>
                 <p className="text-xs text-amber-700 mt-1">ASNT ACCP Level III (per method)</p>
               </div>
             </div>
@@ -812,8 +812,8 @@ export default function NDTCertificationGuide() {
               {[
                 { label: "Level II Training", value: "80 hrs/method" },
                 { label: "Level II Experience", value: "1,200+ hrs" },
-                { label: "Exam Fee (ISO 9712)", value: "a scoped, quoted figure" },
-                { label: "ACCP Level III Fee", value: "a scoped, quoted figure" },
+                { label: "Exam Fee (ISO 9712)", value: "set by the certifying body" },
+                { label: "ACCP Level III Fee", value: "set by the certifying body" },
                 { label: "Certification Validity", value: "5 years" },
                 { label: "Vision Requirement", value: "Jaeger J2" },
               ].map((item) => (

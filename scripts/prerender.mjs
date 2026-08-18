@@ -30,6 +30,7 @@ import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
 import { applyClusterLinks } from './cluster-links.mjs';
+import { fixDuplicateH1 } from './fix-duplicate-h1.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -9992,7 +9993,10 @@ routes.push({
 const extraPages = [
   // REMOVED: /digital-twins-ndt-guide → redirects to /digital-twins
   // REMOVED: /digital-twins-oil-gas → content consolidated into /digital-twins
-  { path: '/ut-vs-rt-comparison', title: 'UT vs RT — Which Weld Inspection Method to Specify | Atlantis NDT', description: 'Ultrasonic versus radiographic weld examination compared on defect type detected, access and safety constraints, speed, permanent-record value and the ASME and AWS code requirements that govern each. Includes a decision matrix.' },
+  // h1 added 2026-08-18: this route carried a title and 3,460 characters of
+  // body but no <h1> at all, so the page never stated its own subject in the
+  // one element crawlers weight most. Caught by scripts/preflight.mjs.
+  { path: '/ut-vs-rt-comparison', title: 'UT vs RT — Which Weld Inspection Method to Specify | Atlantis NDT', h1: 'UT vs RT: Which Weld Inspection Method to Specify', description: 'Ultrasonic versus radiographic weld examination compared on defect type detected, access and safety constraints, speed, permanent-record value and the ASME and AWS code requirements that govern each. Includes a decision matrix.' },
   { path: '/blog/api-653-tank-inspection-guide', title: 'API 653 Tank Inspection [2026]: Intervals, Floor Scan & Free Checklist', description: 'API 653 inspection intervals: external every 5 yr, internal every 10 yr (RBI-adjustable). Covers floor UT/MFL scanning, shell thickness, hot-tap repair criteria. Download free checklist.' },
   // REMOVED: /blog/ndt-career-guide → redirects to /blog/ndt-salary-guide-2025-global-level-1-2-3
   { path: '/blog/ut-vs-rt-comparison', title: 'UT vs RT for Welds [2026]: Cost, Safety & Accuracy — Which to Choose?', description: 'Choosing UT or RT for weld inspection? Compare cost ($800 vs $1,500+/weld), radiation safety, defect sensitivity, and ASME/AWS requirements. Includes decision matrix and expert picks.' },
@@ -13333,6 +13337,20 @@ if (pseoNoindexApplied > 0) {
       `${up.consulting} consulting · ${up.caseStudies} case-study · ${up.tools} tool · ` +
       `${up.standards} standards · ${up.hubs} hub · ${up.methods} method · ${up.stragglers} straggler · ${up.dtDepth} digital-twin pages deepened · ${up.erpFaqs} ERP pages given buyer Q&A · ${up.trainingCities} US training-city pages localised · consolidation: ${JSON.stringify(up.consolidation)} · ${up.methodCities} method-city pages localised · ${up.trainingIntl} intl training cities`
     );
+
+// ─── DUPLICATE H1 / STRAY HEAD REPAIR 2026-08-18 ───────────────────────────
+// 14 blog routes emitted two identical <h1> elements because the stored body
+// is a full document fragment carrying its own meta and article wrapper, which
+// prerender then wraps again. Two H1s is an ambiguous topic signal. Runs last
+// so it sees the final assembled body, including the citation and cluster
+// blocks appended above.
+{
+  const h1 = fixDuplicateH1(routes);
+  console.log(`H1 repair: ${h1.deduped} routes fixed (${h1.demoted || 0} demoted to h2, ${h1.injected || 0} declared h1 injected, ${h1.promoted || 0} h2 promoted), ${h1.metaStripped} stray in-body meta/canonical stripped` +
+    (h1.noH1.length ? ` - ${h1.noH1.length} route(s) still have NO h1: ${h1.noH1.slice(0, 5).join(', ')}` : '') +
+    (h1.differing.length ? ` - ${h1.differing.length} non-identical second h1 left for editorial review` : ''));
+}
+
   }
 
   const methodEnriched = enrichMethodCityPages(routes);
