@@ -29,6 +29,7 @@ import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
+import { applyClusterLinks } from './cluster-links.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -13209,6 +13210,17 @@ routes.push({
     '    <p><a href="/contact?service=consulting&amp;subject=ASNT%20Level%20III%20enquiry">Discuss a Level III engagement</a></p>\n' +
     '  </main>',
 });
+
+// ─── CLUSTER INTERLINKING 2026-08-18 ───────────────────────────────────────
+// Head terms move as a by-product of a complete, densely interlinked cluster,
+// never as a first move. Runs after every route exists so the mesh can see the
+// depth pages, and appends to bodyContent because React-side links never reach
+// a crawler on this site.
+{
+  const cl = applyClusterLinks(routes);
+  console.log(`Cluster interlinking: ${cl.linked} pages linked ${JSON.stringify(cl.byCluster)}` +
+    (cl.missing.length ? ` - not yet built: ${[...new Set(cl.missing)].join(', ')}` : ''));
+}
 
 // ─── Deduplicate routes (later entries override earlier for same path) ─────
 const routeMap = new Map();
