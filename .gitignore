@@ -44,3 +44,36 @@ scripts/gsc-accounts/*.json
 
 # Raw GSC deep-dive pulls (regenerable, multi-MB) — commit the summary instead
 scripts/us-deepdive-2026-08-09.json
+
+# ── Deployment weight, added 2026-08-18 ──────────────────────────────────────
+# Vercel builds dist itself (package.json "build" runs vite build + prerender),
+# so nothing below needs to be uploaded on every deploy.
+
+# Agent worktrees: 150 MB of full repo copies committed inside the repo.
+.claude/
+
+# Analysis artifacts. The SCRIPTS that produce these are tracked and re-runnable
+# (diag-traffic, seg-deepdive, striking-distance, kpi-weekly, lint-citation-spec);
+# their JSON output is a snapshot and does not belong in version control.
+scripts/*-report.json
+scripts/citation-spec-report.json
+scripts/kpi-weekly-latest.json
+scripts/routes-recovered.json
+scripts/diag-traffic-*.json
+scripts/seg-deepdive-*.json
+scripts/striking-distance-*.json
+scripts/content-briefs-*.json
+scripts/trend-us-training.json
+scripts/pricing-placeholder-backlog.json
+
+# One-off diagnostic probes, kept locally but not shipped.
+scripts/_verify-*.mjs
+scripts/_map-targets.mjs
+scripts/_probe-*.mjs
+scripts/_index-sample.mjs
+scripts/_which-sa-owns.mjs
+scripts/_seg-deepdive-*.mjs
+scripts/_trend-*.mjs
+
+# Build output — Vercel regenerates this via package.json "build".
+dist/
