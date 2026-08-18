@@ -72,6 +72,19 @@ const PRIORITY = [
   '/training-usa',
   '/ndt-training-near-me',
   '/glossary/phased-array-ultrasonic-testing-paut',
+  // Phase 2 depth pages, shipped 2026-08-18. Audited by default so a
+  // regression on a brand-new page surfaces in the next build rather than in
+  // a manual audit months later.
+  '/omniscan-data-to-inspection-report',
+  '/floodlight-software-alternatives',
+  '/consulting/outside-ndt-level-3-can-and-cannot-do',
+  '/consulting/ndt-level-3-resigned-what-to-do',
+  '/digital-twins-ndt/ut-thickness-overlay',
+  '/digital-twin-vs-idms',
+  '/nas-410-certification-requirements',
+  '/blog/ndt-training-hours-requirements-by-method',
+  '/erp/ndt-software-rfp-requirements-checklist',
+  '/erp/iso-17020-software-for-ndt-inspection-bodies',
 ];
 
 function listBuiltPages(dir, out = []) {

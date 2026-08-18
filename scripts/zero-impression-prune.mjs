@@ -125,6 +125,28 @@ export function applyZeroImpressionPrune(routes, demand = {}) {
     // Protection 2: recently shipped — recrawl not yet possible.
     if (RECENT_SHIP_PATTERNS.some((re) => re.test(r.path))) { out.protectedRecent++; continue; }
 
+    // Protection 2b: citation-spec depth pages, added 2026-08-18.
+    //
+    // A demand-based prune cannot tell "zero impressions because the page is
+    // dead" from "zero impressions because the page shipped this morning", and
+    // every new page is the second case. /digital-twin-vs-idms — a comparison
+    // page written against a SERP with no commercial occupant — was noindexed
+    // the day it was built, because the dt-city matcher /^\/digital-twin-/ also
+    // catches topic pages that merely start with those words.
+    //
+    // That is the same over-broad-matcher failure this file already records
+    // under method-city, where `-testing-` open-ended silently noindexed six
+    // national training pages. Rather than patch another slug exclusion and
+    // wait for the third instance, this protects the property that actually
+    // matters: a page carrying a citation answer block has been through the
+    // spec gate (40-70 word answer, named source, captioned table, six
+    // question facets, 900+ body words). Whatever such a page is, it is not
+    // a dead template, and it deserves its recrawl window.
+    if (String(r.bodyContent || '').includes('data-citation-block="answer"')) {
+      out.protectedRecent++;
+      continue;
+    }
+
     // Condition 2: only generic template content. A page carrying real
     // research (a §26.1 market block, a §37.1 gap block) is left indexed even
     // at zero impressions — research earns on the ~22x pattern and deserves
