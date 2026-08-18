@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('gen-tier3-expansion.mjs');
+
 /**
  * Tier-3 city expansion — adds DT + ERP + Reporting wrapper pages across
  * USA, Canada, Europe, Australia, New Zealand industrial hubs.

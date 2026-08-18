@@ -24,6 +24,8 @@ import { CTR_WAVE2_OVERRIDES } from './ctr-wave2-overrides.mjs';
 import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
 import { CTR_WAVE4_OVERRIDES } from './ctr-wave4-overrides.mjs';
 import { CTR_WAVE5_OVERRIDES, assertNoPricesInWave5 } from './ctr-wave5-overrides.mjs';
+import { CTR_WAVE6_OVERRIDES, assertNoPricesInWave6, assertNoTitleCollisions } from './ctr-wave6-overrides.mjs';
+import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
@@ -13026,6 +13028,31 @@ ${urls}
   console.log(`🎯 CTR wave 2: ${Object.keys(CTR_WAVE2_OVERRIDES).length - missing.length}/${Object.keys(CTR_WAVE2_OVERRIDES).length} target pages present`);
   if (missing.length) console.warn(`   ⚠️  wave-2 paths with no matching route: ${missing.join(', ')}`);
   assertNoPricesInWave5();
+  assertNoPricesInWave6();
+  assertNoTitleCollisions();
+  const m6 = Object.keys(CTR_WAVE6_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`CTR wave 6 (de-cannibalisation): ${Object.keys(CTR_WAVE6_OVERRIDES).length - m6.length}/${Object.keys(CTR_WAVE6_OVERRIDES).length} target pages present` + (m6.length ? ` - MISSING: ${m6.join(', ')}` : ''));
+
+  // ─── CITATION LAYER 2026-08-18 ──────────────────────────────────────────
+  // The static HTML is what crawlers and AI retrieval fetchers receive; React
+  // components never reach them, because this file builds pages from its own
+  // bodyContent strings rather than by rendering React. So the answer block,
+  // decomposition table and question-form facet headings have to be emitted
+  // HERE to exist at all. Appended to bodyContent rather than replacing it, so
+  // nothing already on the page is lost. Verified by lint-citation-spec.mjs.
+  {
+    let applied = 0;
+    const missingCitation = [];
+    for (const r of routes) {
+      const layer = CITATION_LAYERS[r.path];
+      if (!layer) continue;
+      r.bodyContent = (r.bodyContent || '') + '\n' + renderCitationLayer(layer);
+      applied++;
+    }
+    for (const k of Object.keys(CITATION_LAYERS)) if (!paths.has(k)) missingCitation.push(k);
+    console.log(`Citation layers applied: ${applied}/${Object.keys(CITATION_LAYERS).length}` + (missingCitation.length ? ` - MISSING ROUTES: ${missingCitation.join(', ')}` : ''));
+  }
+
   const m5 = Object.keys(CTR_WAVE5_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 5: ${Object.keys(CTR_WAVE5_OVERRIDES).length - m5.length}/${Object.keys(CTR_WAVE5_OVERRIDES).length} target pages present` + (m5.length ? ` — MISSING: ${m5.join(', ')}` : ''));
   const m4 = Object.keys(CTR_WAVE4_OVERRIDES).filter(p => !paths.has(p));
@@ -13339,7 +13366,11 @@ routes.forEach(route => {
     // Wave 5 (2026-08-04) is the newest layer: de-cannibalisation by title,
     // buyer-intent service queries, and removal of an Atlantis day rate that
     // was sitting in a title tag (CLAUDE.md 18).
-    const w5 = CTR_WAVE5_OVERRIDES[route.path];
+    // Wave 6 (2026-08-17) is the newest layer. De-cannibalisation only — the
+    // three NDT-software pages that were splitting the same queries — and it
+    // deliberately leaves every page not in a collision to the waves below.
+    const w6 = CTR_WAVE6_OVERRIDES[route.path];
+    const w5 = w6 || CTR_WAVE5_OVERRIDES[route.path];
     const w4 = w5 || CTR_WAVE4_OVERRIDES[route.path];
     const w3 = w4 || CTR_WAVE3_OVERRIDES[route.path];
     const w2 = w3 || CTR_WAVE2_OVERRIDES[route.path];

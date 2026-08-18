@@ -1,3 +1,6 @@
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('gen-erp-industry-city-pages.mjs');
+
 // Generate Industry × City ERP cross-product pages.
 // For each (industry, city) in the top 15 city list, emit a TSX stub at
 // src/pages/erp-industries/{industry}-{city}.tsx using ErpIndustryCityPage.

@@ -1,3 +1,6 @@
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('gen-erp-pages.mjs');
+
 // Generate ERP module + industry + missing-city stub TSX files.
 // Reads scripts/gen-erp-data.json. Writes src/pages/erp-modules/*.tsx,
 // src/pages/erp-industries/*.tsx, and src/pages/ndt-erp-*.tsx for missing cities.

@@ -12,6 +12,9 @@ import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import AnswerBlock from "@/components/citation/AnswerBlock";
+import DecompositionTable from "@/components/citation/DecompositionTable";
+import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import TableOfContents from "@/components/TableOfContents";
 const faqs = [
     { question: "What is the average NDT technician salary in 2026?", answer: "The median NDT Level II technician salary in the USA ranges from $55,000-$80,000 annually, depending on method specialization, industry, and experience. This is significantly higher than the Bureau of Labor Statistics general 'Quality Control Inspectors' average ($44,000) because NDT technicians with specialized methods (PAUT, TOFD, RT) command premium rates. Salary variation by method is dramatic: MT/PT technicians earn $50,000-$65,000, while PAUT/TOFD specialists earn $80,000-$110,000 - a 50-80% premium. Advanced methods (AUT, corrosion mapping) push salaries to $85,000-$115,000. Overtime is substantial in oil & gas (~10-20% annual bonus in onshore roles; 30-50% in offshore roles)." },
@@ -177,6 +180,60 @@ export default function NDTSalaryGuide2026() {
             {/* Article */}
             <article className="py-16">
                 <div className="container mx-auto max-w-4xl px-6">
+                    {/* ── Citation layer, added 2026-08-18 ──────────────────────
+                        This page is already cited by AI answer engines against
+                        Salary.com, Indeed, ZipRecruiter and Glassdoor despite far
+                        lower authority. The reason is structural: the aggregators
+                        publish ONE undifferentiated national average, and this page
+                        decomposes pay along the axis the asker actually cares about
+                        — certification level, then region. The block and table below
+                        make that mechanism explicit and liftable rather than
+                        incidental. US-first, because fan-out retrieval incorporates
+                        location and a region-ambiguous passage matches nothing
+                        cleanly. Figures are industry market data, which policy
+                        permits; no Atlantis price appears anywhere. */}
+                    <AnswerBlock
+                        answer="A US NDT technician earns $52,000 to $95,000 in 2026, and certification level moves that band more than any other factor. ASNT Level II sits at $55,000 to $80,000, while Level III reaches $95,000 to $145,000. Method matters next: PAUT and TOFD specialists earn 25 to 40 percent above conventional UT."
+                        expansion="Three multipliers stack on top of the base band. Certification level is the largest: an ASNT Level III earns 60 to 120 percent above a Level II in the same country, because the role carries procedure approval and personnel qualification authority under SNT-TC-1A rather than inspection alone. Method is second: phased array, TOFD and other advanced ultrasonic techniques pay 25 to 40 percent above conventional UT, MT and PT because the qualified population is small. Work environment is third: offshore and sour-service assignments pay 30 to 50 percent above onshore industrial work, though that premium reflects rotation schedules and hazard exposure rather than higher hourly value. API inspector certifications — 510, 570 and 653 — stack on top of ASNT credentials rather than replacing them, and are the most common route from technician pay into inspector pay."
+                        source="ASNT SNT-TC-1A (2024 edition) for level definitions; US Bureau of Labor Statistics occupational data for base bands"
+                    />
+
+                    <AuthorByline reviewedOn="18 August 2026" />
+
+                    <DecompositionTable
+                        id="us-salary-by-level"
+                        caption="US NDT salary by certification level and method specialisation, 2026"
+                        columns={["Certification level", "Base band (USD)", "With PAUT / TOFD", "Offshore or sour service", "Typical authority"]}
+                        rows={[
+                            ["ASNT Level I", "$42,000 - $58,000", "n/a - Level I cannot interpret", "$55,000 - $72,000", "Performs set-ups and readings under supervision"],
+                            ["ASNT Level II", "$55,000 - $80,000", "$70,000 - $105,000", "$78,000 - $118,000", "Interprets and reports to an approved procedure"],
+                            ["ASNT Level III", "$95,000 - $145,000", "$110,000 - $165,000", "$130,000 - $190,000", "Approves procedures, qualifies personnel"],
+                            ["API 510 / 570 / 653 inspector", "$85,000 - $130,000", "n/a - separate scheme", "$115,000 - $175,000", "Signs in-service inspection findings"],
+                            ["AWS CWI", "$70,000 - $105,000", "n/a - separate scheme", "$95,000 - $140,000", "Signs weld inspection to AWS D1.1"],
+                        ]}
+                        note="Industry market ranges for the United States, 2026. Bands are base salary excluding per-diem and rotation uplift. Level definitions follow ASNT SNT-TC-1A; API and AWS schemes are independent of the ASNT level ladder."
+                    />
+
+                    <FacetSection
+                        question="Which NDT certification level pays the most?"
+                        answer="ASNT Level III pays the most within the ASNT ladder, at $95,000 to $145,000 in the US against $55,000 to $80,000 for Level II. The gap exists because Level III carries authority a Level II does not have: approving procedures, writing the employer's written practice, and qualifying other technicians under SNT-TC-1A."
+                    />
+
+                    <FacetSection
+                        question="Does PAUT certification actually increase pay?"
+                        answer="Yes. Phased array and TOFD specialists earn 25 to 40 percent above conventional ultrasonic technicians at the same certification level. The premium reflects scarcity rather than difficulty — PAUT requires a current UT Level II first, plus documented phased-array experience, so the qualified population stays small relative to demand."
+                    />
+
+                    <FacetSection
+                        question="How much do API inspectors earn compared with ASNT technicians?"
+                        answer="API 510, 570 and 653 inspectors earn $85,000 to $130,000 in the US, overlapping the top of the ASNT Level II band and the bottom of Level III. API certification is a separate scheme rather than a rung on the ASNT ladder, and most holders carry both — the API credential authorises signing in-service inspection findings on pressure vessels, piping and tanks."
+                    />
+
+                    <FacetSection
+                        question="Is offshore NDT work worth the pay premium?"
+                        answer="Offshore and sour-service assignments pay 30 to 50 percent above equivalent onshore work. That premium compensates rotation schedules, hazard exposure and time away rather than a higher hourly value for the same inspection, so the effective annual comparison depends on the rotation pattern rather than the headline rate."
+                    />
+
                     {/* Introduction */}
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">NDT Salary Overview 2026</h2>

@@ -22,95 +22,27 @@ const ErpInd_construction_quality_assurance = lazy(() => import("./pages/erp-ind
 const ErpInd_geotechnical_engineering = lazy(() => import("./pages/erp-industries/geotechnical-engineering"));
 const ErpInd_environmental_testing_labs = lazy(() => import("./pages/erp-industries/environmental-testing-labs"));
 const ErpInd_oilfield_services = lazy(() => import("./pages/erp-industries/oilfield-services"));
-const NDTErp_accra = lazy(() => import("./pages/ndt-erp-accra"));
-const NDTErp_ahmedabad = lazy(() => import("./pages/ndt-erp-ahmedabad"));
-const NDTErp_algeria = lazy(() => import("./pages/ndt-erp-algeria"));
-const NDTErp_angola = lazy(() => import("./pages/ndt-erp-angola"));
-const NDTErp_argentina = lazy(() => import("./pages/ndt-erp-argentina"));
-const NDTErp_atlanta = lazy(() => import("./pages/ndt-erp-atlanta"));
-const NDTErp_austin = lazy(() => import("./pages/ndt-erp-austin"));
-const NDTErp_australia = lazy(() => import("./pages/ndt-erp-australia"));
-const NDTErp_bahrain = lazy(() => import("./pages/ndt-erp-bahrain"));
-const NDTErp_bangalore = lazy(() => import("./pages/ndt-erp-bangalore"));
-const NDTErp_bangkok = lazy(() => import("./pages/ndt-erp-bangkok"));
-const NDTErp_baton_rouge = lazy(() => import("./pages/ndt-erp-baton-rouge"));
-const NDTErp_beijing = lazy(() => import("./pages/ndt-erp-beijing"));
-const NDTErp_belgium = lazy(() => import("./pages/ndt-erp-belgium"));
-const NDTErp_bogota = lazy(() => import("./pages/ndt-erp-bogota"));
-const NDTErp_brazil = lazy(() => import("./pages/ndt-erp-brazil"));
-const NDTErp_brisbane = lazy(() => import("./pages/ndt-erp-brisbane"));
-const NDTErp_buenos_aires = lazy(() => import("./pages/ndt-erp-buenos-aires"));
-const NDTErp_cape_town = lazy(() => import("./pages/ndt-erp-cape-town"));
-const NDTErp_casablanca = lazy(() => import("./pages/ndt-erp-casablanca"));
-const NDTErp_chicago = lazy(() => import("./pages/ndt-erp-chicago"));
-const NDTErp_colombia = lazy(() => import("./pages/ndt-erp-colombia"));
-const NDTErp_colorado_springs = lazy(() => import("./pages/ndt-erp-colorado-springs"));
-const NDTErp_corpus_christi = lazy(() => import("./pages/ndt-erp-corpus-christi"));
-const NDTErp_dallas = lazy(() => import("./pages/ndt-erp-dallas"));
-const NDTErp_dammam = lazy(() => import("./pages/ndt-erp-dammam"));
-const NDTErp_delhi = lazy(() => import("./pages/ndt-erp-delhi"));
-const NDTErp_detroit = lazy(() => import("./pages/ndt-erp-detroit"));
-const NDTErp_egypt = lazy(() => import("./pages/ndt-erp-egypt"));
-const NDTErp_fort_worth = lazy(() => import("./pages/ndt-erp-fort-worth"));
-const NDTErp_france = lazy(() => import("./pages/ndt-erp-france"));
-const NDTErp_germany = lazy(() => import("./pages/ndt-erp-germany"));
-const NDTErp_ho_chi_minh = lazy(() => import("./pages/ndt-erp-ho-chi-minh"));
-const NDTErp_hong_kong = lazy(() => import("./pages/ndt-erp-hong-kong"));
-const NDTErp_huntsville = lazy(() => import("./pages/ndt-erp-huntsville"));
-const NDTErp_india = lazy(() => import("./pages/ndt-erp-india"));
-const NDTErp_indonesia = lazy(() => import("./pages/ndt-erp-indonesia"));
-const NDTErp_italy = lazy(() => import("./pages/ndt-erp-italy"));
-const NDTErp_jakarta = lazy(() => import("./pages/ndt-erp-jakarta"));
-const NDTErp_jamnagar = lazy(() => import("./pages/ndt-erp-jamnagar"));
-const NDTErp_japan = lazy(() => import("./pages/ndt-erp-japan"));
-const NDTErp_johannesburg = lazy(() => import("./pages/ndt-erp-johannesburg"));
-const NDTErp_kochi = lazy(() => import("./pages/ndt-erp-kochi"));
-const NDTErp_kolkata = lazy(() => import("./pages/ndt-erp-kolkata"));
-const NDTErp_lake_charles = lazy(() => import("./pages/ndt-erp-lake-charles"));
-const NDTErp_lima = lazy(() => import("./pages/ndt-erp-lima"));
-const NDTErp_los_angeles = lazy(() => import("./pages/ndt-erp-los-angeles"));
-const NDTErp_malaysia = lazy(() => import("./pages/ndt-erp-malaysia"));
-const NDTErp_manila = lazy(() => import("./pages/ndt-erp-manila"));
-const NDTErp_mexico_city = lazy(() => import("./pages/ndt-erp-mexico-city"));
-const NDTErp_nairobi = lazy(() => import("./pages/ndt-erp-nairobi"));
-const NDTErp_netherlands = lazy(() => import("./pages/ndt-erp-netherlands"));
-const NDTErp_new_york = lazy(() => import("./pages/ndt-erp-new-york"));
-const NDTErp_new_zealand = lazy(() => import("./pages/ndt-erp-new-zealand"));
-const NDTErp_nigeria = lazy(() => import("./pages/ndt-erp-nigeria"));
-const NDTErp_norfolk = lazy(() => import("./pages/ndt-erp-norfolk"));
-const NDTErp_norway = lazy(() => import("./pages/ndt-erp-norway"));
-const NDTErp_oklahoma_city = lazy(() => import("./pages/ndt-erp-oklahoma-city"));
-const NDTErp_oman = lazy(() => import("./pages/ndt-erp-oman"));
-const NDTErp_online = lazy(() => import("./pages/ndt-erp-online"));
-const NDTErp_orlando = lazy(() => import("./pages/ndt-erp-orlando"));
-const NDTErp_philadelphia = lazy(() => import("./pages/ndt-erp-philadelphia"));
-const NDTErp_philippines = lazy(() => import("./pages/ndt-erp-philippines"));
-const NDTErp_phoenix = lazy(() => import("./pages/ndt-erp-phoenix"));
-const NDTErp_pittsburgh = lazy(() => import("./pages/ndt-erp-pittsburgh"));
-const NDTErp_qatar = lazy(() => import("./pages/ndt-erp-qatar"));
-const NDTErp_raleigh = lazy(() => import("./pages/ndt-erp-raleigh"));
-const NDTErp_rio_de_janeiro = lazy(() => import("./pages/ndt-erp-rio-de-janeiro"));
-const NDTErp_sacramento = lazy(() => import("./pages/ndt-erp-sacramento"));
-const NDTErp_san_antonio = lazy(() => import("./pages/ndt-erp-san-antonio"));
-const NDTErp_san_francisco = lazy(() => import("./pages/ndt-erp-san-francisco"));
-const NDTErp_santiago = lazy(() => import("./pages/ndt-erp-santiago"));
-const NDTErp_sao_paulo = lazy(() => import("./pages/ndt-erp-sao-paulo"));
-const NDTErp_savannah = lazy(() => import("./pages/ndt-erp-savannah"));
-const NDTErp_scotland = lazy(() => import("./pages/ndt-erp-scotland"));
-const NDTErp_seattle = lazy(() => import("./pages/ndt-erp-seattle"));
-const NDTErp_shanghai = lazy(() => import("./pages/ndt-erp-shanghai"));
-const NDTErp_shenzhen = lazy(() => import("./pages/ndt-erp-shenzhen"));
-const NDTErp_south_africa = lazy(() => import("./pages/ndt-erp-south-africa"));
-const NDTErp_south_korea = lazy(() => import("./pages/ndt-erp-south-korea"));
-const NDTErp_spain = lazy(() => import("./pages/ndt-erp-spain"));
-const NDTErp_taipei = lazy(() => import("./pages/ndt-erp-taipei"));
-const NDTErp_taiwan = lazy(() => import("./pages/ndt-erp-taiwan"));
-const NDTErp_thailand = lazy(() => import("./pages/ndt-erp-thailand"));
-const NDTErp_trinidad = lazy(() => import("./pages/ndt-erp-trinidad"));
-const NDTErp_uk = lazy(() => import("./pages/ndt-erp-uk"));
-const NDTErp_usa = lazy(() => import("./pages/ndt-erp-usa"));
-const NDTErp_vietnam = lazy(() => import("./pages/ndt-erp-vietnam"));
-const NDTErp_vizag = lazy(() => import("./pages/ndt-erp-vizag"));
+const NDTErp_baltimore = lazy(() => import("./pages/ndt-erp-baltimore"));
+const NDTErp_barcelona = lazy(() => import("./pages/ndt-erp-barcelona"));
+const NDTErp_boston = lazy(() => import("./pages/ndt-erp-boston"));
+const NDTErp_canada = lazy(() => import("./pages/ndt-erp-canada"));
+const NDTErp_edinburgh = lazy(() => import("./pages/ndt-erp-edinburgh"));
+const NDTErp_hamburg = lazy(() => import("./pages/ndt-erp-hamburg"));
+const NDTErp_idaho_falls = lazy(() => import("./pages/ndt-erp-idaho-falls"));
+const NDTErp_indianapolis = lazy(() => import("./pages/ndt-erp-indianapolis"));
+const NDTErp_marseille = lazy(() => import("./pages/ndt-erp-marseille"));
+const NDTErp_mexico = lazy(() => import("./pages/ndt-erp-mexico"));
+const NDTErp_miami = lazy(() => import("./pages/ndt-erp-miami"));
+const NDTErp_milan = lazy(() => import("./pages/ndt-erp-milan"));
+const NDTErp_near_me = lazy(() => import("./pages/ndt-erp-near-me"));
+const NDTErp_newport_news = lazy(() => import("./pages/ndt-erp-newport-news"));
+const NDTErp_oak_ridge = lazy(() => import("./pages/ndt-erp-oak-ridge"));
+const NDTErp_odessa_texas = lazy(() => import("./pages/ndt-erp-odessa-texas"));
+const NDTErp_richland = lazy(() => import("./pages/ndt-erp-richland"));
+const NDTErp_san_diego = lazy(() => import("./pages/ndt-erp-san-diego"));
+const NDTErp_uae = lazy(() => import("./pages/ndt-erp-uae"));
+const NDTErp_washington_dc = lazy(() => import("./pages/ndt-erp-washington-dc"));
+const NDTErp_winnipeg = lazy(() => import("./pages/ndt-erp-winnipeg"));
 
 // === ROUTES ===
                   <Route path="/erp-modules/inventory-management" element={<LazyRoute Component={ErpMod_inventory_management} />} />
@@ -136,92 +68,24 @@ const NDTErp_vizag = lazy(() => import("./pages/ndt-erp-vizag"));
                   <Route path="/erp-industries/geotechnical-engineering" element={<LazyRoute Component={ErpInd_geotechnical_engineering} />} />
                   <Route path="/erp-industries/environmental-testing-labs" element={<LazyRoute Component={ErpInd_environmental_testing_labs} />} />
                   <Route path="/erp-industries/oilfield-services" element={<LazyRoute Component={ErpInd_oilfield_services} />} />
-                  <Route path="/ndt-erp-accra" element={<LazyRoute Component={NDTErp_accra} />} />
-                  <Route path="/ndt-erp-ahmedabad" element={<LazyRoute Component={NDTErp_ahmedabad} />} />
-                  <Route path="/ndt-erp-algeria" element={<LazyRoute Component={NDTErp_algeria} />} />
-                  <Route path="/ndt-erp-angola" element={<LazyRoute Component={NDTErp_angola} />} />
-                  <Route path="/ndt-erp-argentina" element={<LazyRoute Component={NDTErp_argentina} />} />
-                  <Route path="/ndt-erp-atlanta" element={<LazyRoute Component={NDTErp_atlanta} />} />
-                  <Route path="/ndt-erp-austin" element={<LazyRoute Component={NDTErp_austin} />} />
-                  <Route path="/ndt-erp-australia" element={<LazyRoute Component={NDTErp_australia} />} />
-                  <Route path="/ndt-erp-bahrain" element={<LazyRoute Component={NDTErp_bahrain} />} />
-                  <Route path="/ndt-erp-bangalore" element={<LazyRoute Component={NDTErp_bangalore} />} />
-                  <Route path="/ndt-erp-bangkok" element={<LazyRoute Component={NDTErp_bangkok} />} />
-                  <Route path="/ndt-erp-baton-rouge" element={<LazyRoute Component={NDTErp_baton_rouge} />} />
-                  <Route path="/ndt-erp-beijing" element={<LazyRoute Component={NDTErp_beijing} />} />
-                  <Route path="/ndt-erp-belgium" element={<LazyRoute Component={NDTErp_belgium} />} />
-                  <Route path="/ndt-erp-bogota" element={<LazyRoute Component={NDTErp_bogota} />} />
-                  <Route path="/ndt-erp-brazil" element={<LazyRoute Component={NDTErp_brazil} />} />
-                  <Route path="/ndt-erp-brisbane" element={<LazyRoute Component={NDTErp_brisbane} />} />
-                  <Route path="/ndt-erp-buenos-aires" element={<LazyRoute Component={NDTErp_buenos_aires} />} />
-                  <Route path="/ndt-erp-cape-town" element={<LazyRoute Component={NDTErp_cape_town} />} />
-                  <Route path="/ndt-erp-casablanca" element={<LazyRoute Component={NDTErp_casablanca} />} />
-                  <Route path="/ndt-erp-chicago" element={<LazyRoute Component={NDTErp_chicago} />} />
-                  <Route path="/ndt-erp-colombia" element={<LazyRoute Component={NDTErp_colombia} />} />
-                  <Route path="/ndt-erp-colorado-springs" element={<LazyRoute Component={NDTErp_colorado_springs} />} />
-                  <Route path="/ndt-erp-corpus-christi" element={<LazyRoute Component={NDTErp_corpus_christi} />} />
-                  <Route path="/ndt-erp-dallas" element={<LazyRoute Component={NDTErp_dallas} />} />
-                  <Route path="/ndt-erp-dammam" element={<LazyRoute Component={NDTErp_dammam} />} />
-                  <Route path="/ndt-erp-delhi" element={<LazyRoute Component={NDTErp_delhi} />} />
-                  <Route path="/ndt-erp-detroit" element={<LazyRoute Component={NDTErp_detroit} />} />
-                  <Route path="/ndt-erp-egypt" element={<LazyRoute Component={NDTErp_egypt} />} />
-                  <Route path="/ndt-erp-fort-worth" element={<LazyRoute Component={NDTErp_fort_worth} />} />
-                  <Route path="/ndt-erp-france" element={<LazyRoute Component={NDTErp_france} />} />
-                  <Route path="/ndt-erp-germany" element={<LazyRoute Component={NDTErp_germany} />} />
-                  <Route path="/ndt-erp-ho-chi-minh" element={<LazyRoute Component={NDTErp_ho_chi_minh} />} />
-                  <Route path="/ndt-erp-hong-kong" element={<LazyRoute Component={NDTErp_hong_kong} />} />
-                  <Route path="/ndt-erp-huntsville" element={<LazyRoute Component={NDTErp_huntsville} />} />
-                  <Route path="/ndt-erp-india" element={<LazyRoute Component={NDTErp_india} />} />
-                  <Route path="/ndt-erp-indonesia" element={<LazyRoute Component={NDTErp_indonesia} />} />
-                  <Route path="/ndt-erp-italy" element={<LazyRoute Component={NDTErp_italy} />} />
-                  <Route path="/ndt-erp-jakarta" element={<LazyRoute Component={NDTErp_jakarta} />} />
-                  <Route path="/ndt-erp-jamnagar" element={<LazyRoute Component={NDTErp_jamnagar} />} />
-                  <Route path="/ndt-erp-japan" element={<LazyRoute Component={NDTErp_japan} />} />
-                  <Route path="/ndt-erp-johannesburg" element={<LazyRoute Component={NDTErp_johannesburg} />} />
-                  <Route path="/ndt-erp-kochi" element={<LazyRoute Component={NDTErp_kochi} />} />
-                  <Route path="/ndt-erp-kolkata" element={<LazyRoute Component={NDTErp_kolkata} />} />
-                  <Route path="/ndt-erp-lake-charles" element={<LazyRoute Component={NDTErp_lake_charles} />} />
-                  <Route path="/ndt-erp-lima" element={<LazyRoute Component={NDTErp_lima} />} />
-                  <Route path="/ndt-erp-los-angeles" element={<LazyRoute Component={NDTErp_los_angeles} />} />
-                  <Route path="/ndt-erp-malaysia" element={<LazyRoute Component={NDTErp_malaysia} />} />
-                  <Route path="/ndt-erp-manila" element={<LazyRoute Component={NDTErp_manila} />} />
-                  <Route path="/ndt-erp-mexico-city" element={<LazyRoute Component={NDTErp_mexico_city} />} />
-                  <Route path="/ndt-erp-nairobi" element={<LazyRoute Component={NDTErp_nairobi} />} />
-                  <Route path="/ndt-erp-netherlands" element={<LazyRoute Component={NDTErp_netherlands} />} />
-                  <Route path="/ndt-erp-new-york" element={<LazyRoute Component={NDTErp_new_york} />} />
-                  <Route path="/ndt-erp-new-zealand" element={<LazyRoute Component={NDTErp_new_zealand} />} />
-                  <Route path="/ndt-erp-nigeria" element={<LazyRoute Component={NDTErp_nigeria} />} />
-                  <Route path="/ndt-erp-norfolk" element={<LazyRoute Component={NDTErp_norfolk} />} />
-                  <Route path="/ndt-erp-norway" element={<LazyRoute Component={NDTErp_norway} />} />
-                  <Route path="/ndt-erp-oklahoma-city" element={<LazyRoute Component={NDTErp_oklahoma_city} />} />
-                  <Route path="/ndt-erp-oman" element={<LazyRoute Component={NDTErp_oman} />} />
-                  <Route path="/ndt-erp-online" element={<LazyRoute Component={NDTErp_online} />} />
-                  <Route path="/ndt-erp-orlando" element={<LazyRoute Component={NDTErp_orlando} />} />
-                  <Route path="/ndt-erp-philadelphia" element={<LazyRoute Component={NDTErp_philadelphia} />} />
-                  <Route path="/ndt-erp-philippines" element={<LazyRoute Component={NDTErp_philippines} />} />
-                  <Route path="/ndt-erp-phoenix" element={<LazyRoute Component={NDTErp_phoenix} />} />
-                  <Route path="/ndt-erp-pittsburgh" element={<LazyRoute Component={NDTErp_pittsburgh} />} />
-                  <Route path="/ndt-erp-qatar" element={<LazyRoute Component={NDTErp_qatar} />} />
-                  <Route path="/ndt-erp-raleigh" element={<LazyRoute Component={NDTErp_raleigh} />} />
-                  <Route path="/ndt-erp-rio-de-janeiro" element={<LazyRoute Component={NDTErp_rio_de_janeiro} />} />
-                  <Route path="/ndt-erp-sacramento" element={<LazyRoute Component={NDTErp_sacramento} />} />
-                  <Route path="/ndt-erp-san-antonio" element={<LazyRoute Component={NDTErp_san_antonio} />} />
-                  <Route path="/ndt-erp-san-francisco" element={<LazyRoute Component={NDTErp_san_francisco} />} />
-                  <Route path="/ndt-erp-santiago" element={<LazyRoute Component={NDTErp_santiago} />} />
-                  <Route path="/ndt-erp-sao-paulo" element={<LazyRoute Component={NDTErp_sao_paulo} />} />
-                  <Route path="/ndt-erp-savannah" element={<LazyRoute Component={NDTErp_savannah} />} />
-                  <Route path="/ndt-erp-scotland" element={<LazyRoute Component={NDTErp_scotland} />} />
-                  <Route path="/ndt-erp-seattle" element={<LazyRoute Component={NDTErp_seattle} />} />
-                  <Route path="/ndt-erp-shanghai" element={<LazyRoute Component={NDTErp_shanghai} />} />
-                  <Route path="/ndt-erp-shenzhen" element={<LazyRoute Component={NDTErp_shenzhen} />} />
-                  <Route path="/ndt-erp-south-africa" element={<LazyRoute Component={NDTErp_south_africa} />} />
-                  <Route path="/ndt-erp-south-korea" element={<LazyRoute Component={NDTErp_south_korea} />} />
-                  <Route path="/ndt-erp-spain" element={<LazyRoute Component={NDTErp_spain} />} />
-                  <Route path="/ndt-erp-taipei" element={<LazyRoute Component={NDTErp_taipei} />} />
-                  <Route path="/ndt-erp-taiwan" element={<LazyRoute Component={NDTErp_taiwan} />} />
-                  <Route path="/ndt-erp-thailand" element={<LazyRoute Component={NDTErp_thailand} />} />
-                  <Route path="/ndt-erp-trinidad" element={<LazyRoute Component={NDTErp_trinidad} />} />
-                  <Route path="/ndt-erp-uk" element={<LazyRoute Component={NDTErp_uk} />} />
-                  <Route path="/ndt-erp-usa" element={<LazyRoute Component={NDTErp_usa} />} />
-                  <Route path="/ndt-erp-vietnam" element={<LazyRoute Component={NDTErp_vietnam} />} />
-                  <Route path="/ndt-erp-vizag" element={<LazyRoute Component={NDTErp_vizag} />} />
+                  <Route path="/ndt-erp-baltimore" element={<LazyRoute Component={NDTErp_baltimore} />} />
+                  <Route path="/ndt-erp-barcelona" element={<LazyRoute Component={NDTErp_barcelona} />} />
+                  <Route path="/ndt-erp-boston" element={<LazyRoute Component={NDTErp_boston} />} />
+                  <Route path="/ndt-erp-canada" element={<LazyRoute Component={NDTErp_canada} />} />
+                  <Route path="/ndt-erp-edinburgh" element={<LazyRoute Component={NDTErp_edinburgh} />} />
+                  <Route path="/ndt-erp-hamburg" element={<LazyRoute Component={NDTErp_hamburg} />} />
+                  <Route path="/ndt-erp-idaho-falls" element={<LazyRoute Component={NDTErp_idaho_falls} />} />
+                  <Route path="/ndt-erp-indianapolis" element={<LazyRoute Component={NDTErp_indianapolis} />} />
+                  <Route path="/ndt-erp-marseille" element={<LazyRoute Component={NDTErp_marseille} />} />
+                  <Route path="/ndt-erp-mexico" element={<LazyRoute Component={NDTErp_mexico} />} />
+                  <Route path="/ndt-erp-miami" element={<LazyRoute Component={NDTErp_miami} />} />
+                  <Route path="/ndt-erp-milan" element={<LazyRoute Component={NDTErp_milan} />} />
+                  <Route path="/ndt-erp-near-me" element={<LazyRoute Component={NDTErp_near_me} />} />
+                  <Route path="/ndt-erp-newport-news" element={<LazyRoute Component={NDTErp_newport_news} />} />
+                  <Route path="/ndt-erp-oak-ridge" element={<LazyRoute Component={NDTErp_oak_ridge} />} />
+                  <Route path="/ndt-erp-odessa-texas" element={<LazyRoute Component={NDTErp_odessa_texas} />} />
+                  <Route path="/ndt-erp-richland" element={<LazyRoute Component={NDTErp_richland} />} />
+                  <Route path="/ndt-erp-san-diego" element={<LazyRoute Component={NDTErp_san_diego} />} />
+                  <Route path="/ndt-erp-uae" element={<LazyRoute Component={NDTErp_uae} />} />
+                  <Route path="/ndt-erp-washington-dc" element={<LazyRoute Component={NDTErp_washington_dc} />} />
+                  <Route path="/ndt-erp-winnipeg" element={<LazyRoute Component={NDTErp_winnipeg} />} />

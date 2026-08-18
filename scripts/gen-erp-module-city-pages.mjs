@@ -1,3 +1,6 @@
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('gen-erp-module-city-pages.mjs');
+
 // Sprint 6: Module × City top combos.
 // 5 highest-demand modules × 15 top cities = 75 cross-pages.
 // URL pattern: /erp-modules/{module-slug}-{city-slug}

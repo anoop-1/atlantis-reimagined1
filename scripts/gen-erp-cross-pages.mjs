@@ -1,3 +1,6 @@
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('gen-erp-cross-pages.mjs');
+
 // Generate module × industry cross-page TSX stubs.
 // For each industry, iterate its module list and emit a tailored cross-page.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';

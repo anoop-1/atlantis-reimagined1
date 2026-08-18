@@ -1,0 +1,641 @@
+{
+  "generated": "2026-08-18T03:21:33.504Z",
+  "note": "Third-party fees (ASNT, AWS) and industry salary bands ARE permitted by policy. The correct fix is restoring real figures WITH a cited source and an accessed date — ASNT publishes its schedule at certification.asnt.org. Do not re-run a blanket substitution.",
+  "remaining": [
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 14,
+      "excerpt": "{ question: \"Does the AWS seminar increase CWI pass rates?\", answer: \"Yes - significantly. Industry estimates suggest the AWS CWI Seminar (the officia"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 24,
+      "excerpt": "{ part: \"Part A - Fundamentals\", firstTime: \"~70%\", overall: \"~85%\", failure: \"Welding metallurgy, NDT method limits, safety/health exposure limits\", "
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 25,
+      "excerpt": "{ part: \"Part B - Practical\", firstTime: \"~50-55%\", overall: \"~75%\", failure: \"Time pressure (1.5 hr per scenario), wrong gauge selection, sloppy writ"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 26,
+      "excerpt": "{ part: \"Part C - Code Book\", firstTime: \"~60-65%\", overall: \"~80%\", failure: \"Untabbed code book, chose unfamiliar code (B31.3 without piping experie"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 27,
+      "excerpt": "{ part: \"All Three Combined\", firstTime: \"~30-40%\", overall: \"~65-70%\", failure: \"Cumulative probability - failing any one part fails the attempt\", re"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 50,
+      "excerpt": "{ path: \"Self-Study + AWS Seminar\", firstTimePass: \"~45-55%\", studyHours: \"150-200 hours + 40 hr seminar\", cost: \"a scoped, quoted figure exam + a sco"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 51,
+      "excerpt": "{ path: \"AWS Seminar + 5+ Years Field Experience\", firstTimePass: \"~65-75%\", studyHours: \"80-120 hours + 40 hr seminar\", cost: \"Same as above ~a scope"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 52,
+      "excerpt": "{ path: \"Third-Party Bootcamp + Self-Study\", firstTimePass: \"~40-50%\", studyHours: \"200 hours + 40 hr bootcamp\", cost: \"a scoped, quoted figure exam +"
+    },
+    {
+      "file": "src/pages/blog/cwi-pass-rate-by-part-a-b-c-breakdown.tsx",
+      "line": 346,
+      "excerpt": "<strong>Seminar economics:</strong> The AWS seminar costs ~a scoped, quoted figure. Single-part retake fees are ~a scoped, quoted figure each. If skip"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 57,
+      "excerpt": "{ method: \"ECT\", speed: \"Fast (500-1000 mm/s)\", coverage: \"Broad (large coils)\", depth: \"Shallow (1-5mm)\", cost: \"Moderate (a scoped, quoted figure 10"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 58,
+      "excerpt": "{ method: \"Magnetic Particle (MT)\", speed: \"Moderate (100-300 mm/s)\", coverage: \"Moderate\", depth: \"Very shallow (<1mm)\", cost: \"Low (a scoped, quoted"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 59,
+      "excerpt": "{ method: \"Penetrant Testing (PT)\", speed: \"Slow (requires drying)\", coverage: \"Excellent (opens cracks)\", depth: \"Very shallow\", cost: \"Moderate (a s"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 60,
+      "excerpt": "{ method: \"Ultrasonic Testing (UT)\", speed: \"Slow (point measurement)\", coverage: \"Point scans\", depth: \"Very deep (100mm+)\", cost: \"High (a scoped, q"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 61,
+      "excerpt": "{ method: \"Radiography (RT)\", speed: \"Very slow (setup intensive)\", coverage: \"Excellent (internal defects)\", depth: \"Complete penetration\", cost: \"Ve"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 65,
+      "excerpt": "{ item: \"Equipment (Single Probe System)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 66,
+      "excerpt": "{ item: \"Multi-Channel System (4-8 probes)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 67,
+      "excerpt": "{ item: \"Pulsed Eddy Current System\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 68,
+      "excerpt": "{ item: \"Automated ECT Scanner (tube inspection)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 69,
+      "excerpt": "{ item: \"Inspection Labor (Level II technician)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 70,
+      "excerpt": "{ item: \"Probe Replacement/Maintenance\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 71,
+      "excerpt": "{ item: \"Calibration Standards/Block\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 72,
+      "excerpt": "{ item: \"Training (Level II ASNT)\", cost: \"a scoped, quoted figure\" }"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 81,
+      "excerpt": "headline: \"Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment a scoped, quoted figure. Enterprise tier, Applications\","
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 82,
+      "excerpt": "description: \"Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), AS"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 390,
+      "excerpt": "<p className=\"text-sm\"><strong>Cost:</strong> a scoped, quoted figure | <strong>Probes:</strong> 1-2 | <strong>Channels:</strong> Single</p>"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 395,
+      "excerpt": "<p className=\"text-sm\"><strong>Cost:</strong> a scoped, quoted figure | <strong>Probes:</strong> 4-8 | <strong>Channels:</strong> Multiple simultaneou"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 400,
+      "excerpt": "<p className=\"text-sm\"><strong>Cost:</strong> a scoped, quoted figure | <strong>Probes:</strong> 1-2 | <strong>Depth:</strong> 10-25mm</p>"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 405,
+      "excerpt": "<p className=\"text-sm\"><strong>Cost:</strong> a scoped, quoted figure+ | <strong>Throughput:</strong> 100+ tubes/day</p>"
+    },
+    {
+      "file": "src/pages/blog/eddy-current-testing-complete-guide.tsx",
+      "line": 431,
+      "excerpt": "<strong>Cost Considerations:</strong> A single-channel portable ECT system represents an initial investment of a scoped, quoted figure but enables imm"
+    },
+    {
+      "file": "src/pages/blog/rt-vs-ut-complete-comparison.tsx",
+      "line": 22,
+      "excerpt": "{ question: \"What are the cost differences between UT and RT?\", answer: \"Ultrasonic Testing: Equipment is a significant capital item (handheld systems"
+    },
+    {
+      "file": "src/pages/blog/rt-vs-ut-complete-comparison.tsx",
+      "line": 38,
+      "excerpt": "{ criterion: \"Cost\", rt: \"High: a scoped, quoted figure equipment and labor\", ut: \"Moderate: a scoped, quoted figure equipment and labor\" },"
+    },
+    {
+      "file": "src/pages/blog/rt-vs-ut-complete-comparison.tsx",
+      "line": 39,
+      "excerpt": "{ criterion: \"Equipment Investment\", rt: \"Very high: a scoped, quoted figure+ for X-ray/gamma unit\", ut: \"Moderate: a scoped, quoted figure for handhe"
+    },
+    {
+      "file": "src/pages/blog/rt-vs-ut-complete-comparison.tsx",
+      "line": 70,
+      "excerpt": "{ scenario: \"Large diameter pipeline girth weld inspection (1,000 welds)\", rtResult: \"Would require 500+ hours, 2-3 month inspection period, a scoped,"
+    },
+    {
+      "file": "src/pages/blog/rt-vs-ut-complete-comparison.tsx",
+      "line": 266,
+      "excerpt": "<span><strong>Expensive:</strong> Equipment a scoped, quoted figure 150K+, labor a scoped, quoted figure 300/hour</span>"
+    },
+    {
+      "file": "src/pages/blog/rt-vs-ut-complete-comparison.tsx",
+      "line": 403,
+      "excerpt": "Combined approach: UT screen all 1,000 welds (a scoped, quoted figure 2 weeks), then RT confirm indications found (typically 1-5% of welds, a scoped, "
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 22,
+      "excerpt": "{ question: \"What training and certifications are needed for UT?\", answer: \"ASNT Level II UT certification requires: 120-160 hours formal training + 1"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 61,
+      "excerpt": "{ criterion: \"Cost/Hour\", ut: \"a scoped, quoted figure\", rt: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 68,
+      "excerpt": "{ item: \"Conventional UT System (A-scan)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 69,
+      "excerpt": "{ item: \"Phased Array UT System (PAUT)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 70,
+      "excerpt": "{ item: \"Automated Tank Floor Scanner (AUT)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 71,
+      "excerpt": "{ item: \"TOFD Equipment Package\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 72,
+      "excerpt": "{ item: \"Inspection Labor (Level II technician)\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 73,
+      "excerpt": "{ item: \"Transducer Replacement\", cost: \"a scoped, quoted figure each\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 74,
+      "excerpt": "{ item: \"Calibration Blocks\", cost: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 75,
+      "excerpt": "{ item: \"Training (ASNT Level II UT)\", cost: \"a scoped, quoted figure\" }"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 261,
+      "excerpt": "<p className=\"text-slate-700 mb-3\">Advantages: 5-10x faster than conventional (covers large welds in seconds), superior small flaw detection, multi-an"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 465,
+      "excerpt": "UT equipment ranges from simple handheld thickness gauges to sophisticated phased array systems (a scoped, quoted figure+). Equipment selection depend"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 527,
+      "excerpt": "<p className=\"text-sm\"><strong>Time:</strong> 100+ hours | <strong>Cost:</strong> a scoped, quoted figure | <strong>Salary impact:</strong> +40-70% pr"
+    },
+    {
+      "file": "src/pages/blog/ultrasonic-testing-ultimate-guide.tsx",
+      "line": 532,
+      "excerpt": "<p className=\"text-sm\"><strong>Time:</strong> 150+ hours | <strong>Cost:</strong> a scoped, quoted figure | <strong>Salary impact:</strong> +35-55% pr"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 24,
+      "excerpt": "answer: \"No. NetSuite OneWorld is a horizontal services ERP — it covers accounting, CRM, project management, inventory, procurement and HR very well b"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 45,
+      "excerpt": "{ capability: \"Annual license cost (50 users)\", atlantis: \"affordable, accessible,\", netsuite: \"a scoped, quoted figure\", winner: \"atlantis\" },"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 46,
+      "excerpt": "{ capability: \"5-year total cost of ownership\", atlantis: \"a scoped, quoted figure\", netsuite: \"a scoped, quoted figure\", winner: \"atlantis\" },"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 70,
+      "excerpt": "body: \"Evaluated NetSuite OneWorld via a tier-1 services-firm partner — quote implementation plus subscription separately for OneWorld + OpenAir + Sui"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 78,
+      "excerpt": "body: \"Serving GE Aviation, Pratt & Whitney, Safran, Honeywell Aerospace and Boeing supplier-base work, the contractor needed NAS 410 Rev 5 currency t"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 82,
+      "excerpt": "body: \"ABS / Lloyd's Register / DNV / IRClass classification-society inspection work across Singapore Jurong Island, Sembcorp Marine and Dubai Drydock"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 103,
+      "excerpt": "title=\"Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — affordable, accessible vs a scoped, quoted figure | Atlantis NDT\""
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 121,
+      "excerpt": "Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — affordable, accessible vs a scoped, quoted figure+"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 134,
+      "excerpt": "<span className=\"font-semibold\">a scoped, quoted figure</span>"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 161,
+      "excerpt": "Oracle NetSuite is the default mid-market cloud ERP. NetSuite OneWorld + OpenAir is the standard recommendation that every services-firm management co"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 164,
+      "excerpt": "For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Odoo 18 base with deep NDT-industry overlay covering ASNT, ISO 9712,"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 206,
+      "excerpt": "<p className=\"text-4xl font-bold text-white mb-4\">a scoped, quoted figure</p>"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 210,
+      "excerpt": "<li className=\"flex items-start gap-2\"><CheckCircle className=\"w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5\" />Implementation: a scoped, quoted figur"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 211,
+      "excerpt": "<li className=\"flex items-start gap-2\"><CheckCircle className=\"w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5\" />Customization: a scoped, quoted figure"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 218,
+      "excerpt": "<p className=\"text-4xl font-bold text-white mb-4\">a scoped, quoted figure</p>"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 221,
+      "excerpt": "<li className=\"flex items-start gap-2\"><DollarSign className=\"w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5\" />License: a scoped, quoted figure (50 use"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 222,
+      "excerpt": "<li className=\"flex items-start gap-2\"><DollarSign className=\"w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5\" />Implementation (tier-1 partner): a scope"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 223,
+      "excerpt": "<li className=\"flex items-start gap-2\"><DollarSign className=\"w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5\" />NDT-industry customization: a scoped, qu"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 225,
+      "excerpt": "<li className=\"flex items-start gap-2\"><DollarSign className=\"w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5\" />SuiteApps + integrations: a scoped, quot"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 232,
+      "excerpt": "<p className=\"text-slate-300 text-sm leading-relaxed\">For an NDT inspection contractor in the a scoped, quoted figure revenue band, the a scoped, quot"
+    },
+    {
+      "file": "src/pages/erp/odoo-vs-netsuite-ndt-companies.tsx",
+      "line": 289,
+      "excerpt": "<li className=\"flex items-start gap-2\"><CheckCircle className=\"w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5\" />You require ASC 606 / IFRS 15 percent-o"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 45,
+      "excerpt": "a: \"The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A "
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 84,
+      "excerpt": "costRange: \"a scoped, quoted figure per method\","
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 93,
+      "excerpt": "costRange: \"a scoped, quoted figure per exam + prep course a scoped, quoted figure\","
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 102,
+      "excerpt": "costRange: \"a scoped, quoted figure per method (Level II)\","
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 111,
+      "excerpt": "costRange: \"a scoped, quoted figure per exam + training a scoped, quoted figure\","
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 120,
+      "excerpt": "costRange: \"a scoped, quoted figure exam + training a scoped, quoted figure\","
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 217,
+      "excerpt": "{ item: \"Level I training course (single method)\", cost: \"a scoped, quoted figure\", notes: \"40-hour classroom + practical, includes materials\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 218,
+      "excerpt": "{ item: \"Level II training course (single method)\", cost: \"a scoped, quoted figure\", notes: \"Additional 40 hours, more advanced practical exercises\" }"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 219,
+      "excerpt": "{ item: \"ASNT Level I/II exam materials (ASNT Questions & Answers book)\", cost: \"a scoped, quoted figure\", notes: \"Per method; recommended for exam pr"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 220,
+      "excerpt": "{ item: \"Employer-administered exam (SNT-TC-1A)\", cost: \"a scoped, quoted figure\", notes: \"Many employers administer at no cost to the candidate\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 221,
+      "excerpt": "{ item: \"ISO 9712 / PCN certification exam fee\", cost: \"a scoped, quoted figure\", notes: \"Per method, per level; paid to certification body\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 222,
+      "excerpt": "{ item: \"ASNT ACCP Level III Basic exam\", cost: \"a scoped, quoted figure\", notes: \"Prerequisite for all ACCP method exams\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 223,
+      "excerpt": "{ item: \"ASNT ACCP Level III Method exam\", cost: \"a scoped, quoted figure\", notes: \"Per method; separate from Basic exam\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 224,
+      "excerpt": "{ item: \"Level III prep course\", cost: \"a scoped, quoted figure\", notes: \"5-day intensive review course; highly recommended\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 225,
+      "excerpt": "{ item: \"Certification renewal (5-year, ISO 9712/ACCP)\", cost: \"a scoped, quoted figure\", notes: \"Plus continuing education costs\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 226,
+      "excerpt": "{ item: \"Vision acuity test (annual)\", cost: \"a scoped, quoted figure\", notes: \"Required annually by most schemes\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 413,
+      "excerpt": "{ label: \"Exam Cost Range\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 574,
+      "excerpt": "<p className=\"text-2xl font-bold text-green-800\">a scoped, quoted figure</p>"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 579,
+      "excerpt": "<p className=\"text-2xl font-bold text-[#004aad]\">a scoped, quoted figure. Affordable, accessible</p>"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 584,
+      "excerpt": "<p className=\"text-2xl font-bold text-amber-800\">a scoped, quoted figure</p>"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 815,
+      "excerpt": "{ label: \"Exam Fee (ISO 9712)\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-certification-guide.tsx",
+      "line": 816,
+      "excerpt": "{ label: \"ACCP Level III Fee\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 73,
+      "excerpt": "{ factor: \"Per-Shot Cost\", film: \"a scoped, quoted figure (film + chemicals)\", cr: \"a scoped, quoted figure (plate reuse)\", dr: \"a scoped, quoted figu"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 74,
+      "excerpt": "{ factor: \"Initial Investment\", film: \"a scoped, quoted figure\", cr: \"a scoped, quoted figure\", dr: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 95,
+      "excerpt": "{ category: \"Visual Testing (VT)\", basic: \"a scoped, quoted figure\", midRange: \"a scoped, quoted figure\", professional: \"a scoped, quoted figure\", inc"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 96,
+      "excerpt": "{ category: \"Liquid Penetrant (PT)\", basic: \"a scoped, quoted figure\", midRange: \"a scoped, quoted figure\", professional: \"a scoped, quoted figure\", i"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 97,
+      "excerpt": "{ category: \"Magnetic Particle (MT)\", basic: \"a scoped, quoted figure\", midRange: \"a scoped, quoted figure\", professional: \"a scoped, quoted figure+\","
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 98,
+      "excerpt": "{ category: \"Ultrasonic Testing (UT)\", basic: \"a scoped, quoted figure\", midRange: \"a scoped, quoted figure\", professional: \"a scoped, quoted figure+\""
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 99,
+      "excerpt": "{ category: \"Eddy Current (ET)\", basic: \"a scoped, quoted figure\", midRange: \"a scoped, quoted figure\", professional: \"a scoped, quoted figure+\", incl"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 100,
+      "excerpt": "{ category: \"Radiographic Testing (RT)\", basic: \"a scoped, quoted figure\", midRange: \"a scoped, quoted figure\", professional: \"a scoped, quoted figure"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 107,
+      "excerpt": "a: \"For beginners entering the NDT field, start with equipment appropriate for your certification method. For UT, the Olympus Epoch 650 or Sonatest D-"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 115,
+      "excerpt": "a: \"A complete PAUT system for weld inspection typically costs vary with scope depending on the instrument and probe configuration. The instrument alo"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 119,
+      "excerpt": "a: \"The choice depends on your inspection volume and budget. Film RT has the lowest initial investment (a scoped, quoted figure excluding source) but "
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 241,
+      "excerpt": "The global NDT equipment market is valued at approximately a scoped, quoted figure billion (2024) and is growing at 7-9% CAGR. The market is dominated"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 341,
+      "excerpt": "MT equipment ranges from portable AC yokes (Magnaflux Y-6/Y-7/Y-8, Parker Research DA-200) for field use to stationary wet horizontal bench units for "
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 351,
+      "excerpt": "PT equipment is the most affordable NDT method. Portable kits include penetrant, cleaner/remover, and developer in spray cans (Magnaflux Spotcheck, Sh"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 532,
+      "excerpt": "{ label: \"UT Thickness Gauge\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 533,
+      "excerpt": "{ label: \"PAUT System\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 534,
+      "excerpt": "{ label: \"CR System\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 535,
+      "excerpt": "{ label: \"DR Panel System\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 536,
+      "excerpt": "{ label: \"ET Instrument\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-equipment-guide.tsx",
+      "line": 537,
+      "excerpt": "{ label: \"MT Yoke (AC)\", value: \"a scoped, quoted figure\" },"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 29,
+      "excerpt": "{ factor: \"Typical Cost per Test\", ut: \"Varies by scope\", rt: \"Varies by scope\", mt: \"Varies by scope\", pt: \"Varies by scope\", et: \"Varies by scope\", "
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 60,
+      "excerpt": "avgCost: \"a scoped, quoted figure per inspection\","
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 71,
+      "excerpt": "avgCost: \"a scoped, quoted figure per exposure\","
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 82,
+      "excerpt": "avgCost: \"a scoped, quoted figure per inspection\","
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 93,
+      "excerpt": "avgCost: \"a scoped, quoted figure per inspection\","
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 104,
+      "excerpt": "avgCost: \"a scoped, quoted figure per inspection\","
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 115,
+      "excerpt": "avgCost: \"a scoped, quoted figure per inspection\","
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 136,
+      "excerpt": "{ method: \"Visual Testing (VT)\", equipCost: \"a scoped, quoted figure\", perTest: \"a scoped, quoted figure\", annual: \"a scoped, quoted figure\", training"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 137,
+      "excerpt": "{ method: \"Liquid Penetrant (PT)\", equipCost: \"a scoped, quoted figure\", perTest: \"a scoped, quoted figure\", annual: \"a scoped, quoted figure\", traini"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 138,
+      "excerpt": "{ method: \"Magnetic Particle (MT)\", equipCost: \"a scoped, quoted figure\", perTest: \"a scoped, quoted figure\", annual: \"a scoped, quoted figure\", train"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 139,
+      "excerpt": "{ method: \"Ultrasonic Testing (UT)\", equipCost: \"a scoped, quoted figure\", perTest: \"a scoped, quoted figure\", annual: \"a scoped, quoted figure\", trai"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 140,
+      "excerpt": "{ method: \"Eddy Current (ET)\", equipCost: \"a scoped, quoted figure\", perTest: \"a scoped, quoted figure\", annual: \"a scoped, quoted figure\", training: "
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 141,
+      "excerpt": "{ method: \"Radiographic Testing (RT)\", equipCost: \"a scoped, quoted figure\", perTest: \"a scoped, quoted figure\", annual: \"a scoped, quoted figure\", tr"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 155,
+      "excerpt": "a: \"Visual Testing (VT) is the lowest-cost method, requiring minimal equipment — adequate lighting, magnification, and measurement tools. Liquid Penet"
+    },
+    {
+      "file": "src/pages/ndt-methods-comparison.tsx",
+      "line": 287,
+      "excerpt": "{ label: \"Global NDT Market (2026)\", value: \"a scoped, quoted figureB\" },"
+    }
+  ]
+}

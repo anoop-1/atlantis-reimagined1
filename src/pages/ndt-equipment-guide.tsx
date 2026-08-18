@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     q: "Should I buy film RT, computed radiography (CR), or digital radiography (DR)?",
-    a: "The choice depends on your inspection volume and budget. Film RT has the lowest initial investment (a scoped, quoted figure excluding source) but the highest per-shot cost (a scoped, quoted figure per exposure for film + chemicals + processing) and environmental concerns. Computed Radiography (CR) eliminates film and chemicals — phosphor imaging plates are reusable and produce digital images — with moderate initial investment (a significant cost item) and very low per-shot cost. Digital Radiography (DR) provides immediate real-time images with the highest initial investment (a significant cost item) but zero per-shot consumable cost. For high-volume operations (>50 exposures/day), DR has the lowest total cost of ownership. For moderate volume, CR offers the best balance. Film is only cost-effective for very low volume or where digital systems are not code-accepted.",
+    a: "The choice depends on your inspection volume and budget. Film RT has the lowest initial investment (a scoped, quoted figure excluding source) but the highest per-shot cost (a scoped, quoted figure per exposure for film + chemicals + processing) and environmental concerns. Computed Radiography (CR) eliminates film and chemicals — phosphor imaging plates are reusable and produce digital images — with moderate initial investment and very low per-shot cost. Digital Radiography (DR) provides immediate real-time images with the highest initial investment but zero per-shot consumable cost. For high-volume operations (>50 exposures/day), DR has the lowest total cost of ownership. For moderate volume, CR offers the best balance. Film is only cost-effective for very low volume or where digital systems are not code-accepted.",
   },
   {
     q: "What calibration equipment do I need?",
@@ -157,7 +157,7 @@ export default function NDTEquipmentGuide() {
         "@type": "Article",
         headline: "NDT Equipment Guide 2026 | Top Brands & Instrument Comparison",
         description:
-          "Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes comparison, PAUT system costs (a significant cost item), film vs CR vs DR radiography, equipment by application, and budget guide for every NDT method.",
+          "Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes comparison, PAUT system costs, film vs CR vs DR radiography, equipment by application, and budget guide for every NDT method.",
         author: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
         publisher: {
           "@type": "Organization",
@@ -187,7 +187,7 @@ export default function NDTEquipmentGuide() {
       <Navigation />
       <SEOHead
         title="NDT Equipment Guide 2026 | Top Brands & Instrument Comparison | Atlantis NDT"
-        description="Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes UT comparison, PAUT costs (a significant cost item), film vs CR vs DR radiography, MT/PT/ET equipment."
+        description="Complete NDT equipment guide: Olympus vs Eddyfi vs Baker Hughes UT comparison, PAUT costs, film vs CR vs DR radiography, MT/PT/ET equipment."
         keywords="ndt equipment guide, paut equipment, olympus omniscan, eddyfi gekko, ut flaw detector, ndt instrument comparison, ndt equipment cost, radiography equipment, mt equipment, pt equipment, eddy current instrument, ndt calibration equipment"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/ndt-equipment-guide"
@@ -256,7 +256,7 @@ export default function NDTEquipmentGuide() {
               Ultrasonic Testing (UT) Equipment
             </h2>
             <p className="text-slate-700 leading-relaxed mb-5">
-              UT represents the largest segment of the NDT equipment market. Equipment ranges from simple thickness gauges (a significant cost item) to advanced PAUT/TFM instruments (a significant cost item). The choice of instrument depends on the application, required technique (conventional, PAUT, TOFD, TFM), and budget.
+              UT represents the largest segment of the NDT equipment market. Equipment ranges from simple thickness gauges to advanced PAUT/TFM instruments. The choice of instrument depends on the application, required technique (conventional, PAUT, TOFD, TFM), and budget.
             </p>
             <div className="overflow-x-auto rounded-xl border border-slate-200 shadow">
               <table className="w-full text-sm">

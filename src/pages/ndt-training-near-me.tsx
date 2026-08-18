@@ -33,6 +33,7 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
 import { MapPin, Monitor, Building2, ArrowRight } from "lucide-react";
+import { useVisitorCity } from "@/hooks/useVisitorCity";
 
 /** US training locations that have a real page. Grouped by state for scanning. */
 const US_LOCATIONS: { state: string; cities: { slug: string; name: string; note: string }[] }[] = [
@@ -157,6 +158,9 @@ const FAQS = [
 ];
 
 export default function NdtTrainingNearMe() {
+  // null until a city resolves, and null forever if none does — in which case
+  // the page renders exactly as it did before this was added.
+  const visitorCity = useVisitorCity();
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
@@ -171,14 +175,41 @@ export default function NdtTrainingNearMe() {
       <main>
         <header className="bg-gradient-to-br from-blue-900 to-slate-900 text-white py-14">
           <div className="max-w-5xl mx-auto px-4">
+            {/* The default string is byte-identical to the prerendered H1 in
+                scripts/prerender.mjs, and is what every crawler receives. The
+                personalised variant replaces it only once a city has actually
+                resolved on the client — see src/hooks/useVisitorCity.ts for why
+                that is personalisation rather than cloaking. */}
             <h1 className="text-3xl md:text-4xl font-bold mb-4">
-              NDT Training Near Me: Find ASNT Level I, II and III Courses in Your State
+              {visitorCity
+                ? `NDT Training Near ${visitorCity.city}: ASNT Level I, II and III Courses`
+                : "NDT Training Near Me: Find ASNT Level I, II and III Courses in Your State"}
             </h1>
             <p className="text-blue-100 text-lg max-w-3xl">
               ASNT SNT-TC-1A and ISO 9712 training delivered on-site anywhere in the United States,
               at arranged venues across the metros below, or blended — theory online, practical in
               person. Led by an ASNT NDT Level III.
             </p>
+            {visitorCity && (
+              /* Named explicitly rather than implied, so a visitor whose city was
+                 guessed wrong can see that and correct course to the list below
+                 instead of assuming we have no coverage where they are. */
+              <p className="text-blue-200/90 text-sm mt-3 flex items-center gap-2">
+                <MapPin className="h-4 w-4 shrink-0" aria-hidden="true" />
+                <span>
+                  Showing delivery options for visitors near{" "}
+                  <strong className="text-white">
+                    {visitorCity.city}
+                    {visitorCity.region ? `, ${visitorCity.region}` : ""}
+                  </strong>
+                  . Not where you are?{" "}
+                  <a href="#locations" className="underline underline-offset-2 hover:text-white">
+                    Choose your city
+                  </a>
+                  .
+                </span>
+              </p>
+            )}
           </div>
         </header>
 
@@ -241,8 +272,10 @@ export default function NdtTrainingNearMe() {
             </div>
           </section>
 
-          {/* Location index */}
-          <section>
+          {/* Location index — id is the target of the "Choose your city" escape
+              hatch in the personalised header, for visitors whose IP resolved to
+              the wrong place (VPNs, corporate egress, mobile carrier routing). */}
+          <section id="locations" className="scroll-mt-24">
             <h2 className="text-2xl font-bold mb-2">NDT training locations across the United States</h2>
             <p className="text-slate-600 mb-6">
               Each location page covers the industrial base in that market, which methods the local

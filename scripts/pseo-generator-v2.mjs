@@ -1,3 +1,6 @@
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('pseo-generator-v2.mjs');
+
 /**
  * Atlantis NDT - Programmatic SEO Generator v2
  * --------------------------------------------------------------

@@ -1,0 +1,450 @@
+{
+  "generated": "2026-08-18T04:12:04.485Z",
+  "pass": 0,
+  "warned": 1,
+  "failed": 20,
+  "report": [
+    {
+      "route": "/blog/ndt-salary-guide-2026-global",
+      "fails": 0,
+      "warns": 1,
+      "issues": [
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/cwi-pass-rate-by-part-a-b-c-breakdown",
+      "fails": 1,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "table",
+          "2 table(s) but none has a <caption>"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/api-510-570-653-exam-schedule-2026",
+      "fails": 1,
+      "warns": 2,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "table",
+          "2 table(s) but none has a <caption>"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/api-653-tank-inspection-guide",
+      "fails": 1,
+      "warns": 2,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "table",
+          "2 table(s) but none has a <caption>"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/asnt-snt-tc-1a-certification-requirements",
+      "fails": 1,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "table",
+          "3 table(s) but none has a <caption>"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+      "fails": 2,
+      "warns": 0,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/asme-section-v-article-4-ut-requirements-explained",
+      "fails": 2,
+      "warns": 0,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/ut-level-2-practice-questions",
+      "fails": 3,
+      "warns": 0,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "facets",
+          "0 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/blog/rt-vs-ut-complete-comparison",
+      "fails": 1,
+      "warns": 2,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "table",
+          "1 table(s) but none has a <caption>"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/asnt-certification",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/api-570-certification",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/api-653-certification",
+      "fails": 2,
+      "warns": 0,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/ndt-certification-guide",
+      "fails": 3,
+      "warns": 0,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "facets",
+          "0 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/consulting",
+      "fails": 3,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "facets",
+          "0 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/consulting/ndt-consulting-level-iii",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "facets",
+          "4 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/best-ndt-reporting-software-2026",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/ndt-reporting-software-comparison",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "facets",
+          "5 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    },
+    {
+      "route": "/erp/ndt-inspection-software-comparison",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/training-usa",
+      "fails": 3,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "FAIL",
+          "facets",
+          "0 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/ndt-training-near-me",
+      "fails": 2,
+      "warns": 2,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "facets",
+          "1 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ],
+        [
+          "WARN",
+          "hedging",
+          "hedged phrasing: varies by"
+        ]
+      ]
+    },
+    {
+      "route": "/glossary/phased-array-ultrasonic-testing-paut",
+      "fails": 2,
+      "warns": 1,
+      "issues": [
+        [
+          "FAIL",
+          "answer",
+          "no AnswerBlock — nothing for passage retrieval to lift"
+        ],
+        [
+          "WARN",
+          "facets",
+          "2 question-form headings; fan-out needs 6+"
+        ],
+        [
+          "FAIL",
+          "table",
+          "no <table> — this is the mechanism that beats high-authority aggregators"
+        ]
+      ]
+    }
+  ]
+}

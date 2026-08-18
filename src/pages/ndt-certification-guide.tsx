@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "How much does NDT certification cost in total?",
-    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): a scoped, quoted figure including training course (a significant cost item), study materials (a significant cost item), and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): a scoped, quoted figure for incremental training and examination. ISO 9712 or PCN Level II single method: a scoped, quoted figure including authorized training center course (a significant cost item) and certification body exam fee (a significant cost item). ASNT ACCP Level III (per method): a scoped, quoted figure including prep course (a significant cost item) and ASNT exam fee (a scoped, quoted figure per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): a scoped, quoted figureaffordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
+    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): a scoped, quoted figure including training course, study materials, and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): a scoped, quoted figure for incremental training and examination. ISO 9712 or PCN Level II single method: a scoped, quoted figure including authorized training center course and certification body exam fee. ASNT ACCP Level III (per method): a scoped, quoted figure including prep course and ASNT exam fee (a scoped, quoted figure per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): a scoped, quoted figure. Affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
   },
   {
     q: "What is the ASNT ACCP Level III exam?",
@@ -337,7 +337,7 @@ export default function NDTCertificationGuide() {
         "@type": "Article",
         headline: "NDT Certification Guide 2026 | Complete Pathway from Level I to III",
         description:
-          "Complete NDT certification guide: ASNT SNT-TC-1A vs ISO 9712 vs PCN comparison, Level I/II/III requirements, exam costs (a significant cost item), training hours, and career salary progression.",
+          "Complete NDT certification guide: ASNT SNT-TC-1A vs ISO 9712 vs PCN comparison, Level I/II/III requirements, exam costs, training hours, and career salary progression.",
         author: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
         publisher: {
           "@type": "Organization",
@@ -384,7 +384,7 @@ export default function NDTCertificationGuide() {
               NDT Certification Guide 2026 | Complete Pathway from Level I to III
             </h1>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Everything you need to know about NDT certification: ASNT vs ISO 9712 vs PCN vs CSWIP comparison, Level I/II/III requirements, training hours, exam costs (a significant cost item), and the career pathway from entry-level technician to Level III expert. Based on real industry data and current 2026 requirements.
+              Everything you need to know about NDT certification: ASNT vs ISO 9712 vs PCN vs CSWIP comparison, Level I/II/III requirements, training hours, exam costs, and the career pathway from entry-level technician to Level III expert. Based on real industry data and current 2026 requirements.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -576,7 +576,7 @@ export default function NDTCertificationGuide() {
               </div>
               <div className="bg-blue-50 rounded-xl p-5 border border-blue-200 text-center">
                 <DollarSign className="w-6 h-6 text-[#004aad] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#004aad]">a scoped, quoted figureaffordable, accessible</p>
+                <p className="text-2xl font-bold text-[#004aad]">a scoped, quoted figure. Affordable, accessible</p>
                 <p className="text-xs text-blue-700 mt-1">Multi-method Level II (UT+RT+MT+PT)</p>
               </div>
               <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 text-center">

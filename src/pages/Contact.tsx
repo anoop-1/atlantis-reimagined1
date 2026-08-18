@@ -130,6 +130,48 @@ export default function Contact() {
    const [loading, setLoading] = useState(false);
    const [success, setSuccess] = useState("");
    const formRef = useRef<HTMLFormElement>(null);
+
+   // 2026-08-18 CRO + measurement fix.
+   //
+   // Measured 7-17 Aug, the only window in which all of these events existed:
+   //   demo CTA clicked 95 → form_start 11 (11.6%) → lead 9 → submitted 6.
+   // The form converts well once begun; 88% of the intent is lost before anyone
+   // types. The 2026-07-29 fix made the form REMEMBER why the visitor came, but
+   // it did not make the form VISIBLE — it sits at the bottom of a hero plus a
+   // four-card grid, so a visitor arriving from a demo CTA lands above the fold
+   // of a page whose point is further down, and on mobile has to scroll past
+   // two full sections to reach it.
+   //
+   // Two changes, both scoped to visitors who arrived WITH intent (a ?service=
+   // or ?subject= param, i.e. from a CTA rather than from the nav):
+   //   1. Bring the form to them.
+   //   2. Emit contact_form_reached, so this funnel step is measurable on its
+   //      own rather than inferred from GA4 Enhanced Measurement's form_start,
+   //      which only fires on interaction and therefore cannot distinguish
+   //      "never arrived" from "arrived and ignored it".
+   useEffect(() => {
+      if (typeof window === "undefined") return;
+      const arrivedWithIntent = Boolean(presetService || presetSubject);
+      if (!arrivedWithIntent || !formRef.current) return;
+
+      window.gtag?.("event", "contact_form_reached", {
+         page_path: window.location.pathname,
+         intent_service: presetService || "(inferred)",
+         intent_subject: presetSubject || "(none)",
+      });
+
+      // Deferred a frame so layout has settled, otherwise the target offset is
+      // computed against a half-rendered page and lands in the wrong place.
+      const id = window.requestAnimationFrame(() => {
+         const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+         formRef.current?.scrollIntoView({
+            behavior: reduced ? "auto" : "smooth",
+            block: "center",
+         });
+      });
+      return () => window.cancelAnimationFrame(id);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+   }, [presetService, presetSubject]);
    const handleChange = (
       e: React.ChangeEvent<
          HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement

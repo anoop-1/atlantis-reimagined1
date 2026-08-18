@@ -1,3 +1,6 @@
+import { assertPermutationGenAllowed } from './_permutation-freeze.mjs';
+assertPermutationGenAllowed('gen-erp-triple-pages.mjs');
+
 // Tier 1: Module × Industry × City triple cross pages.
 // 50 high-value combos at /erp/{module}-{industry}-{city}.
 // Each page is built from three lookup tables (module, industry, city) so the

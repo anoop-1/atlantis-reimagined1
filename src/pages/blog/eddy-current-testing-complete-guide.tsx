@@ -54,11 +54,11 @@ const standards = [
 ];
 
 const comparisonMethods = [
-    { method: "ECT", speed: "Fast (500-1000 mm/s)", coverage: "Broad (large coils)", depth: "Shallow (1-5mm)", cost: "Moderate (a scoped, quoted figure100/hr)", industries: "Aerospace, manufacturing" },
-    { method: "Magnetic Particle (MT)", speed: "Moderate (100-300 mm/s)", coverage: "Moderate", depth: "Very shallow (<1mm)", cost: "Low (a scoped, quoted figure60/hr)", industries: "Steel welds, castings" },
-    { method: "Penetrant Testing (PT)", speed: "Slow (requires drying)", coverage: "Excellent (opens cracks)", depth: "Very shallow", cost: "Moderate (a scoped, quoted figure80/hr)", industries: "All metals, castings" },
-    { method: "Ultrasonic Testing (UT)", speed: "Slow (point measurement)", coverage: "Point scans", depth: "Very deep (100mm+)", cost: "High (a scoped, quoted figure150/hr)", industries: "Welds, pipe thickness" },
-    { method: "Radiography (RT)", speed: "Very slow (setup intensive)", coverage: "Excellent (internal defects)", depth: "Complete penetration", cost: "Very high (a scoped, quoted figure300/hr)", industries: "Aerospace, critical welds" }
+    { method: "ECT", speed: "Fast (500-1000 mm/s)", coverage: "Broad (large coils)", depth: "Shallow (1-5mm)", cost: "Moderate (a scoped, quoted figure 100/hr)", industries: "Aerospace, manufacturing" },
+    { method: "Magnetic Particle (MT)", speed: "Moderate (100-300 mm/s)", coverage: "Moderate", depth: "Very shallow (<1mm)", cost: "Low (a scoped, quoted figure 60/hr)", industries: "Steel welds, castings" },
+    { method: "Penetrant Testing (PT)", speed: "Slow (requires drying)", coverage: "Excellent (opens cracks)", depth: "Very shallow", cost: "Moderate (a scoped, quoted figure 80/hr)", industries: "All metals, castings" },
+    { method: "Ultrasonic Testing (UT)", speed: "Slow (point measurement)", coverage: "Point scans", depth: "Very deep (100mm+)", cost: "High (a scoped, quoted figure 150/hr)", industries: "Welds, pipe thickness" },
+    { method: "Radiography (RT)", speed: "Very slow (setup intensive)", coverage: "Excellent (internal defects)", depth: "Complete penetration", cost: "Very high (a scoped, quoted figure 300/hr)", industries: "Aerospace, critical welds" }
 ];
 
 const costGuide = [
@@ -78,8 +78,8 @@ export default function EddyCurrentTestingCompleteGuide() {
         "@graph": [
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/blog/eddy-current-testing-complete-guide",
-                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment a scoped, quoted figureenterprise tier, Applications",
-                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment a scoped, quoted figureenterprise tier, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
+                headline: "Eddy Current Testing (ECT) 2026: 7 Types, Standards, Equipment a scoped, quoted figure. Enterprise tier, Applications",
+                description: "Complete ECT deep-dive: 7 methods (conventional, ECA, RFEC, pulsed, NFT, IRIS, LFET), EM induction physics (δ = √(2/ωμσ) skin depth), ASTM E309/E426/E2338/E2884 standards, aerospace fatigue crack POD, heat exchanger tubing, equipment a scoped, quoted figure. Enterprise tier, ASNT ECT Level II path. By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2026-03-09",
                 dateModified: "2026-04-18",
                 section: "NDT Methods — Electromagnetic",

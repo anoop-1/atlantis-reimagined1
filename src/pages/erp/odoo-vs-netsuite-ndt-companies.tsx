@@ -158,7 +158,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
           <h2 className="text-3xl font-bold mb-5">Executive summary</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              Oracle NetSuite is the default mid-market cloud ERP. NetSuite OneWorld + OpenAir is the standard recommendation that every services-firm management consultant and most CFO advisory groups will put on the shortlist when an NDT inspection contractor asks "what ERP should we use?". It is a genuinely strong platform — but its cost basis (typically a scoped, quoted figure7M over five years for a 50-user mid-market firm) reflects Oracle's enterprise pricing strategy, not the functional gap between NetSuite and Atlantis NDT ERP.
+              Oracle NetSuite is the default mid-market cloud ERP. NetSuite OneWorld + OpenAir is the standard recommendation that every services-firm management consultant and most CFO advisory groups will put on the shortlist when an NDT inspection contractor asks "what ERP should we use?". It is a genuinely strong platform — but its cost basis (typically a scoped, quoted figure 7M over five years for a 50-user mid-market firm) reflects Oracle's enterprise pricing strategy, not the functional gap between NetSuite and Atlantis NDT ERP.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
               For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Odoo 18 base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability at a scoped, quoted figure over the same 5 years. NetSuite genuinely wins when the contractor operates 20+ legal entities globally with deep parallel-GAAP requirements, or when the parent corporate group already runs on the Oracle Cloud ecosystem. Outside those scenarios, the cost premium is hard to justify.
@@ -229,7 +229,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
               <h3 className="text-2xl font-bold text-slate-200 mb-3">Cost differential</h3>
               <p className="text-4xl font-bold text-emerald-400 mb-4">~45-80×</p>
               <p className="text-sm text-slate-300 mb-4">Atlantis is 45-80 times cheaper</p>
-              <p className="text-slate-300 text-sm leading-relaxed">For an NDT inspection contractor in the a scoped, quoted figure revenue band, the a scoped, quoted figure7M five-year savings from choosing Atlantis NDT ERP funds roughly: 10-18 additional certified technicians, a multi-region office expansion, or 18-24 months of CAPEX-grade phased-array UT equipment investment. NetSuite is the standard mid-market recommendation — Atlantis NDT ERP is the NDT-industry-specific recommendation.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">For an NDT inspection contractor in the a scoped, quoted figure revenue band, the a scoped, quoted figure 7M five-year savings from choosing Atlantis NDT ERP funds roughly: 10-18 additional certified technicians, a multi-region office expansion, or 18-24 months of CAPEX-grade phased-array UT equipment investment. NetSuite is the standard mid-market recommendation — Atlantis NDT ERP is the NDT-industry-specific recommendation.</p>
             </div>
           </div>
         </section>

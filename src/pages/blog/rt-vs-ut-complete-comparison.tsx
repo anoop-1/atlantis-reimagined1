@@ -263,7 +263,7 @@ export default function RTvsUTCompleteComparison() {
                                 </li>
                                 <li className="flex gap-3">
                                     <X className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                                    <span><strong>Expensive:</strong> Equipment a scoped, quoted figure150K+, labor a scoped, quoted figure300/hour</span>
+                                    <span><strong>Expensive:</strong> Equipment a scoped, quoted figure 150K+, labor a scoped, quoted figure 300/hour</span>
                                 </li>
                             </ul>
                         </div>
@@ -400,7 +400,7 @@ export default function RTvsUTCompleteComparison() {
                                 On a large pipeline project with 1,000 welds, pure RT inspection would costs vary with scope and take 2-3 months. Pure UT inspection costs vary with scope and takes 1-2 weeks - massive savings.
                             </p>
                             <p className="text-cyan-900 mb-4">
-                                Combined approach: UT screen all 1,000 welds (a scoped, quoted figure 2 weeks), then RT confirm indications found (typically 1-5% of welds, a scoped, quoted figure). Total cost: a scoped, quoted figureaffordable, accessible and 2.5-3 weeks. This provides 90%+ cost savings versus pure RT while maintaining high confidence through RT confirmation.
+                                Combined approach: UT screen all 1,000 welds (a scoped, quoted figure 2 weeks), then RT confirm indications found (typically 1-5% of welds, a scoped, quoted figure). Total cost: a scoped, quoted figure. Affordable, accessible and 2.5-3 weeks. This provides 90%+ cost savings versus pure RT while maintaining high confidence through RT confirmation.
                             </p>
                             <p className="text-cyan-900">
                                 <strong>Key insight:</strong> Combined approach is economically superior to pure RT for most large-scale projects while maintaining defect confidence through selective RT confirmation. This strategy is standard practice in oil & gas, power generation, and aerospace industries.

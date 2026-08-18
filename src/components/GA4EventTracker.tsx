@@ -7,7 +7,8 @@
 //   - /case-studies/* clicks → case_study_view
 //   - /compare/* clicks → comparison_view
 // Mounted once in App.tsx layout to capture all child link clicks.
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 
 declare global {
   interface Window {
@@ -31,6 +32,41 @@ function track(event: string, params: Record<string, unknown>) {
 }
 
 export default function GA4EventTracker() {
+  // ── SPA page_view emitter (added 2026-08-17) ────────────────────────────────
+  // index.html runs gtag('config', …) once, which sends exactly one page_view:
+  // the entry page. Every subsequent client-side route change was invisible to
+  // GA4, so the property measured ~1.26 page_view per session_start (40,593 vs
+  // 32,140 over 90d) on a content site averaging 200s+ sessions. Consequences:
+  // depth-of-visit unmeasurable, internal journeys unattributable, and any
+  // "views per page" comparison between blog and money pages meaningless.
+  // Emitting page_view on navigation makes those real without touching the
+  // entry hit, which gtag still owns.
+  const location = useLocation();
+  const isFirstRoute = useRef(true);
+
+  useEffect(() => {
+    if (isFirstRoute.current) {
+      // gtag('config') already sent this one; double-counting the entry page
+      // would inflate sessions' first hit and corrupt landing-page reports.
+      isFirstRoute.current = false;
+      return;
+    }
+    // SEOHead sets document.title during the same commit; let it land first so
+    // the hit carries the real title rather than the previous page's.
+    const id = window.setTimeout(() => {
+      try {
+        window.gtag?.("event", "page_view", {
+          page_location: window.location.href,
+          page_path: location.pathname + location.search,
+          page_title: document.title,
+        });
+      } catch {
+        // silent — analytics must never break navigation
+      }
+    }, 120);
+    return () => window.clearTimeout(id);
+  }, [location.pathname, location.search]);
+
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       const target = (e.target as HTMLElement | null)?.closest("a, button") as HTMLAnchorElement | HTMLButtonElement | null;

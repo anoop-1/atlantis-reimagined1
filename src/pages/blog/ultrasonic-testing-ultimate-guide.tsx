@@ -272,7 +272,7 @@ export default function UltrasonicTestingUltimateGuide() {
                         <h3 className="text-2xl font-bold mb-4">Automated Ultrasonic Testing (AUT)</h3>
                         <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
                             <p className="text-slate-700 mb-3">Robotic scanning systems that automatically position transducers and scan large areas. Bobbin coil probes scan tube internals; multi-probe arrays scan pipe walls and tank floors. Produces 3D datasets (C-scans) showing defect location and depth in graphical format.</p>
-                            <p className="text-slate-700 mb-3">Advantages: Consistent results (eliminates operator variability), extremely fast (scans 100+ linear meters/hour), produces permanent digital records, excellent for production screening. Disadvantages: high capital cost (a significant cost item), requires setup/qualification, less flexibility than manual scanning.</p>
+                            <p className="text-slate-700 mb-3">Advantages: Consistent results (eliminates operator variability), extremely fast (scans 100+ linear meters/hour), produces permanent digital records, excellent for production screening. Disadvantages: high capital cost, requires setup/qualification, less flexibility than manual scanning.</p>
                             <p className="text-slate-700">Applications: Storage tank floor scanning (detects corrosion loss), steam generator tube inspection, pipeline wall inspection, production quality control.</p>
                         </div>
 
@@ -462,7 +462,7 @@ export default function UltrasonicTestingUltimateGuide() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">UT Equipment and Cost Analysis</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            UT equipment ranges from simple handheld thickness gauges (a significant cost item) to sophisticated phased array systems (a scoped, quoted figure+). Equipment selection depends on application complexity and required defect detection sensitivity.
+                            UT equipment ranges from simple handheld thickness gauges to sophisticated phased array systems (a scoped, quoted figure+). Equipment selection depends on application complexity and required defect detection sensitivity.
                         </p>
                         <div className="overflow-x-auto mb-8">
                             <table className="w-full bg-white rounded-lg shadow-sm">

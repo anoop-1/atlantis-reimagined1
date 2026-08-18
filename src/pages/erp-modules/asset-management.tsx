@@ -5,7 +5,7 @@ const data = {
   "title": "Asset Integrity Management Software for Inspection Companies",
   "h1": "Asset Integrity & Equipment Register Module",
   "desc": "Pressure vessel, piping circuit, storage tank, heat exchanger, pipeline, and rotating equipment registers with hierarchical asset structure, damage mechanism tracking, and full inspection history.",
-  "intro": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, RBI assessments, fitness-for-service calculations, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs — teams searching for \"pressure equipment integrity software\" or a pressure-vessel and piping integrity register land on the same module described below.",
+  "intro": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, RBI assessments, fitness-for-service calculations, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs.",
   "features": [
     "Hierarchical asset structure: site → unit → system → equipment → component → TML",
     "Equipment types: pressure vessel, piping circuit, storage tank, heat exchanger, fired heater, pump, compressor, exchanger tube bundle, valve, pipeline segment, structural member",
