@@ -1,7 +1,12 @@
 # Deploy runbook — citation-spec programme
 
 Branch: `seo/citation-spec-2026-08-18`
-Prepared: 2026-08-18 · Preflight: **10/10**
+Prepared: 2026-08-18, updated 2026-08-19 · Preflight: **10/10**
+
+**Urgency note (19 Aug data):** clicks fell another 18% week-over-week while US
+impressions rose 7% — the definitional/AI-Overview decay continues, and every
+counter-measure in this branch is undeployed. Each day unpushed is a day of decay
+with the fix sitting in git.
 
 Everything below is built, verified and committed. **Nothing is live.** Vercel auto-deploys
 from `main`, so the push *is* the deploy.
@@ -118,14 +123,17 @@ separately.
 
 ## 4. What shipped
 
-| Area | State |
+| Area | State (updated 2026-08-19) |
 |---|---|
-| Citation layers | 87 pages, 46/116 of the 80%-of-clicks cohort |
-| New depth pages | 17, in SERPs with no commercial occupant |
-| Cluster mesh | 46 pages across 8 clusters |
+| Citation layers | 150+ pages, 70/116 of the 80%-of-clicks cohort |
+| New depth pages | 46 — consulting industries, method x level matrix, US regions |
+| Cluster mesh | 83 pages across 12 clusters |
 | Author entity | `/authors/anoop-rayavarapu`, Person + hasCredential in static HTML |
-| Training upgrades | 16 pages — 6 method, 3 level, 7 industry |
-| Routes | 5,629 |
+| Training | 16 upgrades + 12 method x level pages + 14 US regions, enquiry CTA on all 489 training routes |
+| Enquiry funnel | ms_form_click was 6/90d (all from /training); Forms CTA now on 445/445 training pages in dist |
+| Favicon | /favicon.ico rebuilt with the trident (was the Lovable template icon) |
+| AI crawlers | 9 newer retrieval agents added to robots.txt |
+| Routes | 5,653 |
 
 ### Defects found and fixed on the way
 
