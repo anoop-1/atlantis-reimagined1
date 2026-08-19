@@ -3129,6 +3129,9 @@ const App = () => (
                   <Route path="/why-digital-twin-projects-fail" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/diconde-ndt-data-standards-digital-twin" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/deliver-twin-ready-ndt-data" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/nadcap-ac7114-audit-readiness" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/nas-410-responsible-level-3" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-level-3-exam-oversight" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />

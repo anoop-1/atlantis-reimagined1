@@ -3411,5 +3411,582 @@
         "a": "The full payload matters most for recurring programmes, where trending depends on identifier continuity between campaigns. For genuine one-off work the asset tag, location reference and structured metadata still add value and cost little. The field that carries the most weight in recurring work, the location identifier, is the one with least value in a true one-off, so scale the requirement to the work type."
       }
     ]
+  },
+  {
+    "slug": "/consulting/nadcap-ac7114-audit-readiness",
+    "title": "Nadcap AC7114 Findings Land on Records, Not on Technique",
+    "description": "AC7114 findings cluster on four record types: lapsed vision tests, undocumented OJT, examination papers never retained, and a written practice naming no Level 3.",
+    "h1": "What a Nadcap NDT Assessor Pulls From Your Personnel Files First",
+    "answer": "Nadcap AC7114 findings concentrate on records, not on technique. Assessors sample personnel files and write nonconformances for a lapsed annual vision test, on-the-job hours logged as one summary line, examination papers discarded once the score was transcribed, and a written practice that never names the Responsible Level 3 as a person. Fix the paperwork and the audit shortens.",
+    "expansion": "AC7114 is the Nadcap audit criteria for nondestructive testing. The baseline covers the quality system, personnel and process control; the slash sheets carry method detail, with AC7114/1 penetrant, /2 magnetic particle, /3 ultrasonic, /4 film radiography, /5 eddy current, plus sheets for ultrasonic inspection of rotating components, remote interpretation of film and digital images, and digital radiography using detector arrays and computed radiography. Suppliers rehearse the slash sheets because those read like technique. The nonconformances land somewhere else. An assessor working a fixed number of days pulls a personnel list, samples files, and compares each file against two things at once: your own written practice, and the NAS 410 floor beneath it. The four highest-frequency defects are all clerical. A missing date, a missing signature, a missing paper, a missing name. Technician competence has no bearing on any of them.",
+    "source": "PRI Nadcap audit criteria AC7114 for nondestructive testing and slash sheets AC7114/1 (penetrant), /2 (magnetic particle), /3 (ultrasonic), /4 (film radiography), /5 (eddy current), /7 (ultrasonic, rotating components), /9 (remote interpretation) and /10 (digital radiography), published on eAuditNet; PRI Nadcap Supplier Audit Guide (1 August 2023) for nonconformance response timing and merit status; AIA NAS 410 Rev. 6 (December 2025) and Rev. 5 (September 2020), para 4.5 and the training, experience, examination and vision requirements; ASNT Recommended Practice No. SNT-TC-1A (2024), paras 5.1, 5.5, 5.6 and 8.1.1.",
+    "table": {
+      "caption": "AC7114 personnel records: what the assessor asks for, what NAS 410 sets as the floor, and the defect that gets written up",
+      "columns": [
+        "Record type",
+        "What the assessor asks to see",
+        "What NAS 410 requires",
+        "The defect that gets written up"
+      ],
+      "rows": [
+        [
+          "Vision examination",
+          "A dated, signed vision report for every name sampled from the personnel list, plus the colour record",
+          "Near-vision acuity to Jaeger 1 or equivalent, administered annually; colour contrast differentiation on initial certification and at five-year intervals",
+          "Near-vision current but the colour contrast plates never repeated after hire; or an annual test that slipped from 14 March to 2 April"
+        ],
+        [
+          "On-the-job experience hours",
+          "A dated accumulation log showing hours by method, work performed and the certified individual supervising",
+          "Minimum trainee experience hours per method and level; the specific examination after 75 percent of hours, the practical after 100 percent",
+          "One retrospective line reading \"requirements met\", signed on certification day, which cannot demonstrate examination sequencing"
+        ],
+        [
+          "Examination papers",
+          "The general, specific and practical papers, the answer keys, the candidate's marked responses and the part scores",
+          "Minimum 70 percent on each of general, specific and practical, and a composite of at least 80 percent",
+          "Only the composite score retained; papers and keys lived on the departed Level 3's laptop and no longer exist"
+        ],
+        [
+          "Written practice",
+          "The controlled document, its revision history, the approval signature and the page naming the Responsible Level 3",
+          "The employer identifies a Responsible Level 3 in writing (para 4.5)",
+          "A job title named instead of a person, or a named Level 3 who resigned two revisions ago and was never replaced in the text"
+        ],
+        [
+          "The Level 3's own qualification file",
+          "Certification in each covered method, the examination evidence behind it, current vision record, and the written designation",
+          "The Responsible Level 3 is qualified to the standard and the employer holds the supporting records",
+          "\"Our consultant keeps those\" — the contracted Level 3's records sit at the consultancy and cannot be produced during the audit"
+        ],
+        [
+          "Certification records",
+          "The signed certification record showing training, experience, examination results, vision status and the signing authority",
+          "The employer certifies its own employees and maintains the record while certification is in effect",
+          "Certification record signed by the outside agency rather than an officer of the employer"
+        ],
+        [
+          "Procedures and technique sheets",
+          "Approval signature and date from a Level 3 qualified in that method, on every document in the audited scope",
+          "Procedures approved by the applicable Level 3, internal or external",
+          "A technique sheet revised by engineering and issued without re-approval; revision date later than the approval date on the same page"
+        ],
+        [
+          "Personnel list",
+          "A current list of all NDT personnel including trainees and suspended individuals, with method, level, certification expiry and vision due date",
+          "Records that substantiate every entry on the list",
+          "The list does not reconcile to the files or to the signatures on inspection reports from the accreditation period"
+        ]
+      ],
+      "note": "Every row is a paper defect, not a competence defect. Assessors read dates and signatures, so build the tracker off each individual's own test date rather than a company-wide anniversary. Where your written practice promises more than NAS 410 requires, the written practice is the standard you are audited against."
+    },
+    "facets": [
+      {
+        "q": "How far ahead should AC7114 personnel file preparation start?",
+        "a": "Ninety days before the audit date. Rebuilding an examination bank with question sets, answer keys and retained papers takes six to eight weeks on its own, and vision gaps can only be closed by scheduling actual examinations. Shops that start four weeks out end up closing findings after the audit instead of before it. The order that works: personnel list first, then vision and certification tracker, then examination material, then the written practice rewritten to match what the records now prove."
+      },
+      {
+        "q": "Does Nadcap accept an external Level 3 as our Responsible Level 3?",
+        "a": "Yes. AC7114 recognises an applicable Level 3 who is internal, external, or qualified and approved by the Nadcap user, and NAS 410 para 4.5 permits the Responsible Level 3 to be contracted. Two conditions attach. The individual is named in writing for your facility with the methods stated, and copies of their certification, examination evidence and current vision record live in your personnel files. An empty folder with a consultant's phone number is a nonconformance."
+      },
+      {
+        "q": "Which AC7114 slash sheet applies to our scope?",
+        "a": "The one matching each method you are seeking accreditation for: AC7114/1 penetrant, /2 magnetic particle, /3 ultrasonic, /4 film radiography, /5 eddy current, with additional sheets covering ultrasonic inspection of rotating components, remote interpretation of radiographic film and digital images, and digital radiography using digital detector arrays and computed radiography. The AC7114 baseline applies to every supplier regardless of method, and that baseline is where the personnel and written practice questions sit. Current revisions are downloaded from eAuditNet."
+      },
+      {
+        "q": "What vision records does an AC7114 assessor ask to see?",
+        "a": "The signed report itself, not a tracker entry. It states the date, the chart or plates used, the distance, which eye was tested, whether acuity was corrected or uncorrected, the result against Jaeger 1 or equivalent, and the name and signature of the examiner. The examiner is an eye care professional or a person the Responsible Level 3 designated and trained. Near vision is annual. Colour contrast differentiation runs on initial certification and at five-year intervals, and that second record is the one most often missing entirely."
+      },
+      {
+        "q": "Can we be audited on a method our Level 3 is not certified in?",
+        "a": "No. Every procedure and technique sheet in the audited scope carries approval from a Level 3 qualified in that specific method, and every certification in that method traces back to examinations that Level 3 approved. A shop accredited for penetrant, magnetic particle and ultrasonic with a Level 3 certified only in PT and MT has an unapproved ultrasonic programme. The fix is a second Level 3 for the uncovered method, which is the most common reason a shop contracts a Level 3 alongside an employed one."
+      },
+      {
+        "q": "What happens if a certification lapsed during the accreditation period?",
+        "a": "The assessor asks what that technician inspected while lapsed and what became of the parts. That converts a records finding into a product impact question, which is the heavier category and the one that reaches your customer. Run the analysis before the audit: pull inspection reports signed in the lapse window, identify the part numbers and the customers, and document the technical justification or the disposition. Arriving with that analysis complete keeps the finding inside the records category."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The Assessor Samples Files Before Watching a Single Shot",
+        "paragraphs": [
+          "The AC7114 audit runs against a personnel list you supply. The assessor picks names from it, pulls the corresponding qualification files, and reads each file against two documents at once: your written practice, and NAS 410. A file that satisfies NAS 410 but falls short of your own written practice is still a nonconformance, because the written practice is the commitment your primes flowed down and accepted. Shops lose points here by writing an ambitious written practice, promising more hours or a tighter recertification interval than the standard asks, then certifying people against the standard instead of their own text.",
+          "The second reconciliation is the list against reality. The list shows every certified technician, every trainee, and everyone suspended or lapsed, with method, level, certification expiry and vision due date. Assessors compare that list to the people working the floor during the audit and to the signatures on inspection records from the past accreditation period. A technician who signed a penetrant report in March and does not appear on the list produces a finding that touches product, which is a heavier category to answer than a records gap.",
+          "This is why AC7114 preparation that opens with technique demonstrations opens in the wrong place. The technique portion is defended by procedures, technique sheets and a competent operator, and most shops already have all three. The personnel portion is defended by paper generated over years by people who have since left the company. Rebuild that paper first. Ordering the work this way also frees your Level 3's audit-week hours for the job audits, which is the one part of the assessment where their physical presence changes the outcome."
+        ]
+      },
+      {
+        "heading": "Vision: The Finding That Writes Itself",
+        "paragraphs": [
+          "NAS 410 requires near-vision acuity to Jaeger 1 or equivalent, administered annually, and colour contrast differentiation on initial certification and at five-year intervals after that. Both are administered by an eye care professional or by a person the Responsible Level 3 designates and has trained to administer the test. The annual cadence is what breaks. A technician tested on 14 March one year and 2 April the next has a gap on the face of the record, and the assessor reads dates rather than intentions. Scheduling drift of three weeks produces the same finding as forgetting entirely.",
+          "The colour contrast record is the one most often missing outright. Shops treat vision as a single annual event, run the near-vision chart every year, and never repeat the pseudo-isochromatic plates after the hiring physical. Five years later the record does not exist. Penetrant and magnetic particle files carry the highest exposure, because contrast and colour perception are the sensory basis of those methods, and an assessor reading a fluorescent penetrant file looks for that record specifically rather than incidentally.",
+          "Two controls close this permanently. Put vision due dates on the same tracker that carries certification expiry, and drive each date off the individual's own last test rather than a company-wide anniversary. Then keep the actual signed report: chart or plates used, distance, eye tested, corrected or uncorrected, result, examiner name, signature and date. A spreadsheet cell reading \"vision current\" is a management aid, not a record. The signed report is the record, and it is what gets handed across the table."
+        ]
+      },
+      {
+        "heading": "On-the-Job Hours: The Log Nobody Kept Until the Week Before",
+        "paragraphs": [
+          "NAS 410 sets minimum experience hours per method and level, and Rev 5 sequenced the examinations against those hours: the specific examination after at least 75 percent of the required experience is accumulated, the practical after 100 percent. That sequencing is only auditable if hours accumulate on dated entries. A single line stating the technician met the requirement, signed on the day of certification, cannot demonstrate that the specific examination came after 75 percent, because there is no dated accumulation for the examination date to be compared against.",
+          "A defensible log carries the date, the hours, the method, the type of work or part family, and the name of the certified individual who supervised. It is signed periodically, not reconstructed. Assessors test the log against other evidence in the building: timesheets, job travellers, shift records, inspection reports. Hours logged for ultrasonic inspection on a day the plant was shut, or four hundred hours accumulated by a technician who spent that quarter on another contract, converts a records finding into a question about integrity, and that question has a different escalation path.",
+          "Trainees are the population most at risk, because their files stay open longest and the person supervising them changes with the shift pattern. Assign one owner for trainee logs, in most shops the Level 3 or a designated Level 2, and review them monthly rather than at certification. Our method-by-method breakdown of the formal training and experience minimums sits at /nas-410-certification-requirements, which is the figure set your written practice must meet or exceed before any of this logging matters."
+        ]
+      },
+      {
+        "heading": "Examination Papers: Retention Is the Requirement, Not the Score",
+        "paragraphs": [
+          "The file contains the examinations, not a transcription of their outcome. That means the general, specific and practical papers or their controlled equivalents, the answer keys used, the candidate's marked responses, the individual part scores and the composite calculation. NAS 410 grading requires a minimum of 70 percent on each of the general, specific and practical examinations and a composite of at least 80 percent. A file recording only \"82 percent\" cannot demonstrate that no individual part fell below 70, and the assessor has no route to that conclusion other than the papers themselves.",
+          "The practical examination file is the thinnest one in most shops and the one assessors read hardest. It identifies the specimens by control number, states the discontinuities present in each, records what the candidate detected and how they reported it, captures the instrument and settings used, and carries the checklist the examiner scored. Where the practical included writing or interpreting a technique, that work product belongs in the file as well. A practical recorded as a single pass mark on a certification form is not an examination record.",
+          "Two structural defects recur. Examination material lives on one person's laptop, so when that person leaves, neither the papers nor the keys survive; the resignation sequence and how to recover from it is set out at /consulting/ndt-level-3-resigned-what-to-do. And the specific examination cites a procedure at a revision superseded two years earlier, which tells an assessor the examination bank has never been reviewed against the current procedure set. Both close by treating the bank as a controlled document with an owner, a revision history and a review cycle."
+        ]
+      },
+      {
+        "heading": "The Written Practice That Never Names a Person",
+        "paragraphs": [
+          "AC7114 audits the written practice as the governing document, then audits everything else against it. The recurring defect is that the document names a role, \"the NDT Level III\", where NAS 410 para 4.5 requires the employer to identify a Responsible Level 3. An assessor asks who that is, and the answer must be a person, in writing, with the covered methods stated and an effective date. A written practice naming a Level 3 who resigned eighteen months ago is worse than one naming nobody, because it proves the document is not maintained.",
+          "The second defect is drift between promise and practice. The written practice commits to annual technique reviews, a defined recertification interval, a specified examination structure and a designated examination administrator, and then the shop operates on a different rhythm. Each of those commitments is an audit question waiting to be asked. Read the document as an assessor would, sentence by sentence, and for every \"shall\" identify the record that proves it happened in the last twelve months. Where no record exists, produce one or change the sentence.",
+          "Approval is the third. The written practice carries the Responsible Level 3's approval signature and date, and every procedure and technique sheet in the audited scope carries approval from a Level 3 qualified in that method. Engineering revisions issued without re-approval are common and are always caught, because the revision history and the approval block sit on the same page and the dates contradict each other. Reviewing approval dates against revision dates across the whole document set takes an afternoon and removes an entire finding category."
+        ]
+      },
+      {
+        "heading": "Your Outside Level 3's Records Belong in Your Building",
+        "paragraphs": [
+          "NAS 410 permits the Responsible Level 3 to be contracted, and AC7114 recognises an external Level 3 approving procedures. What the audit does not accept is an empty folder. The supplier holds the contracted Level 3's qualification evidence: certification in each method being covered, the examination evidence behind that certification, a current vision record, and the written designation naming them for your facility. Assessors ask for this file early, and \"our consultant has that\" reads as a nonconformance because responsibility for the records rests on the employer, not the agency.",
+          "The service agreement carries audit weight of its own. State the methods covered, the activities delegated, written practice approval, procedure and technique sheet approval, examination preparation, administration and grading, internal NDT audits, the response time for approvals, and the requirement that the Level 3 be available on site for the audit. Nadcap audits are scheduled well in advance through eAuditNet, so contract availability for those specific dates rather than assuming a consultant with several clients will be free during your window.",
+          "The boundary between what the outside Level 3 approves and what your company signs is the single most misread part of the arrangement, and we set it out in full at /consulting/outside-ndt-level-3-can-and-cannot-do. The agency qualifies; the employer certifies. An officer of the employer signs the certification record. Certification records signed by the consultancy are a finding under NAS 410 and under SNT-TC-1A alike, and correcting them after the fact means reissuing every affected record."
+        ]
+      },
+      {
+        "heading": "Job Audits: The File and the Floor Must Agree",
+        "paragraphs": [
+          "Part of the AC7114 assessment is watching work performed. The assessor selects a job, reads the applicable procedure and technique sheet, then observes a certified technician run it and compares every step against the written instruction. Failures here rarely involve skill. They involve a technician doing something entirely reasonable that the procedure does not say: a dwell time carried over from a previous employer, an emulsification step performed from habit, a calibration block chosen because it is the one that lives on the bench.",
+          "Prepare by running the job audit yourself, first. Have your Level 3 observe each method being performed against the current procedure, procedure in hand, and record every deviation. Each deviation resolves one of two ways: the technician changes, or the procedure changes. Both are legitimate outcomes, and both must be closed before the assessor arrives. A deviation found internally, root-caused and corrected is evidence that your internal audit system works, which is itself an AC7114 subject area.",
+          "Cross-check the technicians you plan to have demonstrate against the personnel files you have just rebuilt, because the person the assessor watches will have their file pulled the same day. Vision current, hours logged with dates, examinations retained with papers and keys, certification record signed by an officer of the employer. That is the sequence for every name on the list. Choose demonstration technicians on that basis rather than on who is most comfortable working with an audience."
+        ]
+      },
+      {
+        "heading": "Twenty-One Days: What Happens After a Nonconformance",
+        "paragraphs": [
+          "PRI allows the auditee 21 calendar days from the close of the audit to submit the initial response to findings, then 7 calendar days for each subsequent response, across a limited number of response cycles before the file escalates. Lateness carries a direct cost: merit status is tracked in cumulative late days, and suppliers on the longer accreditation intervals hold the tightest allowance. Missing response dates costs the interval, and losing the interval costs an entire audit cycle in fees and disruption.",
+          "Responses are rejected for content more often than for lateness. Each nonconformance requires a stated root cause, the immediate correction, the action taken to prevent recurrence, an evaluation of product impact where applicable, and objective evidence attached. \"Retrained the technician\" is not a root cause. \"The vision tracker was driven off a company anniversary date rather than each individual's test date, so eleven technicians drifted past twelve months\" is a root cause, and it points directly at a systemic fix an assessor will accept.",
+          "Product impact is the element suppliers underestimate. Where a certification lapsed on paper, the assessor asks what that person inspected during the lapse and what happened to those parts. Have the analysis assembled before writing the response, because the answer decides whether this stays a records finding inside your building or becomes a customer notification. Pull the inspection reports signed in the window, list the part numbers and customers, and document either the technical justification or the disposition taken."
+        ]
+      },
+      {
+        "heading": "How Atlantis Prepares an AC7114 Audit",
+        "paragraphs": [
+          "Atlantis works the personnel side of AC7114 as a records project with a Level 3 attached. We reconstruct the personnel list and reconcile it against inspection records, audit every sampled file against your written practice and NAS 410 in parallel, rebuild examination material as a controlled bank with question sets, answer keys and retention rules, place vision and certification expiry on one tracker driven by individual test dates, and rewrite the written practice so it names a Responsible Level 3 and asserts only what your records can prove.",
+          "Where you need the Responsible Level 3 designation itself, we hold it under contract, approve procedures and technique sheets in the methods we cover, prepare, administer and grade examinations, run the internal NDT audit, and attend the assessment. Your company retains the certification signature, because that authority never moves. The scope of that retainer is described at /consulting/ndt-consulting-level-iii. Ask for a readiness gap assessment or a quote for outsourced Level III support and we will scope it against your methods, your headcount and your audit date."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is AC7114 the same thing as AS9100?",
+        "a": "No. AS9100 is an aerospace quality management system standard covering the whole business. AC7114 is Nadcap special process audit criteria covering nondestructive testing specifically, assessed by PRI against your written practice, your personnel records, your procedures and observed work. A shop holds AS9100 certification and still fails an AC7114 audit on personnel records, because AS9100 auditors sample the NDT programme lightly while an AC7114 assessor does nothing else for the duration of the visit."
+      },
+      {
+        "q": "Do trainees need to appear on the personnel list?",
+        "a": "Yes. The list covers everyone in the NDT programme: certified personnel, trainees accumulating experience hours, and anyone suspended or lapsed. Trainees carry the highest documentation risk because their files stay open the longest, their supervising individual changes, and their experience logs are the evidence that examination sequencing was correct. Omitting trainees from the list does not remove them from the audit; it removes your ability to show the assessor that their progression was controlled."
+      },
+      {
+        "q": "Does Nadcap require our Level 3 to hold ASNT Level III certification?",
+        "a": "NAS 410 does not make an ASNT Level III certificate a prerequisite. A current ASNT Level III certificate in the method satisfies the general examination requirement, which is why most aerospace Level 3s in the United States hold one. The United States has no NANDTB, so qualification runs employer-based with primes and Nadcap performing the oversight role that a national board performs in Europe under EN 4179. What the audit checks is that the qualification route your written practice describes is the route your Level 3's file actually documents."
+      },
+      {
+        "q": "How long does Nadcap NDT accreditation last?",
+        "a": "Accreditation intervals extend to 18 or 24 months under Nadcap's merit scheme. Suppliers begin on the shortest interval and earn extensions through clean audits and on-time nonconformance responses, with each merit tier carrying a cumulative late-day allowance that tightens as the interval lengthens. This is why response discipline after the audit matters as much as preparation before it: the same records failure answered late costs the interval as well as the finding."
+      },
+      {
+        "q": "Can Atlantis attend the Nadcap audit with us?",
+        "a": "Yes. Where we hold the Responsible Level 3 designation, attendance is written into the agreement against your scheduled audit dates rather than left to availability. Where you have an employed Level 3 and need reinforcement, we attend as support: managing the records room, retrieving sampled files, and drafting root cause responses in parallel while the assessment continues. Ask for a quote and we will scope it against your audit date, your methods and the size of your personnel list."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/nas-410-responsible-level-3",
+    "title": "NAS 410 Names One Responsible Level 3, and Lets You Contract It",
+    "description": "NAS 410 para 4.5 requires a Responsible Level 3 identified in writing. Who qualifies, what the designation states, and how the outside-agency route works.",
+    "h1": "Designating a Responsible Level 3 When You Do Not Employ One",
+    "answer": "NAS 410 para 4.5 requires the employer to identify a Responsible Level 3 in writing, and that person may be contracted rather than employed. The designation names an individual, states the methods covered and the authority granted, and is signed by company management. The employer still certifies its own employees; the Responsible Level 3 qualifies them and approves the programme.",
+    "expansion": "This is the single point where aerospace diverges from ASNT SNT-TC-1A. SNT-TC-1A tells an employer to designate an NDT Level III who approves the written practice, the procedures and the examinations, and it accepts an outside agency in that role without giving the role a formal title. NAS 410 gives it a title, a paragraph and a named holder. The Responsible Level 3 is one identified person who speaks for the company's NDT programme to primes, to Nadcap assessors and to a NANDTB, who approves the written practice and every procedure and technique sheet, and who stands behind the qualification of every certified technician on the list. Because NAS 410 permits that person to be under contract, a shop with no Level 3 on payroll runs a fully compliant aerospace programme. What it cannot outsource is the certification signature itself.",
+    "source": "AIA NAS 410 Rev. 6 (December 2025), para 4.5 Responsible Level 3, and Rev. 5 (September 2020) training, experience, examination and vision requirements; EN 4179 as the technically equivalent European document administered through NANDTBs; ASNT Recommended Practice No. SNT-TC-1A (2024), paras 5.1, 5.5, 5.6 and 8.1.1; ANSI/ASNT CP-189 (2024); PRI Nadcap audit criteria AC7114, which recognises an applicable Level 3 who is internal, external, or qualified and approved by the Nadcap user.",
+    "table": {
+      "caption": "Responsible Level 3 duties under NAS 410: employed holder versus contracted holder, and the record that proves each",
+      "columns": [
+        "Duty under NAS 410",
+        "Employed Responsible Level 3",
+        "Contracted Responsible Level 3",
+        "Record the auditor asks for"
+      ],
+      "rows": [
+        [
+          "Being identified in writing (para 4.5)",
+          "Named in the written practice and in a management memo",
+          "Named identically; the service contract does not substitute for the designation",
+          "Signed designation naming the individual, the methods covered and the effective date"
+        ],
+        [
+          "Approving the written practice",
+          "Signs and dates the controlled document",
+          "Signs and dates the same document; the employer controls the revision and holds the master",
+          "Approval page carrying name, certification level, methods and date"
+        ],
+        [
+          "Approving procedures and technique sheets",
+          "Approves each document in the methods they are certified in",
+          "Same restriction; methods outside their certification require a second Level 3",
+          "Approval block on every procedure and technique sheet in the audited scope"
+        ],
+        [
+          "Preparing, approving and grading examinations",
+          "Prepares and approves questions; trained designees may administer",
+          "Same, and the subordinate-administration conflict disappears by construction",
+          "Question sets, answer keys, marked papers, part scores and the composite calculation"
+        ],
+        [
+          "Designating who administers vision examinations",
+          "Names and trains the examiner at the site",
+          "Names and trains an examiner employed at the site, or an eye care professional",
+          "Signed vision reports identifying the designated examiner by name"
+        ],
+        [
+          "Speaking for the programme to primes, assessors and a NANDTB",
+          "Present as an employee",
+          "Present under contracted availability; audit dates must be named in the contract",
+          "Audit attendance record, approval correspondence, the service agreement itself"
+        ],
+        [
+          "Signing the certification record",
+          "Signs where the employer's written practice authorises it",
+          "Does not sign; an officer of the employer signs",
+          "Certification record signed by employer personnel, not by the agency"
+        ],
+        [
+          "Holding their own qualification evidence",
+          "Kept in the employer's personnel files",
+          "Copies kept in the employer's files, not only at the consultancy",
+          "Certification in each method, examination evidence, and a current vision record"
+        ]
+      ],
+      "note": "NAS 410 permits the Responsible Level 3 to be contracted. It does not permit the employer's responsibility to be contracted, and it does not permit one employer to certify another employer's people. Rev. 6 was released in December 2025; confirm which revision your prime flows down before rewriting the designation, because the flowed-down revision governs."
+    },
+    "facets": [
+      {
+        "q": "Can our Responsible Level 3 be an employee of another company?",
+        "a": "Yes. NAS 410 para 4.5 requires the Responsible Level 3 to be identified in writing and permits that person to be contracted. Shops with no Level 3 on payroll run compliant aerospace programmes on this route every day, and Nadcap AC7114 recognises an external Level 3 approving procedures. The employer remains responsible for assuring the requirements of the standard are met, holds the designation document, holds copies of the Level 3's qualification records, and signs its own employees' certification records."
+      },
+      {
+        "q": "Must the Responsible Level 3 be certified in every method we perform?",
+        "a": "Yes, for every method they approve. A Level 3 certified in penetrant and magnetic particle cannot approve ultrasonic procedures, cannot approve ultrasonic examination questions, and cannot stand behind an ultrasonic certification. Shops covering four or five methods commonly split the role: one Level 3 named for the methods they hold, a second named for the remainder. The designation document lists the methods against each name, which is exactly what the assessor reads when the personnel list shows a method neither name covers."
+      },
+      {
+        "q": "How often must the Responsible Level 3 be on site?",
+        "a": "NAS 410 sets no attendance frequency. The obligations set the frequency instead. Practical examinations require the examiner present with the candidate and the specimens. Internal NDT audits and technique reviews require observation of work as performed. Nadcap job audits require the Level 3 available during the assessment. Working backwards from those, most contracted arrangements land on scheduled site visits for examination cycles and audits, with procedure and technique approvals handled remotely against a contracted response time."
+      },
+      {
+        "q": "Does EN 4179 treat the Responsible Level 3 the same way?",
+        "a": "EN 4179 is the technically equivalent European document and carries the same Responsible Level 3 concept, with one structural difference: Europe operates National Aerospace NDT Boards, and the NANDTB participates in Level 3 qualification and oversight. The United States has no NANDTB, so US aerospace runs employer-based under NAS 410 with primes and Nadcap performing that oversight. A supplier serving both markets writes one written practice that satisfies the stricter route rather than maintaining two programmes."
+      },
+      {
+        "q": "Can we name a Level 3 qualified through ASNT rather than a NANDTB?",
+        "a": "Yes, in the United States. NAS 410 does not make an ASNT Level III certificate a prerequisite for the role, and a current ASNT Level III certificate in the method satisfies the general examination requirement, which is why the ASNT route dominates US aerospace. What the audit examines is consistency: the qualification route your written practice describes must be the route the Level 3's own file documents, with the examination evidence present rather than assumed from the certificate."
+      },
+      {
+        "q": "What happens to our certifications if the Responsible Level 3 changes?",
+        "a": "Existing certifications stay valid. The approving authority does not transfer automatically. Issue a new written designation before the outgoing Level 3's last day, transfer custody of the examination bank, answer keys, qualification files and approved procedure set, and have the incoming Level 3 review and re-approve the written practice. The detailed sequence, including what stops the moment the departure takes effect, is at /consulting/ndt-level-3-resigned-what-to-do."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Paragraph 4.5 Is the Whole Difference From SNT-TC-1A",
+        "paragraphs": [
+          "ASNT SNT-TC-1A tells an employer to establish a written practice and to have an NDT Level III approve it, approve the procedures and approve the examinations. It never names that person in the standard's own vocabulary, and it never demands that the employer publish who they are. NAS 410 does both. Paragraph 4.5 requires the employer to identify a Responsible Level 3 in writing. That is a named individual, not a job title, not a department, and not a rotating duty shared between two senior technicians who each cover part of the scope.",
+          "The reason aerospace insists on a name is traceability of authority. When a prime contractor asks who approved the technique sheet that inspected their turbine disc, or when a Nadcap assessor asks who decides that a candidate is qualified, the answer resolves to a person with a certification file, a vision record and an examination history. A role title cannot hold a certification. A named individual can, and the entire aerospace qualification chain is built on being able to walk backwards from a part to a person.",
+          "The second half of para 4.5 is what makes it commercially workable. The Responsible Level 3 may be contracted. A shop of twelve people performing penetrant and magnetic particle on aerospace parts does not need a full-time Level 3 salary to hold a compliant designation, and NAS 410 was written knowing that. The employer remains responsible for assuring the requirements of the standard are met, which is a different obligation from performing every technical act personally."
+        ]
+      },
+      {
+        "heading": "Who Qualifies to Hold the Designation",
+        "paragraphs": [
+          "The holder is qualified as a Level 3 in each method they will cover, with the qualification supported by records rather than reputation. In the United States that route runs through ASNT: a current ASNT Level III certificate in the method satisfies the general examination requirement, and the employer's written practice defines what else is required. In Europe the NANDTB participates directly. Either way, the file must show the examinations behind the certificate, not only the certificate itself, because the assessor tests the route your written practice claims against the evidence in the folder.",
+          "Method coverage is the constraint shops trip over. A Level 3 certified in PT and MT is unable to approve UT procedures, unable to approve UT examination questions, and unable to stand behind a UT certification, regardless of how experienced they are with the method in practice. Where a shop performs four or five methods, the designation splits: one name covering the methods they hold, another name covering the rest. The designation document lists methods against each name so the coverage is visible on one page.",
+          "The holder also needs the standing to act. NAS 410 expects the Responsible Level 3 to be in charge of the NDT programme and to interface with other companies, auditors and regulatory bodies on the company's behalf. A contracted holder therefore needs a contract that grants that standing explicitly, and an internal reporting line that does not allow a production manager to override a technical decision. Where the designation exists on paper but the authority does not, the arrangement fails on the first disagreement about a rejected part."
+        ]
+      },
+      {
+        "heading": "What the Written Designation Must State",
+        "paragraphs": [
+          "Four elements make a designation auditable. The individual's full name and their Level 3 certification credentials. The methods covered, listed explicitly rather than implied by the scope of the business. The authority granted, written as verbs the assessor can test: approves the written practice, approves procedures and technique sheets, prepares and approves examination material, designates examination administrators and vision examiners, performs or oversees internal NDT audits. And an effective date, with the signature of a company officer who has the standing to grant that authority.",
+          "The designation belongs in two places. It is stated in the written practice, which is the controlled document the assessor reads first, and it exists as a separately signed management memo or contract schedule that can be produced on its own. Keeping both aligned is the maintenance task shops fail. When the written practice is revised for an unrelated reason and the Level 3 name is carried forward from the previous revision without checking, the document quietly asserts something that stopped being true.",
+          "What the designation must not do is assign the certification signature to the contracted holder. NAS 410 makes the employer responsible for certifying its own employees, and an employer cannot certify for another employer. A designation that grants the outside Level 3 authority to sign certification records creates a nonconformance in the document itself, before a single technician has been certified under it. The full authority boundary is set out at /consulting/outside-ndt-level-3-can-and-cannot-do."
+        ]
+      },
+      {
+        "heading": "What the Responsible Level 3 Is Accountable For",
+        "paragraphs": [
+          "The written practice comes first, because everything else is audited against it. The Responsible Level 3 approves it, and that approval means the document describes a programme they will defend: the training hours, the experience hours, the examination structure, the recertification interval, the vision cadence, and the designated administrators. Where the written practice promises more than NAS 410 requires, the Responsible Level 3 has committed the company to the higher figure, and that is the figure the assessor uses.",
+          "Procedures and technique sheets come next, one approval per document, per method, per revision. This is the highest-volume obligation and the one that generates the most findings, because engineering issues revisions and the re-approval lags. A contracted arrangement handles this by defining a response time for approvals in the agreement, so a revision cannot go into production while waiting. Annual technique review, where the written practice promises it, is a scheduled event with a record, not a background intention.",
+          "Examinations are the third pillar: preparing or approving the general, specific and practical material, approving every question, designating who administers and grades, and standing behind the result. The full structure of that oversight, including the rule that no candidate may have their examination administered by themselves or a subordinate, is set out at /consulting/ndt-level-3-exam-oversight. The fourth pillar is surveillance: internal NDT audits, technician performance monitoring, and the annual proficiency checks your written practice commits to."
+        ]
+      },
+      {
+        "heading": "The Outside-Agency Route, Written as a Contract",
+        "paragraphs": [
+          "A contracted designation succeeds or fails on the agreement behind it. Name the methods covered. List the delegated activities individually rather than as \"Level III services\": written practice approval, procedure and technique sheet approval, examination preparation, administration and grading, vision examiner designation and training, internal NDT audits, annual technique review. State a response time for approvals in business days. And name the availability commitment for scheduled events, including your Nadcap audit dates, which are published well in advance and therefore contractible.",
+          "Records custody is the clause shops forget and assessors ask about first. The examination bank, answer keys, marked papers, qualification files and approved procedure set are the employer's property, held at the employer's premises or in a system the employer controls, with the agency holding working copies. Write it that way. The alternative is the failure mode that turns a routine contract change into a rebuild: the agency departs, and the examination material and half the qualification evidence depart with them.",
+          "Copies of the Level 3's own qualification evidence live in your personnel files, not at the consultancy. Certification in each covered method, the examination evidence behind it, a current vision record, and the signed designation naming them for your facility. Assessors ask for this file early in an AC7114 audit and \"our consultant keeps those\" is written up, because the employer carries the responsibility for assuring the standard is met. The audit-readiness detail sits at /consulting/nadcap-ac7114-audit-readiness."
+        ]
+      },
+      {
+        "heading": "The One Authority the Contract Cannot Move",
+        "paragraphs": [
+          "Certification is an act of the employer. NAS 410 holds the employer responsible for the certification of its own employees and forbids one employer certifying for another. A contracted Responsible Level 3 qualifies your people: they approve the training, verify the experience, approve and grade the examinations, and confirm the vision status. An officer of your company then signs the certification record stating that this employee is certified to this level in this method under your written practice. Two signatures, two different parties, and the distinction survives every audit.",
+          "Shops collapse this because the qualification work is the substantive part and the signature feels administrative. It is the reverse. The signature is what makes the certification yours, which is what makes it valid when the outside agency's contract ends. Certification records signed by a consultancy have to be reissued, and reissuing them means revisiting every file to confirm the underlying qualification evidence still supports the claim. Getting the signature right at the outset costs nothing; getting it wrong costs a full records remediation."
+        ]
+      },
+      {
+        "heading": "One Name, Several Methods and Several Sites",
+        "paragraphs": [
+          "Multi-method shops split the designation by method and multi-site companies face a harder question. NAS 410 does not require a Responsible Level 3 per site, but it does require the named person to be in charge of the programme they are named for. A single name across four sites works where one written practice governs all four, records are held in one controlled system, and the person actually reaches each site for examinations and audits. It fails where sites run local variants of the procedures and the name on the document has not visited in two years.",
+          "The practical test is whether the named person can answer for any file pulled at any site without a phone call. Where they cannot, split the designation and write the split into the written practice explicitly, with each name carrying its own site and method list. Assessors accept a distributed structure that is documented. They write up a centralised structure that is fictional, because the finding is not about the geography, it is about the authority being nominal."
+        ]
+      },
+      {
+        "heading": "Replacing a Responsible Level 3 Without a Gap",
+        "paragraphs": [
+          "Certifications already issued stay valid when the Responsible Level 3 changes. The approving authority is what lapses, and it lapses on the effective date rather than when the paperwork catches up. From that moment nobody can certify a new technician, approve a procedure revision, approve or grade an examination, or approve a written practice change until a new designation exists in writing. Shops discover this when a technique sheet needs a revision on day three of the gap and there is nobody empowered to sign it.",
+          "Overlap the two holders wherever the timing permits. Issue the incoming designation before the outgoing last day, transfer custody of the examination bank, answer keys, qualification files and the approved procedure set as a documented handover, and have the incoming Level 3 review and re-approve the written practice under their own name rather than inheriting an approval. Where an overlap is impossible, a contracted interim designation closes the gap in days. The full recovery sequence is at /consulting/ndt-level-3-resigned-what-to-do."
+        ]
+      },
+      {
+        "heading": "How Atlantis Holds the Designation",
+        "paragraphs": [
+          "Atlantis holds Responsible Level 3 designations under contract for aerospace suppliers that have no Level 3 on payroll and for shops whose employed Level 3 does not cover every method they perform. The engagement starts by reading your written practice against NAS 410 and against what your primes flowed down, then rewriting the designation, the authority statement and the records custody terms so the arrangement is auditable on its face rather than defensible only in conversation.",
+          "From there we approve procedures and technique sheets in the covered methods against a contracted response time, prepare and approve examination material as a controlled bank, administer and grade examinations on scheduled site visits, designate and train your vision examiner, run the internal NDT audit, and attend Nadcap assessments booked against dates in the agreement. Your company signs the certification records. The retainer structure is described at /consulting/ndt-consulting-level-iii. Ask for a quote and we will scope it against your methods, headcount and audit calendar."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does SNT-TC-1A require a Responsible Level 3 as well?",
+        "a": "No. SNT-TC-1A requires a written practice approved by an NDT Level III and makes that Level III responsible for approving examination questions, procedures and the programme, but it creates no named role with the title Responsible Level 3 and no obligation to publish who holds it. NAS 410 para 4.5 adds both. A shop moving from general industry into aerospace usually already has the substance and simply lacks the written designation, which is a one-document fix."
+      },
+      {
+        "q": "Can one person be Responsible Level 3 for two different companies?",
+        "a": "Yes. Contracted Level 3s routinely hold the designation for several suppliers at once, and NAS 410 permits it because the designation is an employer-side document rather than an exclusivity arrangement. What NAS 410 forbids is one employer certifying another employer's employees, which is a separate rule. The practical limit is availability: each designation carries examination cycles, audit attendance and approval turnaround, and a Level 3 holding more designations than their calendar supports produces late approvals, which produce findings."
+      },
+      {
+        "q": "Does the Responsible Level 3 approve our internal NDT audits?",
+        "a": "Yes, where your written practice assigns internal NDT audits to the role, which most aerospace written practices do. AC7114 assesses internal NDT audits as a subject area, so the audit plan, the completed audit records, the findings raised and their closure all become audit evidence in their own right. A contracted holder performing your internal audit brings an advantage: they are auditing a programme they approved but did not operate, so the observations are genuinely independent of daily production pressure."
+      },
+      {
+        "q": "Do we need a NANDTB if we operate only in the United States?",
+        "a": "No. The United States has no National Aerospace NDT Board. US aerospace suppliers run employer-based certification under NAS 410, with prime contractors and Nadcap performing the oversight role that a NANDTB performs in Europe under EN 4179. If you supply European primes or hold EN 4179 obligations flowed down through a contract, the NANDTB route enters through that contract rather than through your US operations, and the written practice must then satisfy both."
+      },
+      {
+        "q": "What does Atlantis need in order to hold the designation for us?",
+        "a": "Your current written practice, your procedure and technique sheet set, your personnel list with methods and levels, the qualification files as they stand, and the specification flow-down from your primes. From those we produce a gap report, a redrafted designation and authority statement, and a schedule of what needs rebuilding before your next audit. Ask for a scoping call and a quote, and the scope is set by your methods, your headcount and your audit date rather than by a standard package."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/ndt-level-3-exam-oversight",
+    "title": "Nobody May Administer Their Own NDT Certification Exam",
+    "description": "SNT-TC-1A 8.1.1 bars self-administered and subordinate-administered exams. Who writes, approves, administers and grades each part, and what records survive.",
+    "h1": "Writing, Approving, Administering and Grading NDT Qualification Examinations",
+    "answer": "SNT-TC-1A 8.1.1 states that in no case shall an examination be administered by oneself or by a subordinate. That single sentence decides the architecture. The Level III responsible for the method approves every question, the general, specific and practical parts are separately prepared and graded, each part requires 70 percent and the composite 80 percent, and the papers themselves are retained, not just the scores.",
+    "expansion": "Certification examinations fail audits in a predictable order. The score sheet exists and the papers do not. The composite is recorded and the three part scores are not. The practical was administered by the shift supervisor who also trained the candidate and signs the candidate's timesheet. The specific examination cites a procedure at a revision superseded two years earlier. None of these are competence problems, and all four are written up. The structure that survives scrutiny separates four roles shops routinely collapse into one person: who writes the questions, who approves them, who sits with the candidate, and who grades the result. A contracted Level III separates them by construction, because that person supervises nobody in the building and reports to nobody the candidate outranks. That separation is an audit argument before it is ever a commercial one.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024), Section 8 Examinations, para 8.1.1 (no examination administered by oneself or by a subordinate), approval of examination questions by the NDT Level III, the 80 percent composite with no individual examination below 70 percent, and paras 5.1, 5.5 and 5.6 on the written practice; ANSI/ASNT CP-189 (2024); AIA NAS 410 Rev. 6 (December 2025) and Rev. 5 (September 2020), including the sequencing of the specific examination after 75 percent and the practical after 100 percent of required experience hours, and the vision examination requirements.",
+    "table": {
+      "caption": "Each examination element: who prepares it, who approves it, who may administer it, how it is graded and what is retained",
+      "columns": [
+        "Examination element",
+        "Who prepares it",
+        "Who approves it",
+        "Who may administer it",
+        "Passing rule",
+        "What is retained"
+      ],
+      "rows": [
+        [
+          "General (method knowledge)",
+          "Level III for the method, or an outside agency working to your written practice",
+          "The Level III responsible for that method",
+          "Level III or a documented, trained designee; never the candidate, never a subordinate of the candidate",
+          "70 percent minimum for this part",
+          "Question set, answer key, the candidate's marked paper, part score"
+        ],
+        [
+          "Specific (your procedures, equipment and techniques)",
+          "Level III, drawn from the employer's current procedures and equipment",
+          "The Level III responsible for that method",
+          "Level III or a documented, trained designee under the same restriction",
+          "70 percent minimum for this part",
+          "Paper, key, marked responses, and the procedure revision the questions were drawn from"
+        ],
+        [
+          "Practical (hands-on with specimens)",
+          "Level III, with specimens controlled and characterised",
+          "The Level III responsible for that method",
+          "Level III or a designee competent in the method, independent of the candidate's reporting line",
+          "70 percent minimum, with detection and reporting of discontinuities graded",
+          "Checklist, specimen control numbers, discontinuity sheet, instrument and settings, candidate's written results"
+        ],
+        [
+          "Composite result",
+          "Calculated from the three part scores",
+          "The Level III signs the qualification recommendation",
+          "Not applicable",
+          "80 percent composite with no individual part below 70 percent",
+          "The composite calculation showing all three part scores, not a single figure"
+        ],
+        [
+          "Vision examination",
+          "Eye care professional, or a person the Responsible Level 3 designated and trained",
+          "Responsible Level 3 designates the administrator",
+          "The designated examiner; never the candidate testing themselves",
+          "Near vision to Jaeger 1 or equivalent; colour contrast differentiation pass",
+          "Signed report: date, chart or plates used, distance, eye tested, corrected or uncorrected, examiner name"
+        ],
+        [
+          "Level III's own examination",
+          "Outside agency, ASNT, or a NANDTB where one exists",
+          "The employer's written practice defines the accepted route",
+          "Outside agency or NANDTB; never the candidate, never a subordinate of the candidate",
+          "Set by the administering body",
+          "Certificate plus the score report from the administering body, held in the employer's file"
+        ]
+      ],
+      "note": "NAS 410 Rev. 5 added sequencing: the specific examination is administered after at least 75 percent of required experience hours and the practical after 100 percent. That only proves out if the experience log carries dated entries to compare the examination dates against."
+    },
+    "facets": [
+      {
+        "q": "Can our Level III administer the examination for someone they trained?",
+        "a": "Yes, provided the candidate is not the Level III themselves and is not the Level III's own subordinate in the sense SNT-TC-1A 8.1.1 addresses. Training and examining are separate acts, and the standard bars self-administration and subordinate administration rather than instructor involvement. The practice that draws scrutiny is a supervisor who trains the candidate, administers the examination, grades it and signs their performance review, because every check on the result runs through one person with an interest in it."
+      },
+      {
+        "q": "Who may administer a Level III candidate's own examination?",
+        "a": "An outside agency, ASNT, or a NANDTB where one exists. Never the candidate, and never someone who reports to the candidate. This is where the rule bites hardest, because a shop's only Level III cannot examine themselves into a higher method and cannot have their own Level II run the paper. The route is a third party, and it is the same reason many shops contract Level III oversight in the first place: the independence is structural rather than asserted."
+      },
+      {
+        "q": "How many questions does each examination part require?",
+        "a": "SNT-TC-1A publishes minimum question counts by method and level in its examination table, and your written practice states the counts you use. Those counts must meet or exceed the table, and the assessor compares the paper in the file against the number your own document promised. Where the written practice says forty general questions and the retained paper has twenty-eight, the finding is against your written practice rather than against the standard, which is the harder one to argue away."
+      },
+      {
+        "q": "Does recertification require a new practical examination?",
+        "a": "Your written practice decides, within the bounds SNT-TC-1A sets, and it must decide explicitly. Recertification runs at intervals your written practice defines, with SNT-TC-1A recommending a maximum of five years, and the evidence route is either re-examination or documented evidence of continued satisfactory performance. Whichever route you choose, the record must exist for each cycle. The most common finding is a recertification date advanced on a tracker with no examination, no performance evidence and no Level III signature behind it."
+      },
+      {
+        "q": "Can an outside agency write our examination bank and also grade it?",
+        "a": "Yes. SNT-TC-1A accepts an outside agency preparing, administering and grading qualification examinations, and CP-189 takes the same position. The boundary is the certification decision: the agency qualifies, an officer of the employer certifies, and the certification record carries the employer's signature. Using one agency across writing, administering and grading is the arrangement most likely to satisfy 8.1.1, because nobody involved sits in the candidate's reporting line. The full authority split is at /consulting/outside-ndt-level-3-can-and-cannot-do."
+      },
+      {
+        "q": "What identifies a practical examination specimen adequately?",
+        "a": "A control number unique to that specimen, a record of the discontinuities present with their type and location, the material and configuration, and a controlled storage location. The examination record then states which specimens the candidate examined and what they detected and reported against what was actually present. A practical recorded as \"passed practical, 85 percent\" with no specimen identification cannot be reconstructed by anyone, which is precisely why assessors read the practical file before the written ones."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "One Sentence Sets the Whole Architecture",
+        "paragraphs": [
+          "SNT-TC-1A 8.1.1 states that in no case shall an examination be administered by oneself or by a subordinate. It is the shortest requirement in the examination section and the one with the widest consequences, because it forces a separation of duties that small NDT departments have no natural way to produce. A shop with one Level III, two Level IIs and four technicians has a single technical authority who trains everyone, supervises everyone, and would otherwise write, administer and grade every examination in the building.",
+          "The rule exists because a qualification examination is a control, and a control administered by the person whose work it validates has stopped being a control. The examination result feeds a certification record that a customer relies on when they accept an inspection report on a pressure vessel or a turbine disc. Removing the conflict of interest is not an administrative nicety; it is the reason the certification carries weight outside the company that issued it.",
+          "NAS 410 carries the same prohibition into aerospace and applies it to the Level 3 candidate specifically: the examination shall not be administered by the candidate or by a subordinate. So the aerospace shop and the general industry shop reach the same conclusion by different routes. Somebody outside the reporting line has to run the examination, and once that is accepted, the rest of the design follows from it."
+        ]
+      },
+      {
+        "heading": "Four Documents, Four Distinct Roles",
+        "paragraphs": [
+          "A qualification examination is not one event. It is a general examination on the method, a specific examination on your procedures and equipment, a practical examination with real specimens, and a current vision examination, plus a composite calculation that combines the first three. Each has a different author, a different administrator and a different retention profile, and shops that treat the set as a single pass or fail lose the ability to demonstrate any part of it under scrutiny.",
+          "The four roles worth separating are: who writes the questions, who approves them, who sits with the candidate, and who grades the result. SNT-TC-1A requires the NDT Level III responsible for the method to approve every question, which fixes the second role. The 8.1.1 restriction fixes the third. Writing and grading can sit with the same person as approval, but the further they are distributed across independent parties, the less an assessor has to probe.",
+          "Vision is the role most often forgotten, because it feels medical rather than technical. It is neither: it is a designated act. The Responsible Level 3 designates who administers vision examinations and trains them, or the examination goes to an eye care professional. A vision result recorded without a named examiner is an orphan record, and it appears in personnel files far more often than any other kind of gap because nobody owns it."
+        ]
+      },
+      {
+        "heading": "The General Examination",
+        "paragraphs": [
+          "The general examination tests method knowledge independent of your shop: physics of the method, equipment principles, variables affecting sensitivity, and the interpretation fundamentals for the level being examined. Its question set is stable across years, which makes it the easiest part to build once and maintain, and the easiest part to buy from an outside agency working to your written practice. What is not optional is Level III approval of every question, method by method, and that approval has a date attached.",
+          "The retention obligation is where general examinations quietly fail. Shops keep a score and discard the paper, or keep a paper and lose the answer key, at which point the score is unverifiable. Retain the question set as issued, the key, the candidate's marked responses and the part score. Where the examination is delivered electronically, retain a printable record of the questions presented, the answers given and the key applied, because a system screenshot showing a percentage proves nothing about which questions were asked.",
+          "Question banks need a review cycle for the same reason procedures do. Equipment changes, methods evolve, and a general examination written a decade ago tests knowledge nobody uses. Treat the bank as a controlled document with an owner, a revision history and a scheduled review, and record the Level III's re-approval each cycle. That single control also protects you against the failure where all examination material lived on the laptop of a Level III who has since left."
+        ]
+      },
+      {
+        "heading": "The Specific Examination",
+        "paragraphs": [
+          "The specific examination tests what the candidate needs to know to work in your building: your written procedures, your equipment, your techniques, your acceptance criteria, and the codes and specifications your customers flow down. It is the examination an outside agency cannot supply off the shelf, because the source material is your procedure set. That dependency is exactly what makes it useful evidence, and exactly what makes it go stale.",
+          "Every specific question traces to a procedure at a revision. When the procedure is revised, the questions drawn from it must be reviewed and the traceability updated. An assessor reading a specific examination that cites a procedure revision superseded two years ago concludes that the examination bank has never been reviewed against the current document set, and that conclusion reaches beyond the one file in front of them. Record the procedure revision on the question set itself so the check takes seconds.",
+          "NAS 410 sequences this examination against experience: it is administered after at least 75 percent of the required experience hours have accumulated. That sequencing is auditable only where the experience log carries dated entries. A retrospective log signed on certification day cannot demonstrate that the specific examination came after 75 percent, because there is nothing to compare the examination date against. Hours logging and examination scheduling are therefore the same problem, handled by the same tracker."
+        ]
+      },
+      {
+        "heading": "The Practical Examination: Where Files Are Thinnest",
+        "paragraphs": [
+          "The practical examination is the strongest evidence of competence in the file and the weakest record in most shops. It should identify each specimen by control number, state the discontinuities present in that specimen by type and location, record what the candidate detected and how they reported it, capture the instrument and settings used, and carry the checklist the examiner scored line by line. Where the practical required the candidate to write or interpret a technique, that work product belongs in the file too.",
+          "Specimen control is what makes the record reconstructable years later. Specimens need unique numbers, characterised flaw sets, controlled storage and a log of who examined which set and when. Shops that rotate a single well-known set through every candidate produce results that are indistinguishable from a memorised answer, and experienced assessors ask how the specimen set is controlled precisely because the answer is diagnostic of how seriously the whole programme is run.",
+          "The administration restriction bites hardest here, because a practical requires someone physically present with the candidate for an extended period, and the person most naturally available is the supervisor who trained them. That is the arrangement 8.1.1 exists to prevent where the supervisor is also the candidate's reporting line. Assign a designee outside that line, document their competence and their instruction in administering and grading, and record the designee's name on the practical record itself."
+        ]
+      },
+      {
+        "heading": "Grading: 80 Composite With No Part Below 70",
+        "paragraphs": [
+          "The grading rule is arithmetic and unforgiving: a composite grade of at least 80 percent, with no individual examination scoring below 70 percent. NAS 410 applies the same structure to the general, specific and practical parts. A candidate scoring 95, 90 and 68 has a composite above 80 and still fails, because one part fell below the floor. A file that records only the composite cannot demonstrate compliance with the second half of the rule, which is why the composite calculation showing all three part scores is the record, not the composite alone.",
+          "Grading criteria for the practical need writing down before the examination, not decided afterwards. Define what counts as detection, what counts as correct characterisation, what counts as correct location and sizing within tolerance, and how a missed indication is weighted against a false call. Then score against that written scheme. An examiner scoring a practical from experience produces a defensible result and an indefensible record, and the audit reads the record.",
+          "Failures need documenting as thoroughly as passes. Where a candidate fails, the file shows the result, the retraining or additional experience required before re-examination, the waiting period your written practice specifies, and the second examination as a distinct event with its own paper. Shops that quietly re-examine the same day and file only the passing result create a gap between the certification date and the evidence supporting it that surfaces the moment anyone counts the papers."
+        ]
+      },
+      {
+        "heading": "Designees: Delegation That Survives an Audit",
+        "paragraphs": [
+          "SNT-TC-1A allows the Level III to delegate administration and grading to a designee, with a condition attached: the designee has received documented, appropriate instruction from the NDT Level III in the proper administration and grading of qualification examinations before conducting them independently. That documented instruction is a record. It states who was instructed, by whom, on what date, covering what content, and it lives in the designee's file rather than in the Level III's memory of having explained it once.",
+          "Choose designees for independence as much as for competence. The useful test is whether the designee has any influence over the candidate's pay, shift, assignments or performance review. Where they do, 8.1.1 is in play regardless of how carefully the examination is run. Where they do not, the examination stands on its own. In small departments this often means the designee sits in quality rather than production, which is a structural answer to a structural problem.",
+          "Record the designee on every examination they administer, not just in the delegation letter. The assessor reading a candidate's file asks who administered this examination and what authorised them to do so, and the file should answer both questions without anyone leaving the room. A name on the paper plus an instruction record in that person's own file closes the loop, and it closes it for every candidate they ever examine."
+        ]
+      },
+      {
+        "heading": "Retention: Keep the Papers, Not the Summary",
+        "paragraphs": [
+          "The retained record set for one certification is larger than most shops expect: the general paper, key and marked responses; the specific paper, key, marked responses and the source procedure revision; the practical checklist, specimen identification, discontinuity sheet, instrument and settings and the candidate's written results; the part scores and composite calculation; the current vision report with its examiner named; the dated experience log; and the certification record signed by an officer of the employer. Each element answers a question the others cannot.",
+          "Retention duration follows two rules that operate together. Your written practice states the retention period you commit to, and that commitment is what an auditor holds you to. NAS 410 requires the employer to maintain certification records while the certification is in effect, which means a five-year certification carries a five-year floor on the supporting evidence at minimum, and recertification history extends the useful life further. Where a customer contract specifies longer, the contract governs.",
+          "Custody matters as much as duration. Records held only on an individual's machine, or only at an outside agency, are records you cannot produce on audit day. Hold them in a system the employer controls, with the agency holding working copies, and write that into the service agreement. This is the single clause that turns a Level III transition from a rebuild into a handover, and the recovery sequence when it was never written is at /consulting/ndt-level-3-resigned-what-to-do."
+        ]
+      },
+      {
+        "heading": "Why Independence Argues for an Outside Level III",
+        "paragraphs": [
+          "Read 8.1.1 as an organisational design constraint rather than a compliance line and the case for outside oversight writes itself. The prohibition requires an examiner who is neither the candidate nor anyone reporting to the candidate. In a department of six, the pool of people satisfying that test while also being competent to grade the method is frequently empty. A contracted Level III is outside the reporting structure entirely: they supervise nobody, they report to nobody the candidate outranks, and they carry no interest in the outcome.",
+          "The same independence solves the case that has no internal answer at all: qualifying a Level III. The candidate cannot administer their own examination and cannot have a subordinate do it, so a shop promoting its senior Level II into the Level III role must go outside for that examination regardless of what else it handles internally. Once an outside agency is engaged for that, extending the engagement across the examination bank costs less than maintaining two parallel systems.",
+          "There is a records benefit that shows up on audit day. An outside Level III delivers examination material as a controlled deliverable, with question sets, keys, graded papers and retention terms defined in the agreement, because that is how the engagement is scoped. The bank does not live on anyone's laptop, and it does not leave when a person does. The scope and boundary of that arrangement is described at /consulting/outside-ndt-level-3-can-and-cannot-do and the retainer structure at /consulting/ndt-consulting-level-iii."
+        ]
+      },
+      {
+        "heading": "How Atlantis Runs Examination Oversight",
+        "paragraphs": [
+          "Atlantis builds and holds examination programmes for NDT employers under a written practice we review or rewrite first, because the examination structure must match what that document promises. We prepare general and specific question sets by method and level, approve them as the responsible Level III, characterise and control practical specimens, define written grading criteria before anyone sits the examination, and administer and grade on scheduled site visits. Your company signs the certification records, and the material stays in a system you control.",
+          "Where you need one examination rather than a programme, we run it as a discrete engagement: a Level II qualifying in a new method, a Level III candidate who cannot be examined internally, or a recertification cycle that fell due while you had no approving authority. Where you need the whole records position rebuilt ahead of an audit, that work is described at /consulting/nadcap-ac7114-audit-readiness. Ask for a demo of the examination and records structure, or a quote scoped to your methods, levels and headcount."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are online proctored NDT certification examinations acceptable?",
+        "a": "For the general and specific parts, yes, where your written practice describes the delivery method and the records requirement is met in full: the questions presented, the answers given, the key applied, the part score, and the identity of the administrator. The practical examination is not deliverable this way, because it requires the candidate physically handling instruments and characterised specimens under observation. A shop running written parts remotely still schedules practicals on site with an examiner present."
+      },
+      {
+        "q": "Does an ASNT Level III certificate replace our employer examinations?",
+        "a": "No. An ASNT Level III certificate is third-party evidence of method knowledge and, under NAS 410, a current certificate in the method satisfies the general examination requirement. It does not satisfy the specific examination, because that tests your procedures, your equipment and your customer requirements, and no third party can examine a candidate on documents they have never seen. Employer certification remains an act of the employer regardless of what third-party credentials the candidate holds."
+      },
+      {
+        "q": "Who grades the practical if our only Level III is the candidate?",
+        "a": "An outside agency or another employer's Level III engaged for the purpose. SNT-TC-1A 8.1.1 and NAS 410 both bar the candidate from administering their own examination and bar a subordinate from doing it, which removes every internal option in a single-Level-III shop. This is the most common entry point into contracted Level III services: a shop needs one examination it cannot lawfully run itself, and discovers the engagement also solves procedure approval and audit attendance."
+      },
+      {
+        "q": "How long must examination records be kept?",
+        "a": "For at least the period your written practice states, and for as long as the certification supported by them remains in effect. Those two rules operate together: a written practice promising a shorter period than the certification's own life creates a contradiction the auditor resolves against you. Set the retention period to the certification interval plus one full cycle so recertification history stays intact, and confirm no customer contract specifies longer before finalising the figure."
+      },
+      {
+        "q": "Can the same examination paper be used for multiple candidates?",
+        "a": "Yes, and most banks are built that way. What matters is control: the paper is a controlled document with a revision and a Level III approval, the answer key is held separately from the candidates, and each candidate's marked responses are retained individually. Where a small set of specimens or papers circulates repeatedly, rotate variants and review the bank on a schedule, because an examination everyone in the building has memorised measures recall rather than method knowledge."
+      }
+    ]
   }
 ]
