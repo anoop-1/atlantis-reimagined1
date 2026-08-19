@@ -6,6 +6,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 export default function TrainingRequirementsMatrix() {
   useEffect(() => {
@@ -486,6 +487,7 @@ export default function TrainingRequirementsMatrix() {
         </div>
       </section>
 
+      <TrainingEnquiryCTA />
       <ContactDetails />
     </div>
   );

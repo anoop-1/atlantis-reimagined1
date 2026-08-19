@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { GraduationCap, MapPin, Award, Factory, Ship, Briefcase } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 const URL = "https://atlantisndt.com/ndt-training-jakarta";
 
@@ -206,6 +207,7 @@ export default function NDTTrainingJakarta() {
         </div>
       </section>
 
+      <TrainingEnquiryCTA />
       <ContactDetails />
     </div>
   );

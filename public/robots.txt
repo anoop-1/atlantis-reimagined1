@@ -35,6 +35,36 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# Newer AI retrieval agents, added 2026-08-19. These are the fetchers that
+# pull a page live when an assistant answers — being blocked here means being
+# uncitable regardless of content quality.
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
 User-agent: *
 Allow: /
 Disallow: /admin/

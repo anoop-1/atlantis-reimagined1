@@ -9,6 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { isCuratedCity } from '@/data/curated-cities';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 interface TrainingCity {
   name: string;
@@ -100,7 +101,8 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
             </div>
           </div>
         </main>
-        <ContactDetails />
+        <TrainingEnquiryCTA />
+      <ContactDetails />
       </div>
     );
   }

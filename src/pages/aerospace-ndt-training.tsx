@@ -8,6 +8,7 @@ import { CheckCircle, Award, GraduationCap, Plane, Factory, Gauge, Clock, Users 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 const courses = [
     { name: "Ultrasonic Testing (UT)", levels: "Level I, II, III", duration: "40-80 hours", focus: "Composite inspection, bonding" },
     { name: "Radiographic Testing (RT)", levels: "Level I, II, III", duration: "40-80 hours", focus: "Weld and casting inspection" },
@@ -157,7 +158,8 @@ export default function AerospaceNDTTraining() {
               }
         ]} />
 
-        <ContactDetails />
+        <TrainingEnquiryCTA />
+      <ContactDetails />
         </div>
     );
 }

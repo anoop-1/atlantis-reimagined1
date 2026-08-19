@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { MapPin, Award, CheckCircle, Factory } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 const URL = "https://atlantisndt.com/api-653-training-saudi-arabia";
 
@@ -196,6 +197,7 @@ export default function API653TrainingSaudiArabia() {
         </div>
       </section>
 
+      <TrainingEnquiryCTA />
       <ContactDetails />
     </div>
   );

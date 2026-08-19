@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle, Award, Zap, Factory, Gauge, Users } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 const courses = [
     { name: "Ultrasonic Testing (UT)", levels: "Level I, II, III", duration: "40-80 hours", focus: "Turbine blade, boiler tube inspection" },
@@ -118,7 +119,8 @@ export default function PowerGenerationNDTTraining() {
                 </div>
             </section>
 
-            <ContactDetails />
+            <TrainingEnquiryCTA />
+      <ContactDetails />
         </div>
     );
 }

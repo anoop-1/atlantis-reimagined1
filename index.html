@@ -51,7 +51,13 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://atlantisndt.com/atlantis.jpg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-96x96.jpg" />
+  <!-- Favicon fixed 2026-08-19: /favicon.ico still carried the Lovable template
+       icon, and Google's favicon crawler prefers the root ico over the link tag,
+       so search results showed the Lovable heart instead of the Atlantis trident.
+       The ico now wraps the trident PNG; the explicit links below cover browsers. -->
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="apple-touch-icon" href="/favicon-96x96.png" />
 
   <!-- CLS prevention + font display -->
   <style>

@@ -13215,6 +13215,38 @@ routes.push({
     '  </main>',
 });
 
+// ─── TRAINING ENQUIRY CTA 2026-08-19 ───────────────────────────────────────
+// Measured 90d to 2026-08-17: ms_form_click fired SIX times, all from
+// /training, against 535 ERP demo clicks — because the Microsoft Form (the
+// owner-designated lead channel) was deployed across ~1,000 ERP pages and only
+// a handful of training pages. US visitors were reading training pages at
+// 63-100% engagement and finding nothing to do. React templates now carry
+// TrainingEnquiryCTA; this pass covers the prerender-only training routes,
+// which have no React page at all. The URL is read from
+// src/lib/enquiry-endpoint.ts at build time so there is one source of truth.
+{
+  const epSrc = readFileSync(join(ROOT, 'src/lib/enquiry-endpoint.ts'), 'utf-8');
+  const mUrl = epSrc.match(/MS_FORM_URL\s*=\s*'([^']+)'/) || epSrc.match(/MS_FORM_URL\s*=[\r\n\s]*'([^']+)'/);
+  if (!mUrl) throw new Error('MS_FORM_URL not found in enquiry-endpoint.ts — the training CTA pass would emit a dead link');
+  const FORM_URL = mUrl[1];
+  const ctaHtml =
+    '\n<section data-cta="training-enquiry" aria-label="Training enquiry">' +
+    '<h2>Ask about NDT training dates and delivery</h2>' +
+    '<p>Tell us the methods and levels you need and how many technicians. We reply with available dates, the delivery options that fit, and what your written practice requires — usually the same working day.</p>' +
+    '<p><a href="' + FORM_URL + '" target="_blank" rel="noopener noreferrer">Request a quote / enrol</a>' +
+    ' · <a href="/corporate-ndt-training">Employer-sponsored cohorts</a>' +
+    ' · <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a></p></section>';
+  let added = 0;
+  for (const r of routes) {
+    if (!r || !r.path || !/training/.test(r.path)) continue;
+    if (typeof r.bodyContent !== 'string' || !r.bodyContent) continue;
+    if (/forms\.(cloud\.microsoft|office\.com)/.test(r.bodyContent)) continue;
+    r.bodyContent += ctaHtml;
+    added++;
+  }
+  console.log('Training CTA pass: ' + added + ' training routes given the enquiry CTA in static HTML');
+}
+
 // ─── CLUSTER INTERLINKING 2026-08-18 ───────────────────────────────────────
 // Head terms move as a by-product of a complete, densely interlinked cluster,
 // never as a first move. Runs after every route exists so the mesh can see the

@@ -16,6 +16,7 @@ import {
     ArrowRight
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 const courses = [
     {
@@ -270,7 +271,8 @@ export default function HyderabadTraining() {
                 </div>
             </section>
 
-            <ContactDetails />
+            <TrainingEnquiryCTA />
+      <ContactDetails />
         </div>
     );
 }

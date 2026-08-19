@@ -10,6 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { useMemo, useEffect } from "react";
 import { isCuratedCity } from '@/data/curated-cities';
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 // Color map for certification types
 const colorMap: Record<string, { bg: string; text: string; light: string; badge: string }> = {
@@ -799,7 +800,8 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                     className="mb-16"
                 >
                     <h2 className="text-3xl font-bold text-slate-900 mb-6">Get in Touch</h2>
-                    <ContactDetails />
+                    <TrainingEnquiryCTA />
+      <ContactDetails />
                 </motion.section>
             </div>
         </div>

@@ -8,6 +8,7 @@ import {
   Phone, ShieldCheck, BriefcaseBusiness, Award, Clock, MapPin,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import {
   Accordion, AccordionContent, AccordionItem, AccordionTrigger,
 } from "@/components/ui/accordion";
@@ -366,7 +367,8 @@ export default function CorporateNDTTraining() {
             </Card>
           </section>
         </div>
-        <ContactDetails />
+        <TrainingEnquiryCTA />
+      <ContactDetails />
       </main>
     </div>
   );

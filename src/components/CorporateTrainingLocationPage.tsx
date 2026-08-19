@@ -15,6 +15,7 @@ import {
 import type { CorporateTrainingCityProfile } from "@/data/corporate-training-seo";
 import { isCuratedCity } from "@/data/curated-cities";
 import { CONSULTING_CITY_SLUGS, TRAINING_CITY_SLUGS } from "@/data/city-profiles";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 interface Props {
   profile: CorporateTrainingCityProfile;
@@ -329,7 +330,8 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
             </Card>
           </section>
         </div>
-        <ContactDetails />
+        <TrainingEnquiryCTA />
+      <ContactDetails />
       </main>
     </div>
   );

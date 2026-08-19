@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { CheckCircle, Award, Clock, GraduationCap, MapPin, TrendingUp, Building2, DollarSign, Users, Briefcase, Plane } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 const courses = [
     {
@@ -615,7 +616,8 @@ export default function NDTTrainingUSA() {
                 </div>
             </section>
 
-            <ContactDetails />
+            <TrainingEnquiryCTA />
+      <ContactDetails />
         </div>
     );
 }

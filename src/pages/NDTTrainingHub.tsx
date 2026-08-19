@@ -5,6 +5,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Award, CheckCircle, Clock, DollarSign, Globe, GraduationCap, Users } from "lucide-react";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 const faqs = [
   {
@@ -476,6 +477,7 @@ export default function NDTTrainingHub() {
         </div>
       </section>
 
+      <TrainingEnquiryCTA />
       <ContactDetails />
     </div>
   );

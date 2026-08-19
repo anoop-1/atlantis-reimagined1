@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Award, Monitor, Building2, ArrowRight, Briefcase, Globe } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 
 /**
  * /ndt-level-2-training — candidate-facing "how do I get NDT / ASNT Level II
@@ -340,6 +341,7 @@ export default function NdtLevel2Training() {
         { title: "NDT Training Near Me", href: "/ndt-training-near-me", description: "Find delivery options across the US", icon: "training" },
       ]} />
 
+      <TrainingEnquiryCTA />
       <ContactDetails />
     </div>
   );
