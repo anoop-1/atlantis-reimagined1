@@ -3160,6 +3160,15 @@ const App = () => (
                   <Route path="/pt-level-2-training" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/vt-level-1-training" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/vt-level-2-training" element={<LazyRoute Component={DepthPage} />} />
+                  {/* US industrial-corridor regions, 2026-08-19. Demand-mapped:
+                      Pacific NW = Seattle aerospace (114 measured impressions),
+                      Great Lakes = Detroit manufacturing (UT detroit at 112i). */}
+                  <Route path="/ndt-training-pacific-northwest" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ndt-training-southern-california" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ndt-training-permian-basin" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ndt-training-great-lakes" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ndt-training-mid-atlantic" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ndt-training-appalachia" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />
