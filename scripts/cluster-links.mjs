@@ -167,6 +167,33 @@ export const CLUSTERS = {
       { path: '/et-level-2-training', anchor: 'ET Level II and aerospace demand' },
     ],
   },
+  // ── US training regions, extended 2026-08-19 ───────────────────────────────
+  // 8 regions existed; 6 more added on industrial-corridor logic (Pacific NW =
+  // Seattle aerospace with 114 measured impressions; Great Lakes = Detroit
+  // manufacturing where ultrasonic-testing-detroit already carries 112i).
+  // Hubbed on /training-usa — the region buyer is a US employer, and the local
+  // pack is unreachable, so regions answer the delivery question.
+  trainingRegions: {
+    hub: { path: '/training-usa', anchor: 'NDT training across the US' },
+    label: 'US training by region',
+    members: [
+      { path: '/ndt-training-gulf-coast', anchor: 'Gulf Coast refining corridor' },
+      { path: '/ndt-training-pacific-northwest', anchor: 'Pacific Northwest aerospace' },
+      { path: '/ndt-training-great-lakes', anchor: 'Great Lakes manufacturing' },
+      { path: '/ndt-training-mid-atlantic', anchor: 'Mid-Atlantic shipbuilding and refining' },
+      { path: '/ndt-training-permian-basin', anchor: 'Permian Basin oilfield' },
+      { path: '/ndt-training-appalachia', anchor: 'Appalachia gas and pipeline' },
+      { path: '/ndt-training-southern-california', anchor: 'Southern California aerospace and ports' },
+      { path: '/ndt-training-southeast', anchor: 'Southeast industrial corridor' },
+      { path: '/ndt-training-northeast', anchor: 'Northeast' },
+      { path: '/ndt-training-midwest', anchor: 'Midwest' },
+      { path: '/ndt-training-west-coast', anchor: 'West Coast' },
+      { path: '/ndt-training-rockies-plains', anchor: 'Rockies and Plains' },
+      { path: '/ndt-training-texas-inland', anchor: 'Texas inland' },
+      { path: '/ndt-training-canada', anchor: 'Canada' },
+    ],
+  },
+
   trainingIndustries: {
     // Hubbed on the corporate page rather than /training: the industry buyer is
     // an employer sponsoring a cohort, and that is the page built for them.
