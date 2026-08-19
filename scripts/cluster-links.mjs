@@ -137,6 +137,36 @@ export const CLUSTERS = {
       { path: '/eddy-current-testing-training', anchor: 'eddy current testing training' },
     ],
   },
+  // ── Method x level matrix, added 2026-08-19 ────────────────────────────────
+  // Two clusters rather than one twelve-link block: a Level I candidate and a
+  // Level II candidate are different readers at different career points, and a
+  // combined block would bury both. Hubbed on the corresponding level page so
+  // the matrix feeds the pages that already rank ("/ndt-level-2-training" holds
+  // position 7.3).
+  methodLevel1: {
+    hub: { path: '/ndt-level-1-training', anchor: 'NDT Level I training' },
+    label: 'Level I training by method',
+    members: [
+      { path: '/ut-level-1-training', anchor: 'UT Level I requirements and hours' },
+      { path: '/rt-level-1-training', anchor: 'RT Level I and the radiation safety track' },
+      { path: '/mt-level-1-training', anchor: 'MT Level I requirements' },
+      { path: '/pt-level-1-training', anchor: 'PT Level I requirements' },
+      { path: '/vt-level-1-training', anchor: 'VT Level I requirements' },
+      { path: '/et-level-1-training', anchor: 'ET Level I requirements' },
+    ],
+  },
+  methodLevel2: {
+    hub: { path: '/ndt-level-2-training', anchor: 'NDT Level II training' },
+    label: 'Level II training by method',
+    members: [
+      { path: '/ut-level-2-training', anchor: 'UT Level II interpretation authority' },
+      { path: '/rt-level-2-training', anchor: 'RT Level II film interpretation' },
+      { path: '/mt-level-2-training', anchor: 'MT Level II and AWS D1.1 work' },
+      { path: '/pt-level-2-training', anchor: 'PT Level II and ASME Article 6' },
+      { path: '/vt-level-2-training', anchor: 'VT Level II, the contractual minimum' },
+      { path: '/et-level-2-training', anchor: 'ET Level II and aerospace demand' },
+    ],
+  },
   trainingIndustries: {
     // Hubbed on the corporate page rather than /training: the industry buyer is
     // an employer sponsoring a cohort, and that is the page built for them.

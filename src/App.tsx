@@ -3145,6 +3145,21 @@ const App = () => (
                   <Route path="/consulting/oil-gas-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/petrochemical-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/energy-utilities-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  {/* Method x level matrix, 2026-08-19. The intersection the site
+                      lacked: national pages existed per method and per level, but
+                      "ut level 2 training" style queries had no page to land on. */}
+                  <Route path="/ut-level-1-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/ut-level-2-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/rt-level-1-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/rt-level-2-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/et-level-1-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/et-level-2-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/mt-level-1-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/mt-level-2-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/pt-level-1-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/pt-level-2-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/vt-level-1-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/vt-level-2-training" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />
