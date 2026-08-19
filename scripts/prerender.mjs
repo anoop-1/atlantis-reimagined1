@@ -13215,6 +13215,19 @@ routes.push({
     '  </main>',
 });
 
+// ─── T4 FAMILY CITATION LAYERS 2026-08-19 ──────────────────────────────────
+// Line B of the 2,000-page upgrade: per-city citation layers rendered from the
+// researched data in training-cities.ts (real employers, salary bands, cert
+// mix, exam centres). Cities whose profile lacks the mandated research are
+// SKIPPED rather than padded — a thin layer is worse than none. Runs before
+// the CTA and cluster passes so those see the final body.
+{
+  const { applyFamilyCitationLayers } = await import('./family-citation-layers.mjs');
+  const t4 = await applyFamilyCitationLayers(routes);
+  console.log(`T4 city citation layers: ${t4.applied} applied · ${t4.skippedThin} skipped (research missing) · ${t4.alreadyLayered} already layered`);
+  globalThis.__T4_ANSWERS = t4.answers; // consumed by the --audit path in family-audit.mjs
+}
+
 // ─── TRAINING ENQUIRY CTA 2026-08-19 ───────────────────────────────────────
 // Measured 90d to 2026-08-17: ms_form_click fired SIX times, all from
 // /training, against 535 ERP demo clicks — because the Microsoft Form (the

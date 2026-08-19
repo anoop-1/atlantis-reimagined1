@@ -25,8 +25,8 @@
  *   node scripts/submit-citation-batch.mjs --check     verify readiness only
  *   node scripts/submit-citation-batch.mjs             verify, then submit
  */
-import { readFileSync, existsSync } from 'fs';
-import { join, dirname } from 'path';
+import { readFileSync, existsSync, readdirSync, statSync } from 'fs';
+import { join, dirname, relative } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -52,6 +52,24 @@ function targets() {
     for (const m of src.matchAll(/"path":\s*"(\/[^"]+)"/g)) add(m[1]);
   }
   add('/authors/anoop-rayavarapu');
+
+  // T4+ family layers: any built page carrying a citation answer block is a
+  // submission target. Scanning dist keeps this in step with every family pass
+  // automatically instead of hand-listing routes per tranche.
+  const distDir = join(__dirname, '..', 'dist');
+  if (existsSync(distDir)) {
+    const walk = (d) => {
+      for (const n of readdirSync(d)) {
+        const q = join(d, n);
+        if (statSync(q).isDirectory()) walk(q);
+        else if (n === 'index.html' && readFileSync(q, 'utf-8').includes('data-citation-block="answer"')) {
+          const r = '/' + relative(distDir, d).split('\\').join('/');
+          add(r === '/.' ? '/' : r);
+        }
+      }
+    };
+    walk(distDir);
+  }
   return [...out].sort();
 }
 
