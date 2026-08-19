@@ -30,6 +30,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { sanitiseDeep } from './sanitise-content.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
@@ -107,6 +108,14 @@ const layers = Array.isArray(raw)
   ? raw.flatMap((x) => (x && x.layers ? x.layers : x)).filter(Boolean)
   : raw.layers || [];
 
+// Agents reach for Markdown out of habit, and every field here is HTML-escaped
+// before it reaches the page, so a Markdown link would render as literal syntax.
+// Normalised BEFORE validation so the word counts that gate the citation band are
+// measured on the text a reader actually sees.
+{
+  const _n = sanitiseDeep(layers);
+  if (_n) console.log(`  normalised ${_n} field(s) containing Markdown`);
+}
 console.log(`\nValidating ${layers.length} citation layer(s) from ${IN}\n`);
 
 const accepted = [];

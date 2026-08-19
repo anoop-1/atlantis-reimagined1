@@ -87,6 +87,28 @@ export const CLUSTERS = {
       { path: '/erp/ndt-inspection-software-comparison', anchor: 'NDT inspection software compared' },
     ],
   },
+  // ── Consulting by industry, added 2026-08-19 ──────────────────────────────
+  // Separate from the main consulting cluster because the buyer arrives with a
+  // sector-specific audit problem — a Nadcap assessor, a PSM audit, a class
+  // surveyor — rather than a generic "we need a Level III" need. Hubbed on the
+  // Level III consulting page, which is the strongest earner in the family
+  // (223 impressions against 0-114 for any actual city page).
+  consultingIndustries: {
+    hub: { path: '/consulting/ndt-consulting-level-iii', anchor: 'outsourced ASNT Level III consulting' },
+    label: 'NDT consulting by industry',
+    members: [
+      { path: '/consulting/oil-gas-ndt-consulting', anchor: 'oil and gas NDT consulting' },
+      { path: '/consulting/petrochemical-ndt-consulting', anchor: 'petrochemical NDT consulting and PSM records' },
+      { path: '/consulting/energy-utilities-ndt-consulting', anchor: 'energy and utilities NDT consulting' },
+      { path: '/consulting/nuclear-ndt-consulting', anchor: 'nuclear NDT consulting and ASME Section XI' },
+      { path: '/consulting/aerospace-ndt-consulting', anchor: 'aerospace NDT consulting and NAS 410' },
+      { path: '/consulting/aviation-ndt-consulting', anchor: 'aviation MRO NDT consulting' },
+      { path: '/consulting/maritime-ndt-consulting', anchor: 'maritime NDT consulting and class survey' },
+      { path: '/consulting/offshore-ndt-consulting', anchor: 'offshore NDT consulting' },
+      { path: '/consulting/nadcap-ac7114-audit-readiness', anchor: 'Nadcap AC7114 audit readiness' },
+    ],
+  },
+
   // ── Training tree, added 2026-08-18 ────────────────────────────────────────
   // Split into three clusters rather than one, because the buyers differ. A
   // candidate choosing a level is not the employer choosing an industry cohort,

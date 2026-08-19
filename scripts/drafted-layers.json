@@ -7968,5 +7968,1265 @@
         "a": "The written practice or certification scheme document, each technician's certificate with its expiry date, training hours and content, documented experience in the method, graded examination papers, a current vision test, and the Level III's credentials. Where radiography is in scope, the FANR licence, individual radiation worker registrations and dosimetry records for the period are requested alongside."
       }
     ]
+  },
+  {
+    "route": "/glossary/ultrasonic-testing",
+    "answer": "Specify UT when the flaw is buried and orientation is known well enough to aim a beam at it. Straight beam finds laminations and remaining wall; angle-beam shear finds weld flaws a straight beam never reaches. UT is blind to planar flaws lying parallel to the beam, so ASME Section V Article 4 fixes calibration on a reference reflector rather than promising a flaw size.",
+    "expansion": "In US pressure work the stack runs: ASME BPVC Section V Article 4 sets how a weld is ultrasonically examined and Article 5 sets thickness measurement, while the construction code — ASME Section VIII Division 1, ASME B31.3, or API 1104 — sets what is acceptable in the result. API 570 and API 653 then convert the thickness data into corrosion rate and remaining life, which is where a UT number actually reaches a decision. Sensitivity is not a property of the instrument. It is set on a calibration block against a reference reflector — a side-drilled hole, a flat-bottom hole, a notch — and then transfer-corrected for the difference between block surface and component surface. Velocity is the other lever: it changes with material and with temperature, so a reading taken hot and calibrated cold carries an error larger than the decimal places on the display. Personnel qualify under ASNT SNT-TC-1A or ISO 9712.",
+    "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 4 — Ultrasonic Examination Methods for Welds (2023 Edition); Article 5 — Ultrasonic Examination Methods for Materials. Personnel qualification: ASNT SNT-TC-1A (2020) and ISO 9712:2021.",
+    "table": {
+      "caption": "Ultrasonic technique selected by flaw type — what each resolves and what it will not",
+      "columns": [
+        "Technique",
+        "Beam and setup",
+        "Detects well",
+        "Will not detect",
+        "Where specified"
+      ],
+      "rows": [
+        [
+          "Straight beam (0° longitudinal)",
+          "Normal incidence, single or dual element",
+          "Laminations, remaining wall, plate inclusions, bond-line disbond",
+          "Weld flaws lying on a bevel face; anything inside the dead zone",
+          "ASME V Art. 5; ASTM A435 and ASTM A578 for plate"
+        ],
+        [
+          "Angle-beam shear (45/60/70°)",
+          "Wedge-mounted, half-skip and full-skip paths",
+          "Fusion-face flaws, root and toe cracking in welds",
+          "Flaws lying parallel to the beam path; sizing beyond amplitude comparison",
+          "ASME V Art. 4; AWS D1.1; ISO 17640"
+        ],
+        [
+          "Phased array (PAUT)",
+          "Multi-element aperture, electronic sweep and focus",
+          "The same weld flaws with sectorial coverage and encoded position",
+          "Anything outside the swept aperture; coarse austenitic weld metal",
+          "ASME V Art. 4; ISO 13588"
+        ],
+        [
+          "TOFD",
+          "Transmit-receive pair reading diffraction, not reflection",
+          "Through-wall height of embedded flaws and crack growth between outages",
+          "Near-surface lateral-wave dead zone and the back-wall dead zone",
+          "ASME V Art. 4; ISO 10863; ISO 15626 for acceptance"
+        ],
+        [
+          "Thickness gauging",
+          "Dual-element or delay-line probe in corrosion mode",
+          "Remaining wall under coating and general metal loss at fixed CMLs",
+          "Isolated pitting falling between grid points; flaw discrimination",
+          "ASME V Art. 5; API 570; API 653"
+        ],
+        [
+          "Immersion and automated UT",
+          "Water-path coupling with encoded scanning",
+          "Repeatable full-body coverage on machined parts and pipeline girth welds",
+          "Complex geometry that breaks the water column or the encoder path",
+          "ASTM E2375; API 1104 automated UT provisions"
+        ]
+      ],
+      "note": "Acceptance criteria are not in these examination standards. ASME Section VIII Division 1, ASME B31.3, AWS D1.1 and API 1104 each publish their own, so identical A-scan data passes under one construction code and fails under another."
+    },
+    "facets": [
+      {
+        "q": "Does UT or RT get specified for a thick-section pressure vessel weld in the US?",
+        "a": "Both, for different flaw families. ASME Section VIII Division 1 permits ultrasonic examination in place of radiography for welds above defined thicknesses, and Section V Article 4 governs how that UT is performed. RT images volumetric flaws and leaves a re-readable record; UT catches the planar lack of fusion that RT misses on a bevel face. Critical thick-section welds get both."
+      },
+      {
+        "q": "Why does the same weld measure a different thickness on two shifts?",
+        "a": "Four causes account for nearly all of it: couplant film thickness, surface condition and scale, probe pressure on a dual-element probe, and calibration against the wrong velocity. Temperature adds a fifth, since sound velocity in steel falls as the metal heats. A procedure that fixes all five, and requires calibration re-verification during the shift rather than only at its start, removes the spread."
+      },
+      {
+        "q": "What does UT sensitivity actually mean on an inspection report?",
+        "a": "It means the reference reflector the instrument was calibrated against, not a flaw size. A report that names the side-drilled hole or notch, the depth it sat at, the gain set on it, and the transfer correction applied states exactly what the examination could resolve. A report omitting them states nothing. ASME Section V Article 4 and ISO 17640 both build sensitivity outward from the reference block."
+      },
+      {
+        "q": "Which materials defeat ultrasonic testing?",
+        "a": "Coarse-grained and anisotropic structures. Austenitic stainless weld metal, nickel alloy welds, centrifugally cast stainless and some heavy castings scatter and steer the beam until the noise floor swallows the signal. Low-frequency, dual-matrix or transmit-receive longitudinal probes recover part of it. Where they do not, radiography or a surface method carries the examination instead."
+      },
+      {
+        "q": "Do UT thickness readings satisfy API 570 and API 653 on their own?",
+        "a": "Only with the surrounding record. API 570 and API 653 use thickness data to compute corrosion rate and remaining life, which requires the same condition monitoring location measured the same way at each interval, instrument calibration traceable, and the inspector qualified. A number without the location, the datum and the calibration history cannot support a next-inspection interval."
+      },
+      {
+        "q": "How does an inspector qualify to run UT in the United States?",
+        "a": "Employer-based certification under ASNT SNT-TC-1A, written into the employer's written practice, is the dominant US route: the employer trains, examines and certifies to Level I, II or III. ASNT's own Level III examination provides third-party assessment on top of it. Europe and much of Asia run ISO 9712 central certification instead, which is not automatically interchangeable."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/eddy-current-testing",
+    "answer": "Choose eddy current when the flaw is at or near the surface, the material conducts, and couplant is unavailable. Penetration falls exponentially with depth, so the depth of interest sets frequency before anything else is decided. On carbon steel, permeability variation swamps flaw signals unless the material is magnetically saturated — which is why ASME Section V Article 8 is written around tubular products.",
+    "expansion": "Standard depth of penetration is 1/√(πfμσ): raise frequency, conductivity or permeability and the currents crowd into a thinner skin. That single relation drives every setup decision. High frequency resolves fine surface cracking and loses depth; low frequency reaches further into the wall and blurs small indications. Phase, not amplitude, carries depth information, which is why the instrument is nulled on sound material and phase-rotated on a reference standard with machined artificial defects until lift-off runs along a known axis and flaw signals depart from it. In US heat-exchanger work the stack is ASME Section V Article 8 for the examination, ASTM E2884 for installed tubing, ASTM E309 where magnetic saturation is required on steel tubes, and ASTM E571 for nickel alloys. ISO 15549 states general principles and the ISO 15548 series covers instrument and probe verification. Acceptance — plug or leave — belongs to the owner's programme, not to the examination standard.",
+    "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 8 — Eddy Current Examination (2023 Edition); ASTM E2884 Standard Guide for Eddy Current Testing of Installed Heat Exchanger Tubing; ISO 15549 Non-destructive testing — Eddy current testing — General principles.",
+    "table": {
+      "caption": "Eddy current probe selected by geometry — what it resolves, what it is blind to, and where it is specified",
+      "columns": [
+        "Probe or technique",
+        "Geometry it fits",
+        "Resolves",
+        "Blind to",
+        "Where specified"
+      ],
+      "rows": [
+        [
+          "Bobbin coil, differential and absolute",
+          "Heat-exchanger and condenser tubing with ID access",
+          "Volumetric wall loss, pitting and general thinning at full production speed",
+          "Circumferential cracking; flaws under support plates and in the U-bend without extra channels",
+          "ASME V Art. 8; ASTM E2884"
+        ],
+        [
+          "Rotating pancake or motorised probe",
+          "The same tubing, as targeted follow-up on flagged tubes",
+          "Crack orientation and circumferential defects the bobbin cannot resolve",
+          "Nothing the bobbin catches at speed — inspection rate drops by an order",
+          "ASME V Art. 8; ASTM E2884"
+        ],
+        [
+          "Eddy current array (ECA)",
+          "Welds, plate, tube sheets and complex surfaces",
+          "Surface cracking with encoded C-scan coverage in a single pass",
+          "Flaws beyond the standard depth of penetration at the frequency chosen",
+          "ASTM E3052; ISO 20339; ISO 17643 for welds"
+        ],
+        [
+          "Surface or pencil coil",
+          "Local weld toes, machined radii, spot checks",
+          "Fine surface-breaking cracks, weld toe cracking through paint",
+          "Anything requiring area coverage — it inspects only where it is placed",
+          "ISO 17643; ASTM E3052"
+        ],
+        [
+          "Encircling coil",
+          "Bar, wire and tube moving through a production line",
+          "Continuous in-line flaw and dimensional sorting at line speed",
+          "Circumferential location of the flaw; end effects at bar and tube ends",
+          "ASTM E426; ASTM E309"
+        ],
+        [
+          "Bolt-hole rotating probe",
+          "Fastener holes in aerospace structure",
+          "Cracks radiating from the hole bore, resolved layer by layer",
+          "Cracks in lower layers without disassembly or low-frequency ET",
+          "OEM NDT manual; NAS 410 personnel qualification"
+        ],
+        [
+          "Magnetic saturation ET",
+          "Ferromagnetic and duplex tubing",
+          "Wall loss once permeability noise is suppressed by a saturating DC field",
+          "Flaws still masked by residual permeability variation; deep ID defects",
+          "ASTM E309"
+        ]
+      ],
+      "note": "Eddy current is a near-surface method in every configuration listed. Where the flaw sits deep in the wall of a ferromagnetic component, magnetic flux leakage, remote-field testing or ultrasonics carry the examination instead."
+    },
+    "facets": [
+      {
+        "q": "Which eddy current probe should a US refinery specify for heat-exchanger tubes?",
+        "a": "Bobbin first, rotating probe or array second. A bobbin differential coil covers a full bundle at production speed and finds volumetric wall loss and pitting. It reads circumferential cracking poorly, so the accepted programme runs bobbin across the whole bundle and follows up flagged tubes with a rotating pancake or array probe. ASTM E2884 describes both stages for installed tubing."
+      },
+      {
+        "q": "Can eddy current inspect carbon steel piping?",
+        "a": "Not usefully in the plain configuration. Permeability variation in ferromagnetic steel produces impedance swings larger than most flaw signals. Magnetic saturation probes suppress it on tubing, and ASTM E309 covers that case. For plant piping the working answers are magnetic flux leakage for wall loss, pulsed eddy current through insulation, and ACFM or magnetic particle for surface cracking."
+      },
+      {
+        "q": "What is standard depth of penetration and why does it decide frequency?",
+        "a": "It is the depth at which eddy current density falls to about 37 percent of its surface value, given by 1/√(πfμσ). Frequency is the only term the inspector controls. Doubling frequency shrinks the skin by about 30 percent and sharpens small surface cracks; halving it reaches deeper and blurs them. Frequency selection is therefore a statement about the depth of interest."
+      },
+      {
+        "q": "Does coating have to be stripped before eddy current examination?",
+        "a": "No, when the coating is non-conductive, reasonably uniform, and accounted for during setup. It adds lift-off, which phase rotation on the reference standard separates from flaw signals. Thick or irregular coatings cost sensitivity because the coil sits further from the currents it is trying to induce. Past that point stripping is the honest option, not a preference."
+      },
+      {
+        "q": "How is eddy current data on a tube bundle turned into a plug decision?",
+        "a": "By the owner's plugging criterion, not by the examination standard. ASME Section V Article 8 and ASTM E2884 say how to acquire and calibrate the data. The percentage through-wall at which a tube gets plugged comes from the exchanger's design margin, the service and the owner's integrity programme. Nuclear steam generator tubing is the exception, where ASME Section XI and plant technical specifications set it."
+      },
+      {
+        "q": "What separates lift-off from a real flaw on the impedance plane?",
+        "a": "The angle. On a reference standard with machined artificial defects, lift-off traces a repeatable direction and flaw signals depart from it at a phase angle that shifts with depth. Setup rotates the display so lift-off runs along a known axis. Phasing it out too aggressively takes shallow flaw signals with it, which is the most common way an examination quietly under-reports."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/radiographic-testing",
+    "answer": "Radiography earns its place when the flaw is volumetric and the owner needs a re-readable permanent image. Source selection comes first: X-ray tube for thin section and best contrast, Ir-192 where power and access are unavailable, Co-60 for heavy wall. Tight planar flaws lying across the beam escape it, which is why ultrasonics is specified alongside radiography on critical thick-section welds rather than instead of it.",
+    "expansion": "US radiography sits on two separate legal stacks and one technical one. Radiation safety runs through NRC 10 CFR Part 34 for industrial radiography licences, equipment and radiographer certification, and 10 CFR Part 20 for dose limits and area control — with Agreement States enforcing equivalent rules of their own. The technical stack is ASME Boiler and Pressure Vessel Code Section V Article 2, which sets technique, image quality indicator selection and placement, and density or grey-level requirements. Acceptance is somewhere else again: ASME Section VIII Division 1, ASME B31.3, AWS D1.1 and API 1104 each publish their own criteria, so one radiograph passes under one construction code and fails under another. The IQI is the load-bearing element. It is placed on the source side wherever access permits, and if its designated hole or wire is not visible the image has failed to demonstrate its own sensitivity — no interpretation drawn from it stands.",
+    "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 2 — Radiographic Examination (2023 Edition); IQI design per ASTM E1025 (hole type) and ASTM E747 (wire type). US radiation safety: 10 CFR Part 34 and 10 CFR Part 20 (NRC), or the equivalent Agreement State regulation.",
+    "table": {
+      "caption": "Radiation source selected by section thickness and access — decay, energy, and what rules each one out",
+      "columns": [
+        "Source",
+        "Half-life",
+        "Photon energy character",
+        "Chosen when",
+        "Constraint that rules it out"
+      ],
+      "rows": [
+        [
+          "X-ray tube",
+          "Not applicable — switches off",
+          "Continuous bremsstrahlung spectrum, kilovoltage set by the operator",
+          "Thin to medium section, shop conditions, best contrast and image quality",
+          "Needs power and cable access; head size defeats confined geometry"
+        ],
+        [
+          "Ir-192",
+          "73.8 days",
+          "Gamma lines centred near 0.3–0.6 MeV",
+          "Field girth welds, medium to heavy wall, no power at the shot",
+          "Lower contrast than X-ray on thin section; exposures lengthen as the source decays"
+        ],
+        [
+          "Co-60",
+          "5.27 years",
+          "Two gamma lines at 1.17 and 1.33 MeV",
+          "Heavy wall where Ir-192 cannot penetrate in a workable exposure",
+          "Large shielding mass and exclusion boundary; poor contrast on thin section"
+        ],
+        [
+          "Se-75",
+          "120 days",
+          "Softer gamma spectrum than Ir-192",
+          "Thin to medium steel where a smaller exclusion zone is wanted",
+          "Insufficient penetration for heavy wall"
+        ],
+        [
+          "Yb-169",
+          "32 days",
+          "Low-energy gamma, close to X-ray character",
+          "Thin-wall small-bore pipe and light alloys",
+          "Very limited penetration and a short useful source life"
+        ],
+        [
+          "Linear accelerator",
+          "Not applicable — switches off",
+          "Megavoltage bremsstrahlung",
+          "Very heavy castings and sections beyond isotope range",
+          "Fixed installation; capital cost and permanent shielding"
+        ]
+      ],
+      "note": "Half-life governs the exposure schedule, not the image. A source late in its useful life produces the same radiograph with a longer exposure, until that exposure exceeds what the site controls allow — which is when the source is replaced."
+    },
+    "facets": [
+      {
+        "q": "Why does the same radiograph pass one code and fail another?",
+        "a": "Because the examination standard and the acceptance standard are different documents. ASME Section V Article 2 says how to make the radiograph — technique, IQI, density. ASME Section VIII Division 1, ASME B31.3, AWS D1.1 and API 1104 each set what may remain in it. API 1104 in particular judges pipeline girth welds against criteria written for that service, not for pressure vessels."
+      },
+      {
+        "q": "What does an invisible IQI hole actually mean?",
+        "a": "That the radiograph is void, not marginal. The image quality indicator is the only evidence in the frame that the required sensitivity was achieved. If the designated hole or wire cannot be seen, the technique did not deliver, and every call made from that image — accept or reject — is unsupported. The shot is retaken with corrected technique, not argued."
+      },
+      {
+        "q": "Does radiography or ultrasonics find lack of fusion in a bevel weld?",
+        "a": "Ultrasonics, by a wide margin. Lack of fusion on a bevel face presents a fraction of a millimetre of missing material along the radiation path and produces almost no density change. Angle-beam shear waves strike that same face near normal incidence and reflect strongly. This is why ASME Section VIII Division 1 allows ultrasonic examination in place of radiography on thick sections."
+      },
+      {
+        "q": "Who is legally allowed to shoot industrial radiography in the United States?",
+        "a": "A radiographer certified under a programme meeting NRC requirements in 10 CFR Part 34, working for an entity holding a specific licence for industrial radiography, or the Agreement State equivalent. Certifying entities assess against ANSI/ASNT CP-189. Method-level NDT qualification under SNT-TC-1A is a separate matter and does not by itself confer legal authority to operate a source."
+      },
+      {
+        "q": "Which is right for a field pipeline girth weld — Ir-192 or a crawler X-ray?",
+        "a": "Crawler where the line is large enough to take it and the schedule rewards a panoramic single-wall shot: one exposure images the whole circumference at good contrast. Ir-192 double-wall where diameter, terrain or the absence of power rules the crawler out. API 1104 accepts both and applies its own acceptance criteria to the resulting image."
+      },
+      {
+        "q": "How long must radiographs be retained?",
+        "a": "By the construction code and the owner's contract, not by a universal rule. ASME work retains examination records inside the manufacturer's data report package; pipeline and plant owners set retention in their integrity programme. The practical answer is the life of the asset, because a girth weld questioned twenty years on is defended with the original image and the technique sheet that produced it."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/half-value-layer-hvl",
+    "answer": "HVL is the unit shielding gets designed in, and it is valid only for the energy and material it was quoted for. Ir-192 and Co-60 differ by more than a factor of two in lead, so a barrier sized on the wrong isotope is wrong, not conservative. Convert by counting halvings: n = log₂(I₀/I), and one tenth-value layer equals 3.3 half-value layers.",
+    "expansion": "Two properties make HVL the working unit rather than a curiosity. Attenuation is exponential, so halvings stack multiplicatively: ten HVLs leave about one part in a thousand and twenty leave one in a million. And because it is defined by ratio, it converts cleanly to the tenth-value layer used in barrier tables — one TVL is 3.32 HVL, because log₂10 is 3.32. The trap is that HVL is not a property of the shield alone. It is a property of the shield and the beam together. A polychromatic X-ray beam hardens as it passes through absorber, so the first HVL is thinner than the second, and a first-HVL figure applied to a thick barrier under-sizes it. Sealed-source gamma beams sit close enough to monoenergetic that a single figure holds throughout. In US industrial radiography the number HVL has to satisfy comes from 10 CFR Part 20, which caps dose in unrestricted areas at 2 mrem in any one hour.",
+    "source": "IAEA Safety Standards Series No. SSG-11, Radiation Safety in Industrial Radiography (2011); NCRP Report No. 49 for barrier calculation method; dose limits and area classification from 10 CFR Part 20 (NRC) or the equivalent Agreement State regulation.",
+    "table": {
+      "caption": "Barrier thickness by required reduction — Ir-192 in three shielding materials, derived from its half-value layers",
+      "columns": [
+        "Reduction required",
+        "Half-value layers",
+        "Lead (HVL 4.8 mm)",
+        "Steel (HVL 13 mm)",
+        "Concrete (HVL 44 mm)"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "1",
+          "4.8 mm",
+          "13 mm",
+          "44 mm"
+        ],
+        [
+          "1/10 — one tenth-value layer",
+          "3.3",
+          "16 mm",
+          "43 mm",
+          "145 mm"
+        ],
+        [
+          "1/100",
+          "6.6",
+          "32 mm",
+          "86 mm",
+          "290 mm"
+        ],
+        [
+          "1/1,000",
+          "10",
+          "48 mm",
+          "130 mm",
+          "440 mm"
+        ],
+        [
+          "1/10,000",
+          "13.3",
+          "64 mm",
+          "173 mm",
+          "585 mm"
+        ],
+        [
+          "1/100,000",
+          "16.6",
+          "80 mm",
+          "216 mm",
+          "730 mm"
+        ],
+        [
+          "1/1,000,000",
+          "19.9",
+          "96 mm",
+          "259 mm",
+          "876 mm"
+        ]
+      ],
+      "note": "These are narrow-beam figures. A real barrier also sees scattered radiation, so broad-beam buildup adds thickness beyond the arithmetic — an HVL count is a floor, not a finished design. Co-60 needs roughly 2.6 times the lead of Ir-192 for the same reduction. Take every HVL from the reference that applies to the source and material actually in use."
+    },
+    "facets": [
+      {
+        "q": "How many half-value layers does a radiography barrier need?",
+        "a": "Count backwards from the dose limit. 10 CFR Part 20 caps unrestricted-area dose at 2 mrem in any one hour, so divide the unshielded dose rate at the boundary by that limit, take log base 2 of the ratio, and that is the HVL count. Multiply by the HVL for the source and material in use, then add margin for scatter buildup."
+      },
+      {
+        "q": "Why is half-value layer different for X-rays than for a gamma source?",
+        "a": "An X-ray tube emits a continuous spectrum. Low-energy photons are absorbed first, so the beam emerging from the shield is harder than the one that entered and the second HVL exceeds the first. A sealed gamma source emits discrete lines close enough to monoenergetic that one HVL figure holds throughout the shield. First-HVL figures under-size thick X-ray barriers."
+      },
+      {
+        "q": "How does half-value layer relate to tenth-value layer?",
+        "a": "One TVL equals 3.32 HVL, because reducing intensity to a tenth takes log₂10 halvings. Barrier tables publish TVL because industrial radiography barriers routinely span four or five orders of magnitude, and counting in TVLs keeps the numbers small. The two are interchangeable inside the same calculation as long as source energy and shield material stay fixed."
+      },
+      {
+        "q": "Does distance or shielding cut dose faster on a radiography site?",
+        "a": "Distance, and it costs nothing. Intensity falls as the inverse square, so doubling the distance quarters the dose — equivalent to two half-value layers of shielding with no material at all. Site controls exploit this first by setting a barrier distance, then add collimation and shielding where geometry, adjacent work or the property line stops the distance from growing."
+      },
+      {
+        "q": "Can existing plant steel be counted as shielding?",
+        "a": "Yes, when the geometry is documented and the result surveyed. A vessel wall, pipe rack or concrete deck between source and boundary attenuates by its own HVL count. What makes it legitimate is a survey confirming the calculated dose rate at the boundary before the exposure, not the calculation alone. Scatter around the obstruction routinely dominates what passes straight through it."
+      },
+      {
+        "q": "Which HVL figure applies to a Se-75 source?",
+        "a": "Its own, and it is substantially thinner than Ir-192 in every material because the Se-75 spectrum is softer. Reading an Ir-192 table for a Se-75 shot over-sizes the barrier, which is safe but wasteful; reading a Se-75 table for an Ir-192 shot under-sizes it, which is not. Take the figure from the source certificate or the applicable IAEA or NCRP table."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/digital-radiography-dr",
+    "answer": "DR changes the record, the throughput and the audit exposure — not the physics. It finds the same volumetric flaws as film and misses the same tight planar ones. The decision that matters is qualification: a digital detector's basic spatial resolution and signal-to-noise ratio must be measured and re-verified, and the processing applied to an image must be recorded, because a digital image can be adjusted in ways film cannot.",
+    "expansion": "Film density substitutes for two things at once: it proves the exposure landed in the usable range and it fixes the image permanently. Digital splits those jobs. Basic spatial resolution, measured with a duplex wire image quality indicator under ASTM E2002, replaces geometric unsharpness as the resolution statement. Normalised signal-to-noise ratio replaces density as the exposure-adequacy statement. Detector qualification and long-term stability run under ASTM E2597 and ASTM E2737, with ASTM E2698 covering the practice of examining with a digital detector array and ASTM E2736 the general guidance. ISO 17636-2 is the weld equivalent outside the US. Archiving is the third job film did for free: DICONDE, standardised in ASTM E2339, keeps the image bound to the technique, the detector calibration and the bad-pixel map that produced it. An unprocessed original retained alongside the reviewed image is what makes a DR result defensible years later.",
+    "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 2 with its digital radiography Mandatory Appendix (2023 Edition); ASTM E2698 Standard Practice for Radiographic Examination Using Digital Detector Arrays; ASTM E2002 for basic spatial resolution; ASTM E2339 for DICONDE archiving; ISO 17636-2 for welds.",
+    "table": {
+      "caption": "Radiographic imaging technologies — how the image forms and what qualifies it",
+      "columns": [
+        "Technology",
+        "Image formation",
+        "Resolution limit set by",
+        "Exposure-adequacy metric",
+        "Qualification standard"
+      ],
+      "rows": [
+        [
+          "Film (silver halide)",
+          "Latent image developed in chemistry",
+          "Film grain plus geometric unsharpness",
+          "Optical density read on a densitometer",
+          "ASTM E1815 film system classification; ASME V Art. 2"
+        ],
+        [
+          "Computed radiography (CR)",
+          "Photostimulable phosphor plate read out by laser scanner",
+          "Laser spot size, scan pitch and phosphor light scatter",
+          "Normalised signal-to-noise ratio",
+          "ASTM E2446 classification; ASTM E2445 performance and stability"
+        ],
+        [
+          "DR indirect (a-Si with scintillator)",
+          "Scintillator converts X-rays to light, photodiode array reads it",
+          "Pixel pitch plus light spread inside the scintillator",
+          "Normalised signal-to-noise ratio",
+          "ASTM E2597; ASTM E2737; ASTM E2698"
+        ],
+        [
+          "DR direct (a-Se)",
+          "Photoconductor converts X-rays straight to charge",
+          "Pixel pitch, with no light-spread penalty",
+          "Normalised signal-to-noise ratio",
+          "ASTM E2597; ASTM E2737; ASTM E2698"
+        ],
+        [
+          "Linear diode array",
+          "A single detector line, with part or source translated past it",
+          "Line pitch and scan speed",
+          "Normalised signal-to-noise ratio",
+          "ASTM E2698; ASTM E2736"
+        ],
+        [
+          "Real-time radioscopy",
+          "Image intensifier or panel displayed live",
+          "Detector response plus frame integration",
+          "Contrast sensitivity demonstrated on an IQI in the live image",
+          "ASTM E1000 guide for radioscopy"
+        ]
+      ],
+      "note": "Digital does not change what radiation does inside the part. Every row here finds volumetric flaws and misses tight planar flaws lying across the beam. What the rows differ on is throughput, the nature of the record, and how the image proves its own adequacy."
+    },
+    "facets": [
+      {
+        "q": "Is digital radiography accepted in place of film under ASME?",
+        "a": "Yes, through the digital appendices ASME added to Section V Article 2, and with conditions film never carried: demonstrated basic spatial resolution, a signal-to-noise requirement, detector calibration including a current bad-pixel map, and constrained processing. Where a job specification predates those provisions and names film, substitution needs written agreement with the owner rather than an inspector's judgement."
+      },
+      {
+        "q": "What replaces film density as proof a DR exposure was adequate?",
+        "a": "Normalised signal-to-noise ratio, measured in the image itself. Film density proved the exposure sat in the range where the eye can discriminate; a digital detector responds linearly across a far wider exposure range, so density has no equivalent. SNR normalised to basic spatial resolution states whether enough photons reached the detector for the required contrast sensitivity."
+      },
+      {
+        "q": "How is DR resolution verified rather than assumed?",
+        "a": "With a duplex wire image quality indicator, per ASTM E2002. The gauge holds pairs of wires at decreasing separation; the last pair resolving as two gives the basic spatial resolution of the whole imaging chain — detector pixel pitch, scintillator light spread, geometric unsharpness and processing combined. A manufacturer's pixel pitch is a component specification, not the achieved resolution."
+      },
+      {
+        "q": "Which digital technology suits field pipeline radiography?",
+        "a": "Computed radiography plates where the shot has to wrap a pipe, because a flexible plate conforms to the curvature and needs no cabling at the exposure. Flat panels win in shops and on repeat setups where geometry is fixed and cycle time dominates. Linear diode arrays suit continuous production lines. Detector choice follows the geometry, not the image quality claim."
+      },
+      {
+        "q": "How does post-processing get controlled on a digital radiograph?",
+        "a": "By recording it and retaining the original. Filtering that sharpens edges can create apparent indications and smoothing can erase real ones, so the procedure fixes which operations are permitted and the archive keeps unprocessed data alongside the reviewed image. An interpretation made on a processed image that nobody can reproduce from the original is not evidence."
+      },
+      {
+        "q": "What does DICONDE do that a folder of image files does not?",
+        "a": "It binds the image to its own provenance. ASTM E2339 standardises a DICOM-derived format for NDE that carries technique parameters, detector identity and calibration state inside the file, so an image pulled from an archive years later still states how it was made. Loose files separate from that metadata the first time someone reorganises a directory."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/calibration-block",
+    "answer": "A calibration block does two separable jobs. System blocks — IIW V1 to ISO 2400, V2 to ISO 7963 — set screen range, probe index point, beam angle and resolution. Reference blocks carrying side-drilled or flat-bottom holes set sensitivity and build the DAC or TCG curve. ASME Section V, Article 4 governs which block a weld examination uses.",
+    "expansion": "In US fabrication and in-service work the controlling document is ASME BPVC Section V, Article 4, which requires the basic calibration block to match the component in material specification, product form and heat treatment, and to carry side-drilled holes at one-quarter, one-half and three-quarter thickness plus surface notches. Curvature matters: Article 4 requires a curved block for small-diameter pipe and allows one curved block to serve components from 0.9 to 1.5 times its own diameter. Where the block and the component differ in surface finish, grain structure or coating, the sensitivity established on the block is not the sensitivity applied to the part, and transfer correction closes that gap by comparing two-probe response on each. The audit question is narrower than the technical one: every block needs a unique identifier, a dimensional verification record and a named procedure that calls it, or the examination it supported cannot be reconstructed.",
+    "source": "ASME BPVC Section V, Article 4 — Ultrasonic Examination Methods for Welds (2025 Edition); ISO 2400:2012 and ISO 7963:2006 (calibration blocks No. 1 and No. 2); ASTM E127 and ASTM E428 (reference block fabrication and control)",
+    "table": {
+      "caption": "Calibration block types by what each one actually sets",
+      "columns": [
+        "Block",
+        "Reflectors it carries",
+        "What it establishes",
+        "Governing document",
+        "Where it is called up"
+      ],
+      "rows": [
+        [
+          "IIW V1",
+          "Machined 100 mm radius, acrylic insert, small side-drilled hole, stepped section",
+          "Screen range, probe index point, beam angle, resolution, dead zone",
+          "ISO 2400:2012",
+          "Angle-beam probe setup before any weld scan"
+        ],
+        [
+          "IIW V2 (miniature)",
+          "25 mm and 50 mm radii, single through hole",
+          "The same geometry checks as V1, in a block a technician can carry up scaffold",
+          "ISO 7963:2006",
+          "Field verification of exit point and beam angle"
+        ],
+        [
+          "ASME basic calibration block",
+          "Side-drilled holes at 1/4T, 1/2T and 3/4T, plus notches on both surfaces",
+          "Reference sensitivity, DAC/TCG curve, scanning gain for weld examination",
+          "ASME BPVC Section V, Article 4",
+          "Weld examination under ASME Section VIII and Section I"
+        ],
+        [
+          "Area- and distance-amplitude reference blocks",
+          "Flat-bottom hole of specified diameter at a set metal distance",
+          "Straight-beam sensitivity and amplitude-versus-depth response",
+          "ASTM E127 (aluminium alloy); ASTM E428 (other metals)",
+          "Straight-beam examination of plate, forgings and billets"
+        ],
+        [
+          "Step wedge",
+          "Machined steps of certified thickness",
+          "Velocity and zero offset for thickness gauging",
+          "ASTM E797",
+          "Corrosion thickness surveys read against API 510 and API 570 limits"
+        ],
+        [
+          "Notched corrosion / ID-crack block",
+          "EDM notches of set depth on ID and OD surfaces",
+          "Sensitivity for surface-connected cracking and remaining-wall techniques",
+          "ISO 16811:2014",
+          "Corrosion mapping and ID-crack techniques"
+        ]
+      ],
+      "note": "Two families, two jobs: a system block never sets sensitivity and a reference block never verifies beam angle. Where block and component differ in material, curvature or surface finish, transfer correction is applied before scanning, not after."
+    },
+    "facets": [
+      {
+        "q": "Does a calibration block have to be the same material as the part being inspected?",
+        "a": "ASME Section V, Article 4 requires the basic calibration block to match the component in material specification, product form and heat treatment condition. Where it does not — a wrought plate block used for a casting, or a different heat-treat condition — the examination becomes valid only once transfer correction quantifies the acoustic difference in decibels and that correction is applied to the reference level."
+      },
+      {
+        "q": "Can an IIW V1 block be used to set sensitivity for a weld examination?",
+        "a": "No. The V1 block to ISO 2400 establishes screen range, probe index point, beam angle, resolution and dead zone — instrument and probe geometry only. Sensitivity for a weld examination comes from a reference block carrying side-drilled holes at graded depths, which is what generates the DAC or TCG curve against which indications are evaluated and recorded."
+      },
+      {
+        "q": "Which reference reflector does a code require — side-drilled hole, flat-bottom hole or notch?",
+        "a": "The reflector follows the beam. Side-drilled holes respond consistently across a range of incident angles, so codes use them for angle-beam weld examination and DAC construction. Flat-bottom holes present a flat face to a normal beam and suit straight-beam area-amplitude work per ASTM E127 and E428. Notches simulate surface-connected cracking and set sensitivity for corrosion and ID-crack techniques."
+      },
+      {
+        "q": "Do calibration blocks need curvature to match the pipe being inspected?",
+        "a": "ASME Section V, Article 4 requires a curved calibration block for pipe below 20 in. (500 mm) outside diameter and permits one curved block to cover components from 0.9 to 1.5 times its own diameter. Above that size a flat block is acceptable. Ignoring curvature on small-bore pipe changes contact area and coupling, so the sensitivity set on a flat block overstates what reaches the part."
+      },
+      {
+        "q": "How is transfer correction actually measured?",
+        "a": "Place two identical angle-beam probes on the calibration block in pitch-catch at a fixed separation and record peak amplitude, then repeat on the component at the same separation and skip distance. The decibel difference between the two readings is the transfer loss, and it is added to the reference level before scanning. One measurement per surface condition, not one per job."
+      },
+      {
+        "q": "What does an auditor look for in a calibration block record?",
+        "a": "A unique block identifier, a dimensional and material certificate traceable to that block, the procedure revision that names it, and the calibration record linking the block to the specific examination and instrument. A block with no identifier makes every examination it supported unreproducible, which becomes a finding against the procedure and the written practice rather than against the technician."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/leak-testing",
+    "answer": "Leak testing techniques separate by sensitivity, not by preference. Bubble and vacuum-box methods resolve gross leakage; pressure change suits closed systems of known volume; halogen and helium mass spectrometry reach the fine end. ASME Section V, Article 10 and its mandatory appendices define each technique, and the required sensitivity is set by the referencing code, not by the technician.",
+    "expansion": "Selection runs backwards from the leak rate that matters to the owner. A US pressure vessel built to ASME Section VIII, Division 1 gets a hydrostatic or pneumatic pressure test as a matter of construction; a sensitive leak test is an addition, invoked when the user's design specification, lethal-service rules or the purchase order names one. Refinery and petrochemical operators carry a second driver: EPA Method 21 fugitive-emission monitoring under 40 CFR Part 60 sets its own detection threshold on flanges, valves and pump seals, and that requirement is regulatory rather than code-driven. Three variables decide whether any result means anything — hold time relative to the system's thermal time constant, temperature correction, and cleanliness of the surfaces a bubble or tracer must reach. A pressure-change test read without temperature compensation reports weather. Every technique needs its sensitivity demonstrated on a calibrated leak before the test, not asserted from the equipment specification.",
+    "source": "ASME BPVC Section V, Article 10 — Leak Testing (2025 Edition), with its mandatory appendices covering bubble, pressure change, halogen diode, helium mass spectrometer and ultrasonic techniques; US EPA Method 21, 40 CFR Part 60",
+    "table": {
+      "caption": "Leak test techniques ranked by the leak rate each can resolve",
+      "columns": [
+        "Technique",
+        "Detection mechanism",
+        "Approximate sensitivity (Pa·m³/s)",
+        "What the test needs",
+        "Where it is used"
+      ],
+      "rows": [
+        [
+          "Bubble — direct pressure",
+          "Solution applied to the surface forms bubbles at the leak site",
+          "10⁻⁴",
+          "Access to the pressurised side, clean dry surface, adequate light",
+          "Weld and flange checks on fabricated assemblies"
+        ],
+        [
+          "Bubble — vacuum box",
+          "Box evacuated over the weld, soap film draws bubbles inward",
+          "10⁻⁴",
+          "Flat accessible weld, sound box seal, solution that survives the dwell",
+          "Tank floor lap welds and roof seams"
+        ],
+        [
+          "Pressure change (decay or rise)",
+          "Pressure drop across a timed hold, corrected for temperature",
+          "10⁻³ and coarser, degrading as system volume rises",
+          "Isolatable volume, thermal equilibrium, calibrated gauge, long hold",
+          "Closed piping systems and vessels"
+        ],
+        [
+          "Halogen diode probe",
+          "Heated element responds to a halogenated tracer gas",
+          "10⁻⁶",
+          "Halogen tracer charge, ventilated area, probe calibration check",
+          "Refrigeration and process systems"
+        ],
+        [
+          "Helium mass spectrometer — detector probe",
+          "Probe traverses the outside of a helium-charged system",
+          "10⁻⁸",
+          "Helium charge, calibrated leak standard, controlled traverse speed",
+          "Locating individual leaks on assembled equipment"
+        ],
+        [
+          "Helium mass spectrometer — tracer probe",
+          "Helium sprayed on the outside of an evacuated system",
+          "10⁻⁹",
+          "System under vacuum, controlled spray rate, spectrometer response time",
+          "Vacuum systems and vessels under evacuation"
+        ],
+        [
+          "Helium mass spectrometer — hood",
+          "Whole item enclosed in a helium atmosphere",
+          "10⁻¹⁰ and finer",
+          "Enclosure, evacuated item, helium fill, background control",
+          "Total leak rate acceptance on sealed components"
+        ],
+        [
+          "Ultrasonic leak detector",
+          "Turbulent gas escaping through the breach emits airborne ultrasound",
+          "Gross leakage only — no quantified rate",
+          "Line of sight to the leak, low ambient ultrasonic noise",
+          "In-service surveys of valves, steam traps and compressed air systems"
+        ]
+      ],
+      "note": "Sensitivities are order-of-magnitude capability, not acceptance criteria; 1 std cm³/s ≈ 0.1 Pa·m³/s. Every technique must have its sensitivity demonstrated on a calibrated leak standard before the test, and the required leak rate comes from the referencing code or the user's design specification."
+    },
+    "facets": [
+      {
+        "q": "Does ASME Section VIII require a leak test before a vessel enters service?",
+        "a": "Section VIII, Division 1 requires a hydrostatic or pneumatic pressure test at completion — a strength and gross-tightness demonstration. A sensitive leak test to Section V, Article 10 is separate and applies when the user's design specification calls for it, when lethal-service rules govern, or when the purchase order names a technique and a leak rate. Absent one of those, no leak test is mandated."
+      },
+      {
+        "q": "How do I choose between helium mass spectrometry and pressure decay?",
+        "a": "System volume decides it. Pressure decay measures the whole boundary at once and its resolution degrades as volume rises, so it suits small isolatable systems held long enough for pressure to settle. Helium mass spectrometry locates the leak and reaches roughly six orders of magnitude finer, at the cost of tracer gas, evacuation or hooding, and a much longer setup."
+      },
+      {
+        "q": "Why does a pressure-decay test fail on a hot day?",
+        "a": "Gas pressure tracks absolute temperature. A few degrees of ambient swing across a test volume moves indicated pressure enough to imitate a leak, or to cancel a real one. The fix is measuring gas temperature at multiple points, correcting the reading to a reference temperature, and holding long enough that the system reaches thermal equilibrium before the timed period starts."
+      },
+      {
+        "q": "Can leak testing substitute for ultrasonic wall-thickness inspection?",
+        "a": "No. Leak testing answers containment and detects only a breach that already passes through the wall. Corrosion that has consumed 80 percent of the thickness leaks nothing and passes. The two are sequenced: volumetric and surface examination find degradation while there is remaining life to manage, and leak testing confirms the boundary is intact once repairs are complete."
+      },
+      {
+        "q": "What qualification does a leak-testing technician need in the United States?",
+        "a": "For code work, LT Level II certified by the employer against its written practice, which is written to ASNT SNT-TC-1A. The written practice sets training hours, experience and examination content technique by technique, because bubble testing and helium mass spectrometry are separate skills. Contracts that reference ISO 9712 instead require third-party certification, which an employer certificate does not satisfy."
+      },
+      {
+        "q": "Which leak test applies to an in-service storage tank bottom?",
+        "a": "Vacuum box testing over the bottom lap and butt welds is the established technique: a transparent box with a soap film is placed over the weld and evacuated, and bubbles mark through-welds. API 653 inspection also uses tracer-gas monitoring beneath the floor and product detection in the containment, because a tank bottom leaks downward where no observer stands."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/attenuation",
+    "answer": "Attenuation splits into absorption and three distinct scattering regimes, and which one dominates depends on grain size relative to wavelength. Rayleigh scattering, where grains are far smaller than the wavelength, rises with the fourth power of frequency; stochastic scattering with the square; the diffusive regime is frequency-independent. That relationship, not a material name, decides the inspection frequency.",
+    "expansion": "The practical consequence is that two carbon steels with the same specification attenuate differently after different heat treatment, and a centrifugally cast austenitic component defeats a technique that works on a forging of identical chemistry. ISO 16811:2014 puts transfer correction into the sensitivity-setting procedure for exactly this reason: the value is measured by comparing two-probe response over a fixed separation on the calibration block and on the component and taking the decibel difference. ASME Section V, Article 4 requires the difference between block and component to be addressed. Raising gain does not solve high attenuation, because grain noise rises with the signal and signal-to-noise ratio is what limits detection. For austenitic and dissimilar-metal welds the working answer is a lower frequency and a transmit-receive longitudinal probe, which trades resolution for penetration and avoids the mode conversion that makes shear-wave examination of those welds unreliable.",
+    "source": "ISO 16811:2014 — Non-destructive testing — Ultrasonic testing — Sensitivity and range setting; ASME BPVC Section V, Article 4 (2025 Edition)",
+    "table": {
+      "caption": "Attenuation mechanisms and which one is governing your setup",
+      "columns": [
+        "Loss mechanism",
+        "Frequency dependence",
+        "Condition that makes it dominant",
+        "How it shows on the A-scan",
+        "Compensation"
+      ],
+      "rows": [
+        [
+          "Absorption",
+          "Rises with frequency",
+          "Polymers, composites, elastomer-lined and coated components",
+          "Uniform amplitude loss against a clean baseline",
+          "Lower frequency; raise reference gain with the noise floor checked"
+        ],
+        [
+          "Rayleigh scattering",
+          "Rises with the fourth power of frequency",
+          "Grain diameter far below wavelength — fine-grained steels examined at high frequency",
+          "Amplitude loss with a rising grass-like baseline",
+          "Halving frequency cuts scattering loss sixteenfold"
+        ],
+        [
+          "Stochastic scattering",
+          "Rises with the square of frequency",
+          "Grain diameter comparable to wavelength — coarse castings, austenitic weld metal",
+          "Grain noise climbing toward the evaluation level",
+          "Low frequency, focused or TRL probes, or a technique change"
+        ],
+        [
+          "Diffusive scattering",
+          "Frequency-independent",
+          "Grain diameter far above wavelength",
+          "Back-wall echo lost entirely, no usable penetration",
+          "Ultrasonics is the wrong method here; radiography or an alternative technique"
+        ],
+        [
+          "Beam divergence",
+          "Falls as frequency and element size rise",
+          "Small crystals over long sound paths",
+          "Amplitude falling with distance for reasons unrelated to the material",
+          "DAC or TCG curve; DGS sizing already accounts for it"
+        ],
+        [
+          "Interface and couplant loss",
+          "Weak",
+          "Rough, scaled, painted or sharply curved surfaces",
+          "Unstable back-wall echo, amplitude changing with probe pressure",
+          "Surface preparation, then transfer correction measured on the actual surface"
+        ],
+        [
+          "Anisotropy and beam skew",
+          "Weak, but strongly geometry-dependent",
+          "Austenitic and dissimilar-metal welds with columnar grain growth",
+          "Beam arrives where it was not aimed; back-wall echo displaced sideways",
+          "TRL longitudinal probes, modelled scan plan, mock-up demonstration"
+        ]
+      ],
+      "note": "Attenuation is measured, not looked up: it is the decibel difference between calibration block and component taken with two probes at fixed separation. A transfer loss below 2 dB is customarily recorded and ignored; above that it is added to the reference level before scanning."
+    },
+    "facets": [
+      {
+        "q": "How do I choose inspection frequency for a coarse-grained material?",
+        "a": "Compare grain size to wavelength. When average grain diameter sits far below the wavelength, scattering rises with the fourth power of frequency, so halving frequency cuts scattering loss sixteenfold. Set frequency low enough that back-wall echo and grain noise separate by the signal-to-noise margin the procedure demands, then confirm the resulting wavelength still resolves the smallest flaw that must be found."
+      },
+      {
+        "q": "Why does raising the gain not fix a noisy austenitic weld?",
+        "a": "Gain amplifies grain noise and flaw signal together, so signal-to-noise ratio is unchanged. Detection depends on that ratio, not on absolute amplitude. What improves it is lowering frequency, using a transmit-receive longitudinal probe that suppresses near-surface interface noise, focusing at the depth of interest, or moving to an imaging technique whose processing averages the random noise."
+      },
+      {
+        "q": "What probe works on dissimilar-metal and austenitic welds?",
+        "a": "A transmit-receive longitudinal (TRL) probe at low frequency, commonly 1 to 2.25 MHz. Longitudinal waves attenuate and skew less than shear waves in anisotropic weld metal, and separating transmitter from receiver kills the interface noise that swamps a single-crystal probe. The trade is coarser resolution and a fixed focal depth, so the setup targets a defined depth band."
+      },
+      {
+        "q": "Does attenuation affect TOFD sizing the same way it affects amplitude-based sizing?",
+        "a": "It affects both, differently. Amplitude-based sizing compares a signal to a reference level, so any attenuation difference between block and component biases the result directly. TOFD sizes from the arrival time of diffracted tip signals, which attenuation does not shift; what attenuation costs TOFD is the visibility of those weak tip signals, so a flaw is missed rather than mis-sized."
+      },
+      {
+        "q": "Is high attenuation itself a rejectable condition?",
+        "a": "No code rejects material for attenuation. What high attenuation does is invalidate the examination: when grain noise rises to the evaluation level, or the back-wall echo cannot be maintained at the required amplitude, the technique has no demonstrated detection capability and the report cannot claim coverage. The correct outcome is a technique change recorded in the report, not an acceptance."
+      },
+      {
+        "q": "How much attenuation difference between block and part is too much?",
+        "a": "No universal threshold exists; the procedure sets one. Common practice records a transfer loss below 2 dB and ignores it, and adds anything larger to the reference level. Once the measured difference exceeds the margin between the recording level and the noise floor, the block no longer represents the part and a representative block has to be made."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/automated-ultrasonic-testing-aut",
+    "answer": "AUT is not one configuration. Pipeline girth welds use zone-discriminated phased array plus TOFD on a band scanner; heavy-wall vessel welds use encoded raster PAUT; corrosion mapping uses an encoded zero-degree array. Each carries a different sizing basis and a different acceptance route, and ISO 13588 governs the automated phased array system rather than the weld acceptance.",
+    "expansion": "On a US pipeline spread the decision to run AUT instead of radiography is commercial before it is technical: no radiation exclusion zone means welding continues alongside inspection, and the crew works through the night without clearing the right-of-way. What the owner buys with that is a qualification burden. Zone discrimination is built around the weld bevel, so the setup is qualified on a mock-up carrying deliberately placed flaws at the bevel geometry actually being welded, and a bevel change voids it. Sizing accuracy claimed for the system has to be demonstrated on that mock-up, because girth weld acceptance on most projects runs through an engineering critical assessment that consumes flaw height as an input. Data analysis is a separate competence from scanning, and specifications routinely require the analyst to hold a distinct qualification. The scan record is the deliverable, so archive the raw encoded data with its setup and calibration files.",
+    "source": "ISO 13588:2019 — Non-destructive testing of welds — Ultrasonic testing — Use of automated phased array technology; API 1104, Welding of Pipelines and Related Facilities; ASME BPVC Section V, Article 4 (2025 Edition)",
+    "table": {
+      "caption": "AUT configurations by application, sizing basis and acceptance route",
+      "columns": [
+        "Application",
+        "Configuration",
+        "Sizing basis",
+        "Acceptance route",
+        "Record produced"
+      ],
+      "rows": [
+        [
+          "Pipeline girth weld",
+          "Band scanner carrying zone-discriminated PAUT plus TOFD, single circumferential pass",
+          "Zone amplitude for detection, TOFD tip diffraction for through-wall height",
+          "API 1104 workmanship criteria or engineering critical assessment criteria",
+          "Encoded strip chart: zone gates, TOFD D-scan, coupling and position traces"
+        ],
+        [
+          "Heavy-wall vessel and nozzle weld",
+          "Encoded raster PAUT, sectorial scan from both sides where access allows",
+          "DAC or DGS amplitude, tip diffraction for through-wall extent",
+          "ASME Section VIII acceptance, examined to Section V Article 4",
+          "Encoded volumetric C-scan and S-scan data set"
+        ],
+        [
+          "Corrosion mapping",
+          "Encoded zero-degree linear array on a two-axis or magnetic-wheel scanner",
+          "Minimum remaining thickness per grid cell",
+          "API 510 or API 570 evaluation against required minimum thickness",
+          "Thickness C-scan with grid coordinates and a minimum-value map"
+        ],
+        [
+          "Tube and pipe mill inspection",
+          "Rotating or immersion AUT at fixed helical pitch",
+          "Reference notch amplitude",
+          "API 5L or the product specification, examined per ASTM E213",
+          "Continuous alarm-channel trace logged against pipe identity"
+        ],
+        [
+          "In-service crack and damage monitoring",
+          "Encoded PAUT or TFM from a repeatable fixed datum",
+          "Tip diffraction through-wall height, compared scan to scan",
+          "Fitness-for-service assessment per API 579-1/ASME FFS-1",
+          "Repeat-scan data set referenced to a permanent datum for growth comparison"
+        ],
+        [
+          "Weld overlay and cladding",
+          "Encoded PAUT in a low-frequency transmit-receive longitudinal configuration",
+          "Amplitude against a clad reference block, with interface tracking",
+          "ASME Section V Article 4 with the construction code acceptance",
+          "Encoded C-scan of the bond line"
+        ]
+      ],
+      "note": "The encoder records position only. Coverage of the weld volume is proved by the scan plan and the mock-up qualification, and a change of bevel, thickness or material sends the setup back through qualification before any data is acceptable."
+    },
+    "facets": [
+      {
+        "q": "Can AUT replace radiography on a US pipeline construction spread?",
+        "a": "Yes, where the construction code and the owner permit ultrasonic examination as an alternative to radiography, which API 1104 does through its ultrasonic provisions and alternative acceptance criteria. The operational driver is the absence of a radiation exclusion zone: welding, coating and inspection run concurrently instead of clearing the right-of-way for every exposure, which is where the schedule saving comes from."
+      },
+      {
+        "q": "What has to be qualified before AUT data can be used for acceptance?",
+        "a": "Three things independently. The procedure, demonstrated on a mock-up of the same material, thickness and bevel geometry with flaws at known positions. The system, including scanner, encoder, focal laws and analysis software, verified against that mock-up. And the personnel, both the operator running the scan and the analyst interpreting the data. Changing an essential variable sends the procedure back through qualification."
+      },
+      {
+        "q": "Does an encoded scan prove volumetric coverage?",
+        "a": "It proves where the probe travelled, not what the beam interrogated. Coverage of the weld volume additionally requires the focal laws, wedge position and beam angles to have insonified every zone at an angle capable of detecting the expected flaw orientation. That is proved by the scan plan and the mock-up qualification; only the position axis comes from the encoder."
+      },
+      {
+        "q": "What happens to an AUT setup when the weld bevel changes?",
+        "a": "A zone-discriminated setup maps each focal law to a specific height band of the bevel, so a change in bevel angle, root land or wall thickness moves the fusion faces out from under the zones. The setup is void and requires requalification on a mock-up of the new geometry. Field bevel changes made for fit-up reasons are the common cause of invalidated data."
+      },
+      {
+        "q": "Who is allowed to analyse AUT data?",
+        "a": "Scanning and analysis are separate competences. Project specifications commonly require the analyst to hold Level II or III certification in the technique plus documented qualification on the specific system and the project mock-up. Data reviewed remotely by an analyst who never qualified on that mock-up is the finding auditors raise most often against AUT contractors."
+      },
+      {
+        "q": "What must an AUT record contain to be defensible years later?",
+        "a": "The raw encoded data rather than a screenshot report; the setup and focal-law files used to acquire it; calibration and verification records naming the block; the scan plan and the procedure revision in force that day; and certification records for both operator and analyst. Without the setup files the data cannot be re-analysed, which removes the main reason for running AUT."
+      }
+    ]
+  },
+  {
+    "route": "/glossary/cswip",
+    "answer": "For US work the practical question is not what CSWIP means but whether it is accepted. AWS D1.1 lets the Engineer accept an inspector qualified under AWS QC1 as a CWI, under the Canadian CWB scheme, or by demonstrated training and experience — which is the door CSWIP walks through. Acceptance is contractual, decided contract by contract.",
+    "expansion": "The two schemes diverge most in their renewal arithmetic, and that is where holders get caught. An AWS CWI certificate runs three years, renews at three and six on evidence of continued activity and vision testing, and at nine years requires recertification — by examination or by documented continuing education. CSWIP runs a five-year certificate with renewal at five and re-examination at ten. Holding both means running two clocks that never align. On the NDT side the comparison is cleaner: CSWIP NDT certification and BINDT PCN both operate under ISO 9712:2021, a third-party central certification model, while ASNT SNT-TC-1A certification is issued by the employer against its own written practice. A US owner who writes \"ISO 9712 Level II or equivalent\" into a specification is asking for third-party certification and will not accept an employer certificate, whatever the examination content behind it.",
+    "source": "TWI Certification Ltd CSWIP scheme documents; AWS QC1:2016 — Standard for AWS Certification of Welding Inspectors; ISO 9712:2021; ASNT SNT-TC-1A (2020 Edition)",
+    "table": {
+      "caption": "CSWIP against the schemes it competes with on a contract",
+      "columns": [
+        "Scheme",
+        "Certification model",
+        "Governing document",
+        "Validity and renewal",
+        "Where it is normally specified"
+      ],
+      "rows": [
+        [
+          "CSWIP 3.1 Welding Inspector",
+          "Third party — TWI Certification Ltd",
+          "CSWIP scheme document for welding inspectors",
+          "5-year certificate; renewal at 5 on evidence of activity; re-examination at 10",
+          "UK, EU, Middle East and offshore fabrication contracts"
+        ],
+        [
+          "CSWIP 3.2 Senior Welding Inspector",
+          "Third party — TWI Certification Ltd",
+          "CSWIP scheme document for welding inspectors",
+          "Same 5- and 10-year cycle; entry requires 3.1 held with logged experience",
+          "Contracts requiring supervision of inspectors and procedure review"
+        ],
+        [
+          "AWS CWI",
+          "Third party — American Welding Society",
+          "AWS QC1",
+          "3-year certificate; renewal at 3 and 6 with vision test; recertification by examination or continuing education at 9",
+          "US fabrication and construction, AWS D1.1 and owner specifications"
+        ],
+        [
+          "CSWIP NDT Level 2",
+          "Third-party central certification",
+          "ISO 9712:2021",
+          "5-year certificate; renewal at 5; recertification at 10",
+          "International NDT contracts that name ISO 9712"
+        ],
+        [
+          "BINDT PCN Level 2",
+          "Third-party central certification",
+          "ISO 9712:2021",
+          "5-year certificate; renewal at 5; recertification at 10",
+          "UK and international NDT contracts"
+        ],
+        [
+          "ASNT NDT Level II",
+          "Employer-certified against a written practice",
+          "ASNT SNT-TC-1A (2020 Edition)",
+          "Interval set by the employer's written practice; certification does not travel to a new employer",
+          "US code work under ASME and API"
+        ],
+        [
+          "ASNT NDT Level III",
+          "Third-party examination, employer certification",
+          "ASNT SNT-TC-1A; ANSI/ASNT CP-189",
+          "5-year ASNT certificate, renewed by examination or documented points",
+          "Written practice approval and procedure sign-off in the US"
+        ]
+      ],
+      "note": "Equivalence is not a property of the certificate; it is a decision the owner or the Engineer records in the specification. Confirm in writing which scheme a contract names before mobilising, because a certificate accepted on one project is refused on the next."
+    },
+    "facets": [
+      {
+        "q": "Does a CSWIP certificate qualify someone as a welding inspector in the United States?",
+        "a": "No legal barrier exists, but AWS D1.1 places acceptance with the Engineer, who may accept a CWI qualified under AWS QC1, an inspector under the Canadian CWB scheme, or one whose training and experience the Engineer judges adequate. CSWIP is accepted under that third route on many US projects and refused on others. Confirm in writing before mobilising."
+      },
+      {
+        "q": "Which CSWIP grade matches the scope I am being hired for?",
+        "a": "The grades ascend in scope. CSWIP 3.0 covers visual inspection of welds against a straightforward acceptance standard. CSWIP 3.1 is the general welding inspector grade that most contracts name. CSWIP 3.2 is the senior grade, adding supervision of inspection personnel, review of welding procedures and welder qualification records, and sign-off responsibility. Progression to 3.2 requires holding 3.1 with logged experience."
+      },
+      {
+        "q": "What happens if a CSWIP certificate lapses?",
+        "a": "Renewal falls due at five years on evidence of continued relevant work, and re-examination falls due at ten. Miss the renewal window and reinstatement is not automatic — the holder re-sits the examination. Employers carrying inspectors on multiple schemes track these dates centrally, because a lapsed certificate found during an audit undermines every report signed after the expiry date."
+      },
+      {
+        "q": "Is it worth holding both CSWIP and AWS CWI?",
+        "a": "For anyone moving between US and international contracts, yes, because specifications name a scheme and rarely entertain a case for equivalence. The cost is two renewal cycles that never coincide: CWI at three, six and nine years, CSWIP at five and ten. Budget continuing-education evidence against both, since neither scheme accepts the other's activity record."
+      },
+      {
+        "q": "Does CSWIP cover NDT methods or only welding inspection?",
+        "a": "Both, through separate routes. The welding inspector grades sit in their own scheme documents, while CSWIP NDT certification for UT, RT, MT, PT, ET and VT operates under ISO 9712:2021 as third-party central certification. A CSWIP welding inspector certificate carries no NDT method authority, and an NDT Level II certificate carries no welding inspection authority."
+      },
+      {
+        "q": "Which certifications does a US refinery turnaround actually specify?",
+        "a": "For welding inspection, AWS CWI under QC1 is the default written into most US owner specifications. For NDT methods, Level II certified to the contractor's written practice under ASNT SNT-TC-1A, with that written practice submitted for owner review. Fixed-equipment inspection runs on a separate API individual certification track held by the owner's inspectors, not by the NDT contractor."
+      }
+    ]
+  },
+  {
+    "route": "/ndt-industry-statistics",
+    "answer": "Published NDT market totals disagree because they count different pools. Three distinct revenue streams get labelled \"the NDT market\": third-party inspection services, instrument and consumable sales, and inspection software. A US services-only figure and an all-in global figure differ by an order of magnitude and both are defensible. Establish counted scope first — most apparent contradictions between two studies dissolve there.",
+    "expansion": "In the United States the binding constraint on NDT revenue is certified technician supply, not demand. Asset age drives examination scope mechanically: API 510, API 570 and API 653 tie inspection intervals to measured corrosion rate and remaining life, so an ageing refining, chemical and power fleet generates more billable examinations each cycle with no new construction at all. PHMSA integrity-management rules do the same for pipelines, and state jurisdictional boiler and pressure vessel programmes for fired equipment. Capital projects — LNG trains, data-centre power, grid and generation build — add fabrication-side examination that is lumpy and concentrated on the Gulf Coast. Against that, contractor capacity is capped by how many Level II technicians hold current certification in the required method, which is why US contractors report booked backlog rather than order shortfall. Any market model that projects demand without modelling certified headcount overstates servable revenue.",
+    "source": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, SOC 51-9061 (Inspectors, Testers, Sorters, Samplers and Weighers) for workforce counts; API 510, API 570 and API 653 for the inspection-interval rules that convert asset age into examination scope; 49 CFR Parts 192 and 195 (PHMSA) for pipeline integrity-driven demand.",
+    "table": {
+      "caption": "What each published \"NDT market\" number actually counts",
+      "columns": [
+        "Segment",
+        "Counted",
+        "Excluded",
+        "Cycle driver",
+        "Where a credible figure comes from"
+      ],
+      "rows": [
+        [
+          "Third-party inspection services",
+          "Contractor labour, mobilisation and report deliverables billed per campaign, turnaround or contract term",
+          "Owner in-house inspection departments; equipment purchases",
+          "Turnaround calendars and code-mandated inspection intervals",
+          "Contractor filings and published turnaround schedules"
+        ],
+        [
+          "Instruments and probes",
+          "UT, PAUT, RT, ET hardware, probes, wedges and scanners sold to contractors and owner-operators",
+          "Service labour; consumables counted separately",
+          "Technology transitions — film to digital radiography, conventional UT to phased array",
+          "Manufacturer segment reporting"
+        ],
+        [
+          "Consumables",
+          "Penetrant, developer, magnetic particles, couplant, film and imaging plates",
+          "Capital hardware",
+          "Examination volume, near-proportional to crew hours worked",
+          "Distributor volume data"
+        ],
+        [
+          "Training and certification",
+          "Course fees, examination fees and certification-body revenue",
+          "Employer internal training time and on-job experience hours",
+          "Technician attrition and retirement replacement",
+          "ASNT, ISO 9712 certification bodies, PCN scheme statistics"
+        ],
+        [
+          "Inspection software and data",
+          "Reporting platforms, asset-integrity databases, RBI and FFS tooling, digital twins",
+          "Generic ERP and document management",
+          "Owner mandates to receive inspection evidence as queryable data rather than PDFs",
+          "Vendor disclosures and owner procurement specifications"
+        ],
+        [
+          "In-house owner inspection",
+          "Salaried owner-operator inspection staff and the equipment they hold",
+          "Contracted third-party work",
+          "Owner headcount policy and insourcing cycles",
+          "Owner headcount, rarely published — the usual source of a phantom number"
+        ]
+      ],
+      "note": "Two studies that disagree by a factor of five are measuring row 1 against rows 1+2+3+5. Neither is wrong; they answer different questions."
+    },
+    "facets": [
+      {
+        "q": "Why do two NDT market reports published the same year differ by more than double?",
+        "a": "Because the segment boundary moved. One counted third-party inspection services only; the other added instrument sales, consumables and software, or folded owner in-house inspection in as notional spend. Region and currency base shift it further. Read the scope statement in each methodology section before treating the gap as a forecasting disagreement."
+      },
+      {
+        "q": "What actually caps US NDT contractor revenue growth?",
+        "a": "Certified technician headcount. Work cannot be signed off without a technician holding current Level II certification in the specific method, and that certification requires documented training hours, experience hours and a passed practical examination. Contractors decline scope when crews are committed elsewhere, so backlog rises while revenue does not. Capacity, not order intake, is the binding constraint."
+      },
+      {
+        "q": "Which figure should I use when building an NDT budget for a US refinery?",
+        "a": "None of the published market totals. Budget bottom-up from your own examination scope: the API 510, 570 and 653 intervals falling due in the period, the method mix each item requires, estimated crew days and mobilisation. Market-size figures describe the supply side and carry no information about your asset register."
+      },
+      {
+        "q": "Is the inspector shortage structural or just a hiring-cycle story?",
+        "a": "Structural. The workforce skews old, and replacement requires years of documented experience hours before a technician can certify to Level II — a pipeline that pay alone cannot accelerate. Retirements remove certified capacity immediately; replacements arrive only after the experience clock has run. The gap widens whenever turnaround volume rises faster than the training pipeline."
+      },
+      {
+        "q": "How do I tell a demand-driven NDT growth number from a price-driven one?",
+        "a": "Ask whether the study reports examination volume or revenue. Revenue growth combines rate inflation, method-mix shift toward higher-priced techniques such as phased array and TOFD, and genuine volume. A market growing on mix shift means the same number of welds examined at a higher price per weld — a different planning input from more welds."
+      },
+      {
+        "q": "Does AI-assisted defect detection reduce the number of inspectors needed?",
+        "a": "It reduces analysis hours, not certified headcount. Data acquisition still puts a technician at the asset, and the examination result still requires sign-off by certified personnel under the governing written practice. AI compresses review of PAUT C-scans and digital radiographs, shifting where the hours are spent rather than removing the certification requirement."
+      }
+    ]
+  },
+  {
+    "route": "/blog/surface-breaking-crack-detection-comprehensive-methods",
+    "answer": "Material magnetism decides the method before crack size or geometry does. On ferromagnetic carbon and low-alloy steel, magnetic particle testing wins — it reaches flaws lying a millimetre or two beneath the surface that penetrant cannot see. On austenitic stainless, aluminium, titanium and nickel alloys, penetrant or eddy current is the only valid choice. Coatings and hot surfaces rule out both and push the job to eddy current or ACFM.",
+    "expansion": "Order the decision: magnetism, then surface condition, then access, then required sensitivity. Penetrant demands a clean, dry, open crack — a smeared, peened or shot-blasted surface closes the opening and the indication never bleeds back. Grinding does the same, which is why penetrant after grinding needs an etch step to reopen the surface. Magnetic particle needs flux perpendicular to the crack, so every surface is examined in two orthogonal directions; a single-direction shot misses cracks lying near-parallel to the field whatever their size. Eddy current tolerates coatings, works through paint of known thickness and needs no consumables, but it responds to permeability and geometry change as strongly as to cracks, so it demands reference notches and an operator who can separate lift-off from a real signal. ACFM extends that tolerance to coated and subsea weld toes. Where a missed crack means loss of containment, two methods with different physics beat one method run twice.",
+    "source": "ASME BPVC Section V (2023 Edition), Article 6 (liquid penetrant examination) and Article 7 (magnetic particle examination); ASTM E1417/E1417M and ASTM E1444/E1444M; SAE AMS 2644 for fluorescent penetrant sensitivity levels; ASTM E2261 for alternating current field measurement; ISO 3452-1 and ISO 9934-1 for the ISO equivalents.",
+    "table": {
+      "caption": "Surface-crack methods by material, reach and blind spot",
+      "columns": [
+        "Method",
+        "Materials it couples to",
+        "Reaches",
+        "Blind to",
+        "Governing standard"
+      ],
+      "rows": [
+        [
+          "Magnetic particle, wet fluorescent",
+          "Ferromagnetic — carbon, low-alloy, ferritic and martensitic stainless",
+          "Surface-breaking plus flaws lying a short depth below the surface",
+          "Cracks near-parallel to the applied flux; every non-ferromagnetic alloy",
+          "ASME V Article 7; ASTM E1444/E1444M; ISO 9934-1"
+        ],
+        [
+          "Magnetic particle, dry powder",
+          "Same, plus rough as-welded and hot surfaces where a suspension will not wet",
+          "Surface-breaking flaws on rough and irregular surfaces",
+          "Fine tight cracks that wet fluorescent would show; non-magnetic alloys",
+          "ASME V Article 7; ASTM E709"
+        ],
+        [
+          "Liquid penetrant, fluorescent",
+          "Any non-porous material, magnetic or not",
+          "Flaws open to the surface only",
+          "Anything not open at the surface; cracks closed by grinding, peening or blasting; coated surfaces",
+          "ASME V Article 6; ASTM E1417/E1417M; AMS 2644 sensitivity levels"
+        ],
+        [
+          "Liquid penetrant, visible dye",
+          "Any non-porous material; field use without a darkened area",
+          "Open surface flaws at lower sensitivity than fluorescent",
+          "Fine tight cracks; the same closure and coating limits",
+          "ASME V Article 6; ISO 3452-1"
+        ],
+        [
+          "Eddy current, surface probe or array",
+          "Electrically conductive — magnetic and non-magnetic alike, through thin coatings",
+          "Surface-breaking and shallow subsurface cracks with no surface preparation",
+          "Non-conductive materials; deep flaws; signals masked by geometry and permeability change",
+          "ASME V Article 8; ISO 15549"
+        ],
+        [
+          "ACFM",
+          "Ferromagnetic weld toes, including painted and subsea",
+          "Surface-breaking cracks through coating, with a length and depth estimate",
+          "Non-magnetic alloys; flaws away from the modelled geometry",
+          "ASTM E2261"
+        ]
+      ],
+      "note": "Magnetism is the first filter, not sensitivity. A method that cannot couple to the material is not a lower-sensitivity option — it returns nothing at all."
+    },
+    "facets": [
+      {
+        "q": "The weld was ground flush — does that change which surface method I can use?",
+        "a": "Yes. Grinding smears metal across crack openings, and penetrant cannot enter an opening that has been closed. Magnetic particle still works, because flux leakage does not require the crack to be open. Where penetrant is contractually required after grinding, an etch step must reopen the smeared surface before the penetrant is applied."
+      },
+      {
+        "q": "Can I inspect through paint?",
+        "a": "Not with penetrant or magnetic particle — both need bare metal, and coating removal becomes part of the scope. Eddy current works through a coating of known, stable thickness when calibrated at the same lift-off. ACFM tolerates coating on ferromagnetic weld toes. Where stripping the coating is unacceptable, the method choice is already made for you."
+      },
+      {
+        "q": "What is the smallest crack these methods find?",
+        "a": "No method carries a guaranteed minimum. Detection is set by crack opening, depth, orientation to the field, surface roughness, illumination and operator. The defensible way to state capability is a probability-of-detection curve built for your material, geometry and written procedure on representative flawed specimens — not a single millimetre figure quoted from a brochure."
+      },
+      {
+        "q": "Austenitic stainless weld with suspected toe cracking — what runs?",
+        "a": "Penetrant or eddy current. Austenitic 304 and 316 are non-magnetic, so magnetic particle returns nothing. Fluorescent penetrant is the default for fabrication acceptance; eddy current is the choice when the surface is coated or the weld is in service and stripping is impractical. Duplex grades are a separate case decided by ferrite content."
+      },
+      {
+        "q": "How many magnetising directions does an MT examination need?",
+        "a": "Two orthogonal directions on every surface examined. Leakage flux forms only where the discontinuity cuts across the field, so a crack lying near-parallel to a single applied field produces no indication whatever its size. Rotating the yoke ninety degrees and repeating with overlapping coverage is the requirement — gaps beneath the pole feet under-inspect."
+      },
+      {
+        "q": "When is one surface method not enough?",
+        "a": "When the failure consequence is loss of containment or a fracture-critical component. Two methods with different physics fail differently: penetrant misses closed cracks that magnetic particle finds, and magnetic particle misses parallel-to-flux cracks that penetrant finds. Running the same method twice repeats the same blind spot. Aerospace and nuclear regimes formalise this by stacking methods at different manufacturing stages."
+      }
+    ]
+  },
+  {
+    "route": "/blog/shear-wave-ut-for-thick-section-inspection",
+    "answer": "Refracted angle follows bevel geometry, not preference. The beam must strike the fusion face as near to perpendicular as the joint allows — 70 degrees on thin sections, 60 or 45 degrees as thickness grows, because sound path and attenuation climb with angle. Thick sections need lower frequency, more than one angle, and both half-skip and full-skip passes to cover the whole weld volume.",
+    "expansion": "Two geometric relations control everything at the scanner. Half-skip surface distance from the probe index point is thickness times tan θ, and the sound path is thickness divided by cos θ; full skip doubles both. At 70 degrees the path is 2.9 times section thickness, so on a 100 mm section one leg runs past a quarter metre of steel — attenuation and beam spread wreck signal-to-noise long before the far toe is covered. Dropping to 45 degrees shortens the path to 1.4 times thickness and buys that sensitivity back. Frequency moves the same way: 4 to 5 MHz on thin plate for resolution, 2.25 MHz as the general-purpose choice, 1 to 2.25 MHz on heavy wall where grain scatter dominates. Shear velocity in steel runs near 3230 m/s against 5900 m/s longitudinal, so at equal frequency the shear wavelength is close to half — the resolution gain that pays for the geometric complexity.",
+    "source": "ASME BPVC Section V (2023 Edition), Article 4 — Ultrasonic Examination Methods for Welds; AWS D1.1/D1.1M Structural Welding Code — Steel, which tabulates the required search-unit angle against material thickness; ISO 17640 for ultrasonic testing of welded joints; ISO 10863 for time-of-flight diffraction where thickness defeats amplitude-based pulse-echo.",
+    "table": {
+      "caption": "Angle-beam setup by section thickness",
+      "columns": [
+        "Section thickness",
+        "Refracted angles",
+        "Frequency",
+        "Coverage strategy",
+        "Limiting factor"
+      ],
+      "rows": [
+        [
+          "Under 13 mm (1/2 in)",
+          "70 degrees",
+          "4–5 MHz",
+          "Full skip from one side; the whole volume sits inside one leg",
+          "Dead zone and near-field length relative to thickness; wedge noise"
+        ],
+        [
+          "13–38 mm (1/2–1-1/2 in)",
+          "70 degrees, 60 degrees to confirm",
+          "2.25–5 MHz",
+          "Half skip and full skip, both sides of the weld where access allows",
+          "Root geometry echoes confused with lack of penetration"
+        ],
+        [
+          "38–75 mm (1-1/2–3 in)",
+          "60 and 45 degrees",
+          "2.25 MHz",
+          "Multiple angles, both sides, both surfaces; weld volume split into depth zones",
+          "Sound path length; attenuation across the far third of the volume"
+        ],
+        [
+          "75–150 mm (3–6 in)",
+          "45 degrees, 60 degrees for the upper zone",
+          "1–2.25 MHz",
+          "Half skip only, scanning from both surfaces; transverse scan for cracks along the weld axis",
+          "Beam spread and attenuation; index-point drift on curved surfaces"
+        ],
+        [
+          "Over 150 mm (6 in)",
+          "45 degrees plus tandem pairs or PAUT sectorial",
+          "1–2 MHz",
+          "Tandem for vertically oriented fusion-face flaws; TOFD for through-wall sizing",
+          "Amplitude response no longer sizes reliably at that path length"
+        ],
+        [
+          "Austenitic or clad, any thickness",
+          "Shear wave unreliable",
+          "1–2 MHz",
+          "Dual-matrix transmit-receive longitudinal, or TOFD",
+          "Coarse columnar grain scatters and skews the shear beam"
+        ]
+      ],
+      "note": "These angles are the engineering starting point; the applicable code tabulates the required search-unit angle against thickness and that table governs. Thickness bands are cumulative — a 100 mm weld gets the thick-section coverage strategy, not just the thick-section angle."
+    },
+    "facets": [
+      {
+        "q": "Why not use 70 degrees on everything?",
+        "a": "The sound path at 70 degrees is 2.9 times section thickness against 1.4 at 45 degrees. On heavy wall that multiplies attenuation loss and widens beam spread, dropping far-side flaw signals below reference level. The 70 degree probe earns its place on thin sections, where a shallower angle would put the full-skip index point beyond the reachable scanning surface."
+      },
+      {
+        "q": "How far back from the weld do I scan?",
+        "a": "Half-skip distance from the index point is section thickness times tan θ; full skip doubles the thickness term, and half the weld cap width is added to reach the centreline. At 45 degrees on 50 mm that is 50 mm to half skip and 100 mm to full skip. Confirm scanning-surface clearance before writing the technique — obstructions decide angle as often as physics does."
+      },
+      {
+        "q": "Do I need to scan from both sides of the weld?",
+        "a": "Both sides where access allows. A planar flaw on one fusion face reflects poorly to a probe approaching from the same side at an unfavourable angle, so single-sided coverage leaves a real detection gap. Where nozzle welds or pipe-to-shell joints force one-sided access, record it as a technique limitation; phased array sectorial scanning is what recovers the missing angles."
+      },
+      {
+        "q": "Why does shear wave fail on austenitic stainless and clad welds?",
+        "a": "Coarse columnar grains growing along the solidification direction scatter and refract the shear beam. The beam skews off its nominal angle, the noise floor climbs, and a real flaw signal cannot be separated from grain noise. Low-frequency dual-matrix transmit-receive longitudinal probes or time-of-flight diffraction replace it, both chosen because longitudinal waves scatter less in that structure."
+      },
+      {
+        "q": "Amplitude says the flaw is rejectable — does it tell me the height?",
+        "a": "Not on thick sections. Amplitude response is governed by flaw orientation and face roughness as much as by size, and a badly oriented planar flaw returns very little. Through-wall height for fitness-for-service input comes from tip-diffraction technique or time-of-flight diffraction, which measure arrival time rather than echo strength. Workmanship acceptance uses amplitude; engineering critical assessment does not."
+      },
+      {
+        "q": "What calibration proves the technique before scanning starts?",
+        "a": "Three things, all recorded. Refracted angle and probe index point verified on a calibration block at the wedge temperature you will scan at. A distance-amplitude correction curve or reference level built from the specified reference reflectors. Then transfer correction measured on the component itself, covering the difference in surface roughness and attenuation between block and part."
+      }
+    ]
+  },
+  {
+    "route": "/magnetic-particle-testing",
+    "answer": "Choose the magnetising technique from the crack orientation you expect, not from what is in the van. A yoke finds cracks lying across the pole-to-pole line and is blind to those parallel to it. A coil finds circumferential cracks; a central conductor finds axial ones. Every technique has a blind orientation, which is why each surface is magnetised in two orthogonal directions.",
+    "expansion": "Field direction is the whole method. Leakage flux forms only where a discontinuity cuts across the flux path, so detection collapses as the crack rotates toward parallel with the field — which makes two orthogonal shots per surface a requirement rather than good practice. Current type sets depth: alternating current confines flux to a thin surface layer through skin effect, making an AC yoke a surface-breaking instrument, while direct and half-wave rectified current drive flux deeper and reach flaws sitting just beneath the surface. Lifting power reflects that split — 4.5 kg for AC and 18 kg for DC at maximum pole spacing. Neither number proves the field is adequate inside the part; only a field indicator does that. A pie gauge shows direction, a shim placed on the actual inspection surface shows a real flux level reached the actual geometry, and on complex shapes those two disagree often enough that the shim is the one to trust.",
+    "source": "ASME BPVC Section V (2023 Edition), Article 7 — Magnetic Particle Examination; ASTM E709 Standard Guide for Magnetic Particle Testing; ASTM E1444/E1444M Standard Practice for Magnetic Particle Testing; ISO 9934-1 and ISO 17638 for the ISO stack.",
+    "table": {
+      "caption": "Magnetising technique versus the crack it will and will not find",
+      "columns": [
+        "Technique",
+        "Field produced",
+        "Finds cracks oriented",
+        "Misses",
+        "Where specified"
+      ],
+      "rows": [
+        [
+          "Yoke, AC",
+          "Longitudinal field between the two poles, held near the surface by skin effect",
+          "Across the pole-to-pole line",
+          "Cracks parallel to the pole line; anything below the surface skin",
+          "ASME V Article 7; ASTM E709; ISO 17638 — lifting power 4.5 kg"
+        ],
+        [
+          "Yoke, DC or permanent magnet",
+          "Longitudinal field between the poles, penetrating deeper into the section",
+          "Across the pole-to-pole line, including flaws slightly below the surface",
+          "Cracks parallel to the pole line; deep flaws",
+          "ASME V Article 7; ASTM E709 — lifting power 18 kg"
+        ],
+        [
+          "Prods",
+          "Circular field encircling the current path between the prod tips",
+          "Parallel to the prod-to-prod line",
+          "Cracks across the prod line; anything outside the effective prod spacing",
+          "ASME V Article 7 — arc-strike risk; owner approval required on pressure-boundary welds"
+        ],
+        [
+          "Encircling coil",
+          "Longitudinal field along the part axis",
+          "Circumferential, transverse to the part axis",
+          "Axial cracks; part ends where fill factor and length-to-diameter ratio fall short",
+          "ASME V Article 7; ASTM E1444/E1444M"
+        ],
+        [
+          "Central conductor",
+          "Circular field around the bore, strongest at the inner surface",
+          "Axial, on bore and outer surface",
+          "Circumferential cracks; the outer surface of heavy-wall parts where field strength falls away",
+          "ASME V Article 7"
+        ],
+        [
+          "Direct contact, head shot",
+          "Circular field around the current path through the part",
+          "Axial, along the current path",
+          "Circumferential cracks; burn and overheating risk at the contact pads",
+          "ASME V Article 7; ASTM E1444/E1444M"
+        ]
+      ],
+      "note": "Every row has a blind orientation. That is the reason for the two-direction rule — no single technique covers a surface on its own."
+    },
+    "facets": [
+      {
+        "q": "AC or DC yoke for an in-service weld?",
+        "a": "AC when the target is surface-breaking cracking — toe fatigue, hydrogen cracking, service-induced cracks — because skin effect concentrates flux exactly where those cracks open. DC or half-wave rectified when the concern is near-surface porosity, inclusions or lack of fusion under a thin skin. Fabrication acceptance regimes call surface-breaking, so AC covers the bulk of weld work."
+      },
+      {
+        "q": "The lifting-power check passed — is the field strong enough?",
+        "a": "No. Lifting power qualifies the yoke, not the examination. It is measured on a flat test weight at maximum pole spacing, which no real component resembles. Field adequacy in the actual part is proved on the part: a pie gauge for direction and a shim on the inspection surface for level. Curvature, section change and pole contact all cut the delivered field."
+      },
+      {
+        "q": "Why can prods be refused on a pressure-boundary weld?",
+        "a": "Prods pass examination current through the component at the contact tip, and a poor contact arcs. An arc strike leaves a localised hard, untempered martensitic spot carrying microcrack risk in the heat-affected zone — a new defect created by the inspection itself. Owner specifications require written approval, arc-strike mitigation, and removal plus re-examination of any strike found."
+      },
+      {
+        "q": "Duplex stainless — is MT valid?",
+        "a": "Partially. Duplex grades contain ferrite and respond to a magnetic field, but the response tracks ferrite content and the weld metal behaves differently from the base metal. Do not assume yoke settings transfer from carbon steel. Qualify the technique on a representative sample with a shim on the actual weld and record the ferrite basis. Where response is weak, penetrant is the defensible method."
+      },
+      {
+        "q": "Does the part need demagnetising after examination?",
+        "a": "Whenever residual field would interfere with the next operation — machining where chips cling to the cutting edge, subsequent arc welding where residual field deflects the arc, nearby instrumentation or bearings, or a customer specification setting a residual limit. Structural steel left in place after examination is the common exception. Measure with a field indicator and record the result either way."
+      },
+      {
+        "q": "Where in the fabrication sequence should MT run?",
+        "a": "On the final surface condition and after any post-weld heat treatment, because PWHT can open cracks that were tight before and hydrogen cracking is delayed. Aerospace forging practice examines after each machining stage and again after final heat treatment, since machining exposes subsurface flaws and heat treatment initiates new ones. Examining before the last operation examines the wrong surface."
+      }
+    ]
   }
 ]

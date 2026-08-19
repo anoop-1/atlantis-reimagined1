@@ -3132,6 +3132,19 @@ const App = () => (
                   <Route path="/consulting/nadcap-ac7114-audit-readiness" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/nas-410-responsible-level-3" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ndt-level-3-exam-oversight" element={<LazyRoute Component={DepthPage} />} />
+                  {/* Industry consulting, rebuilt 2026-08-19. The first five of
+                      these already existed and earned zero impressions between
+                      them, because each was generic copy with the sector name
+                      swapped in. Rebuilt on audit readiness and documentation
+                      support, which the competitor audit found unserved. */}
+                  <Route path="/consulting/nuclear-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aerospace-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aviation-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/offshore-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/oil-gas-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/petrochemical-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/energy-utilities-ndt-consulting" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />
