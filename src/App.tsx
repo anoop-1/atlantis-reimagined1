@@ -3169,6 +3169,15 @@ const App = () => (
                   <Route path="/ndt-training-great-lakes" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-training-mid-atlantic" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-training-appalachia" element={<LazyRoute Component={DepthPage} />} />
+                  {/* Blogs from validated research briefs, 2026-08-19. The Basic
+                      exam guide is perishable — reference editions changed
+                      1 Jan 2026, so every incumbent page is stale by definition. */}
+                  <Route path="/blog/asnt-level-3-basic-exam-guide-2026" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/asnt-level-3-recertification-points" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/paut-level-2-certification-requirements" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/snt-tc-1a-written-practice-requirements" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-level-2-to-level-3-pathway" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/welder-to-ndt-inspector-us-career-path-2026" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-methods-comparison" element={<LazyRoute Component={NDTMethodsComparison} />} />
                   <Route path="/ndt-certification-guide" element={<LazyRoute Component={NDTCertificationGuide} />} />
                   <Route path="/corrosion-mapping" element={<LazyRoute Component={CorrosionMapping} />} />

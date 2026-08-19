@@ -8692,5 +8692,1084 @@
         "a": "The training weeks are short; the schedule driver is the supervised experience the Written Practice requires before Level II certification in each method. Contractors building from experienced-but-uncertified hands move fastest, because documented prior experience counts as the Written Practice allows. Plan cohorts a season ahead — scoped and quoted on request — rather than against a dig list that has already landed."
       }
     ]
+  },
+  {
+    "slug": "/blog/asnt-level-3-basic-exam-guide-2026",
+    "title": "ASNT Level III Basic Exam Guide 2026 | New Reference Editions",
+    "description": "The ASNT Level III Basic exam changed its reference editions on 1 January 2026: SNT-TC-1A 2024 and CP-189 2024 now apply. 135 questions, 4 hours, closed book — here is exactly what to study.",
+    "h1": "ASNT Level III Basic Exam Guide 2026: New Reference Editions, Same 135 Questions",
+    "answer": "Candidates sitting the ASNT NDT Level III Basic exam after 1 January 2026 are tested against the 2024 editions of SNT-TC-1A and ANSI/ASNT CP-189 — the 2020 editions are no longer the exam references. The exam itself is unchanged: 135 multiple-choice questions, 4 hours, closed book, delivered by computer.",
+    "expansion": "The edition change matters more on the Basic exam than it would on a method exam because roughly a third of the Basic content is certification-program knowledge drawn directly from SNT-TC-1A and CP-189. Questions cite what the current document says — not what a candidate memorized from an older printing. ASNT's Level III Study Guide: Basic was reissued as a 5th edition specifically to align with the 2024 references, so the study guide edition you buy is now as important as the standards themselves.",
+    "source": "ASNT Certification Services — ASNT NDT Level III examination specifications and recommended references, certification.asnt.org; ASNT Store listings for SNT-TC-1A (2024) and Level III Study Guide: Basic, 5th ed. Verified August 2026.",
+    "table": {
+      "caption": "ASNT Level III Basic exam 2026: mechanics and reference documents at a glance",
+      "columns": [
+        "Element",
+        "Detail (2026)",
+        "What changed on 1 January 2026"
+      ],
+      "rows": [
+        [
+          "Question count",
+          "135 multiple-choice questions, equally weighted",
+          "Unchanged"
+        ],
+        [
+          "Time allowed",
+          "4 hours (about 1 minute 45 seconds per question)",
+          "Unchanged"
+        ],
+        [
+          "Book policy",
+          "Closed book — no codes, standards, or notes in the exam room",
+          "Unchanged"
+        ],
+        [
+          "Delivery",
+          "Computer-based examination",
+          "Unchanged"
+        ],
+        [
+          "SNT-TC-1A (Recommended Practice)",
+          "2024 edition is the exam reference",
+          "Replaced the 2020 edition"
+        ],
+        [
+          "ANSI/ASNT CP-189 (Standard)",
+          "2024 edition is the exam reference",
+          "Replaced the 2020 edition"
+        ],
+        [
+          "ASNT CP-105 (Topical Outlines)",
+          "Current edition used for training-outline questions",
+          "Study materials realigned to the 2024 outline set"
+        ],
+        [
+          "ASNT Level III Study Guide: Basic",
+          "5th edition, aligned to the 2024 references",
+          "4th edition no longer matches the exam"
+        ],
+        [
+          "Content coverage",
+          "Certification programs; materials, fabrication and process technology; general knowledge of NDT methods",
+          "Same domains, tested against updated documents"
+        ],
+        [
+          "Result if certification later lapses",
+          "Reapply as a new candidate and re-sit Basic plus method exams",
+          "Unchanged — the strongest reason to pass once and renew on time"
+        ]
+      ],
+      "note": "Confirm the current recommended-reference list on certification.asnt.org before booking — ASNT updates it between editions, and the exam always follows the published list, not any single study guide."
+    },
+    "facets": [
+      {
+        "q": "How many questions are on the ASNT Level III Basic exam?",
+        "a": "The ASNT Level III Basic exam contains 135 equally weighted multiple-choice questions with a 4-hour time limit. It is closed book and delivered by computer. That works out to roughly 1 minute 45 seconds per question, so pacing practice matters as much as content knowledge."
+      },
+      {
+        "q": "Is the ASNT Level III Basic exam open book?",
+        "a": "No. The Basic exam is closed book — no copies of SNT-TC-1A, CP-189, or personal notes are permitted in the exam room. Candidates must recall requirements language, responsibilities by certification level, and program-administration rules from memory, which is why the edition studied must match the edition tested."
+      },
+      {
+        "q": "What changed for the Basic exam in 2026?",
+        "a": "Effective 1 January 2026, ASNT replaced the 2020 editions of SNT-TC-1A and ANSI/ASNT CP-189 with the 2024 editions as the exam's recommended references. The question count, time limit, and closed-book format did not change — only the documents the questions are written against."
+      },
+      {
+        "q": "Can I still study from the 2020 edition of SNT-TC-1A?",
+        "a": "You can, but you will lose questions. The 2024 edition reorganized and updated requirements language, and exam questions reflect the current text. A candidate quoting the 2020 edition's wording or paragraph structure will pick distractors that were written to catch exactly that mismatch."
+      },
+      {
+        "q": "Do I take the Basic exam for every NDT method?",
+        "a": "No. The Basic exam is taken once. Method exams (UT, RT, MT, PT, VT, ET, and others) are separate examinations sat per method. As long as you hold at least one valid ASNT NDT Level III certificate, you do not repeat the Basic when adding or renewing methods by examination."
+      },
+      {
+        "q": "What score do I need to pass the ASNT Basic exam?",
+        "a": "ASNT reports Level III results as pass or fail against a criterion-referenced cut score set through its examination-development process; it does not publish a fixed universal percentage for candidates to target. Preparation guidance from experienced Level IIIs is to train to comfortable mastery of the reference documents rather than to a number."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What actually changed on 1 January 2026 — and why it costs points",
+        "paragraphs": [
+          "ASNT's published notice is short and easy to underestimate: for anyone taking the Level III Basic exam after 1 January 2026, the 2020 editions of SNT-TC-1A and CP-189 have been replaced by the 2024 editions as the recommended references. Nothing about the exam's shape changed — still 135 questions, still 4 hours, still closed book. What changed is the text every certification-program question is written against.",
+          "The cost shows up in a specific way. Basic exam questions on personnel qualification quote or paraphrase current requirements language: who certifies whom, what an employer's written practice must contain, how examinations are graded and documented, what a Level III is responsible for. When an edition revises a definition or moves a requirement, old-edition answers become well-crafted wrong options. Candidates who prepared thoroughly from the 2020 books routinely report the exam 'felt off' — it wasn't off, it was current.",
+          "The practical rule for 2026 candidates: buy or borrow the 2024 editions of both documents before opening a question bank. Question banks and flashcard decks circulating online were mostly built against 2016 and 2020 editions, and rehearsing superseded answers is worse than not rehearsing at all."
+        ]
+      },
+      {
+        "heading": "Exam mechanics: 135 questions, 4 hours, closed book — and the pacing math",
+        "paragraphs": [
+          "The ASNT Level III Basic exam gives you 240 minutes for 135 equally weighted multiple-choice questions — a shade under 1 minute 45 seconds each. Experienced candidates describe the time pressure as moderate but real: recall questions on SNT-TC-1A responsibilities take 30 seconds, while materials-and-processes questions involving a scenario can absorb three minutes. Banking time on the fast questions is the strategy, not splitting time evenly.",
+          "Closed book means genuinely closed: no standards, no formula sheets, no notes. The computer-based format allows flagging and returning to questions, so a first pass answering everything you know cold, followed by a second pass on flagged items, uses the format to full advantage. Because all 135 questions carry equal weight, an unanswered hard question costs exactly as much as an unanswered easy one — never leave blanks.",
+          "One structural fact removes a common anxiety: the Basic is sat once per career, not once per method. Pass it, add method exams as your scope grows, and you never see it again — unless certification is allowed to lapse entirely, in which case ASNT treats you as a new candidate and the Basic returns to the schedule. That expiry cliff is covered in our companion guide to Level III recertification points."
+        ]
+      },
+      {
+        "heading": "What the Basic exam actually tests: three knowledge territories",
+        "paragraphs": [
+          "The Basic exam content splits into three broad territories, and they reward different kinds of preparation. The first is certification-program knowledge: SNT-TC-1A, CP-189, and the structure of qualification and certification itself — training and experience recommendations, examination administration, responsibilities of Level I, II, and III personnel, and what belongs in an employer's written practice. This territory is pure document knowledge, and it is where the 2024 edition change bites.",
+          "The second territory is materials, fabrication, and process technology: how discontinuities originate in castings, forgings, welds, and rolled products; heat treatment; mechanical properties; and which flaw types each manufacturing process produces. These questions test whether a Level III can reason from process to probable defect — the judgment that method selection depends on. ASNT's Materials and Processes for NDT Technology text is the standard preparation source here.",
+          "The third territory is general familiarity with the major NDT methods at roughly a Level II depth of breadth: the physics, capabilities, and limitations of UT, RT, MT, PT, VT, ET and companion techniques. You are not expected to be a Level III in every method — you are expected to know enough about each to supervise a program that uses them and to recognize when a method is being misapplied."
+        ]
+      },
+      {
+        "heading": "SNT-TC-1A 2024 versus 2020: study the current text, not a change summary",
+        "paragraphs": [
+          "SNT-TC-1A is a recommended practice — 'should' language — that employers adapt into a binding written practice. The 2024 edition continues that model, but revised editions of SNT-TC-1A historically adjust definitions, reorganize paragraphs, and tighten wording around examinations, and memorized 2020 paragraph references do not reliably map onto the 2024 text. Rather than working from a second-hand list of changes, the dependable approach is to study the 2024 document itself, cover to cover, with particular attention to definitions and the examination sections.",
+          "CP-189 deserves separate respect because it is a different kind of document. Where SNT-TC-1A recommends, ANSI/ASNT CP-189 is an American National Standard — 'shall' language, minimum requirements that cannot be reduced by an employer's written practice. Basic exam questions probe exactly this distinction: what an employer may modify under SNT-TC-1A versus what CP-189 mandates, including its requirement that a certified NDT Level III be involved in specific program functions. Candidates who study both documents side by side, tracking where they diverge, consistently report that comparison questions became easy points.",
+          "A worked study tactic: build a two-column table of topics — qualification records, eligibility, examination grading, recertification, interrupted service — and note what each 2024 document says. The act of building the table is the study; the exam rewards knowing which document says what."
+        ]
+      },
+      {
+        "heading": "A study sequence that fits working inspectors",
+        "paragraphs": [
+          "A preparation sequence that has worked for practicing technicians studying around full-time inspection work: first read SNT-TC-1A 2024 and CP-189 2024 in full — they are short documents, and a complete read takes an evening each. Second, work through the ASNT Level III Study Guide: Basic, 5th edition, which is aligned to the 2024 references and flags the concepts ASNT considers examinable. Third, spend the longest block on materials and processes, because it is the largest body of content and the least familiar to inspectors who came up through a single method.",
+          "Only after those three passes should question banks enter the picture, and then only as a diagnostic — identifying weak territories to re-read, not as the primary learning tool. Most freely circulating Basic question sets predate the 2024 editions, so treat any question about program requirements with suspicion and verify the answer against the current text before accepting it.",
+          "We maintain a fuller week-by-week preparation plan, including how to split hours across the three territories, in our ASNT Level III study guide resource — it pairs with this exam-mechanics guide and is updated for the 2026 reference editions."
+        ]
+      },
+      {
+        "heading": "Eligibility and application: get the experience documentation right first",
+        "paragraphs": [
+          "Eligibility for the ASNT NDT Level III examinations rests on a sliding scale of formal education and NDT experience: more accredited engineering or science education means fewer required years of experience in an assignment comparable to Level II, and candidates with no post-secondary education qualify through additional years of experience alone. ASNT verifies this at application, so the exact current combinations should be read from ASNT's published eligibility criteria rather than from any secondary source, including this one.",
+          "The application itself fails candidates more often than the eligibility rules do. Experience must be documented — employer attestations covering dates, methods, and the level of responsibility — and gaps or vague descriptions trigger requests for clarification that can push a candidate past their intended exam window. Assemble the employment evidence before paying the exam fee, and have a current or former supervisor confirm they will attest to it.",
+          "Book the exam only after the 2024-edition study materials are in hand. A common and expensive pattern in 2026: candidates who scheduled early against a 2020-edition study plan, then discovered the reference change with weeks to go. The exam date should serve the preparation, not the reverse."
+        ]
+      },
+      {
+        "heading": "After the Basic: method exams, and where a corporate Level III program comes in",
+        "paragraphs": [
+          "Passing the Basic unlocks nothing by itself — ASNT NDT Level III certification in a method requires the Basic plus that method's examination. Most candidates sit the Basic and their first method exam in the same period while the study momentum holds. Each additional method later is a method exam only, which is why experienced Level IIIs accumulate methods over a career at relatively low marginal effort.",
+          "For employers, a newly certified Level III is the beginning of a program, not the end. Someone must translate SNT-TC-1A 2024 into a compliant written practice, build method examinations, keep qualification records audit-ready, and administer Level I and II certification — and the 2024 edition change means every written practice referencing the 2020 edition is now due for revision. Companies without a full-time Level III routinely outsource exactly this function.",
+          "Atlantis provides outsourced ASNT Level III services — written practice development to the 2024 editions, examination administration and oversight, and certification-program audits — for inspection companies and asset owners in the US and internationally. The service is affordable, accessible, and fully customizable to your written practice; details and a quote are available on request through our NDT Level III exam oversight consulting page."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the ASNT Basic exam references change to the 2024 editions?",
+        "a": "For all Basic exams taken after 1 January 2026, ASNT lists the 2024 editions of SNT-TC-1A and ANSI/ASNT CP-189 as the recommended references, replacing the 2020 editions. Candidates who sat the exam in 2025 were still tested against the 2020 editions."
+      },
+      {
+        "q": "How long is ASNT Level III certification valid, and what if it expires?",
+        "a": "ASNT NDT Level III certification runs on a five-year (60-month) cycle, renewable by points or by re-examination of the method exams. If certification is allowed to lapse past its expiration date, ASNT requires reapplying as a new candidate — including re-sitting the Basic exam — which makes on-time renewal far cheaper than recovery."
+      },
+      {
+        "q": "Is the ASNT Level III Basic exam harder than the method exams?",
+        "a": "Most candidates report the Basic as broader but shallower: it demands working knowledge of certification documents, materials and process technology, and every major NDT method, while a method exam demands depth in one. Inspectors from a single-method background usually find materials and processes the hardest territory, not the method questions."
+      },
+      {
+        "q": "Which study guide edition matches the 2026 Basic exam?",
+        "a": "The ASNT Level III Study Guide: Basic, 5th edition, which is aligned to the 2024 editions of SNT-TC-1A, CP-189, and the CP-105 topical outlines. The 4th edition tracks the superseded 2020 references and will teach answers the 2026 exam no longer accepts."
+      },
+      {
+        "q": "Does Atlantis run ASNT Level III exam preparation?",
+        "a": "Atlantis provides NDT training through Level III and outsourced Level III consulting, including written practice development to the 2024 editions and examination oversight. We do not administer the ASNT exams themselves — those are booked directly with ASNT — but we prepare candidates and build the employer-side program around them. Quotes on request."
+      }
+    ]
+  },
+  {
+    "slug": "/blog/asnt-level-3-recertification-points",
+    "title": "ASNT Level III Recertification Points: The 25-Point System Explained",
+    "description": "ASNT Level III renewal needs 25 points over 60 months — but most rejected applications fail on documentation, not points. Every category, cap, and evidence requirement, plus the points-vs-exam decision.",
+    "h1": "ASNT Level III Recertification Points: How the 25-Point Renewal Actually Works",
+    "answer": "ASNT NDT Level III renewal by points requires a minimum of 25 points earned during the five-year (60-month) certification period, documented activity by activity, plus evidence of active NDT employment performing Level III functions for at least 36 months of that period per method being renewed.",
+    "expansion": "Every point category carries its own evidence requirement and its own cap, so a compliant application is assembled, not remembered. ASNT audits renewal records, and its Certification Management Council makes the final call on questionable documentation — which means the standard to write to is a QA auditor's, not a résumé's. Level IIIs who keep a running evidence folder from year one of the cycle renew in an afternoon; those who reconstruct five years of activity in the final 60 days are the ones who end up re-sitting method exams instead.",
+    "source": "ASNT Certification Services — Recertification point categories, structure, and documentation requirements; ASNT NDT Level III recertification requirements, certification.asnt.org. Verified August 2026.",
+    "table": {
+      "caption": "ASNT Level III renewal point categories: rates, caps, and the documentation that survives audit",
+      "columns": [
+        "Category",
+        "Activity",
+        "Point rate",
+        "Category cap",
+        "Documentation ASNT accepts"
+      ],
+      "rows": [
+        [
+          "A1",
+          "Teaching NDT courses with academic credit or IACET CEUs",
+          "1 pt per 2 contact hours",
+          "16 pts (A1+A2 combined)",
+          "Course outline showing NDT subject and hours, plus IACET certificate or catalog entry naming you as instructor"
+        ],
+        [
+          "A2",
+          "Teaching NDT courses without academic credit/CEUs",
+          "1 pt per 2 contact hours",
+          "10 pts (within A1+A2)",
+          "Training outline and student records showing hours, subject, instructor name"
+        ],
+        [
+          "B",
+          "Taking NDT classroom or computer-based training",
+          "1 pt per 4 contact hours",
+          "10 pts",
+          "Certificate, transcript, or diploma showing contact hours, subject, and your participation"
+        ],
+        [
+          "C",
+          "Authoring technical NDT presentations at society meetings",
+          "2 pts per initial presentation",
+          "8 pts",
+          "Meeting notice or published program showing title, presenter, date"
+        ],
+        [
+          "D",
+          "Attending technical sessions at ASNT sections or national NDT meetings",
+          "1 pt per 3 contact hours",
+          "10 pts",
+          "Attendance certificate with activity title, date, location, content"
+        ],
+        [
+          "E",
+          "Publishing a peer-reviewed NDT paper or full article",
+          "3 pts per paper",
+          "12 pts",
+          "First page of the published paper showing title, authors, publication, date"
+        ],
+        [
+          "F",
+          "Short technical tips in NDT publications",
+          "1 pt per published tip",
+          "6 pts",
+          "Published page with byline, or editor's confirmation"
+        ],
+        [
+          "G",
+          "ASNT publication development or technical review",
+          "Varies",
+          "15 pts",
+          "Letter or email from the ASNT editor attesting to the work (must be requested)"
+        ],
+        [
+          "H",
+          "NDT-related technical society committee projects",
+          "2 pts per completed project",
+          "12 pts",
+          "Committee minutes or correspondence identifying your role"
+        ],
+        [
+          "I",
+          "Other current NDT-related certifications (CWI, API, AMPP, ASQ...)",
+          "1 pt per certification",
+          "5 pts",
+          "Copy of the currently valid certificate"
+        ],
+        [
+          "J",
+          "ASNT membership",
+          "1 pt per year",
+          "5 pts",
+          "Membership verification with dates or payment receipt"
+        ],
+        [
+          "K",
+          "Proctoring ASNT examinations",
+          "1 pt per half-day session",
+          "6 pts",
+          "Copy of the proctor agreement with ASNT Certification Services"
+        ],
+        [
+          "L",
+          "External NDT audits (facilities other than your own)",
+          "2 pts per audit",
+          "8 pts",
+          "Letter from the audited facility attesting to the audit"
+        ],
+        [
+          "M",
+          "NDT-related patents applied for or granted",
+          "4 pts per patent",
+          "12 pts",
+          "Application notice or granted patent, dated within the current 5-year period"
+        ]
+      ],
+      "note": "CEU conversion: 1 IACET CEU = 10 contact hours = 2.5 ASNT recertification points. Writing procedures or manuals for your own employer earns nothing — routine work product is excluded. Verify current rates and caps against ASNT's live category page before filing."
+    },
+    "facets": [
+      {
+        "q": "How many points do I need to renew ASNT Level III?",
+        "a": "A minimum of 25 points earned within your current five-year (60-month) certification period, spread across ASNT's lettered activity categories, each with its own cap. Points from a previous cycle do not carry forward, and activities must be documented to audit standard, not just listed."
+      },
+      {
+        "q": "How do CEUs convert to ASNT recertification points?",
+        "a": "One IACET CEU equals 10 contact hours, which equals 2.5 ASNT recertification points. Training you attend earns 1 point per 4 contact hours (Category B, capped at 10 points); training you teach earns 1 point per 2 contact hours (Categories A1/A2, higher combined cap)."
+      },
+      {
+        "q": "What is the ASNT active-employment rule for renewal?",
+        "a": "Renewal by points also requires continued active NDT employment performing Level III functions in each method being renewed for at least 36 months of the 60-month certification period, supported by employment documentation. Points alone do not renew a certificate for someone who has left Level III work."
+      },
+      {
+        "q": "Why do ASNT renewal applications get rejected?",
+        "a": "Overwhelmingly on documentation. ASNT audits renewal records annually, and evidence missing contact hours, dates, your name, or third-party attestation gets points disallowed. An application claiming 30 points can fail if only 20 survive audit — which is why experienced Level IIIs bank 30-35 documented points before filing."
+      },
+      {
+        "q": "Can I renew ASNT Level III by exam instead of points?",
+        "a": "Yes. Recertification by examination means re-sitting the relevant method exams before your expiration date — the Basic exam is not repeated as long as you hold at least one valid ASNT Level III certificate. It is the standard fallback when points or employment documentation fall short."
+      },
+      {
+        "q": "What happens if my ASNT Level III certification expires?",
+        "a": "A lapsed certification cannot be renewed. ASNT requires reapplying as a new candidate: new application, new eligibility documentation, and passing all applicable examinations again — including the Basic. The expiry cliff is absolute, which is why ASNT accepts renewal applications up to six months early."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The real failure mode: documentation, not points",
+        "paragraphs": [
+          "Ask Level IIIs who have been through an ASNT renewal audit and a pattern emerges: almost nobody fails to do 25 points' worth of NDT activity in five years. Teaching, training, conferences, ASNT membership, and adjacent certifications accumulate naturally in a working Level III's career. What fails is the evidence. A training certificate that omits contact hours earns zero Category B points regardless of how long the course ran. A conference badge proves nothing without a certificate of attendance stating title, date, location, and content.",
+          "ASNT states the standard plainly: renewal records are audited every year, and where documentation is questioned, the Certification Management Council makes the final decision. That is QA-auditor logic — objective evidence or it didn't happen — applied to your own credential. The applications that sail through are assembled the way a good inspection report is: every claim traceable to a document a stranger could verify.",
+          "Two exclusions catch people every cycle. Work product for your own employer — procedures, written practices, manuals you were paid to write — earns no points, however substantial. And leadership titles (section chair, committee officer) earn nothing by themselves; only documented technical project contributions under Category H count. The system rewards evidenced technical activity, not position."
+        ]
+      },
+      {
+        "heading": "The 25-point math: where working Level IIIs actually find their points",
+        "paragraphs": [
+          "A realistic 25-point plan for a practicing Level III leans on four categories. ASNT membership (Category J) contributes 1 point per year — 5 points across the cycle for doing nothing but staying a member. Currently valid adjacent certifications (Category I) — AWS CWI, API credentials, AMPP, ASQ — add 1 point each up to 5. Attending technical sessions at ASNT section meetings or national conferences (Category D) yields 1 point per 3 contact hours up to 10 points; one conference plus a handful of section meetings usually maxes it. That is potentially 20 points from ordinary professional life.",
+          "The remaining 5 points come easiest from Category B training — 1 point per 4 contact hours of NDT training taken, capped at 10 points, so a single 20-hour course closes the gap — or from teaching. Level IIIs who instruct earn at twice the rate they learn: 1 point per 2 contact hours under A1/A2, with the highest combined cap in the system. One 40-hour course taught, properly documented with outlines and student records, is worth up to 20 raw points against the 16-point A-category ceiling.",
+          "The caps force diversification: no single category can carry the whole 25. Map your last five years against the table above before assuming anything — most Level IIIs discover they are either comfortably over or badly under, and rarely in between. Both discoveries are more useful eighteen months before expiry than sixty days before."
+        ]
+      },
+      {
+        "heading": "CEU conversion and the arithmetic that trips people",
+        "paragraphs": [
+          "The conversion chain is fixed: 1 IACET CEU = 10 contact hours = 2.5 ASNT recertification points. Training providers advertise CEUs; ASNT counts contact hours; the exchange rate between them is where applications go wrong. A course advertised as 2.0 CEUs represents 20 contact hours, which under Category B (1 point per 4 contact hours) earns 5 points — not 2 points, and not 20.",
+          "Direction matters as much as arithmetic. The same 20 contact hours earn 5 points if you sat the course (Category B), but 10 points if you taught it (Category A1/A2, 1 point per 2 contact hours). For a Level III deciding between attending a refresher and delivering one, the points system pays double for standing at the front of the room — a deliberate incentive, since teaching is a core Level III function under SNT-TC-1A.",
+          "Whatever the category, the certificate must state contact hours explicitly. 'Completed the course' with no hour figure converts to zero points at audit. Before leaving any training event, check the certificate for four items: your name, the subject, the date, and the contact hours. Requesting a corrected certificate three years later, from a provider that may no longer exist, is the renewal-season errand nobody enjoys."
+        ]
+      },
+      {
+        "heading": "The active-employment rule: the requirement points cannot substitute for",
+        "paragraphs": [
+          "Renewal by points carries a second, independent requirement that surprises Level IIIs who have moved into management or adjacent roles: continued active employment in NDT, performing Level III functions in each method being renewed, for at least 36 months of the 60-month certification period. Twenty-five immaculately documented points do not renew a certificate for someone who cannot also evidence three years of Level III work per method within the cycle.",
+          "'Level III functions' is the operative phrase, and it is broader than hands-on testing: preparing and approving procedures, administering qualification and certification programs, training and examining personnel, interpreting codes and standards, and providing technical oversight all qualify. A quality manager who approves NDT procedures and examines technicians is performing Level III functions; the employment documentation just needs to say so, in those terms, per method.",
+          "The rule bites hardest on multi-method certificates. A Level III holding UT, RT, MT, and PT who has spent the cycle working purely in UT may find only one method cleanly renewable by points, with the others needing re-examination. Multi-method holders should audit their employment evidence method by method at mid-cycle — while there is still time to document oversight activity in the quiet methods, or plan for the exams."
+        ]
+      },
+      {
+        "heading": "Renewal by points versus recertification by exam: the decision matrix",
+        "paragraphs": [
+          "The decision reduces to four situations. If you have 25-plus audit-proof points and 36 months of documented Level III employment per method: renew by points — cheaper per certificate, no exam risk, processed in weeks. If you have the employment record but thin documentation: spend the remaining cycle time harvesting points (training, section meetings, teaching) rather than gambling that weak evidence survives audit. If documentation cannot be cured in time: recertify by examination — re-sit the method exams before expiry, skipping the Basic as long as one ASNT Level III certificate remains valid. If the certificate has already expired: there is no fourth option; you are a new candidate, Basic exam included.",
+          "Cost pushes the same direction as risk. Under ASNT's published fee schedule, renewal by points starts around $440 for members renewing a single method and scales with method count, while recertification by examination runs roughly $525-$545 per method — plus study time and the possibility of failure. Points renewal is almost always the cheaper path when the evidence supports it; verify current fees on ASNT's site, as the schedule updates.",
+          "The exam route does carry one hidden advantage: it resets your technical currency against the latest reference editions — a consideration since the 2024 editions of SNT-TC-1A and CP-189 became the exam references in January 2026. Level IIIs choosing the exam route in 2026 should study the current editions, as covered in our Basic exam guide, since method exams also track current documents."
+        ]
+      },
+      {
+        "heading": "The timeline and the expiry cliff",
+        "paragraphs": [
+          "ASNT's renewal clock has three marks worth writing down. Applications open six months before expiration — the earliest you can file. Submission and payment must land at least 60 days before expiration — the practical deadline, since processing takes two to four weeks and questioned documentation takes longer. And the expiration date itself, the last day of the month shown on your digital badge, is a cliff, not a slope.",
+          "Past the cliff there is no grace period and no late fee that fixes it. A lapsed ASNT Level III cannot be renewed; ASNT requires a full new-candidate application — eligibility documentation, fees, and every applicable examination passed again, including the Basic exam that current certificate-holders never repeat. Five years of credential, and often a contractual requirement of your employer's clients, evaporates over an administrative miss.",
+          "The defensive calendar is simple: at month 48 of the cycle, audit your points and employment evidence against the table above; at month 54, file if ready or book method exams if not; never plan to use months 58-60 for anything but contingency. Employers should track their Level IIIs' expiration dates in the same system that tracks technician certifications — a lapsed corporate Level III can invalidate an entire written practice's operation overnight."
+        ]
+      },
+      {
+        "heading": "Build the evidence file once — or have someone build it for you",
+        "paragraphs": [
+          "The Level IIIs who renew painlessly all run some version of the same system: a single folder — digital, backed up — with a subfolder per category, fed in real time. Certificate lands, it gets filed with hours visible; conference ends, the attendance certificate goes in the same week; membership renews, the receipt is saved. A one-page running tally maps each document to a category, a point value, and a cap check. Sixty months later, the renewal application is a transcription exercise.",
+          "The same discipline ASNT expects of your renewal file is the discipline audit-heavy industries expect of certification programs generally — and it is exactly the record-keeping load that pushes inspection companies to outsource the Level III function. A corporate Level III program has to maintain this evidence trail not for one credential but for every technician's qualification record, examination, and vision test across the operation.",
+          "Atlantis provides outsourced ASNT Level III consulting for NDT service companies and asset owners: certification-program administration, written practice maintenance to the current 2024 editions, audit-ready record systems, and examination oversight — including keeping your in-house Level IIIs' renewal evidence continuously current so no certificate ever reaches the cliff. The service is affordable, accessible, and fully customizable; a quote is available on request through our NDT Level III consulting page."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do unused ASNT recertification points carry over to the next five-year cycle?",
+        "a": "No. Points must be earned within the current 60-month certification period, and every cycle starts at zero. Documentation must also date the activity inside the cycle — a certificate from month 61 of the previous period earns nothing, which is one more reason to date-stamp evidence as it is filed."
+      },
+      {
+        "q": "Does writing NDT procedures for my employer earn recertification points?",
+        "a": "No. ASNT excludes routine work product — procedures, manuals, written practices produced for your own employer — from the points system. Comparable effort earns points only when it is external and verifiable: peer-reviewed papers (Category E), society committee projects (Category H), or ASNT publication work (Category G)."
+      },
+      {
+        "q": "How early can I submit my ASNT Level III renewal application?",
+        "a": "Up to six months before your expiration date, and ASNT asks for submission and payment at least 60 days before expiry to allow two to four weeks of processing plus time to resolve any documentation questions. Filing at the six-month mark leaves room to fall back to method examinations if points are disallowed."
+      },
+      {
+        "q": "I let one method expire but kept another current — do I retake the Basic exam?",
+        "a": "No. As long as you hold at least one valid ASNT NDT Level III certificate at the time of examination, regaining or adding a method requires only that method's exam. The Basic returns only when every ASNT Level III certificate you hold has lapsed and you must reapply as a new candidate."
+      },
+      {
+        "q": "Do ASNT section meeting attendances really add up to meaningful points?",
+        "a": "Yes — Category D pays 1 point per 3 contact hours for technical sessions at ASNT section or national meetings, capped at 10 points. A section that runs ten two-hour technical meetings a year gives a regular attendee the full cap inside two years, provided each meeting issues attendance documentation showing title, date, location, and content."
+      },
+      {
+        "q": "Can Atlantis manage recertification tracking for our whole Level III and technician staff?",
+        "a": "Yes. Atlantis's outsourced Level III consulting includes certification-matrix management — tracking expiration dates, renewal evidence, examinations, and written practice compliance for Level IIIs and Level I/II technicians alike — delivered alongside our NDT reporting and ERP tooling where wanted. Scope is customizable; quote on request."
+      }
+    ]
+  },
+  {
+    "slug": "/blog/paut-level-2-certification-requirements",
+    "title": "PAUT Level II Certification Requirements: Prerequisites, Hours, Path",
+    "description": "PAUT Level II is not an entry-level ticket: you need current UT Level II first, plus documented phased-array training and experience. The real requirements under SNT-TC-1A 2024 and ISO 9712, and how TOFD stacks on top.",
+    "h1": "PAUT Level II Certification Requirements: Why Phased Array Is Not an Entry Point",
+    "answer": "PAUT Level II certification in the US requires current UT Level II qualification first — phased array is an advanced ultrasonic technique stacked on conventional UT, not a standalone starting method. On top of that base, employers certifying under SNT-TC-1A require dedicated phased-array training (an 80-hour course is the widely used benchmark, matching ASNT's own PA Level II offering) plus documented, supervised phased-array experience before examination.",
+    "expansion": "The confusion is manufactured by the market. Search results for 'PAUT Level 2 certification' are dominated by course catalogues selling seats, and a seat is the middle third of the path, not the whole of it. Two regimes govern the rest: SNT-TC-1A (2024 edition), where the employer's written practice sets the binding numbers and issues the certification, and ISO 9712, where a central body certifies and explicitly requires a current UT Level 2 certificate as the entry condition for phased array. Under both, technicians who arrive without a conventional UT foundation are turned away or fail the practical — focal laws and scan plans do not compensate for weak wave physics.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024) and ASNT Education PA Level II course listing (education.asnt.org); ISO 9712-scheme provider requirements for PA Level 2 prerequisite and hours. Verified August 2026.",
+    "table": {
+      "caption": "PAUT Level II requirements decomposed: SNT-TC-1A employer route vs ISO 9712 central route",
+      "columns": [
+        "Requirement",
+        "SNT-TC-1A (2024) — employer-based",
+        "ISO 9712 — central certification"
+      ],
+      "rows": [
+        [
+          "Entry prerequisite",
+          "Qualified UT Level II under the employer's written practice — PA treated as an advanced UT technique",
+          "Current, valid UT Level 2 certificate required before sitting PA Level 2"
+        ],
+        [
+          "PA training hours",
+          "Set by the written practice; 80 hours is the industry benchmark, matching ASNT's PA Level II course toward SNT-TC-1A recommended training",
+          "Scheme documents specify dedicated PA training; 80 hours is the common figure at accredited providers"
+        ],
+        [
+          "PA experience",
+          "Supervised phased-array time logged per the written practice; providers commonly cite several hundred hours of technique-specific OJT",
+          "Documented PA experience per the scheme, on the order of months, before or shortly after examination depending on scheme rules"
+        ],
+        [
+          "Underlying UT foundation",
+          "SNT-TC-1A recommends roughly 40+40 hours training and 210+630 hours experience through UT Level II",
+          "UT Level 2 certificate already held — foundation examined and closed before PA begins"
+        ],
+        [
+          "Who examines",
+          "Employer's NDT Level III (or outside agency acting for the employer)",
+          "Authorized qualifying body / exam center"
+        ],
+        [
+          "Who certifies",
+          "The employer, in writing, against its written practice",
+          "The central certification body — certificate is portable between employers"
+        ],
+        [
+          "What a course certificate means",
+          "Evidence of training hours only — one input of three",
+          "Evidence of training hours only — exam and experience still required"
+        ],
+        [
+          "TOFD stacking",
+          "Separate technique qualification: additional dedicated training, experience, and examination on top of UT Level II",
+          "Separate TOFD Level 2 certification, same current-UT-Level-2 prerequisite logic"
+        ],
+        [
+          "Vision requirements",
+          "Annual near-vision acuity and color/shade differentiation exams per the written practice",
+          "Vision requirements per the scheme, periodically re-verified"
+        ],
+        [
+          "Recertification",
+          "Per written practice, typically 5-year cycle with interruption-of-service rules",
+          "5-year validity, structured renewal/recertification at 5 and 10 years"
+        ]
+      ],
+      "note": "SNT-TC-1A is a recommended practice: the employer's written practice states the binding hour and experience figures, and may exceed these benchmarks. Always read the written practice or scheme document that will actually certify you before booking any course."
+    },
+    "facets": [
+      {
+        "q": "Can I take PAUT Level II without UT Level II?",
+        "a": "No — not credibly under either regime. ISO 9712 schemes require a current UT Level 2 certificate before phased-array examination, and SNT-TC-1A written practices treat PAUT as an advanced technique layered on a qualified UT Level II. A PA course will sell you a seat without it; no compliant program will certify you without it."
+      },
+      {
+        "q": "How many training hours does PAUT Level II require?",
+        "a": "The working benchmark is 80 hours of dedicated phased-array training on top of the UT Level II foundation — ASNT's own PA Level II course is built to 80 hours toward SNT-TC-1A recommended training, and ISO 9712-scheme providers teach to the same figure. The binding number is whatever your employer's written practice or certification scheme states."
+      },
+      {
+        "q": "Does a PAUT course certificate make me PAUT Level II certified?",
+        "a": "No. A course certificate documents training hours — one of three requirements. Under SNT-TC-1A your employer certifies you only after training, supervised phased-array experience, and written plus practical examination under its written practice. Under ISO 9712 the certification body examines you and verifies experience. Nobody is certified at the classroom door."
+      },
+      {
+        "q": "What is the difference between SNT-TC-1A and ISO 9712 for PAUT?",
+        "a": "Who certifies. Under SNT-TC-1A (2024) the employer certifies against its own written practice, so the certification is employer-specific and lapses when you leave. Under ISO 9712 a central body certifies, the certificate is portable, and the current-UT-Level-2 prerequisite is written into the scheme rather than the employer's document. US industry runs predominantly on SNT-TC-1A."
+      },
+      {
+        "q": "How much experience do I need before PAUT Level II certification?",
+        "a": "Technique-specific, supervised phased-array time on top of the UT experience already banked — SNT-TC-1A leaves the exact figure to the employer's written practice, and providers commonly reference several hundred hours of PA on-the-job training, while ISO 9712 schemes express it as months of PA experience. Log every supervised PA hour from day one; undocumented time counts for nothing."
+      },
+      {
+        "q": "Can I stack TOFD on top of PAUT Level II?",
+        "a": "Yes, and the pairing is the standard advanced-UT package for weld inspection to codes like ASME. TOFD is qualified separately — its own training course, its own logged experience, its own examination — on the same UT Level II foundation. Most technicians add TOFD after consolidating PA field time rather than attempting both courses back to back."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The prerequisite chain nobody selling courses mentions",
+        "paragraphs": [
+          "Phased array sits at the top of a qualification chain, and every link below it is mandatory. The chain reads: UT Level I qualification, then UT Level II qualification with its full training and experience load, then — and only then — dedicated phased-array training, supervised phased-array experience, and a phased-array examination. Course providers advertise the third link because that is the product they sell. The first two links are assumed, and technicians who skip them discover the gap at certification time, after the course fee is spent.",
+          "The logic is physical, not bureaucratic. A phased-array instrument fires the same ultrasound governed by the same wave physics as a conventional flaw detector — mode conversion, beam spread, near-zone effects, attenuation, signal-to-noise judgment. What PA adds is electronic beam steering and focusing through focal laws, sectorial imaging, and encoded data. An operator who cannot predict what a conventional 60-degree shear-wave probe will do cannot troubleshoot a sectorial scan that disagrees with expectation — the instrument's imaging just makes the confusion higher-resolution.",
+          "Under ISO 9712 schemes the chain is explicit: a current, valid UT Level 2 certificate is the documented entry condition for phased-array Level 2 examination. Under SNT-TC-1A the chain lives in the employer's written practice, which qualifies personnel in PAUT as an advanced ultrasonic technique on top of UT Level II. Either way, 'PAUT Level II with no UT background' is not a fast track — it is a category error."
+        ]
+      },
+      {
+        "heading": "The UT Level II foundation: what must already be banked",
+        "paragraphs": [
+          "Before phased array enters the conversation, SNT-TC-1A's recommended figures for conventional UT set the baseline: on the order of 40 hours of formal training for UT Level I and a further 40 hours for Level II, with recommended experience around 210 hours at Level I and 630 more at Level II — roughly 840 supervised hours on the tools. Employers' written practices state the binding numbers and frequently exceed these, but the shape is universal: UT Level II is itself a serious, year-scale qualification.",
+          "That foundation is precisely what the PA course assumes on day one. An 80-hour phased-array syllabus spends its time on focal law computation, delay laws, sectorial and linear scanning, calibration of multi-element probes, wedge geometry, encoder setup, scan-plan development, and data interpretation. It does not re-teach Snell's law, DAC construction, or transfer corrections — there is no time, and the instructors assume fluency. Students without solid UT Level II fundamentals report the same experience: the first two days are survivable, and the calibration and scan-plan work after that is a wall.",
+          "Technicians still building the foundation should route through structured conventional training first — our UT Level II training program covers the full SNT-TC-1A recommended syllabus, and our UT Level II practice question bank shows the examination depth expected before anyone should be spending money on phased array."
+        ]
+      },
+      {
+        "heading": "PA training hours and what an 80-hour course actually contains",
+        "paragraphs": [
+          "The 80-hour figure recurs across the industry for good reason: ASNT's own Phased Array Level II course is built as an 80-hour program counting toward SNT-TC-1A recommended training, and ISO 9712-scheme training providers teach PA Level 2 to the same duration. Under SNT-TC-1A the binding number is whatever the certifying employer's written practice specifies — some accept less for technicians with extensive advanced-UT background, many require the full 80 — but a course materially shorter than that benchmark should prompt questions about what was cut.",
+          "A credible 80-hour PA syllabus splits roughly between theory and hands-on instrument time. Theory covers array transducer physics, focal law generation, beam steering and focusing limits, sectorial versus linear scanning, and code-driven scan-plan design. Practical time goes to instrument calibration (velocity, wedge delay, sensitivity, TCG across the sweep), encoder-driven data acquisition, and analysis of real weld data — sizing, plotting, and accept/reject calls against a code. Courses light on instrument hours produce students who can pass a written quiz and cannot set up a probe.",
+          "Experience is the third component and the one most often left undocumented. SNT-TC-1A puts technique experience under the written practice; providers commonly reference several hundred hours of supervised PA on-the-job time, and ISO 9712 schemes express the requirement as months of PA experience. The operational advice is identical under both: log every supervised phased-array hour — dates, equipment, procedures, supervising Level II/III — from the first day, because unlogged experience does not exist at certification time."
+        ]
+      },
+      {
+        "heading": "Course completion certifies nobody: how certification actually happens",
+        "paragraphs": [
+          "Under SNT-TC-1A — the regime most US employers run — certification is an act the employer performs, not a document a school issues. The sequence: the employer's written practice defines PAUT qualification requirements; the candidate accumulates the training hours (the course) and the supervised experience; the employer's NDT Level III administers written and practical examinations; the employer then certifies the technician in writing, with vision exams current. The course certificate is evidence for exactly one box on that checklist.",
+          "This is why 'PAUT Level II certified' on a résumé means less than it appears until an employer re-certifies it. SNT-TC-1A certification belongs to the employer that issued it and does not transfer — a new employer must certify the technician under its own written practice, though documented prior training and experience carry forward as evidence. Hiring managers in US inspection companies read a PA course certificate as 'trained, certifiable,' not 'certified,' and technicians should describe themselves the same way.",
+          "ISO 9712 inverts the model: an accredited certification body examines the candidate at an authorized center and issues a certificate that is personal and portable across employers, valid for five years with a structured renewal path. The prerequisite logic is the same — current UT Level 2 first — but the certificate survives job changes. Multinational operators and projects specifying European or international codes are where ISO 9712 PA certification is most often demanded in practice."
+        ]
+      },
+      {
+        "heading": "SNT-TC-1A versus ISO 9712: choosing the route that matches your market",
+        "paragraphs": [
+          "For technicians working the US market, the answer is direct: SNT-TC-1A employer certification is the operative system, because ASME-driven work and the vast majority of US inspection companies and asset owners run written practices built on SNT-TC-1A (2024 edition since January 2026) or its mandatory sibling CP-189. A US technician's fastest route to billable PA work is UT Level II under a current employer, the 80-hour PA course, logged PA experience, and employer examination — no central body involved.",
+          "ISO 9712 earns its place in three situations: work destined for international or offshore projects specifying central certification; technicians who change employers often and want a portable credential that does not reset at each written practice; and companies bidding into markets where clients audit against ISO 9712 by name. The cost is real — scheme training, central examination, and renewal cycles — so it is an investment matched to a market, not a default upgrade.",
+          "Plenty of senior PA technicians eventually hold both: employer certification for domestic ASME work, ISO 9712 for the passport effect. The mistake to avoid is the reverse order — pursuing central certification before the conventional UT foundation and field experience exist. Both regimes will stop an underprepared candidate at the same wall: the practical examination, where scan-plan judgment and calibration fluency cannot be crammed."
+        ]
+      },
+      {
+        "heading": "Stacking TOFD on PAUT: the advanced weld-inspection package",
+        "paragraphs": [
+          "PAUT and TOFD travel together in code-driven weld inspection because they compensate for each other's blind spots: phased array delivers amplitude-based detection and sizing with flexible beam angles, while time-of-flight diffraction delivers through-wall sizing accuracy from diffracted tip signals that barely depend on amplitude at all. Codes and procedures for full ultrasonic examination in lieu of radiography routinely deploy both on the same weld, which is why crews staff for the pair.",
+          "TOFD is qualified as its own technique, not absorbed into a PA certification. The same three-part structure applies on the same UT Level II foundation: a dedicated TOFD training course, logged supervised TOFD experience, and technique-specific examination — under the employer's written practice for SNT-TC-1A shops, or as a separate TOFD Level 2 certificate under ISO 9712 schemes with the same current-UT-Level-2 prerequisite. Lateral-wave interpretation, dead-zone reasoning, and diffraction-signal recognition are genuinely different skills from sectorial-scan analysis.",
+          "Sequence advice from working Level IIIs is consistent: consolidate PA in the field before adding TOFD. A technician six months into real encoded PA production work absorbs a TOFD course far faster than one stacking both certificates in a single training season — and employers staff advanced-UT crews around technicians who can independently run one technique well, then cross-train them into the second on live projects."
+        ]
+      },
+      {
+        "heading": "A realistic path onto a PA crew — and where Atlantis fits",
+        "paragraphs": [
+          "Laid end to end, the realistic timeline from conventional UT Level II to productive PAUT Level II runs months, not weeks: the 80-hour course, then supervised PA experience accumulating on real work under a written practice, then employer examination and certification, with vision exams current throughout. Technicians who arrive at the course with strong UT fundamentals and leave into an employer that immediately puts them on encoded PA work compress the calendar; those who take the course speculatively, with no PA work waiting, watch the training decay before it is ever examined.",
+          "For employers, the bottleneck is rarely the course — it is the certification machinery around it: a written practice with defensible PAUT technique requirements under SNT-TC-1A 2024, technique-specific written and practical examinations, graded practical specimens, and experience-log auditing. Companies without an in-house Level III holding advanced UT scope cannot compliantly certify PA technicians at all, however well trained.",
+          "Atlantis covers both sides of that gap. Our UT Level II training program builds the conventional foundation to the full SNT-TC-1A recommended syllabus, delivered on-site at your facility or via blended online theory with in-person practical sessions — and our outsourced ASNT Level III consulting develops PAUT and TOFD written-practice requirements, builds and administers the technique examinations, and certifies your technicians under an audit-ready program. Both are affordable, accessible, and fully customizable; quotes on request."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there a PAUT Level I, and can I start there instead of UT?",
+        "a": "Some written practices and schemes define a PA Level 1 for setup-and-acquire roles under supervision, but it does not bypass the ultrasonic foundation — conventional UT qualification still comes first, because phased array is a technique within the UT method, not a separate method with its own entry door. There is no compliant route into phased array that skips conventional UT."
+      },
+      {
+        "q": "My UT Level II lapsed — can I still sit a PAUT Level II exam?",
+        "a": "Under ISO 9712 schemes, no: the prerequisite is a current, valid UT Level 2 certificate, so the base certification must be renewed first. Under SNT-TC-1A, an employer's written practice will similarly require re-establishing UT Level II qualification — typically via re-examination — before certifying an advanced technique on top of it."
+      },
+      {
+        "q": "How long does the whole path from zero to PAUT Level II take?",
+        "a": "Starting from no NDT background: UT Level I and II training plus SNT-TC-1A-scale experience (hundreds of supervised hours) typically consumes a year or more, then the 80-hour PA course, then supervised phased-array experience before employer examination. Starting from a current UT Level II with active field work, the PA add-on commonly fits within a working year. Nobody compliant goes from street to PA crew in a month."
+      },
+      {
+        "q": "Does PAUT Level II transfer when I change employers?",
+        "a": "Under SNT-TC-1A, no — certification belongs to the issuing employer and ends when employment does, though documented training hours and experience logs carry forward and let the new employer certify you quickly under its written practice. An ISO 9712 PA certificate is personal and portable, which is its main selling point for mobile technicians."
+      },
+      {
+        "q": "Which codes drive demand for PAUT plus TOFD crews?",
+        "a": "Full ultrasonic examination performed in lieu of radiography on welds — pressure vessel and piping work to ASME code cases and construction codes — is the dominant driver, along with new-construction pipeline girth-weld AUT and in-service weld integrity programs. Contracts for that work specify certified PA and TOFD personnel by name, which is what makes the stacked qualification bankable."
+      },
+      {
+        "q": "Does Atlantis provide the PAUT course itself?",
+        "a": "Atlantis provides NDT training across UT and advanced techniques including phased array and TOFD, structured to SNT-TC-1A recommended outlines, plus the Level III examination and certification machinery employers need afterward. Delivery is on-site at your facility, at an arranged venue, or blended online theory with in-person practical. Course scope is customizable to your written practice; quote on request."
+      }
+    ]
+  },
+  {
+    "slug": "/blog/snt-tc-1a-written-practice-requirements",
+    "title": "SNT-TC-1A Written Practice Requirements — The Audit-Proof Checklist (2026)",
+    "description": "Element-by-element checklist of what an SNT-TC-1A written practice must state to survive audit — the should-to-shall conversion, required records, exam grading, vision, recertification, and how to use an outside Level III.",
+    "h1": "What an SNT-TC-1A Written Practice Must Contain to Survive an Audit",
+    "answer": "A written practice survives audit when it converts SNT-TC-1A's \"should\" recommendations into enforceable \"shall\" requirements specific to your operation, covers every core element — scope, qualification levels, training and experience hours, examination administration and grading, vision testing, certification records, recertification, and interrupted service — and is backed by a record proving each stated requirement was actually met.",
+    "expansion": "SNT-TC-1A is a recommended practice, not a standard. It becomes binding only through your written practice — the employer-controlled document that states how personnel are qualified and certified at your company. Auditors from ASME shops, API facilities, primes, and nuclear vendors walk a three-layer chain: the recommended practice, your written practice, and the individual certification records. A gap at any layer is a finding. The 2024 edition (with Addendum) explicitly permits modifying detailed recommendations, but modifications may alter — never eliminate — the basic provisions of training, experience, examination, and recertification, and the technical rationale for each deviation belongs in an annex. Once approved, the written practice is a procedural requirement: partial compliance with your own document is itself a finding.",
+    "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition with Addendum), asnt.org — verified August 2026",
+    "table": {
+      "caption": "SNT-TC-1A written practice: required elements, what your document must state, and the record that proves it",
+      "columns": [
+        "Element",
+        "What SNT-TC-1A says",
+        "What YOUR written practice must state",
+        "The record that proves it"
+      ],
+      "rows": [
+        [
+          "Scope",
+          "Employer defines applicability to its own operations",
+          "The exact NDT methods, techniques, and business units the document governs, by name",
+          "Controlled-document register with revision history and approval signatures"
+        ],
+        [
+          "Levels of qualification",
+          "Defines Trainee, Level I, Level II, Level III responsibilities",
+          "Duties per level as they exist in your operation — who runs tests, who interprets and reports, who approves procedures",
+          "Job descriptions and certifications that match duties actually performed"
+        ],
+        [
+          "Training",
+          "Recommends minimum training hours per method and topical outlines (CP-105)",
+          "Committed hour counts per method and level, the outline followed, and which providers are acceptable",
+          "Training certificates showing hours, dates, content outline, and instructor"
+        ],
+        [
+          "Experience",
+          "Recommends minimum experience per method and level",
+          "Required hours, how simultaneous multi-method experience is credited, and who supervises trainees",
+          "OJT logs signed and dated by the supervising certified individual"
+        ],
+        [
+          "Examinations",
+          "General, specific, and practical exams; composite grade of at least 80% with no individual exam below 70%",
+          "Question counts, who administers and grades, and the checkpoints scored in the practical (minimum ten)",
+          "Graded exam papers, practical checklists, and the examiner's signature"
+        ],
+        [
+          "Vision",
+          "Near-vision acuity (Jaeger No. 1 or equivalent at not less than 12 inches) annually; color contrast differentiation at intervals not exceeding five years",
+          "The chart or method used, who administers it, and how the schedule is tracked",
+          "Vision examination records with date, administrator, and result"
+        ],
+        [
+          "Certification",
+          "The employer certifies; records must document the basis of certification",
+          "Who signs certifications (the Level III or designee) and every item each certification record contains",
+          "Certification records: method, level, exam results, dates, and signatures"
+        ],
+        [
+          "Recertification",
+          "Maximum five-year interval, by continuing satisfactory performance evidence or re-examination",
+          "Your interval and exactly what evidence of continued performance you accept",
+          "Recertification records and documented performance evaluations"
+        ],
+        [
+          "Interrupted service",
+          "The written practice defines what interruption triggers requalification",
+          "The threshold (months away from the method) and the reinstatement rules",
+          "Assignment and employment history showing continuity"
+        ],
+        [
+          "Modifications",
+          "May alter but shall not eliminate basic provisions; rationale documented",
+          "Each deviation from SNT-TC-1A's detailed recommendations, with technical rationale in an annex",
+          "The annex itself, approved by the responsible Level III"
+        ]
+      ],
+      "note": "Left column order matches the sequence an auditor typically walks. \"Should\" copied as \"should\" in any row is the classic finding — an unenforceable recommendation where a requirement must stand."
+    },
+    "facets": [
+      {
+        "q": "Is SNT-TC-1A mandatory?",
+        "a": "No — it is a recommended practice, and every requirement in it is written as \"should.\" It becomes mandatory only when your written practice adopts it as \"shall,\" or when a governing code, contract, or customer specification invokes it. At that point your written practice, not SNT-TC-1A itself, is the auditable requirement."
+      },
+      {
+        "q": "Who writes and approves a written practice?",
+        "a": "The employer owns it, and an NDT Level III writes or approves the technical content — training hours, exam design, method-specific requirements. That Level III can be an employee or a contracted outside Level III acting as the employer's designee; responsibility for certification always remains with the employer."
+      },
+      {
+        "q": "What is the most common audit finding in written practices?",
+        "a": "SNT-TC-1A's \"should\" language copied verbatim into the written practice. An auditor reading \"examinations should be administered\" has no requirement to verify — the document describes a recommendation instead of committing the employer to anything. Every operative \"should\" must become \"shall\" or an explicitly justified deviation."
+      },
+      {
+        "q": "What exam grades does SNT-TC-1A recommend?",
+        "a": "A passing composite grade of at least 80 percent, with no individual examination — general, specific, or practical — graded below 70 percent. Your written practice must state these as requirements and name who computes and signs the composite grade, because the graded papers are the records an auditor pulls first."
+      },
+      {
+        "q": "How often are recertification and vision checks due?",
+        "a": "Recertification at intervals not exceeding five years, by evidence of continuing satisfactory performance or by re-examination as your written practice defines. Near-vision acuity is checked annually; color contrast differentiation at intervals not exceeding five years. Lapsed vision records are among the fastest findings to write."
+      },
+      {
+        "q": "Can an outside Level III sign our certifications?",
+        "a": "Yes — SNT-TC-1A allows the employer to use an outside agency's Level III to write the practice, administer exams, and act as designee. What never transfers is responsibility: the employer certifies its own personnel. The split of duties is detailed in what an outside NDT Level III can and cannot do."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why \"should\" copied as \"should\" fails every audit",
+        "paragraphs": [
+          "The failure is mechanical, not stylistic. SNT-TC-1A is written entirely in recommendation language because ASNT designed it to be tailored by each employer. When a written practice reproduces that language — \"the candidate should complete the training hours\" — it commits the employer to nothing. An auditor cannot cite a company for missing a target the company never adopted, so instead the auditor writes the deeper finding: the written practice does not establish requirements at all, which invalidates every certification issued under it.",
+          "The fix is a full should-to-shall conversion pass. Every operative sentence either becomes a \"shall\" your records can prove, or becomes a documented deviation with technical rationale in the annex. There is no third state. Companies that run this conversion element by element — using a checklist like the table above — turn an unpassable audit into a records-retrieval exercise, because each \"shall\" points to exactly one record type."
+        ]
+      },
+      {
+        "heading": "The three-layer chain an auditor actually walks",
+        "paragraphs": [
+          "Audits of employer-based certification follow a fixed route: the invoked edition of SNT-TC-1A, then your written practice, then the certification records of the individuals on the job. The auditor is checking two seams. Seam one: does the written practice address every element the recommended practice covers, with requirements at least as coherent as the original? Seam two: does every record match what the written practice says must exist — same hour counts, same grading, same signatures?",
+          "Most findings live at seam two, because written practices are often drafted once and never reconciled against how the company actually trains and examines. If your document commits to a specific training-hour count for a method but the training certificates in the file show fewer, the certification fails against your own requirement — regardless of whether the technician is competent. Before any external audit, run the reconciliation internally: pull three technician files at random and trace every claim in the written practice to a physical record.",
+          "The edition matters too. State on the cover which edition of SNT-TC-1A the document is based on, because the governing code or customer contract usually invokes a specific one. Certifying to the 2024 edition when the contract calls the 2016 edition — or the reverse — is a finding an auditor can write in the first five minutes."
+        ]
+      },
+      {
+        "heading": "Training and experience: commit to numbers, don't gesture at tables",
+        "paragraphs": [
+          "SNT-TC-1A carries recommended minimum training and experience hours for each method and level, and points to ANSI/ASNT CP-105 for topical outlines. A written practice that says \"training per SNT-TC-1A tables\" without restating the numbers creates two audit problems: the requirement changes silently whenever the edition changes, and the auditor cannot tell whether you adopted the recommendation or modified it. State the hour counts explicitly, per method, per level, in your own table.",
+          "Experience requirements need one more sentence most documents omit: how simultaneous multi-method experience is credited. Technicians commonly log MT and PT hours on the same shift; SNT-TC-1A permits crediting concurrent experience under defined conditions, and your written practice must state the rule you apply. The proving record is the OJT log — dated, method-specific, and signed by the supervising certified individual. An experience claim with no signed log behind it is an experience claim the auditor rejects."
+        ]
+      },
+      {
+        "heading": "Examinations: the five records the auditor asks for by name",
+        "paragraphs": [
+          "For each certified individual, expect to produce: the general examination (method fundamentals), the specific examination (your procedures and equipment), the practical examination checklist, the composite grade computation, and the examiner's identity and qualification. SNT-TC-1A recommends the composite passing grade be at least 80 percent with no individual exam below 70 percent, and the practical demonstration be scored against a checklist covering a minimum of ten different checkpoints. Your written practice must state all of this as requirement, plus who administers and who grades.",
+          "The practical exam checklist is where files most often thin out. A signed sheet that says \"passed\" with no checkpoints is not a practical examination record — it is an assertion. Build the checklist into the written practice as an appendix or controlled form so every examiner scores the same items: equipment setup, calibration, coverage, detection of the seeded or known discontinuity, interpretation, and reporting. The specific exam earns similar scrutiny: it must test your procedures, not generic method knowledge, and auditors check whether its questions reference documents that actually exist in your system."
+        ]
+      },
+      {
+        "heading": "Vision, recertification, and interrupted service — the quiet failures",
+        "paragraphs": [
+          "Vision records lapse more often than any other element because they are annual while everything else runs on multi-year cycles. SNT-TC-1A calls for near-vision acuity in at least one eye — Jaeger No. 1 or equivalent at a distance of not less than 12 inches — checked annually, and color contrast differentiation examined at intervals not exceeding five years. Your written practice must name the chart or method, the administrator, and how due dates are tracked. A certified technician with a fifteen-month-old vision record is performing NDT while unqualified under your own document.",
+          "Recertification and interrupted service are defined by you, within the five-year ceiling. State whether recertification runs on continuing-performance evidence, re-examination, or both — and define what \"evidence of continuing satisfactory performance\" physically is, because an auditor will ask to see it. Interrupted service is the clause companies forget entirely: define how many months away from a method triggers requalification and what the reinstatement path is. Silence here means an auditor decides for you, mid-audit, with your technician's certification in the balance."
+        ]
+      },
+      {
+        "heading": "Modifying SNT-TC-1A defensibly: the annex is your shield",
+        "paragraphs": [
+          "The 2024 edition is explicit: the employer shall modify SNT-TC-1A as necessary to fit the work its personnel actually perform, and modifications may alter but shall not eliminate the basic provisions — training, experience, examination, recertification. This is permission, not a loophole. Reducing a training-hour recommendation for a narrowly-scoped technique can be legitimate; deleting the practical examination never is.",
+          "Every deviation needs its technical rationale documented, and the recommended home for that rationale is an annex to the written practice. The annex converts a deviation from \"the company ignored the recommended practice\" into \"the responsible Level III evaluated the recommendation against the actual work scope and documented why the alternative provides equivalent assurance.\" Auditors accept the second and cite the first, even when the underlying change is identical. Have the Level III sign the annex, date it, and revise it whenever scope or edition changes — an unsigned rationale is a memo, not a control."
+        ]
+      },
+      {
+        "heading": "Using an outside Level III without creating a new finding",
+        "paragraphs": [
+          "Most employers running employer-based certification do not staff a full-time Level III — they contract one. SNT-TC-1A supports this: an outside agency's Level III can author the written practice, design and administer examinations, evaluate OJT, and act as the employer's designee. What the arrangement cannot do is move responsibility. The employer certifies its own personnel; the outside Level III's signature appears as designee under authority your written practice explicitly grants. The full division of authority is mapped in what an outside NDT Level III can and cannot do.",
+          "The audit-relevant details: name the outside Level III arrangement in the written practice itself, keep the Level III's own certification records on file as evidence of examiner qualification, and ensure the document states which signatures the designee provides versus which stay with company management. Atlantis provides outsourced ASNT Level III services on exactly this model — written practice authorship, exam administration, and annual program maintenance — affordable, accessible, and fully customizable to your methods and codes. Quote on request."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do we still need a written practice if we certify under ISO 9712 instead?",
+        "a": "ISO 9712 moves examination and certification to a central certification body, so the SNT-TC-1A-style written practice is not the qualification vehicle. But the employer still must document job-specific authorization of certified personnel, vision requirements, and any employer-specific training. Many companies serving both US and international contracts maintain a written practice for SNT-TC-1A work alongside ISO 9712 authorizations."
+      },
+      {
+        "q": "How often should the written practice be revised?",
+        "a": "Whenever any of three things changes: the SNT-TC-1A edition your contracts invoke, the codes or customer specifications your work is performed under, or your actual operations — new methods, new techniques, new business units. A dated annual review by the responsible Level III, even when it concludes no change is needed, is cheap insurance and a record auditors respond well to."
+      },
+      {
+        "q": "Can we keep certifying to an older edition of SNT-TC-1A?",
+        "a": "Yes. The edition is set by the governing code or contract, not by the calendar — many code references deliberately lag the newest edition. The requirement is consistency: your written practice must state which edition it is based on, and your records must satisfy that edition. Mixing editions across the document is a finding."
+      },
+      {
+        "q": "Do certifications transfer when a technician changes employers?",
+        "a": "No. SNT-TC-1A certification is employer-based — it attests that this employer qualified this person under this written practice. A new employer must certify the technician under its own document, though prior training and experience records can be credited toward the new certification if the written practice allows it and the records are verifiable."
+      },
+      {
+        "q": "Does ASNT audit written practices?",
+        "a": "No. ASNT publishes the recommended practice but audits no one against it. The auditors who will read your written practice are customers, primes, ASME and API-driven quality programs, and nuclear or aerospace vendor assessors. That is exactly why the document must be self-enforcing: it gets judged by people applying their own contract's expectations to your words."
+      }
+    ]
+  },
+  {
+    "slug": "/blog/ndt-level-2-to-level-3-pathway",
+    "title": "NDT Level II to Level III — Eligibility, the Basic Exam, and the Real 12–24 Month Timeline",
+    "description": "Level II experience does not automatically qualify you for Level III. The eligibility routes by education, how to reconstruct undocumented OJT hours, the closed-book ASNT Basic exam, method exam sequencing, and a realistic month-by-month timeline.",
+    "h1": "How to Go From NDT Level II to Level III — The Pathway Nobody Documents For You",
+    "answer": "Level II experience does not automatically qualify anyone for Level III. Two gaps stop most candidates: the eligibility ladder — one to four years of comparable experience depending on education — and the closed-book ASNT Basic examination, 135 questions in four hours. The third, silent gap: most Level IIs never formally recorded the method hours they now have to prove. A realistic timeline is 12 to 24 months.",
+    "expansion": "The Level III credential is really two credentials in sequence. The ASNT NDT Level III certificate proves you passed the Basic exam plus a method exam and met eligibility; the employer certification, issued under a written practice, is what actually authorizes you to approve procedures and sign as the responsible Level III. Candidates who treat the ASNT certificate as the finish line discover the second half only after passing. The work also inverts: Level II competence is running and interpreting tests, while Level III exams test whether you can select methods, write procedures against codes, and administer a certification program — including the contents of SNT-TC-1A and CP-189 themselves. That is why strong Level II hands fail the Basic exam: it examines a body of knowledge Level II work never touches.",
+    "source": "ASNT NDT Level III certification requirements and examination information, certification.asnt.org — verified August 2026",
+    "table": {
+      "caption": "Level II to Level III: the realistic 12–24 month timeline",
+      "columns": [
+        "Phase",
+        "Typical duration",
+        "What actually happens",
+        "Where candidates lose months"
+      ],
+      "rows": [
+        [
+          "1. Eligibility audit and records reconstruction",
+          "1–3 months",
+          "Map your education route, pull transcripts, and reconstruct experience records: OJT logs, prior certifications, employer verification letters",
+          "Prior employers have closed, merged, or won't sign; nobody logged hours by method"
+        ],
+        [
+          "2. ASNT application and approval",
+          "1–2 months",
+          "Submit the application with experience verification and wait for approval and an exam authorization window",
+          "Rejection for vague duty descriptions that don't demonstrate work comparable to Level II"
+        ],
+        [
+          "3. Basic exam preparation",
+          "3–6 months",
+          "Closed-book study: SNT-TC-1A and CP-189 content, materials and processes, and general knowledge of all common NDT methods",
+          "Underestimating breadth — the exam covers methods you have never worked in"
+        ],
+        [
+          "4. Basic examination",
+          "1 day (135 questions, 4 hours)",
+          "Closed-book, computer-based at an authorized testing center",
+          "Scheduling gaps between authorization and available seats"
+        ],
+        [
+          "5. Method exam preparation",
+          "2–4 months",
+          "Method physics, technique selection, and the governing codes and standards at procedure-writing depth",
+          "Studying Level II material at Level II depth instead of Level III application depth"
+        ],
+        [
+          "6. Method exam, certificate, and employer certification",
+          "1–2 months",
+          "Pass the method exam, receive the ASNT certificate, then get certified as Level III under an employer's written practice",
+          "Assuming the ASNT certificate alone authorizes you to sign as Level III"
+        ]
+      ],
+      "note": "Total: 12–24 months for a working Level II. The Basic exam is taken once — adding later methods requires only the additional method exams."
+    },
+    "facets": [
+      {
+        "q": "Does my Level II time count automatically toward Level III?",
+        "a": "No. ASNT counts experience in assignments comparable to Level II in the applicable method — and it must be documented and verifiable, typically through employer verification of dates, methods, and duties. Undocumented years are the single biggest delay in the pathway: the work happened, but the paper proving it was never created."
+      },
+      {
+        "q": "What is the ASNT Basic exam?",
+        "a": "A closed-book, 135-question, four-hour examination covering three areas: personnel qualification and certification programs (SNT-TC-1A, ANSI/ASNT CP-189), materials, fabrication, and product technology, and general knowledge of the common NDT methods at a Level II understanding. It is taken once — it carries over when you add method exams later."
+      },
+      {
+        "q": "Can I qualify for Level III without a degree?",
+        "a": "Yes. The no-degree route requires four years (48 months) of experience in assignments at least comparable to Level II in the applicable methods. A four-year engineering or physical-science degree cuts that to one year; two full academic years of engineering or physical-science study cuts it to two years."
+      },
+      {
+        "q": "What order should I take the exams in?",
+        "a": "Basic first. It is the common prerequisite for every method, it never has to be retaken, and failing it stalls everything else. Then sit your strongest method — the one you hold Level II in with the most procedure exposure. Additional methods later require only the method exam each."
+      },
+      {
+        "q": "How long does Level II to Level III realistically take?",
+        "a": "Twelve to twenty-four months for a working technician: one to three months assembling eligibility records, one to two in application processing, three to six preparing for the Basic exam, and two to four more for the method exam — with scheduling gaps between each stage. Candidates with clean records and employer support hit the short end."
+      },
+      {
+        "q": "What does Level III actually pay?",
+        "a": "Meaningfully more than Level II — the jump is typically 30–60%, with advanced-method specialists and consulting-track Level IIIs earning well beyond that. Region-by-region and method-by-method figures are broken out in the NDT salary guide rather than restated here."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The two gaps nobody prices in: eligibility paperwork and the Basic exam",
+        "paragraphs": [
+          "Every Level II who has run a crew, trained juniors, and interpreted against code believes Level III is one exam away. The application process disagrees twice. First gap: eligibility is documentary, not reputational. ASNT wants verifiable evidence of experience comparable to Level II — dates, methods, duties, employer signatures — and most technicians' careers exist as a stack of expired ID cards, not a verifiable record. Second gap: the Basic exam tests a literature Level II work never requires you to open — the certification documents themselves, materials and product technology, and working knowledge of methods you may never have touched.",
+          "Price both gaps in months, not difficulty. Records reconstruction is one to three months of phone calls and letters; Basic exam preparation is three to six months of structured study alongside a full-time job. Candidates who start the paperwork and the study in parallel — rather than sequentially — routinely finish six months earlier than those who wait for application approval before opening a book."
+        ]
+      },
+      {
+        "heading": "Eligibility routes by education — where you actually stand",
+        "paragraphs": [
+          "ASNT publishes three routes, and the currency is time in assignments comparable to Level II in the applicable method. Route one: a bachelor's degree (minimum four-year curriculum) in engineering or a physical science from an accredited institution, plus one year — twelve months — of comparable experience. Route two: at least two full academic years of engineering or physical-science study completed with passing grades, plus two years. Route three: no qualifying education, four years — 48 months — of comparable experience.",
+          "Two details trip applicants. \"Comparable to Level II\" means the character of the work — performing, interpreting, evaluating against acceptance criteria — not the certificate itself; a technician who did Level II work while certified Level I can claim it if the duties are documented. And the experience is per method family for the method exams you plan to sit: four years of MT experience supports an MT Level III application, not a UT one. Map your documented months against the route before applying, because a rejected application costs a processing cycle."
+        ]
+      },
+      {
+        "heading": "Reconstructing OJT hours nobody recorded",
+        "paragraphs": [
+          "The hours exist; the log does not. That is the normal condition, and it is recoverable. Start with what third parties can attest: prior employers' HR records establishing dates of employment and job titles, copies of your old certifications from each employer's Level III files, training certificates, and radiation safety or site-access records that place you on specific jobs. Then get verification letters — a signed statement from a supervisor or the responsible Level III at each prior employer confirming methods worked, duty descriptions, and approximate percentage of time per method.",
+          "When an employer no longer exists, work laterally: former supervisors can sign personal attestations, customers of that employer can confirm you worked their sites, and contemporaneous documents — inspection reports bearing your signature and stamp, pay stubs with job codes — corroborate the narrative. Assemble it into a per-employer, per-method summary. And fix the problem forward from today: log your current hours by method, monthly, signed by your Level III. Every month you log now is a month you never have to reconstruct.",
+          "Write duty descriptions in the application the way the reviewer needs to read them. \"Performed ultrasonic thickness and shear-wave weld examinations, interpreted and evaluated indications against ASME acceptance criteria, prepared reports\" demonstrates comparable-to-Level-II work. \"UT technician, five years\" demonstrates nothing and invites rejection."
+        ]
+      },
+      {
+        "heading": "The Basic exam: why strong Level II hands fail it",
+        "paragraphs": [
+          "The Basic exam is closed-book — 135 questions, four hours — and its three content areas are chosen to test program administration, not hands-on skill. Area one: certification programs themselves, meaning the structure and content of SNT-TC-1A and ANSI/ASNT CP-189 — qualification levels, training and experience logic, examination and grading rules, recertification. Area two: materials, fabrication, and product technology — welding processes and their characteristic discontinuities, casting and forging defects, heat treatment, corrosion mechanisms. Area three: general knowledge of the common NDT methods at Level II depth, including methods you have never practiced.",
+          "The failure pattern is consistent: candidates ace their own method's questions and bleed points across the other methods and the certification documents. Structure preparation accordingly — most of your study time belongs to your weakest areas, which for a career UT hand means eddy current, radiography fundamentals, and the administrative documents. The pass threshold is a minimum grade, not a curve; every question in an unfamiliar method is worth the same as one in yours. Study guides and question banks help, but reading SNT-TC-1A and CP-189 cover to cover, twice, is the highest-yield hour-for-hour preparation the Basic exam has."
+        ]
+      },
+      {
+        "heading": "Method exam sequencing: one Basic, many methods",
+        "paragraphs": [
+          "The Basic exam is taken once. Every subsequent method — UT, RT, MT, PT, VT, ET and the rest — requires only that method's examination, which tests physics, technique and equipment selection, procedure writing, and the interpretation of codes and standards at the depth of the person who signs the procedure rather than the person who runs it. This makes sequencing a strategy decision: sit Basic first, then your strongest method, then add methods at the pace your eligibility and employer needs dictate.",
+          "Choose the first method by procedure exposure, not comfort. The method exams reward candidates who have read and applied the governing codes — a Level II who has worked under well-written procedures and studied the referenced standards outperforms one with more raw hours but no code fluency. Between methods, the economics improve each time: eligibility is already established, the Basic is banked, and each added method is a single exam. Many working Level IIIs add one method per year until their certificate matches their employer's full method scope."
+        ]
+      },
+      {
+        "heading": "After the certificate: the employer certification most candidates forget",
+        "paragraphs": [
+          "Passing the ASNT exams produces an ASNT NDT Level III certificate. It does not, by itself, authorize you to approve procedures, administer examinations, or sign as the responsible Level III anywhere. That authority comes from employer certification under a written practice — the employer-based system SNT-TC-1A defines — which typically accepts the ASNT certificate as satisfying examination requirements while still requiring the employer's own documented certification decision, vision records, and specific-knowledge coverage of the company's procedures.",
+          "Plan the handoff before you pass. If your current employer runs a written practice, the path is short: the responsible Level III (or you, once designated) processes your certification under the existing document. If you are the company's first Level III, you inherit the program — writing or overhauling the written practice becomes your first deliverable, and what a written practice must contain to survive audit is the specification for that job. Consulting-track Level IIIs live entirely in this second half: the certificate opens the door, but program administration is the billable skill."
+        ]
+      },
+      {
+        "heading": "Budgeting the pathway: fees, time, and where training fits",
+        "paragraphs": [
+          "The out-of-pocket costs are ASNT's published application and per-exam fees — current figures are on certification.asnt.org — plus study materials, travel to a testing center, and re-sit fees if an exam goes badly. The dominant cost is time: a working technician should budget 150–300 study hours for the Basic exam and a further 100–200 per method, spread across the 12–24 month arc. Employer sponsorship is common and worth negotiating; a company that needs an in-house Level III recovers the investment the first time it stops paying outside consulting rates for routine program maintenance.",
+          "Structured training compresses the preparation phases, which is where the calendar risk lives. Atlantis runs Level III preparation covering the Basic exam body of knowledge and method exams across UT, RT, MT, PT, VT, ET, TOFD, and Phased Array — delivered as blended online theory with in-person practical arranged at your site or an arranged venue, and pointed at the exam you are actually sitting. Affordable, accessible, fully customizable to your method list and schedule. Quote on request."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I skip Level II certification and go straight to Level III?",
+        "a": "Yes, if your experience qualifies. ASNT's eligibility requires experience in assignments comparable to Level II — not the Level II certificate itself. Engineers and scientists who have spent years selecting techniques, evaluating results, and writing procedures can apply directly on the degree-plus-one-year or two-years routes, documenting that the work performed was Level II-equivalent in character."
+      },
+      {
+        "q": "Do I have to retake the Basic exam when I add a second method?",
+        "a": "No. The Basic exam is a one-time prerequisite. Adding a method to an active ASNT Level III certificate requires only that method's examination. This is why sitting Basic early is the right sequencing call even if your first method exam is months away."
+      },
+      {
+        "q": "Is an ASNT Level III the same as an employer-certified Level III?",
+        "a": "No, and the distinction decides who can sign what. The ASNT certificate is a personal credential proving examination success and eligibility. Employer certification under a written practice is what authorizes you to act as the responsible Level III for that company — approve procedures, administer exams, sign certifications. Most employers require both; neither substitutes for the other."
+      },
+      {
+        "q": "How long is the ASNT NDT Level III certificate valid?",
+        "a": "Five years. Renewal runs through ASNT's recertification options — accumulating qualifying professional activity under the points-based program or sitting recertification examinations. Track the expiry independently of any employer certification date, because the two cycles rarely align and an expired ASNT certificate can invalidate an employer certification that relies on it."
+      },
+      {
+        "q": "My old employer shut down and I can't get experience verification. Now what?",
+        "a": "Build a corroborated substitute: personal attestations from former supervisors or the Level III who oversaw you, inspection reports bearing your name, training certificates, pay records establishing employment dates, and site-access or radiation-badge records placing you on jobs. Present them as a coherent per-method summary. ASNT evaluates documented evidence — the standard is verifiability, not a single letterhead."
+      }
+    ]
+  },
+  {
+    "slug": "/blog/welder-to-ndt-inspector-us-career-path-2026",
+    "title": "Welder to NDT Inspector (US, 2026) — Which Certifications Actually Credit Your Welding Years",
+    "description": "Does welding experience count toward inspection certifications? Credential by credential: CWI counts it directly, ASNT NDT methods count it conditionally as OJT context, and API 510/570/653 count fabrication experience on their eligibility tables. The US career-changer's sequencing plan.",
+    "h1": "From Welder to Inspector: Where Your Welding Years Actually Count",
+    "answer": "Welding experience counts toward inspection certifications — but differently for each credential. For the AWS CWI, it counts directly: welding-related work is the qualifying experience itself, on a sliding scale from five years with a high school diploma down to one year with a qualifying bachelor's degree.",
+    "expansion": "The welder-to-inspector move is the most traveled career change in US industrial quality, and 2026 favors it: the inspection workforce is aging out faster than it is being replaced, and shops, third-party inspection firms, and turnaround contractors all hire from the welding floor because welders already read joints, recognize discontinuities, and speak WPS. The mistake career-changers make is treating the three credential families as one ladder. They are three separate tracks with different experience math, different exams, and different first paychecks — and the right sequence depends almost entirely on how many documented welding years you have today and what education sits behind them. Atlantis trains the ASNT track (Level I, II, and III across the major methods); Atlantis does not sell API 510, 570, or 653 training.",
+    "source": "AWS B5.1/QC1 CWI eligibility requirements (aws.org); API Individual Certification Programs eligibility (api.org); ASNT SNT-TC-1A — verified August 2026",
+    "table": {
+      "caption": "Does welding experience count? Credential by credential",
+      "columns": [
+        "Credential",
+        "Does welding experience count?",
+        "How it counts",
+        "What you still need"
+      ],
+      "rows": [
+        [
+          "AWS CWI",
+          "Yes — directly",
+          "Welding-related work (welding, supervision, QC, fabrication, inspection) is the qualifying experience itself: 5 years with a high school diploma, 4 with a trade/vocational certificate, 3 with a qualifying associate degree, 1 with a qualifying bachelor's",
+          "Pass Parts A, B, and C, plus the vision test and documented experience verification"
+        ],
+        [
+          "AWS CAWI (Associate)",
+          "Yes — directly",
+          "Same experience categories at a lower threshold — the entry rung for welders short of full CWI years",
+          "Same three-part exam; upgrade path to CWI as experience accrues"
+        ],
+        [
+          "ASNT / employer NDT Level I–II (VT, MT, PT, UT, RT)",
+          "Conditionally",
+          "Welding years don't convert to NDT method hours — but documented weld-inspection duties performed under supervision can be credited where the employer's written practice allows, and welding knowledge sharply shortens the practical learning curve",
+          "Method training hours, logged OJT under a certified supervisor, and the employer's general, specific, and practical exams"
+        ],
+        [
+          "ASNT NDT Level III",
+          "Indirectly, later",
+          "Requires years in assignments comparable to Level II in the method — welding years precede the clock rather than filling it",
+          "Eligibility route, the closed-book Basic exam, and a method exam"
+        ],
+        [
+          "API 510 / 570 / 653",
+          "Yes — toward the eligibility total",
+          "Experience in the design, construction, fabrication, repair, or inspection of the covered equipment (pressure vessels, piping, storage tanks) counts on the eligibility table; more education means fewer required years, and a defined portion must be inspection activity",
+          "The relevant body-of-knowledge exam (170 questions) and equipment-specific experience — vessel time doesn't substitute for piping time"
+        ]
+      ],
+      "note": "Equipment specificity matters on the API track: each certificate's table credits experience with that certificate's equipment. Atlantis does not provide API 510/570/653 training."
+    },
+    "facets": [
+      {
+        "q": "What's the fastest inspection credential for a working welder?",
+        "a": "With five or more documented welding years and a high school diploma, the CWI — you are eligible now, and the constraint is exam preparation, not experience. With fewer years, the fastest paycheck is employer-based NDT: VT, MT, or PT Level II can be reached through training hours plus logged OJT while your CWI clock keeps running."
+      },
+      {
+        "q": "Do welding years count toward ASNT NDT method hours?",
+        "a": "Not as method hours — SNT-TC-1A experience must be in the applicable NDT method under qualified supervision. What can count is documented weld-inspection work: visual examination duties performed and recorded under a certified supervisor, where the employer's written practice credits them. Everything else about welding counts as advantage, not hours."
+      },
+      {
+        "q": "Does fabrication experience count for API 510, 570, or 653?",
+        "a": "Yes. The API eligibility tables credit experience in the design, construction, fabrication, repair, or inspection of the covered equipment toward the total requirement, with education reducing the years needed. A defined portion must be supervising or performing inspection activities, and the experience must match the certificate's equipment — tanks for 653, piping for 570, vessels for 510."
+      },
+      {
+        "q": "Do I need a college degree for any of these tracks?",
+        "a": "No. All three run without one: CWI at five years with a high school diploma, ASNT/employer NDT certification on training-plus-OJT with no degree requirement at Levels I and II, and the API certificates on the no-degree rows of their eligibility tables. Education shortens every track but gates none of them."
+      },
+      {
+        "q": "What does the pay jump look like from welder to inspector?",
+        "a": "Inspection pays for judgment rather than arc time, and the ceiling moves accordingly — NDT Level II roles in the US cluster near the high-$60Ks with Level III averaging well into six figures, and credentialed inspection roles carry overtime and per-diem structures welders already know. Full regional breakdowns are in the NDT salary guide."
+      },
+      {
+        "q": "Where does Atlantis fit in this path?",
+        "a": "The ASNT track: Level I, II, and III training across UT, RT, MT, PT, VT, ET, TOFD, and Phased Array, delivered as blended online theory with in-person practical arranged on-site at your employer or at an arranged venue. Atlantis does not sell API 510/570/653 training. Affordable, accessible, fully customizable — quote on request."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Three tracks, three kinds of credit for the same welding years",
+        "paragraphs": [
+          "The decision is arithmetic before it is ambition. Count two numbers: documented welding-related years, and formal education. Five-plus years with a high school diploma makes you CWI-eligible today — the exam is the only barrier. One to four years points at the NDT track first, because employer-based Level I and II certification runs on training hours and logged OJT rather than a years-of-experience gate, and it pays inspection wages while your CWI eligibility clock keeps running in the background. Years spent fabricating pressure vessels, piping systems, or storage tanks additionally bank toward the API certificates — the long-game track with the largest equipment-specific paychecks.",
+          "The tracks also stack rather than compete. A CWI who adds MT and PT Level II becomes the shop's one-stop weld-quality resource; an NDT Level II with vessel fabrication history becomes an API 510 candidate the year the eligibility math closes. Sequencing them deliberately — rather than chasing whichever acronym a job posting mentioned — is what separates a two-year plan from a six-year wander."
+        ]
+      },
+      {
+        "heading": "The CWI track: your welding years are the eligibility",
+        "paragraphs": [
+          "AWS built the CWI eligibility tables around welding-related work, so a welder's resume needs translation, not supplementation. The qualifying experience spans welding itself, supervision, quality control, and fabrication roles, on a sliding education scale: five years with a high school diploma or GED, four with a trade or vocational certificate, three with a qualifying associate degree, one with a qualifying bachelor's in engineering or a physical science. Welders short of the full requirement enter as CAWI — the associate credential on the same exam — and upgrade as years accrue.",
+          "The exam, not the eligibility, is where welders stumble: three parts in one sitting. Part A tests welding fundamentals in exam language rather than shop language; Part B is the hands-on practical, working replicas and measurement tools against a supplied specification book; Part C tests navigation of a code you select — D1.1 and API 1104 being the common picks. Pass rates differ sharply by part, and preparation should be weighted accordingly — the part-by-part failure pattern and how to study against it are broken down in the CWI pass rate breakdown by Part A, B, and C. A vision test and documented, verifiable experience complete the application."
+        ]
+      },
+      {
+        "heading": "The ASNT track: welding counts as advantage, not hours",
+        "paragraphs": [
+          "Be precise about what transfers, because this is where career-changers get oversold. Under SNT-TC-1A's employer-based system, certification requires method-specific training hours and method-specific experience logged under qualified supervision — and ten years under the hood contributes zero of those hours. What welding experience does is compress everything around the hours: you already know how discontinuities form, where they live in a joint, and what a WPS controls, which is most of the interpretive judgment Level II exams actually test.",
+          "There is one conditional path to real credit: welders who performed documented visual inspection duties — examining their own or others' production welds against acceptance criteria, under a certified supervisor, with records — can have that time credited where the employer's written practice allows it. The operative words are documented and written practice: an employer's Level III decides what counts, and undocumented shop-floor checking counts nowhere. If you are still welding today, start creating that record now.",
+          "Method selection follows welding knowledge downhill: VT, MT, and PT are the natural first certifications because the discontinuities are the ones welders already recognize, and the training-hour requirements are the lightest. UT rewards welders who know joint geometry but demands real physics study; RT adds radiation safety qualification on top. A typical committed career-changer holds VT plus MT or PT Level II within their first year of NDT employment, with UT as the second-year target."
+        ]
+      },
+      {
+        "heading": "The API track: fabrication years on the eligibility table",
+        "paragraphs": [
+          "API 510 (pressure vessels), 570 (process piping), and 653 (aboveground storage tanks) run on published eligibility tables that credit experience in the design, construction, fabrication, repair, or inspection of the covered equipment — which is exactly what a vessel, pipe, or tank welder has been accruing. The tables slide on education: more formal education, fewer required years; the no-degree rows demand the most. Every route also requires that a defined portion of the experience be supervising or performing inspection activities as the code describes, which is the piece pure fabrication history lacks — and the reason the API certificates work best as a second credential after NDT or CWI employment has put inspection duties on your record.",
+          "Equipment specificity is enforced, not implied: tank experience feeds 653, piping feeds 570, vessel experience feeds 510, and they do not substitute for one another. Each certificate has its own body-of-knowledge examination — a 170-question format — built on its code and the referenced standards. To be plain about scope: Atlantis does not sell API 510, 570, or 653 training; the eligibility structure is described here so you can sequence it into the plan, and API publishes the current tables and application requirements at api.org."
+        ]
+      },
+      {
+        "heading": "Document your welding years now — the future application depends on it",
+        "paragraphs": [
+          "Every track above runs on verifiable experience, and verification decays: shops close, supervisors retire, and a 2019 job becomes unprovable by 2027. Build the file while the evidence is warm. For each employer: dates of employment, job title, the equipment and processes worked, and a duty description written in inspection-relevant language — joints welded to what codes, inspection or QC duties performed, WPS and PQR exposure. Get it signed by a supervisor or quality manager on company letterhead where possible.",
+          "Write duty descriptions the way an application reviewer reads them. \"Welded and visually examined structural connections to AWS D1.1 acceptance criteria; maintained fit-up and interpass records\" earns credit on three different applications. \"Structural welder, six years\" earns a request for more information. Add the corroborating layer — weld continuity logs, qualification test records, pay stubs establishing dates — and store it all somewhere that survives job changes. The single cheapest career move in this entire article is one afternoon spent getting letters signed before you need them."
+        ]
+      },
+      {
+        "heading": "The 2026 US market for welder-turned-inspectors",
+        "paragraphs": [
+          "The demand side favors the switch. The US inspection workforce skews old — retirements across NDT and welding inspection are outpacing entries — while the work grows: refinery and petrochemical turnaround seasons, pipeline integrity programs, LNG and hydrogen buildout, fabrication reshoring, and the standing inspection load of aging pressure equipment. Third-party inspection firms and shop quality departments consistently prefer career-changers from the welding floor because the discontinuity recognition and code literacy arrive pre-installed; the credential is what they need added.",
+          "Practical hiring reality: shops and TPIs routinely hire welders as NDT trainees or QC assistants and sponsor the training, because growing an inspector from a welder is cheaper and more reliable than recruiting a finished one in a tight market. Turnaround contractors pay a premium for people who can hold both a torch card and a Level II — dual-capability heads reduce crew count. When you interview, lead with the documented welding record and the study plan; employers fund candidates who arrive with the file already built."
+        ]
+      },
+      {
+        "heading": "A realistic sequencing plan: months 0 through 24",
+        "paragraphs": [
+          "Months 0–3: build the experience file — verification letters, duty descriptions, continuity records — and pick the entry track by the arithmetic: five-plus documented years means CWI preparation starts now; fewer means an NDT trainee or QC role is the move. Months 3–12: on the NDT route, complete VT and MT or PT training hours and log OJT toward Level II under the employer's written practice; on the CWI route, prepare for all three parts with study weighted toward the historically hardest, and sit the exam. Either route ends year one holding a paying inspection credential.",
+          "Months 12–24: stack the second credential. The new CWI adds MT/PT Level II to become the complete weld-quality package; the new Level II starts CWI preparation with the eligibility clock now well fed, or begins UT training for the deeper NDT ceiling. Vessel, piping, and tank welders map their fabrication years against the API tables and calendar the application for when the inspection-specific portion closes. For the ASNT side of that plan — Level I and II method training through Level III preparation — Atlantis delivers blended online theory with in-person practical arranged on-site at your employer or at an arranged venue, built around US codes and the exams you will actually sit. Affordable, accessible, fully customizable. Quote on request."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I keep welding full-time while getting certified?",
+        "a": "Yes, and on two of the three tracks it is the optimal play: welding years keep feeding CWI and API eligibility while you study. The exception is the ASNT method-hours requirement — those accrue only in NDT assignments — which is why career-changers often move to a dual welder/QC role or an NDT trainee position partway through rather than at the start."
+      },
+      {
+        "q": "Should I do CWI or NDT Level II first?",
+        "a": "Run the eligibility math. Five or more documented welding years with a high school diploma: CWI first — you are eligible now and the credential monetizes immediately. Fewer years: NDT first, because employer-based Level I/II has no years-of-experience gate for entry, pays inspection wages sooner, and the CWI clock keeps running underneath. The two stack; the order is just cash-flow optimization."
+      },
+      {
+        "q": "If I fail one part of the CWI exam, do I retake everything?",
+        "a": "No — AWS scores Parts A, B, and C separately, and its retest rules let you re-sit the failed part within the allowed window rather than repeating the full exam. The part-by-part pass rates and the retake strategy are covered in the CWI pass rate breakdown."
+      },
+      {
+        "q": "Does pipe welding experience help with API 1104 work as a CWI?",
+        "a": "Directly. Part C of the CWI exam is taken against a code you choose, and pipeline welders choosing API 1104 test on the document they have worked under for years. AWS also offers code endorsements, so a D1.1 CWI can add the API 1104 endorsement later — the standard setup for CWIs moving between structural and pipeline inspection markets."
+      },
+      {
+        "q": "Will an employer pay for my training?",
+        "a": "Commonly, yes. Shops, third-party inspection firms, and turnaround contractors sponsor NDT training because growing inspectors internally beats recruiting them in a thin market — expect a service commitment in exchange. Arrive with your documented welding record and a specific training plan and you become the easy yes. Atlantis structures its ASNT-track training for exactly this employer-sponsored pattern, delivered on-site or blended. Quote on request."
+      },
+      {
+        "q": "Is radiography a realistic first NDT method for a welder?",
+        "a": "Rarely first. RT adds radiation-safety qualification, badging, and regulatory oversight on top of method training, and most employers want a proven Level II in a surface method before investing in it. The standard welder's ladder is VT and MT/PT first, UT second, RT where the employer's work mix demands it."
+      }
+    ]
   }
 ]

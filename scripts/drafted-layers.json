@@ -9228,5 +9228,647 @@
         "a": "On the final surface condition and after any post-weld heat treatment, because PWHT can open cracks that were tight before and hydrogen cracking is delayed. Aerospace forging practice examines after each machining stage and again after final heat treatment, since machining exposes subsurface flaws and heat treatment initiates new ones. Examining before the last operation examines the wrong surface."
       }
     ]
+  },
+  {
+    "route": "/3d-scanning-abu-dhabi",
+    "answer": "Atlantis NDT delivers survey-grade LiDAR, photogrammetry and drone reality capture in Abu Dhabi through its Middle East operations — on site within 24–72 hours. Scopes run across refining, gas processing and LNG, offshore jackets and FPSOs, ports and desalination, shipping registered point clouds, Revit and IFC as-builts, API 653 settlement surveys and IACS classification support, every bundle reviewed by an ASNT NDT Level III.",
+    "expansion": "Abu Dhabi attaches scanning to the code stack of an oil and gas economy. Sandy soils make tank settlement the signature scope: API 653 Annex B evaluates bottom settlement from shell elevation measurements, and a scan captures elevations, verticality, roundness and peaking in one mobilisation, comparable campaign to campaign. API 510 and API 570 reuse the same capture for vessel deformation and piping as-builts. Offshore, IACS Recommendation No. 20 governs NDE acceptance on classification surveys for ABS, DNV, Lloyd's Register and Bureau Veritas across jacket, topside and FPSO work. Sour service is routine here, so scanning pairs with XRF positive material identification per ASTM E1476 against NACE MR0175 and MR0103 in the same site visit. Drone capture takes flare stacks, tank roofs and structural edges without scaffold. State two numbers before capture: registered-network accuracy for tolerance, and level of development for modelling — modelling, not capture, drives the schedule.",
+    "source": "API 653 (5th Edition) Annex B; API 510; API 570; NACE MR0175/ISO 15156 and NACE MR0103 for sour-service materials; ASTM E1476 for XRF positive material identification; IACS Recommendation No. 20 for marine and offshore NDE acceptance.",
+    "table": {
+      "caption": "Scan-to-code deliverables on Abu Dhabi assets",
+      "columns": [
+        "Deliverable",
+        "Governing reference",
+        "What the scan captures",
+        "Why it matters in Abu Dhabi"
+      ],
+      "rows": [
+        [
+          "Tank bottom settlement survey",
+          "API 653 Annex B",
+          "Shell elevations, verticality, roundness, peaking",
+          "Sandy-soil settlement patterns on tank farms"
+        ],
+        [
+          "Pressure-vessel deformation",
+          "API 510",
+          "Shell profile against design geometry",
+          "Ageing refining and gas-processing fleet"
+        ],
+        [
+          "Piping as-builts and tie-in dimensions",
+          "API 570",
+          "Rack geometry registered to plant coordinates",
+          "Brownfield expansion without fabrication rework"
+        ],
+        [
+          "FPSO and jacket classification support",
+          "IACS Recommendation No. 20",
+          "Hull and topside deformation record",
+          "ABS, DNV, Lloyd's Register, Bureau Veritas surveys"
+        ],
+        [
+          "Sour-service alloy verification (paired scope)",
+          "NACE MR0175/MR0103; ASTM E1476",
+          "XRF PMI alongside the capture visit",
+          "H2S-service material assurance in one mobilisation"
+        ]
+      ],
+      "note": "Delivered locally through Atlantis NDT Middle East operations; every bundle ships SHA-256 hashed with ASNT NDT Level III review."
+    },
+    "facets": [
+      {
+        "q": "Why are tank settlement surveys the signature scanning scope in Abu Dhabi?",
+        "a": "Sandy soils drive tank bottom settlement, and API 653 Annex B evaluates it from shell elevation measurements — a scan captures elevations, verticality, roundness and peaking together and stays comparable campaign to campaign."
+      },
+      {
+        "q": "Does Atlantis NDT deliver 3D scanning locally in Abu Dhabi?",
+        "a": "Yes — delivery runs through Atlantis NDT's Middle East operations with on-site mobilisation in 24–72 hours and a tailored quote within 24 hours of the free consultation."
+      },
+      {
+        "q": "How do scans support FPSO and jacket classification surveys?",
+        "a": "The scan supplies the hull, topside and jacket deformation record that classification surveyors from ABS, DNV, Lloyd's Register or Bureau Veritas accept against, with IACS Recommendation No. 20 governing NDE acceptance."
+      },
+      {
+        "q": "Can drone capture replace scaffold on flare stacks and tank roofs?",
+        "a": "Yes. UAV LiDAR and photogrammetry take elevated, confined-access and structural-edge work that would otherwise need scaffold or rope access, cutting cost and inspector exposure."
+      },
+      {
+        "q": "How is sour-service material verification paired with a scan visit?",
+        "a": "XRF positive material identification per ASTM E1476 runs against NACE MR0175 and MR0103 requirements in the same mobilisation, so alloy verification and geometry capture share one site visit."
+      },
+      {
+        "q": "What accuracy should an Abu Dhabi scan contract state?",
+        "a": "Registered-network accuracy verified against targets — not the instrument datasheet figure — plus a separately stated level of development for how much geometry gets modelled."
+      }
+    ]
+  },
+  {
+    "route": "/3d-scanning-services",
+    "answer": "A 3D scan produces a measured record of what is physically on site, not what the drawings say. It answers geometry questions: brownfield tie-in dimensions, turnaround access planning, tank settlement and out-of-roundness, as-built records where none exist. It does not measure wall thickness or find cracks — capture and NDT answer different questions. Atlantis NDT mobilises LiDAR, photogrammetry and drone crews globally.",
+    "expansion": "A walkthrough model, a clash check against a proposed tie-in, an as-built drawing set and dimensional verification against design tolerance are four different jobs with four different accuracy requirements — scope the job, not the point density. Scanning earns its keep where geometry decisions are expensive: a connection area scanned before fabrication converts site rework into a shop dimension, and a pre-shutdown scan lets scaffolding, access and lift plans build against measured reality, which is where most turnaround schedule slip originates. Shell distortion, settlement and out-of-roundness are measurable from a scan faster than by manual survey and comparable campaign to campaign. Before commissioning, decide what condition data will attach to the geometry and at what resolution — the constraint on a digital twin programme is reconciling the corrosion monitoring location register, not capturing geometry, and whole-plant high-density capture before that decision is the most common overspend. If existing as-builts are trustworthy, re-scanning may change no decision.",
+    "source": "USIBD Level of Accuracy (LOA) Specification, Guide C120, for capture tolerance; BIMForum Level of Development (LOD) Specification for modelling detail; API 653 Annex B and API 510 where the deliverable is settlement or deformation evaluation.",
+    "table": {
+      "caption": "Four scanning jobs, four accuracy requirements",
+      "columns": [
+        "Use case",
+        "Deliverable",
+        "Accuracy driver",
+        "Typical method"
+      ],
+      "rows": [
+        [
+          "Brownfield tie-in",
+          "Connection-area point cloud and dimensions",
+          "Fabrication tolerance of the new spool",
+          "Terrestrial LiDAR"
+        ],
+        [
+          "Turnaround planning",
+          "Walkthrough model, access and lift plans",
+          "Clash margins, not millimetres",
+          "Terrestrial and mobile LiDAR"
+        ],
+        [
+          "Tank and vessel geometry",
+          "Settlement, verticality, out-of-roundness",
+          "API 653 / API 510 evaluation",
+          "Terrestrial LiDAR"
+        ],
+        [
+          "As-built record where none exists",
+          "Revit, IFC or DWG model set",
+          "Agreed level of development, not maximised",
+          "LiDAR plus photogrammetry"
+        ],
+        [
+          "Surface condition documentation",
+          "Colourised mesh, orthomosaic",
+          "Image resolution, not geometry",
+          "Photogrammetry"
+        ],
+        [
+          "Digital twin geometry",
+          "DT-ready model bound to the CML register",
+          "CML location resolution",
+          "LiDAR, scoped per unit"
+        ]
+      ],
+      "note": "A scan records surfaces only — no wall thickness, no cracks, nothing internal. Pair it with NDT; the scan gives geometry, the examination gives condition."
+    },
+    "facets": [
+      {
+        "q": "Does a 3D scan detect cracks or wall loss?",
+        "a": "No. A scan records surfaces — it cannot measure wall thickness, find cracks or see inside anything. Reality capture and NDT are complementary: geometry from the scan, condition from the examination."
+      },
+      {
+        "q": "When is re-scanning a waste of money?",
+        "a": "When existing BIM, CAD or isometrics are trustworthy. If the as-builts already support the decision at hand, a new scan adds nothing that changes it — verify the drawings before commissioning capture."
+      },
+      {
+        "q": "What is the most common way to overspend on reality capture?",
+        "a": "Scanning an entire plant at high density before deciding what condition data attaches to the geometry. The digital twin constraint is reconciling the corrosion monitoring location register, not capturing geometry — scope the scan to units where condition data justifies it."
+      },
+      {
+        "q": "How should a scanning contract specify accuracy and detail?",
+        "a": "As two separate numbers: the USIBD Level of Accuracy specification for capture tolerance, and the BIMForum Level of Development specification for how much geometry gets modelled."
+      },
+      {
+        "q": "Where does scanning save the most on a brownfield site?",
+        "a": "Tie-ins. Scanning the connection area before fabrication catches pipework that moved during unrecorded modifications, converting a site rework into a shop dimension."
+      },
+      {
+        "q": "Why scan before a turnaround?",
+        "a": "So scaffolding, access and lift plans are built against measured reality rather than drawings — mismatches there are where most turnaround schedule slip originates."
+      }
+    ]
+  },
+  {
+    "route": "/3d-scanning-cape-town",
+    "answer": "Atlantis NDT delivers survey-grade LiDAR, photogrammetry and drone capture in Cape Town — South Africa's gateway to deep-water energy and marine fabrication. Scopes cover FPSO conversion and drydock deformation, Saldanha steel and bulk-port structures, refinery tank settlement and municipal BIM, shipping registered point clouds and Revit or IFC as-builts, with crews mobilised within 24–72 hours through Middle East and Hyderabad operations.",
+    "expansion": "Cape Town's demand centres on marine work: FPSO conversion, drydock deformation surveys and deep-water decommissioning run under IACS Recommendation No. 20 and the class rules of ABS, DNV, Lloyd's Register and Bureau Veritas, with the scan supplying the hull and topside geometry the surveyor accepts against. Refinery and terminal tank farms use API 653 Annex B settlement evaluation from shell elevations — one scan captures settlement, verticality and roundness together. Port and steel infrastructure at Saldanha and the container terminal takes structural as-builts at an agreed level of development, and heritage and municipal BIM programmes reuse the same capture chain. Drone flights over berths, tank roofs and elevated steel run under South African Civil Aviation Authority RPAS rules, replacing rope access. State registered-network accuracy and modelling detail as two separate numbers before capture — modelling, not capture, drives schedule and cost. Delivery mobilises within 24–72 hours through Atlantis NDT's Middle East and Hyderabad operations.",
+    "source": "IACS Recommendation No. 20 for marine and offshore NDE acceptance; API 653 (5th Edition) Annex B for tank settlement evaluation; USIBD Level of Accuracy Specification and BIMForum Level of Development Specification; South African Civil Aviation Regulations Part 101 for RPAS operations.",
+    "table": {
+      "caption": "Cape Town scanning scopes by asset class",
+      "columns": [
+        "Asset class",
+        "Scan deliverable",
+        "Governing reference",
+        "Method"
+      ],
+      "rows": [
+        [
+          "FPSO conversion and drydock",
+          "Hull and topside deformation survey",
+          "IACS Recommendation No. 20; class rules",
+          "Terrestrial LiDAR plus drone"
+        ],
+        [
+          "Refinery and terminal tank farms",
+          "Settlement, verticality, roundness",
+          "API 653 Annex B",
+          "Terrestrial LiDAR"
+        ],
+        [
+          "Saldanha steel and bulk port",
+          "Structural as-builts, berth infrastructure",
+          "Owner specification; agreed LOD",
+          "LiDAR plus UAV photogrammetry"
+        ],
+        [
+          "Deep-water decommissioning",
+          "Dimensional record ahead of cut and lift plans",
+          "Class and project specification",
+          "Drone plus terrestrial capture"
+        ],
+        [
+          "Heritage and municipal BIM",
+          "Revit and IFC models",
+          "BIMForum Level of Development",
+          "Photogrammetry plus LiDAR"
+        ]
+      ],
+      "note": "Drone flights run under SACAA RPAS rules; deliverable bundles ship SHA-256 hashed with ASNT NDT Level III review."
+    },
+    "facets": [
+      {
+        "q": "What 3D scanning work does Cape Town actually demand?",
+        "a": "Marine fabrication and FPSO conversion, drydock deformation surveys, deep-water decommissioning, Saldanha steel and bulk-port structures, refinery tank settlement, and heritage and municipal BIM programmes."
+      },
+      {
+        "q": "How are drydock and FPSO deformation surveys governed?",
+        "a": "IACS Recommendation No. 20 governs NDE acceptance, layered with the class rules of ABS, DNV, Lloyd's Register or Bureau Veritas — the scan supplies the geometry record the classification surveyor accepts against."
+      },
+      {
+        "q": "How does Atlantis NDT deliver 3D scanning in Cape Town?",
+        "a": "Crews mobilise on site within 24–72 hours through Atlantis NDT's Middle East and Hyderabad operations, with every deliverable reviewed by an ASNT NDT Level III and a tailored quote within 24 hours."
+      },
+      {
+        "q": "Can drones fly over Cape Town port and refinery sites?",
+        "a": "Yes, under South African Civil Aviation Authority RPAS rules (Part 101). UAV capture takes berths, tank roofs and elevated steel that would otherwise need rope access or scaffold."
+      },
+      {
+        "q": "What deliverable formats ship from a Cape Town scan?",
+        "a": "Registered point clouds in LAS, E57, RCP or RCS; as-builts in Revit, IFC or AutoCAD DWG; deformation comparison; digital-twin-ready geometry — bundled with SHA-256 hashes and a full audit trail."
+      },
+      {
+        "q": "What should be specified before capture starts?",
+        "a": "Two separate numbers: registered-network accuracy for the tolerance downstream engineering depends on, and the level of development for how much geometry gets modelled — stated before capture, not discovered afterwards."
+      }
+    ]
+  },
+  {
+    "route": "/ultrasonic-testing-denver",
+    "answer": "UT work in Denver concentrates on four asset bases: DJ Basin gathering and processing systems (girth-weld AUT to API 1104, ILI verification digs), the Commerce City refinery's corrosion-monitoring circuits (API 570 thickness at CMLs), mountain-west mining equipment, and Front Range aerospace hardware. Atlantis serves all four with crews mobilised to site — 24–72 hour mobilisation, ASNT Level III sign-off, tailored quote within 24 hours.",
+    "expansion": "Each asset base carries its own code path. DJ Basin operators use manual shear-wave and automated UT on new girth welds to API 1104, plus direct-assessment digs that verify in-line-inspection metal-loss calls against measured wall thickness. At Commerce City, readings at established condition monitoring locations feed API 570 and API 510 remaining-life calculations across crude, vacuum and coker circuits; repair welds get shear-wave or phased array to ASME Section V, Article 4. Mining sites schedule wear-plate and chute thickness surveys plus weld examination on dragline booms and mill trunnions, typically to AWS D1.1 acceptance. Engagement follows one pattern regardless of sector: scope is defined in a free consultation, a written procedure is qualified against the governing code, technicians certified under SNT-TC-1A or ISO 9712 perform the examination on site, and an ASNT Level III signs the final disposition. There are no Atlantis premises in Denver — crews mobilise in 24–72 hours.",
+    "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 4 (2023 edition)",
+    "table": {
+      "caption": "UT work across Denver's industrial base — asset, technique, code, trigger",
+      "columns": [
+        "Asset base",
+        "What gets examined",
+        "UT technique",
+        "Governing code",
+        "Typical trigger"
+      ],
+      "rows": [
+        [
+          "DJ Basin gathering & processing",
+          "New girth welds; ILI anomaly digs",
+          "AUT, manual shear wave, compression-wave thickness",
+          "API 1104",
+          "New construction; ILI verification"
+        ],
+        [
+          "Commerce City refining",
+          "CML thickness; repair welds",
+          "0° thickness, phased array, high-temperature UT",
+          "API 570 / API 510; ASME V Art. 4",
+          "Turnaround; on-stream monitoring"
+        ],
+        [
+          "Storage terminals",
+          "Shell courses, nozzle welds",
+          "Thickness scans, corrosion mapping",
+          "API 653",
+          "In-service external; out-of-service internal"
+        ],
+        [
+          "Mining (mountain west)",
+          "Wear plates, dragline boom welds, mill trunnions",
+          "Thickness, shear wave",
+          "AWS D1.1",
+          "Planned maintenance shutdowns"
+        ],
+        [
+          "Power generation",
+          "Boiler tubes, rotor bores, blade roots",
+          "Thickness campaigns, phased array",
+          "ASME V Arts. 4–5",
+          "Outage windows"
+        ],
+        [
+          "Front Range aerospace",
+          "Machined parts, bonded structure",
+          "Contact and immersion UT",
+          "Customer spec; NAS 410 / EN 4179 personnel",
+          "Production and receiving inspection"
+        ]
+      ],
+      "note": "Code and edition are agreed before mobilisation and recorded against each examination. Delivery is a mobilised-crew model — no local premises implied."
+    },
+    "facets": [
+      {
+        "q": "Which code governs UT on DJ Basin pipeline girth welds?",
+        "a": "API 1104 governs girth-weld examination on new pipeline construction in the DJ Basin, with AUT or manual shear wave performed to a procedure qualified against the agreed edition; in-service metal-loss digs are evaluated against the operator's integrity-management basis."
+      },
+      {
+        "q": "Can ILI metal-loss calls be verified by UT in Denver?",
+        "a": "Yes. Direct-assessment digs use compression-wave thickness and corrosion mapping to confirm the depth and extent of anomalies reported by in-line inspection, giving the pipeline operator measured wall values at the reported locations."
+      },
+      {
+        "q": "Who signs the final disposition on a Denver UT examination?",
+        "a": "An ASNT NDT Level III reviews and signs every disposition. Technicians performing the work are certified under SNT-TC-1A or ISO 9712, with instrument and reference-block calibration traceable under ISO 17025."
+      },
+      {
+        "q": "Does Atlantis operate a local office in Denver?",
+        "a": "No. Delivery is a mobilised-crew model — inspectors, qualified procedures and calibrated equipment arrive at the site in 24–72 hours, matched to the scope. For planned inspection work the crew-to-site arrangement is usually the better one anyway."
+      },
+      {
+        "q": "How does Denver refinery thickness data get used?",
+        "a": "Readings taken at established condition monitoring locations feed API 570 and API 510 remaining-life and next-inspection-interval calculations, keeping corrosion trends continuous between turnaround campaigns at Commerce City and similar units."
+      },
+      {
+        "q": "How do I engage Atlantis for UT work in Denver?",
+        "a": "Request a free 30-minute consultation; scope, governing code and delivery model are agreed and a tailored quote returns within 24 hours. Atlantis publishes no pricing — affordable, accessible, fully customizable, quote on request."
+      }
+    ]
+  },
+  {
+    "route": "/ultrasonic-testing-detroit",
+    "answer": "Detroit UT demand comes from automotive stamping and powertrain plants (press frames, crane runway welds, tooling), the downriver steel mills, refinery corrosion-monitoring circuits (API 570/510 thickness at CMLs), the regional power fleet, and structural fabrication. Atlantis performs this work with crews mobilised to the plant — written procedure, SNT-TC-1A or ISO 9712 technicians, ASNT Level III disposition — quoted within 24 hours.",
+    "expansion": "Automotive plants schedule UT inside planned line shutdowns because press downtime, not inspection time, is the constraint — press frames, crane runway welds and lifting equipment are examined by shear wave to AWS D1.1 and D14.1 acceptance. The downriver steel mills add roll journals, mill housings and caster components on roll-shop and outage cycles. Refinery scope follows API 570 and API 510: compression-wave thickness at established condition monitoring locations feeds remaining-life calculation, with phased array on repair welds to ASME Section V, Article 4. Power-generation work runs boiler-tube thickness campaigns in outage windows. The engagement pattern is identical across sectors: scope defined in a free consultation, a written procedure qualified against the governing code and edition, technicians certified under SNT-TC-1A or ISO 9712, and an ASNT Level III signing the final disposition. Findings can land as work orders in SAP PM, Maximo or ServiceNow. Crews mobilise to the plant in 24–72 hours — there are no Atlantis premises in Detroit.",
+    "source": "AWS D1.1/D1.1M:2020, Structural Welding Code — Steel",
+    "table": {
+      "caption": "UT work across Detroit's industrial base — asset, technique, code, window",
+      "columns": [
+        "Asset base",
+        "What gets examined",
+        "UT technique",
+        "Governing code",
+        "Scheduling window"
+      ],
+      "rows": [
+        [
+          "Automotive stamping & assembly",
+          "Press frames, crane runway welds, lifting equipment",
+          "Shear wave, straight-beam thickness",
+          "AWS D1.1; AWS D14.1",
+          "Planned line shutdowns, holiday outages"
+        ],
+        [
+          "Steel mills (downriver)",
+          "Roll journals, mill housings, caster components",
+          "Straight-beam, shear wave",
+          "AWS D1.1 / D14.1; mill specification",
+          "Roll-shop cycles; scheduled outages"
+        ],
+        [
+          "Refining",
+          "CML thickness, repair welds",
+          "0° thickness, phased array, high-temperature UT",
+          "API 570 / API 510; ASME V Art. 4",
+          "Turnaround; on-stream monitoring"
+        ],
+        [
+          "Power generation",
+          "Boiler tubes, headers, drums",
+          "Thickness campaigns, shear wave",
+          "ASME Section V Arts. 4–5",
+          "Outage windows"
+        ],
+        [
+          "Structural fabrication",
+          "CJP groove welds, bridge and building steel",
+          "Shear wave per contract documents",
+          "AWS D1.1 / D1.5",
+          "Fabrication QA and erection"
+        ]
+      ],
+      "note": "Code and edition are agreed before mobilisation and recorded against each examination. Delivery is a mobilised-crew model — no local premises implied."
+    },
+    "facets": [
+      {
+        "q": "Which welding codes cover UT in a Detroit automotive plant?",
+        "a": "AWS D1.1 governs structural welds such as press frames and building steel; AWS D14.1 covers industrial and mill cranes and material-handling equipment — the crane runway and hoist scope that dominates plant maintenance UT."
+      },
+      {
+        "q": "Can UT crews work inside a planned line shutdown in Detroit?",
+        "a": "Yes. Crews mobilise in 24–72 hours and are scheduled to the shutdown window, because press and line downtime — not examination time — is the constraint automotive maintenance planners actually manage."
+      },
+      {
+        "q": "What refinery UT scope does Atlantis run in Detroit?",
+        "a": "Compression-wave thickness at established condition monitoring locations feeding API 570 and API 510 remaining-life calculation, plus shear-wave and phased-array examination of repair welds to ASME Section V, Article 4."
+      },
+      {
+        "q": "Who certifies the technicians on Detroit UT work?",
+        "a": "Technicians are certified under ASNT SNT-TC-1A or ISO 9712 for the method and level, instruments and reference blocks carry ISO 17025-traceable calibration, and an ASNT NDT Level III signs the final disposition."
+      },
+      {
+        "q": "Can Detroit findings feed our maintenance system?",
+        "a": "Yes. Results can be delivered as notifications or work orders into SAP PM, Oracle eAM, IBM Maximo or ServiceNow, or onto a 3D asset model where remaining life and inspection ranking update as new data arrives."
+      },
+      {
+        "q": "Does Atlantis have premises in Detroit?",
+        "a": "No. Delivery is a mobilised-crew model: the crew, qualified procedures and calibrated equipment arrive matched to the scope. Scope and governing code are agreed at quotation, and a tailored quote returns within 24 hours."
+      }
+    ]
+  },
+  {
+    "route": "/penetrant-testing-toronto",
+    "answer": "Toronto PT work splits four ways: nuclear-fleet support components under CSA N285/N286 programmes, automotive castings and machined safety parts on fluorescent lines controlled per ASTM E1417, stainless and alloy fab-shop welds that magnetic particle cannot examine, and rail-overhaul scope such as axle journals. Personnel carry CGSB certification where Ontario acceptance requires it; ASME Section V, Article 6 governs technique. Quotes return within 24 hours.",
+    "expansion": "Ontario statutory pressure equipment registers under CSA B51 and operates under TSSA jurisdiction, so PT on registered vessels and piping follows ASME Section V, Article 6 with acceptance criteria taken from the referencing construction code. Nuclear-adjacent scope adds CSA N285/N286 programme compliance and site security clearances whose lead times run to weeks — which is why nuclear work is scoped early, at quotation. Automotive fluorescent lines run under ASTM E1417 process control, with bath sensitivity verified against known-defect panels so production-rate examination stays honest. Fabrication shops use visible dye at the bench for stainless and alloy pressure-part welds and fluorescent where the component class demands it; rail workshops apply PT to axle journals, aluminium body repairs and stainless brake components during overhaul cycles. Technicians carry CGSB certification where Ontario acceptance requires it, ASNT-scheme otherwise, and an ASNT Level III signs every disposition. Crews mobilise to site — Atlantis holds no Toronto premises.",
+    "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 6 (2023 edition)",
+    "table": {
+      "caption": "PT work across the Greater Toronto industrial base — sector, scope, technique, governing documents",
+      "columns": [
+        "Sector",
+        "Components examined",
+        "Technique",
+        "Governing documents",
+        "Access note"
+      ],
+      "rows": [
+        [
+          "Nuclear fleet support (Bruce, Pickering, Darlington)",
+          "Repair excavations, stainless welds, balance-of-plant",
+          "Fluorescent in shops; visible dye at the machine",
+          "CSA N285 / N286; ASME V Art. 6",
+          "Security clearances — weeks of lead time"
+        ],
+        [
+          "Automotive plants",
+          "Non-ferrous castings, machined safety components",
+          "Fluorescent at production rate",
+          "ASTM E1417 process control",
+          "Scheduled around production shifts"
+        ],
+        [
+          "Fabrication shops",
+          "Stainless and alloy pressure-part welds, food/pharma finishes",
+          "Visible dye at bench; fluorescent by class",
+          "ASME V Art. 6; ASTM E165; ISO 3452 series",
+          "Shop access straightforward"
+        ],
+        [
+          "Rail workshops",
+          "Axle journals, aluminium body repairs, stainless brake parts",
+          "Visible and fluorescent",
+          "Client overhaul specification; ASME V Art. 6",
+          "Overhaul cycle windows"
+        ],
+        [
+          "Statutory pressure equipment",
+          "Registered vessel and piping welds",
+          "Per referencing construction code",
+          "CSA B51 registration; TSSA jurisdiction",
+          "Code edition agreed pre-mobilisation"
+        ]
+      ],
+      "note": "Acceptance criteria always come from the referencing construction code, not the method standard. Delivery is a mobilised-team model — no local premises implied."
+    },
+    "facets": [
+      {
+        "q": "What personnel certification does Toronto PT work carry?",
+        "a": "CGSB certification is the standard Ontario credential and is provided where the client's acceptance basis requires it; ASNT SNT-TC-1A or ISO 9712 certification applies otherwise, and an ASNT NDT Level III signs every final disposition."
+      },
+      {
+        "q": "Which standards govern the PT technique itself in Toronto?",
+        "a": "ASME Section V, Article 6, ASTM E165 and E1417, and the ISO 3452 series govern technique; acceptance criteria come from the referencing construction code for the component being examined."
+      },
+      {
+        "q": "How long does nuclear site access take in Ontario?",
+        "a": "Security clearances and CSA N285/N286 programme requirements carry lead times measured in weeks, so nuclear-adjacent PT scope is confirmed at quotation stage rather than assumed into the schedule."
+      },
+      {
+        "q": "Why PT rather than MT on Toronto fabrication work?",
+        "a": "Stainless steel, nickel alloy and aluminium are non-magnetic, so magnetic particle testing cannot examine them. Penetrant testing clears that scope — pressure-part welds, machined components and food-and-pharma finishes — that MT physically cannot touch."
+      },
+      {
+        "q": "What evidence arrives with a Toronto PT report?",
+        "a": "The audit bundle: technician certification current on the day, penetrant-system process-control and calibration status, and the procedure revision in force — plus indications located against the component, so the disposition can be reconstructed later."
+      },
+      {
+        "q": "Does Atlantis keep a Toronto office?",
+        "a": "No. Penetrant teams mobilise to the site under Atlantis procedures with ASNT Level III oversight — for planned inspection work the crew, consumables and procedures arriving matched to scope is usually the better arrangement anyway."
+      }
+    ]
+  },
+  {
+    "route": "/3d-scanning-louisville",
+    "answer": "Point-cloud scanning in Louisville serves four workloads: as-built capture of Rubbertown chemical-corridor units ahead of revamps, tank-settlement and shell-deformation surveys at Ohio River terminal tank farms evaluated under API 653 Annex B, dimensional control for automotive and appliance plant retooling, and distillery infrastructure — rickhouses, cookers, fermenters. Atlantis mobilises scan crews in 24–72 hours; deliverables land as registered E57/RCP clouds or Revit/IFC models.",
+    "expansion": "Revamp scanning in the Rubbertown chemical corridor replaces manual field verification: a registered point cloud at low-millimetre network accuracy lets the design contractor route new piping against actual rack geometry instead of drawings that stopped matching the plant years ago. Terminal tank farms along the Ohio River use external LiDAR to capture shell profile and bottom-edge settlement without taking the tank out of service, with the survey evaluated under API 653 Annex B. Automotive and appliance plants scan press lines and conveyor envelopes ahead of retooling so new equipment checks fit before installation week. Distilleries document rickhouse rack structures, cookers and fermenters — both as condition baselines and as inputs to expansion design. Every engagement starts by fixing the deliverable specification — point density, level of detail, formats — before capture, because that decision drives cost more than field time does. Capture typically runs days; registration accuracy is reported with the deliverable. Crews mobilise in 24–72 hours.",
+    "source": "API Standard 653, Fifth Edition, Annex B (tank bottom settlement evaluation)",
+    "table": {
+      "caption": "Point-cloud scanning workloads across Louisville's industrial base",
+      "columns": [
+        "Workload",
+        "Assets",
+        "Capture method",
+        "Deliverable",
+        "Used for"
+      ],
+      "rows": [
+        [
+          "Chemical revamp as-builts (Rubbertown corridor)",
+          "Process units, pipe racks",
+          "Multi-station terrestrial LiDAR",
+          "Registered E57/RCP cloud; Revit/IFC model",
+          "Design verification, clash avoidance"
+        ],
+        [
+          "Terminal tank farms (Ohio River)",
+          "AST shells and roofs",
+          "LiDAR; drone for roofs",
+          "Shell profile, settlement plot",
+          "API 653 Annex B settlement evaluation"
+        ],
+        [
+          "Automotive & appliance retooling",
+          "Press lines, conveyors, building steel",
+          "LiDAR dimensional control",
+          "Scan-to-CAD comparison",
+          "Tooling fit-up before installation"
+        ],
+        [
+          "Distillery infrastructure",
+          "Rickhouses, cookers, fermenters, warehouses",
+          "LiDAR plus photogrammetry",
+          "Structural documentation, as-builts",
+          "Condition baseline, expansion design"
+        ],
+        [
+          "Port & bridge infrastructure",
+          "Docks, terminals, clearance envelopes",
+          "LiDAR, drone",
+          "Deformation versus prior scan",
+          "Asset-integrity monitoring"
+        ]
+      ],
+      "note": "Registration accuracy of the network — not the instrument's single-scan specification — is reported with every deliverable; bundles ship SHA-256 hashed with a full audit trail."
+    },
+    "facets": [
+      {
+        "q": "What accuracy does a Louisville point-cloud survey deliver?",
+        "a": "Low-millimetre registered network accuracy across a typical plant area. The number that matters is the registered network, not the instrument's single-scan spec, and any tolerance the downstream engineering depends on is stated before capture."
+      },
+      {
+        "q": "Can a scan support an API 653 tank settlement evaluation?",
+        "a": "Yes. External LiDAR captures shell profile and bottom-edge elevation with the tank in service, and the survey is evaluated under API 653 Annex B — the settlement-evaluation annex — with results feeding the tank's inspection record."
+      },
+      {
+        "q": "Which formats do Louisville scan deliverables ship in?",
+        "a": "Registered point clouds in LAS, E57, RCP or RCS; as-built models in Revit, IFC, AutoCAD DWG or MicroStation at an agreed level of detail; deformation comparisons; and digital-twin-ready geometry — all SHA-256 hashed with an audit trail."
+      },
+      {
+        "q": "How long is a scan crew on site in Louisville?",
+        "a": "Capture is the short part — a typical process unit scans in days, not weeks. Registration, QC and as-built modelling scale with the requested level of detail, which is the single biggest lever on both cost and schedule."
+      },
+      {
+        "q": "Does Atlantis have a Louisville office?",
+        "a": "No. Scan crews mobilise to the site in 24–72 hours with the deliverable specification — density, level of detail, formats — agreed before capture. Free 30-minute consultation; tailored quote within 24 hours."
+      },
+      {
+        "q": "Should we scan the whole Louisville plant or one unit?",
+        "a": "Start with the units where condition data justifies it. The most common way to overspend on reality capture is scanning an entire plant at high density before deciding what data will actually attach to the geometry."
+      }
+    ]
+  },
+  {
+    "route": "/3d-scanning-florida",
+    "answer": "Florida scanning work concentrates on fuel-terminal tank farms at Tampa, Port Everglades and Jacksonville — settlement and shell-deformation surveys evaluated under API 653 Annex B — phosphate and fertilizer plant as-builts in the central-Florida corridor, port and terminal infrastructure, and structural documentation supporting coastal condominium milestone inspections. Atlantis mobilises statewide in 24–72 hours; deliverables are registered point clouds and Revit/IFC as-builts.",
+    "expansion": "Tank farms at Tampa, Port Everglades and Jacksonville sit on soft coastal soils, which makes settlement the live integrity question: external LiDAR captures shell profile and bottom-edge elevation while the tank stays in service, drones cover roofs without scaffold, and the survey is evaluated under API 653 Annex B. The central-Florida phosphate corridor generates as-built and deformation work on aging process structures. Since 2022, Florida's milestone structural inspection law (SB 4-D) has required engineer-led inspections of coastal condominiums as they age; scanning gives the engineer of record measurable facade and frame geometry and a repeatable baseline for the next cycle. Space Coast launch-support structures add dimensional-control scope. The engagement pattern is uniform: deliverable specification — density, level of detail, formats — fixed before capture, registration accuracy reported with the deliverable, and geometry prepared for digital-twin ingestion where the scan feeds an integrity programme. Crews mobilise statewide in 24–72 hours; Atlantis holds no Florida premises.",
+    "source": "API Standard 653, Fifth Edition, Annex B (tank bottom settlement evaluation)",
+    "table": {
+      "caption": "3D scanning workloads across Florida's industrial base",
+      "columns": [
+        "Workload",
+        "Region",
+        "Assets",
+        "Capture method",
+        "Output / use"
+      ],
+      "rows": [
+        [
+          "Fuel-terminal tank farms",
+          "Tampa, Port Everglades, Jacksonville",
+          "AST shells and roofs",
+          "LiDAR; drone for roofs",
+          "API 653 Annex B settlement evaluation"
+        ],
+        [
+          "Phosphate & fertilizer plants",
+          "Central Florida",
+          "Process structures, materials handling",
+          "LiDAR, UAV",
+          "As-builts; deformation versus prior scan"
+        ],
+        [
+          "Condominium milestone inspections",
+          "Coastal, statewide",
+          "Facades, balconies, structural frames",
+          "LiDAR plus photogrammetry",
+          "Measurable baseline for the engineer of record"
+        ],
+        [
+          "Ports & terminals",
+          "Miami, Everglades, Tampa, Jacksonville",
+          "Docks, cranes, clearance envelopes",
+          "LiDAR, drone",
+          "Deformation monitoring, expansion design"
+        ],
+        [
+          "Space Coast infrastructure",
+          "Cape Canaveral corridor",
+          "Launch-support and processing structures",
+          "LiDAR dimensional control",
+          "Fit-up and modification design"
+        ],
+        [
+          "Power generation",
+          "Statewide",
+          "Turbine halls, boiler structures",
+          "LiDAR",
+          "Outage planning, retrofit as-builts"
+        ]
+      ],
+      "note": "Crews mobilise statewide from national capture teams; registration accuracy of the network is reported with every deliverable — no local premises implied."
+    },
+    "facets": [
+      {
+        "q": "Can tank settlement be scanned while the tank stays in service?",
+        "a": "Yes. External LiDAR captures shell profile and bottom-edge elevation without taking the tank down, drones cover the roof without scaffold, and the survey is evaluated under API 653 Annex B for the tank's inspection record."
+      },
+      {
+        "q": "What drives condominium scanning demand in Florida?",
+        "a": "Florida's 2022 milestone structural inspection law (SB 4-D) requires engineer-led inspections of coastal condominiums as they age. Scanning gives the engineer of record measurable facade and frame geometry and a repeatable baseline for the next inspection cycle."
+      },
+      {
+        "q": "Which Florida regions does Atlantis cover for scanning?",
+        "a": "Statewide on a mobilised model — Tampa, Port Everglades, Jacksonville and Miami terminals, the central-Florida phosphate corridor, the Space Coast and power sites — with crews arriving in 24–72 hours rather than from local premises."
+      },
+      {
+        "q": "What deliverable formats are provided on Florida scans?",
+        "a": "Registered point clouds in LAS, E57, RCP or RCS; as-built models in Revit, IFC, AutoCAD DWG or MicroStation at an agreed level of detail; deformation comparisons; and digital-twin-ready geometry, shipped as SHA-256 hashed bundles."
+      },
+      {
+        "q": "How fast can a scan crew reach a Florida site?",
+        "a": "On-site mobilisation runs 24–72 hours. Scope, access constraints and the deliverable specification are agreed in a free 30-minute consultation, and a tailored quote returns within 24 hours — pricing on request only."
+      },
+      {
+        "q": "How is accuracy reported on a Florida scan?",
+        "a": "As the accuracy of the registered network across the surveyed area — reported with the deliverable — not the instrument manufacturer's single-scan specification. Any tolerance the downstream engineering depends on is stated before capture."
+      }
+    ]
   }
 ]
