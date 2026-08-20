@@ -87,3 +87,68 @@ Line B: each family pass is 1-2 days to build + sample-audit, then covers its wh
 in one build. T4-T7 ≈ 2 weeks of engineering.
 **Whole programme: 4-6 weeks to built-and-verified, gated at each tranche.** Deploy cadence
 is the owner's: push after each tranche or batch them.
+
+---
+
+## Progress — 2026-08-20
+
+**638 pages now carry a citation layer** (from 118 on 2026-08-19), across 5,723 built
+routes. Preflight 10/10 throughout. Nothing deployed.
+
+| Tranche | Cohort | Applied | Doorway audit | Note |
+|---|---|---|---|---|
+| T1 | Top-click cohort | 80/116 | — | agent prose |
+| T4 | Training cities | 158 + 19 new US pages | worst 58% | 94 US profiles |
+| T5 | Consulting cities | 57 (33 US) | worst 52% | 93 skipped, no research |
+| T6 | ERP families | 140 | worst 55% | **696 permutations refused** |
+| T7 | Corporate training | 44 | worst 53% | 23 skipped |
+| — | Depth pages | 97 | validator | 45 added today |
+
+### What T6 changed about the method
+
+T6 was the first tranche whose template **failed its own audit** — 72% on the
+module-across-cities axis and 80% on the city-across-modules axis, 306 pairs over the gate.
+The failing pair (`asset-management-london` vs `corrosion-tracking-london`) shared forty
+words of city context and diverged only at the module name.
+
+That is not a tuning problem. Eleven modules across thirty-one cities is 341 pages carrying
+42 facts. The permutations are now **refused outright** — 696 of them — and only the 23
+base pages, where the module's own angle is unique by definition, carry a layer.
+
+Two mechanisms came out of it and now apply to every family pass:
+
+1. **A self-policing similarity gate inside the pass.** Each generated answer is compared
+   against those already accepted in its family and dropped above 0.55. The audit then
+   passes by construction rather than needing a manual sweep after every data change.
+   T6 dropped 34 pages this way; T7 dropped none, which is itself evidence the training
+   profiles are genuinely researched where the ERP city descriptions are not.
+2. **Layer/noindex reconciliation.** Family passes must run before the noindex
+   re-evaluation, but some pages come out of it still noindexed. The layer is stripped
+   rather than the noindex exempted — a noindexed page is never cited, so the layer is dead
+   weight, while the exemption would reintroduce the doorway page the check just caught.
+
+### The invisible-page audit
+
+`scripts/audit-unindexed.mjs` replaced the guesswork. Against a 90-day GSC pull:
+
+| Bucket | Count |
+|---|---|
+| visible (≥1 impression) | 3,134 |
+| crawled-not-chosen | 1,232 |
+| shallow | 741 |
+| noindexed | 567 |
+| thin | 3 |
+| **orphan** | **1** |
+
+The empty orphan and thin buckets are the useful result: **internal linking is not the
+problem and more of it will not help.** Everything invisible is either undifferentiated or
+deliberately hidden, which is what the family passes and the noindex re-evaluation address.
+
+### Still open
+
+- T2 mid-tail (275 pages, 20–149 impressions, zero clicks) — the largest untouched cohort
+- 92 non-US consulting cities and 222 ERP cities skipped for want of research
+- `/training/api-510-training-{city}` deliberately unlayered — Atlantis does not sell that
+  training, and a templated answer block would put an untrue claim in the layer models
+  quote from. Needs hand-written copy if it is ever done.
+- **Nothing is deployed.** All of the above is on `seo/citation-spec-2026-08-18`.

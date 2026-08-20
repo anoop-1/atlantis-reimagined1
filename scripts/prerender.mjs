@@ -13461,6 +13461,21 @@ if (pseoNoindexApplied > 0) {
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
+  // ── T7 CORPORATE TRAINING CITY LAYERS 2026-08-20 ──────────────────────
+  // 67 employer-sponsored cohort pages unlayered, 43 invisible. Highest-intent
+  // training page on the site — a company training six technicians, not one
+  // person browsing salaries. /training/api-510-training-{city} is deliberately
+  // excluded; see that module's header for why.
+  {
+    const { applyTrainingFamilyLayers } = await import('./training-family-layers.mjs');
+    const t7 = await applyTrainingFamilyLayers(routes);
+    console.log(
+      `🎓 T7 corporate training layers: ${t7.applied} applied · ${t7.skippedThin} no research · ` +
+      `${t7.skippedSimilar} too similar to a sibling · ${t7.already} already layered`
+    );
+    globalThis.__T7_ANSWERS = t7.answers;
+  }
+
   // ── T6 ERP FAMILY CITATION LAYERS 2026-08-20 ──────────────────────────
   // 1,094 ERP pages carried no citation layer, 311 of them invisible, at a
   // median of ~1,650 words — substantial and undifferentiated. This is the
