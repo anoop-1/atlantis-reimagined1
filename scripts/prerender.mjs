@@ -13461,6 +13461,23 @@ if (pseoNoindexApplied > 0) {
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
+  // ── T6 ERP FAMILY CITATION LAYERS 2026-08-20 ──────────────────────────
+  // 1,094 ERP pages carried no citation layer, 311 of them invisible, at a
+  // median of ~1,650 words — substantial and undifferentiated. This is the
+  // family the permutation post-mortem indicted (0.06 clicks/page vs 2.14 for
+  // blogs), so it runs on the cheap template line and gates hard: any city
+  // without researched prose is skipped rather than templated.
+  {
+    const { applyErpFamilyLayers } = await import('./erp-family-layers.mjs');
+    const t6 = await applyErpFamilyLayers(routes);
+    console.log(
+      `📦 T6 ERP family layers: ${t6.erpCity} city · ${t6.modules} module · ${t6.industries} industry ` +
+      `= ${t6.erpCity + t6.modules + t6.industries} applied · skipped ${t6.skippedPermutation} permutation · ` +
+      `${t6.skippedThin} no research · ${t6.skippedSimilar} too similar to a sibling`
+    );
+    globalThis.__T6_ANSWERS = t6.answers;
+  }
+
   // ── T5 CONSULTING CITY CITATION LAYERS 2026-08-20 ─────────────────────
   // 150 of 151 consulting city pages carried no citation layer and 76 earned
   // zero impressions in 90 days — the "crawled, not chosen" bucket. They are
@@ -13509,6 +13526,32 @@ if (pseoNoindexApplied > 0) {
       `🔓 Noindex re-evaluation: ${dec.reindexed} pages re-indexed · ${dec.kept} kept noindex ` +
       `(too thin ${dec.reasons.thin} · near-duplicate ${dec.reasons.duplicate} · no city-specific research ${dec.reasons.generic})`
     );
+  }
+
+  // ── CITATION LAYER / NOINDEX RECONCILIATION 2026-08-20 ────────────────
+  // Two invariants meet here and one has to give. The family passes add a
+  // citation layer before the noindex re-evaluation runs (they must — the
+  // re-evaluation measures the body those passes produce). But a handful of
+  // pages come out of that evaluation still noindexed as near-duplicates, and
+  // preflight refuses to ship a noindexed page carrying a citation layer.
+  //
+  // Preflight is right, and the resolution runs this way rather than the other:
+  // a noindexed page will never be retrieved or cited, so its layer is dead
+  // weight, whereas exempting it from noindex would reintroduce the doorway
+  // page the similarity check just caught. So the layer comes off and the
+  // noindex stands. Order-independent: whatever the passes did, this is the
+  // last word.
+  {
+    let stripped = 0;
+    for (const r of routes) {
+      if (!r || !r.bodyContent || !(r.noindex || r.noindexFollow)) continue;
+      if (!r.bodyContent.includes('data-citation-block=')) continue;
+      r.bodyContent = r.bodyContent
+        .replace(/<section data-citation-block="[^"]*"[^>]*>[\s\S]*?<\/section>/g, '')
+        .replace(/<figure data-citation-block="[^"]*"[^>]*>[\s\S]*?<\/figure>/g, '');
+      stripped++;
+    }
+    if (stripped) console.log(`🧹 Citation layers stripped from ${stripped} still-noindexed pages (a noindexed page is never cited; the layer would only trip the invariant)`);
   }
 
   // ── ZERO-IMPRESSION PRUNE 2026-08-16 (owner-approved) ──────────────────────

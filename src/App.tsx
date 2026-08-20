@@ -3124,6 +3124,30 @@ const App = () => (
                   <Route path="/blog/how-much-do-ndt-technicians-make" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/code-inspector-vs-cwi-salary-gulf-coast" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/api-510-certification-worth-it-2026" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/iacs-service-supplier-approval" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/utm-operator-qualification-class-approval" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/navsea-ndt-requirements-shipyard" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/faa-part-145-repair-station-ndt" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/nqa-1-nuclear-supplier-ndt-program" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aar-m-1003-ndt-tank-car-facility" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/petrochemical-ndt-consulting-baton-rouge" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/pipeline-ndt-consulting-tulsa" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/rail-ndt-consulting-chicago" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aerospace-ndt-consulting-wichita" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aerospace-ndt-consulting-fort-worth" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/aerospace-ndt-consulting-huntsville" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/nuclear-ndt-consulting-charlotte" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/nuclear-ndt-consulting-pittsburgh" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/power-generation-ndt-consulting-chattanooga" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-jacksonville" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-tampa" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-norfolk" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-houston" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-new-orleans" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-mobile" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-seattle" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-san-diego" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/maritime-ndt-consulting-pascagoula" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-personnel-certification-tracking" element={<LazyRoute Component={DepthPage} />} />
