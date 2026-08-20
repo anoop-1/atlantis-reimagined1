@@ -13,8 +13,8 @@
  *
  * To change a layer, edit the source JSON and re-run the generator.
  *
- * Generated: 2026-08-20T09:52:42.102Z
- * Layers: 118
+ * Generated: 2026-08-20T11:58:51.858Z
+ * Layers: 121
  */
 
 export const CITATION_LAYERS_GENERATED = {
@@ -10190,6 +10190,259 @@ export const CITATION_LAYERS_GENERATED = {
           {
               "q": "Does B31.3 apply where no regulation adopts it?",
               "a": "Yes. B31.3 is a private consensus standard, and the owner or EPC contract makes it governing law for the project even where no government regulation requires it. National overlays then stack on top — Saudi Aramco SAES-L-150 and ADNOC specifications both build on B31.3 rather than replace it. In the United States, OSHA process safety management under 29 CFR 1910.119 references it as a recognized engineering practice."
+          }
+      ]
+  },
+
+  "/resources/training-requirements-matrix": {
+      "answer": "ASNT SNT-TC-1A (2020) recommends 40 hours of classroom training for UT Level I and 40 more for Level II; ISO 9712:2021 mandates 64 and 80 hours for the same levels. The schemes diverge hardest on experience: SNT-TC-1A lets the employer's Written Practice define it, while ISO 9712 and PCN require documented method-and-sector experience verified by a Level 3.",
+      "expansion": "The three schemes answer the same question differently. SNT-TC-1A is a recommended practice: its Table 6.3.1A hours — 40 per level for UT and RT, 12 and 8 for MT, 4 and 8 for PT, 8 and 16 for VT — bind only when the employer's Written Practice adopts them, and the employer certifies its own personnel. ISO 9712 is a hard standard: a third-party certification body verifies mandated training hours and industrial experience measured in months — 3 for Level 1 and 9 for Level 2 in UT, RT and ET, 1 and 3 in MT, PT and VT — before any examination is scheduled. PCN, operated by BINDT, implements ISO 9712 and layers on its own rules: 10 percent of experience in the product sector applied for, logs submitted to BINDT, and a demanding practical and oral component at Level 3. Formal science or engineering education reduces the experience requirement under defined conditions.",
+      "source": "ASNT SNT-TC-1A (2020 edition), Table 6.3.1A; ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel; PCN requirements per BINDT PCN/GEN documents.",
+      "table": {
+          "caption": "Minimum classroom training hours by method: SNT-TC-1A recommendation vs ISO 9712 requirement",
+          "columns": [
+              "Method",
+              "SNT-TC-1A Level I (hours)",
+              "SNT-TC-1A Level II (hours)",
+              "ISO 9712 Level 1 (hours)",
+              "ISO 9712 Level 2 (hours)"
+          ],
+          "rows": [
+              [
+                  "Ultrasonic Testing (UT)",
+                  "40",
+                  "40",
+                  "64",
+                  "80"
+              ],
+              [
+                  "Radiographic Testing (RT)",
+                  "40",
+                  "40",
+                  "72",
+                  "80"
+              ],
+              [
+                  "Magnetic Particle Testing (MT)",
+                  "12",
+                  "8",
+                  "16",
+                  "24"
+              ],
+              [
+                  "Liquid Penetrant Testing (PT)",
+                  "4",
+                  "8",
+                  "16",
+                  "24"
+              ],
+              [
+                  "Visual Testing (VT)",
+                  "8",
+                  "16",
+                  "16",
+                  "24"
+              ],
+              [
+                  "Eddy Current Testing (ET)",
+                  "40",
+                  "40",
+                  "40",
+                  "48"
+              ]
+          ],
+          "note": "SNT-TC-1A figures are recommended minimums from Table 6.3.1A that bind through the employer's Written Practice; ISO 9712 figures are mandatory minimums verified by the certification body. PCN applies the ISO 9712 hours with BINDT's additional documentation. Direct Level-2 entry requires the combined Level 1 + Level 2 hours under both international schemes."
+      },
+      "facets": [
+          {
+              "q": "Who decides the actual training requirement under SNT-TC-1A?",
+              "a": "The employer. SNT-TC-1A is a recommended practice, and the hour tables bind only once the employer's Written Practice adopts or modifies them. Experience must be gained under Level II or Level III supervision, documentation is employer-controlled, and clients or regulators can demand more than the published minimums — nuclear and aerospace programmes set significantly higher bars."
+          },
+          {
+              "q": "Can a candidate certify directly at Level 2 without holding Level 1?",
+              "a": "Under ISO 9712 and PCN, yes — direct access is allowed, but the candidate must complete both the Level 1 and Level 2 training hours and the combined experience requirement before examination. Under SNT-TC-1A the Written Practice decides; employers routinely qualify technicians straight to Level II on the same combined-hours logic."
+          },
+          {
+              "q": "How do ISO 9712 and PCN treat experience differently?",
+              "a": "ISO 9712 requires at least 50 percent of experience in the product sector for which certification is sought, with the log verified by the employer and countersigned by a Level 3. PCN, operated by BINDT, requires a minimum of 10 percent of total experience in the specific product sector applied for — and the experience logs are submitted to BINDT itself, not just held by the employer."
+          },
+          {
+              "q": "Does formal education shorten the path to certification?",
+              "a": "Yes. Formal education in science, engineering or technology reduces the experience requirement under defined scheme rules — the clearest case is ASNT Level III eligibility, where a four-year engineering or science degree cuts the required experience to one year at Level II responsibility, against four years for a candidate qualifying on experience alone."
+          },
+          {
+              "q": "Do training hours carry over between NDT methods?",
+              "a": "No. Hours are independent per method — certifying in both UT and RT means completing the full training hours for each, although general and basic topics overlap. Advanced techniques stack further: PAUT, TOFD and digital RT call for additional training beyond the base method hours, with the exact requirement set by the certification scheme."
+          },
+          {
+              "q": "What do the schemes require at recertification?",
+              "a": "Evidence of continuing professional development: keep records of training courses, conferences, seminars and NDT-related professional activity. ISO 9712 and PCN certificates run a five-year validity with renewal on documented continuity and a recertification examination at ten years. SNT-TC-1A leaves the interval to the Written Practice, with five years as the recommended maximum."
+          }
+      ]
+  },
+
+  "/resources/ndt-inspection-checklist": {
+      "answer": "An NDT inspection checklist runs four phases: pre-inspection planning (scope, governing code edition, technician certifications, calibration status, access and permits), equipment and calibration verification, during-inspection discipline (procedure compliance, 100% coverage tracking, indication documentation), and post-inspection reporting with Level III review. Code-specific reminders for ASME Section V and API 510/570/653 prevent the findings auditors write most.",
+      "expansion": "Each phase has a failure mode. Planning fails when the crew mobilises against the wrong code edition or with certifications that lapse mid-project — verify both against the purchase order and the employer's written practice before travel. Equipment fails on block mismatch: reference standards (IIW/V1, V2, DSC) must match the component material where the procedure requires it, and every serial number goes on the technique sheet. During inspection, calibration verification runs at the frequency the procedure sets — commonly at the start and end of each examination and at fixed intervals — and a failed check voids every examination since the last valid one. Reporting closes with Level III review, attached calibration records, and archiving for five years minimum, longer for nuclear and some pressure vessel codes. The code reminders carry the specifics: acceptance criteria live in the referencing code, not ASME Section V; API 570 pushes attention to injection points, deadlegs and CUI; API 653 wants settlement at eight perimeter points minimum.",
+      "source": "ASME BPVC Section V (2023 Edition), Articles 1–9; API 510, API 570 and API 653 in-service inspection codes; personnel certification per SNT-TC-1A, ISO 9712, PCN and ACCP.",
+      "table": {
+          "caption": "The NDT inspection checklist decomposed by phase and governing code",
+          "columns": [
+              "Phase or code",
+              "What the checklist verifies",
+              "The finding it prevents"
+          ],
+          "rows": [
+              [
+                  "Phase 1 — Pre-inspection planning",
+                  "Scope vs purchase order; governing code and correct edition; certifications valid per written practice (SNT-TC-1A) or scheme (ISO 9712, PCN, ACCP); previous reports and corrosion rates; access, permits, PPE",
+                  "Crew mobilised against a superseded code edition or with a certification that lapses mid-project"
+              ],
+              [
+                  "Phase 2 — Equipment and calibration",
+                  "Calibration valid through the project; blocks (IIW/V1, V2, DSC) match component material where required; consumable expiry dates; function tests; serial numbers on the technique sheet",
+                  "Instrument calibration expiring on site, or a reference block that does not match the component"
+              ],
+              [
+                  "Phase 3 — During inspection",
+                  "Procedure followed exactly (deviations need Level III authorization); coverage tracked to 100% with grids or digital mapping; every indication documented with location, size, orientation, classification; periodic calibration checks",
+                  "Lost calibration not caught — every examination since the last valid check must be repeated"
+              ],
+              [
+                  "Phase 4 — Post-inspection and reporting",
+                  "All mandatory data fields, sketches, acceptance criteria and signatures; calibration records attached; Level III review and approval; archive five years minimum",
+                  "A report that cannot survive audit because fields, traceability or approval are missing"
+              ],
+              [
+                  "ASME Section V",
+                  "Correct Article per method — Art. 4 UT, Art. 2 RT, Art. 7 MT, Art. 6 PT, Art. 8 ET, Art. 9 VT; procedures address all mandatory variables (Table T-421 for UT)",
+                  "Acceptance criteria applied from Section V instead of the referencing code (e.g., ASME VIII UW-51/52)"
+              ],
+              [
+                  "API 510 — pressure vessels",
+                  "Minimum thickness calculations, short- and long-term corrosion rates, remaining life, CML records",
+                  "Remaining life computed from the wrong corrosion rate or without CML history"
+              ],
+              [
+                  "API 570 — piping",
+                  "Circuits classified by service class; injection points, deadlegs and CUI areas prioritised; small-bore and socket welds included; MAWP checked at measured thickness",
+                  "Small-bore and socket welds silently excluded from scope"
+              ],
+              [
+                  "API 653 — storage tanks",
+                  "Settlement at a minimum of 8 perimeter points; shell readings per Table 6.1; critical zone at the shell-to-bottom weld; annular plates per Table 4.4",
+                  "A settlement survey with too few points to evaluate against the annex criteria"
+              ]
+          ],
+          "note": "Acceptance criteria live in the referencing code, not ASME Section V — the checklist's most repeated reminder. The download is an editable Excel workbook; Atlantis Level III consultants build project-specific versions, and Atlantis ERP turns them into digital forms with automatic report generation — quote on request."
+      },
+      "facets": [
+          {
+              "q": "How often must calibration be verified during an examination?",
+              "a": "At the frequency the approved procedure specifies — commonly at the start and end of each examination and at set intervals such as every two hours. The rule with teeth is the failure clause: when a verification check fails, every examination performed since the last valid check must be repeated, which is why long scan runs get interim checks."
+          },
+          {
+              "q": "Where do acceptance criteria come from on an ASME Section V job?",
+              "a": "From the referencing code, not Section V. Section V's Articles define how to perform the examination — Article 4 for UT, Article 2 for RT, Article 7 MT, Article 6 PT, Article 8 ET, Article 9 VT — while accept/reject limits sit in the construction or in-service code, such as ASME Section VIII UW-51 and UW-52 for vessel radiography."
+          },
+          {
+              "q": "What must be recorded for every indication found?",
+              "a": "Location, size, orientation and classification — evaluated against the specific code paragraph, table or figure, not against memory of it. Reportable findings are photographed with a scale reference, rejectable indication locations are marked on the component itself, and environmental conditions are logged at intervals so the record shows the examination stayed inside procedure limits."
+          },
+          {
+              "q": "How long must NDT inspection records be retained?",
+              "a": "Five years minimum is the working baseline, with nuclear work and some pressure vessel codes requiring longer. The archive package is more than the report: attach calibration records and traceability documentation, capture Level III review and approval, and distribute to stakeholders before archiving so the record trail survives an audit years after the crew has moved on."
+          },
+          {
+              "q": "What does API 570 tell you to prioritise on piping?",
+              "a": "Classify piping circuits by service class first, then weight attention toward injection points, deadlegs and corrosion-under-insulation areas — the locations where localised attack outruns the circuit average. Include small-bore and socket welds in scope rather than exempting them, and check MAWP at the measured thickness, not the nominal."
+          },
+          {
+              "q": "Which tank-specific checks does API 653 add?",
+              "a": "Settlement measured at a minimum of eight perimeter points, shell thickness readings taken per Table 6.1, inspection of the critical zone at the shell-to-bottom weld, and evaluation of annular plates per Table 4.4. Each targets a tank-only failure mode: shell settlement, course-by-course thinning and bottom-side corrosion have no piping or vessel equivalent."
+          }
+      ]
+  },
+
+  "/press/free-templates-2026-launch": {
+      "answer": "Atlantis NDT has released 16 free editable templates for inspection contractors: an SNT-TC-1A NDT procedure, API 510, 570 and 653 report forms, PWHT records, an API 581 RBI worksheet, ISO/IEC 17025 calibration certificates, welder qualification (WPQR) forms, and inspection and test plans (ITPs). Every template downloads free from the Atlantis resources library and edits in Word or Excel.",
+      "expansion": "The templates target the documents auditors ask for first. The SNT-TC-1A procedure template carries the structure a written practice references; the API 510, 570 and 653 report forms map to the data fields those in-service codes require — thickness readings, corrosion rates, remaining life, CML records; the API 581 worksheet frames a quantitative risk-based inspection screening; the calibration certificate follows the ISO/IEC 17025:2017 §7.8 reporting elements, uncertainty, decision rule and traceability included; the WPQR form records welder qualification variables per ASME Section IX; and the ITP sets hold, witness and review points for fabrication surveillance. Behind the free layer sits the Atlantis stack — ERP with certification and calibration tracking, a digital twin platform with RBI and FFS workflows, mobile offline reporting software, and Level III consulting — with records structured for ISO 9001, ISO 17020 and ISO 17025 audits. Quotes are tailored per region, scope, delivery model and team size, returned within 24 hours.",
+      "source": "ASNT SNT-TC-1A; API 510, API 570, API 653 and API 581; ISO/IEC 17025:2017, §7.8; ASME BPVC Section IX (welding qualification).",
+      "table": {
+          "caption": "The 16-template release decomposed: each named template and the document it answers to",
+          "columns": [
+              "Template",
+              "Governing document",
+              "What it captures"
+          ],
+          "rows": [
+              [
+                  "NDT procedure",
+                  "ASNT SNT-TC-1A",
+                  "Method scope, technique, equipment, personnel levels, acceptance-criteria reference to the governing code"
+              ],
+              [
+                  "API 510 vessel report",
+                  "API 510",
+                  "Thickness readings, corrosion rates, remaining life, CML records for pressure vessels"
+              ],
+              [
+                  "API 570 piping report",
+                  "API 570",
+                  "Circuit classification, CML data, injection point and deadleg findings, MAWP at measured thickness"
+              ],
+              [
+                  "API 653 tank report",
+                  "API 653",
+                  "Shell course readings, settlement survey, critical zone and annular plate findings"
+              ],
+              [
+                  "PWHT record",
+                  "ASME B&PV / B31 fabrication requirements",
+                  "Post-weld heat treatment cycle: temperatures, hold times, and the record trail the code requires"
+              ],
+              [
+                  "RBI worksheet",
+                  "API 581 (API 580 framework)",
+                  "Probability and consequence factors, risk ranking, inspection planning inputs"
+              ],
+              [
+                  "Calibration certificate",
+                  "ISO/IEC 17025:2017 §7.8",
+                  "As-found/as-left results, measurement uncertainty, decision rule, traceability, authorised signatures"
+              ],
+              [
+                  "Welder qualification (WPQR)",
+                  "ASME Section IX",
+                  "Qualification variables, test results and qualified ranges for welder performance"
+              ]
+          ],
+          "note": "Nine template families are named in the release; the set totals 16 editable documents, including the ITP, all downloadable from the Atlantis free resources library. Productised versions generate the same records automatically inside Atlantis ERP and the reporting software — demo or quote on request."
+      },
+      "facets": [
+          {
+              "q": "What does the free NDT procedure template provide?",
+              "a": "A procedure skeleton aligned to SNT-TC-1A, structured so the employer's written practice can reference it directly: the sections a code-compliant procedure carries — method scope, equipment and calibration requirements, personnel level assignments, examination technique, and the acceptance-criteria reference back to the governing code. It pairs with the written practice template and the training requirements matrix in the same free library."
+          },
+          {
+              "q": "Are the templates free, and what does Atlantis charge for?",
+              "a": "All 16 templates are free and editable. Atlantis publishes no pricing for its products: the ERP, digital twin platform, reporting software, training and consulting are positioned as affordable, accessible and fully customizable, priced per region, scope, delivery model and team size through a tailored quote returned within 24 hours — opened by a free 30-minute consultation with the founder."
+          },
+          {
+              "q": "Which codes does the Atlantis compliance stack cover?",
+              "a": "Management-system audits run against ISO 9001:2015, ISO 17020 for inspection bodies, ISO 17025 for calibration laboratories and ISO 17024 for personnel certification. Technical coverage spans ASME B&PV Sections V, VIII, IX and XI plus the B31 piping series; API 510, 570, 571, 579, 580, 581, 653, 936 and 1169; NACE MR0175 and MR0103 sour service; AMPP CIP coating; and IACS Rec-20 marine and offshore."
+          },
+          {
+              "q": "How fast can Atlantis mobilise when a template turns into a project?",
+              "a": "Three delivery models are published: on-site mobilisation in 24 to 72 hours through Houston, Dubai, Mumbai, Singapore and London hubs; remote procedure authoring and Level III sign-off on a 24-hour turnaround; and a hybrid model pairing a local Level II with Atlantis Level III oversight delivered remotely. Every engagement carries ASNT NDT Level III final disposition and procedure approval."
+          },
+          {
+              "q": "Who stands behind the templates technically?",
+              "a": "Anoop Rayavarapu, Atlantis NDT's founder — ASNT NDT Level III across multiple methods, API 653 certified, and an ISO 9001 Lead Auditor. Inspector certification runs dual-scheme, ASNT NDT Level II/III alongside ISO 9712, and the consultation the release offers is a free 30-minute session with him, followed by a tailored quote within 24 hours."
+          },
+          {
+              "q": "How do the free templates connect to the paid software stack?",
+              "a": "Each template has a productised counterpart. Atlantis ERP maintains the asset register and circuit hierarchy and tracks ASNT, ISO 9712, API ICP, AWS CWI and NACE CIP certifications with audit-ready records; the digital twin platform adds a damage-mechanism heat-map, RBI tier visualisation and FFS workflow; the reporting software captures field data mobile and offline against code-aligned templates."
           }
       ]
   },
