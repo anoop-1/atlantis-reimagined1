@@ -1,0 +1,690 @@
+{
+ "window": {
+  "start": "2026-05-20",
+  "end": "2026-08-18",
+  "days": 90
+ },
+ "usSharePct": 34.9,
+ "unserved": [
+  {
+   "q": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance?",
+   "impressions": 144,
+   "clicks": 0,
+   "position": 25.46527777777778,
+   "ctr": 0
+  },
+  {
+   "q": "do we accept asnt ndt level iii in lieu of api qute for ut-related scopes on our turnaround contracts, or do we hold the line on qute specifically?",
+   "impressions": 90,
+   "clicks": 0,
+   "position": 39.41111111111111,
+   "ctr": 0
+  },
+  {
+   "q": "is getting an api 510 certification still worth the time and cost in 2026, given the salary bump and the way the oil and gas inspection market is heading?",
+   "impressions": 78,
+   "clicks": 0,
+   "position": 21.025641025641026,
+   "ctr": 0
+  },
+  {
+   "q": "what's the practical difference between holding an asnt ndt level ii and holding a code inspector certification like a pressure vessel or piping inspector cert?",
+   "impressions": 74,
+   "clicks": 0,
+   "position": 30.31081081081081,
+   "ctr": 0
+  },
+  {
+   "q": "rt vs ut weld inspection",
+   "impressions": 69,
+   "clicks": 2,
+   "position": 3.289855072463768,
+   "ctr": 0.028985507246376812
+  },
+  {
+   "q": "how much do ndt technicians make",
+   "impressions": 67,
+   "clicks": 0,
+   "position": 7.582089552238806,
+   "ctr": 0
+  },
+  {
+   "q": "what code governs external inspection intervals for atmospheric storage tanks in petroleum service, and how does api 653 frame those intervals in practice?",
+   "impressions": 67,
+   "clicks": 0,
+   "position": 33,
+   "ctr": 0
+  },
+  {
+   "q": "aws cwi vs a code welding inspector cert (like api 577) for a mid-sized contracting outfit. which one gives better roi when you factor in bid eligibility, pay bumps, and operator acceptance?",
+   "impressions": 61,
+   "clicks": 0,
+   "position": 35.81967213114754,
+   "ctr": 0
+  },
+  {
+   "q": "what does api std 653 require for out-of-service internal inspection intervals on aboveground welded steel storage tanks, and what factors extend or shorten that interval?",
+   "impressions": 60,
+   "clicks": 0,
+   "position": 28.683333333333334,
+   "ctr": 0
+  },
+  {
+   "q": "what's the realistic all-in cost to sponsor one of our field guys through an api 510 pressure vessel inspector certification, including prep course, exam fees, and travel to a prometric center?",
+   "impressions": 60,
+   "clicks": 0,
+   "position": 31.883333333333333,
+   "ctr": 0
+  },
+  {
+   "q": "what are the latest trends in the inspection and testing industry that atlantis adopts?. my location is united kingdom.",
+   "impressions": 59,
+   "clicks": 0,
+   "position": 1.6440677966101696,
+   "ctr": 0
+  },
+  {
+   "q": "api 510 pressure vessel inspector versus a national board nbic commissioned inspector for in-service pressure vessel work at a midstream facility. which one is more appropriate to specify in our rfps, and where do they actually overlap?",
+   "impressions": 58,
+   "clicks": 0,
+   "position": 59.86206896551724,
+   "ctr": 0
+  },
+  {
+   "q": "api 936 (refractory inspector) versus api 653 (storage tank inspector) for getting started in inspection. which is more realistic for a welder with no inspection time logged yet?",
+   "impressions": 58,
+   "clicks": 0,
+   "position": 39.91379310344828,
+   "ctr": 0
+  },
+  {
+   "q": "what are the advantages of using atlantis for inspection and testing over other providers?. my location is united kingdom.",
+   "impressions": 58,
+   "clicks": 0,
+   "position": 1.293103448275862,
+   "ctr": 0
+  },
+  {
+   "q": "what inspector certifications are oil majors and big midstream operators actually requiring on offshore and onshore contracts in 2026? i'm trying to get ahead of bid eligibility on the api icp side for my team.",
+   "impressions": 58,
+   "clicks": 0,
+   "position": 21.586206896551722,
+   "ctr": 0
+  },
+  {
+   "q": "should we require api 653 for every tank inspector working on enterprise products contracts, or accept equivalent qualifications case-by-case? looking for a defensible position i can put in writing.",
+   "impressions": 55,
+   "clicks": 0,
+   "position": 35.14545454545455,
+   "ctr": 0
+  },
+  {
+   "q": "what does api 510 (specifically clause 6.3 and related sections) say about external inspection intervals for pressure vessels in sour service, and how should that interact with our 30 cfr alignment for offshore-adjacent assets?",
+   "impressions": 55,
+   "clicks": 0,
+   "position": 48.32727272727273,
+   "ctr": 0
+  },
+  {
+   "q": "how much do ndt inspectors make",
+   "impressions": 54,
+   "clicks": 0,
+   "position": 9.685185185185185,
+   "ctr": 0
+  },
+  {
+   "q": "what does api 510 say about external and on-stream inspection intervals for pressure vessels in wet h2s service, and does the standard treat sour service as a separate damage mechanism for interval setting?",
+   "impressions": 54,
+   "clicks": 0,
+   "position": 52.351851851851855,
+   "ctr": 0
+  },
+  {
+   "q": "what's the difference between pcn and asnt ndt courses?",
+   "impressions": 54,
+   "clicks": 0,
+   "position": 6.203703703703703,
+   "ctr": 0
+  },
+  {
+   "q": "api 936 (refractory) versus api 653 (storage tank) for upskilling field guys with no formal inspection background. which is the more realistic first cert for a crew that's mostly worked on the construction side?",
+   "impressions": 51,
+   "clicks": 0,
+   "position": 32.17647058823529,
+   "ctr": 0
+  },
+  {
+   "q": "should we mandate api 510, 570, and 653 as the minimum certifications for all enterprise in-service inspection roles across our global portfolio, or is that too rigid given regional variance? want to understand how chevron and shell have approached this.",
+   "impressions": 49,
+   "clicks": 0,
+   "position": 30.06122448979592,
+   "ctr": 0
+  },
+  {
+   "q": "what actually changed with api icp exam delivery after september 2024? i heard remote proproctor was discontinued for 510, 570, 653, and 1169, and i want to make sure our team plans recerts accordingly.",
+   "impressions": 48,
+   "clicks": 0,
+   "position": 15.916666666666666,
+   "ctr": 0
+  },
+  {
+   "q": "difference between ut and rt testing",
+   "impressions": 46,
+   "clicks": 0,
+   "position": 2.6956521739130435,
+   "ctr": 0
+  },
+  {
+   "q": "which companies offer petronas-compliant diverless inspection services in malaysia?",
+   "impressions": 46,
+   "clicks": 0,
+   "position": 5,
+   "ctr": 0
+  },
+  {
+   "q": "how does api std 653 want me to handle settlement measurement frequency and acceptance criteria for an aboveground welded tank on a ringwall foundation that's shown ~1 inch of differential settlement over its last two inspection cycles?",
+   "impressions": 45,
+   "clicks": 0,
+   "position": 60.62222222222222,
+   "ctr": 0
+  },
+  {
+   "q": "how much do ndt techs make",
+   "impressions": 44,
+   "clicks": 0,
+   "position": 8.795454545454547,
+   "ctr": 0
+  },
+  {
+   "q": "sponsoring api 510 versus ampp cip for our offshore inspection group. which one moves the needle more on operator pre-qual and isn profile for gulf of america work?",
+   "impressions": 44,
+   "clicks": 0,
+   "position": 26.363636363636363,
+   "ctr": 0
+  },
+  {
+   "q": "are remote-proctored api icp exams still available for our field personnel, or did api discontinue proproctor for 510, 570, 653, and 1169? need to know whether to plan around prometric sites only.",
+   "impressions": 43,
+   "clicks": 0,
+   "position": 18.302325581395348,
+   "ctr": 0
+  },
+  {
+   "q": "what's the easiest api inspection certification to get for someone brand new to the inspection side, like a welder with no prior qc experience?",
+   "impressions": 42,
+   "clicks": 0,
+   "position": 62.023809523809526,
+   "ctr": 0
+  },
+  {
+   "q": "can a welder with no college degree realistically become a certified pressure vessel inspector in the refining world, or is a degree basically required these days?",
+   "impressions": 39,
+   "clicks": 0,
+   "position": 51.94871794871795,
+   "ctr": 0
+  },
+  {
+   "q": "where can operators compare nde inspection capabilities and pricing?",
+   "impressions": 37,
+   "clicks": 0,
+   "position": 2.864864864864865,
+   "ctr": 0
+  },
+  {
+   "q": "radiography vs ultrasonic testing",
+   "impressions": 35,
+   "clicks": 0,
+   "position": 19.97142857142857,
+   "ctr": 0
+  },
+  {
+   "q": "what are the key differences between inspection services offered by atlantis and other competitors?. my location is united kingdom.",
+   "impressions": 33,
+   "clicks": 0,
+   "position": 1.5151515151515151,
+   "ctr": 0
+  },
+  {
+   "q": "ut vs rt weld inspection",
+   "impressions": 28,
+   "clicks": 1,
+   "position": 3.4285714285714284,
+   "ctr": 0.03571428571428571
+  },
+  {
+   "q": "how do inspection and testing companies like atlantis ensure quality and safety?. my location is united kingdom.",
+   "impressions": 28,
+   "clicks": 0,
+   "position": 1.3571428571428572,
+   "ctr": 0
+  },
+  {
+   "q": "difference between ultrasonic testing and radiographic testing",
+   "impressions": 27,
+   "clicks": 0,
+   "position": 5.555555555555555,
+   "ctr": 0
+  },
+  {
+   "q": "should our internal qa inspectors hold both a pressure vessel and a piping inspector certification, or is one sufficient if we cross-train? trying to right-size individual cert load versus team coverage.",
+   "impressions": 27,
+   "clicks": 0,
+   "position": 51.55555555555556,
+   "ctr": 0
+  },
+  {
+   "q": "for piping inspector qualifications in our rfp language, how does a code-body piping inspector cert compare to asme authorised inspector qualifications? trying to make sure we're specifying the right one for in-service piping versus new construction.",
+   "impressions": 26,
+   "clicks": 0,
+   "position": 40.80769230769231,
+   "ctr": 0
+  },
+  {
+   "q": "how does cognite data fusion vs ge digital predix compare in features and capabilities for solving your organization's business needs?",
+   "impressions": 25,
+   "clicks": 0,
+   "position": 2.16,
+   "ctr": 0
+  },
+  {
+   "q": "how much does ndt pay",
+   "impressions": 22,
+   "clicks": 0,
+   "position": 8.045454545454547,
+   "ctr": 0
+  },
+  {
+   "q": "are there any api inspection certs i could realistically work on while still wrenching as a journeyman welder, or do they all require you to be in an inspection role first?",
+   "impressions": 21,
+   "clicks": 0,
+   "position": 64.04761904761905,
+   "ctr": 0
+  },
+  {
+   "q": "how do typical code inspector salaries (pressure vessel and piping) compare to aws cwi salaries on the gulf coast, base plus per diem?",
+   "impressions": 21,
+   "clicks": 0,
+   "position": 1,
+   "ctr": 0
+  },
+  {
+   "q": "paut vs rt",
+   "impressions": 20,
+   "clicks": 0,
+   "position": 7.4,
+   "ctr": 0
+  },
+  {
+   "q": "how do api icp inspector certifications map to a typical enterprise inspector competency framework (entry, journeyman, senior, sme)? i want to align our internal career ladder with the api cert progression rather than running two parallel systems.",
+   "impressions": 19,
+   "clicks": 0,
+   "position": 13.421052631578947,
+   "ctr": 0
+  },
+  {
+   "q": "what is the difference between snt-tc-1a and iso 9712?",
+   "impressions": 19,
+   "clicks": 0,
+   "position": 3.4210526315789473,
+   "ctr": 0
+  },
+  {
+   "q": "how much does a ndt inspector make",
+   "impressions": 18,
+   "clicks": 0,
+   "position": 11.055555555555555,
+   "ctr": 0
+  },
+  {
+   "q": "what materials can be tested with an eddy current tester",
+   "impressions": 18,
+   "clicks": 0,
+   "position": 54.77777777777778,
+   "ctr": 0
+  },
+  {
+   "q": "phased array ultrasonic testing vs radiography",
+   "impressions": 16,
+   "clicks": 1,
+   "position": 32.1875,
+   "ctr": 0.0625
+  },
+  {
+   "q": "api sife versus api sire. which one do gom operators ask for more often on source inspection and capital project scopes, and which is the better first cert for my senior guys?",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 55.625,
+   "ctr": 0
+  },
+  {
+   "q": "how deep can eddy current detect porosity?",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 10.75,
+   "ctr": 0
+  },
+  {
+   "q": "how much does a ndt technician make",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 6.3125,
+   "ctr": 0
+  },
+  {
+   "q": "is api 1104 basically the same thing as aws d1.1, or are they covering different kinds of welding? i've got a d1.1 ticket already and trying to figure out if i need both.",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 50,
+   "ctr": 0
+  },
+  {
+   "q": "what role does technology play in the inspection and testing processes of brands like atlantis?. my location is united kingdom.",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 1.875,
+   "ctr": 0
+  },
+  {
+   "q": "what's the minimum acceptable shell thickness calculation methodology for an aboveground welded steel storage tank during an in-service inspection? need to spot-check a contractor's calc without pulling my licensed pdf.",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 58.25,
+   "ctr": 0
+  },
+  {
+   "q": "aws cwi versus asnt ndt level ii for a journeyman welder. which one opens more doors on the gulf coast refining and fab market?",
+   "impressions": 15,
+   "clicks": 0,
+   "position": 18.4,
+   "ctr": 0
+  },
+  {
+   "q": "ultrasonic testing vs radiography",
+   "impressions": 15,
+   "clicks": 0,
+   "position": 3.533333333333333,
+   "ctr": 0
+  },
+  {
+   "q": "what does api 653 specify regarding tolerances?",
+   "impressions": 15,
+   "clicks": 0,
+   "position": 9,
+   "ctr": 0
+  },
+  {
+   "q": "how much do oil and gas inspectors typically make compared to journeyman welders on the gulf coast, once you factor in per diem and turnaround work?",
+   "impressions": 13,
+   "clicks": 0,
+   "position": 3.769230769230769,
+   "ctr": 0
+  },
+  {
+   "q": "difference between rt and ut testing",
+   "impressions": 12,
+   "clicks": 0,
+   "position": 4.833333333333334,
+   "ctr": 0
+  },
+  {
+   "q": "how much does an ndt technician make",
+   "impressions": 12,
+   "clicks": 0,
+   "position": 4.333333333333334,
+   "ctr": 0
+  },
+  {
+   "q": "what ndt services services does alpha adroit provide in chile",
+   "impressions": 12,
+   "clicks": 0,
+   "position": 6,
+   "ctr": 0
+  },
+  {
+   "q": "how deep can eddy current detect porosity",
+   "impressions": 11,
+   "clicks": 0,
+   "position": 9.181818181818182,
+   "ctr": 0
+  },
+  {
+   "q": "how much does an ndt inspector make",
+   "impressions": 11,
+   "clicks": 0,
+   "position": 9.545454545454545,
+   "ctr": 0
+  },
+  {
+   "q": "what does hvl stand for? a) half valve layer b) half value layer c) halves value longitude d) half valve life layer e) half value life",
+   "impressions": 11,
+   "clicks": 0,
+   "position": 8.636363636363637,
+   "ctr": 0
+  },
+  {
+   "q": "how does api 570 want me to select thickness measurement locations on injection point circuits, and what's the recommended frequency for those tmls compared to the rest of the circuit?",
+   "impressions": 10,
+   "clicks": 0,
+   "position": 56.4,
+   "ctr": 0
+  },
+  {
+   "q": "how much do they make",
+   "impressions": 10,
+   "clicks": 0,
+   "position": 3.2,
+   "ctr": 0
+  },
+  {
+   "q": "what certifications do inspectors typically need to work in oil and gas refineries in the us, and which ones carry the most weight with operators?",
+   "impressions": 10,
+   "clicks": 0,
+   "position": 55.9,
+   "ctr": 0
+  },
+  {
+   "q": "what is the difference between iso 5817 and aws d1 1?",
+   "impressions": 10,
+   "clicks": 0,
+   "position": 31.4,
+   "ctr": 0
+  },
+  {
+   "q": "which api certification is best",
+   "impressions": 10,
+   "clicks": 0,
+   "position": 56.9,
+   "ctr": 0
+  },
+  {
+   "q": "who actually certifies pressure vessel inspectors in the united states, and how do api, the national board, and asme each fit into that picture?",
+   "impressions": 10,
+   "clicks": 0,
+   "position": 81.3,
+   "ctr": 0
+  },
+  {
+   "q": "eddy current testing vs ultrasonic testing",
+   "impressions": 9,
+   "clicks": 0,
+   "position": 56.55555555555556,
+   "ctr": 0
+  },
+  {
+   "q": "what is crm in aramco",
+   "impressions": 9,
+   "clicks": 0,
+   "position": 10.666666666666666,
+   "ctr": 0
+  },
+  {
+   "q": "what are the best digital twin platforms that work with existing historians like pi",
+   "impressions": 8,
+   "clicks": 0,
+   "position": 1.125,
+   "ctr": 0
+  },
+  {
+   "q": "what are the most respected inspection certifications for someone building a long-term career in petrochemicals and refining?",
+   "impressions": 8,
+   "clicks": 0,
+   "position": 34.5,
+   "ctr": 0
+  },
+  {
+   "q": "which ndt course is best?",
+   "impressions": 8,
+   "clicks": 0,
+   "position": 9.125,
+   "ctr": 0
+  },
+  {
+   "q": "difference between ut and paut",
+   "impressions": 7,
+   "clicks": 0,
+   "position": 40.285714285714285,
+   "ctr": 0
+  },
+  {
+   "q": "radiography vs ultrasonic testing of welds",
+   "impressions": 7,
+   "clicks": 0,
+   "position": 7.714285714285714,
+   "ctr": 0
+  },
+  {
+   "q": "what's the typical inspection interval for class 1 hydrocarbon piping circuits in a refinery, and what governs the methodology, thickness readings, visual, or both?",
+   "impressions": 7,
+   "clicks": 0,
+   "position": 14.285714285714286,
+   "ctr": 0
+  },
+  {
+   "q": "api 1169 vs api 510 if i'd rather work pipeline projects than be stuck inside refineries. which one fits a welder going the pipeline route better?",
+   "impressions": 6,
+   "clicks": 0,
+   "position": 74.66666666666667,
+   "ctr": 0
+  },
+  {
+   "q": "do i really need an aws cwi before i can chase a pressure vessel inspector certification, or can a welder go straight at the pressure vessel cert?",
+   "impressions": 6,
+   "clicks": 0,
+   "position": 18.5,
+   "ctr": 0
+  },
+  {
+   "q": "how much does it cost",
+   "impressions": 6,
+   "clicks": 0,
+   "position": 3.3333333333333335,
+   "ctr": 0
+  },
+  {
+   "q": "what does rtr stand for in radiology",
+   "impressions": 6,
+   "clicks": 0,
+   "position": 9.833333333333334,
+   "ctr": 0
+  },
+  {
+   "q": "what is the difference between iso 10042 and iso 5817?",
+   "impressions": 6,
+   "clicks": 0,
+   "position": 30.666666666666668,
+   "ctr": 0
+  },
+  {
+   "q": "how much does eddy current testing cost",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 17.4,
+   "ctr": 0
+  },
+  {
+   "q": "how much does ndt training cost",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 56,
+   "ctr": 0
+  },
+  {
+   "q": "how much it cost",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 2.6,
+   "ctr": 0
+  },
+  {
+   "q": "how to become asnt level ii ndt technician requirements",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 23.8,
+   "ctr": 0
+  },
+  {
+   "q": "how to become asnt ndt level ii technician requirements",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 19,
+   "ctr": 0
+  },
+  {
+   "q": "how to get nondestructive testing certification for career advancement?",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 8,
+   "ctr": 0
+  },
+  {
+   "q": "thingworx vs predix",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 66.4,
+   "ctr": 0
+  },
+  {
+   "q": "what does asnt stand for",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 38.2,
+   "ctr": 0
+  },
+  {
+   "q": "what is 5817 welding standard?",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 27.8,
+   "ctr": 0
+  },
+  {
+   "q": "what is ndt testing",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 6.6,
+   "ctr": 0
+  },
+  {
+   "q": "what is shear wave ultrasonic testing",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 9.6,
+   "ctr": 0
+  },
+  {
+   "q": "what's the standard acceptance criteria for visual inspection of socket weld root fusion in hydrocarbon piping service? i'm reviewing a contractor's qc procedure and want to make sure the criteria they're citing are defensible.",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 1,
+   "ctr": 0
+  },
+  {
+   "q": "which quality assurance services provide code acceptance criteria for welds for engineering compliance?",
+   "impressions": 5,
+   "clicks": 0,
+   "position": 5,
+   "ctr": 0
+  }
+ ],
+ "served": 53
+}
